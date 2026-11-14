@@ -513,3 +513,5 @@
 
 
 - [实际完整记录](results/R133-supplement-actual-complete-169-germ-phase-scalar-cover.md)：实际四个公开CI子进程全部exit0，原germ0复用，完整169真实germ/626接受Taylor格/457原拒全保。11门normal0/1.12s逐原SHA和准确cover重消费，五scalar全误差积分<3.733261e−14<2^-42，最大depth24；全primitive/指数尾、真q正分支、固定η0范围保留。没有重算target，也未把scalar缓存当完整flow或inverse。
+
+- [R133更近的七有界二次旋转目标](results/R133-supplement-nearby-bounded-seven-phase-target.md)：完整证明ρnew=(45217079201−√5)/164472125458的全部连分数系数≤7，保持所有四次单位根gap>1/(36|j|)；256-bit Arb实际11门通过，角目标与原拟合的差<7e−11（原目标差3.160958e−6）。更换终端常数只增加该明确费用，不改原候选或已算transport；真共轭/ν Schur/β项仍待。

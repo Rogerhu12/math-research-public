@@ -195,3 +195,5 @@ tail_connector：把实际非径向内部正型接全部外部响应、Γ*参数
 
 
 [实际完整记录](results/R133-supplement-actual-complete-169-germ-phase-scalar-cover.md)：实际四个公开CI子进程全部exit0，原germ0复用，完整169真实germ/626接受Taylor格/457原拒全保。11门normal0/1.12s逐原SHA和准确cover重消费，五scalar全误差积分<3.733261e−14<2^-42，最大depth24；全primitive/指数尾、真q正分支、固定η0范围保留。没有重算target，也未把scalar缓存当完整flow或inverse。
+
+[新的实际候选旋转目标](results/R133-supplement-nearby-bounded-seven-phase-target.md)：ρnew=(45217079201−√5)/164472125458，全部partial quotient≤7，四次单位根gap仍>1/(36|j|)。其角旋转与原Ωfit的严格差<7e−11，原ρold相差3.160958182139e−6；原transport/背景不变，终端缺陷只加7e−11。后续真共轭选择采用此更近目标；这不是实际旋转数锁定，原真ν Schur、β/j、strong项和背景改变费用全部保留。
