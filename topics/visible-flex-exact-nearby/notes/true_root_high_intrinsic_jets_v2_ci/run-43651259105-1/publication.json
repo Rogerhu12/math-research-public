@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43651259105",
+  "reviewed_pull_history": [
+    {
+      "before": "caaf7a79d33a43c981500f2c0330dca923997c31",
+      "after": "caaf7a79d33a43c981500f2c0330dca923997c31",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "caaf7a79d33a43c981500f2c0330dca923997c31",
+      "after": "caaf7a79d33a43c981500f2c0330dca923997c31",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/process.json",
+      "bytes": 27056,
+      "sha256": "3b06c881b8b00f8bb830653b3eb290b09687b0a2576320b605ba758e2e706abe",
+      "original_sha256": "3b06c881b8b00f8bb830653b3eb290b09687b0a2576320b605ba758e2e706abe"
+    },
+    {
+      "file": "consumers/true-root-high-intrinsic-jets-v2.json.gz",
+      "bytes": 570579,
+      "sha256": "38a8ba8d2998a75ddb863fe9b486defd756a22488e1c3a96ed8bf54581877e8f",
+      "original_sha256": "38a8ba8d2998a75ddb863fe9b486defd756a22488e1c3a96ed8bf54581877e8f"
+    },
+    {
+      "file": "consumers/true-root-high-intrinsic-jets-v2.stdout.log",
+      "bytes": 268,
+      "sha256": "b56175c472785a1a5d675ef0c4b51dd10b06b193bc97e9e0246195df192693cf",
+      "original_sha256": "b56175c472785a1a5d675ef0c4b51dd10b06b193bc97e9e0246195df192693cf"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 19760,
+      "sha256": "7239118e3effc929e91f55d934946143deafe6a79af6c9ac6c464c65c822e4f1",
+      "original_sha256": "7239118e3effc929e91f55d934946143deafe6a79af6c9ac6c464c65c822e4f1"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2473,
+      "sha256": "d70ac1fb1792af6a4fcf3119d387b34bd4a3294cbdb6d7e66dcf09d4f79476a1",
+      "original_sha256": "d70ac1fb1792af6a4fcf3119d387b34bd4a3294cbdb6d7e66dcf09d4f79476a1"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}
