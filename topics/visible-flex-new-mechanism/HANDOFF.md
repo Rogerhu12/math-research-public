@@ -9,7 +9,7 @@
 ## 规则与同步
 
 - 已完整读公开根 README 和本课题 README，校对 `visible-flexible-closed-surface/README.md` 的 $D,H,\delta_{\rm hold},\delta_E$ 定义。
-- 公开仓库最后已读规则提交：`6bc34237bfc8065e0bd9cf83beb9359137764e79`；该次实际 `git pull --rebase origin main` 成功，随后两 README diff 为空。
+- 公开仓库最后已读规则提交：`f825b1136b0f69a3917127c5c3da719f1fbe2ec1`；该次实际 `git pull --rebase origin main` 成功，随后两 README diff 为空。
 - 作者指定的 QUEUE 领取已执行成功。研究与计算在本公开仓库；公开笔记只使用公开来源和独立推导。
 - 每次 pull 后比较这两个公开 README，变更仅读差异并照办；至少每小时 pull。每条结论立即提交并在推前 pull；非快进拒绝即 rebase 重试，不强推。
 - 令牌仅瞬时命令行认证，不入文件；数值大数组/网格不读入对话。根 LOG 不写；结果单文件、Markdown 小于100KB，数据大于1MB压缩且单件小于5MB。
@@ -47,12 +47,12 @@ Actions的文献q=3种子使用同一闭合权重和物理带宽。参考带的�
 ## 正在推进
 
 1. 主线已转向强椭圆1/.3的准确柱段入口和始终内收的回折半带，再按R3镜像闭合。两端位置与平均中心仍必须来自同一嵌入，不能独立置中。
-2. `notes/core-tail-inward-plan-20261114.md` 给完整CLI和真实端口弦长筛查；A已由R4排除。Actions43587455201的inward B/C数值步骤成功，待拉取实值逐项审计。D的L=.84廉价圆参考检查已保存，仍不是非轴连接；后续端高必须落实R4。
+2. `notes/core-tail-inward-plan-20261114.md` 给完整CLI和真实端口弦长筛查；A已由R4排除。Actions43587455201的inward B/C最细metric为.718/.692，真实末盘低于柱端，柱/盘子集严格给reach≤.02，均失败。改用恒周长椭圆逐级延续与较高unit-wiggle参考；另做抬高实际端盘的固定g表示，二者都须重新验证。
 3. 开放核心锁定的Cartesian/signed原global plateau pilot均失败，最细metric为.586/.171；前者曲率样本已排除reach比例，后者FFT连续二jet尚未证。物理椭圆轴有周长归一缩放，不能混作R3的1/.3预算。
 4. 本题公开 workflow `.github/workflows/visible-new-mechanism-search.yml` 的 `43584472315` 两lane均已成功。偏心e=.05/.1/.2/.3/.45的真实metric依次`.00139/.00346/.01899/.02459/.03789`，不通过；角平均E几乎触及上限4。文献种子闭合残差随固定参数精化到约`1e-14`；仍不是闭曲面连续族。
 5. 同时继续 `core_to_tail_bvp.py` 一侧实际连接及有符号Frenet版单位切向BVP。
 6. 有符号图、中央非圆锁定及8个core-tail实际BVP已保存；最细原一侧设计metric约`.015232`。Actions `43585440463` 的核谱三档与两回折BVP均实际完成；回折metric为`.108487/.116044`，仍失败。publisher忘记新增lane枚举导致发布失败，已从官方artifact原样恢复到对应 `notes/actions-43585440463-1-*/`，补来源receipt并修复枚举，未重复数值计算。
-7. 三矩/range/六项多项式Volterra公式已完成；实际二阶Actions `43585888368` 显示原profile有非零周期障碍、低分辨率公式不一致和巨大投影Z，未形成小校正。43587455201的bump高N三公式吻合至约1e-9相对量级，但两周期仍为约8.80e6/2.04e6，投影截断metric仍约57，故原圆路径不相容；Newton末尾JSON布尔类型失败，已修复并按同参数单独重跑，旧运行无可恢复结果；所有原障碍保留，不能用减均值冒解。
+7. 三矩/range/六项多项式Volterra公式已完成；实际二阶Actions `43585888368` 显示原profile有非零周期障碍、低分辨率公式不一致和巨大投影Z，未形成小校正。43587455201的bump高N三公式吻合至约1e-9相对量级，但两周期仍为约8.80e6/2.04e6，投影截断metric仍约57，故原圆路径不相容；Newton末尾JSON布尔类型失败，已修复，同参数重跑43588099714成功，待审读真实输出；旧失败运行无可恢复结果；所有原障碍保留，不能用减均值冒解。
 8. 核谱旧单bump ε=1e-5主曲率半径/中心线D样本仅`.00114767`。84几何设计的Actions `43586501855` 已成功，新增symmetric无厚度改善；旧窄带非局部法球样本比仅`.00883420`。这些输入都不是宏观reach合格起点，详见 `notes/literature-geometry-design-20261114.md`。
 
 ## 工作文件
