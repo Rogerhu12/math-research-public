@@ -1,0 +1,359 @@
+{
+  "result": "R672",
+  "disk_id": "SS_j9_12",
+  "input_sha256": {
+    "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_selected_SS_F2_connection_clearing_frame47.py": "48e0cf5bfed1c15fd8dd6ba77357c4856dca0a2078b68dfb2b3aeeecd5bf9baf",
+    "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_moved_SS_F2_full_canonical_norm_clearing_frame47.py": "09ce45ae867d5726e85167ecc4f73132c530c8e58bec215a8aa735753234dd9e",
+    "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_selected_SS_F2_polynomial_clearing_frame47.py": "ff555f78524ce8a2ea70b388abecc2052920fc2b0b8ffb7a8803c720cc70df56",
+    "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_serre_clearing_nonelliptic_disks47.json.gz": "3c07ff74f610140eac3f7198b5d56d54f04e78c9db192507a6817f67f4f237dd",
+    "/home/runner/work/_temp/serre-p41-nonelliptic/R672/work/f2/SS_j9_12_actual_canonical_F2_height47.json.gz": "5121df5aa02be898e26cc0d338487bc28328d29b468f35206f4af3c2ae7d0327",
+    "/home/runner/work/_temp/serre-p41-nonelliptic/R672/work/f2/SS_j9_12_actual_canonical_F2_polynomial47.json.gz": "d3246ebf2cee2fd22696374b0f0364cba04a747319d7abb6225ce035350e02ec",
+    "/home/runner/work/_temp/serre-p41-nonelliptic/R672/work/f2/SS_j9_12_actual_F2_first_variable_norm47.json.gz": "ac95de8ed7b048c8cba36705cc14f59bcb52f61483eeba674e108dcd168051ca",
+    "/home/runner/work/_temp/serre-p41-nonelliptic/R672/work/f2/SS_j9_12_actual_T2_support47.json.gz": "c3ab741de3fb5d9f2f6cec901e1420248e367f7db23cacebc32551b0fe7b8afd",
+    "/home/runner/work/_temp/serre-p41-nonelliptic/R672/work/f2/p41_j9_remaining16_moving_independent_audit_block0247.json": "bcd9a2e4e6bbc2e0bf62faf3ca06c484881278830769386403ba6c971f30c880",
+    "/home/runner/work/_temp/serre-p41-nonelliptic/R672/work/f2/SS_j9_12_actual_T2_principal_norm47.json.gz": "8aba915a16538568e6167dac982eddb93043a1c9781a95728cea35368ee79b20",
+    "/home/runner/work/_temp/serre-p41-nonelliptic/R672/work/f2/SS_j9_12_principal_expression47.json.gz": "dcb4f1d6f43161060b583ecc56955a7f713c785c8c83216474fba6c10dbd75a7",
+    "/home/runner/work/_temp/serre-p41-nonelliptic/R672/work/f2/SS_j9_12_actual_second_kind_integrals47.json.gz": "ed9f6cf2b6611530bf5d6dbdb0f90162ea81ad32d6f6fbc5ff124e1beb283841",
+    "/home/runner/work/_temp/serre-p41-nonelliptic/R672/work/f2/chain/SS_j9_12_Abel47.json.gz": "0eacc22d5056bf5a6369bf80b657cca38fff592de70cbecfae779bc21e94e05e",
+    "/home/runner/work/_temp/serre-p41-nonelliptic/R672/work/f2/chain/SS_j9_12_multiply47.json.gz": "e439214cbe20831733748a1003d3cb6df5247ad289c17a7e54b37aedf6f2cffb",
+    "/home/runner/work/_temp/serre-p41-nonelliptic/R672/work/f2/p41_j9_remaining16_moved_based_points_block0247.json.gz": "b3d0133fa0399170ba496ad02c382f12fcf39f8d13177f74a3974bb29711a623",
+    "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_three_ordinary_CM_anchors_and_113_global_functions47.json.gz": "a9c40049ce3eab329ed22ff27edcb39e929491bacf35c11887b348c0609bdb6a",
+    "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_rational_SS_second_kind_integrals47_complete.json.gz": "c8b5e8d292b89dadf5cfa5f1b7bafadff6848cda61ddfe207c5009f2ed6a401d",
+    "/home/runner/work/_temp/serre-p41-nonelliptic/R672/work/f2/SS-principal-transports/SS_j9_12/transport_manifest47.json": "0759400e31af106928c4c082782314b257ce037571dbc122fa8993876227881f"
+  },
+  "source_sha256": "52951dbf50cb96d5234651e67c99f4ede4905f8c92be2bae0b0e3b83aa3fe6f5",
+  "same_actual_clearing_frame_in_Norm_center_polynomial_verified": true,
+  "checked_nested_hash_edges": [
+    [
+      "center",
+      "second"
+    ],
+    [
+      "center",
+      "principal"
+    ],
+    [
+      "center",
+      "T2_support"
+    ],
+    [
+      "center",
+      "full_norm"
+    ],
+    [
+      "polynomial",
+      "center"
+    ],
+    [
+      "polynomial",
+      "Abel"
+    ],
+    [
+      "polynomial",
+      "multiply"
+    ],
+    [
+      "Abel",
+      "multiply"
+    ],
+    [
+      "second",
+      "Abel"
+    ],
+    [
+      "second",
+      "multiply"
+    ],
+    [
+      "second",
+      "based"
+    ],
+    [
+      "principal",
+      "second"
+    ],
+    [
+      "T2_norm",
+      "principal"
+    ],
+    [
+      "T2_norm",
+      "T2_support"
+    ],
+    [
+      "full_norm",
+      "T2_norm"
+    ],
+    [
+      "full_norm",
+      "principal"
+    ],
+    [
+      "full_norm",
+      "second"
+    ],
+    [
+      "full_norm",
+      "multiply"
+    ],
+    [
+      "full_norm",
+      "based"
+    ],
+    [
+      "full_norm",
+      "clearing"
+    ],
+    [
+      "center",
+      "clearing"
+    ],
+    [
+      "polynomial",
+      "clearing"
+    ]
+  ],
+  "all459_actual_principal_function_hashes_verified": true,
+  "all457_integer_divisor_SLP_relations_replayed": true,
+  "all_three_V2_functions_bound_to_two_actual_moves_and_initial_negative": true,
+  "initial_moving_f_exponent": 21113421681728164076758160383370947105909472013138012462421148345826995695660466565589785072,
+  "initial_moving_h_exponent": -21113421681728164076758160383370947105909472013138012462421148345826995695660466565589785072,
+  "exact_final_f0_exponent_zero_and_total_weight_zero": true,
+  "T2_saved_Weierstrass_relations_independently_replayed": 1371,
+  "all462_full106_norm_values_recombined_by_exact_integer_exponents": true,
+  "fixed_and_collision_Weierstrass_replay": {
+    "all24_points": [
+      {
+        "label": "P_minus3",
+        "C_order": -1,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "P_minus12",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "P_minus7",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_16",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_34",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_54",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_76",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_122",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_175",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_209",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_239",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_247",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_290",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_365",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_440",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_480",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_525",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_610",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_647",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_679",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_689",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_735",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_762",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "SS_j9_12",
+        "C_order": 1,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      }
+    ],
+    "actual_Weierstrass_relation_count": 10968,
+    "all_six_complete73_ideals_bound": true,
+    "all24_actual_chart_to_j_units_independently_checked": true
+  },
+  "all108_actual_integrals_match_independent_SS_Hecke_solutions": true,
+  "all54_principal_norm_derivatives_plus_terminal_tiny_equal_m_times_original_nu": true,
+  "all_actual_family1_integrals_independently_reassembled": {
+    "B": 3788153,
+    "C": 3625815,
+    "D_minus20b": 4414005,
+    "K_g1_minus106b": 2773282,
+    "T2C": 1774203,
+    "Z8_minus20b": 4215383,
+    "c7_minus_b": 1286202,
+    "u_minus_b": 125020
+  },
+  "actual_j_to_z_tangent_change_cancels_in_height": true,
+  "actual_g1_over_dj_base_center": [
+    433965,
+    4520056
+  ],
+  "canonical_sigma": 4677678,
+  "canonical_sigma_log": 458626,
+  "signed_actual_scale": 21113421681728164076758160383370947105909472013138012462421148345826995695660466565589785072,
+  "second_divisor_tiny": 3196799,
+  "full_first_norm_log": 369514,
+  "actual_center_height": 1491075,
+  "local_polynomial": [
+    1491075,
+    1189147,
+    1528628,
+    1972637
+  ],
+  "global_polynomial": [
+    4528779,
+    1589916,
+    3140681,
+    2345958,
+    519115
+  ],
+  "QC_polynomial": [
+    2310943,
+    1810111,
+    158531,
+    373321,
+    519115
+  ],
+  "QC_div47_reduction": [
+    7,
+    20,
+    36,
+    0,
+    0
+  ],
+  "residual_roots": [
+    10,
+    26
+  ],
+  "simple_single_F2_root_candidates_to_available_precision": [
+    {
+      "y_mod47cubed": 46775,
+      "z_mod47four": 2198425,
+      "y_base47_digits": [
+        10,
+        8,
+        21
+      ],
+      "derivative_mod47": 35
+    },
+    {
+      "y_mod47cubed": 100982,
+      "z_mod47four": 4746154,
+      "y_base47_digits": [
+        26,
+        33,
+        45
+      ],
+      "derivative_mod47": 12
+    }
+  ],
+  "fixed_fraction_cross_audit": {
+    "replacements": [],
+    "scope": "No replacement present."
+  },
+  "eta_B_fraction_cross_audit": {
+    "replacement": false
+  },
+  "scope": "Independent exact saved-section DAG with two actual initial moving flips, all3 V2 functions, 1371 T2 and10968 fixed-point Weierstrass relations, unit Norm arithmetic, 108 independent Hecke matches, actual tangent and tiny integration scalars, and simple Hensel roots; no duplicate RR, torsion or long group-chain execution."
+}
