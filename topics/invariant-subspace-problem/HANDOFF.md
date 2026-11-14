@@ -3,16 +3,16 @@
 ## 目标、规则与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子存在定理或完整反例才可收尾。有限模型/候选排除不算完成。
-- **最近成功实际 pull 与已读规则提交：** `83c0abb9992f04f58aef07f1ef5e91696bc3a894`（2026-11-14 15:58:41 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `bcc5c5f07a6d60f966feaebbb79180b332334d13`（2026-11-14 16:03:01 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根Astra-ISP-789f独占Git/main与H/open/results/log；代理只写自己的稿。每结论立即推；每推前和至少每小时实际pull，逐次只读两README新差异并立刻遵守。非快进立即pull --rebase再推至成功，不force。
 - 旧库迁移授权已读，只用Rogerhu12/math-research-public；token仅CLI临时环境，不入文件。不改根README/LOG、不问重复授权。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
-- [上一完整H](notes/2026-11-14-handoff-before-three-spin-generator-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
+- [上一完整H](notes/2026-11-14-handoff-before-second-original-residual-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
 
 ## 工作区、真实数据与恢复
 
 根入口 `/workspace/scratch/789f3e887d7c/math-research-recovered` 软链至 `/dev/shm/isp-789f-math-research-recovered`，含完整新Git；根盘已满，勿移回。旧稿 `/workspace/scratch/789f3e887d7c/math-research-public` 的.git指针失效，只读。代理新稿改用 `/dev/shm/isp-789f-agent-incoming/{normal,literature,boundary}`。断连未推结果已按记录重做并推送。
 
-T96原图/DAG来自run43597823809 artifact14114364261，恢复在 `/tmp/isp-t96-recovery-789f`，原model补在NF目录。新高核run43605503242（源f5c3bd58、job132479150667）实际71.678458秒success，完整数据在 `/tmp/isp-high-kernel-bockstein-43605503242`；recovery artifact14118112895（240172632未压缩字节、11文件全SHA核清）至2026-12-14。全部小回执/矩阵已落库 `notes/r150-high-kernel-bockstein-actions-789f/43605503242-1/`。不重建旧图、不重放已核200来源。
+T96原图/DAG run43597823809恢复在 `/tmp/isp-t96-recovery-789f`，原model补在NF目录。旧200高核run43605503242与最后两核run43608688492全身份/恢复已核清；完整路径、artifact/SHA/预算及旧数据保上一H与落库回执。不重建旧图、不重放已核202来源。
 
 ## 原问题的未付接口
 
@@ -42,10 +42,11 @@ R293/297全正权/出生/高度加强κ等价奇硬首边同κ，奇→偶全源
 - [完整任意次数β障碍](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)：增量run43608688492/job132488731199实耗11.993844468秒，补2cost86核后1834核全覆盖，β像仍rank2、九余增广rank6、九目标分别失败。四非零β各最小ell=(s−1)(s−2)，全部1264 Krylov及九个三坐标dual保。排任意次数31整数h0来源，**不排31分母Q解**。11恢复文件原9.62MB全压缩落库 notes/r150-last-two-kernel-bockstein-actions-789f/43608688492-1/。
 - [唯一共同g](notes/2026-11-14-r150-known-bockstein-module-primary-correction-789f.md)：g=21h31/(s−2)，九ρ+gτ为旧两β常数组合。h1=(s+370)h0/(s−2)原mod961来源≤181；保根集H0=(s−2)h0现实际cost86。
 - [H0真原17式mod961](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)：run43611215116/job132496453939源5aa9c384实际53.711879712秒，原2195标准源/6188校正/最终九列成本全86、最高原系数75；全部原17/D-content/整数乘回成功。五完整gzip落 notes/r150-h25-original-mod961-actions-789f/43611215116-1/，primitive X SHA6ff5083c…566e32。完整恢复在 /tmp/isp-h25-original-mod961-43611215116；15文件/五gzip哈希全核。
+- [真实第二余量障碍](notes/2026-11-14-r150-h25-second-original-residual-obstruction-789f.md)：共享60秒/512MiB实际19.065773529秒，原A mod29791全乘回X后961整除、九NF/G余及820/315全观察完成。九r2各不在完整β像，模该像最小ell；排所有Y≡本次X(mod31)的任意参数次数mod29791提升，**不排改初值或31分母Q**。7源/25数据/七完整gzip落 notes/r150-h25-second-residual-789f/，14,621,079原字节及哈希全核。
 - [射影预算](notes/2026-11-14-r150-finite-budget-projective-cokernel-and-infinity96-789f.md)：B≥85有限coker恰H⁰(C(B))；当前torsion预算等价仿射315＋原∞条件。真T96来源给u⁹⁶T∞=0、length T∞≤745；完整∞充分测试未跑，负必要像结论不需重复该测试。
 
 ## 当前分工与马上接续
 
-normal实际r2全原A mod29791/NF/G/完整β必要检验19.0658秒已完：九目标各不在二维像，排保持本次模31初值的全部模29791提升，原流正冻结发布；不扩大到改变初值或31分母Q。下一真实δ2须完整kerβ，保198个β零高源及4个组合/ell方向。literature与boundary继续平衡star的共同回归、真实高birth s≈k短height相对Gram；不声称高birth图费已付。根逐结论推送；主ISP未完成。
+normal完整δ2须保198个β零高源及4个组合/ell方向；先对4个新增真kerβ方向作充分性入口，若含全九r2接原17式mod29791全乘回，失败仅排四列。准备冻结后已授权一轮≤300s/512MiB并保checkpoint，不重放旧202。literature做实际全spin Jacobi相位流，boundary独占star后验共同回归；高birth s≈k图费仍缺。根逐结论推送；主ISP未完成。
 
 文献原条件、Garayev强制零、balanced两层度量失配及所有失败保open/归档，不重复已排路线。

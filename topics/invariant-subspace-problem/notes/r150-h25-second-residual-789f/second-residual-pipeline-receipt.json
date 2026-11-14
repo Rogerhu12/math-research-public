@@ -1,0 +1,570 @@
+{
+  "format": "r150-h25-second-residual-pipeline-v1",
+  "status": "completed",
+  "prime": 31,
+  "integerModulus": 29791,
+  "inputActualSourceModulus": 961,
+  "targetMultiplier": "H0=(s-2)*h0",
+  "inputActualSourceRun": 43611215116,
+  "sharedMathematicalSecondsLimit": 60,
+  "perChildAddressSpaceMiBLimit": 512,
+  "perCompilationSecondsLimit": 30,
+  "oldBocksteinsGraphOrImageBasisRecomputed": false,
+  "finite_budget_verified": false,
+  "allMod961KernelFreedomIncluded": false,
+  "characteristicZeroIdentityAsserted": false,
+  "inputs": {
+    "model": {
+      "file": "/tmp/isp-t96-recovery-789f/isp-r150-native-nf/normal-form-input.txt",
+      "bytes": 128145,
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+    },
+    "graph": {
+      "file": "/tmp/isp-t96-recovery-789f/isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+      "bytes": 101365853,
+      "sha256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce"
+    },
+    "actualPrimitiveSource": {
+      "file": "/tmp/isp-h25-original-mod961-43611215116/isp-r150-h25-original-mod961-recovery-43611215116-1/original/h25-primitive-source-mod961.bin",
+      "bytes": 4891710,
+      "sha256": "6ff5083ce8567c5a333acb8e26bba9e3bb64a53c5dda8d693c1411b163566e32"
+    }
+  },
+  "sources": {
+    "2026-11-14-r150-h25-second-original-residual-789f.cpp": "95dfa1f92348295a83719706059809b8059e46a4de947cfd9f9695de71813990",
+    "2026-11-14-r150-h25-second-residual-normal-form-789f.cpp": "7e9275958a0007fe5932ff8d7178da65d94c9967e5989f46d9e56fe05e96be38",
+    "2026-11-14-r150-h25-second-residual-image-789f.cpp": "198aae9cb618245a7659f0e63bff7be46e4455c5ae20421d8bf2321caa375de8",
+    "2026-11-14-r150-h25-mod29791-model-789f.py": "81ff552dc8f1d193c1c330f1a356afa31f3f308f5e5bb1fde059f1a555c6460d",
+    "2026-11-14-r150-h25-second-residual-beta-test-789f.py": "d0c6405d75b57690c34350f4aef438d3a487213c9818d8b2498130097af0e9ff",
+    "2026-11-14-r150-h25-second-residual-runner-789f.py": "d63f1d49daa662f755f3061564b1e5c8a86e439fbdd7704573a944a67590a37c",
+    "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+    "2026-11-14-r150-torsion-characteristic-789f.py": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+  },
+  "compilations": {
+    "residual": {
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O2",
+        "-std=c++17",
+        "-I",
+        "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes",
+        "/dev/shm/isp-789f-agent-incoming/normal/2026-11-14-r150-h25-second-original-residual-789f.cpp",
+        "-o",
+        "/tmp/isp-h25-second-residual-789f/bin/residual"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 2.358111027002451,
+      "binarySHA256": "98a5327a02a6fb53b3eff237b6e86916698962e74abb67fb4d1c570b2caeebf1"
+    },
+    "normal": {
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O2",
+        "-std=c++17",
+        "-I",
+        "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes",
+        "/dev/shm/isp-789f-agent-incoming/normal/2026-11-14-r150-h25-second-residual-normal-form-789f.cpp",
+        "-o",
+        "/tmp/isp-h25-second-residual-789f/bin/normal"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 3.776734642997326,
+      "binarySHA256": "dfa55dffc60053b4b931474a7ce376315318094efb342149fb7c213e322b9b85"
+    },
+    "image": {
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O2",
+        "-std=c++17",
+        "-I",
+        "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes",
+        "/dev/shm/isp-789f-agent-incoming/normal/2026-11-14-r150-h25-second-residual-image-789f.cpp",
+        "-o",
+        "/tmp/isp-h25-second-residual-789f/bin/image"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 2.2239136700009112,
+      "binarySHA256": "fa39feb9da2934bfdcda41cd8b8e729d4ec70a86c8d1da7365409285477960d4"
+    }
+  },
+  "stages": {
+    "residual": {
+      "status": "completed",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "60.000s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/tmp/isp-h25-second-residual-789f/bin/residual",
+        "/tmp/isp-t96-recovery-789f/isp-r150-native-nf/normal-form-input.txt",
+        "/tmp/isp-h25-second-residual-789f/recovery/integer-model/original-integer-h25-mod29791.txt",
+        "/tmp/isp-h25-original-mod961-43611215116/isp-r150-h25-original-mod961-recovery-43611215116-1/original/h25-primitive-source-mod961.bin",
+        "/tmp/isp-h25-second-residual-789f/recovery/original/h25"
+      ],
+      "remainingSecondsAtStart": 59.99976957400213,
+      "lastProgress": {
+        "status": "h25-second-original-padic-residual-complete",
+        "actualFullOriginalIdentityMod961": true,
+        "allOriginalWeightedBoundsVerified": true,
+        "actualSourceCost": 86,
+        "actualResidualCost": 86,
+        "sourceCorrectionComputed": false,
+        "characteristicZeroIdentityAsserted": false,
+        "elapsedSeconds": 0.616141
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 0.6283181460021297,
+      "nativeStatistics": {
+        "status": "h25-second-original-padic-residual-complete",
+        "actualFullOriginalIdentityMod961": true,
+        "allOriginalWeightedBoundsVerified": true,
+        "actualSourceCost": 86,
+        "actualResidualCost": 86,
+        "sourceCorrectionComputed": false,
+        "characteristicZeroIdentityAsserted": false,
+        "elapsedSeconds": 0.616141
+      }
+    },
+    "normal": {
+      "status": "completed",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "59.370s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/tmp/isp-h25-second-residual-789f/bin/normal",
+        "/tmp/isp-t96-recovery-789f/isp-r150-native-nf/normal-form-input.txt",
+        "/tmp/isp-h25-second-residual-789f/recovery/original/h25-second-residual.bin",
+        "/tmp/isp-h25-second-residual-789f/recovery/normal/second"
+      ],
+      "remainingSecondsAtStart": 59.37019917299767,
+      "lastProgress": {
+        "status": "h25-second-original-rhs-normal-forms-complete",
+        "sources": 0,
+        "targets": 9,
+        "components": 1034,
+        "forwardOperations": 782976,
+        "backwardOperations": 1010703,
+        "normalOperations": 1446126,
+        "originalRHSCost": 86,
+        "originalRHSNonzeroCoefficients": 1942652,
+        "peakRSSKiB": 77220,
+        "elapsedSeconds": 14.6199
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 14.661423878998903,
+      "nativeStatistics": {
+        "status": "h25-second-original-rhs-normal-forms-complete",
+        "sources": 0,
+        "targets": 9,
+        "components": 1034,
+        "forwardOperations": 782976,
+        "backwardOperations": 1010703,
+        "normalOperations": 1446126,
+        "originalRHSCost": 86,
+        "originalRHSNonzeroCoefficients": 1942652,
+        "peakRSSKiB": 77220,
+        "elapsedSeconds": 14.6199
+      }
+    },
+    "image": {
+      "status": "completed",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "44.694s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/tmp/isp-h25-second-residual-789f/bin/image",
+        "/tmp/isp-t96-recovery-789f/isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+        "/tmp/isp-h25-second-residual-789f/recovery/normal/second-normal-forms.bin",
+        "/tmp/isp-h25-second-residual-789f/recovery/image/second"
+      ],
+      "remainingSecondsAtStart": 44.69357636100176,
+      "lastProgress": {
+        "status": "h25-second-residual-complete-image-certificate",
+        "fullImageQuotientIdentity": true,
+        "everyRemainderIsIrreducible": true,
+        "completeRHSInImage": false,
+        "secondResidualOutsideInfiniteImage": true,
+        "remainderNonzeroCoefficients": [
+          65,
+          66,
+          62,
+          65,
+          65,
+          65,
+          67,
+          65,
+          67
+        ],
+        "firstNonzeroCoordinates": [
+          [
+            884,
+            0,
+            27
+          ],
+          [
+            884,
+            0,
+            10
+          ],
+          [
+            884,
+            0,
+            30
+          ],
+          [
+            884,
+            0,
+            24
+          ],
+          [
+            884,
+            0,
+            10
+          ],
+          [
+            884,
+            0,
+            27
+          ],
+          [
+            884,
+            0,
+            15
+          ],
+          [
+            884,
+            0,
+            12
+          ],
+          [
+            884,
+            0,
+            23
+          ]
+        ],
+        "peakRSSKiB": 6272,
+        "elapsedSeconds": 1.22626
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 1.2461885980010265,
+      "nativeStatistics": {
+        "status": "h25-second-residual-complete-image-certificate",
+        "fullImageQuotientIdentity": true,
+        "everyRemainderIsIrreducible": true,
+        "completeRHSInImage": false,
+        "secondResidualOutsideInfiniteImage": true,
+        "remainderNonzeroCoefficients": [
+          65,
+          66,
+          62,
+          65,
+          65,
+          65,
+          67,
+          65,
+          67
+        ],
+        "firstNonzeroCoordinates": [
+          [
+            884,
+            0,
+            27
+          ],
+          [
+            884,
+            0,
+            10
+          ],
+          [
+            884,
+            0,
+            30
+          ],
+          [
+            884,
+            0,
+            24
+          ],
+          [
+            884,
+            0,
+            10
+          ],
+          [
+            884,
+            0,
+            27
+          ],
+          [
+            884,
+            0,
+            15
+          ],
+          [
+            884,
+            0,
+            12
+          ],
+          [
+            884,
+            0,
+            23
+          ]
+        ],
+        "peakRSSKiB": 6272,
+        "elapsedSeconds": 1.22626
+      }
+    },
+    "beta-test": {
+      "status": "completed",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "43.443s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "python3",
+        "/dev/shm/isp-789f-agent-incoming/normal/2026-11-14-r150-h25-second-residual-beta-test-789f.py",
+        "--notes-root",
+        "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes",
+        "--complete-beta-results",
+        "/tmp/isp-last-two-bockstein-43608688492/isp-r150-last-two-kernel-bockstein-results-43608688492-1",
+        "--original-metadata",
+        "/tmp/isp-h25-second-residual-789f/recovery/original/h25-second-residual.json",
+        "--image-metadata",
+        "/tmp/isp-h25-second-residual-789f/recovery/image/second-image-certificate.json",
+        "--image-quotients",
+        "/tmp/isp-h25-second-residual-789f/recovery/image/second-image-quotients.bin",
+        "--image-remainders",
+        "/tmp/isp-h25-second-residual-789f/recovery/image/second-image-remainders.bin",
+        "--out",
+        "/tmp/isp-h25-second-residual-789f/results"
+      ],
+      "remainingSecondsAtStart": 43.443319555000926,
+      "lastProgress": {
+        "status": "h25-second-residual-torsion-and-beta-test-complete",
+        "allOriginalNormalCoordinatesRetained": true,
+        "residualsInTorsion": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "sameMod31InitialSourceLiftCompatibility": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "commonMinimumModuloFullFirstBetaImage": {
+          "degree": 2,
+          "coefficientsAscending": [
+            2,
+            28,
+            1
+          ],
+          "unit": 1,
+          "factors": [
+            {
+              "coefficientsAscending": [
+                29,
+                1
+              ],
+              "exponent": 1,
+              "degree": 1
+            },
+            {
+              "coefficientsAscending": [
+                30,
+                1
+              ],
+              "exponent": 1,
+              "degree": 1
+            }
+          ]
+        },
+        "allMod961KernelFreedomIncluded": false,
+        "finite_budget_verified": false,
+        "elapsedSeconds": 2.3249853769957554
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 2.5057500479961163,
+      "nativeStatistics": {
+        "status": "h25-second-residual-torsion-and-beta-test-complete",
+        "allOriginalNormalCoordinatesRetained": true,
+        "residualsInTorsion": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "sameMod31InitialSourceLiftCompatibility": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "commonMinimumModuloFullFirstBetaImage": {
+          "degree": 2,
+          "coefficientsAscending": [
+            2,
+            28,
+            1
+          ],
+          "unit": 1,
+          "factors": [
+            {
+              "coefficientsAscending": [
+                29,
+                1
+              ],
+              "exponent": 1,
+              "degree": 1
+            },
+            {
+              "coefficientsAscending": [
+                30,
+                1
+              ],
+              "exponent": 1,
+              "degree": 1
+            }
+          ]
+        },
+        "allMod961KernelFreedomIncluded": false,
+        "finite_budget_verified": false,
+        "elapsedSeconds": 2.3249853769957554
+      }
+    }
+  },
+  "deadlineRule": "After exact input validation, integer-model residue encoding and separately bounded compilation, all4 mathematical stages share one deadline. Each child has the actual remaining time and10-second forced-kill grace. Final compression/manifests only preserve actual output.",
+  "integerModelPreparation": {
+    "format": "r150-h25-mod29791-original-model-v1",
+    "status": "exact-original-model-reduced",
+    "prime": 31,
+    "modulus": 29791,
+    "targetMultiplier": "H0=(s-2)*h0",
+    "exactIntegerModelSHA256": "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3",
+    "originalF31ModelSHA256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+    "coefficientResidueChecks": 4433,
+    "originalEquations": 17,
+    "allOriginalRowContentsAre31Units": true,
+    "targetDegree": 25,
+    "sourceSHA256": "81ff552dc8f1d193c1c330f1a356afa31f3f308f5e5bb1fde059f1a555c6460d",
+    "output": {
+      "file": "/tmp/isp-h25-second-residual-789f/recovery/integer-model/original-integer-h25-mod29791.txt",
+      "bytes": 22824,
+      "sha256": "2785c53d015d05db4550e1978c05db7d42009cfa8942e915541599a76d3701cc"
+    },
+    "mathematicalSourceSolveExecuted": false,
+    "elapsedSeconds": 0.023393736002617516
+  },
+  "mathematicalElapsedSeconds": 19.06577352900058,
+  "nextDigitCondition": {
+    "residualsInTorsion": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "sameMod31InitialSourceLiftCompatibility": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "commonMinimumModuloFullFirstBetaImage": {
+      "degree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ]
+    }
+  },
+  "recoveryFiles": 12,
+  "recoveryBytes": 16117402
+}

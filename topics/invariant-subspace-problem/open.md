@@ -23,7 +23,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-R273-moments-789f.md)及其中各轮归档；未列条目不算关闭。
 
-**原来源预算：** [完整1834核β](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)已排任意次数31整数h0来源；[保根集H0原17式mod961](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)实际九源全cost86。继续真实第二余量/完整第二Bockstein及31饱和，不排31分母Q来源；[射影/∞96阶接口](notes/2026-11-14-r150-finite-budget-projective-cokernel-and-infinity96-789f.md)的有限预算条件保留。
+**原来源预算：** [完整1834核β](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)已排任意次数31整数h0来源；[保根集H0原17式mod961](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)实际九源全cost86。继续真实第二余量/完整第二Bockstein及31饱和，不排31分母Q来源；[射影/∞96阶接口](notes/2026-11-14-r150-finite-budget-projective-cokernel-and-infinity96-789f.md)的有限预算条件保留。 [真实r2](notes/2026-11-14-r150-h25-second-original-residual-obstruction-789f.md)现排保持本次X mod31的全部mod29791提升；继续完整kerβ的δ2，先四新增方向作充分性入口，不能将其失败作全核失败。
 
 ## 当前接口一：原 Haar 慢符号的正常湮灭者
 

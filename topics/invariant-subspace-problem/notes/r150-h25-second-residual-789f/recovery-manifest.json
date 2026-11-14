@@ -1,0 +1,66 @@
+{
+  "format": "r150-h25-second-residual-recovery-v1",
+  "pipelineStatus": "completed",
+  "files": [
+    {
+      "file": "recovery/image/second-image-certificate.json",
+      "bytes": 1344,
+      "sha256": "0d90cb2f85f57147fe8e9542d7eb487dc9a2133f4809ab986b8a1e01e6495e07"
+    },
+    {
+      "file": "recovery/image/second-image-quotients.bin",
+      "bytes": 806052,
+      "sha256": "262cf26bfc144dd541fb094dbe263710f958303b55d4bfd614cf446169cc0dfd"
+    },
+    {
+      "file": "recovery/image/second-image-remainders.bin",
+      "bytes": 2458,
+      "sha256": "e6a5f269a0d01fe11e75934d128fb3fe43f2b0f3e5c7247ee52303716a470d76"
+    },
+    {
+      "file": "recovery/integer-model/mod29791-model-receipt.json",
+      "bytes": 890,
+      "sha256": "1858d707337998d6d46a4b9d9e1a3af04d8ebfd6b1c4390fa77c06762e7a3056"
+    },
+    {
+      "file": "recovery/integer-model/original-integer-h25-mod29791.txt",
+      "bytes": 22824,
+      "sha256": "2785c53d015d05db4550e1978c05db7d42009cfa8942e915541599a76d3701cc"
+    },
+    {
+      "file": "recovery/normal/second-backward.bin",
+      "bytes": 3052119,
+      "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+    },
+    {
+      "file": "recovery/normal/second-forward.bin",
+      "bytes": 2378937,
+      "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+    },
+    {
+      "file": "recovery/normal/second-normal-forms.bin",
+      "bytes": 542622,
+      "sha256": "392169882cdf20075bdb6dfa18efb0a7bc181eda855aef7313aa3e69e872bd36"
+    },
+    {
+      "file": "recovery/normal/second-reduction.bin",
+      "bytes": 5784606,
+      "sha256": "43157d0ba3a1e34480d3285df1b657a1d2b24118b615820cd1f53ec33996fcae"
+    },
+    {
+      "file": "recovery/original/h25-second-residual.bin",
+      "bytes": 2054285,
+      "sha256": "b52108271ee6744ab61340e98707d7ce8dc3586951bf88b4cab2e95bbb3e231b"
+    },
+    {
+      "file": "recovery/original/h25-second-residual.json",
+      "bytes": 809,
+      "sha256": "06c84b218c37d7310b3d2f9fde3ac8d5599be6855f64bf67e8d7ce809311d3ec"
+    },
+    {
+      "file": "recovery/state-input.bin",
+      "bytes": 1470456,
+      "sha256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf"
+    }
+  ]
+}

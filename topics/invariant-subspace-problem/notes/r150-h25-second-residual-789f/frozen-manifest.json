@@ -1,0 +1,133 @@
+{
+  "format": "r150-h25-second-residual-frozen-record-v1",
+  "pipelineStatus": "completed",
+  "fullMod31InitialFiberLiftCompatible": false,
+  "allMod961KernelFreedomIncluded": false,
+  "files": [
+    {
+      "file": "beta-test.log",
+      "bytes": 654,
+      "sha256": "3dd11cdc1fc167292fe544300ab438881587bef729e952893db7853b2e544205"
+    },
+    {
+      "file": "certificate-manifest.json",
+      "bytes": 4053,
+      "sha256": "811e6c48d9a9c9944e505a4945c4edad4c26e02d3314dfdaca99e01c844a94d3"
+    },
+    {
+      "file": "certificates/image__second-image-quotients.bin.gz",
+      "bytes": 531643,
+      "sha256": "71c7647182650ff28ca06a0f9a5fdf1d7a4889d9d20775cfc842d62cb78a6b74"
+    },
+    {
+      "file": "certificates/image__second-image-remainders.bin.gz",
+      "bytes": 1276,
+      "sha256": "68d9abeaed94572e0385daca05373b4091d83c98f894a2f1769a8a46423959d4"
+    },
+    {
+      "file": "certificates/normal__second-backward.bin.gz",
+      "bytes": 2031817,
+      "sha256": "b6a40b3bb5b54053ac71dd8eb0a2b3555ffc88bb958229ef23c756b705fb5a28"
+    },
+    {
+      "file": "certificates/normal__second-forward.bin.gz",
+      "bytes": 1660293,
+      "sha256": "445ec1d9acfa14932d8c3122fe98b471d869b3a8df0fa09a9ce14027e67c96ca"
+    },
+    {
+      "file": "certificates/normal__second-normal-forms.bin.gz",
+      "bytes": 367908,
+      "sha256": "2dd3c1eea16caa4e2ad55605234cf026395762a5bd0a2ff2b5146be78ea41bba"
+    },
+    {
+      "file": "certificates/normal__second-reduction.bin.gz",
+      "bytes": 3873901,
+      "sha256": "3de7e7e6c8312019c7da2b8cc2f3e54c70c2c924cabf76c5efbbacaf850c11f2"
+    },
+    {
+      "file": "certificates/original__h25-second-residual.bin.gz",
+      "bytes": 1344467,
+      "sha256": "dbc0c53383d6b6fbe1cdae64987660e28752b05324b6289e2699305c9e18cd51"
+    },
+    {
+      "file": "compile-image.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "compile-normal.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "compile-residual.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "h25-second-residual.json",
+      "bytes": 809,
+      "sha256": "06c84b218c37d7310b3d2f9fde3ac8d5599be6855f64bf67e8d7ce809311d3ec"
+    },
+    {
+      "file": "image.log",
+      "bytes": 1919,
+      "sha256": "0e2733ff0e7860986ab7e85a259b07b6dcf2f704ac6491ecb2c484de8f2ea45b"
+    },
+    {
+      "file": "input-actual-original-mod961.json",
+      "bytes": 1683,
+      "sha256": "0c527d7b1bddcab78f4e45938ce246fd6a337fcd678b2291eaf7de1622945c71"
+    },
+    {
+      "file": "integer-model-preparation.log",
+      "bytes": 842,
+      "sha256": "70588cc60376f4b31c60ca77c22b4ef1d9265f380c9280a29bcd67c44c367742"
+    },
+    {
+      "file": "mod29791-model-receipt.json",
+      "bytes": 890,
+      "sha256": "1858d707337998d6d46a4b9d9e1a3af04d8ebfd6b1c4390fa77c06762e7a3056"
+    },
+    {
+      "file": "normal.log",
+      "bytes": 2677,
+      "sha256": "12d9f8f5f9f848e59a45d400a8fa4dd2d164bee2baa89bde16c792f4a7a0838a"
+    },
+    {
+      "file": "original-integer-h25-mod29791.txt",
+      "bytes": 22824,
+      "sha256": "2785c53d015d05db4550e1978c05db7d42009cfa8942e915541599a76d3701cc"
+    },
+    {
+      "file": "recovery-manifest.json",
+      "bytes": 2227,
+      "sha256": "22d0fee215866dcc4521311a7a84858422f74969801b08224d39af99fef6d0c1"
+    },
+    {
+      "file": "residual.log",
+      "bytes": 1178,
+      "sha256": "2318534b4a6203c104d5fe4234fa6af9aa83cfb8bbcc193bf667f27f80b60093"
+    },
+    {
+      "file": "second-image-certificate.json",
+      "bytes": 1344,
+      "sha256": "0d90cb2f85f57147fe8e9542d7eb487dc9a2133f4809ab986b8a1e01e6495e07"
+    },
+    {
+      "file": "second-residual-full-beta-result.json",
+      "bytes": 14427,
+      "sha256": "ba28bdb8dfc1c7cd85c5df87daf41a56cc9860d5af33c2ee5bb406615fa82a4f"
+    },
+    {
+      "file": "second-residual-full-beta-system.bin.gz",
+      "bytes": 816,
+      "sha256": "3f35ab42bdf4949eb08b01d89431d192cb1185f4f1ab87dd54d2efa04952a77a"
+    },
+    {
+      "file": "second-residual-pipeline-receipt.json",
+      "bytes": 16616,
+      "sha256": "acbabf0a04ef9c94648d7e629e996ee14ae9666e887cd62ceb059c44871204bd"
+    }
+  ]
+}

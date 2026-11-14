@@ -1,0 +1,653 @@
+{
+  "format": "r150-h25-second-residual-full-first-beta-test-v1",
+  "status": "completed",
+  "prime": 31,
+  "originalTargetMultiplier": "H0=(s-2)*h0",
+  "sourceSHA256": "d0c6405d75b57690c34350f4aef438d3a487213c9818d8b2498130097af0e9ff",
+  "stateSHA256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf",
+  "completeFirstBetaSystemSHA256": "71b3ffd524cca40f36ac59fb29694798013987c6153edb0c771420d75780daf8",
+  "originalSecondResidualMetadataSHA256": "06c84b218c37d7310b3d2f9fde3ac8d5599be6855f64bf67e8d7ce809311d3ec",
+  "actualRemainderSHA256": "e6a5f269a0d01fe11e75934d128fb3fe43f2b0f3e5c7247ee52303716a470d76",
+  "allOriginalNormalCoordinatesRetained": true,
+  "sameCompleteStandardDictionary": true,
+  "residualsInTorsion": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "higherFreeNormalCoordinates": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "completeFirstBocksteinImageDimension": 2,
+  "full315JInvarianceVerified": true,
+  "sameMod31InitialSourceLiftCompatibility": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "kernelBasisDescriptors": [
+    [
+      199,
+      2275,
+      0,
+      85
+    ],
+    [
+      200,
+      2276,
+      0,
+      85
+    ]
+  ],
+  "kernelImageBasisCoefficients": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "dualCertificates": [
+    {
+      "target": 2,
+      "kind": "torsion-modulo-full-beta-image",
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 2
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 27
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 27
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 3,
+      "kind": "torsion-modulo-full-beta-image",
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 2
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 27
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 27
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 4,
+      "kind": "torsion-modulo-full-beta-image",
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 9
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 13
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 13
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 5,
+      "kind": "torsion-modulo-full-beta-image",
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 25
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 12
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 12
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 6,
+      "kind": "torsion-modulo-full-beta-image",
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 2
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 27
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 27
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 7,
+      "kind": "torsion-modulo-full-beta-image",
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 27
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 8
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 8
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 8,
+      "kind": "torsion-modulo-full-beta-image",
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 20
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 22
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 22
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 9,
+      "kind": "torsion-modulo-full-beta-image",
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 6
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 19
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 19
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 10,
+      "kind": "torsion-modulo-full-beta-image",
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 15
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 1
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 1
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    }
+  ],
+  "minimumPolynomialsModuloFullFirstBetaImage": [
+    {
+      "target": 2,
+      "degree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "full315QuotientRelationVerified": true
+    },
+    {
+      "target": 3,
+      "degree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "full315QuotientRelationVerified": true
+    },
+    {
+      "target": 4,
+      "degree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "full315QuotientRelationVerified": true
+    },
+    {
+      "target": 5,
+      "degree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "full315QuotientRelationVerified": true
+    },
+    {
+      "target": 6,
+      "degree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "full315QuotientRelationVerified": true
+    },
+    {
+      "target": 7,
+      "degree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "full315QuotientRelationVerified": true
+    },
+    {
+      "target": 8,
+      "degree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "full315QuotientRelationVerified": true
+    },
+    {
+      "target": 9,
+      "degree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "full315QuotientRelationVerified": true
+    },
+    {
+      "target": 10,
+      "degree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "full315QuotientRelationVerified": true
+    }
+  ],
+  "commonMinimumModuloFullFirstBetaImage": {
+    "degree": 2,
+    "coefficientsAscending": [
+      2,
+      28,
+      1
+    ],
+    "unit": 1,
+    "factors": [
+      {
+        "coefficientsAscending": [
+          29,
+          1
+        ],
+        "exponent": 1,
+        "degree": 1
+      },
+      {
+        "coefficientsAscending": [
+          30,
+          1
+        ],
+        "exponent": 1,
+        "degree": 1
+      }
+    ]
+  },
+  "finite_budget_verified": false,
+  "allMod961KernelFreedomIncluded": false,
+  "characteristicZeroIdentityAsserted": false,
+  "system": {
+    "file": "/tmp/isp-h25-second-residual-789f/results/second-residual-full-beta-system.bin.gz",
+    "bytes": 13744,
+    "sha256": "fa9fda1c0176cbf3e8163fcfd26ed11ea4f92947587d3d455859d2b912cb38a4",
+    "gzipBytes": 816,
+    "gzipSHA256": "3f35ab42bdf4949eb08b01d89431d192cb1185f4f1ab87dd54d2efa04952a77a"
+  },
+  "pythonFlintVersion": "0.9.0",
+  "flintVersion": "3.6.0",
+  "elapsedSeconds": 2.3249853769957554,
+  "scope": "The actual second residual is tested against the COMPLETE first Bockstein image. This is the affine necessary-and-sufficient class condition for a polynomial original-source lift modulo29791 with the CURRENT source fixed modulo31: Y=X+31*kappa_hat+961*z. A positive result still requires an actual finite-cost source. A failure does not exclude changing the original mod31 kernel part, all kernels modulo961, or a Q-source with31 denominators."
+}

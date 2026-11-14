@@ -1,0 +1,104 @@
+{
+  "format": "r150-h25-second-residual-certificates-v1",
+  "pipelineStatus": "completed",
+  "files": [
+    {
+      "originalFile": "recovery/original/h25-second-residual.bin",
+      "uncompressedBytes": 2054285,
+      "uncompressedSHA256": "b52108271ee6744ab61340e98707d7ce8dc3586951bf88b4cab2e95bbb3e231b",
+      "compressedBytes": 1344467,
+      "compressedSHA256": "dbc0c53383d6b6fbe1cdae64987660e28752b05324b6289e2699305c9e18cd51",
+      "parts": [
+        {
+          "file": "certificates/original__h25-second-residual.bin.gz",
+          "bytes": 1344467,
+          "sha256": "dbc0c53383d6b6fbe1cdae64987660e28752b05324b6289e2699305c9e18cd51"
+        }
+      ]
+    },
+    {
+      "originalFile": "recovery/normal/second-backward.bin",
+      "uncompressedBytes": 3052119,
+      "uncompressedSHA256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f",
+      "compressedBytes": 2031817,
+      "compressedSHA256": "b6a40b3bb5b54053ac71dd8eb0a2b3555ffc88bb958229ef23c756b705fb5a28",
+      "parts": [
+        {
+          "file": "certificates/normal__second-backward.bin.gz",
+          "bytes": 2031817,
+          "sha256": "b6a40b3bb5b54053ac71dd8eb0a2b3555ffc88bb958229ef23c756b705fb5a28"
+        }
+      ]
+    },
+    {
+      "originalFile": "recovery/normal/second-forward.bin",
+      "uncompressedBytes": 2378937,
+      "uncompressedSHA256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+      "compressedBytes": 1660293,
+      "compressedSHA256": "445ec1d9acfa14932d8c3122fe98b471d869b3a8df0fa09a9ce14027e67c96ca",
+      "parts": [
+        {
+          "file": "certificates/normal__second-forward.bin.gz",
+          "bytes": 1660293,
+          "sha256": "445ec1d9acfa14932d8c3122fe98b471d869b3a8df0fa09a9ce14027e67c96ca"
+        }
+      ]
+    },
+    {
+      "originalFile": "recovery/normal/second-normal-forms.bin",
+      "uncompressedBytes": 542622,
+      "uncompressedSHA256": "392169882cdf20075bdb6dfa18efb0a7bc181eda855aef7313aa3e69e872bd36",
+      "compressedBytes": 367908,
+      "compressedSHA256": "2dd3c1eea16caa4e2ad55605234cf026395762a5bd0a2ff2b5146be78ea41bba",
+      "parts": [
+        {
+          "file": "certificates/normal__second-normal-forms.bin.gz",
+          "bytes": 367908,
+          "sha256": "2dd3c1eea16caa4e2ad55605234cf026395762a5bd0a2ff2b5146be78ea41bba"
+        }
+      ]
+    },
+    {
+      "originalFile": "recovery/normal/second-reduction.bin",
+      "uncompressedBytes": 5784606,
+      "uncompressedSHA256": "43157d0ba3a1e34480d3285df1b657a1d2b24118b615820cd1f53ec33996fcae",
+      "compressedBytes": 3873901,
+      "compressedSHA256": "3de7e7e6c8312019c7da2b8cc2f3e54c70c2c924cabf76c5efbbacaf850c11f2",
+      "parts": [
+        {
+          "file": "certificates/normal__second-reduction.bin.gz",
+          "bytes": 3873901,
+          "sha256": "3de7e7e6c8312019c7da2b8cc2f3e54c70c2c924cabf76c5efbbacaf850c11f2"
+        }
+      ]
+    },
+    {
+      "originalFile": "recovery/image/second-image-quotients.bin",
+      "uncompressedBytes": 806052,
+      "uncompressedSHA256": "262cf26bfc144dd541fb094dbe263710f958303b55d4bfd614cf446169cc0dfd",
+      "compressedBytes": 531643,
+      "compressedSHA256": "71c7647182650ff28ca06a0f9a5fdf1d7a4889d9d20775cfc842d62cb78a6b74",
+      "parts": [
+        {
+          "file": "certificates/image__second-image-quotients.bin.gz",
+          "bytes": 531643,
+          "sha256": "71c7647182650ff28ca06a0f9a5fdf1d7a4889d9d20775cfc842d62cb78a6b74"
+        }
+      ]
+    },
+    {
+      "originalFile": "recovery/image/second-image-remainders.bin",
+      "uncompressedBytes": 2458,
+      "uncompressedSHA256": "e6a5f269a0d01fe11e75934d128fb3fe43f2b0f3e5c7247ee52303716a470d76",
+      "compressedBytes": 1276,
+      "compressedSHA256": "68d9abeaed94572e0385daca05373b4091d83c98f894a2f1769a8a46423959d4",
+      "parts": [
+        {
+          "file": "certificates/image__second-image-remainders.bin.gz",
+          "bytes": 1276,
+          "sha256": "68d9abeaed94572e0385daca05373b4091d83c98f894a2f1769a8a46423959d4"
+        }
+      ]
+    }
+  ]
+}
