@@ -8,7 +8,34 @@
   "workflow_commit": "a83519524e6d8565130a9f6042cd4145b384f920",
   "worker_source_sha256": "034b72e5d4512e6614fc7e9e3626e4ec963a052959b675df73e161c85bd71c6c",
   "started_utc": "2026-11-14T20:50:19.005936+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_positive_high_weighted_head_and_inner_body_cut_trace_ports",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-positive-weighted-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_high_weighted_body_cut_ports.py",
+        "--out",
+        "/__w/_temp/visible-exact-positive-weighted-output/native/complete-positive-high-weighted-body-and-cut-ports.json.gz",
+        "--body",
+        "/__w/_temp/visible-exact-positive-weighted-body/native/repaired-complete-positive-N97-high-inverse.json.gz",
+        "--body-process",
+        "/__w/_temp/visible-exact-positive-weighted-body/process.json",
+        "--cross",
+        "/__w/_temp/visible-exact-positive-weighted-cross/native/complete-M32-body-cross-and-weighted-Green.json.gz",
+        "--cross-process",
+        "/__w/_temp/visible-exact-positive-weighted-cross/process.json",
+        "--graph-summary",
+        "/__w/_temp/visible-exact-positive-weighted-work/science/topics/visible-flex-exact-nearby/notes/positive_high_root_graph_ci/run-43605513540-1-positive-high-root-to-regular/evidence/repaired-positive-high-root-graph-summary.json",
+        "--graph-process",
+        "/__w/_temp/visible-exact-positive-weighted-work/science/topics/visible-flex-exact-nearby/notes/positive_high_root_graph_ci/run-43605513540-1-positive-high-root-to-regular/process.json"
+      ],
+      "started_utc": "2026-11-14T20:50:24.211075+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 35.001307279,
+      "finished_utc": "2026-11-14T20:50:59.212804+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T20:50:20.585812+00:00",
@@ -25,9 +52,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T20:51:00.435579+00:00",
+      "before": "b7d065c79b5170248517f7b7a929b4c00147d259",
+      "after": "29e2aa699c783e7cdc362b5b58d107ad47a4fe76",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T20:50:24.208808+00:00",
+      "final": false,
+      "commit": "d95cff5c28ce1a26559492c0fb563588f73015fd"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -65,7 +106,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "b7d065c79b5170248517f7b7a929b4c00147d259",
+  "last_read_commit": "29e2aa699c783e7cdc362b5b58d107ad47a4fe76",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-positive-weighted-work/science",
   "actual_input_sha256": {
     "body": "eefb94952a409473fed7f9c34afc9214a3346d8c3b19ed7e0a7fc6fd06f48a68",
@@ -75,8 +116,8 @@
     "graph-summary": "243dc3551c00de4acbe8d8a7d8ba24b62ad16b3e2384ebebad422c4d282754d3",
     "graph-process": "20945c0a64a2204b65e80f960f818c155c0bef3067f0ebcaab2f2df6cfc35328"
   },
-  "snapshot_utc": "2026-11-14T20:50:22.462221+00:00",
-  "wall_seconds": 3.457015955000003,
+  "snapshot_utc": "2026-11-14T20:51:00.487847+00:00",
+  "wall_seconds": 41.48264295600001,
   "native_files": [
     {
       "logical_file": "evidence/original-body-cross-math-receipt.json",
@@ -107,6 +148,12 @@
       "file": "evidence/original-positive-body-artifact-process.json",
       "bytes": 10678,
       "sha256": "48baba77aaff9956c66357da2f52812a53b9b6efca3708ce3bea418beaed3f65"
+    },
+    {
+      "logical_file": "native/complete-positive-high-weighted-body-and-cut-ports.json.gz",
+      "file": "native/complete-positive-high-weighted-body-and-cut-ports.json.gz",
+      "bytes": 3715980,
+      "sha256": "54b3940463e8efca02c136fdb2fc5bd2a0ff8a7f57b604db86ba67cec620e6b2"
     }
   ]
 }
