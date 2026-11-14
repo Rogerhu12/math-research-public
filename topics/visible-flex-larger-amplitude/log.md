@@ -614,3 +614,8 @@ run43603818345/job132474070289真实失败，artifact14117411488/ZIP4d546160…�
 ### 2026-11-14 request22：三条真实域查询与完整零RK失败证据并行
 
 两个独立新lane已接push请求：trustmultiline从实际20/warm0036063f…保473/0、480/0、473/11，一模型λ270/LSMR200，逐行梯度/SVD秩/所有原行泄漏/多乘子KKT、原全域与新FD均留；zerorkprobev2硬锁实际17/19/21，逐块det证据先留，有限det0仅移除初猜新增veto，候选完成才原noJ。root读五新源差异/薄入口和两接口，AST/冻结SHA及公开Git中真实20/21输入字节已核；不作本地数值。所有原方程/固定g/真实H/native门均保，候选未接受。
+
+
+### 2026-11-14 共享背景完整cover/held独立接口
+
+两薄入口已写且root全文读/AST/SHA：cover fc5bbb67…实际绑定load_shared_bundle，held f9c6466c…亦真正调用同loader并比较全部position packet binding；原R241全pair/帽/marker/整族D/reach及held全部活动块/两整帽盘/原.2公式不改。原目标g表保持，新B几何的全部位置/法向/metric/曲率包络不继承旧A。尚无真实accepted父场，不执行新几何、不加fixture/审批门。request22两lane已真run43604874829/sourcefb32e240，分别job132477286177/132477286262运行中。

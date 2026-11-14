@@ -16,7 +16,7 @@ R259已给备用直线缩幅的实际源圆/原有限collocation、完整112尾J
 
 原T96/N1024零锚和独立J审计已付，不重算。当前T112自己的真锚、完整338×112 J及所有状态同样已付；J-second相对差1.52402e−12、ready与真J差.035157884保留。request10严格复用真零响应一次，整个anchor/J逐结构同原包；worker已启动但新request为0，故这次不是非零尾失败。同配置/数学源/精确零H首请求可继续严格复用；任何新H与最终audit仍真worker，不以零残差或ready参考冒导数精化。
 
-实际联解接受后，立即完成以下相互依赖的内容：保存完整physical/constant状态与真实H尾；原core证书和球排除；真正cut的完整材料角谱；同一SE2及高度偏移下的六jet；明确有限C²修补对metric的影响；完整上下尾和固定帽组装。新场已经含物理z0，不加旧A mean。原背景表尚不定义连续primitive，现已给同场全部表节点的精确共享quintic背景及完整表示误差账（[说明](notes/2026-11-14-shared-background-and-representation-budget.md)）。保原帽高、同一g，完整cut Δ须重建；独立wrapper及严格新loader已冻结（[接口](notes/2026-11-14-shared-background-closed-wrapper-interface.md)），真正使用B的三导数并重建全部cut角差；旧loader拒绝新包，后续cover/held须经新loader。原metric表不得覆写为B′，数值未执行。原φ96通常含无限θ谱，不能只投影96项便称连续接缝为零。R239是连续充分条件，仍须核其实际分支、turning number和全部高度jet输入。
+实际联解接受后，立即完成以下相互依赖的内容：保存完整physical/constant状态与真实H尾；原core证书和球排除；真正cut的完整材料角谱；同一SE2及高度偏移下的六jet；明确有限C²修补对metric的影响；完整上下尾和固定帽组装。新场已经含物理z0，不加旧A mean。原背景表尚不定义连续primitive，现已给同场全部表节点的精确共享quintic背景及完整表示误差账（[说明](notes/2026-11-14-shared-background-and-representation-budget.md)）。保原帽高、同一g，完整cut Δ须重建；独立wrapper及严格新loader已冻结（[接口](notes/2026-11-14-shared-background-closed-wrapper-interface.md)），真正使用B的三导数并重建全部cut角差；旧loader拒绝新包，cover/held独立薄入口已接新loader且保原完整空间/全像公式（[接口](notes/2026-11-14-shared-background-cover-held-interfaces.md)）。原metric表不得覆写为B′，数值未执行。原φ96通常含无限θ谱，不能只投影96项便称连续接缝为零。R239是连续充分条件，仍须核其实际分支、turning number和全部高度jet输入。
 
 ## 2. 定型后冻结同一材料g精化
 

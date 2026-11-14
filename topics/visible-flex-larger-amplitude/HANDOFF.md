@@ -25,20 +25,20 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 request17/run43598917532的3步warm仍非解，warm003 SHA5d1c452291099ad18b1a619ba3794614b04a0c620b8ed0f28887a84731ef7886；原col=.007110547307/新FD9.5171e−10。request18/run43602070499的λ270/LSMR200在80步istop2，仅α2^-16下降1.63517e−5；新warm SHA1dbdcc8fbb9dd7d4571259679a97dca5ee635fab88dece584d3a44727da477c3，新FD9.00098e−10。原回执与source全在actual18/17 notes，不重复。
 R262完整Hermite两端RHS/global p/入口chart域梯度、投影正阻尼下降及λP伴随已证并推送。request20/trustprotected真run43603477207/source2501ebf6/job132473033066全success；完整artifact14117605862/ZIP0cee357c…已取。473/index0梯度complex3.7179e−13，投影伴随2.048e−18，Bz−8.88e−16；λ270/LSMR200仍80步istop2。预条件normal2.6137e−5但未预条件projected KKT344.921，勿称方向高精度。原collocation独立complex仅free core/global p方向，内部physical为0。
-20同模型merit44.447162239996→44.446116127468，α2^-10/下降.001046112528/ratio1.0001444；原全node/mid/两RMS/rho过。col=.007110545981/BC9.59725e−8仍非解。新warm SHA0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71，新真实完整Rφ FD9.07968e−10；Hmax3.35792e−16保全部112项/native0。详细actual-request20-protected-query-and-next-domain-rows。下一从此warm一模型λ270/200，保护原已观察(473,0)/(480,0)/(473,11)三点，同左fraction.17267316464601146；独立multiline源已接request22/trustmultiline待实跑。所有原域/merit/最终门保留，不只加模型数或λ。
+20同模型merit44.447162239996→44.446116127468，α2^-10/下降.001046112528/ratio1.0001444；原全node/mid/两RMS/rho过。col=.007110545981/BC9.59725e−8仍非解。新warm SHA0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71，新真实完整Rφ FD9.07968e−10；Hmax3.35792e−16保全部112项/native0。详细actual-request20-protected-query-and-next-domain-rows。下一从此warm一模型λ270/200，保护原已观察(473,0)/(480,0)/(473,11)三点，同左fraction.17267316464601146；22实际run43604874829/sourcefb32e240/14:26:31Z，trustmultiline job132477286177运行中。所有原域/merit/最终门保留，不只加模型数或λ。
 
 ### Native冷启动：21工厂失败，独立v2待调度
 
 17首次真非零Hmax4.1760413061806626e−17，native iteration0 norm1.3414e7/chartCond1.3312e60，10trial全D/S/A拒（raw0/seg7、stage13/14）；outer_history空，没进入prefix inner，无新H/J/audit。MaterialTrace早已P[:,0]=0，H是真非mean z，不许归零。zero cache没导worker predictor，仅zero checkpoint也不恢复stage tangent。原linearSteps2048同时定义far/graphs/gains/scales，不能全局改它冒只改初猜。详见actual-tiny-H-native-tail-cold-start-failure。
 19/run43602823170/source25d2/job132471064124/publishere84c1d79：saved与原cold initial129248项数值相等；原无J576stage全guard过/70.779s，norm13414069.968482966，最坏stage11/raw0/seg7/Pi104；cut/far全112行0。原summary SHA5c9203ce46b44de31d187c3dce43f94f30524cb25c9beaf31b9d893f05d640b1，完整actual-cold-tail-no-J-stage-replay已推，不重跑。
 21/zerorkprobe真run43603818345/source3b5a584e/job132474070289：约.217s工厂报stage12/index92 determinant检查；factory/candidate均false，evaluate_calls=0/native0。四T项有限，但旧合并分支不足区分det非finite或有限0；不是已见下溢/原native guard失败。artifact14117411488/ZIP4d546160…，summary SHA0c69d072f25c927e32322021e65b717ef6d68089d6332ed4c69c793fec87b481。见public-same-RK-candidate-probe-actual21。
-独立v2 initializer/probe/hook已冻结，root已读diff/接口；同17全H及原17/19/21字节锁。仅私有图不再以有限rounded det0否决（实际只除u=a+bγnext），不宣称块可逆/准确；非finite/零u/非零传播下溢仍拒。逐stage所有T/ad/bc/det在失败前保全，21失败块留逐RK子步。候选成功才一次原evaluate(false)，原far/graphs/gains/scales/RK/guard/tol全不改，无自动Newton/J/audit。request22/zerorkprobev2已与trustmultiline并行接push请求；数值尚未运行，真实回执决定后继native。
+独立v2 initializer/probe/hook已冻结，root已读diff/接口；同17全H及原17/19/21字节锁。仅私有图不再以有限rounded det0否决（实际只除u=a+bγnext），不宣称块可逆/准确；非finite/零u/非零传播下溢仍拒。逐stage所有T/ad/bc/det在失败前保全，21失败块留逐RK子步。候选成功才一次原evaluate(false)，原far/graphs/gains/scales/RK/guard/tol全不改，无自动Newton/J/audit。22同run的zerorkprobev2 job132477286262运行中；真实回执决定后继native。
 
 ## 之后的完整闭合与同g精化
 
 先取得实际fullDN父场：本场H/全尾响应、原outer/inner/RMS1e−6/BC1e−11/fresh audit均保。新protected warm/FD与既有physical fullDN身份兼容，但不能自动重跑已失败native。
 随后同场完整physical（含z0）、cut九jet/全材料mean/core证书/球排除、唯一SE2、有限C²修补、上下尾与固定帽；不加旧A mean，有限φ一般无限θ谱。R239连续充分条件不代有限DFT零接缝。
-新共享背景quintic定义源/表示误差账已出版：原表0/1/2输出精确成同一B，保cap高，完整cut Δ重建；几何独立B API，原A.height/w/E目标g不覆写。shared_background_closed_assembly wrapper/new loader已全文读/AST并冻结，完整B三jets及全角cut重建；guard注记使旧loader拒绝，新loader核原/新双bundle，后续cover/held薄入口准备中。尚无真parent，不执行旧A替代新结果。
+新共享背景quintic定义源/表示误差账已出版：原表0/1/2输出精确成同一B，保cap高，完整cut Δ重建；几何独立B API，原A.height/w/E目标g不覆写。shared_background_closed_assembly wrapper/new loader已全文读/AST并冻结，完整B三jets及全角cut重建；guard注记使旧loader拒绝，新loader核原/新双bundle，cover/held两薄入口已读/AST，均实绑新loader并保原R241/全像/.2公式。尚无真parent，不执行旧A替代新结果。
 R240固定共同材料g后冻结全部p*/scalar/尾帽/区间/t，释放全core取K=k=0/T=M再精化，v4维450/514。新Rφ v4 response/fullDN/after_accept三源已按新身份重建推送（same-g-physical-DN-live-client-interface）：同一live TailClient/predictor/FrozenProfile→新H/J→原FD→fullmain→fresh audit，live scalar sidecar绑定。无parent未执行；二分预算至少2*(nodes−1)+1（699→1397），勿抄1200。
 全状态continuous cover/held均保R241空间门、完整活动块/两帽盘及全D/.2；连续包络仍须付。R251四Loewner直接operator，request16仅三个解析接口成功，实际新scalar/prefix未核，不重跑fixture。R249入口修补费用、R254完整prefix/R258同场全FFT非平面消费者均待实际场。R258共同背景变化保持四角差，帽高保持marker，但不继承旧全几何。显示N32/九相位mesh<5MB，实际2305tail nodes不删。
 
