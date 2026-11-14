@@ -1,0 +1,67 @@
+name: Serre R769 exact retained degree-lattice search
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R769-public-retained-degree-search-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: serre-R769-retained-degree-lattice-bounded-search
+  cancel-in-progress: false
+
+jobs:
+  exact_bounded_search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/serre-R769-retained-degree-search.yml
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R769_retained_degree_lattice_search.py
+            /topics/serre-uniformity/scripts/R769_public_retained_degree_search.py
+            /topics/serre-uniformity/scripts/p41_public_actions_recovery.py
+            /topics/serre-uniformity/notes/R769-public-retained-degree-search-request.json
+            /topics/serre-uniformity/notes/R769-retained-degree-lattice-bounded-search-method.md
+            /topics/serre-uniformity/notes/R759-original-integral-period-lattice-and-map-degree-method.md
+            /topics/serre-uniformity/results/R762-original-mu3-quotient-and-single-function-map-recovery.md
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Reuse original Gram and enumerate the exact degree cutoff
+        continue-on-error: true
+        timeout-minutes: 20
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/R769_public_retained_degree_search.py compute
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-global-R769-retained-degree-lattice-bounded-search-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-global/R769-retained-degree-lattice-bounded-search/output
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Publish small receipts and preserve full audit states in artifact
+        if: always()
+        continue-on-error: true
+        env:
+          SERRE_ACTIONS_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/R769_public_retained_degree_search.py publish
+      - name: Require a certified vector or a genuinely exhausted bound
+        if: always()
+        run: python topics/serre-uniformity/scripts/R769_public_retained_degree_search.py verify

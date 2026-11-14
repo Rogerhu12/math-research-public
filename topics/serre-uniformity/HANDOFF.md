@@ -4,9 +4,9 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、有限数值均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：55c59fb213ead3e349e6484eda8b98837dcfb5f7
+已读规则提交：379dfb0375dd6e9e3dd47dc7de76f83acd2aa733
 最近已确认本地pull：2026-11-15约01:56 Asia/Taipei，main=b202f09796ede72bb57cbb1d770dafd3987f987c，两README未变。随后终端transport断连且environment unavailable（18:34 UTC再次只读pwd仍同错误）；R762两次非快进后失联，远端404确认未推。按根规矩8以GitHub小文本API继续，每次取最新main/核两README、expected_sha且force=false；不把API核对称实际pull。终端恢复先保留本地旧R762分支，再pull/rebase并处理已重建重复，不能重推旧元数据。
-远端规则核对：2026-11-14 18:43:18 UTC，main=55c59fb213ead3e349e6484eda8b98837dcfb5f7，两README blob均未变；本次为终端不可用期间的API核对。
+远端规则核对：2026-11-14 18:45:06 UTC，main=379dfb0375dd6e9e3dd47dc7de76f83acd2aa733，两README blob均未变；本次为终端不可用期间的API核对。
 
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权。终端可用时每推前且至少每小时实际pull --rebase，非快进立即循环重拉再推；PAT只CLI、不入文件。根独占commit/ref，代理只稿/blob。Markdown<100KB、H<10KB、open<30KB，>1MB数据gzip、文件<5MB，大可复现表只artifact。日志本题≤5行，不设冻结/独立审查审批门。
 最新完整旧H/open分别存[before-R759-actual](notes/2026-11-14-public-handoff-before-R759-actual.md)、[before-R759-actual](notes/2026-11-14-open-before-R759-actual.md)，内接R766/R762等完整归档。完成计算不重跑；未推稿按记录重建。
@@ -18,6 +18,8 @@
 - **R762 v2已推bbb8fd2e**：原21固定点给μ3商Y genus127、deg t820；正等变f的y∈M(Y)、degree=d，x=a·3(y²−b)(h/a)/dy。M=L(ξ)=K(U)、原b_half=−U20S³/8、qY=Q³/¼因子均保；MY=820ceil((d+127)/820)+d。十九树周期ν1对应−b_half，实际d−nν mod3唯一余数1给原c0平移。证明SHA40bd9da5046db41ee4ce9618c9676a626921c19e993ca5e7aa35ee86cfbd45ea；旧未推稿不同SHA，恢复时勿覆盖v2。
 - **R764实际成功**：run43626804312/source6d685485fe4a6b186355d2482deb6fb5ba8144d9，0.440895936秒。十九原树边×十二原微分全精确落K，(1−ζ)period全整；全部20×12 cusp标签0，十二c0平移泛函全0，degree余数皆(1,0,0)，ζ全核通过。因此完整原整数格所有映射把全部cusps送O，所选d1206的fP=f0。cert f23a1e1ee3059d5608edffc3e53d739fce6bb553c9449e04330b267e4b7c588a，artifact14127135207/manifest eb360b3a963a0cc32401bdc22536c050dc44bb0b27a09b11463b558f3fb7626f；原两stage/SHA详正式R764结果。旧period/格/degree未重算，实际函数/β/高度仍缺。
 - **R767已证明**：原level82商M2=H0(K+Dcusps)维146，deg272正常生成；E4/E6/η^12四层各补2方向，M12维1514。t²Δ=(η^12/2−sE6/144)²的section零div正是2(t)0，给真实RR基。R745原六行minor407保e≤19；完整P外极点计数给方程−e..2846−e共2847行、特征零kernel308/rank2720、基至qY2846、h/dQ至Q8557。证明SHA33fb32458eaf62e1499de092b6139672304ceefe096eef4a5253a2d7637a940d。具体146/1514基的mod739非零minor与精确recipe由global准备公开Actions，未称实际基已求；后接函数/β/高度。
+
+- **R769有界短向量工程本次触发**：仅复用R759已存十二维LLL Gram及map向量，exact LDL/整数isqrt区间完整搜degree≤693；找到存真实原微分，空DFS栈才无，预算到只保断点。core395ab85cd065cf5eab9fb1684464bd849f5fc3bd03b2275d3b90ba71998eaca9，12分钟；不重算period/HNF/LLL。若有可用dim694的M6 RR，R771 dim1514基主线同时继续。run待推后读。
 
 ## 原ordinary问题及最新结论
 
