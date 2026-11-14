@@ -321,3 +321,5 @@ N系数直接传播接口已完成开发核：notes/literature-range-n-polynomia
 单列高度初始化接口已发布：notes/frame-height-feasible-initializer-design-20261114.md。先读entry实际，再用同一个g/场/原函数的C/I/h生成可审候选；空区间明确失败，完整smooth objective/曲率/嵌入仍重建。工作区17:58失联后通过GitHub接口保全已完成结论，API规则比较不是实际pull；恢复即补实际pull，未通过人工check的bounded-height模块不作真实部署。
 
 短collar/下一jet/有界参考完整接口已发布：notes/entry-collar-localization-and-next-jets-20261114.md。以entry真实输出定位多项式或支持范围失真，再选择独立新模型；窄层审计必须加固定比例节点，不能因均匀网格漏峰而报告改善。bounded新源码仅静态通过，先公开check-only。
+
+R69把纯leading Ceff化成28个profile无关充分矩目标，Γ闭式和真实四块历史已证明；无需重复旧失败profile积分。继续真实M0桥存在/较短桥实现，并处理P1/P0及全部ruling，不能把N²项消失当完整第四或有限等距族。

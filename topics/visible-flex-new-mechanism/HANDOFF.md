@@ -6,7 +6,7 @@
 
 闭连通C²嵌入族Ft，t在C²拓扑连续，同一固定g；固定材料H有内点且diamF0(H)≥.2D；不对齐整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，并同g/状态/时间精化。D为完整F0直径；δE可0但如实报；完整网格<5MB，明确数值与准确存在差距。达标后继续.5D或更强存在。现无合格完整候选。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`c4e46c04bd7dcbe765b3a1233884b9cb03faeb59`（API差异复核，非实际pull）。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`fe459af06eda1432df9f974d4f3947d29d37ab6b`（API差异复核，非实际pull）。
 - 每次实际pull --rebase核双README，变则只读diff立即执行；至少每小时pull。每结论立即提交推送；NFF立即rebase、核规则、再推至成功，不强推。
 - 本公开main/Actions已授权。真实几何/ODE/积分/优化/完整研究编译只在本公开Actions；本地仅纸面代数、人工开发核、源码/公开输出分析。PAT仅瞬时CLI/env，不写文件/提交/日志。
 - 私有17:41:10 UTC实际pull至`6a16feab8e6c164b260239abede559e93e44aa3d`；根README无差，本题私有README不存在。QUEUE唯一行仍本会话进行中；下一pull不晚于18:41 UTC。私有研究不公开。
@@ -56,7 +56,7 @@ R65理想无桥±1 pair对非零复q有纯漂移；不排真实桥。R67全perio
 
 真正端点保持h桥已发布：helpera35e9db4，固定k/长度，b加ΣβF′、δomega=ΔkΣβF，端jet/frame保持；正b有理盒保omega值域，α位移会变，用同一P四块处理。独立N系数helper4583b895直接传p0/p1/p2、bulk测度shift1，不作大N差分；人工toy b3b573f3已核，纯driver尚未实际跑。原始细节和全部身份在前H及两设计notes。
 
-literature/source已进一步纸核Γ有效桥约简及profile无关28个充分矩条件，正保全完整新证明/自由代数证书并写实际小矩runner。它不是完整第四/ruling通过。新结论须root全文读后独立推送；实际桥积分/优化仍只在公开Actions。
+R69已发布：纯第四Ceff=4ΣΓ_Aj(Φ_Ej−ΠjMall/3)；Γ五项、DP3=Γ/3、Γ_A(A)=0均准确。各组7个profile无关充分矩条件共28个，保全局历史/真实端点。BigInt自由对称双线性证书10差全0，Node IO壳尚待公开check。literature正推进真实M0桥存在和剩P1/P0/ruling，不把leading门作完整族。
 
 ## 6. 环境故障、已保全接口与立即行动
 
