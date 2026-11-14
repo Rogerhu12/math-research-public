@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`328d1d25d3b784e62776b866e46cd630fbe85c5f`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`d5adb5d995ce048de564f6b782990e0fab8d55b5`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:42:44 UTC实际pull至`a0de3f9fcfb21e9db3e6863a8b48a665b9b5f0a3`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:41 UTC。
 
@@ -24,7 +24,7 @@ A1、B7/25、半宽1/50；L.9、握持rc.22、tc.036、tf.846、六帽R.274。16
 
 旧quartic43634358250接触z=0使joint未调用；已发表完整来源只消费，不重跑。
 
-resume actual43635770962/sourcecc8a9c9d已complete175.069s，新人工pass，quartic0/joint1。正确拒接触warm并回退f198。80iter/84nfev（含warm85），迭代上限；工作cost .0354645→.00876985。最新163物理态 `81a154d3464fd329bd384572fbf9f067c93a9e588f454c909f9e1ba239905433`，旧g/b0保。细384/768 η.888199712/.888199708，峰t=.1125的E−1≈−.888，κ354.097比原149恶化；minz.01570885、镜像.01571051<.061、strip.388427、球norm².989795、帽高.1427042。完整report decoded2051125B SHA `40deb9dffa6882b14dd445d981f2ed09b1f4d488dbaa83e952c768537f91375d`，见notes/joint-resume-first-actual-and-peak-error-20261114.md。
+resume43635770962已拒接触warm/退f198，仅joint一次80iter/84nfev；新163态81a154d3464fd329bd384572fbf9f067c93a9e588f454c909f9e1ba239905433。同g/b0，细η.888199708、κ354.097、镜像.01571051<.061；迭代限非收敛。原报告decoded SHA40deb9dffa6882b14dd445d981f2ed09b1f4d488dbaa83e952c768537f91375d，详joint-resume-first-actual-and-peak-error-20261114.md。
 
 不盲续旧L2。minδ actual43637739532/source09bbfd75已complete377.603s，人工全pass，一SLSQP/54物理eval，304.967s wall退出，RSS1948124KiB。54点cap/box/z/ball/strip全过；仅初点δ门过，原final仍81a，细η.8882>旧δ.88757真实失败。保第54完整trial 5d383918734118c105af3cfc2571731cdbefc2ad23939a4eb43a973e50b472ea：工作η.2652827192、δ.2651667069失配.0001160123，minz.02、y.389999875、球.990441946、帽高裕3.67e−11，峰转s=.42。raw1600886B SHA b4d34b0d37928b2f3ffeacf5de3a072068a6314e474fb72c6cd4adb3ae9c5bc5。下一七input独立trial审计，无opt，保旧δ失败、真η/曲率/镜像160×384/768；不把原run称收敛或先授fine改善。见notes/metric-epigraph-first-actual-and-physical-trial-selection-20261114.md。
 
@@ -49,6 +49,8 @@ R89真实仿射协变/W不变，R90全部常态控制由七state至多252列张�
 R83真第四传递：M0倒行T−、V+；含Z0的真实基准上第四切向保P1，但基线/偶成本仍欠。R84 V只有限加法半群，frame长度L∫(1+k²)≥4π²；不授负成本或V正性。R85/R88证明pure尾4m−9、4m−8均准确端点势，M0已消；R88 consumer43636741138真I0/原DAG全0。
 
 R92一般m把第4m−7化为三个真实零端第二primitive(b0,d,J)的二次action：最高/中势移b2/u2/u1，真实I0移u0，J′=Ke/4且完整M0给末值0。actual43637739532/source09bbfd75已complete14.310s/RSS122.145MiB，15真histories、回代/坐标往返全0；action2172项/9组，完整cert decoded581665B SHA f3094ac25e631978ff129795128e8207edded409d78c8851a5f07c42c8db358d。非零density不授period/符号。R93从完整M0真证∫kh=0、∫k²=L+∫(logh)′²，故k换号且max|k|>1；闭frame另L(2L+Elogh)≥4π²。R97再证∫hkω=K2及K2=−∫(F/h)kρ，准确平方给(S²−1)E≥L、E>0/S>1，故全程恒h空类（R93已补注），不排变h桥；用真相关续端势，不能任取primitive。
+
+R95 actual43639240317已准确核七短系数/端势/I0/原DAG全0，10.928s；D25压1605项5组，const1375/linear139保留，c10/c9准确零端势使period次数≤8，未授c8符号。完整cert raw567045B SHA25a3499e6c8392b62f83678d357a3850e8f26ab4c15acdf7bf57595397a52136。
 
 P0、逐s第四ruling、更高阶/收敛、完整宏观嵌入厚度仍欠；results.md/notes/git保全部证明与实际身份，H只保当前门。
 

@@ -195,3 +195,5 @@
 - [R96：有限仿射Volterra空间的同一光滑三矩圆忠实评价](results/R96-single-profile-faithfulness-for-affine-Volterra-spaces.md) — 独立正仿射搬移把分离packet排成互不交区间，右因果与四次齐次使幅多项式行列式有非零词典首项；一个profile即对完整有限V评价单射。左三bump准确补矩和共同归一保全部查询，得到合法C∞圆及无统一导数盒时的相对开稠密性。若总b非成员，R91同号泛函可转到同一圆，仍不排特殊圆或固定N的P0+NP1。
 
 - [R97：真实零二阶矩阵路径必须有非恒高度参数](results/R97-zero-matrix-paths-require-nonconstant-h.md) — 完整C3系数给∫hkω=∫k²，再由唯一ω积分得K2=−∫(F/h)kρ；准确平方式∫[(F/h)²−1]ρ²=L+∫[k+(F/h)ρ]²，故E>0、S=‖F/h‖∞>1且(S²−1)E≥L。无须frame闭合，所有边界项明确；不排R37的变h桥，也不授第四成本符号。
+
+- [R95：D25完整压缩action及最高参数端势](results/R95-compressed-D25-action-and-top-parameter-endpoint-potentials.md) — m8公开consumer43639240317七组短系数、真实I0/ODE及fresh原DAG全0；新增零端势将2172项9组压为1605项5组，const/linear完整保留。c10、c9是明确真实系数primitive的端势，M0已付，故period关于c次数≤8；未授c8及以下符号/零period，不外推一般m。
