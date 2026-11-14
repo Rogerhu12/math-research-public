@@ -15,3 +15,6 @@
 
 
 - [固定CM多项式单位条件的稀疏坏集](2026-11-14-fixed-cm-polynomial-unit-density.md)：利用原迹界和范数将固定F(barπ0)坏素数计为O_F(√XlogX)，含清分母及有限整数根分支；固定λ/κ有理式的单位条件因此可在原正密度ray中同时保留无穷处。量词保实际稀疏删除，不适用于随p变化的原负矩或Cartier系数。
+
+
+- [R606：原Gaussian整单位变换与准确第二中央行](../results/R606-original-gaussian-unit-gauge-and-canonical-second-central-row.md)：证明完整Newton函数的Gaussian整数改变量只乘显示解析单位，原完整导数准确不变；显式二项式规范消去共同提升χ，给特征p有限连接及前五余项。原第二类保H^-p的完整log修正和真实低系数除p，未以必要条件冒联合非零。

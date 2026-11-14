@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：70c46f5c11fd43d8b4f992c3200a358eafbe7596；2026-11-14 22:40:37 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:36:11 UTC仍无环境。最迟23:30再试。
+- 最近已读规则提交：0836c54fb75f7a65da4422f86f813ed70d2c9666；2026-11-14 22:44:55 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:36:11 UTC仍无环境。最迟23:30再试。
 - 只在Rogerhu12/math-research-public/main工作；逐结论commit/push已授权，禁强推/改已发表历史。每次pull后核根/课题README，至少每小时pull一次，仅读新差异并立刻执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35–21:05断连期API历史已接回终端；21:39再次断连后用已连GitHub原子非强制追加，恢复即实际pull接回。
@@ -15,8 +15,8 @@
 
 ## 已发布、归档与分工
 
-R1–363、R365–560、R562–602、R604已登记；R364仍开，R561/603/605/606/607进行中。
-完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r601.md)、[open](notes/2026-11-14-open-before-r600.md)；
+R1–363、R365–560、R562–602、R604/606已登记；R364仍开，R561/603/605/607/608/609/610进行中。
+完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r606.md)、[open](notes/2026-11-14-open-before-r600.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
@@ -24,7 +24,7 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 - theta续R605两真实image的原ℓ与完整余补；R601已付Q两张量、全Y/W核心和15维谱。R599原I1深度返回保持，未得中央→I1零。
 - literature续R607真实多阶饱和/混合九格；R604已付原S/T单位阶梯子式、全真前缀空区间及二次接触界，不将非连续行列式计旗标成本。
 - deep续R603：R597已付r1ν2原结点整临界支及低ell全部第二类；继续同一真实z0/z1与全两像。原深前缀右逆的定量应用作同篇增补，不重复R412。
-- root续R606原下一中央整商与同参数/pole实际约束；R602已付全Hurwitz余项和完整第二Bockstein，全部原j尾保留。
+- root续R610原完整中央与实际整目标下一Euler/Cartier整商；R606已付共同Gaussian整单位变换和无χ的第二类，原j准确不变。
 
 ## 原固定对象与不可删的支线
 
@@ -53,8 +53,8 @@ R586七原Euler全部k准确系数/首p²共振族保正文，指定最早c4/c1�
 R589全D有限A_p统一一p整化、平方零极部/七列rank7和F^p整；k*处一p改善不付cutoff。[有限F^p边界](notes/2026-11-14-finite-frobenius-power-and-true-prefix.md)：真k≥s时其p幂已被原n<ps窗口截零。
 
 R591/592两c的KC/KH³与原ε五阶真同态保正文，第六乘法缺陷仍需相邻行。R595原两a=M(c4,c1)+R、detM=−266084/15单位，R含完整K≤N−2低卷积；中央同零仅c=−M^-1R。[addition整卷积](notes/2026-11-14-inert-addition-regular-carries.md)保RP/RB的明确单位补偿。
-R596唯一R40首pole完整重建两c/两原a，首中央同零 iff L=36AS−17AT=0、B=5AS/34+E=−hp/3；最高visible系数76024/5单位，低残差不删。全Cauchy进位给九来源全部D/n<ps强化矩阵；真核不等modp核，与三块M不同。
-R600纯S/T全D余类：p^(h−1)(h−1)!r_hs≡γ^(h−1)C，p^h h!r_hs+r≡γ^hB_r，γ可零/碰撞且C为全低卷积。原有限像eγB、中央第一Bockstein Cεeγ、H(pε)/p=CΦγ（Φ0=ε）。真前缀Vandermonde增一p但可能核早已0，D1 K_1,3=0；两原j0不赋乘积C0。R604续真同权忠实性/非空层。
+R596唯一R40首pole重建两c/两原a，首行同零 iff L=0、B=−hp/3；低残差保留。全Cauchy进位给全部九来源D/n<ps强化矩阵；真核不等modp核，与三块M不同。
+R600纯S/T全部D、全部余类第一层与中央Bockstein保完整低卷积、零γ及权碰撞；真实前缀Vandermonde可增一p，但D1高核早0。两原j0不赋乘积中央零，公式保正文与完整前检。
 
 R598完整原j_m=J′_m(0)准确给H_m=dE^-mΠ0U_m=−j_m e^-mcX+R_m，R_m唯一大盘Tate解且R_m(0)=j_m；j0 iff中央零初值H延拓。原d、全部尾/缩放保留；未投影U有非中央单位并独立，不排中央同零。Π0是p依赖z旋转，尚非同预算原列；R602续余项半径/下一Bockstein。
 
@@ -67,12 +67,14 @@ R597补齐r1ν2：原三列det−2给整分裂结点支，A/B∈w²而C∈w，�
 
 [2026文献精确假设](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)保逐p二次单位/高度/受限秩及随权非消失界限；未新增固定来源无穷非消失输入。
 
-R602原F°/G全n!整、n<p整窗及每闭R<R*=p^-1/[6(p−1)]Tate；不认最大/闭边界。新完整尾M*给j_m/p≡(2A1−pA2/γ)/γ modp²；首层失败时第二层读(2A1/p−A2/γ)/γ。全H原系数二项式式与更大中央Euler盘保正文，未付无穷命中或全D cutoff。
+R602原F°/G全n!整、n<p整窗和每闭R<R*=p^-1/[6(p−1)]Tate；新单调完整尾M*给原第二Bockstein/全H二项式式。完整中央Euler延拓同更大开盘，未认闭边界最大或全D cutoff。
 
 [普通Euler有限阶障碍](notes/2026-11-14-ordinary-euler-finite-order-obstruction.md)：若θU=A原非零有界测度，任何有限阶τ都须τ(xf′)=ν(f)；全差商连续性/小球Mahler逼近迫ν所有球0。故R598两U不能添入R579普通有限阶格，有限Taylor/Dirac修正无效；中央Π0条件保持。
 
-R604 D<s的原S/T列、行n=hs+q（0≤h≤q≤D）以p^hh!整化后，det≡(38pc)^binom(D+2,3)∏(j!)^(D−j+1)单位；真K_{D,D(s+1)+1}=0。取p=(6+o1)D得最大接触在½D²+O(D)与(1+o1)D²之间。非连续raw det不等连续真旗标，未给九格cutoff。
+R604 D<s的原S/T完整阶梯子式以p^hh!整化后单位，真K_{D,D(s+1)+1}=0；最大接触在½D²+O(D)与(1+o1)D²之间。非连续raw det不等连续旗标，未给九格cutoff。
 
-R601 ν1=f1⊗Σ⊗σ³/42、ν2=f3⊗Θ⊗σ³/42由实际Qμ3拆；原矩形不变但测试须转。全ν_i|Y深=β(P_Y,−κ)*ν_swap、|W深4=−λ⁴(P_W,κ⁴)*ν_swap，half-period中心/全部5坐标/真像逆域已付。实际Y支全15维谱=S(2z)/2+δ(Href1−Href4)/(3024b)+四外3维块；新E2312线0，参考/外块不赋中央零。原S一维投影有伴随质量1/2，但不自动与矩形交换；两个真外像及余补全保，无新ray。
+R601实际Q两张量保原矩形但转测试；全Y一层/W四层负交换、中心/5坐标/真逆域已付。Y支全15维谱含S/2、两参考及四外3维块，新E2312线0；S伴随质量1/2不使投影与矩形交换，参考/外块/余补全保，无新ray。
 
 [固定CM多项式单位](notes/2026-11-14-fixed-cm-polynomial-unit-density.md)：固定非零F(barπ0)坏素数O_F(√XlogX)，保整数根分支；有限组固定R(λ,κ)的κ0分子/分母非零时可在原ray删此密度0集。只用于实际固定系数，不能套p依赖I1/Cartier。
+
+R606任意整c改变量给J^{c′}=(c/c′)^u J，原J(0)=0故完整j准确不变。c†=−C_s/[p(p+1)]，c†−c=χ/(p+1)整；K_p=expθ^-1(Jflat C−1+C_s t^s C logH) modt^p无χ。前5规范g_h读[t^(hs−1)]K_p^(m/6)P_m C/H^(h+1)；首A1零时j/p²=−Ξ_m/(m²C_s²)，Ξ=B_m,2+mC_s(𝒜_m/p−ℒ_m)，ℒ保原H^-p的log修正。两原完整失败要求两B1及两Ξ同零，未证矛盾。
