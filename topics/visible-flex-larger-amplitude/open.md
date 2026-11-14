@@ -100,3 +100,6 @@ request42并行两条：前缀从真实40继续冻结QR入口active32；native�
 ### actual42 native：新1372系统自身仍失败
 
 [实际42完整失败记录](notes/2026-11-14-actual-request42-native-original-step-direction-failed.md) 亲读公开小报告：307552行exact初1.220667068e22→修正1.256277542e22更坏，最坏new518＝旧42/step0/Pi112。行列max[1,2)、69149136形成项无所报尺度丢失、LUinfo0并不足够；保初delta ed6a8027…，不是旧long-J门拒绝。artifact14124997721/64948461B/ZIP4b48e8dc…、result741fb34e…保全，终端失联未独立审全部大阵，不能夸审计范围。不盲加同修正或派坏方向；下一独立节点G形成/恢复后仍原1372全行exact，原ODE/J/g/验收不变。
+
+
+[R270完整局部约化](results/R270-exact-local-support-damped-QP-condensation.md) 已给完整证明：B仅支撑13节点+p时，完整236036维正阻尼QP精确等价于4397维Schur问题，外部physical和109freecore仍按唯一仿射最优响应恢复。平方根消元保Rᵀh=g、全部pure-global和原线性项，不把近似center当精确；原外部gradient给恢复误差界，全部24576行及原真实验收保持。当前只是等价表示与源接口，尚未执行新QP，不据此判42失败。

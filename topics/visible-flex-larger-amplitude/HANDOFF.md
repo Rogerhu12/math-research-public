@@ -24,8 +24,8 @@ prepare112 SHA0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714�
 原引擎7d75a44a…/B af7966fa…冻结，236036变量/112非零H。λ270/LSMR200/C-Hildreth200/17trial/全原域门保持，每轮新weights、不跨轮减merit。17–39完整记录已出版；39强radial后α1真降.00222861，未BVP。
 40 run43621054216/source8a59ebd9/job132526640205/artifact14123843853，389895464B/ZIP8f83ed58…全核。完整338链+112border/pureglobal/λ一次QR19.1285s，1.486GB因子仅内存，17完整inverse原H残差L2约1e−10。helper67.452s到16工作行上限非时间；未修复stationarity4.9305e−9仍1804负slack/min−33.725；全向量repair .0095900792后H44.28257<C44.29019，α1固定merit44.292419650985686→44.28040624161529/drop.01201340937。全原域过，col.00711030802717/BC7.9973e−8/新FD7.157355711e−10，仍非BVP/native。
 40三篇主note/QR审计/damping解释全文读，全部B/H/inverse/父链/源核；因子未导出。λ270入口硬锁，col无argmax。
-42 run43623850723/source34abbdf26804307a61fa4d18139c969c1cf9c445，prefix job132535274004正在warm。仅active16→32，原300s/1200H/90reserve/1200total/λ270/17trial不改；入口4b768828…/FD721f6337…/QR596356c0…冻结。
-父40 notes/public-actions-43621054216-1-twelvequeryqr/twelve-query-qr-warm/warm-001.json.gz SHA c62a7f12db331993698ed7e5d9086193d8e43d399dbd98adb2b869430e19aeda；status 30f19320351f37344c5e75c6dd8614707f26692c7888c2d0eafcdb532f24d359，Git全bytes已核。无第13query依据。amplitude并行推导完整H的局部Schur精确约化（外部最优响应不冻结），尚未实施。
+42 run43623850723/source34abbdf26804307a61fa4d18139c969c1cf9c445，prefix job132535274004已成功发布，实际小报告待读。仅active16→32，原300s/1200H/90reserve/1200total/λ270/17trial不改；入口4b768828…/FD721f6337…/QR596356c0…冻结。
+父40 notes/public-actions-43621054216-1-twelvequeryqr/twelve-query-qr-warm/warm-001.json.gz SHA c62a7f12db331993698ed7e5d9086193d8e43d399dbd98adb2b869430e19aeda；status 30f19320351f37344c5e75c6dd8614707f26692c7888c2d0eafcdb532f24d359，Git全bytes已核。无第13query依据。R270完整H局部Schur约化已证明/登记，外部仿射最优响应、原g和pureglobal均保；实现未算。
 
 ## 当前native：41捕获完成，42逐步系统方向仍失败
 
@@ -46,6 +46,6 @@ prepare112 SHA0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714�
 shared-background规范形/closed assembly/new loader及cover/held已读冻结：全部shared节点定义同一quintic B、保帽高/marker、重建完整cut；原A.height/w/E目标g不覆写。新cover保R241全pair，held读完整活动块/两帽盘/全D，独立于reach是否已完。
 冻结全部p*/scalar/g/尾帽/区间/t后释放全core K=k=0/T=M，同g v4维450/514；同live TailClient/predictor/FrozenProfile依次新H/J→原FD→fullmain→fresh audit，live scalar硬绑；699二分1397，勿抄max1200。
 R248强C²/相位控制全t；R241完整空间对/法锥给嵌入reach，R238/254/258同场标记链含反射。R251四Loewner实际operator仍待新场，request16仅解析接口不重跑。无六/九jet机器门；显示N32/九相位mesh<5MB，真实2305tail节点不删。
-旧A幅度.063<.2，RK24/48/三mesh/2157568pair/GW已封存；43commit及旧恢复链见notes，strongR6失败/raw未全迁，禁private。R238–269见results.md；R259后备未调度。
+旧A幅度.063<.2，RK24/48/三mesh/2157568pair/GW已封存；43commit及旧恢复链见notes，strongR6失败/raw未全迁，禁private。R238–270见results.md；R259后备未调度。
 
-规则同步记录：2026-11-14 18:01 UTC 按Rule8读取公开main及双README（非本地pull）；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec均未变，已读提交 72ce0efa326b0d2045bf82e92b4fb2eabf2cc5ee。
+规则同步记录：2026-11-14 18:01 UTC 按Rule8读取公开main及双README（非本地pull）；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec均未变，已读提交 b49287fdcf0ff9ce3cd76abd2265175fd98401af。
