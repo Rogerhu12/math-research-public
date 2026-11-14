@@ -143,3 +143,5 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 **c16整窗原实际来源。** [完整接线](notes/2026-11-14-extended-sixteen-window-actual-defect-top-and-common-two-fee-sources-789f-next.md)以一个u_Q（Q=floor(exp(16d³))）给全窗口真负图源r_p，左像一致趋同w、固定测试左配对一致趋<w,f>；原bare/flat同未来带的投影给Xi_p²≤2带能量，全cut≤2d(τ+ε||w||)²，间距d网格无d，不支付κ(V)。只对未消联合旗的这一个实际族，若比较常数O(exp(16d³)/d)即足排w；该角度界仍未证明，旧δ旗范围不迁移。
 
 **η8第二方向入口已冻。** [接口](notes/2026-11-14-r150-eighth-second-interface-789f.md)保持原p²目标，唯一新方向9101；五旧包46输入，九旧p6原余及全部来源不重算。先实核九余primary，再恢复q/H5、完整相关像与所有正列原17；未付primary保真回执而不报完整负。共享300秒/512MiB、六编译各30秒，所有实际数据/cache无损保存；入口冻结不代数学结果，较低初值/第三层另接。
+
+**真单新位carry及c20窗。** [证明](notes/2026-11-14-true-single-bit-carry-block-and-twenty-window-actual-sources-789f-next.md)保原N/Y的准确右上块，K E=0及Anew^zK=0使真残量短逆只付52ηR H_p²，有限截止把母窗及同一个实际顶部推到Q≤exp(20d³)。母/低投影误差exp(−3d⁴)、top误差2exp(−3d⁴)，原两费同带/全cut/d网格与固定测试配对保持；未消旗实际族只缺O(exp(20d³)/d)角度。旧联合旗δ仍限原窗，不把最高carry重复付进真幂。
