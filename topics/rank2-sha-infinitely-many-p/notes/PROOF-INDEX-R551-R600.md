@@ -9,3 +9,6 @@
 
 - [R553：原Norm2双theta来源与真实四线单位域](../results/R553-original-norm2-two-theta-source-and-mixed-unit-domain.md)：同一六输入换元U=c+ωd、V=c−ωd将ρ0/η/h完整写成Theta⊗Sigma与Sigma⊗Theta的两个张量；整个S2中心与Theta锚付两独立核心β=−λ。真单位测试给整对偶和全部连续测试单位逆；R544余域准确为{ωU+δV unit,U³+V³ unit}，原Y/W/M、q与所有移动cut完整保留，单位见证不代原中央非零。
 
+
+- [R557：同一carry的第三来源返回与双态零质量](../results/R557-third-source-common-carry-zero-mass-and-central-rows.md)：MH=2ω(c−d)使原C/F/Dj/Ej整覆盖、半特征和全部scalar β核在η/h中保持；同一R536七行q严格保持整个π4。原Dn的所有自由x测试同时零，质量比rη=−(12+8ω)/7；三原观察在η/h各有显式单位首项与精确赋值n，η未归一Y−W首项相消给≥2n，h差仍v=n。原native uj条带非π4，完整补域仍保。
+
