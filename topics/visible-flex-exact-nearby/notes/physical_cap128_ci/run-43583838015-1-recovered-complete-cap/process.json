@@ -1,0 +1,175 @@
+{
+  "kind": "actual_public_physical128_cap_CI_process",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43583838015",
+  "run_attempt": "1",
+  "mode": "recover_artifacts_then_complete_original_cap",
+  "requested_cells": [
+    0,
+    1977
+  ],
+  "workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73",
+  "worker_source_sha256": "8116d02b3145c1c492cb136b14600c76dea9fddc7322ebc847cf379cc0602490",
+  "started_utc": "2026-11-14T10:09:43.593935+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T10:09:45.930623+00:00",
+      "before": "15c93a255aaf45c6bad9a7559d182e53b5dcd413",
+      "after": "cd2d723e7014303d195adf71087413336449ee0a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:09:47.652733+00:00",
+      "before": "cd2d723e7014303d195adf71087413336449ee0a",
+      "after": "cd2d723e7014303d195adf71087413336449ee0a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_failed_run": 43580498603,
+  "input_manifest_sha256": "867699a5e7f968f97d9a3f50267e310181023fdbe0b815a7f9c22c6b21585e32",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "cd2d723e7014303d195adf71087413336449ee0a",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-cap128-recovery-work/science",
+  "original_artifact_outcomes": [
+    {
+      "artifact": "visible-exact-cap128-cells-1024-1280-43580498603-1",
+      "original_native_sha256": "8633c6aec45a1fc3c3b90a0ac9d8b2eabfe171a3682c8b86903223e42adf4eb7",
+      "indices": [
+        1024,
+        1280
+      ],
+      "actual_rows": 256,
+      "selected_cells_complete": true,
+      "actual_child_returncodes": [
+        0
+      ]
+    },
+    {
+      "artifact": "visible-exact-cap128-cells-1280-1536-43580498603-1",
+      "original_native_sha256": "55cdc364f8022ae8db62785bb4b4a870b00201c34873f51a00a187683f476ef8",
+      "indices": [
+        1280,
+        1536
+      ],
+      "actual_rows": 256,
+      "selected_cells_complete": true,
+      "actual_child_returncodes": [
+        0
+      ]
+    },
+    {
+      "artifact": "visible-exact-cap128-cells-1536-1792-43580498603-1",
+      "original_native_sha256": "c4f1f178c079d42d1c891352530485a0ae5c667335b9558c46abceb38244950e",
+      "indices": [
+        1536,
+        1792
+      ],
+      "actual_rows": 256,
+      "selected_cells_complete": true,
+      "actual_child_returncodes": [
+        0
+      ]
+    },
+    {
+      "artifact": "visible-exact-cap128-cells-768-1024-43580498603-1",
+      "original_native_sha256": "8eddcb6bb66708908402297c2320c601e3dbf65d0251265a8f50614ef32a0665",
+      "indices": [
+        768,
+        1024
+      ],
+      "actual_rows": 256,
+      "selected_cells_complete": true,
+      "actual_child_returncodes": [
+        0
+      ]
+    }
+  ],
+  "completed_ranges_reused_without_execution": [
+    [
+      768,
+      1024
+    ]
+  ],
+  "snapshot_utc": "2026-11-14T10:09:47.682878+00:00",
+  "wall_seconds": 4.089499498999999,
+  "native_files": [
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-1024-1280-43580498603-1/process.json",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-1024-1280-43580498603-1/process.json",
+      "bytes": 3312,
+      "sha256": "edfaf4eaa7b073c7bb89d8584c24a319c296251fca7db1be71001272ca7f626c"
+    },
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-1024-1280-43580498603-1/producer.stdout.log.gz",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-1024-1280-43580498603-1/producer.stdout.log.gz",
+      "bytes": 22866,
+      "sha256": "bfa55e07a21eff6aba250fe45127935132f12e53ca17b78ea83b148ab8be7131"
+    },
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-1280-1536-43580498603-1/process.json",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-1280-1536-43580498603-1/process.json",
+      "bytes": 3314,
+      "sha256": "9a990e7294302d809ed83d112f0ca20a3a6a3952b7e63f3ec413f5410951d0b0"
+    },
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-1280-1536-43580498603-1/producer.stdout.log.gz",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-1280-1536-43580498603-1/producer.stdout.log.gz",
+      "bytes": 22258,
+      "sha256": "700e471716408865748bfd6f9d764dd77b38f10df00430703bd035b4d943fef2"
+    },
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-1536-1792-43580498603-1/process.json",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-1536-1792-43580498603-1/process.json",
+      "bytes": 3521,
+      "sha256": "a22b6d83eeec79c7e89dffe1c0c24f92c2fa1d04b82ab690dcb9242090830579"
+    },
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-1536-1792-43580498603-1/producer.stdout.log.gz",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-1536-1792-43580498603-1/producer.stdout.log.gz",
+      "bytes": 21756,
+      "sha256": "ff6d90ddaef38771857881acb9f037625c1753871a431b939c9ea50b9150b5f3"
+    },
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-768-1024-43580498603-1/process.json",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-768-1024-43580498603-1/process.json",
+      "bytes": 3717,
+      "sha256": "1d7ff427e652c4de1c6db15aea2feede0302e3e6278cf6061df8772e1a08fd5d"
+    },
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-768-1024-43580498603-1/producer.stdout.log.gz",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-768-1024-43580498603-1/producer.stdout.log.gz",
+      "bytes": 21654,
+      "sha256": "09ae3f31fe1d88d37f20c84d4febb54ddc6ee563d07edfab507bcacc03ebbe88"
+    },
+    {
+      "logical_file": "native/cells-0768-1024.json.gz",
+      "file": "native/cells-0768-1024.json.gz",
+      "bytes": 1439069,
+      "sha256": "8eddcb6bb66708908402297c2320c601e3dbf65d0251265a8f50614ef32a0665"
+    }
+  ]
+}
