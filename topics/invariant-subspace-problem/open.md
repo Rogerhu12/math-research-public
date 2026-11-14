@@ -165,3 +165,5 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 **新秩下界已提高。** [真实第八除列](notes/2026-11-14-r150-eighth-true-divided-column-and-rational-rank-226090-789f.md)由7003/cost87给rank_Q A87≥226090；旧最小秩226089前提已排。继续目标实际Q像与全部饱和，不把31³除源当作已证恰第三Smith层。
 
 **原尾嵌入与换权接口。** [完整原模型证明](notes/2026-11-14-original-tail-star-interface-irreducibility-and-full-cost-transport-789f-next.md)给D,D*共同不可约及左/普通右/裸商的准确对角运输；flat仍L̃G̃L̃，负前缀仍用运输度量。实际祖先birth≈q且无标签截止，短段不reducing；继续同源Schur或真实标签局部化，不能免费分块/改等权。
+
+**原primitive平移已计费。** [真核乘积证明](notes/2026-11-14-original-tail-primitive-translation-cost-and-phase-window-mismatch-789f-next.md)给远移核条件数≥(3/2)^(2s)、单移真源二次型~c_xs²。原s≈q/x≈m与新局部窗不匹配；这只排统一物理范数搬运，完整Γ/flat抵消及真实t_q特殊来源仍开。

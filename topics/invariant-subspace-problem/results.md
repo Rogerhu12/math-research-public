@@ -143,3 +143,7 @@
 ### 原连续尾到star：实际不可约性及完整左右/裸项运输
 
 [完整证明](notes/2026-11-14-original-tail-star-interface-irreducibility-and-full-cost-transport-789f-next.md)从ad_W^kD及ℓ1一致多项式逼近取出每位E_i，原全异尾C*(D,D*)等于局部Boolean UHF、commutant为标量；此处只指reducing，不排普通不变子空间。实际t_q祖先birth≈q且无已付尾标签截止，原外场下界为零。正对角换权准确运输全部左/完整右可行集，裸项必须在商中取最小代表；flat=L̃G̃L̃、负图度量L̃+B̃保持，不能由分离Loewner比较免费推共同费用。有限层条件数给明确环境代价但未冒称primitive下界。
+
+### 原primitive上的真实平移费用及局部相位窗口不匹配
+
+[完整证明](notes/2026-11-14-original-tail-primitive-translation-cost-and-phase-window-mismatch-789f-next.md)在原连续尾合法相邻双位primitive乘积上给出精确行平移范数比；x≤s/2、x′≥2s时原核同构条件数≥(3/2)^(2s)，单移一行的该真源二次型~c_xs²。原R286祖先s≈q需段长Q≥2s+h，而尾起点x≈m，不在Q≤x局部phase窗；先移远再用统一物理范数/逆范数会产生已证指数损失。严格只排这一搬运方法，未把该primitive冒认实际t_q，也未排完整Γ/flat同源抵消。
