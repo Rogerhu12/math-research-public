@@ -1,0 +1,45 @@
+{
+  "result": "R697",
+  "prime": 41,
+  "alpha": 25,
+  "coefficient_algebra": "F_p[b]/(b^2-3)",
+  "rows": [
+    {
+      "k": 41,
+      "m": 40,
+      "A_k_mod_p": 10,
+      "C_k_mod_p": 28,
+      "base_derivative": [
+        28,
+        37
+      ],
+      "top_derivative": [
+        39,
+        12
+      ],
+      "base_norm_mod_p": 39,
+      "rationality_beta_coefficient_zero": true
+    },
+    {
+      "k": 38,
+      "m": 37,
+      "A_k_mod_p": 24,
+      "C_k_mod_p": 35,
+      "base_derivative": [
+        21,
+        6
+      ],
+      "top_derivative": [
+        3,
+        36
+      ],
+      "base_norm_mod_p": 5,
+      "rationality_beta_coefficient_zero": true
+    }
+  ],
+  "zero_weights": [],
+  "all_prime_unit_claimed": false,
+  "division_by_p_used": false,
+  "runtime_seconds": 0.0033009549988491926,
+  "source_sha256": "2875db23d9b787473c85702407993aebb5a88ecacee931d60ef17fdf0649fa30"
+}

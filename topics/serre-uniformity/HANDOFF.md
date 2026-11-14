@@ -4,8 +4,8 @@
 
 证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，未达到 README 完成标准。** 固定p、条件结论、数值验证都不算完成。会话 serre-public-resume-20261114；日志 Asia/Taipei。
 
-已读规则提交：ea793d88c7126ac419259c5a5870f677b67628c8
-最近实际 pull：2026-11-14 18:14:47 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
+已读规则提交：41b8aee3e28edc8957f132e028dd7af3596c45e4
+最近实际 pull：2026-11-14 18:20:00 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
 
 仅在 Rogerhu12/math-research-public 工作，长计算用本仓库 Actions；旧“停用公开runner/转本地”作废。每条结论终端commit/push main已授权；推前pull，非快进立即pull --rebase循环，不force。令牌仅CLI临时环境。根代理独占tracked/git；辅助在仓库外agent-global/、agent-cartier/、agent-o6/。单Markdown<100KB，HANDOFF<10KB，open/README<30KB，数据>1MBgzip，单文件<5MB。日志只追加本题log，≤5内容行；改共享文件须在log说明。
 
@@ -18,8 +18,8 @@
 - **公开恢复wave02运行中（43580991103）**：serre-p41-remaining-recovery.yml，55作业/最多4并发；54个普通缺失盘求完整F2及必要F3，R655另续两个CM4粗盘原链，完整高度仍待R656。请求public-p41-remaining-recovery-request.json，已完成receipt自动跳过。已返回完整证书逐盘登记于执行表；R659入口误传R435给R379引擎，前五阶段保全；nonelliptic-resume.yml已配置按指定result从原artifact续算，手动dispatch被PAT权限403拒绝；已加显式activation的push触发，R659/R666尾段run43582927030已完成全F2/F3；现按已存在原artifact继续12盘，完成后逐盘登记。
 - **R688/R690/R694已证**：完整修正Ia=d给λ=a_v/e；2处全零。3处T=X(6p)/Q8中心加椭圆尾、边长1/4，唯一CM项链尾零，c0,c1在零轨道，故ω0=0；R696更以同一实际Φ证明所有真候选λ2=λ3=0，即Ω_actual={0}；一般局部点不全零。p处Λ jet/赋值/全尾仍缺。
 - **R686已证全塔**：真实Robert逐层Norm/整格/原q导数给A_Mn=RΓ/π^min(d,42n+1)；原m<43则全高层永久稳定。实际d/m/C/J/b仍未知。
-- **R692/R693已证**：实际τ导子6、判别式−108，三格点权给三点theta，再经精确Poisson/ST矩阵得全k Hermite theta平方；中心值非负，非零和模p单位仍待证。
-- **分歧尾段接续**：R625原F2二重根28无模47²提升，旧审计只支持单根；R636旧T3辅助分母在中心非单位，需验证真实支撑rank7并保持全820交叉恒等式换分母。ramified-tail-resume.yml只续缺失阶段，完整原链/Norm/中心均复用；结论等实际证书返回。
+- **R692/R693/R697已证**：实际τ导子6、判别式−108及准确Hermite theta平方；同一σ⁶六截面给A_k∈Z[1/6]，Cp=−3A_p²、C_(p−3)=−3A_(p−3)² modp。无除p Bell递推/原六同源初值保全，全p非零仍缺。
+- **分歧尾段已返回**：run43583860809的R625/R636均成功，完整原链/Norm/中心复用；R636真实支撑rank7及820交叉恒等式换分母已封存。R625原F2二重根28无模47²提升（f(28)=658），全审计已返回，待单独登记。
 - 接着：cartier推进实际Cp·C_(p−3)结构/例外及精确有限窗口；global求真实高度jet/有限目标；O6求原普通单位Norm/首矩C/J。新结果立即登记，主目标未闭合继续。
 
 ## O5：固定 p41 的真实高度与全部129盘

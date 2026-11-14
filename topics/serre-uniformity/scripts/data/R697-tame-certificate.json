@@ -1,0 +1,43 @@
+{
+  "result": "R697",
+  "basis": [
+    "1",
+    "r",
+    "r^2",
+    "b",
+    "rb",
+    "r^2b"
+  ],
+  "curve_and_tame_addition_identities": true,
+  "complete_six_isogeny_original_point_evaluations": true,
+  "norm_even_base": "3962711310336",
+  "norm_odd_base_without_i": "-648",
+  "exact_small_root_values": [
+    {
+      "k": 2,
+      "A_k": "1"
+    },
+    {
+      "k": 5,
+      "A_k": "6"
+    },
+    {
+      "k": 8,
+      "A_k": "-108"
+    },
+    {
+      "k": 11,
+      "A_k": "12960"
+    },
+    {
+      "k": 14,
+      "A_k": "-4152384"
+    },
+    {
+      "k": 17,
+      "A_k": "-177759360"
+    }
+  ],
+  "integrality_at_2_or_3_claimed": false,
+  "source_sha256": "e137007ffb0cdca0d65e9babd8480136940908f6777d03ca33ab896bbdff1e27"
+}

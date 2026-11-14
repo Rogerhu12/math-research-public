@@ -628,3 +628,5 @@
 - **R640（已证明）**：[SS_j36_08原规范高度与整盘排除](results/R640-SS_j36_08-actual-ramified-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2约化二次式判别式20非平方，四同标签全无根。非CM SS累计59/105。
 
 - **R636（已证明）**：[SS_j36_03原规范高度与整盘排除](results/R636-SS_j36_03-actual-ramified-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2模47根[42, 43]与四同标签F3不相交。非CM SS累计60/105。
+
+- **R697（已证明）**：[原sigma六截面及实际中心值的算术平方根](results/R697-original-sigma-six-sections-and-integral-square-roots.md)。同一周期/乘子给六截面，实际权1/4各一维；原xσ⁶与−xyσ⁶准确给A_k，完整六同源初值和Bell常微分证明A_k∈Z[1/6]。实际Cp=−3A_p²、C_(p−3)=−3A_(p−3)² modp；无除p递推已保存，全p非消失仍未证。
