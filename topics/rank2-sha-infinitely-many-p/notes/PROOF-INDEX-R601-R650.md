@@ -72,3 +72,6 @@
 
 
 - [R622：原两层Gaussian连接与同一个完整Newton缺陷](../results/R622-original-two-gaussian-central-connection-and-identical-newton-defect.md)：保原Π0的第二规范连接在严格大于R₂的闭盘有唯一Tate解，其原点值准确仍为同一j；完整Neumann逆付全尾。第二层Newton须保W_k(q)∈1+p^(p−1)O的全部权，首差恰R619端点；删权所得新值未被赋零，第二Gaussian不添独立中央条件。
+
+
+- [R597同一Euler列与第三尾联动](2026-11-14-r597-actual-euler-pivot-and-third-tail-coupling.md)：ell2/c3且β0unit时，原R→R+cP gauge后由同格EP清第三尾；第二块必须同改为Ψ1−2z1°B/c1。剩余来源为实际ker(π2E²)，保同一个R、全carry和两十三行，尚未证明指定像非零。

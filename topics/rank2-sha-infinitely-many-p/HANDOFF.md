@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：46f23e0f8d07e5bed5da651810f9ad1925625263；2026-11-14 23:50:04 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 23:50:03 UTC仍无环境。最迟00:20再试。
+- 最近已读规则提交：6c35c9a7b363b262296b7725427e2455e5a033ae；2026-11-14 23:52:27 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 23:52:11 UTC仍无环境。最迟00:20再试。
 - 仅Rogerhu12/math-research-public/main；逐结论提交已授权，禁强推/改历史。每小时实际pull，逐次核两README，仅读差异即执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只临时终端，不入文件/回复。12:35–21:05 API历史已接回；21:39断连后非强制API追加，恢复即实际pull。
@@ -63,6 +63,6 @@ R622第二规范连接L₂=∂X+α1+pα2X^(p−1)，p^-1<r<1上Neumann逆给唯�
 
 原Γ/M=c*U0m13J保19角、P134/charge40、13自由行/26carry、conductor10980及两连接α/β；R537–555全部原帽/真Schur/分歧像/一般二重/t除法/S³H支线不闭。
 R577/578右逆/全核含Qn/Qquad；R593原p³ iff同R先D+S=G+再H_P(Rbd+S)∈imD短，完整两十三行、L0/L1两位与Qquad最高行全保。
-R597det−2整结点补r1ν2，C/B一阶极保全p³；同预算深前缀m=min(s,btop_(D−1)+1)保SA/S²A/carry和同R反补，第三块a(z0+z1w)不代余核。
+R597det−2整结点补r1ν2，C/B一阶极保全p³；同预算深前缀m=min(s,btop_(D−1)+1)保SA/S²A/carry和同R反补，第三块a(z0+z1w)不代余核。[实际Euler pivot](notes/2026-11-14-r597-actual-euler-pivot-and-third-tail-coupling.md)用同R gauge及EP清第三尾，第二块必变Ψ1−2z1°B/c1，余来源ker(π2E²)仍待实际像。
 R603最低角c3两支真实t对角1,1,t,t⁴，在显示N帽内原列满射且左条件恰5；Qn下一角/原Qquad仍在，远支单位处允许阶。R608整簇只余𝔯P/t、全T不改迹极，接触unit迫两支不能同整；原Taylor平方项严格相消。R612全C核=原帽内I_(p−78)(t,Y−1)，全列单位阶梯给真前缀空界，模p单射充要p>6(b_D+13)；t(E+40)保D+1帽边界，不能下降旧三块。原结点任何同R/T的p²[w^(2s+15)]unit，恰在ell2最后已读2s+14之后；故无2s+16真前缀，后3s+14行不计新非空层。截止内d2/全局边界仍开。
 [2026文献](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)仍保逐p单位/高度/受限秩与随权条件，未增固定来源无穷非消失输入。
