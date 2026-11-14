@@ -209,3 +209,7 @@
 ### 2026-11-14 current compact and high scaled mixed forms
 
 [R119-supplement-current-compact-and-high-scaled-mixed-pocket-forms](results/R119-supplement-current-compact-and-high-scaled-mixed-pocket-forms.md): proved A1–27 for the same actual nonradial state and true joint Γ*. Complete lower energy uses root H3; strict metric sources use F1. Both actual/radial solution differences, all outputs and means, and four full direct/background/parameter errors are paid. The complete high subspace up to Tnew and each compact κ-packet have a common current positive direction. The double current reference Cauchy factor is explicitly retained in η<2^2500 J13δ^-25 n. Cross-packet/global near-kernel selection remains separate.
+
+### 2026-11-14 actual old-curve Airy primitive and mean budget
+
+[R133-supplement-actual-old-curve-Airy-primitive-and-mean-budget](results/R133-supplement-actual-old-curve-Airy-primitive-and-mean-budget.md): public43605453793 completed eleven gates. The true old-curve mean exponent is >.002921264998045; the complete inverse and commutator have Hinv<1.000097093597 and [D0,J]<253957.400944014. Orders1–4 retain every finite amplitude coefficient and actual Airy profile. Full two-row residual correction and the finite root reflection remain separate.

@@ -183,3 +183,7 @@ I1–21已证并接公开CI：original Iρ U(v)=WN−ΠρWN−n^-N IρU(YvN−1)
 ### 2026-11-14 current high and compact packet mixed forms paid
 
 A1–27已证并推：同当前Γ*及非径向背景，root H3与strict F1分开付；完整两解比较、全部输出及mean、四类joint源响应不删。高κ≥2^4000J40到Tnew的全输入子空间共同正，紧κ每真实邻包共同正。新X≤2^-8388608确由原incoming进入；原未发布稿interaction漏双K已在正式稿修正为η2^2500、direct2^5402及后继bits。还须完整网络中心质量/跨包混合/端共轭残差/最终层权，不能把各packet PSD直接相加。
+
+### 2026-11-14 actual old-curve Airy budget complete
+
+43605453793实际11门已成，native4ebc5865a8427e67e003e0aa25d8f629353ed87efd67d1705e1cdac7d2fc5b39。完整old mean指数>.002921264998045、J交换子<253957.400944014；N1..4余项有实际系数，不声称无限级数收敛。下一接原N双行quasimode残差与正图纠正，使用已成negative Cauchy后才识别brootfin/strong。

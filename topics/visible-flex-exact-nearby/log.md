@@ -531,3 +531,7 @@ receipt-only43603364028 success/children=[]，真实receipt331dfd81c7cf148c0c58a
 ## 2026-11-14 14:39:01 UTC — actual compact/high packet mixed forms through Tnew
 
 发布A1–27完整解析证明，full current jointΓ*、全部输出/mean及四源响应保。审原45 S22/28发现需乘两当前K，正式稿已付2^2456并宽至η2^2500；后链及高/紧首费均上调，首层余量仍>6000000/7000000 bits。无新数值实验；原小源/能量native不改。下一继续跨包全网近核与层权。
+
+## 2026-11-14 14:39:43 UTC — actual original-curve Airy primitive gates
+
+43605453793 success，11门/child0，native4ebc5865a8427e67e003e0aa25d8f629353ed87efd67d1705e1cdac7d2fc5b39。mean指数>.002921264998045，full交换子<253957.400944014，实际双幅transport位移<6.075000001e−8；有限N1..4系数全部原存。原fold不重跑；接真实双行residual/positive Green。
