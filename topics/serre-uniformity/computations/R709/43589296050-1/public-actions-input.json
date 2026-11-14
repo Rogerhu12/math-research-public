@@ -1,0 +1,28 @@
+{
+  "result": "R709",
+  "disk_id": "SS_j36_06",
+  "request_item": {
+    "result": "R709",
+    "disk_id": "SS_j36_06",
+    "prior_result": "R656-SS_j36_06",
+    "prior_run": 43587787435,
+    "prior_source": "1c0f82fde2b785afa266b5506e92942061070d3b",
+    "prior_receipt_sha256": "80d1e00e962e40ac585c8d4ffa6b9f1c132c33d34562e55a4327ce5c75b7c134",
+    "artifact": "serre-p41-true-CM4-R656-SS_j36_06-43587787435-1",
+    "scope": "Only original F3 support, principal norms, center, polynomial and independent same-component certificate; consume all complete R656 F2 outputs without rerunning."
+  },
+  "source_commit": "467b161338bf3dd3a33ee95e7813e0c10ca42b3d",
+  "request_sha256": "99aee37b415721b887d92af474e91a9ae982de214a1b5b635ccc6fc581cd8b58",
+  "prior_receipt_sha256": "80d1e00e962e40ac585c8d4ffa6b9f1c132c33d34562e55a4327ce5c75b7c134",
+  "prior_input_sha256": "3c472c1f7fc434b37c08c179398d9122ab6d46ced563063338ca07b2fccca94c",
+  "prior_F2_polynomial_sha256": "1d62f726dd4f381b8a3181cc9902a30059cf98ac1d21f6907fc79cf85456a314",
+  "prior_F2_audit_sha256": "fd972d12c746d5694ec3a47077e0785b966130a5d83fd58cedd7548d745f2f79",
+  "original_chain_bits_restored": 304,
+  "joint_Laurent_certificate_sha256": "c21ddac95926d7b3c9ae77a1ddbf75eff990f6142ddf87fb9e3734f2d7c88220",
+  "joint_Laurent_audit_sha256": "7cf41823e8294fcd63546d99704ad2ae3351a5316a4ca9dbeefd6694a0c13b56",
+  "root_readme_sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "original_chain_terminal_principal_or_F2_repeated": false,
+  "T3_four_kernel_multiplicities_retained": true,
+  "mathematical_completion_claimed": false
+}
