@@ -205,3 +205,7 @@
 ### 2026-11-14 actual fourteen-row low193 source pilot
 
 [R133-supplement-actual-fourteen-row-low193-source-projection-pilot](results/R133-supplement-actual-fourteen-row-low193-source-projection-pilot.md): run43605144072 completed six gates and fourteen exact selected rows using the original forty scalar-jet parts. The new polynomial/source coordinates are certified, but the large-cell bounds did not tighten: row1524 low193 <.038380504253 remains dominated by its .03822513634 uniform remainder. Whole-cell mean multiplication also widens several small-source rows. This is a selected diagnostic, not a full source cover or response bound.
+
+### 2026-11-14 current compact and high scaled mixed forms
+
+[R119-supplement-current-compact-and-high-scaled-mixed-pocket-forms](results/R119-supplement-current-compact-and-high-scaled-mixed-pocket-forms.md): proved A1–27 for the same actual nonradial state and true joint Γ*. Complete lower energy uses root H3; strict metric sources use F1. Both actual/radial solution differences, all outputs and means, and four full direct/background/parameter errors are paid. The complete high subspace up to Tnew and each compact κ-packet have a common current positive direction. The double current reference Cauchy factor is explicitly retained in η<2^2500 J13δ^-25 n. Cross-packet/global near-kernel selection remains separate.

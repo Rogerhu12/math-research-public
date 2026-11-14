@@ -527,3 +527,7 @@ receipt-only43603364028 success/children=[]，真实receipt331dfd81c7cf148c0c58a
 ## 2026-11-14 14:37:47 UTC — actual fourteen-row low193 pilot
 
 43605144072 success，六门/14行，child0 25.001079743s；native1f5f2e82b4cdf52fae6b8d3495245ac76235af5450da9656ea14aa0ba99a6e2b，summary791b4485d20895fd1445983e3bd23a8915c1abd41525f2ca42cdeba73b6db125。大行由uniform径向余项主导、mean整格乘列另变宽；只发布真实选行证书，不授全源或response。继续紧径向/mean相关和actual cut。
+
+## 2026-11-14 14:39:01 UTC — actual compact/high packet mixed forms through Tnew
+
+发布A1–27完整解析证明，full current jointΓ*、全部输出/mean及四源响应保。审原45 S22/28发现需乘两当前K，正式稿已付2^2456并宽至η2^2500；后链及高/紧首费均上调，首层余量仍>6000000/7000000 bits。无新数值实验；原小源/能量native不改。下一继续跨包全网近核与层权。

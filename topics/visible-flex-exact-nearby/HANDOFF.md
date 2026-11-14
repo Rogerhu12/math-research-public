@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 14:37:47 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 14:39:01 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：bf4198b18cecfc45a065e891dc5ed48d7db6d126；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：ac0fcc220082194344b98f0e6a728453f55222e8；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -51,7 +51,7 @@ Xi43591721337真实6门/3146行；δ转移43597209022真实12门/179原输入，
 root Volterra43588423040、首expB43591004689、完整positive43589433313已真实成；rootgraph/strict两strong窗已证。free Airy低κ^-5/6勘误随全部后继引用。
 完整负散射/ordered network两窗H0→H4/3、H−4/3→H0已证，完整mean/source/外口保，λ=2^32√Jδ^-9/4。scalar正常形完整余项两窗<2^20000λ4/3；Tnew=2^65664J²δ^-9，高反馈<2^-1024，无层权ℓ1/2/∞且保全部低输入/source。最终层权未成。
 三不交phase零图已证：高κ≥2^4000J40同一θ full径向两态；紧κ[1/4,K*]固定三维图、各邻包共同PSD；低16e..1/4真实det的0,e双零保护wholebox，r_l=2^-1000Δ²ρ9、ρ=2^-1024J^-8，无旧δ96损失。
-低current actual mixed/flux mean已由完整joint及whole-C4能量付，带外负项/定位门保。高/紧current actual mixed新稿blobc0ad3e634c42c8584f0b14ebb0ff48cbdb6d4151待root审推；tail正做跨包全near-kernel，端图/邻区反馈/完整层权未授。
+低current actual mixed/flux mean已由完整joint及whole-C4能量付，带外负项/定位门保。高/紧current actual mixed A1–27已证：新X≤2^-8388608由真实incoming进入；分strict E1/root H3，四完整误差付至Tnew。interaction准确重乘两K，η2^2500，direct费2^5402。高子空间及每紧包共同PSD；tail正做跨包全near-kernel，端图残差/邻区反馈/完整层权未授。
 geometry43584188751真实26门仅条件充分：同一闭C²真解η0、全C0误差≤1e−4、|δν|≤1e−5、真实外球/full matching ⇒ held/D>.05075888242、reach/D≥800/25039、Hdiam/D≥360/511，marker145..148给δE>0。存在及stateball未实现；97线性行不替代非线性全matching。
 
 ## 正在连续推进

@@ -179,3 +179,7 @@ I1–21已证并接公开CI：original Iρ U(v)=WN−ΠρWN−n^-N IρU(YvN−1)
 ### 2026-11-14 actual low193 pilot: radial and mean correlations remain
 
 43605144072六门/14行真实成功，native1f5f2e82b4cdf52fae6b8d3495245ac76235af5450da9656ea14aa0ba99a6e2b。新投影未收紧高贡献行，1524 uniform A0 .03822513634与low .038380504253同量级；3070/6375的整行e_z乘列也比uncorrected宽。下一先付tighter径向scalar余项/mean关联，再考虑完整source cover；true-cut方向并行继续。所有实际选行保留复用，不把上界比较当误差下界。
+
+### 2026-11-14 current high and compact packet mixed forms paid
+
+A1–27已证并推：同当前Γ*及非径向背景，root H3与strict F1分开付；完整两解比较、全部输出及mean、四类joint源响应不删。高κ≥2^4000J40到Tnew的全输入子空间共同正，紧κ每真实邻包共同正。新X≤2^-8388608确由原incoming进入；原未发布稿interaction漏双K已在正式稿修正为η2^2500、direct2^5402及后继bits。还须完整网络中心质量/跨包混合/端共轭残差/最终层权，不能把各packet PSD直接相加。
