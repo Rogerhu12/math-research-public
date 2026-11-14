@@ -453,3 +453,9 @@ native `498a5f8be6d2729a1029dbc45a7c06f832c58e2d269031f7db929c2327a0c260`；summ
 [E.1–E.35 证明](results/R119-supplement-actual-nonnegative-connector-complete-two-port-and-weak-sources.md) 已核。固定停止对象的最后$q=-1$主平台内端$C$到真实$B$，包括两个零曲率平台、长$q=2$与双bump，构造全Fourier变分逆；$L^2_C\oplus H^1_B$端域、全部mean及所有非径向输出保留。真实内端DN块满足$2^{-373}I<\mathcal N_{CC}<2^8I$，从而给内端Neumann/外端Dirichlet onto逆；普通/L1 weak源与有限affine跳保完整物理两迹。Piola密度与$1/(4\omega)$归一逐式核，E25的L2 lift常数改32，不影响$2^9S_2$。SHA256 `4d3cfe70745600711ff21f0fc80bc103b17b4f838f26fe8ae496eb109152193b`。
 
 其实际Cayley由同一DN自伴性推出。$C$不是$e_X$；剩余负段、三阶退化端点、原根波/强标签转换及$I-\mathcal R\mathcal S_{\rm open}$仍待证明。
+
+### R133：完整 1977×4 物理帽源实际完成（2026-11-14）
+
+[actual 12门报告](results/R133-supplement-actual-complete1977-quarter-physical-cap-sources.md)：公开43626024582两端恢复/finish真success，root亲读全部8range artifact process、finish process与8711B summary。只新补1123域，保旧641prefix+6080中间+64pilot，7908完整域恰一次。选定同一$w_0$完整物理帽界 **$3.601796223643\cdot10^{-8}$**，14条匹配费用全保；原完整界$2.418183101946\cdot10^{-6}$。末100原graft$10^{-9}$盒只包固定η0，无零宽target冒称。
+
+finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a649a355fb888e0dcbe0e6a65298`，summary `36c44dff71b6ac4e577ab690cd4c25874deb0f101a289d0c1a3488db1eea2ef0`，repo process `2a7903ef56e245315937cd5ebc8d8467b86dbf7c445c1ef4924fcd476037e9d1`。不单独授moving/cut97/finite193/无限逆；Hessian v2与Green后继实际门另核。
