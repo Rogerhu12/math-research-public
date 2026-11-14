@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_full_real_delta_outer_and_positive_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43615531666",
   "run_attempt": "1",
@@ -102,6 +102,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T16:27:32.823074+00:00",
+      "before": "89557dfa16dbf226e5a3ab26dbf0a6adbf252247",
+      "after": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -119,6 +127,11 @@
       "time": "2026-11-14T16:26:32.915443+00:00",
       "final": false,
       "commit": "7061ec59f54a70486a8fa9284cfd205420dfd287"
+    },
+    {
+      "time": "2026-11-14T16:27:28.353418+00:00",
+      "final": false,
+      "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -152,12 +165,24 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "89557dfa16dbf226e5a3ab26dbf0a6adbf252247",
+  "last_read_commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-full-delta-positive-work/science",
   "original_native_restoration_verified": true,
-  "snapshot_utc": "2026-11-14T16:27:21.126975+00:00",
-  "wall_seconds": 61.396447566000006,
+  "snapshot_utc": "2026-11-14T16:27:34.916053+00:00",
+  "wall_seconds": 75.18552660199998,
   "native_files": [
+    {
+      "logical_file": "evidence/full-delta-complete-positive-N97-high-inverse-actual-outcome.json",
+      "file": "evidence/full-delta-complete-positive-N97-high-inverse-actual-outcome.json",
+      "bytes": 8744,
+      "sha256": "d9583376d08f226b80abde9cd1716b2720210eecb6f9a040e7fffd1b2772ceaf"
+    },
+    {
+      "logical_file": "evidence/full-delta-complete-positive-N97-high-inverse-summary.json",
+      "file": "evidence/full-delta-complete-positive-N97-high-inverse-summary.json",
+      "bytes": 21555,
+      "sha256": "2da26c59fcbf212fc669cd29efdc9eb27489ae5a11f8dc51bea801b733ba9ef9"
+    },
     {
       "logical_file": "evidence/full-delta-complete-regular-Hs-outer-actual-outcome.json",
       "file": "evidence/full-delta-complete-regular-Hs-outer-actual-outcome.json",
@@ -191,5 +216,27 @@
     }
   ],
   "actual_full_delta_outer_complete": true,
-  "actual_full_delta_outer_native_sha256": "5ab1d1b85cb71556b051fd53f5579cb30260ebdda6a844df9a4b377508e057fc"
+  "actual_full_delta_outer_native_sha256": "5ab1d1b85cb71556b051fd53f5579cb30260ebdda6a844df9a4b377508e057fc",
+  "complete_native_sha256": "1f3e5fa630f39a667a96102f103ac8977d00e580f698a83904f361c5a05c6f3c",
+  "actual_full_delta_positive_closed_rows": 4650,
+  "actual_unbounded_high_orders": [
+    0,
+    1
+  ],
+  "all_original_right_interfaces_retained": 3594,
+  "order_feedback": {
+    "0": {
+      "ball": "[0.30329162513229749918233643787440931889238151993091049790108717199718129258333499 +/- 2.23e-82]",
+      "lower": "[0.30329162513229749918233643787440931889238151993091049790108717199718129258333499 +/- 2.23e-82]",
+      "upper": "[0.30329162513229749918233643787440931889238151993091049790108717199718129258333499 +/- 2.23e-82]"
+    },
+    "1": {
+      "ball": "[0.78827786983278093238076425524314453079844401264692884237791843601916999328784850 +/- 1.28e-81]",
+      "lower": "[0.78827786983278093238076425524314453079844401264692884237791843601916999328784850 +/- 1.28e-81]",
+      "upper": "[0.78827786983278093238076425524314453079844401264692884237791843601916999328784850 +/- 1.28e-81]"
+    }
+  },
+  "complete_unknown_high_not_truncated": true,
+  "full_head_mean_and_all_affine_source_ports_retained": true,
+  "finished_utc": "2026-11-14T16:27:32.274076+00:00"
 }
