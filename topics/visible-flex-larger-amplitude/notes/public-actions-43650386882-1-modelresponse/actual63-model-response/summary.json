@@ -1,0 +1,20 @@
+{
+  "schema": "actual63-fixed-complete-model-response-decomposition-v1",
+  "completed": false,
+  "source_sha256": "10aeaa14b20651d87cecca67db6acb6bb3fd78663aa6dfe07897aa9c04ca1e6a",
+  "original_artifact": {
+    "run_id": 43646179305,
+    "artifact_id": 14134662698,
+    "artifact_name": "visible-followup-condensedqp-43646179305-1",
+    "expected_size": 494657224,
+    "expected_sha256": "c90869cdcc317eef9b23a8a17755a7679ea5ce6dc41c2c143216524b481c6653"
+  },
+  "failure": "ValueError('Original file bytes differ: eighteen-condensed-warm/condensed-live-model-binding.json')",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_actual63_model_response_decomposition.py\", line 559, in analyze\n    files = OriginalFiles(args.artifact_directory)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_actual63_model_response_decomposition.py\", line 269, in __init__\n    self.file(name, digest)\n  File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_actual63_model_response_decomposition.py\", line 279, in file\n    require(r[\"sha256\"] == digest and (size is None or r[\"bytes\"] == size),\n  File \"/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_actual63_model_response_decomposition.py\", line 90, in require\n    raise ValueError(message)\nValueError: Original file bytes differ: eighteen-condensed-warm/condensed-live-model-binding.json\n",
+  "result": {
+    "file": "result.json.gz",
+    "bytes": 1240,
+    "sha256": "ade5bba7e65a847e4d755cb34dea59c6485c75da76e41358eb731ca03e43596e"
+  },
+  "elapsed_seconds": 0.18594809800001144
+}
