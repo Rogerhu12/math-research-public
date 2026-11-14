@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`55fcc7a36000478da472181db7d0e82a8193e4c6`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`7f20a7ccd8e6437da571b701c258f5270d670401`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:02:06 UTC实际pull至`fb59f636d9b9ce20c96325dbe19a3b4c504ac21b`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:01 UTC。
 
@@ -44,7 +44,7 @@ resume actual43635770962/sourcecc8a9c9d已complete175.069s，新人工pass，qua
 
 R87 actual43635287277原右Volterra同一有理f/g真实36/37非零子式，W真维数36；R86补矩/光滑化迁移到合法C∞圆，并有明确collar类相对开稠密障碍。只排该单pair P1，**不排特殊circle、多pair、固定N的P0+NP1**。完整证据在R87及对应notes。
 
-R89真实H²/x=Hξ+d全路径协变及W不变，物理A族恰span7。R90七明确常态给全响应≤252维，基准有限Laurent族；实际helper正成本、整数整圈不可省。R91 universal层二分：b若在全响应内则七helper各一正整圈可付P1；否则存在Λ(b_Hd)=H^n>0排任何正组合。成员尚未知，不能据单pair或两个pair阴性决定，也不能冒固定特殊profile排除。两state(1,0)/(1,1)actual43637269935/source665bd6e9在480.059s资源退、仅33/72列，RSS157.754MiB；没有依赖上界/匹配/原式评价，数学未定。回执30988B SHA3f3aa0999e7f2fca1ca3772967cdce31e04ea1ef27d2914173f112ea1512d970。改总成员真实分权，最高块2/6列、最大48列，完成块各保原式证书，不原样加预算。
+R89真实H²/x=Hξ+d全路径协变及W不变，物理A族恰span7。R90七明确常态给全响应≤252维，基准有限Laurent族；实际helper正成本、整数整圈不可省。R91 universal层二分：b若在全响应内则七helper各一正整圈可付P1；否则存在Λ(b_Hd)=H^n>0排任何正组合。成员尚未知，不能据单pair或两个pair阴性决定，也不能冒固定特殊profile排除。两state(1,0)/(1,1)actual43637269935/source665bd6e9在480.059s资源退、仅33/72列，RSS157.754MiB；没有依赖上界/匹配/原式评价，数学未定。回执30988B SHA3f3aa0999e7f2fca1ca3772967cdce31e04ea1ef27d2914173f112ea1512d970。R94证明真实W/E权分解及平移链，改总成员11块、最高2/6列、最大48列；新producer40ff1701已请求最高3raw权/240s/1GiB，块逐件保存可严格接续，正要原式身份、负要真实上界及原式子式，只universal层。
 
 R83真第四传递：M0倒行T−、V+；含Z0的真实基准上第四切向保P1，但基线/偶成本仍欠。R84 V只有限加法半群，frame长度L∫(1+k²)≥4π²；不授负成本或V正性。R85/R88证明pure尾4m−9、4m−8均准确端点势，M0已消；R88 consumer43636741138真I0/原DAG全0。
 
@@ -54,4 +54,4 @@ P0、逐s第四ruling、更高阶/收敛、完整宏观嵌入厚度仍欠；resu
 
 ## 6. 持续推进
 
-理论actual43635287277两lane已complete：dual准确37子式成功（R87已登记），tail完整原式资料见notes/pure-tail-first-actual-complete-20261114.md。joint_resume43635770962已完成；R88指定式consumer与局部B初态43636741138已登记。multiple_pair_P1原run43637269935已资源退并登记；actual43637739532的D25与minimax已登记；七input第54trial审计在建。当前localized_leading_initial为run43638423274/sourcee11edd1a，根读结果；literature正建真实分权总成员producer，repo_sources续action端势/真实驱动。旧四次/joint不重复。新实际发布后pull核两README并同步H/log/open；子问题接open不等阶段批准。原始来源边界见notes/literature-20261114.md，不重复清单代替研究。
+理论actual43635287277两lane已complete：dual准确37子式成功（R87已登记），tail完整原式资料见notes/pure-tail-first-actual-complete-20261114.md。joint_resume43635770962已完成；R88指定式consumer与局部B初态43636741138已登记。multiple_pair_P1原run43637269935已资源退并登记；actual43637739532的D25与minimax已登记；七input第54trial审计在建。当前localized_leading_initial为run43638423274/sourcee11edd1a，根读结果；当前request为total_P1_blocks（R94/40ff1701），repo_sources续action端势/真实驱动。旧四次/joint不重复。新实际发布后pull核两README并同步H/log/open；子问题接open不等阶段批准。原始来源边界见notes/literature-20261114.md，不重复清单代替研究。

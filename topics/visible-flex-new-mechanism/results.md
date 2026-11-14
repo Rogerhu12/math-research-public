@@ -189,3 +189,5 @@
 - [R92：pure第四再下一幂尾的三primitive二次正规形](results/R92-pure-fourth-next-tail-quadratic-action.md) — 一般m最高/中间端势移除全部第三history，完整M0支付唯一J末值，真实I0再消最低第三；第4m−7周期准确化为三个受同一几何驱动的零端primitive二次action。m8实际43637739532原DAG回代全0、2172项/9组完整导出；仍未证明符号、非零period或零成本环。
 
 - [R93：零二阶矩阵的真实几何能量与frame长度约束](results/R93-zero-matrix-geometric-energy-and-frame-length.md) — 完整M0与常端芽给∫kh=0和∫k²=L+∫(logh)′²，故真实光滑路径必换号且max|k|>1；给有界k下logh振幅门，结合frame闭合得L(2L+Elogh)≥4π²。恒h闭frame类实际L>√2π但无统一gap。都是实际驱动必要条件，未给第四action符号。
+
+- [R94：总P1成员门的真实整权分块与最高权泛函](results/R94-scaling-blocks-for-total-P1-membership.md) — 真36元W按权−5至1维数2/4/8/8/8/4/2，物理E按权−3至1为1/2/2/1/1并给两条平移Jordan链；252响应原列分11权块，最大48列。成员逐块等价，最高未付权真实泛函给Λ(b_Hd)=H^m。列数非秩，实际成员未决；只universal层，不排固定特殊圆。
