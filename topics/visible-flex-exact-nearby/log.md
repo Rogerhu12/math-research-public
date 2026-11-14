@@ -511,3 +511,7 @@ receipt-only43603364028 success/children=[]，真实receipt331dfd81c7cf148c0c58a
 ## 2026-11-14 14:29:44 UTC — cached scalar low193 source pilot deployed
 
 部署新source/CI/contract/128-file manifest；原40parts/7721rows全部字节身份匹配，目标scalar/mean/old residual均不重跑。新算选行low193/high97..160投影并保存193径向多项式和uniform余项。改课题外 .github/workflows/visible-exact-cached-scalar-low193-source-pilot.yml，直接在本公开库复用原8残差artifact。等实际结果期间继续root/尾证明。
+
+## 2026-11-14 14:31:41 UTC — actual root-to-negative full-family energy
+
+43604498718真实12门/child0，native8f165ccf9dee6e622060b4fc269908ef322f0b0fea15b82dc4b223a2fb4c122d，过程SHA f3688651110c9748b8a88b0c1da6cc88f78c50284474d9d6a12fffa7b99cd3da。全δ实族/完整mean与未知Fourier，增长<28.978024807429，raw因子<4.002204670412<4.1。原germ/rootbudget不重跑；区别event af133b7和科学checkout669252a。H压缩前原字节归档，下一接实际Airy residual和正根图。

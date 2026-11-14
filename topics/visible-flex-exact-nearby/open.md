@@ -163,3 +163,7 @@ receipt-only43603364028实际成功。root逐字段比较原artifact和repo proc
 ### 2026-11-14 known low193 signed-source pilot
 
 已部署 cached-scalar-low193-source-pilot 五文件。复用原40part的全部7721 scalar jets和完成mean，逐part完整SHA同时匹配原body/repair native。新计算只投影选出的高贡献行及六个代表半径，完整先解160已知输出模态，再保 low193 径向多项式符号、uniform A0余项和97..160高尾。R−C e_z 使用原整行 mean 包络，repair新增mean仍留在已付完整fee。需先看选行实际收紧效果，再接全覆盖和 signed Green；本pilot不授完整response。
+
+### 2026-11-14 actual root-to-negative propagation complete
+
+43604498718真实12门，fullδ、全未知频/独立mean/I的root→negative Cauchy已成。root H1/3×L2 + ordinary source L2H1/3 以4.1(root+.003source)控制全根负窗raw。此缺口不能再列待算；余下是实际Airy双行近似、完整残差、同对象positive图修正、finite root常数及strong回归。见 actual-full-family-root-to-negative-Cauchy-certificate。

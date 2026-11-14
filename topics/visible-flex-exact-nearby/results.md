@@ -189,3 +189,7 @@
 ### 2026-11-14 actual cached known-source Green budget
 
 [R133-supplement-actual-cached-Green-known-source-budget](results/R133-supplement-actual-cached-Green-known-source-budget.md): public run43604003161 passed all ten gates. The complete finite193 response has a negative-window upper bound 1.471767296; body .794760129 and true cut .677007170 dominate. This is too large for the required .004995427801979700 and is not a lower bound on the true error. Native c35abd69018e7ab5a9fc4b7f5bcc32d5dae4ba5078520fba728376602019cc89 is preserved in four lossless parts, with all original ports and source channels. Infinite unknown feedback remains separate.
+
+### 2026-11-14 actual full-family root-to-negative Cauchy certificate
+
+[R133-supplement-actual-full-family-root-to-negative-Cauchy-certificate](results/R133-supplement-actual-full-family-root-to-negative-Cauchy-certificate.md): run43604498718 completed all twelve gates. For the whole real |δ|≤1e−8 family and 0≤ρ≤9e−6, every unknown Fourier mode and the genuine mean are retained; the raw state is bounded by 4.1 times the root H1/3×L2 norm plus .003 times the ordinary L2H1/3 source. Total growth is <28.978024807429. No reverse/full-return conclusion is included.
