@@ -1,0 +1,77 @@
+name: ISP R150 recover ninth-first original publication without mathematics
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: isp-r150-ninth-first-publication-recovery-789f
+  cancel-in-progress: false
+
+jobs:
+  recover-publication:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+            .github/workflows
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify rules and exact three artifact ZIPs then print the real prior push error
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-prepare-789f.py \
+            --checkout "$GITHUB_WORKSPACE" \
+            --out "$RUNNER_TEMP/isp-r150-ninth-first-publication-recovery"
+      - name: Publish the original run directory with exact stale-ref and transport handling
+        id: publication
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-publish-789f.py \
+            --checkout "$GITHUB_WORKSPACE" \
+            --results "$ISP_NINTH_RECOVERY/results" \
+            --recovery "$ISP_NINTH_RECOVERY/recovery" \
+            --work "$ISP_NINTH_RECOVERY/publish-work"
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_NINTH_RECOVERY != ''
+        with:
+          name: isp-r150-ninth-first-publication-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: |
+            ${{ env.ISP_NINTH_RECOVERY }}/recovery-source.json
+            ${{ env.ISP_NINTH_RECOVERY }}/artifact-recovery.json
+            ${{ env.ISP_NINTH_RECOVERY }}/prior-publication
+            ${{ env.ISP_NINTH_RECOVERY }}/results/publication
+            ${{ env.ISP_NINTH_RECOVERY }}/results/publication-recovery-inputs.json
+            ${{ env.ISP_NINTH_RECOVERY }}/results/publication-recovery-diagnosis.json
+      - name: Require real publication or byte-exact verification of the existing original result
+        if: always() && env.ISP_NINTH_RECOVERY != ''
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          path=Path(os.environ['ISP_NINTH_RECOVERY'])/'results'/'publication'/'publication-receipt.json'
+          receipt=json.loads(path.read_text()) if path.exists() else {}
+          print(json.dumps(receipt),flush=True)
+          if receipt.get('status') not in ('pushed','already-published-verified'):
+              raise SystemExit('Original mathematical bytes retained; actual publication incomplete')
+          if receipt.get('allowedResultDirectory')!='topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1' or receipt.get('newMathematicalStagesExecuted') is not False:
+              raise SystemExit('Publication recovery scope changed')
+          PYCODE
