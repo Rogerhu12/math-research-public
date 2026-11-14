@@ -1,0 +1,18 @@
+{
+  "request_id": "r150-shifted-original-source-graph-20261114T123013Z",
+  "characteristic": 31,
+  "source_shift": 64,
+  "graph_seconds": 1800,
+  "graph_soft_seconds": 1740,
+  "memory_mib": 4096,
+  "target_seconds": 60,
+  "normal_forms_sha256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+  "mapping_sha256": "cf2d53f8da539a1538e492fbca77464999a217878e4f3de0a5a057025507ed64",
+  "source_data_sha256": "de719cecbe03b5255c202e5833ce647d550d51d99218fe0659d4f42eff018dc5",
+  "reason": "One full six-shift graph attempt on the frozen 2195 original normal-form sources, immediately followed by all nine h31 target coefficients and coefficientwise RC=h31T. The only prior execution was a 672-source prefix. No Singular std or old high-degree reverse replay. Original seventeen-equation recovery and characteristic-zero lifting remain separate.",
+  "concurrency_observed": {
+    "utc": "2026-11-14 12:28 UTC",
+    "public_repository_active_runs": 1,
+    "old_repository_active_runs": 0
+  }
+}

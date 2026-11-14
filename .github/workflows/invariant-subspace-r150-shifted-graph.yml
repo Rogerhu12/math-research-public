@@ -1,0 +1,193 @@
+name: ISP R150 shifted original source graph
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/invariant-subspace-problem/notes/2026-11-14-r150-shifted-graph-ci-request-789f.json
+
+permissions:
+  contents: write
+
+concurrency:
+  group: isp-r150-shifted-graph-789f
+  cancel-in-progress: false
+
+jobs:
+  original-source-graph:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+            .github/workflows
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Record the explicit request and exact source
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,os
+          from pathlib import Path
+          root=Path('topics/invariant-subspace-problem/notes')
+          rp=root/'2026-11-14-r150-shifted-graph-ci-request-789f.json'
+          request=json.loads(rp.read_text())
+          required={'characteristic':31,'source_shift':64,'graph_seconds':1800,'graph_soft_seconds':1740,'memory_mib':4096,'target_seconds':60}
+          if any(request.get(k)!=v for k,v in required.items()):
+              raise SystemExit('Unsupported or unbounded graph request')
+          if request.get('normal_forms_sha256')!='eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840':
+              raise SystemExit('The frozen source-faithful normal-form input is required')
+          out=Path(os.environ['RUNNER_TEMP'])/'isp-r150-shifted-graph-output'
+          work=Path(os.environ['RUNNER_TEMP'])/'isp-r150-shifted-graph-work'
+          out.mkdir(parents=True,exist_ok=True);work.mkdir(parents=True,exist_ok=True)
+          rules={p:hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in ['README.md','topics/invariant-subspace-problem/README.md']}
+          names=['2026-11-14-rank-one-parameter-ideal-runner-789f.js','2026-11-14-r150-finite-macaulay-module-789f.js',
+            '2026-11-14-r150-graded-pivot-profile-789f.json','2026-11-14-r150-eleven-n-source-profile-789f.json',
+            '2026-11-14-r150-native-normal-form-789f.cpp','2026-11-14-r150-native-normal-form-runner-789f.js',
+            '2026-11-14-r150-f31-bitplane-789f.hpp','2026-11-14-r150-shifted-graph-module-789f.cpp',
+            '2026-11-14-r150-shifted-graph-module-runner-789f.py','2026-11-14-r150-shifted-graph-target-lift-789f.cpp',
+            '2026-11-14-r150-shifted-graph-target-lift-runner-789f.py','2026-11-14-r150-shifted-graph-full-lift-runner-789f.py',
+            '2026-11-14-r150-target-minimum-annihilators-receipt-789f.json','2026-11-14-r150-shifted-graph-actions-publish-789f.py']
+          code=[root/name for name in names]+[Path('.github/workflows/invariant-subspace-r150-shifted-graph.yml')]
+          source={'source_commit':os.environ['GITHUB_SHA'],'rules':rules,'request':request,
+            'request_sha256':hashlib.sha256(rp.read_bytes()).hexdigest(),
+            'code_sha256':{str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in code},
+            'scope':'One F31 source graph computation and exact RC=h31T. Characteristic zero and recovery of all original seventeen equations remain separate.'}
+          (out/'source.json').write_text(json.dumps(source,indent=2)+'\n')
+          with open(os.environ['GITHUB_ENV'],'a') as f:
+              f.write('ISP_GRAPH_OUT='+str(out)+'\nISP_GRAPH_WORK='+str(work)+'\n')
+          print(json.dumps(required))
+          PY
+          g++ --version > "$RUNNER_TEMP/isp-r150-shifted-graph-output/compiler-version.txt"
+      - name: Generate all original-source normal forms
+        id: normal_forms
+        timeout-minutes: 4
+        run: |
+          set -o pipefail
+          native_dir="$RUNNER_TEMP/isp-r150-native-nf"
+          set +e
+          node topics/invariant-subspace-problem/notes/2026-11-14-r150-native-normal-form-runner-789f.js \
+            --out "$native_dir" --all --seconds 120 --memory-mib 512 \
+            2>&1 | tee "$ISP_GRAPH_OUT/native-normal-form-console.log"
+          native_status=${PIPESTATUS[0]}
+          set -e
+          python3 - <<'PY'
+          import hashlib,json,os,shutil
+          from pathlib import Path
+          src=Path(os.environ['RUNNER_TEMP'])/'isp-r150-native-nf';out=Path(os.environ['ISP_GRAPH_OUT'])
+          for name in ['normal-form-input.txt','normal-form-receipt.json','normal-form-mapping.json','native-normal-form.log']:
+              if (src/name).exists():shutil.copyfile(src/name,out/('native-'+name))
+          r=json.loads((src/'normal-form-receipt.json').read_text()) if (src/'normal-form-receipt.json').exists() else {}
+          request=json.loads((out/'source.json').read_text())['request']
+          ok=(r.get('status')=='completed' and r.get('allSources') is True and r.get('sourceCount')==2195
+              and r.get('targetCount')==9 and r.get('sourceDataSHA256')==request['source_data_sha256']
+              and r.get('outputs',{}).get('normal-forms.bin',{}).get('sha256')==request['normal_forms_sha256'])
+          if not ok:raise SystemExit('Exact original normal-form provenance or completion is missing')
+          if hashlib.sha256((src/'normal-form-mapping.json').read_bytes()).hexdigest()!=request['mapping_sha256']:
+              raise SystemExit('Original source/component dictionary changed')
+          PY
+          exit "$native_status"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: isp-r150-source-graph-input-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_GRAPH_OUT }}
+      - name: Compute the bounded full graph and nine target coefficients
+        id: exact
+        continue-on-error: true
+        timeout-minutes: 35
+        run: |
+          set -o pipefail
+          native_dir="$RUNNER_TEMP/isp-r150-native-nf"
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-shifted-graph-full-lift-runner-789f.py \
+            --input "$native_dir/nf-normal-forms.bin" \
+            --mapping "$native_dir/normal-form-mapping.json" \
+            --nf-receipt "$native_dir/normal-form-receipt.json" \
+            --ann-receipt topics/invariant-subspace-problem/notes/2026-11-14-r150-target-minimum-annihilators-receipt-789f.json \
+            --work "$ISP_GRAPH_WORK" --out "$ISP_GRAPH_OUT" \
+            --seconds 1800 --memory-mib 4096 \
+            2>&1 | tee "$ISP_GRAPH_OUT/full-lift-console.log"
+      - name: Preserve actual outcomes and bounded evidence
+        if: always() && env.ISP_GRAPH_OUT != ''
+        env:
+          ISP_STEP_OUTCOME: ${{ steps.exact.outcome }}
+        run: |
+          python3 - <<'PY'
+          import gzip,hashlib,json,os,shutil
+          from pathlib import Path
+          out=Path(os.environ['ISP_GRAPH_OUT']);work=Path(os.environ['ISP_GRAPH_WORK'])
+          for name,target in [('shifted-graph-receipt.json','graph-receipt.json'),('graph-metadata.json','graph-metadata.json'),('shifted-graph.log','graph.log')]:
+              source=work/'graph'/name
+              if source.exists():shutil.copyfile(source,out/target)
+          def read(p):return json.loads(p.read_text()) if p.exists() else {}
+          full=read(out/'full-lift-receipt.json');g=read(out/'graph-receipt.json');t=read(out/'target-lift'/'target-lift-receipt.json')
+          gs=g.get('nativeStatistics') or {};ts=t.get('nativeStatistics') or {}
+          graph_ok=(g.get('status')=='completed' and g.get('exitCode')==0 and gs.get('processedSources')==2195
+              and gs.get('outputLeadingRows')==1021 and gs.get('sourceLeadingRows')==1174
+              and gs.get('sourceLeadingRowsWithNonzeroOutput')==0)
+          target_ok=(t.get('status')=='completed' and t.get('exitCode')==0
+              and ts.get('status')=='original-nine-targets-low-degree-lift-complete'
+              and ts.get('fullNormalFormSourceIdentity') is True and ts.get('allDegreeBoundsVerified') is True)
+          complete=os.environ.get('ISP_STEP_OUTCOME')=='success' and full.get('status')=='completed' and graph_ok and target_ok
+          records=[]
+          for p in sorted(out.rglob('*')):
+              if not p.is_file():continue
+              raw=p.read_bytes();item={'name':str(p.relative_to(out)),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+              if len(raw)>1000000 and p.suffix!='.gz':
+                  packed=gzip.compress(raw,compresslevel=9,mtime=0)
+                  if len(packed)<=5000000:
+                      q=Path(str(p)+'.gz');q.write_bytes(packed);item['saved_as']=str(q.relative_to(out));p.unlink()
+                  else:item['saved_as']='hash and reproducible input only';p.unlink()
+              elif len(raw)>5000000:item['saved_as']='hash and reproducible input only';p.unlink()
+              records.append(item)
+          recovery=graph_ok and not target_ok and not (out/'target-lift'/'lift-checkpoint.bin.gz').exists()
+          outcome={'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],
+              'step_outcome':os.environ.get('ISP_STEP_OUTCOME'),'complete':complete,'graph_complete':graph_ok,
+              'normal_form_source_identity_verified':target_ok,'original_seventeen_equation_identity_verified':False,
+              'characteristic_zero_identity_verified':False,'large_graph_recovery_artifact_needed':recovery,'files':records}
+          (out/'ci-outcome.json').write_text(json.dumps(outcome,indent=2)+'\n')
+          with open(os.environ['GITHUB_ENV'],'a') as f:f.write('ISP_GRAPH_RECOVERY_REQUIRED='+str(recovery).lower()+'\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_GRAPH_RECOVERY_REQUIRED == 'true'
+        with:
+          name: isp-r150-source-graph-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 7
+          compression-level: 0
+          if-no-files-found: error
+          path: |
+            ${{ env.ISP_GRAPH_WORK }}/graph/graph-basis.bin
+            ${{ env.ISP_GRAPH_WORK }}/graph/graph-metadata.json
+            ${{ env.ISP_GRAPH_WORK }}/graph/shifted-graph-receipt.json
+      - name: Publish this run's actual small outputs
+        if: always() && env.ISP_GRAPH_OUT != ''
+        continue-on-error: true
+        env:
+          ISP_ACTIONS_TOKEN: ${{ github.token }}
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-shifted-graph-actions-publish-789f.py
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_GRAPH_OUT != ''
+        with:
+          name: isp-r150-source-graph-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_GRAPH_OUT }}
+      - name: Require exact full completion
+        if: always() && env.ISP_GRAPH_OUT != ''
+        run: |
+          python3 - <<'PY'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['ISP_GRAPH_OUT'])/'ci-outcome.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          if r.get('complete') is not True:
+              raise SystemExit('Full source graph and all nine exact normal-form source identities did not complete')
+          PY
