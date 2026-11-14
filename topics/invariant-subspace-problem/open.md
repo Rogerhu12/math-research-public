@@ -147,3 +147,5 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 **真单新位carry及c20窗。** [证明](notes/2026-11-14-true-single-bit-carry-block-and-twenty-window-actual-sources-789f-next.md)保原N/Y的准确右上块，K E=0及Anew^zK=0使真残量短逆只付52ηR H_p²，有限截止把母窗及同一个实际顶部推到Q≤exp(20d³)。母/低投影误差exp(−3d⁴)、top误差2exp(−3d⁴)，原两费同带/全cut/d网格与固定测试配对保持；未消旗实际族只缺O(exp(20d³)/d)角度。旧联合旗δ仍限原窗，不把最高carry重复付进真幂。
 
 **η8实绩与更低初值。** [实际第二像](notes/2026-11-14-r150-eighth-admissible-second-zero-image-and-four-dimensional-current-targets-789f.md)已经完成：d8本身∈U9，所有保持当前F9模p且保持Λ2的允许修正仍排九当前p6目标。新事实是九raw生成模13维、商为4维且J=2I，U9包含于原raw模；四维是目标空间而非全来源压缩许可。run43644262244的全部37恢复/8cache已永久发布，不重原数学。下一须真实改变较低初值，保Λ2及完整carry；η8/η9进入较高位的作用、五个未消新关系和旧198第三层须分别覆盖，不能把相关第二零当成全局第二零。
+
+**低初值第三层的准确待算族。** [新归约](notes/2026-11-14-r150-low-initial-integer-lattice-third-layer-and-five-relations-789f.md)以原recipe和canonical carry消去η3、η4−18η3的精确Λ2核，留下五个新关系7001/7002/7005/7006/7007，另须保旧198第三。五列原H5含κ9常数项，原p6已足；先做真来源和全315正分支，正证书不必等待198，负只能称五列不足。当前必要投影可用25维2-primary，实际目标为其中四维；P2ρ−ρ必须回补U9，不能沿用严格P2ρ=ρ的选择器。入口预算原RHS522、来源618。自然图外全原来源和普通ISP未排。
