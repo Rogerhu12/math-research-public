@@ -2,6 +2,9 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R492：实际两Theta的完整三张量与中央反对称式](../results/R492-complete-principal-two-theta-kernel-and-central-antisymmetry.md)：完整36维principal联合的CM7特征空间恰三维，实际H±准确为H3⊗H3与两个S/H5交叉张量。全部双单位Mellin及环带式给(∂t−∂s)F+=336bδ(1−λ)JS′；原C/Theta联合全principal为H3⊗C3+S⊗Λ+H5⊗CS，保C3非零中央及CS′=−JS′，未删混A单位条件。
+
+
 - [R494：原B56绝对核心与完整M三轴深度矩形](../results/R494-original-b56-core-and-complete-m-depth-rectangles.md)：wholeK56=−J56B2以完整中心及Theta2γ锚定；原三态中KB=R K_W R、KQ=−χKB、KU=−K_W KB。原W/Q/U任意独立深度和R共同深度全返回同一三态，保全部物理矩阵；单B与A²-W-A²来源相同但像格不同，精确λ^-4比较未删补域。
 
 

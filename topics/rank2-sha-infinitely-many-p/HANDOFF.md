@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：9111a12e4566feb5db33efcef3174133518f645c；2026-11-14 11:48:51 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：3662f5f87aa4ef0ce3dd18729cabf9756829a4a0；2026-11-14 11:58:39 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。历次完整规则/差异读取记录保最新归档；只写课题log，每轮≤5行，不写/归档根LOG。
@@ -14,14 +14,14 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–491、R494已登记，R364仍开。未推丢失的R235/R237及迁移R437/R438已全部重做发布。最近R486=fd4247ce、R485=be844109、R483=7431df35；R489=4d617c4a、R487=d928acf6；R488=3b994a7c；R491=8777e7a0；R490=a5afe272；R494本次登记。完整提交见课题log。
-仅在`/workspace/scratch/4fe3fb9f2a50/math-research-public`的main工作；旧库只读，overlay满后完整移到`/tmp/rank2-old-repo-4fe3fb9f2a50`并保原路径symlink，未删历史。代理只写自己证明/脚本，root统一元数据与逐条push。theta续R496保持Y的三阶几何与新混合核心；literature续R493三态真实词域/二挠联合因子；deep续R495真齐次双jet对偶行与原ODE；root续R492同一两Theta来源的真实核心/中央连接。
+R1–363、R365–492、R494已登记，R364仍开。未推丢失的R235/R237及迁移R437/R438已全部重做发布。最近R486=fd4247ce、R485=be844109、R483=7431df35；R489=4d617c4a、R487=d928acf6；R488=3b994a7c；R491=8777e7a0；R490=a5afe272；R494=62cff762；R492本次登记。完整提交见课题log。
+仅在`/workspace/scratch/4fe3fb9f2a50/math-research-public`的main工作；旧库只读，overlay满后完整移到`/tmp/rank2-old-repo-4fe3fb9f2a50`并保原路径symlink，未删历史。代理只写自己证明/脚本，root统一元数据与逐条push。theta续R496保持Y的三阶几何与新混合核心；literature续R493三态真实词域/二挠联合因子；deep续R495真齐次双jet对偶行与原ODE；root续R499原双单位反对称积分与三态几何连接。
 
 ## 主目标和完整旧接口
 
 固定S34/T72/U136分别对应y²=x³+17、+24、+2312，精确rank2见R294/R398/R469；整个Sha桥R295/R303/R397/R402/R469给2+corank Sha≤2ordJ。一条完整J′非零即可初级有限，但有限池须在同一无穷p集上至少一条非零后才可鸽笼；有限p、子域或辅助外谱不代替。原quartic E17:y²=x³−17x、E34/E136、E389仍开。
 
-最新完整接口`notes/2026-11-14-frontier-through-r491.md`及`open-before-r490.md`保原常数、实际来源、全部core、修正格和未付条件，链回through-r484/482/479及更早归档；以下是当前工作接口。R1–79原条目已移`notes/PROOF-INDEX-R1-R79.md`，其余导航见results.md和分段PROOF-INDEX，不重开已封扫描。
+最新完整接口`notes/2026-11-14-frontier-before-r492.md`及`open-before-r490.md`保原常数、实际来源、全部core、修正格和未付条件，链回through-r484/482/479及更早归档；以下是当前工作接口。R1–79原条目已移`notes/PROOF-INDEX-R1-R79.md`，其余导航见results.md和分段PROOF-INDEX，不重开已封扫描。
 
 ## 普通原六输入、三曲线与真实混管
 
@@ -38,7 +38,7 @@ R487完整平移和去掉外部伴随CM尺度后，第一Y边际仍为原S/new/H
 
 R488/494：兼容mod29上wholeK29=χI、χ²=1；保R的四态τk中KA=χ移k+1、Kc=−移k−1、Kd=−1。偶三态e0=ρ0/e1=ρ1/e2=−G4ρ0/4，R=KA²交换e1/e2，与KW生成真D8。wholeK56=−J56B2付B=A+3δc核心KB=RKW R；旧Q/U各核KQ=−χKB、KU=−KWKB。完整u=e0+(e1+e2)/2,v=(e1−e2)/2,h=e1+e2中，KW交换u/v，KQ=χKW，KU固定u/v；h的KW/Q/U符号−/χ/−，R共同核χ。原M任意深nW/nQ/nU及R共同r统一标量χ^(nQ+r)λ^(nW+nQ+nU+3r)，u/v按nW+nQ奇偶换，h另乘(−1)^(nW+nU)。Y/W全边际与new/H/T条件行保R488；混Y按各κ幂移动，单B与A²-W-A²两个像格的λ^-4比较不删补域。
 
-R490原C26=Θ13a/(7b)=[Θ(barγ13z)−Θ(γ13z)]/(336bδ)，S=C26Θ2；wholeK26=−I，JC′=d log〈barγ/γ〉(1+λ)/(336bδ)严格非零。实际A/D→W=A+2D,V=2A−13D的det17联合保所有双深两态。完整S投影=S⊗Λ442，Λ=[(1+δ)H5(barγz)−(1−δ)H5(γz)]/(2δ)，质量1/coreλ，全/单位整卷积可逆；反卷积使A/D加2t/17、−t/17。第二边际B=C26(2z)Θ(13z)满足JB′+JS′=d log〈barγ/γ〉(1−λ)/(336bδ)非零；B仍辅助来源，完整混合单位条件未付，不能代原曲线中央。
+R490/492原C26=[Θbarγ13−Θγ13]/(336bδ)、S=C26Θ2，wholeK26=−I，JC′=d log〈barγ/γ〉(1+λ)/(336bδ)非零。真实W=A+2D,V=2A−13D全双深两态；Λ442=[(1+δ)H5barγ−(1−δ)H5γ]/(2δ)质量1/coreλ、全/单位整卷积可逆，反卷积使A/D加2t/17、−t/17。完整principal二Theta H+=H3⊗H3+168b(1−δ)S⊗H5+168b(1+δ)H5⊗S，整个36维联合特征空间恰这三维；双单位(∂t−∂s)F+=336bδ(1−λ)JS′。原Φ全principal=H3⊗C3+S⊗Λ+H5⊗CS，其中C3=[H3barγ−H3γ]/(336bδ)、JC3′非零、JCS′=−JS′。第二边际B=C3+CS，故JB′+JS′=JC3′；B仍辅助，混A单位条件不由principal三张量删除。
 
 ## 惰性原格、真实修正与三源连接
 
@@ -51,11 +51,9 @@ R485纯固定Θ角导子Q=Θ22 a²∂t在无零阶项的齐次乘子类最小22�
 
 R486分级∇_m=t∂t−ceil(m/68)·t a′/a零增权，标准基上是j；加一版本e_m≤p−2时整可逆，完整charp核和累计锐门已付。乘W13=Θ13a清极增13权，所有68类/系数增长保留。物理完整式24保M EΘ和M ceil(EΘ/68)两项；式31给同预算p²左右提升的联合配对，不拆项。单齐次c_m+e_m<L时原Smith恰p^floor((13+c_m+j)/s)，无primitive第三核；混权抵消仍开。conductor自身角项/Gaussian和全新carry均保。
 
-R489原连续2b charge已在F²厚化上完整限制，同一实际R的值长V/ER长N满足式13两界时联合满射；低A_D双行由原相邻charge单位填齐。界外真余核由厚化对偶层及全部其他原列筛选给实际行24；原−2/5目标的配对是unit×(a_(−N′)−(2/5)u0(−1)^h b_(−V′))，仿射基准完整保式29。D=3b最坏u≈b时法向界主项−b²/4，未覆盖全临界窗；联合分支满射不等同J/M提升。
-
-R491原d^C_D W_D准确为六角Gauss半空间，逐系数先提全部互素Hensel角因子再提同次余因子，严格同预算保持每个因子全部角值/∞帽；实际t^rF³Q可选真因子化整基准。任意其他基准差为原W_D列加F²项，故R489仿射右端对真左行恒零，式29化a_(−N′)−(2/5)u0(−1)^h b_(−V′)=0。B≤N同样可因子提升；固定conductor不免费重分解，原J forcing/ξ、M两carry及第三位均不消。
+R489/491原F²联合jet完整限制与界外真行已付；原W_D为六角Gauss半空间，逐因子Hensel整提升保全部角阶/∞帽，真cube同预算可选因子化基准。因此实际双jet余核仿射偏移恒零，真实必要式为a_(−N′)−(2/5)u0(−1)^h b_(−V′)=0；须保全部原列和真实u0。B≤N同样可因子提升，但不免费重分解固定conductor；J forcing/ξ、M两carry及第三位不消。R495新固定19吹起/完整3C联合像已待登记，未付内容不预支。
 
 ## 其他开放支线与继续顺序
 
 O4十六负扭曲rank1/全Sha、真I³核、88标签全Hilbert trace和conductor Euler仍保R230/237/271/296/304，缺跨p原类低增广非零或a≤1；小高度/不p除不替代。O6真实单位Tor/评价及严格类群q_p正奇、有限 iff q_p=1仍缺跨p约束，单p有限不传播。
-继续R496新混合core、R493三态实际词域、R495实际齐次两顶极系数组合；root接R492实际两Theta核心及原中央连接，随完整结论即推。主目标未完成，QUEUE不改完成，不等阶段确认。
+继续R496新混合core、R493三态实际词域、R495实际齐次两顶极系数组合；root接R499实际双单位反对称及原中央连接，随完整结论即推。主目标未完成，QUEUE不改完成，不等阶段确认。

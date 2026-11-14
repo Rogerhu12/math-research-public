@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R492：实际两Theta的完整三张量与中央反对称式](results/R492-complete-principal-two-theta-kernel-and-central-antisymmetry.md)：完整36维principal联合的CM7特征空间恰三维，实际H±准确为H3⊗H3与两个S/H5交叉张量。全部双单位Mellin及环带式给(∂t−∂s)F+=336bδ(1−λ)JS′；原C/Theta联合全principal为H3⊗C3+S⊗Λ+H5⊗CS，保C3非零中央及CS′=−JS′，未删混A单位条件。
+
 - [R494：原B56绝对核心与完整M三轴深度矩形](results/R494-original-b56-core-and-complete-m-depth-rectangles.md)：wholeK56=−J56B2以完整中心及Theta2γ锚定；原三态中KB=R K_W R、KQ=−χKB、KU=−K_W KB。原W/Q/U任意独立深度和R共同深度全返回同一三态，保全部物理矩阵；单B与A²-W-A²来源相同但像格不同，精确λ^-4比较未删补域。
 
 - [R490：原degree26的显式CM差与完整H5伴随](results/R490-degree26-cm-difference-and-explicit-h5-companion.md)：C26=(Θbarγ13−Θγ13)/(336bδ)给严格非零的自身中央导数；原C26/Θ两输出保全深两态，S的degree442伴随准确为((1+δ)H5barγ−(1−δ)H5γ)/(2δ)。实际第二边际满足J_B′+J_S′=d log〈barγ/γ〉(1−λ)/(336bδ)，所有混合单位条件及卷积转置保留，辅助非零未冒认原中央。
