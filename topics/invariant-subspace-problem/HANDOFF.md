@@ -23,7 +23,7 @@
 - [低初值归约](notes/2026-11-14-r150-low-initial-integer-lattice-third-layer-and-five-relations-789f.md)的η3、η4−18η3有Λ2内精确F9零核，只余五关系。[五列实绩](notes/2026-11-14-r150-five-third-rank-one-nine-current-obstructions-and-rational-rank-226092-789f.md)run43646683083，数据ca194cce，数学73.661900632秒、成本[86,87,87,88,87]、原p5整除全过；25维相关商秩1/ann=s−2、基9305，九目标均阻，只否定五列。真cost87的b10不在U9，故B≥87时rank_Q A_B≥4354(B+1)−157070+10；非精确秩/Smith值。37恢复31819615B/18binary/19text/8cache全保，不重数学。
 - [首高核精确消去](notes/2026-11-14-r150-first-high-kernel-exact-seventh-source-and-197-reduction-789f.md)：原recipe κ7=22Khat1−31q1+31³c，v=(κ7/22,−31²e7/22)在Λ2且F9v=T9v=0；旧198只余K2…K198共197，另保已成五列。不除(s−2)。
 - [双倍jet损失](notes/2026-11-14-r150-third-bockstein-double-jet-smith-loss-and-local-source-789f.md)：先以真char0像及p饱和排free，t^(2d)方程决定前d项第三类；真核选择差由完整第一像模U9消去，q1整数lift同步carry。当前s=2只做10→5项，G剥573常主元为461×448，保13自由条件与原6188乘回。197新像尚未执行；局部正必须全局q1/q2/CRT、全315及原17，不套旧618费用。
-- **小矩阵原字节已救回main：** run43648025236原数学0.156204983秒；原数据在notes/r150-five-third-actions-789f/43648025236-1，救回run43649083239/job132613296295发布adea54ef。原失败准确是git add拒稀疏范围外结果目录，已用精确路径--sparse修复；两原ZIP SHA全核、没有新数学、原run/source未改。实际原五列秩5，合U9秩10、费用87子族也10；合旧目标空间13，剩余商3维、基2/3/4、J=2I。完整回执已读，下一写其逐坐标证明并继续197。
+- **[真实V10及余三维目标](notes/2026-11-14-r150-five-third-true-ten-dimensional-invariant-space-and-three-target-quotient-789f.md)：** 原run43648025236数学0.156204983秒；救回run43649083239发布adea54ef，原稀疏git add失败已修，无新数学。原五列秩5、合U9秩10且全部属于已核不变U9+P2d9305，等维给真V10=U9+d9305不变；不能说五列自身不变或各列纯2。κ10=H5_9305真cost87/e10=5；(Q/V10)_2维24，旧目标余3维、基2/3/4、J=2I，全九坐标已保存。两张真实/投影基表不同，真实J10需从已成315矩阵运输；未假设F10第一像零。下一197只做新数学，正分支保全原式。
 
 ## 实际边界：同一原源与已付预算
 
