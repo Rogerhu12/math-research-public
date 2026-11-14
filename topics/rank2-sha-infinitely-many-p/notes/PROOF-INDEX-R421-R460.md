@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R454：奇degree33绝对核心与原残余斜轴深运输](../results/R454-original-odd33-core-and-exact-residual-slope-transport.md)：固定mod11细分付全33维Heisenberg标量，两原sigma联合锚给实际χ²=1；同一D+来源的Z−33H及Z−33c轴均有绝对scalar core。全部独立深度、环带与原X测试剪切完整保留，无权负五矩和内部补域未预付。
+
 - [R453：一次整返回与完整两来源次数二连接](../results/R453-single-integral-return-and-degree-two-two-source-connection.md)：原T/V计算格包含全部原T列，固定p饱和乘子一次返回原格；十二类连接均有一角余量，反复k次成本D+2k+36，原P134/U0及首次提升完整运输。全量词门槛仍aI+2bI<3，不预付新中央零或相对p²类。
 
 - [R452：真U单位算术抽回与同测试第一层carry管](../results/R452-original-companion-unit-arithmetic-extraction-and-first-carry-tube.md)：真实Uunit六矩是已付满秩矩阵的整微扰，有限逆指定S/两参考测试；新的logc质量保留而首五阶仍unit。一次A运输把同非零管送进Ψ0第一层carry，整个同测试回λJS′，内部补域准确保留。
