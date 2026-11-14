@@ -8,7 +8,30 @@
   "workflow_commit": "36af85b56b396b5976930547fd2c237f68bf3658",
   "worker_source_sha256": "f7def106a57225f5a456f37da90df73947b3eb57c89dafa280592f170c983a69",
   "started_utc": "2026-11-14T22:42:30.889697+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "all5970_true_weighted_state_jump_L2_gains_from_cached_signed_kernels",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-interface-impulse-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite193_cached_interface_impulse_gains.py",
+        "--green",
+        "/__w/_temp/visible-exact-interface-impulse-inputs/green/native/complete-finite-head-Green-and-distributed-known-sources.json.gz",
+        "--green-process",
+        "/__w/_temp/visible-exact-interface-impulse-inputs/green/process.json",
+        "--kernel",
+        "/__w/_temp/visible-exact-interface-impulse-inputs/kernel/native/complete-finite193-ordinary-L2-Green-kernel.json.gz",
+        "--kernel-process",
+        "/__w/_temp/visible-exact-interface-impulse-inputs/kernel/process.json",
+        "--out",
+        "/__w/_temp/visible-exact-interface-impulse-output/native/complete-all5970-cached-interface-impulse-gains.json.gz"
+      ],
+      "started_utc": "2026-11-14T22:42:34.326401+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 130.00390503900002,
+      "finished_utc": "2026-11-14T22:44:44.330687+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T22:42:31.655109+00:00",
@@ -25,9 +48,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T22:44:45.171041+00:00",
+      "before": "de5e9ce39393b619256dd9179ca7ba19e515e680",
+      "after": "6167e1413f423bf85e2acd6d00c45624f80638a8",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T22:42:34.324449+00:00",
+      "final": false,
+      "commit": "cae1cae0e906448d78b26dbcc5c68152bd1b2f0a"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -61,7 +98,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "de5e9ce39393b619256dd9179ca7ba19e515e680",
+  "last_read_commit": "6167e1413f423bf85e2acd6d00c45624f80638a8",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-interface-impulse-work/science",
   "actual_input_sha256": {
     "green": "fd6c1f4baa4ec86aab08d4925a0ec9565c3791cbe470b77c2e41549d8f071de6",
@@ -69,8 +106,8 @@
     "kernel": "ac4441cb98afabbbc646697434caebf464a22f702e2d0fa7d8e5910efd7ef448",
     "kernel-process": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800"
   },
-  "snapshot_utc": "2026-11-14T22:42:32.965942+00:00",
-  "wall_seconds": 2.0768115470000055,
+  "snapshot_utc": "2026-11-14T22:44:46.278347+00:00",
+  "wall_seconds": 135.38922507299998,
   "native_files": [
     {
       "logical_file": "evidence/original-complete-L2-kernel-process.json",
@@ -83,6 +120,13 @@
       "file": "evidence/original-complete-finite193-Green-process.json",
       "bytes": 8548,
       "sha256": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
+    },
+    {
+      "logical_file": "native/complete-all5970-cached-interface-impulse-gains.json.gz",
+      "lossless_manifest": "native-complete-all5970-cached-interface-impulse-gains.json.gz-fbba350708fb8936-parts.json",
+      "bytes": 14168739,
+      "sha256": "fbba350708fb89366272641433e9c2899c4ec04027616650b4317969105bcd37",
+      "parts": 8
     }
   ]
 }
