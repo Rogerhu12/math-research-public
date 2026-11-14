@@ -2,7 +2,7 @@
 
 2026-11-14，visible-exact / tail_connector。
 
-**状态：解析证明，供独立审查。** 本篇在原完整 root-Airy 波振幅
+**状态：已证明；本修订明确内部未知与未覆盖外端口的量词。** 本篇在原完整 root-Airy 波振幅
 空间中重新组织已付高网络，使高投影成为一个真正酉网络的正交
 压缩。原第Z束的非酉行操作可用于解方程，却不能直接拿来使用酉
 Schur 恒等式；本篇用同一个 unitary 同时共轭行和列，避免该问题。
@@ -13,7 +13,9 @@ $$
      =2^{65664}(j+5)^2\delta_j^{-9}
 $$
 以上的所有内部端口，高外方程保留全部低输入、mean、外端口和
-源。其两侧真正 Poisson 算子 $E_H,F_H$ 满足
+源。令 $P_{L,\mathrm{int}}$ 表示已覆盖内部层的真正低投影；
+下述 $E_H,F_H$ 分别只以这些内部低未知为输入、输出。
+其两侧真正 Poisson 算子满足
 $$
  \boxed{\quad
  \|v^{\pm1}E_Hv^{\mp1}\|,\quad
@@ -25,7 +27,10 @@ $$
 这是 $L^2$ Hilbert 端口范数，不把高外 inverse 的一阶损失删掉。
 $v$ 严格来自五盒谱权 (Q.28)，在中频上 $v\le\mathcal W$。
 
-完整低 Schur 仍是酉的，所有 affine 源按原有序式保留。
+所有 affine 源按原有序式保留。若全部 retained 列均已覆盖，
+完整低 Schur 是酉的；对于保留未覆盖外口的开放网络，
+内部 Schur 是收缩，丢失的内部范数准确由真实外输出携带。
+没有把未覆盖外输入授予 (H.1) 的 $L^2$ 小 Poisson 界。
 真实坐标中的投影与原物理 Fourier cutoff 之间还给一个明确的
 双倍缓冲门。这里**没有**把低 Schur 称为已反演，也没有把尚未
 消去的无限低尾和有限浅前缀包含在 (H.1) 的“高外”名称中。
@@ -51,7 +56,9 @@ $S_-$ 和 $R_+$ 都是完整双端酉算子，包含 positive cross、两个
 mean 与所有角模。开口外边界作为输入/输出端口保留：可把
 真实 partial wiring 写成相同 Hilbert 端口空间上的酉 colligation，
 但不对这些外口施加一个虚构的反射或方程。
-下文在所有未覆盖外口上置 $P_H=0$。
+下文在所有未覆盖外口上置 $P_H=0$，并写
+$P_L=P_{L,\mathrm{int}}+P_X$。$P_X$ 是真实外端口，既不是
+已付强余项的内部列，也不因属于 $P_L$ 而获得频率上界。
 
 第W束给明确的模型
 $$
@@ -68,8 +75,10 @@ $$
  \|\mathcal E_i^{\,w}:H^{-g}\to H^0\|
  <2^{9020}\lambda_i^g .                                  \tag{H.4}
 $$
-两门包含相邻全部输入列；其 adjoint 的高输出门由第二式给出。
-全部所需行列度数不超过8。有限外端口继续按其已付源 norm 消费。
+两门包含相邻全部已覆盖内部输入列；其 adjoint 的内部高输出门
+由第二式给出。全部所需内部行列度数不超过8。
+(H.4) 及下文 (H.9) 的强范数不对未覆盖的 $P_X$ 列或行作断言；
+那些真实块保留为外输入/输出，按 (H.17) 和第6节的源公式消费。
 
 第Z束对正角锥的
 $V_+=-C^*B$、负角锥的 $V_-=-B^*C$，已构造相应 unitary
@@ -148,7 +157,9 @@ $$
 $-g\le s\le0$ 的 $H^s\to H^{s+g}$。
 
 与旧 (Z.31) 不同，(H.8) 是同一个 unitary 的真正共轭。
-因此其正交高压缩和低 Schur 可以使用准确 Green/酉恒等式。
+因此其正交高压缩可以使用准确 Green/酉恒等式。
+对开放网络，恒等式必须连同外输出一起使用；内部压缩本身
+只由此得到收缩，不能自行称为满射酉。
 
 ## 3. 原高算术除法和全部层权
 
@@ -187,12 +198,13 @@ $$
 每行/列至多8个块，且相邻 $\lambda$ 比小于64。
 用 (H.9) 的全部强输出，不先截输入，有
 $$
- \|w^{\pm1}D_0^{-1}P_H\mathcal R P_{H,L}w^{\mp1}\|
+ \|w^{\pm1}D_0^{-1}P_H\mathcal R P_Qw^{\mp1}\|
   <2^{12000+12+256+32}\,
                        T_i^{-1/3}\lambda_i^{4/3}
   <2^{-9500}                                             \tag{H.13}
 $$
-于 $\ell^2_iH^s$，$-g\le s\le0$。
+于 $\ell^2_iH^s$，$-g\le s\le0$，这里分别取
+$P_Q=P_H$ 或 $P_Q=P_{L,\mathrm{int}}$，不取 $P_Q=P_X$。
 这里 $T_i^{-1/3}\lambda_i^{4/3}=2^{-65536/3}$；
 显示的32 bits 包含 $\langle m\rangle/|m|$、两行、
 相邻尺度和 Hilbert 块 Schur 行列计数。
@@ -221,8 +233,14 @@ $$
                  \widehat U_a=\begin{pmatrix}A&B\\C&D\end{pmatrix}.
  \tag{H.15}
 $$
-$C=P_H\mathcal R P_L$，$B^*=P_H\mathcal R^*P_L$，
-因为模型 $U_d$ 与两个投影准确交换。
+在已覆盖内部列上，定义
+$C_{\rm int}=CP_{L,\mathrm{int}}$、
+$B_{\rm int}=P_{L,\mathrm{int}}B$、$C_X=CP_X$、
+$B_X=P_XB$。准确有
+$C_{\rm int}=P_H\mathcal R P_{L,\mathrm{int}}$ 和
+$B_{\rm int}^*=P_H\mathcal R^*P_{L,\mathrm{int}}$，
+因为模型 $U_d$ 与这些内部投影准确交换。
+外块 $C_X,B_X$ 保留原值，不借用 (H.13)。
 由 (H.13)，
 $$
  I-D=D_0(I-\Theta),\qquad
@@ -251,68 +269,80 @@ $x=\Theta x$，由收缩得 $x=0$。
 
 定义高外的输入 Poisson
 $$
- E_H=R_H C
-       =(I-\Theta)^{-1}D_0^{-1}P_H\mathcal R P_L .
+ E_H=R_H C_{\rm int}
+       =(I-\Theta)^{-1}D_0^{-1}P_H\mathcal R P_{L,\mathrm{int}} .
  \tag{H.18}
 $$
-它的 source $C x_L$ 已有完整 $4/3$ 阶增益，所以 (H.13)
+它的内部 source $C_{\rm int}x_{L,\rm int}$ 已有完整 $4/3$ 阶增益，所以 (H.13)
 直接给
 $$
                 \|w^{\pm1}E_Hw^{\mp1}\|<2^{-9499}.        \tag{H.19}
 $$
-这是 $L^2_L\to L^2_H$ 的真实解，含所有 mean 和全部低输入；
-没有假定该输入是一个预先局部化的 incoming 包。
+这是 $L^2_{L,\mathrm{int}}\to L^2_H$ 的真实解，
+含这些内部层的所有 mean 和全部低输入；
+没有假定该内部输入属于一个更窄的 incoming 包。
+未覆盖外输入 $x_X$ 仍须提供 $C_Xx_X$ 的 (H.17) 源 norm。
 
 对 adjoint 的整个高方程应用同一证明，得到
 $$
- F_H^*=(I-D^*)^{-1}B^*,\qquad
+ F_H^*=(I-D^*)^{-1}B_{\rm int}^*,\qquad
                 \|w^{\pm1}F_H^*w^{\mp1}\|<2^{-9499}.
 $$
 对偶并交换 $w,w^{-1}$，得到同样的
-$F_H:L^2_H\to L^2_L$ 界。对于 $H^1$ 的真实高源，
+$F_H:L^2_H\to L^2_{L,\mathrm{int}}$ 界。对于 $H^1$ 的真实高源，
 $$
-                         F_Hg_H=BR_Hg_H .                \tag{H.20}
+                         F_Hg_H=B_{\rm int}R_Hg_H .                \tag{H.20}
 $$
 其有界 $L^2$ 延拓来自上述 adjoint 构造，不是擅自将 $R_H$
 的定义域扩大。放宽即得 (H.1)。
 
 这同时证明准确 intertwining
 $$
- (I-D)E_H=C,\qquad F_H(I-D)=B,\qquad
-                      B E_H=F_H C.                      \tag{H.21}
+ (I-D)E_H=C_{\rm int},\qquad F_H(I-D)=B_{\rm int},\qquad
+              B_{\rm int}E_H=F_HC_{\rm int}.                      \tag{H.21}
 $$
 最后一式先在光滑低输入上按 (H.17) 证明，再由完整有界
-延拓得到。所有 high/low 交叉块都参加这些式子。
+延拓得到。所有已覆盖内部 high/low 交叉块都参加这些式子；外块由下一节保留。
 
-## 6. 完整低 Schur 的酉性、所有源与 mean
+## 6. 内部 Schur、真实外输出与所有源
 
-定义
+记 $A_{\rm int}=P_{L,\mathrm{int}}AP_{L,\mathrm{int}}$，
+$A_{IX}=P_{L,\mathrm{int}}AP_X$、$A_{XI}=P_XAP_{L,\mathrm{int}}$、
+$A_{XX}=P_XAP_X$。定义实际内部压缩
 $$
-                    S_L=A+B E_H=A+F_H C .                \tag{H.22}
+       S_{L,\mathrm{int}}
+          =A_{\rm int}+B_{\rm int}E_H
+          =A_{\rm int}+F_HC_{\rm int}.                 \tag{H.22}
 $$
-给任意 $x_L\in L^2$，向量 $(x_L,E_Hx_L)$ 在高行上准确
-固定，且
+对任意内部低输入 $x_I$，令外输入为0、高状态为 $E_Hx_I$。
+完整酉 colligation 给准确恒等式
 $$
- \widehat U_a\binom{x_L}{E_Hx_L}
-              =\binom{S_Lx_L}{E_Hx_L}.
+ \|S_{L,\mathrm{int}}x_I\|^2+
+   \|(A_{XI}+B_XE_H)x_I\|^2=\|x_I\|^2 .
 $$
-完整酉性给 $\|S_Lx_L\|=\|x_L\|$。
-对 $\widehat U_a^*$ 和 $F_H^*$ 重复同一证明，得到
-$S_L^*=A^*+C^*F_H^*$ 也等距。因此 $S_L$ 满射酉。
-此处没有要求一个不存在的有界 $L^2$ 高 resolvent。
+所以内部 Schur 是收缩；第二项是真实外输出，不能删除。
 
-原完整有源方程
-$(I-\widehat U_a)(x_L,x_H)=(g_L,g_H)$ 准确化为
-$$
- (I-S_L)x_L=g_L+F_Hg_H,\qquad
- x_H=E_Hx_L+R_Hg_H .                                     \tag{H.23}
-$$
-$g_H$ 要按 (H.17) 提供一阶更强的 norm，以保证实际高解；
-仅将有界延拓 $F_Hg_H$ 写进低方程，不赋予高解额外正则性。
+若没有未覆盖外口，即所有 retained 列均由 (H.13) 覆盖，
+则 $P_X=0$，上述式子给 $S_L$ 等距。
+对 $\widehat U_a^*$ 和 $F_H^*$ 重复证明又给
+$S_L^*=A^*+C^*F_H^*$ 等距，从而完整 $S_L$ 满射酉。
+这是原 onto 论证的准确范围，不要求有界 $L^2$ 高 resolvent。
 
-若最外端口只是 colligation 的输入/输出，并未被施加方程，
-(H.22)--(H.23) 按相同 block 消元读取其中实际内部行和外输出。
-这保留全部外响应，不将外部擅自闭成一个固定反射。
+一般开放情形保留外输入 $x_X$，置
+$\widetilde g_H=g_H+C_Xx_X$，则真正内部方程和外输出是
+$$
+ \begin{split}
+ (I-S_{L,\mathrm{int}})x_I
+     &=g_I+F_Hg_H+(A_{IX}+F_HC_X)x_X,\\
+ x_H&=E_Hx_I+R_H\widetilde g_H,\\
+ y_X&=A_{XI}x_I+A_{XX}x_X+B_Xx_H .
+ \end{split}                                           \tag{H.23}
+$$
+$\widetilde g_H$ 必须按 (H.17) 提供一阶更强的真实 norm，
+以保证高解存在。仅将有界延拓 $F_HC_Xx_X$ 写进内部方程，
+不赋予 $R_HC_X$ 有界 $L^2$ 延拓。
+外输入自己的 affine 荷和外输出方程按原接线另保；
+这里不对外口施加反射或虚构的内部方程。
 
 原 source 先按真正次序变成 $\widehat g=H^*g$。
 这里不再应用旧 (Z.31) 的非酉行矩阵。
@@ -331,7 +361,9 @@ $$
  \Omega_i(m)=\max\left(1,\frac{\langle m\rangle}{1+T_i}\right).
  \tag{H.24}
 $$
-低输入上 $\Omega=1$；相邻层的 $\Omega_i/\Omega_k$ 小于
+只在 $P_{L,\mathrm{int}}$ 的内部低输入上 $\Omega=1$；
+未覆盖外口的 $P_L$ 含任意高频，不作这一断言。
+相邻内部层的 $\Omega_i/\Omega_k$ 小于
 $2^{20}$。与 (H.14) 合成后，$(v\Omega)$ 的相邻比仍小于
 $2^{256}$。
 
@@ -339,7 +371,7 @@ $2^{256}$。
 因此逐频重复 (H.13)--(H.19)，再求 Hilbert 直和，给
 $$
  \boxed{\quad
- \|\Omega_Hv^{\pm1} E_{H,0}v^{\mp1}\|<2^{-9000}.
+ \|\Omega_Hv^{\pm1} E_{H,0}P_{L,\mathrm{int}}v^{\mp1}\|<2^{-9000}.
  \quad}                                                     \tag{H.25}
 $$
 这是允许随频率变化的空间权，因为此处算子确实径向。
@@ -355,13 +387,14 @@ $$
 $\Delta\widehat U_i:H^1\to L^2$ 的逐层小量 $\epsilon_i$，
 则正确 Schur 差使用
 $$
- S_{L,a}-S_{L,0}
-    =\begin{pmatrix}I&F_{H,a}\end{pmatrix}
+ S_{L,\mathrm{int},a}-S_{L,\mathrm{int},0}
+    =\begin{pmatrix}P_{L,\mathrm{int}}&F_{H,a}\end{pmatrix}
        (\widehat U_a-\widehat U_0)
-       \binom I{E_{H,0}} .
+       \binom {P_{L,\mathrm{int}}}{E_{H,0}P_{L,\mathrm{int}}} .
  \tag{H.26}
 $$
-(H.1),(H.25) 真正支付这里两侧高外响应。
+此式按内部低、高分块读取，(H.1),(H.25) 真正支付其两侧
+高外响应。含未覆盖外输入的其它列仍按 (H.23) 的真实源域读取。
 但原 $Q=7$ 单位中的差不能直接代成
 $\Delta\widehat U$；其 root 端口、真实 $H$ 及下节投影仍须
 按实际公式转换。
@@ -442,9 +475,10 @@ $H P_HH^*$。尖 cutoff 在同一阈值处的差一般不能由 (H.28)
 
 ## 9. 尚待闭合的外部和原强空间
 
-本篇实际完成了完整高外的双向解、两个 $L^2$ Poisson、
-相邻层权、全 source 公式和投影缓冲。均保留全部 mean 和低输入，
-不要求 whole-network 近核先进入一个猜测的 incoming 低锥。
+本篇实际完成了完整高外的双向解、面向已覆盖内部未知的两个
+$L^2$ Poisson、相邻层权、全部外输入/输出和 source 公式及投影缓冲。
+全部内部 mean 和低输入保留，不要求 whole-network 近核先进入
+一个猜测的 incoming 低锥。外列没有被宣称属于内部强余项窗。
 
 剩下的 $P_L$ 仍含各层 $|m|<T_i$，其中包括真实无限 low-tail
 和可能未属于高窗的有限浅前缀。原低尾强解与其 affine 允许线、

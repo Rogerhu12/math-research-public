@@ -272,7 +272,7 @@
 
 ### R119：共同酉高外消元和双 Poisson
 
-见 [完整高外 Poisson 与角投影缓冲](results/R119-supplement-unitary-high-exterior-Poisson-and-buffered-angular-projections.md)。在原高阈值及Q28导出层权下，两侧Poisson为L2小算子<2^-9000，高全源inverse仍保一阶损失；低Schur酉及全affine源准确保留。径向右Poisson另付本层M/T，实际角投影要求2倍buffer。无限low与浅prefix尚须实际消元。
+见 [完整高外 Poisson 与角投影缓冲](results/R119-supplement-unitary-high-exterior-Poisson-and-buffered-angular-projections.md)。在原高阈值及Q28导出层权下，两侧Poisson为L2小算子<2^-9000，高全源inverse仍保一阶损失；勘误后开放内部Schur只称收缩，全部retained列已覆盖且无外口时才满射酉，全affine源及真实外输出保留。径向右Poisson另付本层M/T，实际角投影要求2倍buffer。无限low与浅prefix尚须实际消元。
 
 ### R133：完整实δ物理外图的同伦转移合同
 
