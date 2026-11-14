@@ -279,3 +279,5 @@ C²准确g=ds²+a²dθ²且Tz在整个连通带恒零时，混合导数迫Ts=0�
 完整第四实际run43618467921已全核且完成计算，冻结R52实例未过：主要−2/0周期L2约1e26、global-w商比例.839；−4不稳定，两档同时改几何与profile，不能单归因。详notes/literature-full-fourth-function-actual-audit-20261114.md。准确低阶前提未认证，不能作整个R52类排除；不原样增加失败profile预算。继续R62明确Jpair或真正改变profile/几何，并保完整函数而非冗余系数单独置零。
 
 已全文核成套入口表示：固定原c0的Taylor局部替换，加W2/W5/W4使全部自由项从u5/v8/b7开始，仍167维但明确新空间；保核心/尾二jet、单一高度积分及真正角函数。尚未选支持长度或评价新初态，R2一阶GC只给某个窄解析germ，不给覆盖x=.129半径。详notes/elliptic-entry-paired-base-repair-design-20261114.md。 leading区间过大/过小各有代价，原峰x~.129不在自动有效的近端；若有限首项不足，转有误差核的多阶或真实局部GC片，不分开猜u/v/b。
+
+椭圆入口准确回参实现附录已公开：notes/elliptic-entry-closed-form-coefficients-20261114.md。U4为单sin2φ，V7须带q3真实权，b6平均用q7材料测度；未来实际支持预算保cutoff导数及原锚删除项，不能只核新增首项振幅。尚无新候选或优化。

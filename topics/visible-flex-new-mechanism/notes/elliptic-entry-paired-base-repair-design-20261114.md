@@ -10,21 +10,21 @@
 
 令 `x=t−tc≥0`，入口为准确凸平面柱，采用
 
-\[
+$$
 \Gamma_\theta=a_0T_0,\qquad (T_0)_\theta=kN,
 \qquad a'(x)=-Cx^3+O(x^4),\qquad C>0.
-\]
+$$
 
 记 `side=σ`，N 为内平面法向。新模型仍使用
 
-\[
+$$
 T=\frac{H(\theta+u)+ve_z}{\sqrt{1+v^2}},\qquad
 X=a\Pi T+z e_z,\qquad z'=b.
-\]
+$$
 
 准确等距且具有相应一侧径向展开时，必须有
 
-\[
+$$
 \begin{aligned}
 u&=u_0+U_4(\theta)x^4+O(x^5),
 &U_4&=-\frac{Ck_\theta}{4a_0k^2},\\
@@ -33,7 +33,7 @@ v&=V_7(\theta)x^7+O(x^8),
 b&=\sigma+B_6x^6+O(x^7),
 &B_6&=-\frac{\sigma C^2}{2}\langle k^{-2}\rangle.
 \end{aligned} \tag{1}
-\]
+$$
 
 这里所有角平均均为准确材料角的完整圆周平均。当前主体 metric 控制在入口的 log-a 扰动为 O(x5)，所以 a′ 只从 x4 项开始改变，C 不随这五个控制变化。因而 (1) 的系数仍固定；更高阶可随 metric 控制变化。
 
@@ -41,13 +41,13 @@ b&=\sigma+B_6x^6+O(x^7),
 
 在入口与尾补丁之间预先选一个正有理支持长度 `ell_e`，要求
 
-\[
+$$
 0<\ell_e<t_f-h-t_c.
-\]
+$$
 
 先不从尚未返回的实际误差选择数值。定义
 
-\[
+$$
 \chi_e(x)=
 \begin{cases}
 1,&0\le x\le\ell_e/3,\\
@@ -55,17 +55,17 @@ b&=\sigma+B_6x^6+O(x^7),
  &\ell_e/3<x<\ell_e,\\
 0,&x\ge\ell_e,
 \end{cases} \tag{2}
-\]
+$$
 
 其中 S9 为已使用的九次 smoothstep，在 0、1 两端的一至四阶导数为零。于是 χe 为 C4，在入口邻域恒 1，在支持末端连同四阶导数为零；其位置二jet 拼接余量足够。
 
 定义 `P_n=x^n χe`，其径向导数可直接用
 
-\[
+$$
 P_n'=nx^{n-1}\chi_e+x^n\chi_e',\qquad
 P_n''=n(n-1)x^{n-2}\chi_e+2nx^{n-1}\chi_e'+x^n\chi_e''.
 \tag{3}
-\]
+$$
 
 对 j≤2，存在只依赖 n 与固定 cutoff 形状的常数，使
 `||P_n^(j)||∞≤C_nj ell_e^(n−j)`。因此这些局部幂项的二jet不是把远端二阶数据乘整个桥长再铺开的全跨度 Hermite lift。
@@ -76,18 +76,18 @@ P_n''=n(n-1)x^{n-2}\chi_e+2nx^{n-1}\chi_e'+x^n\chi_e''.
 
 仅为原固定基场加入 `V7 x7 χe`，可以使首片不再是“v 基场零且总次数≤5”。原固定高度基 b0 的六阶系数为
 
-\[
+$$
 (b_0)_6=-\frac\sigma2
 \langle\beta_3^2+v_3^2\rangle,
 \tag{4}
-\]
+$$
 
 其中 β3、v3 是**原固定 c0 自然场**在入口的准确 Taylor 系数，而不是当前待优化字段的系数。因而还可同时加入
 
-\[
+$$
 \Delta b=(B_6-(b_0)_6)x^6\chi_e.
 \tag{5}
-\]
+$$
 
 这两项不会在核心或尾部改变位置二jet，且使用同一个 z 积分。它们无需逐圈选 quartic 根，也没有把不连续的最小根分支拼成高度。
 
@@ -99,7 +99,7 @@ P_n''=n(n-1)x^{n-2}\chi_e+2nx^{n-1}\chi_e'+x^n\chi_e''.
 
 定义新的固定基场
 
-\[
+$$
 \begin{aligned}
 u_*&=u_{\rm ref}+
 \chi_e\big[u_0+U_4x^4-J_4u_{\rm ref}\big],\\
@@ -108,34 +108,34 @@ v_*&=v_{\rm ref}+
 b_*&=b_{\rm ref}+
 \chi_e\big[\sigma+B_6x^6-J_6b_{\rm ref}\big].
 \end{aligned} \tag{6}
-\]
+$$
 
 当前原 c0 的首个 v 样条片次数≤5，所以 J7 不需要猜测第六、第七阶值。b_ref 的 0 至 5 阶正是 σ 和零，故第三式退化为 (5)。β3、v3 可由固定基场和 B 样条一侧多项式系数解析取得；涉及的准确角平均仍必须沿用一个可精化的完整角积分定义，不能把某个任意采样均值偷偷写成模型常数。
 
 对正整数 p，设
 
-\[
+$$
 W_p(x)=1-\chi_e(x)+\chi_e(x)(x/\ell_e)^p.
 \tag{7}
-\]
+$$
 
 它在入口邻域准确等于 `(x/ell_e)^p`，离开支持后等于 1，且对 x>0 为正。令原 u/v 径向五次自由基为 Bj，原独立高度基为 Cj；它们均在入口 O(x3)。把它们替为
 
-\[
+$$
 \widetilde B_j^u=W_2B_j,\qquad
 \widetilde B_j^v=W_5B_j,\qquad
 \widetilde C_j=W_4C_j.
 \tag{8}
-\]
+$$
 
 新全场写成
 
-\[
+$$
 u=u_*+\sum d_j^u\widetilde B_j^u\,A_j^u(\theta),\qquad
 v=v_*+\sum d_j^v\widetilde B_j^v\,A_j^v(\theta),\qquad
 b=b_*+\sum g_j\widetilde C_j.
 \tag{9}
-\]
+$$
 
 于是自由项分别从 x5、x8、x7 起，**所有参数值**都保留 (1)，同时保留下一批未知首项的位置：u5、v8、b7 可以变化。原五个主体 metric 参数不改。变量数仍是 81+72+9+5=167，但这是新空间，不能把数目相同误称为原空间的嵌套精化。
 
@@ -147,11 +147,11 @@ b=b_*+\sum g_j\widetilde C_j.
 
 新高度定义为唯一的
 
-\[
+$$
 z(t)=z(0)+\int_0^t b_*(r)\,dr+
 \sum g_j\int_0^t\widetilde C_j(r)\,dr.
 \tag{10}
-\]
+$$
 
 对新增固定项和所有加权高度基，径向部分是已知分片多项式，可以使用其准确分片原函数，再将浮点评价误差单独记录。原 b_ref 的完整角平均与公共径向求积仍保持原准确定义。
 
@@ -165,24 +165,24 @@ z(t)=z(0)+\int_0^t b_*(r)\,dr+
 
 角向新函数的一阶导数为
 
-\[
+$$
 \begin{aligned}
 (U_4)_\theta&=-\frac{C}{4a_0}
 \left(\frac{k_{\theta\theta}}{k^2}-\frac{2k_\theta^2}{k^3}\right),\\
 (V_7)_\theta&=\frac{\sigma C^2}{7a_0}
 \left(\frac{k_{\theta\theta}}{k^3}-\frac{3k_\theta^2}{k^4}\right).
 \end{aligned} \tag{11}
-\]
+$$
 
 现有准确椭圆端口已有 k、kθ、kθθ。径向 0/1/2jet 用 (3) 与乘积公式；需要的混合 sθ、ssθ 对这些表达式取同一角导即可。不能把新的角场裁成旧有限 Fourier 列来冒称仍是 (11) 的准确函数。
 
 u/v 参数 Jacobian 仍由单位 T 的参数导数配合加权基完成。独立高度列仍为
 
-\[
+$$
 \partial_{g_j}X=I_j e_z,\qquad
 \partial_{g_j}X_s=\widetilde C_j e_z,\qquad
 \partial_{g_j}X_{ss}=\widetilde C_j' e_z,
-\]
+$$
 
 其中 Ij 为 (10) 中的一个共同原函数；它们不改变 T。主体 metric 列仍只改变 a/as/ass，不改变固定 c0 高度基、固定入口 C 或尾部源半径。直接 E/F 残差的解析 Jacobian 形式因此不变，只换字段和高度基的表。
 
@@ -202,19 +202,19 @@ Taylor 首项至少要与 `Cx3/k(θ)` 的大小、后续 a′ 系数以及第一
 
 用 `L2,M2,N2` 表示第二基本形式的 ss、sθ、θθ 系数，以免与平面法向 N 或连接长度混同。当前一侧解析 metric 的准确 Cauchy 数据为
 
-\[
+$$
 M_2(0,\theta)=0,\qquad N_2(0,\theta)=\sigma a_0k(\theta)\ne0.
-\]
+$$
 
 在 N2 非零的局部，系统为
 
-\[
+$$
 L_2=\frac{M_2^2-aa''}{N_2},\qquad
 \partial_xM_2=\partial_\theta L_2-\frac{a'}a M_2,
 \qquad
 \partial_xN_2=\partial_\theta M_2+\frac{a'}aN_2+aa'L_2.
 \tag{12}
-\]
+$$
 
 右端只含一阶角导。R2 已给出适用的一阶解析 CK 定理、完整标架约束/闭角 monodromy 的恢复以及局部嵌入论证。因此这组数据确有某个统一窄区间上的准确解析 Cauchy germ，且其逐阶递推唯一；不是仅有形式级数。首项 `L2=3σC x2/k+…`、`M2=−σC kθ x3/k²+…` 也直接重现 (1)。
 

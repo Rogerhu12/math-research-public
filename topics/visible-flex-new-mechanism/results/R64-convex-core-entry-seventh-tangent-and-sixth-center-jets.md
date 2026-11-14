@@ -8,29 +8,29 @@
 
 用 x 表示从准确圆柱核心缓冲端口向外的径向距离。令入口曲线为严格凸平面闭曲线 Γ，材料角 θ 使
 
-\[
+$$
 \Gamma_\theta=a_0 T_0,\qquad
 (T_0)_\theta=k(\theta)N,\qquad
 N_\theta=-k(\theta)T_0,
-\]
+$$
 
 其中 `a0>0`、`k=a0κ>0`，N 是平面内法向。取 `side=varsigma∈{+1,−1}`，入口竖直坐标为任意已固定 zc。
 
 参考度量为
 
-\[
+$$
 dx^2+a(x)^2d\theta^2,\qquad
 a'(x)=-C x^3+O(x^4),\qquad C>0.
-\]
+$$
 
 所以 `a=a0−C x4/4+O(x5)`。**本稿 C 为正数；旧代码中的 `entry_c3` 恰为 `−C`。**
 
 假设 X 准确满足 E=1、F=0、G=a²，以位置 C2 接到开放直柱，且从 x≥0 一侧有下述可逐项求导的径向展开。对本稿实际应用的有限表示类，可直接假设有共同的一侧联合解析延拓。若只使用有限 Taylor 版本，则明确要求余项 R 满足 `R=O_{C¹θ}(x8)`、`∂xR=O_{C¹θ}(x7)`；这些强余项界并不由单独的 C7 正则性自动推出。写普通幂系数（不含阶乘）为
 
-\[
+$$
 X=\Gamma+(z_c+\varsigma x)e_z+
  \sum_{j=2}^{7}x^jY_j(\theta)+O(x^8).
-\]
+$$
 
 由位置 C2 拼接，`Y2=0`。
 
@@ -40,25 +40,25 @@ X=\Gamma+(z_c+\varsigma x)e_z+
 
 G 的 x³ 项是
 
-\[
+$$
 2a_0T_0\cdot(Y_3)_\theta=-2a_0k f_3.
-\]
+$$
 
 参考 a² 没有 x³ 项，且 k>0，所以 `f3=0`，即 `Y3=0`。
 
 同理，E、F 的 x³ 项给 `(Y4)z=0` 和 `Y4·T0=0`，所以 `Y4=f4 N`。由
 
-\[
+$$
 a^2=a_0^2-\frac{a_0C}{2}x^4+O(x^5)
-\]
+$$
 
 比较 G 的 x⁴ 项，得到
 
-\[
+$$
 -2a_0k f_4=-\frac{a_0C}{2},
 \qquad
 \boxed{Y_4=\frac{C}{4k}N.}
-\]
+$$
 
 这里没有用辅助 β 的表示或 R=0；仅使用实际位置的 E/F/G。
 
@@ -66,24 +66,24 @@ a^2=a_0^2-\frac{a_0C}{2}x^4+O(x^5)
 
 E 的 x⁴、x⁵ 项依次给 `(Y5)z=(Y6)z=0`。在 x⁶ 项，唯一已有的平方项来自 `4x³Y4`，所以
 
-\[
+$$
 14\varsigma(Y_7)_z+16|Y_4|^2=0.
-\]
+$$
 
 因此
 
-\[
+$$
 \boxed{(Y_7)_z=-\varsigma\frac{C^2}{14k^2}.}
-\]
+$$
 
 准确零均值原函数重构的中心速度是 `b=〈Xx,z〉`，故
 
-\[
+$$
 \boxed{
 b(x)=\varsigma\left(1-
  \frac{C^2}{2}\langle k^{-2}\rangle x^6\right)+O(x^7).
 }
-\]
+$$
 
 特别地，b 的三、四、五阶系数必须为零，第六阶由固定核心和参考半径的三次斜率系数确定。当前主体 log-a 控制在入口五次消失，不改变 C，因此也不改变这里必要的第六阶系数。
 
@@ -91,36 +91,36 @@ b(x)=\varsigma\left(1-
 
 令单位切向 `T=Xθ/a`，采用当前框架的
 
-\[
+$$
 T=\frac{H(\theta+u)+ve_z}{\sqrt{1+v^2}},
 \qquad H(\psi)=(-\sin\psi,\cos\psi,0).
-\]
+$$
 
 在入口，`H(θ+u0)=T0`，对 u 的导数等于内法向 N。用 §2 的四阶项和 a 的展开，得到
 
-\[
+$$
 \boxed{
 u-u_0=\frac{C}{4a_0}(k^{-1})_\theta x^4+O(x^5)
 =-\frac{Ck_\theta}{4a_0k^2}x^4+O(x^5).
 }
-\]
+$$
 
 这与旧代码 `entry_c3=−C` 的 u4 符号一致。
 
 由 §3，
 
-\[
+$$
 T_z=-\varsigma\frac{C^2}{14a_0}(k^{-2})_\theta x^7+O(x^8).
-\]
+$$
 
 由于 `v=Tz/sqrt(1−Tz²)`，其首项相同：
 
-\[
+$$
 \boxed{
 v=-\varsigma\frac{C^2}{14a_0}(k^{-2})_\theta x^7+O(x^8)
 =\varsigma\frac{C^2k_\theta}{7a_0k^3}x^7+O(x^8).
 }
-\]
+$$
 
 所以 v 的 0 至 6 阶系数全零。对非圆椭圆，k 非常数，必要的 v7 角函数不恒为零。
 
@@ -144,43 +144,43 @@ v=-\varsigma\frac{C^2}{14a_0}(k^{-2})_\theta x^7+O(x^8)
 
 如果真实回执显示入口误差仍主导，可把必要的 v7 作为固定局部基场加入：
 
-\[
+$$
 \Delta v=v_7(\theta)x^7\chi_e(x),
 \quad v_7=\varsigma\frac{C^2k_\theta}{7a_0k^3},
-\]
+$$
 
 其中 χe 在 0 附近为 1，并在既有小入口支持末端以足够阶数归零。其一阶角导为
 
-\[
+$$
 (v_7)_\theta=\varsigma\frac{C^2}{7a_0}
  \left(\frac{k_{\theta\theta}}{k^3}-\frac{3k_\theta^2}{k^4}\right).
-\]
+$$
 
 现有椭圆端口提供 k、kθ、kθθ，所以完整本轮位置二jet需要的这部分角链式可准确写出，不必数值差分。
 
 固定原 c0 参考高度若在入口写成
 
-\[
+$$
 \beta_0=-\varsigma\pi/2+\beta_3(\theta)x^3+O(x^4),
 \qquad v_0=v_3(\theta)x^3+O(x^4),
-\]
+$$
 
 则其准确角均值基 b0 的第六阶系数是
 
-\[
+$$
 (b_0)_6=-\frac\varsigma2
  \langle\beta_3^2+v_3^2\rangle.
-\]
+$$
 
 当前新的 b 控制在第一个片上也只是五次多项式。因此若该固定第六阶系数不等于 §3 必需值，五次控制不能改变它；是否相等须按准确 c0 身份在公开 Actions 中核验，本文没有评价它。
 
 一个明确的新基场可另加
 
-\[
+$$
 \Delta b=\frac\varsigma2
  \big(\langle\beta_3^2+v_3^2\rangle
        -C^2\langle k^{-2}\rangle\big)x^6\chi_e(x).
-\]
+$$
 
 这仍必须进入新数学身份并通过共同 z 积分，不可在旧报告中静默替换 b0。
 
