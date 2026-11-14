@@ -1,59 +1,62 @@
 # 交接：大振幅新机制
 
-**未完成。持续到README全部完成门；不以阶段报告、预算、等待或时长结束。** 会话 `Astra-new-mechanism-9974ea84`，2026-11-14。root管Git/H/log/open/results/workflow；mechanism管完整连接；literature管高阶range；repo_sources独立审来源/证明/源码。压缩前完整H见[入口实际前归档](notes/handoff-before-entry-actual-results-20261114.md)，此前归档与完整失败链见log及Git。
+**进行中，未完成；没有满足README全部条件的完整候选。持续研究，不以阶段结果/时长结束。** 会话 `Astra-new-mechanism-9974ea84`，2026-11-14。root管Git/日志/公开Actions；mechanism管完整连接与高度可行stage；literature管真实高阶桥；repo_sources管科学输出与嵌套Volterra代数。旧细节见[本次压缩前H](notes/handoff-before-nine-height-stage-20261114.md)、[当前open](open.md)及results索引。
 
-## 1. 完成门、授权、规则与同步
+## 1. 完成标准与工作规则
 
-闭连通C²嵌入族Ft，时间C²连续，同一固定g；固定材料H有内点、diamF0(H)≥.2D；不对齐整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6并同g/状态/时间精化。D为完整F0直径；δE可0如实报；完整网格<5MB；明确数值/准确存在差距。达标后继续.5D或更强存在。现无完整合格候选。
+闭连通材料面，$F_t$逐时$C^2$嵌入、时间$C^2$连续，同一固定g；固定H有内点、$\operatorname{diam}F_0(H)\ge.2D$；不作刚体对齐的整像 $\delta_{hold}\ge.3D$；全时全域reach$\ge.03D$；最大相对metric$\le10^{-6}$且同g/参数/时间范围加密持续下降；完整网格每件<5MB，明确严格存在差距。$\delta_E$可0如实报；达标后继续.5D或严格存在。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`a7688a94e17455ffd6f79f15bde74aa0c665624c`（恢复后真实pull，双README无差；18:49 UTC记录）。
-- 每次实际pull --rebase核双README；变则只读diff立即执行；至少每小时pull。每结论立即提交推送；NFF立即rebase/核规则/再推至成功，不强推。
-- 已授权本公开main/自身Actions。真实几何/ODE/积分/优化/完整研究编译只在本公开Actions；本地仅纸面代数、小人工开发核、源码和公开输出分析。PAT仅瞬时CLI/env，不入文件/提交/日志。
-- 私有恢复后实际pull至`44a3ba9432709e1260b4277d05d64c6775ca6589`，相对6a16feab双规则路径无差，本题私有README不存在，QUEUE唯一行仍本会话进行中。下一实际pull不晚于19:45 UTC；私有研究不公开。
-- H<10KB、MD<100KB、数据>1MB压缩、单文件<5MB；数学用美元；不写根LOG、不git add .，只本会话明确文件。更新遵守并发独占。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`32c5c7c5a27afddbd77a6791151670cacd85787a`（实际pull后双README差异为空）。每次pull --rebase立即比双README；变则只读差异执行；至少每小时一次。每个有意义结果及时push，NFF立即pull --rebase/核规则/再推至成功，不强推。
+- 私有恢复后实际pull至`44a3ba9432709e1260b4277d05d64c6775ca6589`，与旧6a16feab双规则路径无差，本题私有README不存在；QUEUE唯一行仍本会话进行中。下一实际pull不晚于19:45 UTC。
+- 真实几何/ODE/积分/优化/完整研究符号编译只在本公开仓库Actions；本地纸面代数、小人工接口测试、源码/公开输出解析。PAT仅瞬时CLI/env，不写任何文件/提交/日志。
+- 根规则12：不把冻结、独立审查、重复清单或重复运行设为推进前置。完整证明直接登记results并更新索引。保针对具体风险的验证及README要求的同态精化。
+- H<10KB、MD<100KB、open尽量<30KB；数据>1MB gzip、单文件<5MB。公式用美元，不写根LOG，不git add .，只明确本会话文件。
+- 17:58执行环境失联时用API非强制续写，未冒称实际pull；恢复后旧/dev/shm工作树已丢，重新部分克隆并真实pull。public `/tmp/visible-new-9974-public-restored-1845`；private `/tmp/visible-new-9974-private-restored-1848`；workspace原stable symlink已接回。现一律终端git push，别动其他会话文件。
 
-17:58工作区失联后临时用GitHub API非强制发布，API比对未冒充pull。18:43执行环境恢复但旧/dev/shm工作树已丢；已重新部分克隆并真实pull两仓库。public `/tmp/visible-new-9974-public-restored-1845`，private `/tmp/visible-new-9974-private-restored-1848`，原workspace稳定symlink已接回；未动他人文件。现在一律终端git push。根规则12：不把重复机械审查设为推进前置。
+## 2. 当前几何输入与准确状态
 
-## 2. 冻结输入
+准确椭圆柱A1、B7/25、wc1/50；L.9、rc.22、tc.036、tf.846、帽R.274，a0=准确周长/(2pi)。原不可变c0：
 
-准确椭圆核心A1、B7/25、wc1/50；L.9、rc.22、tc.036、tf.846、帽R.274，a0为准确周长/(2pi)。原c0 `notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json`，987644B SHA `6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3`，不可用selected替换。
+`notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json`，987644B，SHA `6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3`。不得用selected替换参考。
 
-原167=153uv+9height+5body，run43618467921/sourcebccf1787，主 `notes/actions-43618467921-1-independent_height_solve/frame-independent-height-bounded.json` 425422B SHA `c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46`。selected canonical `924e7de417ec8fbf9419942e5cf45a7eff58336972b7cac4224edaee4c4229ee`；完整固定g `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。88源/2输出、全167 Fraction/binary64及冻结162已核。
+原167维selected：`notes/actions-43618467921-1-independent_height_solve/frame-independent-height-bounded.json`，425422B，SHA `c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46`。167=81u+72v+9height+5body；冻结g后162维。canonical `924e7de417ec8fbf9419942e5cf45a7eff58336972b7cac4224edaee4c4229ee`；完整g `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。
 
-唯一250步未收敛；fine η.7136、κ106、Xz<0、h=.05223，入口/尾均失败。不盲加旧预算。完整审计见notes/independent-height-bounded-actual-audit-20261114.md。
+原唯一250步失败：eta.7136、曲率样本106、负z、h.05223。查询无关高度原函数修复已真实核：旧四点h.00738是假；新稀/密h.0522307355872674差2.78e−17，GL/partition仅位置约5.5e−13。不能盲加旧预算或用求积末位解释O(1)残差。
 
-## 3. 原函数评价已修复；宽入口实际失败
+R57直接metric残差使用e=|Xs|²−1、q=Xs·T，operator eta=(|e|+sqrt(e²+4q²))/2；g固定且G=a²。R60独立高度只改共同z原函数；R63非圆→圆准确连接必须某处Tz非零。R64的必要入口jets成套处理，有限首项不证明完整Cauchy解存在。
 
-run43621210198/source64d69df6，92源/3输出已核；固定公共原函数保持canonical/g/162数值。旧四点h=.00738修为同密网.05223073558726739，新稀密差2.78e−17；GL8→12与133→253panel仅X约5.5e−13，其余5jet/metric0。失败形状不变；无连续积分误差证书。详notes/fixed-height-primitive-actual-audit-20261114.md，helper16d7200e/auditor824f0cda冻结。
+## 3. 最近真实几何结果与下一步
 
-**entry_paired_audit run43622984979/sourceac8ca043已success，1412.99s。** 94源/3输出已由source核；主835599B SHA `f12f9d8fcf90f3548b3e1e12d717f7c87932f901317ec43ca3040f7785129cdf`，notes/actions-43622984979-1-entry_paired_audit/。实际pull ac8→`f6d1ee5722597cd208f30ac10388f20c0181311b`，双README无差。完整审计[已发布](notes/frame-entry-paired-repair-actual-audit-20261114.md)，root/source核全部身份及精化。
+宽entry run43622984979的ell=.162新场失败：eta79.3414、κ样本226.8（粗网另有295），h.38775是外部共同抬高；入口外五导数未改善。完整数据及五同态精化在 notes/frame-entry-paired-repair-actual-audit-20261114.md，不重跑。
 
-ell=.162新表示保持原162数值/完整g，明确新场canonical c13edeec…，不是旧场精化。121×384 cost .0048653→55.14953；768角η79.34145、κ226.7835、bmax7.5763，入口严重变差；h=.387753718来自统一外部抬高.3355229824。t≥.198五导数逐位0差，strip1.03555不变，尾patch未改善。入口mean精化metric差4e−13，GL/panel仅位置约5.5e−13；Nb/热GH/Π高jet仍未获连续界。不得把帽高升高冒充reach通过。
+**short run43627111925/source8c53fba0已完成、失败。** ell=.081 paired/bounded保持原162值和完整g，canonical分别767ec80b…/5e8cf334…。eta1.45982/1.34092；bodyafter.117共同.630881、patch.387826；h.0564000/.0553883。两B7提案均为空，零步：在s=.3375/.33、theta=pi，signed-z门迫Δc≥2.95051/3.42299>原盒容量约2；帽高单独只需1.06548/1.07797。Pi/Nb/GL差不能解释失败。详[真实审计](notes/frame-entry-short-bounded-actual-audit-20261114.md)。
 
-短入口driver c6f943ad修分数解析后，公开人工43626786862已pass，100源/2输出/25依赖均核。首失败原证据保留；short_entry_audit run43627111925/source8c53fba0已success：ell=.081 paired/bounded分别η1.45982/1.34092，h .0564000/.0553883；两B7提案均空，signed-z迫Δc≥2.95051/3.42299超过盒上限2。不是帽高容量不足；没有实际参数步。[完整科学审计](notes/frame-entry-short-bounded-actual-audit-20261114.md)已发布；阻断分别在s=.3375/.33、θ=π。机制接9高度列可行stage+入口u/v联合。
+本轮第三输入：`notes/actions-43627111925-1-short_entry_audit/frame-entry-short-bounded-initial-audit.json.gz`，压缩340222B；decoded2618547B SHA `9d64a1ea03745405bd72fce6078eace92e02f3987be6ae079b75f0b71f69502c`。摘要176429B SHA2b61fe65…；本地只解压解析，没重算研究几何。
 
-## 4. 高度与厚度门及已核接口
+现在**九列高度stage**：固定bounded_short的T/a/完整g，全部signed-z/球角样本准确压成每径向行两条线性界，另帽高行+原[-1,1]^9。一次统一松弛LP，若可行再一次严格凸最小系数改变量QP；有候选只应用一次9列变化、完整几何重建、六jet及同态384→768角精化。失败零步、不自动扩盒、不运行联合u/v。当前部署height_polytope_development人工完整入口；实际lane准备但尚未请求。
 
-R44只给准确六帽/内盘与帽内法弦>3/40；整面reach仍欠。球1.01/strip.38若全域成立才给幅度≥31/101与握持≥22/101。R66核心/帽顶点双法弦给reach≤(d²+Δ²)/(2max(d,Δ))，当前τ.061迫正h≥(81+sqrt3685)/1000≈.1417042；README由D≥2给τ.06门约.1396993。仅必要门，数值h非严格包围或排除。
+代码：`frame_height_polytope.py` 6babe655…；`frame_height_polytope_audit.py` 4e6fdead…。设计和完整3SHA/CLI在 notes/fixed-tangent-nine-height-polytope-stage-20261114.md。若实际可行后metric很差，可用固定T下准确四次metric做廉价9维后续；再据实际选择一次联合u/v+height求解，不能把高度可行当metric/reach通过。
 
-B7中段列=完整N7,5，local4/global157，支撑[.198,.684]、积分.081；现系数−1+2⁻⁵³。step只改X/Xs/Xss的z，尾统一升高、入口及尾jets不改；metric准确四次成本/球/分离/帽高区间接口已发布，详entry-free-middle-height-control及frame-height-feasible-initializer-design两notes。helperfa379eb6只消费X/Xs/T/C/I、不调geometry，不clip；返回实际新binary64系数与Fraction差；driver必须全重建。联合高度硬线性门设计[已发布](notes/fixed-metric-linear-cap-height-constrained-solve-design-20261114.md)：固定g/参考后h=hbase+λᵀc、uv列0；SLSQP/trust-constr候选另筛，尚未真实联合求解。
+## 4. 已有高度门与联合接口
 
-缩ell只令新场C²趋旧失败。下一强制u5/v8/b7须用完整g的D=15μ/L1⁴+5a0F5并扣旧Hermite/c0项、同步W3/W6/W5。bounded atan base只锁固定b6/b7且|b0|≤1，既非总b界也非等距；代码deac1dbb已核。更温和B=.36/.37仅设计稿，必须重建core/g/端口等身份，未实际实施。
+R66仅必要门：d=|B−R|=.006，两个准确法向给reach≤(d²+Δ²)/(2max(d,Δ))。选τ.061迫正h≥(81+sqrt3685)/1000≈.1417042，当前另加.001余量；README由D≥2只迫τ.06。B7是local4/global157，支撑[.198,.684]、积分.081；早期前三列可补更早负z，仍要全部约束相交。
 
-## 5. 文献实际门与当前准确控制
+固定g/原c0参考下共同h=hbase+λᵀc，uv行零。`frame_height_affine_gate.py` c55fe53c和最小SLSQP wrapper已发布；公开**height_gate_development 43629262349/sourced78ca152已pass**：人工数组最优误差2.22e−16、两人工场h行差分1.75e−10/重构差0，缓存家族/目标变更、异常checkpoint、坏初态、预算等均通过。没有真实联合优化。
 
-R52冻结profile20680dfd…在full4 run43618467921的−2/0周期约2e26/4e26、global-w商.839；独立run43621210198给Floc≈70.59−61.36i稳定非零，首个常态最高ruling失败。原输出完整保留，不重复这条失败full4，不以三矩机器零冒第四。
+Gate同时核盒/线性行/完整公共帽高；记录数值容差，SLSQP中途不保证可行，最低trial与最低可用点分开。九列高度polytope依赖冻结当前uv；以后uv变化不能复用它，而共同帽高行仍适用。球1.01/strip.38只在全域成立时给充分幅度预算，.394是另一目标边界而无余量；帽高非全reach证书。
 
-R65仅理想无桥±pair纯漂移；R67 whole period=P0+NP1+N²P2+N³P3；R68二阶占用8参后须支付有效P2。h桥helpera35e9db4保持端jet/frame/omega值域，N系数helper4583b895直接传系数；均人工核，未实际完整编译。细节在前H/设计notes。
+## 5. 文献准确结果与剩余高阶条件
 
-R69给纯Ceff=4ΣΓ_Aj(Φ_Ej−ΠjMall/3)，28个profile无关充分矩条件；BigInt10差准确0。R70已给任意frame/scalar端及sl3目标的真实有限K桥；全桥M0后，固定K独立外N，所有phase第四period准确P0+NP1。R45闭浸入仍非嵌入/厚度。
+R37/R45给真实零二阶算子桥与同一P四块准确闭合，R52给重叠profile完整三阶圆；均无有限连续闭嵌入族。R56完整第四编译已成功，不重复纯编译。旧R52冻结profile的第四输出及独立Floc≈70.59−61.36i稳定非零，不重跑旧失败profile或用三矩机器零顶第四。
 
-**R71已核：** 内桥第三T进入完整P1；同端I、M0的对称词W(t)接真实revW(−t)准确实现2t[P(f,Qgh)−Q(f,Pgh)]，无渐近余项；I→I倒行FR=D Frev D、scalar同值已显式核。八矩基给至多28可达方向，r0/r1对角为−2t/3∫q''³，非零q不恒零。仍须匹配整个P1及基准桥T，支付P0/ruling/收敛/有限族。R72已用B接真倒行及x-z-x有限Euler，给同scalar任意frame的准确M=T=0桥；不同scalar转接T及空间位移/P0仍欠。继续求解。p1 producer f7f3e3c6的公开开发run43627888220已pass，Node三差0、Python八项准确toy全true。p1_bulk_exact run43628716304/sourcee42c78ff已complete：2.121s、36.7MiB；28响应正规化代表秩18，target473→59项，余76项、未找关系。不是资源退出，不完备化简不作函数非成员证明；仍缺baseline桥T/P0/其它phase。
+R65理想无桥互反pair纯漂移非零；R67完整period为P0+NP1+N²P2+N³P3；R70真实任意端口M0桥已消高两次，只余P0+NP1。R69的Γ与有限充分矩已证。
 
-## 6. 已通过开发核与立即行动
+R71真实同scalar/frameI、M0词准确实现2t[P(f,Qgh)−Q(f,Pgh)]，八基至多28方向；有限系数用有限小loop，不能把c/2越出局部控制区间。R72同scalar任意frame有M=T=0桥，位移/P0仍自由改变。
 
-recovery_development run43625250205/source12137a0394cac7a3036f49519108636b3b6209f0已success，4输出SHA均核；实际pull/readREADME均该SHA，双规则无差。三份源码绑定：height initializer fa379eb6、bounded deac1dbb、Gamma mjs7711149e。Gamma十恒等式0；height四次/数组误差2.71e−20；bounded两jet/Jac最大约1.03e−8、a'''相对1.54e−10、人工参考|b0|≤1、T不改/同g/query独立均pass。全为人工检查，零真实候选/step；[完整开发审计](notes/recovery-development-actual-audit-20261114.md)已发布，99源/4输出准确绑定。
+**R73已证明**：R56二阶密度逐s点属于同一sl3八矩，变量profile有必须保留的链式Ψ。M0桥第三history为反对称八矩迭代积分，落R71可达交换子空间并可准确消；真正还剩明确局部三次密度∫C_s。literature正在按真实R56导数取history0编译该局部项，分离端点势与真实新控制；不宣称局部项已消。
 
-short actual已完成且失败，接多列高度可行域与u/v联合入口；文献接P1完整函数及不同scalar基准第三T。R73已登记：二阶密度逐点八矩，变量profile保Ψ；M0桥第三history可由真loop消，仍欠明确局部三次项。17:54相关三个公开H仍无可借用的完整大振幅厚族。任何阶段、等待或时长都不是完成。
+**pure bulk actual43628716304/sourcee42c78ff complete**：2.121s/36.7MiB，28响应形式代表秩18，target473→59项，余76项，无关系。不是资源失败；不完备右IBP不能当非成员定理。详 notes/p1-bulk-whole-function-actual-result-20261114.md，主报告16529B SHA `abb3d2afdb3622cc0314eeffb5769d250c4808cd4e301e1a359fb1fb8ab627ce`。source正补任意嵌套Volterra word shuffle/IBP与可读余项，不重跑无变化预算。正关系须回原式验证；局部桥T、全部phase/P0/ruling、收敛有限族与全部宏观几何继续欠。
 
-新 `frame_height_affine_gate.py` c55fe53c接口已发布；当前仅请求height_gate_development人工数组/人工几何核，尚无passed或真实联合solve。九列高度可行stage正实现，先原盒再按输出决定。
+## 6. 当前操作
+
+先接九高度人工回执，成功即实际跑唯一bounded_short高度stage；同时推进新嵌套正规化和真实局部第三编译。全部完成结果即时commit/push并同步H/open；最新公开Actions输出自行pull，核双README。已读来源及经典文献范围在 notes/literature-20261114.md；撤稿局部刚性、成对等距、局部片都不是本题完成。

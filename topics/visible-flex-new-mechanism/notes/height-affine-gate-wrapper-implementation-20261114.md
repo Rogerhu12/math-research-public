@@ -149,3 +149,7 @@ short paired/bounded实际43627111925现已完成，两次B7提案均为空、�
 ## 6. 首次开发请求
 
 2026-11-14 18:54 UTC部署独立 `height_gate_development`，只运行本文件所列人工数组及人工几何检查。此前已完成的真实short与P1 runs不重跑。实际运行结果尚待回执，不把脚本已发布记作passed。
+
+## 7. 公开人工实际结果
+
+run43629262349/source d78ca152已success。人工三变量QP解误差2.22e−16；两个人工几何的帽高行差分相对误差1.75e−10、独立共同高度与仿射行差0。坏初态不启动、预算保留、第二trial异常保存失败状态与最佳可用点、缓存家族及目标变更拒绝均通过。原输出为 `notes/actions-43629262349-1-height_gate_development/height-affine-gate-development.json`。只证明本人工开发检查成功，无真实几何优化。
