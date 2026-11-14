@@ -8,7 +8,28 @@
   "workflow_commit": "f04d5d1107b01a498b304e5dfc27d4f833b92731",
   "worker_source_sha256": "23deaf88d81979962f53b00524fd7edf8d12970af7748b5432b1add66fbfbf7a",
   "started_utc": "2026-11-14T16:26:19.731240+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_full_real_delta_physical_outer_graph",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-full-delta-positive-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_regular_Hs_outer.py",
+        "--old-outer",
+        "/__w/_temp/visible-exact-full-delta-positive-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-regular-Hs-Riccati-rational.json",
+        "--repaired-outer",
+        "/__w/_temp/visible-exact-full-delta-original-positive/native/repaired-complete-regular-Hs-outer.json.gz",
+        "--endpoint",
+        "/__w/_temp/visible-exact-full-delta-positive-work/science/topics/visible-flex-exact-nearby/notes/exact_right_Z_endpoint_ci/run-43611611635-1/consumers/exact-right-Z-endpoint.json.gz",
+        "--out",
+        "/__w/_temp/visible-exact-full-delta-positive-output/native/full-delta-complete-regular-Hs-outer.json.gz"
+      ],
+      "started_utc": "2026-11-14T16:26:24.066947+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 5.00059154600001,
+      "finished_utc": "2026-11-14T16:26:29.067916+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T16:26:21.671247+00:00",
@@ -25,9 +46,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T16:26:29.498593+00:00",
+      "before": "c32af55e0dbab80706ddc7115f23e089c2021d57",
+      "after": "31686a120fdbf514254b7bb1fe275b0fb210ea2e",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T16:26:24.064110+00:00",
+      "final": false,
+      "commit": "31686a120fdbf514254b7bb1fe275b0fb210ea2e"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -59,17 +94,23 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "c32af55e0dbab80706ddc7115f23e089c2021d57",
+  "last_read_commit": "31686a120fdbf514254b7bb1fe275b0fb210ea2e",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-full-delta-positive-work/science",
   "original_native_restoration_verified": true,
-  "snapshot_utc": "2026-11-14T16:26:22.623211+00:00",
-  "wall_seconds": 2.8926771639999913,
+  "snapshot_utc": "2026-11-14T16:26:29.508573+00:00",
+  "wall_seconds": 9.778040001999997,
   "native_files": [
     {
       "logical_file": "evidence/original-native-restoration-receipt.json",
       "file": "evidence/original-native-restoration-receipt.json",
       "bytes": 1167,
       "sha256": "3b073dfa0a3699bfbf6c5ba5ef359c7bed58693e7c6f51eb1c76e240b2743534"
+    },
+    {
+      "logical_file": "native/full-delta-complete-regular-Hs-outer.json.gz",
+      "file": "native/full-delta-complete-regular-Hs-outer.json.gz",
+      "bytes": 4788,
+      "sha256": "5ab1d1b85cb71556b051fd53f5579cb30260ebdda6a844df9a4b377508e057fc"
     }
   ]
 }
