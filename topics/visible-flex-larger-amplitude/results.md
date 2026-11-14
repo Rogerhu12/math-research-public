@@ -2,6 +2,8 @@
 
 ## 新增结论
 
+- [R274. 公共径向背景的角差消去与有限细分非平面性](results/R274-shared-background-cancellation-and-open-piece-nonplanarity.md)（已证明，完整条件定理）：同r角差中B及cut公共Hermite项严格消去；角解析延拓与各径向片行列式实解析非恒零排除平面开片，有限背景节点细分不需新见证。共享quintic B自身C²与全场seam/原g/reach/δE分开，测试是充分而非必要；实际新场非零见证仍待Actions。
+
 - [R237](results/R237-accepted-M96-core-global-certificate.md)（已证明，实际M96全部核心的全角证书）：把实际96个binary64系数完整转有理数，含前32舍入差；全角rho> .1661159399427858、轴向见证距离恰G≈.9599999999970447、核心直径<2.828235152136，材料角解析可逆。开放前缀球排除及全闭条件仍未完成。
 - [R236](results/R236-scaled-full-core-and-witness-ball-control.md)（已证明，完整核心放大与条件性球外控制）：全32系数正倍缩放保持全角极值并给λ=6/5准确核心预算；固定γ的二阶球barrier及实际投影加速度仿射区间完整证明。实际旧入口已遮挡.96球，不能据核心当整面幅度。
 

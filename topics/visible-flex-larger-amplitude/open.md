@@ -137,3 +137,7 @@ R251四Loewner/完整Gram接口的16号解析fixture已通过，不重fixture；
 ### 2026-11-14 23:14 UTC — 67：同66基点的唯一λ27完整模型试验
 
 **已实现并派发的独立算法试验，尚无数值结果。** 三源c425a957/8416bcb6/798fafd5保持20完整函数与原engine全部科学/回溯正文；只改4处阻尼实验限制/说明及当前producer身份。父仍精确actual64的3b25ea84/037fb9ee，20查询、6763连续布局/零B484、512/200/17trial和原全部预算/域/RMS/merit门保持。C/QR/局部root全部在λ27重建。与66的实际科学数组/权重可作同基点比较，新的source/model元数据SHA不冒相同；对比不成额外接受门。此单实验入口仅接受该actual64父，不声称支持后续own-schema续跑。下一步立即读两轮原返回并按真实残差/域继续。
+
+### 2026-11-14 23:19 UTC — R274已证及共享B非平面消费入口
+
+[R274](results/R274-shared-background-cancellation-and-open-piece-nonplanarity.md)完整证明公共B及其cut Hermite公共项的同r角差消去，有限径向细分保持实解析非恒零见证；明确这一测试只充分、不必要。新[共享B R258适配](notes/2026-11-14-shared-background-planar-germ-adapter-interface.md)e372a7a1绑定新loader/真实guarded prefix/shared-held，原R254/R258证明内核不改。按根规矩12直接登记证明；实际新场的非零见证、全部接缝/嵌入/g/reach/δE仍须后续真实数据，未新增fixture或验收门。
