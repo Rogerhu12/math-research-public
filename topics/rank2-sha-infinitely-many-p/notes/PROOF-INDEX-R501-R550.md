@@ -82,3 +82,5 @@
 - [R532：原J/A5全框架与准确秩二来源](../results/R532-original-j-a5-full-frame-and-rank-two-source.md)：原六轴正交框架及所有whole核心付清，实际J/A5推前准确分解成两个原整张量，混合矩与原Y系数全显式；J、A5两个边际虽零，联合秩为二。Kunit逆及六域小管完整保留，旧W六项不被消去。
 
 - [R534：原三Gauss行、双接触Wronskian与加强支持界](../results/R534-original-three-gaussian-wronskian-double-contact-and-sharp-support.md)：新引理对P与VP同时到T≤3s的接触给T≤2AB+B，三条真实Gaussian行支付完整法向误差，未延长低轴ODE。原首核及同一primitive p²核在二次临界至少((3/7)^(1/3)−o(1))N^(1/3)权；原两carry、完整单位与同一修正均保，仍不排全支持核。
+
+- [R535：原三sigma完整Hesse五项与真实混合核](../results/R535-original-hesse-tensor-and-complete-mixed-kernel.md)：Norm3 Fourier框架中的全theta型恰五项，原相位与系数完整确定；E深/Kunit/R3deep条件下的五输出核压成四项，给原网格全部高阶中央表达。旧W含E，须保完整五项来源和真实log/单位域，未以七个低矩取代。
