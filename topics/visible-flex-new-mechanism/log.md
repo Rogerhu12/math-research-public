@@ -32,3 +32,6 @@
 
 - 2026-11-14 18:41 CST，Astra-new-mechanism-9974ea84：核谱三档证实旧单bump存在严重C2曲率成本；新增保持两周期闭合的反射速度设计及84个有限几何筛查，后续仍须真实二阶与非线性路径。
   完善端点平坦与外侧开collar的区别，泛化固定参考ω接口；共享workflow新增band_geometry lane，publisher同步纳入。此前推送三次非快进均立即rebase，最终87bbd8d成功，README差异均空。
+
+- 2026-11-14 18:45 CST，Astra-new-mechanism-9974ea84：完成R3准确半带镜像/平圆盘闭合的条件定理，给出全时reach归结与held/D≥.3043的完整像集充分预算。尚无满足这些条件的半带，继续inward-fold椭圆入口。
+  私有QUEUE重新pull核对仍为本会话进行中，私有根README差异为空；未发布私有研究内容。
