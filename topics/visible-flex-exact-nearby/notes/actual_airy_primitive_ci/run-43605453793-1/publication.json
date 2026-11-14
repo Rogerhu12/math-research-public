@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43605453793",
+  "reviewed_pull_history": [
+    {
+      "before": "feab9848e2bb79e0c6f97eeeffd8d02743f2a0a3",
+      "after": "f5c3bd58ab7a558e401b40140d94432b3fd72390",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "f5c3bd58ab7a558e401b40140d94432b3fd72390",
+      "after": "f5c3bd58ab7a558e401b40140d94432b3fd72390",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/actual-airy-primitive.json.gz",
+      "bytes": 3647,
+      "sha256": "4ebc5865a8427e67e003e0aa25d8f629353ed87efd67d1705e1cdac7d2fc5b39",
+      "original_sha256": "4ebc5865a8427e67e003e0aa25d8f629353ed87efd67d1705e1cdac7d2fc5b39"
+    },
+    {
+      "file": "consumers/actual-airy-primitive.stdout.log",
+      "bytes": 10484,
+      "sha256": "dc45040ca2a7283ffd1b6811ab7b2942a21ac707a434783e5f1b52c56a215c6a",
+      "original_sha256": "dc45040ca2a7283ffd1b6811ab7b2942a21ac707a434783e5f1b52c56a215c6a"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 15075,
+      "sha256": "3d405529c83f9205baddbeb87113cc5e6c8c7735c3337cdc5fca97f2d52c9b4c",
+      "original_sha256": "3d405529c83f9205baddbeb87113cc5e6c8c7735c3337cdc5fca97f2d52c9b4c"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 13237,
+      "sha256": "732ec8c71fdad571ef844014b0ef596f3a637c5f8831ff9dba23d800d08dee2c",
+      "original_sha256": "732ec8c71fdad571ef844014b0ef596f3a637c5f8831ff9dba23d800d08dee2c"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 1954,
+      "sha256": "2107a088f70e21cfd291dbf2ceb8ec5a6f1284058ac7efd7607d7c434dd79766",
+      "original_sha256": "2107a088f70e21cfd291dbf2ceb8ec5a6f1284058ac7efd7607d7c434dd79766"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}
