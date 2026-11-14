@@ -190,3 +190,8 @@
 - R769真R759三份小输入绑定后，以exact LDL/有理中心/isqrt闭区间搜索完整原格degree≤693，找到保原微分，空栈才无；12分钟断点含完整DFS和4096事件hash链，主线R771不等待。
 - core395ab85cd065cf5eab9fb1684464bd849f5fc3bd03b2275d3b90ba71998eaca9、request6fcdf1223bff73551e2ec17d0474d338137ae10f4907e185f50f79dd833c5209；新增专用公开workflow，既有publisher不改，下载前即落source/failure收据，完整审计仅artifact。
 - 根完整读method/core/wrapper并回核R759真实schema，五文件SHA相符；终端仍不可用，未声称本地AST或数学运行。R768已推3afb4b5537600daa65d5ad088654034bc5f89339，HANDOFF/open/index同步、核main/两README后非force继续。
+
+## 2026-11-15 02:47 Asia/Taipei · serre-public-resume-20261114
+- R769实际run43628341694/source4faaf06d完整穷尽原格degree≤693：385准确事件、所有frame完成、空栈且唯一零叶子，0.013586945秒；无非零向量，非超时。
+- cert97e1949ef4dfc890c5ac975533cfaa9ff73682321b1b4030ac6723259a4fc26a、artifact14126529570及LDL/两audit/checkpoint/source SHA全存；R764还给全格degree为3倍，故非零degree≥696，未称全局最小。
+- 此界关闭，继续真实d1206/1514维R771及R772低字段核验，不扩可选搜索；HANDOFF/open/index同步，终端不可用期间核main/两README并小文本非force，旧period/格/LLL未重算。

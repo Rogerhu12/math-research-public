@@ -273,4 +273,4 @@
 - **R768（已证明）**：[原supported dual Kummer类及ordinary companion](results/R768-original-supported-dual-Kummer-class-and-ordinary-companion.md)。完整理想类项λ_id e_q、真实κ(Xt)提升及三方向/Norm保留，原Bockstein β_P(U)=−ft/9非零。T-Hilbert90和完整transfer给bλ_id=0；b≠0时真实到EN的Norm同构进一步把原dual下降为M^T普通单位类，保q-local0。b24尚未排除，原配对与J/b/σ₂继续。
 
 
-- **R769（方法已证明，公开工程已保存）**：[原已存次数格的精确有界枚举](notes/R769-retained-degree-lattice-bounded-search-method.md)。复用R759十二维Gram及全部原微分，以exact LDL和闭整数区间完整搜degree≤693；准确区分找到/穷尽/断点，保完整DFS与审计。未有实际搜索结论，原1514维函数恢复同时继续。
+- **R769（已证明并精确穷尽）**：[原完整次数格的693界排除](results/R769-certified-original-degree-cutoff-exclusion.md)。公开run43628341694完整exact LDL/整数区间搜索385事件，空栈且唯一零叶子，原完整格无非零degree≤693；结合原全格尖点像得degree≥696。核心0.013587秒，关闭此较小次数保证路线，继续d1206/1514维函数恢复。

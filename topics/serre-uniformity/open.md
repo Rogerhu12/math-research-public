@@ -225,4 +225,4 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 **R768（真dual Kummer socle与ordinary纯S下降已证明）**：[完整证明](results/R768-original-supported-dual-Kummer-class-and-ordinary-companion.md)全Σ/q二次gauge/2处extension核对后，真实eα在full Kummer群中有唯一λ_id e_q，保κ(Xt)和完整三方向方程；β_P(U)=−ft/9≠0。实际T-Hilbert90与原transfer给bλ_id=0，b≠0时再用到较小EN的真实Norm及ordinary capitulation图，令真eα和dq下降为V=M^T的ordinary单位类，保原q-local0与全部Norm/导数。b=0不能外推，b24虽满足下降但仍未排除；继续R773原纯S格与真实regularized配对，未称J/b/σ₂数值已得。
 
 
-**R769（原格有界短向量工程已提交）**：[完整方法](notes/R769-retained-degree-lattice-bounded-search-method.md)只读R759真实十二维LLL Gram和map向量，以精确LDL/isqrt整数区间完整搜degree≤693；找到保原整数向量/六微分，空栈才无，预算到保准确DFS/hash链。此界若有解可使D=(t)0、M6维694足够；当前degree1206及R771的1514基路线独立继续。未预称短向量存在或无解。
+**R769（原格degree≤693已精确排除）**：[实际证明](results/R769-certified-original-degree-cutoff-exclusion.md)run43628341694/source4faaf06d，385精确事件/空DFS栈/唯一leaf0，完整原格无非零degree≤693；核心0.013587秒、cert97e1949ef4dfc890c5ac975533cfaa9ff73682321b1b4030ac6723259a4fc26a、artifact14126529570。R764全格尖点像给degree为3倍，故非零degree≥696。此项已关闭，不把次数界排除外推所有特殊小除子；继续已定d1206与R771 dim1514基、函数/β/高度。
