@@ -8,7 +8,71 @@
   "workflow_commit": "a21da725a23b6fd9b851accffca3af844e033d8a",
   "worker_source_sha256": "931a4866b6fc37d4978e07f6bf996b96a4be6b33c064377a468b24a1f85e1ad6",
   "started_utc": "2026-11-14T10:41:34.358419+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "complete_original_7721_rows_both_scalar_errors_and_all_trial_jumps",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-body-complete-mean-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_mean_error_consumer.py",
+        "--candidate",
+        "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--mean",
+        "/workspace/scratch/ac0d699811ad/final-mean-20261114/attempt01/native.json.gz",
+        "--response",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-nonmean.json",
+        "--adjoint",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-nonmean.json",
+        "--parts",
+        "/__w/_temp/visible-exact-body-complete-mean-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row0000-native.json.gz",
+        "/__w/_temp/visible-exact-body-complete-mean-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-original-left1-257-native.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-257-1200-43583838026-1/native/rows-00257-00477.json.gz",
+        "/__w/_temp/visible-exact-body-complete-mean-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row0477-native.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-257-1200-43583838026-1/native/rows-00478-00734.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-257-1200-43583838026-1/native/rows-00734-00990.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-257-1200-43583838026-1/native/rows-00990-01000.json.gz",
+        "/__w/_temp/visible-exact-body-complete-mean-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row1000-native.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-257-1200-43583838026-1/native/rows-01001-01200.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-1200-2133-43583838026-1/native/rows-01200-01456.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-1200-2133-43583838026-1/native/rows-01456-01712.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-1200-2133-43583838026-1/native/rows-01712-01968.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-1200-2133-43583838026-1/native/rows-01968-02133.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-2133-3066-43583838026-1/native/rows-02133-02389.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-2133-3066-43583838026-1/native/rows-02389-02645.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-2133-3066-43583838026-1/native/rows-02645-02901.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-2133-3066-43583838026-1/native/rows-02901-03066.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03066-03322.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03322-03578.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03578-03834.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03834-04000.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-4000-5000-43583838026-1/native/rows-04000-04256.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-4000-5000-43583838026-1/native/rows-04256-04512.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-4000-5000-43583838026-1/native/rows-04512-04768.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-4000-5000-43583838026-1/native/rows-04768-05000.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-5000-6000-43583838026-1/native/rows-05000-05256.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-5000-6000-43583838026-1/native/rows-05256-05512.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-5000-6000-43583838026-1/native/rows-05512-05768.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-5000-6000-43583838026-1/native/rows-05768-06000.json.gz",
+        "/__w/_temp/visible-exact-body-complete-mean-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row6000-native.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-6001-6860-43583838026-1/native/rows-06001-06257.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-6001-6860-43583838026-1/native/rows-06257-06513.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-6001-6860-43583838026-1/native/rows-06513-06769.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-6001-6860-43583838026-1/native/rows-06769-06860.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-6860-7721-43583838026-1/native/rows-06860-07116.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-6860-7721-43583838026-1/native/rows-07116-07372.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-6860-7721-43583838026-1/native/rows-07372-07628.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-6860-7721-43583838026-1/native/rows-07628-07719.json.gz",
+        "/__w/_temp/visible-exact-body-complete-mean-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row7719-native.json.gz",
+        "/__w/_temp/visible-exact-body-original-rows/visible-exact-body-rows-6860-7721-43583838026-1/native/rows-07720-07721.json.gz",
+        "--out",
+        "/__w/_temp/visible-exact-body-complete-mean/native/complete-correlated-body-and-mean-errors.json.gz"
+      ],
+      "started_utc": "2026-11-14T10:41:41.486123+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 320.00773100000004,
+      "finished_utc": "2026-11-14T10:47:01.494368+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T10:41:35.589002+00:00",
@@ -25,9 +89,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:47:02.629463+00:00",
+      "before": "cbcebdfca9d56de996255f5a28bd0f8c3d0dafef",
+      "after": "18e9afc0de8057506debb40c975da88b59e6d7ea",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T10:41:41.483769+00:00",
+      "final": false,
+      "commit": "f3e7ac55f896c7dea85d9816a8a8a8c4d3de0d76"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": [
@@ -60,14 +138,14 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "cbcebdfca9d56de996255f5a28bd0f8c3d0dafef",
+  "last_read_commit": "18e9afc0de8057506debb40c975da88b59e6d7ea",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-body-complete-mean-work/science",
   "complete_original_row_cover_verified": true,
   "complete_original_rows": 7721,
   "original_rows_recomputed": 0,
   "original_part_count": 40,
-  "snapshot_utc": "2026-11-14T10:41:39.992896+00:00",
-  "wall_seconds": 5.635094217999992,
+  "snapshot_utc": "2026-11-14T10:47:04.019853+00:00",
+  "wall_seconds": 329.662056725,
   "native_files": [
     {
       "logical_file": "evidence/complete-original-row-cover.json",
@@ -176,6 +254,13 @@
       "file": "evidence/original-processes/visible-exact-body-rows-6860-7721-43583838026-1/producer.stdout.log.gz",
       "bytes": 94048,
       "sha256": "7eb8d229ce347dd3f4d36bef7fbe8bbb77bc7736e534c86b697d12fa83d513ad"
+    },
+    {
+      "logical_file": "native/complete-correlated-body-and-mean-errors.json.gz",
+      "lossless_manifest": "native-complete-correlated-body-and-mean-errors.json.gz-a4f31dccc4b54661-parts.json",
+      "bytes": 12968944,
+      "sha256": "a4f31dccc4b54661b43fc06bac59b6afbb4fa2d6d19614f68f71e044be6e5870",
+      "parts": 7
     }
   ]
 }
