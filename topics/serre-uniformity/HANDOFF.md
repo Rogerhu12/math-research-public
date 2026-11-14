@@ -4,8 +4,8 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：fd4f5619dd5ba35cf30c571338b48530448c8cee
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions各发布前实际pull并核两README，最近R717失败recover于13:41UTC前完成发布，无差异。最近GitHub集成核查：2026-11-14 13:55:01 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
+已读规则提交：7b31f6eec5d6ebb53b966e7bd451ebb193fdd013
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions各发布前实际pull并核两README，最近R717失败recover于13:41UTC前完成发布，无差异。最近GitHub集成核查：2026-11-14 14:01:14 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
 
 仅公开Rogerhu12/math-research-public及其Actions。每结论单独推main已授权，禁强推；终端非快进立即pull --rebase重推。PAT仅CLI。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB、大中间量不入库。日志本题≤5行，改共享设施须说明。
 
@@ -37,7 +37,7 @@ R724现闭合规范求值接口：Y splitting在Λ中含因子2精确抵消；�
 
 原P=S2S3/C0²在实圆分域，2^37·3^26·p5·P整；原Ω/6标签、两正Gauss和、完整period factor与全尾给所有整数trace，唯一整数区间和精确Teich根恢复原值。证明及完整大文件续算预算见R717与notes/R717-p137147-certified-budget-and-artifact-resume.md。
 core scripts/R717_certified_original_CM_norm.py SHA75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402；p41校准run43597163388已成功，42整数trace唯一、1274/24匹配，receipt SHAfb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6，勿重算。
-137147正式请求source ffc69b45d58ea9aaafd1e0686fc55377701a00be：384bits、tail256、cutoff360p=49372920，四片8113行=2029/2028/2028/2028、至多2并行，单recover做三个球DFT；严格解析trace误差<2^−14但仍须完整Arb唯一性。run43597802237四片全部成功：8113行、14925440项；四原bin SHA与receipt/manifest匹配。recover job132457689232于13:40:40UTC失败：三DFT完成、137148个trace全部未过唯一整数判据，未得原值。完整embedding/trace球已保存，artifact serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1；已新增公开trace-diagnostic请求，逐一固定6个原gzip/原core SHA，仅诊断全区间及旧/独立chirp，零DFT/零枚举；首诊断43601766596因sparse漏自身workflow在计算前失败；已补路径，重启run43602040433/source0e46558d1fe47939d15e24c09882c7d46c874d64，四片禁止重枚举。小凭据在computations/R717-original-CM-norm-p137147-bins-i/43597802237-1/。
+137147正式请求source ffc69b45d58ea9aaafd1e0686fc55377701a00be：384bits、tail256、cutoff360p=49372920，四片8113行=2029/2028/2028/2028、至多2并行，单recover做三个球DFT；严格解析trace误差<2^−14但仍须完整Arb唯一性。run43597802237四片全部成功：8113行、14925440项；四原bin SHA与receipt/manifest匹配。recover job132457689232于13:40:40UTC失败：三DFT完成、137148个trace全部未过唯一整数判据，未得原值。完整embedding/trace球已保存，artifact serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1；诊断run43602040433已成功，summary SHA7177f7a2a698d20fb4bb7789f9cb95f73c7aba3af272848cfa0b118a2d51ecbb：bins半径<2^−368，旧chirp第3509项半径≥1/4，trace全失败因包络膨胀。新core c437d880dcea112f4e5b3f7d44cdfd37ad221b7f41a4d14d1359f11f010aa835逐项独立精确余数相位，严格固定旧四bin/source/参数及完整生产前缀一致；新direct-chirp请求仅重做三DFT/精确恢复，零格点重算，尚无目标值。小凭据在computations/R717-original-CM-norm-p137147-bins-i/43597802237-1/。
 完整片/前缀按source参数与实际SHA复用；大bin由runner从artifact恢复，不可工具分块/编码或盲重跑。runner session固定source/request；每小时核README、发布pull后再核，结果另登记。
 
 ## O6：原p43 Robert单位/普通Norm

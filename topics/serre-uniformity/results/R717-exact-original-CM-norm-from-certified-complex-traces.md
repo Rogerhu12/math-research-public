@@ -621,3 +621,24 @@ $$
 These are the unchanged original normalization and the retained independent historical values. The complete receipt has SHA256 `fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6`; the input receipt has SHA256 `462c9109302e85d95958bef1e3695bbb5aeef85f1d017688ed97c34d226dcc4c`. The original core SHA256 is `75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402`. Its four complete arithmetic artifacts have hashes recorded both in the core receipt and in the published 17-file manifest. The persisted small receipts and log were independently checked against that manifest; the full binary artifacts remain in the public repository and Actions artifact.
 
 The calibration is complete and is to be reused. The value at $p=137147$ remains a separate computation; no conclusion about that value or the actual height follows from this calibration alone.
+
+
+## 10. Retained 137147 trace-ball diagnosis and independent chirps
+
+The first target run, [43597802237](https://github.com/Rogerhu12/math-research-public/actions/runs/43597802237), completed all four bins: 8113 lattice rows and 14925440 terms. Its recovery failed after the three transforms: none of the 137148 trace balls passed the unchanged unique-integer and radius tests. No exact target value follows from that failed recovery.
+
+The retained-artifact diagnostic [43602040433](https://github.com/Rogerhu12/math-research-public/actions/runs/43602040433), using no new lattice enumeration and no DFT, verified every original input hash and classified every failed ball. Its [summary](../computations/R717-trace-diagnostics-p137147/43602040433-1/R717-diagnostic-summary.json) has SHA256 7177f7a2a698d20fb4bb7789f9cb95f73c7aba3af272848cfa0b118a2d51ecbb. The four bin components have maximum radii below $2^{-368}$, while all recovered trace real radii exceed $1/4$. Every trace imaginary interval contains zero; the failure is not evidence of a nonreal or nonintegral trace.
+
+The old chirp construction repeatedly multiplied rectangular complex balls. Its first radius at least $1/4$ occurs at index 3509, and its largest component radius is exactly $120899187\cdot2^{46409}$. The largest final trace real radius is $532573319\cdot2^{278783}$. These bounds identify destructive interval wrapping despite the valid analytic-tail budget.
+
+The corrected construction encloses each phase independently:
+
+$$
+c_j=\exp\!\left(\pi i\,\frac{j^2\bmod 2n}{n}\right).
+$$
+
+This is exactly the same mathematical chirp. Indeed the previous exact recurrence has ratio $\omega^{2j+1}$ at step $j$, hence value $\omega^{j^2}$, where $\omega=\exp(\pi i/n)$; reduction of the exponent modulo $2n$ changes no value. The new implementation evaluates the exact integer residue divided by $n$ and then applies the certified exponential. It does not propagate a rectangular enclosure through the preceding rotations. The convolution formula, analytic tails, original periods, trace tests, cyclotomic equality test and $p$-adic evaluation are unchanged.
+
+All completed bins are reused through an explicit compatibility manifest. It fixes the four full binary hashes, the original source/run/configuration, and the complete old source archive. The entire source prefix through the end of the bin producer, including all of its dependencies and configuration code, must be byte-identical to the new source. Every numerical configuration field is unchanged; only the executing source hash and its parameter digest differ. The final receipt retains that compatibility proof and the original source archive. The corrected core SHA256 is c437d880dcea112f4e5b3f7d44cdfd37ad221b7f41a4d14d1359f11f010aa835.
+
+The new recovery reads the original four bins, not the failed embeddings or trace balls. It recomputes only the transforms and subsequent exact reconstruction. The completed p41 calibration is not repeated. Its success, higher target valuation, or exact target zero will be recorded only from the new full certificate; this implementation repair itself supplies none of those target conclusions.

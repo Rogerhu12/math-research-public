@@ -1,0 +1,31 @@
+{
+  "result": "R717-original-CM-norm-p137147-direct-chirps",
+  "revision": 1,
+  "purpose": "Recover the original full CM norm using independently enclosed exact chirp phases, reusing all four completed public bins and the unchanged numerical configuration.",
+  "prime": 137147,
+  "shard_count": 4,
+  "prec_bits": 384,
+  "tail_bits": 256,
+  "cutoff_multiple": 360,
+  "python_flint_version": "0.9.0",
+  "timeout_seconds": 18000,
+  "arithmetic_sha256": "c437d880dcea112f4e5b3f7d44cdfd37ad221b7f41a4d14d1359f11f010aa835",
+  "wrapper_sha256": "5d0ed1adeb595b65dccc8417d7b10d9c0d8d234c3f89894cd4271cb8832ad5d7",
+  "monitor_sha256": "be783e9912137acf85c037a5096a9402df7ab6b390aef6d3fb7ea4bd8caf1c12",
+  "compatibility_manifest_sha256": "de9adbb40d1a3b3ffdb07bfb8d905cb0658516ab83af7504b346ea2e95ac915d",
+  "source_run_id": "43597802237",
+  "source_artifact_name": "serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1",
+  "original_source_archive_sha256": "9524db636dc1e9d033186ec9ad9d1fc3ad00f366969db964dc48340a8915201b",
+  "diagnostic_summary_path": "topics/serre-uniformity/computations/R717-trace-diagnostics-p137147/43602040433-1/R717-diagnostic-summary.json",
+  "diagnostic_summary_sha256": "7177f7a2a698d20fb4bb7789f9cb95f73c7aba3af272848cfa0b118a2d51ecbb",
+  "prior_p41_calibration": {
+    "source_run_id": "43597163388",
+    "receipt_path": "topics/serre-uniformity/computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-original-CM-norm.json",
+    "receipt_sha256": "fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6",
+    "recompute": false
+  },
+  "completed_lattice_rows_recomputed": 0,
+  "failed_embeddings_and_traces_reused": false,
+  "original_integer_certificate_tests_unchanged": true,
+  "mathematical_completion_claimed": false
+}

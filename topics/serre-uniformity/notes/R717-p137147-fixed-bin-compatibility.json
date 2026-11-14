@@ -1,0 +1,55 @@
+{
+  "schema": "R717-fixed-bins-direct-chirps-v1",
+  "old_core_sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+  "new_core_sha256": "c437d880dcea112f4e5b3f7d44cdfd37ad221b7f41a4d14d1359f11f010aa835",
+  "source_run_id": "43597802237",
+  "source_commit": "ffc69b45d58ea9aaafd1e0686fc55377701a00be",
+  "source_artifact_name": "serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1",
+  "original_source_archive": "R717-original-binned-source.py.gz",
+  "old_configuration": {
+    "result": "R717",
+    "prime": 137147,
+    "n": 137148,
+    "D": "16950949224494125663770199202322730161405759062016",
+    "source_sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+    "python_flint": "0.9.0",
+    "prec_bits": 384,
+    "tail_bits": 256,
+    "cutoff": 49372920,
+    "cutoff_multiple": 360,
+    "a_max": 8113,
+    "shard_count": 4,
+    "finite_field": {
+      "basis": [
+        "1",
+        "zeta"
+      ],
+      "relation": "zeta^2+zeta+1=0",
+      "gamma": [
+        131992,
+        75276
+      ],
+      "order": 137148,
+      "prime_factors_order": [
+        2,
+        3,
+        11,
+        1039
+      ],
+      "gamma_to_n_over_3": [
+        0,
+        1
+      ],
+      "all_powers_sha256": "b0dc2c1c2541096b41158e75ed8249bd5d1a298a408c83e44c4d4145d86dfa95",
+      "projective_log_table_sha256": "838ef50a88f160565715b643cef1826d0f9aa404f7b623f3670fdef7825c253d"
+    },
+    "normalization": "R588 original chi6, theta_{-1}, S2*S3/C0^2; R717 v1",
+    "parameter_sha256": "1a174a52ff6037bd8b6c963884869b21b38240d1f54b9acf94ad338e2c5fef71"
+  },
+  "bin_files_sha256": {
+    "R717-bins-0.json.gz": "fae9b0aadc62a36f0a5d251a17c802d698af183145cccec7f0f3b6e4352a71d8",
+    "R717-bins-1.json.gz": "eabe4b445631f071839f9cf45ec162620c0537ed1eb6e1d28d79b27d66316f6a",
+    "R717-bins-2.json.gz": "5ef6d896e45f62d7ed24be78eb70b6913a6109ac044ae74a375daca969dfeea8",
+    "R717-bins-3.json.gz": "fa90bcd9cfe7b392dbcd6ea526eb765ef819770418cbe2df1530a71a0773496b"
+  }
+}

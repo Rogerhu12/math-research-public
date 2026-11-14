@@ -311,17 +311,9 @@ def run_bins(args, cfg, cp, inverses, projective, tame_lookup):
 
 
 def chirps(n):
-    omega = (acb(1)/n).exp_pi_i()
-    square = omega*omega
-    value = acb(1)
-    ratio = omega
-    out = []
-    for _ in range(n):
-        out.append(value)
-        value *= ratio
-        ratio *= square
-    return out
-
+    # Evaluate each exact phase independently.  Recursively multiplying
+    # rectangular complex balls accumulates wrapping over long rotations.
+    return [(acb((j*j) % (2*n))/n).exp_pi_i() for j in range(n)]
 
 def ball_dft(values, chirp, sign):
     n = len(values)
@@ -388,6 +380,78 @@ def padic_evaluation(p, gamma, integer_coefficients, exact_zero):
             'height_or_Serre_exclusion_claimed': False}
 
 
+
+def verified_legacy_bin_inputs(args, cfg):
+    """Adopt only the four fixed completed 137147 bins after a source-scope audit."""
+    if args.bin_compatibility is None:
+        return None
+    if args.phase != 'recover':
+        raise RuntimeError('Legacy bins are allowed only in explicit recover mode')
+    outdir = args.output_dir.resolve()
+    path = args.bin_compatibility.resolve()
+    if path.parent != outdir or path.name != 'R717-reused-bin-compatibility.json':
+        raise RuntimeError('The compatibility manifest must be archived in the output directory')
+    manifest = json.loads(path.read_text())
+    expected_bins = {
+        'R717-bins-0.json.gz': 'fae9b0aadc62a36f0a5d251a17c802d698af183145cccec7f0f3b6e4352a71d8',
+        'R717-bins-1.json.gz': 'eabe4b445631f071839f9cf45ec162620c0537ed1eb6e1d28d79b27d66316f6a',
+        'R717-bins-2.json.gz': '5ef6d896e45f62d7ed24be78eb70b6913a6109ac044ae74a375daca969dfeea8',
+        'R717-bins-3.json.gz': 'fa90bcd9cfe7b392dbcd6ea526eb765ef819770418cbe2df1530a71a0773496b',
+    }
+    old_source_sha = '75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402'
+    old_parameter_sha = '1a174a52ff6037bd8b6c963884869b21b38240d1f54b9acf94ad338e2c5fef71'
+    assert manifest['schema'] == 'R717-fixed-bins-direct-chirps-v1'
+    assert manifest['old_core_sha256'] == old_source_sha
+    assert manifest['new_core_sha256'] == cfg['source_sha256']
+    assert manifest['source_run_id'] == '43597802237'
+    assert manifest['source_artifact_name'] == 'serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1'
+    assert manifest['source_commit'] == 'ffc69b45d58ea9aaafd1e0686fc55377701a00be'
+    assert manifest['bin_files_sha256'] == expected_bins
+    assert manifest['original_source_archive'] == 'R717-original-binned-source.py.gz'
+    archive = outdir / manifest['original_source_archive']
+    archive_sha = hashlib.sha256(archive.read_bytes()).hexdigest()
+    assert archive_sha == '9524db636dc1e9d033186ec9ad9d1fc3ad00f366969db964dc48340a8915201b'
+    with gzip.open(archive, 'rb') as stream:
+        original = stream.read()
+    current = Path(__file__).read_bytes()
+    assert hashlib.sha256(original).hexdigest() == old_source_sha
+    assert hashlib.sha256(current).hexdigest() == cfg['source_sha256']
+    marker = b'\ndef chirps(n):\n'
+    assert original.count(marker) == current.count(marker) == 1
+    original_prefix = original.split(marker)[0]
+    current_prefix = current.split(marker)[0]
+    # This exact common prefix includes imports, every bin dependency,
+    # configuration(), and the entire run_bins().  Nothing is waived.
+    assert original_prefix == current_prefix
+    old_cfg = manifest['old_configuration']
+    check_old = dict(old_cfg)
+    assert check_old.pop('parameter_sha256') == old_parameter_sha
+    assert digest(check_old) == old_parameter_sha
+    assert old_cfg['source_sha256'] == old_source_sha
+    assert old_cfg['prime'] == 137147 and old_cfg['shard_count'] == 4
+    expected_cfg = dict(check_old)
+    expected_cfg['source_sha256'] = cfg['source_sha256']
+    expected_cfg['parameter_sha256'] = digest(expected_cfg)
+    assert cfg == expected_cfg
+    record = {
+        'schema': manifest['schema'], 'source_run_id': manifest['source_run_id'],
+        'source_commit': manifest['source_commit'],
+        'source_artifact_name': manifest['source_artifact_name'],
+        'old_core_sha256': old_source_sha, 'new_core_sha256': cfg['source_sha256'],
+        'old_parameter_sha256': old_parameter_sha,
+        'new_parameter_sha256': cfg['parameter_sha256'],
+        'entire_bin_producer_prefix_byte_equal': True,
+        'bin_producer_prefix_sha256': hashlib.sha256(original_prefix).hexdigest(),
+        'fixed_bin_files_sha256': expected_bins,
+        'all_numeric_configuration_fields_unchanged': True,
+        'completed_bins_recomputed': False,
+    }
+    return {'configuration': old_cfg, 'files': expected_bins, 'record': record,
+            'artifacts': [
+                {'file': path.name, 'sha256': hashlib.sha256(path.read_bytes()).hexdigest()},
+                {'file': archive.name, 'sha256': archive_sha}]}
+
+
 def recover(args, cfg, tame_check, tails):
     outdir = args.output_dir
     final = outdir/'R717-exact-original-CM-norm.json'
@@ -404,6 +468,7 @@ def recover(args, cfg, tame_check, tails):
                 'Historical independent calibration failed on a reused complete result')
         print(json.dumps({'status': 'REUSED_COMPLETE', 'receipt': str(final)}), flush=True)
         return
+    legacy = verified_legacy_bin_inputs(args, cfg)
     n, p = cfg['n'], cfg['prime']
     bins = [[arb(0) for _ in range(n)] for _ in range(4)]
     input_records = []
@@ -411,7 +476,10 @@ def recover(args, cfg, tame_check, tails):
     for shard in range(args.shard_count):
         path = bins_path(outdir, shard)
         record = read_gzip(path)
-        assert record['configuration'] == cfg and record['complete']
+        expected_bin_cfg = legacy['configuration'] if legacy else cfg
+        assert record['configuration'] == expected_bin_cfg and record['complete']
+        if legacy:
+            assert hashlib.sha256(path.read_bytes()).hexdigest() == legacy['files'][path.name]
         assert record['shard_index'] == shard
         expected_rows = len(range(shard+1, cfg['a_max']+1, args.shard_count))
         assert record['row_count'] == expected_rows
@@ -509,7 +577,7 @@ def recover(args, cfg, tame_check, tails):
     padic = padic_evaluation(p, cfg['finite_field']['gamma'], coefficients, exact_zero)
     if args.expect_p2_product is not None:
         assert padic.get('p2_S2S3_mod_p2') == args.expect_p2_product, 'Historical independent calibration failed'
-    artifacts = input_records+[
+    artifacts = input_records+(legacy['artifacts'] if legacy else [])+[
         {'file': analytic_path.name, 'sha256': analytic_sha},
         {'file': trace_path.name, 'sha256': trace_sha},
         {'file': integer_path.name, 'sha256': integer_sha}]
@@ -518,6 +586,8 @@ def recover(args, cfg, tame_check, tails):
                'max_real_trace_radius': serial_arb(max_radius),
                'historical_expected_p2_product': args.expect_p2_product,
                'padic_result': padic, 'artifacts': artifacts}
+    if legacy:
+        receipt['reused_legacy_bin_proof'] = legacy['record']
     tmp = final.with_name(final.name+'.next')
     tmp.write_text(json.dumps(receipt, indent=2)+'\n')
     tmp.replace(final)
@@ -537,9 +607,12 @@ def main():
     ap.add_argument('--cutoff-multiple', type=int)
     ap.add_argument('--checkpoint-rows', type=int, default=100)
     ap.add_argument('--expect-p2-product', type=int)
+    ap.add_argument('--bin-compatibility', type=Path)
     args = ap.parse_args()
     assert 1 <= args.shard_count <= 16 and 0 <= args.shard_index < args.shard_count
     assert args.checkpoint_rows > 0
+    if args.bin_compatibility is not None and args.phase != 'recover':
+        raise RuntimeError('A bin compatibility manifest only authorizes recover')
     if args.phase == 'all' and args.shard_count != 1:
         raise RuntimeError('Use separate bins jobs and one recover job for sharded runs')
     args.output_dir.mkdir(parents=True, exist_ok=True)
