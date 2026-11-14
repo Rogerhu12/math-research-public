@@ -1,0 +1,95 @@
+{
+  "schema": "warped-collar-design-development-check-v1",
+  "development_check_only": true,
+  "research_scan_or_nonlinear_solve_performed": false,
+  "artificial_configuration": {
+    "c1": 0.11,
+    "core_modes": 4,
+    "core_higher": ".017,-.006,.0025",
+    "core_control_bound": 0.08,
+    "scale": 1.0,
+    "core_width": 0.05,
+    "length": 3.6,
+    "flat_length": 0.15,
+    "cut_radius": 0.9,
+    "cap_height": 1.4,
+    "cap_height_min": 0.5,
+    "cap_height_max": 1.5,
+    "port_pose": "canonical",
+    "port_offset_bound": 0.3,
+    "port_tilt_bound": 0.3,
+    "height_ceiling": 1.1,
+    "height_weight": 1.0,
+    "projection_padding": 0.05,
+    "projection_weight": 1.0,
+    "projection_vertices": 48,
+    "anchor_budget": 0.0001,
+    "anchor_weight": 3.0,
+    "curvature_limit": 4.8,
+    "curvature_weight": 0.02,
+    "radius_floor": 0.7,
+    "radius_ceiling": 3.5,
+    "radius_weight": 10.0,
+    "metric_coefficient_bound": 3.0,
+    "field_coefficient_bound": 5.0,
+    "q_target": 3.0,
+    "q_weight": 1.0,
+    "seed_metric": "average-g",
+    "radial_free": 2,
+    "modes": 3,
+    "angular": 24,
+    "radial_gauss": 3,
+    "core_arc_cells": 48,
+    "core_quadrature": 12,
+    "max_nfev": 150,
+    "checkpoint_every": 10,
+    "checkpoint_seconds": 60.0,
+    "warm": null,
+    "freeze_design": null,
+    "check_only": true,
+    "out": "topics/visible-flex-new-mechanism/notes/warped-core-collar-design-check-20261114.json"
+  },
+  "complete_position_second_jet_errors_on_open_pieces": {
+    "x": 4.440892098500626e-16,
+    "xs": 1.1102230246251565e-16,
+    "xt": 8.881784197001252e-16,
+    "xss": 0.0,
+    "xst": 2.220446049250313e-16,
+    "xtt": 1.7763568394002505e-15
+  },
+  "metric_endpoint_second_jet_error": 1.1102230246251565e-16,
+  "jacobian_directional_checks": [
+    {
+      "variables": "all",
+      "relative_error": 2.4058186410838477e-08
+    },
+    {
+      "variables": "field",
+      "relative_error": 2.3867270584346825e-09
+    },
+    {
+      "variables": "metric",
+      "relative_error": 5.934460547903593e-10
+    },
+    {
+      "variables": "core",
+      "relative_error": 1.68485305743862e-08
+    },
+    {
+      "variables": "pose",
+      "relative_error": 1.5090810794395049e-09
+    }
+  ],
+  "artificial_min_area": 0.6617528703791606,
+  "unknown_count": 49,
+  "residual_count": 1901,
+  "frozen_metric_complete_two_jet_transfer_error": 0.0,
+  "nested_field_transfer_complete_two_jet_error": 1.7763568394002505e-15,
+  "frozen_stage_metric_core_pose_unknown_counts": [
+    0,
+    0,
+    0
+  ],
+  "passed": true,
+  "source_sha256": "753a2e60fd06d9c3aeec4908a1c3ba5077117749f6c63637ad746cddaf24cd3e"
+}

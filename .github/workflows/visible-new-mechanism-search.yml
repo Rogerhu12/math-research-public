@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -436,6 +436,18 @@ jobs:
             --outer-degrees 8 12 16 --core-degrees 6 10 14 \
             --initial-D -8 1 --core-width .5 --core-rate 1 \
             --max-nfev 150 --out "$VISIBLE_NEW_OUT/global-C2-profile-bvp.json"
+      - name: Connect one exact strong core to an open flat collar with full metric design
+        if: matrix.lane == 'warped_collar'
+        timeout-minutes: 40
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/warped_core_collar_design.py" \
+            --c1 .8 --core-modes 4 --core-control-bound .08 --scale 1 \
+            --core-width .05 --length 3.6 --flat-length .15 --cut-radius .9 \
+            --cap-height 1.4 --height-ceiling 1.5 --projection-padding .05 --anchor-budget .04 \
+            --curvature-limit 4.8 --curvature-weight .02 \
+            --radial-free 5 --modes 8 --angular 64 --radial-gauss 5 --max-nfev 150 \
+            --checkpoint-every 10 --checkpoint-seconds 60 \
+            --out "$VISIBLE_NEW_OUT/warped-collar-c08-L36-design.json"
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:

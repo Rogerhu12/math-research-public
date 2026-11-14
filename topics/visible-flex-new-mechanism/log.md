@@ -116,3 +116,6 @@
 
 - 2026-11-14 20:29 CST，Astra-new-mechanism-9974ea84：完成 R16 的 C2 零延拓、有限阶外尾主平衡和四参数全区方程，已核对原文 Y 公式及全部系数。
   共享 workflow/publisher 新增 global_profile：两端同时匹配，第一阶段选算子参数后冻结进行函数次数精化；独立验证真实右尾、三总矩与完整 O。仍是抽象 profile 层，不声称有限闭曲面族。
+
+- 2026-11-14 20:30 CST，Astra-new-mechanism-9974ea84：强三瓣核心到开放圆领的独立 co-design 实现已核；固定材料角、q、中心锚点导数齐全，开放段完整二jet人工误差≤1.78e−15，canonical/rigid 人工Jac最大3.03e−8。
+  共享 workflow/publisher 新增 warped_collar 单case lane，开放核心与平领准确固定，中间独立设计正径向metric；每10评价或60秒保存最小总代价checkpoint，未把软几何代价当证书。保存设计后完整g身份可冻结，但尚未执行真实同g精化。
