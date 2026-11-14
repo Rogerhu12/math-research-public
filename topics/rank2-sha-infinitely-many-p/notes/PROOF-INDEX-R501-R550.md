@@ -67,3 +67,6 @@
 
 - [R528：十四度三轨道正测试与完整同域混合零行](../results/R528-degree14-three-orbit-positive-test-and-complete-mixed-row.md)：原三个整共同伴随的whole核与正6/12/18评价已付；实际单位测试三阶平均准确保整个(Y,W,W′)联合。新S/T局部差及质量均有单位第五阶，全部log矩和三项质量多项式保持；与R522之差给真正同域零行，隐藏纤维补域仍未删。
 
+
+- [R525：原多权Wronskian零估计与临界支持发散下界](../results/R525-original-multiweight-wronskian-and-growing-kernel-support.md)：原有限低轴的对数变量有任意X次数的resultant零估计，真实多权Wronskian最高项由权Vandermonde支付。完整M首核满足显示支持数门，二次临界至少常数N^(1/3)个非零权，低第三块至少((17/147)^(1/6)−o(1))p^(1/6)；原后两块/同一修正全保，未排更多权核。
+
