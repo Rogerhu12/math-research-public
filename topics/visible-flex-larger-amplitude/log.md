@@ -420,3 +420,7 @@ T112实际13件已bot归档；详记七件strict缓存SHA、全部跨job源/配�
 ### 2026-11-14 11:50 UTC — actual M112 linear failure localized before any new tail request
 
 run43590496434真实首QR线性残差/RHS=.913332499，最坏interval697/z110、方向max9658；17次回溯无finite merit、零接受步，后966点invalid。core/p/左BC近roundoff，不能把大量物理近核归为3控制核；两种浮点SVD condition分别记录。真T112完整anchor/J严格复用1次，新worker request0。22件artifact已取回，小包已bot发布；pending5.96MB只保artifact/哈希。正接完整原带状LU，同方程全部门不变。
+
+### 2026-11-14 11:51 UTC — bind exact scalar pieces for fixed-metric envelopes
+
+完整只读源核对与同a²包络登记：原.99为415段五次，三个prefix bump为六次；AngleConnector/bridge各用原48/64有限Gauss和，明确phase分片及全部断点。实际bridge先覆盖为7.5，不能从原port旧tag8误重建；ap/app与有限和真实导数不冒相同。Taylor余项和有理分片给同一a的P±ε再平方包络，不换g、不新拟合；原prepared p0不冒未来p*，无新数值。
