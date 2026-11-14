@@ -1,0 +1,51 @@
+{
+  "status": "reference_geometry_only_no_solver",
+  "parameters": {
+    "A": 1.0,
+    "B": 0.3,
+    "h0": 0.25,
+    "length": 0.84,
+    "overshoot": 1.53,
+    "first_fraction": 0.67,
+    "cut_radius": 0.28
+  },
+  "perimeter_radius": 0.6980392675284104,
+  "active_length": 0.8140234419297153,
+  "first_length": 0.5453957060929093,
+  "second_length": 0.26862773583680605,
+  "flat_length": 0.025976558070284612,
+  "radius_range": [
+    0.2800000000000001,
+    0.6980392675284104
+  ],
+  "height_range": [
+    0.09832751884411056,
+    0.46659045966596624
+  ],
+  "end_height": 0.09832751884411059,
+  "max_reference_curvature_sample": 10.679244597285352,
+  "reference_chord_sample_max": 0.735801971688024,
+  "closed_round_reference_screen": {
+    "sample_normal_chord_radius": 0.09364184228477725,
+    "sample_normal_chord_over_target_diameter_2_3": 0.04071384447164229,
+    "meridian_points": 1092,
+    "includes_both_flat_disks": true,
+    "exact_ellipse_connector_checked": false,
+    "reach_proved": false
+  },
+  "true_ellipse_cylinder_screen": {
+    "target_reach": 0.069,
+    "flat_holding_disk_radius": 0.26,
+    "center_y_range_for_this_screen": [
+      -0.491,
+      0.491
+    ],
+    "necessary_tail_height_min": 0.319,
+    "reference_tail_height_passes": false,
+    "horizontal_geodesic_necessary_length": 0.7593849465488478,
+    "reference_length_minus_horizontal_necessary_bound": 0.08061505345115216
+  },
+  "source_script_sha256": "9dfb6229786fbd06e9a9fe3914e6f3cfcdd48dfd38b99373ee2640f35773098a",
+  "not_a_noncircular_connector": true,
+  "task_complete": false
+}

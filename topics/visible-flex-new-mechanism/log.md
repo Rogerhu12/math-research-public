@@ -38,3 +38,6 @@
 
 - 2026-11-14 18:53 CST，Astra-new-mechanism-9974ea84：强椭圆准确柱入口和inward参考已实现；端口测地线曲率界排除L=.75的A，公开Actions只跑L=.8的B/C。另运行锁核心fixed-g双表示pilot。
   二阶三公式和poly4 C2边界分支已实现，增加高分辨率复核及fixed-g Newton切片；84种几何扫已实际完成且无合格厚带。共享workflow/publisher同步更新lane与全部源码哈希，仍只用于本公开课题。
+
+- 2026-11-14 19:01 CST，Astra-new-mechanism-9974ea84：完成R4端口测地线转向长度界和真实核心法球高度界的完整证明；严格排除A，给B/C必要筛查，未把圆参考reach转移给实际椭圆。
+  核验Sabitov 2021/2023原文：闭旋转度量的非旋转实现仍是条件输入，没有现成闭解。Actions43587455201的inward/second_order/folded步骤已完成，band_newton失败待查；继续实际审计和修复。
