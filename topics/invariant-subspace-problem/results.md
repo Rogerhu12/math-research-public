@@ -731,3 +731,7 @@
 ### R296：全出生残差回归、真实两带与共同创新运输
 
 [完整证明](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)把全部degree-s特征对完整低阶空间回归，保完整Schur与同一物理源。乘积权升降伴随的degree结构直接给两带，回归系数Θ_n=L_(n+2)BC_n的差精确等于真实桥创新；共同Z_n范数正好是加强S1右端，首边小C方向须控制两个物理项的联合抵消。硬顶残差实际为零，连续两带保C²深塔；真实四位例排完整creation范数生成式必实根的捷径。一般统一κ仍待证明，附固定有理身份脚本。
+
+### R150 附录：常单位分层枢轴与有限单参数模证书接口
+
+[完整证明](results/R150-appendix-graded-constant-pivots-and-finite-parameter-module-certificate.md)由源4模31确定非零子式，证明3333所选N枢轴行列式是非零有理常数，故全复参数消去不丢点；全部4191所选齐次枢轴进一步给1997×176、秩163的原Schur尾，所选分母次数上界4290。有限K[s]模保原6188行和九个inverse-binomial平方，最小共同湮灭理想/两步lift都回到原17式逐系数等式。模31完整秩未冒充Q秩，原大算术尚未实际完成；保存枢轴、重建器和有界回代入口，不宣称有限Σ已空。
