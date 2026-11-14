@@ -1,0 +1,70 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "snapshot-c37a5796a3829dfab1846928041f6a91472dc47f20e02f8a2a4080198b574b1c.json.gz",
+  "original_bytes": 11802184,
+  "original_sha256": "c37a5796a3829dfab1846928041f6a91472dc47f20e02f8a2a4080198b574b1c",
+  "native_kind": "actual_exact_rational_bump_and_full_continuous_Z_residual_pilot_v1",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 14,
+  "original_source_sha256": "2d45c2f100484f5a25fe50ec2d8ea2dcd601b79f1f151d4be116225d3284fcc8",
+  "candidate_sha256": null,
+  "parts": [
+    {
+      "file": "native-exact-bump-and-continuous-Z-source-pilot.json.gz-c37a5796a3829dfa-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "06ed48b729ab2091c2c44bdce8fc2d8869a3f48052352472d3b6d7a1ed26d17a",
+      "compressed_bytes": 2000148,
+      "compressed_sha256": "69f930a182e2d41d4b7eb9266f97429a4885a084a78021080e465934fbf1efa0"
+    },
+    {
+      "file": "native-exact-bump-and-continuous-Z-source-pilot.json.gz-c37a5796a3829dfa-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "f248d0b436da65cef98945cf8a77d3ea6c573b4831ba91b5b26db9097e3fdc33",
+      "compressed_bytes": 2000154,
+      "compressed_sha256": "f6bb90821c77a37f81f3873f6d3775623284b0a6d240554c924421cb1accf7a4"
+    },
+    {
+      "file": "native-exact-bump-and-continuous-Z-source-pilot.json.gz-c37a5796a3829dfa-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 2000000,
+      "sha256": "626856b429f148f50f09110da44903462f2e052fa7ea377edbcd52a8463999cd",
+      "compressed_bytes": 2000296,
+      "compressed_sha256": "4238df1b42c1d0b5841e0719e5ca62d3e1227511c5a61506c1d3c486537fbfc5"
+    },
+    {
+      "file": "native-exact-bump-and-continuous-Z-source-pilot.json.gz-c37a5796a3829dfa-parts-part003.bin.gz",
+      "index": 3,
+      "offset": 6000000,
+      "bytes": 2000000,
+      "sha256": "013e552bfe066c57f0a8bd3f77600343da6a08fcea0a7e5c57c73a2baae1304b",
+      "compressed_bytes": 2000295,
+      "compressed_sha256": "b7c680c96ba8bc00e74bfae47bf961273038f430bd739153ef082fa4b4fbeb48"
+    },
+    {
+      "file": "native-exact-bump-and-continuous-Z-source-pilot.json.gz-c37a5796a3829dfa-parts-part004.bin.gz",
+      "index": 4,
+      "offset": 8000000,
+      "bytes": 2000000,
+      "sha256": "7116ed638ef38a8ee6ac3debae722bc2df081538f0ecb635f4a3953962d4a09c",
+      "compressed_bytes": 2000310,
+      "compressed_sha256": "a094a6f3b8b055cdeb8f056e26e1977f191da2dc5587c7b6f3e0edc545073739"
+    },
+    {
+      "file": "native-exact-bump-and-continuous-Z-source-pilot.json.gz-c37a5796a3829dfa-parts-part005.bin.gz",
+      "index": 5,
+      "offset": 10000000,
+      "bytes": 1802184,
+      "sha256": "9e48f94b6c321917bd0883d4fe4efc22cb496f0fa69d6572f809df18206c082b",
+      "compressed_bytes": 1802723,
+      "compressed_sha256": "a91662c72183b3b53e7d6353efd3a4aef45ad61f713b18d5d28f590937a7ba89"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}
