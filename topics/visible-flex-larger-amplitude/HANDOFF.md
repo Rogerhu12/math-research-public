@@ -46,4 +46,4 @@ root唯一下载：native /workspace/scratch/visible-larger-actions-1955/actions
 R248强C²全相位、R241全部参数对/法锥reach、R238/254/258含反射标记、R251实际全域operator待真新场；16仅解析fixture不重做。held覆盖所有活动块/两帽盘/完整D，可独立于reach进度；无额外六/九jet机器门。
 旧小幅A.063、RK24/48/三mesh/2157568pair/GW封存，不继承到新场。R259备用未派。全文R238–273见results.md；数值证据不冒严格存在。
 
-规则同步记录：2026-11-14 20:28:41 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 54d57b541ebdb577ecc664c052c93bf0a0e4b105。
+规则同步记录：2026-11-14 20:32:57 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 9047a3ccf3d8c4263fc2d7be2a95bd5d09dd75f5。
