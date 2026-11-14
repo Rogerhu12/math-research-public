@@ -1,0 +1,272 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-14T23:49:59.784354+00:00",
+  "source_commit": "e849b7f103f7e96cd3c243b678ef001508be0ddb",
+  "run_id": "43655003971",
+  "run_attempt": "1",
+  "lane": "modelresponse",
+  "files": [
+    {
+      "source": "actual61-selected-fetch-receipt.json",
+      "bytes": 183835,
+      "sha256": "849f10f5f5d47c0b0e02d2389bc7212bd6abfe4482598cc91c73d96d619a7f7b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/actual61-selected-fetch-receipt.json",
+      "published_bytes": 183835,
+      "published_sha256": "849f10f5f5d47c0b0e02d2389bc7212bd6abfe4482598cc91c73d96d619a7f7b"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/actual-primal-method-identities.json.gz",
+      "bytes": 3050,
+      "sha256": "b26c2e8284dceca67c17bcb19e499901d1643d06b39ad060af328cc416c72d11",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/actual-primal-method-identities.json.gz",
+      "published_bytes": 3050,
+      "published_sha256": "b26c2e8284dceca67c17bcb19e499901d1643d06b39ad060af328cc416c72d11"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/array-manifest.json",
+      "bytes": 2796,
+      "sha256": "1c0a8ec746da18043d56da3ea62a0c0f514daec673e57a4f3066dbc4c876a705",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/array-manifest.json",
+      "published_bytes": 2796,
+      "published_sha256": "1c0a8ec746da18043d56da3ea62a0c0f514daec673e57a4f3066dbc4c876a705"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/complete-stage-comparisons.json.gz",
+      "bytes": 143401,
+      "sha256": "2df6a680a80e549ec8f9698d458b2fe7355506a89d5916a7d4ad99cef2a942e7",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/complete-stage-comparisons.json.gz",
+      "published_bytes": 143401,
+      "published_sha256": "2df6a680a80e549ec8f9698d458b2fe7355506a89d5916a7d4ad99cef2a942e7"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/diagnostic-stdout.jsonl",
+      "bytes": 758,
+      "sha256": "8ed9de149802d838fe59c7fd33ea48c318afbebbb1b017e94ed37aa6f529454e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/diagnostic-stdout.jsonl",
+      "published_bytes": 758,
+      "published_sha256": "8ed9de149802d838fe59c7fd33ea48c318afbebbb1b017e94ed37aa6f529454e"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/large-arrays/actual-evaluate-input-scales.f64le",
+      "bytes": 4616,
+      "sha256": "ecbfd55d5f1dde8f8918818a257f9f2b7638344395d253d7c0844ff407abfecc",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "current576-same-state-noJ-probe/large-arrays/actual-evaluate-input-states.f64le",
+      "bytes": 1033984,
+      "sha256": "b34daaf8ad1841b452707c669236ba38731d1f97506af4bbfe1a22e39d814013",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "current576-same-state-noJ-probe/large-arrays/actual-evaluate-input-target.f64le",
+      "bytes": 896,
+      "sha256": "e2ea4563e7afc7d993db2ebc29ef63a1d853355c9d1ceeaf10f296b84391a14d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "current576-same-state-noJ-probe/large-arrays/noJ-minus-withJ-stage-out.f64le",
+      "bytes": 1032192,
+      "sha256": "0924db08f11a65c6d72a569603724680cbffe2d7e7018b019ed932da61f62578",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "current576-same-state-noJ-probe/large-arrays/noJ-minus-withJ-stage-residuals.f64le",
+      "bytes": 1032192,
+      "sha256": "23a9287f3dfe2856bda0c037180965392f0c32627b7ec53f0e4d15c00a522d0b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "current576-same-state-noJ-probe/large-arrays/original-noJ-cut-residual.f64le",
+      "bytes": 896,
+      "sha256": "a053c64b82b7408140f1392d640486a7e4b136d4c6934eaa6071c13cd3c5ccbe",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "current576-same-state-noJ-probe/large-arrays/original-noJ-end-residual.f64le",
+      "bytes": 896,
+      "sha256": "9d7ad8c60f196aa69c7150fd6fc099c8a7a22d1ff848332de2b5c272ab9d4c00",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "current576-same-state-noJ-probe/large-arrays/original-noJ-mean-height-increments.f64le",
+      "bytes": 4608,
+      "sha256": "59865b0151497e51f010da146b873d936276b5afb6b0f442535e86e02bd3dd50",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "current576-same-state-noJ-probe/large-arrays/original-noJ-stage-out.f64le",
+      "bytes": 1032192,
+      "sha256": "cfffdfb0c6914c095aa66392d110d271f3e07ed5af561fa6b77c34fac4955ae7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "current576-same-state-noJ-probe/large-arrays/original-noJ-stage-residuals.f64le",
+      "bytes": 1032192,
+      "sha256": "0e975fcc8d89c6e4b6479d9a1aff66f01a1882baf5a2ae32e20f9bb5db5083dc",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "current576-same-state-noJ-probe/launcher-result.json",
+      "bytes": 1657,
+      "sha256": "b33c448eaa38718b9d4895c0e170542717cda9f6829b9bd2732d369bcb78709b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/launcher-result.json",
+      "published_bytes": 1657,
+      "published_sha256": "b33c448eaa38718b9d4895c0e170542717cda9f6829b9bd2732d369bcb78709b"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/original-constructor_capacity.json",
+      "bytes": 2525,
+      "sha256": "4f0f7aaab43f8ed90c478c2983026671f4c17ddcbe25d494746a4dafc96210dc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/original-constructor_capacity.json",
+      "published_bytes": 2525,
+      "published_sha256": "4f0f7aaab43f8ed90c478c2983026671f4c17ddcbe25d494746a4dafc96210dc"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/original-constructor_intent.json",
+      "bytes": 25266,
+      "sha256": "1f8e1a80a63176bd07839be7143a87cb0f51572a58f8444a94b66818fd7c884b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/original-constructor_intent.json",
+      "published_bytes": 25266,
+      "published_sha256": "1f8e1a80a63176bd07839be7143a87cb0f51572a58f8444a94b66818fd7c884b"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/original-constructor_ready.json.gz",
+      "bytes": 6867,
+      "sha256": "a21ac1d7852677c1085413dae22e7d201736e291afc0eff5254463c7255d7dd6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/original-constructor_ready.json.gz",
+      "published_bytes": 6867,
+      "published_sha256": "a21ac1d7852677c1085413dae22e7d201736e291afc0eff5254463c7255d7dd6"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/original-constructor_runtime-config.json",
+      "bytes": 2624,
+      "sha256": "678c5bac3b3213985061ee576c0f3af9bd6854af1b68fa428d65236827a45c15",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/original-constructor_runtime-config.json",
+      "published_bytes": 2624,
+      "published_sha256": "678c5bac3b3213985061ee576c0f3af9bd6854af1b68fa428d65236827a45c15"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/original-constructor_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/original-constructor_stderr.log",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/original-constructor_trace.jsonl",
+      "bytes": 158,
+      "sha256": "ceeb7ce3d88bbda4645bd5f08e82b131b1027961d5b5ad013c48ac7cd06d7eb4",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/original-constructor_trace.jsonl",
+      "published_bytes": 158,
+      "published_sha256": "ceeb7ce3d88bbda4645bd5f08e82b131b1027961d5b5ad013c48ac7cd06d7eb4"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/probe-input-config.json",
+      "bytes": 2161,
+      "sha256": "eab58b67fa1810821ca7a09300d8b703f44bbcc396358d22af19d6eb47ac95dc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/probe-input-config.json",
+      "published_bytes": 2161,
+      "published_sha256": "eab58b67fa1810821ca7a09300d8b703f44bbcc396358d22af19d6eb47ac95dc"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/public-inputs/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "bytes": 109004,
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/public-inputs/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "published_bytes": 109004,
+      "published_sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/public-inputs/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+      "bytes": 29774,
+      "sha256": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/public-inputs/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+      "published_bytes": 29774,
+      "published_sha256": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/same-state-noJ-spec.json.gz",
+      "bytes": 46850,
+      "sha256": "b87d90ba26b5e50b98eaae2f409fb0e87f8ff8552d20c88f7051924c86c91585",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/same-state-noJ-spec.json.gz",
+      "published_bytes": 46850,
+      "published_sha256": "b87d90ba26b5e50b98eaae2f409fb0e87f8ff8552d20c88f7051924c86c91585"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/summary.json",
+      "bytes": 5264,
+      "sha256": "a04593c419244ec36106ee6147f0c4e96d8ae904a9fb1fecae3c84c9a6609826",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/summary.json",
+      "published_bytes": 5264,
+      "published_sha256": "a04593c419244ec36106ee6147f0c4e96d8ae904a9fb1fecae3c84c9a6609826"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/verified-launch-intent.json",
+      "bytes": 16500,
+      "sha256": "747bedec16710ba80aa911cd4f6c8b08186d5625ad3f6355e2eadae4268c4d74",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/verified-launch-intent.json",
+      "published_bytes": 16500,
+      "published_sha256": "747bedec16710ba80aa911cd4f6c8b08186d5625ad3f6355e2eadae4268c4d74"
+    },
+    {
+      "source": "current576-same-state-noJ-probe/worker-instrumentation.json",
+      "bytes": 918,
+      "sha256": "9c2c3f9f84a52125b08f5fc341b2f59b8509addeea4fc34e6efa95b017f32946",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/current576-same-state-noJ-probe/worker-instrumentation.json",
+      "published_bytes": 918,
+      "published_sha256": "9c2c3f9f84a52125b08f5fc341b2f59b8509addeea4fc34e6efa95b017f32946"
+    },
+    {
+      "source": "original61-selected-fetch.log",
+      "bytes": 916,
+      "sha256": "57b5db08bf8ffc1ba50cd75a65f556bb764dad654fd7a677bdbdf671c5dfdc46",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/original61-selected-fetch.log",
+      "published_bytes": 916,
+      "published_sha256": "57b5db08bf8ffc1ba50cd75a65f556bb764dad654fd7a677bdbdf671c5dfdc46"
+    },
+    {
+      "source": "public-source-preparation.json",
+      "bytes": 20424,
+      "sha256": "23ac44b86ad118c1ffd7b68c1c99ab2300a43e3d6fe4a6c9d7c9d7a1bda38656",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/public-source-preparation.json",
+      "published_bytes": 20424,
+      "published_sha256": "23ac44b86ad118c1ffd7b68c1c99ab2300a43e3d6fe4a6c9d7c9d7a1bda38656"
+    },
+    {
+      "source": "public-source-restore.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/public-source-restore.log",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "same-state-noJ-probe.log",
+      "bytes": 1028,
+      "sha256": "10de4400635f859868477d3a0f2dfdcde4c1e7d27e46fb6afcdee1e075ba8c63",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/same-state-noJ-probe.log",
+      "published_bytes": 1028,
+      "published_sha256": "10de4400635f859868477d3a0f2dfdcde4c1e7d27e46fb6afcdee1e075ba8c63"
+    },
+    {
+      "source": "same-state-noJ-request-identity.json",
+      "bytes": 5104,
+      "sha256": "2bce448f09c37ddf1a6e771cd0ace95265c8e7dfd0bd7a60cd7106a366fc1145",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/same-state-noJ-request-identity.json",
+      "published_bytes": 5104,
+      "published_sha256": "2bce448f09c37ddf1a6e771cd0ace95265c8e7dfd0bd7a60cd7106a366fc1145"
+    },
+    {
+      "source": "same-state-noJ-storage.json",
+      "bytes": 310,
+      "sha256": "449e50c2582c13cf88864ddbc62dc7d935d82f3387d1e52f5fcdd32c871374c9",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43655003971-1-modelresponse/same-state-noJ-storage.json",
+      "published_bytes": 310,
+      "published_sha256": "449e50c2582c13cf88864ddbc62dc7d935d82f3387d1e52f5fcdd32c871374c9"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43655003971"
+}

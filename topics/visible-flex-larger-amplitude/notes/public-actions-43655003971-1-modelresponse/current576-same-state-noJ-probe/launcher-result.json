@@ -1,0 +1,46 @@
+{
+  "elapsed_seconds": 73.08465638,
+  "evaluation_returned": true,
+  "hook_sha256": "dd361d6fa63286bd4b27983a19783b1fcabc665cef9a79f1834b709b128f8478",
+  "input_native_result": {
+    "bytes": 6891,
+    "file": "result.json",
+    "sha256": "b8754cc3c6f9635bd2f37da56d39811c2c8ef5442aa7947df89078cb416715ef"
+  },
+  "input_snapshot_result": {
+    "bytes": 1301,
+    "file": "result.json",
+    "sha256": "5e801fe00f206b4dec50c64ac0fcfb8e1fe9225a7d37280e4da9bd4875709286"
+  },
+  "native_accepted": false,
+  "new_J_evaluations": 0,
+  "newton_corrections": 0,
+  "no_TailClient_solve_called": true,
+  "original_native_solve_calls": 0,
+  "original_noJ_evaluate_calls": 1,
+  "original_state_sha256": "b34daaf8ad1841b452707c669236ba38731d1f97506af4bbfe1a22e39d814013",
+  "probe_completed": true,
+  "saved_J_payloads_read": false,
+  "schema": "actual61-current576-same-state-noJ-probe-launcher-v1",
+  "source_sha256": "fc2c61d35e6eb3b1e8d836f46b75c7dc5ec2f2f69bcd483410a289434637099b",
+  "specification": {
+    "bytes": 46850,
+    "encoding": "json-gzip",
+    "file": "same-state-noJ-spec.json.gz",
+    "raw_bytes": 378137,
+    "raw_sha256": "138e9fecc102d4ca015bddeed6a91af3e13f01930ccb26262c4d5d62561c3453",
+    "sha256": "b87d90ba26b5e50b98eaae2f409fb0e87f8ff8552d20c88f7051924c86c91585"
+  },
+  "summary": {
+    "bytes": 5264,
+    "file": "summary.json",
+    "sha256": "a04593c419244ec36106ee6147f0c4e96d8ae904a9fb1fecae3c84c9a6609826"
+  },
+  "task_completed": false,
+  "verified_launch": {
+    "bytes": 16500,
+    "file": "verified-launch-intent.json",
+    "sha256": "747bedec16710ba80aa911cd4f6c8b08186d5625ad3f6355e2eadae4268c4d74"
+  },
+  "worker_exit_code": 0
+}

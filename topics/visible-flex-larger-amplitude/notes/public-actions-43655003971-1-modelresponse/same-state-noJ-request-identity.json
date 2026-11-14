@@ -1,0 +1,112 @@
+{
+  "schema": "public-current576-one-noJ-request-identity-v1",
+  "source_commit": "e849b7f103f7e96cd3c243b678ef001508be0ddb",
+  "request": {
+    "schema": "public-current576-same-state-noJ-request-v1",
+    "repository": "Rogerhu12/math-research-public",
+    "request_number": 69,
+    "lanes": [
+      "modelresponse"
+    ],
+    "diagnostic": "actual61-iteration3-one-original-evaluate-false",
+    "source_sha256": {
+      "geometry_20261114_current576_same_state_noj_probe.py": "fc2c61d35e6eb3b1e8d836f46b75c7dc5ec2f2f69bcd483410a289434637099b",
+      "geometry_20261114_current576_same_state_noj_probe_hook.mjs": "dd361d6fa63286bd4b27983a19783b1fcabc665cef9a79f1834b709b128f8478",
+      "geometry_20261114_fetch_actual61_noj_selected.py": "4853becf379f5db5594b62b2ec6b4266fd6853694fb19b19f56f11330db9f208",
+      "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+      "exact_20261114_true_tail_client.py": "1cdf0e14ae3f71dd57a8c0ab3036f11943929860296153ca7886e20e7b445a09",
+      "exact_20261114_seeded_zero_tail_client.py": "a8de071c0667b342dfc7a2731c9a47ce3d071e03496875637f80424864114776",
+      "tail_frozen_worker.mjs": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+      "tail_resumable_engine.mjs": "1a39c6a074a957b4044c78befcaaf97fa4c4fabb351c59e7db1b602f0d683de8",
+      "exact_20261114_public_resume.py": "11399783f01b145ee3f23d88213af368daee9c16dfb858b40dd7316870b300a5",
+      "root_20261114_publish_actions.py": "627393d1ba77b5e13dcf34da64204d0554a7c009770a2d80a1353c3f16b007fe"
+    },
+    "minimum_free_bytes": 8589934592,
+    "node_heap_mib": 6144,
+    "inputs": {
+      "run_id": 43645948199,
+      "artifact_id": 14136633570,
+      "artifact_name": "visible-mainline-current576native-43645948199-1",
+      "expected_size": 2335870174,
+      "expected_sha256": "7b17d1b0c11bfe14329a1d8715c8451498d0dedb6821859deb8485e5b1c1b469",
+      "source_commit": "cf6b51193255dfc713610d2919598451ccdd49e2",
+      "native_directory": "native-current576-damped",
+      "snapshot_directory": "native-current576-damped/iteration-003/snapshot",
+      "native_result_sha256": "b8754cc3c6f9635bd2f37da56d39811c2c8ef5442aa7947df89078cb416715ef",
+      "snapshot_result_sha256": "5e801fe00f206b4dec50c64ac0fcfb8e1fe9225a7d37280e4da9bd4875709286",
+      "current_state_sha256": "b34daaf8ad1841b452707c669236ba38731d1f97506af4bbfe1a22e39d814013"
+    },
+    "scope": {
+      "original_evaluate_false_calls": 1,
+      "new_J_calls": 0,
+      "original_solve_calls": 0,
+      "nonlinear_trials": 0,
+      "source_modification": "request-loop diagnostic only",
+      "old_J_payloads_needed": false,
+      "selected_native_root_files": 12,
+      "selected_snapshot_metadata_files": 5,
+      "selected_non_J_arrays": 9,
+      "all_original_payloads_selected": false,
+      "scientific_acceptance_claimed": false
+    }
+  },
+  "request_sha256": "c0dcd04ec91df9ba8147a591602eb0f0b56707825f36fbcd6986276329ec280f",
+  "verified_sources": [
+    {
+      "file": "geometry_20261114_current576_same_state_noj_probe.py",
+      "bytes": 21595,
+      "sha256": "fc2c61d35e6eb3b1e8d836f46b75c7dc5ec2f2f69bcd483410a289434637099b"
+    },
+    {
+      "file": "geometry_20261114_current576_same_state_noj_probe_hook.mjs",
+      "bytes": 25386,
+      "sha256": "dd361d6fa63286bd4b27983a19783b1fcabc665cef9a79f1834b709b128f8478"
+    },
+    {
+      "file": "geometry_20261114_fetch_actual61_noj_selected.py",
+      "bytes": 14501,
+      "sha256": "4853becf379f5db5594b62b2ec6b4266fd6853694fb19b19f56f11330db9f208"
+    },
+    {
+      "file": "exact_20261114_fetch_pinned_public_artifact.py",
+      "bytes": 28006,
+      "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859"
+    },
+    {
+      "file": "exact_20261114_true_tail_client.py",
+      "bytes": 19526,
+      "sha256": "1cdf0e14ae3f71dd57a8c0ab3036f11943929860296153ca7886e20e7b445a09"
+    },
+    {
+      "file": "exact_20261114_seeded_zero_tail_client.py",
+      "bytes": 21980,
+      "sha256": "a8de071c0667b342dfc7a2731c9a47ce3d071e03496875637f80424864114776"
+    },
+    {
+      "file": "tail_frozen_worker.mjs",
+      "bytes": 5149,
+      "sha256": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054"
+    },
+    {
+      "file": "tail_resumable_engine.mjs",
+      "bytes": 4193,
+      "sha256": "1a39c6a074a957b4044c78befcaaf97fa4c4fabb351c59e7db1b602f0d683de8"
+    },
+    {
+      "file": "exact_20261114_public_resume.py",
+      "bytes": 13907,
+      "sha256": "11399783f01b145ee3f23d88213af368daee9c16dfb858b40dd7316870b300a5"
+    },
+    {
+      "file": "root_20261114_publish_actions.py",
+      "bytes": 12620,
+      "sha256": "627393d1ba77b5e13dcf34da64204d0554a7c009770a2d80a1353c3f16b007fe"
+    }
+  ],
+  "source_checkout_readme_blobs": {
+    "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "scientific_execution_claimed": false,
+  "output_route_only": "modelresponse; actual output schema is the explicit actual61 noJ probe"
+}
