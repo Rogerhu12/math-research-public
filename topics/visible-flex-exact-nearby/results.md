@@ -447,3 +447,9 @@
 [完整实际报告](results/R133-supplement-actual-full-delta-negative-one-positive-source-graph.md)：公开 run **43627228225**，child0/18门，新数学0.002644765s。只消费原4个完整小文本 receipts，0旧 target/reference/kernel；全4650原行与3594接口保。新 $\chi<.788783161039$，$\lambda<.014997875526$，故真实正侧给定完整head的高频接口逆成立；$Y$根反射<3.825862632653，无旧1/2门。全七独立源列/八输出及独立outer mean给出，源$H^{-2/3}$、raw态$H^{-1}$、primitive增益$\sqrt{17}/4$；物理mixed根输出另乘9。完整head/high Schur、强return/cutoff、全PDE与非线性仍未授。
 
 native `498a5f8be6d2729a1029dbc45a7c06f832c58e2d269031f7db929c2327a0c260`；summary `0a3fb8e1be19b9ad82655099da8d5446ac49d92f073e7f6626d08a0626ec4fef`；process `f4ac37531a76893b62050d3291f5227f343ad9f48e3365783bff1a52c451a3f1`。均见报告，不重复原body数学。
+
+### R119：实际非负 connector 的完整全频两端逆（2026-11-14）
+
+[E.1–E.35 证明](results/R119-supplement-actual-nonnegative-connector-complete-two-port-and-weak-sources.md) 已核。固定停止对象的最后$q=-1$主平台内端$C$到真实$B$，包括两个零曲率平台、长$q=2$与双bump，构造全Fourier变分逆；$L^2_C\oplus H^1_B$端域、全部mean及所有非径向输出保留。真实内端DN块满足$2^{-373}I<\mathcal N_{CC}<2^8I$，从而给内端Neumann/外端Dirichlet onto逆；普通/L1 weak源与有限affine跳保完整物理两迹。Piola密度与$1/(4\omega)$归一逐式核，E25的L2 lift常数改32，不影响$2^9S_2$。SHA256 `4d3cfe70745600711ff21f0fc80bc103b17b4f838f26fe8ae496eb109152193b`。
+
+其实际Cayley由同一DN自伴性推出。$C$不是$e_X$；剩余负段、三阶退化端点、原根波/强标签转换及$I-\mathcal R\mathcal S_{\rm open}$仍待证明。

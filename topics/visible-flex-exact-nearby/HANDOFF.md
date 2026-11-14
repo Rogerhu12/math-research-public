@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 18:48:24 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 18:49:42 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则、同步
 
 仅 Rogerhu12/math-research-public；所有新数学只在其Actions。每结论独推；非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
 本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，18:21非FF后真rebase仍No usable execution environment。根规则8暂只connector<100KB文本，禁任何binary/gzip，先查size；新摘要≤60KB。API不冒称pull；reviewed runner长算每10min真pull，phase child≤50min前后pull。root亲核负窗43627228225真pull e5e4acac→e4cb84f3→0384af50→c4edeea7bd9c67c011b30557e8ec3271cadefe06，两README diff均空。终端恢复即回git；每小时重试，nonFF立即再试。
-最新远端 main/两README blob 核：4121013aeb49a4959b2d1cd8f9e2f859852145d6；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最新远端 main/两README blob 核：8e5b8880a5566cdc7f3e38d55eb1b5dc239eaa87；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次9821B H逐字归档 notes/2026-11-14-handoff-before-actual-negative-one-graph.md；此前9908B/9829B/9596B和更早H/open归档链均保。所有历史SHA/失败/源口/零重算合同在results/manifest与H归档；禁重算已成数学。
 
@@ -50,5 +50,5 @@ U1–29完整old-circle I/J余项已root/tail逐式复核推：证明SHA3e02303a
 
 V1–24/deep-low/浅五盒/B1–33均已核：全M≥4、浅129–8192/深j≥8193 retained共同点；辅助ζ闭合+q<1逆+p255/256分数矩/Fatou真得非零||νRNν||<2，mixed差<2^-6000000，深余327/1280。ν=2^-432064J^-4166δ671/20，F=2^4096J4δ^-5；完整权/好集见原结果，绝不以open收缩冒称onto闭合。
 M1–30真实mean已1f00f推：eX为129胞元第二positive外真根，明定flux→0/height有限根迹域；完整mean两态jump核||νRmeanν||<2^-860000。原J39/40+Airy两行κ±1/3初值+adjoint均值行证明physical/canonical域等价，深余8571/256；故全部remaining开放内部||νRaν||<2。独立mean外口、ordinary源、H/D重建均保。
-tail正写实际q≥−1固定stop末平台C→B的两端能量Green/DN与source bridge，含两个零曲率平台、q2、双bump；尚欠eX→cut128→C负段及其三阶退化turning、根端口/原强标签转换与external returned闭合。不能仅用外unitarity宣称I−ET可逆。
+E1–35真实q≥−1末平台C→B全频两端逆已root/tail核推，SHA4d3cfe70…；含两零曲率平台/长q2/双bump，内端L2 DN满足2^-373 I<NCC<2^8 I，原μ0=1/(4ω)、Piola及全部mean保。L2/L1weak/finite jumps完整affine源，实际Cayley由能量逆推得。仍欠eX→cut128→C负段/三阶退化turning、原根波/强标签转换及最终returned闭合；unitarity不授全逆。
 子问题完成即接open下一项；禁止阶段报告、等待用户或时长结束。

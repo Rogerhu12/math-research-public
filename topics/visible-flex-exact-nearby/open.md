@@ -155,3 +155,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14：正侧负阶完整 given-head 源接口实际完成
 
 43627228225实际18门通过，[七列八输出与独立mean报告](results/R133-supplement-actual-full-delta-negative-one-positive-source-graph.md)。可接真实Airy volume/seam在$H^{-2/3}$源窗，须付实际body/collar jump frame及mixed根输出9、输入$9(17/16)$；不能用$Y$根反射小于1，也不能将给定head接口当完整Schur。继续coupled finite head/strong return/实际cutoff。
+
+### 2026-11-14：C→B 非负真实外段已完成，接剩余负段
+
+[E.1–E.35](results/R119-supplement-actual-nonnegative-connector-complete-two-port-and-weak-sources.md) 已给全频两端逆、$L^2_C$内口与独立mean/ordinary/weak/jump源。下一缺口精确为$e_X\to(129,2)\to\mathrm{cut128}\to C$，末端quintic的$Q$三阶退化不能套简单Airy根；须转换原网络波及强标签后再闭合returned方程。外端仍$H^1$高度/$H^{-1}$通量，不能免费换任意$L^2$端。
