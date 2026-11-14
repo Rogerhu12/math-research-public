@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R479：原M两条carry图形与同一修正的两个normal jet](results/R479-original-carry-graph-and-two-normal-jets.md)：原p²提升等价26行真实carry图形，边界由同一R决定；单位5/−2分别须h+k<s−13、r>2k+13。原p239整来源见证M可升而J不可升且carry真消−2；下一位仍须相对J及原余核。
+
 - [R478：原二倍连接新线差、log2质量与完整混合carry](results/R478-original-normtwo-connection-new-line-and-complete-mixed-carry.md)：同一C_X的完整二倍连接差投影准确回新曲线，principal比较保已知非零log2质量项。三个实际输出核心及q/C2不同输入尺度的所有进位全付，p级有理补项和六外谱均未删除。
 
 - [R475：真实cube联合接口与原首提升高轴不可见区](results/R475-actual-cubic-joint-normal-interface-and-three-axis-invisible-range.md)：同一J层联合法向必要类对三高轴逐点不变；第三块余量≥3时整个原β1M亦不变，含ell1/2且不需参考满秩。余量0/1/2仅最高三/二/一尾，保原像商与J/M不同的两13行边界。
