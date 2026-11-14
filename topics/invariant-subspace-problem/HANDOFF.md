@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `2acf0d288ad15135473215e349d2b0021f62c880`（2026-11-14 11:10:00 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `3a60317ed11473c1bd3c7be9e8c36f965f3b9c7b`（2026-11-14 11:15:34 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。`0c17ddf2`新增表列课题/规矩1、13扩范围，`ee26c0a6`仅改另题标题，均已读，ISP标准不变。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`；旧R272/273已重建推送。历史只读副本移至`/tmp/isp-789f-old-math-research`以释放共享磁盘，全部保留。
@@ -35,14 +35,14 @@
 - **R294：** 共同对角比较½A≤Γ≤A、共同Newton与无限固定height已付；外部新来源的完整Schur/删位/M型证明已在库补齐。原连续尾旧列幂61降28，顶锚4(d+2)^14√S；不替原Γ中间项，无速率锚/graph仍开。完整稿见索引。
 - **R295：** 实际Turán/Catalan余量给完整真实桥SOS，原连续尾κ=674/81；[任意权统一稿](results/R295-appendix-universal-birth-one-strengthened-s1-by-atomic-splitting.md)以最大原子/无放回矩/加权扰动付整个birth1全部height加强κ=1024，有限严格、无限正ℓ²非严格，保硬端与完整物理逆。一般birth/graph仍开。
 - **R296：** [全birth残差/真实桥](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)保全部低阶回归、两带及共同Z，真实创新=−P_L完整拟合二阶差；商代表不变、硬顶与C²深塔均保。出生二τ≤1全源精度在z_S(τG1+τ²G2)/5与6倍之间；相邻首事件ridge恰组内真C1≤I，全事件仿射Gram≤(1+4τ)低事件且最优修正Schur写全。共同物理创新/相邻完整逆及一般κ仍开。
-- **R297：** [任意临界池弱位](results/R297-weak-bit-critical-pool-cancellation-and-first-edge-transfer.md)保全部物理源和对偶sl2硬端身份，消a^−1危险块；新首标准化费用→diag(0,旧低birth首费用)，U列O(a²)。严格反例经h−1个有限正弱位传到奇数硬端；[同常数等价](results/R297-appendix-weak-bit-hard-top-universal-strengthened-equivalence.md)现付全部有限正权/出生/高度加强κ⇔仅M=2r+1首边同κ。[硬端消逆](results/R297-appendix-odd-hard-top-innovation-and-dual-lowering-cancellation.md)付Δ*C1^−1=−L1A_U，统一目标化A_U*L1L3^−1L1A_U≤κI，A=Σbi^−1Ei；倒数权等价B*L2²B≤κG1、物理正交跨块和无顶逆式均已写全；两自然未投影提升在N5真源上发散、投影费<1/3，不能删投影；统一界与graph仍开。
+- **R297：** [弱位同常数归约](results/R297-appendix-weak-bit-hard-top-universal-strengthened-equivalence.md)保任意临界池/跨出生a⁻¹抵消，全部有限正权/出生/高度加强κ⇔M=2r+1首边同κ；严格见证传有限权，非严格极限不代有限界。[消逆](results/R297-appendix-odd-hard-top-innovation-and-dual-lowering-cancellation.md)给Δ*C1⁻¹=−L1A_U，目标A_U*L1L3⁻¹L1A_U≤κI，倒数桥为B*L2²B≤κG1。两自然未投影提升真五位发散而投影费<1/3，完整源/投影不可删；全部证明见索引，统一κ/graph仍开。
 - **R298：** [独立五权完整硬端](results/R298-five-independent-positive-weights-birth-two-hard-top-strengthened-s1.md)以真实低源迹和全部79整数对称轨道付M5/r2整个五维源费用≤743/782，缺陷≥(39/782)C1²。保第一MP逆、顶层压缩逆和负项；一般奇数硬端统一κ及原graph仍开。
-- **R299：** [逐位内函数/完整能量](results/R299-boolean-product-inner-kernel-and-complete-primitive-energy.md)付同一物理Pick正核、源保持Gauss分解及全birth平方和，硬端首尾含J1u和A_Uu；尚未把L1A_U识别为真实Schur块，统一κ继续。
+- **R299：** [逐位内函数/完整能量](results/R299-boolean-product-inner-kernel-and-complete-primitive-energy.md)付同一物理Pick正核、源保持Gauss分解及全birth平方和，硬端首尾含J1u和A_Uu；[三阶dual非实根](results/R299-appendix-nonreal-coherent-norm-on-actual-three-step-dual-tower.md)给真M7/K2负判别式，排标量实根捷径。L1A_U真实Schur块/统一κ继续。
 - **续接/CI：** S2旧运行43575194207两列成功，不重复展开。继续一般硬端真实投影预算、出生二共同创新与R150原生正常形；原正常谱/商距离缺口保留。
 
 ## 3. R150 与其他主接口
 
-R150：全部rankAy8已闭，余g≠0、rankAy9有限Σ；[完整计划/实际回执](notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md)保原17式、char0 I*C=T和实际分母。旧char0失联原因未知、32003明确12GiB内存失败；43583257344在1800秒/4GiB后停原行reduce，未进入余模std。3333常枢轴全复参数可逆；F31[s]全部N=预基+11原行、只需2195来源，原163方核及齐次度8770/74次射影gcd准则均已证明，实际因子未算。[原生全正常形](results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)现以同次数常反向化、逐m层消元，在54.8127秒/512MiB内完成全部2195来源和九目标，最高参数45次、保1034映射和可回放原行DAG。[次数优先附录](results/R150-appendix-parameter-degree-preserving-univariate-module-basis.md)付正常形后(dp,c)全部消元向量deg≤45、流式终止/原模来源；同一NF按新序SSI转换23.629秒、4.132秒全载。唯一新请求31/nativeNF+gradedSSI/Ann、1800秒/4GiB已写，推送后查run号；std/Ann仍未得。有限域结果不替char0或最大子式全覆盖。
+R150：全部rankAy8已闭，余g≠0、rankAy9有限Σ；[完整计划/实际回执](notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md)保原17式、char0 I*C=T和实际分母。旧char0失联原因未知、32003明确12GiB内存失败；43583257344在1800秒/4GiB后停原行reduce，未进入余模std。3333常枢轴全复参数可逆；F31[s]全部N=预基+11原行、只需2195来源，原163方核及齐次度8770/74次射影gcd准则均已证明，实际因子未算。[原生全正常形](results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)现以同次数常反向化、逐m层消元，在54.8127秒/512MiB内完成全部2195来源和九目标，最高参数45次、保1034映射和可回放原行DAG。[次数优先附录](results/R150-appendix-parameter-degree-preserving-univariate-module-basis.md)付正常形后(dp,c)全部消元向量deg≤45、流式终止/原模来源；同一NF按新序SSI转换23.629秒、4.132秒全载。唯一31/nativeNF+gradedSSI/Ann、1800秒/4GiB运行[43588728414](https://github.com/Rogerhu12/math-research-public/actions/runs/43588728414)已于11:10:08启动，源1031b194；std/Ann仍未得。有限域结果不替char0或最大子式全覆盖。
 
 
 R176有界部分谱、R147实奇次/负正辅助、R236已排原指定慢二次全核与全部旧行/种子、R268–270快辅助/共振/不交乘积仅在原范围；一般慢Bell、自然幂/实际逆、双无界及共同自然域仍按 open。R12/R14指定紧夹积/硬截断失败不排所有外部紧交织。

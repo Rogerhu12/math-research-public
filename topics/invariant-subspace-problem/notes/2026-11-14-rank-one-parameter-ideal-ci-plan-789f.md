@@ -117,3 +117,5 @@ Singular 的 `lift`/`liftstd` 采用原生成元变换矩阵语义；参照其�
 标准基输出改SSI，输出哈希/压缩改流式，所有实际失败/完成marker继续保留；原char0与最大子式覆盖条件不变。当前仅发请求，实际run号及结论待读取。
 
 新请求提交前再固定`module_order: dp,c`：[次数优先完整证明](../results/R150-appendix-parameter-degree-preserving-univariate-module-basis.md)保单变量S对/约化整行deg≤45、准确原模和Euclidean终止。重新排序同一NF的graded SSI已全载4.132秒；不复用旧(c,dp)排序。此次只会提交最终这一请求，没有发过中间c,dp长任务。
+
+实际新运行已启动：[43588728414](https://github.com/Rogerhu12/math-research-public/actions/runs/43588728414)，源`1031b194a0aa29e05065afd37317bd0955f95493`，created2026-11-14T11:10:08Z，实际查询状态in_progress。没有第二项中间配置长任务；标准基/Ann结论待真实marker。

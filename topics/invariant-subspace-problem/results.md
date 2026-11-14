@@ -803,3 +803,7 @@
 ### R150 附录：次数优先模消元保持45次及精确流式来源
 
 [完整证明](results/R150-appendix-parameter-degree-preserving-univariate-module-basis.md)给任意单变量域上次数优先的S对、约化及互相约化不增加整行次数；本题完整NF后取(dp,c)，所有标准基向量保持≤45次。同主分量Euclidean换行的总势能严格降，保全部原k[s]模、可回放来源且最终应为1021行；不限制原表示系数或Ann次数。同一NF的新排序SSI已用4.132秒全载，唯一新CI请求固定该序、1800秒/4GiB；实际GB/Ann仍待计算。
+
+### R299 附录：真实硬端下出生三阶dual塔也不保证实根
+
+[完整八项源证明](results/R299-appendix-nonreal-coherent-norm-on-actual-three-step-dual-tower.md)在七位正权b=(1,…,7)给f∈K2、e⁴f=0；真实Σxʲ‖eʲf/j!‖²的分子为271525x³+7933929x²+68658500x+191217600，判别式−476896014664076690820815600。交叉项逐张量因式精确支付；因此不能将完整内函数正核替成真正dual三阶塔的标量实根性，再免费套Newton。此方法边界不反驳加强S1。
