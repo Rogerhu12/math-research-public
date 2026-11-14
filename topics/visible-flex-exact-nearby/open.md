@@ -210,3 +210,5 @@ R119 root graph完整density空间二阶与4/3费现已付，见 results/R119-su
 实际strict斜率尺度证明已完成，见 results/R119-supplement-complete-strict-high-output-in-root-slope-units.md。它以完整generator差接径向高输出，保未知低输入、mean及所有C2接缝/新C4形状；不借裸FIO同阶差，不把局部P_L estimate认作网络逆。继续自由Airy全低频框架及负散射、有序根/正片全混频复合。
 
 完整moving根标量化已证并接独立公开数值预算，见 results/R133-supplement-complete-moving-root-scalarization.md。实际J=(1+η^-1 I L)^-1η^-1I的全频逆保均值之外所有模式；独立z方程和source flux全保，强Sobolev窗不偷用同阶常数。全部193方向在|δ|≤1e−8复根域支付，ν-bump在整个根germ准确为0。新宽带可至192，旧band64负窗反馈数值不能直接转授δ*；后续两行根/positive graph/真正背景另付。
+
+旧H17前自由Airy端架b^1/2低频断言现有明确反例：真实normal shear给κ^-5/6；新 results/R119-supplement-complete-free-Airy-two-row-frame-and-low-frequency-erratum.md 给全频正逆界，含两mean及强误差，并逐项重新支付旧显示H17/H22/H1/旧高块。以后引用旧后继须同时引用本勘误，不能再独立用错误中间句。新全有序负word/实际scattering和移动中间频带仍继续。

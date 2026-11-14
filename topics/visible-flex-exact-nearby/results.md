@@ -87,3 +87,5 @@
 - [R119：实际strict全输入高输出与根斜率单位完整余项](results/R119-supplement-complete-strict-high-output-in-root-slope-units.md)：纯解析完成实际strict全输入高输出<2，λ=2^32√(j+5)δ^-9/4、L=2^4200λ；全mean/低入高出/真实C4与原接缝BV/固定Hilbert窗均保，完整二阶余项<2^2048λ²、4/3阶<2^1400λ^(4/3)。根代理已核实际profile支集下界、旧完整generator差与有序Duhamel、隔带双Schur及全低输入费用；未授全网络cutoff。
 
 - [R133：完整moving根的无K除法标量化、全频逆与独立均值](results/R133-supplement-complete-moving-root-scalarization.md)：完成N1–24准确moving标量化：完整A逆、独立even mean、ordinary源弱flux、所有primitive、投影drift与radial commutator保留，无K除法；完整Wiener/Hilbert/普通L2与负阶Sobolev窗分别给界。公开13输入消费者覆盖原root复域、准确连续修复及全部193方向|δ|≤1e−8，原response仅part005逐字复用，真正两行root连接与PDE背景仍欠。
+
+- [R119：完整自由Airy两行端架、低频勘误及旧总账修复](results/R119-supplement-complete-free-Airy-two-row-frame-and-low-frequency-erratum.md)：完整两行自由Airy含normal shear实际κ^-5/6，证明旧低非mean b^1/2中间句失效；新正逆同阶<2^64b、完整正逆g阶余项<2^64b^g（g=4/3,2），所有mean/低中高频与右根交换保。精确J-unitary控制逆架不增条件数；逐有序重付旧H17三显示门及H22/H1/旧高块后继，冻结旧文件不改。新负散射/全网cutoff继续。

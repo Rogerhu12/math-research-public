@@ -1,6 +1,6 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 12:21 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 12:24 UTC。**主目标未完成，持续研究。**
 
 ## 规则、位置、同步
 
@@ -8,7 +8,7 @@
 blob:none checkout `/workspace/scratch/0df957a82d09/math-research-public` 指向 `/tmp/visible-exact-0df9-workspace/math-research-public`；objects指向 `/tmp/visible-exact-0df9-git-objects`。ENOSPC已逐字节同迁；新临时输出用同/tmp工作根。
 旧 `/workspace/scratch/ac0d699811ad` 只读，不能修改其repo/native/进程；新的数学不在本地运行。
 
-最后实际 pull --rebase 与两 README 差异检查：32d72d0b70da56acf659caaa3072da6e8d3db7e0；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
+最后实际 pull --rebase 与两 README 差异检查：ff1381ee8c307a21bceac0c1d8b76655b9583fa1；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
 已亲读ee26c0a65a2e63c15f2ccfba6714181584416542根差异：新增visible-flex-new-mechanism，课题数改按表，其余规则和题目标未变。
 每次push前实际pull/rebase并读两个README的新增diff，至少每小时pull；每条结论独立推；非FF立即rebase重推至成功，不force。
 PAT只在瞬时CLI/env，不落文件/输出/提交。root独占Git/H/open/results/log；三代理交付新文件后冻结，避免manifest失配。
@@ -46,11 +46,11 @@ firstsymbol43589646508真实return1/native5167e64f…e1d；2838严格积分及�
 
 ## 连续有限逆与完整源
 
-原外端QR因ENOSPC止于r约1.044，非活进程；新从真9/10到腰，全193×96、独立even mean、正ρ及ρ′/ρ。
+旧QR止于r约1.044且无活进程；新全193×96从真9/10到腰，mean/ρ/ρ′全保。
 完整提案43588509643真实5970格，native6dbc3acfcfbd…c79639；916MB artifact14112195633留Actions。pilot43591378059真实7代数门和0/76/3300/5969四连续格全return0，完整原包cut-projector-pilot-complete-actual/，validator998e4112…/modelb30eb729…固定。原5970提案不重算，四份成功连续native后续排除复用；全5970互斥DAG已接visible-exact-complete-cut-projectors.yml，manifest394379df…原86不变加2；16段仅新增5966，prepare一次下载并运行weighted真两端，10min pull/README核及前缀push。成功格不得重跑。
 已证signed Riccati正Green比较及所有接口源；真实projector跳sec/tan，须逐格核有限ρ、正分母及D0ρ(0)<1。先等式正逆再slack，不对范数不等式直接减ρp′；particular源须保径向衰减，不能取全区间sup相乘。
 真weighted两端十门合同已审；全域run43594139132 prepare已成功、16段活跑，实际native仍须核。腰D0²=L0²−1、cut ε/ρ及全97行、腰零长跳必保。旧无权重LR/DL不能照抄。全部5970连续覆盖、原ac1→repair背景、全high反馈与独立源、真qν−Z及ν-Schur仍欠。
-原reviewed规则fdb83fd4…/driver7f8521cb…只管执行复用；科学manifest不得改。
+CI规则fdb83fd4…/driver7f8521cb…，科学manifest固定。
 
 ## 全尾与网络
 
@@ -58,7 +58,7 @@ firstsymbol43589646508真实return1/native5167e64f…e1d；2838严格积分及�
 root全输入高输出Volterra：Lb=2^4200b，P_bU同阶<2，二次余项4/3增益<2^4096b^(4/3)，mean/双锥/逆向/源保。43588423040真实55/55门return0，native85dfceb18826…909370a4；原包root-Volterra-actions-original/。
 根一次项已证同Lb下P_b(U−expB)的4/3增益<2^4098b^(4/3)，全输入/两mean/双锥保；43591004689 API成功，原native待逐门核。
 完整正片R_++I的4/3增益<2^5700b_*^(4/3)已证，保全部mean/cross/高低/源；43589433313真实46/46门return0，native3812c41971a9…a0748362，原包positive-root-slope-actions-original/。不借其他帽常数或改变profile。
-root graph的完整density齐次差已证二阶<2^1024b²、4/3阶<2^700b^(4/3)，真principal/两mean/图高变号/weak源合同保留；非mean自由Airy两行转换另付。strict已证P_L U<2、二阶<2^2048λ²、4/3阶<2^1400λ^(4/3)，全低输入/mean/接缝保；自由框架及全网复合/移动中间块仍欠，旧Tj未被替代。
+root graph的完整density齐次差已证二阶<2^1024b²、4/3阶<2^700b^(4/3)，真principal/两mean/图高变号/weak源合同保留；非mean自由Airy两行转换另付。strict已证P_L U<2、二阶<2^2048λ²、4/3阶<2^1400λ^(4/3)，全低输入/mean/接缝保；自由frame正逆<2^64b、g阶<2^64b^g已证；旧低频b^1/2句勘误并重付H17后继。全网/移动中间块仍欠，旧Tj未替代。
 
 ## 最终几何与未完成主线
 
