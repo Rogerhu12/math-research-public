@@ -1,0 +1,1090 @@
+{
+  "schema": "closed-base-repaired-branch-design-v1",
+  "source_sha256": "152471f136784a29518697ca3c4dc517fa9e45e7fb2505b02c0b2f7c77c4d77e",
+  "input_sha256": "fcea183b082c193d87d7ac7d9ee0784e7db0330196a6a38f44b6bed073974230",
+  "arguments": {
+    "input": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-new-mechanism/notes/actions-43592270686-1-closed_quartic/absolute-jacobian-closed-design.json",
+    "q": [
+      3,
+      2,
+      4
+    ],
+    "max_nfev": 600,
+    "guard_angles": 96,
+    "developer_check": false,
+    "out": "/home/runner/work/_temp/visible-new-mechanism/closed_branch/closed-base-repaired-branches.json"
+  },
+  "task_complete": false,
+  "designs": [
+    {
+      "q": 3,
+      "stage": "same_boxes_repaired_hinge_derivative",
+      "initial_parameters": [
+        0.024631094289081126,
+        0.9323649553148995,
+        -0.11365605825930714,
+        0.1513736301681208,
+        1.4746174781805048,
+        0.13080155383466466,
+        0.1133444687024265,
+        -0.27807723594295813,
+        -0.2635098453206425,
+        0.1769177490628476,
+        0.24667390111658874,
+        0.04798459207869754,
+        -0.07846591101162091,
+        -0.07566605078534609,
+        -0.004840613784897526,
+        0.036055934913873905
+      ],
+      "final_parameters": [
+        0.011099581576654128,
+        0.9698824084860365,
+        -0.12705719717954356,
+        0.17309559275193637,
+        1.4788855096529263,
+        0.15064761271412577,
+        0.1018596605721495,
+        -0.28445815129096713,
+        -0.2537244646526702,
+        0.20397551185661672,
+        0.24566362360831664,
+        -0.0011336300545875656,
+        -0.07515367498846617,
+        -0.05458234887729588,
+        -0.006398855227142114,
+        0.036830742520447816
+      ],
+      "parameter_order": [
+        "rho0",
+        "rho1",
+        "rho2",
+        "rho3",
+        "b",
+        "c1",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12"
+      ],
+      "original_scales_frozen": [
+        3262.762347590865,
+        440.87019947138924,
+        1.0,
+        1225468.5562271785,
+        6718.493366260314,
+        48948.22869703323,
+        435.33191183749295,
+        598.0246309789977,
+        24.005290577207916
+      ],
+      "bounds_lower": [
+        -0.8,
+        0.05,
+        -0.6,
+        -0.5,
+        0.76,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4
+      ],
+      "bounds_upper": [
+        0.8,
+        1.4,
+        0.6,
+        0.5,
+        1.55,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4
+      ],
+      "guard_angles": 96,
+      "original_guard_angles": 96,
+      "source_candidate_identity_preserved_at_initialization": true,
+      "design_not_fixed_metric_refinement": true,
+      "derivative_method": "central differences of smooth observables then exact current hinge branch",
+      "active_parameter_bounds": [],
+      "smooth_direction_relative_difference": 3.731877115248197e-10,
+      "residual_current_branch_direction_relative_difference": 0.8590665438840451,
+      "directional_probe_branch_switch_count": 15,
+      "scaled_nine_coefficient_jacobian_singular_values": [
+        22.170864112034852,
+        5.091694669944115,
+        2.088397836635771,
+        0.6158452580985762,
+        0.06112938951310678,
+        0.03626655036084003,
+        0.016769688280956443,
+        0.0004653548499836639,
+        8.338632136507027e-12
+      ],
+      "frozen_validation_data": {
+        "tilt": -0.38957496838898276,
+        "normalization": 2.911124831759824
+      },
+      "validation": [
+        {
+          "theta_n": 768,
+          "period_coefficients": {
+            "p0": -14.454577825651873,
+            "p1": 0.17267329777506557,
+            "p2": 7.090919977414956e-06,
+            "q0": 41.12905495692303,
+            "q1": 8.149181755947232,
+            "r0": 447.47074177508836,
+            "r1": 41.129054956923,
+            "s0": -285.96246129328836,
+            "s1": 0.9218928431215545,
+            "t0": -3.1526980348523024,
+            "t1": -0.0020811890895402474
+          },
+          "independent_scaled_l2": 0.011126738644723088,
+          "independent_scaled_max": 0.006121767592042215,
+          "C_ascending_coefficients": [
+            447.47074177508836,
+            -244.83340633636536,
+            1.3828392646822207,
+            -0.04524951353330664,
+            -1.772729994353739e-06
+          ],
+          "C_complex_roots": [
+            [
+              -25556.062459933906,
+              0.0
+            ],
+            [
+              1.845733245563707,
+              0.0
+            ],
+            [
+              14.444653295461025,
+              -71.71227558237294
+            ],
+            [
+              14.444653295461025,
+              71.71227558237294
+            ]
+          ],
+          "polynomial_identity_error": 6.252776074688882e-13,
+          "additional_identity_errors": [
+            2.842170943040401e-14,
+            -2.5845992013273644e-13
+          ],
+          "actual_curve_closure_vector": [
+            1.315671229001433e-15,
+            -5.30389898712478e-16,
+            3.2426277442423997e-16
+          ],
+          "closure_over_length": 1.3112814137020397e-16,
+          "asymptotic_half_period": -2.511265318566215e-14,
+          "speed_min": 0.200736516528791,
+          "speed_max": 3.285491976164949,
+          "speed_contrast": 16.36718636438887,
+          "indicatrix_speed_min_sample": 0.9286365917886621,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 17413432996235076202575218626692075439364472587137610706985793601,
+          "regularity_discriminant_denominator": 14395547541364995663345619178375764416339071305273199032690278400,
+          "omega_min_sample": -4.123416280016885,
+          "omega_max_sample": 8.792348220836448,
+          "projected_centerline_diameter_sample": 1.6515450639629508,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.12154468013553042,
+          "reach_lower_certified": false,
+          "tilt": -0.38957496838898276,
+          "normalization": 2.911124831759824
+        },
+        {
+          "theta_n": 1536,
+          "period_coefficients": {
+            "p0": -14.454577825651858,
+            "p1": 0.17267329777506912,
+            "p2": 7.09091999162581e-06,
+            "q0": 41.12905495692289,
+            "q1": 8.149181755947229,
+            "r0": 447.4707417750884,
+            "r1": 41.12905495692331,
+            "s0": -285.9624612932888,
+            "s1": 0.921892843121384,
+            "t0": -3.1526980348522966,
+            "t1": -0.002081189089539359
+          },
+          "independent_scaled_l2": 0.011126738644723046,
+          "independent_scaled_max": 0.006121767592042262,
+          "C_ascending_coefficients": [
+            447.4707417750884,
+            -244.8334063363655,
+            1.3828392646820524,
+            -0.04524951353330664,
+            -1.7727299979064526e-06
+          ],
+          "C_complex_roots": [
+            [
+              -25556.06240877915,
+              0.0
+            ],
+            [
+              1.8457332455637023,
+              0.0
+            ],
+            [
+              14.444653295633682,
+              -71.71227558224777
+            ],
+            [
+              14.444653295633682,
+              71.71227558224777
+            ]
+          ],
+          "polynomial_identity_error": 1.2505552149377763e-12,
+          "additional_identity_errors": [
+            -4.192202140984591e-13,
+            -8.43769498715119e-14
+          ],
+          "actual_curve_closure_vector": [
+            7.398096071947996e-16,
+            -5.027790256539013e-16,
+            1.296142798608937e-15
+          ],
+          "closure_over_length": 1.4191329591657198e-16,
+          "asymptotic_half_period": -7.44078612908508e-15,
+          "speed_min": 0.20070169528563067,
+          "speed_max": 3.285882094802094,
+          "speed_contrast": 16.37196980387115,
+          "indicatrix_speed_min_sample": 0.9277785156001654,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 17413432996235076202575218626692075439364472587137610706985793601,
+          "regularity_discriminant_denominator": 14395547541364995663345619178375764416339071305273199032690278400,
+          "omega_min_sample": -4.123962063159267,
+          "omega_max_sample": 8.792816055732356,
+          "projected_centerline_diameter_sample": 1.6515450639629508,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.12152359609494315,
+          "reach_lower_certified": false,
+          "tilt": -0.38957496838898276,
+          "normalization": 2.911124831759824
+        },
+        {
+          "theta_n": 3072,
+          "period_coefficients": {
+            "p0": -14.454577825651912,
+            "p1": 0.17267329777512153,
+            "p2": 7.0909200005075945e-06,
+            "q0": 41.129054956922914,
+            "q1": 8.149181755947346,
+            "r0": 447.4707417750903,
+            "r1": 41.129054956924335,
+            "s0": -285.96246129328887,
+            "s1": 0.9218928431215829,
+            "t0": -3.1526980348522886,
+            "t1": -0.0020811890895509055
+          },
+          "independent_scaled_l2": 0.011126738644723232,
+          "independent_scaled_max": 0.0061217675920424135,
+          "C_ascending_coefficients": [
+            447.4707417750903,
+            -244.83340633636453,
+            1.3828392646822718,
+            -0.04524951353333129,
+            -1.7727300001268986e-06
+          ],
+          "C_complex_roots": [
+            [
+              -25556.062376821326,
+              0.0
+            ],
+            [
+              1.8457332455637192,
+              0.0
+            ],
+            [
+              14.444653295736822,
+              -71.7122755821501
+            ],
+            [
+              14.444653295736822,
+              71.7122755821501
+            ]
+          ],
+          "polynomial_identity_error": 3.410605131648481e-12,
+          "additional_identity_errors": [
+            -1.4210854715202004e-12,
+            -1.9273471707492718e-13
+          ],
+          "actual_curve_closure_vector": [
+            1.9067468605324533e-15,
+            3.8815771241901993e-16,
+            1.1549022904213476e-15
+          ],
+          "closure_over_length": 2.0390626848224942e-16,
+          "asymptotic_half_period": -1.5811670524305798e-14,
+          "speed_min": 0.20070169528563067,
+          "speed_max": 3.2870533718211874,
+          "speed_contrast": 16.377805713814144,
+          "indicatrix_speed_min_sample": 0.9277785156001654,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 17413432996235076202575218626692075439364472587137610706985793601,
+          "regularity_discriminant_denominator": 14395547541364995663345619178375764416339071305273199032690278400,
+          "omega_min_sample": -4.124283075917216,
+          "omega_max_sample": 8.798847327525266,
+          "projected_centerline_diameter_sample": 1.6515450639629508,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.12152359609494315,
+          "reach_lower_certified": false,
+          "tilt": -0.38957496838898276,
+          "normalization": 2.911124831759824
+        }
+      ],
+      "solver": {
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 600,
+        "optimality": 0.00011508147225896531,
+        "initial_residual_l2": 0.014607400162627083,
+        "final_residual_l2": 0.011126744971748082
+      },
+      "elapsed_seconds": 27.496618558999998,
+      "all_period_coefficients_zero_proved": false,
+      "nonzero_profile_constructed": false,
+      "finite_isometric_path_proved": false,
+      "embedding_proved": false,
+      "reach_lower_certified": false,
+      "task_complete": false
+    },
+    {
+      "q": 2,
+      "stage": "same_boxes_repaired_hinge_derivative",
+      "initial_parameters": [
+        -0.04155167367221875,
+        1.0953255863168374,
+        -0.08016093798012466,
+        0.11933702996344614,
+        1.3651511933023697,
+        0.15512884480685232,
+        0.12531818573379772,
+        -0.16910506819025453,
+        -0.2559182422880272,
+        0.09331715905520334,
+        0.23552095728882338,
+        0.16536735553894544,
+        -0.040900648255947976,
+        -0.14085104337204077,
+        -0.055294991636654675,
+        0.029101523392005644
+      ],
+      "final_parameters": [
+        -0.07252350033125658,
+        1.1827106426144083,
+        -0.11780642859546772,
+        0.19093976113225872,
+        1.4087675565868645,
+        0.21627333453631592,
+        0.13932910548442667,
+        -0.23635818051663912,
+        -0.27341035274921227,
+        0.1994528212483504,
+        0.23391147351619537,
+        0.0632483424009598,
+        -0.040641264192852154,
+        -0.11326758273580508,
+        -0.02969932514896478,
+        0.045353594058061615
+      ],
+      "parameter_order": [
+        "rho0",
+        "rho1",
+        "rho2",
+        "rho3",
+        "b",
+        "c1",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12"
+      ],
+      "original_scales_frozen": [
+        1954.6156895246427,
+        205.6772881611779,
+        1.0,
+        665673.8996152633,
+        2591.91325691127,
+        25860.87919292606,
+        227.0406824201982,
+        375.1335811710686,
+        10.019412742675485
+      ],
+      "bounds_lower": [
+        -0.8,
+        0.05,
+        -0.6,
+        -0.5,
+        0.76,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4,
+        -0.4
+      ],
+      "bounds_upper": [
+        0.8,
+        1.4,
+        0.6,
+        0.5,
+        1.55,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4
+      ],
+      "guard_angles": 96,
+      "original_guard_angles": 96,
+      "source_candidate_identity_preserved_at_initialization": true,
+      "design_not_fixed_metric_refinement": true,
+      "derivative_method": "central differences of smooth observables then exact current hinge branch",
+      "active_parameter_bounds": [],
+      "smooth_direction_relative_difference": 2.703365246266674e-10,
+      "residual_current_branch_direction_relative_difference": 0.9394820076769815,
+      "directional_probe_branch_switch_count": 6,
+      "scaled_nine_coefficient_jacobian_singular_values": [
+        13.941783784750092,
+        5.750689938016116,
+        1.829014487797194,
+        0.7284523465819279,
+        0.06997466006768825,
+        0.051889018757890856,
+        0.011490175538683763,
+        0.0005003568406340944,
+        9.260793930829477e-12
+      ],
+      "frozen_validation_data": {
+        "tilt": -0.4499554322429814,
+        "normalization": 3.313902814335963
+      },
+      "validation": [
+        {
+          "theta_n": 768,
+          "period_coefficients": {
+            "p0": -13.877346006918918,
+            "p1": 0.3240084864740549,
+            "p2": 9.508590483875423e-07,
+            "q0": 23.311021353299303,
+            "q1": 7.540639306825825,
+            "r0": 223.18678040000944,
+            "r1": 23.311021353299452,
+            "s0": -153.11107711792832,
+            "s1": 0.6019663033663676,
+            "t0": -3.1683533500465457,
+            "t1": -0.0008936057319923751
+          },
+          "independent_scaled_l2": 0.015726191248713346,
+          "independent_scaled_max": 0.0089937505783194,
+          "C_ascending_coefficients": [
+            223.18678040000944,
+            -129.80005576462887,
+            0.9029494550495518,
+            -0.0818957273505061,
+            -2.3771476209688558e-07
+          ],
+          "C_complex_roots": [
+            [
+              -344523.61555244034,
+              0.0
+            ],
+            [
+              1.7371509484676677,
+              0.0
+            ],
+            [
+              4.646347700891838,
+              -39.334066120555704
+            ],
+            [
+              4.646347700891838,
+              39.334066120555704
+            ]
+          ],
+          "polynomial_identity_error": 2.2737367544323206e-13,
+          "additional_identity_errors": [
+            -1.4921397450962104e-13,
+            -1.7763568394002505e-15
+          ],
+          "actual_curve_closure_vector": [
+            -1.880179112207778e-16,
+            -2.502491717062842e-15,
+            1.7984321942857008e-16
+          ],
+          "closure_over_length": 2.6481157552402277e-16,
+          "asymptotic_half_period": 3.2553439314747232e-15,
+          "speed_min": 0.20184846100678408,
+          "speed_max": 3.690004788099547,
+          "speed_contrast": 18.28106476360762,
+          "indicatrix_speed_min_sample": 0.7820686921272337,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 91333487471677158562082454974136375074317350860944398163817591137,
+          "regularity_discriminant_denominator": 52251378791382691565318383363181782123622197439476824337826185216,
+          "omega_min_sample": -3.6245135144278153,
+          "omega_max_sample": 7.636512643589043,
+          "projected_centerline_diameter_sample": 2.6732896509918733,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.07550564561228598,
+          "reach_lower_certified": false,
+          "tilt": -0.4499554322429814,
+          "normalization": 3.313902814335963
+        },
+        {
+          "theta_n": 1536,
+          "period_coefficients": {
+            "p0": -13.877346006918954,
+            "p1": 0.3240084864740673,
+            "p2": 9.508590927964633e-07,
+            "q0": 23.31102135329935,
+            "q1": 7.540639306825862,
+            "r0": 223.18678040000964,
+            "r1": 23.311021353299466,
+            "s0": -153.1110771179285,
+            "s1": 0.6019663033664528,
+            "t0": -3.1683533500465435,
+            "t1": -0.0008936057319879342
+          },
+          "independent_scaled_l2": 0.015726191248713422,
+          "independent_scaled_max": 0.008993750578319405,
+          "C_ascending_coefficients": [
+            223.18678040000964,
+            -129.800055764629,
+            0.9029494550496482,
+            -0.08189572735050477,
+            -2.3771477319911583e-07
+          ],
+          "C_complex_roots": [
+            [
+              -344523.5994623198,
+              0.0
+            ],
+            [
+              1.7371509484676748,
+              0.0
+            ],
+            [
+              4.646347700991675,
+              -39.33406612051432
+            ],
+            [
+              4.646347700991675,
+              39.33406612051432
+            ]
+          ],
+          "polynomial_identity_error": 7.958078640513122e-13,
+          "additional_identity_errors": [
+            -1.1723955140041653e-13,
+            -6.750155989720952e-14
+          ],
+          "actual_curve_closure_vector": [
+            7.240279105403985e-16,
+            4.915033440064898e-16,
+            5.013810965887408e-16
+          ],
+          "closure_over_length": 1.0615182900192883e-16,
+          "asymptotic_half_period": -2.325245665339088e-15,
+          "speed_min": 0.201626656329862,
+          "speed_max": 3.690004788099547,
+          "speed_contrast": 18.30117532704944,
+          "indicatrix_speed_min_sample": 0.7820686921272337,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 91333487471677158562082454974136375074317350860944398163817591137,
+          "regularity_discriminant_denominator": 52251378791382691565318383363181782123622197439476824337826185216,
+          "omega_min_sample": -3.624857016451238,
+          "omega_max_sample": 7.636512643589043,
+          "projected_centerline_diameter_sample": 2.6732896509918733,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.07542267492602317,
+          "reach_lower_certified": false,
+          "tilt": -0.4499554322429814,
+          "normalization": 3.313902814335963
+        },
+        {
+          "theta_n": 3072,
+          "period_coefficients": {
+            "p0": -13.8773460069189,
+            "p1": 0.3240084864740682,
+            "p2": 9.508590732565381e-07,
+            "q0": 23.311021353299342,
+            "q1": 7.540639306825831,
+            "r0": 223.1867804000095,
+            "r1": 23.311021353298827,
+            "s0": -153.11107711792823,
+            "s1": 0.6019663033665239,
+            "t0": -3.1683533500465506,
+            "t1": -0.0008936057319810509
+          },
+          "independent_scaled_l2": 0.015726191248713325,
+          "independent_scaled_max": 0.008993750578319158,
+          "C_ascending_coefficients": [
+            223.1867804000095,
+            -129.8000557646294,
+            0.9029494550496979,
+            -0.0818957273504981,
+            -2.3771476831413452e-07
+          ],
+          "C_complex_roots": [
+            [
+              -344523.6065419422,
+              0.0
+            ],
+            [
+              1.7371509484676704,
+              0.0
+            ],
+            [
+              4.646347700948792,
+              -39.334066120534196
+            ],
+            [
+              4.646347700948792,
+              39.334066120534196
+            ]
+          ],
+          "polynomial_identity_error": 1.0800249583553523e-12,
+          "additional_identity_errors": [
+            5.151434834260726e-13,
+            -1.4299672557172016e-13
+          ],
+          "actual_curve_closure_vector": [
+            1.4347151782254582e-15,
+            3.1845329700528765e-15,
+            -1.2757060691284177e-15
+          ],
+          "closure_over_length": 3.9137668491500173e-16,
+          "asymptotic_half_period": 1.3951473992034527e-15,
+          "speed_min": 0.201626656329862,
+          "speed_max": 3.690004788099547,
+          "speed_contrast": 18.30117532704944,
+          "indicatrix_speed_min_sample": 0.7820686921272337,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 91333487471677158562082454974136375074317350860944398163817591137,
+          "regularity_discriminant_denominator": 52251378791382691565318383363181782123622197439476824337826185216,
+          "omega_min_sample": -3.624923027196062,
+          "omega_max_sample": 7.6380109530657645,
+          "projected_centerline_diameter_sample": 2.6732896509918733,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.07542267492602317,
+          "reach_lower_certified": false,
+          "tilt": -0.4499554322429814,
+          "normalization": 3.313902814335963
+        }
+      ],
+      "solver": {
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 600,
+        "optimality": 0.0002046912510700326,
+        "initial_residual_l2": 0.03244702250353527,
+        "final_residual_l2": 0.015726214225551798
+      },
+      "elapsed_seconds": 27.162094404,
+      "all_period_coefficients_zero_proved": false,
+      "nonzero_profile_constructed": false,
+      "finite_isometric_path_proved": false,
+      "embedding_proved": false,
+      "reach_lower_certified": false,
+      "task_complete": false
+    },
+    {
+      "q": 4,
+      "stage": "expanded_boxes",
+      "initial_parameters": [
+        0.7568516867797054,
+        1.1410208815232834,
+        0.024437311142737946,
+        0.28809447140981637,
+        1.5499999999999996,
+        0.22163365832319903,
+        0.08177137535734279,
+        -0.3999608702903611,
+        -0.2574820030887651,
+        0.3562849531208073,
+        0.02213942615410685,
+        -0.07227702021861072,
+        0.017533369831298634,
+        0.029572796042560013,
+        -0.020509715674713425,
+        -0.00020777006787869358
+      ],
+      "final_parameters": [
+        0.4977955170870015,
+        1.3024148812664949,
+        0.0669954185999847,
+        0.29958990642885713,
+        2.0999999998580297,
+        0.338689897015889,
+        0.17076008251294475,
+        -0.5297347192163996,
+        -0.2537469031156377,
+        0.27468884342241917,
+        0.010178106360595142,
+        0.0032648344101027156,
+        0.03883052951767472,
+        0.003158293699378284,
+        -0.012274590756829304,
+        0.0019495130407091005
+      ],
+      "parameter_order": [
+        "rho0",
+        "rho1",
+        "rho2",
+        "rho3",
+        "b",
+        "c1",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12"
+      ],
+      "original_scales_frozen": [
+        2824.247587147759,
+        458.74376606513215,
+        1.0,
+        683101.4379923422,
+        6183.742686146579,
+        34197.16406694044,
+        466.17365344278005,
+        472.9750700655498,
+        30.409709024474495
+      ],
+      "bounds_lower": [
+        -1.2,
+        0.05,
+        -0.8,
+        -0.7,
+        0.76,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7
+      ],
+      "bounds_upper": [
+        1.2,
+        1.8,
+        0.8,
+        0.7,
+        2.1,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "guard_angles": 96,
+      "original_guard_angles": 96,
+      "source_candidate_identity_preserved_at_initialization": true,
+      "design_not_fixed_metric_refinement": true,
+      "derivative_method": "central differences of smooth observables then exact current hinge branch",
+      "active_parameter_bounds": [
+        "b"
+      ],
+      "smooth_direction_relative_difference": 1.7604874870916487e-10,
+      "residual_current_branch_direction_relative_difference": 0.8961216539201312,
+      "directional_probe_branch_switch_count": 4,
+      "scaled_nine_coefficient_jacobian_singular_values": [
+        27.49189170453789,
+        2.636007397114447,
+        0.6695356000496703,
+        0.5403764358609507,
+        0.04664893830410957,
+        0.020135211628055018,
+        0.0036420151192584948,
+        0.0007397057769728067,
+        3.007390792743724e-12
+      ],
+      "frozen_validation_data": {
+        "tilt": -0.3959748338501522,
+        "normalization": 2.490822867541296
+      },
+      "validation": [
+        {
+          "theta_n": 768,
+          "period_coefficients": {
+            "p0": -0.46123354217545154,
+            "p1": 0.13541015543594545,
+            "p2": 2.889796409943912e-07,
+            "q0": 32.71247777844673,
+            "q1": 0.28391621306505804,
+            "r0": 1.5575097811801297,
+            "r1": 32.71247777844677,
+            "s0": -103.69869400672917,
+            "s1": 0.05329944197737291,
+            "t0": -0.0886586645552071,
+            "t1": -0.0005298918046337253
+          },
+          "independent_scaled_l2": 0.0061108549107000715,
+          "independent_scaled_max": 0.005290077456122558,
+          "C_ascending_coefficients": [
+            1.5575097811801297,
+            -70.9862162282824,
+            0.07994916296602869,
+            -0.03438243066362009,
+            -7.22449102485978e-08
+          ],
+          "C_complex_roots": [
+            [
+              -475917.2493722753,
+              0.0
+            ],
+            [
+              0.021941554160973313,
+              0.0
+            ],
+            [
+              1.153838196307519,
+              -45.42262960241484
+            ],
+            [
+              1.153838196307519,
+              45.42262960241484
+            ]
+          ],
+          "polynomial_identity_error": 8.526512829121202e-14,
+          "additional_identity_errors": [
+            -3.552713678800501e-14,
+            -4.063416270128073e-14
+          ],
+          "actual_curve_closure_vector": [
+            8.097486369725769e-16,
+            1.2852999782456613e-15,
+            5.776782199826796e-16
+          ],
+          "closure_over_length": 9.322297183073835e-17,
+          "asymptotic_half_period": 7.44078612908508e-15,
+          "speed_min": 0.20189651737149128,
+          "speed_max": 4.406526193498124,
+          "speed_contrast": 21.82566718270865,
+          "indicatrix_speed_min_sample": 1.7371990722800155,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 1413635223529521192167431301963231719256680214148868443666949481,
+          "regularity_discriminant_denominator": 453542193550334041637515120208225872750163813467346122345283584,
+          "omega_min_sample": -3.7066465296792512,
+          "omega_max_sample": 4.88543005601864,
+          "projected_centerline_diameter_sample": 1.795889833932038,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.11242143786150062,
+          "reach_lower_certified": false,
+          "tilt": -0.3959748338501522,
+          "normalization": 2.490822867541296
+        },
+        {
+          "theta_n": 1536,
+          "period_coefficients": {
+            "p0": -0.4612335421754356,
+            "p1": 0.13541015543591292,
+            "p2": 2.889796436034153e-07,
+            "q0": 32.712477778446775,
+            "q1": 0.2839162130649918,
+            "r0": 1.5575097811801637,
+            "r1": 32.71247777844675,
+            "s0": -103.69869400672897,
+            "s1": 0.053299441977252116,
+            "t0": -0.0886586645552083,
+            "t1": -0.0005298918046230255
+          },
+          "independent_scaled_l2": 0.006110854910700056,
+          "independent_scaled_max": 0.0052900774561225545,
+          "C_ascending_coefficients": [
+            1.5575097811801637,
+            -70.98621622828222,
+            0.07994916296590274,
+            -0.034382430663601256,
+            -7.224491090085383e-08
+          ],
+          "C_complex_roots": [
+            [
+              -475917.2450752639,
+              0.0
+            ],
+            [
+              0.021941554160973965,
+              0.0
+            ],
+            [
+              1.1538381963258848,
+              -45.42262960242566
+            ],
+            [
+              1.1538381963258848,
+              45.42262960242566
+            ]
+          ],
+          "polynomial_identity_error": 2.4158453015843406e-13,
+          "additional_identity_errors": [
+            2.842170943040401e-14,
+            2.1899149160731213e-14
+          ],
+          "actual_curve_closure_vector": [
+            -5.550842801681055e-16,
+            -8.997837840728649e-17,
+            8.365434600692578e-16
+          ],
+          "closure_over_length": 5.781716892593484e-17,
+          "asymptotic_half_period": -1.86019653227127e-15,
+          "speed_min": 0.20189651737149128,
+          "speed_max": 4.406526193498124,
+          "speed_contrast": 21.82566718270865,
+          "indicatrix_speed_min_sample": 1.7371990722800155,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 1413635223529521192167431301963231719256680214148868443666949481,
+          "regularity_discriminant_denominator": 453542193550334041637515120208225872750163813467346122345283584,
+          "omega_min_sample": -3.7066465296868594,
+          "omega_max_sample": 4.891687565264624,
+          "projected_centerline_diameter_sample": 1.795889833932038,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.11242143786150062,
+          "reach_lower_certified": false,
+          "tilt": -0.3959748338501522,
+          "normalization": 2.490822867541296
+        },
+        {
+          "theta_n": 3072,
+          "period_coefficients": {
+            "p0": -0.46123354217543083,
+            "p1": 0.13541015543588122,
+            "p2": 2.889796426042146e-07,
+            "q0": 32.71247777844679,
+            "q1": 0.2839162130650411,
+            "r0": 1.5575097811801852,
+            "r1": 32.712477778446726,
+            "s0": -103.69869400672891,
+            "s1": 0.05329944197721659,
+            "t0": -0.0886586645552027,
+            "t1": -0.0005298918046147127
+          },
+          "independent_scaled_l2": 0.006110854910700047,
+          "independent_scaled_max": 0.005290077456122551,
+          "C_ascending_coefficients": [
+            1.5575097811801852,
+            -70.98621622828219,
+            0.07994916296587158,
+            -0.03438243066358502,
+            -7.224491065105365e-08
+          ],
+          "C_complex_roots": [
+            [
+              -475917.24672060326,
+              0.0
+            ],
+            [
+              0.021941554160973892,
+              0.0
+            ],
+            [
+              1.153838196318497,
+              -45.422629602437226
+            ],
+            [
+              1.153838196318497,
+              45.422629602437226
+            ]
+          ],
+          "polynomial_identity_error": 4.121147867408581e-13,
+          "additional_identity_errors": [
+            6.394884621840902e-14,
+            1.0910716774503726e-13
+          ],
+          "actual_curve_closure_vector": [
+            1.0122425649087227e-15,
+            -2.7544879452962457e-16,
+            5.87215360406922e-16
+          ],
+          "closure_over_length": 6.895870878279062e-17,
+          "asymptotic_half_period": 4.650491330678176e-15,
+          "speed_min": 0.20189651737149128,
+          "speed_max": 4.406526193498124,
+          "speed_contrast": 21.82566718270865,
+          "indicatrix_speed_min_sample": 1.7371990722800155,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 1413635223529521192167431301963231719256680214148868443666949481,
+          "regularity_discriminant_denominator": 453542193550334041637515120208225872750163813467346122345283584,
+          "omega_min_sample": -3.7066465296868594,
+          "omega_max_sample": 4.891687565264624,
+          "projected_centerline_diameter_sample": 1.7958898339320384,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.11242143786150059,
+          "reach_lower_certified": false,
+          "tilt": -0.3959748338501522,
+          "normalization": 2.490822867541296
+        }
+      ],
+      "solver": {
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 600,
+        "optimality": 1.5271244180538817e-10,
+        "initial_residual_l2": 0.01042024070698885,
+        "final_residual_l2": 0.006110854910778022
+      },
+      "elapsed_seconds": 35.87094080700001,
+      "all_period_coefficients_zero_proved": false,
+      "nonzero_profile_constructed": false,
+      "finite_isometric_path_proved": false,
+      "embedding_proved": false,
+      "reach_lower_certified": false,
+      "task_complete": false
+    }
+  ]
+}
