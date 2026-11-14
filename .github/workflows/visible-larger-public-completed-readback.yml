@@ -63,6 +63,7 @@
           raw = (comp/'public-completed-readback-request.json').read_bytes()
           request = json.loads(raw)
           readers = {'prefix18': 'root_20261114_read_completed_eighteen_prefix.py',
+                     'prefix19': 'root_20261114_read_completed_nineteen_prefix.py',
                      'native61': 'exact_20261114_read_current576_artifact.py'}
           kind = request.get('readback_kind')
           if request.get('repository') != 'Rogerhu12/math-research-public' or kind not in readers:
@@ -134,6 +135,7 @@
           request = json.loads((comp/'public-completed-readback-request.json').read_text())
           kind = request['readback_kind']
           reader = {'prefix18':'root_20261114_read_completed_eighteen_prefix.py',
+                    'prefix19':'root_20261114_read_completed_nineteen_prefix.py',
                     'native61':'exact_20261114_read_current576_artifact.py'}[kind]
           pin = request['original_artifact']
           argv = [sys.executable, '-u', str(comp/reader)]
@@ -142,7 +144,7 @@
           argv += ['--source-commit', request['original_source_commit'],
                    '--download-out', str(Path(os.environ['RUNNER_TEMP'])/('original-completed-'+str(pin['run_id']))),
                    '--out', str(Path(os.environ['VISIBLE_OUT'])/('request'+str(request['original_request_number'])+'-readback'))]
-          if kind == 'prefix18':
+          if kind in ('prefix18', 'prefix19'):
               parent = request['original_parent']
               argv += ['--request-number', str(request['original_request_number']),
                        '--parent-directory', parent['directory'],

@@ -200,3 +200,10 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 ## 2026-11-14 22:40:02 UTC：保存同live逐请求接线与19专用读取源
 
 四live源c9f33777/7e83b398/9346c0a7/ee174e82及两个完整接口已存；原61与原factor/math不改。实际61完整result尚未出现，只接受其真实literal父身份；新worker bootstrap真求解，同一实例继续新H/J/原FD/fullmain/freshaudit。每call身份、负零和全部完整因子保，未把多call总成本压成32GiB。纯源可逆变换3f96cd0c、AST/Node检查通过，不冒新native结果。19专用只读readerc963f6a9保持33个完整函数AST，另核38912行和typed query indices，原18不变；不是推进新门。
+
+
+## 2026-11-14 22:44:36 UTC：实际H原FD到同live完整fullDN入口冻结
+
+[完整合同](notes/2026-11-14-live-current576-actual-H-FD-full-DN-interface.md)2a98be80与独立driver7ba3fd5f全文已读，原三扰动/原两FD调用/唯一load_client转交及首H变化行为保；原fullDN科学源未改。新workflowea98af37等待真正61八件父包与SHA，不造空request；19读取workflowa7a55c89仅增独立reader路由。YAML/shell/inlineAST通过。publisher仅增livecurrent576fulldn/modelresponse两个lane，现SHA5cc3de2699c3585961c86a37d718011c1d5d0829047e9eb7eec620e65c6c86f1；后续request须用此pin。
+
+本地仅将自身旧输出cache逐件SHA比对后移到/tmp并保原路径symlink：3474件147523290B及142件242944761B，完整搬移回执9a0b2683；无数学计算、公开原件不变，工作盘恢复余量510MB。stash原接口5d79526c对已发布76d08fbc全文唯一差异为实际R273链接修正与删旧绕行提示，全部科学/参数/身份原字节一致，无需重写。

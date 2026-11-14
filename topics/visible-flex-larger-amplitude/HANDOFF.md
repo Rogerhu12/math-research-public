@@ -8,7 +8,7 @@ Only public Rogerhu12/math-research-public. Main commits/pushes/Actions authoriz
 Before push and >=hourly: true pull --rebase origin main; check both README blobs, read changed diff/obey/record actual commit. NFF/concurrent-ref rejection: ordinary rebase/push loop, no force. Root owns Git/H/open/log/workflows. Rule12: complete proofs directly results/index, no extra approval gate. H<10000B, MD<100KB, open~<30KB, >1MB data gzip, files<5MB; big arrays artifact-only. No root LOG/fullclone/gc/maintenance.
 21:39 exec-server outage;22:07 terminal Git restored. Outage Rule8 only text<100KB, no binary/split transport. Four61 sources match original frozen SHA/AST+Node. Rules runner3b8b6dd5 independently true-pulls/checks README/H every2700s; scientific checkout stays at trigger SHA.
 Prior repo=/workspace/scratch/visible-larger-recovered-20261114-1843/math-research-public; explicit bash/login=false/workdir (defaultcwd broken). Parent sync_public.py resumes normal Git with MR_PUSH_TOKEN when terminal works. Sparse files may disappear on rebase: git show HEAD:path/mkdir/git add --sparse.
-Old /tmp caches lost; published artifacts intact. Pre-outage dirty sources/interface preserved in stash; three sources exactly published, original interface5d79526c differs from restored76d08fbc; do not pop blindly.
+Old /tmp caches lost; published artifacts intact. Pre-outage stash preserved. Three sources match publication; full interface diff proves only R273 link correction, no lost scientific content.
 
 ## Goal and fixed inputs
 
@@ -39,8 +39,8 @@ actual59selected -> freshwithJ EACH correction -> all576 R273eta1 -> original10n
 ## Live downstream sources frozen; execution awaits actual61
 
 Four independent sources clientc9f33777/hook7e83b398/adapter9346c0a7/QRee174e82 and two complete interfaces published. Pure source roundtrip3f96cd0c/AST/Node passed; original evaluate/ten-trial/core correction-only change has literal reversal. No new scientific result.
-TailClient keeps one original worker. Only completed61 actual result +7 bound files supply literal JSON-decoded577x224 initial guess; pre-JSON negativezero preservation=false. Bootstrap actually solves anchorH/J; newH/J/FD/fullDN/finalaudit use same live predictor, no imported nonzero response cache. Every call binds own H/target/sigma/J/r/raw/negativezero sidecar and keeps all577 R273eta1 factors; onlycall1/it0 locksseed. Original32/tol/ten trials/finalJ/audit unchanged.32GiB single-call budget is NOT fullDN total. Thin live driver/workflow in implementation; actual61 result SHA not invented.
-19 original readerc963f6a9/interface635fa7d5 published; typedmid480/481/482 indices16/17/18. Original18reader unchanged; no19artifact audit yet.
+TailClient keeps one original worker. Only completed61 actual result +7 bound files supply literal JSON-decoded577x224 initial guess; pre-JSON negativezero preservation=false. Bootstrap actually solves anchorH/J; newH/J/FD/fullDN/finalaudit use same live predictor, no imported nonzero response cache. Every call binds own H/target/sigma/J/r/raw/negativezero sidecar and keeps all577 R273eta1 factors; onlycall1/it0 locksseed. Original32/tol/ten trials/finalJ/audit unchanged.32GiB single-call budget is NOT fullDN total. Thin driver7ba3fd5f/interface2a98be80/workflowea98af37 published: actualH/J->originalFD->same-instance fullmain/fresh audit. No request/actual61 result SHA invented.
+19 original readerc963f6a9/interface635fa7d5 published; typedmid480/481/482 indices16/17/18. Original18reader unchanged; workflowa7a55c89 adds prefix19, no19artifact audit yet.
 
 ## Required downstream
 
