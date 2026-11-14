@@ -1,9 +1,6 @@
 name: visible-exact complete phase consumers and actual R31 gates
 
 on:
-  push:
-    branches: [main]
-    paths: ['.github/workflows/visible-exact-phase-small-complete.yml']
   workflow_dispatch:
 
 permissions:
@@ -70,7 +67,7 @@ jobs:
           --work "$RUNNER_TEMP/visible-exact-phase-small-science"
           --out-dir "$RUNNER_TEMP/visible-exact-phase-small-output"
       - name: Preserve every true native and failure record
-        if: always()
+        if: ${{ always() && steps.paths.outputs.output != '' }}
         uses: actions/upload-artifact@v4
         with:
           name: visible-exact-phase-small-${{ github.run_id }}-${{ github.run_attempt }}

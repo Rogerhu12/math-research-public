@@ -54,7 +54,7 @@ jobs:
           python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
             --kind body --mode hydrate --manifest "$CUT_MANIFEST" --manifest-sha "$CUT_MANIFEST_SHA" \
             --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
-          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add --no-cone /topics/visible-flex-exact-nearby/notes/complete_cap_cut_ci/
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/complete_cap_cut_ci/
       - name: Install the original arithmetic environment
         run: >-
           python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
@@ -84,7 +84,7 @@ jobs:
           --artifact-dir "$RUNNER_TEMP/visible-exact-complete-cap-cut"
           --compute-minutes 40 --checkpoint-minutes 10
       - name: Preserve the complete or failed native and actual process
-        if: always()
+        if: ${{ always() && steps.paths.outputs.output != '' }}
         uses: actions/upload-artifact@v4
         with:
           name: visible-exact-complete-cap-cut-${{ github.run_id }}-${{ github.run_attempt }}
