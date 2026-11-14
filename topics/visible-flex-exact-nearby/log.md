@@ -487,3 +487,7 @@ root亲读process12424B SHA954d8038…、summary28522B SHA230b4ba0…和完整ac
 ## 2026-11-14 22:58:53 UTC：新外两根完整principal与无限KAM独推
 
 核O1–32全段密度积分282log2、复sqrt支集差、两bump/形状分离、完整Theta新目标、G_o原盘、n_o两段预算和controlled全行μ+，并读回原stronger-tail KAM与controlled-tail实际双相位证明确认实例化范围。最终blob e1344c9f938aa92e547251c3b19c6aa77991a47a，17235B，SHA43dffeb2821aea5d13131958bdcb23148b7d20fb7c9710b9d9bcd09a074c7302。所有交叉mean参数行/全Fourier/Γ2/两迹源保留；不把principal同调当闭逆。前H9962B归档，当前高根43650466853的实际child1/7成功门/552891B新点已登记，v2只将含零Nyquist ball按既证结构置零消费，完整旧point/失败保，禁止重算。只读核8f79c33c697e18525ac9fffd7fab592f20f10df8README不变。
+
+## 2026-11-14 23:02:40 UTC：高根真实失败前缀与精确Nyquist消费合同独推
+
+读回process6196B SHA0cc5b063…、worker2390B SHA431c0808…及stdout1326B，核child1、前7成功门、完整12列点/native6cd2e5bf…552891B；source秒1.686513763与child秒3.021072600分开保。N1–5证明仅有限F_N列的精确投影，全部无穷尾仍由原aux付。原52pins保持；v2 science删除target/FFT求值类和分支，严格只迁移此固定失败point，原payload同一。两runner真pull至7e66b837…README空diff（worker未存逐次时间），不捏造时间；本次只读核78d0e675e55437ff2461262146bdf76ed3052944README空diff。
