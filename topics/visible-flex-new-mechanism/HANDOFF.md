@@ -6,7 +6,7 @@
 
 闭连通C2嵌入族Ft、时间在C2拓扑连续，同一固定g；固定材料H有内点且diamH≥.2D；不作对齐的整像Hausdorff位移≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，且同g/物理参数/时间精化至机器或原容差。D是完整F0直径。δE可0但如实报。完整网格每件<5MB，明示数值与准确存在差距；达标后继续.5D或更强存在。
 
-- 根/本题README已完整读。公开仓库最后已读规则提交：`73c2d299b1a9750ee8d70386534ab88c9717209a`。
+- 根/本题README已完整读。公开仓库最后已读规则提交：`eeb9914ac58a22a796af24d5fb42bce87d67e5c7`。
 - 每次实际pull --rebase核双README，有变只读diff并立即做；至少每小时pull。每完成结论立即提交推送；NFF立刻rebase、再核规则、再推直到成功，不强推。
 - 已授权公开main及本公开仓Actions。实际几何/ODE/积分/优化只此Actions；本地仅源码、纸面/准确代数、人工开发核及已公开输出分析。PAT只瞬时CLI/env，不写文件/提交/日志。
 - 私有仓16:09:36 UTC实际pull至`33ebdb638516e71e1b234a6340fe7b1a3d9ccc61`，双README无差，QUEUE唯一课题行仍本会话进行中；下一私有pull不晚于17:09 UTC。私有研究不发布。
@@ -46,7 +46,7 @@ R48排固定角反射的第五角跳；R51排raw热源跨d的rho^(11/2)内部出
 
 ## 5. 文献线：完整第四已有限化，尚未支付
 
-R37四状态完整0/±a圈及8维IFT给真实有限N零二阶算子；R45单P→D与P/P/Prev/Prev准确闭合、消第三period；R46八平移配平packet七差分消逐s third ruling。R52加入真正重叠平面与Hd/Hc两二阶、四third通道，给同一g_epsilon的完整三阶Oepsilon4，不是有限族/闭嵌入。
+R37零二阶算子→R45单P→D四块闭合/third period零→R46八packet七差分→R52真正重叠Hd/Hc及四third通道，已给同一g_epsilon完整三阶Oepsilon4；全部正式证明见results.md，不是有限族/闭嵌入。
 
 R47固定二阶解时第四period不受第三gauge改变、ruling只能改同一全局span(w)。R49常段最高s²不受二/三gauge影响。R50完整SOS正界排所有不交profile平面及其常O2换基/任意固定混合目标，停止该子类。
 
@@ -59,6 +59,6 @@ R53另一四相位58点/八外packet构造：三个复种子式零、6×6det−7
 ## 6. 回执与同步接续
 
 准确短lane已核：R37 43604788994（65源）、R46 43609471754（69源/984B）、R49 43611065115（70源/754B）、R50 43611706012（71源/775B）、R53 43613269074（78源/1489B）。原字节均同开发准确证书，不重复。
-R56 range_numerator_exact run43614455269/source38329b336b043d5768fc3a66bc44c2277457c2e4已workflow success，**尚待取回并全来源审计**；当前request只此短lane，下一改request只触发必要新工作，不重跑完成项。
+R56准确短lane43614455269/source38329b33已核79源/732B输出，六完整变系数身份全0，原字节同开发证书。当前request只此已成短lane；下一改request仅触发必要新工作。
 
 16:03读公开larger-amplitude/exact-nearby最新H，均仍无可直接移用的完整大振幅族；其前缀下降、局部逆/条件预算不转授本题门。任何局部证明、workflow success、有限采样或中间报告不结束本题；子问题完即接open下项，H持续更新。
