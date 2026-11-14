@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43598755503",
+  "reviewed_pull_history": [
+    {
+      "before": "a4ea523a52b6b6d8d9c5d61c1746afb5ff1e5a10",
+      "after": "a4ea523a52b6b6d8d9c5d61c1746afb5ff1e5a10",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "a4ea523a52b6b6d8d9c5d61c1746afb5ff1e5a10",
+      "after": "a4ea523a52b6b6d8d9c5d61c1746afb5ff1e5a10",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/first-symbol-quadratic-gap.json.gz",
+      "bytes": 198079,
+      "sha256": "db861442f5b895362abe090306c2899b3771282269b7ccc5743d820e79f8bff3",
+      "original_sha256": "db861442f5b895362abe090306c2899b3771282269b7ccc5743d820e79f8bff3"
+    },
+    {
+      "file": "consumers/first-symbol-quadratic-gap.stdout.log",
+      "bytes": 147,
+      "sha256": "dfeec604493d7d3ffb7d98d6b171e512dc1ae35fb9986c67cb3b5749d45982b0",
+      "original_sha256": "dfeec604493d7d3ffb7d98d6b171e512dc1ae35fb9986c67cb3b5749d45982b0"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 6419,
+      "sha256": "afa699e3e86fc1d6678c35606b116dd8074a6ce7adfca246d8804532e32e0f0b",
+      "original_sha256": "afa699e3e86fc1d6678c35606b116dd8074a6ce7adfca246d8804532e32e0f0b"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 5835,
+      "sha256": "429d46581dbb5769ad1a9e5b2bd3e9d68a2fac4b3339a18b1f82686c82750261",
+      "original_sha256": "429d46581dbb5769ad1a9e5b2bd3e9d68a2fac4b3339a18b1f82686c82750261"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 1982,
+      "sha256": "ab65a8e728ecdedd2125efb5400050579a8848222980e563101fe5e04b655ce9",
+      "original_sha256": "ab65a8e728ecdedd2125efb5400050579a8848222980e563101fe5e04b655ce9"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}

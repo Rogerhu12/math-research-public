@@ -1,0 +1,44 @@
+{
+  "kind": "actual_public_first_symbol_quadratic_gap_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43598755503",
+  "run_attempt": "1",
+  "workflow_commit": "a4ea523a52b6b6d8d9c5d61c1746afb5ff1e5a10",
+  "worker_sha256": "65205b7c9f8c961887d3b51a9eda27f3d53b04008723d9be9be28af1a6f7072d",
+  "manifest_sha256": "eb4d3c4b4a57808fce7bac72d6270144322cabb248caa2c5949aeabd751ea180",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T13:14:51.581223+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "a4ea523a52b6b6d8d9c5d61c1746afb5ff1e5a10",
+      "after": "a4ea523a52b6b6d8d9c5d61c1746afb5ff1e5a10",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "a4ea523a52b6b6d8d9c5d61c1746afb5ff1e5a10",
+      "after": "a4ea523a52b6b6d8d9c5d61c1746afb5ff1e5a10",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-first-symbol-quadratic-gap-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_quadratic_gap_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-first-symbol-quadratic-gap-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-first-symbol-quadratic-gap-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-first-symbol-quadratic-gap-CI-inputs.json",
+    "--manifest-sha",
+    "eb4d3c4b4a57808fce7bac72d6270144322cabb248caa2c5949aeabd751ea180",
+    "--out-dir",
+    "/__w/_temp/visible-exact-first-symbol-quadratic-gap-output/consumers"
+  ],
+  "complete_original_inputs_verified": 6,
+  "actual_scientific_checkout_commit": "a4ea523a52b6b6d8d9c5d61c1746afb5ff1e5a10",
+  "mathematical_wall_seconds": 2.067697701
+}
