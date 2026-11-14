@@ -1,6 +1,6 @@
 # 待解：同一个最终精确闭嵌入族
 
-更新：2026-11-14 16:48:41 UTC。**主目标未完成，持续研究。**
+更新：2026-11-14 17:33:51 UTC。**主目标未完成，持续研究。**
 本次压缩前完整进度见 [原字节归档](notes/2026-11-14-open-before-actual-full-delta-root-graph.md)，其中保存所有早期入口与失败链。完整科学身份以各report、manifest和真实process为准。
 
 ## 1. 完成标准与固定对象
@@ -60,7 +60,7 @@ leading43612196888实际22门，完整复δ1e−8/root9e−6：a0/逆/两branch�
 
 [完整根波差V1–24](results/R119-supplement-complete-root-wave-network-and-high-Schur-difference.md)已给同Green/根单位的全差和adjoint H1→L2，以及真实high消元内部$v^{-1}$差<2^-6000000；联合坏测度<93/16384。未消low的内部Schur不是五盒effective $U_M$。
 
-[deep-low L1–28](results/R119-supplement-complete-deep-low-Green-Poisson-and-mixed-elimination.md)已证明真正两向Green、双Poisson与完整mixed消元。独立核完整两行架、W/z锥换算、K64邻胞完整主项及原$wF$源单位；$F=2^{4096}J^4\delta^{-5}$，真实Green<2^66、双Poisson<2^130，两外消元后$v^{-1}$完整差<2^-6000000，深余75/256。不能冒称裸L2全源逆。[浅前缀P1–29](results/R119-supplement-shallow-five-cube-family-and-all-frequency-radial-selection.md)现已逐项重付129–8192真实K64/profile/Γ/fixed-stop门，以及有限e<2^-190全局部入口。全非零M≥4同一次公共选择，保全部浅窗口、真实无限low；新W_all=2^-16W、v_all=2^-16v仅固定32bit费用，原层δ指数不变，原角权全频常数<2^2200000。内部mixed差<2^-5999900。下一项是开放内部压缩的真实径向逆、mean商和物理外列；不得直接套已接外反射矩阵的逆。
+[deep-low L1–28](results/R119-supplement-complete-deep-low-Green-Poisson-and-mixed-elimination.md)已证明真正两向Green、双Poisson与完整mixed消元。独立核完整两行架、W/z锥换算、K64邻胞完整主项及原$wF$源单位；$F=2^{4096}J^4\delta^{-5}$，真实Green<2^66、双Poisson<2^130，两外消元后$v^{-1}$完整差<2^-6000000，深余75/256。不能冒称裸L2全源逆。[浅前缀P1–29](results/R119-supplement-shallow-five-cube-family-and-all-frequency-radial-selection.md)现已逐项重付129–8192真实K64/profile/Γ/fixed-stop门，以及有限e<2^-190全局部入口。全非零M≥4同一次公共选择，保全部浅窗口、真实无限low；新W_all=2^-16W、v_all=2^-16v仅固定32bit费用，原层δ指数不变，原角权全频常数<2^2200000。内部mixed差<2^-5999900。[开放 B1–33](results/R119-supplement-open-radial-network-fractional-moment-and-actual-nonmean-inverse.md)现已直接取得真实开放非零内部逆：辅助圆周闭合仅用于分数矩平均，$q<1$ 保证盘内逆后用Fatou；同全频公共点好集测度大于 $1-96/16384$。新权 $\nu_j=2^{-432064}J^{-4166}\delta_j^{671/20}$，所有high/deep/shallow差重付后 $\|\nu R_{N,a}\nu\|<2$。下一项是真实 mean 商、原物理外列闭合及有序源到最终label，不能把加权内部逆当完整PDE逆。
 
 最后还须付全ordinary/weak源到label、物理mean、两列$D\Gamma^*$、共同参数选择逆与原最终层权，才可用于完整54/55闭合。
 

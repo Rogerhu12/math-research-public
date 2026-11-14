@@ -131,3 +131,7 @@ root逐字核P1–29及原U14–17/Q10–31，复核窗口计数、三generator�
 ### 2026-11-14 17:32:44 UTC — residual-split Hessian 合同与公开消费器
 
 根完整读 source17533B、合同8427B、CI10540B、flow6658B及164pin；tail独核H1–8及三原joint producer通过。156旧pin逐项0改；新source a8b1a68d…、manifest a3b144b5…，只下载两个既有Hessian artifacts，0target/array重算。公开工作流启实际1341 scalar消费；短child前后真pull、长10min checkpoint、失败和完整native全保。H原9774B归档后更新；另43621351216首row K_r门实失败/0row，root正在补正确非单调能量费用，不把失败算通过。
+
+### 2026-11-14 17:33:51 UTC — 开放网络分数矩与 actual 非零内部逆
+
+根完整核 B1–33（19853B，SHA6ef3aac35bd9f5001b24f3309e2e497c4c2fb07d488a6cc382e4fe7dcb8280fc）：finite exceptional ζ与纯外酉解耦、q<1盘内逆、弱尾只损log(a)、分数矩/次调和/Fatou、公共坏集、所有新层权与浅/深合账逐式通过。deep新净幂327/1280>0，mixed<2^-6000000；actual非零内部真逆<2。保留正确源域ν^-1/状态ν，以及mean/exterior/所有有序源；tail接真实平端flux=0域mean Green，不以弱权默认边界。该解析结论不需新数值实验。

@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 17:32:44 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 17:33:51 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则与同步
 
 仅 Rogerhu12/math-research-public；所有新数学代码仅公开 Actions。每结论独立推；非快进立即接新main/rebase再推至成功，不force。root管ref/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
 本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，17:16重试仍失败。根规则8暂只connector <100KB文本，禁二进制/大文件；先查size，新摘要≤60KB；API不冒称pull。runner长算每10min真pull、短child前后pull。root亲核43621351216于17:30:12拉到0c3df44898d44b94125ac9a5234345ca045a7c6b，三次两README diff均空。终端恢复即回git。
-最新远端 main/两README blob 核：f4f28acb3f9d1ee0c31e946669b7a9379d2921c9；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
+最新远端 main/两README blob 核：18b61641501119383e453abe7be4ac64623517f4；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次9774B原H完整归档 notes/2026-11-14-handoff-before-residual-split-Hessian.md；早期H/open归档链保全。完整SHA、失败、源端口、零重算合同在各results/manifest及归档；禁止重算已成数学。
 
@@ -48,7 +48,7 @@ directed word V−^-1V+=U_(S−∘X+)不是平方；root(buv/η)Swap仅均值0�
 
 H1–30真high：E/F内部v权<2^-9000，R损一阶；open内部Schur仅收缩，外口全闭且全列覆盖才onto-unitary；CXxX需H1。V1–24完整rootwave差及adjoint H1→L2<2^35000J40δ^-47NX，内部high消元v^-1差<2^-6000000。
 deep-low L1–28已核推94d799fc：完整真锥、两行root架/逆、W/z和K64邻胞、+u谷项均保；F=2^4096J4δ^-5，wF源→wF^-1状态Green<2^66、双Poisson<2^130。全high长程权已付，两个混合外消元内部差<2^-6000000，深余75/256。
-浅129–8192五盒P1–29已独核推：原K64/profile/Γ门与fixed-stop M4真线重付；e<2^-190有限e入口明确。全M≥4同公共点/含浅retained，W_all=2^-16W、v_all=2^-16v，原δ1073/32不变，角权全频费用<2^2200000；内部mixed差<2^-5999900。tail继续真开放内部逆/mean商/全外条件和source-label，不能混同闭外径向矩阵。
+浅129–8192五盒P1–29已独核推：原K64/profile/Γ门与fixed-stop M4真线重付；e<2^-190有限e入口明确。全M≥4同公共点/含浅retained，W_all=2^-16W、v_all=2^-16v，原δ1073/32不变，角权全频费用<2^2200000；内部mixed差<2^-5999900。开放B1–33已独核：辅助ζ闭合+q<1圆盘逆、p255/256分数矩/Fatou真得开放内部逆；同全频公共点好集>1−96/16384，Wop²=2^-96J^-4M^-16/15D，ν=2^-432064J^-4166δ671/20。新high/low完整mixed差<2^-6000000，深余327/1280；全非零内部||νRν||<2。真实外口/mean Schur与全部源仍保，tail续平端flux=0物理mean商/全外闭合/source-label。
 geometry43584188751/26门只条件：同η0真闭C²解、fullC0≤1e−4、|δν|≤1e−5、完整outer/matching ⇒held/D>.05075888242、reach/D≥800/25039、Hdiam/D≥360/511，marker145..148给含反射δE>0。
 **真完整无限逆、νSchur、非线性存在/状态球/holonomy与全部物理matching仍欠。** 子题完成即接open下一项，绝不以阶段报告、等待或时长结束。
 

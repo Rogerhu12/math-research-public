@@ -385,3 +385,7 @@
 ### 残差角导移入 divergence 的完整 Hessian 表示
 
 [H.1–8 合同](notes/2026-11-14-R133-residual-split-cap-Hessian-contract.md) 给同一个完整 $w_0$ 的另一四源表示，保全部 mean 与完整修复差。joint 范数语义由三份原 producer 独核，且只在完整有效加性界之间取小者；沿径向更换该 angular-divergence 表示不产生新径向 jump。数值 consumer 及164文件清单已部署，实际尺寸未先宣称。
+
+### 同一真实公共参数的开放非零尾内部逆
+
+[完整 B1–33](results/R119-supplement-open-radial-network-fractional-moment-and-actual-nonmean-inverse.md)已独核。真实有限unitary colligation的开放压缩用辅助圆周参数、$q<1$ 和 $p=255/256$ 分数矩直接反演；完整原自伴关系谱流保，未把闭外反射矩阵冒作开放矩阵。全 $M\in4\mathbb N$ 的同一公共好点存在；新权 $\nu_j=2^{-432064}J^{-4166}\delta_j^{671/20}$ 下，所有高外与deep-low费用重新求和，实际全非零内部 $\|\nu R_{N,a}\nu\|<2$。真实mean Schur、外输入/输出、ordinary/weak/两Γ列有完整公式，尚未授完整source-to-label或非线性PDE。
