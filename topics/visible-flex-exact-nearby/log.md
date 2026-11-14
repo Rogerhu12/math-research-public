@@ -439,3 +439,7 @@ visible-exact-astra-0df9全文核科学/CI/worker/flow和20pin；首跑前修a2�
 ### 2026-11-14 22:25:07 UTC — 较大辅助fold v2的28pin精确前缀续算
 
 部署新science/CI/manifest/worker/workflow五件，manifest7f00e2a21677b55213c6d72805e50b92b7d24fe703895a01f8d1dcb3003ad9f6。root全文读新source与flow，对CI/worker只读机械入口和新refinement摘要差异，并核原20pins完全不变；实际报告87e954与C1–7合同06f8bdc6均已单独提交。全部新数学在public Actions，45/50min两真pull与nonFF循环保；无旧成功case/coeff/anchor重算。只读核e854cdee852b25eee1b18fac4b3e9297aa1f9ec9两README未变，本机不可用不虚记pull。
+
+### 2026-11-14 22:28:03 UTC — 第一Airy修正的准确root jets与Taylor尾定理
+
+原稿12231B，SHA2429213db52c189de3db7f7b4db6841cc6ad712ae538192b9aaf7ddc3a1136f7。root逐项代回完整J6/J7与原L4–6核J11–17：forcing顺序、c/d恢复、X交叉和r/ρ符号均保；Taylor尾从原函数Cauchy直接求和，不把已剥离根值再收径向R^-2。无本机新数学计算；数值尚待public consumer。压缩前H9891B已归档。只读核97341e4de79177c131109105b3054c5b999ca963两README无变；22:21因非FF已真尝试pull但环境仍unavailable，v2公共runner继续真pull。

@@ -174,3 +174,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 较大域v2续算已装，零重算所有已成前缀
 
 28pins834136B中原20path/bytes/SHA逐项不变；新sourcee4720dc7430f9f4be7dfdb901ec5ac7cf1f0bb260ed9298fc250c58d3c8fdeb9直接import原已实跑410675源。固定旧native a6f622与child1过程，整小case/两coeff/rootanchor做对象及hash一致性门；原failedcase另全保。仅新大域特征速度积分交与fold/leading/forcing，逐stage存盘；原域、inverse门和物理cover不改。待公开Actions实际，不先授通过。
+
+### 第一修正的根值和低阶项可精确剥离
+
+[J1–19](results/R133-supplement-exact-first-Airy-root-jets-and-Taylor-tail-derivatives.md)已证完整leading矩阵正规化与有限Taylor递推。phase只新算同一root germ所需高阶intrinsic/forcing jets，复用全部已成域及低阶记录；剩余Taylor尾再付Cauchy。root另接任意w1的旧circle I/J和独立mean源；两条线不重复target，最终同一trial与真seam保持。
