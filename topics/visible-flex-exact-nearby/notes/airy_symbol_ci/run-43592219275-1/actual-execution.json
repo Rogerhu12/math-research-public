@@ -1,0 +1,34 @@
+{
+  "kind": "actual_public_two_row_Airy_waist_normalizer_process",
+  "command": [
+    "python3",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_Airy_first_symbol_boundary_identity.py",
+    "--origin",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+    "--object",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "--out",
+    "/home/runner/work/_temp/airy-first-symbol-audit/native.json"
+  ],
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43592219275",
+  "run_attempt": "1",
+  "workflow_commit": "9c1df0be947c84d563a1fc49ed1f15ee4b0daddb",
+  "math_started": true,
+  "actual_scientific_checkout_commit": "9c1df0be947c84d563a1fc49ed1f15ee4b0daddb",
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "started_utc": "2026-11-14T11:54:48.711450+00:00",
+  "runtime": {
+    "python": "3.12.14",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "numpy": "2.3.5"
+  },
+  "native_sha256": "6c9ffa292bbfedd21de35bbf1cde8f7690225adc4b27d75a485eaab0efafcdbe",
+  "actual_status": "pass",
+  "actual_gate_count": 13,
+  "actual_passed": 13,
+  "wrapper_returncode": 0,
+  "finished_utc": "2026-11-14T11:54:50.040779+00:00"
+}

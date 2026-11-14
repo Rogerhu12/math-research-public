@@ -1,0 +1,149 @@
+{
+  "kind": "exact_two_row_Airy_model_and_current_waist_normalizer_audit",
+  "complete": true,
+  "source_sha256": "6a477b656d00888d6940af4beccd2d3b67ceeb96f6a5da32c720a19f7d8b7dfb",
+  "original_spline_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "actual_affine_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "symmetric_definition_sources": {
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+    "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991"
+  },
+  "original_spline_structure": [
+    {
+      "name": "base",
+      "degree": 5,
+      "exact_zero_multiplicity": 1,
+      "zero_is_interior": true,
+      "guaranteed_continuous_derivatives_at_zero": 4
+    },
+    {
+      "name": "shift",
+      "degree": 5,
+      "exact_zero_multiplicity": 1,
+      "zero_is_interior": true,
+      "guaranteed_continuous_derivatives_at_zero": 4
+    },
+    {
+      "name": "mean0",
+      "degree": 5,
+      "exact_zero_multiplicity": 1,
+      "zero_is_interior": true,
+      "guaranteed_continuous_derivatives_at_zero": 4
+    },
+    {
+      "name": "mean1",
+      "degree": 5,
+      "exact_zero_multiplicity": 1,
+      "zero_is_interior": true,
+      "guaranteed_continuous_derivatives_at_zero": 4
+    },
+    {
+      "name": "mean2",
+      "degree": 5,
+      "exact_zero_multiplicity": 1,
+      "zero_is_interior": true,
+      "guaranteed_continuous_derivatives_at_zero": 4
+    },
+    {
+      "name": "height0_slope",
+      "degree": 5,
+      "exact_zero_multiplicity": 1,
+      "zero_is_interior": true,
+      "guaranteed_continuous_derivatives_at_zero": 4
+    },
+    {
+      "name": "height1_slope",
+      "degree": 5,
+      "exact_zero_multiplicity": 1,
+      "zero_is_interior": true,
+      "guaranteed_continuous_derivatives_at_zero": 4
+    },
+    {
+      "name": "height2_slope",
+      "degree": 5,
+      "exact_zero_multiplicity": 1,
+      "zero_is_interior": true,
+      "guaranteed_continuous_derivatives_at_zero": 4
+    },
+    {
+      "name": "height3_slope",
+      "degree": 5,
+      "exact_zero_multiplicity": 1,
+      "zero_is_interior": true,
+      "guaranteed_continuous_derivatives_at_zero": 4
+    }
+  ],
+  "original_phase_zero_knot_multiplicity": 0,
+  "actual_waist_conclusion": "a_prime=a_third=E_prime=K_prime=q_prime=beta=B_plus=B_minus=S=0",
+  "conclusion_uses_exact_spline_regularity_and_symmetrized_definitions": true,
+  "point_interval_containing_zero_not_used_as_identity": true,
+  "model_Xi": "1/(16 rho^(5/2))",
+  "model_finite_part_from_cut_H": "-1/(24 H^(3/2))",
+  "actual_root_finite_symmetric_cross_coefficient": "(beta*u*v/eta)|root",
+  "finite_symmetric_cross_coefficient_not_erased": true,
+  "full_current_root_positive_port_and_strong_remainder_claimed": false,
+  "current_finite_part_identified_with_full_return_beta": false,
+  "all_current_mean_and_source_rows_remain_obligations": true,
+  "public_run_id": "43592219275",
+  "public_run_attempt": "1",
+  "workflow_event_commit": "9c1df0be947c84d563a1fc49ed1f15ee4b0daddb",
+  "actual_scientific_checkout_commit": "9c1df0be947c84d563a1fc49ed1f15ee4b0daddb",
+  "sympy_version": "1.14.0",
+  "numpy_version": "2.3.5",
+  "gates": [
+    {
+      "name": "both outgoing curvature rows retain the complete Airy derivative shear",
+      "passed": true
+    },
+    {
+      "name": "both opposite curvature rows use the same original h1 reconstruction",
+      "passed": true
+    },
+    {
+      "name": "the complete cross normalizer removes the outgoing first cross column",
+      "passed": true
+    },
+    {
+      "name": "the complete cross normalizer removes the opposite first cross column",
+      "passed": true
+    },
+    {
+      "name": "the strict signed coefficient agrees with the actual dominant Airy row",
+      "passed": true
+    },
+    {
+      "name": "the model finite-part subtraction uses the complete Xi coefficient",
+      "passed": true
+    },
+    {
+      "name": "the actual waist row keeps both first endpoint factors",
+      "passed": true
+    },
+    {
+      "name": "the nonzero model waist factor supplies exactly the missing first phase",
+      "passed": true
+    },
+    {
+      "name": "the general local radial two-row Liouville identity keeps its endpoint",
+      "passed": true
+    },
+    {
+      "name": "the current nonradial normalizer retains its finite symmetric part",
+      "passed": true
+    },
+    {
+      "name": "the finite root coefficient is angular odd under the full reflection",
+      "passed": true
+    },
+    {
+      "name": "every actual radius and height-slope spline is C4 at the waist",
+      "passed": true
+    },
+    {
+      "name": "the original phase spline has no knot at the waist",
+      "passed": true
+    }
+  ],
+  "seconds": 0.4352650390000008
+}
