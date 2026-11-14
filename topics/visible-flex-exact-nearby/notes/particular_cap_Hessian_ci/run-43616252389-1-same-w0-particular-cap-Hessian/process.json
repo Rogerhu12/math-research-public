@@ -8,7 +8,32 @@
   "workflow_commit": "162c0c1ca1b5f72489f77fa36f326844158caed3",
   "worker_source_sha256": "9d4e781665ee61de9f99caea51070f87b5d1c62c7106ae4190f0af6a683b7531",
   "started_utc": "2026-11-14T16:34:38.096293+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_complete_same_w0_particular_cap_Hessian",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-particular-Hessian-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_particular_cap_Hessian.py",
+        "--out",
+        "/__w/_temp/visible-exact-particular-Hessian-output/native/complete-same-w0-particular-cap-Hessian.json.gz",
+        "--proposal",
+        "/__w/_temp/visible-exact-particular-Hessian-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-physical128-cap-moving97-precomposition-native.json",
+        "--pilot",
+        "/__w/_temp/visible-exact-particular-Hessian-pilot/native/known-cut-direction-complete-cap-mixed-source-pilot.json.gz",
+        "--pilot-process",
+        "/__w/_temp/visible-exact-particular-Hessian-pilot/process.json",
+        "--local",
+        "/__w/_temp/visible-exact-particular-Hessian-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-local-cap-Hessian-source-native.json.gz",
+        "--old-hessian",
+        "/__w/_temp/visible-exact-particular-Hessian-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-cap-trial-local-Hessian-native.json.gz"
+      ],
+      "started_utc": "2026-11-14T16:34:43.541621+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 85.002428839,
+      "finished_utc": "2026-11-14T16:36:08.544419+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T16:34:39.819414+00:00",
@@ -25,9 +50,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T16:36:10.119174+00:00",
+      "before": "21238ef47e76db04781cab0b8a618eda9325ef57",
+      "after": "35f7133acc50006ea7745c2cb4dbc637307008ed",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T16:34:43.539698+00:00",
+      "final": false,
+      "commit": "50d47849e612b510b106b33a0eb382b4abea5440"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -58,7 +97,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "21238ef47e76db04781cab0b8a618eda9325ef57",
+  "last_read_commit": "35f7133acc50006ea7745c2cb4dbc637307008ed",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-particular-Hessian-work/science",
   "original_prepared_bundle_sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70",
   "all_original_large_array_bytes_verified": true,
@@ -70,8 +109,8 @@
     "local": "bf42a295c892ec3bc606efaa9a94f2870609b73226f2034a9cbc172f187186bd",
     "old-hessian": "cf055cac05569701ebcb0df95fb064c94cec8c18bb28121292a3836b3862be26"
   },
-  "snapshot_utc": "2026-11-14T16:34:42.042435+00:00",
-  "wall_seconds": 3.946683946999997,
+  "snapshot_utc": "2026-11-14T16:36:10.153401+00:00",
+  "wall_seconds": 92.05765000000002,
   "native_files": [
     {
       "logical_file": "evidence/original-prepared-manifest.json",
@@ -84,6 +123,12 @@
       "file": "evidence/original-successful-v3-pilot-process.json",
       "bytes": 16602,
       "sha256": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4"
+    },
+    {
+      "logical_file": "native/complete-same-w0-particular-cap-Hessian.json.gz",
+      "file": "native/complete-same-w0-particular-cap-Hessian.json.gz",
+      "bytes": 1550110,
+      "sha256": "9360555293def4b1803da05c5c432a8f737ed4f3d62ea2b84c89e7e236ff7650"
     }
   ]
 }
