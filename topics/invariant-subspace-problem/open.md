@@ -1,7 +1,7 @@
 # 未解决的问题
 
 
-**首低通道新接口：** [共同条件Schur](notes/2026-11-14-first-low-johnson-channel-common-schur-and-original-tail-linear-budget-789f-next.md)给j=s−2完整线性列、出生二Poincaré等价式与原尾条件协方差界；条件均值/正通道支配仍缺，2(1+2k/x)¹⁶不是κ_s。
+**首低通道：** [共同Schur](notes/2026-11-14-first-low-johnson-channel-common-schur-and-original-tail-linear-budget-789f-next.md)已付条件线性协方差，条件均值仍缺。[原无限尾严格证书](notes/2026-11-14-original-infinite-tail-birth-two-arithmetic-obstruction-789f-next.md)迫辅助算术系数>289/100，常数2路线关闭；加强S1/graph未反驳，转明确损失或真源平方。
 
 ## 主目标与完成标准
 
