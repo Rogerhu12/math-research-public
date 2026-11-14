@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **同一完整F的三角端口、真实逆和方向source Gram合同（G1–18）**：[证明](notes/2026-11-14-R133-same-F-triangular-matrix-Green-contract.md)。原全193方阵经明确endpoint patch形成准确三角端口，所删下块和整格逆/生成元差全付；三通道保完整128方向、p/q signed相关、所有mean及真实R输出metric。给完整节点与格内双扫恒等式，并把V舍入真实跳交原Green。新四格112pin消费者已装，原105pins/四F/target/validator/Green不重算；数值结果及全5970覆盖尚待实际执行。
+
 - **同一第一Airy修正的完整根递推和Taylor余项界（J1–19）**：[证明](results/R133-supplement-exact-first-Airy-root-jets-and-Taylor-tail-derivatives.md)。先用完整leading矩阵正规化，得解析三角递推；原a1/b1的一二阶根导数恢复全部c,d与角交叉项，b1(0)=Fb不能被当零。Cauchy只付尚未计算的Taylor尾，完整根值不再进入径向导数费；所有物理chain/参数/1079seam/IJ/mean仍保。尚待新root jets的公开定向计算。
 
 - **真根锚定特征速度的相关收紧与完整前缀续接（C1–7）**：[证明](results/R133-supplement-root-anchored-characteristic-refinement-and-preserved-prefix.md)。由原已付aρ直接积分得a−a*=ρ∫aρ，以相同解析函数的两个真包络取交；原aρ/aρρ、两coeff与整个成功case不重算。新消费者仅续原失败大域，旧child1/selfmap失败完整保；数值成功须由公开Actions实际门判定。

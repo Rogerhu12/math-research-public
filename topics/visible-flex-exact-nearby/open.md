@@ -178,3 +178,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 第一修正的根值和低阶项可精确剥离
 
 [J1–19](results/R133-supplement-exact-first-Airy-root-jets-and-Taylor-tail-derivatives.md)已证完整leading矩阵正规化与有限Taylor递推。phase只新算同一root germ所需高阶intrinsic/forcing jets，复用全部已成域及低阶记录；剩余Taylor尾再付Cauchy。root另接任意w1的旧circle I/J和独立mean源；两条线不重复target，最终同一trial与真seam保持。
+
+### 同一F三角与完整方向Gram的四格新计算
+
+[G1–18合同](notes/2026-11-14-R133-same-F-triangular-matrix-Green-contract.md)已证并装112pin公开入口：复用原四F和43594139132原frame slices0/8/15，新97补空间、准确endpoint patch、同F真inverse误差、三通道signed193 Gram及全物理metric。原105pins逐项不变，旧成功数学不重算；完整source差另以edge_y Gram支付，不虚构独立输入。先核实际四格，再接全5970矩阵递推及真实跳/两边界缺陷，不能以local通过授全BVP。
