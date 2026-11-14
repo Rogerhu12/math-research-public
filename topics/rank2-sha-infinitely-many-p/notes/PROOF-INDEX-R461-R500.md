@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R467：全部tame分支接触与原全因子次数障碍](../results/R467-tame-branch-contact-and-all-factor-degree-barrier.md)：去掉横截与单因子假设，原ODE整数幂共振及完整Hensel判别式给任意接触因子有效界；全部小次数因子、多分支与重数不能替代所需高径向次数。全一次因子统一p≤138D+77，任意真原第二核也适用，仍保临界高次数和混j范围。
+
 - [R463：原连接π分布与完整division-log carry](../results/R463-original-connection-pi-core-and-exact-division-log-carry.md)：BFK完整分布付原q的π尺度，独立q/C全深carry消C′后保实际p级有理行；精确除子、原点整性、范数一与非零log3常数全付。pullback后全纯来源有全étale迹零和明确非齐次中央比较，保全部其余分支，不混同固定六维来源或原点中央。
 
 - [R462：原混合反射的无限level与来源轨道](../results/R462-original-mixed-reflection-infinite-level-and-source-orbit.md)：同一H33⊗σ的两个真实反射乘积第m次分母恰17^m，原零除子稳定群准确确定，排除任何固定有限theta覆盖或有限维几何来源闭包。逐次p整运输与特定Riemann组合仍合法，未将结论套给未付的实际p-core轨道。

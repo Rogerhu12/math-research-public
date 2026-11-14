@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：155fd24869e25928c374db4f2b5eaa406f8a875b；2026-11-14 08:58:26 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：0d02e256d279718de2053f02c41f443bd0d6e151；2026-11-14 09:09:27 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。02776e4cd9e08c608f6c806bd1095b3d86453eb4持续执行规则、41bd74e09ab69b38abb61d66c4339a12f0fb7de5日志规则已读；只写课题log，每轮≤5行，不写/归档根LOG。
@@ -14,9 +14,9 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–463已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
+R1–363、R365–463、R467已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
 当前路径`/workspace/scratch/4fe3fb9f2a50/math-research-public`，main部分/稀疏克隆，仅检出本课题。迁入快照含旧R1–436；旧库未推R437、R438及两批完整计算已搬入并发布，旧路径只读历史。
-迁入后R437–458逐条发布记录见课题log；R456范围更正a72491f91294、R458已推a777851ca0c1，R457已推aa0932b6bd40，R459已推58db694381a8，R460已推29deea7bd78e，R461已推ea643525923f，R462已推155fd24869e2，R463本次登记。theta续共同C29的真双S/T混Y关系（R465）；root算固定δ division源（R464），literature续固定互素小同源a=2/γ7（R466）；deep续增长径向次数与多因子真接触。
+迁入后R437–458逐条发布记录见课题log；R456范围更正a72491f91294、R458已推a777851ca0c1，R457已推aa0932b6bd40，R459已推58db694381a8，R460已推29deea7bd78e，R461已推ea643525923f，R462已推155fd24869e2，R463已推f4571c6418d6，R467本次登记。theta续共同C29的真双S/T混Y关系（R465）；root算固定δ division源（R464），literature续固定互素小同源a=2/γ7（R466）；deep续增长径向次数与多因子真接触。
 
 ## 固定对象、完整标准与可恢复检查点
 
@@ -44,15 +44,15 @@ R463真q_frame=17(δζδ−ζ)核心−λ[π0]，原奇C核心−λ[κ]，两个
 
 ## 当前惰性原矩阵与其余开放线
 
-R425/428/434两完整中央的唯一真实Hensel参数、Miller常数/q_p(2)、高轴u/v和全部三位基准见notes/2026-11-14-frontier-through-r449.md。原t→w高尾在完整中央保留，ℓ1 Schur/carry不删第三位；R438三权cross行严格等价原两标量。R440最大可乘H38来源域、真实三边界及单位剪切亦全保，不把局部单位当全C2作用。
-
-R444/449的同预算矩阵J=(JA,JB)、M=(JA,pJB)始终保两条13行、P134/U0和真首次提升。令C=cokerJbar、H=im(B→C)、G=cokerJAbar，则0→H→C→G→0，δA=πβJ；原K2red=kerδA，真正可见G2=C2(J)/Hbar。d2的H投影=βJ，在K2red(J)上等于相对d2投G2。全部p²A0修正通过G2；相对J全Smith≤p时修正全吸收，即使γ>0与真carry P2并存。原Smith为L−26−γ单位、26+γ−h个p、h个p²。要有新机制须相对J已有p²且C2未被carry覆盖，原两中央基准不变；纯forcing扩张不能越过该界。
+R425–449两完整中央的Hensel高轴、Miller常数/q_p(2)、实际低高尾、H38最大来源与真carry精确序列，完整保存在notes/2026-11-14-frontier-through-r463.md。当前J=(JA,JB)、原M=(JA,pJB)经c*U0m13整运输；K2red(M)=ker(πβJ)⊂kerJbar，G2=C2(J)/Hbar。相对Smith≤p则所有p²A0修正被整吸收；原M仍保P134/U0、13自由行和两条13行carry，真正第二障碍不得换成自由矩形像。R453一次返回D+2k+c、c≤36及最多18新carry全付，全部全局门aI+2bI<3未付。
 
 R456更正仍保：来源饱和fD=floor(9D/2)+4<p有效；原t=0只留0/1/2电荷，三块最低行迫首核必含t。纯F³Q原点单位模型范围为空，已推即时更正a72491f91294；不作实际p²排除。
 
 R459已保真实P0=t^rF³Q，首核条件r+2h≥s、r+h≥ell；k=2h+r−s，需k<min(s−h,ell,h)。无需保因子，真首次修正R的F正规分支强制ER首项(5/a)C0u0³ w^(h+k)，且仅r>2k时R首项−2C0u0⁴/(ae0) w^(2h+k)；未知ξ全消，换F/Q提升不变。式13d是同一真实仿射修正格的指定jet像问题，尚未证不在像中。全部角层charge准确；J0乘角单位d^C_D后真实双次数(D,5D+4−Dmod2)，不收17倍。F²保持/结式严格界给局部首提升排除，但尚无满足全部高接触假设的低预算原核；原M还须投影除两13行carry，ell1贴边未解。
 
 R461整个J0原格角单位运输后双次数(D,M_D)、M_D=5D+4−Dmod2。原径向ODE首共振unit给横截F的H=min(h,s)≤a_F(6b_F−1)+2b_F+1，b_F=1更强H≤4a_F+3。真实t^rF³Q首核必要p≤(24b_F−4)M_D+21及p≤(8D−4)M_D+21；一次F立方p≤80D+89，全部单一一次因子幂2≤m≤D统一p≤138D+59。R449真原K2red⊂kerJbar，故同形状也排原第二核；未排增长b、多个因子或混j，临界大b与原两中央约束仍待付。
+
+R467已去横截/单因子假设：b_F<p使全部局部分支tame，原ODE整数幂投影仍有单位共振；Hensel判别式支付隐式微分损失，min(ordF(t,g),s)≤a_F(6b_F−1)+2b_F−2c_F+3。原任意非零首核若所有接触因子b≤B，则p≤(36B−6)M_D+18D−36B+11；全一次因子即使多因子/任意重数也需p≤138D+77。max b下界式24随p/D增长，同样覆盖原真K2；临界高b、混j与原中央到修正像的桥仍未付。
 
 R444先行Padé笔记未完成：τ为固定原三层相邻子式比、Schur=D/(D+U*E)；指定p约化非零仍开，角导数V极须D+3清除，不是同方阵闭合。
 
