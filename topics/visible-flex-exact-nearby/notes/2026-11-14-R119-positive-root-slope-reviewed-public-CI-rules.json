@@ -1,0 +1,11 @@
+{
+  "kind": "visible_exact_public_CI_read_rules_for_positive_root_slope_budget",
+  "read_commit": "59ec7d47b7f26d8cf6e4f60feb76c381c53fc70e",
+  "readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "actual_review": "Both current README files read in full by tail_connector; the current HANDOFF records the unchanged-rule baseline 59ec7d47. Any later README difference must be printed and reviewed by root before automatic publication.",
+  "authorization": "Root README authorizes terminal commits and pushes to origin/main without asking, forbids force push, requires pull/rebase and immediate retry after non-fast-forward, and requires public-repository Actions for calculations.",
+  "source_and_scope": "Only the named topic budget and its source/documents; no private repository access or opaque data download."
+}

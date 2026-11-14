@@ -184,3 +184,5 @@ newton_source 推进连续 regular Green、全high反馈和真qν−Z；
 phase_inverse 推进实际全mode有限部、两行root匹配、β/j 和 strong 项；
 tail_connector 关闭实际混合近簇与中间频率整个网络。
 子问题完成立即接下一缺口。阶段报告、进程等待或时长都不是收尾理由；只有 README 全部完成标准达到才结束。
+
+新增完整正片R_++I的强4/3界<2^5700 b_*^(4/3)，含两个mean、双端cross及所有低输入高输出，见positive-full-Airy-remainder-in-root-slope-units。高输出contact常数+真实复角隔带支付旧低频b^(1/3)，全graph与unitarity不借未解网络。ordinary/weak/Γ*源全保；实际strict/root一次项/graph与全网络cutoff仍续。
