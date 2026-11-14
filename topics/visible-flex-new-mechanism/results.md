@@ -182,18 +182,20 @@
 
 - [R89：完整仿射协变、正长度多pair与七维物理族](results/R89-affine-covariance-and-positive-multiple-pair-P1.md) — 真实H²空间相似与x=Hξ+d保全场/全部历史/两mode，T与P1只作profile共轭；跨scalar基点W不变。合法k±1常态A(H,d)恰span7而非8，正p2半空间禁止有符号冒用。多pair独立桥与正整圈权给准确联合P1，连接只添P0；提出(1,0),(1,1)等长新目标，未声称可解。
 
-- [R90：全部常态控制响应的七状态有限系统与正基准成本](results/R90-seven-state-complete-response-and-positive-baseline-system.md) — 明确七个有界有理状态张成全部物理A族，故全响应空间至多252维；有限原始仿射式使基准为有限Laurent(H)/polynomial(d)族。实际配置只能用自身pair的控制，helper正成本必须支付；整数整圈、有理共同放大与实正锥松弛严格分开。提供原式阳性证书与统一正泛函阴性证书条件，未找到共同正锥解或同号泛函，未付P0。
+- [R90：全部常态控制响应的七状态有限系统与正基准成本](results/R90-seven-state-complete-response-and-positive-baseline-system.md) — 明确七个有界有理状态张成全部物理A族，故全响应空间至多252维；有限原始仿射式使基准为有限Laurent(H)/polynomial(d)族。实际配置只能用自身pair的控制，helper正成本必须支付；整数整圈、有理共同放大与实正锥松弛严格分开。提供原式阳性证书与统一正泛函阴性证书条件，后续R98已给总正组合的常数正泛函并排除此universal机制；P0仍未付。
 
-- [R91：正长度universal P1的仿射整权二分](results/R91-affine-character-dichotomy-for-positive-universal-P1.md) — 真pullback保持总响应与有限Laurent空间；平移N幂零、缩放整权。循环商中b不落NU给Λ杀全部控制且Λ(b_Hd)=H^n>0；反向b属总响应则七helper各一正整圈支付P1。尚未决定真实总成员，只讨论同一控制对全部profile的恒等式，不排特殊固定圆或P0+NP1。
+- [R91：正长度universal P1的仿射整权二分](results/R91-affine-character-dichotomy-for-positive-universal-P1.md) — 真pullback保持总响应与有限Laurent空间；平移N幂零、缩放整权。循环商中b不落NU给Λ杀全部控制且Λ(b_Hd)=H^n>0；反向b属总响应则七helper各一正整圈支付P1。真实总成员已由后续R98权零子式否定，R96另给同一合法圆及相对泛性推论；仍不排特殊圆或P0+NP1。
 
 - [R92：pure第四再下一幂尾的三primitive二次正规形](results/R92-pure-fourth-next-tail-quadratic-action.md) — 一般m最高/中间端势移除全部第三history，完整M0支付唯一J末值，真实I0再消最低第三；第4m−7周期准确化为三个受同一几何驱动的零端primitive二次action。m8实际43637739532原DAG回代全0、2172项/9组完整导出；仍未证明符号、非零period或零成本环。
 
 - [R93：零二阶矩阵的真实几何能量与frame长度约束](results/R93-zero-matrix-geometric-energy-and-frame-length.md) — 完整M0与常端芽给∫kh=0和∫k²=L+∫(logh)′²，故真实光滑路径必换号且max|k|>1；给有界k下logh振幅门，结合frame闭合得L(2L+Elogh)≥4π²。后续R97已加强为正长度完整M0必有非恒h，原恒h长度特例是空类；一般长度式保持。未给第四action符号。
 
-- [R94：总P1成员门的真实整权分块与最高权泛函](results/R94-scaling-blocks-for-total-P1-membership.md) — 真36元W按权−5至1维数2/4/8/8/8/4/2，物理E按权−3至1为1/2/2/1/1并给两条平移Jordan链；252响应原列分11权块，最大48列。成员逐块等价，最高未付权真实泛函给Λ(b_Hd)=H^m。列数非秩，实际成员未决；只universal层，不排固定特殊圆。
+- [R94：总P1成员门的真实整权分块与最高权泛函](results/R94-scaling-blocks-for-total-P1-membership.md) — 真36元W按权−5至1维数2/4/8/8/8/4/2，物理E按权−3至1为1/2/2/1/1并给两条平移Jordan链；252响应原列分11权块，最大48列。成员逐块等价，最高未付权真实泛函给Λ(b_Hd)=H^m。列数非秩；后续R98由最高三块证权零非成员，给常数正字符1；固定特殊圆仍未排。
 
 - [R96：有限仿射Volterra空间的同一光滑三矩圆忠实评价](results/R96-single-profile-faithfulness-for-affine-Volterra-spaces.md) — 独立正仿射搬移把分离packet排成互不交区间，右因果与四次齐次使幅多项式行列式有非零词典首项；一个profile即对完整有限V评价单射。左三bump准确补矩和共同归一保全部查询，得到合法C∞圆及无统一导数盒时的相对开稠密性。若总b非成员，R91同号泛函可转到同一圆，仍不排特殊圆或固定N的P0+NP1。
 
 - [R97：真实零二阶矩阵路径必须有非恒高度参数](results/R97-zero-matrix-paths-require-nonconstant-h.md) — 完整C3系数给∫hkω=∫k²，再由唯一ω积分得K2=−∫(F/h)kρ；准确平方式∫[(F/h)²−1]ρ²=L+∫[k+(F/h)ρ]²，故E>0、S=‖F/h‖∞>1且(S²−1)E≥L。无须frame闭合，所有边界项明确；不排R37的变h桥，也不授第四成本符号。
 
 - [R95：D25完整压缩action及最高参数端势](results/R95-compressed-D25-action-and-top-parameter-endpoint-potentials.md) — m8公开consumer43639240317七组短系数、真实I0/ODE及fresh原DAG全0；新增零端势将2172项9组压为1605项5组，const/linear完整保留。c10、c9是明确真实系数primitive的端势，M0已付，故period关于c次数≤8；未授c8及以下符号/零period，不外推一般m。
+
+- [R98：全部正长度状态P1的权零准确分离](results/R98-weight-zero-separation-of-all-positive-state-P1.md) — actual43638896281中权2成员、权1准确零，权0全16列两原式依赖降14，再由原有理Volterra评价14/15非零子式证真维数14与非成员。Q-Cramer泛函经真实权零投影归一给Λ(b_Hd)=1，任意正组合值4Σℓ>0；R96把障碍搬到同一合法C∞圆及相对开稠密类。结束同类universal多状态扩张，保特殊圆与固定N的P0+NP1。
