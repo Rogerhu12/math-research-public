@@ -51,4 +51,4 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 10–15全部旧QR/band/bridge无接受，不盲加点。R238–R268证明见results.md；R268完整QR能量归纳/纯global项/C恢复已直接入results（927d4b6f…），不增数值门；R259备用未调度。旧A幅度.063<.2，其RK24/48、三mesh、2157568空间对及旧GW精化已付封存。43提交/geometry26/strong90/GW35已恢复，strong R6失败且raw未全迁；历史notes保全，绝不读private。
 
-规则同步记录：2026-11-14T17:32:06.339061+00:00 实际pull --rebase成功；双README自64d69df6无变化，已读提交 a285267446ac8d8bb98f711e75748462d93f06b0。
+规则同步记录：2026-11-14T17:37:42.556290+00:00 实际pull --rebase成功；双README自a2852674无变化，已读提交 b70c52b704e5ed40bb915ac7ecdceaed4f843c52。
