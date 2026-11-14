@@ -119,3 +119,5 @@
 - 2026-11-14 20:31 UTC，Astra-new-mechanism-9974ea84：登记R91完整纸证，实际仿射作用保持R_*与有限V，平移N幂零、缩放有限整权；循环商b不在NU给准确实泛函Λ(b_Hd)=H^n>0，若b属R_*则七helper各一整圈的全部正基准可由真W控制支付。决定的是universal算子总成员，不把R87单state或多profile评价冒固定圆排除。当前新actual43637739532/source09bbfd75跑最大metric与D25action，两pair原run继续。
 
 - 2026-11-14 20:32 UTC，Astra-new-mechanism-9974ea84：登记R92一般m纸证，指定零端势移全部第三history，新增唯一真实J由完整M0付末值，第4m−7周期化为三primitive二次action。同期actual43637739532/source09bbfd75完整14.309952s，I0导数/初值、完成坐标往返/fresh原DAG全0，15真histories保；2172项/9组完整导出，仍无符号/非零period结论。下一用真实几何约束与端势继续约简，不独立任取primitive。
+
+- 2026-11-14 20:33 UTC，Astra-new-mechanism-9974ea84：登记R93完整真路径必要身份：M0使C/D在开放右端区间积分恒0，取多项式系数与端芽积分分部得到∫kh=0、∫k²=L+Elogh，严格max|k|>1及有界k的logh振幅门；结合R84给L(2L+Elogh)≥4π²、恒h闭frame严格L>√2π。与R37 a>1构造相容，不把能量/长度必要界冒第四正性，继续D25真实action。

@@ -187,3 +187,5 @@
 - [R91：正长度universal P1的仿射整权二分](results/R91-affine-character-dichotomy-for-positive-universal-P1.md) — 真pullback保持总响应与有限Laurent空间；平移N幂零、缩放整权。循环商中b不落NU给Λ杀全部控制且Λ(b_Hd)=H^n>0；反向b属总响应则七helper各一正整圈支付P1。尚未决定真实总成员，只讨论同一控制对全部profile的恒等式，不排特殊固定圆或P0+NP1。
 
 - [R92：pure第四再下一幂尾的三primitive二次正规形](results/R92-pure-fourth-next-tail-quadratic-action.md) — 一般m最高/中间端势移除全部第三history，完整M0支付唯一J末值，真实I0再消最低第三；第4m−7周期准确化为三个受同一几何驱动的零端primitive二次action。m8实际43637739532原DAG回代全0、2172项/9组完整导出；仍未证明符号、非零period或零成本环。
+
+- [R93：零二阶矩阵的真实几何能量与frame长度约束](results/R93-zero-matrix-geometric-energy-and-frame-length.md) — 完整M0与常端芽给∫kh=0和∫k²=L+∫(logh)′²，故真实光滑路径必换号且max|k|>1；给有界k下logh振幅门，结合frame闭合得L(2L+Elogh)≥4π²。恒h闭frame类实际L>√2π但无统一gap。都是实际驱动必要条件，未给第四action符号。
