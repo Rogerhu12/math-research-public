@@ -148,3 +148,6 @@
 
 
 - **R727（已证明）**：[其他本原嵌入的原 toric norm 与完整 M2 判据](results/R727-other-primitive-embeddings-toric-norm-and-original-M2.md)。原 split 向量和 CM torus 同时运输，给 $N_h\equiv-P_{h-1}(1/\sqrt{-3})^2$；原两个完整 Fourier 尾给 $N_h,C_{h-2},C_{p-h-2}$ 单位时 $v_p(M_{2,h})=-2$。一般 Bruhat 一次 $p$ 损失及有理 Abel 直线闭合无限尾，整个 $v_p(a-1)>3$ 仅中心。$h=7$ 有 $N_7\equiv-(47/9)^2$；实际137147另一组件已满足全部条件，未推出全素数单位或高度排除。
+
+
+- **R728（已证明）**：[原正 CM Weil restriction、本原投影与真实 Néron 格](results/R728-original-Weil-restriction-primitive-projector-and-Neron-lattice.md)。$B=\operatorname{Res}_{L^+/\mathbb Q}C$ 的余式方程、全原正标签、具体有限阶 $T$、Ramanujan 本原投影及素于 $p$ 分解同源完整给出；真实 cotangent 为逆 different $F_p'(b)^{-1}\mathbb Z_p[b]\omega_C$，本原格为其 $e_n^*$ 直接和。极化/NS 代表显式，原 $q/\beta$ 仍需生成 $X_1\to C$ 有理函数及原 Hodge/KS 比较。

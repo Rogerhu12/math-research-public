@@ -203,6 +203,19 @@ $v_L(b)=1$、类型 II 最小模型；全部系数有核多项式 resultant 公�
 这只补椭圆分量与分裂域，原 $J_X\to A\to C$ 同态、
 $\beta$ 坐标、实际 NS/Picard/刚性化运输及 KS 尺度仍需生成。
 
+
+[R728](results/R728-original-Weil-restriction-primitive-projector-and-Neron-lattice.md)
+已将此分量提升为实际有理模型
+$B=\operatorname{Res}_{L^+/\mathbb Q}(y^2=x^3+b)$，
+其 $m$ 条余式方程、全部原正标签诱导分解和有限阶移位 $T$ 已显式给出。
+$T^m=[\eta]$、$cTc=T^{-1}$，故
+$e_n=n^{-1}\sum_jc_n(j)T^j$ 精确切出原本原因子，分解同源次数素于 $p$。
+在 trace 识别下真实 Néron 余切格为
+$F_p'(b)^{-1}\mathbb Z_p[b]\omega_C$，本原格由 $e_n^*$ 取直接和，
+而非任意省略逆 different。实际极化和 NS 线丛也已给出。
+原 $q/\beta$ 现在准确降为 $(X_1)_{L^+}\to C$ 的有理函数及其原 Hodge 比较；
+这些函数仍未生成，原 KS/Manin 指数、Picard 修正和刚性化常数仍保留。
+
 须继续生成同一原曲线/对应/线丛模型、有限关系矩阵和规范高度前缀，
 并实际验证 R724 (724.33) 的有限 Bézout 不等式及全部尾。
 137147 的真实高度 jet 尚未生成，排根证书尚未通过；
