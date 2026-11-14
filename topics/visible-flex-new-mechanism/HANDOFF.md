@@ -6,7 +6,7 @@
 
 闭连通C²嵌入族Ft，t在C²拓扑连续，同一固定g；固定材料H有内点且diamF0(H)≥.2D；不对齐整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，并同g/状态/时间精化。D为完整F0直径；δE可0但如实报；完整网格<5MB，明确数值与准确存在差距。达标后继续.5D或更强存在。现无合格完整候选。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`eb32b6a2a1614300cd15c5d726e4ba20167679c7`。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`68fe68df4444a2d457e191488e2522f18975321b`。
 - 每次实际pull --rebase核双README，变则只读diff立即执行；至少每小时pull。每结论立即提交推送；NFF立即rebase、核规则、再推至成功，不强推。
 - 本公开main/Actions已授权。真实几何/ODE/积分/优化/完整研究编译只在本公开Actions；本地仅纸面代数、人工开发核、源码/公开输出分析。PAT仅瞬时CLI/env，不写文件/提交/日志。
 - 私有17:41:10 UTC实际pull至`6a16feab8e6c164b260239abede559e93e44aa3d`；根README无差，本题私有README不存在。QUEUE唯一行仍本会话进行中；下一pull不晚于18:41 UTC。私有研究不公开。
@@ -58,7 +58,7 @@ R65理想无桥±1 pair纯P的双因子/Gronwall迫非零复q不能P恒零；不
 
 **真正h桥控制已发布**：notes/literature-endpoint-preserving-h-bridge-controls-20261114.md；helpera35e9db4及Fraction toy b4ac6c2c全文核。固定k/长度，b=1/(2h)加ΣβF′，F=S²(1−S)²Pj；δomega=ΔkΣβF，端状态/全部jet及整frame保持。正b有理开盒⇒omega原值域保持；α位移会变，同一新P的R45四块处理。倒行βrev=(-1)^(j+1)β；每次重算canonical/实际正性。独立方向不等于Ceff响应满秩。
 
-literature开发独立N系数helper/纯B-U driver：直接传递p0,p1,p2、bulk测度shift1取P0..P3，不做大N差分；先人工toy/source核，真编译/几何只Actions。下一新R62八bulk+固定frame桥的Ceff响应pilot；若用旧q，只标已失败profile的算子探针，不能称候选。新完整候选仍须同一个profile通过所用各常态门。
+独立N系数helper已发布4583b895及人工toy b3b573f3，root/source全文核：直接传递p0,p1,p2、bulk测度shift1取P0..P3，不做大N差分，桥/四块不reset。三槽有符号次数门，默认DAG中间128MiB非总内存界；full大DAG可能单点超限须明报。纯B-U driver仍开发；真编译/几何只Actions。下一新R62八bulk+固定frame桥的Ceff响应pilot；若用旧q，只标已失败profile的算子探针，不能称候选。新完整候选仍须同一个profile通过所用各常态门。
 
 ## 6. 立即行动
 

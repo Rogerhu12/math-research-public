@@ -1,0 +1,48 @@
+{
+  "above_degree_two_observable_rejected": true,
+  "actual_geometry_profile_or_full_target_evaluated": false,
+  "artificial_word": [
+    {
+      "kind": "toy_bridge",
+      "rational_length": "3/7"
+    },
+    {
+      "kind": "bulk",
+      "rational_length": "2/5"
+    },
+    {
+      "kind": "toy_bridge",
+      "rational_length": "5/11"
+    },
+    {
+      "kind": "bulk",
+      "rational_length": "7/13"
+    },
+    {
+      "kind": "toy_bridge",
+      "rational_length": "1/17"
+    }
+  ],
+  "direct_coefficient_propagation_without_N_sampling": true,
+  "exact_period_coefficients": [
+    "985121187885/4485893258",
+    "37211243603/111376265",
+    "206121407/2212210",
+    "-17820601/823875"
+  ],
+  "full_fourth_range_paid": false,
+  "geometry_only_denominator_polynomial_error": 7.473188734508085e-15,
+  "incoming_nonzero_N_and_N_squared_histories_retained": true,
+  "max_artificial_polynomial_evaluation_error": 1.318767317570746e-11,
+  "max_history_coefficient_error": 3.4243441415782172e-15,
+  "max_period_coefficient_error": 3.097522238704187e-14,
+  "numerical_interval_certificate": false,
+  "polynomial_interpreter_sha256": "38a69580bd8b6f53cd2810cded6e08e0c6d480a6505526c3a81e9bd9864de268",
+  "schema": "N-polynomial-range-artificial-toy-v1",
+  "source_hashes": {
+    "literature_endpoint_preserving_h_controls.py": "a35e9db49324138366acf62fd72e22b35fc72b0aa76ed960328990ff194d479c",
+    "literature_range_n_polynomial_engine.py": "4583b8955b7a9cbdf8bfeadaf9d215627ec1a579e2ae4f2bd8667989e57973f2",
+    "literature_range_numeric_engine.py": "3c5e2bb2aca3912b735019ea2af5a4fd266b0671335f3a1f589e15e8b13c2f58"
+  },
+  "state_denominator_rejected": true
+}
