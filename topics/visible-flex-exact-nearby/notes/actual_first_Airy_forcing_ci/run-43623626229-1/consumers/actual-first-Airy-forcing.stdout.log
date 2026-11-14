@@ -1,0 +1,9 @@
+{"complete": false, "failure": {"type": "ValueError", "message": "true gamma interval lost its sign after certified whole-jet intersection"}, "accepted_closed_rows": 1, "seconds": 0.6213445149999899}
+Traceback (most recent call last):
+  File "/__w/_temp/visible-exact-actual-first-Airy-forcing-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing.py", line 568, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "/__w/_temp/visible-exact-actual-first-Airy-forcing-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing.py", line 441, in main
+    if not jets["gamma"][0]>0:raise ValueError("true gamma interval lost its sign after certified whole-jet intersection")
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: true gamma interval lost its sign after certified whole-jet intersection

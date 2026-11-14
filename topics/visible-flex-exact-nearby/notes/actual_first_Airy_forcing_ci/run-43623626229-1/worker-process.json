@@ -1,0 +1,97 @@
+{
+  "kind": "actual_public_actual_first_Airy_forcing_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43623626229",
+  "run_attempt": "1",
+  "workflow_commit": "1f6feeccbe1d6cb60e1ac9c6b0fe696114f35245",
+  "worker_sha256": "ac2692984527db79792bc5dfe0a3aabfdee08a1527ecc7aea82eff50cbccfacd",
+  "manifest_sha256": "ba8b6d30fa8716b123ffcc63368f37926e95ad8a2682bfdf0b03b017ad7d8552",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T17:55:03.906832+00:00",
+  "complete": false,
+  "readme_checks": [
+    {
+      "before": "8b1b2692982db0c6f81add24c2c8515f1c7a966e",
+      "after": "8b1b2692982db0c6f81add24c2c8515f1c7a966e",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "8b1b2692982db0c6f81add24c2c8515f1c7a966e",
+      "after": "8b1b2692982db0c6f81add24c2c8515f1c7a966e",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 1,
+  "final_topic_complete": false,
+  "original_response_shards_already_persisted_by_run43615829270": true,
+  "all_original_target_root_rows_and_response_solves_recomputed": 0,
+  "original_artifact_receipts": [
+    {
+      "path": "visible-exact-body-rows-2133-3066-43583838026-1/native/rows-02389-02645.json.gz",
+      "sha256": "846a2cbb93477eb545661c93dec4acf80517f6ff634dada2993d2af3055e5c8d",
+      "bytes": 1170241
+    },
+    {
+      "path": "visible-exact-body-rows-2133-3066-43583838026-1/native/rows-02645-02901.json.gz",
+      "sha256": "c7b0e333d4f9f113e148cc3f712e9c468be09cc6f443b0fb0d08f93bc2f7995a",
+      "bytes": 1170546
+    },
+    {
+      "path": "visible-exact-body-rows-2133-3066-43583838026-1/native/rows-02901-03066.json.gz",
+      "sha256": "47478cc195c394afd6a396faeb2c473fcde534812823c90391c84f0b678e4d8f",
+      "bytes": 753252
+    },
+    {
+      "path": "visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03066-03322.json.gz",
+      "sha256": "ada966331fcabf90da9f17597cdd0c4e0a56cfaf6233787e69c2587b104a8a21",
+      "bytes": 1167787
+    },
+    {
+      "path": "visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03322-03578.json.gz",
+      "sha256": "b288b713d0c20872b29f0f976fef2c0bb5e76b58864c522f3917c57746f57e03",
+      "bytes": 1167973
+    },
+    {
+      "path": "visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03578-03834.json.gz",
+      "sha256": "7d1fe0bff8c858375d58a1e563597c6db3bb765b1c0c849b2a1c3def1ba016ac",
+      "bytes": 1166531
+    },
+    {
+      "path": "root/consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+      "bytes": 5923431
+    }
+  ],
+  "actual_prefix_reuse": {
+    "original_process_sha256": "a2731be212a6212e1745cdb2f33d2306b8b54156725ccdb875d1beb05019edf3",
+    "original_native_sha256": "ac235e9e0f9fb1880cc4adc83efc87b2653b0e02e53b0bdd70d20862a3798b0a",
+    "original_native_bytes": 8206,
+    "completed_rows": 1,
+    "original_complete_native": false,
+    "all_source_and_input_pins_unchanged": true
+  },
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-actual-first-Airy-forcing-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-actual-first-Airy-forcing-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-actual-first-Airy-forcing-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-actual-first-Airy-forcing-CI-inputs.json",
+    "--manifest-sha",
+    "ba8b6d30fa8716b123ffcc63368f37926e95ad8a2682bfdf0b03b017ad7d8552",
+    "--out-dir",
+    "/__w/_temp/visible-exact-actual-first-Airy-forcing-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-actual-first-Airy-forcing-science/originals",
+    "--resume",
+    "/__w/_temp/visible-exact-actual-first-Airy-forcing-science/original-first-forcing-prefix.json.gz",
+    "--resume-sha",
+    "ac235e9e0f9fb1880cc4adc83efc87b2653b0e02e53b0bdd70d20862a3798b0a"
+  ],
+  "complete_original_inputs_verified": 24,
+  "actual_scientific_checkout_commit": "8b1b2692982db0c6f81add24c2c8515f1c7a966e",
+  "mathematical_wall_seconds": 1.2164942630000013
+}
