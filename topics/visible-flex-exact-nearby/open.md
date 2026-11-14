@@ -247,3 +247,7 @@ A1–18保完整输入/输出/mean及真ray，可用同strip复sup替代旧C2符
 ### Taylor→Green实际闭合到有限193，误差门仍欠（2026-11-14 20:02:37 UTC）
 
 [实际报告](results/R133-supplement-actual-Taylor-Hessian-same-Z-Green.md)：公开43634452052，child0/8门，完整6391原profiles只重标右通道。负窗ordinary pair误差上界<.010057999485369，仍高于1/200；其中旧body<.003051713267954，right<.007006286192183。真97负荷<2.110928298989e−6、独立mean及known high全保。五次实际pull/两README空diff已root核。继续已启动64原生point，不将完成上界核验当作达标，也不把finite193当full PDE。
+
+### 实际未覆盖外负段已经接到原B端（2026-11-14 20:04:08 UTC）
+
+[X1–33完整证明](results/R119-supplement-actual-uncovered-negative-bridge-and-complete-exterior-root-two-port.md) 将真实(129,2)根 eX 经 cut128/三阶C接到原B。对称主部能量给全频H⁻¹ᐟ²三态双向流<2^1024，真实根/graph/normal shear/两个mean全付，total传递及逆<2^8192。真正onto J-unitary的Möbius合成才给eX⊕B全L²酉scattering；强ordinary/weak/原子合同<2^24576。root核全文及原M/K/F/Q7/V量词，phase独核。剩余必须用真实B端matching和完整内部逆联立X33；mean自然条件及尚未拼平的μ,d界面差继续付，不由酉性假定returned可逆。

@@ -547,3 +547,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### Taylor-Hessian同一Z实际Green结果（2026-11-14 20:02:37 UTC）
 
 [完整证据与分量](results/R133-supplement-actual-Taylor-Hessian-same-Z-Green.md)：43634452052 child0/8门，child wall10.000629s/数学4.227547s；nativead04e1d9…、processa77735a4…、summaryd10b544a…。全6391片/原5970接口与waist/独立mean保留；负窗<.010057999485369，全内<.021467983449804，尚未达到1/200。只改变合法完整右通道，未知误差算子与全high/真实cap交叉仍未付。root亲核source/native/最终279pin身份及5次pull空diff。
+
+### 未覆盖(129,2)外桥与实际根口双端图（2026-11-14 20:04:08 UTC）
+
+[解析证明X1–33](results/R119-supplement-actual-uncovered-negative-bridge-and-complete-exterior-root-two-port.md) 已独立推送。原内部枚举明确排除该分量，本次直接消费真实quintic、TVlogQ、密度比，保两个mean和total-flux约束。strict能量<2^1024，含唯一simple根/完整图/真实物理波的正逆<2^8192；接已成三阶/非负外图得真实eX/B onto酉及强源<2^24576。root全文与原引用核、phase独核通过；只补局部ℓ定义。完整returned逆仍单独欠付。
