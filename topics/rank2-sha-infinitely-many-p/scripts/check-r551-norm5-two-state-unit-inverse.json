@@ -1,0 +1,187 @@
+{
+  "status": "proved exact finite identities",
+  "checks": 649,
+  "g_mod40": 11,
+  "weyl_center_square_mod40": 1,
+  "epsilon_projector_rank": 5,
+  "B_basis_action": [
+    {
+      "j": 0,
+      "image": 0,
+      "sign": -1
+    },
+    {
+      "j": 1,
+      "image": 11,
+      "sign": -1
+    },
+    {
+      "j": 2,
+      "image": 2,
+      "sign": -1
+    },
+    {
+      "j": 3,
+      "image": 13,
+      "sign": -1
+    },
+    {
+      "j": 4,
+      "image": 4,
+      "sign": -1
+    },
+    {
+      "j": 5,
+      "image": 15,
+      "sign": -1
+    },
+    {
+      "j": 6,
+      "image": 6,
+      "sign": -1
+    },
+    {
+      "j": 7,
+      "image": 17,
+      "sign": -1
+    },
+    {
+      "j": 8,
+      "image": 8,
+      "sign": -1
+    },
+    {
+      "j": 9,
+      "image": 19,
+      "sign": -1
+    },
+    {
+      "j": 10,
+      "image": 10,
+      "sign": -1
+    },
+    {
+      "j": 11,
+      "image": 1,
+      "sign": -1
+    },
+    {
+      "j": 12,
+      "image": 12,
+      "sign": -1
+    },
+    {
+      "j": 13,
+      "image": 3,
+      "sign": -1
+    },
+    {
+      "j": 14,
+      "image": 14,
+      "sign": -1
+    },
+    {
+      "j": 15,
+      "image": 5,
+      "sign": -1
+    },
+    {
+      "j": 16,
+      "image": 16,
+      "sign": -1
+    },
+    {
+      "j": 17,
+      "image": 7,
+      "sign": -1
+    },
+    {
+      "j": 18,
+      "image": 18,
+      "sign": -1
+    },
+    {
+      "j": 19,
+      "image": 9,
+      "sign": -1
+    }
+  ],
+  "theta_S5_tensor_coefficients": {
+    "U2_D": 2,
+    "D_U2": -2,
+    "U1_U1": 3,
+    "U3_U5_over_b": 6,
+    "U5_U3_over_b": 6
+  },
+  "degree8_numerator_over210": [
+    [
+      0,
+      8,
+      -130
+    ],
+    [
+      1,
+      7,
+      -165
+    ],
+    [
+      2,
+      6,
+      70
+    ],
+    [
+      3,
+      5,
+      1260
+    ],
+    [
+      4,
+      4,
+      0
+    ],
+    [
+      5,
+      3,
+      1260
+    ],
+    [
+      6,
+      2,
+      -70
+    ],
+    [
+      7,
+      1,
+      -165
+    ],
+    [
+      8,
+      0,
+      130
+    ]
+  ],
+  "source_B": [
+    [
+      1,
+      -1
+    ],
+    [
+      0,
+      -1
+    ]
+  ],
+  "Rc": [
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "physical_A": "(1/5)[[kappa+4kappa^2,2kappa-2kappa^2],[2-2kappa,4+kappa]]",
+  "trace_A": "(4+2kappa+4kappa^2)/5",
+  "det_A": "kappa^2",
+  "new_ray_conditions": []
+}

@@ -144,27 +144,27 @@ R505的ξ=3Tβcont(F)，接触余核对偶H0(C,KX|C(qP))、q=h−k；q<χ才可�
 
 R514/517 的完整固定3/2charge返回、十九角/ambient门、原Γ转置和r缓冲条件保[本轮归档](notes/2026-11-14-open-before-r544.md)。R543/545/547只按各自实际预算扩展，FH2从未等于全J。R521固定边界长3c(u+4b)与显示forcing残数b²m(4t0−1)仍须杀真正res H0(3C,IηLc)和全部原列。R524真边界核的三层及两条连接α/β保持同源，第一层负度不能删另外两层。**待做：** 原二次临界候选的完整联合边界像、forcing与同一R/carry；不能把边界非零、局部Taylor清极或容量算作原jet非零。R550正沿实际(F,e)H2交概形继续。
 
-R522 已付共同H0的整个三度偶张量；H0unit正六次测试保其余五输出全部联合，同时还原原S/两T且被T和旧W核原样保留。原五深网格测试质量整条0，Y中央v5n无需新ray，两个T归一局部差也v5n。**待做：** 在这同一个测试下控制原三条完整补域及第一Y移动；H1unit可加，不能把全域两T相等与非零子域差当矛盾。
+R522完整结论、准确预算及原条件见[R522](results/R522-common-degree3-even-factor-and-same-st-positive-test.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 在这同一个测试下控制原三条完整补域及第一Y移动；H1unit可加，不能把全域两T相等与非零子域差当矛盾。
 
-R527 H0/B六次逆和四输出联合、A深完整逆域/三处移权、中央与非零质量v5n保[完整接口](notes/2026-11-14-open-before-r529.md)。**待做：** 原S/T不同unit管的补域；保七质量项、四R及固定大p门。
+R527完整结论、准确预算及原条件见[R527](results/R527-original-h0-b-sixth-inverse-and-complete-joint-carry.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 原S/T不同unit管的补域；保七质量项、四R及固定大p门。
 
 R526原低轴PlogTheta=2t/3、T≤2Δ+1有理接触界和单/两权核排除保[此前完整接口](notes/2026-11-14-open-before-r525.md)。多权已由R525推进；完整M/后两块/固定conductor未删。
 
-R528 D14三轨道正测试保π3，原子管差/质量v5n；与R522差给真正同域混合零行。全log矩/固定坏集保[完整接口](notes/2026-11-14-open-before-r529.md)。**待做：** 隐藏纤维补偿与原观察核；D_n不是π3事件。
+R528完整结论、准确预算及原条件见[R528](results/R528-degree14-three-orbit-positive-test-and-complete-mixed-row.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 隐藏纤维补偿与原观察核；D_n不是π3事件。
 
-R525已付原有限低轴的全次数resultant零估计及真实多权Wronskian门H≤C+E+q[2k(3C+E)+2q+1]。二次临界非零核至少常数N^(1/3)权；低ell时至少((17/147)^(1/6)−o1)p^(1/6)，primitive p²/p³约化同受限。**待做：** 与原三层连接/forcing及全部carry联立，或加强到允许的O(N)支持；当前支持发散本身不排原核，也不赋中央非零。
+R525完整结论、准确预算及原条件见[R525](results/R525-original-multiweight-wronskian-and-growing-kernel-support.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 与原三层连接/forcing及全部carry联立，或加强到允许的O(N)支持；当前支持发散本身不排原核，也不赋中央非零。
 
-R529已付J/K whole6、E whole9 β及Kunit六次逆；任意J深返回整个(J,Y,ξ2,d0)和原S。原五深小管v5n、质量整条0，同域W−6δY差v5n+3，无新ray/大p门。**待做：** 保W的K/E项，将原T行的Kdeep1及P0−P_K两补偿与完整carry补域联立；不把四输出身份冒称S/T共同返回。
+R529完整结论、准确预算及原条件见[R529](results/R529-original-low-j-k-core-and-complete-st-carry.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 保W的K/E项，将原T行的Kdeep1及P0−P_K两补偿与完整carry补域联立；不把四输出身份冒称S/T共同返回。
 
-R530已付来源/全目标两端p除连接的整共轭与同一p²左右提升的完整混权和，保所有Gauss/高尾/wrap；统一移位可逆及有限精度小整数代表已付。**待做：** 原实际配对与C2，不由源可逆代像饱和；严格限同一B或conductor·B矩阵，裸Q保A未证。R534已用P/VP双接触支付跨s精度；不能把ODE自身延长。
+R530完整结论、准确预算及原条件见[R530](results/R530-divided-graded-connection-full-integral-gauge-and-mixed-second-precision.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 原实际配对与C2，不由源可逆代像饱和；严格限同一B或conductor·B矩阵，裸Q保A未证。R534已用P/VP双接触支付跨s精度；不能把ODE自身延长。
 
-R531已付两套纯伴随框架C/F与D/E、wholeβ和实际Γn carry；Qhat_n逐次数逆返回整个(Y,W,W′,G)，原Y/W不移。原D_n三中央/质量及两差均v=n，完整五项质量和所有log保留。**待做：** 控制同一Γn内的真实纤维补偿，并用真正改变Y的原操作接完整中央；D_n不是所保π4的事件，不能丢补集。
+R531完整结论、准确预算及原条件见[R531](results/R531-hidden-two-frame-native-central-carry.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 控制同一Γn内的真实纤维补偿，并用真正改变Y的原操作接完整中央；D_n不是所保π4的事件，不能丢补集。
 
-R532已付原J/A5完整六轴框架及whole核心；真实二维来源准确是两个原整张量之和、秩二，混合矩/原Y系数完整给出。Kunit逆返回(J,A5,B2,C30)，原五深网格的六条件精确重写。**待做：** 用同一完整张量与原W的全部六系数联立实际补域；两个边际都零不等于联合源零，旧W隐藏项不能删。
+R532完整结论、准确预算及原条件见[R532](results/R532-original-j-a5-full-frame-and-rank-two-source.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 用同一完整张量与原W的全部六系数联立实际补域；两个边际都零不等于联合源零，旧W隐藏项不能删。
 
-R534已付P、VP同时消至T≤3s的全参数零估计，原三Gaussian行的真实Wronskian法向误差完整计入。首核支持界左端2(s−d)+ell，primitive p²/p³约化由真实m_d的0/1 Smith去掉2d损失，左端准确2s+ell；二次临界支持≥((3/7)^(1/3)−o1)N^(1/3)，低ell≥((68/147)^(1/6)−o1)p^(1/6)。**待做：** 原允许O(N)支持的核与两真实α/β连接、原forcing及同一整修正；支持发散不等于核不存在，不新增来源中央零。
+R534完整结论、准确预算及原条件见[R534](results/R534-original-three-gaussian-wronskian-double-contact-and-sharp-support.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 原允许O(N)支持的核与两真实α/β连接、原forcing及同一整修正；支持发散不等于核不存在，不新增来源中央零。
 
-R535已把原三sigma准确写成Norm3 Fourier框架中的完整Hesse五项，付清相位/全部theta型及整来源；E深/Kunit/R3deep五输出四项核和原D_n全部高阶中央式全显式。**待做：** 在这个同一来源中找真正混Y的完整关系；旧W的E系数非零，须用未忘E的五项测度及真实log/单位域，七个低矩不足。原补域未消。
+R535完整结论、准确预算及原条件见[R535](results/R535-original-hesse-tensor-and-complete-mixed-kernel.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 在这个同一来源中找真正混Y的完整关系；旧W的E系数非零，须用未忘E的五项测度及真实log/单位域，七个低矩不足。原补域未消。
 
 原Fermat商移位族的范围已在[整谱投影与核方程说明](notes/2026-11-14-fermat-shifts-and-kernel-syzygy-boundary.md)证明：它恰生成canonical j对角算子，全部完整配对是Cα=M Qα−F*α M的核方程组合。**待做：** 计算尚未完成的原候选/实际提升或支付核像稳定；仅增加α/有限差分不新增独立Smith条件。
 
@@ -235,3 +235,7 @@ R541第三η支的全部23坐标给N7^9Fη=Fη+S(2z)，原S投影−1/2、E2312�
 ### R550：整个H3的真实分歧像与forcing有限商
 
 同预算(F,e)H2的Koszul商是长κ的真实交概形Z，整个H3物理首核在Z的像准确为ev_Z(kerβ)，且ev_Z在N³(−TP)上单射；理想块核为F Kmir，两条原连接保持。完整清极forcing用乘积厚化长κ+9d∞保固定边界重叠，局部分歧单位不代原全像非零。见[R550：原H3首核在分歧商的真实像](results/R550-actual-ramification-koszul-quotient-and-full-third-kernel-image.md)。**待做：** 原特定forcing/ξ是否满足res_Z kerβ与res真实三层核的完整相容，并与R547 cube列、R545和原全部W_D列联立；H3→Z已满射不能把该商再当额外独立障碍。R552沿同一原M的T=s−r−13和全部carry继续。
+
+### R551：原Norm5完整两态和连续测试unit返回
+
+现有ray的whole degree20 canonical核心由原odd5锚绝对定标，R=c+2d/Q=2c−d在整个ρ0/η两态上同为χ65λ(−R0)，无新ray。Q保原Y，全部连续两态测试有整一致收敛unit逆；原c+Q两步返回同源，但物理矩阵、W移权及所有实际域完整保留。见[R551：原Norm5两态与保Y的完整连续单位逆](results/R551-original-norm5-two-state-core-and-complete-unit-inverse.md)。**待做：** 用同一个U_Q把R544实际η测试差/唯一余域联到R546原算术行；Q保Y但W随κ^nQ改变，所有log、非齐次ρ0项及CM分支保留。两步词只给完整逆权域，不自动赋未移动原域中央零。

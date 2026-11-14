@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R551：原Norm5两态与保Y的完整连续单位逆](results/R551-original-norm5-two-state-core-and-complete-unit-inverse.md)：现有ray的whole degree20 canonical核心由原odd5锚绝对定标，R=c+2d/Q=2c−d在整个ρ0/η两态上同为χ65λ(−R0)，无新ray。Q保原Y，全部连续两态测试有整一致收敛unit逆；原c+Q两步返回同源，但物理矩阵、W移权及所有实际域完整保留。
+
 - [R550：原H3首核在分歧商的真实像](results/R550-actual-ramification-koszul-quotient-and-full-third-kernel-image.md)：同预算(F,e)H2的Koszul商是长κ的真实交概形Z，整个H3物理首核在Z的像准确为ev_Z(kerβ)，且ev_Z在N³(−TP)上单射；理想块核为F Kmir，两条原连接保持。完整清极forcing用乘积厚化长κ+9d∞保固定边界重叠，局部分歧单位不代原全像非零。
 
 - [R544：原S3两态与三个真实环带补偿](results/R544-original-s3-and-exact-mixed-unit-complement.md)：原第三η支与ρ0在带ω²的H及输入反射下成完整S3，三个旋转框架的whole核、逐步归一词域和六步混Y返回全付。Lunit精确拆成三不交环带与唯一全单位余域，原S/T双零接到一个明确η测试差；同一L-odd六输入有负矩单位，但原补域、混合权和外谱全部保留。
