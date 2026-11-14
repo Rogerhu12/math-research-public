@@ -618,3 +618,5 @@
 - **R696（已证明）**：[同一个实际全局CM同构迫使候选坏处零靶](results/R696-actual-global-CM-isomorphism-forces-zero-bad-height-target.md)。用R317完整分解群的标量中心化子跟踪给定Φ；奇分支与偶分支四阶τ均保留唯一CM Cartan，实际候选λ2=λ3=0，Ω_actual={0}。变化d只经原局部同构运输，未换全局商。实际p处Λ jet、赋值及统一全尾仍待求。
 
 - **R626（已证明）**：[SS_j0_16原规范高度与整盘排除](results/R626-SS_j0_16-actual-ramified-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2约化二次式判别式29非平方，四同标签全无根。非CM SS累计55/105。
+
+- **R627（已证明）**：[SS_j0_17原规范高度与整盘排除](results/R627-SS_j0_17-actual-ramified-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2模47根[8, 46]与四同标签F3不相交。非CM SS累计56/105。
