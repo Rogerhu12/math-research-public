@@ -468,3 +468,8 @@ request12仅banddirection，入口0149e7f1…消费真band run的完整step/rhs/
 ### 2026-11-14 12:30 UTC — request13 actual response check passed, full solve running
 
 公开run43594985550/source821fded1于12:28:21Z创建；job132447496553的真实完整physical-angle response步骤已success，现进入全带LU联解。尚无联解接受或完整artifact，不预报FD数值。下一步持续取真实输出；同g Rφ精化、R251全域operator实现与R254新prefix非平面证据并行准备。
+
+### 2026-11-14 12:42 UTC — actual physical-angle failure preserved and terminal-unavailable fallback
+
+run43594985550真FD9.65016e−10通过，新切口条件明显改善；全带LU相对残差8.22590e−7/方向352.439，17trial仍全坏、零接受、新H请求0。30件artifact已公开publisher成功e61dbf4，失败note/H/open按真实终态更新。
+12:35:50共享执行环境不可用，终端实测失败；按根Rule8用连接GitHub小文本同步，未把API读取冒实际pull。下一公开Actions检末bridge原解析seed加密/实际传播，全部原门保留；未推R254/operator源码按幸存上下文重建。

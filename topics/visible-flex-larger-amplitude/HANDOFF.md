@@ -1,54 +1,53 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-/root，visible-larger-public-resume-20261114，GPT-6 Astra Pro（AI辅助）。**未完成，继续真实大幅闭族与同g精化，不等阶段确认。** 细节以本日notes/原Actions报告及Git历史为准。
+/root，visible-larger-public-resume-20261114，GPT-6 Astra Pro（AI辅助）。**未完成；持续推进真实大幅闭族与同g精化，不等阶段确认。** 详细证据在本日notes、原Actions报告及Git历史。
 
-## 授权、规则、现场
+## 授权与执行
 
-用户直接授权公开Rogerhu12/math-research-public的commit/push main和本仓Actions；旧审批阻塞已解除。PAT仅瞬时CLI环境，不入文件/日志/提交；不强推。已读根README全部授权及14规则。每push前pull --rebase；非快进立即循环到成功。至少每小时pull，每次核根/本题README差异并立即执行，已读SHA在末行。root独占Git/H/open/log/workflow，子线交冻结文件。
-重计算只用本仓Actions（4CPU/16GB）；本地只读/源码/准备/压缩取回。完整证明直接results（Rule12），不加独审审批门。H<10KB、md<100KB，数据>1MB gzip、每件<5MB；不写根LOG。
-clone=/workspace/scratch/e959e57ee07f/math-research-public，实际在/home/agent/vl-e959以避overlay满盘；窄检出，禁gc/maintenance/大树ls-tree -l。旧B=/workspace/scratch/ffc1334c1988只读。ee26c0a6的Rule1/13差异已读，此后每pull仍核；手动dispatch403不可用，只用push request明确lane。
+仅公开 Rogerhu12/math-research-public；用户授权 commit/push main 及本仓 Actions。PAT仅瞬时CLI环境，不入文件/日志/提交；不强推。根README授权及14条已读；每次push前同步main、检查根/本题README，有变只读差异。非快进立即重新同步到成功，至少每小时一次。root负责Git/H/open/log/workflow，子线交独立源。
+全部科学计算在本仓Actions；本地仅读、源码准备与结果取回。Rule12完整证明直接results，不加审批/独审门；H<10KB、MD<100KB、数据>1MB gzip、单文件<5MB；不写根LOG，禁完整克隆/gc/maintenance/大树ls-tree -l。
+12:35:50Z共享执行环境 unavailable，exec实测不可用。按Rule8使用连接GitHub小文本fallback；不经工具传PAT/二进制，不把API同步冒git pull。最后已确认实际pull记录是12:33:44/705fcc9a8eab0d4aacb78bfbe9d7cb4de2099e07，随后状态确实已推远端。恢复终端先核checkout/进程/未推文件，勿直接重置。
+原clone=/workspace/scratch/e959e57ee07f/math-research-public（实际/home/agent/vl-e959），旧B=/workspace/scratch/ffc1334c1988只读。手动dispatch403，不重试；push request指定lane。读README的最新SHA在末行。
 
 ## 完成标准
 
-同一固定g、连通闭C²嵌入且t↦F_t在C²拓扑连续；固定H有内点，diamH和真实表面像Hausdorff δhold均≥.2D；含反射商δE>0；全t reach≥.03D；全域相对metric≤1e−6；同g/参数/t范围精化时等距误差到机器或原solver容差；不另加六jet机器收敛门。D为完整闭F0直径，H可两固定帽。交数个<5MB网格并说明严格存在差距。开放前缀、代理、有限采样、小幅A均不足收尾。
+同一固定g、连通闭C²嵌入、t↦F_t在C²拓扑连续；固定有内点H，diamH与真实整面像Hausdorff δhold均≥.2D；含反射δE>0；全t reach≥.03D；全域相对metric operator≤1e−6；同g/参数/t范围精化时等距误差到机器或原solver容差，不另加六jet机器门。D为完整闭F0直径，H可两固定帽。交数个<5MB网格，说明数值与严格存在差距。开放前缀/代理/有限采样/小幅旧A均不够。
 
-## 原真实接受输入与已失败尝试
+## 真实输入与当前失败
 
-仍用真.99：notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz，SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff。M96/N1024、423节点、固定前3/释放93核，RMS5.45704e−7/BC3.47e−18；两档材料C²三归一化分量metric5.77368e−7（非operator），κ6.30138，完整核rho>.1638501198935/G≈.960000980454，**不是闭面**。
-run43582043166/free3的.996/.9975虽BVP接受却metric失败，.997875 Newton失败，62件归档。完整scalar由.99接AngleConnector/coast/finitebridge到r=.3、s_end=2.271004035438285，含z0；690 warm残差.00711非解。M96首DN线性残差.57657无接受步；R244后控制支撑改prefix三段，但v2真RMS域仍失败、未到QR/tail。R247精确解释coast中点盲点，原失败note完整保留，不重跑无改因分支。
+唯一原大核接受源：notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz，SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff。M96/N1024、423节点、固定前3/释放93核，RMS5.45704e−7/BC3.47e−18；材料C²三分量5.77368e−7（非operator）、κ6.30138、rho>.1638501198935/G≈.96000098；不是闭面。.996/.9975虽BVP接受却metric失败，.997875失败，旧分支不原样重跑。
+完整scalar从.99接AngleConnector/coast/finitebridge到r=.3、s_end=2.271004035438285。R244后3支撑在prefix。M96增N不治圆warm域失败；112/128/160代表点过不代全域证书。选M112/T112/N2048原Frenet方程，96只作初猜。
+v3共453=338物理+112core+3p，左341/右112，固定前3core。request08/run43588155190 prepare112真成功：699节点node/mid/两RMS域全过，min beta²=.005082723249，col=.007110595仍非解；prepared SHA0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714。原453行FD9.51769e−10用ready仿射，不冒实际J。
+同run真T112零锚1351.74s、完整338×112 J/577×224states/full audit；response6b4ff3e5…，resid0，J-second相对1.524e−12，ready差.035157884。T96自己的真锚已付但绝不替T112。七件strict缓存只同源/config/capacity/ready/rawState的exact零H、audit=False首请求；worker仍启动，新H/最终audit真求。
+request10/run43590496434真QR失败：相对线性残差.913332499、方向9658，17trial全坏，零接受，966插值invalid；不只3参数近核。request11/run43592195185完整带LU info0、原相对残差3.27382357e−4/方向5832.77，校正变差不采用；17trial坏、零接受、新H请求0。大pending仅artifact。两note actual-M112-first-QR-failure-and-banded-next / actual-complete-band-LU-result-and-direction-next 保全全部事实。
+request12/run43593855655/source8a764c65真success：实际P cond1.14478e17、均衡不治；真方向全θ L2=4942而保留112仅7.10；α至2^-40仍坏mid，无finite Taylor观察，不称不存在Taylor区。独立Jd残差8.9888e−5 vs带矩阵2.3279e−6；41.907s无新Jac/尾/接受步，81338496已归档。
 
-## 当前M112/T112主线
+## 最新实际结果与下一计算
 
-真circleprobe选最小112；M96增N不治域失败，112/128/160代表点过不代全域证书，细节见circle-probe note。
-M112/T112/N2048是原有限Frenet方程，M96仅初猜且来源身份保留。v3共453=338物理+112core+3p，左341/右112；前三core固定、4..112释放。所有原非线性门留存，不用analytic lift或ready代理QR；request11仅换原线性矩阵解法。
-request08/run43588155190 prepare112真success：699节点node/mid/两RMS域过、min beta²=.0050827，col=.007110595仍初猜；prepared SHA0f94dd88…，453行FD9.51769e−10（ready非真DN）。细节见M112-complete-preflight-and-BC-response note。
-同run真T112零锚/artifact14111343237完整338×112 J/577×224states已付；response6b4ff3e5…，resid0，J-second相对1.524e−12、ready差.03516、chart cond3.856e20不冒稳定。strict七件身份见actual-T112-zero-anchor-and-J-audit note。
-request10/run43590496434/sourceeef66c97真failure，artifact14112675738已取回22件、bot归档小包。实际QR699/453首线性残差.006494337572/RHS=.913332499，最坏interval697/z110，方向max9658；17回溯全非finite、无接受步，随后966点invalid。core/p/左BC仍近roundoff，rightBC1.996e−7；小方块几十方向在浮点噪声，不能称仅3控制核。零锚strict复用一次、整个anchor/J同原实际，新H worker请求0。详见actual-M112-first-QR-failure-and-banded-next及zero-cache-boundary两note。
-request11/run43592195185/source4f0af15c真failure：完整带LU info0、共享指针、13.274s、RSS5717864KiB；原残差/RHS降至3.27382357e−4但方向max5832.77，normwise backward2.13e−18不代相对残差。一次校正变差未采用。17trial全非finite，α=2^-16仍52坏node/122mid/112右BC；无接受步，966插值再invalid。真零锚复用1、新H request0。26件artifact14113206288已取回，publisher漏lane已修，25件限额内补归档。详见actual-complete-band-LU-result-and-direction-next note。
-request12/run43593855655/source8a764c65真SUCCESS，artifact14113836291六件已取回且81338496归档。实际P cond1.14478e17，均衡1.50380e17；真方向全θ L2=4942/保留112仅7.10，比例.0014376。α到2^-40仍坏mid697，无完整finite/Taylor；独立Jd残差8.9888e−5 vs带矩阵2.3279e−6。未新Jac/尾/接受步。据R252新φ测试已接request13，同时记旧Rθ/缺项/均值/全角谱；详见actual-direction-projection-and-physical-test-next note。
+request13/run43594985550/source821fded1，job132447496553已终态FAILURE；artifact14113948667，30件/23,886,772B，publisher成功e61dbf4。原输出 notes/public-actions-43594985550-1-coupling112physical/。
+真实T112全J/非零H的R252完整φ边界FD真过：Richardson9.650162479919298e−10、17.774s。新右块cond621945/均衡2956.89，同旧Uend方块119589.8；切口明显改善不代全局稳定。完整带LU info0、5.995s/RSS5733092KiB，保留一次校正后原相对残差8.22590205e−7、方向max352.439；第二次变差弃。17trial全非finite，2^-16仍78坏node/124mid；966插值19坏mid，零接受、新H请求0，readout/closure/R249跳过。详见 actual-physical-test-failure-and-bridge-resolution note，不能把旧Rθ warm≈1.3378e−8写成新进展。
+下一计算检查末bridge分辨率/真实局部L/R：保留699旧点，仅新点用原p=0解析圆投影与完整均值重新评价，绝不插值失败966。圆参照k²条目强非正规，不当作k²特征增长；以k√(|app|/(a(1−ap²)))及坐标旋转作选网格参照，必须与当前有限Jac比较。仍用新Rφ、真实T112、全部原方程/容差/max1200，不原样重跑或只抬上限。新入口正重建为小文本blob，尚无新数值。
 
-## 尾、接缝、同g身份
+## 尾、接缝与同g精化
 
-T96真锚已完成，不重跑/不替T112。seeded_zero_tail_client七件strict bundle只复用同M/N/source/config/capacity/ready/rawState的exact零H且audit=False首响应，worker仍初始化；新H/audit=True真求。
-R239连续均值唯一/单SE2六jet是条件定理，有限DFT不自动满足。physical已含z0，不再加旧A mean；φ有限频可含无限θ谱。材料包必须读取真实完整scalar schema及全p*/supports；新场要自己的实际最终H尾。large_core_saved_prefix/closed_assembly已支持完整mean、单SE2、全角cut0/1/2jet修补；v3 dispatch由geometry接续。core witness也随SE2变，G≈.96不能直接冒新像距离。
-R240：材料g=ds²+a(s)²dθ²与core c无关。定型后冻结完整a(s;p*)/尾帽g/区间/t范围，释放全core，K0/k0/T=M、增广4M+2；先按原design重建scalar再升M，新H真重算。Ntail>8M，帽中心固定图册。same_metric_profile/prepare/response/full_dn及saved_prefix/readout/material_tail_packet/closed_assembly/after_accept均已接v4，永久嵌套首v3完整p*与canonical SHA，K=k=0、450/514维，真parent/final-audit/config逐字绑定；尚无v4数值。CLI见same-metric-refinement-executable-interface及same-metric-physical-consumers两note。
+R239连续均值唯一/单SE2六jet为条件定理，有限DFT不自动满足。完整physical含z0，不再加旧A mean；有限φ可有无限θ谱。真实接受后立即自己的H尾、全角cut九jet/均值/核心证书/球排除、唯一SE2与有限C²修补预算、上下尾固定帽闭合。v3所有saved_prefix/readout/material_tail_packet/closed_assembly/after_accept已接，R252另记原Rθ/投影缺项/正确均值/完整谱。
+R240：共同材料g=ds²+a(s)²dθ²与core c无关。首v3定型后冻结完整p*/a/尾帽/区间/t范围，释放全core、K=k=0、T=M；v4为450/514维，永久嵌套首v3 spec及canonicalSHA，真parent/final-audit/config绑定。原v4准备/FD/fullDN及五消费者已就绪，尚无v4实际解；新Rφ v4包装未完成。拟使用同一live TailClient完成实际H/J→FD→solve以保worker predictor，不用任意非零跨进程cache冒相同状态。
 
-## 已完成旧基准及当前几何工具
+## 已证明及后续消费者
 
-旧A幅度比.0630146<.2；真RK24/48、tail、三mesh和R241 q8全部2157568子对已付（uncovered0），连续包络仍输入，不移植新场。旧GW/R245/真实stage28/RK48已定位读出误差，局部metric随f8/16/48下降；旧A/GW封存、不重跑或追额外机器六jet门。数据及SHA均在原note。
-R248已证有限C²相位强连续（无需C³）、准确反射三parity、全t metric/κ归约；未标记reach可一次空间证据，marked仍付R24/R11，真实held帽扰动仅损A。
-R249已证独立共享节点入口规范形：只将首节点完整z值/XY一导/z二导置零，变化限首单元，精确反射C²；完整cut九jet/mean/H/SE2不变。给有理Bernstein/材料角九jet差及operator/曲率代价；实际修补预算待成功场Actions，不改accepted。inlet_parity_normal_form支持v3/v4及复用complete-4尾读出；新plan须新heights，不能混旧网格。
-R250证明完整正密度对称换角的连续P及偶数N>4M精确DFT非mean方块det>0；不给条件数或全DN可逆，不能把数值小奇异值直接称精确投影丢维。
-R251直接operator证书：原φ中两Loewner矩阵四正性；同g的a²上下包络、Bernstein/全角Taylor及次数账完整。K=M行列式带宽8M、DFT N>16M。完整scalar见piecewise-envelopes note：prefix415五次+bump六次；turn48/bridge64原有限Gauss和，bridge实际7.5而port旧tag8，均不换g；无新数值通过。
-R252完整φ测试/全Jac/均值与两投影差已证。request13/run43594985550/source821fded1，job132447496553实际FD step已success、全带LU联解进行中。真T112 J/非零H完整FD→新旧R/均值/全角谱audit→真尾闭合/R249已接；新有限Rφ不等价旧Rθ，完整C²/metric/几何仍独立支付。
-R253已证固定C∞正非恒密度下连续P_M及所有偶N≥(4+ε)M精确DFT的σmin超代数小：严格有限无均值源窗、全alias统一非驻相、均值同控。与R250可逆相容，不预判M112或全BVP。
-full_state_continuous_cover已接v3/v4完整位置/法向、R249同一definition和记录SE2，R241门原样。full_state_held_hausdorff补新packet/SHA链，原全活动块+完整帽盘距离、D/.2门不变，reach可独立。K/metric/误差仍条件，两接口未新数值。显示静态预算：同seed699–1200点可N32/九相位、最大4656978B；2305尾节点仅显示锚点入mesh，不删物理数据，见display-byte-budget note。
-R238/R242/R243/R246的含反射非全等、无平片、共享C²、operator界都保持原条件，新场须自己的输入。
-W/D/K设计窗口及旧A峰值不得移植新场，见tail-curvature-and-diameter-design-window note。
+R248：有限C²已足相位C²强连续，不加C³；准确反射parity，全t metric/κ归约。未标记reach可一次空间证据，marker仍付R24/R11；真实held帽扰动只损A。
+R249：共享节点入口规范形只改node0的z/XY一导/z二导，局限首cell、exact反射C²，cut九jet/mean/H/SE2不变；全有理修补成本含operator/条件κ。消费者可复用同场complete-4尾，新plan必须新heights；尚无新接受场实际预算。
+R250：连续及偶N>4M精确DFT材料P非mean块det>0，不给条件数。
+R251：原φ两Loewner矩阵四正性即operator<η，原a²上下包络、Bernstein/fullangle Taylor及次数账已证；K=M行列式带宽8M，DFT N>16M。scalar note保原415五次/三个六次bump/48与64有限Gauss；实际bridge7.5不按旧tag8重建，ap/app不冒有限和真导数。严格cell实现失效前落盘，远端尚未确认；full-prefix/同源scalar descriptor继续，小源重建赋新身份，所有数值仅Actions。
+R252：新完整φ有限边界/全Jac/均值/两投影差已证，不是旧Rθ等价预条件化；实际request13见上。
+R253：固定C∞正非恒ρ下连续P_M及全部偶N≥(4+ε)M精确DFT σmin超代数小，与R250相容，不预判M112失败因果。
+R254完整proof及精确有理prefix非平面消费者失效前落盘、未推；按幸存上下文重建blob后直接登记。完整物理z0/共享节点Hermite，每cell四仿射独立点排平面开片；后备6径向×(4M+3)有理圆点是完备判别。只证prefix，tail/collar/marker/含反射δE仍须同场输入。
+full_state_continuous_cover和full_state_held_hausdorff已支持完整v3/v4、R249同definition/记录SE2/全mean；原R241空间门、全活动块+完整帽盘的真像距离/D/.2门保留。K/metric等包络仍条件，未跑新场。held不必等reach全部付完才能读。
+显示预算已证同seed699–1200可N32/九相位、PLY上界4656978B；2305尾节点只显示采锚点，完整物理不删。R238/R242/R243/R246及W/D/K窗口均保自己的条件，不移植旧数值。
 
-## 保全及接续
+## 封存、保全、恢复
 
-request05—09全成功；10/11实际首步失败已定位，下一诊断消费真方向。准备/pending非接受；public_asset路径和publisher新lane均已修。966点pending超5MB仅artifact，Git保SHA/复现身份。
-旧geometry26/strong90/GW35件已逐SHA保全；manifest是历史身份。strong R6磁盘SIGTERM143无接受步、raw未全迁，旧支封存。公开源78件匹配原91清单，不读private；自有transport分支只助大blob普通推送，无force。
+旧A幅度.0630146<.2；真RK24/48、三mesh、R241 q8的2157568子对uncovered0已付（连续包络仍输入）。旧GW原stage28/RK48六节点同raw/mean/g，局部metric f8/16/48降1.18e−8/1.26e−9/1.62e−10，κ7.646；旧A/GW封存，不重跑或追额外机器六jet门。
+旧geometry26/strong90/GW35与43提交已保全；strong R6磁盘SIGTERM143无接受、raw未全迁照实，不复活旧支。公开源78件匹配原91清单；不读private。环境恢复先核未推R254、operator cell、未完成Rφ v4三源；不能因本地曾有文件就记远端已推。
 
-规则同步记录：2026-11-14T12:33:44.859924+00:00 实际pull --rebase成功；双README自38a8966无变化，已读提交 705fcc9a8eab0d4aacb78bfbe9d7cb4de2099e07。
+规则同步记录：2026-11-14 12:42:20 UTC GitHub小文本fallback读取最新main并核对双README内容SHA与此前相同；无差异。此为远端API同步，非终端pull；已读提交 51236ba2279e6337760b264ba593d93aac228264。
