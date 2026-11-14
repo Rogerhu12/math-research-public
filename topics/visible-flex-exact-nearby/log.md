@@ -591,3 +591,7 @@ root逐节核P1–37及真实global T根stable正号、完整mean源、density n
 ### 2026-11-14：完整原物理 Q7 差已单独推送
 
 根逐式读D.1–36，核对Möbius有序差及两条酉Poisson恒等式，避免未付actual H1逆或错接free Airy frame。均匀差δ^-38消费一次middle角阶和同Wcal^-2后幂1825/16；无新数学运行。此结论仅全物理差及裸中频压缩，不能据之宣布actual全inverse。tail继续两外真实Schur与源/标签权。
+
+### 2026-11-14：精确 compact-bump 与 full Z 已缓存源消费者
+
+根完整读新producer/CI/合同/flow，逐项比较136manifest保旧131SHA全不变。新有理展开准确同bump及径向导数；先抵消再取系数范数，保Arb/binary各误差。原14格和已完成80 target jets全复用，新调用0；fullZ从raw两行含mean及完整offset/背景修补费出发，qstar另列。独立Actions将给实际改善，尚不记全cover或response成功。
