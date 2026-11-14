@@ -2,6 +2,9 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R491：原赋值格的因子整提升与齐次双jet障碍](../results/R491-valuated-source-factor-lifts-and-homogeneous-joint-obstruction.md)：原W_D清固定d分母后准确为六角Gauss半空间，逐因子同时保有限角和无穷远次数整提升；实际cube可在同预算选真正因子化基准，故双jet仿射偏移在原余核恒零。三源规范化同样成立，固定conductor、原J forcing与M全部carry不变。
+
+
 - [R488：共同A绝对odd29核心、完整四态与实际D8返回](../results/R488-original-shared-a-odd-core-and-actual-even-depth-dihedral-return.md)：固定mod29细分付共同四输入的odd29标量及绝对平方；十六个中心相位给原A/c/d四态，A两深与旧W核在三个独立原来源上生成D8。全三曲线/参考条件行、h/u/v整个边际和λ12词像格均付，物理补域仍完整保留。
 
 

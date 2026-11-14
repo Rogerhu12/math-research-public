@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：698177e4592800c62039751e1582bff5094a1124；2026-11-14 11:40:19 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：61182517cbfda0f5dd73368f818e1fdc3ea0d038；2026-11-14 11:41:43 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - bc04092b规则差异已读：根1/13将“六个课题”改为上表课题，新增另课题；不影响本课题范围与完成标准。
@@ -15,8 +15,8 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–489已登记，R364仍开。未推丢失的R235/R237及迁移R437/R438已全部重做发布。最近R486=fd4247ce、R485=be844109、R483=7431df35；R489=4d617c4a、R487=d928acf6；R488本次登记。完整提交见课题log。
-仅在`/workspace/scratch/4fe3fb9f2a50/math-research-public`的main工作；旧库只读，overlay满后完整移到`/tmp/rank2-old-repo-4fe3fb9f2a50`并保原路径symlink，未删历史。代理只写自己证明/脚本，root统一元数据与逐条push。theta续R494混合B56真实核心；literature续R493三态真实词域/二挠联合因子；deep续R491真双jet对偶行与原ODE；root续R490真实degree26因子与完整连接。
+R1–363、R365–489、R491已登记，R364仍开。未推丢失的R235/R237及迁移R437/R438已全部重做发布。最近R486=fd4247ce、R485=be844109、R483=7431df35；R489=4d617c4a、R487=d928acf6；R488=3b994a7c；R491本次登记。完整提交见课题log。
+仅在`/workspace/scratch/4fe3fb9f2a50/math-research-public`的main工作；旧库只读，overlay满后完整移到`/tmp/rank2-old-repo-4fe3fb9f2a50`并保原路径symlink，未删历史。代理只写自己证明/脚本，root统一元数据与逐条push。theta续R494混合B56真实核心；literature续R493三态真实词域/二挠联合因子；deep续R495真齐次双jet对偶行与原ODE；root续R490真实degree26因子与完整连接。
 
 ## 主目标和完整旧接口
 
@@ -54,7 +54,9 @@ R486分级∇_m=t∂t−ceil(m/68)·t a′/a零增权，标准基上是j；加�
 
 R489原连续2b charge已在F²厚化上完整限制，同一实际R的值长V/ER长N满足式13两界时联合满射；低A_D双行由原相邻charge单位填齐。界外真余核由厚化对偶层及全部其他原列筛选给实际行24；原−2/5目标的配对是unit×(a_(−N′)−(2/5)u0(−1)^h b_(−V′))，仿射基准完整保式29。D=3b最坏u≈b时法向界主项−b²/4，未覆盖全临界窗；联合分支满射不等同J/M提升。
 
+R491原d^C_D W_D准确为六角Gauss半空间，逐系数先提全部互素Hensel角因子再提同次余因子，严格同预算保持每个因子全部角值/∞帽；实际t^rF³Q可选真因子化整基准。任意其他基准差为原W_D列加F²项，故R489仿射右端对真左行恒零，式29化a_(−N′)−(2/5)u0(−1)^h b_(−V′)=0。B≤N同样可因子提升；固定conductor不免费重分解，原J forcing/ξ、M两carry及第三位均不消。
+
 ## 其他开放支线与继续顺序
 
 O4十六负扭曲rank1/全Sha、真I³核、88标签全Hilbert trace和conductor Euler仍保R230/237/271/296/304，缺跨p原类低增广非零或a≤1；小高度/不p除不替代。O6真实单位Tor/评价及严格类群q_p正奇、有限 iff q_p=1仍缺跨p约束，单p有限不传播。
-继续R494真实B56 core、R493三态实际词域、R491实际两顶极系数组合；root接R490实际degree26因子及原连接，随完整结论即推。主目标未完成，QUEUE不改完成，不等阶段确认。
+继续R494真实B56 core、R493三态实际词域、R495实际齐次两顶极系数组合；root接R490实际degree26因子及原连接，随完整结论即推。主目标未完成，QUEUE不改完成，不等阶段确认。
