@@ -924,3 +924,10 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 严格预算给384bits、tail256、cutoff360p=49372920；全部8113行分四片2029/2028/2028/2028，至多2并行，单runner完成三个球DFT和精确Teich求值。
 - 大bin直接留Actions artifact并由recover下载；核实际原bin SHA/来源/全行端点，兼容完成片复用，未完成原子前缀续算；wrapper长任务每小时核两README差异并保存规则变更。
 - 原137147结果可能单位、高赋值或精确零，均据完整证书如实报告；现不作数值预断，R719原非消失公开运行并行。
+
+
+## 2026-11-14 21:05 Asia/Taipei · serre-public-resume-20261114
+- R719公开run43597653737/source09a816c7...完整成功：945171原primary可见点、132178六order直方图行、2769小圆点独立direct-power与全部dictionary一致。
+- 完整Arb256有限和加packing无穷尾给B<106516214032/10^12<1/2，原两primitive平均严格正；原R616指定非消失、β生成秩和log同构在137147闭合。
+- certificate SHA2d97169250b80abf8d4bf9d72ee7a65c5ff9ac609afdd9c9b3ffc1d65639ca3f；七份持久化小证书/输入/metadata逐字SHA全匹配27文件manifest，runner已校验全部数学输出及原来源。
+- 归一高度外积现可用该素数原前提，但实际高度与候选未排除；完成枚举不再重跑，R717原M2四片继续。压缩前交接存notes/2026-11-14-public-handoff-through-R717-target.md。

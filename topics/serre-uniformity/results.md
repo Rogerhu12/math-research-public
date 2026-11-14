@@ -125,3 +125,6 @@
 
 
 - **R717（已证明精确算法）**：[原CM范数的认证复trace恢复](results/R717-exact-original-CM-norm-from-certified-complex-traces.md)。原P=S2S3/C0²在实圆分域且2^37·3^26·p^5P整；原六挠标签、两个精确Gauss和、完整周期因子及全尾使三个球DFT给全部整数trace，唯一整数区间与精确Teich根恢复原范数及M2赋值。公开run43597163388已通过p41的全部42整数trace唯一性，原1274和归一平方24完全吻合；137147数值尚未求；不把复L值非零代modp单位。
+
+
+- **R719（完整公开证书）**：[p137147原非消失、秩和log前提](results/R719-p137147-original-primitive-visible-enumeration-certificate.md)。公开run43597653737完整枚举945171原可见primary点，保留六真实order及132178 norm行，并以2769点独立direct-power全核。Arb256加完整packing外尾严格给B<106516214032/10^12<1/2，故原R616指定L′·L非零、A(Q)⊗Q=Fβ和log同构。该素数高度外积的原秩/log前提已闭合，实际高度与候选排除仍待求。
