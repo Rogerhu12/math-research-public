@@ -1,0 +1,31 @@
+{
+  "run_id": "43630666145",
+  "run_attempt": "1",
+  "source_commit": "2b5a83b30a05023954f06fb49fcbd8e68c4125d6",
+  "native_step_outcome": "success",
+  "pipeline_status": "completed",
+  "outcome": "complete-augmented-first-image-fixed-fiber-obstruction",
+  "complete": true,
+  "complete_augmented_first_image": true,
+  "new_global_image_rank": 1,
+  "individual_target_compatible": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    true,
+    false
+  ],
+  "negative_scope": "fixed mod31 initial(x0,0) over A+ only; does not exclude all original rational sources",
+  "full_original31h0_mod923521_identity": false,
+  "original_target": "31*h0*T modulo923521",
+  "H0_target_claimed": false,
+  "actual_final_source_costs": null,
+  "mathematical_elapsed_seconds": 68.01588535400003,
+  "characteristic_zero_identity_asserted": false,
+  "partialCheckpointIsNotIdentity": true,
+  "rootOwnsSharedResearchIndices": true
+}

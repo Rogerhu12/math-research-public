@@ -1,0 +1,95 @@
+{
+  "source_commit": "2b5a83b30a05023954f06fb49fcbd8e68c4125d6",
+  "run_id": "43630666145",
+  "run_attempt": "1",
+  "rules_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "request": {
+    "format": "r150-seven-true-relations-original31h0-next-digit-fixed-actions-request-v1",
+    "source_manifest_file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-frozen-manifest-789f.json",
+    "source_manifest_sha256": "f0ed63fab695676766213e3da274461b2ec6833d1319c187e79a6271d3a90876",
+    "new_relation_count": 7,
+    "old_polynomial_kernel_count": 1834,
+    "actual_next_residual_targets": 9,
+    "original_raw_rows": 6188,
+    "integer_modulus": 923521,
+    "target_multiplier": "31*h0",
+    "quotient_torsion_dimension": 308,
+    "shared_mathematical_seconds": 300,
+    "per_child_memory_mib": 512,
+    "per_compilation_seconds": 30,
+    "t96_run_id": 43597823809,
+    "t96_artifact_id": 14114364261,
+    "t96_artifact_name": "isp-r150-t96-graph-recovery-43597823809-1",
+    "t96_artifact_digest": "sha256:970d10c4eee1ff5ce85bc5e940d61decf17276d3e174b0c5698ca0822302e241",
+    "all198_run_id": 43619888599,
+    "all198_artifact_id": 14124017685,
+    "all198_artifact_name": "isp-r150-all198-second-bockstein-recovery-43619888599-1",
+    "all198_artifact_digest": "sha256:ba81a8aaafc236b15e90f0998ee3c0122634b99dda9f36c88d8d6c3b578b8117",
+    "source_actual_one31_run": 43626632693,
+    "source_actual_one31_additional_cache_run": 43628835884,
+    "relation_rhs_cost_bound": 88,
+    "temporary_relation_source_cost_bound": 184,
+    "continue_compatibility_to_full_original": true,
+    "old198_and_selected_sources_recomputed": false,
+    "complete_global_image_includes_all_primary": true,
+    "negative_scope": "Only the next lift of fixed mod31 initial (x0,0) over A+; read all nine individual compatibility flags.",
+    "characteristic_zero_identity_asserted": false,
+    "rules_read_commit": "41d3cfb683b6e043e8c25f83cafe7db2fb90d134",
+    "rules_sha256": {
+      "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+    },
+    "workflow_source_sha256": {
+      ".github/workflows/invariant-subspace-r150-seven-saturation.yml": "7ffe5a73657f83bdd03a6c88cbdd25ddf1bfdc131a43372bce73f4ec13e18396",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-actions-publish-789f.py": "9efeab773727448f3d45f928f7c333d4b908e4d8f2ad3d34748bd79e0f514e7c"
+    },
+    "entry_python_files": [
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-global-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-integer-model-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-runner-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-four-second-bockstein-runner-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-actions-publish-789f.py"
+    ],
+    "restore_only_artifacts": [
+      "t96",
+      "all198"
+    ],
+    "retain_exact_contracted_files": {
+      "t96": 5,
+      "all198": 15
+    },
+    "main_receipt": "results/seven-saturation-pipeline-receipt.json",
+    "output_note_prefix": "topics/invariant-subspace-problem/notes/r150-seven-saturation-actions-789f",
+    "complete_positive_outcome": "full-original31h0-mod923521-certificate",
+    "complete_negative_outcome": "complete-augmented-first-image-fixed-fiber-obstruction",
+    "all_generated_binary_and_text_recovery_saved": true,
+    "all_actual_stage_cache_files_saved": true,
+    "maximum_stored_certificate_part_bytes": 4500000,
+    "publish_only_own_actual_run_directory": true,
+    "actual_terminal_pull_rebase_after_outputs_prepared": true,
+    "diff_both_readmes_after_every_actual_pull": true,
+    "nonfastforward_immediate_pull_rebase_and_retry": true,
+    "token_scope": "Actions GITHUB_TOKEN secret, command-scoped GIT_CONFIG_COUNT/KEY/VALUE; never persisted in git config or credential files.",
+    "new_syntax_parse_executed": false,
+    "new_compilation_executed": false,
+    "new_mathematical_execution_performed": false
+  },
+  "request_sha256": "66f7d7eddac2b2de091d1d6e3c42d424bc5fef6c96ba3290cede36add7057b7b",
+  "source_manifest_sha256": "f0ed63fab695676766213e3da274461b2ec6833d1319c187e79a6271d3a90876",
+  "actualPythonSyntaxFilesParsed": [
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-global-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-integer-model-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-runner-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-four-second-bockstein-runner-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-actions-publish-789f.py"
+  ],
+  "allOriginalSourceHashesVerified": true,
+  "target_multiplier": "31*h0",
+  "negativeScope": "fixed mod31 initial(x0,0) over A+ only",
+  "noMathematicalCompletionClaimed": true
+}

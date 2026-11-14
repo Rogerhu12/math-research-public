@@ -1,0 +1,27 @@
+{
+  "inputBindingSHA256": "ec03fa4f0577eb1a8e8b25f6da3a0fe4df3985110c3982fa67149737ff35bdad",
+  "outputs": {
+    "complete-global/complete-augmented-first-image-receipt.json": "7e461b35ac41e0bb0c76462c8c61c4a8ebf9d55ff3ea8fdd0560146ed8809420",
+    "complete-global/complete-augmented-first-image.bin.gz": "7e10ad5aaee55d8a19e6a6166796ae22206cb4569ec36812e13329211217ea6c"
+  },
+  "nativeStatistics": {
+    "status": "completed",
+    "newAugmentedFirstImageComplete": true,
+    "newGlobalFirstImageRank": 1,
+    "KrylovMaximumPower": 1,
+    "allNineCompatible": false,
+    "individualTargetCompatible": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    "maximumSolutionDegree": 0,
+    "elapsedSeconds": 0.27561036399998784
+  }
+}
