@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 14:00:41 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 14:01:38 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：d3fbc39658604e223eb3da90c33c8808411a9a0c；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：dcb3ba5638bc030d53797ac7fe33e5be60b71f4f；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -22,7 +22,7 @@ repair定义440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47。�
 
 ## 当前连续逆/源主链
 
-全5970局部projector run43594139132仍执行：16互斥段，只新增5966格，成功pilot0/76/3300/5969原样复用。13:20已成5/6/11/13/15，其余在跑，无失败；须等唯一5970全覆盖/全anchor/jump才能授局部全成。916MBframe留Actions，各段保存成功前缀。
+全5970局部projector run43594139132真实全成：16分段/5970唯一全覆盖、全部anchor/jump，5966新增+4原pilot复用；native3460a4b5636bf6a3d9c160f6141ab5153fc5fc705ca79000c5f10370a978cb69。916MBframe留Actions，22原结果文件完整保。见actual-complete-5970-local-projector-cover；这条只授完整局部证书，后续Green另结论。
 真实weighted两端prepare十门已成：L0<1016.779086、D0<1016.778594，LR<4.076853888、DL<.003613121034；97行/mean全保，先付最后0+→0−跳再核腰闭合。
 signed Green正逆/无pole/全跳与源证明已成。七原字节源/93manifest已接；run43596517945七代数门全成。全5970成功会自动触发完整Green消费；复用七门不重算。四通道：残差、trial跳、左/右端单位，保全[0,.9]和phase负段L2。
 完整body/mean run43583838026/43586413510：40parts/7721rows/6143jumps，native a4f31dccc4b54661b43fc06bac59b6afbb4fa2d6d19614f68f71e044be6e5870；signed dual跨0，非Schur。

@@ -153,3 +153,7 @@
 ### 实际全参数解析主部折叠
 
 [主部折叠证明及公开消费入口](results/R133-supplement-actual-moving-analytic-principal-fold.md)：从完整原germ/root-budget构造两真实analytic foot流，精确得到μ(∂T²+T∂X²)及非零Jacobian的可消费门，实际inverse固定点径向余项取加号；旧角primitive/mean保在原闭曲线。10原输入只扩宽有限带envelope，不重跑旧germ/response。数值门待公开Actions；未宣称root有限部或strong。
+
+### 实际完整5970局部投影覆盖
+
+[run43594139132的全覆盖结果](results/R133-supplement-actual-complete-5970-local-projector-cover.md)：16互斥段全成，5970原格及全部接口恰消费一次，4原pilot复用；native3460a4…与两个真实process checkpoint全保。局部证书完整，完整连续Green另判。

@@ -115,3 +115,7 @@ repair正主体/外graph现已接[公开101输入合同](notes/2026-11-14-R133-r
 ### 当前实际 principal fold 的新消费
 
 已证明并部署 [完整实际解析折叠](results/R133-supplement-actual-moving-analytic-principal-fold.md) 与10输入公开consumer。两特征foot流给真实坐标、复逆矩形、局部切向项T²整除和旧角两幅矩阵；全δ96/band192保。待实际预算run，随后付旧闭曲线primitive/mean/source的两幅展开、root两行matching、实际brootfin及strong，不能把域门当根散射。
+
+### 全5970局部覆盖实际完成
+
+run43594139132 的16分段与最终消费全部成功，全部5970格/anchor/jump唯一覆盖。见 [真实完整覆盖](results/R133-supplement-actual-complete-5970-local-projector-cover.md)。不得继续把完整局部验证列为未完成，也不能仅凭覆盖授全局逆；自动Green消费另立结论。
