@@ -1,0 +1,87 @@
+{
+  "result": "R698-independent-original-z",
+  "prime": 41,
+  "N": 6,
+  "original_coordinate": "w=z^6, x=z^(-2)X(w), y=z^(-3)V(w)/2, sigma^6=z^6 Q(w)",
+  "coefficient_x_sigma6": 31,
+  "coefficient_minus_xy_sigma6": 36,
+  "A_p": 10,
+  "A_p_minus_3": 24,
+  "C_p": 28,
+  "C_p_minus_3": 35,
+  "newton_steps": [
+    {
+      "from_precision": 1,
+      "to_precision": 2,
+      "full_energy_equation_checked": true
+    },
+    {
+      "from_precision": 2,
+      "to_precision": 4,
+      "full_energy_equation_checked": true
+    },
+    {
+      "from_precision": 4,
+      "to_precision": 7,
+      "full_energy_equation_checked": true
+    }
+  ],
+  "all_sigma_logarithm_relations_checked": 6,
+  "uses_R698_H_T_Z_or_Lagrange_Frobenius_reduction": false,
+  "division_by_p_used": false,
+  "python_flint_version": "0.9.0",
+  "coefficient_sha256": {
+    "X": "e96333a8c39bd195516a61e7b35cbe8983093a6d02c2dc4313b74968b66e56e4",
+    "V": "2f25b858950aca3e6577b90fbdc67acf4317e32fa22a50a819ad45db00d9ce32",
+    "Q": "3edfd48070856a2607a8512f3ff00f2647859a3b2c081868e2bea028f53843b0"
+  },
+  "source_sha256": "ef33ef0d61b4cf33c0a1fe2a23ce14b57780b5b5b49df9f609dc0e49b1014ac3",
+  "runtime_seconds": 0.0011529849980433937,
+  "coefficients": {
+    "X": [
+      1,
+      6,
+      28,
+      11,
+      39,
+      18,
+      40
+    ],
+    "V": [
+      39,
+      24,
+      34,
+      12,
+      38,
+      12,
+      7
+    ],
+    "Q": [
+      1,
+      7,
+      40,
+      32,
+      15,
+      5,
+      4
+    ]
+  },
+  "F_last_summands": [
+    4,
+    30,
+    10,
+    24,
+    2,
+    3,
+    40
+  ],
+  "G_last_summands": [
+    4,
+    11,
+    28,
+    2,
+    9,
+    3,
+    20
+  ]
+}

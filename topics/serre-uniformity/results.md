@@ -89,3 +89,5 @@
 - **R701（已证明；范围见原文）**：[原C的固定标记43维p-local标量归约](results/R701-original-C-as-a-marked-43-dimensional-p-local-scalar.md)。原V_sc=π^41D_Sc_s−11aπ^40c_q在Γ不变局部商下降，准确等于(C/a)[P+α_F]；真实商U_Fs/(pU_Fs+E_Fs)≅k[S]。86×44证书与varpi_s^1938精度足够，L=31−2η_p；原Γ标记c_s/c_q局部值仍未求，不给C或m数值。
 
 - **R702（已证明；范围见原文）**：[原sigma第一极点块与两个全p移位单位](results/R702-first-pole-block-and-uniform-shifted-units.md)。全部p≥41、p≡5mod6与2≤t≤p−1、t≡2mod3有A_(p+t+1)=3(2/p)BtA_t modp；因此pC_(p+3)=9B²、pC_(p+6)=−405B²/2均为单位。有限截断控制全部p分母，不能向t=−1/−4越界或直接替代原Abel/高度系数。
+
+- **R706（精确有限结论及实际例外已证明）**：[至200000的5992素数完整窗口和原sigma零](results/R706-exact-window-through-200000-and-original-sigma-zero.md)。全部Cp非零，Cp−3仅在真实剩余p137147为零；原z独立公开Actions确认Cp=80155、Cp−3=0。因此该p的v(M2)≥−1/2，原全p最低赋值−1命题不成立；其余5991素数v(M2)=−1。非M2本身为零、非高度结论、非Serre反例。

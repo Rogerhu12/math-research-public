@@ -135,3 +135,7 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 ### R702 后的实际缺口
 
 全部p≥41、p≡5mod6与2≤t≤p−1、t≡2mod3有A_(p+t+1)=3(2/p)BtA_t modp；因此pC_(p+3)=9B²、pC_(p+6)=−405B²/2均为单位。有限截断控制全部p分母，不能向t=−1/−4越界或直接替代原Abel/高度系数。 详见[R702](results/R702-first-pole-block-and-uniform-shifted-units.md)；继续实际输入求值，不以有限决定性代替完成标准。
+
+### R706：关键单位猜想的真实例外
+
+完整41..200000剩余类共5992素数，仅p137147出现Cp−3=0（Cp=80155）；原平坦z独立Actions已确认。故不能继续追求原Cp·Cp−3全p非零或v(M2)恒−1。需对真正更高Abel系数、该例外的进一步精度和原实际高度处理；不从modp零推出M2=0。详见[R706](results/R706-exact-window-through-200000-and-original-sigma-zero.md)。
