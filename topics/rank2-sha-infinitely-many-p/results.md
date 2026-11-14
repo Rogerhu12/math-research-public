@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R461：原径向ODE与真实首核因子的统一次数下界](results/R461-original-radial-ode-and-uniform-factor-degree-barrier.md)：原单位首共振给全部横截分支有效接触界，实际来源次数迫立方核径向次数随p/D增长；一次立方p≤80D+89，单一一次因子任意幂统一p≤138D+59。结论同步覆盖原真第二核，仍保高次数、多因子和混合Kummer部分。
+
 - [R460：原奇伴随正Tc提取与同域连接carry](results/R460-original-odd-companion-tests-and-same-domain-connection-carries.md)：完整六维奇矩阵抽原C13/C15，奇Euler、tame1移权及非零单位质量全保；同一两输入实现原qC连接。两个真实相消环带以单位行列式消移权未知，完整返回原S；物理p归一仍须非零质量修正，不将第一推前身份等同独立隐藏域。
 
 - [R459：真角含量与实际首次修正的非零分支余项](results/R459-actual-angular-content-and-padded-cubic-first-lift.md)：保原t^r后全部角层charge准确；两真实carry强制原修正在F分支的法向首项系数5，较窄可读窗另强制值首项−2，未知根修正全消。同格指定jet像及结式排除条件明确，J0实际次数免17倍；未预设像缺口、低预算实例或完整中央失败传播。
