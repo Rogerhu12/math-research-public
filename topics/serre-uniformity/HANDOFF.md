@@ -4,8 +4,8 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：be6076812ac98b8801289c61cfea6817a4772043
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions run43597163388于20:55发布前实际pull并核两README，无差异。最近GitHub集成核查：2026-11-14 13:07:16 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
+已读规则提交：7ffe058a97517bfe43b4be5013015f26239f7a6b
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions run43597163388于20:55发布前实际pull并核两README，无差异。最近GitHub集成核查：2026-11-14 13:12:48 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
 
 仅Rogerhu12/math-research-public；旧私库与“停公开runner”均作废。每条结论单独commit/push main已授权；终端推前pull，非快进立即pull --rebase并重推至成功。PAT只CLI，不写文件/提交。根独占tracked/git，辅助仅scratch或恢复小文本blob。单Markdown<100KB，HANDOFF<10KB，open/README<30KB；数据>1MBgzip、单文件<5MB；日志仅本题，≤5内容行，改共享workflow须说明。
 
@@ -22,7 +22,7 @@
 
 ## O5：固定p41完成范围
 
-R707给Xns+(41)(Q)恰八CM，判别式−3/−7/−11/−12/−19/−27/−28/−67，无有理尖点。129盘=19普通+5×22超奇异；121排除，八CM各原同标签F2/F3简单根唯一。notes/R707-all129-disk-ledger.json绑定183来源SHA；notes/p41-SS-disk-progress.md为105/105。原g54、54全局高度、QC=global−800λσ、四坏标签与全部规范在R707，未依赖遗失R583。
+R707完整给Xns+(41)(Q)八CM（−3/−7/−11/−12/−19/−27/−28/−67），无有理尖点；129盘121排除、八CM原同标签简单根唯一。全部规范和原183证明SHA见R707、notes/R707-all129-disk-ledger.json；105/105表已闭合，不依赖遗失R583。
 
 ## O4：真实全局商与变化导子
 
@@ -41,12 +41,14 @@ R712严格LT、原挠点换参1+O(p)、完整D³两块及全尾给M2²≡−3110
 
 R593同η/cclear/ctriv与q项零；R690实际2处零，R694/R696校准点及候选3处零，故Ω_actual={0}，旧一般点Ω不可移植。R596线性项真log因子化；R634 CM外积消A高度矩阵但保ρ/η。R682给共同首阶，R703以6(g+g(Y))+8独立代数基和有限jet逆矩阵提取±2/L_a、±1/L_a²，完整相对全尾不含未知高度赋值。R716把γ纳入单极点空间，D4保四个±L_a^−2，有限完整关系矩阵不需预求γ；一般p实际模型/矩阵/规范前缀与候选排除仍缺。R703 h≥3完整闭盘，h4覆盖原候选；不以零数代统一无根。
 
+R721已证全p条件等距：Cp和实际完整M2皆单位时，原I在v(s)>7/2仅中心零且v(I)=v(s)；I(p4u)/(p4b*)=(M2/(16b*))u+pH为Zp闭盘Tate自同构，原KS常数保留。若vM2=h≥0有限，则p^(h+4)深盘相应缩放等距；不排真实高度零。
+
 ## R717精确原范数与当前公开运行
 
 原P=S2S3/C0²在实圆分域，2^37·3^26·p5·P整；原Ω/6标签、两正Gauss和、完整period factor与全尾给所有整数trace，唯一整数区间和精确Teich根恢复原值。证明及完整大文件续算预算见R717与notes/R717-p137147-certified-budget-and-artifact-resume.md。
 core scripts/R717_certified_original_CM_norm.py SHA75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402；p41校准run43597163388已成功，42整数trace唯一、1274/24匹配，receipt SHAfb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6，勿重算。
-137147正式请求source ffc69b45d58ea9aaafd1e0686fc55377701a00be：384bits、tail256、cutoff360p=49372920，四片8113行=2029/2028/2028/2028、至多2并行，单recover做三个球DFT；严格解析trace误差<2^−14但仍须完整Arb唯一性。当前尚无137147值；成功可以是单位、高赋值或精确零，不预断。
-完整片/前缀按全部source参数和实际SHA复用；大bin仅Actions artifact，runner恢复至RUNNER_TEMP/R717-imports/<result>/，不可工具分块/编码或盲重跑。source/request保存在runner session，发布切main不改变verify；长任务每小时核README，发布实际pull后再核。最终本题结论登记另推。
+137147正式请求source ffc69b45d58ea9aaafd1e0686fc55377701a00be：384bits、tail256、cutoff360p=49372920，四片8113行=2029/2028/2028/2028、至多2并行，单recover做三个球DFT；严格解析trace误差<2^−14但仍须完整Arb唯一性。run43597802237已启动，前两片完成、其余运行；当前尚无137147值，单位/高赋值/精确零均据实返回。
+完整片/前缀按source参数与实际SHA复用；大bin由runner从artifact恢复，不可工具分块/编码或盲重跑。runner session固定source/request；每小时核README、发布pull后再核，结果另登记。
 
 ## O6：原p43 Robert单位/普通Norm
 
