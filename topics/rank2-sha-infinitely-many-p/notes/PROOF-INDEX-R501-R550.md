@@ -53,3 +53,5 @@
 - [R521：准确固定边界商与原三次forcing残数](../results/R521-exact-fixed-boundary-quotient-and-cubic-forcing-residue.md)：固定清极的完整3C来源商准确是长3c(u+4b)的有限边界，真实F³核消去常数维数项；全局残数保全部例外分量。原最高系数非固定角根给杀全部同乘子切向来源的显示泛函，forcing值为b²m(4t0−1)；实际jet核和其余原列仍完整保留，未认作原余核非零。
 
 - [R524：原三层边界核与第一逃逸层的准确范围](../results/R524-original-three-layer-boundary-kernel-and-first-escape-window.md)：真正Iη边界核的三层短正合列和两条同源连接精确给出，不拆独立normal数据。参数独立F²层在明确小q窗可改变显示残数，在负度大q窗严格消失；二次临界只剩两连接的实际联合像，未把边界非零或单残数不能延拓冒称原forcing结果。
+
+- [R523：隐藏CH绝对sigma核与原C/D同源算术carry](../results/R523-original-hidden-sigma-core-and-same-source-c-carry.md)：原CH一层β与正交隐藏轴真实β完整支付，实际h中独立C-sigma/五sigma-D形成至多两源核心闭包。两单位相消域、B逐次数整逆及原S中央行全付，同1013射线保新测试原小管v5n，新增固定31 ray；旧W/四伴随和准确补域均未删。
