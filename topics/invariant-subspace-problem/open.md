@@ -159,18 +159,14 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 ## 最新完整接续
 
-本节此前逐条状态、全部数据入口与未闭范围保[本次完整open](notes/2026-11-14-open-before-actual-test-future-budget-789f.md)，未列旧条目保持原状态。
+全部前态、完整公式与数据入口保[本次open全文](notes/2026-11-14-open-before-two-resolvents-angle-789f.md)，未列条目保持原状态。
 
-**原连续尾。** [宽窗相位](notes/2026-11-14-original-continuous-tail-wide-window-exponential-phase-budget-789f-next.md)给偶Q≤x的Φ≤25exp(80Q²/x)，平方根窗有统一κ；原s≈q/x≈m不能直接套窗。完整换权与真primitive平移已付全部左右/裸费，仍缺实际t_q的同源抵消，不能免费搬运。
+**真实graph与源费。** [完整一位接合](notes/2026-11-14-one-bit-joined-left-bare-quotient-gram-and-source-schur-789f-next.md)保真实短旗商度量、交叉和两切口；[普通完整右](notes/2026-11-14-one-bit-complete-right-bare-source-and-actual-return-schur-789f-next.md)给G=Bbare(Hbare+E_ret)⁻¹Bbare*，保LGL及高返回，固定层域/源满射已付。原连续尾宽窗只涵盖Q≤x；实际s≈q/x≈m仍欠同源抵消。
 
-**真实graph。** [left+bare一位接合](notes/2026-11-14-one-bit-joined-left-bare-quotient-gram-and-source-schur-789f-next.md)付真实短旗商度量、额外交叉和两切口，(L+B)⁻¹=B_a Gjoint⁻¹B_a*；低孔反馈只控新left+bare能量。[普通完整右](notes/2026-11-14-one-bit-complete-right-bare-source-and-actual-return-schur-789f-next.md)给同源G=Bbare(Hbare+E_ret)⁻¹Bbare*、B⁻¹=Bbare Hbare⁻¹Bbare*，保LGL次序。固定层域/源满射已付，真实高返回E_ret不能由头预算或旧联合环境gap删除。
+**同一实际测试。** [准确零模/部分左Gram](notes/2026-11-14-actual-left-partial-zero-mode-gram-and-source-resolvent-budget-789f-next.md)保原Z像及逆后高birth；全核头预算logC_m=O(m logm)。[真实双投影](notes/2026-11-14-bosonic-future-actual-bare-full-projections-and-ordered-source-contractions-789f-next.md)把boson最小链投入bare/full，源βt=B⁻¹Mt、γt=GMt，M≤B≤G⁻¹，正差保E_ret。t=−Av给逐cut T*MT≤(C_m−1)Ψ，原good-top直接付两链及差，不另选点。
 
-**准确零模与实际低测试。** [全核重构](notes/2026-11-14-full-boolean-kernel-bosonic-zero-occupation-and-head-only-budget-789f-next.md)付logC_m=O(m logm)，实际零模像不可扩大；[部分左Gram/Z逆](notes/2026-11-14-actual-left-partial-zero-mode-gram-and-source-resolvent-budget-789f-next.md)保同一准确Z_p^left、I≤H_p≤C_m及Z0⁻¹≤Z⁻¹≤C_mZ0⁻¹。[实际测试全未来预算](notes/2026-11-14-actual-low-test-full-image-inverse-bosonic-future-budget-789f-next.md)现直接给q_p=P_Vp f经完整像压缩逆后Σ||P>p R_A P0q_p||²≤C_m²k0(2+logd)²||f||²。减真实k_p不改未来，得到同一t_p的完整bosonic右链；投硬核保全部左前缀，残量总平方≤2S倍预算。仍须真实硬核/短旗残量到E_ret及mixed flat的同源处理，非物理右费结论。
+[两种源最小化](notes/2026-11-14-actual-low-test-two-resolvents-angle-source-and-paid-flat-budget-789f-next.md)现给rbar=(L+M)⁻¹Lt、u=(L+G⁻¹)⁻¹Lt及e=rbar−u；(I+GL)e=(I−GM)rbar。原同窗付μ(t−e)²、flat(e)²；精确gap仍含μ(e)²。bare(e)、<Lr,e>与移动m窗口速率未付。滑动核切口与旋转预算按前态保留，不以小残量代无统一费精确逆。
 
-**同窗预算。** [滑动有限核切口](notes/2026-11-14-transverse-kernel-cuts-and-same-test-sliding-budget-789f-next.md)独立付Σ||(R_q−P_q)P_K_(q+w)f||²≤k0(1+logw)²||f||²；w=d为O(m³)。占据矩/物理位旋转已付范围保前稿；新核交集距离/强度变化仍开。所有非负费用可保固定测试在同一原窗口平均，不以小残量代无统一费的精确逆。
+**R150。** run43634830833原九列AX=31²h0 mod31⁵全17成功、cost全87；相关δ2秩1/7004，七正解仅常数，64恢复/14cache全部保存。[第九真除列](notes/2026-11-14-r150-ninth-true-divided-column-and-rational-rank-226091-789f.md)给rank_Q A87≥226091和真九维U9；八常数固定族仍排七目标全部预算。原全部有理像/精确秩/Smith恰层继续。
 
-**R150。** [pair原式](notes/2026-11-14-r150-targets6-and9-full-original-mod923521-and-exact-eighth-action-789f.md)已完成j6/9的AZ=31h0 mod31⁴/cost87；九raw全315 ann=(s−1)(s−2)²，商U8后七列非零且共一维s−2。[八常数固定族](notes/2026-11-14-r150-eight-constant-unit-family-seven-all-budget-obstructions-789f.md)仍排七目标全部预算，仅6/9未排；条件性char0成员只能需一层31分母。[第九真除列](notes/2026-11-14-r150-ninth-true-divided-column-and-rational-rank-226091-789f.md)现给rank_Q A87≥226091，U9真不变九维；原全部有理像/精确秩/Smith恰层仍开。
-
-[本轮九原式全成](notes/2026-11-14-r150-all-nine-original31squaredh0-mod31five-and-complete-related-second-789f.md)：run43634830833，数据6b525504，九列AX=31²h0 mod31⁵全17成功、费用全87；完整相关δ2秩1/基7004，七正解只用常数。64恢复/14cache全入主线，已成K4/VQ/原式不重做。[F9完整第一像](notes/2026-11-14-r150-ninth-augmented-single-first-relation-and-initial-scope-789f.md)只需第9新关系；第8复用K4_7003，旧1842方向全已落U9。下一原modp6同束新AK5/p5与九raw，正列全17继续；负只排当前F9前两位，低位相关第二/第三像另付。仍非char0来源或必要两层。普通ISP及其它mean秩/高本质/自然幂继续。
-
-[真实双投影](notes/2026-11-14-bosonic-future-actual-bare-full-projections-and-ordered-source-contractions-789f-next.md)已把boson真MP送入bare/完整物理右核，实际源为βt=B⁻¹M_Bt和γt=GM_Bt；M_B≤B≤G⁻¹，正差读取E_ret。原t_p=−A v_p进一步给逐cut T*M_BT≤(C_m−1)Ψ，原同一good-top付两链及差费用≤4n(C_m−1)/K。原flat已付<Lr,γt>；必须继续真实剩余<Lr,(I−γ)t>，不把M正收缩或源差当L耗散。
+[F9完整第一像](notes/2026-11-14-r150-ninth-augmented-single-first-relation-and-initial-scope-789f.md)只需第9新关系；第8复用K4_7003，旧1842方向全落U9。下一原modp6同束新AK5/p5与九raw，全部primary/505自由保留，正列全17继续；负仅保当前F9前两位。较低初值第二/第三像另付，未得char0来源或必要两层。普通ISP及其它mean秩/高本质/自然幂仍开。

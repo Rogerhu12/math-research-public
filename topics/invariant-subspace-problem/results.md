@@ -226,3 +226,7 @@
 ### F9完整第一像只需一条新真实关系；低位自由另保层级
 
 [完整模论与来源证明](notes/2026-11-14-r150-ninth-augmented-single-first-relation-and-initial-scope-789f.md)给ker F9_bar=原1834核⊕九条(sI−J9)关系。原1834第一像在U7，前七关系像在U8，第八关系直接复用实际K4_7003，其完整第一像D3已在U9；故完整第一像（所有primary/任意次数）仅由第九关系生成。K5=(s−2)κ9−Σp^(4−e_i)κ_i a_i−p4z9，须新原modp6取AK5/p5，并与九当前余同束。正向仍逐列原17式；第一像负仅保当前F9来源前两位。相关第二像归约η8、αη9两方向，旧198第三像未付，不把层级混同全初值或char0。
+
+### 2026-11-14：实际两种最小化与剩余角度源的同窗 flat 预算（789f）
+
+[证明](notes/2026-11-14-actual-low-test-two-resolvents-angle-source-and-paid-flat-budget-789f-next.md)在原实际源空间识别 boson/完整物理两投影源 rbar=(L+M)⁻¹Lt、u=(L+G⁻¹)⁻¹Lt，e=rbar−u 满足 (I+GL)e=(I−GM)rbar。完整正交 gap 具有准确三项能量 μ(e)²+flat(e)²+||(I−P_f)c_B(rbar)||²；原同一 good-top 已付 μ(t−e)² 与 flat(e)²，总预算分别 ≤[(C_m−1)/2+2]||f||²、2C_m||f||²。仍保 bare(e)、μ(e)和<Lr,e>；固定m强收敛没有原移动窗口速率，不得据此推出 N=M。
