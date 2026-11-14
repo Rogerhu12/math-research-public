@@ -819,3 +819,7 @@
 ### R297 附录：真实顶源的Green–Ward消逆与完整补空间Schur
 
 [完整证明](results/R297-appendix-physical-green-ward-cancellation-and-full-complement-schur.md)在同一物理V_a→U上构造T且TT*=A_U*L1L3⁻¹L1A_U；准确消去完整层Green为T=(4PHR*−G1PKR*)/6。固定无权源配对为ε(2B++A+A−⁻¹B−)/(√3p)，再利用乘积权中央矩阵的第一补空间行化成−εp J_q*Cinv_11/3。Cinv_11为整个补空间逆的压缩，上源A−与下源J+保留；共同正预算/统一κ仍开，没有删除投影或分别估计两个大项。
+
+### R300：七位硬端在三弱位同步边界的完整严格区域
+
+[完整证明](results/R300-seven-site-hard-top-strict-boundary-region-with-three-simultaneous-weak-sites.md)对任意固定旧四正权与弱三内部正权，以精确代数源保整个K3的14维、倒数低源14维及有限非单位Gram。完整第一逆的真cokernel Schur、弱primitive零式和旧四位容斥酉恒等式给全算子范数极限：弱N3硬费、旧N4首加强费与e2(b²)/S²三块直和，全部交叉消失。R298经R297完整单弱位极限付旧中块≤743/782，故充分小共同ε时全源费用≤1525/1564<1。阈值依赖固定内部权，不外推全部七位内部、任意多弱位或原graph。

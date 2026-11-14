@@ -109,11 +109,11 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R299逐位内函数](results/R299-boolean-product-inner-kernel-and-complete-primitive-energy.md)现给同一物理Pick正核与primitive源保持Gauss分解，完整平方和保全部创建层/占据对角D_t及高次精确消去；硬端首尾确含J1u、A_Uu和三次桥。尚未把L1A_U识别为该正核的准确Schur块，不能由一般内函数收缩免费插入第一MP逆或推出κ。[实际三阶dual塔](results/R299-appendix-nonreal-coherent-norm-on-actual-three-step-dual-tower.md)另给七位K2相干范数的负整数判别式，排真实塔必实根捷径；仍不否定S1。
 
-[一次三组高出生剖面](notes/2026-11-14-three-group-near-equal-hard-top-profile-789f.md)保整个约化块，r至48的15预设点条件受控，未见可靠>1或发散；仅数值线索。同步三弱位的联合Schur仍开，不能逐次套弱位极限而省去随其余权变化的常数。
+[R300七位三弱位联合边界](results/R300-seven-site-hard-top-strict-boundary-region-with-three-simultaneous-weak-sites.md)已保全14维源、实际倒数顶测试及真cokernel Schur，精确消去全部跨块发散；固定旧4正权/弱3内部权的费极限三块直和≤743/782，故充分小共同ε有全源严格界1525/1564。阈值不宣称全权一致，不能交换退化极限；一般七位内部及更多弱位仍开。此前r至48的15点三组剖面仅数值线索，不再追加扫描。
 
-[R286 固定源全高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源逆平方根能量和原慢尾全height/几何和。实际t_q祖先出生随q上移，固定birth塔最终无分量；受限逆后不自动保有限支持/固定birth，跨出生graph、完整e_q和N=M仍开。
+R286固定源全height已付；实际t_q出生随q上移，受限逆不自动保固定birth/有限支持。跨出生graph、完整e_q和N=M仍开，完整链接与范围保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
 
-[R284 零模Gram](results/R284-cross-birth-zero-occupation-grams-and-exact-schur-lower-bound.md)付Q/R交叉、Γ2高birth与R Y3†R*下界、有限正权p≥2严格正；[Fischer/局部界](results/R284-appendix-fischer-remainder-and-local-inverse-square-root-control.md)付2/(M−1+2s)余量与不损外尾的物理块coercivity。仅给J*e_I的逆平方根能量，一般平方增长/graph识别仍开。
+R284完整零模Gram/Fischer已付同物理逆平方根能量；一般平方增长/graph识别仍开。准确公式、全部链接保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
 
 [R279 全高度仿射 MP 比较](results/R279-bosonic-affine-primitive-gram-transfer-and-low-occupation-bounds.md)给 X_n≥I+(n/r)(X_r−I)，全有限合法范围/无限正 ℓ² 行均成立。全部低占据相邻常数改善，首边 sδ≤1/(2√2) 已得 c1；原慢尾范围 s≤(m+1)/(6√2)，未覆盖一般巨出生。真硬核 Γ2=2I+4L*L+M*M 的联合 M 能量仍缺平方下界；[共同 annihilator 反例](notes/2026-11-14-common-annihilator-affine-sharpness-789f-next.md)说明仅 Euler/全坐标不变性不足，反例不是 Boolean。
 
