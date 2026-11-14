@@ -6,7 +6,7 @@
 
 闭连通材料面，$F_t$逐时$C^2$嵌入、时间$C^2$连续，同一固定g；固定H有内点、$\operatorname{diam}F_0(H)\ge.2D$；不作刚体对齐的整像 $\delta_{hold}\ge.3D$；全时全域reach$\ge.03D$；最大相对metric$\le10^{-6}$且同g/参数/时间范围加密持续下降；完整网格每件<5MB，明确严格存在差距。$\delta_E$可0如实报；达标后继续.5D或严格存在。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`4795619b6e38de5ec75546bb71f5963d27c51bf3`（实际pull后双README差异为空）。每次pull --rebase立即比双README；变则只读差异执行；至少每小时一次。每个有意义结果及时push，NFF立即pull --rebase/核规则/再推至成功，不强推。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`17d9c5b1ec67401fe312ff63fe9bfc0d473acbba`（实际pull后双README差异为空）。每次pull --rebase立即比双README；变则只读差异执行；至少每小时一次。每个有意义结果及时push，NFF立即pull --rebase/核规则/再推至成功，不强推。
 - 私有恢复后实际pull至`44a3ba9432709e1260b4277d05d64c6775ca6589`，与旧6a16feab双规则路径无差，本题私有README不存在；QUEUE唯一行仍本会话进行中。下一实际pull不晚于19:45 UTC。
 - 真实几何/ODE/积分/优化/完整研究符号编译只在本公开仓库Actions；本地纸面代数、小人工接口测试、源码/公开输出解析。PAT仅瞬时CLI/env，不写任何文件/提交/日志。
 - 根规则12：不把冻结、独立审查、重复清单或重复运行设为推进前置。完整证明直接登记results并更新索引。保针对具体风险的验证及README要求的同态精化。
@@ -63,4 +63,4 @@ pure bulk43628716304只用28响应余76项；新word43630157008（sourcef3381b75
 
 ## 6. 当前操作
 
-九高度已产生采样可行初值；single-Q列b0744e42（W5 B3·归一kθ/k³、162→163）公开dev43630999193全pass，zero-Q六jet全0/Jac≤1.02e−8。四次初值及新联合driver正实施。R77后继续全部C1路径矩及完整P1全phase（纯模式只见对角τ，不能假定其余自动）。R75局部IBP唯一分解和word终止已证，q0例外保留，非完整函数独立性。全部完成结果即时commit/push并同步H/open；最新公开Actions输出自行pull，核双README。已读来源及经典文献范围在 notes/literature-20261114.md；撤稿局部刚性、成对等距、局部片都不是本题完成。
+九高度已产生采样可行初值；single-Q列b0744e42（W5 B3·归一kθ/k³、162→163）公开dev43630999193全pass，zero-Q六jet全0/Jac≤1.02e−8。四次e4105426正公开dev，随后一次120iter/300eval/30s；新163联合driver采用一次80iter/120eval/300s，帽高+当前z硬门/新Q[-8,8]。C1完整商producer0627875f正请求linear_third_exact，区分28与C3+28商；只对角τ，非全T。R77后继续全部C1路径矩及完整P1全phase（纯模式只见对角τ，不能假定其余自动）。R75局部IBP唯一分解和word终止已证，q0例外保留，非完整函数独立性。全部完成结果即时commit/push并同步H/open；最新公开Actions输出自行pull，核双README。已读来源及经典文献范围在 notes/literature-20261114.md；撤稿局部刚性、成对等距、局部片都不是本题完成。

@@ -1,20 +1,27 @@
 {
-  "request": "one-exact-Q-entry-column-artificial-development",
-  "created_at": "2026-11-14 19:13:43 UTC",
+  "request": "complete-linear-third-quotient-and-height-quartic-artificial-check",
+  "created_at": "2026-11-14 19:19:47 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "entry_single_q_development"
+    "height_quartic_development",
+    "linear_third_exact"
   ],
   "source_sha256": {
-    "frame_entry_single_q.py": "b0744e42b00854b85ac6828afc4520c0505b5d4800c47ab4d8bb96c84d04e286"
+    "frame_height_quartic.py": "e41054263108f2070f846be77920059c210b11f3286fe88046a7d90c217dd45f",
+    "literature_linear_third_bridge_quotient.py": "0627875fe06950c9e7c360baaf0429451697a460e2cf10aa6b3434c501363bd2"
   },
-  "artificial_inputs_only": true,
-  "real_height_stage_running": 43630874689,
-  "real_height_source": "6cbe68bc31b1b29f23dfeb4f5c6c022b2fd6daa1",
-  "new_tangent_column": "W5*B3*normalized_exact_Q",
-  "Q": "k_theta/k^3",
-  "original_space_embedded_at_zero_new_coefficient": true,
-  "metric_and_immutable_height_reference_unchanged": true,
-  "real_optimization_requested": false,
+  "quartic_artificial_only": true,
+  "linear_third_actual_complete_compilation": true,
+  "linear_third_scope": "diagonal tau(q), not full unsymmetrized T or all phase channels",
+  "linear_third_moduli": [
+    "R71 cubic diagonal commutators",
+    "R77 full Area+Cubic coefficient space plus R71"
+  ],
+  "successful_height_initialization": {
+    "run": 43630874689,
+    "state_sha256": "f198ba74dcf3644569bf1ed78eecbc48a0f21ec421205d46a6b159cb00ff0f56",
+    "decoded_report_sha256": "f457282f0a21cd27802748066537caa4cf90c687c63c73d62b0391ce2435d1a3"
+  },
+  "real_quartic_or_joint_optimization_requested": false,
   "task_complete": false
 }
