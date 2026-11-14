@@ -228,3 +228,6 @@ RK24完整八级与三整闭mesh七命令均真exit0，global metric4.7703317350
 
 ### 2026-11-14T08:26:13+00:00 — regionalmetric (local; public approval pending)
 全区域真实289.59s退出0，patch4.77033e−8、未patch/bare tail2.67290e−8；浮点快速读数对原longdouble抽点差1.4934e−16。原prefix容差1e−7与尾2e−9明确分区，后续保持原longdouble六jet比较。
+
+### 2026-11-14T08:26:14+00:00 — cusprrneighborhood (local; public approval pending)
+局部stage27 GW虽降至1.16e−9，实际stage27–29/25子格×17×1024全邻域旧差分/旧GW/补knot差分/补knotGW仍2.6729e−8/1.3161e−8/2.1581e−8/1.1789e−8；16.11s退出0。默认不换，不能拿单窗改善冒全域收敛。

@@ -1,0 +1,126 @@
+{
+  "finished": true,
+  "scope": "Local experiment: original source-knot retention versus horizontal rr rule.\n\nCompares the actual same-RK24 node data on a requested common-grid window.\nThe Gauss-Weingarten target-metric rule defines an alternative finite field;\nit is not automatically equal to the exact ODE Cartesian second derivative.\nNo wider-domain improvement or adoption is implied by this local experiment.\n",
+  "source_sha256_at_start": {
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_source_knot_rr_probe.py": "20c89a95e144dec60cd4d84cf8567b2a8f3e3da40af46f6e74a34c5ed04ad9c6",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_refined_tail_adapter.py": "6b06db6c7c96078b9fabe403a0b3ade14f8b30b07a78b565ed299c77f840d937",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_common_grid_refinement.py": "dc6b2b3240b3e0886821d7866ae06fc343f14176f3bde77d85b67f71532d236e",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK24-resolved-r2/readout/complete-8.json": "c3db41ae3efd23d379e2bec2d01d78fd485b3f216480acb45f96a5ad8f85bf90",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK24-cusp-one-r1/complete.json": "fe2175763567d1f05bf041d99684db564588c708f5491372101bd083269bf4ad",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK24-resolved-r2/readout/background-8.json": "b696844e2454b50bde925f109af5ac9d643db800b05bb6d33e2d554b7f85a3d8",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz": "917d859e8a73fa663db1839e354909ae4f174bad1895f8717c20705cdd702aaf",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/alternative-neck-provider-smallcut30-port32-r2048.json": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100"
+  },
+  "common_stages": [
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223
+  ],
+  "angles": 1024,
+  "cut_width": 0.01,
+  "mean_angular": 1552,
+  "layers": {
+    "regular-difference-rr": {
+      "maxima": {
+        "metric": 2.6729002398516357e-08,
+        "kappa": 7.917284569636443
+      },
+      "witnesses": {
+        "metric": {
+          "common_stage": 223,
+          "x": 0.3125,
+          "r": 0.28255628844196673,
+          "theta": 1.5707963267948966
+        },
+        "kappa": {
+          "common_stage": 216,
+          "x": 1,
+          "r": 0.28393061092357064,
+          "theta": 0.0
+        }
+      },
+      "target_rule_diagnostics": null
+    },
+    "regular-target-metric-rr": {
+      "maxima": {
+        "metric": 1.1629702547657182e-09,
+        "kappa": 7.917284568945919
+      },
+      "witnesses": {
+        "metric": {
+          "common_stage": 223,
+          "x": 0.3125,
+          "r": 0.28255628844196673,
+          "theta": 1.5707963267948966
+        },
+        "kappa": {
+          "common_stage": 216,
+          "x": 1,
+          "r": 0.28393061092357064,
+          "theta": 3.141592653589793
+        }
+      },
+      "target_rule_diagnostics": {
+        "minimum_normal_z": 0.9967884292318062,
+        "maximum_cardinal_saved_angular_difference": 6.952446431063297e-18,
+        "maximum_radial_metric_derivative_residual": 1.430604766594623e-16
+      }
+    },
+    "source-knot-difference-rr": {
+      "maxima": {
+        "metric": 4.200331207848684e-09,
+        "kappa": 7.917284569636443
+      },
+      "witnesses": {
+        "metric": {
+          "common_stage": 223,
+          "x": 0.3125,
+          "r": 0.28255628844196673,
+          "theta": 1.5707963267948966
+        },
+        "kappa": {
+          "common_stage": 216,
+          "x": 1,
+          "r": 0.28393061092357064,
+          "theta": 0.0
+        }
+      },
+      "target_rule_diagnostics": null
+    },
+    "source-knot-target-metric-rr": {
+      "maxima": {
+        "metric": 1.1629702547657182e-09,
+        "kappa": 7.917284568945919
+      },
+      "witnesses": {
+        "metric": {
+          "common_stage": 223,
+          "x": 0.3125,
+          "r": 0.28255628844196673,
+          "theta": 1.5707963267948966
+        },
+        "kappa": {
+          "common_stage": 216,
+          "x": 1,
+          "r": 0.28393061092357064,
+          "theta": 3.141592653589793
+        }
+      },
+      "target_rule_diagnostics": {
+        "minimum_normal_z": 0.9967884292318062,
+        "maximum_cardinal_saved_angular_difference": 6.952446431063297e-18,
+        "maximum_radial_metric_derivative_residual": 1.430604766594623e-16
+      }
+    }
+  },
+  "seconds": 5.256189016999997,
+  "limitations": [
+    "This is only the stated finite common-grid window, not a full-tail maximum.",
+    "Target-metric completion is a different finite interpolation rule; it has not been adopted in the closed assembly."
+  ]
+}
