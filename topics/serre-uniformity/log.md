@@ -1125,3 +1125,9 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - R739首精度全部返回：原N7≡0mod47^4，故仅v≥4，准确赋值/奇偶未定；保存全部47行/48角色计数及小凭据，下一步仅复用计数增精度/圆分化简。
 - p41原模型run43608152850已全部成功，225.87秒，原F41(b)=0、Eisenstein、disc41=6及逆different均通过；原q/β仍未生成，R735正式正文继续。
 - 公开R739发布器15:17:10UTC实际pull --rebase并读两README差异为空；记录小凭据，下次实际pull不晚于16:17UTC。15:21重试终端仍unavailable，继续按根规8。
+
+
+## 2026-11-14 23:25 Asia/Taipei · serre-public-resume-20261114
+- R735正式登记原p41同一b=r0⁶的七次模型：run43608152850在原280维商核F41(b)=0、全低阶系数v41=1、disc41=6及F41'逆，完整小cert SHA752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574。
+- 原正实标签及L+签名(1,3)保持，真实Néron逆different格已具体；本原仍e42，原q/β/KS尺度/高度继续。8.39MB中间状态只artifact，旧模型不重算。
+- 下一实际输入是原4920coset/闭周期/交配矩阵（R738准备）。HANDOFF/open/index同步，两README无差异。

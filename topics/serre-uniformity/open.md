@@ -334,3 +334,6 @@ R704 原43嵌入矩阵及R708局部Norm歧义已处理；
 
 
 **R736（已证明）**：同原p43/q标记，NS kerΓE_M=(π,N_T)kerΓE_N等于全部原q直接相位核。原Fr=s32给s在μp²上指数1+2p及rμ(ct)=ell(ut)，R207实一致化元保含极点双Norm相位零。故存在原divY=D_Tq、NΓY=NSY=D_TXt；Z=Xt−(t−1)Y同时NΓ/NS/NT=Aα，原直接相位rμ((s−1)Y)=−4J，flat=−4(J−18)。完整普通校正已证，真正与R720原b的T/Γ链及J/b数值仍缺。详[R736](results/R736-original-three-norm-exchange-and-minus-four-moment-phase.md)。
+
+
+**R735（已完成原模型输入）**：公开run43608152850首次生成原p41同一b=r0⁶的完整七次F41，在原280维除法商代数完整核F41(b)=0、七个低阶系数v41=1、disc41=6和F41'逆。原b是唯一实正根，目标Néron格b^j/F41'(b)ω已具体，本原仍投e42；完整小cert SHA752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574。原q函数/β/Manin尺度/高度仍待继续，下一项原4920coset闭周期输入，勿重算模型。详[R735](results/R735-exact-original-p41-CM-model-and-Neron-input.md)。

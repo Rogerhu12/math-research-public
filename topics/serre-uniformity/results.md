@@ -175,3 +175,6 @@
 
 
 - **R736（已证明）**：[原三重Norm交换链和负四首矩相位](results/R736-original-three-norm-exchange-and-minus-four-moment-phase.md)。普通NS kerΓ像准确等于原全q直接相位核；保原Fr=s32、μp²作用1+2p与R207实一致化元。全局普通校正构造divY=D_Tq、NΓY=NSY=D_TXt，Z=Xt−(t−1)Y三个Norm恰Aα；实际rμ((s−1)Y)=−4J，flat为−4(J−18)。不是J/b数值或R720原b桥的完成。
+
+
+- **R735（公开Actions精确完成）**：[原p41正CM七次模型及Néron输入](results/R735-exact-original-p41-CM-model-and-Neron-input.md)。run43608152850，原280维商精确生成同一b=r0⁶并核F41(b)=0；全低阶系数v41=1、disc41=6、F41'逆成功。唯一实正b、L+签名(1,3)、真实逆different格已具完整系数；本原六维仍投e42，原q/β/KS单位及高度未宣称完成。大状态仅artifact，全部小证书/源SHA已存。
