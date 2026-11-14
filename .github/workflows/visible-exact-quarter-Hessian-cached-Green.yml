@@ -1,0 +1,192 @@
+name: visible-exact quarter cap Hessian same Z Green
+
+on:
+  workflow_run:
+    workflows: ['visible-exact cached quarter centre residual Hessian v2']
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      hessian_run:
+        description: 'Actual successful cached-quarter centre-Hessian run in this public repository'
+        required: true
+        type: string
+      hessian_attempt:
+        description: 'Actual successful run attempt'
+        required: true
+        default: '1'
+        type: string
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-quarter-Hessian-Green-${{ github.event.workflow_run.id || inputs.hessian_run }}
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  GREEN_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-quarter-Hessian-cached-Green-CI-inputs.json
+  GREEN_MANIFEST_SHA: d3bd59f23ad266b1fcb5900a3923c5c9bf79020f6d4b4767fffe3de6f363f3d4
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+  REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+  ORIGINAL_HESSIAN_RUN: ${{ github.event.workflow_run.id || inputs.hessian_run }}
+  ORIGINAL_HESSIAN_ATTEMPT: ${{ github.event.workflow_run.run_attempt || inputs.hessian_attempt }}
+
+jobs:
+  consume:
+    if: >-
+      github.repository == 'Rogerhu12/math-research-public' &&
+      (github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_repository.full_name == 'Rogerhu12/math-research-public'))
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out exact sources and reviewed rules
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-quarter-Hessian-cached-Green-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Hydrate unchanged inputs and recover only owned actual prefixes
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$GREEN_MANIFEST" --manifest-sha "$GREEN_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/quarter_Hessian_Green_ci/
+      - name: Parse new sources before any new directed consumption
+        run: |
+          python - <<'PY_AST'
+          import ast,pathlib
+          root=pathlib.Path('topics/visible-flex-exact-nearby/scripts')
+          for name in ('fourfold_codazzi_quarter_Hessian_cached_Green.py','fourfold_codazzi_quarter_Hessian_cached_Green_CI.py'):
+              ast.parse((root/name).read_text(),filename=name)
+          print('New quarter/Hessian Green sources passed AST parsing; mathematics has not run.')
+          PY_AST
+      - name: Install the pinned directed arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Set actual container-visible input and output paths
+        id: paths
+        run: |
+          printf 'green=%s\n' "$RUNNER_TEMP/visible-exact-quarter-Green-original" >> "$GITHUB_OUTPUT"
+          printf 'cut=%s\n' "$RUNNER_TEMP/visible-exact-quarter-Green-cut" >> "$GITHUB_OUTPUT"
+          printf 'hessian=%s\n' "$RUNNER_TEMP/visible-exact-quarter-Green-Hessian" >> "$GITHUB_OUTPUT"
+          printf 'quarter=%s\n' "$RUNNER_TEMP/visible-exact-quarter-Green-physical" >> "$GITHUB_OUTPUT"
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-quarter-Green-output" >> "$GITHUB_OUTPUT"
+      - name: Receive the actual completed cached centre Hessian
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: ${{ env.ORIGINAL_HESSIAN_RUN }}
+          name: visible-exact-cached-quarter-centre-Hessian-v2-${{ env.ORIGINAL_HESSIAN_RUN }}-${{ env.ORIGINAL_HESSIAN_ATTEMPT }}
+          path: ${{ steps.paths.outputs.hessian }}
+      - name: Read the exact upstream quarter run from its successful process
+        id: hessian_metadata
+        env:
+          ACTUAL_HESSIAN_DIRECTORY: ${{ steps.paths.outputs.hessian }}
+        run: |
+          python - <<'PY_METADATA'
+          import json,os,pathlib
+          p=json.loads((pathlib.Path(os.environ['ACTUAL_HESSIAN_DIRECTORY'])/'process.json').read_text())
+          if (p.get('repository')!='Rogerhu12/math-research-public'
+              or str(p.get('run_id'))!=os.environ['ORIGINAL_HESSIAN_RUN']
+              or not p.get('complete') or p.get('failure') or not p.get('children')
+              or any(c.get('actual_returncode')!=0 for c in p['children'])
+              or p.get('worker_source_sha256')!='b5029d5d69085114cef9219007488f1780e53e9d5ad73f44c3a0d88500ed9d64'
+              or p.get('input_manifest_sha256')!='47ff50fc768a24269ea7dab3de284581fdf8be1abd04fb867d4a55be78b1368d'):
+              raise RuntimeError('the exact actual complete cached Hessian process is required')
+          run=p.get('actual_original_quarter_run')
+          if not str(run).isdigit() or int(run)<=0:raise RuntimeError('the actual quarter run identity is absent')
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('quarter_run='+str(run)+'\n')
+          print(dict(actual_original_quarter_run=run,metadata_only_no_mathematics=True))
+          PY_METADATA
+      - name: Receive the exact successful quarter finish and every retained attempt
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: ${{ steps.hessian_metadata.outputs.quarter_run }}
+          pattern: visible-exact-quarter-inlet-recovery-finish-${{ steps.hessian_metadata.outputs.quarter_run }}-*
+          merge-multiple: false
+          path: ${{ steps.paths.outputs.quarter }}
+      - name: Receive the complete original same Z positive profiles
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43616648792
+          name: visible-exact-complete-same-Z-known-source-Green-43616648792-1
+          path: ${{ steps.paths.outputs.green }}
+      - name: Receive the original complete same Z true-cut conversion
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43615251195
+          name: visible-exact-complete-cut-Z-finish-43615251195-1
+          path: ${{ steps.paths.outputs.cut }}
+      - name: Consume all physical fees and rescale only the certified right channel
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          ORIGINAL_QUARTER_RUN: ${{ steps.hessian_metadata.outputs.quarter_run }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_quarter_Hessian_cached_Green_CI.py
+          --manifest "$GREEN_MANIFEST" --manifest-sha "$GREEN_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --green-run 43616648792 --cut-run 43615251195
+          --hessian-run "$ORIGINAL_HESSIAN_RUN" --quarter-run "$ORIGINAL_QUARTER_RUN"
+          --same-z-artifact "$RUNNER_TEMP/visible-exact-quarter-Green-original"
+          --cut-artifact "$RUNNER_TEMP/visible-exact-quarter-Green-cut"
+          --hessian-artifact "$RUNNER_TEMP/visible-exact-quarter-Green-Hessian"
+          --quarter-artifacts "$RUNNER_TEMP/visible-exact-quarter-Green-physical"
+          --work "$RUNNER_TEMP/visible-exact-quarter-Green-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-quarter-Green-output"
+          --compute-minutes 25 --checkpoint-minutes 10
+      - name: Require nonempty actual evidence and a small inventory
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.paths.outputs.output }}
+        run: |
+          python - <<'PY_INVENTORY'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          files=sorted(p for p in root.rglob('*') if p.is_file()) if root.exists() else []
+          if not files or not any(p.stat().st_size for p in files):
+              raise RuntimeError('no actual nonempty process evidence exists')
+          entries=[dict(path=str(p.relative_to(root)),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files]
+          data=(json.dumps(entries,indent=2)+'\n').encode()
+          if len(data)>60000:raise RuntimeError('inventory exceeds60000 bytes; retain full original evidence')
+          (root/'artifact-inventory.json').write_bytes(data)
+          print(dict(actual_files=len(files),actual_inventory_bytes=len(data)))
+          PY_INVENTORY
+      - name: Preserve the exact complete native and actual failed outcome
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-quarter-Hessian-same-Z-Green-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: error

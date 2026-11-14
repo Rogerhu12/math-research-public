@@ -429,3 +429,7 @@
 ### R133：fullδ正侧负阶源窗口的解析转移（2026-11-14）
 
 [完整N1–15证明](results/R133-supplement-full-delta-negative-one-positive-source-and-regular-ports.md)已根与tail独立核对。取同全局Riccati参考Y=M−1Z，M32对数频导给原order1的18/9/8常数；M96负漂移直接展开给39+1/2<40，local84/primitive9保持，故原4650行的order1内核界无需新扫即可支配s=−1。raw普通/跳源H−2/3需付k*=(1+388−2)1/3，raw输出H−1由原order1重构保守支配。实际fullδ DN用完整adjoint translation commutator延至H−5/6，包括scalar mean；再以该实际endpoint P/U/V重付负阶composition/Hilbert/Robin源列。根collar负阶bound用3×144+2×.09，七列jump明确为新Y单位，primitive为第八输出。新数值χ/λ/onto门尚需公开scalarconsumer，不把旧中心negative-height数字转授fullδ，也不授full Schur/CE/cutoff/非线性。
+
+### R133：恢复后的完整quarter与cached Hessian接同Z Green（2026-11-14）
+
+[同Z消费合同](notes/2026-11-14-R133-quarter-Hessian-cached-Green-contract.md)保留固定physicalη0、原ν、repaired centre、完整97维w0及连续Z。完整quarter physical误差与旧physical误差仅整界比较并保配套14fees；同w0 moving界用原Hessian resolvent×选中physical界+新完整加性，再对Z−w0付原完整unknown erroroperator。原truecut97列/96odd/独立mean/knownhigh均保。仅以新完整rightload除原已认证正数load向外上界，缩放6391个原Green片段的右通道，其他三通道完整保留；用原trueweight和rational dr重积分。root全文审source/worker/flow，tail独核G1–3；270科学pins含原238与Hessian184且零改，0原target/传播重算。新actual尚未完成；其scope仍是finite193 compressed误差，1/200必须实际测，全unknownhigh/PDE/νSchur不授。

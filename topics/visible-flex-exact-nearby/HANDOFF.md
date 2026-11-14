@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 18:25:04 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 18:25:39 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则、同步
 
 仅 Rogerhu12/math-research-public；所有新数学只在其Actions。每结论独推；非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
 本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，18:21非FF后真rebase仍No usable execution environment。根规则8暂只connector<100KB文本，禁任何binary/gzip，先查size；新摘要≤60KB。API不冒称pull；reviewed runner长算每10min真pull，phase child≤50min前后pull。root亲核forcing43624260519前后真pull均865b9b70b0cd12fc5ab48fcbc6c3cd38a9738584，两README diff空。终端恢复即回git；每小时重试，nonFF立即再试。
-最新远端 main/两README blob 核：7b3aa426ad8719f1d9898659828f996e9a958ff7；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最新远端 main/两README blob 核：c3eedfb9fb05a265da4600fb6c108ecefd1acd72；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次9908B H逐字归档 notes/2026-11-14-handoff-before-recovered-quarter-consumers.md；此前9829B/9596B及更早H/open归档链均保。完整历史SHA/源口/失败/零重算合同在results与manifest，禁止重算已成数学。
 
@@ -27,7 +27,7 @@ repair/source全7721与fixed负Z源已成；105167B exactbump摘要禁止再取�
 原全1977四分run43623547711：plan5门/child0，native406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a。source54e5ec52…/manifest6dc5bf2d…不改；首段1格后延拓guard失败native dff609…；末段640格后graft halfwidth0失败native1d940c…；其余6段取原actual成功。
 独立两端恢复fa32dee6…，run43626024582执行中；source222b9a3d…、CI cdaebcd0…、164manifest b141f6d9…，完整身份见恢复合同，旧160零改。只补1023+100，保原641canonical行；首Hermite仅合法[9/10,node0]延拓，末100使用原graft1e−9包络含固定η0，逐row如实记target半宽。tail实际缓存路由独核通过。finish核2恢复+6原range，7908含64旧pilot恰一次，不重launch原6段；等待每5min真pull。
 cached-quarter centre-Hessian新v2/184pin本提交发布；旧176链skipped/0math保。sourcedfcc4dab…/manifest47ff50fc…，原176+recovery164 pins零改。仅来源门变化，residual_from_saved_cell至末数学逐字同。只saved whole/mid jets，无target/旧trialnorm；joint逐mode合并/mean/4gains/Z−w0旧operator保，缺midpoint局部整行fallback。接恢复真success。
-newton已备270pin quarter+Hessian→sameZ Green待根审发；只换actual输入身份、整physical bound连14fees选，原6391profile仅右source按正load缩放，其余3通道保。
+270pin quarter+Hessian→sameZ Green已根全文/tail数学核发布：source8d9d56b5…/manifestd3bd59f2…，旧238+新184 pins零改。整physical bound连14fees选，6391原profile仅右source按正load缩放，其余3通道保；接Hessian v2真success，待actual。
 当前真完成Green仍43619605142/7门/4.125738s：native64ce5584…process21cd9a69…summary64712cc2…；moving<3.776426835e−6，gR<1.276372397e−5；negative body<.003051713268，right<.042363496191，总<.045415209484，1/200 false。0旧传播，完整mean/high另报。
 
 ## 当前 root：fullδ正侧负源窗
