@@ -192,7 +192,25 @@ def main():
     original.install_consumer = install_consumer
     original._bundle = None
     original._last_assembly = None
-    original.main()
+    # The original closed driver passes these two absolute constants to the
+    # public asset helper, whose public interface requires repository-relative
+    # paths. Adapt only those named inputs; keep all bytes/hash gates and all
+    # other path validation in the original helper unchanged.
+    import exact_20261114_true_tail_client as native_client
+    public_asset = native_client.public_asset
+    permitted = {native_client.DEFAULT_LEDGER.resolve(), native_client.DEFAULT_STORED.resolve()}
+    def known_public_asset(relative, directory):
+        candidate = Path(relative)
+        if candidate.is_absolute():
+            if candidate.resolve() not in permitted:
+                raise ValueError("Only the two original frozen calibration assets may use absolute paths here")
+            relative = candidate.resolve().relative_to(native_client.REPO.resolve())
+        return public_asset(relative, directory)
+    native_client.public_asset = known_public_asset
+    try:
+        original.main()
+    finally:
+        native_client.public_asset = public_asset
 
 
 if __name__ == "__main__":

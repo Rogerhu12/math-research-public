@@ -380,3 +380,7 @@ R247证明仿射coast上原有限Frenet RHS常值、Hermite中点消去及真实
 ### 2026-11-14 11:17 UTC — actual original RK48 node replay and local metric refinement
 
 公开run43588929803/stage28真success，原49 RK calls重现A/B/C完整rawSHA/mean/g；96×1024局部metric f8/f16/f48为1.18359255e−8/1.25944384e−9/1.62003271e−10，κmax同7.6462465，3.540s。原450二jet差.0017739032174071579复现；新增局部f16→48仍有曲率读出变化但不改README完成门。封存旧A局部GW分支，继续真正112尾/大幅fullDN；无重解旧BVP或整尾。顺带把前两条手填UTC改为实际提交时段11:10/11:12。
+
+### 2026-11-14 11:21 UTC — fix concrete public-asset path mismatch in the independent closed reader
+
+源码连接核对发现原closed main把两个DEFAULT绝对路径传给只接受repo相对路径的public_asset，必在尾读出前失败。仅独立lifted_modes_closed_assembly对白名单两项转换为REPO相对路径，原恢复/字节校验及数学源不变，finally还原函数；AST通过。另确认原RK12整除readout levels1/2/4、config/最终tail SHA互锁；中央反射的精确C² parity另行核销，不由BVP容差替代。
