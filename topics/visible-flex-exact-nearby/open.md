@@ -13,7 +13,7 @@ candidate `ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413`，�
 
 [全部7721格同Z源](results/R133-supplement-actual-complete7721-continuous-Z-source-cover.md)已实际完成，run43613560173；原plan成功后wrapper失败由v2按原字节恢复，四range只新算1147格，原14格/40子格/80jets不重算。全body low源<2.723698e−6，固定负窗low<2.931414e−7、high<2.308005e−7，mean与knownhigh160保。源界不能直接当解误差。
 
-完整单列帽cut run43615251195已成功，1977格中的旧16格复用，仅新1961格；全部14Green通道、独立mean/high及准确9/10首Hermite保。已完成同一个Z的腰/cut转换。newton正整理实际11门报告和全部主通道拆解。
+[完整同Z帽cut](results/R133-supplement-actual-complete1977-same-Z-cut-sources.md)43615251195实际11门，1977格中旧16格复用，仅新1961格；14Green通道、mean/high及准确9/10首Hermite保。true97源<5.460100249e−5，knownhigh<5.231670385e−5；物理帽误差<2.418183102e−6，其中dB<2.230834978e−6主导。已成同Z腰/cut转换，继续原未知输入误差算子及桥收紧。
 
 同Z Green run43616648792已实际完成9门。全部原6391ports/5970frames和接口直接复用，原rawjump仅显式非负surplus；该次finite193负区界<.184275420，其中body<.003051713269、右端<.181223706169。新body已到目标量级，右边界仍主导；这些是上界，不能当实际误差下界。
 

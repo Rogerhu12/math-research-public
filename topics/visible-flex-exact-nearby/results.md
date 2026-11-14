@@ -337,3 +337,7 @@
 ## 2026-11-14 16:50:24 UTC — 真正deep-low无限Green与两侧Poisson闭合
 
 [完整 L1–28](results/R119-supplement-complete-deep-low-Green-Poisson-and-mixed-elimination.md)以同实际背景/Γ构造全部$j\ge8193$非零low外侧，保两行根架、真实det/Green pairing与原允许线边界。$F_j=2^{4096}J^4\delta_j^{-5}$明定源/状态单位；加权Green<2^66、双Poisson<2^130。真实high已在所有所需层权下消去，其长程传播由完整Poisson付费；实际ΔU才使用有限邻接。两外消元后原$v^{-1}$加权差<2^-6000000，最坏δ幂1987/16与真实深余75/256已付。原weak/ordinary/mean/Γ及外输入输出全保，浅prefix与最终source标签权仍欠。
+
+## 2026-11-14 16:51:29 UTC — 全部1977格同Z真实边界源实际完成
+
+[实际11门](results/R133-supplement-actual-complete1977-same-Z-cut-sources.md)：43615251195 plan/四range/finish全成，旧16格+14Green+6端点全复用。native8bc061ec200deb37548005297a1530d341eaa55065e70104cc5d82714aed21c5，真97<5.460100249e−5、knownhigh<5.231670385e−5、physical同向误差<2.418183102e−6。保同一Z/mean/准确9/10及未知input完整operator；只源证书，不授逆或Schur。
