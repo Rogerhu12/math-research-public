@@ -508,3 +508,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R269. 原生零参考的高度斜率坐标与完整块变换](results/R269-native-zero-reference-height-slope-gauge.md)（已证明，连续零参考及完整有限代数定理）：从原解析零形状块精确导出v=(m²−4)q+bp与u=r⁴q、k=r³(m²q+bp)，包含G_x项，得u_x=r_x k、k_x=(w_x/w)(m²u/r−k)；常w给完整仿射传播和两端G恢复。任意完整shooting的节点可逆G保持全部边界/零点，缺陷须回原变量σ；明确port、非零全模式和RK变换非交换，不宣称actual28/41数值改善或新验收。
 
 - [R270. 完整正阻尼QP的局部支持精确约化](results/R270-exact-local-support-damped-QP-condensation.md)（已证明，完整有限实模型定理）：B只支撑L时Schur完成平方给等价局部问题、λ²下界及唯一外部仿射最优响应；全QR链反向消元和109core薄QR保原Rᵀh=g/pureglobal，实际4397维而非冻结外部。完整恢复、原外部gradient后验和C坐标一致性证明；全部角行及原验收不变，未实际新QP或宣称BVP接受。
+
+- [R271. 固定原RK离散变分的逐级坐标协变](results/R271-discrete-RK-stage-gauge-covariance.md)（已证明，完整有限实代数定理）：任意完整局部A_i和可逆级G_i，跨级输运G_iG_j⁻¹递推与原离散变分双向等价，完整端点矩阵为G_+J_RK G_0⁻¹。给classical RK4全四级、226×224形状/mean、原port恰一次及唯一共享节点关系；连续G′方程重新RK的标量反例证明两有限方法不同。不据实代数冒浮点逐位、恢复已失信息或稳定性改善，无新RHS/J/科学门。

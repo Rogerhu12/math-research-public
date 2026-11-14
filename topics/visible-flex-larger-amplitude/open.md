@@ -108,3 +108,6 @@ request42并行两条：前缀从真实40继续冻结QR入口active32；native�
 ### request43：同原1372矩阵的实际节点G表示
 
 [完整G消费者接口](notes/2026-11-14-rawcell0-gauge-band-consumer-interface.md) 已冻结，源24a51a4e…/16fca40e…。唯一实际G、869完整变换块含旧72接口、503原块逐字复用，保全部cut/target/H/far和原σ；方向恢复原Q/Pi后全307552 exact，改进RHS从原整数ledger经保存dyadic G最终一次舍入。longdouble实际精度/形成cast误差与后续均衡损失分账，不宣称有限形成严格相似或已改善。43先在同公开Actions读取已完42七个原报告薄摘要（不重科学），再一次LU/原exact有限改进；不派42坏δ、无新ODE/J/native/trial，全部大阵artifact-only。R270完整局部QP另行实现中，未修改旧冻源或验收。
+
+
+[R271原RK逐级坐标协变](results/R271-discrete-RK-stage-gauge-covariance.md) 已完整证明，未来若需在原RK级内改变表示须保G_iG_j⁻¹全部输运、原port和唯一共享节点；不能把连续换元重新RK冒成同一离散映射。当前43仍仅保存的一步J两端形成，不为此证明额外采RHS/J。43已编译并完成42只读summary，等待实际G读回。

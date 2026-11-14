@@ -34,7 +34,7 @@ R270完整4397局部Schur等价证明已发布fe459af…；保全部外部physic
 42 native job132535274009/art14124997721，64948461B/ZIP4b48e8dc236482b5f75bee6bd663a51934ffe23f5eaa7579e6bfc5a4f8567b55。307552行exact1.2206670683664557454e22→1.2562775415316530606e22更坏，同new518=旧42/step0/Pi112；保初δed6a8027…。matrix e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521，result741fb34eab9eb21042f37659637719012bf74213eac9bce69b963ed301c43065。LUinfo0/69149136形成项无尺度丢失/行列max[1,2)不足。完整失败note7f652585…已发布；仅小报告亲读，大阵未本地全审。
 原1372 adapter fde0e039…/consumer30a467e8…/fetch41 32840361…冻结，保原504 J/完整cut/far/H/σ/577restriction；GITHUB_TOKEN仅fetch steps。
 43 rawcell0gauge源system24a51a4e…/driver16fca40e…/接口88fd6f72…：实际唯一节点G锚（868首field0/cut末field3几何，原μ/port），G在0..868、其后I；869完整变换J含旧72混合接口、503原块逐字复用。保存binary64 G/J，实际longdouble精度/形成cast误差另账；cut显式alpha乘原rc不改target/H，far原样。恢复原Q/Pi后全307552 exact；校正RHS从原整数ledger经保存dyadic G精确乘加最终一次舍入。一次LU/≤3均衡/≤3原exact严格改善，无新ODE/J/native/trial。
-同43先只读42七个原SHA报告薄summary；该步失败不阻G，原前缀不重跑。源仅静态核，先Actions编译，尚无43实际数值。geometry旧step十trial三blob及新G trial接口待合入；不派42坏δ，后继保原十alpha/noJ/guards/严格原σ下降，首接受完整state STOP。
+同43先只读42七个原SHA报告薄summary；该步失败不阻G，原前缀不重跑。43 run43626121246/source5c6f45fc/job132542216129：新源编译和42只读summary已过，正取原artifact，G数值未完。geometry旧step十trial三blob及新G trial接口待合入；不派42坏δ，后继保原十alpha/noJ/guards/严格原σ下降，首接受完整state STOP。
 缓存：28在visible-larger-native-capture-20261114/actions-debug；后包在visible-larger-receipts-20261114/actions-debug。39/40大阵及41 J已核后释放，原artifact全保；勿重科学取缓存。
 
 ## 真正闭合、同g精化与全族：后续必须完成
@@ -44,6 +44,6 @@ R270完整4397局部Schur等价证明已发布fe459af…；保全部外部physic
 shared-quintic B规范形/closed assembly/new loader/cover/held已读冻结，全部shared节点、帽高marker和完整cut保；原A.height/w/E目标g不覆写B′。新cover付R241全pair，held读全活动块/两帽盘/全D，可独立于reach完成状态。
 冻结全部scalar p*/g/尾帽/区间/t，释放全core K=k=0/T=M，同g v4维450/514；同live TailClient/predictor/FrozenProfile依次新H/J→FD→fullmain→fresh audit，scalar硬绑。699二分1397，不能抄max1200。
 R248强C²/相位全t、R241完整空间对/法锥嵌入reach、R238/254/258同场标记链含反射。R251实际四Loewner/operator仍待新场；request16仅解析接口，不重跑fixtures。无六/九jet机器门；显示N32/九相位网格<5MB、真实2305尾节点保。
-旧A幅度.063<.2，RK24/48/三mesh/2157568pairs/GW已封存；43旧commit恢复链和strongR6失败见notes，未全迁raw禁private。R238–270见results.md；R271离散RK节点协变证明blob待直接登记；R259备用未调度。
+旧A幅度.063<.2，RK24/48/三mesh/2157568pairs/GW已封存；43旧commit恢复链和strongR6失败见notes，未全迁raw禁private。R238–271见results.md；R271离散RK逐级协变已完整证明登记；R259备用未调度。
 
-规则同步记录：2026-11-14 18:25 UTC 按Rule8读取公开main及双README（非本地pull）；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 03b0d75c5467b135fa4031ec32f491396770dd0c。
+规则同步记录：2026-11-14 18:21 UTC 按Rule8读取公开main及双README（非本地pull）；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 d4974b0d9806e9ba5088bbdc4a3923f67cdf1d20。
