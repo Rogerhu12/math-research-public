@@ -34,24 +34,11 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 **已排的原Haar二次核。** [固定慢正族](results/R236-appendix-actual-slow-positive-quadratic-kernel-exclusion-by-joint-inverse.md)及[逐位N/Y、任意复相位族](results/R236-appendix-complex-mixed-cayley-quadratic-joint-inverse.md)在 |ai|=(i+1)^−2 下已单射稠密，指定first-flip真核/图分支关闭。[相对辅助扩展](results/R236-appendix-polynomial-relative-auxiliary-quadratic-exclusion.md)保 |ai|双侧比较(i+1)^−2、b∈ℓ1且高位|bi/ai|≥c(i+1)^−2，允许有限首位例外；κ>2更快辅助未自动覆盖。证明费用及全部旧范围保[本次压缩前全文](notes/2026-11-14-open-before-R274-789f.md)。这些是全H结果，不传未知子商；R200负边界线性T_N/T_Y仍含e0，其N=M仍开。
 
-[原Acal右源/同ρ正常商泄漏](results/R236-appendix-actual-right-sources-and-normal-quotient-leakage.md)已把背景逆换成真R_F∈Acal，T=X²+Y的高导子在全H有界WOT趋I。固定πX=πY=0及同ρ，所有端点/中段来源及双向Walsh-minus泄漏完整保留，真实Γ的liminf≥τ；正常性没有提供可乘增长逆费的尾速率。
+**R236 已付来源与仍缺预算。** 原Acal右源、同ρ正常商联合逆、廉价尾lift、固定二阶强单位、完整局部矩阵及真实来源部分迹的全部公式/来源链接保[本次前open](notes/2026-11-14-open-before-general-residual-regression-789f.md)。这些结论保固定原源、端点/中段及双向Walsh泄漏；正常性仅给尾量趋零，没有可乘增长逆费的速率。移动右测不能免费因式化，商像界不能代物理双侧界，原两行零式仍须联合处理。
 
-[同正常商真联合逆/有限总度预算](results/R236-appendix-joint-right-inverse-on-the-same-normal-quotient.md)用πX_F=−ΣF aiπXi和n>r的真实重复位carry，一次截整个逆乘积至总度r，显式Neumann余项支付log||πR_F||=O(rlogr+rlogP)。同池导子兼容；商像及物理B_R/F_R*两泄漏的准确分解保留。下条已另构造真廉价提升，不把商像界本身当物理界。
+[任意秩正常正源柱尾](results/R236-appendix-polynomial-cylinder-tail-for-all-normal-positive-annihilators.md)给双侧|a_i|≈(i+1)⁻²时 q_P/τ≥(a_-/A)²/[9·2³⁰P³]，阈值与秩/放大无关，故TrρM³=∞；p>1推广的临界位置矩2p−1也发散。[统一高位集合能量](results/R236-appendix-uniform-high-bit-set-energy-for-normal-positive-annihilators.md)保每个有限I的完整ell2泄漏及实际正压缩；原N源b_iB_j仍未付，不能移作商逆。
 
-[真廉价尾提升/同商低输入导子单位](results/R236-appendix-cheap-physical-tail-lifts-and-quotient-derivative-units.md)直接在原全H以总度r及真实carry构造Rtilde=P_F(−Z_F)^−1∈≥P尾，log范数O(rlogr+rlogP)，同原R的准确差为−X R D_F Rtilde并付完整原源。cheap U的全导子主项以E_F≈∏Xi解析近似消πX，得到同E上有界WOT趋I且log输入O(rlogr)，不含exp(CP²)大逆。所有同ρ端点/中段块和差源(ad EF*)_EN H_N B_X保留，未从廉价提升推出商为零。
-
-[固定二阶强单位/显式Walsh来源场](results/R236-appendix-fixed-second-commutator-and-explicit-walsh-source-field.md)直接取r1及池[P,2P)，真实Rtilde_i=(bi−2ai²Xi)^−2范数O(P8)，原carry全付；Φ(ad_T²U_P)强趋I_E、输出一致有界。实际逆可换成W_P=P^-1Σbi^-2(2Q_i^-−2ai²Zi/bi)，指定正权时自伴。全部来源是固定Kρ=ρT²−2TρT+T²ρ的ABρ/ρFG/−2BρF三块，Kρ³0且Tr0；准确加权单点矩余额趋τ。仅c0/有限秩/自伴性不付尾速率，仍保原两行零式及来源。
-
-[完整局部矩阵/真实来源部分迹](results/R236-appendix-full-local-matrix-commutators-and-true-normal-source-marginals.md)单点zi=O(η_(i−1))、qi/bi²→τ/2。任意r位的整个M_(2^r)有ad_T^(2r)D/[(−1)^r(2r)!∏bi²]≈d_F(D)∏πXi，实际cb误差e_(P,r)对r≤P一致趋0。真Kρ,2r部分迹除∏bi²后、固定r统一迹范数趋(−1)^r(2r)!τE_F/2^r；全部原A′右测仍保同ρ。用H_i=I−Xi明确否定移动右测的免费统一因式化，三块所有二项来源保留；尚未推出一般正常商为零。
-
-[任意秩正常正源的多项式柱尾](results/R236-appendix-polynomial-cylinder-tail-for-all-normal-positive-annihilators.md)对原Xi=N/Y、双侧|ai|≈(i+1)^−2与TrρXG=0(G∈Acal)，用真实增生Cayley收缩选择器及同ρ正性，得q_P/τ≥(a_-/A)²/[9·2^30 P³]，阈值与秩/放大无关，故TrρM³=∞。四相位扇区、真实尾/头carry与gentle费用全付；p>1推广的临界位置矩2p−1也发散。R213旧同量级只适指定核向量，本稿独立提升到全部正常ann；更慢尾和两行共同零式继续。
-
-[任意高位集合统一正源能量](results/R236-appendix-uniform-high-bit-set-energy-for-normal-positive-annihilators.md)：同一原正ρ对每个有限I有泄漏≥ΣI|a_i|²/(9·2^26 A²)，阈值不依跨度/秩/放大；得完整ell2柱尾与原E正压缩、Walsh删除O(i²)逆。原N源b_iB_j仍未付，不能移作商逆。
-
-[真实双侧源/临界图域](results/R236-appendix-true-twosided-normal-sources-and-critical-position-graph-obstruction.md)保非正σ的集合迹尾及固定H,K∈A′的双侧M^(3/2)费用排除；非零迹锚、固定源阈值及移动因子预算保持归档的准确量词。
-
-[固定有限原行/纯尾闭像](results/R236-appendix-fixed-finite-rows-complete-tail-source-embedding-and-normal-closed-range.md)保真实首列单位逆、全C_P右源的cb下界、每层正常闭像与递减交，双慢行3/23及柱锚P^(−3/2)最优；低头依赖原源仍开。
-
+[双侧源/临界图域](results/R236-appendix-true-twosided-normal-sources-and-critical-position-graph-obstruction.md)仅排已付双侧M^(3/2)费用的固定H,K来源；无此预算仍开。[固定有限行/纯尾闭像](results/R236-appendix-fixed-finite-rows-complete-tail-source-embedding-and-normal-closed-range.md)保全C_P右源cb下界、每层正常闭像及递减交；原低头依赖来源仍开。上述旧范围的精确常数和全部剩余条件没有被删除或视为已闭。
 
 [R272 修复](results/R272-normal-predual-tail-repair-and-exact-positivity-obstruction.md)的非零单侧修正必失自伴；[R274](results/R274-full-commutant-basis-and-last-raw-moment-obstruction.md)保第q个raw矩−νQ_P≠0及整个A′尾基。固定行可修复，移动q/单位逆费用仍开，完整范围在既有归档。
 
@@ -97,20 +84,22 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 **相邻尾Gram的未闭部分。** 既有出生一首末边、有限头/池和两组＋一位全出生全高度范围，以及旧松弛反例的准确量词，保[此前全文](notes/2026-11-14-open-before-R274-789f.md)与下方R273；更多权组的高出生及跨出生仍开；原连续尾出生一全高度有限常数已由下方R295支付。
 
-**其他原边界接口。** [R294原连续尾应用](results/R294-appendix-original-tail-coordinate-shift-and-improved-first-return-cost.md)保完整真幂逆/同K，以坐标平移给cond(H_t)≤2(t+1)^4(t+2)^4、全部旧列非交换乘积≤16(h+2)^28 S_m H_(ℓ−1)；最高d无新列，D1*真实Θ锚费≤4(d+2)^14√S_m，q/m一致。原正边网络/标量Newton没有外推为矩阵Newton；a≥2、Γ跨birth及无速率锚乘增长仍开。双宽商/负配对、深jet Schur、天然四块真重排等范围全保快照；两带不可免费取交，无权增长/指定回馈/pure继续。
+**其他原边界接口。** [R294原连续尾应用](results/R294-appendix-original-tail-coordinate-shift-and-improved-first-return-cost.md)保完整真幂逆/同K，以坐标平移给cond(H_t)≤2(t+1)^4(t+2)^4、全部旧列非交换乘积≤16(h+2)^28 S_m H_(ℓ−1)；最高d无新列，D1*真实Θ锚费≤4(d+2)^14√S_m，q/m一致。a≥2、Γ跨birth及无速率锚乘增长仍开。双宽商/负配对、深jet Schur、天然四块真重排等范围全保快照；两带不可免费取交，无权增长/指定回馈/pure继续。
 
 
 [两组＋一位全出生全高度](results/R239-appendix-two-weight-groups-one-exceptional-all-births-all-heights-strict-bound.md)的严格c1已闭。[R273](results/R273-two-exceptional-weights-complete-schur-recovery.md)恢复两组＋两异常位：出生一3D及2≤t≤min(q,L)的4D完整MP/单参数Schur，保两硬端；[R292全参数续稿](results/R292-appendix-main-parameter-s2-and-all-two-exceptional-birth-two-first-edges.md)现闭Q1,Q2≥2的四维及整个物理K2严格首边；其他出生/内部高度仍开。[共同低阶矩/真实桥](results/R273-appendix-shared-low-moment-normal-form-and-physical-cubic-bridge.md)及[8D多项式核](results/R273-appendix-eight-dimensional-aggregate-polynomial-gram.md)保同源/完整逆与硬端；正分母不代相邻分子正性。
 
-[R281强位传输](results/R281-heavy-bit-height-transfer-and-sharp-universal-first-edge-lower-bound.md)与[R283惰性配对](results/R283-exact-singlet-padding-and-half-density-universality.md)保真实完整逆：全height与首边最优普适常数相同且≥1，八位birth2首比22801/43836>1/2；全部有限问题精确嵌任薄δ小、1/2<sδ<1/2+ε的带。因此一般上界1和大出生费用仍开，不能通过强池或稀释省掉内部出生。
+[R281强位传输](results/R281-heavy-bit-height-transfer-and-sharp-universal-first-edge-lower-bound.md)与[R283惰性配对](results/R283-exact-singlet-padding-and-half-density-universality.md)已保完整逆，付全height/首边最优普适常数相同且≥1，以及任意薄半密度带的全有限问题嵌入。旧精确数值/量词保[本次前open](notes/2026-11-14-open-before-general-residual-regression-789f.md)；一般c1与大出生费用仍不能由强池/稀释省去。
 
-[R285](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)只排所列有限形式约束推出S1/S2统一界的路线；例子非Boolean，一般实际正性仍开，完整无界族保归档和结果索引。
+[R285](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)是形式族、非Boolean反例；一般实际正性仍开。
 
 [R288逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保占据/碰撞/creation完整交叉；任意正权birth1首阶S1/S2及两组＋一位整个birth2 S1/S2已付，完整原链接与精确范围保[本次前open](notes/2026-11-14-open-before-turan-all-height-789f.md)。[一般三塔式](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)保完整F3逆和C²深塔；[五位局部正frame障碍](results/R288-appendix-five-site-obstruction-to-local-positive-primitive-frames.md)排局部张成⇒正Parseval捷径，未否一般泄漏或相邻序。[R293全高度强传输](results/R293-appendix-all-height-strengthened-s1-heavy-bit-equivalence.md)保任意κ>0：全birth首阶加强式等价全部高度同κ加强式，亦足普通相邻κ；[单异常权全birth/全height](results/R293-appendix-one-exceptional-weight-all-births-all-heights-strengthened-s1.md)已经严格c1。全birth统一κ仍未得，普通相邻不反推加强式；S2与原graph各自缺口保留。
 
-[R294共同对角比较](results/R294-birth-one-uniform-diagonal-gram-comparison-and-common-newton-blocks.md)应用定长协方差v2定理，付任意正权birth1全高度½A_n≤Γ_n≤A_n及同源A的Newton块，亦付实际端点/中间A的常数4式与无限正ℓ²固定高度。单高度夹逼本身不补真实Γ中间项；所用新外部定理的[完整仓库证明](results/R294-appendix-complete-proof-of-the-normalized-covariance-input.md)已补齐，来源正性不再悬空。
+[R294共同对角比较](results/R294-birth-one-uniform-diagonal-gram-comparison-and-common-newton-blocks.md)付全正权birth1的½A≤Γ≤A、共同A Newton与无限固定高度，其新来源的[完整仓库证明](results/R294-appendix-complete-proof-of-the-normalized-covariance-input.md)已补齐；夹逼本身不支付原Γ中间项。
 
 [R295 Turán余量](results/R295-birth-one-turan-remainder-law-and-all-height-strengthened-s1.md)完全以实际子集对子分拆证明同源协方差混合和完整平方分解，付所有有限正权birth1全height加强S1的κ=ρ（有限严格）；原连续平方尾j⁻⁴另有统一κ=674/81，含无限物理极限和真正Γ相邻序。[统一常数附录](results/R295-appendix-universal-birth-one-strengthened-s1-by-atomic-splitting.md)进一步以最大原子分区与同源加权扰动付任意正权整个birth1/全height加强κ=1024，有限严格、无限正ℓ²非严格；不依赖外部协方差下界。一般高birth与原graph仍开。
+
+[R296全birth残差/真实桥](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)把最高degree-s特征对全部低阶特征作同源回归；乘积权伴随给真实两带，Θ_n=L_(n+2)BC_n的差恰创新。一般加强S1等价共同Z_n相对C_nG_(n−1)C_n的运输界，首边须保两项抵消；硬顶和C²深塔均保留。出生二τ/τ²方向、临界弱位的实际共同费用继续。
 
 [R286 固定源全高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源逆平方根能量和原慢尾全height/几何和。实际t_q祖先出生随q上移，固定birth塔最终无分量；受限逆后不自动保有限支持/固定birth，跨出生graph、完整e_q和N=M仍开。
 

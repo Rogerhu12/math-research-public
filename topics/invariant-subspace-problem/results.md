@@ -727,3 +727,7 @@
 ### R294 来源附录：协方差下界的全部专用代数证明
 
 [完整证明](results/R294-appendix-complete-proof-of-the-normalized-covariance-input.md)按README将Cesari–Colomboni v2所用结论在仓库展开：删位Schur和的交错指数消去、Pieri两区全部系数、倒数互补正性、明确M型平方分解及删位矩阵负超平面，最后返回Σ≥D−vv*/V和两倍夹逼/伪逆界。归属保持原作者，不计为课题新定理；R294的文献输入现不再依靠直接引用，R295统一1024仍独立于此下界。
+
+### R296：全出生残差回归、真实两带与共同创新运输
+
+[完整证明](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)把全部degree-s特征对完整低阶空间回归，保完整Schur与同一物理源。乘积权升降伴随的degree结构直接给两带，回归系数Θ_n=L_(n+2)BC_n的差精确等于真实桥创新；共同Z_n范数正好是加强S1右端，首边小C方向须控制两个物理项的联合抵消。硬顶残差实际为零，连续两带保C²深塔；真实四位例排完整creation范数生成式必实根的捷径。一般统一κ仍待证明，附固定有理身份脚本。
