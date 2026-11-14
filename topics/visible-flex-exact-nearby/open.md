@@ -88,3 +88,7 @@ root负责δ正区/发布；newton负责完整源/真边界/Green/真实响应�
 ### 已启动：全部7721格同Z源覆盖
 
 新五件已逐件读审；140项manifest保留旧136项原SHA。四range只消费1147个未成compact原格，其余合法raw+signedmean基线保完整区间。精确bump旧14格/40子格、原80jet与全部投影余项直接复用。等待真实plan/range/finish后把同一个Z源接原6391 Green ports；不能把源界视为解误差。
+
+### cut v3 已成并继续完整方向消费
+
+实际11门/16新格，完整97来源<.000122496966，moving误差<3.6242791113e−5，knownhigh<.000117170720。原qstar cut方向保mean与首Hermite真实9/10；继续1961未成单列格以及同Z原raw迹/连续修补，不能免费改名。

@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 15:56:59 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 15:57:29 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则、同步
 
 只在 Rogerhu12/math-research-public；所有新数学代码只用该公开仓库 Actions。每结论独立推，非快进立即接最新 main/rebase 再推，不 force。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34 UTC）；12:35 后终端失联，15:25重试仍无环境。按根规则8只经已连接GitHub处理<100KB文本，禁止经connector取二进制或大文件；先查process/目录库存size，摘要宜<60KB。API不是git pull。
-最新远端 main/两README blob 核：1aa9e9a7aae1c9f254527260486408001f2a01d7；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。runner真实pull/核差异≤10min或短child前后；43610523058在15:32真pull到fc4863236b6965ff47fe13dc3cd4f3dff23c3c53，两README无差。终端恢复立即回本地git。
+最新远端 main/两README blob 核：80e94059329e3c01fc0e14ca2957e50358ac51b9；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。runner真实pull/核差异≤10min或短child前后；43610523058在15:32真pull到fc4863236b6965ff47fe13dc3cd4f3dff23c3c53，两README无差。终端恢复立即回本地git。
 小文本发布使用最新base/parent、expected_sha、force=false；竞争立即接新main重推。PAT仅瞬时CLI/env，不进文件/输出/提交/connector。root独占branch/ref/H/open/results/log；代理仅小blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次压缩前H/open/log逐原字节归档于 notes/2026-11-14-{handoff,open,log}-before-closed-leading-amplitudes.md；各前档链完整。完整SHA/原失败/原范围均在对应result和manifest，不用短SHA重绑，不重算已成数学。
@@ -25,7 +25,7 @@ body/mean43583838026/43586413510完整7721格/6143跳；repair源43597921732真�
 knownGreen43604003161真实10门，负窗<1.471767296（body .794760129/cut .677007170），未过目标且非实际误差下界。mean-v2给||q*−Z||<4.572198020300e−6；须全逆付||qν−Z||≤.005（或qν−q*≤.004995427801979700）才授真ν行>1/200。
 Fourier/fixedη43607383671已成80 target；exact-bump/fullZ43610523058真实10门/76.875694s，nativec37a5796a3829dfab1846928041f6a91472dc47f20e02f8a2a4080198b574b1c（11802184B/6parts）。14原格/40子格全部已成，原80jets复用、0新target；Z完整mean保，1524 cached<9.63e−7/4子格<2.96e−7。主summary105167B超集成阈值，不再取；后续由Actions导出小文本。
 完整7721同Z源DAG已推：plan→4range→finish，140manifest854261f57cc390f17659ec5ff9cdc83d98d8ef8b32b6b7b241c54fb3359075be保旧136；只新算compact597..1752的1147未成格，旧14格/40子格/80jets全复用。其余格raw非均值+真signedmean正交合界+Z全offset；完整mean/high160保，0新target。runner10min真pull，前缀可续，summary≤60KB。待真实完整结果；同Z cut/waist/未知high仍须接线。
-cut v1字段门失败、v2把binary64(.9)误当9/10失败，均0新格，原件保。receipt43610342605查清；v3保descriptor首dyadic、首Hermite极短外推并在真实9/10求入口，140manifest保旧137；43610982446 workflow success，newton核真实process/budget，尚不据workflow宣告达标。
+cut v3 43610982446实际11门/30.001483s、16新单列格全成；nativef36831b1f5cc354548686c7d3e5f3fdfb10a456899d25f57d1be1b4cefccbe5c。97来源<.000122496966、moving方向误差<3.6242791113e−5、knownhigh<.000117170720，完整1977格/14通道保；尚是qstar真cut方向，不是Z/全算子/逆。v1/v2原零格失败保，v3准确首Hermite在9/10求值。继续余1961单列格+同Z边界。
 
 ## 正区、非零δ与根
 

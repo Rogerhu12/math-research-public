@@ -261,3 +261,7 @@
 ### R133：真实 full193 右端与整个参数球
 
 见 [实际右端与参数球](results/R133-supplement-actual-exact-right-Z-endpoint-and-parameter-balls.md)。43611611635实际14门，0新目标/旧响应求解；原013末片逐字节复用，独立mean与各角导全保。全|δ|≤1e−8的真终端p*∈(1/8,1/5)，可接全δ collar；完整外图与正区仍需支付。
+
+### R133：真实 cut v3 的完整混合源实际通过
+
+见 [cut v3 实际结论](results/R133-supplement-actual-known-cut-direction-complete-cap-v3.md)。43610982446实际11门和16新格全成，完整1977格、mean/high、14 Green通道保；true97来源<0.000122496966。只授一个已知qstar方向，完整算子、同Z边界与响应误差仍须继续。

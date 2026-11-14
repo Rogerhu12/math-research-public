@@ -9,3 +9,5 @@
 - 2026-11-14 15:56:36 UTC：独立推真实右端14门结论；已核92750B process及worker/publication，原013复用无重建。全δ1e−8端点实际足够小，继续完整outer/body。
 
 - 2026-11-14 15:56:59 UTC：完整同Z mixed-cover合同/producer/wrapper/140manifest/4range DAG独立推；源码逐段审及旧136项零改动已核。0新target，所有新计算仅公开Actions，完整原mean与high输出保。
+
+- 2026-11-14 15:57:29 UTC：独立推cut v3实际11门结论；旧1977×97残差不重算，16单列格改善来源但粗Green门尚未过，继续完整cut与同Z接线。
