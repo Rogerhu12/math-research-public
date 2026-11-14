@@ -30,8 +30,8 @@ env:
   OPENBLAS_NUM_THREADS: '1'
   OMP_NUM_THREADS: '1'
   PHASE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-actual-first-Airy-forcing-CI-inputs.json
-  PHASE_MANIFEST_SHA: 0c836f81cd952dc1527e593c67a813de723187914582b72a578c83c21eecfee6
-  PHASE_PIPELINE_SHA: 087533c0a2df94a1b5022d0db3014d00a99935bf84b502d307bc028767f24b55
+  PHASE_MANIFEST_SHA: ba8b6d30fa8716b123ffcc63368f37926e95ad8a2682bfdf0b03b017ad7d8552
+  PHASE_PIPELINE_SHA: 6aac7163043c382d9e3085cb86fc9493c023aeb96979f106175aa39ef4e496e5
   REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
   REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
 
@@ -59,7 +59,7 @@ jobs:
             /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing_public_worker.py
             /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-actual-first-Airy-forcing-CI-inputs.json
             /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
-      - name: Hydrate21 exact original files and the new finite forcing consumer
+      - name: Hydrate24 exact original files and the successful original prefix and the new finite forcing consumer
         run: >-
           python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing_public_worker.py
           --mode hydrate --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"

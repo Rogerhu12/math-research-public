@@ -83,7 +83,8 @@ def main():
                 "original_part_receipts","full_original_193_direction_and_even_mean_retained",
                 "exact_real_delta_radius","original_closed_rows_reused","new_closed_rows",
                 "original_completed_prefix_sha256","original_completed_prefix_run_id",
-                "prefix_global_accepted_rows","complete_strong_return_norm_evaluated",
+                "prefix_global_accepted_rows","explicit_historical_prefix_reused",
+                "last_attempted_common_cell","last_accepted_common_cell","complete_strong_return_norm_evaluated",
                 "numerical_cutoff97_return_inverse_claimed","actual_PDE_branch_claimed"):
                 state[key]=doc.get(key)
             if doc.get("rows"):

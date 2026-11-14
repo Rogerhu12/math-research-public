@@ -163,3 +163,7 @@ root逐字核P1–29及原U14–17/Q10–31，复核窗口计数、三generator�
 ### 2026-11-14 17:53:28 UTC：全帽四分 source 的实际 AST 失败及单字符修复
 
 公开 run 43622701396 / job 132531687633 在 AST 阶段因 source 第178行 gate 缺一个右括号退出；数学子进程、旧数组下载和新域运算均未开始，原64个已完成 quarter 不变。root 独读实际日志及三文件差异：source 仅补一个 `)`，SHA256 `54e5ec52033bb109618fde1c840730b4b589280382b2da196d3ea748af4490de`；160-pin manifest 仅该源pin改为 `6dc5bf2d8030d506c74dc29ef2cb3c1991cd5f7fb8c2a051b03b0ad89cb2fb69`；workflow 仅同步 manifest pin。CI worker/数学合同不变，仍先跑公开 AST，再只计算7844个尚未完成的新quarter域。不声称本地AST或任何数学已跑。
+
+### 2026-11-14 17:54:21 UTC：推送第一 Airy forcing 的 whole-jet 交集及精确前缀迁移
+
+原 run 43622131835 实际 child=1，科学耗时0.485679s（成功首格0.483707s），CI child墙时0.815111036s；首格 exact `[1091984371497/5000000000000,3935020174414971/18014398509481984]` 保留。原source `d964ae8354700fbb101b55ae332ba51ab8c1a6bafcfe2ca78e12206aae32b592` / manifest `0c836f81cd952dc1527e593c67a813de723187914582b72a578c83c21eecfee6` 的有效较宽首格仍有效，禁止重算。v3 source `e75dda60562fb51c0db637f42e5864fbe983baa481eb266eb0057ae104c1915a`，CI `6aac7163043c382d9e3085cb86fc9493c023aeb96979f106175aa39ef4e496e5`，worker `ac2692984527db79792bc5dfe0a3aabfdee08a1527ecc7aea82eff50cbccfacd`，24-pin manifest `ba8b6d30fa8716b123ffcc63368f37926e95ad8a2682bfdf0b03b017ad7d8552`。只接受完全同源同输入前缀或明确固定的这一个历史native；新失败会保存原midpoint/whole/intersected jets。root已静态逐段读差异，原数据不经connector读取二进制，计算只公开Actions。

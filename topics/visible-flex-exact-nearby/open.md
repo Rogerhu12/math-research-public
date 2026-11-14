@@ -107,3 +107,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 大根区全部六半径 Cauchy actual 通过（2026-11-14）
 
 [43621934843 实际8门](results/R133-supplement-actual-full-real-large-root-Cauchy-energies.md)消费792真实共同格，半径1/1000、1/500、1/200、1/100、3/200、1/50全成。1/50的s=0/−1/原I后常数分别<73.578101/1514.952276/1561.577063；1/200更小为6.531704/10.936120/11.272695。第一行非单调权完整收费，所有mean、ordinary H^(s+1/3)与jump(H^(s+1/3),H^s)保。下一项消费真forcing/jump与positive同Sobolev窗，未授全返回或cutoff。
+
+### 2026-11-14 17:54:21 UTC：第一 forcing 保留实际失败与成功前缀，继续 v3
+
+43622131835 实际完成4个输入门和1个共同区间，随后第二格的 midpoint Taylor 对 gamma 丢失正性；这不是物理 gamma 非正的证明。原 native `ac235e9e0f9fb1880cc4adc83efc87b2653b0e02e53b0bdd70d20862a3798b0a`/8206B 及 process `a2731be212a6212e1745cdb2f33d2306b8b54156725ccdb875d1beb05019edf3`/13342B 保全。v3 只对尚未完成格把原同函数 whole derivative 和原 Taylor 外包围取交；root 已复核区间正当性、19个不变数学输入、原21-pin manifest 的逐字归档、唯一历史成功前缀的完整SHA/row identity/global bounds迁移。必须复用原1行，找不到就硬退出；仍保全部L0 one-gain项、真实radial jets、mean/I/J余项与1079 seams。公开新run成功前不声称forcing预算已完成。

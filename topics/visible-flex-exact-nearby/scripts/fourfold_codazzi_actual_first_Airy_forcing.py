@@ -35,7 +35,7 @@ def weight(values,start,width,angular=0):
     return old.weighted(values,[4*j for j in range(start,start+len(values))],width,angular)
 
 def restricted_jets(row,name,left,right):
-    """True midpoint Taylor with the original whole ordinary third derivative."""
+    """True midpoint Taylor, intersected with the same original whole jet."""
     a,b=map(Q,row["interval"]);mid=(a+b)/2
     if not a<=left<right<=b:raise ValueError("left the complete original intrinsic row")
     centre=row["intrinsic_midpoint_jets"];whole=row["intrinsic_whole_third_jets"]
@@ -46,7 +46,11 @@ def restricted_jets(row,name,left,right):
         value=sum((box(centre[name+(str(k) if k else "")])*X**(k-j)/math.factorial(k-j)
                    for k in range(j,3)),arb(0))
         value+=box(whole[name+"3"])*X**(3-j)/math.factorial(3-j)
-        result.append(value)
+        certified=box(whole[name+(str(j) if j else "")])
+        lo=max(value.lower(),certified.lower());hi=min(value.upper(),certified.upper())
+        if lo>hi:
+            raise ValueError("disjoint original midpoint Taylor and complete whole jet: "+name+str(j))
+        result.append(lo.union(hi))
     return result
 
 def bell(n,k,values):
@@ -321,16 +325,47 @@ def main():
             cursor=bb
         check("all six original parts cover the exact real root interval without recomputation",cursor==right)
         previous=None
+        if manifest.get("explicit_historical_prefixes") and args.resume is None:
+            raise ValueError("the already completed exact original prefix must be reused")
         if args.resume is not None:
             previous=read(args.resume)
-            check("the saved first-forcing prefix has the identical source and all immutable inputs",
+            same_source=(previous.get("source_sha256")==sha(__file__)
+                and previous.get("input_manifest_sha256")==sha(args.manifest))
+            historical=None
+            for entry in manifest.get("explicit_historical_prefixes",[]):
+                if (sha(args.resume)==entry["native_sha256"]
+                    and args.resume.stat().st_size==entry["native_bytes"]
+                    and previous.get("source_sha256")==entry["source_sha256"]
+                    and previous.get("input_manifest_sha256")==entry["input_manifest_sha256"]):
+                    historical=entry
+                    original_manifest=read(args.repo_root/entry["original_manifest_path"])
+                    original_process=read(args.repo_root/entry["process_path"])
+                    new_files={x["path"]:x for x in manifest["files"]}
+                    changed={TOPIC+"/scripts/fourfold_codazzi_actual_first_Airy_forcing.py",
+                             TOPIC+"/scripts/fourfold_codazzi_actual_first_Airy_forcing_CI.py"}
+                    for original_file in original_manifest["files"]:
+                        if original_file["path"] not in changed and new_files.get(original_file["path"])!=original_file:
+                            raise ValueError("an immutable original input changed during the exact prefix migration")
+                    if (sha(args.repo_root/entry["original_manifest_path"])!=entry["input_manifest_sha256"]
+                        or sha(args.repo_root/entry["process_path"])!=entry["process_sha256"]
+                        or original_process.get("native_sha256")!=entry["native_sha256"]
+                        or original_process.get("mathematical_source_sha256")!=entry["source_sha256"]
+                        or original_process.get("manifest_sha256")!=entry["input_manifest_sha256"]
+                        or str(original_process.get("run_id"))!=entry["run_id"]
+                        or original_process.get("actual_returncode")!=1
+                        or original_process.get("actual_new_closed_rows_in_this_child")!=entry["completed_rows"]
+                        or previous.get("prefix_global_accepted_rows")!=entry["completed_rows"]):
+                        raise ValueError("the one explicitly reviewed historical prefix changed")
+                    break
+            check("the saved first-forcing prefix has the identical inputs and an explicitly accepted exact source",
                 previous.get("kind")==report["kind"]
-                and previous.get("source_sha256")==sha(__file__)
-                and previous.get("input_manifest_sha256")==sha(args.manifest)
+                and (same_source or historical is not None)
                 and previous.get("runtime")==runtime
                 and previous.get("original_part_receipts")==report["original_part_receipts"]
                 and previous.get("root_native_sha256")==ROOT_SHA
                 and previous.get("prefix_global_accepted_rows")==len(previous.get("rows",[])))
+            if historical is not None:
+                report["explicit_historical_prefix_reused"]=historical
             if previous.get("complete") and previous.get("proved") and previous.get("failure") is None:
                 if not previous.get("gates") or not all(g["passed"] for g in previous["gates"]):
                     raise ValueError("a completed original first-forcing native has an unsuccessful gate")
@@ -396,8 +431,14 @@ def main():
                     or saved.get("actual_scalar_germ")!=ir["actual_scalar_germ"]):
                     raise ValueError("a successful saved first-forcing common row changed its exact identity")
                 continue
+            report["last_attempted_common_cell"]=dict(serial=serial,interval=[str(a),str(b)],
+                original_root_row=oi,original_common_row=ir["common_row"],original_piece=piece,
+                original_intrinsic_interval=ir["interval"],actual_scalar_germ=ir["actual_scalar_germ"],
+                original_midpoint_jets=ir["intrinsic_midpoint_jets"],
+                original_whole_third_jets=ir["intrinsic_whole_third_jets"])
             jets={name:restricted_jets(ir,name,a,b) for name in ("gamma","beta","K","s")}
-            if not jets["gamma"][0]>0:raise ValueError("true gamma interval lost its sign")
+            report["last_attempted_common_cell"]["intersected_true_jets"]={k:[rec(v) for v in z] for k,z in jets.items()}
+            if not jets["gamma"][0]>0:raise ValueError("true gamma interval lost its sign after certified whole-jet intersection")
             raw=[base.values(piece,a,b,p) for p in range(4)]
             rz=[response.values(piece,a,b,p) for p in range(4)]
             uj=[];vj=[];mj=[]
@@ -492,6 +533,8 @@ def main():
                 complete_intrinsic_ordinary_jets={k:[rec(v) for v in values] for k,values in jets.items()},
                 full_actual_mean_derivatives=[rec(v) for v in mj],
                 full_actual_eta_derivatives=[rec(v) for v in etaj],strips=newstrips))
+            report["last_accepted_common_cell"]=dict(serial=serial,interval=[str(a),str(b)])
+            report.pop("last_attempted_common_cell",None)
             report["new_closed_rows"]+=1
             report["global_coefficient_and_inverse_bounds"]=encode(glob)
             report["prefix_global_accepted_rows"]=len(report["rows"])

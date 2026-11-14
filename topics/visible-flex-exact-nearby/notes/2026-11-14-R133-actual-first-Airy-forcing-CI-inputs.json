@@ -95,13 +95,13 @@
     },
     {
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing_CI.py",
-      "sha256": "087533c0a2df94a1b5022d0db3014d00a99935bf84b502d307bc028767f24b55",
-      "bytes": 6423
+      "sha256": "6aac7163043c382d9e3085cb86fc9493c023aeb96979f106175aa39ef4e496e5",
+      "bytes": 6533
     },
     {
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing.py",
-      "sha256": "d964ae8354700fbb101b55ae332ba51ab8c1a6bafcfe2ca78e12206aae32b592",
-      "bytes": 32287
+      "sha256": "e75dda60562fb51c0db637f42e5864fbe983baa481eb266eb0057ae104c1915a",
+      "bytes": 35837
     },
     {
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
@@ -112,6 +112,21 @@
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_piecewise_real_root_fold_resume_v2.py",
       "sha256": "840d7ae96c023f0f1055516cfefe62f22a8f46a3f8a0ea2974553b32760eb112",
       "bytes": 37715
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-original-first-forcing-manifest-run43622131835.json",
+      "sha256": "0c836f81cd952dc1527e593c67a813de723187914582b72a578c83c21eecfee6",
+      "bytes": 7288
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/actual_first_Airy_forcing_ci/run-43622131835-1/consumers/process.json",
+      "sha256": "a2731be212a6212e1745cdb2f33d2306b8b54156725ccdb875d1beb05019edf3",
+      "bytes": 13342
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/actual_first_Airy_forcing_ci/run-43622131835-1/consumers/actual-first-Airy-forcing.json.gz",
+      "sha256": "ac235e9e0f9fb1880cc4adc83efc87b2653b0e02e53b0bdd70d20862a3798b0a",
+      "bytes": 8206
     }
   ],
   "input_paths": {
@@ -143,5 +158,26 @@
   "actual_first_forcing_includes_complete_one_gain_radial_term": true,
   "old_mean_primitive_inverse_remainders_and_next_state_jumps_remain_explicit": true,
   "numerical_cutoff97_return_inverse_claimed": false,
-  "completed_same_source_first_forcing_prefixes_reused_without_new_closed_cell_computation": true
+  "completed_same_source_first_forcing_prefixes_reused_without_new_closed_cell_computation": true,
+  "explicit_historical_prefixes": [
+    {
+      "kind": "one_exact_pre_intersection_first_forcing_prefix",
+      "source_sha256": "d964ae8354700fbb101b55ae332ba51ab8c1a6bafcfe2ca78e12206aae32b592",
+      "input_manifest_sha256": "0c836f81cd952dc1527e593c67a813de723187914582b72a578c83c21eecfee6",
+      "native_sha256": "ac235e9e0f9fb1880cc4adc83efc87b2653b0e02e53b0bdd70d20862a3798b0a",
+      "native_bytes": 8206,
+      "completed_rows": 1,
+      "run_id": "43622131835",
+      "run_attempt": "1",
+      "scientific_checkout_commit": "57458a616c6cb534f121283d53b269d9cbbec307",
+      "source_event_commit": "b70c52b704e5ed40bb915ac7ecdceaed4f843c52",
+      "native_path": "topics/visible-flex-exact-nearby/notes/actual_first_Airy_forcing_ci/run-43622131835-1/consumers/actual-first-Airy-forcing.json.gz",
+      "process_path": "topics/visible-flex-exact-nearby/notes/actual_first_Airy_forcing_ci/run-43622131835-1/consumers/process.json",
+      "process_sha256": "a2731be212a6212e1745cdb2f33d2306b8b54156725ccdb875d1beb05019edf3",
+      "original_manifest_path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-original-first-forcing-manifest-run43622131835.json",
+      "mathematical_reuse_basis": "The accepted original row uses an outward midpoint Taylor enclosure with the original whole third derivative. Intersecting future rows with the already certified whole jets only tightens a valid enclosure and does not invalidate or recompute that accepted original row.",
+      "immutable_original_inputs_unchanged": true
+    }
+  ],
+  "whole_jet_intersection": "Intersect each directed midpoint Taylor enclosure with the independent same-function original whole derivative enclosure. Preserve and reuse the one wider valid accepted row without recomputation."
 }

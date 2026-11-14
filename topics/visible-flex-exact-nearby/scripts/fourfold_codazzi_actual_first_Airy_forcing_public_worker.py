@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Publish the actual larger piecewise real root folds and complete seam fees.
 
-Hydrate exactly21 pinned files and freeze an immutable scientific snapshot.
+Hydrate exactly24 pinned files and freeze an immutable scientific snapshot.
 Reuse the completed radius1over50 native and six original intrinsic third-jet parts.
 Read original complete polynomial shards, without any target or response solve.
 Preserve every actual outcome and failed prefix in the public repository.
@@ -82,7 +82,7 @@ def main():
                       str(TOPIC/'notes/actual_first_Airy_forcing_ci/')))
         subprocess.run(gitbase+['sparse-checkout', 'set', '--no-cone', '--stdin'], cwd=root,
                        input='\n'.join('/'+p for p in sorted(paths))+'\n', text=True, check=True)
-        print('Hydrated21 fixed input files; original root and six jet parts will be separately SHA-verified and frozen.', flush=True)
+        print('Hydrated24 fixed input files; original root and six jet parts will be separately SHA-verified and frozen.', flush=True)
         return
     if args.work is None or args.out_dir is None or args.prepared is None:
         raise ValueError('the immutable work and separate output directories are required')
@@ -180,21 +180,36 @@ def main():
     for process_path in processes:
         pd=json.loads(process_path.read_text())
         native_path=process_path.parent/'actual-first-Airy-forcing.json.gz'
-        if (pd.get('public_repository')!=PUBLIC or pd.get('manifest_sha256')!=args.manifest_sha
-            or pd.get('mathematical_source_sha256')!=expected_source
+        same_source=(pd.get('manifest_sha256')==args.manifest_sha
+            and pd.get('mathematical_source_sha256')==expected_source)
+        legacy=next((x for x in manifest.get('explicit_historical_prefixes',[])
+            if pd.get('manifest_sha256')==x['input_manifest_sha256']
+            and pd.get('mathematical_source_sha256')==x['source_sha256']
+            and sha(process_path)==x['process_sha256']),None)
+        if (pd.get('public_repository')!=PUBLIC or not (same_source or legacy is not None)
             or not native_path.is_file()):
             continue
+        if legacy is not None and (sha(native_path)!=legacy['native_sha256']
+            or native_path.stat().st_size!=legacy['native_bytes']):
+            raise ValueError('the one reviewed original successful prefix changed')
         if (sha(native_path)!=pd.get('native_sha256')
             or native_path.stat().st_size!=pd.get('native_bytes')):
             raise ValueError('a published actual first-forcing prefix changed its bytes')
         nd=json.loads(gzip.decompress(native_path.read_bytes()))
-        if (nd.get('source_sha256')!=expected_source or nd.get('input_manifest_sha256')!=args.manifest_sha
-            or not nd.get('rows') or nd.get('prefix_global_accepted_rows')!=len(nd['rows'])):
+        identity=(nd.get('source_sha256')==expected_source and nd.get('input_manifest_sha256')==args.manifest_sha)
+        if legacy is not None:
+            identity=(nd.get('source_sha256')==legacy['source_sha256']
+                and nd.get('input_manifest_sha256')==legacy['input_manifest_sha256']
+                and len(nd.get('rows',[]))==legacy['completed_rows'])
+        if (not identity or not nd.get('rows')
+            or nd.get('prefix_global_accepted_rows')!=len(nd['rows'])):
             continue
         complete=bool(nd.get('complete') and nd.get('proved') and nd.get('failure') is None
             and nd.get('gates') and all(g['passed'] for g in nd['gates']))
         if complete and pd.get('actual_returncode')!=0:continue
         candidates.append((complete,len(nd['rows']),process_path,native_path))
+    if manifest.get('explicit_historical_prefixes') and not candidates:
+        raise ValueError('the already completed first-forcing row must be restored and reused')
     if candidates:
         complete,count,pp,np=max(candidates,key=lambda z:(z[0],z[1]))
         resume=work/'original-first-forcing-prefix.json.gz'
