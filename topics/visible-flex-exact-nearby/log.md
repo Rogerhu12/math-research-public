@@ -83,3 +83,7 @@ root与newton均核L11 determinant、四个δ幂与完整正逆架；从精确E�
 ## 2026-11-14 16:55:40 UTC — 启动只重权旧profile的独立小消费
 
 root完整读source/CI/合同/flow并核230vs218全部原SHA零变；tail核G5除法确为旧已选数值load。只下载3个真实成功native及原artifact process：43616648792/43615251195/43616252389，源严格核中心、Z、同w0、旧cut输入和全部门。child0但外层出版失败可恢复，新摘要≤60000B；不重做body propagation、Riccati、projector或physical residual。
+
+### 2026-11-14 17:02:48 UTC — 同一w0的ordinary-only Hessian最小新计算
+
+逐字审源、合同、worker与workflow，原152文件在新156清单中SHA全部相同，tail独立数学审核通过。直接使用完整原L8的−e tθ+Zt，以普通两源积分，原9360中tB/tC格范数全复用；仅在1977真Hermite交集新增tθ Legendre积分。只比较两份完整总add，不混 ordinary/divergence 分解，未知方向仍用原完整erroroperator。新CI已推、待实际门；未预报数值成功。H原9840字节完整归档后压缩，全部历史失败/原字节索引保。
