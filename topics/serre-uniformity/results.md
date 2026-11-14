@@ -169,3 +169,6 @@
 
 
 - **R734（全素数已证明）**：[每个允许素数都有其他本原单位 toric norm](results/R734-primitive-unit-toric-norm-at-every-prime.md)。对每个 $p\ge41$、$p\equiv5\pmod6$，完整六步 Legendre 递推给实际相邻零对至多两个，而 CRT 给至少三个本原相邻对，故存在 $h>1$ 真本原且 $N_h$ 单位；准确数量下界 $\lceil(K(m)-4)/2\rceil$。仍须同一标签的两个 Cartier 系数非零，未冒推全 $p$ 的 $M_2$ 单位或高度排除。
+
+
+- **R737（已证明）**：[原中心值均方及大量受控Abel分量](results/R737-original-central-second-moments-and-abundant-low-Abel-slopes.md)。完整原signed ray按index-p可见方向求和，线权≤4/rmin+21/√p、平方和O(logp)，六线block正交给L5/L7均方<2^25/2^27(1+logp)。原范数平均得mean 2vM2<3+δp；p≥2^160有v≤3/2，p≥2^512超过g/18标签满足。保留半整数可能性，完整Tate仍p8，未变成p7/p4或高度排除。

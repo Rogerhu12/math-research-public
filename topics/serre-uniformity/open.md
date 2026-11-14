@@ -328,3 +328,6 @@ $\kappa_p$–$d_q$ / $\kappa_q$–$d_0$ 交换链。
 实际 $J_\ell$、$J_{\mathrm{fl}}$ 与原 $b$ 的准确比较及真正主化坐标仍缺。
 R704 原43嵌入矩阵及R708局部Norm歧义已处理；
 仅局部条件不能替全局普通输入。
+
+
+**R737（已证明）**：完整原L5/L7全字符均方为O(logp)，signed整数倍、逐visible index-p格、六线block相位全保留。原DN·P的几何均值<2^134 p8(1+logp)(2+log2p)²，故mean 2vM2<3+δp；在原非零前提下，p≥2^160存在vM2≤3/2，p≥2^512超过g/18原本原标签满足。R729给全充分大前提。只知2v整数，归一有理jet尾仍给p8；一般半整数可能性、候选p4和原高度未由此排除。详[R737](results/R737-original-central-second-moments-and-abundant-low-Abel-slopes.md)。

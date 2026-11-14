@@ -4,15 +4,15 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：4c7d3db58c193203cc021d55420e1fc7c091afdc
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei，两README无差异。最近公开Actions实际pull：2026-11-14 14:53:02 UTC，run43607163270，提交f7f3a3a676023388f0e6b8574689380f061acf3c，两README无差异。最近GitHub集成核查：2026-11-14 15:04:07 UTC，两README无差异。执行环境unavailable，根规8允许集成仅传<100KB小文本；每次读最新main/两README，以最新父提交无强推，拒绝即重试。只读serre-public-rule-refresh凭据在computations/public-rule-refresh/43607163270-1/receipt.json；下次实际pull不晚于15:53UTC，可改同一request nonce触发。终端恢复立即部分克隆/pull；至少每小时实际pull及读规则差异。集成核查不冒称本地pull。
+已读规则提交：e448e6bacc129c9e475529a2016cc9805b983e71
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei，两README无差异。最近公开Actions实际pull：2026-11-14 14:53:02 UTC，run43607163270，提交f7f3a3a676023388f0e6b8574689380f061acf3c，两README无差异。最近GitHub集成核查：2026-11-14 15:14:37 UTC，两README无差异。执行环境unavailable，根规8允许集成仅传<100KB小文本；每次读最新main/两README，以最新父提交无强推，拒绝即重试。只读serre-public-rule-refresh凭据在computations/public-rule-refresh/43607163270-1/receipt.json；下次实际pull不晚于15:53UTC，可改同一request nonce触发。终端恢复立即部分克隆/pull；至少每小时实际pull及读规则差异。集成核查不冒称本地pull。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权；终端非快进立即pull --rebase重推。PAT仅CLI，未交集成。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB，大可复现中间量只存artifact。日志本题≤5行，改共享设施须说明；不设独立审计/冻结审批门。
 
 本次前完整归档[before-R735](notes/2026-11-14-public-handoff-before-R735.md)，内接before-R734/R733/R729/R724及更早链；原open完整公式见notes/2026-11-14-open-checkpoint-through-R721.md。旧本地对象不可依赖，未推成果按原记录重做；已成计算不得为包装重跑。
 
 ## 正在执行和下一项
 
-- 新公开Actions任务R732-p41-original-CM-model已提交：scripts/R732_p41_original_CM_model.py、R732_public_original_CM_model.py；request notes/R732-public-p41-original-model-request.json；workflow serre-p41-original-CM-model.yml。首次计算原b的7次多项式，用U=64/x(P)³的280维精确商代数；每步保存，预算80分钟不是课题终点。检查F41(b)=0、41-Eisenstein、disc赋值6及原逆different。尚无数值结论。完整中间状态只在artifact，小凭据和小最终证书入git；待记run/source。R735留给成功的原模型结果。
+- 新公开Actions任务R732-p41-original-CM-model已提交：scripts/R732_p41_original_CM_model.py、R732_public_original_CM_model.py；request notes/R732-public-p41-original-model-request.json；workflow serre-p41-original-CM-model.yml。首次计算原b的7次多项式，用U=64/x(P)³的280维精确商代数；每步保存，预算80分钟不是课题终点。检查F41(b)=0、41-Eisenstein、disc赋值6及原逆different。运行43608152850，source ff405af51e13bb966fecd066a14513eee0947702，job132487145409，计算中、无数值结论。完整状态在artifact，小凭据/小最终证书入git。R735留给成功的原模型结果。
 - global继续R732原X1有限向量/周期矩阵和可执行RR输入；函数/β/高度仍未生成，不重算已成41分类。
 - cartier继续同一真本原h的原N_h、C_(h−2)、C_(p−h−2)同时单位。R734已全p存在N_h单位；该条件单独不够，旧p41的h37真实N单位而C35零。固定有限h>1均可被CRT同时排成本原，须允许h随p变。
 - unit继续真实Γ/S/T普通Norm交换链及J↔b。R731 q主化可校正NΓZ=Aα；正在把NS目标同时校正到Aα。实际J/b未知，R723仅留给真桥，勿用局部或pure-p值代入。
@@ -29,6 +29,7 @@ R732有限准确算法：原E0:y²=x³−1，completed E(P)=−D²ψ_M/(2M²Dψ_
 
 ## O4：完整Abel及真正高度障碍
 
+R737原L5/L7全族均方<2^25/2^27·(1+logp)：保留signed scalar后逐visible index-p线求和，线权≤4/rmin+21/√p、全线平方O(logp)，六线block正交。原primitive geomean与N平均给mean 2vM2<3+δp，δp=[134log2+log(1+logp)+2log(2+log2p)]/logp。p≥2^160某h≤3/2；p≥2^512超过g/18标签满足。只给2v整数，完整Tate仍p8；待核其他h能否半整数，不偷推p7。
 R729原weight5/7 full/primitive均值→π/√3：完整signed核；非unit full支持|β|≥p/2；R726(c/2)控primitive误差；有限CM和Galois传递给指定M2非零。原DP整/全复嵌入给单嵌入5+2h<g(9+115log2/logp)。连同R726/R682，全充分大允许p共同coarse Abel阶m=1；仅知高度s²整除，不是精确阶或单位。
 R730完整格点L5/L7=O(√p)、原N_h全正整及≤p²−1，全嵌入Norm平均得p9等距。R733 full六标签筛选/六条Fp直线，每fiber≤12点，ΣN_h<13mp；primitive geomeanN<5p(2+log2p)。故min_h2vM2h<4+[128log2+log(2+log2p)]/logp；p≥2^136某真本原h有vM2h≤2。原KS有理jet比值和完整一次p Hodge界给16I_h(p8u)/(p8M2h)=u+pH，固定p8盘完整等距。仍缺候选p4；更不能把正秩有理点当Abel回零。
 R727其他h完整原公式：(p²M2h)²/ζ²≡864Nh·Bcart^5/α²·Qh·r_(h−2)r_(p−h−2)。同h三单位则vM2h−2及整个vs>3只有center。原h7在137147满足；没有假设旧h1整格适用于其他h。
@@ -38,11 +39,9 @@ R710原h1整Tate端点及R711有理直线使jet整数赋值；原137147 M8−7�
 R575原正商、R593/R596原η/χ/刚性化/tensor/截面保持。R690/R694/R696实际坏靶Ω={0}。R634外积消A高度矩阵，仍保Y项/常数；R703/R716有限代数jet提取、完整相对尾已证，免预求γ；零数界不能代共同无根。
 R724规范求值：Y splitting在Λ中含因子2/常数精确抵消；原η Hecke轨道给MW基，ell=yᵗL⁻ᵗHL⁻¹eη，不反演H。universal-extension提升用Δ=logIZ−r(logQ)校正，经同一Poincaré群对数求原λp/d_i及所有非p项。全二类周期/刚性化/形式尾保持。(724.33)有限Bézout排根条件未实际通过；原高度jets尚无，未证明全p证书存在。
 
-## 已成R717/R722精确原137147 M2
+## 已成R717/R722原137147 M2
 
-p41校准run43597163388完成42 trace及1274/24。137147旧run43597802237的8113行14925440项四bin均有效；旧chirp区间膨胀失败，诊断run43602040433，兼容证明见R717 §10与notes/R717-independent-chirp-recovery.md。
-成功run43602664971，source f63e0498a9d599342ee5af0f66f3a425edfd9fd2，只直接等相位重算chirps/DFTs，四bin/生产前缀/参数逐字核且完全复用。137148 trace全唯一，最大实半径597851749·2^−82；精确p6分子赋值5，P≡105522、M2²/ζ²≡53970、vM2=0。
-全部core/run/manifest/source/bin SHA在R722与归档；小凭据computations/R717-original-CM-norm-p137147-direct-chirps/43602664971-1/；大artifact不经集成分块，不重跑。R712 D137147未展开不再阻碍本结论。
+成功run43602664971/source f63e0498a9d599342ee5af0f66f3a425edfd9fd2，仅直接等相位重算chirps/DFTs并复用原四bin；137148 trace全唯一，最大实半径597851749·2^−82。精确P≡105522、M2²/ζ²≡53970、vM2=0。原失败/诊断、p41校准与全部source/core/bin/manifest SHA详R722及before-R735归档；小凭据computations/R717-original-CM-norm-p137147-direct-chirps/43602664971-1/。大artifact不分块传集成，不重跑。R712未展开的D已不阻碍本结论。
 
 ## O6：原p43普通Norm、首矩、交换
 
