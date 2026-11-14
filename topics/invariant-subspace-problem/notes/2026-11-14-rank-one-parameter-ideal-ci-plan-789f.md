@@ -75,3 +75,5 @@ Singular 的 `lift`/`liftstd` 采用原生成元变换矩阵语义；参照其�
 本次 `workflow_dispatch` 实际返回403：当前PAT不能访问该手动调度API。未重试同一受限API。仓库内容写入和已有本库push工作流路径可用，且根README13已授权本课题直接使用本库Actions，因此当前以本题 [请求记录](2026-11-14-r150-ci-request-789f.json) 的一次Git push触发。只有该文件变更会自动启动；维护workflow/runner本身不会产生重复任务。
 
 选择步骤读取同一提交中的明确特征/坐标/算法，只接受现有选项，计算步骤仍调用原runner和原证书判据。本次只重算32003平移分支，不取消旧特征0任务。计算前artifact、资源心跳、12GiB Singular上限和完成/不完整回执机制不变；之后由实际run状态登记运行号。
+
+当前恢复运行已实际启动：[43572522972](https://github.com/Rogerhu12/math-research-public/actions/runs/43572522972)，源提交f4d370049b6631a11b4cc24281c51504aded9f46。选项步骤成功、特征32003平移输入artifact已上传，实际原消元任务运行中；未有完成证书。

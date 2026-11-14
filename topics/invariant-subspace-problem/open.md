@@ -59,13 +59,13 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R272 修复](results/R272-normal-predual-tail-repair-and-exact-positivity-obstruction.md)的非零单侧修正必失自伴；[R274](results/R274-full-commutant-basis-and-last-raw-moment-obstruction.md)保第q个raw矩−νQ_P≠0及整个A′尾基。固定行可修复，移动q/单位逆费用仍开，完整范围在既有归档。
 
-[R290 混合头排除](results/R290-mixed-finite-head-product-and-physical-block-diagonal-normal-annihilator-exclusion.md)排任意固定有限混合头×任意正常尾、任意物理头块对角密度；真链每个切分必须关联、尾rank≥2。证明固定q消头矩Hankel、剥真实单位后用有界高幂，未给移动q或相关强度统一预算。一般关联有限秩见证仍开。
+[R290](results/R290-mixed-finite-head-product-and-physical-block-diagonal-normal-annihilator-exclusion.md)排任意混合有限头×任意正常尾及物理头块对角；固定q预算已付，未给移动q的统一费用。
 
 [R276 正头完成紧凸判据](results/R276-positive-head-completion-and-compact-numerical-radius-criterion.md)：原S=[[Z,t],[I,Z]]的单位规范化后，同一正尾ν的全部正完成非对角块为X=√νK√ν、w(K)≤1/2。原全理想零式iff ν(Z²−t)∈N且νZ+X+X*t∈N；X集迹范数紧，最小商距离达到，完整数值半径对偶式(5.2)可给严格排除证书。raw唯一Stein解仅为额外特例；须对实际相容ν_m链证明某步距离>0，不能把N内非零缺陷删零或免费移动Z_m/单位逆成本。
 
 **余正常接口。** 固定正常矩仅c0/o(m^(k/2))；carry×聚合费须趋零，非UHF强单位不付未知限制。真ann迫q_m↓0；旧周期滤波、平方选择器、张量、热球、纠缠及原预算保归档。
 
-[R289 尾熵](results/R289-finite-rank-tail-entropy-density-and-compatible-arbitrarily-slow-rank-two-chains.md)付S(ν_m)=o(m)；同一秩一态可有任意慢δ、尾rank≤2及全块rank≤3/非纯，并兼容列明旧能量界。该例不是ann，仍须真实零式给秩/熵增长或正距离。
+[R289](results/R289-finite-rank-tail-entropy-density-and-compatible-arbitrarily-slow-rank-two-chains.md)付有限秩原态S(ν_m)=o(m)；其低秩字符串例现被[R291](results/R291-normal-moment-module-independence-and-exponential-support-rank-growth.md)排除。R291从真实零式得q个头矩在C(z)上独立，任意M位切分operator-Schmidt秩≥2^M，正连续块/远尾rank≥ceil(2^(M/2))。一般原有限秩仍容许这种尾秩增长；下一缺口是特征值质量/实际距离，不能由支撑秩推熵密度。
 
 [R287 非周期来源](results/R287-two-sided-moving-character-limits-and-nonperiodic-disk-source-budget.md)付R_n/伴随的同角色强近似、R_n²→I且N_nR_n²→−I/2仅WOT。全部单位盘逐位平方积在Σ|1−z_j|≤b·2^(4m)、b<770/64内真空比指数趋零；全部κ_m、超预算及非此族仍开。
 

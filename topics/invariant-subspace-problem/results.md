@@ -643,3 +643,7 @@
 ### R288 附录：全部正权出生一 S1 的严格创新预算与完整整数证书
 
 [完整证明](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)从真实F1/F2 Schur保硬顶C2=0，把S1缺陷精确化为对角减rank1；清分母后为行和零的次数9整数矩阵。按实际支持分成3–9位七类，全部35个前导主子式的非零系数严格正；有限支持穷尽及三位严格性给任意M≥3正权的S1严格正。[精确程序](notes/2026-11-14-birth-one-s1-support-certificate-789f-next.py)与[已执行结果](notes/2026-11-14-birth-one-s1-support-certificate-789f-next.json)可重放。结合S2付该出生全部一位首边SOS；一般birth与ISP仍开。
+
+### R291：一般正常头矩的模独立性与同一正链的指数支撑秩
+
+[完整证明](results/R291-normal-moment-module-independence-and-exponential-support-rank-growth.md)。真实尾多项式在正常泛函模上无挠，故可只作代数局部化；R124的真实旋转差单位及其逆在根扩张中同时运输，各分支核直和。不可约x^q−z迫q个原头矩在C(z)上线性独立，因此任何非零迹正常湮灭密度在M位切分的算子Schmidt秩至少q=2^M。正密度每个M位连续块及远尾支撑秩至少ceil(2^(M/2))，排统一有限Schmidt秩与R289字符串态。没有把尾系数当有理函数、抽象根当有界算子或支撑秩当熵下界；一般有限秩原见证仍开。

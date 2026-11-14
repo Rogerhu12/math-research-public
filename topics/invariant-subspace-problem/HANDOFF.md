@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `4a80fc15eb9c13ec5ea2c26f8f2a0546963fc42d`（2026-11-14 07:48:11 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `ca7cd456ee1c85a62e736b47fc8cf4ae6df669cc`（2026-11-14 07:50:35 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`。旧临时树不在；丢失正常预对偶修正已重建 R272，丢失两异常位完整 MP 已重建 R273（148 有理例）。
@@ -19,7 +19,7 @@
 ## 1. 正常主理想与普通不变空间
 
 - **R272/274：** raw远尾修复保A′泛函/迹/固定边缘，但非零单侧修正必失自伴。整个A′的实际q项尾基及第q个raw矩=−νQ_P≠0已付；原理想只归νQ_PC_P零式，不能删最后一阶。
-- **R276：** 固定同一正尾 ν 的正头完成 X=√νK√ν，w(K)≤1/2；原正常商零式保 ν(Z²−t) 与 νZ+X+X*t 两项。X 集迹范数紧及精确对偶已付；仍须同一实际 ν_m 全链的排除证书，不能删正常预湮灭商内非零缺陷。续稿 `notes/2026-11-14-normal-cross-level-continuation-789f.md`。
+- **R276：** 同一正尾ν的正头完成X=√νK√ν、w(K)≤1/2；原理想零式保ν(Z²−t)及νZ+X+X*t在正常预湮灭商内，紧性与准确对偶已付。一般真链的定量正距离/谱质量仍缺，不能将商内缺陷删零。
 - **旧正常范围：** R235/237/255指定正态类、R228实化/增秩、R229纯化失败及R230/244/267正常预算的全部精确范围保本次压缩前H/open。一般正有限秩仍开；真ann迫q_m↓0，δ无速率，hp/vp不换，保锚源/共同图未付。
 - **R280（已推）：** 任意 a.e.有限可测复权的非零加权因子不变空间必 H；闭逐点子格、相位共轭保正投影因此无真不变值域。每个非零轨道生成 H 的闭子格，未证线性循环。
 - **R282：** [分类](results/R282-complete-multiplier-stabilizer-classification-and-finite-head-splitting.md)付单向复乘子自动自伴，真M的稳定代数恰有限低头且M=完整头⊗尾V；尾V只余标量稳定乘子。[移动源附录](results/R282-appendix-actual-moving-commutant-sources-and-nonvanishing-normal-error.md)给实际均有界R_m强近c_m，但(N_m−M_q_m)R_m WOT→(2i/π)I。固定乘子若在全M由交换子弱/强极限得到只能标量；一般M仍开。
@@ -38,14 +38,15 @@
 - **R285（已推e7cca4f）：** 明确标量正数据及x≥4参数族满足旧普通边、仿射界、两个R284严格零模块和粗占据界，却使两条更强S1/S2费用无界。只排该有限形式推理，不是Boolean反例。续逐坐标真实creation/Gauss系统。
 - **R286：** [全高度固定源](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1 creation合成与逆平方根能量，原慢尾全height/原幂几何和；实际t_q祖先birth随q上移，固定birth塔最终为零，不付原graph跨birth及N=M。
 - **R287：** [双侧极限/非周期来源](results/R287-two-sided-moving-character-limits-and-nonperiodic-disk-source-budget.md)付R_n与伴随同移动角色强近似，R_n²→I而N_nR_n²→−I/2仅WOT。全部单位盘逐位平方积在总偏差b·2^(4m)、b<770/64内真空比指数消失；全部κ_m和一般见证仍开。
-- **R288：** [逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保全部物理交叉。[S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)以真实H2向量付birth1 ||T||²≤2/3及共同Yi；[本提交S1](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)付真实对角减rank1式、次数9支持3–9全部35主子式严格正。全部M≥3正权birth1两加强条件与一位SOS已闭，一般birth仍开。
-- **R289（已推3b54b2fb）：** [尾熵及非见证例](results/R289-finite-rank-tail-entropy-density-and-compatible-arbitrarily-slow-rank-two-chains.md)。同一有限秩ρ的S(ν_m)=o(m)，不可一般加强有界。单个秩一f可实现任意δ_m↓0而尾rank≤2/熵→0、每连续块rank≤3且非纯；慢例兼容列明旧能量/临界矩必要界。未满足原湮灭方程，真实Q_m/Z_m支撑增长仍开。
-- **R290（已推b226192b）：** [混合头/物理块对角排除](results/R290-mixed-finite-head-product-and-physical-block-diagonal-normal-annihilator-exclusion.md)。任意固定q正头σ×任意正常尾ν不能ann；原有权头矩detH=u^(q−1−K)p(u)、p(0)≠0，adj与真实b1单位把零式化z^d，再由原高幂迹锚矛盾。全A′头对角相同另排物理头块对角态。真链每个切分均关联且每个尾rank≥2，未给统一相关/熵下界。
+- **R288：** [逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保全部物理交叉。[S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)以真实H2向量付birth1 ||T||²≤2/3及共同Yi；[S1已推ca7cd456](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)付真实对角减rank1式、次数9支持3–9全部35主子式严格正。全部M≥3正权birth1两加强条件与一位SOS已闭，一般birth仍开。
+- **R289：** [熵与结构例](results/R289-finite-rank-tail-entropy-density-and-compatible-arbitrarily-slow-rank-two-chains.md)付一般有限秩原态S(ν_m)=o(m)，尾熵仍可无界；任意慢δ可由统一秩二链实现，但该具体字符串族现被R291的原零式排除。
+- **R290：** [混合头/物理块对角](results/R290-mixed-finite-head-product-and-physical-block-diagonal-normal-annihilator-exclusion.md)已排。固定原头矩detH=u^(q−1−K)p(u)消到z^d，真实单位和归一化高幂付迹锚；头对角相同给块对角情形。一般关联态改见R291。
+- **R291（本提交）：** [矩模与指数秩](results/R291-normal-moment-module-independence-and-exponential-support-rank-growth.md)。正常尾模对非零C[z]多项式无挠；只作代数扩域并运输R124真单位，q个头矩在C(z)上线性独立。任意M位切分的operator-Schmidt秩≥q=2^M；同一正链每M连续块及远尾rank≥ceil(2^(M/2))。排统一低Schmidt秩/字符串例，仍无特征值质量下界，与r2^m上界及熵o(m)不矛盾。
 - **代理后续：** boundary 转R273真实两异常位4D相邻序，literature 续S2逐物理坐标；normal回实际固定秩ν_m全链；R271 已闭任意 birth1 首/末边、两组＋一位等，不重复成新缺口。
 
 ## 3. R150 与其他主接口
 
-R150：全部rankAy8自然点已分类，余g≠0、rankAy9有限Σ；[计划/重建入口](notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md)。须特征0原I*C=T及实际lift分母，32003仅发现。原运行43568673309特征0仍计算；32003于07:19收到runner shutdown、exit143，原因未知，无证书。本地q0异常/32003限1GiB失败回执均存。新版先传输入artifact，镜像日志/45秒资源心跳，Singular限12GiB。手动API403后改本题请求JSON的授权push触发；本提交仅请求32003/translated/slimgb恢复，随后登记实际run号。旧跨库代跑不恢复。
+R150：全部rankAy8自然点已分类，余g≠0、rankAy9有限Σ；[计划/重建入口](notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md)。须特征0原I*C=T及实际lift分母，32003仅发现。原运行43568673309特征0仍计算；32003于07:19收到runner shutdown、exit143，原因未知，无证书。本地q0异常/32003限1GiB失败回执均存。新版先传输入artifact，镜像日志/45秒资源心跳，Singular限12GiB。手动API403后改本题请求JSON的授权push触发；新运行43572522972已在算32003/translated/slimgb，输入artifact已成功；原q0不取消。旧跨库代跑不恢复。
 
 R176有界部分谱、R147实奇次/负正辅助、R236已排原指定慢二次全核与全部旧行/种子、R268–270快辅助/共振/不交乘积仅在原范围；一般慢Bell、自然幂/实际逆、双无界及共同自然域仍按 open。R12/R14指定紧夹积/硬截断失败不排所有外部紧交织。
 
