@@ -286,3 +286,6 @@
 
 
 - **R773（已证明）**：[完整ordinary scalar格与原mixed Robert相位](results/R773-complete-ordinary-scalar-lattice-and-original-mixed-Robert-phase.md)。原全Hq产品逐因子在q归约，无条件给rμ(cs)=9；b≠0时原us/cs/y生成完整普通格，准确无挠presentation、二维socle与真UV=(4/C)n+ηu全部固定。真dual解的直接完整μp相位为0，但η和原regularized pairing未求，J/b/σ₂继续。
+
+
+- **R774（方法已证明，公开工程已保存）**：[原degree1206微分的完整权六立方前缀](notes/R774-original-Hodge-cube-method.md)。复用R748原4096 newform、R745前800与R759真v，只扩six Fourier至2460；block121的56对称三积及14行原L有理尺度准确生成H³的821项并提取实际e，R771真694基仅作完整mod739辅助核。实际输出待run，不预称M6特征零坐标/函数/高度。

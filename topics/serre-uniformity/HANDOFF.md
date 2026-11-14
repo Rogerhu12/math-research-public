@@ -4,9 +4,9 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、有限数值均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：cfce13b1e1b39b278368b760d83e0def0c1095c3
+已读规则提交：fc7b56fe51d41e5fee601df1867efdd31aedda96
 最近已确认本地pull：2026-11-15约01:56 Asia/Taipei，main=b202f09796ede72bb57cbb1d770dafd3987f987c，两README未变。随后终端transport断连且environment unavailable（18:34及18:56 UTC只读重试仍同错误）；R762两次非快进后失联，远端404确认未推。按根规矩8以GitHub小文本API继续，每次取最新main/核两README、expected_sha且force=false；不把API核对称实际pull。终端恢复先保留本地旧R762分支，再pull/rebase并处理已重建重复，不能重推旧元数据。
-远端规则核对：2026-11-14 19:08:20 UTC，main=cfce13b1e1b39b278368b760d83e0def0c1095c3，两README blob均未变；本次为终端不可用期间的API核对。
+远端规则核对：2026-11-14 19:13:46 UTC，main=fc7b56fe51d41e5fee601df1867efdd31aedda96，两README blob均未变；本次为终端不可用期间的API核对。
 
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权。终端可用时每推前且至少每小时实际pull --rebase，非快进立即循环重拉再推；PAT只CLI、不入文件。根独占commit/ref，代理只稿/blob。Markdown<100KB、H<10KB、open<30KB，>1MB数据gzip、文件<5MB，大可复现表只artifact。日志本题≤5行，不设冻结/独立审查审批门。
 最新完整旧H/open分别存[before-R770](notes/2026-11-14-public-handoff-before-R770.md)、[before-R770](notes/2026-11-14-open-before-R770.md)，内接R771及全部较早归档。完成计算不重跑；未推稿按记录重建。
@@ -22,7 +22,7 @@
 - **R769已穷尽并关闭**：run43628341694、0.013586945秒，完整原格degree≤693没有非零向量，385准确事件/空栈/唯一leaf0；原degree为3倍故非零≥696，未称minimum或排所有特殊小除子。cert97e1949ef4dfc890c5ac975533cfaa9ff73682321b1b4030ac6723259a4fc26a/artifact14126529570。不扩可选SVP，继续d1206。
 - **R771实际基已正式完成**：run43628998192/source49abc04d7867c9f56911866494692c597cf642d7，301.12633604秒；实际M2/M6/M12维146/694/1514，mod739原recipe minor分别550/206/140，normal products146/418/690/962/1234/1506全成。cert9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f，manifest024ed12029720cc1c5d7ec0612aa484b04cdde8f763fceb852a0fdeabc2c3d74，artifact14127715743（完整SHA详正式R771结果）。原1514个F_i/Dstar是真char0 RR基；尚非K下降基/准确长q表/实际函数。完成stage直接复用。
 - **R772已推b63e636b**：GL2 det半线性trace给K定义RR基，cusp系数仍M；fP=f0使y∈L(Y)。M/L四十坐标展开后任意准确部分矩阵达到rank2720即为完整308核。原H³=4F³/1722³是M6，Q2460/qY820认证；候选W³=27B²(A²−bB²)²H³为M78等式，准确核至qY10660即全球真映射。实际下降基/核/函数未求。
-- **R774正在做**：直接复用R748 run43617493590/sourceb401479892e81ed76c587da52305606100ed88a7已有newform至4096，文件R748-extended-newform-coefficients.json.gz SHA0c7d73a2a2c9202c6a25f343c9357a8b59d9cfc4928a29b5d460dbf84828bff0；只扩六个原Fourier到2460及56对称三重积和原v系数合成，绑定真R771，不重枚举newform。
+- **R774原H³工程本次触发**：直接复用R748真run43617493590的newform≤4096及R745原six Fourier≤800，只扩到2460；21对/56三积用block121整数低乘，再14×112原L尺度合成qY0..820，提取真e，读R771实际694基全821项mod739辅助核。coreb7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa，requestda23448706994a5072b3b9c8745908ae853895f5fc4a72cd358371b0e75442c1；80分钟完整断点、逐行primitive尺度，大表artifact。待真run，不称char0 M6坐标或函数已得。
 
 ## 原ordinary问题及最新结论
 

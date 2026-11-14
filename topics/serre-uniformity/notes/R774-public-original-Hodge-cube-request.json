@@ -1,0 +1,80 @@
+{
+  "session": "serre-public-resume-20261114",
+  "job": {
+    "result": "R774-original-p41-Hodge-cube",
+    "p": 41,
+    "Q_bound": 2460,
+    "qY_bound": 820,
+    "budget_minutes": 80,
+    "producer_inputs_pending": false,
+    "core": "R774_original_Hodge_cube.py",
+    "core_sha256": "b7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa",
+    "method": "notes/R774-original-Hodge-cube-method.md",
+    "method_sha256": "12d768940961115f3171781301b1efa023264856cb2e3a42ef6229869fefee86",
+    "proof": "results/R772-original-RR-descent-and-exact-function-recovery-certificates.md",
+    "proof_sha256": "30006eca29d55c9b2e227f490e0ec9ffe128073f1c49c6dab25d3e532f4db59d",
+    "workflow": ".github/workflows/serre-p41-original-hodge-cube.yml",
+    "basis_core_sha256": "9cda269687a01c95c9c20695be771706bbddd37b1b8fedc8b9258386c3965d46",
+    "basis_certificate_sha256": "9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f",
+    "basis_state_sha256": "3cc9022b6ff07f5bc1cb57a9ddd5190673e3ad527958ca2439b317f5517b981e",
+    "retained_artifacts": {
+      "R745": {
+        "result": "R745-p41-original-Hodge-input",
+        "run_id": "43616027318",
+        "source_commit": "1768f05c524e2e3d2e01822c0a4f376382c5e608",
+        "artifact_name": "serre-global-R745-p41-original-Hodge-input-43616027318-1",
+        "manifest_sha256": "1c9aa2d9e05ad3722ef42151c5cbfabb3183d80f2c4ac1f9a0fc132bacfbaa51",
+        "files": {
+          "p41-original-Hodge-input-certificate.json": "7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be",
+          "original-p41-Hodge-q-expansions.json.gz": "a629d550bd2f3102111bbb58fe707470081e2062da10221ab778fe3ba71b53dd"
+        }
+      },
+      "R748": {
+        "result": "R748-original-signed-CM-root-p41",
+        "run_id": "43617493590",
+        "source_commit": "b401479892e81ed76c587da52305606100ed88a7",
+        "artifact_name": "serre-cartier-R748-original-signed-CM-root-p41-43617493590-1",
+        "artifact_id": 14122429115,
+        "archive_sha256": "940457e935225ff7878e03278dd00507d3ffc0b6f55e337d6dc0d523485c82ae",
+        "manifest_sha256": "d21f97fc8b88ed27f5dc87cd1821692f7540b528cdfc88dfda4969013b301956",
+        "files": {
+          "R748-extended-newform-coefficients.json.gz": "0c7d73a2a2c9202c6a25f343c9357a8b59d9cfc4928a29b5d460dbf84828bff0"
+        }
+      },
+      "R759": {
+        "result": "R759-original-integral-period-lattice-and-map-degrees",
+        "run_id": "43625474728",
+        "source_commit": "4728e6868e2509556e5c60e138fd97c9b4120d8e",
+        "artifact_name": "serre-global-R759-original-integral-period-lattice-and-map-degrees-43625474728-1",
+        "artifact_id": 14125233728,
+        "archive_sha256": "2ae069c394c7038f10743c7d9c7981b509579780bca3d0c69772419e3836b883",
+        "manifest_sha256": "fb61ded80deb7f6904de7e0aa2e7a3f3b161a0ecd2f5f0c329e96935c4e9f1aa",
+        "files": {
+          "p41-original-integral-period-lattice-and-degree-certificate.json": "7c2c611b9a5f43bc3a2a0007bf2cb5dd2fa8d10f133b663dbca0d054e1515de0",
+          "R759-original-integral-maps-and-bounded-recovery-input.json.gz": "037b56d016d502408173319d76a3067a65dd50250c31bc2225c0fca598396ecc"
+        }
+      },
+      "R771": {
+        "result": "R771-p41-original-quotient-RR-bases",
+        "run_id": "43628998192",
+        "source_commit": "49abc04d7867c9f56911866494692c597cf642d7",
+        "artifact_name": "serre-global-R771-p41-original-quotient-RR-bases-43628998192-1",
+        "artifact_id": 14127715743,
+        "archive_sha256": "e158bff06405576ce235745db26b6a2e35145d2b1f2d6978127b42a79e1e7c1c",
+        "manifest_sha256": "024ed12029720cc1c5d7ec0612aa484b04cdde8f763fceb852a0fdeabc2c3d74",
+        "files": {
+          "p41-original-quotient-RR-basis-certificate.json": "9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f",
+          "R771-basis-M6-complete.json.gz": "3cc9022b6ff07f5bc1cb57a9ddd5190673e3ad527958ca2439b317f5517b981e"
+        }
+      }
+    },
+    "retained_repository_files": [
+      {
+        "path": "computations/R732-p41-original-CM-model/43608152850-1/p41-original-CM-model-certificate.json",
+        "file": "p41-original-CM-model-certificate.json",
+        "sha256": "752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574"
+      }
+    ],
+    "resume": null
+  }
+}
