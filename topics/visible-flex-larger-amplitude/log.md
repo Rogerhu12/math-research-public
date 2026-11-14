@@ -438,3 +438,7 @@ root已读两完整源和接口、取件器及独立workflow；只有本地AST/Y
 ## 2026-11-14 19:30:32 UTC /root — actual49完整14-query结果
 
 [实际结论](notes/2026-11-14-actual-request49-fourteen-query-and-left-RMS469-limit.md)：原α1/16接受，固定本轮merit44.250102036498696→44.20038969249102；最近1/4、1/8所有14grid/node/mid合法且真降，只有原left-RMS469拒。col.0071101678278726824/BC7.177739211877821e−8/FD7.070190461766486e−10，仍非BVP/native。新父pair c0d9c6d5…/e22fd03b…与完整状态/producer保存；128B NPZ822数组、38完整凝聚向量/observer/42源/父48链和14raw190956688B字节审均完成，未本地重算科学、未冒完整factor审。下一51仅补left469并扩B至5073，原C/全外部offset/所有预算和真实门保持；50全列参考也已实际完成，结论并行登记中。
+
+## 2026-11-14 19:32:18 UTC /root — actual50完整四A参考与表示比较
+
+[实际结论](notes/2026-11-14-actual50-complete-rational-RK-reference-and-covariant-comparison.md)已完整读回：全224列/226输出、三47 case精确存储记录一致；old诱导∞差.0155569，direct-LD7.16812e−6，R271-LD9.19526e−6，正确RN3.36116e−6。R271虽更多RN相同word且旧δ作用误差较小，完整∞/F²仍direct较好；RN原σ map差3.97095e21不等于残差或新方向接受。全21输出/19descriptor原bytes/SHA/CRC核，全部长矩阵artifact-only；无本地科学。下一52原868逐步捕获并direct-LD形成、一致新1372系统重解/原exact与原nonlinear门，51仅left469前缀并行，不为局部结果收尾。

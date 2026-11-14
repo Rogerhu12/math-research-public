@@ -43,7 +43,9 @@
 
 [actual47精确作用及new519账](notes/2026-11-14-actual47-stage43-exact-action-and-new519-attribution.md)：固定同δ519/520/r/σ，old=observed平方1.1148576429598753e43；四A精确有理RK平方6.7408926442427e49。传播差平方与负交叉项强烈相消，因此“更准确形成这个块就使旧方向有效”没有成立。原43 exact oracle直接精确累加未预缩放J/r后除原σ，和此账一致。root17原exact输出包另核全部SHA；未本地重算norm/action。
 
-**50实际完成，run43632067148/source d843fb1dcc8cb4b80e54956d98f8076a9c1398c5，完整结论登记中**：固定47原artifact3530956B/SHA02973eefffbd82f57dcee02776f2ed7a28c41fe750f73ec7930ff07d2f9fa400，仅消费已有四个226×224 A和三个原方向。先形成[R271全级候选及同精度直接对照](notes/2026-11-14-saved-stage-R271-covariant-RK-interface.md)，后作[全部224列精确有理参考及一次正确RN](notes/2026-11-14-saved-stage-complete-rational-reference-interface.md)。完整矩阵/均值/原port/全部耦合保留，x87真实有效位及padding明确；不重RHS/J/ODE/native，不再取28/41/43包。两候选都回原坐标，与同一完整参考逐项比较；新的矩阵有新身份，未来仍须一致系统重解和原非线性验收。
+**50完整参考已完成**：run43632067148/source d843fb1dcc8cb4b80e54956d98f8076a9c1398c5。[完整结论](notes/2026-11-14-actual50-complete-rational-RK-reference-and-covariant-comparison.md)给全部226×224 exact/RN、两个实际候选及三原方向。完整诱导∞误差old.015556918699475、direct-LD7.16812143047472e−6、R271-LD9.19526116149051e−6、RN3.36115669446251e−6；direct完整∞/F²优于R271，R271在特定旧43方向反而较小，不混指标。RN原σ下map差仍3.97095e21，这不是新stage residual。所有三prior action精确记录一致，21原输出完整SHA/CRC审计保范围；working实际64有效位非binary128。输入只固定47原artifact，没有新RHS/J/ODE/native。
+
+**52准备中，未调度**：由50实据选择直接LD作为下一实际形成方法。geometry从41每个完整原226起点取原四A并流式保新全部868 J/mean及原state/field/port身份；不重整尾或旧576长J，四A可由源/原state再现，无需为机械核验存1.4GB中间raw。exact接新868+原504块的新1372系统，原base/r/σ/cut/far/577restriction不变；新identity后一致重解和原尺度完整exact残差读回，随后仍原非线性十trial。单步结果不能冒另867步或全方向已验证。
 
 原step与G的十trial组件已完成：直接消费正确producer的保存方向，保原十alpha/完整evaluate(false)/原guard/原σ严格下降，首接受保全state后STOP。它们不重形成G/J，当前未派43坏方向，也不冒native完成。
 
