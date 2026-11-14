@@ -708,3 +708,7 @@ run43610469627/sourceb92d4b20/job132494273063全success，artifact14119758437/14
 ### 2026-11-14 actual29：真实中点473定位与新的合法下降
 
 run43612331803/sourcef4896bba/job132499878558全success；artifact14120947020/143428136B/ZIP8c3af8d4…取核，完整actual29 note27a84755…全文读。α2^-6同本轮固定权重merit44.382936021255084→44.37120458393527，drop.011731437319816962/ratio1.0217222253；新warm f2e999e7…4720565B/new FD9.265e−10，col.0071104411/BC8.857e−8仍非解，native0。最近拒绝2^-5仅原midpoint473，station1.2018391887397941，β²10角负/min−.1615288168在index22，而七left-RMS完整角全正；2^-3/2^-2另有mid477。9条observer原finite/vector均未变，16NPZ/48原数组逐核，无诊断异常；68 B文件/421数组、完整父producer/18源hash核。下一同29父场并行原七query完整H方向和保七RMS+两个实际mid473/477的九query方向，原真实全域/回溯/FD保持。28捕获步骤已success，完整235561097B包取核中。
+
+### 2026-11-14 actual28：完整原native线性缺陷首次保全
+
+run43611175099/source6bd52b44/job132496373274诊断全success；artifact14120548264/235561097B/ZIP0ff8e6f5…已取核。原withJac基态完全复现25 norm.0417730782/minA/minD，原correction后按计划STOP，one request/0trial/无完整cut J或audit接受。29数组/116chunks/238972680B及22小输出逐字节核，全J231211008B SHA394ca2cc…、全delta d3734cf4…保全。原尺度浮点stage缺陷最大7.3718085303337e40，stage43/raw0/seg3/Pi110，cut/far0；原delta最大3.06634e26，maxchart亦stage43/8.81095e59。此为完整原有限模型的实际float诊断，非exact binary defect或fullA condition。actual28 note完整登记，下一只用保存同J作原σ下pivot band重解及最坏行精确rational读数，不重复J或旧十trial。

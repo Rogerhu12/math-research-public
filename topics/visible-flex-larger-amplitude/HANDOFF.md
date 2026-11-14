@@ -30,21 +30,21 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 最近拒绝1/32仅原midpoint473，s1.2018391887397941，finite middle/非finite RHS、β²10角负/min−.1615288168在index22；七RMS全角正。1/8、1/4还坏mid477，其他更大步坏点详原件。9条observer finite/vector字节未变；16 NPZ/48原数组核，无附加异常；未重算wholeflow/J。
 下一同29父场并行：完整H helper d5e9432e…/full-metric-inequality-correction接口已全文读冻结，完整H仅C预条件，≤32工作行/34全局基/1200 H动作、全原梯度/R267多点下界，原C方向作同f后备；另做九query=七原left-RMS+真正mid473/477各全2048。中点基点/站点必须直接state.middle/problem.mid字节，完整原两端J/P/入口core/global p链，已有11node捕获可复用。两支均保29只读observer、原17trial/全部域与新FD，无QP最优或native接受冒称。
 
-### Native：23初猜成功，25原Newton线搜索仍失败
+### Native：28完整原线性缺陷已保，接同矩阵带pivot重解
 
-17/19冷启动失败、21/22工厂提前拒均已保。原linearSteps同时定义far/graphs/gains/scales，禁全局改它冒只改初猜；保全部112 H/原native门，R264下溢账不代接受。
-23/zerorkprobev3 run43605912092/sourceac0fcc22/job132480432221实际success，artifact14117693541/ZIP385bfef9…已核。完整577×224 candidate原noJ一次、576stage全guard过，norm **.04177307820740199**，仍大于原2e−9；cut/far112行浮点0，无solve/J/audit。原最坏stage/尺度与零线性块残差另列actual23，不互代；noJ未给minA/minD。
-23全部51真下溢/9546负零/原尺度已保，完整candidate bits SHA6b01b385de34af22094bc47fd7c8c2c2da9ac6d07bc40b5ce6362fea241218b8，71chunk逐核；完整身份见public-same-RK-candidate-v3-actual23 note及28硬绑定，勿用JSON零冒原bit。
-25/nativeseed run43607404925/source4d384dc5/job132484959081已真实失败：原iteration0 norm=.04177307820740199、minA=.9999999999759498/minD=.9999999999999858，chartCondition8.810946110232247e59，原multiple-shooting line search failed；完整cut J/audit未返回。单次原TailClient.solve，同17 H仅注入23完整candidate，原方法/graphs/gains/far/scale/容差不改；源afa2588d…/hook22fa88aa…。artifact14118968502/ZIP480f69d0…已取核，十trial 1..1/512全stage13/raw0/seg7 D/S/A拒，无trialNorm；actual25已保。28/nativecorrection真实run43611175099/source6bd52b44/job132496373274捕获步骤success、完整产物取核中，源0b49f142…/hookb20aee4d…全文读；同seed仅原首次withJac+correction，完整J/r/delta/原σ所有行缺陷、每stage摘要与max图矩阵保存后计划STOP，0trial不冒native接受。大二进制仅large-arrays artifact，manifest/hash进Git；按R266解释。
+17/19冷启动及21/22新工厂失败均保不重跑。原linearSteps同时定义far/graphs/gains/scales，不全局改它冒只改初猜。23/v3原noJ完整577×224 seed全576stage guard过，norm.04177307820740199仍>原2e−9，全部112 H保留；51内部下溢/9546负零账齐。candidate原bit SHA6b01b385de34af22094bc47fd7c8c2c2da9ac6d07bc40b5ce6362fea241218b8、原σecbfd55d…/far395804bb…全由冻结源硬锁。
+25/run43607404925/source4d384dc5原完整solve真实失败：withJac基态norm同23、minA.9999999999759498/minD.9999999999999858；十trial1..1/512全stage13/raw0/seg7 D/S/A拒，无trialNorm，完整cut J/fresh audit未返回。actual25完整note/原响应已保，不直接用此H失败绕入新H。
+28/nativecorrection run43611175099/source6bd52b44/job132496373274诊断全success；artifact14120548264/235561097B/ZIP0ff8e6f5…已取核。完整actual28-native-linear-defect note；原withJac/correction不改，同seed/原norm/minA/minD，完成后计划STOP，one request/0trial/native_accepted=false。29数组/116chunk/238972680B及22小件逐核；J[576,224,224]全28901376项有限、SHA394ca2cc…；delta[577,224]SHA d3734cf4…，全有限、已存maxabs3.0663412735007466e26在node43/Pi112。
+原σ全stage浮点线性缺陷max **7.3718085303337e40**，stage43/raw0/seg3/Pi110(freq220)，cut/far112行皆0，无nonfinite。maxchart也stage43，G∞2.801e37/inv∞3.146e22/product8.810946110232247e59；不等于全A condition或严格exact defect。所有原J/r/δ/σ/边界原bit可精确重读；summary48d8c012…/manifest3ed8c1bf…/resultff53d954…。
+下一独立offlineband仅消费保存同A：按cut→stage→far完整方程、原σ可逆行列尺度、pivot band factor，保原δ对照且新δ回原σ核所有stage/cut/far；Actions内对原worst/新worst行作精确binary-rational dot，不本地算/不重复J/不重试旧十步。带阵layout须核真实far对角与M112/K224/depth576。大原件缓存 /workspace/scratch/visible-larger-native-capture-20261114/actions-debug（/tmp空间紧），原artifact/source/hash仍完整公开。
 
 ## 之后的完整闭合与同g精化
 
-先取得实际fullDN父场：本场H/全尾响应、原outer/inner/RMS1e−6/BC1e−11/fresh audit均保。新protected warm/FD与既有physical fullDN身份兼容，但不能自动重跑已失败native。
-随后同场完整physical（含z0）、cut九jet/全材料mean/core证书/球排除、唯一SE2、有限C²修补、上下尾与固定帽；不加旧A mean，有限φ一般无限θ谱。R239连续充分条件不代有限DFT零接缝。
-新共享背景quintic/B表示误差账及shared_background_closed_assembly/new loader已全文读并出版：原表三jets定义同一B、保帽高/marker，重建完整cut角差，原A.height/w/E目标g不覆写；旧loader拒新包。shared_background_continuous_cover/held_hausdorff两薄入口保原R241全pair与整像/.2公式。无真实新parent未执行，详接口notes。
-
-R240固定共同材料g后冻结全部p*/scalar/尾帽/区间/t，释放全core取K=k=0/T=M再精化，v4维450/514。新Rφ v4 response/fullDN/after_accept三源已按新身份重建推送（same-g-physical-DN-live-client-interface）：同一live TailClient/predictor/FrozenProfile→新H/J→原FD→fullmain→fresh audit，live scalar sidecar绑定。无parent未执行；二分预算至少2*(nodes−1)+1（699→1397），勿抄1200。
-全状态continuous cover/held均保R241空间门、完整活动块/两帽盘及全D/.2；连续包络仍须付。R251四Loewner直接operator，request16仅三个解析接口成功，实际新scalar/prefix未核，不重跑fixture。R249入口修补费用、R254完整prefix/R258同场全FFT非平面消费者均待实际场。R258共同背景变化保持四角差，帽高保持marker，但不继承旧全几何。显示N32/九相位mesh<5MB，实际2305tail nodes不删。
+先获真实fullDN父场：本场H/全尾响应、原outer/inner/RMS1e−6/BC1e−11/native/fresh audit均须过。warm/FD不是该接受，不自动重跑已失败native。
+闭合用本场完整physical含z0、全cut九jet/材料mean、core与球排除、唯一SE2、R249入口有限C²修补、上下尾和固定帽；不加旧A mean，有限φ一般无限θ谱。R239连续充分条件不代有限DFT零接缝。
+共享quintic背景及shared_background_closed_assembly/new loader已全文读出版，见shared-background相关接口：原表三jets定义同一B，保帽高/marker，重建完整cut角差，原A.height/w/E目标g不覆写；旧loader拒新包。新cover/held薄入口保R241全pair与整像/.2，尚无真实parent可算，不继承旧A几何。
+同g：冻结全部p*/scalar/尾帽/区间/t，释放全core取K=k=0/T=M，v4维450/514；same-g-physical-DN-live-client接口三源已推。同一live TailClient/predictor/FrozenProfile依次新H/J→原FD→fullmain→fresh audit，live scalar sidecar硬绑定；699二分需1397点，勿抄1200。
+全t沿R248强C²/相位，reach/嵌入保R241完整空间条件与连续包络；held用完整活动块/两帽盘/全D，δE含反射接R238/R254/R258同场标记链。R251四Loewner直接operator实际场仍待核，request16仅解析接口，不重复fixture。六jet可靠性不加机器门。显示N32/九相位mesh<5MB，实际2305tail节点不删。
 
 ## 旧失败、证明和封存
 
