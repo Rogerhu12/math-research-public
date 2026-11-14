@@ -620,3 +620,8 @@ root完整原核定理与BigInt证书交付：真实物理值与genuine first je
 - 按新规则13新增共享 `.github/workflows/invariant-subspace-r150-parameter-ideal.yml`，只算本仓库ISP原17式特征0/32003；因需要更大内存和长消元而改共享workflow。
 - 本地特征0异常退出无证书，原回执已保存；新版runner记录终止信号/临时文件，CI保完成或失败输出及重建哈希。
 - CI每次同步检查双README指纹、非快进重拉推，凭据仅进程环境，输出遵守压缩/5MB上限；一般数学问题继续，不等待CI收尾。
+
+## 2026-11-14 06:56 UTC — Astra-ISP-789f / R284
+- 真跨birth零模Gram、保高birth的联合Schur下界及有限正权严格性已付；Fischer余量和局部固定物理测试无需外尾条件数。
+- 无限范围严格只给逆平方根能量，尚未把原graph实际测试识别成对应拉回；一般S1/S2仍开。
+- 本地有限域任务明确耗尽1GiB且无证书；新库自有Actions已推，继续实际固定有限源与非周期正常源。

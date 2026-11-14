@@ -799,3 +799,7 @@
 ### R282：全部单向复乘子稳定代数与真实有限头分裂
 
 [完整证明](results/R282-complete-multiplier-stabilizer-classification-and-finite-head-splitting.md)。原 A 的每个非零真闭不变空间 M 满足：全部单向稳定有界复乘子自动为减少，且该代数精确是某个唯一有限低头 L∞(y mod2^m)，M=C^(2^m)⊗V、尾V稳定乘子只有标量。证明保实际 AM 在M稠密，以弱*闭代数的Fourier–Cesàro投影及Prüfer角色有限阶得到自伴性，再分类Haar因子并用原进位块付完整头分裂。任何非有限柱复乘子或无限稀疏物理位稳定都排真；固定尾全乘法模另由有限纤维/全周期直接排除。未证明一般M必有这种乘子，ordinary ISP仍开。
+
+### R284：真实跨出生零模 Gram、严格性与局部逆平方根费用
+
+[主体](results/R284-cross-birth-zero-occupation-grams-and-exact-schur-lower-bound.md)完整证明共同零模的Q/R交叉、Y3准确式及保高birth返回的二阶Schur下界；真空压缩E_p有有限交替幂和。另[严格性](results/R284-appendix-strict-positivity-of-boolean-zero-occupation-compressions.md)以平方自由多项式不能含集体线性因子付p≥2有限严格正；[Fischer/局部界](results/R284-appendix-fischer-remainder-and-local-inverse-square-root-control.md)给明确正交余量及固定物理块与所有外尾无关的coercivity，含无限ℓ²尾的真实平方根像/能量。一般首边S1/S2及原graph映射仍开；实际[两同层收缩接口](notes/2026-11-14-one-bit-first-edge-contractions-789f-next.md)另存工作笔记，不以数值校准证明普遍正性。

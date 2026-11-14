@@ -108,6 +108,8 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R283 精确配对填充](results/R283-exact-singlet-padding-and-half-density-universality.md)以同时被D,D*消去的真实反对称对，令全部旧Γ成为新共同约化块，最高合法高度不变。对任意ε,δ0>0，全部有限问题均可精确嵌入δ<δ0且1/2<sδ<1/2+ε；因此该薄带的最优普适首边常数已与一般问题相同。未进入R279已付低占据区，不能省掉新增出生。
 
+[R284 实际零模共同Gram](results/R284-cross-birth-zero-occupation-grams-and-exact-schur-lower-bound.md)给Q及R=(2I−C1)B*L3−3Q的准确零模交叉，二阶费用增加真正高birth桥及R Y3†R*。有限全正权p≥2压缩严格正；[Fischer/局部附录](results/R284-appendix-fischer-remainder-and-local-inverse-square-root-control.md)付2/(M−1+2s)余量和固定物理F不损外尾的局部界。J*e_I确在X^(1/2)像中，未付完整X^-1域、一般首边平方增长或原graph测试识别；保全部实际交叉，不能仅凭这些正块推S1/S2。
+
 [R279 全高度仿射 MP 比较](results/R279-bosonic-affine-primitive-gram-transfer-and-low-occupation-bounds.md)给 X_n≥I+(n/r)(X_r−I)，全有限合法范围/无限正 ℓ² 行均成立。全部低占据相邻常数改善，首边 sδ≤1/(2√2) 已得 c1；原慢尾范围 s≤(m+1)/(6√2)，未覆盖一般巨出生。真硬核 Γ2=2I+4L*L+M*M 的联合 M 能量仍缺平方下界；[共同 annihilator 反例](notes/2026-11-14-common-annihilator-affine-sharpness-789f-next.md)说明仅 Euler/全坐标不变性不足，反例不是 Boolean。
 
 [R275 一位全高MP/三次创新](results/R275-one-bit-full-primitive-schur-recursion-and-innovation.md)保任意旧正权、同源/顶硬端；旧两birth有c1则两对角继承。余完整创新正块(5.2)须由同一B与旧G/L支付。[联合占据附录](results/R275-appendix-joint-occupation-blocks-and-first-edge-necessary-bound.md)已付全高四项H、W/SI−W跨birth正块，并付a²≥Σb²/4时首边上左必要块；全首边交叉/一般高度仍开。[首边SOS](results/R275-appendix-first-edge-three-block-equivalence-and-parameter-free-sos.md)付真实3块等价，S1/S2加旧低birth第二边足全部新权，但两候选一般正性未证。任意birth1首/末边已由R271闭；高birth/graph仍开。 [R278 Serre积分](results/R278-boolean-serre-finite-top-integration-and-weighted-birth-traces.md)给全部真实跨birth桥的精确首边身份及加权迹消去；尚缺同一G1度量的正运输/Gram，不能删负桥项。
