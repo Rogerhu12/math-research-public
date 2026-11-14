@@ -1,0 +1,19 @@
+{
+  "session": "serre-public-resume-20261114",
+  "status": "new exact original marked Manin input; no computation conclusion before public run",
+  "job": {
+    "result": "R738-p41-original-period-input",
+    "p": 41,
+    "core": "R738_p41_original_period_input.py",
+    "core_sha256": "b2dc9305b6d891f0a0fd4df3be6827d89cb065e0527f566eecb6b20c0b6f62eb",
+    "method": "notes/R738-p41-original-period-input-method.md",
+    "method_sha256": "2bbebd7525203e4dd628d34762b5cc44f8061e2a2a0c6740a13a50ebadd5e7c9",
+    "budget_minutes": 25,
+    "dependencies": [
+      "results/R575-correct-actual-sixfold-CM-deck-and-cubic-twist.md",
+      "results/R616-original-CM-point-difference-and-explicit-height-basis.md",
+      "results/R732-original-CM-period-kernel-and-bounded-rational-function-recovery.md"
+    ],
+    "Hodge_period_or_map_or_beta_computed": false
+  }
+}

@@ -4,16 +4,16 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：85677d84d2c900b8eb1ffefccd5cd21ba12e805d
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei，两README无差异。最近公开Actions实际pull：2026-11-14 15:17:10.6439663 UTC，run43609325075，两README无差异。最近GitHub集成核查：2026-11-14 15:33:04 UTC，两README无差异。执行环境unavailable，根规8允许集成仅传<100KB小文本；每次读最新main/两README，以最新父提交无强推，拒绝即重试。只读serre-public-rule-refresh凭据在computations/public-rule-refresh/43607163270-1/receipt.json；下次实际pull不晚于16:17UTC，可改同一request nonce触发。终端恢复立即部分克隆/pull；至少每小时实际pull及读规则差异。集成核查不冒称本地pull。
+已读规则提交：a74ddc9c9b3093e1a3e29fcf353c8bdf5d3bcaeb
+最近本地pull：2026-11-14 23:47:52 Asia/Taipei，main=a74ddc9c9b3093e1a3e29fcf353c8bdf5d3bcaeb，两README blob均未变。最近公开Actions实际pull：2026-11-14 15:33:15.9429141 UTC，run43610788824，两README无差异。终端已恢复，使用原blob:none部分克隆，至少每小时pull --rebase并检查两README差异。恢复时清除git标明的两份旧tmp_pack垃圾；原未推8f31d003的R716证明/归档与现行main逐字相同，已留本地备份分支并跳过重复元数据重放。根规8集成回退现已结束。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权；终端非快进立即pull --rebase重推。PAT仅CLI，未交集成。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB，大可复现中间量只存artifact。日志本题≤5行，改共享设施须说明；不设独立审计/冻结审批门。
 
-本次前完整归档[before-R736](notes/2026-11-14-public-handoff-before-R736.md)，内接before-R735，内接before-R734/R733/R729/R724及更早链；原open完整公式见notes/2026-11-14-open-checkpoint-through-R721.md。旧本地对象不可依赖，未推成果按原记录重做；已成计算不得为包装重跑。
+本次前完整归档[before-R738](notes/2026-11-14-public-handoff-before-R738.md)，内接before-R736/R735，内接before-R734/R733/R729/R724及更早链；原open完整公式见notes/2026-11-14-open-checkpoint-through-R721.md。旧本地对象不可依赖，未推成果按原记录重做；已成计算不得为包装重跑。
 
 ## 正在执行和下一项
 
 - R735原p41 CM模型已实际闭合：run43608152850/source ff405af51e13bb966fecd066a14513eee0947702，原280维商中F41(b)=0、七个低阶系数v41=1、disc41=6及F41'逆全部成功。cert SHA752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574（19620B），完整8.39MB状态只artifact ID14118747540。原b是唯一实正根，L+签名(1,3)，目标真实格b^j/F41'(b)ω；本原六维仍投e42。直接复用，不重做除法/迹；原q/β仍缺。
-- global继续R732原X1有限向量/周期矩阵和可执行RR输入；函数/β/高度仍未生成，不重算已成41分类。
+- R738已提交原p41带标记Manin输入：4920陪集、完整GL2(3)→GL2(2)图式、原c1唯一实标签C、g*=[[15130,123],[123,1]]、原c0轨道、800整闭链及交配。workflow serre-p41-original-period-input.yml，request固定core/method SHA；正式结论待公开Actions。global继续同一标记Hodge/adelic表，原q/β/高度未出。
 - cartier继续同一真本原h的原N_h、C_(h−2)、C_(p−h−2)同时单位。R734已全p存在N_h单位；该条件单独不够，旧p41的h37真实N单位而C35零。固定有限h>1均可被CRT同时排成本原，须允许h随p变。
 - R736已完成真实Γ/S/T三重Norm交换：divY=D_Tq、NΓY=NSY=D_TXt；Z=Xt−(t−1)Y同时三个Norm=Aα，原q相位rμ((s−1)Y)=−4J，flat为−4(J−18)。unit继续真正T/Γ链到原b；实际J/b未知，R723仅留给真桥，勿用局部/pure-p值代入。
 - R707固定p41完整129盘=121排除+8CM，无有理尖点，183证明SHA账本已核，O5关闭。R706已成41..200000的5992素数窗口；唯一Cp−3零137147，Cp80155，后权117309/122674。R722原137147M2单位已认证；以上勿重跑。
