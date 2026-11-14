@@ -64,6 +64,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T18:15:40.393991+00:00",
+      "before": "4d1cc34f6b8ed7cd16f1b642703fa4c414dd23c3",
+      "after": "f316d172c3766e6a19efc4949862eafaaa6c80bf",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -71,6 +79,11 @@
       "time": "2026-11-14T17:55:34.702250+00:00",
       "final": false,
       "commit": "832258951a80ba363ea138ea8811221f457d2a9b"
+    },
+    {
+      "time": "2026-11-14T18:05:38.228629+00:00",
+      "final": false,
+      "commit": "349b8de309d7f649b39d95b8b0e1b258a4cfa228"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -109,7 +122,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "4d1cc34f6b8ed7cd16f1b642703fa4c414dd23c3",
+  "last_read_commit": "f316d172c3766e6a19efc4949862eafaaa6c80bf",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-quarter-work/science",
   "actual_plan_native_sha256": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a",
   "original_prepared_bundle_sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70",
@@ -122,8 +135,8 @@
     "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
     "plan": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a"
   },
-  "snapshot_utc": "2026-11-14T18:05:36.250676+00:00",
-  "wall_seconds": 606.330060822,
+  "snapshot_utc": "2026-11-14T18:15:40.846135+00:00",
+  "wall_seconds": 1210.9255235120002,
   "native_files": [
     {
       "logical_file": "evidence/actual-plan-process.json",
@@ -139,9 +152,10 @@
     },
     {
       "logical_file": "native/new-fixed-eta-quarter-domains-0512-0768.json.gz",
-      "file": "native/new-fixed-eta-quarter-domains-0512-0768.json.gz",
-      "bytes": 2562439,
-      "sha256": "37a182ea6cde55d36dd5e4bba42f783c6b294412f74eab4c69914f290f7ff5cf"
+      "lossless_manifest": "native-new-fixed-eta-quarter-domains-0512-0768.json.gz-947a12b3d91a8082-parts.json",
+      "bytes": 5081233,
+      "sha256": "947a12b3d91a8082d67530a9e53618dfd8bb2ebcd7571a41422a73a4c4739e83",
+      "parts": 3
     }
   ]
 }
