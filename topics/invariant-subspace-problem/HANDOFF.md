@@ -3,8 +3,8 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `b487efae88c185ac8f4b1f934dcf38aa5565dea1`（2026-11-14 18:52:41 UTC，Actions run43629011963/job132551218663实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **最新规则读取（GitHub API，非实际pull）：** `73f1d9b3e439b874c1941e288affaf5622af338a`（2026-11-14 19:04:23 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** `686247e3999500eec87aedc2252ab10631487ca3`（2026-11-14 19:04:36 UTC，Actions run43630083770/job132554531871实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `4d8c2f097bccddd3b4cdca58328a37ac26a23c46`（2026-11-14 19:10:35 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -37,7 +37,7 @@ H0=(s−2)h0：原17模961九来源cost86已成；原17模31³旧cost276及[去�
 
 ## 当前分工与继续
 
-normal接扩增七列后的完整31饱和与特征零秩判据；literature接近端内峰，boundary接大S远端峰。根即时推每条结论，接下一open；最近已成原31h0不重跑。四个实际stage-cache及全部原发布记录已在run43628835884纯保存成功，提交4adde9dd、独立目录notes/r150-one31-h0-actions-789f/43628835884-1/；7复制文件20295B，全部25恢复文件现在均有主线覆盖，未重数学。
+normal接扩增七列后的完整31饱和与特征零秩判据；literature接原连续尾全出生费用，boundary接原graph两侧/裸项运输。根即时推每条结论，接下一open；最近已成原31h0不重跑。四个实际stage-cache及全部原发布记录已在run43628835884纯保存成功，提交4adde9dd、独立目录notes/r150-one31-h0-actions-789f/43628835884-1/；7复制文件20295B，全部25恢复文件现在均有主线覆盖，未重数学。
 
 - **[原h0完整恰一31分母](notes/2026-11-14-r150-original-h0-full-original-one31-denominator-cost87-789f.md)：** run43626632693/job132543823444、源1ec6d143，AZ=31h0T模31³全部17/6188/4367通过，每目标227766坐标失败0；实际成本[87,87,86,87,87,87,87,87,87]、maxdegree76。四阶段40.858396976秒，旧小证书0.076377885秒精确重建；新回执保真环境/时间。数据已推e003517c，45结果22347668B＋清单、14压缩二进制，25恢复35481532B保artifact14127065361；两完整来源各4978086B，原17SHA40be10e9…c4e2b。原h0模31²来源Z/31分母指数恰1，有限rank_Q A87≥226089，仍不称char0目标身份。
 
@@ -46,3 +46,5 @@ normal接扩增七列后的完整31饱和与特征零秩判据；literature接�
 - **[有限次数共同度量](notes/2026-11-14-bounded-degree-bernoulli-comparison-and-common-schur-phase-budget-789f.md)：** 次数≤k的条件Bernoulli范数变换由移位Aδ范数≤√k||δ||控制；正有界权、|D|≤D0/S≤S0给显式αK0≤Kz≤βK0，任意位数/来源维数。完整同一nuisance Schur继承双边界；若真实等权H0=L0=B,Q0=2B,C0=0，则κ=(2Θ²+3Θ)²、Θ=β/α。k随birth增长时，|zi−1|≤η/k、kS有界、D有界仍得统一常数。物理高birth识别另稿，不免费套来源。
 
 - **[全部出生真实概率接口](notes/2026-11-14-deficient-main-pool-all-birth-feature-grams-and-full-hard-regression-789f-next.md)：** 主等权池q0=Q−2d≥0，外部Q位；低源E_d=ker∂³∩P_(d+1)，硬源U_d=ker∂∩P_d。w=[T(1−T)]⁻d、ψ=∂φ−2φ，整个硬Gram M与交叉C给R=C*M⁻¹C、G=(B−R)/4，完整J=HG⁻¹L−2G−R。逐subset/Beta与真实D²/2逆均已付，端点可积；等权H0=L0=2G0、R0=0。q0=0就是原完整偶Boolean，不额外添位。中央固定d与全d极平坦预算接前条共同Gram定理。
+
+- **七关系真实续算已触发：** [冻结入口](notes/2026-11-14-r150-seven-saturation-actions-entry-manifest-789f.json)及[完整来源接口](notes/2026-11-14-r150-seven-saturation-interface-789f.md)。恢复已成T96/all198与原one31证书；七新真关系、九原余量均用原17式mod31⁴=923521乘回，完整Q/U商308维含全primary。共享数学300秒/每子512MiB/编译30秒；相容即接真来源与原式，失败保实际checkpoint，阶段cache全保存。当前仅启动，未宣称结果。负证书只排A+固定mod31初值(x0,0)，不排全部有理来源；单独保九个未经新β消去的完整余量。

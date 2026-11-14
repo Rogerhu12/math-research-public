@@ -1,0 +1,202 @@
+name: ISP R150 seven true saturation relations and original31h0 modulo923521
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-ci-request-789f.json
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: isp-r150-seven-saturation-lift-789f
+  cancel-in-progress: false
+
+jobs:
+  seven-saturation:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+            .github/workflows
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Record exact seven-relation request, full-path manifest and both rules
+        run: |
+          python3 - <<'PYCODE'
+          import ast,hashlib,json,os,sys
+          from pathlib import Path
+          sys.dont_write_bytecode=True
+          notes=Path('topics/invariant-subspace-problem/notes')
+          out=Path(os.environ['RUNNER_TEMP'])/'isp-r150-seven-saturation-output'
+          (out/'results').mkdir(parents=True,exist_ok=True)
+          (out/'recovery').mkdir(exist_ok=True)
+          with open(os.environ['GITHUB_ENV'],'a') as f:f.write('ISP_SEVEN_OUT='+str(out)+'\n')
+          request_path=notes/'2026-11-14-r150-seven-saturation-ci-request-789f.json'
+          request=json.loads(request_path.read_text())
+          expected={'new_relation_count':7,'old_polynomial_kernel_count':1834,'actual_next_residual_targets':9,'original_raw_rows':6188,'integer_modulus':923521,'target_multiplier':'31*h0','quotient_torsion_dimension':308,'shared_mathematical_seconds':300,'per_child_memory_mib':512,'per_compilation_seconds':30,'t96_run_id':43597823809,'t96_artifact_id':14114364261,'all198_run_id':43619888599,'all198_artifact_id':14124017685,'relation_rhs_cost_bound':88,'temporary_relation_source_cost_bound':184,'continue_compatibility_to_full_original':True,'old198_and_selected_sources_recomputed':False,'characteristic_zero_identity_asserted':False}
+          if any(request.get(k)!=v for k,v in expected.items()):raise SystemExit('Bounded seven-relation request changed')
+          rules={p:hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in ['README.md','topics/invariant-subspace-problem/README.md']}
+          if rules!=request['rules_sha256']:raise SystemExit('README changed: root must read/apply the actual diff before this request runs')
+          manifest_path=Path(request['source_manifest_file'])
+          if hashlib.sha256(manifest_path.read_bytes()).hexdigest()!=request['source_manifest_sha256']:raise SystemExit('Seven-relation frozen source manifest changed')
+          manifest=json.loads(manifest_path.read_text())
+          for item in manifest['files']:
+              p=Path(item['file'])
+              if not str(p).startswith('topics/invariant-subspace-problem/notes/'):raise SystemExit('Frozen path is not the full approved repository path')
+              data=p.read_bytes()
+              if len(data)!=item['bytes'] or hashlib.sha256(data).hexdigest()!=item['sha256']:raise SystemExit('Frozen full-path file changed: '+str(p))
+          for name,expected_sha in manifest['dependencies'].items():
+              if hashlib.sha256((notes/name).read_bytes()).hexdigest()!=expected_sha:raise SystemExit('Frozen original dependency changed: '+name)
+          for name,expected_sha in request['workflow_source_sha256'].items():
+              if hashlib.sha256(Path(name).read_bytes()).hexdigest()!=expected_sha:raise SystemExit('Frozen workflow/publication source changed: '+name)
+          parsed=[]
+          for name in request['entry_python_files']:
+              ast.parse(Path(name).read_text(),filename=name);parsed.append(name)
+          result={'source_commit':os.environ['GITHUB_SHA'],'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],'rules_sha256':rules,'request':request,'request_sha256':hashlib.sha256(request_path.read_bytes()).hexdigest(),'source_manifest_sha256':request['source_manifest_sha256'],'actualPythonSyntaxFilesParsed':parsed,'allOriginalSourceHashesVerified':True,'target_multiplier':'31*h0','negativeScope':'fixed mod31 initial(x0,0) over A+ only','noMathematicalCompletionClaimed':True}
+          (out/'results'/'actions-source.json').write_text(json.dumps(result,indent=2)+'\n')
+          print(json.dumps(expected))
+          PYCODE
+      - name: Restore the already completed original T96 graph and DAGs
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-t96-graph-recovery-43597823809-1
+          run-id: 43597823809
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-seven-saturation-t96-download
+      - name: Restore the already completed all198 original sources and global arrays
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-all198-second-bockstein-recovery-43619888599-1
+          run-id: 43619888599
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-seven-saturation-all198-download
+      - name: Retain only the exact five T96 and fifteen all198 input paths
+        run: |
+          python3 - <<'PYCODE'
+          import hashlib,json,os,shutil
+          from pathlib import Path
+          notes=Path('topics/invariant-subspace-problem/notes')
+          contract=json.loads((notes/'2026-11-14-r150-seven-saturation-input-contract-789f.json').read_text())
+          temp=Path(os.environ['RUNNER_TEMP'])
+          def sha(p):
+              h=hashlib.sha256()
+              with p.open('rb') as f:
+                  for b in iter(lambda:f.read(1048576),b''):h.update(b)
+              return h.hexdigest()
+          records=[]
+          for scope in ['t96','all198']:
+              original=temp/('isp-r150-seven-saturation-'+scope+'-download')
+              selected=temp/('isp-r150-seven-saturation-'+scope+'-input')
+              selected.mkdir(parents=True,exist_ok=True)
+              for label,item in contract['inputs'].items():
+                  if item['scope']!=scope:continue
+                  candidates=[original/item['relative']] if 'relative' in item else sorted({p for name in item['names'] for p in original.rglob(name)})
+                  actual=next((p for p in candidates if p.is_file() and sha(p)==item['sha256']),None)
+                  if actual is None:raise SystemExit('Actual saved input absent or SHA mismatch: '+label)
+                  relative=Path(item['relative']) if 'relative' in item else Path(actual.name)
+                  destination=selected/relative
+                  destination.parent.mkdir(parents=True,exist_ok=True)
+                  try:os.link(actual,destination)
+                  except OSError:shutil.copyfile(actual,destination)
+                  records.append({'label':label,'scope':scope,'restoredArtifactPath':str(actual.relative_to(original)),'selectedPath':str(relative),'bytes':actual.stat().st_size,'sha256':item['sha256']})
+              with open(os.environ['GITHUB_ENV'],'a') as f:
+                  f.write(('ISP_SEVEN_T96' if scope=='t96' else 'ISP_SEVEN_ALL198')+'='+str(selected)+'\n')
+          out=Path(os.environ['ISP_SEVEN_OUT'])/'results'
+          (out/'actual-restored-inputs.json').write_text(json.dumps({'format':'r150-seven-saturation-selective-recovery-v1','downloadsUsedOnlyT96AndAll198':True,'allSelectedHashesVerified':True,'inputs':records},indent=2)+'\n')
+          print(json.dumps({'selectedFiles':len(records),'selectedBytes':sum(x['bytes'] for x in records)}))
+          PYCODE
+      - name: Install the exact finite-field dependency and record compiler
+        run: |
+          python3 -m pip install python-flint==0.9.0
+          python3 -m pip show python-flint > "$ISP_SEVEN_OUT/results/python-flint-version.txt"
+          g++ --version > "$ISP_SEVEN_OUT/results/compiler-version.txt"
+      - name: Execute one shared300-second genuine seven-relation continuation
+        id: exact
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          set -o pipefail
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-runner-789f.py \
+            --notes-root topics/invariant-subspace-problem/notes \
+            --t96-recovery "$ISP_SEVEN_T96" \
+            --all198-recovery "$ISP_SEVEN_ALL198" \
+            --out "$ISP_SEVEN_OUT" \
+            --math-seconds 300 --memory-mib 512 --compile-seconds 30 \
+            2>&1 | tee "$ISP_SEVEN_OUT/results/actions-console.log"
+      - name: Record the actual complete image, individual scope and original identity
+        if: always() && env.ISP_SEVEN_OUT != ''
+        env:
+          ISP_EXACT_OUTCOME: ${{ steps.exact.outcome }}
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          out=Path(os.environ['ISP_SEVEN_OUT'])/'results'
+          p=out/'seven-saturation-pipeline-receipt.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          individual=r.get('individualTargetCompatible',[])
+          complete_image=r.get('newAugmentedFirstImageComplete') is True and r.get('allSixteenOriginalDivisibilitiesVerified') is True and len(individual)==9
+          positive=r.get('outcome')=='full-original31h0-mod923521-certificate' and complete_image and all(individual) and r.get('fullOriginalTarget31h0Mod923521IdentityVerified') is True and r.get('finite_budget_verified') is True
+          negative=r.get('outcome')=='complete-augmented-first-image-fixed-fiber-obstruction' and complete_image and any(x is False for x in individual) and r.get('numberOfObstructedTargets')==sum(x is False for x in individual)
+          complete=os.environ.get('ISP_EXACT_OUTCOME')=='success' and r.get('status')=='completed' and (positive or negative)
+          result={'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],'source_commit':os.environ['GITHUB_SHA'],'native_step_outcome':os.environ.get('ISP_EXACT_OUTCOME'),'pipeline_status':r.get('status','not-started'),'outcome':r.get('outcome'),'complete':complete,'complete_augmented_first_image':complete_image,'new_global_image_rank':r.get('newGlobalFirstImageRank'),'individual_target_compatible':individual,'negative_scope':'fixed mod31 initial(x0,0) over A+ only; does not exclude all original rational sources','full_original31h0_mod923521_identity':positive,'original_target':'31*h0*T modulo923521','H0_target_claimed':False,'actual_final_source_costs':r.get('actualFinalSourceCosts'),'mathematical_elapsed_seconds':r.get('mathematicalElapsedSeconds'),'characteristic_zero_identity_asserted':False,'partialCheckpointIsNotIdentity':True,'rootOwnsSharedResearchIndices':True}
+          (out/'actions-outcome.json').write_text(json.dumps(result,indent=2)+'\n')
+          print(json.dumps(result))
+          PYCODE
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_SEVEN_OUT != ''
+        with:
+          name: isp-r150-seven-saturation-results-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_SEVEN_OUT }}/results
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_SEVEN_OUT != ''
+        with:
+          name: isp-r150-seven-saturation-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          compression-level: 1
+          if-no-files-found: warn
+          path: ${{ env.ISP_SEVEN_OUT }}/recovery
+      - name: Save only this actual result directory with real pull and README checks
+        id: publication
+        if: always() && env.ISP_SEVEN_OUT != ''
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-actions-publish-789f.py \
+            --checkout "$GITHUB_WORKSPACE" \
+            --results "$ISP_SEVEN_OUT/results" \
+            --work "$RUNNER_TEMP/isp-r150-seven-saturation-publication"
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_SEVEN_OUT != ''
+        with:
+          name: isp-r150-seven-saturation-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ env.ISP_SEVEN_OUT }}/results/publication
+      - name: Require a completed scoped seven-relation outcome
+        if: always() && env.ISP_SEVEN_OUT != ''
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['ISP_SEVEN_OUT'])/'results'/'actions-outcome.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          if r.get('complete') is not True:
+              raise SystemExit('Seven-relation continuation incomplete; actual full outputs and checkpoints retained')
+          PYCODE

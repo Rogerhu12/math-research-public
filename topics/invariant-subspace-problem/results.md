@@ -111,3 +111,7 @@
 ### R297 附录：主池缺额的全部出生真实特征与完整硬回归
 
 [完整来源识别](notes/2026-11-14-deficient-main-pool-all-birth-feature-grams-and-full-hard-regression-789f-next.md)对主池q0=Q−2d、外部Q实际位，精确给低源ker∂³∩P_(d+1)、硬源ker∂∩P_d，维数分别C(Q,d+1)−C(Q,d−2)、C(Q,d)−C(Q,d−1)。逐subset物理系数和Beta积分保共同系数c=(q0+1)Z_F/∏zi；ψ=∂φ−2φ的完整硬Gram回归给R=C*M⁻¹C、真中层MP Gram G=(B−R)/4。顶层D²/2真实逆由补集容斥直接证明，给带反射φ(1−X)的L；所有端点可积和完整原次序J=HG⁻¹L−2G−R均已付。等权H0=L0=2G0/R0=0，q0=0保原整个偶段而非辅助扩展。高出生的实际共同Schur现在可接已成次数比较，尚不把d0的全外场界直接外推。
+
+### 七个真实饱和关系：完整下一位续算冻结并启动
+
+[数值来源清单](notes/2026-11-14-r150-seven-saturation-frozen-manifest-789f.json)、[Actions入口](notes/2026-11-14-r150-seven-saturation-actions-entry-manifest-789f.json)、[数学接口](notes/2026-11-14-r150-seven-saturation-interface-789f.md)已冻结。七列是真除源关系，完整新第一Bockstein在Q/U的308维torsion上计算，九目标为同一原31h0下一位余量；原乘回模31⁴=923521。共享300秒、512MiB及30秒编译上限，复用旧T96/all198/one31，不重已成结果。相容继续完整原式，负向仅限固定mod31初值(x0,0)；启动本身不证明相容、有限费用或特征零身份。所有实际结果和阶段缓存由本次独立目录保存，根随后登记真实回执。

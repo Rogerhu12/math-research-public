@@ -1,0 +1,53 @@
+{
+  "format": "r150-seven-saturation-actions-entry-unexecuted-frozen-v1",
+  "files": [
+    {
+      "file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-actions-publish-789f.py",
+      "bytes": 12213,
+      "sha256": "9efeab773727448f3d45f928f7c333d4b908e4d8f2ad3d34748bd79e0f514e7c",
+      "blobSHA": "717d9be80f3908addc40de26cc2cb1a091ecb35f"
+    },
+    {
+      "file": ".github/workflows/invariant-subspace-r150-seven-saturation.yml",
+      "bytes": 13176,
+      "sha256": "7ffe5a73657f83bdd03a6c88cbdd25ddf1bfdc131a43372bce73f4ec13e18396",
+      "blobSHA": "70068c6e19ee48f14f875ea0c8c35dfa0232b313"
+    },
+    {
+      "file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-ci-request-789f.json",
+      "bytes": 4018,
+      "sha256": "66f7d7eddac2b2de091d1d6e3c42d424bc5fef6c96ba3290cede36add7057b7b",
+      "blobSHA": "1a6a77b442dcd6461772ea5ec4ec530a4b2cabd2"
+    }
+  ],
+  "numericalManifest": {
+    "file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-saturation-frozen-manifest-789f.json",
+    "sha256": "f0ed63fab695676766213e3da274461b2ec6833d1319c187e79a6271d3a90876",
+    "blobSHA": "da0fb4f1f5f0b20949d5d045702b89d67f1d8dc2"
+  },
+  "rulesReadCommit": "41d3cfb683b6e043e8c25f83cafe7db2fb90d134",
+  "newSyntaxParseExecuted": false,
+  "newCompilationExecuted": false,
+  "newMathematicalRunExecuted": false,
+  "actualReferencePipeline": {
+    "run": 43626632693,
+    "target": "31*h0 modulo29791",
+    "completed": true
+  },
+  "mathematicalTarget": "seven true augmented first Bockstein relations and original31h0 modulo923521",
+  "fixedInputs": "Only previously completed T96 and all198 artifacts, plus exact published repository inputs",
+  "actualSharedMathematicalLimitSeconds": 300,
+  "perChildMemoryMiB": 512,
+  "perCompilationLimitSeconds": 30,
+  "preservedOutputs": "All actual results, complete generated binary arrays, all stage-cache JSON, incomplete checkpoints, full manifests; artifacts are uploaded before terminal publication.",
+  "maximumPublishedPartBytes": 4500000,
+  "positiveOutcome": "full-original31h0-mod923521-certificate",
+  "negativeOutcome": "complete-augmented-first-image-fixed-fiber-obstruction",
+  "individualCompatibilityRequired": true,
+  "negativeScope": "Fixed mod31 initial(x0,0) over A+ only, not arbitrary mod31 initials or all rational sources.",
+  "publicationScope": "topics/invariant-subspace-problem/notes/r150-seven-saturation-actions-789f/<run>-<attempt>/ only",
+  "tokenStorage": "No expanded credential on disk; terminal git uses command-scoped GIT_CONFIG_COUNT/KEY/VALUE and Actions secret.",
+  "rootExclusivelyOwnsSharedIndices": true,
+  "actualRuleChangeBehavior": "Stop publication after actual pull and preserve artifacts; root reads the exact two README diffs and applies new rules.",
+  "allClaimsStillFinitePrecision": true
+}

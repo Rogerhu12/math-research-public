@@ -1,0 +1,98 @@
+{
+  "format": "r150-seven-saturation-source-derivation-v1",
+  "executed": false,
+  "syntaxParseExecuted": false,
+  "compiled": false,
+  "source7": {
+    "base": "2026-11-14-r150-second-bockstein-source-checkpoint-789f.cpp",
+    "baseSHA256": "dbaabefa84d5828dc110abd80c78096cd274c1540e241811d29ac5433d9f2c65",
+    "changes": [
+      "Independent file; seven target labels7001..7007",
+      "Original2195 graph and all9 trailing R/NF identities unchanged",
+      "Real VQ checkpoint arrays and phases preserved"
+    ]
+  },
+  "normal16": {
+    "base": "2026-11-14-r150-second-bockstein-all198-global-normal-form-789f.cpp",
+    "baseSHA256": "5bd10c7e2eb9b82ad55833dcf030974aa97fd57d5b591d0b2c40e4b7541d05a0",
+    "changes": [
+      "Independent file; actual16 labels7001..7007,2..10",
+      "Original3333 prebasis and normal form arithmetic unchanged",
+      "Actual forward/backward byte hashes required equal original T96",
+      "Degree<=184 stays within original uint8 normal operation encoding"
+    ]
+  },
+  "image16": {
+    "base": "2026-11-14-r150-second-bockstein-all198-global-image-mixture-789f.cpp",
+    "baseSHA256": "5eef9a7d3e37b834fe6e8bd72dce0dca83e6d13e214d85ecd418f0cab9f0d56d",
+    "changes": [
+      "Only include the independent common header; mix output count ceiling16",
+      "All original GQ+remainder multiplication unchanged;16 packed RHS fit32 bits"
+    ]
+  },
+  "original": {
+    "base": "2026-11-14-r150-one31-h0-original-combination-789f.cpp",
+    "baseSHA256": "42bf147d4b3874a3fbe6e967b6258cf568b40265d6246257f80aef60ba0b4add",
+    "changes": [
+      "All original products modulo31^4=923521",
+      "Generated source coefficients uint32/R150P431,R150O431",
+      "Reads old uint16 inputs or actual new uint32 inputs with strict modulus/width guards",
+      "Mode16 targets only last9 columns and divides by31^3; last9 RHS sign reversed",
+      "Mode9 requires full original31h0 identity modulo31^4",
+      "Same actual original product/source-prefix checkpoint mechanism with distinct magicR150C431",
+      "Recipe writer uses modulus923521, preserving31^3*w"
+    ]
+  },
+  "integerModel": {
+    "sourceExactJSONSHA256": "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3",
+    "sourceExactGzipSHA256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe",
+    "operation": "Only reduce saved exact primitive integers; all4433 equation coefficients and18 scales checked against completed31^3 model",
+    "fixedTarget31h0Mod31Four": [
+      0,
+      0,
+      0,
+      276427,
+      862172,
+      902472,
+      698771,
+      464287,
+      527682,
+      492745,
+      451918,
+      514104,
+      313379,
+      900829,
+      609243,
+      355167,
+      354082,
+      779588,
+      756245,
+      708350,
+      475571,
+      115692,
+      73067,
+      419895,
+      96875,
+      0
+    ]
+  },
+  "currentOriginalSource": {
+    "run": 43626632693,
+    "uncompressedSHA256": "fe887a6261899519f171e7562796f5a1e8a141f0c4b479cd744dc703ca89a8fc",
+    "sourceCosts": [
+      87,
+      87,
+      86,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87
+    ]
+  },
+  "originalSourceCount": 6188,
+  "originalOutputComponents": 4367,
+  "originalEquations": 17,
+  "characteristicZeroIdentityAsserted": false
+}
