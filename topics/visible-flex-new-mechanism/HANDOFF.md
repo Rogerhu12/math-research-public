@@ -6,7 +6,7 @@
 
 闭连通C²嵌入族Ft，时间C²连续，同一固定g；固定材料H有内点、diamF0(H)≥.2D；不对齐整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6并同g/状态/时间精化。D为完整F0直径；δE可0如实报；完整网格<5MB；明确数值/准确存在差距。达标后继续.5D或更强存在。现无完整合格候选。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`4adde9dde8a36fc07a284236a2b9ac1ecfa10729`（恢复后真实pull，双README无差；18:49 UTC记录）。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`b487efae88c185ac8f4b1f934dcf38aa5565dea1`（恢复后真实pull，双README无差；18:49 UTC记录）。
 - 每次实际pull --rebase核双README；变则只读diff立即执行；至少每小时pull。每结论立即提交推送；NFF立即rebase/核规则/再推至成功，不强推。
 - 已授权本公开main/自身Actions。真实几何/ODE/积分/优化/完整研究编译只在本公开Actions；本地仅纸面代数、小人工开发核、源码和公开输出分析。PAT仅瞬时CLI/env，不入文件/提交/日志。
 - 私有恢复后实际pull至`44a3ba9432709e1260b4277d05d64c6775ca6589`，相对6a16feab双规则路径无差，本题私有README不存在，QUEUE唯一行仍本会话进行中。下一实际pull不晚于19:45 UTC；私有研究不公开。
@@ -30,7 +30,7 @@ run43621210198/source64d69df6，92源/3输出已核；固定公共原函数保�
 
 ell=.162新表示保持原162数值/完整g，明确新场canonical c13edeec…，不是旧场精化。121×384 cost .0048653→55.14953；768角η79.34145、κ226.7835、bmax7.5763，入口严重变差；h=.387753718来自统一外部抬高.3355229824。t≥.198五导数逐位0差，strip1.03555不变，尾patch未改善。入口mean精化metric差4e−13，GL/panel仅位置约5.5e−13；Nb/热GH/Π高jet仍未获连续界。不得把帽高升高冒充reach通过。
 
-短入口driver c6f943ad修分数解析后，公开人工43626786862已pass，100源/2输出/25依赖均核。首失败原证据保留；short_entry_audit run43627111925/source8c53fba0已success：ell=.081 paired/bounded分别η1.45982/1.34092，h .0564000/.0553883；两B7提案均空，signed-z迫Δc≥2.95051/3.42299超过盒上限2。不是帽高容量不足；没有实际参数步。source正写完整科学审计，机制接9高度列可行stage+入口u/v联合。
+短入口driver c6f943ad修分数解析后，公开人工43626786862已pass，100源/2输出/25依赖均核。首失败原证据保留；short_entry_audit run43627111925/source8c53fba0已success：ell=.081 paired/bounded分别η1.45982/1.34092，h .0564000/.0553883；两B7提案均空，signed-z迫Δc≥2.95051/3.42299超过盒上限2。不是帽高容量不足；没有实际参数步。[完整科学审计](notes/frame-entry-short-bounded-actual-audit-20261114.md)已发布；阻断分别在s=.3375/.33、θ=π。机制接9高度列可行stage+入口u/v联合。
 
 ## 4. 高度与厚度门及已核接口
 
@@ -48,7 +48,7 @@ R65仅理想无桥±pair纯漂移；R67 whole period=P0+NP1+N²P2+N³P3；R68二
 
 R69给纯Ceff=4ΣΓ_Aj(Φ_Ej−ΠjMall/3)，28个profile无关充分矩条件；BigInt10差准确0。R70已给任意frame/scalar端及sl3目标的真实有限K桥；全桥M0后，固定K独立外N，所有phase第四period准确P0+NP1。R45闭浸入仍非嵌入/厚度。
 
-**R71已核：** 内桥第三T进入完整P1；同端I、M0的对称词W(t)接真实revW(−t)准确实现2t[P(f,Qgh)−Q(f,Pgh)]，无渐近余项；I→I倒行FR=D Frev D、scalar同值已显式核。八矩基给至多28可达方向，r0/r1对角为−2t/3∫q''³，非零q不恒零。仍须匹配整个P1及基准桥T，支付P0/ruling/收敛/有限族。R72已用B接真倒行及x-z-x有限Euler，给同scalar任意frame的准确M=T=0桥；不同scalar转接T及空间位移/P0仍欠。继续求解。p1 producer f7f3e3c6的公开开发run43627888220已pass，Node三差0、Python八项准确toy全true。p1_bulk_exact run43628716304/sourcee42c78ff正在运行：240s/2GiB软阈值、28真第三响应与完整纯bulk目标；未得到关系不作函数非成员证明，不含baseline桥T/P0/其它phase。
+**R71已核：** 内桥第三T进入完整P1；同端I、M0的对称词W(t)接真实revW(−t)准确实现2t[P(f,Qgh)−Q(f,Pgh)]，无渐近余项；I→I倒行FR=D Frev D、scalar同值已显式核。八矩基给至多28可达方向，r0/r1对角为−2t/3∫q''³，非零q不恒零。仍须匹配整个P1及基准桥T，支付P0/ruling/收敛/有限族。R72已用B接真倒行及x-z-x有限Euler，给同scalar任意frame的准确M=T=0桥；不同scalar转接T及空间位移/P0仍欠。继续求解。p1 producer f7f3e3c6的公开开发run43627888220已pass，Node三差0、Python八项准确toy全true。p1_bulk_exact run43628716304/sourcee42c78ff已complete：2.121s、36.7MiB；28响应正规化代表秩18，target473→59项，余76项、未找关系。不是资源退出，不完备化简不作函数非成员证明；仍缺baseline桥T/P0/其它phase。
 
 ## 6. 已通过开发核与立即行动
 
