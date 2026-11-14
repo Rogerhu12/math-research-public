@@ -1,0 +1,29 @@
+{
+  "result": "R738-p41-original-period-input",
+  "p": 41,
+  "source_commit": "651aa3f7eaac6f97bfd7f87ec25b210eb7d6f4ca",
+  "source_repository": "Rogerhu12/math-research-public",
+  "request_sha256": "dd85d6ec5a17caeb31109e253fa180048147555ab2cbd8273bc3cc03e8b64c16",
+  "driver_sha256": "e9dddc574bc386896afca475df3d61c30c5b8f69e9d18727786bef9d3d756fbb",
+  "core_sha256": "b2dc9305b6d891f0a0fd4df3be6827d89cb065e0527f566eecb6b20c0b6f62eb",
+  "method_sha256": "2bbebd7525203e4dd628d34762b5cc44f8061e2a2a0c6740a13a50ebadd5e7c9",
+  "root_readme_sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "dependencies": [
+    {
+      "file": "results/R575-correct-actual-sixfold-CM-deck-and-cubic-twist.md",
+      "sha256": "d56ce2cff22017014a031cb81dac5be35b7e6dc0fe13aec1904cf9aa1540fbcd"
+    },
+    {
+      "file": "results/R616-original-CM-point-difference-and-explicit-height-basis.md",
+      "sha256": "3812067c107b9bc02feb299d86d2eca00e0e122b35d546ef794385fa0e63ece0"
+    },
+    {
+      "file": "results/R732-original-CM-period-kernel-and-bounded-rational-function-recovery.md",
+      "sha256": "360bf5eff42ca81e618c107dd9b3421095a01d1e0aebe1234acd29af9e12a19a"
+    }
+  ],
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43612108090",
+  "prepared_at_utc": "2026-11-14T15:48:12.279383+00:00",
+  "mathematical_completion_claimed": false
+}
