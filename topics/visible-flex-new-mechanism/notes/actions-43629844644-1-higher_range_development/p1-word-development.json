@@ -1,0 +1,85 @@
+{
+  "P0_satisfied": false,
+  "baseline_true_bridge_T_included": false,
+  "completion": "toy_only",
+  "dependencies": {
+    "formal_compiler": {
+      "bytes": 33169,
+      "filename": "literature_range_profile_algebra.py",
+      "git_blob_sha1": "01c7424af3a96f2c2a0f0cb0c782b2037ff3ec74",
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    "original_producer": {
+      "bytes": 33718,
+      "filename": "literature_pure_bulk_exact_membership.py",
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    }
+  },
+  "elapsed_seconds": 0.006099406000004137,
+  "embedded_closed_surface_certified": false,
+  "finite_isometric_family_certified": false,
+  "full_fourth_range_satisfied": false,
+  "github": {
+    "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_RUN_ID": "43629844644",
+    "GITHUB_SHA": "6eceaa9009bf0df900c5bed4aa038cc51e34e527"
+  },
+  "kind": "small_exact_word_toys",
+  "limits": {
+    "max_IBP_calls": 250000,
+    "max_coefficient_nodes": 500000,
+    "max_memory_mib": 2048,
+    "max_profile_atoms": 60000,
+    "max_rational_bits": 8192,
+    "max_seconds": 240,
+    "max_terms": 80000
+  },
+  "memory_limit_scope": "RSS polling at compiler and word operation sites, not an OS hard cap",
+  "negative_result_scope": "no function nonmembership or fixed-profile impossibility follows from a nonzero rewritten residual",
+  "new_rules": [
+    "full shuffle of words at every depth",
+    "I(D F Iword)=F Iword-I(F D Iword), with right-boundary conditions explicit",
+    "pure x-polynomial front letter removed only when the remaining word is nonempty"
+  ],
+  "normal_form_complete": false,
+  "peak_resident_mib_linux": 26.453125,
+  "phase": "finished",
+  "profile_domain": "one arbitrary ordinary-complex smooth q, zero on a common right collar, x in a compact subinterval of (1,infinity)",
+  "profile_or_geometry_integrals_evaluated": false,
+  "rational_bit_limit_scope": "exact rational span elimination",
+  "schema": "signed-right-local-word-shuffle-ibp-v1",
+  "signed_primitive": "I(f)=integral_r^x f, J=-I; no left-tail value is reset",
+  "small_word_toys": {
+    "checks": {
+      "IBP_derivative_hits_arbitrary_nested_word": true,
+      "back_conversion_identity": true,
+      "back_conversion_true_derivative": true,
+      "full_span_reduction_keeps_unmatched_rows": true,
+      "local_high_jet_IBP": true,
+      "matrix_bracket_tau0_signed_right_anchor": true,
+      "one_by_two_word_all_three_shuffles": true,
+      "polynomial_letter_boundary_nonempty_word": true,
+      "pure_polynomial_primitive_does_not_drop_right_boundary": true,
+      "repeated_letters_keep_multiplicity_24": true,
+      "span_exact_reconstruction": true,
+      "span_null_relation_saved": true,
+      "three_primitives_six_shuffles": true
+    },
+    "known_zero_missed_by_old_layer_terms": 3,
+    "profile_or_geometry_integrals_evaluated": false,
+    "scope": "small exact formal identities only; no research target compiled",
+    "word_statistics": {
+      "all_depth_shuffle_calls": 9,
+      "cycle_fallbacks": 0,
+      "max_shuffle_product_word_length": 4,
+      "max_word_length_seen": 4,
+      "nonempty_word_polynomial_IBP": 1,
+      "primitive_calls": 32,
+      "shuffle_cache_entries": 9,
+      "unique_high_jet_IBP": 6
+    }
+  },
+  "source_sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65",
+  "verified_whole_function_identity": false
+}
