@@ -783,3 +783,7 @@
 ### R297 附录：倒数权桥平方与完整物理跨块
 
 [完整证明](results/R297-appendix-reciprocal-bridge-square-and-physical-projection-target.md)用真实倒数权primitive同构把硬端费用同常数化为B*L2²B≤κG1，第二个L2不可从旧一次Gram预算添加。目标又等价于v∈ker d²=ker e上‖J2*d*d v‖≤√κ‖v‖；原权侧为L1(P_Ve*eP_V)L1≤κL3+9L1³。均保完整源/逆序/正交块，未推统一κ。附一次受限M7/9定向剖面，病态浮点点明确剔除，不作为证明。
+
+### R297 附录：两个完整提升发散而实际最小费用有界
+
+[完整证明](results/R297-appendix-unprojected-lift-obstruction-with-bounded-physical-fee.md)给两个真实满足J3*W=L1A_U的自然提升，并在b=(t,t^−1,1,1,1)的指定S3不变真primitive线逐项计算。完整费分别~t⁴/3和~t⁴/12；保原正交投影后真费为(t²−1)²(t⁴+8t²+1)/[3(t⁴+3t²+1)(t⁴+4t²+1)]<1/3。发散完全来自无用正交分量；因此这两条删投影求粗界路线被原Boolean正权例排除，未产生硬端不等式反例。
