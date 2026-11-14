@@ -139,7 +139,7 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **已闭全部低本质三次层。** [总定理](results/R150-appendix-all-essential-cubic-dimensions-at-most-three-have-zero-matched-bell-values.md)：essT3≤3临界三Bell零；ess≤2仅迫T3=0，rank1/ess3为空，Cat2/3的W±/Q|T3判据保。非零Bell余点必ess4/5/6，自然幂未付。
 
-**高本质rank1原中心17式。** M5 6188×4367、泛秩4354；rankAy8及0/2/−6/∞已闭，余rankAy9有限Σ/char0来源。[完整前open](notes/2026-11-14-open-before-first-padic-obstruction-789f.md)保全部模31原17证书、Ann24/线性分母及B85标准源。[首轮真实障碍](notes/2026-11-14-r150-first-residual-fixed-source-obstruction-789f.md)九个r1均有非零完整image-NF，严格排各h0t_j在固定217374标准列Q像；添同族更高次数也无效。[余类实算](notes/2026-11-14-r150-first-residual-torsion-scalar-obstruction-789f.md)已核各最小(s−1)(s−2)，25坐标dual排固定初值的任意次数h0+31g。现转非标准kernel/β；未排全原来源或char0理想。其他mean秩/高ess/自然幂另开。
+**高本质rank1原中心17式。** M5 6188×4367、泛秩4354；rankAy8及0/2/−6/∞已闭，余rankAy9有限Σ/char0来源。[完整前open](notes/2026-11-14-open-before-first-padic-obstruction-789f.md)保全部模31原17证书、Ann24/线性分母及B85标准源。[首轮真实障碍](notes/2026-11-14-r150-first-residual-fixed-source-obstruction-789f.md)九个r1均有非零完整image-NF，严格排各h0t_j在固定217374标准列Q像；添同族更高次数也无效。[余类实算](notes/2026-11-14-r150-first-residual-torsion-scalar-obstruction-789f.md)已核各最小(s−1)(s−2)，25坐标dual排固定初值的任意次数h0+31g。[exact Koszul](notes/2026-11-14-r150-exact-koszul-compression-and-bockstein-1152-789f.md)已保cost消去660未选N行并lift972低K；有限β只余200高K的1152移位待算。未排全原来源或char0理想。其他mean秩/高ess/自然幂另开。
 
 [射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)已保∞并给74次K_h下因子：若有限个真实4354子式模31的齐次gcd总次数达74，即可推出char0坏点全已闭，cofactor+Bézout给原证书分母K(s)度60。该条件现于模31不成立：[∞全原来源一阶连接](results/R150-appendix-original-infinity-jet-and-mod31-determinantal-thickness.md)给∞阶≥24，配仿射315次得到齐次≥339。九目标24次Ann仍是另一个对象，char0原证书继续。其他mean秩的高ess仍另开。
 

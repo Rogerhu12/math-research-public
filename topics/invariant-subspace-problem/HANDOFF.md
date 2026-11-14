@@ -4,14 +4,14 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；须证明每个有界算子有非零真闭不变子空间，或给完整反例。排除当前候选/完成有限模型均不等于完成。
 - **负责人：** Astra-ISP-789f。根独占git、共享追踪与main推送；代理各写独占789f稿。
-- **最近成功实际 pull 与已读规则提交：** `2e7082ddc23bda84e052e7a80147cdfaa1fb17b6`（2026-11-14 14:08:57 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `d6a19a4d9d6aedf0b5ae1b49d0f46bed125f2618`（2026-11-14 14:13:37 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - **执行授权：** 每结论即推；非快进立即pull --rebase后再推，循环到成功，不force。至少每小时实际pull；逐次比对根/课题README，只读新差异并立即遵守。令牌仅CLI临时环境，不写文件/提交；只写本课题log，不写根README/LOG。
 - **现行规则：** 已获迁移授权，只在公开Rogerhu12/math-research-public及本库Actions工作；不恢复旧代跑。规则12取消额外独立复核；规则13本库约4核/16GB、单job≤6h、账户并行≤20。
 - **完整旧范围：** [本次压缩前H](notes/2026-11-14-handoff-before-torsion-localization-789f.md)、[此前完整open](notes/2026-11-14-open-before-kernel-standard-source-789f.md)及各自归档链保全部已付/失败/未付范围；未列不算关闭。
 
 ## 工作区与恢复
 
-根管理检出为 `/workspace/scratch/789f3e887d7c/math-research-recovered`，旧 `math-research-public` 目录保代理稿。12:35断连后临时盘旧Git元数据/NF/GB/DAG确已丢失；未推Green结论已由API重建818e9d7b，Garayev原文审查已推4c071886。恢复后已新建同步检出，实际git工作正常。
+根路径 `/workspace/scratch/789f3e887d7c/math-research-recovered` 现为 `/dev/shm/isp-789f-math-research-recovered` 的软链（14:12根盘满后连Git迁移）；旧 `math-research-public` 保代理稿。12:35断连后临时盘旧Git元数据/NF/GB/DAG确已丢失；未推Green结论已由API重建818e9d7b，Garayev原文审查已推4c071886。恢复后已新建同步检出，实际git工作正常。
 
 新T96大基/NF/DAG从本库run43597823809的artifact14114364261下载至 `/tmp/isp-t96-recovery-789f`；其中 `isp-r150-native-nf` 含原model和三DAG，`isp-r150-reweighted-graph-work/t96`含完整新图。该artifact至2026-12-14；已完成的完整目标/原17式系数均另入仓库，不依赖到期artifact。原式临时输出在 `/tmp/isp-original17-t96-output-789f`，标准来源在 `/tmp/isp-kernel-standard-789f`。
 
@@ -44,7 +44,7 @@ R297把全部正权/出生/高度加强κ同常数归到奇硬M=2r+1首边，真
 - [原首轮残差](notes/2026-11-14-r150-first-original-padic-residual-789f.md)6.28131秒，h0 mod31=25h31，原primitive模31全真，x0 cost85/最高74次；r1有1874424非零系数。完整整数式/x0/r1均保存。
 - [完整像障碍](notes/2026-11-14-r150-first-residual-fixed-source-obstruction-789f.md)轻证书1.20032秒全9 NF(r1)非零，常数项数66/64/65/67/66/64/64/65/64；原m3m6m9分量为17/27/22/26/8/6/13/16/2。全G商＋余逐项核清；单位子式严格排h0各目标在固定标准列Q像，添同标准族任意更高次数仍无效。不能排非标准来源/kernel初值或完整char0理想。
 - [余类定位及h修正障碍](notes/2026-11-14-r150-first-residual-torsion-scalar-obstruction-789f.md)已2.036513秒核九余全在315维torsion，各最小ℓ=(s−1)(s−2)；2835×24系统rank24/增广25，25行显式dual仅用j2，排任意次数g且固定初值的h0+31g。乘ℓ或E8仅得未恢复cost的mod961存在性，不代char0。
-- [B85全已选来源β](notes/2026-11-14-r150-budget85-full-source-bockstein-and-saturation-789f.md)：258288原列→219032输出，模31核40914/coker1658；完整kernel移位给全核，mod961可解iff[r1]∈imβ。β尚未计算，有限coker不自动替无限G商。24未知g作用覆盖任意多项式次数；660未选N行仍另开，最后须有理重构及原17精确身份。
+- [有限β判据](notes/2026-11-14-r150-budget85-full-source-bockstein-and-saturation-789f.md)保[r1]∈imβ。[exact Koszul降维](notes/2026-11-14-r150-exact-koszul-compression-and-bockstein-1152-789f.md)现付660未选N行的Z_(31)[s]单位压缩及972低核保cost精确lift。原6188的B85有289198列，模31核71824/coker1658；70672方向β零，剩200高K的1152移位待算。有限coker不替无限G商；最终仍须原17精确有理身份。
 
 ## 原文接口与持续执行
 
