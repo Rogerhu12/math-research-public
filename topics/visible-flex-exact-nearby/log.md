@@ -483,3 +483,7 @@ T7后的物理M说明现明确C2=(β(Ξ)−β(0))/√B，因此物理第一相�
 ## 2026-11-14 14:06:51 UTC — 实际全参数principal fold与宽J的16门全部通过
 
 亲读run43602612900真实consumer process，10原输入/child0/16门；native9300be45949cba94115511bf77d025a82e39c78d491ba77de916d7a96902fffd。新矩形、非零Jac/mu、两反解contraction和movingA1/128完整J均已实证，原germ/root-budget仅复用。原primitive必须沿旧ρ闭曲线，域事实不替代tilted source norm。独立推实际结论并告知phase继续根两行匹配/finite/strong。
+
+## 2026-11-14 14:08:14 UTC — 紧κ完整三维实际相位图
+
+审完N1–36并直接代回核N5/N6完整恢复恒等式；亲读旧all-scaled-five-function §1 B2/B3确认所复用逆的精确空间与2^1365Δ4L4常数。核L1/Frobenius对偶、同支集补偿、新finite-box误差和原physical BΔ/Wronskian两端归一。独立发布原blob；三个方向全κ共用，各邻包有同一完整两态PSD，但未把径向Parseval移作实际非径向近簇定位。

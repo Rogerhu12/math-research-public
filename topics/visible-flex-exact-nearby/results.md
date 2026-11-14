@@ -173,3 +173,7 @@
 ### 实际全参数解析主部折叠预算通过
 
 [公开16门证书](results/R133-supplement-actual-full-family-principal-fold-domain-certificate.md)：run43602612900 child0，全部实际参数及完整M96方向保；Jac>4.530889644653，两个inverse行<.107/.327，新J<.825333。实际principal fold已成，root b_fin/strong和完整source变换另付。
+
+### 紧缩放全区间的同一实际三维相位图
+
+[N1–36完整径向有限盒证明](results/R119-supplement-compact-scaled-three-parameter-phase-chart.md)：三个固定compact形状同时覆盖所有紧κ，真实两phase在全盒准确零；完整Sym2对偶性给方向且在定量频率邻域/全参数盒保持PSD。局部Duhamel与两补偿完整重新付费，物理BΔ measure/原wave/全两端generator均保。尚非非径向whole-cluster结论。

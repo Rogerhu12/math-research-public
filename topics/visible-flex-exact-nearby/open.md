@@ -135,3 +135,7 @@ run43594139132 的16分段与最终消费全部成功，全部5970格/anchor/jum
 ### 实际全δ principal fold 16门已完成
 
 [真实域证书](results/R133-supplement-actual-full-family-principal-fold-domain-certificate.md) run43602612900全成。复inverse矩形81/4000000×1/128，新movingJ在1/128可用；主部精确Airy形式与T²切向整除成立。下一支付原primitive/mean/tilted source和实际两行根连接，不能继续把principal fold本身列为未完成。
+
+### 紧κ统一三维实际盒已证明
+
+[三参数相位图N1–36](results/R119-supplement-compact-scaled-three-parameter-phase-chart.md)复用准确五函数逆，独立推自然态的全Sym2三jet恢复，给全部κ∈[1/4,2^4000J40]共用的三个固定方向和准确两phase补偿。每个明确小κ包有同一正方向，真实参数半径无B/δ损失；与高κ曲线可支集不交共存。下一低κ重付、actual mixed near-kernel频率定位/Γ*/相邻片及最终权，不能把不同包方向误称whole-cluster同向。
