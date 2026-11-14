@@ -452,3 +452,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [R601：原Q两张量、全Y/W核心与真实十五维谱](results/R601-original-q-tensors-complete-y-w-cores-and-fifteen-source-spectrum.md)：实际Q投影拆同一完整补偿，两原张量在全五变量的一层Y/四层W核心精确负交换，中心相位、真实像和逆域全保。原Y来源完整15维谱含S/2、两参考及四外块，新E2312线投影零；合法S伴随行保原算术，但未交换混合切集或删余补。
+
+
+- [固定CM多项式单位条件的稀疏坏集](notes/2026-11-14-fixed-cm-polynomial-unit-density.md)：利用原迹界和范数将固定F(barπ0)坏素数计为O_F(√XlogX)，含清分母及有限整数根分支；固定λ/κ有理式的单位条件因此可在原正密度ray中同时保留无穷处。量词保实际稀疏删除，不适用于随p变化的原负矩或Cartier系数。
