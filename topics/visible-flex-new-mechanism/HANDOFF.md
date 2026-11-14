@@ -6,7 +6,7 @@
 
 闭连通 C2 嵌入族 Ft、时间 C2 连续、同一固定 g；固定材料开集 H 且 diamH≥.2D；不对齐的真实像集 Hausdorff 位移≥.3D；全域全时 reach≥.03D；最大相对 metric≤1e−6，且同 g/物理参数/时间加密改善；完整小网格、复现及严格存在性差距。D 是初始完整曲面直径。δE 可为0但须如实报。达标后继续 .5D 或更强存在性。
 
-- 根及本题 README 已完整读。公开仓库最后已读规则提交：`f5c478827849a8f734221fb44413e893c4fe5f4b`；13:52 UTC前已实际CLI pull，根/本题README新差异为空。
+- 根及本题 README 已完整读。公开仓库最后已读规则提交：`9c6f7820535200f2ff8d37960bf05ffbb145841e`；13:52 UTC前已实际CLI pull，根/本题README新差异为空。
 - 每次 pull 后只读这两 README 新差异并立即遵循，至少每小时 pull。每结论提交推送；NFF 立即 pull --rebase 并循环推送，不强推。
 - 作者指定 QUEUE 已置进行中。私有仓库13:39:55 UTC实际pull至2af8e95180f2df4ccf4cdb915220d795c8b12907，根README差异为空；队列唯一匹配行仍为本会话进行中。私有研究内容不发布。
 - 研究计算只用本公开仓库自己的 Actions。令牌仅瞬时命令行认证，不入文件。根 LOG 不写；共享 workflow 理由记本题 log。HANDOFF<10KB，其他 MD<100KB，数据>1MB压缩、单件<5MB。
@@ -45,6 +45,8 @@ R31的公开准确代数run43601439290已成功且全部58源/1输出哈希核�
 
 - R33：椭圆柱（带边界）准确reach=B²/A。完整面若投影在A1/B.28椭圆且|z|≤.45，则真实相位像距/D>.328、固定rc.22开盘直径/D>.200；全族刚体像使reach归初始整面。正侧镜射给负侧但跨片单射另证。首轮度量为S5/S5/S11，移除当前平尾平均R_T三阶失配，非存在证明。
 
+- R34：完整O=0的任意C3 profile满足全区弱散度式；双积分+复值Volterra/Cassini择支把C非零处所有高L退化自动升C4并归实解析。双简单非零四阶外尾即使内部奇点无限/无q4也恒相位，完整类全排。仅其他外尾/零算子/机制继续。
+
 ## 最新实际计算
 
 共享 `.github/workflows/visible-new-mechanism-search.yml`，最多2并行、每job≤50min；publisher只写本题小输出，receipt含输入SHA，每次rebase核README。成功状态不等于数学通过。
@@ -59,6 +61,6 @@ physical_root43600230731已完成：正半线148nfev残差2.52e−13；冻结xi/
 
 旧失败输入均有原始输出及actual-audit notes，勿原样重跑。ellipse_cont/ellipse_phi仅接受圆t0，最小非圆步metric约.001258/.000621；inward_fixed/gc4的metric约1且曲率巨大，官方日志确认共享40min超时造成第二表示无完整输出，不是数学排除。旧Cartesian偏心/core-tail、R44 ruled-tail和文献bump/Newton均未通过完整metric/周期；局部二jet或缩ε不补全它们。
 
-warped_collar43595305950实际失败且R23另以link排除该封口目标；R24排除旧sin核，已试cos点全因厚度门失败。当前转准确椭圆柱和R28固定负K度量；入口/尾端先去已知表示失配，再公开Actions试算。文献续解仅限R29/R32未排类别。主README全部门通过前不收尾。
+warped_collar43595305950实际失败且R23另以link排除该封口目标；R24排除旧sin核，已试cos点全因厚度门失败。当前转准确椭圆柱和R28固定负K度量；入口/尾端先去已知表示失配，再公开Actions试算。文献续解仅限R32/R34未排类别。主README全部门通过前不收尾。
 
 ellipse_frame实际43602519926：连续端口inner非空/全方向门通过；123nfev ftol但fine metric1.660115、R3.51022、κsample2334.99、ellipse radius²1.46167，未可行，R33包络前提不成立。62源/8输出SHA全核。详见ellipse-frame-fixed-pilot-actual-audit；下一公开固定模型残差分布audit，不本地重算或盲重试。启metric design前须把log基尾Oδ5升Oδ7。R30接口见notes/R30-validation-interface-20261114.md。

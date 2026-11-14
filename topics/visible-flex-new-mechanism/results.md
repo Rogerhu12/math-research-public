@@ -60,7 +60,7 @@
 
 - [R28：正交切向框架重构及固定度量误差界](results/R28-orthonormal-frame-reconstruction-and-metric-bound.md) — 准确单位正交场的三分量积分性给周期位置；全角残差ε使最大相对度量误差≤2e+e²（e=πε/2），e<1保证浸入。另给真实曲率上界、零framing标量lift及两侧高阶接口要求；非线性连接器存在、嵌入与reach仍未支付。
 
-- [R29：实际D0方程的C4相位刚性及双外尾排除](results/R29-C4-profile-phase-rigidity-and-two-tail-obstruction.md) — C非零处任意单侧C4续解不能从实三阶jet开复相位，涵盖任意阶/全平L退化。配合两简单非零四阶外尾及C至多四次，完整有限分片C4类必恒相位，与第一复总矩矛盾。仅C3且q4无有限极限、其他外尾/机制仍开放。
+- [R29：实际D0方程的C4相位刚性及双外尾排除](results/R29-C4-profile-phase-rigidity-and-two-tail-obstruction.md) — C非零处任意单侧C4续解不能从实三阶jet开复相位，涵盖任意阶/全平L退化。配合两简单非零四阶外尾及C至多四次，完整有限分片C4类必恒相位，与第一复总矩矛盾。R34已进一步处理完整弱方程的任意内部C3；其他外尾/机制仍开放。
 
 - [R30：闭曲面近远点对的完整reach充分证书](results/R30-closed-surface-normal-chord-reach-certificate.md) — 在真实参数chart上用m/U/M及实际K证明稳健近对角法弦界，联合离对角连续片对与全部接缝覆盖可同时支付嵌入和完整reach；不把坐标二阶导数当曲率，也不以有限点云代证。尚未有完整候选执行此证书。
 
@@ -69,3 +69,5 @@
 - [R32：C3相位、C2无穷小场与一般h的二阶恢复障碍](results/R32-C3-phase-and-C2-second-correction-obstruction.md) — 3<ρ<4的真实非退化复相位可以给C2无穷小场，但同左锚自然二阶恢复的奇异主项要求逐点Gs=0。对任意h>0，此门强制一个非零二次jet进入可逆L|P2的核，矛盾；s常数profile gauge不能修复。不外推为任意有限C2族不可能。
 
 - [R33：椭圆柱准确reach、反射组装与严格条件预算](results/R33-elliptic-core-reach-and-reflected-phase-budget.md) — 准确核心reach=B²/A；在完整连接器投影/高度/嵌入条件下，m2相位族给真实δhold/D>.328、固定开盘直径/D>.200，整族像集为刚体旋转。S5/S5/S11固定度量保负K并移除当前标量尾端最低阶失配；完整连接器仍须求解。
+
+- [R34：任意C3弱profile的解析相位刚性与双外尾排除](results/R34-C3-weak-profile-rigidity-and-two-tail-obstruction.md) — 由全区弱散度式和准确双积分处理任意L零集，复值Volterra/Cassini引理把高退化归到两个实解析芽。完整O=0自动满足弱式；双简单非零四阶外尾的完整类即使内部无第四阶导数或奇点无限，也必恒相位并违第一复总矩。保留全平/退化外尾及其他机制。
