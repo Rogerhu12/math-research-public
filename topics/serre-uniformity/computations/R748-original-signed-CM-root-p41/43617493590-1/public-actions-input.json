@@ -1,0 +1,37 @@
+{
+  "result": "R748-original-signed-CM-root-p41",
+  "p": 41,
+  "source_commit": "b401479892e81ed76c587da52305606100ed88a7",
+  "source_repository": "Rogerhu12/math-research-public",
+  "request_sha256": "123bcf790a9cb0333c18038922f8576ec8f16292bede43cd40bb104128ddb641",
+  "driver_sha256": "fbb33cde57dd73fefe3c6dc101f416dfc474767bf4ff4a6a71e654abaad8e97c",
+  "core_sha256": "6b34e4946907cb657cb68ce585e43b8ef31295be36e3f700966daa0d4f133d7c",
+  "method_sha256": "60fea71514ab81922af3403b705c7f2ffb3296352568d75ba6e2ed1bdf93f113",
+  "workflow_sha256": "0e7c0ff6f768c5020383ce4f095bf8e58011aa43b0be650e62ab075d7fed62e5",
+  "root_readme_sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "retained_hodge": {
+    "run_id": "43616027318",
+    "source_commit": "1768f05c524e2e3d2e01822c0a4f376382c5e608",
+    "source_sha256": "48e8bb1189e39c0f0500be6b20da8a21e2788b5b73bdb9fea32d17540b144b4d",
+    "artifact": "serre-global-R745-p41-original-Hodge-input-43616027318-1",
+    "files": {
+      "original-p41-Hodge-q-expansions.json.gz": "a629d550bd2f3102111bbb58fe707470081e2062da10221ab778fe3ba71b53dd",
+      "p41-original-Hodge-input-certificate.json": "7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be"
+    }
+  },
+  "retained_norm": {
+    "run_id": "43597163388",
+    "source_commit": "ae827621e6632ad70227e1523247c0331edf9d8f",
+    "integer_polynomial": "computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-integer-polynomial.json.gz",
+    "integer_polynomial_sha256": "932899efb77482cb7712e8554376b6c6f65050620bf9a84485d610949ba0dbc7",
+    "receipt": "computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-original-CM-norm.json",
+    "receipt_sha256": "fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6"
+  },
+  "precision_bits": 512,
+  "cutoff": 4096,
+  "E6_cutoff": 80,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43617493590",
+  "prepared_at_utc": "2026-11-14T16:47:17.573082+00:00",
+  "height_or_uniformity_exclusion_claimed": false
+}

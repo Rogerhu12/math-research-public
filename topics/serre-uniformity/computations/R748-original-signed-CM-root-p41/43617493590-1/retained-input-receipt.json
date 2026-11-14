@@ -1,0 +1,33 @@
+{
+  "R745": {
+    "run_id": "43616027318",
+    "source_commit": "1768f05c524e2e3d2e01822c0a4f376382c5e608",
+    "source_sha256": "48e8bb1189e39c0f0500be6b20da8a21e2788b5b73bdb9fea32d17540b144b4d",
+    "artifact": "serre-global-R745-p41-original-Hodge-input-43616027318-1",
+    "files": {
+      "original-p41-Hodge-q-expansions.json.gz": "a629d550bd2f3102111bbb58fe707470081e2062da10221ab778fe3ba71b53dd",
+      "p41-original-Hodge-input-certificate.json": "7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be"
+    }
+  },
+  "files": [
+    {
+      "file": "original-p41-Hodge-q-expansions.json.gz",
+      "sha256": "a629d550bd2f3102111bbb58fe707470081e2062da10221ab778fe3ba71b53dd",
+      "bytes": 78852
+    },
+    {
+      "file": "p41-original-Hodge-input-certificate.json",
+      "sha256": "7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be",
+      "bytes": 1907
+    }
+  ],
+  "R717": {
+    "run_id": "43597163388",
+    "source_commit": "ae827621e6632ad70227e1523247c0331edf9d8f",
+    "integer_polynomial": "computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-integer-polynomial.json.gz",
+    "integer_polynomial_sha256": "932899efb77482cb7712e8554376b6c6f65050620bf9a84485d610949ba0dbc7",
+    "receipt": "computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-original-CM-norm.json",
+    "receipt_sha256": "fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6"
+  },
+  "original_finite_fiber_or_trace_repeated": false
+}
