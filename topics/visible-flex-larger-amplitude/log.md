@@ -136,7 +136,7 @@ R235完整逐角Schur区间/barrier证明直接登记；真实84节点profile准
 ### 2026-11-14T14:55:03+08:00 — move active work to math-research-public
 旧仓实际pull到d9b031786后只读正式迁移差异，立即停止旧仓更新；新公仓blob:none/depth1/sparse clone，完整读根README授权及14条，题README仅迁移提示改变、完成条件未变。旧未推R235用binary patch转入，33新文件逐SHA转入，既有本地margin325/RK24/geometry计算保稳定副本不停；此后普通push只到新公仓。新起点480a4313c5ebc8b5c8800c1432d9d5aef8ec5946记H。
 
-### 2026-11-14 07:36 UTC — actual public push approval rejection
+### 2026-11-14 07:29 UTC — actual public push approval rejection
 新公开仓首次push被自动审批拒绝：对话只直接授权原私仓，迁移README未被视为直接批准公开研究材料。尝试未执行/未成功；不换工具或旧仓绕过。已说明拒绝来源；本地研究、逐条本地commit与只读pull继续，公开push/Actions暂停待直接授权。旧H完整保存，新H同步真实三线现场。
 
 ### 2026-11-14T07:30:55+00:00 — closedr2 (local; public approval pending)
@@ -171,3 +171,6 @@ margin325 r2真实51.74s因可选旧fullFlow snapshot身份失配退出，原52 
 
 ### 2026-11-14T07:30:59+00:00 — rrnegative (local; public approval pending)
 同原g/H/真实RK12四级节点，5/7点水平rr最坏区域实际误差1.03621e−7/1.43790e−7，均超过原三点全共同网格7.29228e−8；原默认保持，不追加无必要同类试验。
+
+### 2026-11-14T07:31:00+00:00 — resolvedpipeline (local; public approval pending)
+保存真新states径向读出/共同网格/固定宽接缝及闭组装链；全部4609端点/内点真实回放≤1.13687e−13，相对8.917e−15。整链尚运行，未完数据只scratch；RK48同g/全H仅用RK24作warm，不预判成功。
