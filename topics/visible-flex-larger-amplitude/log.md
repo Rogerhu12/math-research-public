@@ -484,3 +484,9 @@ R273完整原σ块链阻尼平方根定理已直接入results与索引：每节�
 从actual53实际warm e71a5fec…/原status6170aba5…严格pair继续，原1251975B status透明从公开gzip恢复。独立四个16-query源只新增原mid481全2048角成32768行，capture端点/5073完整B与原C4059/全部outside保留；原512/dual200/600s/1200s/λ270/LSMR200/C200/17trial与FD门不变。新只读observer消费原已返回col/vector和基点W，独立ledger保执行源，不加RHS/J/试步，nonfinite时不以有限子集冒完整max。
 
 root已读四源全部差异、[16接口](notes/2026-11-14-sixteen-query-condensed-col-observer-interface.md)、原observer全文及workflow完整diff；18pins/AST/YAML/11bash/6内嵌Python静态通过，无本地科学。沿唯一condensed request触发56，不重复53；实际方向、trial、col位置和FD待回读。55已运行43636504089/source6b7e9846ab9062614618856d4d6772c847a303c2，独立固定54方向的原十trial继续。
+
+## 2026-11-14 20:19:02 UTC /root — R273完整平方根链实现准备
+
+完整42340B新source exact_20261114_native_damped_chain_qr.py / SHA9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33及[接口](notes/2026-11-14-native-damped-chain-QR-interface.md)已全文读取。每node唯一etaI、全cut/stage/far、两次HouseholderQR、全部R/S/affine与纯常数、完整回代/原σ恢复、307552行exact原式均保；不形成normal matrix/Riccati或删模，未运行科学。
+
+若55原十试探全部拒绝，首次显式[eta=1合同](notes/2026-11-14-native-damped-eta-one-trial-contract.md)采用同原σ坐标下单位方向与单位残差平方等权。R273零点比较只约束理想完整模型，不能套成浮点认证或原∞接受；形成系数、因子/梯度读回、实际σ*z舍入和原exact/native分别记账。不另派预筛gate，原H/far和全部guard/strictnorm保。当前55仍实际试探，R273未调度；56 run43636630003/sourceb8a19c16…正在独立16query续接。
