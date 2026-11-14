@@ -1,0 +1,225 @@
+{
+  "complete_adjoint_checks": [
+    {
+      "kind": "all",
+      "forward_dual": -759739243.336468,
+      "adjoint_dual": -759739243.336467,
+      "normwise_adjoint_error": 2.1239443592932975e-18
+    },
+    {
+      "kind": "global-core-and-controls",
+      "forward_dual": 8.273475039149272,
+      "adjoint_dual": 8.273475039149282,
+      "normwise_adjoint_error": 1.1365732694367287e-24
+    },
+    {
+      "kind": "first-last-physical",
+      "forward_dual": -612237813.8939409,
+      "adjoint_dual": -612237813.893941,
+      "normwise_adjoint_error": 2.845992370541646e-19
+    }
+  ],
+  "original_augmented_vs_exact_coordinate_action_relative_errors": [
+    1.1102230246251565e-16,
+    2.454633718507182e-16,
+    7.75878699410752e-16,
+    4.3031508106554894e-16
+  ],
+  "independent_original_nonlinear_collocation_complex_direction_relative_error": 8.673617379884035e-19,
+  "independent_physical_direction_threshold": 5e-05,
+  "physical_complex_direction_includes_actual_nonlinear_midpoint": true,
+  "independent_direction_scope": "Only all free inlet core and global controls; interior physical coordinates zero",
+  "implementation_check_passed": true,
+  "verification_threshold": 5e-12,
+  "no_native_tail_called": true,
+  "no_scientific_acceptance_claim": true,
+  "eleven_query_projection_entry": {
+    "entry_source_sha256": "6aed0dda5515945c73413884fb98d1719eb23fc40ff6b7388805f6108816c298",
+    "projection_engine_source_sha256": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+    "actual_midpoint_observer_source_sha256": "94395d54fcf58941180de23731fc2b5bb41fed8608dbda4c17903fffc862e228",
+    "parent_ten_query_entry_source_sha256": "90e22ebbd0089970a77986f1be9352a1ec1581346a2fe2ef25478720136f6941",
+    "parent_ten_query_operator_source_sha256": "5c9b145862a4f12cbbc5334e1b96e540458a58908c4889b966979995700d5dbd",
+    "eleven_query_operator_source_sha256": "55358acb92bac869ba2ca1daf2da7772d57be31ccd1fcfd9f7324af80f8ea20b",
+    "optimizer_schema": "exact-constraint-eleven-typed-query-feasible-projection-warm-v1",
+    "parent_optimizer_schema": "exact-constraint-ten-typed-query-feasible-projection-warm-v1",
+    "declared_initial_parent_optimizer_schema": "exact-constraint-ten-typed-query-feasible-projection-warm-v1",
+    "declared_initial_parent_warm_sha256": "24ca673e64fb60d1d5206ec742ce08c653b390bafd5ecd3ffbe54f0b1c1cd25a",
+    "declared_initial_parent_status_sha256": "214d4eed229c8b63af29bda765dca4506de1646a3addcbd02d0b626068ebf1ff",
+    "actual_resume_sha256": "24ca673e64fb60d1d5206ec742ce08c653b390bafd5ecd3ffbe54f0b1c1cd25a",
+    "actual_parent_status_sha256": "214d4eed229c8b63af29bda765dca4506de1646a3addcbd02d0b626068ebf1ff",
+    "query_specs": [
+      {
+        "kind": "left-RMS",
+        "interval": 471,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 472,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 473,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 475,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 477,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 479,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 480,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 481,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 473,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 475,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 477,
+        "fraction": 0.5
+      }
+    ],
+    "query_interval_order": [
+      471,
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481,
+      473,
+      475,
+      477
+    ],
+    "unique_capture_intervals": [
+      471,
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481
+    ],
+    "selected_query_count": 11,
+    "selected_angle_row_count": 22528,
+    "physical_angles_per_query": 2048,
+    "expected_capture_node_count": 12,
+    "left_RMS_fraction": 0.17267316464601146,
+    "collocation_midpoint_fraction": 0.5,
+    "mixed_kinds_do_not_share_one_fraction": true,
+    "added_query": {
+      "kind": "collocation-midpoint",
+      "interval": 475,
+      "fraction": 0.5
+    },
+    "added_query_evidence": "Actual35 nearest rejected alpha1/8 has only original midpoint475 invalid; beta_squared=-0.09677364082856954 at phi0 with6 negative angles; all ten modeled grids positive",
+    "retained_original_midpoints": [
+      473,
+      477
+    ],
+    "current_original_midpoints": [
+      473,
+      475,
+      477
+    ],
+    "all_eight_original_left_RMS_queries_retained": true,
+    "added_midpoint_475_uses_already_captured_endpoints_475_476": true,
+    "local_node_support_expanded": false,
+    "original_midpoint_base_is_direct_state_middle_and_problem_mid": true,
+    "original_midpoint_J_chain": ".5*(dyL+dyR)-h*(dfR-dfL)/8, complete J/P and direct scalar control derivative",
+    "retained_midpoint_endpoints_reused_from_the_same_original_capture": true,
+    "second_complete_Jacobian_constructed": false,
+    "independent_operator_source_without_mutating_parent_module": true,
+    "old_C_projection_and_feasible_segment_algorithm_retained": true,
+    "original_complete_residual_A_merit_and_all_scientific_gates_unchanged": true,
+    "original_lambda_LSMR_projection_and_seventeen_trials_unchanged": true,
+    "read_only_original_midpoint_observer_retained": true,
+    "parent_producer_subtree_preserved": true,
+    "nonlinear_native_H_solved": false
+  },
+  "selected_angle_row_count": 22528,
+  "query_specs": [
+    {
+      "kind": "left-RMS",
+      "interval": 471,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 472,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 473,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 475,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 477,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 479,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 480,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 481,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 473,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 475,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 477,
+      "fraction": 0.5
+    }
+  ]
+}
