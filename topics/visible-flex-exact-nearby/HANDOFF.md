@@ -5,7 +5,7 @@
 ## 规则与工作位置
 
 唯一工作仓库 Rogerhu12/math-research-public；只使用本仓库 Actions。新目录 `/workspace/scratch/0df957a82d09/math-research-public` 是 blob:none 部分克隆，仅先检出正文、脚本和 workflow；大数据按需只读旧检查点或在公开 Actions 重建。
-最后实际 pull --rebase 与两 README 差异检查：ed0c34d7cb338abbe66d6ca6854564ece013df6a；根 blob 1d05db9ebc859a5fd9a8ef773ab05ef1e9de0598，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
+最后实际 pull --rebase 与两 README 差异检查：78f99a12729d0e03032cde81df2a7300b5e88744；根 blob 1d05db9ebc859a5fd9a8ef773ab05ef1e9de0598，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
 每次推送前 pull/rebase 并检查两个 README；至少每小时 pull；每条结论独立提交推送；非快进立即 rebase 后重推，不 force。PAT 仅瞬时命令行环境，不入文件或输出。root 管 Git/HANDOFF/open/results 索引/log，代理只写自己新文件。
 
 ## 目标和准确对象
@@ -34,3 +34,5 @@ tail_connector：从旧未推73–75精确正文继续低锥/真实root packet�
 已推恢复108块径向/tensor原生记录（新稿修正范围为η0而非全η）。更近ρnew=(45217079201−√5)/164472125458已在974244d推送，Ωfit差<7e−11、principal gap仍1/(36|j|)，待真共轭实现。
 
 phase旧完整请求只到127germ且已正常返回，不再等待其自动覆盖169。原候选五片与127检查点已恢复到data/phase_transport_resume127_20261114；公开Actions即从此同源resume补余42。cap prepare亦复用该ac1，随后只重建帽矩阵数组。
+
+已配置公开workflow visible-exact-cap128-continuous.yml，准备后五互斥区间补768..1977，先复用原21行；0..768仍消费旧有效前缀。源/manifest锁定、每10分钟真实推回记录，root负责跟踪实际CI及全部1977格拼接。
