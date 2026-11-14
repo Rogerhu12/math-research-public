@@ -425,3 +425,7 @@
 ### R133：首帽两端原成功行保留的合法域恢复（2026-11-14）
 
 [两端恢复合同](notes/2026-11-14-R133-complete-quarter-cap-inlet-recovery-contract.md)明确原run43623547711的两种真实故障。首parent在exact9/10至binary64(0.9)的小左延拓内，旧首Hermite定义允许整个区间；guard由`piece0 && left==LEFT`改为`piece0 && LEFT<=left`且保原right上限，仍是原多项式。末range已成640行，余100进入r≥3时原ParameterGerm不接受halfwidth0；新计算仅使用原合法NaturalGraft(object,1e−9,1/8)的完整包络含固定η0，逐行声明目标参数包络与固定物理问题的区别。tail亲核实际target._graft缓存被whole/midpoint jets调用。原1+640成功行强制canonical SHA复用，原plan/其他6range保持原source和run。新164pins旧160零变化，两个恢复与finish仅公开Actions；完整7908/原64pilot行恰计一次的数值汇总尚待actual。
+
+### R133：fullδ正侧负阶源窗口的解析转移（2026-11-14）
+
+[完整N1–15证明](results/R133-supplement-full-delta-negative-one-positive-source-and-regular-ports.md)已根与tail独立核对。取同全局Riccati参考Y=M−1Z，M32对数频导给原order1的18/9/8常数；M96负漂移直接展开给39+1/2<40，local84/primitive9保持，故原4650行的order1内核界无需新扫即可支配s=−1。raw普通/跳源H−2/3需付k*=(1+388−2)1/3，raw输出H−1由原order1重构保守支配。实际fullδ DN用完整adjoint translation commutator延至H−5/6，包括scalar mean；再以该实际endpoint P/U/V重付负阶composition/Hilbert/Robin源列。根collar负阶bound用3×144+2×.09，七列jump明确为新Y单位，primitive为第八输出。新数值χ/λ/onto门尚需公开scalarconsumer，不把旧中心negative-height数字转授fullδ，也不授full Schur/CE/cutoff/非线性。

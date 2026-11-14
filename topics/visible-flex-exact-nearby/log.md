@@ -195,3 +195,7 @@ root完整读A1–14并核Schur+HS常数、反函数导数/adjoint Frobenius矩�
 ### 2026-11-14 18:20:10 UTC — 发布两端quarter最小恢复
 
 根逐差核producer33011B/worker24009B、全文合同/flow，164pin旧160零变化；tail另核首Hermite合法延拓及NaturalGraft实际缓存路由。source222b9a3dbfe842fbf8823d79584174cab5a350652db8a35cded0a610c45f6793；CI cdaebcd03696c86249dc2cb0798a39fb4e4fabef92259af7ec3fcbe63c12a9e2；manifest b141f6d9be92cb86fc06b49933bfb005eb0de383eef5dd8bd91a6c347d8b1263；flow7ee16ebe5afaa40c797763d84d9c53b9fd9cc3fac58fc979bfba7c9872ffe80d。原failed dff609…首1与1d940c…末640严格保留，只补1123；六原中段不重launch，finish保真实各run/attempt/source/manifest/process。新的数值运算尚未完成，不授完整cap或全逆。
+
+### 2026-11-14 18:21:17 UTC — 推送fullδ正侧s−1解析接口
+
+root/tail全文独核N1–15通过；补清raw mixed root输入9×17/16、输出9和Jc/Js/Ju单位，raw跳先付k*C，primitive完整H−1→L2的√17/4。只允许新消费者读取已成功的body summary/process、outer summary、collar process四小文本，保原4650kernel及其真实native身份；所有新scalar门只公开Actions。该结论为条件数值路线，actual inverse数值未运行不标完成。
