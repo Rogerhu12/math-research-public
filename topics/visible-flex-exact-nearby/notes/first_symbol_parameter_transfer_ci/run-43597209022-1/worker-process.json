@@ -1,0 +1,44 @@
+{
+  "kind": "actual_public_first_symbol_parameter_transfer_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43597209022",
+  "run_attempt": "1",
+  "workflow_commit": "cbd5c90ba2549d833423faef7f6c9fdfd1e51b7a",
+  "worker_sha256": "34df57e30f7174fc356210481fb963b4dadd95d7555e1e7f8f9700d049861d4a",
+  "manifest_sha256": "fb578b1d081920a8a75fe58fea0468f5ea58e629f74e4479f9b69f1c63cb2cc5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T12:56:29.419230+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "cbd5c90ba2549d833423faef7f6c9fdfd1e51b7a",
+      "after": "5e14fd1de48f7c51dbe465cebef048c3d948fc76",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "5e14fd1de48f7c51dbe465cebef048c3d948fc76",
+      "after": "5e14fd1de48f7c51dbe465cebef048c3d948fc76",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-first-symbol-parameter-transfer-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_parameter_transfer_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-first-symbol-parameter-transfer-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-first-symbol-parameter-transfer-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-first-symbol-parameter-transfer-CI-inputs.json",
+    "--manifest-sha",
+    "fb578b1d081920a8a75fe58fea0468f5ea58e629f74e4479f9b69f1c63cb2cc5",
+    "--out-dir",
+    "/__w/_temp/visible-exact-first-symbol-parameter-transfer-output/consumers"
+  ],
+  "complete_original_inputs_verified": 179,
+  "actual_scientific_checkout_commit": "5e14fd1de48f7c51dbe465cebef048c3d948fc76",
+  "mathematical_wall_seconds": 10.336783345999976
+}

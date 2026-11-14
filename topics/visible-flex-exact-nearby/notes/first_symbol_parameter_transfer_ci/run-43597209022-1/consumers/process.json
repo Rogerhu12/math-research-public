@@ -1,0 +1,131 @@
+{
+  "kind": "actual_public_first_symbol_parameter_transfer_execution",
+  "complete": true,
+  "public_repository": "Rogerhu12/math-research-public",
+  "run_id": "43597209022",
+  "run_attempt": "1",
+  "workflow_event_commit": "cbd5c90ba2549d833423faef7f6c9fdfd1e51b7a",
+  "actual_scientific_checkout_commit": "5e14fd1de48f7c51dbe465cebef048c3d948fc76",
+  "source_sha256": "6cfaf94a8ca66bead4b442b7ecf280260656072b1d13f1e72ed053af773289b9",
+  "manifest_sha256": "fb578b1d081920a8a75fe58fea0468f5ea58e629f74e4479f9b69f1c63cb2cc5",
+  "no_original_phase_or_scalar_germs_recomputed": true,
+  "no_original_finite_part_integrals_or_root_Newton_steps_recomputed": true,
+  "true_PDE_background_and_full_return_beta_not_claimed": true,
+  "verified_input_files": 179,
+  "actual_returncode": 0,
+  "failure": null,
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-first-symbol-parameter-transfer-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_parameter_transfer.py",
+    "--topic",
+    "/__w/_temp/visible-exact-first-symbol-parameter-transfer-science/topics/visible-flex-exact-nearby",
+    "--finite-part",
+    "/__w/_temp/visible-exact-first-symbol-parameter-transfer-science/topics/visible-flex-exact-nearby/notes/first_symbol_resume_v2_ci/run-43591721337-1/consumers/first-symbol-resumed-v2.json.gz",
+    "--scalar-cover",
+    "/__w/_temp/visible-exact-first-symbol-parameter-transfer-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-169-germ-phase-scalar-cover-native.json.gz",
+    "--t-cache",
+    "/__w/_temp/visible-exact-first-symbol-parameter-transfer-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-scalar-derivative-and-compact-T-cache-native.json.gz",
+    "--direction",
+    "/__w/_temp/visible-exact-first-symbol-parameter-transfer-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz",
+    "--root-budget",
+    "/__w/_temp/visible-exact-first-symbol-parameter-transfer-science/topics/visible-flex-exact-nearby/notes/current_root_scalarization_ci/run-43594466882-1/consumers/complete-moving-root-scalarization.json.gz",
+    "--root-germ",
+    "/__w/_temp/visible-exact-first-symbol-parameter-transfer-science/topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+    "--strip-proof",
+    "/__w/_temp/visible-exact-first-symbol-parameter-transfer-science/topics/visible-flex-exact-nearby/notes/phase_strip_refinement_ci/run-43588332723-1/consumers/R31-strip-refinement.json.gz",
+    "--out",
+    "/__w/_temp/visible-exact-first-symbol-parameter-transfer-output/consumers/first-symbol-parameter-transfer.json.gz"
+  ],
+  "mathematical_source_sha256": "de12b8129caeb8c51857f6b44a152c7a91e1facbdc553d2bd4f4ea320a38406a",
+  "mathematical_wall_seconds": 10.03720350499998,
+  "native_sha256": "06070fd3b4bd7a3e4ba17d99821c0f6ad06393863bf538f9a8157b6187e60dbb",
+  "mathematical_complete": true,
+  "transfer_enclosure_complete": true,
+  "mathematical_gates": [
+    {
+      "name": "the completed same-centre v2 finite part and its full3146 partition are reused",
+      "passed": true
+    },
+    {
+      "name": "the original169 complete scalar germs and all220 compact T models have the same identity",
+      "passed": true
+    },
+    {
+      "name": "the complete repaired explicit direction retains all193 components and the independent mean",
+      "passed": true
+    },
+    {
+      "name": "the actual public root budget covers the full complex parameter disk and the same repaired centre",
+      "passed": true
+    },
+    {
+      "name": "the actual selected true R31 parameter lies inside this exact explicit-family disk",
+      "passed": true
+    },
+    {
+      "name": "the unchanged unique root and exact compact support justify the whole root homotopy",
+      "passed": true
+    },
+    {
+      "name": "the full complex strict-interval mean is separated and all field norms are finite",
+      "passed": true
+    },
+    {
+      "name": "all169 original scalar files give the complete chronological626 cells",
+      "passed": true
+    },
+    {
+      "name": "all3146 accepted intervals and all220 supported T cells are fully consumed",
+      "passed": true
+    },
+    {
+      "name": "the complete root analytic gaps remain positive on every candidate Cauchy disk",
+      "passed": true
+    },
+    {
+      "name": "the actual complete finite-part homotopy and all derivative bounds are finite",
+      "passed": true
+    },
+    {
+      "name": "the complete selected-parameter transfer fee is below the declared one-ten-thousandth goal",
+      "passed": true
+    }
+  ],
+  "mathematical_failure": null,
+  "complete_strict_parameter_derivative": {
+    "ball": "[46290.1150241927159585910162209014908959870384303638453950910 +/- 2.04e-56]",
+    "lower": "[46290.1150241927159585910162209014908959870384303638453950910 +/- 2.04e-56]",
+    "upper": "[46290.1150241927159585910162209014908959870384303638453950910 +/- 2.04e-56]"
+  },
+  "complete_root_parameter_derivative": {
+    "ball": "[140461.873596044335600304845829121188712876380850054022868095 +/- 7.66e-56]",
+    "lower": "[140461.873596044335600304845829121188712876380850054022868095 +/- 7.66e-56]",
+    "upper": "[140461.873596044335600304845829121188712876380850054022868095 +/- 7.66e-56]"
+  },
+  "complete_total_parameter_derivative": {
+    "ball": "[186751.988620237051558895862050022679608863419280417868263186 +/- 5.62e-56]",
+    "lower": "[186751.988620237051558895862050022679608863419280417868263186 +/- 5.62e-56]",
+    "upper": "[186751.988620237051558895862050022679608863419280417868263186 +/- 5.62e-56]"
+  },
+  "actual_selected_R31_parameter_abs_upper": {
+    "ball": "[9.36825985300152312044802434388866084100000014649214357939460e-11 +/- 2.27e-71]",
+    "lower": "[9.36825985300152312044802434388866084100000014649214357939460e-11 +/- 2.27e-71]",
+    "upper": "[9.36825985300152312044802434388866084100000014649214357939460e-11 +/- 2.27e-71]"
+  },
+  "selected_parameter_complete_transfer_fee": {
+    "ball": "[1.74954115745916407923487186208050849337921630396457864902591e-5 +/- 1.01e-65]",
+    "lower": "[1.74954115745916407923487186208050849337921630396457864902591e-5 +/- 1.01e-65]",
+    "upper": "[1.74954115745916407923487186208050849337921630396457864902591e-5 +/- 1.01e-65]"
+  },
+  "complete_selected_parameter_finite_part": {
+    "ball": "[-73.9133 +/- 5.50e-5]",
+    "lower": "[-73.9133549700784328900407783641139081202542959569299289984877 +/- 5.35e-60]",
+    "upper": "[-73.9132972201080520074537273450413754664457022069299289984877 +/- 5.35e-60]"
+  },
+  "minus_quarter_of_selected_finite_part_with_no_full_return_identification": {
+    "ball": "[18.47833 +/- 8.75e-6]",
+    "lower": "[18.4783243050270058964360742352584851553687497704824822496219 +/- 2.37e-59]",
+    "upper": "[18.4783387425196153279375521920303357413062497704824822496219 +/- 2.37e-59]"
+  }
+}
