@@ -104,3 +104,7 @@ H1–30共同酉形式保全部输入/mean/源与原4/3双窗；E/F<2^-9000，�
 ### 已启动：负侧H−1窗口与真实接缝源
 
 新11-input小consumer复用原germ/scalarization，无新响应/target；负窗仅9e−6，完整pair输出H−1，普通源H−2/3，真seam依两行(H−2/3,H−1)范数累加。growth<112等拟门待实际；正侧H1/3合同不由此改变。
+
+### 同Z plan数学已成；v2仅恢复摘要发布后续
+
+43612904296原plan实际7门/7721行/child0，native26a488b4347e0e30106e67dcd18b54e211dba6adecd7d2c029a4dc6ba097d95a。随后Path+str摘要错误；原process.complete=false诚实保留，range未起。v2保原140项、旧source与planSHA，明确从原失败workflow的成功数学原件恢复，不重算基线；继续4range/finish。
