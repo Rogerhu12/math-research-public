@@ -4,7 +4,7 @@
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
 - **最近成功实际 pull 与已读规则提交：** `a9dc6616687171e7b1a6c9f798e24e6cdcc59d3a`（2026-11-14 19:54:08 UTC，Actions run43634577798/job132568455969实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **最新规则读取（GitHub API，非实际pull）：** `ac61289f87848177109a92fa3f9af20ac05dcabf`（2026-11-14 19:59:30 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最新规则读取（GitHub API，非实际pull）：** `0cc1d06833cd73d3153cb0ab3a8a044711757839`（2026-11-14 20:03:29 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -40,4 +40,4 @@
 - **当前冻结并启动：** [连续接口](notes/2026-11-14-r150-augmented-seven-second-interface-789f.md)、[本次执行入口](notes/2026-11-14-r150-augmented-seven-second-actions-entry-789f.md)。四旧artifact精确恢复35输入（含3仓库文件），仅七新增δ2。六编译各30秒，全部数学共享300秒/512MiB；正列最终全17式AX=31²h0 mod31⁵，6/9原源乘p复用。先试未投影完整315身份，必要用真实CRT P度≤314、源费用≤624；部分正列也逐一完成，负dual覆盖A+全部初值而非原所有有理源。实际run43634830833/job132569235728，源20aa140b；当前未登记新数值完成，结果读本run回执。失败/超时保全部真实stagecache/checkpoint，不重已成阶段。
 - 原射影B≥85有限商、仿射315及∞torsion u⁹⁶/length≤745继续保旧证明；其余mean秩/高本质/自然幂、同一相容全链与普通ISP全部仍开。子问题完成接open，不在阶段报告或时长处结束。
 
-- **[原实际左域与Z逆](notes/2026-11-14-actual-left-partial-zero-mode-gram-and-source-resolvent-budget-789f-next.md)：** V_p=P≤p R_A Z_p^left，部分Gram按birth b截到j≤p−b，I≤H_p≤C_m；准确闭像不可扩大，压缩后才逆。J_p=E_p H_p⁻¹E_p*、同一尾列Z0⁻¹≤Z⁻¹≤C_mZ0⁻¹。固定低物理测试y_f=R_A*f不随p变，尾真空y_f=f；实际q_p零模=H_p⁻¹P_Z y_f，仍可能反馈高birth。未来boson延伸保左前缀，非完整物理右链。
+- **[实际左域/Z逆](notes/2026-11-14-actual-left-partial-zero-mode-gram-and-source-resolvent-budget-789f-next.md)：** V_p=P≤p R_A Z_p^left，准确像压缩Gram I≤H_p≤C_m，同源Z0⁻¹≤Z⁻¹≤C_mZ0⁻¹。固定测试y_f=R_A*f、尾真空为f；逆后高birth不预先删除。[实际测试未来总预算](notes/2026-11-14-actual-low-test-full-image-inverse-bosonic-future-budget-789f-next.md)现付Σ||P>p R_A P0P_Vp f||²≤C_m²k0(2+logd)²||f||²。递减boson核空间/正交增量/区间mask与同像两逆比较给完整证明。减真实k_p不改未来，同t_p的完整bosonic右链已付；投硬核后残量≤2S倍总预算，仍须原硬核/短旗和E_ret/flat修复。

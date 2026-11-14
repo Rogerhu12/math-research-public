@@ -196,3 +196,8 @@
 ### 原实际左域与同源Z逆：部分零模Gram
 
 [完整证明](notes/2026-11-14-actual-left-partial-zero-mode-gram-and-source-resolvent-budget-789f-next.md)由所有真实低输出行得到V_p内v=P≤p R_Ah、h=P0v，准确闭像Z_p^left保原硬核约束。按横向birth b的部分头Gram Σ_(j≤p−b)(A^j)*A^j/(S^j j!)给I≤H_p≤C_m，logC_m=O(m logm)；完整像压缩后才取逆。保同一实际边界和完整受限尾列，J=E H_p⁻¹E*及Z0⁻¹≤Z⁻¹≤C_m Z0⁻¹均成，亦给同一source splitting变分式。固定低物理测试的y_f=R_A*f不随p变、尾真空时为f；实际P0q_p=H_p⁻¹P_Z y_f，不声称反馈保持birth。保全左前缀的boson核延伸费用≤C_m，仍须原硬核/高返回修复。
+
+
+### 实际低测试经完整像逆后的全切口未来总预算
+
+[完整证明](notes/2026-11-14-actual-low-test-full-image-inverse-bosonic-future-budget-789f-next.md)针对原q_p=P_Vp f，不假设低birth旗被准确像投影/压缩逆保持。完整boson核中递减L_p={z:P≤p z硬核}的正交增量和区间mask，先付barz_p未来总平方≤k0(2+logd)²||f||²；在同一Z_p^left上保非交换次序比较部分/完整Gram，得Σ||P>p R_A P0q_p||²≤C_m²k0(2+logd)²||f||²，常数exp(O(m logm))。减实际k_p不改未来，得到同一原Riesz源t_p的完整bosonic右链；投硬核保整个左最小前缀、真实残量总平方≤2S倍。可与原两费同窗平均；物理硬核/短旗修复及E_ret/mixed flat仍须付，未宣称原完整右费或N=M。
