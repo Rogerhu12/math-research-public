@@ -289,3 +289,7 @@
 ## 全族负一阶根Cauchy：公开实际13门通过
 
 [完整实际报告](results/R133-supplement-actual-negative-one-root-Cauchy-and-seam-source-audit.md)：run43613506152，原11input全复用，child0/.214434376s，native7c91e9745b997ccadd1b987b5765e5bd51006261872cd58ff52b8ccd416240b0。真实增长<101.103437943193，raw<4.005123341343，primitive后<4.226183266259，确实激活41/10与17/4。全频/独立mean/ordinary源H−2/3/真实两行jump保；范围仅原9e−6负根窗、realδ1e−8。更大逐piece根域、下一Airy幅度、数值强余项另续。
+
+## 完整1977格截面方向与同一Z腰/截面源的接续合同
+
+[精确合同](notes/2026-11-14-R133-complete-cut-direction-and-same-Z-contract.md)及独立145输入流水线已推。旧v3的16格与6端点费用原字节复用，四互斥range只算余1961单列，保完整257/255输出；精确9/10入口不回退为binary64。汇总完整14个Green源通道，再用同一Z实际端点、完整mean和193个有符号振幅支付真实g0/gR/gH。移动误差经旧全算子与Z−w0差转移，不把旧qstar边界更名；未知高输出不删。plan与range成功native均按实际child0/来源/全输入/分片SHA复用，摘要≤60KB。待真实执行，不授全逆或νSchur。
