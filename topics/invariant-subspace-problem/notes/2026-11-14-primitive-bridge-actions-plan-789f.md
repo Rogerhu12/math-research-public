@@ -49,3 +49,7 @@ topics/invariant-subspace-problem/notes/primitive-bridge-actions-789f/<run_id>-<
 ## 实际启动记录
 
 源提交`73eb10623d1b4301431aab5586c4f1394642e3ee`的push已启动运行[43575194207](https://github.com/Rogerhu12/math-research-public/actions/runs/43575194207)，创建时间2026-11-14 08:18:31 UTC。当前记录为in_progress；尚未读取到完整双目标证书，不提前登记主参数区正性。
+
+## 左列实际完成
+
+job132387801844的`s2-left`已成功，实际计算26.984秒；[回执](primitive-bridge-actions-789f/43575194207-1/s2-left/receipt.json)有两个完整严格主子式及唯一最终all_passed事件。右job132387802020仍计算。左列已整理为[R292附录](../results/R292-appendix-main-parameter-strict-left-s2-column.md)，未将单列等同完整S2。
