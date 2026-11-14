@@ -583,3 +583,7 @@ root逐节核P1–37及真实global T根stable正号、完整mean源、density n
 ### 2026-11-14：实际 cut v2 失败的独立只读收据
 
 43609037484 child1/5.000556915s，原native9f8ed802456a6098e2b7ba03cb1f31f7dbcec62be426bd3d7c3d4ee0f14d42a4（1282B）。第二失败原因尚未从原件取出，不能复用v1理由猜测。新 receipt-only worker 保原manifest/producer/worker身份，下载原小artifact并导出真实failure/gates/末段stdout；不下载767MB或运行数学。终端15:25仍不可用，根规则8小文本路径继续，H旧全文完整归档。
+
+### 2026-11-14：原 moving-root 25 门真实审计结论
+
+亲读43608838195 process全25门、15输入和原接口身份，math0.665159872s。发布独立报告，区分workflow2d9d443与science20fdbe5。保留七source列与true mean，实际body费13.367962638380不向下写成1。positive cutoff指数仅1.82704e−8，故不据此授97起强小量；后续数值幅度与非零δ正区仍继续。

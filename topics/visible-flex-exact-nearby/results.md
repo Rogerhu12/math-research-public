@@ -241,3 +241,7 @@
 ### 2026-11-14 actual root parametrix and scalar finite part
 
 [R133-supplement-actual-moving-root-parametrix-and-scalar-finite-part](results/R133-supplement-actual-moving-root-parametrix-and-scalar-finite-part.md): proved P1–37 at the repaired M32 centre, delta0, with supplied head. Finite analytic Airy amplitudes are reconstructed in both original curvature rows, corrected by the genuine positive regular graph and continued by the proved negative Cauchy bound. The first wrong-branch term cancels exactly in the inverse strict frame. After density normalization n7/6 the actual relation has a strong H−4/3→L2 remainder with an explicit norm formula, and scalar root finite part0. Numerical amplitude constants, a useful high cutoff and nonzero-delta transfer remain separate.
+
+### 实际 moving-root 接口和有限系数审计
+
+[完整报告](results/R133-supplement-actual-root-parametrix-interface-and-finite-coefficient-audit.md)：公开43608838195/15inputs/25门实际通过，nativee80e42d182f5b77158fb147cfe12300d62769dbf7d4777d1bd4e5c244a70cdb6。Fc→negative<.953797，Fb<13.367963，根稳定对角>1/25，完整J:L2→H1/3<7/2。对象仍δ0 given-head；未评C_E/C_s及数值入射cutoff，fullδ*/全PDE未成。
