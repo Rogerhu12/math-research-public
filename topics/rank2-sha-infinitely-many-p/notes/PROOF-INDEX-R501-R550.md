@@ -76,3 +76,5 @@
 
 - [R530：p除分级连接、全目标整共轭与混权第二精度](../results/R530-divided-graded-connection-full-integral-gauge-and-mixed-second-precision.md)：真实来源和完整目标两端均支付Fermat商整性，同一p²左右提升得到完整混权配对；全部Gaussian交换子/进位与原单位高尾保留。可统一移位使来源可逆，并在固定精度用有界整数替代；只对声明的B或conductor·B矩阵，不免费扩大原A来源。
 
+
+- [R531：两套纯伴随框架、真实carry与原Y/W权](../results/R531-hidden-two-frame-native-central-carry.md)：C/F与D/E完整核及逐E次数unit逆返回整个(Y,W,W′,G)，原观察权不移动；固定q5=0使原五深网格的中央、质量及两差准确v=n。所有log项与有限质量多项式完整保留，实际纤维补域仍须控制。
