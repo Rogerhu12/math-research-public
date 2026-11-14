@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R452：真U单位算术抽回与同测试第一层carry管](results/R452-original-companion-unit-arithmetic-extraction-and-first-carry-tube.md)：真实Uunit六矩是已付满秩矩阵的整微扰，有限逆指定S/两参考测试；新的logc质量保留而首五阶仍unit。一次A运输把同非零管送进Ψ0第一层carry，整个同测试回λJS′，内部补域准确保留。
+
 - [R451：真实D正来源与全部U环带的原零传播](results/R451-original-dplus-source-and-complete-u-shell-zero-propagation.md)：L+=L0+(L1−LR)/2同时保原principal中央与残余D正特征；联合U scalar core将原JS′零传入每个U深域/环带，完整X测试全保。同一真实管每n≥1准确v5n，余下补域全部位于Y/U单位内，斜管和W/V限制未删。
 
 - [R450：第六阶伴随矩满秩与含U的原算术抽回](results/R450-original-sixth-companion-moments-and-exact-arithmetic-extraction.md)：六条正U次数矩在现有ray整满秩，固定U整除测试完整抽回S及两真rank0参考；全法向五阶给同D_n值v5n。有限整逆测试将原JS′准确写成保U的同来源两层carry，内部非零斜管与完整补域均保留。
