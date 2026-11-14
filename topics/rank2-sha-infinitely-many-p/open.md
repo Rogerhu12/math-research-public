@@ -66,21 +66,11 @@ R409给原S34/T72共同sigma有理递推，准确读取a_p^N=[z^(p+1)]A_N modp�
 
 ## O4. 原高秩类、完整 Heegner 点与两步门
 
-R8给准确正合列 $0\to\mathbb Q_pv_p\to\operatorname{Sel}^0(\mathbb Q,V_pE)\to T_p\Sha\otimes\mathbb Q_p\to0$，$v_p=\log_p(Q)P-\log_p(P)Q$。
-Castella实际导出类非零在本曲线等价初级有限，但归属及非零仍需独立输入；Kim/Calonge2026的前提未付。
-R37/39的反对称MW块与高度代数线性独立不排cyclotomic二次regulator或strict三次式零；不可删潜在Sha方向。
+全部原规范、16个域、82个CM中心、完整Hilbert类迹、具体证明及尚未支付的接口保[本轮完整O4](notes/2026-11-14-open-before-r549.md#o4-原高秩类完整-heegner-点与两步门)及其归档链，均未关闭。R8的实际导出类非零等价初级有限，MW高度或非p除不排潜在Sha方向。
 
-### 完整原类、已联合输入与仍需通过的门
+同一无穷普通/nonanomalous输入上的真实O格Q=δ^aεw，E17与E389都仍须a≤1；E17的a偶、E389的lengthShaA=2(a+1)保持。源简单、hQ=o(p)、非p除和辅助单位都不能代这个低增广非零。R232/234/237全部p完成的两矩观察保原ell和全类群迹，原β(Q)=f(0)P_-尚待非零。
 
-O4所有原规范、16个域、82个CM中心、完整Hilbert类迹、carry及局部/全局区别完整保存在[O4检查点](notes/2026-11-14-open-r475-r477.md)的同名部分；下列问题均仍开放，不因压缩正文而关闭。
-
-R119/R149–156在同一无穷普通/nonanomalous素数集已付原Q非扭、范数零、hQ=o(p)、非p除、辅助aell单位及源简单；真实O格Q=δ^aεw，E17与E389均已证a≤1足以原Sha[p∞]为零。E17保a偶；E389保lengthShaA=2(a+1)。**仍须证明同一原类的a≤1或等价低增广项非零**，高度、非p除、源简单及环境函数非零均不能替代。
-
-R232/R234/R237原两矩、两类observer及完整definite群环保同一个原ell与全类群迹；所有p完成上的两矩非零等价a≤1，原β(Q)=f(0)P_-仍待非零。反圆四阶/导出高度note的第二高度必须控制整个S+并匹配原λ，局部Kummer或Heisenberg平方中心零不够。
-
-R130/R134–148的全p完成、真实Frobenius规范及SL2/PSL2轨道保原D2观察；原D2失败等价C=D/n²在指定CM点正则，须控制指定纤维而非别处极点。p不除类数、单点稠密或总迹零不迫所需类群和。R154原固定商覆盖次数ell(ell−1)，R157双反射失败同步，未增加独立测试。
-
-R271/R281/R285最大阶真实Θ1低于I³的条件已通过完整Selmer接到Sha；R296原88类和R304 conductor完整Euler下降均付。**待做：** 指定p类不落pCl，以及变化q的全Hilbert trace在同一无穷输入上低项非零。有限p11/13/17证书和提高恢复精度都不解决这一步；高Kolyvagin节点原始性不能直接降到所需两层。
+原D2失败等价指定CM点处C=D/n²正则，必须控制这个指定纤维；全Frobenius、群轨道、覆盖成本和双反射同步不另增独立测试。R271/281/285最大阶Θ1低于I³已接完整Selmer，R296/304全类与conductor Euler下降已付；还缺指定p类不落pCl及变化q全Hilbert trace的无穷低项非零。高节点原始性与有限证书不支付两层门。
 
 ## O5. 强声称来源审计：此支线已完成
 
@@ -96,33 +86,15 @@ R165的GKZ含完整NΓ/Fricke条件，heart界只限线性映射；R168高度级
 
 固定E24由R398证精确rank2及Sha[7∞]有限；实际T72=S34H38、H38质量1。R401给κ24=1/(6∛3)，R397/R400普通全core/通常Selmer和R402惰性全桥均已付；首项一常数10534551552。**待做：** 同一无限集合上两真实中央至少一条非零。R399在固定ray mod279072给四源交叉与Y/Z重叠全core，保两移动单位管det−395；同时失败迫原B_N导数v≥6N及全部负矩尾。仍须控制其完整补集，不能从交叠或深整性直接收尾。
 
-## O6. 中心相对类群与全局单位：准确核尚缺跨p上界
+## O6. 中心相对类群与全局单位：真实核尚缺跨p上界
 
-对目标split p，R7/R12给
-$$
-\dim_{\mathbb F_p}\operatorname{Sel}_p(E/\mathbb Q)=2\lceil c_p/2\rceil,
-\quad c_p=r_\pi(E),\quad c_p\in\{1,2\}\iff\Sha[p^\infty]=0.
-$$
-固定四次去扭转后的目标是非平凡角色；秩零基本曲线仅控制平凡角色。
-范数、非Wieferich已知点或全局单位指数素于p都没有给目标局部上界。
+全部准确公式、原两整Bockstein、全局单位格、范数/中心及未付输入保[本轮完整O6](notes/2026-11-14-open-before-r549.md#o6-中心相对类群与全局单位准确核尚缺跨p上界)，均继续开放。目标四次去扭转是非平凡角色，秩零基本曲线不控制它。
 
-R30–R35令 $D_p=\mathcal A_p/(T-p)$，得到更适合本题的准确等价
-$$
-s_{\infty,p}=q_p+1,\quad q_p=\operatorname{rank}D_p\text{为正奇数},\quad
-\Sha[p^\infty]\text{有限}\iff q_p=1.
-$$
-固定两点给饱和满射 $\lambda_p:D_p\twoheadrightarrow\mathbb Z_p$，核 $N_p$ 保全部Sha方向。Bley–BKS已付完整Fitting中心理想及真实辅助类，每层商为 $D_p/p^nD_p$；仍须证明 $N_p$ 对无穷p有限。
+R7/12给dim Sel_p=2ceil(c_p/2)，c_p∈{1,2}等价Sha[p∞]=0。更适合本题的R30–35接口为D_p=A_p/(T−p)，s∞,p=q_p+1、q_p=rank D_p正奇，初级有限 iff q_p=1。固定两点的饱和满射λ_p:D_p→Z_p保全部Sha方向于核N_p；完整Fitting/辅助类与每层商D_p/p^n已付，仍须无穷p上N_p有限。
 
-R36的两条整Bockstein行为 $p^{b_p}\mathcal L/\theta$ 和 $v_w/\theta$，
-$\theta=T-p$、$b_p=\min(v_p\log P,v_p\log Q)-1$。
-p13辅助109的精确非零3已复算。继续除一次中心需要整S单位格上的原始关系，
-外积中心为零不自动给这条关系。[整单位记录](notes/2026-11-13-o6-integral-unit-division-and-one-prime-mrs-descent.md)已自证一次全局除法；[CM5记录](notes/2026-11-13-original-unit-cm5-norm-and-translated-centres.md)付D_a=VθC_e及全部Smith商。R286准确识别Tor为θC_w∩C_w[θ]；若原λ杀A[θ]，真实dual-number变形给统一p^C z_n/θ²全局相容。该条件等价λ避开长度1块，坏q≥3及MW高度并不自动支付。R293已付非零socle的真实主化、两因子有界Tor及ε=u(z/θ)∧s；全中心理想损p^d而特定两行损p^(2d)，余下为原单位评价非零。
+R286真实Tor=θC_w∩C_w[θ]；原λ杀A[θ]才给统一dual-number二次全局除法，该门等价避开长度1块，坏q≥3或MW高度不自动支付。R293真实主化/有界Tor及ε=u(z/θ)∧s已付；全中心理想损p^d而特定两行损p^(2d)，仍缺真实单位评价非零。既有一次全局除法、CM5全Smith商及p13证书均保持，不把局部非零或外积中心零当成所需整原始关系。
 
-### 现成单位或增长界的准确边界
-
-完整Coleman范数相容及逐p的 $\mu=0$ 不控制 $\lambda\le3$；固定单位的目标角色仍含移动端点。Cartier、定量深度与人为中心因子均未控制原始生成元，准确范围见results。
-
-Knospe/细Selmer结果未控制原中心核；真实反共轭四次角色不从Q下降。proper系统长度n需要模p^ceil(log_p(n+1))的塔数据，准确范围见results。
+逐p的μ=0、Coleman范数相容、细Selmer和人为增长界不控制原λ≤3；固定单位含移动角色端点，proper长度n仍需模p^ceil(log_p(n+1))塔数据。继续同一原中心核，不将新的环境上界替换目标角色。
 
 ## O7. 惰性中央权与真实解析半因子：正在推进
 
@@ -239,3 +211,7 @@ R533两固定负矩的第一层现有[准确递推与有限记录](notes/2026-11
 ### R551：原Norm5完整两态和连续测试unit返回
 
 现有ray的whole degree20 canonical核心由原odd5锚绝对定标，R=c+2d/Q=2c−d在整个ρ0/η两态上同为χ65λ(−R0)，无新ray。Q保原Y，全部连续两态测试有整一致收敛unit逆；原c+Q两步返回同源，但物理矩阵、W移权及所有实际域完整保留。见[R551：原Norm5两态与保Y的完整连续单位逆](results/R551-original-norm5-two-state-core-and-complete-unit-inverse.md)。**待做：** 用同一个U_Q把R544实际η测试差/唯一余域联到R546原算术行；Q保Y但W随κ^nQ改变，所有log、非齐次ρ0项及CM分支保留。两步词只给完整逆权域，不自动赋未移动原域中央零。
+
+### R549：固定负矩的真实Cartier有限行
+
+同一原第二类微分有显式ζp∈L(pO)、Dζp=−x及绝对首项−Ha^-1；原sigma的AS方程精确识别为Verschiebung。两个负矩是保ℓ²/ℓ⁵的Cartier观察，准确化成H²C Sw/H⁵Sw二项式有限行，周期降为Ω^-2/Ω^-5固定幂；非齐次系统及Ha N曲率完整保持，指定行非零仍未付。见[R549：原负矩的Cartier/Verschiebung完整有限行](results/R549-original-cartier-verschiebung-and-fixed-negative-moment-rows.md)。**待做：** 同一个Hasse forcing在n=s的转置能否逼原r=s−1观察无穷次非零，或更深p层能否给原负点非零；不能删L/ℓ项、交换普通地点或将有限检查外推。R554沿实际二阶/五阶连接继续，R533完整中央补域仍另保。

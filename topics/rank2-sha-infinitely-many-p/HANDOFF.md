@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根及课题README含全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：fcdf26ab0365a9434d8c09e12d7df7268ccfbb1c；2026-11-14 17:04:13 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：5eab6794c7195c8d20e46ecb9ee7dd96f9fa23db；2026-11-14 17:12:06 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作。每次pull后及至少每小时比较根/课题README，有变立即读差异执行并记SHA。规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13公开Actions，旧runner/ci-queue停用。
 - main逐条commit/push已授权；禁强推及改已发表历史。非快进立即pull --rebase再推；环境断连时API用expected_sha/force=false，拒绝立即读新头核规追加，不冒称实际pull。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。仅本课题log每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
@@ -14,9 +14,9 @@
 
 ## 发布、文件和分工
 
-R1–363、R365–547、R550–551已登记；R364仍开，R548/549在写。root统一元数据和逐条发布；代理只建proof/script/data blobs。R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b和原证书保持，不复跑。
+R1–363、R365–547、R549–551已登记；R364仍开，R548在写。root统一元数据和逐条发布；代理只建proof/script/data blobs。R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b和原证书保持，不复跑。
 最新完整检查点：[HANDOFF](notes/2026-11-14-frontier-before-r551.md)、[open](notes/2026-11-14-open-before-r551.md)及其前轮链。全部旧结论索引另在notes/2026-11-14-results-index-before-r531.md。压缩不关闭任何旧问题；正文及PROOF-INDEX-R501-R550/R551-R600保准确条件。
-theta续R548 eta整个Y核及真实Phi差；literature续R549原Cartier/V-cover与负矩二阶扩张；deep续R552原低行右逆后全forcing；root刚付R551 Norm5两态/连续unit逆，接同一真实混合域。完整结论随成随推。
+theta续R548 eta整个Y核及真实Phi差；literature已付R549，续R554真实共振转置与指定负矩行；deep续R552原低行右逆后全forcing；root已付R551，续R553正源h的完整两个degree2张量及实际混合域。完整结论随成随推。
 
 ## 完成标准和保留支线
 
@@ -52,3 +52,5 @@ R547原垂直W_F(H)=F EH−2eH零charge，T_J=s−r/T_M=s−r−13。强窗核kF
 R550 I=(F,e)H2的Z=V(F,e)长κ，K0∩I=F Kmir；res_Z K0=ev_Z(kerβ)，ev_Z单射。全H3真实秩=(9κ+3χ)/2−dimkerα−dimkerβ，主阶单位≥59κ/16。forcing用I_Z·O(−3E∞)乘积厚化，长κ+9d∞，保重叠和真三层核；H3→Z已满射，分歧单位不单独阻止全像吸收。
 R525/534多权双接触只迫支持≥常数N^(1/3)，仍允许O(N)权。R530/Fermat移位仅核方程整对角组合，不添独立Smith行；normal清极升5C不能付原3C连接。两个2026新sigma/LT稿仅摘要，实际LT字符未识别原source。
 继续R552低行修正后的全forcing、R548真实混合域及R549负点非消失；不以单位块、有限商、子域非零或时长收尾。
+
+R549已付ζp∈L(pO)、Dζp=−x，g^p−Ha g=−Haζp就是原V-cover。p6s+1,r=s−1，h_s=C(3s,s)，H=ΣC(3s,n)t^n/(6n+1)，Sw=expΣC(3s,s+n)t^n/(nh_s)；c4=[t^r]H²C Sw、c1=[t^r]H⁵Sw。原I4≡−c4/(2bh_sΩ²)、I1≡c1/(120bh_sΩ⁵)。6tH′+H=C、6t(1+t)L″+(5+8t)L′+2=0保真实共振，ℓ²/ℓ⁵连接曲率Ha N不为零，不由ordinary推指定行非零。

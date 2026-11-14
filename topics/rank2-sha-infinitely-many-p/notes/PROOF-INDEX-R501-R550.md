@@ -118,3 +118,5 @@
 - [R544：原S3两态与三个真实环带补偿](../results/R544-original-s3-and-exact-mixed-unit-complement.md)：原第三η支与ρ0在带ω²的H及输入反射下成完整S3，三个旋转框架的whole核、逐步归一词域和六步混Y返回全付。Lunit精确拆成三不交环带与唯一全单位余域，原S/T双零接到一个明确η测试差；同一L-odd六输入有负矩单位，但原补域、混合权和外谱全部保留。
 
 - [R550：原H3首核在分歧商的真实像](../results/R550-actual-ramification-koszul-quotient-and-full-third-kernel-image.md)：同预算(F,e)H2的Koszul商是长κ的真实交概形Z，整个H3物理首核在Z的像准确为ev_Z(kerβ)，且ev_Z在N³(−TP)上单射；理想块核为F Kmir，两条原连接保持。完整清极forcing用乘积厚化长κ+9d∞保固定边界重叠，局部分歧单位不代原全像非零。
+
+- [R549：原负矩的Cartier/Verschiebung完整有限行](../results/R549-original-cartier-verschiebung-and-fixed-negative-moment-rows.md)：同一原第二类微分有显式ζp∈L(pO)、Dζp=−x及绝对首项−Ha^-1；原sigma的AS方程精确识别为Verschiebung。两个负矩是保ℓ²/ℓ⁵的Cartier观察，准确化成H²C Sw/H⁵Sw二项式有限行，周期降为Ω^-2/Ω^-5固定幂；非齐次系统及Ha N曲率完整保持，指定行非零仍未付。

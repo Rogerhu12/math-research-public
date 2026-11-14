@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "scope": "Exact certificates for the universal identities proved in R549. Three existing primes only; no claim of nonvanishing from samples.",
+  "rows": [
+    {
+      "p": 13,
+      "b": 17,
+      "s": 2,
+      "H0": 2,
+      "Ha": 6,
+      "zeta_coefficients": [
+        4,
+        11
+      ],
+      "logarithmic_coefficients": [
+        1,
+        10
+      ],
+      "Sw_coefficients": [
+        1,
+        10
+      ],
+      "c4": 1,
+      "c1": 5,
+      "normalized_I4": "-c4/(2*b*H0*Omega^2)",
+      "normalized_I1": "c1/(120*b*H0*Omega^5)",
+      "checks": 17,
+      "status": "PASS"
+    },
+    {
+      "p": 19,
+      "b": 17,
+      "s": 3,
+      "H0": 8,
+      "Ha": 12,
+      "zeta_coefficients": [
+        12,
+        8,
+        8
+      ],
+      "logarithmic_coefficients": [
+        1,
+        11,
+        11
+      ],
+      "Sw_coefficients": [
+        1,
+        11,
+        9
+      ],
+      "c4": 4,
+      "c1": 17,
+      "normalized_I4": "-c4/(2*b*H0*Omega^2)",
+      "normalized_I1": "c1/(120*b*H0*Omega^5)",
+      "checks": 21,
+      "status": "PASS"
+    },
+    {
+      "p": 61,
+      "b": 17,
+      "s": 10,
+      "H0": 14,
+      "Ha": 13,
+      "zeta_coefficients": [
+        26,
+        14,
+        24,
+        4,
+        49,
+        57,
+        30,
+        23,
+        58,
+        47
+      ],
+      "logarithmic_coefficients": [
+        1,
+        24,
+        38,
+        1,
+        23,
+        53,
+        23,
+        1,
+        38,
+        24
+      ],
+      "Sw_coefficients": [
+        1,
+        24,
+        2,
+        56,
+        16,
+        26,
+        1,
+        59,
+        36,
+        28
+      ],
+      "c4": 47,
+      "c1": 0,
+      "normalized_I4": "-c4/(2*b*H0*Omega^2)",
+      "normalized_I1": "c1/(120*b*H0*Omega^5)",
+      "checks": 49,
+      "status": "PASS"
+    }
+  ],
+  "unipotent": [
+    {
+      "rank": 3,
+      "connection": "D-N",
+      "restricted_derivation": "D^[p]=Ha*D",
+      "p_curvature": "Ha*N",
+      "p_curvature_rank": 2,
+      "N_nilpotence": 3,
+      "p_gt_rank": true
+    },
+    {
+      "rank": 6,
+      "connection": "D-N",
+      "restricted_derivation": "D^[p]=Ha*D",
+      "p_curvature": "Ha*N",
+      "p_curvature_rank": 5,
+      "N_nilpotence": 6,
+      "p_gt_rank": true
+    }
+  ],
+  "first_layer_character": "the same xi of conductor (6) as R540",
+  "curve": "y^2=x^3+17",
+  "polynomial_system": [
+    "6t H'+H=(1+t)^(-1/2)",
+    "6t(1+t)L''+(5+8t)L'+2=0",
+    "L=log(Sw)"
+  ],
+  "all_prime_proof": "R549 sections 2-7; finite rows check implementation and the p=61 zero in the second observation."
+}

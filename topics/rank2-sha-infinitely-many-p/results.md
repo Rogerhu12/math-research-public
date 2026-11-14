@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R549：原负矩的Cartier/Verschiebung完整有限行](results/R549-original-cartier-verschiebung-and-fixed-negative-moment-rows.md)：同一原第二类微分有显式ζp∈L(pO)、Dζp=−x及绝对首项−Ha^-1；原sigma的AS方程精确识别为Verschiebung。两个负矩是保ℓ²/ℓ⁵的Cartier观察，准确化成H²C Sw/H⁵Sw二项式有限行，周期降为Ω^-2/Ω^-5固定幂；非齐次系统及Ha N曲率完整保持，指定行非零仍未付。
+
 - [R551：原Norm5两态与保Y的完整连续单位逆](results/R551-original-norm5-two-state-core-and-complete-unit-inverse.md)：现有ray的whole degree20 canonical核心由原odd5锚绝对定标，R=c+2d/Q=2c−d在整个ρ0/η两态上同为χ65λ(−R0)，无新ray。Q保原Y，全部连续两态测试有整一致收敛unit逆；原c+Q两步返回同源，但物理矩阵、W移权及所有实际域完整保留。
 
 - [R550：原H3首核在分歧商的真实像](results/R550-actual-ramification-koszul-quotient-and-full-third-kernel-image.md)：同预算(F,e)H2的Koszul商是长κ的真实交概形Z，整个H3物理首核在Z的像准确为ev_Z(kerβ)，且ev_Z在N³(−TP)上单射；理想块核为F Kmir，两条原连接保持。完整清极forcing用乘积厚化长κ+9d∞保固定边界重叠，局部分歧单位不代原全像非零。
