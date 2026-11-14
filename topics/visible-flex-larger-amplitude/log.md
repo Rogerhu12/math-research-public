@@ -255,3 +255,6 @@ R237完整证明直接results；实际96 binary64全转有理数，含前32舍�
 
 ### 2026-11-14T08:41:15+00:00 — halfinnerstepcheckpoint (local; public approval pending)
 半步r4首inner Newton步实际接受alpha=.125，merit .0137068→.0129303、col .0898437→.0795727、BC5.56e−8；第二J继续，未达prefix接受条件。7件9.75MB恢复硬链索引及新cache身份保存；iterate0002对应的新H未完整重解audit，不得套初始H标签。session28520原进程继续，停止/复现地址明确。
+
+### 2026-11-14T08:41:16+00:00 — sphereM96materialquintic (local; public approval pending)
+对已接受M96/416节点，用节点值/RHS/有限ODE二导构造实际物理五次插值并真正微分，再按全96新rho重新反解材料角；831×1024及1661×2048两档metric均6.65151e−8、κ6.30099→6.30153、球样本保持，真exit0。R237供全角rho正性；有限采样不冒连续误差/闭面证书，.99续法尚未启动。

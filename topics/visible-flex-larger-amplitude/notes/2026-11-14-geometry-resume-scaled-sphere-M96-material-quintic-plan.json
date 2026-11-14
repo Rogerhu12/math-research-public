@@ -1,0 +1,25 @@
+{
+  "scope": "Actually executed continuous-field definition with sampled metric/curvature in newly inverted accepted material angle.",
+  "cwd": "${RUNTIME_TOPIC}",
+  "command": [
+    "${PYTHON}",
+    "-u",
+    "computations/geometry_20261114_material_quintic_readout.py",
+    "--input",
+    "notes/2026-11-14-geometry-resume-scaled-sphere-M96-normal-BVP-r1.json.gz",
+    "--angles",
+    "1024",
+    "2048",
+    "--radial-subdivisions",
+    "2",
+    "4",
+    "--out",
+    "${OUT_DIR}/scaled-sphere-M96-material-quintic.json"
+  ],
+  "self_contained_topic_inputs": true,
+  "executed": true,
+  "observed_exitcode": 0,
+  "source_sha256": "14e550ed75ad86bd8308966711313b7e0cd8917a2c166c90cf4e6ca1f5f85756",
+  "input_sha256": "3ac8c8efa20670342021487a197443f6e1b2ad60f35c7bf2864f355a06424b69",
+  "current_continuation_status": "Preparing .984 to .99; not yet launched at this checkpoint."
+}
