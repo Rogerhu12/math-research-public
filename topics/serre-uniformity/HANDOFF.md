@@ -4,8 +4,8 @@
 
 证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，未达到 README 完成标准。** 固定p、条件结论、数值验证都不算完成。会话 serre-public-resume-20261114；日志 Asia/Taipei。
 
-已读规则提交：6a92ad5a9dbdda78133042ec3eed793ee82fd178
-最近实际 pull：2026-11-14 17:28:55 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
+已读规则提交：8a35a0736c8c843a7ff333426d352fc6c49cee89
+最近实际 pull：2026-11-14 17:31:49 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
 
 仅在 Rogerhu12/math-research-public 工作，长计算用本仓库 Actions；旧“停用公开runner/转本地”作废。每条结论终端commit/push main已授权；推前pull，非快进立即pull --rebase循环，不force。令牌仅CLI临时环境。根代理独占tracked/git；辅助在仓库外agent-global/、agent-cartier/、agent-o6/。单Markdown<100KB，HANDOFF<10KB，open/README<30KB，数据>1MBgzip，单文件<5MB。日志只追加本题log，≤5内容行；改共享文件须在log说明。
 
@@ -18,6 +18,7 @@
 - **R620/R621已整盘排除（49/105）**：.github/workflows/serre-p41-prefix-recovery.yml 已推，公开Actions run 43579710818，从已保存189/182位续原304位链。源码 p41_public_actions_recovery.py / p41_resume_ramified_local47.py，请求 notes/public-p41-recovery-request.json。完整结果在computations/，各自同分量F2/F3无共同根。R620准备已匹配290份原文件SHA。
 - **R685已证算法**：modp²普通导数保留最终精确除p的一位，O(p²)计算Cp/C_(p−3)。serre-cartier-exact-window.yml配置41≤p≤2000、p≡2,5mod9的4片、最多2并发；结果在computations/R685-window-*。有限搜索不是全p非消失。
 - **R684已证**：全部44纯p方向普通Norm下降A/(h−1)A≅A_fixed；42 mixed类群=k。各非scalar方向单位Norm满射iff m=43；scalar转移注入iff m=nT=43⇒C=0⇒L=31，未判实际端点。
+- **公开恢复wave02已配置**：serre-p41-remaining-recovery.yml，55作业/最多4并发；54个普通缺失盘求完整F2及必要F3，R655另续两个CM4粗盘原链，完整高度仍待R656。请求public-p41-remaining-recovery-request.json，已完成receipt自动跳过。
 - 接着：cartier推进实际Cp·C_(p−3)结构/例外及精确有限窗口；global求真实高度jet/有限目标；O6求原普通单位Norm/首矩C/J。新结果立即登记，主目标未闭合继续。
 
 ## O5：固定 p41 的真实高度与全部129盘

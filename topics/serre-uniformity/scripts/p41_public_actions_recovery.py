@@ -119,7 +119,7 @@ def run(item, work, out, budget):
                       'process_exit_code': code, 'output': str(out)}), flush=True)
     return code
 
-def publish(item, out, artifact_prefix='serre-p41'):
+def publish(item, out, artifact_prefix='serre-p41', omit_derived_based_points=False):
     initial = read(out / 'public-actions-input.json')
     source = initial['source_commit']
     run_id = os.environ['GITHUB_RUN_ID'] + '-' + os.environ['GITHUB_RUN_ATTEMPT']
@@ -141,9 +141,13 @@ def publish(item, out, artifact_prefix='serre-p41'):
             continue
         rel = path.relative_to(out)
         size = path.stat().st_size
-        include = size < 5_000_000
+        derived_input = omit_derived_based_points and 'based_points' in path.name
+        include = size < 5_000_000 and not derived_input
         rows.append({'file': str(rel), 'bytes': size, 'sha256': sha(path),
                      'included_in_git': include})
+        if derived_input:
+            rows[-1]['omitted_reason'] = ('Reproducible based-point input; original input archive '
+                'or atlas, exact command and SHA are retained. Full copy is in the Actions artifact.')
         if include:
             target = destination / rel
             target.parent.mkdir(parents=True, exist_ok=True)
@@ -161,7 +165,7 @@ def publish(item, out, artifact_prefix='serre-p41'):
          'source_commit': source, 'mathematical_theorem_registered': False})
     git('config', 'user.name', 'github-actions[bot]')
     git('config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com')
-    git('add', str(relative))
+    git('add', '--sparse', str(relative))
     git('commit', '-m', 'serre: preserve ' + item['result'] + ' actual public Actions outputs')
     while True:
         git('pull', '--rebase', 'origin', 'main')

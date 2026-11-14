@@ -362,3 +362,9 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - R684保留完整普通单位与除子序列，用两Tate项等长及实际ramified Hilbert类域Norm证明全部纯p方向的coinvariant下降。
 - 42 mixed方向普通类群均为k；各方向转移/普通单位Norm商完整分类，未把域Norm当单位Norm。
 - scalar扩张注入恰在m=nT=43，此时原C=0、L=31；实际m/C/J/b/nT仍未求，继续原标记算术。
+
+## 2026-11-14 17:31 Asia/Taipei · serre-public-resume-20261114
+- 新增共享workflow serre-p41-remaining-recovery.yml，55作业最多4并发；54盘原F2/F3和R655双CM4原链按准确接口恢复。
+- 复用R470四数据块/两flip与R552原1-bit前缀，已完整公开的receipt自动跳过，不重跑几何。
+- 通用发布器兼容非cone稀疏检出；派生based输入仅保留命令/哈希，完整artifact及必要证明数据仍保存。
+- 本条仅登记执行入口；新圆盘排除数仍49/105，逐条真实结果返回后各自证明并推送。
