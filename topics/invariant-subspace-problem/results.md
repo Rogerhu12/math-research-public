@@ -807,3 +807,7 @@
 ### R282 附录：真均有界移动来源的非消失正常误差
 
 [完整证明](results/R282-appendix-actual-moving-commutant-sources-and-nonvanishing-normal-error.md)。原q_m的准确进位递推及高尾独立性给纯尾有界乘子仅标量弱*极限。实际R_m∈Acal、||R_m||≤e^(3π)、R_m−M_c_m强→0，却使(N_m−M_q_m)R_m在固定f上范数趋√2||f||、WOT趋(2i/π)I，故任意固定迹类的误差锚准确非零。并证真实交换子在整个非零不变M上若等于或弱/强趋一个固定L∞乘子，该乘子必标量。未构造湮灭态，也不从移动角色推固定非标量稳定乘子。
+
+### R285：两个真实型零模正块不足以控制更强首边 SOS
+
+[完整点例](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)及[全参数无界族](results/R285-appendix-unbounded-formal-sos-costs-with-strict-zero-mode-positivity.md)。x≥4的明确一维数据保旧三条普通边比1/2、相关仿射界、两零模块严格正及粗占据界，却使S1相对费用x(x−4)²/16、S2费用(x+4)²/64+1/2无界。因而所列有限形式后果不足，不能只靠Schur/Cauchy–Schwarz自动付创新；未实现全硬核/Serre/顶端系统，所以不是实际Boolean反例，原相邻常数一和ISP仍开。

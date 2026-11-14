@@ -71,11 +71,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 **原源流。** [全像/纤维](results/R271-appendix-exact-left-source-flow-range-and-minimal-upward-extension.md)保Nsrc=ker i0*(L+B)、真MP/primitive与原同未来；环境源不能替代。
 
-**同一good-top的增长负前缀。** [M3完整+flat定理](results/R271-appendix-full-plus-flat-negative-prefix-repair-and-complete-top-cost.md)付初次λ/Xi/µ，近共同log^(1/3)旗保原锐K预算。[新宽旗](results/R271-appendix-wide-negative-source-prefix-and-exponential-effective-window-budget.md)另取h~d^.75/8的完整L+B负前缀与H=2h真M2头交，有效Keff≥e^(59d³/256)/(2^19d)；按Keff重选R~σm√Keff/128及角阈，后续λjoint≤√2||w||ρ^.25，不乘巨大c到未知尾率。全顶部完整链差/同w/相容低流/反馈保，固定Gram相应须O(Keff)，未证明；初M3、后M2与旧未来范围分清。
-
-**旧大范围。** R~√Q/角C≥K^-2旧单旗只付左像，全部cross-head KKT与未付普通右费保快照，不能套到联合余源。
-
-**同D内两旗联合。** [完整定理](results/R271-appendix-tail-adaptive-joint-quotient-with-complete-top-cost-transport.md)付µ²≤||w||²ρ/√K、λ²≤2||w||²√ρ及a0+b0<2族；同闭交/精确头/两费Pythagoras/全低流保留。旧R~√Q的大范围仅付左像，不能套其单旗KKT到联合余源。
+**同一good-top与同D联合两旗。** 原M3初次、随后M2、同w、真负图及完整顶部费用保持；增长宽旗Keff≥e^(59d³/256)/(2^19d)、R~m√Keff、µ²≤||w||²ρ/√K和λ²≤2||w||²√ρ等准确式、参数/角度及原证明链接保 [本次压缩前全文](notes/2026-11-14-open-before-R285-789f.md)。旧R~√Q单旗只付左像，不能套到联合余源；原未来、反馈与普通右费仍须同源支付。
 
 **固定测试Gram。** [原最小双链](results/R271-appendix-fixed-physical-tests-and-minimum-two-chain-local-gram.md)保A_n=−D_UK D_KK^-1i_n、K_n,h=A_n*(R_D−R_Z)A_n及Γ斜条带。固定n的O(K)足杀w，非零w反迫同一f≥c²K/(8ε²)；真实跨头上界仍缺。
 
@@ -107,6 +103,8 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 [R281 极强位全高度传输](results/R281-heavy-bit-height-transfer-and-sharp-universal-first-edge-lower-bound.md)把旧第n+1边回传至新第n边，保完整同源PSD块与有限强权阈值。全出生首边与全高度的最优普适常数相同；等权中央边迫该常数≥1，真实八位birth2首比22801/43836>1/2。一般上界1仍开；不能用强等权池压δ而省掉内部出生，真实密度只趋1/2上方。
 
 [R283 精确配对填充](results/R283-exact-singlet-padding-and-half-density-universality.md)以同时被D,D*消去的真实反对称对，令全部旧Γ成为新共同约化块，最高合法高度不变。对任意ε,δ0>0，全部有限问题均可精确嵌入δ<δ0且1/2<sδ<1/2+ε；因此该薄带的最优普适首边常数已与一般问题相同。未进入R279已付低占据区，不能省掉新增出生。
+
+[R285 形式约束不足](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)及[无界族](results/R285-appendix-unbounded-formal-sos-costs-with-strict-zero-mode-positivity.md)证明：仅两条零模正块、旧普通相邻边、所列仿射/粗占据界，连S1/S2的任意统一有限常数都不能推出。该族不是Boolean模型，原c1未被否定；后续必须利用完整逐坐标creation/硬核或全出生顶端结构。
 
 [R284 实际零模共同Gram](results/R284-cross-birth-zero-occupation-grams-and-exact-schur-lower-bound.md)给Q及R=(2I−C1)B*L3−3Q的准确零模交叉，二阶费用增加真正高birth桥及R Y3†R*。有限全正权p≥2压缩严格正；[Fischer/局部附录](results/R284-appendix-fischer-remainder-and-local-inverse-square-root-control.md)付2/(M−1+2s)余量和固定物理F不损外尾的局部界。J*e_I确在X^(1/2)像中，未付完整X^-1域、一般首边平方增长或原graph测试识别；保全部实际交叉，不能仅凭这些正块推S1/S2。
 
