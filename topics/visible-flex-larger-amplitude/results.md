@@ -447,3 +447,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R240. 共同材料角下的固定度量与完整 DN 精化计数](results/R240-canonical-material-metric-and-refinement.md)：证明固定完整a(s)后可释放核心而保持共同材料g，给C²坐标比较、设计/精化边界计数及帽图册限制；不冒完整解存在。
 
 - [R241. 由浸入参数块覆盖同时得到嵌入与reach](results/R241-immersion-cover-embedding-and-normal-cones.md)：完整短路径/分离/法向锥/平帽门同时排除自交与瓶颈，含对角路径界；实际v1未全过，v2待执行。
+
+- [R242. 角解析与严格亚单位半径斜率排除平面开片](results/R242-angular-analytic-warped-metric-no-planar-germ.md)：对精确共同材料度量证明任何平面开片强制某径向带a′为固定非零整数；适用于角解析且|a′|<1的精确活动环带，不把有限度量缺陷或C²极限自动当角解析。

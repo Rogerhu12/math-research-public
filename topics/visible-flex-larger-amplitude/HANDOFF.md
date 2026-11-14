@@ -34,7 +34,7 @@ geometry_20261114_full_scalar_profile.py包含3个内支scalar控制和FrozenCom
 
 A仍唯一完整旧小幅组装基准：M32/35参数/2590nodes/生产1280角，RMS9.9224e−8、BC9.234e−13；coreG=.2506381129、D≥3.9767551573，幅度不达标。旧13方向full/half失败/被杀/首inner接受记录原样保，不能称新A。
 原stored g/全32H/RK12/depth8/576stage；真depth12、RK24及RK48 BVP/J/audit均已完成，不重算。RK24残差8.36178e−11；RK48残差1.67235558e−10、4114.75s。24→48 cut slope/second差3.55e−13/8.29e−12，但旧freq40 J差.0671/1.5655，未机器稳定。
-**run43579782197的RK48完整readout step真success**：重建RK24真8、RK48真16+源节点，两独立共同网格、有限collar、完整closed全完成。已取回artifact14108496208，位于notes/public-actions-43579782197-1-rk48/reports/；原旧ENOSPC只属历史，不能继续说当前未读完。exact正在总结真正精化数值。
+**run43579782197的RK48完整readout step真success**：重建RK24真8、RK48真16+源节点，两独立共同网格、有限collar、完整closed全完成。已取回artifact14108496208，位于notes/public-actions-43579782197-1-rk48/reports/；原旧ENOSPC只属历史，不能继续说当前未读完。真实精化结论已发布：24→48同f8二jet差7.03e−6；48f8→16二jet差.0029138，尚未机器稳定。
 新三mesh各解压3745773B，73442顶点/146880面、Euler2、每边两面、零退化。Dcloud3.9774592667、Hdiamcloud3.9695633777；九phase最大点云Hausdorff.2506381375，比例.06301463338，明确低于.2。全phase有限空间三类弦无负例，但连续空间reach仍需覆盖。R234原finitecollar全域metric界约1.002e−18，不能移植给新大核。
 
 ## 全t几何和发布故障
@@ -44,8 +44,10 @@ R241 v2在run43582043166真完成：D上界3.980751407764145、Ktau0=.9994116104
 两首批及free3/geometry的自动publisher失败均为pull--rebase缺committer identity，计算结果/完整artifact未失；material恰无需rebase已推。root已修全过程临时Git身份；每pull同时检查README变化，变化交root读差异后发布。所有首批取回包已普通push，不重跑成功计算。
 新exact公开源恢复只取实际需要的78件，逐件对原91清单SHA；12未迁移MD和1变动但未用client明确排除。全部来自公开当前repo、无私仓secret或读写。原源revision86943663…表示字节身份，不假冒公开commit。
 
+R242已证：精确度量+每纬圈角解析下，平面开片强制一段a′为固定非零整数；严格|a′|<1排除，不能套有限metric误差或无解析控制的C²极限。
+
 ## 紧接执行
 
-R239–241及首批数值包已公开push。run43582043166/source8fa6b3f：free3和T96真zeroH/J/audit仍运行；v2和690节点prepare已完，fullDN尚未启动。新短批仅修复FD/几何v3/四角规范形，不重复已跑项目；zeroH完成后将严核并复用首个同零H真J，后续新H/最终audit仍实际求尾。新接受点立即原审计/实际材料谱/核心G与球排除，然后继续真正tail匹配/闭合；定型后固定同材料g精化并核全域全t。任何阶段完成不结束本题。
+R239–241及首批数值包已公开push。run43582043166/source8fa6b3f已完：free3真接受.996/.9975但material误差4.61e−6/8.09e−6；下一段真Newton失败。T96真zeroH/J/audit成功（805.48s，metric9.99e−16），已取回待归档。v2和690节点prepare已完，fullDN尚未启动。手动workflow_dispatch被PAT权限403拒绝，改用用户授权的本仓既有push触发，显式选择任务，不重复已跑项目。zeroH缓存已对真实包和coupling配置严格预检通过，后续新H/最终audit仍实际求尾。新接受点立即原审计/实际材料谱/核心G与球排除，然后继续真正tail匹配/闭合；定型后固定同材料g精化并核全域全t。任何阶段完成不结束本题。
 
 规则同步记录：2026-11-14T10:02:53.258112+00:00 实际pull --rebase成功；双README自373e59e无变化，已读提交 56ce464594a201e5a3cd50c0239abb5f5e52c330。
