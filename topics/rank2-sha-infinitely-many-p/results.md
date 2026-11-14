@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R503：原全部浅环带、18/2466正交核与唯一单位边界](results/R503-original-unit-annuli-and-single-shallow-boundary.md)：同一真实三输入的U/P两轴有完整β/χ_Vλ核心；所有正深浅环带是固定A(u,T)的精确Euler差，中央与质量均有单位第五阶。质量六项多项式全部付清，整浅支望远镜归为唯一固定B0，JS(u)=B0(u)+βA(u,κ)；B0质量无条件v5，反证中央亦v5，两个近相消删去及尺度log全保。
+
 - [R502：低ell完整首Bockstein与真行剩余配对](results/R502-full-low-ell-bockstein-and-actual-geometric-residue.md)：原同预算因子化基准的整个首Bockstein保Gaussian/t-w carry及活着的V1项；raw ζ³一般不零，不能先在3C截断。经完整Q单位和真实低行消元后，真左行剩余准确含第一carry、实际ξ极配对、法向/C混合及低行高尾，原M相对投影与第三精度全部保持。
 
 - [R501：whole CM交换四态及完全相同的五伴随](results/R501-whole-cm-exchange-and-identical-five-companion-rows.md)：真实𝔇=Rω,Y·ω⁻¹N19N7⁻²的完整ratio−33及原S2锚给未投影六变量身份：固定u/h、交换v/z。所有3159/−662格中心保留，新线/Href伴随确为原同一Λ的负号；固定norm931全部CM纤维与普通V′两深准确相接，实际来源群96，混合域仍按各真实操作转置。
