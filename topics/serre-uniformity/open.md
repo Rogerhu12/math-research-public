@@ -250,6 +250,19 @@ $F_p'(b)^{-1}\mathbb Z_p[b]\omega_C$，本原格由 $e_n^*$ 取直接和，
 原 $q/\beta$ 现在准确降为 $(X_1)_{L^+}\to C$ 的有理函数及其原 Hodge 比较；
 这些函数仍未生成，原 KS/Manin 指数、Picard 修正和刚性化常数仍保留。
 
+
+[R732](results/R732-original-CM-period-kernel-and-bounded-rational-function-recovery.md)
+已闭合原函数构造中的周期/Manin 规范和有限终止界：
+原闭周期除以同一 $\Omega_0$ 是带标签 torsion completed-zeta 的有限代数和，
+$E(P)=-D^2\psi_M(P)/(2M^2D\psi_M(P))$ 保留完成化常数。
+有限 $K$-线性核 $R\sum_jv_jw_{ji}\in K$ 恰给原
+$\operatorname{Hom}_L(A,C)\otimes\mathbb Q$；清分母整数必须记录。
+整数辛周期精确给映射次数 $d$；
+Riemann–Roch 线性系统截断超过 $\deg D+2d$ 后，
+极点度界严格恢复 $x=A/B$、$y=dx/(2h)$，再在原 $c_0,c_1$ 求值。
+这是准确有限算法及证明；尚未执行原函数表、$\beta$ 坐标或比较矩阵，
+不能把算法存在登记为原高度数值已得。
+
 须继续生成同一原曲线/对应/线丛模型、有限关系矩阵和规范高度前缀，
 并实际验证 R724 (724.33) 的有限 Bézout 不等式及全部尾。
 137147 的真实高度 jet 尚未生成，排根证书尚未通过；

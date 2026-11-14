@@ -163,3 +163,6 @@
 
 
 - **R733（已证明）**：[原 toric norm 平均与固定深度八 Abel 等距](results/R733-averaged-original-toric-norms-and-depth-eight-Abel-isometry.md)。全部正六标签只留下六条有限域直线，每个原 fiber 至多十二点，故 $\sum_{\mathcal H}N_h<13mp$；primitive 几何均值 $<5p(2+\log_2p)$。原全局整数范数平均给大 $p$ 某实际 $v_p(M_{2,h})\le2$，完整有理 jet/Hodge 尾将全充分大原 Abel 等距盘改善为固定 $p^8$；仍未排原高度和整个候选 $p^4$ 盘。
+
+
+- **R732（已证明的有限构造定理）**：[原曲线的代数周期核与有界有理函数恢复](results/R732-original-CM-period-kernel-and-bounded-rational-function-recovery.md)。原 closed periods 的完整权一正则化化为带标签 torsion 的有限代数和；准确 $K$-线性周期核等于原 Hom 空间，清分母/整数周期交配给真实微分与映射次数。有界 RR 前缀以极点度严格恢复两有理函数并在原 $c_0,c_1$ 求值；算法尚未执行函数表/β坐标，原高度数据仍缺。
