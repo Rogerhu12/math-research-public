@@ -147,3 +147,5 @@
 - [R71：真实第三交换子与完整第四P1响应](results/R71-third-holonomy-commutators-and-complete-fourth-P1.md) — 保内桥第三holonomy给全部phase P1，纯模式为局部漂移加quadratic/cubic向量场括号；同端对称词与真实倒行准确实现2t[P(f,Qgh)−Q(f,Pgh)]。八矩基至多28可达方向，r0/r1给非零∫q″³例；未证全函数可支付，P0与ruling仍欠。
 
 - [R72：同标量任意框架的准确零二三阶桥](results/R72-same-state-zero-second-third-arbitrary-frame-bridge.md) — M0桥B接同k真实倒行给frame A D AᵀD且T准确相消，x/z半角与有限x-z-x Euler实现任意SO(3)端口、同scalar且M=T=0。空间位移自由，不同scalar转接T、P0、高阶及嵌入厚度仍需另付。
+
+- [R73：二阶密度逐点八矩与真实第三桥局部余项](results/R73-pointwise-eight-matrix-and-local-third-bridge.md) — 原R56二阶密度逐点准确属于同一sl3八矩空间；变量profile有明确链式项Ψ。零矩阵桥第三history为反对称交换子组合，可由R71有限loop准确消；仍须支付局部三次密度积分，未清全部基准T/P0/ruling或有限族。
