@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：8f175c44f0b8a74c0a2f1d86b8bf900055b9efec；2026-11-14 11:46:09 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：9111a12e4566feb5db33efcef3174133518f645c；2026-11-14 11:48:51 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。历次完整规则/差异读取记录保最新归档；只写课题log，每轮≤5行，不写/归档根LOG。
@@ -14,14 +14,14 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–491已登记，R364仍开。未推丢失的R235/R237及迁移R437/R438已全部重做发布。最近R486=fd4247ce、R485=be844109、R483=7431df35；R489=4d617c4a、R487=d928acf6；R488=3b994a7c；R491=8777e7a0；R490本次登记。完整提交见课题log。
-仅在`/workspace/scratch/4fe3fb9f2a50/math-research-public`的main工作；旧库只读，overlay满后完整移到`/tmp/rank2-old-repo-4fe3fb9f2a50`并保原路径symlink，未删历史。代理只写自己证明/脚本，root统一元数据与逐条push。theta续R494混合B56真实核心；literature续R493三态真实词域/二挠联合因子；deep续R495真齐次双jet对偶行与原ODE；root续R492同一两Theta来源的真实核心/中央连接。
+R1–363、R365–491、R494已登记，R364仍开。未推丢失的R235/R237及迁移R437/R438已全部重做发布。最近R486=fd4247ce、R485=be844109、R483=7431df35；R489=4d617c4a、R487=d928acf6；R488=3b994a7c；R491=8777e7a0；R490=a5afe272；R494本次登记。完整提交见课题log。
+仅在`/workspace/scratch/4fe3fb9f2a50/math-research-public`的main工作；旧库只读，overlay满后完整移到`/tmp/rank2-old-repo-4fe3fb9f2a50`并保原路径symlink，未删历史。代理只写自己证明/脚本，root统一元数据与逐条push。theta续R496保持Y的三阶几何与新混合核心；literature续R493三态真实词域/二挠联合因子；deep续R495真齐次双jet对偶行与原ODE；root续R492同一两Theta来源的真实核心/中央连接。
 
 ## 主目标和完整旧接口
 
 固定S34/T72/U136分别对应y²=x³+17、+24、+2312，精确rank2见R294/R398/R469；整个Sha桥R295/R303/R397/R402/R469给2+corank Sha≤2ordJ。一条完整J′非零即可初级有限，但有限池须在同一无穷p集上至少一条非零后才可鸽笼；有限p、子域或辅助外谱不代替。原quartic E17:y²=x³−17x、E34/E136、E389仍开。
 
-最新完整接口`notes/2026-11-14-frontier-r488-r491.md`及`open-before-r490.md`保原常数、实际来源、全部core、修正格和未付条件，链回through-r484/482/479及更早归档；以下是当前工作接口。R1–79原条目已移`notes/PROOF-INDEX-R1-R79.md`，其余导航见results.md和分段PROOF-INDEX，不重开已封扫描。
+最新完整接口`notes/2026-11-14-frontier-through-r491.md`及`open-before-r490.md`保原常数、实际来源、全部core、修正格和未付条件，链回through-r484/482/479及更早归档；以下是当前工作接口。R1–79原条目已移`notes/PROOF-INDEX-R1-R79.md`，其余导航见results.md和分段PROOF-INDEX，不重开已封扫描。
 
 ## 普通原六输入、三曲线与真实混管
 
@@ -36,7 +36,7 @@ R484新增V lift已付最小510整行cover，第一degree18727200；可将原ray
 
 R487完整平移和去掉外部伴随CM尺度后，第一Y边际仍为原S/new/H；m=13^17·19^5固定覆盖及高CRT保全部canonical lift，整个K72m²仍原quarter两态。参考W单位质量为−λc_H/c_H，同核心F_n=I_n+λΔ_n=−λL_H,n，环带差−λc_H n d log〈λ²〉(1+λ)非零。216个固定CM斜率的全部移动管差及303个范数的有限坏集均保；不同近相消管不交不赋积分零。
 
-R488在兼容mod29细分上wholeK29=χI、χ²=1，保三个R及全部odd半特征。原ρ1四态τk满足KA=χ移k+1、Kc=−移k−1、Kd=−1；偶三态e0=ρ0/e1=ρ1/e2=−G4ρ0/4，R=KA²交换e1/e2，KW e2=−e0−e1−e2，生成真D8。h=e1+e2、u=e0+h/2、v=(e1−e2)/2：Ku=v/Kv=u、Ru=u/Rv=−v；Y边际h=−(1+δ)S2/2、u=(3−δ)S2/4、v=Ξ2+(1+δ)S2/4，W边际0/6δT/6δT。new/H完整行只在v，T在u/v相同；全部物理矩阵/隐藏域保正文，(PA2 PW)^4给λ12词像格，不是全域。
+R488/494：兼容mod29上wholeK29=χI、χ²=1；保R的四态τk中KA=χ移k+1、Kc=−移k−1、Kd=−1。偶三态e0=ρ0/e1=ρ1/e2=−G4ρ0/4，R=KA²交换e1/e2，与KW生成真D8。wholeK56=−J56B2付B=A+3δc核心KB=RKW R；旧Q/U各核KQ=−χKB、KU=−KWKB。完整u=e0+(e1+e2)/2,v=(e1−e2)/2,h=e1+e2中，KW交换u/v，KQ=χKW，KU固定u/v；h的KW/Q/U符号−/χ/−，R共同核χ。原M任意深nW/nQ/nU及R共同r统一标量χ^(nQ+r)λ^(nW+nQ+nU+3r)，u/v按nW+nQ奇偶换，h另乘(−1)^(nW+nU)。Y/W全边际与new/H/T条件行保R488；混Y按各κ幂移动，单B与A²-W-A²两个像格的λ^-4比较不删补域。
 
 R490原C26=Θ13a/(7b)=[Θ(barγ13z)−Θ(γ13z)]/(336bδ)，S=C26Θ2；wholeK26=−I，JC′=d log〈barγ/γ〉(1+λ)/(336bδ)严格非零。实际A/D→W=A+2D,V=2A−13D的det17联合保所有双深两态。完整S投影=S⊗Λ442，Λ=[(1+δ)H5(barγz)−(1−δ)H5(γz)]/(2δ)，质量1/coreλ，全/单位整卷积可逆；反卷积使A/D加2t/17、−t/17。第二边际B=C26(2z)Θ(13z)满足JB′+JS′=d log〈barγ/γ〉(1−λ)/(336bδ)非零；B仍辅助来源，完整混合单位条件未付，不能代原曲线中央。
 
@@ -58,4 +58,4 @@ R491原d^C_D W_D准确为六角Gauss半空间，逐系数先提全部互素Hense
 ## 其他开放支线与继续顺序
 
 O4十六负扭曲rank1/全Sha、真I³核、88标签全Hilbert trace和conductor Euler仍保R230/237/271/296/304，缺跨p原类低增广非零或a≤1；小高度/不p除不替代。O6真实单位Tor/评价及严格类群q_p正奇、有限 iff q_p=1仍缺跨p约束，单p有限不传播。
-继续R494真实B56 core、R493三态实际词域、R495实际齐次两顶极系数组合；root接R492实际两Theta核心及原中央连接，随完整结论即推。主目标未完成，QUEUE不改完成，不等阶段确认。
+继续R496新混合core、R493三态实际词域、R495实际齐次两顶极系数组合；root接R492实际两Theta核心及原中央连接，随完整结论即推。主目标未完成，QUEUE不改完成，不等阶段确认。

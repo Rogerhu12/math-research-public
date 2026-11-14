@@ -1,0 +1,130 @@
+{
+  "level56_quarter_formula": "T_(s+r*omega)/4 e_j=i^(s(j+7r))*e_(j+14r)",
+  "J56": "e_j -> e_(15j)",
+  "B2_56": "e_j -> (-1)^j*e_(29j+28)",
+  "K56": "e_j -> -(-1)^j*e_(43j+28)",
+  "g_mod112": [
+    43,
+    56
+  ],
+  "absolute_anchor": "Theta(2*gamma7*z), E2-fixed, J-fixed, actual normalized core -1",
+  "K_W": [
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      1,
+      0,
+      -1
+    ],
+    [
+      0,
+      0,
+      -1
+    ]
+  ],
+  "K_B": [
+    [
+      0,
+      -1,
+      1
+    ],
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      1,
+      -1,
+      0
+    ]
+  ],
+  "B2": [
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      1
+    ],
+    [
+      -1,
+      1,
+      0
+    ]
+  ],
+  "K_Q": "-chi29*K_B",
+  "K_U": "-K_W*K_B",
+  "three_R_core": "chi29*lambda^3 on their simultaneous deep block",
+  "scalar_basis": [
+    "a=e0+e1",
+    "b=e0+e2",
+    "h=e1+e2"
+  ],
+  "W_signs": [
+    1,
+    -1,
+    -1
+  ],
+  "B_signs": [
+    -1,
+    1,
+    -1
+  ],
+  "Q_signs": [
+    "chi29",
+    "-chi29",
+    "chi29"
+  ],
+  "U_signs": [
+    1,
+    1,
+    -1
+  ],
+  "R_common_signs": [
+    "chi29",
+    "chi29",
+    "chi29"
+  ],
+  "old_M_Gram": [
+    72,
+    1624,
+    252,
+    60,
+    2310,
+    4466
+  ],
+  "old_M_determinant": 3215520,
+  "Y_s_in_M": "(37-3delta)W/72+(1-3delta)Q/56+(1-3delta)U/252",
+  "rectangle_exponent": "nW+nQ+nU+3r",
+  "rectangle_a_scalar": "chi29^(nQ+r)*lambda^(nW+nQ+nU+3r)",
+  "rectangle_b_scalar": "(-1)^(nW+nQ)*chi29^(nQ+r)*lambda^(nW+nQ+nU+3r)",
+  "rectangle_h_scalar": "(-1)^(nW+nU)*chi29^(nQ+r)*lambda^(nW+nQ+nU+3r)",
+  "B_physical_vector": [
+    "3",
+    "12",
+    "7",
+    "7",
+    "-3delta",
+    "0"
+  ],
+  "B_physical_covector": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "3delta",
+    "0"
+  ],
+  "B_Y_displacement": "(kappa-1)*(29-3delta)*B/56",
+  "B_D_displacement": "-(kappa-1)*3delta*B/14",
+  "one_B_vs_AWA": "normalized source K_B=R*K_W*R; physical maps P_B and P_A2*P_W*P_A2 differ",
+  "two_domain_identity": "P_B^-1_*(mu|Bdeep)=lambda^-4*(P_A2*P_W*P_A2)^-1_*(mu|word_lattice)",
+  "boundary": "No equality of the two physical lattices or vanishing of their complements is asserted."
+}
