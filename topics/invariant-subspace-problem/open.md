@@ -61,7 +61,9 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R276 正头完成紧凸判据](results/R276-positive-head-completion-and-compact-numerical-radius-criterion.md)：原S=[[Z,t],[I,Z]]的单位规范化后，同一正尾ν的全部正完成非对角块为X=√νK√ν、w(K)≤1/2。原全理想零式iff ν(Z²−t)∈N且νZ+X+X*t∈N；X集迹范数紧，最小商距离达到，完整数值半径对偶式(5.2)可给严格排除证书。raw唯一Stein解仅为额外特例；须对实际相容ν_m链证明某步距离>0，不能把N内非零缺陷删零或免费移动Z_m/单位逆成本。
 
-**余正常接口。** 固定正常矩仅c0/o(m^(k/2))，正Walsh迹尾δ无速率；carry×聚合费须趋零，非UHF强单位不付未知限制。真ann迫q_m↓0；旧周期多模式/有限次数与参数滤波的准确范围保归档。平方选择器、张量、热球、纠缠及原正常预算均未因固定非ann例而关闭。
+**余正常接口。** 固定正常矩仅c0/o(m^(k/2))；carry×聚合费须趋零，非UHF强单位不付未知限制。真ann迫q_m↓0；旧周期滤波、平方选择器、张量、热球、纠缠及原预算保归档。
+
+[R289 有限秩尾熵](results/R289-finite-rank-tail-entropy-density-and-compatible-arbitrarily-slow-rank-two-chains.md)付S(ν_m)=o(m)；任意慢δ可由同一秩一原态实现而尾rank≤2、全块rank≤3/非纯，并兼容所列旧能量界。该例不是ann，故仍须从真实Q_m/Z_m零式导出支撑/熵增长或某步正距离，不能仅并列一般低熵与相容条件。
 
 [R287 非周期逐位来源](results/R287-two-sided-moving-character-limits-and-nonperiodic-disk-source-budget.md)付真R_n及伴随的同移动角色强近似，R_n²→I但N_nR_n²→−I/2仅WOT，不能换固定慢左因子。任意单位盘逐位平方乘积在Σ|1−z_j|≤b·2^(4m)、b<770/64内真空比指数趋零，允许无限参数/无限跨度；全部κ_m、超预算、非此乘积及真密度专属源仍开。
 
@@ -112,7 +114,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R286 固定源全部高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源f的Ran X^(1/2)及能量；原慢尾固定出生/固定偏移块统一为C(m+1)^s[Λ/(m+1)]^j/(j!)²，原完整幂去阶乘后仍有几何尾和。实际流t_q的祖先出生随q增大，固定birth塔在q>d+s−2后无分量；原受限逆后的源不自动保有限支持/固定birth，所以跨出生graph、完整e_q和N=M保持开放。
 
-[R284 实际零模共同Gram](results/R284-cross-birth-zero-occupation-grams-and-exact-schur-lower-bound.md)给Q及R=(2I−C1)B*L3−3Q的准确零模交叉，二阶费用增加真正高birth桥及R Y3†R*。有限全正权p≥2压缩严格正；[Fischer/局部附录](results/R284-appendix-fischer-remainder-and-local-inverse-square-root-control.md)付2/(M−1+2s)余量和固定物理F不损外尾的局部界。J*e_I确在X^(1/2)像中，未付完整X^-1域、一般首边平方增长或原graph测试识别；保全部实际交叉，不能仅凭这些正块推S1/S2。
+[R284 零模Gram](results/R284-cross-birth-zero-occupation-grams-and-exact-schur-lower-bound.md)付Q/R交叉、Γ2高birth与R Y3†R*下界、有限正权p≥2严格正；[Fischer/局部界](results/R284-appendix-fischer-remainder-and-local-inverse-square-root-control.md)付2/(M−1+2s)余量与不损外尾的物理块coercivity。仅给J*e_I的逆平方根能量，一般平方增长/graph识别仍开。
 
 [R279 全高度仿射 MP 比较](results/R279-bosonic-affine-primitive-gram-transfer-and-low-occupation-bounds.md)给 X_n≥I+(n/r)(X_r−I)，全有限合法范围/无限正 ℓ² 行均成立。全部低占据相邻常数改善，首边 sδ≤1/(2√2) 已得 c1；原慢尾范围 s≤(m+1)/(6√2)，未覆盖一般巨出生。真硬核 Γ2=2I+4L*L+M*M 的联合 M 能量仍缺平方下界；[共同 annihilator 反例](notes/2026-11-14-common-annihilator-affine-sharpness-789f-next.md)说明仅 Euler/全坐标不变性不足，反例不是 Boolean。
 
