@@ -1,0 +1,108 @@
+name: visible-exact complete continuous projector four cell pilot
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-cut-projector-pilot.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-complete-cut-projector-pilot
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  PILOT_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cut-projector-public-pilot-pinned-inputs.json
+  PILOT_MANIFEST_SHA: f4d98d4e9316b005621b539c538b6e6b49f19e56d450c789c5fc7f99965a2bd3
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+  REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+
+jobs:
+  four-complete-continuous-cells:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 80
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out immutable complete inputs and the new directed validator
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cut-projector-public-pilot-pinned-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Fetch the exact complete import closure and original data inputs
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$PILOT_MANIFEST" --manifest-sha "$PILOT_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/regular_cut_validator_ci/
+      - name: Install the pinned directed arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Set container-visible original frame and result artifact paths
+        id: paths
+        run: |
+          printf 'prior=%s\n' "$RUNNER_TEMP/visible-exact-original-complete-cut-frames" >> "$GITHUB_OUTPUT"
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-cut-projector-pilot" >> "$GITHUB_OUTPUT"
+      - name: Receive the original complete 5970 full frames without computing them again
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43588509643
+          name: visible-exact-cut-head-proposal-43588509643-1
+          path: ${{ steps.paths.outputs.prior }}
+      - name: Validate the public algebra gates and four full continuous matrix cells
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_regular_cut_validator_pilot_CI.py
+          --manifest "$PILOT_MANIFEST" --manifest-sha "$PILOT_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --prior-artifact "$RUNNER_TEMP/visible-exact-original-complete-cut-frames"
+          --work "$RUNNER_TEMP/visible-exact-cut-projector-pilot-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-cut-projector-pilot"
+          --compute-minutes 60 --checkpoint-minutes 10
+      - name: Require actual nonempty process output before artifact upload
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        run: |
+          python - <<'PY_INVENTORY'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path(os.environ['RUNNER_TEMP'])/'visible-exact-cut-projector-pilot'
+          files=sorted(p for p in root.rglob('*') if p.is_file()) if root.exists() else []
+          if not files or not any(p.stat().st_size for p in files):
+              raise RuntimeError('no actual nonempty process output exists; do not substitute an empty artifact')
+          inventory=[dict(path=str(p.relative_to(root)),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files]
+          (root/'artifact-inventory.json').write_text(json.dumps(inventory,indent=2)+'\n')
+          print(json.dumps(dict(actual_files=len(files),nonempty_output_verified=True)))
+          PY_INVENTORY
+      - name: Preserve every actual successful cell and any failed prefix
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-projector-pilot-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: error

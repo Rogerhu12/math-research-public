@@ -9,7 +9,7 @@ blob:none checkout `/workspace/scratch/0df957a82d09/math-research-public` 为 `/
 先前共享磁盘ENOSPC，本任务文件逐字节核同迁到该/tmp目录，原入口保留。新临时输出仍放该/tmp。
 旧 `/workspace/scratch/ac0d699811ad` 只读，不能修改其repo/native/进程；新的数学不在本地运行。
 
-最后实际 pull --rebase 与两 README 差异检查：e04482e84db7f467cc7fcad338290b7fb54adba7；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
+最后实际 pull --rebase 与两 README 差异检查：1a16cfb6a1e5cafeba8684ff0d0425318e8e742b；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
 已亲读ee26c0a65a2e63c15f2ccfba6714181584416542根差异：新增visible-flex-new-mechanism，课题数改按表，其余规则和题目标未变。
 每次push前实际pull/rebase并读两个README的新增diff，至少每小时pull；每条结论独立推；非FF立即rebase重推至成功，不force。
 PAT只在瞬时CLI/env，不落文件/输出/提交。root独占Git/H/open/results/log；三代理交付新文件后冻结，避免manifest失配。
@@ -44,7 +44,7 @@ PAT只在瞬时CLI/env，不落文件/输出/提交。root独占Git/H/open/resul
 ## 正在推进的计算与全尾
 
 regular-cut原外端QR因ENOSPC停止r约1.044，非活进程。新从真9/10到腰，保193×96、正ρ及ρ′/ρ/even mean；source f5900646…和原输入不改。
-第一次43586317809在Git add --no-cone失败，第二43587619788在漏原poschl模块import失败，均0数学格。v2 manifest f8c27873…仅补一个原依赖，f825b113已推重启。完整连续validator仍须逐Gram/projector残差/全跳/真实signed rates，提案浮点率不作证。
+前两次43586317809/git及43587619788/import均0格；v2公开43588509643已真实完成5970格，native6dbc3acfcfbdd051c83344561f13102d30f20699db1e0046357d0ede1ec79639，916MB frame artifact14112195633留Actions。新完整连续validator公开pilot接0/76/3300/5969四格及7代数门，manifest f4d98d4e…，真Gram/signed μν/ρ′ρ/128primitive/所有跳均付；成功格后续排除复用。proposal浮点率仍非证。
 mean-norm v1失败43588192611/原native fa68d99a…e31bb与前5门全保；v2公开43589465579真实10/10门return0，native bd69c985ddaad53152867538980cb59ca28f4c6d27e27b30a6f9dd7137baad99。7721格两mean均复用、再包络用union增费；||q_star−Z||<4.572198020300e−6，真qν−q_star充分余量0.004995427801979700。全Green/源/高反馈和ac1→repair仍欠。
 原reviewed规则 fdb83fd4…、driver7f8521cb…只管执行复用，原科学manifest不改。
 尾76/77已证完整paired中心/三片crossing；78证旧公共低方向在κ∈[.75,1]真实为负，不能扩成全网络结论。

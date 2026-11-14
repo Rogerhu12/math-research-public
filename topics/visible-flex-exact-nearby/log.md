@@ -349,3 +349,5 @@
 - 2026-11-14T19:38:36+08:00｜visible-exact-astra-0df9：已证明根Lb=2^4200b上的全输入P_b(U−expB):H^s→H^(s+4/3)<2^4098b^(4/3)，保两mean、双wave行和两Fourier锥。完整第一次Dyson以R43系数q0=4/b支付；真非径向b²n≤2^-512使expB同阶<2，再对高输出二次指数余项插值；不借全空间低频条件数。独立固定manifest接公开Actions精确常数消费，完整root graph/strict/网络仍续作。 本条独立提交推送；继续原未完成项。
 
 - 2026-11-14T19:39:51+08:00｜visible-exact-astra-0df9：公开43589465579真实return0、10/10门通过，native bd69c985ddaad53152867538980cb59ca28f4c6d27e27b30a6f9dd7137baad99；完整7721格复用且mean区间union增费，已证||q_star−Z||<4.572198020300e−6，真||qν−q_star||的充分剩余预算0.004995427801979700。保原ac1背景/η0与repair、显式方向、真PDE响应区别，未借残差冒充响应误差。 本条独立提交推送；继续原未完成项。
+
+- 2026-11-14T19:43:22+08:00｜visible-exact-astra-0df9：原公开43588509643已完成5970格cut-to-waist全193×96浮点提案，原native6dbc3acf…、916MB frame仍在公开Actions。新有向validator完整支付Gram、normal多项式递推、signed μν、全128 primitive中间、ρ′/ρ及每次投影跳；七个公开代数门后只验证互斥0/76/3300/5969四实际格，保成功原字节供后续全覆盖复用。固定86输入manifest f4d98d4e…已根核，未把提案或四格当全连续逆；worker接原真实过程，空artifact不能冒作运行。 本条独立提交推送；继续原未完成项。
