@@ -1,0 +1,104 @@
+{
+  "kind": "actual_public_same_Z_Taylor_Hessian_reweighted_Green_process_v1",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43634452052",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "37a2ef6067dabbb810a2bbf56a94c046795f0d92",
+  "worker_source_sha256": "06413b82b12052fe063e2d847693a94aac9ab9befcb395aae598c685d3e7e8cd",
+  "started_utc": "2026-11-14T19:53:30.426389+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T19:53:31.375661+00:00",
+      "before": "1a0504e2c18bfb39640e2b288776376603202322",
+      "after": "bb0f6964dc6ae6cc3aa50bc2e17c0165d98a2f4f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T19:53:32.096486+00:00",
+      "before": "bb0f6964dc6ae6cc3aa50bc2e17c0165d98a2f4f",
+      "after": "bb0f6964dc6ae6cc3aa50bc2e17c0165d98a2f4f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_same_Z_Green_run": 43616648792,
+  "original_complete_cut_run": 43615251195,
+  "original_particular_Hessian_run": 43633412397,
+  "original_complete_quarter_run": 43626024582,
+  "original_Riccati_projector_or_Green_source_propagations_recomputed": 0,
+  "original_body_cap_endpoint_or_Hessian_source_cells_recomputed": 0,
+  "actual_full_PDE_response_error_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "input_manifest_sha256": "1546435f370d1e8433544a02a9d2b166ee357e31a4fff02a0a3fb4a80b9ce89a",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "bb0f6964dc6ae6cc3aa50bc2e17c0165d98a2f4f",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-Taylor-Green-work/science",
+  "actual_input_sha256": {
+    "same-z-green": "eb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18",
+    "green-process": "9b0708eacccb8fa5ee473fa26829f11eb5dd097fba9ad51931d1fcb17150fe8a",
+    "cut-source": "8bc061ec200deb37548005297a1530d341eaa55065e70104cc5d82714aed21c5",
+    "cut-process": "55765c2954b872699fe60a8c81b62992841578233f12577f9b154a4db6873280",
+    "particular-hessian": "f85bddc8c1ac7e30a6790818fb52596c88e193fff9312cd4f2bfe20b07549759",
+    "hessian-process": "02c7518d5bc2e4e320228618828a7e177ba54f797d07a3e39201a1b465148327",
+    "quarter": "770106a925812df4fc380785ca3e715b2a30a649a355fb888e0dcbe0e6a65298",
+    "quarter-process": "ed384e247e771fa6062dbeafa825b3d11d6b370624b79f8ba5fb70260302a28a",
+    "cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba"
+  },
+  "snapshot_utc": "2026-11-14T19:53:32.144605+00:00",
+  "wall_seconds": 1.718800425000012,
+  "native_files": [
+    {
+      "logical_file": "evidence/original-cut-process.json",
+      "file": "evidence/original-cut-process.json",
+      "bytes": 16076,
+      "sha256": "55765c2954b872699fe60a8c81b62992841578233f12577f9b154a4db6873280"
+    },
+    {
+      "logical_file": "evidence/original-green-process.json",
+      "file": "evidence/original-green-process.json",
+      "bytes": 8568,
+      "sha256": "9b0708eacccb8fa5ee473fa26829f11eb5dd097fba9ad51931d1fcb17150fe8a"
+    },
+    {
+      "logical_file": "evidence/original-hessian-process.json",
+      "file": "evidence/original-hessian-process.json",
+      "bytes": 26989,
+      "sha256": "02c7518d5bc2e4e320228618828a7e177ba54f797d07a3e39201a1b465148327"
+    },
+    {
+      "logical_file": "evidence/original-quarter-process.json",
+      "file": "evidence/original-quarter-process.json",
+      "bytes": 16508,
+      "sha256": "ed384e247e771fa6062dbeafa825b3d11d6b370624b79f8ba5fb70260302a28a"
+    }
+  ]
+}
