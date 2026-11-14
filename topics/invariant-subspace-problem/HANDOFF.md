@@ -3,8 +3,8 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `b2ff4367b469215b2e54e03f8269f084ca17cd7e`（2026-11-14 19:41:49 UTC，Actions run43633478613/job132565076227实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **最新规则读取（GitHub API，非实际pull）：** `eb18339505d8e85a882b419f8083b5137cc74ab9`（2026-11-14 19:42:54 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** `d993609843d18c346c8d19c4a7d8e92e00e3aab2`（2026-11-14 19:43:06 UTC，Actions run43633594311/job132565433159实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `fdc99b7dc19ed97e996a51b8d68396c415d91bed`（2026-11-14 19:52:20 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -22,7 +22,7 @@
 - [平衡star](notes/2026-11-14-balanced-star-bounded-positive-weights-all-size-uniform-phase-bound-789f-next.md)对固定正权区间的全Q/组数/漂移/S统一κ，完整六区已闭；权比发散及原graph另付。
 - [全出生物理中央/极平界](notes/2026-11-14-all-birth-physical-central-and-extreme-flat-phase-bounds-789f.md)已识别E_d=ker∂³∩P_(d+1)、全硬U_d，完整Schur与真顶逆全保。固定d中央区及k=d+1极平区均统一；全部概率公式、常数保该稿与其原接口。
 - [原连续尾窗口](notes/2026-11-14-original-continuous-tail-wide-window-exponential-phase-budget-789f-next.md)：b_i=(x+i)⁻²，偶Q≤x有Φ≤25exp(80Q²/x)，Q≤√x/4可取25e⁵；任意c平方根窗亦成。birth2全height、高方差V≥2²⁰s²/原k≥2²³s²旧范围保档。原s≈q/x≈m的短旗与全部graph仍开。
-- **[所有出生真核的Fock重构](notes/2026-11-14-full-boolean-kernel-bosonic-zero-occupation-and-head-only-budget-789f-next.md)：** 对真实K=ker(A_m+D_m)，v=Σ_(j<d)(−A_m)^j(a0*)^jP0v/(S_m^(j/2)j!)，||v||²=Σ||A_m^jP0v||²/(S_m^j j!)。原物理头的四次carry界给C_m≤(k0+e)exp[k0T+3T^(4/3)]，k0=max(2m,16)、T=log108+3log(m+1)，logC=O(m logm)，不依出生/总孔。真左graph同源Γ/C≤Ξ=T*P0T≤Γ；P0实际像Z_A不能扩大。joined裸商有高返回，不能直接当环境真核。
+- **[所有出生真核的Fock重构](notes/2026-11-14-full-boolean-kernel-bosonic-zero-occupation-and-head-only-budget-789f-next.md)：** 对真实K=ker(A_m+D_m)，v=Σ_(j<d)(−A_m)^j(a0*)^jP0v/(S_m^(j/2)j!)，||v||²=Σ||A_m^jP0v||²/(S_m^j j!)。原物理头的四次carry界给C_m≤(k0+e)exp[k0T+3T^(4/3)]，k0=max(2m,16)、T=log108+3log(m+1)，logC=O(m logm)，不依出生/总孔。真左graph同源Γ/C≤Ξ=T*P0T≤Γ；P0实际像Z_A不能扩大。joined裸商有高返回，不能直接当环境真核。[占据矩与旋转](notes/2026-11-14-true-kernel-collective-occupation-moments-and-one-bit-rotation-789f-next.md)进一步给EN0≤k0、EN0²≤k0²及四次指数尾；新位旋转费不含总孔数，旧核加真空到硬核距离≤√3·k0·θ²/2，未付到实际新核交集的距离与强度变化。
 
 ## R150：完整原式与真实31饱和
 

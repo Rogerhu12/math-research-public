@@ -171,3 +171,8 @@
 ### 原左加bare联合图的完整一位度量、源与Schur
 
 [完整证明](notes/2026-11-14-one-bit-joined-left-bare-quotient-gram-and-source-schur-789f-next.md)对每个短旗给新商度量diag((I+a²R_hR_h*)⁻¹,I)，真实下降交叉为aA_h；大R桥在同一商度量内有精确抵消。接合q/q−1两切口后，可行列Khat保物理顶边与未来改坐标，完整联合Gram、上源Schur及实际边界B_a给(L+B)⁻¹=B_a Gjoint⁻¹B_a*。固定低孔s的增量及全部高孔反馈的新left+bare能量≤a²c_s²，不把它改成旧欧氏源界。普通完整右G/flat与真实moving-source仍开，域按实际最小能量闭形式保留。
+
+
+### 真核全出生占据矩与单物理位旋转
+
+[完整证明](notes/2026-11-14-true-kernel-collective-occupation-moments-and-one-bit-rotation-789f-next.md)在原物理头和连续尾给任意真核向量的集体占据 EN0≤k0、EN0²≤k0²，k0=max(2m,16)，高占据K≥k0的质量≤exp(1−770K⁴/16⁴)。单物理位完整bosonic旋转的生成元平方范数≤3||a0v||²+||v||²，旧真核加真空时≤k0||v||²；整弧误差≤|θ|·||Gv||，到硬核空间的距离≤√3·k0·θ²||v||/2。全部独立总孔数/出生。硬核投影不交换annihilation；方向旋转仍须另付实际总强度变化，尚非新真实核提升或高返回Schur上界。

@@ -171,4 +171,4 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 本节此前逐条状态和所有数据入口保[本次完整open快照](notes/2026-11-14-open-before-augmented-second-interface-789f.md)。
 
-**全出生真核有仅含头的预算。** [Fock完整重构](notes/2026-11-14-full-boolean-kernel-bosonic-zero-occupation-and-head-only-budget-789f-next.md)对环境ker(A_m+D_m)保全部出生/孔层，给Γ/C_m≤Ξ=T*P0T≤Γ，logC_m=O(m logm)，P0真像Z_A闭且不可扩大。下一接实际Z_q^-1的同源Ξ及joined bare高返回；不将商kernel直接当环境真核。
+**全出生真核与物理位旋转。** [Fock重构](notes/2026-11-14-full-boolean-kernel-bosonic-zero-occupation-and-head-only-budget-789f-next.md)给同源Γ/C≤Ξ≤Γ、logC=O(m logm)，实际零模像不可扩大。[占据矩/旋转](notes/2026-11-14-true-kernel-collective-occupation-moments-and-one-bit-rotation-789f-next.md)给EN0≤k0、EN0²≤k0²及四次尾，旋转费不含总孔；旧核加真空到硬核距离为二阶。继续实际Z_q^-1、总强度变化及joined高返回，不以硬核距离替新核交集距离。
