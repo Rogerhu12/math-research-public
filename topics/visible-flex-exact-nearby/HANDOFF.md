@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 14:01:38 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 14:02:37 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：dcb3ba5638bc030d53797ac7fe33e5be60b71f4f；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：cad02acc3069a246dd5ccee3e2b23b0346ef2a05；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -24,7 +24,7 @@ repair定义440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47。�
 
 全5970局部projector run43594139132真实全成：16分段/5970唯一全覆盖、全部anchor/jump，5966新增+4原pilot复用；native3460a4b5636bf6a3d9c160f6141ab5153fc5fc705ca79000c5f10370a978cb69。916MBframe留Actions，22原结果文件完整保。见actual-complete-5970-local-projector-cover；这条只授完整局部证书，后续Green另结论。
 真实weighted两端prepare十门已成：L0<1016.779086、D0<1016.778594，LR<4.076853888、DL<.003613121034；97行/mean全保，先付最后0+→0−跳再核腰闭合。
-signed Green正逆/无pole/全跳与源证明已成。七原字节源/93manifest已接；run43596517945七代数门全成。全5970成功会自动触发完整Green消费；复用七门不重算。四通道：残差、trial跳、左/右端单位，保全[0,.9]和phase负段L2。
+signed Green run43601964129真实10门/child0：6391连续ports、5970含腰接口，suffix>.919399782922750、waist>.418268999761567；nativefd6c1f4baa4ec86aab08d4925a0ec9565c3791cbe470b77c2e41549d8f071de6（10无损parts）。同一repair finite193+真low97连续逆已成，原七代数门复用。四源粗负窗旧body .794760128006、右单位3319.054557912；未过响应目标，下一保特定low193/cut方向，未知high全反馈仍欠。
 完整body/mean run43583838026/43586413510：40parts/7721rows/6143jumps，native a4f31dccc4b54661b43fc06bac59b6afbb4fa2d6d19614f68f71e044be6e5870；signed dual跨0，非Schur。
 repair已知差源run43597921732真实47门/child0：全7721格，native05e0493dbe55490adec8fb6603e0ec431d1bc03f051aec86be8a78741f60f0a4。新增L2源<5.597282e−16，完整修复残差L2<.001284069679776281；新mean源及主部mean变化完整保，未知h仍一阶扰动。见actual-complete-response-repair-source。
 完整已知边界源43599771405真实10门：g0<8.922944e−16，真97行gR<.000203975908607，独立high<.000195001650779；native b1adeea522b31efa2fc83a6436bc3fe52dbd04630c17d5436927b5872b05e263。准确0+/.9−全193及mean，R权在边界源取消；未授未知反馈。

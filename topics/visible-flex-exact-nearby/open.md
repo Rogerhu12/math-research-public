@@ -119,3 +119,7 @@ repair正主体/外graph现已接[公开101输入合同](notes/2026-11-14-R133-r
 ### 全5970局部覆盖实际完成
 
 run43594139132 的16分段与最终消费全部成功，全部5970格/anchor/jump唯一覆盖。见 [真实完整覆盖](results/R133-supplement-actual-complete-5970-local-projector-cover.md)。不得继续把完整局部验证列为未完成，也不能仅凭覆盖授全局逆；自动Green消费另立结论。
+
+### 同一repair有限193维连续Green逆实际完成
+
+[完整实际逆](results/R133-supplement-actual-complete-finite193-signed-Green-inverse.md) run43601964129十门全成；6391连续ports/5970接口与最后0−腰闭合全付。四源粗界body负窗约.79476，仍未过.0049954目标。下一消费repair+真边界，并保低193实际源/真cut向量方向收紧；未知high反馈、全qν−Z/Schur另付。

@@ -157,3 +157,7 @@
 ### 实际完整5970局部投影覆盖
 
 [run43594139132的全覆盖结果](results/R133-supplement-actual-complete-5970-local-projector-cover.md)：16互斥段全成，5970原格及全部接口恰消费一次，4原pilot复用；native3460a4…与两个真实process checkpoint全保。局部证书完整，完整连续Green另判。
+
+### 实际有限193维完整连续逆
+
+[run43601964129的有符号Green证书](results/R133-supplement-actual-complete-finite193-signed-Green-inverse.md)：完整suffix/jump/0−waist门全部严格，finite193修复中心及真low97 cut映射可逆。全部四个普通源profile/mean保；旧body负窗粗界.794760128029尚未通过响应目标，未授无限逆或Schur。
