@@ -1,0 +1,334 @@
+{
+  "schema": "captured-native-band-direction-arrays-v1",
+  "source_sha256": "b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390",
+  "capture_result_sha256": "ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7",
+  "arrays": [
+    {
+      "name": "formed-row-max-absolute-entry",
+      "file": "large-arrays/formed-row-max-absolute-entry.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 1033984,
+      "sha256": "bfb54eb3817d03d15a03d3549f5d1148e4ac9d5ac3958558835d27df5d97d224",
+      "role": "Actual formed floating band matrix maximum entry in each equation row; not a condition number",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "formed-column-max-absolute-entry",
+      "file": "large-arrays/formed-column-max-absolute-entry.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 1033984,
+      "sha256": "ba5ddba6bc990b4dad111a45a4cf33f3a62617089fd8ba0aa3725723f4c79933",
+      "role": "Actual formed floating band matrix maximum entry in each coordinate column; not a condition number",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-scaled-rhs",
+      "file": "large-arrays/complete-scaled-rhs.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        129248
+      ],
+      "bytes": 1033984,
+      "sha256": "4c9b6b10c4061180a89b04545e5e2aa7ba7ada75bff68fe41fab98f66356f42c",
+      "role": "Negative complete captured residual in cut/stage/far equation order",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 1403
+    },
+    {
+      "name": "coordinate-scales",
+      "file": "large-arrays/coordinate-scales.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        577
+      ],
+      "bytes": 4616,
+      "sha256": "ecbfd55d5f1dde8f8918818a257f9f2b7638344395d253d7c0844ff407abfecc",
+      "role": "Explicit diagonal row and column scales by node",
+      "finite": 577,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "lapack-pivots",
+      "role": "Unchanged LAPACK full pivot vector",
+      "file": "large-arrays/lapack-pivots.i32le",
+      "dtype": "<i4",
+      "shape": [
+        129248
+      ],
+      "bytes": 516992,
+      "sha256": "b980ed64b1802ca1bf0464c68fbf767e422efece1854a7c86335946fd452e52f",
+      "interpretation": "SciPy dgbtrf pivot indices, retained unchanged for dgbtrs"
+    },
+    {
+      "name": "complete-scaled-coordinate-delta",
+      "file": "large-arrays/complete-scaled-coordinate-delta.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        577,
+        224
+      ],
+      "bytes": 1033984,
+      "sha256": "e51011789fbbdbfdf0c4a9b68e89dbe6bbe0f1a5b5baff8393b8971b1153804f",
+      "role": "Every full band-solve coordinate before recovery",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-original-coordinate-delta",
+      "file": "large-arrays/complete-original-coordinate-delta.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        577,
+        224
+      ],
+      "bytes": 1033984,
+      "sha256": "cca90e77f21a1783e6d27ee83781cb19156f7575ba141ce7983aa0b1b2493e5b",
+      "role": "Every restored original native coordinate, before all nonlinear trials",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-original-stage-raw",
+      "file": "large-arrays/complete-original-stage-raw.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        576,
+        224
+      ],
+      "bytes": 1032192,
+      "sha256": "3e5901af6230c5eaa6d121a60324fbba9134aa95d70b8649ba6ec5af40b8b2e7",
+      "role": "Full original native original direction linear defect stage-raw",
+      "finite": 129024,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-original-stage-scaled",
+      "file": "large-arrays/complete-original-stage-scaled.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        576,
+        224
+      ],
+      "bytes": 1032192,
+      "sha256": "65873e31430920893f4fc062bb1fb93e7d55b5c0819f67423130fbbbd92aadbb",
+      "role": "Full original native original direction linear defect stage-scaled",
+      "finite": 129024,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-original-cut-raw",
+      "file": "large-arrays/complete-original-cut-raw.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "role": "Full original native original direction linear defect cut-raw",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-original-cut-scaled",
+      "file": "large-arrays/complete-original-cut-scaled.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "role": "Full original native original direction linear defect cut-scaled",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-original-far-raw",
+      "file": "large-arrays/complete-original-far-raw.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "role": "Full original native original direction linear defect far-raw",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-original-far-scaled",
+      "file": "large-arrays/complete-original-far-scaled.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "role": "Full original native original direction linear defect far-scaled",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-new-stage-raw",
+      "file": "large-arrays/complete-new-stage-raw.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        576,
+        224
+      ],
+      "bytes": 1032192,
+      "sha256": "34e23b4026a522ffe0fc3d1f6f89e0f522b07c9b94906cfbd12f1c95fe4baaba",
+      "role": "Full original native new direction linear defect stage-raw",
+      "finite": 129024,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-new-stage-scaled",
+      "file": "large-arrays/complete-new-stage-scaled.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        576,
+        224
+      ],
+      "bytes": 1032192,
+      "sha256": "c54221e208b01b30f4e57ab04b533bc27cf6e0a644242a26164ae417cadf0441",
+      "role": "Full original native new direction linear defect stage-scaled",
+      "finite": 129024,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-new-cut-raw",
+      "file": "large-arrays/complete-new-cut-raw.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "role": "Full original native new direction linear defect cut-raw",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-new-cut-scaled",
+      "file": "large-arrays/complete-new-cut-scaled.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "role": "Full original native new direction linear defect cut-scaled",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-new-far-raw",
+      "file": "large-arrays/complete-new-far-raw.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "f50a3b8a62013ae7d5d5276591d0b698129e31913d100f731525dbc46af3186a",
+      "role": "Full original native new direction linear defect far-raw",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    },
+    {
+      "name": "complete-new-far-scaled",
+      "file": "large-arrays/complete-new-far-scaled.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        112
+      ],
+      "bytes": 896,
+      "sha256": "ea19f13ce517c84cd7107a12cd77f545c6126447667c74696d462350f72a1597",
+      "role": "Full original native new direction linear defect far-scaled",
+      "finite": 112,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 0
+    }
+  ],
+  "all_arrays_artifact_only": true,
+  "native_accepted": false,
+  "task_completed": false
+}
