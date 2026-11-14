@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **锚定辅助复fold与第一强迫的实际一成功一失败**：[报告](results/R133-supplement-actual-anchored-auxiliary-fold-and-direct-leading-first-forcing.md)。43646714623全局child1；Ra=1e−4的13门通过，真逆/直接leading混合导数及完整七项forcing已付，Fb<516.515190375、Fa<1.537928496，原物理9e−6内两项L0w1幅度<2262586.222/<152555541189.154。Ra=5e−4的完整coeff保留，径向selfmap门失败；两coeff与成功case逐字续用，不删旧失败。尚非fullIJ/mean/strong-return或无限维逆。
+
 - **共同输运能量与完整正波分解（V1–22）**：[证明](results/R133-supplement-common-transport-energy-and-complete-positive-wave-splitting.md)。在同一径向度量保完整primitive/mean/κr项，T=d∂φ+dφ/2的头尾交叉精确斜伴随；完整δ=0交换子高97两向为零，全δ仅HH为零。给完整两波及真实mean行，非解中心的背景mean另保残差。未授完整帽伴随/平滑、强逆或非酉QR中的免费抵消。
 
 - **四格完整193方阵的实际连续证书**：[报告](results/R133-supplement-actual-four-full193-cached-local-matrices.md)。43645186441 child0/11门；原0/76/3300/5969四格全193输入、两方向degree24、全部新舍入/整格inverse/真实生成元差已付。完整4数组保实际公开artifact14133504273与逐数组hash，0旧target/validator/Green；后继使用同一patched F及真逆或保全部差/跳，尚非5970全Green。

@@ -423,3 +423,7 @@ visible-exact-astra-0df9从完整raw_generator逐项导出T斜伴随、正区y/q
 ### 2026-11-14 22:10:46 UTC — 锚定复fold直接leading20pin入口独推
 
 visible-exact-astra-0df9全文核科学/CI/worker/flow和20pin；首跑前修a2分母正幂upper可能微量低估，改为负幂upper乘法，最终source410675cf…/manifest1f5de8e5…/740517B。题外新增 .github/workflows/visible-exact-anchored-auxiliary-root-fold-direct-leading.yml，仅公开Actions新四stage、45/50min、真pull/README核、非FF循环与全部prefix/failedgate保存。旧两个成功域和原锚只复用，准备读取actual后继续完整w1余项。
+
+### 2026-11-14 22:21:44 UTC — 锚定辅助fold实际结果独立提交
+
+读真实43646714623 process29348B/worker2447B，核native a6f6225cd993718f48b9d35533b81134f966f350b1c9ce704e61e38b34855807（12763B，未经connector读gzip）。一完整case13门、另一coeff成功但selfmap失败；全局child1原样保。报告所有十进制端点按原Arb外舍入，0旧target/complexjets重算。两runner真pull均a750721…且两README差异空；本机不可用，按根规8小文本提交，最近只读核ca0c92ff7a649f1afa3d62dc6bd59cfe10f9bfcb，不记作git pull。压缩HANDOFF前全文9840B已归档；继续较大域相关性收紧、w1直接根jets和完整耦合逆。

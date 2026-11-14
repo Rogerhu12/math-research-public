@@ -162,3 +162,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 锚定复fold/direct-leading的20pin最小消费者已部署
 
 仅使用两已成辅助域及原root锚，20文件740517B，source410675cf…、manifest1f5de8e5…。完整coeff/fold/directleading/forcing四stage逐个checkpoint；保原audit全局proved=false和两case实际true。首跑前将a2的k_min正幂upper分母改为负幂upper乘法，严格付舍入，其他19pins不变。无原target/cubic/complex jets重算；待实际域门，全部原mean/IJ/seam仍保。
+
+### 锚定fold实际前缀已成，接较大域关联收紧与根值剥离
+
+[实际报告](results/R133-supplement-actual-anchored-auxiliary-fold-and-direct-leading-first-forcing.md)登记43646714623：小域13门通过，大域coeff通过而radial selfmap失败，全局child1。phase下一消费者仅精确复用原rootanchor、两coeff和整个小域，给大域新a_*积分交再续后段；另对w1根值/低阶Taylor项剥离后才给余项Cauchy，完整原X链/mean/IJ不得省。旧source/native身份与失败记录都保。
