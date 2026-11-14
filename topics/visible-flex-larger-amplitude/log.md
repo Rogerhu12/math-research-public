@@ -192,3 +192,6 @@ R236完整有限核心缩放与球外保持证明直接登记；λ=6/5全32有�
 
 ### 2026-11-14T07:48:11+00:00 — resolvedrk124 (local; public approval pending)
 真实新RK24全部4609节点回放exit0，端点差1.13687e−13；完整39168×1024上1/2/4 metric1.28137e−6→3.60438e−7→7.27996e−8，新4对旧12四级位置差1.569e−13/rr1.235e−5。新末端有限collar有理界1.0013852467e−18；8级和全闭终态另记，不混partial。
+
+### 2026-11-14T07:48:11+00:00 — scaledexactchecks (local; public approval pending)
+R236显示的全部十进开区间以Fraction逐项交叉相乘实核，并核rho正、原binary k0入口乘积<1、原hmin>rhomin；全部13门真。不是新的ODE/闭面结论。

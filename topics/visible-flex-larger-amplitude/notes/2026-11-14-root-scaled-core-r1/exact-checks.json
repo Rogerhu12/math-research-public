@@ -1,0 +1,20 @@
+{
+  "input_sha256": "323cae83367ccee5a8fcea559399e9f32915b260270acf1d5f968a85cb9b1b3b",
+  "arithmetic": "fractions.Fraction; exact integer cross multiplication",
+  "all_checks": true,
+  "checks": {
+    "hmax": true,
+    "hmin": true,
+    "rho_min": true,
+    "rho_max": true,
+    "core_gap": true,
+    "core_diameter": true,
+    "core_principal_curvature": true,
+    "inlet_ball_second_order_product": true,
+    "amplitude_diameter_limit": true,
+    "curvature_only_diameter_limit": true,
+    "positive_full_rho": true,
+    "initial_ball_second_order": true,
+    "base_hmin_exceeds_rhomin": true
+  }
+}
