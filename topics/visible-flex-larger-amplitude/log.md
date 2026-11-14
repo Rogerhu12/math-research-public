@@ -355,3 +355,8 @@ R271全文12528B/f6aabf31…已读并直接入results及索引。任意完整A_i
 公开run43626121246/source5c6f45fc/job132542216129/art14126695571/430132210B/ZIP2fd2f070…已发布。亲读summary/形成/均衡/LU/三轮exact/初次恢复和真RHS小报告；每次原1372全307552行、68841584乘积位置，范数7.09987830368630829e21→3.25806697778557413e21→3.76944193857401563e21，最佳旧43/step11/Pi112、δ10ed4f19…；result.gz cf6e0034…。LU0、原尺度仍坏。完整10279B失败note保全部身份/见证/ledger/精度账和未做大阵审计范围，无新ODE/J/trial/native。继续原RK逐级有限变分分析，不据理想连续换元替原离散。
 
 更正42摘要进度：43的该step表面success（continue-on-error）但publication和目录无文件，撤回“已提取/七SHA已过”推断，具体首因未知。v2独立84623638…将始终输出小failure/phase/逐件身份，不重42科学，不冒失败成功。原G计算与该缺失独立。
+
+
+### 2026-11-14 18:33 UTC：request44两项原报告只读取回
+
+新增5965B receipts workflow由public-receipt-request.json触发；小源码v2 9681B/84623638…及stage43 reader9037B/e7964498…全文静态读。前者绑定原42七件与未改v1，成功/失败都写小回执；后者绑定actual41 result、stage43 report/window、field packet压缩和rawSHA，只复制step11四级numberRecords/guard/stateSHA，不算γ/ξ/norm或新场。Actions只取原41完整artifact，不重科学；读者日志显式落盘，always保artifact并原pull/rebase+README diff发布。新publisher只增receipts/condensedqp名单。旧mainline98KB保持，后续QP另小workflow。当前均未声称44已成功。

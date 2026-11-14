@@ -126,3 +126,6 @@ request42并行两条：前缀从真实40继续冻结QR入口active32；native�
 [完整失败记录](notes/2026-11-14-actual-request43-node-gauge-direction-failed.md) 已发表：同原矩阵e929e642…，全307552行exact为7.0998783037e21→3.2580669778e21→3.7694419386e21，保1、最坏旧43/step11/Pi112。实际G保869形成块/503原块/原边界σ；longdouble64有效位，形成cast与均衡损失分账。真正LU RHS无下溢零，辅助2^-2048 RHS下溢从未用于solve。未独审大阵，不据此判矩阵奇异或唯一误差层；不派坏δ或重同修正，继续原RK逐级表示分析。
 
 43中的42摘要step有continue-on-error，表面success但publication无文件，先前“已提取”撤回。只读v2将始终保存逐件SHA/phase/异常，首因待实际小回执；不重42科学。R270完整QP继续。
+
+
+request44只读工作已接独立receipts workflow：v2摘要84623638…保错误/phase/逐原SHA，旧43/step11四级field摘取e7964498…保实际geometry/guard/window/原bit。只读固定41原artifact和已完42报告，0新RHS/J/RK/norm/稳定参数；先用真实字段定位后继。R270三新源及平方根库已冻，将单独派科学工作，不重复43求解。
