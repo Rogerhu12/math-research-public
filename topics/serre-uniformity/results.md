@@ -184,3 +184,6 @@
 
 
 - **R739（精确结论已证明）**：[原p47/h7与p41/h37赋值续算](results/R739-exact-original-p47-and-p41-valuation-continuation.md)。复用原全部计数/整数多项式，以准确圆分Norm给9/21位精度；v47(N7)=4、首单位38且同h原M2单位，v41(P37)=−2、首单位23且N37≡33，故原M2赋值−1。零纤维/格点/DFT重算，未预设奇偶；全部P_h与高度不由有限例外推。
+
+
+- **R741（已证明）**：[大量原本原单位toric范数](results/R741-abundant-original-primitive-unit-toric-norms.md)。R740偶赋值和R733全嵌入几何均值给U/g>(1−εp)/2、liminf≥1/2；在2^64/160/512以上分别>3/7、15/32、125/256。保原标签/向量/torus，无M2非零前提；不冒断与两个Cartier单位集的交集。

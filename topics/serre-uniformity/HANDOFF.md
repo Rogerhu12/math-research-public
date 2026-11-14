@@ -4,11 +4,11 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：e3317c7a6b805ce5b66a1afda36d67626be8e63b
-最近本地pull：2026-11-14 23:54:00 Asia/Taipei，main=e3317c7a6b805ce5b66a1afda36d67626be8e63b，两README blob均未变。最近公开Actions实际pull：2026-11-14 15:33:15.9429141 UTC，run43610788824，两README无差异。终端已恢复，使用原blob:none部分克隆，至少每小时pull --rebase并检查两README差异。恢复时清除git标明的两份旧tmp_pack垃圾；原未推8f31d003的R716证明/归档与现行main逐字相同，已留本地备份分支并跳过重复元数据重放。根规8集成回退现已结束。
+已读规则提交：1b6bbdb89da226826b7d261fdf09d67cca797254
+最近本地pull：2026-11-14 23:56:49 Asia/Taipei，main=1b6bbdb89da226826b7d261fdf09d67cca797254，两README blob均未变。终端现已恢复，继续原blob:none部分克隆；至少每小时实际pull --rebase并检查两README差异。旧本地R716重复提交的保留/重放处理见before-R741归档；根规8临时集成回退结束。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权；终端非快进立即pull --rebase重推。PAT仅CLI，未交集成。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB，大可复现中间量只存artifact。日志本题≤5行，改共享设施须说明；不设独立审计/冻结审批门。
 
-本次前完整归档[before-R738](notes/2026-11-14-public-handoff-before-R738.md)，内接before-R736/R735，内接before-R734/R733/R729/R724及更早链；原open完整公式见notes/2026-11-14-open-checkpoint-through-R721.md。旧本地对象不可依赖，未推成果按原记录重做；已成计算不得为包装重跑。
+本次前完整归档[before-R741](notes/2026-11-14-public-handoff-before-R741.md)，内接before-R738/R736/R735，内接before-R734/R733/R729/R724及更早链；原open完整公式见notes/2026-11-14-open-checkpoint-through-R721.md。旧本地对象不可依赖，未推成果按原记录重做；已成计算不得为包装重跑。
 
 ## 正在执行和下一项
 
@@ -27,6 +27,8 @@ R732原completed torsion和给全部闭周期/Ω0，K线性核解原Hom，整数
 
 ## O4：完整Abel及真正高度障碍
 
+R741已由R740和R733证明原本原N单位比例U/g>(1−εp)/2，εp=log(5(2+log2p))/logp→0；p≥2^64/160/512分别>3/7、15/32、125/256。无M2非零前提；同h两Cartier单位仍缺，不能从两个集合各自比例断言交集。
+
 R740已证明全部真本原原N_h赋值为非负偶数：原循环整格L=Zp[G]e0的Gram商精确Sym^(2r)det^(−r)，r=min(h,p+1−h)−1；T不变直线避开radical，原始w的自配对为单位，故N_h=(p+1)c_h²G(w,w)。这不自动给原P_h偶赋值/M2整数，后者另续R742。
 
 R729原weight5/7 full/primitive均值→π/√3，R726控primitive误差，原有限CM和Galois给指定M2非零；连同R726/R682，全充分大允许p共同coarse Abel阶m1。仅知高度s²整除，不是精确阶或单位。
@@ -40,7 +42,7 @@ R724原高度求值接口保Y splitting因子2/常数；η Hecke轨道给MW基�
 
 ## 已成R717/R722原137147 M2
 
-成功run43602664971/source f63e0498a9d599342ee5af0f66f3a425edfd9fd2，仅直接等相位重算chirps/DFTs并复用原四bin；137148 trace全唯一，最大实半径597851749·2^−82。精确P≡105522、M2²/ζ²≡53970、vM2=0。原失败/诊断、p41校准与全部source/core/bin/manifest SHA详R722及before-R735归档；小凭据computations/R717-original-CM-norm-p137147-direct-chirps/43602664971-1/。大artifact不分块传集成，不重跑。R712未展开的D已不阻碍本结论。
+run43602664971/source f63e0498a9d599342ee5af0f66f3a425edfd9fd2原137148 trace全唯一，精确P≡105522、M2²/ζ²≡53970、vM2=0；仅chirps修复并复用四bin。完整source/core/bin/manifest SHA及误差凭据见R722和before-R741归档。大artifact不分块传，不重算。
 
 ## O6：原p43普通Norm、首矩、交换
 
