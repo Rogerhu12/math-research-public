@@ -1,0 +1,44 @@
+{
+  "kind": "actual_public_R31_strip_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43588332723",
+  "run_attempt": "1",
+  "workflow_commit": "6bc34237bfc8065e0bd9cf83beb9359137764e79",
+  "worker_sha256": "873fe1ddee0e9c658056a1a4f5f88813045a353f44dc8b199e9ebc7231b98b76",
+  "manifest_sha256": "ca3c3f2b056d8d75bf563eeb3aa0c8c56ad587e6c0587317ca089cb18e9af657",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T11:05:52.238045+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "6bc34237bfc8065e0bd9cf83beb9359137764e79",
+      "after": "e84b862fe753c33170a0d25983c867d30046eb31",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "e84b862fe753c33170a0d25983c867d30046eb31",
+      "after": "e84b862fe753c33170a0d25983c867d30046eb31",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-phase-strip-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_strip_refinement_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-phase-strip-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-phase-strip-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-phase-strip-refinement-CI-inputs.json",
+    "--manifest-sha",
+    "ca3c3f2b056d8d75bf563eeb3aa0c8c56ad587e6c0587317ca089cb18e9af657",
+    "--out-dir",
+    "/__w/_temp/visible-exact-phase-strip-output/consumers"
+  ],
+  "complete_original_inputs_verified": 67,
+  "actual_scientific_checkout_commit": "e84b862fe753c33170a0d25983c867d30046eb31",
+  "mathematical_wall_seconds": 1.115473167999994
+}

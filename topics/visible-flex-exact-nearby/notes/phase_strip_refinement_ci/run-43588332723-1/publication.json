@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43588332723",
+  "reviewed_pull_history": [
+    {
+      "before": "6bc34237bfc8065e0bd9cf83beb9359137764e79",
+      "after": "e84b862fe753c33170a0d25983c867d30046eb31",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "e84b862fe753c33170a0d25983c867d30046eb31",
+      "after": "e84b862fe753c33170a0d25983c867d30046eb31",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/R31-strip-refinement.json.gz",
+      "bytes": 3356,
+      "sha256": "dfb2a174a010d399775240b2bd07a0f547dfee5fc137e12141be9fd8a46e3854",
+      "original_sha256": "dfb2a174a010d399775240b2bd07a0f547dfee5fc137e12141be9fd8a46e3854"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 1958,
+      "sha256": "ea6fe86bd9331f8e14caedc1c46dcf5de26e275cff023c87ead717d6adbafdff",
+      "original_sha256": "ea6fe86bd9331f8e14caedc1c46dcf5de26e275cff023c87ead717d6adbafdff"
+    },
+    {
+      "file": "consumers/refinement.stdout.log",
+      "bytes": 194,
+      "sha256": "68d25dd99f0ad19b5618511980ba0f51e40d846a00c641d5db5b9be3aa521b32",
+      "original_sha256": "68d25dd99f0ad19b5618511980ba0f51e40d846a00c641d5db5b9be3aa521b32"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 1844,
+      "sha256": "ac0c336601ff949718e63bbe7c7d1dccee5a6841c6d00a322d63f73a3a84fd21",
+      "original_sha256": "ac0c336601ff949718e63bbe7c7d1dccee5a6841c6d00a322d63f73a3a84fd21"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 1904,
+      "sha256": "9b45ee967e290f5af7e6c56426a307cb32e17e94cb4c36114366560d116af137",
+      "original_sha256": "9b45ee967e290f5af7e6c56426a307cb32e17e94cb4c36114366560d116af137"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}
