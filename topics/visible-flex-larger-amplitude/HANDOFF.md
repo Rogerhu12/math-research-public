@@ -40,12 +40,10 @@ full_state_continuous_cover/held_hausdorff已绑定全v3/v4、R249、SE2/完整m
 
 ## 已证结果与消费者
 
-完整证明及依赖在results.md；不以本索引代原假设。
-R248全相位C²强连续/metric/κ归约；未标记reach可一次空间证据，marker仍付R24/R11。R249只投影入口z/XY′/z″共享jets，保整个cut/mean/H；实际operator/κ修补成本未付。
-R250/R253材料P可逆与高频病态相容，不冒M112因果。R252完整φ有限边界及全core链式，不是旧Rθ等价预条件。R255精确circle非正规剪切不冒有限φ谱。R256 exact chart双射/完整J/JT/精确正阻尼下降，截停LSMR与真DN须实际测。R257恒速有限平面Fourier只能圆；材料圆Jac保理想块，非圆精确入口不能纯有限θ；备用θ方案须付投影或解析lift/全部读出成本。
-R260已证原角长度演化ap/a、同g累计误差、角/径向强迫及app二阶代价，固定Gauss非恒等不冒数值超限，C²规范形仍成立。
-R251四Loewner量给原operator门；strict cell/fullprefix/scalar exporter已重建。request16/run43597596523真success仅四源compile、三解析例及series接口；actual-R251-operator-interface-check存回执。实际完整scalar/prefix仍未核，不重跑例子。R246仅旧.984三分量证书，不能移植.99或冒operator≤1e−6。
-R254完整z0/sharednode prefix逐cell有理非平面，已compile，新场未跑。R258完整FFT节点的精确Hermite tail、内collar及全角cut修补给每段四角行列式次数≤15；严格有理/Arb非零见证、完整材料四角固定、真实marker与R238链已证。新规范形不自动继承旧renderer几何包络；C²/嵌入/真实像变仍另付；同场消费者已冻结并AST核，完整dtype/所有FFT模式/真实SE2/有理marker均绑定，见R258-own-tail-planar-germ-interface，尚无执行。
+完整证明/假设/依赖见results.md，不以摘要替代。R248有限C²全相位强连续/metric/κ及未标记reach归约；R249入口共享jet投影保cut/mean/H，实际修补费用待付。R250/253材料P可逆与病态相容；R252完整φ有限边界不是旧Rθ等价预条件。R255精确circle剪切不冒有限φ谱；R256 exact chart/J/JT及正阻尼下降，实际截停另核。R257非圆core严格单位速入口不能纯有限θ；换表示须付全部成本。
+R260已证返回ap/app与真实a导数偏差、完整角/径向强迫及同g operator/二阶费用；有限Gauss非恒等不推实际超限，共享节点C²仍成立。R262已完整证明真实Hermite域梯度/全p/入口chain、切空间正阻尼下降与λP伴随；独立域接口已全文读/AST核，未数值；从18实际新warm接1模型源准备中。
+R251四Loewner给原operator门；strict cell/fullprefix/scalar exporter已重建。request16/run43597596523仅四源compile、三解析例/series成功；实际完整scalar/prefix未核，不重跑例子。R246仅旧.984三分量证书，不能移植.99或冒operator≤1e−6。
+R254完整z0/共享Hermite逐cell非平面消费者已compile，新场未跑。R258本场全FFT/sharednode尾、内collar/全角cut修补及四角次数≤15证明完整，dtype/SE2/marker消费者已冻结未执行；新背景C²规范形源已冻结待接真parent，不继承旧renderer未付包络。全部闭面/含反射δE/真实像变仍待同场输入。
 
 ## 封存与恢复
 

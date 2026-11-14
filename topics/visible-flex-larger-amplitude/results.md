@@ -485,3 +485,6 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R259. 小核心直线同伦的共振条件、完整尾耦合与可去退化](results/R259-small-core-homotopy-and-resonance-conditions.md)（已证明，条件代数/续接定理）：实际源圆R′=(ap/a)R与原有限collocation圆递推，raw phi与材料角切向链式，全112尾Jacobian/高块Schur给固定前三目标直线缩幅的必要匹配；积分去退化及完整方块可逆给条件IFT。三重首阶共振不约束λ、λ²、λ³等别的路径，不宣称小幅存在或可延到原大幅终点；同scalar合法性/真实尾/原接受门均保留。
 
 - [R260. 固定标量jet的一致性、角度量演化及有限投影强迫误差](results/R260-scalar-jet-consistency-and-forced-metric-evolution.md)（已证明，条件恒等式与源解析核对）：原Frenet实际保持角速度ap/a，目标误差为exp(2∫(ap−a′)/a)−1；完整角投影/径向残差强迫、相对operator界及app显式二阶偏差/1β放大均证明。固定48/64有限Gauss真导、binary moment包络和非零线性相位非恒等性明确；不推实际误差超限、不取消共享节点C²、不改变同g或增加完成门。
+
+
+- [R262. 完整Hermite RMS域梯度与投影正阻尼下降](results/R262-Hermite-RMS-domain-gradient-and-projected-descent.md)（已证明，有限系统代数定理）：原β²梯度含完整两节点RHS/global p/入口core chart链；任意保留域行的正交切空间上，正阻尼唯一方向给精确下降恒等式。严格[A P C^-1;λP C^-1]与C^-1 P伴随、冗余核及实际截停gdot条件明确；域行只限制优化方向，所有原方程、RMS与最终门保留，不推局部保护足以全域合法或BVP存在。独立消费者已冻结，尚无该新接口数值回执。

@@ -569,3 +569,8 @@ bot发布只因并发main CAS拒绝被漏分类而终止；已补明确cannot-lo
 ### 2026-11-14 request18真实线性停止后仍受RMS域限制
 
 run43602070499/job132468788403已成功出版1e490cda；两artifact取回并核SHA。λ270/上限200的LSMR在80次istop2，仍interval473/phi0拒α2^-15（β²−6.05166e−5）；仅2^-16真实下降1.63517e−5，原col=.007110547287，非BVP接受。新warm SHA1dbdcc8f…，原新端点FD9.00098e−10/24.013s过、native0。详细完整输入/回执/hash在actual-request18-converged-linear-direction-domain-limit。下一以真实Hermite域covector限制方向，不继续只增加LSMR/模型/λ；原全域与final门保留。
+
+
+### 2026-11-14 R262完整证明及独立域梯度接口
+
+完整证明直接写入results/R262并索引：β²全梯度、两端实际RHS/global p Hermite链、入口exact chart拉回；投影正阻尼唯一方向/精确下降，[A P C^-1;λP C^-1]伴随及冗余核范围全保。root全文读证明与独立geometry_20261114_hermite_domain_constraints.py，AST及SHA通过，无本地数值；接口源SHA d9e004c827add0074c2e6dd6c854763c7157e5049cd5360c1f85ad440462f4ce。实际18支持接一个新方向模型；原最终科学门不增加/不删除。
