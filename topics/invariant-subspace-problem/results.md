@@ -703,3 +703,7 @@
 ### R292 附录：主参数完整S2与两异常权整个物理出生二首边
 
 [完整证明](results/R292-appendix-main-parameter-s2-and-all-two-exceptional-birth-two-first-edges.md)读取原Actions右列两项实际严格正证书（186005/340335分子项、次数82/94），与已证左列按准确平方恒等式合成严格S2。配全部短区、整个旧S1及旧下第二边，通过原R275可逆合同/SOS和全部组内正交串，得任意两普通组各≥2、任意两异常正权的整个K2严格首边常数一；原四维/八维源及高度2硬端均保留。源哈希/回执/最终事件齐全；其他出生/内部高度及graph没有由此关闭。
+
+### R294：出生一统一两倍对角比较、共同Newton块与无限固定高度
+
+[完整证明](results/R294-birth-one-uniform-diagonal-gram-comparison-and-common-newton-blocks.md)准确应用Cesari–Colomboni arXiv:2607.13990v2 Thm1.1/Cor1.2，从既有完整Schur得到½A_n≤Γ_n≤A_n；A_n为同一物理K中的显式对角压缩。标量系数全高度log凸给共同A相邻正块及真实两个Γ端点/中间A_n的常数4式、逐向量Γ标量常数4；无限正ℓ²行用完整F_n的Fredholm无核与范数截断支付固定高度。抽象反例和真实四位代理谱比共同界定仍缺的中间方向费用，没有把夹逼当作原Γ矩阵Newton或一般birth结论。
