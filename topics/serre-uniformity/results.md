@@ -226,3 +226,6 @@
 
 
 - **R755（已证明）**：[原flat目标的准确dual Γ/scalar primitive](results/R755-exact-dual-Gamma-scalar-primitive-for-the-original-flat-target.md)。保完整negative adjoint、Σ支持的正确Sha方向、q quadratic/cubic与2处显式coboundary，给I₀=−〈w,Sflat〉；原Aα满足Iα=ε(21σ₂+2bJ)，I₀=Iα+7εb。全部gauge/primitive选择不变，保已知9ε参考与真实b项，实际ordinary Norm见证/配对仍须求。
+
+
+- **R753（已证明）**：[原除法多项式变分与三挠点单位](results/R753-original-division-polynomial-variation-and-three-torsion-unit.md)。原ψp≡−1、φp≡x^(p²) modp与准确微分给全部非p指标，首h_(p+1)为Lucas单位；原三挠点值−(−4)^((p²−1)/6)完整。恰余N个Frobenius方向，不把它们视为实际自由参数或把三挠点单位代原C_p。
