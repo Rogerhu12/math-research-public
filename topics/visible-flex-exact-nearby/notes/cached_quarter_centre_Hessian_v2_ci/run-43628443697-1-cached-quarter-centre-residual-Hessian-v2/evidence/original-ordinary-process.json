@@ -1,0 +1,193 @@
+{
+  "kind": "actual_public_same_w0_ordinary_only_cap_Hessian_process_v1",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43618931236",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "4f9171499984ce3c06e535b6299c58509b1f4049",
+  "worker_source_sha256": "d6189c9b6663a99a91746b7f4f00e5b4fddba55ecb9291250693e8a275f3673f",
+  "started_utc": "2026-11-14T17:04:04.164520+00:00",
+  "children": [
+    {
+      "label": "actual_complete_same_w0_ordinary_only_cap_Hessian",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-ordinary-Hessian-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ordinary_only_cap_Hessian.py",
+        "--out",
+        "/__w/_temp/visible-exact-ordinary-Hessian-output/native/complete-same-w0-ordinary-only-cap-Hessian.json.gz",
+        "--proposal",
+        "/__w/_temp/visible-exact-ordinary-Hessian-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-physical128-cap-moving97-precomposition-native.json",
+        "--pilot",
+        "/__w/_temp/visible-exact-ordinary-Hessian-pilot/native/known-cut-direction-complete-cap-mixed-source-pilot.json.gz",
+        "--pilot-process",
+        "/__w/_temp/visible-exact-ordinary-Hessian-pilot/process.json",
+        "--local",
+        "/__w/_temp/visible-exact-ordinary-Hessian-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-local-cap-Hessian-source-native.json.gz",
+        "--old-hessian",
+        "/__w/_temp/visible-exact-ordinary-Hessian-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-cap-trial-local-Hessian-native.json.gz",
+        "--previous",
+        "/__w/_temp/visible-exact-ordinary-Hessian-previous/native/complete-same-w0-particular-cap-Hessian.json.gz",
+        "--previous-process",
+        "/__w/_temp/visible-exact-ordinary-Hessian-previous/process.json"
+      ],
+      "started_utc": "2026-11-14T17:04:09.366796+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 120.003394661,
+      "finished_utc": "2026-11-14T17:06:09.370609+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T17:04:05.977488+00:00",
+      "before": "4f9171499984ce3c06e535b6299c58509b1f4049",
+      "after": "a4bc68ab24bd6e49f374907c703a2dcb09ce3765",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:04:07.816710+00:00",
+      "before": "a4bc68ab24bd6e49f374907c703a2dcb09ce3765",
+      "after": "a4bc68ab24bd6e49f374907c703a2dcb09ce3765",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:06:10.564890+00:00",
+      "before": "a4bc68ab24bd6e49f374907c703a2dcb09ce3765",
+      "after": "aaa8233e2565e8aa0bd84295f99478886e9c76be",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:06:13.202786+00:00",
+      "before": "aaa8233e2565e8aa0bd84295f99478886e9c76be",
+      "after": "e1f98ab7effd9094a5373ebdbcf7c22299e2f109",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T17:04:09.364484+00:00",
+      "final": false,
+      "commit": "fcdf26ab0365a9434d8c09e12d7df7268ccfbb1c"
+    },
+    {
+      "time": "2026-11-14T17:06:12.693502+00:00",
+      "final": false,
+      "commit": "e1f98ab7effd9094a5373ebdbcf7c22299e2f109"
+    },
+    {
+      "time": "2026-11-14T17:06:14.762713+00:00",
+      "final": true,
+      "commit": "1857d4ff28855cdec817f23982036152a023bb64"
+    }
+  ],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_large_matrix_reconstructions_executed": 0,
+  "original_complete_physical_residual_cells_recomputed": 0,
+  "original_target_primitive_endpoint_or_mean_computations_repeated": 0,
+  "complete_true_cut_source_claimed": false,
+  "complete_finite193_response_error_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "input_manifest_sha256": "7dc64563295143a0a12445a2bbd074c27589521ad668b79810733ef991808bf7",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "e1f98ab7effd9094a5373ebdbcf7c22299e2f109",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-ordinary-Hessian-work/science",
+  "original_prepared_bundle_sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70",
+  "all_original_large_array_bytes_verified": true,
+  "large_matrix_reconstructions_executed": 0,
+  "actual_original_input_sha256": {
+    "proposal": "b9819522aceed06b73628d84b8bb80dbcc5b734971c6b3c20544e9876c23d78a",
+    "pilot": "f36831b1f5cc354548686c7d3e5f3fdfb10a456899d25f57d1be1b4cefccbe5c",
+    "pilot-process": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4",
+    "local": "bf42a295c892ec3bc606efaa9a94f2870609b73226f2034a9cbc172f187186bd",
+    "old-hessian": "cf055cac05569701ebcb0df95fb064c94cec8c18bb28121292a3836b3862be26",
+    "previous": "9360555293def4b1803da05c5c432a8f737ed4f3d62ea2b84c89e7e236ff7650",
+    "previous-process": "0113de801ff7c0da2999bcfbf2e5e054560c2eb6dcd4278461305fc696213d5c"
+  },
+  "snapshot_utc": "2026-11-14T17:06:13.241415+00:00",
+  "wall_seconds": 129.077470028,
+  "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 1636,
+      "sha256": "27e3ce1dc0374e7e372afafb3438ebe18dcda914bbf382b9db911536fff7e4fb"
+    },
+    {
+      "logical_file": "evidence/complete-same-w0-ordinary-only-cap-Hessian-summary.json",
+      "file": "evidence/complete-same-w0-ordinary-only-cap-Hessian-summary.json",
+      "bytes": 11388,
+      "sha256": "f6640ebc877a6a68832944deda15103013609dd1fceb9927859426a3bf46349a"
+    },
+    {
+      "logical_file": "evidence/original-particular-Hessian-process.json",
+      "file": "evidence/original-particular-Hessian-process.json",
+      "bytes": 8546,
+      "sha256": "0113de801ff7c0da2999bcfbf2e5e054560c2eb6dcd4278461305fc696213d5c"
+    },
+    {
+      "logical_file": "evidence/original-prepared-manifest.json",
+      "file": "evidence/original-prepared-manifest.json",
+      "bytes": 2998,
+      "sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70"
+    },
+    {
+      "logical_file": "evidence/original-successful-v3-pilot-process.json",
+      "file": "evidence/original-successful-v3-pilot-process.json",
+      "bytes": 16602,
+      "sha256": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4"
+    },
+    {
+      "logical_file": "native/complete-same-w0-ordinary-only-cap-Hessian.json.gz",
+      "file": "native/complete-same-w0-ordinary-only-cap-Hessian.json.gz",
+      "bytes": 1010976,
+      "sha256": "b1ffc21737ba45d1ef8823af9dccc0baba8b100a1169b60c69f6a7a5d1cfda6c"
+    }
+  ],
+  "complete_native_sha256": "b1ffc21737ba45d1ef8823af9dccc0baba8b100a1169b60c69f6a7a5d1cfda6c",
+  "actual_scientific_gates": 11,
+  "actual_complete_local_rows": 1341,
+  "actual_complete_intersections": 1977,
+  "actual_new_local_rows_in_this_child": 1341,
+  "actual_new_intersections_in_this_child": 1977,
+  "additive_same_w0_actual_moving_cap_error": {
+    "ball": "[1.3489217220434601930881648783537412588469293759646411403954416587715980565228249e-6 +/- 4.92e-86]",
+    "lower": "[1.3489217220434601930881648783537412588469293759646411403954416587715980565228249e-6 +/- 4.92e-86]",
+    "upper": "[1.3489217220434601930881648783537412588469293759646411403954416587715980565228249e-6 +/- 4.92e-86]"
+  },
+  "previous_complete_four_channel_additive_same_w0_actual_moving_cap_error": {
+    "ball": "[1.0334847707018127284748691138224024814037482465353464796710559036163001036398447e-5 +/- 3.67e-85]",
+    "lower": "[1.0334847707018127284748691138224024814037482465353464796710559036163001036398447e-5 +/- 3.67e-85]",
+    "upper": "[1.0334847707018127284748691138224024814037482465353464796710559036163001036398447e-5 +/- 3.67e-85]"
+  },
+  "finished_utc": "2026-11-14T17:06:12.790882+00:00"
+}
