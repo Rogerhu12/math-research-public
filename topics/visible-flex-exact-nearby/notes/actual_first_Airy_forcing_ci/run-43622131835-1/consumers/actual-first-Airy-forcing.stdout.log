@@ -1,0 +1,10 @@
+{"accepted_closed_rows": 1, "right": "3935020174414971/18014398509481984", "seconds": 0.4837072619999958}
+{"complete": false, "failure": {"type": "ValueError", "message": "true gamma interval lost its sign"}, "accepted_closed_rows": 1, "seconds": 0.4856787609999742}
+Traceback (most recent call last):
+  File "/__w/_temp/visible-exact-actual-first-Airy-forcing-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing.py", line 525, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "/__w/_temp/visible-exact-actual-first-Airy-forcing-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing.py", line 400, in main
+    if not jets["gamma"][0]>0:raise ValueError("true gamma interval lost its sign")
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: true gamma interval lost its sign
