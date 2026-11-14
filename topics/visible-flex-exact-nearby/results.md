@@ -378,3 +378,6 @@
 
 [P1–29](results/R119-supplement-shallow-five-cube-family-and-all-frequency-radial-selection.md)独立核完：129–8192新C4小盒全profile/低43模/高块/Γ/第四线/fixed-stop重建，有限e门不需e≪support半径。含全部浅retained的n<16770+16log2M，谱计数不用d<M；同公共好集>1−93/16384，W_all=2^-16W、δ1073/32保持，原角权全频常数<2^2200000。全high/deep-low内部差<2^-5999900，开放内逆/全物理外列与source-label仍待同单位闭合。
 
+### 固定参数物理帽 pilot 实际完成
+
+公开 43619535345 / 6 门 / 443.609966474 秒，native `b5a157d4005eb4aad1c536512c4ea5dcb431e90d09c4b05f324db5cf09203138`。336 新域（16 父格各 1、4、16 分）给完整 1977 父格物理上界 $1.508953388222\,10^{-6}$，完整 direct 基线为 $2.418183101946\,10^{-6}$；八源表示整组选择且所有边界源保留。原数组、target 和已成父域未重算。证明/实际摘要见 [报告](results/R133-supplement-actual-fixed-eta-physical-cap-coefficient-pilot.md)。

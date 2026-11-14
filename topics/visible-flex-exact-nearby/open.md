@@ -79,3 +79,7 @@ root负责全δ根图/科学核对/发布；newton负责同Z全源/真帽边界/
 ### 2026-11-14 大根窗Cauchy新门
 
 [完整实根E1–12](results/R133-supplement-full-real-large-root-Cauchy-two-source-windows.md)给原正则Fourier能量的全窗延伸：只需真实K_r>1与ηopt≤13/10，完整s=0、−1/普通源/mean/实际跳逐格积分。16input公开消费者已推，复用同一1300行native及六原whole-jet parts；尚未授实际数值通过或CE/cutoff。原root宽度和νδ零compact support同对象保持。
+
+### 已核固定参数 pilot；接全父格四分（2026-11-14）
+
+公开运行 43619535345 实际通过 6 门，336 个新域完整；仅 16 父格细分后，所有 1977 父格仍按完整八源表示整组选择、保留六端点和十四增益，物理帽误差上界为 $1.508953388222\,10^{-6}$。径向细分是主要改进来源；固定参数本身改善很小。接着计算其余 1961 父格的四分域，原已成 64 个 quarter 原字节复用。见 [实际 pilot](results/R133-supplement-actual-fixed-eta-physical-cap-coefficient-pilot.md)。这还不是 moving Hessian、完整有限响应或无限逆。

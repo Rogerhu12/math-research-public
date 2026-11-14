@@ -119,3 +119,7 @@ root读9012B process21cd9a69…与23882B summary64712cc2…并核SHA、child0、
 ### 2026-11-14 17:19:46 UTC — 完整浅前缀与全频径向谱权独立推
 
 root逐字核P1–29及原U14–17/Q10–31，复核窗口计数、三generator下界、log谱费用、全频粗幂与旧M4基点管。补F/M/N/T/O具体finite-e门，排除深层入口或e≪rho_c偷渡。原10进制/原半径无改，新权只固定32bit，全部原普通/weak/mean/外源列保。开放内部与闭外网络身份尚未授，tail继续该项。
+
+### 2026-11-14 17:28:42 UTC — 固定 η 物理帽实际 pilot
+
+亲读 16236B process、34252B summary 和独立报告：43619535345 child0，6 门、336 新域、443.609966474 数学秒。全父格已含 mean、finite、ordinary/divergence 及六端点，整组八源选择；physical<1.508953388222e−6。继续7844个新quarter域，不重算64已成quarter。另已亲读43620358162失败过程：3输入门后原分片complete/selected_cells_complete语义校验失败，0新commonrows；修读取器中，未计数学结果。两README仍无diff；真pull最新728340d92c4864ad377884d2b67a947789fcc4c2。
