@@ -1,0 +1,651 @@
+{
+  "schema": "space-star-cosine-design-v1",
+  "design_branch": "exact_endpoint_warm_normalized_feasibility",
+  "status": "geometry_design_frozen_cosine_warm_feasibility_candidate",
+  "definition": {
+    "a": ".65",
+    "b": ".12",
+    "height_modes": 6,
+    "half_width": ".02",
+    "warm_input": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-new-mechanism/notes/actions-43597247312-1-cosine_core/cosine-core-a65-b12-h15.json",
+    "offset_policy": "auto",
+    "fixed_offset": null,
+    "angles": 768,
+    "dense_angles": 6144,
+    "target_curvature": "planned",
+    "feasibility_max_nfev": 500,
+    "feasibility_smoothing": 1e-06,
+    "epigraph_start_max_violation": 0.0001,
+    "epigraph_max_iterations": 300,
+    "first_coefficient_bound": 0.6,
+    "higher_coefficient_bound": 0.12,
+    "derived_coefficient_bound": 0.5,
+    "j_floor": 0.3,
+    "kappa_floor": 0.1,
+    "height_reserve": ".02",
+    "tip_budget": "planned",
+    "checkpoint_every": 10,
+    "checkpoint_seconds": 60.0,
+    "planar_report": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json",
+    "check_only": false,
+    "out": "/home/runner/work/_temp/visible-new-mechanism/cosine_feasible/cosine-endpoint-warm-a65-b12.json"
+  },
+  "height_basis": "cosine",
+  "frozen_physical_identity": {
+    "height_basis": "cosine",
+    "a": "13/20",
+    "b": "3/25",
+    "half_width": "1/50",
+    "height_coefficients": [
+      {
+        "numerator": "4989166770995105",
+        "denominator": "9007199254740992"
+      },
+      {
+        "numerator": "1071356530719344201530285",
+        "denominator": "7249000877744578002681856"
+      },
+      {
+        "numerator": "-15804996412671862546925",
+        "denominator": "8155125987462650253017088"
+      },
+      {
+        "numerator": "-4776381305593249",
+        "denominator": "1152921504606846976"
+      },
+      {
+        "numerator": "373784456541789",
+        "denominator": "288230376151711744"
+      },
+      {
+        "numerator": "471375734051483",
+        "denominator": "2305843009213693952"
+      }
+    ],
+    "height_offset": {
+      "numerator": "7568935879551315",
+      "denominator": "144115188075855872"
+    }
+  },
+  "frozen_physical_identity_sha256": "1f327750220f10aa1a7caa701236ccbac1baf7f5605b2248505cbd270d027284",
+  "coefficient_freezing": "actual binary64 free parameters to exact Fractions, then exact rational endpoint map",
+  "warm_source": {
+    "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-new-mechanism/notes/actions-43597247312-1-cosine_core/cosine-core-a65-b12-h15.json",
+    "sha256": "69a137a429dcf6bef5ec5fcc609cbc42e32c9881f7e3b34f99ebe0c59fa2ce89",
+    "physical_identity_sha256": "37ee09de4a3ea0e1d483151aa58ad2a3c7d5485ef0acd5cd03f972228aa80b71",
+    "original_frozen_physical_identity": {
+      "height_basis": "cosine",
+      "a": "13/20",
+      "b": "3/25",
+      "half_width": "1/50",
+      "height_coefficients": [
+        {
+          "numerator": "-5096124964049559",
+          "denominator": "9007199254740992"
+        },
+        {
+          "numerator": "-8646911284544347",
+          "denominator": "72057594037927936"
+        },
+        {
+          "numerator": "1115193307597435",
+          "denominator": "36028797018963968"
+        },
+        {
+          "numerator": "1360344108760013",
+          "denominator": "72057594037927936"
+        },
+        {
+          "numerator": "5728434784646845",
+          "denominator": "1152921504606846976"
+        },
+        {
+          "numerator": "1233335593577131",
+          "denominator": "1152921504606846976"
+        }
+      ],
+      "height_offset": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    "preserved_height_harmonics": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "recomputed_height_harmonics": [
+      2,
+      3
+    ],
+    "original_certificate_is_not_inherited": true,
+    "projection_is_new_geometry_design_not_fixed_parameter_refinement": true,
+    "projected_free_before_offset_policy": [
+      -0.5657835271454869,
+      0.018878566886981932,
+      0.004968625150764514,
+      0.0010697481039680197,
+      0.0
+    ],
+    "offset_policy": "auto",
+    "projected_free_before_box_clipping": [
+      -0.5657835271454869,
+      0.018878566886981932,
+      0.004968625150764514,
+      0.0010697481039680197,
+      0.30641924080028593
+    ],
+    "actual_initial_free": [
+      -0.5657835271454869,
+      0.018878566886981932,
+      0.004968625150764514,
+      0.0010697481039680197,
+      0.30641924080028593
+    ],
+    "maximum_box_clipping": 0.0
+  },
+  "initial_projected_frozen_physical_identity": {
+    "height_basis": "cosine",
+    "a": "13/20",
+    "b": "3/25",
+    "half_width": "1/50",
+    "height_coefficients": [
+      {
+        "numerator": "-5096124964049559",
+        "denominator": "9007199254740992"
+      },
+      {
+        "numerator": "-1877078462040478104902755",
+        "denominator": "3624500438872289001340928"
+      },
+      {
+        "numerator": "-3329267647387369290386285",
+        "denominator": "32620503949850601012068352"
+      },
+      {
+        "numerator": "1360344108760013",
+        "denominator": "72057594037927936"
+      },
+      {
+        "numerator": "5728434784646845",
+        "denominator": "1152921504606846976"
+      },
+      {
+        "numerator": "1233335593577131",
+        "denominator": "1152921504606846976"
+      }
+    ],
+    "height_offset": {
+      "numerator": "689994789343659",
+      "denominator": "2251799813685248"
+    }
+  },
+  "free_height_harmonics": [
+    1,
+    4,
+    5,
+    6
+  ],
+  "free_height_coefficients_exact_rational": [
+    {
+      "numerator": "4989166770995105",
+      "denominator": "9007199254740992"
+    },
+    {
+      "numerator": "-4776381305593249",
+      "denominator": "1152921504606846976"
+    },
+    {
+      "numerator": "373784456541789",
+      "denominator": "288230376151711744"
+    },
+    {
+      "numerator": "471375734051483",
+      "denominator": "2305843009213693952"
+    }
+  ],
+  "elimination_matrix_exact_rational": [
+    [
+      {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    ],
+    [
+      {
+        "numerator": "661635",
+        "denominator": "3143753"
+      },
+      {
+        "numerator": "-45058145",
+        "denominator": "3143753"
+      },
+      {
+        "numerator": "-33081750",
+        "denominator": "3143753"
+      },
+      {
+        "numerator": "-223192575",
+        "denominator": "3143753"
+      }
+    ],
+    [
+      {
+        "numerator": "134335",
+        "denominator": "28293777"
+      },
+      {
+        "numerator": "-7057440",
+        "denominator": "3143753"
+      },
+      {
+        "numerator": "-242498225",
+        "denominator": "28293777"
+      },
+      {
+        "numerator": "-42344640",
+        "denominator": "3143753"
+      }
+    ],
+    [
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    ],
+    [
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    ],
+    [
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    ]
+  ],
+  "derived_height_harmonics": [
+    2,
+    3
+  ],
+  "derived_physical_coefficient_bound": 0.5,
+  "exact_tip_q_ell_numerator_zero": true,
+  "exact_valley_q_ell_numerator_zero": true,
+  "frozen_exact_map_vs_float_evaluation_max_difference": 8.673617379884035e-19,
+  "fixed_curvature_target": 9.399934164615182,
+  "fixed_curvature_target_enclosure": {
+    "lower": "9.3999341646151844000159580914008847776992113850664",
+    "upper": "9.3999341646151844000159580914008847776992113850674"
+  },
+  "epigraph_curvature": 9.399934164615182,
+  "normalized_constraint_audit": {
+    "maximum": 1.5344122678186618,
+    "weighted_rms": 0.7557004879584608,
+    "minimum_normalized_constraint": -1.5344122678186618,
+    "per_block_maximum": {
+      "curvature_budget": 1.5344122678186618,
+      "J_floor": 0.0,
+      "kappa_floor": 0.0,
+      "height": 0.005894559061585795,
+      "physical_coefficient_bounds": 0.0,
+      "tip_turn_budget": 0.671208693495846
+    }
+  },
+  "collocation_audit": {
+    "angles": 768,
+    "J_min_sample": 0.5247845743061565,
+    "curvature_min_sample": 0.3319729711316817,
+    "curvature_max_sample": 5.482806734632748,
+    "torsion_absolute_max_sample": 7.324822126459236,
+    "q_ell_absolute_max_sample": 23.760771284692176,
+    "lambda0_max_sample": 20.921159191244435,
+    "whole_width_principal_curvature_max_sample": 33.179008464990254,
+    "height_sample_min": -0.3568922619035522,
+    "height_sample_max": 0.7496428645144468,
+    "height_absolute_sample_max": 0.7496428645144468,
+    "height_interpolation_remainder_upper_formula": 9.552380630517784e-05,
+    "height_absolute_bound_before_roundoff_validation": 0.749738388320752,
+    "design_height_budget": 0.7453449087349615,
+    "height_budget_margin_before_roundoff_validation": -0.004393479585790508,
+    "regularization_used": false,
+    "continuous_curvature_certificate": false,
+    "embedding_proved": false,
+    "reach_lower_proved": false
+  },
+  "tip_turn_budget": {
+    "constraint_kind": "planned",
+    "padding": ".02",
+    "necessary_tau_lower": "0.094178681087043587333180200001549129779026310681254",
+    "planned_tau": "0.10638372380993565357661810744228260322629461121946",
+    "necessary_tip_z2_limit_enclosure": {
+      "lower": "6.2462642877200542522798360238834023950335347575455",
+      "upper": "6.2462642877200542522798360238834023950335347575480"
+    },
+    "planned_tip_z2_limit_enclosure": {
+      "lower": "5.9299712302539942412221002213116846629595430228090",
+      "upper": "5.9299712302539942412221002213116846629595430228100"
+    },
+    "design_limit_binary64": 5.929971230253994,
+    "tip_z2_exact_rational": {
+      "numerator": "-1122487338319992558638865",
+      "denominator": "113265638714759031291904"
+    },
+    "exact_frozen_point_passes_necessary_tip_gate": false,
+    "necessary_gate_strictly_violated": true,
+    "planned_constraint_failure_is_not_a_general_exclusion": true
+  },
+  "unreserved_center_height_budget": "0.76534490873496152625745869125958912289229486632735",
+  "reserved_center_height_budget": "0.74534490873496152625745869125958912289229486632735",
+  "diameter_budget_for_conditional_03_witness": {
+    "lower": "3.5461241269978551192206035814094201075431537073149",
+    "upper": "3.5461241269978551192206035814094201075431537073151"
+  },
+  "planar_certificate_source": {
+    "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json",
+    "sha256": "ba03fc43af2c86ee61b7ca1a9fa541f9287222ef8bd4dcb155c35332c9def405"
+  },
+  "source_files_sha256": {
+    "space_star_cosine_endpoint_feasible.py": "2225b715d92795505f7726c081d2c6f56d45dc0168faed6d38d3d617c2c86cac",
+    "space_star_cosine_endpoint_design.py": "7cbb074538b9a7027980dd8b3176a1da91fcf383218998d486e614a6ed39c907",
+    "space_star_cosine_design.py": "b2fb44b815093ada42f5036c41528856f5f51df4042b8dfa1b2523a6b2959173",
+    "space_star_lift_design.py": "9d058926f9dff6b07fb766e5938eb536f237cb5fcc12fe63c3f8fee3a067bb67",
+    "cosine_rectifying_core.py": "2a6cdd06381bc2cea89d16579b8e84b486162374d17eac656a5970892e4b5763",
+    "space_star_flat_core.py": "33fb72c8c1206a2bef257a4067f65100ae87fd4b71ebf63cdc36597b98b558a4",
+    "star_core_geometry.py": "664d20735a5bcb0aa14d9da320bcefea1b571012cb4ba4fe5e80e7f0c50d03a9",
+    "folded_reference_geometry.py": "e912d3ece31e36a76de10cb1a1f40b8d4cd2079a7c8626c0ae85d0083c0de8ab"
+  },
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_sha": "b0ca14a20563fda53d77919d1eb2a7dd5dfc2739",
+  "github_run_id": "43599589025",
+  "evaluations_seen": 45,
+  "iterations_seen": 0,
+  "history": [
+    {
+      "stage": "feasibility",
+      "evaluation": 1,
+      "iteration": 0,
+      "maximum_normalized_violation": 53.46985767097827,
+      "per_block_violation": {
+        "curvature_budget": 53.46985767097827,
+        "J_floor": 9.002187749284499,
+        "kappa_floor": 0.0,
+        "height": 0.14671313772358538,
+        "physical_coefficient_bounds": 0.03577223603510116,
+        "tip_turn_budget": 3.6913897978144234
+      },
+      "selected_epigraph": 9.399934164615182,
+      "J_min_sample": -8.702187749284498,
+      "curvature_min_sample": 0.21136463026004235,
+      "whole_width_curvature_sample": null,
+      "seconds": 0.0134584509999911
+    },
+    {
+      "stage": "feasibility",
+      "evaluation": 10,
+      "iteration": 0,
+      "maximum_normalized_violation": 1.8086375087890643,
+      "per_block_violation": {
+        "curvature_budget": 1.8086375087890643,
+        "J_floor": 0.0,
+        "kappa_floor": 0.0,
+        "height": 0.04426684295615147,
+        "physical_coefficient_bounds": 0.0,
+        "tip_turn_budget": 0.49078089537609143
+      },
+      "selected_epigraph": 9.399934164615182,
+      "J_min_sample": 0.47948307495960396,
+      "curvature_min_sample": 0.3590604174179627,
+      "whole_width_curvature_sample": 39.52301663492555,
+      "seconds": 0.04497523300000239
+    },
+    {
+      "stage": "feasibility",
+      "evaluation": 20,
+      "iteration": 0,
+      "maximum_normalized_violation": 1.5344122678186618,
+      "per_block_violation": {
+        "curvature_budget": 1.5344122678186618,
+        "J_floor": 0.0,
+        "kappa_floor": 0.0,
+        "height": 0.005894559061585795,
+        "physical_coefficient_bounds": 0.0,
+        "tip_turn_budget": 0.671208693495846
+      },
+      "selected_epigraph": 9.399934164615182,
+      "J_min_sample": 0.5247845743061565,
+      "curvature_min_sample": 0.3319729711316817,
+      "whole_width_curvature_sample": 33.17900846499027,
+      "seconds": 0.07902794800000379
+    },
+    {
+      "stage": "feasibility",
+      "evaluation": 30,
+      "iteration": 0,
+      "maximum_normalized_violation": 1.5344122678186618,
+      "per_block_violation": {
+        "curvature_budget": 1.5344122678186618,
+        "J_floor": 0.0,
+        "kappa_floor": 0.0,
+        "height": 0.005894559061585795,
+        "physical_coefficient_bounds": 0.0,
+        "tip_turn_budget": 0.671208693495846
+      },
+      "selected_epigraph": 9.399934164615182,
+      "J_min_sample": 0.5247845743061565,
+      "curvature_min_sample": 0.3319729711316817,
+      "whole_width_curvature_sample": 33.17900846499027,
+      "seconds": 0.11429240499998627
+    },
+    {
+      "stage": "feasibility",
+      "evaluation": 40,
+      "iteration": 0,
+      "maximum_normalized_violation": 1.5344122678186618,
+      "per_block_violation": {
+        "curvature_budget": 1.5344122678186618,
+        "J_floor": 0.0,
+        "kappa_floor": 0.0,
+        "height": 0.005894559061585795,
+        "physical_coefficient_bounds": 0.0,
+        "tip_turn_budget": 0.671208693495846
+      },
+      "selected_epigraph": 9.399934164615182,
+      "J_min_sample": 0.5247845743061565,
+      "curvature_min_sample": 0.3319729711316817,
+      "whole_width_curvature_sample": 33.17900846499027,
+      "seconds": 0.14842632500000263
+    },
+    {
+      "stage": "feasibility",
+      "evaluation": 45,
+      "iteration": 0,
+      "maximum_normalized_violation": 1.5344122678186618,
+      "per_block_violation": {
+        "curvature_budget": 1.5344122678186618,
+        "J_floor": 0.0,
+        "kappa_floor": 0.0,
+        "height": 0.005894559061585795,
+        "physical_coefficient_bounds": 0.0,
+        "tip_turn_budget": 0.671208693495846
+      },
+      "selected_epigraph": 9.399934164615182,
+      "J_min_sample": 0.5247845743061565,
+      "curvature_min_sample": 0.3319729711316817,
+      "whole_width_curvature_sample": 33.17900846499027,
+      "seconds": 0.16791086199998517
+    }
+  ],
+  "initial_collocation_audit": {
+    "angles": 768,
+    "J_min_sample": -8.702187749284498,
+    "curvature_min_sample": 0.21136463026004235,
+    "curvature_max_sample": 15.853523856965916,
+    "torsion_absolute_max_sample": 17.634857345348205,
+    "q_ell_absolute_max_sample": 485.1093874642249,
+    "lambda0_max_sample": 482.6493311072179,
+    "whole_width_principal_curvature_max_sample": null,
+    "height_sample_min": -0.8543940471141049,
+    "height_sample_max": 0.8543940471141049,
+    "height_absolute_sample_max": 0.8543940471141049,
+    "height_interpolation_remainder_upper_formula": 0.00030275186766216355,
+    "height_absolute_bound_before_roundoff_validation": 0.8546967989817671,
+    "design_height_budget": 0.7453449087349615,
+    "height_budget_margin_before_roundoff_validation": -0.1093518902468056,
+    "regularization_used": false,
+    "continuous_curvature_certificate": false,
+    "embedding_proved": false,
+    "reach_lower_proved": false,
+    "tip_z2": 27.819806530946632,
+    "tip_z2_design_limit": 5.929971230253994,
+    "tip_outward_unit_radial_component": 0.9189388875651789,
+    "physical_height_coefficients": [
+      -0.5657835271454869,
+      -0.5178861180175506,
+      -0.10206058289306769,
+      0.018878566886981932,
+      0.004968625150764514,
+      0.0010697481039680197
+    ]
+  },
+  "feasibility_solver": {
+    "success": true,
+    "message": "`xtol` termination condition is satisfied.",
+    "status": 3,
+    "nfev": 44,
+    "njev": 24,
+    "cost": 0.28550614972707505,
+    "optimality": 0.5735372513235262,
+    "raw_final_normalized_constraints": {
+      "maximum": 1.5415583192865723,
+      "weighted_rms": 0.7556535578250421,
+      "minimum_normalized_constraint": -1.5415583192865723,
+      "per_block_maximum": {
+        "curvature_budget": 1.5415583192865723,
+        "J_floor": 0.0,
+        "kappa_floor": 0.0,
+        "height": 0.005594192556746836,
+        "physical_coefficient_bounds": 0.0,
+        "tip_turn_budget": 0.6694245086651365
+      }
+    },
+    "raw_final_free": [
+      0.5538651917140969,
+      -0.004180050483075185,
+      0.0013013584875347147,
+      0.00021243125561525527,
+      0.05251969356262714
+    ],
+    "termination_flag_is_not_feasibility_certificate": true,
+    "raw_final_is_sampled_feasible": false
+  },
+  "epigraph_solver": {
+    "attempted": false,
+    "reason": "fixed-target feasibility was not close enough; avoid epigraph iteration from a bad immersion",
+    "selected_maximum_normalized_violation": 1.5344122678186618,
+    "permitted_start_maximum": 0.0001
+  },
+  "elapsed_seconds": 0.18007205399999293,
+  "selection_rule": "least maximum normalized violation; feasible candidates then minimize epigraph",
+  "a0_changes_during_design_not_fixed_metric_refinement": true,
+  "continuous_verification_performed": false,
+  "embedding_proved": false,
+  "surface_reach_lower_proved": false,
+  "closed_surface_constructed": false,
+  "task_complete": false,
+  "dense_frozen_audit": {
+    "angles": 6144,
+    "J_min_sample": 0.5245497030825521,
+    "curvature_min_sample": 0.33192976201850877,
+    "curvature_max_sample": 5.484062701758272,
+    "torsion_absolute_max_sample": 7.325776667243637,
+    "q_ell_absolute_max_sample": 23.77251484587239,
+    "lambda0_max_sample": 20.923360273611053,
+    "whole_width_principal_curvature_max_sample": 33.224510513478116,
+    "height_sample_min": -0.3568922619035522,
+    "height_sample_max": 0.7496428645144468,
+    "height_absolute_sample_max": 0.7496428645144468,
+    "height_interpolation_remainder_upper_formula": 1.4925594735184038e-06,
+    "height_absolute_bound_before_roundoff_validation": 0.7496443570739204,
+    "design_height_budget": 0.7453449087349615,
+    "height_budget_margin_before_roundoff_validation": -0.004299448338958848,
+    "regularization_used": false,
+    "continuous_curvature_certificate": false,
+    "embedding_proved": false,
+    "reach_lower_proved": false
+  },
+  "tip_valley_frozen_audit": [
+    {
+      "location": "tip",
+      "torsion_exactly_zero_by_even_reflection": true,
+      "torsion_numeric_residual": 1.969629045760783e-17,
+      "kappa_from_symmetry_formula": 4.952906277113412,
+      "q_ell_from_symmetry_formula": -1.2171672254514802e-16,
+      "q_ell_formula_numeric_discrepancy": 2.434334450902961e-16,
+      "whole_width_J_at_point": 1.0,
+      "whole_width_principal_curvature_at_point": 4.952906277113412,
+      "automatic_torsion_zero_does_not_force_q_ell_zero": true
+    },
+    {
+      "location": "valley",
+      "torsion_exactly_zero_by_even_reflection": true,
+      "torsion_numeric_residual": 3.281391403153618e-14,
+      "kappa_from_symmetry_formula": 5.0253731716644525,
+      "q_ell_from_symmetry_formula": -2.596977038477105e-15,
+      "q_ell_formula_numeric_discrepancy": 2.4183511993613035e-14,
+      "whole_width_J_at_point": 1.0,
+      "whole_width_principal_curvature_at_point": 5.0253731716644525,
+      "automatic_torsion_zero_does_not_force_q_ell_zero": true
+    }
+  ]
+}
