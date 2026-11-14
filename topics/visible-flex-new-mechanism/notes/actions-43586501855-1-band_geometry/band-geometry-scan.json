@@ -1,0 +1,3345 @@
+{
+  "schema": "public-band-geometry-design-scan-v1",
+  "source": "https://arxiv.org/html/2611.17269v1",
+  "status": "Bounded geometry design scan; no finite flex or closed surface",
+  "formula": "symmetric: c=1/b and eta=1-1/(2b^2)>0; exact analytic period closures are preserved",
+  "exact_target_metric_for_a_flex": false,
+  "fixed_metric_refinement_demonstrated": false,
+  "score_definition": "minimum of sampled local principal-radius ratio and minimum characteristic-strip width ratio",
+  "selected_indices": [
+    63,
+    82,
+    81,
+    83
+  ],
+  "rows": [
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.2,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.5454268096610386,
+      "fixed_physical_halfwidth": 0.04636280428983116,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.04636280428983116,
+        "closure_norm": 1.7556390722299124e-15,
+        "omega_period": -9.626517054503824e-13,
+        "speed_min": 0.5041322314049587,
+        "speed_max": 4.257887149115436,
+        "speed_contrast": 8.445972869556849,
+        "sampled_band_diameter": 1.6146446596681923,
+        "sampled_max_abs_principal_curvature": 1472721.4659343157,
+        "local_principal_radius_over_sampled_band_D": 4.2053526693364933e-07,
+        "characteristic_strip": {
+          "left": 85.22632288563597,
+          "right": 170.45264577127193,
+          "min_physical_width_over_sampled_band_D": 0.002000046558523936,
+          "max_physical_width_over_sampled_band_D": 0.015583579279790495,
+          "max_outer_u_over_halfwidth": 0.8255680681613743
+        }
+      },
+      "design_score": 4.2053526693364933e-07
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.2,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.5454268096610386,
+      "fixed_physical_halfwidth": 0.09272560857966232,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.09272560857966232,
+        "closure_norm": 1.7556390722299124e-15,
+        "omega_period": -9.626517054503824e-13,
+        "speed_min": 0.5041322314049587,
+        "speed_max": 4.257887149115436,
+        "speed_contrast": 8.445972869556849,
+        "sampled_band_diameter": 1.6838841780674842,
+        "sampled_max_abs_principal_curvature": 558875.5327597229,
+        "local_principal_radius_over_sampled_band_D": 1.0626070350057702e-06,
+        "characteristic_strip": {
+          "left": 65.05795978848097,
+          "right": 130.11591957696194,
+          "min_physical_width_over_sampled_band_D": 0.001995658185474723,
+          "max_physical_width_over_sampled_band_D": 0.030330626417782953,
+          "max_outer_u_over_halfwidth": 0.7561011779111375
+        }
+      },
+      "design_score": 1.0626070350057702e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.2,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.5454268096610386,
+      "fixed_physical_halfwidth": 0.18545121715932464,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.18545121715932464,
+        "closure_norm": 1.7556390722299124e-15,
+        "omega_period": -9.626517054503824e-13,
+        "speed_min": 0.5041322314049587,
+        "speed_max": 4.257887149115436,
+        "speed_contrast": 8.445972869556849,
+        "sampled_band_diameter": 1.8578740566635779,
+        "sampled_max_abs_principal_curvature": 232444.75364635844,
+        "local_principal_radius_over_sampled_band_D": 2.3156023479190316e-06,
+        "characteristic_strip": {
+          "left": 54.97377823990347,
+          "right": 109.94755647980693,
+          "min_physical_width_over_sampled_band_D": 0.0018216588704135068,
+          "max_physical_width_over_sampled_band_D": 0.05136611278932387,
+          "max_outer_u_over_halfwidth": 0.647186928307781
+        }
+      },
+      "design_score": 2.3156023479190316e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.2,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.8106662753177187,
+      "fixed_physical_halfwidth": 0.05431998825953156,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.05431998825953156,
+        "closure_norm": 1.6879121645222296e-15,
+        "omega_period": 7.729116591587128e-13,
+        "speed_min": 0.6416831032215649,
+        "speed_max": 3.8621702067079395,
+        "speed_contrast": 6.01881238156022,
+        "sampled_band_diameter": 1.892811162486072,
+        "sampled_max_abs_principal_curvature": 1180631.3622030062,
+        "local_principal_radius_over_sampled_band_D": 4.47484911270307e-07,
+        "characteristic_strip": {
+          "left": 92.97464664648733,
+          "right": 185.94929329297466,
+          "min_physical_width_over_sampled_band_D": 0.0012358902870835077,
+          "max_physical_width_over_sampled_band_D": 0.0158380113291492,
+          "max_outer_u_over_halfwidth": 0.7814674870129356
+        }
+      },
+      "design_score": 4.47484911270307e-07
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.2,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.8106662753177187,
+      "fixed_physical_halfwidth": 0.10863997651906313,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.10863997651906313,
+        "closure_norm": 1.6879121645222296e-15,
+        "omega_period": 7.729116591587128e-13,
+        "speed_min": 0.6416831032215649,
+        "speed_max": 3.8621702067079395,
+        "speed_contrast": 6.01881238156022,
+        "sampled_band_diameter": 1.9815467198277497,
+        "sampled_max_abs_principal_curvature": 253231.2415497735,
+        "local_principal_radius_over_sampled_band_D": 1.9928673839436904e-06,
+        "characteristic_strip": {
+          "left": 76.35088149648263,
+          "right": 152.70176299296526,
+          "min_physical_width_over_sampled_band_D": 0.0011932880550275466,
+          "max_physical_width_over_sampled_band_D": 0.029150370540364675,
+          "max_outer_u_over_halfwidth": 0.6852659086834296
+        }
+      },
+      "design_score": 1.9928673839436904e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.2,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.8106662753177187,
+      "fixed_physical_halfwidth": 0.21727995303812625,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.21727995303812625,
+        "closure_norm": 1.6879121645222296e-15,
+        "omega_period": 7.729116591587128e-13,
+        "speed_min": 0.6416831032215649,
+        "speed_max": 3.8621702067079395,
+        "speed_contrast": 6.01881238156022,
+        "sampled_band_diameter": 2.1985850124721518,
+        "sampled_max_abs_principal_curvature": 253231.24154977742,
+        "local_principal_radius_over_sampled_band_D": 1.796136972327008e-06,
+        "characteristic_strip": {
+          "left": 68.03899892148029,
+          "right": 136.07799784296057,
+          "min_physical_width_over_sampled_band_D": 0.001072869670281348,
+          "max_physical_width_over_sampled_band_D": 0.04521189197822217,
+          "max_outer_u_over_halfwidth": 0.5498810659035175
+        }
+      },
+      "design_score": 1.796136972327008e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.2,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.058300077213842,
+      "fixed_physical_halfwidth": 0.06174900231641526,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.06174900231641526,
+        "closure_norm": 9.990975398015225e-16,
+        "omega_period": -1.9922704860625304e-12,
+        "speed_min": 0.7530864197530864,
+        "speed_max": 3.584979574597218,
+        "speed_contrast": 4.76038271380942,
+        "sampled_band_diameter": 2.1638840169327827,
+        "sampled_max_abs_principal_curvature": 391514.9401132483,
+        "local_principal_radius_over_sampled_band_D": 1.180368691541715e-06,
+        "characteristic_strip": {
+          "left": 102.6676986821472,
+          "right": 205.3353973642944,
+          "min_physical_width_over_sampled_band_D": 0.0008459698320341533,
+          "max_physical_width_over_sampled_band_D": 0.015625467274805908,
+          "max_outer_u_over_halfwidth": 0.7364313298368058
+        }
+      },
+      "design_score": 1.180368691541715e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.2,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.058300077213842,
+      "fixed_physical_halfwidth": 0.12349800463283052,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.12349800463283052,
+        "closure_norm": 9.990975398015225e-16,
+        "omega_period": -1.9922704860625304e-12,
+        "speed_min": 0.7530864197530864,
+        "speed_max": 3.584979574597218,
+        "speed_contrast": 4.76038271380942,
+        "sampled_band_diameter": 2.286954829448051,
+        "sampled_max_abs_principal_curvature": 391514.94011326076,
+        "local_principal_radius_over_sampled_band_D": 1.1168480080261758e-06,
+        "characteristic_strip": {
+          "left": 88.3246225826692,
+          "right": 176.6492451653384,
+          "min_physical_width_over_sampled_band_D": 0.0008006781245712452,
+          "max_physical_width_over_sampled_band_D": 0.02698397441790423,
+          "max_outer_u_over_halfwidth": 0.6188885832153606
+        }
+      },
+      "design_score": 1.1168480080261758e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.2,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.058300077213842,
+      "fixed_physical_halfwidth": 0.24699600926566104,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.24699600926566104,
+        "closure_norm": 9.990975398015225e-16,
+        "omega_period": -1.9922704860625304e-12,
+        "speed_min": 0.7530864197530864,
+        "speed_max": 3.584979574597218,
+        "speed_contrast": 4.76038271380942,
+        "sampled_band_diameter": 2.5330994249356213,
+        "sampled_max_abs_principal_curvature": 264585.69351720775,
+        "local_principal_radius_over_sampled_band_D": 1.4920432286742481e-06,
+        "characteristic_strip": {
+          "left": 81.15308453293021,
+          "right": 162.30616906586042,
+          "min_physical_width_over_sampled_band_D": 0.0007195126605394243,
+          "max_physical_width_over_sampled_band_D": 0.03905566327670445,
+          "max_outer_u_over_halfwidth": 0.4691312919454372
+        }
+      },
+      "design_score": 1.4920432286742481e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.35,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.152796047005765,
+      "fixed_physical_halfwidth": 0.06458388141017295,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.06458388141017295,
+        "closure_norm": 9.487290196696904e-16,
+        "omega_period": -1.3672444512193836e-13,
+        "speed_min": 0.46076930925415777,
+        "speed_max": 4.317315717448763,
+        "speed_contrast": 9.369798792452464,
+        "sampled_band_diameter": 2.252796031206292,
+        "sampled_max_abs_principal_curvature": 99391.66679794925,
+        "local_principal_radius_over_sampled_band_D": 4.466097025719482e-06,
+        "characteristic_strip": {
+          "left": 41.45368774912377,
+          "right": 82.90737549824755,
+          "min_physical_width_over_sampled_band_D": 0.003266443810365642,
+          "max_physical_width_over_sampled_band_D": 0.014337010034740345,
+          "max_outer_u_over_halfwidth": 0.8810907687265427
+        }
+      },
+      "design_score": 4.466097025719482e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.35,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.152796047005765,
+      "fixed_physical_halfwidth": 0.1291677628203459,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.1291677628203459,
+        "closure_norm": 9.487290196696904e-16,
+        "omega_period": -1.3672444512193836e-13,
+        "speed_min": 0.46076930925415777,
+        "speed_max": 4.317315717448763,
+        "speed_contrast": 9.369798792452464,
+        "sampled_band_diameter": 2.352802150630874,
+        "sampled_max_abs_principal_curvature": 71136.0216678459,
+        "local_principal_radius_over_sampled_band_D": 5.974822643451836e-06,
+        "characteristic_strip": {
+          "left": 26.18490735143068,
+          "right": 52.36981470286136,
+          "min_physical_width_over_sampled_band_D": 0.0034191120033708767,
+          "max_physical_width_over_sampled_band_D": 0.028909635508664787,
+          "max_outer_u_over_halfwidth": 0.8536115030796266
+        }
+      },
+      "design_score": 5.974822643451836e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.35,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.152796047005765,
+      "fixed_physical_halfwidth": 0.2583355256406918,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.2583355256406918,
+        "closure_norm": 9.487290196696904e-16,
+        "omega_period": -1.3672444512193836e-13,
+        "speed_min": 0.46076930925415777,
+        "speed_max": 4.317315717448763,
+        "speed_contrast": 9.369798792452464,
+        "sampled_band_diameter": 2.5528179893869765,
+        "sampled_max_abs_principal_curvature": 34043.36089871757,
+        "local_principal_radius_over_sampled_band_D": 1.1506618636996871e-05,
+        "characteristic_strip": {
+          "left": 18.55051715258413,
+          "right": 37.10103430516826,
+          "min_physical_width_over_sampled_band_D": 0.0031534631380707146,
+          "max_physical_width_over_sampled_band_D": 0.05557096716806519,
+          "max_outer_u_over_halfwidth": 0.8045141398145771
+        }
+      },
+      "design_score": 1.1506618636996871e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.35,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.451697013569441,
+      "fixed_physical_halfwidth": 0.07355091040708323,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.07355091040708323,
+        "closure_norm": 2.095710055870158e-15,
+        "omega_period": -2.929809538327251e-14,
+        "speed_min": 0.5864887460329057,
+        "speed_max": 3.9257645446915643,
+        "speed_contrast": 6.693674126308477,
+        "sampled_band_diameter": 2.5674023880659305,
+        "sampled_max_abs_principal_curvature": 475872.35393346834,
+        "local_principal_radius_over_sampled_band_D": 8.184941584449356e-07,
+        "characteristic_strip": {
+          "left": 40.473411621650264,
+          "right": 80.94682324330053,
+          "min_physical_width_over_sampled_band_D": 0.002165069654852851,
+          "max_physical_width_over_sampled_band_D": 0.01479981029578765,
+          "max_outer_u_over_halfwidth": 0.8653196470825817
+        }
+      },
+      "design_score": 8.184941584449356e-07
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.35,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.451697013569441,
+      "fixed_physical_halfwidth": 0.14710182081416645,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.14710182081416645,
+        "closure_norm": 2.095710055870158e-15,
+        "omega_period": -2.929809538327251e-14,
+        "speed_min": 0.5864887460329057,
+        "speed_max": 3.9257645446915643,
+        "speed_contrast": 6.693674126308477,
+        "sampled_band_diameter": 2.6832219916393965,
+        "sampled_max_abs_principal_curvature": 142603.1421234901,
+        "local_principal_radius_over_sampled_band_D": 2.613450630000278e-06,
+        "characteristic_strip": {
+          "left": 27.47135248606532,
+          "right": 54.94270497213064,
+          "min_physical_width_over_sampled_band_D": 0.0021072268231476054,
+          "max_physical_width_over_sampled_band_D": 0.029753314884926073,
+          "max_outer_u_over_halfwidth": 0.8255697922324194
+        }
+      },
+      "design_score": 2.613450630000278e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.35,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.451697013569441,
+      "fixed_physical_halfwidth": 0.2942036416283329,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.2942036416283329,
+        "closure_norm": 2.095710055870158e-15,
+        "omega_period": -2.929809538327251e-14,
+        "speed_min": 0.5864887460329057,
+        "speed_max": 3.9257645446915643,
+        "speed_contrast": 6.693674126308477,
+        "sampled_band_diameter": 2.915149412906061,
+        "sampled_max_abs_principal_curvature": 142603.1421234901,
+        "local_principal_radius_over_sampled_band_D": 2.4055261707803773e-06,
+        "characteristic_strip": {
+          "left": 20.970322918272846,
+          "right": 41.94064583654569,
+          "min_physical_width_over_sampled_band_D": 0.001880394056888678,
+          "max_physical_width_over_sampled_band_D": 0.055588043894563,
+          "max_outer_u_over_halfwidth": 0.7561040701886711
+        }
+      },
+      "design_score": 2.4055261707803773e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.35,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.7322071858548242,
+      "fixed_physical_halfwidth": 0.08196621557564472,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.08196621557564472,
+        "closure_norm": 1.546192389215038e-15,
+        "omega_period": -2.3717505786458698e-14,
+        "speed_min": 0.6883097088858406,
+        "speed_max": 3.653290001259123,
+        "speed_contrast": 5.307625265336826,
+        "sampled_band_diameter": 2.8638862044611857,
+        "sampled_max_abs_principal_curvature": 234884.81340638426,
+        "local_principal_radius_over_sampled_band_D": 1.486583487209759e-06,
+        "characteristic_strip": {
+          "left": 40.884158155626174,
+          "right": 81.76831631125235,
+          "min_physical_width_over_sampled_band_D": 0.0015106823186692567,
+          "max_physical_width_over_sampled_band_D": 0.01517141504988326,
+          "max_outer_u_over_halfwidth": 0.8487984156529674
+        }
+      },
+      "design_score": 1.486583487209759e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.35,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.7322071858548242,
+      "fixed_physical_halfwidth": 0.16393243115128944,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.16393243115128944,
+        "closure_norm": 1.546192389215038e-15,
+        "omega_period": -2.3717505786458698e-14,
+        "speed_min": 0.6883097088858406,
+        "speed_max": 3.653290001259123,
+        "speed_contrast": 5.307625265336826,
+        "sampled_band_diameter": 2.995991502474705,
+        "sampled_max_abs_principal_curvature": 96596.94965740142,
+        "local_principal_radius_over_sampled_band_D": 3.4553815523197126e-06,
+        "characteristic_strip": {
+          "left": 29.408614159951785,
+          "right": 58.81722831990357,
+          "min_physical_width_over_sampled_band_D": 0.0014200088420618774,
+          "max_physical_width_over_sampled_band_D": 0.030128584099287453,
+          "max_outer_u_over_halfwidth": 0.7960059160368327
+        }
+      },
+      "design_score": 3.4553815523197126e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.35,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.7322071858548242,
+      "fixed_physical_halfwidth": 0.3278648623025789,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.3278648623025789,
+        "closure_norm": 1.546192389215038e-15,
+        "omega_period": -2.3717505786458698e-14,
+        "speed_min": 0.6883097088858406,
+        "speed_max": 3.653290001259123,
+        "speed_contrast": 5.307625265336826,
+        "sampled_band_diameter": 3.2610060742130926,
+        "sampled_max_abs_principal_curvature": 43617.87245199928,
+        "local_principal_radius_over_sampled_band_D": 7.030462790886453e-06,
+        "characteristic_strip": {
+          "left": 23.67084216211459,
+          "right": 47.34168432422918,
+          "min_physical_width_over_sampled_band_D": 0.0012541821746824017,
+          "max_physical_width_over_sampled_band_D": 0.054281110207444735,
+          "max_outer_u_over_halfwidth": 0.7079424787193085
+        }
+      },
+      "design_score": 7.030462790886453e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.5,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.887299664838407,
+      "fixed_physical_halfwidth": 0.08661898994515221,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.08661898994515221,
+        "closure_norm": 6.410891202999595e-16,
+        "omega_period": -5.789861706694329e-14,
+        "speed_min": 0.4297520661157025,
+        "speed_max": 4.42605172780323,
+        "speed_contrast": 10.299081905080593,
+        "sampled_band_diameter": 3.0261774078914896,
+        "sampled_max_abs_principal_curvature": 39312.01191797582,
+        "local_principal_radius_over_sampled_band_D": 8.405825005320604e-06,
+        "characteristic_strip": {
+          "left": 28.434645005729152,
+          "right": 56.869290011458304,
+          "min_physical_width_over_sampled_band_D": 0.003721108447219433,
+          "max_physical_width_over_sampled_band_D": 0.0136366500145205,
+          "max_outer_u_over_halfwidth": 0.8975653495072936
+        }
+      },
+      "design_score": 8.405825005320604e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.5,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.887299664838407,
+      "fixed_physical_halfwidth": 0.17323797989030443,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.17323797989030443,
+        "closure_norm": 6.410891202999595e-16,
+        "omega_period": -5.789861706694329e-14,
+        "speed_min": 0.4297520661157025,
+        "speed_max": 4.42605172780323,
+        "speed_contrast": 10.299081905080593,
+        "sampled_band_diameter": 3.165171252087953,
+        "sampled_max_abs_principal_curvature": 39312.01191797582,
+        "local_principal_radius_over_sampled_band_D": 8.036695552890013e-06,
+        "characteristic_strip": {
+          "left": 16.09396782260103,
+          "right": 32.18793564520206,
+          "min_physical_width_over_sampled_band_D": 0.004030985445851964,
+          "max_physical_width_over_sampled_band_D": 0.02714894751806175,
+          "max_outer_u_over_halfwidth": 0.8841069372939699
+        }
+      },
+      "design_score": 8.036695552890013e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.5,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.887299664838407,
+      "fixed_physical_halfwidth": 0.34647595978060886,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.34647595978060886,
+        "closure_norm": 6.410891202999595e-16,
+        "omega_period": -5.789861706694329e-14,
+        "speed_min": 0.4297520661157025,
+        "speed_max": 4.42605172780323,
+        "speed_contrast": 10.299081905080593,
+        "sampled_band_diameter": 3.4431917896541875,
+        "sampled_max_abs_principal_curvature": 32377.402368446623,
+        "local_principal_radius_over_sampled_band_D": 8.970089648258847e-06,
+        "characteristic_strip": {
+          "left": 9.987446803018992,
+          "right": 19.974893606037984,
+          "min_physical_width_over_sampled_band_D": 0.0036535276130566655,
+          "max_physical_width_over_sampled_band_D": 0.0525797861687043,
+          "max_outer_u_over_halfwidth": 0.8593431077624295
+        }
+      },
+      "design_score": 8.970089648258847e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.5,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 3.2599558700409967,
+      "fixed_physical_halfwidth": 0.0977986761012299,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.0977986761012299,
+        "closure_norm": 2.098901788912223e-15,
+        "omega_period": -3.418111128048459e-14,
+        "speed_min": 0.5470085470085471,
+        "speed_max": 4.045775100185871,
+        "speed_contrast": 7.3961826050272945,
+        "sampled_band_diameter": 3.419856471582925,
+        "sampled_max_abs_principal_curvature": 132985.13856825867,
+        "local_principal_radius_over_sampled_band_D": 2.1988166169819955e-06,
+        "characteristic_strip": {
+          "left": 26.2215745440598,
+          "right": 52.4431490881196,
+          "min_physical_width_over_sampled_band_D": 0.002532649696966172,
+          "max_physical_width_over_sampled_band_D": 0.013965989867143406,
+          "max_outer_u_over_halfwidth": 0.8892524834602297
+        }
+      },
+      "design_score": 2.1988166169819955e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.5,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 3.2599558700409967,
+      "fixed_physical_halfwidth": 0.1955973522024598,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.1955973522024598,
+        "closure_norm": 2.098901788912223e-15,
+        "omega_period": -3.418111128048459e-14,
+        "speed_min": 0.5470085470085471,
+        "speed_max": 4.045775100185871,
+        "speed_contrast": 7.3961826050272945,
+        "sampled_band_diameter": 3.579886536766637,
+        "sampled_max_abs_principal_curvature": 34740.96785208602,
+        "local_principal_radius_over_sampled_band_D": 8.040606795432219e-06,
+        "characteristic_strip": {
+          "left": 15.705114561136558,
+          "right": 31.410229122273115,
+          "min_physical_width_over_sampled_band_D": 0.0024702312860272095,
+          "max_physical_width_over_sampled_band_D": 0.027993357998625887,
+          "max_outer_u_over_halfwidth": 0.8696420920338107
+        }
+      },
+      "design_score": 8.040606795432219e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.5,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 3.2599558700409967,
+      "fixed_physical_halfwidth": 0.3911947044049196,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.3911947044049196,
+        "closure_norm": 2.098901788912223e-15,
+        "omega_period": -3.418111128048459e-14,
+        "speed_min": 0.5470085470085471,
+        "speed_max": 4.045775100185871,
+        "speed_contrast": 7.3961826050272945,
+        "sampled_band_diameter": 3.900271302199569,
+        "sampled_max_abs_principal_curvature": 34740.96785208698,
+        "local_principal_radius_over_sampled_band_D": 7.380117377518908e-06,
+        "characteristic_strip": {
+          "left": 10.466526087424663,
+          "right": 20.933052174849326,
+          "min_physical_width_over_sampled_band_D": 0.0021079355697679247,
+          "max_physical_width_over_sampled_band_D": 0.05407596671304317,
+          "max_outer_u_over_halfwidth": 0.8334745485476662
+        }
+      },
+      "design_score": 7.380117377518908e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.5,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 3.6080056471865114,
+      "fixed_physical_halfwidth": 0.10824016941559533,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.10824016941559533,
+        "closure_norm": 1.6928466743829559e-15,
+        "omega_period": 8.859185984941925e-14,
+        "speed_min": 0.6419753086419754,
+        "speed_max": 3.787479412912263,
+        "speed_contrast": 5.899727547036409,
+        "sampled_band_diameter": 3.789077658161846,
+        "sampled_max_abs_principal_curvature": 229450.48302011692,
+        "local_principal_radius_over_sampled_band_D": 1.150211001957285e-06,
+        "characteristic_strip": {
+          "left": 25.19818683860759,
+          "right": 50.39637367721518,
+          "min_physical_width_over_sampled_band_D": 0.0017804160665709267,
+          "max_physical_width_over_sampled_band_D": 0.014259331705659593,
+          "max_outer_u_over_halfwidth": 0.8812269704305584
+        }
+      },
+      "design_score": 1.150211001957285e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.5,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 3.6080056471865114,
+      "fixed_physical_halfwidth": 0.21648033883119067,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.21648033883119067,
+        "closure_norm": 1.6928466743829559e-15,
+        "omega_period": 8.859185984941925e-14,
+        "speed_min": 0.6419753086419754,
+        "speed_max": 3.787479412912263,
+        "speed_contrast": 5.899727547036409,
+        "sampled_band_diameter": 3.9705871674284174,
+        "sampled_max_abs_principal_curvature": 229450.48302011692,
+        "local_principal_radius_over_sampled_band_D": 1.0976308102337792e-06,
+        "characteristic_strip": {
+          "left": 15.850390487607374,
+          "right": 31.700780975214748,
+          "min_physical_width_over_sampled_band_D": 0.001630212478197969,
+          "max_physical_width_over_sampled_band_D": 0.028651016446757435,
+          "max_outer_u_over_halfwidth": 0.8550203135048208
+        }
+      },
+      "design_score": 1.0976308102337792e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 2,
+        "a": 0.5,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 3.6080056471865114,
+      "fixed_physical_halfwidth": 0.43296067766238133,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.43296067766238133,
+        "closure_norm": 1.6928466743829559e-15,
+        "omega_period": 8.859185984941925e-14,
+        "speed_min": 0.6419753086419754,
+        "speed_max": 3.787479412912263,
+        "speed_contrast": 5.899727547036409,
+        "sampled_band_diameter": 4.33451064472663,
+        "sampled_max_abs_principal_curvature": 229450.48302010098,
+        "local_principal_radius_over_sampled_band_D": 1.0054742430938176e-06,
+        "characteristic_strip": {
+          "left": 11.176492312107262,
+          "right": 22.352984624214525,
+          "min_physical_width_over_sampled_band_D": 0.0013546283086581167,
+          "max_physical_width_over_sampled_band_D": 0.05479692189172183,
+          "max_outer_u_over_halfwidth": 0.8070206194089555
+        }
+      },
+      "design_score": 1.0054742430938176e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.2,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.1190043280517903,
+      "fixed_physical_halfwidth": 0.033570129841553706,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.033570129841553706,
+        "closure_norm": 6.070274300353946e-16,
+        "omega_period": -1.236100595694259e-12,
+        "speed_min": 0.5041322314049587,
+        "speed_max": 4.257887149115436,
+        "speed_contrast": 8.445972869556849,
+        "sampled_band_diameter": 1.1852049477365196,
+        "sampled_max_abs_principal_curvature": 948716.7398209451,
+        "local_principal_radius_over_sampled_band_D": 8.893444118585189e-07,
+        "characteristic_strip": {
+          "left": 85.09351676910337,
+          "right": 170.18703353820675,
+          "min_physical_width_over_sampled_band_D": 0.0036138951610700997,
+          "max_physical_width_over_sampled_band_D": 0.014573078613156253,
+          "max_outer_u_over_halfwidth": 0.8674913305651809
+        }
+      },
+      "design_score": 8.893444118585189e-07
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.2,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.1190043280517903,
+      "fixed_physical_halfwidth": 0.06714025968310741,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.06714025968310741,
+        "closure_norm": 6.070274300353946e-16,
+        "omega_period": -1.236100595694259e-12,
+        "speed_min": 0.5041322314049587,
+        "speed_max": 4.257887149115436,
+        "speed_contrast": 8.445972869556849,
+        "sampled_band_diameter": 1.251516171354338,
+        "sampled_max_abs_principal_curvature": 707067.7121167843,
+        "local_principal_radius_over_sampled_band_D": 1.130062668946309e-06,
+        "characteristic_strip": {
+          "left": 57.239532422512774,
+          "right": 114.47906484502555,
+          "min_physical_width_over_sampled_band_D": 0.003865292334921905,
+          "max_physical_width_over_sampled_band_D": 0.029023843669262864,
+          "max_outer_u_over_halfwidth": 0.8295323163578282
+        }
+      },
+      "design_score": 1.130062668946309e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.2,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.1190043280517903,
+      "fixed_physical_halfwidth": 0.13428051936621482,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.13428051936621482,
+        "closure_norm": 6.070274300353946e-16,
+        "omega_period": -1.236100595694259e-12,
+        "speed_min": 0.5041322314049587,
+        "speed_max": 4.257887149115436,
+        "speed_contrast": 8.445972869556849,
+        "sampled_band_diameter": 1.3843760050188798,
+        "sampled_max_abs_principal_curvature": 341517.7735843959,
+        "local_principal_radius_over_sampled_band_D": 2.115108381654503e-06,
+        "characteristic_strip": {
+          "left": 43.34901257236974,
+          "right": 86.69802514473947,
+          "min_physical_width_over_sampled_band_D": 0.003645826816391817,
+          "max_physical_width_over_sampled_band_D": 0.05348085982999243,
+          "max_outer_u_over_halfwidth": 0.7617487072441251
+        }
+      },
+      "design_score": 2.115108381654503e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.2,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.3251091925145395,
+      "fixed_physical_halfwidth": 0.039753275775436185,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.039753275775436185,
+        "closure_norm": 9.474827599072342e-16,
+        "omega_period": 1.1482063095444416e-12,
+        "speed_min": 0.6416831032215649,
+        "speed_max": 3.8621702067079395,
+        "speed_contrast": 6.01881238156022,
+        "sampled_band_diameter": 1.4039415563640856,
+        "sampled_max_abs_principal_curvature": 2960111.6882500383,
+        "local_principal_radius_over_sampled_band_D": 2.406261780025821e-07,
+        "characteristic_strip": {
+          "left": 84.69042617439214,
+          "right": 169.3808523487843,
+          "min_physical_width_over_sampled_band_D": 0.0023708455494882317,
+          "max_physical_width_over_sampled_band_D": 0.015118959366390286,
+          "max_outer_u_over_halfwidth": 0.8428731508269499
+        }
+      },
+      "design_score": 2.406261780025821e-07
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.2,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.3251091925145395,
+      "fixed_physical_halfwidth": 0.07950655155087237,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.07950655155087237,
+        "closure_norm": 9.474827599072342e-16,
+        "omega_period": 1.1482063095444416e-12,
+        "speed_min": 0.6416831032215649,
+        "speed_max": 3.8621702067079395,
+        "speed_contrast": 6.01881238156022,
+        "sampled_band_diameter": 1.482867165556986,
+        "sampled_max_abs_principal_curvature": 618006.0644087857,
+        "local_principal_radius_over_sampled_band_D": 1.0912016507692724e-06,
+        "characteristic_strip": {
+          "left": 61.98296433621507,
+          "right": 123.96592867243014,
+          "min_physical_width_over_sampled_band_D": 0.002374827243833642,
+          "max_physical_width_over_sampled_band_D": 0.029581462019426127,
+          "max_outer_u_over_halfwidth": 0.78541642445089
+        }
+      },
+      "design_score": 1.0912016507692724e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.2,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.3251091925145395,
+      "fixed_physical_halfwidth": 0.15901310310174474,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.15901310310174474,
+        "closure_norm": 9.474827599072342e-16,
+        "omega_period": 1.1482063095444416e-12,
+        "speed_min": 0.6416831032215649,
+        "speed_max": 3.8621702067079395,
+        "speed_contrast": 6.01881238156022,
+        "sampled_band_diameter": 1.6408841289000033,
+        "sampled_max_abs_principal_curvature": 276516.0976583661,
+        "local_principal_radius_over_sampled_band_D": 2.203949638039008e-06,
+        "characteristic_strip": {
+          "left": 50.67209387886884,
+          "right": 101.34418775773769,
+          "min_physical_width_over_sampled_band_D": 0.00217141739181766,
+          "max_physical_width_over_sampled_band_D": 0.051726086213749356,
+          "max_outer_u_over_halfwidth": 0.6906102891321713
+        }
+      },
+      "design_score": 2.203949638039008e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.2,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.5281626452406725,
+      "fixed_physical_halfwidth": 0.045844879357220175,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.045844879357220175,
+        "closure_norm": 1.1875036968681015e-15,
+        "omega_period": 1.1858752893229347e-12,
+        "speed_min": 0.7530864197530864,
+        "speed_max": 3.5849955756064804,
+        "speed_contrast": 4.760403961051228,
+        "sampled_band_diameter": 1.6192820527614908,
+        "sampled_max_abs_principal_curvature": 900629.9422108848,
+        "local_principal_radius_over_sampled_band_D": 6.856952108795413e-07,
+        "characteristic_strip": {
+          "left": 87.7954108693181,
+          "right": 175.5908217386362,
+          "min_physical_width_over_sampled_band_D": 0.0016395222993222036,
+          "max_physical_width_over_sampled_band_D": 0.01547729547421978,
+          "max_outer_u_over_halfwidth": 0.8143133733671857
+        }
+      },
+      "design_score": 6.856952108795413e-07
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.2,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.5281626452406725,
+      "fixed_physical_halfwidth": 0.09168975871444035,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.09168975871444035,
+        "closure_norm": 1.1875036968681015e-15,
+        "omega_period": 1.1858752893229347e-12,
+        "speed_min": 0.7530864197530864,
+        "speed_max": 3.5849955756064804,
+        "speed_contrast": 4.760403961051228,
+        "sampled_band_diameter": 1.7104873529479658,
+        "sampled_max_abs_principal_curvature": 900629.9422108848,
+        "local_principal_radius_over_sampled_band_D": 6.491330945698749e-07,
+        "characteristic_strip": {
+          "left": 68.54443450995804,
+          "right": 137.08886901991607,
+          "min_physical_width_over_sampled_band_D": 0.0015894801443612284,
+          "max_physical_width_over_sampled_band_D": 0.029363207455870798,
+          "max_outer_u_over_halfwidth": 0.7374321692280664
+        }
+      },
+      "design_score": 6.491330945698749e-07
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.2,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.5281626452406725,
+      "fixed_physical_halfwidth": 0.1833795174288807,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.1833795174288807,
+        "closure_norm": 1.1875036968681015e-15,
+        "omega_period": 1.1858752893229347e-12,
+        "speed_min": 0.7530864197530864,
+        "speed_max": 3.5849955756064804,
+        "speed_contrast": 4.760403961051228,
+        "sampled_band_diameter": 1.8930358556648685,
+        "sampled_max_abs_principal_curvature": 900629.9422107451,
+        "local_principal_radius_over_sampled_band_D": 5.865361426299819e-07,
+        "characteristic_strip": {
+          "left": 58.91894633027802,
+          "right": 117.83789266055604,
+          "min_physical_width_over_sampled_band_D": 0.0014361529717172902,
+          "max_physical_width_over_sampled_band_D": 0.04848146884207705,
+          "max_outer_u_over_halfwidth": 0.6203035844290258
+        }
+      },
+      "design_score": 5.865361426299819e-07
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.35,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.4561445694531596,
+      "fixed_physical_halfwidth": 0.04368433708359479,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.04368433708359479,
+        "closure_norm": 8.521829773936939e-16,
+        "omega_period": -9.068458094822442e-14,
+        "speed_min": 0.46076930925415777,
+        "speed_max": 4.317426504616935,
+        "speed_contrast": 9.370039232008542,
+        "sampled_band_diameter": 1.541026216994295,
+        "sampled_max_abs_principal_curvature": 104114.716337628,
+        "local_principal_radius_over_sampled_band_D": 6.232723379623828e-06,
+        "characteristic_strip": {
+          "left": 52.925755561470424,
+          "right": 105.85151112294085,
+          "min_physical_width_over_sampled_band_D": 0.004787401685880453,
+          "max_physical_width_over_sampled_band_D": 0.013402363399088367,
+          "max_outer_u_over_halfwidth": 0.9079527775994197
+        }
+      },
+      "design_score": 6.232723379623828e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.35,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.4561445694531596,
+      "fixed_physical_halfwidth": 0.08736867416718958,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.08736867416718958,
+        "closure_norm": 8.521829773936939e-16,
+        "omega_period": -9.068458094822442e-14,
+        "speed_min": 0.46076930925415777,
+        "speed_max": 4.317426504616935,
+        "speed_contrast": 9.370039232008542,
+        "sampled_band_diameter": 1.626170630382995,
+        "sampled_max_abs_principal_curvature": 104114.71633762753,
+        "local_principal_radius_over_sampled_band_D": 5.906385192193226e-06,
+        "characteristic_strip": {
+          "left": 29.686151325590224,
+          "right": 59.37230265118045,
+          "min_physical_width_over_sampled_band_D": 0.006510204332223142,
+          "max_physical_width_over_sampled_band_D": 0.02659903809842807,
+          "max_outer_u_over_halfwidth": 0.8847537214371909
+        }
+      },
+      "design_score": 5.906385192193226e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.35,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.4561445694531596,
+      "fixed_physical_halfwidth": 0.17473734833437915,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.17473734833437915,
+        "closure_norm": 8.521829773936939e-16,
+        "omega_period": -9.068458094822442e-14,
+        "speed_min": 0.46076930925415777,
+        "speed_max": 4.317426504616935,
+        "speed_contrast": 9.370039232008542,
+        "sampled_band_diameter": 1.7970550984711346,
+        "sampled_max_abs_principal_curvature": 95989.84050255388,
+        "local_principal_radius_over_sampled_band_D": 5.797133971145002e-06,
+        "characteristic_strip": {
+          "left": 18.362516277696397,
+          "right": 36.725032555392794,
+          "min_physical_width_over_sampled_band_D": 0.0065402850527379805,
+          "max_physical_width_over_sampled_band_D": 0.050735566996994615,
+          "max_outer_u_over_halfwidth": 0.8600724835711344
+        }
+      },
+      "design_score": 5.797133971145002e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.35,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.6466184287995744,
+      "fixed_physical_halfwidth": 0.049398552863987234,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.049398552863987234,
+        "closure_norm": 1.6003828855745503e-15,
+        "omega_period": 3.9343156657537364e-13,
+        "speed_min": 0.5864887460329057,
+        "speed_max": 3.9257645446915643,
+        "speed_contrast": 6.693674126308477,
+        "sampled_band_diameter": 1.7436609199428001,
+        "sampled_max_abs_principal_curvature": 186573.15355490998,
+        "local_principal_radius_over_sampled_band_D": 3.073893480005594e-06,
+        "characteristic_strip": {
+          "left": 48.22593500546125,
+          "right": 96.4518700109225,
+          "min_physical_width_over_sampled_band_D": 0.004026718508025234,
+          "max_physical_width_over_sampled_band_D": 0.013821446735961326,
+          "max_outer_u_over_halfwidth": 0.8899003723568373
+        }
+      },
+      "design_score": 3.073893480005594e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.35,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.6466184287995744,
+      "fixed_physical_halfwidth": 0.09879710572797447,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.09879710572797447,
+        "closure_norm": 1.6003828855745503e-15,
+        "omega_period": 3.9343156657537364e-13,
+        "speed_min": 0.5864887460329057,
+        "speed_max": 3.9257645446915643,
+        "speed_contrast": 6.693674126308477,
+        "sampled_band_diameter": 1.8408855025026702,
+        "sampled_max_abs_principal_curvature": 183477.12166308876,
+        "local_principal_radius_over_sampled_band_D": 2.9606788688639714e-06,
+        "characteristic_strip": {
+          "left": 28.82736466978944,
+          "right": 57.65472933957888,
+          "min_physical_width_over_sampled_band_D": 0.004411618351001502,
+          "max_physical_width_over_sampled_band_D": 0.0274630444828952,
+          "max_outer_u_over_halfwidth": 0.8703914648116247
+        }
+      },
+      "design_score": 2.9606788688639714e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.35,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.6466184287995744,
+      "fixed_physical_halfwidth": 0.19759421145594894,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.19759421145594894,
+        "closure_norm": 1.6003828855745503e-15,
+        "omega_period": 3.9343156657537364e-13,
+        "speed_min": 0.5864887460329057,
+        "speed_max": 3.9257645446915643,
+        "speed_contrast": 6.693674126308477,
+        "sampled_band_diameter": 2.035776539860898,
+        "sampled_max_abs_principal_curvature": 183477.12166308373,
+        "local_principal_radius_over_sampled_band_D": 2.6772441378218497e-06,
+        "characteristic_strip": {
+          "left": 19.173118484894,
+          "right": 38.346236969788,
+          "min_physical_width_over_sampled_band_D": 0.004101181616833943,
+          "max_physical_width_over_sampled_band_D": 0.05229479711873708,
+          "max_outer_u_over_halfwidth": 0.8341977713925304
+        }
+      },
+      "design_score": 2.6772441378218497e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.35,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.8396820002023666,
+      "fixed_physical_halfwidth": 0.055190460006070995,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.055190460006070995,
+        "closure_norm": 7.034498842397019e-16,
+        "omega_period": 8.015121808423836e-13,
+        "speed_min": 0.6883097088858406,
+        "speed_max": 3.6533544568100984,
+        "speed_contrast": 5.3077189085764065,
+        "sampled_band_diameter": 1.9486930590688325,
+        "sampled_max_abs_principal_curvature": 415777.8180192879,
+        "local_principal_radius_over_sampled_band_D": 1.2342275773200628e-06,
+        "characteristic_strip": {
+          "left": 45.904425269354064,
+          "right": 91.80885053870813,
+          "min_physical_width_over_sampled_band_D": 0.0030328318164783183,
+          "max_physical_width_over_sampled_band_D": 0.014141590513820692,
+          "max_outer_u_over_halfwidth": 0.881311210442912
+        }
+      },
+      "design_score": 1.2342275773200628e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.35,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.8396820002023666,
+      "fixed_physical_halfwidth": 0.11038092001214199,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.11038092001214199,
+        "closure_norm": 7.034498842397019e-16,
+        "omega_period": 8.015121808423836e-13,
+        "speed_min": 0.6883097088858406,
+        "speed_max": 3.6533544568100984,
+        "speed_contrast": 5.3077189085764065,
+        "sampled_band_diameter": 2.057874664448857,
+        "sampled_max_abs_principal_curvature": 415777.8180192859,
+        "local_principal_radius_over_sampled_band_D": 1.1687449944280763e-06,
+        "characteristic_strip": {
+          "left": 28.903429055447454,
+          "right": 57.80685811089491,
+          "min_physical_width_over_sampled_band_D": 0.0030904017260150246,
+          "max_physical_width_over_sampled_band_D": 0.028202647951207704,
+          "max_outer_u_over_halfwidth": 0.8546500116698903
+        }
+      },
+      "design_score": 1.1687449944280763e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.35,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.8396820002023666,
+      "fixed_physical_halfwidth": 0.22076184002428398,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.22076184002428398,
+        "closure_norm": 7.034498842397019e-16,
+        "omega_period": 8.015121808423836e-13,
+        "speed_min": 0.6883097088858406,
+        "speed_max": 3.6533544568100984,
+        "speed_contrast": 5.3077189085764065,
+        "sampled_band_diameter": 2.2765829379047604,
+        "sampled_max_abs_principal_curvature": 234523.87690060007,
+        "local_principal_radius_over_sampled_band_D": 1.8729641230583126e-06,
+        "characteristic_strip": {
+          "left": 20.40843105878766,
+          "right": 40.81686211757532,
+          "min_physical_width_over_sampled_band_D": 0.0027585897401345583,
+          "max_physical_width_over_sampled_band_D": 0.05322171390630859,
+          "max_outer_u_over_halfwidth": 0.8061480755166576
+        }
+      },
+      "design_score": 1.8729641230583126e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.5,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.9550444054151594,
+      "fixed_physical_halfwidth": 0.05865133216245478,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.05865133216245478,
+        "closure_norm": 1.8022263768623566e-15,
+        "omega_period": 2.2322358387255243e-14,
+        "speed_min": 0.4297520661157025,
+        "speed_max": 4.426130835145806,
+        "speed_contrast": 10.299265981781588,
+        "sampled_band_diameter": 2.0640196817586705,
+        "sampled_max_abs_principal_curvature": 26998.900907923846,
+        "local_principal_radius_over_sampled_band_D": 1.794486026302798e-05,
+        "characteristic_strip": {
+          "left": 40.307051562896554,
+          "right": 80.61410312579311,
+          "min_physical_width_over_sampled_band_D": 0.004537843905676773,
+          "max_physical_width_over_sampled_band_D": 0.013050820804919245,
+          "max_outer_u_over_halfwidth": 0.9069644163690688
+        }
+      },
+      "design_score": 1.794486026302798e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.5,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.9550444054151594,
+      "fixed_physical_halfwidth": 0.11730266432490956,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.11730266432490956,
+        "closure_norm": 1.8022263768623566e-15,
+        "omega_period": 2.2322358387255243e-14,
+        "speed_min": 0.4297520661157025,
+        "speed_max": 4.426130835145806,
+        "speed_contrast": 10.299265981781588,
+        "sampled_band_diameter": 2.1733761995276577,
+        "sampled_max_abs_principal_curvature": 26703.790371010833,
+        "local_principal_radius_over_sampled_band_D": 1.723027397409254e-05,
+        "characteristic_strip": {
+          "left": 20.866894900033884,
+          "right": 41.73378980006777,
+          "min_physical_width_over_sampled_band_D": 0.007165176312159348,
+          "max_physical_width_over_sampled_band_D": 0.025420010669257698,
+          "max_outer_u_over_halfwidth": 0.9014111368582562
+        }
+      },
+      "design_score": 1.723027397409254e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.5,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.9550444054151594,
+      "fixed_physical_halfwidth": 0.23460532864981912,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.23460532864981912,
+        "closure_norm": 1.8022263768623566e-15,
+        "omega_period": 2.2322358387255243e-14,
+        "speed_min": 0.4297520661157025,
+        "speed_max": 4.426130835145806,
+        "speed_contrast": 10.299265981781588,
+        "sampled_band_diameter": 2.392829117215465,
+        "sampled_max_abs_principal_curvature": 26173.960656547126,
+        "local_principal_radius_over_sampled_band_D": 1.5966836198642632e-05,
+        "characteristic_strip": {
+          "left": 11.53269497014427,
+          "right": 23.06538994028854,
+          "min_physical_width_over_sampled_band_D": 0.007526701649249926,
+          "max_physical_width_over_sampled_band_D": 0.0480606285725273,
+          "max_outer_u_over_halfwidth": 0.8885325968877791
+        }
+      },
+      "design_score": 1.5966836198642632e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.5,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.150943690297437,
+      "fixed_physical_halfwidth": 0.0645283107089231,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.0645283107089231,
+        "closure_norm": 1.1950866998625722e-15,
+        "omega_period": 2.1275997837852655e-13,
+        "speed_min": 0.5470085470085471,
+        "speed_max": 4.04590163916529,
+        "speed_contrast": 7.396413934099045,
+        "sampled_band_diameter": 2.2713989505234538,
+        "sampled_max_abs_principal_curvature": 57192.54332252339,
+        "local_principal_radius_over_sampled_band_D": 7.697809679242264e-06,
+        "characteristic_strip": {
+          "left": 35.66365986989883,
+          "right": 71.32731973979766,
+          "min_physical_width_over_sampled_band_D": 0.00445950849740008,
+          "max_physical_width_over_sampled_band_D": 0.013301830695096738,
+          "max_outer_u_over_halfwidth": 0.9027877819694137
+        }
+      },
+      "design_score": 7.697809679242264e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.5,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.150943690297437,
+      "fixed_physical_halfwidth": 0.1290566214178462,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.1290566214178462,
+        "closure_norm": 1.1950866998625722e-15,
+        "omega_period": 2.1275997837852655e-13,
+        "speed_min": 0.5470085470085471,
+        "speed_max": 4.04590163916529,
+        "speed_contrast": 7.396413934099045,
+        "sampled_band_diameter": 2.392398270423365,
+        "sampled_max_abs_principal_curvature": 40552.72422785463,
+        "local_principal_radius_over_sampled_band_D": 1.0307337244747095e-05,
+        "characteristic_strip": {
+          "left": 19.378024256235566,
+          "right": 38.75604851247113,
+          "min_physical_width_over_sampled_band_D": 0.005211267533853234,
+          "max_physical_width_over_sampled_band_D": 0.02609563037000774,
+          "max_outer_u_over_halfwidth": 0.8927140150149169
+        }
+      },
+      "design_score": 1.0307337244747095e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.5,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.150943690297437,
+      "fixed_physical_halfwidth": 0.2581132428356924,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.2581132428356924,
+        "closure_norm": 1.1950866998625722e-15,
+        "omega_period": 2.1275997837852655e-13,
+        "speed_min": 0.5470085470085471,
+        "speed_max": 4.04590163916529,
+        "speed_contrast": 7.396413934099045,
+        "sampled_band_diameter": 2.6353257362996887,
+        "sampled_max_abs_principal_curvature": 38286.28558139537,
+        "local_principal_radius_over_sampled_band_D": 9.911113787546375e-06,
+        "characteristic_strip": {
+          "left": 11.365208630943355,
+          "right": 22.73041726188671,
+          "min_physical_width_over_sampled_band_D": 0.004933350365701808,
+          "max_physical_width_over_sampled_band_D": 0.049601535680284956,
+          "max_outer_u_over_halfwidth": 0.8753011707398742
+        }
+      },
+      "design_score": 9.911113787546375e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.5,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.3483819173180804,
+      "fixed_physical_halfwidth": 0.0704514575195424,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.0704514575195424,
+        "closure_norm": 2.4354245807579754e-15,
+        "omega_period": 4.2970539895466344e-13,
+        "speed_min": 0.6419753086419754,
+        "speed_max": 3.787479412912262,
+        "speed_contrast": 5.899727547036408,
+        "sampled_band_diameter": 2.480060378141208,
+        "sampled_max_abs_principal_curvature": 89992.66592474305,
+        "local_principal_radius_over_sampled_band_D": 4.480542782034782e-06,
+        "characteristic_strip": {
+          "left": 33.115492767826034,
+          "right": 66.23098553565207,
+          "min_physical_width_over_sampled_band_D": 0.003565906682274537,
+          "max_physical_width_over_sampled_band_D": 0.013523607835815635,
+          "max_outer_u_over_halfwidth": 0.8974464731537825
+        }
+      },
+      "design_score": 4.480542782034782e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.5,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.3483819173180804,
+      "fixed_physical_halfwidth": 0.1409029150390848,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.1409029150390848,
+        "closure_norm": 2.4354245807579754e-15,
+        "omega_period": 4.2970539895466344e-13,
+        "speed_min": 0.6419753086419754,
+        "speed_max": 3.787479412912262,
+        "speed_contrast": 5.899727547036408,
+        "sampled_band_diameter": 2.6125818787051824,
+        "sampled_max_abs_principal_curvature": 89992.66592474305,
+        "local_principal_radius_over_sampled_band_D": 4.253270191018185e-06,
+        "characteristic_strip": {
+          "left": 18.67980279166648,
+          "right": 37.35960558333296,
+          "min_physical_width_over_sampled_band_D": 0.0038071389083599,
+          "max_physical_width_over_sampled_band_D": 0.02665178894404023,
+          "max_outer_u_over_halfwidth": 0.8851365147427783
+        }
+      },
+      "design_score": 4.253270191018185e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 3,
+        "a": 0.5,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.3483819173180804,
+      "fixed_physical_halfwidth": 0.2818058300781696,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.2818058300781696,
+        "closure_norm": 2.4354245807579754e-15,
+        "omega_period": 4.2970539895466344e-13,
+        "speed_min": 0.6419753086419754,
+        "speed_max": 3.787479412912262,
+        "speed_contrast": 5.899727547036408,
+        "sampled_band_diameter": 2.879009378117999,
+        "sampled_max_abs_principal_curvature": 50772.942611959195,
+        "local_principal_radius_over_sampled_band_D": 6.8410786939560166e-06,
+        "characteristic_strip": {
+          "left": 11.493676511037057,
+          "right": 22.987353022074114,
+          "min_physical_width_over_sampled_band_D": 0.0033766449664982077,
+          "max_physical_width_over_sampled_band_D": 0.05088214210858403,
+          "max_outer_u_over_halfwidth": 0.8620248081542353
+        }
+      },
+      "design_score": 6.8410786939560166e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.2,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 0.8749582490281135,
+      "fixed_physical_halfwidth": 0.026248747470843402,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.026248747470843402,
+        "closure_norm": 1.196284433884712e-15,
+        "omega_period": -4.4644716774510487e-13,
+        "speed_min": 0.5041322314049587,
+        "speed_max": 4.257026605320564,
+        "speed_contrast": 8.44426588924243,
+        "sampled_band_diameter": 0.9263536727146628,
+        "sampled_max_abs_principal_curvature": 425147.0008110185,
+        "local_principal_radius_over_sampled_band_D": 2.5391248308609375e-06,
+        "characteristic_strip": {
+          "left": 92.90684167720498,
+          "right": 185.81368335440996,
+          "min_physical_width_over_sampled_band_D": 0.004662865865287205,
+          "max_physical_width_over_sampled_band_D": 0.013982281280910702,
+          "max_outer_u_over_halfwidth": 0.8856077056742918
+        }
+      },
+      "design_score": 2.5391248308609375e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.2,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 0.8749582490281135,
+      "fixed_physical_halfwidth": 0.052497494941686804,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.052497494941686804,
+        "closure_norm": 1.196284433884712e-15,
+        "omega_period": -4.4644716774510487e-13,
+        "speed_min": 0.5041322314049587,
+        "speed_max": 4.257026605320564,
+        "speed_contrast": 8.44426588924243,
+        "sampled_band_diameter": 0.9778566679444621,
+        "sampled_max_abs_principal_curvature": 425147.0008110106,
+        "local_principal_radius_over_sampled_band_D": 2.4053909838273563e-06,
+        "characteristic_strip": {
+          "left": 57.1878282725107,
+          "right": 114.3756565450214,
+          "min_physical_width_over_sampled_band_D": 0.006051532170007544,
+          "max_physical_width_over_sampled_band_D": 0.027969456402842055,
+          "max_outer_u_over_halfwidth": 0.8605066671721374
+        }
+      },
+      "design_score": 2.4053909838273563e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.2,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 0.8749582490281135,
+      "fixed_physical_halfwidth": 0.10499498988337361,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.10499498988337361,
+        "closure_norm": 1.196284433884712e-15,
+        "omega_period": -4.4644716774510487e-13,
+        "speed_min": 0.5041322314049587,
+        "speed_max": 4.257026605320564,
+        "speed_contrast": 8.44426588924243,
+        "sampled_band_diameter": 1.081123848257981,
+        "sampled_max_abs_principal_curvature": 425147.0008110346,
+        "local_principal_radius_over_sampled_band_D": 2.1756319743930632e-06,
+        "characteristic_strip": {
+          "left": 39.548810510164515,
+          "right": 79.09762102032903,
+          "min_physical_width_over_sampled_band_D": 0.00603535221496327,
+          "max_physical_width_over_sampled_band_D": 0.053014865275838055,
+          "max_outer_u_over_halfwidth": 0.8168519226102371
+        }
+      },
+      "design_score": 2.1756319743930632e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.2,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.0360820017504049,
+      "fixed_physical_halfwidth": 0.031082460052512147,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.031082460052512147,
+        "closure_norm": 8.151030732786006e-16,
+        "omega_period": 8.649913875061407e-13,
+        "speed_min": 0.6416831032215649,
+        "speed_max": 3.8621702067079404,
+        "speed_contrast": 6.018812381560222,
+        "sampled_band_diameter": 1.0974462261390912,
+        "sampled_max_abs_principal_curvature": 712170.5326679754,
+        "local_principal_radius_over_sampled_band_D": 1.2794777872720778e-06,
+        "characteristic_strip": {
+          "left": 87.18830252037668,
+          "right": 174.37660504075336,
+          "min_physical_width_over_sampled_band_D": 0.0036978379048958955,
+          "max_physical_width_over_sampled_band_D": 0.014514337445486618,
+          "max_outer_u_over_halfwidth": 0.8695225662930737
+        }
+      },
+      "design_score": 1.2794777872720778e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.2,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.0360820017504049,
+      "fixed_physical_halfwidth": 0.06216492010502429,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.06216492010502429,
+        "closure_norm": 8.151030732786006e-16,
+        "omega_period": 8.649913875061407e-13,
+        "speed_min": 0.6416831032215649,
+        "speed_max": 3.8621702067079404,
+        "speed_contrast": 6.018812381560222,
+        "sampled_band_diameter": 1.1588908149991148,
+        "sampled_max_abs_principal_curvature": 712170.5326679673,
+        "local_principal_radius_over_sampled_band_D": 1.2116396565552426e-06,
+        "characteristic_strip": {
+          "left": 58.13646021922388,
+          "right": 116.27292043844776,
+          "min_physical_width_over_sampled_band_D": 0.003969084354474537,
+          "max_physical_width_over_sampled_band_D": 0.02892654517473576,
+          "max_outer_u_over_halfwidth": 0.8332549950813477
+        }
+      },
+      "design_score": 1.2116396565552426e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.2,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.0360820017504049,
+      "fixed_physical_halfwidth": 0.12432984021004859,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.12432984021004859,
+        "closure_norm": 8.151030732786006e-16,
+        "omega_period": 8.649913875061407e-13,
+        "speed_min": 0.6416831032215649,
+        "speed_max": 3.8621702067079404,
+        "speed_contrast": 6.018812381560222,
+        "sampled_band_diameter": 1.281974849774279,
+        "sampled_max_abs_principal_curvature": 159552.44710631264,
+        "local_principal_radius_over_sampled_band_D": 4.8889660943276986e-06,
+        "characteristic_strip": {
+          "left": 43.61053906864749,
+          "right": 87.22107813729498,
+          "min_physical_width_over_sampled_band_D": 0.0037468939498919787,
+          "max_physical_width_over_sampled_band_D": 0.053518534848466706,
+          "max_outer_u_over_halfwidth": 0.769097280342594
+        }
+      },
+      "design_score": 4.8889660943276986e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.2,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.1941234716495406,
+      "fixed_physical_halfwidth": 0.03582370414948621,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.03582370414948621,
+        "closure_norm": 1.5147300274355192e-15,
+        "omega_period": 9.124263990790581e-13,
+        "speed_min": 0.7530864197530864,
+        "speed_max": 3.5846845170093786,
+        "speed_contrast": 4.759990916028847,
+        "sampled_band_diameter": 1.264947929169818,
+        "sampled_max_abs_principal_curvature": 297360.9733038901,
+        "local_principal_radius_over_sampled_band_D": 2.6585411200434737e-06,
+        "characteristic_strip": {
+          "left": 85.77056208004026,
+          "right": 171.54112416008053,
+          "min_physical_width_over_sampled_band_D": 0.002696055632499236,
+          "max_physical_width_over_sampled_band_D": 0.014943690096546199,
+          "max_outer_u_over_halfwidth": 0.8521786535895292
+        }
+      },
+      "design_score": 2.6585411200434737e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.2,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.1941234716495406,
+      "fixed_physical_halfwidth": 0.07164740829897243,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.07164740829897243,
+        "closure_norm": 1.5147300274355192e-15,
+        "omega_period": 9.124263990790581e-13,
+        "speed_min": 0.7530864197530864,
+        "speed_max": 3.5846845170093786,
+        "speed_contrast": 4.759990916028847,
+        "sampled_band_diameter": 1.335864324192763,
+        "sampled_max_abs_principal_curvature": 297360.9733038901,
+        "local_principal_radius_over_sampled_band_D": 2.51740841005238e-06,
+        "characteristic_strip": {
+          "left": 61.04752853790754,
+          "right": 122.09505707581508,
+          "min_physical_width_over_sampled_band_D": 0.0027413404127067734,
+          "max_physical_width_over_sampled_band_D": 0.029479532140489005,
+          "max_outer_u_over_halfwidth": 0.8019723902525151
+        }
+      },
+      "design_score": 2.51740841005238e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.2,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.1941234716495406,
+      "fixed_physical_halfwidth": 0.14329481659794485,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.14329481659794485,
+        "closure_norm": 1.5147300274355192e-15,
+        "omega_period": 9.124263990790581e-13,
+        "speed_min": 0.7530864197530864,
+        "speed_max": 3.5846845170093786,
+        "speed_contrast": 4.759990916028847,
+        "sampled_band_diameter": 1.4778334085138822,
+        "sampled_max_abs_principal_curvature": 110753.06561573097,
+        "local_principal_radius_over_sampled_band_D": 6.109684211047028e-06,
+        "characteristic_strip": {
+          "left": 48.68601176684116,
+          "right": 97.37202353368232,
+          "min_physical_width_over_sampled_band_D": 0.002520572537265064,
+          "max_physical_width_over_sampled_band_D": 0.05263150784737393,
+          "max_outer_u_over_halfwidth": 0.7174365728982287
+        }
+      },
+      "design_score": 6.109684211047028e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.35,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.1948600729918954,
+      "fixed_physical_halfwidth": 0.03584580218975686,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.03584580218975686,
+        "closure_norm": 1.2945620556643448e-15,
+        "omega_period": -5.580589596813811e-14,
+        "speed_min": 0.46076930925415777,
+        "speed_max": 4.3170399357518985,
+        "speed_contrast": 9.369200268003622,
+        "sampled_band_diameter": 1.2665516773714092,
+        "sampled_max_abs_principal_curvature": 123.16171714659264,
+        "local_principal_radius_over_sampled_band_D": 0.006410639427882581,
+        "characteristic_strip": {
+          "left": 64.4641115720321,
+          "right": 128.9282231440642,
+          "min_physical_width_over_sampled_band_D": 0.004653370059073316,
+          "max_physical_width_over_sampled_band_D": 0.012929055426779574,
+          "max_outer_u_over_halfwidth": 0.9080058714075991
+        }
+      },
+      "design_score": 0.004653370059073316,
+      "dense_same_geometry": {
+        "theta_n": 4096,
+        "width_samples": 65,
+        "halfwidth": 0.03584580218975686,
+        "closure_norm": 1.4284249866877115e-16,
+        "omega_period": 0.0,
+        "speed_min": 0.46076930925415777,
+        "speed_max": 4.317426504616936,
+        "speed_contrast": 9.370039232008544,
+        "sampled_band_diameter": 1.2665516773714092,
+        "sampled_max_abs_principal_curvature": 131.22544186471333,
+        "local_principal_radius_over_sampled_band_D": 0.006016709478941206,
+        "characteristic_strip": {
+          "left": 64.46630428316564,
+          "right": 128.93260856633128,
+          "min_physical_width_over_sampled_band_D": 0.004653193354975192,
+          "max_physical_width_over_sampled_band_D": 0.012928827266390771,
+          "max_outer_u_over_halfwidth": 0.9080441249630884
+        }
+      },
+      "normal_chord_screen": {
+        "theta_n": 512,
+        "width_n": 13,
+        "sampled_band_diameter": 1.2665516773714092,
+        "normal_ball_ratio_sample_min": 0.0022299832096920554,
+        "normal_ball_ratio_sample_min_over_sampled_D": 0.001760672895969112,
+        "pair_indices": [
+          628,
+          4781
+        ],
+        "status": "Finite necessary-scale screen only; no lower reach bound or embedding certificate"
+      }
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.35,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.1948600729918954,
+      "fixed_physical_halfwidth": 0.07169160437951372,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.07169160437951372,
+        "closure_norm": 1.2945620556643448e-15,
+        "omega_period": -5.580589596813811e-14,
+        "speed_min": 0.46076930925415777,
+        "speed_max": 4.3170399357518985,
+        "speed_contrast": 9.369200268003622,
+        "sampled_band_diameter": 1.3382432817509229,
+        "sampled_max_abs_principal_curvature": 39199.21978195721,
+        "local_principal_radius_over_sampled_band_D": 1.9062835720913593e-05,
+        "characteristic_strip": {
+          "left": 33.033218530762674,
+          "right": 66.06643706152535,
+          "min_physical_width_over_sampled_band_D": 0.008745170431337186,
+          "max_physical_width_over_sampled_band_D": 0.025613139754051748,
+          "max_outer_u_over_halfwidth": 0.8980923846801465
+        }
+      },
+      "design_score": 1.9062835720913593e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.35,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.1948600729918954,
+      "fixed_physical_halfwidth": 0.14338320875902744,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.14338320875902744,
+        "closure_norm": 1.2945620556643448e-15,
+        "omega_period": -5.580589596813811e-14,
+        "speed_min": 0.46076930925415777,
+        "speed_max": 4.3170399357518985,
+        "speed_contrast": 9.369200268003622,
+        "sampled_band_diameter": 1.4816264905099503,
+        "sampled_max_abs_principal_curvature": 38505.23159132818,
+        "local_principal_radius_over_sampled_band_D": 1.7528369752222244e-05,
+        "characteristic_strip": {
+          "left": 18.944135521878092,
+          "right": 37.888271043756184,
+          "min_physical_width_over_sampled_band_D": 0.00966757005093376,
+          "max_physical_width_over_sampled_band_D": 0.04847663209403108,
+          "max_outer_u_over_halfwidth": 0.8798081055698657
+        }
+      },
+      "design_score": 1.7528369752222244e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.35,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.285789868948138,
+      "fixed_physical_halfwidth": 0.03857369606844414,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.03857369606844414,
+        "closure_norm": 8.9141752536673e-16,
+        "omega_period": 2.7902947984069054e-15,
+        "speed_min": 0.5864887460329057,
+        "speed_max": 3.9250415966240046,
+        "speed_contrast": 6.692441454629012,
+        "sampled_band_diameter": 1.3610927206374088,
+        "sampled_max_abs_principal_curvature": 71009.63557180467,
+        "local_principal_radius_over_sampled_band_D": 1.0346536755027875e-05,
+        "characteristic_strip": {
+          "left": 57.288461927063906,
+          "right": 114.57692385412781,
+          "min_physical_width_over_sampled_band_D": 0.00543202130627799,
+          "max_physical_width_over_sampled_band_D": 0.013335911573250018,
+          "max_outer_u_over_halfwidth": 0.9077348187191298
+        }
+      },
+      "design_score": 1.0346536755027875e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.35,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.285789868948138,
+      "fixed_physical_halfwidth": 0.07714739213688827,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.07714739213688827,
+        "closure_norm": 8.9141752536673e-16,
+        "omega_period": 2.7902947984069054e-15,
+        "speed_min": 0.5864887460329057,
+        "speed_max": 3.9250415966240046,
+        "speed_contrast": 6.692441454629012,
+        "sampled_band_diameter": 1.4365885583440854,
+        "sampled_max_abs_principal_curvature": 71009.63557180352,
+        "local_principal_radius_over_sampled_band_D": 9.802803857291382e-06,
+        "characteristic_strip": {
+          "left": 31.788502959937546,
+          "right": 63.57700591987509,
+          "min_physical_width_over_sampled_band_D": 0.006732147188104412,
+          "max_physical_width_over_sampled_band_D": 0.026445019761766615,
+          "max_outer_u_over_halfwidth": 0.8872787838227432
+        }
+      },
+      "design_score": 9.802803857291382e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.35,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.285789868948138,
+      "fixed_physical_halfwidth": 0.15429478427377655,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.15429478427377655,
+        "closure_norm": 8.9141752536673e-16,
+        "omega_period": 2.7902947984069054e-15,
+        "speed_min": 0.5864887460329057,
+        "speed_max": 3.9250415966240046,
+        "speed_contrast": 6.692441454629012,
+        "sampled_band_diameter": 1.5880490306293096,
+        "sampled_max_abs_principal_curvature": 51331.88555954277,
+        "local_principal_radius_over_sampled_band_D": 1.22672968761529e-05,
+        "characteristic_strip": {
+          "left": 19.39257796363761,
+          "right": 38.78515592727522,
+          "min_physical_width_over_sampled_band_D": 0.006810944564688439,
+          "max_physical_width_over_sampled_band_D": 0.050248657920220596,
+          "max_outer_u_over_halfwidth": 0.864720399843369
+        }
+      },
+      "design_score": 1.22672968761529e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.35,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.43715703238795,
+      "fixed_physical_halfwidth": 0.04311471097163849,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.04311471097163849,
+        "closure_norm": 6.688316324520218e-16,
+        "omega_period": -1.0463605494025895e-14,
+        "speed_min": 0.6883097088858406,
+        "speed_max": 3.6531100494205444,
+        "speed_contrast": 5.307363825121389,
+        "sampled_band_diameter": 1.521522494596584,
+        "sampled_max_abs_principal_curvature": 126961.067964007,
+        "local_principal_radius_over_sampled_band_D": 5.176676853112898e-06,
+        "characteristic_strip": {
+          "left": 52.41737943014678,
+          "right": 104.83475886029356,
+          "min_physical_width_over_sampled_band_D": 0.004430790452380459,
+          "max_physical_width_over_sampled_band_D": 0.013691745028387116,
+          "max_outer_u_over_halfwidth": 0.893186675272009
+        }
+      },
+      "design_score": 5.176676853112898e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.35,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.43715703238795,
+      "fixed_physical_halfwidth": 0.08622942194327698,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.08622942194327698,
+        "closure_norm": 6.688316324520218e-16,
+        "omega_period": -1.0463605494025895e-14,
+        "speed_min": 0.6883097088858406,
+        "speed_max": 3.6531100494205444,
+        "speed_contrast": 5.307363825121389,
+        "sampled_band_diameter": 1.606367592938401,
+        "sampled_max_abs_principal_curvature": 116138.65482536238,
+        "local_principal_radius_over_sampled_band_D": 5.3601664294250725e-06,
+        "characteristic_strip": {
+          "left": 30.600999549600036,
+          "right": 61.20199909920007,
+          "min_physical_width_over_sampled_band_D": 0.005024907329973808,
+          "max_physical_width_over_sampled_band_D": 0.0270705974578519,
+          "max_outer_u_over_halfwidth": 0.8769882244113874
+        }
+      },
+      "design_score": 5.3601664294250725e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.35,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.43715703238795,
+      "fixed_physical_halfwidth": 0.17245884388655397,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.17245884388655397,
+        "closure_norm": 6.688316324520218e-16,
+        "omega_period": -1.0463605494025895e-14,
+        "speed_min": 0.6883097088858406,
+        "speed_max": 3.6531100494205444,
+        "speed_contrast": 5.307363825121389,
+        "sampled_band_diameter": 1.7764490711959293,
+        "sampled_max_abs_principal_curvature": 23989.178908884183,
+        "local_principal_radius_over_sampled_band_D": 2.346561037600245e-05,
+        "characteristic_strip": {
+          "left": 19.69552607220173,
+          "right": 39.39105214440346,
+          "min_physical_width_over_sampled_band_D": 0.0047717486576760925,
+          "max_physical_width_over_sampled_band_D": 0.05167079004955942,
+          "max_outer_u_over_halfwidth": 0.8468789762455212
+        }
+      },
+      "design_score": 2.346561037600245e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.5,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.9745833906229562,
+      "fixed_physical_halfwidth": 0.05923750171868868,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.05923750171868868,
+        "closure_norm": 1.0992215932351279e-15,
+        "omega_period": -6.9757369960172635e-15,
+        "speed_min": 0.4297520661157025,
+        "speed_max": 4.425746176088126,
+        "speed_contrast": 10.298370909743523,
+        "sampled_band_diameter": 2.093058394060334,
+        "sampled_max_abs_principal_curvature": 6674.8485977698165,
+        "local_principal_radius_over_sampled_band_D": 7.157761705758698e-05,
+        "characteristic_strip": {
+          "left": 39.827220017312214,
+          "right": 79.65444003462443,
+          "min_physical_width_over_sampled_band_D": 0.004525307290293327,
+          "max_physical_width_over_sampled_band_D": 0.012969158995196284,
+          "max_outer_u_over_halfwidth": 0.9072782001915749
+        }
+      },
+      "design_score": 7.157761705758698e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.5,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.9745833906229562,
+      "fixed_physical_halfwidth": 0.11847500343737737,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.11847500343737737,
+        "closure_norm": 1.0992215932351279e-15,
+        "omega_period": -6.9757369960172635e-15,
+        "speed_min": 0.4297520661157025,
+        "speed_max": 4.425746176088126,
+        "speed_contrast": 10.298370909743523,
+        "sampled_band_diameter": 2.2115333974977114,
+        "sampled_max_abs_principal_curvature": 11896.473621367739,
+        "local_principal_radius_over_sampled_band_D": 3.800915824616879e-05,
+        "characteristic_strip": {
+          "left": 20.392831222217502,
+          "right": 40.785662444435005,
+          "min_physical_width_over_sampled_band_D": 0.007951861764742843,
+          "max_physical_width_over_sampled_band_D": 0.024862065571135235,
+          "max_outer_u_over_halfwidth": 0.9046833196737953
+        }
+      },
+      "design_score": 3.800915824616879e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.5,
+        "b": 1.1,
+        "c": 0.9090909090909091,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 1.9745833906229562,
+      "fixed_physical_halfwidth": 0.23695000687475473,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.23695000687475473,
+        "closure_norm": 1.0992215932351279e-15,
+        "omega_period": -6.9757369960172635e-15,
+        "speed_min": 0.4297520661157025,
+        "speed_max": 4.425746176088126,
+        "speed_contrast": 10.298370909743523,
+        "sampled_band_diameter": 2.448483404372466,
+        "sampled_max_abs_principal_curvature": 11896.473621367742,
+        "local_principal_radius_over_sampled_band_D": 3.433085260944276e-05,
+        "characteristic_strip": {
+          "left": 10.849830686376201,
+          "right": 21.699661372752402,
+          "min_physical_width_over_sampled_band_D": 0.008841481607671496,
+          "max_physical_width_over_sampled_band_D": 0.046354568438681604,
+          "max_outer_u_over_halfwidth": 0.8964227655367126
+        }
+      },
+      "design_score": 3.433085260944276e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.5,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.0835686709801977,
+      "fixed_physical_halfwidth": 0.06250706012940593,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.06250706012940593,
+        "closure_norm": 8.241198161660065e-16,
+        "omega_period": 2.7902947984069054e-15,
+        "speed_min": 0.5470085470085471,
+        "speed_max": 4.045775100185871,
+        "speed_contrast": 7.3961826050272945,
+        "sampled_band_diameter": 2.2085827912390097,
+        "sampled_max_abs_principal_curvature": 28308.589518635934,
+        "local_principal_radius_over_sampled_band_D": 1.59944048615751e-05,
+        "characteristic_strip": {
+          "left": 36.511782050627616,
+          "right": 73.02356410125523,
+          "min_physical_width_over_sampled_band_D": 0.005048854792879151,
+          "max_physical_width_over_sampled_band_D": 0.013064304655022459,
+          "max_outer_u_over_halfwidth": 0.9059680394526829
+        }
+      },
+      "design_score": 1.59944048615751e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.5,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.0835686709801977,
+      "fixed_physical_halfwidth": 0.12501412025881187,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.12501412025881187,
+        "closure_norm": 8.241198161660065e-16,
+        "omega_period": 2.7902947984069054e-15,
+        "speed_min": 0.5470085470085471,
+        "speed_max": 4.045775100185871,
+        "speed_contrast": 7.3961826050272945,
+        "sampled_band_diameter": 2.3335969114978217,
+        "sampled_max_abs_principal_curvature": 27082.633118411475,
+        "local_principal_radius_over_sampled_band_D": 1.5822797578434828e-05,
+        "characteristic_strip": {
+          "left": 19.15894024385806,
+          "right": 38.31788048771612,
+          "min_physical_width_over_sampled_band_D": 0.006403762646764897,
+          "max_physical_width_over_sampled_band_D": 0.0254125825626949,
+          "max_outer_u_over_halfwidth": 0.8991555092449586
+        }
+      },
+      "design_score": 1.5822797578434828e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.5,
+        "b": 1.3,
+        "c": 0.7692307692307692,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.0835686709801977,
+      "fixed_physical_halfwidth": 0.25002824051762373,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.25002824051762373,
+        "closure_norm": 8.241198161660065e-16,
+        "omega_period": 2.7902947984069054e-15,
+        "speed_min": 0.5470085470085471,
+        "speed_max": 4.045775100185871,
+        "speed_contrast": 7.3961826050272945,
+        "sampled_band_diameter": 2.583625152015445,
+        "sampled_max_abs_principal_curvature": 11394.203113855965,
+        "local_principal_radius_over_sampled_band_D": 3.396929544012949e-05,
+        "characteristic_strip": {
+          "left": 10.746467323674569,
+          "right": 21.492934647349138,
+          "min_physical_width_over_sampled_band_D": 0.006462900493380641,
+          "max_physical_width_over_sampled_band_D": 0.04782360320612018,
+          "max_outer_u_over_halfwidth": 0.8859464619109202
+        }
+      },
+      "design_score": 3.396929544012949e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.5,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.1957861341426286,
+      "fixed_physical_halfwidth": 0.06587358402427886,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.06587358402427886,
+        "closure_norm": 1.9229321943175046e-15,
+        "omega_period": 1.32539002924328e-14,
+        "speed_min": 0.6419753086419754,
+        "speed_max": 3.787175602026497,
+        "speed_contrast": 5.899254303156658,
+        "sampled_band_diameter": 2.327533302191186,
+        "sampled_max_abs_principal_curvature": 50346.07520678967,
+        "local_principal_radius_over_sampled_band_D": 8.53372171163409e-06,
+        "characteristic_strip": {
+          "left": 34.2487592560097,
+          "right": 68.4975185120194,
+          "min_physical_width_over_sampled_band_D": 0.004396721434331313,
+          "max_physical_width_over_sampled_band_D": 0.013261489492688228,
+          "max_outer_u_over_halfwidth": 0.9021413845557216
+        }
+      },
+      "design_score": 8.53372171163409e-06
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.5,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.1957861341426286,
+      "fixed_physical_halfwidth": 0.1317471680485577,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.1317471680485577,
+        "closure_norm": 1.9229321943175046e-15,
+        "omega_period": 1.32539002924328e-14,
+        "speed_min": 0.6419753086419754,
+        "speed_max": 3.787175602026497,
+        "speed_contrast": 5.899254303156658,
+        "sampled_band_diameter": 2.459280470239744,
+        "sampled_max_abs_principal_curvature": 35537.685092991655,
+        "local_principal_radius_over_sampled_band_D": 1.1442022682634401e-05,
+        "characteristic_strip": {
+          "left": 18.62275534298795,
+          "right": 37.2455106859759,
+          "min_physical_width_over_sampled_band_D": 0.005101177249787851,
+          "max_physical_width_over_sampled_band_D": 0.025901744352596765,
+          "max_outer_u_over_halfwidth": 0.8927129335382998
+        }
+      },
+      "design_score": 1.1442022682634401e-05
+    },
+    {
+      "parameters": {
+        "kind": "symmetric",
+        "q": 4,
+        "a": 0.5,
+        "b": 1.5,
+        "c": 0.6666666666666666,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": null,
+      "reference_centerline_sampled_D": 2.1957861341426286,
+      "fixed_physical_halfwidth": 0.2634943360971154,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.2634943360971154,
+        "closure_norm": 1.9229321943175046e-15,
+        "omega_period": 1.32539002924328e-14,
+        "speed_min": 0.6419753086419754,
+        "speed_max": 3.787175602026497,
+        "speed_contrast": 5.899254303156658,
+        "sampled_band_diameter": 2.7227748063368593,
+        "sampled_max_abs_principal_curvature": 21622.511872755487,
+        "local_principal_radius_over_sampled_band_D": 1.6985648489163723e-05,
+        "characteristic_strip": {
+          "left": 10.904854433528728,
+          "right": 21.809708867057456,
+          "min_physical_width_over_sampled_band_D": 0.004786987361234564,
+          "max_physical_width_over_sampled_band_D": 0.04895101364637583,
+          "max_outer_u_over_halfwidth": 0.8756629822904545
+        }
+      },
+      "design_score": 1.6985648489163723e-05
+    },
+    {
+      "parameters": {
+        "kind": "curvature",
+        "q": 3,
+        "a": 0.3333333333333333,
+        "b": 0.85,
+        "c": 1.1764705882352942,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": 13.891842650638107,
+      "reference_centerline_sampled_D": 10.082566083020303,
+      "fixed_physical_halfwidth": 0.3024769824906091,
+      "width_over_reference_D": 0.03,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.3024769824906091,
+        "closure_norm": 7.82921471796894e-13,
+        "omega_period": 1.473624440408647e-14,
+        "speed_min": 1.9753633652887423,
+        "speed_max": 130.86124927852217,
+        "speed_contrast": 66.24667217081549,
+        "sampled_band_diameter": 10.68639944098114,
+        "sampled_max_abs_principal_curvature": 3.1046245471095055,
+        "local_principal_radius_over_sampled_band_D": 0.03014112857837425,
+        "characteristic_strip": {
+          "left": 30.24853209984571,
+          "right": 60.49706419969142,
+          "min_physical_width_over_sampled_band_D": 0.0021742086264631296,
+          "max_physical_width_over_sampled_band_D": 0.013036277536371314,
+          "max_outer_u_over_halfwidth": 0.9322177781206836
+        }
+      },
+      "design_score": 0.0021742086264631296,
+      "dense_same_geometry": {
+        "theta_n": 4096,
+        "width_samples": 65,
+        "halfwidth": 0.3024769824906091,
+        "closure_norm": 1.8193542453758692e-14,
+        "omega_period": -1.2207539743030211e-15,
+        "speed_min": 1.9753633447755423,
+        "speed_max": 130.979845057803,
+        "speed_contrast": 66.30671030938161,
+        "sampled_band_diameter": 10.686420873144618,
+        "sampled_max_abs_principal_curvature": 3.1046245471095055,
+        "local_principal_radius_over_sampled_band_D": 0.030141068128799707,
+        "characteristic_strip": {
+          "left": 30.261677166301666,
+          "right": 60.52335433260333,
+          "min_physical_width_over_sampled_band_D": 0.0021732605367461287,
+          "max_physical_width_over_sampled_band_D": 0.013029900037706868,
+          "max_outer_u_over_halfwidth": 0.9322189443079567
+        }
+      },
+      "normal_chord_screen": {
+        "theta_n": 512,
+        "width_n": 13,
+        "sampled_band_diameter": 10.685946247714181,
+        "normal_ball_ratio_sample_min": 0.09440178214746271,
+        "normal_ball_ratio_sample_min_over_sampled_D": 0.008834199607513102,
+        "pair_indices": [
+          1272,
+          3483
+        ],
+        "status": "Finite necessary-scale screen only; no lower reach bound or embedding certificate"
+      }
+    },
+    {
+      "parameters": {
+        "kind": "curvature",
+        "q": 3,
+        "a": 0.3333333333333333,
+        "b": 0.85,
+        "c": 1.1764705882352942,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": 13.891842650638107,
+      "reference_centerline_sampled_D": 10.082566083020303,
+      "fixed_physical_halfwidth": 0.6049539649812182,
+      "width_over_reference_D": 0.06,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 0.6049539649812182,
+        "closure_norm": 7.82921471796894e-13,
+        "omega_period": 1.473624440408647e-14,
+        "speed_min": 1.9753633652887423,
+        "speed_max": 130.86124927852217,
+        "speed_contrast": 66.24667217081549,
+        "sampled_band_diameter": 11.290300364788335,
+        "sampled_max_abs_principal_curvature": 10.407791028544413,
+        "local_principal_radius_over_sampled_band_D": 0.008510125021725058,
+        "characteristic_strip": {
+          "left": 17.222212838006257,
+          "right": 34.444425676012514,
+          "min_physical_width_over_sampled_band_D": 0.0036116206828869443,
+          "max_physical_width_over_sampled_band_D": 0.02730848885025271,
+          "max_outer_u_over_halfwidth": 0.8721991949973472
+        }
+      },
+      "design_score": 0.0036116206828869443,
+      "dense_same_geometry": {
+        "theta_n": 4096,
+        "width_samples": 65,
+        "halfwidth": 0.6049539649812182,
+        "closure_norm": 1.8193542453758692e-14,
+        "omega_period": -1.2207539743030211e-15,
+        "speed_min": 1.9753633447755423,
+        "speed_max": 130.979845057803,
+        "speed_contrast": 66.30671030938161,
+        "sampled_band_diameter": 11.290323557441763,
+        "sampled_max_abs_principal_curvature": 10.41535421147171,
+        "local_principal_radius_over_sampled_band_D": 0.008503927865554968,
+        "characteristic_strip": {
+          "left": 17.22319764018096,
+          "right": 34.44639528036192,
+          "min_physical_width_over_sampled_band_D": 0.0036114070274109126,
+          "max_physical_width_over_sampled_band_D": 0.027308467192353227,
+          "max_outer_u_over_halfwidth": 0.8721985961357208
+        }
+      },
+      "normal_chord_screen": {
+        "theta_n": 512,
+        "width_n": 13,
+        "sampled_band_diameter": 11.289773650809362,
+        "normal_ball_ratio_sample_min": 0.027240657738393466,
+        "normal_ball_ratio_sample_min_over_sampled_D": 0.0024128612832233875,
+        "pair_indices": [
+          3470,
+          1265
+        ],
+        "status": "Finite necessary-scale screen only; no lower reach bound or embedding certificate"
+      }
+    },
+    {
+      "parameters": {
+        "kind": "curvature",
+        "q": 3,
+        "a": 0.3333333333333333,
+        "b": 0.85,
+        "c": 1.1764705882352942,
+        "power": 1.0,
+        "center": -3.0,
+        "sigma": 1.5,
+        "reference_n": 32768
+      },
+      "amplitude": 13.891842650638107,
+      "reference_centerline_sampled_D": 10.082566083020303,
+      "fixed_physical_halfwidth": 1.2099079299624365,
+      "width_over_reference_D": 0.12,
+      "coarse": {
+        "theta_n": 1024,
+        "width_samples": 65,
+        "halfwidth": 1.2099079299624365,
+        "closure_norm": 7.82921471796894e-13,
+        "omega_period": 1.473624440408647e-14,
+        "speed_min": 1.9753633652887423,
+        "speed_max": 130.86124927852217,
+        "speed_contrast": 66.24667217081549,
+        "sampled_band_diameter": 12.498265686129555,
+        "sampled_max_abs_principal_curvature": 661.7008623761603,
+        "local_principal_radius_over_sampled_band_D": 0.00012091732941329716,
+        "characteristic_strip": {
+          "left": 11.345410977067175,
+          "right": 22.69082195413435,
+          "min_physical_width_over_sampled_band_D": 0.004942736033556161,
+          "max_physical_width_over_sampled_band_D": 0.051953478456916245,
+          "max_outer_u_over_halfwidth": 0.8381849091681222
+        }
+      },
+      "design_score": 0.00012091732941329716,
+      "dense_same_geometry": {
+        "theta_n": 4096,
+        "width_samples": 65,
+        "halfwidth": 1.2099079299624365,
+        "closure_norm": 1.8193542453758692e-14,
+        "omega_period": -1.2207539743030211e-15,
+        "speed_min": 1.9753633447755423,
+        "speed_max": 130.979845057803,
+        "speed_contrast": 66.30671030938161,
+        "sampled_band_diameter": 12.498285402614947,
+        "sampled_max_abs_principal_curvature": 661.7008623761603,
+        "local_principal_radius_over_sampled_band_D": 0.0001209171386619515,
+        "characteristic_strip": {
+          "left": 11.346091306244743,
+          "right": 22.692182612489486,
+          "min_physical_width_over_sampled_band_D": 0.0049424343211208685,
+          "max_physical_width_over_sampled_band_D": 0.05195345568623274,
+          "max_outer_u_over_halfwidth": 0.8381838030423328
+        }
+      },
+      "normal_chord_screen": {
+        "theta_n": 512,
+        "width_n": 13,
+        "sampled_band_diameter": 12.497615300267427,
+        "normal_ball_ratio_sample_min": 0.004597491374755753,
+        "normal_ball_ratio_sample_min_over_sampled_D": 0.0003678694906425368,
+        "pair_indices": [
+          1378,
+          1391
+        ],
+        "status": "Finite necessary-scale screen only; no lower reach bound or embedding certificate"
+      }
+    }
+  ],
+  "script_sha256": "aa08eaedff3f1f5d49f87b25c34b7c6e7db8f20393ccb70d45ef3a31cad9d0f4",
+  "task_complete": false,
+  "caveats": [
+    "All widths and seed parameters label distinct geometry designs.",
+    "Normal-ball pair minima and curvature samples give necessary screens, not certified reach lower bounds.",
+    "The curve primitive removes explicitly reported closure quadrature defects.",
+    "No continuous isometric path, closed cap, fixed hold, or amplitude claim is made."
+  ]
+}

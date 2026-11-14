@@ -1,0 +1,71 @@
+{
+  "schema": "visible-new-mechanism-actions-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "source_commit": "f9699c5c2f3f336b332c60d3a9472bffe6f1ba59",
+  "run_id": "43586501855",
+  "run_attempt": "1",
+  "lane": "band_geometry",
+  "destination": "topics/visible-flex-new-mechanism/notes/actions-43586501855-1-band_geometry",
+  "design_is_not_fixed_metric_refinement": true,
+  "task_complete": false,
+  "source_files": {
+    "README.md": {
+      "sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "bytes": 8842
+    },
+    "topics/visible-flex-new-mechanism/README.md": {
+      "sha256": "e685cff0e67e6851a7911d4e9efbae0e7d326e093927af177f716f059b8c566b",
+      "bytes": 3725
+    },
+    ".github/workflows/visible-new-mechanism-search.yml": {
+      "sha256": "e28e34b213370947cbbe3997625d8633b6a8dca35199a379e3116aa5a60ea8c8",
+      "bytes": 9876
+    },
+    "topics/visible-flex-new-mechanism/scripts/eccentric_collar_search.py": {
+      "sha256": "aba9a55dec98f713433a15a885578c79993005ce6b2df4dd1515271866131489",
+      "bytes": 23325
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_band_seed.py": {
+      "sha256": "fca423bff76d2a5c28d6406349a4217223c8a18f641e7e6307fddf89e75b05e8",
+      "bytes": 10101
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_band_kernel.py": {
+      "sha256": "ed266a35a1abedde398df2d4c7d457ae92bc5bbd88bbf727dd3870803c0e0bd1",
+      "bytes": 19288
+    },
+    "topics/visible-flex-new-mechanism/scripts/mixed_mode_gc_flow.py": {
+      "sha256": "5f979125ed130570e49cd4ad1a7375801c5be95be0abd5dbd0d60ebdf4e5e05a",
+      "bytes": 9580
+    },
+    "topics/visible-flex-new-mechanism/scripts/publish_actions.py": {
+      "sha256": "38c5dc1d1abc9585001d04208a046bd2265ddecb033d2a3a10a777ce39cd1225",
+      "bytes": 13158
+    },
+    "topics/visible-flex-new-mechanism/notes/eccentric-search-design-002-curvature-seed.json": {
+      "sha256": "74e963198867c8e97257398449f38e0fcaf4ea73324e44237f5bc1ddcde02b30",
+      "bytes": 18089
+    },
+    "topics/visible-flex-new-mechanism/computations/request.json": {
+      "sha256": "d24a297d40242d93d23e2b30071437f27fc9c93b8876396ed4e69169f5f7d399",
+      "bytes": 591
+    }
+  },
+  "outputs": [
+    {
+      "path": "band-geometry-scan.json",
+      "bytes": 119394,
+      "sha256": "a833822121153cec5c8602b44c16172339075448836fee883ee13de7a7158a10",
+      "raw_bytes": 119394,
+      "raw_sha256": "a833822121153cec5c8602b44c16172339075448836fee883ee13de7a7158a10"
+    }
+  ],
+  "pulls": [
+    {
+      "before": "f9699c5c2f3f336b332c60d3a9472bffe6f1ba59",
+      "after": "f9699c5c2f3f336b332c60d3a9472bffe6f1ba59",
+      "remote_main": "f9699c5c2f3f336b332c60d3a9472bffe6f1ba59",
+      "readmes_unchanged": true
+    }
+  ],
+  "readmes_read_commit": "f9699c5c2f3f336b332c60d3a9472bffe6f1ba59"
+}
