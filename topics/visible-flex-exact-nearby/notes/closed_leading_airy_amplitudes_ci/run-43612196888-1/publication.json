@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43612196888",
+  "reviewed_pull_history": [
+    {
+      "before": "8bb6346674fb4f2cbbfa98b89cb0b68801088208",
+      "after": "8bb6346674fb4f2cbbfa98b89cb0b68801088208",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "8bb6346674fb4f2cbbfa98b89cb0b68801088208",
+      "after": "8bb6346674fb4f2cbbfa98b89cb0b68801088208",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/closed-leading-airy-amplitudes.json.gz",
+      "bytes": 3154,
+      "sha256": "1c00bf9f6d80343b96bdabf2ce2b07f1f3461851ad0783b9a2a59a495d141cdd",
+      "original_sha256": "1c00bf9f6d80343b96bdabf2ce2b07f1f3461851ad0783b9a2a59a495d141cdd"
+    },
+    {
+      "file": "consumers/closed-leading-airy-amplitudes.stdout.log",
+      "bytes": 344,
+      "sha256": "284add51d61f6e624cdb4cf373497b8a217b82800b553cafc57daec283c07d4b",
+      "original_sha256": "284add51d61f6e624cdb4cf373497b8a217b82800b553cafc57daec283c07d4b"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 14413,
+      "sha256": "35e3935f5a039731b2d3c71dfb0c323b51f3fb1afa912695a48d8beb96ace331",
+      "original_sha256": "35e3935f5a039731b2d3c71dfb0c323b51f3fb1afa912695a48d8beb96ace331"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 12829,
+      "sha256": "7166fb7c339f9e951c4acb2d72673dbecabf89aa8292cff6c2bcbe30fdfd5f0a",
+      "original_sha256": "7166fb7c339f9e951c4acb2d72673dbecabf89aa8292cff6c2bcbe30fdfd5f0a"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2017,
+      "sha256": "ea38b1359de74b307d2bdabcbf7c81e2adc6ec399e1ff6ecd76a42729756431c",
+      "original_sha256": "ea38b1359de74b307d2bdabcbf7c81e2adc6ec399e1ff6ecd76a42729756431c"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}

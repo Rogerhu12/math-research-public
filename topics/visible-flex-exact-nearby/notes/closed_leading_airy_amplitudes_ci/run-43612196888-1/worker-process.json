@@ -1,0 +1,44 @@
+{
+  "kind": "actual_public_closed_leading_Airy_amplitudes_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43612196888",
+  "run_attempt": "1",
+  "workflow_commit": "8bb6346674fb4f2cbbfa98b89cb0b68801088208",
+  "worker_sha256": "5d7b8b6e98930b84d2f9d46b59d66fc92cb2a9cc2c53080625c48372991d3628",
+  "manifest_sha256": "9f6c60a2395c11ec04d9fbc69aadc6fcd0be6717ebdead8ba9d76d7c371cf5a8",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T15:49:29.424636+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "8bb6346674fb4f2cbbfa98b89cb0b68801088208",
+      "after": "8bb6346674fb4f2cbbfa98b89cb0b68801088208",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "8bb6346674fb4f2cbbfa98b89cb0b68801088208",
+      "after": "8bb6346674fb4f2cbbfa98b89cb0b68801088208",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-closed-leading-airy-amplitudes-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_closed_leading_Airy_amplitudes_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-closed-leading-airy-amplitudes-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-closed-leading-airy-amplitudes-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-closed-leading-Airy-amplitudes-CI-inputs.json",
+    "--manifest-sha",
+    "9f6c60a2395c11ec04d9fbc69aadc6fcd0be6717ebdead8ba9d76d7c371cf5a8",
+    "--out-dir",
+    "/__w/_temp/visible-exact-closed-leading-airy-amplitudes-output/consumers"
+  ],
+  "complete_original_inputs_verified": 13,
+  "actual_scientific_checkout_commit": "8bb6346674fb4f2cbbfa98b89cb0b68801088208",
+  "mathematical_wall_seconds": 0.714921535000002
+}
