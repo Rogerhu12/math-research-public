@@ -1,43 +1,27 @@
 {
-  "request": "one-fixed-g-current-height-constrained-joint-pilot-and-artificial-core-transport",
-  "created_at": "2026-11-14 19:37:16 UTC",
+  "request": "complete-T-pre-reduced-full-phase-and-new-core-audit-artificial-IO",
+  "created_at": "2026-11-14 19:44:32 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "quartic_joint_audit",
-    "core_transport_development"
+    "full_phase_bridge_exact",
+    "core_transport_initial_development"
   ],
   "source_sha256": {
-    "frame_joint_height_objective.py": "c1a92c46590783fcda8867a5304ab3fcc3c670ad58fce0f079737512f9af69fb",
-    "frame_height_quartic_joint_audit.py": "5d65c998eb59274ebccc306f78d1f72918b4590cca14adf7ce98b8c7a833cad9",
-    "frame_core_transport.py": "ea7990328c979f02be7b83db307f5d1b94e69d0ede3e1cc34d9b37a1f357f21d"
+    "literature_full_phase_bridge_exact.py": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e",
+    "frame_core_transport_audit.py": "fbe810c9b19a2bc56b8e91391f79debd314bf56b1deec11c59a4489eb85c03c9"
   },
-  "joint_development_pass": {
-    "run": 43632772378,
-    "source_commit": "31a276f6f4b2361d10bea9a46fea307a951bb639",
-    "report_sha256": "c541e0c94d683e08f82430632e025b5464ad95349123e00485a155b428587439"
-  },
-  "actual_joint_scope": {
-    "fixed_target_metric_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
-    "dimension": 163,
-    "quartic_maxiter": 120,
-    "quartic_maxeval": 300,
-    "quartic_seconds": 30,
-    "joint_maxiter": 80,
-    "joint_maxeval": 120,
-    "joint_seconds": 300,
-    "one_quartic_then_one_joint_only": true,
-    "hard_constraints": [
-      "unchanged cap height row",
-      "current signed z nonlinear geometry",
-      "original uv and height boxes; new Q [-8,8]"
-    ],
-    "baseline": 43630874689,
-    "same_state_final_angular_nodes": [
-      384,
-      768
-    ]
-  },
-  "core_transport_artificial_only": true,
-  "research_core_B037_not_requested": true,
+  "full_phase_previous_run": 43632772378,
+  "full_phase_previous_exit": "300-second response-column resource limit after 141 of 152 columns; no joint matching conclusion",
+  "new_full_phase_algorithm": [
+    "exact linear dependencies in complete unsymmetrized third templates",
+    "fresh original-form verification of every removed template",
+    "absorb reachable full endpoint baseline before quartic responses",
+    "same real control coefficients jointly match -4 and -2; final original baseline and templates verified"
+  ],
+  "full_phase_default_seconds_unchanged": 300,
+  "core_initial_artificial_only": true,
+  "actual_new_B037_not_requested": true,
+  "old_B_joint_prior_run": 43633105146,
+  "old_B_joint_status": "stopped before either optimizer at last-bit numerical polytope reconstruction equality; original published A/b retained for specific repair",
   "task_complete": false
 }

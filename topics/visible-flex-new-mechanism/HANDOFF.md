@@ -4,7 +4,7 @@
 
 ## 1. 授权、规则与环境
 
-根/本题README已全文读。公开仓库最后已读规则提交：`f00519586fea9577bff5c5472b600d69e8245310`。每次实际pull --rebase后立刻比两README；有变只读差异执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核README、重推至成功，绝不force。私有19:20:16 UTC实际pull至`7943e238737119df3b4a564b854335f4b226debc`，双规则路径无差，本题私有README不存在；QUEUE唯一行本会话进行中；下一私有pull不晚于20:19 UTC。
+根/本题README已全文读。公开仓库最后已读规则提交：`1f4fd588dc7b58151424339779c8f6d99ed7d26e`。每次实际pull --rebase后立刻比两README；有变只读差异执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核README、重推至成功，绝不force。私有19:20:16 UTC实际pull至`7943e238737119df3b4a564b854335f4b226debc`，双规则路径无差，本题私有README不存在；QUEUE唯一行本会话进行中；下一私有pull不晚于20:19 UTC。
 
 真实几何、ODE/积分、优化与完整研究符号编译只用本公开仓库GitHub Actions。本地仅纸面代数、小人工开发、源码/公开输出解析；不伪造Actions环境。PAT仅瞬时CLI/env，绝不文件/提交/日志。根规则12：不把冻结、独立复核、逐字归档或重复清单设为推进前置；完整证明直接登记results并同步索引。
 
@@ -34,9 +34,9 @@ short完整第三输入：`notes/actions-43627111925-1-short_entry_audit/frame-e
 
 ## 4. 几何正在实施的下一步
 
-`frame_height_quartic.py` e4105426…准确压缩固定T高度目标，保九高度poly全部A/b/原盒，解析grad/Hess。公开dev43631537869/source4e60f25c通过：grad8.62e−12、Hess2.67e−11、Horner≤1.34e−15；逐圈无约束四次极小/S仅数值必要诊断，不是严格下界。准备一次120iter/300eval/30s四次阶段，再完整重构。
+`frame_height_quartic.py` e4105426…准确压缩固定T高度目标，保九高度poly全部A/b/原盒，解析grad/Hess。公开dev43631537869通过：grad8.62e−12、Hess2.67e−11；逐圈无约束四次极小/S仅数值必要诊断，不是严格下界。准备一次120iter/300eval/30s四次阶段，再完整重构。
 
-`frame_entry_single_q.py` b0744e42…加一个W5 B3·归一(kθ/k³) v列，162→163；q=0数学上准确含父场，g/b0不变。公开dev43630999193通过，zero-Q六jet全0，Jac≤1.02e−8。新Q盒明确[-8,8]。联合全链dev43632772378已pass（动态z Jac1.86e−11、零Q六jet全0、四输入/数值poly/失败保best均过）；现请求一次actual80iter/120eval/300s：原u/v盒[-8,8]、height[-1,1]，硬帽高和**当前**signed-z非线性行；同一cached X/Jac供目标和约束。工作网格变更单列objective身份；初态同网评价，最后160×384/768同参数审计。uv变化时不得复用冻结T高度多面体。返回/best必须同时核cap、z、盒；ball/strip仍原目标和末门，不暗改阈值。
+`frame_entry_single_q.py` b0744e42…加一个W5 B3·归一(kθ/k³) v列，162→163；q=0数学上准确含父场，g/b0不变。公开dev43630999193通过，zero-Q六jet全0，Jac≤1.02e−8。新Q盒明确[-8,8]。联合全链dev43632772378已pass（动态z Jac1.86e−11、零Q六jet全0、四输入/数值poly/失败保best均过）；首actual43633105146在poly回放b差3.89e−16停止（A差0、尚无优化）；正修为保原A/b与明确末位对照，继续原80iter/120eval/300s：原u/v盒[-8,8]、height[-1,1]，硬帽高和**当前**signed-z非线性行；同一cached X/Jac供目标和约束。工作网格变更单列objective身份；初态同网评价，最后160×384/768同参数审计。uv变化时不得复用冻结T高度多面体。返回/best必须同时核cap、z、盒；ball/strip仍原目标和末门，不暗改阈值。
 
 帽高Gate c55fe53c公开dev43629262349已过；h=hbase+λᵀc、uv行0。R66当前τ.061只为较强设计必要门，h≥(81+sqrt3685)/1000+.001；README由D≥2仅迫τ.06。R74近等距必要镜像floor/|b|/S筛还须守ε<1前提；当前η>1不能冒满足。帽高不是全reach。新B=.36/.37须全core/端口/c0/g/参考重建，已有transport设计与R66分支表，非旧g精化。
 
@@ -52,8 +52,8 @@ pure old43628716304余76项；新word43630157008/sourcef3381b75余95项，10原�
 
 **新endpoint actual43632772378/source31a276f6 complete6.840s**：101行端点势商全fresh核，151cols代表rank18；真实端点势加入后，18个明确有理R71系数使pure P1原式余0！已登记R82及完整关系，摘要SHA622cd662…、关系fa33f51a…。旧pure阴性遗漏仿射端点项，不重复；本次只付−4，非全相位/完整第四。
 
-R78已证全P1=L(F,D)+Q(D,D)，四实函数或两复模式等价。R81已证真实H=[r0,s0]−3[r0,r1]保全部pure而对三矩光滑圆给非零−2；不冒mixed满射。pure仅核Q(q²,q²)，另需L(F,q²)+Q(d,q²)；同一真实参数共同匹配，不能独立调两mode。colored actual43632772378/source31a276f6于300s列响应阶段资源退出，152原模板，完整local/种子已核；将先消完整T线性冗余再同参配−4/−2，旧partial保留；diagonal τ不确定全T。全phase/P0/逐s ruling、更高阶收敛与宏观几何继续欠。R80已证完整真第三仿射类Tend+W及两mode实际函数商必要充分门；同类控制不再盲添。新core工厂ea799032已落地，人工43633105146双侧234列及全部身份/拒错已pass，正写独立单初态实际审计；真实B=.37尚未请求，不混旧g。
+R78已证全P1=L(F,D)+Q(D,D)，四实函数或两复模式等价。R81已证真实H=[r0,s0]−3[r0,r1]保全部pure而对三矩光滑圆给非零−2；不冒mixed满射。pure仅核Q(q²,q²)，另需L(F,q²)+Q(d,q²)；同一真实参数共同匹配，不能独立调两mode。colored actual43632772378/source31a276f6于300s列响应阶段资源退出，152原模板，完整local/种子已核；新d7513321已精确预消完整T及基准可达项，原式核删列/吸收/最终两mode，300s不变已再请求，旧partial保留；diagonal τ不确定全T。全phase/P0/逐s ruling、更高阶收敛与宏观几何继续欠。R80已证完整真第三仿射类Tend+W及两mode实际函数商必要充分门；同类控制不再盲添。新core工厂ea799032已落地，人工43633105146双侧234列及全部身份/拒错已pass，新单态driver fbe810c9已写，本次仅完整IO人工；真实B=.37尚未请求，不混旧g。
 
 ## 6. 连续推进
 
-quartic_joint_audit真实一次运行中（run43633105146）；core人工已过，新B单态driver在写；fullphase先修完整T冗余以继续同参两mode。子问题结束即接open下一项，不等待用户阶段批准。真实输出自动发布后实际pull并核两README，再同步H/log/open/results。原始文献及撤稿/成对等距/局部片的适用边界见notes/literature-20261114.md，不再以来源清单代替研究。
+当前请求fullphase预消修订actual与新B单态IO人工；旧Bjoint修已发表poly末位回放，不改原约束/盒/预算。子问题结束即接open下一项，不等待用户阶段批准。真实输出自动发布后实际pull并核两README，再同步H/log/open/results。原始文献及撤稿/成对等距/局部片的适用边界见notes/literature-20261114.md，不再以来源清单代替研究。

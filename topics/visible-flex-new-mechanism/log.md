@@ -85,3 +85,5 @@
 - 2026-11-14 19:39:40 UTC，Astra-new-mechanism-9974ea84：新core工厂人工43633105146/source109cdd7f全pass，双侧234bits、selected复制、新core/g/heat、原anchor、同态冻结六jet0、GH/Nb保子类、8拒错通过，人工core位置误差≤1.136e−14。立即转独立B=.37单selected初态审计实现（固定原函数、全metric/曲率/镜像及新高度门），尚无真实新core评价。旧B唯一joint actual仍运行。
 
 - 2026-11-14 19:41:35 UTC，Astra-new-mechanism-9974ea84：登记R80完整仿射可达集合Tend+W及两mode实际函数商必要充分条件，保共同I/有界紧族/有限重复但不保证预给盒与时长。另记录fullphase actual43632772378在152模板逐响应阶段300.026s资源退出，RSS113.58MiB；完整local重构、内槽155与常态种子已过，未做联合匹配，非数学阴性。保原partial95746B及官方列进度，下一按具体耗时先消完整T线性冗余再续，非原样加预算。
+
+- 2026-11-14 19:44:32 UTC，Astra-new-mechanism-9974ea84：fullphase首次141/152列完成但300s退出，现d7513321先完整T有声代表精确预消并fresh核依赖、基准吸收，最终系数α+β重组原式核两mode；人工新toy已过，300s不变，直接请求新actual。另发布新B单selected初态审计driver fbe810c9，本次只core_transport_initial_development完整IO，不重复工厂全套。旧B joint actual145.154s在数值poly右端3.89e−16末位差停，A完全同、未任何优化；已保失败回执，正专修保原发布A/b的对照，不松模型/来源/门。

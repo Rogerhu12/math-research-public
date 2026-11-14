@@ -26,7 +26,7 @@ import literature_pure_bulk_word_normal_form as words
 import literature_range_profile_algebra as formal
 
 
-SCHEMA = "visible-flex-complete-phase-third-bridge-exact-v1"
+SCHEMA = "visible-flex-complete-phase-third-bridge-exact-v2-pre-reduced"
 EXPECTED = {
     "exact": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70",
     "local": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0",
@@ -247,6 +247,86 @@ def verify_inner_symmetry(ring, expressions, normalizer):
     return checked
 
 
+def third_vector(expression, normalizer):
+    # Tag zero is only a row namespace for the trilinear-template space.
+    # It is not the physical fourth constant Fourier mode.
+    return colored.vector_from_modes({0: expression}, normalizer)
+
+
+def third_from_vector(vector, normalizer):
+    terms = {}
+    for (tag, monomial, word), coefficient in vector.items():
+        if tag != 0:
+            raise AssertionError("third-template row tag")
+        terms[(monomial, word)] = coefficient
+    return normalizer.word.to_old(words.WordExpr(normalizer.word, terms))
+
+
+def pre_reduce_templates(ring, templates, normalizer):
+    """Remove exact dependencies before computing expensive quartic responses.
+
+    The retained templates are an original subset, never independently fitted
+    mode columns. Every dropped template is checked from its original formula.
+    """
+    vectors = [third_vector(template, normalizer) for template in templates]
+    span = colored.JointSpan(vectors, ring.limits)
+    kept = span.independent
+    selected = set(kept)
+    fresh = colored.ColoredNormalizer(ring)
+    dependencies = []
+    for index, (template, vector) in enumerate(zip(templates, vectors)):
+        if index in selected:
+            continue
+        coefficients, residual = span.reduce(vector)
+        if residual or not set(coefficients).issubset(selected):
+            raise AssertionError("third-template pre-reduction representation")
+        original = template-sum((value*templates[j] for j, value in coefficients.items()), ring.number(0))
+        zero = fresh.word.expression(original)
+        if zero.terms:
+            raise AssertionError("third-template dependence failed original-form verification")
+        dependencies.append({"original_template_index": index,
+                             "original_basis_coefficients": [[j, str(v)] for j, v in sorted(coefficients.items())],
+                             "original_zero_sha256": zero.digest()})
+    return span, kept, {"input_template_count": len(templates),
+                        "retained_original_indices": kept,
+                        "template_representative_rank": len(kept),
+                        "verified_original_dependencies": dependencies,
+                        "actual_function_independence_claimed": False}
+
+
+def pre_reduce_baseline(ring, signature, all_templates, kept, span, normalizer):
+    """Absorb reachable baseline terms before computing the quartic response.
+
+    If baseline=sum(alpha_i*T_i)+R, the later solve uses target+B(R).
+    Final cancellation is -(alpha+beta), always checked on the old baseline.
+    """
+    old_to_new = {old: new for new, old in enumerate(kept)}
+    fresh = colored.ColoredNormalizer(ring)
+    result = {}
+    signature = dict(signature)
+    signature.setdefault((0, 0), ring.number(0))
+    for key, baseline in sorted(signature.items()):
+        coefficients, residual = span.reduce(third_vector(baseline, normalizer))
+        if not set(coefficients).issubset(old_to_new):
+            raise AssertionError("baseline absorption uses a discarded source column")
+        reduced = third_from_vector(residual, normalizer)
+        original = baseline-reduced-sum((value*all_templates[j] for j, value in coefficients.items()),
+                                       ring.number(0))
+        zero = fresh.word.expression(original)
+        if zero.terms:
+            raise AssertionError("baseline absorption failed original-form verification")
+        absorbed = {old_to_new[j]: value for j, value in coefficients.items()}
+        result[key] = {"original": baseline, "reduced": reduced, "absorbed": absorbed,
+                       "report": {"original_third_sha256": ring.digest(baseline),
+                                  "reduced_third_sha256": ring.digest(reduced),
+                                  "original_profile_terms": len(baseline.terms),
+                                  "reduced_profile_terms": len(reduced.terms),
+                                  "absorbed_retained_template_coefficients": [[j, str(v)]
+                                      for j, v in sorted(absorbed.items())],
+                                  "original_decomposition_zero_sha256": zero.digest()}}
+    return result
+
+
 def expression_summary(ring, expression, normalizer):
     value = normalizer.word.expression(expression)
     return {"original_terms": len(expression.terms), "original_sha256": ring.digest(expression),
@@ -325,6 +405,24 @@ def small_toys():
     data["quadratic_field_arithmetic"] = {"defining_polynomial": "a^2-4*a+1",
                                           "inverse_and_artificial_integral": True}
     data["phase_gate"] = phase_gate_toy()
+    toy_limits = exact.Limits(seconds=90, nodes=20000, atoms=5000, terms=5000,
+                              rewrites=20000, memory_mib=512)
+    toy_ring = colored.ColoredRing(toy_limits)
+    toy_normalizer = colored.ColoredNormalizer(toy_ring)
+    a, b, c = (toy_ring.color(name) for name in ("a", "b", "c"))
+    t0, t1, extra = a*b*c, a.D()*b*c, a*b.D()*c.D()
+    toy_templates = [t0, t1, 2*t0-3*t1]
+    toy_span, toy_kept, toy_report = pre_reduce_templates(toy_ring, toy_templates, toy_normalizer)
+    baseline = pre_reduce_baseline(toy_ring, {(0, 0): 9*t0+t1+extra}, toy_templates,
+                                   toy_kept, toy_span, toy_normalizer)[(0, 0)]
+    if toy_kept != [0, 1] or toy_normalizer.expression(baseline["reduced"]-extra).terms:
+        raise AssertionError("small artificial pre-response elimination")
+    if baseline["absorbed"] != {0: F(9), 1: F(1)}:
+        raise AssertionError("small artificial absorbed-control map")
+    data["pre_response_reduction"] = {"artificial_templates": 3, "retained": toy_kept,
+        "original_dependence_checked": len(toy_report["verified_original_dependencies"]) == 1,
+        "baseline_absorption_original_checked": True,
+        "response_compiler_called": False}
     data["research_compiler_called"] = False
     return data
 
@@ -429,8 +527,8 @@ def main():
             density, local_records, expanded_nodes = compile_colored_local(ring)
             pieces = raw_decomposition(density, normalizer)
             signature, endpoint_potential = c1_endpoint_signature(ring, pieces)
-            templates, labels, duplicates = control_templates(ring, pieces, normalizer)
-            symmetry_count = verify_inner_symmetry(ring, templates+list(signature.values()), normalizer)
+            all_templates, all_labels, duplicates = control_templates(ring, pieces, normalizer)
+            symmetry_count = verify_inner_symmetry(ring, all_templates+list(signature.values()), normalizer)
             report["colored_local"] = {"density": density.summary(),
                 "pieces": {name: value.summary() for name, value in pieces.items()
                            if isinstance(value, local.GExpr)},
@@ -440,20 +538,38 @@ def main():
                 "full_exterior_inner_multidegree": {"a": 1, "b": 1, "c": 1},
                 "whole_density_reconstruction": True,
                 "endpoint_potential_difference": expression_summary(ring, endpoint_potential, normalizer)}
-            report["control_templates"] = labels
+            report["all_original_control_templates"] = all_labels
             report["duplicate_template_count"] = len(duplicates)
             report["duplicate_template_details"] = duplicates
-            print(json.dumps({"completed": report["phase"], "templates": len(templates),
+            print(json.dumps({"completed": report["phase"], "templates": len(all_templates),
                               "endpoint_field_components": len(signature)}), flush=True)
+            report["phase"] = "exact_full_third_template_pre_reduction"
+            template_span, kept, pre_report = pre_reduce_templates(ring, all_templates, normalizer)
+            baseline_data = pre_reduce_baseline(ring, signature, all_templates, kept,
+                                                template_span, normalizer)
+            templates = [all_templates[index] for index in kept]
+            labels = [{**all_labels[index], "original_template_index": index} for index in kept]
+            report["control_templates"] = labels
+            report["pre_response_reduction"] = pre_report
+            report["baseline_pre_reduction"] = [
+                {"field_component": {"log_a_power": key[0], "a_power": key[1]}, **value["report"]}
+                for key, value in sorted(baseline_data.items())]
+            print(json.dumps({"completed": report["phase"], "input_templates": len(all_templates),
+                              "retained_templates": len(templates),
+                              "baseline_reduced_terms": [len(x["reduced"].terms)
+                                                         for x in baseline_data.values()]}), flush=True)
             report["phase"] = "same_control_complete_phase_response_columns"
             columns = []
             for index, template in enumerate(templates):
+                column_started = time.monotonic()
                 third = colored.ThirdOperator(ring, template, labels[index])
                 response = colored.full_phase_response(ring, third)
                 vector = colored.vector_from_modes(response, normalizer)
                 columns.append(vector)
                 labels[index]["joint_response_terms"] = len(vector)
                 labels[index]["joint_response_sha256"] = colored.vector_digest(vector)
+                labels[index]["response_seconds"] = time.monotonic()-column_started
+                report["response_checkpoint"] = {"completed_columns": index+1, "total_columns": len(templates)}
                 ring.substitution_cache.clear()
                 if index % 16 == 0:
                     print(json.dumps({"column": index, "of": len(templates),
@@ -464,20 +580,24 @@ def main():
             report["joint_span"] = span.summary()
             report["endpoint_components"] = []
             all_verified = True
-            signature.setdefault((0, 0), ring.number(0))
-            for key, baseline in sorted(signature.items()):
+            for key, baseline_record in sorted(baseline_data.items()):
+                baseline = baseline_record["reduced"]
                 third = colored.ThirdOperator(ring, baseline)
                 response = colored.full_phase_response(ring, third)
                 original = {mode: response[mode]+(targets[mode] if key == (0, 0) else ring.number(0))
                             for mode in MODES}
                 vector = colored.vector_from_modes(original, normalizer)
                 coefficients, residual = span.reduce(vector)
+                total_coefficients = dict(baseline_record["absorbed"])
+                for index, value in coefficients.items():
+                    words.add_term(total_coefficients, index, value)
                 row = {"field_component": {"log_a_power": key[0], "a_power": key[1]},
-                       "baseline_third_sha256": ring.digest(baseline),
+                       "baseline_third_sha256": ring.digest(baseline_record["original"]),
+                       "pre_reduced_baseline_third_sha256": ring.digest(baseline),
                        "joint_target_terms": len(vector), "joint_target_sha256": colored.vector_digest(vector),
                        "remainder": readable_vector(residual),
                        "control_coefficients_for_cancellation": [[index, str(-value)]
-                            for index, value in sorted(coefficients.items()) if value],
+                            for index, value in sorted(total_coefficients.items()) if value],
                        "verified_from_original_compiled_expressions": False}
                 if residual:
                     all_verified = False
@@ -485,8 +605,8 @@ def main():
                     # Fresh positive verification: construct the actual full
                     # third template before applying its nonlinear-looking
                     # (but exactly linear in T) two-mode response.
-                    corrected = baseline-sum((value*templates[index] for index, value in coefficients.items()),
-                                             ring.number(0))
+                    corrected = baseline_record["original"]-sum(
+                        (value*templates[index] for index, value in total_coefficients.items()), ring.number(0))
                     fresh_response = colored.full_phase_response(ring, colored.ThirdOperator(ring, corrected))
                     fresh = colored.ColoredNormalizer(ring)
                     checks = {}

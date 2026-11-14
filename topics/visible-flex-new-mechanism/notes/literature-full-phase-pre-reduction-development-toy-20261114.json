@@ -1,0 +1,133 @@
+{
+  "P0_paid": false,
+  "anchor": "I(F)=integral_r^xi F; all colors zero on the same right collar; no left tail reset",
+  "completion": "toy_passed",
+  "control_scope": "R71 full brackets + R77 full weight3 coefficient operators + R79 closed-C1 coefficient operators; M/frame repairs retained modulo these proved actual spaces",
+  "elapsed_seconds": 0.012179894001747016,
+  "embedding_or_reach_certified": false,
+  "endpoint_scalar_path": {
+    "end": [
+      "1",
+      "-1",
+      "-1"
+    ],
+    "full_residual_k_integrated": true,
+    "h_minus": "a^-1=4-a",
+    "h_plus": "a=2+sqrt(3)",
+    "legs": [
+      "h:1->a at k=1",
+      "k:1->0 at h=a",
+      "h:a->a^-1 at k=0",
+      "k:0->-1 at h=a^-1",
+      "h:a^-1->1 at k=-1"
+    ],
+    "omega": "unique integral of dk/(2h), never reset",
+    "scalar_path_alone_claimed_to_have_M0_or_frame_closure": false,
+    "start": [
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  "finite_isometric_family_constructed": false,
+  "fourth_ruling_paid": false,
+  "github_repository": null,
+  "github_run_id": null,
+  "github_sha": null,
+  "joint_P1_identity_verified": false,
+  "limits": {
+    "coefficient_nodes": 600000,
+    "elimination_rational_bits": 8192,
+    "memory_polling_mib": 2048,
+    "output_bytes": 700000,
+    "profile_atoms": 160000,
+    "rewrite_calls": 750000,
+    "seconds": 300,
+    "terms": 120000
+  },
+  "max_rss_mib": 14.375,
+  "negative_result_scope": "an unreduced representative is not actual-function nonmembership",
+  "normalization": "P1 divided by the common positive constant bulk time ell",
+  "phase": "small_artificial_toys",
+  "physical_profile_domain": "a common compact I inside (1,infinity), further chosen to fit the finite real control words",
+  "profile_or_geometry_numerical_evaluation": false,
+  "schema": "visible-flex-complete-phase-third-bridge-exact-v2-pre-reduced",
+  "scope": "unsymmetrized full-third operator and both complete-P1 complex modes",
+  "source_hashes": {
+    "colored": {
+      "bytes": 15738,
+      "filename": "literature_colored_profile_algebra.py",
+      "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+    },
+    "driver": {
+      "bytes": 35368,
+      "filename": "literature_full_phase_bridge_exact.py",
+      "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+    },
+    "exact": {
+      "bytes": 33718,
+      "filename": "literature_pure_bulk_exact_membership.py",
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    },
+    "formal": {
+      "bytes": 33169,
+      "filename": "literature_range_profile_algebra.py",
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    "local": {
+      "bytes": 30635,
+      "filename": "literature_local_third_bridge_decompose.py",
+      "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+    },
+    "words": {
+      "bytes": 32310,
+      "filename": "literature_pure_bulk_word_normal_form.py",
+      "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+    }
+  },
+  "toy": {
+    "all_passed": true,
+    "checks": {
+      "all_depth_three_colored_shuffle": true,
+      "colored_product_IBP_with_zero_right_boundary": true,
+      "exterior_slot_not_recovered_from_diagonal": true,
+      "nonzero_unsymmetrized_template_can_have_zero_diagonal": true,
+      "same_control_coefficient_across_both_modes": true,
+      "simultaneous_substitution_commutes_with_derivative": true,
+      "simultaneous_substitution_keeps_exact_right_anchor": true,
+      "word_to_expression_semantics": true
+    },
+    "phase_gate": {
+      "both_complex_mode_formulas": true,
+      "independent_artificial_K_L_basis_elements": 15,
+      "theta_zero_seed": true
+    },
+    "pre_response_reduction": {
+      "artificial_templates": 3,
+      "baseline_absorption_original_checked": true,
+      "original_dependence_checked": true,
+      "response_compiler_called": false,
+      "retained": [
+        0,
+        1
+      ]
+    },
+    "profile_atoms": 30,
+    "quadratic_field_arithmetic": {
+      "defining_polynomial": "a^2-4*a+1",
+      "inverse_and_artificial_integral": true
+    },
+    "research_compiler_called": false,
+    "scope": "small artificial colored algebra only; no target compiler or profile values",
+    "word_statistics": {
+      "all_depth_shuffle_calls": 2,
+      "cycle_fallbacks": 1,
+      "max_shuffle_product_word_length": 3,
+      "max_word_length_seen": 3,
+      "nonempty_word_polynomial_IBP": 0,
+      "primitive_calls": 11,
+      "shuffle_cache_entries": 2,
+      "unique_high_jet_IBP": 2
+    }
+  }
+}
