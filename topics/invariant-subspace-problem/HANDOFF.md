@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `ca7cd456ee1c85a62e736b47fc8cf4ae6df669cc`（2026-11-14 07:50:35 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `770024d9734466c9d573072415acc08ae3c4b65a`（2026-11-14 08:01:27 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`。旧临时树不在；丢失正常预对偶修正已重建 R272，丢失两异常位完整 MP 已重建 R273（148 有理例）。
@@ -35,14 +35,14 @@
 - **R281：** 真极强位把全部高度回传首边，全部birth首边/全height最优普适常数相同且≥1；八位例首比22801/43836>1/2。未证上界1。
 - **R283：** 同权反对称对精确嵌全部真MP/Γ到任薄1/2<sδ<1/2+ε且δ任小的带，故小δ不免出生费用；一般常数仍开。
 - **R284：** 真跨birth零模Gram付Q/R交叉及二阶Schur下界，有限正权p≥2严格正；Fischer正余与局部物理块coercivity已付，仅给逆平方根能量。一般联合平方下界和原graph识别仍开。
-- **R285（已推e7cca4f）：** 明确标量正数据及x≥4参数族满足旧普通边、仿射界、两个R284严格零模块和粗占据界，却使两条更强S1/S2费用无界。只排该有限形式推理，不是Boolean反例。续逐坐标真实creation/Gauss系统。
+- **R285：** x≥4标量形式族满足旧边/仿射/两零模及粗占据，但S1/S2费用无界；不是Boolean反例，完整范围见已归档H。
 - **R286：** [全高度固定源](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1 creation合成与逆平方根能量，原慢尾全height/原幂几何和；实际t_q祖先birth随q上移，固定birth塔最终为零，不付原graph跨birth及N=M。
 - **R287：** [双侧极限/非周期来源](results/R287-two-sided-moving-character-limits-and-nonperiodic-disk-source-budget.md)付R_n与伴随同移动角色强近似，R_n²→I而N_nR_n²→−I/2仅WOT。全部单位盘逐位平方积在总偏差b·2^(4m)、b<770/64内真空比指数消失；全部κ_m和一般见证仍开。
-- **R288：** [逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保全部物理交叉。[S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)以真实H2向量付birth1 ||T||²≤2/3及共同Yi；[S1已推ca7cd456](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)付真实对角减rank1式、次数9支持3–9全部35主子式严格正。全部M≥3正权birth1两加强条件与一位SOS已闭，一般birth仍开。
+- **R288：** [逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保全部物理交叉。[S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)以真实H2向量付birth1 ||T||²≤2/3及共同Yi；[S1已推ca7cd456](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)付真实对角减rank1式、次数9支持3–9全部35主子式严格正。全部M≥3正权birth1两加强条件与一位SOS已闭；[一般三塔消元](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)保真实C²深塔正项并去上二阶逆，一般正性仍开。
 - **R289：** [熵与结构例](results/R289-finite-rank-tail-entropy-density-and-compatible-arbitrarily-slow-rank-two-chains.md)付一般有限秩原态S(ν_m)=o(m)，尾熵仍可无界；任意慢δ可由统一秩二链实现，但该具体字符串族现被R291的原零式排除。
 - **R290：** [混合头/物理块对角](results/R290-mixed-finite-head-product-and-physical-block-diagonal-normal-annihilator-exclusion.md)已排。固定原头矩detH=u^(q−1−K)p(u)消到z^d，真实单位和归一化高幂付迹锚；头对角相同给块对角情形。一般关联态改见R291。
-- **R291（本提交）：** [矩模与指数秩](results/R291-normal-moment-module-independence-and-exponential-support-rank-growth.md)。正常尾模对非零C[z]多项式无挠；只作代数扩域并运输R124真单位，q个头矩在C(z)上线性独立。任意M位切分的operator-Schmidt秩≥q=2^M；同一正链每M连续块及远尾rank≥ceil(2^(M/2))。排统一低Schmidt秩/字符串例，仍无特征值质量下界，与r2^m上界及熵o(m)不矛盾。
-- **代理后续：** boundary 转R273真实两异常位4D相邻序，literature 续S2逐物理坐标；normal回实际固定秩ν_m全链；R271 已闭任意 birth1 首/末边、两组＋一位等，不重复成新缺口。
+- **R291（已推17ae7d9d）：** [矩模与指数秩](results/R291-normal-moment-module-independence-and-exponential-support-rank-growth.md)。正常尾模对非零C[z]多项式无挠；只作代数扩域并运输R124真单位，q个头矩在C(z)上线性独立。任意M位切分的operator-Schmidt秩≥q=2^M；同一正链每M连续块及远尾rank≥ceil(2^(M/2))。排统一低Schmidt秩/字符串例，仍无特征值质量下界，与r2^m上界及熵o(m)不矛盾。
+- **续接：** boundary 付两组＋一位birth2的S1/S2及短侧；literature 续一般birth；normal 付实际链谱费用。R271旧范围不重开。
 
 ## 3. R150 与其他主接口
 

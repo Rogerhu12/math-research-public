@@ -647,3 +647,7 @@
 ### R291：一般正常头矩的模独立性与同一正链的指数支撑秩
 
 [完整证明](results/R291-normal-moment-module-independence-and-exponential-support-rank-growth.md)。真实尾多项式在正常泛函模上无挠，故可只作代数局部化；R124的真实旋转差单位及其逆在根扩张中同时运输，各分支核直和。不可约x^q−z迫q个原头矩在C(z)上线性独立，因此任何非零迹正常湮灭密度在M位切分的算子Schmidt秩至少q=2^M。正密度每个M位连续块及远尾支撑秩至少ceil(2^(M/2))，排统一有限Schmidt秩与R289字符串态。没有把尾系数当有理函数、抽象根当有界算子或支撑秩当熵下界；一般有限秩原见证仍开。
+
+### R288 附录：一般出生 S1 的真实三塔与完整 Schur 消元
+
+[完整证明](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)把二次creation准确分到三个实际正交核旗塔，保C²的第四阶正项与非primitive完整F3源，含上出生硬顶。S1缺陷等于H0²−PF2P−M2²+2N+Y*Γ4Y/4，任意共同非正交源的全部度量同时给出；去掉上二阶逆而未宣称一般正性。出生一准确回到已证式，下出生第二边仅给正项N的上界，不能误作目标下界。
