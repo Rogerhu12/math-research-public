@@ -1,44 +1,65 @@
 {
-  "request": "one-general-pure-G-original-identity",
-  "created_at": "2026-11-14 23:46:09 UTC",
+  "request": "sixth-G-translation-one-new-weight-minus-five-block",
+  "created_at": "2026-11-14 23:49:36 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "general_pure_G_identity"
+    "g_translation_successor"
   ],
+  "goal": "Only next N^6 G block; R136 already disproves exhaustion of full U by R plus the G orbit. Preserve partial-control purpose.",
   "source_sha256": {
-    "topics/visible-flex-new-mechanism/scripts/literature_general_pure_G_identity.py": "a6731a1c0b4940aadc689f97b9d516029518697619986aa7577b79a71ba5bcc7",
-    "topics/visible-flex-new-mechanism/scripts/literature_static_G_rational_dual.py": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477",
-    "topics/visible-flex-new-mechanism/scripts/literature_linear_third_bridge_quotient.py": "0627875fe06950c9e7c360baaf0429451697a460e2cf10aa6b3434c501363bd2"
+    "topics/visible-flex-new-mechanism/scripts/literature_G_translation_successor.py": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
+    "topics/visible-flex-new-mechanism/scripts/literature_G_first_translation.py": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
   },
   "jobs": {
-    "general_pure_G_identity": {
-      "development": [
-        "--toy-only",
-        "--output",
-        "@OUT@/general-pure-G-development.json"
-      ],
+    "g_translation_successor": {
       "research": [
-        "--source-report-sha256",
-        "19228a0aecf40416cf7ba7b8a7fa4e0180ed924a4bd04435b0e6e6e4a0b1b28a",
-        "--publication-receipt-sha256",
-        "c9206d68c786613e84e4f080d2a6899b46333979e88b16f0d5306a6c88e8c0ba",
-        "--export-sha256",
-        "ea8ba97319ef3fa43ff8cacc7f98b106b13280aef4641b969f5f820194aebace",
+        "--order",
+        "6",
+        "--previous-report",
+        "topics/visible-flex-new-mechanism/notes/actions-43654534244-1-g_translation_successor/G-fifth-translation.json",
+        "--previous-publication",
+        "topics/visible-flex-new-mechanism/notes/actions-43654534244-1-g_translation_successor/receipt.json",
+        "--previous-run",
+        "43654534244",
+        "--previous-commit",
+        "1177f251dc3d9455adf88b585e4c0e4bd6f7e69b",
+        "--previous-lane",
+        "g_translation_successor",
+        "--previous-report-sha256",
+        "faf6c2a0019ce614bb8d6f28b049f0a38a6c2f6e2e00930a1beab17e6c86f93e",
+        "--previous-publication-sha256",
+        "e8f37f37ba85f822e6eacc17167fb6941017dc05ec7670b8fafa7b450dc4d24d",
+        "--previous-driver-filename",
+        "literature_G_translation_successor.py",
+        "--previous-driver-sha256",
+        "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
+        "--previous-report-bytes",
+        "24966",
+        "--previous-publication-bytes",
+        "34625",
+        "--previous-driver-bytes",
+        "39670",
+        "--previous-target-minus-four-sha256",
+        "738a4accaf1fcd03482336d25cda192571c6e613faabdd0f1d4d43a612d384a1",
+        "--previous-target-minus-two-sha256",
+        "2cd42bf47f4109bbab5e0947c53a835a5ff5745bb8efb07aaed6a4fbabb18290",
         "--max-seconds",
-        "180",
+        "240",
         "--memory-mib",
         "1024",
         "--output",
-        "@OUT@/general-pure-G-identity.json"
-      ]
+        "@OUT@/G-sixth-translation.json"
+      ],
+      "completed_development": {
+        "report": "topics/visible-flex-new-mechanism/notes/actions-43653293263-1-g_translation_successor/G-translation-successor-development.json",
+        "sha256": "10a1fd8184d8fc89c6bd521545bc27ca07b61a2496cd1ae88b7c0d9b3e5aba7a",
+        "run": "43653293263",
+        "source": "2f0add61f44365d713abf836beaa8b0be2806a3d",
+        "driver_sha256": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
+        "all_19_artificial_checks_already_passed": true,
+        "same_source_development_not_repeated_under_root_rule_12": true
+      }
     }
   },
-  "sync_private_rules": false,
-  "previous_private_actual_pull_time": "2026-11-14 22:56:37 UTC",
-  "previous_private_actual_pull_commit": "905979913d397cae80a05592bda6660733b3160c",
-  "goal": "Only the full arbitrary-profile pure original identity G[-4]-B_p2(W1)[-4]/128; no old m8, mixed, or response block recomputation.",
-  "previous_response_blocks_or_separations_recomputed": false,
-  "research_only_in_public_Actions": true,
-  "task_complete": false,
   "other_active_research_runs_at_dispatch": []
 }

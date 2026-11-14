@@ -281,3 +281,5 @@
 - [R140：真实成本正性与一个完整八矩action乘子等价](results/R140-full-action-multiplier-equivalence-for-real-cost-positivity.md) — 对任意λ，真实闭成本锥正性iff杀R并存在同一个μ使所有开平端水平路径∫(λL−μm)≥0。用真实倒行/进出桥/floor重复/紧矩阵frame补偿证明零矩正表非负，再由有限次线性包络取统一μ。三个导数权满足A≥0、C4≥0、B+2√(AC4)≥0；没有逐项要求B非负或密度逐点非负，不授实际逆元。
 
 - [R136：完整加速度系数超出全部响应及G轨道](results/R136-acceleration-coefficient-beyond-response-and-G-orbit.md) — 五族314个完整状态系数与648根导出；J=权−2的[h⁻⁴]Abar_hh属真实U，41控真上界配42原有理子式证明J∉R8+整个OrbG。因此该子空间不等于完整U；新1只增加真实span，不自动增加lineality或有符号查询。仅合R135已有U≥152。其余9同权目标未决，不用NF非零充当非成员。
+
+- [R139：第五次G平移分离与188个真实联合查询](results/R139-fifth-G-translation-separation-and-188-query-control.md) — 真权−4的50列经10原依赖成40维，原40/41子式证明N⁵G∉R8，6≤s≤10。同一Π8核总维至少151，故R8≥182、R8+OrbG/lineality/实际联合查询≥188；再合R136得真实U≥189，额外J不算双向查询。只派下一N⁶G，不重编已付权块。
