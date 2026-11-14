@@ -34,7 +34,7 @@ jobs:
               'static_g_rational_dual','static_m8_tail_quotient','curvature_feasible_exchange',
               'constrained_static_m8_tail_quotient','g_first_translation',
               'local_fourth_derivative_factors','curvature_feasible_trial_diagnostics','g_second_translation','derivative_m8_tail_quotient',
-              'derivative_m8_geometry_ibp','g_translation_successor','curvature_feasible_steps','acceleration_layer_mixed','general_pure_G_identity'}
+              'derivative_m8_geometry_ibp','g_translation_successor','curvature_feasible_steps','acceleration_layer_mixed','general_pure_G_identity','curvature_mixed_grid_steps'}
           if not lanes or len(lanes)>2 or len(lanes)!=len(set(lanes)) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded continuation request')
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
@@ -102,6 +102,8 @@ jobs:
             /topics/visible-flex-new-mechanism/notes/actions-43653293263-1-g_translation_successor/
             /topics/visible-flex-new-mechanism/notes/actions-43653875461-1-g_translation_successor/
             /topics/visible-flex-new-mechanism/notes/actions-43654534244-1-g_translation_successor/
+            /topics/visible-flex-new-mechanism/notes/actions-43655163769-1-g_translation_successor/
+            /topics/visible-flex-new-mechanism/notes/actions-43653520539-1-curvature_feasible_steps/
       - name: Prepare public output
         run: |
           git config gc.auto 0
@@ -212,13 +214,14 @@ jobs:
               'g_translation_successor':'literature_G_translation_successor.py',
               'curvature_feasible_steps':'frame_curvature_feasible_steps_audit.py',
               'acceleration_layer_mixed':'literature_acceleration_layer_mixed.py',
-              'general_pure_G_identity':'literature_general_pure_G_identity.py'}
+              'general_pure_G_identity':'literature_general_pure_G_identity.py',
+              'curvature_mixed_grid_steps':'frame_curvature_mixed_grid_steps_audit.py'}
           flags={'local_fourth_quotient':'--toy-only','curvature_epigraph_exchange':'--check-only',
               'full_m8_tail_response_projection':'--toy-only','constrained_static_fourth':'--toy-only',
               'static_g_rational_dual':'--toy-only','static_m8_tail_quotient':'--toy-only',
               'curvature_feasible_exchange':'--check-only','constrained_static_m8_tail_quotient':'--toy-only','g_first_translation':'--toy-only',
               'local_fourth_derivative_factors':'--toy-only','g_second_translation':'--toy-only','derivative_m8_tail_quotient':'--toy-only',
-              'derivative_m8_geometry_ibp':'--toy-only','g_translation_successor':'--toy-only','curvature_feasible_steps':'--check-only','acceleration_layer_mixed':'--toy-only','general_pure_G_identity':'--toy-only'}
+              'derivative_m8_geometry_ibp':'--toy-only','g_translation_successor':'--toy-only','curvature_feasible_steps':'--check-only','acceleration_layer_mixed':'--toy-only','general_pure_G_identity':'--toy-only','curvature_mixed_grid_steps':'--check-only'}
           config=r['jobs'][lane]; script=root/'scripts'/scripts[lane]
           for path,expected in r['source_sha256'].items():
               if hashlib.sha256(Path(path).read_bytes()).hexdigest()!=expected:
@@ -257,7 +260,7 @@ jobs:
               if path.with_name(path.stem+'-brief.json').exists():
                   continue  # Preserve an already generated original semantic brief verbatim.
               raw=path.read_bytes(); source=json.loads(raw)
-              if 'fixed_target_short_step_stage' in source and path.with_name(path.stem+'-summary.json').exists():
+              if any(k in source for k in ['fixed_target_short_step_stage','mixed_grid_short_step_stage']) and path.with_name(path.stem+'-summary.json').exists():
                   continue  # The driver summary preserves all new models, both-grid gates and accepted states.
               keys=['schema','status','phase','github_sha','github_run_id','artificial_inputs_only',
                   'configuration','elapsed_seconds','prepare_elapsed_seconds','process_total_elapsed_seconds',

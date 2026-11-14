@@ -285,3 +285,5 @@
 - [R139：第五次G平移分离与188个真实联合查询](results/R139-fifth-G-translation-separation-and-188-query-control.md) — 真权−4的50列经10原依赖成40维，原40/41子式证明N⁵G∉R8，6≤s≤10。同一Π8核总维至少151，故R8≥182、R8+OrbG/lineality/实际联合查询≥188；再合R136得真实U≥189，额外J不算双向查询。只派下一N⁶G，不重编已付权块。
 
 - [R138：任意profile的G pure身份与完整商的pure零代表](results/R138-general-pure-G-identity-and-affine-orbit-kernel.md) — 398项完整原差sound归零，G[-4]=B_p2(W1)[-4]/128；完整相位和同右锚保持。整个G仿射轨道的一般pure像属于响应像，完整商可取pure恒零代表，维至少6；R136已证仍非整个U。只1新pure、0mixed/profile/tail；下一仅新J一条一般原差，不再跑G或m8。
+
+- [R142：第六次G平移分离与215个真实联合查询](results/R142-sixth-G-translation-and-215-query-control.md) — 权−5完整36列经7原依赖成29维，原29/30子式证明N⁶G∉R8；7≤s≤10。同一pure核新增26，故R8≥208、A_G/lineality/联合查询≥215，R136另使U≥216。只新增此块，下一G7；不把J加成有符号控制。
