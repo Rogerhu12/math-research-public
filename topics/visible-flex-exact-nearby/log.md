@@ -523,3 +523,7 @@ Y1–7只消费原exactfold完整native0ceafc2b…/3180936B及process67bf926a…
 ## 2026-11-14 23:23:14 UTC — ε准确代数及Taylor完整Wiener尾
 
 C1–12（SHA48940b32…）独立推。根逐式核与P递推一致：背景/fold与ε无关，Fb偶/Fa奇，归一A奇/B偶，重构a1奇/b1偶；任意同一复δ，不用共轭。完整Laurent支持及结构零消费须原球包含准确值；原数据不改。Cauchy双系数给Lq全signed Fourier尾，sup与Wiener分开，h+原root bracket宽度作为真实ρ内窗。候选Rρ1/6000、Σφ1/128仍待实际包含门，未冒作已过。两README721edbfcacb28d6e7cfd4d139cc9bb6c939786b4只读核无差。
+
+## 2026-11-14 23:26:44 UTC — negative old mean actual十门
+
+公开43652283078数学child0/19.009930087s，native183850c3…4132195B、processc59c735a…27605B、workera8e9b061…2321B，10门全过。只新2765负mean及对应积分；1612原行复制，全4377原闭行及各mean/正侧/sourcewindow/真实seams保，所有旧target/matrix/jets/tensors/profiles/weights八其他项0重算。六case完整球在actual报告SHA671beb98…；改进小，不把数值upper作lower。root核真实pull23:15:43/23:16:03 dc995ef46692ab152d5a825db858d41eb258e5d0，两README实际diff空，HANDOFF更新；只读核df7e2ec366637e2f6d2ca098bdae1dd723df5a05未变。继续oldρ Taylor全w1与source/强返回。
