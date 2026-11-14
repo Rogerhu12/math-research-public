@@ -64,3 +64,6 @@
 
 - [R526：原Theta对数零估计与两权真实核排除](../results/R526-original-theta-logarithmic-zero-bound-and-two-weight-kernel-exclusion.md)：原低轴ODE清掉全部d角分母，有理单位接触界T≤2Δ+1不随非零权差增大；原累计N<p、s−13−r_c>4E_N+C_N+7时每个非零首核至少三权。全Gaussian/进位/后两块保持，只取真实必要投影；不排三权以上。
 
+
+- [R528：十四度三轨道正测试与完整同域混合零行](../results/R528-degree14-three-orbit-positive-test-and-complete-mixed-row.md)：原三个整共同伴随的whole核与正6/12/18评价已付；实际单位测试三阶平均准确保整个(Y,W,W′)联合。新S/T局部差及质量均有单位第五阶，全部log矩和三项质量多项式保持；与R522之差给真正同域零行，隐藏纤维补域仍未删。
+

@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R528：十四度三轨道正测试与完整同域混合零行](results/R528-degree14-three-orbit-positive-test-and-complete-mixed-row.md)：原三个整共同伴随的whole核与正6/12/18评价已付；实际单位测试三阶平均准确保整个(Y,W,W′)联合。新S/T局部差及质量均有单位第五阶，全部log矩和三项质量多项式保持；与R522之差给真正同域零行，隐藏纤维补域仍未删。
+
 - [R526：原Theta对数零估计与两权真实核排除](results/R526-original-theta-logarithmic-zero-bound-and-two-weight-kernel-exclusion.md)：原低轴ODE清掉全部d角分母，有理单位接触界T≤2Δ+1不随非零权差增大；原累计N<p、s−13−r_c>4E_N+C_N+7时每个非零首核至少三权。全Gaussian/进位/后两块保持，只取真实必要投影；不排三权以上。
 
 - [R527：H0/B六次整逆、完整四输出与同源carry](results/R527-original-h0-b-sixth-inverse-and-complete-joint-carry.md)：同一个六次测试经Bunit有限整逆准确返回整个(Y,W,W′,D_H)联合；偶A深保完整逆域和三处实际移权。原五深小管中央及新局部质量均v5n，同1013射线支付固定首项；七项质量与全部S/T补域保留。
