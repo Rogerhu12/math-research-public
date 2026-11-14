@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R119 新外两根实际principal返回已加入全部无限KAM。** [O1–32](results/R119-supplement-new-outer-two-root-complete-principal-return-and-joint-KAM.md)：对eX→cut128→新e0整段重付积分/复分支/两流，完整Θ目标重新定义；controlled全旧行与新增外行在同一无限mean和全Fourier Newton中求解，μ+<2^305A*，外行独算2^301A*。保Γ2、真实两mean/源/dual pairing及phase不变；完整β、强余项、五盒与closed PDE逆仍待继续。
+
 - **R133 第一Airy修正的旧径向完整Taylor递推已证。** [P1–25](results/R133-supplement-old-radial-first-Airy-Taylor-and-complete-Fourier-root-recurrence.md)：拉回同一归一化transport后，用真实J*=−Q*直接三角解旧ρ的A/B，再恢复a1/b1；完整leading8、forcing6、w1到6的Fourier支持|j|≤1536，无角截断。已成v2 canonical全sup经正向image门控制旧product圆，只有未算尾收Cauchy和必要Wiener宽差。原mean、1079seams、I/J及全部物理端口仍保，等待新公开finite consumer。
 
 - **R133 固定η0真实根的完整高阶内蕴jet公式已闭合。** [H1–12](results/R133-supplement-true-root-high-intrinsic-jets-from-complete-auxiliary-errors.md)：一次新有限F0..11，已证两辅助域完整误差逐阶Cauchy择优，完整双线性均值给E0..10及K/β/γ/s0..9；物理半径/高度mean、全部分母gap与原低阶认同保留。原1e−9参数宽只作外包，不把同一根授予其他η；尚待公开实际执行，也未支付w1 Taylor、I/J或strong返回。
