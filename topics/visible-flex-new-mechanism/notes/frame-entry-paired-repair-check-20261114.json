@@ -1,0 +1,34 @@
+{
+  "schema": "paired-entry-repair-artificial-check-v1",
+  "artificial_inputs_only": true,
+  "research_geometry_evaluated": false,
+  "optimization_performed": false,
+  "complete_position_two_jet_Jacobian_relative_errors": {
+    "X": 1.2579520977861024e-08,
+    "Xs": 2.3874998169963342e-09,
+    "Xt": 1.1952969305672829e-08,
+    "Xss": 1.9127639396865148e-09,
+    "Xst": 1.6068946291477132e-09,
+    "Xtt": 3.984209124918016e-09
+  },
+  "direct_metric_shape_Jacobian_relative_error": 7.234901158686513e-09,
+  "weighted_height_primitive_derivative_error": 8.822255859880501e-12,
+  "outside_entry_nonposition_derivative_difference": 2.122686575123378e-12,
+  "outside_entry_position_is_one_common_vertical_translation_error": 1.6653345369377348e-16,
+  "core_position_two_jet_difference": 0.0,
+  "sparse_dense_query_position_two_jet_difference": 0.0,
+  "height_endpoint_value_first_second_error": 0.0,
+  "same_physical_identity_under_evaluation_refinement": true,
+  "same_complete_fixed_metric_definition_as_selected_source": true,
+  "new_model_not_claimed_same_original_physical_field": true,
+  "entry_mean_coefficients_artificial": {
+    "B6": -110494.71325376157,
+    "old_b0_6": -110397.7495983226,
+    "correction": -96.96365543897264,
+    "entry_mean_angular_nodes": 64,
+    "not_an_interval_integral_bound": true
+  },
+  "known_leading_only_not_exact_connection_or_convergence_claim": true,
+  "passed": true,
+  "source_sha256": "8f09d96a4377175e0242a37f1450960f0914e28a787699565d437058e7625ac1"
+}

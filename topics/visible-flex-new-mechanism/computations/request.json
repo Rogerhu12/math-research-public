@@ -1,51 +1,47 @@
 {
-  "request": "frozen-height-primitive-replay-and-isolated-R52-profile-refinement",
-  "created_at": "2026-11-14T17:27:07.616664+00:00",
+  "request": "paired-entry-repair-initial-only-at-selected-fixed-metric",
+  "created_at": "2026-11-14T17:44:02.404297+00:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "fixed_height_primitive",
-    "frozen_profile_gate"
+    "entry_paired_audit"
   ],
   "new_source_sha256": {
-    "frame_fixed_height_primitive.py": "16d7200ed2fe3c4f433d5f3ae787696311499264cb21172d9915efea9ae7b780",
-    "frame_fixed_height_primitive_audit.py": "824f0cda6ba87132bb2063d836f1b5d4504818899fc0b88060e4e3e854514e41",
-    "literature_frozen_profile_fourth_gate.py": "8f0b9f3356197bfe2c0f13a0d0ea470138690b34ec00e7f4eef7d21725ff1d31"
+    "frame_entry_paired_repair.py": "8f09d96a4377175e0242a37f1450960f0914e28a787699565d437058e7625ac1",
+    "frame_entry_paired_repair_audit.py": "7c2329f432d00b4962527ab99f94742338581948ed2e346e364fc591ea9464b3"
   },
-  "fixed_height_primitive": {
-    "selected_input_sha256": "c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46",
-    "anchor_input_sha256": "6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3",
-    "selected_physical_state_sha256": "924e7de417ec8fbf9419942e5cf45a7eff58336972b7cac4224edaee4c4229ee",
-    "fixed_g_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
-    "frozen_variables": 162,
-    "old_sparse_and_dense_preserved": true,
-    "physical_state_changed": false,
-    "optimizer_calls": 0,
-    "uniform_fixed_panels": 120,
-    "primitive_order": 8,
-    "independent_refined_panels": 240,
-    "independent_refined_order": 12,
-    "radial_query_nodes": 121,
-    "angular_query_nodes": 384,
-    "exact_interfaces_added_separately": true,
-    "new_evaluation_identity_only": true
+  "selected_input_sha256": "c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46",
+  "anchor_input_sha256": "6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3",
+  "old_selected_physical_state_sha256": "924e7de417ec8fbf9419942e5cf45a7eff58336972b7cac4224edaee4c4229ee",
+  "fixed_metric_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
+  "old_state_loaded_before_new_space": true,
+  "same_raw_162_coefficients": true,
+  "same_complete_metric_core_and_cap": true,
+  "new_physical_field_not_same_state_refinement": true,
+  "entry_length_exact": "81/500",
+  "entry_left_exact": "9/250",
+  "entry_plateau_end_exact": "9/100",
+  "entry_right_exact": "99/500",
+  "entry_mean_nodes": 1024,
+  "radial_nodes": 121,
+  "angular_nodes": [
+    384,
+    768
+  ],
+  "fixed_primitive_uniform_panels": 120,
+  "fixed_primitive_GL_order": 8,
+  "five_isolated_refinements": {
+    "entry_material_mean_nodes": 2048,
+    "primitive_GL_order": 12,
+    "primitive_uniform_panels": 240,
+    "original_b0_mean_nodes": 768,
+    "GH_order": 128
   },
-  "frozen_profile_gate": {
-    "input_sha256": "a9162b82535af2efacf1ad0e7f07ff0e6aa97991417d7c5de5cbd922f2ddb15a",
-    "profile_identity_sha256": "20680dfd98d6ede4db5ee5f0ec34dd24f0b10ceabdbad6d07364508cb7dae506",
-    "nodes_per_existing_panel": [
-      256,
-      512
-    ],
-    "panels": 17,
-    "max_seconds": 120,
-    "profile_refit": false,
-    "geometry_evaluation": false,
-    "full_compilation": false,
-    "off_constraint_boundary_terms_retained": true,
-    "R65_small_exact_algebra_certificate_also_run": true,
-    "R53_profile_claimed": false
-  },
-  "continuous_error_certification_claimed": false,
-  "full_fourth_gate_claimed": false,
+  "optimizer_calls": 0,
+  "parameter_steps_applied": false,
+  "metric_design_variables": 0,
+  "outside_entry_local_derivatives_must_remain_unchanged": true,
+  "one_global_center_height": true,
+  "R66_full_two_normal_height_screen_reported_without_interval_certificate": true,
+  "continuous_error_certificate_claimed": false,
   "task_complete": false
 }
