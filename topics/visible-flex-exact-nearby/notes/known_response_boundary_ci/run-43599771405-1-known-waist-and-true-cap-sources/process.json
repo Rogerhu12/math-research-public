@@ -8,7 +8,38 @@
   "workflow_commit": "1ebbf4d53ce24dadfd6075de384351c490dd2917",
   "worker_source_sha256": "b20f2d6f585ff2cd0627b47feadbce335e1d54b3efa3759a73e57fe60f4bf54a",
   "started_utc": "2026-11-14T13:27:21.070507+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_complete_known193_response_waist_and_true97_plus_high_cap_sources",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-known-boundary-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_known_response_true_boundary_sources.py",
+        "--response",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-full.json",
+        "--cut",
+        "/__w/_temp/visible-exact-known-boundary-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-moving-cap-cut-boundary-v2-native.json.gz",
+        "--out",
+        "/__w/_temp/visible-exact-known-boundary-output/native/known-waist-and-true-cap-sources.json.gz",
+        "--body",
+        "/__w/_temp/visible-exact-boundary-original-body/native/complete-correlated-body-and-mean-errors.json.gz",
+        "--body-process",
+        "/__w/_temp/visible-exact-boundary-original-body/process.json",
+        "--cap-cut",
+        "/__w/_temp/visible-exact-boundary-original-cap-cut/native/complete-cap-and-true-moving-cut-native.json.gz",
+        "--cap-cut-process",
+        "/__w/_temp/visible-exact-boundary-original-cap-cut/process.json",
+        "--weighted",
+        "/__w/_temp/visible-exact-boundary-original-weighted/native/complete-true-weighted-boundaries.json.gz",
+        "--weighted-process",
+        "/__w/_temp/visible-exact-boundary-original-weighted/process.json"
+      ],
+      "started_utc": "2026-11-14T13:27:24.258980+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 5.000472532000003,
+      "finished_utc": "2026-11-14T13:27:29.259841+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T13:27:22.446264+00:00",
@@ -25,9 +56,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:27:29.480894+00:00",
+      "before": "747e2e71c4dd5cccf94571bc1819eead6c7b90fc",
+      "after": "980998c0fa5279780ea66f1b6b40df217dc26382",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T13:27:24.256781+00:00",
+      "final": false,
+      "commit": "980998c0fa5279780ea66f1b6b40df217dc26382"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -63,7 +108,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "747e2e71c4dd5cccf94571bc1819eead6c7b90fc",
+  "last_read_commit": "980998c0fa5279780ea66f1b6b40df217dc26382",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-known-boundary-work/science",
   "original_prepared_manifest_sha256": "fd7594990ecc126e63a79198e00bbaf5912537ff1db480ade8ac82ff8917c893",
   "original_complete_trial_bytes_verified": true,
@@ -72,8 +117,8 @@
     "cap-cut": "aa43c90bd4b2d8fe3a820fba7d0cf5e40d67d2952248cf0c33ebe0ec0c76bd7e",
     "weighted": "e8f975932aedf150d1a2beaaae6a05650f7983f8844b9ae488343d953a1a9184"
   },
-  "snapshot_utc": "2026-11-14T13:27:22.950806+00:00",
-  "wall_seconds": 1.8808534140000006,
+  "snapshot_utc": "2026-11-14T13:27:29.529656+00:00",
+  "wall_seconds": 8.459700202999997,
   "native_files": [
     {
       "logical_file": "evidence/original-body-process.json",
@@ -98,6 +143,12 @@
       "file": "evidence/original-weighted-process.json",
       "bytes": 13666,
       "sha256": "e8f975932aedf150d1a2beaaae6a05650f7983f8844b9ae488343d953a1a9184"
+    },
+    {
+      "logical_file": "native/known-waist-and-true-cap-sources.json.gz",
+      "file": "native/known-waist-and-true-cap-sources.json.gz",
+      "bytes": 89319,
+      "sha256": "b1adeea522b31efa2fc83a6436bc3fe52dbd04630c17d5436927b5872b05e263"
     }
   ]
 }
