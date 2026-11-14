@@ -467,3 +467,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133 补充：完整已知 high 源实际结果
 
 见[7721 行完整证书](results/R133-supplement-actual-complete-known-high-source-from-Z-tail.md)。43628921664 数学 child 0、8 门、56.609475s，全区已知 high 源 $L^2_rL^2_\varphi<1.456146059\times10^{-10}$、固定负窗 $<1.415385110\times10^{-10}$；原 low193/mean 不变。native `5ad8aaad…` 与小摘要 `74e7b40d…` 完整。workflow 因最后可选大诊断失败，原失败实录保持；零数学补发另行验收。仅固定 M32、$\delta=0$ 的已知外源，不授未知反馈或真全逆。
+
+### R133 补充：旧圆 I/J 余项的完整实际费用
+
+见[六窗实际旧逆余项源](results/R133-supplement-actual-leading-old-circle-remainder-sources.md)。43629465215 child0、7门、52.329910s、1328行/6R全覆盖，native `7662350a…`，process `f888e47e…`。最小 $R=1/1000$ 的完整负源上界 $1.524430\times10^{18}$，负 Cauchy/primitive 后组件 $2.310602\times10^{17}$，主导 $R_QJ E_D$。这些大**上界**只证明该预算有限，不是实际误差下界；不能授97逆或宣告97不可能。全部输出/mean和正侧 collar/body 原源分列，$\mathcal L_0w_1$、正侧全mean转换、完整强return未成。

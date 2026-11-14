@@ -179,3 +179,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14：known-high 原数学成功的零重算收尾
 
 43628921664 的原 7721 行、8 科学门、child 0 与完整 native `5ad8aaad…` 已成；仅非必需 largest20 诊断超过 60000B。新 `fourfold_codazzi_known_high_success_receipt_CI.py`（`74a00ec4…`）沿用原147 pins，核真实 artifact 的六项 byte/child/门/summary 条件并逐字补发。不得重跑原源或把原 workflow failure 改写；待 receipt 的真实执行证据。其后继续同一完整 low/high/mean 逆。
+
+### 2026-11-14：leading old-I/J 原预算实际完成，改进目标已定位
+
+43629465215 真7门已完成，六窗全部有限，但 $R=1/1000$ 的负 primitive 组件上界仍为 $2.310602\times10^{17}$；主导是 $R_QJ E_D$ 的全空间乘子/Cauchy费用。见[实际报告](results/R133-supplement-actual-leading-old-circle-remainder-sources.md)。继续保留精确径向消去、full mean和所有Fourier输出，phase推真ray下解析Fourier有向界；root独审 $\mathcal L_0w_1$ 的最低径向阶及保源弱残差替代。禁止把已完成预算大误称真实算子大，禁止重算原1328 target/forcing。

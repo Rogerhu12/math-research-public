@@ -251,3 +251,7 @@ root全文核source16943B/CI12226B/contract7360B/flow8250B，tail独立核完整
 ### 2026-11-14 19:05:57 UTC — 独推 fixed-M32 known-high 实际科学结论
 
 报告 SHA256 `042519f55040293ec9635ed58b009f4404d2653ce9010b216f1153ebd1c9809f`，4,909B，root 已核原20569B process/14387B summary、全8门及实际artifact 14127291890完整可用。全7721行已知源实际改进，严格区分child成功与wrapper最后大诊断失败。全窗口、finite-support H1/3转换与δ非零/未知反馈限制均逐项写明；本结论独推。
+
+### 2026-11-14 19:07:22 UTC — 独推实际六窗 old-I/J 余项，保留未闭门
+
+root亲核48,987B process全六窗/八项主导/7门，以及2,772B worker两次真pull至`46d6140c760b58a111c15ef8aef1ca808e713275`的空README diff。actual native `7662350ac2cf5c0838e545fb6ba4994c118b985b5a133b869b3ca5486b70563c` 4,837,715B，0旧解/target重算。明确second source仅even mean故native共用H−2/3与混合H−1范数相等。准确记录很大的严格上界与主导RQ J ED，不改成强小门。旧9806B HANDOFF全文归档后更新实际进度；根/课题README核未变。
