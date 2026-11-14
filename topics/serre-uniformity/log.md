@@ -39,3 +39,8 @@
 - R744用全部原jet整数赋值及完整Hodge尾，证明原η≤1组件在整个p4盘除center后恰由次数≤3的Qp Weierstrass多项式给零；不是有限截断。
 - 精确d≤η+2+μ、Σ(vs−4)=−μ及字段次数≤3给深度/有理性分类；保真实KS与全coarse换参，原W实际系数和高度仍缺。证明SHA828b3d745b64b4dd22572cca2c6fce65889e32923364dcc154f2afc33dc56747。
 - HANDOFF/open/index同步，Bosch原文closed-disc preparation已核；无新数值计算或共享设施修改。继续原Hodge输入、ordinary比较与signed CM jet。
+
+## 2026-11-15 00:24 Asia/Taipei · serre-public-resume-20261114
+- R746完整证明原ordinary A/π²与strict-p Bockstein的双向条件，含真实Δ/Γ生成元、τ规范、全局支持及所有相对ramification检查。
+- 得<D0,p,d0>=26εb，明确与R743 flat primitive/泛函不同，未宣称J/b比例或实际b数值。证明SHA8efa65f42f78fc5af7a86e28e168f02ccf805a02fb8fb60df24ac3ddefaabc19。
+- HANDOFF/open/index同步；R744非快进均立即pull/rebase重推至成功、两README未变。无新数学计算或共享设施修改，继续原Γ/S交换和Hodge输入。

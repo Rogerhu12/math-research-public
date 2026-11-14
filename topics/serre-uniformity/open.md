@@ -304,6 +304,20 @@ $$
 原b的真实交换链/数值仍缺，R204另一个类的pure-p24不能代入。
 
 
+[R746](results/R746-original-ordinary-coefficient-as-a-strict-p-bockstein-condition.md)
+完整闭合ordinary端的双向接口：原$A_M/\pi^2$恰给
+$$
+ z=b\iff \delta D_z=(-\ell_{\rm cyc}-2iz\kappa_p-2i\kappa_q)\cup w
+ \text{ 有S支持且 }[D_{z,p}]=0\text{ 的primitive}.
+$$
+反向由真实semidirect构造核p全裂、q惯性p次幂、2处H1零及原genus；
+Δ的实际阶44角色给k线性、Γ稳定迫整个长二商，故不只是必要条件。
+若$D_0$取原Γ/scalar primitive，则
+$\langle[D_{0,p}],(d_0)_p\rangle=26\varepsilon b=\varepsilon(\mathcal L-31)$。
+这使用$(d_0)_p=(24,20)$，R743则以$(d_q-8d_0)_p=(0,41)$规范另一primitive。
+两个泛函线性独立；真正标记交换链尚缺，不据此断言Jflat∝b−24或任何b数值。
+
+
 **R736（已证明）**：同原p43/q标记，NS kerΓE_M=(π,N_T)kerΓE_N等于全部原q直接相位核。原Fr=s32给s在μp²上指数1+2p及rμ(ct)=ell(ut)，R207实一致化元保含极点双Norm相位零。故存在原divY=D_Tq、NΓY=NSY=D_TXt；Z=Xt−(t−1)Y同时NΓ/NS/NT=Aα，原直接相位rμ((s−1)Y)=−4J，flat=−4(J−18)。完整普通校正已证，真正与R720原b的T/Γ链及J/b数值仍缺。详[R736](results/R736-original-three-norm-exchange-and-minus-four-moment-phase.md)。
 
 

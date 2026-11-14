@@ -199,3 +199,6 @@
 
 
 - **R744（已证明）**：[整个原深度四Abel盘的至多三次根多项式](results/R744-original-depth-four-Abel-root-polynomials.md)。原η≤1时完整尾给$a_k$赋值≥k−η−2，精确Weierstrass因子次数d≤η+2+μ≤3；原coarse全换参保零/重数/字段，center简单、非center根次数≤3且Σ(vs−4)=−μ。真实Qp零仅可深度4/5/6，二次临界分两有理根或Eisenstein。没有用截断代全函数，实际多项式及高度排根仍未完成。
+
+
+- **R746（已证明）**：[原ordinary类作用参数的strict-p Bockstein双向判据](results/R746-original-ordinary-coefficient-as-a-strict-p-bockstein-condition.md)。完整原Hilbert长二商与受支撑cochain双向对应，保τ固定生成元、2/−i、p全裂、q惯性p次幂和Δ/Γ满像，得z=b iff原D_z可strict-p为零；准确$d_0$泛函为$26\varepsilon b$。R743的flat局部泛函独立，J/b真交换与数值仍未知。
