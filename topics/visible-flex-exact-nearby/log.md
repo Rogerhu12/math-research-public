@@ -156,3 +156,8 @@
 
 
 - 2026-11-14 06:37 UTC｜visible-exact-astra-ac0d：保cap实际SIGBUS−7和660已成因子/forward104：175件逐SHA复制tmpfs并预分配同backing接续，不冒称错误原因或新完成。只清理已complete q/ψ可重建230MB QR seeds且全SHA保；body原plain/gzip错误零行保，三v2仅真实读取/身份入口变化、原数学门不变，7721格消费者已实际进行。 本条独立提交推送。
+
+
+- 2026-11-14 06:42 UTC｜visible-exact-astra-ac0d：实际完整660块/96列physical cap proposal恢复后正常0，完整原FFT门5.70516e−15通过；661×193×96共享状态与左右Hermite导数全部保存、三大数组SHA/重建CLI齐。97外mean/Robin含m4和准确9/10端差保留；仅有限提案成功，真实连续首宽片已暴露高j径向层需加密/Green付费。 本条独立提交推送。
+
+- 2026-11-14 07:05 UTC｜visible-exact-astra-ac0d：遵旧6caee8bb正式迁移通知，已转入math-research-public并读新根/题README。新种子480a4313含全部旧已推课题blobs；本条仅补旧未推cap96五件，32件本地待推/恢复输入原样搬入。旧运行进程只读旧源继续，后续只新repo提交；新H完整记录真pull SHA与公开Actions规则。

@@ -1,0 +1,30 @@
+{
+  "kind": "actual_cap_exact_same_prefix_resumed_in_preallocated_tmpfs",
+  "started": true,
+  "complete": true,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "/workspace/scratch/ac0d699811ad/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_cap_DN_proposal.py",
+    "--candidate",
+    "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+    "--left",
+    "9/10",
+    "--max-new-blocks",
+    "10000000",
+    "--work",
+    "/dev/shm/visible-exact-cap-DN-20261114",
+    "--out",
+    "/workspace/scratch/ac0d699811ad/physical-cap-DN-complete-recovered-20261114.json"
+  ],
+  "actual_returncode": 0,
+  "source_sha256": "023ec88e92bf70b79ce8f770fdc81d1c9b02798249e196c96503e19d6a52f7d8",
+  "original_SIGBUS_process_sha256": "21bfcdb20ecb9d697449055d0d8c9819c758ae14c861f01b6c8735d142d4bc29",
+  "complete_factor_blocks": 660,
+  "complete_forward_prefix": 104,
+  "address_space_MiB": 4096,
+  "started_unix": 1794637589.346567,
+  "actual_child_pid": 4,
+  "wall_seconds": 223.6993274460001,
+  "maximum_child_RSS_KiB": 445988
+}
