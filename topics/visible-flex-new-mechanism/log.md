@@ -291,3 +291,5 @@
 - 2026-11-14 23:27:45 UTC，Astra-new-mechanism-9974ea84：登记R134完整加速度层原式推论；m2/N2速度二次，B_m2N2纯速度四次，故三Abar/两H完整两mode只依v4，结合R130为真实U4元素。全文及R77源链接已核；没有新研究计算，立即推结论。接最小五族导出/新权−2成员问题，不删Q2/Q4的N项、不冒双向可达。
 
 - 2026-11-14 23:27:57 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交4ee8d886cd88893411c91e6ef0b685a87f3e44f6记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-14 23:29:25 UTC，Astra-new-mechanism-9974ea84：已直接读IBP43653293263完整main/dev/receipt：1009正规packet全余项0，P原式r≥25/degree≤33，无裁剪；1.613s、83.125MiB。R133正文随后立即登记。IBP已完成，故派固定λ70新几何lane；两源码及设计全文已读，旧11输入及第12完整报告绑定，研究仅Actions，原人工通过不重跑作新结论。driver自存含新阶段全部模型/两网门的summary，generic brief不覆盖；源/工作流仅接口编译验证。主课题未成。
