@@ -51,3 +51,5 @@
 - [R520：第三共同伴随whole偶深核与真实三输入联合](../results/R520-third-common-companion-even-core-and-true-three-input-source.md)：E*整化degree1090152的完整中心和固定Theta锚支付whole平方恒等，原四态三伴随全部(a,b,2c)矩形成立。共同偶深保原Y/W/W′三个观察，非对角联合和T物理下降完整给出；E/K及Tc/C隐藏项逐项保留，不赋一层scalar或删除B0条件。
 
 - [R521：准确固定边界商与原三次forcing残数](../results/R521-exact-fixed-boundary-quotient-and-cubic-forcing-residue.md)：固定清极的完整3C来源商准确是长3c(u+4b)的有限边界，真实F³核消去常数维数项；全局残数保全部例外分量。原最高系数非固定角根给杀全部同乘子切向来源的显示泛函，forcing值为b²m(4t0−1)；实际jet核和其余原列仍完整保留，未认作原余核非零。
+
+- [R524：原三层边界核与第一逃逸层的准确范围](../results/R524-original-three-layer-boundary-kernel-and-first-escape-window.md)：真正Iη边界核的三层短正合列和两条同源连接精确给出，不拆独立normal数据。参数独立F²层在明确小q窗可改变显示残数，在负度大q窗严格消失；二次临界只剩两连接的实际联合像，未把边界非零或单残数不能延拓冒称原forcing结果。

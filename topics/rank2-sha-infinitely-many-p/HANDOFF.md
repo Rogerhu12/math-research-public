@@ -6,21 +6,21 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：c2253b2e3793fa86ca1e23196e800c6fdee402fc；2026-11-14 14:24:26 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：29366639440ec585e9a06bab39e2cb9739707092；2026-11-14 14:28:16 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 旧→公开仓库迁移及全部差异读取记录保本次完整归档；现只在Rogerhu12/math-research-public。规则11每次pull后核两README且至少每小时，12完整证明直接登记，13本库Actions，14公开库禁令牌。旧runner/ci-queue停用。
 - main逐条commit/push已授权；不强推、不改写已发表历史。非快进立即pull --rebase重推；当前API用expected_sha/force=false，拒绝后立即读新main、核规并重新基于新头追加。
 - 只写课题log，每轮≤5行；不动根LOG。令牌只终端临时环境，不入文件/提交/日志/回复。单文件<5MB，接口文本/Markdown<100KB，HANDOFF<10KB，open尽量<30KB；不加冻结/独审/机械复跑门槛。
 
 ## 当前发布、环境与分工
 
-R1–363、R365–521已登记；R364仍开。R513=bc671140，R512=fd3b2d1e；R516=8f9bbe4a；R517=cd948ebb，R513显示修正=795725ad；R518=7f39d76f；R519=ae08e6ce；R520=57c1df5d；R521本次登记。R513证书CM显示换基a+bδ=(a+b)+2bω已纠正；正文/δ矩阵不变，旧提交保归档。
+R1–363、R365–521、R524已登记；R364仍开。R513=bc671140，R512=fd3b2d1e；R516=8f9bbe4a；R517=cd948ebb，R513显示修正=795725ad；R518=7f39d76f；R519=ae08e6ce；R520=57c1df5d；R521=32829c30；R524本次登记。R513证书CM显示换基a+bδ=(a+b)+2bω已纠正；正文/δ矩阵不变，旧提交保归档。
 执行环境12:35 UTC断连，14:02 UTC再确认无可用执行环境；现用连接GitHub读main、核规则和非force追加，未称实际pull。恢复后先pull --rebase/核规，再合并遗留，不能覆盖API结果。
 R501原正文/脚本/JSON精确恢复；R502明确重建脚本在公开Actions run43596695716/job132452617972成功，来源1dafbfa7，p239/D40/81行，ξ1=175、V1首行70/系数55、第三块40及全Q运输。原生JSON/全日志已推da54025b，无扫描，无跨p声称。
-root统一元数据及逐条发布；代理仅建proof/script blobs。theta的R518已登记，续R522同源carry与实际词交域；deep的R521已登记，R524全三层核已交稿并续实际连接；literature的R519已登记，续R523 CH核/独立carry；root的R520已登记，续共同低度H0来源与完整补域。新证明随到随登记。
+root统一元数据及逐条发布；代理仅建proof/script blobs。theta的R518已登记，续R522同源carry与实际词交域；deep的R521已登记，R524全三层核已登记，续R526真实对偶/连接；literature的R519已登记，续R523 CH核/独立carry；root的R520已登记，续共同低度H0来源与完整补域。新证明随到随登记。
 
 ## 完整旧接口与目标桥
 
-最新完整接口归档：notes/2026-11-14-frontier-before-r521.md；它链回所有前轮HANDOFF、open-before-r496及旧规则读取记录。旧结论/支线/常数/条件均保原文，未因压缩关闭。分段索引R501–550继续，不增巨型PROOF-INDEX。旧日志见notes/2026-11-14-log-through-r494.md。
+最新完整接口归档：notes/2026-11-14-frontier-before-r524.md；它链回所有前轮HANDOFF、open-before-r496及旧规则读取记录。旧结论/支线/常数/条件均保原文，未因压缩关闭。分段索引R501–550继续，不增巨型PROOF-INDEX。旧日志见notes/2026-11-14-log-through-r494.md。
 S34/T72/U136分别桥接固定y²=x³+17/+24/+2312，rank2见R294/R398/R469；通常Selmer全Sha桥给2+corankSha≤2ordJ。一条原中央导数无穷非零即可；三曲线有限池须同一无穷p集上至少一条非零。辅助来源、有限p及子域非零不替代。
 原quartic E17:y²=x³−17x、E34/E136/E389、O4全Hilbert类迹低增广及O6真实单位Tor/评价仍开，详open与归档；高度/非p除、环境非零不代实际原类/单位条件。
 
@@ -49,9 +49,11 @@ R491整Gauss因子提升、R495十九吹起χ=−KC≥2b、κgeom=C²≥2b−2�
 R505 q=h−k<χ时真实同预算F²H吸ξ，临界不涵盖；R507 P=B N(6N−1)在全Γ成立，目标Smith一p在ε行sp、一零常量，实际forcing共振psa；ξ由保极帽P*逆，U0/13有序连接保全，P(imJ)稳定未证。
 R511 H2整/p饱和且FH2同预算，镜轴g²/ψ长S=s−r、Jbarι2=T2Emir；βξ=(3/4)T2βmir，βmir(F²)=8e²ηξ。真实2C蛇列给吸收iff βcont∈im∂η，∂从H0(C,N²(−hP))实际提升除2eη；h<κgeom+χ只消最右余核，不推满射。
 R514原K_F=e³forcing，m3=Y³t(t−1)²h7³d²返回W_D+3，十九角全付；同D须三余量或4r−D≥30。真行保AE²G/2+B EG+C m3e³forcing及低尾。因子提升消ξ至min(q,χ−1)，χ≥4镜forcing对高轴不变，Emir仅改max(0,3−r)末行；真低核Schur已付，kerlow=kF²仍须证，失败只排FH2路线。
-R517 V_F=eδt−a0E全H2切向返回m2=Y²t(t−1)²h7²要两charge，或同D门4r−D≥14。全Γ ev(V_FH)=ev(e)D ev(H)−D ev(F)ev(EH)给真模p²转置，M整拉回保全部carry。无e分母三normal层转置/最高极注入已付，全局联合像仍耦合。Omega=e²forcing dt=K_Fdt/e是二次Kähler/残数微分；标量在简单垂直分歧有一阶极，不能当镜N²截面。R521的准确固定边界与非零类见下，不能以容量假定满射。
+R517切向V_F=eδt−a0E全H2返回两charge，或同D门4r−D≥14；全Γ链式与真modp²转置、M整拉回保carry。无e分母三normal行及最高极注入已付，全局联合像仍耦合；Omega=K_Fdt/e为二次微分，标量在简单垂直分歧有极，不能当镜N²截面。
 
-R521准确边界Q_c=H0(3C,Lc)/H0(3C,L0)=H0(Dc,Lc|Dc)，Dc=(3C)∩cπ*S∞，长3c(u+4b)。F³H0(cE∞)真实核消去2c²+3c，新增高列秩上界6u+24b/9u+36b。原Φ转置为全Dc残数，15个例外边界都保；实际jet核是res H0(3C,IηLc)。非固定角f=F_b的根t0重m，ρ=Res G_top/(tM f³)dt杀同m3全部切向来源，却给m3K_F值b²m(4t0−1)；保p∤bm/t0≠1/4及根存在条件。尚须杀真实jet核及余下原列，不能把边界非零当J/M余核非零。
+R521固定边界Q_c=H0(Dc,Lc|Dc)、Dc=(3C)∩cπ*S∞长3c(u+4b)，F³真实核消去常数维数；两/三charge新增秩≤6u+24b/9u+36b。Φ全Dc残数保15例外，实际jet核=res H0(3C,IηLc)。非固定角F_b根t0重m，ρ=Res G_top/(tM f³)dt杀同m3切向像，对forcing给b²m(4t0−1)；保根存在/p∤bm/t0≠1/4，仍须杀真jet核及余下原列。
+
+R524真边界核三层A=N(cE)(−qP)、B=N²(cE)(−hP)、C=N³(cE)(−SP)，不是直和。两连接准确α(v2)=[Em(H2)/(2eη)]∈cokerEq，β(v3)=[(g1+2ηg2)/(e+f2η)]∈cokerEm，保同一原列。最内F²层参数独立；R521光滑边界点重m且q≤χ+3d∞−m−1时ρ已在真核非零，不能延拓为真行；q>κgeom+c d∞该层0，等号未定。二次临界h/κ→9/8时仅余α/β耦合，边界三层值/一阶/二阶不得独立选。
 
 ## 继续
 
