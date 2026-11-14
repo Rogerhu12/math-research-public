@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete_cut_projector_disjoint_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43594139132",
   "run_attempt": "1",
@@ -188,6 +188,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:33:19.259752+00:00",
+      "before": "7cc66f69ef96f2ccaaa215f3ec9dc4380ad9705a",
+      "after": "7591c511a7f99994059b53a4829ef7e149be3225",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -230,6 +238,11 @@
       "time": "2026-11-14T13:33:17.169183+00:00",
       "final": false,
       "commit": "7cc66f69ef96f2ccaaa215f3ec9dc4380ad9705a"
+    },
+    {
+      "time": "2026-11-14T13:33:18.903922+00:00",
+      "final": false,
+      "commit": "7591c511a7f99994059b53a4829ef7e149be3225"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -268,7 +281,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "7cc66f69ef96f2ccaaa215f3ec9dc4380ad9705a",
+  "last_read_commit": "7591c511a7f99994059b53a4829ef7e149be3225",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-projector-range-work/science",
   "disjoint_plan": {
     "slice_id": 3,
@@ -295,8 +308,8 @@
   ],
   "assigned_new_cells": 384,
   "original_slice_manifest_sha256": "27d60cf3d31b441f6e6d5975342720447f432fa305b1a47fc34dff2aa8d8695c",
-  "snapshot_utc": "2026-11-14T13:33:17.572140+00:00",
-  "wall_seconds": 4338.2311645810005,
+  "snapshot_utc": "2026-11-14T13:33:19.293926+00:00",
+  "wall_seconds": 4339.952947812,
   "native_files": [
     {
       "logical_file": "evidence/complete-range-01152-01536.json",
@@ -310,5 +323,8 @@
       "bytes": 2391449,
       "sha256": "d18d617d641fad695f7d87eff6485685ab58228baa2f6fce45ebbd9957d63238"
     }
-  ]
+  ],
+  "assigned_original_ranges_complete": true,
+  "actual_new_continuous_cells": 384,
+  "finished_utc": "2026-11-14T13:33:18.912665+00:00"
 }
