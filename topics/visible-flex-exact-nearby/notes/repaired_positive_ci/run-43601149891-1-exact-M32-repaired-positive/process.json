@@ -54,6 +54,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:43:57.927897+00:00",
+      "before": "9a09d8ffb98240228ba29209d39b07cfbe030d27",
+      "after": "340f03f774791fa81a93ac743fbd538a5b5b52de",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -61,6 +69,11 @@
       "time": "2026-11-14T13:43:50.976722+00:00",
       "final": false,
       "commit": "9a09d8ffb98240228ba29209d39b07cfbe030d27"
+    },
+    {
+      "time": "2026-11-14T13:43:57.655987+00:00",
+      "final": false,
+      "commit": "340f03f774791fa81a93ac743fbd538a5b5b52de"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -95,11 +108,11 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "9a09d8ffb98240228ba29209d39b07cfbe030d27",
+  "last_read_commit": "340f03f774791fa81a93ac743fbd538a5b5b52de",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-repaired-positive-work/science",
   "original_complete_positive_byte_restoration_verified": true,
-  "snapshot_utc": "2026-11-14T13:43:56.292242+00:00",
-  "wall_seconds": 7.673091987999996,
+  "snapshot_utc": "2026-11-14T13:43:57.943955+00:00",
+  "wall_seconds": 9.324803794999994,
   "native_files": [
     {
       "logical_file": "evidence/original-positive-byte-restoration.json",
@@ -108,10 +121,20 @@
       "sha256": "46f36c35f51f3430ca867062c994a4c0b34c61a0641efd9b57ab1d3ee07171e8"
     },
     {
+      "logical_file": "evidence/repaired-complete-regular-Hs-outer-summary.json",
+      "file": "evidence/repaired-complete-regular-Hs-outer-summary.json",
+      "bytes": 19738,
+      "sha256": "1f8a0eb70945c15b25f94361fcee9e39730afbcfeed39917485139687c55dba6"
+    },
+    {
       "logical_file": "native/repaired-complete-regular-Hs-outer.json.gz",
       "file": "native/repaired-complete-regular-Hs-outer.json.gz",
       "bytes": 3879,
       "sha256": "75e7c0e1447306a97971ee05dcb68b8d357cb4fffa5c1a37335a6fc29a473424"
     }
-  ]
+  ],
+  "repaired_outer_reused_without_execution": false,
+  "actual_original_repaired_outer_run": "43601149891",
+  "actual_repaired_outer_complete": true,
+  "actual_repaired_outer_native_sha256": "75e7c0e1447306a97971ee05dcb68b8d357cb4fffa5c1a37335a6fc29a473424"
 }
