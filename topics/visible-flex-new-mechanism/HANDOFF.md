@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`239c05dcda742608ac90bc99bbcc82d0a18a7124`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根README blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后已读规则提交：`e525495938f9aaed7e85454abd3737080e6b69cd`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根README blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有22:56:37 UTC终端partial clone/pull至`905979913d397cae80a05592bda6660733b3160c`，双规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**。只存元数据，回执notes/terminal-private-recovery-pull-20261114.json；下一私有pull不晚23:55 UTC。
 
@@ -56,4 +56,4 @@ R104/R106四块仅闭正则浸入环带，V=2VB+2VσB；移动右锚D_jσ(c)=(-1
 
 ## 6. 当前执行顺序
 
-continuation最多两lane：43651096112的02785因子仍运行；同run只读9390诊断已success。现在新增单lane g_second_translation(3c37aeae)，只研究N²G权−1的36原列；原first331/已完成20列不重做，真阳性s=2停链。全部输入有run/source/SHA，publisher真实pull核规则、gzip后<5MB、NFF循环。R129完整纸证已登记：真实X/Y下L2与L4分部积分，保加速度平方、两非对称H项及所有四次项，常值germ准确消正权边界势；不判商系数符号。tail_cost消费新因子后做真实pure密度；literature续推R130真实span的必要局部密度门，先补完整端口/矩/T支付证明。预算退出只界定该次计算，继续open，不结束主任务。
+continuation最多两lane：43651096112的02785因子仍运行；同run只读9390诊断已success。新g_second_translation(3c37aeae) actual43651413950/sourceba3a19b已success：36→29原式上界/真29-30非零子式，N²G非成员、3≤s≤10，R128正在完整登记；原G/NG不重做，下一只N³G权−2。全部输入有run/source/SHA，publisher真实pull核规则、gzip后<5MB、NFF循环。R129完整纸证已登记：真实X/Y下L2与L4分部积分，保加速度平方、两非对称H项及所有四次项，常值germ准确消正权边界势；不判商系数符号。tail_cost消费新因子后做真实pure密度；R130已完整证明U4=R8+K：K为八矩归一化/真实IBP后14个状态函数族的值span。先frameI/M0的BBᴿ去T，再同(frame,M)共同实际补偿得SO3×E8连续同态；真倒行后固定μ对所有开平端路径成立，方可δ/ε分离。只真span，不授成本逆元。预算退出只界定该次计算，继续open，不结束主任务。
