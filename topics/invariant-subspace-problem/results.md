@@ -707,3 +707,7 @@
 ### R294：出生一统一两倍对角比较、共同Newton块与无限固定高度
 
 [完整证明](results/R294-birth-one-uniform-diagonal-gram-comparison-and-common-newton-blocks.md)准确应用Cesari–Colomboni arXiv:2607.13990v2 Thm1.1/Cor1.2，从既有完整Schur得到½A_n≤Γ_n≤A_n；A_n为同一物理K中的显式对角压缩。标量系数全高度log凸给共同A相邻正块及真实两个Γ端点/中间A_n的常数4式、逐向量Γ标量常数4；无限正ℓ²行用完整F_n的Fredholm无核与范数截断支付固定高度。抽象反例和真实四位代理谱比共同界定仍缺的中间方向费用，没有把夹逼当作原Γ矩阵Newton或一般birth结论。
+
+### R294 附录：原连续尾的坐标平移与改进第一返回费用
+
+[完整证明](results/R294-appendix-original-tail-coordinate-shift-and-improved-first-return-cost.md)以实际单步指标平移给删一位 e_t/e_t^i≤((m+1+t)/(m+1))^4；结合R294得到原真幂H_t的八次条件数界。保留新的σ_t=(t!)²e_t及真实尾质量比，逐项维持非交换顺序，把全部旧列平方费用61次改为16(h+2)^28 S_m，原最高D1*锚范数改为4(d+2)^14√S_m；新列另有4(h+1)^18 S_m²且保原列权比。仍只在原出生一、固定合法源中应用，高birth/graph及无速率锚乘增长未付。
