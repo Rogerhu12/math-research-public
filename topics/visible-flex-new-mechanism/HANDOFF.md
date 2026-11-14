@@ -1,10 +1,10 @@
 # HANDOFF：大振幅新机制
 
-**进行中，未完成；没有满足README全部标准的完整候选。不得以阶段报告、时长或运行预算结束。** 会话 `Astra-new-mechanism-9974ea84`。root负责Git/公开Actions/日志；mechanism负责几何，literature负责完整相位与第四传递，repo_sources负责真实可达/第四成本。完整证据见[结果](results.md)、[open](open.md)、各实际notes和git历史。
+**进行中，未完成；没有满足README全部标准的完整候选。不得以阶段报告、时长或运行预算结束。** 会话 `Astra-new-mechanism-9974ea84`。root负责Git/公开Actions/日志；mechanism负责几何，literature负责完整相位与第四传递，tail_cost接续原repo_sources的真实尾成本。完整证据见[结果](results.md)、[open](open.md)、各实际notes和git历史。
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`e0996f6336e79dd66808c98299d742409bb7fbe9`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`10cba43765a22624135dd91078cafb017d4406b1`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:42:44 UTC实际pull至`a0de3f9fcfb21e9db3e6863a8b48a665b9b5f0a3`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:41 UTC。
 
@@ -40,7 +40,7 @@ R37/R45真实M0桥及四块几何闭合、R52完整三阶圆；仍不是有限�
 
 **R98已结束universal正多state P1路线**。R89–R94全状态仿射协变、7state/252原列和11真权块；actual43638896281/source5ba4eceb 37.240s/RSS90.832，+2=−1/4首列、+1=0，权0原16列两真依赖降14。原有理14/15子式mod2147483647为1836229422/1852863582，κmod2115674793；真Q-Cramer经Π0/κ给Λ(R*)=0、Λ(b_Hd)=1，任意正组合4Σℓ>0。R96有限仿射四次右因果V的同profile忠实评价+左补矩，给同一合法C∞三矩圆及无统一导数盒时相对开稠密障碍。原有理测试本身不冒合法圆；停止低权/同类更多states。特殊圆与固定有限N的真实P0+NP1仍开放。
 
-**R99/R101已支付该字符的一维真实第四成本**。actual43640085842的t1×W0四列两Jacobi准确0，τ_p1t1/h-shape(k)归一mod2054146430/721224600非零。R101真M0环L复制给T=nτ/V=nv，M=T0词Z的V=E(t)+n(2v+tK)，未知偶基准保留。先固定小A(s)、L和共同I，再对有限V+B_E8(W)用R96选同一合法圆/固定查询ℓ；A(t/m)^m不扩scalar包络，有限±T和n给ℓ(V)任意实值。保ℓ(P1)>0但可消固定N的一个ℓ(P0+NP1)；不是全函数/真实加法逆元/ruling或厚度。R84倒行V同号/长度门仍保。
+**R99/R101/R102已支付至少15个真实第四查询**。actual43640085842的t1×W0四列两Jacobi准确0，τ_p1t1/h-shape(k)扩展字符非零。R101真M0环L复制给T=nτ/V=nv，M=T0词Z的V=E(t)+n(2v+tK)，未知偶基准保留；固定小A(s)重复不扩scalar包络。R102有限切向基K_j在同一合法圆/固定Q满秩时，串联得E(t)+n(2Σv+Kt)，中心立方体+Brouwer以有限n准确支付任意查询向量。R96只用于有限V+B_E8(W)，真维15≤r≤288，可同时支付至少15查询并含R98正字符，保持P1。全部P0不冒有限Laurent；外分量/ruling/厚度仍欠。秩不足时只得闭凸锥lineality含切向span，不把实际半群冒向量空间。
 
 **R100已把m8 D25 c8缩成真实短action，符号未定**。R85/88首两尾已是零端势；R95 actual43639240317把D25压1605项5组，c10/c9准确零端使period次数≤8。R100 actual43640085842完整34差式全0，保23真histories/完整参数族/原DAG；p=B4、ell=B3−J2/2−ηp、zeta=B3−4ηp均真实零端，短action与全端势见R100。raw699591B SHA4b2fdc4d5210094575a14316a63705bb392d322aba862731d33727e79928f2df。
 
@@ -52,6 +52,6 @@ P0、逐s第四ruling、更高阶/收敛、完整宏观嵌入厚度仍欠；完�
 
 ## 6. 持续推进
 
-当前dense actual43640503728已登记，mechanism正实现/论证更细角与约束生成的必要续求。R101纸证已完成一维字符真实成本，literature继续完整函数与ruling；repo_sources继续真实c8积分。
+当前dense actual43640503728已登记，mechanism正实现/论证更细角与约束生成的必要续求。R102已完成有限查询控制，literature继续完整函数商与ruling；tail_cost继续完整D25原式的参数奇偶。
 
 已完成run和完整历史在results.md/notes/git，不重跑旧quartic或已定全state P1。新计算仍只公开Actions。每个实际结果及时pull核两README、更新H/log/open并推，子题完成即接open不等阶段批准。原始来源边界见notes/literature-20261114.md。

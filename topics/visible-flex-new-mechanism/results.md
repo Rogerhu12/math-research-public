@@ -209,3 +209,5 @@
 - [R103：实际诱导度量下的准确局部曲率门](results/R103-actual-metric-curvature-semidefinite-gates.md) — 正则真实位置两jet给I与K=qII，双侧主曲率界准确等价qI±τK半正定，可写四条迹/行列式行；另有q⁴I−τ²K adj(I)K的两行多项式版本。完整参数导数保法向变化/固定a，独立正则门不可删；纸例说明未等距时用目标g会误判。只支付局部曲率接口，不授全reach或当前状态通过。
 
 - [R104：反射与倒行四块的闭合环带及准确c⁸消项](results/R104-reflected-reversed-four-block-c8-cancellation.md) — R70取同端(h0,0,0)的真M0桥I→D；B、σB、Bᴿ、(σB)ᴿ的本地位移及前缀frame逐项给全局位移0/frameI，完整M=T0。先选共同正I，c8倒行偶/反射奇及真实零端历史加法使D25 period次数≤7；保完整V=2V_B+2V_σB。只得周期正则浸入环带数据，不消完整第四/ruling或给无边界嵌入。
+
+- [R102：多个查询的真实第四成本控制与剩余锥商](results/R102-finite-query-fourth-cost-control-and-cone-quotient.md) — 真复制块串联给E(t)+n(2Σv+Kt)，先固定同I/圆/查询，再取中心立方体与小族重复，有限n及Brouwer准确吸收未知基准。B_E8(W)真维r满足15≤r≤288，故同一合法圆上至少15个独立查询可共同任意指定并包含正字符。未付全函数/ruling；秩不足时仅证明闭凸成本锥的lineality含可实现切向span，真实半群不冒向量空间。
