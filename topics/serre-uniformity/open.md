@@ -294,3 +294,6 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 
 
 **R762（原μ3商及单函数/基点恢复已证明，v2重建）**：[完整证明](results/R762-original-mu3-quotient-and-single-function-map-recovery.md)原20尖点+c0恰21固定，genus127、deg t820。原正Hodge使实际整数周期映射等变，degree-d的y与原η=h/a恢复x；M=L(ξ)=K(U)、真实b_half负号、qY=Q³、¼缩放及有限RR/原微分前缀完整。十九原树边周期的ν1对应−b_half，实际d−nν三余数恰(1,0,0)排列而唯一确定原c0平移，十二基给全格线性泛函。原稿终端断连未推，本次完整重建SHA40bd9da5046db41ee4ce9618c9676a626921c19e993ca5e7aa35ee86cfbd45ea；实际period/degree/函数/β/高度仍未完成，R764待两真producer。
+
+
+**R754（原p41周期及完整Hom核已精确完成）**：[正式证书证明](results/R754-certified-original-p41-periods-and-Hom-kernel.md)绑定实际run43620862489/sourceb36d2c58，核心2183.258616秒。原40加法周期/819边，完整4800×42准确rank36、K核6；全部800×6原闭链第二代回通过，六清分母位长336/628/917/1210/1502/1791，不称p单位或完整整数格。cert SHAda4ef0eeac285da5cf32ad1372155dbb9d03917c18044b81b8236fac6e51107c，完整坐标artifact14125735974。R759正式request已填真run/source/manifest及closed-period SHA，本次触发完整整格/degree；实际函数/β/高度仍开。

@@ -4,19 +4,19 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、有限数值均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：c880fe861b86be608a9c14d9b357616242182762
+已读规则提交：6fd06acb417ce720cb2000884b20dcce22b2481e
 最近已确认本地pull：2026-11-15约01:56 Asia/Taipei，main=b202f09796ede72bb57cbb1d770dafd3987f987c，两README未变。随后终端transport disconnected且environment unavailable；R762两次非快进后会话失联，远端404确认未推。现按根规矩8用GitHub小文本API继续：每次先取main/核两README、expected_sha且force=false；不把API核对称实际pull。终端恢复先保留本地R762旧提交分支，再pull/rebase并处理已重建重复，不能重推旧元数据。
-远端规则核对：2026-11-14 18:08:20 UTC，main=c880fe861b86be608a9c14d9b357616242182762，两README blob均未变；本次为终端不可用期间的API核对。
+远端规则核对：2026-11-14 18:14:23 UTC，main=6fd06acb417ce720cb2000884b20dcce22b2481e，两README blob均未变；本次为终端不可用期间的API核对。
 
 仅公开Rogerhu12/math-research-public及其Actions，正式数学计算仅该Actions。每结论单独推main已授权；终端可用时每推前及至少每小时实际pull --rebase，非快进立即重拉再推。PAT只CLI、不入文件；根独占commit/ref，代理只提供稿/blob。Markdown<100KB，H<10KB、open<30KB，>1MB数据gzip、单文件<5MB，大可复现表只artifact。日志本题≤5行，不设冻结/独立审查审批门。
 完整旧H存[before-R762](notes/2026-11-14-public-handoff-before-R762.md)，内接R763/R761等归档；完整旧open存[before-R762](notes/2026-11-14-open-before-R762.md)。已成计算不重跑，未推稿按记录重建。
 
 ## 当前计算与直接后继
 
-- **R754实际运行**：run43620862489，sourceb36d2c58b39f42a694236d48f64444bb6fe1d0af，core SHA f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251；2026-11-14 18:00 UTC仍in_progress。原40加法周期、819相对边、4800×42 Hom核与800×6全链验证，80分钟core预算/完整断点，实际结果尚未读到。首run43620409119因旧15726位整数触发Python4300限在首新stage前失败；仅public guard后放宽可信解析，全部失败receipt保留。不得预称rank/period/成功。
-- R754严格复用R735旧CM-state、modulus、certificate，R738原cosets/cycles及R745六Hodge表，六原SHA在方法/请求里。核心已完整读；原正Miller ξ、逆θ、携权μ6核、real目标−ζ运输和全部分母不变。成功后先读小cert/manifest/receipt，确认真实stage/source与输入SHA；失败则只接完整实际检查点。
-- **R759方法/工程已推**b2454469c866772dd0c075936e98b9759289f07e。core17403f45f74e03e5a138376068e64e54c9bf6b2622a7b91bb178747d407708e0；完整1600行HNF给S=D H^-1 Z12，原双图/PD确定Ω为同调交配，degree=−aᵀΩ^-1b，exact LLL选12基中短映射。现只有notes/R759-public-integral-period-lattice-request.pending.json；须填真R754 run/source/artifact/manifest、cert/closed-period SHA，改成正式request才触发。当前无实际整数格/degree/q/β。
-- **R762已成v2**：原21固定点给μ3商Y genus127、deg t820；实际整数周期h给等变f，y∈M(Y)degree=d且x=a·3(y²−b)(h/a)/dy。原M=L(ξ)=K(U)、b_half=−U20S³/8、qY=Q³和¼因子均保；原RR界MY=820ceil((d+127)/820)+d、h至Q^(3MY+4d)。十九原树边周期给ν=(1−ζ)λ，ν1为−b_half；实际d−nν mod3唯一余数1，提前定原c0平移。重建证明SHA40bd9da5046db41ee4ce9618c9676a626921c19e993ca5e7aa35ee86cfbd45ea、blob95decd722a529b7cd7d780aa7dc6c651c274e4d5；不同旧稿SHA。无实际函数/β/高度。
+- **R754已实际成功**：run43620862489/sourceb36d2c58b39f42a694236d48f64444bb6fe1d0af，core SHA f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251，2183.258616秒。40原加法周期、819边、4800×42准确rank36/K-kernel6，800×6全链代回全过；六整数清分母位长336/628/917/1210/1502/1791，未称p单位或完整整格。证书da4ef0eeac285da5cf32ad1372155dbb9d03917c18044b81b8236fac6e51107c，小文件computations/R754-original-p41-periods-and-Hom-kernel/43620862489-1/。
+- R754全artifact14125735974，ZIP26339734B/SHA9a58e842bc80654f77800f6e0db7f90655483e6c6469fc7791addb0db40c4ed1；manifest fd2bece7381df111a03ad6f3a7585e8c442196f2772aebd3d5f50e2aa3422c53；closed-period fc300cb79a3299bb896ce6ae5a1ec577248750692202d1993c27a69d3886672b、relative-period 510a6928725df736d29d812513110c8d2542f191d8ca9bfcf0feb14ac1931ec2。六原输入严格复用；真实函数/β/高度尚缺。
+- **R759正式请求本次触发**：notes/R759-public-integral-period-lattice-request.json实际填R754成功产物，request SHAbec5f5a0da04cfe153a57330092e783bf9e8008f08b498ddd88c85eafe590dc2；core17403f45f74e03e5a138376068e64e54c9bf6b2622a7b91bb178747d407708e0、method fe08b7f1b994984b61c08bfb68147383556b68d6b7b11bca4a22b91eec6c4c66。1600行HNF全整格、degree=−aᵀΩ^-1b、exact LLL与ζ作用按已证方法执行；60分钟core断点，runID待取，当前无degree/整格数值。
+- **R762已推bbb8fd2e，v2**：原21固定点给μ3商Y genus127、deg t820；实际整数周期h给等变f，y∈M(Y)degree=d且x=a·3(y²−b)(h/a)/dy。原M=L(ξ)=K(U)、b_half=−U20S³/8、qY=Q³和¼因子均保；原RR界MY=820ceil((d+127)/820)+d、h至Q^(3MY+4d)。十九原树边周期给ν=(1−ζ)λ，ν1为−b_half；实际d−nν mod3唯一余数1，提前定原c0平移。重建证明SHA40bd9da5046db41ee4ce9618c9676a626921c19e993ca5e7aa35ee86cfbd45ea、blob95decd722a529b7cd7d780aa7dc6c651c274e4d5；不同旧稿SHA。无实际函数/β/高度。
 - **R764待保存工程**：仅接真R754相对period与真R759十二integral maps/degrees，计算20×12尖点labels及全部c0 translations；pending两producer，无虚构产物。旧agent-global稿断连未推，global正在小文本重建；根此前已读旧method/core前半。之后继续原RR模型/函数/β/高度。
 - **R765、R766新稿待逐条登记**：R765原sigma首次截断残差B≠0与下一p极点；R766原T方向40层ordinary下降。完整blob已提供，须以当前blob读证、分别登记推送，不能仅保会话摘要。
 

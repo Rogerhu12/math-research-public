@@ -150,3 +150,8 @@
 - R762完整重建v2：原21固定点/genus127、单函数degree-d恢复、字段/符号/有限RR界及原十九树边period+degree模3唯一c0平移，已逐式核读。
 - 新证明SHA40bd9da5046db41ee4ce9618c9676a626921c19e993ca5e7aa35ee86cfbd45ea、blob95decd722a529b7cd7d780aa7dc6c651c274e4d5；不同失联前未推稿SHA，未预报R754/R759实际成功。
 - R763已以非force提交0eddc219a60ee38a3189f0b9e510cea644793a5a；HANDOFF/open完整归档并同步index，终端仍不可用，按根规矩8小文本API核main与规则继续。R765/R766及R764工程接续。
+
+## 2026-11-15 02:14 Asia/Taipei · serre-public-resume-20261114
+- R754实际run43620862489/sourceb36d2c58成功：40原加法周期/819边、完整4800×42 rank36/K核6，全部800×6原闭链与实际整数清分母通过，2183.258616秒。
+- cert SHAda4ef0eeac285da5cf32ad1372155dbb9d03917c18044b81b8236fac6e51107c，完整artifact14125735974/ZIP26339734B及全部stage SHA已读保存；原模型/拓扑/旧L值未重算。
+- 正式R759 request已填真R754 manifest/cert/closed-period/source，SHAbec5f5a0da04cfe153a57330092e783bf9e8008f08b498ddd88c85eafe590dc2，触发现有公开workflow。R762已推bbb8fd2e，HANDOFF/open/index同步；终端仍不可用，小文本非force继续。

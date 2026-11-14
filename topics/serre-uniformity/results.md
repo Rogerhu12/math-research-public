@@ -253,3 +253,6 @@
 
 
 - **R762（已证明，v2完整重建）**：[原μ3商、单函数恢复与基点平移有限判据](results/R762-original-mu3-quotient-and-single-function-map-recovery.md)。原21固定点独立给genus127；正等变性将映射恢复化为商上degree-d的单个y，保原字段/相位/¼/全RR界。十九原树边周期和实际degree模3唯一选原c0平移，并给全整数格的F3泛函；真实函数/β/高度尚待求。
+
+
+- **R754（已证明并精确计算完成）**：[原p41全部周期与完整Hom核](results/R754-certified-original-p41-periods-and-Hom-kernel.md)。公开run43620862489在同一原目标/微分/800闭链上给40加法周期、819边及完整4800×42秩36/K核6；六方向全部800闭链与整数清分母逐一通过。完整阶段坐标/artifact/SHA均保存，真实R759请求接全整数格和次数，未冒称映射/β或高度完成。
