@@ -246,3 +246,7 @@
 ### 2026-11-14：原物理夹逼以同一投影增量支付测试差源三费和负图（789f）
 
 [证明](notes/2026-11-14-physical-joined-sandwich-and-same-increment-three-fee-fixed-test-budget-789f-next.md)给真实V_(q+d)⊂M_q⊂W_q，进而μ(t−u_b)²+bare(u_b)²≤||q_q−q_(q+d)||²。对e=u_b−u_f，两个正交投影增量及同一未来差的bare/flat投影给μ(t−e)²+Xi(e)²/2≤Δ_q；网格总≤||f||²、全cut≤d||f||²，无C_m、log或另选cut。准确正配对为<Le,t−e>=||h||²；e自动在原首头负图，联合已付旗的真正Xi投影保持剩余负图并支付固定测试误差。仅余真实<L rhat,ehat>在移动窗口上的比较，未得N=M。
+
+### 2026-11-14：移动真实头的完整 bosonic 核投影及有限头逆 Gram 强极限（789f）
+
+[证明](notes/2026-11-14-moving-true-head-bosonic-projections-and-inverse-gram-strong-limit-789f-next.md)在统一全Fock环境构造完整有界右逆，成本≤sqrt(h_d C_m/S_m)，并用真实相邻头carry付可求和的一侧投影gap δ_m≤exp(−79·16^m)。P_m^B加尾误差递减，极限经物理测试及原核向量双向识别为P_M；其尾真空压缩恰i_mH_m⁻¹i_m*，故原有限头逆Gram强趋原核投影。保完整闭域，不将boson修复当硬核修复；无反向算子范数速率，亦未证N=M。
