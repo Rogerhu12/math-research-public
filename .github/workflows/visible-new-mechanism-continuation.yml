@@ -99,6 +99,7 @@ jobs:
             /topics/visible-flex-new-mechanism/notes/actions-43651096112-1-local_fourth_derivative_factors/
             /topics/visible-flex-new-mechanism/notes/actions-43651413950-1-g_second_translation/
             /topics/visible-flex-new-mechanism/notes/actions-43652134080-1-derivative_m8_tail_quotient/
+            /topics/visible-flex-new-mechanism/notes/actions-43653293263-1-g_translation_successor/
       - name: Prepare public output
         run: |
           git config gc.auto 0
@@ -220,6 +221,18 @@ jobs:
                   raise SystemExit('requested source bytes do not match: '+path)
           subprocess.run([sys.executable,'-m','py_compile',str(script)],check=True)
           stages=['research'] if lane in {'curvature_output_recovery','curvature_trial_diagnostics','curvature_feasible_trial_diagnostics'} else ['development','research']
+          reuse=config.get('completed_development')
+          if reuse:
+              raw=Path(reuse['report']).read_bytes(); prior=json.loads(raw)
+              driver_hash=hashlib.sha256(script.read_bytes()).hexdigest()
+              if (hashlib.sha256(raw).hexdigest()!=reuse['sha256']
+                  or str(prior.get('github_run_id'))!=reuse['run'] or prior.get('github_sha')!=reuse['source']
+                  or prior.get('completion')!='toy_passed' or not prior.get('toy',{}).get('all_passed')
+                  or prior.get('source_hashes',{}).get('driver',{}).get('sha256')!=driver_hash
+                  or driver_hash!=reuse['driver_sha256']):
+                  raise SystemExit('completed development is not the same published source')
+              stages=['research']
+              print(json.dumps({'unchanged_development_reused_from':reuse['run'],'old_artificial_checks_repeated':False}))
           for stage in stages:
               args=config[stage]
               if not isinstance(args,list) or len(args)>90 or any(not isinstance(v,str) for v in args):
