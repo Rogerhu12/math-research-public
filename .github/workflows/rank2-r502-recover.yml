@@ -1,0 +1,40 @@
+name: Rank2 R502 recovered exact certificate
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rank2-r502-recover.yml'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/check-r502-full-low-ell-bockstein.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: rank2-r502-recovery
+  cancel-in-progress: false
+
+jobs:
+  original-certificate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Fetch the exact public source commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git init source
+          cd source
+          git remote add origin https://github.com/Rogerhu12/math-research-public.git
+          git -c protocol.version=2 fetch --filter=blob:none --depth=1 origin "$GITHUB_SHA"
+          git sparse-checkout init --cone
+          git sparse-checkout set topics/rank2-sha-infinitely-many-p/scripts
+          git checkout --detach FETCH_HEAD
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - name: Run the reconstructed original 81-row certificate
+        working-directory: source
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 topics/rank2-sha-infinitely-many-p/scripts/check-r502-full-low-ell-bockstein.py
