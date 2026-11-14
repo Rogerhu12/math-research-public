@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R526：原Theta对数零估计与两权真实核排除](results/R526-original-theta-logarithmic-zero-bound-and-two-weight-kernel-exclusion.md)：原低轴ODE清掉全部d角分母，有理单位接触界T≤2Δ+1不随非零权差增大；原累计N<p、s−13−r_c>4E_N+C_N+7时每个非零首核至少三权。全Gaussian/进位/后两块保持，只取真实必要投影；不排三权以上。
+
 - [R527：H0/B六次整逆、完整四输出与同源carry](results/R527-original-h0-b-sixth-inverse-and-complete-joint-carry.md)：同一个六次测试经Bunit有限整逆准确返回整个(Y,W,W′,D_H)联合；偶A深保完整逆域和三处实际移权。原五深小管中央及新局部质量均v5n，同1013射线支付固定首项；七项质量与全部S/T补域保留。
 
 - [R522：三度共同伴随的完整偶张量与同一S/T正六次测试](results/R522-common-degree3-even-factor-and-same-st-positive-test.md)：原H0=ξ1−ξ3+x的整个degree3偶线准确因子化，单位正六次测试保其余五输出全部联合并同时还原S及两T；T与旧W核原样保测试。原五深网格质量整条为零、完整第五阶单位，两个T局部归一差亦为单位；三条真实补域保持。
