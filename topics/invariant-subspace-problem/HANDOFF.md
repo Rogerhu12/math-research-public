@@ -14,23 +14,16 @@
 本次压缩前全部状态、规则执行记录、精确常数及来源保[完整H](notes/2026-11-14-handoff-before-joint-carry-twenty-six-789f.md)及递归快照；未列的旧问题不视为关闭。
 分工：normal处理剩余197的局部Smith/carry；boundary保持实际跨费研究primitive消去；literature处理固定测试Euler反馈；根发布原实绩并继续主线。
 
-## R150：原整数来源、实际结果和正在准备的五列
+## R150：真实原来源和当前197第三方向
 
-原primitive 11N＋6Γ、6188来源/4367输出，char0及F31(s)泛秩4354；h0度24且mod31=25h31，H0=(s−2)h0不同。原整数任意次数mod31²障碍不排31分母来源。rank_Q A87≥226092只是下界；仿射315、原1834核和射影/∞预算边界保完整H。
+完整旧状态、原式/预算及逐回执SHA保[本次H全文](notes/2026-11-14-handoff-before-fixed-gauge-789f.md)。原primitive 11N＋6Γ为6188来源/4367输出，char0及F31(s)泛秩4354；h0度24、mod31=25h31，H0=(s−2)h0不同。整数任意次数mod31²障碍不排31分母来源。已付rank_Q A87≥226092仅下界。
 
-- F9的九个实际除列b_i=Aκ_i/p^e_i，e=(1,1,2,2,2,2,2,3,4)，p=31。U9是九维真实不变像。P9∞固定自然族九目标全部预算已排，原carry由完整β_A支付；不排图外原有理来源。若该族有解的分母门槛仍只是该族条件结论。
-- 旧九目标原p5全部原17/cost87，以及[F9全部primary第一像rank0](notes/2026-11-14-r150-ninth-first-zero-image-all-nine-current-obstructions-and-p9-family-exclusion-789f.md)均已完成；当前九余非零，全部来源/正常形/cache已main，不重数学，不代char0。
-- [原p²整数格](notes/2026-11-14-r150-original-p2-integer-source-lattice-and-eighth-second-direction-789f.md)恰Λ2=E⊕D[s]^7⊕pD[s]e8⊕p²D[s]e9。原自然图像=p²E+pκ1D[s]+pκ2D[s]+Σ3..9κiD[s]，不是全部原整数解。保持当前F9模p的允许下一核为kerĀ⊕η1…8，η9不得免费进入。
-- [η8实绩](notes/2026-11-14-r150-eighth-admissible-second-zero-image-and-four-dimensional-current-targets-789f.md)：run43644262244、数据0ab29a88，q/H5费用88与原p5整除全过，d8本身∈U9。保持当前F9模p及Λ2的九目标仍阻；全部37恢复/8cache已保。
-- 九raw列秩9、生成模13维/ann=(s−1)(s−2)^3；模U9后维4、J=2I，因此U9⊂原raw模。四维是目标商，不代来源覆盖；完整矩阵见η8实绩。
-- **[低初值第三归约](notes/2026-11-14-r150-low-initial-integer-lattice-third-layer-and-five-relations-789f.md)：** 三位允许核依次η1…7、再η8、再η9；原recipe连canonical carry给η3及η4−18η3在Λ2内精确F9核。新第三仅7001/7002/7005/7006/7007五列，完整必要族仍另保旧198第三；相关第二零不代全局第二零。
-- **[五列第三实绩](notes/2026-11-14-r150-five-third-rank-one-nine-current-obstructions-and-rational-rank-226092-789f.md)：** run43646683083/job132605949988，源ad9a3531、数据ca194cce；数学73.661900632秒，q/H5 costs[86,87,87,88,87]，五原乘回p5整除全过。25维相关商像rank1、ann=s−2、基9305，九当前目标均不相容；仅五列不足，旧198第三未覆盖。未投影五列不全在2-primary，不能称全315像一维。新真b10=AH5_9305/p5成本87且不在U9，故rank_Q A87≥226092（B≥87公式R_B+10）；非精确秩/Smith值。37恢复31819615B、18binary/19text/8cache全main，artifact14134247079；根清单交叉零缺项，不重数学。下一只读联合秩及旧198局部q2/真实carry，仍须全原式正分支。
-
-- **[旧198缩为197](notes/2026-11-14-r150-first-high-kernel-exact-seventh-source-and-197-reduction-789f.md)：** 原run43619888599的selected-nine-delta.recipe逐token给κ7=22Khat1−31q1+31³c。D=Z_(31)中22是单位，v=(κ7/22,−31²e7/22)在Λ2且F9v=T9v=0、mod31为(K1,0)，所以K1所有已定义后续像精确为零。旧高核第三只余K2…K198共197，另保已成五低初值；未用(s−2)除法，未声明全原来源覆盖。
-
-- **小矩阵实绩及救回：** run43648025236数学0.156204983秒成功；联合目标空间13维、新付费线在旧目标内、余目标商3维，完整未投影/费用87秩仍待读原回执。原out artifact14134449743、发布artifact14134723893的精确ZIP SHA已冻结。救回run43648910521在下载前因稀疏checkout缺自身workflow文件失败；已仅补该路径并更新源SHA，重新dispatch。继续只救回原字节，不重数学、不改原run/source；原失败原因待读其日志。
-
-- **[197方向双倍jet引理](notes/2026-11-14-r150-third-bockstein-double-jet-smith-loss-and-local-source-789f.md)：** torsion最大Smith幂d时，解到t^(2d)只取前d项；真char0原像+p饱和先排free，真正核差由完整第一像模U9消去，q1换lift同步carry。当前只需s=2的10→5项，原G剥573常主元至461×448，逐单位Schur保13自由输出并回原6188源。先整数t截断再p整除；未运行197第三像，正分支仍须真实全局q1/q2/CRT、完整315与原17乘回，五列618费用不得直接套用。
+- F9九真除源的e=(1,1,2,2,2,2,2,3,4)，U9九维不变；[完整F9第一像零](notes/2026-11-14-r150-ninth-first-zero-image-all-nine-current-obstructions-and-p9-family-exclusion-789f.md)已成。固定P9∞九目标全预算已排，非全原有理来源。
+- [Λ2原整数格](notes/2026-11-14-r150-original-p2-integer-source-lattice-and-eighth-second-direction-789f.md)准确为E⊕D[s]^7⊕pD[s]e8⊕p²D[s]e9；自然原像p²E+pκ1R+pκ2R+Σ3..9κiR，不是全部原整数像。允许三位核依次η1…7、再η8、再η9，不免费提前η9。[η8实绩](notes/2026-11-14-r150-eighth-admissible-second-zero-image-and-four-dimensional-current-targets-789f.md)run43644262244中d8本身∈U9，37恢复/8cache全main。九raw列秩9、生成模13、modU9商4维/J=2I。
+- [低初值归约](notes/2026-11-14-r150-low-initial-integer-lattice-third-layer-and-five-relations-789f.md)的η3、η4−18η3有Λ2内精确F9零核，只余五关系。[五列实绩](notes/2026-11-14-r150-five-third-rank-one-nine-current-obstructions-and-rational-rank-226092-789f.md)run43646683083，数据ca194cce，数学73.661900632秒、成本[86,87,87,88,87]、原p5整除全过；25维相关商秩1/ann=s−2、基9305，九目标均阻，只否定五列。真cost87的b10不在U9，故B≥87时rank_Q A_B≥4354(B+1)−157070+10；非精确秩/Smith值。37恢复31819615B/18binary/19text/8cache全保，不重数学。
+- [首高核精确消去](notes/2026-11-14-r150-first-high-kernel-exact-seventh-source-and-197-reduction-789f.md)：原recipe κ7=22Khat1−31q1+31³c，v=(κ7/22,−31²e7/22)在Λ2且F9v=T9v=0；旧198只余K2…K198共197，另保已成五列。不除(s−2)。
+- [双倍jet损失](notes/2026-11-14-r150-third-bockstein-double-jet-smith-loss-and-local-source-789f.md)：先以真char0像及p饱和排free，t^(2d)方程决定前d项第三类；真核选择差由完整第一像模U9消去，q1整数lift同步carry。当前s=2只做10→5项，G剥573常主元为461×448，保13自由条件与原6188乘回。197新像尚未执行；局部正必须全局q1/q2/CRT、全315及原17，不套旧618费用。
+- **小矩阵原字节已救回main：** run43648025236原数学0.156204983秒；原数据在notes/r150-five-third-actions-789f/43648025236-1，救回run43649083239/job132613296295发布adea54ef。原失败准确是git add拒稀疏范围外结果目录，已用精确路径--sparse修复；两原ZIP SHA全核、没有新数学、原run/source未改。实际原五列秩5，合U9秩10、费用87子族也10；合旧目标空间13，剩余商3维、基2/3/4、J=2I。完整回执已读，下一写其逐坐标证明并继续197。
 
 ## 实际边界：同一原源与已付预算
 
@@ -42,6 +35,8 @@
 - [全零源Schur障碍](notes/2026-11-14-actual-source-schur-relative-hole-derivative-obstruction-and-paid-test-null-family-789f-next.md)：真实C=kerℬ按孔分解，S为原L+B全最小lift。真实工作块⊗κ_q给全q相对孔导数log下界175d⁴/32−315d³/32−O(m²)；同族却μ²≤(C′_m−1)flat²、logC′_m=O(m²)，左最小者只在第q层，固定低孔测试最终严格零。仅排全源相对导数小界，不排两费/测试/余负图。
 - [真实逆芽](notes/2026-11-14-true-head-inverse-germ-twelve-half-radius-and-weighted-coefficients-789f-next.md)：ρ=exp(−25d³/2)两原N/Y近线性，ψ真解析且有完整非线性系数界；T_i=W_i⁻¹ψ(−D)^i保输入权。ρ⁻²数值适配c26，不自动付实际角度；完整κ(V)仍四次指数。
 - [移动boson投影](notes/2026-11-14-moving-true-head-bosonic-projections-and-inverse-gram-strong-limit-789f-next.md)强趋P_M，一侧尾≤2exp(−79d⁴)，无反向算子范数率/硬核修复/N=M。当前Euler方案仍必须支付低头零核反馈，primitive消去必须保B/G跨块项。
+
+- **[固定测试Euler与联合反变换列](notes/2026-11-14-fixed-physical-head-euler-feedback-and-inverse-gauge-joint-column-budget-789f-next.md)：** 同一f_a=e_a⊗Ω、q≥a、2^m>a，真G_a=F0(B_m)^(-a)给G_a^{-*}f_a=(A_m*)^ae0/W_a、T*该列=(−D_m*)^aΩ/W_a。完整joined投影的零源/源两列平方和≤a!S_m^a/W_a²=O_a(m^(−3a))；保全部零源Schur和真实反馈行W_U* b=−F_a* c。恢复原b仍须共同K_a*c′+G_U*b′，未付正向恢复；a=0本来b0=0，不作新小量或N=M。
 
 ## 其他未闭主接口
 
