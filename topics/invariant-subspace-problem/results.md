@@ -254,3 +254,7 @@
 ### 2026-11-14：F9完整第一像为零及P9∞九目标全部预算排除（789f）
 
 [真实完整结果](notes/2026-11-14-r150-ninth-first-zero-image-all-nine-current-obstructions-and-p9-family-exclusion-789f.md)：run43638830039原十列p6乘积及p5整除全部通过，完整Q/U9第一循环像rank0，九当前余量均由全315对偶排除。共同对偶在九目标上取[10,28,11,16,1,20,3,16,4]；仅排当前F9来源modp²的第一核提升。结合既有carry/单位族定理，另严格排P9∞九目标的所有预算特征零成员，未排原全部有理来源。数学63.738740979秒，恢复run43640008833仅发布数据至5d445ffe；77结果/40恢复/9cache全保。下一保持原p²整数来源格，较低初值及旧198第三继续。
+
+### 2026-11-14：同一物理gap的全源正滤波、统一幂及完整耗散（789f）
+
+[全源证明](notes/2026-11-14-physical-gap-all-source-positive-filter-and-paid-negative-range-789f-next.md)识别E=(L+B)⁻¹L−(L+G⁻¹)⁻¹L为原L正收缩及真实gap压缩，像属于全部共同bare/完整费用负图；μ(r−Er)²+Xi(Er)²/2≤Xi(r)²。[幂证明](notes/2026-11-14-physical-gap-uniform-powers-and-high-spectrum-source-filter-789f-next.md)保非交换次序给E M E≤2E(I−E)，推出全n的Xi(E^n r)≤√2Xi(r)、μ(r−E^n r)²≤nXi(r)²和完整总耗散≤μ(r)²。高E谱截断保同源/两费，固定参数E幂归零；联合旗只作一次真实度量投影。没有移动窗口速率，不反向使用高谱小费来删主左能量。
