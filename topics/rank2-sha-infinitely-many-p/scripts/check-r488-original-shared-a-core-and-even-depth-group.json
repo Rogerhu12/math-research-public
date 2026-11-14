@@ -1,0 +1,321 @@
+{
+  "old_ray": [
+    1428552127,
+    2161889730,
+    2793510720
+  ],
+  "new_ray": [
+    23776637887,
+    77586679170,
+    81011810880
+  ],
+  "CRT_corrections": [
+    8,
+    27
+  ],
+  "norm_residue": 60309924679,
+  "whole_core_ratios": {
+    "58": [
+      1,
+      0
+    ],
+    "32": [
+      27,
+      8
+    ],
+    "928": [
+      59,
+      232
+    ],
+    "36": [
+      19,
+      0
+    ]
+  },
+  "odd29_absolute_core": "chi_29,p in {+1,-1}, fixed by the actual normalized trace",
+  "C29_output_matrix": [
+    [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "4",
+      "-1",
+      "0",
+      "0"
+    ],
+    [
+      "7",
+      "7",
+      "-15",
+      "0"
+    ],
+    [
+      "7",
+      "7",
+      "7",
+      "-22"
+    ]
+  ],
+  "C29_inverse": [
+    [
+      "3/29",
+      "1/5",
+      "1/110",
+      "3/638"
+    ],
+    [
+      "12/29",
+      "-1/5",
+      "2/55",
+      "6/319"
+    ],
+    [
+      "7/29",
+      "0",
+      "-1/22",
+      "7/638"
+    ],
+    [
+      "7/29",
+      "0",
+      "0",
+      "-1/29"
+    ]
+  ],
+  "C29_Gram": [
+    29,
+    60,
+    2310,
+    4466
+  ],
+  "C29_determinant": "-3190",
+  "absolute_square_anchor": "sigma(2z-5t)*sigma(5z+2t), degree29 in both axes",
+  "quarter_phase_table": [
+    {
+      "m": 0,
+      "n": 0,
+      "norm_mod4": 0,
+      "epsilon_power_of_i": 0,
+      "epsilon_square": 1
+    },
+    {
+      "m": 0,
+      "n": 1,
+      "norm_mod4": 1,
+      "epsilon_power_of_i": 3,
+      "epsilon_square": -1
+    },
+    {
+      "m": 0,
+      "n": 2,
+      "norm_mod4": 0,
+      "epsilon_power_of_i": 0,
+      "epsilon_square": 1
+    },
+    {
+      "m": 0,
+      "n": 3,
+      "norm_mod4": 1,
+      "epsilon_power_of_i": 3,
+      "epsilon_square": -1
+    },
+    {
+      "m": 1,
+      "n": 0,
+      "norm_mod4": 1,
+      "epsilon_power_of_i": 3,
+      "epsilon_square": -1
+    },
+    {
+      "m": 1,
+      "n": 1,
+      "norm_mod4": 1,
+      "epsilon_power_of_i": 3,
+      "epsilon_square": -1
+    },
+    {
+      "m": 1,
+      "n": 2,
+      "norm_mod4": 3,
+      "epsilon_power_of_i": 1,
+      "epsilon_square": -1
+    },
+    {
+      "m": 1,
+      "n": 3,
+      "norm_mod4": 3,
+      "epsilon_power_of_i": 1,
+      "epsilon_square": -1
+    },
+    {
+      "m": 2,
+      "n": 0,
+      "norm_mod4": 0,
+      "epsilon_power_of_i": 0,
+      "epsilon_square": 1
+    },
+    {
+      "m": 2,
+      "n": 1,
+      "norm_mod4": 3,
+      "epsilon_power_of_i": 1,
+      "epsilon_square": -1
+    },
+    {
+      "m": 2,
+      "n": 2,
+      "norm_mod4": 0,
+      "epsilon_power_of_i": 0,
+      "epsilon_square": 1
+    },
+    {
+      "m": 2,
+      "n": 3,
+      "norm_mod4": 3,
+      "epsilon_power_of_i": 1,
+      "epsilon_square": -1
+    },
+    {
+      "m": 3,
+      "n": 0,
+      "norm_mod4": 1,
+      "epsilon_power_of_i": 3,
+      "epsilon_square": -1
+    },
+    {
+      "m": 3,
+      "n": 1,
+      "norm_mod4": 3,
+      "epsilon_power_of_i": 1,
+      "epsilon_square": -1
+    },
+    {
+      "m": 3,
+      "n": 2,
+      "norm_mod4": 3,
+      "epsilon_power_of_i": 1,
+      "epsilon_square": -1
+    },
+    {
+      "m": 3,
+      "n": 3,
+      "norm_mod4": 1,
+      "epsilon_power_of_i": 3,
+      "epsilon_square": -1
+    }
+  ],
+  "old_Y_flat_coefficients_in_Zomega": {
+    "1": [
+      [
+        80,
+        12
+      ],
+      [
+        -116,
+        -348
+      ],
+      [
+        -56,
+        12
+      ]
+    ],
+    "-1": [
+      [
+        -36,
+        12
+      ],
+      [
+        -232,
+        -348
+      ],
+      [
+        -172,
+        12
+      ]
+    ]
+  },
+  "core_A_four_states": "K_A rho_k=chi rho_(k+1), indices mod4",
+  "core_c_four_states": "K_c rho_k=-rho_(k-1), indices mod4",
+  "core_d_four_states": "K_d rho_k=-rho_k",
+  "core_R_triple": "chi*lambda^3 on the simultaneous three-R deep block",
+  "even_state_basis": "e0=rho0, e1=rho1, e2=-(1/4)sum_E4 T_t,W rho0",
+  "W_core_matrix": [
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      1,
+      0,
+      -1
+    ],
+    [
+      0,
+      0,
+      -1
+    ]
+  ],
+  "A_two_step_matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "actual_group_order": 8,
+  "new_and_reference_first_Y_rows": [
+    0,
+    1,
+    -1
+  ],
+  "T_first_W_row": [
+    1,
+    1,
+    -1
+  ],
+  "nonzero_E2_complete_Phi_sum": "-84*delta*S",
+  "h_complete_Y_marginal": "-(1+delta)*S(2z)/2",
+  "u_complete_Y_marginal": "(3-delta)*S(2z)/4",
+  "v_complete_Y_marginal": "Xi(2z)+(1+delta)*S(2z)/4",
+  "h_complete_W_marginal": "0",
+  "u_and_v_complete_W_marginal": "6*delta*T",
+  "common_companion": "D=4c+3delta*d=(Q-3delta*U)/14; R1,R2,R3",
+  "A_W_coordinate_determinant": "137170",
+  "Y_s_in_A_W_D": "((35+3delta)A+(8-3delta)W+(4-6delta)D)/43",
+  "physical_A_two_step": [
+    [
+      "k**2",
+      "0"
+    ],
+    [
+      "k**2 - 1",
+      "1"
+    ]
+  ],
+  "physical_W_step": [
+    [
+      "1",
+      "29*k/72 - 29/72"
+    ],
+    [
+      "0",
+      "k"
+    ]
+  ],
+  "cycle_lattice_identity": "rho|((P_A,2 P_W)^4 Zp^6)=lambda^12*((P_A,2 P_W)^4)_*rho",
+  "boundary": "Odd A states need the double W cover; no W closure on those two states is asserted. A deep is not four individual sigma inputs deep."
+}

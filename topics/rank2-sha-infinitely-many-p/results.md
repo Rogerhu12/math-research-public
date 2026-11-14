@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R488：共同A绝对odd29核心、完整四态与实际D8返回](results/R488-original-shared-a-odd-core-and-actual-even-depth-dihedral-return.md)：固定mod29细分付共同四输入的odd29标量及绝对平方；十六个中心相位给原A/c/d四态，A两深与旧W核在三个独立原来源上生成D8。全三曲线/参考条件行、h/u/v整个边际和λ12词像格均付，物理补域仍完整保留。
+
 - [R487：原CM混管、共同两态核心与参考非齐次carry](results/R487-original-cm-mixed-tubes-and-common-core-reference-carry.md)：完整展开原五伴随CM并保全部平移与中心相位，固定兼容ray上给同一旧W两态核心；参考两个单位质量及消未知导数的环带差均非零。原投影的216条移动管和全部差项准确保留，齐次三曲线行尚未消这些carry。
 
 - [R489：原同修正的F²双jet真像与两顶极系数](results/R489-actual-double-curve-joint-jets-and-two-leading-poles.md)：连续2b实际charge给厚化完整限制及值/法向两个联合满射界；界外精确对偶还须由其他原列筛成真左行。单位−2/5指定对准确读两最高极系数组合与真实仿射基准，保原carry且未覆盖最坏高b临界窗。
