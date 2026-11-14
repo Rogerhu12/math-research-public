@@ -172,6 +172,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:29:15.295885+00:00",
+      "before": "c8a98e3a0c53af723691944605bae97450e36397",
+      "after": "43402199ea6671ed184eb5d1a8c6a6a89dd9ec83",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -204,6 +212,11 @@
       "time": "2026-11-14T13:09:07.916444+00:00",
       "final": false,
       "commit": "1395a552495ca8b884d5584305ef91b772a52298"
+    },
+    {
+      "time": "2026-11-14T13:19:12.604040+00:00",
+      "final": false,
+      "commit": "e6bddf74c0e96316ed0b0ebe642abeb692e010f7"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -242,7 +255,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "c8a98e3a0c53af723691944605bae97450e36397",
+  "last_read_commit": "43402199ea6671ed184eb5d1a8c6a6a89dd9ec83",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-projector-range-work/science",
   "disjoint_plan": {
     "slice_id": 8,
@@ -275,8 +288,8 @@
   ],
   "assigned_new_cells": 383,
   "original_slice_manifest_sha256": "b031574480045be527955d5c6c44b9376de931fb3a25bb47b8bc35e7f13528d6",
-  "snapshot_utc": "2026-11-14T13:19:10.945898+00:00",
-  "wall_seconds": 3497.31168054,
+  "snapshot_utc": "2026-11-14T13:29:15.332918+00:00",
+  "wall_seconds": 4101.69869771,
   "native_files": [
     {
       "logical_file": "evidence/complete-range-03072-03300.json",
@@ -293,8 +306,8 @@
     {
       "logical_file": "native/validated-cells-03301-03456.json.gz",
       "file": "native/validated-cells-03301-03456.json.gz",
-      "bytes": 290602,
-      "sha256": "f7f9ca0923daea8ad722490ba7f131c651a73760196d33272f0c35f2b23718df"
+      "bytes": 576343,
+      "sha256": "37e7b0cbb9a7b3f53e7b221c6982cb74e65c0e25e727ae118d11580bdabaecda"
     }
   ]
 }
