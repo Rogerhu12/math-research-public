@@ -1,0 +1,48 @@
+{
+  "result": "R739-reused-cyclotomic-valuations",
+  "revision": 1,
+  "arithmetic_sha256": "654a3cddd121f56569a1f4c04ac924297eaab295901cfb70ef1308a898165b54",
+  "workflow_sha256": "07f4a3be1f73ffb414ea62f7510ca9700ef6508704ed0165c6cd5c9e90afab78",
+  "execution_environment": "public-repository-github-actions",
+  "completed_results_must_be_reused": true,
+  "inputs": {
+    "p47_checkpoint": {
+      "path": "topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1/R739-fiber-checkpoint.json",
+      "sha256": "eb805a0fe9fdd6404a5e75cba77fdef0084ff85b94874565cfdd471841c49e5f"
+    },
+    "p47_receipt": {
+      "path": "topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1/R739-p47-h7-exact-N.json",
+      "sha256": "33afb0aad5f900baea0cb881a888e44815e2caad504633daed576812506fab88"
+    },
+    "p47_fibers": {
+      "path": "topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1/R739-p47-h7-original-fibers.json.gz",
+      "sha256": "e01a1fda63168d8d32124199b06bf5627cb2ce68911eccaf8fb5ab3bdd0daa01"
+    },
+    "p41_polynomial": {
+      "path": "topics/serre-uniformity/computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-integer-polynomial.json.gz",
+      "sha256": "932899efb77482cb7712e8554376b6c6f65050620bf9a84485d610949ba0dbc7"
+    },
+    "p41_receipt": {
+      "path": "topics/serre-uniformity/computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-original-CM-norm.json",
+      "sha256": "fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6"
+    }
+  },
+  "fixed_evaluations": [
+    {
+      "prime": 47,
+      "h": 7,
+      "object": "original finite N_h"
+    },
+    {
+      "prime": 41,
+      "h": 37,
+      "object": "original P_h=S2,h*S3,h/C0^2"
+    }
+  ],
+  "precision_method": "exact cyclotomic norm bounds the selected nonnegative numerator valuation; retain the original Teichmuller generator and lift only as needed",
+  "new_fiber_enumerations": 0,
+  "new_lattice_terms": 0,
+  "new_DFTs": 0,
+  "parity_assumed": false,
+  "height_or_Serre_exclusion_claimed": false
+}

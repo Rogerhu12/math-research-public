@@ -1,0 +1,62 @@
+name: Serre R739 reuse exact cyclotomic certificates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/serre-uniformity/notes/R739-cyclotomic-reuse-request.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: serre-R739-reused-cyclotomic-valuations
+  cancel-in-progress: false
+
+jobs:
+  exact_algebra:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout public source and completed certificates
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            README.md
+            .github/workflows/serre-R739-cyclotomic-reuse.yml
+            topics/serre-uniformity/README.md
+            topics/serre-uniformity/scripts/R739_reused_cyclotomic_valuations.py
+            topics/serre-uniformity/scripts/p41_public_actions_recovery.py
+            topics/serre-uniformity/notes/R739-cyclotomic-reuse-request.json
+            topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1
+            topics/serre-uniformity/computations/R717-original-CM-norm-p41/43597163388-1
+            topics/serre-uniformity/computations/R739-reused-cyclotomic-valuations
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Exact norms and selected original Teichmuller evaluations
+        id: calculation
+        continue-on-error: true
+        timeout-minutes: 8
+        run: python topics/serre-uniformity/scripts/R739_reused_cyclotomic_valuations.py run
+      - name: Preserve all exact outputs and early failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-cartier-R739-reused-cyclotomic-valuations-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R739-cyclotomic-output
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Publish bounded certificates and full manifest
+        if: always()
+        env:
+          SERRE_ACTIONS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python topics/serre-uniformity/scripts/R739_reused_cyclotomic_valuations.py publish
+      - name: Verify both exact continuation receipts
+        if: always()
+        run: python topics/serre-uniformity/scripts/R739_reused_cyclotomic_valuations.py verify
