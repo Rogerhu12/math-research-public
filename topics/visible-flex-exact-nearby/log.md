@@ -139,3 +139,7 @@ root逐字核P1–29及原U14–17/Q10–31，复核窗口计数、三generator�
 ### 2026-11-14 17:35:21 UTC — 大根区真实非单调性费用与新消费
 
 43621351216实际child1/5输入门/0commonrows，native8ac080899915ced52d6002aa471d1aa4ca2f482df111078640b3bdbac9dd2db2；whole Kr>1失败完整保留。根与phase独核 $-w_\rho/w=(e^{-x}-K_r)/(2w^2)$ 的正部：原k下界和真实cell距r_-给远根S_i，根附近若门不满足仍严失败。source 9acc1e8187663b91845347878034a384f5ff25b939e7faa0a1ab72f7f8738de9，proof 60ceb9c93e80984c67c2e9847e08815f83bc772f7bf2b8f397a57095617ef78b，manifest cc907dc35cd1d71703910ee6cc8fda7bb90f677867f43b0752d0719d899d4846。只新增从未完成的共同格scalar，0旧target/array/primitive重算。
+
+### 2026-11-14 17:37:32 UTC — 部署完整第一 Airy forcing 21pin 消费
+
+根已完整审15780B合同、32287B源（旧数学公式不变）、6423B CI、15586B worker、6263B flow与21pin。source d964ae8354700fbb101b55ae332ba51ab8c1a6bafcfe2ca78e12206aae32b592 / manifest0c836f81cd952dc1527e593c67a813de723187914582b72a578c83c21eecfee6。旧片complete=False/selected=True/failureNone严格校验，identity逐字保。prefix按同source/manifest/runtime/原片SHA及每truecommonrow身份复用，glob随accepted rows保存；完整native原字节复制。45min科学child/50min外层，前后真pull核README，真实成功或失败全保并循环rebase push。

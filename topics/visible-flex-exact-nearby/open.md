@@ -87,3 +87,7 @@ root负责全δ根图/科学核对/发布；newton负责同Z全源/真帽边界/
 ### 接实际 Hessian 残差导数分部（2026-11-14）
 
 H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\mu_h)$，三项 mean、完整物理模块与四源逐格整组选择保留。原 raw residual 的 joint Fourier 系数界已追到原 producer；repair 保守加全193槽费，composition 用单一合法非负凸弦。164 pin public consumer 只消费1341已成 t/tθ/module 行，不重做 target/array/旧试验。待实际加性界，不能先报改进。见 [合同](notes/2026-11-14-R133-residual-split-cap-Hessian-contract.md)。
+
+### 完整第一 Airy forcing 与径向逆导数（2026-11-14）
+
+[L1–25](results/R133-supplement-explicit-first-Airy-forcing-and-real-radial-inverse-jets.md)已把完整 $-\mathcal L_0(a_0,b_0)$、真正 $J_r,J_{rr},J_{rrr}$、piecewise fold混合导数和原mean一阶jump费用写成有限预算。原 one-gain 径向项、两branch、所有旧mean/primitive/inverse余项保留。21pin公开CI只读原6片intrinsic thirdjets、1300根行及完整65/193shards；同源同输入保存前缀逐格验证复用。实际结果待回读，尚未宣称强返回常数或cutoff97。

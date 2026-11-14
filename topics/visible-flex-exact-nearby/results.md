@@ -393,3 +393,7 @@
 ### 大根窗 Cauchy 能量的非单调权费用
 
 [修订 E1–12](results/R133-supplement-full-real-large-root-Cauchy-two-source-windows.md)在全域 $K_r>1$ 实门失败后保留原 Fourier 权，利用真 $k=-K/\rho\ge1$ 维持频率导数与全部源窗口；远根第一行 $-w_\rho/w$ 的正部显式按 $S_i$ 收费，近根须正导数门。两个Sobolev窗口都加同一非负径向积分；所有输入/output/mean/jump合同不变。这是解析修订，实际数值由新公开CI决定。
+
+### 第一 forcing 的显式有限合同与实际消费入口
+
+[完整 L1–25](results/R133-supplement-explicit-first-Airy-forcing-and-real-radial-inverse-jets.md)给原有序算子的degree-zero forcing和真实径向inverse jets；折叠导数通过真实特征积分及mean导数jump收费，未假设跨cubic seam径向解析。根/tail已独核全部mixed导数和边界分布项。新21pin消费者/source与断点续算已部署，数值 $F_a,F_b$ 尚待公开actual记录；原有限inverse/mean残差及后续statejump不由此免除。

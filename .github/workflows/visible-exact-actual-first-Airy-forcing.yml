@@ -1,0 +1,129 @@
+name: visible-exact actual complete first Airy forcing from original third jets
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-actual-first-Airy-forcing.yml']
+  workflow_dispatch:
+    inputs:
+      resume_run:
+        description: 'Optional original first-forcing run whose exact successful prefix will be reused'
+        required: false
+        type: string
+        default: ''
+      resume_attempt:
+        description: 'Original attempt for the optional exact prefix artifact'
+        required: false
+        type: string
+        default: '1'
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-actual-first-Airy-forcing
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  PHASE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-actual-first-Airy-forcing-CI-inputs.json
+  PHASE_MANIFEST_SHA: 0c836f81cd952dc1527e593c67a813de723187914582b72a578c83c21eecfee6
+  PHASE_PIPELINE_SHA: 087533c0a2df94a1b5022d0db3014d00a99935bf84b502d307bc028767f24b55
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+
+jobs:
+  complete-actual-first-Airy-forcing:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 65
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the exact consumer entry points
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-actual-first-Airy-forcing-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Hydrate21 exact original files and the new finite forcing consumer
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing_public_worker.py
+          --mode hydrate --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the new forcing sources without running mathematics
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,pathlib
+          root=pathlib.Path('topics/visible-flex-exact-nearby/scripts')
+          for name in ('fourfold_codazzi_actual_first_Airy_forcing.py','fourfold_codazzi_actual_first_Airy_forcing_CI.py'):
+              ast.parse((root/name).read_text(),filename=name)
+          PY_SOURCE
+      - name: Install the pinned original numerical environment
+        run: >-
+          python -m pip install --disable-pip-version-check python-flint==0.9.0 numpy==2.3.5
+      - name: Set the actual result path
+        id: paths
+        run: |
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-actual-first-Airy-forcing-output" >> "$GITHUB_OUTPUT"
+      - name: Restore the complete original successful larger-root native
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-piecewise-real-root-fold-resume-v2-43616813816-1
+          run-id: 43616813816
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/visible-exact-actual-first-Airy-forcing-prepared/root
+      - name: Restore original intrinsic rows2133 through3066
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-body-rows-2133-3066-43583838026-1
+          run-id: 43583838026
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/visible-exact-actual-first-Airy-forcing-prepared/visible-exact-body-rows-2133-3066-43583838026-1
+      - name: Restore original intrinsic rows3066 through4000
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-body-rows-3066-4000-43583838026-1
+          run-id: 43583838026
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/visible-exact-actual-first-Airy-forcing-prepared/visible-exact-body-rows-3066-4000-43583838026-1
+      - name: Restore an explicitly selected original completed first-forcing prefix
+        if: ${{ inputs.resume_run != '' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-actual-first-Airy-forcing-${{ inputs.resume_run }}-${{ inputs.resume_attempt }}
+          run-id: ${{ inputs.resume_run }}
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/visible-exact-actual-first-Airy-forcing-prepared/resume
+      - name: Evaluate complete first forcing and radial inverse jets; publish every actual outcome
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing_public_worker.py
+          --mode run --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-actual-first-Airy-forcing-science"
+          --prepared "$RUNNER_TEMP/visible-exact-actual-first-Airy-forcing-prepared"
+          --out-dir "$RUNNER_TEMP/visible-exact-actual-first-Airy-forcing-output"
+      - name: Preserve every true native and failure record
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-actual-first-Airy-forcing-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 6
+          retention-days: 30
+          if-no-files-found: error
