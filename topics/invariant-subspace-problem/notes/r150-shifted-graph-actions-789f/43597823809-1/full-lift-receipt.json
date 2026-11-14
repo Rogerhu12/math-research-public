@@ -1,0 +1,67 @@
+{
+  "format": "r150-fixed-t96-full-original-target-lift-v1",
+  "field": 31,
+  "status": "completed",
+  "requestedNativeComputeSeconds": 1800,
+  "t64HardSeconds": 900,
+  "t64SoftSeconds": 840,
+  "t96HardSeconds": 840,
+  "t96SoftSeconds": 780,
+  "targetLiftSeconds": 60,
+  "memoryMiBLimit": 4096,
+  "inputSHA256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+  "mappingSHA256": "cf2d53f8da539a1538e492fbca77464999a217878e4f3de0a5a057025507ed64",
+  "nfReceiptSHA256": "ba964ad1652f88ce85a5540c03c7b02273a140b48954edbdb453378abb75154b",
+  "annReceiptSHA256": "1bf9203391ac472cacba9186b5789d757322e773a503682514a8ce5f040d8b18",
+  "runnerSHA256": "b2cf7dbb3660a3f665c7b7bcdb249c03ba60d064eb3babec0e98d15ab3ff39ca",
+  "t64RunnerSHA256": "274cc8e0104ccf0c535583f4d0e66417c4443719d0ee321c26648ee44045c01e",
+  "t96RunnerSHA256": "b2b5edffa65c46e055fa35fa00bc509d86e5e3dc4dc90e948da3c50a0eb6538a",
+  "targetRunnerSHA256": "ddfcca372307c138fd6f396306f7a0195534cfec3558e1ec5057447b217a0e37",
+  "outputs": {
+    "t64-graph-receipt.json": {
+      "file": "/home/runner/work/_temp/isp-r150-reweighted-graph-output/t64-graph-receipt.json",
+      "bytes": 2553,
+      "sha256": "5a771f64d94c332b6317783403a52934af8dcaf02f4f29f1857c99de46f271bc"
+    },
+    "t64-graph-metadata.json": {
+      "file": "/home/runner/work/_temp/isp-r150-reweighted-graph-output/t64-graph-metadata.json",
+      "bytes": 46180,
+      "sha256": "8add4eac0d53d13a003e92e9b071b59fb64e9e4abbb5027a0a238681b5083890"
+    },
+    "t64-graph.log": {
+      "file": "/home/runner/work/_temp/isp-r150-reweighted-graph-output/t64-graph.log",
+      "bytes": 23917,
+      "sha256": "5c155b8c67c4dadcb99b50b4c61ed3d5c5997bc705a8ff6cbc11763050a00bd0"
+    },
+    "t96-graph-receipt.json": {
+      "file": "/home/runner/work/_temp/isp-r150-reweighted-graph-output/t96-graph-receipt.json",
+      "bytes": 2950,
+      "sha256": "49a285abff1cf3687f87987eb22bfdb9b9c580e47dd82e76a342d008ce9c3842"
+    },
+    "t96-graph-metadata.json": {
+      "file": "/home/runner/work/_temp/isp-r150-reweighted-graph-output/t96-graph-metadata.json",
+      "bytes": 54493,
+      "sha256": "3180ddd0e6cda1d7621884ef1c6e254d8ed130941c667dfb78eac0e895414205"
+    },
+    "t96-graph.log": {
+      "file": "/home/runner/work/_temp/isp-r150-reweighted-graph-output/t96-graph.log",
+      "bytes": 20677,
+      "sha256": "57123ddc1e3686499fda94e846dbf8cde2557956035dbf8d9d48a6492bbe2ef9"
+    },
+    "target-lift-receipt.json": {
+      "file": "/home/runner/work/_temp/isp-r150-reweighted-graph-output/target-lift/target-lift-receipt.json",
+      "sha256": "846de2defbc72c0c55e1fcabafd4881299a44f3ee7f5a3056b62191782a951f4"
+    }
+  },
+  "t64ExitCode": 0,
+  "t64Status": "full-graph-without-elimination",
+  "t96ExitCode": 0,
+  "t96Status": "completed",
+  "projectionSpanCertified": true,
+  "targetLiftStatus": "completed",
+  "targetLiftExitCode": 0,
+  "fullNormalFormSourceIdentity": true,
+  "allDegreeBoundsVerified": true,
+  "elapsedSeconds": 393.31242675,
+  "sourceIdentity": "All original T64 graph vectors are reweighted once at T96. Nonzero outputs of source-leading rows are never discarded during reweighting or called kernel rows. Final completion requires every coefficient of R*C=h31*T for all 2195 original NF sources and all nine original targets, with bounds 146-degree(R_j). Recovery to the original seventeen equations and characteristic-zero membership remain separate."
+}

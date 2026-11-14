@@ -59,4 +59,4 @@ boundary_core/literature_audit继续有限a联合SOS与真实共同谱；normal_
 
 ## 计算同步
 
-- **最近 CI pull 与规则核对：** `6215cffc3912d3e6d1adca6739f8de2ec5cba482`（2026-11-14 12:39:54 UTC，实际 pull/rebase 成功，两 README 与任务源哈希一致）；R150 来源图运行 43595280823-1，真实结果见本次回执。
+- **最近 CI pull 与规则核对：** `9da7d829b4ed24357484ab5cadf038f2e553b4a3`（2026-11-14 13:10:38 UTC，实际 pull/rebase 成功，两 README 与任务源哈希一致）；R150 来源图运行 43597823809-1，真实结果见本次回执。

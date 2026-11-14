@@ -1,0 +1,72 @@
+{
+  "format": "r150-fixed-t96-reweighted-graph-run-v1",
+  "field": 31,
+  "status": "completed",
+  "inputSHA256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+  "inputGraphSHA256": "70e625ca0f0a217117d588dd673f0f8aeafc407d8f33cff0ba1c6e6e9d9d9bdb",
+  "inputGraphReceiptSHA256": "5a771f64d94c332b6317783403a52934af8dcaf02f4f29f1857c99de46f271bc",
+  "nfReceiptSHA256": "ba964ad1652f88ce85a5540c03c7b02273a140b48954edbdb453378abb75154b",
+  "referenceCompleteGBReceiptSHA256": "18d523a451953799c280f05e251a630be1543b2aa248940cce97d17a25246969",
+  "referenceCompleteGBBasisSHA256": "0b397a7fe10f27d9c8ec9453e654ce52c0d1499187e1cc6cb2228d3676159960",
+  "referenceCompleteGBOutputDegreeSum": 716,
+  "oldSourceShiftRule": "degree(R_j)-64",
+  "sourceShiftRule": "degree(R_j)-96",
+  "maximumWeightedRowDegree": 8,
+  "wordsPerPlane": 4842,
+  "fullSingleCopyBasisBytes": 212563800,
+  "cppSHA256": "4d8d6a7adf8be6d60e61f1b85975c1718dcf9aeb77fe654d2dcf9ab89f9155e3",
+  "runnerSHA256": "b2b5edffa65c46e055fa35fa00bc509d86e5e3dc4dc90e948da3c50a0eb6538a",
+  "arithmeticHeaderSHA256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+  "secondsLimit": 840,
+  "softSeconds": 780.0,
+  "memoryMiBLimit": 4096,
+  "outputs": {
+    "basis.bin": {
+      "file": "/home/runner/work/_temp/isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+      "bytes": 101365853,
+      "sha256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce"
+    },
+    "metadata.json": {
+      "file": "/home/runner/work/_temp/isp-r150-reweighted-graph-work/t96/reweighted-metadata.json",
+      "bytes": 54493,
+      "sha256": "3180ddd0e6cda1d7621884ef1c6e254d8ed130941c667dfb78eac0e895414205"
+    }
+  },
+  "binarySHA256": "e0908fce6eafd7438b1c537ac6a1e58a1f5866ae0187a60877eeef435e1e7a07",
+  "lastProgress": {
+    "status": "complete-reweighted-graph-projection-basis",
+    "processedSources": 2195,
+    "outputLeadingRows": 1021,
+    "sourceLeadingRows": 1174,
+    "sourceLeadingRowsWithNonzeroOutput": 0,
+    "maximumOutputLeadingDegree": 8,
+    "maximumSourceCoefficientDegree": 84,
+    "outputDegreeSum": 716,
+    "projectionSpanCertified": true,
+    "reductions": 3483350,
+    "swaps": 4788,
+    "additionWordCalls": 23386262877,
+    "peakRSSKiB": 211468,
+    "elapsedSeconds": 18.705
+  },
+  "exitCode": 0,
+  "elapsedSeconds": 18.72332462700001,
+  "allOriginalGraphRowsProcessed": true,
+  "projectionSpanCertified": true,
+  "nativeStatistics": {
+    "status": "complete-reweighted-graph-projection-basis",
+    "processedSources": 2195,
+    "outputLeadingRows": 1021,
+    "sourceLeadingRows": 1174,
+    "sourceLeadingRowsWithNonzeroOutput": 0,
+    "maximumOutputLeadingDegree": 8,
+    "maximumSourceCoefficientDegree": 84,
+    "outputDegreeSum": 716,
+    "projectionSpanCertified": true,
+    "reductions": 3483350,
+    "swaps": 4788,
+    "additionWordCalls": 23386262877,
+    "peakRSSKiB": 211468,
+    "elapsedSeconds": 18.705
+  }
+}

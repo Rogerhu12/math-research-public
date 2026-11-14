@@ -1,0 +1,60 @@
+{
+  "format": "r150-reweighted-graph-target-lift-run-v2",
+  "field": 31,
+  "status": "completed",
+  "graphSHA256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce",
+  "graphReceiptSHA256": "49a285abff1cf3687f87987eb22bfdb9b9c580e47dd82e76a342d008ce9c3842",
+  "sourceShiftRule": "degree(R_j)-96",
+  "maximumProductDegree": 146,
+  "graphProjectionSpanCertified": true,
+  "graphSourceLeadingRowsWithNonzeroOutput": 0,
+  "inputSHA256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+  "nfReceiptSHA256": "ba964ad1652f88ce85a5540c03c7b02273a140b48954edbdb453378abb75154b",
+  "annReceiptSHA256": "1bf9203391ac472cacba9186b5789d757322e773a503682514a8ce5f040d8b18",
+  "cppSHA256": "a56fdee295a980269f055f6e5bcecb640cc49a9e29487600eb6a6c776f4941c7",
+  "arithmeticHeaderSHA256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+  "runnerSHA256": "ddfcca372307c138fd6f396306f7a0195534cfec3558e1ec5057447b217a0e37",
+  "secondsLimit": 60,
+  "memoryMiBLimit": 4096,
+  "outputs": {
+    "original-coefficients.bin": {
+      "bytes": 1851523,
+      "sha256": "b60b747fabff6796d79135391fa1e53d29cd91b70f9be6c88dc863242f802a9c",
+      "gzipFile": "/home/runner/work/_temp/isp-r150-reweighted-graph-output/target-lift/original-coefficients.bin.gz",
+      "gzipBytes": 1121383,
+      "gzipSHA256": "db4145e112132cf74b866ee9f68402c404fe60f85a6a22ac9238a0a40c2605dc"
+    },
+    "metadata": {
+      "file": "/home/runner/work/_temp/isp-r150-reweighted-graph-output/target-lift/original-coefficients.json",
+      "bytes": 49982,
+      "sha256": "0ec55e98ee71e8dc9391b4a0b150dea95d662985738dca7ef41c62b64c1c929a"
+    }
+  },
+  "binarySHA256": "27bccc918b56bdab7f7ba0f350d39126ee15b40320bf4be3caa3d5a56f8567b4",
+  "lastProgress": {
+    "status": "original-nine-targets-low-degree-lift-complete",
+    "maximumCoefficientDegree": 130,
+    "nonzeroSources": 2108,
+    "nonzeroCoefficients": 1569777,
+    "fullNormalFormSourceIdentity": true,
+    "allDegreeBoundsVerified": true,
+    "sourceLeadingRowsWithNonzeroOutput": 0,
+    "outputDegreeSum": 716,
+    "projectionSpanCertified": true,
+    "elapsedSeconds": 4.84342
+  },
+  "exitCode": 0,
+  "elapsedSeconds": 4.854367597000021,
+  "nativeStatistics": {
+    "status": "original-nine-targets-low-degree-lift-complete",
+    "maximumCoefficientDegree": 130,
+    "nonzeroSources": 2108,
+    "nonzeroCoefficients": 1569777,
+    "fullNormalFormSourceIdentity": true,
+    "allDegreeBoundsVerified": true,
+    "sourceLeadingRowsWithNonzeroOutput": 0,
+    "outputDegreeSum": 716,
+    "projectionSpanCertified": true,
+    "elapsedSeconds": 4.84342
+  }
+}
