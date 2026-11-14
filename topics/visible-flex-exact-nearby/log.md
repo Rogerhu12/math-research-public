@@ -511,3 +511,7 @@ Y1–7只消费原exactfold完整native0ceafc2b…/3180936B及process67bf926a…
 ## 2026-11-14 23:21:22 UTC — 全5970同F计划actual与出版层故障
 
 已核process98fca8da…、outcome2e5002b5…：run43651733856数学5.000476093s/child0/7门，native d893f609…266218B；其后Path+str摘要拼接TypeError。32组均未跑，0新矩阵格。完整失败及成功计划独立保留；v2仅修出版和精确原计划恢复，不放宽科学门/不改117原pins。4次runner真pull末23:09:36 da0ecd856291b2ae77e0c78c567f7cac31ff851e，两README实际diff空；root只读核32102d96af729910fd96849a89b422d48d27d921亦未变。CLI仍unavailable，小文本依根规8。
+
+## 2026-11-14 23:21:37 UTC — 全矩阵v2最小恢复与缺格并行
+
+独立推v2 CI/122pin manifest/workflow三文件。root逐行diff已核：唯一路径f-string修复及run43651733856/attempt1/process98fca8da…/native d893f609…/真实child0七门的特定迁移；旧complete=false/错误原样保。原117pins逐项相同、科学source47d69d78…与合同deb8ad6b…均未改，旧workflow路径不触发。新plan不启动数学，只恢复原成功native，随后32互斥组只新5966格，原4成功同F矩阵不重算。发布不是实际完成；全Green/trueBR/V舍入/无限Schur仍须付。两README在4b41e72e9759cf8b37f762f97f756c160994d8da只读核未变；真实pull仍记HANDOFF。
