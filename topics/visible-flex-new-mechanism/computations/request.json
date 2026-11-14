@@ -1,38 +1,31 @@
 {
-  "request": "original-volterra-rational-dual-and-genuine-next-pure-tail-coefficients",
-  "created_at": "2026-11-14 20:01:28 UTC",
+  "request": "reuse-published-quartic-and-run-only-previously-uncalled-joint",
+  "created_at": "2026-11-14 20:06:49 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "full_phase_rational_dual",
-    "pure_tail_period"
+    "joint_resume"
   ],
   "source_sha256": {
-    "literature_rational_volterra_polynomial.py": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22",
-    "literature_full_phase_rational_dual.py": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f",
-    "literature_pure_tail_period.py": "7cceb79aeffb7f6d0b67e333890e6502c8dd1042041e5edc22a580d5b174f528"
+    "frame_height_joint_resume.py": "54ae55525da9dcf1471fa9fff3caf13d159e6b33c86d25468a92cf9afb63d6ae"
   },
-  "full_phase": {
-    "original_v2_report_sha256": "7c2cb9fece518fb6fbb15b6b4e034565dfcc5a10cf0e103a7011cd56dc4ac960",
-    "same_real_profile_pair_all_rows_and_modes": true,
-    "negative_certificate_only_if_control_rank_36_and_nonzero_37_minor": true,
-    "generic_test_profiles_not_claimed_moment_admissible": true,
-    "max_seconds": 300
-  },
-  "tail": {
-    "exponent": 8,
-    "orders": [
-      23,
-      24,
-      25,
-      26,
-      27
-    ],
-    "max_seconds": 240,
-    "unchanged_R56_forcing_called_directly": true,
-    "every_s_history_preserved": true,
-    "density_not_claimed_period_or_sign": true
-  },
-  "old_full_phase_word_solve_not_repeated": true,
-  "old_quartic_optimizer_not_repeated": true,
+  "prior_run": 43634358250,
+  "prior_joint_minimize_invocation_count": 0,
+  "prior_completed_report_decoded_sha256": "e344e6e0a62be10dfa8dad4f52e4b889191f462b97bb19dd4b1cc0283f6f33dc",
+  "quartic_optimizer_calls_this_run": 0,
+  "new_branch_artificial_check_in_same_job_before_actual": true,
+  "warm_start_order": [
+    "published_post_quartic",
+    "original_accepted_height"
+  ],
+  "minimum_signed_height_exact": "1/10000",
+  "unchanged_signed_z_tolerance": 1e-09,
+  "original_cap_row_and_g_b0_boxes_unchanged": true,
+  "joint_maxiter": 80,
+  "joint_max_evaluations": 120,
+  "joint_max_seconds": 300,
+  "refinement_angles_same_state": [
+    384,
+    768
+  ],
   "task_complete": false
 }

@@ -99,3 +99,5 @@
 - 2026-11-14 20:01:28 UTC，Astra-new-mechanism-9974ea84：已跑旧B修复actual的四次46eval/46iter，将metriccost降到.02828242但到接触边界，joint调用0。登记完整报告、准确镜像门导数及最小resume方案：消费旧四次、原accepted回退、正z工作裕量，原盒/g/预算保持。并请求两个新理论actual：独立原始Volterra有理/有限域分离子式；R56真实幂尾23–27阶全history编译。两者仅本公开Actions，已通过对应小人工新分支；publisher增加已压JSON保持原bytes及解压有效性，小人工压缩链通过，以保完整DAG而不丢成仅artifact。
 
 - 2026-11-14 20:03:27 UTC，Astra-new-mechanism-9974ea84：登记R86条件定理：三个左侧分离同形偶bump的三矩列构成非零Vandermonde，解复线性缺陷再取复平方根得准确三矩0；共同右锚使原完整目标/36列全部查询值不变。若实际37子式成功，先C6光滑化再补偿给合法C∞非退化圆，归一四次齐次保持非零。尚不宣称运行中dual成功。私有20:02:06真正pull至fb59f636，两README路径无差、QUEUE唯一行仍本会话进行中；下次不晚21:01。理论actual43635287277两lane已启动。
+
+- 2026-11-14 20:06:49 UTC，Astra-new-mechanism-9974ea84：登记tail actual43635287277完整1.961s/4681DAG/14真实histories，R85四条原式零，23–27系数全保结构；可读展开因体积省略，不冒period或正性。dual同run27.987s取得严格36/37分离子式，R87正整理。立即请求独立resume54ae5552：同job新分支人工后复用原五输入，原quartic不重跑，先拒接触warm再核原accepted，z下界1e−4/原1e−9容差，原帽高/g/盒/预算保持；仅尚未调用的joint一次。

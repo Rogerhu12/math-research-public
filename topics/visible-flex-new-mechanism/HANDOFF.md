@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`e7d6d4a58872c88680bc4ad895eeba885f5f45bd`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`247a9d2ee5d557270c3e3c1ed39232693025f895`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:02:06 UTC实际pull至`fb59f636d9b9ce20c96325dbe19a3b4c504ac21b`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:01 UTC。
 
@@ -49,8 +49,8 @@ R82 pure阳性actual43632772378/source31a276f6：101端点行fresh核，18有理
 
 完整colored首actual43632772378：152模板逐响应141列后300s资源退出，原partial保留。修订d7513321先消完整T与基准可达项；**v2 actual43633746055/source26c3f2c0 complete122.312s**：152→36原模板，116依赖fresh；基准495→42/238→0/198→0，a及log(a)分量两个mode原式均0。有理常数分量target1202、联合余1374（SHA57a70c43…），未产完整身份，**非实际非成员定理**。完整报告157380B SHA `7c2cb9fece518fb6fbb15b6b4e034565dfcc5a10cf0e103a7011cd56dc4ac960`。下一针对原始函数的准确评价/Volterra泛函或具体遗漏身份，不盲添同类控制/扩正规化。
 
-R83给真实(w,u,v)传递、M0倒行T−而V+；真词Z恒M=T0，在含Z0的R45实际基准上ΔP0=4(E(t)−E(0)+λtK)，切向4λK，保已付P1。**未知基准和偶成本仍欠，不能倒行减第四成本。** R84已证成本仅有限加法半群（倒行V+），frame环L∫(1+k²)≥4π²，统一有界k不能缩空词；未证V正性或排正长度V0。R86已证左三bump准确补三复矩且保右锚全部查询；非零36/37子式若取得，可经C6光滑化升为某个合法C∞三矩圆障碍，不排所有circle。R85已证pure幂尾4m−9项是准确总导数，M0+常端芽自动消去；须从4m−8起保全history研究，不能用首项立正性。repo_sources续后阶原式，literature续剩余完整相位。全P0/逐s ruling、高阶/收敛及宏观嵌入厚度都欠。
+R83给真实(w,u,v)传递、M0倒行T−而V+；真词Z恒M=T0，在含Z0的R45实际基准上ΔP0=4(E(t)−E(0)+λtK)，切向4λK，保已付P1。**未知基准和偶成本仍欠，不能倒行减第四成本。** R84已证成本仅有限加法半群（倒行V+），frame环L∫(1+k²)≥4π²，统一有界k不能缩空词；未证V正性或排正长度V0。R86已证左三bump准确补三复矩且保右锚全部查询；actual43635287277已得非零36/37子式，可经C6光滑化升为某个合法C∞三矩圆障碍，不排所有circle。R85已证pure幂尾4m−9项是准确总导数，M0+常端芽自动消去；tail actual43635287277完整1.961s/14真实history/四条exactzero；23–27完整DAG已存，须从4m−8起研究，不能据密度项数立period正性。repo_sources续后阶原式，literature续剩余完整相位。全P0/逐s ruling、高阶/收敛及宏观嵌入厚度都欠。
 
 ## 6. 持续推进
 
-当前理论actual为run43635287277/sourcef3102464：原式有理profile/有限域非零37子式检验，与R56完整幂尾23–27系数编译。已跑v2与旧quartic不重跑。mechanism独立实现resume；几何新B随后接局部核心输运。新实际发布后真正pull核两README，同步H/log/open；每个完整定理立即索引。子问题接open不等阶段批准。原始文献/撤稿/成对等距/局部片边界见notes/literature-20261114.md，不重复来源清单代替研究。
+理论actual43635287277两lane已complete：dual准确37子式成功（R87正登记），tail完整原式资料见notes/pure-tail-first-actual-complete-20261114.md。当前request为joint_resume，同job新人工check后执行尚未调用的一次joint；driver54ae5552，五输入含旧quartic完整report，旧四次不重跑。mechanism随后接accepted旧场的局部核心B输运。新实际发布后pull核两README并同步H/log/open；子问题接open不等阶段批准。原始来源边界见notes/literature-20261114.md，不重复清单代替研究。
