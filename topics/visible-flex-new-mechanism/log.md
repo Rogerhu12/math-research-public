@@ -95,3 +95,6 @@
 
 - 2026-11-14 20:10 CST，Astra-new-mechanism-9974ea84：完成两种椭圆角基与fixed inward的真实审计，29个原始输出receipt哈希均吻合。两长度/两角基全都仅接受圆t=0；最小非圆步metric仍.001258/.000621，二jet误差却在舍入量级，不能原样加密当正向延续。
   fixed inward Cartesian细metric=.99686、κsample4679.91；准确记录二表示共用40min，前者耗19.9min后signed尚无完成文件，未把缺输出当数学失败。
+
+- 2026-11-14 20:13 CST，Astra-new-mechanism-9974ea84：完成R14近远法弦/中心reach/有限宽法向核心嵌入的完整证明；审计R12真实Actions，u=.8/1条件幅度下界.34880/.40320，连续曲率仍有局部预算。未支付完整封口与reach。
+  共享workflow/publisher新增warped_tube、phase_shoot、derivative_audit三lane：冻结两核心认证、抽象R13实际局部与有限外延、冻结旧输出的平滑/hinge分块导数检查；不原样重复失败优化。

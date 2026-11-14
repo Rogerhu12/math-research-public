@@ -1,0 +1,57 @@
+{
+  "schema": "warped-tube-synthetic-check-v1",
+  "check_only": true,
+  "research_geometry_evaluated": false,
+  "circle": {
+    "schema": "warped-ruled-tube-v1",
+    "available": true,
+    "nodes": 48,
+    "half_width": ".1",
+    "center_curvature_absolute_upper": "1",
+    "near_arc_threshold_lower": "1.5707963267948966192313216916397514420985846996841",
+    "near_normal_chord_radius_lower": "1",
+    "total_arc_length_upper_from_cells": "6.5386401710669365406967187089726883915622323217660",
+    "near_cell_pair_count": 528,
+    "far_cell_pair_count": 648,
+    "far_cell_distance_lower": "1.20206026981752955862248199991881847381591796875",
+    "limiting_far_cell_pair": [
+      2,
+      39
+    ],
+    "centerline_embedding_proved": true,
+    "centerline_reach_lower": "0.601030134908764779311240999959409236907958984375",
+    "core_embedding_proved": true,
+    "normal_ribbon_injectivity_margin": "0.501030134908764779311240999959409236907958984375",
+    "whole_closed_surface_reach_proved": false,
+    "round_collars_constructed": false,
+    "task_complete": false,
+    "source_sha256": "2ec8af1e3f7fe2ed7ff4d7e49e9679776fb0cc7b26c4884faaf830bafbc9ced6"
+  },
+  "double_cover": {
+    "schema": "warped-ruled-tube-v1",
+    "available": true,
+    "nodes": 96,
+    "half_width": ".1",
+    "center_curvature_absolute_upper": "1",
+    "near_arc_threshold_lower": "1.5707963267948966192313216916397514420985846996841",
+    "near_normal_chord_radius_lower": "1",
+    "total_arc_length_upper_from_cells": "13.077280342133873081393437417945376783124464643541",
+    "near_cell_pair_count": 1056,
+    "far_cell_pair_count": 3600,
+    "far_cell_distance_lower": "0",
+    "limiting_far_cell_pair": [
+      0,
+      47
+    ],
+    "centerline_embedding_proved": false,
+    "centerline_reach_lower": "0",
+    "core_embedding_proved": false,
+    "normal_ribbon_injectivity_margin": "-0.1",
+    "whole_closed_surface_reach_proved": false,
+    "round_collars_constructed": false,
+    "task_complete": false,
+    "source_sha256": "2ec8af1e3f7fe2ed7ff4d7e49e9679776fb0cc7b26c4884faaf830bafbc9ced6"
+  },
+  "passed": true,
+  "source_sha256": "2ec8af1e3f7fe2ed7ff4d7e49e9679776fb0cc7b26c4884faaf830bafbc9ced6"
+}

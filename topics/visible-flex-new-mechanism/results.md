@@ -29,3 +29,5 @@
 - [R12：ψ 扭曲的准确闭合负曲率核心](results/R12-warped-ruled-core.md) — 已证明自由三瓣扭曲、准确闭合、全角正则判据、完整材料二jet及固定负K度量；连续曲率/填充投影脚本已备，实际幅度与核心嵌入待Actions，圆领连接和闭面仍未实现。
 
 - [R13：内部二重退化下真实的局部 C∞ 复相位开启](results/R13-local-smooth-complex-phase-opening.md) — 已用加权Green/Euler压缩证明跨内点的真实光滑解，左实右复且虚部全平；给出使完整局部Volterra条件成立的三矩常数。尚未实现全局右尾、双端紧支撑、三总矩或实际几何系数。
+
+- [R14：法弦近远点对分解与有限宽准确核心嵌入](results/R14-normal-ribbon-embedding-certificate.md) — 已证明近弧曲率法弦界、完整参数片覆盖的中心曲线reach下界及有限宽法向核心嵌入准则；实际u=.8/1候选将由Actions认证，未覆盖圆领或完整闭面reach。

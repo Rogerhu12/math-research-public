@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -82,6 +82,7 @@ jobs:
             /topics/visible-flex-new-mechanism/computations/request.json
             /topics/visible-flex-new-mechanism/notes/eccentric-search-design-002-curvature-seed.json
             /topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/
+            /topics/visible-flex-new-mechanism/notes/actions-43592270686-1-closed_quartic/
       - name: Prepare bounded public output directory
         run: |
           git config gc.auto 0
@@ -385,6 +386,28 @@ jobs:
             --warp-u .6,.8,1,1.2 --warp-v 0 --scale 1 --half-width .05 \
             --nodes 1536 --sample-angles 384 \
             --out "$VISIBLE_NEW_OUT/warped-ruled-u-scan.json"
+      - name: Certify two frozen warped core embeddings with whole-cell normal chords
+        if: matrix.lane == 'warped_tube'
+        timeout-minutes: 25
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/warped_ruled_tube.py" \
+            --warp-u .8,1 --warp-v 0 --scale 1 --half-width .05 --nodes 1536 \
+            --out "$VISIBLE_NEW_OUT/warped-ruled-tube-u08-u10.json"
+      - name: Validate actual local complex phase branches and guarded finite extensions
+        if: matrix.lane == 'phase_shoot'
+        timeout-minutes: 25
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_internal_phase_shoot.py" \
+            --n 96 192 --length .003 .006 --eta-imag .001 .1 --outer-stop .995 \
+            --out "$VISIBLE_NEW_OUT/internal-phase-local-and-shoot.json"
+      - name: Audit smooth and hinge derivatives at frozen completed designs
+        if: matrix.lane == 'derivative_audit'
+        timeout-minutes: 15
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_derivative_audit.py" \
+            --closed "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43592270686-1-closed_quartic/absolute-jacobian-closed-design.json" \
+            --quartic "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43592270686-1-closed_quartic/quartic-support-closed-design.json" \
+            --out "$VISIBLE_NEW_OUT/frozen-period-derivative-audit.json"
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:
