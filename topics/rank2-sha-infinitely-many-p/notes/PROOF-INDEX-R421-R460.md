@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R459：真角含量与实际首次修正的非零分支余项](../results/R459-actual-angular-content-and-padded-cubic-first-lift.md)：保原t^r后全部角层charge准确；两真实carry强制原修正在F分支的法向首项系数5，较窄可读窗另强制值首项−2，未知根修正全消。同格指定jet像及结式排除条件明确，J0实际次数免17倍；未预设像缺口、低预算实例或完整中央失败传播。
+
 - [R457：原五sigma完整伴随核心与原输入深度运输](../results/R457-original-five-sigma-full-companion-core-and-depth-transport.md)：真实五输入正交格det114114，五轴绝对核心及四伴随全部保留；Z核心准确移动每个原输入并改变Y。原六sigma归一后四伴随深域返回原JS，同一五输入全深小域每n值v5n，补域仍保，不混同带权Theta展开。
 
 - [R458：原两输入完整补域与参考相消支非齐次差](../results/R458-original-two-input-boundary-and-nonhomogeneous-reference-carries.md)：六条固定来源、真实Z/c单单位支、两近相消支与双单位主块全对齐；两参考真实环带差消掉未知导数，留下非零r dlog(κ/p)(1−λ)。原c深支首阶一、S零时双单位主块亦首阶一，完整补偿和无限Y深尾均保，尚须真混Y关系接回S。
