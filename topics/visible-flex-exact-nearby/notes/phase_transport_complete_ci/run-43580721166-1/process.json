@@ -1,13 +1,13 @@
 {
   "kind": "actual_exact_phase_transport_resume127_public_CI",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43580721166",
   "run_attempt": "1",
   "workflow_commit": "6a92ad5a9dbdda78133042ec3eed793ee82fd178",
   "worker_source_sha256": "9091af47242b09e1df7d141812539b4210a7748e9fc82986bdc29c7e0b256949",
   "started_utc": "2026-11-14T09:29:16.477721+00:00",
-  "child_exit_code": null,
+  "child_exit_code": 0,
   "reused_completed_germs": 127,
   "requested_new_germs": [
     127,
@@ -27,10 +27,22 @@
       "before": "5a18f7cb2a664335a332075e7deaaef348b9f41f",
       "after": "3984a67f4696f1e0e7595d5a4cbe6af42778f64a",
       "changed": false
+    },
+    {
+      "time": "2026-11-14T09:44:21.386666+00:00",
+      "before": "3984a67f4696f1e0e7595d5a4cbe6af42778f64a",
+      "after": "496383fa25761e3600e1df0a8823638f5c13ff88",
+      "changed": false
     }
   ],
-  "published_checkpoints": [],
-  "last_read_commit": "3984a67f4696f1e0e7595d5a4cbe6af42778f64a",
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T09:39:21.522864+00:00",
+      "commit": "8399e69a30990f149d14c8c11451230b26652817",
+      "final": false
+    }
+  ],
+  "last_read_commit": "496383fa25761e3600e1df0a8823638f5c13ff88",
   "input_manifest_sha256": "0c23828770deca8dc9734ac33249e56f51c7560fc760989ae204b7fe5d8c4341",
   "scientific_input_count": 345,
   "all_pinned_inputs_verified": true,
@@ -61,9 +73,19 @@
     "--out-dir",
     "/__w/_temp/visible-exact-phase-transport-resume127/native"
   ],
-  "snapshot_utc": "2026-11-14T09:39:19.490715+00:00",
-  "wall_seconds": 603.013292953,
+  "snapshot_utc": "2026-11-14T09:44:21.401008+00:00",
+  "wall_seconds": 904.9235976800001,
   "native_files": [
+    {
+      "file": "complete-169-cover.json.gz",
+      "bytes": 143466,
+      "sha256": "d2e9f2479dc677694c8e84945ac1787f6a5366446d4fd30eac5b3c3008ecc1ae"
+    },
+    {
+      "file": "report.json.gz",
+      "bytes": 107914,
+      "sha256": "1ef0343d2045080372c5681f585d4504d0fbce9c6a4a9fca6f3ca1f0526ae047"
+    },
     {
       "file": "transport-germ0127.json.gz",
       "bytes": 113527,
@@ -243,7 +265,54 @@
       "file": "transport-germ0162.json.gz",
       "bytes": 121100,
       "sha256": "47fc4eaf3cb609a76155eb52e6b6b25456465b1f11877a7c37efacb8086cd960"
+    },
+    {
+      "file": "transport-germ0163.json.gz",
+      "bytes": 140569,
+      "sha256": "d36cb3b475a5ac0cff390f0160861cb8ea939458f5af4b87a192c465e63a3be4"
+    },
+    {
+      "file": "transport-germ0164.json.gz",
+      "bytes": 127763,
+      "sha256": "e7cf5288422575905fc1654e0664f45350ba2d062f1ccd236889e6acfc6204ce"
+    },
+    {
+      "file": "transport-germ0165.json.gz",
+      "bytes": 100271,
+      "sha256": "75ff497fb30c7a46cb0ea81967d98d3abb2e28199ff0f38dcb1f9c200a599856"
+    },
+    {
+      "file": "transport-germ0166.json.gz",
+      "bytes": 132195,
+      "sha256": "c8b2347aec3ed98cbdf5c9fcced607e3e0461d2c449d94dfa037a28ab22968e1"
+    },
+    {
+      "file": "transport-germ0167.json.gz",
+      "bytes": 188538,
+      "sha256": "d5c9325a41be1b4aeb7343961181318ee317c48db34647df5287450a4cb2ca16"
+    },
+    {
+      "file": "transport-germ0168.json.gz",
+      "bytes": 188213,
+      "sha256": "1b2a5dbd262d4ffd77973e0ffc0d484cdd58209adf0a3edb6e18475349e697c3"
     }
   ],
-  "observed_complete_transport_germs": 163
+  "observed_complete_transport_germs": 169,
+  "consumer_exit_code": 0,
+  "consumer_command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-phase-science-43580721166-1/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_complete_transport_cover.py",
+    "--transport-dir",
+    "/__w/_temp/visible-exact-phase-transport-resume127/native",
+    "--scalar-cover",
+    "/__w/_temp/visible-exact-phase-science-43580721166-1/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-169-germ-phase-scalar-cover-native.json.gz",
+    "--root-contract",
+    "/__w/_temp/visible-exact-phase-science-43580721166-1/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-phase-root-sliver-and-transport-contract-native.json.gz",
+    "--out",
+    "/__w/_temp/visible-exact-phase-transport-resume127/native/complete-169-cover.json.gz"
+  ],
+  "completed_utc": "2026-11-14T09:44:18.299181+00:00",
+  "all_original_failures_retained": true,
+  "whole_transport_complete": true
 }
