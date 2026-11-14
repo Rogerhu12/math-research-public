@@ -171,4 +171,4 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **R150。** [pair原式](notes/2026-11-14-r150-targets6-and9-full-original-mod923521-and-exact-eighth-action-789f.md)已完成j6/9的AZ=31h0 mod31⁴/cost87；九raw全315 ann=(s−1)(s−2)²，商U8后七列非零且共一维s−2。固定标准＋七常数列族九目标全预算已排，第八真除列给rank_Q A87≥226090；不预填精确秩/Smith恰层/全部原有理像。
 
-[七φ完整相关第二像](notes/2026-11-14-r150-seven-augmented-second-kernel-and-primary-completeness-789f.md)覆盖全部A+初值的1/2部分。[连续入口](notes/2026-11-14-r150-augmented-seven-second-actions-entry-789f.md)实际run43634830833/job132569235728、源20aa140b；只新七δ2，四旧artifact/已成阶段均复用，数学共享300秒/512MiB。正向付完整315及真实谱投影费用后，全17式AX=31²h0 mod31⁵；两正列乘p复用。当前结果待实际回执，不能把源码/相容当完成；负范围仅A+全部初值。普通ISP及其它mean秩/高本质/自然幂继续。
+[本轮九原式全成](notes/2026-11-14-r150-all-nine-original31squaredh0-mod31five-and-complete-related-second-789f.md)：run43634830833，数据6b525504，九列AX=31²h0 mod31⁵全17成功、费用全87；完整相关δ2秩1/基7004，七正解只用常数。64恢复/14cache全入主线，已成K4/VQ/原式不重做。下一提取第九真除列、准确J9与完整下一层关系，仍非char0来源或两层分母必要性。普通ISP及其它mean秩/高本质/自然幂继续。
