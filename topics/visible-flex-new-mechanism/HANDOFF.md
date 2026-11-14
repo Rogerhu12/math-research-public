@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`5516ca29fa052ef118274feb5e8a26865ffd8060`。每次真正pull --rebase后立刻核双README，有变只读差异即执行并记SHA；至少每小时pull。每个有意义结论立即commit/push，NFF立刻pull/rebase核规则再推至成功，绝不force。根README blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后已读规则提交：`aaaa47123697ce402d4a773b427f01b4273a9426`。每次真正pull --rebase后立刻核双README，有变只读差异即执行并记SHA；至少每小时pull。每个有意义结论立即commit/push，NFF立刻pull/rebase核规则再推至成功，绝不force。根README blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有22:56:37 UTC已恢复终端partial clone并真实pull至`905979913d397cae80a05592bda6660733b3160c`，双规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**，只存公开元数据。下一私有pull不晚23:55 UTC；回执见notes/terminal-private-recovery-pull-20261114.json。
 
