@@ -36,3 +36,5 @@
 - [R566：完整第三态十四度核与原两补域的五观察返回](results/R566-original-third-state-fourteen-core-and-native-complements.md)：原整数D14/2K/Q1008完整frame付全部三态wholeS14及β；完整K单位逆把两native补域分别准确回原π5的14X−E unit/deep，第三态整条消去且原两strip/全部log质量保留。
 
 - [R568：原正条带全140/60核、十度轴与实际返回](results/R568-original-positive-strip-full-cores-and-native-transport.md)：三个C共轭及半周期/绝对锚付原两态的−χ65λR1；正strip完整返回h且保所有D矩、E/G/Y/W、H̄两cut。原Q10 wholeχ65及真实u/P二步词返回原S/T，移动权和全部余域仍保。
+
+- [R565：原V完整差、deck相位及非零Cartier双线性行](results/R565-original-paired-v-lame-and-nonzero-cartier-bilinear-row.md)：真实zV=r4yNx、QV完整多项式及全étale相位/gcd已付；同ray的完整十二度Cartier输出h²(x6+20x3+10)/18最高为单位，b17保全部Frob根。该非线性行不等两指定负矩乘积，且分部配对看不见R4最高Frobenius项。

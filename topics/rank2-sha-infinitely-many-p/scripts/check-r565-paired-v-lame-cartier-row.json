@@ -1,0 +1,131 @@
+{
+  "title": "R565 paired Verschiebung Lame and actual Cartier bilinear row",
+  "status": "passed",
+  "checks": 87,
+  "formal_identities": {
+    "bounded_source": true,
+    "lame_f4": true,
+    "lame_Z": true,
+    "wronskian": true,
+    "exact_difference": true,
+    "covariant_difference": true
+  },
+  "full_degree12": {
+    "ratio_mod24": [
+      19,
+      0
+    ],
+    "operator": "(I+D+X-DX)/2, e_j -> e_(7j)",
+    "sigma_pull_anchor": -1,
+    "cartier_sign": "C12=-K12",
+    "half_period_polynomial": "(x^6+20b x^3+10b^2)/(18b^2)"
+  },
+  "original_polynomial_defect": "D^3 q4 -24 Ha^3 q1 =864 r^2 y^3 r_x^2 N_x",
+  "phase": "a_T=y(T)N_x(T)/N(T), all nonzero T in ker V",
+  "fixed_ray_cartier": "C(q4 DzV omega)=Ha^2 (x^6+20x^3+10) omega /18",
+  "b17_factor": "theta^(12-7/p) times pullback of the E0 differential; theta^6=17",
+  "fibres": [
+    {
+      "p": 13,
+      "Ha": 2,
+      "full_original_gcd": "monic(r^2*x)",
+      "complete_deck_equation": "a^(p-1)=Ha in the entire nonzero V-fibre algebra",
+      "cartier_r12": [
+        6,
+        0,
+        0,
+        8,
+        0,
+        0,
+        1
+      ],
+      "cartier_q4_Dz": [
+        2,
+        0,
+        0,
+        7,
+        0,
+        0,
+        9
+      ],
+      "fixed_center_check": false
+    },
+    {
+      "p": 19,
+      "Ha": 8,
+      "full_original_gcd": "monic(r^2*x)",
+      "complete_deck_equation": "a^(p-1)=Ha in the entire nonzero V-fibre algebra",
+      "cartier_r12": [
+        17,
+        0,
+        0,
+        9,
+        0,
+        0,
+        12
+      ],
+      "cartier_q4_Dz": [
+        14,
+        0,
+        0,
+        13,
+        0,
+        0,
+        11
+      ],
+      "fixed_center_check": false
+    },
+    {
+      "p": 31,
+      "Ha": 27,
+      "full_original_gcd": "monic(r^2*x)",
+      "complete_deck_equation": "a^(p-1)=Ha in the entire nonzero V-fibre algebra",
+      "cartier_r12": [
+        27,
+        0,
+        0,
+        23,
+        0,
+        0,
+        12
+      ],
+      "cartier_q4_Dz": [
+        2,
+        0,
+        0,
+        4,
+        0,
+        0,
+        25
+      ],
+      "fixed_center_check": true
+    },
+    {
+      "p": 61,
+      "Ha": 14,
+      "full_original_gcd": "monic(r^2*x)",
+      "complete_deck_equation": "a^(p-1)=Ha in the entire nonzero V-fibre algebra",
+      "cartier_r12": [
+        57,
+        0,
+        0,
+        5,
+        0,
+        0,
+        54
+      ],
+      "cartier_q4_Dz": [
+        52,
+        0,
+        0,
+        57,
+        0,
+        0,
+        30
+      ],
+      "fixed_center_check": false
+    }
+  ],
+  "scope": "The displayed nonlinear Cartier row is nonzero. This is not a proof that the two specified linear negative moments cannot simultaneously vanish.",
+  "finite_checks": "13,19,61 are the previous fibres; 31 is a single centre-normalization check already present in the existing prime table. The universal proof is in R565."
+}

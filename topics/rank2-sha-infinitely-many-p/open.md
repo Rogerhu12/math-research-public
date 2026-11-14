@@ -205,3 +205,7 @@ R522、R525–536与R538的全部准确公式、预算和未付接口完整保�
 ### R568：原正strip的完整两核和十度桥
 
 [R568：原正条带全140/60核、十度轴与实际返回](results/R568-original-positive-strip-full-cores-and-native-transport.md)：三个C共轭及半周期/绝对锚付原两态的−χ65λR1；正strip完整返回h且保所有D矩、E/G/Y/W、H̄两cut。原Q10 wholeχ65及真实u/P二步词返回原S/T，移动权和全部余域仍保。 **待做：** 将J+与R564的J−在原全域比较，保共同p阶常数log质量和线性行；u/P真实词的逆测试不得免费改回native测试。R567续两条整段首行的真实原sigma消元，不延140/60核到R563第三态。
+
+### R565：真实非零Cartier双线性行及其精确边界
+
+[R565：原V完整差、deck相位及非零Cartier双线性行](results/R565-original-paired-v-lame-and-nonzero-cartier-bilinear-row.md)：真实zV=r4yNx、QV完整多项式及全étale相位/gcd已付；同ray的完整十二度Cartier输出h²(x6+20x3+10)/18最高为单位，b17保全部Frob根。该非线性行不等两指定负矩乘积，且分部配对看不见R4最高Frobenius项。 **待做：** 同一规范Cartier-zero条件与真正非exact配对如何控制R549两个指定最高系数；保原r/N/M、全部deck相位、两处归一和p进矩，不把微分前gcd穿过高阶D，也不由双线性非零直接赋原I4/I1非零。
