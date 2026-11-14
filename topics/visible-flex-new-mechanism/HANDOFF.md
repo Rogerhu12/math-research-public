@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`f0b773ddc25e024e4b25bfc34b71a4f96775516d`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`542431dc5e6e2192e5302fad376afdbc8ce8267f`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:42:44 UTC实际pull至`a0de3f9fcfb21e9db3e6863a8b48a665b9b5f0a3`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:41 UTC。
 
@@ -22,9 +22,11 @@ A1/B7/25/半宽1/50，L.9、握持rc.22、tc.036、tf.846、六帽R.274。167=81
 
 完整固定g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**。新B分支仍用原162态f198ba74dcf3644569bf1ed78eecbc48a0f21ec421205d46a6b159cb00ff0f56，不换当前163态。旧quartic到z0故joint0；resume43635770962拒warm/退f198仅joint一次，80iter后81a154d3细η.8882/κ354/镜像.01571。minimax43637739532唯一54trial/304.967s budget退出，物理门全过而δ门仅初点过，原final仍81a；未改旧run接受事实。
 
-**当前完整物理trial** 5d383918734118c105af3cfc2571731cdbefc2ad23939a4eb43a973e50b472ea。七input独立只读actual43639240317/sourceaf5d4aa7已complete193.203s/RSS573204KiB、人工pass、优化0/δ重赋0。原δ=.2651667068964935保持。work100×192 η.265282719；fine160×384/768 η.367912434/.368054494，漏峰s=.7875自然帽patch，κ87.5702225/87.5702066；入口κ35.099/body31.864。镜像已.102711905621>.061，minz.02、y.389999964713<.39、球norm².990461956、帽高.1427042008798/硬行裕3.67e−11；三网物理门全过，旧δ均失败/细缺.102888。公共Πη差2.01e−6不解释.1漏峰。完整raw732167B SHA169e6cb8fa1bf2c5bb5c1821ee09903b344467fff66d7243cede4c938d66e05f，详notes/metric-epigraph-saved-trial-first-fine-result-20261114.md。
+5d保存trial的七输入只读actual43639240317（193.203s/无优化）已付原工作回放六标量差0，fine160×768 η.368054494/κ87.570207，漏峰s=.7875；镜像.102711906、物理三网过/旧δ失败。来源详notes/metric-epigraph-saved-trial-first-fine-result-20261114.md。
 
-新dense源码7a62290e/driverc0fe3a6c已请求同job人工→唯一实际：旧100径向是fine160子集，160×192工作消漏峰；明确新δ=新工作η+裕量，旧δ/旧报告不改。保同g/b0/163/帽高/盒/z≥1e−4/球1.01/strip.39；加τ.061镜像必要行z²|Xs×T|²−τ²(Xs×T)z²≥0及独立正则/直接法弦筛。一次80iter/120物理eval/300s，分别保best物理η与aux可行态，最终选前者，同参数384/768诊断；曲率仍末诊断，完整reach远未付。
+**当前dense状态** 028c8954574251287035d2a6c255655050778b4d59e3b05de1086719b887df73，same g/b0/163。actual43640503728/source509a1caf人工pass后唯一SLSQP，14eval/305.485s budget退出，总322.681s/RSS3101156KiB。work160×192 η.265982960，fine384/768 η.268197876/.268197874、κ73.102620/73.102607；误差峰移body s.21，κ仍patch .7875。rawδ.2659538765未抬，工作gap2.91e−5/细.002244真实失败；aux best仍初态。镜像.101055731>.061、minz.02/球norm².990537464/盒帽行容差过，但细strip.390000019476>.39（约1.95e−8，超1e−9容差），不是细网物理全过。帽重建裕−2.78e−17如实保；Π公共η差2.10e−6。raw1706835B SHA51f00f616c667bddd418371ed8230c902112dda4e7f6d33ea9b81b1ac34a396e，详notes/dense-mirror-minimax-first-actual-result-20261114.md。
+
+下一同g处理角向漏峰/strip余量与冗余约束矩阵成本；完整J282132480B，不能盲续同巨大matrix。若活跃行生成，须每次完整网格补违反/物理独立筛，保rawδ和真实状态；曲率与完整reach仍欠。
 
 ## 4. 新B=.37局部核心与成套leading
 
@@ -48,6 +50,6 @@ P0、逐s第四ruling、更高阶/收敛、完整宏观嵌入厚度仍欠；完�
 
 ## 6. 持续推进
 
-当前dense actual43640503728已success，正在读取：同5d旧g/160×192/镜像必要筛，按物理best/rawδ及真实细峰/曲率续。R101纸证已完成一维字符真实成本，literature继续完整函数与ruling；repo_sources继续真实c8积分。
+当前dense actual43640503728已登记，mechanism正实现/论证更细角与约束生成的必要续求。R101纸证已完成一维字符真实成本，literature继续完整函数与ruling；repo_sources继续真实c8积分。
 
 已完成run和完整历史在results.md/notes/git，不重跑旧quartic或已定全state P1。新计算仍只公开Actions。每个实际结果及时pull核两README、更新H/log/open并推，子题完成即接open不等阶段批准。原始来源边界见notes/literature-20261114.md。
