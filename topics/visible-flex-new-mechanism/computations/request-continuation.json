@@ -1,46 +1,42 @@
 {
-  "request": "normalize-static-pure-tail-under-full-zero-matrix-and-retain-induced-two-jet-cost",
-  "created_at": "2026-11-14 22:38:28 UTC",
+  "request": "first-true-G-translation-original-weight-zero-membership",
+  "created_at": "2026-11-14 22:42:45 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "constrained_static_m8_tail_quotient"
+    "g_first_translation"
   ],
   "source_sha256": {
-    "topics/visible-flex-new-mechanism/scripts/literature_constrained_static_m8_tail.py": "8b075b222a1c8ea5579645905f9f3c3efc57a1b286a393cdcd597f384db50417",
-    "topics/visible-flex-new-mechanism/scripts/literature_static_m8_tail_quotient.py": "ea95f138a22b6f81654ebbc73eecee3f3c0042f4ec527f6ff9699e6ac78bb826",
+    "topics/visible-flex-new-mechanism/scripts/literature_G_first_translation.py": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5",
+    "topics/visible-flex-new-mechanism/scripts/literature_static_G_rational_dual.py": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477",
     "topics/visible-flex-new-mechanism/scripts/literature_constrained_static_fourth.py": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4",
-    "topics/visible-flex-new-mechanism/scripts/literature_full_m8_tail_response_projection.py": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345",
-    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0",
+    "topics/visible-flex-new-mechanism/scripts/literature_total_P1_scaling_blocks.py": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
   },
   "jobs": {
-    "constrained_static_m8_tail_quotient": {
+    "g_first_translation": {
       "development": [
         "--toy-only",
-        "--out",
-        "@OUT@/constrained-static-m8-tail-development.json"
+        "--output",
+        "@OUT@/G-first-translation-development.json"
       ],
       "research": [
         "--max-seconds",
         "240",
         "--memory-mib",
         "1024",
-        "--max-operations",
-        "10000000",
-        "--out",
-        "@OUT@/constrained-static-m8-tail.json"
+        "--output",
+        "@OUT@/G-first-translation.json"
       ]
     }
   },
   "sync_private_rules": false,
   "previous_private_actual_pull_time": "2026-11-14 22:30:53 UTC",
   "previous_private_actual_pull_commit": "357fe03197b3fe4dd835d67e77f97ae9b84bd482",
-  "curvature_continues_separately": {
-    "run": 43648433010,
-    "source": "df535c0c42d76040903b1e89c6d08d13ea360ad2",
-    "recompute": false
-  },
-  "goal": "Normalize L0 by the full actual M=m0+m2 coordinate identity and preserve the induced -sum a_i(m2) F_i. Evaluate no profile and no old response column.",
-  "original_density_weights_two_and_four_not_computed": true,
+  "goal": "Only N G in the full two-mode weight-zero response span: exact original-expression membership ends the quotient orbit at s=1; nonmembership requires original dependencies proving the upper bound and a matching rational augmented minor.",
+  "full_weight_zero_original_columns": 20,
+  "automatic_later_translation_derivatives": false,
+  "old_G_nonmembership_rerun": false,
+  "pure_m8_projection_used_for_this_membership": false,
   "new_development_has_not_run_yet": true,
   "root_rule_8_small_text_fallback": true,
   "research_only_in_public_Actions": true,

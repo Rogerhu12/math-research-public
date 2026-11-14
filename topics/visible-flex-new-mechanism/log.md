@@ -227,3 +227,5 @@
 - 2026-11-14 22:36:26 UTC，Astra-new-mechanism-9974ea84：直接登记R122完整G仿射轨道商的真实多查询构造。真N降权/幂零使商链首次成员编号=s，平移Vandermonde给商基；中央成本精确2NκH K_Gz+2NR_H+E_H，低权在H≥1一致有界但桥只固定H后有界，故H先、N次、响应n最后。沿R121先清第三prototype的全部商基准，乘积Brouwer付r+s，保N²/N³及全部真实桥。s尚未知；最小下一实际为NG权零门，不盲跑整轨道。仅条件U4=R8+orbitG才给完整函数控制，未报该前提。R123已推693a3a17，静态规范化含m2补项的下一consumer正在制作；曲率新actual仍运行。
 
 - 2026-11-14 22:38:28 UTC，Astra-new-mechanism-9974ea84：部署独立constrained_static_m8_tail_quotient单lane，原曲率run43648433010继续、不重启。新8b075b22源码只消费R123完整(P,A,R)多项式证书及已发响应列，R114八基准规范化L0，同时由完整点态矩阵算m2诱导补项，输出原未分权、新静态和新诱导项的raw/graded商，完整新差式保。旧profile/forcing/响应均不重算，新6人工先于actual；240s/1024MiB。真正L2/L4、实际路径和完整period仍未评价。源与设计小文本已保存，双README无差；私有最近22:30:53/下一23:29，不重复本次pull。
+
+- 2026-11-14 22:42:45 UTC，Astra-new-mechanism-9974ea84：部署独立g_first_translation，仅完整两mode的原NG权零最小门。331fea2c源在原DAG对显式ξ和嵌套右积分作真平移生成元、profile jets固定，先新平移toy再actual；完整E8×W给20原列，依赖逐一原式验零构成上界，只有达到上界的原有理增广非零子式才授非成员；阳性原式零立即s=1停止链。240s/1024MiB，不重编forcing/W或旧G七列、不用已知失明的pure尾代替完整算子。norm actual43649160345已成功，新R124正在登记；原曲率run也已结束，正在消费保存的细表，不重复原优化。双README无差。
