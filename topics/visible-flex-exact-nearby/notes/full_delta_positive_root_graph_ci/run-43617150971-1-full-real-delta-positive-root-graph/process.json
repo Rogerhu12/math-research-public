@@ -8,7 +8,28 @@
   "workflow_commit": "60fe18d923e4d7106a3ba63161a19d4f0db5f653",
   "worker_source_sha256": "e64feeda2e0a7df6fc03da6d309fd0c5db8ad20b9d5468259003445e16e1821e",
   "started_utc": "2026-11-14T16:44:08.860464+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_full_real_delta_seven_column_positive_root_graph",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-full-delta-positive-root-graph-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_positive_high_root_graph.py",
+        "--collar-process",
+        "/__w/_temp/visible-exact-full-delta-positive-root-graph-work/science/topics/visible-flex-exact-nearby/notes/full_delta96_root_collar_ci/run-43606747196-1/consumers/process.json",
+        "--body-process",
+        "/__w/_temp/visible-exact-full-delta-positive-root-graph-work/science/topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/process.json",
+        "--body-summary",
+        "/__w/_temp/visible-exact-full-delta-positive-root-graph-work/science/topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/evidence/full-delta-complete-positive-N97-high-inverse-summary.json",
+        "--out",
+        "/__w/_temp/visible-exact-full-delta-positive-root-graph-output/native/full-real-delta-positive-root-high-graph.json.gz"
+      ],
+      "started_utc": "2026-11-14T16:44:11.576765+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 5.000551673000004,
+      "finished_utc": "2026-11-14T16:44:16.577668+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T16:44:09.835567+00:00",
@@ -25,9 +46,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T16:44:16.973776+00:00",
+      "before": "028768d96e2efec6374a48f128a7ef673a4b86bf",
+      "after": "f7aad18fb1d9690727bc9f4b56eac762fa09c924",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T16:44:11.574263+00:00",
+      "final": false,
+      "commit": "f7aad18fb1d9690727bc9f4b56eac762fa09c924"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -58,14 +93,21 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "028768d96e2efec6374a48f128a7ef673a4b86bf",
+  "last_read_commit": "f7aad18fb1d9690727bc9f4b56eac762fa09c924",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-full-delta-positive-root-graph-work/science",
   "actual_original_small_input_sha256": {
     "collar-process": "f919ecd9da5d447cf8950d1b267c28c7c33c2c396b21318b64a45317646745ae",
     "body-process": "1a0be497981ed6e5f47546892c390fec5820b02671ff9eb83a37af47b26ca395",
     "body-summary": "2da26c59fcbf212fc669cd29efdc9eb27489ae5a11f8dc51bea801b733ba9ef9"
   },
-  "snapshot_utc": "2026-11-14T16:44:10.178122+00:00",
-  "wall_seconds": 1.3183560790000044,
-  "native_files": []
+  "snapshot_utc": "2026-11-14T16:44:16.982723+00:00",
+  "wall_seconds": 8.122955806000007,
+  "native_files": [
+    {
+      "logical_file": "native/full-real-delta-positive-root-high-graph.json.gz",
+      "file": "native/full-real-delta-positive-root-high-graph.json.gz",
+      "bytes": 3722,
+      "sha256": "4e128cf91ce4e136d8574575704f1ebabf925953039eeb9219b00113436be2e9"
+    }
+  ]
 }
