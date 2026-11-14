@@ -54,3 +54,6 @@
 
 
 - [R616：原完整首坏带与第p个Newton中央回读](../results/R616-original-first-bad-band-and-pth-newton-endpoint.md)：原H唯一pole和同一留数变分给整条高度二坏带，完整log到指数运输保来源原点阶数。S/T第p个实际中央项回读首C_X，完整j0时尾再升一阶；两个f forcing的末带准确保−c4/−4c1，非中央首项单位不代指定非零。
+
+
+- [R612：原完整来源的带权物理核与固定结点出口](../results/R612-original-full-source-weighted-kernel-and-fixed-nodal-exit.md)：整个原G0W_D在同一C_p中的模p核准确为权(6,1)阈p−78的原帽内理想；全列单位阶梯给饱和单射和真前缀空界，charge返回保D+1顶边界。同一结点的固定单位行恰在旧ell2窗口之后，排更长真前缀而不代截止内d2非零。
