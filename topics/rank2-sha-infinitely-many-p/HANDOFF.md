@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：cf97fb38aa4c9caa9249c8028958f211777385cf；2026-11-14 12:24:08 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：c55493726fdd5b6c0e6fd169486cc1f05f08b902；2026-11-14 12:24:58 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。历次完整规则/差异读取记录保最新归档；只写课题log，每轮≤5行，不写/归档根LOG。
@@ -14,7 +14,7 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–496已登记；R364仍开。R235/R237旧丢失结果及迁移R437/R438已全部重做推送。最近R490=a5afe272、R492=c4c773c7、R494=62cff762、R495=8f868e82；R493=a7dc9477；R496本次登记。
+R1–363、R365–497已登记；R364仍开。R235/R237旧丢失结果及迁移R437/R438已全部重做推送。最近R490=a5afe272、R492=c4c773c7、R494=62cff762、R495=8f868e82；R493=a7dc9477；R496=bee5967a；R497本次登记。
 当前只在`/workspace/scratch/4fe3fb9f2a50/math-research-public` main；旧库完整只读移至`/tmp/rank2-old-repo-4fe3fb9f2a50`并保原路径symlink，未删历史。代理仅写各自证明/脚本，root统一元数据与逐条推送。theta续R501保原五伴随的D33四态；literature的R497/R500已落盘，续R503真实三输入浅支；deep的R498已落盘，续R502完整低ell Bockstein；root续R499新四态z的完整Y谱。各自已完成证明随到随登记，不新增独审门。
 
 ## 目标桥及完整旧接口
@@ -35,10 +35,11 @@ R487将旧CM投影去掉外部伴随尺度，保全部平移来源和质量，m=
 R488/494 wholeK29=χI、χ²=1。保三个R的四态τk中KA=χ移k+1、Kc=−移k−1、Kd=−1。偶三态e0=ρ0/e1=ρ1/e2=−G4ρ0/4，R=KA²交换e1/e2，KW生成真D8。wholeK56=−J56B2以Θ2γ7锚定，B=A+3δc核心KB=RKW R，KQ=−χKB、KU=−KWKB。
 令u=e0+(e1+e2)/2、v=(e1−e2)/2、h=e1+e2：KW交换u/v，KQ=χKW、KU固定u/v；h的W/Q/U符号−/χ/−，三个R共同核χ。原M任意深nW/nQ/nU与R共同r的标量χ^(nQ+r)λ^(nW+nQ+nU+3r)，u/v按nW+nQ奇偶换，h另乘(−1)^(nW+nU)。Y边际u=(3−δ)S2/4、v=Ξ2+(1+δ)S2/4、h=−(1+δ)S2/2；W边际6δT/6δT/0。new/H完整行只在v，T在u/v相同。单B与A²-W-A²是不同像格，λ^-4比较保全部测试转置。
 
-R493在未缩放ξ1..ξ4,c,d0中，h=ω²T_*ρ0，T³=I且Y_sT=Y_s；另有U²=I、WU=W、U_*ρ0=ρ0+h。LTL^-1=diag(1,D5)，故第一Y所有CM/角投影严格交换，完整P_Sh=ω²S2⊗D5_*A0，new/H投影0。T²_*ρ0=−ω²(ρ0+h)。W′=WT=(2+2δ)ξ1+2δξ2+(2+2δ)ξ3+(3+δ)c+4d0，缺ξ4，whole联合core−λ。
-删ξ4后的Y残余Z为真实degree27五σ，首γ7 z5/7，wholeK27=−I以σ3δ锚定，保四伴随。原ξ4unit/其余五深n网格经T变成h的W深n管，ℓ4=(T^-1ξ)4是W固定伴随；ℓ4^6加权Y中央首项unit且全尾>5n，故v=5n。完整域还须四个W伴随深n，不能删。ℓ4=γ7Y_s/34+ℓ4⊥，其六次权含真Y移权；合法纯Y伴随γ7Y_s−34ℓ4在Z/ξ4格上给degree34/918、det−34。R497正付纯伴随S抽取，未预支。
+R493真实六sigma给h=ω²T_*ρ0，T³I/YT=Y；保W反射U满足Uρ0=ρ0+h。T只改变五Y伴随并与全部第一CM/角投影交换，P_Sh=ω²S2⊗D5_*A0，new/H为零。W′=WT缺ξ4且coreβ，五深一unit真网格的ℓ4^6中央v5n；完整矩阵和非纯Y权分解保frontier-before-r496。
 
 R496在V′=W′/2、N=18的[4]覆盖中支付wholeF=K_V′²，十六中心绝对相位ε=(-i)^Normℓ；u,v,z,h四态中F:(u,v,z,h)→(u,z,−v,h)，KW:(u,v,z,h)→(v,u,−z,−h)，群48且F²=KA²。q=Fe1=h/2+z=½(I−iT_B,ω/4)(I−iT_B,1/4)h；qW=zW=0，z全Y二挠平均0且非零。新增q/z的旧M表同h，whole simultaneous CM13/19保持，参考伴随未冒认。原V′两深和λ9词像格的全物理矩阵/条件转置保正文；来源关系不把实际域相等。
+
+R497以原Z27/ξ4构造Y=Z+barγ7 x、Tc=γ7Z−27x，Gram34/918/det−34；四R保原五sigma输入。六个正Tc矩t6..t36的全6×6可逆矩阵给唯一纯Y伴随h_b，Y_*h_bν=S；unit权系数除1−λκ6k。全Γ_n={R深n,Tc/Yunit}中央=λ4n JS′。其真Dn={Z/R深n,xunit}贡献C_n×首项(d/b)α≠0、赋值5n，固定坏集以显式非零范数排除；Γn=Dn⊔Bn，Bn为Z浅不能删。T后同纯Y测试保ω²C_n×并落h的W深管，所有R/Tc随W变化式保正文。
 
 ## 普通：原低 degree 因子及完整两Theta核
 
