@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R508：原压深词的全部像格及保Y返回分类](results/R508-original-depth-word-lattices-and-y-fixed-returns.md)：同一三输入四条真实scalar轴的相邻正交约简给全长Smith与像格唯一性，PGL两生成自由；保持自由sigma和物理Y的正词仅原V幂，同缩Y也只有旧正交对角返回。全词域来源公式及所有移动测试保留，不能用相同来源标量删除不同域。
+
 - [R505：实际接触Bockstein、同预算F²嵌入与完整ξ吸收](results/R505-actual-contact-bockstein-and-full-xi-source-absorption.md)：原全部ξ向量是实际接触障碍经同一来源尾嵌入的像，保全部三块交换与原真行全局对偶。q=h−k<−KXC时可用真实同预算F²H修正吸收，临界高b和余核核/carry相消仍未付；原M边界、同一修正第三精度和首共振界全部保持。
 
 - [R503：原全部浅环带、18/2466正交核与唯一单位边界](results/R503-original-unit-annuli-and-single-shallow-boundary.md)：同一真实三输入的U/P两轴有完整β/χ_Vλ核心；所有正深浅环带是固定A(u,T)的精确Euler差，中央与质量均有单位第五阶。质量六项多项式全部付清，整浅支望远镜归为唯一固定B0，JS(u)=B0(u)+βA(u,κ)；B0质量无条件v5，反证中央亦v5，两个近相消删去及尺度log全保。

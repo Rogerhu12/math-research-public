@@ -1,0 +1,194 @@
+{
+  "status": "exact complete four-axis projector and boundary-line certificate passed",
+  "complement": {
+    "Z": "V",
+    "V": "Z",
+    "U": "P",
+    "P": "U"
+  },
+  "projectors": {
+    "Z": [
+      [
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        }
+      ],
+      [
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        }
+      ]
+    ],
+    "V": [
+      [
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        }
+      ],
+      [
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "1",
+          "delta": "0"
+        }
+      ]
+    ],
+    "U": [
+      [
+        {
+          "real": "349/486",
+          "delta": "0"
+        },
+        {
+          "real": "37/972",
+          "delta": "-1/324"
+        }
+      ],
+      [
+        {
+          "real": "5069/972",
+          "delta": "137/324"
+        },
+        {
+          "real": "137/486",
+          "delta": "0"
+        }
+      ]
+    ],
+    "P": [
+      [
+        {
+          "real": "137/486",
+          "delta": "0"
+        },
+        {
+          "real": "-37/972",
+          "delta": "1/324"
+        }
+      ],
+      [
+        {
+          "real": "-5069/972",
+          "delta": "-137/324"
+        },
+        {
+          "real": "349/486",
+          "delta": "0"
+        }
+      ]
+    ]
+  },
+  "mod_p_image_lines": {
+    "Z": [
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "1",
+        "delta": "0"
+      }
+    ],
+    "V": [
+      {
+        "real": "1",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      }
+    ],
+    "U": [
+      {
+        "real": "-2",
+        "delta": "0"
+      },
+      {
+        "real": "37",
+        "delta": "3"
+      }
+    ],
+    "P": [
+      {
+        "real": "37",
+        "delta": "-3"
+      },
+      {
+        "real": "274",
+        "delta": "0"
+      }
+    ]
+  },
+  "pair_determinants": {
+    "Z,V": {
+      "determinant": {
+        "real": "-1",
+        "delta": "0"
+      },
+      "norm": "1"
+    },
+    "Z,U": {
+      "determinant": {
+        "real": "2",
+        "delta": "0"
+      },
+      "norm": "4"
+    },
+    "Z,P": {
+      "determinant": {
+        "real": "-37",
+        "delta": "3"
+      },
+      "norm": "1396"
+    },
+    "V,U": {
+      "determinant": {
+        "real": "37",
+        "delta": "3"
+      },
+      "norm": "1396"
+    },
+    "V,P": {
+      "determinant": {
+        "real": "274",
+        "delta": "0"
+      },
+      "norm": "75076"
+    },
+    "U,P": {
+      "determinant": {
+        "real": "-1944",
+        "delta": "0"
+      },
+      "norm": "3779136"
+    }
+  },
+  "bad_rational_primes": [
+    2,
+    3,
+    137,
+    349
+  ],
+  "general_proof": "A reduced word has nonzero rank-one reduction modulo p. Its image line determines the first letter; invert it and induct. This is an all-length proof, not a finite word scan.",
+  "y_fixed_words": "Only nonnegative powers of V keep Z+bar(gamma)*x fixed when x is fixed.",
+  "projective_group": "The two nonorthogonal compression generators Z,U freely generate a rank-two free group."
+}
