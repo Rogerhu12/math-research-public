@@ -211,3 +211,5 @@
 - [R104：反射与倒行四块的闭合环带及准确c⁸消项](results/R104-reflected-reversed-four-block-c8-cancellation.md) — R70取同端(h0,0,0)的真M0桥I→D；B、σB、Bᴿ、(σB)ᴿ的本地位移及前缀frame逐项给全局位移0/frameI，完整M=T0。先选共同正I，c8倒行偶/反射奇及真实零端历史加法使D25 period次数≤7；保完整V=2V_B+2V_σB。只得周期正则浸入环带数据，不消完整第四/ruling或给无边界嵌入。
 
 - [R102：多个查询的真实第四成本控制与剩余锥商](results/R102-finite-query-fourth-cost-control-and-cone-quotient.md) — 真复制块串联给E(t)+n(2Σv+Kt)，先固定同I/圆/查询，再取中心立方体与小族重复，有限n及Brouwer准确吸收未知基准。B_E8(W)真维r满足15≤r≤288，故同一合法圆上至少15个独立查询可共同任意指定并包含正字符。未付全函数/ruling；秩不足时仅证明闭凸成本锥的lineality含可实现切向span，真实半群不冒向量空间。
+
+- [R106：完整pure幂尾递归的反射奇偶律](results/R106-full-pure-tail-reflection-parity.md) — 从R56整套分子/forcing/恢复递归与移动尾端锚I_c反对易逐式归纳，得D_j^σ(c)=(-1)^jD_j(-c)，全部真实s历史保留。R104真四块的D25因此为4(a7c7+a5c5+a3c3+a1c)，所有偶参数项准确消；不靠c8猜测。仅有限尾多项式身份，固定全带右锚的ruling缺陷和完整第四函数仍欠。

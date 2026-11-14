@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`10cba43765a22624135dd91078cafb017d4406b1`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`35e578c0710e8bc1b21e2b5059da2fd750acfcf9`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:42:44 UTC实际pull至`a0de3f9fcfb21e9db3e6863a8b48a665b9b5f0a3`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:41 UTC。
 
@@ -44,7 +44,7 @@ R37/R45真实M0桥及四块几何闭合、R52完整三阶圆；仍不是有限�
 
 **R100已把m8 D25 c8缩成真实短action，符号未定**。R85/88首两尾已是零端势；R95 actual43639240317把D25压1605项5组，c10/c9准确零端使period次数≤8。R100 actual43640085842完整34差式全0，保23真histories/完整参数族/原DAG；p=B4、ell=B3−J2/2−ηp、zeta=B3−4ηp均真实零端，短action与全端势见R100。raw699591B SHA4b2fdc4d5210094575a14316a63705bb392d322aba862731d33727e79928f2df。
 
-**R104已在真实闭合词消c8**。同(h0,0,0)端芽真M0桥B:I→D，σ=(h,−k,−ω)后四块B σB Bᴿ (σB)ᴿ，真实前缀位移V,DAV,−V,−DAV相消，frame回I、M=T0。共同正I先按有限包络选；c8倒行偶/反射奇、三primitive块间真实复位，故D25 period次数≤7。完整V仍2V_B+2V_σB；只有周期正则浸入环带，不给第四ruling/无边界嵌入。下一查原式低参数奇偶，不能从c8猜全V。
+**R104已在真实闭合词消c8**。同(h0,0,0)端芽真M0桥B:I→D，σ=(h,−k,−ω)后四块B σB Bᴿ (σB)ᴿ，真实前缀位移V,DAV,−V,−DAV相消，frame回I、M=T0。共同正I先按有限包络选；c8倒行偶/反射奇、三primitive块间真实复位，故D25 period次数≤7。完整V仍2V_B+2V_σB；只有周期正则浸入环带，不给第四ruling/无边界嵌入。R106已从完整R56递归/移动尾锚证D_j^σ(c)=(-1)^jD_j(-c)，故四块D25=4(a7c7+a5c5+a3c3+a1c)，全偶参数项消。固定全带右锚ruling缺陷仍保，下一奇参数/完整range。
 
 R93/R97真实驱动约束：∫kh=0，K2=L+Elogh，∫hkω=K2，K2=−∫(F/h)kρ；平方给(S²−1)E≥L，故k换号/max|k|>1、h非恒/S>1。R100已把这些写成真正零端primitive，不能逐点置零或把p/ell/zeta独立化。k是frame参数非曲面主曲率。已核反射(h,k,ω)→(h,−k,−ω)：c8反号，但同一几何把正支映到负支；右Volterra变左锚产生真实ruling补偿。当前阶ruling付清时完整period只作ξ反射、保持同号，不能由c8反号得负V。详notes/pure-tail-c8-sign-reflection-and-right-anchor-20261114.md。
 
@@ -52,6 +52,6 @@ P0、逐s第四ruling、更高阶/收敛、完整宏观嵌入厚度仍欠；完�
 
 ## 6. 持续推进
 
-当前dense actual43640503728已登记，mechanism正实现/论证更细角与约束生成的必要续求。R102已完成有限查询控制，literature继续完整函数商与ruling；tail_cost继续完整D25原式的参数奇偶。
+当前dense actual43640503728已登记，mechanism正实现/论证更细角与约束生成的必要续求。R102已完成有限查询控制，literature继续完整函数商与ruling；tail_cost继续D25剩余奇参数与真实ruling。
 
 已完成run和完整历史在results.md/notes/git，不重跑旧quartic或已定全state P1。新计算仍只公开Actions。每个实际结果及时pull核两README、更新H/log/open并推，子题完成即接open不等阶段批准。原始来源边界见notes/literature-20261114.md。
