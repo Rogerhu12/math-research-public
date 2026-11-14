@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `b3dbbd686a52c49f312ad768d5fe413104cc951f`（2026-11-14 17:39:44 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `f63ff4bc7a2979819e79c130048836cf1845a039`（2026-11-14 17:45:37 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -32,6 +32,8 @@
 
 - [严格端峰完整相位衰减](notes/2026-11-14-balanced-star-strict-endpoint-full-phase-decay-789f-next.md)：固定宏观profile若Σωizi<1（或倒数条件），整个m维Φ=O(Q⁻²)。精确端点因式分解给J首阶零、次阶像在1方向；保L全部异尺度交叉后Schur=2E*H0E/d²>0。常数仅紧严格端峰一致，Q⁻¹/²过渡层仍开。
 
+- [截断Gaussian完整两输出界](notes/2026-11-14-truncated-gaussian-full-two-output-moment-bound-789f.md)：对任意λ∈R、χ>0，真实两输出Gram逆费用≤4/3；边界分部积分及两个三阶矩Gram给Δ双边界，凸性完成。完整star三尺度识别由literature接续，未以此引理单独称相位已闭。
+
 ## R150 原十七式与第二提升
 
 全部旧整数多项式、原索引、第一像/四列证明与完整数据入口保[本次前H](notes/2026-11-14-handoff-before-complete-second-primary-789f.md)。原11N＋6Γ、6188来源/4367输出、char0/F31泛秩4354；h0度24且mod31=25h31。任意次数31整数h0模961来源已逐目标排除，但不排Q31分母；共同修正H0=(s−2)h0保根集。
@@ -39,14 +41,13 @@
 - 原T96 run43597823809图SHA bb2b36e3…56ce、1021像＋1174核＋原两DAG均复用，不重建。完整1834核由1632真31单位提升低核＋202高核组成，完整第一像W二维、ann ell=(s−1)(s−2)。旧四个kerβ关系及198旧零β方向全部必须保。
 - H0九目标原17模961已成run43611215116、cost86；完整X SHA6ff5083c…566e32。真实r2=(H0T−AX)/961九列各不在W，曾只排Y≡X(mod31)纤维。旧四真实δ已成run43615783424，cost86/86/86/87，连W像六维、九目标各失败；全部45恢复文件已保，不重跑4VQ。
 - 真局部商E/g(A_g)E≅Q/gQ，g=(s−1)³(s−2)⁵，保完整143=104自由＋39挠、扣W为37；原31³整数jet与同一全局q不可更换。投影P实际次数189，正来源须付成本。原第一核可单位换基为四cost86 T，但不能免费降已算q的成本。
-- **[完整相关第二像已成](notes/2026-11-14-r150-complete-second-primary-image-seven-and-global-source-789f.md)：** run43619888599/job132522953396，源49c92b3a，数学300.020173117秒。198＋旧4＋低1632全覆盖，143/104/39全核，相关第二像连W维7、modW维5，九目标全相容。新唯一商方向δK1（原cost80/head1035），s作用2；九所选系数22,21,25,7,3,21,2,13,13，其余197均零。
-- 该run已继续实际九组合全局来源cost85、原17可除961、全部505观察与315投影差核验；最后右端bound277、完整像余零；第二次VQ用186.260599秒完成，最终九标准来源cost276，数组SHA4d3164ee…23b17。**后继原17乘回已全部完成，见下一条。** 最后transport仅5.236秒超时且无内部checkpoint，必须从已成标准来源开始，不声称从日志row1000续。
-- run结果95份/完整恢复86份（170166891B）/生成流34份已无损入 notes/r150-all198-second-bockstein-actions-789f/43619888599-1/，132保存文件116922577B全核SHA；local /dev/shm/isp-789f-all198-43619888599。root-preservation-manifest逐文件映到真实数据，不是hash-only。
-- **[H0完整原17模29791已成](notes/2026-11-14-r150-h25-full-original-seventeen-mod29791-cost276-789f.md)：** 同冻结码先复用14缓存，60.12581782秒内原运输完成cost276、原乘积到4963真数组；随后同编译程序/绑定续3.852931076秒，全6188/17/4367九目标每列1057496输出系数全核，失败0。全部成本276、maxdegree265、5506非零行、11745006非零系数。完整两原流各23720800B，SHA3ec2b158…98bdc及c8ed2e4c…43537；新增50文件125192096B/全94恢复及8最终文件保 notes/r150-all198-second-bockstein-actions-789f/original17-continuation-789f/。原Actions95结果仍保。此是模31³，不称char0或饱和稳定。
-- **后继低成本：** 保存的完整315数据显示本次组合去P仍相等；[四段120秒入口已冻结](notes/2026-11-14-r150-second-lift-projector-free-interface-789f.md)，固定右端87；4新文件/7原依赖全SHA锁定、准备仅编译已过。根即执行最后原像，复用198/旧K2/九源/NF/Q/trace。理论源界183，实际低费用须原乘回，未预称87。
+- **[完整相关第二像](notes/2026-11-14-r150-complete-second-primary-image-seven-and-global-source-789f.md)：** run43619888599/job132522953396，源49c92b3a，198＋旧4＋低1632全覆盖，143/104/39全核；相关第二像连W维7、modW维5，九目标全相容。新商方向δK1（原cost80/head1035），s作用2；其余197所选系数零。九全局来源cost85，最后含P标准来源cost276。
+- 该run95结果/86完整恢复/34生成流无损保 notes/r150-all198-second-bockstein-actions-789f/43619888599-1/；132文件116922577B，manifest逐文件映到实际数据。local /dev/shm/isp-789f-all198-43619888599。全部数值与SHA保[压缩前H](notes/2026-11-14-handoff-before-full-gaussian-transition-789f.md)。
+- **[H0完整原17模29791已成](notes/2026-11-14-r150-h25-full-original-seventeen-mod29791-cost276-789f.md)：** 复用14已成阶段，原运输及4963真数组检查点续算完成；全6188来源/17式/4367输出、九目标每列1057496系数全核，失败0，九成本276。两原流各23720800B及94恢复/8最终文件保 original17-continuation-789f/，新增50文件125192096B。这是模31³，不称char0或饱和稳定。
+- **后继低成本：** 完整315数据证明本次组合可去P；[四段入口](notes/2026-11-14-r150-second-lift-projector-free-interface-789f.md)右端87、理论源界183。实际 /dev/shm/isp-789f-r150-projector-free-789f 运行29.499342861秒，image已成/余零，source在日志300行后SIGKILL(-9)；不称原式完成，正在核实际检查点并最小接续，全部旧源复用。
 
 - 射影/∞仍保：B≥85有限商为H⁰(C(B))，315仿射外另有∞torsion，u⁹⁶T∞=0/length≤745。实际来源直接付费；char0原式、31饱和、rankAy9余有限Σ及主ISP仍开。
 
 ## 当前分工与继续
 
-normal已完成198相关第二像，继续读实际315数据降低投影费用与后继31饱和；根已成原17模31³，发布全部来源并接投影去除后的低费用原式。boundary保均值曲线/总数共同Schur，曲率点态负部≤3但无积分统一界；literature已完成固定内峰完整相位极限，接端峰/过渡；根取回198完整恢复并诊断接续。根逐结论立即整合推送、逐pull检查README并保持H最新，不在阶段结果停。
+normal诊断低成本source的SIGKILL与真实检查点，同时冻结31·h0的新饱和入口，不重跑旧VQ。literature完整高斯过渡层成稿，接χ→0共同退化；boundary保完整均值/total Schur并研究真实过渡标量能否≤1。根逐结论立即推送、每pull核两README并记录，不在阶段结果停。
