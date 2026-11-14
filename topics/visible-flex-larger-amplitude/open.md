@@ -25,11 +25,11 @@
 
 [actual49完整14-query](notes/2026-11-14-actual-request49-fourteen-query-and-left-RMS469-limit.md)接受α1/16，最近仅left469拒，已据此派51，原件/完整audit保留。
 
-**当前父actual51完成**：run43632815810/source bd3fc94a6092313313daf607328a9695e80c17f4；[15-query完整实际结论](notes/2026-11-14-actual-request51-fifteen-query-and-working-row-budget.md)。B30720行/5073完整支撑，C仍4059/全部outside；H43.81886248优C44.19965648，α1/8真降.08618907543，col.007110002311305403/BC6.280522697136224e−8/FD7.186294196742241e−10，非完整BVP/native。
+**当前父actual53完成**：run43634517255/source dd3156cfe7e5197029ce45fff5beb53115de3680；[完整实际结论](notes/2026-11-14-actual-request53-working512-and-midpoint481-limit.md)。同15查询/30720行/5073支持，512工作行的最终完整stationarity9.59012e−7，修复radial.9999999999987809，rawgap1.42109e−14仅浮点诊断非认证。最近1/32的十五真实网格均合法，唯一坏原中点481；1/64才接受，merit44.11665947585927→44.105521474605546，col.007109981682135472/BC6.1823900322767e−8/FD7.165083799852089e−10，仍非完整BVP/native。父场和权重变更，不跨轮相减目标。
 
-最近1/4被原mid481和已建模mid482拒：后者实际β²−.00329335812，而全部线性预测仍正，因此不把所有问题说成漏query。同时QP256行到限，原left475/angle109未入working set且worstrelative.0948418，修复radial.91337395、最终stationarity363.2001/gap.9054199。完整H相对残差9.44869e−16；小pre-repair localstationarity不冒最终完整最优性。
+全部137domain/880NPY、88凝聚/38完整向量、9observer/44源/父51链与14raw217496448B已byte核，未导出fullfactor不冒审。新父warm e71a5fec344326df3b6c69ec6d298f5079034fb86eb2fa505008c35682010d32；原status6170aba505c2eeb5db9411f13ad502363fe1593a7d4d63faa5f0d0a37fb34938，公开gzip须透明还原1251975B原件。
 
-**53运行中：run43634517255/source dd3156cfe7e5197029ce45fff5beb53115de3680**：从51自身schema双SHA继续，唯一工作预算max-working256→512；保全部15query、dual200、600s候选/1200s总、λ270/LSMR200/C200/原17trial和FD，不先加mid481。新warm b6620a0ce55be257fc58c29e88187cc602ad08b46c4424903ffddc003b5b1595；原status267451f8eb91ca568ff187bfb39dbd32b22ca844788e1e88165910190ad6f685，1051960B公开gzip须解压核原bytes。137domain NPZ880数组、38全凝聚向量、observer/44源/完整父49链、14raw217496448B已byte核，完整factor未导出。后继须看实际slack/repair/最近拒绝，不预设大步成功。
+**56准备中**：只新增原mid481全2048角成16查询，完整5073支持已有所需端点；保512/dual200/600s/1200s/λ270/LSMR200/C200/17trial/全部真实门和FD。只读col observer记录完整原col最大项及原baseline权重，不增加科学调用。1/4另坏mid483，更大步已建模网格也会坏，不能预言16即可α1。旧51及更早完整结果保notes，不重跑。
 
 ### 1B. Native：先分清保存矩阵、传播与求解误差
 
@@ -47,11 +47,13 @@
 
 **50完整参考已完成**：run43632067148/source d843fb1dcc8cb4b80e54956d98f8076a9c1398c5。[完整结论](notes/2026-11-14-actual50-complete-rational-RK-reference-and-covariant-comparison.md)给全部226×224 exact/RN、两个实际候选及三原方向。完整诱导∞误差old.015556918699475、direct-LD7.16812143047472e−6、R271-LD9.19526116149051e−6、RN3.36115669446251e−6；direct完整∞/F²优于R271，R271在特定旧43方向反而较小，不混指标。RN原σ下map差仍3.97095e21，这不是新stage residual。所有三prior action精确记录一致，21原输出完整SHA/CRC审计保范围；working实际64有效位非binary128。[候选完整原件](notes/2026-11-14-actual-request50-candidate-precision-and-bytes.md)另核49数组22767392B、全部x87填充和52处descriptor/原切片。输入只固定47原artifact，没有新RHS/J/ODE/native。
 
-**52入口失败已保存；54完整gzip修复本次推送调度**：run43634201913/source61831d6a…；原包和78源恢复success，19:51:04Z因完整spec超过旧B.write的1MB上限而止，尚未native/worker/J，solver/trial skipped。完整697565B artifact14129895088保，54已完成完整gzip transport与两个reader的最小修复，依新真实source更新全部pins，不能归为数学失败。独立directld workflow/唯一request；从原28/41固定完整包与78公开源，原868已存完整226起点重放四原local A，按冻结50 direct_rk形成868新J/mean。新adapter明确替868块、复用504原块，原1372 base/r/σ/cut/far/H和577限制不变，形成唯一新矩阵identity。完整原均衡LU+3轮预算exact修正后，直接用同方向577限制运行原十alpha/noJ/全部guard/严格原norm下降；不以新线性残差另设trial门。三接口：[capture](notes/2026-11-14-rawcell0-direct-longdouble-capture-interface.md)、[完整系统](notes/2026-11-14-direct-LD-complete1372-system-interface.md)、[原trial接线](notes/2026-11-14-direct-LD-original-ten-trial-interface.md)。原四A可再现不存1.4GB冗余；全部新J/mean/方向/失败证据artifact保。真实accepted还须继续原native最终门，不能当课题完成。
+**54完成868新块和1372求解，原trial入口路径错而未执行**：run43634889730/source7eb383af1ca2bb04c7eaef9c65578dbc124269d8。[完整捕获](notes/2026-11-14-actual-request54-complete868-direct-LD-capture.md)保144array/1736chunks/868完整226×224 maps/3472原field及4221文件回执；[完整solver原读回](notes/2026-11-14-actual54-direct-LD1372-solver-and-exact-readback.md)保55输出/四轮全307552行及完整方向。新matrix76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999；exact保iter2仍2.552304460257547558335607736e22，不能声称可用方向。原trial因root将旧28真实result.json误写成.gz触发FileNotFoundError，尚无任何十档试探或数学拒绝。
+
+**55复用54，run待回读**：只修旧28一处路径，新54方向.gz保持。独立trial-only workflow完整固定取28/41/54+78公开源，直接实际完整方向的577限制跑原十alpha/noJ/全部guard/严格原σ norm下降；不增线性门、不重868capture/1372solve。详[原trial接口](notes/2026-11-14-direct-LD-original-ten-trial-interface.md)及[路径修复记录](notes/2026-11-14-actual54-completed-direction-and-original28-path-repair.md)。接受后仍须继续原native最终门；全拒后据实际证据选R273。52 spec运输失败和54 gzip修复已经完成保存，不再待办。
 
 原step与G的十trial组件已完成：直接消费正确producer的保存方向，保原十alpha/完整evaluate(false)/原guard/原σ严格下降，首接受保全state后STOP。它们不重形成G/J，当前未派43坏方向，也不冒native完成。
 
-[R273完整原σ块链平方根阻尼LS](results/R273-complete-native-damped-square-root-chain.md)已证明：保全部cut/stage/far、每nodeηI、carry与纯常数能量，不形成normal matrix；也给严格L2下降不推出原∞下降的精确反例。尚未实现或调度此备选，当前transport已修，继续读54真实一致新矩阵/原trial；fallback源码可并行准备，不抢派无依据数值。
+[R273完整原σ块链平方根阻尼LS](results/R273-complete-native-damped-square-root-chain.md)已证明：保全部cut/stage/far、每nodeηI、carry与纯常数能量，不形成normal matrix；也给严格L2下降不推出原∞下降的精确反例。独立源码及接口已准备，尚未数值运行或选η；55直接读取实际54完整方向跑原trial，失败后按真实尺度选择显式阻尼。
 
 ### 1C. 真fullDN衔接与备选
 

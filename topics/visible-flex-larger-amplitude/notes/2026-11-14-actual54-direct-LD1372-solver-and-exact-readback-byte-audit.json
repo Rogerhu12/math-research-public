@@ -1,0 +1,1763 @@
+{
+  "schema": "actual54-complete-direct-LD1372-solver-byte-audit-v1",
+  "auditor": "exact_refinement",
+  "audit_kind": "local byte and structural verification only",
+  "scientific_computation_performed_locally": false,
+  "explicitly_not_recomputed": [
+    "matrix formation",
+    "LU or solve",
+    "RHS or J",
+    "any norm or dot product",
+    "Fraction/dyadic residual arithmetic",
+    "maximum comparisons",
+    "correct rounding of refinement RHS"
+  ],
+  "artifact": {
+    "run_id": 43634889730,
+    "source_commit": "7eb383af1ca2bb04c7eaef9c65578dbc124269d8",
+    "job_id": 132569417352,
+    "artifact_id": 14129522378,
+    "artifact_name": "visible-mainline-directld-43634889730-1",
+    "artifact_bytes": 457357361,
+    "zip_sha256_from_root_verified_download": "df3a54716ecbed8645783373657f7e40b08429173ca976efc73ecc7e8ce5f819"
+  },
+  "result": {
+    "file": "result.json.gz",
+    "bytes": 101864,
+    "sha256": "e1ac6c83434ac3b269663e930b1370a38f280b2d31c5e720955b5ed0aed7e105"
+  },
+  "source_files": [
+    {
+      "file": "exact_20261114_rawcell0_direct_ld_equilibrated_correction.py",
+      "bytes": 24140,
+      "sha256": "42e10320252935015c65bbc34579947e559182bb1b2a74ca1aa13a6597c064b9"
+    },
+    {
+      "file": "exact_20261114_rawcell0_direct_ld_system.py",
+      "bytes": 30440,
+      "sha256": "b64b6ed8b387834b5cc9332675127a1dcbb15a317c3400f5b768d18cdbdf5a8e"
+    },
+    {
+      "file": "geometry_20261114_native_equilibrated_band_correction.py",
+      "bytes": 32938,
+      "sha256": "8f5cb5da0826e3deedf935eca2e62b91c6628861804b2e66c6f853e9459e1dd3"
+    },
+    {
+      "file": "exact_20261114_rawcell0_step_system.py",
+      "bytes": 38989,
+      "sha256": "fde0e03918814c9400a37eeb7719ecd0894c204490ee830fa128a3a49797cc81"
+    },
+    {
+      "file": "exact_20261114_native_allrows_dyadic_residual.py",
+      "bytes": 36438,
+      "sha256": "0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f"
+    },
+    {
+      "file": "geometry_20261114_native_captured_band_correction.py",
+      "bytes": 36867,
+      "sha256": "b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390"
+    },
+    {
+      "file": "geometry_20261114_native_rawcell0_direct_ld_capture.py",
+      "bytes": 24018,
+      "sha256": "a63ffda643044787cb0ad5fb0d7c2aa4e4b34090fefa4b9053f4f2550bf85dbf"
+    },
+    {
+      "file": "geometry_20261114_native_rawcell0_direct_ld_capture_hook.mjs",
+      "bytes": 50976,
+      "sha256": "3499f7abb96a4f25c4c3a986d97dc8aea3b21742770aabe7abe2822ad8b3caf4"
+    },
+    {
+      "file": "geometry_20261114_native_rawcell0_direct_ld_window.mjs",
+      "bytes": 8451,
+      "sha256": "1ba3f30702b26aa78b4aceb0b2d3d5d71ea8fa858b114d982ead185330faa5d9"
+    },
+    {
+      "file": "geometry_20261114_rawcell0_direct_ld_worker.py",
+      "bytes": 11428,
+      "sha256": "87ab92d9234d6e58103d44d125ce5510f9cde34ac37df251b7e63dcb6747a9c8"
+    }
+  ],
+  "matrix_identity": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+  "producer_result": {
+    "file": "result.json",
+    "bytes": 82529,
+    "sha256": "e60da64312819a87388cfa96c209fc9188dca02c0ab055cbcc934f3507888ac6"
+  },
+  "input_binding": {
+    "file": "input-binding.json.gz",
+    "bytes": 335715,
+    "sha256": "32cb5a0b92ab4ce642b65c0b75ba010ff26dcab5cbf77b1b847b5b469ea5279f"
+  },
+  "old1372_nonJ_arrays_equal_bound_hashes": true,
+  "complete_stage_descriptor_count": 1372,
+  "new_direct_stage_descriptors": 868,
+  "unchanged_old_stage_descriptors": 504,
+  "full_virtual_J_raw_sha256_reported_not_recomputed": "038fefd1644b191f49ba6b590badddfec5823460d227179518c6ef2b4f72db88",
+  "all_solver_metadata_files": [
+    {
+      "file": "actual-memory-budget.json",
+      "bytes": 1718,
+      "sha256": "3dbf052185affcecfaa8961a26fd0e6db29010a684d10d18b2ab84ac1aef31d4"
+    },
+    {
+      "file": "assembled-model.json",
+      "bytes": 17809,
+      "sha256": "d32ecc3f1cc524ee8f9b5646d210a8187591fc233e80358c4425b9951ce078eb"
+    },
+    {
+      "file": "equilibration-00.json",
+      "bytes": 2249,
+      "sha256": "779754188914f016692cf810ecd10d6da95560a8c665edb3c68527b86011eea0"
+    },
+    {
+      "file": "equilibration-01.json",
+      "bytes": 2247,
+      "sha256": "80cc908d525bbad521fafd7fd7c7c1ad240f99393b4296494a083aa3eaf62c56"
+    },
+    {
+      "file": "equilibration.json",
+      "bytes": 6780,
+      "sha256": "9d1392b242d60bfc5f1c0080910051917880e265a096c8b3a1abaf4a52c89db5"
+    },
+    {
+      "file": "factorization.json",
+      "bytes": 18527,
+      "sha256": "27ea72f47d5dd01a2d8edcadddd4191d8ec646463c1c747496ab276b8c70a988"
+    },
+    {
+      "file": "iteration-00-exact-global-witness.json",
+      "bytes": 14379,
+      "sha256": "62bacaeeb3070ecedee3035d170eea425a1eac8952d54d48d92fae8485b5dc8f"
+    },
+    {
+      "file": "iteration-00-exact-residual-summary.json",
+      "bytes": 10972,
+      "sha256": "5a887cd65c0870cc1797dd0a975d4d9f600618359cde0d141117e9117c6f3f8f"
+    },
+    {
+      "file": "iteration-01-exact-global-witness.json",
+      "bytes": 14385,
+      "sha256": "572f7b9ef4ce28da1c42338a253245016fbb95249835a7bbfe6652b06a18e9ad"
+    },
+    {
+      "file": "iteration-01-exact-residual-summary.json",
+      "bytes": 10970,
+      "sha256": "2ff1da75c2df2915af700b695fec2e3ccda0ea509d2e1a36fbebcc04a32085e2"
+    },
+    {
+      "file": "iteration-02-exact-global-witness.json",
+      "bytes": 14385,
+      "sha256": "5eb0dc0a75e5d99f3081744f87e45581c413a49d702ace479a14abf8bb8eb529"
+    },
+    {
+      "file": "iteration-02-exact-residual-summary.json",
+      "bytes": 10961,
+      "sha256": "8b6d54ca50b8b342bc75098947a0ed919a418fb0bedf363e451692cb6a155d2e"
+    },
+    {
+      "file": "iteration-03-exact-global-witness.json",
+      "bytes": 14378,
+      "sha256": "be87b0007c1d6f451596416cb886d08869d48f3690fc5d6a4656fbabccb40b1b"
+    },
+    {
+      "file": "iteration-03-exact-residual-summary.json",
+      "bytes": 10951,
+      "sha256": "c8399df604e7b629d0a5e77eb3bbcec9587efdaa92d3351fa031e1103be93729"
+    },
+    {
+      "file": "new-system-array-identities.json",
+      "bytes": 483189,
+      "sha256": "ebd2bd6bc1ea72ce6d08da6f2e867749498c637feed818765103cdc64bb6833f"
+    },
+    {
+      "file": "old576-exact-diagnostic-row.json",
+      "bytes": 11775,
+      "sha256": "a0d49b1685b43953172bed5914c825383eb5fd732d1d268a7868f499760cc326"
+    },
+    {
+      "file": "output-array-manifest.json",
+      "bytes": 29049,
+      "sha256": "75c4ccbf15cca130345b74475f7de756957ea8b37d7e251dc1138513f79c8131"
+    },
+    {
+      "file": "step-iteration-00.json",
+      "bytes": 12446,
+      "sha256": "b046222e85e849b1bb1a59946d4905c41212c8bec4ec9c6d231888facd9fd02f"
+    },
+    {
+      "file": "step-iteration-01.json",
+      "bytes": 12444,
+      "sha256": "d51a3555344bc50c43051b560765e1869bc5e9d2c505f1f047f2d2a02e544662"
+    },
+    {
+      "file": "step-iteration-02.json",
+      "bytes": 12435,
+      "sha256": "c1471986e3a399118d9b8b442ec7ba21fea7cf20f501e668ed820786bfbb885c"
+    },
+    {
+      "file": "step-iteration-03.json",
+      "bytes": 12426,
+      "sha256": "87e2da91810d193955f4536f23ca8c9bebe5f4c21056852ddbb7509815005b0d"
+    },
+    {
+      "file": "summary.json",
+      "bytes": 54031,
+      "sha256": "38ec89907a6e49b83d762cb543e55563a4f25cdd5993c9a5d1c7863075491e1f"
+    },
+    {
+      "file": "input-binding.json.gz",
+      "bytes": 335715,
+      "sha256": "32cb5a0b92ab4ce642b65c0b75ba010ff26dcab5cbf77b1b847b5b469ea5279f"
+    },
+    {
+      "file": "restricted-original-node-direction.json.gz",
+      "bytes": 1650281,
+      "sha256": "284f47f8e20dfefab867bd67d6b0fdc10304ae373c577cbbf56c3bb6c67655d7"
+    },
+    {
+      "file": "result.json.gz",
+      "bytes": 101864,
+      "sha256": "e1ac6c83434ac3b269663e930b1370a38f280b2d31c5e720955b5ed0aed7e105"
+    },
+    {
+      "file": "step-direction-checkpoint.json.gz",
+      "bytes": 3454362,
+      "sha256": "497ab41ed91e1b62d7c250a81904fde8ffcfaca5295b46fa93026c364d5527fa"
+    },
+    {
+      "file": "step-direction-iteration-00.json.gz",
+      "bytes": 3455711,
+      "sha256": "8a419c4abb88f17bf0b8ad64c5b5935621d80a70f32c1420237dd44a7f7bce1e"
+    },
+    {
+      "file": "step-direction-iteration-01.json.gz",
+      "bytes": 3454793,
+      "sha256": "b7d1f1391c06e4e28ae827701264c2e51198f7f7dcb8bb432e1b37977de84551"
+    },
+    {
+      "file": "step-direction-iteration-02.json.gz",
+      "bytes": 3454362,
+      "sha256": "497ab41ed91e1b62d7c250a81904fde8ffcfaca5295b46fa93026c364d5527fa"
+    },
+    {
+      "file": "step-direction-iteration-03.json.gz",
+      "bytes": 3454526,
+      "sha256": "1d74f1dc909cfc6d9697bf398bd078596202bb73c55a2f034707330b60ae258c"
+    }
+  ],
+  "output_arrays": [
+    {
+      "file": "large-arrays/direct-system-base-states.f64le",
+      "bytes": 2460416,
+      "sha256": "e36f5e5e4426587ff383790b8ff7c108de1c3723e56b11bc657eabf6c5327412",
+      "name": "direct-system-base-states",
+      "dtype": "<f8",
+      "shape": [
+        1373,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 9546
+      }
+    },
+    {
+      "file": "large-arrays/direct-system-stage-residuals.f64le",
+      "bytes": 2458624,
+      "sha256": "41c7e0bc65409c3dd27889abb0b464d4cdf8d6ec3cba01a04f96444a659befbc",
+      "name": "direct-system-stage-residuals",
+      "dtype": "<f8",
+      "shape": [
+        1372,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307328,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/direct-system-stage-out.f64le",
+      "bytes": 2458624,
+      "sha256": "0abf389f3a3b32ae8037481c29ede5b61945a613de6ffab45c8d5fa45e6578aa",
+      "name": "direct-system-stage-out",
+      "dtype": "<f8",
+      "shape": [
+        1372,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307328,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/direct-system-original-scales.f64le",
+      "bytes": 10984,
+      "sha256": "7b384c1a8e4354e9e0f8d416f11b387d8012bdba6547d6ab31a191b4592166e9",
+      "name": "direct-system-original-scales",
+      "dtype": "<f8",
+      "shape": [
+        1,
+        1373
+      ],
+      "bit_classification": {
+        "finite": 1373,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/direct-system-cut-residual.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "name": "direct-system-cut-residual",
+      "dtype": "<f8",
+      "shape": [
+        1,
+        112
+      ],
+      "bit_classification": {
+        "finite": 112,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/direct-system-end-residual.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "name": "direct-system-end-residual",
+      "dtype": "<f8",
+      "shape": [
+        1,
+        112
+      ],
+      "bit_classification": {
+        "finite": 112,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/direct-system-original-far-graph.f64le",
+      "bytes": 896,
+      "sha256": "395804bb32582680dd544c6278862f51919c7598b3a1a526f1194f18deffda54",
+      "name": "direct-system-original-far-graph",
+      "dtype": "<f8",
+      "shape": [
+        1,
+        112
+      ],
+      "bit_classification": {
+        "finite": 112,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/direct-system-physical-height.f64le",
+      "bytes": 896,
+      "sha256": "c35972d038321acf6db273248189b1e1d2527aa6eb2b323d37fcde4da448682f",
+      "name": "direct-system-physical-height",
+      "dtype": "<f8",
+      "shape": [
+        1,
+        112
+      ],
+      "bit_classification": {
+        "finite": 112,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/direct-system-cut-target.f64le",
+      "bytes": 896,
+      "sha256": "e2ea4563e7afc7d993db2ebc29ef63a1d853355c9d1ceeaf10f296b84391a14d",
+      "name": "direct-system-cut-target",
+      "dtype": "<f8",
+      "shape": [
+        1,
+        112
+      ],
+      "bit_classification": {
+        "finite": 112,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/initial-node-dyadic-exponents.i32le",
+      "bytes": 5492,
+      "sha256": "b190f52911e3833ae8c79269e4ff90e078ee21dce6683e676d53647fa767325a",
+      "name": "initial-node-dyadic-exponents",
+      "dtype": "<i4",
+      "shape": [
+        1373
+      ]
+    },
+    {
+      "file": "large-arrays/initial-row-dyadic-exponents.i32le",
+      "bytes": 1230208,
+      "sha256": "89e291646f3b52173823b65dbf2808222d245a2c476731bcd16bb07fb90db44e",
+      "name": "initial-row-dyadic-exponents",
+      "dtype": "<i4",
+      "shape": [
+        307552
+      ]
+    },
+    {
+      "file": "large-arrays/initial-column-dyadic-exponents.i32le",
+      "bytes": 1230208,
+      "sha256": "e44d0408307728a9accc21438ea015197d5ec517db1857289bbefeee57a1f242",
+      "name": "initial-column-dyadic-exponents",
+      "dtype": "<i4",
+      "shape": [
+        307552
+      ]
+    },
+    {
+      "file": "large-arrays/equilibration-00-row-step.i32le",
+      "bytes": 1230208,
+      "sha256": "3fd36b972afbe742e630707835212cd1d614ee96f77237336535c8607cc1fdbf",
+      "name": "equilibration-00-row-step",
+      "dtype": "<i4",
+      "shape": [
+        307552
+      ]
+    },
+    {
+      "file": "large-arrays/equilibration-00-column-step.i32le",
+      "bytes": 1230208,
+      "sha256": "367608d2c2b2da728d9fcd03a9caa4cac5eb35748b837798878c580079a36001",
+      "name": "equilibration-00-column-step",
+      "dtype": "<i4",
+      "shape": [
+        307552
+      ]
+    },
+    {
+      "file": "large-arrays/equilibration-01-row-step.i32le",
+      "bytes": 1230208,
+      "sha256": "be49bbceef6e2c353f0dacf56d63677011a28dd2f42c5233e4996969a52dcfb9",
+      "name": "equilibration-01-row-step",
+      "dtype": "<i4",
+      "shape": [
+        307552
+      ]
+    },
+    {
+      "file": "large-arrays/equilibration-01-column-step.i32le",
+      "bytes": 1230208,
+      "sha256": "be49bbceef6e2c353f0dacf56d63677011a28dd2f42c5233e4996969a52dcfb9",
+      "name": "equilibration-01-column-step",
+      "dtype": "<i4",
+      "shape": [
+        307552
+      ]
+    },
+    {
+      "file": "large-arrays/final-row-dyadic-exponents.i32le",
+      "bytes": 1230208,
+      "sha256": "40de771ab0089586c0d06a7dc31f16ce050bbafc23ea0264ad6058cdf444d73e",
+      "name": "final-row-dyadic-exponents",
+      "dtype": "<i4",
+      "shape": [
+        307552
+      ]
+    },
+    {
+      "file": "large-arrays/final-column-dyadic-exponents.i32le",
+      "bytes": 1230208,
+      "sha256": "ccafe8fffe6c7f35022f5c22841dcb6e25778504f4ea31bed05c4035564d0078",
+      "name": "final-column-dyadic-exponents",
+      "dtype": "<i4",
+      "shape": [
+        307552
+      ]
+    },
+    {
+      "file": "large-arrays/formed-row-max-absolute-entry.f64le",
+      "bytes": 2460416,
+      "sha256": "1580a4d52d6830632885ed173c6c9b281fe4a6d333275970371e9bad63a1a146",
+      "name": "formed-row-max-absolute-entry",
+      "dtype": "<f8",
+      "shape": [
+        307552
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/formed-column-max-absolute-entry.f64le",
+      "bytes": 2460416,
+      "sha256": "5e21df6c4b994921fb7c613c08681d87f4e5ae7142be646ef318549c62c14b76",
+      "name": "formed-column-max-absolute-entry",
+      "dtype": "<f8",
+      "shape": [
+        307552
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/complete-step-scaled-rhs.f64le",
+      "bytes": 2460416,
+      "sha256": "505b5b1dd6d051b54c32b2f6976aa8874790541ad01531ae05a7129382b68c9f",
+      "name": "complete-step-scaled-rhs",
+      "dtype": "<f8",
+      "shape": [
+        307552
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/lapack-pivots.i32le",
+      "bytes": 1230208,
+      "sha256": "174c65e455eb9aa00edb2ba72b4e17556826a8897cdcb44b82f28952bada74b3",
+      "name": "lapack-pivots",
+      "dtype": "<i4",
+      "shape": [
+        307552
+      ]
+    },
+    {
+      "file": "large-arrays/initial-scaled-step-coordinate-delta.f64le",
+      "bytes": 2460416,
+      "sha256": "78639776588f3ecb95c2c2fc81508edd58ecfd37daf7adc4185b6730df2a05b2",
+      "name": "initial-scaled-step-coordinate-delta",
+      "dtype": "<f8",
+      "shape": [
+        1373,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/iteration-00-step-coordinate-delta.f64le",
+      "bytes": 2460416,
+      "sha256": "d902d088187a6c537cf3bac40eb2c6adad64f37daa323ce48e33685d58ee8f25",
+      "name": "iteration-00-step-coordinate-delta",
+      "dtype": "<f8",
+      "shape": [
+        1373,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/iteration-00-exact-residuals.jsonl.gz",
+      "bytes": 8789504,
+      "sha256": "9fbf0e688b55962763c94b55eb86b7ca58aace4ec4b5a2f943bf979d7c9e8d92",
+      "name": "iteration-00-exact-residuals",
+      "dtype": "exact-dyadic-jsonl-gzip",
+      "shape": [
+        307552
+      ]
+    },
+    {
+      "file": "large-arrays/iteration-00-refinement-rhs.f64le",
+      "bytes": 2460416,
+      "sha256": "f05302cca4575548f36049932f2e3c1a723087ee5e9319a3cf2c4a61417f70ba",
+      "name": "iteration-00-refinement-rhs",
+      "dtype": "<f8",
+      "shape": [
+        307552
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/refinement-01-scaled-step-coordinate-delta.f64le",
+      "bytes": 2460416,
+      "sha256": "b51159ff76ca6770b728e5324430c29d4fff5e87d401a0c4d18fe1ee7a78c939",
+      "name": "refinement-01-scaled-step-coordinate-delta",
+      "dtype": "<f8",
+      "shape": [
+        1373,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/refinement-01-step-coordinate-increment.f64le",
+      "bytes": 2460416,
+      "sha256": "240ea4db21487c84d4b1d4db739b0c1c93430ddda0701879549def79b5120a5e",
+      "name": "refinement-01-step-coordinate-increment",
+      "dtype": "<f8",
+      "shape": [
+        1373,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/iteration-01-step-coordinate-delta.f64le",
+      "bytes": 2460416,
+      "sha256": "549e3f37cdde571b132a6e6b2a25a0ecd6fa2c9cf122ef82d3c8901ef6f6ba05",
+      "name": "iteration-01-step-coordinate-delta",
+      "dtype": "<f8",
+      "shape": [
+        1373,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/iteration-01-exact-residuals.jsonl.gz",
+      "bytes": 8711016,
+      "sha256": "011937fbdbd06a74a8199531280a16345586b286c2e7968142cd3c9dd5961250",
+      "name": "iteration-01-exact-residuals",
+      "dtype": "exact-dyadic-jsonl-gzip",
+      "shape": [
+        307552
+      ]
+    },
+    {
+      "file": "large-arrays/iteration-01-refinement-rhs.f64le",
+      "bytes": 2460416,
+      "sha256": "9b67ec6fc4dc1250af841ba7dceb4fab4f43d71e8dbf8383f545462b0a9789c7",
+      "name": "iteration-01-refinement-rhs",
+      "dtype": "<f8",
+      "shape": [
+        307552
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/refinement-02-scaled-step-coordinate-delta.f64le",
+      "bytes": 2460416,
+      "sha256": "ff681f4716abed708d9772f9a850471596f7e4943ce7925f4b6afcae9d4a4631",
+      "name": "refinement-02-scaled-step-coordinate-delta",
+      "dtype": "<f8",
+      "shape": [
+        1373,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/refinement-02-step-coordinate-increment.f64le",
+      "bytes": 2460416,
+      "sha256": "cbe62639796f5124cfbbf1900b67df31601541b66988c9c606ab0c96a40471fa",
+      "name": "refinement-02-step-coordinate-increment",
+      "dtype": "<f8",
+      "shape": [
+        1373,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/iteration-02-step-coordinate-delta.f64le",
+      "bytes": 2460416,
+      "sha256": "e72f3cf56bf4abe29ce8292462566f763d1dfbb69e3229e83404e0c260b99de5",
+      "name": "iteration-02-step-coordinate-delta",
+      "dtype": "<f8",
+      "shape": [
+        1373,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/iteration-02-exact-residuals.jsonl.gz",
+      "bytes": 8698559,
+      "sha256": "72869a671a7732e99ebe2f3b11c286cae79479a439f7f99f9d8e32c79272dd2f",
+      "name": "iteration-02-exact-residuals",
+      "dtype": "exact-dyadic-jsonl-gzip",
+      "shape": [
+        307552
+      ]
+    },
+    {
+      "file": "large-arrays/iteration-02-refinement-rhs.f64le",
+      "bytes": 2460416,
+      "sha256": "e12e17b5e5d01110da572957b090edaf456e5e2d9370cb95efbc84cfe67d6203",
+      "name": "iteration-02-refinement-rhs",
+      "dtype": "<f8",
+      "shape": [
+        307552
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/refinement-03-scaled-step-coordinate-delta.f64le",
+      "bytes": 2460416,
+      "sha256": "a551f10e183a9af63c774ece7f9c13862247f24b57e9c81d996fa887b9ef2b2c",
+      "name": "refinement-03-scaled-step-coordinate-delta",
+      "dtype": "<f8",
+      "shape": [
+        1373,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/refinement-03-step-coordinate-increment.f64le",
+      "bytes": 2460416,
+      "sha256": "cb8750ebefaa91fc7c4298f4b3064e2edd961ca1b78e3d39fa15c857049061ba",
+      "name": "refinement-03-step-coordinate-increment",
+      "dtype": "<f8",
+      "shape": [
+        1373,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/iteration-03-step-coordinate-delta.f64le",
+      "bytes": 2460416,
+      "sha256": "ed4a270cea928cadd879d5d6fb76759daedbdc868d97a2a307597e2f37c89dc5",
+      "name": "iteration-03-step-coordinate-delta",
+      "dtype": "<f8",
+      "shape": [
+        1373,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/iteration-03-exact-residuals.jsonl.gz",
+      "bytes": 8690321,
+      "sha256": "89c98cddfb28c92b0393d598622b2c71b08e4b2ef91913a596f253463cc252d0",
+      "name": "iteration-03-exact-residuals",
+      "dtype": "exact-dyadic-jsonl-gzip",
+      "shape": [
+        307552
+      ]
+    },
+    {
+      "file": "large-arrays/iteration-03-refinement-rhs.f64le",
+      "bytes": 2460416,
+      "sha256": "4cfada88b17c8be277ca83ea82f2166db207acb2e662fe8a4173ae3e61d5f803",
+      "name": "iteration-03-refinement-rhs",
+      "dtype": "<f8",
+      "shape": [
+        307552
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/complete-step-coordinate-delta.f64le",
+      "bytes": 2460416,
+      "sha256": "e72f3cf56bf4abe29ce8292462566f763d1dfbb69e3229e83404e0c260b99de5",
+      "name": "complete-step-coordinate-delta",
+      "dtype": "<f8",
+      "shape": [
+        1373,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307552,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/complete-old-node-restricted-delta.f64le",
+      "bytes": 1033984,
+      "sha256": "5d4f941c0850892d5b3a8c7fd10bfe96d60002dfac12ca342ad62efc94ba8b0d",
+      "name": "complete-old-node-restricted-delta",
+      "dtype": "<f8",
+      "shape": [
+        577,
+        224
+      ],
+      "bit_classification": {
+        "finite": 129248,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/new-actual-step-system-rawcell0_steps-stage-raw.f64le",
+      "bytes": 2458624,
+      "sha256": "24623617d140ef15d83901c0be8bf41615209e7082a359989872ad3e61fd5cc8",
+      "name": "new-actual-step-system-rawcell0_steps-stage-raw",
+      "dtype": "<f8",
+      "shape": [
+        1372,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307328,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/new-actual-step-system-rawcell0_steps-stage-scaled.f64le",
+      "bytes": 2458624,
+      "sha256": "ecea60d938a2ee68216a433ccd0f3b91ff70ded717a0c75c00b2bdc50301b991",
+      "name": "new-actual-step-system-rawcell0_steps-stage-scaled",
+      "dtype": "<f8",
+      "shape": [
+        1372,
+        224
+      ],
+      "bit_classification": {
+        "finite": 307328,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/new-actual-step-system-rawcell0_steps-cut-raw.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "name": "new-actual-step-system-rawcell0_steps-cut-raw",
+      "dtype": "<f8",
+      "shape": [
+        112
+      ],
+      "bit_classification": {
+        "finite": 112,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/new-actual-step-system-rawcell0_steps-cut-scaled.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "name": "new-actual-step-system-rawcell0_steps-cut-scaled",
+      "dtype": "<f8",
+      "shape": [
+        112
+      ],
+      "bit_classification": {
+        "finite": 112,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/new-actual-step-system-rawcell0_steps-far-raw.f64le",
+      "bytes": 896,
+      "sha256": "6a37eb2a452c6fe0f7d3b6b244c4651f3733c9c3f7925f478bbe9ee7acb4ebf4",
+      "name": "new-actual-step-system-rawcell0_steps-far-raw",
+      "dtype": "<f8",
+      "shape": [
+        112
+      ],
+      "bit_classification": {
+        "finite": 112,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/new-actual-step-system-rawcell0_steps-far-scaled.f64le",
+      "bytes": 896,
+      "sha256": "ee210dd66ef7636bb7e8b81770cc89cf10bea8826fa55b61e3374c37475a7df2",
+      "name": "new-actual-step-system-rawcell0_steps-far-scaled",
+      "dtype": "<f8",
+      "shape": [
+        112
+      ],
+      "bit_classification": {
+        "finite": 112,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/old576-diagnostic-restricted_from_steps-stage-raw.f64le",
+      "bytes": 1032192,
+      "sha256": "3d8a989a2650f2403ca372887f18b115486153d994d4fb18d6e093e1d9f776f7",
+      "name": "old576-diagnostic-restricted_from_steps-stage-raw",
+      "dtype": "<f8",
+      "shape": [
+        576,
+        224
+      ],
+      "bit_classification": {
+        "finite": 129024,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/old576-diagnostic-restricted_from_steps-stage-scaled.f64le",
+      "bytes": 1032192,
+      "sha256": "51e9a3bf6e3384f706d5d9fde59c4533fc1017af011019c5cab67aacefa95f73",
+      "name": "old576-diagnostic-restricted_from_steps-stage-scaled",
+      "dtype": "<f8",
+      "shape": [
+        576,
+        224
+      ],
+      "bit_classification": {
+        "finite": 129024,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/old576-diagnostic-restricted_from_steps-cut-raw.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "name": "old576-diagnostic-restricted_from_steps-cut-raw",
+      "dtype": "<f8",
+      "shape": [
+        112
+      ],
+      "bit_classification": {
+        "finite": 112,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/old576-diagnostic-restricted_from_steps-cut-scaled.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "name": "old576-diagnostic-restricted_from_steps-cut-scaled",
+      "dtype": "<f8",
+      "shape": [
+        112
+      ],
+      "bit_classification": {
+        "finite": 112,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/old576-diagnostic-restricted_from_steps-far-raw.f64le",
+      "bytes": 896,
+      "sha256": "6a37eb2a452c6fe0f7d3b6b244c4651f3733c9c3f7925f478bbe9ee7acb4ebf4",
+      "name": "old576-diagnostic-restricted_from_steps-far-raw",
+      "dtype": "<f8",
+      "shape": [
+        112
+      ],
+      "bit_classification": {
+        "finite": 112,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    },
+    {
+      "file": "large-arrays/old576-diagnostic-restricted_from_steps-far-scaled.f64le",
+      "bytes": 896,
+      "sha256": "ee210dd66ef7636bb7e8b81770cc89cf10bea8826fa55b61e3374c37475a7df2",
+      "name": "old576-diagnostic-restricted_from_steps-far-scaled",
+      "dtype": "<f8",
+      "shape": [
+        112
+      ],
+      "bit_classification": {
+        "finite": 112,
+        "nan": 0,
+        "positive_infinity": 0,
+        "negative_infinity": 0,
+        "negative_zero": 0
+      }
+    }
+  ],
+  "output_array_count": 55,
+  "output_total_file_bytes": 108130580,
+  "checkpoints": [
+    {
+      "file": "step-direction-iteration-00.json.gz",
+      "bytes": 3455711,
+      "sha256": "8a419c4abb88f17bf0b8ad64c5b5935621d80a70f32c1420237dd44a7f7bce1e",
+      "rows": 1373,
+      "raw_sha256": "d902d088187a6c537cf3bac40eb2c6adad64f37daa323ce48e33685d58ee8f25",
+      "negative_zero_positions": 0,
+      "input_binding_equal": true,
+      "all_words_match": true
+    },
+    {
+      "file": "step-direction-iteration-01.json.gz",
+      "bytes": 3454793,
+      "sha256": "b7d1f1391c06e4e28ae827701264c2e51198f7f7dcb8bb432e1b37977de84551",
+      "rows": 1373,
+      "raw_sha256": "549e3f37cdde571b132a6e6b2a25a0ecd6fa2c9cf122ef82d3c8901ef6f6ba05",
+      "negative_zero_positions": 0,
+      "input_binding_equal": true,
+      "all_words_match": true
+    },
+    {
+      "file": "step-direction-iteration-02.json.gz",
+      "bytes": 3454362,
+      "sha256": "497ab41ed91e1b62d7c250a81904fde8ffcfaca5295b46fa93026c364d5527fa",
+      "rows": 1373,
+      "raw_sha256": "e72f3cf56bf4abe29ce8292462566f763d1dfbb69e3229e83404e0c260b99de5",
+      "negative_zero_positions": 0,
+      "input_binding_equal": true,
+      "all_words_match": true
+    },
+    {
+      "file": "step-direction-iteration-03.json.gz",
+      "bytes": 3454526,
+      "sha256": "1d74f1dc909cfc6d9697bf398bd078596202bb73c55a2f034707330b60ae258c",
+      "rows": 1373,
+      "raw_sha256": "ed4a270cea928cadd879d5d6fb76759daedbdc868d97a2a307597e2f37c89dc5",
+      "negative_zero_positions": 0,
+      "input_binding_equal": true,
+      "all_words_match": true
+    },
+    {
+      "file": "step-direction-checkpoint.json.gz",
+      "bytes": 3454362,
+      "sha256": "497ab41ed91e1b62d7c250a81904fde8ffcfaca5295b46fa93026c364d5527fa",
+      "rows": 1373,
+      "raw_sha256": "e72f3cf56bf4abe29ce8292462566f763d1dfbb69e3229e83404e0c260b99de5",
+      "negative_zero_positions": 0,
+      "input_binding_equal": true,
+      "all_words_match": true
+    },
+    {
+      "file": "restricted-original-node-direction.json.gz",
+      "bytes": 1650281,
+      "sha256": "284f47f8e20dfefab867bd67d6b0fdc10304ae373c577cbbf56c3bb6c67655d7",
+      "rows": 577,
+      "raw_sha256": "5d4f941c0850892d5b3a8c7fd10bfe96d60002dfac12ca342ad62efc94ba8b0d",
+      "negative_zero_positions": 0,
+      "input_binding_equal": true,
+      "all_words_match": true
+    }
+  ],
+  "full_to_original577_restriction_all_words_equal": true,
+  "selected_full_delta_identical_to_iteration_02": true,
+  "exact_ledgers": [
+    {
+      "file": "large-arrays/iteration-00-exact-residuals.jsonl.gz",
+      "bytes": 8789504,
+      "sha256": "9fbf0e688b55962763c94b55eb86b7ca58aace4ec4b5a2f943bf979d7c9e8d92",
+      "decompressed_jsonl_sha256": "f36febbf8221eb43854467c8d440ea84db5f171517a7bc1ab03ae8c0f30089e5",
+      "blocks": 1374,
+      "cut_rows": 112,
+      "stage_blocks": 1372,
+      "stage_rows_per_block": 224,
+      "far_rows": 112,
+      "total_rows": 307552,
+      "all_pair_syntax_checked": true,
+      "all_per_block_maximum_row_references_and_sigma_bits_checked": true,
+      "stage_J_descriptors_and_direction_sha_checked": true,
+      "global_witness_is_identical_stored_block_record": true,
+      "residual_or_maximum_not_recomputed_locally": true
+    },
+    {
+      "file": "large-arrays/iteration-01-exact-residuals.jsonl.gz",
+      "bytes": 8711016,
+      "sha256": "011937fbdbd06a74a8199531280a16345586b286c2e7968142cd3c9dd5961250",
+      "decompressed_jsonl_sha256": "1f4a265f0728d209da633052e398726725da8162be6259f604f1dcba6406a93b",
+      "blocks": 1374,
+      "cut_rows": 112,
+      "stage_blocks": 1372,
+      "stage_rows_per_block": 224,
+      "far_rows": 112,
+      "total_rows": 307552,
+      "all_pair_syntax_checked": true,
+      "all_per_block_maximum_row_references_and_sigma_bits_checked": true,
+      "stage_J_descriptors_and_direction_sha_checked": true,
+      "global_witness_is_identical_stored_block_record": true,
+      "residual_or_maximum_not_recomputed_locally": true
+    },
+    {
+      "file": "large-arrays/iteration-02-exact-residuals.jsonl.gz",
+      "bytes": 8698559,
+      "sha256": "72869a671a7732e99ebe2f3b11c286cae79479a439f7f99f9d8e32c79272dd2f",
+      "decompressed_jsonl_sha256": "4c2f61efde4e8fdb872688e4e762b1ca4b17a824e66a9f6efa8dc65a149d37d1",
+      "blocks": 1374,
+      "cut_rows": 112,
+      "stage_blocks": 1372,
+      "stage_rows_per_block": 224,
+      "far_rows": 112,
+      "total_rows": 307552,
+      "all_pair_syntax_checked": true,
+      "all_per_block_maximum_row_references_and_sigma_bits_checked": true,
+      "stage_J_descriptors_and_direction_sha_checked": true,
+      "global_witness_is_identical_stored_block_record": true,
+      "residual_or_maximum_not_recomputed_locally": true
+    },
+    {
+      "file": "large-arrays/iteration-03-exact-residuals.jsonl.gz",
+      "bytes": 8690321,
+      "sha256": "89c98cddfb28c92b0393d598622b2c71b08e4b2ef91913a596f253463cc252d0",
+      "decompressed_jsonl_sha256": "0f80fd925a1e82ab3aeb2dab99f060a116e65e5331b402c09a01ef0dbe1cdf2c",
+      "blocks": 1374,
+      "cut_rows": 112,
+      "stage_blocks": 1372,
+      "stage_rows_per_block": 224,
+      "far_rows": 112,
+      "total_rows": 307552,
+      "all_pair_syntax_checked": true,
+      "all_per_block_maximum_row_references_and_sigma_bits_checked": true,
+      "stage_J_descriptors_and_direction_sha_checked": true,
+      "global_witness_is_identical_stored_block_record": true,
+      "residual_or_maximum_not_recomputed_locally": true
+    }
+  ],
+  "exact_witness_operand_byte_checks": [
+    {
+      "iteration": 0,
+      "file": "iteration-00-exact-global-witness.json",
+      "bytes": 14379,
+      "sha256": "62bacaeeb3070ecedee3035d170eea425a1eac8952d54d48d92fae8485b5dc8f",
+      "stage": 518,
+      "row": 223,
+      "input_J_file": "large-arrays/stage-042-shape-jacobians-000000.f64le",
+      "complete_stage_J_sha256": "49da128e25831099680f65e79c465ee44d7967f4daece83b6c49cdc41d7e9f50",
+      "direction_sha256": "d902d088187a6c537cf3bac40eb2c6adad64f37daa323ce48e33685d58ee8f25",
+      "all_224_J_operand_words_match": true,
+      "all_224_next_delta_operand_words_match": true,
+      "current_delta_r_sigma_words_match": true,
+      "exact_dyadic_pair_is_identical_ledger_row": true,
+      "rounding_example_byte_bindings": 8
+    },
+    {
+      "iteration": 1,
+      "file": "iteration-01-exact-global-witness.json",
+      "bytes": 14385,
+      "sha256": "572f7b9ef4ce28da1c42338a253245016fbb95249835a7bbfe6652b06a18e9ad",
+      "stage": 518,
+      "row": 223,
+      "input_J_file": "large-arrays/stage-042-shape-jacobians-000000.f64le",
+      "complete_stage_J_sha256": "49da128e25831099680f65e79c465ee44d7967f4daece83b6c49cdc41d7e9f50",
+      "direction_sha256": "549e3f37cdde571b132a6e6b2a25a0ecd6fa2c9cf122ef82d3c8901ef6f6ba05",
+      "all_224_J_operand_words_match": true,
+      "all_224_next_delta_operand_words_match": true,
+      "current_delta_r_sigma_words_match": true,
+      "exact_dyadic_pair_is_identical_ledger_row": true,
+      "rounding_example_byte_bindings": 8
+    },
+    {
+      "iteration": 2,
+      "file": "iteration-02-exact-global-witness.json",
+      "bytes": 14385,
+      "sha256": "5eb0dc0a75e5d99f3081744f87e45581c413a49d702ace479a14abf8bb8eb529",
+      "stage": 518,
+      "row": 223,
+      "input_J_file": "large-arrays/stage-042-shape-jacobians-000000.f64le",
+      "complete_stage_J_sha256": "49da128e25831099680f65e79c465ee44d7967f4daece83b6c49cdc41d7e9f50",
+      "direction_sha256": "e72f3cf56bf4abe29ce8292462566f763d1dfbb69e3229e83404e0c260b99de5",
+      "all_224_J_operand_words_match": true,
+      "all_224_next_delta_operand_words_match": true,
+      "current_delta_r_sigma_words_match": true,
+      "exact_dyadic_pair_is_identical_ledger_row": true,
+      "rounding_example_byte_bindings": 8
+    },
+    {
+      "iteration": 3,
+      "file": "iteration-03-exact-global-witness.json",
+      "bytes": 14378,
+      "sha256": "be87b0007c1d6f451596416cb886d08869d48f3690fc5d6a4656fbabccb40b1b",
+      "stage": 518,
+      "row": 223,
+      "input_J_file": "large-arrays/stage-042-shape-jacobians-000000.f64le",
+      "complete_stage_J_sha256": "49da128e25831099680f65e79c465ee44d7967f4daece83b6c49cdc41d7e9f50",
+      "direction_sha256": "ed4a270cea928cadd879d5d6fb76759daedbdc868d97a2a307597e2f37c89dc5",
+      "all_224_J_operand_words_match": true,
+      "all_224_next_delta_operand_words_match": true,
+      "current_delta_r_sigma_words_match": true,
+      "exact_dyadic_pair_is_identical_ledger_row": true,
+      "rounding_example_byte_bindings": 8
+    }
+  ],
+  "saved_floating_report_word_references_checked": 1956,
+  "reported_iteration_results_not_recomputed": [
+    {
+      "iteration": 0,
+      "reported_strictly_improved": true,
+      "reported_exact_global": {
+        "kind": "stage",
+        "node": 518,
+        "row": 223,
+        "global_equation_row": 116367,
+        "component": "Pi",
+        "mode": 112,
+        "original_sigma_float64le_hex": "4e3c472c8ac1a53c",
+        "exact_unscaled_dyadic": [
+          "0x94083d01a3537277e7e9ec177b30d4623a884e0404ee3899c4939ef473443f6f",
+          -233
+        ],
+        "exact_signed_scaled_residual": {
+          "numerator": "1217397407591436093646694776613181255195074458676702042152015259444004253321",
+          "denominator": "37887494732615929947377981802961017448185040719577088",
+          "decimal_display_64_significant_digits": "3.213190569033386386920456690866828311112172101690692893483850601E+22",
+          "display_never_used_for_comparison": true
+        },
+        "exact_absolute_scaled_residual": {
+          "numerator": "1217397407591436093646694776613181255195074458676702042152015259444004253321",
+          "denominator": "37887494732615929947377981802961017448185040719577088",
+          "decimal_display_64_significant_digits": "3.213190569033386386920456690866828311112172101690692893483850601E+22",
+          "display_never_used_for_comparison": true
+        },
+        "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+        "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+        "source_stage": {
+          "newStage": 518,
+          "originalStage": 42,
+          "rawCell": 0,
+          "kind": "actual-original-RK-step",
+          "stepIndex": 0,
+          "originalStepCount": 12,
+          "schedule": {
+            "global_step": 0,
+            "profile_index": 0,
+            "grid_index": 0,
+            "grid_branch": "ordinary",
+            "x": {
+              "value": 0,
+              "float64le_hex": "0000000000000000",
+              "classification": "finite"
+            },
+            "h": {
+              "value": 0.08333333333333333,
+              "float64le_hex": "555555555555b53f",
+              "classification": "finite"
+            },
+            "final_original_step": false,
+            "port_applied": false,
+            "port_ratio": {
+              "value": 1,
+              "float64le_hex": "000000000000f03f",
+              "classification": "finite"
+            },
+            "field_calls": 4,
+            "full_state_row": 1,
+            "shape_output_row": 0,
+            "shape_J_row": 0,
+            "shape_J_statistics": {
+              "entries": 50176,
+              "finite": 50176,
+              "nan": 0,
+              "positive_infinity": 0,
+              "negative_infinity": 0,
+              "zeros": 0,
+              "negative_zeros": 0,
+              "max_abs_finite": {
+                "value": 25108449735.79109,
+                "float64le_hex": "132a1f2752621742",
+                "classification": "finite"
+              },
+              "max_abs_finite_index": 50063,
+              "max_abs_finite_entry": {
+                "value": 25108449735.79109,
+                "float64le_hex": "132a1f2752621742",
+                "classification": "finite"
+              }
+            },
+            "cumulative_minA": {
+              "value": 0.9999999999999958,
+              "float64le_hex": "daffffffffffef3f",
+              "classification": "finite"
+            },
+            "cumulative_minD": {
+              "value": 1,
+              "float64le_hex": "000000000000f03f",
+              "classification": "finite"
+            },
+            "cumulative_maxRootRelative": {
+              "value": 2.1268835585537372e-15,
+              "float64le_hex": "8bfb27744228e33c",
+              "classification": "finite"
+            }
+          },
+          "port": "one"
+        },
+        "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521"
+      },
+      "direction_sha256": "d902d088187a6c537cf3bac40eb2c6adad64f37daa323ce48e33685d58ee8f25",
+      "rhs_rounding_reported": {
+        "rounded_rows": 307333,
+        "underflow_to_zero_rows": 0,
+        "exact_zero_rows": 112
+      }
+    },
+    {
+      "iteration": 1,
+      "reported_strictly_improved": true,
+      "reported_exact_global": {
+        "kind": "stage",
+        "node": 518,
+        "row": 223,
+        "global_equation_row": 116367,
+        "component": "Pi",
+        "mode": 112,
+        "original_sigma_float64le_hex": "4e3c472c8ac1a53c",
+        "exact_unscaled_dyadic": [
+          "0x796ca3d32befe93f0e2705e39498b5e188c940c441cec91ab33035e941915277",
+          -233
+        ],
+        "exact_signed_scaled_residual": {
+          "numerator": "54921804839401694382866207478529061017606637574788078221359661917861114368631",
+          "denominator": "2083812210293876147105788999162855959650177239576739840",
+          "decimal_display_64_significant_digits": "2.635640801416370179734940671151974323306941774890750783471262156E+22",
+          "display_never_used_for_comparison": true
+        },
+        "exact_absolute_scaled_residual": {
+          "numerator": "54921804839401694382866207478529061017606637574788078221359661917861114368631",
+          "denominator": "2083812210293876147105788999162855959650177239576739840",
+          "decimal_display_64_significant_digits": "2.635640801416370179734940671151974323306941774890750783471262156E+22",
+          "display_never_used_for_comparison": true
+        },
+        "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+        "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+        "source_stage": {
+          "newStage": 518,
+          "originalStage": 42,
+          "rawCell": 0,
+          "kind": "actual-original-RK-step",
+          "stepIndex": 0,
+          "originalStepCount": 12,
+          "schedule": {
+            "global_step": 0,
+            "profile_index": 0,
+            "grid_index": 0,
+            "grid_branch": "ordinary",
+            "x": {
+              "value": 0,
+              "float64le_hex": "0000000000000000",
+              "classification": "finite"
+            },
+            "h": {
+              "value": 0.08333333333333333,
+              "float64le_hex": "555555555555b53f",
+              "classification": "finite"
+            },
+            "final_original_step": false,
+            "port_applied": false,
+            "port_ratio": {
+              "value": 1,
+              "float64le_hex": "000000000000f03f",
+              "classification": "finite"
+            },
+            "field_calls": 4,
+            "full_state_row": 1,
+            "shape_output_row": 0,
+            "shape_J_row": 0,
+            "shape_J_statistics": {
+              "entries": 50176,
+              "finite": 50176,
+              "nan": 0,
+              "positive_infinity": 0,
+              "negative_infinity": 0,
+              "zeros": 0,
+              "negative_zeros": 0,
+              "max_abs_finite": {
+                "value": 25108449735.79109,
+                "float64le_hex": "132a1f2752621742",
+                "classification": "finite"
+              },
+              "max_abs_finite_index": 50063,
+              "max_abs_finite_entry": {
+                "value": 25108449735.79109,
+                "float64le_hex": "132a1f2752621742",
+                "classification": "finite"
+              }
+            },
+            "cumulative_minA": {
+              "value": 0.9999999999999958,
+              "float64le_hex": "daffffffffffef3f",
+              "classification": "finite"
+            },
+            "cumulative_minD": {
+              "value": 1,
+              "float64le_hex": "000000000000f03f",
+              "classification": "finite"
+            },
+            "cumulative_maxRootRelative": {
+              "value": 2.1268835585537372e-15,
+              "float64le_hex": "8bfb27744228e33c",
+              "classification": "finite"
+            }
+          },
+          "port": "one"
+        },
+        "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521"
+      },
+      "direction_sha256": "549e3f37cdde571b132a6e6b2a25a0ecd6fa2c9cf122ef82d3c8901ef6f6ba05",
+      "rhs_rounding_reported": {
+        "rounded_rows": 307328,
+        "underflow_to_zero_rows": 0,
+        "exact_zero_rows": 112
+      }
+    },
+    {
+      "iteration": 2,
+      "reported_strictly_improved": true,
+      "reported_exact_global": {
+        "kind": "stage",
+        "node": 518,
+        "row": 223,
+        "global_equation_row": 116367,
+        "component": "Pi",
+        "mode": 112,
+        "original_sigma_float64le_hex": "4e3c472c8ac1a53c",
+        "exact_unscaled_dyadic": [
+          "0x7595c6481bdea111b2eda65b9ea9b11123b268f6428ddacface63cc96e1e192b",
+          -233
+        ],
+        "exact_signed_scaled_residual": {
+          "numerator": "53185231986721987477368351175200891390489569054573636496766224062845189757227",
+          "denominator": "2083812210293876147105788999162855959650177239576739840",
+          "decimal_display_64_significant_digits": "2.552304460257547558335607736456071429761881751952739590060132772E+22",
+          "display_never_used_for_comparison": true
+        },
+        "exact_absolute_scaled_residual": {
+          "numerator": "53185231986721987477368351175200891390489569054573636496766224062845189757227",
+          "denominator": "2083812210293876147105788999162855959650177239576739840",
+          "decimal_display_64_significant_digits": "2.552304460257547558335607736456071429761881751952739590060132772E+22",
+          "display_never_used_for_comparison": true
+        },
+        "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+        "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+        "source_stage": {
+          "newStage": 518,
+          "originalStage": 42,
+          "rawCell": 0,
+          "kind": "actual-original-RK-step",
+          "stepIndex": 0,
+          "originalStepCount": 12,
+          "schedule": {
+            "global_step": 0,
+            "profile_index": 0,
+            "grid_index": 0,
+            "grid_branch": "ordinary",
+            "x": {
+              "value": 0,
+              "float64le_hex": "0000000000000000",
+              "classification": "finite"
+            },
+            "h": {
+              "value": 0.08333333333333333,
+              "float64le_hex": "555555555555b53f",
+              "classification": "finite"
+            },
+            "final_original_step": false,
+            "port_applied": false,
+            "port_ratio": {
+              "value": 1,
+              "float64le_hex": "000000000000f03f",
+              "classification": "finite"
+            },
+            "field_calls": 4,
+            "full_state_row": 1,
+            "shape_output_row": 0,
+            "shape_J_row": 0,
+            "shape_J_statistics": {
+              "entries": 50176,
+              "finite": 50176,
+              "nan": 0,
+              "positive_infinity": 0,
+              "negative_infinity": 0,
+              "zeros": 0,
+              "negative_zeros": 0,
+              "max_abs_finite": {
+                "value": 25108449735.79109,
+                "float64le_hex": "132a1f2752621742",
+                "classification": "finite"
+              },
+              "max_abs_finite_index": 50063,
+              "max_abs_finite_entry": {
+                "value": 25108449735.79109,
+                "float64le_hex": "132a1f2752621742",
+                "classification": "finite"
+              }
+            },
+            "cumulative_minA": {
+              "value": 0.9999999999999958,
+              "float64le_hex": "daffffffffffef3f",
+              "classification": "finite"
+            },
+            "cumulative_minD": {
+              "value": 1,
+              "float64le_hex": "000000000000f03f",
+              "classification": "finite"
+            },
+            "cumulative_maxRootRelative": {
+              "value": 2.1268835585537372e-15,
+              "float64le_hex": "8bfb27744228e33c",
+              "classification": "finite"
+            }
+          },
+          "port": "one"
+        },
+        "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521"
+      },
+      "direction_sha256": "e72f3cf56bf4abe29ce8292462566f763d1dfbb69e3229e83404e0c260b99de5",
+      "rhs_rounding_reported": {
+        "rounded_rows": 307328,
+        "underflow_to_zero_rows": 0,
+        "exact_zero_rows": 112
+      }
+    },
+    {
+      "iteration": 3,
+      "reported_strictly_improved": false,
+      "reported_exact_global": {
+        "kind": "stage",
+        "node": 518,
+        "row": 223,
+        "global_equation_row": 116367,
+        "component": "Pi",
+        "mode": 112,
+        "original_sigma_float64le_hex": "4e3c472c8ac1a53c",
+        "exact_unscaled_dyadic": [
+          "0xeb2b8c9037bd422365dc5a1faee0a9d41e4488374a88e85852a40931fbe8fb5",
+          -230
+        ],
+        "exact_signed_scaled_residual": {
+          "numerator": "1329630799668049686934210039348687160329444799194846190266541091354092064753",
+          "denominator": "52095305257346903677644724979071398991254430989418496",
+          "decimal_display_64_significant_digits": "2.552304460257547558335610155039970019887094964691195125661785638E+22",
+          "display_never_used_for_comparison": true
+        },
+        "exact_absolute_scaled_residual": {
+          "numerator": "1329630799668049686934210039348687160329444799194846190266541091354092064753",
+          "denominator": "52095305257346903677644724979071398991254430989418496",
+          "decimal_display_64_significant_digits": "2.552304460257547558335610155039970019887094964691195125661785638E+22",
+          "display_never_used_for_comparison": true
+        },
+        "matrix_scope": "actual41-base-direct-longdouble-rounded-shape-J1372-system",
+        "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+        "source_stage": {
+          "newStage": 518,
+          "originalStage": 42,
+          "rawCell": 0,
+          "kind": "actual-original-RK-step",
+          "stepIndex": 0,
+          "originalStepCount": 12,
+          "schedule": {
+            "global_step": 0,
+            "profile_index": 0,
+            "grid_index": 0,
+            "grid_branch": "ordinary",
+            "x": {
+              "value": 0,
+              "float64le_hex": "0000000000000000",
+              "classification": "finite"
+            },
+            "h": {
+              "value": 0.08333333333333333,
+              "float64le_hex": "555555555555b53f",
+              "classification": "finite"
+            },
+            "final_original_step": false,
+            "port_applied": false,
+            "port_ratio": {
+              "value": 1,
+              "float64le_hex": "000000000000f03f",
+              "classification": "finite"
+            },
+            "field_calls": 4,
+            "full_state_row": 1,
+            "shape_output_row": 0,
+            "shape_J_row": 0,
+            "shape_J_statistics": {
+              "entries": 50176,
+              "finite": 50176,
+              "nan": 0,
+              "positive_infinity": 0,
+              "negative_infinity": 0,
+              "zeros": 0,
+              "negative_zeros": 0,
+              "max_abs_finite": {
+                "value": 25108449735.79109,
+                "float64le_hex": "132a1f2752621742",
+                "classification": "finite"
+              },
+              "max_abs_finite_index": 50063,
+              "max_abs_finite_entry": {
+                "value": 25108449735.79109,
+                "float64le_hex": "132a1f2752621742",
+                "classification": "finite"
+              }
+            },
+            "cumulative_minA": {
+              "value": 0.9999999999999958,
+              "float64le_hex": "daffffffffffef3f",
+              "classification": "finite"
+            },
+            "cumulative_minD": {
+              "value": 1,
+              "float64le_hex": "000000000000f03f",
+              "classification": "finite"
+            },
+            "cumulative_maxRootRelative": {
+              "value": 2.1268835585537372e-15,
+              "float64le_hex": "8bfb27744228e33c",
+              "classification": "finite"
+            }
+          },
+          "port": "one"
+        },
+        "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521"
+      },
+      "direction_sha256": "ed4a270cea928cadd879d5d6fb76759daedbdc868d97a2a307597e2f37c89dc5",
+      "rhs_rounding_reported": {
+        "rounded_rows": 307328,
+        "underflow_to_zero_rows": 0,
+        "exact_zero_rows": 112
+      }
+    }
+  ],
+  "actual_trial_status": "No native trial ran in actual54: the later launcher failed during original28 filename validation; root is preparing a reuse-only original-trial followup.",
+  "limits": [
+    "No mathematical verification of the stored integer arithmetic was repeated here; the frozen Actions kernel remains the producer.",
+    "All868 direct J arrays are audited independently by geometry; this audit checks complete descriptors and directly reads the one full J block required by the four worst witnesses.",
+    "The unfactored band and LU exist only as stored producer hashes; their 1.377GB resident buffers were not exported, so this audit does not claim to rehash them.",
+    "No exact DF, native nonlinear acceptance, or task completion is inferred from this byte audit."
+  ],
+  "passed": true
+}

@@ -1,52 +1,49 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-/root，GPT-6 Astra Pro（AI辅助）。**未完成；持续至本题README全部完成，不等阶段确认。** 旧结论及失败见notes/results/Git历史。
+/root，GPT-6 Astra Pro（AI辅助）。**未完成，持续到README全部标准，不等阶段确认。** 完整历史保notes/results/Git。
 
-## 授权、规则与真实工作区
+## 授权、规则、工作区
 
-只在公开Rogerhu12/math-research-public工作；不访问private。可commit/push main和本仓Actions；不强推。PAT只瞬时CLI环境，禁文件/日志/提交/connector。**全部科学计算只本仓Actions**；本地只源、静态、原输出解析/字节核。root独管Git/H/open/log/workflow，agent独立新文件。Rule12完整证明直接results/index，无独审审批门。
-每push前及至少每小时真pull --rebase，核根/题README；变更只读diff立即执行，记已读SHA。非快进立即pull --rebase再push循环成功。H<10KB、MD<100KB、README/open尽量<30KB；>1MB数据gzip，Git单文件<5MB，大阵artifact-only；禁根LOG、完整clone、gc/maintenance。
-终端已恢复，默认cwd失效；exec必须显式真实workdir、bash/login=false。部分检出：
+只在公开Rogerhu12/math-research-public工作，不访问private。可commit/push main和本仓Actions；PAT只瞬时CLI环境，禁文件/日志/提交/connector。**全部科学计算只本仓Actions**；本地仅源码、静态、原输出解析和字节核。root管Git/H/open/log/workflows，agent独立新源/note。Rule12完整证明直接results/index，无独审审批门。
+每push前且至少每小时真实pull --rebase origin main，核根/题README；有变只读diff立刻执行并记已读SHA。非快进或并发ref错立即rebase/push循环成功，禁强推。H<10KB/MD<100KB/README与open尽量<30KB；>1MB数据gzip/Git单件<5MB，大阵artifact-only。禁根LOG、全clone、gc/maintenance。
+默认cwd失效，exec须显式bash/login=false与真实repo：
 /workspace/scratch/visible-larger-recovered-20261114-1843/math-research-public
-上层sync_public.py接瞬时MR_PUSH_TOKEN并处理pull/README/H/push循环；旧objects=/workspace/scratch/visible-larger-git-objects-20261114作alternates。只检必要文本/comp，原件按需git show。大包用/tmp；禁动别题缓存。
+上层sync_public.py从瞬时MR_PUSH_TOKEN处理真pull/README/H/push循环。partial/sparse非cone，notes/workflow干净文件可能被rebase移除，按需git show HEAD:path恢复；git add --sparse。共享objects=/workspace/scratch/visible-larger-git-objects-20261114。禁动别题缓存。
 
-## 完成标准：目前仍只有大幅开放前缀
+## 完成标准与固定数学来源
 
-同一固定g；连通闭C²嵌入、t↦F_t强C²连续；固定有内点H且diamF0H≥.2D；**整面像**Hausdorff δhold≥.2D；含反射δE>0；全t reach≥.03D；全域相对metric operator≤1e−6；同g/参数/t精化等距误差到机器或原solver容差。D取完整闭F0。无新增六/九jet机器门。数个<5MB网格并明示严格存在差距；任何warm、开放前缀或旧小幅A均非完成。
+目前仅大幅开放前缀。须同一固定g、连通闭C²嵌入、t↦F_t强C²；固定有内点H且diamF0H≥.2D；**整面像**Hausdorff δhold≥.2D；含反射δE>0；全t reach≥.03D；全域相对metric operator≤1e−6；同g/参数/t精化等距误差到机器或原solver容差。D取完整闭F0。无六/九jet机器新增门。数个<5MB网格、诚实严格存在差距；warm/旧小幅场均非完成。
+唯一接受源notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz，SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff。M96/N1024 .99大核，三分量metric5.77368e−7非operator，rho>.16385/G≈.96000098；旧.996/.9975超限/.997875失败封存。
+scalar .99/Connector/coast/bridge64Gauss7.5/cut r=.3/end2.271004035438285、3控制不变。当前M112/T112/N2048/699node/453state=338physical+112core+3p，left341/right112，首3core固定/236036自由坐标。finiteGauss ap/app非字面真导。
+真T112零锚已完整solve/audit，anchor e788a28d…/config01930f3b…；七identity相同且exactH0/auditFalse首请求可cache，新H/最终audit必须真worker，T96不代T112。原engine7d75a44a…/QR596356c0…/fullHd5e9432e…冻结；λ270/LSMR200/C200/17trial/原两RMS/rho/merit保，每轮Wr刷新，禁跨轮减merit。
 
-## 固定数学来源与当前前缀
+## Prefix：actual53完成，56准备
 
-唯一接受源notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz，SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff。M96/N1024大核开放场，三分量metric5.77368e−7非operator，κ6.30138/rho>.16385/G≈.96000098。旧.996/.9975超限、.997875失败封存，不重跑。
-scalar .99/Connector/coast/bridge64Gauss7.5/cut r=.3/end2.271004035438285，完整3控制。当前M112/T112/N2048/699节点、453状态=338physical+112core+3p；left341/right112，首3core固定，236036自由坐标。finiteGauss返回ap/app不冒字面真导。
-原prepare112 SHA0f94dd88…；真T112零锚已完整solve/audit，anchor e788a28d…/config01930f3b…。七件同identity+exact H0/auditFalse首请求可cache；新H/最终audit用原真worker，T96不代T112。
-冻结原引擎7d75a44a…/QR596356c0…/fullH d5e9432e…；λ270/LSMR200/C-Hildreth200/17trial/原两RMS/ρ/merit全部保。各模型刷新Wr，禁跨轮减merit。原col max没有argmax，不能猜其位置。
+53 run43634517255/source dd3156cfe7e5197029ce45fff5beb53115de3680/job132568287151/art14130276143，418958662B/ZIP2aee9406e2025bc8d7c61060a053715ad9e26d8b51f43ee297d7cb586d4f566d。warm/FD/publish全success。同15query30720行/B5073=469..483+p；512工作行，H43.76086287优C44.11521877。未修复worstslack−1.22569e−13，最终radial.9999999999987809/fullstationarity9.59012e−7/rawgap1.42109e−14仅浮点诊断非认证；原H relative1.84541e−15。父/权重变，不冒同A预算配对。
+实际7trial，α1/64：本轮merit44.11665947585927→44.105521474605546，col.007109981682135472/BC6.1823900322767e−8。最近1/32已建模15实际角网格全正，唯一原mid481 β²−.07069334665，尚未RMS；1/4还坏mid483，大步已建模网格也会非线性坏。
+**当前父**notes/public-actions-43634517255-1-condensedqp/fifteen-condensed-warm/：
+warm-001.json.gz e71a5fec344326df3b6c69ec6d298f5079034fb86eb2fa505008c35682010d32；
+原driver-status.json 6170aba505c2eeb5db9411f13ad502363fe1593a7d4d63faa5f0d0a37fb34938，1251975B公开gzip157158B；透明还原原bytes核SHA，禁重序列化。FD7.165083799852089e−10/report3fc6cf8f…仍零锚仿射，当前非零H native未解。
+完整137domain880NPY/88凝聚38全向量/9observer/44源/父51与FD链，另14raw217496448B全部byte核；fullfactor未导出。见actual-request53-working512-and-midpoint481-limit与两actual53 audit。51及更早全部原件/note已存，不重跑。
+**56准备中**：从53严格pair，仅加原mid481全2048角→16query32768行，支持仍5073/同一次原J。保512/dual200/600s候选/1200s总及所有原门/FD。四新sixteen-query源与接口已冻；实际warm用collocation_observer_warm入口，FD用condensed_response。只读observer记录已返回完整col argmax及原baseline W，不加RHS/J或改变返回/阈值；此前col位置未知，不猜在481。
 
-### 当前父actual51；下一53增加已触及的QP工作预算
+## Native：54已存完整方向，55复用试步
 
-51 run43632815810/source bd3fc94a6092313313daf607328a9695e80c17f4/job132563011884/art14128803396，389396609B/ZIP790703540d90dd71d1b8edc73ef4489b0ef9ee83a3e216a3b584512dfafc5f24，warm/FD/upload/publish全success。15query30720行/B5073=469..483+p，C4059全outside保。H43.81886248优C44.19965648；α1/8，固定本轮merit44.20135024608698→44.115161170653145/drop.08618907543，col.007110002311305403/BC6.280522697136224e−8。最近1/4中点481新缺、482已建模却实际β²负；线性全30720预测为正。QP256行到限，未入集原left475/angle109最坏relative.0948418，局部radial.91337395，最终stationarity363.2001/gap.9054199；原H相对残差9.44869e−16，不能归因其逆不准。
-**当前父**notes/public-actions-43632815810-1-condensedqp/fifteen-condensed-warm/：
-warm-001.json.gz SHA b6620a0ce55be257fc58c29e88187cc602ad08b46c4424903ffddc003b5b1595；
-原driver-status.json SHA 267451f8eb91ca568ff187bfb39dbd32b22ca844788e1e88165910190ad6f685，原1051960B公开gzip；解压核原bytes，禁重序列化。FD7.186294196742241e−10/report19829b68…仅真T112零锚仿射；非新H native/BVP。
-137B NPZ880数组/63condensed38全向量/6observer/44源/完整父49链，另14raw217496448B全部byte核；factor未导出不冒独审。详2026-11-14-actual-request51-fifteen-query-and-working-row-budget.md及两audit。45/48/49各实际note与原件均已保存，不重科学。
-**53运行中：run43634517255/source dd3156cfe7e5197029ce45fff5beb53115de3680/job132568287151，19:53:54Z进入warm**：同15自身schema从当前51pair，唯一算法预算改max-working256→512；其余dual200/600s候选/1200s总/λ270/LSMR200/C200/原17trial/FD保，不先加mid481，不能预言已建模482的非线性问题消失。
+23/v3原577×224 noJ seed合法，但norm.04177307820740199>2e−9，112H/51下溢/9546负零保；25原十trial全stage13/raw0/seg7拒。linearSteps同时定义graphs/gains/far/σ，不能整体换后冒仅换guess。
+原28 capture result.json ff53d954…；原41 step result.json6e9485dc…/run43622149326/art14124209116。868step3472field、72原出口mean，cusp11/28/31/63各13步，完整1372段/1373node/307552行。原件已全byte核。旧34/36/38/39/42/43失败封存；43原matrix e929e642…保iteration1仍3.258e21，最坏new519=old43/step11/Pi112，真RHS无下溢，辅助2^-2048未送solve，不重坏方向。
+47仅查该步四A，完整state/geometry/output/J/mean与41位同；四A首次存。固定旧δ/r/σ有理RK读回更坏，巨大相消，修单块不能救旧δ。50完整226×224参考：诱导∞误差old.0155569187/directLD7.1681214e−6/R271LD9.1952612e−6/RN3.3611567e−6，特定δ可反序；RN原σmap差3.97095e21非残差。完整有理记录/49工作数组/x87 padding已审；LD64有效位非binary128。R269/271/272完整证明已登记，有限协变保interstageG比，连续G′重RK非同算法。
+**54完成capture/solve，原trial因root旧28路径错未启动**：run43634889730/source7eb383af1ca2bb04c7eaef9c65578dbc124269d8/job132569417352/art14129522378；457357361B/ZIPdf3a54716ecbed8645783373657f7e40b08429173ca976efc73ecc7e8ce5f819。868新direct-LD+504原块/1372段，原base/r/σ/cut/far/H和577限制保，新matrix76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999。全307552行exact四轮3.21319e22→2.63564e22→2.552304460257547558335607736e22→略差，保2；四worstnew518=old42/step0/Pi112。非线性试步0。
+实际capture result.json e60da64312819a87388cfa96c209fc9188dca02c0ab055cbcc934f3507888ac6；direction result.json.gz e1ac6c83434ac3b269663e930b1370a38f280b2d31c5e720955b5ed0aed7e105。144array/1736chunks/868maps/3472fields与solver全原件byte审分note保存。52 spec1MB首错已存，54完整gzip修复成功，不重52。
+**55就绪，run待回读**：新public-native-direct-ld-trial-request/lane directldtrial，仅旧28误写.gz改回result.json（新54方向仍gz）；完整固定取28/41/54+78公开source，直接同577方向跑原十alpha/noJ/guard/严格原norm，不重868capture/1372solve、不加exact线性门。root读全部差异并核17pins/AST/Node/bash。首接受保全state仍非native2e−9；若接受再由selected577继续原fullnative，原Riccati后继仍可能失败。
+若55全拒，R273完整原σ平方根阻尼LS证明已入results/index，源码/接口已冻但未派、显式η待选；L2下降不保证∞或原577试探。三direct-LD接口保固定来源，禁止把旧43方向冒新target。
+root唯一下载：native /workspace/scratch/visible-larger-actions-1955/actions-debug/；prefix /tmp/visible-larger-actions-1848/actions-debug/。完整解包保留，审完可删重复ZIP腾空间；禁重复下载同大包。
 
-## Native：失败已保存，47只查原最坏一步
+## 后续必须完成
 
-23/v3完整577×224 noJ seed合法但原norm.04177307820740199>2e−9；112H/51下溢/9546负零保。25原十trial全stage13/raw0/seg7拒。linearSteps还定义graphs/gains/far/σ，禁整体改变冒仅换guess。28原capture ff53d954…、41原stepcapture6e9485dc…完整原件与byte审已存；41 run43622149326/art14124209116保868步3472field/72原出口mean，原1372段/307552行adapterfde0e039…，cusp11/28/31/63各13步不能猜72×12。
-旧34/36/38/39/42/43均失败封存，详各actual note。43 run43626121246/result cf6e00345697ed8bd4a114c2d79f8625e49626d2263e83f42e7dc60e3020013e，原matrix e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521；exact7.0998783e21→3.2580670e21→3.7694419e21，保1最坏new519=old43/step11/Pi112。真实RHS无下溢，辅助2^-2048未送solve；不重同坏方向，不加oldlong门，不冒完整旧43大阵独审。
-47 run43630351235原4RHS-J捕获完整state/geometry/output/J/mean与41逐位同；四A首次完整存。同旧δ/r/σ有理RK与old有巨大相消，单块修正不能拯救旧方向。50 run43632067148只原四A、0新RHS/J/ODE，全226×224诱导∞误差old.0155569187、directLD7.1681214e−6、R271LD9.1952612e−6、RN3.3611567e−6；特定方向可反序，RN原σmap差3.97095e21非residual。全原fraction记录/49候选数组及x87 padding已byte审；LD64有效位非binary128。详actual47-stage43-exact-action-and-new519-attribution、actual50-complete-rational-RK-reference-and-covariant-comparison、actual-request50-candidate-precision-and-bytes三note及audit。
-R269/271/272完整证明已入results/index。原四field变w，2/3 geometry同而A不同；有限协变须全部interstageG比，连续G′重RK非原有限映射。原step/G十trial源码保原10alpha/noJ/guard/strictnorm与首接受全state，尚非fullnative。
+先本场H真实完整尾/原fullDN outer+inner/RMS1e−6/BC1e−11/native/fresh audit全过；warm或FD不代接受，非零跨进程不冒同live predictor。
+闭合保全部physical/z0/材料cut角差mean九jet/core球排除/唯一SE2/R249 C²入口修补/两尾帽；不加旧A mean。有限φ≠有限θ，DFT同点不代连续接缝。共享quintic B/strict closed wrapper/newloader/cover/held接口冻结；原A.height/w/E定义g，不覆写B′。
+定型冻结scalar p*/g/尾帽/区间/t，释放全core K=k=0、T=M，同g v4维450/514；同live TailClient新H/J→FD→fullmain→fresh audit。699二分1397，需提高max1200真实预算。
+R248强C²全相位、R241全部参数对/法锥reach、R238/254/258含反射标记、R251实际全域operator待真新场；16仅解析fixture不重做。held覆盖所有活动块/两帽盘/完整D，可独立于reach进度；无额外六/九jet机器门。
+旧小幅A.063、RK24/48/三mesh/2157568pair/GW封存，不继承到新场。R259备用未派。全文R238–273见results.md；数值证据不冒严格存在。
 
-**52入口transport失败已保存，54修复已配待本次推送**：52 run43634201913/source61831d6a76b2a06e0c22f7fe03aad87d1b69d39f/job132567309832在19:51:04Z写完整spec触发旧1MB明文上限，native/worker/新J/solve/trial全未启动；art14129895088/697565B/ZIPf5351cb68add465edeb99eb521f1a14942f8e8047c4741f0a9c30640980cead9，详actual-request52-direct-LD-spec-transport-failure。不是数学失败。
-54沿唯一public-native-direct-ld-request/lane directld；只把完整spec存gzip、两reader按magic解包并绑定压缩SHA，科学表达式不变。实际16个新source pins见54request，窗口和50算术原字节保；两trial对应新adapter/solver身份。只原28/41完整固定包+78公开source；868新J/mean+504原块唯一1372matrix，原base/r/σ/cut/far/H/577限制保，3均衡/3修正/2exactworkers/单band4GiB。实际result生成后取SHA，一致完整方向直接接原十alpha/noJ/guard/strictnorm，不加exact线性门；首接受保存state仍非native2e−9完成。失败原件先artifact后publish。root已读transport全部diff/接口及消费者4行pin变更，AST/Node通过，无本地科学。
-若真实trial接受，按完整selected577原状态继续原fullnative（原Riccati可能再失败，不能把它冒LD后继）；否则按实际新矩阵证据选R273平方根阻尼LS。新native大artifact统一由root下载到/workspace/scratch/visible-larger-actions-1955/actions-debug/，前缀仍/tmp/visible-larger-actions-1848/actions-debug/；避免重复大包。原完整字段和后继合同见三direct-LD接口与gzip note。
-
-## 必须继续完成的闭场与同g全族工作
-
-先真fullDN：本场H/真实完整尾，原outer/inner/RMS1e−6/BC1e−11/native/fresh audit全过；warm/FD不代接受，非零跨进程不冒同live predictor。
-闭合保全部physical/z0/材料cut角差mean九jet/core球排除/唯一SE2/R249有限C²修补/两尾帽；不加旧A mean。有限φ一般无限θ，DFT同点不代连续接缝。shared-quintic B/strict closed wrapper/new loader/cover/held接口已读冻结；原A.height/w/E的g不覆写B′。
-定型后冻结scalar p*/g/尾帽/区间/t，释放全core K=k=0、T=M，同g v4维450/514；同live TailClient依次新H/J→FD→fullmain→fresh audit。699二分1397，须提高max1200实际预算。
-R248强C²全相位、R241全部空间对/法锥嵌入reach、R238/254/258含反射同场标记，R251四Loewner实际operator都待真新场；16仅解析接口不重fixtures。held读所有活动块/两帽盘/全D，可独立于reach进度。无六/九jet机器门；九相位/N32显示网格<5MB但真2305尾节点保。
-旧小幅A幅度.063、RK24/48/三mesh/2157568pair/GW已封存；旧43提交恢复链/strongR6失败见notes，禁private取未迁raw。R238–273见results.md；R273完整原σ块链平方根阻尼LS/常数能量/原∞区别已证明，尚未实现数值；R259备用未调度。
-
-规则同步记录：2026-11-14 19:57:33 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 773d548bd1a374c80c3720ded703416f273097da。
+规则同步记录：2026-11-14 20:15:06 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f0530bba6f0c8886b43d2a9592c3a3638461f6e5。

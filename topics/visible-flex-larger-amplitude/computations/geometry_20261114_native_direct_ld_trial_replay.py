@@ -82,7 +82,7 @@ def record_file(B,directory,descriptor):
 
 
 def validate_capture(a,B,prior,candidate,equal,numerical_sources):
-    directory=a.capture_directory.resolve();result_path=directory/"result.json.gz"
+    directory=a.capture_directory.resolve();result_path=directory/"result.json"
     if B.sha(result_path)!=CAPTURE_RESULT_SHA:raise ValueError("Use actual28's completed original capture")
     result=B.read(result_path)
     if (result.get("diagnostic_complete") is not True or result.get("native_accepted") is not False

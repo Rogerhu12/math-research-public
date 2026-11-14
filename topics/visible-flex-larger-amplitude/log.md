@@ -470,3 +470,11 @@ R273完整原σ块链阻尼平方根定理已直接入results与索引：每节�
 ## 2026-11-14 19:57:05 UTC /root — request54完整规格gzip运输修复
 
 [52真实首错](notes/2026-11-14-actual-request52-direct-LD-spec-transport-failure.md)与[修复范围](notes/2026-11-14-direct-LD-gzip-specification-transport.md)已读并保存。完整spec gzip(不删字段)、Node/Python按magic读取且SHA仍为压缩file bytes；三个源及新adapter/solver/两trial只传播真实pin变更，原数学不变。新capture a63ffda6…/hook3499f7ab…/worker87ab92d9…，adapter b64b6ed8…/solver42e10320…，trial 99204fcd…/373c82c7…。root读全部diff与接口，16源静态AST/Node过，无本地科学；原CLI、完整1372/577限制、所有原trial准则保持。沿唯一directld request派54，真实结果待回读。53 run43634517255/source dd3156cf…/job132568287151已在19:53:54Z进入同15/512工作行warm，前置与父51透明gzip身份均通过。
+
+## 2026-11-14 20:14:25 UTC /root — actual53、actual54完整结论与55原试步续接
+
+[53结论](notes/2026-11-14-actual-request53-working512-and-midpoint481-limit.md)：15query/512工作行最终radial.9999999999987809、完整stationarity9.59012e−7、rawgap1.42109e−14仅浮点诊断；最近1/32已建模15实际网格全正而唯一原mid481失域，α1/64接受，merit44.11665947585927→44.105521474605546，col.007109981682135472/FD7.165083799852089e−10。137domain880NPY/88凝聚38全向量/observer/44源/父链与14raw217496448B完整byte核，fullfactor未导出。下一56仅加mid481及只读原col argmax，不变5073支撑/原门。
+
+[54完整capture](notes/2026-11-14-actual-request54-complete868-direct-LD-capture.md)的144arrays/1736chunks/868 maps/3472fields及4221文件回执全byte核；[solver](notes/2026-11-14-actual54-direct-LD1372-solver-and-exact-readback.md)全55输出/四轮307552行/6checkpoint与operandbits核过，原数值未本地重算。新matrix76f30d77…，最好iter2仍2.552304460257547558335607736e22。原trial在root误写旧28文件名处I/O失败，未启动，不能冒十试步拒绝。
+
+[55修复](notes/2026-11-14-actual54-completed-direction-and-original28-path-repair.md)仅旧28 result.json.gz→result.json；新direction仍gz。完整固定取28/41/54后直接577限制跑原十alpha/guard/strictnorm，不重capture/solve、不增线性门。17pins/AST/Node/YAML/11bash静态通过，实际run待回读，科学仅公开Actions。
