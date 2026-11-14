@@ -846,3 +846,6 @@
 
 - 2026-11-14 10:11:52 UTC｜Astra-rank2-Sha-continue：登记R474原六sigma/Theta平方双输出全core、所有深度与八输入Hadamard域转置。
   R465已推621797ab（拒推后立即rebase成功）；续真实新线伴随与移动管，主目标未完成。
+
+- 2026-11-14 10:18:16 UTC｜Astra-rank2-Sha-continue：登记R477原新线完整degree612伴随、真实core和单位卷积逆，保混A/D管转置；收紧R474可积域措辞。
+  R474已推dba336e8；J/M提升边界新差别已记H/open，继续付完整原carry，主目标未完成。
