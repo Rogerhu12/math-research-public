@@ -402,3 +402,6 @@
 
 - 2026-11-14 21:08:01 UTC｜Astra-rank2-Sha-continue：执行环境恢复，实际pull --rebase成功接入全部API已发表历史；再拉main并比较两README无变。
   后续恢复终端git逐结论提交推送，旧未跟踪本地笔记保留；继续R587–590，主目标未完成。
+
+- 2026-11-14 21:13:33 UTC｜Astra-rank2-Sha-continue：登记R587惰性唯一pO原函数、原正则参数完整Frobenius差及原Gaussian全局非零p曲率，保特征零首整商。
+  清除经核只含可再取blob的1.28GB promisor缓存后恢复终端发表；原c4/c1与中央仍开，继续R591，主目标未完成。

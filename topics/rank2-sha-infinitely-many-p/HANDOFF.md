@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：f8fa98ab2f0995de83b645c5c6968474b8b25ab6；2026-11-14 21:10:18 UTC 实际git pull --rebase完成后比较根/课题README，无变。
+- 最近已读规则提交：63155aa0f57f523bb6609933bd6d55fa29994a84；2026-11-14 21:13:33 UTC 实际git pull --rebase完成后比较根/课题README，无变。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推/改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 根规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；文件<5MB、MD/接口单文件<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35–21:05执行环境断连；20:44失败记录保归档。21:05恢复后实际pull --rebase已成功接全API历史，21:07再pull核两README无变；最迟22:07再次pull。
@@ -14,15 +14,15 @@
 
 ## 发布、归档、当前分工
 
-R1–363、R365–560、R562–586已登记；R364仍开，R561/587/588/589/590进行中。
-完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r585.md)、[open](notes/2026-11-14-open-before-r585.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
+R1–363、R365–560、R562–587已登记；R364仍开，R561/588/589/590/591进行中。
+完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r587.md)、[open](notes/2026-11-14-open-before-r585.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
 R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b保持，不复跑。
 root统一元数据/ref，代理只建proof/script/data blobs，结论随成随推。
 
 - theta续R590原四unit/cut差及未附q的U/V真实边界；R585已付完整八条带纠正与双S2两支。
 - literature续R589两个真实惰性首forcing/全原多项式运输；R586全部k精确Gaussian系数及p²共振窗已付，非饱和非零证书。
 - deep续R588同Gaussian原函数非线性Kummer限制；原Dψ特定forcing/真全左行、同R d2及R561实际非零继续开。
-- root续R587惰性第一类微分的显式有理原函数及原c4/c1；R584全长塔已付，算术桥未付。
+- root续R591惰性原c4/c1及完整Cartier比较；R587最小pO原函数与原Gaussian准确非零p曲率已付，不预支指定系数。
 
 ## 完成标准及旧支线
 
@@ -42,13 +42,9 @@ R490–558旧五伴随/词格/四态/角型/外谱、三环带及全部未付补
 ## 原全条带与当前首行
 
 D=D14=D4+c+(2+3ω)d0，D4=(1,ω²,−2ω,0)，C=(ξ1−ξ3+x)/δ，F=D+C，E=F+13C，G=13H1+(3−2ω)F。D12=F−c与D14不同。µ0=PCρ0、ηC=PCη、µh=ηC+µ0/2；R1是u反射，R1µ0=µ0+ηC。
-R560–572全部整框架/whole核心、三态/两条带、五sigma消元与原测试比较保[完整前检](notes/2026-11-14-frontier-before-r585.md)及各正文。R567原局部残差Nn=β^(n+1)(χF+(κ)+F−(κ))/(bΩ6)，C0/p+λ²C1含真实log质量；d20ab976纠正保持，局部非零不排中央同时零。R569卷积单位/四unit G与qℓ尚非同一测试；条件总质量零不使测度零。R572完整C来源ΛB/ΛP、简单极点单位及g5提取只对指定(c,v)测试，所有混Y/W和q carry保留。
+R560–572全部整框架/whole核心、三态/两条带、五sigma消元与原测试比较保[完整前检](notes/2026-11-14-frontier-before-r587.md)及各正文。R567原局部残差Nn=β^(n+1)(χF+(κ)+F−(κ))/(bΩ6)，C0/p+λ²C1含真实log质量；d20ab976纠正保持，局部非零不排中央同时零。R569卷积单位/四unit G与qℓ尚非同一测试；条件总质量零不使测度零。R572完整C来源ΛB/ΛP、简单极点单位及g5提取只对指定(c,v)测试，所有混Y/W和q carry保留。
 
-R571整个cd深In,m=βnλ2m H(κ^min(n,m),κ^(m−n)+)/(bΩ6)，H=st²K1+s²t²O；K1=12(p−1)Ω²∫E*,A*unit P_D/A*ν4，完整cut/κ^-n不删。
-
-R576原Cc/Cd所有n,m及两整框架ββ、Cα=tLα0+stLα1+st7Lα7+s²tO保正文/前检；原常数log质量和24bΩ7、d侧a7不删。Norm2真实Δpair=−δ(ΘUΣV+ω²ΣUΘV)，四输入ΛB/ΛP及全部F/Y/W仍在同一qℓ中。
-
-R582：原CU/CV完整(D,R168)/(T8,U)与(D,R84)/(T12,V)付真二态；D/Z core βI，T/R为β交换，状态为min(n,m)mod2，整层m1必取新态1。所有伴随cut保留；全S2条件分解的Θ质量1、六矩−96bΩ6及Σ二矩2Ω²给真实F0∈p/G1整，t0边界不可删。全部总行3βnJ=N+U5+3(Cc+Cd+CU+CV−3Icd)，首层共同深为−9λ4K1；U5域U,V,U±V,U+ω²V全unit，无Lunit。原Rc转置、全部C0/L0/F0 log质量及正确二态全保；β^-nU5独立n不产生新零式。下一实际比较可联Rc像新增U+ωV深支与native udeep，不给新态算术零。
+R571/576/582的整个cd共同深、c/d单深及U/V深二态全部保前检/正文：Icd双参数首层K1；c/d的L0 log质量、第七矩24bΩ7及d侧a7；U/V的Θ质量1、六矩−96bΩ6与min(n,m)奇偶状态，m1必取新态1。各F/Y/W/ΛB/ΛP条件源和κ^-n完整保持。原总行3βnJ=N+U5+3(Cc+Cd+CU+CV−3Icd)，U5为U,V,U±V,U+ω²V全unit，无Lunit；首共同深−9λ4K1，β^-nU5独立n不赋新零式。
 
 
 ## 固定负矩与 Cartier
@@ -62,7 +58,7 @@ R583将真实全惰性改进为(0,3)：同一原因子的一次p共振被Gauss�
 ## 惰性完整 forcing
 
 p=6s−1>83，Γ=O[w,ε]/(w^s−pε,ε³,w^ell ε²)；原M=c*U0m13J保P134/charge40、十三自由行/两13carry、conductor10980、22纯角/13清极及全部D/q/整性门。R479–555所有十九角、低行/高尾、预算及α/β接口完整保[前一交接](notes/2026-11-14-frontier-before-r570.md)，均未关闭。
-R552/555、一般二重/t除法、S³/H真子核尾带、完整六尾剪切与低ell最近二支保[完整前检](notes/2026-11-14-frontier-before-r585.md)及对应notes。全部实际命中/同R d2保持；固定三块平均门>3MDlogD，旧17/36/68非中央Stokes不相消不代中央。
+R552/555、一般二重/t除法、S³/H真子核尾带、完整六尾剪切与低ell最近二支保[完整前检](notes/2026-11-14-frontier-before-r587.md)及对应notes。全部实际命中/同R d2保持；固定三块平均门>3MDlogD，旧17/36/68非中央Stokes不相消不代中央。
 
 
 R577/578低ell1/2、r=ν≤2真Euler临界整提升及原JA三jet保正文/前检。首forcing=(πA/p,π(aBξ+S A),aπell S(Bη0))；原n0/1/2列消低r边界，完整核为W_D^(r)加r2时≤4Qn、ell1再Qquad。全部首forcing iff特定G_P落同一两条短jet Dψ像；固定Rbd由carry α/β给出，所有解pp(v)=pp(α/(aB))、次值pp=−½pp(α²/(a²B))，都不代d2非零。同R/26carry/U0/全p³高尾及r1ν2外支全保。
@@ -73,3 +69,5 @@ R586令s=(p+1)/6,a=6p[z^(p+1)]log(σ/z)unit，原Aℓ=w exp((a/p)w^s)Gℓ；k−
 
 
 R585原A4={c,d,U,V unit}，native与五线全并使N+U5=3QA。全π4的q中性和F whole核给QA−βn JA=EF,n，EF,n为Funit内(qn−βn)(A4−A0)ℓ的八个first-failure条带，A0由F正交投影得，carry外−βn保留。完整J=JA+β^-n EF,n+β^-n(Cc+Cd+CU+CV−3Icd)；共同条件行只是抵消，不赋零。双S2将QA改为两个不交D/D−深支，精确六矩720Λ6−672bΛ0；全部Y/W cut和κ逆保正文。未附q的c/d深项完整简单极点级数已付；U/V的Θ质量边界仍须联全总行，不据局部非零收尾。
+
+R587惰性p6s−1的Z*=yΣtj x^(3j+1)是唯一type1 L(pO)且DZ*=1，t_top=c_p^-1；与R356原Z差c_p^-1(x²/y)^p。D^(p−1)Gκ=(x²/y)^p，原charge n连接曲率−n(Gκ+x²/y)^p，首项−n(3b/5)^p z5p单位；整Gaussian重标不改。短log unipotent可下降但须保全部Frobenius二项式/qp极成本；特征零首整商B保三项defect。此曲率非指定c4/c1、非原中央，继续原系数。

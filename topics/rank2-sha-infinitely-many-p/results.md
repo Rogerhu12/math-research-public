@@ -405,3 +405,5 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 - [R586：原Euler全部共振系数与指定p²窗口](results/R586-original-euler-resonant-coefficients-and-first-square-window.md)：完整两forcing给七原Euler坐标全部k的p^(L+e)L!准确主项，原首两g行单位使指定系数整条达到Gauss界；首p²共振族及最早两未知c4/c1完整保留。单列高阶非整不等原饱和jet非整，未以不同指标代指定中央。
 
 - [R585：原四单位算术行、完整F切集纠正与双S2两支](results/R585-original-four-unit-row-and-exact-fibre-cut-correction.md)：原native/五线余域合成四unit，完整F whole核与全π4中性精确给八条带纠正；双S2将同一qℓ变为不交D/D−支，保所有混合cut、逆权及真实六矩。未附q的c/d深项完整简单极点级数已付，原全算术非零仍待全部补偿。
+
+- [R587：惰性最小极点原函数与原Gaussian准确p曲率](results/R587-inert-minimal-log-primitive-and-exact-gaussian-p-curvature.md)：唯一type1的L(pO)第一类原函数与R356正则参数相差明确Frobenius项；原Gaussian连接全局曲率及z5p单位首项精确非零，短log下降与特征零首整商保全部修正。未以较高曲率首项替代两指定c4/c1或中央非零。
