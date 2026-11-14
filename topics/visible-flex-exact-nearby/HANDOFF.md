@@ -10,7 +10,7 @@
 本 checkout 的 `.git/objects` 在 `/tmp/visible-exact-0df9-git-objects` 并保 symlink。
 新临时输出用上述 /tmp 路径；所有已移字节核同。旧 `/workspace/scratch/ac0d699811ad` 仅只读取原检查点，不修改旧仓库或原 native。
 
-最后实际 pull --rebase 与两 README 差异检查：59ec7d47b7f26d8cf6e4f60feb76c381c53fc70e；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
+最后实际 pull --rebase 与两 README 差异检查：5870c8dd4bfbd12009df1328cc1a63812f183c1d；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
 已实际读 ee26c0a65a2e63c15f2ccfba6714181584416542 的根差异：新增 visible-flex-new-mechanism，课题数改按表；其它规则和本题目标未变。
 每次 push 前真实 pull/rebase 并读两个 README 的新增 diff，至少每小时 pull；每条结论独立推；非 FF 立即 rebase 重推到成功，不 force。
 PAT 仅瞬时命令行环境，不入文件或输出。root 管 Git/H/open/results/log，三代理只写各自新文件。
@@ -37,8 +37,8 @@ candidate SHA ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413�
 
 cap原run43580498603 prepare重建全部原数组SHA成功；768..1792四数学child真实return0，只在README发布wrapper失败。原0..768四片也全部return0，准确接点去重已推。
 恢复run **43583838015** 于10:19:52 UTC真实success：原prepared artifact14108082775与四原native复用，只算1792..1977的185格，再消费全1977。newton_source立即读完整残差/gain并转真帽Green内端图；不要再跑成功行或下载767MB准备数组到本地。
-body run **43583838026** prepare已逐SHA重建原两完整Hermite和全部shards，八互斥范围正在补7401新行；原320有效行保。原科学manifest c214f800…d784、117files/77sources不改。
-已推 **e870d526…** 的 `visible-exact-body-complete-mean.yml` 在该run成功后自动核40片/7721行、两条完整mean误差流、全6143跳及signed残差。尚未实际结束前不授数值。
+body run **43583838026** 八互斥范围真实全成，原320行与新增7401行合为7721。原manifest c214f800…d784、117files/77sources保持。
+完整mean收尾 **43586413510** 已真实return0，native a4f31dccc…e5870，40片/7721行/全6143跳都保。L2响应残差<.001284069680、伴随<.000182077136；signed区间跨0，非真Schur。新增mean-norm只求q_star到Z费用，完整响应逆仍欠。
 reviewed rules fdb83fd4…与driver7f8521cb…只改执行/复用规则，原科学manifest不动；未知README变化仍需root实际读diff。
 原regular子空间QR因ENOSPC真实停止在r约1.044；新方案从真9/10到腰，保193×96完整frame、mean、正ρ及ρ′/ρ，提案和严密validator分清。
 小phase consumer的原记录保实际来源；后续同源数字都转本公开Actions执行，不重复已成169 transport。

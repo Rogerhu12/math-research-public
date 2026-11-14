@@ -174,3 +174,5 @@ newton_source 先消费全帽并推进 body/mean/连续 regular Green；
 phase_inverse 关闭真实 R31 门再接全 ν-Schur、β/j 和 strong 项；
 tail_connector 关闭实际混合近簇与中间频率整个网络。
 子问题完成立即接下一缺口。阶段报告、进程等待或时长都不是收尾理由；只有 README 全部完成标准达到才结束。
+
+主体全7721行及两条准确mean误差流已真实完成（43583838026/43586413510，native a4f31dccc…e5870）。完整响应/伴随L2残差分别<.001284069680、.000182077136；signed dual积分跨0，不能据此称Schur非零。新增visible-exact-body-mean-norm.yml只消费原完整误差流，计算q_star到Z和1/200剩余预算，不重跑主体，不将残差当作解误差。

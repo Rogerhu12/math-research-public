@@ -1,0 +1,34 @@
+{
+  "kind": "complete_actual_body_mean_norm_and_phase_direction_pinned_inputs_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "python_version": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "consumer_ranges": [],
+  "files": {
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz": "87ed2f618bcaf77b0649abf561daea7225c9b7d667edc22afb91d86255da8f88",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_body_CI_worker.py": "931a4866b6fc37d4978e07f6bf996b96a4be6b33c064377a468b24a1f85e1ad6",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_body_mean_norms_CI_worker.py": "3bd15bb723ef95ee2e5c27e84848147515c8c0364acf6e30abe546604a4da44b",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cap128_CI_worker.py": "8116d02b3145c1c492cb136b14600c76dea9fddc7322ebc847cf379cc0602490",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_body_mean_norms.py": "b8b1a606ea80067587ea65b036dd952653ec9d9611e8660d3ad926f25a333425",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py": "602e696db855f1aca2765bef23fd7d9190c1fdd6d4f05528b758e0a515167323",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_native_lossless_parts.py": "730c0ba646cdb193a5524a6a8a02910575fa75f58be970f6a2ac23c1368b250c"
+  },
+  "direction_input": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz",
+  "original_complete_body_run": 43586413510,
+  "original_complete_body_native_sha256": "a4f31dccc4b54661b43fc06bac59b6afbb4fa2d6d19614f68f71e044be6e5870",
+  "original_body_rows_recomputed": 0,
+  "phase_application_parameter_offset": "0",
+  "continuous_BVP_inverse_claimed": false,
+  "true_parameter_Schur_claimed": false
+}
