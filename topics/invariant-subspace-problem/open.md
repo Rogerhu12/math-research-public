@@ -109,7 +109,7 @@ R295实际Turán/Catalan同源平方及最大原子分区已付全正权birth1/�
 
 [R299逐位内函数](results/R299-boolean-product-inner-kernel-and-complete-primitive-energy.md)现给同一物理Pick正核与primitive源保持Gauss分解，完整平方和保全部创建层/占据对角D_t及高次精确消去；硬端首尾确含J1u、A_Uu和三次桥。尚未把L1A_U识别为该正核的准确Schur块，不能由一般内函数收缩免费插入第一MP逆或推出κ。[实际三阶dual塔](results/R299-appendix-nonreal-coherent-norm-on-actual-three-step-dual-tower.md)另给七位K2相干范数的负整数判别式，排真实塔必实根捷径；仍不否定S1。
 
-[R300七位边界](results/R300-seven-site-hard-top-strict-boundary-region-with-three-simultaneous-weak-sites.md)已付固定旧4权/弱3内部权的全14维充分小ε严格界1525/1564。[任意旧2s临界池推广](results/R300-appendix-arbitrary-critical-pool-three-weak-site-recursion.md)现给完整三族费用极限diag(I_U⊗Kweak,K_old,s−1⊗Rw*Rw,K_old,s−2)，无常数放大；真倒数低源kerA⁴/kerA²、旧q=3/h6项及全部交叉由容斥/核旗支付。[有限a完整铅笔](notes/2026-11-14-finite-weak-bit-common-defect-pencil-and-coefficient-obstruction-789f-next.md)现精确等价硬端界，P0保旧首缺陷；P1逐系数正对每个固定κ均被实际四权族排除，须保t²与P0的联合补偿。边界不代内部界。
+[R300七位边界](results/R300-seven-site-hard-top-strict-boundary-region-with-three-simultaneous-weak-sites.md)已付固定旧4权/弱3内部权的全14维充分小ε严格界1525/1564。[任意旧2s临界池推广](results/R300-appendix-arbitrary-critical-pool-three-weak-site-recursion.md)现给完整三族费用极限diag(I_U⊗Kweak,K_old,s−1⊗Rw*Rw,K_old,s−2)，无常数放大；真倒数低源kerA⁴/kerA²、旧q=3/h6项及全部交叉由容斥/核旗支付。[有限a完整铅笔](notes/2026-11-14-finite-weak-bit-common-defect-pencil-and-coefficient-obstruction-789f-next.md)现精确等价硬端界，P0保旧首缺陷；P1逐系数正对每个固定κ均被实际四权族排除，[指定首Schur行](notes/2026-11-14-critical-even-pool-first-schur-sos-row-789f-next.md)给半线平方恒等式；相位界/完整最高缺陷联合块未付，不作循环归纳。
 
 [临界完整共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)已付完整层F=dd*、Q=e*e交换，补集连接T自伴可逆且T²=F⁻¹Q，真实V压缩给G/L/4G+R共同矩和Tv=σp⁻¹D²v。压缩后矩不假称交换；共同谱本身不足相位界，仍须真实V源旗、较低同符号birth全部Schur与完整半线SOS。
 
