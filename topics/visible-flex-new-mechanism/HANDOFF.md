@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`7eb383af1ca2bb04c7eaef9c65578dbc124269d8`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`9e58f5accb3833fcd3eb5c31c57845c8c15f384a`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有19:20:16 UTC实际pull至`7943e238737119df3b4a564b854335f4b226debc`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于20:19 UTC。
 
@@ -49,7 +49,7 @@ R82 pure阳性actual43632772378/source31a276f6：101端点行fresh核，18有理
 
 完整colored首actual43632772378：152模板逐响应141列后300s资源退出，原partial保留。修订d7513321先消完整T与基准可达项；**v2 actual43633746055/source26c3f2c0 complete122.312s**：152→36原模板，116依赖fresh；基准495→42/238→0/198→0，a及log(a)分量两个mode原式均0。有理常数分量target1202、联合余1374（SHA57a70c43…），未产完整身份，**非实际非成员定理**。完整报告157380B SHA `7c2cb9fece518fb6fbb15b6b4e034565dfcc5a10cf0e103a7011cd56dc4ac960`。下一针对原始函数的准确评价/Volterra泛函或具体遗漏身份，不盲添同类控制/扩正规化。
 
-R83给真实(w,u,v)传递、M0倒行T−而V+；真词Z恒M=T0，在含Z0的R45实际基准上ΔP0=4(E(t)−E(0)+λtK)，切向4λK，保已付P1。**未知基准和偶成本仍欠，不能倒行减第四成本。** R84已证成本仅有限加法半群（倒行V+），frame环L∫(1+k²)≥4π²，统一有界k不能缩空词；未证V正性或排正长度V0。repo_sources续原式幂尾，literature续剩余完整相位。全P0/逐s ruling、高阶/收敛及宏观嵌入厚度都欠。
+R83给真实(w,u,v)传递、M0倒行T−而V+；真词Z恒M=T0，在含Z0的R45实际基准上ΔP0=4(E(t)−E(0)+λtK)，切向4λK，保已付P1。**未知基准和偶成本仍欠，不能倒行减第四成本。** R84已证成本仅有限加法半群（倒行V+），frame环L∫(1+k²)≥4π²，统一有界k不能缩空词；未证V正性或排正长度V0。R85已证pure幂尾4m−9项是准确总导数，M0+常端芽自动消去；须从4m−8起保全history研究，不能用首项立正性。repo_sources续后阶原式，literature续剩余完整相位。全P0/逐s ruling、高阶/收敛及宏观嵌入厚度都欠。
 
 ## 6. 持续推进
 

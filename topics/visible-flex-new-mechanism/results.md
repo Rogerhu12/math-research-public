@@ -171,3 +171,5 @@
 - [R83：真实第四传递与零低阶路径的第四切向](results/R83-true-fourth-transfer-and-zero-lower-history-variations.md) — 原向量恢复给完整(w,u,v)传递，M0真实倒行T取负而V同号；有限真词Z恒M=T0，第四为未知偶成本加λtK，包含Z0的R45实际基准上ΔP0切向4λK且保全部P1。基准和偶部未付，不能用倒行把函数差当实际负成本。
 
 - [R84：第四成本半群与真实frame长度必要界](results/R84-fourth-cost-semigroup-and-frame-length-bound.md) — M=T0真环的V只成有限加法半群，倒行V同号不授负成本或任意正实缩放；周期Wirtinger给L∫(1+k²)ds≥4π²，有界k使正长度恒等frame环不能缩成空词。未证V正性，未排正长度非平凡V0；保R83未知基线。
+
+- [R85：真实pure第四幂尾最低项的准确总导数](results/R85-pure-fourth-leading-tail-is-an-exact-derivative.md) — 保R56全部变系数与真实第二/第三histories，以Wtilde=W+λP给最低4m−9项的完整原函数αb³+βbu；常端芽和零二阶矩阵已使该period系数为0，无须另假设T0。不能以该自动消项证明第四成本正性；4m−8及后续完整系数仍欠。
