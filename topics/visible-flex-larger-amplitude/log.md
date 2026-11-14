@@ -448,3 +448,7 @@ run43592195185真LU info0/共享指针，13.274s/RSS5717864KiB；残差/RHS降�
 ### 2026-11-14 12:14 UTC — probe the saved original Newton direction and material-coordinate operators
 
 request12仅banddirection，入口0149e7f1…消费真band run的完整step/rhs/699warm/真实anchor J与原QR endspace；全部输入和数学源硬SHA。原残差沿α=2^-k至40、ODE复方向与BC原实Jac分开，记录P/Qs/Qr/Qc/Qp/full rightBC/完整采样θ谱；小步仅诊断，不变原门、不建新全Jac/因子/尾。已补publisher lane并核workflow可选集被覆盖，跳过无关native源/Node恢复；未预报数值结果。
+
+### 2026-11-14 12:18 UTC — R252 complete physical-angle DN test and exact projection defects
+
+完整R252直接登记，全部原物理/core/scalar导数与增广配平、真实/仿射尾区别、有限差恒等式、正确均值及连续一致性证明均已写全。有限新测试不是原残差的等价预条件化，未改求解源；实际banddirection run43593855655/source8a764c65已success，artifact14113836291正在取回，接着按真方向/投影证据决定修改。

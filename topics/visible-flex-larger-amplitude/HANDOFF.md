@@ -25,11 +25,11 @@ request08/run43588155190 prepare112真success：699节点全部node/mid/两RMS�
 同run tailzero112真SUCCESS/artifact14111343237：1351.741789s、resid/fullD0、全338×112 J/577×224states/raw/audit；strict源码/config/capacity同prepare。response SHA6b4ff3e5…，J-second相对1.524e−12、ready差.035157884、chart condition3.856e20均保留，不冒稳定。完整七件身份见actual-T112-zero-anchor-and-J-audit note。
 request10/run43590496434/sourceeef66c97真failure，artifact14112675738已取回22件、bot归档小包。实际QR699/453首线性残差.006494337572/RHS=.913332499，最坏interval697/z110，方向max9658；17回溯全非finite、无接受步，随后966点invalid。core/p/左BC仍近roundoff，rightBC1.996e−7；小方块几十方向在浮点噪声，不能称仅3控制核。零锚strict复用一次、整个anchor/J同原实际，新H worker请求0。详见actual-M112-first-QR-failure-and-banded-next及zero-cache-boundary两note。
 request11/run43592195185/source4f0af15c真failure：完整带LU info0、共享指针、13.274s、RSS5717864KiB；原残差/RHS降至3.27382357e−4但方向max5832.77，normwise backward2.13e−18不代相对残差。一次校正变差未采用。17trial全非finite，α=2^-16仍52坏node/122mid/112右BC；无接受步，966插值再invalid。真零锚复用1、新H request0。26件artifact14113206288已取回，publisher漏lane已修，25件限额内补归档。详见actual-complete-band-LU-result-and-direction-next note。
-request12仅banddirection，入口actual_direction_probe SHA0149e7f1…已冻并接workflow：真step/rhs/699warm/anchor/旧Uend逐SHA绑定，原ODE完整方向complex、BC只原实Jac；α至2^-40仅诊断，完整P/Qs/Qr/Qc/Qp/rightBC/θ谱都报，不重建全Jac/尾或改原门。推后取runID。带LU0780dcc4…/wrapper390387db…冻结；尚无新接受场，原闭包+R249复用complete4链已接。
+request12/run43593855655/source8a764c65，banddirection已真SUCCESS，artifact14113836291正在取回。入口SHA0149e7f1…，真step/rhs/699warm/anchor/旧Uend逐SHA绑定，原ODE方向complex/BC实Jac；α至2^-40仅诊断，完整P/Qs/Qr/Qc/Qp/rightBC/θ谱，不重建全Jac/尾、不改原门。尚无新接受场；闭包+R249复用complete4链已接。
 
 ## 尾、接缝、同g身份
 
-T96 anchor已完成：run43582043166/artifact14109122474，805.484s、全27840 J；其J/ready差和条件性见原note，不重跑。seeded_zero_tail_client七件strict bundle只复用同M/N/source/config/capacity/ready/rawState的exact零H且audit=False首响应，worker仍初始化；任何新H/audit=True真求。112已绑定自己的实际目录，不能用96替代。
+T96真锚已完成，不重跑/不替T112。seeded_zero_tail_client七件strict bundle只复用同M/N/source/config/capacity/ready/rawState的exact零H且audit=False首响应，worker仍初始化；新H/audit=True真求。
 R239连续均值唯一/单SE2六jet是条件定理，有限DFT不自动满足。physical已含z0，不再加旧A mean；φ有限频可含无限θ谱。材料包必须读取真实完整scalar schema及全p*/supports；新场要自己的实际最终H尾。large_core_saved_prefix/closed_assembly已支持完整mean、单SE2、全角cut0/1/2jet修补；v3 dispatch由geometry接续。core witness也随SE2变，G≈.96不能直接冒新像距离。
 R240：材料g=ds²+a(s)²dθ²与core c无关。定型后冻结完整a(s;p*)/尾帽g/区间/t范围，释放全core，K0/k0/T=M、增广4M+2；先按原design重建scalar再升M，新H真重算。Ntail>8M，帽中心固定图册。same_metric_profile/prepare/response/full_dn及saved_prefix/readout/material_tail_packet/closed_assembly/after_accept均已接v4，永久嵌套首v3完整p*与canonical SHA，K=k=0、450/514维，真parent/final-audit/config逐字绑定；尚无v4数值。CLI见same-metric-refinement-executable-interface及same-metric-physical-consumers两note。
 
@@ -40,6 +40,7 @@ R248已证有限C²相位强连续（无需C³）、准确反射三parity、全t
 R249已证独立共享节点入口规范形：只将首节点完整z值/XY一导/z二导置零，变化限首单元，精确反射C²；完整cut九jet/mean/H/SE2不变。给有理Bernstein/材料角九jet差及operator/曲率代价；实际修补预算待成功场Actions，不改accepted。inlet_parity_normal_form支持v3/v4及复用complete-4尾读出；新plan须新heights，不能混旧网格。
 R250证明完整正密度对称换角的连续P及偶数N>4M精确DFT非mean方块det>0；不给条件数或全DN可逆，不能把数值小奇异值直接称精确投影丢维。
 R251直接operator证书：原φ中两Loewner矩阵四正性；同g的a²上下包络、Bernstein/全角Taylor及次数账完整。K=M行列式带宽8M、DFT N>16M。完整scalar见piecewise-envelopes note：prefix415五次+bump六次；turn48/bridge64原有限Gauss和，bridge实际7.5而port旧tag8，均不换g；无新数值通过。
+R252已证完整物理φ测试备选：Rφ=v+−γSD(ehPz+)及全部Jac/均值；Rφ−SRθ=(I−SP)v+、Rθ−PRφ=γ(PS−I)D，有限方程不等价。正确φ均值含μᵀD，连续极限条件明确；未改求解源，待真实probe决定。
 full_state_continuous_cover已接v3/v4完整位置/法向、R249同一definition和记录SE2，R241门原样。full_state_held_hausdorff补新packet/SHA链，原全活动块+完整帽盘距离、D/.2门不变，reach可独立。K/metric/误差仍条件，两接口未新数值。显示静态预算：同seed699–1200点可N32/九相位、最大4656978B；2305尾节点仅显示锚点入mesh，不删物理数据，见display-byte-budget note。
 R238/R242为含反射非全等及精确warped角解析无平片条件；R243真9246片只付共享C²规范形，不自动付全seam/δE；R246旧.984三分量<1e−6、直接operator仅<2e−6。新场均须自己的输入。
 旧Aκ8.3455143峰在prefix、tail≈8非新尾必要界；Gauss样点仅约3.965尺度。W/D/K窗口、一次尾帽高度和G不等于整面witness，见tail-curvature-and-diameter-design-window note。

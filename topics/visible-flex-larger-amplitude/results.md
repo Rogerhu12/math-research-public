@@ -467,3 +467,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R250. 完整单调材料换角的非均值方块投影可逆](results/R250-material-angle-square-projection-invertibility.md)：以行列式积分展开及有限Cauchy–Binet自含证明连续P和偶数N>4M精确DFT的det P>0；完整core正密度、对称逆图与常数列正交均明确。不给可用条件数、全DN可逆或材料谱尾消失结论。
 
 - [R251. 直接相对算子度量的四正性证书](results/R251-direct-relative-operator-metric-certificate.md)：完整有限场在原φ坐标下用两个Loewner矩阵的首主元与行列式直接证明operator<η，不损三分量到算子常数；同一a²的上下包络付非多项式段，完整Bernstein/全角Taylor与精确次数带宽账闭合。K=M时行列式带宽8M，DFT须N>16M；没有新的数值通过声明。
+
+- [R252. 完整物理角测试的 DN 边界与有限投影缺项](results/R252-physical-angle-DN-Galerkin-boundary.md)：保留同一真实完整尾和高度输入，给所有物理/core/scalar/增广端点 Jacobian、正确均值及有限求积缺项；两条有限矩阵恒等式说明新旧测试不等价，并完整证明在统一正密度、同源真实尾收敛及均值条件下的连续一致性。尚未实施，不预判条件数或原 BC 门通过。
