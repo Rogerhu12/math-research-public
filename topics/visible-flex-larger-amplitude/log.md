@@ -229,3 +229,10 @@ run43616658549/source65fdfd019d/job132513122964 success，actual35 note16351B/06
 ### 2026-11-14 原RK12保序短块组件
 
 新薄源geometry_20261114_native_same_schedule_windows.mjs（11393B/2973c144…）及接口8594B/3a78c362…全文读后保存。原717ac5…flow仅loop范围和只读schedule观察两处可逆变换；withJac/noJ保各自原x/h/profile、全226中间mean和原出口port。43/58映射578stage/579node，新内部σ取parent明确，旧σ不变；尚未运行短J/试步/求解，不宣称改善。36实际run43617334081完成，26MB包已核取，具体完整精确残差结论正在读回。
+
+
+### 2026-11-14 actual36失败保全与request37十一query续算
+
+36/run43617334081/source6d19fb8c/job132515188990全流程成功但原方向失败，actual36 note全文读并补独立byte范围。全形成/恢复无损且行列max在[1,2)，初完整exact原σ3.72790553526839855e31（43/Pi109），一次精确残差修正后4.51078306413198296e31（43/Pi110）更坏，停保iteration0；全32.480485116s、0新J/native/trial。35数组/两ledger各578块129248行/三checkpoint/四operand见证/16RHS例与28完整原bytes核；未导出的LU仅producer SHA。后继38做原43/58保12步schedule的4短J，不重复整J或盲加修正。
+
+37/elevenquery从实际35 warm24ca673e…/status214d4eed…继续，保8RMS+原mid473477，仅加实际坏mid475；22528行/同4059局部列/12节点、原88J复用，无新wholeJ。三源55358acb…/6aed0dda…/85d0bb81…及接口全文读，operator完整diff数学kernel不变；全部原λ270/200/Hildreth200/17trial/全域/observer/newFD保持，当前24源+完整父producer。published父两件从Git原字节核，三lane名单/AST/YAML/内嵌Python核。
