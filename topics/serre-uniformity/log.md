@@ -402,3 +402,8 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - R690用允许剩余特征2的Yoshida完整水平局部模型，明确3条普通分量和每个超奇异椭圆尾。
 - 实际Std型的C3范数与尾上三挠平移迫商恒定；实际H6循环普通分量，配合总次数零得全部分量度数零。
 - 保留同一Picard修正、截面及分歧归一，严格得到λ2,h≡0，Ω=χ3(3)T3；3处真实度数和p处Λ继续求。
+
+## 2026-11-14 17:56 Asia/Taipei · serre-public-resume-20261114
+- 两次手动workflow_dispatch被GitHub以PAT权限403拒绝；使用已授权仓库写入与正常push触发接续。
+- 共享nonelliptic-resume workflow加入显式activation矩阵、最多2并发及逐result互斥；先R659/R666。
+- 仍从原artifact恢复304位链及已完阶段，只续R379真实清极输入之后的计算；没有放宽数学断言。

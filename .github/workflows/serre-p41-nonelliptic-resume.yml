@@ -1,6 +1,10 @@
 name: Serre p41 resume preserved nonelliptic stages
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/public-p41-nonelliptic-resume-activation.json
   workflow_dispatch:
     inputs:
       result:
@@ -12,16 +16,47 @@ permissions:
   contents: write
   actions: read
 
-concurrency:
-  group: serre-p41-nonelliptic-${{ inputs.result }}
-  cancel-in-progress: false
-
 jobs:
-  resume:
+  plan:
     runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.matrix.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/serre-uniformity/notes
+      - name: Select explicitly requested preserved tails
+        id: matrix
+        env:
+          DISPATCH_RESULT: ${{ inputs.result }}
+        run: |
+          python - <<'PYPLAN'
+          import json, os
+          from pathlib import Path
+          base = Path('topics/serre-uniformity/notes')
+          known = {x['result'] for x in json.loads((base / 'public-p41-nonelliptic-resume-request.json').read_text())['jobs']}
+          requested = [os.environ['DISPATCH_RESULT']] if os.environ['DISPATCH_RESULT'] else json.loads((base / 'public-p41-nonelliptic-resume-activation.json').read_text())['results']
+          assert requested and len(requested) == len(set(requested)) and set(requested) <= known
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write('matrix=' + json.dumps({'result': requested}, separators=(',', ':')) + '\n')
+          PYPLAN
+  resume:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    concurrency:
+      group: serre-p41-nonelliptic-${{ matrix.result }}
+      cancel-in-progress: false
     timeout-minutes: 350
     env:
-      RESUME_RESULT: ${{ inputs.result }}
+      RESUME_RESULT: ${{ matrix.result }}
       PYTHONDONTWRITEBYTECODE: '1'
       PYTHONUNBUFFERED: '1'
       OPENBLAS_NUM_THREADS: '1'
@@ -51,8 +86,8 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: serre-p41-nonelliptic-${{ inputs.result }}-${{ github.run_id }}-${{ github.run_attempt }}
-          path: ${{ runner.temp }}/serre-p41-nonelliptic/${{ inputs.result }}/output
+          name: serre-p41-nonelliptic-${{ matrix.result }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-p41-nonelliptic/${{ matrix.result }}/output
           retention-days: 30
           if-no-files-found: warn
       - name: Publish the actual completed tail
@@ -65,8 +100,8 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: serre-p41-nonelliptic-publication-${{ inputs.result }}-${{ github.run_id }}-${{ github.run_attempt }}
-          path: ${{ runner.temp }}/serre-p41-nonelliptic/${{ inputs.result }}/output/publication-receipt.json
+          name: serre-p41-nonelliptic-publication-${{ matrix.result }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-p41-nonelliptic/${{ matrix.result }}/output/publication-receipt.json
           retention-days: 30
           if-no-files-found: warn
       - name: Require actual completion
