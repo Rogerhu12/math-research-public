@@ -4,8 +4,8 @@
 
 证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，未达到 README 完成标准。** 固定p、条件结论、数值验证都不算完成。会话 serre-public-resume-20261114；日志 Asia/Taipei。
 
-已读规则提交：307582e4c113e89c23ca90c2d87acef33f20820f
-最近实际 pull：2026-11-14 17:24:41 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
+已读规则提交：6a92ad5a9dbdda78133042ec3eed793ee82fd178
+最近实际 pull：2026-11-14 17:28:55 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
 
 仅在 Rogerhu12/math-research-public 工作，长计算用本仓库 Actions；旧“停用公开runner/转本地”作废。每条结论终端commit/push main已授权；推前pull，非快进立即pull --rebase循环，不force。令牌仅CLI临时环境。根代理独占tracked/git；辅助在仓库外agent-global/、agent-cartier/、agent-o6/。单Markdown<100KB，HANDOFF<10KB，open/README<30KB，数据>1MBgzip，单文件<5MB。日志只追加本题log，≤5内容行；改共享文件须在log说明。
 
@@ -17,6 +17,7 @@
 - **R682已证**：保留R616实际非消失前提，AST共轭交下降给每个CM归一Abel平方差共同首阶m、非零首系数及m≤2(g(X)−dimA)+1；给任意m外积与严格全尾判据。真实Λ、Ω、赋值和普遍前提仍缺。
 - **R620/R621已整盘排除（49/105）**：.github/workflows/serre-p41-prefix-recovery.yml 已推，公开Actions run 43579710818，从已保存189/182位续原304位链。源码 p41_public_actions_recovery.py / p41_resume_ramified_local47.py，请求 notes/public-p41-recovery-request.json。完整结果在computations/，各自同分量F2/F3无共同根。R620准备已匹配290份原文件SHA。
 - **R685已证算法**：modp²普通导数保留最终精确除p的一位，O(p²)计算Cp/C_(p−3)。serre-cartier-exact-window.yml配置41≤p≤2000、p≡2,5mod9的4片、最多2并发；结果在computations/R685-window-*。有限搜索不是全p非消失。
+- **R684已证**：全部44纯p方向普通Norm下降A/(h−1)A≅A_fixed；42 mixed类群=k。各非scalar方向单位Norm满射iff m=43；scalar转移注入iff m=nT=43⇒C=0⇒L=31，未判实际端点。
 - 接着：cartier推进实际Cp·C_(p−3)结构/例外及精确有限窗口；global求真实高度jet/有限目标；O6求原普通单位Norm/首矩C/J。新结果立即登记，主目标未闭合继续。
 
 ## O5：固定 p41 的真实高度与全部129盘
@@ -47,7 +48,7 @@ R593固定η、同一cclear·ctriv及新增q局部项零；even有限Ω仅2/3且
 
 R561原scalar-p²全部Robert产物和普通类C，L=31−22iC。R613同祖先C_r=C+34r及42个普通主化方向；R619辅助Ct=9、Cl(LF_t)_χ=k、T-Norm同构/扩张零，Ct不能代C。R633完整普通单位presentation、kerNΓ自由秩一及两个Norm像。
 
-R657 A_B=0、A_LB=RΓ/π^m，1≤m≤43；m≥2时实际s=1+iπ modπ²。m=43 iff原y是普通单位Norm_S；全部域Norm始终成立，不能替代普通单位Norm。实际m、C/J/b/λ/n/L均未知；R599/R684沿同一原范数/首矩继续。不把pure-p的24、一次10或辅助Ct=9代原L。
+R657 A_B=0、A_LB=RΓ/π^m，1≤m≤43；m≥2时实际s=1+iπ modπ²。m=43 iff原y是普通单位Norm_S；全部域Norm始终成立，不能替代普通单位Norm。实际m、C/J/b/λ/n/L均未知；R684已给全部中间类群/转移和单位Norm的精确分支，R599/R686沿原范数/首矩继续。不把pure-p的24、一次10或辅助Ct=9代原L。
 
 ## O2/O3 与一般目标
 

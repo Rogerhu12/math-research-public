@@ -584,3 +584,5 @@
 - **R685（已证明算法）**：[两位精度的完整Kronecker系数算法](results/R685-two-digit-integral-Kronecker-algorithm.md)。在modp²中用普通导数、阶乘单位部分和完整sigma计算原Cp/C_(p−3)，只在完整角色迹后精确除p；复杂度O(p²)。p≤2000实际剩余类的公开Actions有限搜索已配置，尚不宣称全p非消失。
 - **R620（已证明）**：[SS_j0_09原前缀恢复及同分量F2/F3整盘排除](results/R620-SS_j0_09-public-prefix-recovery-and-complete-F2-F3-exclusion.md)。从189位续原304位链，完整Norm/高度/全尾；F2根[6, 7]与四同标签F3均不相交。非CM SS已排48/105。
 - **R621（已证明）**：[SS_j0_11原前缀恢复及同分量F2/F3整盘排除](results/R621-SS_j0_11-public-prefix-recovery-and-complete-F2-F3-exclusion.md)。从182位续原304位链，完整Norm/高度/全尾；F2根[1, 35]与四同标签F3均不相交。非CM SS已排49/105。
+
+- **R684（已证明）**：[全部纯p方向的普通类群下降与转移](results/R684-ordinary-intermediate-class-groups-and-all-p-direction-transfers.md)。保留普通单位、主除子及主化核，证明每个H的Norm给A/(h−1)A≅A_fixed；42个mixed方向类群均为k，完整转移和单位Norm商依m精确分类。scalar扩张注入iff m=nT=43，此时原C=0、L=31；实际m/C/J/b/nT仍未求。
