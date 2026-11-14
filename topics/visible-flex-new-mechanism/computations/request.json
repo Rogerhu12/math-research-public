@@ -1,32 +1,65 @@
 {
-  "request": "short-entry-complete-artificial-check-after-rational-tau-parse-fix",
-  "created_at": "2026-11-14 18:28:22 UTC",
+  "request": "short-entry-paired-and-bounded-fixed-metric-audit-with-at-most-one-height-step-each",
+  "created_at": "2026-11-14 18:31:48 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "short_entry_development"
+    "short_entry_audit"
   ],
+  "reviewed_development_pass": {
+    "run_id": 43626786862,
+    "source_commit": "edd62d0b9ca9b039bf34b54392922c26092ca51f",
+    "report_sha256": "2ec4a9c1ef0abefd2500ed450659d4ca4d6de406662c2ddee406543e78d74620",
+    "root_and_independent_source_reviewed": true
+  },
   "new_source_sha256": {
     "frame_entry_short_bounded_audit.py": "c6f943addd1435ad4c5e1660ada72c1a43c1bca494574d0711a58e5018e13ff9",
     "frame_height_feasible_initializer.py": "fa379eb61996dfd0646e8ce99f5de88f51c105f13d1e5bea8cba0906525ed6a2",
     "frame_entry_bounded_height.py": "deac1dbb3410fc426bd1cbb84c126062a5ff61e2aa19c6fcdf1bbd9d0727b612"
   },
-  "artificial_inputs_only": true,
-  "real_candidate_or_profile_evaluated": false,
-  "no_forged_Actions_environment": true,
-  "actual_lane_requires_reviewed_development_pass": true,
-  "complete_artificial_main_includes": [
-    "two_new_models",
-    "single_height_proposal_and_complete_reconstruction",
-    "empty_height_interval",
-    "same_state_Pi_Nb_GL_refinement",
-    "strict_identity_rejection",
-    "scientific_checkpoint_summary_and_full_report_byte_binding"
+  "selected_input_sha256": "c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46",
+  "anchor_input_sha256": "6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3",
+  "prior_entry_audit_sha256": "f12f9d8fcf90f3548b3e1e12d717f7c87932f901317ec43ca3040f7785129cdf",
+  "old_selected_physical_state_sha256": "924e7de417ec8fbf9419942e5cf45a7eff58336972b7cac4224edaee4c4229ee",
+  "fixed_metric_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
+  "cases": [
+    "paired_short",
+    "bounded_short"
   ],
-  "task_complete": false,
-  "prior_artificial_run": {
-    "run_id": 43626554814,
-    "status": "failed before first case completed",
-    "reason": "mirror diagnostic float('61/1000'); fixed by float(Fraction(tau))",
-    "research_candidate_evaluated": false
-  }
+  "entry_length_exact": "81/1000",
+  "same_selected_162_raw_coefficients_before_each_case": true,
+  "same_complete_metric_core_original_c0_and_cap": true,
+  "explicitly_new_physical_fields": true,
+  "new_field_or_parameter_changes_are_not_refinement": true,
+  "entry_mean_nodes": 1024,
+  "base_uniform_radial_nodes": 121,
+  "extra_exact_structure_nodes": true,
+  "collar_subdivisions": 24,
+  "angular_nodes": [
+    384,
+    768
+  ],
+  "primitive_uniform_panels": 120,
+  "primitive_GL_order": 8,
+  "bounded_only_isolated_refinements": {
+    "height_mean_nodes": 768,
+    "primitive_GL_order": 12
+  },
+  "height_local_column": 4,
+  "height_box": [
+    -1,
+    1
+  ],
+  "target_reach_exact": "61/1000",
+  "additional_margin_above_R66_cap_height_threshold_exact": "1/1000",
+  "sampled_ball_radius": "101/100",
+  "minimum_signed_height": "0",
+  "strip_objective_unchanged": "19/50",
+  "finite_one_column_candidate_selections_max": 2,
+  "nonzero_parameter_steps_max": 2,
+  "iterative_nonlinear_solve_count": 0,
+  "complete_geometry_rebuilt_after_each_selected_coefficient": true,
+  "complete_report_and_hash_bound_scientific_checkpoint_summary": true,
+  "no_repetition_of_long_entry_or_old_250_step_solve": true,
+  "sampled_diagnostics_are_not_continuous_certificates": true,
+  "task_complete": false
 }
