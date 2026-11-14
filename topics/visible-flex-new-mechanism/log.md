@@ -339,3 +339,7 @@ R42至R46已各自commit/push，每次pull核README无差。共享workflow/publi
 ## 2026-11-14 15:35 UTC — R49 四阶最高项与窄packet阻断
 
 常k/h/omega段的四阶ruling为s二次多项式，最高系数由完整R的三条能量式给出，任意同collar二/三阶gauge只改低次。k0/h1/omega0上得到准确局部四次泛函T；不交支撑使T按幅度四次相加。共同缩窄到非零c时主项严格为负的lambda^-9，故足够窄的R46八packet圆不能延至四阶。未排宽/重叠profile、别的几何或其他族。 root核R37固定k0段在八参数IFT中保持不动，source手核R0两导数/极化/总导数及最高项，不以符号软件代替范围证明。共享workflow只新增fourth_order_exact短lane，固定SymPy1.14.0复核准确代数；无新几何评价/优化。前两条log的分钟标签按真实提交时刻校正，不改数学与回执。
+
+## 2026-11-14 15:40 UTC — R49 实际代数全核与同步保活
+
+run43611065115/sourcebc0768a3的70源/1输出字节和SHA全部核同；五符号恒等式、t8和窄化lambda^-9首项准确通过，754字节证书同开发原件，完整actual-audit已存。本项不重跑。私有仓15:38:45实际pull至f390c7f7a7d33f01a1550cd53b0a95181d05070e，两README无差，QUEUE唯一课题行仍本会话进行中。共享空间不足时仅迁本会话两objects至另一tmpfs：561/176项、106036955/132564336文件字节全部逐SHA核同，HEAD保持、原路径symlink；稀疏index92KB/787B，未删其他会话数据。

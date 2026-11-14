@@ -6,13 +6,13 @@
 
 闭连通 C2 嵌入族 Ft、时间 C2 连续、同一固定 g；固定材料开集 H 且 diamH≥.2D；不对齐的真实像集 Hausdorff 位移≥.3D；全域全时 reach≥.03D；最大相对 metric≤1e−6，且同 g/物理参数/时间加密改善；完整小网格、复现及严格存在性差距。D 是初始完整曲面直径。δE 可为0但须如实报。达标后继续 .5D 或更强存在性。
 
-- 根及本题 README 已完整读。公开仓库最后已读规则提交：`c47fb1ed601377200cd574dc7f131341c6f6e24a`；每次实际CLI pull均核根/本题README新差异。
+- 根及本题 README 已完整读。公开仓库最后已读规则提交：`e21e41e9f6785205d995656fec30a1f61cb69e1d`；每次实际CLI pull均核根/本题README新差异。
 - 每次 pull 后只读这两 README 新差异并立即遵循，至少每小时 pull。每结论提交推送；NFF 立即 pull --rebase 并循环推送，不强推。
-- 作者指定 QUEUE 已置进行中。私有仓库15:00:47 UTC实际pull至15e36869550aac2d89306b6312bf29be599cc03c，根README差异为空；队列唯一课题行仍为本会话进行中。私有研究内容不发布。
+- 作者指定 QUEUE 已置进行中。私有仓库15:38:45 UTC实际pull至f390c7f7a7d33f01a1550cd53b0a95181d05070e，根README差异为空；队列唯一课题行仍为本会话进行中。私有研究内容不发布。
 - 研究计算只用本公开仓库自己的 Actions。令牌仅瞬时命令行认证，不入文件。根 LOG 不写；共享 workflow 理由记本题 log。HANDOFF<10KB，其他 MD<100KB，数据>1MB压缩、单件<5MB。
 - 早期自动审批拒绝私有研究摘要公开，已从未发布提交移除；后续安全推送成功，没有未解决的授权请求。
 
-CLI同步已恢复。旧R18 recovery分支/recovery-20261114保留。14:12两Git对象迁/tmp；14:43再次满盘，pull返回0但未rebase，现本会话两完整checkout也逐项SHA核同迁/tmp并原路径symlink、HEAD保留。未删其他数据；helper新增真实祖先关系检查，R39重推成功。
+CLI同步已恢复。旧R18 recovery分支/recovery-20261114保留。14:12两Git对象迁/tmp；14:43再次满盘，pull返回0但未rebase，现本会话两完整checkout也逐项SHA核同迁/tmp并原路径symlink、HEAD保留。未删其他数据；helper新增真实祖先关系检查，R39重推成功。15:37再次仅将本会话两objects逐文件SHA核同迁/dev/shm，原路径symlink与HEAD保持；sparse index降至92KB/787B。
 
 ## 来源与已证内容
 
@@ -54,4 +54,4 @@ R37有限N实际43607428213（源6642f37d）：68源/2输出全核，6nfev得预
 
 third_order_exact43609471754已核69源/1输出全部SHA；R46三有理恒等式及七阶差分准确通过，984字节证书与开发原件相同，无几何ODE，不重复。新六帽port已人工/独立核，R48已证原反射lift固定角五跳阻准确R0；改无限Gaussian热时间(delta/h)^6/128保全二jet，有限GH仅评价，先审独立runner：h=1/10、原enriched234固定c0入基场身份，先公开初cost≤1工程预算门再250次；不得用坏弯尾态暖起。
 
-当前request为fourth_order_exact，仅核R49五恒等式、t8及窄化lambda^-9首项；Gaussian六帽独立runner开发中，有限GH与Π角精化分开。
+fourth_order_exact43611065115已核70源/1输出全SHA，754字节证书与开发原件同，五恒等式/t8/窄化lambda^-9准确通过；不重复。Gaussian六帽独立runner开发中，有限GH与Π角精化分开。
