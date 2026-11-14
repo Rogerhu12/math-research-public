@@ -485,3 +485,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [R615：原Weierstrass–zeta有限Cartier与p倍指标同余](results/R615-original-weierstrass-zeta-cartier-and-p-multiple-congruence.md)：原H的完整有限整窗和唯一进位块给C_p(CH)=C_p(H²)=CJ，保实际有理系数、carry分母和截断。双留数准确推出全部k<s的X_pk=Z_k^p=−X_k^p/(6k−1)，不借Gaussian整性或中央非零；更高窗口仍保原分母。
+
+
+- [R613：两真实carry交域与完整二态原算术返回](results/R613-original-reflected-carry-intersection-and-complete-two-state-return.md)：同C两支的准确交域是两深一单位，整36/396的绝对中心/半特征给完整六变量二态。两个真实重叠域经连续整测试逆回原T；native qℓ的全部Y/W和D/E/G移动、整个独占域与差测试保持，不把已知非零子管代总行。

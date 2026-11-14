@@ -504,3 +504,6 @@
 
 - 2026-11-14 23:19:28 UTC｜Astra-rank2-Sha-continue：登记R615原H唯一进位、完整有限Weierstrass–zeta Cartier与全部k<s的p倍指标同余，247项旧纤维证书保留。
   证明不借待证sigma整性，k=s边界不外推；继续R614更强整窗/R616首坏带及原中央端点，主目标未完成。
+
+- 2026-11-14 23:21:03 UTC｜Astra-rank2-Sha-continue：登记R613两原carry真交域、整36/396全二态及连续整逆的原T返回，全部native与规范差测试保持。
+  H先全归档；独占非零子管不代全域，继续R617旧norm8与实际差测试，主目标未完成。
