@@ -200,3 +200,5 @@ R133实际mean-v2结果已逐原native核：公开43589465579/10门，||q_star�
 firstsymbol有限部首跑43589646508真实失败于原scalar点区间floor，2838格积分宽<4.924e−8和两步真root均已成功。独立v2公开续算只补剩余范围及必要新midpoint，保原cache六阶尾、完整拒绝和1e−3全宽门；不重算成功格或169scalar cover。见notes/2026-11-14-R133-current-first-symbol-resume-v2.md。
 
 R133两行Airy/腰端audit已证并接独立公开13门：current waist准确S=0，根finite symmetric cross项(buv/η)|root必须保留（只有角均值为0）。实际moving→regular两行标量化应从完整方程含mean/primitive/source出发，不借bareheight模型宣称完整returnβ。正文 results/R133-supplement-two-row-Airy-audit-and-exact-waist-normalizer.md。
+
+R119 root graph完整density空间二阶与4/3费现已付，见 results/R119-supplement-complete-root-graph-two-order-slope-budget.md；图高q可变号/为0而不除q，全部mean/实际principal/height与weak源合同保留。仍须非mean自由Airy↔strict两行转换、高输出/低到高门、完整strict及全混频网络，不能用局部graph界授新全网cutoff。
