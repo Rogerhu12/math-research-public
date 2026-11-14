@@ -102,3 +102,7 @@ P1–19准确接任意未知high和独立mean，g的inner非meanC为0，独立in
 ### 2026-11-14 20:44:49 UTC：精确fold消去给下一次leading源改进
 
 C1–15已证明。最小窗原RQJgd项仍主导；用新gd/qv恒等式只新增其完整幅度/角导预算并重新消费对应源积分，旧矩阵、幅度tensor和源上界全保。H^-1HD显式QK也可改进同w1局部项及其真径向导。未预先声明新界足够小。
+
+### 2026-11-14 20:49:18 UTC：正高body/真实cut两输出的193pin消费者已接
+
+保同global Z、全部4650正行/3594接口/七源列/mean；只新HL径向权的source-square扫、真实重建积分和cut even行。source frame与reconstruction分别取原字段。帽[.9,R]head及末端low/mean由真Poisson另接，负区root incoming仍独立；不以positive given-head当全高inverse。

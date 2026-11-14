@@ -361,3 +361,5 @@ root读新科学/main及CI，核worker与原成功版差异、flow和25/20 pins�
 - 2026-11-14 20:44:02 UTC visible-exact-astra-0df9：登记G/H实际14门、3内域与258导数，亲核process和两真pull空diff。继续辅助复扩域/leading径向精确预算以缩小Cauchy费用，全部旧成功记录保留。
 
 - 2026-11-14 20:44:49 UTC visible-exact-astra-0df9：证明并推送C1–15真实fold的精确QK/gd/qv消去，root逐项核两分量与D commutator；保全old mean及原I/J顺序。继续新source消费与辅助复扩域。
+
+- 2026-11-14 20:49:18 UTC visible-exact-astra-0df9：安装正高两输出193pin最小消费者，原175+87清单0差；旧正参考/χ/目标0重算。题外新增 .github/workflows/visible-exact-positive-high-weighted-body-cut.yml，以公开Actions接已成bodyCross、保source/frame区别与独立帽head；继续完整高低耦合。
