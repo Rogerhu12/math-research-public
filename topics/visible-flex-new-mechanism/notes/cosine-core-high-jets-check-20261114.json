@@ -1,0 +1,57 @@
+{
+  "schema": "cosine-core-high-jets-developer-check-v1",
+  "artificial_inputs_only": true,
+  "passed": true,
+  "circle_error": 1.7763568394002505e-15,
+  "checks": {
+    "physical_gamma_fifth": 1.0264165156790304e-10,
+    "q_ell_ell": 2.4461090239898536e-10,
+    "tau_ell": 2.3368096983868824e-10,
+    "Tss_from_first": 6.946153613820602e-09,
+    "Tst_from_radial": 5.46633398342794e-09,
+    "Tst_from_angle": 2.331250856574894e-10,
+    "Ttt": 2.1766641710522772e-10,
+    "Bss_from_first": 9.500779602720499e-09,
+    "Bst_from_radial": 6.948770350470291e-09,
+    "Bst_from_angle": 2.4912611771846897e-10,
+    "Btt": 2.3270389706510144e-10,
+    "compact_Tss_identity": 3.433496343560347e-16
+  },
+  "fixed_theta_Tss_second_difference": [
+    {
+      "h": 0.0002,
+      "relative_error": 3.4859000452828916e-05
+    },
+    {
+      "h": 0.0001,
+      "relative_error": 8.715515210868592e-06
+    }
+  ],
+  "material_equation_residual_max": 9.270362255620057e-14,
+  "frozen_artificial_identity": {
+    "height_basis": "cosine",
+    "a": "1/20",
+    "b": "1/200",
+    "half_width": "1/100",
+    "height_coefficients": [
+      {
+        "numerator": "1",
+        "denominator": "25"
+      },
+      {
+        "numerator": "-1",
+        "denominator": "100"
+      },
+      {
+        "numerator": "1",
+        "denominator": "1000"
+      }
+    ],
+    "height_offset": {
+      "numerator": "1",
+      "denominator": "11"
+    }
+  },
+  "frozen_artificial_identity_sha256": "f15ec898cededadd51f79c8e5df0ae35cfa73fcc7ce24a9ce401699e809f8214",
+  "research_candidate_or_continuous_certificate": false
+}

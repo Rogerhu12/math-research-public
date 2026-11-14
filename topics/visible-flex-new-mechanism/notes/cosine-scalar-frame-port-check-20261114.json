@@ -1,0 +1,106 @@
+{
+  "schema": "cosine-scalar-frame-port-development-v1",
+  "artificial_inputs_only": true,
+  "research_geometry_evaluated": false,
+  "optimization_performed": false,
+  "circle": [
+    {
+      "side": 1,
+      "scalar_jet_error": 6.661338147750939e-16
+    },
+    {
+      "side": -1,
+      "scalar_jet_error": 6.661338147750939e-16
+    }
+  ],
+  "checks": [
+    {
+      "side": 1,
+      "errors": {
+        "u_s": 2.371928047161186e-09,
+        "u_theta": 1.6171197714243135e-10,
+        "u_ss": 6.991407040388543e-09,
+        "u_st_radial": 5.4965997781320885e-09,
+        "u_st_angle": 3.144242951630052e-10,
+        "u_tt": 3.1269814774538104e-10,
+        "v_s": 1.8151724963797326e-09,
+        "v_theta": 1.587876496955687e-10,
+        "v_ss": 6.16839950199526e-09,
+        "v_st_radial": 4.795286592170047e-09,
+        "v_st_angle": 1.7542497858398423e-10,
+        "v_tt": 2.105728294495839e-10,
+        "beta_s": 3.8591242171720535e-09,
+        "beta_theta": 6.612681598124543e-11,
+        "beta_ss": 9.067546452778353e-09,
+        "beta_st_radial": 6.567527115502665e-09,
+        "beta_st_angle": 1.6176801521937923e-10,
+        "beta_tt": 2.549855716198479e-10,
+        "T_value_reconstruction": 3.3306690738754696e-16,
+        "V_value_reconstruction": 4.440892098500626e-16,
+        "exact_core_integrability_residual": 1.0095571711549244e-15
+      },
+      "material_equation_residual_max": 9.270362255620057e-14,
+      "beta_phase_roundtrip_error_max": 6.280369834735101e-16
+    },
+    {
+      "side": -1,
+      "errors": {
+        "u_s": 1.567900143051304e-09,
+        "u_theta": 1.0631384661508037e-10,
+        "u_ss": 5.1787896365762876e-09,
+        "u_st_radial": 3.3370255298082613e-09,
+        "u_st_angle": 1.754749470829425e-10,
+        "u_tt": 2.1517064816817668e-10,
+        "v_s": 1.2862533260715736e-09,
+        "v_theta": 7.038125637848225e-11,
+        "v_ss": 4.561275273975328e-09,
+        "v_st_radial": 3.4025185816614248e-09,
+        "v_st_angle": 1.390839620196855e-10,
+        "v_tt": 8.685701781068908e-11,
+        "beta_s": 3.0030825412220325e-09,
+        "beta_theta": 8.623017746038774e-11,
+        "beta_ss": 6.842969642674372e-09,
+        "beta_st_radial": 4.847920766805292e-09,
+        "beta_st_angle": 2.594363644737816e-10,
+        "beta_tt": 1.6178613245592705e-10,
+        "T_value_reconstruction": 3.3306690738754696e-16,
+        "V_value_reconstruction": 8.881784197001252e-16,
+        "exact_core_integrability_residual": 1.233903209189352e-15
+      },
+      "material_equation_residual_max": 4.796163466380676e-14,
+      "beta_phase_roundtrip_error_max": 1.1801832636420706e-15
+    }
+  ],
+  "actual_two_boundary_ports": [
+    {
+      "side": 1,
+      "physical_s": 0.01,
+      "position_two_jet_errors": {
+        "X_t": 0.0,
+        "X_theta": 0.0,
+        "X_tt_outward": 3.5211947569951337e-16,
+        "X_ttheta": 1.4297097764709776e-16,
+        "X_thetatheta": 1.55935401045521e-16
+      }
+    },
+    {
+      "side": -1,
+      "physical_s": -0.01,
+      "position_two_jet_errors": {
+        "X_t": 0.0,
+        "X_theta": 0.0,
+        "X_tt_outward": 3.3306690738754696e-16,
+        "X_ttheta": 1.1102230246251565e-16,
+        "X_thetatheta": 1.633655477516527e-16
+      }
+    }
+  ],
+  "beta_periodicity_error": 1.138729814292726e-16,
+  "beta_evenness_error": 0.0,
+  "passed": true,
+  "source_files_sha256": {
+    "cosine_scalar_frame_port.py": "15df4d468250b439344a84e1a75135372a1394ad968219c2703deb1b64a8451a",
+    "cosine_core_high_jets.py": "055126b138a1868c0d565c7cf4967887075577ed41657f507bbd9a80559d474b",
+    "cosine_rectifying_core.py": "2a6cdd06381bc2cea89d16579b8e84b486162374d17eac656a5970892e4b5763"
+  }
+}
