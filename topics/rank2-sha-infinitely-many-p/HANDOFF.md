@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文持续推进，不等阶段确认。**
 
 - 旧库首次全文读根及课题README（含全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：868d19117d19d589a1a3c373b24ddb7dc5f687b2；2026-11-14 16:22:55 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：ace9bc1cbbaea3b4c50a51d2c4c79239a36c134a；2026-11-14 16:28:07 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 现仅在Rogerhu12/math-research-public工作。每次pull后及至少每小时核两README差异；有变立即执行。规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13用公开库Actions，旧runner/ci-queue停用。
 - main逐条commit/push已授权；禁强推/改写已发表历史。非快进立即pull --rebase重推；无执行环境时API用expected_sha/force=false，拒绝立即读新头核规后追加，不冒称git pull。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。仅写本课题log、每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
@@ -14,8 +14,8 @@
 
 ## 发布、正在用的文件与分工
 
-R1–363、R365–539已登记；R364仍开。R529=4c7d3db5，R530=7cd6a31e，R531=ac8e6b1e，R532=cc069ed8，R534=a86406a7，R535=87e0e9a1，R536=0731adf6，R538=ae4f3a4f。全部证明、脚本和原量词由results及分段索引导航。R501原证书已恢复；R502公开Actions run43596695716/job132452617972（来源1dafbfa7，p239/D40/81行）已成功，原生JSON/日志在da54025b，不需重跑。
-最新完整接口：[本轮HANDOFF](notes/2026-11-14-frontier-before-negative-first-layer.md)、[本轮open](notes/2026-11-14-open-before-r533.md)、[完整旧结论索引](notes/2026-11-14-results-index-before-r531.md)；各自保前轮归档链，压缩不关闭旧支线。活文件为HANDOFF/open/results/log、PROOF-INDEX-R501-R550及各R正文。
+R1–363、R365–539及R541已登记；R364仍开。R529=4c7d3db5，R530=7cd6a31e，R531=ac8e6b1e，R532=cc069ed8，R534=a86406a7，R535=87e0e9a1，R536=0731adf6，R538=ae4f3a4f。全部证明、脚本和原量词由results及分段索引导航。R501原证书已恢复；R502公开Actions run43596695716/job132452617972（来源1dafbfa7，p239/D40/81行）已成功，原生JSON/日志在da54025b，不需重跑。
+最新完整接口：[本轮HANDOFF](notes/2026-11-14-frontier-before-r541.md)、[本轮open](notes/2026-11-14-open-before-r541.md)、[完整旧结论索引](notes/2026-11-14-results-index-before-r531.md)；各自保前轮归档链，压缩不关闭旧支线。活文件为HANDOFF/open/results/log、PROOF-INDEX-R501-R550及各R正文。
 root统一元数据及逐条发布，代理仅建proof/script/data blobs。R532已修正唯一坐标显示式x=(K−J)/(2+ω)并发布；R534已登记并支付跨s双接触缺口。theta续R541第二态纯sigma及实际三支域；literature续f4完整Schwartz/负二分支；deep已付R537来源切向核，续真实jet/αβ/forcing；root预留R542第二态degree136完整CM谱。root已付R533完整degree6核及固定负矩接口，继续其实际双unit域和原中央的比较；正确Katz对偶不直接反射m→−1−m。结论随到随推。
 
 ## 完成桥与全部保留分支
@@ -28,15 +28,12 @@ quartic E17:y²=x³−17x及E34/E136/E389、O4全Hilbert类迹低增广、O6真�
 原rayπ0≡1428552127+2161889730ω mod2793510720；p>19、p≡7mod64、p≡1mod3。另π0≡2mod29、1mod137/79/103/263、2mod49、1mod1013/31；R487高13/19细分保持。各旧固定坏集、系数分母及R518/R523/R527各自固定大p门保原文，不能只留最新模数。
 λ=−barπ0^-1、β=−λ、κ=pλ²；ρ=−σ^⊗6/84，原输入(ξ1,ξ2,ξ3,x,c,d0)。T³=I、YT=Y、Tρ=ωh、Th=−ω(ρ+h)、Uρ=ρ+h且U保W。R496/499/501来源核心96与R512几何18不同；四态/16quarter/全CM-new-Href行、未知参考质量/导数、所有实际转置域均保。
 R490–529全部原五伴随、词格、四态/参考差、隐藏核和同源正测试保本轮完整归档及各R正文；固定B0、原S/T移动单位条件、Href未知质量/导数和所有实际补域均仍开。R513的max交域、R518/523/527各自固定坏集/大p门、C4八层和Eunit整逆不能删。H0共同六次测试与R529零质量J/K核不同于R527非零七项质量；原D_n六条件、旧W的E/K、Tc/C、移权P0与P0−P_K两补偿全保。
-R531两套纯伴随C/F和D/E wholeβ，Γn={Ddeep,Eunit}；逐E逆保π4=(Y,W,W′,G)及native Y/W，原D_n中央/质量v=n，完整系数和log见正文。C=H0/δ与旧反射C不同，G未被赋新核心；真实纤维补域仍在。
-R532原(J,A5,K,E,B2,C30)全框架、whole核心和J/A5准确秩二张量已付；Kunit逆保四输出，原D_n六条件及旧W全部六项保正文，x=(K−J)/(2+ω)已修正。两个边际0不代联合0。
-R535三Norm3 Fourier全Hesse G=BBP+BPB+PBB−3QQQ−3bPPP，P=σ³/Q=xσ³/B=−yσ³。原E深/Kunit四项核及原D_n全高阶准确；Y不含E可用，旧W的Z系数(−5+δ)/3非零，必须保完整五项，不能只留低矩。
-R536 Q=−C6/8+C²P4+C4P2+C5P1的十系数，由原六质量行+中央首项行用完整λκ的7×7整逆支付。固定右逆与D_*有限坏集见正文，必须保留。sameΓ/π4回βn原source，D_n质量/logx整条0，三中央及两差v=n。三不交carry合{C,Funit,F³−C³deep}，平均测试T不变、旧W核保持；T D_n为h的非零Wdeep管。Wcore后Y→Y+(κn−1)(37−3δ)W/72，单位/原输入/补域全保。
-R538整个Π=(J,A5,B2,C30)七正矩=(−1,0,0,20,0,0,8)ρ/27；未改P_K附Edeep n/Kunit准确回βn P(κ3n)ρ，P(t)=(8+20t−t²)/27 unit。可再附B2/C30深及真实Jdeep r，原S控制Y_r=2(−1+4ω)J/(3κr)+2A5的完整同行。余域只剩A5deep、J/κr+Kdeep未控制。原N=Q1⊗Q1⊗Q1分量在K反射(R,x)→(−ax,−R/a)下不变，测试仅EK5贡献为奇，原±镜管全积分相消、各v5n。只消此分量；旧W→W−2(1/3−δ)K，全部E/log及余补项仍保。
-
+R531/532的C/F,D/E与J/A5完整框架、whole核心、有限unit逆及全六域均保本轮归档/正文。R535三Norm3全Hesse五项保所有隐藏输入，旧W含E须用整个来源。R536以实际7×10整逆和固定D_*排坏集，测试q_n保π4、Dn质量/logx严格0而三中央v=n；三不交cubic carry平均使T不变，但W核混Y仍保真实逆域。R538未改P_K附Edeep n/Kunit回β^n(8+20κ^(3n)−κ^(6n))ρ/27；真实J同行可另附B2/C30深，余A5/近相消仍开。N分量两镜管准确相消，只作用该分量；L/M和旧W全部E/K/log不能删。
 R533 whole(U,V)两核=a[H∧f1+6bf3∧f4]/a[H∧f4+2f1∧f3]，H=(xwp³−2b)σ6，保双unit负矩及真实κ逆域。条件K³矩阵A平方仅给K6真实值的1/4；原joint余项R=K³Σ−AΣ虽U推前0，其K³推前=−81bΩ6ΠΣ/4并有单位矩。负矩非零与完整算术特征仍未付，不能迭代边际条件矩。
 
 R539 L=(W−Y)/2=ωbarγc+d0、M=c−bar(ωbarγ)d0，整det−8。wholeK8=¼ΣE4T−½ΣE2T=−B8，非scalar且平方1；原两轴共两态、其余四σ保全。L⊥C/F/G使R536同测试不动；偶m之Y_m=Y−3ω(κ^-m−1)L/8与W_m=W+(16−3ω)(κ^-m−1)L/8整同行回λ^mβ^n原S/6δT。Dn在m<n落合法域，质量0、两中央v=n−m，奇n/m=n−1给v1；真实补域须给反号补偿，M测试须完整转置。
+
+R541已付ρ1=−G_*ρ0=R_*ρ0+ω²H_*ρ0，三矩阵仅作用(c,d0)，前四σ保持；G/H分别改M为c−barγd、2ω(c−d)，R保测试。任意L/M奇偶深原S/T返回用A_rs=P_LP_M G^ε的完整逆权/测试，非未移动第二态零。原Dn三支保持且全cut逐支转置。一层核后两原观察之差2κ(γc+d)，单位域相同、深补偿为同源log比。η=ω²Hρ0的Y边际只需[2]度136，G/R支仍[4]度544；R542继续完整谱。
 
 ## 惰性：同一原格、真实三层与forcing
 
