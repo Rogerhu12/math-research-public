@@ -105,3 +105,5 @@
 - [R50：不交profile圆的四阶严格正障碍与完整平方恒等式](results/R50-disjoint-profile-circle-fourth-order-positive-obstruction.md) — 含k0/h1/omega0常段、实不交三矩profile圆时，真实非局部J尾可由总导数准确消去；完整四平方恒等式给S=E(R,R)+2T(f)+2T(g)≥∫Q³(f″⁴+g″⁴)/4608>0。旧目标和任意固定混合目标的四阶最高s²相位多项式均含−S，故全部不交类不能延四阶，二/三阶gauge无效。中点目标的四准确种子及完整二三阶仍成立；不排真正新重叠平面或其他几何。
 
 - [R51：六帽热反射的径向开启障碍与饱和源半径修正](results/R51-heat-source-radial-birth-and-saturated-reflection.md) — 未饱和内源跨六帽弦距d时，正热核给非零beta·rho^(11/2)，v和u分别更高为13/2、23/2。准确R_T迫该圈IItheta=0，Gauss不许目标K>0；纯解析界证当前两源都在正K补丁内穿越。改e=(w/4)tanh(4epsilon/w)准确保端口2jet，并使所有内源始终>d，明确移除此条件门。它是新基场、同g/同物理帽；未证明连接可解或小误差可达。
+
+- [R52：真正重叠profile平面的完整三阶圆](results/R52-overlapping-profile-plane-complete-third-order-circle.md) — even flat bump乘四维偶多项式，以I0/I2准确广义谱构造等长正交f/g，含全部谱退化情形；任意O2换基后仍在同一开稠密集重叠。三矩及三交叉矩支付Hd/Hc两个二阶解，局部化八packet七差分同时消四条third ruling，倒行消四period。正确Ztheta=sin²theta Zd−cos theta sin theta Zc，给同一指定g的完整三阶Oepsilon4；四阶仍欠，不把复平方当正模平方。
