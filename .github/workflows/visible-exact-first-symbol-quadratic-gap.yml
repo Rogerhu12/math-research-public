@@ -1,0 +1,79 @@
+name: visible-exact complete first-symbol quadratic arithmetic
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-first-symbol-quadratic-gap.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-exact-first-symbol-quadratic-gap
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  PHASE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-first-symbol-quadratic-gap-CI-inputs.json
+  PHASE_MANIFEST_SHA: eb4d3c4b4a57808fce7bac72d6270144322cabb248caa2c5949aeabd751ea180
+  PHASE_PIPELINE_SHA: bbb6015e79202302093a38f5e173d144be11ea8e3d033daa243e5c74bdc711f9
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+
+jobs:
+  complete-first-symbol-arithmetic:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 65
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the exact consumer entry points
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_quadratic_gap_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-first-symbol-quadratic-gap-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Hydrate the six exact completed coefficient and proof inputs
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_quadratic_gap_public_worker.py
+          --mode hydrate --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Install the pinned original numerical environment
+        run: >-
+          python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Set the original artifact path
+        id: paths
+        run: |
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-first-symbol-quadratic-gap-output" >> "$GITHUB_OUTPUT"
+      - name: Compute only the new complete quadratic and finite-basis arithmetic and publish its outcome
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_quadratic_gap_public_worker.py
+          --mode run --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-first-symbol-quadratic-gap-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-first-symbol-quadratic-gap-output"
+      - name: Preserve every true native and failure record
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-first-symbol-quadratic-gap-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 6
+          retention-days: 30
+          if-no-files-found: error

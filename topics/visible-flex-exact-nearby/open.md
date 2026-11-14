@@ -240,3 +240,5 @@ Green七端口门43596517945已真实全成、child0，native60e69d61…08f3；�
 完整ac1→repair已知q*源差已接独立[公开workflow](../../.github/workflows/visible-exact-response-repair-source.yml)及[合同](notes/2026-11-14-R133-complete-response-repair-source-contract.md)。123固定输入中原117逐SHA不变，复用原prepared bundle、40 parts/7721格与完整mean；只算原cubic的完整Bernstein范数和DF/Fν差，保主部mean变化与新非零mean源，未知h不假称L2有界扰动。全[0,25/8]含帽，已知差源最多160模；当前Green源/manifest与5970格不改。尚须实际输出及真cut/腰边界源，再接未知high全反馈。
 
 新增[首相位后完整算术引理](results/R133-supplement-quadratic-norm-gap-after-first-scalar-phase.md)：高n用判别式5整数norm，全部中间整数以CF基有界系数完整覆盖；将独立公开核当前−Xi(δ*)/4候选区间，尚不当作实际完整β。
+
+首相位后算术六输入消费者已接visible-exact-first-symbol-quadratic-gap.yml：固定原δ*完整native06070fd3…，只新增disc5整系数/高n二次norm与全CF基候选分离，原phase/scalar/有限部均不重算。失败候选、完整列表和有向最小间隙全保；当前输入只是−Xi(δ*)/4，不冒称真实root匹配后的β。

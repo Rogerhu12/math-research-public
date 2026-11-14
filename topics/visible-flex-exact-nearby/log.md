@@ -397,3 +397,5 @@
 - 2026-11-14 13:04:33 UTC｜visible-exact-astra-0df9：审明E1–E9完整源差、Bernstein全闭片及mean/160已知支撑；新增课题外visible-exact-response-repair-source.yml运行独立123输入消费者，原117逐SHA不变。旧mean worker只读两输入审计方法已核，保原40 parts/7721/6143跳/准备包，不重跑残差/mean/trial；真实DF主部仍含角导数，未知高输入不假作L2小扰动。新source费用须待公开真实输出，继续cut/腰源。
 
 - 2026-11-14 13:10:12 UTC｜visible-exact-astra-0df9：证明完整β/n修正后的四根算术合同：Q(P,4n)=16√5u+16au²/n²给高n整数阻隔；任何小间隙的有限N都在连续分数基|v|≤66、−66≤u0≤a_next+67中，逐式证明穷尽性。无需把β压在旧principal1/68以内，实际系数区间与有限候选分离留新公开消费；rootfinite/strong/全head反馈仍续。
+
+- 2026-11-14 13:14:19 UTC｜visible-exact-astra-0df9：新增课题外visible-exact-first-symbol-quadratic-gap.yml及六输入独立消费者，只有原δ*native及五小文本；完整CF基有界循环覆盖97≤n<2^34、高n由整数norm控制，全部四根/正负频率保。科学source d9ed9139…、manifest eb4d3c4b…固定320-bit Arb，未在本地执行研究计算；复制已成功公开worker的immutable与pull/非FF发布逻辑，实际root β/strong仍独立待付。

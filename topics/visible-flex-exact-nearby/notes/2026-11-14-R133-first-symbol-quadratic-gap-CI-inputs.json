@@ -1,0 +1,88 @@
+{
+  "kind": "complete_quadratic_norm_first_phase_arithmetic_public_inputs",
+  "public_repository": "Rogerhu12/math-research-public",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0"
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_quadratic_gap.py",
+      "bytes": 12505,
+      "sha256": "d9ed9139d5955429f7cf33835f981adce810c18106a9403334ed6d6ed8e671dc"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_quadratic_gap_CI.py",
+      "bytes": 4545,
+      "sha256": "bbb6015e79202302093a38f5e173d144be11ea8e3d033daa243e5c74bdc711f9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-quadratic-norm-gap-after-first-scalar-phase.md",
+      "bytes": 7377,
+      "sha256": "f9fe37034fee19d69506240546926ee80ec20f3762d72b8a12fd48077268d7f3"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-bounded-fifteen-target-and-paid-KAM-arithmetic-tradeoff.md",
+      "bytes": 6575,
+      "sha256": "982dec740b2be67b95db3f61534385ae3f06aac32bc07f423cfbe62070e7b755"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-selected-parameter-first-symbol-finite-part.md",
+      "bytes": 4423,
+      "sha256": "5959135292d36a9f555fc53be366fed61983e660218b0d3d7c8982f59bf0556c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/first_symbol_parameter_transfer_ci/run-43597209022-1/consumers/first-symbol-parameter-transfer.json.gz",
+      "bytes": 1403016,
+      "sha256": "06070fd3b4bd7a3e4ba17d99821c0f6ad06393863bf538f9a8157b6187e60dbb"
+    }
+  ],
+  "input_paths": {
+    "coefficient": "topics/visible-flex-exact-nearby/notes/first_symbol_parameter_transfer_ci/run-43597209022-1/consumers/first-symbol-parameter-transfer.json.gz"
+  },
+  "source_actual_parameter_transfer_run": 43597209022,
+  "source_actual_parameter_transfer_result_commit": "57bc258a0eee459c89ea851841b08f6327718bf9",
+  "proved_quadratic_gap_theorem_commit": "6fae6b78043b0fe2af1ebd1f6fd63d0fae9a00c3",
+  "exact_target": {
+    "A": "5831714953207175",
+    "B": "21212218271020390",
+    "radical": "sqrt(5)",
+    "continued_fraction_prefix": [
+      0,
+      3,
+      1,
+      1,
+      1,
+      3,
+      7,
+      1,
+      3,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      15,
+      5,
+      4,
+      8
+    ],
+    "infinite_tail": 1
+  },
+  "new_arithmetic": {
+    "bits": 320,
+    "first_high_index": 97,
+    "infinite_norm_cutoff": "17179869184",
+    "finite_basis_v_range": [
+      -66,
+      66
+    ],
+    "finite_basis_u_range": "[-66,a_next+67]",
+    "fourth_roots": 4,
+    "both_frequency_signs": true
+  },
+  "actual_full_return_beta_identified": false,
+  "root_finite_coefficient_or_strong_remainder_paid": false,
+  "original_mathematical_inputs_recomputed": false
+}
