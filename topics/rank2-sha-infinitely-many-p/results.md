@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R465：原共同六sigma核心与完整五伴随新中央行](results/R465-original-common-six-sigma-core-and-new-conditional-central-row.md)：原T输出的真正两态保全部六输入，固定CM投影在原态全零、第二态准确为Snew⊗Λ且Λ质量52/3。第三中央零遂控制任意五伴随测试；所有四挠相位和混W移动管保留，不把条件穿过CM投影。
+
 - [R473：三来源全函数域、规范化与整conductor返回](results/R473-three-source-function-field-normalization-and-integral-conductor.md)：新增U消原102度覆盖，准确规范化基和所有权给整三源环；T的306次monic关系导数以固定权10980返回全部规范化，保p饱和、指数范数与实际Amice零阶。维数仍二，不赋产品中央零或预支严格预算。
 
 - [R472：同预算法向导数真像与高次数立方范围](results/R472-same-budget-normal-derivative-image-and-high-degree-cubic-range.md)：原连续charge列在F4上完整限制给明确jet满射界，保全局奇点和原角含量。真实cube的斜次数使D=3b、最小接触全段的单独单位5条件总可由同一原格实现；同一修正的值/导数联立及全β仍待付。
