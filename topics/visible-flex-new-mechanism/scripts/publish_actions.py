@@ -147,7 +147,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--results", required=True, type=Path)
     parser.add_argument("--lane", required=True,
-                        choices=["eccentric", "seeds", "kernel", "core_folded", "second_order", "folded_bearing", "band_geometry"])
+                        choices=["eccentric", "seeds", "kernel", "core_folded", "second_order", "folded_bearing", "band_geometry", "band_newton", "inward"])
     parser.add_argument("--repo", type=Path, default=Path.cwd())
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
@@ -182,10 +182,14 @@ def main() -> int:
         receipt = {"schema": "visible-new-mechanism-actions-v1", "repository": REPOSITORY,
                    "source_commit": source, "run_id": run_id, "run_attempt": attempt,
                    "lane": args.lane, "destination": relative_dest,
-                   "design_is_not_fixed_metric_refinement": args.lane in {"eccentric", "core_folded", "folded_bearing", "band_geometry"},
+                   "design_is_not_fixed_metric_refinement": args.lane in {"eccentric", "core_folded", "folded_bearing", "band_geometry", "inward"},
                    "task_complete": False, "source_files": {}, "outputs": manifest,
                    "pulls": [], "readmes_read_commit": source}
-        for path in SOURCE_FILES:
+        script_root = f"{TOPIC}/scripts"
+        script_sources = ([p.relative_to(repo).as_posix() for p in (repo / script_root).glob("*.py")]
+                          if args.dry_run else
+                          git(repo, env, "ls-tree", "-r", "--name-only", source, "--", script_root).stdout.splitlines())
+        for path in sorted(set(SOURCE_FILES + script_sources)):
             content = (repo / path).read_bytes() if args.dry_run else committed_bytes(repo, env, source, path)
             receipt["source_files"][path] = {"sha256": sha256(content), "bytes": len(content)}
         request_path = f"{TOPIC}/computations/request.json"
@@ -233,7 +237,9 @@ def main() -> int:
                 print(f"Published {len(payload)} small JSON diagnostics to {relative_dest}.")
                 return 0
             reason = (pushed.stdout + pushed.stderr).lower()
-            if not any(marker in reason for marker in ["non-fast-forward", "fetch first", "remote contains work"]):
+            advanced = any(marker in reason for marker in ["non-fast-forward", "fetch first", "remote contains work"])
+            advanced = advanced or ("cannot lock ref" in reason and "but expected" in reason)
+            if not advanced:
                 raise PublicationStopped("push failed for a reason other than non-fast-forward; artifacts retained")
             print("Remote advanced; immediately pulling with rebase and checking both READMEs before retry.")
             receipt["pulls"].append(pull_and_check(repo, env, results))

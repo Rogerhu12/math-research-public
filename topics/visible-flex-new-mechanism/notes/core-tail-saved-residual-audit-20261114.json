@@ -1,0 +1,439 @@
+{
+  "status": "saved_candidate_development_audit",
+  "results": [
+    {
+      "source": "topics/visible-flex-new-mechanism/notes/core-tail-unit-design-20261114-05.json",
+      "source_sha256": "d6bd49c55518cafd564cca2f9465c981b25b44b709c277632e7b7054b6411885",
+      "background": "unit",
+      "length": 1.2,
+      "grid": {
+        "radial": 161,
+        "angular": 128
+      },
+      "inlet_metric_error": 7.760713174754518e-11,
+      "metric_operator_max": 0.024786727783636393,
+      "components": {
+        "E_minus_1": {
+          "max_abs": 0.02477162330156857,
+          "u": 0.15625,
+          "theta": 3.141592653589793,
+          "rms": 0.005153055891412441
+        },
+        "sqrt2_F_over_a": {
+          "max_abs": 0.02510914339698688,
+          "u": 0.1375,
+          "theta": 2.405281875404685,
+          "rms": 0.007710868495057966
+        },
+        "G_over_a2_minus_1": {
+          "max_abs": 0.015357642035918273,
+          "u": 0.45625000000000004,
+          "theta": 3.141592653589793,
+          "rms": 0.0048196002565619525
+        }
+      },
+      "dominant_angular_residual_modes": [
+        {
+          "mode": 2,
+          "energy_fraction": 0.6129116798283881
+        },
+        {
+          "mode": 3,
+          "energy_fraction": 0.2566415475773291
+        },
+        {
+          "mode": 0,
+          "energy_fraction": 0.08460593619216418
+        },
+        {
+          "mode": 4,
+          "energy_fraction": 0.031055660560863764
+        },
+        {
+          "mode": 5,
+          "energy_fraction": 0.005860257357496062
+        },
+        {
+          "mode": 6,
+          "energy_fraction": 0.004050292552728944
+        },
+        {
+          "mode": 1,
+          "energy_fraction": 0.0030773927156367855
+        },
+        {
+          "mode": 7,
+          "energy_fraction": 0.0007924911567451554
+        }
+      ],
+      "separated_radial_peaks": [
+        {
+          "u": 0.15625,
+          "metric_operator": 0.024786727783636393
+        },
+        {
+          "u": 0.21875,
+          "metric_operator": 0.02032734674232598
+        },
+        {
+          "u": 0.09375,
+          "metric_operator": 0.02016757867072337
+        },
+        {
+          "u": 0.41875,
+          "metric_operator": 0.017203663012875313
+        },
+        {
+          "u": 0.325,
+          "metric_operator": 0.01716784015824647
+        }
+      ],
+      "radial_bins": [
+        {
+          "u_range": [
+            0.0,
+            0.2
+          ],
+          "metric_operator_max": 0.024786727783636393,
+          "rms": 0.007884238266914262
+        },
+        {
+          "u_range": [
+            0.2,
+            0.4
+          ],
+          "metric_operator_max": 0.02203842219671196,
+          "rms": 0.007606042003136119
+        },
+        {
+          "u_range": [
+            0.4,
+            0.6000000000000001
+          ],
+          "metric_operator_max": 0.017203663012875313,
+          "rms": 0.006570597404358476
+        },
+        {
+          "u_range": [
+            0.6000000000000001,
+            0.8
+          ],
+          "metric_operator_max": 0.011404640045115464,
+          "rms": 0.0038988745872041972
+        },
+        {
+          "u_range": [
+            0.8,
+            1.0
+          ],
+          "metric_operator_max": 0.007142307312712188,
+          "rms": 0.0020726068611320496
+        }
+      ],
+      "reference": {
+        "beta_min": 1.34295028548958,
+        "beta_max": 3.1415926535897842,
+        "radial_free_spline_knots": [
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334
+        ]
+      },
+      "no_optimization_performed": true,
+      "new_exact_connector": false
+    },
+    {
+      "source": "topics/visible-flex-new-mechanism/notes/actions-43585440463-1-core_folded/core-tail-folded-L15.json",
+      "source_sha256": "0b365e6a7c7a380d7890796bb960e46594969aaf8ad578dd50b6273e3d39a445",
+      "background": "folded",
+      "length": 1.5,
+      "grid": {
+        "radial": 161,
+        "angular": 128
+      },
+      "inlet_metric_error": 1.6725278792366164e-13,
+      "metric_operator_max": 0.10939206045325955,
+      "components": {
+        "E_minus_1": {
+          "max_abs": 0.10875628971812867,
+          "u": 0.18125000000000002,
+          "theta": 5.006913291658733,
+          "rms": 0.026356181704536987
+        },
+        "sqrt2_F_over_a": {
+          "max_abs": 0.11946476299466433,
+          "u": 0.11875000000000001,
+          "theta": 5.497787143782138,
+          "rms": 0.02552034489467689
+        },
+        "G_over_a2_minus_1": {
+          "max_abs": 0.06565604508275935,
+          "u": 0.36250000000000004,
+          "theta": 0.0,
+          "rms": 0.015061239365517553
+        }
+      },
+      "dominant_angular_residual_modes": [
+        {
+          "mode": 2,
+          "energy_fraction": 0.5956235095139115
+        },
+        {
+          "mode": 3,
+          "energy_fraction": 0.1756697748450121
+        },
+        {
+          "mode": 0,
+          "energy_fraction": 0.12915838693564133
+        },
+        {
+          "mode": 4,
+          "energy_fraction": 0.05184159756171505
+        },
+        {
+          "mode": 5,
+          "energy_fraction": 0.022816206107391872
+        },
+        {
+          "mode": 1,
+          "energy_fraction": 0.012601126870812693
+        },
+        {
+          "mode": 6,
+          "energy_fraction": 0.006066890543544318
+        },
+        {
+          "mode": 8,
+          "energy_fraction": 0.0038944717210963324
+        }
+      ],
+      "separated_radial_peaks": [
+        {
+          "u": 0.18125000000000002,
+          "metric_operator": 0.10939206045325955
+        },
+        {
+          "u": 0.1125,
+          "metric_operator": 0.10602309189557636
+        },
+        {
+          "u": 0.24375000000000002,
+          "metric_operator": 0.09118517595851904
+        },
+        {
+          "u": 0.50625,
+          "metric_operator": 0.08837073443727869
+        },
+        {
+          "u": 0.7562500000000001,
+          "metric_operator": 0.07105996085307892
+        }
+      ],
+      "radial_bins": [
+        {
+          "u_range": [
+            0.0,
+            0.2
+          ],
+          "metric_operator_max": 0.10939206045325955,
+          "rms": 0.0324260776957602
+        },
+        {
+          "u_range": [
+            0.2,
+            0.4
+          ],
+          "metric_operator_max": 0.10429743546756748,
+          "rms": 0.028311599672556115
+        },
+        {
+          "u_range": [
+            0.4,
+            0.6000000000000001
+          ],
+          "metric_operator_max": 0.08837073443727869,
+          "rms": 0.02067484673033051
+        },
+        {
+          "u_range": [
+            0.6000000000000001,
+            0.8
+          ],
+          "metric_operator_max": 0.07105996085307892,
+          "rms": 0.016527350556084053
+        },
+        {
+          "u_range": [
+            0.8,
+            1.0
+          ],
+          "metric_operator_max": 0.056757534574032986,
+          "rms": 0.009142623611957347
+        }
+      ],
+      "reference": {
+        "beta_min": -0.09998222918687083,
+        "beta_max": 3.141592653589793,
+        "radial_free_spline_knots": [
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334
+        ],
+        "first_beta_join": 0.1958286069884019,
+        "exact_flat_start": 0.5934200211769755
+      },
+      "no_optimization_performed": true,
+      "new_exact_connector": false
+    },
+    {
+      "source": "topics/visible-flex-new-mechanism/notes/actions-43585440463-1-core_folded/core-tail-folded-L18.json",
+      "source_sha256": "4f5b05b824b7af9007bfb1f155af1c44567a1ee55316e2953a8a5558d5a9b045",
+      "background": "folded",
+      "length": 1.8,
+      "grid": {
+        "radial": 161,
+        "angular": 128
+      },
+      "inlet_metric_error": 1.6725278792366164e-13,
+      "metric_operator_max": 0.1164504632366866,
+      "components": {
+        "E_minus_1": {
+          "max_abs": 0.110129560780303,
+          "u": 0.14375000000000002,
+          "theta": 5.006913291658733,
+          "rms": 0.022746495221862454
+        },
+        "sqrt2_F_over_a": {
+          "max_abs": 0.12072785867416941,
+          "u": 0.11875000000000001,
+          "theta": 5.546874528994478,
+          "rms": 0.025580005955542183
+        },
+        "G_over_a2_minus_1": {
+          "max_abs": 0.06120144533104166,
+          "u": 0.3875,
+          "theta": 0.0,
+          "rms": 0.014830187608289424
+        }
+      },
+      "dominant_angular_residual_modes": [
+        {
+          "mode": 2,
+          "energy_fraction": 0.695134590471252
+        },
+        {
+          "mode": 3,
+          "energy_fraction": 0.17119264002295329
+        },
+        {
+          "mode": 0,
+          "energy_fraction": 0.05597473827908949
+        },
+        {
+          "mode": 4,
+          "energy_fraction": 0.04199826343648921
+        },
+        {
+          "mode": 5,
+          "energy_fraction": 0.017321901314851552
+        },
+        {
+          "mode": 1,
+          "energy_fraction": 0.0086263668020627
+        },
+        {
+          "mode": 6,
+          "energy_fraction": 0.004600054668114384
+        },
+        {
+          "mode": 7,
+          "energy_fraction": 0.0022400764273161717
+        }
+      ],
+      "separated_radial_peaks": [
+        {
+          "u": 0.14375000000000002,
+          "metric_operator": 0.1164504632366866
+        },
+        {
+          "u": 0.08125,
+          "metric_operator": 0.07836926025354521
+        },
+        {
+          "u": 0.5625,
+          "metric_operator": 0.06634671874274678
+        },
+        {
+          "u": 0.78125,
+          "metric_operator": 0.06463665633188696
+        },
+        {
+          "u": 0.3875,
+          "metric_operator": 0.06120144533104166
+        }
+      ],
+      "radial_bins": [
+        {
+          "u_range": [
+            0.0,
+            0.2
+          ],
+          "metric_operator_max": 0.1164504632366866,
+          "rms": 0.03373947463651857
+        },
+        {
+          "u_range": [
+            0.2,
+            0.4
+          ],
+          "metric_operator_max": 0.06509618720442528,
+          "rms": 0.024862425542096778
+        },
+        {
+          "u_range": [
+            0.4,
+            0.6000000000000001
+          ],
+          "metric_operator_max": 0.06634671874274678,
+          "rms": 0.01818242161513864
+        },
+        {
+          "u_range": [
+            0.6000000000000001,
+            0.8
+          ],
+          "metric_operator_max": 0.06463665633188696,
+          "rms": 0.012341771354429699
+        },
+        {
+          "u_range": [
+            0.8,
+            1.0
+          ],
+          "metric_operator_max": 0.05898315124598908,
+          "rms": 0.008884107476626154
+        }
+      ],
+      "reference": {
+        "beta_min": -0.1999998663983241,
+        "beta_max": 3.141592653589793,
+        "radial_free_spline_knots": [
+          0.16666666666666666,
+          0.3333333333333333,
+          0.5,
+          0.6666666666666666,
+          0.8333333333333334
+        ],
+        "first_beta_join": 0.20558698849259763,
+        "exact_flat_start": 0.6229908742199928
+      },
+      "no_optimization_performed": true,
+      "new_exact_connector": false
+    }
+  ],
+  "script_sha256": "1f4ea7e9c6b450c522a004311f3126eec8f711f52bcde8d17c0635656c4feb36"
+}

@@ -101,7 +101,7 @@ $$g=\sqrt{\frac{\lambda_2-\mu}{\lambda_2-\lambda_1}}e_1
  +\sqrt{\frac{\mu-\lambda_1}{\lambda_2-\lambda_1}}e_2.$$
 则 $\mathsf A(f,f)=\mathsf A(g,g)=1$，$\mathsf B(f,f)=\mathsf B(g,g)=\mu$，两个型的交叉项都为零。因此
 $$\phi_t=\cos t\,f+\sin t\,g,\qquad0\le t\le\pi$$
-保持全部三个矩，并从 $f$ 连到 $-f$。退化特征值情形可在等值子空间直接取正交向量；数值脚本会显式报告特征值，而不隐藏分母退化。
+保持全部三个矩，并从 $f$ 连到 $-f$。若存在维数至少为二的等值子空间，可直接从其中取正交向量；例如 $\lambda_1=\lambda_2$ 时取 $e_1,e_2$。其他退化情形需按实际重数另选两组等能向量，不能直接套用分母为零的表达式。数值脚本会显式报告特征值，而不隐藏分母退化。
 
 这是一条**满足 ruling 二阶相容性的 profile 路径**，不是已构造的等距曲面路径。尤其初始 profile 已从旧核谱中的单个 bump 改成 $f$，这是另一次设计，不能和旧 $g_\varepsilon$ 混为同一个固定度量问题。
 
@@ -175,3 +175,35 @@ $$L_XZ_{4,t}=-(dZ_t^2+dY_{\phi_t}\cdot dZ_{3,t}
 先在本公开仓库 Actions 中用固定的参考求积定义 profile 基、广义特征向量、归一化、$\ell,r$ 和 $\varepsilon$；之后独立加密 $s,\xi$ 节点。记录两个通道的 ruling 总积分、函数 $\mathcal P_H(\xi)$、恢复 $Z$ 后的完整 $L_XZ-H$、collar jet 残差。若 (C2) 非零，要优化更多 profile 系数使两个函数通道为零，不能用减去周期均值冒充解；若为了诊断减去均值，必须同时保留原非零均值。
 
 只有二阶稳定通过以后，才沿这些校正预测值对**同一个固定 $g_\varepsilon$**做完整度量 Newton 校正，并逐步沿 $t$ 延拓。缩小 $\varepsilon$ 所获得的高阶误差变小不算完成标准的固定参数加密收敛。即使得到精确有限带族，还需要嵌入到闭曲面、握持区、大位移和全程 reach；这里一项都没有先行宣称完成。
+
+## 7. 固定度量的完整 Newton 切片运行器
+
+`scripts/literature_band_path_newton.py` 直接求完整二次度量方程，目标始终为同一个
+$$g_\varepsilon=g_X+\varepsilon^2dY_f^2.$$
+先在这个固定度量的面积 $L^2$ 内积中取 $\operatorname{span}\{Y_f,Y_g\}$ 的正交补，再对每个相位 $t$ 写
+$$F_t=X+a_t(\cos t\,Y_f+\sin t\,Y_g)+Z_t,\qquad
+Z_t\perp\operatorname{span}\{Y_f,Y_g\}.$$
+$a_t$ 也是未知量，这样不把高阶径向修正人为锁死。一般 $Z_t$ 使用三个环境方向的 Fourier–Legendre 试场，活动边界的值及前两阶 jet 为零。当前 pilot 给 $a_t$ 加 $[\varepsilon/10,10\varepsilon]$ 的数值搜索界，若命中边界会明确报告，不能据此否认界外路径。
+
+每个切片解全部度量残差并使用解析 Jacobian；上一个相位的解作为下一个初值。另一个更密的节点网格不参与优化，直接使用相同物理系数检验最大相对度量误差，必要时输出节点曲率。脚本保存小型系数表，尚不声称这些有限相位间已有精确连续插值。
+
+一个公开 Actions pilot 命令是：
+
+```bash
+OPENBLAS_NUM_THREADS=4 python topics/visible-flex-new-mechanism/scripts/literature_band_path_newton.py \
+  --theta-n 192 --xi-n 64 --modes 3 --degree 8 --epsilon 1e-4 \
+  --phases 0.125 0.25 0.5 --max-nfev 60 --output path-newton-q3.json
+```
+
+如果二阶周期函数不为零，这个 Newton 仍可用于检查是否存在离开小扰动预测的大偏移候选，但不能把二阶投影当成已有的精确初始路径。只有固定设计、固定 $g_\varepsilon$ 与固定相位区间下的最大误差随空间/频率/相位加密趋向求解容差，才有资格继续检查有限族条件。
+
+## 8. 与 $C^2$ 目标相符的有限阶平坦 profile
+
+本题要求 $C^2$，不要求所有活动边界都无限阶平坦。另一个可计算输入是
+$$\phi(\xi)=\bigl(1-z(\xi)^2\bigr)^4 P_{2j}(z(\xi)),\quad |z|<1,
+\qquad \phi=0\quad(|z|\ge1),$$
+其中 $z$ 是活动区间的仿射坐标。这个零延拓属于 $C^3$；$Y_\phi$ 使用至多 $\phi'$，因而属于 $C^2$，且值、一次、二次导数都可在活动边界零匹配。三矩恒等式只需要相应积分端项消失，所以仍成立。
+
+对这类 profile，设到活动边界的坐标距离为 $d$。有 $Y=O(d^3)$、$dY=O(d^2)$，二阶 forcing $H$ 的所有系数为 $O(d^4)$。若两个完整相容条件成立，则 $\rho=O(d^5)$，$\mathcal A,\mathcal B,\mathcal S,W=O(d^4)$，而恢复的 $p,q=O(d^3)$。因此 $Z$ 同样可以作 $C^2$ 零延拓。后续各阶由两种一阶导数的乘积构成的 forcing 仍至少为 $O(d^4)$，这个端点阶数在形式递推中保持。此论证只处理端点正则性，不保证各阶周期相容，更不保证形式级数收敛。
+
+三个运行器都新增 `--profile-kind polynomial --profile-power 4`；`bump` 仍是旧实验默认值。有限多项式分支可避免 exp bump 的高阶谱端点尾，但其实际曲率与有限路径误差仍必须由 Actions 检查，不能仅由正则性推断厚度更好。

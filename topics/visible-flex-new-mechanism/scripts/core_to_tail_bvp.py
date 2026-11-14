@@ -16,6 +16,7 @@ from numpy.polynomial import polynomial as poly
 from scipy.interpolate import BSpline
 from scipy.integrate import solve_ivp
 from scipy.optimize import least_squares, brentq
+from scipy.special import ellipe, ellipeinc
 from mixed_mode_gc_flow import initial_field, rhs, background, diagnostics
 
 
@@ -215,6 +216,72 @@ class FoldedMeridian(UnitMeridian):
                 [zz,np.sin(beta),np.cos(beta)*bp])
 
 
+class InwardMeridian(FoldedMeridian):
+    """Nonexpanding reference: pi/2 -> pi+eta -> pi -> exact plane.
+
+    With the exact cylindrical inlet, every intermediate cosine is nonpositive.
+    Unlike the earlier negative-angle fold, this introduces one internal change
+    of hoop normal curvature without an outward radial excursion.
+    """
+    def __init__(self,a0,ap0,app0,length,cut_radius,center,quadrature,
+                 overshoot=.2,first_fraction=.7):
+        if abs(ap0)>1e-12 or abs(app0)>1e-12:
+            raise ValueError('Inward reference requires a cylindrical inlet; use --core-profile ellipse')
+        if not 0<overshoot<np.pi/2 or not 0<first_fraction<1:
+            raise ValueError('Need 0 < inward overshoot < pi/2 and 0 < first fraction < 1')
+        self.a0=a0;self.length=length;self.center=np.asarray(center)
+        self.gl,self.gw=np.polynomial.legendre.leggauss(quadrature)
+        self.wiggle=0.;self.minimum=np.pi+overshoot
+        self.first_fraction=first_fraction
+        self.beta0=np.pi/2;self.betap=0.;self.betapp=0.
+        self.set_active(length)
+        full_drop=a0-self.evaluate(np.array([1.]))[0][0][0]
+        mean_drop=full_drop/length
+        delta=a0-cut_radius
+        active=(length-delta)/(1-mean_drop)
+        if not 0<active<length:
+            raise ValueError(f'Inward closure requires {delta:.12g} < length < '
+                             f'{delta/mean_drop:.12g}; got {length:.12g}')
+        self.control=active
+        self.set_active(active)
+        self.closure_error=float(self.evaluate(np.array([1.]))[0][0][0]-cut_radius)
+
+
+def ellipse_inlet(theta,major,minor,height,derivative=0):
+    """Exact arc-length-gauge elliptic cylinder jets at arbitrary angles."""
+    if not 0<minor<=major:
+        raise ValueError('Need 0 < ellipse minor <= major')
+    theta=np.asarray(theta)
+    m=1-(minor/major)**2
+    a0=2*major*ellipe(m)/np.pi
+    phase=theta.copy()
+    for _ in range(24):
+        speed=np.sqrt(major*major*np.cos(phase)**2+minor*minor*np.sin(phase)**2)
+        step=(major*ellipeinc(phase,m)-a0*theta)/speed
+        phase-=np.clip(step,-.5,.5)
+        if np.max(np.abs(step))<4e-15:
+            break
+    error=float(np.max(np.abs(major*ellipeinc(phase,m)-a0*theta)))
+    if error>3e-13*major:
+        raise RuntimeError(f'Ellipse arc-length inversion failed: {error}')
+    sp,cp=np.sin(phase),np.cos(phase)
+    speed=np.sqrt(major*major*cp*cp+minor*minor*sp*sp)
+    tp=a0/speed
+    tpp=-a0*a0*(minor*minor-major*major)*sp*cp/speed**4
+    ans=np.zeros((3,len(theta),3))
+    if derivative==0:
+        ans[0]=np.column_stack((major*sp,-minor*cp,np.full_like(sp,height)))
+        ans[1,:,2]=1.
+    elif derivative==1:
+        ans[0]=np.column_stack((major*cp*tp,minor*sp*tp,np.zeros_like(sp)))
+    elif derivative==2:
+        ans[0]=np.column_stack((-major*sp*tp*tp+major*cp*tpp,
+                                minor*cp*tp*tp+minor*sp*tpp,np.zeros_like(sp)))
+    else:
+        raise ValueError('Only angular derivatives 0, 1, 2 are needed')
+    return ans,a0,error
+
+
 class Problem:
     def __init__(self, args):
         self.args = args
@@ -225,25 +292,47 @@ class Problem:
         count = self.J+6
         self.knots = np.r_[np.zeros(6), np.arange(1,self.J+1)/(self.J+1), np.ones(6)]
         self.spline = BSpline(self.knots, np.eye(count), 5)
-        theta, state = initial_field(args.inlet_angles, args.amp2, args.amp3)
-        if args.inlet_state:
-            data = np.load(args.inlet_state)
-            state = data['state'][:,-1].reshape(14,args.inlet_angles)
-            if abs(float(data['s'][-1])-args.inlet_s) > 1e-12:
-                raise ValueError('Inlet state does not have the requested endpoint')
-            self.inlet_solver = {'loaded':str(args.inlet_state)}
+        self.core_profile=getattr(args,'core_profile','mixed')
+        if self.core_profile=='ellipse':
+            theta=np.arange(args.inlet_angles)*2*np.pi/args.inlet_angles
+            inp,self.a0,inv_error=ellipse_inlet(theta,args.ellipse_major,args.ellipse_minor,args.inlet_s)
+            self.inlet=inp.transpose(0,2,1)
+            self.ap0=0.;self.app0=0.
+            xt=ellipse_inlet(theta,args.ellipse_major,args.ellipse_minor,args.inlet_s,1)[0][0]
+            self.inlet_solver={'method':'exact_elliptic_cylinder_analytic_jets',
+                               'arc_length_inversion_max_error':inv_error}
+            rho_min=args.ellipse_minor**2/args.ellipse_major
+            rho_max=args.ellipse_major**2/args.ellipse_minor
+            self.inlet_report={'s':args.inlet_s,'radius_metric':self.a0,
+                'center':[0.,0.,args.inlet_s],
+                'sample_relative_metric_op':float(np.max(np.abs(np.sum(xt*xt,axis=-1)/self.a0**2-1))),
+                'sample_position_frame_compatibility':0.,'sample_frame_orthogonality':0.,
+                'sample_abs_principal_curvature':1/rho_min,
+                'sample_min_N':self.a0**2/rho_max,
+                'sample_circle_radial_spread':args.ellipse_major-args.ellipse_minor,
+                'sample_section_height_spread':0.,'sample_max_abs_M':0.,
+                'sample_GC_N_spread':self.a0**2*(1/rho_min-1/rho_max),
+                'exact_ellipse_perimeter_radius':self.a0}
         else:
-            sol = solve_ivp(lambda s,y:rhs(s,y,args.inlet_angles,args.curvature),
-                            (0,args.inlet_s),state.ravel(),method='DOP853',
-                            rtol=2e-12,atol=2e-14,max_step=.004)
-            if not sol.success:
-                raise RuntimeError(sol.message)
-            state = sol.y[:,-1].reshape(14,args.inlet_angles)
-            self.inlet_solver = {'success':True,'nfev':sol.nfev}
-        self.a0,self.ap0,self.app0 = background(args.inlet_s,args.curvature)
-        ell = (state[0]**2-self.a0*self.app0)/state[1]
-        self.inlet = np.stack((state[2:5],state[5:8],ell*state[11:14]))
-        self.inlet_report = diagnostics(args.inlet_s,state,args.curvature)
+            theta, state = initial_field(args.inlet_angles, args.amp2, args.amp3)
+            if args.inlet_state:
+                data = np.load(args.inlet_state)
+                state = data['state'][:,-1].reshape(14,args.inlet_angles)
+                if abs(float(data['s'][-1])-args.inlet_s) > 1e-12:
+                    raise ValueError('Inlet state does not have the requested endpoint')
+                self.inlet_solver = {'loaded':str(args.inlet_state)}
+            else:
+                sol = solve_ivp(lambda s,y:rhs(s,y,args.inlet_angles,args.curvature),
+                                (0,args.inlet_s),state.ravel(),method='DOP853',
+                                rtol=2e-12,atol=2e-14,max_step=.004)
+                if not sol.success:
+                    raise RuntimeError(sol.message)
+                state = sol.y[:,-1].reshape(14,args.inlet_angles)
+                self.inlet_solver = {'success':True,'nfev':sol.nfev}
+            self.a0,self.ap0,self.app0 = background(args.inlet_s,args.curvature)
+            ell = (state[0]**2-self.a0*self.app0)/state[1]
+            self.inlet = np.stack((state[2:5],state[5:8],ell*state[11:14]))
+            self.inlet_report = diagnostics(args.inlet_s,state,args.curvature)
         gl,gw = np.polynomial.legendre.leggauss(args.quadrature)
         self.gl,self.gw = gl,gw
         self.reference=None
@@ -254,6 +343,10 @@ class Problem:
             self.reference=FoldedMeridian(self.a0,self.ap0,self.app0,args.length,args.cut_radius,
                                           self.inlet[0].mean(axis=1),args.quadrature,
                                           args.fold_min,args.fold_first_fraction)
+        elif args.background=='inward':
+            self.reference=InwardMeridian(self.a0,self.ap0,self.app0,args.length,args.cut_radius,
+                                          self.inlet[0].mean(axis=1),args.quadrature,
+                                          args.inward_overshoot,args.inward_first_fraction)
 
     def radial(self,u,derivative=0):
         return self.spline(u,nu=derivative)[:,3:-3]/self.args.length**derivative
@@ -264,7 +357,11 @@ class Problem:
         f = [fourier(theta,self.args.modes,d) for d in range(3)]
         r = [self.radial(u,d) for d in range(3)]
         h = [hermite(u,d)/self.args.length**d for d in range(3)]
-        inlet = [interp_periodic(self.inlet,theta,d).transpose(0,2,1) for d in range(3)]
+        if self.core_profile=='ellipse':
+            inlet=[ellipse_inlet(theta,self.args.ellipse_major,self.args.ellipse_minor,
+                                 self.args.inlet_s,d)[0] for d in range(3)]
+        else:
+            inlet = [interp_periodic(self.inlet,theta,d).transpose(0,2,1) for d in range(3)]
         avec = np.array([self.a0,self.args.length*self.ap0,self.args.length**2*self.app0,
                          self.args.cut_radius,-self.args.length,0.])
         abase = [hh@avec for hh in h]
@@ -461,6 +558,9 @@ def main():
     p.add_argument('--inlet-angles',type=int,default=128)
     p.add_argument('--inlet-s',type=float,default=.15)
     p.add_argument('--inlet-state')
+    p.add_argument('--core-profile',choices=['mixed','ellipse'],default='mixed')
+    p.add_argument('--ellipse-major',type=float,default=1.)
+    p.add_argument('--ellipse-minor',type=float,default=.3)
     p.add_argument('--amp2',type=float,default=.25)
     p.add_argument('--amp3',type=float,default=.2)
     p.add_argument('--curvature',type=float,default=.6)
@@ -472,11 +572,16 @@ def main():
     p.add_argument('--tail-minus',type=float,default=.15)
     p.add_argument('--tail-plus-min',type=float,default=-1.3)
     p.add_argument('--tail-minus-min',type=float,default=-1.3)
+    p.add_argument('--tail-angle-max',type=float,default=1.3)
     p.add_argument('--tail-height',type=float)
-    p.add_argument('--background',choices=['unit','folded','hermite'],default='unit')
+    p.add_argument('--tail-height-min',type=float,default=.2)
+    p.add_argument('--tail-height-max',type=float,default=1.8)
+    p.add_argument('--background',choices=['unit','folded','inward','hermite'],default='unit')
     p.add_argument('--beta-wiggle',type=float,default=0.)
     p.add_argument('--fold-min',type=float,default=-.2)
     p.add_argument('--fold-first-fraction',type=float,default=.33)
+    p.add_argument('--inward-overshoot',type=float,default=.2)
+    p.add_argument('--inward-first-fraction',type=float,default=.7)
     p.add_argument('--design-metric',action=argparse.BooleanOptionalAction,default=True)
     p.add_argument('--radius-floor',type=float,default=.3)
     p.add_argument('--radius-ceiling',type=float,default=1.8)
@@ -488,6 +593,8 @@ def main():
     args=p.parse_args()
     if not 0<args.cuff_radius<args.flat_start<args.cut_radius:
         p.error('Need cuff_radius < flat_start < cut_radius')
+    if args.core_profile=='ellipse' and args.inlet_state:
+        p.error('The exact ellipse inlet does not accept a mixed-mode --inlet-state')
     started=time.perf_counter()
     prob=Problem(args)
     gl,_=np.polynomial.legendre.leggauss(args.radial_gauss)
@@ -519,8 +626,8 @@ def main():
     if prob.na:
         lower[prob.np:prob.np+prob.na]=-.5
         upper[prob.np:prob.np+prob.na]=.5
-    lower[-4:]=[args.tail_plus_min,args.tail_minus_min,-.6,.2]
-    upper[-4:]=[1.3,1.3,.6,1.8]
+    lower[-4:]=[args.tail_plus_min,args.tail_minus_min,-.6,args.tail_height_min]
+    upper[-4:]=[args.tail_angle_max,args.tail_angle_max,.6,args.tail_height_max]
     seed=np.maximum(np.minimum(seed,upper-1e-10),lower+1e-10)
     first=prob.residual(seed,grid)
     progress={'last':time.perf_counter(),'calls':0}
@@ -538,7 +645,11 @@ def main():
     payload={'status':'finite_design_bvp_candidate_not_an_exact_connector',
              'task_complete':False,'closed_surface':False,'double_circular_collars':False,
              'exact_isometry_proved':False,'same_metric_refinement':False,
-             'definition':{'core':'R2 mixed-mode GC inlet','amp2':args.amp2,'amp3':args.amp3,
+             'definition':{'core':('exact elliptic cylindrical inlet' if prob.core_profile=='ellipse'
+                                   else 'R2 mixed-mode GC inlet'),
+                           'core_profile':prob.core_profile,
+                           'ellipse_major':args.ellipse_major,'ellipse_minor':args.ellipse_minor,
+                           'amp2':args.amp2,'amp3':args.amp3,
                            'curvature':args.curvature,'inlet_s':args.inlet_s,'length':args.length,
                            'tail_cut_radius':args.cut_radius,'tail_flat_start':args.flat_start,
                            'tail_cuff_radius':args.cuff_radius,'design_metric':args.design_metric,
@@ -546,7 +657,11 @@ def main():
                            'reference_control':prob.reference.control if prob.reference else None,
                            'beta_wiggle':args.beta_wiggle,
                            'fold_min':args.fold_min,'fold_first_fraction':args.fold_first_fraction,
+                           'inward_overshoot':args.inward_overshoot,
+                           'inward_first_fraction':args.inward_first_fraction,
+                           'tail_height_bounds':[args.tail_height_min,args.tail_height_max],
                            'tail_lower_bounds':[args.tail_plus_min,args.tail_minus_min],
+                           'tail_angle_upper_bound':args.tail_angle_max,
                            'tail_angle_shift':-np.pi/2,
                            'tail_final':dict(zip(('A_plus','A_minus','C_y','C_z'),fit.x[-4:].tolist()))},
              'discretization':{'radial_free':args.radial_free,'modes':args.modes,
@@ -566,7 +681,7 @@ def main():
              'coefficients':fit.x.tolist(),
              'limitations':['Finite residual is not an exact connector or a closed surface.',
                             'Metric controls were designed; this is not fixed-g refinement.',
-                            'Endpoint jets use the same numerical inlet and quadrature-defined tail evaluator.',
+                            'Mixed inlet uses numerical GC jets; ellipse inlet uses analytic elliptic-cylinder jets; tail uses its stated quadrature.',
                             'No continuous embeddedness or reach certificate is claimed.'],
              'script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
     out=Path(args.out);out.parent.mkdir(parents=True,exist_ok=True)

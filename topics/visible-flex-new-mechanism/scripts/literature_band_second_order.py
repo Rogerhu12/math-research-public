@@ -56,9 +56,9 @@ def xi_operators(n, left, right):
     return xi, halfwidth * weights, D, integrate_right, endpoint
 
 
-def profile_circle(left, right, count):
+def profile_circle(left, right, count, kind="bump", power=4):
     xi, weights, _, _, _ = xi_operators(512, left, right)
-    profiles = [kernel.profile(xi, left, right, 2 * j) for j in range(count)]
+    profiles = [kernel.profile(xi, left, right, 2 * j, kind, power) for j in range(count)]
     dp = np.column_stack([p[1] for p in profiles])
     ddp = np.column_stack([p[2] for p in profiles])
     A = ddp.T @ (weights[:, None] * ddp)
@@ -74,7 +74,7 @@ def profile_circle(left, right, count):
          + np.sqrt((mu - eigenvalues[1]) / (eigenvalues[-2] - eigenvalues[1])) * eigenvectors[:, -2])
     def records(matrix):
         return dict(ff=float(f @ matrix @ f), gg=float(g @ matrix @ g), fg=float(f @ matrix @ g))
-    diagnostics = dict(generalized_eigenvalues=eigenvalues.tolist(), common_rayleigh_value=float(mu),
+    diagnostics = dict(profile_kind=kind, profile_power=power, generalized_eigenvalues=eigenvalues.tolist(), common_rayleigh_value=float(mu),
                        even_profile_degrees=(2 * np.arange(count)).tolist(),
                        f_coefficients=f.tolist(), g_coefficients=g.tolist(),
                        moments_before_common_scaling=dict(J0=records(A), J1=records(J1), J2_star=records(B)),
@@ -85,7 +85,8 @@ def profile_circle(left, right, count):
 def field_pair(data, v, vp, om, u, reference, f, g, scale):
     count = 2 * len(f) - 1
     fields = kernel.bending_fields(data, v, vp / data["sphere_speed"], om, u,
-                                   reference["profile_left"], reference["profile_right"], count, scale)
+                                   reference["profile_left"], reference["profile_right"], count, scale,
+                                   reference["profile_kind"], reference["profile_power"])
     result = []
     for array in fields:
         even = array[:, :, ::2]
@@ -188,8 +189,52 @@ def fast_period_operator(data, v, vp, om, u, xi):
     return [integrate(local + K * rr) for local, rr in zip([local_a, local_b, local_c], rlocal)] + [integrate(K * rr) for rr in rtail]
 
 
-def profile_values(xi, left, right, coeff, scale):
-    basis = [kernel.profile(xi, left, right, 2 * j) for j in range(len(coeff))]
+def polynomial_period_operator(data, v, vp, om, xi):
+    """Exact low-derivative polynomial coefficients from the companion note."""
+    sp = data["sphere_speed"][:, None]
+    k = data["kappa"][:, None]
+    ks = (data["kappa_theta"] / data["sphere_speed"])[:, None]
+    h = np.sqrt(v)[:, None]
+    hs = (vp / data["sphere_speed"])[:, None] / (2 * h)
+    zs = ks / (2 * h)
+    z = xi[None, :] + om[:, None]
+    d = h * om[:, None] - k
+    ds = hs * om[:, None] - h * zs
+    K0 = k * z * z - (k * k + 1) * z / h
+    qs = zs / h - z * hs / h**2
+    a0 = k * (h * z - k) / 2
+    a1 = -k / (2 * h) * (1 + (h * z - k)**2)
+    a2 = (k * h * z**3 / 4 - (5 * k * k + 1 + hs * hs / h**2) * z * z / 8
+          + k * (k * k + 1) * z / (2 * h) - (k * k + 1)**2 / (8 * h**2)
+          + hs * z * zs / (4 * h) - k * hs * zs / (4 * h**2)
+          + (k * k + 1) * hs * hs / (8 * h**4))
+    ee = (d * d + 1) / h
+    es = 2 * d * ds / h - (d * d + 1) * hs / h**2
+    b0 = (K0 * ee + es * qs) / 8
+    b1 = (K0 * d + ds * qs) / 4
+    b2 = (K0 * h + hs * qs) / 8
+    integrate = lambda value: 2 * np.pi / len(data["theta"]) * np.sum(sp * value, axis=0)
+    return [integrate(a) for a in [a0, a1, a2, b0, b1, b2]]
+
+
+def rho_from_profiles(first, second, v, kappa, om, u, xi, integrate_right):
+    f, fp, fpp = first
+    g, gp, gpp = second
+    J0 = integrate_right @ (fpp * gpp)
+    J1 = integrate_right @ (xi * fpp * gpp)
+    J2 = integrate_right @ (xi * xi * fpp * gpp + 2 * fp * gp)
+    h = np.sqrt(v)[:, None]
+    k = kappa[:, None]
+    z = xi[None, :] + om[:, None]
+    w = v[:, None] - k * u
+    d = h * om[:, None] - k
+    return (h * J2[None, :] / 8 + d * J1[None, :] / 4 + (d * d + 1) * J0[None, :] / (8 * h)
+            + u * (f * g)[None, :] / 2 - w / (2 * h) * ((f * gp + fp * g) / 2)[None, :]
+            + (h * z / 4 - 3 * k / 8 + (k * k + 1) / (8 * h * z)) * (fp * gp)[None, :])
+
+
+def profile_values(xi, left, right, coeff, scale, kind="bump", power=4):
+    basis = [kernel.profile(xi, left, right, 2 * j, kind, power) for j in range(len(coeff))]
     return tuple(scale * sum(coeff[j] * basis[j][order] for j in range(len(coeff))) for order in range(3))
 
 
@@ -203,9 +248,27 @@ def quadratic_period(coefficients, first, second, xi, integrate_right):
     return a * f * g + b * (f * gp + fp * g) / 2 + c * fp * gp + d0 * J0 + d1 * J1 + d2 * J2
 
 
+def prepare_profile_reference(args):
+    parameters, amplitude, reference = kernel.build_reference(args)
+    f, g, moment_data = profile_circle(reference["profile_left"], reference["profile_right"], args.profile_count,
+                                      reference["profile_kind"], reference["profile_power"])
+    # Freeze the common field normalization on a reference grid, not the tested grid.
+    rd, rv, rvp, rom = kernel.sample_geometry(parameters, amplitude, 2048)
+    rxi, _, _, _, _ = xi_operators(128, reference["profile_left"], reference["profile_right"])
+    ru = np.sqrt(rv)[:, None] / (rxi[None, :] + rom[:, None])
+    raw = field_pair(rd, rv, rvp, rom, ru, reference, f, g, 1)
+    maximum = max(float(np.max(np.linalg.norm(raw[0][0], axis=1))), float(np.max(np.linalg.norm(raw[0][1], axis=1))))
+    common_scale = reference["sampled_reference_diameter"] / maximum
+    del raw
+    moment_data["common_field_scale"] = common_scale
+    return parameters, amplitude, reference, f, g, common_scale, moment_data
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--kind", choices=["curvature", "symmetric"], default="curvature")
+    parser.add_argument("--profile-kind", choices=["bump", "polynomial"], default="bump")
+    parser.add_argument("--profile-power", type=int, default=4)
     parser.add_argument("--q", type=int, default=3)
     parser.add_argument("--a", type=float)
     parser.add_argument("--b", type=float, default=.85)
@@ -222,17 +285,7 @@ def main():
     args = parser.parse_args()
     if args.profile_count < 4:
         parser.error("Use at least four even profiles")
-    parameters, amplitude, reference = kernel.build_reference(args)
-    f, g, moment_data = profile_circle(reference["profile_left"], reference["profile_right"], args.profile_count)
-    # Freeze the common field normalization on a reference grid, not the tested grid.
-    rd, rv, rvp, rom = kernel.sample_geometry(parameters, amplitude, 2048)
-    rxi, _, _, _, _ = xi_operators(128, reference["profile_left"], reference["profile_right"])
-    ru = np.sqrt(rv)[:, None] / (rxi[None, :] + rom[:, None])
-    raw = field_pair(rd, rv, rvp, rom, ru, reference, f, g, 1)
-    maximum = max(float(np.max(np.linalg.norm(raw[0][0], axis=1))), float(np.max(np.linalg.norm(raw[0][1], axis=1))))
-    common_scale = reference["sampled_reference_diameter"] / maximum
-    del raw
-    moment_data["common_field_scale"] = common_scale
+    parameters, amplitude, reference, f, g, common_scale, moment_data = prepare_profile_reference(args)
     d, v, vp, om = kernel.sample_geometry(parameters, amplitude, args.theta_n)
     xi, weights, D, integrate_right, endpoint = xi_operators(args.xi_n, reference["profile_left"], reference["profile_right"])
     u = np.sqrt(v)[:, None] / (xi[None, :] + om[:, None])
@@ -245,13 +298,51 @@ def main():
     Zd, diag_d = range_correction(Hd, geometry)
     Zc, diag_c = range_correction(Hc, geometry)
     fast_coefficients = fast_period_operator(d, v, vp, om, u, xi)
-    f_values = profile_values(xi, reference["profile_left"], reference["profile_right"], f, common_scale)
-    g_values = profile_values(xi, reference["profile_left"], reference["profile_right"], g, common_scale)
+    f_values = profile_values(xi, reference["profile_left"], reference["profile_right"], f, common_scale,
+                              reference["profile_kind"], reference["profile_power"])
+    g_values = profile_values(xi, reference["profile_left"], reference["profile_right"], g, common_scale,
+                              reference["profile_kind"], reference["profile_power"])
     fast_diagonal = (quadratic_period(fast_coefficients, f_values, f_values, xi, integrate_right)
                      - quadratic_period(fast_coefficients, g_values, g_values, xi, integrate_right))
     fast_cross = -2 * quadratic_period(fast_coefficients, f_values, g_values, xi, integrate_right)
+    polynomial_coefficients = polynomial_period_operator(d, v, vp, om, xi)
+    polynomial_diagonal = (quadratic_period(polynomial_coefficients, f_values, f_values, xi, integrate_right)
+                           - quadratic_period(polynomial_coefficients, g_values, g_values, xi, integrate_right))
+    polynomial_cross = -2 * quadratic_period(polynomial_coefficients, f_values, g_values, xi, integrate_right)
+    jacobian_u = np.sqrt(v)[:, None] / (xi[None, :] + om[:, None])**2
+    rho_d_direct = .5 * (Hd[2] * jacobian_u) @ integrate_right.T
+    rho_c_direct = .5 * (Hc[2] * jacobian_u) @ integrate_right.T
+    rho_d_tail = (rho_from_profiles(f_values, f_values, v, d["kappa"], om, u, xi, integrate_right)
+                  - rho_from_profiles(g_values, g_values, v, d["kappa"], om, u, xi, integrate_right))
+    rho_c_tail = -2 * rho_from_profiles(f_values, g_values, v, d["kappa"], om, u, xi, integrate_right)
+    h = np.sqrt(v)[:, None]
+    hs = (vp / d["sphere_speed"])[:, None] / (2 * h)
+    ks = (d["kappa_theta"] / d["sphere_speed"])[:, None]
+    zs = ks / (2 * h)
+    z = xi[None, :] + om[:, None]
+    cs = hs / z - h * zs / z**2
+    Uvec = np.stack((np.zeros_like(u), u, cs), axis=2)
+    Vvec = np.stack((zs / (2 * z**2), -h / 2 + np.zeros_like(u),
+                    -hs / 2 + ks / (2 * z) - d["kappa"][:, None] * zs / (2 * z**2)), axis=2)
+    DYf_formula = f_values[0][None, :, None] * Uvec + f_values[1][None, :, None] * Vvec
+    DYg_formula = g_values[0][None, :, None] * Uvec + g_values[1][None, :, None] * Vvec
+    DYf_direct = Yfs + cs[:, :, None] * Yfu
+    DYg_direct = Ygs + cs[:, :, None] * Ygu
+    pointwise_checks = dict(rho_diagonal_direct_vs_tail_max_absolute=float(np.max(np.abs(rho_d_direct - rho_d_tail))),
+                           rho_cross_direct_vs_tail_max_absolute=float(np.max(np.abs(rho_c_direct - rho_c_tail))),
+                           rho_diagonal_direct_vs_tail_relative=float(np.max(np.abs(rho_d_direct - rho_d_tail))) / max(float(np.max(np.abs(rho_d_tail))), 1e-300),
+                           rho_cross_direct_vs_tail_relative=float(np.max(np.abs(rho_c_direct - rho_c_tail))) / max(float(np.max(np.abs(rho_c_tail))), 1e-300),
+                           DY_f_direct_vs_formula_max_norm=float(np.max(np.linalg.norm(DYf_direct - DYf_formula, axis=2))),
+                           DY_g_direct_vs_formula_max_norm=float(np.max(np.linalg.norm(DYg_direct - DYg_formula, axis=2))))
     fast = dict(coefficient_names=["phi_squared", "phi_phi_prime", "phi_prime_squared", "tail_J0", "tail_J1", "tail_J2_star"],
                 coefficients=[a.tolist() for a in fast_coefficients],
+                low_derivative_polynomial_coefficients=[a.tolist() for a in polynomial_coefficients],
+                low_derivative_diagonal_period=polynomial_diagonal.tolist(),
+                low_derivative_cross_period=polynomial_cross.tolist(),
+                low_derivative_diagonal_period_max_absolute=float(np.max(np.abs(polynomial_diagonal))),
+                low_derivative_cross_period_max_absolute=float(np.max(np.abs(polynomial_cross))),
+                pointwise_formula_checks=pointwise_checks,
+                coefficient_formula_max_difference=[float(np.max(np.abs(a - b))) for a, b in zip(fast_coefficients, polynomial_coefficients)],
                 diagonal_period=fast_diagonal.tolist(), cross_period=fast_cross.tolist(),
                 diagonal_vs_direct_max_absolute=float(np.max(np.abs(fast_diagonal - np.array(diag_d["period_samples"]["period"])))),
                 cross_vs_direct_max_absolute=float(np.max(np.abs(fast_cross - np.array(diag_c["period_samples"]["period"])))))

@@ -31,7 +31,7 @@ def omega(kappa, parameters, amplitude, order=192):
     return kappa * np.sum(weights[None, :] / np.sqrt(curvature_speed(points, parameters, amplitude)), axis=1) / 4
 
 
-def profile(xi, left, right, degree):
+def profile(xi, left, right, degree, kind="bump", power=4):
     z = (2 * xi - left - right) / (right - left)
     halfwidth = (right - left) / 2
     p = np.zeros_like(z)
@@ -40,21 +40,28 @@ def profile(xi, left, right, degree):
     mask = np.abs(z) < 1
     zm = z[mask]
     d = 1 - zm * zm
-    bump = np.exp(1 - 1 / d)
-    logp = -2 * zm / d**2
-    logpp = -2 / d**2 - 8 * zm * zm / d**3
+    if kind == "polynomial":
+        bump = d**power
+        bump_p = -2 * power * zm * d**(power - 1)
+        bump_pp = -2 * power * d**(power - 1) + 4 * power * (power - 1) * zm * zm * d**(power - 2)
+    else:
+        bump = np.exp(1 - 1 / d)
+        logp = -2 * zm / d**2
+        logpp = -2 / d**2 - 8 * zm * zm / d**3
+        bump_p = bump * logp
+        bump_pp = bump * (logp * logp + logpp)
     coeff = np.zeros(degree + 1)
     coeff[-1] = 1
     polynomial = leg.legval(zm, coeff)
     polynomial_p = leg.legval(zm, leg.legder(coeff)) if degree else np.zeros_like(zm)
     polynomial_pp = leg.legval(zm, leg.legder(coeff, 2)) if degree > 1 else np.zeros_like(zm)
     p[mask] = bump * polynomial
-    dp[mask] = bump * (logp * polynomial + polynomial_p) / halfwidth
-    ddp[mask] = bump * ((logp * logp + logpp) * polynomial + 2 * logp * polynomial_p + polynomial_pp) / halfwidth**2
+    dp[mask] = (bump_p * polynomial + bump * polynomial_p) / halfwidth
+    ddp[mask] = (bump_pp * polynomial + 2 * bump_p * polynomial_p + bump * polynomial_pp) / halfwidth**2
     return p, dp, ddp
 
 
-def bending_fields(data, v, vs, om, u, left, right, count, scale=1):
+def bending_fields(data, v, vs, om, u, left, right, count, scale=1, profile_kind="bump", profile_power=4):
     """Return components in (T,N,B), plus true s/u derivatives in that frame."""
     kappa = data["kappa"][:, None]
     ks = (data["kappa_theta"] / data["sphere_speed"])[:, None]
@@ -68,7 +75,7 @@ def bending_fields(data, v, vs, om, u, left, right, count, scale=1):
     xis = (vs / u - ks) / (2 * h)
     values, ds, du = [], [], []
     for degree in range(count):
-        phi, phip, phipp = profile(xi, left, right, degree)
+        phi, phip, phipp = profile(xi, left, right, degree, profile_kind, profile_power)
         P = -u * phip / (2 * h)
         Q = u * phi - w * phip / (2 * h)
         Ps = u * vs * phip / (4 * h**3) - u * phipp * xis / (2 * h)
@@ -131,13 +138,15 @@ def build_reference(args):
     z, _ = leg.leggauss(128)
     xi = (left + right) / 2 + (right - left) / 2 * z
     u = np.sqrt(v)[:, None] / (xi[None, :] + om[:, None])
-    Y, _, _ = bending_fields(d, v, vp / d["sphere_speed"], om, u, left, right, 1)
+    Y, _, _ = bending_fields(d, v, vp / d["sphere_speed"], om, u, left, right, 1,
+                             profile_kind=getattr(args, "profile_kind", "bump"), profile_power=getattr(args, "profile_power", 4))
     raw_max = float(np.max(np.linalg.norm(Y[:, :, 0], axis=1)))
     scale = diameter / raw_max
     omega_error = (float(np.max(np.abs(om - omega(d["kappa"], parameters, amplitude, order=384))))
                    if parameters.kind == "curvature" else None)
     return parameters, amplitude, dict(reference_integrals=integrals, amplitude=amplitude,
-                                      sampled_reference_diameter=diameter, profile_left=left,
+                                      sampled_reference_diameter=diameter, profile_kind=getattr(args, "profile_kind", "bump"),
+                                      profile_power=getattr(args, "profile_power", 4), profile_left=left,
                                       profile_right=right, field_scale=scale,
                                       raw_field_sampled_max=raw_max,
                                       omega_quadrature_192_vs_384_error=omega_error,
@@ -224,7 +233,8 @@ def evaluate(args, parameters, amplitude, reference, epsilon):
     xi_u = -np.sqrt(v)[:, None] / u**2
     Y, Ys, Yu = bending_fields(d, v, vp / d["sphere_speed"], om, u,
                                reference["profile_left"], reference["profile_right"],
-                               args.exact_fields, reference["field_scale"])
+                               args.exact_fields, reference["field_scale"],
+                               reference["profile_kind"], reference["profile_power"])
     kappa = np.repeat(d["kappa"], args.u_n)
     w = (v[:, None] - d["kappa"][:, None] * u).ravel()
     U = u.ravel()
@@ -311,6 +321,8 @@ def evaluate(args, parameters, amplitude, reference, epsilon):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--kind", choices=["curvature", "symmetric"], default="curvature")
+    p.add_argument("--profile-kind", choices=["bump", "polynomial"], default="bump")
+    p.add_argument("--profile-power", type=int, default=4)
     p.add_argument("--q", type=int, default=3)
     p.add_argument("--a", type=float)
     p.add_argument("--b", type=float, default=.85)
@@ -327,7 +339,7 @@ def main():
     p.add_argument("--epsilon", type=float, nargs="+", default=[0, .005, .01])
     p.add_argument("--output", type=Path)
     args = p.parse_args()
-    if args.exact_fields < 1 or args.delta <= 0:
+    if args.exact_fields < 1 or args.delta <= 0 or args.profile_power < 4:
         p.error("Use positive delta and at least one exact bending field")
     parameters, amplitude, reference = build_reference(args)
     result = dict(schema="literature-band-kernel-v1", source="https://arxiv.org/html/2611.17269v1",

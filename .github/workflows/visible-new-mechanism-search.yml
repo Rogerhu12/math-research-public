@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -176,17 +176,73 @@ jobs:
         timeout-minutes: 25
         run: |
           python -u "$VISIBLE_NEW_SCRIPTS/literature_band_second_order.py" \
-            --theta-n 384 --xi-n 64 \
-            --output "$VISIBLE_NEW_OUT/second-order-N384-x64.json"
+            --theta-n 1536 --xi-n 192 \
+            --output "$VISIBLE_NEW_OUT/bump-second-order-N1536-x192.json"
           python -u "$VISIBLE_NEW_SCRIPTS/literature_band_second_order.py" \
-            --theta-n 768 --xi-n 96 \
-            --output "$VISIBLE_NEW_OUT/second-order-N768-x96.json"
+            --theta-n 3072 --xi-n 256 \
+            --output "$VISIBLE_NEW_OUT/bump-second-order-N3072-x256.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_band_second_order.py" \
+            --profile-kind polynomial --profile-power 4 --theta-n 384 --xi-n 64 \
+            --output "$VISIBLE_NEW_OUT/poly4-second-order-N384-x64.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_band_second_order.py" \
+            --profile-kind polynomial --profile-power 4 --theta-n 768 --xi-n 96 \
+            --output "$VISIBLE_NEW_OUT/poly4-second-order-N768-x96.json"
       - name: Screen exact closed band seeds for curvature and physical support width
         if: matrix.lane == 'band_geometry'
         timeout-minutes: 25
         run: |
           python -u "$VISIBLE_NEW_SCRIPTS/literature_band_geometry_scan.py" \
             --top 4 --out "$VISIBLE_NEW_OUT/band-geometry-scan.json"
+      - name: Solve fixed-metric nonlinear band path slices
+        if: matrix.lane == 'band_newton'
+        timeout-minutes: 35
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_band_path_newton.py" \
+            --profile-kind polynomial --profile-power 4 \
+            --theta-n 192 --xi-n 64 --modes 3 --degree 8 --epsilon .0001 \
+            --phases 0 .125 .25 .5 --max-nfev 60 --check-jacobian \
+            --output "$VISIBLE_NEW_OUT/poly4-fixed-metric-path-pilot.json"
+      - name: Check folded circular reference and solve pinned noncircular collars
+        if: matrix.lane == 'folded_bearing'
+        timeout-minutes: 40
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/folded_reference_geometry.py" \
+            --beta-wiggle 2.4 --length 3 --radius .8 --plateau .15 --cells 512 \
+            --curvature-limit 12 --out "$VISIBLE_NEW_OUT/folded-reference.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/folded_collar_search.py" \
+            --engine signed --core-shape curvature --seed2 .25 --seed3 .2 \
+            --beta-wiggle 2.4 --length 3 --radius .8 --plateau .15 \
+            --controls 14 --modes 6 --radial-order 8 --angles 64 --max-nfev 180 \
+            --reference-audit "$VISIBLE_NEW_OUT/folded-reference.json" \
+            --out "$VISIBLE_NEW_OUT/folded-signed-pinned-core.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/folded_collar_search.py" \
+            --engine cartesian --core-shape ellipse --ellipse-major 1.4 --ellipse-minor .5 \
+            --beta-wiggle 2.4 --length 3 --radius .8 --plateau .15 \
+            --controls 14 --modes 6 --radial-order 8 --angles 64 --max-nfev 180 \
+            --reference-audit "$VISIBLE_NEW_OUT/folded-reference.json" \
+            --out "$VISIBLE_NEW_OUT/folded-cartesian-ellipse-core.json"
+      - name: Solve two inward ellipse-to-collar designs that pass the port-length screen
+        if: matrix.lane == 'inward'
+        timeout-minutes: 40
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/inward_reference_geometry.py" \
+            --out "$VISIBLE_NEW_OUT/inward-reference-and-round-control.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/core_to_tail_bvp.py" \
+            --core-profile ellipse --ellipse-major 1 --ellipse-minor .3 --inlet-s .23 \
+            --background inward --length .80 --inward-overshoot 1.53 --inward-first-fraction .67 \
+            --cut-radius .28 --flat-start .26 --cuff-radius .23 \
+            --tail-plus 0 --tail-minus 0 --tail-plus-min -.1 --tail-minus-min -.1 --tail-angle-max .1 \
+            --tail-height-min .05 --tail-height-max .6 --radius-floor .24 --radius-ceiling .9 \
+            --radial-free 5 --modes 12 --angular 96 --radial-gauss 6 --inlet-angles 256 \
+            --max-nfev 250 --out "$VISIBLE_NEW_OUT/core-tail-inward-B.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/core_to_tail_bvp.py" \
+            --core-profile ellipse --ellipse-major 1 --ellipse-minor .3 --inlet-s .25 \
+            --background inward --length .80 --inward-overshoot 1.5 --inward-first-fraction .68 \
+            --cut-radius .28 --flat-start .26 --cuff-radius .23 \
+            --tail-plus 0 --tail-minus 0 --tail-plus-min -.1 --tail-minus-min -.1 --tail-angle-max .1 \
+            --tail-height-min .05 --tail-height-max .6 --radius-floor .24 --radius-ceiling .9 \
+            --radial-free 5 --modes 12 --angular 96 --radial-gauss 6 --inlet-angles 256 \
+            --max-nfev 250 --out "$VISIBLE_NEW_OUT/core-tail-inward-C.json"
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:

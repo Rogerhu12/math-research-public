@@ -35,3 +35,6 @@
 
 - 2026-11-14 18:45 CST，Astra-new-mechanism-9974ea84：完成R3准确半带镜像/平圆盘闭合的条件定理，给出全时reach归结与held/D≥.3043的完整像集充分预算。尚无满足这些条件的半带，继续inward-fold椭圆入口。
   私有QUEUE重新pull核对仍为本会话进行中，私有根README差异为空；未发布私有研究内容。
+
+- 2026-11-14 18:53 CST，Astra-new-mechanism-9974ea84：强椭圆准确柱入口和inward参考已实现；端口测地线曲率界排除L=.75的A，公开Actions只跑L=.8的B/C。另运行锁核心fixed-g双表示pilot。
+  二阶三公式和poly4 C2边界分支已实现，增加高分辨率复核及fixed-g Newton切片；84种几何扫已实际完成且无合格厚带。共享workflow/publisher同步更新lane与全部源码哈希，仍只用于本公开课题。
