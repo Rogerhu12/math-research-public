@@ -17,8 +17,10 @@ actual50 只对 old43/step11 的完整给定四个有限局部导数矩阵做了
 
 | 源码 | SHA256 |
 |---|---|
-| `exact_20261114_rawcell0_direct_ld_system.py` | `43d633002ea1fde869b95767c0fd26619cd6b7385cbd040bf6c740c2432f5a2c` |
-| `exact_20261114_rawcell0_direct_ld_equilibrated_correction.py` | `26e181ffcede90c3b2daff0c68a6725c937ecbdc7a87f017e79d7c9620700623` |
+| `exact_20261114_rawcell0_direct_ld_system.py` | `b64b6ed8b387834b5cc9332675127a1dcbb15a317c3400f5b768d18cdbdf5a8e` |
+| `exact_20261114_rawcell0_direct_ld_equilibrated_correction.py` | `42e10320252935015c65bbc34579947e559182bb1b2a74ca1aa13a6597c064b9` |
+
+本版 source pin 跟随完整 spec 的 gzip 传输修复。request52 在写入完整明文 spec 的 1MB 上限处停止，尚未启动 native、worker 或新矩阵形成；旧52源码仍由 Git 历史保留。本次仅更新 capture/hook/worker 的传输源码身份及 adapter/consumer 的对应 pin，窗口、actual50 算术、矩阵定义、均衡、LU、精确残差和原接受规则不变。
 
 ## 2. 不变的数据与唯一变化的数据
 

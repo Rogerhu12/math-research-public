@@ -21,7 +21,8 @@ if(!specPath)throw Error('Explicit verified complete native seed specification r
 const selfPath=fileURLToPath(import.meta.url),here=path.dirname(selfPath);
 const sha=x=>crypto.createHash('sha256').update(x).digest('hex');
 const fileSHA=p=>sha(fs.readFileSync(p));
-const specRaw=fs.readFileSync(specPath),spec=JSON.parse(specRaw),specSHA=sha(specRaw);
+const specRaw=fs.readFileSync(specPath),specJSON=specRaw[0]===31&&specRaw[1]===139?zlib.gunzipSync(specRaw):specRaw;
+const spec=JSON.parse(specJSON),specSHA=sha(specRaw);
 const frozenPath=path.join(here,'tail_frozen_worker.mjs');
 const frozenSHA='3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054';
 const actual23SHA='aa93fb8afbd0c8ce3ec49859f3bcfae465696654f626ed1678ceb430329ec6ea';

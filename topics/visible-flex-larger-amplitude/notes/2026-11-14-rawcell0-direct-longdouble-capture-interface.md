@@ -1,4 +1,4 @@
-# 52 接口：原 868 步的直接 longdouble 单步矩阵
+# 完整 direct-LD 接口：原 868 步的直接 longdouble 单步矩阵
 
 类型：计算流程与源码接口；作者：geometry / root；日期：2026-11-14。
 
@@ -14,10 +14,10 @@ actual 50 的完整矩阵误差比较及工作精度见 [实际候选记录](202
 
 | 文件 | 字节数 | SHA256 |
 | --- | ---: | --- |
-| `geometry_20261114_native_rawcell0_direct_ld_capture.py` | 23,305 | `59189a35fcfbbf6f46d56e95429fdf6b7d09f794f46ed6e0137635861232c301` |
-| `geometry_20261114_native_rawcell0_direct_ld_capture_hook.mjs` | 50,892 | `3b04cb9bd454f0b902805f8b2585aa73479c27119bb5bf86809355f8b65b22e8` |
+| `geometry_20261114_native_rawcell0_direct_ld_capture.py` | 24,018 | `a63ffda643044787cb0ad5fb0d7c2aa4e4b34090fefa4b9053f4f2550bf85dbf` |
+| `geometry_20261114_native_rawcell0_direct_ld_capture_hook.mjs` | 50,976 | `3499f7abb96a4f25c4c3a986d97dc8aea3b21742770aabe7abe2822ad8b3caf4` |
 | `geometry_20261114_native_rawcell0_direct_ld_window.mjs` | 8,451 | `1ba3f30702b26aa78b4aceb0b2d3d5d71ea8fa858b114d982ead185330faa5d9` |
-| `geometry_20261114_rawcell0_direct_ld_worker.py` | 11,354 | `d88b13bc379b14ec01b77a1e8d058875da9a8cf86f0d46b0162ce8128364531e` |
+| `geometry_20261114_rawcell0_direct_ld_worker.py` | 11,428 | `87ab92d9234d6e58103d44d125ce5510f9cde34ac37df251b7e63dcb6747a9c8` |
 
 算术 worker 还严格绑定已经执行过的 `geometry_20261114_saved_stage_rk_covariance.py`，SHA256 `01ec3476ce8d2331b49122ce3d001908eb427d52ea52d367a978cd6de9dde548`。它直接调用其中未修改的 `direct_rk`，没有另抄一份数学实现。传入的 `OmittedWorkingFiles` 仅替代该函数的调试文件写入观察器，不修改数组或算术表达式；该函数的全部有限值检查保留。
 
@@ -101,3 +101,7 @@ summary schema 为 `native-rawcell0-saved-step-direct-longdouble-summary-v1`。m
 独立 `exact_20261114_rawcell0_direct_ld_system.py` 绑定原 28/41 完整系统，只替换前 868 个短块，后 504 个原块逐字复用。旧 `old_to_new`、1373 个 base 节点、全部原 residual、cut、far、sigma、mean/port 语义与 577 节点限制保持原件。新 target 有自己的 matrix identity，不能沿用旧 `e929…` 有限矩阵身份。
 
 `exact_20261114_rawcell0_direct_ld_equilibrated_correction.py` 对该新目标形成方向并在同一原坐标、原 sigma 下读回；它的实际 result SHA 由后续运行决定。原十试步薄入口属于下一消费者：用真实新方向的原 577 节点限制，保持原 evaluate、guard、十个 alpha、严格原范数下降，首个接受步后 STOP。没有新增 exact 小缺陷门，也不会重派早已证坏的 43 方向。本次仍只是必要的有限矩阵构造，不宣称大核闭面或本课题完成。
+
+## 54 运输修复版本
+
+实际52在启动worker前命中完整spec的旧明文1MB上限。当前表更新到[完整gzip transport](2026-11-14-direct-LD-gzip-specification-transport.md)的真实源身份；旧52由原commit保留。spec现在完整存direct-ld-spec.json.gz，两读取端按magic解压且spec SHA仍绑定压缩file bytes；没有改变任何数学表达式或省略字段。54真实结果尚待Actions。

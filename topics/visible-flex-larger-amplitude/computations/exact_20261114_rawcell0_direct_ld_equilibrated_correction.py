@@ -25,7 +25,7 @@ import scipy
 
 HERE=Path(__file__).resolve().parent
 ADAPTER_NAME='exact_20261114_rawcell0_direct_ld_system.py'
-ADAPTER_SHA='43d633002ea1fde869b95767c0fd26619cd6b7385cbd040bf6c740c2432f5a2c'
+ADAPTER_SHA='b64b6ed8b387834b5cc9332675127a1dcbb15a317c3400f5b768d18cdbdf5a8e'
 EQUIL_NAME='geometry_20261114_native_equilibrated_band_correction.py'
 EQUIL_SHA='8f5cb5da0826e3deedf935eca2e62b91c6628861804b2e66c6f853e9459e1dd3'
 SCALING='direct-LD-f64-J1372-original-sigma-nearest-dyadic-row-column-max-entry-v1'

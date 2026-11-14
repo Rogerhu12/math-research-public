@@ -335,8 +335,8 @@ function stateRows(rows){
    .map(column=>({column,...numberRecord(state[column])}))}));
 }
 function checkDirection(direction,checkpoint,manifest){
- const producer='26e181ffcede90c3b2daff0c68a6725c937ecbdc7a87f017e79d7c9620700623';
- const adapter='43d633002ea1fde869b95767c0fd26619cd6b7385cbd040bf6c740c2432f5a2c';
+ const producer='42e10320252935015c65bbc34579947e559182bb1b2a74ca1aa13a6597c064b9';
+ const adapter='b64b6ed8b387834b5cc9332675127a1dcbb15a317c3400f5b768d18cdbdf5a8e';
  const probeSource='c2341018c6293e15ee8e5ba9109b331b29bee2e3e944514e1a0308afe8e6ffd5';
  const probeHook='2695cd2dc0abc66fe3f8ae8987b6ae3b50b884f692a418198347a61dddf24435';
  const windowSource='07dd6101569097a9524c35457c1467002a250911dd049bcb720b3b8c700efd2b';

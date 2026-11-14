@@ -39,10 +39,10 @@ SOURCE_NAMES = {
     'worker_source_sha256': 'geometry_20261114_rawcell0_direct_ld_worker.py',
 }
 SOURCE_SHA = {
-    'source_sha256': '59189a35fcfbbf6f46d56e95429fdf6b7d09f794f46ed6e0137635861232c301',
-    'hook_sha256': '3b04cb9bd454f0b902805f8b2585aa73479c27119bb5bf86809355f8b65b22e8',
+    'source_sha256': 'a63ffda643044787cb0ad5fb0d7c2aa4e4b34090fefa4b9053f4f2550bf85dbf',
+    'hook_sha256': '3499f7abb96a4f25c4c3a986d97dc8aea3b21742770aabe7abe2822ad8b3caf4',
     'window_module_sha256': '1ba3f30702b26aa78b4aceb0b2d3d5d71ea8fa858b114d982ead185330faa5d9',
-    'worker_source_sha256': 'd88b13bc379b14ec01b77a1e8d058875da9a8cf86f0d46b0162ce8128364531e',
+    'worker_source_sha256': '87ab92d9234d6e58103d44d125ce5510f9cde34ac37df251b7e63dcb6747a9c8',
 }
 
 

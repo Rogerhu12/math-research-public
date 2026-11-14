@@ -466,3 +466,7 @@ root已读两完整源和接口、取件器及独立workflow；只有本地AST/Y
 52 run43634201913/source61831d6a76b2a06e0c22f7fe03aad87d1b69d39f/job132567309832，原28/41fetch和78source恢复success；capture在19:51:04Z创建完整spec时命中原B.write“Use a bounded gzip packet for a large evidence record”。native/worker在此之后才会启动，故没有新RHS/J/ODE、方向或trial，不作数学失败结论。art14129895088/697565B/ZIPf5351cb68add465edeb99eb521f1a14942f8e8047c4741f0a9c30640980cead9与原job log完整取回；下一54只修完整gzip transport，保科学表达式并更新实际所有source pins。
 
 R273完整原σ块链阻尼平方根定理已直接入results与索引：每节点ηI恰一次、全部cut/stage/far、两次QR/carry/常数能量、唯一性/回代/后验与L2不保证∞的完整反例。root读全文后按Rule12直接登记，无独审审批门；尚无新solver或数值，不把理论当native接受。
+
+## 2026-11-14 19:57:05 UTC /root — request54完整规格gzip运输修复
+
+[52真实首错](notes/2026-11-14-actual-request52-direct-LD-spec-transport-failure.md)与[修复范围](notes/2026-11-14-direct-LD-gzip-specification-transport.md)已读并保存。完整spec gzip(不删字段)、Node/Python按magic读取且SHA仍为压缩file bytes；三个源及新adapter/solver/两trial只传播真实pin变更，原数学不变。新capture a63ffda6…/hook3499f7ab…/worker87ab92d9…，adapter b64b6ed8…/solver42e10320…，trial 99204fcd…/373c82c7…。root读全部diff与接口，16源静态AST/Node过，无本地科学；原CLI、完整1372/577限制、所有原trial准则保持。沿唯一directld request派54，真实结果待回读。53 run43634517255/source dd3156cf…/job132568287151已在19:53:54Z进入同15/512工作行warm，前置与父51透明gzip身份均通过。

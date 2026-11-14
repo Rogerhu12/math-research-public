@@ -8,6 +8,7 @@ No native RHS, root, ODE, node state, residual, solve or acceptance is run here.
 """
 from __future__ import annotations
 import argparse
+import gzip
 import hashlib
 import importlib.util
 import json
@@ -103,7 +104,7 @@ def main():
     args = parser.parse_args()
     out = args.out.resolve()
     spec_raw = args.spec.read_bytes()
-    spec = json.loads(spec_raw)
+    spec = json.loads(gzip.decompress(spec_raw) if spec_raw[:2] == b'\x1f\x8b' else spec_raw)
     source_sha = digest(Path(__file__).read_bytes())
     need(spec['worker_source_sha256'] == source_sha and Path(spec['output']).resolve() == out,
          'Bind the actual worker source and independent output directory')

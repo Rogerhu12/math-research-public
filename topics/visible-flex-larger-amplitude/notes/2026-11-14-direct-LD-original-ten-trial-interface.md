@@ -1,13 +1,13 @@
 # 新 direct-LD1372 方向接回原十档非线性试步
 
-类型：计算流程与源码接口，尚未运行52；作者：root；日期：2026-11-14。
+类型：计算流程与源码接口，54运输修复后待实际运行；作者：root；日期：2026-11-14。
 
 本入口直接衔接 [868块形成](2026-11-14-rawcell0-direct-longdouble-capture-interface.md) 与 [完整1372系统](2026-11-14-direct-LD-complete1372-system-interface.md)。唯一方向来源是52新矩阵的一致重解，不使用旧41或43方向冒充。全部科学运行仅在公开仓库 Actions。
 
 | 新源 | SHA256 |
 | --- | --- |
-| `geometry_20261114_native_direct_ld_trial_replay.py` | `bc5374e311ffc40a70acab9a2259ab9eb5e3033604dd6f7042b395998d4b541a` |
-| `geometry_20261114_native_direct_ld_trial_replay_hook.mjs` | `ca6742375ccd31e4e7cefc23040179c3b498a63d847eca5e3a70af6559c084b3` |
+| `geometry_20261114_native_direct_ld_trial_replay.py` | `99204fcd615affc393a04800f62f80d05dce5225a90ece6c27b4b00e4c241160` |
+| `geometry_20261114_native_direct_ld_trial_replay_hook.mjs` | `373c82c75152a800246e84618fb2ba72fc0b3960e3b3e4eff9b7590724bad4ce` |
 
 两个文件薄改原 rawcell0-step replay。Python增加新的capture目录、实际result SHA、source与独立矩阵身份；Node只改绑定和schema。原核心的十个alpha、无J `evaluate`、全部guard和严格 `test.norm < ev.norm` 接受分支保持原表达式；源码插入继续逐字反向恢复到原核心，未加入线性残差门、删模或改变原容差。
 
@@ -32,3 +32,5 @@ spec/schema前缀为 `original-native-direct-LD1372-trial-replay`，环境键 `V
 ## 静态完成范围
 
 root已读新source及相对原replay的完整差异。仅做AST、Node语法、workflow YAML、13个bash片段与4个内嵌Python语法检查；没有本地科学计算。job显式使用150分钟资源预算，capture45分钟、完整solve45分钟、原trial30分钟。预算不是科学接受标准；超时或失败保原件并继续处理真实原因。
+
+54版本只跟随capture完整gzip修复更新new adapter与solver pins；原十trial数学、selected-state存储和原接受规则均为同一表达式。52尚未启动native，其原trace见[实际52记录](2026-11-14-actual-request52-direct-LD-spec-transport-failure.md)。

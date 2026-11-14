@@ -8,6 +8,7 @@ Stop before native solve, whole-tail J, trial, endpoint J or final audit.
 """
 from __future__ import annotations
 import argparse
+import gzip
 import hashlib
 import importlib.util
 import json
@@ -67,7 +68,7 @@ STEP_PRODUCER_SHA='c2341018c6293e15ee8e5ba9109b331b29bee2e3e944514e1a0308afe8e6f
 STEP_HOOK_NAME='geometry_20261114_native_rawcell0_step_capture_hook.mjs'
 STEP_HOOK_SHA='2695cd2dc0abc66fe3f8ae8987b6ae3b50b884f692a418198347a61dddf24435'
 WORKER_NAME='geometry_20261114_rawcell0_direct_ld_worker.py'
-WORKER_SHA='d88b13bc379b14ec01b77a1e8d058875da9a8cf86f0d46b0162ce8128364531e'
+WORKER_SHA='87ab92d9234d6e58103d44d125ce5510f9cde34ac37df251b7e63dcb6747a9c8'
 DIRECT_NAME='geometry_20261114_saved_stage_rk_covariance.py'
 DIRECT_SHA='01ec3476ce8d2331b49122ce3d001908eb427d52ea52d367a978cd6de9dde548'
 
@@ -187,6 +188,17 @@ def original_step_references(a,B):
 
 
 
+def write_specification(path,value):
+    """Store the complete evidence specification; hashes bind compressed bytes."""
+    raw=(json.dumps(value,ensure_ascii=False,sort_keys=True,indent=2,allow_nan=False)+'\n').encode()
+    packed=gzip.compress(raw,compresslevel=9,mtime=0)
+    if len(packed)>=4_900_000:
+        raise ValueError('Keep the complete gzip specification below the public5MB file limit')
+    with path.open('xb') as stream:stream.write(packed)
+    return dict(file=path.name,bytes=len(packed),sha256=hashlib.sha256(packed).hexdigest(),
+        raw_bytes=len(raw),raw_sha256=hashlib.sha256(raw).hexdigest(),encoding='json-gzip')
+
+
 def main():
     if (os.environ.get('GITHUB_ACTIONS')!='true' or
             os.environ.get('GITHUB_REPOSITORY','').lower()!='rogerhu12/math-research-public'):
@@ -240,14 +252,14 @@ def main():
         additional_ODE_steps=0,new_original_long_J_evaluations=0,new_whole_tail_J_evaluations=0,no_J_evaluations=0,
         original_native_solve_called=False,endpoint_J_or_audit_computed=False,
         original_H_far_graphs_gains_sigma_and_tolerances_unchanged=True,task_completed=False)
-    spec_path=a.out/'direct-ld-spec.json';B.write(spec_path,spec)
+    spec_path=a.out/'direct-ld-spec.json.gz';specification=write_specification(spec_path,spec)
     previous=os.environ.get(VARIABLE);os.environ[VARIABLE]=str(spec_path)
     popen=original.subprocess.Popen;commands=[];client=None;started=time.monotonic()
     result=dict(schema='native-rawcell0-saved-step-direct-longdouble-maps-v1',capture_completed=False,completed=False,
         native_accepted=False,task_completed=False,source_sha256=B.sha(__file__),hook_sha256=B.sha(hook),
         window_module_sha256=WINDOW_SHA,worker_source_sha256=WORKER_SHA,direct_arithmetic_source_sha256=DIRECT_SHA,
         actual41_result_sha256=STEP_RESULT_SHA,original_capture_result_sha256=CAPTURE_SHA,
-        spec_sha256=B.sha(spec_path),capture_result_sha256=CAPTURE_SHA,
+        spec_sha256=B.sha(spec_path),specification=specification,capture_result_sha256=CAPTURE_SHA,
         original_native_solve_called=False,new_whole_tail_J_evaluations=0,
         new_original_long_J_evaluations=0,no_J_evaluations=0,additional_ODE_steps=0,
         endpoint_J_or_audit_computed=False)
