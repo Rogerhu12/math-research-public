@@ -47,6 +47,12 @@ jobs:
               raise SystemExit('Native prebasis is only the original F31 parameter model')
           if prebasis=='native-nf-f31' and request['stage']!='annihilator':
               raise SystemExit('Native normal forms currently support exact quotient annihilators only')
+          nf_format=request.get('normal_forms_format','text')
+          if nf_format not in ['text','ssi'] or nf_format=='ssi' and prebasis!='native-nf-f31':
+              raise SystemExit('SSI requires the complete native F31 normal forms')
+          module_order=request.get('module_order','c,dp')
+          if module_order not in ['c,dp','dp,c'] or module_order=='dp,c' and nf_format!='ssi':
+              raise SystemExit('Degree-first order requires correctly sorted completed native SSI')
           if not 1<=seconds<=1800 or not 512<=memory<=4096:
               raise SystemExit('Request exceeds the bounded execution limits')
           out=Path(os.environ['RUNNER_TEMP'])/('isp-r150-module-'+str(characteristic))
@@ -62,6 +68,8 @@ jobs:
               'topics/invariant-subspace-problem/notes/2026-11-14-r150-eleven-n-source-profile-789f.json',
               'topics/invariant-subspace-problem/notes/2026-11-14-r150-native-normal-form-789f.cpp',
               'topics/invariant-subspace-problem/notes/2026-11-14-r150-native-normal-form-runner-789f.js',
+              'topics/invariant-subspace-problem/notes/2026-11-14-r150-native-normal-form-ssi-789f.py',
+              'topics/invariant-subspace-problem/notes/2026-11-14-r150-native-normal-form-graded-ssi-789f.py',
               'topics/invariant-subspace-problem/notes/2026-11-14-r150-module-actions-publish-789f.py',
               '.github/workflows/invariant-subspace-r150-finite-module.yml']
           source={'source_commit':os.environ['GITHUB_SHA'],'rules':rules,'request':request,'request_sha256':hashlib.sha256(request_path.read_bytes()).hexdigest(),
@@ -69,7 +77,7 @@ jobs:
                   'method':'finite-macaulay-module','scope':'Finite characteristic is discovery only; a complex-parameter conclusion requires characteristic zero original-row lift and actual denominators.'}
           (out/'source.json').write_text(json.dumps(source,indent=2)+'\n')
           with open(os.environ['GITHUB_ENV'],'a') as f:
-              for key,value in {'ISP_CHARACTERISTIC':characteristic,'ISP_MODULE_SECONDS':seconds,'ISP_MODULE_MEMORY_MIB':memory,'ISP_MODULE_STAGE':request['stage'],'ISP_MODULE_PRECONDITION':request['precondition'],'ISP_MODULE_PREBASIS':prebasis,'ISP_MODULE_OUT':str(out)}.items():
+              for key,value in {'ISP_CHARACTERISTIC':characteristic,'ISP_MODULE_SECONDS':seconds,'ISP_MODULE_MEMORY_MIB':memory,'ISP_MODULE_STAGE':request['stage'],'ISP_MODULE_PRECONDITION':request['precondition'],'ISP_MODULE_PREBASIS':prebasis,'ISP_MODULE_NORMAL_FORM_FORMAT':nf_format,'ISP_MODULE_ORDER':module_order,'ISP_MODULE_OUT':str(out)}.items():
                   f.write(str(key)+'='+str(value)+'\n')
           print(json.dumps({'characteristic':characteristic,'stage':request['stage'],'seconds':seconds,'memory_mib':memory,'precondition':request['precondition']}))
           PY
@@ -123,6 +131,34 @@ jobs:
           (out/'native-normal-form-source-storage.json').write_text(json.dumps(records,indent=2)+'\n')
           PY
           exit "$native_status"
+      - name: Serialize exact native normal forms for the installed Singular
+        if: env.ISP_MODULE_NORMAL_FORM_FORMAT == 'ssi'
+        timeout-minutes: 3
+        run: |
+          set -o pipefail
+          native_dir="$RUNNER_TEMP/isp-r150-native-nf"
+          ssi_dir="$RUNNER_TEMP/isp-r150-native-ssi"
+          ssi_converter=topics/invariant-subspace-problem/notes/2026-11-14-r150-native-normal-form-ssi-789f.py
+          if [ "$ISP_MODULE_ORDER" = dp,c ]; then
+            ssi_converter=topics/invariant-subspace-problem/notes/2026-11-14-r150-native-normal-form-graded-ssi-789f.py
+          fi
+          set +e
+          timeout --kill-after=10s 120s prlimit --as=536870912 --core=0 -- \
+            python "$ssi_converter" \
+            --input "$native_dir/nf-normal-forms.bin" --mapping "$native_dir/normal-form-mapping.json" \
+            --out "$ssi_dir" --singular Singular \
+            2>&1 | tee "$ISP_MODULE_OUT/native-ssi-console.log"
+          ssi_status=${PIPESTATUS[0]}
+          set -e
+          python - <<'PY'
+          import os,shutil
+          from pathlib import Path
+          src=Path(os.environ['RUNNER_TEMP'])/'isp-r150-native-ssi'
+          out=Path(os.environ['ISP_MODULE_OUT'])
+          for name in ['ssi-receipt.json','ssi-runtime-fixture.ssi','ssi-runtime-fixture.sing','ssi-runtime-fixture.log']:
+              if (src/name).exists():shutil.copyfile(src/name,out/('native-'+name))
+          PY
+          exit "$ssi_status"
       - name: Preserve original seventeen-equation input and component mapping
         timeout-minutes: 5
         run: |
@@ -132,10 +168,13 @@ jobs:
             prebasis_args=(--prebasis-file "$RUNNER_TEMP/isp-r150-native/basis.sing")
           elif [ "$ISP_MODULE_PREBASIS" = native-nf-f31 ]; then
             prebasis_args=(--normal-forms-file "$RUNNER_TEMP/isp-r150-native-nf/nf-normal-forms.sing")
+            if [ "$ISP_MODULE_NORMAL_FORM_FORMAT" = ssi ]; then
+              prebasis_args+=(--normal-forms-ssi "$RUNNER_TEMP/isp-r150-native-ssi/normal-forms.ssi")
+            fi
           fi
           node topics/invariant-subspace-problem/notes/2026-11-14-r150-finite-macaulay-module-789f.js \
             --out "$ISP_MODULE_OUT" --characteristic "$ISP_CHARACTERISTIC" \
-            --stage "$ISP_MODULE_STAGE" --precondition "$ISP_MODULE_PRECONDITION" \
+            --stage "$ISP_MODULE_STAGE" --precondition "$ISP_MODULE_PRECONDITION" --module-order "$ISP_MODULE_ORDER" \
             "${prebasis_args[@]}" \
             --seconds "$ISP_MODULE_SECONDS" --memory-mib "$ISP_MODULE_MEMORY_MIB" --generate-only \
             2>&1 | tee "$ISP_MODULE_OUT/preflight.log"
@@ -156,10 +195,13 @@ jobs:
             prebasis_args=(--prebasis-file "$RUNNER_TEMP/isp-r150-native/basis.sing")
           elif [ "$ISP_MODULE_PREBASIS" = native-nf-f31 ]; then
             prebasis_args=(--normal-forms-file "$RUNNER_TEMP/isp-r150-native-nf/nf-normal-forms.sing")
+            if [ "$ISP_MODULE_NORMAL_FORM_FORMAT" = ssi ]; then
+              prebasis_args+=(--normal-forms-ssi "$RUNNER_TEMP/isp-r150-native-ssi/normal-forms.ssi")
+            fi
           fi
           node topics/invariant-subspace-problem/notes/2026-11-14-r150-finite-macaulay-module-789f.js \
             --out "$ISP_MODULE_OUT" --characteristic "$ISP_CHARACTERISTIC" \
-            --stage "$ISP_MODULE_STAGE" --precondition "$ISP_MODULE_PRECONDITION" \
+            --stage "$ISP_MODULE_STAGE" --precondition "$ISP_MODULE_PRECONDITION" --module-order "$ISP_MODULE_ORDER" \
             "${prebasis_args[@]}" \
             --seconds "$ISP_MODULE_SECONDS" --memory-mib "$ISP_MODULE_MEMORY_MIB" \
             2>&1 | tee "$ISP_MODULE_OUT/console.log"

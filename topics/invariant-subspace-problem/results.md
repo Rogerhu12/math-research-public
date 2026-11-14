@@ -794,8 +794,12 @@
 
 ### R150 附录：全部2195原来源的精确参数正常形已完成
 
-[完整证明与实际全量回执](results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)以同次数常单位反向化保3333预模和参数尾，再逐m次数降阶。原F31[s]的2195来源及九目标在60秒/512MiB上限内实际54.8127秒全部完成，保1034分量及所有参数系数（最高45次）、25305683步可回放消元。前向DAG与旧证书逐字同哈希，完整同次数DAG另存；原式回代FC+B(hJ−HC)=hT写全。新的瓶颈是198MB表达式导入；余模std、Ann和特征零证书未得，不重复旧Singular reduce。
+[完整证明与实际全量回执](results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)以同次数常单位反向化保3333预模和参数尾，再逐m次数降阶。原F31[s]的2195来源及九目标在60秒/512MiB上限内实际54.8127秒全部完成，保1034分量及所有参数系数（最高45次）、25305683步可回放消元。前向DAG与旧证书逐字同哈希，完整同次数DAG另存；原式回代FC+B(hJ−HC)=hT写全。此后[SSI入口](notes/2026-11-14-r150-native-normal-form-ssi-789f.md)完成同系数全量导入（4.575秒），新CI请求直接进入余模std。Ann和特征零证书未得，不重复旧Singular reduce。
 
 ### R299：逐位内函数正核与所有出生的完整平方能量
 
 [完整证明](results/R299-boolean-product-inner-kernel-and-complete-primitive-energy.md)从实际Pauli翻转构造B(z)=∏(zI−ibiXi)/(z+ibi)，给显式Pick Gram ΣF_i(w)*F_i(z)及源保持Gauss分解。对全部primitive f，Σ_j t²ʲ‖(d*)ʲD_t f/j!‖²=∏(1+t²bi²)‖f‖²，D_t是占据对角乘积；全部(j+2a>M)高次系数严格消去。奇数硬端首尾系数同时含真实J1u、A_Uu和三次桥，未将所需L1免费插入；统一κ仍待真实Schur识别。
+
+### R150 附录：次数优先模消元保持45次及精确流式来源
+
+[完整证明](results/R150-appendix-parameter-degree-preserving-univariate-module-basis.md)给任意单变量域上次数优先的S对、约化及互相约化不增加整行次数；本题完整NF后取(dp,c)，所有标准基向量保持≤45次。同主分量Euclidean换行的总势能严格降，保全部原k[s]模、可回放来源且最终应为1021行；不限制原表示系数或Ann次数。同一NF的新排序SSI已用4.132秒全载，唯一新CI请求固定该序、1800秒/4GiB；实际GB/Ann仍待计算。

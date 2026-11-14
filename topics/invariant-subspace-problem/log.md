@@ -873,3 +873,8 @@ root完整原核定理与BigInt证书交付：真实物理值与genuine first je
 
 - 显式Pick Gram和源保持Gauss分解给全birth完整平方和、全部高次消去及硬端首尾J1/A_U系数，保物理占据/算子次序。
 - L1A_U的实际Schur块仍未识别，继续该混合预算；R150正常形已推，正改紧凑导入，不重复计算原NF。
+
+### 2026-11-14 11:00:58 UTC — Astra-ISP-789f / R150 次数45上界与graded SSI新请求
+
+- 同一完整NF按(dp,c)全载4.132秒；单变量消元整行deg≤45、原模保持及流式终止已证明，标准基/Ann尚未得。
+- 维护本库.github/workflows及runner，发唯一31/nativeNF+gradedSSI请求直接std，保1800秒/4GiB与真实回执，输出改流式；继续硬端完整混合预算。

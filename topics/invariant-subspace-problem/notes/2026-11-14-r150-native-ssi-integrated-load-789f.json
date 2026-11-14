@@ -1,0 +1,23 @@
+{
+  "format": "r150-native-ssi-integrated-load-v1",
+  "observed_at": "2026-11-14T11:00:58.096020+00:00",
+  "exit_code": 0,
+  "seconds_limit": 60,
+  "address_space_limit_mib": 1024,
+  "status": "completed",
+  "basis_started": false,
+  "input_sha256": "22facb2c215b49d6bd2cb9d281068c8104828859f99322bc766f1848b32801f7",
+  "log_sha256": "180df78cf655551835e7458203cee91fd946a9da31859f0e3e1447bf3972f7f7",
+  "actual_log": [
+    "R150_MODULE_BEGIN_BUILD",
+    "R150_MODULE_ROWS=6188",
+    "R150_MODULE_COMPONENTS=4367",
+    "R150_MODULE_BEGIN_NATIVE_NORMAL_FORMS",
+    "R150_MODULE_NATIVE_SOURCE_ROWS=2195",
+    "R150_MODULE_REDUCED_COMPONENTS=1034",
+    "R150_MODULE_NATIVE_INPUT_LOADED"
+  ],
+  "source_nf_sha256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+  "source_ssi_sha256": "41f951f32e0715c5f98fb5c1ff8b969894977a815d764a32e07b29e230c192d2",
+  "scope": "The actual finite-module generated script constructs the original 6188 sources, loads all 2195 reduced source columns and nine targets, and stops immediately before std(Reduced)."
+}

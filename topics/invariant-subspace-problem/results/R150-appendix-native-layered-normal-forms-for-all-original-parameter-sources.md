@@ -168,4 +168,10 @@ $$
 
 有限模 runner 已新增 `--normal-forms-file`，完整比对原数据、预基/十一额外源profile、全部2195原行映射、1034分量映射、九目标及前向DAG哈希；仅允许未专门化F31[s]的annihilator阶段，不把2195列系数误接旧6188列lift。原17式的3927次重建检查仍保留。
 
-[实际导入探测](../notes/2026-11-14-r150-native-nf-import-probe-789f.json)在60秒/1GiB上限下退出124，日志到BEGIN_NATIVE_NORMAL_FORMS，尚未NATIVE_INPUT_LOADED，也未运行std。它仅说明约198MB逐向量表达式的导入尚未完成，不推翻已完成的原生正常形。当前改进紧凑系数到Singular的导入方式；本次工作流维护不改请求文件，因此没有重复触发长任务。
+[实际导入探测](../notes/2026-11-14-r150-native-nf-import-probe-789f.json)在60秒/1GiB上限下退出124，日志到BEGIN_NATIVE_NORMAL_FORMS，尚未NATIVE_INPUT_LOADED，也未运行std。它仅说明约198MB逐向量表达式的导入尚未完成，不推翻已完成的原生正常形。当时转向改进紧凑系数到Singular的导入方式，该次工作流维护未改请求文件。
+
+## 10. SSI导入已完成，后继直接余模请求
+
+[完整SSI接入记录](../notes/2026-11-14-r150-native-normal-form-ssi-789f.md)从同一33MB二进制逐项转换全部26372227个非零系数，当前运行时自生成版本/环头。实际转换16.729秒，全部模读入4.575秒（60秒/1GiB上限）；根完整原式入口的集成读入也退出0并到达1034分量标记。未重新计算NF。
+
+本次明确CI请求使用原生全NF及SSI，直接进入std(Reduced)，限1800秒/4GiB。该请求尚不构成标准基或Ann结论；原完整来源身份、九目标、特征零和射影覆盖判据不变。

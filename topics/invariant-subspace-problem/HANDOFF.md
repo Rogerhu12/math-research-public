@@ -4,11 +4,11 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `4cf4f5f827208291b920316bb14e561cea99cb34`（2026-11-14 10:55:26 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `2acf0d288ad15135473215e349d2b0021f62c880`（2026-11-14 11:10:00 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。`0c17ddf2`新增表列课题/规矩1、13扩范围，`ee26c0a6`仅改另题标题，均已读，ISP标准不变。
-- **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`；旧丢失R272正常预对偶与R273完整MP已重建并推送。
-- **完整旧范围：** [此前H](notes/2026-11-14-handoff-before-boolean-inner-energy-789f.md)与[open归档](notes/2026-11-14-open-before-boolean-inner-energy-789f.md)保完整范围；未列接口不算关闭。
+- **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`；旧R272/273已重建推送。历史只读副本移至`/tmp/isp-789f-old-math-research`以释放共享磁盘，全部保留。
+- **完整旧范围：** [此前H](notes/2026-11-14-handoff-before-graded-module-789f.md)与[open归档](notes/2026-11-14-open-before-graded-module-789f.md)保完整范围；未列接口不算关闭。
 
 ## 模型及不可越过的范围
 
@@ -42,7 +42,7 @@
 
 ## 3. R150 与其他主接口
 
-R150：全部rankAy8已闭，余g≠0、rankAy9有限Σ；[完整计划/实际回执](notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md)保原17式、char0 I*C=T和实际分母。旧char0失联原因未知、32003明确12GiB内存失败；43583257344在1800秒/4GiB后停原行reduce，未进入余模std。3333常枢轴全复参数可逆；F31[s]全部N=预基+11原行、只需2195来源，原163方核及齐次度8770/74次射影gcd准则均已证明，实际因子未算。[原生全正常形](results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)现以同次数常反向化、逐m层消元，在54.8127秒/512MiB内完成全部2195来源和九目标，最高参数45次、保1034映射和可回放原行DAG。198MB文本导入60秒/1GiB尚未完成，std/Ann未开始；正改导入格式，不再重算NF或旧reduce。新CLI/本库workflow已接原生NF模式，但请求文件未变，尚未启动下一长任务。有限域结果不替char0或最大子式全覆盖。
+R150：全部rankAy8已闭，余g≠0、rankAy9有限Σ；[完整计划/实际回执](notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md)保原17式、char0 I*C=T和实际分母。旧char0失联原因未知、32003明确12GiB内存失败；43583257344在1800秒/4GiB后停原行reduce，未进入余模std。3333常枢轴全复参数可逆；F31[s]全部N=预基+11原行、只需2195来源，原163方核及齐次度8770/74次射影gcd准则均已证明，实际因子未算。[原生全正常形](results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)现以同次数常反向化、逐m层消元，在54.8127秒/512MiB内完成全部2195来源和九目标，最高参数45次、保1034映射和可回放原行DAG。[次数优先附录](results/R150-appendix-parameter-degree-preserving-univariate-module-basis.md)付正常形后(dp,c)全部消元向量deg≤45、流式终止/原模来源；同一NF按新序SSI转换23.629秒、4.132秒全载。唯一新请求31/nativeNF+gradedSSI/Ann、1800秒/4GiB已写，推送后查run号；std/Ann仍未得。有限域结果不替char0或最大子式全覆盖。
 
 
 R176有界部分谱、R147实奇次/负正辅助、R236已排原指定慢二次全核与全部旧行/种子、R268–270快辅助/共振/不交乘积仅在原范围；一般慢Bell、自然幂/实际逆、双无界及共同自然域仍按 open。R12/R14指定紧夹积/硬截断失败不排所有外部紧交织。

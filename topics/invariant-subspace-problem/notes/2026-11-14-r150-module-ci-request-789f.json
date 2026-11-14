@@ -1,10 +1,12 @@
 {
-  "request_id": "r150-native-f31-annihilator-20261114T100026Z",
+  "request_id": "r150-graded-ssi-annihilator-20261114T110904Z",
   "characteristic": 31,
   "stage": "annihilator",
   "precondition": "constant",
-  "prebasis": "native-f31",
+  "prebasis": "native-nf-f31",
+  "normal_forms_format": "ssi",
   "seconds": 1800,
   "memory_mib": 4096,
-  "reason": "Use the completed constant-unit original-row prebasis, then the fixed original finite Macaulay parameter module. Finite characteristic is discovery only."
+  "reason": "All 2195 original-source and nine target normal forms are completed. Import the same exact coefficients via runtime-generated degree-first SSI, then compute the original F31[s] quotient module and annihilator. Degree-first module reductions preserve the proven vector-degree bound 45. Finite characteristic is discovery only.",
+  "module_order": "dp,c"
 }

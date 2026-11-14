@@ -109,3 +109,11 @@ Singular 的 `lift`/`liftstd` 采用原生成元变换矩阵语义；参照其�
 有限模runner新增`--normal-forms-file`并比对所有原来源/映射/哈希，仅允许F31[s]未专门化annihilator，避免错误复用6188列lift。本库workflow新增native-nf-f31模式，可从全量NF直接进入std，运行器差异下原生阶段设120秒/512MiB；本次请求文件没有变，不会自动发起长任务。
 
 198MB逐向量表达式在一次60秒/1GiB导入探测中只到BEGIN_NATIVE_NORMAL_FORMS，没有完成导入；std未开始。原NF已完成无须重算，下一步从同一33MB紧凑系数文件改导入格式，保全部参数系数、来源和物理目标。
+
+## SSI全量接入成功与新的余模请求（2026-11-14 11:00:58 UTC）
+
+[SSI实际记录](2026-11-14-r150-native-normal-form-ssi-789f.md)保同一完整NF系数、当前运行器动态头及全部原来源。转换16.729秒，全载4.575秒；根实际有限模脚本连同6188原行构造、来源/哈希核对也完成导入。新的请求`r150-graded-ssi-annihilator-20261114T110904Z`以31/native-nf-f31/SSI/annihilator进入std，1800秒/4GiB；原生NF与转换各120秒/512MiB。工作流只由本次明确请求变动触发，不重跑旧reduce。
+
+标准基输出改SSI，输出哈希/压缩改流式，所有实际失败/完成marker继续保留；原char0与最大子式覆盖条件不变。当前仅发请求，实际run号及结论待读取。
+
+新请求提交前再固定`module_order: dp,c`：[次数优先完整证明](../results/R150-appendix-parameter-degree-preserving-univariate-module-basis.md)保单变量S对/约化整行deg≤45、准确原模和Euclidean终止。重新排序同一NF的graded SSI已全载4.132秒；不复用旧(c,dp)排序。此次只会提交最终这一请求，没有发过中间c,dp长任务。
