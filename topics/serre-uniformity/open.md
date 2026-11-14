@@ -207,6 +207,12 @@ $c\equiv-J_\ell/(13i)$。
 R185 同一原 Robert 规范给有限 flat Norm 目标
 $A_{\alpha,\mathrm{fl}}=A_\alpha-(8i/1848)u$，
 故 $J_{\mathrm{fl}}=J_\ell-18$；系数只在模43时写成 $+8i$。
+同笔记§8进一步给真实受支撑 primitive
+$e_p(d_q)|_q=(J_\ell/2)K_0$、
+$e_p(d_q-8d_0)|_q=((J_\ell-18)/2)K_0$，两者奇异项均零，
+与原 $w_q$ 配对为 $\varepsilon(J_\ell-18)$。
+原障碍却含 $e_q(d_0)$，仍须带完整规范的
+$\kappa_p$–$d_q$ / $\kappa_q$–$d_0$ 交换链。
 实际 $J_\ell$、$J_{\mathrm{fl}}$ 与原 $b$ 的准确比较及真正主化坐标仍缺。
 R704 原43嵌入矩阵及R708局部Norm歧义已处理；
 仅局部条件不能替全局普通输入。

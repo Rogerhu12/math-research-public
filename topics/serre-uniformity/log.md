@@ -1020,3 +1020,9 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 原正分量准确C:y²=x³+b，反向256b；核resultant、p-Eisenstein定义式、typeII最小模型/微分尺度与具体同源cocycle闭合。
 - 根核完整3挠、三同源/投影逆号/原角色，并读González–Lario一般Th1.1–1.2及Schütt原例；未套不同CM域特例。
 - 原q→C、β坐标与NS/Picard/刚性化及KS尺度仍缺，继续实际高度输入；没有新长计算或重跑完成数据。
+
+
+## 2026-11-14 22:22 Asia/Taipei · serre-public-resume-20261114
+- 首矩笔记§8补真实cochain识别：原R191正Norm primitive在分裂q为−κ(DTX)，保留实际−i及未分歧二次restriction。
+- 得到ep(dq)|q=(Jℓ/2)K0、ep(dq−8d0)|q=((Jℓ−18)/2)K0，奇异零；原w配对ε(Jℓ−18)，与既成28K0严格相容。
+- 根逐式核R191/R198/R200，笔记SHA71eac09c…fb709a9；原Ω仍含不同eq(d0)，交换链/J数值/b尚未求，不偷换两个cup。

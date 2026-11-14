@@ -4,8 +4,8 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：f1f56edd15f43bd4dde8d2e8adfc87038ae180a4
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions各发布前实际pull并核两README，最近R717 direct-chirp发布于14:02:50UTC实际pull后核查，无差异。最近GitHub集成核查：2026-11-14 14:13:58 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
+已读规则提交：af133b7fe8eeaeea82eff51364f6d601c81c03e7
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions各发布前实际pull并核两README，最近R717 direct-chirp发布于14:02:50UTC实际pull后核查，无差异。最近GitHub集成核查：2026-11-14 14:22:17 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
 
 仅公开Rogerhu12/math-research-public及其Actions。每结论单独推main已授权，禁强推；终端非快进立即pull --rebase重推。PAT仅CLI。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB、大中间量不入库。日志本题≤5行，改共享设施须说明。
 
@@ -49,7 +49,7 @@ R722登记目标证书与原完整桥：core receipt SHA41940fcf1fde383e723c1b5c
 R561原scalar-p²产物/普通类C，L=31−22iC。R613 C_r=C+34r；R619原Ct9、Cl(LF_t)_χ=k、T-Norm同构/扩张零，辅助Ct不可代C。R633完整普通单位presentation和kerNΓ自由秩一。
 R700原q-Frob本原性给X_L^(p)=O⊕RΓ；全P_n中U/X对O[P_n]自由秩86/43，但普通A为末商。R715以自然Γ线性两步Tate与E_L=R0y循环性强迫m43：较短m的H1(P,A)=k²矛盾，m43的N_S=−2π42杀第二线；N_SE=E_N、N_PE=(p,π)E_L，y真普通Norm。R718同法逐层得m_n=42n+1、d∞、普通类Norm逆极限RΓ；所有scalar普通Norm满射，全P_n Norm恒(p,π)E_L，紧纤维有限交给交Norm确为相容单位逆极限像。
 R695/R701/R704原端点/嵌入输入与R708的43值局部Norm歧义均见归档；原cs/cq普通坐标仍缺，不能局部替全局。
-R720现以同时整提升与真实NΓX自由像完成原链桥：C=9ib=−34ib，L=31+26b，r_y=25+9b，Ω₂=ε(22+17b)。Ω₂零iff b24；实际b/J/nT/原主化坐标仍未知。必须原X_t主化/首矩或普通互反，不能代pure-p24、一次10、辅助Ct9。首矩规范已从原div/Norm重建于notes/2026-11-14-r599-first-moment-normalization-reconstruction.md：Jℓ选择无关、取F43、Jr=−2Jℓ；新证明全部普通见证为X+(t−1)E，其完整余数改变量恰I²；J是唯一固定首矩，杀全部余数时Norm改变量c≡−J/(13i)。已核R185同一未平均Robert/主化类，有限flat原Norm为Aα−(8i/1848)u，对应J_flat=Jℓ−18；仍未求J或J→b，不冒称找回旧R599字节。
+R720现以同时整提升与真实NΓX自由像完成原链桥：C=9ib=−34ib，L=31+26b，r_y=25+9b，Ω₂=ε(22+17b)。Ω₂零iff b24；实际b/J/nT/原主化坐标仍未知。必须原X_t主化/首矩或普通互反，不能代pure-p24、一次10、辅助Ct9。首矩规范已从原div/Norm重建于notes/2026-11-14-r599-first-moment-normalization-reconstruction.md：Jℓ选择无关、取F43、Jr=−2Jℓ；新证明全部普通见证为X+(t−1)E，其完整余数改变量恰I²；J是唯一固定首矩，杀全部余数时Norm改变量c≡−J/(13i)。已核R185同一未平均Robert/主化类，有限flat原Norm为Aα−(8i/1848)u，对应J_flat=Jℓ−18；新§8用原R191正Norm链、实际−i与二次restriction得ep(dq)|q=(Jℓ/2)K0、ep(dq−8d0)|q=((Jℓ−18)/2)K0，奇异零，与原w配对ε(Jℓ−18)。尚缺κp–dq/κq–d0交换链及数值/J→b，不冒称找回旧R599字节。
 
 ## 一般主目标
 

@@ -462,13 +462,203 @@ evaluated. In particular this argument does not identify
 $J_{\mathrm{fl}}=0$ with the original $b=24$ condition.
 The additional chain comparison remains necessary.
 
-## 8. What is still required
+## 8. Identification with the actual pure-p dual cup primitive
+
+This paragraph identifies a genuine marked cochain value. It does
+not exchange the two different cup products that occur below.
+
+Write $d_q=\mathcal B(\alpha_F)$ and
+$d_0=d_p^{\mathrm{Rob}}$ in the notation of R185. Thus their
+$\chi^-$ scalar norm targets are $A_\alpha$ and
+$(i/1848)u$, respectively. Let $e_p(d)$ denote an
+$S$-supported primitive for the actual dual action
+
+$$
+\delta e_p(d)=-i\kappa_p\cup d,
+\qquad S=\{2,p,q,\infty\}.
+\tag{J.19}
+$$
+
+Choose the primitive obtained from the specified ordinary Norm
+witness. With the original real branch and positive arithmetic
+Artin convention, its full $q$ localization is
+
+$$
+\boxed{
+e_p(d_q)|_q=\frac{J_\ell}{2}K_0,\qquad
+e_p(d_q-8d_0)|_q=\frac{J_\ell-18}{2}K_0,
+}
+\tag{J.20}
+$$
+
+with zero singular coordinate in both cases. Here $K_0$ is
+exactly the finite basis vector for $W(1)$ of R168/R198/R200;
+the factors $1/2$ are in $\mathbf F_{43}$.
+
+### 8.1 The positive Norm primitive and its sign
+
+For an actual cyclic Norm pair $N_TX=U$, R191 (191.9)-(191.10)
+uses
+
+$$
+B_j=\prod_{k<j}t^kX,\qquad
+A_X=\prod_{k=0}^{p-1}(t^kX)^k,\qquad
+a^p=A_X,\quad \beta^p=U.
+$$
+
+If $c(g)\in\{0,\ldots,p-1\}$ represents $\kappa_p(g)$, its
+explicit cochain is
+
+$$
+Q(g)=\frac{aB_{c(g)}}{g(a)(g\beta)^{c(g)}}.
+$$
+
+It has $\delta Q=\kappa_p\cup\kappa(U)$. At a place split in
+the $T$ extension one has $c(g)=0$, so
+
+$$
+Q|_v=-\kappa(A_X)=-\kappa(D_TX)|_v,
+\qquad D_T=\sum_{j=0}^{42}jt^j.
+\tag{J.21}
+$$
+
+This fixes the minus sign before multiplication by the actual
+coefficient $-i$. It is the same positive Norm primitive used
+in R198, not a derivative with a separately chosen sign.
+
+The argument also applies to the completed $\chi^-$ witnesses
+in this note. The $q$-unit group is finitely generated, and
+tensoring with $\mathcal O$ followed by reduction modulo $p$
+is represented by finite linear combinations of actual
+$q$-units. Choose such representatives for $X$ and take their
+actual norms. Their base Kummer class is the class of
+$A_\alpha$, by the exact completed norm identity. Apply
+(191.9) term by term and take the same character projection.
+Changing the chosen representative of the base Kummer
+cocycle changes a primitive by the corresponding cup with a
+zero-cochain. This correction restricts to zero at the
+specified split $q$ branch because $\kappa_p$ is zero there.
+Thus (J.21) and its local finite value are independent of
+these integral representatives. All actual representatives
+are $q$-units, and the $T$ extension is ramified only at $p$,
+so this construction retains the stated $S$ support.
+
+### 8.2 The local pole, Kummer logarithm, and quadratic restriction
+
+The full divisor condition gives
+
+$$
+\operatorname{ord}_{P_0}(D_TX)=0.
+$$
+
+Indeed only $X$ itself, the $j=0$ term, has a pole or zero at
+the marked $P_0$ among these $T$ translates, and its
+coefficient in $D_T$ is zero. The other character translates
+are at the other marked $q$ primes. Consequently $D_TX$ is
+an ordinary local unit at $P_0$ and
+
+$$
+\ell(D_TX)=J_\ell.
+\tag{J.22}
+$$
+
+For the residue field $\mathbf F_{q^2}$, positive arithmetic
+Frobenius acts on a $p$th root of a local unit $v$ by the
+exponent
+
+$$
+\log_\zeta\bigl(\bar v^{(q^2-1)/p}\bigr)=\ell(v).
+$$
+
+Thus the scalar finite Kummer value of (J.21) is $-J_\ell$.
+Multiplication by the actual dual coefficient $-i$ gives
+$iJ_\ell$.
+
+In the original Weil basis, the finite dual vector
+$K_0=JF_0$ has $\chi^-$ scalar $i$ at the unramified
+quadratic field $k_q=\mathbf Q_{q^2}$, whereas the singular
+dual vector $F_0$ has scalar $1$. Hence $iJ_\ell$ is the
+finite coefficient $J_\ell$ over $k_q$. Restriction from
+$\mathbf Q_q$ to $k_q$ multiplies this finite coefficient
+by $2$. Its inverse exists modulo $43$, giving the first
+identity of (J.20). The vanishing valuation proves the
+zero singular coordinate, and the original real branch
+and $J_\ell\in\mathbf F_{43}$ give the same descent under
+complex conjugation.
+
+The identical computation for $X_{\mathrm{fl}}$ gives the
+second identity. It can also be checked against the
+already published exact normalization
+
+$$
+e_p(d_0)|_q=28K_0.
+$$
+
+Indeed $J_{\mathrm{fl}}=J_\ell-18$, and
+
+$$
+\frac{J_\ell}{2}-8\cdot28
+=\frac{J_\ell-18}{2}\pmod {43}.
+$$
+
+This check retains $1848^{-1}$, the coefficient $i$ in
+$d_0$, the positive primitive's minus sign, the actual
+coefficient $-i$, and the quadratic restriction factor.
+No average by $44$ is inserted.
+
+### 8.3 The exact secondary pairing that has now been identified
+
+R200 uses the original primal finite/singular coordinates
+
+$$
+w_q=(27\varepsilon,-\varepsilon)
+$$
+
+and the pairing $2(ad-bc)$. Therefore (J.20) gives
+
+$$
+\boxed{
+\left\langle w_q,e_p(d_q-8d_0)|_q\right\rangle_q
+=\varepsilon(J_\ell-18).
+}
+\tag{J.23}
+$$
+
+A different supported primitive adds a global dual class.
+Its $q$ localization lies on the original line with
+finite/singular slope $\lambda_q=16$, spanned by
+$d_q|_q$, while $d_0|_q=0$. Since $w_q$ has the same
+slope, this change has zero pairing with $w_q$.
+Thus (J.23) is a well-defined secondary pairing, not just
+a value attached to arbitrary roots. The specified Norm
+witness selects the representative with zero singular
+coordinate used in (J.20).
+
+The original obstruction is instead
+
+$$
+\Omega_2=
+\left\langle w_q,e_p(d_0)|_q+e_q(d_0)|_q\right\rangle_q,
+\qquad
+\delta e_q(d_0)=-2i\kappa_q\cup d_0.
+\tag{J.24}
+$$
+
+Equations (J.23) and (J.24) involve different dual targets
+and different cyclic characters. No cochain identity
+exchanging $e_p(d_q)$ with $e_q(d_0)$ has been proved
+here. Such an identity, including its supported and
+local normalization terms, is still needed to turn
+(J.23) into a numerical formula for $b$ or $\Omega_2$.
+
+## 9. What is still required
 
 The quantity (J.4) is fixed by the actual field,
 ordinary divisor, norm, prime label, and residue
 convention. Its value has not been computed. Equations (J.11)-(J.14)
 identify the entire ordinary residue ambiguity, and (J.18)
-fixes the finite-flat counterterm. The principalization existence proof does not supply a numerical
+fixes the finite-flat counterterm. Equations (J.20)-(J.23) identify
+its actual pure-$p$ dual primitive and secondary pairing. The principalization existence proof does not supply a numerical
 first moment or a principalization's coordinates.
 
 R720 proves the original ordinary bridge
@@ -484,7 +674,13 @@ assigning a coefficient connecting this explicit
 $J_\ell$ to $b$ or to a lost, incompletely normalized
 R599 symbol. No such coefficient is asserted here.
 
-Dependencies: the actual unit, unaveraged Kummer classes and finite-flat
+Dependencies: the explicit positive Norm primitive of
+[R191](../results/R191-cyclotomic-principalization-and-eta-ray-field.md),
+the original pure-$p$ calibration of
+[R198](../results/R198-p-squared-robert-norm-and-a-secondary-contribution.md),
+and the full supported secondary reciprocity of
+[R200](../results/R200-second-obstruction-reference-cancellation-and-one-supported-norm-slope.md);
+the actual unit, unaveraged Kummer classes and finite-flat
 normalization of
 [R185](../results/R185-p-local-robert-and-principal-unit-coordinates.md);
 the actual marked field and prime of
