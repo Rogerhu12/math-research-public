@@ -351,3 +351,5 @@
 - 2026-11-14T19:39:51+08:00｜visible-exact-astra-0df9：公开43589465579真实return0、10/10门通过，native bd69c985ddaad53152867538980cb59ca28f4c6d27e27b30a6f9dd7137baad99；完整7721格复用且mean区间union增费，已证||q_star−Z||<4.572198020300e−6，真||qν−q_star||的充分剩余预算0.004995427801979700。保原ac1背景/η0与repair、显式方向、真PDE响应区别，未借残差冒充响应误差。 本条独立提交推送；继续原未完成项。
 
 - 2026-11-14T19:43:22+08:00｜visible-exact-astra-0df9：原公开43588509643已完成5970格cut-to-waist全193×96浮点提案，原native6dbc3acf…、916MB frame仍在公开Actions。新有向validator完整支付Gram、normal多项式递推、signed μν、全128 primitive中间、ρ′/ρ及每次投影跳；七个公开代数门后只验证互斥0/76/3300/5969四实际格，保成功原字节供后续全覆盖复用。固定86输入manifest f4d98d4e…已根核，未把提案或四格当全连续逆；worker接原真实过程，空artifact不能冒作运行。 本条独立提交推送；继续原未完成项。
+
+- 2026-11-14T19:47:48+08:00｜visible-exact-astra-0df9：保留公开43589646508真实失败及native5167e64f…，准确复用2838个成功积分、两次成功rootNewton和全部15拒绝；新v2仅续剩余两scalar germ，以剩余cell分配width_goal/4，必要时只补新midpoint完整真jet，保原全格六阶导尾与最终1e−3总宽门。237件manifest中原233输入逐SHA不变；独立workflow/worker保存真实退出和所有前缀，不重算已成功成果。 本条独立提交推送；继续原未完成项。

@@ -1,0 +1,1228 @@
+{
+  "kind": "complete_current_first_symbol_resume_v2_CI_inputs",
+  "public_repository": "Rogerhu12/math-research-public",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "python_flint": "0.9.0"
+  },
+  "input_paths": {
+    "candidate": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+    "scalar_cover": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-169-germ-phase-scalar-cover-native.json.gz",
+    "repair": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+    "root_germ": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+    "object": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "resume": "topics/visible-flex-exact-nearby/notes/first_symbol_finite_part_ci/run-43589646508-1/consumers/first-symbol-original-prefix.json.gz"
+  },
+  "mathematical_parameters": {
+    "cut_gap": "1/262144",
+    "width_goal": "1/1000",
+    "max_depth": 14,
+    "bits": 256,
+    "exponential_bits": 192,
+    "root_precision_bits": 140,
+    "max_fresh_points": 512
+  },
+  "original_complete_scalar_germs": 169,
+  "original_candidate_shards": 5,
+  "no_original_phase_or_scalar_germs_recomputed": true,
+  "only_current_common_root_scalar_jets_are_new": false,
+  "full_return_beta_or_PDE_inverse_not_claimed": true,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz",
+      "sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+      "bytes": 137851
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "bytes": 1638
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+      "sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+      "bytes": 386775
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part000.npz.gz",
+      "sha256": "5dae124eef0b3004bfea08334c2f2546ade3edc5cb926c665591e42b842babc4",
+      "bytes": 2738500
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part001.npz.gz",
+      "sha256": "3aeb38bf0577207cafcad3a59e43ed5a04a4c9cf9a703c4c3c4088c963a09106",
+      "bytes": 2738003
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part002.npz.gz",
+      "sha256": "a317c6f491295d8e46aa5d4b3da84c1f26bd16d5fb65260f3d3459e1f9c6210e",
+      "bytes": 2738686
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part003.npz.gz",
+      "sha256": "7b67e5a4b11ae45476d1507e842ae23919ca44e4ed2d64bc81bdea78e0b4007c",
+      "bytes": 2732843
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part004.npz.gz",
+      "sha256": "314a6846ef2b5a257ddf20068332d105a7707b5aef27026f30477a47984eec4c",
+      "bytes": 1532492
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+      "sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+      "bytes": 6750
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+      "sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864",
+      "bytes": 7851
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-169-germ-phase-scalar-cover-native.json.gz",
+      "sha256": "94492bbafda1e5efb30b129e534171c9fc305524a2d972064e34e8894948bad3",
+      "bytes": 21537
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-Arb-high-scalar-Taylor-first-germ-native.json.gz",
+      "sha256": "b6f1892d8d09749a7279e23c86d5cca622785b919891bf8a0e46c3add382aa01",
+      "bytes": 14834
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-first-symbol-finite-part-consumer.md",
+      "sha256": "d70ec625bb5c5a7216670da2a3accd26c6a9b4ed6673354f878e74d8d0aaa44b",
+      "bytes": 4153
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-first-symbol-resume-v2.md",
+      "sha256": "fc8a78446b5e2c31affdc1543577d8640169dade213f34d6295a94bf717df39f",
+      "bytes": 3874
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+      "sha256": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+      "bytes": 14226
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/first_symbol_finite_part_ci/run-43589646508-1/consumers/first-symbol-original-prefix.json.gz",
+      "sha256": "5167e64ff6076e0100fa1c643b7168ce889b2fe4f6dab034631ce8d7115f0e1d",
+      "bytes": 418912
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0001.json.gz",
+      "sha256": "5a9c89d6777784fd653fc53b6467fec94410be487fa657831ce454fd3efadf2b",
+      "bytes": 8124
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0002.json.gz",
+      "sha256": "09786e4d3a35f2a11fd6b4f9378a72d74b7d82388577de172ef12046743a80c8",
+      "bytes": 27549
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0003.json.gz",
+      "sha256": "df2bdf3f049050ffc18cf042b7aec29ebc8d97485f374092785c8082cca707d8",
+      "bytes": 14667
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0004.json.gz",
+      "sha256": "69cf18f06d57a7528d7d9c4f24afbd5fd71adc601bb79a4eb54afa39b498ac1d",
+      "bytes": 8184
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0005.json.gz",
+      "sha256": "ed1fb4599b526aa1332a3952b26740cfac49591173b4bd64ecf316af31333610",
+      "bytes": 27512
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0006.json.gz",
+      "sha256": "216604a143c50113485e26a606c62ea0419788bcb332604ba35c167d19be4cdc",
+      "bytes": 14717
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0007.json.gz",
+      "sha256": "9a92c4f000de44ce64732d87352493849a489efc68956e94be36e008a4b58413",
+      "bytes": 8245
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0008.json.gz",
+      "sha256": "3aee23a13b9f24b0a72e131441497d1b5608535868fb58515403d6d56811ef1c",
+      "bytes": 14715
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0009.json.gz",
+      "sha256": "98056c1a552f2ac231044d567daf21fd64cf8385e3cd05f0ea8065333b5f8626",
+      "bytes": 14720
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0010.json.gz",
+      "sha256": "f98f1945b22d0de9a597877ff6241f57aacdbc3260882b72dfe2a35ad4c31b10",
+      "bytes": 8143
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0011.json.gz",
+      "sha256": "3cddd89ddb104122dd849a64dae1f64127caf252c6e2fe4a4f3a47dbcad59b24",
+      "bytes": 8328
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0012.json.gz",
+      "sha256": "4ca2e84b783c693e273f83b73fbb3f50dc3c1a248d80c61298317042c74ba665",
+      "bytes": 8017
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0013.json.gz",
+      "sha256": "b869e734f5801c63d8055cefcc7f5cab684f0a86decde3d444f1e368fa8aa3e4",
+      "bytes": 14769
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0014.json.gz",
+      "sha256": "abd7d42a8d263f699d06d837938ad3474d357bf462ecb8bead2d6f22279451d4",
+      "bytes": 8079
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0015.json.gz",
+      "sha256": "337c9cbdfe535c5fef5572d503dafccc506673325ec40d00935b6e6b7eb9fe6b",
+      "bytes": 14634
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0016.json.gz",
+      "sha256": "68dd40f0ef035bd21075af71f01879b82bba3d907d061ca65d2d8b1b39b8ec07",
+      "bytes": 14824
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0017.json.gz",
+      "sha256": "cd1990d14342ce6fbacf826bb4e73281e37b6912e32c0781e19e1183c1a4c262",
+      "bytes": 8001
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0018.json.gz",
+      "sha256": "c2d355710ae76d73116b349dd8a4450c663da2eb59c0af0d986e3f233b92e112",
+      "bytes": 14618
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0019.json.gz",
+      "sha256": "2476dd9fc0bacd109c3635127ec4896545c4c15ef89b13d094ce656091010a80",
+      "bytes": 14542
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0020.json.gz",
+      "sha256": "b7082c592fe87a08b0b60d10da4132b4d1320face4fac06114ecfc70233680f9",
+      "bytes": 8204
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0021.json.gz",
+      "sha256": "e5718529163db6a840ae49282edaacea5cb15c726ef36f042b64f149d1c39141",
+      "bytes": 8184
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0022.json.gz",
+      "sha256": "217c452db52bab93e2bfa97d99a45b632e93d4e73012d4b7e0c5372248d40730",
+      "bytes": 14502
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0023.json.gz",
+      "sha256": "1fdbfdc88cbe2a004b19b601ac25b15f1f3b1ae6daaa5f77583f1a3abce66776",
+      "bytes": 8111
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0024.json.gz",
+      "sha256": "80f79a39acb2dc6491455a626cad24df7d383d0e04dcd804f548ff855896af25",
+      "bytes": 8043
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0025.json.gz",
+      "sha256": "c82cc6ae8a79db5d1fa9b65deb4a15159bb3af24034e0d239b50ca0d3b0a7adc",
+      "bytes": 14697
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0026.json.gz",
+      "sha256": "534abe5b427cf6c0314f9b556a7d08803ef732934ef2122bf99d17926d85899a",
+      "bytes": 8042
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0027.json.gz",
+      "sha256": "4cf88dc7d8551a627bcea740a818b62c3cbdbc33b606b13ac43baf80f1c52566",
+      "bytes": 8137
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0028.json.gz",
+      "sha256": "acd6569197c2c153d1e31c343e20bf0cf2c87a0ede8bed68035d7bd5760cca6c",
+      "bytes": 14703
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0029.json.gz",
+      "sha256": "7f7d41e026dd3d411933feac2ae370310f9fbb1291dc3afbd85fbf6b5969aabe",
+      "bytes": 8200
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0030.json.gz",
+      "sha256": "9d682fcda3590c34a85621c2948482bb8c925c2e73560ef2411d6d410f9cd6a4",
+      "bytes": 8221
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0031.json.gz",
+      "sha256": "0c6ca2910fd337407869895b628044b08b8837d2750e20173dca756e1e654472",
+      "bytes": 7942
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0032.json.gz",
+      "sha256": "bb50f5aa0d66223de4243d42298b53ef0424612e7ac67ddc33275d9c24359154",
+      "bytes": 14714
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0033.json.gz",
+      "sha256": "85694328c6eb25ace7243a40e3f3c02e19f02dfd0fe4f88a732c6db71ad96c88",
+      "bytes": 8097
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0034.json.gz",
+      "sha256": "87481a32d85599ede0a2ea2ecf002a5cebae5a41581026c277bd3760e909a02a",
+      "bytes": 8118
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0035.json.gz",
+      "sha256": "f6637002b04a6e523df97cb592b3cdfe681aaf6e9798b7df9c4d96bb63fbfd30",
+      "bytes": 14622
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0036.json.gz",
+      "sha256": "3a44fa2933d0a5c4e6817d480c57f88a4703663b63a1015cdb5831d206552dd7",
+      "bytes": 8095
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0037.json.gz",
+      "sha256": "df2b4141ad0389e2b151dc1441334bbb1522425f41d47c18d2155a1c7f9bdb69",
+      "bytes": 14780
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0038.json.gz",
+      "sha256": "70311b125ed0ec2cdaf22625fde4b497babb22d549f9373cad5f3a41b3b881b4",
+      "bytes": 8172
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0039.json.gz",
+      "sha256": "cd276dab5df5d95755d52ad84c4985071c85949c80ddf1f17b12139f26980340",
+      "bytes": 14666
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0040.json.gz",
+      "sha256": "734465f212bab0985932ce0bd634e77df3ebb9a85fd57502848113b18a214368",
+      "bytes": 14553
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0041.json.gz",
+      "sha256": "789446c5e2a4742f195044f7ff09eea79275b4c270b21509fab7f3c54b50cd76",
+      "bytes": 8110
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0001-0043/germ0042.json.gz",
+      "sha256": "3b2eeffceac7e6c89c0626191fcc9faaf3de53c5ebb18111abd3ac4c4ec1e9fe",
+      "bytes": 14816
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0043.json.gz",
+      "sha256": "a3657f04d2fdb5e7d547f6c3e0641ecb23ffc71fef0500c04d0d5338f90f13f6",
+      "bytes": 14760
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0044.json.gz",
+      "sha256": "3b3cce1ec5389fef04d9ae84f348667229b1fbdc7dbea572a5239f907a002359",
+      "bytes": 8298
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0045.json.gz",
+      "sha256": "3e55225e9f474fd75368405075fe5953d23ebcb8c7876f0637ba475769858643",
+      "bytes": 8094
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0046.json.gz",
+      "sha256": "9000f58d590b8a4efe4210e4981a47c63cc65fdb37678cd548f22fea9d0e7ef5",
+      "bytes": 14559
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0047.json.gz",
+      "sha256": "09cb3dd069f4d6b9d690a998e85af3da37291bfbb13b9a9b17f6dae5607bfc82",
+      "bytes": 8051
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0048.json.gz",
+      "sha256": "5d0a69fb67367d3d2dc3ed6cdaec745722848535130e67a4730d40546e5f5235",
+      "bytes": 14612
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0049.json.gz",
+      "sha256": "70287f434464431410fde9f0f2acf589c68026b950236a697071c53c17e6f748",
+      "bytes": 27580
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0050.json.gz",
+      "sha256": "ab3316ea9f9d773cdc9014deb471322e3231b799bdedb2d3103b2f19b62539ba",
+      "bytes": 8088
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0051.json.gz",
+      "sha256": "21ac78cfda9bcd6119c53b94d19e25eb04bcdc90909937a43fe290a1763f2483",
+      "bytes": 14634
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0052.json.gz",
+      "sha256": "34de814d18769c5723bebcc2323055871c31734c8ba1d40fe769e143520f182a",
+      "bytes": 27576
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0053.json.gz",
+      "sha256": "1943ac95380508b2782db940eb4796499cd72d4009f92fb43d20823c250b571c",
+      "bytes": 8134
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0054.json.gz",
+      "sha256": "9c235f7b933b62affd067a0293bcf95e5a9728ea961b2370e591ede5b85117b6",
+      "bytes": 8163
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0055.json.gz",
+      "sha256": "a602fe9fba53dbc76ad8e168a3261265caea0c3c3f846903a270d2203aee51a9",
+      "bytes": 14751
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0056.json.gz",
+      "sha256": "c21ccde2da2188ff37cfc342bf241de218d6bf902131633208129aa4d0b33525",
+      "bytes": 27408
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0057.json.gz",
+      "sha256": "b69561e3ae4df21655ade917265f4dad79cbe5bf2a8f1bd760bb0f788b3243a8",
+      "bytes": 8072
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0058.json.gz",
+      "sha256": "eb7f0546e9ec2aeac7ed6490d7f4f1c76cc88dd5649e241b2e827b2abcde6db6",
+      "bytes": 8257
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0059.json.gz",
+      "sha256": "bc1476eda261cddfe4081632c0d67b01c47adf8689a1259bc716fb106701ab2d",
+      "bytes": 27631
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0060.json.gz",
+      "sha256": "a0e16f4e7c1963380c2e55e8ae690fbf91b61fc07845dce1139a1e9aa74cd526",
+      "bytes": 27519
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0061.json.gz",
+      "sha256": "f9c2fbfc8b134b2ae2bfe0d2433162547b5c387293cbe1a9cabb1a2168b9a485",
+      "bytes": 8093
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0062.json.gz",
+      "sha256": "778dde5b676a0c92dacee4ec2dbc40d95251e47fa021cc2cced15f145e5cc938",
+      "bytes": 27352
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0063.json.gz",
+      "sha256": "a173e48c052ae31101947539b637cd7ad0c2d9653ab3c68800e62286ee8f71c1",
+      "bytes": 27485
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0064.json.gz",
+      "sha256": "4529ea0b2fdbae28ff334cf4478fb1850092a44fb837a91c985bbb14021bee0a",
+      "bytes": 8176
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0065.json.gz",
+      "sha256": "aa00607fcf32a9884ecc0b12e9d61acd33f8287ff94eaca5342281946b709030",
+      "bytes": 8056
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0066.json.gz",
+      "sha256": "2e20809568f1293a0fe6f9f81b8a480ea6a7f4c2f72257c9abc09f64b0c13c19",
+      "bytes": 27503
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0067.json.gz",
+      "sha256": "57a4690085a35b422d81fc56423c661e5afc315ee9e8e82ef0672b16b9dd52bb",
+      "bytes": 14675
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0068.json.gz",
+      "sha256": "3503cb70a8ca4111160a829eb4b4689266b86b64e6bf14cecf5a98ddb81d2aca",
+      "bytes": 8232
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0069.json.gz",
+      "sha256": "8e10577957bee7fefc4d86e2f6fcc836fffe25e5dcb438b076959b4035bc514f",
+      "bytes": 8046
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0070.json.gz",
+      "sha256": "4702a8c9fe3008ac55322f8fc884366e34e0877be1897bf63b7ba147a63afa1c",
+      "bytes": 27675
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0071.json.gz",
+      "sha256": "75da23b713fa2fae1d7503614e8f198a76469342c46159844b5c396dbd9db3b3",
+      "bytes": 14766
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0072.json.gz",
+      "sha256": "185bb23e0a5310dc107d2b85e617a768816f3453159a236470cb9756e3e2919a",
+      "bytes": 14783
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0073.json.gz",
+      "sha256": "967b3166490f054593dcecb0f5c77b6604f99e03ce1e9f11b09791fcaac3a041",
+      "bytes": 27665
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0074.json.gz",
+      "sha256": "d0c96b9fe31fbd8d6163f6e96a1ad5c99e89af38a0f859dc885ac500b2711f79",
+      "bytes": 14767
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0075.json.gz",
+      "sha256": "3ad5b42e243d7d2577ecd8e0d203e1da81d18cfe5c6dc8b344592a76bd8d8e2b",
+      "bytes": 14787
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0076.json.gz",
+      "sha256": "4d5ef90f02870de277c06d84987e6e62f115ce587413a073c8538b9aaf5395b7",
+      "bytes": 27631
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0077.json.gz",
+      "sha256": "300c700094c399280a6d1be0a06cbaa167eaa5c79b149e3a08e8f1b3251d0fcd",
+      "bytes": 14669
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0078.json.gz",
+      "sha256": "19b176a1fdccc0a8800bddbd5183e29d5205ffbca9644f97983f2c50e4f179d9",
+      "bytes": 8234
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0079.json.gz",
+      "sha256": "2dcac1e131adf18b00cb4632db9853d86c3450ae016c63ba1869f9259cca5f8f",
+      "bytes": 14737
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0080.json.gz",
+      "sha256": "9cebe227c55a035cebdc779aa44e691f16d96b1f2d43465292cb28a7a42b63e7",
+      "bytes": 27781
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0081.json.gz",
+      "sha256": "255da1ac5eb2e5235e489b12d5f129c9e7dec58977943de1e2dbe8a65354dbb7",
+      "bytes": 14780
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0082.json.gz",
+      "sha256": "4d7111e2d0922f029b96566af23602b54413ad75c7d078cf7bd4d4117b41a3ae",
+      "bytes": 8220
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0083.json.gz",
+      "sha256": "40360c579ba0362bb5096a0aa330ea58bbef35e903db24212dcf8b36c255ce25",
+      "bytes": 27700
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0043-0085/germ0084.json.gz",
+      "sha256": "ff65e41c69cc8068ea58ea1ae971ee46206042c305f5044662b1ab477409dfd9",
+      "bytes": 27676
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0085.json.gz",
+      "sha256": "b1e90121fbdf47adae49fba6cec198501025539ae7c38f96d9ed1ea6e43b3bad",
+      "bytes": 14693
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0086.json.gz",
+      "sha256": "cf65a3f1241d07735d508d7cd435fa99f086c30ebc4a93fcc2bbfa116dcca0d5",
+      "bytes": 27702
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0087.json.gz",
+      "sha256": "f7a0779545abe2b5a2239aef762e5f5dcd9350e68aec26cf3ae080701955cc74",
+      "bytes": 27278
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0088.json.gz",
+      "sha256": "eb09bd957ee73e26851981c0100fac0f1d20bd94adc9f640c4c3cf0a71723682",
+      "bytes": 8107
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0089.json.gz",
+      "sha256": "8c1a6f54fc4943369721b8bab89cca198b271be4e0b533934cd48b70f7fc9cbd",
+      "bytes": 8198
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0090.json.gz",
+      "sha256": "a1bb278766c00d6474d6458f16cdadcab7019b954b183a6da397912cde77c12f",
+      "bytes": 27564
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0091.json.gz",
+      "sha256": "49c29338f5c17688f4afb2d3593cf58a201dd27c87531b8238beef2169d1eb26",
+      "bytes": 27661
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0092.json.gz",
+      "sha256": "d106f9e012ab15edfbe5b941cb1a0147cb53c01a297e657895ea65e47471911f",
+      "bytes": 8050
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0093.json.gz",
+      "sha256": "b2302e7b9b98738a6b9d67e95e5cb53d890a19705a657a5ebfcf00eebc8619c0",
+      "bytes": 8104
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0094.json.gz",
+      "sha256": "7438f6736a0f92e16680d0c7d07a16055cfa65c16df0f31a9ca0cfe0ec1ff256",
+      "bytes": 27623
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0095.json.gz",
+      "sha256": "d74b7bedea67e1ac2dffda5c4f2a89132ebecdb53956d9fa10c9d6b10c6da287",
+      "bytes": 27374
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0096.json.gz",
+      "sha256": "2d7ee82faa4c0d2a309f4f0659cadeaaf2020d2312883e0c0a6bc570584bf507",
+      "bytes": 8103
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0097.json.gz",
+      "sha256": "72aa814cc42a0cb5eaf655dea2b753248be53679f597ab5b5498c7bb6be9f2cc",
+      "bytes": 27655
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0098.json.gz",
+      "sha256": "d0a59eb94fb793b8286039ccc8ac981f3a5c4929e24428511e60c9204141add4",
+      "bytes": 27535
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0099.json.gz",
+      "sha256": "7d50229129fc0339bcbbdcb9d441ec4d2c8f5f6d61d4175ef0b9e03f01c8a7ab",
+      "bytes": 7984
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0100.json.gz",
+      "sha256": "31bcaaca5a2a73229981bbd87adcabb3ef0e58d6e3b1b8bcc657b60dde36f225",
+      "bytes": 27564
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0101.json.gz",
+      "sha256": "884a7d196de48d30f35f227f4aae4f6a08f2deed936caf9462971eb17f57708c",
+      "bytes": 27773
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0102.json.gz",
+      "sha256": "7419db9722c0fd4d45ea9f305a00a5bfeccb3d429b12ea66c8cb73a0b1113eee",
+      "bytes": 8117
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0103.json.gz",
+      "sha256": "96330c56a6a4906ae24e55bc78a3caed3647cb9847c217ed89d7b22e0656864b",
+      "bytes": 8251
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0104.json.gz",
+      "sha256": "0d2fbdccc093fa479fcf876a5ec594ad106c708386fb23d0112b78daf7831887",
+      "bytes": 27604
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0105.json.gz",
+      "sha256": "5c584461b0ae4a83a02c17027c572051f7eaa6788c86fc034a69701495f52c9c",
+      "bytes": 27521
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0106.json.gz",
+      "sha256": "9d19fb9a07a54a202310efd5e28c69ee298042977722f888f262e9bb7fa5773c",
+      "bytes": 8125
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0107.json.gz",
+      "sha256": "ca38111ff33ebdfcc9f443e51243c2b3d5b1815f98f768ecbf8e8c44618a4c32",
+      "bytes": 8291
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0108.json.gz",
+      "sha256": "4d1c578c3d508bd1f59c9f026ea846f4856dd365b575f6730ad49f8da31d52f9",
+      "bytes": 27399
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0109.json.gz",
+      "sha256": "fcdab6d8bce28486ee7603d87ac4e33b20fe50beb3d0555995f1e2effccc0738",
+      "bytes": 27435
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0110.json.gz",
+      "sha256": "501aa14e893862a8eab320da3714f2ebe494914567c82e68c88ea3dce54fb5c9",
+      "bytes": 8218
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0111.json.gz",
+      "sha256": "99b444021c88b46109cc3d3a6a84c1bf0b2877c5b8945e993237557a23e65454",
+      "bytes": 21142
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0112.json.gz",
+      "sha256": "dee8dc23c9514a38e56d64ca190aaaaa954f6603c3c094352dc781a3b536234f",
+      "bytes": 27534
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0113.json.gz",
+      "sha256": "1b94a3d9b124eac04f453e157841d46da1099f5319a6d762acdd6ab338ee394e",
+      "bytes": 8075
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0114.json.gz",
+      "sha256": "2b4156d2855ee9f368b057866ccb6e7b85e01db8a5f0c33c0595ad7cf45d616e",
+      "bytes": 8142
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0115.json.gz",
+      "sha256": "bc540a1977b111e68a242a78771d4c8df71d9e802522196cac21d0cb6ed22544",
+      "bytes": 14676
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0116.json.gz",
+      "sha256": "169e9c50d290dd3fec64aa9a868895e9624f2c03fb903b35a91201d45d97250c",
+      "bytes": 27666
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0117.json.gz",
+      "sha256": "a7b84ef114c5d2c835d11901473d5cc02d15fe8afea4eb574d6ea45bef62bdc2",
+      "bytes": 8178
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0118.json.gz",
+      "sha256": "3388c475b040406ee7c21f854ae08732a7f24bb37c11587ad8fd32aa37d3fe56",
+      "bytes": 8241
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0119.json.gz",
+      "sha256": "eae398b747311d8a8f25cd11ffe0b2836ce11c49c400bffdfea78b02e88d278f",
+      "bytes": 14706
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0120.json.gz",
+      "sha256": "61b6fc6949f4bf6eb6bf50c898b93f4868f544862a7b8be6e30670354f76bcf3",
+      "bytes": 27660
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0121.json.gz",
+      "sha256": "96b854c866a3642649ab3071a5ebae71a873d2c4ae7aefa4dce54037e28339a4",
+      "bytes": 8166
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0122.json.gz",
+      "sha256": "cf6c42c309498eb0b300f1dc39ca92bd67d432a8d9d4ecefd8f97d0a87414f7b",
+      "bytes": 14627
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0123.json.gz",
+      "sha256": "de285f4b0b7214de5b2e2c060b2825bdfee5c41a19ff185f7510fd6a2cdaaa8d",
+      "bytes": 27595
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0124.json.gz",
+      "sha256": "2efce170a488f3c34bcb7307334765ca627d5d30030ec2ea3d989d66f362cae6",
+      "bytes": 14609
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0125.json.gz",
+      "sha256": "93bf00d3c22c9753a475285bf19fe7419f922cd27c869645f077bdf9bb623623",
+      "bytes": 14940
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0085-0127/germ0126.json.gz",
+      "sha256": "071818029ce3c68405409fac8d353b51532468252fed714b2a415a8e4494782c",
+      "bytes": 27639
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0127.json.gz",
+      "sha256": "c83867868aed2ab757b1b5871c4181b15522abc8ba43dfc58b34e5db295bcffb",
+      "bytes": 14655
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0128.json.gz",
+      "sha256": "53377dcfad2fd47998ecaadd4da4d57847bb7d277a91d57083abead03161d473",
+      "bytes": 8103
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0129.json.gz",
+      "sha256": "3d920f0bdc081450ca26ba1beb3b968922deab7a85116ddb0d17cc22c7ea3589",
+      "bytes": 8077
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0130.json.gz",
+      "sha256": "157c93c31a9779045adab09fce57debfa480afd435cf1954cc5d4973a31cb1d7",
+      "bytes": 8213
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0131.json.gz",
+      "sha256": "045b1525736607168ad21805164d5201ca012202d8b34edfb2a6450bf32cccd3",
+      "bytes": 14682
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0132.json.gz",
+      "sha256": "dbe2b23f863bb8e297245845f4ebbfee432289e003b3c0c2dc908713d7a272ae",
+      "bytes": 14781
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0133.json.gz",
+      "sha256": "4e41da95b2f63a64fda0ce4c4e3a827d24fe9a375062e1bf605bcd2120ddf817",
+      "bytes": 8175
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0134.json.gz",
+      "sha256": "beb06184e93b4092257284a8d2c6037eb6e9b040bdfb75999a10dbffd84e2d19",
+      "bytes": 27559
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0135.json.gz",
+      "sha256": "69e5325c38b2972ede6fc8320ed71afd5e73731eb8d576cbc7d76f02a64a99a0",
+      "bytes": 27511
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0136.json.gz",
+      "sha256": "9977a1a076d318ca08214148fcf18c0b15fee3fdc7cb8e39de1d159d0a622a43",
+      "bytes": 8120
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0137.json.gz",
+      "sha256": "f4a2e2d3d1d93d4c8e18858148fdee401b168c0e85f995f44afabe805e3af760",
+      "bytes": 40596
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0138.json.gz",
+      "sha256": "2a6c1374db29feb4a101aef40e2f6d3366b355ee8eeaf2fee12d08067f20572b",
+      "bytes": 27827
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0139.json.gz",
+      "sha256": "6a85a1bce61bee959b0905b30a2cb5eec1252e61f48b4481951e87b1e4d20b4c",
+      "bytes": 8167
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0140.json.gz",
+      "sha256": "28ec6f330b1a7a8581dab0263cb9e29053326a7c568c4187d0f4966376429f86",
+      "bytes": 8115
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0141.json.gz",
+      "sha256": "8a936eff86c1104d12b7098dafa4fadf8ba2d001bfa91a41780003bf42ebf4f0",
+      "bytes": 27870
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0142.json.gz",
+      "sha256": "13e1d8455e96c157e5f5f37380833592797af1d5ccb4c70471778e45baa5f0dc",
+      "bytes": 27728
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0143.json.gz",
+      "sha256": "9a4523558d033602e943b0d3c121c1ba71b0aca833dba8c63ffdf9631ae289f4",
+      "bytes": 8139
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0144.json.gz",
+      "sha256": "d5a4e26f75d90e1013abb2a9535eb9397bab03c858b6e78d391ad2100d10b49d",
+      "bytes": 8257
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0145.json.gz",
+      "sha256": "ede8b9364c4687cad634311d9838f6b92bfece289db6023595292ee2987b01a9",
+      "bytes": 27621
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0146.json.gz",
+      "sha256": "593ca916e767c2d443c2d9d81250487819a57998be9fced6951473416c1b3aa4",
+      "bytes": 53395
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0147.json.gz",
+      "sha256": "5126c71bcce153bed56564885f8714ec8557a129e31159770c035eca2ef7080f",
+      "bytes": 14817
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0148.json.gz",
+      "sha256": "53e9d747935d51841dbb75c637178daaf2fafc353ed3a86a923f0c6957de8aae",
+      "bytes": 27952
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0149.json.gz",
+      "sha256": "53e8700eab5f59fbb01f177b9bf29454370db6517ab2789fea0b9f8c501609fe",
+      "bytes": 53688
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0150.json.gz",
+      "sha256": "0b99392afdc054e5642fd598508adf61ef8f12095895963db7658b479832f7a4",
+      "bytes": 14696
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0151.json.gz",
+      "sha256": "686475264250c6039bc5ebf937d7a5a6436e453dbc064c546b510e1e251995b7",
+      "bytes": 14635
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0152.json.gz",
+      "sha256": "18f07253ce75f34bed4a350bec5c5e6ed6c9286191e16f1d01a3a5b0a26c9e4a",
+      "bytes": 27696
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0153.json.gz",
+      "sha256": "5b9fd07912d5ba5f6579d280ebbdf2b2d19243980150144d6675804d2be4551a",
+      "bytes": 27759
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0154.json.gz",
+      "sha256": "b00ddbfd4c7ca83b94d5956f265cc1db620a9aa2038a4b9df4a67efa72cab45d",
+      "bytes": 8370
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0155.json.gz",
+      "sha256": "316572946cd2a9b39b65c2a29980e0259e3fd318e5c8d35574db3e0eeb4e3de4",
+      "bytes": 8157
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0156.json.gz",
+      "sha256": "96a6cf3e5ace9aba1efed196b00880ee097d26826b4c6acba3a2c21a6b1a8ec6",
+      "bytes": 27500
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0157.json.gz",
+      "sha256": "eb2a97a2bbf49327ceb8b13d2b09e126ce132ff8a432e5af95699bca7cbb948b",
+      "bytes": 27349
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0158.json.gz",
+      "sha256": "6ecbe3b2be70bbaefcf75f861981d02ff260e162b1d7cc16aee1e8ceaf5c8a41",
+      "bytes": 8157
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0159.json.gz",
+      "sha256": "07d25cc899a103233b951ecc664658ef858ae7506780465c7ea3b1c623c60a7e",
+      "bytes": 40690
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0160.json.gz",
+      "sha256": "b6488654e18804dc463a2076363bdffd676c7e6d313947ac087b2fa5547d77cf",
+      "bytes": 53439
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0161.json.gz",
+      "sha256": "a6ff74b4800ca87dbdc3ca6a0a3eae2b4131366cf204e9f9e5beeb7aa3127bd6",
+      "bytes": 14966
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0162.json.gz",
+      "sha256": "f74f13e1662eecc9c8100dcd96ec6129b1ce0f1299fa198c9e92cba7489ba04c",
+      "bytes": 53807
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0163.json.gz",
+      "sha256": "adfe5e48037b45df6c873a26460689c3710dff8fc0682219fa2ba14307af367b",
+      "bytes": 105549
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0164.json.gz",
+      "sha256": "ada42ed6d46dd067be81646c19811e71538d052f92a8ddb144015182b5b1915b",
+      "bytes": 54044
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0165.json.gz",
+      "sha256": "a3a611831d39a26a5099fc2a41b7f8d8c198344aea8e7dd895872e8d9d3e4cb9",
+      "bytes": 8367
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0166.json.gz",
+      "sha256": "86dd6d4a00d0b54fedbb9c423d4423dd733c5d2ab2d47aff992784cc39640dec",
+      "bytes": 53866
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0167.json.gz",
+      "sha256": "a6c4dba465ac322a0e17d46c7c775e05b32e928a11a3d4893c6ec4b63114b3c7",
+      "bytes": 275750
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/run-43573003976-1-germs0127-0169/germ0168.json.gz",
+      "sha256": "07ed52d7a5c9536c88d010700930214ac5365a698d0e1dcd6878f00c5fd59702",
+      "bytes": 1093937
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-moving-first-symbol-and-root-subtractions.md",
+      "sha256": "2010d9a15ff5604dcdfd7d1db8f782a5f247806b4b007565073b02c8d4008fac",
+      "bytes": 11572
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_banded_normal.py",
+      "sha256": "78cb675a88b980b8660b0d768df12332328ec16736da2f842552d68574f18a66",
+      "bytes": 6253
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_candidate_shards.py",
+      "sha256": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e",
+      "bytes": 4187
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cubic_target_jets.py",
+      "sha256": "eb3fe6833fcba0162724031905964563e3f96f77aaa56b7996aadf3856ca8412",
+      "bytes": 5583
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_first_symbol_finite_part.py",
+      "sha256": "c866d7d0f75a36d969d291c4379be34df1b1634a5234875d40819baf555c9a7f",
+      "bytes": 24064
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_first_symbol_resume_v2.py",
+      "sha256": "851a86d3b7745d45246adbc52060287126e1eb99733e73c498c2ba01b0547a4c",
+      "bytes": 18117
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_positive_complete_coefficients.py",
+      "sha256": "1292a1c06695d49a6f5e6bca27ad375b2fd82b44ebe1e6066327b7b7a79d882c",
+      "bytes": 21756
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_continuous_value_repair.py",
+      "sha256": "51a3f7968991ed85211b74c23befae7021bb192796daf0ae2d12ec5a1d45329b",
+      "bytes": 9076
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_finite_part_CI.py",
+      "sha256": "6e99a21f86bf1be4c5534b29637395421b145e404db3ad6d9e513fd6ee8812f8",
+      "bytes": 4969
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_resume_v2_CI.py",
+      "sha256": "5597510ea5d0fe71cde2288b48b2ab10874c2dfd36c17f7fd8377c2f16c23cfd",
+      "bytes": 5099
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_high_target_jets.py",
+      "sha256": "ea71aefd62bf0c16c9e9c9fe4a5da5ce95a973cf913825bd875a4ba59fc14168",
+      "bytes": 6481
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_complete_Arb_high_scalar_jets.py",
+      "sha256": "b57e794709edcb8c3281df909f463a56a906aec8a8ba8a8b3f49394f10e4590f",
+      "bytes": 14947
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_scalar_cache_jets.py",
+      "sha256": "be012cec4863f809b6de67a880fe261d29518f02c2df563db776e4fa194849d8",
+      "bytes": 10046
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reciprocal_compact_target_jets.py",
+      "sha256": "6086ea55da07393f0da855ee825bf17ad622d9a5228ba71effd65893194ce56c",
+      "bytes": 7119
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_rotational_cap_jacobi.py",
+      "sha256": "05dda3acc9cd359c8cd15b61e1d573d310289af984d6923261e61161afc50046",
+      "bytes": 15349
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_interval_scalar.py",
+      "sha256": "0400c59be86f7f143481f89d5a08ca8d0ea992be36aa1687ff9a19d10343dda8",
+      "bytes": 4261
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_newton_refined.py",
+      "sha256": "13486edbf499c21b8f69803968e2e258347a4f3661f5d08eda56e503e3739757",
+      "bytes": 30711
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_overcollocation.py",
+      "sha256": "0ec3a60ac995b82839de85d65f3cb1e3b45e5fe0eb9c6cb56db7c94db59e77e2",
+      "bytes": 24323
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_actual_positive_cap.py",
+      "sha256": "1e8418174f54bd1d22dd628ef7f7e6525ca6b43cbcf7a2307d29f9d467e1612b",
+      "bytes": 16734
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_affine.py",
+      "sha256": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "bytes": 14806
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_bulk_box.py",
+      "sha256": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "bytes": 20229
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_bulk_interval.py",
+      "sha256": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "bytes": 18392
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_combine.py",
+      "sha256": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "bytes": 7624
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_interval.py",
+      "sha256": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "bytes": 30343
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_parameter_germ.py",
+      "sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+      "bytes": 13331
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_parameter_root.py",
+      "sha256": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f",
+      "bytes": 7879
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_energy_interval.py",
+      "sha256": "ef752984f6e8c9331b1f11f2419f49460d42288fa0aba10555a18455b971df91",
+      "bytes": 20302
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_low_schur.py",
+      "sha256": "3e026d619911b3b9716064908d0312de71de7433778643e25231a997b74fc54e",
+      "bytes": 16405
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_moment_space.py",
+      "sha256": "4d20d2a8f6d71ebaf9b61aac23770ace273ecf14912a9ea4109df58406dc80da",
+      "bytes": 14540
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_parameter_comparison.py",
+      "sha256": "0879acf59242862833b675c2790d62300c0ed2764146b635d4415ac6eef9b65b",
+      "bytes": 24862
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_scaled_body.py",
+      "sha256": "f552b3c90880a9f9ee812015018a83da67e5d5fe66e1232fd2871d2c59e600db",
+      "bytes": 18129
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_wiener_box.py",
+      "sha256": "6c86a5542e3370482ae3fef0b25630fc7e436c03929f6dd8e0af0eaef1a7c64f",
+      "bytes": 13746
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_codazzi_coefficients.py",
+      "sha256": "6bc8f108e89bef96134c580be6ae18b382dae5b5ab6139e5863acdfa526f73bb",
+      "bytes": 9196
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_codazzi_two_end_probe.py",
+      "sha256": "510a0ebf823f35942c0b45e67fb3ec5319cfe124996d88656fcc18a52c565eb2",
+      "bytes": 10306
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_compare.py",
+      "sha256": "760e103befa83e886619971b488ee27ac82d98b1072b7735c1435a637347e8b9",
+      "bytes": 5209
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_core_low_block.py",
+      "sha256": "d3b554e05f13112679786bd11a113ab8a29442b4da8f6ea0cf73c2ebb93d37be",
+      "bytes": 14588
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_core_low_coefficients.py",
+      "sha256": "ba2f5c93fbe7d1cdc0ddd21775f54c4e5e56d542d94fb69b985a3bfe42751990",
+      "bytes": 13658
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_correlated_curvature.py",
+      "sha256": "1562a71a221790cbe2796960da4e45349487caa386228347555613d995c9f25f",
+      "bytes": 16323
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_exterior_entry_jet.py",
+      "sha256": "9c522b37a84e78251d195d9d821db31e7b5aa3915c14e6adb7e38bb2af7d3c9e",
+      "bytes": 4481
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_finite_tail_DN.py",
+      "sha256": "b536f82516a4073337023b91e3255ed0832abc9fa23b6b8727dcd58cc285154e",
+      "bytes": 6433
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_geometry.py",
+      "sha256": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937",
+      "bytes": 23552
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_local_correction_probe.py",
+      "sha256": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf",
+      "bytes": 9547
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_metric_defect.py",
+      "sha256": "c4196dddcbfab15116c06a9be8a2120916c05d77fe3d7cb152f842f16b80a7de",
+      "bytes": 13046
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_natural_exterior_graft.py",
+      "sha256": "5862772e46bb281201c427e71b85066d68f4ea9520ab62e6f6286b8baefdeaee",
+      "bytes": 18347
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_newton.py",
+      "sha256": "633f1bd59e2a30b082a7915a38e0d0e27ce6d01aae6368675847235bb9bd38e5",
+      "bytes": 35030
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_newton_source_centered.py",
+      "sha256": "1bb36ce8ef6e8043f76c648b005cc3f56609e97ec49852f36bdbda80a5e4749d",
+      "bytes": 6195
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_positive_family_outer.py",
+      "sha256": "6c06be00ba05a57a767fb30c56264dc1d6d837a936957cc194e8612d33e9d158",
+      "bytes": 14383
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_root_interval.py",
+      "sha256": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840",
+      "bytes": 18526
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_symmetric_geometry.py",
+      "sha256": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+      "bytes": 13955
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_two_jet_newton_source.py",
+      "sha256": "cd7c36692b48844d268dc87e20556e39a869da154ce5e3826a6bdc0b50162f2a",
+      "bytes": 21116
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_uniform_tail.py",
+      "sha256": "d7010fcd486cfe703eab58d0d5ad4e78a193418b7bc6c71f25e308c523b55c61",
+      "bytes": 16454
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_unit_tangent.py",
+      "sha256": "2a41b6d2e87b29c731d910d1435487200a3925a124c6b09aecb205ea20634714",
+      "bytes": 14363
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/poschl_teller_fourfold_series.py",
+      "sha256": "173634e9e305dfe12946b4bc792014f2e443f689fc3dd2f5e1dfd834210992c9",
+      "bytes": 18152
+    }
+  ],
+  "only_budget_needed_strict_midpoints_and_root_finite_part_jets_are_new": true,
+  "original_successful_integrals_reused": 2838,
+  "original_successful_root_Newton_steps_reused": 2,
+  "original_failed_run": "43589646508",
+  "original_failed_native_sha256": "5167e64ff6076e0100fa1c643b7168ce889b2fe4f6dab034631ce8d7115f0e1d",
+  "original_published_commit": "409ca5fdf95b9b9d7eda5eee7c6770698869c24b",
+  "same_whole_width_target_retained": "1/1000"
+}

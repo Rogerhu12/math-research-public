@@ -1,6 +1,6 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 11:13 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 11:47 UTC。**主目标未完成，持续研究。**
 
 ## 规则、位置、同步
 
@@ -9,7 +9,7 @@ blob:none checkout `/workspace/scratch/0df957a82d09/math-research-public` 为 `/
 先前共享磁盘ENOSPC，本任务文件逐字节核同迁到该/tmp目录，原入口保留。新临时输出仍放该/tmp。
 旧 `/workspace/scratch/ac0d699811ad` 只读，不能修改其repo/native/进程；新的数学不在本地运行。
 
-最后实际 pull --rebase 与两 README 差异检查：1a16cfb6a1e5cafeba8684ff0d0425318e8e742b；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
+最后实际 pull --rebase 与两 README 差异检查：418fe546fb49e2e231eb93aea64af54d21d631cb；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
 已亲读ee26c0a65a2e63c15f2ccfba6714181584416542根差异：新增visible-flex-new-mechanism，课题数改按表，其余规则和题目标未变。
 每次push前实际pull/rebase并读两个README的新增diff，至少每小时pull；每条结论独立推；非FF立即rebase重推至成功，不force。
 PAT只在瞬时CLI/env，不落文件/输出/提交。root独占Git/H/open/results/log；三代理交付新文件后冻结，避免manifest失配。
@@ -63,6 +63,6 @@ newton_source：完整continuous regular Green、全high反馈与真qν−Z。ph
 
 mean-v2原始native/process在/tmp/visible-exact-0df9-workspace/body-mean-norm-complete-actual/；数学2.022430132s，源ec04c5ed…/manifest59a66681…，参数偏移0即物理η0。不能将已付mean校正当真响应逆。
 
-已接first-symbol-finite-part公开workflow，manifest17b36c19…/sourcec866d7d0…/driver6e99a21f…，233件固定/50源码/169scalar全复用，仅同一root新jets；求δ=0准确Xi有限部及宽1e−3，真returnβ/δ*转移/strong仍欠。
+firstsymbol首跑43589646508真实return1，native5167e64f…e1d；2838严格积分及两步真root已成功保，不重算。v2 manifest d2f3d184…/source851a86d3…/driver5597510e…，237件中原233全SHA不变；续剩余两germ，按剩余cell分配总预算，必要新midpoint真jets，原全格六阶尾仍保；最终宽1e−3未放宽。原包/tmp/visible-exact-0df9-workspace/first-symbol-finite-part-original-run-43589646508/。只求δ=0 Xi有限部，returnβ/δ*/strong仍欠。
 
 已证signed Riccati正Green及全部界面源（R133新续篇）；真实projector跳为sec/tan，全部正分母与D0ρ(0)<1仍由连续validator核。先等式正逆再slack，不能对范数不等式直接减ρp′。
