@@ -475,3 +475,7 @@ root亲读process12424B SHA954d8038…、summary28522B SHA230b4ba0…和完整ac
 ## 2026-11-14 22:53:28 UTC：固定η0真实根高阶jet证明独推
 
 完整审阅H1–12最终4d747e2162ac96cde13a041470eddbce51dc6d94（10507B，SHA5db44117f45393480675e097441b3791a8be69ab35311e24426ab156ffc9f9e7）。原两aux域已成功的六阶完整误差复用，Cauchy升阶后与新有限根F0..11组合，双线性零频产品给E0..10，形式级数严格给四内蕴行0..9。固定η0/原根范围明确；将部署52pin公开consumer，已成旧域/尾0重算。只读核949d7056a8fbee4d5b6b3fd27b67a7f6cda7ec74两README不变；未把API核当真pull。
+
+## 2026-11-14 22:53:53 UTC：高根jet公开52pin consumer部署
+
+独立部署science a23bb8bd…/SHAbeaf8a8d…、CI25028a02…/98a56e08…、manifest35982d5e…/568633a6…、worker a97db773…/13a8cec2…与flow235123c7…/88960e56…。52件1708567B含原39源闭包、对象/两NPZ、root/aux完整native；不搬运binary到connector。一次新根有限F0..11，每个完整误差/范数/双线性均值/E/形式级数阶段立即保存，只同源/同manifest/runtime前缀复用；45/50min限制前后真pull与README差异核，失败也完整出版及artifact。实际结果尚未声称。只读核f90bd5563c427fa9002c21fc1a1125de8a77fe76README均不变。

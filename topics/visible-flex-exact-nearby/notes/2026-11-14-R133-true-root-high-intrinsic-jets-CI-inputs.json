@@ -1,0 +1,352 @@
+{
+  "kind": "true_root_high_intrinsic_jets_exact_public_CI_inputs",
+  "public_repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-exact-nearby",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "arb_precision_bits": 320
+  },
+  "input_paths": {
+    "object": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "root_germ": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+    "auxiliary_native": "topics/visible-flex-exact-nearby/notes/auxiliary_root_complex_third_jets_ci/run-43640181602-1/consumers/auxiliary-root-complex-third-jets.json.gz",
+    "auxiliary_process": "topics/visible-flex-exact-nearby/notes/auxiliary_root_complex_third_jets_ci/run-43640181602-1/consumers/process.json"
+  },
+  "external_completed_natives": [],
+  "mathematical_parameters": {
+    "fixed_intrinsic_parameter": "eta_0",
+    "original_parameter_half_width_for_outward_enclosure": "1/1000000000",
+    "consumed_complete_auxiliary_radii": [
+      "1/10000",
+      "1/2000"
+    ],
+    "saved_complete_error_orders": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "finite_primitive_derivative_count": 12,
+    "energy_derivative_count": 11,
+    "ordinary_intrinsic_derivative_count": 10,
+    "original_primitive_nodes": 512,
+    "original_primitive_angles": 4096
+  },
+  "new_science": "One new true-root finite evaluation of twelve ordinary primitive jets, complete energy0..10 and intrinsic0..9. Complete errors are Cauchy derivatives of two already completed auxiliary error domains. No completed old auxiliary domain or tail is evaluated again.",
+  "runtime_import_closure": [
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cubic_target_jets.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_high_target_jets.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_codazzi_coefficients.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_bulk_box.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_newton_source_centered.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_two_jet_newton_source.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_root_interval.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_uniform_tail.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_interval.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_bulk_interval.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_correlated_curvature.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_metric_defect.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_scaled_body.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_affine.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_interval_scalar.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_compare.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_parameter_comparison.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_energy_interval.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_newton.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_parameter_germ.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_natural_exterior_graft.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_wiener_box.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_positive_family_outer.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_actual_positive_cap.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_core_low_coefficients.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_moment_space.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_newton_refined.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_overcollocation.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_banded_normal.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_unit_tangent.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_combine.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_parameter_root.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_exterior_entry_jet.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_low_schur.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_finite_tail_DN.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_geometry.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_symmetric_geometry.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_phase_core_low_block.py",
+    "topics/visible-flex-exact-nearby/scripts/poschl_teller_fourfold_series.py"
+  ],
+  "prefix_recovery": "Identical source, manifest, runtime and all original input SHA. Save the complete binary64 finite point array immediately, then every error order, finite norm, mean pair, energy jet and intrinsic stage; no successful stage is recomputed on resume.",
+  "scope": {
+    "fixed_original_true_root_only": true,
+    "other_intrinsic_parameters_given_the_same_root": false,
+    "first_correction_root_Taylor_coefficients_paid": false,
+    "old_circle_inverse_or_independent_mean_on_first_correction_paid": false,
+    "full_strong_return_or_cutoff97_inverse_paid": false
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz",
+      "bytes": 137851,
+      "sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "bytes": 1638,
+      "sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+      "bytes": 386775,
+      "sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+      "bytes": 7851,
+      "sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/auxiliary_root_complex_third_jets_ci/run-43640181602-1/consumers/auxiliary-root-complex-third-jets.json.gz",
+      "bytes": 432808,
+      "sha256": "6276b4b8bd117b3092ce633b7164ff99968100f10b09cbaef8850d4c03f6b24f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/auxiliary_root_complex_third_jets_ci/run-43640181602-1/consumers/process.json",
+      "bytes": 38267,
+      "sha256": "a6783642ae2c49f66c3a7b54f1506389f24771790f3bd5a324646df8229f9728"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-auxiliary-root-piece-analytic-extension-and-complete-complex-third-jets.md",
+      "bytes": 11394,
+      "sha256": "cfaf9234c4fbdaf5515a299194762232a802312fd3fd2c4699e608c47c33ea64"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-first-Airy-root-jets-and-Taylor-tail-derivatives.md",
+      "bytes": 12231,
+      "sha256": "2429213db52c189de3db7f7b4db6841cc6ad712ae538192b9aaf7ddc3a1136f7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-true-root-high-intrinsic-jets-from-complete-auxiliary-errors.md",
+      "bytes": 10507,
+      "sha256": "5db44117f45393480675e097441b3791a8be69ab35311e24426ab156ffc9f9e7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_banded_normal.py",
+      "bytes": 6253,
+      "sha256": "78cb675a88b980b8660b0d768df12332328ec16736da2f842552d68574f18a66"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_auxiliary_root_complex_third_jets.py",
+      "bytes": 22601,
+      "sha256": "70f848effb2e57c64b2c9e8100d6ac0af01968c13c939a4874c6f44b0a759d21"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cubic_target_jets.py",
+      "bytes": 5583,
+      "sha256": "eb3fe6833fcba0162724031905964563e3f96f77aaa56b7996aadf3856ca8412"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_high_target_jets.py",
+      "bytes": 6481,
+      "sha256": "ea71aefd62bf0c16c9e9c9fe4a5da5ce95a973cf913825bd875a4ba59fc14168"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_turning_complex_germ.py",
+      "bytes": 13009,
+      "sha256": "a3ad50b828c69d3e6f1e9254c1f266535171741ee2cd675d1569ef8f0fac0491"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_high_intrinsic_jets_CI.py",
+      "bytes": 8770,
+      "sha256": "98a56e08e06aafe20da38488c46b48a8baef47c6a5f01ee7e40c1e07c1917cdd"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_high_intrinsic_jets.py",
+      "bytes": 26924,
+      "sha256": "beaf8a8d2b6a9534f4659ccd7b2a74d15c145be8ec1efe0778920ff1c90bb88b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_interval_scalar.py",
+      "bytes": 4261,
+      "sha256": "0400c59be86f7f143481f89d5a08ca8d0ea992be36aa1687ff9a19d10343dda8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_newton_refined.py",
+      "bytes": 30711,
+      "sha256": "13486edbf499c21b8f69803968e2e258347a4f3661f5d08eda56e503e3739757"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_overcollocation.py",
+      "bytes": 24323,
+      "sha256": "0ec3a60ac995b82839de85d65f3cb1e3b45e5fe0eb9c6cb56db7c94db59e77e2"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_actual_positive_cap.py",
+      "bytes": 16734,
+      "sha256": "1e8418174f54bd1d22dd628ef7f7e6525ca6b43cbcf7a2307d29f9d467e1612b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_affine.py",
+      "bytes": 14806,
+      "sha256": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_bulk_box.py",
+      "bytes": 20229,
+      "sha256": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_bulk_interval.py",
+      "bytes": 18392,
+      "sha256": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_combine.py",
+      "bytes": 7624,
+      "sha256": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_interval.py",
+      "bytes": 30343,
+      "sha256": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_parameter_germ.py",
+      "bytes": 13331,
+      "sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_parameter_root.py",
+      "bytes": 7879,
+      "sha256": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_energy_interval.py",
+      "bytes": 20302,
+      "sha256": "ef752984f6e8c9331b1f11f2419f49460d42288fa0aba10555a18455b971df91"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_low_schur.py",
+      "bytes": 16405,
+      "sha256": "3e026d619911b3b9716064908d0312de71de7433778643e25231a997b74fc54e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_moment_space.py",
+      "bytes": 14540,
+      "sha256": "4d20d2a8f6d71ebaf9b61aac23770ace273ecf14912a9ea4109df58406dc80da"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_parameter_comparison.py",
+      "bytes": 24862,
+      "sha256": "0879acf59242862833b675c2790d62300c0ed2764146b635d4415ac6eef9b65b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_scaled_body.py",
+      "bytes": 18129,
+      "sha256": "f552b3c90880a9f9ee812015018a83da67e5d5fe66e1232fd2871d2c59e600db"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_wiener_box.py",
+      "bytes": 13746,
+      "sha256": "6c86a5542e3370482ae3fef0b25630fc7e436c03929f6dd8e0af0eaef1a7c64f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_codazzi_coefficients.py",
+      "bytes": 9196,
+      "sha256": "6bc8f108e89bef96134c580be6ae18b382dae5b5ab6139e5863acdfa526f73bb"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_compare.py",
+      "bytes": 5209,
+      "sha256": "760e103befa83e886619971b488ee27ac82d98b1072b7735c1435a637347e8b9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_core_low_block.py",
+      "bytes": 14588,
+      "sha256": "d3b554e05f13112679786bd11a113ab8a29442b4da8f6ea0cf73c2ebb93d37be"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_core_low_coefficients.py",
+      "bytes": 13658,
+      "sha256": "ba2f5c93fbe7d1cdc0ddd21775f54c4e5e56d542d94fb69b985a3bfe42751990"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_correlated_curvature.py",
+      "bytes": 16323,
+      "sha256": "1562a71a221790cbe2796960da4e45349487caa386228347555613d995c9f25f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_exterior_entry_jet.py",
+      "bytes": 4481,
+      "sha256": "9c522b37a84e78251d195d9d821db31e7b5aa3915c14e6adb7e38bb2af7d3c9e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_finite_tail_DN.py",
+      "bytes": 6433,
+      "sha256": "b536f82516a4073337023b91e3255ed0832abc9fa23b6b8727dcd58cc285154e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_geometry.py",
+      "bytes": 23552,
+      "sha256": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_metric_defect.py",
+      "bytes": 13046,
+      "sha256": "c4196dddcbfab15116c06a9be8a2120916c05d77fe3d7cb152f842f16b80a7de"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_natural_exterior_graft.py",
+      "bytes": 18347,
+      "sha256": "5862772e46bb281201c427e71b85066d68f4ea9520ab62e6f6286b8baefdeaee"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_newton_source_centered.py",
+      "bytes": 6195,
+      "sha256": "1bb36ce8ef6e8043f76c648b005cc3f56609e97ec49852f36bdbda80a5e4749d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_newton.py",
+      "bytes": 35030,
+      "sha256": "633f1bd59e2a30b082a7915a38e0d0e27ce6d01aae6368675847235bb9bd38e5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_positive_family_outer.py",
+      "bytes": 14383,
+      "sha256": "6c06be00ba05a57a767fb30c56264dc1d6d837a936957cc194e8612d33e9d158"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_root_interval.py",
+      "bytes": 18526,
+      "sha256": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_symmetric_geometry.py",
+      "bytes": 13955,
+      "sha256": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_two_jet_newton_source.py",
+      "bytes": 21116,
+      "sha256": "cd7c36692b48844d268dc87e20556e39a869da154ce5e3826a6bdc0b50162f2a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_uniform_tail.py",
+      "bytes": 16454,
+      "sha256": "d7010fcd486cfe703eab58d0d5ad4e78a193418b7bc6c71f25e308c523b55c61"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_unit_tangent.py",
+      "bytes": 14363,
+      "sha256": "2a41b6d2e87b29c731d910d1435487200a3925a124c6b09aecb205ea20634714"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/poschl_teller_fourfold_series.py",
+      "bytes": 18152,
+      "sha256": "173634e9e305dfe12946b4bc792014f2e443f689fc3dd2f5e1dfd834210992c9"
+    }
+  ]
+}
