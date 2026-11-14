@@ -1,0 +1,124 @@
+name: visible-exact complete original body residuals and both mean errors
+
+on:
+  workflow_run:
+    workflows: ['visible-exact correlated body with separately reviewed repository rules']
+    branches: [main]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      source_run:
+        description: 'The actual successful reviewed body run in this public repository'
+        required: true
+        default: '43583838026'
+      source_attempt:
+        description: 'The original completed run attempt'
+        required: true
+        default: '1'
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-complete-body-mean
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  VISIBLE_BODY_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-pinned-inputs.json
+  VISIBLE_BODY_MANIFEST_SHA: c214f800a5094c905c554e9053c52567d5ae5d76be41ac2e3fe9d673b396d784
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+  REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+  MEAN_FINISH_SOURCE_SHA: 75ee0110ddea9f3ab22a41ea4266d21a09eac91586fcedd26eeae20c2906eb7b
+  SOURCE_RUN: ${{ github.event.workflow_run.id || inputs.source_run }}
+  SOURCE_ATTEMPT: ${{ github.event.workflow_run.run_attempt || inputs.source_attempt }}
+
+jobs:
+  complete-body-mean:
+    if: >-
+      github.repository == 'Rogerhu12/math-research-public' &&
+      (github.event_name == 'workflow_dispatch' ||
+       (github.event.workflow_run.conclusion == 'success' &&
+        github.event.workflow_run.repository.full_name == github.repository))
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 350
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out unchanged body science and the exact finalizer
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-pinned-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Fetch only the original pinned scientific inputs and actual prior evidence
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py
+          --kind body --mode hydrate --manifest "$VISIBLE_BODY_MANIFEST" --manifest-sha "$VISIBLE_BODY_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+      - name: Install the original arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Set container-visible original artifact paths
+        id: paths
+        run: |
+          printf 'prepared=%s\n' "$RUNNER_TEMP/visible-exact-body-original-prepared" >> "$GITHUB_OUTPUT"
+          printf 'previous=%s\n' "$RUNNER_TEMP/visible-exact-body-original-rows" >> "$GITHUB_OUTPUT"
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-body-complete-mean" >> "$GITHUB_OUTPUT"
+      - name: Reuse the original successful complete trial reconstruction
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: ${{ env.SOURCE_RUN }}
+          name: visible-exact-body-prepared-${{ env.SOURCE_RUN }}-${{ env.SOURCE_ATTEMPT }}
+          path: ${{ steps.paths.outputs.prepared }}
+      - name: Receive every actual complete disjoint body worker artifact
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: ${{ env.SOURCE_RUN }}
+          pattern: visible-exact-body-rows-*-${{ env.SOURCE_RUN }}-${{ env.SOURCE_ATTEMPT }}
+          merge-multiple: false
+          path: ${{ steps.paths.outputs.previous }}
+      - name: Check all 7721 original rows and consume both exact mean-error flows
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_body_mean_CI_finish.py
+          --manifest "$VISIBLE_BODY_MANIFEST" --manifest-sha "$VISIBLE_BODY_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --finish-source-sha "$MEAN_FINISH_SOURCE_SHA" --original-run "$SOURCE_RUN" --original-attempt "$SOURCE_ATTEMPT"
+          --prepared "$RUNNER_TEMP/visible-exact-body-original-prepared"
+          --previous-artifacts "$RUNNER_TEMP/visible-exact-body-original-rows"
+          --work "$RUNNER_TEMP/visible-exact-body-complete-mean-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-body-complete-mean"
+          --compute-minutes 310 --checkpoint-minutes 10
+      - name: Preserve the exact full mean-error result and every actual outcome
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-body-complete-mean-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn
