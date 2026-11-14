@@ -626,3 +626,5 @@
 - **R639（已证明）**：[SS_j36_07原规范高度与整盘排除](results/R639-SS_j36_07-actual-ramified-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2全部简单Hensel提升的四同标签F3差值全非零。非CM SS累计58/105。
 
 - **R640（已证明）**：[SS_j36_08原规范高度与整盘排除](results/R640-SS_j36_08-actual-ramified-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2约化二次式判别式20非平方，四同标签全无根。非CM SS累计59/105。
+
+- **R636（已证明）**：[SS_j36_03原规范高度与整盘排除](results/R636-SS_j36_03-actual-ramified-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2模47根[42, 43]与四同标签F3不相交。非CM SS累计60/105。
