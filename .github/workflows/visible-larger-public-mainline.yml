@@ -11,7 +11,7 @@ on:
         description: Actual numerical calculation
         type: choice
         default: all
-        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck]
+        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck, coupling112trust]
 
 permissions:
   contents: write
@@ -39,7 +39,7 @@ jobs:
           python - <<'PYLANES'
           import json, os
           from pathlib import Path
-          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck'}
+          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust'}
           if os.environ['EVENT_NAME'] == 'workflow_dispatch':
               selected = os.environ['DISPATCH_LANE'] or 'all'
               lanes = ['free3', 'geometry', 'coupling', 'tailzero', 'cardinal'] if selected == 'all' else [selected]
@@ -240,7 +240,7 @@ jobs:
             --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
             --node-heap 6144 --out "$VISIBLE_OUT/boundary112-response"
       - name: Restore the actual completed M112 preparation and full boundary response
-        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge'
+        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge' || matrix.lane == 'coupling112trust'
         run: |
           export PREPARED112="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112"
           python - <<'PY112'
@@ -259,6 +259,45 @@ jobs:
           cp "$PREPARED112/preparation112/prepared.json.gz" "$VISIBLE_OUT/preparation112/prepared.json.gz"
           cp "$PREPARED112/boundary112-response/response-check.json" "$VISIBLE_OUT/boundary112-response/response-check.json"
           cp "$PREPARED112/T112-config.json" "$VISIBLE_OUT/T112-config.json"
+      - name: Construct an unaccepted complete warm with exact constraints and positive damping
+        if: matrix.lane == 'coupling112trust'
+        timeout-minutes: 30
+        run: |
+          python -m py_compile \
+            "$VISIBLE_COMPUTATIONS/geometry_20261114_constrained_collocation.py" \
+            "$VISIBLE_COMPUTATIONS/geometry_20261114_constrained_trust_warm.py" \
+            "$VISIBLE_COMPUTATIONS/geometry_20261114_constrained_trust_response.py"
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_constrained_trust_warm.py" \
+            --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_OUT/preparation112/prepared.json.gz" \
+            --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
+            --tail-config "$VISIBLE_OUT/T112-config.json" --out "$VISIBLE_OUT/constrained-warm" \
+            --iterations 3 --lsmr-iterations 80 --damping 1 --damping-attempts 5 \
+            --line-search-steps 17 --budget-seconds 1200 --jac-workers 2 --angles 4096
+          python - <<'PYWARM'
+          import hashlib, json, os
+          from pathlib import Path
+          directory = Path(os.environ['VISIBLE_OUT'])/'constrained-warm'
+          status = json.loads((directory/'driver-status.json').read_text())
+          if not status.get('optimization_progress') or status.get('accepted_warm_steps', 0) < 1:
+              raise ValueError('No actually decreased unaccepted warm is available')
+          name = status['latest_warm_file']
+          if Path(name).name != name:
+              raise ValueError('The actual warm must stay in its recorded output directory')
+          warm = directory/name
+          if hashlib.sha256(warm.read_bytes()).hexdigest() != status['latest_warm_sha256']:
+              raise ValueError('The preserved actual warm identity changed')
+          with open(os.environ['GITHUB_ENV'], 'a') as stream:
+              stream.write('VISIBLE_TRUST_WARM='+str(warm)+'\n')
+          print('Preserved unaccepted actual warm: '+name)
+          PYWARM
+      - name: Recheck all physical boundary derivatives on the actual decreased warm
+        if: matrix.lane == 'coupling112trust'
+        timeout-minutes: 25
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_constrained_trust_response.py" \
+            --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_TRUST_WARM" \
+            --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
+            --tail-config "$VISIBLE_OUT/T112-config.json" --out "$VISIBLE_OUT/physical-response" --angles 4096
       - name: Refine only the last bridge using the original analytic seed and inspect actual local blocks
         if: matrix.lane == 'coupling112bridge'
         timeout-minutes: 35
@@ -359,8 +398,22 @@ jobs:
             --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
             --node-heap 6144 --max-nodes 1200 --material-angles 4096 --physical-angles 4096 \
             --out "$VISIBLE_OUT/full-DN112" --work "$RUNNER_TEMP/visible-full-DN112-physical-qr"
+      - name: Solve the original full DN equations from the actual decreased unaccepted warm
+        if: matrix.lane == 'coupling112trust'
+        timeout-minutes: 270
+        run: |
+          export VISIBLE_FLEX_COMPLETED_ZERO_TAIL_DIR="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-tailzero112/zero-H-T112"
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_physical_test_full_dn.py" \
+            --accepted "$VISIBLE_ACCEPTED" --warm "$VISIBLE_TRUST_WARM" \
+            --response-check "$VISIBLE_OUT/physical-response/response-check.json" \
+            --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
+            --tail-client "$VISIBLE_COMPUTATIONS/exact_20261114_seeded_zero_tail_client.py" \
+            --tail-config "$VISIBLE_OUT/T112-config.json" \
+            --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
+            --node-heap 6144 --max-nodes 1200 --material-angles 4096 --physical-angles 4096 \
+            --out "$VISIBLE_OUT/full-DN112" --work "$RUNNER_TEMP/visible-full-DN112-trust-band"
       - name: Read and close only the actually accepted M112 field with its own tail
-        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge'
+        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge' || matrix.lane == 'coupling112trust'
         timeout-minutes: 90
         run: |
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_lifted_modes_after_accept.py" \
@@ -371,7 +424,7 @@ jobs:
             --source-topic "$VISIBLE_SOURCE_TOPIC" --out "$VISIBLE_OUT/accepted-112-physical-closed" \
             --angles 2048 4096 --radial-subdivisions 2 4 --readout-levels 1,2,4
       - name: Audit and assemble the exact inlet parity normal form of the accepted field
-        if: matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge'
+        if: matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge' || matrix.lane == 'coupling112trust'
         timeout-minutes: 45
         run: |
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_inlet_parity_normal_form.py" audit \
@@ -483,7 +536,7 @@ jobs:
           python -u "$VISIBLE_COMPUTATIONS/exact_20261114_tail_trace_report.py" \
             --directory "$VISIBLE_OUT/full-DN" --out "$VISIBLE_OUT/full-DN-tail-diagnostics.json.gz"
       - name: Read actual M112 full-DN diagnostics without changing solver status
-        if: always() && (matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge')
+        if: always() && (matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge' || matrix.lane == 'coupling112trust')
         run: |
           python -u "$VISIBLE_COMPUTATIONS/exact_20261114_tail_trace_report.py" \
             --directory "$VISIBLE_OUT/full-DN112" --out "$VISIBLE_OUT/full-DN112-tail-diagnostics.json.gz"

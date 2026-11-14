@@ -6,7 +6,7 @@
 
 仅公开 Rogerhu12/math-research-public；已授权 commit/push main 及本仓Actions。PAT仅瞬时CLI环境，不入文件/日志/提交；不强推。根README授权及14条已读。每次push前及至少每小时实际pull --rebase，核根/本题README，变化只读diff并立即执行；非快进立即rebase/push到成功。root负责Git/H/open/log/workflow，子线交独立文件。
 科学计算全部本仓Actions；本地仅源码、读取及取回结果。Rule12完整证明直接results，不设审批/独审门。H<10KB、MD<100KB、数据>1MB gzip、单Git文件<5MB；不写根LOG；禁完整克隆/gc/maintenance/大树ls-tree -l。
-12:35:50Z旧环境失联、tmpfs丢失；Rule8小文本保全期间未冒实际pull。12:58终端恢复，新窄clone=/tmp/vl-public-20261114-1257/math-research-public；/workspace/scratch/visible-larger-1257为入口。原默认cwd仍失效，exec须显式workdir。clone上层sync_public.py仅从CLI临时env取PAT。旧未推Rφ v4草稿确实丢失，现重建；不沿用失联本地SHA。
+12:35:50Z旧tmpfs丢失，Rule8保全期未冒实际pull；12:58恢复，新窄clone=/tmp/vl-public-20261114-1257/math-research-public；/workspace/scratch/visible-larger-1257为入口。原cwd失效，exec显式workdir；上层sync_public.py仅CLI临时env取PAT。未推Rφ v4正重建，不沿用失联SHA。
 
 ## 完成标准（尚未满足）
 
@@ -24,8 +24,7 @@ request08/run43588155190 prepare112真成功：699nodes，node/mid/两RMS域通�
 
 | request / run | 真结论 |
 |---|---|
-|10 / 43590496434|旧Rθ QR相对线残差.91333、方向9658，17trial无接受、966invalid、新H0。|
-|11 / 43592195185|旧Rθ完整band相对3.27382e−4、方向5832.77；17trial全坏，最小α仍52坏node/122mid/112BC；966invalid，新H0。|
+|10/11 / 43590496434、43592195185|旧Rθ QR/band相对线残差.91333/3.27382e−4、方向9658/5832.77；全部原trial无接受、966invalid、新H0，完整失败notes已归档。|
 |12 / 43593855655|实际P cond1.14478e17、均衡不治；方向全θ L2=4942而保留112仅7.10；至2^-40仍坏mid，无finite Taylor观察。独立Jd残差8.9888e−5；41.907s无新Jac/尾/接受。|
 |13 / 43594985550|R252真T112全J/非零H FD9.65016e−10；新右块cond621945/均衡2956.89，与同旧Uend方块119589.8。全band相对8.22590e−7/方向352.439；17trial全坏、最后78node/124mid；966invalid，新H0。30件publisher e61dbf4。|
 |14 / 43596465579|同699/新Rφ原QR小块119589.8，但全线相对.06731197/方向352.418；原回溯无接受、966invalid、新H0。未记逐trial域，不补造。artifact14114552872/publisher2d1a128。|
@@ -36,9 +35,9 @@ request15 actual局部Jac在a''=0旧峰值cell仍谱半径1.60766e5，L/R条件�
 
 ## 当前下一实际计算
 
-amplitude在原699上准备exact-constraint + LSMR正阻尼warm：只存后698节点338physical、109自由core、3p；入口由c精确构造，所有节点同c/p，原常数ODE与left边界恒等满足。残差仍全部physical collocation及112 Rφ；零点与原完整问题相同，不删高模/方程。
+request17/coupling112trust三独立源及完整接线已就绪（详见 constrained-trust-warm-interface note），从原699做exact-constraint + LSMR正阻尼warm：只存后698节点338physical、109自由core、3p；入口由c精确构造，所有节点同c/p，原常数ODE与left边界恒等满足。残差仍全部physical collocation及112 Rφ；零点与原完整问题相同，不删高模/方程。
 用原真实块的matvec/rmatvec，不正规方程；C²角权重须含入口t_m=−2m c_m导致core的额外频率因子。实际midpoint必须重算原非线性RHS；采用与实际方向一致的加权merit/预测下降，不偷用原Newton专属Armijo。记录每次finite域、残差下降、步长、停滞；warm不冒接受。
-任何有用warm再交原完整Rφ fullDN，原RMS1e−6/BC1e−11/冻结物理检查/真实H尾及最终audit全保。root接新Actions lane；尚未启动request17。geometry支持midpoint/链式项；其full-newton-domain-and-sobolev-step note给另一个可选过滤Newton，不是本次已采用算法。
+任何有用warm再交原完整Rφ fullDN，原RMS1e−6/BC1e−11/冻结物理检查/真实H尾及最终audit全保。request17只选此lane：3模型/80 LSMR步/1200s初猜预算；新warm真实FD后自动接原fullDN/after_accept/R249。实际run待push后读取。geometry支持midpoint/链式项；其full-newton-domain-and-sobolev-step note给另一个可选过滤Newton，不是本次已采用算法。
 
 ## 尾、闭合、同g精化
 
@@ -54,7 +53,7 @@ R250连续及偶N>4M精确DFT材料P det>0，不给条件数。R253固定光滑�
 R251原φ四Loewner量等价operator<η；严格cell/full-prefix及同源scalar exporter已重建入库。原415五次/三六次bump/48与64有限Gauss不换g，实际bridge7.5非旧tag8，ap/app不冒有限和导数。
 request16/run43597596523/source89b0882已真SUCCESS：四源compile，恰三解析例及必要series API，flint0.9/160bit；完整z0圆柱通过、斜率错误及mixed主导失败被正确识别。artifact14115152863/publisher9eee945。实际回执见 actual-R251-operator-interface-check note；这不是实际候选、完整finiteGauss或全prefix验证，不再重跑三个例子。
 R252完整φ有限边界与全部core链式导数已证，是新有限方案，不是旧Rθ等价预条件。R254全物理共享Hermite每cell有理四点排平面、6×(4M+3)网格完备；消费者compile过，尚无新场数值，tail/collar/marker/含反射δE仍须同场。
-R255精确circle全模态线性等距、coast N²=apN及I+ΔsN/a0、强剪切非k²指数；bridge冻结尺度仅参照。
+R255精确circle/coast传播与强非正规剪切已证，bridge冻结尺度不冒实际有限Jac。
 
 ## 封存与恢复
 

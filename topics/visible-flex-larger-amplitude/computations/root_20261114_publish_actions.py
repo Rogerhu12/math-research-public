@@ -15,7 +15,6 @@ import os
 from pathlib import Path
 import shutil
 import subprocess
-import time
 
 
 def sha(path):
@@ -29,7 +28,7 @@ def sha(path):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--results', type=Path, required=True)
-    p.add_argument('--lane', choices=('m96', 'rk48', 'geometry', 'free3', 'material', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck'), required=True)
+    p.add_argument('--lane', choices=('m96', 'rk48', 'geometry', 'free3', 'material', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust'), required=True)
     a = p.parse_args()
     if os.environ.get('GITHUB_REPOSITORY') != 'Rogerhu12/math-research-public':
         raise RuntimeError('Results belong to the explicitly designated public repository')
@@ -105,7 +104,7 @@ def main():
     git('add','--sparse',str(rel))
     git('-c','user.name=github-actions[bot]','-c','user.email=41898282+github-actions[bot]@users.noreply.github.com',
         'commit','-m','visible-larger: preserve actual '+a.lane+' continuation '+run)
-    for retry in range(30):
+    while True:
         before = subprocess.check_output(['git', '-C', str(repo), 'rev-parse', 'HEAD'], env=env, text=True).strip()
         git('pull','--rebase','origin','main')
         rule_diff = subprocess.check_output(
@@ -115,14 +114,17 @@ def main():
         if rule_diff:
             print(rule_diff, flush=True)
             raise RuntimeError('README rules changed during synchronization; the root worker must read this diff and publish under the new rules. Computed artifacts are preserved.')
-        result = git('push','origin','HEAD:main',check=False)
+        result = subprocess.run(['git', '-C', str(repo), 'push', 'origin', 'HEAD:main'],
+                                env=env, check=False, text=True, capture_output=True)
+        print(result.stdout + result.stderr, flush=True)
         if result.returncode == 0:
             print('Published '+str(rel),flush=True)
             return 0
-        # Retry ordinary synchronization only. No alternate repository or force push.
-        if retry < 29:
-            time.sleep(2)
-    raise RuntimeError('Ordinary push retries exhausted; complete outputs remain in the artifact')
+        # The user's instruction requires immediate ordinary rebase/push
+        # until a non-fast-forward is resolved; no retry-count cutoff.
+        failure = result.stdout + result.stderr
+        if not any(reason in failure for reason in ('non-fast-forward', 'fetch first', '[rejected]')):
+            raise RuntimeError('Push failed for a reason other than concurrent main advancement; complete outputs remain in the artifact')
 
 
 if __name__ == '__main__':
