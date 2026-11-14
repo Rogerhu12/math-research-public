@@ -4,8 +4,8 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：d98666b6735e45d02439072ab8a6ca38d2bf8328
-最近实际pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。最近GitHub集成核查：2026-11-14 13:01:22 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
+已读规则提交：0de57e45b476d39754e89a6b75afc18ea09977ab
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions run43597163388于20:55发布前实际pull并核两README，无差异。最近GitHub集成核查：2026-11-14 13:03:07 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
 
 仅Rogerhu12/math-research-public；旧私库与“停公开runner”均作废。每条结论单独commit/push main已授权；终端推前pull，非快进立即pull --rebase并重推至成功。PAT只CLI，不写文件/提交。根独占tracked/git，辅助仅scratch或恢复小文本blob。单Markdown<100KB，HANDOFF<10KB，open/README<30KB；数据>1MBgzip、单文件<5MB；日志仅本题，≤5内容行，改共享workflow须说明。
 
@@ -44,7 +44,7 @@ R593同η/cclear/ctriv与q项零；R690实际2处零，R694/R696校准点及候�
 
 证明results/R717-exact-original-CM-norm-from-certified-complex-traces.md，SHA256 dda392359f0651dd312cce9f191071f6ff06fdd37554b463b96f323a3385f314；core scripts/R717_certified_original_CM_norm.py SHA75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402。
 原P=S2S3/C0²∈Q(ζ_(p+1))^+，2^37·3^26·p5·P整；完整原Ω/6标签、两个+根号、精确period factor和全尾给全部整数trace，唯一整数区间及精确Teich根恢复原值。无任何137147数值预断。
-p41校准run43597163388/source ae827621e6632ad70227e1523247c0331edf9d8f已成功并完整发布；receipt SHA fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6。配置320bits、tail220、cutoff300p、checkpoint50，原expected1274通过；完成的42整数trace与其17文件manifest保存，不重算。python-flint0.9.0；wrapper固定本次request到RUNNER_TEMP/session，publisher切main后verify不漂移。完整receipt与checkpoint按source/全部精度参数校验复用；大产物留Actions artifact，恢复到RUNNER_TEMP/R717-imports/<result>/，禁止通过工具分块或编码传大文件，禁止盲重跑完整bin。137147现准备384bits、tail256、cutoff360p的4片(≤2并行)+recover；严格解析trace误差<2^−14，最终仍必须全部Arb整数trace唯一，cartier提交完整预算及artifact传输workflow。
+p41校准run43597163388/source ae827621e6632ad70227e1523247c0331edf9d8f已成功并完整发布；receipt SHA fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6。配置320bits、tail220、cutoff300p、checkpoint50，原expected1274通过；完成的42整数trace与其17文件manifest保存，不重算。python-flint0.9.0；wrapper固定本次request到RUNNER_TEMP/session，publisher切main后verify不漂移。完整receipt与checkpoint按source/全部精度参数校验复用；大产物留Actions artifact，恢复到RUNNER_TEMP/R717-imports/<result>/，禁止通过工具分块或编码传大文件，禁止盲重跑完整bin。137147正式请求已提交：384bits、tail256、cutoff360p=49372920，4片(≤2并行)+单recover；8113行按2029/2028/2028/2028穷尽。严格解析trace误差<2^−14，最终仍须全trace唯一；完整预算notes/R717-p137147-certified-budget-and-artifact-resume.md。大bin仅runner下载artifact并核原SHA/完整行，当前无137147数值。
 
 ## O6：原p43 Robert单位/普通Norm
 

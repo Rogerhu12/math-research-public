@@ -19,6 +19,7 @@ import shutil
 import signal
 import subprocess
 import sys
+import time
 import traceback
 
 from p41_public_actions_recovery import REPO, TOPIC, publish, read, sha
@@ -300,6 +301,65 @@ def core_command(request, out, phase, shard):
     return command
 
 
+
+def stop_process(process):
+    if process.poll() is not None:
+        return
+    os.killpg(process.pid, signal.SIGTERM)
+    try:
+        process.wait(timeout=10)
+    except subprocess.TimeoutExpired:
+        os.killpg(process.pid, signal.SIGKILL)
+        process.wait()
+
+
+def wait_with_readme_checks(process, request, out, source):
+    deadline = time.monotonic() + request['timeout_seconds']
+    next_check = time.monotonic() + 3600
+    checks = []
+    while process.poll() is None:
+        current = time.monotonic()
+        if current >= deadline:
+            stop_process(process)
+            return 124
+        if current >= next_check:
+            fetch = subprocess.run(
+                ['git', 'fetch', '--depth=1', '--filter=blob:none', 'origin', 'main'],
+                cwd=REPO, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+                timeout=120)
+            checked = {'checked_at_utc': now(), 'fetch_exit_code': fetch.returncode,
+                       'source_commit': source, 'fetch_log': fetch.stdout}
+            if fetch.returncode:
+                checks.append(checked)
+                save(out/'R717-hourly-readme-checks.json', {'checks': checks})
+                stop_process(process)
+                return 125
+            diff = subprocess.run(
+                ['git', 'diff', source, 'origin/main', '--', 'README.md',
+                 'topics/serre-uniformity/README.md'],
+                cwd=REPO, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+                timeout=120)
+            checked.update(diff_exit_code=diff.returncode,
+                           readmes_changed=bool(diff.stdout.strip()),
+                           checked_main_commit=subprocess.check_output(
+                               ['git', 'rev-parse', 'origin/main'], cwd=REPO,
+                               text=True).strip())
+            checks.append(checked)
+            save(out/'R717-hourly-readme-checks.json', {'checks': checks})
+            if diff.returncode or diff.stdout.strip():
+                (out/'R717-readme-rules.diff').write_text(diff.stdout)
+                stop_process(process)
+                return 125
+            next_check = time.monotonic() + 3600
+        delay = max(0.1, min(60, deadline-time.monotonic(),
+                             next_check-time.monotonic()))
+        try:
+            process.wait(timeout=delay)
+        except subprocess.TimeoutExpired:
+            pass
+    return process.returncode
+
+
 def verify_math(request, out, phase, shard):
     if phase == 'bins':
         path = out/f'R717-bins-{shard}.json.gz'
@@ -353,15 +413,10 @@ def compute(phase, shard):
             process = subprocess.Popen(command, cwd=REPO, stdout=log, stderr=subprocess.STDOUT,
                                        start_new_session=True)
             try:
-                code = process.wait(timeout=request['timeout_seconds'])
-            except subprocess.TimeoutExpired:
-                os.killpg(process.pid, signal.SIGTERM)
-                try:
-                    process.wait(timeout=10)
-                except subprocess.TimeoutExpired:
-                    os.killpg(process.pid, signal.SIGKILL)
-                    process.wait()
-                code = 124
+                code = wait_with_readme_checks(process, request, out, source)
+            except Exception:
+                stop_process(process)
+                raise
         summary['process_exit_code'] = code
         if code:
             raise RuntimeError('The mathematical process did not complete; exit code ' + str(code))

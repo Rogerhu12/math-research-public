@@ -917,3 +917,10 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 新增共享.github/workflows/serre-p137147-primitive-average.yml和公开请求，p137147、范数≤25p完整枚举、范数≤10000独立direct-power全点比对、Arb256。
 - 原C++/Python源SHA分别6c5dfd7bb8fa8ba671fa666bf7d661d45f312d7272b53bbc235cfbb9b3cf0cfc和b98ffb650342269475e1052cca6f7a5335b89f7d0c339d2ca3dc4f86ca04fb77；成功门仅严格B<1/2及完整来源/输出校验。
 - 全部完整或失败产物由本公开Actions保存；成功后按R616原点差/秩/log接口登记，不称候选或Serre一致性排除。
+
+
+## 2026-11-14 21:02 Asia/Taipei · serre-public-resume-20261114
+- R717在完成p41公开校准后，修改共享serre-certified-original-CM-norm.yml并提交137147正式请求；核心75a81149…98d402不变，未重算旧轨道/校准。
+- 严格预算给384bits、tail256、cutoff360p=49372920；全部8113行分四片2029/2028/2028/2028，至多2并行，单runner完成三个球DFT和精确Teich求值。
+- 大bin直接留Actions artifact并由recover下载；核实际原bin SHA/来源/全行端点，兼容完成片复用，未完成原子前缀续算；wrapper长任务每小时核两README差异并保存规则变更。
+- 原137147结果可能单位、高赋值或精确零，均据完整证书如实报告；现不作数值预断，R719原非消失公开运行并行。
