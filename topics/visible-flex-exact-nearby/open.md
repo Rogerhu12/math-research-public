@@ -191,3 +191,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14：已证降低重复乘子费用的完整矩阵算法
 
 [M.1–M.19](results/R133-supplement-directed-analytic-matrix-old-circle-remainders.md) 已可执行；先保整算子word再一次转窗，避免原 $R_QJ E_D$ 的重复m3收费。未知的parity反射不可放入指数lag代数，full-nonmean inverse最后限制已证明一致。phase正在只消费已成norm行；与root的真实 $\mathcal L_0w_1$ 两片径向预算并行。旧实际大界原样保留。
+
+### 2026-11-14：有限193 same-Z负窗已收紧至0.010656，仍欠小门
+
+[43630194680实际结果](results/R133-supplement-actual-quarter-Hessian-same-Z-Green.md) 八门全通过，但有限压缩误差 $0.010656243445033$ 尚大于0.005，完整未知high更未加入。优先核16缺mid fallback行的全局贡献，只补有必要的原缺mid缓存Taylor；并行从原6391正ports求真正L²体源统一核常数，保边界和low/high反馈，不重算propagators。

@@ -483,3 +483,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133 补充：完整 quarter 中心 Hessian 实际验收
 
 见[实际21门结果](results/R133-supplement-actual-cached-quarter-centre-residual-Hessian.md)。43628443697 child0、1059.644888s，新7844残差域/0target，1341行完整，原64缺mid quarter对应16行保合法fallback。完整同向 additive $<6.417342110712\times10^{-7}$，native `8d652d25…`；未知输入operator与全部mean/修补保持。
+
+### R133 补充：同一 Z 的 quarter/Hessian Green 实际合成
+
+见[完整 same-Z Green 八门](results/R133-supplement-actual-quarter-Hessian-same-Z-Green.md)。43630194680 child0、5.860261s、6391片全保；固定负窗有限193误差 $<0.010656243445033$，其中body $<0.003051713268$、right $<0.007604530152$，全内区 $<0.022744910832106$。仍未过1/200。真97切口 $<2.291173591508\times10^{-6}$，完整mean/high与14费保；0旧传播，不是全PDE响应。
