@@ -29,7 +29,7 @@ scalar .99/Connector/coast/bridge64Gauss7.5/cut r=.3/end2.271004035438285，完�
 warm-001.json.gz SHA df6543c9b88c21bd9ea3c046f05a7c292b7d977d09c6ef431e6771560fe14689；
 driver-status.json原1067190B SHA 00c9e73f260d0fa239a17c3973bcbd113d813c079c04451335244e923e85be9e；公开已gzip，续读解压原bytes核SHA，不重新序列化。
 FD7.169252867462084e−10/报告a17da0a01f40a6656d2dfbbbddd83f7b0be09aebaca5cf91e5d3a8e6bfd28d20；同真零T112锚仿射，不冒新H native。
-48完整120domainNPZ/13B/Γ/Π、58condensedNPZ38向量、observer、40源/完整父45producer已做字节审，原root raw另核中；正式note正在完成。大阵artifact-only。
+48完整120domainNPZ/13B/Γ/Π、58condensedNPZ38向量、observer、40源/完整父45producer已做字节审，root另14raw190956688B全SHA核；详2026-11-14-actual-request48-thirteen-query-and-left-RMS482-limit.md及两audit，completefactor仍未导出不冒独审。大阵artifact-only。
 **49进行中**：amplitude独立14domain/warm/FD，仅加入真实left-RMS482，全14角网格；已有470..483捕获/4735局部不增，旧13源冻。保600s/256工作行/200sweeps、原C/17trial/新FD，严格48pair，独立原condensed trigger。不盲续已错过RMS的13方案。
 45实际完整QP及mid482限制、ZIP/audit与细节见2026-11-14-actual-request45-condensed-QP-and-midpoint482-limit.md；42内部radial由46实际只读回证，详46note；不重科学或将外层1说成无内部修复。
 
@@ -54,4 +54,4 @@ FD7.169252867462084e−10/报告a17da0a01f40a6656d2dfbbbddd83f7b0be09aebaca5cf91
 R248强C²全相位、R241全部空间对/法锥嵌入reach、R238/254/258含反射同场标记，R251四Loewner实际operator都待真新场；16仅解析接口不重fixtures。held读所有活动块/两帽盘/全D，可独立于reach进度。无六/九jet机器门；九相位/N32显示网格<5MB但真2305尾节点保。
 旧小幅A幅度.063、RK24/48/三mesh/2157568pair/GW已封存；旧43提交恢复链/strongR6失败见notes，禁private取未迁raw。R238–272见results.md；R259备用未调度。
 
-规则同步记录：2026-11-14 19:14:05 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 690c843a680e16d128505480ac58ed1128ca7225。
+规则同步记录：2026-11-14 19:15:26 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 eede4f5da3be28f830205dd2b392a2e01f96296a。

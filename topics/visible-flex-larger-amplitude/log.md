@@ -412,3 +412,9 @@ v3独立20153B/f80608b3…全文读并AST核，保原v1 PIN七件；明确标量
 ## 2026-11-14 actual47：一个原RK步的四A与完整输出位复现
 
 run43630351235/sourcec9c466f468d49e3f4699d0e0247109e83047bdb5实际成功。1原请求/4原RHS-J/1原步，原41四field完整状态及geometry/root记录一致；最终226状态、shape、完整224×224 shortJ、两mean行逐字相同，故本步旧/新保存线性映射差为零。首次完整四A不因中间两级geometry相同而合并。27小件、21数组2453424B完整审计；root另17exact输出包全SHA核，未本地重算科学。见[捕获note](notes/2026-11-14-actual-request47-original-step-capture.md)与两audit；native/task仍未完成。
+
+## 2026-11-14 actual48：13-query线性候选改善，真实left-RMS482限制α
+
+run43629964624全部成功；同模型H f43.844546783272705<C44.251404941685465，全26624线性slack正。原α1/8至1/128在13选定网格/node/mid都合法且merit下降，完整RMS仍拒left482；1/8另拒left469。实际α1/256，merit44.253202326299764→44.25004593182924/drop.0031563944705226277，col.007110250799470694/BC7.656256251336757e−8；新FD7.169252867462084e−10。完整原状态及producer保留，status原1067190B公开gzip，原SHA00c9e73f…与warmdf6543c9…为当前父。
+
+[完整note](notes/2026-11-14-actual-request48-thirteen-query-and-left-RMS482-limit.md)及两audit保120B-NPZ/766数组、38凝聚全向量、observer、40源、完整父树；root再核14raw190956688B。未本地重算科学，未导出完整factor不冒独审。立即续49仅加left-RMS482为第14网格，局部4735不扩，原方程/门/预算/试步保持；native/课题仍未完成。

@@ -156,8 +156,10 @@ request46接v3 f80608b3…显式目标标量读者，仅原42七件SHA及原prod
 
 [完整凝聚QP实际结论](notes/2026-11-14-actual-request45-condensed-QP-and-midpoint482-limit.md)及两份字节audit已发表：同f43.8582164优于C44.2768871，完整24576行已接近浮点可行、仅微小修复；原α1/32真下降.0259467265，仍col.007110255989非BVP。最近三拒绝只原mid482且12已选query全角正，故48从45双SHA8ce98e5b…/70be19b6…仅加mid482→13query/26624行/4735局部坐标，保旧C完整outside offset与原所有真实门。R270库动态保全部原g/pureglobal/条件外部响应，不改冻源；47独立探针另行并行。
 
-- **request48运行中：run43629964624/source86acdf3b193efb6ad536545e22c46584fcc0bdd5**：由45父pair只加mid482，13query/26624行/4735局部变量；同一次原J、完整R270外部响应、原C/17trial/新FD。见[新13接口](notes/2026-11-14-thirteen-query-condensed-warm-interface.md)。未接受BVP或新native，不等阶段确认。
+- **actual48完成：run43629964624/source86acdf3b193efb6ad536545e22c46584fcc0bdd5**：由45父pair只加mid482，13query/26624行/4735局部变量；同一次原J、完整R270外部响应、原C/17trial/新FD。见[新13接口](notes/2026-11-14-thirteen-query-condensed-warm-interface.md)。未接受BVP或新native，不等阶段确认。
 
 - **request47已完成：run43630351235/sourcec9c466f468d49e3f4699d0e0247109e83047bdb5**：原41旧43/步11四A捕获→三种完整精确作用→actual43同δ/r/σ的new519全部224行与平方范数交叉账。见[四A接口](notes/2026-11-14-native-stage43-four-local-J-interface.md)、[精确作用](notes/2026-11-14-native-stage43-exact-rational-action-interface.md)、[原行归因](notes/2026-11-14-original-new519-exact-residual-attribution-interface.md)。不重全J/求解/试坏方向，不从最大值差归因。
 
 - **actual47完整捕获已核**：[原步捕获结论](notes/2026-11-14-actual-request47-original-step-capture.md)；原/新完整shortJ与mean逐位相同，21数组/27小件全字节核。此步复现差为零映射；四原局部A现首次完整保存，旧41未存A的限制仍保留。
+
+- **actual48与49的实据**：[完整13-query结果](notes/2026-11-14-actual-request48-thirteen-query-and-left-RMS482-limit.md)。原α1/256才通过，全13 grid/mid/node在最近五档已正，但完整left-RMS482拒；49仅加该不同query，局部仍4735，保mid482/原C/17trial/FD。父warm df6543c9…与原status00c9e73f…，公开status须解gzip核原bytes。完整NPZ/producer与root14raw字节审已归档。
