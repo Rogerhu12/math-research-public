@@ -1,0 +1,281 @@
+{
+  "schema": "R119-complete-radial-unitary-network-and-global-eigenphase-v1",
+  "executed": true,
+  "arithmetic": "exact complex BigInt polynomials; determinant-one Groebner reduction; exact integer inequalities",
+  "gate_count": 24,
+  "complete": true,
+  "gates": [
+    {
+      "name": "fixed_wave_complex_change_and_inverse",
+      "arithmetic": "exact 2x2 polynomial matrix",
+      "residual": [
+        [
+          [],
+          []
+        ],
+        [
+          [],
+          []
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "complex_wave_change_is_norm_sqrt_two",
+      "arithmetic": "exact 2x2 polynomial matrix",
+      "residual": [
+        [
+          [],
+          []
+        ],
+        [
+          [],
+          []
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "actual_transfer_complex_alpha_beta",
+      "arithmetic": "exact 2x2 polynomial matrix",
+      "residual": [
+        [
+          [],
+          []
+        ],
+        [
+          [],
+          []
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "alpha_beta_determinant_identity_before_normalization",
+      "arithmetic": "exact complex BigInt polynomial",
+      "residual": [],
+      "pass": true
+    },
+    {
+      "name": "alpha_denominator_square_is_four_plus_beta_square",
+      "arithmetic": "exact complex BigInt polynomial modulo c11*c22-c12*c21-1",
+      "residual": [],
+      "pass": true
+    },
+    {
+      "name": "full_scattering_numerator_symmetric",
+      "arithmetic": "exact 2x2 polynomial matrix",
+      "residual": [
+        [
+          [],
+          []
+        ],
+        [
+          [],
+          []
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "full_scattering_unitary_with_all_cross_entries",
+      "arithmetic": "exact 2x2 polynomial matrix modulo determinant-one relation",
+      "residual": [
+        [
+          [],
+          []
+        ],
+        [
+          [],
+          []
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "full_affine_source_Frobenius_square_exactly_two",
+      "arithmetic": "exact complex BigInt polynomial modulo c11*c22-c12*c21-1",
+      "residual": [],
+      "pass": true
+    },
+    {
+      "name": "right_b_transfer_including_complete_affine_source",
+      "arithmetic": "exact complex BigInt polynomial",
+      "residual": [],
+      "pass": true
+    },
+    {
+      "name": "right_a_transfer_including_complete_affine_source",
+      "arithmetic": "exact complex BigInt polynomial modulo c11*c22-c12*c21-1",
+      "residual": [],
+      "pass": true
+    },
+    {
+      "name": "complete_real_Robin_line_affine_identity",
+      "arithmetic": "exact complex BigInt polynomial",
+      "residual": [],
+      "pass": true
+    },
+    {
+      "name": "vertical_Robin_line_denominator_unit_norm",
+      "arithmetic": "exact complex BigInt polynomial",
+      "residual": [],
+      "pass": true
+    },
+    {
+      "name": "real_normal_shear_is_exactly_symplectic",
+      "arithmetic": "exact 2x2 polynomial matrix",
+      "residual": [
+        [
+          [],
+          []
+        ],
+        [
+          [],
+          []
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "physical_total_flux_to_wave_frame_determinant_one",
+      "arithmetic": "exact 2x2 polynomial matrix",
+      "residual": [
+        [
+          [],
+          []
+        ],
+        [
+          [],
+          []
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "positive_DN_plus_real_shear_keeps_selfadjoint_structure",
+      "arithmetic": "exact 2x2 polynomial matrix",
+      "residual": [
+        [
+          [],
+          []
+        ],
+        [
+          [],
+          []
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "positive_Cayley_denominator_adjoint_is_numerator",
+      "arithmetic": "exact 2x2 polynomial matrix",
+      "residual": [
+        [
+          [],
+          []
+        ],
+        [
+          [],
+          []
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "positive_full_Cayley_factors_commute",
+      "arithmetic": "exact 2x2 polynomial matrix",
+      "residual": [
+        [
+          [],
+          []
+        ],
+        [
+          [],
+          []
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "positive_Cayley_denominator_coercivity_identity",
+      "arithmetic": "exact 2x2 polynomial matrix",
+      "residual": [
+        [
+          [],
+          []
+        ],
+        [
+          [],
+          []
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "positive_complete_affine_resolvent_factor",
+      "arithmetic": "exact 2x2 polynomial matrix",
+      "residual": [
+        [
+          [],
+          []
+        ],
+        [
+          [],
+          []
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "name": "boundary_Green_form_equals_wave_phase_pairing",
+      "arithmetic": "exact complex BigInt polynomial",
+      "residual": [],
+      "pass": true
+    },
+    {
+      "name": "real_state_incoming_norm_has_correct_half_factor",
+      "arithmetic": "exact complex BigInt polynomial",
+      "residual": [],
+      "pass": true
+    },
+    {
+      "name": "affine_sqrt_two_bound_is_less_than_two",
+      "left": "2",
+      "right": "4",
+      "pass": true
+    },
+    {
+      "name": "left_state_squared_cost_K_minus_two",
+      "left": "-2",
+      "right": "-2",
+      "pass": true
+    },
+    {
+      "name": "true_right_amplitude_adds_one_inverse_K",
+      "left": "-2 + (-1)",
+      "right": "-3",
+      "pass": true
+    }
+  ],
+  "dependencies": {
+    "controlled_actual_full_tail": "f11edbccd752bf034aa40e71888859d667a04b42",
+    "actual_positive_transmission": "6f636e2714c59afbac5d0a99ef7de5c0262dad92",
+    "compact_true_kernel": "5662bf40391a53a2212311406cf7ad63064908fc",
+    "true_small_amplitude_Hessian": "8a359f45c35e513e786b11d6217a20c345ced5eb"
+  },
+  "exact_network": "(I-P direct_sum S_i) x=P t+p; P and every S_i unitary",
+  "actual_infinite_tail_preserved": true,
+  "positive_cross_preserved": true,
+  "independent_mean_preserved": true,
+  "complete_ordinary_and_both_weak_sources_preserved": true,
+  "weak_normal_endpoint_charges_preserved": true,
+  "global_simple_resonance_phase_derivative": "integral actual complete kernel times compensated psi dt",
+  "controlled_window_bound": "theta_control_mass * D_i / (n K_i^3)",
+  "fixed_P_required_for_displayed_derivative": true,
+  "finite_parameter_global_bad_set_proved": false,
+  "nonradial_cluster_inverted": false,
+  "original_same_width_inverse_proved": false,
+  "chosen_numerical_global_profile": false,
+  "producer_sha256": "0325a5b1c705fb7a3b7d59b5c510f3707cb2f109b9d544d6800f7bf6b319d0e7"
+}

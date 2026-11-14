@@ -1,0 +1,215 @@
+{
+  "schema": "visible-exact-R119-reference-negative-Cauchy-condition-v1",
+  "scope": "The same actual Gamma0 radial reference, all Fourier frequencies and both interior Cauchy directions, the full density Airy state, continuous source response and independent mean rows. The actual reference condition is paid explicitly; it does not yield the missing full relative network inverse.",
+  "parameters": {
+    "all_frequencies": "m in 4Z, including zero",
+    "actual_state": "X=sqrt(mu0) D_omega (z,v)",
+    "modewise_Cauchy_condition": "<2^14(j+4) delta_j^-1 <m>^(5/3)",
+    "analytic_Cauchy_condition": "<2^18(j+4) delta_j^-1 h^(-5/3)",
+    "physical_paired_source_response": "<2^45(j+4) epsilon^(3/2) sqrt(rho) delta_j^(11519/1536) hbar^(-5/3) ||e||_(L2 A_(r+3hbar))",
+    "physical_reference_mean_height_response": "<2^34 epsilon rho delta_j^(9/2) ||e||_(L2 A0)",
+    "current_interaction_majorant_powers": [
+      "-985/768",
+      "-199/192"
+    ]
+  },
+  "file_sha256": {
+    "results/R119-supplement-actual-ray-amplitude-and-integrable-relative-coupling.md": "6a79a8ed9f22ddff4729608529a50d5bc3fc57b70c4179c89b1bb16072ccc3c6",
+    "results/R119-supplement-actual-Airy-balance-of-ray-coupling-and-sources.md": "1d6fe6010177cffde98f11f2bf7262b21ec33c428ec431f31a58c8f66f3be6a3",
+    "results/R119-supplement-positive-DN-in-actual-Airy-endpoint-angles.md": "f1132231588e2ccdc7e3e394e048f306dd79caf22ea993a98a57fba2622c34dc",
+    "results/R119-supplement-reference-negative-band-Cauchy-and-source-condition.md": "d513fa99baec599628dc02c360a52832a55a48211bcd17aebdf74df9ae6df3dc",
+    "scripts/fourfold_reference_negative_Cauchy_condition_20261113.py": "3e26c31772ba2293d35bff750e4d150aaae86b35e4f9ebff93da3b69038e3a8d"
+  },
+  "checks": [
+    {
+      "name": "complete_reference_density_auxiliary_frame",
+      "pass": true,
+      "evidence": "All D_t and actual log-density terms are retained; there is no model-potential substitution"
+    },
+    {
+      "name": "exact_Hermitian_principal_error",
+      "pass": true,
+      "evidence": "The only principal norm error is |m| sigma^2/(2 Omega)"
+    },
+    {
+      "name": "Hermitian_two_eigenvalues",
+      "pass": true,
+      "evidence": "The exact Hermitian eigenvalues have equal opposite magnitudes"
+    },
+    {
+      "name": "positive_auxiliary_regularization_identity",
+      "pass": true,
+      "evidence": "The artificial positive speed enters only the energy, not the real PDE"
+    },
+    {
+      "name": "actual_density_ratio_constant",
+      "pass": true,
+      "evidence": "The true log jump and exp(8|I|)<2 cover both kinds of complete negative component"
+    },
+    {
+      "name": "actual_density_exponential_window",
+      "pass": true,
+      "evidence": "exp(x)<=1/(1-x)<2 in the actual first layer, and every later layer improves"
+    },
+    {
+      "name": "actual_density_monotone_root_factor",
+      "pass": true,
+      "evidence": "sqrt(mu_left/mu_right)<16 delta^-1; the true density is monotone across the whole component"
+    },
+    {
+      "name": "actual_short_interval_peak_first_layer",
+      "pass": true,
+      "evidence": "The square of |I| qmax is at most4096 j delta^(1/2)<1"
+    },
+    {
+      "name": "actual_short_interval_peak_deeper_layers",
+      "pass": true,
+      "evidence": "sqrt2>4/3 proves monotonic decrease of the complete squared envelope"
+    },
+    {
+      "name": "actual_complete_auxiliary_Cauchy_constant",
+      "pass": true,
+      "evidence": "exp(1/2), the exact monotone density and the full two-sided speed variation are all paid"
+    },
+    {
+      "name": "actual_Airy_auxiliary_ratio_min",
+      "pass": true,
+      "evidence": "The actual lower length proves omega_m>=Omega_m even at m=0"
+    },
+    {
+      "name": "actual_Airy_auxiliary_ratio_max",
+      "pass": true,
+      "evidence": "Both endpoint frame ratios are bounded by varrho |I| <128(j+4)"
+    },
+    {
+      "name": "actual_Airy_reference_Cauchy_constant",
+      "pass": true,
+      "evidence": "The complete two-end frame change and Euclidean-to-component-sum norm are included"
+    },
+    {
+      "name": "all_frequency_reference_Cauchy_power",
+      "pass": true,
+      "evidence": "All frequencies are retained, including the unsuppressed mean state"
+    },
+    {
+      "name": "full_Wiener_multiplier_constant",
+      "pass": true,
+      "evidence": "For0<h<=1, (1+|m|)^(5/3) exp(-h|m|)<16 h^(-5/3)"
+    },
+    {
+      "name": "true_reference_analytic_Cauchy_constant",
+      "pass": true,
+      "evidence": "One explicit angle-width payment gives the full strong Fourier/radial Cauchy bound"
+    },
+    {
+      "name": "actual_source_density_square_root_constant",
+      "pass": true,
+      "evidence": "The reference density has physical units epsilon/rho and radial power delta^5"
+    },
+    {
+      "name": "actual_density_Airy_source_constant",
+      "pass": true,
+      "evidence": "The paired physical source of the previous theorem is multiplied by the true sqrt(mu0)"
+    },
+    {
+      "name": "actual_density_Airy_source_power",
+      "pass": true,
+      "evidence": "The complete paired-source cancellation survives in the density Airy frame"
+    },
+    {
+      "name": "actual_reference_forced_response_constant",
+      "pass": true,
+      "evidence": "The real Cauchy condition and sqrt(|I|)<2sqrt(delta) are both paid"
+    },
+    {
+      "name": "actual_reference_forced_response_power",
+      "pass": true,
+      "evidence": "The radial source weight remains a positive explicit power after the real condition number"
+    },
+    {
+      "name": "actual_single_pass_source_angle_budget",
+      "pass": true,
+      "evidence": "Two correlated-source widths and one reference Green width fit in the original64-wide extension"
+    },
+    {
+      "name": "complete_mean_flux_equation",
+      "pass": true,
+      "evidence": "The weighted mean flux has its genuine independent source row"
+    },
+    {
+      "name": "actual_mean_resistance_constant",
+      "pass": true,
+      "evidence": "The true min(mu) and whole negative radial length retain the independent mean-height fee"
+    },
+    {
+      "name": "actual_mean_resistance_power",
+      "pass": true,
+      "evidence": "No division by the zero Fourier frequency replaces the mean height integration"
+    },
+    {
+      "name": "physical_reference_mean_source_constant",
+      "pass": true,
+      "evidence": "The complete two mean rows consume the true density source w^2 e"
+    },
+    {
+      "name": "physical_reference_mean_source_power",
+      "pass": true,
+      "evidence": "The independent mean height remains explicitly controlled for genuine reference scalar sources"
+    },
+    {
+      "name": "actual_shallow_angle_inverse",
+      "pass": true,
+      "evidence": "hbar=h_j/64 on all3968 shallow layers"
+    },
+    {
+      "name": "actual_deep_angle_inverse",
+      "pass": true,
+      "evidence": "hbar=delta^(1/256)/8 in the real deep tail"
+    },
+    {
+      "name": "actual_paired_Cauchy_angular_exponent",
+      "pass": true,
+      "evidence": "Both genuine Cauchy directions pay their full5/3 Fourier multiplier"
+    },
+    {
+      "name": "actual_paired_Cauchy_constant",
+      "pass": true,
+      "evidence": "The complete interaction-picture conjugation costs less than2^70(j+4)^2 delta^(-2-5/384)"
+    },
+    {
+      "name": "current_first_relative_majorant_exponent",
+      "pass": true,
+      "evidence": "The current positive upper bound does not become summable merely by citing the small bare perturbation"
+    },
+    {
+      "name": "current_second_relative_majorant_exponent",
+      "pass": true,
+      "evidence": "The true KAM phase inverse also retains a negative remaining power in this estimate"
+    },
+    {
+      "name": "future_profile_arithmetic_only_first",
+      "pass": true,
+      "evidence": "This is only an arithmetic target for a separately reconstructed profile, not a transferred theorem"
+    },
+    {
+      "name": "future_profile_arithmetic_only_second",
+      "pass": true,
+      "evidence": "The old object and its native are not relabeled as the proposed new tail"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "same_actual_reference": true,
+    "all_modes_bidirectional_Cauchy": true,
+    "complete_reference_Dt_retained": true,
+    "continuous_source_Duhamel": true,
+    "actual_paired_scalar_source_consumed": true,
+    "both_mean_rows_retained": true,
+    "actual_both_endpoint_frame_fees": true,
+    "current_relative_Neumann_closed": false,
+    "new_profile_constructed": false,
+    "complete_two_end_network_Green": false,
+    "full_nonlinear_regular_inverse": false,
+    "topic_completion": false
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "kind": "actual_complete_central_strong_scattering_and_single_return_word",
+  "complete": true,
+  "proved": true,
+  "bits": 320,
+  "source_sha256": "54471e7566df302dd3bf385ad55b667ab6c3a2eaff30a8ae8c1fcea55a232dd0",
+  "identity": {
+    "object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+    "source_sha256": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a"
+    },
+    "affine_arithmetic": "Arb encloses c0+exact_delta*v and alpha0+exact_delta*w before all fixed base weights",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "uniform_in_the_entire_real_parameter_interval": true,
+    "parameter_arithmetic": "First form complete exact center and direction scalar polynomials; then add the single p in [-eta,eta]. No independent raw-control parameter intervals are introduced.",
+    "exact_delta_fraction_scope": "The exact_delta_fraction field names the center only; all bounds cover the separately stated whole exact_parameter_interval."
+  },
+  "scale": 1048576,
+  "inputs": {
+    "notes/2026-11-13-negative-root-physical-graph-operator.json": "e4b3faf5ae998607207246367a430d80a1fdac7e404d1b013e66b9c373124cb5",
+    "notes/2026-11-13-R46-windowed-density-strong-budget.json": "bb8f8b4751f87f8a41ce219a8722fff5976ce233a009c90952682c3f2d24539b",
+    "notes/2026-11-13-R46-strict-two-base-four-thirds.json": "bed242890edeb415482a5bd655c92f72acbb4c2c6990172586729ae16a6df48a",
+    "notes/2026-11-13-exact-positive-cap-Airy-contact-v2.json": "f61369e1e740269a11c271efb5cfd9a27df5b1aa91a275ae40e01edee4402649",
+    "notes/2026-11-13-actual-central-scattering-and-source.json": "3ac507a09d5d6fac2765d3356527035508104877e9a2098b11c37b95b8d41b13",
+    "notes/2026-11-13-actual-central-scattering-reflected-source.json": "bcdf137770360988e2bfca50fa376151c1fde3161bcf4490964b29d836576b47"
+  },
+  "base_windows": [
+    [
+      "0",
+      "4/3"
+    ],
+    [
+      "-4/3",
+      "0"
+    ]
+  ],
+  "native_cells_recomputed": 0,
+  "root_cut_exact_flux": "K_R^* J K_R=-kappa J; K_L=branch_swap*K_R; K_L^* J K_L=kappa J; kappa=4 gamma0^2=8/(pi*c_A*q)",
+  "exact_root_cut_inverse": "K_R^(-1)=-kappa^(-1) J K_R^* J",
+  "root_cut_model": "M_R=2 diag(Q_H,Q_H) W_graph branch_swap Phi_pure (I+B_original); M_L=branch_swap M_R",
+  "Phi_pure_mean": "gamma0 diag(exp(i*pi/4),exp(-i*pi/4)); all nonzero entries equal the original Phi_app",
+  "complete_negative_transfer_word": "M_T=-kappa^(-1) J M_R^* J W_strict M_L; it is exactly amplitude-antidiagonal",
+  "complete_scattering_word": "S0=[[0,(M_T)12^*],[(M_T)21,0]]",
+  "exact_extra_flux_identities": [
+    "B^(-1) A=D^* (C^*)^(-1)",
+    "D B^(-1)=(C^*)^(-1) A^*",
+    "B^(-1)=B^*-D^* D B^(-1)",
+    "B^(-*)=B-A A^* B^(-*)"
+  ],
+  "complete_cap_feedback": "A=I-R_cap^* diag(S,I_regular)=I+diag(S0,I_regular)+E",
+  "exact_triangular_reduction": "L=[[I,-U],[0,I]], R=[[I,0],[-V,I]], U=(M_T)12^*, V=(M_T)21; L*A*R=diag(I-U*V,I,2I_regular)+Rword",
+  "norms": {
+    "root_first_symmetric_phase_modulus": {
+      "ball": "[306.11749438795929577900853790062634258707591518577 +/- 3.58e-48]",
+      "lower": "[306.11749438795929577900853790062634258707591518577 +/- 3.58e-48]",
+      "upper": "[306.11749438795929577900853790062634258707591518577 +/- 3.58e-48]"
+    },
+    "root_first_symmetric_phase_HN_multiplier": {
+      "ball": "[306.54279506787748888964319530919992343063791962534 +/- 3.41e-48]",
+      "lower": "[306.54279506787748888964319530919992343063791962534 +/- 3.41e-48]",
+      "upper": "[306.54279506787748888964319530919992343063791962534 +/- 3.41e-48]"
+    },
+    "positive_root_cut_flux_factor_lower": {
+      "ball": "[0.089833159921349829759317393225467854443831773331128 +/- 1.13e-52]",
+      "lower": "[0.089833159921349829759317393225467854443831773331128 +/- 1.13e-52]",
+      "upper": "[0.089833159921349829759317393225467854443831773331128 +/- 1.13e-52]"
+    },
+    "positive_root_cut_flux_factor_upper": {
+      "ball": "[0.089833159961138861409065770278367494117606499011650 +/- 4.13e-52]",
+      "lower": "[0.089833159961138861409065770278367494117606499011650 +/- 4.13e-52]",
+      "upper": "[0.089833159961138861409065770278367494117606499011650 +/- 4.13e-52]"
+    },
+    "reciprocal_root_cut_flux_factor": {
+      "ball": "[11.131746905881010856389036819907232091715628278310 +/- 8.03e-51]",
+      "lower": "[11.131746905881010856389036819907232091715628278310 +/- 8.03e-51]",
+      "upper": "[11.131746905881010856389036819907232091715628278310 +/- 8.03e-51]"
+    },
+    "complete_pure_antidiagonal_root_cut_model": {
+      "ball": "[460376930122900991334.31895958205344979525200602559 +/- 2.54e-30]",
+      "lower": "[460376930122900991334.31895958205344979525200602559 +/- 2.54e-30]",
+      "upper": "[460376930122900991334.31895958205344979525200602559 +/- 2.54e-30]"
+    },
+    "complete_two_finite_mean_model_corrections": {
+      "ball": "[460376930122900992689.79526822511756191173430144700 +/- 1.60e-30]",
+      "lower": "[460376930122900992689.79526822511756191173430144700 +/- 1.60e-30]",
+      "upper": "[460376930122900992689.79526822511756191173430144700 +/- 1.60e-30]"
+    },
+    "complete_purified_root_cut_four_thirds": {
+      "ball": "[22262616622007228276069069458355218763440984.189434 +/- 3.32e-7]",
+      "lower": "[22262616622007228276069069458355218763440984.189434 +/- 3.32e-7]",
+      "upper": "[22262616622007228276069069458355218763440984.189434 +/- 3.32e-7]"
+    },
+    "true_strict_L2_amplitude": {
+      "ball": "[6.3295237532993027854422204183502249589882359411799e+50 +/- 3.17]",
+      "lower": "[6.3295237532993027854422204183502249589882359411799e+50 +/- 3.17]",
+      "upper": "[6.3295237532993027854422204183502249589882359411799e+50 +/- 3.17]"
+    },
+    "true_strict_four_thirds_forward": {
+      "ball": "[4.2350393795686408425732534002232085774910035671486e+73 +/- 4.65e+23]",
+      "lower": "[4.2350393795686408425732534002232085774910035671486e+73 +/- 4.65e+23]",
+      "upper": "[4.2350393795686408425732534002232085774910035671486e+73 +/- 4.65e+23]"
+    },
+    "true_strict_four_thirds_opposite": {
+      "ball": "[2.1217244791061610007431179496094859631675588427469e+63 +/- 4.88e+13]",
+      "lower": "[2.1217244791061610007431179496094859631675588427469e+63 +/- 4.88e+13]",
+      "upper": "[2.1217244791061610007431179496094859631675588427469e+63 +/- 4.88e+13]"
+    },
+    "full_negative_transfer_word_L2": {
+      "ball": "[3.4424056449527738727619276812253653854116741722401e+57 +/- 1.32e+7]",
+      "lower": "[3.4424056449527738727619276812253653854116741722401e+57 +/- 1.32e+7]",
+      "upper": "[3.4424056449527738727619276812253653854116741722401e+57 +/- 1.32e+7]"
+    },
+    "full_negative_transfer_word_HN_plus_minus_four_thirds": {
+      "ball": "[5.6837771854956453566072536393627213133695322420661e+58 +/- 1.10e+8]",
+      "lower": "[5.6837771854956453566072536393627213133695322420661e+58 +/- 1.10e+8]",
+      "upper": "[5.6837771854956453566072536393627213133695322420661e+58 +/- 1.10e+8]"
+    },
+    "full_negative_transfer_word_error_forward": {
+      "ball": "[9.9436963786833357221151129882640292824489840202633e+129 +/- 3.19e+79]",
+      "lower": "[9.9436963786833357221151129882640292824489840202633e+129 +/- 3.19e+79]",
+      "upper": "[9.9436963786833357221151129882640292824489840202633e+129 +/- 3.19e+79]"
+    },
+    "full_negative_transfer_word_error_opposite": {
+      "ball": "[4.1716398735659953927465792571105733952714521911876e+129 +/- 2.94e+79]",
+      "lower": "[4.1716398735659953927465792571105733952714521911876e+129 +/- 2.94e+79]",
+      "upper": "[4.1716398735659953927465792571105733952714521911876e+129 +/- 2.94e+79]"
+    },
+    "complete_scattering_word_error_both_base_windows": {
+      "ball": "[2.9831089136050007166345338964792087847346952060790e+130 +/- 4.48e+78]",
+      "lower": "[2.9831089136050007166345338964792087847346952060790e+130 +/- 4.48e+78]",
+      "upper": "[2.9831089136050007166345338964792087847346952060790e+130 +/- 4.48e+78]"
+    },
+    "complete_augmented_feedback_word_error_forward": {
+      "ball": "[2.9831089136050007166345338964792087847346952060790e+130 +/- 4.48e+78]",
+      "lower": "[2.9831089136050007166345338964792087847346952060790e+130 +/- 4.48e+78]",
+      "upper": "[2.9831089136050007166345338964792087847346952060790e+130 +/- 4.48e+78]"
+    },
+    "complete_augmented_feedback_word_error_opposite": {
+      "ball": "[2.2964189743351573868781390745012163465688478348571e+142 +/- 1.00e+92]",
+      "lower": "[2.2964189743351573868781390745012163465688478348571e+142 +/- 1.00e+92]",
+      "upper": "[2.2964189743351573868781390745012163465688478348571e+142 +/- 1.00e+92]"
+    },
+    "complete_exact_triangular_preconditioner_and_reconstruction_L2": {
+      "ball": "[3.4424056449527738727619276812253653854116741722401e+57 +/- 1.32e+7]",
+      "lower": "[3.4424056449527738727619276812253653854116741722401e+57 +/- 1.32e+7]",
+      "upper": "[3.4424056449527738727619276812253653854116741722401e+57 +/- 1.32e+7]"
+    },
+    "complete_exact_triangular_preconditioner_and_reconstruction_HN_plus_minus_four_thirds": {
+      "ball": "[5.6837771854956453566072536393627213133695322420661e+58 +/- 1.10e+8]",
+      "lower": "[5.6837771854956453566072536393627213133695322420661e+58 +/- 1.10e+8]",
+      "upper": "[5.6837771854956453566072536393627213133695322420661e+58 +/- 1.10e+8]"
+    },
+    "complete_single_return_word_remainder_forward": {
+      "ball": "[5.8367111259729704435558095985777318613144765946082e+246 +/- 3.61e+196]",
+      "lower": "[5.8367111259729704435558095985777318613144765946082e+246 +/- 3.61e+196]",
+      "upper": "[5.8367111259729704435558095985777318613144765946082e+246 +/- 3.61e+196]"
+    },
+    "complete_single_return_word_remainder_opposite": {
+      "ball": "[4.4931427465716186558319372935475675839169436503381e+258 +/- 3.31e+208]",
+      "lower": "[4.4931427465716186558319372935475675839169436503381e+258 +/- 3.31e+208]",
+      "upper": "[4.4931427465716186558319372935475675839169436503381e+258 +/- 3.31e+208]"
+    }
+  },
+  "full_transformed_ordinary_and_contact_source_columns": {
+    "strict_core": {
+      "ball": "[2.9721001867333971047333437613789751173279741061130e+122 +/- 4.14e+72]",
+      "lower": "[2.9721001867333971047333437613789751173279741061130e+122 +/- 4.14e+72]",
+      "upper": "[2.9721001867333971047333437613789751173279741061130e+122 +/- 4.14e+72]"
+    },
+    "either_canonical_root": {
+      "ball": "[3.6247608859380370921412432574440696640688159818323e+124 +/- 2.25e+74]",
+      "lower": "[3.6247608859380370921412432574440696640688159818323e+124 +/- 2.25e+74]",
+      "upper": "[3.6247608859380370921412432574440696640688159818323e+124 +/- 2.25e+74]"
+    },
+    "either_tilted_graph": {
+      "ball": "[3.3937550089775907927377965016111067401467052830210e+110 +/- 4.43e+60]",
+      "lower": "[3.3937550089775907927377965016111067401467052830210e+110 +/- 4.43e+60]",
+      "upper": "[3.3937550089775907927377965016111067401467052830210e+110 +/- 4.43e+60]"
+    },
+    "negative_five_space_direct_sum": {
+      "ball": "[5.1262721639027911802299682964284246954308425747972e+124 +/- 2.83e+74]",
+      "lower": "[5.1262721639027911802299682964284246954308425747972e+124 +/- 2.83e+74]",
+      "upper": "[5.1262721639027911802299682964284246954308425747972e+124 +/- 2.83e+74]"
+    },
+    "paired_positive_local_ordinary": {
+      "ball": "[3.2336222818948183368257484547522814544760421553979e+60 +/- 1.23e+10]",
+      "lower": "[3.2336222818948183368257484547522814544760421553979e+60 +/- 1.23e+10]",
+      "upper": "[3.2336222818948183368257484547522814544760421553979e+60 +/- 1.23e+10]"
+    },
+    "paired_positive_local_weak": {
+      "ball": "[1.6166479229940922900797210281898346511077427137127e+60 +/- 4.34e+10]",
+      "lower": "[1.6166479229940922900797210281898346511077427137127e+60 +/- 4.34e+10]",
+      "upper": "[1.6166479229940922900797210281898346511077427137127e+60 +/- 4.34e+10]"
+    },
+    "two_independent_physical_regular_fluxes": {
+      "ball": "[1.2959813933597315798467091697953738587904456634996e+58 +/- 1.38e+8]",
+      "lower": "[1.2959813933597315798467091697953738587904456634996e+58 +/- 1.38e+8]",
+      "upper": "[1.2959813933597315798467091697953738587904456634996e+58 +/- 1.38e+8]"
+    }
+  },
+  "both_original_Airy_rows_and_original_first_phase_retained": true,
+  "full_independent_regular_rows_and_sources_retained": true,
+  "full_mean_and_all_finite_head_paths_retained": true,
+  "actual_complete_strong_word_model_proved": true,
+  "R104_scalar_first_order_normal_form_identified": false,
+  "full_returned_Rstar_proved": false,
+  "full_returned_b_minus_beta_identified": false,
+  "weighted_same_width_bound_proved": false,
+  "feedback_inverse_proved": false,
+  "frozen_old_full_cap_Robin_realization_only": true,
+  "new_deep_tail_profile_transfer_proved": false,
+  "dependencies": {
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "fourfold_phase_root_fourier_fit.py": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604",
+    "fourfold_negative_collar_root_fourier_budget.py": "08866307bf0de20183db15387f16ec0f2f3a65d67bfec6e9229b27a65a902b9b",
+    "fourfold_negative_canonical_cancellation_chart.py": "650ceef0ea91bdf5f4ef86d114fb6dc412bef3a0b4b915910135357967ec0c8d",
+    "fourfold_negative_root_physical_graph_operator.py": "9d3e2560be9dabc5714908ea02ab8c479cea9631a889b71ebba77358bfb1831c"
+  },
+  "seconds": 0.5718236819993763
+}

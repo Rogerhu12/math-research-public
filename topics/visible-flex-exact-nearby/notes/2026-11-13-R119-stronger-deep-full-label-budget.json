@@ -1,0 +1,442 @@
+{
+  "schema": "visible-exact-R119-stronger-deep-full-label-v1",
+  "scope": "The actual new K=2^128 profile after8192. The low-window cap retains every displaced mode as a true high block. Both complete characteristic basis seams, their small-branch feedback, full strong Green and nonlinear mean-inclusive all-label chart are proved. The real fourth flat-tail line is transmitted through all8064 unchanged cells. Both global normalization factors and the complete finite-prefix squared-reference multiplication budget remain explicit. No actual external nonlinear input, new Robin, new KAM or same-width mixed-network inverse is claimed.",
+  "numeric": {
+    "actual_newly_high_old_log_bound": "[-2.25462106225619763906789265451383328643302522e+287 +/- 1.83e+242]",
+    "actual_new_high_log_bound": "[-4.49704938671067822770627477146139092957426865e+287 +/- 3.94e+242]",
+    "actual_window_cap_log2": "[984.580482023721840586967579857372347543966208 +/- 1.52e-43]",
+    "complete_second_seam_boxes": [
+      {
+        "m": 4,
+        "q11": "[1.00000002615629565970183723448048652678280351 +/- 4.71e-45]",
+        "q21": "[-1.67271518388458426640647008997122019601262717e-6 +/- 2.46e-51]",
+        "q12": "[-0.0156267618334536314125352321769653659517662651 +/- 1.84e-47]",
+        "q22": "[0.999343413679089802692415890338123214763623375 +/- 1.97e-46]",
+        "normalized_gain_ratio": "[1.68198242100073497691257487304406429296591854 +/- 4.50e-45]"
+      },
+      {
+        "m": 176,
+        "q11": "[1.00000000000000000000163390918421905398785895 +/- 2.80e-45]",
+        "q21": "[-1.04570187769898938645769383355394184441308928e-19 +/- 1.28e-64]",
+        "q12": "[-0.0156142178553554461555002828020164348240126347 +/- 4.05e-47]",
+        "q22": "[0.999309942550469734398836247726692729441489670 +/- 4.58e-46]",
+        "normalized_gain_ratio": "[1.68063229715954398346549943054080677874616918 +/- 1.81e-45]"
+      }
+    ],
+    "whole_scalar_kernel_bound": "[222.097559414033591627643158944937573240309768 +/- 8.99e-44]",
+    "old_low_Neumann": "[0.0249980797016513069094030719712162518987631651 +/- 2.40e-47]",
+    "new_low_Neumann_log2": "[-3697.71836791606860946000782191316144038928645 +/- 2.94e-42]",
+    "complete_local_input_and_nonlinear_rows": [
+      {
+        "j": 128,
+        "local_input_log2": "[-12.0001634134598077945664410127224471887519240 +/- 3.44e-44]",
+        "nonlinear_feedback_log2": "[-53.7417116954519955578818644080488029365864343 +/- 1.38e-44]"
+      },
+      {
+        "j": 4097,
+        "local_input_log2": "[-6839.07846848100140797836813343640583911079590 +/- 3.50e-42]",
+        "nonlinear_feedback_log2": "[-6867.37278744672746296074780181561246356504169 +/- 3.95e-42]"
+      },
+      {
+        "j": 8192,
+        "local_input_log2": "[-19982.8737644857257828566240202391055848540246 +/- 9.66e-42]",
+        "nonlinear_feedback_log2": "[-19952.1774749467274629607478018156124635650417 +/- 6.07e-42]"
+      },
+      {
+        "j": 8193,
+        "local_input_log2": "[-19863.3338220346367263930058089745602493356312 +/- 1.73e-41]",
+        "nonlinear_feedback_log2": "[-19698.6227874467274629607478018156124635650417 +/- 6.07e-42]"
+      }
+    ],
+    "new_fourth_cone_modulus_upper": "[0.0463698869970409049655169091303372158454105476 +/- 1.09e-47]",
+    "full_actual_reference_squared_state_rows": [
+      {
+        "j": 4096,
+        "reference_squared_state_log2": "[85139.8841133489788712504985656967953686143498 +/- 2.75e-41]"
+      },
+      {
+        "j": 8192,
+        "reference_squared_state_log2": "[153885.578587219707729721565722869499372687268 +/- 2.66e-40]"
+      },
+      {
+        "j": 8193,
+        "reference_squared_state_log2": "[153781.099878605183455315164389075969204021495 +/- 3.92e-40]"
+      }
+    ]
+  },
+  "file_sha256": {
+    "results/R119-supplement-new-deep-profile-full-label-chart.md": "36340741fbafe308eb0689d3a2257482f9b90633d69435bb0fbd923ab92dd918",
+    "results/R119-supplement-new-deep-profile-and-actual-homogeneous-Robin.md": "51c194db6a9d86ae744c6e5f33892109f0fa0e4efed3253e15db1374d204f38e",
+    "results/R119-supplement-stronger-deep-first-shear-and-complete-local-map.md": "4aaef72754b7c5b60c43cd17520814025dfcd033e2a9eb94842de661b24199ab",
+    "results/R119-supplement-uniform-frequency-reference-Airy-Cauchy.md": "d116f9cf80740a5468d1b6addac8097891838b9f47ac28af667501b5ef6017fc",
+    "results/R119-supplement-stronger-deep-full-label-chart-and-fourth-line.md": "513202b38f1c346ef3fb3f43ff79e1c6bd4bccbd1ed8d9151a8a7095dc75bf98",
+    "scripts/fourfold_stronger_deep_full_label_20261113.py": "1523b092c6caf3672cbd51de078d767049426d8d5e1da58b62f196bd316f98e4"
+  },
+  "checks": [
+    {
+      "name": "actual_new_window_really_shrinks",
+      "pass": true,
+      "evidence": {
+        "new_log2": "[984.580482023721840586967579857372347543966208 +/- 1.52e-43]",
+        "old_previous_log2": "[1023.20548202372184058696757985737234754396621 +/- 2.16e-42]"
+      }
+    },
+    {
+      "name": "actual_capped_prefix_still_contains_original_low_modes",
+      "pass": true,
+      "evidence": "The cap acts only at the very high end of the unchanged prefix"
+    },
+    {
+      "name": "actual_capped_window_nondecreasing",
+      "pass": true,
+      "evidence": "min(old increasing window, fixed cap) joins the new increasing window exactly at8193"
+    },
+    {
+      "name": "actual_newly_high_old_blocks_contract",
+      "pass": true,
+      "evidence": "[-2.25462106225619763906789265451383328643302522e+287 +/- 1.83e+242]"
+    },
+    {
+      "name": "actual_newly_high_old_blocks_all_frequency_derivative",
+      "pass": true,
+      "evidence": "[-946.280845991618284726774291388624950440829013 +/- 4.37e-44]"
+    },
+    {
+      "name": "actual_entire_new_high_block_contracts",
+      "pass": true,
+      "evidence": "[-4.49704938671067822770627477146139092957426865e+287 +/- 3.94e+242]"
+    },
+    {
+      "name": "actual_new_high_frequency_all_layer_monotonicity",
+      "pass": true,
+      "evidence": "The explicit scalar derivative covers every deeper layer and every higher retained mode"
+    },
+    {
+      "name": "actual_new_high_angle_fee",
+      "pass": true,
+      "evidence": "[-6109.72902558463953802718583524626346725273072 +/- 1.94e-42]"
+    },
+    {
+      "name": "all_mode_basis_signs",
+      "pass": true,
+      "evidence": "s=-1/c+1/(c alpha nu)+lambda/(alpha nu) is negative and greater than-1/c"
+    },
+    {
+      "name": "all_mode_basis_row_bounds",
+      "pass": true,
+      "evidence": "Both E and its inverse use determinant1-st>1"
+    },
+    {
+      "name": "new_second_seam_lower_row_all_modes",
+      "pass": true,
+      "evidence": "16/6654375"
+    },
+    {
+      "name": "new_second_seam_upper_gain_all_modes",
+      "pass": true,
+      "evidence": "16/419225625"
+    },
+    {
+      "name": "new_second_seam_upper_offdiagonal_all_modes",
+      "pass": true,
+      "evidence": "t2<t1 and1-s1*t1>1 preserve the exact Q12 bound"
+    },
+    {
+      "name": "exact_complete_second_basis_seam",
+      "pass": true,
+      "evidence": "Both off-diagonal rows and the exact determinant are preserved"
+    },
+    {
+      "name": "new_second_seam_positive_not_unitary",
+      "pass": true,
+      "evidence": "Q22 is positive and below1; no orthogonal or unitary assumption is used"
+    },
+    {
+      "name": "new_normalized_gain_jumps_up_all_modes",
+      "pass": true,
+      "evidence": {
+        "lower": "[1.68015205701425110646609265885426741954822362 +/- 2.35e-45]",
+        "upper": "[1.70848795480119780171403271361669058039911357 +/- 8.16e-46]"
+      }
+    },
+    {
+      "name": "new_small_branch_extreme_contraction",
+      "pass": true,
+      "evidence": "[-267.844295907915816856137451513235475085353859 +/- 4.89e-43]"
+    },
+    {
+      "name": "actual_seam_numeric_4",
+      "pass": true,
+      "evidence": {
+        "q11": "[1.00000002615629565970183723448048652678280351 +/- 4.71e-45]",
+        "q21": "[-1.67271518388458426640647008997122019601262717e-6 +/- 2.46e-51]",
+        "q12": "[-0.0156267618334536314125352321769653659517662651 +/- 1.84e-47]",
+        "q22": "[0.999343413679089802692415890338123214763623375 +/- 1.97e-46]"
+      }
+    },
+    {
+      "name": "actual_seam_numeric_176",
+      "pass": true,
+      "evidence": {
+        "q11": "[1.00000000000000000000163390918421905398785895 +/- 2.80e-45]",
+        "q21": "[-1.04570187769898938645769383355394184441308928e-19 +/- 1.28e-64]",
+        "q12": "[-0.0156142178553554461555002828020164348240126347 +/- 4.05e-47]",
+        "q22": "[0.999309942550469734398836247726692729441489670 +/- 4.58e-46]"
+      }
+    },
+    {
+      "name": "unchanged_entire_43_mode_constant_width_gate",
+      "pass": true,
+      "evidence": {
+        "m4": "[1.05274103271879588145973000586328967221354668 +/- 3.91e-45]",
+        "m172": "[1.04235630148608416382505750498168475083813632 +/- 4.86e-45]",
+        "count": 43
+      }
+    },
+    {
+      "name": "unchanged_remaining_modes_start_contracting",
+      "pass": true,
+      "evidence": "The derivative5/m<.09 extends this exact endpoint to allm>=176"
+    },
+    {
+      "name": "complete_neutral_length_with_both_upward_jumps",
+      "pass": true,
+      "evidence": "[190.663192106548778602644604298642858778884348 +/- 2.46e-43]"
+    },
+    {
+      "name": "complete_scalar_kernel_sum",
+      "pass": true,
+      "evidence": "[222.097559414033591627643158944937573240309768 +/- 8.99e-44]"
+    },
+    {
+      "name": "exact_full_new_small_row_elimination",
+      "pass": true,
+      "evidence": "The large a*u term is eliminated using the real first equation"
+    },
+    {
+      "name": "new_small_branch_gap_count",
+      "pass": true,
+      "evidence": "The two physical basis seams have4095 intervening small-branch cells"
+    },
+    {
+      "name": "actual_complete_two_seam_feedback",
+      "pass": true,
+      "evidence": "[-40967.9629692690550330054562220337178865786215 +/- 4.34e-41]"
+    },
+    {
+      "name": "complete_new_large_scalar_kernel",
+      "pass": true,
+      "evidence": "The complete second gain and both-seam feedback are included"
+    },
+    {
+      "name": "complete_large_source_row_budget",
+      "pass": true,
+      "evidence": "The old seam future small source and the actual tiny new-seam source are both paid"
+    },
+    {
+      "name": "complete_large_row_Green_budget",
+      "pass": true,
+      "evidence": "No forward large multiplier is applied to a bounded u after seam elimination"
+    },
+    {
+      "name": "complete_paired_Green_budget",
+      "pass": true,
+      "evidence": "Both E rows and the entire genuine high source geometric sum are included"
+    },
+    {
+      "name": "complete_homogeneous_label_budget",
+      "pass": true,
+      "evidence": "The homogeneous real-high path has no additional source geometric factor"
+    },
+    {
+      "name": "complete_old_prefix_low_matrix_error",
+      "pass": true,
+      "evidence": "[0.0249980797016513069094030719712162518987631651 +/- 2.40e-47]"
+    },
+    {
+      "name": "complete_new_low_matrix_error",
+      "pass": true,
+      "evidence": "[-3697.71836791606860946000782191316144038928645 +/- 2.94e-42]"
+    },
+    {
+      "name": "actual_whole_new_Green_Neumann_gate",
+      "pass": true,
+      "evidence": "The unchanged and new low regimes are paid; the actual high blocks have no discarded error"
+    },
+    {
+      "name": "actual_complete_new_Green_bound",
+      "pass": true,
+      "evidence": "[33608.1389357397938983697871671774925614108243 +/- 3.49e-41]"
+    },
+    {
+      "name": "actual_complete_new_label_column_bound",
+      "pass": true,
+      "evidence": "[8.20511204485834811971918632011169251987568953 +/- 4.88e-45]"
+    },
+    {
+      "name": "actual_weighted_low_operator_tail_converges",
+      "pass": true,
+      "evidence": "This is the normalized all-m envelope required for product-topology continuity"
+    },
+    {
+      "name": "actual_complete_local_input_128",
+      "pass": true,
+      "evidence": "[-12.0001634134598077945664410127224471887519240 +/- 3.44e-44]"
+    },
+    {
+      "name": "actual_complete_nonlinear_feedback_128",
+      "pass": true,
+      "evidence": "[-53.7417116954519955578818644080488029365864343 +/- 1.38e-44]"
+    },
+    {
+      "name": "actual_complete_local_input_4097",
+      "pass": true,
+      "evidence": "[-6839.07846848100140797836813343640583911079590 +/- 3.50e-42]"
+    },
+    {
+      "name": "actual_complete_nonlinear_feedback_4097",
+      "pass": true,
+      "evidence": "[-6867.37278744672746296074780181561246356504169 +/- 3.95e-42]"
+    },
+    {
+      "name": "actual_complete_local_input_8192",
+      "pass": true,
+      "evidence": "[-19982.8737644857257828566240202391055848540246 +/- 9.66e-42]"
+    },
+    {
+      "name": "actual_complete_nonlinear_feedback_8192",
+      "pass": true,
+      "evidence": "[-19952.1774749467274629607478018156124635650417 +/- 6.07e-42]"
+    },
+    {
+      "name": "actual_complete_local_input_8193",
+      "pass": true,
+      "evidence": "[-19863.3338220346367263930058089745602493356312 +/- 1.73e-41]"
+    },
+    {
+      "name": "actual_complete_nonlinear_feedback_8193",
+      "pass": true,
+      "evidence": "[-19698.6227874467274629607478018156124635650417 +/- 6.07e-42]"
+    },
+    {
+      "name": "new_local_input_super_small",
+      "pass": true,
+      "evidence": "[-19863.3338220346367263930058089745602493356312 +/- 1.73e-41]"
+    },
+    {
+      "name": "new_local_nonlinearity_super_small",
+      "pass": true,
+      "evidence": "[-19698.6227874467274629607478018156124635650417 +/- 6.07e-42]"
+    },
+    {
+      "name": "new_full_local_input_envelope_monotonicity",
+      "pass": true,
+      "evidence": "The trueJbar^5 and h^-5 are included in the all-layer derivative"
+    },
+    {
+      "name": "new_full_local_nonlinearity_envelope_monotonicity",
+      "pass": true,
+      "evidence": "The real full quadratic h^-14 fee is included"
+    },
+    {
+      "name": "complete_nonlinear_global_self_map",
+      "pass": true,
+      "evidence": "The label ball maps inside the actual unit strong sequence ball"
+    },
+    {
+      "name": "complete_nonlinear_global_contraction",
+      "pass": true,
+      "evidence": "The full strong Fourier Taylor lift preserves both signs and the complete mean root"
+    },
+    {
+      "name": "complete_nonlinear_label_to_state_bound",
+      "pass": true,
+      "evidence": "The actual fixed point has norm below16 times its full label norm"
+    },
+    {
+      "name": "complete_new_C2_flat_jets",
+      "pass": true,
+      "evidence": "The new global normalization factor is fixed; the full nonlinear second jets decay"
+    },
+    {
+      "name": "actual_new_fourth_true_error",
+      "pass": true,
+      "evidence": "[-3810.32192809488736234787031942948939017586483 +/- 1.40e-42]"
+    },
+    {
+      "name": "actual_new_fourth_full_complex_cone",
+      "pass": true,
+      "evidence": "[0.0463698869970409049655169091303372158454105476 +/- 1.09e-47]"
+    },
+    {
+      "name": "actual_new_fourth_true_projective_derivative",
+      "pass": true,
+      "evidence": "[-269.188591815831633712274903026470950170715251 +/- 3.42e-44]"
+    },
+    {
+      "name": "actual_full_unchanged_fourth_prefix_count",
+      "pass": true,
+      "evidence": "All8064 actual cells, not the altered ideal cell, transmit the fourth difference"
+    },
+    {
+      "name": "actual_full_fourth_slope_difference",
+      "pass": true,
+      "evidence": "Two slope tubes, all true projective contractions, and20sqrt12 are retained"
+    },
+    {
+      "name": "actual_fourth_parameter_derivative_difference",
+      "pass": true,
+      "evidence": "The actual full complex parameter-box margin pays the parameter derivative"
+    },
+    {
+      "name": "actual_reference_squared_state_endpoint_4096",
+      "pass": true,
+      "evidence": "[85139.8841133489788712504985656967953686143498 +/- 2.75e-41]"
+    },
+    {
+      "name": "actual_reference_squared_state_endpoint_8192",
+      "pass": true,
+      "evidence": "[153885.578587219707729721565722869499372687268 +/- 2.66e-40]"
+    },
+    {
+      "name": "actual_reference_squared_state_endpoint_8193",
+      "pass": true,
+      "evidence": "[153781.099878605183455315164389075969204021495 +/- 3.92e-40]"
+    },
+    {
+      "name": "actual_new_reference_squared_state_tail_power",
+      "pass": true,
+      "evidence": "26747/256"
+    },
+    {
+      "name": "actual_new_reference_squared_state_tail_ratio",
+      "pass": true,
+      "evidence": "The actual polynomial layer factor and complete positive exponent are both included"
+    },
+    {
+      "name": "actual_whole_finite_prefix_and_infinite_tail_budget",
+      "pass": true,
+      "evidence": "All8192 finite-prefix terms and the complete new infinite geometric sum are paid"
+    },
+    {
+      "name": "conditional_new_label_budget_exact_exponent",
+      "pass": true,
+      "evidence": "Only the stated radial multiplication budget is claimed, not a same-width operator inverse"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "actual_displaced_high_blocks_preserved": true,
+    "complete_two_seams_and_both_rows": true,
+    "complete_actual_strong_discrete_Green": true,
+    "complete_mean_nonlinear_all_label_chart": true,
+    "actual_full_C2_flat_end": true,
+    "actual_fourth_flat_tail_line_and_difference": true,
+    "all_finite_prefix_normalization_fees_retained": true,
+    "external_nonlinear_input_reaches_small_label_contract": false,
+    "new_actual_Robin_or_affine_source": false,
+    "new_KAM_output": false,
+    "same_width_updated_network_inverse": false,
+    "topic_completion": false
+  }
+}

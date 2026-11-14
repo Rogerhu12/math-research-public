@@ -1,0 +1,30 @@
+{
+  "kind": "lossless_preservation_of_last_observed_complete_accepted_checkpoint",
+  "original_process_sha256": "2c6e07bf06ad46c402a6651d354bbb7e3f72b8c72ae82c98a3e2125324445d52",
+  "original_process_complete": true,
+  "original_process_status": "first_complete_accept_then_intentional_stop",
+  "original_process_record_unmodified": true,
+  "original_log_sha256": "df7705b2d5b586e4815d501b7573665882627ab90699ee104ee2a80851794a79",
+  "checkpoint_sha256": "af0a3f5fabd4d8d1194f30ff942130040e62975c0963f127c9ae864f7bd9521a",
+  "checkpoint_bytes": 10916086,
+  "original_checkpoint": "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage01/checkpoints/floating/accepted-000.npz",
+  "radial_nodes": 1379,
+  "state_dimension": 513,
+  "full_cubic_shape": [
+    4,
+    1378,
+    513
+  ],
+  "every_saved_state_and_derivative_used": true,
+  "source_sha256": "e7d7e33ea74457baab55e7620aa4a52353fd7941edd11f79a238729e530b90c2",
+  "candidate_path": "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage01/reciprocal-m256-alpha075-accepted000-candidate.json",
+  "candidate_sha256": "45923b3675d2789376361192c6e0841e82914e27605d362872d5ac1dcf7a628e",
+  "observed_session": 72380,
+  "session_handle_observation": "Actual supervisor observed completed checkpoint SHA then deliberately sent SIGINT; child returned -2; final BVP convergence not requested or asserted",
+  "actual_exit_code": -2,
+  "actual_exit_cause": null,
+  "finite_BVP_convergence_not_established": true,
+  "this_preservation_does_not_resume_or_repeat_the_failed_session": true,
+  "mathematical_certificate": false,
+  "wall_seconds": 1.2963459920001696
+}

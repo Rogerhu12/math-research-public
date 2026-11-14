@@ -1,0 +1,23 @@
+{
+  "kind": "R74_actual_exterior_robin_frozen_package",
+  "ready": true,
+  "scope": "Exact far-bump selection theorem, actual full-tail Robin, unweighted positive-cap strong inverse and one true mean pivot; not full nonlinear completion",
+  "files": [
+    {
+      "path": "results/R74-actual-full-tail-robin-and-augmented-positive-cap.md",
+      "sha256": "174bc93631b5ade0faf51160d7026e42d674916fd94e12cdb2315479458c18d8",
+      "bytes": 24162
+    },
+    {
+      "path": "scripts/fourfold_phase_exterior_robin_certificate.py",
+      "sha256": "986c215c768651bdfc71ced966b97401aaa956436b762135cdbabfe6bf06a583",
+      "bytes": 9717
+    },
+    {
+      "path": "notes/2026-11-12-actual-exterior-robin-certificate.json",
+      "sha256": "c5645727cf5a382bb45aa002f36eafe80cdd7c17ffdc56f7bbec2e224684c958",
+      "bytes": 12217
+    }
+  ],
+  "replay": "PYTHONDONTWRITEBYTECODE=1 python scripts/fourfold_phase_exterior_robin_certificate.py --out /workspace/scratch/f6a2c7886477/exterior-robin-replay.json"
+}

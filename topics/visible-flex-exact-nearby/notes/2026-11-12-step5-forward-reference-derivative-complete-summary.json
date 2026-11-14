@@ -1,0 +1,54 @@
+{
+  "kind": "independent_completion_and_safe_constants_from_full_forward_q_report",
+  "complete": true,
+  "report": "notes/2026-11-12-step5-forward-reference-derivative-gate.json.gz",
+  "report_sha256": "87aeff7e8824c7d6301c6f33cbeea506e584004c5bee1591512a556348cbfd8c",
+  "report_bytes": 872852,
+  "identity": {
+    "manifest_path": "data/phase_ring_continuation/step4_shared1032_reference_forward/manifest.json",
+    "manifest_sha256": "43cbffb2e0b924b6d69608df54e0acf3cf8ecd66c030b7343e84864ad6eb81a0",
+    "retarget_descriptor": "data/phase_ring_continuation/step5_retargeted_reference/descriptor.json",
+    "retarget_descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+    "leg": "forward",
+    "source_sha256": "a947f3b6bb93f254c22f8d9f526964899a4708cd4286b6029ddda0d5a1dcaa65",
+    "bits": 160,
+    "first_segment": 0,
+    "stop_segment": 550,
+    "widths": [
+      "1/512"
+    ],
+    "nodes": 2048,
+    "max_nodes": 8192,
+    "taylor_order": 6,
+    "coordinate": "normalized initial label x, period 2*pi; q=partial_x physical Y"
+  },
+  "segment_count": 550,
+  "all_550_segments_passed": true,
+  "all_549_base_seams_bitwise_checked": true,
+  "all_549_Q_seams_bitwise_checked": true,
+  "exact_time_endpoints": [
+    {
+      "kind": "rational_multiple_of_pi",
+      "numerator": -1,
+      "denominator": 2
+    },
+    {
+      "kind": "rational_multiple_of_pi",
+      "numerator": 1,
+      "denominator": 2
+    }
+  ],
+  "angular_node_counts": {
+    "2048": 550
+  },
+  "verified_simple_constants": {
+    "real_part_lower": "3/100",
+    "modulus_upper": "21/20",
+    "label_strip": "1/512"
+  },
+  "directed_minimum_from_saved_lower_endpoints": "[0.0303368062124528487448659488717843698129999994997466060790 +/- 2.10e-59]",
+  "directed_maximum_from_saved_upper_endpoints": "[1.04603135083599371907572552712260151310000006274448788097 +/- 3.56e-57]",
+  "scope": "Complete exact finite reference, all real times and full complex label strip; no true-flow variational assertion.",
+  "wall_seconds": 3802.664657150999,
+  "cpu_seconds": 526.355420665
+}

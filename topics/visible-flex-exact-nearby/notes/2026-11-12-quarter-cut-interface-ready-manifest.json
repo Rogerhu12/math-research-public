@@ -1,0 +1,39 @@
+{
+  "kind": "frozen_true_quarter_cut_complete_interface_multipliers",
+  "complete": true,
+  "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+  "scope": "Actual r=1/4 complete physical Fourier multipliers and tails; no core propagation or feedback inverse.",
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_cut_interface_fourier.py",
+      "sha256": "209bbafeb5eceb739adba9ded19833a636a1eb4c8f386a1f63d181d1bb5aa044",
+      "bytes": 12375
+    },
+    {
+      "path": "scripts/fourfold_phase_interface_tail_lower.py",
+      "sha256": "e36ea99fc0b0adf7a09041305585e78edc4d637a397622d99589805cbf62ca29",
+      "bytes": 2617
+    },
+    {
+      "path": "notes/2026-11-12-actual-quarter-cut-interface-Fourier.json",
+      "sha256": "1bb36bab2e2e6ef0c574df1d31bfb0b46f3ff7f4397a086bdfeb964bbff511e0",
+      "bytes": 68168
+    },
+    {
+      "path": "notes/2026-11-12-actual-quarter-cut-interface-Fourier.npz",
+      "sha256": "2f97523c939d1032abdfbd928b6f35b904a25461fe1a3d00156defdd1f3770fc",
+      "bytes": 31095
+    },
+    {
+      "path": "notes/2026-11-12-actual-quarter-cut-interface-tail-lower.json",
+      "sha256": "28316d5e31b1eabc481f578f8cd33b064fbbce2afea670ab5bee607857a39a7d",
+      "bytes": 11314
+    },
+    {
+      "path": "notes/2026-11-12-actual-quarter-cut-interface-multipliers.md",
+      "sha256": "2f1107d4e12ef7da2da518d2109d35aad9aba6007a2f03b8f61bc6934a6daa2c",
+      "bytes": 7529
+    }
+  ],
+  "total_bytes": 133098
+}

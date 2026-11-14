@@ -1,0 +1,296 @@
+{
+  "schema": "visible-exact-R119-actual-compact-profile-flux-gauge-v1",
+  "implementation": "new exact BigInt polynomial/rational computation in V8; not recovered Python native",
+  "scope": "Actual full nonlinear control gauge, pointwise holonomy, true rho4/rho5 source bounds, exact ray and physical-port identities; no unproved global response or D_Omega E estimate",
+  "input_blobs": {
+    "R72": "a7c78793ba18724a4f0553b6ccd55259b8f4df92",
+    "controlled_profile": "f11edbccd752bf034aa40e71888859d667a04b42",
+    "joint_actual": "fc3aab62e99a51cc06bd26a7233663a2b8e4dd73",
+    "small_amplitude": "8a359f45c35e513e786b11d6217a20c345ced5eb",
+    "relative_scattering": "328192a452be36598c77b26cf51d75f06244b015",
+    "proof": "1418581428ea76ede13a0a84ef718a92686d900f"
+  },
+  "implementation_blob": "7893bab6c581756346411394369d2eb822fee663",
+  "gates": [
+    {
+      "name": "D_both_actual_forms",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "actual_f_k",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "actual_f_q",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "actual_f_p",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "actual_full_f_theta",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "actual_R_k_complete_no_b",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "pointwise_control_K",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "pointwise_control_D",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "pointwise_holonomy_invariance",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "mass_k_derivative",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "full_local_holonomy_conservation_flux",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "canonical_quadratic_control",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "actual_control_J",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "actual_control_drift",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "actual_control_log_wave_factor",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "actual_log_wave_numerator",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "full_actual_ray_Lc_branch_-1",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "full_actual_ray_Lc_branch_1",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "actual_J_inverse",
+      "passed": true,
+      "detail": {
+        "left": "64/61",
+        "relation": "lt",
+        "right": "2"
+      }
+    },
+    {
+      "name": "actual_D_norm",
+      "passed": true,
+      "detail": {
+        "left": "4227/4096",
+        "relation": "lt",
+        "right": "2"
+      }
+    },
+    {
+      "name": "actual_T_norm",
+      "passed": true,
+      "detail": {
+        "left": "4097/4096",
+        "relation": "lt",
+        "right": "2"
+      }
+    },
+    {
+      "name": "actual_f_envelope",
+      "passed": true,
+      "detail": {
+        "left": "65/1952",
+        "relation": "lt",
+        "right": "1/8"
+      }
+    },
+    {
+      "name": "actual_f_theta_envelope",
+      "passed": true,
+      "detail": {
+        "left": "81/256",
+        "relation": "lt",
+        "right": "1/2"
+      }
+    },
+    {
+      "name": "actual_two_component_R_envelope",
+      "passed": true,
+      "detail": {
+        "left": "153/512",
+        "relation": "lt",
+        "right": "16"
+      }
+    },
+    {
+      "name": "actual_canonical_control_coefficient",
+      "passed": true,
+      "detail": {
+        "left": "16/3",
+        "relation": "lt",
+        "right": "8"
+      }
+    },
+    {
+      "name": "actual_control_J_ratio",
+      "passed": true,
+      "detail": {
+        "left": "67/8",
+        "relation": "lt",
+        "right": "9"
+      }
+    },
+    {
+      "name": "actual_control_drift_envelope",
+      "passed": true,
+      "detail": {
+        "left": "216",
+        "relation": "lt",
+        "right": "512"
+      }
+    },
+    {
+      "name": "actual_control_wave_envelope",
+      "passed": true,
+      "detail": {
+        "left": "131/2",
+        "relation": "lt",
+        "right": "128"
+      }
+    },
+    {
+      "name": "actual_control_drift_wave_sum",
+      "passed": true,
+      "detail": {
+        "left": "640",
+        "relation": "lt",
+        "right": "1024"
+      }
+    },
+    {
+      "name": "actual_profile_L1_fee",
+      "passed": true,
+      "detail": {
+        "left": "2048",
+        "relation": "eq",
+        "right": "2048"
+      }
+    },
+    {
+      "name": "actual_fourier_width_margin",
+      "passed": true,
+      "detail": {
+        "left": "2",
+        "relation": "eq",
+        "right": "2"
+      }
+    },
+    {
+      "name": "linear_canonical_lower_all_modes",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "linear_canonical_top_diagonal_all_modes",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    },
+    {
+      "name": "linear_canonical_bottom_diagonal_all_modes",
+      "passed": true,
+      "detail": {
+        "residual_monomials": 0
+      }
+    }
+  ],
+  "gate_count": 34,
+  "all_passed": true,
+  "retained": [
+    "both means",
+    "all Fourier modes",
+    "same current Gamma",
+    "full real branch dependence",
+    "total and bare weak-flux endpoint charges",
+    "actual g_psi propagation remains to be bounded"
+  ],
+  "excluded": [
+    "naked pullback operator-norm differentiation",
+    "global physical scattering difference from 64 eta alone",
+    "finite Fourier substitution for the full PDE",
+    "claim that full F is solved"
+  ]
+}

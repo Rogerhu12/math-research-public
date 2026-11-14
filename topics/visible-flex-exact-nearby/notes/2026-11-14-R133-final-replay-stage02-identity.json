@@ -1,0 +1,43 @@
+{
+  "kind": "complete_original_scientific_array_identity_comparison",
+  "complete": true,
+  "candidate_sha256": "3a78961b41876733bfa2716d43dff18199b12ce3db52d5c54b78ed526c00ec46",
+  "manifest_sha256": "bf2df15b608d856266f853a467dec560750dfaae9d81eaf028dbbe408d890f42",
+  "producer_sha256": "2b454505c2ac80f5e32713284566abeaa3e7daf655bfc20bcaff58643b589749",
+  "all_scientific_fields": {
+    "coordinates": true,
+    "modes": true,
+    "physical_frequency_factor": true,
+    "amplitude": true,
+    "exact_float_amplitude": true,
+    "nu": true,
+    "exact_float_nu": true,
+    "object_sha256": true,
+    "new_metric_family": true,
+    "exact_bump": true,
+    "mean_boundary": true,
+    "finite_state_angle": true,
+    "boundary_angle": true,
+    "exact_cap_cut": true,
+    "exact_float_q_values": true,
+    "q_vector_sha256": true
+  },
+  "initial_state_uint64_equal": true,
+  "complete_shape_equal": true,
+  "parts": [
+    {
+      "file": "moving-m32-alpha075-accepted000-candidate-part000.npz.gz",
+      "matches_historical_bytes": true,
+      "sha256": "2f32cb628acf95f82223b57fde12a27e2db2db3a8c80f6167dde8051494c286d",
+      "expected_sha256": "2f32cb628acf95f82223b57fde12a27e2db2db3a8c80f6167dde8051494c286d",
+      "uncompressed_payload_sha256": "2a375ac23b633ea47c18cf871f8c30a8699ee35bbd3fa104645e8db0e230e7c8",
+      "bytes": 673727,
+      "first_interval": 0,
+      "last_interval_exclusive": 336
+    }
+  ],
+  "original_scientific_arrays_and_container_recovered": true,
+  "historical_certificate_reuse_authorized_by_identity_only": true,
+  "new_centre_if_any_mismatch": false,
+  "restored_candidate": "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage02/restored-original/moving-m32-alpha075-accepted000-candidate.json"
+}

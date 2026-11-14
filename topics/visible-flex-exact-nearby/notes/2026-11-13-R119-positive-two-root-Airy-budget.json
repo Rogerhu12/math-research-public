@@ -1,0 +1,183 @@
+{
+  "passed": true,
+  "gate_count": 32,
+  "gates": [
+    {
+      "name": "actual_Airy_initial_height",
+      "passed": true,
+      "detail": "[0.35502805388781723926006318600418317639797917419917724058 +/- 4.18e-57]"
+    },
+    {
+      "name": "actual_Airy_initial_slope",
+      "passed": true,
+      "detail": "[0.258819403792806798405183560189203963479091138354934582210 +/- 4.98e-58]"
+    },
+    {
+      "name": "actual_Airy_impedance",
+      "passed": true,
+      "detail": "[0.72901113294722698141863626470393597597276996900413326450 +/- 6.86e-57]"
+    },
+    {
+      "name": "height_gradient_complete",
+      "passed": true,
+      "detail": "both g and actual mu derivatives retained"
+    },
+    {
+      "name": "positive_height_absorption",
+      "passed": true,
+      "detail": "0.968750000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "two_real_collars_disjoint",
+      "passed": true,
+      "detail": "actual root separation 60 B z0 (1-4 z0), B>2^190, z0<2^-20"
+    },
+    {
+      "name": "true_radial_height_density",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "name": "true_angular_height_density",
+      "passed": true,
+      "detail": "m**2*z/a**2"
+    },
+    {
+      "name": "true_source_Jacobian_height",
+      "passed": true,
+      "detail": "ordinary f/(a*g*T), weak Fz=epsilon Ft/T, extra -r Fz"
+    },
+    {
+      "name": "exact_ramp_gradient",
+      "passed": true,
+      "detail": "l^-1 + kappa^2*l^2/12"
+    },
+    {
+      "name": "exact_ramp_mass",
+      "passed": true,
+      "detail": "l/3"
+    },
+    {
+      "name": "full_low_ramp_endpoint",
+      "passed": true,
+      "detail": "[64.0000203450520833333333333333333333333333333333333333333 +/- 4.02e-56]"
+    },
+    {
+      "name": "full_high_ramp_endpoint",
+      "passed": true,
+      "detail": "13/12"
+    },
+    {
+      "name": "full_Poisson_extension_energy",
+      "passed": true,
+      "detail": "[67.348206673961490194980654090181062670106696620654140668 +/- 4.25e-55]"
+    },
+    {
+      "name": "full_Poisson_two_collar_gradient",
+      "passed": true,
+      "detail": "[8.8362825354211404962005910776585135635496409933113209035 +/- 5.24e-56]"
+    },
+    {
+      "name": "full_Poisson_two_collar_mass",
+      "passed": true,
+      "detail": "[17.7867891609493759605433508654478184291325387643491033935 +/- 7.30e-56]"
+    },
+    {
+      "name": "Airy_L2_moment_derivative",
+      "passed": true,
+      "detail": "(Ai'^2-x Ai^2)'=-Ai^2; integral I0=Ai'(0)^2"
+    },
+    {
+      "name": "Airy_weighted_moment_1",
+      "passed": true,
+      "detail": "J2=I0-I3 after integration"
+    },
+    {
+      "name": "Airy_weighted_moment_2",
+      "passed": true,
+      "detail": "3 J2=4 I3 after integration"
+    },
+    {
+      "name": "complete_Airy_weighted_moment",
+      "passed": true,
+      "detail": "{I3: 3*I0/7, J2: 4*I0/7}"
+    },
+    {
+      "name": "Airy_moment_norms",
+      "passed": true,
+      "detail": "{'Ai_L2': '[0.258819403792806798405183560189203963479091138354934582210 +/- 4.98e-58]', 'x_Aiprime_L2': '[0.195649079118221216392708752206065285728092340247195600408 +/- 9.34e-58]'}"
+    },
+    {
+      "name": "cutoff_C2_end_jets",
+      "passed": true,
+      "detail": "actual cutoff joins with both first and second derivatives zero"
+    },
+    {
+      "name": "cutoff_first_derivative",
+      "passed": true,
+      "detail": "sup |chi'|=(15/8)*2/H < 4/H"
+    },
+    {
+      "name": "cutoff_second_derivative",
+      "passed": true,
+      "detail": "sup |chi''| < 6*(2/H)^2 = 24/H^2"
+    },
+    {
+      "name": "complete_three_term_Ai_residual",
+      "passed": true,
+      "detail": "163856.000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "complete_two_end_DN_defect",
+      "passed": true,
+      "detail": "[47256028.970886091698996938791823023002098260251846802016 +/- 5.80e-49]"
+    },
+    {
+      "name": "complete_two_end_reflection",
+      "passed": true,
+      "detail": "[74850108.082365518290018179350937372115789573566471237303 +/- 5.43e-49]"
+    },
+    {
+      "name": "true_Airy_resolvent_denominator",
+      "passed": true,
+      "detail": ">=3 cA^2 for every real spectral value"
+    },
+    {
+      "name": "full_source_Airy_multiplier",
+      "passed": true,
+      "detail": "[1.9046256137279146916676208525131138016461021100237164779 +/- 2.84e-56]"
+    },
+    {
+      "name": "mean_source_resolvent",
+      "passed": true,
+      "detail": "[2.6823593133991372380600858871549309103031287501571321642 +/- 1.53e-56]"
+    },
+    {
+      "name": "all_source_constant",
+      "passed": true,
+      "detail": "tau retained for nonzero kappa<1; mean separate"
+    },
+    {
+      "name": "all_layer_strong_coefficient",
+      "passed": true,
+      "detail": "a_*^(4/3) < 2^(64/3) (j+5)^(2/3) delta^-3; full Fourier weight factor <2"
+    }
+  ],
+  "bounds": {
+    "E_extension": "[67.348206673961490194980654090181062670106696620654140668 +/- 4.25e-55]",
+    "T_gradient": "[8.8362825354211404962005910776585135635496409933113209035 +/- 5.24e-56]",
+    "P_mass": "[17.7867891609493759605433508654478184291325387643491033935 +/- 7.30e-56]",
+    "Ai_residual_over_c": "163856.000000000000000000000000000000000000000000000000000",
+    "DN_defect": "[47256028.970886091698996938791823023002098260251846802016 +/- 5.80e-49]",
+    "reflection": "[74850108.082365518290018179350937372115789573566471237303 +/- 5.43e-49]"
+  },
+  "scope": "actual complete radial positive two-root component, all nonzero frequencies plus exact mean; no whole-network inverse or nonradial update transfer",
+  "file_sha256": {
+    "results/R119-supplement-actual-positive-two-root-Airy-defect-and-full-sources.md": "65bf66461f3d20cf4c313d738e0b04db82eb778e2d9bdfa2334c85cba8f682f3",
+    "scripts/fourfold_actual_positive_two_root_Airy_20261113.py": "092519d49c38dbbc72122e8498a58b1736029168bd09f1dd6e364a1b4ce5a863",
+    "results/R119-supplement-uniform-frequency-reference-Airy-Cauchy.md": "d116f9cf80740a5468d1b6addac8097891838b9f47ac28af667501b5ef6017fc",
+    "results/R119-supplement-actual-phase-preserving-subprincipal-metric-parameter.md": "7852f8b4ba2043663aee289a4f6631bbb4dc302d10c4a015e5e54149d0e3ac95",
+    "results/R119-supplement-actual-positive-DN-to-full-Airy-Cayley-and-sources.md": "6ca70b578531fd77edbc65cfe0f04f1859182c19b2e43446069c8a5ef0f5ca88",
+    "results/R39-finite-component-airy-transfer-input.md": "217ee20ef5deb877a5a2983cc21b3c6f8b805a602e86ec706193766b0f671c93"
+  }
+}

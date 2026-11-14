@@ -1,0 +1,1036 @@
+{
+  "kind": "frozen_actual_germ_cap_proof_and_exact_cover_closure_prefix102",
+  "status": "complete_frozen_prefix",
+  "archive_required": [
+    {
+      "path": "data/phase_ring_continuation/step4_shared1032_reference_backward/manifest.json",
+      "sha256": "0ad615a077a0c313d0700c3a6392f39250617257b93197ba1f5f766716191a07",
+      "bytes": 99868,
+      "roles": [
+        "exact_reference_time_grid"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step4_shared1032_reference_forward/manifest.json",
+      "sha256": "43cbffb2e0b924b6d69608df54e0acf3cf8ecd66c030b7343e84864ad6eb81a0",
+      "bytes": 99605,
+      "roles": [
+        "exact_reference_time_grid"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/descriptor.json",
+      "sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+      "bytes": 3129,
+      "roles": [
+        "retarget_descriptor"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0000_r.json.gz",
+      "sha256": "9415569ec4a2b86a15b6764406927584ed0c866955097700ec8aa5616a46891b",
+      "bytes": 3650,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0001_r.json.gz",
+      "sha256": "2b5b8bcae2f07e42f93208889c1bccaede6161917978f23696c0d110c3cbfc1a",
+      "bytes": 3699,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0002_r.json.gz",
+      "sha256": "4e261d18833de168905eeb071793f18797549499acb47e0aa56e80dac4709695",
+      "bytes": 3698,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0003_r.json.gz",
+      "sha256": "99ab3ad3de524436c703201e7497bea5c7613ce845c45c8b4408a19f8f43d9a9",
+      "bytes": 3863,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0004_r.json.gz",
+      "sha256": "dbf6934bd05ecaeafdda6348c2e36ba19e549a78a9e3ade28e4992c10848c852",
+      "bytes": 28809,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0005_r.json.gz",
+      "sha256": "3504e7f07e3b693c24c4ee5ea6df70e44e8bb176ac802bfff953cfc24ee083a2",
+      "bytes": 15361,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0006_r.json.gz",
+      "sha256": "b0e6703dd35af395469f81e13e81b190c60d0bf2b8a3c0acb0da7e8115fda29d",
+      "bytes": 15416,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0007_r.json.gz",
+      "sha256": "5350c3eec13fc8fc70017010de95350614a8647ec153b58212cc6ec100baffdb",
+      "bytes": 15376,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0008_r.json.gz",
+      "sha256": "01521f6b18629ccd3d2304c7b2ccc82236fcbf577b2d996c2c96c009c3098176",
+      "bytes": 2576,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0009_r.json.gz",
+      "sha256": "6a3c2c804be72780e9dd7232203fc957f5a3ad7371ee2a30b16deebf25f7755b",
+      "bytes": 28762,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0010_r.json.gz",
+      "sha256": "d4363494003726f460008e0dbd2eabd1046bc66e313f348dd167317ff7ee655e",
+      "bytes": 15384,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0011_r.json.gz",
+      "sha256": "78a82fba666d3cd8448a8377f50d4a6d43d06b7a062d478cf5abd6b4c30e9aaf",
+      "bytes": 42318,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0012_r.json.gz",
+      "sha256": "d02d6eb7862d5d6df2303b9221d8c528aa0a2912b62a902b0aeec828b0dfd819",
+      "bytes": 15352,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0013_r.json.gz",
+      "sha256": "6a1dec114d34ebfb616597b89b3aa9eed54b3bc6b484672637ee2df2588dacf1",
+      "bytes": 28815,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0014_r.json.gz",
+      "sha256": "faac3b7eb1419010d4c69d23e09ab467603d96e82678b74d6a0b16182fc2a294",
+      "bytes": 15354,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0015_r.json.gz",
+      "sha256": "a218515547c4c23a1250582679c0e6e2363cc694bad5b92b78b9b5734866405e",
+      "bytes": 15346,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0016_r.json.gz",
+      "sha256": "614e795defd86474bc99dc5e76d4746e06cb0e43564903d061c1e1a7b16783e3",
+      "bytes": 2589,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0017_r.json.gz",
+      "sha256": "79efcaf7ad75671336ae1d9419ff1cf849fdbbc7f1b8ebdcf3d81dff5ebb53f8",
+      "bytes": 28695,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0018_r.json.gz",
+      "sha256": "e63bbecf45c2b607836f66c12e30b1fc32e71f7d03a898ccdbc6fc0530c673d7",
+      "bytes": 15340,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0019_r.json.gz",
+      "sha256": "6b13dbfffb4559ba3c36af614731c6e60dd49d71bfef8caf08ee45fb0bc92e28",
+      "bytes": 2609,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0020_r.json.gz",
+      "sha256": "3222527bc75225fe824d78e16734f91278b91566ea5c742ae93d7f280f0d1fe8",
+      "bytes": 28802,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0021_r.json.gz",
+      "sha256": "edf655480604ee8a7dbf85f22efd592f4fc259fdb1e8b69c709338a27bf8c2c2",
+      "bytes": 28770,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0022_r.json.gz",
+      "sha256": "4992d3a99be8c120b587a615c1b1c1da008f3900c87207b1c35c59b152a2b507",
+      "bytes": 15395,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0023_r.json.gz",
+      "sha256": "1cf8c13c8ac7dd8a1d51535f9434a8dc110e511f57cb11d6949493102df490ad",
+      "bytes": 15316,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0024_r.json.gz",
+      "sha256": "cda8779d42408689af455cd4d6860c00ac424ef35b30d5f486b70ae0910d6ef0",
+      "bytes": 28811,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0025_r.json.gz",
+      "sha256": "87ba7ec4fd53369b504714acffbc34754c49e3f0a7e0c32effbb95d7acb1ef69",
+      "bytes": 15360,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0026_r.json.gz",
+      "sha256": "5b38bb75971dd54fe3c944fa52755f4f344df8d57d76b85566fe522f2a4d86cc",
+      "bytes": 15397,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0027_r.json.gz",
+      "sha256": "c9a68e6f0a108b6383735932d4a9b7eb8302e3f37b4fca7948743e230da85d66",
+      "bytes": 16213,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0028_r.json.gz",
+      "sha256": "92f56f568bdcfa8fe9839ca662ff055ef58d3c9f6d4268b827d508e8aac2c9c5",
+      "bytes": 28834,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0029_r.json.gz",
+      "sha256": "0392c7b4a13583ea33584d51705b10d0199c63559568fe6376163cd648b9660f",
+      "bytes": 15340,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0030_r.json.gz",
+      "sha256": "34e766c11228c575bfceec40421ac9dffc48d0d540058049eb2c4ccc6233d889",
+      "bytes": 15365,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0031_r.json.gz",
+      "sha256": "9e8ca39238da2fe668e509eba238b8f2f4001c2cf5b13b90dab6bd1a83659218",
+      "bytes": 28790,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0032_r.json.gz",
+      "sha256": "4108efcfb58086a6eb5be66b13e416e3874b83bdf0116071c5bc1297f4516ee9",
+      "bytes": 15328,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0033_r.json.gz",
+      "sha256": "c55fac254a018e4ab3f1096be6b3aa6a22679acc61da6c5d900719a5880729be",
+      "bytes": 15349,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0034_r.json.gz",
+      "sha256": "f1e8db01e9d569275a42480c73e4a856d72c3fcbb6110ea38a684209b6c9c2a4",
+      "bytes": 28837,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0035_r.json.gz",
+      "sha256": "da9d785b00faf6505407659c19f2a698bf108fe6fad64a496103e1c88a520b1f",
+      "bytes": 42202,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0036_r.json.gz",
+      "sha256": "9b5454e38bd5be31edef9781104bdfaddc223928a3e7e4949638a78baa4b40a8",
+      "bytes": 15377,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0037_r.json.gz",
+      "sha256": "a26555bf16d5034812fddc72d924c5d410d366e443fce0abac837d708c622615",
+      "bytes": 28876,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0038_r.json.gz",
+      "sha256": "aa55708dbeff11c4e57d25be0be67f7e0b0f1ff787afa17bed28893120358080",
+      "bytes": 15399,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0039_r.json.gz",
+      "sha256": "9204e67bf5ca612e2d4be29ef302d8375bf43f864927190412a82910ec51cde1",
+      "bytes": 2603,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0040_r.json.gz",
+      "sha256": "30d3708c90b28b244b5f0988cbc9355e75f9c0733219b999f9d119af988b5bf2",
+      "bytes": 28746,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0041_r.json.gz",
+      "sha256": "ac2f98735abb581027ef94a0c2ec9a4476db541dacb08bd1b0a4eac087e505af",
+      "bytes": 28781,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0042_r.json.gz",
+      "sha256": "c8f012d4f79ade00a4762f9306e747f9241b8f13067ca1bd61dd7996fe4253ff",
+      "bytes": 2608,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0043_r.json.gz",
+      "sha256": "85c69f8bfafb52697073e49d2830be30fe97539b5ad03d9d06f709b16cdb8692",
+      "bytes": 28820,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0044_r.json.gz",
+      "sha256": "ab55195ab8a33c9d3465968448de876ed5b28a8c29bf97582fc0ce2eb7614f16",
+      "bytes": 15374,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0045_r.json.gz",
+      "sha256": "569a639fdd117c1bee1f2e5b4158238bf77be7cd1710bf2373343b273a49f916",
+      "bytes": 2603,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0046_r.json.gz",
+      "sha256": "5d2d48200782ecbb999685f1535a23fa9af2a98a24ef38fb8352a3f902fbdf16",
+      "bytes": 28851,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0047_r.json.gz",
+      "sha256": "b50ceb13b6cf18a6b3466c127ce2f2686ca7171f3de8148ee2a0bc2b346fb84e",
+      "bytes": 15327,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0048_r.json.gz",
+      "sha256": "5c90338045c88ed774562f167502b4de832d689b035db92b8b6e77d3b8def42a",
+      "bytes": 28684,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0049_r.json.gz",
+      "sha256": "b55bf9032e5f26a24ce61a0c7bfb4816f9f6551112bab0f21c315380afaf02d6",
+      "bytes": 28741,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0050_r.json.gz",
+      "sha256": "ebab7fc53712bfafad027ffa49413d2d289337d77f5bbc546f0827a43fdeeebe",
+      "bytes": 15376,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0051_r.json.gz",
+      "sha256": "ab67e4d04cd6259b4261825ad825a5e95a5acdb98877bc3e8131fa0aa17b478b",
+      "bytes": 2586,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0052_r.json.gz",
+      "sha256": "b97830d5d0124f99ade670e3f0197b0c54a7a53bcd8f2c5b3eaaa29099f6e5e7",
+      "bytes": 28848,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0053_r.json.gz",
+      "sha256": "b484983da45e2c09258b0ba5b6aef1850ed062a9d3a70dc7ac2c3701d6e1f1bb",
+      "bytes": 15335,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0054_r.json.gz",
+      "sha256": "cd30b25d9566657f7fcda9850bbd1518bea9406c57e7d628a3a3263213dab1bd",
+      "bytes": 29672,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0055_r.json.gz",
+      "sha256": "0fc5782117a2a03b35af42af93c12495be56a083c1f45e3a5ac0d0f014353ad3",
+      "bytes": 28777,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0056_r.json.gz",
+      "sha256": "1758d3e85566b8a99f61b24824afb10bef85efd72a460bd8db24fe0e3c1fe30d",
+      "bytes": 15354,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0057_r.json.gz",
+      "sha256": "0986f61af432573720dc1c420c3a1547820868c8f89204960ac8092cd2f526c2",
+      "bytes": 2593,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0058_r.json.gz",
+      "sha256": "7d6890a536c2163441ae5c38bb02fb7a345605812b9708e6cbd73360ef2c5758",
+      "bytes": 28804,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0059_r.json.gz",
+      "sha256": "bcafa87bb026f5966cfc95b40c265cba6814e2b527bacaa0649bc9809e054e21",
+      "bytes": 15384,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0060_r.json.gz",
+      "sha256": "cd53891a42ec337ebd68948323bce0255493fadfddcf8730ebb2dd987199b612",
+      "bytes": 2609,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0061_r.json.gz",
+      "sha256": "123b894c354f99fb87bc37c3521ac8bd2f838d2bcb9f7dd2a6aa41c0876a8d59",
+      "bytes": 16215,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0062_r.json.gz",
+      "sha256": "f1a172b561a7be4209279c584a9c8f56e9b78154b4881d9b3c3e70ed08cfa241",
+      "bytes": 42223,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0063_r.json.gz",
+      "sha256": "b807b76cd0d28f4b1db5f7d8b2584672a8169e8bf9f612c4bc233d3ff8f353c3",
+      "bytes": 15332,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0064_r.json.gz",
+      "sha256": "6a8b782200e5beb1cc1ee7d9e794fd62e917980383710d28bfd6f14916f53bc0",
+      "bytes": 28782,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0065_r.json.gz",
+      "sha256": "af588481d0085bb17317d7d5cd8c106e211c87466b2174b81e8110ebbe83a6f6",
+      "bytes": 15332,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0066_r.json.gz",
+      "sha256": "05ffebc88d74ebdaaf527625b0f0305ceb7ffdebdcfc4e46fc99e87f94af191c",
+      "bytes": 16261,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0067_r.json.gz",
+      "sha256": "7226e57bdb509ced4bb79d54a9ac62f117a88252095485d1343e02ebcaf7cc42",
+      "bytes": 28916,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0068_r.json.gz",
+      "sha256": "56252cfe14c28c46514b415b74bc1db3b48f2af15ff8531fe55400d9e2c48352",
+      "bytes": 2563,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0069_r.json.gz",
+      "sha256": "373b0941a2deafbb522d2f91ad66920fcfaddb96144abf695bc41bfed46546d4",
+      "bytes": 28834,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0070_r.json.gz",
+      "sha256": "8469dfc7f55ba5d74bf23ee9375a7803031c7b8a7975bb8103076228cda582a8",
+      "bytes": 15350,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0071_r.json.gz",
+      "sha256": "a2fe954254378c9e5633dce857b6dad40d6389035e1670369e7b3d5c4013ef66",
+      "bytes": 28849,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0072_r.json.gz",
+      "sha256": "950076b94431d2464fcf2f739876a1177af8f20086db59b34ca5f7d7a429a732",
+      "bytes": 28801,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0073_r.json.gz",
+      "sha256": "dfc6ff882c14d58e2b1e5f68eec5341321f2eb638118c2cd3d359fac43389713",
+      "bytes": 2598,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0074_r.json.gz",
+      "sha256": "cce0e4fe8013449ad07920ca93f167ce3d8a9d6889894a37aa8f8f23decf135a",
+      "bytes": 28762,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0075_r.json.gz",
+      "sha256": "26a4e6f6ba325f00dfc0b5e6ef7c6e6081f3fa5afbbd12497234b2eee96f1ae6",
+      "bytes": 15364,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0076_r.json.gz",
+      "sha256": "4f604a5ed91711d67314e7e4394cc296b6e56730fe216bfff49a4dacc8eb2303",
+      "bytes": 28842,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0077_r.json.gz",
+      "sha256": "58fd7711a94cd5858334b1ffe1dd67b50b925d39adfddbc07d86602511e2bd17",
+      "bytes": 42278,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0078_r.json.gz",
+      "sha256": "4addcdc324a62eb8e3fdef42f6037c258fe87fde4621747e7a4bb76987cc3286",
+      "bytes": 28796,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0079_r.json.gz",
+      "sha256": "42820c5618cb5b3b2928b99697fb908c351c933652106dc51fe82912da7f4e14",
+      "bytes": 15301,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0080_r.json.gz",
+      "sha256": "8767b16011cfab5292f85b6e30f575829ef6f9f6173fe6a52278646bac9bd404",
+      "bytes": 28801,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0081_r.json.gz",
+      "sha256": "80421cabf993fd2741d99d63ea663a762925df1c0912458136752efdf86c3d54",
+      "bytes": 28807,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0082_r.json.gz",
+      "sha256": "3b17f053728e9d10fd98d7814b2b8bf99dd58ad7c2854e467a834ae5081254d3",
+      "bytes": 28792,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0083_r.json.gz",
+      "sha256": "57feb434b8cfff886c6ae534544bd51272b8f7680f44948134a15fc69d77be2b",
+      "bytes": 15314,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0084_r.json.gz",
+      "sha256": "2e2e9564a6dac1a99d618266f5d1898da76e6f51c61befd5bbd06837b952eb2f",
+      "bytes": 28874,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0085_r.json.gz",
+      "sha256": "1e4c9a112a46ff3ababfa6a14b137f1ad6b5682c66d8074d1b609bafbe67fd2f",
+      "bytes": 28775,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0086_r.json.gz",
+      "sha256": "5185fcabcc8bcd82a5ea68f07364258bded6d513c1b5689e4c593c2589d1f6ef",
+      "bytes": 28786,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0087_r.json.gz",
+      "sha256": "9daa02e41e5fbfd8c5b751121cd648afd046fe0818da34b0d69addf9db450443",
+      "bytes": 15346,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0088_r.json.gz",
+      "sha256": "bb72dd86b99db219268254afb85c468784fd1ecf7def30f089c82905f8a6c408",
+      "bytes": 28803,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0089_r.json.gz",
+      "sha256": "fe284912837fa264a2cc4d7ec1d2d2a62334ff9fdb0e6ad8a4b96046aeec287a",
+      "bytes": 2612,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0090_r.json.gz",
+      "sha256": "3cda78d0595a7d8d52fed71ae5b9034dd91ec85a34bd383993ce2550069132e7",
+      "bytes": 42193,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0091_r.json.gz",
+      "sha256": "658a02dfe37577c6267c5c6b3e427f154c4836b2e895589cd2053005b6cd0314",
+      "bytes": 28815,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0092_r.json.gz",
+      "sha256": "7645f784ba6b4b218de3e36938f2d663ba4317793c62e0aa9885834820961833",
+      "bytes": 15340,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0093_r.json.gz",
+      "sha256": "3e941f7e18978be6fdb5037c61b2be41c5aa487ee81ae7af0a83f1838a612b5e",
+      "bytes": 28753,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0094_r.json.gz",
+      "sha256": "a7c45c569c72dde7690b14bcefd38c97ba296b4fe57eeb71fecdca55bdb4f055",
+      "bytes": 2615,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0095_r.json.gz",
+      "sha256": "3df57fa8042021dff998f8508074535ae76a9de22806fa37b81df217774b0606",
+      "bytes": 42129,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0096_r.json.gz",
+      "sha256": "200a45f18d8cadb46b74b08daac165838e13cdf7b4eefc280d9b92369d8353b1",
+      "bytes": 28813,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0097_r.json.gz",
+      "sha256": "b9c66069b6f98af9b8674adfbe17208d4f1406c8fdbe53bd2bdeeb1d79bbc376",
+      "bytes": 15222,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0098_r.json.gz",
+      "sha256": "cb9dc350e69b7ca2e9d6403caecbec87912a180c4bdd9abdd0cf98bcd6adf5f3",
+      "bytes": 28747,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0099_r.json.gz",
+      "sha256": "1736afa3b965b00e8ea76fd0d58cac532ec855fbc09ee7035e27755584475e1a",
+      "bytes": 15337,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0100_r.json.gz",
+      "sha256": "ed7affe5220db14c31143fbfc5c897b405c375adc2c9b6d91ba10539073e0cfc",
+      "bytes": 28737,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0101_r.json.gz",
+      "sha256": "bf6ae665e40f2dd8bd1dc3b14b1ce7659911a15fab517a8161bb36c8006a8a8b",
+      "bytes": 28666,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_cubic_cap_prefix_0001.json.gz",
+      "sha256": "3672a7c442501d0f34691859ad0b48382a3d4487b5fd715bde2bdaf930abc611",
+      "bytes": 55963
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward000_turn_domain.json",
+      "sha256": "634b536b43655551197c080e832ba5164265184520cd923010ce98c5af80c639",
+      "bytes": 118544,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward001_turn_domain.json",
+      "sha256": "ce09b230a2f1327619879aeffd96e1f4bdef8f058241fa59f3092da7c89f1fee",
+      "bytes": 118526,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward002_turn_domain.json",
+      "sha256": "6df63f236421a493af2aa4e83a5df08ec8956bc10e44ca91afd311525b508202",
+      "bytes": 118520,
+      "roles": [
+        "domain_certificate"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "bytes": 1638,
+      "roles": [
+        "target_object"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_root_tight.json",
+      "sha256": "489268d254c2a9454ccbee32a4821d9bf577279490f76c9cc6f8d902a5e64e0b",
+      "bytes": 12640,
+      "roles": [
+        "target_root"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_checkpoint_0001.json.gz",
+      "sha256": "326c90b58d7b6f51ee8de2e2a1255a2f0013d22b8a4ecccbf607ccc8ab9b5e23",
+      "bytes": 11507,
+      "roles": [
+        "immutable_cover_index_snapshot"
+      ]
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_closure_0001.json.gz",
+      "sha256": "0d77698688e6f08b7e423eff8e558d40291a2891c35cf22fb3570e5a33d9a57f",
+      "bytes": 8379
+    },
+    {
+      "path": "notes/2026-11-12-exact-germ-matching-and-cubic-caps.md",
+      "sha256": "bb9a14f2d54db722c3505b5d36bb7422995a74465c20ce0888382b4d438b6752",
+      "bytes": 10948
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_affine.py",
+      "sha256": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "bytes": 14806,
+      "roles": [
+        "proved_domain_dependency"
+      ]
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_bulk_interval.py",
+      "sha256": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "bytes": 18392,
+      "roles": [
+        "proved_domain_dependency"
+      ]
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_interval.py",
+      "sha256": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "bytes": 30343,
+      "roles": [
+        "proved_domain_dependency"
+      ]
+    },
+    {
+      "path": "scripts/fourfold_phase_domain_cover_verify.py",
+      "sha256": "e5a72892272dd32eb30588997b3fc85ac5efeb2551067af900e2d4d1a1490c57",
+      "bytes": 15505
+    },
+    {
+      "path": "scripts/fourfold_phase_field_time_germ_union.py",
+      "sha256": "53704f95997e92eca13b74e9466c8ccb60a0ce04c4360e91b23eef9b10c712b5",
+      "bytes": 17759,
+      "roles": [
+        "proved_domain_dependency"
+      ]
+    },
+    {
+      "path": "scripts/fourfold_phase_field_time_refined_root.py",
+      "sha256": "7969b0dcf5ff43babe762dfdbb00836f4b4c3173965f923525ca64ab43886d79",
+      "bytes": 15695,
+      "roles": [
+        "proved_domain_dependency"
+      ]
+    },
+    {
+      "path": "scripts/fourfold_phase_field_time_turn_collar.py",
+      "sha256": "4c925c5478eb5355eec750112d0c3496642d3111ca97583559e4a7f6e46d6536",
+      "bytes": 26214,
+      "roles": [
+        "proved_domain_dependency"
+      ]
+    },
+    {
+      "path": "scripts/fourfold_phase_full_angle_sine_domain.py",
+      "sha256": "b7b05da28d63c186b4cfbefb09de1f96c6e82f98ed9146f7358ac31ad5bddd3a",
+      "bytes": 14145,
+      "roles": [
+        "proved_domain_dependency",
+        "proved_domain_source"
+      ]
+    },
+    {
+      "path": "scripts/fourfold_phase_full_angle_time_domain.py",
+      "sha256": "d681614326efacb0c256037d2c7e995eb895d8f77ce4281720f44c76a896548e",
+      "bytes": 15601,
+      "roles": [
+        "proved_domain_dependency"
+      ]
+    },
+    {
+      "path": "scripts/fourfold_phase_germ_cap_budget.py",
+      "sha256": "1cc6500668e9e413b86618724f16b30d621545779caa926b7ab25d8f42f1b27f",
+      "bytes": 8983
+    },
+    {
+      "path": "scripts/fourfold_phase_sharp_time_domain_cover.py",
+      "sha256": "582d97cf2a14b7d45050770527acf97a3bde1cfda565df4f29dc309633950ba3",
+      "bytes": 21560,
+      "roles": [
+        "proved_domain_source"
+      ]
+    },
+    {
+      "path": "scripts/fourfold_phase_sine_time_geometry.py",
+      "sha256": "c369f202fed14a6951b44cfaf3e3890841814c15040f0d15773d2bc61b189efa",
+      "bytes": 9187,
+      "roles": [
+        "proved_domain_dependency"
+      ]
+    },
+    {
+      "path": "scripts/fourfold_phase_time_outer_taylor_gate.py",
+      "sha256": "dedbda9a689fcb49642aca4bd69cfbcdc502d71836b2480968606e74d40051a4",
+      "bytes": 30215,
+      "roles": [
+        "proved_domain_dependency"
+      ]
+    },
+    {
+      "path": "scripts/fourfold_phase_uniform_field_time_grid.py",
+      "sha256": "7c5b0f94aa4e4008b23c1e30443454ad21d3885206206dddcbb7a834e1451c32",
+      "bytes": 10066,
+      "roles": [
+        "proved_domain_dependency"
+      ]
+    },
+    {
+      "path": "scripts/fourfold_phase_uniform_field_time_grid_fast.py",
+      "sha256": "30655319d9172b0ac8de857f24329d944f5ec9d87b08ee283ee0292f90159aa8",
+      "bytes": 8962,
+      "roles": [
+        "proved_domain_dependency"
+      ]
+    }
+  ],
+  "checked_domain_scope": "Forward reference segments0..101 only; 102 leaves;142 direct germ certificates;21 inherited links",
+  "cap_scope": "58 nonturn adjacent crossing pairs; conditional total before dividing by real-cap q lower bound <2.108799e-36",
+  "remaining_conditions": [
+    "Same analytic reference Y maps the complete local complex time disk and complete label strip into the listed field angle strip",
+    "A proved nonzero q=Y_x lower bound on each real cap and complete complex label strip",
+    "Every time case after forward101 remains outside this frozen prefix"
+  ],
+  "replay": [
+    "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/fourfold_phase_domain_cover_verify.py --index data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_checkpoint_0001.json.gz --snapshot data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_checkpoint_0001.json.gz --out data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_closure_0001.json.gz",
+    "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/fourfold_phase_germ_cap_budget.py --index data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_checkpoint_0001.json.gz --out data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_cubic_cap_prefix_0001.json.gz"
+  ],
+  "excluded_live_index": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_full.json.gz"
+}

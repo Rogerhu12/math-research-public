@@ -1,0 +1,82 @@
+{
+  "kind": "R128_actual_R127_waist_annulus_embedding_budget",
+  "proved": true,
+  "embedding_certified": true,
+  "closed_surface_complete": false,
+  "source_sha256": "0b60614602662f74195c27fe36adbd9d985f2921070ea13597e156342918f767",
+  "input_certificate_path": "notes/2026-11-13-Codazzi-continuation-r001-v3-native.json",
+  "input_certificate_sha256": "0f7aa2f4e9a1df567b209cd873f2af5f6428feafc01a9613fc75a46259fb75eb",
+  "original_identities": {
+    "source_sha256": "ea61a2d27273352b65951900359301df41e9a29a2a9c2ef62836809de4981acc",
+    "coefficient_provider_sha256": "4a37d58640b54b091fab9bfd677b55e3392c30405d08073a2ad90f13205cf9f1",
+    "candidate_sha256": "a3e43fc8ee7ab8b6a0e080edccb107ac1e2d92634b0325783f7a99711cf6842f",
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848"
+  },
+  "certified_positive_interval": [
+    "0",
+    "1/1000"
+  ],
+  "reflected_embedded_annulus": [
+    "-1/1000",
+    "1/1000"
+  ],
+  "parameter_half_width": "1/1000000000",
+  "exact_center_parameter": {
+    "numerator": "-7789843107295549",
+    "denominator": "4611686018427387904"
+  },
+  "whole_affine_parameter_interval": true,
+  "whole_real_angular_circle": true,
+  "arithmetic": "192-bit directed Arb to consume certified endpoints, then Python Fraction exact rational inequalities",
+  "gates": {
+    "actual_Riemann_amplitude": true,
+    "actual_Riemann_gap": true,
+    "target_k_upper": true,
+    "target_sqrtE_upper": true,
+    "target_sqrtE_lower": true,
+    "target_a_lower": true,
+    "actual_A_bound": true,
+    "actual_B_bound": true,
+    "actual_C_bound": true,
+    "Y_radial_rate": true,
+    "normal_radial_rate": true,
+    "X_radial_rate": true,
+    "initial_radius_from_R123": true,
+    "nonzero_horizontal_radius": true,
+    "fixed_r_argument_derivative": true,
+    "cylindrical_Jacobian": true,
+    "positive_height_derivative": true
+  },
+  "exact_values": {
+    "radial_half_width": "1/1000",
+    "Riemann_amplitude": "2737/1000",
+    "Riemann_gap_lower": "41/250",
+    "target_k_upper": "463/500",
+    "sqrtE_upper": "111/100",
+    "waist_radius_upper": "13/10",
+    "waist_support_lower": "1/2",
+    "A_absolute_upper": "85",
+    "B_absolute_upper": "31",
+    "C_absolute_upper": "12",
+    "X_radial_rate_upper": "95",
+    "Y_radial_rate_upper": "35",
+    "normal_radial_rate_upper": "101",
+    "displacement_from_initial_curve": "111/100000",
+    "horizontal_radius_upper": "130111/100000",
+    "horizontal_radius_lower": "49889/100000",
+    "planar_angular_numerator_lower": "45339/100000",
+    "horizontal_support_lower": "36759/100000",
+    "Xz_lower": "79639/80000",
+    "argument_theta_lower": "1/4",
+    "cylindrical_Jacobian_lower": "1/5"
+  },
+  "used_geometric_theorems": {
+    "R123-separated-correction-budgets-and-normal-Hessian.md": "f8d7c55d62e5ae0a0bc029281c97347b0c9cd61f973268ff7a0780a7fed953dd",
+    "R126-exact-Codazzi-reconstruction-and-continuation.md": "dcca5ad0aab420426a8e00b9220c88ac7b298d934a6574a3636e167311bdb562"
+  },
+  "limitations": [
+    "This proves embedding only for the actual R127 branch on the stated annulus, using the R128 theorem.",
+    "The auxiliary parameter changes the target metric; no common-metric flex family is claimed.",
+    "No cap attachment, global closed surface, visible displacement or closed-surface reach is proved here."
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "kind": "actual_physical_fourier_high_positive_body_coercivity",
+  "proved": true,
+  "source_sha256": "d8054eae1058676efff6551155ed884b47271859487ab746e531f6bc5a380f54",
+  "bits": 256,
+  "dependencies": {
+    "fourfold_phase_closed_approximate_exterior.py": "1adee5390fec66ab0baec5941ff892b4123d0ea0ffdbf8d382c06c968ae55a68",
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f"
+  },
+  "input_sha256": {
+    "notes/2026-11-12-actual-closed-approximate-exterior.json": "2d9dd3fec38a1f6b75bd41d858f9ef2cd0b7205a57ad9a5f6ee66996404aebbf",
+    "notes/2026-11-12-actual-exterior-robin-certificate.json": "c5645727cf5a382bb45aa002f36eafe80cdd7c17ffdc56f7bbec2e224684c958",
+    "notes/2026-11-12-common-core-exterior-parameter-interval.json": "23d1062d080cd875e69a32ba76f45080990a9d41c29094eb3e00ad01d7593af0"
+  },
+  "exact_source_cell_hashes": {
+    "data/phase_ring_continuation/type_fixed_step02_d5_affine_core_interval.json": "278bf0e855f9b4a8bfebb37ff1564659c874f143b394bbb81503a228910dbf51",
+    "notes/2026-11-12-positive-family-root-collar.json": "f796e89e61f45ffba22c2aa2ab145a40ec4a80fe39abe30bc797dc0b06b966cc",
+    "notes/2026-11-12-positive-family-outer-quarter-to-one.json.gz": "1edd27337e9c3819c770501683e160395956a68cc35c2cb09e98190ba4477e15",
+    "notes/2026-11-12-positive-family-outer-one-to-three.json.gz": "5e2cbd5396746bf8c41acf834b52b5ff37bc86b9d0500de6b2f1ff032ca6f6f4",
+    "notes/2026-11-12-positive-family-natural-graft.json": "d56b7229439ade268b647f17a10f84ba662e02bcb9597f983d2c604fe765fa27"
+  },
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "exact_parameter_interval": [
+    "-608725607945540621497/360287970189639680000000",
+    "-608437377569388909753/360287970189639680000000"
+  ],
+  "actual_cells": 1423,
+  "exact_positive_cover": [
+    "4294576261720125/18014398509481984",
+    "25/8"
+  ],
+  "physical_density_measure": "dr dtheta; x=r-t(delta); no shear/Jacobian normalization",
+  "physical_normal_coefficient_lower": {
+    "ball": "[0.024008017849891746808843606686423300 +/- 1.66e-37]",
+    "lower": "[0.024008017849891746808843606686423300 +/- 1.66e-37]",
+    "upper": "[0.024008017849891746808843606686423300 +/- 1.66e-37]",
+    "mid_float": 0.024008017849891747,
+    "radius_upper_float": 0.0
+  },
+  "physical_drift_theta_upper": {
+    "ball": "[21.021821601524713685194001300260425 +/- 3.87e-34]",
+    "lower": "[21.021821601524713685194001300260425 +/- 3.87e-34]",
+    "upper": "[21.021821601524713685194001300260425 +/- 3.87e-34]",
+    "mid_float": 21.021821601524714,
+    "radius_upper_float": 0.0
+  },
+  "length_lower": {
+    "ball": "[2.8866031248790358643141473748983117 +/- 1.80e-35]",
+    "lower": "[2.8866031248790358643141473748983117 +/- 1.80e-35]",
+    "upper": "[2.8866031248790358643141473748983117 +/- 1.80e-35]",
+    "mid_float": 2.886603124879036,
+    "radius_upper_float": 0.0
+  },
+  "half_density_transport_mass_fee": {
+    "ball": "[662.87547516949661724716769790545485 +/- 2.53e-33]",
+    "lower": "[662.87547516949661724716769790545485 +/- 2.53e-33]",
+    "upper": "[662.87547516949661724716769790545485 +/- 2.53e-33]",
+    "mid_float": 662.8754751694967,
+    "radius_upper_float": 0.0
+  },
+  "first_sufficient_N": 32,
+  "cutoff_table": [
+    {
+      "N": 0,
+      "first_retained_physical_frequency": 4,
+      "finite_interval_length_gate": true,
+      "compressed_L2_coercivity": {
+        "ball": "[-5.2539616096541300997624984622135411 +/- 1.30e-35]",
+        "lower": "[-5.2539616096541300997624984622135411 +/- 1.30e-35]",
+        "upper": "[-5.2539616096541300997624984622135411 +/- 1.30e-35]",
+        "mid_float": -5.25396160965413,
+        "radius_upper_float": 0.0
+      },
+      "proved_positive": false
+    },
+    {
+      "N": 4,
+      "first_retained_physical_frequency": 20,
+      "finite_interval_length_gate": true,
+      "compressed_L2_coercivity": {
+        "ball": "[-4.8703235027664418668263300379770679 +/- 2.86e-35]",
+        "lower": "[-4.8703235027664418668263300379770679 +/- 2.86e-35]",
+        "upper": "[-4.8703235027664418668263300379770679 +/- 2.86e-35]",
+        "mid_float": -4.870323502766442,
+        "radius_upper_float": 0.0
+      },
+      "proved_positive": false
+    },
+    {
+      "N": 8,
+      "first_retained_physical_frequency": 36,
+      "finite_interval_length_gate": true,
+      "compressed_L2_coercivity": {
+        "ball": "[-4.3535026734088423065460709409105474 +/- 3.80e-35]",
+        "lower": "[-4.3535026734088423065460709409105474 +/- 3.80e-35]",
+        "upper": "[-4.3535026734088423065460709409105474 +/- 3.80e-35]",
+        "mid_float": -4.353502673408842,
+        "radius_upper_float": 0.0
+      },
+      "proved_positive": false
+    },
+    {
+      "N": 16,
+      "first_retained_physical_frequency": 68,
+      "finite_interval_length_gate": true,
+      "compressed_L2_coercivity": {
+        "ball": "[-3.0836132463790921099953927240977340 +/- 4.44e-35]",
+        "lower": "[-3.0836132463790921099953927240977340 +/- 4.44e-35]",
+        "upper": "[-3.0836132463790921099953927240977340 +/- 4.44e-35]",
+        "mid_float": -3.083613246379092,
+        "radius_upper_float": 0.0
+      },
+      "proved_positive": false
+    },
+    {
+      "N": 32,
+      "first_retained_physical_frequency": 132,
+      "finite_interval_length_gate": true,
+      "compressed_L2_coercivity": {
+        "ball": "[0.073796242404074620244376380890998129 +/- 1.10e-37]",
+        "lower": "[0.073796242404074620244376380890998129 +/- 1.10e-37]",
+        "upper": "[0.073796242404074620244376380890998129 +/- 1.10e-37]",
+        "mid_float": 0.07379624240407462,
+        "radius_upper_float": 0.0
+      },
+      "proved_positive": true,
+      "L2_source_to_L2_inverse": {
+        "ball": "[13.550825454288788181929763612102771 +/- 3.53e-34]",
+        "lower": "[13.550825454288788181929763612102771 +/- 3.53e-34]",
+        "upper": "[13.550825454288788181929763612102771 +/- 3.53e-34]",
+        "mid_float": 13.550825454288788,
+        "radius_upper_float": 0.0
+      },
+      "L2_source_to_energy_inverse": {
+        "ball": "[3.6811445848117387118189384157910193 +/- 3.52e-35]",
+        "lower": "[3.6811445848117387118189384157910193 +/- 3.52e-35]",
+        "upper": "[3.6811445848117387118189384157910193 +/- 3.52e-35]",
+        "mid_float": 3.681144584811739,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "N": 64,
+      "first_retained_physical_frequency": 260,
+      "finite_interval_length_gate": true,
+      "compressed_L2_coercivity": {
+        "ball": "[7.9752686049085044034143074056817380 +/- 4.27e-35]",
+        "lower": "[7.9752686049085044034143074056817380 +/- 4.27e-35]",
+        "upper": "[7.9752686049085044034143074056817380 +/- 4.27e-35]",
+        "mid_float": 7.975268604908504,
+        "radius_upper_float": 0.0
+      },
+      "proved_positive": true,
+      "L2_source_to_L2_inverse": {
+        "ball": "[0.12538762636590500335616124324167635 +/- 4.00e-36]",
+        "lower": "[0.12538762636590500335616124324167635 +/- 4.00e-36]",
+        "upper": "[0.12538762636590500335616124324167635 +/- 4.00e-36]",
+        "mid_float": 0.125387626365905,
+        "radius_upper_float": 0.0
+      },
+      "L2_source_to_energy_inverse": {
+        "ball": "[0.35410115273168061709780136186207174 +/- 1.51e-36]",
+        "lower": "[0.35410115273168061709780136186207174 +/- 1.51e-36]",
+        "upper": "[0.35410115273168061709780136186207174 +/- 1.51e-36]",
+        "mid_float": 0.35410115273168064,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "N": 128,
+      "first_retained_physical_frequency": 516,
+      "finite_interval_length_gate": true,
+      "compressed_L2_coercivity": {
+        "ball": "[27.816062812882774045946241328471481 +/- 4.45e-34]",
+        "lower": "[27.816062812882774045946241328471481 +/- 4.45e-34]",
+        "upper": "[27.816062812882774045946241328471481 +/- 4.45e-34]",
+        "mid_float": 27.816062812882773,
+        "radius_upper_float": 0.0
+      },
+      "proved_positive": true,
+      "L2_source_to_L2_inverse": {
+        "ball": "[0.035950450886128228916139857132178184 +/- 3.36e-37]",
+        "lower": "[0.035950450886128228916139857132178184 +/- 3.36e-37]",
+        "upper": "[0.035950450886128228916139857132178184 +/- 3.36e-37]",
+        "mid_float": 0.03595045088612823,
+        "radius_upper_float": 0.0
+      },
+      "L2_source_to_energy_inverse": {
+        "ball": "[0.18960604127012469461131912588512875 +/- 4.74e-36]",
+        "lower": "[0.18960604127012469461131912588512875 +/- 4.74e-36]",
+        "upper": "[0.18960604127012469461131912588512875 +/- 4.74e-36]",
+        "mid_float": 0.1896060412701247,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "N": 256,
+      "first_retained_physical_frequency": 1028,
+      "finite_interval_length_gate": true,
+      "compressed_L2_coercivity": {
+        "ball": "[77.723471874876789942236442956451158 +/- 1.32e-35]",
+        "lower": "[77.723471874876789942236442956451158 +/- 1.32e-35]",
+        "upper": "[77.723471874876789942236442956451158 +/- 1.32e-35]",
+        "mid_float": 77.7234718748768,
+        "radius_upper_float": 0.0
+      },
+      "proved_positive": true,
+      "L2_source_to_L2_inverse": {
+        "ball": "[0.012866126227735310314271939281779671 +/- 4.76e-37]",
+        "lower": "[0.012866126227735310314271939281779671 +/- 4.76e-37]",
+        "upper": "[0.012866126227735310314271939281779671 +/- 4.76e-37]",
+        "mid_float": 0.01286612622773531,
+        "radius_upper_float": 0.0
+      },
+      "L2_source_to_energy_inverse": {
+        "ball": "[0.11342894792659989365714810151742615 +/- 3.09e-36]",
+        "lower": "[0.11342894792659989365714810151742615 +/- 3.09e-36]",
+        "upper": "[0.11342894792659989365714810151742615 +/- 3.09e-36]",
+        "mid_float": 0.1134289479265999,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "N": 512,
+      "first_retained_physical_frequency": 2052,
+      "finite_interval_length_gate": true,
+      "compressed_L2_coercivity": {
+        "ball": "[203.37075489362167261376870595721761 +/- 9.24e-34]",
+        "lower": "[203.37075489362167261376870595721761 +/- 9.24e-34]",
+        "upper": "[203.37075489362167261376870595721761 +/- 9.24e-34]",
+        "mid_float": 203.37075489362167,
+        "radius_upper_float": 0.0
+      },
+      "proved_positive": true,
+      "L2_source_to_L2_inverse": {
+        "ball": "[0.0049171278364142171512419410883136740 +/- 3.17e-38]",
+        "lower": "[0.0049171278364142171512419410883136740 +/- 3.17e-38]",
+        "upper": "[0.0049171278364142171512419410883136740 +/- 3.17e-38]",
+        "mid_float": 0.004917127836414217,
+        "radius_upper_float": 0.0
+      },
+      "L2_source_to_energy_inverse": {
+        "ball": "[0.070122234964483392107942021900439133 +/- 4.36e-37]",
+        "lower": "[0.070122234964483392107942021900439133 +/- 4.36e-37]",
+        "upper": "[0.070122234964483392107942021900439133 +/- 4.36e-37]",
+        "mid_float": 0.07012223496448339,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "N": 1024,
+      "first_retained_physical_frequency": 4100,
+      "finite_interval_length_gate": true,
+      "compressed_L2_coercivity": {
+        "ball": "[519.84138304419928627908800573584423 +/- 2.18e-33]",
+        "lower": "[519.84138304419928627908800573584423 +/- 2.18e-33]",
+        "upper": "[519.84138304419928627908800573584423 +/- 2.18e-33]",
+        "mid_float": 519.8413830441992,
+        "radius_upper_float": 0.0
+      },
+      "proved_positive": true,
+      "L2_source_to_L2_inverse": {
+        "ball": "[0.0019236637032319057162791566524431958 +/- 2.82e-38]",
+        "lower": "[0.0019236637032319057162791566524431958 +/- 2.82e-38]",
+        "upper": "[0.0019236637032319057162791566524431958 +/- 2.82e-38]",
+        "mid_float": 0.0019236637032319058,
+        "radius_upper_float": 0.0
+      },
+      "L2_source_to_energy_inverse": {
+        "ball": "[0.043859590778208427286607106365434970 +/- 1.26e-37]",
+        "lower": "[0.043859590778208427286607106365434970 +/- 1.26e-37]",
+        "upper": "[0.043859590778208427286607106365434970 +/- 1.26e-37]",
+        "mid_float": 0.043859590778208425,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "N": 2048,
+      "first_retained_physical_frequency": 8196,
+      "finite_interval_length_gate": true,
+      "compressed_L2_coercivity": {
+        "ball": "[1317.1200197619145349654447439060423 +/- 2.21e-32]",
+        "lower": "[1317.1200197619145349654447439060423 +/- 2.21e-32]",
+        "upper": "[1317.1200197619145349654447439060423 +/- 2.21e-32]",
+        "mid_float": 1317.1200197619146,
+        "radius_upper_float": 0.0
+      },
+      "proved_positive": true,
+      "L2_source_to_L2_inverse": {
+        "ball": "[0.00075923225294287316657075567132770046 +/- 1.40e-39]",
+        "lower": "[0.00075923225294287316657075567132770046 +/- 1.40e-39]",
+        "upper": "[0.00075923225294287316657075567132770046 +/- 1.40e-39]",
+        "mid_float": 0.0007592322529428731,
+        "radius_upper_float": 0.0
+      },
+      "L2_source_to_energy_inverse": {
+        "ball": "[0.027554169429378073100394100288786078 +/- 1.33e-37]",
+        "lower": "[0.027554169429378073100394100288786078 +/- 1.33e-37]",
+        "upper": "[0.027554169429378073100394100288786078 +/- 1.33e-37]",
+        "mid_float": 0.027554169429378075,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "N": 4096,
+      "first_retained_physical_frequency": 16388,
+      "finite_interval_length_gate": true,
+      "compressed_L2_coercivity": {
+        "ball": "[3325.9127371515755905302783263414849 +/- 5.18e-33]",
+        "lower": "[3325.9127371515755905302783263414849 +/- 5.18e-33]",
+        "upper": "[3325.9127371515755905302783263414849 +/- 5.18e-33]",
+        "mid_float": 3325.9127371515756,
+        "radius_upper_float": 0.0
+      },
+      "proved_positive": true,
+      "L2_source_to_L2_inverse": {
+        "ball": "[0.00030066934373522797169797831049566299 +/- 1.30e-39]",
+        "lower": "[0.00030066934373522797169797831049566299 +/- 1.30e-39]",
+        "upper": "[0.00030066934373522797169797831049566299 +/- 1.30e-39]",
+        "mid_float": 0.000300669343735228,
+        "radius_upper_float": 0.0
+      },
+      "L2_source_to_energy_inverse": {
+        "ball": "[0.017339819599269998509599413834722822 +/- 3.65e-37]",
+        "lower": "[0.017339819599269998509599413834722822 +/- 3.65e-37]",
+        "upper": "[0.017339819599269998509599413834722822 +/- 3.65e-37]",
+        "mid_float": 0.017339819599269998,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "N": 8192,
+      "first_retained_physical_frequency": 32772,
+      "finite_interval_length_gate": true,
+      "compressed_L2_coercivity": {
+        "ball": "[8387.4714834888634333805913514612677 +/- 5.00e-32]",
+        "lower": "[8387.4714834888634333805913514612677 +/- 5.00e-32]",
+        "upper": "[8387.4714834888634333805913514612677 +/- 5.00e-32]",
+        "mid_float": 8387.471483488864,
+        "radius_upper_float": 0.0
+      },
+      "proved_positive": true,
+      "L2_source_to_L2_inverse": {
+        "ball": "[0.00011922544261027266264378444894705548 +/- 3.34e-39]",
+        "lower": "[0.00011922544261027266264378444894705548 +/- 3.34e-39]",
+        "upper": "[0.00011922544261027266264378444894705548 +/- 3.34e-39]",
+        "mid_float": 0.00011922544261027266,
+        "radius_upper_float": 0.0
+      },
+      "L2_source_to_energy_inverse": {
+        "ball": "[0.010919040370393025643865715453450577 +/- 2.00e-37]",
+        "lower": "[0.010919040370393025643865715453450577 +/- 2.00e-37]",
+        "upper": "[0.010919040370393025643865715453450577 +/- 2.00e-37]",
+        "mid_float": 0.010919040370393025,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "N": 16384,
+      "first_retained_physical_frequency": 65540,
+      "finite_interval_length_gate": true,
+      "compressed_L2_coercivity": {
+        "ball": "[21141.445336481527760475463634306658 +/- 4.55e-31]",
+        "lower": "[21141.445336481527760475463634306658 +/- 4.55e-31]",
+        "upper": "[21141.445336481527760475463634306658 +/- 4.55e-31]",
+        "mid_float": 21141.445336481527,
+        "radius_upper_float": 0.0
+      },
+      "proved_positive": true,
+      "L2_source_to_L2_inverse": {
+        "ball": "[4.7300455767534829316212187769875404e-5 +/- 7.13e-41]",
+        "lower": "[4.7300455767534829316212187769875404e-5 +/- 7.13e-41]",
+        "upper": "[4.7300455767534829316212187769875404e-5 +/- 7.13e-41]",
+        "mid_float": 4.730045576753483e-05,
+        "radius_upper_float": 0.0
+      },
+      "L2_source_to_energy_inverse": {
+        "ball": "[0.0068775326802229612754208298461722556 +/- 4.87e-38]",
+        "lower": "[0.0068775326802229612754208298461722556 +/- 4.87e-38]",
+        "upper": "[0.0068775326802229612754208298461722556 +/- 4.87e-38]",
+        "mid_float": 0.006877532680222961,
+        "radius_upper_float": 0.0
+      }
+    }
+  ],
+  "extremal_cells": {
+    "physical_minimum": {
+      "path": "notes/2026-11-12-positive-family-outer-quarter-to-one.json.gz",
+      "exact_radial_interval": [
+        "4638707616191611/18014398509481984",
+        "1170935903116329/4503599627370496"
+      ]
+    },
+    "maximum_drift_theta": {
+      "path": "notes/2026-11-12-positive-family-root-collar.json",
+      "exact_radial_interval": [
+        "4298974358355363/18014398509481984",
+        "43027826846979359/180143985094819840"
+      ]
+    }
+  },
+  "formula": "kappa_N = m0/3 * ((4*(N+1))^(4/3) - 3*Q^2/2)",
+  "scope": [
+    "Actual physical-angle high subspace at every radial point; P_N need not commute with q.",
+    "True nonnegative full-tail Robin is included; the finite interval length condition is checked.",
+    "The same coercivity holds with homogeneous root Dirichlet constraint or on the natural form domain.",
+    "Both regular mean trace and mean flux remain in the complementary low system.",
+    "This is a compressed volume inverse, not a full cap DN or Airy reflection estimate.",
+    "Only residuals genuinely represented by L2 volume functions use the displayed inverse fee; boundary residuals require their actual trace fees."
+  ]
+}

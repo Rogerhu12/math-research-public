@@ -1,0 +1,291 @@
+{
+  "kind": "directed_true_infinite_exterior_finite_fourfold_Robin_entries",
+  "complete": true,
+  "source_sha256": "b536f82516a4073337023b91e3255ed0832abc9fa23b6b8727dcd58cc285154e",
+  "input_sha256": {
+    "notes/2026-11-12-positive-family-natural-graft.json": "d56b7229439ade268b647f17a10f84ba662e02bcb9597f983d2c604fe765fa27",
+    "notes/2026-11-12-actual-exterior-robin-certificate.json": "c5645727cf5a382bb45aa002f36eafe80cdd7c17ffdc56f7bbec2e224684c958",
+    "notes/2026-11-12-common-core-exterior-parameter-interval.json": "23d1062d080cd875e69a32ba76f45080990a9d41c29094eb3e00ad01d7593af0"
+  },
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "exact_parameter_interval": [
+    "-608725607945540621497/360287970189639680000000",
+    "-608437377569388909753/360287970189639680000000"
+  ],
+  "enclosing_exterior_parameter_interval": [
+    "-121752685431711260843/72057594037927936000000",
+    "-121680627837673332907/72057594037927936000000"
+  ],
+  "physical_regular_cut": "25/8",
+  "physical_angle": "theta, period 2*pi",
+  "fourfold_frequency_convention": "m=4*abs(k)",
+  "entrance": {
+    "a": {
+      "ball": "[6.56376579e-6 +/- 6.15e-15]",
+      "lower": "[6.5637657838556121079122959228232398e-6 +/- 9.01e-42]",
+      "upper": "[6.5637657921065756907561801285471564e-6 +/- 3.83e-41]",
+      "mid_float": 6.563765787981094e-06,
+      "radius_upper_float": 4.125481791421942e-15
+    },
+    "z": {
+      "ball": "[0.966198670 +/- 5.54e-10]",
+      "lower": "[0.96619867000224124551744308684158040 +/- 1.87e-36]",
+      "upper": "[0.96619867055301549724461384735911833 +/- 4.05e-37]",
+      "mid_float": 0.9661986702776284,
+      "radius_upper_float": 2.753871258635854e-10
+    },
+    "omega": {
+      "ball": "[1.46115286 +/- 5.26e-9]",
+      "lower": "[1.4611528609230575257577067205261301 +/- 1.58e-35]",
+      "upper": "[1.4611528652552492352906243766597072 +/- 4.62e-36]",
+      "mid_float": 1.4611528630891535,
+      "radius_upper_float": 2.166095854766459e-09
+    },
+    "A0": {
+      "ball": "[5.8446115 +/- 5.63e-8]",
+      "lower": "[5.8446114437368202779192802760354465 +/- 3.79e-35]",
+      "upper": "[5.8446114610655872270732533630854090 +/- 2.50e-35]",
+      "mid_float": 5.844611452401204,
+      "radius_upper_float": 8.664383474576987e-09
+    }
+  },
+  "all_nonzero_modes_normalized_true_tail_error": {
+    "ball": "[1.0060018564110063309805053692053052e-85170599 +/- 1.32e-85170634]",
+    "lower": "[1.0060018564110063309805053692053052e-85170599 +/- 1.32e-85170634]",
+    "upper": "[1.0060018564110063309805053692053052e-85170599 +/- 1.32e-85170634]",
+    "mid_float": 0.0,
+    "radius_upper_float": 0.0
+  },
+  "regular_mean": {
+    "form_value": "Gamma_H 1 = 0",
+    "input": "actual regular mean xi",
+    "output": "actual regular mean flux lambda",
+    "instruction": "keep both finite slots; Gamma_H 1=0 does not eliminate the lambda row"
+  },
+  "entries": [
+    {
+      "normalized_mode": 1,
+      "physical_frequency": 4,
+      "stable_line": {
+        "ball": "[0.68439109 +/- 3.08e-9]",
+        "lower": "[0.68439108692510214684845415433755988 +/- 4.88e-36]",
+        "upper": "[0.68439109220104908312687364002613322 +/- 3.55e-36]",
+        "mid_float": 0.6843910895630756,
+        "radius_upper_float": 2.6379734681392097e-09
+      },
+      "true_infinite_tail_fee": {
+        "ball": "0",
+        "lower": "0",
+        "upper": "0",
+        "mid_float": 0.0,
+        "radius_upper_float": 0.0
+      },
+      "true_Robin": {
+        "ball": "[0.68439109 +/- 3.08e-9]",
+        "lower": "[0.68439108692510214684845415433755988 +/- 4.88e-36]",
+        "upper": "[0.68439109220104908312687364002613322 +/- 3.55e-36]",
+        "mid_float": 0.6843910895630756,
+        "radius_upper_float": 2.6379734681392097e-09
+      },
+      "exactly_matched_fourth_mode": true,
+      "negative_mode": "same real entry by conjugacy"
+    },
+    {
+      "normalized_mode": 2,
+      "physical_frequency": 8,
+      "stable_line": {
+        "ball": "[1.36878218 +/- 6.52e-9]",
+        "lower": "[1.3687821734875971549372231095276220 +/- 3.16e-37]",
+        "upper": "[1.3687821847609923028854517212948849 +/- 1.92e-35]",
+        "mid_float": 1.3687821791242947,
+        "radius_upper_float": 5.636697573974114e-09
+      },
+      "true_infinite_tail_fee": {
+        "ball": "[6.3108872417680944432938285222622898e-30 +/- 3.74e-65]",
+        "lower": "[6.3108872417680944432938285222622898e-30 +/- 3.74e-65]",
+        "upper": "[6.3108872417680944432938285222622898e-30 +/- 3.74e-65]",
+        "mid_float": 6.310887241768095e-30,
+        "radius_upper_float": 0.0
+      },
+      "true_Robin": {
+        "ball": "[1.36878218 +/- 6.52e-9]",
+        "lower": "[1.3687821734875971479983292056203936 +/- 2.27e-35]",
+        "upper": "[1.3687821847609923098243456252021133 +/- 3.17e-36]",
+        "mid_float": 1.3687821791242947,
+        "radius_upper_float": 5.636697580913008e-09
+      },
+      "exactly_matched_fourth_mode": false,
+      "negative_mode": "same real entry by conjugacy"
+    },
+    {
+      "normalized_mode": 3,
+      "physical_frequency": 12,
+      "stable_line": {
+        "ball": "[2.0531733 +/- 4.00e-8]",
+        "lower": "[2.0531732600221992979250273947400274 +/- 2.45e-35]",
+        "upper": "[2.0531732773485427689941218432068126 +/- 2.77e-35]",
+        "mid_float": 2.053173268685371,
+        "radius_upper_float": 8.663171735534547e-09
+      },
+      "true_infinite_tail_fee": {
+        "ball": "[9.4663308626521416649407427833934348e-30 +/- 4.40e-65]",
+        "lower": "[9.4663308626521416649407427833934348e-30 +/- 4.40e-65]",
+        "upper": "[9.4663308626521416649407427833934348e-30 +/- 4.40e-65]",
+        "mid_float": 9.466330862652142e-30,
+        "radius_upper_float": 0.0
+      },
+      "true_Robin": {
+        "ball": "[2.0531733 +/- 4.00e-8]",
+        "lower": "[2.0531732600221992840472395869255706 +/- 2.03e-35]",
+        "upper": "[2.0531732773485427828719096510212694 +/- 1.71e-35]",
+        "mid_float": 2.053173268685371,
+        "radius_upper_float": 8.663171749412335e-09
+      },
+      "exactly_matched_fourth_mode": false,
+      "negative_mode": "same real entry by conjugacy"
+    },
+    {
+      "normalized_mode": 4,
+      "physical_frequency": 16,
+      "stable_line": {
+        "ball": "[2.7375644 +/- 5.35e-8]",
+        "lower": "[2.7375643465485977046114385302644223 +/- 2.53e-36]",
+        "upper": "[2.7375643699442129552767966060855542 +/- 3.10e-35]",
+        "mid_float": 2.7375643582464053,
+        "radius_upper_float": 1.1697807625332679e-08
+      },
+      "true_infinite_tail_fee": {
+        "ball": "[1.2621774483536188886587657044524580e-29 +/- 3.26e-64]",
+        "lower": "[1.2621774483536188886587657044524580e-29 +/- 3.26e-64]",
+        "upper": "[1.2621774483536188886587657044524580e-29 +/- 3.26e-64]",
+        "mid_float": 1.262177448353619e-29,
+        "radius_upper_float": 0.0
+      },
+      "true_Robin": {
+        "ball": "[2.7375644 +/- 5.35e-8]",
+        "lower": "[2.7375643465485976907336507224499655 +/- 4.22e-35]",
+        "upper": "[2.7375643699442129691545844139000110 +/- 1.38e-35]",
+        "mid_float": 2.7375643582464053,
+        "radius_upper_float": 1.1697807639210467e-08
+      },
+      "exactly_matched_fourth_mode": false,
+      "negative_mode": "same real entry by conjugacy"
+    },
+    {
+      "normalized_mode": 5,
+      "physical_frequency": 20,
+      "stable_line": {
+        "ball": "[3.4219554 +/- 6.26e-8]",
+        "lower": "[3.4219554330714801737567398731698631 +/- 3.09e-35]",
+        "upper": "[3.4219554625433630801190076908824267 +/- 1.35e-35]",
+        "mid_float": 3.4219554478074214,
+        "radius_upper_float": 1.4735941453181134e-08
+      },
+      "true_infinite_tail_fee": {
+        "ball": "[1.5777218104420236108234571305655725e-29 +/- 4.07e-64]",
+        "lower": "[1.5777218104420236108234571305655725e-29 +/- 4.07e-64]",
+        "upper": "[1.5777218104420236108234571305655725e-29 +/- 4.07e-64]",
+        "mid_float": 1.5777218104420236e-29,
+        "radius_upper_float": 0.0
+      },
+      "true_Robin": {
+        "ball": "[3.4219554 +/- 6.26e-8]",
+        "lower": "[3.4219554330714801598789520653554064 +/- 2.45e-35]",
+        "upper": "[3.4219554625433630939967954986968834 +/- 4.19e-35]",
+        "mid_float": 3.4219554478074214,
+        "radius_upper_float": 1.4735941467058922e-08
+      },
+      "exactly_matched_fourth_mode": false,
+      "negative_mode": "same real entry by conjugacy"
+    },
+    {
+      "normalized_mode": 6,
+      "physical_frequency": 24,
+      "stable_line": {
+        "ball": "[4.1063465 +/- 5.52e-8]",
+        "lower": "[4.1063465195925342721139372770267073 +/- 6.51e-36]",
+        "upper": "[4.1063465551443227852246309339534491 +/- 3.01e-35]",
+        "mid_float": 4.106346537368428,
+        "radius_upper_float": 1.7775894256555347e-08
+      },
+      "true_infinite_tail_fee": {
+        "ball": "[1.8932661725304283329881485566786870e-29 +/- 4.88e-64]",
+        "lower": "[1.8932661725304283329881485566786870e-29 +/- 4.88e-64]",
+        "upper": "[1.8932661725304283329881485566786870e-29 +/- 4.88e-64]",
+        "mid_float": 1.8932661725304283e-29,
+        "radius_upper_float": 0.0
+      },
+      "true_Robin": {
+        "ball": "[4.1063465 +/- 5.52e-8]",
+        "lower": "[4.1063465195925342443583616613977938 +/- 4.09e-36]",
+        "upper": "[4.1063465551443228129802065495823626 +/- 4.07e-35]",
+        "mid_float": 4.106346537368428,
+        "radius_upper_float": 1.7775894284310922e-08
+      },
+      "exactly_matched_fourth_mode": false,
+      "negative_mode": "same real entry by conjugacy"
+    },
+    {
+      "normalized_mode": 7,
+      "physical_frequency": 28,
+      "stable_line": {
+        "ball": "[4.7907376 +/- 4.78e-8]",
+        "lower": "[4.7907376061125167554521908641618211 +/- 1.78e-35]",
+        "upper": "[4.7907376477463432529191322828410193 +/- 3.25e-35]",
+        "mid_float": 4.79073762692943,
+        "radius_upper_float": 2.081691324873347e-08
+      },
+      "true_infinite_tail_fee": {
+        "ball": "[2.2088105346188330551528399827918014e-29 +/- 4.31e-64]",
+        "lower": "[2.2088105346188330551528399827918014e-29 +/- 4.31e-64]",
+        "upper": "[2.2088105346188330551528399827918014e-29 +/- 4.31e-64]",
+        "mid_float": 2.208810534618833e-29,
+        "radius_upper_float": 0.0
+      },
+      "true_Robin": {
+        "ball": "[4.7907376 +/- 4.78e-8]",
+        "lower": "[4.7907376061125167276966152485329076 +/- 2.84e-35]",
+        "upper": "[4.7907376477463432806747078984699328 +/- 4.31e-35]",
+        "mid_float": 4.79073762692943,
+        "radius_upper_float": 2.0816913276489046e-08
+      },
+      "exactly_matched_fourth_mode": false,
+      "negative_mode": "same real entry by conjugacy"
+    },
+    {
+      "normalized_mode": 8,
+      "physical_frequency": 32,
+      "stable_line": {
+        "ball": "[5.4751287 +/- 4.04e-8]",
+        "lower": "[5.4751286926318172565419928332630661 +/- 3.17e-35]",
+        "upper": "[5.4751287403490387084570301112762536 +/- 7.78e-36]",
+        "mid_float": 5.475128716490428,
+        "radius_upper_float": 2.385861072595752e-08
+      },
+      "true_infinite_tail_fee": {
+        "ball": "[2.5243548967072377773175314089049159e-29 +/- 3.50e-64]",
+        "lower": "[2.5243548967072377773175314089049159e-29 +/- 3.50e-64]",
+        "upper": "[2.5243548967072377773175314089049159e-29 +/- 3.50e-64]",
+        "mid_float": 2.524354896707238e-29,
+        "radius_upper_float": 0.0
+      },
+      "true_Robin": {
+        "ball": "[5.4751287 +/- 4.04e-8]",
+        "lower": "[5.4751286926318172287864172176341526 +/- 2.11e-35]",
+        "upper": "[5.4751287403490387362126057269051671 +/- 2.82e-36]",
+        "mid_float": 5.475128716490428,
+        "radius_upper_float": 2.3858610753713094e-08
+      },
+      "exactly_matched_fourth_mode": false,
+      "negative_mode": "same real entry by conjugacy"
+    }
+  ],
+  "scope": [
+    "Every entry encloses the true infinite exterior, not an imposed stable boundary condition.",
+    "The fourth physical mode uses exact matching; all other displayed modes retain the true-tail fee.",
+    "Physical-to-shear and canonical boundary changes are separate exact operations.",
+    "No positive-body DN or full central low-block inverse is asserted."
+  ],
+  "bits": 256
+}

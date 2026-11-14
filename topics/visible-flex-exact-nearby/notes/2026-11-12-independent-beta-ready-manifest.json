@@ -1,0 +1,87 @@
+{
+  "kind": "independent_beta_ready_files_manifest",
+  "created_utc": "2026-11-12T08:44:38.846083+00:00",
+  "frozen_ready_files": [
+    {
+      "path": "scripts/fourfold_phase_beta_affine.py",
+      "bytes": 14806,
+      "sha256": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_combine.py",
+      "bytes": 7624,
+      "sha256": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_affine_combine.py",
+      "bytes": 7392,
+      "sha256": "b7c3a985af8a489f2a0b88aedb7a3e74721d3644925ed86bf431362e1a914cfe"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_parameter_root.py",
+      "bytes": 7879,
+      "sha256": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_parameter_collar.py",
+      "bytes": 6664,
+      "sha256": "622a70fc4030b98520be22d0517cd24a1158d8d8eb1a476c09e5d25329d3f2e7"
+    },
+    {
+      "path": "notes/2026-11-12-symmetric-complete-directed-beta.md",
+      "bytes": 11569,
+      "sha256": "89389360b2c5e2139d2b66229d91c0e2915b0f29bf32b4db67b7390fe30d8b8d"
+    },
+    {
+      "path": "notes/2026-11-12-beta-recovered-bulk-part00.json",
+      "bytes": 19455,
+      "sha256": "e32c6678163a943dd39b6f1c084433ad36a658aa3f98d8401f898eb03039643d"
+    },
+    {
+      "path": "notes/2026-11-12-beta-recovered-bulk-part01.json",
+      "bytes": 153648,
+      "sha256": "dfe261fca6954d6fb685ecd366bf66011605d0150593a7fb6161025d47d4efa2"
+    },
+    {
+      "path": "notes/2026-11-12-beta-recovered-bulk-part02.json",
+      "bytes": 151536,
+      "sha256": "ef84291f977513ffdf61b1f673eba217c2cf22d31fc4ba6619d187861b556d7b"
+    },
+    {
+      "path": "notes/2026-11-12-beta-symmetric-complete-enclosure.json",
+      "bytes": 97007,
+      "sha256": "da84c1a8ff5b1a5b00d33c236d37752a5ffa4d187bc88115f99db473742c52f2"
+    },
+    {
+      "path": "notes/2026-11-12-beta-exact-affine-step2-collar.json",
+      "bytes": 22972,
+      "sha256": "2b6ea03cb3c415aaaa2a74825791f36ee3881dc25f2297144ce59fbfa466e076"
+    },
+    {
+      "path": "notes/2026-11-12-exact-affine-step2-collar.md",
+      "bytes": 3430,
+      "sha256": "c934875666300b52bff17be5b9d014b19a91653851da8a341e7d14f14d56d638"
+    },
+    {
+      "path": "notes/2026-11-12-beta-exact-affine-step3-collar.json",
+      "bytes": 22982,
+      "sha256": "037cd700677da4a34b423de431e9b22ab9903b5cd844a6a9348e6ccd0ee8918d"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-parameter-root-h1e8.json",
+      "bytes": 11448,
+      "sha256": "79528ba638b0acd056c8cf24a282a41e30689960c4884501a3b4ab84ac58520e"
+    },
+    {
+      "path": "notes/2026-11-12-parameter-beta-differentiation-interface.md",
+      "bytes": 5707,
+      "sha256": "ef3a60984b81f26826e48ae5ba342358c73a566859b3098ce5732c2e2700e985"
+    }
+  ],
+  "live_outputs_excluded": [
+    "notes/2026-11-12-beta-exact-affine-step3-bulk-part00.json",
+    "notes/2026-11-12-beta-exact-affine-step3-bulk-part01.json",
+    "notes/2026-11-12-beta-step3-parameter-collar-h1e8.json"
+  ],
+  "scope": "Original sym beta complete. Exact affine step2/step3 collars complete. Parameter h1e-8 root complete only; no final KAM box is identified. All new scripts are saved, with live calculations excluded."
+}

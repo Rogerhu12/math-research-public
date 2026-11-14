@@ -1,0 +1,28 @@
+{
+  "kind": "R134_exact_weighted_error_energy_identity_checks",
+  "complete": true,
+  "engine": "SymPy exact rational and polynomial arithmetic",
+  "version": "1.14.0",
+  "checks": {
+    "actual_first_transport_weight": true,
+    "actual_second_transport_weight": true,
+    "full_nonlinear_first_source_difference": true,
+    "full_nonlinear_second_source_difference": true,
+    "first_C0_energy_diagonal": true,
+    "second_C0_energy_diagonal": true,
+    "weighted_gradient_energy_diagonal": true,
+    "weighted_gradient_energy_offdiagonal": true,
+    "first_gradient_error_source_matrix": true,
+    "second_gradient_error_source_matrix": true
+  },
+  "all_pass": true,
+  "retains_full_mean": true,
+  "actual_background_must_be_real": true,
+  "no_numerical_long_interval_barrier_executed": true,
+  "closed_surface_complete": false,
+  "files_sha256": {
+    "scripts/fourfold_codazzi_weighted_error_identities.py": "8958d6942b6627cd6dbd48305ba0458a1d84a5b64d6dfea5be6e97b806b096f5",
+    "results/R134-weighted-error-energy-and-Sobolev-continuation.md": "d5ad8afac4ab8b2d62a28e1beb7d22a0c1613dd2b0c63159e459d609a83c6ec7",
+    "results/R131-linear-degenerate-weighted-gradient-and-C0-continuation.md": "4501ed407999bccaf0edc4143b5e9871f9bfe8c9609a3fabb119bbbdc5f2f4ec"
+  }
+}

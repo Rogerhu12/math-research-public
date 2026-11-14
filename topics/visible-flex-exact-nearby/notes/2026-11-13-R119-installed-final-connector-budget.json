@@ -1,0 +1,277 @@
+{
+  "schema": "visible-exact-R119-installed-final-connector-v1",
+  "scope": "Exact rational gates for the proved all-label continuation on the actual R69 final connector group; not a full regular-port inverse.",
+  "inputs": {
+    "tail_cut": 128,
+    "source_tau": "5177/400",
+    "source_sigma0": "20699/1600",
+    "raw_output_sigma": "3977/400",
+    "grounded_output_sigma": "3577/400",
+    "final_group_length_upper": "1/8",
+    "short_quintic_length": "1/16777216",
+    "source_R72_blob": "a7c78793ba18724a4f0553b6ccd55259b8f4df92",
+    "source_R25_blob": "be20257721fed270c59a4024427042fc76ee0073",
+    "file_sha256": {
+      "results/R69-actual-closed-approximate-exterior-and-two-held-disks.md": "c1c33adcf81b6546b68b0f7a6c1ded7ae1c56b35dfb279c7abd1496798dad6de",
+      "results/R11-matched-mode-four-physical-tail-connector.md": "8c4e30ef3cac88ff3e7c858c77537bf03d102760b2324e1e1d21780cf59923ca",
+      "results/R115-actual-tail-holomorphic-neighborhood-and-strong-extension.md": "7bc7fe7e0f285efabc0b1b64a55c661ce6084e4fc54f9a0c049ef3708544f1fa",
+      "results/R119-actual-final-connector-all-label-continuation.md": "8b4f7d46321709e9151abb930748d1d28545a5b41b1329813cd7301747c8a083",
+      "scripts/fourfold_installed_final_connector_20261113.py": "33e51e9293e9a170b6b7d01a032aff35feb4e3daf7edc7673f077c51ab26c7c8"
+    }
+  },
+  "checks": [
+    {
+      "name": "actual_final_group_length_below_one_eighth",
+      "pass_": true,
+      "upper": "2965507/25165824"
+    },
+    {
+      "name": "elementary_e_upper",
+      "pass_": true,
+      "upper": "8877691/3265920"
+    },
+    {
+      "name": "reaction_growth_below_64",
+      "pass_": true
+    },
+    {
+      "name": "reference_radius_below_3",
+      "pass_": true
+    },
+    {
+      "name": "slope_ratio_below_3",
+      "pass_": true
+    },
+    {
+      "name": "source_absolute_width_is_original",
+      "pass_": true
+    },
+    {
+      "name": "raw_trace_has_half_width_spare",
+      "pass_": true,
+      "spare": "1191/1600"
+    },
+    {
+      "name": "ground_trace_has_half_width_spare",
+      "pass_": true
+    },
+    {
+      "name": "no_ungranted_angular_width",
+      "pass_": true
+    },
+    {
+      "name": "physical_body_window_is_smaller",
+      "pass_": true
+    },
+    {
+      "name": "F_majorant",
+      "pass_": true,
+      "upper": "905/62"
+    },
+    {
+      "name": "F_P_majorant_per_state",
+      "pass_": true
+    },
+    {
+      "name": "F_K_includes_denominator_derivative",
+      "pass_": true
+    },
+    {
+      "name": "F_U_includes_denominator_derivative",
+      "pass_": true
+    },
+    {
+      "name": "F_V_majorant_per_state",
+      "pass_": true
+    },
+    {
+      "name": "reaction_column_P",
+      "pass_": true
+    },
+    {
+      "name": "reaction_column_K",
+      "pass_": true
+    },
+    {
+      "name": "reaction_column_U",
+      "pass_": true
+    },
+    {
+      "name": "reaction_column_V",
+      "pass_": true
+    },
+    {
+      "name": "principal_V_derivative",
+      "pass_": true
+    },
+    {
+      "name": "chosen_angular_speed_has_margin",
+      "pass_": true
+    },
+    {
+      "name": "quadratic_remainder_coefficient",
+      "pass_": true
+    },
+    {
+      "name": "source_plus_angular_derivative",
+      "pass_": true
+    },
+    {
+      "name": "actual_tail_relative_scale_exponent",
+      "pass_": true
+    },
+    {
+      "name": "input_relative_five_norm",
+      "pass_": true
+    },
+    {
+      "name": "mean_included_in_four_norm",
+      "pass_": true
+    },
+    {
+      "name": "full_initial_four_norm",
+      "pass_": true
+    },
+    {
+      "name": "whole_label_state_below_one",
+      "pass_": true
+    },
+    {
+      "name": "propagated_relative_ball",
+      "pass_": true
+    },
+    {
+      "name": "propagated_ball_closes",
+      "pass_": true
+    },
+    {
+      "name": "initial_mean_quadratic_fee",
+      "pass_": true
+    },
+    {
+      "name": "duhamel_quadratic_fee",
+      "pass_": true
+    },
+    {
+      "name": "initial_mean_plus_forcing_fee",
+      "pass_": true
+    },
+    {
+      "name": "complete_relative_quadratic_remainder",
+      "pass_": true
+    },
+    {
+      "name": "height_trace_quadratic_remainder",
+      "pass_": true
+    },
+    {
+      "name": "radial_trace_quadratic_remainder",
+      "pass_": true
+    },
+    {
+      "name": "height_trace_linear_bound",
+      "pass_": true
+    },
+    {
+      "name": "radial_trace_linear_bound",
+      "pass_": true
+    },
+    {
+      "name": "fourth_angular_derivative_half_gap",
+      "pass_": true
+    },
+    {
+      "name": "second_angular_derivative_half_gap",
+      "pass_": true
+    },
+    {
+      "name": "complete_raw_trace_remainder",
+      "pass_": true
+    },
+    {
+      "name": "label_quadratic_trace_remainder",
+      "pass_": true
+    },
+    {
+      "name": "complete_raw_trace_bound",
+      "pass_": true
+    },
+    {
+      "name": "first_label_derivative_remainder",
+      "pass_": true
+    },
+    {
+      "name": "second_label_derivative_remainder",
+      "pass_": true
+    },
+    {
+      "name": "second_label_derivative_fee",
+      "pass_": true
+    },
+    {
+      "name": "eighth_angular_weight",
+      "pass_": true
+    },
+    {
+      "name": "grounded_background_relative_jets",
+      "pass_": true
+    },
+    {
+      "name": "grounded_input_label_derivative_jets",
+      "pass_": true
+    },
+    {
+      "name": "grounded_small_geometric_ratio",
+      "pass_": true
+    },
+    {
+      "name": "grounded_geometric_ratio_exponent",
+      "pass_": true
+    },
+    {
+      "name": "grounded_complete_trace_fee",
+      "pass_": true
+    },
+    {
+      "name": "reference_second_jet_fee",
+      "pass_": true
+    },
+    {
+      "name": "physical_scaling_exponent",
+      "pass_": true
+    },
+    {
+      "name": "support_after_translation_and_correction",
+      "pass_": true
+    },
+    {
+      "name": "physical_to_relative_PDE_identity",
+      "pass_": true
+    },
+    {
+      "name": "complete_quadratic_residual_identity",
+      "pass_": true
+    },
+    {
+      "name": "height_compatibility_including_slope_derivative",
+      "pass_": true
+    },
+    {
+      "name": "actual_quintic_reversal",
+      "pass_": true
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "same_installed_final_group": true,
+    "all_internal_labels": true,
+    "all_high_outputs": true,
+    "mean_and_holonomy_retained": true,
+    "exact_C2_match_to_infinite_tail": true,
+    "actual_grounded_momentum": true,
+    "larger_initial_angular_strip_used": false,
+    "full_connector_continuation": false,
+    "regular_high_incoming_inverse": false,
+    "global_exact_visible_family": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "uniform_real_ground_state_log_gate_for_exact_affine_R57_family",
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "frozen_direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "source_sha256": "197a4eb4c805ec87f02c45dd80cae2379dcd621c8d5b7386b3c41dff5be329da",
+  "certificate_sha256": {
+    "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_affine_core_scalar_gate.json": "d59cddb24b41f0d3862472785ad14da428b07b91944b065349c107486afb6c8c",
+    "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_affine_core_interval.json": "278bf0e855f9b4a8bfebb37ff1564659c874f143b394bbb81503a228910dbf51"
+  },
+  "dependency_sha256": {
+    "fourfold_phase_root_interval.py": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840"
+  },
+  "exact_parameter_interval": [
+    -0.01,
+    0.01
+  ],
+  "exact_parameter_fractions": [
+    "-5764607523034235/576460752303423488",
+    "5764607523034235/576460752303423488"
+  ],
+  "radial_core": [
+    -0.24,
+    0.24
+  ],
+  "Q_lower": 0.944828997102311,
+  "Q_upper": 1.3602871984800258,
+  "F_norm_lower": 0.8058908747311642,
+  "F_norm_upper": 1.1750541138880304,
+  "ground_factor_lower": 0.8040727537015734,
+  "ground_factor_upper": 1.6879297695656403,
+  "ell_absolute_upper": 1.8053219740605708,
+  "ell_theta_absolute_upper": 59.23091974080379,
+  "ell_x_absolute_upper": 27.663325133775185,
+  "quotient_theta2_absolute_upper": 40.03178144308961,
+  "quotient_x_theta_absolute_upper": 14.385219478942778,
+  "exact_definitions": "Q=Fz/x by continuous extension; gstar=Q/|F|>0; uz=x*gstar; ell=dtheta log(gstar)",
+  "exact_identity": "(dtheta-ell) uz=0, including the waist x=0",
+  "radial_regularity": "F is C4 intersect W5,infinity; Q,gstar,ell are at least C3 intersect W4,infinity for each fixed finite angular derivative",
+  "limitations": [
+    "Only the stated real exact affine family/core; no complex parameter or angle tube",
+    "No rounded predictor, independent control box or other original graph is substituted",
+    "No actual return, cap, full-frequency inverse, exact metric solution or closed family is supplied"
+  ]
+}

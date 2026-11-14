@@ -1,0 +1,92 @@
+{
+  "kind": "actual-v0-and-common-root-budget-ready",
+  "date": "2026-11-12",
+  "complete": true,
+  "object": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "actual_v0_run": "43304292862",
+  "root_budget_run": "43306719256",
+  "previous_root_budget_run": "43306123080",
+  "failed_run_preserved": "43303990088",
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_canonical_v0_wiener_ci.py",
+      "bytes": 13376,
+      "sha256": "197fd0ad59c00e8cd56909728a270b371d64f6f17cb3337a180303e13ebb5a29"
+    },
+    {
+      "path": ".github/workflows/visible-exact-canonical-v0.yml",
+      "bytes": 4320,
+      "sha256": "ded471c0021ac1a40f4f62558808eabafe51a4cd57cc604213e175e053a92008"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-v0-scaled-Wiener-summary.json",
+      "bytes": 49852,
+      "sha256": "66112956b245389aa38c3d07244685ad31c29f7aae0575b8986bf80b54459ce8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-v0-scaled-Wiener.json",
+      "bytes": 156284,
+      "sha256": "3709417eec2b87e21f81f83c05dc83e113fd881984ea2e7de6678cbafe85db68"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-v0-scaled-Wiener.npz",
+      "bytes": 31821,
+      "sha256": "890b7d6296a62711bc0aabe76a4cc5a1864e06a263729863a9b17f487a63935f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-v0-manifest.json",
+      "bytes": 895,
+      "sha256": "2bc95c558938a8fdb02abd28e0b6b641b67afb169eec44f67f560dc59fc35559"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_common_root_budget.py",
+      "bytes": 7894,
+      "sha256": "6c6aab056672046df9b8e130dd60797022c1269f858de40bf039cc15663a528b"
+    },
+    {
+      "path": ".github/workflows/visible-exact-common-root-budget.yml",
+      "bytes": 3026,
+      "sha256": "9b8f77a9a430e374a550aeea55bb7cab4dbd7f3f85ef70aced2461aabf4dbe0c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-common-root-high-remainder.json",
+      "bytes": 10411,
+      "sha256": "e727251cd6c187ded5782aff3a03401301d21b83fd03d419f31f716862be6253"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R98-common-positive-root-amplitude-and-symplectic-frame.md",
+      "bytes": 23316,
+      "sha256": "047e1fee040c7e8669f19dd49721cf49e2f8aa45ee41df72cd9cc3f7a98d5896"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-v0-and-common-root-budget.md",
+      "bytes": 6713,
+      "sha256": "34ea229dba7593db331cd02f20f415b55bc72b531e62cd427b966e515ad03575"
+    }
+  ],
+  "root_readme_blob": "f787a306d90892d8dec765dc59747d60ba39f055",
+  "topic_readme_blob": "84b6d9fc74ed90ab725aa230cdf348f325505396",
+  "full_feedback_inverse_proved": false,
+  "finite_comparison_columns_and_all_high_tails_retained": true
+}

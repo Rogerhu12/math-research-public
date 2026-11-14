@@ -1,0 +1,43 @@
+{
+  "kind": "frozen_actual_unified_scalar_time_circle_turn_and_ordinary_interface",
+  "status": "complete_frozen",
+  "archive_required": [
+    {
+      "path": "scripts/fourfold_phase_unified_scalar_time_circle.py",
+      "sha256": "e00d338b42b4c87281f659930442d08cb697d8c9c6bda44fe2f9858109b73492",
+      "bytes": 23886
+    },
+    {
+      "path": "scripts/fourfold_phase_unified_scalar_ordinary_probe.py",
+      "sha256": "94ee92f71f1ceceebdf853d2ab8ff4fe496091088de8ea50eb9fd98f37cbbf5c",
+      "bytes": 3619
+    },
+    {
+      "path": "notes/2026-11-12-unified-scalar-time-circle.md",
+      "sha256": "abb089bdaa37169de1d8390f5a0bdc6fad554619f9d2074a714f7a5d9c4420e1",
+      "bytes": 8312
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_unified_scalar_turn01_pilot.json.gz",
+      "sha256": "df83624c52d32dd745e1532695907417b88ec255a945d8797f2f37292e0a5a22",
+      "bytes": 19136
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_unified_scalar_ordinary419_probe.json.gz",
+      "sha256": "4816039b1a4cbc662af7039a10a39c78d922d1ce42dfcbd232649bdb14843505",
+      "bytes": 4576
+    }
+  ],
+  "reproducible_large_intermediates": [],
+  "object_scope": "Explicitly symmetric true infinite affine delta5 target and matched exact PiTime/germ domains; no old rounded graph",
+  "api": "UnifiedScalarTimeCircleField.sample(u,angles) -> (true physical f balls, timing); no h multiplier",
+  "replay": [
+    "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -u scripts/fourfold_phase_unified_scalar_time_circle.py --domain data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0000_r.json.gz --domain data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0001_r.json.gz --primitive-nodes 512 --angles 512 --radial-degree 64 --check-order 64 --radius 5/4 --bits 256 --out data/phase_ring_continuation/type_fixed_step02_d5_step5_unified_scalar_turn01_pilot.json.gz",
+    "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -u scripts/fourfold_phase_unified_scalar_ordinary_probe.py --primitive-nodes 512 --angles 512 --bits 256 --radius 5/4 --out data/phase_ring_continuation/type_fixed_step02_d5_step5_unified_scalar_ordinary419_probe.json.gz"
+  ],
+  "limitations": [
+    "True scalar samples and independent implementation/node checks, not a complete field polynomial or reference residual.",
+    "A selected analytic germ is not transferred to adjacent true spline spans.",
+    "No actual-flow, KAM, parameter or full PDE conclusion from the pilot."
+  ]
+}

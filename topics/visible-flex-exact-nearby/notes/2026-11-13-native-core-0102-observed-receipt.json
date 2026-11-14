@@ -1,0 +1,204 @@
+{
+  "kind": "observed_native_replay_0102_receipt_not_full_certificate",
+  "recorded_utc_date": "2026-11-13",
+  "checkout": "/home/agent/visible-exact-core-0102-f6a2",
+  "checkout_head": "390299b08b597fbc8fda81e5303b1435203fe295",
+  "python": "/home/agent/visible-exact-py0038/bin/python",
+  "exact_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+  "exact_parameter_half_width": "1/1000000000",
+  "status": "The listed processes actually finished with exit code 0 before the executor became unavailable. Their full new on-disk reports and arrays were not pushed. This receipt is not a substitute for them.",
+  "output_directory": "notes/native_core_20261113_0102",
+  "completed": [
+    {
+      "entry": "fourfold_phase_low_feedback_paid_inputs.py",
+      "output": "recreated_paid_low.json",
+      "exit_code": 0,
+      "arrays_sha256": "aad06ad36773210c398c41b7f4b515631301d3e54f84322332d0fb49b6087837",
+      "arrays_bytes": 11512,
+      "arrays_match_main": true,
+      "inverse_upper": "63.190082546642655438147747262706093",
+      "complete_cap_interface_fee": "0.00075783080249673587607589859901254866",
+      "Banach_product": "0.047887390966157186991216057747401829",
+      "remaining_allowance": "0.015067437336089211863359919782641789"
+    },
+    {
+      "entry": "fourfold_phase_low_block_dihedral.py",
+      "output": "finite_low_dihedral.json",
+      "exit_code": 0,
+      "input_paid_low": "notes/native_core_20261113_0102/recreated_paid_low.json",
+      "dimensions": [
+        6,
+        7,
+        4,
+        4
+      ],
+      "inverse_upper_by_sector": [
+        "63.179794308325037244834964987497262",
+        "33.633717465145358767206937739078291",
+        "9.4373260129866000879399831149216427",
+        "4.1160367616762094471920090941488866"
+      ],
+      "desired_six_inverse_residual": "9.6137699575498113880796089653733182e-15",
+      "desired_six_remaining_allowance": "0.015070014332925130396290896307826693"
+    },
+    {
+      "entry": "fourfold_phase_family_interface_fourier.py",
+      "output": "family_quarter_cut.json",
+      "exit_code": 0,
+      "CPU_seconds": 2.153079872,
+      "wall_seconds": 2.5160288279948873,
+      "full_A0_errors": {
+        "Y": "8.6054375930641126475013684183434010e-9",
+        "inverse_Y": "9.6900010968417973754849114685678607e-8",
+        "pY": "6.2328585741519478204753636566668159e-7",
+        "YpY": "1.5076600579314485079438392802190649e-7",
+        "pY_over_Y": "2.5740249968692187366505316912869882e-6"
+      },
+      "normalized_strip": "1/16",
+      "primitive_nodes": 512,
+      "angles": 2048,
+      "keep": 512,
+      "bits": 192,
+      "whole_eta": true
+    },
+    {
+      "entry": "fourfold_phase_interface_strong_grams.py",
+      "output": "family_quarter_cut_strong_Grams.json",
+      "exit_code": 0,
+      "rows": 40,
+      "whole_eta": true,
+      "modes": 4,
+      "output_cutoffs": [
+        4,
+        16,
+        64,
+        256
+      ],
+      "arrays_sha256": "a35c292d980fdf9dc072dc5e66b02aeed6a82d14f808d75cfc920536df8bee09",
+      "arrays_bytes": 40148,
+      "arrays_match_2256": true
+    },
+    {
+      "entry": "fourfold_phase_core_energy_fields.py",
+      "output": "energy9_leaf0060.json",
+      "exit_code": 0,
+      "source_sha256": "5142445b342e52eee4437ef50c8532def3d1ff6e711ad8395a2ec159e2a06453",
+      "report_sha256": "6a59edc94906a7012d8ef5ff8bc99a3e79451bf9863774c1766a9b994b59d214",
+      "report_bytes": 150091,
+      "arrays_path": "notes/native_core_20261113_0102/energy9_leaf0060.npz.gz",
+      "arrays_sha256": "1283562ea206e75c6572af57522f1ed1fd8e53eeebd909179977077df9dd9177",
+      "arrays_bytes": 2829498,
+      "leaf": "data/core_uniform_flow_ci/43307149760/block_60_80/span_0060_root.json",
+      "exact_interval": [
+        "6112257798907291/72057594037927936",
+        "6124895493223875/72057594037927936"
+      ],
+      "outer_time_radius": "3",
+      "normalized_angle_strip": "1/16",
+      "primitive_nodes": 512,
+      "angles": 2048,
+      "keep": 768,
+      "time_nodes": 64,
+      "time_terms": 40,
+      "bits": 192,
+      "completed_independent_time_circle_nodes": 33,
+      "CPU_seconds": 21.064492955000002,
+      "wall_seconds": 28.101106083995546,
+      "scope": "Complete whole-eta nine-field finite rectangle with the infinite angular/time remainders and physical-r derivative A012 fees. Only this actual leaf; not the entire core."
+    },
+    {
+      "entry": "fourfold_phase_strict_core_energy.py",
+      "output": "energy9_leaf0060_continuous.json",
+      "exit_code": 0,
+      "field_input": "notes/native_core_20261113_0102/energy9_leaf0060.json",
+      "constants_observed": {
+        "base_rate_forward": "14.051963384428379077440711571660894",
+        "base_rate_backward": "23.605835269553215043006033465298483",
+        "half_derivative_commutator_gain": "4508.9123987249459689134465907627511",
+        "energy_sqrt_rate_forward": "4515.9383804171601584521669465485816",
+        "energy_sqrt_rate_backward": "4520.7153163597225764349496074954004",
+        "homogeneous_sqrt_amplification_forward": "2.2078515762953311181483594026752844",
+        "homogeneous_sqrt_amplification_backward": "2.2097020772717721296227101605151157",
+        "source_vector_energy_gain": "912.62497869590872898993113332172297",
+        "L2_source_to_endpoint_forward": "18.902413871009435960712017248630329",
+        "L2_source_to_endpoint_backward": "18.912343568897060665420724193984760"
+      },
+      "CPU_seconds": 0.684071748,
+      "wall_seconds": 0.7824286489994847,
+      "limitation": "The very coarse H1/2 commutator cannot be assumed to give a useful whole-core product. The base energy rates and the commutator are separate inputs."
+    },
+    {
+      "entry": "fourfold_phase_cap_graft_angular_mismatch.py --tail-only",
+      "output": "true_tail_angular_mismatch.json",
+      "exit_code": 0,
+      "report_bytes": 46708,
+      "CPU_seconds": 0.02187763900000006,
+      "wall_seconds": 0.021881649001443293,
+      "scope": "Complete real-eta actual Robin mismatch and physical angular derivative at the regular endpoint, all finite input columns retained. No body or graft integral."
+    }
+  ],
+  "diagnostics": [
+    {
+      "name": "real whole-parameter local B and Btheta",
+      "exact_radial_interval": [
+        "1/4",
+        "262145/1048576"
+      ],
+      "angles": 2048,
+      "normalized_strip": "1/32",
+      "complete_angular_alias_density_R0": "1.38341309732731945701352787683019835526639751688899034545e-22",
+      "complete_angular_alias_density_R1": "5.53136869776818860862626800581835817926030119029072882319e-19",
+      "angular_integrand_modulus_R0": "431289.345109159389854630608851831571130631059133918748475",
+      "angular_integrand_modulus_R1": "1724445422.57597357385234535727338353351643255107318459302",
+      "C_B_upper": "44.530274200906744000838614165313970",
+      "A_lower": "0.043400221227242907762189361164928414",
+      "kappa_lower": "0.0056789798384565687294767144521756563",
+      "scope": "Actual complete local r/theta/parameter box, not a cap-wide bound; stdout was observed but no standalone full report was saved."
+    },
+    {
+      "name": "flint0.9 power diagnostic",
+      "input": "arb(0,arb('1e-10'))",
+      "observed_power_2": "nan",
+      "observed_bilinear_square": "[+/- 1.01e-20]",
+      "action": "The new graft derivative square uses explicit bilinear multiplication. Positive modulus powers in the nine-field/energy producers are unchanged."
+    }
+  ],
+  "failed_or_incomplete": [
+    {
+      "entry": "initial dihedral on old primary paid-low",
+      "exit_code": 1,
+      "reason": "Old primary report kind and then NPZ hash differed from current paid-low inputs. The checks were preserved; the exact current center was regenerated and its NPZ SHA matched main."
+    },
+    {
+      "entry": "cap body first common span with N1024",
+      "session": 37788,
+      "observed_exit_code": 130,
+      "stopped_by": "explicit Ctrl-C after complete angular alias was insensitive to further radial subdivision",
+      "accepted_at_last_inspection": 0,
+      "rejected_at_last_inspection": 91,
+      "partial_output": "body_theta_element0_span0.json",
+      "action": "N2048 was tested on a complete local box and paid the alias; no full N2048 integration completed before loss."
+    },
+    {
+      "entry": "git promisor core175 materialization",
+      "session": 79183,
+      "status": "The first manifest fetched successfully with ordinary transient terminal authentication. The subsequent sparse-add had not returned before environment loss. No original 175 leaf was recomputed."
+    },
+    {
+      "entry": "planned N2048 body / full graft calls",
+      "status": "Not started: enclosing functions call failed at its first apply_patch with exec-server transport closed. It did not reach either exec_command."
+    },
+    {
+      "entry": "core175 global collector and six-block paid-core assembly",
+      "status": "Not rerun during this recovery because original binary core leaves were not yet materialized. Earlier 2256 observations remain separate."
+    }
+  ],
+  "not_a_certificate_for": [
+    "whole core strong energy",
+    "full cap angular mismatch",
+    "uniform strong cap flux",
+    "infinite core-cap Schur inverse",
+    "nonlinear exact isometric family"
+  ]
+}

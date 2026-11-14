@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "modes": 8,
+  "angles": 128,
+  "complete_rows": 18,
+  "radial_samples": [
+    0.0,
+    0.055,
+    0.1,
+    0.17,
+    0.235,
+    0.5,
+    1.5,
+    3.125
+  ],
+  "checks": [
+    {
+      "amplitude": 0.0,
+      "full_table_Jacobian_vs_independent_FFT": 2.0596033694027108e-16,
+      "full_parameter_and_state_Jacobian_vs_finite_difference": 5.544580995642683e-13,
+      "parameter_column_alone_per_radial_scale": 2.254709219643197e-11,
+      "parameter_column_norm": 0.21248542818277805,
+      "all_physical_boundary_rows_vs_finite_difference": 3.904230925399655e-12,
+      "polynomial_rhs_vs_original_physical_Codazzi": null,
+      "full_cubic_tail": {
+        "normalized_polynomial_rhs_tail_l1": 7.018488069197576e-16,
+        "roundoff_beyond_exact_cubic_support_l1": 4.936049505769913e-16,
+        "exact_polynomial_support_index": 24,
+        "physical_frequency_max": 96,
+        "all_cubic_coefficients_resolved_by_grid": true
+      },
+      "passed": true
+    },
+    {
+      "amplitude": 0.7,
+      "full_table_Jacobian_vs_independent_FFT": 3.412819258851492e-16,
+      "full_parameter_and_state_Jacobian_vs_finite_difference": 4.2984458565234527e-13,
+      "parameter_column_alone_per_radial_scale": 2.3078177680304824e-11,
+      "parameter_column_norm": 0.21109495871465822,
+      "all_physical_boundary_rows_vs_finite_difference": 7.1288071166442845e-12,
+      "polynomial_rhs_vs_original_physical_Codazzi": 2.8642881675443093e-15,
+      "full_cubic_tail": {
+        "normalized_polynomial_rhs_tail_l1": 7.451613672938829e-05,
+        "roundoff_beyond_exact_cubic_support_l1": 5.766298983168713e-16,
+        "exact_polynomial_support_index": 24,
+        "physical_frequency_max": 96,
+        "all_cubic_coefficients_resolved_by_grid": true
+      },
+      "passed": true
+    },
+    {
+      "amplitude": 0.75,
+      "full_table_Jacobian_vs_independent_FFT": 4.12143374564217e-16,
+      "full_parameter_and_state_Jacobian_vs_finite_difference": 3.032860057574433e-13,
+      "parameter_column_alone_per_radial_scale": 1.2204383695324224e-11,
+      "parameter_column_norm": 0.2109956394542169,
+      "all_physical_boundary_rows_vs_finite_difference": 7.613925932420896e-12,
+      "polynomial_rhs_vs_original_physical_Codazzi": 2.2575072968831285e-15,
+      "full_cubic_tail": {
+        "normalized_polynomial_rhs_tail_l1": 7.983862808426105e-05,
+        "roundoff_beyond_exact_cubic_support_l1": 5.536151014962056e-16,
+        "exact_polynomial_support_index": 24,
+        "physical_frequency_max": 96,
+        "all_cubic_coefficients_resolved_by_grid": true
+      },
+      "passed": true
+    }
+  ],
+  "finite_arithmetic_checks_only": true,
+  "infinite_PDE_or_cross_type_Cauchy_not_certified": true,
+  "kind": "reciprocal_polynomial_full_Jacobian_and_physical_boundary_audit",
+  "source_sha256": "136cdc50b204bb1b5f1a991d98e37f4b94739c38a1916934856c10875e9da54b",
+  "system_sha256": "27abad425627b219b5ea1de4f6935c82714511cefb980c4d24171a1d77e0c646",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "wall_seconds": 0.9463418730010744,
+  "dependencies": {
+    "fourfold_codazzi_compact_metric_branch_probe.py": "e1692ce4e7b1090adb0aeab7414f8df32411072283cedad3d848ca4fb18ef0a4",
+    "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+    "fourfold_phase_codazzi_rotational_reference_probe.py": "c8495d0c1721a21a24b48c8cdce9e825a8110f4923edd01e9eb2b7fe76b2d411",
+    "fourfold_codazzi_rotational_cap_jacobi_probe.py": "2bfb4c8d7bca6ffe75d6496f8f9c3baa17ba5ee83045c6ca09dc475853d30114"
+  }
+}

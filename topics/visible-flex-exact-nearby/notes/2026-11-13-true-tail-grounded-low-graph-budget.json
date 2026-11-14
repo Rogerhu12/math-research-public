@@ -1,0 +1,265 @@
+{
+  "schema": "visible-exact-R115-grounded-low-input-graph-v1",
+  "date": "2026-11-13",
+  "inputs": {
+    "source_R115_sha256": "7bc7fe7e0f285efabc0b1b64a55c661ce6084e4fc54f9a0c049ef3708544f1fa",
+    "source_R72_blob": "a7c78793ba18724a4f0553b6ccd55259b8f4df92",
+    "source_R25_blob": "be20257721fed270c59a4024427042fc76ee0073",
+    "kappa_upper": "2^-60",
+    "raw_H_upper": "256/85",
+    "DX_upper": "13/4",
+    "cut_reference_radius": "1<b<2",
+    "cut_mean_physical_height_lower": "17/20",
+    "delta128": "1/(25*2^127)",
+    "tau128": "5177/400",
+    "angle_loss": "9/400",
+    "low_input_physical_frequencies": "m in 4Z, 0<abs(m)<=172",
+    "Rc_upper": "2^-469",
+    "Rd_upper": "2^-397",
+    "eta_upper": "2^-785"
+  },
+  "checks": [
+    {
+      "name": "raw_low_B_near_identity",
+      "pass": true
+    },
+    {
+      "name": "raw_low_B_inverse",
+      "pass": true
+    },
+    {
+      "name": "raw_complete_graph_norm",
+      "pass": true
+    },
+    {
+      "name": "raw_complete_graph_difference_9kappa",
+      "pass": true
+    },
+    {
+      "name": "raw_complete_graph_difference_2minus56",
+      "pass": true
+    },
+    {
+      "name": "raw_complete_graph_derivative_512kappa",
+      "pass": true
+    },
+    {
+      "name": "actual_delta128_bound",
+      "pass": true
+    },
+    {
+      "name": "actual_wcut_bound",
+      "pass": true
+    },
+    {
+      "name": "actual_eta_bound",
+      "pass": true
+    },
+    {
+      "name": "actual_complete_Rc_power",
+      "pass": true
+    },
+    {
+      "name": "background_eight_angular_weights",
+      "pass": true
+    },
+    {
+      "name": "background_Rd_bound",
+      "pass": true
+    },
+    {
+      "name": "input_finite_derivative_cost",
+      "pass": true
+    },
+    {
+      "name": "mean_self_map",
+      "pass": true
+    },
+    {
+      "name": "input_with_actual_mean_cost",
+      "pass": true
+    },
+    {
+      "name": "low_exact_base_shear_row1",
+      "pass": true
+    },
+    {
+      "name": "low_exact_base_shear_row2",
+      "pass": true
+    },
+    {
+      "name": "eta_times_low_row",
+      "pass": true
+    },
+    {
+      "name": "exact_grounded_shear_determinant_one",
+      "pass": true
+    },
+    {
+      "name": "D_and_t_complex_power_domains",
+      "pass": true
+    },
+    {
+      "name": "inverse_three_half_derivative_constant",
+      "pass": true
+    },
+    {
+      "name": "inverse_square_derivative_constant",
+      "pass": true
+    },
+    {
+      "name": "background_connection_G",
+      "pass": true
+    },
+    {
+      "name": "background_horizontal_near_identity",
+      "pass": true
+    },
+    {
+      "name": "true_support_chi_bound",
+      "pass": true
+    },
+    {
+      "name": "actual_vertical_height_inverse",
+      "pass": true
+    },
+    {
+      "name": "true_support_power_domain",
+      "pass": true
+    },
+    {
+      "name": "actual_mean_Ak",
+      "pass": true
+    },
+    {
+      "name": "actual_mean_Atheta",
+      "pass": true
+    },
+    {
+      "name": "actual_mean_Ap",
+      "pass": true
+    },
+    {
+      "name": "actual_mean_slope_absorption",
+      "pass": true
+    },
+    {
+      "name": "actual_dotG_bound_64",
+      "pass": true
+    },
+    {
+      "name": "actual_dotgamma_bound_128",
+      "pass": true
+    },
+    {
+      "name": "actual_dotl_bound",
+      "pass": true
+    },
+    {
+      "name": "actual_dota_bound_8",
+      "pass": true
+    },
+    {
+      "name": "actual_dotb_bound_8",
+      "pass": true
+    },
+    {
+      "name": "actual_lmax",
+      "pass": true
+    },
+    {
+      "name": "actual_Rh_vector_norm",
+      "pass": true
+    },
+    {
+      "name": "actual_Rhr_vector_norm",
+      "pass": true
+    },
+    {
+      "name": "actual_horizontal_variation_2pow10",
+      "pass": true
+    },
+    {
+      "name": "actual_horizontal_r_variation_2pow12",
+      "pass": true
+    },
+    {
+      "name": "actual_grounded_height_error_2pow13",
+      "pass": true
+    },
+    {
+      "name": "actual_grounded_height_r_error_2pow18",
+      "pass": true
+    },
+    {
+      "name": "actual_grounded_radial_coefficient",
+      "pass": true
+    },
+    {
+      "name": "actual_grounded_angular_coefficient",
+      "pass": true
+    },
+    {
+      "name": "actual_grounded_flux_error_2pow20",
+      "pass": true
+    },
+    {
+      "name": "full_output_plus_mean_rows_2pow24",
+      "pass": true
+    },
+    {
+      "name": "complete_converter_2minus324",
+      "pass": true
+    },
+    {
+      "name": "low_width_restore_exponent",
+      "pass": true
+    },
+    {
+      "name": "exp_constant_e_lt_11over4",
+      "pass": true
+    },
+    {
+      "name": "low_width_restore_cost",
+      "pass": true
+    },
+    {
+      "name": "grounded_augmented_Dirichlet_error",
+      "pass": true
+    },
+    {
+      "name": "grounded_augmented_Dirichlet_inverse",
+      "pass": true
+    },
+    {
+      "name": "grounded_augmented_Dirichlet_inverse_minus_I",
+      "pass": true
+    },
+    {
+      "name": "complete_grounded_graph_norm",
+      "pass": true
+    },
+    {
+      "name": "grounded_complete_graph_difference_2minus55",
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "proved_bounds": {
+    "raw_complete_graph_difference": "<2^-56",
+    "true_grounded_converter_with_angle_loss": "<2^-324",
+    "true_grounded_low_and_mean_graph_difference_with_all_outputs": "<2^-55",
+    "true_grounded_low_and_mean_graph_norm": "<8"
+  },
+  "scope": {
+    "actual_cut128": true,
+    "complete_high_outputs": true,
+    "mean_height_and_flux_rows_retained": true,
+    "finite_input_only": true,
+    "regular_r25_over8_Robin_update_paid": false,
+    "all_high_incoming_graph_inverse_paid": false,
+    "source_containing_full_feedback_inverse_paid": false,
+    "new_native_infinite_tail_run": false,
+    "full_nonlinear_zero_constructed": false
+  }
+}

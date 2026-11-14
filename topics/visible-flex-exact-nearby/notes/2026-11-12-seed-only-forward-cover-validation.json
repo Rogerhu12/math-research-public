@@ -1,0 +1,29 @@
+{
+  "kind": "actual_seed_only_forward_controller_probe",
+  "complete": true,
+  "mathematical_certificate_claimed": false,
+  "controller_sha256": "1451d5d434ef8fb4d7e0214e051afd185537ad75d882ddde6a82bf92d6a35ee1",
+  "previous_controller_sha256": "d9151dfb509b2f2df08bb01a699d8c78e9571334d3ef1da2f9219ec21ce2bca4",
+  "non_main_function_AST_unchanged": [
+    "check_reference_seams",
+    "exact_case_leaves",
+    "load_cover",
+    "validate_saved"
+  ],
+  "actual_probe_index_path": "data/phase_ring_continuation/seed_only_missing_block_probe/g0/index.json",
+  "actual_probe_index_sha256": "e8ae86762a0848563b918c61344df120ef87082bf3400ca2b68cb51e4579dbc3",
+  "actual_probe_returncode": 0,
+  "no_local_sampling_process_created": true,
+  "completed_segments": 0,
+  "whole_forward_leg": false,
+  "waiting_key": {
+    "segment": 0,
+    "normalized_subspan": [
+      "0",
+      "1"
+    ],
+    "actual_domain_path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0000_r.json.gz",
+    "actual_domain_sha256": "9415569ec4a2b86a15b6764406927584ed0c866955097700ec8aa5616a46891b",
+    "local_sampling_forbidden": true
+  }
+}

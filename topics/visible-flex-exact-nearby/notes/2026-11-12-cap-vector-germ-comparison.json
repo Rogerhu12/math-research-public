@@ -1,0 +1,50 @@
+{
+  "kind": "directed_polynomial_vectorization_actual_germ_comparison",
+  "complete": true,
+  "polynomial_endpoints_bitwise_equal": {
+    "L0": true,
+    "C0": true,
+    "L_remainder": true,
+    "C_remainder": true,
+    "Lprime_numerator": true,
+    "Cprime_numerator": true
+  },
+  "rows": [
+    {
+      "class": "WienerBodyForm",
+      "CPU_setup": 0.28528431900000006,
+      "CPU_total": 0.3025921490000001,
+      "wall_total": 1.6054380450004828,
+      "values": [
+        "[0.0347 +/- 3.07e-5]",
+        "[+/- 6.34e-7]",
+        "[0.99 +/- 3.80e-3]",
+        "[28.8 +/- 0.0154]",
+        "[+/- 1.85e-5]",
+        "[1.01 +/- 3.96e-3]"
+      ]
+    },
+    {
+      "class": "VectorWienerBodyForm",
+      "CPU_setup": 0.08946161399999997,
+      "CPU_total": 0.11373426200000014,
+      "wall_total": 0.6477347170002759,
+      "values": [
+        "[0.0347 +/- 3.07e-5]",
+        "[+/- 6.34e-7]",
+        "[0.99 +/- 3.80e-3]",
+        "[28.8 +/- 0.0154]",
+        "[+/- 1.85e-5]",
+        "[1.01 +/- 3.96e-3]"
+      ]
+    }
+  ],
+  "exact_common_span": [
+    "8117738328335319/4503599627370496",
+    "8128997327403745/4503599627370496"
+  ],
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "source_sha256": "b6aa15d3df04bc8411b201e4dc428f4f716dc6eee72d2dc03a4187086f29c7af",
+  "baseline_sha256": "f552b3c90880a9f9ee812015018a83da67e5d5fe66e1232fd2871d2c59e600db",
+  "scope": "Exact same directed polynomial endpoint arrays and true full-angle form balls; actual one-cell cost only."
+}

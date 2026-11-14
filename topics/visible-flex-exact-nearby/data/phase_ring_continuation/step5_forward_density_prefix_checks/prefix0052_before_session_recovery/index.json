@@ -1,0 +1,787 @@
+{
+  "kind": "complete_exact_forward_density_and_ordered_flow",
+  "complete": false,
+  "source_sha256": "1451d5d434ef8fb4d7e0214e051afd185537ad75d882ddde6a82bf92d6a35ee1",
+  "descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+  "pipeline_sources": {
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_composition_v9.py": "42185f8a6d132593e9e930ceb6496af0e591750f7219a42767e5120a3b465a7b",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_layout_v8.py": "35737ed50a54a373fb80cbc6af6a7803986b916372334e54374c653b531f5cee",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_spatial_v7.py": "45c788ab4c928059dac09f8435b8bdfd68dd37240f5d5916fc9d609403777fc1",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_optimal_time_v6.py": "72d902056a962f8222e5f84e6db31eff7a51df2e9fc7dc528cf42d871e9a25ed",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_expanded_time_v5.py": "6be6b7c02eba1eebb8c6f9cda09641af1653fb2b19dc49a36e57670fc0c64d57",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_minimal_time.py": "f2c373e1a2226224f08078fc01abb219de32c39344d2fb143947c2f5058d04b0",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_Q1024_v3.py": "97f75109f6636785a7f6718eab46b9c1e51e62ff49261ef974dfa8b45cda240e",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_turn0_v1.py": "6fcfe5ff8c4e3ffb9c79f9a613c6bacc244b3a6b707fa78f558cd8933b16342f"
+  },
+  "reference_seams": {
+    "path": "notes/2026-11-12-step5-forward-reference-derivative-complete-summary.json",
+    "sha256": "d1dd69ac94f5912c828a6e22856badcb69bf324fdc7fc9a43f05493161363dc9",
+    "report_path": "notes/2026-11-12-step5-forward-reference-derivative-gate.json.gz",
+    "report_sha256": "87aeff7e8824c7d6301c6f33cbeea506e584004c5bee1591512a556348cbfd8c",
+    "all_549_base_and_Q_seams_exact": true
+  },
+  "label_strip": "1/256",
+  "inner_strip": "3/1024",
+  "exact_initial_time": {
+    "rational": "0",
+    "pi_coefficient": "-1/2"
+  },
+  "leaves": [
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_pipeline_pilot0/forward_0000_ef134f2a18.json.gz",
+      "sha256": "a6c8560ac4b34a53bb4636c55d4e9672c875156df95f3e975b46947bab15be15",
+      "bytes": 56591,
+      "segment": 0,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0000_r.json.gz",
+      "current_field_cover_domain_sha256": "9415569ec4a2b86a15b6764406927584ed0c866955097700ec8aa5616a46891b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0001_ef134f2a18.json.gz",
+      "sha256": "dcfc8e721de4b6c2cb928fdbabc3b8db5c1be9e3f24772a23148efe072c31750",
+      "bytes": 43450,
+      "segment": 1,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0001_r.json.gz",
+      "current_field_cover_domain_sha256": "2b5b8bcae2f07e42f93208889c1bccaede6161917978f23696c0d110c3cbfc1a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0002_ef134f2a18.json.gz",
+      "sha256": "d333912e47a683b018c9af2c0162ec7a8f2939fadacab20895682bdf98f44208",
+      "bytes": 46219,
+      "segment": 2,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0002_r.json.gz",
+      "current_field_cover_domain_sha256": "4e261d18833de168905eeb071793f18797549499acb47e0aa56e80dac4709695"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0003_ef134f2a18.json.gz",
+      "sha256": "135ec493718b72748869ff061d9d3953a32a5284ae7dbe3fc2dbaab2566bccc5",
+      "bytes": 43072,
+      "segment": 3,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0003_r.json.gz",
+      "current_field_cover_domain_sha256": "99ab3ad3de524436c703201e7497bea5c7613ce845c45c8b4408a19f8f43d9a9"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0004_ef134f2a18.json.gz",
+      "sha256": "7681bcaeb7912425989a2c491dbf36f267b2c788b184b5a3a3d8715a581b5ba2",
+      "bytes": 41404,
+      "segment": 4,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0004_r.json.gz",
+      "current_field_cover_domain_sha256": "dbf6934bd05ecaeafdda6348c2e36ba19e549a78a9e3ade28e4992c10848c852"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0005_ef134f2a18.json.gz",
+      "sha256": "69492ad65a4f225db335c40ac4333c36d98606b9d971f5c77710afc26fc39ab7",
+      "bytes": 40417,
+      "segment": 5,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0005_r.json.gz",
+      "current_field_cover_domain_sha256": "3504e7f07e3b693c24c4ee5ea6df70e44e8bb176ac802bfff953cfc24ee083a2"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0006_ef134f2a18.json.gz",
+      "sha256": "3c0eb3357080463a25ca7de7928126e2e746485d30c0eb647e1f0b67e2580c61",
+      "bytes": 40389,
+      "segment": 6,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0006_r.json.gz",
+      "current_field_cover_domain_sha256": "b0e6703dd35af395469f81e13e81b190c60d0bf2b8a3c0acb0da7e8115fda29d"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0007_ef134f2a18.json.gz",
+      "sha256": "515f0ec85af0f20fc9c497db672b9a00a5703b00024e593d5a25add72a7b5f06",
+      "bytes": 40417,
+      "segment": 7,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0007_r.json.gz",
+      "current_field_cover_domain_sha256": "5350c3eec13fc8fc70017010de95350614a8647ec153b58212cc6ec100baffdb"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0008_ef134f2a18.json.gz",
+      "sha256": "9b3d441b4036e08cdf5c76fc8c7d2ed2edc440bd09bfde3ceac9d4c09552b132",
+      "bytes": 37378,
+      "segment": 8,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0008_r.json.gz",
+      "current_field_cover_domain_sha256": "01521f6b18629ccd3d2304c7b2ccc82236fcbf577b2d996c2c96c009c3098176"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0009_ef134f2a18.json.gz",
+      "sha256": "864d8b7d090e25639bb849aad9c93e0534b357b0bfc3684180c472a402fe4a4c",
+      "bytes": 41397,
+      "segment": 9,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0009_r.json.gz",
+      "current_field_cover_domain_sha256": "6a3c2c804be72780e9dd7232203fc957f5a3ad7371ee2a30b16deebf25f7755b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0010_ef134f2a18.json.gz",
+      "sha256": "c2e56a940c517c74bfb39194d38a79c292283ae1ee2839bbe6bdc5a61221bb7b",
+      "bytes": 37943,
+      "segment": 10,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0010_r.json.gz",
+      "current_field_cover_domain_sha256": "d4363494003726f460008e0dbd2eabd1046bc66e313f348dd167317ff7ee655e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0011_ef134f2a18.json.gz",
+      "sha256": "5ffa37f68ae67f58e1f2015e81a8ed3dce23af212353f6861aafd60a544edda6",
+      "bytes": 39777,
+      "segment": 11,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0011_r.json.gz",
+      "current_field_cover_domain_sha256": "78a82fba666d3cd8448a8377f50d4a6d43d06b7a062d478cf5abd6b4c30e9aaf"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0012_ef134f2a18.json.gz",
+      "sha256": "1b646c36d238ee23e735d763d7313dbf04cbae81a8df2956fe85bd3869593d94",
+      "bytes": 40547,
+      "segment": 12,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0012_r.json.gz",
+      "current_field_cover_domain_sha256": "d02d6eb7862d5d6df2303b9221d8c528aa0a2912b62a902b0aeec828b0dfd819"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0013_ef134f2a18.json.gz",
+      "sha256": "9c9add9fa4591b81e3a886cbdf2426ff5fab8f46db52a2479731d95639689127",
+      "bytes": 41456,
+      "segment": 13,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0013_r.json.gz",
+      "current_field_cover_domain_sha256": "6a1dec114d34ebfb616597b89b3aa9eed54b3bc6b484672637ee2df2588dacf1"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0014_ef134f2a18.json.gz",
+      "sha256": "315fc31ddd23d332a9c13534f498d75444ec75271f00af28c83ad0b7bab06b1b",
+      "bytes": 40637,
+      "segment": 14,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0014_r.json.gz",
+      "current_field_cover_domain_sha256": "faac3b7eb1419010d4c69d23e09ab467603d96e82678b74d6a0b16182fc2a294"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0015_ef134f2a18.json.gz",
+      "sha256": "f54affc453438b11b04bd8b4ce6124f4995a48f21f6d586387c38733118b1d0e",
+      "bytes": 40802,
+      "segment": 15,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0015_r.json.gz",
+      "current_field_cover_domain_sha256": "a218515547c4c23a1250582679c0e6e2363cc694bad5b92b78b9b5734866405e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0016_ef134f2a18.json.gz",
+      "sha256": "8d951812e57bb0970a1a9d81f7a1485fde7cb0fb143f00e52d7bfe4c58a5f451",
+      "bytes": 39701,
+      "segment": 16,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0016_r.json.gz",
+      "current_field_cover_domain_sha256": "614e795defd86474bc99dc5e76d4746e06cb0e43564903d061c1e1a7b16783e3"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0017_ef134f2a18.json.gz",
+      "sha256": "79f24defa07d354f7944d0b0cee3a06fc3c2ec108a9d1b94e5cddb5088f47cdf",
+      "bytes": 41582,
+      "segment": 17,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0017_r.json.gz",
+      "current_field_cover_domain_sha256": "79efcaf7ad75671336ae1d9419ff1cf849fdbbc7f1b8ebdcf3d81dff5ebb53f8"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0018_ef134f2a18.json.gz",
+      "sha256": "dcc7b13a63748c38c699f3e19ddd0888c24b527e9fb63ce85b174433fd97587a",
+      "bytes": 41682,
+      "segment": 18,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0018_r.json.gz",
+      "current_field_cover_domain_sha256": "e63bbecf45c2b607836f66c12e30b1fc32e71f7d03a898ccdbc6fc0530c673d7"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0019_ef134f2a18.json.gz",
+      "sha256": "20802f79ca282486b95d137a8048f9021ec27f1f3c05c61b259864780a46cb35",
+      "bytes": 39778,
+      "segment": 19,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0019_r.json.gz",
+      "current_field_cover_domain_sha256": "6b13dbfffb4559ba3c36af614731c6e60dd49d71bfef8caf08ee45fb0bc92e28"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0020_ef134f2a18.json.gz",
+      "sha256": "77ab483a0863d79a4ef757965b8aca3ac7eb236a9c79ffe7c3a318c7c1344b93",
+      "bytes": 39372,
+      "segment": 20,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0020_r.json.gz",
+      "current_field_cover_domain_sha256": "3222527bc75225fe824d78e16734f91278b91566ea5c742ae93d7f280f0d1fe8"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0021_ef134f2a18.json.gz",
+      "sha256": "caddc3220cc040d04de65507b761358699b6acb8843af6bc280ec41a9930ed82",
+      "bytes": 42789,
+      "segment": 21,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0021_r.json.gz",
+      "current_field_cover_domain_sha256": "edf655480604ee8a7dbf85f22efd592f4fc259fdb1e8b69c709338a27bf8c2c2"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0022_ef134f2a18.json.gz",
+      "sha256": "8b1cd5614fcb082b92e45a9c642942faf6883de3842e0ab3cc0b777a9d1bf8a1",
+      "bytes": 38772,
+      "segment": 22,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0022_r.json.gz",
+      "current_field_cover_domain_sha256": "4992d3a99be8c120b587a615c1b1c1da008f3900c87207b1c35c59b152a2b507"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0023_ef134f2a18.json.gz",
+      "sha256": "42c7305252ab0e52615963876bec183acd2a6999d1758805c9e901e00258f5b6",
+      "bytes": 38448,
+      "segment": 23,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0023_r.json.gz",
+      "current_field_cover_domain_sha256": "1cf8c13c8ac7dd8a1d51535f9434a8dc110e511f57cb11d6949493102df490ad"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0024_ef134f2a18.json.gz",
+      "sha256": "69032174c1e49b62dccd3288701d34a202b0050ef7057611939920481d1ebae8",
+      "bytes": 39776,
+      "segment": 24,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0024_r.json.gz",
+      "current_field_cover_domain_sha256": "cda8779d42408689af455cd4d6860c00ac424ef35b30d5f486b70ae0910d6ef0"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0025_ef134f2a18.json.gz",
+      "sha256": "ddeb04608cf5c58f21dd714b6ed1ace9da947bab477c39e26b2a9a51fa785a3a",
+      "bytes": 38792,
+      "segment": 25,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0025_r.json.gz",
+      "current_field_cover_domain_sha256": "87ba7ec4fd53369b504714acffbc34754c49e3f0a7e0c32effbb95d7acb1ef69"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0026_ef134f2a18.json.gz",
+      "sha256": "cb1a632f6358a1ec75871b32dba79880ec8fae16dd15d4fe431127fe3c9939ef",
+      "bytes": 38267,
+      "segment": 26,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0026_r.json.gz",
+      "current_field_cover_domain_sha256": "5b38bb75971dd54fe3c944fa52755f4f344df8d57d76b85566fe522f2a4d86cc"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0027_ef134f2a18.json.gz",
+      "sha256": "d9c19d49728e1e8c4e3c7b924c9812cd6a35d883f44c15dbd4f547206630664f",
+      "bytes": 36817,
+      "segment": 27,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0027_r.json.gz",
+      "current_field_cover_domain_sha256": "c9a68e6f0a108b6383735932d4a9b7eb8302e3f37b4fca7948743e230da85d66"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0028_ef134f2a18.json.gz",
+      "sha256": "d5a39a75908a668d57013c71aab28c0f6bf0ea24ec68611767cda6d5835c6937",
+      "bytes": 39777,
+      "segment": 28,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0028_r.json.gz",
+      "current_field_cover_domain_sha256": "92f56f568bdcfa8fe9839ca662ff055ef58d3c9f6d4268b827d508e8aac2c9c5"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0029_ef134f2a18.json.gz",
+      "sha256": "cfba33694a5769e547d30b2e723e5ff7caf881c9ad1020e531bcff12ce992756",
+      "bytes": 38983,
+      "segment": 29,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0029_r.json.gz",
+      "current_field_cover_domain_sha256": "0392c7b4a13583ea33584d51705b10d0199c63559568fe6376163cd648b9660f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0030_ef134f2a18.json.gz",
+      "sha256": "d7090023c1ff55176706c3c6a7f3b327b02832e3d3127b58b961f97ea7bf4619",
+      "bytes": 38338,
+      "segment": 30,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0030_r.json.gz",
+      "current_field_cover_domain_sha256": "34e766c11228c575bfceec40421ac9dffc48d0d540058049eb2c4ccc6233d889"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0031_ef134f2a18.json.gz",
+      "sha256": "d84363d7296d76a6476750f3c36ac7d4c9f8803657e5a7a1c14dce420bc13cbe",
+      "bytes": 39714,
+      "segment": 31,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0031_r.json.gz",
+      "current_field_cover_domain_sha256": "9e8ca39238da2fe668e509eba238b8f2f4001c2cf5b13b90dab6bd1a83659218"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0032_ef134f2a18.json.gz",
+      "sha256": "f19bb73c4aa1df56dda9eb02e01a323267428bcfae4ddc924ab34f9b8a32a8f4",
+      "bytes": 38970,
+      "segment": 32,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0032_r.json.gz",
+      "current_field_cover_domain_sha256": "4108efcfb58086a6eb5be66b13e416e3874b83bdf0116071c5bc1297f4516ee9"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0033_ef134f2a18.json.gz",
+      "sha256": "c577a9fbc2d9d9f4e52bfa1202bc51bb85405241ee49837fb10868cbd2490207",
+      "bytes": 38012,
+      "segment": 33,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0033_r.json.gz",
+      "current_field_cover_domain_sha256": "c55fac254a018e4ab3f1096be6b3aa6a22679acc61da6c5d900719a5880729be"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0034_ef134f2a18.json.gz",
+      "sha256": "717dc1a44f6e7c095ea0bc573dca49c0ef05ab02d151f54bba272f8ea30b3850",
+      "bytes": 39315,
+      "segment": 34,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0034_r.json.gz",
+      "current_field_cover_domain_sha256": "f1e8db01e9d569275a42480c73e4a856d72c3fcbb6110ea38a684209b6c9c2a4"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0035_ef134f2a18.json.gz",
+      "sha256": "ab3c42c7dfe55d5b7e9591bccf5e1fdfde1090183eb439c75e49ae47657bcb47",
+      "bytes": 40859,
+      "segment": 35,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0035_r.json.gz",
+      "current_field_cover_domain_sha256": "da9d785b00faf6505407659c19f2a698bf108fe6fad64a496103e1c88a520b1f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0036_ef134f2a18.json.gz",
+      "sha256": "7b2f8628bb0d0b352b0e8a2296fe532b7ec29f3856b72be793a4b943d37c2913",
+      "bytes": 38500,
+      "segment": 36,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0036_r.json.gz",
+      "current_field_cover_domain_sha256": "9b5454e38bd5be31edef9781104bdfaddc223928a3e7e4949638a78baa4b40a8"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0037_ef134f2a18.json.gz",
+      "sha256": "95a0c3a015eca3b0ae81aeeab3588341beab28898300873613c6b9984a884f49",
+      "bytes": 39729,
+      "segment": 37,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0037_r.json.gz",
+      "current_field_cover_domain_sha256": "a26555bf16d5034812fddc72d924c5d410d366e443fce0abac837d708c622615"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0038_ef134f2a18.json.gz",
+      "sha256": "a3dd4b7d4a41033b233509f61938a2581ef2c5a34ca7f8cb08e69ed1dfab9a30",
+      "bytes": 38838,
+      "segment": 38,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0038_r.json.gz",
+      "current_field_cover_domain_sha256": "aa55708dbeff11c4e57d25be0be67f7e0b0f1ff787afa17bed28893120358080"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0039_ef134f2a18.json.gz",
+      "sha256": "4b2de49e34528a080bb85c3153baa88682048b4d8def987149c18633e9d8f80a",
+      "bytes": 40907,
+      "segment": 39,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0039_r.json.gz",
+      "current_field_cover_domain_sha256": "9204e67bf5ca612e2d4be29ef302d8375bf43f864927190412a82910ec51cde1"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0040_ef134f2a18.json.gz",
+      "sha256": "6b5515c51f90ed2fecbc0212c2f89da3a876a091ea861765667f81427d80746f",
+      "bytes": 40131,
+      "segment": 40,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0040_r.json.gz",
+      "current_field_cover_domain_sha256": "30d3708c90b28b244b5f0988cbc9355e75f9c0733219b999f9d119af988b5bf2"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0041_ef134f2a18.json.gz",
+      "sha256": "22e0c22276114a9cad0fcb7d5adec2f92541702130df89776c338dfd8f2db599",
+      "bytes": 39757,
+      "segment": 41,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0041_r.json.gz",
+      "current_field_cover_domain_sha256": "ac2f98735abb581027ef94a0c2ec9a4476db541dacb08bd1b0a4eac087e505af"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0042_ef134f2a18.json.gz",
+      "sha256": "64674fae0fca98c30bbbaf521f4e7a37b1ba347892fb2a25216a44199e87104c",
+      "bytes": 40109,
+      "segment": 42,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0042_r.json.gz",
+      "current_field_cover_domain_sha256": "c8f012d4f79ade00a4762f9306e747f9241b8f13067ca1bd61dd7996fe4253ff"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0043_ef134f2a18.json.gz",
+      "sha256": "fdabbc4e8b280a2c8ae69060a12f77ec9fa858ec556315c4c3354ce6582ac7b6",
+      "bytes": 39727,
+      "segment": 43,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0043_r.json.gz",
+      "current_field_cover_domain_sha256": "85c69f8bfafb52697073e49d2830be30fe97539b5ad03d9d06f709b16cdb8692"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0044_ef134f2a18.json.gz",
+      "sha256": "d62374aa1ed1e750d53d1d72b4068f911d78088b1752bc085f63d65307344ac9",
+      "bytes": 38862,
+      "segment": 44,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0044_r.json.gz",
+      "current_field_cover_domain_sha256": "ab55195ab8a33c9d3465968448de876ed5b28a8c29bf97582fc0ce2eb7614f16"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0045_ef134f2a18.json.gz",
+      "sha256": "d8c0e91d91c22a062d3b8b1137205931d7857365a76e306a5439bc9215180815",
+      "bytes": 41064,
+      "segment": 45,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0045_r.json.gz",
+      "current_field_cover_domain_sha256": "569a639fdd117c1bee1f2e5b4158238bf77be7cd1710bf2373343b273a49f916"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0046_ef134f2a18.json.gz",
+      "sha256": "4411f8bb7f768a1639dea56dfb918c7888c81bbf108cec35203cfa2d301040a2",
+      "bytes": 39868,
+      "segment": 46,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0046_r.json.gz",
+      "current_field_cover_domain_sha256": "5d2d48200782ecbb999685f1535a23fa9af2a98a24ef38fb8352a3f902fbdf16"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0047_ef134f2a18.json.gz",
+      "sha256": "1bef79deb6f48d02a27c92e7a676d9fd6ee4545ba4d6be05d95a43e87c916a07",
+      "bytes": 38307,
+      "segment": 47,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0047_r.json.gz",
+      "current_field_cover_domain_sha256": "b50ceb13b6cf18a6b3466c127ce2f2686ca7171f3de8148ee2a0bc2b346fb84e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0048_ef134f2a18.json.gz",
+      "sha256": "749f3a51b073a4c284f6e8b46ad1ec17028821ca8d22a5b67a08892c984d478f",
+      "bytes": 39448,
+      "segment": 48,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0048_r.json.gz",
+      "current_field_cover_domain_sha256": "5c90338045c88ed774562f167502b4de832d689b035db92b8b6e77d3b8def42a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0049_ef134f2a18.json.gz",
+      "sha256": "702b255d6a5d09209ff06ab6958c2b064b07b50ac1cd15f3ec1125d2b4e5e711",
+      "bytes": 39877,
+      "segment": 49,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0049_r.json.gz",
+      "current_field_cover_domain_sha256": "b55bf9032e5f26a24ce61a0c7bfb4816f9f6551112bab0f21c315380afaf02d6"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0050_ef134f2a18.json.gz",
+      "sha256": "e9accfb1c992fed588aaeecb47559cd4121a9bb986ca5fd2512780b60174d929",
+      "bytes": 38906,
+      "segment": 50,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0050_r.json.gz",
+      "current_field_cover_domain_sha256": "ebab7fc53712bfafad027ffa49413d2d289337d77f5bbc546f0827a43fdeeebe"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0051_ef134f2a18.json.gz",
+      "sha256": "673576ad9452b600fc7dcc6dae76cc0721a9dd305bbb9cda4a6c91920007d4cb",
+      "bytes": 39899,
+      "segment": 51,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0051_r.json.gz",
+      "current_field_cover_domain_sha256": "ab67e4d04cd6259b4261825ad825a5e95a5acdb98877bc3e8131fa0aa17b478b"
+    }
+  ],
+  "completed_segments": 52,
+  "whole_forward_leg": false,
+  "input_cover_snapshots": [
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_forward.json.gz",
+      "sha256": "5cf017df6f91a1e5d29a6464a9c3fcf8b82586fda10f9c28fcbd14d218ca6271",
+      "completed_cases": 550
+    }
+  ],
+  "seed_only_from_segment": 56,
+  "no_local_sampling_at_or_after_seed_only_from": true,
+  "dynamic_block_seed_source_sha256": "70d6c212c0f7d635d599263d31b5484860b77cc547fc77941983b2cef8b16109",
+  "dynamic_block_seed_evidence": [],
+  "resumed_previous_controller": {
+    "path": "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_cover_v7.py",
+    "sha256": "9e1f6fa02c17b3e462b29398aceb7e70457eddc37dfa52223b94ab663e3c0988",
+    "completed_segments": 51
+  },
+  "summary": {
+    "A": {
+      "ball": "[4.0774405128127141654646477265848778e-10 +/- 9.85e-46]",
+      "lower": "[4.0774405128127141654646477265848778e-10 +/- 9.85e-46]",
+      "upper": "[4.0774405128127141654646477265848778e-10 +/- 9.85e-46]",
+      "mid_float": 4.077440512812714e-10,
+      "radius_upper_float": 0.0
+    },
+    "E": {
+      "ball": "[1.4476236123003103804923483743871307e-19 +/- 3.11e-54]",
+      "lower": "[1.4476236123003103804923483743871307e-19 +/- 3.11e-54]",
+      "upper": "[1.4476236123003103804923483743871307e-19 +/- 3.11e-54]",
+      "mid_float": 1.4476236123003105e-19,
+      "radius_upper_float": 0.0
+    },
+    "omitted_local_J": {
+      "ball": "[2.5124719301853874694299204055967011e-20 +/- 1.69e-55]",
+      "lower": "[2.5124719301853874694299204055967011e-20 +/- 1.69e-55]",
+      "upper": "[2.5124719301853874694299204055967011e-20 +/- 1.69e-55]",
+      "mid_float": 2.5124719301853874e-20,
+      "radius_upper_float": 0.0
+    },
+    "R": {
+      "ball": "0.00097656250000000000000000000000000000",
+      "lower": "0.00097656250000000000000000000000000000",
+      "upper": "0.00097656250000000000000000000000000000",
+      "mid_float": 0.0009765625,
+      "radius_upper_float": 0.0
+    },
+    "R72_smallness_passed": true,
+    "finite_first_A_inner": {
+      "ball": "[2.1787827587739413943276139690966076e-11 +/- 6.53e-47]",
+      "lower": "[2.1787827587739413943276139690966076e-11 +/- 6.53e-47]",
+      "upper": "[2.1787827587739413943276139690966076e-11 +/- 6.53e-47]",
+      "mid_float": 2.1787827587739415e-11,
+      "radius_upper_float": 0.0
+    },
+    "finite_cross_second_A_inner": {
+      "ball": "[8.9489620673880095449199147403955511e-22 +/- 1.26e-57]",
+      "lower": "[8.9489620673880095449199147403955511e-22 +/- 1.26e-57]",
+      "upper": "[8.9489620673880095449199147403955511e-22 +/- 1.26e-57]",
+      "mid_float": 8.948962067388009e-22,
+      "radius_upper_float": 0.0
+    },
+    "true_coordinate_flow_error_with_all_local_J_paid": {
+      "ball": "[1.6992268226405109652272396622089663e-19 +/- 3.62e-54]",
+      "lower": "[1.6992268226405109652272396622089663e-19 +/- 3.62e-54]",
+      "upper": "[1.6992268226405109652272396622089663e-19 +/- 3.62e-54]",
+      "mid_float": 1.6992268226405109e-19,
+      "radius_upper_float": 0.0
+    }
+  },
+  "exact_final_time": {
+    "rational": "-2285335002245159/2251799813685248",
+    "pi_coefficient": "0"
+  },
+  "accumulator_path": "data/phase_ring_continuation/step5_forward_density_prefix_checks/prefix0052_before_session_recovery/ordered_accumulator.json.gz",
+  "accumulator_sha256": "d52b1b805e7940fe325d50b3712b02635f553fe6e24577dc24f88965c7e410de",
+  "all_listed_time_and_finite_reference_seams_exact": true,
+  "wall_seconds_this_process": 520.1109809290028,
+  "snapshot_of_index_path": "data/phase_ring_continuation/step5_forward_density_complete/index.json",
+  "snapshot_of_index_sha256": "8bc26a9c8953b36148bf43f380aaa52782a7ff8114f5712c3e1e2937df378a85"
+}

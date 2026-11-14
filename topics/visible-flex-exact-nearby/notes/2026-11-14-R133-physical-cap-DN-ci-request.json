@@ -1,0 +1,7 @@
+{
+  "topic": "visible-flex-exact-nearby",
+  "command": "python -m pip install -q numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0 sympy==1.14.0 && OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_cap_DN_runner.py --topic topics/visible-flex-exact-nearby --work \"$RUNNER_TEMP/visible-physical-cap-DN\" --out-dir \"$OUT_DIR\" --address-space-mib 6144",
+  "timeout_minutes": 300,
+  "python": "3.12.14",
+  "node": "24"
+}

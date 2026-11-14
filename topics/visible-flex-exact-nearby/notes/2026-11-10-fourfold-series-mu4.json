@@ -1,0 +1,252 @@
+{
+  "parameters": {
+    "order": 7,
+    "points": 1601,
+    "length": 4.0,
+    "mu": 5.656854249492381,
+    "A": 33.4142135623731,
+    "mean": "depth",
+    "bump_radius": 0.125,
+    "mu_scale": 4.0
+  },
+  "transversality": {
+    "mean": "depth",
+    "bump_radius": 0.125,
+    "discrete_mean_multiplier": 15.654090208141081,
+    "direct_projection": 2.9326095748383345,
+    "kernel_half_norm_squared": 0.18733823146829603,
+    "depth_expected_normalized_projection": 15.65409020814117
+  },
+  "recursion": [
+    {
+      "order": 2,
+      "mean_previous": null,
+      "critical_multiplier": null,
+      "maximum_coefficient_norm_sample": 3.5582284732134006
+    },
+    {
+      "order": 3,
+      "mean_previous": 53.41265711906737,
+      "critical_multiplier": 1.3546605488247536e-13,
+      "maximum_coefficient_norm_sample": 26.975297784814735
+    },
+    {
+      "order": 4,
+      "mean_previous": null,
+      "critical_multiplier": null,
+      "maximum_coefficient_norm_sample": 273.7448568087845
+    },
+    {
+      "order": 5,
+      "mean_previous": -598.909240103539,
+      "critical_multiplier": 2.0058837093364962e-11,
+      "maximum_coefficient_norm_sample": 3250.177270671328
+    },
+    {
+      "order": 6,
+      "mean_previous": null,
+      "critical_multiplier": null,
+      "maximum_coefficient_norm_sample": 46404.44021250635
+    },
+    {
+      "order": 7,
+      "mean_previous": 126290.17456423964,
+      "critical_multiplier": 7.304823800372321e-09,
+      "maximum_coefficient_norm_sample": 718819.9962821045
+    }
+  ],
+  "kind": "floating_diagnostic_not_proof",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "limitations": [
+    "Finite Robin endpoint approximates the true whole-line inverse.",
+    "Eighth-order finite differences have no interval error bounds.",
+    "Metric diagnostics use actual quintic spline derivatives.",
+    "Finite radial and angular samples do not bound continuous suprema.",
+    "No true fixed flat caps, no nonlinear exact isometry, no certified reach."
+  ],
+  "diagnostics": [
+    {
+      "epsilon": 0.02,
+      "order": 1,
+      "core": 3.0,
+      "diameter_sample": 2.2939205474197464,
+      "waist_signed_radial_gap": 0.040000000000000036,
+      "waist_signed_gap_over_sampled_diameter": 0.01743739557370151,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.002804612028669473,
+      "at_x": 0.0,
+      "at_theta": 0.0,
+      "minimum_mean_xx": 3.589603662071276e-09,
+      "minimum_mean_tt": 1.135972287159642e-10
+    },
+    {
+      "epsilon": 0.03,
+      "order": 1,
+      "core": 3.0,
+      "diameter_sample": 2.2959745506053695,
+      "waist_signed_radial_gap": 0.06000000000000005,
+      "waist_signed_gap_over_sampled_diameter": 0.026132693842002785,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.006288331651269551,
+      "at_x": 0.0,
+      "at_theta": 0.39269908169872414,
+      "minimum_mean_xx": 3.589603662071276e-09,
+      "minimum_mean_tt": 1.135972287159642e-10
+    },
+    {
+      "epsilon": 0.05,
+      "order": 1,
+      "core": 3.0,
+      "diameter_sample": 2.300203285063903,
+      "waist_signed_radial_gap": 0.10000000000000009,
+      "waist_signed_gap_over_sampled_diameter": 0.04347441839133881,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.01727447216890595,
+      "at_x": 0.0,
+      "at_theta": 0.0,
+      "minimum_mean_xx": 3.589603662071276e-09,
+      "minimum_mean_tt": 1.135972287159642e-10
+    },
+    {
+      "epsilon": 0.02,
+      "order": 3,
+      "core": 3.0,
+      "diameter_sample": 2.2995709256532533,
+      "waist_signed_radial_gap": 0.040122244001976615,
+      "waist_signed_gap_over_sampled_diameter": 0.017447708854893808,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.0004965176329254145,
+      "at_x": 0.0,
+      "at_theta": 0.39269908169872414,
+      "minimum_mean_xx": 3.6402819849361183e-09,
+      "minimum_mean_tt": 1.1520193276589104e-10
+    },
+    {
+      "epsilon": 0.03,
+      "order": 3,
+      "core": 3.0,
+      "diameter_sample": 2.308738929129531,
+      "waist_signed_radial_gap": 0.060412573506672285,
+      "waist_signed_gap_over_sampled_diameter": 0.026166914216433197,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.0024606864021396585,
+      "at_x": 0.0,
+      "at_theta": 0.39269908169872414,
+      "minimum_mean_xx": 3.7041294407566412e-09,
+      "minimum_mean_tt": 1.1722364000114421e-10
+    },
+    {
+      "epsilon": 0.05,
+      "order": 3,
+      "core": 3.0,
+      "diameter_sample": 2.3361486174455917,
+      "waist_signed_radial_gap": 0.1019100625308893,
+      "waist_signed_gap_over_sampled_diameter": 0.043623107609617975,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.017680826236841665,
+      "at_x": 0.0,
+      "at_theta": 0.39269908169872414,
+      "minimum_mean_xx": 3.91217128943483e-09,
+      "minimum_mean_tt": 1.238112793778625e-10
+    },
+    {
+      "epsilon": 0.02,
+      "order": 5,
+      "core": 3.0,
+      "diameter_sample": 2.2995471299424786,
+      "waist_signed_radial_gap": 0.04012782961390493,
+      "waist_signed_gap_over_sampled_diameter": 0.017450318408959376,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 5.7699299460403216e-05,
+      "at_x": 0.0,
+      "at_theta": 0.39269908169872414,
+      "minimum_mean_xx": 3.6400538920626e-09,
+      "minimum_mean_tt": 1.1519471030332056e-10
+    },
+    {
+      "epsilon": 0.03,
+      "order": 5,
+      "core": 3.0,
+      "diameter_sample": 2.308619970821732,
+      "waist_signed_radial_gap": 0.06045498924725301,
+      "waist_signed_gap_over_sampled_diameter": 0.02618663531084963,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.0006286985231016643,
+      "at_x": 0.0,
+      "at_theta": 0.39269908169872414,
+      "minimum_mean_xx": 3.7029647115225036e-09,
+      "minimum_mean_tt": 1.1718675917010657e-10
+    },
+    {
+      "epsilon": 0.05,
+      "order": 5,
+      "core": 3.0,
+      "diameter_sample": 2.335232492148504,
+      "waist_signed_radial_gap": 0.10245553244576766,
+      "waist_signed_gap_over_sampled_diameter": 0.04387380391042119,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.011958712821842955,
+      "at_x": 0.0,
+      "at_theta": 0.39269908169872414,
+      "minimum_mean_xx": 3.902939974863654e-09,
+      "minimum_mean_tt": 1.2351896794543868e-10
+    },
+    {
+      "epsilon": 0.02,
+      "order": 7,
+      "core": 3.0,
+      "diameter_sample": 2.299549277935131,
+      "waist_signed_radial_gap": 0.04012779377308806,
+      "waist_signed_gap_over_sampled_diameter": 0.017450286522722666,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 8.055634757471779e-06,
+      "at_x": 0.0,
+      "at_theta": 0.39269908169872414,
+      "minimum_mean_xx": 3.640073130687569e-09,
+      "minimum_mean_tt": 1.1519531948608615e-10
+    },
+    {
+      "epsilon": 0.03,
+      "order": 7,
+      "core": 3.0,
+      "diameter_sample": 2.3086445810336733,
+      "waist_signed_radial_gap": 0.060454376873290694,
+      "waist_signed_gap_over_sampled_diameter": 0.02618609090803524,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.0001961845123699968,
+      "at_x": 0.0,
+      "at_theta": 0.39269908169872414,
+      "minimum_mean_xx": 3.703185740069983e-09,
+      "minimum_mean_tt": 1.1719375797805073e-10
+    },
+    {
+      "epsilon": 0.05,
+      "order": 7,
+      "core": 3.0,
+      "diameter_sample": 2.3357742083496076,
+      "waist_signed_radial_gap": 0.10243365694699735,
+      "waist_signed_gap_over_sampled_diameter": 0.043854263216380876,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.01021887220325552,
+      "at_x": 0.0,
+      "at_theta": 6.021385919380436,
+      "minimum_mean_xx": 3.9078050641151465e-09,
+      "minimum_mean_tt": 1.2367302195120712e-10
+    }
+  ]
+}

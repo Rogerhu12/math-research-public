@@ -1,0 +1,326 @@
+{
+  "schema": "visible-exact-R133-actual-compact-ray-endpoint-rho5-v2",
+  "complete": true,
+  "all_passed": true,
+  "gate_count": 48,
+  "gates": [
+    {
+      "name": "full_V_D_transport",
+      "passed": true,
+      "cleared_numerator": "0"
+    },
+    {
+      "name": "full_V_J_transport",
+      "passed": true,
+      "cleared_numerator": "0"
+    },
+    {
+      "name": "log_velocity_full_V_cancellation",
+      "passed": true,
+      "cleared_numerator": "0"
+    },
+    {
+      "name": "complete_B_D_identity",
+      "passed": true,
+      "cleared_numerator": "0"
+    },
+    {
+      "name": "complete_B_J_identity",
+      "passed": true,
+      "cleared_numerator": "0"
+    },
+    {
+      "name": "complete_B_log_velocity",
+      "passed": true,
+      "cleared_numerator": "0"
+    },
+    {
+      "name": "ray_source_radial_split",
+      "passed": true,
+      "cleared_numerator": "0"
+    },
+    {
+      "name": "J_inverse_full_Banach_gap",
+      "passed": true,
+      "bound": "64/61"
+    },
+    {
+      "name": "D_inverse_full_Banach_gap",
+      "passed": true,
+      "bound": "4096/3965"
+    },
+    {
+      "name": "sqrt_D_minus_one",
+      "passed": true,
+      "bound": "131/3965",
+      "target": "3/64"
+    },
+    {
+      "name": "v_minus_one",
+      "passed": true,
+      "coefficient": "384/61"
+    },
+    {
+      "name": "v_full_norm",
+      "passed": true,
+      "bound": "9/8"
+    },
+    {
+      "name": "d_full_norm",
+      "passed": true,
+      "coefficient": "128/61"
+    },
+    {
+      "name": "delta_D_all_components",
+      "passed": true,
+      "coefficient": "67/32"
+    },
+    {
+      "name": "delta_d_all_components",
+      "passed": true,
+      "coefficient": "17/4"
+    },
+    {
+      "name": "delta_v_all_components",
+      "passed": true,
+      "coefficient": 14
+    },
+    {
+      "name": "quadratic_d_term_retained",
+      "passed": true,
+      "coefficient": "1/4"
+    },
+    {
+      "name": "complete_radial_response_integral",
+      "passed": true,
+      "coefficient": 128
+    },
+    {
+      "name": "actual_quartic_lower",
+      "passed": true,
+      "value": "59535/32768"
+    },
+    {
+      "name": "actual_quartic_upper_with_7_over_B",
+      "passed": true,
+      "value": "2919448902679817080510298303919400039008061858007482368007/1569275433846670190958947355801916604025588861116008628224"
+    },
+    {
+      "name": "actual_quartic_first_derivative",
+      "passed": true,
+      "left": "945/512",
+      "right": "3825/4096"
+    },
+    {
+      "name": "actual_quartic_derivative_monotonicity",
+      "passed": true,
+      "endpoint_max": "-915/32"
+    },
+    {
+      "name": "q_t_ratio_first",
+      "passed": true,
+      "squared_denominator": "7/4"
+    },
+    {
+      "name": "q_t_over_q_squared",
+      "passed": true,
+      "squared_denominator": "343/64"
+    },
+    {
+      "name": "sqrt_two_upper",
+      "passed": true,
+      "value": "9/4"
+    },
+    {
+      "name": "all_six_H_composition_jets",
+      "passed": true,
+      "maximum_column_sum": "2923003279766041343390573118876095858344472870919/2923003274661805836407369665432566039311865085952"
+    },
+    {
+      "name": "ordered_variation_A_minus_one",
+      "passed": true,
+      "coefficient": "25769803776/4294967293"
+    },
+    {
+      "name": "ordered_variation_A_norm",
+      "passed": true,
+      "bound": "4294967299/4294967293"
+    },
+    {
+      "name": "inverse_jet_1",
+      "passed": true,
+      "bound": "1/4294967295"
+    },
+    {
+      "name": "inverse_jet_2",
+      "passed": true,
+      "bound": "18446744073709551616/79228162458924105385300197375"
+    },
+    {
+      "name": "inverse_jet_3",
+      "passed": true,
+      "bound": "113427455693131596163967760872952037376/487167211876497028130424713452528639238970103125"
+    },
+    {
+      "name": "inverse_jet_4",
+      "passed": true,
+      "bound": "139491149935082085878326821563617241302508161028935647232/599109924960242837281150758049070736755577788072439704728317046875"
+    },
+    {
+      "name": "inverse_jet_5",
+      "passed": true,
+      "bound": "7719472655362334830997130745257717557741287737906055296965172456189929193472/33154882357843855999339637921655230802796369689949095841298221931553638295836919140625"
+    },
+    {
+      "name": "inverse_jet_6",
+      "passed": true,
+      "bound": "47466379150704853637416275112430165291929057055745839501748636331916969393495972982575360638976/203866543121431748414801125739903991080151566588644412428565346852305292969376200735361067097797373046875"
+    },
+    {
+      "name": "inverse_jet_7",
+      "passed": true,
+      "bound": "291866720312813712631146872148604609872749585384816727472391272569097268044056671325050624746245741001838723858432/1253557981467241196252841901294606552585085696489387626102157697303335702153164177068006865785375722990698759621185791015625"
+    },
+    {
+      "name": "inverse_jet_8",
+      "passed": true,
+      "bound": "5383990851191746919018168769891938869356911901119917879235104787745413142675352864759661405504710635961796620482006233140245274034176/23124063254914158405308728108942805336437244463597736537668530078330526818228764543567712346003079385838577326736342126976887162309185791015625"
+    },
+    {
+      "name": "all_six_inverse_composition_jets",
+      "passed": true,
+      "maximum_column_sum": "91343852652196151772250924343587372149292138503/91343852333181432387730302044767688728495783936"
+    },
+    {
+      "name": "all_six_return_composition_jets",
+      "passed": true,
+      "maximum_column_sum": "340282381182007865449582951137633080911/340282366920938463463374607431768211456"
+    },
+    {
+      "name": "return_inverse_J_minus_one",
+      "passed": true,
+      "coefficient": "12884901888/2147483645"
+    },
+    {
+      "name": "return_inverse_J_norm",
+      "passed": true,
+      "bound": "2147483648/2147483645"
+    },
+    {
+      "name": "all_compact_G_integral_terms",
+      "passed": true,
+      "a_sqrt_B_coefficient": "7169/2",
+      "inverse_sqrt_B_coefficient": 8
+    },
+    {
+      "name": "single_ray_compact_coefficient",
+      "passed": true,
+      "coefficient": 120261246976
+    },
+    {
+      "name": "return_compact_coefficient",
+      "passed": true,
+      "coefficient": 1099528929280
+    },
+    {
+      "name": "single_ray_actual_response",
+      "passed": true
+    },
+    {
+      "name": "inverse_ray_actual_response",
+      "passed": true
+    },
+    {
+      "name": "return_actual_response",
+      "passed": true
+    },
+    {
+      "name": "current_complete_global_r_smallness",
+      "passed": true,
+      "exponent": -102088
+    },
+    {
+      "name": "angular_operator_full_safe_factor",
+      "passed": true,
+      "explicit_factor": 256
+    }
+  ],
+  "output_contracts": {
+    "single_ray_inverse_and_return_Cstar6": "2^843 Ncal_i X P_j rho^5",
+    "complete_angular_strong_derivative": "2^853 Ncal_i X P_j rho^5 : H^(s+1) -> H^s, -1<=s<=1",
+    "response_input": "L.2 full two-component A_2^2 sum; no response left as an uncomputed placeholder",
+    "gamma_columns": "both actual D_Omega Gamma_i retained separately",
+    "component_N": "sum of (N_k^c)^# over all intersecting cells, at most two",
+    "all_mean_retained": true,
+    "all_fourier_retained": true,
+    "density_shear_kernel_not_paid_by_this_consumer": true,
+    "full_F_inverse_not_claimed": true
+  },
+  "computations": {
+    "symbolic": "exact rational SymPy cancellation",
+    "numeric": "Python integers and Fraction only; no floating evaluation",
+    "inverse_jets": "all orders 1..8",
+    "composition_jets": "all orders 0..6"
+  },
+  "recovered_old_temporary_report": false,
+  "scientific_scope": "new exact execution after runtime recovery, not a replay of vanished temporary bytes",
+  "producer_sha256": "78fd0786c2346e156294131e86c51faf17563861f1c04da10fc9b7091b3ce85d",
+  "python_version": "3.12.14",
+  "sympy_version": "1.14.0",
+  "inputs": [
+    {
+      "path": "results/R119-supplement-actual-compact-profile-flux-gauge-and-principal-port-derivative.md",
+      "sha256": "f26969b78a77f735de58cdedf7b55dd2ef001e643d0ba2032a215f779b10b60f",
+      "git_blob_sha": "1418581428ea76ede13a0a84ef718a92686d900f",
+      "bytes": 19440
+    },
+    {
+      "path": "results/R119-supplement-actual-compact-profile-label-response.md",
+      "sha256": "ce7285a1e7818098e64ce68d706e0830f2d2dbc020e531fb2bc898af702f0030",
+      "git_blob_sha": "b4dc2199f9cfad8d7905068b84c7d658cf30abac",
+      "bytes": 16581
+    },
+    {
+      "path": "results/R119-supplement-controlled-profile-full-label-and-raw-ports.md",
+      "sha256": "ff11cb043128a5d66ee996bb174edda0d6537fe73f9a7a565ba143d2ab5c04d0",
+      "git_blob_sha": "f11edbccd752bf034aa40e71888859d667a04b42",
+      "bytes": 26070
+    },
+    {
+      "path": "results/R119-supplement-controlled-tail-actual-joint-phase-and-remainder.md",
+      "sha256": "27325857e088e8266a322bcabe82c59a6cc1f06f225b2616c8490b553af5d45c",
+      "git_blob_sha": "fc3aab62e99a51cc06bd26a7233663a2b8e4dd73",
+      "bytes": 16272
+    },
+    {
+      "path": "results/R119-supplement-actual-strict-density-complete-relative-Cauchy.md",
+      "sha256": "dcf33b5e85b2a059963760d68b68f096fb4e764ebf248cc2a3805a3225b208dd",
+      "git_blob_sha": "ce2ae0beeb75d96db8f433ee6ebaeb88bfcf96e7",
+      "bytes": 22862
+    },
+    {
+      "path": "results/R119-supplement-radial-phase-compensation-and-full-Wronskian-Hessian.md",
+      "sha256": "3da66560cf5dafd91b2b731400c1769d7042be9994e57a6f9fa81f5dfd1394c0",
+      "git_blob_sha": "dd0d1378fce997297795ce14312fe91b181af4b1",
+      "bytes": 15288
+    },
+    {
+      "path": "results/R119-supplement-high-oscillation-polynomial-phase-preserving-control.md",
+      "sha256": "e0d7269e399043c2d121d9cd95007fcad2fecf9e472c0cf5ceb3c08d360eb5d6",
+      "git_blob_sha": "30de43573d98bc4dcc2923561fed2e16a18cf51d",
+      "bytes": 12310
+    },
+    {
+      "path": "results/R119-supplement-high-oscillation-small-amplitude-Hessian.md",
+      "sha256": "93bfc53dbf6e58f748924f156799e4d76bf2eb6a13ce7ce6cd0dc0c172e7e0b7",
+      "git_blob_sha": "8a359f45c35e513e786b11d6217a20c345ced5eb",
+      "bytes": 9210
+    },
+    {
+      "path": "results/R133-supplement-actual-compact-ray-endpoint-response.md",
+      "sha256": "a368b51e8997019373cdb3f9e98214524a86f6940ef8750c328814fd0aef31ba",
+      "git_blob_sha": "e2ffbe218a948f280aa730d2b836a5f9304e26a4",
+      "bytes": 15534
+    }
+  ]
+}

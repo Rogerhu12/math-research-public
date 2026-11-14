@@ -1,0 +1,205 @@
+{
+  "schema": "visible-exact-R119-actual-long-radial-nonlinear-bvp-v1",
+  "scope": "The same actual R74 long radial annulus: complete nonlinear Dirichlet solution, both trace outputs, full mean, and exact horizontal reconstruction. The nonlinear tail/body matching inverse is not asserted.",
+  "inputs": {
+    "T": 16777216,
+    "B": "134217703/8",
+    "omega_interval": [
+      "7/5",
+      "3/2"
+    ],
+    "example_physical_angle_width": "1/512",
+    "complete_boundary_radius": "2^-25",
+    "complete_solution_radius": "2^-20",
+    "source_R72_blob": "a7c78793ba18724a4f0553b6ccd55259b8f4df92",
+    "source_R25_blob": "be20257721fed270c59a4024427042fc76ee0073",
+    "file_sha256": {
+      "results/R74-actual-full-tail-robin-and-augmented-positive-cap.md": "174bc93631b5ade0faf51160d7026e42d674916fd94e12cdb2315479458c18d8",
+      "results/R119-actual-final-connector-all-label-continuation.md": "8b4f7d46321709e9151abb930748d1d28545a5b41b1329813cd7301747c8a083",
+      "results/R119-supplement-full-installed-connector-with-paid-label-weight.md": "6929ed13861b8b7560066f686e72c2a4e8ea4d232d201385e2f3fb941c0982ab",
+      "results/R119-supplement-actual-long-radial-nonlinear-dirichlet-problem.md": "1241e0df199d8aa1487d2d1b3b0cf5b60615f3eb21b51bfa207ad54b30cd6d7c",
+      "scripts/fourfold_long_radial_nonlinear_bvp_20261113.py": "d729c3c88038565025ee0e176f9b20f55cac585c50393bb03b2665a6889047b5"
+    }
+  },
+  "checks": [
+    {
+      "name": "actual_log_length_exceeds_one",
+      "pass": true,
+      "evidence": "L = omega (2^24-25/8), omega > 7/5"
+    },
+    {
+      "name": "full_kernel_reflection_denominator",
+      "pass": true,
+      "evidence": "For M>=4, L>1 and e>2: exp(-2ML)<2^-8<1/2"
+    },
+    {
+      "name": "green_height_constant",
+      "pass": true,
+      "evidence": "2M^2/(M^2-4) decreases for M>=4"
+    },
+    {
+      "name": "green_derivative_kernel_constant",
+      "pass": true,
+      "evidence": "2(1+2/M)<=3 for M>=4"
+    },
+    {
+      "name": "green_first_jet_constant",
+      "pass": true,
+      "evidence": "6M^2/(M^2-4) decreases for M>=4"
+    },
+    {
+      "name": "green_second_jet_constant",
+      "pass": true,
+      "evidence": "Htt=F-4Ht+(M^2-4)H"
+    },
+    {
+      "name": "complete_same_width_green",
+      "pass": true,
+      "evidence": "Y norm sums all three strong jets before summing frequencies"
+    },
+    {
+      "name": "homogeneous_lift_first_jet",
+      "pass": true,
+      "evidence": "M |A_t| and M |B_t| <= 6 M^2"
+    },
+    {
+      "name": "homogeneous_lift_second_jet",
+      "pass": true,
+      "evidence": "|Htt| <= (M^2-4) 2 + 4 (6M) <= 8M^2"
+    },
+    {
+      "name": "two_lift_complete_norm",
+      "pass": true,
+      "evidence": "The two boundary amplitudes are summed in the boundary norm"
+    },
+    {
+      "name": "five_mean_input_coefficients",
+      "pass": true,
+      "evidence": "P, U, Kperp, Kperp+U, V-P coefficients in the Y norm"
+    },
+    {
+      "name": "relative_mean_root_domain",
+      "pass": true,
+      "evidence": "The complete R25 root is used within its actual complex ball"
+    },
+    {
+      "name": "complete_mean_quadratic_constant",
+      "pass": true,
+      "evidence": "|K0| <= 12 R^2 < 256 Y^2"
+    },
+    {
+      "name": "four_relative_state_coefficients",
+      "pass": true,
+      "evidence": "P, Kperp, U and V coefficients; the mean is added separately"
+    },
+    {
+      "name": "full_relative_state_bound",
+      "pass": true,
+      "evidence": "N <= (25/8)Y+256Y^2 < 4Y"
+    },
+    {
+      "name": "quadratic_source_constant",
+      "pass": true,
+      "evidence": "The complete unprojected R119 quadratic source is <=32 N^2"
+    },
+    {
+      "name": "holomorphic_source_lipschitz",
+      "pass": true,
+      "evidence": "Directional Cauchy circle of radius r within the 2r ball"
+    },
+    {
+      "name": "fixed_point_radius_in_cauchy_domain",
+      "pass": true,
+      "evidence": "2r*=2^-19<2^-10"
+    },
+    {
+      "name": "boundary_ball_pays_half_radius",
+      "pass": true,
+      "evidence": "Boundary norm <=2^-25=r*/32"
+    },
+    {
+      "name": "nonlinear_image_correction",
+      "pass": true,
+      "evidence": "The nonlinear correction has norm <=r*/64"
+    },
+    {
+      "name": "closed_ball_selfmap",
+      "pass": true,
+      "evidence": "The true complete nonlinear fixed-point map is a selfmap"
+    },
+    {
+      "name": "full_nonlinear_contraction",
+      "pass": true,
+      "evidence": "No frequency truncation enters this contraction constant"
+    },
+    {
+      "name": "two_endpoint_neumann_error",
+      "pass": true,
+      "evidence": "Both endpoint |m| weighted derivative errors are retained"
+    },
+    {
+      "name": "both_endpoint_mean_slopes",
+      "pass": true,
+      "evidence": "Each endpoint mean slope is normalized by its own actual w"
+    },
+    {
+      "name": "mean_height_integral_constant",
+      "pass": true,
+      "evidence": "(aw)_t=2aw, so integral_0^t aw ds <= aw(t)/2"
+    },
+    {
+      "name": "physical_slope_over_radius",
+      "pass": true,
+      "evidence": "w/a=1/(4 omega)<5/28"
+    },
+    {
+      "name": "physical_K_plus_U",
+      "pass": true,
+      "evidence": "The actual mean root is included in K+U"
+    },
+    {
+      "name": "physical_full_quadratic_source",
+      "pass": true,
+      "evidence": "The unprojected source, including its mean, is controlled"
+    },
+    {
+      "name": "physical_vertical_hessian",
+      "pass": true,
+      "evidence": "Sum of both diagonal and both off-diagonal polar Hessian entries"
+    },
+    {
+      "name": "physical_horizontal_hessian",
+      "pass": true,
+      "evidence": "2^12 (w^2/a)N, with a<7e-6 and N<4Y"
+    },
+    {
+      "name": "physical_complete_C2_radius",
+      "pass": true,
+      "evidence": "The actual radial normalization cancels all inverse-radius costs"
+    },
+    {
+      "name": "actual_annulus_global_injectivity",
+      "pass": true,
+      "evidence": "Radial plus shorter-arc path has length <3|x-y|; use the full Cartesian derivative norm"
+    },
+    {
+      "name": "mean_identity_scalar_nonzero",
+      "pass": true,
+      "evidence": "R25: |<D^-3/2(1+K+EU)>-1|<9R<1/2; w>0 separately"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "actual_installed_interval": true,
+    "complete_nonlinear_full_frequency_solution": true,
+    "same_angle_width_green": true,
+    "green_bound_independent_of_actual_length": true,
+    "both_endpoint_trace_errors": true,
+    "complete_mean_holonomy": true,
+    "mean_height_difference_is_output": true,
+    "exact_horizontal_reconstruction": true,
+    "two_bump_propagation_included": false,
+    "nonlinear_regular_high_input_inverse": false,
+    "global_matching_and_final_family": false
+  }
+}

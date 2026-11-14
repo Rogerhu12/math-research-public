@@ -1,0 +1,118 @@
+{
+  "kind": "exact_real_parameter_principal_return_existence_inputs",
+  "proved": true,
+  "source_sha256": "d43c40d72743f61b7fdbd998b1d9663e303a408dcff7bcc9e19452435d80021c",
+  "target_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "frozen_direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "strip_certificate_sha256": "30001c1a7e7de13e89924163cdbf79c95a5a1e2269430d9f5ee93038c12f2e80",
+  "target_type_certificate_sha256": "33385f661f1ab87cac0533343baafad5d80c3516c6f2d2d7858e58f74852b436",
+  "common_root_certificate_sha256": "b5900c391667b2a1be90912f2abaf58eaea66dfc51c082a8db39ea582b4b94a8",
+  "exact_parameter_interval": [
+    "-121752327348511917093/72057594037927936000000",
+    "-121680269754473989157/72057594037927936000000"
+  ],
+  "physical_theta_strip": "1/56",
+  "exact_root_common_span": [
+    "8556839292003943/36028797018963968",
+    "8636031980136455/36028797018963968"
+  ],
+  "scalar_continuity": [
+    {
+      "profile": "base",
+      "degree": 5,
+      "minimum_interior_continuity": 4,
+      "distinct_interior_knots": 2395,
+      "exact_equal_knots_counted": true
+    },
+    {
+      "profile": "phase",
+      "degree": 5,
+      "minimum_interior_continuity": 4,
+      "distinct_interior_knots": 396,
+      "exact_equal_knots_counted": true
+    },
+    {
+      "profile": "shift",
+      "degree": 5,
+      "minimum_interior_continuity": 4,
+      "distinct_interior_knots": 2395,
+      "exact_equal_knots_counted": true
+    },
+    {
+      "profile": "mean0",
+      "degree": 5,
+      "minimum_interior_continuity": 4,
+      "distinct_interior_knots": 2395,
+      "exact_equal_knots_counted": true
+    },
+    {
+      "profile": "mean1",
+      "degree": 5,
+      "minimum_interior_continuity": 4,
+      "distinct_interior_knots": 2395,
+      "exact_equal_knots_counted": true
+    },
+    {
+      "profile": "mean2",
+      "degree": 5,
+      "minimum_interior_continuity": 4,
+      "distinct_interior_knots": 2395,
+      "exact_equal_knots_counted": true
+    },
+    {
+      "profile": "height0_primitive",
+      "degree": 6,
+      "minimum_interior_continuity": 5,
+      "distinct_interior_knots": 2395,
+      "exact_equal_knots_counted": true
+    },
+    {
+      "profile": "height1_primitive",
+      "degree": 6,
+      "minimum_interior_continuity": 5,
+      "distinct_interior_knots": 2395,
+      "exact_equal_knots_counted": true
+    },
+    {
+      "profile": "height2_primitive",
+      "degree": 6,
+      "minimum_interior_continuity": 5,
+      "distinct_interior_knots": 2395,
+      "exact_equal_knots_counted": true
+    },
+    {
+      "profile": "height3_primitive",
+      "degree": 6,
+      "minimum_interior_continuity": 5,
+      "distinct_interior_knots": 2395,
+      "exact_equal_knots_counted": true
+    }
+  ],
+  "curvature_bound_exact": {
+    "outside_collar": "40918375728641/35184372088832",
+    "inside_collar": "20774894320845248747173357337/633825300114114700748351602688",
+    "global_upper": "40918375728641/35184372088832",
+    "less_than_two": true
+  },
+  "quotient_bounds_exact": {
+    "drift": "4947573733087751/562949953421312",
+    "wave": "7434399108780289/1125899906842624",
+    "Nraw_lower": "8141275550463323/36028797018963968"
+  },
+  "coarse_physical_time_field_bound": "5",
+  "inner_state_strip": "1/112",
+  "theta_Lipschitz_bound": "560",
+  "total_two_leg_time": "2*pi",
+  "real_return_derivative_bounds": [
+    "exp(-1120*pi)",
+    "exp(1120*pi)"
+  ],
+  "common_physical_initial_strip": "exp(-1120*pi)/224",
+  "common_normalized_initial_strip": "exp(-1120*pi)/56",
+  "limitations": [
+    "The common existence strip is deliberately extremely small and is not an effective R31 input",
+    "No quantitative parameter derivatives, twist, conjugacy residual, or full PDE inverse are supplied",
+    "This is the exact R37 modified principal field with the synchronous target g0(delta), not an isometric surface family"
+  ]
+}

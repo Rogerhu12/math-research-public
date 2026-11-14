@@ -1,0 +1,248 @@
+{
+  "schema": "visible-exact-R119-actual-canonical-profile-generator-v1",
+  "implementation": "new exact SymPy rational-jet and Fraction computation; no recovered native",
+  "scope": "Actual full raw height/total-flux profile gauge, complete Hamiltonian kernel, both means, real-background response and ordinary/weak source strong variation",
+  "file_sha256": {
+    "scripts/fourfold_actual_canonical_profile_generator_20261114.py": "45cebfd307568d9907da424cfbfa50d7de587b3cf5e0b3d2f8934671b29671da",
+    "results/R119-supplement-actual-canonical-profile-generator-and-complete-weak-sources.md": "a34dd08958bc5352f515dab18dec042f29c4b11b5ae56390227ece69e9cf83e4",
+    "results/R119-supplement-actual-compact-profile-flux-gauge-and-principal-port-derivative.md": "f26969b78a77f735de58cdedf7b55dd2ef001e643d0ba2032a215f779b10b60f",
+    "results/R119-supplement-actual-compact-profile-label-response.md": "ce7285a1e7818098e64ce68d706e0830f2d2dbc020e531fb2bc898af702f0030",
+    "results/R119-supplement-actual-strict-density-complete-relative-Cauchy.md": "dcf33b5e85b2a059963760d68b68f096fb4e764ebf248cc2a3805a3225b208dd",
+    "results/R119-supplement-high-oscillation-polynomial-phase-preserving-control.md": "e0d7269e399043c2d121d9cd95007fcad2fecf9e472c0cf5ceb3c08d360eb5d6"
+  },
+  "gate_count": 36,
+  "all_passed": true,
+  "gates": [
+    {
+      "name": "actual_f_k",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "control_J",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "control_D",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "control_inverse_density_Ba_over_a",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "U_D_minus_d_Dtheta",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "U_J_minus_d_Jtheta",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "complete_advective_c_identity",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_c_t_plus_Q_Bc_and_commutator",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "pointwise_flux_shear_from_holonomy",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "full_commutator_upper_row",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "full_commutator_lower_row",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "commutator_no_third_angle_jet",
+      "passed": true
+    },
+    {
+      "name": "Hamiltonian_diagonal_complete_boundary",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "weak_gauge_second_component",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "weak_flux_mean_is_angular_divergence",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_radial_kernel_all_M",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "radial_free_flux_mean",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "two_complex_directions_stay_inside",
+      "passed": true,
+      "left": "3/256",
+      "relation": "<",
+      "right": "1/64"
+    },
+    {
+      "name": "R_map_complex_sup",
+      "passed": true,
+      "left": "16",
+      "relation": "=",
+      "right": "16"
+    },
+    {
+      "name": "R_second_derivative_Cauchy",
+      "passed": true,
+      "left": "1048576",
+      "relation": "=",
+      "right": "1048576"
+    },
+    {
+      "name": "F_second_derivative_Cauchy",
+      "passed": true,
+      "left": "4096",
+      "relation": "=",
+      "right": "4096"
+    },
+    {
+      "name": "F1_first_derivative_Cauchy",
+      "passed": true,
+      "left": "16",
+      "relation": "=",
+      "right": "16"
+    },
+    {
+      "name": "complete_signed_Sobolev_multiplier",
+      "passed": true,
+      "left": "65",
+      "relation": "=",
+      "right": "65"
+    },
+    {
+      "name": "multiplier_binary_fee",
+      "passed": true,
+      "left": "65",
+      "relation": "<",
+      "right": "128"
+    },
+    {
+      "name": "R_full_jet_and_both_output_fee",
+      "passed": true,
+      "left": "2147483648",
+      "relation": "<",
+      "right": "4294967296"
+    },
+    {
+      "name": "F_full_jet_and_both_output_fee",
+      "passed": true,
+      "left": "8388608",
+      "relation": "<",
+      "right": "16777216"
+    },
+    {
+      "name": "true_J_complex_inverse_margin",
+      "passed": true,
+      "left": "3/4294967296",
+      "relation": "<",
+      "right": "1/8"
+    },
+    {
+      "name": "true_D_complex_inverse_margin",
+      "passed": true,
+      "left": "3/4294967296",
+      "relation": "<",
+      "right": "1/8"
+    },
+    {
+      "name": "coefficient_product_error",
+      "passed": true,
+      "left": "8388609/4096",
+      "relation": "<",
+      "right": "4096"
+    },
+    {
+      "name": "complete_quadratic_sum_fee",
+      "passed": true,
+      "left": "32768",
+      "relation": "<",
+      "right": "65536"
+    },
+    {
+      "name": "strict_material_integral_fee",
+      "passed": true,
+      "left": "64",
+      "relation": "=",
+      "right": "64"
+    },
+    {
+      "name": "response_complete_strong_fee",
+      "passed": true,
+      "left": "30750788930784052141961861920805916103932967295178766486232675904563738880488373075752592173385037335955677262580553574888172300969173988400174943873597051535522721474932336956770829721145939608862637129391729156728137068727028191720507858482133392040241659904",
+      "relation": "<",
+      "right": "61501577861568104283923723841611832207865934590357532972465351809127477760976746151505184346770074671911354525161107149776344601938347976800349887747194103071045442949864673913541659442291879217725274258783458313456274137454056383441015716964266784080483319808"
+    },
+    {
+      "name": "direct_complete_strong_fee",
+      "passed": true,
+      "left": "34359738368",
+      "relation": "<",
+      "right": "68719476736"
+    },
+    {
+      "name": "both_complete_strong_fees",
+      "passed": true,
+      "left": "61501577861568104283923723841611832207865934590357532972465351809127477760976746151505184346770074671911354525161107149776344601938347976800349887747194103071045442949864673913541659442291879217725274258783458313456274137454056383441015716964266784149202796544",
+      "relation": "<",
+      "right": "31488807865122869393368946606905258090427358510263056881902260126273268613620094029570654385546278232018613516882486860685488436192434164121779142526563380772375266790330713043733329634453442159475340420497130656489612358376476868321800047085704593449207459741696"
+    },
+    {
+      "name": "profile_direct_form_rho5_fee",
+      "passed": true,
+      "left": "131072",
+      "relation": "=",
+      "right": "131072"
+    },
+    {
+      "name": "profile_response_form_integral_fee",
+      "passed": true,
+      "left": "1048576",
+      "relation": "=",
+      "right": "1048576"
+    }
+  ],
+  "retained": [
+    "all Fourier modes",
+    "both physical means",
+    "current Gamma",
+    "actual background response",
+    "ordered full Cauchy factors",
+    "total/bare weak endpoint charges"
+  ],
+  "not_claimed": [
+    "same-order operator-norm derivative of a naked pullback",
+    "nonradial cluster positivity",
+    "full same-weight network inverse",
+    "solution of the nonlinear F equation"
+  ]
+}

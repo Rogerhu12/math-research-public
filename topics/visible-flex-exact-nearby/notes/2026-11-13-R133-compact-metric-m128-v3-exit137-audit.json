@@ -1,0 +1,40 @@
+{
+  "kind": "observed_chunked_native_process_exit_after_first_Newton_step",
+  "certified": false,
+  "exit_code": 137,
+  "session_id": 12555,
+  "source_path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v3_probe.py",
+  "source_sha256": "1fea4a5814da5e98aca14263ebb11bac30948c77a4750aa9de4ba3a0145eba58",
+  "input_path": "notes/2026-11-13-R133-compact-metric-outer-mean-m64-candidate.npz.gz",
+  "input_sha256": "4046eb7ac8da162ab9aad9fcb4991933200abdbc2c22ed6329d49bb13d72b856",
+  "chunked_module_sha256": "5b96d9298014703cf41c59a2d9466e81d523673fb659a52ca6488a03ef939a73",
+  "requested_modes": 128,
+  "requested_angles": 2048,
+  "requested_mesh_stride": 1,
+  "completed_first_Jacobian": {
+    "radial_nodes": 879,
+    "state_dimension": 257,
+    "parameter_dimension": 1,
+    "Fourier_band": 16,
+    "absolute_entry_cutoff": 1e-13,
+    "radial_chunk": 8,
+    "nonzero_entries": 23888337,
+    "maximum_omitted_entry": 4.262253701366728e-05,
+    "maximum_omitted_collocation_row_l1": 0.0006247761121699237,
+    "maximum_full_collocation_row_l1": 938.3248484694327,
+    "assembly_seconds": 779.8984868360021
+  },
+  "last_observed_stdout": {
+    "amplitude": 0.65,
+    "nu": -0.023721711691109648,
+    "rhs_calls": 14,
+    "jac_calls": 221,
+    "radial_nodes": 879,
+    "sampled_C_min": -3.7455142416049343,
+    "sampled_C_max": -0.17103916765864122
+  },
+  "output_report_generated": false,
+  "output_candidate_generated": false,
+  "diagnosis": "Exit 137 observed. The old guard retains the first sparse LU while constructing the next Jacobian and factorization; the new guard explicitly releases it after each accepted complete nonlinear step. No OS OOM log was available.",
+  "scientific_conclusion": "The printed first step is a partial floating diagnostic, not a converged finite BVP or a PDE certificate."
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "independent_complete_saved_finite_Codazzi_candidate_review",
+  "passed": true,
+  "certified": false,
+  "source_sha256": "5bec1bdcaf60ed2ed06a0faa7b0f2d9c59be5644b731715927f1d08682f22bbc",
+  "inputs": {
+    "notes/2026-11-13-R133-compact-metric-outer-mean-m128-bounded-v7-b4-candidate.json": "4f19203308f8d95cb65f90d52c75edb7f476307698138be37efe7e305bde3e14",
+    "notes/2026-11-13-R133-compact-metric-outer-mean-m128-bounded-v7-b4-floating.json": "5001d4c110bd402f0d500b86670ad81e7d5f072adaa46a1e10644753de2e9754",
+    "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848"
+  },
+  "modes": 128,
+  "radial_nodes": 651,
+  "angular_grid": 1024,
+  "diagnostic_angular_grid": 2048,
+  "every_archived_coefficient_loaded": true,
+  "exact_diagnostic_dictionary_match": true,
+  "recomputed_diagnostics": {
+    "normalized_finite_residual": 8.057861446595551e-06,
+    "normalized_full_B_residual": 8.802996576569126e-06,
+    "normalized_full_C_residual": 4.625175364272871e-06,
+    "normalized_A_projection_defect": 2.9868010287259494e-09,
+    "C_min": -3.7455163247798664,
+    "C_max": -0.17103916765864002,
+    "B_abs_max": 0.49922759734547617,
+    "actual_full_B_residual": 5.721947774769932e-06,
+    "actual_full_C_residual": 3.0063639867773663e-06,
+    "actual_A_projection_defect": 1.9414206686718672e-09,
+    "radial_samples": "nodes and quarter/mid/three-quarter points",
+    "radial_sample_count": 2601,
+    "valid": true
+  },
+  "maximum_relative_collocation_RMS_residual": 1.9996916854026578e-06,
+  "maximum_boundary_residual": 1.0615624996047143e-32,
+  "original_relative_tolerance": 2e-06,
+  "original_boundary_tolerance": 2e-08,
+  "original_reported_finite_success": true,
+  "dependencies": {
+    "fourfold_codazzi_candidate_shards.py": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e",
+    "fourfold_codazzi_compact_metric_fast_jacobian.py": "0d82b18aaed063660f7003e36061958a327d134c67490adb7b340deddfc90c17",
+    "fourfold_codazzi_compact_metric_branch_probe.py": "e1692ce4e7b1090adb0aeab7414f8df32411072283cedad3d848ca4fb18ef0a4",
+    "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+    "fourfold_phase_codazzi_rotational_reference_probe.py": "c8495d0c1721a21a24b48c8cdce9e825a8110f4923edd01e9eb2b7fe76b2d411",
+    "fourfold_codazzi_rotational_cap_jacobi_probe.py": "2bfb4c8d7bca6ffe75d6496f8f9c3baa17ba5ee83045c6ca09dc475853d30114"
+  },
+  "scipy_collocation_module_sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+  "wall_seconds": 40.115308537999226,
+  "scope": "Complete persisted finite polynomial replay only. Full doubled-grid and radial-quarter diagnostics match, and the original finite tolerances are checked again. No nonlinear tail matching, continuous enclosure, infinite-mode PDE existence or closed surface follows."
+}

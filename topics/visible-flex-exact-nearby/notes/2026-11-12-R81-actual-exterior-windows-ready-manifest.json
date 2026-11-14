@@ -1,0 +1,22 @@
+{
+  "kind": "R81_actual_exterior_angular_windows_ready",
+  "complete": true,
+  "files": [
+    {
+      "path": "results/R81-actual-exterior-angular-windows-and-balanced-reflection.md",
+      "bytes": 19388,
+      "sha256": "5872f5d9593f5211b8093d29a2f63cb024e8ee2509531948fed84758a43aa682"
+    },
+    {
+      "path": "scripts/fourfold_phase_exterior_sobolev_windows.py",
+      "bytes": 13212,
+      "sha256": "2957d88ece6cedd90740055dc0313c771091a097cea5de8dd999739840a77ddc"
+    },
+    {
+      "path": "notes/2026-11-12-actual-exterior-sobolev-windows.json",
+      "bytes": 91794,
+      "sha256": "324101e18fbb7c0531275305d393d3f34eb58cce117d744d5a7a47b94b20bc78"
+    }
+  ],
+  "scope": "Actual finite angular windows, signed complete source/contact and balanced root reflection, retaining the physical mean. No central low block, Airy-coordinate jet or nonlinear-family claim."
+}

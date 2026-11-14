@@ -1,0 +1,129 @@
+{
+  "kind": "R88_actual_physical_two_channel_and_augmented_cap_package",
+  "complete": true,
+  "files": [
+    {
+      "path": "results/R88-actual-two-channel-finite-block-and-cap-schur-interface.md",
+      "bytes": 19196,
+      "sha256": "1ceaa4a04dd8adb84e83584aa3e5104acfa58d93e6b192dfd434d6e06d1f6ae7"
+    },
+    {
+      "path": "scripts/fourfold_phase_core_low_block.py",
+      "bytes": 14588,
+      "sha256": "d3b554e05f13112679786bd11a113ab8a29442b4da8f6ea0cf73c2ebb93d37be"
+    },
+    {
+      "path": "scripts/fourfold_phase_core_low_coefficients.py",
+      "bytes": 13658,
+      "sha256": "ba2f5c93fbe7d1cdc0ddd21775f54c4e5e56d542d94fb69b985a3bfe42751990"
+    },
+    {
+      "path": "scripts/fourfold_phase_finite_tail_DN.py",
+      "bytes": 6433,
+      "sha256": "b536f82516a4073337023b91e3255ed0832abc9fa23b6b8727dcd58cc285154e"
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_low_schur.py",
+      "bytes": 16405,
+      "sha256": "3e026d619911b3b9716064908d0312de71de7433778643e25231a997b74fc54e"
+    },
+    {
+      "path": "scripts/fourfold_phase_low_feedback.py",
+      "bytes": 6359,
+      "sha256": "44f66045d1b0c398030932b42457623ed7e384132c46667b05a114f62818218c"
+    },
+    {
+      "path": "scripts/fourfold_phase_core_native_diagnostic.py",
+      "bytes": 6603,
+      "sha256": "734b47f5824dbe08868aeaa24ab8950a27630eb4fccddd16500a76bef2617fc6"
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_complementary_energy.py",
+      "bytes": 8518,
+      "sha256": "688f6dc9d5e282ce73308f38bfb4872626cbfe684a77711e253c55e5fbc5024c"
+    },
+    {
+      "path": "notes/2026-11-12-actual-core-low-block-M2.json",
+      "bytes": 31796,
+      "sha256": "fe08ac3d1aa779ef967d67fb5efa3923e43e19eb45843826c020994244d7b0f6"
+    },
+    {
+      "path": "notes/2026-11-12-actual-core-low-block-M2.npz",
+      "bytes": 7649,
+      "sha256": "7ab0b49ce170306a6b43e84c95af0dec679edce863a9e5c7f7a10f880cec9b21"
+    },
+    {
+      "path": "notes/2026-11-12-actual-core-low-block-M4.json",
+      "bytes": 32023,
+      "sha256": "f0a655ad2ee5c1a2f5432aabb80a8db1347874ed5cc4f98bfccd8a679a2e1c39"
+    },
+    {
+      "path": "notes/2026-11-12-actual-core-low-block-M4.npz",
+      "bytes": 15508,
+      "sha256": "12759ec9ab669a6818b39689c79532bba5250243d2632826d403a3f070cca51f"
+    },
+    {
+      "path": "notes/2026-11-12-actual-core-low-coefficients-M4.json",
+      "bytes": 1084013,
+      "sha256": "3d12181e2f39910fc3eabe2ea615f950854cec2bdf3c87a97e2c186aa56c6261"
+    },
+    {
+      "path": "notes/2026-11-12-actual-finite-tail-DN-M8.json",
+      "bytes": 12389,
+      "sha256": "e53625590682434433d4d591305c421b386cd20293c3eafa55b4e6cae0acb5f8"
+    },
+    {
+      "path": "notes/2026-11-12-actual-cap-low-Schur-M4.json",
+      "bytes": 4489,
+      "sha256": "19f3478e21f21bdd15808adeb54e5a41033039615884453a581937927e940b7e"
+    },
+    {
+      "path": "notes/2026-11-12-actual-cap-low-Schur-M4.npz",
+      "bytes": 128253,
+      "sha256": "0072cc7dbf6e9041630a146426ae3e49867e819fa724ed3d3afbb28f2437d033"
+    },
+    {
+      "path": "notes/2026-11-12-actual-low-feedback-M4.json",
+      "bytes": 3384,
+      "sha256": "22c30d59215988b4961b5f684e478ea6ca725fb968af0334c2bca0d258a20d1d"
+    },
+    {
+      "path": "notes/2026-11-12-actual-low-feedback-M4.npz",
+      "bytes": 26832,
+      "sha256": "34dbe639464694d3d92f275e5269d3a01eb62ec4b4357ed822575bacc2aaabdc"
+    },
+    {
+      "path": "notes/2026-11-12-actual-core-generator-comparison.json",
+      "bytes": 3813,
+      "sha256": "2ee3725c2e24680c4c88e0588440747ac24de9ac5e7ef881120e5a85e5b938a9"
+    },
+    {
+      "path": "notes/2026-11-12-core-native-scalar-profile-diagnostic.json",
+      "bytes": 8597,
+      "sha256": "b5552d79d68c935ad0888f867e3de6157e69c4d25db5612773595f79064c64d0"
+    },
+    {
+      "path": "notes/2026-11-12-core-native-diagnostic-replay.json",
+      "bytes": 13060,
+      "sha256": "7d25a63eeeed09451c80764e3cf7c387db9bb80ab81d85216501384f2b13e301"
+    },
+    {
+      "path": "notes/2026-11-12-actual-cap-complementary-energy-M4.json",
+      "bytes": 2849,
+      "sha256": "1a14d73dcd733f557f64203ce507016ed7585bd3d37d1502b2613850a99d9e2e"
+    },
+    {
+      "path": "notes/2026-11-12-actual-cap-complementary-energy-M4.npz",
+      "bytes": 95013,
+      "sha256": "64e46a787e76ec4de60024c3d720c1fba865a1061d556efcd2e24e3cec1b0706"
+    }
+  ],
+  "scope": {
+    "proved": "Physical two-channel and complementary-energy identities; native actual generator balls at three listed radii; uniform actual infinite-tail DN modes 4..32.",
+    "computed_exploration": "Core N2/N4 propagation, N4 positive cap/dual cap/whole finite two-cap feedback; all preserve mean slots.",
+    "not_proved": "Continuous core propagation, rigorous cap upper/lower numerical integrals, infinite Schur inverse, cutoff or nonlinear family.",
+    "preserved_failure": "Floating generator is not contained in native balls at three points; independent all-Arb K comparison passes and scalar derivative bias is recorded."
+  },
+  "replay": "All exact commands are in R88. Partial checkpoint NPZ and regenerable caches are excluded.",
+  "work_ownership": "No git operation by this agent; parent handles repository synchronization."
+}

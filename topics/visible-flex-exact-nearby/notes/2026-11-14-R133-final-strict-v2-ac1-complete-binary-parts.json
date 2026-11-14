@@ -1,0 +1,61 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "2026-11-14-R133-final-strict-v2-ac1-complete-native.json.gz",
+  "original_bytes": 8499033,
+  "original_sha256": "23a7554aa141b51b4c897f42399eb355d003d5fe5dd37b1c62f68025a4c8542a",
+  "native_kind": "actual_final_moving_four_state_fresh_negative_root_entry_and_scalar_mean",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 3071,
+  "original_source_sha256": "c6baae3e8448b4ceec95eeed50a38e8761207b1ca622173c1a8bccce3245b526",
+  "candidate_sha256": null,
+  "parts": [
+    {
+      "file": "2026-11-14-R133-final-strict-v2-ac1-complete-binary-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "509d7048da181e2f835aebeee3c5fa92274f87f7959adef16c0b475ff56c63e4",
+      "compressed_bytes": 1956753,
+      "compressed_sha256": "c5b7614d1ddd27c6f36acf1ded9886c79eb036b38f28d76cadec1e383a24609c"
+    },
+    {
+      "file": "2026-11-14-R133-final-strict-v2-ac1-complete-binary-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "15bab013a009cbc1fb1d6aa99dfb9b3a61e8656337cf1235416013f4bd201d52",
+      "compressed_bytes": 1966049,
+      "compressed_sha256": "31225e7764cf350e7fec35fb42e94e76df9638b97f49b7c612867a0a3bf27d5e"
+    },
+    {
+      "file": "2026-11-14-R133-final-strict-v2-ac1-complete-binary-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 2000000,
+      "sha256": "3f192fef8f5ab5cee63f817d3a5c1a64471dc0765e19874976721cdedddbfc54",
+      "compressed_bytes": 1941308,
+      "compressed_sha256": "6646fc5e689965abb5eaf04d1e01e4c9e4a47678a2ac8496178345b246bdd2c2"
+    },
+    {
+      "file": "2026-11-14-R133-final-strict-v2-ac1-complete-binary-parts-part003.bin.gz",
+      "index": 3,
+      "offset": 6000000,
+      "bytes": 2000000,
+      "sha256": "6700738bb9dff020c50de6a9fb4fa5c8b95944206731cedd0f6171fe521ed552",
+      "compressed_bytes": 1949394,
+      "compressed_sha256": "202600d66ac6ec16fd4f0d47d6417608d94aef05ec6a1004c95ea6f263c22221"
+    },
+    {
+      "file": "2026-11-14-R133-final-strict-v2-ac1-complete-binary-parts-part004.bin.gz",
+      "index": 4,
+      "offset": 8000000,
+      "bytes": 499033,
+      "sha256": "33f9c9ef8b22ce8ffff91f1102dcce51a97f99265028b49d4421929ad545a782",
+      "compressed_bytes": 473817,
+      "compressed_sha256": "4274b5701740f8cf8fa6cf8dd3f7ded5785429961a1f83687c8129307b1f74fa"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}

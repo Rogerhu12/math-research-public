@@ -1,0 +1,47 @@
+{
+  "kind": "R70_actual_angular_anchor_domain_and_true_D_zero_count",
+  "complete": true,
+  "archive_required": [
+    {
+      "path": "results/R70-actual-angular-anchors-and-denominator-zeros.md",
+      "sha256": "91c7245f560ffd39266374fcf94cdbb04d0e051773a10ed738508208a04a2416",
+      "bytes": 10007
+    },
+    {
+      "path": "scripts/fourfold_phase_actual_angle_anchor_domain.py",
+      "sha256": "b0d6a4d6e9b1d91ac338a741ce2c9cb2f8bf5957a86906c17206e777208617f8",
+      "bytes": 12677
+    },
+    {
+      "path": "scripts/fourfold_phase_angle_boundary_winding.py",
+      "sha256": "1857af6dcad966f02995d57f706dfb4e46a2f1282be0150d896ae4407ded2cae",
+      "bytes": 8810
+    },
+    {
+      "path": "notes/2026-11-12-actual-angular-anchor-checkpoint.md",
+      "sha256": "ef29cb4694235d21e95f67dbf802b66b2c334b82ccb4bae9c7f9fb3da45125d6",
+      "bytes": 3184
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_reference419_actual_angle_anchors.json.gz",
+      "sha256": "1d758f89b846c59158bd07dfafbeb60ec4343bd8442eb522366f8c586eb53120",
+      "bytes": 5446
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_reference419_actual_angle_anchors_narrow.json.gz",
+      "sha256": "e5a45c9d114702e769d18c40c4dded5abab3a86e19ed20298b013e8c316f5f1a",
+      "bytes": 19792
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_reference419_D_winding_1over32.json.gz",
+      "sha256": "2b23a96288ca0470722096423a93481d0106d4623223d0f30f23b6406f18538b",
+      "bytes": 3149
+    }
+  ],
+  "total_bytes": 63065,
+  "scope": "One exact delta5 actual time segment, wider whole-time strip and fixed-center D winding; not whole-branch or flow validation",
+  "live_excluded": [
+    "full branch index/leaves",
+    "narrow-parameter whole-core angle probe"
+  ]
+}

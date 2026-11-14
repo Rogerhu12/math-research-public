@@ -1,0 +1,39 @@
+{
+  "kind": "floating_interpolation_rotation_exploration_not_actual_map_certificate",
+  "source": "2026-11-12-new-spline-turning-return.json",
+  "sha256": "598fc957bcc8cd2aa958da3bc2f69d779fd055f7ee9fce39d968d33e4ff306d6",
+  "sample_count": 16,
+  "period": 1.5707963267948966,
+  "models": {
+    "periodic_Hermite": {
+      "derivative_min_sample": 0.17648035077594737,
+      "period_two_residual_min": 0.004171755221290763,
+      "period_two_residual_max": 0.10198051117544926,
+      "period_two_roots": [],
+      "period_two_multipliers": [],
+      "rotation_estimate": {
+        "value": 0.5075288055149233,
+        "iterations": 100000,
+        "finite_time_error_for_this_monotone_interpolant_at_most": 1e-05
+      }
+    },
+    "periodic_monotone_PCHIP": {
+      "derivative_min_sample": 0.16423755791296998,
+      "period_two_residual_min": 0.0009009441021399223,
+      "period_two_residual_max": 0.10935871174707867,
+      "period_two_roots": [],
+      "period_two_multipliers": [],
+      "rotation_estimate": {
+        "value": 0.5052944724782386,
+        "iterations": 100000,
+        "finite_time_error_for_this_monotone_interpolant_at_most": 1e-05
+      }
+    }
+  },
+  "limitations": [
+    "only 16 actual map values and actual derivatives",
+    "interpolation is not a certified enclosure of the actual principal map",
+    "no elliptic lower-order/scattering data",
+    "mean displacement is not used as a rotation number"
+  ]
+}

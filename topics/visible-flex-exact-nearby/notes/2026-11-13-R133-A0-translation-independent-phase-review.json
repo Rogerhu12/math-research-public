@@ -1,0 +1,27 @@
+{
+  "kind": "independent_mathematical_and_source_review",
+  "reviewer": "phase_inverse",
+  "complete": true,
+  "files": {
+    "results/R133-supplement-A0-contraction-and-translation-regularity.md": "8501b969e5b5589e860970ec580e1a85d94c0633988be0b5770d7714cad0122d",
+    "scripts/fourfold_codazzi_cap_A0_translation_budget.py": "320d065038d6ca6478590b54163b1798fd05b431dbc902680c611e2480051783",
+    "notes/2026-11-13-R133-A0-driven-cap-r105-native.json.gz": "d81ebd097292b5ebbef8cd26e16b73b0ca6e975bf4fc38ec5496924e05f9c65c"
+  },
+  "native_recomputed": false,
+  "review_scope": "Proof Sections 2-3 and complete small consumer source, including updated Fourier-coordinate identification; no independent replay of 875 native boxes.",
+  "checks": {
+    "second_Frechet_derivative_three_terms": true,
+    "J2_coefficients_2_4_2": true,
+    "full_X0_Banach_algebra_and_uniform_denominator": true,
+    "translation_strong_continuity_on_l1_of_C_radial": true,
+    "A2_ports_are_C2_curves_in_A0": true,
+    "strict_ball_image_allows_local_differences": true,
+    "Neumann_inverse_one_minus_lambda": true,
+    "first_and_second_difference_quotients_no_prior_regularity": true,
+    "Fourier_coordinate_uniqueness_gives_full_weighted_second_sum": true,
+    "outer_d_budget_explicitly_A2_for_H1_H2": true,
+    "two_means_have_zero_angular_derivatives": true,
+    "body_tail_and_periodic_holonomy_not_claimed": true
+  },
+  "conclusion": "The stated A0 contraction and angular-translation regularity argument is valid with the actual certified Green bounds and independently given A2 ports. Native numerical certification remains the stated upstream report."
+}

@@ -1,0 +1,91 @@
+{
+  "kind": "exact_dyadic_membership_in_independent_R57_control_box",
+  "proved": true,
+  "source_checkpoint": "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_probe.npz",
+  "source_sha256": "566c95612ee91f9fb04282873530dbb97a1450f4c01c8b1814b003bd0e06aee5",
+  "candidate_inputs": "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_interval_inputs.npz",
+  "candidate_inputs_sha256": "d115181ecc0391943e416b0cdb4aaf3b8213eeb96426133815a02548db7599fc",
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "frozen_direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "tube_certificate_sha256": "b52537b755e7b5475dc945a5781c0d57a93e71ccdf39ec90891c236fcae2438a",
+  "run_source_sha256": "4d111873e4228bc449a8c4e4f0be1e34f0d30cc87771e3ca20e7cad41a627a93",
+  "fixed_input_exact_equal": {
+    "phase_knots": true,
+    "base_knots": true,
+    "base_degree": true,
+    "base_radius_coefficients": true,
+    "shift_knots": true,
+    "shift_degree": true,
+    "shift_coefficients": true,
+    "mean0_knots": true,
+    "mean0_degree": true,
+    "mean0_radius_coefficients": true,
+    "mean1_knots": true,
+    "mean1_degree": true,
+    "mean1_radius_coefficients": true,
+    "mean2_knots": true,
+    "mean2_degree": true,
+    "mean2_radius_coefficients": true,
+    "height0_slope_knots": true,
+    "height0_slope_coefficients": true,
+    "height0_slope_degree": true,
+    "height0_primitive_knots": true,
+    "height0_primitive_coefficients": true,
+    "height0_primitive_degree": true,
+    "height0_floating_origin": true,
+    "height1_slope_knots": true,
+    "height1_slope_coefficients": true,
+    "height1_slope_degree": true,
+    "height1_primitive_knots": true,
+    "height1_primitive_coefficients": true,
+    "height1_primitive_degree": true,
+    "height1_floating_origin": true,
+    "height2_slope_knots": true,
+    "height2_slope_coefficients": true,
+    "height2_slope_degree": true,
+    "height2_primitive_knots": true,
+    "height2_primitive_coefficients": true,
+    "height2_primitive_degree": true,
+    "height2_floating_origin": true,
+    "height3_slope_knots": true,
+    "height3_slope_coefficients": true,
+    "height3_slope_degree": true,
+    "height3_primitive_knots": true,
+    "height3_primitive_coefficients": true,
+    "height3_primitive_degree": true,
+    "height3_floating_origin": true
+  },
+  "coefficient_membership": {
+    "phase_coefficients": {
+      "count": 19296,
+      "inside": 19296,
+      "all_inside": true,
+      "outside_indices": [],
+      "lower_box_sha256": "9d8de538e19f215efd0c61b9c9563ed37ae881f09743e179dcd4348ffa262248",
+      "upper_box_sha256": "6d551551e99e47252290cb8ce10e6d523232897b244260a703fbb4af474f7ab7"
+    },
+    "alpha": {
+      "count": 3,
+      "inside": 3,
+      "all_inside": true,
+      "outside_indices": [],
+      "lower_box_sha256": "0ae294a482619e63a60f7b218b46c4fa04278e8b0fe0c0d0fa6afbf0d9643e79",
+      "upper_box_sha256": "88fd39f6704dd67a5c4aac1b8738eba22bbbcd3d22c29360a807e20b4bb849aa"
+    }
+  },
+  "comparison_semantics": "stored finite binary64 endpoints and controls are exact dyadic reals; ordered comparisons introduce no rounding",
+  "conclusion": {
+    "core": [
+      -0.24,
+      0.24
+    ],
+    "minimum_raw_minus_n": 0.4250393264037103,
+    "maximum_unit_N_upper": -0.30865948539175136,
+    "geometry": "explicit reflection of candidate controls followed by the infinite R33 primitive"
+  },
+  "limitations": [
+    "does not prove candidate lies exactly on the affine one-parameter curve",
+    "does not convert approximate-mirror floating rays into the certified symmetric graph",
+    "no complex-domain, metric equation, closed surface or reach conclusion"
+  ]
+}

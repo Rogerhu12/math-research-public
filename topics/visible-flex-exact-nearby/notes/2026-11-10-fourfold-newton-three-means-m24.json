@@ -1,0 +1,426 @@
+{
+  "kind": "floating_finite_fourier_newton_not_proof",
+  "parameters": {
+    "order": 1,
+    "points": 401,
+    "length": 3.0,
+    "mu": 5.656854249492381,
+    "A": 33.4142135623731,
+    "mean": "depth",
+    "bump_radius": 0.25,
+    "mu_scale": 4.0,
+    "actual_epsilon": 0.05,
+    "modes": 24,
+    "mean_parameters": [
+      0.6308102351031113,
+      -0.0023507688793176105,
+      -0.05038398655834874
+    ],
+    "mean_directions": 3,
+    "interpretation": "make_candidate(series,1,order=1)"
+  },
+  "history": [
+    {
+      "epsilon": 0.05,
+      "iteration": 0,
+      "low_coefficient_residual": 6.860411554560655e-05,
+      "retained_robin_system_residual": 6.860411554560655e-05,
+      "outer_xx_metric_coeff_residual": 2.9130603919621716e-08,
+      "robin_residual": 1.478585344938537e-23,
+      "full_metric_sample": 0.00014483774036406762,
+      "full_metric_all_x_sample": 0.00014483774036406762,
+      "alpha": [
+        0.627962702180312,
+        -0.002304156696820625,
+        -0.050150394773617164
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 12876397,
+      "linear_residual": 3.971495242366768e-17,
+      "mean_schur": [
+        -0.03941781935438538,
+        -0.6076750098063503,
+        -0.3582171956391358
+      ],
+      "maximum_step": 0.0030327345112405226,
+      "damping": 1.0
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 1,
+      "low_coefficient_residual": 2.895751621609231e-07,
+      "retained_robin_system_residual": 2.895751621609231e-07,
+      "outer_xx_metric_coeff_residual": 2.5227999061330447e-07,
+      "robin_residual": 2.1610093502947848e-23,
+      "full_metric_sample": 3.8864950019328775e-05,
+      "full_metric_all_x_sample": 3.8864950019328775e-05,
+      "alpha": [
+        0.6309954366915526,
+        -0.002340335372152226,
+        -0.050422063766470175
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 12876508,
+      "linear_residual": 5.629486846570487e-18,
+      "mean_schur": [
+        -0.03944568105360516,
+        -0.607858700918004,
+        -0.358422596824418
+      ],
+      "maximum_step": 0.000177710747977456,
+      "damping": 1.0
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 2,
+      "low_coefficient_residual": 4.45613037242052e-07,
+      "retained_robin_system_residual": 1.1135988341712481e-07,
+      "outer_xx_metric_coeff_residual": 4.45613037242052e-07,
+      "robin_residual": 1.9356026333740848e-22,
+      "full_metric_sample": 3.674307816598615e-05,
+      "full_metric_all_x_sample": 3.674307816598615e-05,
+      "alpha": [
+        0.6308177259435751,
+        -0.0023502331837232703,
+        -0.05038571684073857
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 12876583,
+      "linear_residual": 1.66975919220873e-19,
+      "mean_schur": [
+        -0.03945290089547422,
+        -0.6078454004785822,
+        -0.3584986661171222
+      ],
+      "maximum_step": 7.455748660134977e-06,
+      "damping": 1.0
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 3,
+      "low_coefficient_residual": 1.8293622418383144e-07,
+      "retained_robin_system_residual": 2.9198458908233657e-08,
+      "outer_xx_metric_coeff_residual": 1.8293622418383144e-07,
+      "robin_residual": 6.596765385110396e-23,
+      "full_metric_sample": 3.658507638589128e-05,
+      "full_metric_all_x_sample": 3.658507638589128e-05,
+      "alpha": [
+        0.630810270194915,
+        -0.002350766825009524,
+        -0.050383993896530935
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 12876443,
+      "linear_residual": 2.151496773250425e-21,
+      "mean_schur": [
+        -0.039453281485078255,
+        -0.6078446620953462,
+        -0.3585026383344214
+      ],
+      "maximum_step": 1.2770996723431688e-07,
+      "damping": 0.015625
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 4,
+      "low_coefficient_residual": 1.360016794784879e-07,
+      "retained_robin_system_residual": 2.5581786765588283e-08,
+      "outer_xx_metric_coeff_residual": 1.360016794784879e-07,
+      "robin_residual": 7.279189390466644e-23,
+      "full_metric_sample": 3.658506507644712e-05,
+      "full_metric_all_x_sample": 3.658506507644712e-05,
+      "alpha": [
+        0.6308102681994467,
+        -0.002350766851268865,
+        -0.05038399363251223
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 12876503,
+      "linear_residual": 8.292163785594772e-22,
+      "mean_schur": [
+        -0.03945328149606547,
+        -0.6078446618792314,
+        -0.35850263849429675
+      ],
+      "maximum_step": 2.8514959596659085e-08,
+      "damping": 1.0
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 5,
+      "low_coefficient_residual": 4.925344292309433e-08,
+      "retained_robin_system_residual": 1.5270329587258755e-08,
+      "outer_xx_metric_coeff_residual": 4.925344292309433e-08,
+      "robin_residual": 4.301339185275744e-23,
+      "full_metric_sample": 3.658434264785951e-05,
+      "full_metric_all_x_sample": 3.658434264785951e-05,
+      "alpha": [
+        0.6308102396844871,
+        -0.002350768903241124,
+        -0.05038398702196733
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 12876459,
+      "linear_residual": 8.012950292589464e-21,
+      "mean_schur": [
+        -0.03945328295964099,
+        -0.6078446590706399,
+        -0.35850265376600354
+      ],
+      "maximum_step": 5.9197281434605734e-08,
+      "damping": 0.001953125
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 6,
+      "low_coefficient_residual": 4.7811988084735304e-08,
+      "retained_robin_system_residual": 1.5268763734076035e-08,
+      "outer_xx_metric_coeff_residual": 4.7811988084735304e-08,
+      "robin_residual": 4.1359030627651384e-23,
+      "full_metric_sample": 3.65843426542137e-05,
+      "full_metric_all_x_sample": 3.65843426542137e-05,
+      "alpha": [
+        0.6308102395688674,
+        -0.0023507689025485316,
+        -0.05038398701041766
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 12876502,
+      "linear_residual": 1.1456451483859433e-21,
+      "mean_schur": [
+        -0.039453282958546824,
+        -0.6078446590577254,
+        -0.35850265375806745
+      ],
+      "maximum_step": 4.289837539450749e-09,
+      "damping": 0.0625
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 7,
+      "low_coefficient_residual": 6.493331641390961e-08,
+      "retained_robin_system_residual": 1.5215587227131524e-08,
+      "outer_xx_metric_coeff_residual": 6.493331641390961e-08,
+      "robin_residual": 4.011825970882184e-23,
+      "full_metric_sample": 3.658434265848856e-05,
+      "full_metric_all_x_sample": 3.658434265848856e-05,
+      "alpha": [
+        0.6308102393007525,
+        -0.0023507689004631698,
+        -0.050383986984447376
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 12876524,
+      "linear_residual": 1.3251433413099503e-21,
+      "mean_schur": [
+        -0.03945328295562326,
+        -0.6078446590275907,
+        -0.3585026537358233
+      ],
+      "maximum_step": 1.985330843473709e-09,
+      "damping": 0.0625
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 8,
+      "low_coefficient_residual": 1.1335420999315724e-07,
+      "retained_robin_system_residual": 1.3958195295360441e-08,
+      "outer_xx_metric_coeff_residual": 1.1335420999315724e-07,
+      "robin_residual": 4.301339185275744e-23,
+      "full_metric_sample": 3.658434266254672e-05,
+      "full_metric_all_x_sample": 3.658434266254672e-05,
+      "alpha": [
+        0.6308102392304794,
+        -0.002350768900091877,
+        -0.05038398697734335
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 12876530,
+      "linear_residual": 4.367513634279986e-22,
+      "mean_schur": [
+        -0.03945328295499825,
+        -0.6078446590197665,
+        -0.35850265373139506
+      ],
+      "maximum_step": 3.0359091728107237e-09,
+      "damping": 0.0625
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 9,
+      "low_coefficient_residual": 9.589482302147076e-08,
+      "retained_robin_system_residual": 1.3229312745922901e-08,
+      "outer_xx_metric_coeff_residual": 9.589482302147076e-08,
+      "robin_residual": 4.3840572465310467e-23,
+      "full_metric_sample": 3.658434267369645e-05,
+      "full_metric_all_x_sample": 3.658434267369645e-05,
+      "alpha": [
+        0.6308102391082382,
+        -0.0023507688996717555,
+        -0.05038398696460301
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 12876528,
+      "linear_residual": 5.790264287871194e-22,
+      "mean_schur": [
+        -0.03945328295409226,
+        -0.607844659006191,
+        -0.3585026537254932
+      ],
+      "maximum_step": 9.310433682906385e-10,
+      "damping": 0.25
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 10,
+      "low_coefficient_residual": 7.735383403752224e-08,
+      "retained_robin_system_residual": 1.1032423380696936e-08,
+      "outer_xx_metric_coeff_residual": 7.735383403752224e-08,
+      "robin_residual": 3.370760996153588e-23,
+      "full_metric_sample": 3.658434266897823e-05,
+      "full_metric_all_x_sample": 3.658434266897823e-05,
+      "alpha": [
+        0.630810239049877,
+        -0.002350768899066719,
+        -0.05038398695920623
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 12876488,
+      "linear_residual": 2.2039836123540163e-21,
+      "mean_schur": [
+        -0.03945328295333373,
+        -0.6078446589995783,
+        -0.35850265371944057
+      ],
+      "maximum_step": 9.684272304788467e-08,
+      "damping": 0.03125
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 11,
+      "low_coefficient_residual": 7.821801656816764e-08,
+      "retained_robin_system_residual": 1.0693919071786325e-08,
+      "outer_xx_metric_coeff_residual": 7.821801656816764e-08,
+      "robin_residual": 3.970466940254533e-23,
+      "full_metric_sample": 3.658434294456728e-05,
+      "full_metric_all_x_sample": 3.658434294456728e-05,
+      "alpha": [
+        0.6308102360235419,
+        -0.0023507688852613417,
+        -0.05038398664956462
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 12876501,
+      "linear_residual": 3.0322332782850063e-21,
+      "mean_schur": [
+        -0.03945328292817425,
+        -0.6078446586626387,
+        -0.35850265354618277
+      ],
+      "maximum_step": 7.499656456277083e-08,
+      "damping": 0.0078125
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 12,
+      "low_coefficient_residual": 7.260276842518102e-08,
+      "retained_robin_system_residual": 1.061887359168437e-08,
+      "outer_xx_metric_coeff_residual": 7.260276842518102e-08,
+      "robin_residual": 4.0531850015098356e-23,
+      "full_metric_sample": 3.6584342953469565e-05,
+      "full_metric_all_x_sample": 3.6584342953469565e-05,
+      "alpha": [
+        0.6308102354376313,
+        -0.0023507688806812697,
+        -0.05038398659285062
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 12876479,
+      "linear_residual": 1.9459423910309976e-22,
+      "mean_schur": [
+        -0.0394532829217661,
+        -0.60784465859681,
+        -0.35850265349739024
+      ],
+      "maximum_step": 3.105596079022773e-09,
+      "damping": 0.03125
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 13,
+      "low_coefficient_residual": 7.645854618861489e-08,
+      "retained_robin_system_residual": 1.0578981092310377e-08,
+      "outer_xx_metric_coeff_residual": 7.645854618861489e-08,
+      "robin_residual": 3.639594695233322e-23,
+      "full_metric_sample": 3.658434296778332e-05,
+      "full_metric_all_x_sample": 3.658434296778332e-05,
+      "alpha": [
+        0.6308102353697287,
+        -0.0023507688807261973,
+        -0.050383986585301764
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 12876478,
+      "linear_residual": 6.667011113692047e-22,
+      "mean_schur": [
+        -0.03945328292148715,
+        -0.6078446585893493,
+        -0.35850265349633503
+      ],
+      "maximum_step": 2.522931653203341e-09,
+      "damping": 0.0625
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 14,
+      "low_coefficient_residual": 8.531700048913149e-08,
+      "retained_robin_system_residual": 1.0114914009922384e-08,
+      "outer_xx_metric_coeff_residual": 8.531700048913149e-08,
+      "robin_residual": 3.3914405114674135e-23,
+      "full_metric_sample": 3.658434296735052e-05,
+      "full_metric_all_x_sample": 3.658434296735052e-05,
+      "alpha": [
+        0.6308102353202348,
+        -0.002350768880407038,
+        -0.050383986580396105
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 12876476,
+      "linear_residual": 1.1307558973599888e-21,
+      "mean_schur": [
+        -0.0394532829209995,
+        -0.6078446585838169,
+        -0.3585026534927522
+      ],
+      "maximum_step": 5.558363942377442e-08,
+      "damping": 0.00390625
+    }
+  ],
+  "summaries": [
+    {
+      "epsilon": 0.05,
+      "success": false,
+      "actual_spline_metric": {
+        "epsilon": 1.0,
+        "order": 1,
+        "core": 3.0,
+        "diameter_sample": 2.5147228482113166,
+        "waist_signed_radial_gap": 0.1014951593313187,
+        "waist_signed_gap_over_sampled_diameter": 0.04036037585752666,
+        "samples": 1201,
+        "angles": 384,
+        "metric_operator_norm_sample": 7.722669119751117e-05,
+        "at_x": 0.4825,
+        "at_theta": 0.0,
+        "minimum_mean_xx": 5.2354912968128e-09,
+        "minimum_mean_tt": 1.6571616228558782e-10
+      }
+    }
+  ],
+  "report_recovery": "npz saved before a Path-to-JSON reporting error; serializer is now fixed",
+  "limitations": [
+    "finite ordinary-floating Robin BVP",
+    "no actual nonlinear flat tails",
+    "nonzero-mode outer cap noise remains; no global reach certificate"
+  ]
+}

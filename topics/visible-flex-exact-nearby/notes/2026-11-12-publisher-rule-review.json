@@ -1,0 +1,12 @@
+{
+  "reviewed_from": "ee9387de6905520db5fde65321384c9552f7031b",
+  "reviewed_to": "d6be1f074f53ce8bd1e7af87cdc154a9f52096cd",
+  "topic_README_unchanged": true,
+  "root_README_changed": true,
+  "applied_rules": [
+    "topic log only; no new root LOG writes or archives",
+    "cross-topic changes explained in topic log",
+    "non-fast-forward rejection: immediately pull --rebase and retry"
+  ],
+  "separate_publish_worktree": "/workspace/scratch/f6a2c7886477/math-research-publish"
+}

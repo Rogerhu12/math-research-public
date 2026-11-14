@@ -1,0 +1,94 @@
+{
+  "kind": "explicit_bounded_floating_Codazzi_producer_process",
+  "complete": true,
+  "certified": false,
+  "source_sha256": "56a1acf4aa643678ce2cdad7d2edba72da10de464c931c60acb377e77cdd932b",
+  "producer": "scripts/fourfold_codazzi_compact_metric_branch_refine_v14_probe.py",
+  "producer_sha256": "6d4255ebfc6ca15124de3a23d05e00035c1dcaa19a1aa0abd4c2a93f10fdfe71",
+  "producer_arguments": [
+    "--guess",
+    "notes/2026-11-13-R133-compact-metric-m128-alpha070-v14-full-QR-candidate.json",
+    "--modes",
+    "128",
+    "--angles",
+    "1024",
+    "--amplitude",
+    ".75",
+    "--mean-boundary",
+    "outer",
+    "--mesh-stride",
+    "1",
+    "--tol",
+    "2e-6",
+    "--max-nodes",
+    "1400",
+    "--newton-iterations",
+    "24",
+    "--jac-band",
+    "128",
+    "--jac-drop",
+    "0",
+    "--jac-chunk",
+    "4",
+    "--qr-storage",
+    "memory",
+    "--out",
+    "notes/2026-11-13-R133-compact-metric-m128-alpha075-v14-full-QR-floating.json",
+    "--candidate",
+    "notes/2026-11-13-R133-compact-metric-m128-alpha075-v14-full-QR-candidate.json"
+  ],
+  "address_space_limit_bytes": 3221225472,
+  "address_space_limit_MiB": 3072,
+  "limit_kind": "RLIMIT_AS address space, not resident memory",
+  "mathematical_equations_or_tolerances_modified": false,
+  "status": "producer_returned_normally",
+  "all_accepted_checkpoints": [
+    {
+      "path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-m128-alpha075-v14-full-QR-floating/accepted-000.npz",
+      "sha256": "cd0979b792e29728b7c65d4eb49122a0dca13506f6ead6a5dd714f9303fef441",
+      "bytes": 3400050
+    },
+    {
+      "path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-m128-alpha075-v14-full-QR-floating/accepted-001.npz",
+      "sha256": "d202b75c73bfa3ea5a087e2b1ae8bb04b89aa7379f8d4f4b5cae4872ed28aa07",
+      "bytes": 3401634
+    },
+    {
+      "path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-m128-alpha075-v14-full-QR-floating/accepted-002.npz",
+      "sha256": "bda7a5bf333c01969da5f29051695cbd25f42e18c651d2ae1f466d40a9b54321",
+      "bytes": 3399714
+    },
+    {
+      "path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-m128-alpha075-v14-full-QR-floating/accepted-003.npz",
+      "sha256": "d418a974784eb3e35ac2334a704ed1ff993ac8c173f0164e4f1f1fd9792ecd24",
+      "bytes": 3401467
+    },
+    {
+      "path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-m128-alpha075-v14-full-QR-floating/accepted-004.npz",
+      "sha256": "4276025d28db955991fead839794c6137526aa56a36924cf1082bef6b499f130",
+      "bytes": 3402221
+    },
+    {
+      "path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-m128-alpha075-v14-full-QR-floating/accepted-005.npz",
+      "sha256": "259b5570a582bc2fb52b2a172d0531100aeea96f9d92debff1b7adbba8104278",
+      "bytes": 3404989
+    },
+    {
+      "path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-m128-alpha075-v14-full-QR-floating/accepted-006.npz",
+      "sha256": "79d3413757cd25172ddf9c7e91a086b996c675783f231b2a9285ebcbb0c90ca1",
+      "bytes": 5473948
+    },
+    {
+      "path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-m128-alpha075-v14-full-QR-floating/accepted-007.npz",
+      "sha256": "9174f9a538a330731580116b6bf646b10c68a3c20ca16eb217b4ff468364a194",
+      "bytes": 5474024
+    }
+  ],
+  "producer_output": "notes/2026-11-13-R133-compact-metric-m128-alpha075-v14-full-QR-floating.json",
+  "process_wrapper_exit_code": 0,
+  "peak_resident_KiB": 2406456,
+  "wall_seconds": 387.50367359699885,
+  "producer_output_exists": true,
+  "scope": "Only a process allocation guard and complete checkpoint inventory. A normal producer return does not mean its finite BVP converged; the separate producer report retains all actual solver/math gates.",
+  "producer_output_sha256": "dee77b0b93736bf80e51dec5d7f5469b848c3daa89f55151e272adcc1fbb9598"
+}

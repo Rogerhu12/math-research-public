@@ -1,0 +1,19 @@
+{
+  "kind": "historical_exact_forward_reference_cache_recovery",
+  "complete": false,
+  "source_sha256": "bcf9fe92ef39f2a2754dbe05c76818537b7931e5e8b8c0ae83dcb1971460b5b1",
+  "source_commit": "848141eef4f2eeaf52f9886b879b8bc2561ea453",
+  "python": "3.12.14 (main, Sep 19 2026, 03:35:30) [GCC 14.2.0]",
+  "platform": "Linux-7.0.0-1019-azure-x86_64-with-glibc2.41",
+  "historical_reference_unchanged": true,
+  "true_flow_or_KAM_completion_claimed": false,
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "flint": "0.9.0"
+  },
+  "failure": "ValueError: recovered floating raw differs from the actual reference input: data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_forward.part0000.npz.gz",
+  "traceback": "Traceback (most recent call last):\n  File \"/__w/math-research/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_ci_forward_reference_bootstrap.py\", line 99, in main\n    checked_files(UL,ul);checked_files(Q,q)\n    ^^^^^^^^^^^^^^^^^^^^\n  File \"/__w/math-research/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_ci_forward_reference_bootstrap.py\", line 42, in checked_files\n    raise ValueError('historical exact reference shard absent or changed: '+str(path))\nValueError: historical exact reference shard absent or changed: data/phase_ring_continuation/step4_shared1032_reference_forward/segments_00000.npz.gz\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/__w/math-research/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_ci_forward_reference_bootstrap.py\", line 106, in main\n    raise ValueError('recovered floating raw differs from the actual reference input: '+str(path))\nValueError: recovered floating raw differs from the actual reference input: data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_forward.part0000.npz.gz\n",
+  "wall_seconds": 502.57462760899995,
+  "cpu_seconds_this_python_process": 501.87253944900004
+}

@@ -1,0 +1,61 @@
+{
+  "kind": "symbolic_continuous_reference_retarget_definition",
+  "complete": true,
+  "source_sha256": "d6bcd4c3594151036108e7f6d154991b2ad7252d0afba4d5d795dfc45d64f583",
+  "definition_only_not_true_flow": true,
+  "old_exact_delta_fraction": "-7789866024620307/4611686018427387904",
+  "target_exact_delta_fraction": "-7789843107295549/4611686018427387904",
+  "exact_parameter_step": "11458662379/2305843009213693952",
+  "old_forward_reference": {
+    "path": "data/phase_ring_continuation/step4_shared1032_reference_forward/manifest.json",
+    "sha256": "43cbffb2e0b924b6d69608df54e0acf3cf8ecd66c030b7343e84864ad6eb81a0"
+  },
+  "old_backward_reference": {
+    "path": "data/phase_ring_continuation/step4_shared1032_reference_backward/manifest.json",
+    "sha256": "0ad615a077a0c313d0700c3a6392f39250617257b93197ba1f5f766716191a07"
+  },
+  "target_object": {
+    "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848"
+  },
+  "target_root": {
+    "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_root_tight.json",
+    "sha256": "489268d254c2a9454ccbee32a4821d9bf577279490f76c9cc6f8d902a5e64e0b"
+  },
+  "target_H": {
+    "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_dyadic_H.json",
+    "sha256": "0439d88f10f46d367e44a984db661ac3806a7bd052f46eca14e71594fa8eb2c2"
+  },
+  "Q_forward": {
+    "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/manifest.json",
+    "sha256": "f1e7556a13aef2a4e5661fc00c1e9c4eda961335fb8685d26bcef550b7b147ce"
+  },
+  "Q_backward": {
+    "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_backward/manifest.json",
+    "sha256": "6759d5c65842a32ad9c9f4ad7e8ccd51b264f6d5d9b7e29549ec409cd1554b5e"
+  },
+  "initial_correction": {
+    "path": "data/phase_ring_continuation/step5_retargeted_reference/initial_correction.json",
+    "sha256": "095a980a31bbeb4bfb3f61510bedfe8bf822e4f48602df82f3a9404ad884ea5c"
+  },
+  "formulas": {
+    "forward": "Y5f=x/4+U4f+Qf*a; L5f=L4f",
+    "backward": "Y5b=x/4+U4b+Qb*(Qf,end*a); L5b=L4b",
+    "time_coordinate": "each segment uses its saved exact rational/pi endpoints",
+    "parameter_correction": "no Z correction; the actual change of target field must be paid by fresh residual verification"
+  },
+  "proof_gates": {
+    "exact_initial_H_over_four": true,
+    "old_intra_leg_U_L_continuity": true,
+    "Q_intra_leg_continuity": true,
+    "Q_leg_initial_values_exactly_one": true,
+    "exact_forward_backward_Y_junction": true
+  },
+  "symbolic_product_only": true,
+  "limitations": [
+    "The original delta4 traces and the target delta5 graph remain distinct immutable inputs.",
+    "No Q approximation accuracy or positivity is asserted; q for flow bounds is still exp(old L).",
+    "Fresh true target e0/e1, denominators, complex image, all target spline germs, parameter sources and full time/angle coverage remain unpaid.",
+    "The old numerical knot mesh is a reference choice; it does not change or certify target radial knot locations."
+  ]
+}

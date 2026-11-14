@@ -1,0 +1,61 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "2026-11-14-R133-final-complete-scalar-mean-native.json.gz",
+  "original_bytes": 8058137,
+  "original_sha256": "e233ece0f264eb73f93dfe5b43c5d45b4d5d6db06da2418b9c20fb545a01889b",
+  "native_kind": "actual_final_complete_scalar_mean_Green_cached_full_target",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 7721,
+  "original_source_sha256": "6edd8abf820c4e11a25b496c08d0585fb7c943397e7f919ed3774a0b841b0d93",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "parts": [
+    {
+      "file": "2026-11-14-R133-final-complete-scalar-mean-native-binary-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "5e8ed8c64dc3672025414bac8cabfc1307e38b611e17e45e0338425f12be6352",
+      "compressed_bytes": 1993756,
+      "compressed_sha256": "da3519251f356cca9c0176b62d1dfe86e22eafb45f2f1e950af6af611ffe6b5c"
+    },
+    {
+      "file": "2026-11-14-R133-final-complete-scalar-mean-native-binary-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "abfc7ecc427afe36f3a3202f509949f257221df1419db72b89f7d0eaa321c1bb",
+      "compressed_bytes": 1967753,
+      "compressed_sha256": "7a5c8486a0fa6223b39755dd3d68cefe76ecce65f274c7a0c01f447da87c88a2"
+    },
+    {
+      "file": "2026-11-14-R133-final-complete-scalar-mean-native-binary-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 2000000,
+      "sha256": "a294e731fbeef8ef5ca5174ef179f7454bab3c89cc0cbac4567154ae8d78a1d9",
+      "compressed_bytes": 1977063,
+      "compressed_sha256": "0cbdaafab3c04341fb660e8469d90edb6c51bbc5d11e6791299fe40addd4d27d"
+    },
+    {
+      "file": "2026-11-14-R133-final-complete-scalar-mean-native-binary-parts-part003.bin.gz",
+      "index": 3,
+      "offset": 6000000,
+      "bytes": 2000000,
+      "sha256": "e9df4584455c914532701cb897ceae52fb7a5cf0a1728286cff2c94061dc4eca",
+      "compressed_bytes": 1938002,
+      "compressed_sha256": "5755a8a5b92e248b9eb28633b3b67f112cab9494640d217f61e8f55f07907a07"
+    },
+    {
+      "file": "2026-11-14-R133-final-complete-scalar-mean-native-binary-parts-part004.bin.gz",
+      "index": 4,
+      "offset": 8000000,
+      "bytes": 58137,
+      "sha256": "9dbfd8bb86b382d35322e25bab3e6ba6d831b82884b4f3979a8d9d45111a671b",
+      "compressed_bytes": 56148,
+      "compressed_sha256": "98a3b660ad4ca691fcc70545b323f42d67b436def486a6adc5f2ed4da8d95404"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}

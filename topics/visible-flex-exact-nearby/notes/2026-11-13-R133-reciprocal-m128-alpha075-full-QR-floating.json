@@ -1,0 +1,361 @@
+{
+  "kind": "floating_complete_reciprocal_polynomial_Codazzi_branch",
+  "coordinates": "B=alpha*U/v; C=1/v; v=1/Cref_nu+alpha*V",
+  "normalized_state_order": "U sine modes 1..M; V cosine modes 0..M, physical frequency 4m",
+  "modes": 128,
+  "physical_frequency_factor": 4,
+  "amplitude": 0.75,
+  "exact_float_amplitude": "3/4",
+  "source_sha256": "331b68f1c11fe625c267620e983786cb5f0f388731b8782e64cd372ee17d1232",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "new_metric_family": "E_nu=E exp(nu*h); a fixed",
+  "exact_bump": "h=4096 t^6(1-t)^6 for t=(|r|-1/20)/(13/100) in (0,1), zero elsewhere",
+  "mean_boundary": "outer",
+  "original_target_fixed": false,
+  "old_waist_branch_reused": false,
+  "waist_nonmean_complement_allowed_to_change": true,
+  "outer_boundary": "Complete retained R74 regular LINEAR stable-center rows; nonlinear tail terms unpaid.",
+  "mathematical_certificate": false,
+  "nu": -0.03390114732831421,
+  "exact_float_nu": "-4885670223207301/144115188075855872",
+  "finite_BVP_success": false,
+  "solver_status": 1,
+  "solver_message": "The maximum number of mesh nodes is exceeded.",
+  "certified": false,
+  "diagnostics": {
+    "normalized_finite_residual": 3.01824789898258e-05,
+    "normalized_full_U_residual": 0.024959265991483237,
+    "normalized_full_V_residual": 0.018156796286606713,
+    "complete_U_residual_Fourier_l1": 0.025268474368466173,
+    "complete_V_residual_Fourier_l1": 0.018182804751870577,
+    "actual_full_B_residual": 0.15515798133734937,
+    "actual_full_C_residual": 0.7998680029118466,
+    "independent_physical_residual_identity_error": 2.6326163471424024e-14,
+    "polynomial_residual_beyond_3M_roundoff_l1": 3.136358467242742e-14,
+    "U_rhs_projection_defect": 0.024959265991483015,
+    "V_rhs_projection_defect": 0.018156796286605825,
+    "C_min": -8.715668209654924,
+    "C_max": -0.17103916765853325,
+    "B_abs_max": 0.6300601960800017,
+    "v_min": -5.846614045716267,
+    "v_max": -0.11473589585388688,
+    "full_physical_boundary": {
+      "actual_waist_B_sup": 5.163198195707114e-21,
+      "normalized_waist_c_fourth_plus_one_abs": 2.261524301161444e-12,
+      "actual_waist_mean_C_plus_inverse_a": -1.6341963682275917e-07,
+      "actual_outer_C_mean_minus_reference": -1.9133732391154115e-32,
+      "normalized_all_sampled_nonmean_Robin_l1": 9.451001018981413e-23,
+      "normalized_retained_Robin_l1": 9.450758922279159e-23,
+      "normalized_unretained_Robin_tail_l1": 2.4209670225467282e-27,
+      "normalized_Robin_high_grid_tail_l1": 1.3704190526685854e-27,
+      "right_Robin_remains_the_stated_linear_reference": true,
+      "true_nonlinear_regular_relation_not_claimed": true
+    },
+    "radial_samples": "all nodes and quarter/mid/three-quarter points",
+    "radial_sample_count": 5513,
+    "actual_angular_grid": 2048,
+    "full_interior_polynomial_support": 384,
+    "valid": true,
+    "mathematical_certificate": false,
+    "complete_continuous_rounding_error_not_paid": true
+  },
+  "warm_start": {
+    "source_candidate": "notes/2026-11-13-R133-compact-metric-m128-alpha075-v14-full-QR-candidate.json",
+    "source_candidate_sha256": "b837161a4c3050f36f0ea2052874a5efd71621471df34edd30a44f44f66741f5",
+    "source_coordinates": "B=alpha*b; C=Cref_nu+alpha*c",
+    "target_coordinates": "B=alpha*U/v; C=1/v; v=1/Cref_nu+alpha*V",
+    "source_modes": 128,
+    "target_modes": 128,
+    "full_original_modes_read": true,
+    "radial_nodes": 1379,
+    "old_amplitude": 0.75,
+    "new_amplitude": 0.75,
+    "exact_old_nu": "-4886565832447093/144115188075855872",
+    "same_old_alpha_projection_physical_B_error": 0.0006689622287322228,
+    "same_old_alpha_projection_physical_C_error": 0.04618354244549039,
+    "conversion_is_only_a_floating_warm_start": true,
+    "conversion_does_not_solve_boundary_or_PDE": true
+  },
+  "guarded_Newton_history": [
+    {
+      "nodes": 1379,
+      "iteration": 0,
+      "accepted": true,
+      "step_fraction": 1.0,
+      "nu": -0.033907361865808484,
+      "proposed_nu": -0.033907383976339876,
+      "affine_invariant_cost": 0.0012979589463601256,
+      "next_cost": 1.7793269973257537e-07,
+      "max_collocation_residual": 8.997834367111879e-06,
+      "max_boundary_residual": 1.5055352334591987e-05,
+      "trial_already_passed_complete_collocation_and_boundary_tolerances": false,
+      "converged_trial_collocation_residual": null,
+      "converged_trial_boundary_residual": null,
+      "peak_resident_KiB": 2590684
+    },
+    {
+      "nodes": 1379,
+      "iteration": 1,
+      "accepted": true,
+      "step_fraction": 1.0,
+      "nu": -0.033907383976339876,
+      "proposed_nu": -0.0339011644139837,
+      "affine_invariant_cost": 1.233794975324736e-06,
+      "next_cost": 5.10475948634128e-09,
+      "max_collocation_residual": 5.0748440117002944e-08,
+      "max_boundary_residual": 4.0119787358960934e-07,
+      "trial_already_passed_complete_collocation_and_boundary_tolerances": false,
+      "converged_trial_collocation_residual": null,
+      "converged_trial_boundary_residual": null,
+      "peak_resident_KiB": 2637148
+    },
+    {
+      "nodes": 1379,
+      "iteration": 2,
+      "accepted": true,
+      "step_fraction": 1.0,
+      "nu": -0.0339011644139837,
+      "proposed_nu": -0.03390114732831421,
+      "affine_invariant_cost": 5.773336614728995e-09,
+      "next_cost": null,
+      "max_collocation_residual": 2.108450311622044e-11,
+      "max_boundary_residual": 5.043161444007183e-10,
+      "trial_already_passed_complete_collocation_and_boundary_tolerances": true,
+      "converged_trial_collocation_residual": 9.705828415957187e-14,
+      "converged_trial_boundary_residual": 2.261746345766369e-12,
+      "peak_resident_KiB": 2645340
+    }
+  ],
+  "complete_linear_solver_history": [
+    {
+      "kind": "full_boundary_row_QR_factorization",
+      "radial_nodes": 1379,
+      "state_dimension": 257,
+      "parameter_dimension": 1,
+      "left_rows": 129,
+      "right_rows": 129,
+      "complete_blocks": 1378,
+      "all_Fourier_couplings_retained": true,
+      "no_entry_drop": true,
+      "factor_storage": "memory",
+      "factor_bytes": 2013676912,
+      "end_condition_2": 34.615734944260396,
+      "minimum_local_QR_diagonal": 0.27906207791792037,
+      "seconds": 43.111805412998365
+    },
+    {
+      "kind": "full_finite_collocation_QR_solve",
+      "refinements": [
+        {
+          "iteration": 0,
+          "full_relative_residual": 2.8380098879077897e-13,
+          "maximum_absolute_residual": 5.742883382384156e-19
+        }
+      ],
+      "full_relative_residual": 2.8380098879077897e-13,
+      "seconds": 4.829209493000235,
+      "all_finite_modes_and_parameter_column_retained": true,
+      "original_backward_residual_gate": 5e-08,
+      "complete": true
+    },
+    {
+      "kind": "full_finite_collocation_QR_solve",
+      "refinements": [
+        {
+          "iteration": 0,
+          "full_relative_residual": 7.851227947640521e-12,
+          "maximum_absolute_residual": 1.0311810429184035e-18
+        }
+      ],
+      "full_relative_residual": 7.851227947640521e-12,
+      "seconds": 2.034189347999927,
+      "all_finite_modes_and_parameter_column_retained": true,
+      "original_backward_residual_gate": 5e-08,
+      "complete": true
+    },
+    {
+      "kind": "full_boundary_row_QR_factorization",
+      "radial_nodes": 1379,
+      "state_dimension": 257,
+      "parameter_dimension": 1,
+      "left_rows": 129,
+      "right_rows": 129,
+      "complete_blocks": 1378,
+      "all_Fourier_couplings_retained": true,
+      "no_entry_drop": true,
+      "factor_storage": "memory",
+      "factor_bytes": 2013676912,
+      "end_condition_2": 34.615734944260396,
+      "minimum_local_QR_diagonal": 0.27906207791792037,
+      "seconds": 27.626151832999312
+    },
+    {
+      "kind": "full_finite_collocation_QR_solve",
+      "refinements": [
+        {
+          "iteration": 0,
+          "full_relative_residual": 7.637329974317606e-12,
+          "maximum_absolute_residual": 1.4172386854359204e-18
+        }
+      ],
+      "full_relative_residual": 7.637329974317606e-12,
+      "seconds": 1.5533920770030818,
+      "all_finite_modes_and_parameter_column_retained": true,
+      "original_backward_residual_gate": 5e-08,
+      "complete": true
+    },
+    {
+      "kind": "full_finite_collocation_QR_solve",
+      "refinements": [
+        {
+          "iteration": 0,
+          "full_relative_residual": 5.51404619057395e-11,
+          "maximum_absolute_residual": 3.65095650260399e-21
+        }
+      ],
+      "full_relative_residual": 5.51404619057395e-11,
+      "seconds": 1.5823648389996379,
+      "all_finite_modes_and_parameter_column_retained": true,
+      "original_backward_residual_gate": 5e-08,
+      "complete": true
+    },
+    {
+      "kind": "full_boundary_row_QR_factorization",
+      "radial_nodes": 1379,
+      "state_dimension": 257,
+      "parameter_dimension": 1,
+      "left_rows": 129,
+      "right_rows": 129,
+      "complete_blocks": 1378,
+      "all_Fourier_couplings_retained": true,
+      "no_entry_drop": true,
+      "factor_storage": "memory",
+      "factor_bytes": 2013676912,
+      "end_condition_2": 34.615734944260424,
+      "minimum_local_QR_diagonal": 0.27906207791792037,
+      "seconds": 34.21809850799764
+    },
+    {
+      "kind": "full_finite_collocation_QR_solve",
+      "refinements": [
+        {
+          "iteration": 0,
+          "full_relative_residual": 5.841164430583728e-11,
+          "maximum_absolute_residual": 3.514472803753498e-21
+        }
+      ],
+      "full_relative_residual": 5.841164430583728e-11,
+      "seconds": 4.1346613010027795,
+      "all_finite_modes_and_parameter_column_retained": true,
+      "original_backward_residual_gate": 5e-08,
+      "complete": true
+    }
+  ],
+  "accepted_complete_checkpoints": [
+    {
+      "path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-reciprocal-m128-alpha075-full-QR-floating/accepted-000.npz",
+      "sha256": "03fee964069b08daa1a45897a66e6f13f5d9e9960c51f069eadc7e746b719cce",
+      "bytes": 5439659,
+      "nodes": 1379,
+      "step": {
+        "nodes": 1379,
+        "iteration": 0,
+        "accepted": true,
+        "step_fraction": 1.0,
+        "nu": -0.033907361865808484,
+        "proposed_nu": -0.033907383976339876,
+        "affine_invariant_cost": 0.0012979589463601256,
+        "next_cost": 1.7793269973257537e-07,
+        "max_collocation_residual": 8.997834367111879e-06,
+        "max_boundary_residual": 1.5055352334591987e-05,
+        "trial_already_passed_complete_collocation_and_boundary_tolerances": false,
+        "converged_trial_collocation_residual": null,
+        "converged_trial_boundary_residual": null
+      }
+    },
+    {
+      "path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-reciprocal-m128-alpha075-full-QR-floating/accepted-001.npz",
+      "sha256": "5e9d07abfd9e6efee03673f57766c56b42ed9d6369abcf2fe8f8b23f726edf44",
+      "bytes": 5465321,
+      "nodes": 1379,
+      "step": {
+        "nodes": 1379,
+        "iteration": 1,
+        "accepted": true,
+        "step_fraction": 1.0,
+        "nu": -0.033907383976339876,
+        "proposed_nu": -0.0339011644139837,
+        "affine_invariant_cost": 1.233794975324736e-06,
+        "next_cost": 5.10475948634128e-09,
+        "max_collocation_residual": 5.0748440117002944e-08,
+        "max_boundary_residual": 4.0119787358960934e-07,
+        "trial_already_passed_complete_collocation_and_boundary_tolerances": false,
+        "converged_trial_collocation_residual": null,
+        "converged_trial_boundary_residual": null
+      }
+    },
+    {
+      "path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-reciprocal-m128-alpha075-full-QR-floating/accepted-002.npz",
+      "sha256": "cd0c3508cbac8d015c9de70f31804e2aea2ed3655e6a14081fbc90526704716c",
+      "bytes": 5465967,
+      "nodes": 1379,
+      "step": {
+        "nodes": 1379,
+        "iteration": 2,
+        "accepted": true,
+        "step_fraction": 1.0,
+        "nu": -0.0339011644139837,
+        "proposed_nu": -0.03390114732831421,
+        "affine_invariant_cost": 5.773336614728995e-09,
+        "next_cost": null,
+        "max_collocation_residual": 2.108450311622044e-11,
+        "max_boundary_residual": 5.043161444007183e-10,
+        "trial_already_passed_complete_collocation_and_boundary_tolerances": true,
+        "converged_trial_collocation_residual": 9.705828415957187e-14,
+        "converged_trial_boundary_residual": 2.261746345766369e-12
+      }
+    }
+  ],
+  "complete_linearized_operator_used": true,
+  "all_finite_modes_and_nonlinear_physical_boundary_rows_retained": true,
+  "original_linear_backward_residual_gate": 5e-08,
+  "finite_BVP_is_in_new_reciprocal_coordinates": true,
+  "requested_interval": [
+    "0",
+    "25/8"
+  ],
+  "initial_radial_nodes": 1379,
+  "radial_nodes": 1379,
+  "angular_grid": 1024,
+  "diagnostic_angular_grid": 2048,
+  "exact_interior_polynomial_support_index": 384,
+  "tol": 2e-06,
+  "maximum_estimated_relative_radial_residual": 8.970310756421115e-06,
+  "maximum_finite_boundary_residual": 2.261746345766369e-12,
+  "candidate_path": "notes/2026-11-13-R133-reciprocal-m128-alpha075-full-QR-candidate.json",
+  "candidate_sha256": "e19344f7f1fecb96f6871315de7e22fee1ad9ca58f34953b4672f05f5a3326ed",
+  "exact_center_parameter": {
+    "numerator": "-7789843107295549",
+    "denominator": "4611686018427387904"
+  },
+  "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "mean_retained": true,
+  "true_nonlinear_regular_tail": null,
+  "whole_affine_parameter_interval": false,
+  "whole_real_angular_circle": false,
+  "whole_radial_interval": false,
+  "scipy_version": "1.17.0",
+  "scipy_collocation_module_sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+  "dependency_sha256": {
+    "fourfold_codazzi_reciprocal_polynomial_system.py": "27abad425627b219b5ea1de4f6935c82714511cefb980c4d24171a1d77e0c646",
+    "fourfold_codazzi_reciprocal_candidate_tools.py": "5ee4e4d52028b88787db67016013b3b6cf73d8f55b72a161db2aa2f80ed9dcdb",
+    "fourfold_codazzi_full_action_qr_collocation.py": "44246ede20c669bbbcb6e65fd94430abe42b05329d23ff6b2857f6605731c9f2",
+    "fourfold_codazzi_block_qr_collocation.py": "62a538a21334f591a227492cade1af369403dc4ed18fad184fc8604abc8bf429",
+    "fourfold_codazzi_block_qr_checkpointed.py": "7eda6f1798105a54944521b9c746cf79cb0dfd020b0a91e59fd21aeb5d0cd677",
+    "fourfold_codazzi_guarded_Newton_krylov_v3.py": "307d1675291f706f84436393940d05a224825149a498cdf1710ebe3e9fddf9fc",
+    "fourfold_codazzi_candidate_shards.py": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e",
+    "fourfold_codazzi_compact_metric_branch_probe.py": "e1692ce4e7b1090adb0aeab7414f8df32411072283cedad3d848ca4fb18ef0a4"
+  },
+  "wall_seconds": 156.41729762999603
+}

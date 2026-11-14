@@ -1,0 +1,97 @@
+{
+  "kind": "completed_restoration_and_new_true_time_domain_packages",
+  "complete": true,
+  "files": [
+    {
+      "path": "scripts/fourfold_shared_trace_stream_recovery.py",
+      "sha256": "e8e95bfc4895c8b1fa53c542f0878cca1112fbaa2ed533b00a6a8cd6ef99d2dc",
+      "bytes": 17324
+    },
+    {
+      "path": "notes/2026-11-12-step4-backward-stream-recovery.json",
+      "sha256": "1ba63401088a8b763833a1cfd2251b7ada1d384b8320b7a7cd53a078672c8029",
+      "bytes": 49438
+    },
+    {
+      "path": "notes/2026-11-12-step4-backward-raw-recovery-hash-check.json",
+      "sha256": "4cd61d1ba2abeebec0b67778ad06551c004aeb1b92a76d9f0f3df11fbe14d392",
+      "bytes": 13502
+    },
+    {
+      "path": "notes/2026-11-12-step4-backward-reference-recovery-hash-check.json",
+      "sha256": "1dc37cc3d5769d07b33b23c196b259c82d472f2a9127cd3116daa118e049eb5f",
+      "bytes": 8738
+    },
+    {
+      "path": "notes/2026-11-12-step4-backward-Q-recovery-hash-check.json",
+      "sha256": "65b8e5bfccda5d4290a0521ce3d9fafe247a556daf902796246812c3af279a96",
+      "bytes": 3042
+    },
+    {
+      "path": "notes/2026-11-12-step5-restored-complete-retarget-identity.json",
+      "sha256": "9b2778a14ffc17eff7ea615110a76afbcf5de488470fa7fa7fd64e1576348e26",
+      "bytes": 1278
+    },
+    {
+      "path": "notes/2026-11-12-backward-reference-restoration-complete.md",
+      "sha256": "dd46bf0e4552b1558638c1fc458b3572748ade364edd7a94fc94e5565e818765",
+      "bytes": 4995
+    },
+    {
+      "path": "scripts/fourfold_saved_invariant_time_extension.py",
+      "sha256": "c1ad17f89670bcf0096909d750359ee872cbb854d6e72fc03d5641b3cb43ff0c",
+      "bytes": 14248
+    },
+    {
+      "path": "scripts/fourfold_expand_saved_time_domain.py",
+      "sha256": "a57f0683c8d9b4879c064ee8cc70994b0d2951d51f63bf4a95df73aea086be26",
+      "bytes": 10945
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_time_domain_full/forward_0001_R6_S8.json.gz",
+      "sha256": "26bd69302c35e6127fc357eff80fab4ce4bf5db8674d3f1c207221746c77dc1c",
+      "bytes": 17066
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_time_domain_full/forward_0004_R6_S8.json.gz",
+      "sha256": "a9faf3a16707b05cd34fe7766e387a6e6ecd7f4b557c88e09b2ed28bb52f3f8b",
+      "bytes": 2235
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_time_domain_full/forward_0419_union_R6_S8.json.gz",
+      "sha256": "0ceffcb9e434d3596b6b8d14f66776a6dc0f750fabb1dbfb9d4326655acc607d",
+      "bytes": 44124
+    },
+    {
+      "path": "notes/2026-11-12-turn1-expanded-domain-layout-budget.json",
+      "sha256": "d48fc83dd2e78ab067015c144ee81fef4c2c3fa1bec3293e033e911862fba1ae",
+      "bytes": 5183
+    },
+    {
+      "path": "notes/2026-11-12-reused-time-coefficients-larger-domains.md",
+      "sha256": "acd5a32a39808c891231b15c816349cf067bd03121b606b8c4cdb88aed81d3ce",
+      "bytes": 4414
+    },
+    {
+      "path": "scripts/fourfold_integrated_parameter_source_budget.py",
+      "sha256": "5a37b36b42936e69921b9ab921b691a6860030dd48859ec22ed24fe045b118cf",
+      "bytes": 7381
+    },
+    {
+      "path": "notes/2026-11-12-step5-integrated-parameter-source-budget.json",
+      "sha256": "1157bc1b8ad6f70b9fbd65aeaee6152da842e066d22b216cd2ca87620e5f5a41",
+      "bytes": 209005
+    },
+    {
+      "path": "notes/2026-11-12-integrated-parameter-source-budget.md",
+      "sha256": "7c8a0eacdeabbe9e9e4351ce70437034794079c81cee57031c900b3541533d2c",
+      "bytes": 2349
+    }
+  ],
+  "limitations": [
+    "All backward raw and finite U/L/Q reference bytes restored exactly; no new true-flow claim.",
+    "Only turn1 expanded full domain passed; ordinary4 and original three-germ419 failures are explicitly retained.",
+    "Parameter moduli are complete upper budgets and do not give signed mean twist.",
+    "Large regenerated raw/U/L/Q files intentionally omitted from this small manifest."
+  ]
+}

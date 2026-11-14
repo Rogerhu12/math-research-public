@@ -1,0 +1,26 @@
+{"stage": "parameter_field_sampling", "segment": 24, "N": 1024, "K": 511, "Nt": 20, "m": 20}
+{"stage": "field_node", "segment": 24, "node": 0}
+{"stage": "field_node", "segment": 24, "node": 8}
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0024_ef134f2a18_uniform/field_p2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_parameter_density_pipeline_efficient_v5.py", line 440, in <module>
+    main()
+  File "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_parameter_density_pipeline_efficient_v5.py", line 436, in main
+    run(p.parse_args())
+  File "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_parameter_density_pipeline_efficient_v5.py", line 256, in run
+    item["exact_rectangle"]=preserve_rows(args.directory/("field_p"+str(orders[order])),rows,
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_Q1024_v3.py", line 115, in preserve_rows
+    directory=Path(directory);directory.mkdir(parents=True,exist_ok=True)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1315, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+OSError: [Errno 28] No space left on device: 'data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0024_ef134f2a18_uniform'

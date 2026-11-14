@@ -1,0 +1,71 @@
+{
+  "kind": "R87_actual_complete_finite_collar_and_root_complex_input_ready",
+  "complete": true,
+  "files": [
+    {
+      "path": "results/R87-actual-finite-canonical-collar-and-residual-coefficients.md",
+      "sha256": "3347a4660216d541582928d80f351407970e9c1250d5423494090bc16e0c00de",
+      "bytes": 17593
+    },
+    {
+      "path": "scripts/fourfold_phase_canonical_collar_finite.py",
+      "sha256": "504f26af09581dd00998ed79c778bc20ed039382907de6cd4fe2ad304091af9a",
+      "bytes": 29720
+    },
+    {
+      "path": "scripts/fourfold_phase_canonical_collar_centered.py",
+      "sha256": "d4cc4346fdbc87e1a7584c7304635e71081112c955a22d30514179fdaf37cc27",
+      "bytes": 895
+    },
+    {
+      "path": "scripts/fourfold_phase_canonical_collar_centered_cover.py",
+      "sha256": "ca1aec15062639f828d2375e47ba494c9f32d00db720f51db9e956b1e0980662",
+      "bytes": 11965
+    },
+    {
+      "path": "scripts/fourfold_phase_canonical_collar_aggregate.py",
+      "sha256": "63d54f3ec506d950f602242ff7828410c96deb8dda03d809985ee72f6e585a06",
+      "bytes": 4430
+    },
+    {
+      "path": "notes/2026-11-12-actual-finite-canonical-collar-centered-cover.json.gz",
+      "sha256": "786cc482a6890f8caf670a8131a0923dc1e2e2cb40faa96b269590baaf834f6e",
+      "bytes": 749234
+    },
+    {
+      "path": "notes/2026-11-12-actual-finite-canonical-collar-aggregate.json",
+      "sha256": "92ad14fd6647fee8e3bce39664984a821790e9df04fe3f65c0a8d5374e41ad54",
+      "bytes": 47350
+    },
+    {
+      "path": "scripts/fourfold_phase_root_potential_complex_strip.py",
+      "sha256": "751e2332d3944ed3eb915f5c76d9ff0bd345401b9330451791706642f88de4a1",
+      "bytes": 19400
+    },
+    {
+      "path": "notes/2026-11-12-actual-root-v0-complex-strip.md",
+      "sha256": "ca8e47edfe28b9300da977cdc59d10469bc70125d888232e05d8d45c662bddd2",
+      "bytes": 8380
+    },
+    {
+      "path": "notes/2026-11-12-actual-root-v0-complex-strip.json.gz",
+      "sha256": "70cd03af5bd7930be7421933dc072c866357858503c43f56fedb5cde1edfdd6c",
+      "bytes": 1200524
+    },
+    {
+      "path": "scripts/fourfold_phase_root_shear_regularized_budget.py",
+      "sha256": "a0980f4077390f2a7cdc955fc12471a9d85966576a63fb0601939826ccda95fb",
+      "bytes": 3395
+    },
+    {
+      "path": "notes/2026-11-12-actual-root-regularized-shear-budget.json",
+      "sha256": "158a0295961e92c54b41ecfce9c0083adb9c5d4d86c3f4ef6d24644a00a7aacf",
+      "bytes": 4719
+    }
+  ],
+  "scope": [
+    "Finite collar continuous coefficients and full residual algebra complete.",
+    "Complex v0 strip and mean-retaining root frame costs complete.",
+    "Full Airy matrix/source aggregation and complete feedback cutoff remain separate open inputs."
+  ]
+}

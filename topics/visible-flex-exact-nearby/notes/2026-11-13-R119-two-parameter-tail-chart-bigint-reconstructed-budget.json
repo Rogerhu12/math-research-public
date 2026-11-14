@@ -1,0 +1,262 @@
+{
+  "kind": "R119-bundle47-new-BigInt-rational-budget",
+  "status": "passed",
+  "gates_count": 33,
+  "passed_count": 33,
+  "implementation": "new JavaScript BigInt reduced rational arithmetic",
+  "execution_contract": "Every comparison uses exact integer cross multiplication. This report is a new execution, not a Python-run claim.",
+  "input_git_blobs": {
+    "results/R119-supplement-two-parameter-full-tail-chart-reconstructed.md": "a76cb5bb70bd0d2e5a5a48967b16679ef8ed4170",
+    "scripts/fourfold_two_parameter_tail_chart_reconstructed_20261113.py": "56d2ef581042e52d5ef5131c764e4ce1bfcafdf2",
+    "results/R119-supplement-actual-phase-preserving-subprincipal-metric-parameter.md": "ae87a824ab3e58479894df470c9f066969e83241",
+    "results/R119-supplement-stronger-deep-first-shear-and-complete-local-map.md": "cb2db7a4d9593e75e96344b1c2557fd1a38a0e03",
+    "results/R119-supplement-stronger-deep-full-label-chart-and-fourth-line.md": "c8bb47e46fcfa26fa05da0825a597529b2e43dd0",
+    "results/R119-supplement-uniform-tail-chart-for-actual-metric-parameters.md": "98386ffd3cffce29599d7eb012350b987a869d47",
+    "results/R119-supplement-retuned-fourth-connector-and-common-bumps.md": "4f33b6277074962f7df3009355b44031fa6c1389",
+    "results/R119-supplement-actual-exterior-Schur-and-full-weak-Wronskian.md": "bc30d99e60744bf5072558ec2038d3554eae7a7a",
+    "results/R119-supplement-actual-complete-radial-return-first-phase.md": "0d1fb3753cf159387864cbe7d8b87cab086a0aac",
+    "results/R119-supplement-actual-two-parameter-complete-phase-arithmetic.md": "7d2a2f93a6c1c2ce01931fcba94fb8d1478cb7dc"
+  },
+  "implementation_git_blob": "0f56c7869515a3c151d3a5bea549e77653a21116",
+  "gates": [
+    {
+      "name": "second_bump_Sprime_lower",
+      "relation": "<",
+      "lhs": "1/2",
+      "rhs": "22815/32768",
+      "passed": true
+    },
+    {
+      "name": "second_bump_Sprime_upper",
+      "relation": "<",
+      "lhs": "459375/524288",
+      "rhs": "1",
+      "passed": true
+    },
+    {
+      "name": "second_bump_absolute_monotonicity",
+      "relation": "<",
+      "lhs": "3/4194304",
+      "rhs": "40",
+      "passed": true
+    },
+    {
+      "name": "first_bump_log_first",
+      "relation": "<",
+      "lhs": "135003/1024",
+      "rhs": "150",
+      "passed": true
+    },
+    {
+      "name": "second_bump_log_first",
+      "relation": "<",
+      "lhs": "335544323/4194304",
+      "rhs": "150",
+      "passed": true
+    },
+    {
+      "name": "first_bump_log_second",
+      "relation": "<",
+      "lhs": "7203/16",
+      "rhs": "480",
+      "passed": true
+    },
+    {
+      "name": "second_bump_log_second",
+      "relation": "<",
+      "lhs": "7602179/16384",
+      "rhs": "480",
+      "passed": true
+    },
+    {
+      "name": "all_jet_orders_zero_through_four",
+      "relation": "<=",
+      "lhs": "1/64",
+      "rhs": "1/64",
+      "passed": true
+    },
+    {
+      "name": "full_complex_variation",
+      "relation": "<",
+      "lhs": "671105025/134217728",
+      "rhs": "28/3",
+      "passed": true
+    },
+    {
+      "name": "full_material_integral_margin",
+      "relation": "<",
+      "lhs": "671088641/67108864",
+      "rhs": "64",
+      "passed": true
+    },
+    {
+      "name": "delta129_exact_square",
+      "relation": "=",
+      "lhs": "1/8507059173023461586584365185794205286400",
+      "rhs": "1/8507059173023461586584365185794205286400",
+      "passed": true
+    },
+    {
+      "name": "fourth_matrix_error",
+      "relation": "<",
+      "lhs": "1/42949672960",
+      "rhs": "1/34359738368",
+      "passed": true
+    },
+    {
+      "name": "fourth_ideal_determinant",
+      "relation": "=",
+      "lhs": "1/64",
+      "rhs": "1/64",
+      "passed": true
+    },
+    {
+      "name": "full_complex_cone_denominator",
+      "relation": "<",
+      "lhs": "1297",
+      "rhs": "891793587568623/687194767360",
+      "passed": true
+    },
+    {
+      "name": "full_complex_cone_invariance",
+      "relation": "<",
+      "lhs": "13273671925777/891793587568623",
+      "rhs": "1/16",
+      "passed": true
+    },
+    {
+      "name": "actual_Mobius_derivative",
+      "relation": "<",
+      "lhs": "1/107661376",
+      "rhs": "1/67108864",
+      "passed": true
+    },
+    {
+      "name": "ideal_line_one_step_error",
+      "relation": "<",
+      "lhs": "65/83008",
+      "rhs": "1/1000",
+      "passed": true
+    },
+    {
+      "name": "unchanged_old_cell_count",
+      "relation": "=",
+      "lhs": "3968",
+      "rhs": "3968",
+      "passed": true
+    },
+    {
+      "name": "initial_deep_line_difference",
+      "relation": "<",
+      "lhs": "5/64",
+      "rhs": "1/8",
+      "passed": true
+    },
+    {
+      "name": "infinite_error_geometric_sum",
+      "relation": "<",
+      "lhs": "8388608/8388607875",
+      "rhs": "1/999",
+      "passed": true
+    },
+    {
+      "name": "deep_initial_error_below_surrogate",
+      "relation": "<",
+      "lhs": "100",
+      "rhs": "103171",
+      "passed": true
+    },
+    {
+      "name": "true_fourth_physical_error",
+      "relation": "<",
+      "lhs": "1033017668127734925461/633191474814000586047603251085312",
+      "rhs": "1/274877906944",
+      "passed": true
+    },
+    {
+      "name": "sqrt12_coefficient_lower_square",
+      "relation": "<",
+      "lhs": "4761",
+      "rhs": "4800",
+      "passed": true
+    },
+    {
+      "name": "sqrt12_coefficient_upper_square",
+      "relation": "<",
+      "lhs": "4800",
+      "rhs": "4900",
+      "passed": true
+    },
+    {
+      "name": "true_fourth_lower",
+      "relation": "<",
+      "lhs": "14",
+      "rhs": "4097398800383/274877906944",
+      "passed": true
+    },
+    {
+      "name": "true_fourth_upper",
+      "relation": "<",
+      "lhs": "20607253086213/1374389534720",
+      "rhs": "15",
+      "passed": true
+    },
+    {
+      "name": "first_parameter_Cauchy_fee",
+      "relation": "<=",
+      "lhs": "1/4194304",
+      "rhs": "1/4194304",
+      "passed": true
+    },
+    {
+      "name": "second_parameter_Cauchy_fee",
+      "relation": "<=",
+      "lhs": "1/256",
+      "rhs": "1/256",
+      "passed": true
+    },
+    {
+      "name": "retuned_stop_difference",
+      "relation": "<",
+      "lhs": "15/70368744177664",
+      "rhs": "1/2199023255552",
+      "passed": true
+    },
+    {
+      "name": "actual_geometric_profile_margin",
+      "relation": "<",
+      "lhs": "104870403125/1465970761728",
+      "rhs": "1/8",
+      "passed": true
+    },
+    {
+      "name": "full_outer_good_set_positive",
+      "relation": "<",
+      "lhs": "0",
+      "rhs": "16301/16384",
+      "passed": true
+    },
+    {
+      "name": "real_gamma2_actual_unit_beta_shift_inside",
+      "relation": "<",
+      "lhs": "1/77371252455336267181195264",
+      "rhs": "1/1073741824",
+      "passed": true
+    },
+    {
+      "name": "real_gamma1_target_inside",
+      "relation": "<",
+      "lhs": "4611686018427387905/77371252455336267181195264",
+      "rhs": "1/65536",
+      "passed": true
+    }
+  ],
+  "historical_unavailable_native_sha256": "7822dcf1b53b5cfe82be4360999ae9fdd7eef3ab6cc6e04b3c538c7a0722ae88",
+  "historical_native_reproduced": false,
+  "python_reconstruction_executed": false,
+  "not_claimed": [
+    "same-width whole-network inverse",
+    "nonradial complete beta counterterm",
+    "full nonlinear F solved"
+  ]
+}

@@ -1,0 +1,749 @@
+{
+  "kind": "R117_independent_exact_two_jet_identity",
+  "execution": "actual V8 BigInt rational algebra",
+  "spatial_Taylor_order": 4,
+  "epsilon_order": 1,
+  "cases": [
+    {
+      "name": "model0_quadratic",
+      "source_C_rho2_f": "202264637498182329859/162721387985315959800",
+      "Newton_source": "-202264637498182329859/325442775970631919600"
+    },
+    {
+      "name": "model0_third_jets_changed",
+      "source_C_rho2_f": "202264637498182329859/162721387985315959800",
+      "Newton_source": "-202264637498182329859/325442775970631919600"
+    },
+    {
+      "name": "model1_quadratic",
+      "source_C_rho2_f": "2882892493434344194291/1220410409889869698500",
+      "Newton_source": "-2882892493434344194291/2440820819779739397000"
+    },
+    {
+      "name": "model1_third_jets_changed",
+      "source_C_rho2_f": "2882892493434344194291/1220410409889869698500",
+      "Newton_source": "-2882892493434344194291/2440820819779739397000"
+    },
+    {
+      "name": "model2_quadratic",
+      "source_C_rho2_f": "172177873684592824603/45200385551476655500",
+      "Newton_source": "-172177873684592824603/90400771102953311000"
+    },
+    {
+      "name": "model2_third_jets_changed",
+      "source_C_rho2_f": "172177873684592824603/45200385551476655500",
+      "Newton_source": "-172177873684592824603/90400771102953311000"
+    },
+    {
+      "name": "model3_quadratic",
+      "source_C_rho2_f": "1132270979396550810913/203401734981644949750",
+      "Newton_source": "-1132270979396550810913/406803469963289899500"
+    },
+    {
+      "name": "model3_third_jets_changed",
+      "source_C_rho2_f": "1132270979396550810913/203401734981644949750",
+      "Newton_source": "-1132270979396550810913/406803469963289899500"
+    }
+  ],
+  "gates": [
+    {
+      "name": "model0_quadratic: spherical chart has K=1",
+      "left": "1",
+      "right": "1",
+      "passed": true
+    },
+    {
+      "name": "model0_quadratic: direct Gauss first variation = correlated two-jet source",
+      "left": "202264637498182329859/162721387985315959800",
+      "right": "202264637498182329859/162721387985315959800",
+      "passed": true
+    },
+    {
+      "name": "model0_quadratic: Gauss numerator orientation",
+      "left": "93419087741629957177/861081927929028036000",
+      "right": "93419087741629957177/861081927929028036000",
+      "passed": true
+    },
+    {
+      "name": "model0_quadratic: cross determinant",
+      "left": "49299/48841",
+      "right": "49299/48841",
+      "passed": true
+    },
+    {
+      "name": "model0_quadratic: correlated determinant defect",
+      "left": "187255825/46936201",
+      "right": "187255825/46936201",
+      "passed": true
+    },
+    {
+      "name": "model0_quadratic: cancelled radial-projection Christoffel 000",
+      "left": "-27/260",
+      "right": "-27/260",
+      "passed": true
+    },
+    {
+      "name": "model0_quadratic: cancelled radial-projection Christoffel 001",
+      "left": "53/1190",
+      "right": "53/1190",
+      "passed": true
+    },
+    {
+      "name": "model0_quadratic: cancelled radial-projection Christoffel 010",
+      "left": "53/1190",
+      "right": "53/1190",
+      "passed": true
+    },
+    {
+      "name": "model0_quadratic: cancelled radial-projection Christoffel 011",
+      "left": "1/15",
+      "right": "1/15",
+      "passed": true
+    },
+    {
+      "name": "model0_quadratic: cancelled radial-projection Christoffel 100",
+      "left": "-1/25",
+      "right": "-1/25",
+      "passed": true
+    },
+    {
+      "name": "model0_quadratic: cancelled radial-projection Christoffel 101",
+      "left": "-73/780",
+      "right": "-73/780",
+      "passed": true
+    },
+    {
+      "name": "model0_quadratic: cancelled radial-projection Christoffel 110",
+      "left": "-73/780",
+      "right": "-73/780",
+      "passed": true
+    },
+    {
+      "name": "model0_quadratic: cancelled radial-projection Christoffel 111",
+      "left": "97/680",
+      "right": "97/680",
+      "passed": true
+    },
+    {
+      "name": "model0_quadratic: full exact metric source zero",
+      "left": "0",
+      "right": "0",
+      "passed": true
+    },
+    {
+      "name": "model0_third_jets_changed: spherical chart has K=1",
+      "left": "1",
+      "right": "1",
+      "passed": true
+    },
+    {
+      "name": "model0_third_jets_changed: direct Gauss first variation = correlated two-jet source",
+      "left": "202264637498182329859/162721387985315959800",
+      "right": "202264637498182329859/162721387985315959800",
+      "passed": true
+    },
+    {
+      "name": "model0_third_jets_changed: Gauss numerator orientation",
+      "left": "93419087741629957177/861081927929028036000",
+      "right": "93419087741629957177/861081927929028036000",
+      "passed": true
+    },
+    {
+      "name": "model0_third_jets_changed: cross determinant",
+      "left": "49299/48841",
+      "right": "49299/48841",
+      "passed": true
+    },
+    {
+      "name": "model0_third_jets_changed: correlated determinant defect",
+      "left": "187255825/46936201",
+      "right": "187255825/46936201",
+      "passed": true
+    },
+    {
+      "name": "model0_third_jets_changed: cancelled radial-projection Christoffel 000",
+      "left": "-27/260",
+      "right": "-27/260",
+      "passed": true
+    },
+    {
+      "name": "model0_third_jets_changed: cancelled radial-projection Christoffel 001",
+      "left": "53/1190",
+      "right": "53/1190",
+      "passed": true
+    },
+    {
+      "name": "model0_third_jets_changed: cancelled radial-projection Christoffel 010",
+      "left": "53/1190",
+      "right": "53/1190",
+      "passed": true
+    },
+    {
+      "name": "model0_third_jets_changed: cancelled radial-projection Christoffel 011",
+      "left": "1/15",
+      "right": "1/15",
+      "passed": true
+    },
+    {
+      "name": "model0_third_jets_changed: cancelled radial-projection Christoffel 100",
+      "left": "-1/25",
+      "right": "-1/25",
+      "passed": true
+    },
+    {
+      "name": "model0_third_jets_changed: cancelled radial-projection Christoffel 101",
+      "left": "-73/780",
+      "right": "-73/780",
+      "passed": true
+    },
+    {
+      "name": "model0_third_jets_changed: cancelled radial-projection Christoffel 110",
+      "left": "-73/780",
+      "right": "-73/780",
+      "passed": true
+    },
+    {
+      "name": "model0_third_jets_changed: cancelled radial-projection Christoffel 111",
+      "left": "97/680",
+      "right": "97/680",
+      "passed": true
+    },
+    {
+      "name": "model0_third_jets_changed: full exact metric source zero",
+      "left": "0",
+      "right": "0",
+      "passed": true
+    },
+    {
+      "name": "model0: all changed third jets cancel in actual source",
+      "left": "202264637498182329859/162721387985315959800",
+      "right": "202264637498182329859/162721387985315959800",
+      "passed": true
+    },
+    {
+      "name": "model1_quadratic: spherical chart has K=1",
+      "left": "1",
+      "right": "1",
+      "passed": true
+    },
+    {
+      "name": "model1_quadratic: direct Gauss first variation = correlated two-jet source",
+      "left": "2882892493434344194291/1220410409889869698500",
+      "right": "2882892493434344194291/1220410409889869698500",
+      "passed": true
+    },
+    {
+      "name": "model1_quadratic: Gauss numerator orientation",
+      "left": "11346577714255439617/56859299536048490250",
+      "right": "11346577714255439617/56859299536048490250",
+      "passed": true
+    },
+    {
+      "name": "model1_quadratic: cross determinant",
+      "left": "50673/48841",
+      "right": "50673/48841",
+      "passed": true
+    },
+    {
+      "name": "model1_quadratic: correlated determinant defect",
+      "left": "279661290/46936201",
+      "right": "279661290/46936201",
+      "passed": true
+    },
+    {
+      "name": "model1_quadratic: cancelled radial-projection Christoffel 000",
+      "left": "-27/130",
+      "right": "-27/130",
+      "passed": true
+    },
+    {
+      "name": "model1_quadratic: cancelled radial-projection Christoffel 001",
+      "left": "53/595",
+      "right": "53/595",
+      "passed": true
+    },
+    {
+      "name": "model1_quadratic: cancelled radial-projection Christoffel 010",
+      "left": "53/595",
+      "right": "53/595",
+      "passed": true
+    },
+    {
+      "name": "model1_quadratic: cancelled radial-projection Christoffel 011",
+      "left": "1/15",
+      "right": "1/15",
+      "passed": true
+    },
+    {
+      "name": "model1_quadratic: cancelled radial-projection Christoffel 100",
+      "left": "-1/25",
+      "right": "-1/25",
+      "passed": true
+    },
+    {
+      "name": "model1_quadratic: cancelled radial-projection Christoffel 101",
+      "left": "-73/390",
+      "right": "-73/390",
+      "passed": true
+    },
+    {
+      "name": "model1_quadratic: cancelled radial-projection Christoffel 110",
+      "left": "-73/390",
+      "right": "-73/390",
+      "passed": true
+    },
+    {
+      "name": "model1_quadratic: cancelled radial-projection Christoffel 111",
+      "left": "97/340",
+      "right": "97/340",
+      "passed": true
+    },
+    {
+      "name": "model1_quadratic: full exact metric source zero",
+      "left": "0",
+      "right": "0",
+      "passed": true
+    },
+    {
+      "name": "model1_third_jets_changed: spherical chart has K=1",
+      "left": "1",
+      "right": "1",
+      "passed": true
+    },
+    {
+      "name": "model1_third_jets_changed: direct Gauss first variation = correlated two-jet source",
+      "left": "2882892493434344194291/1220410409889869698500",
+      "right": "2882892493434344194291/1220410409889869698500",
+      "passed": true
+    },
+    {
+      "name": "model1_third_jets_changed: Gauss numerator orientation",
+      "left": "11346577714255439617/56859299536048490250",
+      "right": "11346577714255439617/56859299536048490250",
+      "passed": true
+    },
+    {
+      "name": "model1_third_jets_changed: cross determinant",
+      "left": "50673/48841",
+      "right": "50673/48841",
+      "passed": true
+    },
+    {
+      "name": "model1_third_jets_changed: correlated determinant defect",
+      "left": "279661290/46936201",
+      "right": "279661290/46936201",
+      "passed": true
+    },
+    {
+      "name": "model1_third_jets_changed: cancelled radial-projection Christoffel 000",
+      "left": "-27/130",
+      "right": "-27/130",
+      "passed": true
+    },
+    {
+      "name": "model1_third_jets_changed: cancelled radial-projection Christoffel 001",
+      "left": "53/595",
+      "right": "53/595",
+      "passed": true
+    },
+    {
+      "name": "model1_third_jets_changed: cancelled radial-projection Christoffel 010",
+      "left": "53/595",
+      "right": "53/595",
+      "passed": true
+    },
+    {
+      "name": "model1_third_jets_changed: cancelled radial-projection Christoffel 011",
+      "left": "1/15",
+      "right": "1/15",
+      "passed": true
+    },
+    {
+      "name": "model1_third_jets_changed: cancelled radial-projection Christoffel 100",
+      "left": "-1/25",
+      "right": "-1/25",
+      "passed": true
+    },
+    {
+      "name": "model1_third_jets_changed: cancelled radial-projection Christoffel 101",
+      "left": "-73/390",
+      "right": "-73/390",
+      "passed": true
+    },
+    {
+      "name": "model1_third_jets_changed: cancelled radial-projection Christoffel 110",
+      "left": "-73/390",
+      "right": "-73/390",
+      "passed": true
+    },
+    {
+      "name": "model1_third_jets_changed: cancelled radial-projection Christoffel 111",
+      "left": "97/340",
+      "right": "97/340",
+      "passed": true
+    },
+    {
+      "name": "model1_third_jets_changed: full exact metric source zero",
+      "left": "0",
+      "right": "0",
+      "passed": true
+    },
+    {
+      "name": "model1: all changed third jets cancel in actual source",
+      "left": "2882892493434344194291/1220410409889869698500",
+      "right": "2882892493434344194291/1220410409889869698500",
+      "passed": true
+    },
+    {
+      "name": "model2_quadratic: spherical chart has K=1",
+      "left": "1",
+      "right": "1",
+      "passed": true
+    },
+    {
+      "name": "model2_quadratic: direct Gauss first variation = correlated two-jet source",
+      "left": "172177873684592824603/45200385551476655500",
+      "right": "172177873684592824603/45200385551476655500",
+      "passed": true
+    },
+    {
+      "name": "model2_quadratic: Gauss numerator orientation",
+      "left": "32886727779934701049/110425887692119076000",
+      "right": "32886727779934701049/110425887692119076000",
+      "passed": true
+    },
+    {
+      "name": "model2_quadratic: cross determinant",
+      "left": "52963/48841",
+      "right": "52963/48841",
+      "passed": true
+    },
+    {
+      "name": "model2_quadratic: correlated determinant defect",
+      "left": "1160202592/140808603",
+      "right": "1160202592/140808603",
+      "passed": true
+    },
+    {
+      "name": "model2_quadratic: cancelled radial-projection Christoffel 000",
+      "left": "-81/260",
+      "right": "-81/260",
+      "passed": true
+    },
+    {
+      "name": "model2_quadratic: cancelled radial-projection Christoffel 001",
+      "left": "159/1190",
+      "right": "159/1190",
+      "passed": true
+    },
+    {
+      "name": "model2_quadratic: cancelled radial-projection Christoffel 010",
+      "left": "159/1190",
+      "right": "159/1190",
+      "passed": true
+    },
+    {
+      "name": "model2_quadratic: cancelled radial-projection Christoffel 011",
+      "left": "1/15",
+      "right": "1/15",
+      "passed": true
+    },
+    {
+      "name": "model2_quadratic: cancelled radial-projection Christoffel 100",
+      "left": "-1/25",
+      "right": "-1/25",
+      "passed": true
+    },
+    {
+      "name": "model2_quadratic: cancelled radial-projection Christoffel 101",
+      "left": "-73/260",
+      "right": "-73/260",
+      "passed": true
+    },
+    {
+      "name": "model2_quadratic: cancelled radial-projection Christoffel 110",
+      "left": "-73/260",
+      "right": "-73/260",
+      "passed": true
+    },
+    {
+      "name": "model2_quadratic: cancelled radial-projection Christoffel 111",
+      "left": "291/680",
+      "right": "291/680",
+      "passed": true
+    },
+    {
+      "name": "model2_quadratic: full exact metric source zero",
+      "left": "0",
+      "right": "0",
+      "passed": true
+    },
+    {
+      "name": "model2_third_jets_changed: spherical chart has K=1",
+      "left": "1",
+      "right": "1",
+      "passed": true
+    },
+    {
+      "name": "model2_third_jets_changed: direct Gauss first variation = correlated two-jet source",
+      "left": "172177873684592824603/45200385551476655500",
+      "right": "172177873684592824603/45200385551476655500",
+      "passed": true
+    },
+    {
+      "name": "model2_third_jets_changed: Gauss numerator orientation",
+      "left": "32886727779934701049/110425887692119076000",
+      "right": "32886727779934701049/110425887692119076000",
+      "passed": true
+    },
+    {
+      "name": "model2_third_jets_changed: cross determinant",
+      "left": "52963/48841",
+      "right": "52963/48841",
+      "passed": true
+    },
+    {
+      "name": "model2_third_jets_changed: correlated determinant defect",
+      "left": "1160202592/140808603",
+      "right": "1160202592/140808603",
+      "passed": true
+    },
+    {
+      "name": "model2_third_jets_changed: cancelled radial-projection Christoffel 000",
+      "left": "-81/260",
+      "right": "-81/260",
+      "passed": true
+    },
+    {
+      "name": "model2_third_jets_changed: cancelled radial-projection Christoffel 001",
+      "left": "159/1190",
+      "right": "159/1190",
+      "passed": true
+    },
+    {
+      "name": "model2_third_jets_changed: cancelled radial-projection Christoffel 010",
+      "left": "159/1190",
+      "right": "159/1190",
+      "passed": true
+    },
+    {
+      "name": "model2_third_jets_changed: cancelled radial-projection Christoffel 011",
+      "left": "1/15",
+      "right": "1/15",
+      "passed": true
+    },
+    {
+      "name": "model2_third_jets_changed: cancelled radial-projection Christoffel 100",
+      "left": "-1/25",
+      "right": "-1/25",
+      "passed": true
+    },
+    {
+      "name": "model2_third_jets_changed: cancelled radial-projection Christoffel 101",
+      "left": "-73/260",
+      "right": "-73/260",
+      "passed": true
+    },
+    {
+      "name": "model2_third_jets_changed: cancelled radial-projection Christoffel 110",
+      "left": "-73/260",
+      "right": "-73/260",
+      "passed": true
+    },
+    {
+      "name": "model2_third_jets_changed: cancelled radial-projection Christoffel 111",
+      "left": "291/680",
+      "right": "291/680",
+      "passed": true
+    },
+    {
+      "name": "model2_third_jets_changed: full exact metric source zero",
+      "left": "0",
+      "right": "0",
+      "passed": true
+    },
+    {
+      "name": "model2: all changed third jets cancel in actual source",
+      "left": "172177873684592824603/45200385551476655500",
+      "right": "172177873684592824603/45200385551476655500",
+      "passed": true
+    },
+    {
+      "name": "model3_quadratic: spherical chart has K=1",
+      "left": "1",
+      "right": "1",
+      "passed": true
+    },
+    {
+      "name": "model3_quadratic: direct Gauss first variation = correlated two-jet source",
+      "left": "1132270979396550810913/203401734981644949750",
+      "right": "1132270979396550810913/203401734981644949750",
+      "passed": true
+    },
+    {
+      "name": "model3_quadratic: Gauss numerator orientation",
+      "left": "108965393621520748/279448412811247449",
+      "right": "108965393621520748/279448412811247449",
+      "passed": true
+    },
+    {
+      "name": "model3_quadratic: cross determinant",
+      "left": "56169/48841",
+      "right": "56169/48841",
+      "passed": true
+    },
+    {
+      "name": "model3_quadratic: correlated determinant defect",
+      "left": "508474547/46936201",
+      "right": "508474547/46936201",
+      "passed": true
+    },
+    {
+      "name": "model3_quadratic: cancelled radial-projection Christoffel 000",
+      "left": "-27/65",
+      "right": "-27/65",
+      "passed": true
+    },
+    {
+      "name": "model3_quadratic: cancelled radial-projection Christoffel 001",
+      "left": "106/595",
+      "right": "106/595",
+      "passed": true
+    },
+    {
+      "name": "model3_quadratic: cancelled radial-projection Christoffel 010",
+      "left": "106/595",
+      "right": "106/595",
+      "passed": true
+    },
+    {
+      "name": "model3_quadratic: cancelled radial-projection Christoffel 011",
+      "left": "1/15",
+      "right": "1/15",
+      "passed": true
+    },
+    {
+      "name": "model3_quadratic: cancelled radial-projection Christoffel 100",
+      "left": "-1/25",
+      "right": "-1/25",
+      "passed": true
+    },
+    {
+      "name": "model3_quadratic: cancelled radial-projection Christoffel 101",
+      "left": "-73/195",
+      "right": "-73/195",
+      "passed": true
+    },
+    {
+      "name": "model3_quadratic: cancelled radial-projection Christoffel 110",
+      "left": "-73/195",
+      "right": "-73/195",
+      "passed": true
+    },
+    {
+      "name": "model3_quadratic: cancelled radial-projection Christoffel 111",
+      "left": "97/170",
+      "right": "97/170",
+      "passed": true
+    },
+    {
+      "name": "model3_quadratic: full exact metric source zero",
+      "left": "0",
+      "right": "0",
+      "passed": true
+    },
+    {
+      "name": "model3_third_jets_changed: spherical chart has K=1",
+      "left": "1",
+      "right": "1",
+      "passed": true
+    },
+    {
+      "name": "model3_third_jets_changed: direct Gauss first variation = correlated two-jet source",
+      "left": "1132270979396550810913/203401734981644949750",
+      "right": "1132270979396550810913/203401734981644949750",
+      "passed": true
+    },
+    {
+      "name": "model3_third_jets_changed: Gauss numerator orientation",
+      "left": "108965393621520748/279448412811247449",
+      "right": "108965393621520748/279448412811247449",
+      "passed": true
+    },
+    {
+      "name": "model3_third_jets_changed: cross determinant",
+      "left": "56169/48841",
+      "right": "56169/48841",
+      "passed": true
+    },
+    {
+      "name": "model3_third_jets_changed: correlated determinant defect",
+      "left": "508474547/46936201",
+      "right": "508474547/46936201",
+      "passed": true
+    },
+    {
+      "name": "model3_third_jets_changed: cancelled radial-projection Christoffel 000",
+      "left": "-27/65",
+      "right": "-27/65",
+      "passed": true
+    },
+    {
+      "name": "model3_third_jets_changed: cancelled radial-projection Christoffel 001",
+      "left": "106/595",
+      "right": "106/595",
+      "passed": true
+    },
+    {
+      "name": "model3_third_jets_changed: cancelled radial-projection Christoffel 010",
+      "left": "106/595",
+      "right": "106/595",
+      "passed": true
+    },
+    {
+      "name": "model3_third_jets_changed: cancelled radial-projection Christoffel 011",
+      "left": "1/15",
+      "right": "1/15",
+      "passed": true
+    },
+    {
+      "name": "model3_third_jets_changed: cancelled radial-projection Christoffel 100",
+      "left": "-1/25",
+      "right": "-1/25",
+      "passed": true
+    },
+    {
+      "name": "model3_third_jets_changed: cancelled radial-projection Christoffel 101",
+      "left": "-73/195",
+      "right": "-73/195",
+      "passed": true
+    },
+    {
+      "name": "model3_third_jets_changed: cancelled radial-projection Christoffel 110",
+      "left": "-73/195",
+      "right": "-73/195",
+      "passed": true
+    },
+    {
+      "name": "model3_third_jets_changed: cancelled radial-projection Christoffel 111",
+      "left": "97/170",
+      "right": "97/170",
+      "passed": true
+    },
+    {
+      "name": "model3_third_jets_changed: full exact metric source zero",
+      "left": "0",
+      "right": "0",
+      "passed": true
+    },
+    {
+      "name": "model3: all changed third jets cancel in actual source",
+      "left": "1132270979396550810913/203401734981644949750",
+      "right": "1132270979396550810913/203401734981644949750",
+      "passed": true
+    }
+  ],
+  "gate_count": 116,
+  "passed": true,
+  "scope": "Finite independent exact checks of (117.23), Gauss signs, spherical chart, mean-preserving determinant identity, and cancellation of changed third jets. These do not evaluate the repository candidate or execute the Python interval producer."
+}

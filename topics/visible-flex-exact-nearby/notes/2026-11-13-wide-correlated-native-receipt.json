@@ -1,0 +1,148 @@
+{
+  "kind": "observed_wide_collar_native_execution_receipt",
+  "date": "2026-11-13",
+  "scientific_complete_certificate": false,
+  "original_full_JSON_remotely_saved": false,
+  "original_full_JSON_must_be_recomputed_if_lost": true,
+  "native_checkout": "/home/agent/visible-exact-audit-0102-f6a2",
+  "native_branch": "visible-exact-native-audit-0102-f6a2",
+  "native_HEAD": "18674d711bde4c62c371fb429c165de0e1dd1b98",
+  "actual_pull": {
+    "from": "390299b08b597fbc8fda81e5303b1435203fe295",
+    "to": "18674d711bde4c62c371fb429c165de0e1dd1b98",
+    "root_README_diff_empty": true,
+    "topic_README_diff_empty": true,
+    "root_README_blob": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topic_README_blob": "84b6d9fc74ed90ab725aa230cdf348f325505396"
+  },
+  "source": {
+    "path": "scripts/fourfold_phase_collar_correlated_height.py",
+    "bytes": 15635,
+    "sha256": "3752ac63322bc4008a898e7309f6ac46e2647290d86f3c330467950fa5b2cb42",
+    "git_blob": "0a52e31346ffa9d9b86b5523f79f8ed2418e62f2",
+    "remote_source_commit": "bc5b4cad4e2381431310e2827af3f3484982c14a",
+    "native_byte_hash_checked": true
+  },
+  "runtime": {
+    "python": "/home/agent/visible-exact-py0038/bin/python",
+    "flint": "0.9.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "all_versions_actually_imported": true
+  },
+  "inputs": [
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "bytes": 1638,
+      "sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+      "bytes": 386775,
+      "sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz",
+      "bytes": 137851,
+      "sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_local_parameter_root_jets_h5e7.json",
+      "bytes": 5896,
+      "sha256": "d83fe1e7ab3eed8baaf2448f2f6076212936633c69f58950720f6d372b03d99c"
+    }
+  ],
+  "completed_pilot": {
+    "command": "env PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 MALLOC_ARENA_MAX=2 /home/agent/visible-exact-py0038/bin/python -u scripts/fourfold_phase_collar_correlated_height.py --radius 2423/10000 --radius-half-width 1/65536 --angle 1/16 --angle-half-width 1/2048 --nodes 512 --native-order 48 --bits 256 --out notes/2026-11-13-wide-correlated-height-pilot-r2423.json",
+    "workdir": "/home/agent/visible-exact-audit-0102-f6a2/topics/visible-flex-exact-nearby",
+    "default_parameter_half_width": "1/1000000000",
+    "native_session": 29303,
+    "observed_exit_code": 0,
+    "original_report_path": "notes/2026-11-13-wide-correlated-height-pilot-r2423.json",
+    "original_report_sha256": "f708420df56afaf4d3863e132c9b64f34b1baec6926c4ef866b37747e28dee6f",
+    "observed_stdout": {
+      "local_box_proved": true,
+      "complete_collar": false,
+      "source_sha256": "3752ac63322bc4008a898e7309f6ac46e2647290d86f3c330467950fa5b2cb42",
+      "report_sha256": "f708420df56afaf4d3863e132c9b64f34b1baec6926c4ef866b37747e28dee6f",
+      "V_direct": "[+/- 2.94e+7]",
+      "V_polynomial_height": "[+/- 1.60e+6]",
+      "normal_error": "[+/- 3.13]",
+      "seconds": 5.61775963800028
+    },
+    "endpoint_string_semantics": "Exact native strings from ball_record lower/upper fields; they are balls, not their midpoints promoted to strict endpoints.",
+    "observed_endpoint_fields": {
+      "common": {
+        "defining_ratio": {
+          "lower": "[0.83921620173295926524717396491049677 +/- 1.78e-36]",
+          "upper": "[0.90079095440832864715177601569174677 +/- 1.78e-36]"
+        },
+        "J": {
+          "lower": "[0.076149745745467321033047167893298203 +/- 2.55e-37]",
+          "upper": "[0.11251885154645361101107451164329820 +/- 2.75e-36]"
+        },
+        "A11": {
+          "lower": "[0.16343130167131404648764697761648507 +/- 3.95e-36]",
+          "upper": "[0.64101975919236521492941943855398507 +/- 3.95e-36]"
+        }
+      },
+      "true_normalized_height_gauge": {
+        "height": {
+          "lower": "1.2490053214132785797119140625000000",
+          "upper": "2.4736165739595890045166015625000000"
+        },
+        "cross_error": {
+          "lower": "[-0.22196885421689779103081184870891516 +/- 1.13e-36]",
+          "upper": "[0.22266816403899162471015494816608484 +/- 1.13e-36]"
+        },
+        "tangential_error": {
+          "lower": "[-0.051880494495680936921342387323748319 +/- 4.83e-37]",
+          "upper": "[0.056604894306683531653181538457501681 +/- 4.83e-37]"
+        },
+        "V": {
+          "lower": "[-29377529.581249089839339946500670291 +/- 4.24e-28]",
+          "upper": "[29150241.231250910160660053499329709 +/- 4.24e-28]"
+        }
+      },
+      "degree_four_root_matched_height_gauge": {
+        "height": {
+          "lower": "[0.66695547953415583831552030070332991 +/- 3.26e-36]",
+          "upper": "[2.5354326899366445468116140507033299 +/- 1.33e-35]"
+        },
+        "normal_error": {
+          "lower": "[-3.0582738485061732006976208430953737 +/- 4.28e-35]",
+          "upper": "[3.1207435760772618578961291569046263 +/- 4.28e-35]"
+        },
+        "cross_error": {
+          "lower": "[-0.23346928171251434887443356222028633 +/- 4.61e-36]",
+          "upper": "[0.23393625775914173518623538309221367 +/- 4.61e-36]"
+        },
+        "tangential_error": {
+          "lower": "[-0.058735992340611485239067561880117459 +/- 3.45e-37]",
+          "upper": "[0.059634441695866914991340152963632541 +/- 3.45e-37]"
+        },
+        "V": {
+          "lower": "[-1599501.1250879438504079750709004203 +/- 2.88e-29]",
+          "upper": "[1540614.4881933061495920249290995797 +/- 2.88e-29]"
+        }
+      }
+    }
+  },
+  "failed_followup": {
+    "command": "env PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 MALLOC_ARENA_MAX=2 /home/agent/visible-exact-py0038/bin/python -u scripts/fourfold_phase_collar_correlated_height.py --radius 2423/10000 --radius-half-width 0 --angle 1/16 --angle-half-width 0 --nodes 512 --native-order 48 --bits 256 --out notes/2026-11-13-wide-correlated-height-point-r2423.json",
+    "native_session": 66815,
+    "observed_exit_code": 137,
+    "observed_stdout": "",
+    "failure_cause": "unknown; no OOM or other cause was reported",
+    "subsequent_read": "exec-server transport disconnected; failed to resume exec-server session: recovery timed out after 45s",
+    "reported_environment_status": "unavailable",
+    "point_result_observed": false
+  },
+  "implications": [
+    "The first local pilot really completed and its original report hash was observed.",
+    "Only the displayed subset of the first report was read before disconnect; this receipt is not a reconstructed complete JSON.",
+    "The local coefficient enclosure does not establish a small normalized perturbation; E11 spans a large interval.",
+    "No complete wide collar, source/contact gap, exterior matching, or full feedback inverse follows.",
+    "Rerun the original first cell and save its entire report before starting a new native process."
+  ]
+}

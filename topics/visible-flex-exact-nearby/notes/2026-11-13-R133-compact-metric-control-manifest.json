@@ -1,0 +1,114 @@
+{
+  "kind": "R133_compact_new_metric_control_analytic_variation_diagnostic",
+  "certified": false,
+  "scope": "Exactly specified separate E_nu=E exp(nu h) families, same waist <=.05 and same cap >=.18; floating analytic m4 variations, no directed root or nonlinear branch.",
+  "original_fixed_metric_certificates_modified": false,
+  "new_metric_parameter_root_adopted": false,
+  "source_identity_checks_passed": true,
+  "files": [
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_return_probe.py",
+      "sha256": "6b857134df75524e0fffcaa163212bfbb03c3edffee983f27cde3f9357ab9a38",
+      "bytes": 6294
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-return-controls-floating.json",
+      "sha256": "5f0594cb3215d5f90957f9748c63e6d1c7534970bc62b9702f967c63d260f312",
+      "bytes": 5082
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-control-analytic-variation.md",
+      "sha256": "f4e87ec94f94a35ef9efe44d158c2e140ca5ac92bb7fe26387dbea355432b0e0",
+      "bytes": 5239
+    }
+  ],
+  "all_local_python_import_dependencies": [
+    {
+      "path": "scripts/fourfold_banded_normal.py",
+      "sha256": "78cb675a88b980b8660b0d768df12332328ec16736da2f842552d68574f18a66",
+      "bytes": 6253
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_return_probe.py",
+      "sha256": "6b857134df75524e0fffcaa163212bfbb03c3edffee983f27cde3f9357ab9a38",
+      "bytes": 6294
+    },
+    {
+      "path": "scripts/fourfold_newton_refined.py",
+      "sha256": "13486edbf499c21b8f69803968e2e258347a4f3661f5d08eda56e503e3739757",
+      "bytes": 30711
+    },
+    {
+      "path": "scripts/fourfold_overcollocation.py",
+      "sha256": "0ec3a60ac995b82839de85d65f3cb1e3b45e5fe0eb9c6cb56db7c94db59e77e2",
+      "bytes": 24323
+    },
+    {
+      "path": "scripts/fourfold_phase_codazzi_rotational_reference_probe.py",
+      "sha256": "c8495d0c1721a21a24b48c8cdce9e825a8110f4923edd01e9eb2b7fe76b2d411",
+      "bytes": 8222
+    },
+    {
+      "path": "scripts/fourfold_phase_core_low_block.py",
+      "sha256": "d3b554e05f13112679786bd11a113ab8a29442b4da8f6ea0cf73c2ebb93d37be",
+      "bytes": 14588
+    },
+    {
+      "path": "scripts/fourfold_phase_geometry.py",
+      "sha256": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937",
+      "bytes": 23552
+    },
+    {
+      "path": "scripts/fourfold_phase_local_correction_probe.py",
+      "sha256": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf",
+      "bytes": 9547
+    },
+    {
+      "path": "scripts/fourfold_phase_newton.py",
+      "sha256": "633f1bd59e2a30b082a7915a38e0d0e27ce6d01aae6368675847235bb9bd38e5",
+      "bytes": 35030
+    },
+    {
+      "path": "scripts/fourfold_phase_symmetric_geometry.py",
+      "sha256": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+      "bytes": 13955
+    },
+    {
+      "path": "scripts/fourfold_unit_tangent.py",
+      "sha256": "2a41b6d2e87b29c731d910d1435487200a3925a124c6b09aecb205ea20634714",
+      "bytes": 14363
+    },
+    {
+      "path": "scripts/poschl_teller_fourfold_series.py",
+      "sha256": "173634e9e305dfe12946b4bc792014f2e443f689fc3dd2f5e1dfd834210992c9",
+      "bytes": 18152
+    }
+  ],
+  "inputs": [
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "bytes": 1638
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+      "sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+      "bytes": 386775
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz",
+      "sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+      "bytes": 137851
+    },
+    {
+      "path": "notes/2026-11-13-Codazzi-rotational-cap-Jacobi-floating.json",
+      "sha256": "c1bc89d13e7eb62cb0935af800eb2e1ef617bd5e22df840e20e1bae9b591a6f4",
+      "bytes": 8746
+    },
+    {
+      "path": "notes/2026-11-13-R133-m4-analytic-variation-floating.json",
+      "sha256": "2e3399e925a2b827a9406ab24fe5c2421db9d9b29f457251b2d827260844b230",
+      "bytes": 13068
+    }
+  ]
+}

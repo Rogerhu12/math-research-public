@@ -1,0 +1,89 @@
+{
+  "kind": "R126_positive_cap_diagnostic_frozen_manifest",
+  "certified": false,
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_codazzi_endpoint_projection.py",
+      "bytes": 2729,
+      "sha256": "378cd555ec2589afe49d05ce7c6aec161e3a969d1c191e3b3c3c48348b7a7edf"
+    },
+    {
+      "path": "scripts/fourfold_phase_codazzi_cap_trace_probe.py",
+      "bytes": 9454,
+      "sha256": "6292c379eb4a4b09e659d16918a66fde264145603f0605831d5c774b8f6b3132"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-to-cap-cut-n1024-floating.json",
+      "bytes": 76375,
+      "sha256": "608bf9061daa6594af9d69c89416fca2ca0566d37f342cbaeadb3b5fb413fc38"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-to-cap-cut-n1024-endpoint-floating.npz",
+      "bytes": 105826,
+      "sha256": "ddc7826072274095d2bed4cd7a19590fc565bc4217fb2c087c4f6064eba821ab"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-at-r0239-projected-n512-floating.json",
+      "bytes": 2175,
+      "sha256": "21bc0c52cf9caf9bde43fccecdfb9cbaf37940ea4e6233880fd8e04cf92b2480"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-at-r0239-projected-n512-endpoint-floating.npz",
+      "bytes": 47752,
+      "sha256": "f3da6e3220a919c69bff6ed29a9ccdbb29438b9fd5e9347341736c6ed8a77300"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-to-cap-cut-projected-n512-floating.json",
+      "bytes": 76158,
+      "sha256": "0541707de6d516691ae4215b84cd26cc76ca4cf0688499fbe0782d2ce3417204"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-to-cap-cut-projected-n512-endpoint-floating.npz",
+      "bytes": 49276,
+      "sha256": "30b5c936787413b6539584f40422987e2892a3bc4d0e445906ee261ff0781431"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-positive-cap-traces-floating.json",
+      "bytes": 26330,
+      "sha256": "353b3269a907294bf88706a382305e77a909cbd4d0908ce7e4e72c75a2e35cc8"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-positive-cap-traces-spectra-floating.npz.gz",
+      "bytes": 488141,
+      "sha256": "f851e033a34cdf9980c84f7745112aad63864539743e7a6f1277923d8e1daa9c"
+    },
+    {
+      "path": "notes/2026-11-13-R126-positive-cap-boundary-and-form-diagnostics.md",
+      "bytes": 9789,
+      "sha256": "e6958ec96d8779767ed300554a29b6deac8cb28c6b2e4899920f2fcb5cbea6ca"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "bytes": 1638,
+      "sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-to-r0239-n1024-endpoint-floating.npz",
+      "bytes": 101252,
+      "sha256": "b54cdfb48418f6794610c3b3ed6f47f496f069316fff9be5ab3550d5a2895e51"
+    },
+    {
+      "path": "scripts/fourfold_phase_codazzi_resume_probe.py",
+      "bytes": 6086,
+      "sha256": "4be02352c7de4084519b448d046ba8d03a0024f118b8dcddbe19d69e43162f27"
+    },
+    {
+      "path": "scripts/fourfold_phase_codazzi_evolution_probe.py",
+      "bytes": 11127,
+      "sha256": "2d9e8a9dd185e13c1c506a628f36847fe6180390bca3b60014d7c1beb8a69c36"
+    },
+    {
+      "path": "scripts/fourfold_phase_local_correction_probe.py",
+      "bytes": 9547,
+      "sha256": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf"
+    }
+  ],
+  "scope": "Floating finite-model positive continuation and exact boundary/form identities only; no positive-cap PDE validation or transfer of old inverse."
+}

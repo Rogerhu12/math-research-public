@@ -1,0 +1,148 @@
+{
+  "kind": "R106_actual_geometric_two_leg_phase_final_circle_label",
+  "complete": true,
+  "proved": true,
+  "source_sha256": "2cf421da239feeb1d22b9e53672a5a593c8558db5fbc019e905d28650478ffab",
+  "inputs": {
+    "notes/2026-11-12-split-Wiener-R31-exact.json": "f887bcce5a5ed8f2de2fee6a398aec86b323b91b64560f7cb84a3d6b918d521a",
+    "data/phase_ring_continuation/step5_half_prenewton_43308150283/report.json": "030cf8444f5a0cc5058e7ce056b2b310328e7d78a842582273ffb70d2f6f720a",
+    "data/phase_ring_continuation/step5_retargeted_reference/descriptor.json": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052"
+  },
+  "forward_path": "notes/2026-11-13-R106-actual-complete-forward-phase.json",
+  "forward_sha256": "665dfc44fbfcb46d5efdf43a943de95631af9becdad444c2a7eceb5cd99c1e03",
+  "actual_parameter_scope": "The actual p_infinity supplied by R101, rigorously inside the full phase parameter box.",
+  "initial_H_sha256": "0439d88f10f46d367e44a984db661ac3806a7bd052f46eca14e71594fa8eb2c2",
+  "final_relative_label": "Psi=J o Phi; h_circ=(h_forward o Psi)*Psi_prime",
+  "actual_half_return": "Its real conjugate squares to the fixed irrational translation, commutes with it, and hence is the exact half translation.",
+  "complete_geometric_return": "b_geom(x)=h_circ(x)+h_circ(x+d_star)",
+  "sup_strip": "1/4096",
+  "Wiener_strip": "1/8192",
+  "relative_label_displacement": {
+    "ball": "[1.1033794613896818939316759509043818e-8 +/- 2.69e-44]",
+    "lower": "[1.1033794613896818939316759509043818e-8 +/- 2.69e-44]",
+    "upper": "[1.1033794613896818939316759509043818e-8 +/- 2.69e-44]",
+    "mid_float": 1.1033794613896818e-08,
+    "radius_upper_float": 0.0
+  },
+  "relative_label_derivative_modulus": {
+    "ball": "[1.0000328443336500273152311472747335 +/- 1.85e-35]",
+    "lower": "[1.0000328443336500273152311472747335 +/- 1.85e-35]",
+    "upper": "[1.0000328443336500273152311472747335 +/- 1.85e-35]",
+    "mid_float": 1.00003284433365,
+    "radius_upper_float": 0.0
+  },
+  "one_leg_phase_final_label_modulus": {
+    "ball": "[13204.647445762977186285613315405878 +/- 2.43e-31]",
+    "lower": "[13204.647445762977186285613315405878 +/- 2.43e-31]",
+    "upper": "[13204.647445762977186285613315405878 +/- 2.43e-31]",
+    "mid_float": 13204.647445762977,
+    "radius_upper_float": 0.0
+  },
+  "two_leg_geometric_phase_modulus": {
+    "ball": "[26409.294891525954372571226630811756 +/- 4.86e-31]",
+    "lower": "[26409.294891525954372571226630811756 +/- 4.86e-31]",
+    "upper": "[26409.294891525954372571226630811756 +/- 4.86e-31]",
+    "mid_float": 26409.294891525955,
+    "radius_upper_float": 0.0
+  },
+  "complete_nonmean_Wiener_bounds_orders_0_through_12": {
+    "0": {
+      "ball": "[432663478.74516819040459936028556316 +/- 1.01e-27]",
+      "lower": "[432663478.74516819040459936028556316 +/- 1.01e-27]",
+      "upper": "[432663478.74516819040459936028556316 +/- 1.01e-27]",
+      "mid_float": 432663478.7451682,
+      "radius_upper_float": 0.0
+    },
+    "1": {
+      "ball": "[5013426984183.5580970570509833980839 +/- 3.77e-23]",
+      "lower": "[5013426984183.5580970570509833980839 +/- 3.77e-23]",
+      "upper": "[5013426984183.5580970570509833980839 +/- 3.77e-23]",
+      "mid_float": 5013426984183.558,
+      "radius_upper_float": 0.0
+    },
+    "2": {
+      "ball": "[116170576562370455.06158550192938602 +/- 4.31e-18]",
+      "lower": "[116170576562370455.06158550192938602 +/- 4.31e-18]",
+      "upper": "[116170576562370455.06158550192938602 +/- 4.31e-18]",
+      "mid_float": 1.1617057656237045e+17,
+      "radius_upper_float": 0.0
+    },
+    "3": {
+      "ball": "[4037837601021178522407.4633715623708 +/- 1.62e-14]",
+      "lower": "[4037837601021178522407.4633715623708 +/- 1.62e-14]",
+      "upper": "[4037837601021178522407.4633715623708 +/- 1.62e-14]",
+      "mid_float": 4.0378376010211787e+21,
+      "radius_upper_float": 0.0
+    },
+    "4": {
+      "ball": "[187128651386608178265587707.25910559 +/- 4.95e-10]",
+      "lower": "[187128651386608178265587707.25910559 +/- 4.95e-10]",
+      "upper": "[187128651386608178265587707.25910559 +/- 4.95e-10]",
+      "mid_float": 1.871286513866082e+26,
+      "radius_upper_float": 0.0
+    },
+    "5": {
+      "ball": "[10840310962764702610128293202345.483 +/- 1.83e-4]",
+      "lower": "[10840310962764702610128293202345.483 +/- 1.83e-4]",
+      "upper": "[10840310962764702610128293202345.483 +/- 1.83e-4]",
+      "mid_float": 1.0840310962764702e+31,
+      "radius_upper_float": 0.0
+    },
+    "6": {
+      "ball": "[7.5357145513749802469003231827002514e+35 +/- 5.00]",
+      "lower": "[7.5357145513749802469003231827002514e+35 +/- 5.00]",
+      "upper": "[7.5357145513749802469003231827002514e+35 +/- 5.00]",
+      "mid_float": 7.53571455137498e+35,
+      "radius_upper_float": 0.0
+    },
+    "7": {
+      "ball": "[6.1115860046824713346542326441501411e+40 +/- 3.29e+5]",
+      "lower": "[6.1115860046824713346542326441501411e+40 +/- 3.29e+5]",
+      "upper": "[6.1115860046824713346542326441501411e+40 +/- 3.29e+5]",
+      "mid_float": 6.111586004682471e+40,
+      "radius_upper_float": 0.0
+    },
+    "8": {
+      "ball": "[5.6646797612676000466619386840559777e+45 +/- 1.07e+10]",
+      "lower": "[5.6646797612676000466619386840559777e+45 +/- 1.07e+10]",
+      "upper": "[5.6646797612676000466619386840559777e+45 +/- 1.07e+10]",
+      "mid_float": 5.6646797612676e+45,
+      "radius_upper_float": 0.0
+    },
+    "9": {
+      "ball": "[5.9067599424717028327388573891363292e+50 +/- 3.14e+15]",
+      "lower": "[5.9067599424717028327388573891363292e+50 +/- 3.14e+15]",
+      "upper": "[5.9067599424717028327388573891363292e+50 +/- 3.14e+15]",
+      "mid_float": 5.9067599424717025e+50,
+      "radius_upper_float": 0.0
+    },
+    "10": {
+      "ball": "[6.8435393601492900293939363870478177e+55 +/- 7.69e+19]",
+      "lower": "[6.8435393601492900293939363870478177e+55 +/- 7.69e+19]",
+      "upper": "[6.8435393601492900293939363870478177e+55 +/- 7.69e+19]",
+      "mid_float": 6.84353936014929e+55,
+      "radius_upper_float": 0.0
+    },
+    "11": {
+      "ball": "[8.7217754865700826511370682327830602e+60 +/- 3.38e+25]",
+      "lower": "[8.7217754865700826511370682327830602e+60 +/- 3.38e+25]",
+      "upper": "[8.7217754865700826511370682327830602e+60 +/- 3.38e+25]",
+      "mid_float": 8.721775486570083e+60,
+      "radius_upper_float": 0.0
+    },
+    "12": {
+      "ball": "[1.2126000937377054213178593994373913e+66 +/- 1.88e+31]",
+      "lower": "[1.2126000937377054213178593994373913e+66 +/- 1.88e+31]",
+      "upper": "[1.2126000937377054213178593994373913e+66 +/- 1.88e+31]",
+      "mid_float": 1.2126000937377054e+66,
+      "radius_upper_float": 0.0
+    }
+  },
+  "all_means_roots_strict_and_cut_terms_retained": true,
+  "operator_R104_b_identification_proved": false,
+  "complete_Airy_contact_frame_strong_remainder_proved": false,
+  "strong_R_star_proved": false,
+  "effective_R104_cutoff_proved": false,
+  "scope": "Complete actual geometric two-leg finite-part phase and its final circle-label norm. The remaining full propagation/Ai/contact/ordering operator identity and strong remainder are not inferred.",
+  "wall_seconds": 0.016857823000009375
+}

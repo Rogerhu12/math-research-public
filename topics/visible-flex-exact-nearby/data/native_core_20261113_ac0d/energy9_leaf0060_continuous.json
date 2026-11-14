@@ -1,0 +1,499 @@
+{
+  "kind": "actual_strict_negative_half_derivative_energy_inputs",
+  "complete": true,
+  "source_sha256": "1cc06f36985458767fbfec78467bca863642159beb4cc3b34ed8da0b11898b20",
+  "bits": 256,
+  "input_field_report": {
+    "path": "data/native_core_20261113_ac0d/energy9_leaf0060.json",
+    "sha256": "3f081c5a62b70455d562efca93f7fa81ec23907e546aa1959f966d8d65776f0c"
+  },
+  "actual_global_inverse_certified": false,
+  "identity": {
+    "object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+    "affine_arithmetic": "Arb encloses c0+exact_delta*v and alpha0+exact_delta*w before all fixed base weights",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "uniform_in_the_entire_real_parameter_interval": true,
+    "parameter_arithmetic": "First form complete exact center and direction scalar polynomials; then add the single p in [-eta,eta]. No independent raw-control parameter intervals are introduced.",
+    "exact_delta_fraction_scope": "The exact_delta_fraction field names the center only; all bounds cover the separately stated whole exact_parameter_interval.",
+    "modes": 4,
+    "primitive_nodes": 512,
+    "angular_nodes": 1024,
+    "bits": 192,
+    "native_order": 32,
+    "native_radius": "1/64",
+    "outer_radius": "3",
+    "sample_radius": "5/4",
+    "time_nodes": 40,
+    "time_terms": 24,
+    "flow_degree": 32,
+    "normalized_angular_strip": "1/16",
+    "momentum_scale": "8",
+    "worker_source_sha256": "569ffd0e582865d840cdb5a31241da50609f0c3ad049b1d8850992b8bbbaa000",
+    "dependency_sha256": {
+      "fourfold_phase_core_cell_flow.py": "4db55a8c06b1770566416dbc7e7f81a4f004a6e12d8b517ce5007b6e0c7933d4",
+      "fourfold_phase_core_radial_taylor.py": "5303121d11a2af4cd39e67c50a6d23babe6f73e9873f2cf369b93584d983037c",
+      "fourfold_phase_core_waist_taylor.py": "09989f34a57e62e215aacb122926c0ef595332dd00f6b25246bc8dce6ecf9480",
+      "fourfold_phase_core_parameter_taylor.py": "5348dfb57db8296291b9c95dd884a189e9176f3765fc21c114ca6317ca7b1d06",
+      "fourfold_phase_beta_parameter_germ.py": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+      "fourfold_native_series_fft.py": "bcf9d5c43f2ebc5669fcf89f785e5da0b6acac5ec901581103006c6dc04d1289",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_core_low_coefficients.py": "ba2f5c93fbe7d1cdc0ddd21775f54c4e5e56d542d94fb69b985a3bfe42751990",
+      "fourfold_phase_actual_positive_cap.py": "1e8418174f54bd1d22dd628ef7f7e6525ca6b43cbcf7a2307d29f9d467e1612b"
+    },
+    "common_span_index": 60,
+    "exact_common_span": [
+      "6112257798907291/72057594037927936",
+      "6124895493223875/72057594037927936"
+    ],
+    "exact_real_interval": [
+      "6112257798907291/72057594037927936",
+      "6124895493223875/72057594037927936"
+    ]
+  },
+  "exact_physical_interval": [
+    "6112257798907291/72057594037927936",
+    "6124895493223875/72057594037927936"
+  ],
+  "exact_scalar_germ": [
+    "6112257798907291/72057594037927936",
+    "6124895493223875/72057594037927936"
+  ],
+  "energy_weight": {
+    "kind": "minus_actual_target_curvature",
+    "exact_definition": "lambda=-K0(r,p)>0"
+  },
+  "angular_closed_cells": 4096,
+  "full_real_radial_interval_paid": true,
+  "full_real_theta_circle_paid": true,
+  "strict_negative_target_curvature_proved": true,
+  "coefficient_positive_ranges": {
+    "alpha": [
+      {
+        "ball": "[0.17386027566073437657565237062640537 +/- 2.82e-36]",
+        "lower": "[0.17386027566073437657565237062640537 +/- 2.82e-36]",
+        "upper": "[0.17386027566073437657565237062640537 +/- 2.82e-36]",
+        "mid_float": 0.17386027566073436,
+        "radius_upper_float": 0.0
+      },
+      {
+        "ball": "[2.5252325758044064810570467788861517 +/- 4.73e-35]",
+        "lower": "[2.5252325758044064810570467788861517 +/- 4.73e-35]",
+        "upper": "[2.5252325758044064810570467788861517 +/- 4.73e-35]",
+        "mid_float": 2.5252325758044063,
+        "radius_upper_float": 0.0
+      }
+    ],
+    "gamma": [
+      {
+        "ball": "[0.12600901711451249055142188000653821 +/- 4.36e-36]",
+        "lower": "[0.12600901711451249055142188000653821 +/- 4.36e-36]",
+        "upper": "[0.12600901711451249055142188000653821 +/- 4.36e-36]",
+        "mid_float": 0.12600901711451248,
+        "radius_upper_float": 0.0
+      },
+      {
+        "ball": "[2.0780579529732602934464033059333354 +/- 2.18e-35]",
+        "lower": "[2.0780579529732602934464033059333354 +/- 2.18e-35]",
+        "upper": "[2.0780579529732602934464033059333354 +/- 2.18e-35]",
+        "mid_float": 2.07805795297326,
+        "radius_upper_float": 0.0
+      }
+    ],
+    "kappa": [
+      {
+        "ball": "[0.72169726628346886343479127390310168 +/- 2.67e-36]",
+        "lower": "[0.72169726628346886343479127390310168 +/- 2.67e-36]",
+        "upper": "[0.72169726628346886343479127390310168 +/- 2.67e-36]",
+        "mid_float": 0.7216972662834689,
+        "radius_upper_float": 0.0
+      },
+      {
+        "ball": "[0.72233067005784157288417191011831164 +/- 3.61e-36]",
+        "lower": "[0.72233067005784157288417191011831164 +/- 3.61e-36]",
+        "upper": "[0.72233067005784157288417191011831164 +/- 3.61e-36]",
+        "mid_float": 0.7223306700578416,
+        "radius_upper_float": 0.0
+      }
+    ],
+    "lambda_weight": [
+      {
+        "ball": "[0.72169726628346886343479127390310168 +/- 2.67e-36]",
+        "lower": "[0.72169726628346886343479127390310168 +/- 2.67e-36]",
+        "upper": "[0.72169726628346886343479127390310168 +/- 2.67e-36]",
+        "mid_float": 0.7216972662834689,
+        "radius_upper_float": 0.0
+      },
+      {
+        "ball": "[0.72233067005784157288417191011831164 +/- 3.61e-36]",
+        "lower": "[0.72233067005784157288417191011831164 +/- 3.61e-36]",
+        "upper": "[0.72233067005784157288417191011831164 +/- 3.61e-36]",
+        "mid_float": 0.7223306700578416,
+        "radius_upper_float": 0.0
+      }
+    ]
+  },
+  "full_potential_range": {
+    "lower": {
+      "ball": "[-2.6535226581691948338054279219389361 +/- 2.11e-35]",
+      "lower": "[-2.6535226581691948338054279219389361 +/- 2.11e-35]",
+      "upper": "[-2.6535226581691948338054279219389361 +/- 2.11e-35]",
+      "mid_float": -2.653522658169195,
+      "radius_upper_float": 0.0
+    },
+    "upper": {
+      "ball": "[5.5498834590314453665333459412995543 +/- 4.48e-35]",
+      "lower": "[5.5498834590314453665333459412995543 +/- 4.48e-35]",
+      "upper": "[5.5498834590314453665333459412995543 +/- 4.48e-35]",
+      "mid_float": 5.549883459031445,
+      "radius_upper_float": 0.0
+    }
+  },
+  "actual_multiplier_and_commutator_inputs": {
+    "alpha": {
+      "Mhalf": {
+        "ball": "[11.665705868104535847410804124223692 +/- 4.64e-34]",
+        "lower": "[11.665705868104535847410804124223692 +/- 4.64e-34]",
+        "upper": "[11.665705868104535847410804124223692 +/- 4.64e-34]",
+        "mid_float": 11.665705868104537,
+        "radius_upper_float": 0.0
+      },
+      "Mthreehalf": {
+        "ball": "[499.92140048494179935681792324406494 +/- 4.85e-33]",
+        "lower": "[499.92140048494179935681792324406494 +/- 4.85e-33]",
+        "upper": "[499.92140048494179935681792324406494 +/- 4.85e-33]",
+        "mid_float": 499.9214004849418,
+        "radius_upper_float": 0.0
+      },
+      "Ahalf": {
+        "ball": "[8.0871762377975639363708680104271664 +/- 3.09e-35]",
+        "lower": "[8.0871762377975639363708680104271664 +/- 3.09e-35]",
+        "upper": "[8.0871762377975639363708680104271664 +/- 3.09e-35]",
+        "mid_float": 8.087176237797564,
+        "radius_upper_float": 0.0
+      },
+      "Bhalf": {
+        "ball": "[488.25569939665320609268896185761374 +/- 2.29e-33]",
+        "lower": "[488.25569939665320609268896185761374 +/- 2.29e-33]",
+        "upper": "[488.25569939665320609268896185761374 +/- 2.29e-33]",
+        "mid_float": 488.2556993966532,
+        "radius_upper_float": 0.0
+      },
+      "derivative_Ahalf": {
+        "ball": "[425.64584167291330551957036713500637 +/- 4.36e-34]",
+        "lower": "[425.64584167291330551957036713500637 +/- 4.36e-34]",
+        "upper": "[425.64584167291330551957036713500637 +/- 4.36e-34]",
+        "mid_float": 425.6458416729133,
+        "radius_upper_float": 0.0
+      }
+    },
+    "v": {
+      "Mhalf": {
+        "ball": "[6.5317875786591392203839012298560372 +/- 4.14e-35]",
+        "lower": "[6.5317875786591392203839012298560372 +/- 4.14e-35]",
+        "upper": "[6.5317875786591392203839012298560372 +/- 4.14e-35]",
+        "mid_float": 6.531787578659139,
+        "radius_upper_float": 0.0
+      },
+      "Mthreehalf": {
+        "ball": "[352.24494645825524240930592964186820 +/- 1.62e-33]",
+        "lower": "[352.24494645825524240930592964186820 +/- 1.62e-33]",
+        "upper": "[352.24494645825524240930592964186820 +/- 1.62e-33]",
+        "mid_float": 352.24494645825524,
+        "radius_upper_float": 0.0
+      },
+      "Ahalf": {
+        "ball": "[5.3126151192596998578023793369698789 +/- 2.75e-36]",
+        "lower": "[5.3126151192596998578023793369698789 +/- 2.75e-36]",
+        "upper": "[5.3126151192596998578023793369698789 +/- 2.75e-36]",
+        "mid_float": 5.3126151192597,
+        "radius_upper_float": 0.0
+      },
+      "Bhalf": {
+        "ball": "[345.71315953693665060516031738027099 +/- 3.76e-33]",
+        "lower": "[345.71315953693665060516031738027099 +/- 3.76e-33]",
+        "upper": "[345.71315953693665060516031738027099 +/- 3.76e-33]",
+        "mid_float": 345.71315953693664,
+        "radius_upper_float": 0.0
+      },
+      "derivative_Ahalf": {
+        "ball": "[302.72394577043974488679383686954737 +/- 3.36e-33]",
+        "lower": "[302.72394577043974488679383686954737 +/- 3.36e-33]",
+        "upper": "[302.72394577043974488679383686954737 +/- 3.36e-33]",
+        "mid_float": 302.72394577043974,
+        "radius_upper_float": 0.0
+      }
+    },
+    "gamma": {
+      "Mhalf": {
+        "ball": "[9.9921372342928470709742763731454202 +/- 3.55e-35]",
+        "lower": "[9.9921372342928470709742763731454202 +/- 3.55e-35]",
+        "upper": "[9.9921372342928470709742763731454202 +/- 3.55e-35]",
+        "mid_float": 9.992137234292848,
+        "radius_upper_float": 0.0
+      },
+      "Mthreehalf": {
+        "ball": "[426.58984542839833398671843079151055 +/- 2.13e-34]",
+        "lower": "[426.58984542839833398671843079151055 +/- 2.13e-34]",
+        "upper": "[426.58984542839833398671843079151055 +/- 2.13e-34]",
+        "mid_float": 426.58984542839835,
+        "radius_upper_float": 0.0
+      },
+      "Ahalf": {
+        "ball": "[6.9458735601809528970802430132050358 +/- 2.73e-35]",
+        "lower": "[6.9458735601809528970802430132050358 +/- 2.73e-35]",
+        "upper": "[6.9458735601809528970802430132050358 +/- 2.73e-35]",
+        "mid_float": 6.945873560180953,
+        "radius_upper_float": 0.0
+      },
+      "Bhalf": {
+        "ball": "[416.59771795159855839655846675700291 +/- 1.82e-33]",
+        "lower": "[416.59771795159855839655846675700291 +/- 1.82e-33]",
+        "upper": "[416.59771795159855839655846675700291 +/- 1.82e-33]",
+        "mid_float": 416.59771795159855,
+        "radius_upper_float": 0.0
+      },
+      "derivative_Ahalf": {
+        "ball": "[363.03461412055691110811514537750809 +/- 1.63e-33]",
+        "lower": "[363.03461412055691110811514537750809 +/- 1.63e-33]",
+        "upper": "[363.03461412055691110811514537750809 +/- 1.63e-33]",
+        "mid_float": 363.0346141205569,
+        "radius_upper_float": 0.0
+      }
+    },
+    "kappa": {
+      "Mhalf": {
+        "ball": "[0.72233067005691986753623459361164982 +/- 5.24e-37]",
+        "lower": "[0.72233067005691986753623459361164982 +/- 5.24e-37]",
+        "upper": "[0.72233067005691986753623459361164982 +/- 5.24e-37]",
+        "mid_float": 0.7223306700569199,
+        "radius_upper_float": 0.0
+      },
+      "Mthreehalf": {
+        "ball": "[0.72233067005691986753623459361164982 +/- 5.24e-37]",
+        "lower": "[0.72233067005691986753623459361164982 +/- 5.24e-37]",
+        "upper": "[0.72233067005691986753623459361164982 +/- 5.24e-37]",
+        "mid_float": 0.7223306700569199,
+        "radius_upper_float": 0.0
+      },
+      "Ahalf": {
+        "ball": "[2.3343297432693878321466249321410288e-316 +/- 2.61e-351]",
+        "lower": "[2.3343297432693878321466249321410288e-316 +/- 2.61e-351]",
+        "upper": "[2.3343297432693878321466249321410288e-316 +/- 2.61e-351]",
+        "mid_float": 2.33432974e-316,
+        "radius_upper_float": 0.0
+      },
+      "Bhalf": {
+        "ball": "[2.1139973352165446122012952377428511e-314 +/- 3.02e-349]",
+        "lower": "[2.1139973352165446122012952377428511e-314 +/- 3.02e-349]",
+        "upper": "[2.1139973352165446122012952377428511e-314 +/- 3.02e-349]",
+        "mid_float": 2.113997335e-314,
+        "radius_upper_float": 0.0
+      },
+      "derivative_Ahalf": {
+        "ball": "[2.1134817470615938207590718899585303e-314 +/- 3.15e-349]",
+        "lower": "[2.1134817470615938207590718899585303e-314 +/- 3.15e-349]",
+        "upper": "[2.1134817470615938207590718899585303e-314 +/- 3.15e-349]",
+        "mid_float": 2.113481747e-314,
+        "radius_upper_float": 0.0
+      }
+    },
+    "tau": {
+      "Mhalf": {
+        "ball": "[26.172376295810245436013654832807295 +/- 3.68e-34]",
+        "lower": "[26.172376295810245436013654832807295 +/- 3.68e-34]",
+        "upper": "[26.172376295810245436013654832807295 +/- 3.68e-34]",
+        "mid_float": 26.172376295810245,
+        "radius_upper_float": 0.0
+      },
+      "Mthreehalf": {
+        "ball": "[943.15341040575682348669371172491575 +/- 4.32e-33]",
+        "lower": "[943.15341040575682348669371172491575 +/- 4.32e-33]",
+        "upper": "[943.15341040575682348669371172491575 +/- 4.32e-33]",
+        "mid_float": 943.1534104057569,
+        "radius_upper_float": 0.0
+      },
+      "Ahalf": {
+        "ball": "[20.292121030206467099379886501130084 +/- 1.41e-34]",
+        "lower": "[20.292121030206467099379886501130084 +/- 1.41e-34]",
+        "upper": "[20.292121030206467099379886501130084 +/- 1.41e-34]",
+        "mid_float": 20.292121030206467,
+        "radius_upper_float": 0.0
+      },
+      "Bhalf": {
+        "ball": "[916.98117953012621682570486508932506 +/- 2.38e-33]",
+        "lower": "[916.98117953012621682570486508932506 +/- 2.38e-33]",
+        "upper": "[916.98117953012621682570486508932506 +/- 2.38e-33]",
+        "mid_float": 916.9811795301263,
+        "radius_upper_float": 0.0
+      },
+      "derivative_Ahalf": {
+        "ball": "[778.29134581668549453586308361754590 +/- 4.43e-33]",
+        "lower": "[778.29134581668549453586308361754590 +/- 4.43e-33]",
+        "upper": "[778.29134581668549453586308361754590 +/- 4.43e-33]",
+        "mid_float": 778.2913458166855,
+        "radius_upper_float": 0.0
+      }
+    },
+    "sigma": {
+      "Mhalf": {
+        "ball": "[0.33929582104045032256872515112618718 +/- 2.81e-36]",
+        "lower": "[0.33929582104045032256872515112618718 +/- 2.81e-36]",
+        "upper": "[0.33929582104045032256872515112618718 +/- 2.81e-36]",
+        "mid_float": 0.3392958210404503,
+        "radius_upper_float": 0.0
+      },
+      "Mthreehalf": {
+        "ball": "[36.322456635567544155566942384768402 +/- 3.30e-34]",
+        "lower": "[36.322456635567544155566942384768402 +/- 3.30e-34]",
+        "upper": "[36.322456635567544155566942384768402 +/- 3.30e-34]",
+        "mid_float": 36.32245663556754,
+        "radius_upper_float": 0.0
+      },
+      "Ahalf": {
+        "ball": "[0.30180928548496676346757212911399068 +/- 2.46e-36]",
+        "lower": "[0.30180928548496676346757212911399068 +/- 2.46e-36]",
+        "upper": "[0.30180928548496676346757212911399068 +/- 2.46e-36]",
+        "mid_float": 0.30180928548496677,
+        "radius_upper_float": 0.0
+      },
+      "Bhalf": {
+        "ball": "[35.983181596835849791362606103005483 +/- 4.06e-34]",
+        "lower": "[35.983181596835849791362606103005483 +/- 4.06e-34]",
+        "upper": "[35.983181596835849791362606103005483 +/- 4.06e-34]",
+        "mid_float": 35.98318159683585,
+        "radius_upper_float": 0.0
+      },
+      "derivative_Ahalf": {
+        "ball": "[32.725573785385400959454513452214284 +/- 3.21e-34]",
+        "lower": "[32.725573785385400959454513452214284 +/- 3.21e-34]",
+        "upper": "[32.725573785385400959454513452214284 +/- 3.21e-34]",
+        "mid_float": 32.7255737853854,
+        "radius_upper_float": 0.0
+      }
+    }
+  },
+  "actual_Ahalf_potential_upper": {
+    "ball": "[53.017694815591868058834399953344368 +/- 1.81e-34]",
+    "lower": "[53.017694815591868058834399953344368 +/- 1.81e-34]",
+    "upper": "[53.017694815591868058834399953344368 +/- 1.81e-34]",
+    "mid_float": 53.01769481559187,
+    "radius_upper_float": 0.0
+  },
+  "constants": {
+    "base_energy_rate_forward": {
+      "ball": "[14.051963384428379077440711571660894 +/- 4.93e-34]",
+      "lower": "[14.051963384428379077440711571660894 +/- 4.93e-34]",
+      "upper": "[14.051963384428379077440711571660894 +/- 4.93e-34]",
+      "mid_float": 14.05196338442838,
+      "radius_upper_float": 0.0
+    },
+    "base_energy_rate_backward": {
+      "ball": "[23.605835269553215043006033465298483 +/- 3.60e-34]",
+      "lower": "[23.605835269553215043006033465298483 +/- 3.60e-34]",
+      "upper": "[23.605835269553215043006033465298483 +/- 3.60e-34]",
+      "mid_float": 23.605835269553214,
+      "radius_upper_float": 0.0
+    },
+    "half_derivative_commutator_gain": {
+      "ball": "[4508.9123987249459689134465907627511 +/- 1.12e-32]",
+      "lower": "[4508.9123987249459689134465907627511 +/- 1.12e-32]",
+      "upper": "[4508.9123987249459689134465907627511 +/- 1.12e-32]",
+      "mid_float": 4508.912398724946,
+      "radius_upper_float": 0.0
+    },
+    "energy_sqrt_rate_forward": {
+      "ball": "[4515.9383804171601584521669465485816 +/- 4.17e-32]",
+      "lower": "[4515.9383804171601584521669465485816 +/- 4.17e-32]",
+      "upper": "[4515.9383804171601584521669465485816 +/- 4.17e-32]",
+      "mid_float": 4515.93838041716,
+      "radius_upper_float": 0.0
+    },
+    "energy_sqrt_rate_backward": {
+      "ball": "[4520.7153163597225764349496074954004 +/- 4.72e-32]",
+      "lower": "[4520.7153163597225764349496074954004 +/- 4.72e-32]",
+      "upper": "[4520.7153163597225764349496074954004 +/- 4.72e-32]",
+      "mid_float": 4520.715316359722,
+      "radius_upper_float": 0.0
+    },
+    "homogeneous_energy_sqrt_amplification_forward": {
+      "ball": "[2.2078515762953311181483594026752844 +/- 5.27e-36]",
+      "lower": "[2.2078515762953311181483594026752844 +/- 5.27e-36]",
+      "upper": "[2.2078515762953311181483594026752844 +/- 5.27e-36]",
+      "mid_float": 2.2078515762953312,
+      "radius_upper_float": 0.0
+    },
+    "homogeneous_energy_sqrt_amplification_backward": {
+      "ball": "[2.2097020772717721296227101605151157 +/- 3.90e-35]",
+      "lower": "[2.2097020772717721296227101605151157 +/- 3.90e-35]",
+      "upper": "[2.2097020772717721296227101605151157 +/- 3.90e-35]",
+      "mid_float": 2.209702077271772,
+      "radius_upper_float": 0.0
+    },
+    "source_vector_energy_gain": {
+      "ball": "[912.62497869590872898993113332172297 +/- 4.52e-33]",
+      "lower": "[912.62497869590872898993113332172297 +/- 4.52e-33]",
+      "upper": "[912.62497869590872898993113332172297 +/- 4.52e-33]",
+      "mid_float": 912.6249786959087,
+      "radius_upper_float": 0.0
+    },
+    "forward_Duhamel_L2_kernel_squared": {
+      "ball": "[0.00042899263193576404122152177858624876 +/- 3.88e-39]",
+      "lower": "[0.00042899263193576404122152177858624876 +/- 3.88e-39]",
+      "upper": "[0.00042899263193576404122152177858624876 +/- 3.88e-39]",
+      "mid_float": 0.00042899263193576403,
+      "radius_upper_float": 0.0
+    },
+    "backward_Duhamel_L2_kernel_squared": {
+      "ball": "[0.00042944346177340928922423464771812788 +/- 4.47e-40]",
+      "lower": "[0.00042944346177340928922423464771812788 +/- 4.47e-40]",
+      "upper": "[0.00042944346177340928922423464771812788 +/- 4.47e-40]",
+      "mid_float": 0.0004294434617734093,
+      "radius_upper_float": 0.0
+    },
+    "forward_L2_source_to_endpoint_energy_sqrt": {
+      "ball": "[18.902413871009435960712017248630329 +/- 3.93e-34]",
+      "lower": "[18.902413871009435960712017248630329 +/- 3.93e-34]",
+      "upper": "[18.902413871009435960712017248630329 +/- 3.93e-34]",
+      "mid_float": 18.902413871009436,
+      "radius_upper_float": 0.0
+    },
+    "backward_L2_source_to_endpoint_energy_sqrt": {
+      "ball": "[18.912343568897060665420724193984760 +/- 2.30e-34]",
+      "lower": "[18.912343568897060665420724193984760 +/- 2.30e-34]",
+      "upper": "[18.912343568897060665420724193984760 +/- 2.30e-34]",
+      "mid_float": 18.91234356889706,
+      "radius_upper_float": 0.0
+    }
+  },
+  "exact_PDE_state": "(u,q,pbar), q=partial_theta u, pbar=physical p-fr",
+  "exact_source_convention": "P u=f0+Dr fr+Dtheta ftheta; for the saved weak reference f0=-R0,fr=Rr,ftheta=Rtheta and pbar=p_N exactly",
+  "source_product_space": "L2(dr; H^(1/2) f0 direct_sum H^(3/2) fr direct_sum H^(3/2) ftheta), physical Fourier weights max(1,4|k|)^s",
+  "exact_energy": "integral lambda|Lambda_half u|^2+gamma|Lambda_half q|^2+alpha|Lambda_half pbar|^2, with angular measure normalized over one period",
+  "matching_energy_at_adjacent_spans": "The underlying exact lambda,alpha,gamma are continuous and identical at a common real interface. Join certificates with the same energy-weight definition; no per-cell norm-equivalence multiplier is necessary.",
+  "scope": [
+    "Only this strict-negative interval and the same entire real parameter family.",
+    "No turning root or positive collar is included. A failed positivity test is not silently dropped.",
+    "This is a constraint-preserving full PDE energy and source bound, not a replacement for the actual finite Galerkin matrix propagation.",
+    "Global frame/canonical-label conversion, Airy connections, both exterior caps and the infinite feedback inverse remain separate."
+  ],
+  "CPU_seconds": 0.7254460170000001,
+  "wall_seconds": 0.7421532539999589,
+  "dependency_sha256": {
+    "fourfold_phase_core_energy_fields.py": "5142445b342e52eee4437ef50c8532def3d1ff6e711ad8395a2ec159e2a06453",
+    "fourfold_phase_low_feedback_paid_inputs.py": "4e50c307b451aa574af994ac4bfc9a5da1e057de6fdc024a2854dd58ec4e06b8",
+    "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76"
+  }
+}

@@ -1,0 +1,834 @@
+{
+  "schema": "visible-exact-R119-scale-correct-polynomial-middle-generator-v1",
+  "implementation": "new exact SymPy identities and Fraction/integer budget",
+  "scope": "Same-object full radial complex two-port PSD scattering generator on the complete actual middle parameter box",
+  "file_sha256": {
+    "scripts/fourfold_scale_correct_polynomial_middle_generator_20261114.py": "1a4906b65670e605c41d7c1a0c335565c75c43e5de6137204a5301e71f4e64be",
+    "results/R119-supplement-scale-correct-polynomial-middle-scattering-generator.md": "93202284c7f51119a517c660bcf845dac7ee7bea0aaf990282e007c329bc3a32",
+    "results/R119-supplement-polynomial-all-Sym2-profile-separation-and-positive-control.md": "915f568d48fd2095d8bc16a4335a7da9fedefbf77fecd02b9772360390137418",
+    "results/R119-supplement-all-quadratic-phase-preserving-positive-scattering-control.md": "83d84e9af0acf1c8c2967b043e9008be953e9b61720750015c200083201741bc",
+    "results/R119-supplement-unused-short-interval-radial-control-and-width.md": "e3ee8f812657c359e0cf0e6c28decbdd5ece8123a805ee9675477bec18ced24e",
+    "results/R119-supplement-original-neutral-label-common-analytic-normalization.md": "5bc9d551c8e7b1329709d9513891d15536494d9f55163a2d5c40877877c09fc8"
+  },
+  "gate_count": 117,
+  "all_passed": true,
+  "gates": [
+    {
+      "name": "actual_scaled_polynomial_row_0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_scaled_polynomial_row_1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_scaled_polynomial_row_2",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_scaled_polynomial_row_3",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "scaled_true_degree_0",
+      "passed": true,
+      "degree": 22,
+      "bound": 22
+    },
+    {
+      "name": "scaled_true_degree_1",
+      "passed": true,
+      "degree": 23,
+      "bound": 23
+    },
+    {
+      "name": "scaled_true_degree_2",
+      "passed": true,
+      "degree": 14,
+      "bound": 14
+    },
+    {
+      "name": "scaled_true_degree_3",
+      "passed": true,
+      "degree": 15,
+      "bound": 15
+    },
+    {
+      "name": "fixed_residual_degree",
+      "passed": true,
+      "left": "41",
+      "relation": "=",
+      "right": "41"
+    },
+    {
+      "name": "scaled_complete_real_coefficients",
+      "passed": true,
+      "left": "18889470435078208225280",
+      "relation": "<",
+      "right": "1208925819614629174706176"
+    },
+    {
+      "name": "scaled_complete_disk_coefficients",
+      "passed": true,
+      "left": "1329227995784916168051712239633170432",
+      "relation": "<",
+      "right": "340282366920938463463374607431768211456"
+    },
+    {
+      "name": "fixed_Lagrange_complete_sum",
+      "passed": true,
+      "left": "1255752062766382096379643191020006546815443361473691356898686418441367599945339896260984832/2968282508838084083783946951720703125",
+      "relation": "<",
+      "right": "2582249878086908589655919172003011874329705792829223512830659356540647622016841194629645353280137831435903171972747493376"
+    },
+    {
+      "name": "complete_root_residual_jet_bits",
+      "passed": true,
+      "left": "480",
+      "relation": "=",
+      "right": "480"
+    },
+    {
+      "name": "scaled_root_slope_lower",
+      "passed": true,
+      "left": "256",
+      "relation": "<",
+      "right": "840"
+    },
+    {
+      "name": "scaled_indicial_diagonal_lower",
+      "passed": true,
+      "left": "65536",
+      "relation": "<",
+      "right": "122880"
+    },
+    {
+      "name": "lower_triangular_combinatorics",
+      "passed": true,
+      "left": "480",
+      "relation": "<",
+      "right": "1024"
+    },
+    {
+      "name": "divide_small_scaled_diagonal",
+      "passed": true,
+      "left": "122",
+      "relation": "=",
+      "right": "122"
+    },
+    {
+      "name": "five_row_recurrence_bits",
+      "passed": true,
+      "left": "492",
+      "relation": "<",
+      "right": "512"
+    },
+    {
+      "name": "five_row_first_RHS_B_power_retained",
+      "passed": true,
+      "left": "10",
+      "relation": "=",
+      "right": "10"
+    },
+    {
+      "name": "full_scaled_root_jet_bits",
+      "passed": true,
+      "left": "992",
+      "relation": "=",
+      "right": "992"
+    },
+    {
+      "name": "Hermite_exact_separation_bits",
+      "passed": true,
+      "left": "140",
+      "relation": "=",
+      "right": "140"
+    },
+    {
+      "name": "Hermite_exact_separation_power",
+      "passed": true,
+      "left": "19/2",
+      "relation": "=",
+      "right": "19/2"
+    },
+    {
+      "name": "complete_center_jet_bits",
+      "passed": true,
+      "left": "1133",
+      "relation": "=",
+      "right": "1133"
+    },
+    {
+      "name": "complete_center_jet_B_power",
+      "passed": true,
+      "left": "39/2",
+      "relation": "=",
+      "right": "39/2"
+    },
+    {
+      "name": "real_center_observability_bits",
+      "passed": true,
+      "left": "29",
+      "relation": "<",
+      "right": "50"
+    },
+    {
+      "name": "scaled_twentieth_derivative_bits",
+      "passed": true,
+      "left": "1183",
+      "relation": "<",
+      "right": "1280"
+    },
+    {
+      "name": "scaled_twentieth_derivative_B_power",
+      "passed": true,
+      "left": "47/2",
+      "relation": "=",
+      "right": "47/2"
+    },
+    {
+      "name": "actual_scaled_scalar_two_line_equation",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "complete_kernel_balanced_state",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "balanced_point_state_Delta_coefficient",
+      "passed": true,
+      "left": "85/128",
+      "relation": "<",
+      "right": "4"
+    },
+    {
+      "name": "quartic_shifted_coefficient_sum",
+      "passed": true,
+      "left": "1088",
+      "relation": "<",
+      "right": "2048"
+    },
+    {
+      "name": "balanced_matrix_jet_coefficient_fee",
+      "passed": true,
+      "left": "4204544",
+      "relation": "<",
+      "right": "1099511627776"
+    },
+    {
+      "name": "balanced_recurrence_sum",
+      "passed": true,
+      "left": "16/7",
+      "relation": "<",
+      "right": "4"
+    },
+    {
+      "name": "balanced_raw_22_jet_bits",
+      "passed": true,
+      "left": "995",
+      "relation": "<",
+      "right": "1024"
+    },
+    {
+      "name": "coefficient_raw_8jet_fee",
+      "passed": true,
+      "left": "338558976000",
+      "relation": "<",
+      "right": "1099511627776"
+    },
+    {
+      "name": "complete_kernel_21jet_bits",
+      "passed": true,
+      "left": "2125",
+      "relation": "<",
+      "right": "2200"
+    },
+    {
+      "name": "complete_kernel_actual_gamma_power",
+      "passed": true,
+      "left": "23",
+      "relation": "=",
+      "right": "23"
+    },
+    {
+      "name": "explicit_F_no_zero_disk",
+      "passed": true,
+      "left": "758764882049810206237970647231647222748731186471763967993/1569275433846670190958947355801916604025588861116008628224",
+      "relation": ">",
+      "right": "1/4"
+    },
+    {
+      "name": "explicit_F_disk_upper",
+      "passed": true,
+      "left": "7844641139128463815072377714017889310505876202668194529287/1569275433846670190958947355801916604025588861116008628224",
+      "relation": "<",
+      "right": "8"
+    },
+    {
+      "name": "explicit_F_power_disk_fee",
+      "passed": true,
+      "left": "27/2",
+      "relation": "<",
+      "right": "20"
+    },
+    {
+      "name": "explicit_F_power_21jet_bits",
+      "passed": true,
+      "left": "153",
+      "relation": "=",
+      "right": "153"
+    },
+    {
+      "name": "complete_scaled_g_21jet_bits",
+      "passed": true,
+      "left": "2374",
+      "relation": "<",
+      "right": "2400"
+    },
+    {
+      "name": "actual_scaled_radius_bits",
+      "passed": true,
+      "left": "3684",
+      "relation": "=",
+      "right": "3684"
+    },
+    {
+      "name": "actual_scaled_radius_a_power",
+      "passed": true,
+      "left": "3",
+      "relation": "=",
+      "right": "3"
+    },
+    {
+      "name": "actual_sign_near_witness",
+      "passed": true,
+      "left": "3/16",
+      "relation": "<",
+      "right": "1/2"
+    },
+    {
+      "name": "explicit_F_C4_fee",
+      "passed": true,
+      "left": "103079215104",
+      "relation": "<",
+      "right": "137438953472"
+    },
+    {
+      "name": "actual_bump_24jet_fee",
+      "passed": true,
+      "left": "5087798221017014024540258304000000000000000000000000",
+      "relation": "<",
+      "right": "23945242826029513411849172299223580994042798784118784"
+    },
+    {
+      "name": "actual_complete_C4_sum",
+      "passed": true,
+      "left": "263280729171392966744795069209176080797237738501372778135777443840",
+      "relation": "<",
+      "right": "1684996666696914987166688442938726917102321526408785780068975640576"
+    },
+    {
+      "name": "actual_bump_integral",
+      "passed": true,
+      "left": "1/32768",
+      "relation": "<",
+      "right": "205891132094649/1152921504606846976"
+    },
+    {
+      "name": "actual_pairing_measure_bits",
+      "passed": true,
+      "left": "236",
+      "relation": "=",
+      "right": "236"
+    },
+    {
+      "name": "actual_pairing_complete_bits",
+      "passed": true,
+      "left": "93616",
+      "relation": "=",
+      "right": "93616"
+    },
+    {
+      "name": "actual_pairing_safe_bits",
+      "passed": true,
+      "left": "93616",
+      "relation": "<",
+      "right": "96000"
+    },
+    {
+      "name": "actual_pairing_a_power",
+      "passed": true,
+      "left": "77",
+      "relation": "=",
+      "right": "77"
+    },
+    {
+      "name": "actual_pairing_interval_power",
+      "passed": true,
+      "left": "1066",
+      "relation": "=",
+      "right": "1066"
+    },
+    {
+      "name": "actual_pairing_B_power",
+      "passed": true,
+      "left": "611",
+      "relation": "=",
+      "right": "611"
+    },
+    {
+      "name": "actual_pairing_M_power",
+      "passed": true,
+      "left": "104",
+      "relation": "=",
+      "right": "104"
+    },
+    {
+      "name": "actual_pairing_T_power",
+      "passed": true,
+      "left": "130",
+      "relation": "=",
+      "right": "130"
+    },
+    {
+      "name": "actual_pairing_gamma_power",
+      "passed": true,
+      "left": "575",
+      "relation": "=",
+      "right": "575"
+    },
+    {
+      "name": "positive_matrix_target_norm_square",
+      "passed": true,
+      "left": "1/8",
+      "relation": "<",
+      "right": "9/16"
+    },
+    {
+      "name": "complete_two_port_positive_fee",
+      "passed": true,
+      "left": "8",
+      "relation": "=",
+      "right": "8"
+    },
+    {
+      "name": "actual_parameter_Hessian_margin",
+      "passed": true,
+      "left": "1/64",
+      "relation": "<",
+      "right": "1/16"
+    },
+    {
+      "name": "unused_interval_binary_bound",
+      "passed": true,
+      "left": "30",
+      "relation": "<",
+      "right": "31"
+    },
+    {
+      "name": "band_min_upper_a_power",
+      "passed": true,
+      "left": "688",
+      "relation": "=",
+      "right": "688"
+    },
+    {
+      "name": "band_min_upper_delta_power",
+      "passed": true,
+      "left": "1832",
+      "relation": "=",
+      "right": "1832"
+    },
+    {
+      "name": "band_min_upper_bits",
+      "passed": true,
+      "left": "396000",
+      "relation": "=",
+      "right": "396000"
+    },
+    {
+      "name": "actual_min_second_branch_j_coefficient",
+      "passed": true,
+      "left": "1024",
+      "relation": "<",
+      "right": "1832"
+    },
+    {
+      "name": "actual_min_second_branch_constant",
+      "passed": true,
+      "left": "5200",
+      "relation": "<",
+      "right": "396000"
+    },
+    {
+      "name": "whole_box_generator_denominator_bits",
+      "passed": true,
+      "left": "40",
+      "relation": "=",
+      "right": "40"
+    },
+    {
+      "name": "complete_low_scale_3_power",
+      "passed": true,
+      "left": "705",
+      "relation": "=",
+      "right": "705"
+    },
+    {
+      "name": "complete_low_scale_Delta_power",
+      "passed": true,
+      "left": "860",
+      "relation": "=",
+      "right": "860"
+    },
+    {
+      "name": "complete_low_a_power",
+      "passed": true,
+      "left": "688",
+      "relation": "=",
+      "right": "688"
+    },
+    {
+      "name": "complete_low_Delta_power",
+      "passed": true,
+      "left": "1471",
+      "relation": "=",
+      "right": "1471"
+    },
+    {
+      "name": "true_3_power_705",
+      "passed": true,
+      "left": "2346845920163797204646423413660071610281200296736772873260697193448159395286204269341743919168939920772453330800001771625383145719098264177069710018635999082917875823708206040125840346864083596396988524196395339301512552832593472685808541294352476519544407634905425090884304507824033514497529522945684821589187252560834382804934746922243",
+      "relation": "<",
+      "right": "14242792383964888162918480513432465216409371640403009729971037612045113415478719007639881209041451055630074000655093473974722206675223109929434400259100512062680086347153555148539548552831624261944567042435944993535084132588196941322891072406503377213352323037077384970994853089450777507879083442634420291861180736024127002634265953304576"
+    },
+    {
+      "name": "true_3_power_1471",
+      "passed": true,
+      "left": "700431537998858099727196020810172137506463168563881188658483457787616754152506422240259228060571038452804100903788709196947054161082925432682797213308127366071721751166034382251464191037891463309836452856564086907845733839221186894389046746742234849244434692855432469267324501266346465573471140591132151667423874839464826237553590593602198283678348946691759048299798422820680396169306940917281960375484376017351350150712041388281524463578729900298252070589023882490910788893567315581668979300388506033813118024965404952030574214833088045542771721107141236497201509130898662453610238971602825759319358961336032909627469367096640961859569964908991060038245112959233289094291572833844303066378227585733547",
+      "relation": "<",
+      "right": "257151968807345829051020589828520018641242524356395099408083902128237132239124488398156224805871321755095136452926004914692767200552304151162188205324363261239934262155567876640496645522564639118787979671023910594197462889745719058678165004956033763475669544779510277929294095121196024702209621724728272338892034505371239717511341206102459360476396042721571426601851041581693063222446584978542660456575345220233489667525374356413497682380055123271241797666217979221296206761170095646525614298883118782244743739569581556052203726815363266894471037587801628105188400993255699075764529893364309124115898585647734244652511137625826146012375288260597317727793577754922692085244125741894913750982116357257035776"
+    },
+    {
+      "name": "complete_low_a_bits",
+      "passed": true,
+      "left": "3440",
+      "relation": "=",
+      "right": "3440"
+    },
+    {
+      "name": "complete_interval_bits",
+      "passed": true,
+      "left": "33046",
+      "relation": "=",
+      "right": "33046"
+    },
+    {
+      "name": "complete_low_d_bits",
+      "passed": true,
+      "left": "435946",
+      "relation": "<",
+      "right": "436000"
+    },
+    {
+      "name": "complete_low_d_delta_power",
+      "passed": true,
+      "left": "1832",
+      "relation": "=",
+      "right": "1832"
+    },
+    {
+      "name": "complete_low_d_J_power",
+      "passed": true,
+      "left": "4003",
+      "relation": "=",
+      "right": "4003"
+    },
+    {
+      "name": "complete_high_kappa_power",
+      "passed": true,
+      "left": "835/2",
+      "relation": "=",
+      "right": "835/2"
+    },
+    {
+      "name": "complete_high_B_power",
+      "passed": true,
+      "left": "387/2",
+      "relation": "=",
+      "right": "387/2"
+    },
+    {
+      "name": "complete_high_a_power",
+      "passed": true,
+      "left": "541/2",
+      "relation": "=",
+      "right": "541/2"
+    },
+    {
+      "name": "complete_high_Delta_power",
+      "passed": true,
+      "left": "2107/2",
+      "relation": "=",
+      "right": "2107/2"
+    },
+    {
+      "name": "complete_high_M_power",
+      "passed": true,
+      "left": "939",
+      "relation": "=",
+      "right": "939"
+    },
+    {
+      "name": "complete_high_a_bits",
+      "passed": true,
+      "left": "2705/2",
+      "relation": "<",
+      "right": "1353"
+    },
+    {
+      "name": "true_3_power_2107",
+      "passed": true,
+      "left": "1970079238817939939715507033605374348759617653516851625951737851828592061333337517416567453733606842520382858901976225668138183065625534391533611427848100579547624484076585329806048246237525689166144807067635024514987629473326983186691504193053562490182840066444902614732796054888793379961539187569715291785616247819773443942849754205974237575587873266669349370529903361561790631095367477599642125342927696303770460315163130372122426447923737643068080634428882230472383956596855404060214380707584448444052035009831266184905617042209804007892961463761316433978465876333882450520636292771963397783781708951524173559398053150236775081231151968704931748939696711329879173211720794204473461677793965516707323481566828165136777526365929694540106159984383848120576913722775391169939778124164920750543057382875079753776694995890757656403031407704263705163835484176602838961684160449190339435957746747151875848564717906863633599781941287988837301474782443062842219140786047158159100755223654946515155420658842896187",
+      "relation": "<",
+      "right": "2889252055883087494094011515881082068911783553647969050700012242544948103419722040111570837736929954229429349422874744890123340098841725147762514848728227694977664130452088611982972194919329220831546949208807229738242981210857551707584466590449971460971430794643854056005013149739900326826106796563396327437596233833667152442173018667802558226729734236696953375824094015278373402689844396529949250071247598506930998967446713164102852368692149538445043405558909016458969696909713622863939671087722561680716917109854617208808309183021939659893190734754196723176143412736436436924401259939003889474574911092015248590620118010960857831260769173893021749812641634572988407019168020346643129571560278408022630526722121646303406577367671544347865347067940277041052205258502753360028927097668848647259180567462982024550425811809036384599838186846092750431128632431906944323432286347393836626490314596726758112886292604977000332974258496557327901299280338708362660690105040822442664031035998403320479688470017601202814976"
+    },
+    {
+      "name": "complete_high_d_bits",
+      "passed": true,
+      "left": "433199",
+      "relation": "<",
+      "right": "434000"
+    },
+    {
+      "name": "complete_high_d_delta_power",
+      "passed": true,
+      "left": "4823/4",
+      "relation": "<",
+      "right": "1206"
+    },
+    {
+      "name": "complete_high_d_J_power",
+      "passed": true,
+      "left": "7171/2",
+      "relation": "<",
+      "right": "3586"
+    },
+    {
+      "name": "actual_B_upper_constant",
+      "passed": true,
+      "left": "96",
+      "relation": "<",
+      "right": "128"
+    },
+    {
+      "name": "actual_low_U_plus_B_constant",
+      "passed": true,
+      "left": "192",
+      "relation": "<",
+      "right": "256"
+    },
+    {
+      "name": "actual_high_U_plus_B_constant",
+      "passed": true,
+      "left": "97",
+      "relation": "<",
+      "right": "128"
+    },
+    {
+      "name": "whole_low_D_bits",
+      "passed": true,
+      "left": "920056",
+      "relation": "=",
+      "right": "920056"
+    },
+    {
+      "name": "whole_low_D_delta",
+      "passed": true,
+      "left": "3795",
+      "relation": "=",
+      "right": "3795"
+    },
+    {
+      "name": "whole_low_D_J",
+      "passed": true,
+      "left": "8072",
+      "relation": "=",
+      "right": "8072"
+    },
+    {
+      "name": "whole_low_D_U",
+      "passed": true,
+      "left": "209",
+      "relation": "=",
+      "right": "209"
+    },
+    {
+      "name": "whole_high_D_bits",
+      "passed": true,
+      "left": "916054",
+      "relation": "=",
+      "right": "916054"
+    },
+    {
+      "name": "whole_high_D_delta",
+      "passed": true,
+      "left": "2543",
+      "relation": "=",
+      "right": "2543"
+    },
+    {
+      "name": "whole_high_D_J",
+      "passed": true,
+      "left": "7238",
+      "relation": "=",
+      "right": "7238"
+    },
+    {
+      "name": "whole_high_D_U",
+      "passed": true,
+      "left": "1881",
+      "relation": "=",
+      "right": "1881"
+    },
+    {
+      "name": "true_middle_delta_binary_power",
+      "passed": true,
+      "left": "320",
+      "relation": "=",
+      "right": "320"
+    },
+    {
+      "name": "whole_layer_J_base",
+      "passed": true,
+      "left": "8709",
+      "relation": "=",
+      "right": "8709"
+    },
+    {
+      "name": "whole_layer_J_base_bits",
+      "passed": true,
+      "left": "8709",
+      "relation": "<",
+      "right": "16384"
+    },
+    {
+      "name": "whole_layer_J_step",
+      "passed": true,
+      "left": "512",
+      "relation": "<",
+      "right": "8709"
+    },
+    {
+      "name": "whole_layer_min_frequency_base",
+      "passed": true,
+      "left": "7873/8",
+      "relation": "=",
+      "right": "7873/8"
+    },
+    {
+      "name": "whole_layer_J_U_one_sixtyfour",
+      "passed": true,
+      "left": "7873/512",
+      "relation": ">",
+      "right": "14"
+    },
+    {
+      "name": "whole_layer_U_block_step",
+      "passed": true,
+      "left": "1",
+      "relation": "=",
+      "right": "1"
+    },
+    {
+      "name": "actual_low_inverse_frequency_bits",
+      "passed": true,
+      "left": "2134456",
+      "relation": "=",
+      "right": "2134456"
+    },
+    {
+      "name": "actual_low_inverse_frequency_safe_bits",
+      "passed": true,
+      "left": "2134456",
+      "relation": "<",
+      "right": "2140000"
+    },
+    {
+      "name": "actual_low_inverse_frequency_power",
+      "passed": true,
+      "left": "245561/8",
+      "relation": "=",
+      "right": "245561/8"
+    },
+    {
+      "name": "actual_low_inverse_frequency_safe_power",
+      "passed": true,
+      "left": "245561/8",
+      "relation": "<",
+      "right": "30696"
+    },
+    {
+      "name": "actual_high_inverse_frequency_bits",
+      "passed": true,
+      "left": "1729814",
+      "relation": "=",
+      "right": "1729814"
+    },
+    {
+      "name": "actual_high_inverse_frequency_power",
+      "passed": true,
+      "left": "714819/32",
+      "relation": "=",
+      "right": "714819/32"
+    },
+    {
+      "name": "actual_high_inverse_frequency_safe_power",
+      "passed": true,
+      "left": "714819/32",
+      "relation": "<",
+      "right": "22339"
+    },
+    {
+      "name": "actual_same_band_final_bits",
+      "passed": true,
+      "left": "2170696",
+      "relation": "<",
+      "right": "2200000"
+    },
+    {
+      "name": "actual_same_band_final_power",
+      "passed": true,
+      "left": "30696",
+      "relation": "<",
+      "right": "30697"
+    },
+    {
+      "name": "unchanged_neutral_polynomial_margin",
+      "passed": true,
+      "left": "263",
+      "relation": "=",
+      "right": "263"
+    }
+  ],
+  "retained": [
+    "scaled root first RHS B^2",
+    "exact Hermite B^(19/2)",
+    "true Delta=aB and both real Cauchy rows",
+    "same middle window and original neutral labels",
+    "complete parameter radius, mode count, and compensated matrix Hessian",
+    "mean and ordinary/weak source equations remain independent"
+  ],
+  "not_claimed": [
+    "nonradial mixed-frequency PSD",
+    "free division of rho5 errors by rho25 control",
+    "full original same-weight Green",
+    "solution of nonlinear F"
+  ]
+}

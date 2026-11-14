@@ -1,0 +1,174 @@
+{
+  "kind": "floating_outer_curvature_ring_origin_not_a_new_solution",
+  "x_interval": [
+    0.3,
+    0.6
+  ],
+  "radial_samples": 301,
+  "positions": [
+    {
+      "target_K0_min": 0.7582349724910836,
+      "at_target_min_x": 0.3,
+      "target_K0_max": 3.3691573570267295,
+      "target_sign_crossings_linear_samples": [],
+      "actual_Gauss_min": 0.7449570679469156,
+      "actual_Gauss_max": 3.381746564738485,
+      "all_angles_negative_sample_interval": null,
+      "target_at_0445": 1.9632959478010614,
+      "actual_Gauss_at_0445": [
+        1.9213419785062307,
+        2.0167371690749265
+      ],
+      "checkpoint": "data/fourfold_overcollocation_m16n101_waist006_checkpoint.npz",
+      "sha256": "598fc957bcc8cd2aa958da3bc2f69d779fd055f7ee9fce39d968d33e4ff306d6",
+      "alpha": [
+        0.36730570152220016,
+        -3.98453355584524e-05,
+        -0.016838324066157286
+      ],
+      "full_circle_angles": 512
+    },
+    {
+      "target_K0_min": 0.7284548450914021,
+      "at_target_min_x": 0.443,
+      "target_K0_max": 3.3530164045323607,
+      "target_sign_crossings_linear_samples": [],
+      "actual_Gauss_min": 0.697498427457772,
+      "actual_Gauss_max": 3.374188461768488,
+      "all_angles_negative_sample_interval": null,
+      "target_at_0445": 0.7346443061639507,
+      "actual_Gauss_at_0445": [
+        0.7054553998711289,
+        0.7711206875179372
+      ],
+      "checkpoint": "data/fourfold_overcollocation_m16n151_graded_checkpoint.npz",
+      "sha256": "cfde01e091aeb06e98fe709e52dd921fc114be45aa86c964e7a3eb21dd3d497a",
+      "alpha": [
+        0.5689787226486773,
+        -0.0012761775564749326,
+        -0.03696084662726113
+      ],
+      "full_circle_angles": 512
+    },
+    {
+      "target_K0_min": -0.42830385950857613,
+      "at_target_min_x": 0.44499999999999995,
+      "target_K0_max": 3.319506287579471,
+      "target_sign_crossings_linear_samples": [
+        0.4291127034427024,
+        0.4559130699895898
+      ],
+      "actual_Gauss_min": -0.4311978446104045,
+      "actual_Gauss_max": 3.3200070685949616,
+      "all_angles_negative_sample_interval": [
+        0.43,
+        0.45499999999999996
+      ],
+      "target_at_0445": -0.4283038595085759,
+      "actual_Gauss_at_0445": [
+        -0.4302342546567543,
+        -0.4263029433598692
+      ],
+      "checkpoint": "data/fourfold_overcollocation_m24n151_graded_checkpoint.npz",
+      "sha256": "68fb488b57083caa61e94cee7682bf55e1930bb3cac88e44f0bfe903ff4bf918",
+      "alpha": [
+        0.7851689476779748,
+        -0.0021275139755227027,
+        -0.059323364267070564
+      ],
+      "full_circle_angles": 512
+    }
+  ],
+  "phase": {
+    "target_K0_min": -0.5040956050060916,
+    "at_target_min_x": 0.44499999999999995,
+    "target_K0_max": 3.3170539520526305,
+    "target_sign_crossings_linear_samples": [
+      0.42772783709035195,
+      0.4567077204785832
+    ],
+    "actual_Gauss_min": -0.5044065751890524,
+    "actual_Gauss_max": 3.3171710711756344,
+    "all_angles_negative_sample_interval": [
+      0.428,
+      0.45599999999999996
+    ],
+    "target_at_0445": -0.5040956050060914,
+    "actual_Gauss_at_0445": [
+      -0.5044065751890522,
+      -0.5038874001514274
+    ],
+    "checkpoint": "data/fourfold_phase_m24n201_q256_checkpoint.npz",
+    "sha256": "63b5513befcf44ce907b047dbeb41a7e143431211d20e3cbb103a081cbef0a0e",
+    "alpha": [
+      0.7995351580493035,
+      -0.0020826635950623182,
+      -0.06091483777082038
+    ],
+    "quarter_period_angles": 256
+  },
+  "profile_only_comparisons": [
+    {
+      "name": "current_phase_mean_curve_without_phase_fields",
+      "alpha": [
+        0.7995351580493035,
+        -0.0020826635950623182,
+        -0.06091483777082038
+      ],
+      "minimum": -0.5048556940963851,
+      "maximum": 3.314859976465672,
+      "at_minimum_x": 0.44499999999999995,
+      "at_0445": -0.5048556940963849,
+      "difference_from_actual_phase_target_max": 0.021797974905765183,
+      "status": "profile diagnostic only; not a solved isometric immersion"
+    },
+    {
+      "name": "current_mean_without_circumference_shift",
+      "alpha": [
+        0.7995351580493035,
+        -0.0020826635950623182,
+        -0.06091483777082038
+      ],
+      "minimum": -0.47908112750957205,
+      "maximum": 3.3427672674502444,
+      "at_minimum_x": 0.44499999999999995,
+      "at_0445": -0.4790811275095718,
+      "difference_from_actual_phase_target_max": 0.1671776586835153,
+      "status": "profile diagnostic only; not a solved isometric immersion"
+    },
+    {
+      "name": "current_phase_mean_with_radius_half_bump_coefficient_zero",
+      "alpha": [
+        0.7995351580493035,
+        -0.0020826635950623182,
+        0.0
+      ],
+      "minimum": 0.32912928347161663,
+      "maximum": 3.314859976517627,
+      "at_minimum_x": 0.3,
+      "at_0445": 2.5222704220435914,
+      "difference_from_actual_phase_target_max": 3.0449400425982036,
+      "status": "profile diagnostic only; not a solved isometric immersion"
+    },
+    {
+      "name": "original_mean_background",
+      "alpha": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimum": 1.157174792236033,
+      "maximum": 3.4124105734498498,
+      "at_minimum_x": 0.3,
+      "at_0445": 3.3249068219540243,
+      "difference_from_actual_phase_target_max": 3.8318061087248627,
+      "status": "profile diagnostic only; not a solved isometric immersion"
+    }
+  ],
+  "limitations": [
+    "All sign and root information is sampled and floating",
+    "Target K0 comes from the same actual angular mean metric",
+    "Deleting a mean coefficient does not solve the nonlinear metric equations"
+  ],
+  "script_sha256": "2ae70608d588d86e8bb14b5b7b3aac252c166f1f09630affaaa20c5822bff6e4"
+}

@@ -1,0 +1,242 @@
+{
+  "kind": "complete_common_radial_polynomial_port_resolvent_exact_budget",
+  "complete": true,
+  "failure": null,
+  "gates": [
+    {
+      "name": "dimension_first_binary_block",
+      "left": "16402",
+      "right": "16402",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "dimension_block_slope",
+      "left": "16",
+      "right": "16402",
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "name": "dimension_binary_budget",
+      "left": "16402",
+      "right": "32768",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "dimension_exponent_gap",
+      "left": "15",
+      "right": "984",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "resolvent_binary_constant",
+      "left": "2200007",
+      "right": "2200007",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "resolvent_degree_before_dimension",
+      "left": "30699",
+      "right": "30699",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "resolvent_degree_after_dimension",
+      "left": "30700",
+      "right": "30700",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "original_label_remaining_degree",
+      "left": "260",
+      "right": "260",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "generator_upper_below_phase_limit",
+      "left": "1/8589934592",
+      "right": "1/8",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "positive_fourfold_bad_set_sum",
+      "left": "1/256",
+      "right": "1/256",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "combined_bad_set",
+      "left": "147/16384",
+      "right": "147/16384",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "joint_good_probability_positive",
+      "left": "147/16384",
+      "right": "1",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "exp3_partial_sum_proves_log12point5",
+      "left": "25/2",
+      "right": "13",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "middle_log_constant",
+      "left": "66496",
+      "right": "66496",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "middle_log_linear",
+      "left": "524",
+      "right": "524",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "middle_log_constant_paid_at_first_layer",
+      "left": "66496",
+      "right": "4099000",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "generator_constant_paid_at_first_layer",
+      "left": "2200000",
+      "right": "4197376",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "generator_complete_log_fee",
+      "left": "31434240",
+      "right": "33554432",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "layer_block_initial_width",
+      "left": "8709",
+      "right": "8709",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "layer_block_slope",
+      "left": "512",
+      "right": "8709",
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "name": "layer_block_binary_bound",
+      "left": "8709",
+      "right": "16384",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "local_width_initial_exponent",
+      "left": "155",
+      "right": "39711/256",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "local_width_exponent_dominates_full_log_fee",
+      "left": "39",
+      "right": "155",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "local_width_block_growth",
+      "left": "1",
+      "right": "62",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "global_min_generator_log_block",
+      "left": "32436545",
+      "right": "33554432",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "global_min_generator_bound_by_M_over4",
+      "left": "25",
+      "right": "982",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "logM_Mover8_first_point",
+      "left": "10",
+      "right": "128",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "logarithm_resolvent_L_remaining_constant",
+      "left": "10",
+      "right": "1408",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "weighted_resolvent_log_at_first_layer",
+      "left": "8",
+      "right": "33579008",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "weighted_resolvent_layer_exponent",
+      "left": "27",
+      "right": "152",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "two_local_weights_pay_generator_and_resolvent",
+      "left": "9/8",
+      "right": "2",
+      "relation": "<",
+      "passed": true
+    }
+  ],
+  "checks": 31,
+  "source_sha256": "5fcb76190d9db87bd29c134ef60c2e5ae9196f67c23d0c55bf9a1a6af1312479",
+  "proof_dependencies": {
+    "R119-supplement-complete-radial-unitary-network-and-global-eigenphase.md": "78f0ba8602e4bc54de60f8104febe940d925449016c63d78b82466be3c94f053",
+    "R119-supplement-weighted-spectral-selection-one-common-radial-profile.md": "caf0779ae9c9dd14df18a3b2d80f6763d61b6f47101b24cb9e58462ae3d5b05a",
+    "R119-supplement-scale-correct-polynomial-middle-scattering-generator.md": "93202284c7f51119a517c660bcf845dac7ee7bea0aaf990282e007c329bc3a32",
+    "R119-supplement-original-neutral-label-common-analytic-normalization.md": "5bc9d551c8e7b1329709d9513891d15536494d9f55163a2d5c40877877c09fc8"
+  },
+  "frequency_scope": "M in 4N, M >= 2^984 * 25^(1/8)",
+  "generator_lower": "2^-2200000 * M^-30697",
+  "complete_resolvent_upper": "2^2200007 * d_M * M^30699 < 2^2200007 * M^30700",
+  "source_and_output_units": "all exact canonical incoming ports of the full radial network",
+  "common_angular_width_preserved": true,
+  "port_derivative_loss": 30700,
+  "old_local_two_sided_weights_preserved": true,
+  "ordinary_and_weak_physical_source_conversion_not_granted": true,
+  "nonlinear_or_nonradial_inverse_not_granted": true,
+  "wall_seconds": 0.004170296999291168
+}

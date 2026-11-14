@@ -1,0 +1,177 @@
+{
+  "kind": "actual_full_parameter_finite_cap_relative_form",
+  "source_sha256": "0879acf59242862833b675c2790d62300c0ed2764146b635d4415ac6eef9b65b",
+  "object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "exact_center": "-7789843107295549/4611686018427387904",
+  "exact_half_width": "1/1000000000",
+  "exact_parameter_interval": [
+    "-15214546326135873881617/9007199254740992000000000",
+    "-15214528311737364399633/9007199254740992000000000"
+  ],
+  "complex_offset_disk_radius": "1/10000",
+  "enclosing_complex_offset_square": "[-rho,rho]+i[-rho,rho]",
+  "relative_error_target": "1/500",
+  "primitive_nodes": 512,
+  "angular_nodes": 1024,
+  "bits": 192,
+  "dependency_sha256": {
+    "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+    "fourfold_phase_beta_parameter_germ.py": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+    "fourfold_phase_root_interval.py": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840",
+    "fourfold_phase_uniform_tail.py": "d7010fcd486cfe703eab58d0d5ad4e78a193418b7bc6c71f25e308c523b55c61",
+    "fourfold_phase_cap_scaled_body.py": "f552b3c90880a9f9ee812015018a83da67e5d5fe66e1232fd2871d2c59e600db",
+    "fourfold_phase_cap_energy_interval.py": "ef752984f6e8c9331b1f11f2419f49460d42288fa0aba10555a18455b971df91",
+    "fourfold_phase_cap_wiener_box.py": "6c86a5542e3370482ae3fef0b25630fc7e436c03929f6dd8e0af0eaef1a7c64f",
+    "fourfold_phase_natural_exterior_graft.py": "5862772e46bb281201c427e71b85066d68f4ea9520ab62e6f6286b8baefdeaee",
+    "fourfold_phase_exterior_entry_jet.py": "9c522b37a84e78251d195d9d821db31e7b5aa3915c14e6adb7e38bb2af7d3c9e"
+  },
+  "complete": true,
+  "cap_form_comparison_complete": true,
+  "full_PDE_inverse_complete": false,
+  "nonlinear_family_complete": false,
+  "collector_sha256": "dc01478612dbff82b019458146765fae8d771758ec65254d0a10129319be829d",
+  "body_input_manifests": [
+    {
+      "path": "data/R111/2026-11-13-ac0d-body-prefix.json.gz",
+      "sha256": "e564032fc05a4a24f8274995dbad9b84f80187eabcc48461bdf8449f68e9ec6b",
+      "bytes": 69665,
+      "original_run_complete": false,
+      "accepted_intervals": 198,
+      "exact_accepted_interval": [
+        "1/4",
+        "5212980234710965/9007199254740992"
+      ],
+      "wall_seconds": 462.884226505,
+      "CPU_seconds": 442.753785242,
+      "rejected_parent_boxes": [
+        {
+          "kind": "body",
+          "radial_interval": [
+            "4548635623644201/18014398509481984",
+            "2296835809958953/9007199254740992"
+          ],
+          "subdivision_depth": 0,
+          "reason": "relative form fee exceeds target: [0.00219134095374403 +/- 3.44e-18]"
+        },
+        {
+          "kind": "body",
+          "radial_interval": [
+            "2296835809958953/9007199254740992",
+            "1158965294206039/4503599627370496"
+          ],
+          "subdivision_depth": 0,
+          "reason": "relative form fee exceeds target: [0.00217008513903676 +/- 2.78e-18]"
+        },
+        {
+          "kind": "body",
+          "radial_interval": [
+            "4638707616191611/18014398509481984",
+            "1170935903116329/4503599627370496"
+          ],
+          "subdivision_depth": 0,
+          "reason": "relative form fee exceeds target: [0.00290990068188352 +/- 4.91e-18]"
+        }
+      ]
+    },
+    {
+      "path": "data/R111/ac0d_complete/continuation_0.json.gz",
+      "sha256": "9fad432e0d6167e2dd754cdb259e30e2780a371c4287384f27f4f567d6aa4a42",
+      "bytes": 104838,
+      "original_run_complete": true,
+      "accepted_intervals": 303,
+      "exact_accepted_interval": [
+        "5212980234710965/9007199254740992",
+        "42660538468355871/36028797018963968"
+      ],
+      "wall_seconds": 1107.578255356,
+      "CPU_seconds": 743.369070297,
+      "rejected_parent_boxes": []
+    },
+    {
+      "path": "data/R111/ac0d_complete/continuation_1.json.gz",
+      "sha256": "93c533fe93966a196aeed3c538857f44197ae1c58072ca920cef7051ec6bc636",
+      "bytes": 96509,
+      "original_run_complete": true,
+      "accepted_intervals": 280,
+      "exact_accepted_interval": [
+        "42660538468355871/36028797018963968",
+        "32234577998933941/18014398509481984"
+      ],
+      "wall_seconds": 991.728008375,
+      "CPU_seconds": 642.5954295600001,
+      "rejected_parent_boxes": []
+    },
+    {
+      "path": "data/R111/ac0d_complete/continuation_2.json.gz",
+      "sha256": "0e55b89e4bc0dbc47a9563de358466e8ab981e07373b64f6398f4351dd8fee1e",
+      "bytes": 92445,
+      "original_run_complete": true,
+      "accepted_intervals": 269,
+      "exact_accepted_interval": [
+        "32234577998933941/18014398509481984",
+        "86277773527379893/36028797018963968"
+      ],
+      "wall_seconds": 872.869645708,
+      "CPU_seconds": 562.361228908,
+      "rejected_parent_boxes": []
+    },
+    {
+      "path": "data/R111/ac0d_complete/continuation_3.json.gz",
+      "sha256": "da43ef585c3a753bd5cd84af8a96f44fc841c28feb11bf77aff69b182e427cf2",
+      "bytes": 88799,
+      "original_run_complete": true,
+      "accepted_intervals": 259,
+      "exact_accepted_interval": [
+        "86277773527379893/36028797018963968",
+        "3"
+      ],
+      "wall_seconds": 831.604107414,
+      "CPU_seconds": 562.269209856,
+      "rejected_parent_boxes": []
+    }
+  ],
+  "paid_graft_path": "notes/2026-11-12-R111-actual-whole-family-graft.json",
+  "paid_graft_sha256": "58a7a41f6d625a27f263f4b840018f538c88a7b2004aaec9118c72c35ee2a661",
+  "exact_body_interval": [
+    "1/4",
+    "3"
+  ],
+  "exact_graft_interval": [
+    "3",
+    "25/8"
+  ],
+  "accepted_body_intervals": 1309,
+  "accepted_graft_intervals": 322,
+  "maximum_body_relative_form_error": {
+    "ball": "[0.0013991793585494032253521811407333024 +/- 6.85e-39]",
+    "lower": "[0.0013991793585494032253521811407333024 +/- 6.85e-39]",
+    "upper": "[0.0013991793585494032253521811407333024 +/- 6.85e-39]",
+    "mid_float": 0.0013991793585494032,
+    "radius_upper_float": 0.0
+  },
+  "maximum_graft_relative_form_error": {
+    "ball": "[0.0019736008582790558912805945072892544 +/- 7.05e-39]",
+    "lower": "[0.0019736008582790558912805945072892544 +/- 7.05e-39]",
+    "upper": "[0.0019736008582790558912805945072892544 +/- 7.05e-39]",
+    "mid_float": 0.0019736008582790557,
+    "radius_upper_float": 0.0
+  },
+  "maximum_relative_form_error": {
+    "ball": "[0.0019736008582790558912805945072892544 +/- 7.05e-39]",
+    "lower": "[0.0019736008582790558912805945072892544 +/- 7.05e-39]",
+    "upper": "[0.0019736008582790558912805945072892544 +/- 7.05e-39]",
+    "mid_float": 0.0019736008582790557,
+    "radius_upper_float": 0.0
+  },
+  "uniform_relative_form_bound": "1/500",
+  "scope": "All real angles and the declared whole parameter interval. The same actual nonnegative Robin tail is used on both sides; angular mean and both regular cap columns remain. This proves R111 comparison, not full PDE or nonlinear inversion.",
+  "full_report_path": "data/R111/ac0d_complete/complete_cap_parameter_comparison.json.gz",
+  "full_report_sha256": "02b2126762e9a3aff3313637aab97d3b7d7081826170e54a4d993e9acd7d9282",
+  "full_report_bytes": 458332
+}

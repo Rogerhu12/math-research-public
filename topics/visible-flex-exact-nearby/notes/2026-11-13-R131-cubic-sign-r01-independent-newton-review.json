@@ -1,0 +1,136 @@
+{
+  "kind": "independent_complete_same_branch_geometry_replay_and_math_review",
+  "passed": true,
+  "source_path": "scripts/fourfold_codazzi_cubic_sign_geometry.py",
+  "source_sha256": "447823fdc956ed6536639bfd894530e95c7a1fb41ec1858e3a8cd9e4c7b5a33c",
+  "original_report": "notes/2026-11-13-R131-cubic-sign-r01-geometry-native.json.gz",
+  "original_report_sha256": "94cf57cf5cc766995b3d95b87e67cba0017c1ab9edb9af22633bbfac0479e350",
+  "independent_output_sha256": "ac81f3056a1166f71487731950682d75f6bdc19400db93df5d08aa62de74d0b2",
+  "original_wall_seconds": 139.85509732799983,
+  "independent_wall_seconds": 245.847136761,
+  "all_JSON_fields_identical_except_wall_seconds": true,
+  "actual_closed_radial_rows": 145,
+  "checks": [
+    "Every bound input and dependency SHA is checked before consuming the complete native and C0 certificates.",
+    "The original entire finite candidate is reconstructed byte for byte, including all degree-511 Fourier coefficients, means, exact shared endpoints and radial polynomial corrections.",
+    "The actual strict-increasing affine C0 barrier is replayed completely and agrees field by field, so each final error covers its entire closed box.",
+    "The complete angular Taylor cover includes the physical frequency factor four and the full finite third-derivative remainder.",
+    "Each true sign interval is candidate (B plus or minus k)/C enlarged by the actual C0 error. Only proved opposite signs permit A<=kM and abs(B)<=k.",
+    "Monotone frame turns are accumulated from the original waist without resets. Each horizontal integral uses min(e*h,e*h*X_previous+e*e*A*h*h/2).",
+    "The normal horizontal bound Y_turn+X_turn^2/2 follows the true orthonormal frame. The polar derivative and cylindrical Jacobian use actual support and radius losses.",
+    "The same original C2 waist reflection and branch identity are retained. This proves the stated annulus embedding, not a closed surface, reach, held displacement, or flex."
+  ],
+  "result_bounds": {
+    "minimum_actual_opposite_sign": {
+      "ball": "[0.031483481374130345420425669544783887 +/- 4.78e-37]",
+      "lower": "[0.031483481374130345420425669544783887 +/- 4.78e-37]",
+      "upper": "[0.031483481374130345420425669544783887 +/- 4.78e-37]",
+      "mid_float": 0.031483481374130345,
+      "radius_upper_float": 0.0
+    },
+    "actual_principal_curvature_upper": {
+      "ball": "[10.480589799380384429819060952928365 +/- 8.09e-35]",
+      "lower": "[10.480589799380384429819060952928365 +/- 8.09e-35]",
+      "upper": "[10.480589799380384429819060952928365 +/- 8.09e-35]",
+      "mid_float": 10.480589799380384,
+      "radius_upper_float": 0.0
+    },
+    "displacement_upper": {
+      "ball": "[0.11189264597567437840008585599860498 +/- 7.34e-37]",
+      "lower": "[0.11189264597567437840008585599860498 +/- 7.34e-37]",
+      "upper": "[0.11189264597567437840008585599860498 +/- 7.34e-37]",
+      "mid_float": 0.11189264597567437,
+      "radius_upper_float": 0.0
+    },
+    "X_turn_upper": {
+      "ball": "[0.28841079562623910634313104372313142 +/- 1.61e-36]",
+      "lower": "[0.28841079562623910634313104372313142 +/- 1.61e-36]",
+      "upper": "[0.28841079562623910634313104372313142 +/- 1.61e-36]",
+      "mid_float": 0.2884107956262391,
+      "radius_upper_float": 0.0
+    },
+    "Y_turn_upper": {
+      "ball": "[0.10061024064792444767086644384261651 +/- 1.36e-36]",
+      "lower": "[0.10061024064792444767086644384261651 +/- 1.36e-36]",
+      "upper": "[0.10061024064792444767086644384261651 +/- 1.36e-36]",
+      "mid_float": 0.10061024064792445,
+      "radius_upper_float": 0.0
+    },
+    "normal_turn_upper": {
+      "ball": "[0.30547727399018506740056111617122809 +/- 4.34e-36]",
+      "lower": "[0.30547727399018506740056111617122809 +/- 4.34e-36]",
+      "upper": "[0.30547727399018506740056111617122809 +/- 4.34e-36]",
+      "mid_float": 0.3054772739901851,
+      "radius_upper_float": 0.0
+    },
+    "horizontal_displacement_upper": {
+      "ball": "[0.016670177206362140611870936063392532 +/- 7.12e-38]",
+      "lower": "[0.016670177206362140611870936063392532 +/- 7.12e-38]",
+      "upper": "[0.016670177206362140611870936063392532 +/- 7.12e-38]",
+      "mid_float": 0.01667017720636214,
+      "radius_upper_float": 0.0
+    },
+    "horizontal_normal_change_upper": {
+      "ball": "[0.14220063416480457888746612010870630 +/- 2.54e-37]",
+      "lower": "[0.14220063416480457888746612010870630 +/- 2.54e-37]",
+      "upper": "[0.14220063416480457888746612010870630 +/- 2.54e-37]",
+      "mid_float": 0.14220063416480458,
+      "radius_upper_float": 0.0
+    },
+    "horizontal_radius_lower": {
+      "ball": "[0.48332982279363785938812906393660747 +/- 2.08e-36]",
+      "lower": "[0.48332982279363785938812906393660747 +/- 2.08e-36]",
+      "upper": "[0.48332982279363785938812906393660747 +/- 2.08e-36]",
+      "mid_float": 0.48332982279363784,
+      "radius_upper_float": 0.0
+    },
+    "horizontal_radius_upper": {
+      "ball": "[1.3166701772063621406118709360633925 +/- 3.21e-35]",
+      "lower": "[1.3166701772063621406118709360633925 +/- 3.21e-35]",
+      "upper": "[1.3166701772063621406118709360633925 +/- 3.21e-35]",
+      "mid_float": 1.316670177206362,
+      "radius_upper_float": 0.0
+    },
+    "angular_numerator_lower": {
+      "ball": "[0.35253650995133607741600268694120600 +/- 3.17e-36]",
+      "lower": "[0.35253650995133607741600268694120600 +/- 3.17e-36]",
+      "upper": "[0.35253650995133607741600268694120600 +/- 3.17e-36]",
+      "mid_float": 0.35253650995133606,
+      "radius_upper_float": 0.0
+    },
+    "horizontal_normal_support_lower": {
+      "ball": "[0.29846899837939190683442310779528928 +/- 1.75e-36]",
+      "lower": "[0.29846899837939190683442310779528928 +/- 1.75e-36]",
+      "upper": "[0.29846899837939190683442310779528928 +/- 1.75e-36]",
+      "mid_float": 0.2984689983793919,
+      "radius_upper_float": 0.0
+    },
+    "argument_theta_lower": {
+      "ball": "[0.21732971181742676149911493868251235 +/- 4.44e-37]",
+      "lower": "[0.21732971181742676149911493868251235 +/- 4.44e-37]",
+      "upper": "[0.21732971181742676149911493868251235 +/- 4.44e-37]",
+      "mid_float": 0.21732971181742677,
+      "radius_upper_float": 0.0
+    },
+    "cylindrical_Jacobian_lower": {
+      "ball": "[0.20397941419311519609531992619465605 +/- 3.84e-36]",
+      "lower": "[0.20397941419311519609531992619465605 +/- 3.84e-36]",
+      "upper": "[0.20397941419311519609531992619465605 +/- 3.84e-36]",
+      "mid_float": 0.2039794141931152,
+      "radius_upper_float": 0.0
+    },
+    "vertical_tangent_lower": {
+      "ball": "[0.95840960648311986878340032373391021 +/- 1.61e-36]",
+      "lower": "[0.95840960648311986878340032373391021 +/- 1.61e-36]",
+      "upper": "[0.95840960648311986878340032373391021 +/- 1.61e-36]",
+      "mid_float": 0.9584096064831199,
+      "radius_upper_float": 0.0
+    }
+  },
+  "geometry_gates": {
+    "nonzero_horizontal_radius": true,
+    "positive_argument_derivative": true,
+    "positive_cylindrical_Jacobian": true,
+    "positive_vertical_tangent": true
+  }
+}

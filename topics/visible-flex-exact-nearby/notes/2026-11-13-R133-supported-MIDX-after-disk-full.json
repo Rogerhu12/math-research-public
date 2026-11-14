@@ -1,0 +1,59 @@
+{
+  "kind": "git_supported_MIDX_duplicate_expiration_after_actual_disk_full",
+  "started_utc": "2026-11-13T20:39:19.146001+00:00",
+  "before_bytes": 17404461471,
+  "before_files": 1872,
+  "commands": [
+    {
+      "argv": [
+        "git",
+        "multi-pack-index",
+        "write",
+        "--no-bitmap"
+      ],
+      "exit_code": 0,
+      "seconds": 0.3041535689990269,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "multi-pack-index",
+        "verify"
+      ],
+      "exit_code": 0,
+      "seconds": 0.7665171569969971,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "multi-pack-index",
+        "expire"
+      ],
+      "exit_code": 0,
+      "seconds": 0.010975641002005432,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "multi-pack-index",
+        "verify"
+      ],
+      "exit_code": 0,
+      "seconds": 0.19962108999607153,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "complete": true,
+  "after_bytes": 17404585415,
+  "after_files": 1872,
+  "freed_bytes": -123944,
+  "refs_unchanged": true,
+  "removed_files": {}
+}

@@ -1,0 +1,53 @@
+{
+  "kind": "completed_R57_real_parameter_N_box_common_affine_root_and_rounded_membership",
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "frozen_direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "files": [
+    {
+      "path": "results/R57-real-parameter-N-tube-and-common-root.md",
+      "sha256": "d6111abd585c297aa805179534ce8e3b46b8bb006dd19badf1ec96d3809b6e91",
+      "bytes": 12625
+    },
+    {
+      "path": "scripts/fourfold_phase_parameter_N_interval.py",
+      "sha256": "284874fb52ec8739bf2ad0526c21805169f4b14ad9cf0f66dbf65f629007b3b0",
+      "bytes": 8557
+    },
+    {
+      "path": "scripts/fourfold_phase_N_tube_membership.py",
+      "sha256": "4d111873e4228bc449a8c4e4f0be1e34f0d30cc87771e3ca20e7cad41a627a93",
+      "bytes": 5302
+    },
+    {
+      "path": "scripts/fourfold_phase_parameter_root_interval.py",
+      "sha256": "9cc41d64f382b780128056228b9e04534d09c03712ab88fbc62d7758b5215b0d",
+      "bytes": 5177
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz",
+      "sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+      "bytes": 137851
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_parameter_N_interval.json",
+      "sha256": "b52537b755e7b5475dc945a5781c0d57a93e71ccdf39ec90891c236fcae2438a",
+      "bytes": 526295
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_parameter_root_interval.json",
+      "sha256": "b5900c391667b2a1be90912f2abaf58eaea66dfc51c082a8db39ea582b4b94a8",
+      "bytes": 4879
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_interval_inputs.npz",
+      "sha256": "d115181ecc0391943e416b0cdb4aaf3b8213eeb96426133815a02548db7599fc",
+      "bytes": 386738
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_N_membership.json",
+      "sha256": "3a29e4fc67dba83797c18b7496d9aa295c9619c76aa915d7ac6ec96cf3977792",
+      "bytes": 3753
+    }
+  ],
+  "limitations": "N is proved for the independent control box; root collar only for the exact affine one-parameter family; membership proves N for the explicitly symmetric rounded predictor, not an exact affine identity or a certified floating ray map."
+}

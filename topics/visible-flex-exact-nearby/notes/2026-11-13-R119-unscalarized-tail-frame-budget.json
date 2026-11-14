@@ -1,0 +1,193 @@
+{
+  "schema": "visible-exact-R119-unscalarized-actual-tail-frame-v1",
+  "scope": "The complete actual first-order scalar Jacobi system, real angle conjugation, ordinary source and mean rows, and an all-tail L1 lower-order error budget; the true nu principal phase is retained.",
+  "inputs": {
+    "label_weight": 224,
+    "coefficient_output_angle_width": 2,
+    "full_integrated_remainder_upper_power_of_2": -426,
+    "relative_tail_power": "443/256",
+    "file_sha256": {
+      "results/R15-full-tail-lines-label-weights-and-ordinary-sources.md": "5acb3a1feec0b097b022349656f5c95977803c33af67a88e2cac3761cc3f1001",
+      "results/R119-actual-final-connector-all-label-continuation.md": "8b4f7d46321709e9151abb930748d1d28545a5b41b1329813cd7301747c8a083",
+      "results/R119-supplement-actual-tail-angle-density-conjugation.md": "cdcdef642bb59ae829c266dabfc479157f4a25741e1d77c41f0b103056f2b049",
+      "results/R119-supplement-balanced-connector-label-domain-224.md": "aff48a37b08cb41e6eb1ddd8c014687242f744e6cb9e638201c0781df46222d1",
+      "results/R119-supplement-unscalarized-tail-frame-and-summable-remainder.md": "c506990aa604918061c5189cfb40c9c3f5042d4a1453f6b134fa3983aefa3f7e",
+      "scripts/fourfold_unscalarized_tail_frame_20261113.py": "edc862d2503aacfeec0973b97db5c9b64b7e1bfd12574b239a5928eafcadbe5b"
+    }
+  },
+  "checks": [
+    {
+      "name": "exact_full_principal_frame",
+      "pass": true,
+      "evidence": "No division by A or sqrt(A); the true type-zero locations remain A=0"
+    },
+    {
+      "name": "exact_full_zero_order_matrix",
+      "pass": true,
+      "evidence": "T_theta, T_t and the full C matrix are all retained"
+    },
+    {
+      "name": "exact_ordinary_scalar_source",
+      "pass": true,
+      "evidence": "Source units are delta K_t-D F[delta state]=e"
+    },
+    {
+      "name": "exact_actual_nu_log_derivative",
+      "pass": true,
+      "evidence": "j_t/j=-d_theta cancels the drift divergence exactly"
+    },
+    {
+      "name": "full_frame_invertibility",
+      "pass": true,
+      "evidence": "||T-I||<=9n; both T and its inverse are below 2"
+    },
+    {
+      "name": "full_v_squared_difference",
+      "pass": true,
+      "evidence": "||v^2-1||<=12n+36n^2<=13n"
+    },
+    {
+      "name": "all_A_quadratic_numerator",
+      "pass": true,
+      "evidence": "G<=2(1+|A|)n^2; all actual tail values of A are allowed"
+    },
+    {
+      "name": "complete_K_quotient_derivative",
+      "pass": true,
+      "evidence": "Includes the derivative of J in F_K+2A"
+    },
+    {
+      "name": "complete_C_remainder",
+      "pass": true,
+      "evidence": "Both F_P and F_K+2A are retained"
+    },
+    {
+      "name": "complete_B_bound",
+      "pass": true,
+      "evidence": "B includes -A(v^2-1), -d^2 and 2d"
+    },
+    {
+      "name": "actual_v_time_coefficient",
+      "pass": true,
+      "evidence": "The exact v identity introduces A but no A_t"
+    },
+    {
+      "name": "actual_d_time_coefficient",
+      "pass": true,
+      "evidence": "The exact d identity introduces A but no A_t"
+    },
+    {
+      "name": "complete_T_time_coefficient",
+      "pass": true,
+      "evidence": "Both rows of the moving frame time derivative are paid"
+    },
+    {
+      "name": "complete_zero_order_error_constant",
+      "pass": true,
+      "evidence": "All four terms in Z-C0 are paid"
+    },
+    {
+      "name": "actual_log_profile_variation",
+      "pass": true,
+      "evidence": "log64+2log(65/64)<2log128; the four true monotone log-quintics are included"
+    },
+    {
+      "name": "all_actual_cell_integral",
+      "pass": true,
+      "evidence": "The difference grows by 2 per later j while delta_j decreases"
+    },
+    {
+      "name": "actual_relative_exponent_at_first_cell",
+      "pass": true,
+      "evidence": "delta_129<2^-132 gives delta_129^alpha<2^-228"
+    },
+    {
+      "name": "all_layer_geometric_ratio",
+      "pass": true,
+      "evidence": "2^-alpha<1/2, for the entire infinite tail"
+    },
+    {
+      "name": "all_layer_weighted_geometric_sum",
+      "pass": true,
+      "evidence": "sum (133+k)2^-k=268, not a finite-cell sample"
+    },
+    {
+      "name": "actual_tail_integral_budget",
+      "pass": true,
+      "evidence": "I_tail<2^-152 e^(-4 beta) X_beta"
+    },
+    {
+      "name": "actual_finite_integral_budget",
+      "pass": true,
+      "evidence": "The entire connector and both bumps are included"
+    },
+    {
+      "name": "actual_weighted_tail_state",
+      "pass": true,
+      "evidence": "The original nonmean state loses the paid exponential label weight"
+    },
+    {
+      "name": "complete_integral_budget",
+      "pass": true,
+      "evidence": "The tail plus all finite pieces give I<2^-435 X_beta"
+    },
+    {
+      "name": "complete_zero_order_remainder_budget",
+      "pass": true,
+      "evidence": "The full 512 coefficient is paid after actual angular composition"
+    },
+    {
+      "name": "actual_unweighted_tail_integral_exponent",
+      "pass": true,
+      "evidence": "The extra cell length factor gives delta^(alpha+1)"
+    },
+    {
+      "name": "actual_unweighted_tail_integral_budget",
+      "pass": true,
+      "evidence": "Includes the factor 2 in true log-radius cell length"
+    },
+    {
+      "name": "actual_unweighted_finite_integral_budget",
+      "pass": true,
+      "evidence": "Only the actual length is used"
+    },
+    {
+      "name": "actual_complete_unweighted_integral",
+      "pass": true,
+      "evidence": "I0<2^-438 X_beta"
+    },
+    {
+      "name": "actual_angle_flow_defect",
+      "pass": true,
+      "evidence": "phi-id<2^-436 X_beta and j-1<2^-435 X_beta in A_2"
+    },
+    {
+      "name": "actual_flow_contraction",
+      "pass": true,
+      "evidence": "The exact all-time Wiener composition Picard map contracts"
+    },
+    {
+      "name": "actual_nu_time_integral",
+      "pass": true,
+      "evidence": "The exact nu_t/nu identity is integrable without A_t"
+    },
+    {
+      "name": "actual_physical_strip_remaining",
+      "pass": true,
+      "evidence": "Both coframe and physical trace conversions keep a positive angle margin"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "complete_first_order_system": true,
+    "all_actual_cells_and_type_crossings": true,
+    "ordinary_scalar_source_units_explicit": true,
+    "mean_holonomy_and_height_preserved": true,
+    "no_A_t_or_A_tt_fee": true,
+    "actual_nu_retained": true,
+    "same_width_pullback_difference_small": false,
+    "relative_mixed_tail_evolution_established": false,
+    "updated_all_high_input_inverse": false,
+    "closed_surface_main_goal": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "kind": "R69_actual_closed_approximate_exterior_ready_manifest",
+  "complete": true,
+  "source_report_proof_frozen": true,
+  "positive_cells": 1423,
+  "core_cells": 169,
+  "exact_parameter_interval": [
+    "-121752685431711260843/72057594037927936000000",
+    "-121680627837673332907/72057594037927936000000"
+  ],
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_closed_approximate_exterior.py",
+      "sha256": "1adee5390fec66ab0baec5941ff892b4123d0ea0ffdbf8d382c06c968ae55a68",
+      "bytes": 14864
+    },
+    {
+      "path": "results/R69-actual-closed-approximate-exterior-and-two-held-disks.md",
+      "sha256": "c1c33adcf81b6546b68b0f7a6c1ded7ae1c56b35dfb279c7abd1496798dad6de",
+      "bytes": 19508
+    },
+    {
+      "path": "notes/2026-11-12-actual-closed-approximate-exterior.json",
+      "sha256": "2d9dd3fec38a1f6b75bd41d858f9ef2cd0b7205a57ad9a5f6ee66996404aebbf",
+      "bytes": 16924
+    },
+    {
+      "path": "notes/2026-11-12-positive-family-outer-quarter-to-one.json.gz",
+      "sha256": "1edd27337e9c3819c770501683e160395956a68cc35c2cb09e98190ba4477e15",
+      "bytes": 314034
+    },
+    {
+      "path": "notes/2026-11-12-positive-family-outer-one-to-three.json.gz",
+      "sha256": "5e2cbd5396746bf8c41acf834b52b5ff37bc86b9d0500de6b2f1ff032ca6f6f4",
+      "bytes": 670137
+    },
+    {
+      "path": "notes/2026-11-12-R69-per-cell-cover-manifest.json.gz",
+      "sha256": "37a98666b12ac78d88ba1005f0d8d6521ad17912349453bfda2b1df1cdd026e0",
+      "bytes": 95560
+    }
+  ],
+  "reused_input_sha256": {
+    "data/phase_ring_continuation/type_fixed_step02_d5_affine_core_interval.json": "278bf0e855f9b4a8bfebb37ff1564659c874f143b394bbb81503a228910dbf51",
+    "notes/2026-11-12-positive-family-root-collar.json": "f796e89e61f45ffba22c2aa2ab145a40ec4a80fe39abe30bc797dc0b06b966cc",
+    "notes/2026-11-12-positive-family-natural-graft.json": "d56b7229439ade268b647f17a10f84ba662e02bcb9597f983d2c604fe765fa27"
+  },
+  "mathematical_input_sha256": {
+    "R11-matched-mode-four-physical-tail-connector.md": "8c4e30ef3cac88ff3e7c858c77537bf03d102760b2324e1e1d21780cf59923ca",
+    "R14-mode-four-full-tail-geometric-bounds.md": "0254a843e2e3542a873fe3f0fe001836e00b83521dd9167d7d6ba75fc9b4dfef",
+    "R15-full-tail-lines-label-weights-and-ordinary-sources.md": "5acb3a1feec0b097b022349656f5c95977803c33af67a88e2cac3761cc3f1001",
+    "R22-mu4-true-tail-and-source-conversion.md": "beee165ada596f0875476bbaa7e534fefaee6872c08b419837dc18a5b62b8038",
+    "R23-mu4-full-graft-and-marker-geometry.md": "8753547087573cc568471b93f19f6d6834af14c7aaa9994d1c82f4803ee09619",
+    "R66-actual-family-positive-collar-and-natural-exterior-graft.md": "79000b36b610cb1600437c70673e80f6edcb567e0e7ec0e140e7124221c17e30"
+  },
+  "scope": "Closed C2 star-shaped approximate background with the full actual R72 tail and two-flat-subdisk diameter; full finite positive-domain source/DN; not an exact isometric family or a reach/visible-amplitude certificate"
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "R85_actual_local_contact_ready",
+  "files": [
+    {
+      "path": "results/R85-actual-local-contact-and-unitary-two-sided-remainder.md",
+      "sha256": "09738491585dbfd4ad987be1cbaa2ad60ab4cf7ab7192fd0d5de9ba9a5e51113",
+      "bytes": 13643
+    },
+    {
+      "path": "scripts/fourfold_phase_local_contact_budget.py",
+      "sha256": "10c6ea8acc199bc5d099c355b8a125fd4f9d7e13172f67ae2bccf835e267ef52",
+      "bytes": 6121
+    },
+    {
+      "path": "notes/2026-11-12-actual-localized-full-contact.json",
+      "sha256": "f42b44e95bb567bf15f47e1469fe7c6821d09cf858409ade5742427f56f1f975",
+      "bytes": 6459
+    }
+  ],
+  "exact_parameter_interval": [
+    "-608725607945540621497/360287970189639680000000",
+    "-608437377569388909753/360287970189639680000000"
+  ],
+  "scope": [
+    "actual entire-cap local Poisson and full contact including regular mean flux below 800",
+    "unitary two-sided order-two mechanism in the complete augmented common-root flux Hilbert space",
+    "complete canonical trial residual and final feedback cutoff remain unpaid"
+  ]
+}

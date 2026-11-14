@@ -1,0 +1,793 @@
+{
+  "schema": "visible-exact-R119-new-deep-full-label-chart-v1",
+  "scope": "The actual newly constructed c=16sqrt2 deep tail, a complete all-mode strong discrete Green with its unique full two-component basis seam, exact nonlinear mean and zero-residual cell solutions, and a genuine new full-label chart. Arbitrary physical continuous-source conversion, affine exterior DN, actual regular matching input, and the nonlinear network inverse remain separate.",
+  "parameters": {
+    "switch_depth": 4096,
+    "actual_complex_Gamma_radius": "2^-15",
+    "actual_real_Gamma_radius": "2^-16",
+    "new_complete_label_ball": "||a||_(l1_beta)<1/64 for every beta>=0",
+    "reference_strong_Green": "<=2^15",
+    "true_strong_Green": "<2^16",
+    "true_full_state_bound": "<16||a||_(l1_beta)",
+    "deep_relative_state": "2^72 exp(-4beta) ||X|| delta_4096^(-3/2) delta_j^(827/256)"
+  },
+  "numeric": {
+    "actual_43_mode_boxes": [
+      {
+        "m": 4,
+        "c64": "[1.05274103271879588145973000586328967221354668 +/- 3.91e-45]",
+        "c16sqrt2": "[1.05318805627633442715338108729511314567316476 +/- 1.68e-45]",
+        "c16": "[1.05347448863234454069270537625557858487494714 +/- 4.07e-45]"
+      },
+      {
+        "m": 8,
+        "c64": "[12.3482090638781865289031091212640805576477494 +/- 2.67e-44]",
+        "c16sqrt2": "[12.3537039825911957872532656810226713760107778 +/- 4.01e-44]",
+        "c16": "[12.3572248763853147994985251688276223104606123 +/- 4.15e-44]"
+      },
+      {
+        "m": 12,
+        "c64": "[43.9999521762179981314929827352093335775130437 +/- 4.12e-44]",
+        "c16sqrt2": "[44.0195775792346775203936123882762784224163285 +/- 4.84e-44]",
+        "c16": "[44.0321526441793873121222129074601957394507495 +/- 3.06e-44]"
+      },
+      {
+        "m": 16,
+        "c64": "[97.3174036005394235987568399694925406472561933 +/- 1.92e-44]",
+        "c16sqrt2": "[97.3608271019535643236634451171921281285596712 +/- 1.31e-44]",
+        "c16": "[97.3886509051102986794327182418535441227025087 +/- 4.39e-44]"
+      },
+      {
+        "m": 20,
+        "c64": "[165.996135829083413791337920859820436600508927 +/- 4.46e-43]",
+        "c16sqrt2": "[166.070211915104433775477004982588314286306158 +/- 2.77e-43]",
+        "c16": "[166.117676499233947469798632947813863899386017 +/- 3.91e-43]"
+      },
+      {
+        "m": 24,
+        "c64": "[240.330931782516857387038250040993074984716555 +/- 3.26e-43]",
+        "c16sqrt2": "[240.438183958970826156314466873072934921898821 +/- 4.54e-43]",
+        "c16": "[240.506906271741617822792334565135138157217258 +/- 3.13e-43]"
+      },
+      {
+        "m": 28,
+        "c64": "[310.778714956743081812102053651183011604191422 +/- 3.06e-43]",
+        "c16sqrt2": "[310.917408017205365838720831290316595888399736 +/- 1.02e-43]",
+        "c16": "[311.006276217323598560212584603461103096967800 +/- 1.66e-43]"
+      },
+      {
+        "m": 32,
+        "c64": "[370.001149755862935208833837002411866187109174 +/- 1.02e-43]",
+        "c16sqrt2": "[370.166273658464360312763510281255057279369621 +/- 1.50e-43]",
+        "c16": "[370.272077539147182726836756235630390686029401 +/- 3.40e-43]"
+      },
+      {
+        "m": 36,
+        "c64": "[413.576895557892540574894160698087039288725449 +/- 3.11e-44]",
+        "c16sqrt2": "[413.761467189536724315311609840283145681727522 +/- 2.47e-43]",
+        "c16": "[413.879732289769078615767048495438650962189525 +/- 2.31e-43]"
+      },
+      {
+        "m": 40,
+        "c64": "[439.849343994446685646523693733615750270049741 +/- 1.97e-43]",
+        "c16sqrt2": "[440.045640996185371968030909517711671288085701 +/- 2.64e-43]",
+        "c16": "[440.171419179859287142425311169072307378327858 +/- 2.36e-43]"
+      },
+      {
+        "m": 44,
+        "c64": "[449.340765787329328724439159676547992023899943 +/- 2.84e-43]",
+        "c16sqrt2": "[449.541298932129648862812718980894127437428265 +/- 1.34e-43]",
+        "c16": "[449.669791443456843465549448685006967922796357 +/- 2.38e-43]"
+      },
+      {
+        "m": 48,
+        "c64": "[444.037761297938261941198185516321751222355054 +/- 4.62e-43]",
+        "c16sqrt2": "[444.235927982823181243452932228912304139588624 +/- 4.99e-43]",
+        "c16": "[444.362904174353028759777888553357274590324162 +/- 1.02e-43]"
+      },
+      {
+        "m": 52,
+        "c64": "[426.727091221020693493510381151686871766348245 +/- 1.01e-43]",
+        "c16sqrt2": "[426.917532555448369990020544416413600731365530 +/- 4.31e-43]",
+        "c16": "[427.039558694047455134350457719110811030509038 +/- 2.69e-43]"
+      },
+      {
+        "m": 56,
+        "c64": "[400.465466148730519835694472635143878334038192 +/- 1.77e-43]",
+        "c16sqrt2": "[400.644187421565081197587414049011752955495542 +/- 4.79e-43]",
+        "c16": "[400.758703878168662320383804438685528523370552 +/- 2.00e-43]"
+      },
+      {
+        "m": 60,
+        "c64": "[368.205106870690518511665820003355458616976482 +/- 4.64e-43]",
+        "c16sqrt2": "[368.369430912834946228332200289404651099475832 +/- 7.62e-44]",
+        "c16": "[368.474722279344945585089965550132098331627122 +/- 4.88e-43]"
+      },
+      {
+        "m": 64,
+        "c64": "[332.562519937039738626596231466778913061968011 +/- 2.32e-44]",
+        "c16sqrt2": "[332.710937293785187958241859089116948665448300 +/- 1.49e-43]",
+        "c16": "[332.806036380331485832887689493963632968623021 +/- 2.53e-43]"
+      },
+      {
+        "m": 68,
+        "c64": "[295.702607845578792084760813152555895542626783 +/- 8.51e-44]",
+        "c16sqrt2": "[295.834575230236849076761092804429552673884294 +/- 1.94e-43]",
+        "c16": "[295.919133923438814774605958182848383868040660 +/- 3.78e-43]"
+      },
+      {
+        "m": 72,
+        "c64": "[259.306632246608431995437561985084203914248016 +/- 1.04e-43]",
+        "c16sqrt2": "[259.422356697387144914821501708180934203593535 +/- 4.43e-43]",
+        "c16": "[259.496507657904537667715788330170107411284402 +/- 4.59e-43]"
+      },
+      {
+        "m": 76,
+        "c64": "[224.595258410356856158598555686728586859166860 +/- 1.67e-44]",
+        "c16sqrt2": "[224.695491732156595890796643391050394755276285 +/- 2.05e-43]",
+        "c16": "[224.759716682348943529718247815940435292679944 +/- 4.00e-43]"
+      },
+      {
+        "m": 80,
+        "c64": "[192.383349299779883171492284837522452082342726 +/- 1.57e-43]",
+        "c16sqrt2": "[192.469206960100737557333262770931715229661885 +/- 3.65e-43]",
+        "c16": "[192.524220640768284718491493328266467721310407 +/- 3.78e-43]"
+      },
+      {
+        "m": 84,
+        "c64": "[163.149209645275701931600496758027312655310747 +/- 3.54e-43]",
+        "c16sqrt2": "[163.222020572934015934831100489454887481893128 +/- 3.14e-43]",
+        "c16": "[163.268674501172139900470382018839662360817903 +/- 2.03e-43]"
+      },
+      {
+        "m": 88,
+        "c64": "[137.106477870879043562305431941530228228838536 +/- 7.57e-44]",
+        "c16sqrt2": "[137.167666339149313022220995965919143745979103 +/- 2.76e-43]",
+        "c16": "[137.206873124442288358997264442896915155248730 +/- 3.86e-43]"
+      },
+      {
+        "m": 92,
+        "c64": "[114.271348676012919967235592898282238858717803 +/- 2.49e-43]",
+        "c16sqrt2": "[114.322346186284716680495570924274600465695062 +/- 1.18e-43]",
+        "c16": "[114.355023069563949532856801617373091812144552 +/- 4.46e-43]"
+      },
+      {
+        "m": 96,
+        "c64": "[94.5211833022760927669093771693096932361684405 +/- 4.74e-44]",
+        "c16sqrt2": "[94.5633666246460951983369746514160616063407905 +/- 3.88e-44]",
+        "c16": "[94.5903957775217627882838692633655679838441854 +/- 2.67e-44]"
+      },
+      {
+        "m": 100,
+        "c64": "[77.6429270251130278940382012521335941202234865 +/- 1.04e-45]",
+        "c16sqrt2": "[77.6775778470091053076726453062262485900253843 +/- 3.38e-44]",
+        "c16": "[77.6997805164451815996422613438764743876634533 +/- 4.05e-44]"
+      },
+      {
+        "m": 104,
+        "c64": "[63.3712859302466435863473037162260433472457606 +/- 2.30e-44]",
+        "c16sqrt2": "[63.3995675427940802353714898851993671661829033 +/- 1.46e-44]",
+        "c16": "[63.4176891127930015847878505864605267415460304 +/- 2.33e-44]"
+      },
+      {
+        "m": 108,
+        "c64": "[51.4175158672242344872913882338366871487393261 +/- 2.13e-44]",
+        "c16sqrt2": "[51.4404626997023456682292152824169375134756846 +/- 3.39e-44]",
+        "c16": "[51.4551659854611806361026175582107073317314002 +/- 4.40e-44]"
+      },
+      {
+        "m": 112,
+        "c64": "[41.4901264432240684955120220673224593825532062 +/- 1.61e-44]",
+        "c16sqrt2": "[41.5086428374128645862215163250062625411699134 +/- 3.41e-44]",
+        "c16": "[41.5205072999804455014689545422796069606005638 +/- 2.14e-44]"
+      },
+      {
+        "m": 116,
+        "c64": "[33.3089511715008120831481143977529084825189609 +/- 1.20e-44]",
+        "c16sqrt2": "[33.3238164353297933585796209054526099409777586 +/- 3.39e-44]",
+        "c16": "[33.3333414197548322223560956707115408402285767 +/- 1.25e-44]"
+      },
+      {
+        "m": 120,
+        "c64": "[26.6139960271273817198310085991985734698362638 +/- 3.27e-44]",
+        "c16sqrt2": "[26.6258734373067662756251224311120636509176216 +/- 2.54e-44]",
+        "c16": "[26.6334839411141641533555367579932082491878957 +/- 2.74e-44]"
+      },
+      {
+        "m": 124,
+        "c64": "[21.1703357254299953295339488946830204900924366 +/- 1.80e-44]",
+        "c16sqrt2": "[21.1797837152216567251464244890477561242929401 +/- 1.37e-44]",
+        "c16": "[21.1858375570268760119961037745045745189525260 +/- 3.79e-44]"
+      },
+      {
+        "m": 128,
+        "c64": "[16.7701368873894143589160680108909409469420996 +/- 1.56e-44]",
+        "c16sqrt2": "[16.7776211372898994945602262917100760608138535 +/- 3.54e-44]",
+        "c16": "[16.7824167039582984734401652231118679438193363 +/- 1.13e-44]"
+      },
+      {
+        "m": 132,
+        "c64": "[13.2326864697851182230291691524945292375753547 +/- 2.42e-44]",
+        "c16sqrt2": "[13.2385920109000506881167743998153619124814646 +/- 3.43e-44]",
+        "c16": "[13.2423760128382802117737445588543546942790754 +/- 2.85e-44]"
+      },
+      {
+        "m": 136,
+        "c64": "[10.4031141171418843099565500362226249178313499 +/- 2.12e-44]",
+        "c16sqrt2": "[10.4077568643684033676220308490883893575951287 +/- 1.85e-44]",
+        "c16": "[10.4107317254627467547318266850750465829786729 +/- 4.56e-44]"
+      },
+      {
+        "m": 140,
+        "c64": "[8.15032976759004443882078076880867359711178547 +/- 1.77e-45]",
+        "c16sqrt2": "[8.15396713238662627738290462738485649183119422 +/- 4.19e-45]",
+        "c16": "[8.15629779018282907546206508139196337333575446 +/- 1.03e-45]"
+      },
+      {
+        "m": 144,
+        "c64": "[6.36455739241659252029297227656472915656907165 +/- 3.22e-45]",
+        "c16sqrt2": "[6.36739779492051784642787830230980002534459660 +/- 9.87e-46]",
+        "c16": "[6.36921779555568882683601250185787761914096003 +/- 1.93e-45]"
+      },
+      {
+        "m": 148,
+        "c64": "[4.95473240033850342385866068254094757938734013 +/- 4.32e-45]",
+        "c16sqrt2": "[4.95694361998631098892321539660563058187317103 +/- 2.48e-45]",
+        "c16": "[4.95836046888640550932882311722112786818359391 +/- 2.43e-45]"
+      },
+      {
+        "m": 152,
+        "c64": "[3.84594182145126806329881946291394632406223212 +/- 4.08e-45]",
+        "c16sqrt2": "[3.84765820519384760672486515294448387581565273 +/- 2.97e-45]",
+        "c16": "[3.84875798576979588029834396992636028748205451 +/- 1.48e-45]"
+      },
+      {
+        "m": 156,
+        "c64": "[2.97701957351829807791549290845444963921432230 +/- 5.00e-45]",
+        "c16sqrt2": "[2.97834817084127707165410023223631859254511959 +/- 2.42e-45]",
+        "c16": "[2.97919947553079434403430523285521255252445422 +/- 3.37e-46]"
+      },
+      {
+        "m": 160,
+        "c64": "[2.29836021315352256060523623773670437681545960 +/- 4.20e-46]",
+        "c16sqrt2": "[2.29938593540922241512741288962868121415657222 +/- 1.50e-46]",
+        "c16": "[2.30004317154188420508194572855557721153218910 +/- 4.30e-45]"
+      },
+      {
+        "m": 164,
+        "c64": "[1.76998000616913401829632942065480764422647691 +/- 3.25e-45]",
+        "c16sqrt2": "[1.77076992059469316304368843917397427921500262 +/- 3.83e-45]",
+        "c16": "[1.77127606180329356184176140074463243032681188 +/- 4.07e-45]"
+      },
+      {
+        "m": 168,
+        "c64": "[1.35983069956731573774673882480620952052270477 +/- 3.13e-45]",
+        "c16sqrt2": "[1.36043757076571865936732470417335898460618064 +/- 4.64e-45]",
+        "c16": "[1.36082642620611272570039664719622083423017266 +/- 6.04e-47]"
+      },
+      {
+        "m": 172,
+        "c64": "[1.04235630148608416382505750498168475083813632 +/- 4.86e-45]",
+        "c16sqrt2": "[1.04282148882071079856991900180605380271246076 +/- 1.97e-46]",
+        "c16": "[1.04311955969035830284764275879939173099164156 +/- 3.03e-45]"
+      }
+    ],
+    "full_piecewise_endpoint_boxes": [
+      {
+        "j": 128,
+        "high_log_bound": "[-68.0895670395636537282343199322978992328561450 +/- 2.43e-44]",
+        "true_matrix_qG": "[0.0249980797016513069094030719712162518987631651 +/- 2.40e-47]",
+        "log2_zeta_over_Rnew": "[-12.0001634134598077945664410127224471887519240 +/- 3.44e-44]",
+        "new_kappa": "[6.63946003884569882474867810198745706104359464e-17 +/- 3.51e-62]"
+      },
+      {
+        "j": 4097,
+        "high_log_bound": "[-1.01616010359856512379465002080119497881127126e+150 +/- 3.66e+105]",
+        "true_matrix_qG": "[9.74149255747233512500376964319700592092465999e-577 +/- 8.84e-623]",
+        "log2_zeta_over_Rnew": "[-6839.07846848100140797836813343640583911079590 +/- 3.50e-42]",
+        "new_kappa": "[5.18560666603919133744787879683326329413243345e-2068 +/- 1.32e-2113]"
+      }
+    ]
+  },
+  "file_sha256": {
+    "results/R119-supplement-uniform-tail-chart-for-actual-metric-parameters.md": "4eb0d35d9dfb3b53074227fce591219b8d4164444da655494c94ce80b46be950",
+    "results/R119-supplement-new-deep-profile-and-actual-homogeneous-Robin.md": "51c194db6a9d86ae744c6e5f33892109f0fa0e4efed3253e15db1374d204f38e",
+    "results/R119-supplement-new-deep-profile-full-label-chart.md": "36340741fbafe308eb0689d3a2257482f9b90633d69435bb0fbd923ab92dd918",
+    "scripts/fourfold_new_deep_full_label_chart_20261113.py": "268c2ac412bd03d8a761825826e7a143cca43b24087fdc0f84e470934dbf5fc8"
+  },
+  "checks": [
+    {
+      "name": "actual_shallow_expanding_mode_4",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_8",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_12",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_16",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_20",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_24",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_28",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_32",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_36",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_40",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_44",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_48",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_52",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_56",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_60",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_64",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_68",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_72",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_76",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_80",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_84",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_88",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_92",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_96",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_100",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_104",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_108",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_112",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_116",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_120",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_124",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_128",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_132",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_136",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_140",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_144",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_148",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_152",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_156",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_160",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_164",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_168",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "actual_shallow_expanding_mode_172",
+      "pass": true,
+      "evidence": "The c=64 endpoint is the true minimum for every c in[16,64]"
+    },
+    {
+      "name": "all_later_shallow_contraction_start",
+      "pass": true,
+      "evidence": "[0.797858027302049747348840670176357490033451564 +/- 7.36e-47]"
+    },
+    {
+      "name": "all_later_shallow_derivative",
+      "pass": true,
+      "evidence": "T'_m/(Lambda-lambda)<(66/63)nu'/nu<5/m, uniformly on the entire c-box"
+    },
+    {
+      "name": "new_actual_lowest_expanding_spectral_gap",
+      "pass": true,
+      "evidence": "1280/2^(39/4)>sqrt2, independently of the profile switch"
+    },
+    {
+      "name": "new_deep_neutral_layer_count",
+      "pass": true,
+      "evidence": "256log2(5/3)+2<192 for every possible spectral value"
+    },
+    {
+      "name": "new_scalar_kernel_sum",
+      "pass": true,
+      "evidence": "[222.097559414033591627643158944937573240309768 +/- 8.99e-44]"
+    },
+    {
+      "name": "new_small_modes_no_deep_neutral_window",
+      "pass": true,
+      "evidence": "For all43 small modes, sqrt2 exp(-172h_4097)>2^(1/8)"
+    },
+    {
+      "name": "new_ideal_small_root",
+      "pass": true,
+      "evidence": "All small diagonal propagators are strictly below1/1000"
+    },
+    {
+      "name": "new_ideal_basis_norm",
+      "pass": true,
+      "evidence": "t<1/63 and -1/16<s<0 give the complete E and E^-1 bounds"
+    },
+    {
+      "name": "new_unique_basis_jump_norm",
+      "pass": true,
+      "evidence": "Both Q=E64^-1 EC and its full inverse are paid"
+    },
+    {
+      "name": "new_basis_jump_large_pivot",
+      "pass": true,
+      "evidence": "The true Q11 is uniformly positive and invertible"
+    },
+    {
+      "name": "new_basis_jump_cross_row",
+      "pass": true,
+      "evidence": "The second trace is retained, with |Q21|<1/8"
+    },
+    {
+      "name": "exact_paired_seam_elimination",
+      "pass": true,
+      "evidence": "The potentially very large a*u is solved from the true first row, not bounded by a times the state norm"
+    },
+    {
+      "name": "complete_seam_small_row_source_bound",
+      "pass": true,
+      "evidence": "Both full forcing rows and the future small component are kept"
+    },
+    {
+      "name": "safe_reference_two_trace_Green",
+      "pass": true,
+      "evidence": "The once-amplified scalar kernel, the coupled small row, both basis changes and the genuine high blocks are all included"
+    },
+    {
+      "name": "safe_reference_all_label_columns",
+      "pass": true,
+      "evidence": "The same construction keeps each independent internal label, including a label at the switch"
+    },
+    {
+      "name": "new_actual_high_block_width_128",
+      "pass": true,
+      "evidence": {
+        "beta": "[5.16041740033639915805053561757397758299114544e-29 +/- 3.12e-74]",
+        "h": "[0.0900000000000000000000000000000000000000000000 +/- 3e-50]"
+      }
+    },
+    {
+      "name": "new_actual_high_frequency_monotonicity_margin_128",
+      "pass": true,
+      "evidence": "[3400.63633733151648573542650832264175466229059 +/- 6.75e-43]"
+    },
+    {
+      "name": "new_actual_high_block_contraction_128",
+      "pass": true,
+      "evidence": "[-68.0895670395636537282343199322978992328561450 +/- 2.43e-44]"
+    },
+    {
+      "name": "new_actual_low_true_matrix_Neumann_128",
+      "pass": true,
+      "evidence": "[0.0249980797016513069094030719712162518987631651 +/- 2.40e-47]"
+    },
+    {
+      "name": "new_actual_Galerkin_low_window_128",
+      "pass": true,
+      "evidence": {
+        "Jbar": "[33586678.5358665973924531761940765079505177149 +/- 3.90e-38]",
+        "actual_low_window": "[22679374287960.1328366745319590363151251066828 +/- 4.39e-32]"
+      }
+    },
+    {
+      "name": "new_actual_complete_Taylor_ball_128",
+      "pass": true,
+      "evidence": "[-12.0001634134598077945664410127224471887519240 +/- 3.44e-44]"
+    },
+    {
+      "name": "new_actual_complete_nonlinear_feedback_128",
+      "pass": true,
+      "evidence": "[6.63946003884569882474867810198745706104359464e-17 +/- 3.51e-62]"
+    },
+    {
+      "name": "new_actual_high_block_width_4097",
+      "pass": true,
+      "evidence": {
+        "beta": "[2.31568433533713943250134136092635423150935135e-924 +/- 3.70e-969]",
+        "h": "[0.000120545042165784128542502300483100568617307881 +/- 4.34e-49]"
+      }
+    },
+    {
+      "name": "new_actual_high_frequency_monotonicity_margin_4097",
+      "pass": true,
+      "evidence": "[1.01616010359856512379465002080119497881127126e+150 +/- 3.66e+105]"
+    },
+    {
+      "name": "new_actual_high_block_contraction_4097",
+      "pass": true,
+      "evidence": "[-1.01616010359856512379465002080119497881127126e+150 +/- 3.66e+105]"
+    },
+    {
+      "name": "new_actual_low_true_matrix_Neumann_4097",
+      "pass": true,
+      "evidence": "[9.74149255747233512500376964319700592092465999e-577 +/- 8.84e-623]"
+    },
+    {
+      "name": "new_actual_Galerkin_low_window_4097",
+      "pass": true,
+      "evidence": {
+        "Jbar": "[772913445409.510301140291977863837825830491248 +/- 1.20e-34]",
+        "actual_low_window": "[2.51855166791817383696148992567913274055987668e+461 +/- 3.09e+416]"
+      }
+    },
+    {
+      "name": "new_actual_complete_Taylor_ball_4097",
+      "pass": true,
+      "evidence": "[-6839.07846848100140797836813343640583911079590 +/- 3.50e-42]"
+    },
+    {
+      "name": "new_actual_complete_nonlinear_feedback_4097",
+      "pass": true,
+      "evidence": "[5.18560666603919133744787879683326329413243345e-2068 +/- 1.32e-2113]"
+    },
+    {
+      "name": "new_high_layer_log_monotonicity",
+      "pass": true,
+      "evidence": "The same derivative proof covers every depth after the two actual endpoint checks"
+    },
+    {
+      "name": "new_high_frequency_log_monotonicity",
+      "pass": true,
+      "evidence": "The actual high-mode bound decreases for every frequency beyond Msharp"
+    },
+    {
+      "name": "new_low_error_deep_decay",
+      "pass": true,
+      "evidence": "The real full low-window supremum, not raw m^8sqrt(delta), tends to zero"
+    },
+    {
+      "name": "new_Taylor_shallow_monotonicity",
+      "pass": true,
+      "evidence": "The complete polynomial logarithmic factor is included in the shallow input envelope"
+    },
+    {
+      "name": "new_Taylor_deep_monotonicity",
+      "pass": true,
+      "evidence": "The global delta_4096^(-3/2) is constant in depth and is not discarded"
+    },
+    {
+      "name": "new_nonlinear_deep_monotonicity",
+      "pass": true,
+      "evidence": "The full normalized nonlinear source is summable and tends to zero in the new tail"
+    },
+    {
+      "name": "new_complete_matrix_inverse_constant",
+      "pass": true,
+      "evidence": "The genuine low-block Neumann inverse is in the same strong discrete space"
+    },
+    {
+      "name": "new_complete_label_column_constant",
+      "pass": true,
+      "evidence": "The true internal labels are retained across the basis switch"
+    },
+    {
+      "name": "new_short_inverse_area_increment",
+      "pass": true,
+      "evidence": "The changed last endpoint affects P+ only by a rigorously small low-window area"
+    },
+    {
+      "name": "new_low_flow_product",
+      "pass": true,
+      "evidence": "The full ordered Gauss product has the new safe512m^4 bound"
+    },
+    {
+      "name": "new_finite_full_material_contraction",
+      "pass": true,
+      "evidence": "The actual forced Duhamel gain, complete material inverse and full Galerkin radius are paid"
+    },
+    {
+      "name": "new_full_mean_relative_ball",
+      "pass": true,
+      "evidence": "The mean graph and compressed inverse are inside their real joint ball before solving the full correction"
+    },
+    {
+      "name": "new_log_constant_complete_residual_gate",
+      "pass": true,
+      "evidence": "The new endpoint c changes the actual log constant, and the existing residual cut still absorbs it"
+    },
+    {
+      "name": "new_strong_correction_Cauchy_absorption",
+      "pass": true,
+      "evidence": "The complete correction's second derivative is paid relative to the stated new local quadratic fee"
+    },
+    {
+      "name": "new_global_Taylor_constant",
+      "pass": true,
+      "evidence": "The frequency-additive strong convolution is paid after the full local mean and correction"
+    },
+    {
+      "name": "new_full_unit_ball_self_map",
+      "pass": true,
+      "evidence": "The new label ball is explicitly1/64, not an unproved inheritance of the old larger ball"
+    },
+    {
+      "name": "new_complete_state_label_norm",
+      "pass": true,
+      "evidence": "The full nonlinear state remains bounded by16 times the new complete label norm"
+    },
+    {
+      "name": "new_actual_state_shallow_power",
+      "pass": true,
+      "evidence": "The shallow state keeps its actual paid angular derivative cost"
+    },
+    {
+      "name": "new_actual_state_deep_power",
+      "pass": true,
+      "evidence": "The new deep state keeps delta_4096^(-3/2) in addition to this improved exponent"
+    },
+    {
+      "name": "new_actual_state_constant",
+      "pass": true,
+      "evidence": "All relative components, mean root and adjacent-cell slack are retained"
+    },
+    {
+      "name": "new_height_complete_flat_jet_power",
+      "pass": true,
+      "evidence": "The full absolute nonlinear height reaches the flat disk in C2 after its one height constant is fixed"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "new_full_actual_label_space": true,
+    "true_all_high_blocks_retained": true,
+    "complete_two_state_basis_switch": true,
+    "full_strong_discrete_source_Green": true,
+    "complete_nonlinear_mean_and_compressed_inverse": true,
+    "true_full_frequency_zero_residual_solution": true,
+    "global_delta4096_normalization_fee_retained": true,
+    "all_parameter_holomorphy_and_C2_flat_limit": true,
+    "arbitrary_continuous_physical_source_to_port_map_paid": false,
+    "new_affine_exterior_DN": false,
+    "actual_screened_regular_input_reaches_small_ball": false,
+    "relative_network_high_input_inverse": false,
+    "topic_completion": false
+  }
+}

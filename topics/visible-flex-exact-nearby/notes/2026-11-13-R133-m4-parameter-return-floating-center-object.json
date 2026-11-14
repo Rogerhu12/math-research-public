@@ -1,0 +1,30 @@
+{
+  "kind": "exact_affine_symmetric_infinite_R33_graph",
+  "schema_version": 2,
+  "origin_inputs": {
+    "path": "data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+    "sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b"
+  },
+  "direction": {
+    "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz",
+    "sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab"
+  },
+  "raw_family": "S(delta)=S0+delta*V; alpha(delta)=alpha0+delta*w, exactly before any floating point evaluation",
+  "weights": "fixed saved base^3 for beta; fixed saved base^2 for gamma",
+  "symmetry": "a and beta explicitly even; gamma explicitly odd; slope explicitly even; Z is its exact integral from 0",
+  "angular_definition": "infinite closed R33 unit-tangent primitive with fixed zero-mean primitive convention",
+  "target_metric": "synchronous g0(delta)=mean_theta(|Fx|^2) dx^2+a^2 dtheta^2",
+  "fixed_radius_shift": true,
+  "scope": "Separate exact affine metric-family input for a floating m4 parameter diagnostic; not a replacement for the fixed g0.",
+  "construction_note": "Same exact frozen origin/direction; only the recorded binary64 affine parameter differs.",
+  "predecessor_object_sha256": "87566dee6e119bb4127200c2dae38f9cdf692a18475c1cde23961a56605919b5",
+  "prediction_actual_nodes_sha256": "4ef35b2a2eb3320a67b9a777859feeffb8448057c97c5e5e2053fbf86e156d01",
+  "delta": -0.0016891529640502133,
+  "delta_hex": "-0x1.bacd22f44313dp-10",
+  "delta_fraction": {
+    "numerator": "-7789843107295549",
+    "denominator": "4611686018427387904"
+  },
+  "diagnostic_parent_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "diagnostic_sample_label": "center"
+}

@@ -1,0 +1,213 @@
+{
+  "kind": "actual_final_waist_complete_amplitude_coordinate_rational_certificate",
+  "complete": true,
+  "executed": true,
+  "arithmetic": "JavaScript BigInt exact rationals; no floating quadrature or characteristic sample",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "reconstruction_git_blob": "f0af21a2979bcfde913ba18ec095c93b34d4d8a4",
+  "original_target_path": "notes/2026-11-13-Codazzi-continuation-r001-v3-native.json",
+  "original_target_git_blob": "1c0abbebb166c6b85a87cb52b4aeab8378567b4c",
+  "original_target_sha256_from_R128": "0f7aa2f4e9a1df567b209cd873f2af5f6428feafc01a9613fc75a46259fb75eb",
+  "original_target_row": 0,
+  "original_target_closed_interval": [
+    "0",
+    "1152921504606847/73786976294838206464"
+  ],
+  "exact_target_waist_radius_enclosure": [
+    "53436641/50000000",
+    "1068732841/1000000000"
+  ],
+  "whole_original_affine_parameter_interval": true,
+  "actual_nu_bump_identically_zero_at_waist": true,
+  "exact_alpha": "6890507429876859/9007199254740992",
+  "exact_full_V_coefficients": [
+    "1270129564654771/158456325028528675187087900672",
+    "2864496691872449/2251799813685248",
+    "1624098663981119/144115188075855872",
+    "-5192475905313877/1152921504606846976",
+    "3207928299402237/18446744073709551616",
+    "8478816635014769/147573952589676412928",
+    "-2368231246518113/1180591620717411303424",
+    "-241215380024263/295147905179352825856",
+    "-7488681247664523/302231454903657293676544",
+    "1680147733147791/302231454903657293676544",
+    "2508528725620295/9671406556917033397649408",
+    "-3887138776749025/77371252455336267181195264",
+    "-1066351861434367/309485009821345068724781056",
+    "8296177205370157/19807040628566084398385987584",
+    "5629761606212273/158456325028528675187087900672",
+    "-4861405037374475/633825300114114700748351602688",
+    "-6979762178234097/10141204801825835211973625643008",
+    "1843513710930941/20282409603651670423947251286016",
+    "5718599097241473/649037107316853453566312041152512",
+    "-40196755016835/324518553658426726783156020576256",
+    "-15433068265181/5192296858534827628530496329220096",
+    "1656983633614179/10384593717069655257060992658440192",
+    "-265068066504897/649037107316853453566312041152512",
+    "185919756031151/2596148429267413814265248164610048",
+    "7413412059233215/20769187434139310514121985316880384",
+    "-286349145547645/324518553658426726783156020576256",
+    "-8537671162694723/10384593717069655257060992658440192",
+    "-4276107853106963/10384593717069655257060992658440192",
+    "88795069357391/1298074214633706907132624082305024",
+    "-41329815694417/2596148429267413814265248164610048",
+    "-2699806148147159/1298074214633706907132624082305024",
+    "-147053166086193/162259276829213363391578010288128",
+    "53994010478195/1298074214633706907132624082305024"
+  ],
+  "input_state_scope": "The complete exact dyadic waist vector in the published final candidate index; no unavailable radial shard or its contents are reconstructed here.",
+  "true_PDE_solution_proved": false,
+  "full_body_BVP_inverse_proved": false,
+  "metric_parameter_Schur_nonzero_proved": false,
+  "chart_ball": {
+    "norm": "sum over all physical moving frequencies 4j of absolute complex Fourier coefficients of v-v_center; real even symmetry, full mean retained",
+    "radius": "1/1000000",
+    "unknown_infinite_tail_retained": true
+  },
+  "functional": "A(v)=2 mean_phi(cos(4 theta(phi)))/mean_phi(v); theta=phi+I(v-mean(v))/mean(v)",
+  "direction": "unscaled h2=cos(4phi); equivalently the derivative of normalized physical c4 with respect to normalized V1 at fixed alpha",
+  "derivative_interval_outward_decimal": [
+    "-0.627611118976129017",
+    "-0.609577561809481048"
+  ],
+  "proved_coarse_interval": [
+    "-2/3",
+    "-3/5"
+  ],
+  "one_dimensional_right_inverse_norm_upper": "1.640480330397303228",
+  "complete_A0_functional_norm_upper": "3.365514561393382741",
+  "complete_A0_projection_norm_upper": "6.521060439631551576",
+  "complete_H1_projection_norm_upper": "19.219499450784120200",
+  "full_mean_preserved_by_projection": true,
+  "projection_formula": "P h=h-(0,cos(4phi))*D A[h]/D A[(0,cos(4phi))]",
+  "complete_negative_v_gap_lower": "0.083335712839554153",
+  "exact_mean_absolute_lower": "1.068731819999993868",
+  "exact_mean_absolute_upper": "1.068733840999993869",
+  "primary_phase_interval_outward_decimal": [
+    "0.910562946674295055",
+    "0.910566539949655033"
+  ],
+  "full_higher_phase_upper": "0.005148081755132427",
+  "Bessel_terms_per_series": 16,
+  "J0_uniform_tail_upper": "0.0000000000000000000000000000000000000265513469149260422259941343171254",
+  "J2_uniform_tail_upper": "0.0000000000000000000000000000000000000000179843896413286449266807203865",
+  "full_correlation_interval_outward_decimal": [
+    "0.348127314218383820",
+    "0.358424851205563383"
+  ],
+  "gate_count": 23,
+  "gates": [
+    {
+      "name": "actual candidate identity",
+      "passed": true
+    },
+    {
+      "name": "all 65 complete moving waist coefficients retained",
+      "passed": true
+    },
+    {
+      "name": "actual moving mode count",
+      "passed": true
+    },
+    {
+      "name": "physical fourfold frequency",
+      "passed": true
+    },
+    {
+      "name": "actual coordinate identity",
+      "passed": true
+    },
+    {
+      "name": "exact dyadic amplitude",
+      "passed": true
+    },
+    {
+      "name": "whole-original-target first closed box lower containment",
+      "passed": true,
+      "strict_margin_lower": "0.000000001056373558"
+    },
+    {
+      "name": "whole-original-target first closed box upper containment",
+      "passed": true,
+      "strict_margin_lower": "0.000000000064562463"
+    },
+    {
+      "name": "complete unknown mean gap",
+      "passed": true,
+      "strict_margin_lower": "0.068731819999993868"
+    },
+    {
+      "name": "whole infinite Wiener ball remains negative v",
+      "passed": true,
+      "strict_margin_lower": "0.033335712839554153"
+    },
+    {
+      "name": "primary physical phase coefficient positive",
+      "passed": true,
+      "strict_margin_lower": "0.910562946674295055"
+    },
+    {
+      "name": "primary phase coefficient below one",
+      "passed": true,
+      "strict_margin_lower": "0.089433460050344967"
+    },
+    {
+      "name": "complete higher phase including every unknown Fourier tail",
+      "passed": true,
+      "strict_margin_lower": "0.004851918244867573"
+    },
+    {
+      "name": "Bessel order 0 complete series ratio",
+      "passed": true,
+      "strict_margin_lower": "0.999282758284017399"
+    },
+    {
+      "name": "Bessel order 2 complete series ratio",
+      "passed": true,
+      "strict_margin_lower": "0.999358257412015567"
+    },
+    {
+      "name": "complete real-angle correlation positive",
+      "passed": true,
+      "strict_margin_lower": "0.014793980885050486"
+    },
+    {
+      "name": "actual full amplitude row negative derivative magnitude",
+      "passed": true,
+      "strict_margin_lower": "0.009577561809481048"
+    },
+    {
+      "name": "actual full amplitude row derivative upper magnitude",
+      "passed": true,
+      "strict_margin_lower": "0.039055547690537649"
+    },
+    {
+      "name": "one-dimensional amplitude-row right inverse",
+      "passed": true,
+      "strict_margin_lower": "0.026186336269363438"
+    },
+    {
+      "name": "complete mean-preserving amplitude functional norm",
+      "passed": true,
+      "strict_margin_lower": "0.134485438606617259"
+    },
+    {
+      "name": "complete infinite Fourier A0 projection norm",
+      "passed": true,
+      "strict_margin_lower": "0.478939560368448424"
+    },
+    {
+      "name": "cos4phi complete H1 squared norm bound",
+      "passed": true,
+      "strict_margin_lower": "0.500000000000000000"
+    },
+    {
+      "name": "complete mean-preserving H1 projection norm",
+      "passed": true,
+      "strict_margin_lower": "0.780500549215879800"
+    }
+  ],
+  "reconstruction_sha256": "464480dee60749f019b23a89b04568bf496731a580c21a3e761d4bc2192e108a",
+  "original_target_bound_reused_not_recomputed": true,
+  "producer_sha256": "bd579cff580fde6e58b701cc641de6c49882db03c0e895b1d2b1d59838d8f062"
+}

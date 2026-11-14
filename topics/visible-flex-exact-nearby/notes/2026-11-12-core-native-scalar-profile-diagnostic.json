@@ -1,0 +1,253 @@
+{
+  "kind": "independent_native_curvature_and_floating_scalar_diagnostic",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "reports": [
+    {
+      "radial": "0",
+      "scalar_comparison": [
+        {
+          "name": "beta",
+          "max_absolute_midpoint_discrepancy_by_derivative": [
+            2.7755575615628914e-17,
+            1.734723475976807e-18,
+            4.718447854656915e-12,
+            7.105427357601002e-14
+          ],
+          "maximum_true_interval_radius_by_derivative": [
+            5.551115123125783e-17,
+            1.7347234759768074e-17,
+            9.769962616701378e-15,
+            1.2363443602225745e-12
+          ]
+        },
+        {
+          "name": "gamma",
+          "max_absolute_midpoint_discrepancy_by_derivative": [
+            1.3234889800848443e-23,
+            5.421010862427522e-20,
+            3.469446951953614e-18,
+            7.105427357601002e-15
+          ],
+          "maximum_true_interval_radius_by_derivative": [
+            3.1763735522036267e-22,
+            2.168404344971009e-19,
+            6.93889390390723e-17,
+            6.039613253960852e-14
+          ]
+        },
+        {
+          "name": "radius",
+          "max_absolute_midpoint_discrepancy_by_derivative": [
+            0.0,
+            0.0,
+            6.681988296008967e-12,
+            3.0531133177191805e-16
+          ],
+          "maximum_true_interval_radius_by_derivative": [
+            4.440892098500626e-16,
+            1.409462824231156e-18,
+            1.1102230246251565e-15,
+            2.5257573810222315e-15
+          ]
+        },
+        {
+          "name": "height",
+          "max_absolute_midpoint_discrepancy_by_derivative": [
+            0.0,
+            2.220446049250313e-16,
+            3.2526065174565133e-19,
+            7.364331366943588e-12
+          ],
+          "maximum_true_interval_radius_by_derivative": [
+            1.0842021724855046e-18,
+            6.661338147750939e-16,
+            5.529431079676073e-18,
+            4.218847493575595e-15
+          ]
+        }
+      ],
+      "fast_true_K": {
+        "ball": "[-0.8554633717805 +/- 5.98e-14]",
+        "lower": "[-0.85546337178055975591919750862003342 +/- 3.10e-36]",
+        "upper": "[-0.85546337178050357863409853613988459 +/- 2.63e-36]",
+        "mid_float": -0.8554633717805317,
+        "radius_upper_float": 2.808864254948624e-14
+      },
+      "independent_native_K": {
+        "ball": "[-0.85546337178053193667206 +/- 2.20e-24]",
+        "lower": "[-0.85546337178053193667206219923479735 +/- 4.45e-36]",
+        "upper": "[-0.85546337178053193667205914245269409 +/- 1.06e-36]",
+        "mid_float": -0.8554633717805319,
+        "radius_upper_float": 1.5283910516316966e-24
+      },
+      "native_overlap": true,
+      "floating_K": -0.8554633717856187,
+      "floating_minus_independent_native_K": -5.086819854227542e-12
+    },
+    {
+      "radial": "1/8",
+      "scalar_comparison": [
+        {
+          "name": "beta",
+          "max_absolute_midpoint_discrepancy_by_derivative": [
+            8.326672684688674e-17,
+            6.439293542825908e-15,
+            3.126388037344441e-12,
+            9.001688283660769e-11
+          ],
+          "maximum_true_interval_radius_by_derivative": [
+            5.551115123125783e-17,
+            1.6653345369377348e-16,
+            4.440892098500626e-15,
+            1.8474111129762605e-13
+          ]
+        },
+        {
+          "name": "gamma",
+          "max_absolute_midpoint_discrepancy_by_derivative": [
+            8.673617379884035e-19,
+            6.245004513516506e-17,
+            1.9872992140790302e-14,
+            2.7063004615079933e-12
+          ],
+          "maximum_true_interval_radius_by_derivative": [
+            8.673617379884035e-19,
+            2.0816681711721685e-17,
+            6.661338147750939e-16,
+            4.263256414560601e-14
+          ]
+        },
+        {
+          "name": "radius",
+          "max_absolute_midpoint_discrepancy_by_derivative": [
+            2.220446049250313e-16,
+            1.3350431871117507e-14,
+            6.354694548349471e-12,
+            9.579181892149791e-11
+          ],
+          "maximum_true_interval_radius_by_derivative": [
+            4.440892098500626e-16,
+            8.326672684688674e-17,
+            5.551115123125783e-16,
+            8.881784197001252e-15
+          ]
+        },
+        {
+          "name": "height",
+          "max_absolute_midpoint_discrepancy_by_derivative": [
+            3.885780586188048e-16,
+            0.0,
+            2.7755575615628914e-15,
+            8.832046205498045e-12
+          ],
+          "maximum_true_interval_radius_by_derivative": [
+            5.551115123125783e-17,
+            6.661338147750939e-16,
+            2.7755575615628914e-16,
+            2.6645352591003757e-15
+          ]
+        }
+      ],
+      "fast_true_K": {
+        "ball": "[-0.5317995668970 +/- 6.21e-14]",
+        "lower": "[-0.53179956689706209260751084350927771 +/- 4.90e-36]",
+        "upper": "[-0.53179956689702256866778124837723523 +/- 5.17e-38]",
+        "mid_float": -0.5317995668970423,
+        "radius_upper_float": 1.9761969864797566e-14
+      },
+      "independent_native_K": {
+        "ball": "[-0.5317995668970423757776415 +/- 5.37e-26]",
+        "lower": "[-0.53179956689704237577764155360983161 +/- 4.41e-36]",
+        "upper": "[-0.53179956689704237577764153319144551 +/- 3.75e-36]",
+        "mid_float": -0.5317995668970423,
+        "radius_upper_float": 1.0209193049674403e-26
+      },
+      "native_overlap": true,
+      "floating_K": -0.5317995668926632,
+      "floating_minus_independent_native_K": 4.3791636983314675e-12
+    },
+    {
+      "radial": "61/256",
+      "scalar_comparison": [
+        {
+          "name": "beta",
+          "max_absolute_midpoint_discrepancy_by_derivative": [
+            2.7755575615628914e-17,
+            1.9984014443252818e-15,
+            5.42699218897269e-12,
+            5.369003019950469e-09
+          ],
+          "maximum_true_interval_radius_by_derivative": [
+            5.551115123125783e-17,
+            3.3306690738754696e-16,
+            2.6645352591003757e-15,
+            1.0231815394945443e-12
+          ]
+        },
+        {
+          "name": "gamma",
+          "max_absolute_midpoint_discrepancy_by_derivative": [
+            5.204170427930421e-18,
+            2.498001805406602e-16,
+            2.761818551633155e-13,
+            3.163762585245422e-10
+          ],
+          "maximum_true_interval_radius_by_derivative": [
+            3.469446951953614e-18,
+            8.326672684688674e-17,
+            6.661338147750939e-16,
+            2.8421709430404007e-13
+          ]
+        },
+        {
+          "name": "radius",
+          "max_absolute_midpoint_discrepancy_by_derivative": [
+            0.0,
+            6.522560269672795e-15,
+            1.45853884525593e-11,
+            1.3995801850796852e-08
+          ],
+          "maximum_true_interval_radius_by_derivative": [
+            4.440892098500626e-16,
+            8.326672684688674e-17,
+            1.0408340855860843e-16,
+            1.4210854715202004e-13
+          ]
+        },
+        {
+          "name": "height",
+          "max_absolute_midpoint_discrepancy_by_derivative": [
+            4.440892098500626e-16,
+            2.220446049250313e-16,
+            3.219646771412954e-15,
+            1.9702336984117608e-11
+          ],
+          "maximum_true_interval_radius_by_derivative": [
+            1.1102230246251565e-16,
+            6.661338147750939e-16,
+            5.551115123125783e-16,
+            2.220446049250313e-16
+          ]
+        }
+      ],
+      "fast_true_K": {
+        "ball": "[-0.00706646199990 +/- 5.64e-15]",
+        "lower": "[-0.0070664619999056344293325461382242300 +/- 3.20e-38]",
+        "upper": "[-0.0070664619999028337182772728607200899 +/- 3.09e-38]",
+        "mid_float": -0.007066461999904234,
+        "radius_upper_float": 1.4003555276366388e-15
+      },
+      "independent_native_K": {
+        "ball": "[-0.00706646199990422289259850 +/- 4.43e-27]",
+        "lower": "[-0.0070664619999042228925985044227765292 +/- 3.48e-38]",
+        "upper": "[-0.0070664619999042228925985009756244511 +/- 1.14e-38]",
+        "mid_float": -0.007066461999904223,
+        "radius_upper_float": 1.7235760390730695e-27
+      },
+      "native_overlap": true,
+      "floating_K": -0.007066461991438483,
+      "floating_minus_independent_native_K": 8.465740261587307e-12
+    }
+  ],
+  "scope": "Pointwise diagnostic only; floating SciPy profile derivative error is not silently included in the rigorous native matrix balls."
+}

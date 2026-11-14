@@ -1,0 +1,65 @@
+{
+  "kind": "actual_process_interruption_not_a_mathematical_failure",
+  "observed_utc": "2026-11-12T17:11:09.345529+00:00",
+  "failed_leaf": {
+    "segment": 20,
+    "normalized_subspan": [
+      "0",
+      "1"
+    ],
+    "report_path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0020_ef134f2a18_uniform.json.gz",
+    "log_path": "/workspace/scratch/f6a2c7886477/parameter-density-logs/forward_0020_ef134f2a18_uniform.log",
+    "returncode": -9,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-u",
+      "scripts/fourfold_parameter_density_pipeline_efficient_v5.py",
+      "--descriptor",
+      "data/phase_ring_continuation/step5_retargeted_reference/descriptor.json",
+      "--domain",
+      "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0020_r.json.gz",
+      "--reference-certificate",
+      "data/phase_ring_continuation/step5_forward_density_complete/forward_0020_ef134f2a18.json.gz",
+      "--reference-source",
+      "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_layout_v8.py",
+      "--uniform-half-width",
+      "1/1000000000",
+      "--target",
+      "1e-7",
+      "--label-strip",
+      "1/256",
+      "--inner-strip",
+      "3/1024",
+      "--spatial-strip",
+      "7/2048",
+      "--primitive-nodes",
+      "384",
+      "--root-nodes",
+      "1024",
+      "--bits",
+      "256",
+      "--coefficient-bits",
+      "160",
+      "--outer",
+      "3",
+      "--directory",
+      "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0020_ef134f2a18_uniform",
+      "--out",
+      "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0020_ef134f2a18_uniform.json.gz",
+      "--second-only"
+    ]
+  },
+  "partial_report": {
+    "path": "data/phase_ring_continuation/step5_parameter_density_interruptions/forward0020_uniform_v5_first_process_kill.json.gz",
+    "sha256": "dc7aa21cf131098d7ff703514961c612c128e86271876ef34398200610f598dc",
+    "complete": false
+  },
+  "log": {
+    "path": "data/phase_ring_continuation/step5_parameter_density_interruptions/forward0020_uniform_v5_first_process_kill.log",
+    "sha256": "7e8a13829d18341c973f32e0f6194674e0b399ce55867380ad20e13d5a809d9f"
+  },
+  "cause": "unknown; returncode -9 is observed, no kernel attribution or Python exception is available",
+  "source_sha256": "bee932df5c1d63860a900898cf0b9f288c49462361d08fbf0545bd900ff340fb",
+  "completed_segments_before_interruption": 20,
+  "planned_resume": "same frozen source with completed cached independent Q512 expanded-domain proof"
+}

@@ -1,0 +1,253 @@
+{
+  "kind": "actual-common-root-frame-comparison-exact-rational-budget-v1",
+  "proved": true,
+  "identity": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "input_reports": [
+    {
+      "path": "notes/2026-11-12-ci-canonical-v0-scaled-Wiener-summary.json",
+      "sha256": "66112956b245389aa38c3d07244685ad31c29f7aae0575b8986bf80b54459ce8"
+    },
+    {
+      "path": "notes/2026-11-12-ci-canonical-v1-scaled-Wiener-summary.json",
+      "sha256": "c0050bf6f15666f1b0283d7d232c10a167d08a4bb69e42c6cc5653dc51c94c3b"
+    }
+  ],
+  "norm": "canonical L2(dphi) direct sum; Gamma_k=4q|k|, Gamma_0=1",
+  "q_rational_lower": "243/25",
+  "q_rational_upper": "10",
+  "b_is_actual_v1_divided_by_3": true,
+  "mean_and_regular_slots_retained": true,
+  "budgets": [
+    {
+      "canonical_high_cutoff": 64,
+      "actual_inputs": {
+        "Mv": {
+          "actual_ball": "[5313.8859918472765525299436429516331 +/- 3.52e-32]",
+          "strict_upper": 5314
+        },
+        "Lv": {
+          "actual_ball": "[148980.39136851518907246657463318536 +/- 3.13e-30]",
+          "strict_upper": 148981
+        },
+        "Mb": {
+          "actual_ball": "[694528.26624574366181140995422449734 +/- 3.91e-30]",
+          "strict_upper": 694529
+        },
+        "Lb": {
+          "actual_ball": "[48192637.471280916876075433974322329 +/- 3.89e-28]",
+          "strict_upper": 48192638
+        }
+      },
+      "actual_m4_ball": "[0.22867921204079667704145414682524487 +/- 7.63e-37]",
+      "rational_m4_strict_upper": "229/1000",
+      "actual_m0_ball": "[0.10837914858695694408233962253377530 +/- 4.07e-36]",
+      "rational_m0_strict_upper": "5419/50000",
+      "strict_Lambda_lower": "2527",
+      "strict_cuberoot_Lambda_lower": "1361/100",
+      "inverse_square_root_upper": "1139/1000",
+      "balanced_inverse_frame_H7over3_upper": "329/250",
+      "Airy_power_commutator_H0_to_H3_upper": 366000000,
+      "positive_A_lower": "118/125",
+      "pieces_before_frame_multiplication": {
+        "sorting_v0": {
+          "numerator": "5959240",
+          "denominator": "1",
+          "decimal_upper": "5959240.000000000000000000"
+        },
+        "fourth_order_PD_after_embedding": {
+          "numerator": "3690727106",
+          "denominator": "2527",
+          "decimal_upper": "1460517.256034823901859913"
+        },
+        "sorting_v1_after_embedding": {
+          "numerator": "19277055200000",
+          "denominator": "1852321",
+          "decimal_upper": "10406973.305382814317820724"
+        },
+        "common_amplitude_Airy_commutator": {
+          "numerator": "10980000000000",
+          "denominator": "1852321",
+          "decimal_upper": "5927698.276918525460759772"
+        }
+      },
+      "root_remainder_H0_to_H7over3": {
+        "numerator": "6378248470688380473",
+        "denominator": "83585985125",
+        "decimal_upper": "76307630.533395361152058923"
+      },
+      "root_remainder_L2": {
+        "numerator": "25512993882753521892",
+        "denominator": "29057755534789944445",
+        "decimal_upper": "0.878009791644354982"
+      },
+      "clean_H0_to_H7over3_upper": 77000000,
+      "clean_L2_upper": "22/25",
+      "root_identity_plus_high_remainder_inverse_upper": "16",
+      "low_dimension_per_scalar_slot": 129,
+      "finite_comparison_rank_upper_before_optional_mean_correction": 516,
+      "full_high_output_tails_of_finite_columns_retained": true
+    },
+    {
+      "canonical_high_cutoff": 128,
+      "actual_inputs": {
+        "Mv": {
+          "actual_ball": "[5217.1097067467633205337985002570915 +/- 3.60e-32]",
+          "strict_upper": 5218
+        },
+        "Lv": {
+          "actual_ball": "[22138.617568218239027917650279959367 +/- 4.98e-31]",
+          "strict_upper": 22139
+        },
+        "Mb": {
+          "actual_ball": "[693435.93885477903640053525404281081 +/- 1.72e-30]",
+          "strict_upper": 693436
+        },
+        "Lb": {
+          "actual_ball": "[6791921.7690676266981709963144762515 +/- 3.46e-29]",
+          "strict_upper": 6791922
+        }
+      },
+      "actual_m4_ball": "[0.029865931000585777489844276895126853 +/- 2.95e-37]",
+      "rational_m4_strict_upper": "3/100",
+      "actual_m0_ball": "[0.027516489560717089642923196034204715 +/- 1.60e-37]",
+      "rational_m0_strict_upper": "3/100",
+      "strict_Lambda_lower": "5015",
+      "strict_cuberoot_Lambda_lower": "1711/100",
+      "inverse_square_root_upper": "127/125",
+      "balanced_inverse_frame_H7over3_upper": "27/25",
+      "Airy_power_commutator_H0_to_H3_upper": 46000000,
+      "positive_A_lower": "123/125",
+      "pieces_before_frame_multiplication": {
+        "sorting_v0": {
+          "numerator": "885560",
+          "denominator": "1",
+          "decimal_upper": "885560.000000000000000000"
+        },
+        "fourth_order_PD_after_embedding": {
+          "numerator": "3618349048",
+          "denominator": "5015",
+          "decimal_upper": "721505.293718843469591227"
+        },
+        "sorting_v1_after_embedding": {
+          "numerator": "2716768800000",
+          "denominator": "2927521",
+          "decimal_upper": "928010.012566946573568559"
+        },
+        "common_amplitude_Airy_commutator": {
+          "numerator": "1380000000000",
+          "denominator": "2927521",
+          "decimal_upper": "471388.591234699938958594"
+        }
+      },
+      "root_remainder_H0_to_H7over3": {
+        "numerator": "54029432457622272",
+        "denominator": "6220982125",
+        "decimal_upper": "8685032.583600659678796297"
+      },
+      "root_remainder_L2": {
+        "numerator": "216117729830489088",
+        "denominator": "10708060815273992875",
+        "decimal_upper": "0.020182714084161575"
+      },
+      "clean_H0_to_H7over3_upper": 8700000,
+      "clean_L2_upper": "21/1000",
+      "root_identity_plus_high_remainder_inverse_upper": "26/25",
+      "low_dimension_per_scalar_slot": 257,
+      "finite_comparison_rank_upper_before_optional_mean_correction": 1028,
+      "full_high_output_tails_of_finite_columns_retained": true
+    },
+    {
+      "canonical_high_cutoff": 256,
+      "actual_inputs": {
+        "Mv": {
+          "actual_ball": "[5191.8833419598910035604330599338983 +/- 1.18e-32]",
+          "strict_upper": 5192
+        },
+        "Lv": {
+          "actual_ball": "[4519.5138166713317953972703986715864 +/- 1.75e-32]",
+          "strict_upper": 4520
+        },
+        "Mb": {
+          "actual_ball": "[692883.40146373682305693283768862265 +/- 3.58e-30]",
+          "strict_upper": 692884
+        },
+        "Lb": {
+          "actual_ball": "[1136111.8721096704245975764523225221 +/- 3.81e-29]",
+          "strict_upper": 1136112
+        }
+      },
+      "actual_m4_ball": "[0.0069990367806928751894732984665489385 +/- 4.07e-38]",
+      "rational_m4_strict_upper": "7/1000",
+      "actual_m0_ball": "[0.0069327605683642914918906403610228869 +/- 4.26e-38]",
+      "rational_m0_strict_upper": "7/1000",
+      "strict_Lambda_lower": "9992",
+      "strict_cuberoot_Lambda_lower": "2153/100",
+      "inverse_square_root_upper": "251/250",
+      "balanced_inverse_frame_H7over3_upper": "103/100",
+      "Airy_power_commutator_H0_to_H3_upper": 7610000,
+      "positive_A_lower": "249/250",
+      "pieces_before_frame_multiplication": {
+        "sorting_v0": {
+          "numerator": "180800",
+          "denominator": "1",
+          "decimal_upper": "180800.000000000000000000"
+        },
+        "fourth_order_PD_after_embedding": {
+          "numerator": "449681716",
+          "denominator": "1249",
+          "decimal_upper": "360033.399519615692554044"
+        },
+        "sorting_v1_after_embedding": {
+          "numerator": "454444800000",
+          "denominator": "4635409",
+          "decimal_upper": "98037.692035373793337331"
+        },
+        "common_amplitude_Airy_commutator": {
+          "numerator": "228300000000",
+          "denominator": "4635409",
+          "decimal_upper": "49251.317413414868029984"
+        }
+      },
+      "root_remainder_H0_to_H7over3": {
+        "numerator": "292862866361751249",
+        "denominator": "144740646025",
+        "decimal_upper": "2023362.990318332379434328"
+      },
+      "root_remainder_L2": {
+        "numerator": "292862866361751249",
+        "denominator": "311128207755429050768",
+        "decimal_upper": "0.000941293200235847"
+      },
+      "clean_H0_to_H7over3_upper": 2100000,
+      "clean_L2_upper": "1/1000",
+      "root_identity_plus_high_remainder_inverse_upper": "503/500",
+      "low_dimension_per_scalar_slot": 513,
+      "finite_comparison_rank_upper_before_optional_mean_correction": 2052,
+      "full_high_output_tails_of_finite_columns_retained": true
+    }
+  ],
+  "scope": "Root trial/frame comparison only. No cap or core propagation source is omitted or certified by this budget.",
+  "full_feedback_inverse_proved": false,
+  "source_sha256": "6c6aab056672046df9b8e130dd60797022c1269f858de40bf039cc15663a528b"
+}

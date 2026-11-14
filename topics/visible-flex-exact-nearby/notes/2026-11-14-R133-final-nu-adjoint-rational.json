@@ -1,0 +1,142 @@
+{
+  "kind": "actual_final_nu_full_adjoint_and_boundary_budget",
+  "complete": true,
+  "executed": true,
+  "arithmetic": "Exact BigInt rationals and complete Laurent convolution; no native reconstruction or body inverse run.",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "algebra_tests": {
+    "complete_mode_operations": true,
+    "artificial_exact_test_field": true,
+    "test_modes": 2,
+    "full_A_support": 6,
+    "full_B_support": 6,
+    "full_G_support": 10,
+    "true_parameter_mean_test_value": [
+      "522626/7734375",
+      "0"
+    ],
+    "direction_mean_test_value": [
+      "2/7",
+      "0"
+    ]
+  },
+  "actual_compact_bump_integral_exact": "256/5775",
+  "actual_outer_physical_L2_row_difference_upper": "0.000000199066104001",
+  "actual_outer_normalized_real_row_difference_upper": "0.000000398132208001",
+  "independent_fB_normalized_derivative_column_upper": "0.000001474563581216",
+  "actual_proposal_q_error_positive_upper": "292482565488345113807350395020447277374232305317144781229065651382152204917814553782812187858838795666677273487241441657284513774338212817625735556950729/31966705155235760449347555633082022970865644980889304584797767266563806605514399950031934495370157784676627774683203818449387270955912041536411402240000000000000000000000",
+  "keeps_cap_mean_and_full_physical_M4_row": true,
+  "independent_fB_and_far_label_equation_remain": true,
+  "adjoint_or_response_candidate_available": false,
+  "actual_body_complement_inverse_proved": false,
+  "actual_nu_scalar_nonzero_certified": false,
+  "full_native_nu_kernel_run": false,
+  "gate_count": 26,
+  "gates": [
+    {
+      "name": "complete nonlocal adjoint including nonzero mean",
+      "passed": true
+    },
+    {
+      "name": "the mean test direction is genuinely nonzero",
+      "passed": true
+    },
+    {
+      "name": "the mean dual rank-one column is genuinely nonzero",
+      "passed": true
+    },
+    {
+      "name": "complete radial Green identity on arbitrary actual jets",
+      "passed": true
+    },
+    {
+      "name": "full moving derivative agrees with local plus primitive plus mean",
+      "passed": true
+    },
+    {
+      "name": "true fixed-Q nu column equals A wprime plus B w",
+      "passed": true
+    },
+    {
+      "name": "full nu source mean retained",
+      "passed": true
+    },
+    {
+      "name": "the true nu source mean is nonzero in the test",
+      "passed": true
+    },
+    {
+      "name": "A radial derivative retains all true polynomial and mean jets",
+      "passed": true
+    },
+    {
+      "name": "source integration-by-parts kernel and full adjoint residual",
+      "passed": true
+    },
+    {
+      "name": "A mean is minus beta T m mean-v-square",
+      "passed": true
+    },
+    {
+      "name": "B mean is beta K m mean-v-square",
+      "passed": true
+    },
+    {
+      "name": "full A and B support through three M",
+      "passed": true
+    },
+    {
+      "name": "complete integration-by-parts kernel support through five M",
+      "passed": true
+    },
+    {
+      "name": "actual bump derivative 0 vanishes at both support endpoints",
+      "passed": true
+    },
+    {
+      "name": "actual bump derivative 1 vanishes at both support endpoints",
+      "passed": true
+    },
+    {
+      "name": "actual bump derivative 2 vanishes at both support endpoints",
+      "passed": true
+    },
+    {
+      "name": "actual bump derivative 3 vanishes at both support endpoints",
+      "passed": true
+    },
+    {
+      "name": "actual bump derivative 4 vanishes at both support endpoints",
+      "passed": true
+    },
+    {
+      "name": "actual bump derivative 5 vanishes at both support endpoints",
+      "passed": true
+    },
+    {
+      "name": "actual compact bump integral is strictly positive",
+      "passed": true
+    },
+    {
+      "name": "actual amplitude exceeds three quarters",
+      "passed": true
+    },
+    {
+      "name": "sine cosine normalized row factor below two",
+      "passed": true
+    },
+    {
+      "name": "all exact outer rows physical L2 perturbation below two e minus seven",
+      "passed": true
+    },
+    {
+      "name": "all normalized real rows perturbation below four e minus seven",
+      "passed": true
+    },
+    {
+      "name": "independent far-height derivative column below one point five e minus six",
+      "passed": true
+    }
+  ],
+  "producer_sha256": "5fc1e9222b67df3836131cae260453d0dfef6afcf53ec3ef5928344e74e84567"
+}

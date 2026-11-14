@@ -1,0 +1,48 @@
+{
+  "kind": "exact_binary_reassembly_of_actually_completed_mixed_report",
+  "proved": true,
+  "full_report_sha256": "6f4c518f402dcb5b6fc7b19a50790e1e31d7d76e047f5bb2759aee66fb0ac93f",
+  "full_report_bytes": 5041047,
+  "parts": [
+    {
+      "path": "notes/2026-11-12-canonical-mixed-recovery-complete-parts/part-000.bin",
+      "bytes": 4000000,
+      "sha256": "9cfa775739d42ac00766e74533f4a9b70ca161587e30ab824ca284c4c10bdf90"
+    },
+    {
+      "path": "notes/2026-11-12-canonical-mixed-recovery-complete-parts/part-001.bin",
+      "bytes": 1041047,
+      "sha256": "fde50649d851b22c0c12ddd68333c8a1c8eb50d9a7544b04261f8ee5fe2e9450"
+    }
+  ],
+  "actual_cells": 178,
+  "native_source_sha256": "37f2e11402165075577d65349c2eebee830a6f17e11a6bcc94192dab3ed9be26",
+  "reassembly_source_sha256": "17c1fdc7cf0ca244a6e1ddfc9c09b85cf950340ceaa86158e9d9b59a2b06ffbc",
+  "actual_object": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/2500000",
+    "exact_parameter_interval": [
+      "-608725607945540621497/360287970189639680000000",
+      "-608437377569388909753/360287970189639680000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "root_certificate_sha256": "d83fe1e7ab3eed8baaf2448f2f6076212936633c69f58950720f6d372b03d99c",
+  "original_compute_run_id": "43300408666",
+  "original_artifact_id": 13981612102,
+  "preservation_run_id": "43301491511",
+  "scope": "Exact artifact bytes; no interval data reconstructed from summaries."
+}

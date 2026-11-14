@@ -1,0 +1,27 @@
+{
+  "kind": "R109_paired_E_actual_budget_ready",
+  "original_R109_unchanged": true,
+  "checks_executed": 62,
+  "all_checks_passed": true,
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_paired_E_compact_gap_budget.mjs",
+      "bytes": 20704,
+      "sha256": "808c28f6a6f670570f61a43f82b697ce2044f7272b0929a00a959d21f960c3d1"
+    },
+    {
+      "path": "notes/2026-11-13-R109-paired-E-and-compact-gap-budget.json",
+      "bytes": 69582,
+      "sha256": "792f0d517ee427cf624db2cdf1f7374ec7947ae73a2654057df224916e73fd5f"
+    },
+    {
+      "path": "notes/2026-11-13-R109-paired-E-and-short-collar-gap.md",
+      "bytes": 19436,
+      "sha256": "ec97e6d5002001e6cc3dd3df0d400ec6b4e7ae634a21bfe40f6fd92b37592143"
+    }
+  ],
+  "actual_scope": "Same actual eta=1e-9 family; full E component and compact-pair lower bound at H=49/102400. No small complete gap or full feedback inverse claimed.",
+  "execution": "Pure V8 BigInt core actually executed; Node filesystem entry has not executed.",
+  "next": "Use a wider paid collar or complete actual exterior Wronskian; do not continue trying to make this short compact pair small.",
+  "environment": "Native executor unavailable; files under 100KB preserved as UTF-8 under repository rule 8."
+}

@@ -1,0 +1,217 @@
+{
+  "kind": "R114_exact_whole_cap_C2_repair_from_C1_strain_constants",
+  "complete": true,
+  "arithmetic": "signed BigInt reduced rationals; square comparisons only for positive quantities",
+  "normalized_input": "B=max(||T||_infty,||nabla T||_infty) in spherical Hilbert-Schmidt point norms",
+  "cap_graph_radius_maximum": "1/8",
+  "fixed_support_graph_radius": "1/4",
+  "reflection_weights": [
+    3,
+    -3,
+    1
+  ],
+  "reflection_nodes": [
+    0,
+    -1,
+    -2
+  ],
+  "reflection_outer_radius": "3r/2",
+  "local_coordinate_hessian_coefficient": "559815/262144",
+  "remainder_C2_coefficient": "497/3",
+  "extension_coordinate_C012": [
+    "127/512",
+    "2129/256",
+    "2611/6"
+  ],
+  "extension_ambient_C012": [
+    "17/64",
+    "149/16",
+    "3861/8"
+  ],
+  "extension_intrinsic_Hessian_HS_coefficient": "15527/16",
+  "uniform_C2_repair_constant": "1024",
+  "repaired_strain_C1_additional_constant": "2048",
+  "gates": [
+    {
+      "name": "geodesic radius below 1/7, squared",
+      "left": "1/63",
+      "relation": "<",
+      "right": "1/49",
+      "passed": true
+    },
+    {
+      "name": "D Omega sqrt(3)/2 below 7/8, squared",
+      "left": "3/4",
+      "relation": "<",
+      "right": "49/64",
+      "passed": true
+    },
+    {
+      "name": "sqrt(2) below 3/2, squared",
+      "left": "2",
+      "relation": "<",
+      "right": "9/4",
+      "passed": true
+    },
+    {
+      "name": "inner chart first derivative",
+      "left": "64/63",
+      "relation": "<=",
+      "right": "4225/4096",
+      "passed": true
+    },
+    {
+      "name": "inner chart second derivative",
+      "left": "262144/250047",
+      "relation": "<=",
+      "right": "1089/1024",
+      "passed": true
+    },
+    {
+      "name": "horizontal coordinate Hessian",
+      "left": "559815/262144",
+      "relation": "<=",
+      "right": "9/4",
+      "passed": true
+    },
+    {
+      "name": "boundary normal jet 0",
+      "left": "1",
+      "relation": "=",
+      "right": "1",
+      "passed": true
+    },
+    {
+      "name": "boundary normal jet 1",
+      "left": "1",
+      "relation": "=",
+      "right": "1",
+      "passed": true
+    },
+    {
+      "name": "boundary normal jet 2",
+      "left": "1",
+      "relation": "=",
+      "right": "1",
+      "passed": true
+    },
+    {
+      "name": "radial projection Hessian rational majorant, squared",
+      "left": "4/3",
+      "relation": "<=",
+      "right": "49/36",
+      "passed": true
+    },
+    {
+      "name": "quintic cutoff radial Hessian rational majorant, squared",
+      "left": "1600/3",
+      "relation": "<=",
+      "right": "4900/9",
+      "passed": true
+    },
+    {
+      "name": "reflection remainder C2 coefficient",
+      "left": "497/3",
+      "relation": "<=",
+      "right": "166",
+      "passed": true
+    },
+    {
+      "name": "full coordinate extension C0",
+      "left": "127/512",
+      "relation": "<=",
+      "right": "1/4",
+      "passed": true
+    },
+    {
+      "name": "full coordinate extension C1",
+      "left": "2129/256",
+      "relation": "<=",
+      "right": "17/2",
+      "passed": true
+    },
+    {
+      "name": "full coordinate extension C2",
+      "left": "2611/6",
+      "relation": "<=",
+      "right": "436",
+      "passed": true
+    },
+    {
+      "name": "outer chart first derivative",
+      "left": "16/15",
+      "relation": "<=",
+      "right": "289/256",
+      "passed": true
+    },
+    {
+      "name": "outer chart second derivative",
+      "left": "4096/3375",
+      "relation": "<=",
+      "right": "81/64",
+      "passed": true
+    },
+    {
+      "name": "outer chart third derivative below 1, squared",
+      "left": "65536/84375",
+      "relation": "<",
+      "right": "1",
+      "passed": true
+    },
+    {
+      "name": "ambient b C0",
+      "left": "17/64",
+      "relation": "<=",
+      "right": "17/64",
+      "passed": true
+    },
+    {
+      "name": "ambient b C1",
+      "left": "149/16",
+      "relation": "<=",
+      "right": "149/16",
+      "passed": true
+    },
+    {
+      "name": "ambient b C2",
+      "left": "3861/8",
+      "relation": "<=",
+      "right": "3861/8",
+      "passed": true
+    },
+    {
+      "name": "intrinsic Hessian HS coefficient",
+      "left": "15527/16",
+      "relation": "<=",
+      "right": "15527/16",
+      "passed": true
+    },
+    {
+      "name": "intrinsic C0 below 1024",
+      "left": "17/64",
+      "relation": "<",
+      "right": "1024",
+      "passed": true
+    },
+    {
+      "name": "intrinsic C1 HS below 1024",
+      "left": "447/32",
+      "relation": "<",
+      "right": "1024",
+      "passed": true
+    },
+    {
+      "name": "intrinsic C2 HS below 1024",
+      "left": "15527/16",
+      "relation": "<",
+      "right": "1024",
+      "passed": true
+    }
+  ],
+  "passed_gates": 25,
+  "mathematical_scope": "Assumes exactly the compatible tensor and normalized local reconstruction in the proved R114 theorem. It certifies its explicit constants, not an actual nonlinear solution.",
+  "full_strong_tail_proved": false,
+  "full_PDE_inverse_proved": false,
+  "nonlinear_convergence_proved": false,
+  "source_sha256": "f89eeb013e5b7c591d547e7fbf890ef76e8c11643659b45a07a64099485dc91e"
+}

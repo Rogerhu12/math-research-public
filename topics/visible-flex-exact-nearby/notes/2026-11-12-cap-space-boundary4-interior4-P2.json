@@ -1,0 +1,41 @@
+{
+  "kind": "floating_cap_fixed_boundary_primal_dual_space_comparison",
+  "complete": true,
+  "rigorous_energy_bounds": false,
+  "source_sha256": "4d20d2a8f6d71ebaf9b61aac23770ace273ecf14912a9ea4109df58406dc80da",
+  "cache_report_path": "notes/2026-11-12-actual-cap-Fourier-moment-cache.json",
+  "cache_report_sha256": "cefe6e7761e9e322d34d39aa3e199371558398f0b1ee7e2412eacef94f95d73e",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+  "boundary_modes": 4,
+  "interior_modes": 4,
+  "radial_polynomial_degree": 2,
+  "radial_elements": 72,
+  "primal_dimension": 1305,
+  "dual_dimension": 1305,
+  "mean_slots_retained": true,
+  "finite_energy_gap_eigenvalues": [
+    -1.2425038538338928e-14,
+    1.0485614114952476e-06,
+    0.0007123584700111229,
+    0.0008953821283221282,
+    0.0017709939828941903,
+    0.0027631264998911674,
+    0.0037658765180430625,
+    0.004774617152820413,
+    0.05881089053113923,
+    0.06871112357039853
+  ],
+  "finite_energy_gap_norm": 0.06871112357039849,
+  "upper_constant_kernel_residual": 3.220055907480259e-14,
+  "lower_constant_kernel_residual": 6.809190618832225e-35,
+  "source_and_quadrature_error_paid": false,
+  "CPU_seconds": 0.13923652799999986,
+  "wall_seconds": 0.9191339549979602,
+  "scope": "Fixed physical boundary cutoff; only cap interior trial spaces changed. Exact variational identities apply after genuinely directed energy integration, not from this floating gap alone.",
+  "arrays": {
+    "path": "notes/2026-11-12-cap-space-boundary4-interior4-P2.npz",
+    "sha256": "f6b7489369d88369f0790106c242a9ea9ee8430f3383449d72a4499ac79bde13",
+    "bytes": 356136
+  }
+}

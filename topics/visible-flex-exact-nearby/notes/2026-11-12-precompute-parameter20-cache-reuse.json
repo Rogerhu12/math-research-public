@@ -1,0 +1,52 @@
+{
+  "kind": "separate_process_preparation_of_existing_parameter_proof_cache",
+  "complete": true,
+  "source_sha256": "228406f747e756bb0bdcfd44b9932028bc5bd80411a06a398f48b8ca04550354",
+  "actual_proof_source_sha256": "55d38e76067db34ccff0c4bd28be70b8159ec68395046a1c9a517bceba2a7b89",
+  "domain_path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0020_r.json.gz",
+  "domain_sha256": "3222527bc75225fe824d78e16734f91278b91566ea5c742ae93d7f280f0d1fe8",
+  "descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+  "segment": 20,
+  "cache_key_matches_frozen_v5": true,
+  "parameter_density_not_computed": true,
+  "attempts": [
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_time_domain_full/forward_0020_3222527bc752_main1_optimal_R6_S12.json.gz",
+      "germ": 0,
+      "rejected": "the expanded domain does not cover the sampled main germ"
+    }
+  ],
+  "children": [
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_parameter_time_domain_full/forward_0020_ff7232e944865b1f96a3.json.gz",
+      "proof_key": {
+        "domain": "3222527bc75225fe824d78e16734f91278b91566ea5c742ae93d7f280f0d1fe8",
+        "expanded": "1df280f2e4082409a1287d46a99b8a1d6ea15150d9f4d6df68fdbf90ba0bd715",
+        "germ": 1,
+        "descriptor": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+        "local_root": "370f5864a2edc9a7c899bcaa42c284d1f990db468f21b12c52fc82a7b260030d",
+        "wide_root": "d83fe1e7ab3eed8baaf2448f2f6076212936633c69f58950720f6d372b03d99c",
+        "half_width": "1/1000000000",
+        "nodes": 512,
+        "root_nodes": 1024,
+        "bits": 320,
+        "radial_degree": 40,
+        "proof_source": "55d38e76067db34ccff0c4bd28be70b8159ec68395046a1c9a517bceba2a7b89"
+      },
+      "reused": true,
+      "log_path": "/workspace/scratch/f6a2c7886477/parameter-density-logs/expanded_parameter_0020_ff7232e944865b1f96a3.log",
+      "sha256": "f5f8fdd5388fd237b200c7316f28654194e76c130e6c57898a60bda3a07e9cab",
+      "actual_proof_complete": true,
+      "proof_failure": null
+    }
+  ],
+  "actual_complete_larger_parameter_domains": [
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_parameter_time_domain_full/forward_0020_ff7232e944865b1f96a3.json.gz",
+      "sha256": "f5f8fdd5388fd237b200c7316f28654194e76c130e6c57898a60bda3a07e9cab"
+    }
+  ],
+  "all_requested_child_processes_finished": true,
+  "next_density_consumer_must_run_full_checked_parameter_proof": true,
+  "wall_seconds": 0.8551387759980571
+}

@@ -1,0 +1,229 @@
+{
+  "kind": "all_signed_frequency_Riccati_frame_and_infinite_tail_budget",
+  "complete": true,
+  "executed": true,
+  "arithmetic": "normalized exact BigInt rational",
+  "gate_count": 21,
+  "gates": [
+    {
+      "name": "signed_frame_constant_squared",
+      "left": "8/1",
+      "right": "9/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "neighbouring_transport_constant_cubed",
+      "left": "4000/27",
+      "right": "216/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "centre_mode_32_weight_cube",
+      "left": "16641/9409",
+      "right": "8/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "global_frame_D_bound_squared",
+      "left": "3/1",
+      "right": "4/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "drift_linear_exact",
+      "left": "2664/25",
+      "right": "2664/25",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "drift_quadratic_exact",
+      "left": "18/5",
+      "right": "18/5",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "transport_linear_exact",
+      "left": "22644/25",
+      "right": "22644/25",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "transport_quadratic_exact",
+      "left": "153/5",
+      "right": "153/5",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "reaction_linear_exact",
+      "left": "47952/25",
+      "right": "47952/25",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "reaction_quadratic_exact",
+      "left": "324/5",
+      "right": "324/5",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "primitive_linear_exact",
+      "left": "83754/25",
+      "right": "83754/25",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "primitive_quadratic_exact",
+      "left": "63/5",
+      "right": "63/5",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "complete_high_remainder_linear_exact",
+      "left": "6174/1",
+      "right": "6174/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "complete_high_remainder_quadratic_exact",
+      "left": "108/1",
+      "right": "108/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "complete_high_remainder_per_rho_below_6200",
+      "left": "1543500027/250000",
+      "right": "6200/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "first_commutator_linear_exact",
+      "left": "796446/1",
+      "right": "796446/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "first_commutator_per_rho_below_800000",
+      "left": "199111500027/250000",
+      "right": "800000/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "first_triangular_forcing_per_rho_below_810000",
+      "left": "4016595600549/5000000",
+      "right": "810000/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "highest_transport_coefficient_per_rho_below_110",
+      "left": "266400009/2500000",
+      "right": "110/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "base_high_contraction_survives",
+      "left": "821798586819/6305000000000",
+      "right": "2/15",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "H1_high_contraction_survives",
+      "left": "16441646361219/126100000000000",
+      "right": "2/15",
+      "relation": "lt",
+      "pass": true
+    }
+  ],
+  "domain": {
+    "physical_frequencies": "4j",
+    "high_min_abs_frequency": 388,
+    "weight": "(1+abs(k)/388)^(2/3)",
+    "state_radius": "1/1000000",
+    "state_norm": "A^3=l1 sum (1+abs(k))^3 of both moving components",
+    "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413"
+  },
+  "bounds": {
+    "frame_all_signs": "3 R^(2/3)",
+    "transport_after_exact_skew": "(17/2) norm(d_phi)_A_w",
+    "local_reaction": "2 (norm(a)+norm(e)+norm(b)+4 norm(c))_A_w",
+    "drift": {
+      "linear": "2664/25",
+      "quadratic": "18/5"
+    },
+    "transport": {
+      "linear": "22644/25",
+      "quadratic": "153/5"
+    },
+    "reaction": {
+      "linear": "47952/25",
+      "quadratic": "324/5"
+    },
+    "complete_primitive": {
+      "linear": "83754/25",
+      "quadratic": "63/5"
+    },
+    "complete_high_remainder": {
+      "linear": "6174/1",
+      "quadratic": "108/1"
+    },
+    "first_commutator": {
+      "linear": "796446/1",
+      "quadratic": "108/1"
+    },
+    "first_triangular_lower_forcing": {
+      "linear": "20082978/25",
+      "quadratic": "549/5"
+    }
+  },
+  "reference_hypotheses": {
+    "positive_p_and_g": true,
+    "W_at_most_4": true,
+    "K_over_W_at_most_1": true,
+    "log_frequency_derivatives_at_most_1": true,
+    "principal_speed_is_actual_perturbed_mean": true
+  },
+  "inputs": [
+    {
+      "path": "results/R133-supplement-global-positive-reference-and-current-collar.md",
+      "git_blob": "5e89a2ec36f36f2852d47738bc46373fdacf67d1",
+      "used": "G.9-G.10,G.15-G.22; same full reference and actual centre budgets"
+    },
+    {
+      "path": "results/R133-supplement-complete-moving-band-and-mean-parameter-Schur.md",
+      "git_blob": "a51dbc432d2945bad9a7deb5d985ca021676030b",
+      "used": "B.3-B.4 full derivative, primitive and mean rank"
+    },
+    {
+      "path": "results/R133-supplement-current-moving-positive-root-Riccati-and-full-head.md",
+      "used": "P.8 current-centre complete A0 fields"
+    }
+  ],
+  "both_frequency_signs": true,
+  "infinite_unknown_tail_retained": true,
+  "primitive_intermediate_zero_removed_only": true,
+  "mean_rank_high_to_high_zero_by_input_mean_only": true,
+  "low_high_and_mean_couplings_are_separate": true,
+  "full_BVP_inverse_proved": false,
+  "nonlinear_contraction_proved": false,
+  "radial_candidate_native_reconstructed": false,
+  "producer_sha256": "6b421383915bdcd3ff73a6590c15a20ce3b6b4bad67548d4a5b7ae6782816260"
+}

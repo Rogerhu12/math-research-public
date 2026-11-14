@@ -1,0 +1,116 @@
+{
+  "kind": "complete_moving_Sobolev_flux_and_actual_root_source_budget",
+  "complete": true,
+  "executed": true,
+  "arithmetic": "normalized exact BigInt rational",
+  "gate_count": 9,
+  "gates": [
+    {
+      "name": "actual_degree_32_four_thirds_weight",
+      "left": "276922881/1",
+      "right": "277167808/1",
+      "pass": true
+    },
+    {
+      "name": "H_one_third_source_quadratic_coefficient",
+      "left": "260546400009/4000000",
+      "right": "66000/1",
+      "pass": true
+    },
+    {
+      "name": "H_one_third_source_Jacobian_difference",
+      "left": "521092800027/4000000",
+      "right": "132000/1",
+      "pass": true
+    },
+    {
+      "name": "H_four_thirds_source_quadratic_coefficient",
+      "left": "33609564000009/4000000",
+      "right": "8500000/1",
+      "pass": true
+    },
+    {
+      "name": "H_four_thirds_source_Jacobian_difference",
+      "left": "67219128000027/4000000",
+      "right": "17000000/1",
+      "pass": true
+    },
+    {
+      "name": "complete_even_mean_quadratic_coefficient",
+      "left": "276480009/5000000",
+      "right": "56/1",
+      "pass": true
+    },
+    {
+      "name": "complete_even_mean_Jacobian_difference",
+      "left": "552960027/5000000",
+      "right": "112/1",
+      "pass": true
+    },
+    {
+      "name": "one_true_root_L2_response_per_radius_squared",
+      "left": "99/4000",
+      "right": "1/40",
+      "pass": true
+    },
+    {
+      "name": "one_true_root_both_raw_traces_per_radius_squared",
+      "left": "198/25",
+      "right": "8/1",
+      "pass": true
+    }
+  ],
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "unknown_norm": "sup_r A^3 with vector component l1 sum and weight (1+abs(k))^3",
+  "radius": "1/1000000",
+  "source_norms": [
+    "ordinary Bessel H^(1/3)",
+    "ordinary Bessel H^(4/3)"
+  ],
+  "high_state_norms": [
+    "X_(4/3)",
+    "X_(7/3)"
+  ],
+  "X_s": "Fourier l2 with polynomial weight (1+abs(k))^s, vector component l1 sum",
+  "centre_bounds": {
+    "A0": "74/5",
+    "A_four_thirds": "48248/5",
+    "A_seven_thirds": "6223992/5"
+  },
+  "exact_coefficients": {
+    "quadratic_H_one_third": "260546400009/4000000",
+    "Jacobian_H_one_third": "521092800027/4000000",
+    "quadratic_H_four_thirds": "33609564000009/4000000",
+    "Jacobian_H_four_thirds": "67219128000027/4000000",
+    "complete_even_mean": "276480009/5000000",
+    "complete_even_mean_derivative": "552960027/5000000"
+  },
+  "whole_unknown_Fourier_tail": true,
+  "complete_mean_retained": true,
+  "complete_primitive_retained": true,
+  "joint_metric_remainder_formula_proved": true,
+  "joint_metric_full_body_coefficients_certified": false,
+  "physical_normalized_second_reference_jet_retained": true,
+  "source_to_output_total_angular_loss": "4/3 at every stated root Sobolev level",
+  "root_response_has_zero_linear_ports": true,
+  "nonlinear_port_remainders_are_separate": true,
+  "same_space_contraction_proved": false,
+  "full_BVP_inverse_proved": false,
+  "inputs": [
+    {
+      "path": "results/R133-supplement-complete-moving-nonlinear-flux-and-metric-remainder.md",
+      "producer_sha256": "4031c37716812d50fd78650c6c1352fec245ed36fad7d3de1ea24b9edc0af06a",
+      "used": "N.4-N.7 exact full flux and mean; N.15-N.23 exact metric and normalized background"
+    },
+    {
+      "path": "results/R133-supplement-global-positive-reference-and-current-collar.md",
+      "git_blob": "5e89a2ec36f36f2852d47738bc46373fdacf67d1",
+      "used": "G.1 actual complete-root source and two raw traces"
+    },
+    {
+      "path": "results/R133-supplement-current-moving-positive-root-Riccati-and-full-head.md",
+      "used": "P.7-P.8 exact current-centre mean and A0 bounds"
+    }
+  ],
+  "producer_sha256": "c9d21f919c4679130b30686fc3ffe6be909364273de28ddf5cfcbb5f6bc4d1cc"
+}

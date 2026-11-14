@@ -1,0 +1,86 @@
+{
+  "kind": "recovered_forward_Q_exact_old_identity",
+  "complete": true,
+  "original_manifest": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/manifest.json",
+  "fresh_manifest": "data/phase_ring_continuation/step5_retargeted_reference_recovered/Q_forward/manifest.json",
+  "manifest_sha256": "f1e7556a13aef2a4e5661fc00c1e9c4eda961335fb8685d26bcef550b7b147ce",
+  "manifest_bytes_identical": true,
+  "all_coefficient_shards_identical": true,
+  "exact_time_grid_identical": true,
+  "segment_count": 550,
+  "files": [
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00000.npz.gz",
+      "sha256": "dabf22c12f4afbaf2ef677c18857a841f1c2ba3b61f7ab0ae0f0afb8aee827af",
+      "bytes": 674588,
+      "matches_old": true
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00048.npz.gz",
+      "sha256": "6a467a1ac555c5ab4dfdb1897a4189f96647a7077d3acc2d1f914daaeb7adc07",
+      "bytes": 674459,
+      "matches_old": true
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00096.npz.gz",
+      "sha256": "7b230d5b7af35b33f64844dc10a217439155375dcb34fbaa5290d1b4f393f693",
+      "bytes": 674095,
+      "matches_old": true
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00144.npz.gz",
+      "sha256": "0bc6507ebeb5f0f21e3302db116c9bd514160ec9dc649081382fbeea62128126",
+      "bytes": 675082,
+      "matches_old": true
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00192.npz.gz",
+      "sha256": "b5baa05960355d526fd9d663008cff4d8cc95d6b1b170f37137e34ad8cd6967c",
+      "bytes": 672943,
+      "matches_old": true
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00240.npz.gz",
+      "sha256": "46f5a06de04b4f72036193142aea0109f6b5ba4e707006ae17f81fd1dcf91f47",
+      "bytes": 673006,
+      "matches_old": true
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00288.npz.gz",
+      "sha256": "24f8ec815f14aeace1b3c71ab909fbc6356fbf2084c02d2416d06c8b7521ab5a",
+      "bytes": 672939,
+      "matches_old": true
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00336.npz.gz",
+      "sha256": "4a1ecbd9912aedf8947c0fb598d66a0d41132b22ff243bc30ab8aa850e3c15c3",
+      "bytes": 672564,
+      "matches_old": true
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00384.npz.gz",
+      "sha256": "cf6223064af286defdf51bd061e6aa8e9572764544541872f938938ba5c6d495",
+      "bytes": 674077,
+      "matches_old": true
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00432.npz.gz",
+      "sha256": "1cf3a0cb6fb54d663e7b965068b7d93f8411c977c2b4ffb40a9da8dfbfad031c",
+      "bytes": 671426,
+      "matches_old": true
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00480.npz.gz",
+      "sha256": "6777fbe58affd7c0aaf635b01d5c3dea537bd0b2640eba925de7820fdea88275",
+      "bytes": 674833,
+      "matches_old": true
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00528.npz.gz",
+      "sha256": "8f45a4c9ba083202c7d55b3df25ae0e7f8027675269a28fd872c7e4c25008508",
+      "bytes": 311241,
+      "matches_old": true
+    }
+  ],
+  "scope": "Exact finite correction propagator only, not a true Jacobian or flow certificate."
+}

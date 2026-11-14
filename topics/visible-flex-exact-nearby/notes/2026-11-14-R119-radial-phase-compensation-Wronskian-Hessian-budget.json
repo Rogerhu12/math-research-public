@@ -1,0 +1,447 @@
+{
+  "execution": {
+    "implementation_blob": "2d2ce65eb8e3702bd8449259284176fef7adb92e",
+    "engine": "functions.exec V8",
+    "executed_on": "2026-11-14",
+    "arithmetic": "exact BigInt rationals and Laurent polynomials",
+    "claim": "new implementation actually executed; not a native/Python replay"
+  },
+  "computation": {
+    "schema": "R119-radial-phase-compensation-Wronskian-Hessian-v1",
+    "date": "2026-11-14",
+    "computation": "new JavaScript exact BigInt rational and Laurent identities",
+    "dependencies": {
+      "proof": "dd0d1378fce997297795ce14312fe91b181af4b1",
+      "controls53": "f11edbccd752bf034aa40e71888859d667a04b42",
+      "two_phase": "ae87a824ab3e58479894df470c9f066969e83241",
+      "compact": "5662bf40391a53a2212311406cf7ad63064908fc"
+    },
+    "domains": {
+      "shape_complex_radius": "2^-64",
+      "gamma_correction_ball": "2^-48",
+      "Gamma1_complex": "2^-15",
+      "Gamma2_complex": "2^-29"
+    },
+    "proved_bounds": {
+      "Dphase_shape": "<1/16",
+      "D2phase_shape": "<2^-10",
+      "true_phase_inverse": "<2^9",
+      "annihilator_D2Gamma": "<2",
+      "Wronskian_Hessian": "<2^22 K_j^3 (|m|+B/|m|)^2"
+    },
+    "scope": "radial compensated profile, actual fixed Robin ports, all complete source and mean variations retained; no whole nonlinear F closure",
+    "gates_count": 51,
+    "all_passed": true,
+    "gates": [
+      {
+        "name": "principal_shape_first",
+        "passed": true,
+        "detail": {
+          "left": "1/32",
+          "relation": "lt",
+          "right": "1/16"
+        }
+      },
+      {
+        "name": "principal_shape_second",
+        "passed": true,
+        "detail": {
+          "left": "1/5120",
+          "relation": "lt",
+          "right": "1/1024"
+        }
+      },
+      {
+        "name": "beta_shape_first",
+        "passed": true,
+        "detail": {
+          "left": "153873/26214400",
+          "relation": "lt",
+          "right": "1/16"
+        }
+      },
+      {
+        "name": "beta_shape_second",
+        "passed": true,
+        "detail": {
+          "left": "104403/4194304000",
+          "relation": "lt",
+          "right": "1/1024"
+        }
+      },
+      {
+        "name": "inverse_row1_numerator",
+        "passed": true,
+        "detail": {
+          "left": "33/500",
+          "relation": "lt",
+          "right": "1/8"
+        }
+      },
+      {
+        "name": "inverse_row2_numerator",
+        "passed": true,
+        "detail": {
+          "left": "197/2000",
+          "relation": "lt",
+          "right": "1/8"
+        }
+      },
+      {
+        "name": "actual_two_phase_inverse",
+        "passed": true,
+        "detail": {
+          "left": "512",
+          "relation": "eq",
+          "right": "512"
+        }
+      },
+      {
+        "name": "psi1_third_derivative",
+        "passed": true,
+        "detail": {
+          "left": "196608",
+          "relation": "eq",
+          "right": "196608"
+        }
+      },
+      {
+        "name": "psi2_third_derivative",
+        "passed": true,
+        "detail": {
+          "left": "12582912",
+          "relation": "eq",
+          "right": "12582912"
+        }
+      },
+      {
+        "name": "shifted_Legendre_extrema_below_one",
+        "passed": true,
+        "detail": {
+          "left": "1/5",
+          "relation": "lt",
+          "right": "1"
+        }
+      },
+      {
+        "name": "complete_principal_Jacobian_row",
+        "passed": true,
+        "detail": {
+          "left": "105/64",
+          "relation": "lt",
+          "right": "2"
+        }
+      },
+      {
+        "name": "complete_Bs_complex_bound",
+        "passed": true,
+        "detail": {
+          "left": "2326257506454320932868693015912385074413965544272713909920239910664370434875287983224746085030904898976895964863792679/7880401239278895842455808020028722761015947854093089333589658680849144354299442122282853250976983128161325598061363200",
+          "relation": "lt",
+          "right": "1"
+        }
+      },
+      {
+        "name": "first_bump_complex_u_second_bound",
+        "passed": true,
+        "detail": {
+          "left": "1003/40",
+          "relation": "lt",
+          "right": "64"
+        }
+      },
+      {
+        "name": "second_bump_complex_u_second_bound",
+        "passed": true,
+        "detail": {
+          "left": "256003/10240",
+          "relation": "lt",
+          "right": "64"
+        }
+      },
+      {
+        "name": "first_bump_complex_u_first_bound",
+        "passed": true,
+        "detail": {
+          "left": "7203/1280",
+          "relation": "lt",
+          "right": "7"
+        }
+      },
+      {
+        "name": "second_bump_complex_u_first_bound",
+        "passed": true,
+        "detail": {
+          "left": "7602179/1310720",
+          "relation": "lt",
+          "right": "7"
+        }
+      },
+      {
+        "name": "second_bump_complex_u_gap",
+        "passed": true,
+        "detail": {
+          "left": "167772163/335544320",
+          "relation": "lt",
+          "right": "22815/32768"
+        }
+      },
+      {
+        "name": "Cauchy_Gamma2_circle_inside",
+        "passed": true,
+        "detail": {
+          "left": "3/2147483648",
+          "relation": "lt",
+          "right": "1/536870912"
+        }
+      },
+      {
+        "name": "Cauchy_Gamma1_circle_inside",
+        "passed": true,
+        "detail": {
+          "left": "32769/2147483648",
+          "relation": "lt",
+          "right": "1/32768"
+        }
+      },
+      {
+        "name": "full_gamma_Hessian_bound",
+        "passed": true,
+        "detail": {
+          "left": "8589934592",
+          "relation": "lt",
+          "right": "17179869184"
+        }
+      },
+      {
+        "name": "compensation_contraction",
+        "passed": true,
+        "detail": {
+          "left": "1/32",
+          "relation": "eq",
+          "right": "1/32"
+        }
+      },
+      {
+        "name": "compensation_forcing",
+        "passed": true,
+        "detail": {
+          "left": "1/576460752303423488",
+          "relation": "eq",
+          "right": "1/576460752303423488"
+        }
+      },
+      {
+        "name": "compensation_quadratic_selfmap",
+        "passed": true,
+        "detail": {
+          "left": "1/18014398509481984",
+          "relation": "eq",
+          "right": "1/18014398509481984"
+        }
+      },
+      {
+        "name": "compensation_complete_selfmap",
+        "passed": true,
+        "detail": {
+          "left": "33/576460752303423488",
+          "relation": "lt",
+          "right": "1/281474976710656"
+        }
+      },
+      {
+        "name": "current_true_inverse",
+        "passed": true,
+        "detail": {
+          "left": "16384/31",
+          "relation": "lt",
+          "right": "1024"
+        }
+      },
+      {
+        "name": "full_shape_compensation_Lipschitz",
+        "passed": true,
+        "detail": {
+          "left": "64",
+          "relation": "le",
+          "right": "64"
+        }
+      },
+      {
+        "name": "full_compensation_Hessian",
+        "passed": true,
+        "detail": {
+          "left": "72057594037927937",
+          "relation": "lt",
+          "right": "288230376151711744"
+        }
+      },
+      {
+        "name": "annihilator_quadratic_control",
+        "passed": true,
+        "detail": {
+          "left": "1/2",
+          "relation": "le",
+          "right": "1"
+        }
+      },
+      {
+        "name": "annihilator_first_control",
+        "passed": true,
+        "detail": {
+          "left": "1",
+          "relation": "le",
+          "right": "1"
+        }
+      },
+      {
+        "name": "annihilator_full_second_control",
+        "passed": true,
+        "detail": {
+          "left": "19342813113834066795298817/19342813113834066795298816",
+          "relation": "lt",
+          "right": "2"
+        }
+      },
+      {
+        "name": "compensation_stays_Gamma2_core",
+        "passed": true,
+        "detail": {
+          "left": "67108865/288230376151711744",
+          "relation": "lt",
+          "right": "1/1073741824"
+        }
+      },
+      {
+        "name": "compensation_stays_Gamma1_core",
+        "passed": true,
+        "detail": {
+          "left": "1099511627777/288230376151711744",
+          "relation": "lt",
+          "right": "1/65536"
+        }
+      },
+      {
+        "name": "old_bump_Ctwo_sum",
+        "passed": true,
+        "detail": {
+          "left": "104448",
+          "relation": "lt",
+          "right": "262144"
+        }
+      },
+      {
+        "name": "actual_compensated_first_shape",
+        "passed": true,
+        "detail": {
+          "left": "70368744177665/70368744177664",
+          "relation": "lt",
+          "right": "2"
+        }
+      },
+      {
+        "name": "actual_compensated_second_shape",
+        "passed": true,
+        "detail": {
+          "left": "524288",
+          "relation": "le",
+          "right": "524288"
+        }
+      },
+      {
+        "name": "constant_platform_k_ge_2M",
+        "passed": true,
+        "detail": {
+          "left": "0",
+          "relation": "lt",
+          "right": "32"
+        }
+      },
+      {
+        "name": "direct_Hessian_lower_order",
+        "passed": true,
+        "detail": {
+          "left": "1/80",
+          "relation": "lt",
+          "right": "1"
+        }
+      },
+      {
+        "name": "complete_A_Hessian_fee",
+        "passed": true,
+        "detail": {
+          "left": "524289",
+          "relation": "lt",
+          "right": "1048576"
+        }
+      },
+      {
+        "name": "two_ordered_Duhamel_Hessian_fee",
+        "passed": true,
+        "detail": {
+          "left": "262152",
+          "relation": "lt",
+          "right": "4194304"
+        }
+      },
+      {
+        "name": "full_label_first_parameter_fee",
+        "passed": true,
+        "detail": {
+          "left": "33554432",
+          "relation": "eq",
+          "right": "33554432"
+        }
+      },
+      {
+        "name": "full_label_second_polarization_fee",
+        "passed": true,
+        "detail": {
+          "left": "281509336449024",
+          "relation": "lt",
+          "right": "1125899906842624"
+        }
+      },
+      {
+        "name": "exact_full_beta_dimensionless_units",
+        "passed": true
+      },
+      {
+        "name": "exact_Theta_minus_two_S_first_variation",
+        "passed": true
+      },
+      {
+        "name": "exact_Theta_second_variation",
+        "passed": true
+      },
+      {
+        "name": "exact_full_beta_first_variation",
+        "passed": true
+      },
+      {
+        "name": "exact_full_beta_symmetric_second_variation",
+        "passed": true
+      },
+      {
+        "name": "exact_physical_A_first_variation",
+        "passed": true
+      },
+      {
+        "name": "exact_compensated_A_second_variation",
+        "passed": true
+      },
+      {
+        "name": "exact_second_metric_density_row",
+        "passed": true
+      },
+      {
+        "name": "exact_mean_inverse_density_second_from_product",
+        "passed": true
+      },
+      {
+        "name": "ordinary_w_squared_full_second_factor",
+        "passed": true
+      }
+    ]
+  }
+}

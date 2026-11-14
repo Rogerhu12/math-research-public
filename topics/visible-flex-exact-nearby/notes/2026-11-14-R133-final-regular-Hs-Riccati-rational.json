@@ -1,0 +1,212 @@
+{
+  "kind": "actual_final_regular_full_Hs_and_Riccati_outer_graph",
+  "complete": true,
+  "arithmetic": "normalized BigInt rational; explicit complete Fourier tail and Banach Cauchy/interpolation budgets",
+  "source": "scripts/fourfold_codazzi_final_regular_Hs_Riccati.mjs",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "inputs": [
+    {
+      "path": "results/R133-supplement-final-moving-centre-actual-regular-boundary.md",
+      "git_blob": "40463b6917c943e4ac991a597603cf41095baeb9"
+    },
+    {
+      "path": "results/R133-supplement-final-regular-full-L2-and-Hilbert-Robin.md",
+      "git_blob": "a7ff7d2ca24df41ccd242ff9799b21fdcab2aec0"
+    },
+    {
+      "path": "results/R133-supplement-actual-positive-cap-and-periodic-long-tail-matching.md",
+      "git_blob": "fe1468feaf7447077d569402cc4133a9dfbeb05c"
+    },
+    {
+      "path": "results/R119-supplement-actual-long-radial-nonlinear-dirichlet-problem.md",
+      "git_blob": "5fd83130fead0160cece059b7bb95f2f83b07eae"
+    }
+  ],
+  "background": {
+    "Z_A0": "2533/10000000000000000",
+    "fB_dotA2_sigma": "2^-60 with sigma>=1/16",
+    "Z_phi_A0": "13/400000000000",
+    "fB_phi_dotA2": "1/72057594037927936",
+    "wider_Z_radius": "1/10000000000",
+    "wider_fB_radius": "1/100000000000",
+    "Cauchy_Z_radius": "9/100000000000",
+    "Cauchy_fB_radius": "9/1000000000000",
+    "Xi": "57174848784977/158329674399744"
+  },
+  "actual_DN": {
+    "Z_to_d_L2": "1179651/200000000000",
+    "Z_to_d_H1": "1/4000",
+    "Z_to_d_Hone_sixth": "111/10000000",
+    "fB_to_d_L2": "327681/500000000000",
+    "fB_to_d_H1": "27/1000000",
+    "fB_to_d_Hone_sixth": "1/800000",
+    "Z_to_mean": "3686409/5000000000000",
+    "fB_to_mean": "819203/10000000000000",
+    "independent_fB_norm": "||<D>^s |D|^2 fB||2"
+  },
+  "moving": {
+    "full_Hs_lift": "50 for 0<=s<=1",
+    "physical_recovery": "3/100 for 0<=s<=1",
+    "nonmean_h2_chart_inverse": "3/100",
+    "true_mean_rank_upper": "0.000001084",
+    "complete_Robin_defect_H1": "0.000053",
+    "complete_Robin_defect_Hone_sixth": "0.0000026"
+  },
+  "Riccati_outer": {
+    "reference_p": "p_M(R)=q_*/(-m_R), frequency independent; q_*=(1+w_R^2)^(-1/2)",
+    "other_reference_g": "any positive radial g_M(R)",
+    "homogeneous_high_graph": "0.0000222",
+    "full_low_to_high_boundary_column": "0.0000235",
+    "independent_fB_column": "0.000030",
+    "ordinary_Robin_residual_column": "22",
+    "independent_mean_residual_column": "26",
+    "source_and_mean": "retained in the exact affine equations and full nonmean h2 parameterization",
+    "cutoff": "|j|>=97 only for the stated head-column estimate"
+  },
+  "permissions": {
+    "full_nonlinear_DN_derivative_Hs": true,
+    "all_0_to_1_orders_by_interpolation": true,
+    "actual_background_not_arbitrary_Hs_nonlinear_ball": true,
+    "whole_positive_body_inverse": false,
+    "global_negative_return": false,
+    "nu_scalar_inverse": false,
+    "nonlinear_whole_BVP": false
+  },
+  "gates": [
+    {
+      "name": "entire_physical_fourier_tail_geometric_ratio",
+      "passed": true
+    },
+    {
+      "name": "actual_full_physical_Z_derivative_all_modes",
+      "passed": true,
+      "head_upper": "2533/78125000000000",
+      "complete_tail_upper": "479195913559370395324084817519013993332710949609778566254316179372860709899196698753581454471287352326833/27503988328125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "total_upper": "892224507083359370395324084817519013993332710949609778566254316179372860709899196698753581454471287352326833/27503988328125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "true_background_inside_wider_complex_Z_disc",
+      "passed": true
+    },
+    {
+      "name": "true_background_inside_wider_complex_fB_disc",
+      "passed": true
+    },
+    {
+      "name": "wider_long_complete_complex_domain",
+      "passed": true
+    },
+    {
+      "name": "wider_true_C_to_Dirichlet_contraction",
+      "passed": true
+    },
+    {
+      "name": "actual_background_translation_size",
+      "passed": true
+    },
+    {
+      "name": "same_small_ball_complete_L2_Z_row",
+      "passed": true
+    },
+    {
+      "name": "same_small_ball_true_mean_row",
+      "passed": true
+    },
+    {
+      "name": "same_small_ball_independent_fB_L2_row",
+      "passed": true
+    },
+    {
+      "name": "same_small_ball_independent_fB_mean_row",
+      "passed": true
+    },
+    {
+      "name": "full_nonlinear_DN_H1_not_only_Hilbert",
+      "passed": true
+    },
+    {
+      "name": "independent_fB_H1_source_column",
+      "passed": true
+    },
+    {
+      "name": "exact_Hone_sixth_interpolation_Z",
+      "passed": true
+    },
+    {
+      "name": "exact_Hone_sixth_interpolation_fB",
+      "passed": true
+    },
+    {
+      "name": "complete_H1_C_to_B_graph_inverse",
+      "passed": true
+    },
+    {
+      "name": "complete_Hone_sixth_C_to_B_graph_inverse",
+      "passed": true
+    },
+    {
+      "name": "H1_all_coefficient_multipliers_are_paid",
+      "passed": true
+    },
+    {
+      "name": "inverse_v_full_Bone_Neumann_gap",
+      "passed": true
+    },
+    {
+      "name": "actual_graph_complete_moving_Hs_lift_50",
+      "passed": true
+    },
+    {
+      "name": "actual_full_moving_to_physical_Hs_recovery_003",
+      "passed": true
+    },
+    {
+      "name": "complete_nonmean_h2_chart_is_onto_Hs",
+      "passed": true
+    },
+    {
+      "name": "true_moving_mean_rank_output_not_deleted",
+      "passed": true
+    },
+    {
+      "name": "true_moving_H1_Robin_defect_after_all_mean_paths",
+      "passed": true
+    },
+    {
+      "name": "true_moving_Hone_sixth_Robin_defect",
+      "passed": true
+    },
+    {
+      "name": "global_reference_outer_p_lower_bound",
+      "passed": true
+    },
+    {
+      "name": "actual_Riccati_outer_Hilbert_feedback_small",
+      "passed": true
+    },
+    {
+      "name": "actual_complete_outer_high_Riccati_graph",
+      "passed": true
+    },
+    {
+      "name": "complete_low_to_high_outer_boundary_column",
+      "passed": true
+    },
+    {
+      "name": "independent_fB_Riccati_affine_column",
+      "passed": true
+    },
+    {
+      "name": "ordinary_Robin_residual_Riccati_affine_column",
+      "passed": true
+    },
+    {
+      "name": "independent_mean_residual_Riccati_affine_column",
+      "passed": true
+    },
+    {
+      "name": "independent_mean_and_fB_true_mean_output",
+      "passed": true
+    }
+  ]
+}

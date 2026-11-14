@@ -1,0 +1,29 @@
+{
+  "kind": "R131_preserved_v1_failed_branch_serialization_exception",
+  "exact_command_arguments": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "scripts/fourfold_codazzi_linear_degeneracy.py",
+    "--native",
+    "notes/2026-11-13-Codazzi-joint-Taylor-r005-compact-native.json.gz",
+    "--producer",
+    "scripts/fourfold_codazzi_residual_taylor_compact.py",
+    "--provider",
+    "scripts/fourfold_codazzi_high_target_jets.py",
+    "--candidate",
+    "notes/2026-11-13-codazzi-dense-r005-n512-candidate.npz.gz",
+    "--out",
+    "notes/2026-11-13-R131-v1-reproduced-no-report.json.gz"
+  ],
+  "returncode": 1,
+  "raw_exception_path": "notes/2026-11-13-R131-v1-failure-serialization-raw.txt",
+  "raw_exception_sha256": "996d32be9184bad91f0b81344e7ee184a08f9579480d9a31108d15486083f2ba",
+  "original_source_sha256": "8b4e003df87bbfd685254dda1113d22b746b9be619d38628bd6d909195921933",
+  "native_sha256": "d69d826e957f4a3532fdd5e892d916080de8ae325dfb89d78a7ca0b84a82162a",
+  "producer_sha256": "51e454ad8aa1209d3199169d52cf8cf3df49d8728da8914db251ebddc363f6d0",
+  "provider_sha256": "ea71aefd62bf0c16c9e9c9fe4a5da5ce95a973cf913825bd875a4ba59fc14168",
+  "candidate_sha256": "1fdb86b3f959cd3137cf06bdbb37637643a1a56143152c7e26b622d7b353dd81",
+  "output_created": false,
+  "reproduced_expected_failure": true,
+  "mathematical_status": "The C0 tube gate fails on the complete .05 residual input. v1 then assigned an infinite uncertified derivative placeholder and strict JSON encoding rejected it. This exception did not alter the already passed .005 certificate.",
+  "repair": "A separate v2 source preserves all numerical gates and writes the uncertified derivative as null; the failed continuation remains false."
+}

@@ -1,0 +1,215 @@
+{
+  "parameters": {
+    "order": 7,
+    "points": 1601,
+    "length": 6.0,
+    "mu": 1.4142135623730951,
+    "A": 2.353553390593274,
+    "mean": "bump",
+    "bump_radius": 0.25
+  },
+  "transversality": {
+    "mean": "bump",
+    "bump_radius": 0.25,
+    "discrete_mean_multiplier": 56.680672653866516,
+    "direct_projection": 21.59127977633872,
+    "kernel_half_norm_squared": 0.38092695741205346,
+    "depth_expected_normalized_projection": 14.700635149734204
+  },
+  "recursion": [
+    {
+      "order": 2,
+      "mean_previous": null,
+      "critical_multiplier": null,
+      "maximum_coefficient_norm_sample": 3.525477679584294
+    },
+    {
+      "order": 3,
+      "mean_previous": 3.529133173692109,
+      "critical_multiplier": 5.493971546354662e-13,
+      "maximum_coefficient_norm_sample": 26.57903803398609
+    },
+    {
+      "order": 4,
+      "mean_previous": null,
+      "critical_multiplier": null,
+      "maximum_coefficient_norm_sample": 268.380321739695
+    },
+    {
+      "order": 5,
+      "mean_previous": -263.1855360595836,
+      "critical_multiplier": -1.4453112277358851e-11,
+      "maximum_coefficient_norm_sample": 6903.525425559002
+    },
+    {
+      "order": 6,
+      "mean_previous": null,
+      "critical_multiplier": null,
+      "maximum_coefficient_norm_sample": 60007.40275143785
+    },
+    {
+      "order": 7,
+      "mean_previous": 182574.2539444722,
+      "critical_multiplier": 1.5372769027833252e-08,
+      "maximum_coefficient_norm_sample": 2282839.782337861
+    }
+  ],
+  "kind": "floating_diagnostic_not_proof",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "limitations": [
+    "Finite Robin endpoint approximates the true whole-line inverse.",
+    "Eighth-order finite differences have no interval error bounds.",
+    "Metric diagnostics use actual quintic spline derivatives.",
+    "Finite radial and angular samples do not bound continuous suprema.",
+    "No true fixed flat caps, no nonlinear exact isometry, no certified reach."
+  ],
+  "diagnostics": [
+    {
+      "epsilon": 0.05,
+      "order": 1,
+      "core": 3.0,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.01727447216890595,
+      "at_x": 0.0,
+      "at_theta": 0.0,
+      "minimum_mean_xx": 0.03618231745353545,
+      "minimum_mean_tt": 0.01882652785957592
+    },
+    {
+      "epsilon": 0.075,
+      "order": 1,
+      "core": 3.0,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.0380460310004697,
+      "at_x": 0.0,
+      "at_theta": 0.0,
+      "minimum_mean_xx": 0.036182317454199524,
+      "minimum_mean_tt": 0.018826527859914954
+    },
+    {
+      "epsilon": 0.1,
+      "order": 1,
+      "core": 3.0,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.06569343065693431,
+      "at_x": 0.0,
+      "at_theta": 0.0,
+      "minimum_mean_xx": 0.0361823174551292,
+      "minimum_mean_tt": 0.018826527860389602
+    },
+    {
+      "epsilon": 0.05,
+      "order": 3,
+      "core": 3.0,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.015793813298198886,
+      "at_x": 0.0,
+      "at_theta": 2.748893571891069,
+      "minimum_mean_xx": 0.036182317453576536,
+      "minimum_mean_tt": 0.018826527859595665
+    },
+    {
+      "epsilon": 0.075,
+      "order": 3,
+      "core": 3.0,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.09026978133407873,
+      "at_x": 0.0,
+      "at_theta": 1.4398966328953218,
+      "minimum_mean_xx": 0.03618231745439799,
+      "minimum_mean_tt": 0.01882652786001711
+    },
+    {
+      "epsilon": 0.1,
+      "order": 3,
+      "core": 3.0,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.32703450689492153,
+      "at_x": 0.0,
+      "at_theta": 3.010692959690218,
+      "minimum_mean_xx": 0.036182317455780995,
+      "minimum_mean_tt": 0.01882652786072217
+    },
+    {
+      "epsilon": 0.05,
+      "order": 5,
+      "core": 3.0,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.011775310796717418,
+      "at_x": 0.0,
+      "at_theta": 2.8797932657906435,
+      "minimum_mean_xx": 0.03618231745360304,
+      "minimum_mean_tt": 0.01882652785960975
+    },
+    {
+      "epsilon": 0.075,
+      "order": 5,
+      "core": 3.0,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.15726390898278603,
+      "at_x": 0.0,
+      "at_theta": 1.505346479845109,
+      "minimum_mean_xx": 0.03618231745474302,
+      "minimum_mean_tt": 0.018826527860192028
+    },
+    {
+      "epsilon": 0.1,
+      "order": 5,
+      "core": 3.0,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 1.0115730544948887,
+      "at_x": 0.0,
+      "at_theta": 1.505346479845109,
+      "minimum_mean_xx": 0.03618231745804376,
+      "minimum_mean_tt": 0.01882652786187523
+    },
+    {
+      "epsilon": 0.05,
+      "order": 7,
+      "core": 3.0,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.008648542575909173,
+      "at_x": 0.0,
+      "at_theta": 2.9452431127404313,
+      "minimum_mean_xx": 0.03618231745358292,
+      "minimum_mean_tt": 0.018826527859600293
+    },
+    {
+      "epsilon": 0.075,
+      "order": 7,
+      "core": 3.0,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.31565582895293,
+      "at_x": 0.0,
+      "at_theta": 6.217735460229799,
+      "minimum_mean_xx": 0.036182317454240706,
+      "minimum_mean_tt": 0.018826527859936052
+    },
+    {
+      "epsilon": 0.1,
+      "order": 7,
+      "core": 3.0,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 2.1656772407492237,
+      "at_x": 0.1075,
+      "at_theta": 5.759586531581287,
+      "minimum_mean_xx": 0.036182317453492714,
+      "minimum_mean_tt": 0.01882652785955369
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "kind": "actual_exterior_full_frequency_Robin_and_augmented_positive_domain",
+  "complete": true,
+  "source_sha256": "986c215c768651bdfc71ced966b97401aaa956436b762135cdbabfe6bf06a583",
+  "input_sha256": {
+    "notes/2026-11-12-positive-family-natural-graft.json": "d56b7229439ade268b647f17a10f84ba662e02bcb9597f983d2c604fe765fa27",
+    "notes/2026-11-12-actual-closed-approximate-exterior.json": "2d9dd3fec38a1f6b75bd41d858f9ef2cd0b7205a57ad9a5f6ee66996404aebbf"
+  },
+  "dependency_sha256": {
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f"
+  },
+  "exact_parameter_interval": [
+    "-121752685431711260843/72057594037927936000000",
+    "-121680627837673332907/72057594037927936000000"
+  ],
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "bits": 256,
+  "barrier_length": "16777216",
+  "bump_width": "1/16",
+  "bump_total_length": "25/8",
+  "unmodified_length": "134217703/8",
+  "bump_parameter_definition": "For each fixed exact delta, choose the least point in the nonempty closed R74 all-frequency good set on the exact mode-four matching curve; no simultaneous or continuous choice over delta is asserted.",
+  "all_frequency_selection": {
+    "m": "abs(n), n in 4Z and n != 0",
+    "angle_sine_lower": "1/549755813888",
+    "one_cap_good_measure_lower": "16301/16384",
+    "both_caps": "the same exact choice by radial reflection"
+  },
+  "actual_entrance": {
+    "radius_lower": {
+      "ball": "[6.5637657838556121211471857236716826e-6 +/- 1.12e-41]",
+      "lower": "[6.5637657838556121211471857236716826e-6 +/- 1.12e-41]",
+      "upper": "[6.5637657838556121211471857236716826e-6 +/- 1.12e-41]",
+      "mid_float": 6.563765783855612e-06,
+      "radius_upper_float": 0.0
+    },
+    "radius_upper": {
+      "ball": "[6.5637657921065756775212903276987136e-6 +/- 4.04e-41]",
+      "lower": "[6.5637657921065756775212903276987136e-6 +/- 4.04e-41]",
+      "upper": "[6.5637657921065756775212903276987136e-6 +/- 4.04e-41]",
+      "mid_float": 6.5637657921065755e-06,
+      "radius_upper_float": 0.0
+    },
+    "height_lower": {
+      "ball": "[0.96619867000224124681848569382418572 +/- 4.07e-37]",
+      "lower": "[0.96619867000224124681848569382418572 +/- 4.07e-37]",
+      "upper": "[0.96619867000224124681848569382418572 +/- 4.07e-37]",
+      "mid_float": 0.9661986700022412,
+      "radius_upper_float": 0.0
+    },
+    "height_upper": {
+      "ball": "[0.96619867055301549594357124037651301 +/- 2.69e-36]",
+      "lower": "[0.96619867055301549594357124037651301 +/- 2.69e-36]",
+      "upper": "[0.96619867055301549594357124037651301 +/- 2.69e-36]",
+      "mid_float": 0.9661986705530154,
+      "radius_upper_float": 0.0
+    },
+    "omega_lower": {
+      "ball": "[1.4611528609230575326966006244333585 +/- 3.83e-35]",
+      "lower": "[1.4611528609230575326966006244333585 +/- 3.83e-35]",
+      "upper": "[1.4611528609230575326966006244333585 +/- 3.83e-35]",
+      "mid_float": 1.4611528609230575,
+      "radius_upper_float": 0.0
+    },
+    "omega_upper": {
+      "ball": "[1.4611528652552492283517304727524788 +/- 1.79e-35]",
+      "lower": "[1.4611528652552492283517304727524788 +/- 1.79e-35]",
+      "upper": "[1.4611528652552492283517304727524788 +/- 1.79e-35]",
+      "mid_float": 1.4611528652552492,
+      "radius_upper_float": 0.0
+    },
+    "A_lower": {
+      "ball": "[5.8446114436922301307864024977334338 +/- 4.73e-35]",
+      "lower": "[5.8446114436922301307864024977334338 +/- 4.73e-35]",
+      "upper": "[5.8446114436922301307864024977334338 +/- 4.73e-35]",
+      "mid_float": 5.84461144369223,
+      "radius_upper_float": 0.0
+    },
+    "A_upper": {
+      "ball": "[5.8446114610655871438752877035240078 +/- 3.14e-35]",
+      "lower": "[5.8446114610655871438752877035240078 +/- 3.14e-35]",
+      "upper": "[5.8446114610655871438752877035240078 +/- 3.14e-35]",
+      "mid_float": 5.844611461065587,
+      "radius_upper_float": 0.0
+    },
+    "radius_squared_over_height_upper": {
+      "ball": "[4.4590230468365812514092497413418089e-11 +/- 1.04e-46]",
+      "lower": "[4.4590230468365812514092497413418089e-11 +/- 1.04e-46]",
+      "upper": "[4.4590230468365812514092497413418089e-11 +/- 1.04e-46]",
+      "mid_float": 4.4590230468365814e-11,
+      "radius_upper_float": 0.0
+    }
+  },
+  "added_actual_geometry": {
+    "omega_lower": {
+      "ball": "[1.4602373335793075326966006244333585 +/- 3.83e-35]",
+      "lower": "[1.4602373335793075326966006244333585 +/- 3.83e-35]",
+      "upper": "[1.4602373335793075326966006244333585 +/- 3.83e-35]",
+      "mid_float": 1.4602373335793075,
+      "radius_upper_float": 0.0
+    },
+    "absolute_q_upper": {
+      "ball": "[0.087933503421595922272831928293656477 +/- 4.45e-37]",
+      "lower": "[0.087933503421595922272831928293656477 +/- 4.45e-37]",
+      "upper": "[0.087933503421595922272831928293656477 +/- 4.45e-37]",
+      "mid_float": 0.08793350342159592,
+      "radius_upper_float": 0.0
+    },
+    "principal_curvature_upper": {
+      "ball": "[0.18625970559780047075234651565180381 +/- 2.28e-36]",
+      "lower": "[0.18625970559780047075234651565180381 +/- 2.28e-36]",
+      "upper": "[0.18625970559780047075234651565180381 +/- 2.28e-36]",
+      "mid_float": 0.18625970559780047,
+      "radius_upper_float": 0.0
+    },
+    "Cartesian_displacement_upper": {
+      "ball": "[3.5122912037653059322276578275995450e-10646337 +/- 1.87e-10646372]",
+      "lower": "[3.5122912037653059322276578275995450e-10646337 +/- 1.87e-10646372]",
+      "upper": "[3.5122912037653059322276578275995450e-10646337 +/- 1.87e-10646372]",
+      "mid_float": 0.0,
+      "radius_upper_float": 0.0
+    },
+    "outer_height_shift_upper": {
+      "ball": "[3.2338580603003579390543860156981024e-21292668 +/- 9.06e-21292705]",
+      "lower": "[3.2338580603003579390543860156981024e-21292668 +/- 9.06e-21292705]",
+      "upper": "[3.2338580603003579390543860156981024e-21292668 +/- 9.06e-21292705]",
+      "mid_float": 0.0,
+      "radius_upper_float": 0.0
+    }
+  },
+  "all_frequency_Robin": {
+    "reflection_coefficient_modulus_upper": {
+      "ball": "[1.2575023193426178336870541721135881e-85170600 +/- 4.43e-85170636]",
+      "lower": "[1.2575023193426178336870541721135881e-85170600 +/- 4.43e-85170636]",
+      "upper": "[1.2575023193426178336870541721135881e-85170600 +/- 4.43e-85170636]",
+      "mid_float": 0.0,
+      "radius_upper_float": 0.0
+    },
+    "normalized_true_tail_difference_from_exact_stable_line": {
+      "ball": "[1.0060018554740942669496433376908705e-85170599 +/- 1.65e-85170634]",
+      "lower": "[1.0060018554740942669496433376908705e-85170599 +/- 1.65e-85170634]",
+      "upper": "[1.0060018554740942669496433376908705e-85170599 +/- 1.65e-85170634]",
+      "mid_float": 0.0,
+      "radius_upper_float": 0.0
+    },
+    "normalized_stable_line_difference_from_absD_over_4omega": {
+      "ball": "[4.4590230468365812514092497413418089e-12 +/- 1.04e-47]",
+      "lower": "[4.4590230468365812514092497413418089e-12 +/- 1.04e-47]",
+      "upper": "[4.4590230468365812514092497413418089e-12 +/- 1.04e-47]",
+      "mid_float": 4.459023046836581e-12,
+      "radius_upper_float": 0.0
+    },
+    "normalized_total_difference_from_absD_over_4omega": {
+      "ball": "[4.4590230468365812514092497413418089e-12 +/- 1.04e-47]",
+      "lower": "[4.4590230468365812514092497413418089e-12 +/- 1.04e-47]",
+      "upper": "[4.4590230468365812514092497413418089e-12 +/- 1.04e-47]",
+      "mid_float": 4.459023046836581e-12,
+      "radius_upper_float": 0.0
+    },
+    "gamma_m_over_m_lower": {
+      "ball": "[0.17109777213475341020446859112231206 +/- 4.00e-36]",
+      "lower": "[0.17109777213475341020446859112231206 +/- 4.00e-36]",
+      "upper": "[0.17109777213475341020446859112231206 +/- 4.00e-36]",
+      "mid_float": 0.1710977721347534,
+      "radius_upper_float": 0.0
+    },
+    "gamma_m_over_m_upper": {
+      "ball": "[0.17109777265096153348988185511408229 +/- 3.32e-36]",
+      "lower": "[0.17109777265096153348988185511408229 +/- 3.32e-36]",
+      "upper": "[0.17109777265096153348988185511408229 +/- 3.32e-36]",
+      "mid_float": 0.17109777265096154,
+      "radius_upper_float": 0.0
+    }
+  },
+  "actual_augmented_positive_operator": {
+    "one_Dirichlet_coercive_inverse": {
+      "ball": "[890.03585549609175391058012925892352 +/- 4.32e-33]",
+      "lower": "[890.03585549609175391058012925892352 +/- 4.32e-33]",
+      "upper": "[890.03585549609175391058012925892352 +/- 4.32e-33]",
+      "mid_float": 890.0358554960917,
+      "radius_upper_float": 0.0
+    },
+    "full_form_norm": {
+      "ball": "[178.15926597226505636549377104258643 +/- 6.17e-34]",
+      "lower": "[178.15926597226505636549377104258643 +/- 6.17e-34]",
+      "upper": "[178.15926597226505636549377104258643 +/- 6.17e-34]",
+      "mid_float": 178.15926597226505,
+      "radius_upper_float": 0.0
+    },
+    "trace_lift": {
+      "ball": "[1.5233631186223079001867475965195559 +/- 3.54e-35]",
+      "lower": "[1.5233631186223079001867475965195559 +/- 3.54e-35]",
+      "upper": "[1.5233631186223079001867475965195559 +/- 3.54e-35]",
+      "mid_float": 1.523363118622308,
+      "radius_upper_float": 0.0
+    },
+    "full_Poisson": {
+      "ball": "[241558.37156020151122711256678312455 +/- 4.15e-31]",
+      "lower": "[241558.37156020151122711256678312455 +/- 4.15e-31]",
+      "upper": "[241558.37156020151122711256678312455 +/- 4.15e-31]",
+      "mid_float": 241558.3715602015,
+      "radius_upper_float": 0.0
+    },
+    "Vdual_source_to_solution": {
+      "ball": "[890.03585549609175391058012925892352 +/- 4.32e-33]",
+      "lower": "[890.03585549609175391058012925892352 +/- 4.32e-33]",
+      "upper": "[890.03585549609175391058012925892352 +/- 4.32e-33]",
+      "mid_float": 890.0358554960917,
+      "radius_upper_float": 0.0
+    },
+    "turning_DN_and_regular_mean_output": {
+      "ball": "[65559245.202743815381325265097350637 +/- 2.26e-28]",
+      "lower": "[65559245.202743815381325265097350637 +/- 2.26e-28]",
+      "upper": "[65559245.202743815381325265097350637 +/- 2.26e-28]",
+      "mid_float": 65559245.20274381,
+      "radius_upper_float": 0.0
+    },
+    "full_source_to_turning_contact_and_regular_mean": {
+      "ball": "[241558.37156020151122711256678312455 +/- 4.15e-31]",
+      "lower": "[241558.37156020151122711256678312455 +/- 4.15e-31]",
+      "upper": "[241558.37156020151122711256678312455 +/- 4.15e-31]",
+      "mid_float": 241558.3715602015,
+      "radius_upper_float": 0.0
+    },
+    "physical_regular_Hminus_half_source_to_Vdual": {
+      "ball": "[12.488748551335468858914857820168598 +/- 1.37e-34]",
+      "lower": "[12.488748551335468858914857820168598 +/- 1.37e-34]",
+      "upper": "[12.488748551335468858914857820168598 +/- 1.37e-34]",
+      "mid_float": 12.488748551335469,
+      "radius_upper_float": 0.0
+    },
+    "absolute_regular_mean_response_to_turning_constant_lower": {
+      "ball": "[0.00048617269774720268629114013436554024 +/- 4.76e-40]",
+      "lower": "[0.00048617269774720268629114013436554024 +/- 4.76e-40]",
+      "upper": "[0.00048617269774720268629114013436554024 +/- 4.76e-40]",
+      "mid_float": 0.0004861726977472027,
+      "radius_upper_float": 0.0
+    },
+    "true_regular_mean_row_pivot_inverse": {
+      "ball": "[2056.8822655688788006586216481169430 +/- 2.17e-32]",
+      "lower": "[2056.8822655688788006586216481169430 +/- 2.17e-32]",
+      "upper": "[2056.8822655688788006586216481169430 +/- 2.17e-32]",
+      "mid_float": 2056.8822655688787,
+      "radius_upper_float": 0.0
+    }
+  },
+  "scope": [
+    "The R69 core, body and natural graft remain exactly unchanged.",
+    "Only the far radial double bump and its induced outer height shift are added.",
+    "Every nonzero fourfold frequency uses its true infinite R72 tail line.",
+    "The regular mean value is imposed and its remaining flux is retained as a finite output row.",
+    "The positive-domain estimate is an unweighted Sobolev statement.",
+    "No nonlinear exact family, parameter-continuous bump choice, reach, or visible-amplitude claim."
+  ]
+}

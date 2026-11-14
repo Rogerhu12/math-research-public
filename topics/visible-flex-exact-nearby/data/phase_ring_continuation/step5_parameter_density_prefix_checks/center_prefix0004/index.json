@@ -1,0 +1,202 @@
+{
+  "kind": "actual_complete_forward_parameter_density_inputs",
+  "complete": false,
+  "source_sha256": "de92157eaf9f2a79731dad492324c9103c9ed3766fb73520cc1596e760918a7b",
+  "pipeline_path": "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_parameter_density_pipeline_l2_v2.py",
+  "pipeline_sha256": "7268d4fb5e751bb7a5491f361d665277d8ba89e75f7ccea4c8e253346d07e05a",
+  "descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+  "g0_index_path": "data/phase_ring_continuation/step5_forward_density_complete/index.json",
+  "exact_target_delta_fraction": "-7789843107295549/4611686018427387904",
+  "uniform_parameter_half_width": "0",
+  "whole_real_parameter_tube": false,
+  "label_strip": "1/256",
+  "inner_strip": "3/1024",
+  "spatial_strip": "7/2048",
+  "completed_segments": 4,
+  "leaves": [
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0000_center.json.gz",
+      "sha256": "9212b78f06cefeafcfa0d8fee7c01faa52a5e107612d9c83db988937281a97c0",
+      "bytes": 354362,
+      "segment": 0,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_pipeline_pilot0/forward_0000_ef134f2a18.json.gz",
+      "g0_report_sha256": "a6c8560ac4b34a53bb4636c55d4e9672c875156df95f3e975b46947bab15be15"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0001_ef134f2a18_center.json.gz",
+      "sha256": "a57e1634d10e8aae41729570347537d1b8bade2b55688b1c01da6f8eebd34171",
+      "bytes": 225379,
+      "segment": 1,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0001_ef134f2a18.json.gz",
+      "g0_report_sha256": "dcfc8e721de4b6c2cb928fdbabc3b8db5c1be9e3f24772a23148efe072c31750"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0002_ef134f2a18_center.json.gz",
+      "sha256": "f4083d16647b8999f4e2c1892b77d565c2a08e3bc1fc34bbe616f71cbb805705",
+      "bytes": 228260,
+      "segment": 2,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0002_ef134f2a18.json.gz",
+      "g0_report_sha256": "d333912e47a683b018c9af2c0162ec7a8f2939fadacab20895682bdf98f44208"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0003_ef134f2a18_center.json.gz",
+      "sha256": "e60fdcf5dbf613486cd50620089b13285842a217efc5b78d0dc158260a0895e7",
+      "bytes": 219694,
+      "segment": 3,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0003_ef134f2a18.json.gz",
+      "g0_report_sha256": "135ec493718b72748869ff061d9d3953a32a5284ae7dbe3fc2dbaab2566bccc5"
+    }
+  ],
+  "input_g0_snapshots": [
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/index.json",
+      "sha256": "d2aefdde49501772822b9831483f6f1d91a7d91fc2f0ec052ce2401f016e5a16",
+      "completed_segments": 16
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/index.json",
+      "sha256": "a855249c3e9bcbc177ffab58615468a81df64ef5e4eb785f870a51163c50fd8e",
+      "completed_segments": 18
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/index.json",
+      "sha256": "5d29b0581308304c5c73ec8ae02b4eafd6fd8cfeb77dfddd45e42c1aff0cb5db",
+      "completed_segments": 20
+    }
+  ],
+  "whole_forward_leg": false,
+  "integrated_scalar_summary": {
+    "A": {
+      "ball": "[1.2504275225765346334832762404050418e-11 +/- 4.26e-46]",
+      "lower": "[1.2504275225765346334832762404050418e-11 +/- 4.26e-46]",
+      "upper": "[1.2504275225765346334832762404050418e-11 +/- 4.26e-46]",
+      "mid_float": 1.2504275225765346e-11,
+      "radius_upper_float": 0.0
+    },
+    "E0": {
+      "ball": "[1.2719634202877387190233519265519097e-20 +/- 4.66e-57]",
+      "lower": "[1.2719634202877387190233519265519097e-20 +/- 4.66e-57]",
+      "upper": "[1.2719634202877387190233519265519097e-20 +/- 4.66e-57]",
+      "mid_float": 1.2719634202877388e-20,
+      "radius_upper_float": 0.0
+    },
+    "B1": {
+      "ball": "[6.9552633406565439939377491360673637e-5 +/- 1.73e-40]",
+      "lower": "[6.9552633406565439939377491360673637e-5 +/- 1.73e-40]",
+      "upper": "[6.9552633406565439939377491360673637e-5 +/- 1.73e-40]",
+      "mid_float": 6.955263340656544e-05,
+      "radius_upper_float": 0.0
+    },
+    "B2": {
+      "ball": "[9.5533007445035950874793352819754921e-7 +/- 1.90e-42]",
+      "lower": "[9.5533007445035950874793352819754921e-7 +/- 1.90e-42]",
+      "upper": "[9.5533007445035950874793352819754921e-7 +/- 1.90e-42]",
+      "mid_float": 9.553300744503596e-07,
+      "radius_upper_float": 0.0
+    },
+    "E1": {
+      "ball": "[9.4334141809715872037512397989232616e-12 +/- 5.52e-48]",
+      "lower": "[9.4334141809715872037512397989232616e-12 +/- 5.52e-48]",
+      "upper": "[9.4334141809715872037512397989232616e-12 +/- 5.52e-48]",
+      "mid_float": 9.433414180971587e-12,
+      "radius_upper_float": 0.0
+    },
+    "E2": {
+      "ball": "[8.4022736557346608904650143923086506e-12 +/- 2.76e-47]",
+      "lower": "[8.4022736557346608904650143923086506e-12 +/- 2.76e-47]",
+      "upper": "[8.4022736557346608904650143923086506e-12 +/- 2.76e-47]",
+      "mid_float": 8.402273655734661e-12,
+      "radius_upper_float": 0.0
+    },
+    "localJ0": {
+      "ball": "[1.0536358141145536586950401905301037e-22 +/- 3.22e-57]",
+      "lower": "[1.0536358141145536586950401905301037e-22 +/- 3.22e-57]",
+      "upper": "[1.0536358141145536586950401905301037e-22 +/- 3.22e-57]",
+      "mid_float": 1.0536358141145537e-22,
+      "radius_upper_float": 0.0
+    },
+    "localJ1": {
+      "ball": "[2.9397327799037786166888716551349973e-14 +/- 4.57e-49]",
+      "lower": "[2.9397327799037786166888716551349973e-14 +/- 4.57e-49]",
+      "upper": "[2.9397327799037786166888716551349973e-14 +/- 4.57e-49]",
+      "mid_float": 2.9397327799037786e-14,
+      "radius_upper_float": 0.0
+    },
+    "localJ2": {
+      "ball": "[4.0171403221815972928816760590942505e-16 +/- 3.66e-51]",
+      "lower": "[4.0171403221815972928816760590942505e-16 +/- 3.66e-51]",
+      "upper": "[4.0171403221815972928816760590942505e-16 +/- 3.66e-51]",
+      "mid_float": 4.017140322181597e-16,
+      "radius_upper_float": 0.0
+    }
+  },
+  "integrated_parameter_spatial_SUP_moduli": [
+    [
+      {
+        "ball": "[6.9193535120153202782279798198850871e-5 +/- 9.7e-42]",
+        "lower": "[6.9193535120153202782279798198850871e-5 +/- 9.7e-42]",
+        "upper": "[6.9193535120153202782279798198850871e-5 +/- 9.7e-42]",
+        "mid_float": 6.91935351201532e-05,
+        "radius_upper_float": 1.844884642028979e-81
+      },
+      {
+        "ball": "[0.00073157822381207563076404636717348142 +/- 2.35e-39]",
+        "lower": "[0.00073157822381207563076404636717348142 +/- 2.35e-39]",
+        "upper": "[0.00073157822381207563076404636717348142 +/- 2.35e-39]",
+        "mid_float": 0.0007315782238120756,
+        "radius_upper_float": 1.2650637547585727e-80
+      },
+      {
+        "ball": "[0.015861425794062462994403820244010573 +/- 4.99e-37]",
+        "lower": "[0.015861425794062462994403820244010573 +/- 4.99e-37]",
+        "upper": "[0.015861425794062462994403820244010573 +/- 4.99e-37]",
+        "mid_float": 0.015861425794062464,
+        "radius_upper_float": 4.0482040152274326e-79
+      }
+    ],
+    [
+      {
+        "ball": "[9.4856998822848947343927254345179692e-7 +/- 3.67e-42]",
+        "lower": "[9.4856998822848947343927254345179692e-7 +/- 3.67e-42]",
+        "upper": "[9.4856998822848947343927254345179692e-7 +/- 3.67e-42]",
+        "mid_float": 9.485699882284895e-07,
+        "radius_upper_float": 1.2354138230064186e-83
+      },
+      {
+        "ball": "[1.3774929317893233352291155351436677e-5 +/- 1.07e-40]",
+        "lower": "[1.3774929317893233352291155351436677e-5 +/- 1.07e-40]",
+        "upper": "[1.3774929317893233352291155351436677e-5 +/- 1.07e-40]",
+        "mid_float": 1.3774929317893234e-05,
+        "radius_upper_float": 1.9766621168102698e-82
+      },
+      {
+        "ball": "[0.00042437278854330137967849791068113329 +/- 2.25e-39]",
+        "lower": "[0.00042437278854330137967849791068113329 +/- 2.25e-39]",
+        "upper": "[0.00042437278854330137967849791068113329 +/- 2.25e-39]",
+        "mid_float": 0.00042437278854330136,
+        "radius_upper_float": 8.433758354584419e-81
+      }
+    ]
+  ],
+  "exact_final_time": {
+    "rational": "-3341731483575869/2251799813685248",
+    "pi_coefficient": "0"
+  },
+  "wall_seconds_this_process": 752.135481784997
+}

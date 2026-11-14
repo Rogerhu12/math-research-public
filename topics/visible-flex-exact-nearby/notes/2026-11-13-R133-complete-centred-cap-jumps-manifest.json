@@ -1,0 +1,196 @@
+{
+  "kind": "R133_complete_continuous_nonzero_centred_cap_and_all_interface_jumps_manifest",
+  "files": [
+    {
+      "path": "results/R133-supplement-complete-nonzero-centred-cap-with-interface-jumps.md",
+      "sha256": "808f097490c388778a920403df30a80f2cab841f2e7539efec07a429134b7516",
+      "bytes": 18342
+    },
+    {
+      "path": "scripts/fourfold_codazzi_cap_centered_residual_v4.py",
+      "sha256": "ce4b1820a18532d78103bd0d3d93e08986b05612528421362ae6f6f7bc780fd9",
+      "bytes": 18144
+    },
+    {
+      "path": "notes/2026-11-13-R133-centered-cap-r1-v4-native.json.gz",
+      "sha256": "77f7ecd9f9612eb8cc5213dd512aeecd89defe90f36e96f4ce6f1c93a1d8c8b7",
+      "bytes": 255150
+    },
+    {
+      "path": "scripts/fourfold_codazzi_centered_cap_interface_jumps.py",
+      "sha256": "2bbb4e70d00e43a71219f5ab1d1a23af10ddc780227c4ada6ebeffa37a4a680b",
+      "bytes": 10081
+    },
+    {
+      "path": "notes/2026-11-13-R133-centered-cap-r1-v4-jumps-native.json.gz",
+      "sha256": "7cac2a441ae9239168be0d4519957666167dc8883d957d68ce1eff11790842d8",
+      "bytes": 25003
+    },
+    {
+      "path": "scripts/fourfold_codazzi_centered_cap_regularity.py",
+      "sha256": "29be6fef4f0228b22a99d95863f4acf5133971cea2502b8dad44785965a0044d",
+      "bytes": 8654
+    },
+    {
+      "path": "notes/2026-11-13-R133-centered-cap-r1-regularity-native.json.gz",
+      "sha256": "0c2c663331032d04e9a3959201dda032743720dcd0c092bc989fccfc93302ef8",
+      "bytes": 2616
+    },
+    {
+      "path": "notes/2026-11-13-R133-complete-centred-jumps-independent-phase-review.json",
+      "sha256": "50f548589095df6d9a5390dab22e946c4cefed8917c5709c756c2661bb1f8582",
+      "bytes": 5010
+    }
+  ],
+  "prior_preserved_attempts": [
+    {
+      "path": "notes/2026-11-13-R133-centered-cap-r1-rejection-manifest.json",
+      "sha256": "e8bf9689a41feabbf323c47a8b90ab2ab8943bcffe930f9d8aa955756fba7ae4",
+      "bytes": 9254
+    },
+    {
+      "path": "notes/2026-11-13-R133-centered-cap-r1-rejection.md",
+      "sha256": "304be8732bd29367400027a6826e9fb8ecab1abd9a7b3559d4b7ff2d153685a0",
+      "bytes": 3887
+    },
+    {
+      "path": "notes/2026-11-13-R133-centered-cap-r1-v2-native.json.gz",
+      "sha256": "e11a0ebf39b22054f33b0e14940356aab8c0919beae386122b7bfc131401b5b3",
+      "bytes": 232167
+    },
+    {
+      "path": "notes/2026-11-13-R133-centered-cap-r1-v3-native.json.gz",
+      "sha256": "e6f1486f7e461c3383e6184ea284d72fa6059e1f9ad6824c3b8e19e15fbdcf3f",
+      "bytes": 255496
+    },
+    {
+      "path": "notes/2026-11-13-R133-centered-cap-r1-v3-rejection-manifest.json",
+      "sha256": "cf7708cf55a52ae672ac784e3e5fdd22cd30c39e328a3d7aebae40f9996bee09",
+      "bytes": 745
+    },
+    {
+      "path": "notes/2026-11-13-R133-centered-cap-r1-v3-rejection.md",
+      "sha256": "a1908292cc34dd9a5a65bc35dcaa6634d5a7f5d36b11db8ba5b0eab5511cce49",
+      "bytes": 2424
+    },
+    {
+      "path": "notes/2026-11-13-R133-centered-cap-v1-Box-API-failure.json",
+      "sha256": "8481a8fad1ca827097c094791511b831678c2ab882c5a29d5e4bb841ae9b6636",
+      "bytes": 806
+    },
+    {
+      "path": "scripts/fourfold_codazzi_cap_centered_residual.py",
+      "sha256": "f4a4807d10ac356d3929377c2ba60aec5bd4e1d63674784d3965a2c5e0341c4f",
+      "bytes": 13805
+    },
+    {
+      "path": "scripts/fourfold_codazzi_cap_centered_residual_v2.py",
+      "sha256": "822adf25ee2b07c1ca81b2fe8115f5ea8961f9e6edddc8bf1d257416127a1532",
+      "bytes": 14159
+    },
+    {
+      "path": "scripts/fourfold_codazzi_cap_centered_residual_v3.py",
+      "sha256": "1a03b707d482876d0ff4f0de0941f64ed01c895012416003e623d0d3dbb3c6e3",
+      "bytes": 17737
+    }
+  ],
+  "inputs_and_dependencies": [
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "bytes": 1638
+    },
+    {
+      "path": "notes/2026-11-13-Codazzi-rotational-positive-cap-v2-native.json.gz",
+      "sha256": "3a89805ebe1ab22000529a7a8c2fdc262b1c3a2afbc52433cf610d2d6542ff22",
+      "bytes": 2415656
+    },
+    {
+      "path": "notes/2026-11-13-R133-A0-driven-cap-r1-native.json.gz",
+      "sha256": "e780eb3caee46dbd19139ef6b4a2056408bf1039d3eab248fe0bf57fc387c70b",
+      "bytes": 478038
+    },
+    {
+      "path": "notes/2026-11-13-R133-centered-cap-r1-v4-native.json.gz",
+      "sha256": "77f7ecd9f9612eb8cc5213dd512aeecd89defe90f36e96f4ce6f1c93a1d8c8b7",
+      "bytes": 255150
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m64-candidate.npz.gz",
+      "sha256": "4046eb7ac8da162ab9aad9fcb4991933200abdbc2c22ed6329d49bb13d72b856",
+      "bytes": 3516038
+    },
+    {
+      "path": "scripts/fourfold_codazzi_candidate_shards.py",
+      "sha256": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e",
+      "bytes": 4187
+    },
+    {
+      "path": "scripts/fourfold_codazzi_cap_A0_translation_budget.py",
+      "sha256": "320d065038d6ca6478590b54163b1798fd05b431dbc902680c611e2480051783",
+      "bytes": 14329
+    },
+    {
+      "path": "scripts/fourfold_codazzi_cap_centered_residual_v2.py",
+      "sha256": "822adf25ee2b07c1ca81b2fe8115f5ea8961f9e6edddc8bf1d257416127a1532",
+      "bytes": 14159
+    },
+    {
+      "path": "scripts/fourfold_codazzi_cap_centered_residual_v3.py",
+      "sha256": "1a03b707d482876d0ff4f0de0941f64ed01c895012416003e623d0d3dbb3c6e3",
+      "bytes": 17737
+    },
+    {
+      "path": "scripts/fourfold_codazzi_cap_centered_residual_v4.py",
+      "sha256": "ce4b1820a18532d78103bd0d3d93e08986b05612528421362ae6f6f7bc780fd9",
+      "bytes": 18144
+    },
+    {
+      "path": "scripts/fourfold_codazzi_centered_cap_interface_jumps.py",
+      "sha256": "2bbb4e70d00e43a71219f5ab1d1a23af10ddc780227c4ada6ebeffa37a4a680b",
+      "bytes": 10081
+    },
+    {
+      "path": "scripts/fourfold_codazzi_positive_cap_stable_jets.py",
+      "sha256": "b601a1a51e7294c8814a7c3adca87200242150b00f95dd3ab1133a438c3504b8",
+      "bytes": 7846
+    },
+    {
+      "path": "scripts/fourfold_codazzi_rotational_cap_jacobi.py",
+      "sha256": "05dda3acc9cd359c8cd15b61e1d573d310289af984d6923261e61161afc50046",
+      "bytes": 15349
+    },
+    {
+      "path": "scripts/fourfold_codazzi_rotational_cap_jacobi_v2.py",
+      "sha256": "2c0115b9d42e33b8f9db1220b220e0c37ab1c20446109511d1df7930db46b609",
+      "bytes": 7697
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_bulk_box.py",
+      "sha256": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "bytes": 20229
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_bulk_interval.py",
+      "sha256": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "bytes": 18392
+    },
+    {
+      "path": "scripts/fourfold_phase_metric_defect.py",
+      "sha256": "c4196dddcbfab15116c06a9be8a2120916c05d77fe3d7cb152f842f16b80a7de",
+      "bytes": 13046
+    }
+  ],
+  "raw_v4_existence_flag_not_used_without_interface_consumer": true,
+  "all_exact_interfaces_paid": true,
+  "regular_closed_boxes": 935,
+  "candidate_internal_joins": 92,
+  "all_nonzero_dyadic_jump_coefficients": 11868,
+  "one_residual_based_smaller_radius_attempt": true,
+  "actual_driven_cap_exists": true,
+  "full_two_angular_derivatives_certified": true,
+  "body_matched": false,
+  "nonlinear_regular_tail_matched": false,
+  "periodic_frame_holonomy_proved": false,
+  "closed_surface_complete": false
+}

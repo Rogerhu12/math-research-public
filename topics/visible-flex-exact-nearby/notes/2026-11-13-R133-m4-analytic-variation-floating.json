@@ -1,0 +1,372 @@
+{
+  "kind": "floating_analytic_parameter_variation_of_actual_m4_return",
+  "certified": false,
+  "success": true,
+  "source_sha256": "35cb6c4b58ef38391a8cf79a4af5f717f1922b65050987c75a274d32b190fa6c",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "exact_center_parameter": {
+    "numerator": "-7789843107295549",
+    "denominator": "4611686018427387904"
+  },
+  "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "metric_parameter_direction_not_a_fixed_metric_isometry": true,
+  "original_fixed_metric_certificates_modified": false,
+  "primitive_nodes": 512,
+  "rtol": 2e-11,
+  "atol": 2e-13,
+  "cap_max_step": 0.005,
+  "waist_max_step": 0.00025,
+  "cap_calls": 7742,
+  "waist_calls": 11474,
+  "cap_message": "The solver successfully reached the end of the integration interval.",
+  "waist_message": "The solver successfully reached the end of the integration interval.",
+  "cap_reached_radius": 0.239,
+  "waist_reached_radius": 0.239,
+  "exact_finite_formula_parameter_differential": true,
+  "actual_natural_graft_differentiated": true,
+  "regular_q4_initial": 0.9999999999993694,
+  "regular_q4_initial_derivative": 4.4393964321710887e-16,
+  "point_audit_secant_step": 1e-05,
+  "point_audits": [
+    {
+      "r": 0.0,
+      "independent_reference_value_difference": {
+        "a": 0.0,
+        "beta": 0.0,
+        "gamma": 0.0,
+        "K": 0.0,
+        "Cref": -1.1102230246251565e-16,
+        "lambda_ref": 1.1102230246251565e-16
+      },
+      "parameter_derivative": {
+        "a": -0.0002723240645343796,
+        "beta": 0.0,
+        "gamma": -0.0002452894168727379,
+        "K": 0.0008938588555420154,
+        "Cref": -0.00023842276411831378,
+        "lambda_ref": 0.0015189074987145537
+      },
+      "coefficient_central_secant": {
+        "a": -0.00027232406329957826,
+        "beta": 0.0,
+        "gamma": -0.0002452894110049897,
+        "K": 0.0008938588758056197,
+        "Cref": -0.0002384227593132948,
+        "lambda_ref": 0.0015189075219801393
+      },
+      "derivative_minus_secant": {
+        "a": -1.234801323690693e-12,
+        "beta": 0.0,
+        "gamma": -5.867748236083881e-12,
+        "K": -2.0263604379525124e-11,
+        "Cref": -4.805018985780049e-12,
+        "lambda_ref": -2.3265585638587716e-11
+      }
+    },
+    {
+      "r": 0.05,
+      "independent_reference_value_difference": {
+        "a": 0.0,
+        "beta": 0.0,
+        "gamma": 0.0,
+        "K": -2.220446049250313e-16,
+        "Cref": 1.1102230246251565e-16,
+        "lambda_ref": -4.440892098500626e-16
+      },
+      "parameter_derivative": {
+        "a": -0.00027559450651978715,
+        "beta": -0.00011090864744451909,
+        "gamma": -0.0002602403667510457,
+        "K": 0.0010477750872459344,
+        "Cref": -0.00024481169192657625,
+        "lambda_ref": 0.0017049637168804017
+      },
+      "coefficient_central_secant": {
+        "a": -0.0002755945027743678,
+        "beta": -0.00011090864789065068,
+        "gamma": -0.00026024037369509756,
+        "K": 0.001047775072260393,
+        "Cref": -0.0002448116875886086,
+        "lambda_ref": 0.0017049637035526641
+      },
+      "derivative_minus_secant": {
+        "a": -3.7454193392572055e-12,
+        "beta": 4.4613158924500934e-13,
+        "gamma": 6.944051833112502e-12,
+        "K": 1.498554145357156e-11,
+        "Cref": -4.337967647854296e-12,
+        "lambda_ref": 1.3327737568083475e-11
+      }
+    },
+    {
+      "r": 0.239,
+      "independent_reference_value_difference": {
+        "a": 0.0,
+        "beta": 0.0,
+        "gamma": 0.0,
+        "K": -6.938893903907228e-18,
+        "Cref": 1.1102230246251565e-16,
+        "lambda_ref": -6.938893903907228e-18
+      },
+      "parameter_derivative": {
+        "a": -0.0003443041650860265,
+        "beta": 0.0003846833930029934,
+        "gamma": -0.00017255722864701676,
+        "K": -0.0030974950751449515,
+        "Cref": -0.00021587867728579786,
+        "lambda_ref": -0.0038858650385990403
+      },
+      "coefficient_central_secant": {
+        "a": -0.0003443041629580534,
+        "beta": 0.00038468339208508334,
+        "gamma": -0.0001725572240651729,
+        "K": -0.003097495076750944,
+        "Cref": -0.00021587867049532858,
+        "lambda_ref": -0.0038858650401596413
+      },
+      "derivative_minus_secant": {
+        "a": -2.127973090706309e-12,
+        "beta": 9.179100621953262e-13,
+        "gamma": -4.581843856144713e-12,
+        "K": 1.6059926825906512e-12,
+        "Cref": -6.7904692827892854e-12,
+        "lambda_ref": 1.560601040756504e-12
+      }
+    },
+    {
+      "r": 0.8,
+      "independent_reference_value_difference": {
+        "a": 0.0,
+        "beta": 0.0,
+        "gamma": 0.0,
+        "K": 0.0,
+        "Cref": 5.551115123125783e-17,
+        "lambda_ref": 0.0
+      },
+      "parameter_derivative": {
+        "a": -0.00031286671216773534,
+        "beta": -0.00041931574404996993,
+        "gamma": 0.0003344351655959098,
+        "K": -9.958497551937676e-05,
+        "Cref": 9.100788678449997e-06,
+        "lambda_ref": -0.0005595050115223591
+      },
+      "coefficient_central_secant": {
+        "a": -0.00031286671031693913,
+        "beta": -0.0004193157376874978,
+        "gamma": 0.00033443514624309495,
+        "K": -9.958496804962634e-05,
+        "Cref": 9.10078679083881e-06,
+        "lambda_ref": -0.0005595049756834669
+      },
+      "derivative_minus_secant": {
+        "a": -1.8507962089991947e-12,
+        "beta": -6.362472126843904e-12,
+        "gamma": 1.9352814869307705e-11,
+        "K": -7.469750417711009e-12,
+        "Cref": 1.8876111865386664e-12,
+        "lambda_ref": -3.583889218380931e-11
+      }
+    },
+    {
+      "r": 1.5,
+      "independent_reference_value_difference": {
+        "a": 0.0,
+        "beta": 0.0,
+        "gamma": 0.0,
+        "K": -6.938893903907228e-18,
+        "Cref": 2.7755575615628914e-17,
+        "lambda_ref": 2.220446049250313e-16
+      },
+      "parameter_derivative": {
+        "a": -2.321345082842031e-05,
+        "beta": -3.147342566644075e-05,
+        "gamma": 3.133693847246356e-05,
+        "K": 1.2315729819008399e-05,
+        "Cref": -3.0529521354905345e-05,
+        "lambda_ref": -7.689132766996738e-06
+      },
+      "coefficient_central_secant": {
+        "a": -2.32134506061854e-05,
+        "beta": -3.147340166265167e-05,
+        "gamma": 3.1336933048464743e-05,
+        "K": 1.2315730033019e-05,
+        "Cref": -3.052952057824854e-05,
+        "lambda_ref": -7.689116010567432e-06
+      },
+      "derivative_minus_secant": {
+        "a": -2.2223490951135683e-13,
+        "beta": -2.4003789082273352e-11,
+        "gamma": 5.423998815194675e-12,
+        "K": -2.1401060075834383e-13,
+        "Cref": -7.766568082558621e-13,
+        "lambda_ref": -1.675642930616325e-11
+      }
+    },
+    {
+      "r": 2.99,
+      "independent_reference_value_difference": {
+        "a": 0.0,
+        "beta": 0.0,
+        "gamma": 0.0,
+        "K": 6.938893903907228e-18,
+        "Cref": 0.0,
+        "lambda_ref": 4.440892098500626e-16
+      },
+      "parameter_derivative": {
+        "a": -7.3271034251634165e-09,
+        "beta": -1.3908640553670546e-06,
+        "gamma": 1.390864043993768e-06,
+        "K": 1.0023488253740016e-05,
+        "Cref": -2.9238929670634963e-05,
+        "lambda_ref": -2.3839158735618942e-07
+      },
+      "coefficient_central_secant": {
+        "a": -7.327103418490682e-09,
+        "beta": -1.390887405250396e-06,
+        "gamma": 1.390887405250396e-06,
+        "K": 1.002348794243435e-05,
+        "Cref": -2.9238929333263993e-05,
+        "lambda_ref": -2.3839819007775984e-07
+      },
+      "derivative_minus_secant": {
+        "a": -6.672734479747878e-18,
+        "beta": 2.3349883341327232e-11,
+        "gamma": -2.3361256627834077e-11,
+        "K": 3.113056653550241e-13,
+        "Cref": -3.3737096978374813e-13,
+        "lambda_ref": 6.60272157042067e-12
+      }
+    },
+    {
+      "r": 3.0,
+      "independent_reference_value_difference": {
+        "a": 0.0,
+        "beta": 0.0,
+        "gamma": 0.0,
+        "K": 0.0,
+        "Cref": -2.7755575615628914e-17,
+        "lambda_ref": -2.220446049250313e-16
+      },
+      "parameter_derivative": {
+        "a": -6.926836793541526e-09,
+        "beta": -1.3632085544103784e-06,
+        "gamma": 1.3632085442475657e-06,
+        "K": 1.0021288026356064e-05,
+        "Cref": -2.923733773219422e-05,
+        "lambda_ref": -2.3358251894511775e-07
+      },
+      "coefficient_central_secant": {
+        "a": -6.926836813419536e-09,
+        "beta": -1.363176238555752e-06,
+        "gamma": 1.363176238555752e-06,
+        "K": 1.0021287966122117e-05,
+        "Cref": -2.9237338938781218e-05,
+        "lambda_ref": -2.335909243811329e-07
+      },
+      "derivative_minus_secant": {
+        "a": 1.987801038748631e-17,
+        "beta": -3.2315854626400144e-11,
+        "gamma": 3.2305691813714154e-11,
+        "K": 6.023394775306595e-14,
+        "Cref": 1.206586998418963e-12,
+        "lambda_ref": 8.405436015155347e-12
+      }
+    },
+    {
+      "r": 3.0625,
+      "independent_reference_value_difference": {
+        "a": 1.0618405026779909e-17,
+        "beta": 2.5289992322541366e-11,
+        "gamma": -2.5289992322541366e-11,
+        "K": 2.34063463055989e-12,
+        "Cref": -7.033817972512679e-13,
+        "lambda_ref": 7.175493532685095e-11
+      },
+      "parameter_derivative": {
+        "a": -4.875388586199605e-09,
+        "beta": -1.3838191813076799e-06,
+        "gamma": 1.383819176273423e-06,
+        "K": 9.972540296278934e-06,
+        "Cref": -2.924342806690307e-05,
+        "lambda_ref": 2.686028466340404e-07
+      },
+      "coefficient_central_secant": {
+        "a": -4.875388490816444e-09,
+        "beta": -1.38382638681378e-06,
+        "gamma": 1.38382638681378e-06,
+        "K": 9.972538073110826e-06,
+        "Cref": -2.9243424348734944e-05,
+        "lambda_ref": 2.685740518870716e-07
+      },
+      "derivative_minus_secant": {
+        "a": -9.538316092608386e-17,
+        "beta": 7.205506100052352e-12,
+        "gamma": -7.210540356941613e-12,
+        "K": 2.2231681082109274e-12,
+        "Cref": -3.7181681243278215e-12,
+        "lambda_ref": 2.8794746968763274e-11
+      }
+    },
+    {
+      "r": 3.125,
+      "independent_reference_value_difference": {
+        "a": -2.371692252312041e-20,
+        "beta": -2.6645352591003757e-14,
+        "gamma": 2.6645352591003757e-14,
+        "K": -6.591949208711867e-17,
+        "Cref": 7.771561172376096e-16,
+        "lambda_ref": 6.994405055138486e-15
+      },
+      "parameter_derivative": {
+        "a": -3.4319952884837288e-09,
+        "beta": -1.363208554410714e-06,
+        "gamma": 1.3632085519163223e-06,
+        "K": 1.0004886713307253e-05,
+        "Cref": -2.9237337732017406e-05,
+        "lambda_ref": 8.880157893742524e-16
+      },
+      "coefficient_central_secant": {
+        "a": -3.4319951360808807e-09,
+        "beta": -1.363220647476737e-06,
+        "gamma": 1.363220647476737e-06,
+        "K": 1.0004881992320414e-05,
+        "Cref": -2.9237334775444875e-05,
+        "lambda_ref": -1.3877787807814457e-10
+      },
+      "derivative_minus_secant": {
+        "a": -1.5240284805789954e-16,
+        "beta": 1.2093066022969312e-11,
+        "gamma": -1.2095560414720298e-11,
+        "K": 4.720986839304442e-12,
+        "Cref": -2.9565725308798325e-12,
+        "lambda_ref": 1.3877876609393394e-10
+      }
+    }
+  ],
+  "point_audit_scope": "The independent center value provider uses the old exact-graft Arb constructor; coefficient secants are only a check of the analytic finite-formula differential.",
+  "dependency_sha256": {
+    "fourfold_codazzi_rotational_target_parameter.py": "0aa82dfce7871503098da0c8115ca8cdab05603580e1f701b5994801e93c3e86",
+    "fourfold_phase_codazzi_rotational_reference_probe.py": "c8495d0c1721a21a24b48c8cdce9e825a8110f4923edd01e9eb2b7fe76b2d411",
+    "fourfold_codazzi_rotational_cap_jacobi_probe.py": "2bfb4c8d7bca6ffe75d6496f8f9c3baa17ba5ee83045c6ca09dc475853d30114",
+    "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+    "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937"
+  },
+  "limitations": [
+    "Floating finite primitive and unvalidated ODE, even though the differential formulas are analytic.",
+    "The derivative belongs to the separate metric family g_delta, not to a deformation preserving the already fixed g0.",
+    "No sign, interval root, nonlinear bifurcation or regular/full-cap inverse is certified."
+  ],
+  "wall_seconds": 622.6874102229995,
+  "cap_q4": 1.0561807133482948,
+  "cap_q4_derivative": -0.00012944773308945647,
+  "returned_B": -0.6365066061203025,
+  "returned_C": 0.6026310058918047,
+  "returned_B_derivative": -0.0009065172220170602,
+  "returned_C_derivative": 0.0009429326769260415,
+  "return_mismatch": -1.936043169581403e-05,
+  "return_parameter_derivative": 1.1380867735990554e-05,
+  "sampled_Newton_delta": 1.6994492966630474,
+  "sampled_Newton_shift": 1.7011384496270976
+}

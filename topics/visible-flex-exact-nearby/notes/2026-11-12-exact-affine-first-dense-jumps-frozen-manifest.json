@@ -1,0 +1,41 @@
+{
+  "kind": "reintegrated_first43_forward_backward_and_exact_Fraction_jumps",
+  "files": [
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step2_dense258/block_0000_forward.npz.gz",
+      "bytes": 1270790,
+      "sha256": "60b0cc65c70ff5aafe872a3a405b3402d96792d61e3db34a485cd0b3b7a36492"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step2_dense258/block_0000_forward.trace.json",
+      "bytes": 6317,
+      "sha256": "3c3db015984dd946e698bd5ca6dd780ea51078dc923dc0ffb8a6b4bb3fc26706"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step2_dense258/block_0000_forward_jumps.json",
+      "bytes": 21022,
+      "sha256": "5b519298c57dcc9e57a7aa005f0d744ba8c48a9fd92fa2c847ecf22409cd996e"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step2_dense258/block_0000_backward.npz.gz",
+      "bytes": 1590737,
+      "sha256": "ec274caa578f35092a21384e4173562d56499658a84097db4950d183093614f2"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step2_dense258/block_0000_backward.trace.json",
+      "bytes": 6237,
+      "sha256": "18b516beccbd0c65947d99feb6673dd3649da5d80386ff2a279fc1ed47aa09e1"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step2_dense258/block_0000_backward_jumps.json",
+      "bytes": 25782,
+      "sha256": "be4330112bf7d443e437c38e2eeca1c3aebcdeb0dda0215e5ad1d5e835801bea"
+    },
+    {
+      "path": "notes/2026-11-12-exact-affine-dense-jumps.md",
+      "bytes": 4520,
+      "sha256": "53124ba81af57b4da90c19bc129d10fb84661ed3d2c51033d379b1b6cc1ece9b"
+    }
+  ],
+  "scope": "finite reference jumps only; no ODE residual or true-flow certificate"
+}

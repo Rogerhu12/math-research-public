@@ -1,0 +1,73 @@
+{
+  "kind": "actual_forward_density_ordered_finite_correction",
+  "complete": true,
+  "source_sha256": "6fcfe5ff8c4e3ffb9c79f9a613c6bacc244b3a6b707fa78f558cd8933b16342f",
+  "descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+  "label_strip": "1/256",
+  "inner_strip": "3/1024",
+  "requested_domains": [
+    "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0000_r.json.gz"
+  ],
+  "leaves": [
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_pipeline_pilot0/forward_0000_ef134f2a18.json.gz",
+      "sha256": "a6c8560ac4b34a53bb4636c55d4e9672c875156df95f3e975b46947bab15be15",
+      "bytes": 56591,
+      "segment": 0,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ]
+    }
+  ],
+  "exact_initial_time": {
+    "rational": "0",
+    "pi_coefficient": "-1/2"
+  },
+  "exact_final_time": {
+    "rational": "-6959001669112077/4503599627370496",
+    "pi_coefficient": "0"
+  },
+  "summary": {
+    "A": {
+      "ball": "[1.7050029796761694177615277902855014e-12 +/- 1.35e-47]",
+      "lower": "[1.7050029796761694177615277902855014e-12 +/- 1.35e-47]",
+      "upper": "[1.7050029796761694177615277902855014e-12 +/- 1.35e-47]",
+      "mid_float": 1.7050029796761693e-12,
+      "radius_upper_float": 0.0
+    },
+    "E": {
+      "ball": "[1.3221720375139207493621229033814003e-21 +/- 4.32e-57]",
+      "lower": "[1.3221720375139207493621229033814003e-21 +/- 4.32e-57]",
+      "upper": "[1.3221720375139207493621229033814003e-21 +/- 4.32e-57]",
+      "mid_float": 1.3221720375139208e-21,
+      "radius_upper_float": 0.0
+    },
+    "omitted_local_J": {
+      "ball": "[1.0366139972383302558053473087870519e-23 +/- 1.15e-58]",
+      "lower": "[1.0366139972383302558053473087870519e-23 +/- 1.15e-58]",
+      "upper": "[1.0366139972383302558053473087870519e-23 +/- 1.15e-58]",
+      "mid_float": 1.0366139972383303e-23,
+      "radius_upper_float": 0.0
+    },
+    "R": {
+      "ball": "0.00097656250000000000000000000000000000",
+      "lower": "0.00097656250000000000000000000000000000",
+      "upper": "0.00097656250000000000000000000000000000",
+      "mid_float": 0.0009765625,
+      "radius_upper_float": 0.0
+    },
+    "R72_smallness_passed": true,
+    "true_coordinate_flow_error_with_all_local_J_paid": {
+      "ball": "[1.3325381823933500641434467635826247e-21 +/- 3.17e-56]",
+      "lower": "[1.3325381823933500641434467635826247e-21 +/- 3.17e-56]",
+      "upper": "[1.3325381823933500641434467635826247e-21 +/- 3.17e-56]",
+      "mid_float": 1.3325381823933502e-21,
+      "radius_upper_float": 0.0
+    }
+  },
+  "accumulator_path": "data/phase_ring_continuation/step5_forward_density_pipeline_pilot0/ordered_accumulator.json.gz",
+  "accumulator_sha256": "70c0b44ea313e2326b56ab943947fd2f8be1ed5e3bf8989cbe82c7c928eef09f",
+  "all_listed_seams_exact": true,
+  "whole_forward_leg": false
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "root_complete_proof_source_and_native_review",
+  "complete": true,
+  "whole_native_independently_rerun": true,
+  "whole_native_json_equal": true,
+  "all_gates": 66,
+  "proof_and_source_sha256_checks": {
+    "results/R119-supplement-new-deep-profile-full-label-chart.md": true,
+    "results/R119-supplement-new-deep-profile-and-actual-homogeneous-Robin.md": true,
+    "results/R119-supplement-stronger-deep-first-shear-and-complete-local-map.md": true,
+    "results/R119-supplement-uniform-frequency-reference-Airy-Cauchy.md": true,
+    "results/R119-supplement-stronger-deep-full-label-chart-and-fourth-line.md": true,
+    "scripts/fourfold_stronger_deep_full_label_20261113.py": true
+  },
+  "manual_checks": [
+    "monotone capped low window preserves every genuinely high displaced frequency",
+    "full two-row changed-basis seam Q2 and delayed first-seam feedback",
+    "complete low Green and free homogeneous rows include independent mean",
+    "whole finite prefix and both global inverse factors retained in the quadratic multiplication budget",
+    "physical fourth-mode slope transfer across all 8064 unchanged layers",
+    "conditional tiny-label contract is not promoted to actual nonlinear input"
+  ],
+  "scope": "New candidate only. No old metric flex, new Robin, KAM output or same-width nonlinear network inverse follows."
+}

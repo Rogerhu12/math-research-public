@@ -1,0 +1,112 @@
+{
+  "kind": "R106_observed_native_execution_receipt_after_executor_loss",
+  "status": "Actual native executions completed; original full generated files not yet remotely preserved.",
+  "is_full_interval_certificate": false,
+  "repository": "Rogerhu12/math-research",
+  "topic": "topics/visible-flex-exact-nearby",
+  "executor_python": "/home/agent/visible-exact-py0038/bin/python",
+  "native_input_view": "/tmp/r106-native-recovery: read-only symlinks to unchanged old primary reports and frozen source files, plus exact SHA-matched R106T UTF8 input",
+  "executions": [
+    {
+      "task": "exact Fraction extraction of saved nonmean bulk moduli",
+      "exit_code": 0,
+      "source": "scripts/fourfold_subprincipal_extract_saved_bulk_moduli.py",
+      "source_sha256": "5f905b4257e2e968623d87a8315ed035e4b1df37664cef1a407b459e5e0f7f3e",
+      "observed_complete": true,
+      "original_spans": 167,
+      "selected_subcells": 257,
+      "generated_full_report": {
+        "path": "notes/2026-11-13-R106-saved-bulk-moduli.json.gz",
+        "bytes": 13474,
+        "sha256": "5f8ead1a783632d5a942403405cb42bf7d957a3d7a7847c85d138f63b240053e"
+      },
+      "generated_summary": {
+        "path": "notes/2026-11-13-R106-saved-bulk-moduli-summary.json",
+        "sha256": "907f594531826996d62bfe67d551ad8bbea7fe6b1c4098127897ea533d4aced8"
+      },
+      "observed_exact_values": {
+        "old_complex_strict_positive_integral": "115932828694929434880983078391013753475491485746134804888364693/1844674407370955161600000000000000000000000000000000000000",
+        "current_real_positive_integral": "1490375473069046686318380057796480575600544301022205531789721680587225366629444343094210525861759611606059029198948139330619/23714219875802356822747337729779283528349692859523187515280913204820608950258892800000000000000000000000000000000000000",
+        "current_real_primary_integral_with_true_J": "12256354576238254093829186211519125618668352551442979943407648703273067043564195931529223181003050803416787850593484646020892221111/185267342779705912677713576013900652565231975465024902463132134412661007423897600000000000000000000000000000000000000000000"
+      },
+      "scope": "Old delta3 complex-angle density, current delta5 whole eta REAL-angle transfer only. No angular-divergence/cut/root-finite-part claim."
+    },
+    {
+      "task": "actual grounded root phase point",
+      "exit_code": 0,
+      "source": "scripts/fourfold_subprincipal_root_fields.py",
+      "source_sha256": "3a92a7ae5c8d66199ca2599be53590f91d976e89b05a24ec9ddab182367e8ac5",
+      "command": "python scripts/fourfold_subprincipal_root_fields.py --mode point --point 1/16 --out notes/2026-11-13-R106-grounded-root-point.json",
+      "observed_complete": true,
+      "observed_proved": true,
+      "exact_physical_angle": "pi/16",
+      "parameter_half_width": "1/1000000000",
+      "primitive_nodes": 512,
+      "bits": 256,
+      "root_refine_steps": 3,
+      "wall_seconds": 2.495050429002731,
+      "generated_report": {
+        "path": "notes/2026-11-13-R106-grounded-root-point.json",
+        "sha256": "ed32f8bb5d9250edc9c42272427a89a386fcd12ef411778955b34a597b1de0dd"
+      },
+      "observed_fields_for_diagnosis": {
+        "s1": "[127.7283528 +/- 7.76e-8]",
+        "h1": "[72.3502187 +/- 5.50e-8]",
+        "full_phase_c0": "[0.04019413588 +/- 6.44e-12]",
+        "full_phase_c2": "[-0.581610904 +/- 2.60e-10]",
+        "grounded_D_c0": "[-0.00803882718 +/- 5.29e-12]",
+        "grounded_D_c2": "[-1.47196140 +/- 4.77e-9]",
+        "root_endpoint_per_sigma": "[0.2474919185 +/- 9.08e-11]"
+      }
+    },
+    {
+      "task": "continuous whole-parameter grounded root phase strip",
+      "exit_code": 0,
+      "source": "scripts/fourfold_subprincipal_root_fields.py",
+      "source_sha256": "3a92a7ae5c8d66199ca2599be53590f91d976e89b05a24ec9ddab182367e8ac5",
+      "command": "python scripts/fourfold_subprincipal_root_fields.py --mode strip --strip 1/320 --angle-cells 128 --out notes/2026-11-13-R106-grounded-root-strip-320.json.gz",
+      "observed_complete": true,
+      "observed_proved": true,
+      "exact_physical_strip": "1/320",
+      "parameter_half_width": "1/1000000000",
+      "accepted_closed_half_quarter_cells": 64,
+      "failed_cells": 0,
+      "primitive_nodes": 512,
+      "bits": 256,
+      "root_refine_steps": 3,
+      "wall_seconds": 5.277440336998552,
+      "generated_report": {
+        "path": "notes/2026-11-13-R106-grounded-root-strip-320.json.gz",
+        "sha256": "05e731e4f96ae95c4d6e8f5440aaf401a79d333d860fe114097fd5e34604dd99"
+      },
+      "observed_uniform_moduli": {
+        "full_phase_c0": "0.092618347960524260997772216796875000",
+        "full_phase_c2": "1.5096003022044897079467773437500000",
+        "grounded_D_c0": "0.018523669597925618290901184082031250",
+        "grounded_D_c2": "3.5550202541053295135498046875000000",
+        "grounded_root_endpoint_per_sigma": "0.34349999669939279556274414062500000",
+        "grounded_log_density_shear_derivative": "64.585226655006408691406250000000000",
+        "grounded_log_density_theta": "1.3739999867975711822509765625000000",
+        "Y_prime": "0.29637871356680989265441894531250000",
+        "t0": "1.4807827472686767578125000000000000",
+        "s1": "129.17045331001281738281250000000000",
+        "h1": "110.19736695289611816406250000000000",
+        "logU_theta": "2.7479999735951423645019531250000000",
+        "inward_shear_q": "0.99313839944079518318176269531250000",
+        "inward_shear_q_theta": "23.248059481382369995117187500000000"
+      }
+    }
+  ],
+  "unavailable_after_execution": {
+    "last_operation": "git pull --rebase origin main in isolated clone",
+    "from_sha": "390299b08b597fbc8fda81e5303b1435203fe295",
+    "fetched_head_prefix": "b7ccd4f67",
+    "message": "Updating ... Fast-forward, then error: merge died of signal 9",
+    "exit_code": 137,
+    "pull_completed": false,
+    "subsequent_exec": "exec-server transport disconnected; recovery timed out after 45s",
+    "cause": "not determined",
+    "files_copy_to_new_checkout_completed": false
+  },
+  "recovery": "Rerun the unchanged frozen mathematical kernels. This receipt is not reconstructed full JSON/NPZ and must not replace missing interval cells or claim remote storage of the generated gzip files. Exact bulk Fraction outputs above were read directly from the successful native command; strip uniform moduli were read directly from its generated full report before failure."
+}

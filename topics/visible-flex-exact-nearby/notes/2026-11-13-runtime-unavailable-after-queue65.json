@@ -1,0 +1,98 @@
+{
+  "timestamp_utc": "2026-11-13T22:40:00Z",
+  "complete_topic": false,
+  "platform_status": "unavailable",
+  "observed_exec_error": "exec-server transport disconnected; failed to resume exec-server session: recovery timed out after 45s",
+  "queue65": {
+    "actual_helper_exit_code": 0,
+    "last_pushed": "c4958b0fda40acfb91cc0421ada526876957fea8",
+    "commits": [
+      "f63e7809749f2804e99667464dbb2114d6353acf",
+      "37509de725039bf62a1d95ed0de10463e41928ce",
+      "12e153707662280456c0480e6f1dab6aa6c5de55",
+      "1c2e152d9fbb8c679f7d1039652e51c49f0b8505",
+      "2aabfb33ad505095ac13a92b4d1e31d30753332e",
+      "c4958b0fda40acfb91cc0421ada526876957fea8"
+    ]
+  },
+  "continuous_previous_unavailable_handles": [
+    {
+      "id": 80112,
+      "observed_saved_rows": 272
+    },
+    {
+      "id": 78103,
+      "observed_saved_rows": 208
+    },
+    {
+      "id": 88297,
+      "observed_saved_rows": 224
+    },
+    {
+      "id": 37027,
+      "observed_saved_rows": 208
+    }
+  ],
+  "continuous_new_processes": [
+    {
+      "id": 38642,
+      "observed_exit_code": 247,
+      "cause": "unknown",
+      "additional_completed_rows": "not inspected before environment loss"
+    },
+    {
+      "id": 81509,
+      "observed_exit_code": 247,
+      "cause": "unknown",
+      "additional_completed_rows": "not inspected before environment loss"
+    },
+    {
+      "id": 33568,
+      "observed_exit_code": 247,
+      "cause": "unknown",
+      "additional_completed_rows": "not inspected before environment loss"
+    },
+    {
+      "id": 11767,
+      "observed_exit_code": 247,
+      "cause": "unknown",
+      "additional_completed_rows": "not inspected before environment loss"
+    }
+  ],
+  "remote_saved_continuous_prefix_rows": 8,
+  "fullR_geometry": {
+    "id": 9687,
+    "handle": "unavailable",
+    "last_seen_inward_r": 0.54743,
+    "final_report_observed": false
+  },
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "candidate_rebuild": "The published fullR v2 tol2e9 reconstruction manifest contains metadata and hashes, not the five large gzip payloads. Those five parts were only local and were not in f63e780. Recover the original local parts if available; otherwise actually replay the complete chain from the published M128 five-part candidate. Never replace fullR by a cut candidate.",
+  "unpublished_bundles": [
+    "R133-supplement-final-moving-centre-actual-regular-boundary",
+    "R133-supplement-current-moving-body-complete-Airy-collar",
+    "R119-supplement-two-parameter-full-tail-chart-and-actual-regular-line"
+  ],
+  "resume_policy": "Restore original local files if accessible; otherwise rerun published/restored exact sources with original parameters. Missing handles and exit 247 do not establish OOM, signal 137, or failed mathematical gates.",
+  "readme_api_comparison": {
+    "prior": "70820829092fa46ddf943a968509a85e9941b7ee",
+    "head": "6c653316943342acd695b74fa6bad418d0d73431",
+    "root_blob": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topic_blob": "84b6d9fc74ed90ab725aa230cdf348f325505396",
+    "both_unchanged": true,
+    "is_terminal_git_pull": false
+  },
+  "fallback": "Only GitHub connector is available; root README rule 8 permits small text transport. Bounded Actions recovery is being prepared, not yet launched at this checkpoint.",
+  "later_text_correction": {
+    "timestamp_utc": "2026-11-13T23:23:00Z",
+    "original_incident_fields_are_historical": true,
+    "replay_entry": "notes/2026-11-13-R133-final-moving-replay-chain.md",
+    "actual_R_proof_and_source_published": "197c17cb0fffc8c92a89b7389144da7aea6a8f3c",
+    "current_Airy_proof_and_source_published": "1087108c08add57bbfa3b2a2c4af9f419dd30d79",
+    "old_tail_unpublished_files_independently_reproved": "60baaade033a91f1043ed3a3415838171750097c",
+    "actual_R_and_Airy_native_still_require_actual_replay": true,
+    "workflow_run_id": 43522044960,
+    "workflow_job_id": 132218484789,
+    "workflow_result": "failure before runner steps; no mathematical execution; cause unknown"
+  }
+}

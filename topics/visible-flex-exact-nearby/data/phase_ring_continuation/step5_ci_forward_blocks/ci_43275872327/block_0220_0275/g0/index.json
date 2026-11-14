@@ -1,0 +1,73 @@
+{
+  "kind": "actual_forward_density_ordered_finite_correction",
+  "complete": true,
+  "source_sha256": "42185f8a6d132593e9e930ceb6496af0e591750f7219a42767e5120a3b465a7b",
+  "descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+  "label_strip": "1/256",
+  "inner_strip": "3/1024",
+  "requested_domains": [
+    "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0274_r.json.gz"
+  ],
+  "leaves": [
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0220_0275/g0/forward_0274_ef134f2a18.json.gz",
+      "sha256": "6e200264b74df6a6c9f3fd3ffcbd178ac6187b93d940d42cd6c885232f76bbe0",
+      "bytes": 42838,
+      "segment": 274,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ]
+    }
+  ],
+  "exact_initial_time": {
+    "rational": "-2731752146856447/72057594037927936",
+    "pi_coefficient": "0"
+  },
+  "exact_final_time": {
+    "rational": "-610006870484819/18014398509481984",
+    "pi_coefficient": "0"
+  },
+  "summary": {
+    "A": {
+      "ball": "[5.9679733308103633732167287272925266e-11 +/- 3.85e-46]",
+      "lower": "[5.9679733308103633732167287272925266e-11 +/- 3.85e-46]",
+      "upper": "[5.9679733308103633732167287272925266e-11 +/- 3.85e-46]",
+      "mid_float": 5.967973330810364e-11,
+      "radius_upper_float": 0.0
+    },
+    "E": {
+      "ball": "[2.7056438500674277439524460712656756e-21 +/- 4.35e-56]",
+      "lower": "[2.7056438500674277439524460712656756e-21 +/- 4.35e-56]",
+      "upper": "[2.7056438500674277439524460712656756e-21 +/- 4.35e-56]",
+      "mid_float": 2.705643850067428e-21,
+      "radius_upper_float": 0.0
+    },
+    "omitted_local_J": {
+      "ball": "[5.5726239307567607646333681586767040e-20 +/- 3.82e-55]",
+      "lower": "[5.5726239307567607646333681586767040e-20 +/- 3.82e-55]",
+      "upper": "[5.5726239307567607646333681586767040e-20 +/- 3.82e-55]",
+      "mid_float": 5.572623930756761e-20,
+      "radius_upper_float": 0.0
+    },
+    "R": {
+      "ball": "0.00097656250000000000000000000000000000",
+      "lower": "0.00097656250000000000000000000000000000",
+      "upper": "0.00097656250000000000000000000000000000",
+      "mid_float": 0.0009765625,
+      "radius_upper_float": 0.0
+    },
+    "R72_smallness_passed": true,
+    "true_coordinate_flow_error_with_all_local_J_paid": {
+      "ball": "[5.8431994765417237842996612240871767e-20 +/- 3.11e-55]",
+      "lower": "[5.8431994765417237842996612240871767e-20 +/- 3.11e-55]",
+      "upper": "[5.8431994765417237842996612240871767e-20 +/- 3.11e-55]",
+      "mid_float": 5.843199476541724e-20,
+      "radius_upper_float": 0.0
+    }
+  },
+  "accumulator_path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0220_0275/g0/ordered_accumulator.json.gz",
+  "accumulator_sha256": "2da7c01fa00dfca5c26dd911ad2fbed490e23840cd92185801aa3618e0850bea",
+  "all_listed_seams_exact": true,
+  "whole_forward_leg": false
+}

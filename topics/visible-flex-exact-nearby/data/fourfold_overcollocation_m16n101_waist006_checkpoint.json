@@ -1,0 +1,81 @@
+{
+  "status": "floating finite-body approximation; not a closed exact isometric family",
+  "file": "fourfold_overcollocation_m16n101_waist006_checkpoint.npz",
+  "bytes": 39069,
+  "sha256": "598fc957bcc8cd2aa958da3bc2f69d779fd055f7ee9fce39d968d33e4ff306d6",
+  "metadata": {
+    "kind": "floating_actual_spline_finite_body_candidate_not_proof",
+    "parameters": {
+      "modes": 16,
+      "points": 101,
+      "length": 3.0,
+      "mu_scale": 4.0,
+      "means": 3,
+      "gauge": "none",
+      "profile_points": 1201
+    },
+    "epsilon": 0.06,
+    "amplitude_gauge": "exact fourth radial coefficient U4(0), not kernel projection",
+    "radial_gauss_points_per_spline_interval": 2,
+    "objective_positive_modes": 32,
+    "limitations": [
+      "Finite angular approximation",
+      "Finite Robin endpoint",
+      "No actual caps",
+      "Floating arithmetic and sampled diagnostics only"
+    ]
+  },
+  "actual_waist_U4": 0.060000000000000005,
+  "alpha": [
+    0.36730570152220016,
+    -3.98453355584524e-05,
+    -0.016838324066157286
+  ],
+  "actual_spline_diagnostic": {
+    "kind": "floating_actual_spline_samples_not_bounds",
+    "samples": 1301,
+    "angles": 264,
+    "metric_operator_norm_sample": 0.0003520724199835597,
+    "at_x": 0.1125,
+    "at_theta": 0.0,
+    "twice_sampled_radius": 2.415434369798905,
+    "waist_radial_gap": 0.13337591331872056,
+    "gap_ratio_sample": 0.055218189732815906,
+    "max_abs_principal_curvature_sample": 5.8150900768639815,
+    "minimum_support_sample": 0.8773626882734986,
+    "retained_metric_coefficient_sample": 6.649572828435081e-05,
+    "retained_peak": {
+      "mode": 4,
+      "component": "xx",
+      "x": 0.485
+    },
+    "unretained_metric_coefficient_sample": 4.488859875930959e-05,
+    "unretained_peak": {
+      "mode": 72,
+      "component": "tt",
+      "x": 0.0
+    }
+  },
+  "solver": {
+    "script": "scripts/fourfold_overcollocation.py",
+    "radial_rule": "2 Gauss points per positive spline interval",
+    "objective": "all nonzero output modes 4 through 128; fixed background tensor normalization",
+    "amplitude": "U4(0)=.06 exactly by linear elimination; not the previous kernel projection amplitude",
+    "linear_method": "column-equilibrated damped normal equations, actual nonlinear residual line search",
+    "jacobian_drop_tolerance": 1e-15,
+    "nonlinear_residual_dropped": false
+  },
+  "source_sha256": {
+    "fourfold_overcollocation.py": "5d04f5d7460f3b2b3755edbd88595d0dd614f60fd4f271cc664d99740f04ebf8",
+    "fourfold_newton_refined.py": "69a3fe2e9eb77274e3fdd88f3edb23eddc81b7787bb53debbe2e87972d4b821c",
+    "poschl_teller_fourfold_series.py": "173634e9e305dfe12946b4bc792014f2e443f689fc3dd2f5e1dfd834210992c9"
+  },
+  "limitations": [
+    "Ordinary double precision",
+    "Sampled actual spline residual only, not a continuous upper bound",
+    "Finite Fourier ansatz and finite Robin endpoint",
+    "No actual nonlinear infinite tail or fixed caps",
+    "Diameter, curvature and support numbers are samples, not reach or visibility certificates",
+    "The retained and unretained Fourier residuals are separately reported on points between collocation nodes"
+  ]
+}

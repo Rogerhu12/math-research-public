@@ -1,0 +1,130 @@
+{
+  "kind": "actual_final_complete_waist_Galerkin_left_projection_budget",
+  "complete": true,
+  "executed": true,
+  "arithmetic": "exact BigInt rational comparisons; no floating square or fractional roots",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "whole_original_eta": true,
+  "input_waist_row_sha256": "c99e3f6c7fd4975ee8fd1de26fadad7f4e42c6c379a861830d6fa419046b052e",
+  "input_complete_high_tail_sha256": "19fc31617d033a4dcdc92153498592290da23ae58b545f3c5f64dc0ca343a3d9",
+  "complete_odd_u_columns_zero": true,
+  "mean_retained": true,
+  "all_96_cosine_columns_and_infinite_tail_retained": true,
+  "exact_pivot_abs_lower": "24310875605275680647559063361646505313272847456308409349996459603901009509181027781326024151907714955295873628806977/39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816",
+  "exact_complete_L2_dual_norm_squared_upper": "98748234680622464050950371040566967114983999318170589662942043437041425794558038839070199765495683689813269907110515511490111336440255439672006038394575086567834209524394421261440831703802343331483213517250227247584112601357550923000177736924760387718068306676466250912834305036707254423033/40131652080904949243476790488282231640246122763238325954424140190648896440865179612073261537762363061729301215028215161995082338334532195000669973530974432754174985283877903733762083113741475809259744657408000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "exact_midpoint_plus_checked_binary64_proposal_error_squared_upper": "491529364826774913512976152685242732837279049623304177499569266057121685849005877853853974816134669206326041686343988381357172046610840305238729942845815503211776915847827799218987435030678087286561986091436542095606128514571401678134216123378511874311271452798321420082145257/160526608323619796973907161953128926560984491052953303817696560762595585763460718448293046151049452246917204860112860647980329353338128780002679894123897731016699941135511614935048332454965903237038978629632000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "bounds": {
+    "amplitude_functional_L2": "157/100",
+    "mean_preserving_cos4_lift": {
+      "coefficient": "1621/1000",
+      "L2": "1147/1000",
+      "H_one_sixth": "3/2",
+      "H_one_third": "37/20",
+      "H1": "19/4"
+    },
+    "complete_amplitude_kernel_projection": {
+      "L2": "9/5",
+      "H_one_sixth": "43/20",
+      "H_one_third": "13/5",
+      "H1": "31/5"
+    },
+    "complete_actual_row_to_midpoint_and_checked_float_proposal": "3/50000000"
+  },
+  "float_proposal_condition": "each exact midpoint must be converted as float(Fraction(...)); the producer explicitly checks abs(Fraction(float_value)-midpoint)<=2^-52",
+  "exact_row_proof_independent_of_float_proposal": true,
+  "finite_radial_QR_or_Python_execution_claimed": false,
+  "actual_nu_Schur_nonzero_proved": false,
+  "complete_BVP_inverse_proved": false,
+  "gate_count": 22,
+  "gates": [
+    {
+      "name": "actual_complete_current_waist",
+      "passed": true
+    },
+    {
+      "name": "complete_96_columns_and_mean",
+      "passed": true
+    },
+    {
+      "name": "upstream_executed_source_identity",
+      "passed": true
+    },
+    {
+      "name": "actual_infinite_dual_tail",
+      "passed": true
+    },
+    {
+      "name": "executed_actual_complete_high_tail",
+      "passed": true
+    },
+    {
+      "name": "actual_high_tail_below_1e_minus42",
+      "passed": true
+    },
+    {
+      "name": "exact_interval_scale",
+      "passed": true
+    },
+    {
+      "name": "ordered_exact_intervals",
+      "passed": true
+    },
+    {
+      "name": "uniform_actual_amplitude_pivot",
+      "passed": true
+    },
+    {
+      "name": "complete_actual_amplitude_dual_L2_lt_157_over_100",
+      "passed": true
+    },
+    {
+      "name": "cos4_amplitude_coefficient_inverse_lt_1621_over_1000",
+      "passed": true
+    },
+    {
+      "name": "mean_preserving_amplitude_lift_L2_lt_1147_over_1000",
+      "passed": true
+    },
+    {
+      "name": "mean_preserving_amplitude_lift_H1sixth_lt_3_over_2",
+      "passed": true
+    },
+    {
+      "name": "mean_preserving_amplitude_lift_H1third_lt_37_over_20",
+      "passed": true
+    },
+    {
+      "name": "mean_preserving_amplitude_lift_H1_lt_19_over_4",
+      "passed": true
+    },
+    {
+      "name": "complete_oblique_projection_L2_lt_9_over_5",
+      "passed": true
+    },
+    {
+      "name": "rigorous_fractional_17_power_H_one_sixth",
+      "passed": true
+    },
+    {
+      "name": "complete_oblique_projection_H_one_sixth_bound",
+      "passed": true
+    },
+    {
+      "name": "rigorous_fractional_17_power_H_one_third",
+      "passed": true
+    },
+    {
+      "name": "complete_oblique_projection_H_one_third_bound",
+      "passed": true
+    },
+    {
+      "name": "complete_oblique_projection_H1_bound",
+      "passed": true
+    },
+    {
+      "name": "complete_physical_waist_proposal_fee_lt_6e_minus8",
+      "passed": true
+    }
+  ],
+  "producer_sha256": "329890063ef88a9e3492f1328c6c50aa40fcaefbba7da1cf59d00553c566dc4c"
+}

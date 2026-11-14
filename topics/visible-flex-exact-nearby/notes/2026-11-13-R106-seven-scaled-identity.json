@@ -1,0 +1,70 @@
+{
+  "kind": "R106_exact_scaled_seven_field_counterterm_checks",
+  "complete": true,
+  "arithmetic": "exact reduced Gaussian rationals in V8 BigInt",
+  "cases": [
+    {
+      "radial_scale": "1",
+      "sigma": -1,
+      "all_coefficients_exactly_equal": true,
+      "physical_theta_multiplier": 4,
+      "monomials": 28,
+      "largest_physical_theta_mode": 3,
+      "missing_scale_factor_detected": null
+    },
+    {
+      "radial_scale": "1",
+      "sigma": 1,
+      "all_coefficients_exactly_equal": true,
+      "physical_theta_multiplier": 4,
+      "monomials": 28,
+      "largest_physical_theta_mode": 3,
+      "missing_scale_factor_detected": null
+    },
+    {
+      "radial_scale": "1/1024",
+      "sigma": -1,
+      "all_coefficients_exactly_equal": true,
+      "physical_theta_multiplier": 4,
+      "monomials": 28,
+      "largest_physical_theta_mode": 3,
+      "missing_scale_factor_detected": true
+    },
+    {
+      "radial_scale": "1/1024",
+      "sigma": 1,
+      "all_coefficients_exactly_equal": true,
+      "physical_theta_multiplier": 4,
+      "monomials": 28,
+      "largest_physical_theta_mode": 3,
+      "missing_scale_factor_detected": true
+    },
+    {
+      "radial_scale": "3/8192",
+      "sigma": -1,
+      "all_coefficients_exactly_equal": true,
+      "physical_theta_multiplier": 4,
+      "monomials": 28,
+      "largest_physical_theta_mode": 3,
+      "missing_scale_factor_detected": true
+    },
+    {
+      "radial_scale": "3/8192",
+      "sigma": 1,
+      "all_coefficients_exactly_equal": true,
+      "physical_theta_multiplier": 4,
+      "monomials": 28,
+      "largest_physical_theta_mode": 3,
+      "missing_scale_factor_detected": true
+    }
+  ],
+  "free_Tricomi_complete_cut_sminus3": "-5/48",
+  "actual_geometry_computed": false,
+  "native_FFT_executed": false,
+  "all_passed": true,
+  "provenance": {
+    "source": "scripts/fourfold_root_seven_scaled_identity_exact.mjs",
+    "source_sha256": "1549bc3e08bae35a78c9244c27131e92e5584f989d37f18b823e1eb71ad95a15",
+    "execution": "Actual V8 BigInt execution of scaledChecks; six full signed Laurent cases and free Tricomi normalization."
+  }
+}

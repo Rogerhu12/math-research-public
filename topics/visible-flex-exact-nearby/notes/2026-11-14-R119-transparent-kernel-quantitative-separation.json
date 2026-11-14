@@ -1,0 +1,350 @@
+{
+  "kind": "actual_transparent_resonance_kernel_quantitative_separation",
+  "complete": true,
+  "executed": true,
+  "arithmetic": "normalized exact BigInt rational",
+  "gate_count": 43,
+  "gates": [
+    {
+      "name": "quartic_on_fixed_complex_disk",
+      "left": "33179031675007/1",
+      "right": "70368744177664/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "quartic_square_root_modulus",
+      "left": "71/15",
+      "right": "81/16",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "all_four_roots_in_unit_disk_at_J_centre",
+      "left": "51/64",
+      "right": "1/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "simple_root_separation_squared",
+      "left": "1/16",
+      "right": "7/30",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "real_J_Q_upper_factor",
+      "left": "71/8",
+      "right": "9/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "real_J_S_prime_lower",
+      "left": "7/4",
+      "right": "59535/32768",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "real_J_S_second_lower",
+      "left": "7/8",
+      "right": "3825/4096",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "fixed_disk_chebyshev_balance",
+      "left": "11094/21845",
+      "right": "1/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "cauchy_interpolation_remainder_factor",
+      "left": "512/511",
+      "right": "2/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "degree_19_extrapolation_factor",
+      "left": "131074/1",
+      "right": "262144/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "real_P_norm_factor",
+      "left": "39366/1",
+      "right": "65536/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "degree_19_complex_P_factor_exponent",
+      "left": "358/1",
+      "right": "358/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "Hermite_four_roots_five_jets_factor",
+      "left": "160432128000/1",
+      "right": "1099511627776/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "Hermite_root_separation_factor_exponent",
+      "left": "78/1",
+      "right": "80/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "square_root_jet_step_1",
+      "left": "3/1",
+      "right": "4/1",
+      "relation": "le",
+      "pass": true
+    },
+    {
+      "name": "square_root_jet_step_2",
+      "left": "9/1",
+      "right": "9/1",
+      "relation": "le",
+      "pass": true
+    },
+    {
+      "name": "square_root_jet_step_3",
+      "left": "19/1",
+      "right": "25/1",
+      "relation": "le",
+      "pass": true
+    },
+    {
+      "name": "square_root_jet_step_4",
+      "left": "41/1",
+      "right": "49/1",
+      "relation": "le",
+      "pass": true
+    },
+    {
+      "name": "F_complex_growth_dominates_both_terms",
+      "left": "344728266443874206170545512964432112225507069317819522056079337263512430464013488758041250163795618742187466179881075390137788060965945479687942503026964560944636177634999877999198344178485203844929044147251099729920/1",
+      "right": "689456532887748412341091025928864224451014138635639044112158674527024860928026977516082500242976073479223111693916991352080883023896091539947888937618883326765331077022147490374177752073413947198182949091512336515072/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "F_real_error_factor",
+      "left": "1162261467/1",
+      "right": "2147483648/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "F_interpolated_constant",
+      "left": "115435565028499450817223750293389493569569548643941738285004765832751138002433234213127733168608151291425667940352/1",
+      "right": "153914086704665934422965000391185991426092731525255651046673021110334850669910978950836977558144201721900890587136/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "P_root_jet_factor",
+      "left": "4109949519854208148806591044381339797907444460589559773737759200181365793950564776061473247173345230305886208/1",
+      "right": "4697085165547666455778961193578674054751365097816639741414581943064418050229216886927397996769537406063869952/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "real_K_separation_constant",
+      "left": "5678427533559428832416592249125035424637823130369672345949142181098744438385921275985867583701277855943457200048954515105739075223553/1",
+      "right": "22713710134237715329666368996500141698551292521478689383796568724394977753543685103943470334805111423773828800195818060422956300894208/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "abstract_gap_exponent",
+      "left": "28352/1",
+      "right": "28352/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "positive_energy_wave_comparison",
+      "left": "55/1",
+      "right": "128/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "actual_energy_jet_comparison",
+      "left": "4146/1",
+      "right": "16384/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "actual_energy_jet_scale_exponent",
+      "left": "21/1",
+      "right": "21/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "root_jet_to_real_sup_constant",
+      "left": "36/1",
+      "right": "64/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "actual_normalized_gap_exponent",
+      "left": "31424/1",
+      "right": "31424/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "actual_normalized_B_power",
+      "left": "1472/1",
+      "right": "1472/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "actual_normalized_M_power",
+      "left": "127/1",
+      "right": "127/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "initial_scaled_complex_state_factor",
+      "left": "9/1",
+      "right": "10/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "mu_on_fixed_complex_disk",
+      "left": "36028797018972160/1",
+      "right": "72057594037927936/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "full_complex_ODE_and_density_growth",
+      "left": "360287970189639682/1",
+      "right": "1152921504606846976/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "complex_polynomial_prefactor",
+      "left": "400/1",
+      "right": "1024/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "final_constant_bit_exponent",
+      "left": "32694/1",
+      "right": "32768/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "final_complex_exponential_coefficient",
+      "left": "146421031085069565952/1",
+      "right": "147573952589676412928/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "actual_a_lower_comparison_squared",
+      "left": "384/1",
+      "right": "400/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "actual_a_upper_comparison_squared",
+      "left": "256/1",
+      "right": "384/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "final_delta_power",
+      "left": "10941/1",
+      "right": "10941/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "final_J_power",
+      "left": "5552/1",
+      "right": "5552/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "final_mode_power",
+      "left": "766/1",
+      "right": "766/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "final_fixed_tail_bit_exponent",
+      "left": "3104982/1",
+      "right": "4194304/1",
+      "relation": "lt",
+      "pass": true
+    }
+  ],
+  "true_profile": {
+    "j_min": 8193,
+    "delta": "(2/25) 2^(-j)",
+    "a": "delta^(3/2)/(8 sqrt(6))",
+    "Delta": "j/2 < Delta < 3(j+4)",
+    "B": "Delta/a",
+    "Q": "7+30 B x^2 (1-x)^2",
+    "J": "[7/16,15/32]",
+    "centre": "29/64",
+    "half_width": "1/64",
+    "complex_radius": 1024,
+    "root_observation_radius": 2
+  },
+  "normalizations": {
+    "m": "nonzero fourfold physical m, abs(m)>=4",
+    "lambda": "m^2",
+    "left_wave_state": "Euclidean norm 1 in (sqrt(k)u,u_t/sqrt(k)); k=sqrt(7m^2-16)",
+    "full_real_Cauchy": "Kj=2^6000 (j+5)^8 delta^-16",
+    "phase_kernel_span": "P/Q^(9/2), deg(P)<=19"
+  },
+  "abstract_lower": "2^-28352 B^-960 kappa^64 M^-63",
+  "actual_kernel_lower": "2^-32768 a^382 B^-1472 lambda^-383 Kj^-510 exp(-2^67 T)",
+  "T": "1+Delta+chi; chi=1+abs(m)*sqrt(a*(1+Delta))",
+  "explicit_tail_lower": "2^(-2^22) delta^10941 (j+5)^-5552 abs(m)^-766 exp(-2^69*(j+5)-2^66*abs(m)*delta^(3/4)*sqrt(j+5))",
+  "outputs": {
+    "complete_actual_kernel_distance_in_Linfinity_from_both_phase_kernels": true,
+    "frequency_uniform_formula": true,
+    "normalized_C4_control_direction_constructed": false,
+    "true_Wronskian_derivative_gap_after_phase_correction_proved": false,
+    "all_moving_Schur_inverse_proved": false
+  },
+  "inputs": [
+    {
+      "path": "results/R119-supplement-phase-preserving-actual-finite-Schur-controls.md",
+      "git_blob": "5214cfffb5d16f3aebb0105af8aab14b2b5188b1",
+      "used": "actual scalar ODE, density wave ports, real full Cauchy Kj, both phase kernels and exact symmetric-square identity"
+    }
+  ],
+  "no_native_candidate_or_discrete_frequency_samples_used": true,
+  "producer_sha256": "dc0e830069196dc7ce3969394fe824012fc221bc201691ad421b1202164b1219"
+}

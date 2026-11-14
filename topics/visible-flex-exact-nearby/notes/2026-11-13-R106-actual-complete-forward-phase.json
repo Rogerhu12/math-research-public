@@ -1,0 +1,252 @@
+{
+  "kind": "R106_actual_complete_forward_finite_part_phase",
+  "complete": true,
+  "proved": true,
+  "source_sha256": "460fe0c9060beae0a74e3280f4d97edc02ceb5d4f3eca27f795c4eaecc7759f5",
+  "inputs": {
+    "bulk": {
+      "path": "notes/2026-11-13-R106-current-full-complex-bulk-refined-native.json.gz",
+      "sha256": "96a1b25ec8620981cccf01dc4b9f43a7ba5b73227636e711eae0ae296cae2646"
+    },
+    "root": {
+      "path": "notes/2026-11-13-R106-actual-complete-root-phase-sharp-flow.json",
+      "sha256": "3a65b34d78c21753f9d65aa7e7b48742ee74e5b4d5d592d261b86567997016aa"
+    },
+    "ray": {
+      "path": "notes/2026-11-13-R106-integrated-source-ray-refinement.json",
+      "sha256": "8900f79de35d74d4c245f4308d39dd1659d9634fbccbd02627edb94ea2841e27"
+    }
+  },
+  "identity": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "exact_physical_cut": "268136140016943/1125899906842624",
+  "input_normalized_label_strip": "1/1024",
+  "output_normalized_label_strip": "1/2048",
+  "normalized_label_period": "2*pi",
+  "normalization": "The actual flow has physical theta and J=dtheta/dx; no further factor 4 or 1/4 is inserted.",
+  "whole_true_physical_ray_image": {
+    "ball": "[0.0010265666250000000000000000000000000 +/- 3e-42]",
+    "lower": "[0.0010265666250000000000000000000000000 +/- 3e-42]",
+    "upper": "[0.0010265666250000000000000000000000000 +/- 1e-42]",
+    "mid_float": 0.001026566625,
+    "radius_upper_float": 1.6867516709168837e-80
+  },
+  "whole_true_label_J_modulus": {
+    "ball": "[1.0513762560000000000000000000000000 +/- 3e-39]",
+    "lower": "[1.0513762560000000000000000000000000 +/- 3e-39]",
+    "upper": "[1.0513762560000000000000000000000000 +/- 1e-39]",
+    "mid_float": 1.051376256,
+    "radius_upper_float": 1.727233711018889e-77
+  },
+  "positive_bulk_integrated_moduli": {
+    "D": {
+      "ball": "[4364.5279575514252283544504283712921 +/- 4.62e-32]",
+      "lower": "[4364.5279575514252283544504283712921 +/- 4.62e-32]",
+      "upper": "[4364.5279575514252283544504283712921 +/- 4.62e-32]",
+      "mid_float": 4364.527957551425,
+      "radius_upper_float": 0.0
+    },
+    "S": {
+      "ball": "[2.1589339255411264858742725031970328 +/- 1.84e-35]",
+      "lower": "[2.1589339255411264858742725031970328 +/- 1.84e-35]",
+      "upper": "[2.1589339255411264858742725031970328 +/- 1.84e-35]",
+      "mid_float": 2.1589339255411266,
+      "radius_upper_float": 0.0
+    }
+  },
+  "strict_D_contribution": {
+    "ball": "[4588.7610632177443840512471323186053 +/- 1.46e-32]",
+    "lower": "[4588.7610632177443840512471323186053 +/- 1.46e-32]",
+    "upper": "[4588.7610632177443840512471323186053 +/- 1.46e-32]",
+    "mid_float": 4588.761063217745,
+    "radius_upper_float": 0.0
+  },
+  "strict_angular_divergence_contribution": {
+    "ball": "[4421.4966795082270430705100865475231 +/- 3.69e-32]",
+    "lower": "[4421.4966795082270430705100865475231 +/- 3.69e-32]",
+    "upper": "[4421.4966795082270430705100865475231 +/- 3.69e-32]",
+    "mid_float": 4421.496679508227,
+    "radius_upper_float": 0.0
+  },
+  "strict_endpoint_contribution": {
+    "ball": "[20253.225563728814126949945659816877 +/- 4.02e-31]",
+    "lower": "[20253.225563728814126949945659816877 +/- 4.02e-31]",
+    "upper": "[20253.225563728814126949945659816877 +/- 4.02e-31]",
+    "mid_float": 20253.225563728814,
+    "radius_upper_float": 0.0
+  },
+  "both_actual_root_finite_parts": {
+    "ball": "[18549.730006602271781745727984895891 +/- 1.59e-31]",
+    "lower": "[18549.730006602271781745727984895891 +/- 1.59e-31]",
+    "upper": "[18549.730006602271781745727984895891 +/- 1.59e-31]",
+    "mid_float": 18549.730006602273,
+    "radius_upper_float": 0.0
+  },
+  "uncancelled_full_phase_modulus": {
+    "ball": "[47813.213313057057335817430863578896 +/- 1.09e-31]",
+    "lower": "[47813.213313057057335817430863578896 +/- 1.09e-31]",
+    "upper": "[47813.213313057057335817430863578896 +/- 1.09e-31]",
+    "mid_float": 47813.21331305706,
+    "radius_upper_float": 0.0
+  },
+  "root_transport_boundary_modulus": {
+    "ball": "[1961.9602793599663856681303286871305 +/- 3.80e-32]",
+    "lower": "[1961.9602793599663856681303286871305 +/- 3.80e-32]",
+    "upper": "[1961.9602793599663856681303286871305 +/- 3.80e-32]",
+    "mid_float": 1961.9602793599663,
+    "radius_upper_float": 0.0
+  },
+  "both_roots_after_exact_cut_flux_cancellation": {
+    "ball": "[4193.9560194346150744397680921138901 +/- 5.17e-33]",
+    "lower": "[4193.9560194346150744397680921138901 +/- 5.17e-33]",
+    "upper": "[4193.9560194346150744397680921138901 +/- 5.17e-33]",
+    "mid_float": 4193.956019434615,
+    "radius_upper_float": 0.0
+  },
+  "root_transport_B_minus3_finite_modulus": {
+    "ball": "[0.0064404450694691037198418307378055175 +/- 4.85e-38]",
+    "lower": "[0.0064404450694691037198418307378055175 +/- 4.85e-38]",
+    "upper": "[0.0064404450694691037198418307378055175 +/- 4.85e-38]",
+    "mid_float": 0.006440445069469104,
+    "radius_upper_float": 0.0
+  },
+  "root_transport_B_minus1_finite_modulus": {
+    "ball": "[4.2389774138976661327016071171287472 +/- 2.97e-35]",
+    "lower": "[4.2389774138976661327016071171287472 +/- 2.97e-35]",
+    "upper": "[4.2389774138976661327016071171287472 +/- 2.97e-35]",
+    "mid_float": 4.238977413897666,
+    "radius_upper_float": 0.0
+  },
+  "complete_forward_phase_modulus": {
+    "ball": "[13204.213762160586501561525310980019 +/- 4.54e-31]",
+    "lower": "[13204.213762160586501561525310980019 +/- 4.54e-31]",
+    "upper": "[13204.213762160586501561525310980019 +/- 4.54e-31]",
+    "mid_float": 13204.213762160587,
+    "radius_upper_float": 0.0
+  },
+  "Wiener_strip": "1/4096",
+  "complete_nonmean_Wiener_bounds_orders_0_through_12": {
+    "0": {
+      "ball": "[108155715.46313819692179772404434367 +/- 2.82e-27]",
+      "lower": "[108155715.46313819692179772404434367 +/- 2.82e-27]",
+      "upper": "[108155715.46313819692179772404434367 +/- 2.82e-27]",
+      "mid_float": 108155715.4631382,
+      "radius_upper_float": 0.0
+    },
+    "1": {
+      "ball": "[626734261502.89838469007923335342318 +/- 1.23e-24]",
+      "lower": "[626734261502.89838469007923335342318 +/- 1.23e-24]",
+      "upper": "[626734261502.89838469007923335342318 +/- 1.23e-24]",
+      "mid_float": 626734261502.8984,
+      "radius_upper_float": 0.0
+    },
+    "2": {
+      "ball": "[7261752075534156.5103322760630263373 +/- 4.92e-20]",
+      "lower": "[7261752075534156.5103322760630263373 +/- 4.92e-20]",
+      "upper": "[7261752075534156.5103322760630263373 +/- 4.92e-20]",
+      "mid_float": 7261752075534157.0,
+      "radius_upper_float": 0.0
+    },
+    "3": {
+      "ball": "[126209088855072179084.60932960841914 +/- 1.95e-15]",
+      "lower": "[126209088855072179084.60932960841914 +/- 1.95e-15]",
+      "upper": "[126209088855072179084.60932960841914 +/- 1.95e-15]",
+      "mid_float": 1.2620908885507218e+20,
+      "radius_upper_float": 0.0
+    },
+    "4": {
+      "ball": "[2924681526572080637809123.0223786657 +/- 2.16e-11]",
+      "lower": "[2924681526572080637809123.0223786657 +/- 2.16e-11]",
+      "upper": "[2924681526572080637809123.0223786657 +/- 2.16e-11]",
+      "mid_float": 2.9246815265720804e+24,
+      "radius_upper_float": 0.0
+    },
+    "5": {
+      "ball": "[84718165996095386346315124017.256560 +/- 3.53e-7]",
+      "lower": "[84718165996095386346315124017.256560 +/- 3.53e-7]",
+      "upper": "[84718165996095386346315124017.256560 +/- 3.53e-7]",
+      "mid_float": 8.47181659960954e+28,
+      "radius_upper_float": 0.0
+    },
+    "6": {
+      "ball": "[2944799665003150918645417716350940.8 +/- 0.0149]",
+      "lower": "[2944799665003150918645417716350940.8 +/- 0.0149]",
+      "upper": "[2944799665003150918645417716350940.8 +/- 0.0149]",
+      "mid_float": 2.944799665003151e+33,
+      "radius_upper_float": 0.0
+    },
+    "7": {
+      "ball": "[1.1942128891973506029574115805511374e+38 +/- 3.04e+3]",
+      "lower": "[1.1942128891973506029574115805511374e+38 +/- 3.04e+3]",
+      "upper": "[1.1942128891973506029574115805511374e+38 +/- 3.04e+3]",
+      "mid_float": 1.1942128891973506e+38,
+      "radius_upper_float": 0.0
+    },
+    "8": {
+      "ball": "[5.5347715564929905376788239037322409e+42 +/- 4.87e+7]",
+      "lower": "[5.5347715564929905376788239037322409e+42 +/- 4.87e+7]",
+      "upper": "[5.5347715564929905376788239037322409e+42 +/- 4.87e+7]",
+      "mid_float": 5.5347715564929903e+42,
+      "radius_upper_float": 0.0
+    },
+    "9": {
+      "ball": "[2.8858261803343445511125301388714098e+47 +/- 2.88e+11]",
+      "lower": "[2.8858261803343445511125301388714098e+47 +/- 2.88e+11]",
+      "upper": "[2.8858261803343445511125301388714098e+47 +/- 2.88e+11]",
+      "mid_float": 2.8858261803343444e+47,
+      "radius_upper_float": 0.0
+    },
+    "10": {
+      "ball": "[1.6718531516010345927833738035025033e+52 +/- 4.10e+17]",
+      "lower": "[1.6718531516010345927833738035025033e+52 +/- 4.10e+17]",
+      "upper": "[1.6718531516010345927833738035025033e+52 +/- 4.10e+17]",
+      "mid_float": 1.6718531516010345e+52,
+      "radius_upper_float": 0.0
+    },
+    "11": {
+      "ball": "[1.0654149156737941440875575410640322e+57 +/- 1.63e+22]",
+      "lower": "[1.0654149156737941440875575410640322e+57 +/- 1.63e+22]",
+      "upper": "[1.0654149156737941440875575410640322e+57 +/- 1.63e+22]",
+      "mid_float": 1.0654149156737941e+57,
+      "radius_upper_float": 0.0
+    },
+    "12": {
+      "ball": "[7.4067549736856953761463575664923735e+61 +/- 3.13e+26]",
+      "lower": "[7.4067549736856953761463575664923735e+61 +/- 3.13e+26]",
+      "upper": "[7.4067549736856953761463575664923735e+61 +/- 3.13e+26]",
+      "mid_float": 7.406754973685696e+61,
+      "radius_upper_float": 0.0
+    }
+  },
+  "Wiener_convention": "M_q,s(v)=2^(q/2)*sum_n <n>^q*exp(s*abs(n))*abs(v_n); only n!=0 is included in these nonmean bounds.",
+  "all_means_retained": true,
+  "entire_actual_forward_leg": true,
+  "both_actual_root_finite_parts_included": true,
+  "actual_angular_divergence_included": true,
+  "all_strict_cut_endpoint_terms_included": true,
+  "common_cut_fluxes_cancelled_exactly_before_moduli": true,
+  "full_R104_return_coefficient_identified": false,
+  "strong_propagator_remainder_proved": false,
+  "scope": "Complete actual forward finite-part phase coefficient on the saved normalized input label, before the second leg, complete Ai/contact/port return frame and the R101 circle conjugacy.",
+  "wall_seconds": 1.2290622099999382
+}

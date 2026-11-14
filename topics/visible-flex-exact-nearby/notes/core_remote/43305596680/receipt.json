@@ -1,0 +1,35 @@
+{
+  "kind": "actual_remote_true_core_cell_flow_receipt",
+  "run_id": "43305596680",
+  "triggering_commit": "b40a3395e3f96dc2aa02cf579206242c77494c10",
+  "outcome": "success",
+  "python": "3.12.14",
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_core_radial_taylor.py",
+      "sha256": "5303121d11a2af4cd39e67c50a6d23babe6f73e9873f2cf369b93584d983037c",
+      "bytes": 28010
+    },
+    {
+      "path": "scripts/fourfold_phase_core_cell_flow.py",
+      "sha256": "4db55a8c06b1770566416dbc7e7f81a4f004a6e12d8b517ce5007b6e0c7933d4",
+      "bytes": 14690
+    },
+    {
+      "path": "notes/core_remote/43305596680/flow-span90.json",
+      "sha256": "f26e46b555874ed5b719e4f2bffe9ad52c360d8ca0950632e9484868b28a37c4",
+      "bytes": 59022
+    },
+    {
+      "path": "notes/core_remote/43305596680/flow-span90.log",
+      "sha256": "70e1e998324759d79885b16d5e2a38767573d2574c9bc350028d088cf6ed5c35",
+      "bytes": 486
+    },
+    {
+      "path": "notes/core_remote/43305596680/flow-span90.npz",
+      "sha256": "dd99f3a7639b873899cf83f1b29de653b934b2ec51ce2f33b513f9ec29441397",
+      "bytes": 51785
+    }
+  ],
+  "scope": "The complete flag inside the newly executed local-flow report controls its mathematical scope. No full-core or Schur inverse is asserted."
+}

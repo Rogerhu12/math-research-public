@@ -1,0 +1,134 @@
+{
+  "kind": "exact_integer_dyadic_interval_certificate",
+  "status": "undeformed_background_only",
+  "parameters": {
+    "p": 11,
+    "q": 89,
+    "mu": "484/89",
+    "nu": "495/89",
+    "A": "245025/7921"
+  },
+  "background": "h''=(mu^2-(mu^2+mu/4)*sech(x)^2)h; h(0)=1,h'(0)=0,z'=h^-2,z(0)=0",
+  "arithmetic": {
+    "bits": 160,
+    "denominator": "1461501637330902918203684832716283019655932542976",
+    "predicates": "integer comparisons only",
+    "exp": "64-term positive Taylor sum with geometric remainder",
+    "ode": "continuous slab enclosures with Taylor integral remainders"
+  },
+  "interval": {
+    "left": "0",
+    "right": "3/2",
+    "step": "1/400",
+    "cells": 600
+  },
+  "all_cell_assertions": true,
+  "cell_extreme_enclosures": {
+    "radius_squared_upper": {
+      "numerator": "1936749026122305791364110484376446716127266821251",
+      "denominator": "1461501637330902918203684832716283019655932542976",
+      "cell": 205,
+      "direction": "upper",
+      "decimal_display": 1.3251774590272325
+    },
+    "parallel_curvature_upper": {
+      "numerator": "1461501637330902918203684832716283019655932542976",
+      "denominator": "1461501637330902918203684832716283019655932542976",
+      "cell": 0,
+      "direction": "upper",
+      "decimal_display": 1.0
+    },
+    "meridian_curvature_abs_upper": {
+      "numerator": "5433048229191671557397994490058568843463545510357",
+      "denominator": "1461501637330902918203684832716283019655932542976",
+      "cell": 199,
+      "direction": "upper",
+      "decimal_display": 3.717442451254373
+    },
+    "support_lower": {
+      "numerator": "1201056617131907399469606105319947247778453281402",
+      "denominator": "1461501637330902918203684832716283019655932542976",
+      "cell": 599,
+      "direction": "lower",
+      "decimal_display": 0.8217962857197761
+    },
+    "gauss_upper": {
+      "numerator": "4901668677488764834595844840018618016626565076725",
+      "denominator": "1461501637330902918203684832716283019655932542976",
+      "cell": 192,
+      "direction": "upper",
+      "decimal_display": 3.353857807809601
+    },
+    "h_lower": {
+      "numerator": "1393396521776815166338559166338306927631560445314",
+      "denominator": "1461501637330902918203684832716283019655932542976",
+      "cell": 149,
+      "direction": "lower",
+      "decimal_display": 0.9534005889459924
+    }
+  },
+  "endpoint_tests": {
+    "h_above_20": true,
+    "log_slope_above_9_over_2": true,
+    "z_above_81_over_100": true,
+    "z_below_9_over_10": true,
+    "Q_above_22": true,
+    "mu_squared_below_30": true
+  },
+  "tail_tests": {
+    "riccati_lower_barrier": true,
+    "height_below_91_over_100": true,
+    "radius_squared_below_49_over_36": true,
+    "parallel_curvature_below_4": true,
+    "meridian_curvature_below_4": true,
+    "gauss_below_4": true,
+    "support_denominator_below_101_over_100": true,
+    "support_above_4_over_5": true
+  },
+  "endpoint": {
+    "h": {
+      "lower": "33207547637873870448845207153830629443659625424840/1461501637330902918203684832716283019655932542976",
+      "upper": "33214549201341796344647206956543247778584411052541/1461501637330902918203684832716283019655932542976",
+      "lower_decimal_display": 22.721526127414972,
+      "upper_decimal_display": 22.72631679154362
+    },
+    "v": {
+      "lower": "157953711489430117277453879004564319785941411205790/1461501637330902918203684832716283019655932542976",
+      "upper": "157994447635281306412217217470940082596875846078269/1461501637330902918203684832716283019655932542976",
+      "lower_decimal_display": 108.07631510964045,
+      "upper_decimal_display": 108.10418791170284
+    },
+    "z": {
+      "lower": "1216159099578649347728739269215815683810214733649/1461501637330902918203684832716283019655932542976",
+      "upper": "1216292481700981372994367119846214911001395379749/1461501637330902918203684832716283019655932542976",
+      "lower_decimal_display": 0.8321298235420965,
+      "upper_decimal_display": 0.8322210872936552
+    },
+    "w": {
+      "lower": "6950255641433463774273266494025967147992352687017/1461501637330902918203684832716283019655932542976",
+      "upper": "6953513894678532287887109996838432832454717777285/1461501637330902918203684832716283019655932542976",
+      "lower_decimal_display": 4.755557889162895,
+      "upper_decimal_display": 4.7577872765011255
+    },
+    "Q": {
+      "lower": "35052856717058406789556110497456046410115802747787/1461501637330902918203684832716283019655932542976",
+      "upper": "35052856717058406789556110497456046410115802750370/1461501637330902918203684832716283019655932542976",
+      "lower_decimal_display": 23.9841378358456,
+      "upper_decimal_display": 23.9841378358456
+    }
+  },
+  "analytic_tail": "Q>22, w>9/2, h>20 exp((9/2)(x-3/2)), z_infty<91/100",
+  "theorem_bounds": {
+    "radius_below": "7/6",
+    "diameter_below": "7/3",
+    "absolute_principal_curvature_below": "4",
+    "support_above": "4/5",
+    "gauss_below": "4",
+    "reach_above": "1/4",
+    "reach_over_diameter_above": "3/28"
+  },
+  "source_sha256": {
+    "rational_background_interval.py": "54846f9db813112d9b9f04f83872a7382571e295c5baaf5abfb0cecba857be14",
+    "mu4_background_interval.py": "96a419ab6fee958e0ff357124e6a5ccc36d40fbcb78d7133935165b7a6b0081b"
+  }
+}

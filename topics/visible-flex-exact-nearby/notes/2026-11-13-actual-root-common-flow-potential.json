@@ -1,0 +1,221 @@
+{
+  "kind": "actual_complete_root_potential_paired_through_common_characteristics",
+  "complete": true,
+  "proved": true,
+  "source_sha256": "e9176528b2fc19f6c2e3156f74991fc11ca9e54b317dadcc146572979274cf04",
+  "bits": 320,
+  "inputs": {
+    "notes/2026-11-13-actual-root-correlated-potential-v2.json": "f1a1ce3178ee5e82bd49a0cc4f8d6d6f8f7b268588919dc299466df03d649f22"
+  },
+  "identity": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "root": {
+    "ball": "[0.238396874300 +/- 2.71e-13]",
+    "lower": "[0.23839687429972956132053396089863148 +/- 1.44e-36]",
+    "upper": "[0.23839687430000116458653473832827660 +/- 2.84e-37]",
+    "mid_float": 0.23839687429986536,
+    "radius_upper_float": 1.3580163300038871e-13
+  },
+  "exact_canonical_domain": "dist(xi,[-height,height])<=radial_halo; |Im phi|<=angle_strip; the same actual quarter-period circle",
+  "canonical_real_half_height": "1/4000",
+  "canonical_complex_angle_strip": "1/40000",
+  "canonical_complex_radial_halo": "1/100000",
+  "actual_quarter_circle_frequency": [
+    {
+      "ball": "[38.883851605869260037451340394909493748528766345831 +/- 9.60e-50]",
+      "lower": "[38.883851605869260037451340394909493748528766345831 +/- 9.60e-50]",
+      "upper": "[38.883851605869260037451340394909493748528766345831 +/- 9.60e-50]"
+    },
+    {
+      "ball": "[38.883851623091751192884402144045452710671233844610 +/- 3.94e-49]",
+      "lower": "[38.883851623091751192884402144045452710671233844610 +/- 3.94e-49]",
+      "upper": "[38.883851623091751192884402144045452710671233844610 +/- 3.94e-49]"
+    }
+  ],
+  "exact_common_reference": "D0 f=C f, D0=partial_rho+q*partial_theta, f(0)=1",
+  "exact_common_ratio": "Z=(3/2) integral_0^1 t^(1/2) exp(-integral_(t*rho)^rho C(s,Theta_s) ds) dt",
+  "exact_signed_comparison": "F_sigma/f=exp(delta_I_sigma), |delta_I_sigma|<=Kb*|rho|^(5/2)",
+  "exact_Delta_comparison": "Delta/f=Z+delta_Z, |delta_Z|<=Db*|rho|^(5/2)",
+  "exact_ratio": "Delta^2/(F_plus*F_minus)=(Z+delta_Z)^2 exp(-delta_I_plus-delta_I_minus)",
+  "exact_Z_first_jet": "Z=1-(2/5)*rho*C0+rho^2*E_Z",
+  "exact_potential_cancellation": "N/rho^2=H2*ratio-C0^2/5+(rho*C0/4+5/16)*ratio_second_remainder",
+  "bounds": {
+    "C0": {
+      "ball": "94.287603403509891109024465549737215042114257812500",
+      "lower": "94.287603403509891109024465549737215042114257812500",
+      "upper": "94.287603403509891109024465549737215042114257812500"
+    },
+    "full_common_flow_angle_derivative": {
+      "ball": "[4308.4247352272453859347934328286360200210963391747 +/- 2.97e-47]",
+      "lower": "[4308.4247352272453859347934328286360200210963391747 +/- 2.97e-47]",
+      "upper": "[4308.4247352272453859347934328286360200210963391747 +/- 2.97e-47]"
+    },
+    "signed_common_logarithm_Kb": {
+      "ball": "[41229.409669856167774106696994851559152291165650821 +/- 3.61e-46]",
+      "lower": "[41229.409669856167774106696994851559152291165650821 +/- 3.61e-46]",
+      "upper": "[41229.409669856167774106696994851559152291165650821 +/- 3.61e-46]"
+    },
+    "signed_common_logarithm_modulus": {
+      "ball": "[4.9387441349149638685882050904126593474551986504915e-5 +/- 2.04e-55]",
+      "lower": "[4.9387441349149638685882050904126593474551986504915e-5 +/- 2.04e-55]",
+      "upper": "[4.9387441349149638685882050904126593474551986504915e-5 +/- 2.04e-55]"
+    },
+    "signed_common_exponential_remainder_coefficient": {
+      "ball": "[41231.445935190651356434054796221486338827842155082 +/- 9.36e-47]",
+      "lower": "[41231.445935190651356434054796221486338827842155082 +/- 9.36e-47]",
+      "upper": "[41231.445935190651356434054796221486338827842155082 +/- 9.36e-47]"
+    },
+    "Delta_over_common_f_branch_remainder_coefficient": {
+      "ball": "[15890.722432499768358537259117819241207117832341217 +/- 2.55e-46]",
+      "lower": "[15890.722432499768358537259117819241207117832341217 +/- 2.55e-46]",
+      "upper": "[15890.722432499768358537259117819241207117832341217 +/- 2.55e-46]"
+    },
+    "common_ratio_second_remainder": {
+      "ball": "[6824.3114073553224482772540270234170077006290362451 +/- 2.23e-47]",
+      "lower": "[6824.3114073553224482772540270234170077006290362451 +/- 2.23e-47]",
+      "upper": "[6824.3114073553224482772540270234170077006290362451 +/- 2.23e-47]"
+    },
+    "common_ratio_modulus": {
+      "ball": "[1.0106805534691752712462540540979416263244097157005 +/- 7.74e-51]",
+      "lower": "[1.0106805534691752712462540540979416263244097157005 +/- 7.74e-51]",
+      "upper": "[1.0106805534691752712462540540979416263244097157005 +/- 7.74e-51]"
+    },
+    "squared_common_ratio_second_remainder": {
+      "ball": "[15213.426962967324207877143191384716798254641200767 +/- 1.41e-46]",
+      "lower": "[15213.426962967324207877143191384716798254641200767 +/- 1.41e-46]",
+      "upper": "[15213.426962967324207877143191384716798254641200767 +/- 1.41e-46]"
+    },
+    "true_signed_branch_ratio_second_remainder": {
+      "ball": "[1912.0280465339444161755223186992523895340667703471 +/- 2.66e-47]",
+      "lower": "[1912.0280465339444161755223186992523895340667703471 +/- 2.66e-47]",
+      "upper": "[1912.0280465339444161755223186992523895340667703471 +/- 2.66e-47]"
+    },
+    "complete_ratio_second_remainder": {
+      "ball": "[17125.455009501268624052665510083969187788707971114 +/- 6.67e-47]",
+      "lower": "[17125.455009501268624052665510083969187788707971114 +/- 6.67e-47]",
+      "upper": "[17125.455009501268624052665510083969187788707971114 +/- 6.67e-47]"
+    },
+    "complete_ratio_modulus": {
+      "ball": "[1.0216145630220228502431892806811604368046990376311 +/- 3.38e-50]",
+      "lower": "[1.0216145630220228502431892806811604368046990376311 +/- 3.38e-50]",
+      "upper": "[1.0216145630220228502431892806811604368046990376311 +/- 3.38e-50]"
+    },
+    "complete_H_second_remainder": {
+      "ball": "14198.342143362493516178801655769348144531250000000",
+      "lower": "14198.342143362493516178801655769348144531250000000",
+      "upper": "14198.342143362493516178801655769348144531250000000"
+    },
+    "full_numerator_over_rho_squared": {
+      "ball": "[21743.961698440839816992624731516009629475749648048 +/- 3.99e-46]",
+      "lower": "[21743.961698440839816992624731516009629475749648048 +/- 3.99e-46]",
+      "upper": "[21743.961698440839816992624731516009629475749648048 +/- 3.99e-46]"
+    },
+    "full_canonical_potential": {
+      "ball": "[22575.093445175051381298919581638688058579883725087 +/- 1.27e-46]",
+      "lower": "[22575.093445175051381298919581638688058579883725087 +/- 1.27e-46]",
+      "upper": "[22575.093445175051381298919581638688058579883725087 +/- 1.27e-46]"
+    },
+    "full_shifted_5050_residual": {
+      "ball": "[27625.093445175051381298919581638688058579883725087 +/- 1.27e-46]",
+      "lower": "[27625.093445175051381298919581638688058579883725087 +/- 1.27e-46]",
+      "upper": "[27625.093445175051381298919581638688058579883725087 +/- 1.27e-46]"
+    },
+    "full_real_segment_radial_derivative": {
+      "ball": "[2257509344.5175051381298919581638688058579883725087 +/- 1.27e-41]",
+      "lower": "[2257509344.5175051381298919581638688058579883725087 +/- 1.27e-41]",
+      "upper": "[2257509344.5175051381298919581638688058579883725087 +/- 1.27e-41]"
+    },
+    "full_negative_height_Volterra_norm": {
+      "ball": "[0.00086328417016172035566559123692620900183062136640897 +/- 2.71e-54]",
+      "lower": "[0.00086328417016172035566559123692620900183062136640897 +/- 2.71e-54]",
+      "upper": "[0.00086328417016172035566559123692620900183062136640897 +/- 2.71e-54]"
+    },
+    "full_negative_height_Volterra_resolvent": {
+      "ball": "[1.0008640300736468433409431132739813407183805099406 +/- 3.08e-50]",
+      "lower": "[1.0008640300736468433409431132739813407183805099406 +/- 3.08e-50]",
+      "upper": "[1.0008640300736468433409431132739813407183805099406 +/- 3.08e-50]"
+    },
+    "full_positive_finite_zero_two_trace_relative_fee": {
+      "ball": "[0.00014295844929384481635937901112882867724197106682732 +/- 4.63e-54]",
+      "lower": "[0.00014295844929384481635937901112882867724197106682732 +/- 4.63e-54]",
+      "upper": "[0.00014295844929384481635937901112882867724197106682732 +/- 4.63e-54]"
+    },
+    "full_positive_finite_zero_two_trace_coercivity": {
+      "ball": "[0.99985704155070615518364062098887117132275802893317 +/- 2.68e-51]",
+      "lower": "[0.99985704155070615518364062098887117132275802893317 +/- 2.68e-51]",
+      "upper": "[0.99985704155070615518364062098887117132275802893317 +/- 2.68e-51]"
+    },
+    "original_complete_potential_bound": {
+      "ball": "[752813.54168679381899328480432787956064328878086609 +/- 4.54e-45]",
+      "lower": "[752813.54168679381899328480432787956064328878086609 +/- 4.54e-45]",
+      "upper": "[752813.54168679381899328480432787956064328878086609 +/- 4.54e-45]"
+    },
+    "complete_bound_improvement_factor": {
+      "ball": "[33.347084188822783667717394683324127863834140038957 +/- 3.74e-49]",
+      "lower": "[33.347084188822783667717394683324127863834140038957 +/- 3.74e-49]",
+      "upper": "[33.347084188822783667717394683324127863834140038957 +/- 3.74e-49]"
+    }
+  },
+  "potential_domain": "entire paid two-sided fixed canonical product domain including radial halo",
+  "radial_derivative_domain": "real xi in [-height,height], complete complex phi strip; no claim on radial halo boundary",
+  "complex_qtheta_scope": "Cauchy on the original full field strip, restricted only to the common nested paths and their straight angular comparison segments, all with the recorded strict margin",
+  "all_modes_all_true_parameters_all_field_errors_retained": true,
+  "original_positive_negative_height_Piola_and_all_ports_unchanged": true,
+  "old_finite_positive_approximate_chart_used": false,
+  "full_returned_Rstar_recomputed": false,
+  "finite_head_inverse_proved": false,
+  "gates": [
+    {
+      "name": "same complete nested signed/common path margin is positive",
+      "passed": true
+    },
+    {
+      "name": "both actual signed logarithmic comparisons are bounded with their full complex paths",
+      "passed": true
+    },
+    {
+      "name": "paired ratio second remainder improves independent signed-density bounds",
+      "passed": true
+    },
+    {
+      "name": "paired actual potential improves the complete preceding native bound",
+      "passed": true
+    },
+    {
+      "name": "all-frequency negative height Volterra including mean is a contraction",
+      "passed": true
+    },
+    {
+      "name": "same finite positive-collar zero-two-trace form remains coercive",
+      "passed": true
+    }
+  ],
+  "dependencies": {
+    "fourfold_negative_canonical_cancellation_chart.py": "650ceef0ea91bdf5f4ef86d114fb6dc412bef3a0b4b915910135357967ec0c8d",
+    "fourfold_negative_collar_root_fourier_budget.py": "08866307bf0de20183db15387f16ec0f2f3a65d67bfec6e9229b27a65a902b9b",
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "fourfold_phase_root_fourier_fit.py": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604"
+  },
+  "scope": "Complete same true root potential bound, sharpened by paired signed/common characteristic identities. Canonical product, physical source, density, height and every mean/regular port are those already paid for the exact old object. Complete return and finite-head inverses are not inferred.",
+  "seconds": 0.041518193000229076
+}

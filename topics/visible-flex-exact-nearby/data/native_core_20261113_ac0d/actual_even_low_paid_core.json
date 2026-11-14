@@ -1,0 +1,211 @@
+{
+  "kind": "actual_even_retained_core_cap_block_with_center_cap_scope",
+  "complete": true,
+  "source_sha256": "bbb99a3e1eee8e3f73d63381ce1daa60bff2b85f99cfe0ba10bd03d51b03874f",
+  "bits": 256,
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "exact_center_parameter": "-7789843107295549/4611686018427387904",
+  "exact_parameter_interval": [
+    "-15214546326135873881617/9007199254740992000000000",
+    "-15214528311737364399633/9007199254740992000000000"
+  ],
+  "input_reports": [
+    {
+      "path": "data/native_core_20261113_ac0d/complete_uniform_even_core.json",
+      "sha256": "341a166d8b0e761ceefb87ccfe54e21f8118180412bd22fdc6112c1d21a9a39b"
+    },
+    {
+      "path": "data/native_core_20261113_ac0d/family_quarter_cut.json",
+      "sha256": "31989657349655ce09ebbdd52aa97048db29cb926827cf01440a72f1699e2de7"
+    },
+    {
+      "path": "notes/2026-11-12-actual-cap-compression-energy.json",
+      "sha256": "4cf5f4e7f877ba4fafa4802c7f5669709284c0b07d2442948cad76a2df1f09a1"
+    }
+  ],
+  "input_arrays": [
+    {
+      "path": "data/native_core_20261113_ac0d/complete_uniform_even_core.npz",
+      "sha256": "53de2b376532718740456c2d83287b267e4b9df196479db5db9035d8591f791d",
+      "bytes": 1463,
+      "definition": "core_DN_even_waist is an exact dyadic Hermitian center with the complete radius stated above. The positive transfer is a diagnostic selected center with its separate selection fee."
+    },
+    {
+      "path": "data/native_core_20261113_ac0d/family_quarter_cut.npz",
+      "sha256": "dd08f0fe81ebff26478daec08d687ce70371a0ee260d2dd2f5d3058c7ad172d9",
+      "bytes": 28558
+    },
+    {
+      "path": "notes/2026-11-12-actual-cap-compression-energy.npz",
+      "sha256": "12dd7f148604ce1e3692a7197a16ac7bbf77c006e2bbf45b3a006069f4787f88",
+      "bytes": 4262
+    }
+  ],
+  "physical_cut": "1/4",
+  "modes": 4,
+  "dimension": 6,
+  "exact_retained_operator": "embed(Y_cos(p)^* DN_even(p) Y_cos(p)-S_cos(p)) + Ccap_cos(p)",
+  "saved_center_definition": "The exact algebraic expression in the three selected centers, compressed in the exact normalized cosine/paired-waist basis. Saved binary64 center selection is paid separately and is not substituted into the inverse proof.",
+  "inverse_certificate": {
+    "dimension": 6,
+    "inverse_certified": true,
+    "saved_center_selection_error": {
+      "ball": "[3.6554059192685247049468532666515539e-16 +/- 3.18e-51]",
+      "lower": "[3.6554059192685247049468532666515539e-16 +/- 3.18e-51]",
+      "upper": "[3.6554059192685247049468532666515539e-16 +/- 3.18e-51]",
+      "mid_float": 3.655405919268525e-16,
+      "radius_upper_float": 0.0
+    },
+    "inverse_candidate_residual": {
+      "ball": "[2.2359822195754737435844759379854343e-15 +/- 4.22e-50]",
+      "lower": "[2.2359822195754737435844759379854343e-15 +/- 4.22e-50]",
+      "upper": "[2.2359822195754737435844759379854343e-15 +/- 4.22e-50]",
+      "mid_float": 2.235982219575474e-15,
+      "radius_upper_float": 0.0
+    },
+    "inverse_candidate_norm": {
+      "ball": "[63.179794308324309489495066391643083 +/- 4.05e-34]",
+      "lower": "[63.179794308324309489495066391643083 +/- 4.05e-34]",
+      "upper": "[63.179794308324309489495066391643083 +/- 4.05e-34]",
+      "mid_float": 63.17979430832431,
+      "radius_upper_float": 0.0
+    },
+    "exact_parity_block_inverse_norm_upper": {
+      "ball": "[63.179794308324450758391776240831411 +/- 1.91e-34]",
+      "lower": "[63.179794308324450758391776240831411 +/- 1.91e-34]",
+      "upper": "[63.179794308324450758391776240831411 +/- 1.91e-34]",
+      "mid_float": 63.17979430832445,
+      "radius_upper_float": 0.0
+    }
+  },
+  "whole_interval_core_fee": {
+    "ball": "[0.0016841311211178724902994608437905345 +/- 7.26e-39]",
+    "lower": "[0.0016841311211178724902994608437905345 +/- 7.26e-39]",
+    "upper": "[0.0016841311211178724902994608437905345 +/- 7.26e-39]",
+    "mid_float": 0.0016841311211178724,
+    "radius_upper_float": 0.0
+  },
+  "whole_interval_projected_multiplier_fee": {
+    "ball": "[5.1460098654706301424396925776375119e-7 +/- 1.56e-43]",
+    "lower": "[5.1460098654706301424396925776375119e-7 +/- 1.56e-43]",
+    "upper": "[5.1460098654706301424396925776375119e-7 +/- 1.56e-43]",
+    "mid_float": 5.14600986547063e-07,
+    "radius_upper_float": 0.0
+  },
+  "center_cap_fee": {
+    "ball": "[0.00075782973561190229503967443393436419 +/- 4.64e-40]",
+    "lower": "[0.00075782973561190229503967443393436419 +/- 4.64e-40]",
+    "upper": "[0.00075782973561190229503967443393436419 +/- 4.64e-40]",
+    "mid_float": 0.0007578297356119023,
+    "radius_upper_float": 0.0
+  },
+  "total_paid_center_matrix_fee": {
+    "ball": "[0.0024424754577163218483533792469826624 +/- 4.90e-38]",
+    "lower": "[0.0024424754577163218483533792469826624 +/- 4.90e-38]",
+    "upper": "[0.0024424754577163218483533792469826624 +/- 4.90e-38]",
+    "mid_float": 0.002442475457716322,
+    "radius_upper_float": 0.0
+  },
+  "paid_Banach_product": {
+    "ball": "[0.15431509702164782880790223074689784 +/- 8.98e-37]",
+    "lower": "[0.15431509702164782880790223074689784 +/- 8.98e-37]",
+    "upper": "[0.15431509702164782880790223074689784 +/- 8.98e-37]",
+    "mid_float": 0.15431509702164783,
+    "radius_upper_float": 0.0
+  },
+  "actual_center_retained_block_inverse_certified": true,
+  "actual_center_retained_block_inverse_upper": {
+    "ball": "[74.708433467141751892660917693043445 +/- 2.84e-34]",
+    "lower": "[74.708433467141751892660917693043445 +/- 2.84e-34]",
+    "upper": "[74.708433467141751892660917693043445 +/- 2.84e-34]",
+    "mid_float": 74.70843346714175,
+    "radius_upper_float": 0.0
+  },
+  "uniform_family_with_cap_frozen_at_center_certified": true,
+  "true_cap_family_variation_paid": false,
+  "entire_actual_parameter_family_certified": false,
+  "remaining_cap_variation_or_other_error_allowance": {
+    "ball": "[0.013385369677706062433748114502975232 +/- 1.50e-37]",
+    "lower": "[0.013385369677706062433748114502975232 +/- 1.50e-37]",
+    "upper": "[0.013385369677706062433748114502975232 +/- 1.50e-37]",
+    "mid_float": 0.013385369677706063,
+    "radius_upper_float": 0.0
+  },
+  "true_center_cap_cosine_norm_upper": {
+    "ball": "[1.1728891892580792323879441176997295 +/- 2.70e-35]",
+    "lower": "[1.1728891892580792323879441176997295 +/- 2.70e-35]",
+    "upper": "[1.1728891892580792323879441176997295 +/- 2.70e-35]",
+    "mid_float": 1.1728891892580793,
+    "radius_upper_float": 0.0
+  },
+  "sufficient_relative_cap_form_variation": {
+    "ball": "[0.011412305442232858201781840558330550 +/- 4.11e-38]",
+    "lower": "[0.011412305442232858201781840558330550 +/- 4.11e-38]",
+    "upper": "[0.011412305442232858201781840558330550 +/- 4.11e-38]",
+    "mid_float": 0.011412305442232859,
+    "radius_upper_float": 0.0
+  },
+  "relative_cap_form_contract": "If (1-epsilon)b0<=bp<=(1+epsilon)b0 on the common complete cap energy space, with both regular trace/flux ports retained, minimization gives the same Loewner inequalities for the complete DN form. The cosine finite compression differs by at most epsilon*||Ccap_cos(0)||. The displayed strict allowance is sufficient; it is not claimed proved here.",
+  "exact_height_norm_upper": {
+    "ball": "[0.25758607220488847422058485613979420 +/- 1.64e-36]",
+    "lower": "[0.25758607220488847422058485613979420 +/- 1.64e-36]",
+    "upper": "[0.25758607220488847422058485613979420 +/- 1.64e-36]",
+    "mid_float": 0.2575860722048885,
+    "radius_upper_float": 0.0
+  },
+  "whole_family_height_norm_upper": {
+    "ball": "[0.25758608081032606728469750364116262 +/- 3.30e-36]",
+    "lower": "[0.25758608081032606728469750364116262 +/- 3.30e-36]",
+    "upper": "[0.25758608081032606728469750364116262 +/- 3.30e-36]",
+    "mid_float": 0.2575860808103261,
+    "radius_upper_float": 0.0
+  },
+  "exact_core_center_norm_upper": {
+    "ball": "[82.068994515889454816306356141848406 +/- 2.41e-34]",
+    "lower": "[82.068994515889454816306356141848406 +/- 2.41e-34]",
+    "upper": "[82.068994515889454816306356141848406 +/- 2.41e-34]",
+    "mid_float": 82.06899451588946,
+    "radius_upper_float": 0.0
+  },
+  "raw_uniform_core_DN_radius": {
+    "ball": "[0.025382308519173338637084672906554375 +/- 6.11e-38]",
+    "lower": "[0.025382308519173338637084672906554375 +/- 6.11e-38]",
+    "upper": "[0.025382308519173338637084672906554375 +/- 6.11e-38]",
+    "mid_float": 0.02538230851917334,
+    "radius_upper_float": 0.0
+  },
+  "paired_angular_mean_retained": true,
+  "paired_regular_trace_and_flux_retained": true,
+  "translation_border_in_other_representation": true,
+  "old_selected_sector_comparison": {
+    "path": "data/native_core_20261113_ac0d/finite_low_dihedral.json",
+    "sha256": "9086c5803b9f20da072d615a0c69f4459cd6cdf0a5d6f52fd263f195e88c0198",
+    "exact_center_difference": {
+      "ball": "[3.5525650781369819558909099541618152e-10 +/- 1.06e-46]",
+      "lower": "[3.5525650781369819558909099541618152e-10 +/- 1.06e-46]",
+      "upper": "[3.5525650781369819558909099541618152e-10 +/- 1.06e-46]",
+      "mid_float": 3.552565078136982e-10,
+      "radius_upper_float": 0.0
+    }
+  },
+  "discarded_height_channels_paid": false,
+  "infinite_high_feedback_paid": false,
+  "rigorous_full_Schur_inverse": false,
+  "scope": [
+    "The center retained finite core/cap operator is invertible with all radial core error now paid.",
+    "The entire stated parameter interval is paid for the core and interface only; the actual varying cap still needs its own form or matrix comparison.",
+    "All finite cap input columns include the complete cap response, but the additional chart-generated high height channels and the coupled infinite high problem remain unpaid.",
+    "The finite core ODE crosses the turning roots regularly; no strict-negative PDE energy estimate is extended to the positive collars inside the quarter cuts."
+  ],
+  "dependency_sha256": {
+    "fourfold_phase_low_feedback_paid_inputs.py": "4e50c307b451aa574af994ac4bfc9a5da1e057de6fdc024a2854dd58ec4e06b8",
+    "fourfold_phase_low_block_dihedral.py": "ec7db94080f88695c06fff30f617a37d6bb44781eb42adfb2bfd0176ffc52f78",
+    "fourfold_phase_cap_energy_collect.py": "e15fd40314ecd539c7e162041de70f18e7bae153e244fbc4e6df82e39107b11f",
+    "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f"
+  },
+  "arrays": {
+    "path": "data/native_core_20261113_ac0d/actual_even_low_paid_core.npz",
+    "sha256": "75564e275608c7de0cbd39ef5d8cf2b6d445433194f6d88dc19620ff6ab35ac0",
+    "bytes": 2824
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "passed": true,
+  "gate_count": 28,
+  "gates": [
+    {
+      "name": "actual_quadratic_discriminant",
+      "passed": true,
+      "detail": "discriminant is 5 for exact determinant +/-1"
+    },
+    {
+      "name": "exact_Golden_Mobius_root",
+      "passed": true,
+      "detail": "r**2*v**2 - 2*r*s*u*v + s**2*u**2"
+    },
+    {
+      "name": "all_unimodular_parities",
+      "passed": true,
+      "detail": "all six invertible matrices over F2"
+    },
+    {
+      "name": "actual_angle_approximation",
+      "passed": true,
+      "detail": "rational error kappa/2048 plus Golden tail kappa/1024"
+    },
+    {
+      "name": "all_partial_quotients",
+      "passed": true,
+      "detail": "prefix q<2048/kappa, new H+1<2048/kappa"
+    },
+    {
+      "name": "Diophantine_ray_gap",
+      "passed": true,
+      "detail": "4/(K+2)>kappa/4096 for 0<kappa<1"
+    },
+    {
+      "name": "quadratic_leading_coefficient",
+      "passed": true,
+      "detail": "sqrt(A)<s+r<2^14/kappa"
+    },
+    {
+      "name": "principal_parameter_exact_radius",
+      "passed": true,
+      "detail": "true G_i derivative and Theta=(omega-Omega0)/4"
+    },
+    {
+      "name": "full_beta_parameter_exact_radius",
+      "passed": true,
+      "detail": "complete beta=-b/2, true transverse derivative"
+    },
+    {
+      "name": "complete_integer_norm",
+      "passed": true,
+      "detail": "-2*aa*alpha*eps*q + aa*eps**2 + bb*eps*q"
+    },
+    {
+      "name": "true_phase_scale",
+      "passed": true,
+      "detail": "F=beta+(pi/2)q epsilon, q=2n"
+    },
+    {
+      "name": "lattice_spacing",
+      "passed": true,
+      "detail": "[1.40496294620814527863127492864097895989330183741344048400 +/- 2.67e-57]"
+    },
+    {
+      "name": "high_norm_correction",
+      "passed": true,
+      "detail": "correction < A(B+1)^2/n^2"
+    },
+    {
+      "name": "high_tail_gap",
+      "passed": true,
+      "detail": "lattice gap minus exact quadratic correction"
+    },
+    {
+      "name": "lattice_bad_measure",
+      "passed": true,
+      "detail": "at most four intersecting lattice intervals"
+    },
+    {
+      "name": "finite_phase_bad_measure",
+      "passed": true,
+      "detail": "at most two intervals per n, all n<=N"
+    },
+    {
+      "name": "positive_actual_good_set",
+      "passed": true,
+      "detail": "closed subset of actual beta0+[-1,1]"
+    },
+    {
+      "name": "finite_center_spacing",
+      "passed": true,
+      "detail": "all odd p, never only nearest to 2n alpha"
+    },
+    {
+      "name": "all_frequency_complex_gap",
+      "passed": true,
+      "detail": "2 sin(d/2)>=2d/pi> d/2"
+    },
+    {
+      "name": "true_fourfold_inverse",
+      "passed": true,
+      "detail": "1/(128 N n)=1/(32 N M), M=4n"
+    },
+    {
+      "name": "full_N_layer_exponent",
+      "passed": true,
+      "detail": "N<512 A B*, A<2^28 kappa^-2, true kappa square lower bound"
+    },
+    {
+      "name": "full_N_delta_power",
+      "passed": true,
+      "detail": "no omitted global profile factor"
+    },
+    {
+      "name": "actual_model_inverse_power",
+      "passed": true,
+      "detail": "32N M"
+    },
+    {
+      "name": "true_high_network_constant",
+      "passed": true,
+      "detail": "D^-1 E <=2^-35 J^-1 delta^(1/2)"
+    },
+    {
+      "name": "true_high_network_J",
+      "passed": true,
+      "detail": "same full row, not independent diagonal only"
+    },
+    {
+      "name": "true_high_network_delta",
+      "passed": true,
+      "detail": "actual source/root/positive remainder powers"
+    },
+    {
+      "name": "complete_high_Neumann",
+      "passed": true,
+      "detail": "all low history remains on the exact right side"
+    },
+    {
+      "name": "ray_KAM_square_cost",
+      "passed": true,
+      "detail": "only arithmetic comparison, not new nonlinear KAM transfer"
+    }
+  ],
+  "construction": {
+    "angle": "nearest rational Q0=ceil(1024/kappa), append H+Golden tail",
+    "beta": "smallest point of explicit closed positive-measure good set in beta0+[-1,1]",
+    "frequency_scope": "all integers; finite cutoff N plus exact quadratic norm tail"
+  },
+  "scope": "new actual radial candidate and full high returned block with all low histories/source/mean external; no whole low Schur or nonlinear regular inverse",
+  "file_sha256": {
+    "results/R119-supplement-actual-two-parameter-complete-phase-arithmetic.md": "6ca10e0e188ed1024988d78c45144420f781277de0f75b857a9710f608190cc6",
+    "scripts/fourfold_actual_complete_phase_arithmetic_20261113.py": "a6f970874aad790e8f5463511e6206464fc8f40eb37eb58bd45ec771e8bb8209",
+    "results/R119-supplement-actual-complete-radial-return-first-phase.md": "69dbb306514c6d48a72129f3e1067caaa2d95ba83ddcee7655fb93ac7f005cad",
+    "results/R119-supplement-actual-phase-preserving-subprincipal-metric-parameter.md": "7852f8b4ba2043663aee289a4f6631bbb4dc302d10c4a015e5e54149d0e3ac95",
+    "results/R119-supplement-stronger-tail-joint-actual-return-KAM.md": "143a213914c048141b0c42f72120b903b15fde66fa31234a37196d4c5b6ebc54",
+    "results/R30-diophantine-return-and-parameter-normalization.md": "461f52df75fb119816763d1d22fb61b04c1b9fc2b7a27c43b2d8bb6c65ddc7e5"
+  }
+}

@@ -1,0 +1,2888 @@
+{
+  "kind": "completed_parameter_prefix20_and_isolated_proof_process_package",
+  "complete": true,
+  "whole_forward_leg_complete": false,
+  "archive_required": [
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_parameter_time_domain_full/forward_0015_627200073651a9e62ae4.json.gz",
+      "sha256": "7426ebe026c9acf02133164fce4bd097e9978a5405fe5ee151993508b4b17d75",
+      "bytes": 7312
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_parameter_time_domain_full/forward_0017_7c3eb0e6b5cf9e6b6d21.json.gz",
+      "sha256": "2b259b6631da27190fb5ab0804b2c5a1aaa26701f44be9d9e8cb3a3f28fb345f",
+      "bytes": 7231
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_parameter_time_domain_full/forward_0020_ff7232e944865b1f96a3.json.gz",
+      "sha256": "f5f8fdd5388fd237b200c7316f28654194e76c130e6c57898a60bda3a07e9cab",
+      "bytes": 7311
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_parameter_time_domain_full/forward_0022_f10003e1943744548c8b.json.gz",
+      "sha256": "8f114f897ffad3f1d3a3fe95b03745dbfa61bcfe1b1421ae39a941a6a4073d1d",
+      "bytes": 7315
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center.json.gz",
+      "sha256": "d6cdf1e1a819811951c409e63a530fcdf1036f2b3a7c999af39cd4d5ec8c9231",
+      "bytes": 214496
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "7015ddd5398d2e7a811e02f389d96370fc714b8c9c74f2cb26dbf3f560a0167a",
+      "bytes": 43680
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "f52842f55bea02ba9f0afc9fd803695e01b3b668f8ea7ffc677b41f1888e1366",
+      "bytes": 15029
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "b4c8033c8c1a8b3e79a208bcfa5c73d314f65bff8e817bce69055ffb2d51435f",
+      "bytes": 21834
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "06e09ba9b96034bd6180f6a887aacb54c9b22eb65e7fae9438c45987e021c9b9",
+      "bytes": 36441
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "12415d33433bf1570284614562c17dd088b1a81cfa602b36a39da16d76e7f8f0",
+      "bytes": 21625
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "4867f67b459a68b9646f414930b3f0ce8428f57998a17016759dbf0014963334",
+      "bytes": 40898
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/field_p1/coefficients_004_005.json.gz",
+      "sha256": "3debc2d377fa858efc2b767f5165ec55d1ed3681971e691fa5779f6b8518de26",
+      "bytes": 23343
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "561dcc5b3aacffcbf6fae63e9cfd0dc381bbb46a41e373f6c73f28913e338d7b",
+      "bytes": 21834
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "a82e04cefd678885f290ee05b6366997f715fed9af7eb1c4bc1254325f4ede42",
+      "bytes": 36682
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "b0bbb76840ab22ba14206808596fe29ce1d33d34a2e9f29e464f4a8952327cb3",
+      "bytes": 21625
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center.json.gz",
+      "sha256": "389687c8e849a379b6459bd88258a4901ad57e698929264c97504cd38eb2cbcf",
+      "bytes": 213393
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "dcdf0392880f455fe7ab828d0fb2cb6dbf18a06028ac0af4764198e5441226d9",
+      "bytes": 44537
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "428b6539381b30818a506318cb9c3661463743eb6c684198fe588dd20aa86b4b",
+      "bytes": 15247
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "80657e3860dc5a77e352cef8cb7fb4bf0869381500a2595a7ef0da01f0eab29d",
+      "bytes": 21834
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "7e773a22c3c61a825c552dbfcf35aeb0fafd13ad124aeb80725cb8bebc7fe0be",
+      "bytes": 37590
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "f029555ff30fe29926431c1eb9c4bf6419b8714e436003abece7b1ff7b64cae0",
+      "bytes": 21625
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "b84877ea3a508d6f6adeb07c696c19b5c955fad5decb4b40a1cb0805e9fc52b9",
+      "bytes": 41188
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/field_p1/coefficients_004_005.json.gz",
+      "sha256": "569b87370178e58694de42ed72d38f811513a91eb02c545dc2d84624e5fe407f",
+      "bytes": 23604
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "abe9011f5795ec149cbd005ba5b65776e9a780b20b6d19e7a06e90fb0d8f4ffe",
+      "bytes": 21834
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "47ef0d074c122159075f5bdf52d515417ff16cd2fa9ec4a958e6bb99abe89bec",
+      "bytes": 37060
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/field_p2/coefficients_004_004.json.gz",
+      "sha256": "05251053161b80cda968fa7a86898e4c3be7731cc5f7b2f2739a3399d9a346f9",
+      "bytes": 13307
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "e4c90a368e3eb68023021c6d7c3b0ee9ebd854383ac49b79d67c440fe98199d9",
+      "bytes": 21834
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center.json.gz",
+      "sha256": "0b3a5152d8f5fd0df7c79055e8a4b098a804edb5f2380d0e7524e64d2db4d369",
+      "bytes": 215599
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "3f05662e8ca5b004a1aec346b6c2aab5f3b172c97ed9dea5d225b509dc5fcfe7",
+      "bytes": 44985
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "de97f5a5fd487a02eb67f9091171548af9333c79cbfb4a669d397c8c07e8c1d3",
+      "bytes": 15357
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "15acb9d27ab073612122d7fef2bf149e52cb9e393182ee86c1350b4ef4abec26",
+      "bytes": 21835
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "377fce63c1950bc1e262dfdf346b790a1631916eaa60ed60cd98fd6358232ed2",
+      "bytes": 37828
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "d4424c5e40a3cb259ee62b1921fb4380f62eb481facce25a9818b484bcb7787b",
+      "bytes": 21626
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "bf4ad5b5d662f2f8cc25492f41fd554aaa6214fe665b06f279b4120a3491a3b7",
+      "bytes": 41268
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/field_p1/coefficients_004_004.json.gz",
+      "sha256": "6cbca5f7ebe2c60e0e25fee3ea7e234c78ef3d0b3f848ae49d5ccea76cfa35f5",
+      "bytes": 14355
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "dcfb0d0a3e74b22a0261fc8aa24095a58d73a7c23fade8f2447ef55e7593d394",
+      "bytes": 21835
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "54e1db2f9177651000d1c71d9f6c8b85da2e3f230d7754ea026057ad297efc63",
+      "bytes": 37303
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "c199c7d95876fda70e3995205c973694c94efa527adda3018201dc252b51d78d",
+      "bytes": 21626
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center.json.gz",
+      "sha256": "1d286dc91c582cc46df6a2d7dd40f76b8be066936bd28f664b5c878b8f91a4a5",
+      "bytes": 215292
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "d11a6d9f32a28b5c92f4afb308331a3cef7a0366e3c188030c5674848a61441a",
+      "bytes": 45344
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "329ef762ec8c675b3e20347c3ceaa7be5ec3305fc7772e18d297518fb39b3470",
+      "bytes": 15449
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "a4620115142cec8ad69fee4db9b79ce7bdf2caba8edf3c46b6cd6377c04aea0d",
+      "bytes": 21828
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "37a0daa7e9a7dd1624d857af3c5de6f11c480be08042a4836c27391ed907db84",
+      "bytes": 38281
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "c39a1627ce843679efadb26bad31b93435feaab6671acac1a269f35ef54f48f9",
+      "bytes": 21619
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "4c75f27bc94f512bd8f4f5688bd8f6c97e5feda420ec5d8ac88b8ef583e27694",
+      "bytes": 41694
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/field_p1/coefficients_004_004.json.gz",
+      "sha256": "075bca45a1eafeeec79ae9f3010e2ff43c39d011e37d5ff73a7260cf16428206",
+      "bytes": 14497
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "92c3df7475ced36e7412ea6ed1bc0c0ed393bc3d37653db87d56c6491af17bd7",
+      "bytes": 21828
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "def1b4162fa84345e2f59d895b999302f514426bf4267d487887e840d123d0c6",
+      "bytes": 37581
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "83cd5c03befc266a37a03db6fca8432561047293e6e158c917900936a7282582",
+      "bytes": 21619
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center.json.gz",
+      "sha256": "4cff2341b3573bbe85d68d7ade4e169b3da1d0fdf584a0058eb329043d0b8864",
+      "bytes": 216329
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "63dfac4a714470e3e8653e091ce60a3d8edffacfd51b8ac5a820eefcc25e2e32",
+      "bytes": 46496
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "21f52dccac14f0000a7b63395e0c2ba5b53f5455f45ce63b0a082e43fbb3d3ed",
+      "bytes": 15689
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "4bac8e0b173eaab4ebe0a24f5d6b3b932d9f7b64c0f2722a985cfb7868a5077c",
+      "bytes": 21781
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "7f71b028691fdfdbbc51b15c8c8c4ae252936abffdf2788aef787a0342678a46",
+      "bytes": 38441
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "4e24e489dfc18b834ea40841a9f64cbf3f2f06175f8db11c5957de81f8a32f4d",
+      "bytes": 21572
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "006585b69fcecf017fe792f56851b3c06a2587ee9387bcea2db8c3effd7408ed",
+      "bytes": 41868
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/field_p1/coefficients_004_005.json.gz",
+      "sha256": "baf05eb1bae9e10d78fed314ec4221dbd31fa906d4df0aba1cb9564958f635cd",
+      "bytes": 23863
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "ab595da74e56ad3b1c283ba0156f28afeb78a3523ecd3d3774419af4cc661821",
+      "bytes": 21781
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "10fa9b4c3250d211f10d1f22c09c184ddab1dfcd8cbc65bb957c169f1c62dd32",
+      "bytes": 37952
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/field_p2/coefficients_004_004.json.gz",
+      "sha256": "6c671baaaa1baab3f2ecf1cba95509a5d632cd5ea211668e96421bb625c81d4d",
+      "bytes": 13516
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "bfff70c890690ef62dac80b257a052b61e053f85aaff42d1d301ab7673f11a64",
+      "bytes": 21781
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center.json.gz",
+      "sha256": "228d3f85b4f941bf4272e4ac4ee3b370e34cd221a7405698e9d0bc7d54a3a6ea",
+      "bytes": 206508
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "73c41f02fe14a0a08498b950923ba7d6fa1f0b210c69e403bd94a679b5e42002",
+      "bytes": 43669
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "1ba12125ffceff5b193eb3dceec5b9c6cf61d5f54daac440c0aeeae88f30a14f",
+      "bytes": 21631
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/density_p2/coefficients_000_002.json.gz",
+      "sha256": "60e9090e2fb0d838d87fa404b0ebc3925bd61620e297e1f09524a8ab4cc85c2c",
+      "bytes": 26669
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "64e11f7154b043d0c1475305379e578d6ba34220d456dd941c7b2637225498b4",
+      "bytes": 21631
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "424a63f71c08c831ce320c44161d1b0f8be5815de5baa2a994e946f5f16dea7f",
+      "bytes": 40611
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "7f709a41860d01c8a6bdaf94e39caec57bc8aed3ae599c5c4233441ca12a49d4",
+      "bytes": 21631
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/field_p2/coefficients_000_002.json.gz",
+      "sha256": "c9753f90e9acd6aec80f608fd1ad75a9f344d116de1886da004d5b5dd02de570",
+      "bytes": 29126
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "43528359bf7d0be30faac97994136dce7a93102436a3e86c31deda9dc4d33ebe",
+      "bytes": 21631
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center.json.gz",
+      "sha256": "08fdcfcb98c59ace5ea4d6790a6773b97bae87f57b8edfc21f19c314466cc28e",
+      "bytes": 219930
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "7f856fd1d1f14ab9845927482c9325a40bf8c5842baa0f780e9acd313610436e",
+      "bytes": 47458
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "440fcb98e3c5018c3c04caf9c5aff56881a61f06a932f646bf40a917ef3ca944",
+      "bytes": 15985
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "3e84cb3cd12b113447283dc89d634f54f89dbedc2d5ddac52420dbcce68bea28",
+      "bytes": 21784
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "9a79a2c18635fc5de63f1873e29d58be3b8f78c04ce377d46cc542f59e3fab19",
+      "bytes": 38690
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "3b5a558966f1f687ddb64167bab5cc098602ed98d7e39f6d042711b9cf2b250a",
+      "bytes": 21575
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "76378412aad813638e20894712416123c811743ab5ca7efb42ca9ca3bc1517a0",
+      "bytes": 42536
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/field_p1/coefficients_004_005.json.gz",
+      "sha256": "d8c55b3d45de38539dae57b6d096c3ffc904e10d63fa3cc738a1258febda6d52",
+      "bytes": 24179
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "d960f87917056677ff2a60d84932a933b94e29919ab1f244fb28ce9046a5d88e",
+      "bytes": 21784
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "79d96487dd16cd7e2b5ebf35a73a8b3ef38b8651cc1816cc9ebbf4b6da14c9d9",
+      "bytes": 38402
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "83c6a0afe474fd99a9f33a7e76fc40f248ea46a07d188995f2a127c97cf3612c",
+      "bytes": 21575
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center.json.gz",
+      "sha256": "9eca2f8dcaa94304c0a3d2bec6c70d312853cfb2d06331c736d3071c173e1c67",
+      "bytes": 205681
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/density_p1/coefficients_000_002.json.gz",
+      "sha256": "9d2ca07050b905d04a2196b437c734882a594f5a489ce2cface6ba7c36146861",
+      "bytes": 34485
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "fe79f4709861191d8c2779e49123e08245266c0e26a5c5afdc7a886f1dc40b52",
+      "bytes": 21633
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/density_p2/coefficients_000_002.json.gz",
+      "sha256": "f4170358e4e1a09be2b750f5b3e347a596e4dd4bb8a7380ac9f6451f41727e07",
+      "bytes": 25015
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "e4c41a8459452a3ec786b63bb3bcbb4be13035f101bdfca28fdd3836a50a6326",
+      "bytes": 21633
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "c320f3c564ccf9162722e17bbef672038faec5fdd0fc6674d27a6ad0ae7a1829",
+      "bytes": 40685
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "8a23edfd9340d876569d7ee3e51b6c4fd335f98eecafa6ddcb47af319ae885b9",
+      "bytes": 21633
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/field_p2/coefficients_000_002.json.gz",
+      "sha256": "cb8faa8cb68bea9f5f7dbc3faa771050f2354e948fc5fc936b3d9cd57452ac51",
+      "bytes": 29049
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "618bccaed2d66c84cd7fee55a6fbb2654fd32a8af5d03528f7711549d6722f26",
+      "bytes": 21633
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center.json.gz",
+      "sha256": "8b6c3472268072d2bd2728cf839031d803e86c7c63a8fe8fb429ffbd1b14a9eb",
+      "bytes": 222476
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "126aeee717d0ed6741485c5520d77587680c01136d40eb3e6729dbcebbfcc10b",
+      "bytes": 48833
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "8e0ab6a30c0c8687f7ebedb5e21eed0cf434cee7a6461a08d6961134b0646388",
+      "bytes": 16341
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "1732729c59775c3c64c661f668a23239732fa4c57917ceb6e786c3b9ac5d989e",
+      "bytes": 21787
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "f7334013b7399b46b26bcfe33c1a04b130c595a5349d50c5c26dd080df0f16cc",
+      "bytes": 38415
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "3f99008e32a86228a8aaa2de5240a18b945a33cddc7d2bf4bc0c8585dd7fc6f8",
+      "bytes": 21578
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "ee2a89776dedee04b1c4d1cb924d649b802158c95bf297e14da21dc93fd10e75",
+      "bytes": 43121
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/field_p1/coefficients_004_004.json.gz",
+      "sha256": "3743fa42148043eccfa9dcb9187de600b9afb0312e6681e3123db6f0ac672216",
+      "bytes": 14859
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "144a8f49cad530244260fb07fea909da5dde23dfc84e26859d30ecdee1531137",
+      "bytes": 21787
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "43d39b2da76684c1b07fc564e110eaddb74a5cbb53294e0fae65197057b3ae1c",
+      "bytes": 39249
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "738dc244481b71ffeb96c916cabe548b87fd4e2a632d19f192ffccd9e685c2c7",
+      "bytes": 21578
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_interruptions/forward0017_uniform_v5_first_process_kill.json.gz",
+      "sha256": "316a8b780bcf3e781360a8f5af25348531a21009f0c5ce480354719fdc262b87",
+      "bytes": 22879
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_interruptions/forward0017_uniform_v5_first_process_kill_note.json",
+      "sha256": "ce4d6704510f1d457ef14d9a8c87722baa8310e27115e66f33682bb78824c7b5",
+      "bytes": 2098
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_interruptions/forward0020_uniform_v5_first_process_kill.json.gz",
+      "sha256": "dc7aa21cf131098d7ff703514961c612c128e86271876ef34398200610f598dc",
+      "bytes": 24458
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_interruptions/forward0020_uniform_v5_first_process_kill.log",
+      "sha256": "7e8a13829d18341c973f32e0f6194674e0b399ce55867380ad20e13d5a809d9f",
+      "bytes": 143
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_interruptions/forward0020_uniform_v5_first_process_kill_note.json",
+      "sha256": "7e0163db61a6f410e2c64f3a2c46f415816b437bc33428c8a664a768d800390f",
+      "bytes": 2697
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/center_efficient_prefix0020/chronological/coefficients.json.gz",
+      "sha256": "f32c41acad91ee9789e5f6482c31434289ae5913bcef176543e1f9af5085d1a7",
+      "bytes": 873444
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/center_efficient_prefix0020/chronological/report.json.gz",
+      "sha256": "b761788bb63983f9a7f8ea8820b2a76be4d5c14bce58870dbaf841172f2ea863",
+      "bytes": 15846
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/center_efficient_prefix0020/index.json",
+      "sha256": "91731b7458d8c71fd3d7622c84cb71cdfa8c22624a0119fcff7f5f22f8850a5a",
+      "bytes": 20248
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/hybrid_efficient_prefix0020/chronological/coefficients.json.gz",
+      "sha256": "d861dfbe1c0554341cb9b9c3a04f0edaac3a3ee0fb4971c36e9a41c699f56d70",
+      "bytes": 854282
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/hybrid_efficient_prefix0020/chronological/report.json.gz",
+      "sha256": "efa7f31365923809279726bc1a4cba23ed86a74b09e10a111ac5838a00e86c8e",
+      "bytes": 25050
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/uniform_efficient_prefix0020/index.json",
+      "sha256": "663421d1118e8c11af97e6bba371a967bc78e759cf3382f73241aabcd6310a28",
+      "bytes": 15299
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0012_ef134f2a18_uniform.json.gz",
+      "sha256": "bbb76d2018b79884764126f8f0f8151375f43e296ff0a306843ab50e778ce228",
+      "bytes": 131306
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0012_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "37b9eac9495bf0670355074ba453cd7a954ddb665ab2425d2adb26ca4019ae35",
+      "bytes": 13380
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0012_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "cd90d3eed30530a6d7c4937c63c92fbca09cc3a0e289d654d40e8b2cb3c47707",
+      "bytes": 25239
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0012_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "655181c7abdad13a39f7db0314d580b98d757804f7d426b2ae7898310f51ad67",
+      "bytes": 21251
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0012_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "0a48abbaf1cb08b2d4556508bcaf6cfb95f29cf4537b01fef59c69d9710f444d",
+      "bytes": 25239
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0013_ef134f2a18_uniform.json.gz",
+      "sha256": "0d61fef5d6bdf0de96137377ba6fa40759c58f9491ca9f19c0c2c9e7464cb349",
+      "bytes": 133140
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0013_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "39c60572b45d94fe9b568720cdb7a161e91bff22dbb900ade88cef76235349f5",
+      "bytes": 13373
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0013_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "21aedba7e6d30771f8e438d5ebebd526f270779e88038ae6e32698e63aece451",
+      "bytes": 25241
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0013_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "b1321152340ade2358be441c793d2880b6b8fc7e7e3ab8e1cac42d9eefaa8b6b",
+      "bytes": 21397
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0013_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "1a67221578926f3a4b6dc3db379ab5cb5a9e57a8ca74770ca29246f7ab960c70",
+      "bytes": 25241
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0014_ef134f2a18_uniform.json.gz",
+      "sha256": "1c36da078bc6ad9e6bd286a17a57b961a3f5e19efcbb9d3231e9bbbe317b94eb",
+      "bytes": 132077
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0014_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "da293b2751de4dfa5466c807b305c8894fdb9733b2cae97b7aa629993f7ec854",
+      "bytes": 13733
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0014_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "ac635dd10f80598be69204e077ff813b9a780912f62bdc9183539fe691fa9986",
+      "bytes": 25231
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0014_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "af855185a46625a7a9f954bbe316c9f14f5efb352edd47803fdea10f0cf28473",
+      "bytes": 21575
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0014_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "8d6259dbe4dab8b7f039f97be34f07817e5b0021ef2aca0c112956de512f6467",
+      "bytes": 25231
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0015_ef134f2a18_uniform.json.gz",
+      "sha256": "9355921bbf45824f31c2cb7cb9decda408cae4e640bec0c7fb2f00c4f8049937",
+      "bytes": 132914
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0015_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "3886c3de98a3d0060f89466a81921a397b0c87b0311152d82464446886e6cfbc",
+      "bytes": 14186
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0015_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "5f3aaa4f9c0f43f8524654deb1e06508c443064d55816e591401a882839ef3fc",
+      "bytes": 25227
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0015_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "691213d88c33a77d6b35d0c2501aa5d603cb49ae447ad491e5c6e6a72241c588",
+      "bytes": 21908
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0015_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "daefe7e6e603df886f6c7c40a3638e43aafda8646015474745165380860f175c",
+      "bytes": 25227
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0016_ef134f2a18_uniform.json.gz",
+      "sha256": "72f08342ff40338cd50e8d8a2bdd61e370777710a769bdc12a947a8b8ef54ff5",
+      "bytes": 129760
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0016_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "ee7512c0de7aae929abd0484fb4c40fb0033fa74d5b39a47adbb60783c99e2ad",
+      "bytes": 12249
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0016_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "6b0330f3322e6a4d674261769b755b4ef6f5860c35a40f83c560108982ec3eca",
+      "bytes": 25244
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0016_ef134f2a18_uniform/field_p2/coefficients_000_001.json.gz",
+      "sha256": "f113f6fa43b4915e4d69fa5bb7cccfcec0a355acd59b30a696e3044300f311e6",
+      "bytes": 15689
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0016_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "6bb91b030a21bea46c51edb6673b3208db7ce22db9677fdc210d423c57c9667e",
+      "bytes": 25244
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0017_ef134f2a18_uniform.json.gz",
+      "sha256": "a929b8715718a172cec217362c40c955af7d6ef5619df7a43d2ca71db3fc0d01",
+      "bytes": 135020
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0017_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "e6527b42664168093924efd26c769b88d033d741c2b1156ca66899ca3e5f65cf",
+      "bytes": 14185
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0017_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "3d405abdc209782d3a0512e1d91386c3937739625e2c2482b2e83300180ec99b",
+      "bytes": 25233
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0017_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "35215d0c79b8798362bc8ca6dcf55dbd600efbbbe961e2efbbf62b875ae64679",
+      "bytes": 22564
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0017_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "056eaf44a45bd1c0378ebcfc3667cff8be2c265a8cac0bbca990e9febb1f49fb",
+      "bytes": 25234
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0019_ef134f2a18_uniform.json.gz",
+      "sha256": "992d9d64669afa7cd552938f2b55d47344c715a698f8b0b6e45cff47e86b13da",
+      "bytes": 130013
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0019_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "af96fdc3223fa760d9e7fc2a37906dde2a3d434ef945577979720f9a9b2657ee",
+      "bytes": 11687
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0019_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "6798d353d1d432d85e74db7f7f417ccb1429281744af30694547cb5168a20ad8",
+      "bytes": 25247
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0019_ef134f2a18_uniform/field_p2/coefficients_000_001.json.gz",
+      "sha256": "c98268976b46fa1e61a793730fc1957e0b170de632c2beba1bf268a30880b217",
+      "bytes": 15552
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0019_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "a4463d3432f72050a57549e11f6ab990cf37785f8ea2539d96b60365b9450fe5",
+      "bytes": 25247
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0020_ef134f2a18_uniform.json.gz",
+      "sha256": "2ab00ecc5bda85935d8a3e1dd65ee26d77e3fd13dbabe0157b248a6e0f0444e3",
+      "bytes": 135792
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0020_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "17dc5f192e936adeb6a870f6715708cfd88e22e837f516a9ac5f6336bb4383d5",
+      "bytes": 13729
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0020_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "cff743338f384e9d2eeef775bd1dbe00e1f8a87bff4c8e94aac62810e3b4e7de",
+      "bytes": 25235
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0020_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "cc5d0e517637bfb9bfc61da137cee95a4b24df7dc3358fd0421e40fb6ef614c3",
+      "bytes": 23117
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0020_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "b6695eabc785cf1c64e151a0653680539a3a282d0a42ce56674df1f0e0d98386",
+      "bytes": 25236
+    },
+    {
+      "path": "notes/2026-11-12-actual-expanded-parameter-domain18-R6-Q512.json.gz",
+      "sha256": "1df7f2a7bfb21f841abbb466093cb546b37e46cae638933cced872f0194e34c6",
+      "bytes": 7220
+    },
+    {
+      "path": "notes/2026-11-12-actual-parameter18-central-degree-layout.json",
+      "sha256": "14471bd6ebdb4fc437d3b178b9aa0006e8a8abf7b7babbf7716e36068c1dea85",
+      "bytes": 15952
+    },
+    {
+      "path": "notes/2026-11-12-actual-parameter18-uniform-degree-layout.json",
+      "sha256": "b2f6d1acd376695ab77d7357462236b806d58ba9772a2f2a15d51939c8d9adb8",
+      "bytes": 12225
+    },
+    {
+      "path": "notes/2026-11-12-isolated-parameter-proof-and-prefix20.md",
+      "sha256": "2b5ac5281bcdc86eb32081ea6830f1247c046903cd98249b6b5359f0a4acef4f",
+      "bytes": 4343
+    },
+    {
+      "path": "notes/2026-11-12-parameter-layout-refinement-decision.md",
+      "sha256": "ec08bebb51e74a8d6d6bf9bc61d3d7b295bf56de392f2e2aab92decedaee275a",
+      "bytes": 1053
+    },
+    {
+      "path": "notes/2026-11-12-parameter-spatial-endpoint-independent-review.md",
+      "sha256": "2f1c70226c2c2183af17fd2c6cd0c4872ffade58827a7e9397843e2846cc5781",
+      "bytes": 3616
+    },
+    {
+      "path": "notes/2026-11-12-precompute-parameter20-cache-reuse.json",
+      "sha256": "dc3a596c3780df8698c4aaf8975d21296e9962f65d724719ff487c4e053bdf53",
+      "bytes": 2540
+    },
+    {
+      "path": "notes/2026-11-12-precompute-parameter22-isolated.json",
+      "sha256": "3cfb2df0d888414528ec83e53a5af330d5516e81ffb4ef38db93bddd3008b651",
+      "bytes": 3693
+    },
+    {
+      "path": "scripts/fourfold_parameter_density_cover_efficient_v3.py",
+      "sha256": "e84c1668e383b401b71d04f073c6dfd7dac0fdb99cd5786f266c60673881f537",
+      "bytes": 19598
+    },
+    {
+      "path": "scripts/fourfold_parameter_precompute_expanded_domain.py",
+      "sha256": "228406f747e756bb0bdcfd44b9932028bc5bd80411a06a398f48b8ca04550354",
+      "bytes": 8963
+    },
+    {
+      "path": "scripts/fourfold_parameter_saved_layout_refinement.py",
+      "sha256": "feff4c86d54975d7d06ae4b01098d8ef15034eda3cce6e81be0769633bec965f",
+      "bytes": 4851
+    }
+  ],
+  "files": [
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_parameter_time_domain_full/forward_0015_627200073651a9e62ae4.json.gz",
+      "sha256": "7426ebe026c9acf02133164fce4bd097e9978a5405fe5ee151993508b4b17d75",
+      "bytes": 7312
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_parameter_time_domain_full/forward_0017_7c3eb0e6b5cf9e6b6d21.json.gz",
+      "sha256": "2b259b6631da27190fb5ab0804b2c5a1aaa26701f44be9d9e8cb3a3f28fb345f",
+      "bytes": 7231
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_parameter_time_domain_full/forward_0020_ff7232e944865b1f96a3.json.gz",
+      "sha256": "f5f8fdd5388fd237b200c7316f28654194e76c130e6c57898a60bda3a07e9cab",
+      "bytes": 7311
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_parameter_time_domain_full/forward_0022_f10003e1943744548c8b.json.gz",
+      "sha256": "8f114f897ffad3f1d3a3fe95b03745dbfa61bcfe1b1421ae39a941a6a4073d1d",
+      "bytes": 7315
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center.json.gz",
+      "sha256": "d6cdf1e1a819811951c409e63a530fcdf1036f2b3a7c999af39cd4d5ec8c9231",
+      "bytes": 214496
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "7015ddd5398d2e7a811e02f389d96370fc714b8c9c74f2cb26dbf3f560a0167a",
+      "bytes": 43680
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "f52842f55bea02ba9f0afc9fd803695e01b3b668f8ea7ffc677b41f1888e1366",
+      "bytes": 15029
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "b4c8033c8c1a8b3e79a208bcfa5c73d314f65bff8e817bce69055ffb2d51435f",
+      "bytes": 21834
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "06e09ba9b96034bd6180f6a887aacb54c9b22eb65e7fae9438c45987e021c9b9",
+      "bytes": 36441
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "12415d33433bf1570284614562c17dd088b1a81cfa602b36a39da16d76e7f8f0",
+      "bytes": 21625
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "4867f67b459a68b9646f414930b3f0ce8428f57998a17016759dbf0014963334",
+      "bytes": 40898
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/field_p1/coefficients_004_005.json.gz",
+      "sha256": "3debc2d377fa858efc2b767f5165ec55d1ed3681971e691fa5779f6b8518de26",
+      "bytes": 23343
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "561dcc5b3aacffcbf6fae63e9cfd0dc381bbb46a41e373f6c73f28913e338d7b",
+      "bytes": 21834
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "a82e04cefd678885f290ee05b6366997f715fed9af7eb1c4bc1254325f4ede42",
+      "bytes": 36682
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0011_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "b0bbb76840ab22ba14206808596fe29ce1d33d34a2e9f29e464f4a8952327cb3",
+      "bytes": 21625
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center.json.gz",
+      "sha256": "389687c8e849a379b6459bd88258a4901ad57e698929264c97504cd38eb2cbcf",
+      "bytes": 213393
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "dcdf0392880f455fe7ab828d0fb2cb6dbf18a06028ac0af4764198e5441226d9",
+      "bytes": 44537
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "428b6539381b30818a506318cb9c3661463743eb6c684198fe588dd20aa86b4b",
+      "bytes": 15247
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "80657e3860dc5a77e352cef8cb7fb4bf0869381500a2595a7ef0da01f0eab29d",
+      "bytes": 21834
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "7e773a22c3c61a825c552dbfcf35aeb0fafd13ad124aeb80725cb8bebc7fe0be",
+      "bytes": 37590
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "f029555ff30fe29926431c1eb9c4bf6419b8714e436003abece7b1ff7b64cae0",
+      "bytes": 21625
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "b84877ea3a508d6f6adeb07c696c19b5c955fad5decb4b40a1cb0805e9fc52b9",
+      "bytes": 41188
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/field_p1/coefficients_004_005.json.gz",
+      "sha256": "569b87370178e58694de42ed72d38f811513a91eb02c545dc2d84624e5fe407f",
+      "bytes": 23604
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "abe9011f5795ec149cbd005ba5b65776e9a780b20b6d19e7a06e90fb0d8f4ffe",
+      "bytes": 21834
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "47ef0d074c122159075f5bdf52d515417ff16cd2fa9ec4a958e6bb99abe89bec",
+      "bytes": 37060
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/field_p2/coefficients_004_004.json.gz",
+      "sha256": "05251053161b80cda968fa7a86898e4c3be7731cc5f7b2f2739a3399d9a346f9",
+      "bytes": 13307
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0012_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "e4c90a368e3eb68023021c6d7c3b0ee9ebd854383ac49b79d67c440fe98199d9",
+      "bytes": 21834
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center.json.gz",
+      "sha256": "0b3a5152d8f5fd0df7c79055e8a4b098a804edb5f2380d0e7524e64d2db4d369",
+      "bytes": 215599
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "3f05662e8ca5b004a1aec346b6c2aab5f3b172c97ed9dea5d225b509dc5fcfe7",
+      "bytes": 44985
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "de97f5a5fd487a02eb67f9091171548af9333c79cbfb4a669d397c8c07e8c1d3",
+      "bytes": 15357
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "15acb9d27ab073612122d7fef2bf149e52cb9e393182ee86c1350b4ef4abec26",
+      "bytes": 21835
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "377fce63c1950bc1e262dfdf346b790a1631916eaa60ed60cd98fd6358232ed2",
+      "bytes": 37828
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "d4424c5e40a3cb259ee62b1921fb4380f62eb481facce25a9818b484bcb7787b",
+      "bytes": 21626
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "bf4ad5b5d662f2f8cc25492f41fd554aaa6214fe665b06f279b4120a3491a3b7",
+      "bytes": 41268
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/field_p1/coefficients_004_004.json.gz",
+      "sha256": "6cbca5f7ebe2c60e0e25fee3ea7e234c78ef3d0b3f848ae49d5ccea76cfa35f5",
+      "bytes": 14355
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "dcfb0d0a3e74b22a0261fc8aa24095a58d73a7c23fade8f2447ef55e7593d394",
+      "bytes": 21835
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "54e1db2f9177651000d1c71d9f6c8b85da2e3f230d7754ea026057ad297efc63",
+      "bytes": 37303
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0013_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "c199c7d95876fda70e3995205c973694c94efa527adda3018201dc252b51d78d",
+      "bytes": 21626
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center.json.gz",
+      "sha256": "1d286dc91c582cc46df6a2d7dd40f76b8be066936bd28f664b5c878b8f91a4a5",
+      "bytes": 215292
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "d11a6d9f32a28b5c92f4afb308331a3cef7a0366e3c188030c5674848a61441a",
+      "bytes": 45344
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "329ef762ec8c675b3e20347c3ceaa7be5ec3305fc7772e18d297518fb39b3470",
+      "bytes": 15449
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "a4620115142cec8ad69fee4db9b79ce7bdf2caba8edf3c46b6cd6377c04aea0d",
+      "bytes": 21828
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "37a0daa7e9a7dd1624d857af3c5de6f11c480be08042a4836c27391ed907db84",
+      "bytes": 38281
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "c39a1627ce843679efadb26bad31b93435feaab6671acac1a269f35ef54f48f9",
+      "bytes": 21619
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "4c75f27bc94f512bd8f4f5688bd8f6c97e5feda420ec5d8ac88b8ef583e27694",
+      "bytes": 41694
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/field_p1/coefficients_004_004.json.gz",
+      "sha256": "075bca45a1eafeeec79ae9f3010e2ff43c39d011e37d5ff73a7260cf16428206",
+      "bytes": 14497
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "92c3df7475ced36e7412ea6ed1bc0c0ed393bc3d37653db87d56c6491af17bd7",
+      "bytes": 21828
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "def1b4162fa84345e2f59d895b999302f514426bf4267d487887e840d123d0c6",
+      "bytes": 37581
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0014_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "83cd5c03befc266a37a03db6fca8432561047293e6e158c917900936a7282582",
+      "bytes": 21619
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center.json.gz",
+      "sha256": "4cff2341b3573bbe85d68d7ade4e169b3da1d0fdf584a0058eb329043d0b8864",
+      "bytes": 216329
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "63dfac4a714470e3e8653e091ce60a3d8edffacfd51b8ac5a820eefcc25e2e32",
+      "bytes": 46496
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "21f52dccac14f0000a7b63395e0c2ba5b53f5455f45ce63b0a082e43fbb3d3ed",
+      "bytes": 15689
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "4bac8e0b173eaab4ebe0a24f5d6b3b932d9f7b64c0f2722a985cfb7868a5077c",
+      "bytes": 21781
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "7f71b028691fdfdbbc51b15c8c8c4ae252936abffdf2788aef787a0342678a46",
+      "bytes": 38441
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "4e24e489dfc18b834ea40841a9f64cbf3f2f06175f8db11c5957de81f8a32f4d",
+      "bytes": 21572
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "006585b69fcecf017fe792f56851b3c06a2587ee9387bcea2db8c3effd7408ed",
+      "bytes": 41868
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/field_p1/coefficients_004_005.json.gz",
+      "sha256": "baf05eb1bae9e10d78fed314ec4221dbd31fa906d4df0aba1cb9564958f635cd",
+      "bytes": 23863
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "ab595da74e56ad3b1c283ba0156f28afeb78a3523ecd3d3774419af4cc661821",
+      "bytes": 21781
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "10fa9b4c3250d211f10d1f22c09c184ddab1dfcd8cbc65bb957c169f1c62dd32",
+      "bytes": 37952
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/field_p2/coefficients_004_004.json.gz",
+      "sha256": "6c671baaaa1baab3f2ecf1cba95509a5d632cd5ea211668e96421bb625c81d4d",
+      "bytes": 13516
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0015_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "bfff70c890690ef62dac80b257a052b61e053f85aaff42d1d301ab7673f11a64",
+      "bytes": 21781
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center.json.gz",
+      "sha256": "228d3f85b4f941bf4272e4ac4ee3b370e34cd221a7405698e9d0bc7d54a3a6ea",
+      "bytes": 206508
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "73c41f02fe14a0a08498b950923ba7d6fa1f0b210c69e403bd94a679b5e42002",
+      "bytes": 43669
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "1ba12125ffceff5b193eb3dceec5b9c6cf61d5f54daac440c0aeeae88f30a14f",
+      "bytes": 21631
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/density_p2/coefficients_000_002.json.gz",
+      "sha256": "60e9090e2fb0d838d87fa404b0ebc3925bd61620e297e1f09524a8ab4cc85c2c",
+      "bytes": 26669
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "64e11f7154b043d0c1475305379e578d6ba34220d456dd941c7b2637225498b4",
+      "bytes": 21631
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "424a63f71c08c831ce320c44161d1b0f8be5815de5baa2a994e946f5f16dea7f",
+      "bytes": 40611
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "7f709a41860d01c8a6bdaf94e39caec57bc8aed3ae599c5c4233441ca12a49d4",
+      "bytes": 21631
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/field_p2/coefficients_000_002.json.gz",
+      "sha256": "c9753f90e9acd6aec80f608fd1ad75a9f344d116de1886da004d5b5dd02de570",
+      "bytes": 29126
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0016_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "43528359bf7d0be30faac97994136dce7a93102436a3e86c31deda9dc4d33ebe",
+      "bytes": 21631
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center.json.gz",
+      "sha256": "08fdcfcb98c59ace5ea4d6790a6773b97bae87f57b8edfc21f19c314466cc28e",
+      "bytes": 219930
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "7f856fd1d1f14ab9845927482c9325a40bf8c5842baa0f780e9acd313610436e",
+      "bytes": 47458
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "440fcb98e3c5018c3c04caf9c5aff56881a61f06a932f646bf40a917ef3ca944",
+      "bytes": 15985
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "3e84cb3cd12b113447283dc89d634f54f89dbedc2d5ddac52420dbcce68bea28",
+      "bytes": 21784
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "9a79a2c18635fc5de63f1873e29d58be3b8f78c04ce377d46cc542f59e3fab19",
+      "bytes": 38690
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "3b5a558966f1f687ddb64167bab5cc098602ed98d7e39f6d042711b9cf2b250a",
+      "bytes": 21575
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "76378412aad813638e20894712416123c811743ab5ca7efb42ca9ca3bc1517a0",
+      "bytes": 42536
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/field_p1/coefficients_004_005.json.gz",
+      "sha256": "d8c55b3d45de38539dae57b6d096c3ffc904e10d63fa3cc738a1258febda6d52",
+      "bytes": 24179
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "d960f87917056677ff2a60d84932a933b94e29919ab1f244fb28ce9046a5d88e",
+      "bytes": 21784
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "79d96487dd16cd7e2b5ebf35a73a8b3ef38b8651cc1816cc9ebbf4b6da14c9d9",
+      "bytes": 38402
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0017_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "83c6a0afe474fd99a9f33a7e76fc40f248ea46a07d188995f2a127c97cf3612c",
+      "bytes": 21575
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center.json.gz",
+      "sha256": "9eca2f8dcaa94304c0a3d2bec6c70d312853cfb2d06331c736d3071c173e1c67",
+      "bytes": 205681
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/density_p1/coefficients_000_002.json.gz",
+      "sha256": "9d2ca07050b905d04a2196b437c734882a594f5a489ce2cface6ba7c36146861",
+      "bytes": 34485
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "fe79f4709861191d8c2779e49123e08245266c0e26a5c5afdc7a886f1dc40b52",
+      "bytes": 21633
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/density_p2/coefficients_000_002.json.gz",
+      "sha256": "f4170358e4e1a09be2b750f5b3e347a596e4dd4bb8a7380ac9f6451f41727e07",
+      "bytes": 25015
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "e4c41a8459452a3ec786b63bb3bcbb4be13035f101bdfca28fdd3836a50a6326",
+      "bytes": 21633
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "c320f3c564ccf9162722e17bbef672038faec5fdd0fc6674d27a6ad0ae7a1829",
+      "bytes": 40685
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "8a23edfd9340d876569d7ee3e51b6c4fd335f98eecafa6ddcb47af319ae885b9",
+      "bytes": 21633
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/field_p2/coefficients_000_002.json.gz",
+      "sha256": "cb8faa8cb68bea9f5f7dbc3faa771050f2354e948fc5fc936b3d9cd57452ac51",
+      "bytes": 29049
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0019_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "618bccaed2d66c84cd7fee55a6fbb2654fd32a8af5d03528f7711549d6722f26",
+      "bytes": 21633
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center.json.gz",
+      "sha256": "8b6c3472268072d2bd2728cf839031d803e86c7c63a8fe8fb429ffbd1b14a9eb",
+      "bytes": 222476
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "126aeee717d0ed6741485c5520d77587680c01136d40eb3e6729dbcebbfcc10b",
+      "bytes": 48833
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "8e0ab6a30c0c8687f7ebedb5e21eed0cf434cee7a6461a08d6961134b0646388",
+      "bytes": 16341
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "1732729c59775c3c64c661f668a23239732fa4c57917ceb6e786c3b9ac5d989e",
+      "bytes": 21787
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "f7334013b7399b46b26bcfe33c1a04b130c595a5349d50c5c26dd080df0f16cc",
+      "bytes": 38415
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "3f99008e32a86228a8aaa2de5240a18b945a33cddc7d2bf4bc0c8585dd7fc6f8",
+      "bytes": 21578
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "ee2a89776dedee04b1c4d1cb924d649b802158c95bf297e14da21dc93fd10e75",
+      "bytes": 43121
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/field_p1/coefficients_004_004.json.gz",
+      "sha256": "3743fa42148043eccfa9dcb9187de600b9afb0312e6681e3123db6f0ac672216",
+      "bytes": 14859
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "144a8f49cad530244260fb07fea909da5dde23dfc84e26859d30ecdee1531137",
+      "bytes": 21787
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "43d39b2da76684c1b07fc564e110eaddb74a5cbb53294e0fae65197057b3ae1c",
+      "bytes": 39249
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0020_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "738dc244481b71ffeb96c916cabe548b87fd4e2a632d19f192ffccd9e685c2c7",
+      "bytes": 21578
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_interruptions/forward0017_uniform_v5_first_process_kill.json.gz",
+      "sha256": "316a8b780bcf3e781360a8f5af25348531a21009f0c5ce480354719fdc262b87",
+      "bytes": 22879
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_interruptions/forward0017_uniform_v5_first_process_kill_note.json",
+      "sha256": "ce4d6704510f1d457ef14d9a8c87722baa8310e27115e66f33682bb78824c7b5",
+      "bytes": 2098
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_interruptions/forward0020_uniform_v5_first_process_kill.json.gz",
+      "sha256": "dc7aa21cf131098d7ff703514961c612c128e86271876ef34398200610f598dc",
+      "bytes": 24458
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_interruptions/forward0020_uniform_v5_first_process_kill.log",
+      "sha256": "7e8a13829d18341c973f32e0f6194674e0b399ce55867380ad20e13d5a809d9f",
+      "bytes": 143
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_interruptions/forward0020_uniform_v5_first_process_kill_note.json",
+      "sha256": "7e0163db61a6f410e2c64f3a2c46f415816b437bc33428c8a664a768d800390f",
+      "bytes": 2697
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/center_efficient_prefix0020/chronological/coefficients.json.gz",
+      "sha256": "f32c41acad91ee9789e5f6482c31434289ae5913bcef176543e1f9af5085d1a7",
+      "bytes": 873444
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/center_efficient_prefix0020/chronological/report.json.gz",
+      "sha256": "b761788bb63983f9a7f8ea8820b2a76be4d5c14bce58870dbaf841172f2ea863",
+      "bytes": 15846
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/center_efficient_prefix0020/index.json",
+      "sha256": "91731b7458d8c71fd3d7622c84cb71cdfa8c22624a0119fcff7f5f22f8850a5a",
+      "bytes": 20248
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/hybrid_efficient_prefix0020/chronological/coefficients.json.gz",
+      "sha256": "d861dfbe1c0554341cb9b9c3a04f0edaac3a3ee0fb4971c36e9a41c699f56d70",
+      "bytes": 854282
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/hybrid_efficient_prefix0020/chronological/report.json.gz",
+      "sha256": "efa7f31365923809279726bc1a4cba23ed86a74b09e10a111ac5838a00e86c8e",
+      "bytes": 25050
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/uniform_efficient_prefix0020/index.json",
+      "sha256": "663421d1118e8c11af97e6bba371a967bc78e759cf3382f73241aabcd6310a28",
+      "bytes": 15299
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0012_ef134f2a18_uniform.json.gz",
+      "sha256": "bbb76d2018b79884764126f8f0f8151375f43e296ff0a306843ab50e778ce228",
+      "bytes": 131306
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0012_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "37b9eac9495bf0670355074ba453cd7a954ddb665ab2425d2adb26ca4019ae35",
+      "bytes": 13380
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0012_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "cd90d3eed30530a6d7c4937c63c92fbca09cc3a0e289d654d40e8b2cb3c47707",
+      "bytes": 25239
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0012_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "655181c7abdad13a39f7db0314d580b98d757804f7d426b2ae7898310f51ad67",
+      "bytes": 21251
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0012_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "0a48abbaf1cb08b2d4556508bcaf6cfb95f29cf4537b01fef59c69d9710f444d",
+      "bytes": 25239
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0013_ef134f2a18_uniform.json.gz",
+      "sha256": "0d61fef5d6bdf0de96137377ba6fa40759c58f9491ca9f19c0c2c9e7464cb349",
+      "bytes": 133140
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0013_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "39c60572b45d94fe9b568720cdb7a161e91bff22dbb900ade88cef76235349f5",
+      "bytes": 13373
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0013_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "21aedba7e6d30771f8e438d5ebebd526f270779e88038ae6e32698e63aece451",
+      "bytes": 25241
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0013_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "b1321152340ade2358be441c793d2880b6b8fc7e7e3ab8e1cac42d9eefaa8b6b",
+      "bytes": 21397
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0013_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "1a67221578926f3a4b6dc3db379ab5cb5a9e57a8ca74770ca29246f7ab960c70",
+      "bytes": 25241
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0014_ef134f2a18_uniform.json.gz",
+      "sha256": "1c36da078bc6ad9e6bd286a17a57b961a3f5e19efcbb9d3231e9bbbe317b94eb",
+      "bytes": 132077
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0014_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "da293b2751de4dfa5466c807b305c8894fdb9733b2cae97b7aa629993f7ec854",
+      "bytes": 13733
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0014_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "ac635dd10f80598be69204e077ff813b9a780912f62bdc9183539fe691fa9986",
+      "bytes": 25231
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0014_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "af855185a46625a7a9f954bbe316c9f14f5efb352edd47803fdea10f0cf28473",
+      "bytes": 21575
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0014_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "8d6259dbe4dab8b7f039f97be34f07817e5b0021ef2aca0c112956de512f6467",
+      "bytes": 25231
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0015_ef134f2a18_uniform.json.gz",
+      "sha256": "9355921bbf45824f31c2cb7cb9decda408cae4e640bec0c7fb2f00c4f8049937",
+      "bytes": 132914
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0015_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "3886c3de98a3d0060f89466a81921a397b0c87b0311152d82464446886e6cfbc",
+      "bytes": 14186
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0015_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "5f3aaa4f9c0f43f8524654deb1e06508c443064d55816e591401a882839ef3fc",
+      "bytes": 25227
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0015_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "691213d88c33a77d6b35d0c2501aa5d603cb49ae447ad491e5c6e6a72241c588",
+      "bytes": 21908
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0015_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "daefe7e6e603df886f6c7c40a3638e43aafda8646015474745165380860f175c",
+      "bytes": 25227
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0016_ef134f2a18_uniform.json.gz",
+      "sha256": "72f08342ff40338cd50e8d8a2bdd61e370777710a769bdc12a947a8b8ef54ff5",
+      "bytes": 129760
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0016_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "ee7512c0de7aae929abd0484fb4c40fb0033fa74d5b39a47adbb60783c99e2ad",
+      "bytes": 12249
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0016_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "6b0330f3322e6a4d674261769b755b4ef6f5860c35a40f83c560108982ec3eca",
+      "bytes": 25244
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0016_ef134f2a18_uniform/field_p2/coefficients_000_001.json.gz",
+      "sha256": "f113f6fa43b4915e4d69fa5bb7cccfcec0a355acd59b30a696e3044300f311e6",
+      "bytes": 15689
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0016_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "6bb91b030a21bea46c51edb6673b3208db7ce22db9677fdc210d423c57c9667e",
+      "bytes": 25244
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0017_ef134f2a18_uniform.json.gz",
+      "sha256": "a929b8715718a172cec217362c40c955af7d6ef5619df7a43d2ca71db3fc0d01",
+      "bytes": 135020
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0017_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "e6527b42664168093924efd26c769b88d033d741c2b1156ca66899ca3e5f65cf",
+      "bytes": 14185
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0017_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "3d405abdc209782d3a0512e1d91386c3937739625e2c2482b2e83300180ec99b",
+      "bytes": 25233
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0017_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "35215d0c79b8798362bc8ca6dcf55dbd600efbbbe961e2efbbf62b875ae64679",
+      "bytes": 22564
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0017_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "056eaf44a45bd1c0378ebcfc3667cff8be2c265a8cac0bbca990e9febb1f49fb",
+      "bytes": 25234
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0019_ef134f2a18_uniform.json.gz",
+      "sha256": "992d9d64669afa7cd552938f2b55d47344c715a698f8b0b6e45cff47e86b13da",
+      "bytes": 130013
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0019_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "af96fdc3223fa760d9e7fc2a37906dde2a3d434ef945577979720f9a9b2657ee",
+      "bytes": 11687
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0019_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "6798d353d1d432d85e74db7f7f417ccb1429281744af30694547cb5168a20ad8",
+      "bytes": 25247
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0019_ef134f2a18_uniform/field_p2/coefficients_000_001.json.gz",
+      "sha256": "c98268976b46fa1e61a793730fc1957e0b170de632c2beba1bf268a30880b217",
+      "bytes": 15552
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0019_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "a4463d3432f72050a57549e11f6ab990cf37785f8ea2539d96b60365b9450fe5",
+      "bytes": 25247
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0020_ef134f2a18_uniform.json.gz",
+      "sha256": "2ab00ecc5bda85935d8a3e1dd65ee26d77e3fd13dbabe0157b248a6e0f0444e3",
+      "bytes": 135792
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0020_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "17dc5f192e936adeb6a870f6715708cfd88e22e837f516a9ac5f6336bb4383d5",
+      "bytes": 13729
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0020_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "cff743338f384e9d2eeef775bd1dbe00e1f8a87bff4c8e94aac62810e3b4e7de",
+      "bytes": 25235
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0020_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "cc5d0e517637bfb9bfc61da137cee95a4b24df7dc3358fd0421e40fb6ef614c3",
+      "bytes": 23117
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0020_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "b6695eabc785cf1c64e151a0653680539a3a282d0a42ce56674df1f0e0d98386",
+      "bytes": 25236
+    },
+    {
+      "path": "notes/2026-11-12-actual-expanded-parameter-domain18-R6-Q512.json.gz",
+      "sha256": "1df7f2a7bfb21f841abbb466093cb546b37e46cae638933cced872f0194e34c6",
+      "bytes": 7220
+    },
+    {
+      "path": "notes/2026-11-12-actual-parameter18-central-degree-layout.json",
+      "sha256": "14471bd6ebdb4fc437d3b178b9aa0006e8a8abf7b7babbf7716e36068c1dea85",
+      "bytes": 15952
+    },
+    {
+      "path": "notes/2026-11-12-actual-parameter18-uniform-degree-layout.json",
+      "sha256": "b2f6d1acd376695ab77d7357462236b806d58ba9772a2f2a15d51939c8d9adb8",
+      "bytes": 12225
+    },
+    {
+      "path": "notes/2026-11-12-isolated-parameter-proof-and-prefix20.md",
+      "sha256": "2b5ac5281bcdc86eb32081ea6830f1247c046903cd98249b6b5359f0a4acef4f",
+      "bytes": 4343
+    },
+    {
+      "path": "notes/2026-11-12-parameter-layout-refinement-decision.md",
+      "sha256": "ec08bebb51e74a8d6d6bf9bc61d3d7b295bf56de392f2e2aab92decedaee275a",
+      "bytes": 1053
+    },
+    {
+      "path": "notes/2026-11-12-parameter-spatial-endpoint-independent-review.md",
+      "sha256": "2f1c70226c2c2183af17fd2c6cd0c4872ffade58827a7e9397843e2846cc5781",
+      "bytes": 3616
+    },
+    {
+      "path": "notes/2026-11-12-precompute-parameter20-cache-reuse.json",
+      "sha256": "dc3a596c3780df8698c4aaf8975d21296e9962f65d724719ff487c4e053bdf53",
+      "bytes": 2540
+    },
+    {
+      "path": "notes/2026-11-12-precompute-parameter22-isolated.json",
+      "sha256": "3cfb2df0d888414528ec83e53a5af330d5516e81ffb4ef38db93bddd3008b651",
+      "bytes": 3693
+    },
+    {
+      "path": "scripts/fourfold_parameter_density_cover_efficient_v3.py",
+      "sha256": "e84c1668e383b401b71d04f073c6dfd7dac0fdb99cd5786f266c60673881f537",
+      "bytes": 19598
+    },
+    {
+      "path": "scripts/fourfold_parameter_precompute_expanded_domain.py",
+      "sha256": "228406f747e756bb0bdcfd44b9932028bc5bd80411a06a398f48b8ca04550354",
+      "bytes": 8963
+    },
+    {
+      "path": "scripts/fourfold_parameter_saved_layout_refinement.py",
+      "sha256": "feff4c86d54975d7d06ae4b01098d8ef15034eda3cce6e81be0769633bec965f",
+      "bytes": 4851
+    }
+  ],
+  "total_files": 163,
+  "total_bytes": 8101794,
+  "depends_on_previous_manifest": [
+    {
+      "path": "notes/2026-11-12-R84-actual-parameter-density-ready-manifest.json",
+      "sha256": "9a4212719b8e9fa68ec4b5ed808474b4c2b5ac2c5c84e2b99451dc72b3866114"
+    },
+    {
+      "path": "notes/2026-11-12-parameter-rms-hybrid-prefix-ready-manifest.json",
+      "sha256": "a5252a60eb082a54c89259a45c8f82fa7965de0eff1843c26337d8e10030324e"
+    },
+    {
+      "path": "notes/2026-11-12-efficient-parameter-Q384-prefix10-ready-manifest.json",
+      "sha256": "d6942945d0bd30ac26fc48e3a468f2f1e41745e7f73c3f3b47e9b8001937b2b8"
+    },
+    {
+      "path": "notes/2026-11-12-R6-even-grid-parameter-ready-manifest.json",
+      "sha256": "688780747826ae4ba9656a6c27432929bf3f34844d183aa7b9a94bdae19379bd"
+    }
+  ],
+  "reused_previously_frozen_files": [
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density18_R6_Q384_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "fb04884f13dd76b2c832faa2c8b04e3d212c073a4f8dbf7356974a4aa4c4bf24"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density18_R6_Q384_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "5a2e31c5e161d1173cc9bbffd99b279899515cfe016baecc7fc4211e02c825e9"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density18_R6_Q384_center/density_p1/manifest.json",
+      "sha256": "02f959c588b74679da81dd306070c2f0004a3c6c6fc552dfb1ec3f39b30c75bf"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density18_R6_Q384_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "e8faaf194c314f14cde9125dbc8cc4a24752914f56a27d3d7784ea1bd4f1258b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density18_R6_Q384_center/density_p2/manifest.json",
+      "sha256": "e612b583490dce7bc85dec9d3237d96e7bb9c7a4af2d728ed2108de43964951f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density18_R6_Q384_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "c337cc66e7ec70d39879214e708983ead2005fc2c123039ceb4ce9f9afaccf5f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density18_R6_Q384_center/field_p1/coefficients_004_005.json.gz",
+      "sha256": "2ac78ffc54485b0c9fdcee30a72fa148ce10401c576803748624bc684a5b2416"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density18_R6_Q384_center/field_p1/manifest.json",
+      "sha256": "5af3212606e053240883ea06de9766aeb3b13d94e7335d784d32b65a1b50f2f2"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density18_R6_Q384_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "9a40d42d4cb418772464907d6f1f3e662aa9f63e480e4db4ca6f3daf4944e813"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density18_R6_Q384_center/field_p2/coefficients_004_004.json.gz",
+      "sha256": "9384db79b85bbe972b731877cf1652f8aabb784eba5331e7f726918517c239ae"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density18_R6_Q384_center/field_p2/manifest.json",
+      "sha256": "a1c2e882b075328b8c56ca4e3a95db46b796e745286b591e58c937d3cc4d6a74"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density18_R6_Q384_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "d5cf75d5c86f51fd7c86da8e099534b3fb501b488bf0f42e81c4a66a9eda3c32"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density18_R6_Q384_uniform/density_p2/manifest.json",
+      "sha256": "6c14f1f562c16f5c9e689aada63a1939dac745aa50c3927cf0c593224f571842"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density18_R6_Q384_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "fa7b46404e27b1d0fb8077571c4bfb6cc448a029bb76acbf4f641e8936985031"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density18_R6_Q384_uniform/field_p2/manifest.json",
+      "sha256": "fc47e2dec1467ae2da5fcb178851718496e9a18e9ac486af2ea05234bf09530d"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0000_center.json.gz",
+      "sha256": "9212b78f06cefeafcfa0d8fee7c01faa52a5e107612d9c83db988937281a97c0"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0000_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "cea947fdf51e139a6d5a88a833cc666f0e25ff79a28763409e9e25f1490d59ab"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0000_center/density_p1/coefficients_004_006.json.gz",
+      "sha256": "d5f4664c52d00b76c1e3aa4ba7f1cee97c646f906422d6a3cc7067b01b304023"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0000_center/density_p1/manifest.json",
+      "sha256": "d887109ca5cc253ae94d227685a2a71c5cceb0494588a21a088a7500dfb32232"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0000_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "94594fcf2eb8ec77762549dcb396d3e3c9095c289253e9aad4cee840f08ec1bd"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0000_center/density_p2/coefficients_004_004.json.gz",
+      "sha256": "8958c120abd00e9a342d74589ccac49316cb4609b96cb84de526686a91127a89"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0000_center/density_p2/manifest.json",
+      "sha256": "be00e6377a516b239d77e8057393fc64f2f847dc96b47e74beac0db6660812a7"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0000_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "c45f0a9811aed63ff31659e902668a0b42cddfd50f623d1bd3cde1c8c35b4b48"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0000_center/field_p1/coefficients_004_006.json.gz",
+      "sha256": "b68ba85ecef02268828934b4cf5892898244b437a8db43c43094d6963224f7fc"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0000_center/field_p1/manifest.json",
+      "sha256": "3af82b9f0ba29d4c970819b1e59dea9a43e4efa49580372b68b7063ab0e2449f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0000_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "b2c6a6dcb8c881508165a7cf328170fbcde81b48b36f54881469ccefe4444759"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0000_center/field_p2/coefficients_004_005.json.gz",
+      "sha256": "62f3ad4f911dd9d5c07b135595cba1bedf9704e9ca9b1f2651787de468e3a6b7"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0000_center/field_p2/manifest.json",
+      "sha256": "62adda4e11bbfd0f8f0846a849846a711a695f2ebdcdfffbaa17d20c679e62ad"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0001_ef134f2a18_center.json.gz",
+      "sha256": "a57e1634d10e8aae41729570347537d1b8bade2b55688b1c01da6f8eebd34171"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0001_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "e0f283d8939fb12915f56806ed2da34790587c816dac7e1c0736eeb440b2fb0e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0001_ef134f2a18_center/density_p1/coefficients_004_006.json.gz",
+      "sha256": "4d5128c2a2346585838c78dcf7f948060b9a01d867a997a18f53a15fa2740a5b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0001_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "2ba6c714e81a6b52770e3b68d6ae7acc7703dece48e91e1eb1a4898c89ad8101"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0001_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "cca55ad007f071d6ad60c476c28aa706d0debb8bb8c777d4c57d81b35fdd896f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0001_ef134f2a18_center/density_p2/coefficients_004_005.json.gz",
+      "sha256": "3842e371413efa49c8539905fb8d0c62d9da33d67ff3f8572498a82df5948cbb"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0001_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "ebf7371766677a4506912c355cd84e4a13b239c9c37359e945db3ae53468b2d8"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0001_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "eebeb25be7cb9c09c3e4c7f804a640e3cdbcd4de9fc2110bd934540a5bc2e7ea"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0001_ef134f2a18_center/field_p1/coefficients_004_006.json.gz",
+      "sha256": "68cf004af627468441badc08fde19107d77848dc0a481c3fa10c9dcbc2f8debb"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0001_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "440c8a08106885b7bd19e636c4ac7b79e401a9fe7b26fc860413048609d2c5c7"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0001_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "ad869dff188e0da2ccb4de70c922a55bb6285cd89bbb4a0a0bcffd4148b87a26"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0001_ef134f2a18_center/field_p2/coefficients_004_005.json.gz",
+      "sha256": "723ea50dd1a524599b8925a61ecfd361f5dd482c33cc175b8e47e9999511ec20"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0001_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "581627413aafce29ea44e572d736ba9ded008ab90ccdd0c04f9aa447b50fdf72"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0002_ef134f2a18_center.json.gz",
+      "sha256": "f4083d16647b8999f4e2c1892b77d565c2a08e3bc1fc34bbe616f71cbb805705"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0002_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "3c5b2fdaa23c1548a0dfc527167f5c596adbacf488790e880fd66248c6f2b883"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0002_ef134f2a18_center/density_p1/coefficients_004_006.json.gz",
+      "sha256": "87b027b7b8a618b93edcc883b10aed8af8a44bc31a2723e005bc5ed537fa1564"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0002_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "29498740d7de1ec314e442dd59fa4d5a679ee0b0db0e1f674391e6caefaec3a9"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0002_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "6885fceb0df702fff98e6379adaa705d2aa52705cfbe4b50fde31ebf89f2c918"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0002_ef134f2a18_center/density_p2/coefficients_004_005.json.gz",
+      "sha256": "3da59c989a9752c715effe7e19de86a2b55cffef038c81361e4e106932f9f654"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0002_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "14fc7be0331761a1d366b231cc1d12b2c18518fe6fe348e20747a2edf4bb160b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0002_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "b159b94cd550fde2ea23df7ee8783750a870c9850bc2ad16df1f51ea2f8ce3db"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0002_ef134f2a18_center/field_p1/coefficients_004_006.json.gz",
+      "sha256": "af195723051787f0977b1d85475b8b0a1e1bddf48b03ccc418416c5f8bfef9f1"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0002_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "0d88b986368f4288182f6c8face782dfe835fbe5d99e30b6c6ad1aa7442720db"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0002_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "f49db40789f8cdb16c742c8fc4ebeb1259aaa04ce31fef45c9d72c14ae92ce59"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0002_ef134f2a18_center/field_p2/coefficients_004_005.json.gz",
+      "sha256": "1a201c058cdcdce45c6a7050cdc2ae0624b0b95a979dd04233ff1d82ab1d885f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0002_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "c34b22dd210c8265697c6970b97c170ce9a7f9d93f319c8769e4cb41f9f633e2"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0003_ef134f2a18_center.json.gz",
+      "sha256": "e60fdcf5dbf613486cd50620089b13285842a217efc5b78d0dc158260a0895e7"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0003_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "bc7eb408f1e111f8e88125e570cad588fa3dc424768b41fc72bd92fd8bbb276d"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0003_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "92040c9bfdc83d2385d6c12667133f0b98b9a85a3011d88880e8231b52bef342"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0003_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "9532c6136e6cdc4ded20f9a5a5a1bd18194db4abbec05bd9fc77a993a38c5cc2"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0003_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "5f1f11dbcaa163bddc291bb20d6c589196c6dbf7469144db2f52844347a50f23"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0003_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "8399c256274bfb317ec4b1d0581125a92ef2774fcc039c85b3dc15f2134f4d3f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0003_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "82e61257406eec9a20a51d40e8a4f522bacbc06c2040d99735b84de8ad727b55"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0003_ef134f2a18_center/field_p1/coefficients_004_005.json.gz",
+      "sha256": "0cb3ee7c8c88cdb5d6e028bffddd5396dd70abe637afe449f2cbeb911ef98b19"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0003_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "f37520ea740930e84d02109d7b655fafa81e055bf2707a12531c370f42fec1e3"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0003_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "292b716f3881e677fe599657706a07fe46d22cce4cdd3c2e0d97973e0718253a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0003_ef134f2a18_center/field_p2/coefficients_004_004.json.gz",
+      "sha256": "a4f7f7c36351d856a221a957e59206ed4988727affd10c4af7198c0732ec4032"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0003_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "c0e264add4d2b4dbae1076e4b2d1926e1355be64d07b562e0a4b347302a773fc"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0004_ef134f2a18_center.json.gz",
+      "sha256": "24690da7408a4623e1b5b37facc72c80583bc21af20c90acbf6cf02cd7cbfefa"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0004_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "667be04ef32b3ff338ea372a06974cad0f964534028f9b58c9f27013afd69a94"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0004_ef134f2a18_center/density_p1/coefficients_004_006.json.gz",
+      "sha256": "bf5e696d4976b71f8d9d54420dc8060e8cc8a97db39af3e77e912edad78212dc"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0004_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "f103d1064dae8a5b740d640b4bd22da0b54afed19a7b1be56cc4861004628524"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0004_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "3a3857bac89b20b6103d3149112babce80a5f485c37a97d216e765eda9986e05"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0004_ef134f2a18_center/density_p2/coefficients_004_005.json.gz",
+      "sha256": "4408d2c232c646372c55c9556b9a7af4bc6625dafd1104af4904dca771b28388"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0004_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "486f94bb5f0a9c04fc1f005dc63cce45ab8d2ace1998654ee2bbd73a13211856"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0004_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "c1f5c19b1947a148ca6d4d555cb083fb5d4385d1f29f12081dc843393d8d7158"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0004_ef134f2a18_center/field_p1/coefficients_004_006.json.gz",
+      "sha256": "c2261baf56da799634ee6fe68a0ee30322fe3cfb1998b8f06c761bf1b7d6e779"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0004_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "42714a145f589063008b0658b5347e3143a8a8bb5101b48ac3fb51300bf9e44f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0004_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "21a6776827ee6dff84225b816cb8705fbcf19d73d16badad61740daff373adc6"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0004_ef134f2a18_center/field_p2/coefficients_004_005.json.gz",
+      "sha256": "3e774a2c1a2fe64bf55bfda392b9c97aac86723c65083dfe42076a580ccf5283"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0004_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "9dbaa4bae16af677217649a7104d2675a7b3f27685be07b877dcfb40b3d9679f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0005_ef134f2a18_center.json.gz",
+      "sha256": "5c75d827b8350891af87e7d1f2f1fafd0850e524e431423de74710d523cae2e0"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0005_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "ef2e61cb820263f1e8dd1a276ab59c63b33150b78d9f8db4c01c933acd5e6c2f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0005_ef134f2a18_center/density_p1/coefficients_004_006.json.gz",
+      "sha256": "0a8a63fb5b23d8062851ff150c5084ad7909587561b30901ac7e29eabb3c22be"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0005_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "d889e965be70689749f8286b940e843c68db05a9d085a5325b913af8dfea7901"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0005_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "12e6b40b1c2009dd8c97f5b51c772d99333523293ca2aa576cb885bc11e6533a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0005_ef134f2a18_center/density_p2/coefficients_004_005.json.gz",
+      "sha256": "27b8677b96a44544fdfa446816a8b5a45881231e0f21e81292fb016b6e434bda"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0005_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "b695b1ca232ae78b016689609203bc64f38addde77353008aac0e9e0c27febcc"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0005_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "e3784c3c32cbe2b10a11a975945adf7a0ac4b46d9254cd9c1b2212d217b7b7d6"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0005_ef134f2a18_center/field_p1/coefficients_004_006.json.gz",
+      "sha256": "1d875c2793830568df6597ff4a27519504d13a75b81c9ed33c84eb6117541277"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0005_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "bf2fcadf68b7e968e46b1be4f1791982c76a57e81b10bab569bb4f1d25754c7b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0005_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "eef4f3db5ac4c6fb587446798833fee0252fd3eefe9ea5aa14a2bfb4d5f27380"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0005_ef134f2a18_center/field_p2/coefficients_004_005.json.gz",
+      "sha256": "98dd69a6feed3deeee34326f01e185dc16104e33e5877def13ce591d60c79ce2"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0005_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "af9006f88494fdddb746ea96e31374eb255eafe2bcad645d7fc7426beec57a26"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0006_ef134f2a18_center.json.gz",
+      "sha256": "993ce068f4447ac9e23f7fb1ebaa99cc3f43e9a0695b71d70b37829279625565"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0006_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "337a96d17be367ee7e066e63f6b21666f8c6b54524d0fa553673ad5ea0599e01"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0006_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "47e5bdbac26061368296324978754b6c8eeef3e383a5b7280c2ac3e44cd45523"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0006_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "a2e5a60e556c9abf90d0dbb0ac42c910a9e4b993e0ea6c58d75a996701e36901"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0006_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "8eaa99ed63ef4a9e22b3c2e7c48af76d30470ae0167fa0e29a60dc2ffc8d8b3a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0006_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "8a38415c227b222bcac65329b7e17990ee1f78586476e65873d7f5783cbf3a5a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0006_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "4ff68b0aa20af2fe1132af7b51737fdba417bef8a85373bf98b81b6de05018bc"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0006_ef134f2a18_center/field_p1/coefficients_004_005.json.gz",
+      "sha256": "03d3c8742a46b05fe150ca17a70e8569579a83fac50db86959987f60fc5db9db"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0006_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "960f97262faadda3f85bb41d1c7e9cb51e2ee9991cd626844858f712bcda55ae"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0006_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "723b5302fe4e04a382f2fefb8e33c896eba0eee07f1c6ab6fe5377151fc308b5"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0006_ef134f2a18_center/field_p2/coefficients_004_004.json.gz",
+      "sha256": "b5f62e53a921a66f13b20dcc57434cd1f8e0fdc068a416addf4cb2c926e2a8d3"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0006_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "a0a42fe367f9ca9ce1a18693efa6cc702408b27c8ec59c6ce46eb3a2c82caa56"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0007_ef134f2a18_center.json.gz",
+      "sha256": "663d97527f11747a6ce68c10725a663ea27526256f007ad1f8ae18d640df9968"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0007_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "0690ede92658abb5bc4b5c58bf76f9aaeb7ef0680bb2fd8fda6bfb0964cff6f8"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0007_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "1dec639098d91f258e1afc90753a923e4447d67f50a7e388f2b6e12b962a00c4"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0007_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "bd7ff602600d03d5173e02060bde6ee8a9aaeb3fb6031aec3e81449b4f56ac3b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0007_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "c46cb43c7f974661d92baf2750acda8b27e62072147039a0dcffa947661a2ec4"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0007_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "450df46de1da501b78758c57d0b67bade269d8d41aa5ebc27f644c9396d56a02"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0007_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "c8fea3852703005f7c5ba1e116c302b45ecad56bd31fbc1883124ca115b0b785"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0007_ef134f2a18_center/field_p1/coefficients_004_005.json.gz",
+      "sha256": "51b113947a6119c0a3eabd0abbc119a0df6b933c791dbc932245e69ac2b61f31"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0007_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "961f25272526e1c34367509bceebba6eb4ca27e09990d46974759d8828923d3f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0007_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "d420255296c49987bb6299c435f4a9d5932ea0eefb1df191bcb004019bc8de74"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0007_ef134f2a18_center/field_p2/coefficients_004_004.json.gz",
+      "sha256": "4d2cabd1ac7fd9b37c46453f723ae522cf7d65c9984c896210e49fa3116a1856"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0007_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "fa87b42277cf34f62dc08063a5178b7615d0a67a9ef6226db89fc66264b82ca8"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0008_ef134f2a18_center.json.gz",
+      "sha256": "9a712aff4d96304916ce2e84498208a6ae4450f3c313f3c99b170f2f6dbb1434"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0008_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "f4822b8f4b8faea10c86698af3bb19b72591a68953287477f1ecbd33f32c4a77"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0008_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "bb60be2e5de0e22925d595767bdfe184ce9b41bb200abbc8f5da76e1a066b954"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0008_ef134f2a18_center/density_p2/coefficients_000_002.json.gz",
+      "sha256": "848baca1a181946eb651bb85ea28bab6e7a2f4cdf3aff76742ca0af5822c9bc5"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0008_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "3d051dbcc51f4df8c81324891f781d17f0b9ac7f825f0ff4e950fef84b9ef5ef"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0008_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "505988989788b214c2c8f1851020422f23d6f7808b966abb4e589a1ab8771557"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0008_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "0d93282d7702c337d62ad39dbf3ced39a6910d9526f922458dab0775148c5303"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0008_ef134f2a18_center/field_p2/coefficients_000_002.json.gz",
+      "sha256": "be3af1506dd701df5db8e82e82cb3368de264ba2344cbf6812b7bf94c077dcd5"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0008_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "b0180dad7209d3d3c796f36672e0508ab879cb725ed38a3360575139c7240436"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0009_ef134f2a18_center.json.gz",
+      "sha256": "3e38ea49d8e03831953139d466dd8fa1d7faad714c2354b4c11d624b3a653bfc"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0009_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "db07f677947bb463d83cefba5ff88696cdabd0a9aedabab4d875103c24d42163"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0009_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "e86ede7141049647ee0376b32713df7bcd911c4a2b09c2086d65f229f7ca26fe"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0009_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "367ac37531de547cff620a34f4675fe5cfb842dab3c6117c0dadd52e4ff2618a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0009_ef134f2a18_center/density_p2/coefficients_000_003.json.gz",
+      "sha256": "d07fc6b7ede228a095d43d79cf51c85099453606cbd6f24d05500c2923cdb73d"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0009_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "906e6322de9ab7ae63d7b1b1ecb57bc5f3b612f06e46a033e0793206e0212a23"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0009_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "c8e1a7613cd6fa9c7981dac996e702c775a4508244b5b5948094184fe493a85a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0009_ef134f2a18_center/field_p1/coefficients_004_005.json.gz",
+      "sha256": "492438c6107f16b3590a07a59ca2154d47a30240642aa63fa3268931b7d47543"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0009_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "e0382ebc17cdc201db4812fbb24629c99128a2ddb6b1376b6d682f4109fd0284"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0009_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "6ce7ccf933e34b875b55f5197e2fdb98623f3c79e318b247ce3495650ec219bd"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0009_ef134f2a18_center/field_p2/coefficients_004_004.json.gz",
+      "sha256": "46185156411064736f8092276f9f6700b64ad5aad31dcca680f0de0730cf2684"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0009_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "4c5264cc5fd25cb1dc7833ec42269189e4cd0a8cda880a65b220dd31b8e76dba"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0010_ef134f2a18_center.json.gz",
+      "sha256": "7fcbc468a5dbbc0f0a2f90d5f0c6416fe5c0d082ef0cb6e304cf358e54cd5a8c"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0010_ef134f2a18_center/density_p1/coefficients_000_003.json.gz",
+      "sha256": "5964f769049ef4c52ea4973b069b2e28219ce8e33b1f0e8e703c08d31abb4a10"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0010_ef134f2a18_center/density_p1/coefficients_004_004.json.gz",
+      "sha256": "9730b98ab1339cf37a0bc6a0304f519425fb404ac5b1bd70edb66f0b156d2b89"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0010_ef134f2a18_center/density_p1/manifest.json",
+      "sha256": "527d59313708a14e4ea2ad40d6d9601a7b16df416cc470565a5c4c767bbb5da3"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0010_ef134f2a18_center/density_p2/coefficients_000_002.json.gz",
+      "sha256": "930a269c9070746f461f41ecb8607201e0fd252e642d63781ae2a7fe9aabf8c7"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0010_ef134f2a18_center/density_p2/manifest.json",
+      "sha256": "bb8ac1118ce5786e3a3fccd5a65ab732cbc8c3cc745c706ae3d3c619aa932a3c"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0010_ef134f2a18_center/field_p1/coefficients_000_003.json.gz",
+      "sha256": "1142532644c7a313a83a05c327090b86743892652600915d0b6db960945e01b6"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0010_ef134f2a18_center/field_p1/coefficients_004_004.json.gz",
+      "sha256": "2036fe1654db14bd17840a6210c0be276ff77c7d9d8931dad00c9ffc7486b612"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0010_ef134f2a18_center/field_p1/manifest.json",
+      "sha256": "a13da7da8e9b16c3505beb7a0e39371faafd45157d31ab020314d4865b7106b7"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0010_ef134f2a18_center/field_p2/coefficients_000_003.json.gz",
+      "sha256": "a6df195d1c30b0bd37ffe45d2e3e7237f3b43bf366ab28b3c9e031d4402d6063"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_forward/forward_0010_ef134f2a18_center/field_p2/manifest.json",
+      "sha256": "2a051e0e58c9af0e7735563a694dfc3cee6a40a10ed8c1f272f06eb072d2f5b9"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0000_ef134f2a18_uniform.json.gz",
+      "sha256": "678b0a35c844980b898bfa1030462e4edcafa7c4ffe3540f25441c61f3b50920"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0000_ef134f2a18_uniform/density_p1/coefficients_000_003.json.gz",
+      "sha256": "2c0ca7e4ec606b3ce0460bf9f52718f387960f334831d21c2abe9a19c3b8e844"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0000_ef134f2a18_uniform/density_p1/manifest.json",
+      "sha256": "c2ad55c9288ad336b0a4e199a278bfcd891e9d979e90c226c06173ce21f2c2fc"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0000_ef134f2a18_uniform/density_p2/coefficients_000_002.json.gz",
+      "sha256": "b1833433f69eaa075ba680ee0bb3267e35ccc88516dcaea59c90f62be49031c1"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0000_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "e847e316fce66302b221a363edd2fb2889dda715c324c8a5ef06644bb734eb5d"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0000_ef134f2a18_uniform/field_p1/coefficients_000_003.json.gz",
+      "sha256": "f0b24576b42970aefe0ff878b36738e766f73d50018eb7945d84485296dfb4d3"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0000_ef134f2a18_uniform/field_p1/coefficients_004_004.json.gz",
+      "sha256": "614dc5382a5816b71d5f65cf373ccce13a15829875f50ba9a4e4a20776dbd1f0"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0000_ef134f2a18_uniform/field_p1/manifest.json",
+      "sha256": "949c427dfc3c96b1bc4ed7b9f326c51d89b3b717503ef74ad02a709bc2c8aa1f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0000_ef134f2a18_uniform/field_p2/coefficients_000_003.json.gz",
+      "sha256": "4798d6660634782e27972d05a075118261536e12f63170284657522aac104305"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0000_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "1e35479ad199ae551e13e2913e36717689414365df8f77de45c8c3bd654be3fd"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0001_ef134f2a18_uniform.json.gz",
+      "sha256": "096e32ce001cfb3edd0d0aa1850ece72b725a09455a616778c2e6c403cd31557"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0001_ef134f2a18_uniform/density_p1/coefficients_000_003.json.gz",
+      "sha256": "0191944e8323e5b94dcce001fe0dfae223f19e0a90965ed1078a3c888487b2f4"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0001_ef134f2a18_uniform/density_p1/manifest.json",
+      "sha256": "f407a5cc0e051ce118ea5b82cef213dcb6cfd726e43ff3f52b24d4c3ad2b8f2a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0001_ef134f2a18_uniform/density_p2/coefficients_000_002.json.gz",
+      "sha256": "d34f671222105ae4a8021d8a6790e6808531bd9906d1ba83eab398899958a344"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0001_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "03986a1672f64aa5625517d682fdb586cb77152d37aef51556fcbefa666e1b20"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0001_ef134f2a18_uniform/field_p1/coefficients_000_003.json.gz",
+      "sha256": "6652e1094554a4e9a5fdb117675edd7b2d2b58821adf883af1766d0f0a8807b3"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0001_ef134f2a18_uniform/field_p1/coefficients_004_004.json.gz",
+      "sha256": "52fd106ff1faae7b1efa442c9e90c011460cb36d41a53b87dd2af2d9bcec938a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0001_ef134f2a18_uniform/field_p1/manifest.json",
+      "sha256": "c728947d6eb3c08269f9ada748ac57e3050786e28337874815e46d641bb9c43f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0001_ef134f2a18_uniform/field_p2/coefficients_000_003.json.gz",
+      "sha256": "cc300e89a0ab37de64a083cb0f637affeae4e3d6a344e635de6fa3a036b9d56e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0001_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "ccb88605278c43f414c7f0e4aa1c4adec5324d9b8831d14f16c65994c7d15e9d"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0002_ef134f2a18_uniform.json.gz",
+      "sha256": "2c4834f924ad16dfe0667f44f386ea6168cdd4aa7eaa1e792910d5dc5498cb69"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0002_ef134f2a18_uniform/density_p1/coefficients_000_003.json.gz",
+      "sha256": "0e17abd422a11a6dc7ae72ee62ded244fad0c582f3b1b3c9a20030bdeb8590fa"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0002_ef134f2a18_uniform/density_p1/coefficients_004_004.json.gz",
+      "sha256": "7774dcec873016d115920d758856080eca6083762d096dc1a042a843cd3ac1bc"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0002_ef134f2a18_uniform/density_p1/manifest.json",
+      "sha256": "cb842e6b1a8aaff1df0d338d9e50f324bb75ce87200ee1226ed5b31804c8dd1e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0002_ef134f2a18_uniform/density_p2/coefficients_000_002.json.gz",
+      "sha256": "e2a204c706216b02172cb87958ee591903cd34feb590d93596d5b7e9a20ad516"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0002_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "7a18b74a3814e12924df4d21be6e20c22c6fdc2c9ef41a92dccaded7395b0996"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0002_ef134f2a18_uniform/field_p1/coefficients_000_003.json.gz",
+      "sha256": "722b9b1796f70231b1ec53213aa8b3106124149ed4b99a16abecb8865c171680"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0002_ef134f2a18_uniform/field_p1/coefficients_004_004.json.gz",
+      "sha256": "a08ae4731dc9f43009c3cd0d22f8344b93a6515e4a78de6779148e69857834f6"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0002_ef134f2a18_uniform/field_p1/manifest.json",
+      "sha256": "91259700bbba1e9364b384f51a036d6168975227758e786c2043555e079ce23e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0002_ef134f2a18_uniform/field_p2/coefficients_000_003.json.gz",
+      "sha256": "c4e0aacfbacd4d7e704f86cfcb96b3e788fa295191fe5f5653579d84522248f2"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0002_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "218a364135a4007a6e2f4dc6cc17d2ed6ee761b3eaf7f7fbd440da4f2c05b6a6"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0003_ef134f2a18_uniform.json.gz",
+      "sha256": "bafe9a7dea74d13892f03aeaa44b24c9eb7aef0ecb02a1c0f7e4c512eeb8abb1"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0003_ef134f2a18_uniform/density_p1/coefficients_000_002.json.gz",
+      "sha256": "8ab07d1d4c940528f430a53c441f9408bd38b996153b4302386afdd2102dbd74"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0003_ef134f2a18_uniform/density_p1/manifest.json",
+      "sha256": "b680ada2ae5be3d931a027cdaa3a0ae6559b35120be9396121ad06def3d2ea85"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0003_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "30c7a2c7b5ae13964b4df9c1dca6b81e74fdb25bf6f3b4d54b47094b29b488ef"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0003_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "59fb2faddef3dc60fd981d062d8c4574a38b81c06eb1f7d9e325eadfa9e1107b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0003_ef134f2a18_uniform/field_p1/coefficients_000_003.json.gz",
+      "sha256": "481fafbcb06f5ab540158f9741256accafadcbf857d30e732fa0c8136ee58c84"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0003_ef134f2a18_uniform/field_p1/manifest.json",
+      "sha256": "e31b823d9771e0d6a304b3b4478ad13af89c80d505aef5516f08ee2862ae2fb4"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0003_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "ee81176764e997fe8b636227e6712a98518130b588cc6ecebc5143cfdc184cc0"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0003_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "3f43e6cbb4d977e6975d766926d694a03d0ca8ce30febe21af069cf2f43664d7"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0004_ef134f2a18_uniform.json.gz",
+      "sha256": "ae6f12c1f7807c61c83de84704a22edf8b107f5a7ed0b4a83890cd1e821f9c99"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0004_ef134f2a18_uniform/density_p1/coefficients_000_003.json.gz",
+      "sha256": "1f26a8a1a2f97402de426f7dedefa5cad59a49562f3aa72ddaa654661f03a7df"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0004_ef134f2a18_uniform/density_p1/manifest.json",
+      "sha256": "e9b393ede8d320cb6375e2373873a001c9b057b2534fbc037a9c0ce6b608bbbd"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0004_ef134f2a18_uniform/density_p2/coefficients_000_002.json.gz",
+      "sha256": "9fdcc8fad225b48beba1493dd1fbfa1b3a6fb85df754a9fad7437a91598198bc"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0004_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "a4bee6d10813ecb5b59d6282cfb41f893a678ec53ea8ab96653a8d4f688abc50"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0004_ef134f2a18_uniform/field_p1/coefficients_000_003.json.gz",
+      "sha256": "961cb2de370a7280198d6bd127dc083508a68478b7a3e7bbc3804ac4273335a7"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0004_ef134f2a18_uniform/field_p1/coefficients_004_004.json.gz",
+      "sha256": "0e5fde6bc652317c4e19772218d05905870202e7403bd779c6703ab79bc367e0"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0004_ef134f2a18_uniform/field_p1/manifest.json",
+      "sha256": "0cb1ff3e00483ab73fc55525e553176c09e9e09913c1a44b04b62a1a3b53a631"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0004_ef134f2a18_uniform/field_p2/coefficients_000_003.json.gz",
+      "sha256": "87b43e62bd28afc1e50fc79aaaf867015b34e7d0b0a193c0978b13c56e773e99"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0004_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "8f80256a0f48015693fed598f435213b77a4ae83f09ea0436b7cc528a2839a28"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0005_ef134f2a18_uniform.json.gz",
+      "sha256": "cd25db644acfdbe7598690253b79b02092a63673bdd82421d42bf60c478772a4"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0005_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "55957709cab856a46fd6e7f7ffc76ddd997b578ca9ea73caf76d2d03ad1f5341"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0005_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "2cc6707c88d8b39c2df12cd82b885d5b530b899551eb7e8c345e6028587bd37e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0005_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "bad0ca870a3ad7723ab2f5dc790fd3a267d38f7e2b0e7d2023e795f71b7a4213"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0005_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "7d3e82326022de9906a8e8a02ef4ecb9eee512173c00cb685823fe33cfe87556"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0006_ef134f2a18_uniform.json.gz",
+      "sha256": "39aed790bd03bec73b17c7acda9f2b816b6fde6891115f1583f8a7fc947ae18e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0006_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "4a7f7dda7bf34e05d0a694fd0531cdc0f2c44de10fb8f89484fce665d6ee7ae6"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0006_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "022faa833027c337ed1bd7ddbf65ba4f20cdb8e5630058b53687beeecb69a582"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0006_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "b7c8ecc2a8755dfdf1ece4c390fd13115b29c017b704e7009a75c6374c1a1bb4"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0006_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "7b9bf59646d460406351b24c689f58f11519827718fe0553b3b5962b399d3000"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0007_ef134f2a18_uniform.json.gz",
+      "sha256": "abeddc7f5808a1e16f9582752744295e03924b2ae62fb4794fc42549a063e8a3"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0007_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "633e0c9f9c7b774312824ace317aff4f6acb2c6e96167b5db53400bd5485a52c"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0007_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "ae86d31db22e991705e7e64488571ef96dfd906d337a5529aedc75df38d9c75d"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0007_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "8605930cd2fefa2107032c8f3985cff9bf9a8a25a37acc56b2c5bf19a9a3cf3d"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0007_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "b567e6bd39fd8b7c9fd5c94bc56ba2bef12ab506f2bda8cbe54d8ff983598929"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0008_ef134f2a18_uniform.json.gz",
+      "sha256": "9fbbfc06d231a1d5c05ac79c56b509db285b58c40af10e8e59f4606a5b696673"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0008_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "66fc41fa9dcfe4992a0ab06cf834f1880a9bacdebce5c7d72785292bfb136f60"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0008_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "93b6c218605d52a332e77c638b577718da637da31e957392905838773c5b213e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0008_ef134f2a18_uniform/field_p2/coefficients_000_001.json.gz",
+      "sha256": "3573fdd81e1ec2dab426f68894ce4967a5117daf50a79033d74fbda8da58ef46"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0008_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "0c79f2f87da36e9e65a07aec2a8bf51eecddda9339ec1a95fa70d9519f7f4d9f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0009_ef134f2a18_uniform.json.gz",
+      "sha256": "e50b9b72717ce9c51063ac543b5cd650ea2c9d68a7017807e9403f5d8c4eb488"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0009_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "5f28d897aba02bc4ddd3a29951972e05add20b930347c1a38e98ade576ee0e92"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0009_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "9382e36a70036fd0db10710c506a0f5161ee78f7d002c0fb3024c22d52c81dc9"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0009_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "87cc933a8b9dd970c1dc4054c5419e5d82ec492015740369b67310553ef8a702"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0009_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "acf6196af8a092d718ca413a991936fc68676f68a8317326bf2c636f17d18098"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0010_ef134f2a18_uniform.json.gz",
+      "sha256": "56ec9fde8ffb01b6a8017a8d11daab68f086235746c5aee5685bfad9daa2f58d"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0010_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "d2bfb623e556cbbcd828f29fb07ec90d74bc50cd040a434b25f64c670a664733"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0010_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "24a7466037fb15074636c5fdf3b79045932d3ff95193e333c3db6d614af45c51"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0010_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "97f2bcb357f1e9ef1c82f8b933dd925e62fb991fa42637ba77351923ed460c1e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0010_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "2a4981ee6dc5b3cb82ad70e188f1472ed41c53435692117e92ad93962d1aba19"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0011_ef134f2a18_uniform.json.gz",
+      "sha256": "b0f1b9c883fc7ae7f0dfb8ec398400861b7edfb66322797291e5fddba570bade"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0011_ef134f2a18_uniform/density_p2/coefficients_000_001.json.gz",
+      "sha256": "b548735995859d78e4651e072f95c6f0054be3c0fd55e9e94053915e8569c87d"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0011_ef134f2a18_uniform/density_p2/manifest.json",
+      "sha256": "9b20a61c800bbe770fd2c58cfcb0a2f79dc7e57d3c3758634e6def1b38029bff"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0011_ef134f2a18_uniform/field_p2/coefficients_000_002.json.gz",
+      "sha256": "e85c4050785ec57620e23ea08ec0edab7374ff0b3846dd81f299fe1815a0fc4a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0011_ef134f2a18_uniform/field_p2/manifest.json",
+      "sha256": "7f52d51eda07bd8306cec5bd1e8ab08b2ab0a80ba4ec1445929e0b8d3f7ac6b1"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_parameter_density18_R6_Q384_center.json.gz",
+      "sha256": "b1e6f7fbed9d05c69339376904965fd28b5f79a59c01ea6d6e0f848cda76f799"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_parameter_density18_R6_Q384_uniform.json.gz",
+      "sha256": "6fdf174ea6dbb46a6fd7c8a55642bde1011bbec9f89f16cbd6246dd6bf7b1179"
+    }
+  ],
+  "external_required_inputs": [
+    {
+      "path": "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_expanded_time_v5.py",
+      "sha256": "6be6b7c02eba1eebb8c6f9cda09641af1653fb2b19dc49a36e57670fc0c64d57"
+    },
+    {
+      "path": "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_layout_v8.py",
+      "sha256": "35737ed50a54a373fb80cbc6af6a7803986b916372334e54374c653b531f5cee"
+    },
+    {
+      "path": "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_minimal_time.py",
+      "sha256": "f2c373e1a2226224f08078fc01abb219de32c39344d2fb143947c2f5058d04b0"
+    },
+    {
+      "path": "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_optimal_time_v6.py",
+      "sha256": "72d902056a962f8222e5f84e6db31eff7a51df2e9fc7dc528cf42d871e9a25ed"
+    },
+    {
+      "path": "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_spatial_v7.py",
+      "sha256": "45c788ab4c928059dac09f8435b8bdfd68dd37240f5d5916fc9d609403777fc1"
+    },
+    {
+      "path": "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_turn0_v1.py",
+      "sha256": "6fcfe5ff8c4e3ffb9c79f9a613c6bacc244b3a6b707fa78f558cd8933b16342f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_time_domain_full/forward_0015_a218515547c4_main0_optimal_R6_S12.json.gz",
+      "sha256": "c0490d7c18beff1122a79d87b4fb05456eeb128992ac6812c0e7678e092ef5a9"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_time_domain_full/forward_0017_79efcaf7ad75_main1_optimal_R6_S12.json.gz",
+      "sha256": "c011a92fc856cee08863a5b2986cd0593c2daecbe34c6b83956a22c6f23b9133"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_time_domain_full/forward_0018_main0_optimal_R6_S12_Q1024.json.gz",
+      "sha256": "917093a1e8e25504a6f8512f428a3ca5da9a9b0ef826b8d1969b2af289bf0e5c"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_time_domain_full/forward_0020_3222527bc752_main1_optimal_R6_S12.json.gz",
+      "sha256": "1df280f2e4082409a1287d46a99b8a1d6ea15150d9f4d6df68fdbf90ba0bd715"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_time_domain_full/forward_0022_4992d3a99be8_main0_optimal_R6_S12_proofQ1024.json.gz",
+      "sha256": "95a378cbb93f318c43f414e66b393103405e633ba1459587447ce8d2a277df21"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0001_ef134f2a18.json.gz",
+      "sha256": "dcfc8e721de4b6c2cb928fdbabc3b8db5c1be9e3f24772a23148efe072c31750"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0002_ef134f2a18.json.gz",
+      "sha256": "d333912e47a683b018c9af2c0162ec7a8f2939fadacab20895682bdf98f44208"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0003_ef134f2a18.json.gz",
+      "sha256": "135ec493718b72748869ff061d9d3953a32a5284ae7dbe3fc2dbaab2566bccc5"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0004_ef134f2a18.json.gz",
+      "sha256": "7681bcaeb7912425989a2c491dbf36f267b2c788b184b5a3a3d8715a581b5ba2"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0005_ef134f2a18.json.gz",
+      "sha256": "69492ad65a4f225db335c40ac4333c36d98606b9d971f5c77710afc26fc39ab7"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0006_ef134f2a18.json.gz",
+      "sha256": "3c0eb3357080463a25ca7de7928126e2e746485d30c0eb647e1f0b67e2580c61"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0007_ef134f2a18.json.gz",
+      "sha256": "515f0ec85af0f20fc9c497db672b9a00a5703b00024e593d5a25add72a7b5f06"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0008_ef134f2a18.json.gz",
+      "sha256": "9b3d441b4036e08cdf5c76fc8c7d2ed2edc440bd09bfde3ceac9d4c09552b132"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0009_ef134f2a18.json.gz",
+      "sha256": "864d8b7d090e25639bb849aad9c93e0534b357b0bfc3684180c472a402fe4a4c"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0010_ef134f2a18.json.gz",
+      "sha256": "c2e56a940c517c74bfb39194d38a79c292283ae1ee2839bbe6bdc5a61221bb7b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0011_ef134f2a18.json.gz",
+      "sha256": "5ffa37f68ae67f58e1f2015e81a8ed3dce23af212353f6861aafd60a544edda6"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0012_ef134f2a18.json.gz",
+      "sha256": "1b646c36d238ee23e735d763d7313dbf04cbae81a8df2956fe85bd3869593d94"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0013_ef134f2a18.json.gz",
+      "sha256": "9c9add9fa4591b81e3a886cbdf2426ff5fab8f46db52a2479731d95639689127"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0014_ef134f2a18.json.gz",
+      "sha256": "315fc31ddd23d332a9c13534f498d75444ec75271f00af28c83ad0b7bab06b1b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0015_ef134f2a18.json.gz",
+      "sha256": "f54affc453438b11b04bd8b4ce6124f4995a48f21f6d586387c38733118b1d0e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0016_ef134f2a18.json.gz",
+      "sha256": "8d951812e57bb0970a1a9d81f7a1485fde7cb0fb143f00e52d7bfe4c58a5f451"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0017_ef134f2a18.json.gz",
+      "sha256": "79f24defa07d354f7944d0b0cee3a06fc3c2ec108a9d1b94e5cddb5088f47cdf"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0018_ef134f2a18.json.gz",
+      "sha256": "dcc7b13a63748c38c699f3e19ddd0888c24b527e9fb63ce85b174433fd97587a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0019_ef134f2a18.json.gz",
+      "sha256": "20802f79ca282486b95d137a8048f9021ec27f1f3c05c61b259864780a46cb35"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0020_ef134f2a18.json.gz",
+      "sha256": "77ab483a0863d79a4ef757965b8aca3ac7eb236a9c79ffe7c3a318c7c1344b93"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_pipeline_pilot0/forward_0000_ef134f2a18.json.gz",
+      "sha256": "a6c8560ac4b34a53bb4636c55d4e9672c875156df95f3e975b46947bab15be15"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0000_r.json.gz",
+      "sha256": "9415569ec4a2b86a15b6764406927584ed0c866955097700ec8aa5616a46891b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0001_r.json.gz",
+      "sha256": "2b5b8bcae2f07e42f93208889c1bccaede6161917978f23696c0d110c3cbfc1a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0002_r.json.gz",
+      "sha256": "4e261d18833de168905eeb071793f18797549499acb47e0aa56e80dac4709695"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0003_r.json.gz",
+      "sha256": "99ab3ad3de524436c703201e7497bea5c7613ce845c45c8b4408a19f8f43d9a9"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0004_r.json.gz",
+      "sha256": "dbf6934bd05ecaeafdda6348c2e36ba19e549a78a9e3ade28e4992c10848c852"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0005_r.json.gz",
+      "sha256": "3504e7f07e3b693c24c4ee5ea6df70e44e8bb176ac802bfff953cfc24ee083a2"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0006_r.json.gz",
+      "sha256": "b0e6703dd35af395469f81e13e81b190c60d0bf2b8a3c0acb0da7e8115fda29d"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0007_r.json.gz",
+      "sha256": "5350c3eec13fc8fc70017010de95350614a8647ec153b58212cc6ec100baffdb"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0008_r.json.gz",
+      "sha256": "01521f6b18629ccd3d2304c7b2ccc82236fcbf577b2d996c2c96c009c3098176"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0009_r.json.gz",
+      "sha256": "6a3c2c804be72780e9dd7232203fc957f5a3ad7371ee2a30b16deebf25f7755b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0010_r.json.gz",
+      "sha256": "d4363494003726f460008e0dbd2eabd1046bc66e313f348dd167317ff7ee655e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0011_r.json.gz",
+      "sha256": "78a82fba666d3cd8448a8377f50d4a6d43d06b7a062d478cf5abd6b4c30e9aaf"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0012_r.json.gz",
+      "sha256": "d02d6eb7862d5d6df2303b9221d8c528aa0a2912b62a902b0aeec828b0dfd819"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0013_r.json.gz",
+      "sha256": "6a1dec114d34ebfb616597b89b3aa9eed54b3bc6b484672637ee2df2588dacf1"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0014_r.json.gz",
+      "sha256": "faac3b7eb1419010d4c69d23e09ab467603d96e82678b74d6a0b16182fc2a294"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0015_r.json.gz",
+      "sha256": "a218515547c4c23a1250582679c0e6e2363cc694bad5b92b78b9b5734866405e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0016_r.json.gz",
+      "sha256": "614e795defd86474bc99dc5e76d4746e06cb0e43564903d061c1e1a7b16783e3"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0017_r.json.gz",
+      "sha256": "79efcaf7ad75671336ae1d9419ff1cf849fdbbc7f1b8ebdcf3d81dff5ebb53f8"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0018_r.json.gz",
+      "sha256": "e63bbecf45c2b607836f66c12e30b1fc32e71f7d03a898ccdbc6fc0530c673d7"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0019_r.json.gz",
+      "sha256": "6b13dbfffb4559ba3c36af614731c6e60dd49d71bfef8caf08ee45fb0bc92e28"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0020_r.json.gz",
+      "sha256": "3222527bc75225fe824d78e16734f91278b91566ea5c742ae93d7f280f0d1fe8"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0022_r.json.gz",
+      "sha256": "4992d3a99be8c120b587a615c1b1c1da008f3900c87207b1c35c59b152a2b507"
+    },
+    {
+      "path": "scripts/fourfold_forward_density_pipeline_layout_v8.py",
+      "sha256": "35737ed50a54a373fb80cbc6af6a7803986b916372334e54374c653b531f5cee"
+    },
+    {
+      "path": "scripts/fourfold_forward_density_pipeline_spatial_v7.py",
+      "sha256": "45c788ab4c928059dac09f8435b8bdfd68dd37240f5d5916fc9d609403777fc1"
+    },
+    {
+      "path": "scripts/fourfold_forward_density_pipeline_turn0_v1.py",
+      "sha256": "6fcfe5ff8c4e3ffb9c79f9a613c6bacc244b3a6b707fa78f558cd8933b16342f"
+    },
+    {
+      "path": "scripts/fourfold_native_series_fft.py",
+      "sha256": "bcf9d5c43f2ebc5669fcf89f785e5da0b6acac5ec901581103006c6dc04d1289"
+    },
+    {
+      "path": "scripts/fourfold_parameter_density_pipeline_efficient_v5.py",
+      "sha256": "bee932df5c1d63860a900898cf0b9f288c49462361d08fbf0545bd900ff340fb"
+    },
+    {
+      "path": "scripts/fourfold_parameter_endpoint_spatial_v2.py",
+      "sha256": "0f652c9d397ea3e91f1c293bec09e4006e71bbef3c29bbff5fb06234ba5b32fe"
+    },
+    {
+      "path": "scripts/fourfold_parameter_expanded_domain_cache.py",
+      "sha256": "5fdd5941a7cf336153e713e491d8a2079679ec2a119cf02a019dedccfbd05d1c"
+    },
+    {
+      "path": "scripts/fourfold_parameter_expanded_time_domain.py",
+      "sha256": "55d38e76067db34ccff0c4bd28be70b8159ec68395046a1c9a517bceba2a7b89"
+    },
+    {
+      "path": "scripts/fourfold_phase_fixed_tau_parameter_bounds.py",
+      "sha256": "0f93dd40ca924fd22a5df1e00e800c0cc0d2db4ac6e5cad753f7e0f3042841b2"
+    },
+    {
+      "path": "scripts/fourfold_phase_parameter_time_circle.py",
+      "sha256": "4552558eabe5f35bb9fe6bf4155ab869535e2aeb61c4087ef3eb1d60ffc46fc1"
+    },
+    {
+      "path": "scripts/fourfold_phase_parameter_time_circle_ordinary_v1.py",
+      "sha256": "0970e873dbb71be7ef83195d4cd66233293bdb6999128d076cb947c6f7912a5b"
+    },
+    {
+      "path": "scripts/fourfold_phase_unified_scalar_time_circle.py",
+      "sha256": "e00d338b42b4c87281f659930442d08cb697d8c9c6bda44fe2f9858109b73492"
+    },
+    {
+      "path": "scripts/fourfold_phase_uniform_parameter_time_circle.py",
+      "sha256": "efa37fa437f70ed40be65ba18f6d55a22e360b5d5f9634fae00edbebd0171e2c"
+    }
+  ],
+  "scope": {
+    "fixed_chronological_prefix_segments": 20,
+    "additional_completed_density_segments": [
+      20
+    ],
+    "independent_new_R6_parameter_domain_segments": [
+      22
+    ],
+    "center_parameter_half_width": "0",
+    "uniform_parameter_half_width": "1/1000000000"
+  },
+  "excluded": [
+    "live indices and chronological followers",
+    "running segment21 or later density reports",
+    "no global twist or actual R31 acceptance is inferred"
+  ],
+  "failure_evidence": "Two observed signal9 exits and partials are retained without an attribution of cause."
+}

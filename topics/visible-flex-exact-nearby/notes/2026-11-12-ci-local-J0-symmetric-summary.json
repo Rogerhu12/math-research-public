@@ -1,0 +1,402 @@
+{
+  "kind": "proved_saved_first_integral_symmetric_local_J0_refinement",
+  "proved": true,
+  "complete_global_budget_transformation": true,
+  "full_original_geometry_revalidated": false,
+  "original_verified_index": {
+    "path": "data/phase_ring_continuation/step5_complete_flow_ci_43301401638/g0/index.json.gz",
+    "sha256": "4174c3edde41f5c8ab12b036d4760c20ec987e475158aa2855ea08158ff7cb45"
+  },
+  "original_accumulator": {
+    "path": "data/phase_ring_continuation/step5_complete_flow_ci_43301401638/g0/ordered_accumulator.json.gz",
+    "sha256": "52fb2fa12b20f02e3aed3e7a2fbbe36e64586ed264080d05dda19de9aba3b0fd"
+  },
+  "descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+  "source_path": "scripts/fourfold_saved_first_local_J0_symmetric_ci.py",
+  "source_sha256": "cde8f8d49e7d3af519ec504d2b000a07c3bfde3b49dd4f3e2c7df86a49a9c3b4",
+  "label_strip": "1/256",
+  "inner_strip": "3/1024",
+  "original_leaf_count": 555,
+  "refined_leaf_count": 330,
+  "unchanged_leaf_count": 225,
+  "full_old_fee": {
+    "ball": "[5.0010122343300171358640791730426971e-15 +/- 8.35e-51]",
+    "lower": "[5.0010122343300171358640791730426971e-15 +/- 8.35e-51]",
+    "upper": "[5.0010122343300171358640791730426971e-15 +/- 8.35e-51]",
+    "mid_float": 5.001012234330017e-15,
+    "radius_upper_float": 0.0
+  },
+  "removed_explicit_budget_lower": {
+    "ball": "[2.5418097736468833513035112294301923e-15 +/- 4.14e-50]",
+    "lower": "[2.5418097736468833513035112294301923e-15 +/- 4.14e-50]",
+    "upper": "[2.5418097736468833513035112294301923e-15 +/- 4.14e-50]",
+    "mid_float": 2.5418097736468833e-15,
+    "radius_upper_float": 0.0
+  },
+  "full_remaining_local_fee": {
+    "ball": "[2.4592024606831337845605679436125048e-15 +/- 3.31e-50]",
+    "lower": "[2.4592024606831337845605679436125048e-15 +/- 3.31e-50]",
+    "upper": "[2.4592024606831337845605679436125048e-15 +/- 3.31e-50]",
+    "mid_float": 2.459202460683134e-15,
+    "radius_upper_float": 0.0
+  },
+  "old_fees_on_processed_leaves": {
+    "ball": "[4.9990154575385683316098859318875223e-15 +/- 3.66e-50]",
+    "lower": "[4.9990154575385683316098859318875223e-15 +/- 3.66e-50]",
+    "upper": "[4.9990154575385683316098859318875223e-15 +/- 3.66e-50]",
+    "mid_float": 4.999015457538568e-15,
+    "radius_upper_float": 0.0
+  },
+  "correction_A_inner": {
+    "ball": "[3.4807045678076316274582625224356133e-16 +/- 3.21e-51]",
+    "lower": "[3.4807045678076316274582625224356133e-16 +/- 3.21e-51]",
+    "upper": "[3.4807045678076316274582625224356133e-16 +/- 3.21e-51]",
+    "mid_float": 3.4807045678076314e-16,
+    "radius_upper_float": 0.0
+  },
+  "improved_complete_W_A_inner": {
+    "ball": "[3.0160958591207482910157326776276429e-11 +/- 3.87e-46]",
+    "lower": "[3.0160958591207482910157326776276429e-11 +/- 3.87e-46]",
+    "upper": "[3.0160958591207482910157326776276429e-11 +/- 3.87e-46]",
+    "mid_float": 3.0160958591207484e-11,
+    "radius_upper_float": 0.0
+  },
+  "true_R72_coordinate_error": {
+    "ball": "[2.4969944430480995561371042541167216e-15 +/- 3.50e-50]",
+    "lower": "[2.4969944430480995561371042541167216e-15 +/- 3.50e-50]",
+    "upper": "[2.4969944430480995561371042541167216e-15 +/- 3.50e-50]",
+    "mid_float": 2.4969944430480997e-15,
+    "radius_upper_float": 0.0
+  },
+  "all_infinite_source_errors_and_chronological_tail_unchanged": true,
+  "coefficients": {
+    "path": "data/phase_ring_continuation/step5_local_J0_symmetric_ci/coefficients.json.gz",
+    "sha256": "27d9815a2c0ae5d23b6825b0a978a920db1fb8af005f6e9423da394950320834",
+    "bytes": 1283620
+  },
+  "audited_budget_functions": [
+    "coefficient_norms",
+    "first_integral_and_local_second_bound"
+  ],
+  "proof": "J=.5 G_x G + sum_even_e,odd_o 2/((e+o+2)(e+1))*(g_o,x*g_e-g_e,x*g_o). Old fee is an upper bound on .5 U(G)U(G_x)+positive bracket norm sum. Lower norms of saved complete G give a lower bound on that explicit positive budget component. Removing only that lower bound retains an upper bound for every omitted bracket. Unprocessed leaves keep all their old fees.",
+  "parameter_orders_1_and_2_not_modified": true,
+  "R31_acceptance_not_asserted": true,
+  "runtime": {
+    "python": "3.12.14",
+    "flint": "0.9.0",
+    "bits": 256
+  },
+  "run_id": "43306162239",
+  "workflow_commit": "517fa0c5838ddb83c33bd4e254828b4fbe577c97",
+  "wall_seconds": 27.163518378999996,
+  "full_report": {
+    "path": "data/phase_ring_continuation/step5_local_J0_symmetric_ci/report.json.gz",
+    "sha256": "f77211c4d7710dae2a737558ceae980c4d780666d4f91f2a730004981802d301",
+    "bytes": 125247
+  },
+  "largest_remaining_fees": [
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0275_0330/g0/forward_0287_ef134f2a18.json.gz",
+      "segment": 287,
+      "old_local_fee": {
+        "ball": "[1.1747804108959398031638421232712126e-15 +/- 2.43e-50]",
+        "lower": "[1.1747804108959398031638421232712126e-15 +/- 2.43e-50]",
+        "upper": "[1.1747804108959398031638421232712126e-15 +/- 2.43e-50]",
+        "mid_float": 1.1747804108959398e-15,
+        "radius_upper_float": 0.0
+      },
+      "removed_budget_lower": {
+        "ball": "[6.0577637199730879553654468826623487e-16 +/- 3.32e-51]",
+        "lower": "[6.0577637199730879553654468826623487e-16 +/- 3.32e-51]",
+        "upper": "[6.0577637199730879553654468826623487e-16 +/- 3.32e-51]",
+        "mid_float": 6.057763719973088e-16,
+        "radius_upper_float": 0.0
+      },
+      "remaining_bracket_fee": {
+        "ball": "[5.6900403889863100762729743500497776e-16 +/- 2.49e-51]",
+        "lower": "[5.6900403889863100762729743500497776e-16 +/- 2.49e-51]",
+        "upper": "[5.6900403889863100762729743500497776e-16 +/- 2.49e-51]",
+        "mid_float": 5.69004038898631e-16,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0275_0330/g0/forward_0285_ef134f2a18.json.gz",
+      "segment": 285,
+      "old_local_fee": {
+        "ball": "[9.8266688860859247104166334576234534e-16 +/- 4.40e-51]",
+        "lower": "[9.8266688860859247104166334576234534e-16 +/- 4.40e-51]",
+        "upper": "[9.8266688860859247104166334576234534e-16 +/- 4.40e-51]",
+        "mid_float": 9.826668886085926e-16,
+        "radius_upper_float": 0.0
+      },
+      "removed_budget_lower": {
+        "ball": "[5.0266313298202164118394501112831276e-16 +/- 1.02e-51]",
+        "lower": "[5.0266313298202164118394501112831276e-16 +/- 1.02e-51]",
+        "upper": "[5.0266313298202164118394501112831276e-16 +/- 1.02e-51]",
+        "mid_float": 5.026631329820216e-16,
+        "radius_upper_float": 0.0
+      },
+      "remaining_bracket_fee": {
+        "ball": "[4.8000375562657082985771833463403259e-16 +/- 4.60e-51]",
+        "lower": "[4.8000375562657082985771833463403259e-16 +/- 4.60e-51]",
+        "upper": "[4.8000375562657082985771833463403259e-16 +/- 4.60e-51]",
+        "mid_float": 4.800037556265708e-16,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0275_0330/g0/forward_0288_ef134f2a18.json.gz",
+      "segment": 288,
+      "old_local_fee": {
+        "ball": "[7.8082810088179825495897991976898470e-16 +/- 1.23e-51]",
+        "lower": "[7.8082810088179825495897991976898470e-16 +/- 1.23e-51]",
+        "upper": "[7.8082810088179825495897991976898470e-16 +/- 1.23e-51]",
+        "mid_float": 7.808281008817982e-16,
+        "radius_upper_float": 0.0
+      },
+      "removed_budget_lower": {
+        "ball": "[3.6167102403249085662871196619706833e-16 +/- 4.19e-51]",
+        "lower": "[3.6167102403249085662871196619706833e-16 +/- 4.19e-51]",
+        "upper": "[3.6167102403249085662871196619706833e-16 +/- 4.19e-51]",
+        "mid_float": 3.6167102403249087e-16,
+        "radius_upper_float": 0.0
+      },
+      "remaining_bracket_fee": {
+        "ball": "[4.1915707684930739833026795357191638e-16 +/- 4.60e-51]",
+        "lower": "[4.1915707684930739833026795357191638e-16 +/- 4.60e-51]",
+        "upper": "[4.1915707684930739833026795357191638e-16 +/- 4.60e-51]",
+        "mid_float": 4.191570768493074e-16,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0275_0330/g0/forward_0284_ef134f2a18.json.gz",
+      "segment": 284,
+      "old_local_fee": {
+        "ball": "[5.4093971145447594118125733217987191e-16 +/- 3.71e-51]",
+        "lower": "[5.4093971145447594118125733217987191e-16 +/- 3.71e-51]",
+        "upper": "[5.4093971145447594118125733217987191e-16 +/- 3.71e-51]",
+        "mid_float": 5.409397114544759e-16,
+        "radius_upper_float": 0.0
+      },
+      "removed_budget_lower": {
+        "ball": "[2.3598299498601184223893813526932217e-16 +/- 5.01e-53]",
+        "lower": "[2.3598299498601184223893813526932217e-16 +/- 5.01e-53]",
+        "upper": "[2.3598299498601184223893813526932217e-16 +/- 5.01e-53]",
+        "mid_float": 2.3598299498601186e-16,
+        "radius_upper_float": 0.0
+      },
+      "remaining_bracket_fee": {
+        "ball": "[3.0495671646846409894231919691054974e-16 +/- 3.75e-51]",
+        "lower": "[3.0495671646846409894231919691054974e-16 +/- 3.75e-51]",
+        "upper": "[3.0495671646846409894231919691054974e-16 +/- 3.75e-51]",
+        "mid_float": 3.049567164684641e-16,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0275_0330/g0/forward_0286_ef134f2a18.json.gz",
+      "segment": 286,
+      "old_local_fee": {
+        "ball": "[5.3524360769498876347685064856673006e-16 +/- 4.66e-51]",
+        "lower": "[5.3524360769498876347685064856673006e-16 +/- 4.66e-51]",
+        "upper": "[5.3524360769498876347685064856673006e-16 +/- 4.66e-51]",
+        "mid_float": 5.352436076949888e-16,
+        "radius_upper_float": 0.0
+      },
+      "removed_budget_lower": {
+        "ball": "[3.1257490392570423216403225800110492e-16 +/- 4.55e-51]",
+        "lower": "[3.1257490392570423216403225800110492e-16 +/- 4.55e-51]",
+        "upper": "[3.1257490392570423216403225800110492e-16 +/- 4.55e-51]",
+        "mid_float": 3.1257490392570425e-16,
+        "radius_upper_float": 0.0
+      },
+      "remaining_bracket_fee": {
+        "ball": "[2.2266870376928453131281839056562515e-16 +/- 8.10e-52]",
+        "lower": "[2.2266870376928453131281839056562515e-16 +/- 8.10e-52]",
+        "upper": "[2.2266870376928453131281839056562515e-16 +/- 8.10e-52]",
+        "mid_float": 2.226687037692845e-16,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0275_0330/g0/forward_0289_ef134f2a18.json.gz",
+      "segment": 289,
+      "old_local_fee": {
+        "ball": "[3.1818774789791543834397968706573895e-16 +/- 3.04e-51]",
+        "lower": "[3.1818774789791543834397968706573895e-16 +/- 3.04e-51]",
+        "upper": "[3.1818774789791543834397968706573895e-16 +/- 3.04e-51]",
+        "mid_float": 3.1818774789791545e-16,
+        "radius_upper_float": 0.0
+      },
+      "removed_budget_lower": {
+        "ball": "[1.9586226859868398748327556304879754e-16 +/- 3.33e-51]",
+        "lower": "[1.9586226859868398748327556304879754e-16 +/- 3.33e-51]",
+        "upper": "[1.9586226859868398748327556304879754e-16 +/- 3.33e-51]",
+        "mid_float": 1.9586226859868398e-16,
+        "radius_upper_float": 0.0
+      },
+      "remaining_bracket_fee": {
+        "ball": "[1.2232547929923145086070412401694142e-16 +/- 3.65e-51]",
+        "lower": "[1.2232547929923145086070412401694142e-16 +/- 3.65e-51]",
+        "upper": "[1.2232547929923145086070412401694142e-16 +/- 3.65e-51]",
+        "mid_float": 1.2232547929923145e-16,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0275_0330/g0/forward_0282_ef134f2a18.json.gz",
+      "segment": 282,
+      "old_local_fee": {
+        "ball": "[2.1439559921879051613948474080094468e-16 +/- 4.40e-51]",
+        "lower": "[2.1439559921879051613948474080094468e-16 +/- 4.40e-51]",
+        "upper": "[2.1439559921879051613948474080094468e-16 +/- 4.40e-51]",
+        "mid_float": 2.1439559921879052e-16,
+        "radius_upper_float": 0.0
+      },
+      "removed_budget_lower": {
+        "ball": "[1.0296377567215555843084478907123849e-16 +/- 1.92e-51]",
+        "lower": "[1.0296377567215555843084478907123849e-16 +/- 1.92e-51]",
+        "upper": "[1.0296377567215555843084478907123849e-16 +/- 1.92e-51]",
+        "mid_float": 1.0296377567215556e-16,
+        "radius_upper_float": 0.0
+      },
+      "remaining_bracket_fee": {
+        "ball": "[1.1143182354663495770863995172970620e-16 +/- 3.70e-51]",
+        "lower": "[1.1143182354663495770863995172970620e-16 +/- 3.70e-51]",
+        "upper": "[1.1143182354663495770863995172970620e-16 +/- 3.70e-51]",
+        "mid_float": 1.1143182354663495e-16,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0275_0330/g0/forward_0291_ef134f2a18.json.gz",
+      "segment": 291,
+      "old_local_fee": {
+        "ball": "[2.0926150064062333590297482868438995e-16 +/- 2.60e-51]",
+        "lower": "[2.0926150064062333590297482868438995e-16 +/- 2.60e-51]",
+        "upper": "[2.0926150064062333590297482868438995e-16 +/- 2.60e-51]",
+        "mid_float": 2.0926150064062334e-16,
+        "radius_upper_float": 0.0
+      },
+      "removed_budget_lower": {
+        "ball": "[1.0077891185236340337804553749009264e-16 +/- 3.92e-51]",
+        "lower": "[1.0077891185236340337804553749009264e-16 +/- 3.92e-51]",
+        "upper": "[1.0077891185236340337804553749009264e-16 +/- 3.92e-51]",
+        "mid_float": 1.0077891185236341e-16,
+        "radius_upper_float": 0.0
+      },
+      "remaining_bracket_fee": {
+        "ball": "[1.0848258878825993252492929119429732e-16 +/- 3.50e-51]",
+        "lower": "[1.0848258878825993252492929119429732e-16 +/- 3.50e-51]",
+        "upper": "[1.0848258878825993252492929119429732e-16 +/- 3.50e-51]",
+        "mid_float": 1.0848258878825993e-16,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0275_0330/g0/forward_0281_ef134f2a18.json.gz",
+      "segment": 281,
+      "old_local_fee": {
+        "ball": "[7.9043832978197743985515454767267209e-17 +/- 1.49e-52]",
+        "lower": "[7.9043832978197743985515454767267209e-17 +/- 1.49e-52]",
+        "upper": "[7.9043832978197743985515454767267209e-17 +/- 1.49e-52]",
+        "mid_float": 7.904383297819774e-17,
+        "radius_upper_float": 0.0
+      },
+      "removed_budget_lower": {
+        "ball": "[3.5044805592301489411777873116037179e-17 +/- 3.93e-52]",
+        "lower": "[3.5044805592301489411777873116037179e-17 +/- 3.93e-52]",
+        "upper": "[3.5044805592301489411777873116037179e-17 +/- 3.93e-52]",
+        "mid_float": 3.504480559230149e-17,
+        "radius_upper_float": 0.0
+      },
+      "remaining_bracket_fee": {
+        "ball": "[4.3999027385896254573737581651230031e-17 +/- 4.60e-52]",
+        "lower": "[4.3999027385896254573737581651230031e-17 +/- 4.60e-52]",
+        "upper": "[4.3999027385896254573737581651230031e-17 +/- 4.60e-52]",
+        "mid_float": 4.399902738589625e-17,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0275_0330/g0/forward_0292_ef134f2a18.json.gz",
+      "segment": 292,
+      "old_local_fee": {
+        "ball": "[6.7040713818176801701581271993771069e-17 +/- 1.87e-52]",
+        "lower": "[6.7040713818176801701581271993771069e-17 +/- 1.87e-52]",
+        "upper": "[6.7040713818176801701581271993771069e-17 +/- 1.87e-52]",
+        "mid_float": 6.704071381817681e-17,
+        "radius_upper_float": 0.0
+      },
+      "removed_budget_lower": {
+        "ball": "[2.9729961074650436396766169043626318e-17 +/- 3.08e-52]",
+        "lower": "[2.9729961074650436396766169043626318e-17 +/- 3.08e-52]",
+        "upper": "[2.9729961074650436396766169043626318e-17 +/- 3.08e-52]",
+        "mid_float": 2.972996107465044e-17,
+        "radius_upper_float": 0.0
+      },
+      "remaining_bracket_fee": {
+        "ball": "[3.7310752743526365304815102950144751e-17 +/- 4.94e-52]",
+        "lower": "[3.7310752743526365304815102950144751e-17 +/- 4.94e-52]",
+        "upper": "[3.7310752743526365304815102950144751e-17 +/- 4.94e-52]",
+        "mid_float": 3.731075274352636e-17,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0275_0330/g0/forward_0280_ef134f2a18.json.gz",
+      "segment": 280,
+      "old_local_fee": {
+        "ball": "[1.9485281743250648652135107078925579e-17 +/- 3.43e-52]",
+        "lower": "[1.9485281743250648652135107078925579e-17 +/- 3.43e-52]",
+        "upper": "[1.9485281743250648652135107078925579e-17 +/- 3.43e-52]",
+        "mid_float": 1.9485281743250648e-17,
+        "radius_upper_float": 0.0
+      },
+      "removed_budget_lower": {
+        "ball": "[7.4138209477125916487619758034935896e-18 +/- 4.91e-53]",
+        "lower": "[7.4138209477125916487619758034935896e-18 +/- 4.91e-53]",
+        "upper": "[7.4138209477125916487619758034935896e-18 +/- 4.91e-53]",
+        "mid_float": 7.413820947712592e-18,
+        "radius_upper_float": 0.0
+      },
+      "remaining_bracket_fee": {
+        "ball": "[1.2071460795538057003373131275431990e-17 +/- 3.08e-52]",
+        "lower": "[1.2071460795538057003373131275431990e-17 +/- 3.08e-52]",
+        "upper": "[1.2071460795538057003373131275431990e-17 +/- 3.08e-52]",
+        "mid_float": 1.2071460795538057e-17,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0275_0330/g0/forward_0293_ef134f2a18.json.gz",
+      "segment": 293,
+      "old_local_fee": {
+        "ball": "[2.1233471174626885215406203283371280e-17 +/- 1.52e-52]",
+        "lower": "[2.1233471174626885215406203283371280e-17 +/- 1.52e-52]",
+        "upper": "[2.1233471174626885215406203283371280e-17 +/- 1.52e-52]",
+        "mid_float": 2.1233471174626885e-17,
+        "radius_upper_float": 0.0
+      },
+      "removed_budget_lower": {
+        "ball": "[1.0212631167486212306680258964840910e-17 +/- 7.33e-53]",
+        "lower": "[1.0212631167486212306680258964840910e-17 +/- 7.33e-53]",
+        "upper": "[1.0212631167486212306680258964840910e-17 +/- 7.33e-53]",
+        "mid_float": 1.0212631167486212e-17,
+        "radius_upper_float": 0.0
+      },
+      "remaining_bracket_fee": {
+        "ball": "[1.1020840007140672908725944318530370e-17 +/- 2.25e-52]",
+        "lower": "[1.1020840007140672908725944318530370e-17 +/- 2.25e-52]",
+        "upper": "[1.1020840007140672908725944318530370e-17 +/- 2.25e-52]",
+        "mid_float": 1.1020840007140673e-17,
+        "radius_upper_float": 0.0
+      }
+    }
+  ],
+  "unchanged_leaf_reasons": {
+    "original scientific leaf not materialized; full fee retained": 225
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "kind": "R83_actual_canonical_root_full_cover_ready_manifest",
+  "proved": true,
+  "scope": "true whole-angle finite root jets on exact common parameter box; no complete collar residual asserted",
+  "files": [
+    {
+      "path": "results/R83-actual-canonical-root-jets-and-physical-frame.md",
+      "sha256": "985e7d4fde99953893a10eebb26aca36e0c5a418b1e58540e407db536067f795",
+      "bytes": 19147
+    },
+    {
+      "path": "scripts/fourfold_phase_canonical_root_jets.py",
+      "sha256": "63a93b0b54b94c198adb22393f3b555095ae68ec545fb82d1412f52c311e95d7",
+      "bytes": 25466
+    },
+    {
+      "path": "scripts/fourfold_phase_canonical_root_symmetry_cover.py",
+      "sha256": "f0c6359e9cb5dca09176c1eca3b6404b8cf68f22121b5df6f1c9aafca5702390",
+      "bytes": 8542
+    },
+    {
+      "path": "scripts/fourfold_phase_root_jets_reassemble.py",
+      "sha256": "f5f7cfd3e0161ff84c0befa3cec01c64ecaf63f97b0b7bbd8e18f5345714919c",
+      "bytes": 2204
+    },
+    {
+      "path": "notes/2026-11-12-R83-native-root-jets-parts/manifest.json",
+      "sha256": "64df19388fa2c0b06c30f2847fbe283aa942863cba8a5aa96dea7f772019038b",
+      "bytes": 947
+    },
+    {
+      "path": "notes/2026-11-12-R83-native-root-jets-parts/part-000.bin",
+      "sha256": "9a2aebcd23062df6a251447825b9347c9082eb634671547b3000ea515c5ff6e7",
+      "bytes": 4194304
+    },
+    {
+      "path": "notes/2026-11-12-R83-native-root-jets-parts/part-001.bin",
+      "sha256": "c477731f2058ff6ba644067a42c95d601e6f8d460cddcd7e2cbbf40d71add0f5",
+      "bytes": 3813847
+    },
+    {
+      "path": "notes/2026-11-12-actual-canonical-root-full-cover.json.gz",
+      "sha256": "addf217533bed260fa7860613cc3246db0eb57f0e6d727361aa27d7f116462d8",
+      "bytes": 141559
+    }
+  ],
+  "excluded_reconstructible_cache": {
+    "path": "notes/2026-11-12-actual-canonical-root-jets.json.gz",
+    "sha256": "bf809f858696892b02f3d82420bad89be535e0d9df15677826140346b05f00e6",
+    "bytes": 8008151,
+    "archive_manifest": "notes/2026-11-12-R83-native-root-jets-parts/manifest.json"
+  }
+}

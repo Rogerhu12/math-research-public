@@ -1,0 +1,296 @@
+{
+  "status": "passed",
+  "computed_at_utc_date": "2026-11-14",
+  "implementation": "new exact reduced-rational BigInt JavaScript, actually executed in V8",
+  "producer_git_blob_sha": "3b9a245d9692822e6ef2c83a3a5449772c888e17",
+  "proof_git_blob_sha": "7c012d3dd9dbf8331624f11221eca02f6e9693b5",
+  "dependencies": {
+    "results/R119-supplement-actual-nonradial-full-remainder-and-high-network.md": "7c012d3dd9dbf8331624f11221eca02f6e9693b5",
+    "results/R119-supplement-joint-actual-principal-and-beta-selection.md": "934cddff433cee17338575ea6d70fe8c95a8a207",
+    "results/R119-supplement-actual-nonradial-first-density-phase.md": "811e36bbc3858a2c3e3792d5103b4f25d38694b9",
+    "results/R119-supplement-actual-strict-density-complete-relative-Cauchy.md": "ce2ae0beeb75d96db8f433ee6ebaeb88bfcf96e7",
+    "results/R119-supplement-actual-joint-analytic-root-and-relative-Airy-Cauchy.md": "3d8f5ee032b8b2c1eb73b1cf7f072ed4e8fd7cbc",
+    "results/R119-supplement-actual-root-graph-to-fixed-radial-two-port.md": "5e33e4efae59ce6982a230a34d1d17f18e603eda",
+    "results/R119-supplement-actual-positive-DN-to-full-Airy-Cayley-and-sources.md": "0bfa77dedd7016d8767d9ab16988c9ade5269036",
+    "results/R119-supplement-actual-positive-two-root-Airy-defect-and-full-sources.md": "62f0c709ebdf6b4dac911744207d7005ade404a3",
+    "results/R119-supplement-actual-complete-radial-return-first-phase.md": "0d1fb3753cf159387864cbe7d8b87cab086a0aac",
+    "results/R119-supplement-actual-two-parameter-complete-phase-arithmetic.md": "7d2a2f93a6c1c2ce01931fcba94fb8d1478cb7dc",
+    "results/R119-supplement-uniform-frequency-reference-Airy-Cauchy.md": "e44caf5cddb05512b3940a132305f4aa23f63e7a",
+    "results/R119-supplement-stronger-deep-full-label-chart-and-fourth-line.md": "c8bb47e46fcfa26fa05da0825a597529b2e43dd0"
+  },
+  "gates_passed": 54,
+  "gates_total": 54,
+  "gates": [
+    {
+      "name": "angle_Cauchy_26",
+      "pass": true,
+      "detail": "26!128^26<2^280"
+    },
+    {
+      "name": "row_J_power_base",
+      "pass": true,
+      "detail": "J^6<2^(j/2) at j=129"
+    },
+    {
+      "name": "row_J_power_monotone",
+      "pass": true,
+      "detail": "(J+1)^12/J^12<2 at J=134; ratio decreases"
+    },
+    {
+      "name": "reference_J_ratio",
+      "pass": true,
+      "detail": "(j+5)^10/(j+4)^10<2"
+    },
+    {
+      "name": "angle_envelope_reference_exponent",
+      "pass": true,
+      "detail": "2^-1800 J^6 delta^4"
+    },
+    {
+      "name": "angle_envelope_delta_decay",
+      "pass": true,
+      "detail": "J^6<2^(j/2), delta^4<2^(-4j)"
+    },
+    {
+      "name": "full_angle_sum_reserve",
+      "pass": true,
+      "detail": "neighbor reference ratio, roots, and two-state count"
+    },
+    {
+      "name": "full_angle_sum_exponent",
+      "pass": true,
+      "detail": "sum epsilon_i*<2^-102112"
+    },
+    {
+      "name": "strict_cross_coefficient",
+      "pass": true,
+      "detail": "(-1/4)(-2 sigma nu) i= i sigma nu/2"
+    },
+    {
+      "name": "strict_cross_J_derivative",
+      "pass": true,
+      "detail": "second exact term +sigma/2, both L cross signs negative"
+    },
+    {
+      "name": "strict_output_window",
+      "pass": true,
+      "detail": "maximum balanced output 4 is original density index 7/2"
+    },
+    {
+      "name": "strict_lower_window",
+      "pass": true,
+      "detail": "input s>=-1 stays above original density -9/2"
+    },
+    {
+      "name": "strict_worst_product",
+      "pass": true,
+      "detail": "LK_all U <=2^2562 J^25 delta^-50"
+    },
+    {
+      "name": "strict_product_envelope",
+      "pass": true,
+      "detail": "32 pieces, branches, mean columns absorbed"
+    },
+    {
+      "name": "strict_boundary_product",
+      "pass": true,
+      "detail": "U_d L U endpoints"
+    },
+    {
+      "name": "strict_boundary_envelope",
+      "pass": true,
+      "detail": "all endpoints below R_st envelope"
+    },
+    {
+      "name": "strict_same_branch_second",
+      "pass": true,
+      "detail": "exact second Duhamel term, no absolute Gronwall"
+    },
+    {
+      "name": "root_interaction_gain",
+      "pass": true,
+      "detail": "two full operator factors gain exactly 4/3"
+    },
+    {
+      "name": "root_output_window",
+      "pass": true,
+      "detail": "s+4/3<=7/3<4"
+    },
+    {
+      "name": "root_complete_interaction_bound",
+      "pass": true,
+      "detail": "actual root Cauchy and both free-frame maps"
+    },
+    {
+      "name": "root_second_constant",
+      "pass": true,
+      "detail": "complete second Volterra term"
+    },
+    {
+      "name": "root_second_b_power",
+      "pass": true,
+      "detail": "b^(2/3+2/3+2/3)=b^2"
+    },
+    {
+      "name": "root_Airy_pi_budget",
+      "pass": true,
+      "detail": "50 pi+5 < 50*(22/7)+5 <163"
+    },
+    {
+      "name": "root_inverse_defect_fee",
+      "pass": true,
+      "detail": "true inverse * defect * model inverse, including factor 2"
+    },
+    {
+      "name": "positive_height_absorption",
+      "pass": true,
+      "detail": "1-5H=59/64>0"
+    },
+    {
+      "name": "positive_ramp_sqrt65",
+      "pass": true,
+      "detail": "sqrt65<9"
+    },
+    {
+      "name": "positive_ramp_gradient",
+      "pass": true,
+      "detail": "5 sqrt(H/3)<1"
+    },
+    {
+      "name": "positive_Estar",
+      "pass": true,
+      "detail": "E*<(9+1)^2<128"
+    },
+    {
+      "name": "positive_sqrt_Estar",
+      "pass": true,
+      "detail": "sqrt(E*)<12"
+    },
+    {
+      "name": "positive_trace_gradient",
+      "pass": true,
+      "detail": "5 sqrt(2H)<1"
+    },
+    {
+      "name": "positive_Tstar",
+      "pass": true,
+      "detail": "832/59<32"
+    },
+    {
+      "name": "positive_Pstar",
+      "pass": true,
+      "detail": "131209/32<128^2"
+    },
+    {
+      "name": "strict_J_delta_base",
+      "pass": true,
+      "detail": "[J delta^(7/2)]^2<1 at j=129"
+    },
+    {
+      "name": "strict_J_delta_monotone",
+      "pass": true,
+      "detail": "squared next ratio <1"
+    },
+    {
+      "name": "negative_full_Cauchy_constant",
+      "pass": true,
+      "detail": "b^4 yields exponent 6088"
+    },
+    {
+      "name": "negative_full_Cauchy_powers",
+      "pass": true,
+      "detail": "J^7 delta^-19 below J^8 delta^-20"
+    },
+    {
+      "name": "negative_full_Cauchy_envelope",
+      "pass": true,
+      "detail": "two-state and fixed-row factors"
+    },
+    {
+      "name": "negative_root_inverse_product",
+      "pass": true,
+      "detail": "2^9686 J^10 delta^-65/2"
+    },
+    {
+      "name": "negative_root_inverse_powers",
+      "pass": true,
+      "detail": "actual full b^10 factor retained"
+    },
+    {
+      "name": "negative_strict_product",
+      "pass": true,
+      "detail": "2^7141 J^33 delta^-121/2"
+    },
+    {
+      "name": "negative_strict_powers",
+      "pass": true,
+      "detail": "56+9/2=121/2"
+    },
+    {
+      "name": "negative_strict_J_absorption",
+      "pass": true,
+      "detail": "J delta^(7/2)<1 pays extra J"
+    },
+    {
+      "name": "negative_remainder_envelope",
+      "pass": true,
+      "detail": "finite ordered telescoping sum fits 2^10000"
+    },
+    {
+      "name": "positive_times_negative_full",
+      "pass": true,
+      "detail": "E_+ C_- true: 2^10296 J^24 delta^-36"
+    },
+    {
+      "name": "network_total_constant",
+      "pass": true,
+      "detail": "adjugate, maps, neighbor scales and row multiplicity"
+    },
+    {
+      "name": "network_total_powers",
+      "pass": true,
+      "detail": "all two-end products fit common J^64 delta^-100"
+    },
+    {
+      "name": "full_two_row_adjugate_polynomial",
+      "pass": true,
+      "detail": "exact polynomial identity over Z[U], no inverse of true cross block"
+    },
+    {
+      "name": "high_two_exponent",
+      "pass": true,
+      "detail": "-5035/3"
+    },
+    {
+      "name": "high_J_exponent",
+      "pass": true,
+      "detail": "-1"
+    },
+    {
+      "name": "high_delta_exponent",
+      "pass": true,
+      "detail": "1/6"
+    },
+    {
+      "name": "high_degree_eight",
+      "pass": true,
+      "detail": "8*2^(-5035/3)<2^-1024"
+    },
+    {
+      "name": "high_row_and_column_degree",
+      "pass": true,
+      "detail": "both row and column degree at most 8"
+    },
+    {
+      "name": "high_Neumann_inverse",
+      "pass": true,
+      "detail": "(1-2^-1024)^-1<2"
+    },
+    {
+      "name": "source_d_inverse_weight",
+      "pass": true,
+      "detail": "actual high source provided in H^(s+1), no free source regularity"
+    }
+  ],
+  "mathematical_scope": "Complete true nonradial H^s to H^(s+4/3) local remainder and full high-network inverse with every moving low/mean/source input retained. These exact arithmetic gates certify displayed sufficient budgets; operator, full-output, Piola, and source-domain proofs are in the bound proof. No moving intermediate Schur, original same-label-weight Green inverse, or nonlinear F=0 closure is claimed."
+}

@@ -1,0 +1,141 @@
+{
+  "kind": "actual_root_half_period_grid_checkpoint",
+  "complete": true,
+  "source_sha256": "4b35d2b7a64ebd924330f1addc9cf2f71cbe14064692965acaa2ca9a60d460d6",
+  "worker_path": "scripts/fourfold_phase_root_finite_grid_v2.py",
+  "worker_sha256": "58883b9e467781465f0f2ead7cc1e979780f69572ca57f0c3b7c8d7ec02e3802",
+  "grid": 4096,
+  "exact_requested_index_interval": [
+    0,
+    2049
+  ],
+  "chunks": [
+    {
+      "path": "data/root_finite_grid/grid4096_h1e9/nodes_00000_00256.json.gz",
+      "sha256": "b43b31b0d2dd687890bbc9933dbcc7a666240a45abd0e4aaae2b5493de4dfa3e",
+      "bytes": 302209,
+      "exact_index_interval": [
+        0,
+        256
+      ]
+    },
+    {
+      "path": "data/root_finite_grid/grid4096_h1e9/nodes_00256_00512.json.gz",
+      "sha256": "caa7abd57f0dabdffe4ecdaf598b8987c27357e600a54fb63a3128cf5009b173",
+      "bytes": 303459,
+      "exact_index_interval": [
+        256,
+        512
+      ]
+    },
+    {
+      "path": "data/root_finite_grid/grid4096_h1e9/nodes_00512_00768.json.gz",
+      "sha256": "acec2b52a4e89664400496020edc5b6ff9b7bb61cf8d6becdb2500d9c90d0374",
+      "bytes": 303625,
+      "exact_index_interval": [
+        512,
+        768
+      ]
+    },
+    {
+      "path": "data/root_finite_grid/grid4096_h1e9/nodes_00768_01024.json.gz",
+      "sha256": "fec044b73373e4f8eea2391bad519c8737fe756a3d61ecc5a7a35cbcaae0c362",
+      "bytes": 303501,
+      "exact_index_interval": [
+        768,
+        1024
+      ]
+    },
+    {
+      "path": "data/root_finite_grid/grid4096_h1e9/nodes_01024_01280.json.gz",
+      "sha256": "81955868a5239e57f36e66d63981575ba6f8a22deb402e247e4c305f226ad6e6",
+      "bytes": 303125,
+      "exact_index_interval": [
+        1024,
+        1280
+      ]
+    },
+    {
+      "path": "data/root_finite_grid/grid4096_h1e9/nodes_01280_01536.json.gz",
+      "sha256": "e389dd1f1993b9e779b78d988eeced2094f4572b4214b6a23c48106ea3a0069a",
+      "bytes": 303356,
+      "exact_index_interval": [
+        1280,
+        1536
+      ]
+    },
+    {
+      "path": "data/root_finite_grid/grid4096_h1e9/nodes_01536_01792.json.gz",
+      "sha256": "5ab8f1f40470657ff31faa6ce7e37739aa35bdd16196ec53dcb4fb65b94d220f",
+      "bytes": 303318,
+      "exact_index_interval": [
+        1536,
+        1792
+      ]
+    },
+    {
+      "path": "data/root_finite_grid/grid4096_h1e9/nodes_01792_02048.json.gz",
+      "sha256": "9a8c671b9aeea985a9537789ddd3019fe947756aa97cfbfd6a0dea5aa056be0a",
+      "bytes": 302525,
+      "exact_index_interval": [
+        1792,
+        2048
+      ]
+    },
+    {
+      "path": "data/root_finite_grid/grid4096_h1e9/nodes_02048_02049.json.gz",
+      "sha256": "99461c7dce56c09a7d77f94479f1f8f5e893f6bfe0362256059d0f2dfd3951a0",
+      "bytes": 4006,
+      "exact_index_interval": [
+        2048,
+        2049
+      ]
+    }
+  ],
+  "full_Fourier_coefficients_claimed": false,
+  "full_physical_columns_claimed": false,
+  "reflection_extension_still_requires_the_exact_root_parity": true,
+  "identity": {
+    "identity": {
+      "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+      "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+      "exact_center_parameter": "-7789843107295549/4611686018427387904",
+      "exact_parameter_half_width": "1/1000000000",
+      "exact_parameter_interval": [
+        "-15214546326135873881617/9007199254740992000000000",
+        "-15214528311737364399633/9007199254740992000000000"
+      ],
+      "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+      "dependency_sha256": {
+        "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+        "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+        "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+        "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+        "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+        "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+      },
+      "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+    },
+    "root_certificate_sha256": "d83fe1e7ab3eed8baaf2448f2f6076212936633c69f58950720f6d372b03d99c",
+    "complex_root_sha256": "47d68aa52435e786e0b8af05ee09f12a44d163165a9c08e144b599483578bd61",
+    "refined_family_root": {
+      "ball": "[0.238396874300 +/- 2.71e-13]",
+      "lower": "[0.23839687429972956132053396089863148 +/- 1.44e-36]",
+      "upper": "[0.23839687430000116458653473832827660 +/- 2.84e-37]",
+      "mid_float": 0.23839687429986536,
+      "radius_upper_float": 1.3580163300038871e-13
+    },
+    "dependencies": {
+      "fourfold_phase_canonical_root_jets.py": "63a93b0b54b94c198adb22393f3b555095ae68ec545fb82d1412f52c311e95d7",
+      "fourfold_native_series_fft.py": "bcf9d5c43f2ebc5669fcf89f785e5da0b6acac5ec901581103006c6dc04d1289",
+      "fourfold_phase_beta_parameter_germ.py": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_time_angle_jets.py": "f452fe515af7bea2eeee3c715c158817a317671517ec719ccf9b15725af70cbd"
+    }
+  },
+  "completed_nodes": 2049,
+  "wall_seconds": 63.04569334600092
+}

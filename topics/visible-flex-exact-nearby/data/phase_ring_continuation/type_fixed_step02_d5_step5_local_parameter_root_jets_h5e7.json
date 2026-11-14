@@ -1,0 +1,192 @@
+{
+  "kind": "directed_local_exact_affine_moving_root_parameter_jets",
+  "proved": true,
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "point_root_sha256": "489268d254c2a9454ccbee32a4821d9bf577279490f76c9cc6f8d902a5e64e0b",
+  "global_root_jets_sha256": "a69184f1236ccef8fa595d42fa505bf6178cbc9c6acfd9ebbb1127ad0e37e3b9",
+  "common_root_sha256": "b5900c391667b2a1be90912f2abaf58eaea66dfc51c082a8db39ea582b4b94a8",
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "frozen_direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "source_sha256": "6b7066e301452ae644c356f82b923edcfe0e99dc01b05d2e978fd123c096cf11",
+  "dependency_sha256": {
+    "fourfold_phase_parameter_root_jets.py": "1c31538344f81ab201a28148bdcb3eb78b9cf04391b453a11ac79abcc27d6f7a",
+    "fourfold_mixed_jet_algebra.py": "d895f1fdd917776a45a80872aab50ed9ce1820d6d03f40a468602dbbc67f81c8",
+    "fourfold_phase_parameter_root_interval.py": "9cc41d64f382b780128056228b9e04534d09c03712ab88fbc62d7758b5215b0d",
+    "fourfold_phase_core_N_interval.py": "a46b455229d801df057acd10695c8621c72f73719806b8e41e05475b1f2fe460",
+    "fourfold_phase_root_interval.py": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840",
+    "fourfold_phase_uniform_tail.py": "d7010fcd486cfe703eab58d0d5ad4e78a193418b7bc6c71f25e308c523b55c61",
+    "fourfold_interval_scalar.py": "0400c59be86f7f143481f89d5a08ca8d0ea992be36aa1687ff9a19d10343dda8"
+  },
+  "exact_parameter_center": "-7789843107295549/4611686018427387904",
+  "exact_parameter_radius": "2361183241434823/4722366482869645213696",
+  "exact_parameter_interval": [
+    "-7979160525112076999/4722366482869645213696",
+    "-7974438158629207353/4722366482869645213696"
+  ],
+  "outward_binary_parameter_interval": [
+    -0.0016896529640502134,
+    -0.0016886529640502133
+  ],
+  "covering_binary_parameter_radius_exact": "1152921504607/2305843009213693952",
+  "certified_global_root_Lipschitz_exact": "2262007473572689/36893488147419103232",
+  "transported_root_interval_exact": [
+    "20280563160719707209123857005821710833/85070591730234615865843651857942052864",
+    "20280563165936108012829208146573110799/85070591730234615865843651857942052864"
+  ],
+  "root_interval": [
+    0.2383968742692061,
+    0.23839687433052462
+  ],
+  "root_parameter_first": [
+    6.110799182114921e-05,
+    6.110799815880304e-05
+  ],
+  "root_parameter_second": [
+    -9.402867131680061e-07,
+    -9.402860697576966e-07
+  ],
+  "endpoint_Q": [
+    7.1643223914795815,
+    7.1643228819757185
+  ],
+  "endpoint_Q_parameter_first": [
+    0.0004949008817423112,
+    0.0004949307990254251
+  ],
+  "endpoint_Q_parameter_second": [
+    -0.0027097887704785476,
+    -0.002709786288267788
+  ],
+  "quarter_nodes": 256,
+  "root_evaluation": {
+    "radial_interval": [
+      0.2383968742692061,
+      0.23839687433052462
+    ],
+    "a": [
+      1.0971109341708543,
+      1.0971109345491916
+    ],
+    "E": [
+      1.508872332329065,
+      1.5088723369472197
+    ],
+    "C_derivatives": {
+      "C": [
+        -4.241827739059902e-08,
+        4.2418273504818435e-08
+      ],
+      "Cx": [
+        300.254891770526,
+        300.254910134131
+      ],
+      "Cp": [
+        -0.0183479753734849,
+        -0.018347974592736377
+      ],
+      "Cxx": [
+        -86111.83541925155,
+        -86111.830301542
+      ],
+      "Cxp": [
+        4.585828652803971,
+        4.585828889176994
+      ],
+      "Cpp": [
+        4.3421683927760965e-05,
+        4.342168702296407e-05
+      ]
+    },
+    "K_derivatives": {
+      "K": [
+        -8.491169269650345e-09,
+        8.491168491805918e-09
+      ],
+      "Kx": [
+        60.104163810381,
+        60.104167909875876
+      ],
+      "Kxx": [
+        -17484.49015797704,
+        -17484.488982856066
+      ],
+      "Kxxx": [
+        329485.1182870372,
+        329485.29386440245
+      ],
+      "Kxp": [
+        1.0571876698771832,
+        1.0571877355929125
+      ],
+      "Kxxp": [
+        -344.8991025876098,
+        -344.8990839913062
+      ],
+      "Kxpp": [
+        0.001990814782746126,
+        0.0019908153848912464
+      ]
+    },
+    "tail_sigma": 0.08,
+    "normalized_Fx_jet_tail_alias_upper": [
+      [
+        2.1485096832856433e-16,
+        1.1710821737846924e-17,
+        2.6062411934717828e-19
+      ],
+      [
+        3.3069591876610715e-14,
+        2.097074129581389e-15,
+        5.725912614035503e-17
+      ],
+      [
+        4.4817056734279265e-12,
+        3.2789272619810613e-13,
+        9.767583525257837e-15
+      ],
+      [
+        6.629477442648505e-10,
+        5.0353324134163395e-11,
+        1.5853869736513348e-12
+      ],
+      [
+        1.0175328142568372e-07,
+        7.737945596421018e-09,
+        2.504514562930696e-10
+      ]
+    ],
+    "normalized_E_jet_tail_corrections": [
+      [
+        7.774982196271806e-16,
+        4.3261045509332483e-17,
+        9.915780785080936e-19
+      ],
+      [
+        1.2054016886401828e-13,
+        7.787754744636413e-15,
+        2.1779555557040725e-16
+      ],
+      [
+        1.6431535068911802e-11,
+        1.2220183867449236e-12,
+        3.728284789074438e-14
+      ],
+      [
+        2.43693213510492e-09,
+        1.8822159671101404e-10,
+        6.06581961612911e-12
+      ],
+      [
+        3.7435441769388414e-07,
+        2.89764113131035e-08,
+        9.598457835693461e-10
+      ]
+    ]
+  },
+  "justification": "Global R58 t' transports the singleton tight root by the real mean-value theorem; the same exact affine mixed jets then give implicit first and second derivatives on the complete resulting box.",
+  "limitations": [
+    "No control-vector rounding, Gaussian smoothing, or change of target metric is introduced.",
+    "Endpoint Q derivatives are at fixed s=1 only, not complete ODE Taylor bounds.",
+    "No actual flow, continuous return error, KAM, or exact isometric-family conclusion."
+  ]
+}

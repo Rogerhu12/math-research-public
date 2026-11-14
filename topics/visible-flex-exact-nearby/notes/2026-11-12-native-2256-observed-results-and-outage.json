@@ -1,0 +1,90 @@
+{
+  "kind": "observed_native_2256_execution_and_2318_outage_receipt",
+  "not_a_replacement_for_complete_reports": true,
+  "actual_native_main_push": "1e6aebab65ff52d7d862585d77a7611bd74cacec",
+  "actual_last_pull_main": "1d3c9173a54df2e91ca39f0e480d4db380c9fb3b",
+  "last_pull_time_UTC": "2026-11-12 23:06 UTC",
+  "API_checkpoint_main": "12d871cda9fe2662e79cf366c392614111c365c9",
+  "API_checkpoint_is_not_git_pull": true,
+  "readme_blobs": {
+    "root": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topic": "84b6d9fc74ed90ab725aa230cdf348f325505396"
+  },
+  "observed_outage": "2026-11-12 23:18 UTC; exec-server transport disconnected; environment unavailable",
+  "new_core_results": "See agent original observed receipt at 4d4367931205391001c89e8b58144f8b5c3a8d54. Five native computations completed successfully; full output JSON/NPZ were not pushed and must be redone. Original 175 scientific inputs and producer sources remain main.",
+  "root_energy_diagnostic": {
+    "actual_exit_code": 0,
+    "rigorous_certificate": false,
+    "exact_family_half_width": "1/1000000000",
+    "primitive_nodes": 256,
+    "angles": 512,
+    "bits": 160,
+    "native_order": 32,
+    "source": "scripts/fourfold_phase_core_energy_probe.py (new source was local, must reconstruct from chat patch if absent)",
+    "points": [
+      {
+        "r": "0",
+        "d_range": [
+          -4.429432792322515,
+          7.376043987986545
+        ],
+        "gamma_range": [
+          0.1168708906457289,
+          2.5018219268623243
+        ]
+      },
+      {
+        "r": "1/16",
+        "d_range": [
+          -3.3021731362358424,
+          6.039673972562469
+        ],
+        "gamma_range": [
+          0.1304837780081657,
+          2.1588305434039707
+        ]
+      },
+      {
+        "r": "1/8",
+        "d_range": [
+          -1.1321012380152382,
+          4.374351217087566
+        ],
+        "gamma_range": [
+          0.12414795628444658,
+          1.51004405041306
+        ]
+      },
+      {
+        "r": "3/16",
+        "d_range": [
+          -0.7794463728284452,
+          2.9301439842991654
+        ],
+        "gamma_range": [
+          0.11069069498690828,
+          0.9766237992209104
+        ]
+      },
+      {
+        "r": "1/4",
+        "d_range": [
+          1.1443564184302724,
+          2.291241151493234
+        ],
+        "gamma_range": [
+          -0.5283012601816583,
+          -0.0941587125725082
+        ]
+      }
+    ],
+    "interpretation": "Finite-radius floating FFT derivatives of actual interval midpoints only. No continuous sign or propagator certificate. They rule out assuming positive d and warn that the entire quarter core is not the strict-negative region required by R107."
+  },
+  "next_native_actions": [
+    "Immediately pull main and inspect both README diffs; record actual SHA.",
+    "Use saved original 175 leaf reports and NPZ; redo even collector, dihedral, whole-family interface, strong Grams and even-low assembly.",
+    "Redo any unpublished R106 native field report from preserved exact input hashes.",
+    "Execute actual complex-parameter positive-cap form cover and same-Gamma variational transfer; no result currently asserted."
+  ],
+  "actual_last_pull_time_recorded_in_native_HANDOFF": "23:06UTC"
+}

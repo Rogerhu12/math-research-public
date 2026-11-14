@@ -1,0 +1,12 @@
+{
+  "kind": "native_attempt_record",
+  "complete": false,
+  "proved": false,
+  "source_sha256": "f3effe50e8075128921d1bc54e3d70c1e2705eac2f6a074d001a2bc28a6d80f8",
+  "session": 79855,
+  "outcome": "TypeError: Object of type arb is not JSON serializable",
+  "stage": "save after complete mathematical computation",
+  "cause": "primitive_tail Arb object was not converted through record()",
+  "native_report_published": false,
+  "next_correction": "convert complete_primitive_tail=record(primitive_tail); recompute complete report"
+}

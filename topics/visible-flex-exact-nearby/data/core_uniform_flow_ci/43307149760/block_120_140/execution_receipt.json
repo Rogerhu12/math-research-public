@@ -1,0 +1,27 @@
+{
+  "kind": "remote_actual_core_uniform_cover_piece_receipt",
+  "run_id": "43307149760",
+  "triggering_commit": "e251d0d7982f8666671e112dc31b0bc2dfcadb21",
+  "first_span": 120,
+  "last_span_exclusive": 140,
+  "outcome": "success",
+  "python": "3.12.14",
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_core_flow_cover.py",
+      "sha256": "569ffd0e582865d840cdb5a31241da50609f0c3ad049b1d8850992b8bbbaa000",
+      "bytes": 11404
+    },
+    {
+      "path": "data/core_uniform_flow_ci/43307149760/block_120_140/manifest.json",
+      "sha256": "52b1952db740918a379d9ef8ef114111de3f7488c727af4ed74683566bd11e48",
+      "bytes": 24967
+    },
+    {
+      "path": "data/core_uniform_flow_ci/43307149760/block_120_140/worker.log",
+      "sha256": "e59d7189830bf46b9d587f4065da4d258ed5264f2cd11db230c16c1f18992833",
+      "bytes": 2773
+    }
+  ],
+  "scope": "Only the mathematical leaf/manifest complete flags and their directed fees establish coverage. No missing leaf is assigned zero."
+}

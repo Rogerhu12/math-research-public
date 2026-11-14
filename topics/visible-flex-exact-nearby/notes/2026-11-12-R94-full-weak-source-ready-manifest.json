@@ -1,0 +1,22 @@
+{
+  "kind": "R94_full_uncompressed_weak_source_ready_manifest",
+  "complete": true,
+  "files": [
+    {
+      "path": "results/R94-full-cap-weak-source-and-exact-density-conversion.md",
+      "sha256": "7ac60810fcebd97a53a7eca55c35ce7119bb8c19175e6ff33c8e0e049423ddad",
+      "bytes": 13103
+    },
+    {
+      "path": "scripts/fourfold_phase_full_weak_source_budget.py",
+      "sha256": "3ce15a73f95eff4a82afab35abd1720cffff951aa3d97259a49b742ef796694d",
+      "bytes": 13506
+    },
+    {
+      "path": "notes/2026-11-12-actual-full-weak-source-budget.json",
+      "sha256": "9902c667365da19cef67335ae2f2969da54ab33e36531fea3e0d91fde89d135f",
+      "bytes": 136986
+    }
+  ],
+  "scope": "Complete full-cap weak contact and exact density/height identities; all 18 weak-flux terms actually bounded. The transformed scalar remainder and full feedback remain open."
+}

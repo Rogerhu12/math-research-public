@@ -1,0 +1,23 @@
+{
+  "kind": "authorized_existing_reference_publication_after_concurrent_main_updates",
+  "science_and_sources_transferred_by_terminal_git": true,
+  "compute_branch_commit": "848141eef4f2eeaf52f9886b879b8bc2561ea453",
+  "ordinary_merge_main_commit": "43a293b2dfa98fc3ee3c5b8e67c4c62bedfcdc3c",
+  "ordinary_merge_parents": [
+    "3cf75d7d21cc0d3c0cbfe2616ecf99f594f5fc56",
+    "848141eef4f2eeaf52f9886b879b8bc2561ea453"
+  ],
+  "api_operation": "ordinary merge of an already terminal-git-pushed immutable reference; no file contents uploaded",
+  "force_push_used": false,
+  "all_published_main_history_preserved": true,
+  "normal_pull_rebase_attempts": 45,
+  "last_readme_review": "548046027a8fe85cc1d4a6e4554e0e1670c8543d",
+  "readme_difference": "empty",
+  "rebase_final_conflicts": [
+    "topics/visible-flex-exact-nearby/HANDOFF.md",
+    "topics/visible-flex-exact-nearby/log.md"
+  ],
+  "rebase_resolution": "all scientific files already identical on main; skip only the redundant unpublished replay",
+  "actual_CI_run": 43269259543,
+  "actual_CI_status_at_1726": "in_progress; runtime installed; historical reference recovery in progress"
+}

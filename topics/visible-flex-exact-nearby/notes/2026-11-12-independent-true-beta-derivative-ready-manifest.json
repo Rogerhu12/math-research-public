@@ -1,0 +1,80 @@
+{
+  "kind": "frozen_complete_true_parameter_beta_derivative_and_transfer",
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_beta_derivative_collar.py",
+      "bytes": 15861,
+      "sha256": "0e24abf168309f7f98cb027cf6a30d85026149ae91532d5cbf8e30920957e5a5"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_derivative_collar_finish.py",
+      "bytes": 5414,
+      "sha256": "273b5e48262d9f4046d4a55f62017e615d57beddbcf9eb27420575602d8135cb"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_derivative_bulk.py",
+      "bytes": 15805,
+      "sha256": "28f0989aaab52e858bbe10d9e8b004f205e6e60669ec9a7c965b6c9072e97f52"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_derivative_bulk_refined.py",
+      "bytes": 16697,
+      "sha256": "a643f46b5231b79f005c9d714292485e9f03f5318f9061d95d39de59d10f5842"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_derivative_combine.py",
+      "bytes": 9402,
+      "sha256": "06b62059a2e8038ce1b1e17cec08dbbb8624dbf44d5bb116544dcc56bf39b6f5"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-collar-h1e5-p40.json",
+      "bytes": 21235,
+      "sha256": "c339a5099990b00e5e849d177e41aaaeb9fa3883910ab6c8006a75860c3a5c58"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-collar-h1e5-domain500.json",
+      "bytes": 26343,
+      "sha256": "b387ede87055d0a990cafca12002b8baead5a2415d2d4cef610dde99405efd08"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-refined-part00.json",
+      "bytes": 535239,
+      "sha256": "e4a4308e67c054ee8769cef7e9429c1960c72442dd7112ebe63d7ccc71f8448a"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-refined-part02.json",
+      "bytes": 183818,
+      "sha256": "1c553509cc4d810731ddcbea14586afddd1d56f365882389a99b53b858c972f1"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-part01.json",
+      "bytes": 745245,
+      "sha256": "b6121595cb477b88abdd8ca89f2b9a4eddae0e4fb1bc11192b053c2ea49b5ef2"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-refined-last.json",
+      "bytes": 88301,
+      "sha256": "4a105da4ee9333b4929caeda13b64088a1c85b22c39def31b8d725daee24efc8"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-complete-transfer-h1e5.json",
+      "bytes": 107484,
+      "sha256": "9d64d4ba9993febcc4e8bf387ea0503672ce968cb6674bdb1fab5fb70a8cbeb8"
+    },
+    {
+      "path": "notes/2026-11-12-true-parameter-beta-derivative-certificate.md",
+      "bytes": 12403,
+      "sha256": "f76e7feba53824febf4eb7d61ce8e46472d3ddd092bebd77a7a3154f7a5f72fa"
+    }
+  ],
+  "scope": "exact Delta5=delta3+-1/100000; every selected original span complete; no unvalidated partial leaf used",
+  "excluded": [
+    "early incomplete precision72 collar and bulk pilots",
+    "all unselected failed last-cell leaves"
+  ],
+  "conclusions": [
+    "absolute beta derivative <1326",
+    "uniform beta 37.00989598321 .. 37.04013657839",
+    "D5 beta-lattice gap >.19138138420"
+  ]
+}

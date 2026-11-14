@@ -1,0 +1,165 @@
+{
+  "schema": "visible-exact-R15-true-cone-exponential-label-weight-v1",
+  "scope": "Actual all-frequency, all-layer homogeneous tail trace-to-label bound; no nonlinear graph inverse is asserted.",
+  "inputs": {
+    "relative_cell_window": "m^4 sqrt(delta_j) <= 2^-28",
+    "relative_matrix_error": "1/2048",
+    "true_cone_radius": "1/2",
+    "canonical_label_exponent": 391,
+    "physical_raw_exponent": 404,
+    "source_R72_blob": "a7c78793ba18724a4f0553b6ccd55259b8f4df92",
+    "file_sha256": {
+      "results/R15-full-tail-lines-label-weights-and-ordinary-sources.md": "5acb3a1feec0b097b022349656f5c95977803c33af67a88e2cac3761cc3f1001",
+      "results/R74-actual-full-tail-robin-and-augmented-positive-cap.md": "174bc93631b5ade0faf51160d7026e42d674916fd94e12cdb2315479458c18d8",
+      "results/R15-supplement-actual-dominant-cone-and-exponential-label-weight.md": "25b9159e0d83eaa030a362b3feffe5ad5a6a7578a064c555b36a411a42fa6a5b",
+      "scripts/fourfold_actual_tail_cone_label_weight_20261113.py": "17b42249c589939a92083b4f79edb106bf9a739e6978b1ea499db0ea6bc2bc84"
+    }
+  },
+  "checks": [
+    {
+      "name": "nu_lower_bound_at_smallest_mode",
+      "pass": true
+    },
+    {
+      "name": "dominant_eigenvalue_above_64_nu",
+      "pass": true
+    },
+    {
+      "name": "small_eigenvalue_ratio",
+      "pass": true
+    },
+    {
+      "name": "L_upper_bound_by_m4",
+      "pass": true
+    },
+    {
+      "name": "true_absolute_error_window_first_gate",
+      "pass": true
+    },
+    {
+      "name": "true_absolute_error_window_second_gate",
+      "pass": true
+    },
+    {
+      "name": "true_relative_error_budget",
+      "pass": true
+    },
+    {
+      "name": "relative_error_with_cone_margin",
+      "pass": true
+    },
+    {
+      "name": "dominant_coordinate_lower_bound",
+      "pass": true
+    },
+    {
+      "name": "actual_cone_invariance",
+      "pass": true,
+      "upper": "98305/134119424"
+    },
+    {
+      "name": "actual_mobius_contraction",
+      "pass": true,
+      "upper": "1/67010596"
+    },
+    {
+      "name": "m_at_least_8_expansion_factor",
+      "pass": true
+    },
+    {
+      "name": "low_labels_need_no_prefix",
+      "pass": true
+    },
+    {
+      "name": "exact_delta_to_label_layer_factor",
+      "pass": true
+    },
+    {
+      "name": "crossing_layer_implies_strong_window",
+      "pass": true
+    },
+    {
+      "name": "crossing_exponent",
+      "pass": true
+    },
+    {
+      "name": "ceil_prefix_integer_margin",
+      "pass": true
+    },
+    {
+      "name": "log_two_lower_for_prefix",
+      "pass": true
+    },
+    {
+      "name": "log_two_upper_for_prefix",
+      "pass": true
+    },
+    {
+      "name": "prefix_constant",
+      "pass": true
+    },
+    {
+      "name": "prefix_u_coefficient",
+      "pass": true
+    },
+    {
+      "name": "prefix_u_squared_coefficient",
+      "pass": true
+    },
+    {
+      "name": "elementary_e_lower",
+      "pass": true
+    },
+    {
+      "name": "prefix_maximum_linear_term",
+      "pass": true
+    },
+    {
+      "name": "prefix_maximum_square_term",
+      "pass": true
+    },
+    {
+      "name": "all_frequency_prefix_cost_below_32m",
+      "pass": true,
+      "upper": "8115957/262144"
+    },
+    {
+      "name": "total_raw_canonical_exponent",
+      "pass": true
+    },
+    {
+      "name": "prefactor_absorbed_in_one_m",
+      "pass": true
+    },
+    {
+      "name": "physical_raw_exponent",
+      "pass": true
+    },
+    {
+      "name": "R74_replacement_difference",
+      "pass": true
+    },
+    {
+      "name": "R74_complete_linear_constant",
+      "pass": true
+    },
+    {
+      "name": "R74_weighted_label_gap_positive",
+      "pass": true
+    },
+    {
+      "name": "R74_weighted_label_exponent",
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "all_actual_cell_flows_retained": true,
+    "all_high_labels_retained": true,
+    "complete_two_trace_norm": true,
+    "height_nonvanishing_assumed": false,
+    "mean_replaced_by_nonzero_frequency": false,
+    "log_squared_label_fee_removed": true,
+    "nonlinear_regular_high_inverse": false
+  }
+}

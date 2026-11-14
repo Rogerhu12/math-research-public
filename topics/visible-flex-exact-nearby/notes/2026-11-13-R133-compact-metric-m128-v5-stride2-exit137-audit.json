@@ -1,0 +1,49 @@
+{
+  "kind": "actual_M128_refinement_process_failure_audit",
+  "finite_BVP_success": false,
+  "certified": false,
+  "source_path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v5_probe.py",
+  "source_sha256": "5348a5acfda8bdb4eea580e38a7d209fa1174188d42254575122e9465c8f1704",
+  "guess_path": "notes/2026-11-13-R133-compact-metric-outer-mean-m64-candidate.npz.gz",
+  "guess_sha256": "4046eb7ac8da162ab9aad9fcb4991933200abdbc2c22ed6329d49bb13d72b856",
+  "actual_process_exit_code": 137,
+  "actual_session": 4544,
+  "modes": 128,
+  "angular_grid": 2048,
+  "amplitude": 0.65,
+  "mesh_stride": 2,
+  "initial_radial_nodes": 440,
+  "max_nodes": 650,
+  "Fourier_band": 16,
+  "actual_accepted_steps": [
+    {
+      "iteration": 0,
+      "step_fraction": 1,
+      "nu": -0.023722181326241407,
+      "affine_invariant_cost": 1.551665e-07,
+      "next_cost": 1.26593e-11,
+      "peak_resident_KiB": 834980
+    },
+    {
+      "iteration": 1,
+      "step_fraction": 1,
+      "nu": -0.02372217995179457,
+      "affine_invariant_cost": 1.265978e-11,
+      "next_cost": 3.083787e-14,
+      "max_collocation_residual": 3.09753599e-09,
+      "peak_resident_KiB": 850532
+    }
+  ],
+  "last_actual_output": {
+    "adapted_radial_nodes": 650,
+    "Jacobian_nonzero_entries": 17702452,
+    "assembly_seconds": 22.65695,
+    "maximum_omitted_collocation_row_l1": 0.00124073533043,
+    "maximum_full_collocation_row_l1": 3600.05644
+  },
+  "complete_final_candidate_written": false,
+  "complete_final_report_written": false,
+  "accepted_states_checkpointed": false,
+  "scope": "The process exited 137 while the enlarged-mesh linear algebra was running. Two genuine accepted steps were printed on 440 nodes, but their complete states were not saved by this version; they are not reusable candidates. There is no operating-system OOM log, so resource exhaustion remains a diagnosis rather than a proved cause. V6 adds full accepted-state checkpoints and a residual-checked complete matrix-free linear solve; this failure remains unmodified.",
+  "values": "Printed decimal diagnostics transcribed from the actual tool output; these are floating reports, not directed bounds."
+}

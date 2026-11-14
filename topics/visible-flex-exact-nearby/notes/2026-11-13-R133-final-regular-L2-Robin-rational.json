@@ -1,0 +1,224 @@
+{
+  "kind": "actual_final_regular_end_full_L2_module_and_Hilbert_Robin_budget",
+  "complete": true,
+  "executed": true,
+  "arithmetic": "Exact JavaScript BigInt rationals; existing complete endpoint and original tail bounds consumed.",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "endpoint": "25/8",
+  "whole_original_affine_parameter_interval": true,
+  "all_fourier_modes_and_means_retained": true,
+  "intrinsic_or_candidate_native_recomputed": false,
+  "actual_psi_strip_A0_upper": "296077/20000000000000000",
+  "actual_strip": "1/8",
+  "actual_u_strip_A0_upper": "164319/100000000000000",
+  "actual_v_nonmean_strip_A0_upper": "600237/62500000000000",
+  "angle_derivative_error_upper": "0.000000000118430800",
+  "normalized_angle_second_derivative_upper": "0.000000000473723200",
+  "normalized_angle_third_derivative_upper": "0.000000002842339200",
+  "cot_regular_remainder_bounds": {
+    "zero": "0.991600991600991601",
+    "one": "0.515959827759139559",
+    "two": "0.357016614588423276"
+  },
+  "Hilbert_conjugacy_L2_error_upper": "0.000000000964365086",
+  "Hilbert_conjugacy_same_Hs_zero_to_one_error_upper": "0.000000007190441430",
+  "complete_Hilbert_leading_Robin_inverse_upper": "1.000000007190441482",
+  "full_physical_curvature_recovery_from_moving_h2_upper": "0.029726516273094682",
+  "same_space_composition_minus_identity_not_claimed_small": true,
+  "nonlinear_L2_neighbourhood_existence_not_claimed": true,
+  "full_body_BVP_inverse_proved": false,
+  "nu_scalar_Schur_proved_nonzero": false,
+  "fixed_fB_not_set_to_zero": true,
+  "independent_mean_height_remains": true,
+  "far_label_equation_not_solved": true,
+  "cases": {
+    "1e-12": {
+      "exact_input_radius": "1/1000000000000",
+      "exact_independent_fB_bound": "1/1152921504606846976",
+      "C_to_height_L2_contraction_upper": "0.000001474561406875",
+      "C_to_dotH2_height_derivative_upper": "9.000013271072230883",
+      "independent_fB_to_dotH2_height_derivative_upper": "0.000001474563581210",
+      "true_nonmean_regular_graph_L2_derivative_remainder_upper": "0.000005898254324837",
+      "true_cap_mean_L2_derivative_upper": "0.000000737281790605",
+      "independent_fB_to_regular_graph_L2_derivative_upper": "0.000000655361591649",
+      "independent_fB_to_cap_mean_L2_derivative_upper": "0.000000081920198957",
+      "complete_physical_B_to_nonmean_C_L2_inverse_upper": "1.000005898289754454",
+      "full_moving_graph_first_component_upper": "7.000041323116309792",
+      "full_moving_graph_second_component_upper": "49.000036267064040250",
+      "full_moving_graph_pair_norm_squared_upper": "2450.004132698927181415",
+      "full_moving_graph_pair_norm_coarse_upper": "50",
+      "moving_mean_output_coefficient_upper": "0.000036126807739625"
+    },
+    "1e-10": {
+      "exact_input_radius": "1/10000000000",
+      "exact_independent_fB_bound": "1/1152921504606846976",
+      "C_to_height_L2_contraction_upper": "0.000147456001406875",
+      "C_to_dotH2_height_derivative_upper": "9.001327299730972870",
+      "independent_fB_to_dotH2_height_derivative_upper": "0.000147477747885875",
+      "true_nonmean_regular_graph_L2_derivative_remainder_upper": "0.000589910991543498",
+      "true_cap_mean_L2_derivative_upper": "0.000073738873942938",
+      "independent_fB_to_regular_graph_L2_derivative_upper": "0.000065545665727056",
+      "independent_fB_to_cap_mean_L2_derivative_upper": "0.000008193208215882",
+      "complete_physical_B_to_nonmean_C_L2_inverse_upper": "1.000590259192569432",
+      "full_moving_graph_first_component_upper": "7.004129412279843639",
+      "full_moving_graph_second_component_upper": "49.003613345089743473",
+      "full_moving_graph_pair_norm_squared_upper": "2450.411949699021185733",
+      "full_moving_graph_pair_norm_coarse_upper": "50",
+      "moving_mean_output_coefficient_upper": "0.003613204823203922"
+    }
+  },
+  "gate_count": 30,
+  "gates": [
+    {
+      "name": "actual whole-circle first angle derivative below one quarter",
+      "passed": true,
+      "strict_margin_lower": "0.249999999881569200"
+    },
+    {
+      "name": "complete cot remainder absolute bound",
+      "passed": true,
+      "strict_margin_lower": "0.008399008399008399"
+    },
+    {
+      "name": "complete cot remainder first derivative bound",
+      "passed": true,
+      "strict_margin_lower": "0.484040172240860441"
+    },
+    {
+      "name": "complete cot remainder second derivative bound",
+      "passed": true,
+      "strict_margin_lower": "0.642983385411576724"
+    },
+    {
+      "name": "complete Hilbert conjugacy L2 kernel bound",
+      "passed": true,
+      "strict_margin_lower": "0.000000000035634914"
+    },
+    {
+      "name": "complete Hilbert conjugacy first physical derivative bound",
+      "passed": true,
+      "strict_margin_lower": "0.000000000773923656"
+    },
+    {
+      "name": "complete same-Hs Hilbert conjugacy for zero through one",
+      "passed": true,
+      "strict_margin_lower": "0.000000002809558570"
+    },
+    {
+      "name": "complete Hilbert Robin leading row inverse",
+      "passed": true,
+      "strict_margin_lower": "0.000000003809558518"
+    },
+    {
+      "name": "actual all-mode regular multiplier is positive",
+      "passed": true,
+      "strict_margin_lower": "0.000000000000059999"
+    },
+    {
+      "name": "actual all-mode regular multiplier upper below one",
+      "passed": true,
+      "strict_margin_lower": "0.000000000000629999"
+    },
+    {
+      "name": "actual centre mean remains below 6.1 in modulus",
+      "passed": true,
+      "strict_margin_lower": "0.002732240436898053"
+    },
+    {
+      "name": "actual centre v bounded in modulus by seven",
+      "passed": true,
+      "strict_margin_lower": "0.899999990396208000"
+    },
+    {
+      "name": "actual complete v gap exceeds chosen 5.8",
+      "passed": true,
+      "strict_margin_lower": "0.044611442726208000"
+    },
+    {
+      "name": "full moving h2 to physical nonmean curvature recovery",
+      "passed": true,
+      "strict_margin_lower": "0.000273483726905318"
+    },
+    {
+      "name": "1e-12 full dual-module long input ball",
+      "passed": true,
+      "strict_margin_lower": "0.000000029782322368"
+    },
+    {
+      "name": "1e-12 C-to-height full L2 derivative contraction",
+      "passed": true,
+      "strict_margin_lower": "0.999998525438593125"
+    },
+    {
+      "name": "1e-12 true physical nonlinear B/C derivative invertible",
+      "passed": true,
+      "strict_margin_lower": "0.999994101745035163"
+    },
+    {
+      "name": "1e-12 full moving outer graph L2 lift below fifty squared",
+      "passed": true,
+      "strict_margin_lower": "49.995867301072818585"
+    },
+    {
+      "name": "1e-12 complete nonlinear regular row derivative",
+      "passed": true,
+      "strict_margin_lower": "0.000000101745675163"
+    },
+    {
+      "name": "1e-12 independent true cap mean derivative",
+      "passed": true,
+      "strict_margin_lower": "0.000000062718209395"
+    },
+    {
+      "name": "1e-12 full physical B-to-nonmean-C inverse",
+      "passed": true,
+      "strict_margin_lower": "0.000001101710245546"
+    },
+    {
+      "name": "1e-12 complete moving mean output retained",
+      "passed": true,
+      "strict_margin_lower": "0.000003873192260375"
+    },
+    {
+      "name": "1e-10 full dual-module long input ball",
+      "passed": true,
+      "strict_margin_lower": "0.000000027802322368"
+    },
+    {
+      "name": "1e-10 C-to-height full L2 derivative contraction",
+      "passed": true,
+      "strict_margin_lower": "0.999852543998593125"
+    },
+    {
+      "name": "1e-10 true physical nonlinear B/C derivative invertible",
+      "passed": true,
+      "strict_margin_lower": "0.999410089007816502"
+    },
+    {
+      "name": "1e-10 full moving outer graph L2 lift below fifty squared",
+      "passed": true,
+      "strict_margin_lower": "49.588050300978814267"
+    },
+    {
+      "name": "1e-10 complete nonlinear regular row derivative",
+      "passed": true,
+      "strict_margin_lower": "0.000010089008456502"
+    },
+    {
+      "name": "1e-10 independent true cap mean derivative",
+      "passed": true,
+      "strict_margin_lower": "0.000006261126057062"
+    },
+    {
+      "name": "1e-10 full physical B-to-nonmean-C inverse",
+      "passed": true,
+      "strict_margin_lower": "0.000010740807430568"
+    },
+    {
+      "name": "1e-10 complete moving mean output retained",
+      "passed": true,
+      "strict_margin_lower": "0.000386795176796078"
+    }
+  ],
+  "producer_sha256": "12a7a7ec8d3c19dfd69b65da3360dac091632a10a384b9cce5d3bb3dce64f7e3"
+}

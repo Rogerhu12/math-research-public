@@ -1,0 +1,793 @@
+{
+  "kind": "floating_fixed_mean_phase_correction_not_exact_surface",
+  "source_checkpoint": "/workspace/scratch/f6a2c7886477/newton-experiments/phase-ring-quarter-predictor.npz",
+  "source_checkpoint_sha256": "874fa3ae208eeb44fda4e97bb97170dc73ea35bbce7db5898a7749e2ca96e4fd",
+  "cost": 3.16241207477991e-11,
+  "message": "iteration limit",
+  "optimality": 3.567638008815268e-07,
+  "fixed_mean_index": 2,
+  "fixed_mean_value": -0.058078899858606516,
+  "history": [
+    {
+      "call": 1,
+      "cost": 1.4206849325269408e-09,
+      "maximum_weighted_tensor": 0.00010366641080659358,
+      "maximum_robin": 1.687491542409368e-15,
+      "alpha": [
+        0.8023710959615173,
+        -0.0038748103173118064,
+        -0.058078899858606516
+      ]
+    },
+    {
+      "call": 2,
+      "cost": 4.150917629213603e-11,
+      "maximum_weighted_tensor": 1.9217512788009777e-05,
+      "maximum_robin": 1.5990701965619652e-15,
+      "alpha": [
+        0.8011008548956349,
+        -0.0038406256891705902,
+        -0.058078899858606516
+      ]
+    },
+    {
+      "call": 3,
+      "cost": 3.16241207477991e-11,
+      "maximum_weighted_tensor": 8.630789297798158e-06,
+      "maximum_robin": 1.4460691529917633e-15,
+      "alpha": [
+        0.8005488322452297,
+        -0.0038042846655205777,
+        -0.058078899858606516
+      ]
+    }
+  ],
+  "accepted_snapshots": [
+    {
+      "step": 0,
+      "checkpoint": "data/phase_ring_continuation/quarter1_step00.npz",
+      "checkpoint_sha256": "12e405e635a39f1d87dd9ea0e0623ad09e77448a5ca9b9acf4fee5ca0e4cdb82",
+      "fixed_mean_index": 2,
+      "fixed_mean_value": -0.058078899858606516,
+      "alpha": [
+        0.8023710959615173,
+        -0.0038748103173118064,
+        -0.058078899858606516
+      ],
+      "diagnostic": {
+        "kind": "floating_actual_finite_primitive_samples_not_bounds",
+        "radial_samples": 1798,
+        "quarter_period_angles": 256,
+        "metric_operator_norm_sample": 0.00023569453483082323,
+        "at_x": 0.1775,
+        "at_theta": 0.7853981633974483,
+        "exact_angular_formula_vs_finite_primitive_jet_max": 6.755174197792257e-11,
+        "twice_sampled_radius": 2.5782100184044077,
+        "waist_radial_gap": 0.13239309817053546,
+        "gap_ratio_sample": 0.05135078105563734,
+        "actual_U4_at_waist": 0.060032719720912744,
+        "beta4_at_waist": 0.2074748402240008,
+        "phase_retained_metric_coefficient_sample": 8.546773009016946e-05,
+        "phase_retained_peak": {
+          "mode": 4,
+          "component": "xx",
+          "x": 0.17500000000000002
+        },
+        "above_phase_cutoff_metric_coefficient_sample": 5.85336259800277e-06,
+        "above_phase_cutoff_peak": {
+          "mode": 104,
+          "component": "xt",
+          "x": 0.0546107576545816
+        },
+        "max_abs_principal_curvature_sample": 7.207714685463017,
+        "minimum_support_sample": 0.9141866163482211,
+        "waist_second_form_samples": {
+          "detII_min": -1.5953218833229101,
+          "detII_max": -0.944958026647129,
+          "N_min": -8.350408893791139,
+          "N_max": -0.45926683139674784,
+          "gauss_min": -1.090138996358353,
+          "gauss_max": -0.6457006507463073
+        }
+      },
+      "type_diagnostic": {
+        "kind": "floating_sampled_full_body_type_not_bounds",
+        "radial_samples": 582,
+        "quarter_period_angles": 256,
+        "target_K0_sign_crossings_linear_samples": [
+          0.23740775000555586,
+          0.4302035778865767,
+          0.45513254660418123
+        ],
+        "target_outer_minimum": -0.36510444168141515,
+        "actual_outer_Gauss_minimum": -0.36694946887305957,
+        "actual_outer_minimum_x": 0.445,
+        "target_ring_minimum": -0.36510444168141515,
+        "actual_ring_Gauss_minimum": -0.36694946887305957,
+        "actual_N_core_maximum": -0.4041030989250588,
+        "actual_N_core_minimum": -8.350408893791139,
+        "actual_N_full_maximum": -3.089515060949504e-11,
+        "actual_N_full_minimum": -8.350408893791139,
+        "target_at_0445": -0.36510444168141515,
+        "actual_Gauss_at_0445": [
+          -0.36694946887305957,
+          -0.3640623865692999
+        ]
+      },
+      "limitations": [
+        "Floating samples",
+        "Finite Robin endpoint",
+        "The outer-curvature acceptance gate is not a continuous certificate"
+      ],
+      "constrained_solver_sha256": "3956b88e336ebc46dda54c0f3cf57c2da8996a6fd8a553393d942f3e9bb4cad6",
+      "active_sampled_type_gates": {
+        "core_N_upper": 0.0,
+        "core_N_interval": [
+          0.0,
+          0.7
+        ],
+        "outer_curvature_floor": null
+      },
+      "meaning": "initial quarter predictor"
+    },
+    {
+      "step": 1,
+      "checkpoint": "data/phase_ring_continuation/quarter1_step01.npz",
+      "checkpoint_sha256": "0b3de9d4a04910409100b68e0904fc911ef93874bb57ac6c1cf3396deaf7d956",
+      "fixed_mean_index": 2,
+      "fixed_mean_value": -0.058078899858606516,
+      "alpha": [
+        0.8011008548956349,
+        -0.0038406256891705902,
+        -0.058078899858606516
+      ],
+      "diagnostic": {
+        "kind": "floating_actual_finite_primitive_samples_not_bounds",
+        "radial_samples": 1798,
+        "quarter_period_angles": 256,
+        "metric_operator_norm_sample": 5.720210263353725e-05,
+        "at_x": 0.23457829476782235,
+        "at_theta": 1.5401167110371838,
+        "exact_angular_formula_vs_finite_primitive_jet_max": 6.014544418064816e-11,
+        "twice_sampled_radius": 2.577786047102692,
+        "waist_radial_gap": 0.13235223206148672,
+        "gap_ratio_sample": 0.051343373593880796,
+        "actual_U4_at_waist": 0.060030482427951455,
+        "beta4_at_waist": 0.20747484022400084,
+        "phase_retained_metric_coefficient_sample": 1.6027725442435033e-05,
+        "phase_retained_peak": {
+          "mode": 4,
+          "component": "xx",
+          "x": 0.23457829476782235
+        },
+        "above_phase_cutoff_metric_coefficient_sample": 6.3743257181138925e-06,
+        "above_phase_cutoff_peak": {
+          "mode": 100,
+          "component": "xt",
+          "x": 0.03
+        },
+        "max_abs_principal_curvature_sample": 7.26167482115971,
+        "minimum_support_sample": 0.9145593939062713,
+        "waist_second_form_samples": {
+          "detII_min": -1.6274514617108633,
+          "detII_max": -0.8277519283352059,
+          "N_min": -8.412389368412558,
+          "N_max": -0.43858526789557845,
+          "gauss_min": -1.1123002317660378,
+          "gauss_max": -0.5657173001059567
+        }
+      },
+      "type_diagnostic": {
+        "kind": "floating_sampled_full_body_type_not_bounds",
+        "radial_samples": 582,
+        "quarter_period_angles": 256,
+        "target_K0_sign_crossings_linear_samples": [
+          0.2373794965060534,
+          0.4302075147249891,
+          0.4551335985682176
+        ],
+        "target_outer_minimum": -0.3652572155005095,
+        "actual_outer_Gauss_minimum": -0.3661366078901997,
+        "actual_outer_minimum_x": 0.445,
+        "target_ring_minimum": -0.3652572155005095,
+        "actual_ring_Gauss_minimum": -0.3661366078901997,
+        "actual_N_core_maximum": -0.4320084472099591,
+        "actual_N_core_minimum": -8.412389368412558,
+        "actual_N_full_maximum": -3.087823124666295e-11,
+        "actual_N_full_minimum": -8.412389368412558,
+        "target_at_0445": -0.3652572155005095,
+        "actual_Gauss_at_0445": [
+          -0.3661366078901997,
+          -0.3647673978638935
+        ]
+      },
+      "limitations": [
+        "Floating samples",
+        "Finite Robin endpoint",
+        "The outer-curvature acceptance gate is not a continuous certificate"
+      ],
+      "constrained_solver_sha256": "3956b88e336ebc46dda54c0f3cf57c2da8996a6fd8a553393d942f3e9bb4cad6",
+      "active_sampled_type_gates": {
+        "core_N_upper": 0.0,
+        "core_N_interval": [
+          0.0,
+          0.7
+        ],
+        "outer_curvature_floor": null
+      },
+      "meaning": "accepted nonlinear correction 1"
+    },
+    {
+      "step": 2,
+      "checkpoint": "data/phase_ring_continuation/quarter1_step02.npz",
+      "checkpoint_sha256": "b337961ff2a192befe9f8b85edfd700c87c46babc0dcbe2b78cd2682850bd027",
+      "fixed_mean_index": 2,
+      "fixed_mean_value": -0.058078899858606516,
+      "alpha": [
+        0.8005488322452297,
+        -0.0038042846655205777,
+        -0.058078899858606516
+      ],
+      "diagnostic": {
+        "kind": "floating_actual_finite_primitive_samples_not_bounds",
+        "radial_samples": 1798,
+        "quarter_period_angles": 256,
+        "metric_operator_norm_sample": 5.139539990545331e-05,
+        "at_x": 0.03629663663040521,
+        "at_theta": 1.533980787885641,
+        "exact_angular_formula_vs_finite_primitive_jet_max": 6.392619766870666e-11,
+        "twice_sampled_radius": 2.5775910396052146,
+        "waist_radial_gap": 0.13237125021826324,
+        "gap_ratio_sample": 0.051354636241495194,
+        "actual_U4_at_waist": 0.060028293758337244,
+        "beta4_at_waist": 0.20747484022400084,
+        "phase_retained_metric_coefficient_sample": 6.847227271287145e-06,
+        "phase_retained_peak": {
+          "mode": 96,
+          "component": "xx",
+          "x": 0.05001613683267975
+        },
+        "above_phase_cutoff_metric_coefficient_sample": 7.147137875849589e-06,
+        "above_phase_cutoff_peak": {
+          "mode": 100,
+          "component": "xt",
+          "x": 0.02997872743122284
+        },
+        "max_abs_principal_curvature_sample": 7.298314929276319,
+        "minimum_support_sample": 0.914695497440308,
+        "waist_second_form_samples": {
+          "detII_min": -1.6753129191747984,
+          "detII_max": -0.7701980522848741,
+          "N_min": -8.454264686082555,
+          "N_max": -0.4296566162542465,
+          "gauss_min": -1.1452381741386888,
+          "gauss_max": -0.5264870560381573
+        }
+      },
+      "type_diagnostic": {
+        "kind": "floating_sampled_full_body_type_not_bounds",
+        "radial_samples": 582,
+        "quarter_period_angles": 256,
+        "target_K0_sign_crossings_linear_samples": [
+          0.23735579399658435,
+          0.43020922483109125,
+          0.4551340556738437
+        ],
+        "target_outer_minimum": -0.3653242652648292,
+        "actual_outer_Gauss_minimum": -0.365588186490636,
+        "actual_outer_minimum_x": 0.445,
+        "target_ring_minimum": -0.3653242652648292,
+        "actual_ring_Gauss_minimum": -0.365588186490636,
+        "actual_N_core_maximum": -0.4296566162542465,
+        "actual_N_core_minimum": -8.454264686082555,
+        "actual_N_full_maximum": -3.087087841343836e-11,
+        "actual_N_full_minimum": -8.454264686082555,
+        "target_at_0445": -0.3653242652648292,
+        "actual_Gauss_at_0445": [
+          -0.365588186490636,
+          -0.36511679330933317
+        ]
+      },
+      "limitations": [
+        "Floating samples",
+        "Finite Robin endpoint",
+        "The outer-curvature acceptance gate is not a continuous certificate"
+      ],
+      "constrained_solver_sha256": "3956b88e336ebc46dda54c0f3cf57c2da8996a6fd8a553393d942f3e9bb4cad6",
+      "active_sampled_type_gates": {
+        "core_N_upper": 0.0,
+        "core_N_interval": [
+          0.0,
+          0.7
+        ],
+        "outer_curvature_floor": null
+      },
+      "meaning": "accepted nonlinear correction 2"
+    }
+  ],
+  "primitive_audit": [
+    {
+      "x": 0.0,
+      "quarter_period_nodes": 256,
+      "equivalent_full_circle_nodes": 1024,
+      "equivalent_full_circle_cutoff": 509,
+      "selected_sigma": 0.08,
+      "full_circle_vs_quarter_primitive_sample": 4.440892098500626e-16,
+      "doubled_FFT_primitive_jet_sample_max": 3.219646771412954e-15,
+      "analytic_tail_alias_bounds": {
+        "T": {
+          "tail": [
+            2.772029584716783e-17,
+            1.4137350882055592e-14,
+            7.379791399387205e-12
+          ],
+          "alias": [
+            3.8161002214159017e-17,
+            1.8953099388163042e-14,
+            9.419564055396817e-12
+          ],
+          "total": [
+            6.588129806132684e-17,
+            3.309045027021863e-14,
+            1.6799355454784022e-11
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_x": {
+          "tail": [
+            1.5047629575328066e-17,
+            7.674291083417313e-15,
+            4.006031102027951e-12
+          ],
+          "alias": [
+            2.0715241594386085e-17,
+            1.0288462304654415e-14,
+            5.113297182979671e-12
+          ],
+          "total": [
+            3.576287116971415e-17,
+            1.796275338807173e-14,
+            9.119328285007623e-12
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_xx": {
+          "tail": [
+            3.003023603376916e-13,
+            1.5315420377222272e-10,
+            7.994751528823235e-08
+          ],
+          "alias": [
+            4.134096945049262e-13,
+            2.0532466584629672e-10,
+            1.0204499024049023e-07
+          ],
+          "total": [
+            7.137120548426178e-13,
+            3.584788696185194e-10,
+            1.8199250552872258e-07
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        }
+      },
+      "geometry_jet_tail_alias_bounds": {
+        "F": 7.090694395714682e-17,
+        "Fx": 3.849098266729761e-17,
+        "Ftheta": 3.561470055800979e-14,
+        "Fxx": 7.682333474571866e-13,
+        "Fxtheta": 1.93330123310325e-14,
+        "Fthetatheta": 1.8080866509942123e-11
+      },
+      "absolute_metric_entry_tail_alias_bounds": {
+        "xx": 8.651068140071946e-17,
+        "xt": 4.006446376505388e-14,
+        "tt": 7.666301821092584e-14
+      },
+      "roundoff_included": false
+    },
+    {
+      "x": 0.1,
+      "quarter_period_nodes": 256,
+      "equivalent_full_circle_nodes": 1024,
+      "equivalent_full_circle_cutoff": 509,
+      "selected_sigma": 0.08,
+      "full_circle_vs_quarter_primitive_sample": 4.440892098500626e-16,
+      "doubled_FFT_primitive_jet_sample_max": 6.661338147750939e-16,
+      "analytic_tail_alias_bounds": {
+        "T": {
+          "tail": [
+            6.259975311447187e-18,
+            3.1925874088380652e-15,
+            1.6665519090595905e-12
+          ],
+          "alias": [
+            8.617762704907199e-18,
+            4.280110677730283e-15,
+            2.1271864758039363e-12
+          ],
+          "total": [
+            1.4877738016354386e-17,
+            7.472698086568348e-15,
+            3.793738384863527e-12
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_x": {
+          "tail": [
+            1.9619637639679242e-16,
+            1.0006015196236413e-13,
+            5.223206632089078e-11
+          ],
+          "alias": [
+            2.7009272900140846e-16,
+            1.3414465133949042e-13,
+            6.666899751342837e-11
+          ],
+          "total": [
+            4.662891053982009e-16,
+            2.3420480330185453e-13,
+            1.1890106383431915e-10
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_xx": {
+          "tail": [
+            2.5458795383260465e-14,
+            1.2983985645462837e-11,
+            6.777727057604255e-09
+          ],
+          "alias": [
+            3.50477192720757e-14,
+            1.7406851711185514e-11,
+            8.651089267157445e-09
+          ],
+          "total": [
+            6.050651465533617e-14,
+            3.039083735664835e-11,
+            1.54288163247617e-08
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        }
+      },
+      "geometry_jet_tail_alias_bounds": {
+        "F": 1.6100204879250533e-17,
+        "Fx": 5.063113652512158e-16,
+        "Ftheta": 8.086711169552835e-15,
+        "Fxx": 6.560038573550127e-14,
+        "Fxtheta": 2.5430693605180663e-13,
+        "Fthetatheta": 4.105460466331475e-12
+      },
+      "absolute_metric_entry_tail_alias_bounds": {
+        "xx": 1.168238280028881e-15,
+        "xt": 9.877356224672809e-15,
+        "tt": 1.7502352371846656e-14
+      },
+      "roundoff_included": false
+    },
+    {
+      "x": 0.25,
+      "quarter_period_nodes": 256,
+      "equivalent_full_circle_nodes": 1024,
+      "equivalent_full_circle_cutoff": 509,
+      "selected_sigma": 0.1,
+      "full_circle_vs_quarter_primitive_sample": 4.440892098500626e-16,
+      "doubled_FFT_primitive_jet_sample_max": 1.3877787807814457e-15,
+      "analytic_tail_alias_bounds": {
+        "T": {
+          "tail": [
+            1.9658037365678944e-21,
+            1.0025599056496261e-18,
+            5.208382242587484e-16
+          ],
+          "alias": [
+            2.4358267472720415e-21,
+            1.2161666419502035e-18,
+            6.074651046208286e-16
+          ],
+          "total": [
+            4.401630483839936e-21,
+            2.2187265475998298e-18,
+            1.128303328879577e-15
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_x": {
+          "tail": [
+            5.633027657753326e-19,
+            2.8728441054541966e-16,
+            1.492466449161889e-13
+          ],
+          "alias": [
+            6.97988267172308e-19,
+            3.484936061065359e-16,
+            1.740696526207342e-13
+          ],
+          "total": [
+            1.2612910329476406e-18,
+            6.357780166519556e-16,
+            3.233162975369231e-13
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_xx": {
+          "tail": [
+            8.437130143558808e-16,
+            4.302936373214992e-13,
+            2.2354112977134208e-10
+          ],
+          "alias": [
+            1.0454445116569213e-15,
+            5.219725674295137e-13,
+            2.6072094838443623e-10
+          ],
+          "total": [
+            1.889157526012802e-15,
+            9.52266204751013e-13,
+            4.842620781557783e-10
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        }
+      },
+      "geometry_jet_tail_alias_bounds": {
+        "F": 4.878780018868512e-21,
+        "Fx": 1.399006226137606e-18,
+        "Ftheta": 2.4592429526977987e-18,
+        "Fxx": 2.0945148953281256e-15,
+        "Fxtheta": 7.05196009884285e-16,
+        "Fthetatheta": 1.2506146884365964e-15
+      },
+      "absolute_metric_entry_tail_alias_bounds": {
+        "xx": 3.497030570828818e-18,
+        "xt": 4.624289983478303e-18,
+        "tt": 5.45166407003722e-18
+      },
+      "roundoff_included": false
+    },
+    {
+      "x": 0.5,
+      "quarter_period_nodes": 256,
+      "equivalent_full_circle_nodes": 1024,
+      "equivalent_full_circle_cutoff": 509,
+      "selected_sigma": 0.25,
+      "full_circle_vs_quarter_primitive_sample": 6.661338147750939e-16,
+      "doubled_FFT_primitive_jet_sample_max": 2.220446049250313e-16,
+      "analytic_tail_alias_bounds": {
+        "T": {
+          "tail": [
+            2.8371357151479626e-51,
+            1.446939214725461e-48,
+            7.430333999745612e-46
+          ],
+          "alias": [
+            1.6403495377820732e-51,
+            8.291100515679224e-49,
+            4.190978759076168e-46
+          ],
+          "total": [
+            4.477485252930036e-51,
+            2.2760492662933833e-48,
+            1.162131275882178e-45
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_x": {
+          "tail": [
+            5.010491882334216e-48,
+            2.55535085999045e-45,
+            1.3122258477090763e-42
+          ],
+          "alias": [
+            2.896921003590103e-48,
+            1.464240558096152e-45,
+            7.401431288348195e-43
+          ],
+          "total": [
+            7.907412885924318e-48,
+            4.019591418086602e-45,
+            2.0523689765438958e-42
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_xx": {
+          "tail": [
+            2.740429110241373e-43,
+            1.3976188462231001e-40,
+            7.17706364309652e-38
+          ],
+          "alias": [
+            1.5844365852179679e-43,
+            8.008490072502451e-41,
+            4.048125061643949e-38
+          ],
+          "total": [
+            4.3248656954593405e-43,
+            2.198467853473345e-40,
+            1.122518870474047e-37
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        }
+      },
+      "geometry_jet_tail_alias_bounds": {
+        "F": 5.0036282704649793e-51,
+        "Fx": 8.837669172454259e-48,
+        "Ftheta": 2.5435046260273188e-48,
+        "Fxx": 4.833112561518797e-43,
+        "Fxtheta": 4.492470505077615e-45,
+        "Fthetatheta": 1.2986916935550796e-45
+      },
+      "absolute_metric_entry_tail_alias_bounds": {
+        "xx": 2.229334067980355e-47,
+        "xt": 1.3084212577887946e-47,
+        "tt": 5.684776580568508e-48
+      },
+      "roundoff_included": false
+    },
+    {
+      "x": 1.0,
+      "quarter_period_nodes": 256,
+      "equivalent_full_circle_nodes": 1024,
+      "equivalent_full_circle_cutoff": 509,
+      "selected_sigma": 0.25,
+      "full_circle_vs_quarter_primitive_sample": 4.440892098500626e-16,
+      "doubled_FFT_primitive_jet_sample_max": 2.220446049250313e-16,
+      "analytic_tail_alias_bounds": {
+        "T": {
+          "tail": [
+            2.6837545950904523e-57,
+            1.3687148434961307e-54,
+            7.028635573689548e-52
+          ],
+          "alias": [
+            1.5516690252329186e-57,
+            7.842867363907716e-55,
+            3.9644062293335034e-52
+          ],
+          "total": [
+            4.235423620323371e-57,
+            2.1530015798869023e-54,
+            1.0993041803023051e-51
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_x": {
+          "tail": [
+            1.4252760255829127e-59,
+            7.268907730472854e-57,
+            3.7327353976645097e-54
+          ],
+          "alias": [
+            8.240532369650397e-60,
+            4.1651538654291804e-57,
+            2.105398595190913e-54
+          ],
+          "total": [
+            2.2493292625479523e-59,
+            1.1434061595902035e-56,
+            5.838133992855423e-54
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_xx": {
+          "tail": [
+            1.7283962080750207e-58,
+            8.814820661182605e-56,
+            4.526593860604744e-53
+          ],
+          "alias": [
+            9.99308530037058e-59,
+            5.050976805782257e-56,
+            2.553163656089829e-53
+          ],
+          "total": [
+            2.7277047381120785e-58,
+            1.3865797466964862e-55,
+            7.079757516694573e-53
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        }
+      },
+      "geometry_jet_tail_alias_bounds": {
+        "F": 1.7749117043995397e-57,
+        "Fx": 6.397834931658445e-57,
+        "Ftheta": 9.022445087653837e-55,
+        "Fxx": 1.4737122255626495e-56,
+        "Fxtheta": 3.2522245589839173e-54,
+        "Fthetatheta": 4.606783243478567e-52
+      },
+      "absolute_metric_entry_tail_alias_bounds": {
+        "xx": 1.9421434866949367e-56,
+        "xt": 1.3721196008121293e-54,
+        "tt": 7.561955933539546e-55
+      },
+      "roundoff_included": false
+    }
+  ],
+  "reproduction_start": "data/phase_ring_continuation/quarter1_step00.npz",
+  "constrained_solver_sha256": "3956b88e336ebc46dda54c0f3cf57c2da8996a6fd8a553393d942f3e9bb4cad6",
+  "active_sampled_type_gates": {
+    "core_N_upper": 0.0,
+    "core_N_interval": [
+      0.0,
+      0.7
+    ],
+    "outer_curvature_floor": null
+  },
+  "run_source_file": "scripts/fourfold_phase_constrained.py",
+  "run_source_hash": "3956b88e336ebc46dda54c0f3cf57c2da8996a6fd8a553393d942f3e9bb4cad6",
+  "current_reproducer_hash": "3956b88e336ebc46dda54c0f3cf57c2da8996a6fd8a553393d942f3e9bb4cad6"
+}

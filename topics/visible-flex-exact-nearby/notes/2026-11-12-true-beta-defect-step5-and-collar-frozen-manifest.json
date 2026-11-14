@@ -1,0 +1,499 @@
+{
+  "kind": "frozen_true_beta_derivative_local_defect_step5_reference_and_actual_positive_collar",
+  "files": [
+    {
+      "path": "data/phase_ring_continuation/step4_shared1032_reference_backward/manifest.json",
+      "bytes": 99868,
+      "sha256": "0ad615a077a0c313d0700c3a6392f39250617257b93197ba1f5f766716191a07"
+    },
+    {
+      "path": "data/phase_ring_continuation/step4_shared1032_reference_forward/manifest.json",
+      "bytes": 99605,
+      "sha256": "43cbffb2e0b924b6d69608df54e0acf3cf8ecd66c030b7343e84864ad6eb81a0"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_backward/manifest.json",
+      "bytes": 76501,
+      "sha256": "6759d5c65842a32ad9c9f4ad7e8ccd51b264f6d5d9b7e29549ec409cd1554b5e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/manifest.json",
+      "bytes": 76482,
+      "sha256": "f1e7556a13aef2a4e5661fc00c1e9c4eda961335fb8685d26bcef550b7b147ce"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/descriptor.json",
+      "bytes": 3129,
+      "sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/initial_correction.json",
+      "bytes": 39888,
+      "sha256": "095a980a31bbeb4bfb3f61510bedfe8bf822e4f48602df82f3a9404ad884ea5c"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_reference419_full_outer_gate.json",
+      "bytes": 169276,
+      "sha256": "8e3a554dbd6a4de90508765bbfe8562dc95d76dd765bfbe1aacd1923ce9d1b66"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_reference419_germ_partition.json",
+      "bytes": 12904,
+      "sha256": "32d1e3743c8461d98c30ed92a23dc4eb2d8f6054b498db97d35905aba792b9b1"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_local_root_jets.json",
+      "bytes": 5730,
+      "sha256": "cbc29437b88a9349fdf27fddff14ed53c73e9192b89676cd5e798cb2fe785c24"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_local_root_jets_h1e6.json",
+      "bytes": 5896,
+      "sha256": "2cb965df97862f068c0149211d9f1238c0ee8c5f13623cbe39743d7d679ad991"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_H_float_export.npz",
+      "bytes": 7588,
+      "sha256": "e91e1439387bf2b45d0b5ef3bc1180a3db7ca41f4b47006cdfb9032cd4c2feb8"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_dyadic_H.json",
+      "bytes": 122427,
+      "sha256": "0439d88f10f46d367e44a984db661ac3806a7bd052f46eca14e71594fa8eb2c2"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "bytes": 1638,
+      "sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_root_tight.json",
+      "bytes": 12640,
+      "sha256": "489268d254c2a9454ccbee32a4821d9bf577279490f76c9cc6f8d902a5e64e0b"
+    },
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-Newton1032-step5.json",
+      "bytes": 87033,
+      "sha256": "046b4659e04f746c3b47ab99cc90c7b82fe8fc4348bea0f04f3c47f89eb22130"
+    },
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-step4-shared-knot-Hnodes1032.json",
+      "bytes": 301475,
+      "sha256": "4ef35b2a2eb3320a67b9a777859feeffb8448057c97c5e5e2053fbf86e156d01"
+    },
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-step5-H-Wiener-budget.json",
+      "bytes": 7256,
+      "sha256": "a748f90704fdd197d3b0e13da06393b67951c7a1bcd2ef2ad6a86766e06e0625"
+    },
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-step5-local-inverse-budget.json",
+      "bytes": 7214,
+      "sha256": "e08d375b0cad3186ed18105956304ba24acdf2cc90c0c846bf6fc6681d2346d1"
+    },
+    {
+      "path": "notes/2026-11-12-D5-shared516-fixed-tau-backward-parameter-probe.json",
+      "bytes": 50324,
+      "sha256": "1a807c09b7d950d6e9c5b6afae0f7de39147661f9f08897641a926ba320037bf"
+    },
+    {
+      "path": "notes/2026-11-12-D5-shared516-fixed-tau-forward-parameter-probe.json",
+      "bytes": 50356,
+      "sha256": "4f0a0cfa20c4f87559e307d84c263d0bd7f73060d0be39ccd792c5ae9fb6154d"
+    },
+    {
+      "path": "notes/2026-11-12-D5-step4-1032-and-step5-predictor.md",
+      "bytes": 5865,
+      "sha256": "7bc7d6dc018667e93e11918c40b2f1bac4e476ba5ae173d63c961b0e189dcabc"
+    },
+    {
+      "path": "notes/2026-11-12-D5-step4-local-root-jets-frozen-manifest.json",
+      "bytes": 1058,
+      "sha256": "7c5486e728a97794ae574626c31fd8d0ecaa325194357bb077ad27de07932a40"
+    },
+    {
+      "path": "notes/2026-11-12-D5-step4-local-root-parameter-jets.md",
+      "bytes": 4487,
+      "sha256": "745db80f91d4f80639e25879cc24a1cdb09463c30c905ca8931a6fbfe1a992a6"
+    },
+    {
+      "path": "notes/2026-11-12-D5-step4-shared1032-raw-trace-hashes.json",
+      "bytes": 18040,
+      "sha256": "e0e7dabea437b05a0b22bff5140935de1f6f798ebcd8bf25c2bd57bdf563aec4"
+    },
+    {
+      "path": "notes/2026-11-12-R61-step3-time-angle-defect-correction.json.gz",
+      "bytes": 331464,
+      "sha256": "ea1e956cec4fcb80906f9d953c2f5a77538cfc6db75a7c0ccabe3a91028b4c33"
+    },
+    {
+      "path": "notes/2026-11-12-R61-step3-time-defect-correction.json",
+      "bytes": 182918,
+      "sha256": "8d876613382780fff1eb918abcd7d9542b63fdf2716f6e28c1c426516a946768"
+    },
+    {
+      "path": "notes/2026-11-12-R63-preconjugacy-width-choice.md",
+      "bytes": 3066,
+      "sha256": "935d91ca30d4830725b00f94bb08d5db63b0bf7caf41f8b5ca999d301b9ed729"
+    },
+    {
+      "path": "notes/2026-11-12-R63-preconjugacy-width-comparison.json",
+      "bytes": 9226,
+      "sha256": "188ae7425ace94d5b555ba7026d151210aefcc930bb3b9bd9855d8373fdbfa5a"
+    },
+    {
+      "path": "notes/2026-11-12-R63-width-choice-frozen-manifest.json",
+      "bytes": 795,
+      "sha256": "7a0b5c86fb761e64ef05599f3eb177b25faf97493037439d4b548a910891a141"
+    },
+    {
+      "path": "notes/2026-11-12-R64-actual-positive-collar-ready-manifest.json",
+      "bytes": 1013,
+      "sha256": "d7f580f241cdcd2e6118a75c581efbf8c5f529b5b1e0b5d97cb8c9b598c59cc8"
+    },
+    {
+      "path": "notes/2026-11-12-R64-independent-cover-and-constants-audit.json",
+      "bytes": 5501,
+      "sha256": "e49c457ba5429573a2eaef02efb9451d9121ecd58bb5430ba40cf7e509f76057"
+    },
+    {
+      "path": "notes/2026-11-12-R64-independent-source-and-cover-review.md",
+      "bytes": 2408,
+      "sha256": "db6421bd79687b957c32f86e74f0bdf182ea5902b7a3e6869b659252d0212dfb"
+    },
+    {
+      "path": "notes/2026-11-12-batch-time-primitive-sixteen-labels.json",
+      "bytes": 3257,
+      "sha256": "fafa70a4bf4ea02693c93dd2c41cecf059bc785fd822b69465d5e52b7dff5e47"
+    },
+    {
+      "path": "notes/2026-11-12-beta-derivative-complete-independent-review.md",
+      "bytes": 4902,
+      "sha256": "809ec97a8f9a793d9c87660dd60e1783359c98805204688a62a029a83b02459d"
+    },
+    {
+      "path": "notes/2026-11-12-beta-derivative-independent-cover-and-transfer-audit.json",
+      "bytes": 4277,
+      "sha256": "1047f423a77d07aa14093b17fcf28376243857d8bf738b5d62f65f0f3dea7923"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-point-and-parameter-independent-cover-audit.json",
+      "bytes": 7082,
+      "sha256": "5c77c437f339852c3070bba4ccf4e477c017abf76ec8e4be9449c5636568ea7a"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-part01.json",
+      "bytes": 745245,
+      "sha256": "b6121595cb477b88abdd8ca89f2b9a4eddae0e4fb1bc11192b053c2ea49b5ef2"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-refined-last.json",
+      "bytes": 88301,
+      "sha256": "4a105da4ee9333b4929caeda13b64088a1c85b22c39def31b8d725daee24efc8"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-refined-part00.json",
+      "bytes": 535239,
+      "sha256": "e4a4308e67c054ee8769cef7e9429c1960c72442dd7112ebe63d7ccc71f8448a"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-refined-part02.json",
+      "bytes": 183818,
+      "sha256": "1c553509cc4d810731ddcbea14586afddd1d56f365882389a99b53b858c972f1"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-collar-h1e5-domain500.json",
+      "bytes": 26343,
+      "sha256": "b387ede87055d0a990cafca12002b8baead5a2415d2d4cef610dde99405efd08"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-collar-h1e5-p40.json",
+      "bytes": 21235,
+      "sha256": "c339a5099990b00e5e849d177e41aaaeb9fa3883910ab6c8006a75860c3a5c58"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-complete-transfer-h1e5.json",
+      "bytes": 107484,
+      "sha256": "9d64d4ba9993febcc4e8bf387ea0503672ce968cb6674bdb1fab5fb70a8cbeb8"
+    },
+    {
+      "path": "notes/2026-11-12-exact-time-angle-defect-correction.md",
+      "bytes": 5979,
+      "sha256": "3b7f711887ebea6ed4d3c24a27c5db724d1bdaf276e55184ceb13c0c5e03844c"
+    },
+    {
+      "path": "notes/2026-11-12-fixed-tau-parameter-reference-residual.md",
+      "bytes": 7500,
+      "sha256": "bae928ada4d6c0d0db84dae202f98233a6b658aa67ce4f465c0addc95a3a2a14"
+    },
+    {
+      "path": "notes/2026-11-12-fixed-tau-reference-identity-frozen-manifest.json",
+      "bytes": 1133,
+      "sha256": "edfd5a3b6689fb2b1de839fa702a33c9ea2ac70822362e331516b72cedf1bb73"
+    },
+    {
+      "path": "notes/2026-11-12-full-time-correlated-outer-gate.md",
+      "bytes": 8843,
+      "sha256": "e62e9b83bb75ef95ddda53577eb0fd6af2af0dc2b1ec21c245d8ae99333f0291"
+    },
+    {
+      "path": "notes/2026-11-12-full-time-outer-and-defect-independent-audit.md",
+      "bytes": 5931,
+      "sha256": "caf238816abb222c5080ca0ade18249c744ebcda79b6222199abb0dc86821f6c"
+    },
+    {
+      "path": "notes/2026-11-12-full-time-outer-gate-frozen-manifest.json",
+      "bytes": 3176,
+      "sha256": "c9eb591648f72815d30f40959a6a21dbe944a11da702689358c9eabca89f8223"
+    },
+    {
+      "path": "notes/2026-11-12-handoff-before-step5-and-true-beta-derivative.md",
+      "bytes": 9153,
+      "sha256": "43e414f3498b27c45e5ab9676764116ca259129680d4498aad45935ed50bf2ca"
+    },
+    {
+      "path": "notes/2026-11-12-independent-true-beta-derivative-ready-manifest.json",
+      "bytes": 3061,
+      "sha256": "880691d30f4b533e9b36f2d3e41336a99e0b3ad626ee0c622864f27b3006dd4f"
+    },
+    {
+      "path": "notes/2026-11-12-parameter-reference-flow-error.md",
+      "bytes": 5389,
+      "sha256": "c9f38545908d5e9b82cf0df9f286417cbb93411d001588fcdf8a6db1655ce040"
+    },
+    {
+      "path": "notes/2026-11-12-reference419-finite-germ-cap.md",
+      "bytes": 1988,
+      "sha256": "a9d0df067382731673994ff3f2d44ad52ccaac35f177b7aaaa42f2709ae85c1e"
+    },
+    {
+      "path": "notes/2026-11-12-step4-1032-step5-predictor-frozen-manifest.json",
+      "bytes": 2292,
+      "sha256": "98b8c7d7a341c5e239ccf157b5efc61750475867fe16f53aa2c6cbc10784cff4"
+    },
+    {
+      "path": "notes/2026-11-12-step4-actual-positive-cap.json",
+      "bytes": 264350,
+      "sha256": "44aa2dfb783b975c6904b0a57335a2b7d809e07956a484984f6ef9df02840126"
+    },
+    {
+      "path": "notes/2026-11-12-step5-beta-parameter-inclusion.json",
+      "bytes": 1280,
+      "sha256": "f2505eaf23e4405af3f8efde6270e4e0405f538b930096556fe6789c3a58503e"
+    },
+    {
+      "path": "notes/2026-11-12-step5-reference-retarget-frozen-manifest.json",
+      "bytes": 21054,
+      "sha256": "66d7cbbc3cbb6542e954712c652addee0ba220d8407ee828b71a2151466ab537"
+    },
+    {
+      "path": "notes/2026-11-12-step5-retarget-backward419-jet-evaluation.json",
+      "bytes": 7993,
+      "sha256": "2b7381a858842a0b7afd1c7283e8749a30d9ceb7207bc85b00904010bed79b43"
+    },
+    {
+      "path": "notes/2026-11-12-step5-retarget-exact-identities.json",
+      "bytes": 1278,
+      "sha256": "9b2778a14ffc17eff7ea615110a76afbcf5de488470fa7fa7fd64e1576348e26"
+    },
+    {
+      "path": "notes/2026-11-12-step5-retarget-forward419-jet-evaluation.json",
+      "bytes": 7976,
+      "sha256": "ddfe420a0458b697f2b7d2664ebfc8d3ee97cbbed4662899c3d9649494008a23"
+    },
+    {
+      "path": "notes/2026-11-12-step5-symbolic-reference-retarget.md",
+      "bytes": 10490,
+      "sha256": "26cd1125119a8406a09929f10ecab15232608c7a272b5f5d794ccc35001fef89"
+    },
+    {
+      "path": "notes/2026-11-12-time-angle-defect-independent-audit.md",
+      "bytes": 3382,
+      "sha256": "c948d3c683b566554e5f3ab0237f86d59743a92c5dfc2660131033817625c9c7"
+    },
+    {
+      "path": "notes/2026-11-12-time-field-Horner-degree128.json",
+      "bytes": 9359,
+      "sha256": "42a09033d74a9ea01114f0d397409940dadf3330e72a7ea5d63cc3b8d7158abb"
+    },
+    {
+      "path": "notes/2026-11-12-time-field-Horner-degree192.json",
+      "bytes": 9375,
+      "sha256": "d88eaf2f8f367f23ee89ed8df708bbd058463e5cae3d9876ae9329dd80b893ca"
+    },
+    {
+      "path": "notes/2026-11-12-time-field-centered-Horner-degree192.json",
+      "bytes": 15418,
+      "sha256": "ff58ae80a4e0806d8f34f0c06ad5827a576e5aa04dc0eb9164b2af53bc71427d"
+    },
+    {
+      "path": "notes/2026-11-12-time-field-throughput-failed-routes.md",
+      "bytes": 2375,
+      "sha256": "e834b0dce579392827941b1618cbf3b0a127ceb0dfa802e38217d5dbb35520de"
+    },
+    {
+      "path": "notes/2026-11-12-true-beta-derivative-bulk-independent-review.md",
+      "bytes": 4086,
+      "sha256": "5745310d3350b5d622ec607ca3ca1a580c051bb92e8e0e7c9b70a3618567b249"
+    },
+    {
+      "path": "notes/2026-11-12-true-parameter-beta-derivative-certificate.md",
+      "bytes": 12403,
+      "sha256": "f76e7feba53824febf4eb7d61ce8e46472d3ddd092bebd77a7a3154f7a5f72fa"
+    },
+    {
+      "path": "notes/2026-11-12-two-boundary-field-fourier-reconstruction.md",
+      "bytes": 3908,
+      "sha256": "26b55e37e2d57d171dfec32bd11d955485d31cedda714b40646ee3a6c8c38ced"
+    },
+    {
+      "path": "notes/2026-11-12-two-boundary-fourier-budget-proxy.json",
+      "bytes": 4713,
+      "sha256": "18a1d7e73533bed92b07611cec41f12bec492b96358ead178246433586f07d4d"
+    },
+    {
+      "path": "results/R64-actual-positive-collar-source-and-dn-input.md",
+      "bytes": 17354,
+      "sha256": "aa8ce28a1819f3fee2e04672763cbe5796ffd4e9375ab6c495d37f3702f16eb3"
+    },
+    {
+      "path": "scripts/fourfold_beta_derivative_cover_independent_audit.py",
+      "bytes": 6918,
+      "sha256": "ee4a770044f8cf134b6fa859ccaa411df77bf14ed05ec5e18b1667afa3bdb120"
+    },
+    {
+      "path": "scripts/fourfold_beta_flat_cover_independent_audit.py",
+      "bytes": 7093,
+      "sha256": "b25427cff460952efeee10eeb70a40a704ea5e63b988da2f6b2ad604fd6802d0"
+    },
+    {
+      "path": "scripts/fourfold_boundary_fourier_budget.py",
+      "bytes": 6827,
+      "sha256": "bf1947cdfd89749cc04b48f5ee48855500044fa40340d9ed765025912af43d7e"
+    },
+    {
+      "path": "scripts/fourfold_circle_preconjugacy_width_budget.py",
+      "bytes": 5098,
+      "sha256": "7c1fadbfc9f92e63dce9be701102bc33ed329f4c8c5806dfd6e174037494b9c3"
+    },
+    {
+      "path": "scripts/fourfold_dense_fixed_tau_parameter_probe.py",
+      "bytes": 10114,
+      "sha256": "0137b012b719570b286cd52caea2be0d3f5681481942750e6b45d99207382882"
+    },
+    {
+      "path": "scripts/fourfold_phase_actual_positive_cap.py",
+      "bytes": 16734,
+      "sha256": "1e8418174f54bd1d22dd628ef7f7e6525ca6b43cbcf7a2307d29f9d467e1612b"
+    },
+    {
+      "path": "scripts/fourfold_phase_batch_time_primitive.py",
+      "bytes": 7144,
+      "sha256": "8a6353ee2633a23c012f2a2bf4bb534403d8e0b2214b4caea44c02cfa0a77046"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_derivative_bulk.py",
+      "bytes": 15805,
+      "sha256": "28f0989aaab52e858bbe10d9e8b004f205e6e60669ec9a7c965b6c9072e97f52"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_derivative_bulk_refined.py",
+      "bytes": 16697,
+      "sha256": "a643f46b5231b79f005c9d714292485e9f03f5318f9061d95d39de59d10f5842"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_derivative_collar.py",
+      "bytes": 15861,
+      "sha256": "0e24abf168309f7f98cb027cf6a30d85026149ae91532d5cbf8e30920957e5a5"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_derivative_collar_finish.py",
+      "bytes": 5414,
+      "sha256": "273b5e48262d9f4046d4a55f62017e615d57beddbcf9eb27420575602d8135cb"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_derivative_combine.py",
+      "bytes": 9402,
+      "sha256": "06b62059a2e8038ce1b1e17cec08dbbb8624dbf44d5bb116544dcc56bf39b6f5"
+    },
+    {
+      "path": "scripts/fourfold_phase_field_time_centered_horner.py",
+      "bytes": 3668,
+      "sha256": "2548fb44424c209ae91e53157100a6e7bef3c17810ea882ce937b21034040ad6"
+    },
+    {
+      "path": "scripts/fourfold_phase_field_time_horner.py",
+      "bytes": 6745,
+      "sha256": "5d8e0987b57c1d505785410b49b9f87b3a5ed035b66e0dd7cfec4e62409e9cc3"
+    },
+    {
+      "path": "scripts/fourfold_phase_local_parameter_root_jets.py",
+      "bytes": 8452,
+      "sha256": "6b7066e301452ae644c356f82b923edcfe0e99dc01b05d2e978fd123c096cf11"
+    },
+    {
+      "path": "scripts/fourfold_phase_reference_germ_partition.py",
+      "bytes": 5467,
+      "sha256": "124af777a53b72a83b366f8853a5b017d14ddda74312d60d79fc44bed683e1a7"
+    },
+    {
+      "path": "scripts/fourfold_phase_time_angle_defect_correction.py",
+      "bytes": 10558,
+      "sha256": "db724477755627087c43de4e05bc29cd940a706d7803263561491549604a33a8"
+    },
+    {
+      "path": "scripts/fourfold_phase_time_defect_correction.py",
+      "bytes": 6219,
+      "sha256": "b97888c6f4d70d402a8f2ae2be476d0107a48747fcc21a8995618c41b6b74f43"
+    },
+    {
+      "path": "scripts/fourfold_phase_time_outer_taylor_gate.py",
+      "bytes": 30215,
+      "sha256": "dedbda9a689fcb49642aca4bd69cfbcdc502d71836b2480968606e74d40051a4"
+    },
+    {
+      "path": "scripts/fourfold_positive_collar_independent_audit.py",
+      "bytes": 4620,
+      "sha256": "249f4f720a4a4882fe55c4d9c422883fa405dce6f7fb0afcfccad3e5fa5fe6a3"
+    },
+    {
+      "path": "scripts/fourfold_retarget_reference_identity.py",
+      "bytes": 6150,
+      "sha256": "a78423f5e0c3bd14077f549dfe6ae79c204fbc4ac48f42c219dda50c9d95147f"
+    },
+    {
+      "path": "scripts/fourfold_retarget_reference_jets.py",
+      "bytes": 12637,
+      "sha256": "4053227c7e24fa729d7d5a7b10cb24def7e04aa62893d076405106337feba85b"
+    },
+    {
+      "path": "scripts/fourfold_shared_reference_retarget.py",
+      "bytes": 13051,
+      "sha256": "d6bcd4c3594151036108e7f6d154991b2ad7252d0afba4d5d795dfc45d64f583"
+    }
+  ],
+  "total_bytes": 4212382,
+  "mutable_context": [
+    "HANDOFF.md",
+    "open.md",
+    "log.md",
+    "results.md",
+    "../../LOG.md"
+  ],
+  "excluded": [
+    "All live whole-angle/time-circle/domain and outer-parameter-cap work",
+    "All reproducible large raw dense/reference/Q shards except their explicit definitions and hashes",
+    "All progress files and caches"
+  ],
+  "scope": [
+    "True uniform beta derivative/transfer and independent exact-cover/source audits",
+    "Actual local defect corrections and full-segment outer gates with precise limited scope",
+    "Complete floating step4 samples and exact finite step5 predictor/reference definitions",
+    "R64 actual delta4 positive collar/source/DN and independent arithmetic/source review"
+  ],
+  "not_claimed": [
+    "Complete return or KAM acceptance",
+    "Actual exterior flat cap or fixed H",
+    "Full global inverse or exact closed isometric family"
+  ]
+}

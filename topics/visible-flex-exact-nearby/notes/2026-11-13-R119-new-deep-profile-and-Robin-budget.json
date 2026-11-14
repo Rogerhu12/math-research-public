@@ -1,0 +1,243 @@
+{
+  "schema": "visible-exact-R119-new-deep-profile-homogeneous-Robin-v1",
+  "scope": "A separate actual profile beyond layer4096, full second-jet seams and flat limit, unchanged principal shears with the true new endpoint factor, genuine infinite modal flat lines, an accurately retuned fourth connector and a freshly selected all-mode homogeneous Robin graph. New full nonlinear label/source and exterior C2 realization are not asserted.",
+  "parameters": {
+    "switch_depth": 4096,
+    "deep_background_exponent": "9/2",
+    "deep_endpoint_factor": "16 sqrt2",
+    "deep_background_amplitude": "epsilon delta_4096^(3/2) delta_j^(9/2)",
+    "fourth_true_cut_slope_difference": "<2^-95228",
+    "new_true_stop_difference": "<2^-95233",
+    "new_old_Robin_difference": "<2^43 exp(-8 omega B)<2^(-2^27)",
+    "full_deep_normalization_fee": "delta_4096^(-3/2) in (2^6144,2^6150)"
+  },
+  "file_sha256": {
+    "results/R11-matched-mode-four-physical-tail-connector.md": "8c4e30ef3cac88ff3e7c858c77537bf03d102760b2324e1e1d21780cf59923ca",
+    "results/R74-actual-full-tail-robin-and-augmented-positive-cap.md": "174bc93631b5ade0faf51160d7026e42d674916fd94e12cdb2315479458c18d8",
+    "results/R119-supplement-retuned-fourth-connector-and-common-bumps.md": "e22a74f54ea1122271e50d2bdcd2ae8db5bc4c28e1e36eaebc35c40f6c3c3752",
+    "results/R119-supplement-reference-negative-band-Cauchy-and-source-condition.md": "d513fa99baec599628dc02c360a52832a55a48211bcd17aebdf74df9ae6df3dc",
+    "results/R45-supplement-actual-exact-positive-cap-Airy-contact-and-four-thirds.md": "04ba71a899bef92b648788e8ae96f28206d24a0f622baa2993e0503ca3084744",
+    "results/R119-supplement-new-deep-profile-and-actual-homogeneous-Robin.md": "51c194db6a9d86ae744c6e5f33892109f0fa0e4efed3253e15db1374d204f38e",
+    "scripts/fourfold_new_deep_profile_and_Robin_20261113.py": "fa7eba78d2f540d026d088143d44a01ac4dfd071f1e00ee926276d94b053a8f1"
+  },
+  "checks": [
+    {
+      "name": "new_actual_seam_ratio",
+      "pass": true,
+      "evidence": "The first changed cell joins the old mu_J exactly, not merely approximately"
+    },
+    {
+      "name": "new_ratio_real_box",
+      "pass": true,
+      "evidence": "C=16sqrt2 lies strictly inside the complete actual c-box[16,64]"
+    },
+    {
+      "name": "new_full_log_profile_endpoint_jets",
+      "pass": true,
+      "evidence": "Together with c_j mu_j=mu_(j-1), these match all three w,w_r,w_rr jets"
+    },
+    {
+      "name": "new_zero_jet_exponents",
+      "pass": true,
+      "evidence": "The true new background and both derivatives decay at the flat circle"
+    },
+    {
+      "name": "new_profile_product_topology_decay",
+      "pass": true,
+      "evidence": "The full parameter-dependent second derivative envelope is L_j^2 delta_j^(1/2), not the old delta_j^2"
+    },
+    {
+      "name": "new_first_derivative_deep_monotonicity",
+      "pass": true,
+      "evidence": "The real first derivative envelope decreases from the first changed layer"
+    },
+    {
+      "name": "new_deep_curvature_prefix_margin",
+      "pass": true,
+      "evidence": "The complete changed-tail curvature envelope remains below the old shallow controlling bound"
+    },
+    {
+      "name": "new_exact_three_shear_matrix",
+      "pass": true,
+      "evidence": "The three principal areas are unchanged; the full new endpoint factor1/C is retained"
+    },
+    {
+      "name": "new_exact_determinant",
+      "pass": true,
+      "evidence": "The actual continuous trace-zero system has this same endpoint determinant"
+    },
+    {
+      "name": "new_exact_ideal_trace",
+      "pass": true,
+      "evidence": "The new large and small spectral roots are not replaced by the old64-roots"
+    },
+    {
+      "name": "new_exact_fourth_matrix",
+      "pass": true,
+      "evidence": "This is the true matrix consumed by the new fourth cone"
+    },
+    {
+      "name": "new_exact_fourth_Mobius_identity",
+      "pass": true,
+      "evidence": "The exact sign and determinant in the projective derivative are retained"
+    },
+    {
+      "name": "new_exact_fourth_projective_derivative",
+      "pass": true,
+      "evidence": "All c in[16,64] share an explicit true derivative bound"
+    },
+    {
+      "name": "new_true_fourth_denominator",
+      "pass": true,
+      "evidence": "The actual matrix error e_j(1+1/8) fits inside1/4 with strict margin"
+    },
+    {
+      "name": "new_true_fourth_image",
+      "pass": true,
+      "evidence": "Both fourth directions enter the same true1/16 disk"
+    },
+    {
+      "name": "new_true_fourth_contraction",
+      "pass": true,
+      "evidence": "The full actual determinant1/c and both physical denominator factors are paid"
+    },
+    {
+      "name": "new_first_layer_matrix_error",
+      "pass": true,
+      "evidence": "delta_129<2^-132 makes the existing true low-window error strictly below2^-35"
+    },
+    {
+      "name": "new_all_mode_far_depth_error",
+      "pass": true,
+      "evidence": "N(m)>=16log2(1+m)+120 makes32768 m^8 sqrt(delta)<2^-35"
+    },
+    {
+      "name": "new_all_mode_low_window",
+      "pass": true,
+      "evidence": "The same explicit N(m) also proves10m^4sqrt(delta)<1"
+    },
+    {
+      "name": "new_all_mode_large_denominator",
+      "pass": true,
+      "evidence": "On |s|<=1/8 the true denominator is greater than62 alpha nu"
+    },
+    {
+      "name": "new_all_mode_image_disk",
+      "pass": true,
+      "evidence": "Every mode has a common projective disk, not only the fourth one"
+    },
+    {
+      "name": "new_all_mode_contraction",
+      "pass": true,
+      "evidence": "The complete infinite-line construction has a uniform contracting direction at each fixed mode's explicit deep cut"
+    },
+    {
+      "name": "new_flat_amplitude_factor",
+      "pass": true,
+      "evidence": "True height amplitude decays by at least2^-10 per layer after its deep cut"
+    },
+    {
+      "name": "new_flat_height_second_jet_power",
+      "pass": true,
+      "evidence": "The full fixed-mode height and horizontal reconstruction reach the actual flat disk with zero second jets"
+    },
+    {
+      "name": "new_shared_prefix_length",
+      "pass": true,
+      "evidence": "Exactly129..4096 are unchanged, including the first new seam at4097"
+    },
+    {
+      "name": "new_fourth_direction_complete_tail_difference",
+      "pass": true,
+      "evidence": "The two true infinite-tail slopes, not finite truncations, start in the common1/16 disk"
+    },
+    {
+      "name": "new_fourth_physical_slope_difference",
+      "pass": true,
+      "evidence": "The real d4=16+20sqrt12*s conversion is included"
+    },
+    {
+      "name": "new_fourth_keeps_actual_connector_box",
+      "pass": true,
+      "evidence": "The new d4 shift is far below the old explicit14<d4<15 margin"
+    },
+    {
+      "name": "new_fourth_full_parameter_derivative",
+      "pass": true,
+      "evidence": "Cauchy uses the complete complex Gamma-box, not only one chosen layer"
+    },
+    {
+      "name": "new_finite_stop_difference",
+      "pass": true,
+      "evidence": "The physical Mobius slope and the true finite Riccati inverse are both paid"
+    },
+    {
+      "name": "new_full_canonical_first_source_row",
+      "pass": true,
+      "evidence": "The complete physical source has no hidden first canonical component"
+    },
+    {
+      "name": "new_full_canonical_second_source_row",
+      "pass": true,
+      "evidence": "The actual mu_j p_*^2/(12 r^10) source, including its correct radial and height units, is retained"
+    },
+    {
+      "name": "new_mean_rows_separate",
+      "pass": true,
+      "evidence": "The canonical nonzero-mode change is not invertible at mean; the physical mean flux and independent height remain separate"
+    },
+    {
+      "name": "new_all_mode_fresh_goodset",
+      "pass": true,
+      "evidence": "The bad-set proof is reapplied to the newly constructed nonzero right line of every mode"
+    },
+    {
+      "name": "new_Robin_exact_physical_reflection_budget",
+      "pass": true,
+      "evidence": "The genuine new-old homogeneous DN difference is below2^(-2^27), while retaining its exact exponential formula"
+    },
+    {
+      "name": "new_mean_Robin_exact_zero",
+      "pass": true,
+      "evidence": "The actual grounded ambient translation is regular and has exactly zero conormal; it is not obtained by substituting m=0 into a singular formula"
+    },
+    {
+      "name": "new_normalized_deep_input_power",
+      "pass": true,
+      "evidence": "The unchanged label scale and new actual background are divided before estimating the nonlinear input"
+    },
+    {
+      "name": "new_normalization_global_factor",
+      "pass": true,
+      "evidence": "delta_4096^(-3/2)<2^6150, with the entire global prefix normalization retained"
+    },
+    {
+      "name": "new_normalization_switch_agreement",
+      "pass": true,
+      "evidence": "At j=4096 the new deep formula agrees with the old input order"
+    },
+    {
+      "name": "new_candidate_strong_state_power",
+      "pass": true,
+      "evidence": "This is marked only as the next chart target; the old nonlinear chart is not transferred"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "separate_new_profile_constructed": true,
+    "full_second_jet_seams_and_flat_limit": true,
+    "all_modes_actual_infinite_flat_lines": true,
+    "true_fourth_finite_connector_retuned": true,
+    "same_exact_tail_epsilon": true,
+    "fresh_all_mode_bump_choice": true,
+    "new_homogeneous_Robin_graph": true,
+    "new_finite_cap_closed_boundary_realization": true,
+    "complete_global_normalization_fee_retained": true,
+    "new_full_label_nonlinear_chart": false,
+    "new_complete_exterior_source_affine_DN": false,
+    "arbitrary_Sobolev_boundary_exterior_C2_reconstruction": false,
+    "actual_regular_input_in_small_label_ball": false,
+    "relative_network_inverse": false,
+    "topic_completion": false
+  }
+}

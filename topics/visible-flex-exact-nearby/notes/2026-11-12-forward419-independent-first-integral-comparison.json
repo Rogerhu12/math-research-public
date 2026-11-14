@@ -1,0 +1,37 @@
+{
+  "kind": "independent_complete_saved_first_integral_comparison",
+  "complete": true,
+  "source_sha256": "50e053420591eb7459c2edb4eebc7ed1c463d18a27a34d2b518f6cb1a8463aad",
+  "bits": 320,
+  "old_density_sha256": "69a25068ab98d5df10ef491725d0e3cd0b262d07e47f84eafec9fe28d73c9296",
+  "old_integrals_sha256": "3fdb9ef31bb90f3e5a39e5c86ae01f5d4654c02bc417babd7a7eb3f7e154b6bd",
+  "new_density_sha256": "87adf2be93c46719aaa0e1bd8d74ff089f134347978782cbce07b954039260e8",
+  "new_integrals_sha256": "7146a2caa4a1dfa69745db9c20d5dd5d417d9ce0f98e25d2178d6c2ef95f987f",
+  "same_actual_reference_identity_fields_checked": true,
+  "comparison_strip": "1/512",
+  "common_true_error_strip": "1/256",
+  "all_modes_retained": true,
+  "complete_finite_difference_A_norm": {
+    "ball": "[8.4430209981510093579543231529194232e-23 +/- 2.50e-58]",
+    "lower": "[8.4430209981510093579543231529194232e-23 +/- 2.50e-58]",
+    "upper": "[8.4430209981510093579543231529194232e-23 +/- 2.50e-58]",
+    "mid_float": 8.44302099815101e-23,
+    "radius_upper_float": 0.0
+  },
+  "Hardy_factor": {
+    "ball": "[31.984391538420770722839331798436718 +/- 4.42e-34]",
+    "lower": "[31.984391538420770722839331798436718 +/- 4.42e-34]",
+    "upper": "[31.984391538420770722839331798436718 +/- 4.42e-34]",
+    "mid_float": 31.98439153842077,
+    "radius_upper_float": 0.0
+  },
+  "sum_of_true_error_budget_allowance": {
+    "ball": "[1.1012865242428691808770072910793609e-19 +/- 4.69e-54]",
+    "lower": "[1.1012865242428691808770072910793609e-19 +/- 4.69e-54]",
+    "upper": "[1.1012865242428691808770072910793609e-19 +/- 4.69e-54]",
+    "mid_float": 1.1012865242428691e-19,
+    "radius_upper_float": 0.0
+  },
+  "comparison_passed": true,
+  "scope": "Independent complete finite first-integral consistency check, not an additional full-flow or KAM assertion."
+}

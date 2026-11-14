@@ -1,0 +1,125 @@
+{
+  "schema": "R119-complete-radial-middle-subexponential-and-summable-width-v1",
+  "executed": true,
+  "complete": true,
+  "gate_count": 14,
+  "arithmetic": "exact normalized BigInt rational",
+  "gates": [
+    {
+      "name": "actual_J_below_nine_log2_M",
+      "left": "325/1",
+      "right": "984/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "log2_984_below_ten",
+      "left": "984/1",
+      "right": "1024/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "layer_power_bound_at_first_frequency",
+      "left": "2856/1",
+      "right": "4588/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "layer_power_difference_decreases",
+      "left": "17/41",
+      "right": "1/2",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "complete_upper_middle_binary_fee",
+      "left": "69632/1",
+      "right": "69632/1",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "original_delta_to_h_exponent_denominator",
+      "left": "81920/1",
+      "right": "81920/1",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "complete_frequency_exponent_denominator",
+      "left": "163840/1",
+      "right": "163840/1",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "h_prefactor_below_sixteen",
+      "left": "77/20",
+      "right": "4/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "two_physical_weights_total_binary_coefficient",
+      "left": "-795/1",
+      "right": "-795/1",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "subexponential_positive_power",
+      "left": "0/1",
+      "right": "163839/163840",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "subexponential_power_strictly_below_one",
+      "left": "163839/163840",
+      "right": "1/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "exact_integral_power_gap",
+      "left": "1/163840",
+      "right": "1/163840",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "whole_continuous_sum_fee",
+      "left": "163840/1",
+      "right": "262144/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "whole_dyadic_sum_fee",
+      "left": "327681/1",
+      "right": "524288/1",
+      "relation": "<",
+      "pass": true
+    }
+  ],
+  "input": {
+    "file": "R119-supplement-weighted-spectral-selection-one-common-radial-profile.md",
+    "sha256": "caf0779ae9c9dd14df18a3b2d80f6763d61b6f47101b24cb9e58462ae3d5b05a"
+  },
+  "producer_sha256": "4b78a95877d3c3667fca6a3ed5e74c008b39f4e04523c466417501a2bd412f95",
+  "same_profile_and_outer_t": true,
+  "actual_window": "j>=8193, 2^-40 delta_j^-1/8 <= M <= 2^65536(j+5)^204 delta_j^-320",
+  "complete_ports": "the same 2*|I_M| Euclidean physical scattering ports including exact eliminated prefix/low-tail lines and affine inputs",
+  "layer_width": "h_j<16 M^(-1/163840) on every actual middle window",
+  "full_radial_middle_inverse": "||(I-U_M)^-1||_2<exp(2^-795 M^(1-1/163840))",
+  "arbitrary_width_loss": "exp(K(eps)), K(eps)=(c/q)*(c*(q-1)/(q*eps))^(q-1), c=2^-795, q=163840",
+  "continuous_logarithmic_sum": "<2^-777 for N0>=Mstar",
+  "dyadic_logarithmic_sum": "<2^-776 for N0>=Mstar",
+  "low_frequency_range_granted": false,
+  "original_source_conversion_granted": false,
+  "updated_nonradial_inverse_proved": false,
+  "nonlinear_iteration_performed": false,
+  "final_F_zero_proved": false
+}

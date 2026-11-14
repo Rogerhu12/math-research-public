@@ -1,0 +1,198 @@
+{
+  "schema": "R119-actual-weighted-spectral-averaging-common-infinite-radial-profile-v1",
+  "complete": true,
+  "executed": true,
+  "arithmetic": "normalized exact BigInt rational; analytical spectral and product-measure proof in companion text",
+  "gate_count": 24,
+  "gates": [
+    {
+      "name": "actual_first_middle_frequency_is_above_1024",
+      "left": "10/1",
+      "right": "1969/2",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "upper_middle_exponent_exceeds_next_lower_first_layer",
+      "left": "3939/4",
+      "right": "2688256/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "upper_middle_exponent_gap_increases_in_layer",
+      "left": "1/8",
+      "right": "320/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "whole_path_phase_variation",
+      "left": "1/4",
+      "right": "1/4",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "one_near_one_arc_per_monotone_branch",
+      "left": "1/4",
+      "right": "1/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "small_arc_probability_coefficient",
+      "left": "1/64",
+      "right": "1/64",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "weighted_integral_Markov_probability_coefficient",
+      "left": "1/64",
+      "right": "1/64",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "combined_conditional_bad_probability_coefficient",
+      "left": "1/32",
+      "right": "1/32",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "all_positive_fourfold_frequency_probability",
+      "left": "1/256",
+      "right": "1/256",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "fixed_stop_and_all_mode_bad_union",
+      "left": "147/16384",
+      "right": "147/16384",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "joint_product_good_set_has_positive_measure",
+      "left": "147/16384",
+      "right": "1/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "middle_network_dimension_at_M1024",
+      "left": "802/1",
+      "right": "1024/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "dimension_comparison_derivative_after_M1024",
+      "left": "1/32",
+      "right": "1/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "log_M_below_M_over_eight_at_M1024",
+      "left": "10/1",
+      "right": "128/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "log_M_comparison_derivative",
+      "left": "1/1024",
+      "right": "1/8",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "constant_log_fee_fits_M_over_eight",
+      "left": "10/1",
+      "right": "128/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "complete_logarithmic_resolvent_factor",
+      "left": "3/2",
+      "right": "2/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "full_weighted_inverse_polynomial_prefactor",
+      "left": "256/1",
+      "right": "256/1",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "smallest_window_positive_constant_only_costs_log",
+      "left": "1/833501804109981784259981473840157224643094790289488520049532226470504654727204008940179025108944286342866238824179155055736100206764920635045419506541353755761894697439251819807884785738976753091120627016985825247711343504684557661395484672",
+      "right": "1/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "log_weighted_resolvent_is_below_local_polynomial_fee",
+      "left": "33579016/1",
+      "right": "67158016/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "original_middle_fee_first_layer",
+      "left": "-474173/512",
+      "right": "-803/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "original_middle_fee_monotone_layer_slope",
+      "left": "-61/512",
+      "right": "0/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "two_sided_local_weight_pays_D_and_T",
+      "left": "9/53344115463038834192638814325770062377158066578527265283170062494112297902541056572171457606972434325943439284747465923567110413232954920642906848418646640368761260636112116467704626287294512197831720129087092815853525984299811690329311019008",
+      "right": "1/3334007216439927137039925895360628898572379161157954080198128905882018618908816035760716100435777145371464955296716620222944400827059682540181678026165415023047578789757007279231539142955907012364482508067943300990845374018738230645581938688",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "all_band_profile_controls_remain_in_actual_compensation_ball",
+      "left": "1/604462909807314587353088",
+      "right": "1/18446744073709551616",
+      "relation": "<",
+      "pass": true
+    }
+  ],
+  "dependencies": {
+    "actual_controlled_tail": "f11edbccd752bf034aa40e71888859d667a04b42",
+    "all_quadratic_positive_control_commit": "3ef38d431196ec42cccc6e5b4085e44b2f589926",
+    "exact_fixed_stop_connector": "9dc7d422d4084a8fd604dd694223348f99a196c2",
+    "complete_unitary_network_commit": "789268ff1c9d7852733f32e6f89fc3c37cbe6d7f"
+  },
+  "actual_middle_windows": "j>=8193 with 2^-40 delta_j^-1/8 <= M <= 2^65536(j+5)^204 delta_j^-320",
+  "dimension": "2 * number of actual middle windows",
+  "all_omitted_windows": "eliminated exactly into true real prefix line and complete actual infinite-low-tail line, including affine source data",
+  "coordinate": "one theta_M simultaneously controls exactly that M's actual middle windows; all other coordinates and outer t fixed in conditional derivative",
+  "uniform_matrix_monotonicity": "-i U_M* partial_theta_M U_M >= diag(D_jM I2), D_jM>exp(-2^-800 M h_j)",
+  "conditional_bad_probability": "<1/(32 M^2)",
+  "joint_good_product_measure": ">=1-147/16384",
+  "weighted_inverse": "||W_M^-1 (I-U_M)^-1 W_M^-1||<=1; W_jM=exp(2^-800 M h_j)",
+  "common_actual_radial_profile_exists": true,
+  "numerical_infinite_parameter_array_claimed": false,
+  "original_radial_h_zeta_low_source_weights_unchanged": true,
+  "distinct_radial_label_normalizations_connected": false,
+  "full_nonradial_inverse_proved": false,
+  "final_nonlinear_F_zero_proved": false,
+  "producer_sha256": "472782cb59a7519e59acb29fdce6beb3b61d30de06da51d3f9df679174daa2c9"
+}

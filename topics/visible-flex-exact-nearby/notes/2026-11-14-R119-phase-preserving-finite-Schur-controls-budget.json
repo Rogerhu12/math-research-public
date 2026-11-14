@@ -1,0 +1,190 @@
+{
+  "status": "passed",
+  "computed_at_utc_date": "2026-11-14",
+  "implementation": "new exact reduced-rational and symbolic Laurent-polynomial BigInt JavaScript, actually executed in V8",
+  "producer_git_blob_sha": "e6be849e859cd40be71acb4db7d99e81638b3b32",
+  "proof_git_blob_sha": "5214cfffb5d16f3aebb0105af8aab14b2b5188b1",
+  "dependencies": {
+    "results/R119-supplement-phase-preserving-actual-finite-Schur-controls.md": "5214cfffb5d16f3aebb0105af8aab14b2b5188b1",
+    "results/R119-supplement-stronger-deep-first-shear-and-complete-local-map.md": "cb2db7a4d9593e75e96344b1c2557fd1a38a0e03",
+    "results/R119-supplement-uniform-frequency-reference-Airy-Cauchy.md": "e44caf5cddb05512b3940a132305f4aa23f63e7a",
+    "results/R119-supplement-actual-two-parameter-complete-phase-arithmetic.md": "7d2a2f93a6c1c2ce01931fcba94fb8d1478cb7dc",
+    "results/R119-supplement-actual-nonradial-first-density-phase.md": "811e36bbc3858a2c3e3792d5103b4f25d38694b9",
+    "results/R119-supplement-joint-actual-principal-and-beta-selection.md": "934cddff433cee17338575ea6d70fe8c95a8a207"
+  },
+  "gates_passed": 34,
+  "gates_total": 34,
+  "gates": [
+    {
+      "name": "symmetric_square_full_A_row",
+      "pass": true,
+      "detail": "exact Laurent-polynomial identity, no sampled Q"
+    },
+    {
+      "name": "symmetric_square_full_B_row",
+      "pass": true,
+      "detail": "exact K'' coefficient of mu h h'"
+    },
+    {
+      "name": "symmetric_square_full_C_row",
+      "pass": true,
+      "detail": "exact K'' coefficient of mu h'^2"
+    },
+    {
+      "name": "symmetric_square_nonzero_fourfold",
+      "pass": true,
+      "detail": "2 lambda(lambda-1) nonzero for all lambda=m^2>=16"
+    },
+    {
+      "name": "complete_beta_Euler_kernel",
+      "pass": true,
+      "detail": "128 times the exact Euler derivative, all Q' and Q'' terms"
+    },
+    {
+      "name": "beta_total_derivative_coefficient",
+      "pass": true,
+      "detail": "integrated kappa: 5/16-6/16=-1/16"
+    },
+    {
+      "name": "beta_integral_coefficients",
+      "pass": true,
+      "detail": "physical n=m/4 beta unit is retained"
+    },
+    {
+      "name": "principal_variation_sign",
+      "pass": true,
+      "detail": "dot S=-(1/4) int psi Q'/Q^(3/2)"
+    },
+    {
+      "name": "unoccupied_support_left",
+      "pass": true,
+      "detail": "third control is disjoint from both existing bump supports"
+    },
+    {
+      "name": "unoccupied_support_right",
+      "pass": true,
+      "detail": "support avoids the Q peak"
+    },
+    {
+      "name": "actual_quintic_Q_lower",
+      "pass": true,
+      "detail": "59535/32768>7/4"
+    },
+    {
+      "name": "actual_quintic_derivative_lower",
+      "pass": true,
+      "detail": "3825/4096>7/8"
+    },
+    {
+      "name": "quintic_second_decreases",
+      "pass": true,
+      "detail": "S'''<0 on support; its quadratic decreases until 1/2"
+    },
+    {
+      "name": "compact_support_order",
+      "pass": true,
+      "detail": "sixth-order endpoint zeros give genuine C5 compact test functions"
+    },
+    {
+      "name": "all_complex_asymptotic_degrees",
+      "pass": true,
+      "detail": "-Q^2/4 degree 8 cannot cancel with Q, Q', or Q A'/A"
+    },
+    {
+      "name": "phase_kernel_distinct_orders",
+      "pass": true,
+      "detail": "phi_S order -3, phi_beta order +1"
+    },
+    {
+      "name": "exact_rotation_conjugacy_S",
+      "pass": true,
+      "detail": "[S,J]=2T"
+    },
+    {
+      "name": "exact_rotation_conjugacy_T",
+      "pass": true,
+      "detail": "[T,J]=-2S"
+    },
+    {
+      "name": "signed_J_square",
+      "pass": true,
+      "detail": "J^2=-I, fixing affine boundary signs"
+    },
+    {
+      "name": "SL2_exact_four_coefficients",
+      "pass": true,
+      "detail": "det C=a^2+b^2-c^2-d^2"
+    },
+    {
+      "name": "exact_trigonometric_amplitude",
+      "pass": true,
+      "detail": "(c s+d t)^2+(-d s+c t)^2=(c^2+d^2)(s^2+t^2)"
+    },
+    {
+      "name": "plateau_wave_frequency",
+      "pass": true,
+      "detail": "2<k_m/|m|<3 for every |m|>=4"
+    },
+    {
+      "name": "mean_platform_frequency",
+      "pass": true,
+      "detail": "mean is hyperbolic u''-16u=0, never substitute m=0 in k^-1"
+    },
+    {
+      "name": "fixed_platform_shear",
+      "pass": true,
+      "detail": "p_tot=sqrt(mu)(pi+4u)"
+    },
+    {
+      "name": "moving_density_factor",
+      "pass": true,
+      "detail": "mu_ell(t)=e^(-8ell) mu_0(t-ell)"
+    },
+    {
+      "name": "slide_buffers",
+      "pass": true,
+      "detail": "a_j/16 shift stays inside both a_j/4 buffers"
+    },
+    {
+      "name": "sublevel_period_cover_constant",
+      "pass": true,
+      "detail": "2+2pi/(kL)<16(1+1/(kL))"
+    },
+    {
+      "name": "relative_reflection_ratio",
+      "pass": true,
+      "detail": "rho/sigma>=min(rho,1)/3"
+    },
+    {
+      "name": "sublevel_selection_constant",
+      "pass": true,
+      "detail": "16 sqrt(3*2^-16)<1/8"
+    },
+    {
+      "name": "all_layers_and_modes_union",
+      "pass": true,
+      "detail": "two ramps and two reciprocal-square sums; strict actual bound"
+    },
+    {
+      "name": "complete_Cauchy_frame_fee",
+      "pass": true,
+      "detail": "same true geometric doors and both physical wave-frame conversions"
+    },
+    {
+      "name": "full_source_inverse_constant",
+      "pass": true,
+      "detail": "(2K^2+K)/epsilon <= 4K^2/epsilon, K>=1"
+    },
+    {
+      "name": "metric_variation_angle_entry",
+      "pass": true,
+      "detail": "exact dual-product derivative of -mu_epsilon Q_epsilon gives mu(psi'-Q psi)"
+    },
+    {
+      "name": "mean_resistance_inverse_derivative",
+      "pass": true,
+      "detail": "dual inverse derivative is -mu^-1 psi; total resistance variation remains in the source/mean contract"
+    }
+  ],
+  "mathematical_scope": "Actual phase-preserving compact controls, exact ramp-translation Wronskian, full affine/weak/mean formulas, and finite-frequency transversality including transparent modes. No uniform nonzero lower bound over all moving Schur windows, new full-label chart, or nonlinear outer F closure is claimed."
+}

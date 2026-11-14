@@ -1,0 +1,280 @@
+{
+  "kind": "independent_exact_symbolic_mixed_Codazzi_jet_check",
+  "source_sha256": "bdf7c1a520fcaf753a11cab245df1b49ca72d243c74fd482ecc3c34874c1a44e",
+  "implementation_sha256": "58378a726662562ded9a328eb037b1d4251efabd36b0886970f8ccd7bb44deeb",
+  "symbolic_inputs": {
+    "B": "r**3/64 + r*t**2/32 + r/8 + t**4/128 + t/4",
+    "C": "r**2*t**2/64 + r*t/32 + r/8 + t/16 - 2",
+    "K": "r**2/32 + r/16 - 1",
+    "gamma": "r**2/128 + r/64 + 1",
+    "beta": "r**2/64 + r/32"
+  },
+  "checks": [
+    {
+      "field": "RB",
+      "radial": 0,
+      "angular": 0,
+      "exact_normalized_value": "7/64",
+      "interval": [
+        0.1093749999999999,
+        0.10937500000000008
+      ],
+      "passed": true
+    },
+    {
+      "field": "RB",
+      "radial": 0,
+      "angular": 1,
+      "exact_normalized_value": "63/1024",
+      "interval": [
+        0.06152343749999989,
+        0.06152343750000016
+      ],
+      "passed": true
+    },
+    {
+      "field": "RB",
+      "radial": 0,
+      "angular": 2,
+      "exact_normalized_value": "2237/65536",
+      "interval": [
+        0.03413391113281247,
+        0.034133911132812535
+      ],
+      "passed": true
+    },
+    {
+      "field": "RB",
+      "radial": 0,
+      "angular": 3,
+      "exact_normalized_value": "63/524288",
+      "interval": [
+        0.00012016296386718708,
+        0.00012016296386718818
+      ],
+      "passed": true
+    },
+    {
+      "field": "RB",
+      "radial": 1,
+      "angular": 0,
+      "exact_normalized_value": "91/4096",
+      "interval": [
+        0.022216796874999913,
+        0.022216796875000104
+      ],
+      "passed": true
+    },
+    {
+      "field": "RB",
+      "radial": 1,
+      "angular": 1,
+      "exact_normalized_value": "1399/65536",
+      "interval": [
+        0.021347045898437465,
+        0.021347045898437552
+      ],
+      "passed": true
+    },
+    {
+      "field": "RB",
+      "radial": 1,
+      "angular": 2,
+      "exact_normalized_value": "106233/4194304",
+      "interval": [
+        0.025327920913696216,
+        0.025327920913696393
+      ],
+      "passed": true
+    },
+    {
+      "field": "RB",
+      "radial": 1,
+      "angular": 3,
+      "exact_normalized_value": "168751/33554432",
+      "interval": [
+        0.005029171705245953,
+        0.005029171705245998
+      ],
+      "passed": true
+    },
+    {
+      "field": "RB",
+      "radial": 2,
+      "angular": 0,
+      "exact_normalized_value": "3739/65536",
+      "interval": [
+        0.05705261230468746,
+        0.05705261230468754
+      ],
+      "passed": true
+    },
+    {
+      "field": "RB",
+      "radial": 2,
+      "angular": 1,
+      "exact_normalized_value": "4981/524288",
+      "interval": [
+        0.009500503540039014,
+        0.009500503540039121
+      ],
+      "passed": true
+    },
+    {
+      "field": "RB",
+      "radial": 2,
+      "angular": 2,
+      "exact_normalized_value": "251615/67108864",
+      "interval": [
+        0.003749355673789963,
+        0.0037493556737899984
+      ],
+      "passed": true
+    },
+    {
+      "field": "RB",
+      "radial": 2,
+      "angular": 3,
+      "exact_normalized_value": "522415/134217728",
+      "interval": [
+        0.0038922950625419443,
+        0.0038922950625419847
+      ],
+      "passed": true
+    },
+    {
+      "field": "RC",
+      "radial": 0,
+      "angular": 0,
+      "exact_normalized_value": "-1/8",
+      "interval": [
+        -0.12500000000000028,
+        -0.12499999999999983
+      ],
+      "passed": true
+    },
+    {
+      "field": "RC",
+      "radial": 0,
+      "angular": 1,
+      "exact_normalized_value": "1/32",
+      "interval": [
+        0.03124999999999999,
+        0.03125000000000002
+      ],
+      "passed": true
+    },
+    {
+      "field": "RC",
+      "radial": 0,
+      "angular": 2,
+      "exact_normalized_value": "0",
+      "interval": [
+        -8e-323,
+        8e-323
+      ],
+      "passed": true
+    },
+    {
+      "field": "RC",
+      "radial": 0,
+      "angular": 3,
+      "exact_normalized_value": "-1/32",
+      "interval": [
+        -0.03125000000000006,
+        -0.03124999999999997
+      ],
+      "passed": true
+    },
+    {
+      "field": "RC",
+      "radial": 1,
+      "angular": 0,
+      "exact_normalized_value": "-21/256",
+      "interval": [
+        -0.0820312500000001,
+        -0.08203124999999992
+      ],
+      "passed": true
+    },
+    {
+      "field": "RC",
+      "radial": 1,
+      "angular": 1,
+      "exact_normalized_value": "-125/2048",
+      "interval": [
+        -0.06103515625000012,
+        -0.06103515624999994
+      ],
+      "passed": true
+    },
+    {
+      "field": "RC",
+      "radial": 1,
+      "angular": 2,
+      "exact_normalized_value": "2111/65536",
+      "interval": [
+        0.032211303710937486,
+        0.03221130371093752
+      ],
+      "passed": true
+    },
+    {
+      "field": "RC",
+      "radial": 1,
+      "angular": 3,
+      "exact_normalized_value": "-961/2097152",
+      "interval": [
+        -0.0004582405090332041,
+        -0.00045824050903320253
+      ],
+      "passed": true
+    },
+    {
+      "field": "RC",
+      "radial": 2,
+      "angular": 0,
+      "exact_normalized_value": "-19/512",
+      "interval": [
+        -0.037109375000000056,
+        -0.03710937499999995
+      ],
+      "passed": true
+    },
+    {
+      "field": "RC",
+      "radial": 2,
+      "angular": 1,
+      "exact_normalized_value": "47/32768",
+      "interval": [
+        0.0014343261718749933,
+        0.0014343261718750067
+      ],
+      "passed": true
+    },
+    {
+      "field": "RC",
+      "radial": 2,
+      "angular": 2,
+      "exact_normalized_value": "291/524288",
+      "interval": [
+        0.0005550384521484361,
+        0.0005550384521484395
+      ],
+      "passed": true
+    },
+    {
+      "field": "RC",
+      "radial": 2,
+      "angular": 3,
+      "exact_normalized_value": "1149/33554432",
+      "interval": [
+        3.4242868423460444e-05,
+        3.424286842346344e-05
+      ],
+      "passed": true
+    }
+  ],
+  "all_pass": true,
+  "native_original_target_bound_claimed": false
+}

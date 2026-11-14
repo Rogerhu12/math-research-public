@@ -1,0 +1,76 @@
+{
+  "kind": "R133_complete_M128_alpha070_v9_v10_rejection_manifest",
+  "files": [
+    {
+      "path": "notes/2026-11-13-R133-m128-alpha070-v9-v10-rejections.md",
+      "sha256": "4c23467c1b7d60ee3f6737dc2f2a4aadd92c59396e647f21e2a1ff1ee6ad6f91",
+      "bytes": 5087
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v9_probe.py",
+      "sha256": "69bd22c75c768d493e53f43ff28617a0e25352797d90c1fdf5219d9cd7fc5cd4",
+      "bytes": 12184
+    },
+    {
+      "path": "scripts/fourfold_codazzi_guarded_Newton_krylov_v2.py",
+      "sha256": "b42162129b881a365df9541ac2c7935b91686b67e39d7a9d1f80487be9016b3a",
+      "bytes": 5558
+    },
+    {
+      "path": "scripts/fourfold_codazzi_matrix_free_fft_collocation_v2.py",
+      "sha256": "ad4bafaedabf2c123c85ef9571c0d05946a9798f2a9bfe7115fc558f5595d0c9",
+      "bytes": 5381
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v10_probe.py",
+      "sha256": "c060ca56336d0ecb1ba836403f6e046778a541f01ccbb8bbbffa70838698dc9a",
+      "bytes": 12185
+    },
+    {
+      "path": "scripts/fourfold_codazzi_guarded_Newton_krylov_v3.py",
+      "sha256": "307d1675291f706f84436393940d05a224825149a498cdf1710ebe3e9fddf9fc",
+      "bytes": 6004
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-m128-alpha070-v9-floating.json",
+      "sha256": "1db395d75c84ce259c7cde8a0cd7076c43115e4d4c1eea0a5cc6ee1208956a04",
+      "bytes": 22757
+    },
+    {
+      "path": "notes/2026-11-13-R133-m128-alpha070-v9-process.json",
+      "sha256": "d28c87721a70d92f1f60e5822bb5c4b5316561b40b73eeb84f0e3fa5f0a12485",
+      "bytes": 1779
+    },
+    {
+      "path": "notes/2026-11-13-R133-m128-alpha070-v10-b3-process.json",
+      "sha256": "753afd243a33c793302ce47673e203269e58dcdd67af8a32b3f83f1dd3adbb9e",
+      "bytes": 1750
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-m128-alpha070-v9-candidate.json",
+      "sha256": "0e5e7f206f0d98a5136b4c13b723cce1dfeb7b7abfe2ed2cd4deb2b51b2b2146",
+      "bytes": 6983
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-m128-alpha070-v9-candidate-part000.npz.gz",
+      "sha256": "c2f4c442163323ff51d142b2622cd3a53d7d67d534dfb25954dae5ab75482100",
+      "bytes": 2575333
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-m128-alpha070-v9-candidate-part001.npz.gz",
+      "sha256": "64fd55454da6871d8dfe0c1c7d081e40d296761327238f9e287b75e76ee57d59",
+      "bytes": 2674521
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-m128-alpha070-v9-candidate-part002.npz.gz",
+      "sha256": "f39eec19ba522c82332bd04b61117d3b041505eab88e357466d17e1c3801ccf4",
+      "bytes": 1345294
+    }
+  ],
+  "complete_failed_v9_polynomial_shards": 3,
+  "v9_BVP_success": false,
+  "v10_explicit_allocation_failure_exit": 70,
+  "accepted_new_states": 0,
+  "full_operator_and_residual_gates_preserved": true,
+  "v9_original_exception_message_was_not_recorded": true
+}

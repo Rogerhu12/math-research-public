@@ -1,0 +1,39 @@
+{
+  "kind": "R77_exact_symmetry_and_finite_half_return_prediction_frozen_bundle",
+  "complete": true,
+  "files": [
+    {
+      "path": "results/R77-reflection-square-of-principal-return.md",
+      "sha256": "0a7276239ea25ceb87ca386e48e7c9901a7503edf52baad1d3ba753b51ae1243",
+      "bytes": 9207
+    },
+    {
+      "path": "scripts/fourfold_half_return_predictor.py",
+      "sha256": "979fca3db747e78c233ebec4086d0b87d984e11abf087e5fa963cf4aab668622",
+      "bytes": 8204
+    },
+    {
+      "path": "notes/2026-11-12-step5-half-return-finite-prediction.json",
+      "sha256": "cbb57cd0ca7357a4467b76af7c8c07b9fb48772552a9f87943de9a7c359e2b0f",
+      "bytes": 13198
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward549_exact_reference_package.npz.gz",
+      "sha256": "ddfaf470a6d64badee122b637c8ce6234db379f8f1da1473db431eced2fa16a7",
+      "bytes": 254689
+    },
+    {
+      "path": "notes/2026-11-12-step5-forward549-reference-package-extraction.json",
+      "sha256": "7a520b116902ecf1418f192985766a72a8406e53c138740962e97a08fd4d7864",
+      "bytes": 4888
+    },
+    {
+      "path": "notes/2026-11-12-R77-half-return-replay.md",
+      "sha256": "21695eb7502506d9bbeb4c97400db7899c83bd3b83e9479990dd9d0262479aac",
+      "bytes": 3680
+    }
+  ],
+  "total_bytes": 293866,
+  "scope": "Exact geometric reflection/ODE identity plus complete finite endpoint prediction; no true half-return defect or full return validation inferred.",
+  "live_background_reports_excluded": true
+}

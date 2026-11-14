@@ -1,0 +1,70 @@
+{
+  "status": "floating unresolved nonlinear candidate; not an exact isometry, not a closed fixed-cap family",
+  "file": "fourfold_mu4_weighted_radius_m16_checkpoint.npz",
+  "bytes": 344225,
+  "sha256": "ec744ad6f20af237cefb9db0815933f8e4fd8252facf7bff7d95fcf8fb5b1e6f",
+  "parameters": {
+    "order": 1,
+    "points": 401,
+    "length": 3.0,
+    "mu": 5.656854249492381,
+    "A": 33.4142135623731,
+    "mean": "depth",
+    "bump_radius": 0.25,
+    "mu_scale": 4.0,
+    "actual_epsilon": 0.06,
+    "modes": 16,
+    "mean_parameters": [
+      0.05664250460882002,
+      0.006794349678469589,
+      0.0028959802131927814
+    ],
+    "mean_directions": 3,
+    "tail_weight": 3,
+    "mean_gauge": "radius",
+    "interpretation": "make_candidate(series,1,order=1)"
+  },
+  "actual_spline_metric": {
+    "epsilon": 1.0,
+    "order": 1,
+    "core": 3.0,
+    "diameter_sample": 2.3148186235253436,
+    "waist_signed_radial_gap": 0.12639431268165902,
+    "waist_signed_gap_over_sampled_diameter": 0.054602253237952314,
+    "samples": 1201,
+    "angles": 256,
+    "metric_operator_norm_sample": 0.0069704960600942955,
+    "at_x": 0.0225,
+    "at_theta": 0.0,
+    "minimum_mean_xx": 3.7247383627990053e-09,
+    "minimum_mean_tt": 1.1787621318281608e-10
+  },
+  "geometry_reference": "notes/2026-11-10-fourfold-newton-weighted-radius-geometry.json",
+  "geometry_summary_floating": {
+    "max_abs_principal_curvature": 8.07839572,
+    "max_gaussian_curvature": 4.33682831,
+    "min_gaussian_curvature": -2.94452615,
+    "min_support": 0.820112499,
+    "tail_max_abs_curvature_for_x_at_least_10_over_mu": 0.19618836
+  },
+  "evaluator": {
+    "script": "scripts/poschl_teller_fourfold_series.py",
+    "sha256": "173634e9e305dfe12946b4bc792014f2e443f689fc3dd2f5e1dfd834210992c9",
+    "call": "load_series(file); make_candidate(series,1.0,order=1); evaluate_candidate(candidate,x,theta)",
+    "representation": "degree 1 contains the complete actual correction including amplitude and mean; do not multiply by physical epsilon again",
+    "height": "axisymmetric height is the actual antiderivative of the saved-slope quintic spline; every jet comes from the same map"
+  },
+  "solver": {
+    "script": "scripts/poschl_teller_fourfold_newton.py",
+    "sha256": "a5ab7de83ad9f10dea13a268895eb139fa9abc783b39bbdc3fe15da44a00cccb"
+  },
+  "retained_system_solved": false,
+  "limitations": [
+    "physical amplitude .06, 16 positive retained modes through angular frequency 64",
+    "finite half-interval [0,3] with homogeneous Robin replacement of outer xx rows",
+    "ordinary floating arithmetic, finite radial and angular samples",
+    "full actual spline metric residual is approximately .0069705, not zero",
+    "finite body only; no actual nonlinear fixed caps or certified reach",
+    "high phase action constraint R24 has not been imposed on this linear mean family"
+  ]
+}

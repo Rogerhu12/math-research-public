@@ -1,0 +1,83 @@
+{
+  "kind": "native_cap_CI_disjoint_continuation_ready",
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_cap_native_ci.py",
+      "sha256": "12ef0c4fa01810e35387350b69a9c40e1965cbdf9b46de552855daa564cc2571",
+      "bytes": 9849
+    },
+    {
+      "path": "notes/2026-11-12-cap-native-ci-inputs.json",
+      "sha256": "abb5b478edb98ff6068319bb597421677a002a9bb4066e0d85bd62d377366565",
+      "bytes": 11388
+    },
+    {
+      "path": "notes/2026-11-12-cap-native-CI-continuation.md",
+      "sha256": "f3fa663e31d7ccfa39de2051ff97fb95a3099853522b338b349b4c254aae4c01",
+      "bytes": 6197
+    },
+    {
+      "path": "data/cap_physical4_energy/native_local_manifest_at_interruption.json",
+      "sha256": "640d76ebaad46293a63059335f1d0539361b1fdad67ec0f593f1d1ec6df61c5f",
+      "bytes": 144395
+    },
+    {
+      "path": "data/cap_physical4_energy/native_element002_interrupted_182215.json.gz",
+      "sha256": "fc28b9a378356abadde23304454996214cd3a8a82cc4e57a85c03eda288b2673",
+      "bytes": 63375
+    }
+  ],
+  "total_bytes": 235204,
+  "required_complete_input_manifest": {
+    "path": "notes/2026-11-12-cap-native-ci-inputs.json",
+    "sha256": "abb5b478edb98ff6068319bb597421677a002a9bb4066e0d85bd62d377366565"
+  },
+  "existing_frozen_prerequisite": {
+    "path": "notes/2026-11-12-R95-cap-outer-and-native-ready-manifest.json",
+    "sha256": "f06533291379925d0f3fcf3a7abc464064a80edebe46dea4d1e3ca891ca04ac2"
+  },
+  "actual_complete_local_elements": [
+    0,
+    1
+  ],
+  "remaining_disjoint_ranges": [
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      12,
+      14
+    ],
+    [
+      14,
+      16
+    ],
+    [
+      16,
+      18
+    ],
+    [
+      18,
+      20
+    ]
+  ],
+  "local_session_observation": "Session84232 unavailable; FE2 last saved18:22:15.306814UTC. No observed exit code; the exact partial is preserved and FE2 is rerun whole.",
+  "local_preflight": "All42 input hashes and original kernel import passed; no new numerical energy calculation claimed."
+}

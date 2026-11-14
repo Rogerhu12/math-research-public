@@ -1,0 +1,24 @@
+{
+  "kind": "R76_frozen_ready_manifest",
+  "complete": true,
+  "files": [
+    {
+      "path": "results/R76-actual-weighted-exterior-robin-and-mean-preserving-positive-inverse.md",
+      "bytes": 19725,
+      "sha256": "f86111528fce63c398f75b9891f8105ba6198661f9e15fb71c78a9fa61a77275"
+    },
+    {
+      "path": "scripts/fourfold_phase_weighted_exterior_robin.py",
+      "bytes": 10825,
+      "sha256": "eccac6190c801bddea6afec4d401085fa113c8adc8aee4c5e09eea24e8888d16"
+    },
+    {
+      "path": "notes/2026-11-12-actual-weighted-exterior-robin-certificate.json",
+      "bytes": 15928,
+      "sha256": "a5e33d55ca33532fef000cfd46e40c964fdfd904fe466dc5b280d1160dd30f05"
+    }
+  ],
+  "scope": "Actual pointwise-uniform signed same-width exterior Robin and positive-domain Poisson/source/contact; real mean row retained. No full central or nonlinear inverse.",
+  "execution": "256-bit Arb certificate actually completed; AST, unique equation tags, trailing whitespace, source/report binding checked.",
+  "replay": "PYTHONDONTWRITEBYTECODE=1 python scripts/fourfold_phase_weighted_exterior_robin.py --out /workspace/scratch/f6a2c7886477/weighted-exterior-robin-replay.json"
+}

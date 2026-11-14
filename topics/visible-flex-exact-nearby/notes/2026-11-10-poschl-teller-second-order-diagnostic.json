@@ -1,0 +1,230 @@
+{
+  "kind": "floating_diagnostic_not_proof",
+  "theorem": "R8 true whole-line inverse; finite BVP below is only an approximation",
+  "parameters": {
+    "mu": 1.4142135623730951,
+    "A": 2.471404520791032,
+    "first_mode": 3,
+    "second_mode": 6,
+    "length": 8.0,
+    "bvp_tol": 1e-10,
+    "radial_samples": 10455,
+    "angular_samples": 96,
+    "epsilons": [
+      0.01,
+      0.05,
+      0.1
+    ]
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "background": {
+    "method": "DOP853",
+    "rtol": 2e-13,
+    "atol": 2e-14,
+    "nfev": 1307,
+    "success": true
+  },
+  "bvp": {
+    "success": true,
+    "message": "The algorithm converged to the desired accuracy.",
+    "niter": 6,
+    "nodes": 4820,
+    "max_rms_residual": 9.99624160124089e-11,
+    "boundary": "eta'(0)=0; eta'(L)+6sqrt(2)eta(L)=0",
+    "boundary_residual": [
+      -3.451544808357867e-30,
+      0.0
+    ],
+    "eta_at_zero": 1.789368731953804
+  },
+  "limitations": [
+    "No directed rounding or interval arithmetic.",
+    "Finite interval Robin condition approximates the true whole-line inverse.",
+    "Metric values use derivatives of the scalar cubic BVP polynomial itself.",
+    "Raw cubic spline jets are not claimed to define a global C2 vector field.",
+    "ODE-jet norm diagnostics approximate the smooth exact field from R8.",
+    "Only finite sampled x/theta grids; no certified global supremum.",
+    "No claim of exact nonlinear isometry, fixed open caps, or 5% bending."
+  ],
+  "scalar": {
+    "abs_eta": {
+      "value": 1.789368731953804,
+      "x": 0.0
+    },
+    "abs_eta_prime": {
+      "value": 3.091501237254323,
+      "x": 0.3365740740740741
+    },
+    "abs_source": {
+      "value": 15.084944665313015,
+      "x": 0.0
+    },
+    "actual_scalar_ode_defect": {
+      "value": 6.173702260525715e-06,
+      "x": 0.43666666666666665
+    },
+    "spline_first_derivative_vs_state": {
+      "value": 6.709468233889846e-11,
+      "x": 2.495
+    },
+    "quadratic_cancellation_defect_relative": {
+      "value": 3.118305149252271e-07,
+      "x": 0.43000000000000005,
+      "theta": 0.0
+    }
+  },
+  "fields": {
+    "Z": {
+      "C0": {
+        "value": 1.0,
+        "x": 0.0,
+        "theta": 0.0
+      },
+      "C1_operator": {
+        "value": 2.6666666666666665,
+        "x": 0.0,
+        "theta": 0.5235987755982988
+      },
+      "C2_Frobenius_upper": {
+        "value": 8.844332774281067,
+        "x": 0.0,
+        "theta": 0.0
+      }
+    },
+    "Y_raw_polynomial": {
+      "C0": {
+        "value": 1.789368731953804,
+        "x": 0.0,
+        "theta": 0.0
+      },
+      "C1_operator": {
+        "value": 10.73428056602682,
+        "x": 0.0,
+        "theta": 0.2617993877991494
+      },
+      "C2_Frobenius_upper": {
+        "value": 67.74001962649095,
+        "x": 0.0,
+        "theta": 0.0
+      }
+    },
+    "Y_ODE_jets": {
+      "C0": {
+        "value": 1.789368731953804,
+        "x": 0.0,
+        "theta": 0.0
+      },
+      "C1_operator": {
+        "value": 10.73428056602682,
+        "x": 0.0,
+        "theta": 0.2617993877991494
+      },
+      "C2_Frobenius_upper": {
+        "value": 67.74001935652171,
+        "x": 0.0,
+        "theta": 0.0
+      }
+    }
+  },
+  "epsilon_diagnostics": {
+    "0.01": {
+      "actual_nonzero_metric_relative": {
+        "value": 4.435819870050133e-05,
+        "x": 0.0,
+        "theta": 0.3272492347489368
+      },
+      "direct_vs_expansion_roundoff_relative": {
+        "value": 1.2074231827153172e-15,
+        "x": 0.18944444444444442,
+        "theta": 6.086835766330224
+      },
+      "ODE_jet_nonzero_metric_relative": {
+        "value": 4.435819870050133e-05,
+        "x": 0.0,
+        "theta": 0.3272492347489368
+      },
+      "correction_C0": {
+        "value": 0.01017893687319538,
+        "x": 0.0,
+        "theta": 0.0
+      },
+      "correction_C1_operator": {
+        "value": 0.026667259252675043,
+        "x": 0.0,
+        "theta": 0.5235987755982988
+      },
+      "correction_C2_Frobenius_upper": {
+        "value": 0.09505758214475023,
+        "x": 0.0,
+        "theta": 0.0
+      }
+    },
+    "0.05": {
+      "actual_nonzero_metric_relative": {
+        "value": 0.005692150409380763,
+        "x": 0.0,
+        "theta": 0.3272492347489368
+      },
+      "direct_vs_expansion_roundoff_relative": {
+        "value": 1.1669859165692938e-15,
+        "x": 0.19037037037037038,
+        "theta": 0.0
+      },
+      "ODE_jet_nonzero_metric_relative": {
+        "value": 0.005692150409380763,
+        "x": 0.0,
+        "theta": 0.3272492347489368
+      },
+      "correction_C0": {
+        "value": 0.054473421829884516,
+        "x": 0.0,
+        "theta": 0.0
+      },
+      "correction_C1_operator": {
+        "value": 0.1421943773803526,
+        "x": 0.0,
+        "theta": 0.39269908169872414
+      },
+      "correction_C2_Frobenius_upper": {
+        "value": 0.60845239689776,
+        "x": 0.0,
+        "theta": 0.0
+      }
+    },
+    "0.1": {
+      "actual_nonzero_metric_relative": {
+        "value": 0.04603074371521703,
+        "x": 0.0,
+        "theta": 4.516039439535327
+      },
+      "direct_vs_expansion_roundoff_relative": {
+        "value": 1.2194625387482748e-15,
+        "x": 0.38296296296296295,
+        "theta": 2.4870941840919194
+      },
+      "ODE_jet_nonzero_metric_relative": {
+        "value": 0.04603074371521703,
+        "x": 0.0,
+        "theta": 4.516039439535327
+      },
+      "correction_C0": {
+        "value": 0.11789368731953805,
+        "x": 0.0,
+        "theta": 0.0
+      },
+      "correction_C1_operator": {
+        "value": 0.3225157817818823,
+        "x": 0.0,
+        "theta": 2.4870941840919194
+      },
+      "correction_C2_Frobenius_upper": {
+        "value": 1.5520721127653538,
+        "x": 0.0,
+        "theta": 0.0
+      }
+    }
+  }
+}

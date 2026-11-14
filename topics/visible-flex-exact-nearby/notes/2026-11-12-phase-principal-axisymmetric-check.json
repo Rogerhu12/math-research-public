@@ -1,0 +1,26 @@
+{
+  "kind": "floating_axisymmetric_R37_map_independent_quadrature_check",
+  "source_template_sha256": "63b5513befcf44ce907b047dbeb41a7e143431211d20e3cbb103a081cbef0a0e",
+  "modification": "set all beta/gamma control coefficients to zero, keep saved mean and radius shift",
+  "target_root": 0.23535443154528807,
+  "returned_minus_initial": [
+    0.8357103422643958,
+    0.8357103422643948,
+    0.8357103422643952
+  ],
+  "angular_derivative": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "reference_quadratures": [
+    0.835710235787121,
+    0.8357102462057766
+  ],
+  "reference_difference": 1.0418655604915728e-08,
+  "max_return_discrepancy": 9.605861917005853e-08,
+  "max_jacobian_discrepancy": 0.0,
+  "rhs_calls": 2392,
+  "ode_rtol": 1e-09,
+  "limitations": "ordinary floating quadrature and ODE; no error certification"
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "observed_fast_chunked_native_process_exit_at_second_factorization",
+  "certified": false,
+  "exit_code": 137,
+  "session_id": 9643,
+  "source_path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v4_probe.py",
+  "source_sha256": "852b48efa009c0229467efc1b5a31f94002f69f713f89d5ce6290b0aa133e900",
+  "input_path": "notes/2026-11-13-R133-compact-metric-outer-mean-m64-candidate.npz.gz",
+  "input_sha256": "4046eb7ac8da162ab9aad9fcb4991933200abdbc2c22ed6329d49bb13d72b856",
+  "requested_modes": 128,
+  "requested_angles": 2048,
+  "first_Jacobian": {
+    "nonzero_entries": 23733679,
+    "assembly_seconds": 67.26502525999967,
+    "maximum_omitted_entry": 4.262253701365451e-05,
+    "maximum_omitted_collocation_row_l1": 0.0006247761121701823
+  },
+  "second_Jacobian": {
+    "nonzero_entries": 23711047,
+    "assembly_seconds": 31.56362602000081,
+    "maximum_omitted_entry": 4.262801791948793e-05,
+    "maximum_omitted_collocation_row_l1": 0.0006201959700086658
+  },
+  "last_observed_actual_iterate": {
+    "amplitude": 0.65,
+    "nu": -0.023721711691109648,
+    "sampled_C_min": -3.7455142416049343,
+    "sampled_C_max": -0.17103916765864122
+  },
+  "output_report_generated": false,
+  "output_candidate_generated": false,
+  "diagnosis": "The second complete sparse Jacobian was printed, followed by exit137 during the old guard factorization while its previous LU was still live. The release-guard source addresses this lifetime overlap. No OS OOM log was available.",
+  "dependencies": {
+    "fourfold_codazzi_chunked_collocation.py": "5b96d9298014703cf41c59a2d9466e81d523673fb659a52ca6488a03ef939a73",
+    "fourfold_codazzi_compact_metric_fast_jacobian.py": "0d82b18aaed063660f7003e36061958a327d134c67490adb7b340deddfc90c17",
+    "fourfold_codazzi_compact_metric_branch_probe.py": "e1692ce4e7b1090adb0aeab7414f8df32411072283cedad3d848ca4fb18ef0a4"
+  }
+}

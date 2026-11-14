@@ -1,0 +1,196 @@
+{
+  "status": "all_pass",
+  "scope": "Actual full Airy DN units and exact endpoint flux shears, including all mean and source rows and their new infinite-layer condition fee",
+  "checks": [
+    {
+      "name": "actual_positive_quartic",
+      "pass": true,
+      "evidence": "The same true root polynomial is continued to its actual positive side"
+    },
+    {
+      "name": "true_positive_germ_lower",
+      "pass": true,
+      "evidence": "All discarded terms in this lower bound are nonnegative on the true interval"
+    },
+    {
+      "name": "true_positive_germ_upper",
+      "pass": true,
+      "evidence": "The complete quartic remains inside0<=A<2z, with no radial sampling"
+    },
+    {
+      "name": "true_root_density_ratio",
+      "pass": true,
+      "evidence": "b>2^200 and log2>1/2 imply mu/mu_e<2 throughout the trial support"
+    },
+    {
+      "name": "complete_trial_energy",
+      "pass": true,
+      "evidence": "The true derivative and angular energies of the entire trial are both kept"
+    },
+    {
+      "name": "full_two_end_positive_norm",
+      "pass": true,
+      "evidence": "The actual off-diagonal block is retained through positive-form Cauchy-Schwarz"
+    },
+    {
+      "name": "actual_complex_DN_relative_norm",
+      "pass": true,
+      "evidence": "The complete complex relative-form inverse is converted using both reference half powers"
+    },
+    {
+      "name": "actual_full_normal_operator",
+      "pass": true,
+      "evidence": "The genuine normal shear is added to the full actual positive operator"
+    },
+    {
+      "name": "actual_cross_Airy_unit_fee",
+      "pass": true,
+      "evidence": "Both diagonal half powers are paid; no cross block is inverted"
+    },
+    {
+      "name": "full_cross_sum",
+      "pass": true,
+      "evidence": "All positive components and both genuine cross directions"
+    },
+    {
+      "name": "true_gradient_root_weight_ratio",
+      "pass": true,
+      "evidence": "For all M>=4, ((1+M)/M)^(1/3)<2; no frequency cutoff is used"
+    },
+    {
+      "name": "all_roots_b_exceeds_rho",
+      "pass": true,
+      "evidence": "[153.749537801717216268440309833584810208328 +/- 4.56e-40]"
+    },
+    {
+      "name": "b_over_rho_margin_increases",
+      "pass": true,
+      "evidence": "The exact lower-root-slope versus varrho ratio increases with layer"
+    },
+    {
+      "name": "true_full_port_transform",
+      "pass": true,
+      "evidence": "Both endpoints and both complete inverse transformations are retained"
+    },
+    {
+      "name": "all_nonmean_reference_Airy_condition",
+      "pass": true,
+      "evidence": "Kgrad times the complete two endpoint conversion is bounded by the stated new canonical K"
+    },
+    {
+      "name": "true_mean_diagonal_ratio",
+      "pass": true,
+      "evidence": "The actual b ratio and the complete true mu ratio, not the artificial gradient mean"
+    },
+    {
+      "name": "true_mean_integrated_flux",
+      "pass": true,
+      "evidence": "The full raw mean height primitive and conserved flux are both retained"
+    },
+    {
+      "name": "true_mean_inside_same_reference_K",
+      "pass": true,
+      "evidence": "The actual mean two-row propagator fits the same full-frequency bound"
+    },
+    {
+      "name": "complete_shear_inverse",
+      "pass": true,
+      "evidence": "No first-order truncation of the exact two-row shear"
+    },
+    {
+      "name": "complete_real_shear_symplectic",
+      "pass": true,
+      "evidence": "The operator form uses the genuine selfadjoint DN diagonal at the actual endpoint"
+    },
+    {
+      "name": "complete_ordered_network_difference",
+      "pass": true,
+      "evidence": "Actual transport error and the new endpoint-shear error remain as two ordered terms"
+    },
+    {
+      "name": "actual_interaction_condition_factor",
+      "pass": true,
+      "evidence": "Both reference propagator directions and the complete actual diagonal error"
+    },
+    {
+      "name": "actual_neighbor_and_count_fees",
+      "pass": true,
+      "evidence": "Group by the positive-layer index: neighboring negative delta^-26, both endpoints and both components, and factor3"
+    },
+    {
+      "name": "actual_total_delta_power",
+      "pass": true,
+      "evidence": "The full root-port conversion is included before the local epsilon exponent"
+    },
+    {
+      "name": "actual_N_start_129_below_one",
+      "pass": true,
+      "evidence": "[-30.7570923904437065533803131477971289444767 +/- 4.01e-41]"
+    },
+    {
+      "name": "actual_N_start_4097_below_one",
+      "pass": true,
+      "evidence": "[-6928.53604801589923062583243365049843631178 +/- 2.19e-39]"
+    },
+    {
+      "name": "actual_N_start_8193_below_one",
+      "pass": true,
+      "evidence": "[-20281.7860480158992306258324336504984363118 +/- 1.79e-38]"
+    },
+    {
+      "name": "all_three_actual_N_segments_decrease",
+      "pass": true,
+      "evidence": "The real global seam factors are fixed on each segment and are not discarded"
+    },
+    {
+      "name": "actual_finite_prefix_row_bound",
+      "pass": true,
+      "evidence": "472143/2"
+    },
+    {
+      "name": "actual_finite_prefix_count",
+      "pass": true,
+      "evidence": "Every finite layer, not a sampled subset"
+    },
+    {
+      "name": "actual_entire_deep_geometric_tail",
+      "pass": true,
+      "evidence": "[6.40783537795363934639232309697772901051251e-30 +/- 2.00e-72]"
+    },
+    {
+      "name": "actual_all_layer_network_budget",
+      "pass": true,
+      "evidence": "The complete finite prefix plus the true infinite geometric tail"
+    },
+    {
+      "name": "actual_original_working_ball",
+      "pass": true,
+      "evidence": "No newly invented smaller abstract input ball is used"
+    },
+    {
+      "name": "complete_affine_source_Airy_units",
+      "pass": true,
+      "evidence": "Both real source flux outputs are converted by the actual diagonal half powers"
+    },
+    {
+      "name": "complete_parameter_source_derivative",
+      "pass": true,
+      "evidence": "All endpoint diagonals, actual X<16a and the existing A*/2 Cauchy disk"
+    }
+  ],
+  "actual_N_start_log2": {
+    "129": "[-30.7570923904437065533803131477971289444767 +/- 4.01e-41]",
+    "4097": "[-6928.53604801589923062583243365049843631178 +/- 2.19e-39]",
+    "8193": "[-20281.7860480158992306258324336504984363118 +/- 1.79e-38]"
+  },
+  "full_network_inverse_proved": false,
+  "file_sha256": {
+    "results/R119-supplement-actual-Airy-DN-diagonals-and-network-flux-shear.md": "f8d38f318b2c1d51fe51eff373975fd09d0e9ea1ab6b614b867568035e991079",
+    "scripts/fourfold_Airy_DN_diagonal_network_20261113.py": "e7bbc6999deb34f6ad6c8e631ab334af4079389660637c6655104ceb4a58554c",
+    "results/R119-supplement-actual-positive-transmission-and-weighted-affine-source.md": "9a7b80ed242edaee24376314e98c2400e2a1c2b624d3f49b4032fdc2e90fdc99",
+    "results/R119-supplement-actual-positive-DN-to-full-Airy-Cayley-and-sources.md": "6ca70b578531fd77edbc65cfe0f04f1859182c19b2e43446069c8a5ef0f5ca88",
+    "results/R119-supplement-uniform-frequency-reference-Airy-Cauchy.md": "d116f9cf80740a5468d1b6addac8097891838b9f47ac28af667501b5ef6017fc",
+    "results/R119-supplement-stronger-deep-full-label-chart-and-fourth-line.md": "513202b38f1c346ef3fb3f43ff79e1c6bd4bccbd1ed8d9151a8a7095dc75bf98",
+    "results/R119-supplement-stronger-deep-first-shear-and-complete-local-map.md": "4aaef72754b7c5b60c43cd17520814025dfcd033e2a9eb94842de661b24199ab"
+  }
+}

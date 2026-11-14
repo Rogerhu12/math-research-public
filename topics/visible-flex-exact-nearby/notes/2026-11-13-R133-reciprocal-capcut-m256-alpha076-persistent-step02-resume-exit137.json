@@ -1,0 +1,20 @@
+{
+  "kind": "observed_process_exit_not_a_mathematical_failure",
+  "session_id": 98052,
+  "actual_exit_code": 137,
+  "observed_utc": "2026-11-13T20:52:09.793233+00:00",
+  "cause": "unknown",
+  "original_process_report_unchanged": true,
+  "process_report_sha256": "25dd688790239642b3d9bcc26ad0b160d5d997031e7561b3c974ba9db7a6264e",
+  "log_uncompressed_sha256": "c5bde5c3bf4e9ec5b69caf7d1c8dedb2483a919e4808af08a720b8968cc9e635",
+  "no_accepted_step_reported": true,
+  "original_full_QR_factor_restored": true,
+  "first_rhs_rechecked_full_relative_residual": 2.4690315138973143e-11,
+  "continuation": "same complete factor and same original source/guess/gates; separate resume2 process report and log",
+  "observed_next_resume": {
+    "session_id": 76282,
+    "second_rhs_saved_forward_next_index": 128,
+    "same_factor_restored": true,
+    "first_rhs_original_residual_rechecked": 2.4690315138973143e-11
+  }
+}

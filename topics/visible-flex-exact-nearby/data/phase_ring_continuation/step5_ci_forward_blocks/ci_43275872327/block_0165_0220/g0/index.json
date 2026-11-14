@@ -1,0 +1,73 @@
+{
+  "kind": "actual_forward_density_ordered_finite_correction",
+  "complete": true,
+  "source_sha256": "42185f8a6d132593e9e930ceb6496af0e591750f7219a42767e5120a3b465a7b",
+  "descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+  "label_strip": "1/256",
+  "inner_strip": "3/1024",
+  "requested_domains": [
+    "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0219_r.json.gz"
+  ],
+  "leaves": [
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0165_0220/g0/forward_0219_ef134f2a18.json.gz",
+      "sha256": "7bee23fc27d1f94c0b06af40672ac09b825fe4c7f0ef427d9b43e567d88735bb",
+      "bytes": 38045,
+      "segment": 219,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ]
+    }
+  ],
+  "exact_initial_time": {
+    "rational": "-3999935692951669/18014398509481984",
+    "pi_coefficient": "0"
+  },
+  "exact_final_time": {
+    "rational": "-7970508078767687/36028797018963968",
+    "pi_coefficient": "0"
+  },
+  "summary": {
+    "A": {
+      "ball": "[6.7923444186485863259900669542780918e-13 +/- 3.88e-48]",
+      "lower": "[6.7923444186485863259900669542780918e-13 +/- 3.88e-48]",
+      "upper": "[6.7923444186485863259900669542780918e-13 +/- 3.88e-48]",
+      "mid_float": 6.792344418648587e-13,
+      "radius_upper_float": 0.0
+    },
+    "E": {
+      "ball": "[2.9557462180743555632513417105194259e-21 +/- 4.35e-56]",
+      "lower": "[2.9557462180743555632513417105194259e-21 +/- 4.35e-56]",
+      "upper": "[2.9557462180743555632513417105194259e-21 +/- 4.35e-56]",
+      "mid_float": 2.9557462180743555e-21,
+      "radius_upper_float": 0.0
+    },
+    "omitted_local_J": {
+      "ball": "[7.0674971513228439744826763690535497e-24 +/- 1.11e-59]",
+      "lower": "[7.0674971513228439744826763690535497e-24 +/- 1.11e-59]",
+      "upper": "[7.0674971513228439744826763690535497e-24 +/- 1.11e-59]",
+      "mid_float": 7.067497151322844e-24,
+      "radius_upper_float": 0.0
+    },
+    "R": {
+      "ball": "0.00097656250000000000000000000000000000",
+      "lower": "0.00097656250000000000000000000000000000",
+      "upper": "0.00097656250000000000000000000000000000",
+      "mid_float": 0.0009765625,
+      "radius_upper_float": 0.0
+    },
+    "R72_smallness_passed": true,
+    "true_coordinate_flow_error_with_all_local_J_paid": {
+      "ball": "[2.9628137174458032778408229045944484e-21 +/- 1.28e-57]",
+      "lower": "[2.9628137174458032778408229045944484e-21 +/- 1.28e-57]",
+      "upper": "[2.9628137174458032778408229045944484e-21 +/- 1.28e-57]",
+      "mid_float": 2.962813717445803e-21,
+      "radius_upper_float": 0.0
+    }
+  },
+  "accumulator_path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0165_0220/g0/ordered_accumulator.json.gz",
+  "accumulator_sha256": "98f00df3427d826d13f40a3a39c48eda1dd96144a0ee75ea9068fb5343d858df",
+  "all_listed_seams_exact": true,
+  "whole_forward_leg": false
+}

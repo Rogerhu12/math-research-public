@@ -1,0 +1,68 @@
+{
+  "kind": "independent_R78_exact_ledger_and_worst_two_leaves",
+  "complete": true,
+  "source_sha256": "768e459a3e3973556b26776d358b352a260ae5733732836dd8942b2123bbdaa9",
+  "certificate_sha256": "d3345dc4f48d4195a0ec003daaee41165497e7577f3287fb0c6131f64192bf5d",
+  "main_source_sha256": "9013918a1624f153b38b3c50f255e3786eac9740f36ff571889ad910b813ed2d",
+  "complete_old_row_partition": true,
+  "all_parent_and_near_core_Fraction_covers_exact": true,
+  "exterior_body_quarter_to_three_Fraction_cover_exact": true,
+  "old_row_count": 1359,
+  "selected_parent_count": 26,
+  "diameter_leaf_count": 116,
+  "separation_leaf_count": 208,
+  "exact_witness_interval_reproduced": true,
+  "replayed": [
+    {
+      "kind": "diameter",
+      "index": 22,
+      "radial_interval": [
+        "1241304647293993/2251799813685248",
+        "4970848088710185/9007199254740992"
+      ],
+      "actual_bound": {
+        "ball": "[1.6294223505873499657781167115899734 +/- 2.00e-35]",
+        "lower": "[1.6294223505873499657781167115899734 +/- 2.00e-35]",
+        "upper": "[1.6294223505873499657781167115899734 +/- 2.00e-35]",
+        "mid_float": 1.62942235058735,
+        "radius_upper_float": 0.0
+      },
+      "frozen_bound_contains_replayed_bound": true,
+      "infinite_primitive_error": {
+        "ball": "[2.2804143329924192531532047442424281e-21 +/- 4.60e-57]",
+        "lower": "[2.2804143329924192531532047442424281e-21 +/- 4.60e-57]",
+        "upper": "[2.2804143329924192531532047442424281e-21 +/- 4.60e-57]",
+        "mid_float": 2.280414332992419e-21,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "kind": "separation",
+      "index": 29,
+      "radial_interval": [
+        "1201491592259361/72057594037927936",
+        "1261007895663739/72057594037927936"
+      ],
+      "actual_bound": {
+        "ball": "[0.016903267284710074558340409112133784 +/- 2.20e-37]",
+        "lower": "[0.016903267284710074558340409112133784 +/- 2.20e-37]",
+        "upper": "[0.016903267284710074558340409112133784 +/- 2.20e-37]",
+        "mid_float": 0.016903267284710075,
+        "radius_upper_float": 0.0
+      },
+      "frozen_bound_contains_replayed_bound": true,
+      "infinite_primitive_error": {
+        "ball": "[1.0155877184396656985288580070454956e-16 +/- 1.80e-51]",
+        "lower": "[1.0155877184396656985288580070454956e-16 +/- 1.80e-51]",
+        "upper": "[1.0155877184396656985288580070454956e-16 +/- 1.80e-51]",
+        "mid_float": 1.0155877184396657e-16,
+        "radius_upper_float": 0.0
+      }
+    }
+  ],
+  "seconds": 9.767984137000894,
+  "limitations": [
+    "Only two worst new leaves were recomputed; the full 448 attempts were not repeated.",
+    "The rotated auxiliary image remains congruent; this audit is not an exact flex certificate."
+  ]
+}

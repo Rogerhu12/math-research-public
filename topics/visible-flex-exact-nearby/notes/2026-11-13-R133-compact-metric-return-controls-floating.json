@@ -1,0 +1,120 @@
+{
+  "kind": "floating_explicit_compact_radial_metric_m4_return_controls",
+  "certified": false,
+  "success": true,
+  "source_sha256": "6b857134df75524e0fffcaa163212bfbb03c3edffee983f27cde3f9357ab9a38",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "cap_input_sha256": "c1bc89d13e7eb62cb0935af800eb2e1ef617bd5e22df840e20e1bae9b591a6f4",
+  "exact_center_parameter": {
+    "numerator": "-7789843107295549",
+    "denominator": "4611686018427387904"
+  },
+  "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "original_fixed_metric_certificates_modified": false,
+  "family_definition": "g_nu=E*exp(nu*h) dr^2+a^2 dtheta^2; each entry is a separate one-parameter family.",
+  "exact_scalar_formulas": {
+    "gamma_nu": "gamma*exp(nu*h/2)",
+    "beta_nu": "beta",
+    "K_nu": "exp(-nu*h)*(K+beta*nu*h_prime/(2*E))",
+    "gamma_derivative_at_zero": "gamma*h/2",
+    "lambda_ref_derivative_at_zero": "(-lambda_ref*gamma^2*h+beta*h_prime/2)/(gamma^2-beta^2)"
+  },
+  "unchanged_exact_regions": [
+    "|r|<=1/20",
+    "|r|>=9/50, including the entire actual [.239,25/8] cap and its real regular extension"
+  ],
+  "same_initial_curve_and_initial_Frame": true,
+  "cap_q4_independent_of_nu": true,
+  "no_new_target_adopted": true,
+  "primitive_nodes": 512,
+  "rtol": 2e-11,
+  "atol": 2e-13,
+  "max_step": 0.00025,
+  "requested_interval": [
+    0.0,
+    0.239
+  ],
+  "reached_radius": 0.239,
+  "rhs_calls": 11474,
+  "solver_message": "The solver successfully reached the end of the integration interval.",
+  "entries": [
+    {
+      "label": "broad",
+      "exact_positive_support": [
+        "1/20",
+        "9/50"
+      ],
+      "exact_even_bump": "h(r)=4096*t^6*(1-t)^6 for t=(|r|-left)/(right-left) in (0,1), zero elsewhere",
+      "boundary_zero_jets_through_order": 5,
+      "return_parameter_derivative": 0.020478002128117505,
+      "sampled_Newton_nu": 0.0009455711279349692,
+      "returned_B_derivative": 0.014923176922107968,
+      "returned_C_derivative": 0.0052593511335489885,
+      "sampled_max_abs_dK": 1.7580098544845315,
+      "sampled_max_abs_h_prime": 34.561780344
+    },
+    {
+      "label": "early",
+      "exact_positive_support": [
+        "1/20",
+        "1/10"
+      ],
+      "exact_even_bump": "h(r)=4096*t^6*(1-t)^6 for t=(|r|-left)/(right-left) in (0,1), zero elsewhere",
+      "boundary_zero_jets_through_order": 5,
+      "return_parameter_derivative": 0.004349355515189773,
+      "sampled_Newton_nu": 0.004452017661585408,
+      "returned_B_derivative": 0.0025565804448592125,
+      "returned_C_derivative": 0.0016974131945935453,
+      "sampled_max_abs_dK": 3.0386488809836747,
+      "sampled_max_abs_h_prime": 89.8606288944
+    },
+    {
+      "label": "middle",
+      "exact_positive_support": [
+        "9/100",
+        "7/50"
+      ],
+      "exact_even_bump": "h(r)=4096*t^6*(1-t)^6 for t=(|r|-left)/(right-left) in (0,1), zero elsewhere",
+      "boundary_zero_jets_through_order": 5,
+      "return_parameter_derivative": 0.008006993310355086,
+      "sampled_Newton_nu": 0.002418311945521041,
+      "returned_B_derivative": 0.00573085601978389,
+      "returned_C_derivative": 0.0021550642541061068,
+      "sampled_max_abs_dK": 4.122422319492829,
+      "sampled_max_abs_h_prime": 89.86062889439997
+    },
+    {
+      "label": "late",
+      "exact_positive_support": [
+        "13/100",
+        "9/50"
+      ],
+      "exact_even_bump": "h(r)=4096*t^6*(1-t)^6 for t=(|r|-left)/(right-left) in (0,1), zero elsewhere",
+      "boundary_zero_jets_through_order": 5,
+      "return_parameter_derivative": 0.009958317633599032,
+      "sampled_Newton_nu": 0.0019444456666864367,
+      "returned_B_derivative": 0.009007758991308075,
+      "returned_C_derivative": 0.0008999962172399534,
+      "sampled_max_abs_dK": 4.80624183768276,
+      "sampled_max_abs_h_prime": 89.86062889440007
+    }
+  ],
+  "sample_grid_points": 521,
+  "limitations": [
+    "Analytic differential of a precisely defined new metric family, integrated only in floating arithmetic.",
+    "No directed parameter derivative, root, nonlinear branch or fixed-metric flex follows from this diagnostic.",
+    "Existing g0 certificates apply to nu=0; the declared unchanged regions are exact identities, not a transfer of the whole waist continuation.",
+    "The reference return is rotational and linear; nonlinear cap, mean, complement and true regular matching remain separate."
+  ],
+  "dependency_sha256": {
+    "fourfold_phase_codazzi_rotational_reference_probe.py": "c8495d0c1721a21a24b48c8cdce9e825a8110f4923edd01e9eb2b7fe76b2d411",
+    "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+    "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937"
+  },
+  "wall_seconds": 87.90772336999726,
+  "return_mismatch": -1.936340757013877e-05,
+  "returned_B": -0.6365066061203025,
+  "returned_C": 0.6026310058918047,
+  "cap_q4": 1.056180708410158
+}

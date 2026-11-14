@@ -1,0 +1,169 @@
+{
+  "kind": "floating_Codazzi_two_end_failed_diagnostics_manifest",
+  "certified": false,
+  "all_requested_BVPs_failed": true,
+  "actual_outer_condition": "Artificial specified old C Fourier coefficients; never a regular full cap DN.",
+  "mean_and_unmatched_channels_retained": true,
+  "nonfinite_failure_preserved_and_audited": true,
+  "files": [
+    {
+      "path": "notes/2026-11-13-Codazzi-two-end-failed-diagnostics.md",
+      "bytes": 3998,
+      "sha256": "dacbbce6fb99a328df57bdf47c3e32a3cccecdc843b01cff46d1c4e405c40324"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-bvp-old-geometry-m32-guess.json",
+      "bytes": 1572,
+      "sha256": "95930371a2c68d47dcfef2c6df99e5d3b77fdfe78e145224282766d78dd590ea"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-bvp-old-geometry-m32-guess.npz.gz",
+      "bytes": 505417,
+      "sha256": "18af24f72c0bc1e4c2e60a7bad0f1750e69d5d101a4658572857ff811c311df6"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-feasible-bvp-m24-candidate.npz.gz",
+      "bytes": 1138604,
+      "sha256": "c178e9abc416734fa2c621c6729977886e96d6ff797a4ff3039e4669f6de2cac"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-feasible-bvp-m24-floating.json",
+      "bytes": 12542,
+      "sha256": "07e98a849bff608fe3d2dfe7476003d71a761e4c8b219a15d8d05cba0e324e7c"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-logC-direct-m24-candidate.npz.gz",
+      "bytes": 312138,
+      "sha256": "9374c709601b1e144e39e43fd643531722b40d549c57e134da5329daa7a4c6bb"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-logC-direct-m24-failure-audit.json",
+      "bytes": 2070,
+      "sha256": "8ebe29d9939dd0a01ab3552a9a89fb05b533ee1d07f94b691ab95299cf7b850d"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-logC-direct-m24-raw-failure.txt",
+      "bytes": 3886,
+      "sha256": "8e453bb2afc190fcf588046a6c48fbce583ef0ce20318956d04d6eb3ad0a9026"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-retained-low4-m32-candidate.npz.gz",
+      "bytes": 1509610,
+      "sha256": "78ba7ea18141071d9dc9e08ee1b3984a6ca228076efc9a635af3a7b0706cedd4"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-retained-low4-m32-floating.json",
+      "bytes": 15004,
+      "sha256": "9bfc112d22b5ccb41a724e6b0c4eae55f37ce14f970c084124ae1293e82132b6"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-retained-low4-m32-waist-floating.json",
+      "bytes": 4556,
+      "sha256": "7e076b40e435f0fadb57ecc98f11be0a376237221e5e7515d68607f0160f4862"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-two-end-direct-m32-candidate.npz.gz",
+      "bytes": 4531563,
+      "sha256": "c2c7d9749ebd02de3685d1c262ae434e2ecc8a484e21235d50eadbc830c5c339"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-two-end-direct-m32-floating.json",
+      "bytes": 5648,
+      "sha256": "5fdb5a0104c057fe4866f3121f85fac27e462edba8825913d7628da8a51a3cc0"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-two-end-direct-m32-last-failed.npz.gz",
+      "bytes": 4531582,
+      "sha256": "59479abd735465ad5408104f439c97d5e8a1c6818ada2ae331d2015fe8e0163a"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-two-end-homotopy-m12-candidate.npz.gz",
+      "bytes": 1962531,
+      "sha256": "47efe29ced43242acc8b6f883a9f9605c3e074c04741dcf7d2b3f2478fc8cf29"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-two-end-homotopy-m12-floating.json",
+      "bytes": 11084,
+      "sha256": "958949e8508ad947f48a8e15d66febe260b4de0bee6205579309c3bd5f66c6a5"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-two-end-homotopy-m12-last-failed.npz.gz",
+      "bytes": 1965893,
+      "sha256": "afbf33c5c1499a5b246cc9732bc1383d4c06846779db7651dddb04ef562f805f"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-two-end-homotopy-m12-waist-floating.json",
+      "bytes": 3952,
+      "sha256": "45e5230191b5d595c2f1c43ed94d050f6e16e23d789230964f9c416ae5c50d61"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-two-end-homotopy-m24-candidate.npz.gz",
+      "bytes": 2472471,
+      "sha256": "1a0251fcacf733ee2e62d10235fdb7ad7161ad544933ec3a76f08c9bc23e8bc7"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-two-end-homotopy-m24-floating.json",
+      "bytes": 12194,
+      "sha256": "c1b995586b3ad91de9c1ab8b8d7c3abe2c73024e778e678c913ba787ca922d63"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-two-end-homotopy-m24-last-failed.npz.gz",
+      "bytes": 2473295,
+      "sha256": "e427697bf8cd9cdd06c8e25790d2d842f4889fefa6cfdaa081f90e4d3904c8fa"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-two-end-m12-candidate.npz.gz",
+      "bytes": 1740596,
+      "sha256": "a71c327f6e8aa2362e651f4abe3b4a448abd2ce9dc43b03cb07f45a34b8047ff"
+    },
+    {
+      "path": "notes/2026-11-13-codazzi-two-end-m12-floating.json",
+      "bytes": 4231,
+      "sha256": "0fd4000fee79c03305a45e81b3a06b1799b28d7ad6fbb00585ca8e9ab88195d1"
+    },
+    {
+      "path": "scripts/fourfold_phase_codazzi_bvp_candidate_tools.py",
+      "bytes": 6946,
+      "sha256": "9c3e045fa49fa88e1ab5c912a33661062fb4fa1360b417e069c230fc5b630574"
+    },
+    {
+      "path": "scripts/fourfold_phase_codazzi_feasible_bvp_probe.py",
+      "bytes": 10375,
+      "sha256": "07e3607038e47c9dd1d541597dfd0a041034d340c2bd76635d77c2602d1ec0a7"
+    },
+    {
+      "path": "scripts/fourfold_phase_codazzi_log_curvature_bvp_probe.py",
+      "bytes": 12837,
+      "sha256": "346f65ef2c2f76568bd7299868a5d3ff2df7fa2af1d1874760ca100c66187400"
+    },
+    {
+      "path": "scripts/fourfold_phase_codazzi_log_curvature_bvp_probe_v1_failed.py",
+      "bytes": 11634,
+      "sha256": "e4c91e0145490c33c6bd98a8bc0ea034db7cb1c25b37a62aff1b3886eb0a6f26"
+    },
+    {
+      "path": "scripts/fourfold_phase_codazzi_nonfinite_failure_audit.py",
+      "bytes": 3349,
+      "sha256": "ee6b5213fdeb1f240a802d9068c7eb5fe911d15bd85fc0cd2095c4f75d2b8ef2"
+    },
+    {
+      "path": "scripts/fourfold_phase_codazzi_retained_low_bvp_probe.py",
+      "bytes": 8051,
+      "sha256": "95ab7f2ad44fef42a085a88a32e998c683bda7d17bef06a7441a8d6efd0244f5"
+    },
+    {
+      "path": "scripts/fourfold_phase_codazzi_two_end_homotopy_probe.py",
+      "bytes": 10682,
+      "sha256": "33d2cf9d72bff21e66b0f9d67620383bdb1a417f9f7c33e9ace9489b6624ace9"
+    },
+    {
+      "path": "scripts/fourfold_phase_codazzi_two_end_probe.py",
+      "bytes": 10306,
+      "sha256": "510a0ebf823f35942c0b45e67fb3ec5319cfe124996d88656fcc18a52c565eb2"
+    }
+  ],
+  "total_bytes": 23298617,
+  "largest_file_bytes": 4531582,
+  "source_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "scope": "Failed numerical diagnostics and exact waist closure rule only; no exact PDE, impossibility or nonlinear cap match is asserted."
+}

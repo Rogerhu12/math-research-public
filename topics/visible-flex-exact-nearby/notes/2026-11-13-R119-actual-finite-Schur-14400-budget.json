@@ -1,0 +1,160 @@
+{
+  "kind": "R119-actual-finite-Schur-and-14400-head-exact-budget",
+  "implementation": "new JavaScript BigInt integer and rational cross-products",
+  "input_git_blobs": {
+    "results/R119-supplement-actual-finite-Schur-14400-head-and-full-sources.md": "89ec05bd82d351230a0b8d69c19be622b91bbe0e",
+    "results/R119-supplement-two-parameter-full-tail-chart-reconstructed.md": "a76cb5bb70bd0d2e5a5a48967b16679ef8ed4170",
+    "results/R119-supplement-actual-two-parameter-complete-phase-arithmetic.md": "7d2a2f93a6c1c2ce01931fcba94fb8d1478cb7dc",
+    "results/R119-supplement-stronger-tail-joint-actual-return-KAM.md": "79257dea135065ec10fe2fcc5c091e5586407874",
+    "results/R119-supplement-stronger-tail-raw-labels-sources-and-regular-boundary.md": "472372b0ff0f49580013ad5a473e3f37e5e7d5a1",
+    "results/R119-supplement-joint-KAM-incoming-and-actual-full-Newton-chain.md": "078ce582f9b0b46115167de3b6938a6a2df3186c",
+    "results/R119-supplement-actual-exterior-Schur-and-full-weak-Wronskian.md": "bc30d99e60744bf5072558ec2038d3554eae7a7a",
+    "results/R119-supplement-actual-boundary-Schur-projector-and-interior-Green-kernel.md": "2ff7b197b8d40825f39601ece44cb96f6b869682"
+  },
+  "implementation_git_blob": "b1fd9fe1337dbb5428827ec8c32fbd646ace2cf6",
+  "status": "passed",
+  "gates_count": 18,
+  "passed_count": 18,
+  "gates": [
+    {
+      "name": "cohomological_square_fee",
+      "lhs": "4096",
+      "relation": "=",
+      "rhs": "4096",
+      "passed": true
+    },
+    {
+      "name": "new_KAM_exponent",
+      "lhs": "-261860",
+      "relation": "=",
+      "rhs": "-261860",
+      "passed": true
+    },
+    {
+      "name": "new_KAM_actual_smallness",
+      "lhs": "-261860",
+      "relation": "<",
+      "rhs": "-64",
+      "passed": true
+    },
+    {
+      "name": "true_width_numerator",
+      "lhs": "828823",
+      "relation": "=",
+      "rhs": "828823",
+      "passed": true
+    },
+    {
+      "name": "actual_width_below_2080",
+      "lhs": "828823",
+      "relation": "<",
+      "rhs": "832000",
+      "passed": true
+    },
+    {
+      "name": "actual_fourfold_cutoff",
+      "lhs": "0",
+      "relation": "=",
+      "rhs": "0",
+      "passed": true
+    },
+    {
+      "name": "retained_nonzero_Fourier_coordinates",
+      "lhs": "7200",
+      "relation": "=",
+      "rhs": "7200",
+      "passed": true
+    },
+    {
+      "name": "finite_width_cost_binary_exponent",
+      "lhs": "59904000",
+      "relation": "=",
+      "rhs": "59904000",
+      "passed": true
+    },
+    {
+      "name": "preconditioned_derivative_exponent",
+      "lhs": "-96403",
+      "relation": "=",
+      "rhs": "-96403",
+      "passed": true
+    },
+    {
+      "name": "strict_head_contraction_margin",
+      "lhs": "-96403",
+      "relation": "<",
+      "rhs": "-96000",
+      "passed": true
+    },
+    {
+      "name": "head_inverse_Neumann_margin",
+      "lhs": "-96000",
+      "relation": "<",
+      "rhs": "-1",
+      "passed": true
+    },
+    {
+      "name": "head_at_zero_self_map",
+      "lhs": "800000512",
+      "relation": "<",
+      "rhs": "6400000000",
+      "passed": true
+    },
+    {
+      "name": "head_ball_self_map",
+      "lhs": "9",
+      "relation": "<",
+      "rhs": "16",
+      "passed": true
+    },
+    {
+      "name": "true_final_94th_width",
+      "lhs": "66624",
+      "relation": "=",
+      "rhs": "66624",
+      "passed": true
+    },
+    {
+      "name": "true_final_width_above_min",
+      "lhs": "65536",
+      "relation": "<",
+      "rhs": "66624",
+      "passed": true
+    },
+    {
+      "name": "post94_head_correction_exponent",
+      "lhs": "-5700137763",
+      "relation": "=",
+      "rhs": "-5700137763",
+      "passed": true
+    },
+    {
+      "name": "post94_correction_inside_real_ball",
+      "lhs": "-5700137763",
+      "relation": "<",
+      "rhs": "-60000002",
+      "passed": true
+    },
+    {
+      "name": "base_first_parameter_in_box",
+      "lhs": "4611686018427387905",
+      "relation": "<",
+      "rhs": "1180591620717411303424",
+      "passed": true
+    }
+  ],
+  "actual_scope": [
+    "same two-parameter radial candidate",
+    "true principal KAM re-instantiation",
+    "full nonlinear outer map with arbitrary higher labels retained",
+    "exact 14400 Fourier head elimination",
+    "every fixed-mode finite radial Schur has no kernel",
+    "all ordinary/weak/mean and bare endpoint charges retained"
+  ],
+  "not_claimed": [
+    "all moving intermediate Schur blocks uniformly inverted",
+    "nonradial beta fixed",
+    "full nonlinear F solved",
+    "whole closed visible family proved"
+  ]
+}

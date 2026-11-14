@@ -1,0 +1,59 @@
+{
+  "kind": "floating_affine_map_initializer_not_actual_geometric_conjugacy",
+  "base_map_sha256": "a90d2d195e4c40fc731439e5ad2bf0665b5ee7bd71caa6848e2031a9602d8182",
+  "probe_map_sha256": "acb90de2f53a5823df98dfb39baa24b6313cb86dace68c94e002044ae192c374",
+  "base_source_sha256": "61de372c2fce6d4dfc8fe8f38e02bbcb3846e40eba6fc1bf0d5e08d6e6f8b44f",
+  "probe_source_sha256": "06d0710ee40590c88897936d19b67971fd67745163597ed7bf1f91c95ec56ef3",
+  "target": "D8",
+  "rotation_number": 0.5514343965384764,
+  "parameter": -0.004091197598060921,
+  "angular_scale": 4.0,
+  "initial_conjugacy_sha256": "70424cf59a84e2930ad7a91f734440d0b3d607abc9729a5f69315a74c6c45bcb",
+  "initializer_history": [],
+  "levels": [
+    {
+      "size": 257,
+      "parameter": -0.004091197598060921,
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.0,
+          "collocation_residual": 1.5961577991774334e-05,
+          "sampled_minimum_Hprime": 0.3367685050306205,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": -0.0040912052945776085,
+          "collocation_residual": 3.788762775736032e-10,
+          "sampled_minimum_Hprime": 0.3367760096378265,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": -0.004091197598060921,
+          "collocation_residual": 4.440892098500626e-15,
+          "sampled_minimum_Hprime": 0.33677601081175035
+        }
+      ],
+      "sampled_residual_max": 0.00010283540375610745,
+      "sampled_Hprime_range": [
+        0.3367322320353541,
+        1.873554194654293
+      ],
+      "sampled_weighted_twist": 0.0017643432847814686,
+      "sampled_twist_integrand_range": [
+        0.00022062477078839534,
+        0.0035379903865719368
+      ]
+    }
+  ],
+  "checkpoint_sha256": "9901c6b95ef79e0d9392f53f4baef20fdbc7944a128850fcc685b4e812a24c83",
+  "limitations": [
+    "affine combination of sampled maps, not exact geometry family",
+    "finite Fourier and angular sampling; no norm or roundoff certificate",
+    "intermediate translation is only a numerical initializer",
+    "tiny binary reflection defect remains unpaid",
+    "real-node estimates are not R31 Wiener inputs or a KAM theorem application"
+  ]
+}

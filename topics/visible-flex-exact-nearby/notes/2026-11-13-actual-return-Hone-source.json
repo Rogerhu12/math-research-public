@@ -1,0 +1,411 @@
+{
+  "kind": "actual_full_old_return_Hone_source_and_explicit_high_Ltwo_particular",
+  "complete": true,
+  "proved": true,
+  "source_sha256": "0feb44c19eb6a41e082726e9e5c66e2cd13d95ac3ebce715f73558d0f9a3829e",
+  "bits": 320,
+  "identity": {
+    "object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+    "source_sha256": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a"
+    },
+    "affine_arithmetic": "Arb encloses c0+exact_delta*v and alpha0+exact_delta*w before all fixed base weights",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "uniform_in_the_entire_real_parameter_interval": true,
+    "parameter_arithmetic": "First form complete exact center and direction scalar polynomials; then add the single p in [-eta,eta]. No independent raw-control parameter intervals are introduced.",
+    "exact_delta_fraction_scope": "The exact_delta_fraction field names the center only; all bounds cover the separately stated whole exact_parameter_interval."
+  },
+  "actual_parameter_scope": "The actual p_infinity supplied by R101, rigorously inside the full phase parameter box.",
+  "geometric_and_local_source_bounds_uniform_in_original_whole_parameter_box": true,
+  "scale": 1048576,
+  "cutoff_exact": "2^2108",
+  "cutoff_integer": "37258971264124495196643901043028646330575217167159566424562070439615835360313661762357660471998580969263457689487072191072121626601996459340222904043973997522798888555294915977372210742743080345230042596417663937030374903401390896637824266873878645678010363388658027019059903657279542207574995223527258046637127501899261738353419185082053299252985057165032498339948886763922251089041551326936351010131985185835699517431806933814446690347233656677140920532320300797299411448823422632208614231110692037067284935115871012748105678715837538656085672875116769826084009316977423039399803802404900323841681207609229893170850842554978592096256",
+  "inputs": {
+    "notes/2026-11-13-actual-two-cone-density-normal-form.json": "59635a09f6ae38758cdf226902178b4fdcdf80f336ae1e36a99d06fdf03e149d",
+    "notes/2026-11-13-actual-central-strong-word.json": "7af0fe2f3b5fc18e8169b6e3dafeb8dfce1bfb77f1c5b02a8c1f7f2a46ed3a5a",
+    "notes/2026-11-13-R46-windowed-density-strong-budget.json": "bb8f8b4751f87f8a41ce219a8722fff5976ce233a009c90952682c3f2d24539b",
+    "notes/2026-11-13-negative-root-physical-graph-operator.json": "e4b3faf5ae998607207246367a430d80a1fdac7e404d1b013e66b9c373124cb5",
+    "notes/2026-11-13-actual-central-scattering-and-source.json": "3ac507a09d5d6fac2765d3356527035508104877e9a2098b11c37b95b8d41b13",
+    "notes/2026-11-13-actual-central-scattering-reflected-source.json": "bcdf137770360988e2bfca50fa376151c1fde3161bcf4490964b29d836576b47",
+    "notes/2026-11-13-exact-positive-cap-Airy-contact-v2.json": "f61369e1e740269a11c271efb5cfd9a27df5b1aa91a275ae40e01edee4402649",
+    "notes/2026-11-13-actual-cap-stronger-source-window.json": "cfcf6caddfb99bee2d3070793c19fe4eb5e044b6ae0fcb54ca53df8bfa18e07e",
+    "notes/2026-11-13-R104-actual-return-explicit-high-cutoff.json": "b98a91b1c9386ff37c2dcf369f21aadf6b473c18c383fc0e788e70abe3486b91"
+  },
+  "native_geometry_recomputed": 0,
+  "all_215_strict_cells_both_root_connectors_and_full_caps_reused": true,
+  "full_negative_source_partition": "f=f*1_(r<0)+f*1_(r>=0); their L1 radial norms sum exactly to the original whole-core norm",
+  "exact_near_endpoint_affine_source": [
+    "(g_minus,0)-S*(g_plus,0)",
+    "(0,g_minus)-S*(0,g_plus)"
+  ],
+  "model_scattering": "S0=[[0,U],[V,0]]; both U,V use the same complete actual strong-word model",
+  "source_reflection": "the exact physical radial reflection preserves theta and the full canonical root angle; inward conormal and the complete branch permutation are retained",
+  "high_window_scattering_source": "norm_HN1(s)<=T1*norm_HN1(g)+RS*norm_L2(g); all input and output modes retained",
+  "ordered_complete_final_source": "unitary_cone_rotation_reflection * diag(Q_C,I,I_regular) * L_e * R_cap^* * ((s_neg,i*sqrt(pi*c_A/ell)*lambda)-h_cap)",
+  "exact_ordered_expansion": "L_e*R_cap^*=L_m*(-I+(R_cap^*+I))+(L_e-L_m)*R_cap^*; only the last R_cap^* uses base unitarity",
+  "source_units": {
+    "strict_core": "L1(dr; H_N^(1/2)) of the original physical scalar source, normalized physical angle x=4theta",
+    "either_canonical_root": "L1(dxi; H_N^(2/3)) of the exact canonical ordinary source on the same valid extension",
+    "either_tilted_graph": "L1(dt; H_N^(1/2)) of the corresponding exact density f_t=(L-chi)*f_c/q on that same extension",
+    "paired_positive_local_ordinary": "paired l2 norm of physical-measure L2(dy; H_phi^(1/3)) canonical collar scalars",
+    "paired_positive_local_weak": "paired l2 norm of (F_y,F_phi/sqrt(y)) in physical-measure L2(dy;(H_phi^1)^2), with the original weak load convention",
+    "two_independent_physical_regular_fluxes": "Euclidean norm of the two independent physical normalized scalar regular fluxes"
+  },
+  "stronger_source_to_original_base_source_embeddings_have_norm_one": true,
+  "full_positive_Piola_height_gradient_and_mean_charge_retained": true,
+  "independent_boundary_vector_trace_not_bounded_by_bulk_vector_norm": true,
+  "bounds": {
+    "strict_HN1_Cauchy_amplitude_and_inverse": {
+      "ball": "[4.1624124159067341800749806193862735636329796664495e+57 +/- 4.28e+7]",
+      "lower": "[4.1624124159067341800749806193862735636329796664495e+57 +/- 4.28e+7]",
+      "upper": "[4.1624124159067341800749806193862735636329796664495e+57 +/- 4.28e+7]"
+    },
+    "strict_L1_HNhalf_source_to_HN1_amplitude": {
+      "ball": "[2.4597830737427495812281285502397892152202795645606e+53 +/- 2.86e+3]",
+      "lower": "[2.4597830737427495812281285502397892152202795645606e+53 +/- 2.86e+3]",
+      "upper": "[2.4597830737427495812281285502397892152202795645606e+53 +/- 2.86e+3]"
+    },
+    "same_model_HN1_norm": {
+      "ball": "[2.8196376089264740257850051551807495301691047272255e+58 +/- 2.81e+8]",
+      "lower": "[2.8196376089264740257850051551807495301691047272255e+58 +/- 2.81e+8]",
+      "upper": "[2.8196376089264740257850051551807495301691047272255e+58 +/- 2.81e+8]"
+    },
+    "full_scattering_strong_four_thirds": {
+      "ball": "[2.9831089136050007166345338964792087847346952060790e+130 +/- 4.49e+78]",
+      "lower": "[2.9831089136050007166345338964792087847346952060790e+130 +/- 4.49e+78]",
+      "upper": "[2.9831089136050007166345338964792087847346952060790e+130 +/- 4.49e+78]"
+    },
+    "model_left_triangle_HN1": {
+      "ball": "[2.8196376089264740257850051551807495301691047272255e+58 +/- 2.81e+8]",
+      "lower": "[2.8196376089264740257850051551807495301691047272255e+58 +/- 2.81e+8]",
+      "upper": "[2.8196376089264740257850051551807495301691047272255e+58 +/- 2.81e+8]"
+    },
+    "triangle_cap_and_scattering_base_to_HN1_correction": {
+      "ball": "[2.9831089136050007166345338964792087847346952060790e+130 +/- 4.49e+78]",
+      "lower": "[2.9831089136050007166345338964792087847346952060790e+130 +/- 4.49e+78]",
+      "upper": "[2.9831089136050007166345338964792087847346952060790e+130 +/- 4.49e+78]"
+    },
+    "actual_final_Q_HN1": {
+      "ball": "[154711.95352833405019366705972159957315808931399928 +/- 4.59e-45]",
+      "lower": "[154711.95352833405019366705972159957315808931399928 +/- 4.59e-45]",
+      "upper": "[154711.95352833405019366705972159957315808931399928 +/- 4.59e-45]"
+    },
+    "complete_final_Q_then_HN1_to_unscaled_H1": {
+      "ball": "[162227241382.92640501587463081463599402381666051610 +/- 4.23e-39]",
+      "lower": "[162227241382.92640501587463081463599402381666051610 +/- 4.23e-39]",
+      "upper": "[162227241382.92640501587463081463599402381666051610 +/- 4.23e-39]"
+    },
+    "exact_high_inverse_H1_to_L2": {
+      "ball": "[15.941268216560584814108115913198890712484933218699 +/- 4.04e-49]",
+      "lower": "[15.941268216560584814108115913198890712484933218699 +/- 4.04e-49]",
+      "upper": "[15.941268216560584814108115913198890712484933218699 +/- 4.04e-49]"
+    },
+    "full_physical_boundary_amplitude_reconstruction_L2": {
+      "ball": "[124.03620271358473409128820017526649941077118888596 +/- 4.48e-48]",
+      "lower": "[124.03620271358473409128820017526649941077118888596 +/- 4.48e-48]",
+      "upper": "[124.03620271358473409128820017526649941077118888596 +/- 4.48e-48]"
+    }
+  },
+  "complete_near_endpoint_raw_base_columns": {
+    "strict_core": {
+      "ball": "[6.1050103130243410445382887945423657840632706190146e+64 +/- 4e+11]",
+      "lower": "[6.1050103130243410445382887945423657840632706190146e+64 +/- 4e+11]",
+      "upper": "[6.1050103130243410445382887945423657840632706190146e+64 +/- 4e+11]"
+    },
+    "either_canonical_root": {
+      "ball": "[7.4456448977317042507648027675124160681485549954054e+66 +/- 1.90e+15]",
+      "lower": "[7.4456448977317042507648027675124160681485549954054e+66 +/- 1.90e+15]",
+      "upper": "[7.4456448977317042507648027675124160681485549954054e+66 +/- 1.90e+15]"
+    },
+    "either_tilted_graph": {
+      "ball": "[6.9711342242665561545774354901117080871507974336309e+52 +/- 1.81e+2]",
+      "lower": "[6.9711342242665561545774354901117080871507974336309e+52 +/- 1.81e+2]",
+      "upper": "[6.9711342242665561545774354901117080871507974336309e+52 +/- 1.81e+2]"
+    }
+  },
+  "complete_near_endpoint_raw_HN1_columns": {
+    "strict_core": {
+      "ball": "[7.2820956161752511952325186049704673671149525268969e+88 +/- 3.14e+38]",
+      "lower": "[7.2820956161752511952325186049704673671149525268969e+88 +/- 3.14e+38]",
+      "upper": "[7.2820956161752511952325186049704673671149525268969e+88 +/- 3.14e+38]"
+    },
+    "either_canonical_root": {
+      "ball": "[7.4456448977317042507648027675124160681485549954054e+66 +/- 1.90e+15]",
+      "lower": "[7.4456448977317042507648027675124160681485549954054e+66 +/- 1.90e+15]",
+      "upper": "[7.4456448977317042507648027675124160681485549954054e+66 +/- 1.90e+15]"
+    },
+    "either_tilted_graph": {
+      "ball": "[6.9711342242665561545774354901117080871507974336309e+52 +/- 1.81e+2]",
+      "lower": "[6.9711342242665561545774354901117080871507974336309e+52 +/- 1.81e+2]",
+      "upper": "[6.9711342242665561545774354901117080871507974336309e+52 +/- 1.81e+2]"
+    }
+  },
+  "original_affine_base_columns": {
+    "strict_core": {
+      "ball": "[8.6337883831066374619719235178303617562506501470378e+64 +/- 3.03e+14]",
+      "lower": "[8.6337883831066374619719235178303617562506501470378e+64 +/- 3.03e+14]",
+      "upper": "[8.6337883831066374619719235178303617562506501470378e+64 +/- 3.03e+14]"
+    },
+    "either_canonical_root": {
+      "ball": "[1.0529731994986212435283887793613067836125410606877e+67 +/- 1.52e+17]",
+      "lower": "[1.0529731994986212435283887793613067836125410606877e+67 +/- 1.52e+17]",
+      "upper": "[1.0529731994986212435283887793613067836125410606877e+67 +/- 1.52e+17]"
+    },
+    "either_tilted_graph": {
+      "ball": "[9.8586725650810088804438308851296768774513748334894e+52 +/- 1.29e+2]",
+      "lower": "[9.8586725650810088804438308851296768774513748334894e+52 +/- 1.29e+2]",
+      "upper": "[9.8586725650810088804438308851296768774513748334894e+52 +/- 1.29e+2]"
+    },
+    "paired_positive_local_ordinary": {
+      "ball": "[939.34957567709315658169741897958520994350111824137 +/- 3.72e-48]",
+      "lower": "[939.34957567709315658169741897958520994350111824137 +/- 3.72e-48]",
+      "upper": "[939.34957567709315658169741897958520994350111824137 +/- 3.72e-48]"
+    },
+    "paired_positive_local_weak": {
+      "ball": "[469.62737391637962300482392379832024187731872476772 +/- 2.82e-48]",
+      "lower": "[469.62737391637962300482392379832024187731872476772 +/- 2.82e-48]",
+      "upper": "[469.62737391637962300482392379832024187731872476772 +/- 2.82e-48]"
+    },
+    "two_independent_physical_regular_fluxes": {
+      "ball": "[3.7647550202570942501675815027180434168306323510700 +/- 1.23e-50]",
+      "lower": "[3.7647550202570942501675815027180434168306323510700 +/- 1.23e-50]",
+      "upper": "[3.7647550202570942501675815027180434168306323510700 +/- 1.23e-50]"
+    }
+  },
+  "original_affine_HN1_columns": {
+    "strict_core": {
+      "ball": "[1.8211910682433367370354845712110298975379049685597e+195 +/- 3.72e+145]",
+      "lower": "[1.8211910682433367370354845712110298975379049685597e+195 +/- 3.72e+145]",
+      "upper": "[1.8211910682433367370354845712110298975379049685597e+195 +/- 3.72e+145]"
+    },
+    "either_canonical_root": {
+      "ball": "[2.2211169661961040932070412118824542736967808319512e+197 +/- 2.19e+147]",
+      "lower": "[2.2211169661961040932070412118824542736967808319512e+197 +/- 2.19e+147]",
+      "upper": "[2.2211169661961040932070412118824542736967808319512e+197 +/- 2.19e+147]"
+    },
+    "either_tilted_graph": {
+      "ball": "[2.0795652642346445753971745569811739288495135849465e+183 +/- 5.63e+132]",
+      "lower": "[2.0795652642346445753971745569811739288495135849465e+183 +/- 5.63e+132]",
+      "upper": "[2.0795652642346445753971745569811739288495135849465e+183 +/- 5.63e+132]"
+    },
+    "paired_positive_local_ordinary": {
+      "ball": "[1046380607911.2836291285852985731535057905929155581 +/- 2.47e-38]",
+      "lower": "[1046380607911.2836291285852985731535057905929155581 +/- 2.47e-38]",
+      "upper": "[1046380607911.2836291285852985731535057905929155581 +/- 2.47e-38]"
+    },
+    "paired_positive_local_weak": {
+      "ball": "[523137488524.84684082801693720950237396738305544154 +/- 3.38e-39]",
+      "lower": "[523137488524.84684082801693720950237396738305544154 +/- 3.38e-39]",
+      "upper": "[523137488524.84684082801693720950237396738305544154 +/- 3.38e-39]"
+    },
+    "two_independent_physical_regular_fluxes": {
+      "ball": "[3.7647550202570942501675815027180434168306323510700 +/- 1.23e-50]",
+      "lower": "[3.7647550202570942501675815027180434168306323510700 +/- 1.23e-50]",
+      "upper": "[3.7647550202570942501675815027180434168306323510700 +/- 1.23e-50]"
+    }
+  },
+  "full_final_source_L2_columns": {
+    "strict_core": {
+      "ball": "[1.0709023260732078593335198129097567199871713140481e+67 +/- 4.66e+17]",
+      "lower": "[1.0709023260732078593335198129097567199871713140481e+67 +/- 4.66e+17]",
+      "upper": "[1.0709023260732078593335198129097567199871713140481e+67 +/- 4.66e+17]"
+    },
+    "either_canonical_root": {
+      "ball": "[1.3060679722498288385325502501636797021820943808474e+69 +/- 2.38e+19]",
+      "lower": "[1.3060679722498288385325502501636797021820943808474e+69 +/- 2.38e+19]",
+      "upper": "[1.3060679722498288385325502501636797021820943808474e+69 +/- 2.38e+19]"
+    },
+    "either_tilted_graph": {
+      "ball": "[1.2228323087692444047049347423084554456710222549934e+55 +/- 1.82e+5]",
+      "lower": "[1.2228323087692444047049347423084554456710222549934e+55 +/- 1.82e+5]",
+      "upper": "[1.2228323087692444047049347423084554456710222549934e+55 +/- 1.82e+5]"
+    },
+    "paired_positive_local_ordinary": {
+      "ball": "[116513.35438760373072088797269496349431637710111190 +/- 3.69e-45]",
+      "lower": "[116513.35438760373072088797269496349431637710111190 +/- 3.69e-45]",
+      "upper": "[116513.35438760373072088797269496349431637710111190 +/- 3.69e-45]"
+    },
+    "paired_positive_local_weak": {
+      "ball": "[58250.796150940518765819916429461809317230721327016 +/- 1.44e-46]",
+      "lower": "[58250.796150940518765819916429461809317230721327016 +/- 1.44e-46]",
+      "upper": "[58250.796150940518765819916429461809317230721327016 +/- 1.44e-46]"
+    },
+    "two_independent_physical_regular_fluxes": {
+      "ball": "[466.96591685959474439582559514143098920288590109630 +/- 3.18e-50]",
+      "lower": "[466.96591685959474439582559514143098920288590109630 +/- 3.18e-50]",
+      "upper": "[466.96591685959474439582559514143098920288590109630 +/- 3.18e-50]"
+    },
+    "negative_five_space_direct_sum": {
+      "ball": "[1.8470900842819654546755681435529103685891429649386e+69 +/- 2.40e+19]",
+      "lower": "[1.8470900842819654546755681435529103685891429649386e+69 +/- 2.40e+19]",
+      "upper": "[1.8470900842819654546755681435529103685891429649386e+69 +/- 2.40e+19]"
+    }
+  },
+  "full_final_source_H1_columns": {
+    "strict_core": {
+      "ball": "[8.3305291726708199589309315011885116747657559795038e+264 +/- 1.65e+214]",
+      "lower": "[8.3305291726708199589309315011885116747657559795038e+264 +/- 1.65e+214]",
+      "upper": "[8.3305291726708199589309315011885116747657559795038e+264 +/- 1.65e+214]"
+    },
+    "either_canonical_root": {
+      "ball": "[1.0159878337564129196527539150726752990179615426983e+267 +/- 3.84e+217]",
+      "lower": "[1.0159878337564129196527539150726752990179615426983e+267 +/- 3.84e+217]",
+      "upper": "[1.0159878337564129196527539150726752990179615426983e+267 +/- 3.84e+217]"
+    },
+    "either_tilted_graph": {
+      "ball": "[9.5123896675430515072325228938780723886790423043440e+252 +/- 2.07e+202]",
+      "lower": "[9.5123896675430515072325228938780723886790423043440e+252 +/- 2.07e+202]",
+      "upper": "[9.5123896675430515072325228938780723886790423043440e+252 +/- 2.07e+202]"
+    },
+    "paired_positive_local_ordinary": {
+      "ball": "[4.5459027066917434487711233618285103497521243384227e+144 +/- 2.19e+94]",
+      "lower": "[4.5459027066917434487711233618285103497521243384227e+144 +/- 2.19e+94]",
+      "upper": "[4.5459027066917434487711233618285103497521243384227e+144 +/- 2.19e+94]"
+    },
+    "paired_positive_local_weak": {
+      "ball": "[2.2727218976855992738111829131614737971578735502191e+144 +/- 1.36e+94]",
+      "lower": "[2.2727218976855992738111829131614737971578735502191e+144 +/- 1.36e+94]",
+      "upper": "[2.2727218976855992738111829131614737971578735502191e+144 +/- 1.36e+94]"
+    },
+    "two_independent_physical_regular_fluxes": {
+      "ball": "[1.8219213038215245610288708566968017574709060819045e+142 +/- 4.73e+92]",
+      "lower": "[1.8219213038215245610288708566968017574709060819045e+142 +/- 4.73e+92]",
+      "upper": "[1.8219213038215245610288708566968017574709060819045e+142 +/- 4.73e+92]"
+    },
+    "negative_five_space_direct_sum": {
+      "ball": "[1.4368479231979958536105965546675422104816972366277e+267 +/- 3.42e+217]",
+      "lower": "[1.4368479231979958536105965546675422104816972366277e+267 +/- 3.42e+217]",
+      "upper": "[1.4368479231979958536105965546675422104816972366277e+267 +/- 3.42e+217]"
+    }
+  },
+  "zero_final_head_high_L2_particular_columns": {
+    "strict_core": {
+      "ball": "[1.3279919992742808618964799193800767649057623844903e+266 +/- 1.11e+216]",
+      "lower": "[1.3279919992742808618964799193800767649057623844903e+266 +/- 1.11e+216]",
+      "upper": "[1.3279919992742808618964799193800767649057623844903e+266 +/- 1.11e+216]"
+    },
+    "either_canonical_root": {
+      "ball": "[1.6196134562673344513154653853533875418937203815740e+268 +/- 4.23e+218]",
+      "lower": "[1.6196134562673344513154653853533875418937203815740e+268 +/- 4.23e+218]",
+      "upper": "[1.6196134562673344513154653853533875418937203815740e+268 +/- 4.23e+218]"
+    },
+    "either_tilted_graph": {
+      "ball": "[1.5163955507074335499740029539145532928913422112014e+254 +/- 6.88e+203]",
+      "lower": "[1.5163955507074335499740029539145532928913422112014e+254 +/- 6.88e+203]",
+      "upper": "[1.5163955507074335499740029539145532928913422112014e+254 +/- 6.88e+203]"
+    },
+    "paired_positive_local_ordinary": {
+      "ball": "[7.2467454333761824373305705085544265280239039349689e+145 +/- 4.70e+95]",
+      "lower": "[7.2467454333761824373305705085544265280239039349689e+145 +/- 4.70e+95]",
+      "upper": "[7.2467454333761824373305705085544265280239039349689e+145 +/- 4.70e+95]"
+    },
+    "paired_positive_local_weak": {
+      "ball": "[3.6230069352656701047052417461746661792795275067835e+145 +/- 4.19e+94]",
+      "lower": "[3.6230069352656701047052417461746661792795275067835e+145 +/- 4.19e+94]",
+      "upper": "[3.6230069352656701047052417461746661792795275067835e+145 +/- 4.19e+94]"
+    },
+    "two_independent_physical_regular_fluxes": {
+      "ball": "[2.9043736173684690236815296767009395566231395030770e+143 +/- 1.83e+93]",
+      "lower": "[2.9043736173684690236815296767009395566231395030770e+143 +/- 1.83e+93]",
+      "upper": "[2.9043736173684690236815296767009395566231395030770e+143 +/- 1.83e+93]"
+    },
+    "negative_five_space_direct_sum": {
+      "ball": "[2.2905178130107295501989972613834345493478277183346e+268 +/- 1.78e+218]",
+      "lower": "[2.2905178130107295501989972613834345493478277183346e+268 +/- 1.78e+218]",
+      "upper": "[2.2905178130107295501989972613834345493478277183346e+268 +/- 1.78e+218]"
+    }
+  },
+  "reconstructed_physical_boundary_amplitude_L2_columns_for_that_particular": {
+    "strict_core": {
+      "ball": "[1.6471908482400337206842178770776419032982401522810e+268 +/- 3.06e+218]",
+      "lower": "[1.6471908482400337206842178770776419032982401522810e+268 +/- 3.06e+218]",
+      "upper": "[1.6471908482400337206842178770776419032982401522810e+268 +/- 3.06e+218]"
+    },
+    "either_canonical_root": {
+      "ball": "[2.0089070297922469952612231499497059736134983836357e+270 +/- 2.49e+220]",
+      "lower": "[2.0089070297922469952612231499497059736134983836357e+270 +/- 2.49e+220]",
+      "upper": "[2.0089070297922469952612231499497059736134983836357e+270 +/- 2.49e+220]"
+    },
+    "either_tilted_graph": {
+      "ball": "[1.8808794592152518653492902729908050305246368801850e+256 +/- 3.76e+206]",
+      "lower": "[1.8808794592152518653492902729908050305246368801850e+256 +/- 3.76e+206]",
+      "upper": "[1.8808794592152518653492902729908050305246368801850e+256 +/- 3.76e+206]"
+    },
+    "paired_positive_local_ordinary": {
+      "ball": "[8.9885878558799261988858719859354972504354285752598e+147 +/- 4.97e+97]",
+      "lower": "[8.9885878558799261988858719859354972504354285752598e+147 +/- 4.97e+97]",
+      "upper": "[8.9885878558799261988858719859354972504354285752598e+147 +/- 4.97e+97]"
+    },
+    "paired_positive_local_weak": {
+      "ball": "[4.4938402265533602128502671902810698988274192123090e+147 +/- 8.62e+96]",
+      "lower": "[4.4938402265533602128502671902810698988274192123090e+147 +/- 8.62e+96]",
+      "upper": "[4.4938402265533602128502671902810698988274192123090e+147 +/- 8.62e+96]"
+    },
+    "two_independent_physical_regular_fluxes": {
+      "ball": "[3.6024747475990280770373678706539215832165850031953e+145 +/- 2.87e+95]",
+      "lower": "[3.6024747475990280770373678706539215832165850031953e+145 +/- 2.87e+95]",
+      "upper": "[3.6024747475990280770373678706539215832165850031953e+145 +/- 2.87e+95]"
+    },
+    "negative_five_space_direct_sum": {
+      "ball": "[2.8410713177367562318447239835423071529659478674607e+270 +/- 2.46e+219]",
+      "lower": "[2.8410713177367562318447239835423071529659478674607e+270 +/- 2.46e+219]",
+      "upper": "[2.8410713177367562318447239835423071529659478674607e+270 +/- 2.46e+219]"
+    }
+  },
+  "high_projection": "abs(n)>=N on both root-circle copies; zero on both independent regular slots",
+  "exact_nonzero_head_equation": "u_H=A_H^-1*(P_H*g-A_HL*u_L); all head equations and Schur terms remain",
+  "zero_final_head_does_not_mean_zero_physical_head": true,
+  "high_particular_is_not_a_solution_of_the_unpaid_finite_head_equations": true,
+  "all_four_branches_both_means_regular_rows_and_all_high_head_crossings_retained": true,
+  "full_finite_head_inverse_proved": false,
+  "full_feedback_inverse_proved": false,
+  "full_Ctwo_surface_reconstructed": false,
+  "positive_fixed_angular_weight_proved": false,
+  "new_deep_tail_profile_transfer_proved": false,
+  "numerically_tractable_cutoff_proved": false,
+  "gates": [
+    {
+      "name": "the complete actual original scattering is onto",
+      "passed": true
+    },
+    {
+      "name": "all final means, finite head crossings and regular rows were retained",
+      "passed": true
+    },
+    {
+      "name": "same full physical-to-averaged root normalization at source order zero",
+      "passed": true
+    },
+    {
+      "name": "full cap reflection and both strong source endpoints are present",
+      "passed": true
+    },
+    {
+      "name": "old high inverse genuinely includes s zero",
+      "passed": true
+    },
+    {
+      "name": "same actual parameter scope for the normal form and high inverse",
+      "passed": true
+    }
+  ],
+  "dependencies": {
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "fourfold_phase_root_fourier_fit.py": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604",
+    "fourfold_negative_collar_root_fourier_budget.py": "08866307bf0de20183db15387f16ec0f2f3a65d67bfec6e9229b27a65a902b9b",
+    "fourfold_negative_canonical_cancellation_chart.py": "650ceef0ea91bdf5f4ef86d114fb6dc412bef3a0b4b915910135357967ec0c8d"
+  },
+  "seconds": 0.12864813200212666
+}

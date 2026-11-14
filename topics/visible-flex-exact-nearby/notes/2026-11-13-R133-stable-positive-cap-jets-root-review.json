@@ -1,0 +1,31 @@
+{
+  "kind": "root_stable_positive_cap_jets_math_and_complete_three_box_replay",
+  "complete": true,
+  "whole_three_closed_box_native_rerun": true,
+  "whole_json_equal_except_wall_seconds": true,
+  "input_and_source_sha256_checks": {
+    "results/R133-supplement-stable-positive-cap-first-jets.md": true,
+    "scripts/fourfold_codazzi_positive_cap_stable_jets.py": true,
+    "notes/2026-11-13-R133-positive-cap-stable-jets-pilot-native.json.gz": true,
+    "notes/2026-11-13-R133-positive-cap-stable-jets-independent-phase-review.json": true,
+    "scripts/fourfold_codazzi_rotational_cap_jacobi.py": true,
+    "scripts/fourfold_phase_cap_scaled_body.py": true,
+    "scripts/fourfold_phase_metric_defect.py": true,
+    "scripts/fourfold_phase_beta_bulk_box.py": true,
+    "scripts/fourfold_phase_beta_bulk_interval.py": true,
+    "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json": true,
+    "notes/2026-11-13-Codazzi-rotational-positive-cap-v2-native.json.gz": true
+  },
+  "manual_checks": [
+    "exact cancellation K=N/Ebar squared and lambda=N/(Ebar R)",
+    "Nprime quotient derivative includes derivative of a inverse squared",
+    "second L and H derivatives use the same actual scalar polynomial germ",
+    "all finite e second derivative zero convolutions including both quadratic terms",
+    "all three-coordinate infinite primitive Cauchy fees through derivative three",
+    "positive denominators and real-enclosure checks before division",
+    "full parameter interval and no crossing actual C2 scalar seams"
+  ],
+  "original_native_wall_seconds": 24.419704956002533,
+  "root_replay_wall_seconds": 26.91335982400051,
+  "scope": "Only the three saved closed radial boxes are recomputed. The formula provider is valid on any checked actual germ, but no uncomputed span or nonlinear PDE contraction is inferred."
+}

@@ -1,0 +1,115 @@
+{
+  "kind": "actual_one_leaf_chosen_weak_source_lower_bound",
+  "complete": true,
+  "source_sha256": "f0f8398d7a07c0148ddd47cab5698d6cee4604060c95f368f17339a85dc6b74a",
+  "input_report": {
+    "path": "data/native_core_20261113_ac0d/core_source_leaf0060_exact_time.json",
+    "sha256": "b5b7016dcf676c27cd207ad37aa39e14a9d551dce1b5528f4145fa9d7be9f465"
+  },
+  "input_array": {
+    "path": "data/native_core_20261113_ac0d/core_source_leaf0060_exact_time.npz",
+    "sha256": "2a97ad011c1f0feb73a664b3f3fce13f683d560653aed80ac0b80cc9f0856dec",
+    "bytes": 2973
+  },
+  "exact_physical_interval": [
+    "6112257798907291/72057594037927936",
+    "6124895493223875/72057594037927936"
+  ],
+  "exact_parameter_interval": [
+    "-15214546326135873881617/9007199254740992000000000",
+    "-15214528311737364399633/9007199254740992000000000"
+  ],
+  "identity": {
+    "object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+    "affine_arithmetic": "Arb encloses c0+exact_delta*v and alpha0+exact_delta*w before all fixed base weights",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "uniform_in_the_entire_real_parameter_interval": true,
+    "parameter_arithmetic": "First form complete exact center and direction scalar polynomials; then add the single p in [-eta,eta]. No independent raw-control parameter intervals are introduced.",
+    "exact_delta_fraction_scope": "The exact_delta_fraction field names the center only; all bounds cover the separately stated whole exact_parameter_interval.",
+    "modes": 4,
+    "primitive_nodes": 512,
+    "angular_nodes": 1024,
+    "bits": 192,
+    "native_order": 32,
+    "native_radius": "1/64",
+    "outer_radius": "3",
+    "sample_radius": "5/4",
+    "time_nodes": 40,
+    "time_terms": 24,
+    "flow_degree": 32,
+    "normalized_angular_strip": "1/16",
+    "momentum_scale": "8",
+    "worker_source_sha256": "569ffd0e582865d840cdb5a31241da50609f0c3ad049b1d8850992b8bbbaa000",
+    "dependency_sha256": {
+      "fourfold_phase_core_cell_flow.py": "4db55a8c06b1770566416dbc7e7f81a4f004a6e12d8b517ce5007b6e0c7933d4",
+      "fourfold_phase_core_radial_taylor.py": "5303121d11a2af4cd39e67c50a6d23babe6f73e9873f2cf369b93584d983037c",
+      "fourfold_phase_core_waist_taylor.py": "09989f34a57e62e215aacb122926c0ef595332dd00f6b25246bc8dce6ecf9480",
+      "fourfold_phase_core_parameter_taylor.py": "5348dfb57db8296291b9c95dd884a189e9176f3765fc21c114ca6317ca7b1d06",
+      "fourfold_phase_beta_parameter_germ.py": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+      "fourfold_native_series_fft.py": "bcf9d5c43f2ebc5669fcf89f785e5da0b6acac5ec901581103006c6dc04d1289",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_core_low_coefficients.py": "ba2f5c93fbe7d1cdc0ddd21775f54c4e5e56d542d94fb69b985a3bfe42751990",
+      "fourfold_phase_actual_positive_cap.py": "1e8418174f54bd1d22dd628ef7f7e6525ca6b43cbcf7a2307d29f9d467e1612b"
+    }
+  },
+  "exact_unit_input": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "normalization": "The same five normalized paired cosine height inputs as the completed source producer; positive radial leaf only.",
+  "component": "Rr in L2(dr; H^(3/2)(physical 4Z))",
+  "finite_Gram_Rayleigh_lower": {
+    "ball": "[3273.5704487492382862880031191656916 +/- 4.97e-32]",
+    "lower": "[3273.5704487492382862880031191656916 +/- 4.97e-32]",
+    "upper": "[3273.5704487492382862880031191656916 +/- 4.97e-32]",
+    "mid_float": 3273.5704487492385,
+    "radius_upper_float": 0.0
+  },
+  "finite_source_norm_lower": {
+    "ball": "[57.215124300740956148612737551559637 +/- 4.42e-34]",
+    "lower": "[57.215124300740956148612737551559637 +/- 4.42e-34]",
+    "upper": "[57.215124300740956148612737551559637 +/- 4.42e-34]",
+    "mid_float": 57.21512430074095,
+    "radius_upper_float": 0.0
+  },
+  "complete_true_minus_finite_operator_upper": {
+    "ball": "[25.657470442465805371586477696971286 +/- 4.49e-34]",
+    "lower": "[25.657470442465805371586477696971286 +/- 4.49e-34]",
+    "upper": "[25.657470442465805371586477696971286 +/- 4.49e-34]",
+    "mid_float": 25.657470442465804,
+    "radius_upper_float": 0.0
+  },
+  "actual_source_norm_lower": {
+    "ball": "[31.557653858275150777026259854588350 +/- 1.11e-34]",
+    "lower": "[31.557653858275150777026259854588350 +/- 1.11e-34]",
+    "upper": "[31.557653858275150777026259854588350 +/- 1.11e-34]",
+    "mid_float": 31.557653858275152,
+    "radius_upper_float": 0.0
+  },
+  "complete_three_source_operator_lower": {
+    "ball": "[31.557653858275150777026259854588350 +/- 1.11e-34]",
+    "lower": "[31.557653858275150777026259854588350 +/- 1.11e-34]",
+    "upper": "[31.557653858275150777026259854588350 +/- 1.11e-34]",
+    "mid_float": 31.557653858275152,
+    "radius_upper_float": 0.0
+  },
+  "exact_upper_report_preserved": true,
+  "intrinsic_PDE_residual_lower_bound": false,
+  "no_global_inverse_obstruction_claimed": true,
+  "scope": "This proves the saved weak flux representation of the existing finite-core reference is not small in the R107/R110 strong source norm. Equivalent solenoidal gauges, a better reference, or an actual full solver can change this quantity. No failure of the geometric construction or the true PDE inverse follows."
+}

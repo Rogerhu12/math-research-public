@@ -1,0 +1,107 @@
+{
+  "kind": "actual_whole_positive_reference_curvature_floor_and_complete_frame",
+  "complete": true,
+  "arithmetic": "executed normalized BigInt rational inequalities; scalar comparison proved in accompanying text",
+  "source": "scripts/fourfold_codazzi_whole_positive_reference_floor.mjs",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "inputs": [
+    {
+      "path": "results/R133-supplement-current-moving-body-physical-complex-germ.md",
+      "git_blob": "bfe73ee59142618bc7e36d5e3fe06929d9fb68cb"
+    },
+    {
+      "path": "results/R133-supplement-current-moving-positive-root-Riccati-and-full-head.md",
+      "git_blob": "3edf335784786da9a4a515b28d364d8ad2914e24"
+    },
+    {
+      "path": "results/R133-supplement-global-positive-reference-and-current-collar.md",
+      "git_blob": "5e89a2ec36f36f2852d47738bc46373fdacf67d1"
+    },
+    {
+      "path": "results/R133-supplement-full-compact-metric-curvature-type.md",
+      "git_blob": "15de90fc2e61c0d15df47a1a636675c8f0397122"
+    },
+    {
+      "path": "results/R133-actual-rotational-positive-cap-and-Codazzi-Jacobi-graph.md",
+      "git_blob": "1f0c66859862fbe6280fdce466f98dd10cc4a17f"
+    }
+  ],
+  "domain": [
+    "1192029371497/5000000000000",
+    "25/8"
+  ],
+  "whole_original_eta": true,
+  "compact_nu_bump_exactly_zero": true,
+  "actual_intrinsic": {
+    "K_lower": "1/2000",
+    "K_upper": "4",
+    "K_at_fixed_cut_lower": "537694185560576067/1000000000000000000000"
+  },
+  "complete_reference": {
+    "speed": "any positive bounded radial extension; actual body speed still requires full coefficient cover",
+    "p_final": "same actual exterior datum in (1/8,1/5)",
+    "g_root": "M^-1/3",
+    "p_lower_on_domain": "1/45",
+    "W_lower_on_domain": "1/45",
+    "W_upper": "4",
+    "physical_minimum": 388,
+    "ordinary_Hthird_source_to_canonical_L2_frame": "5",
+    "canonical_L2_to_raw_L2_frame": "5",
+    "first_angular_reconstruction_frame": "50001/10000"
+  },
+  "execution_scope": {
+    "reference_gates_actually_executed": 11,
+    "actual_candidate_body_field_producer_executed": false,
+    "actual_complete_positive_coefficient_cover": false,
+    "actual_positive_high_Volterra_gate_executed": false,
+    "actual_whole_positive_inverse": false,
+    "global_BVP_inverse": false
+  },
+  "gates": [
+    {
+      "name": "fixed_cut_inside_every_paid_root_piece",
+      "passed": true
+    },
+    {
+      "name": "full_true_root_to_cut_stays_in_joint_germ",
+      "passed": true
+    },
+    {
+      "name": "fixed_cut_same_actual_PPoly_piece2549",
+      "passed": true
+    },
+    {
+      "name": "fixed_cut_has_positive_uniform_root_distance",
+      "passed": true
+    },
+    {
+      "name": "actual_K_at_fixed_cut_above_one_over2000",
+      "passed": true,
+      "exact_K_lower": "537694185560576067/1000000000000000000000"
+    },
+    {
+      "name": "same_intrinsic_monotone_bridge_to_cap",
+      "passed": true
+    },
+    {
+      "name": "entire_actual_positive_interval_curvature_floor",
+      "passed": true
+    },
+    {
+      "name": "entire_actual_positive_interval_curvature_upper",
+      "passed": true
+    },
+    {
+      "name": "global_positive_p_barrier",
+      "passed": true
+    },
+    {
+      "name": "complete_source_and_reconstruction_frame5",
+      "passed": true
+    },
+    {
+      "name": "H1_reconstruction_frame50001over10000",
+      "passed": true
+    }
+  ]
+}

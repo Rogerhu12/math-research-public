@@ -1,0 +1,217 @@
+{
+  "schema": "visible-exact-R119-balanced-actual-label-domain-v1",
+  "scope": "Actual all-label nonlinear continuation across the entire installed connector and both fixed bumps, with internal label weight 224; not the mixed-tail relative inverse.",
+  "inputs": {
+    "label_weight": 224,
+    "label_ball_radius": "1/4",
+    "full_angular_fee_upper": "14825/64",
+    "raw_output_width": "777/400",
+    "grounded_output_width": "377/400",
+    "relative_state_upper_power_of_2": -447,
+    "physical_C2_to_label_upper_power_of_2": -428,
+    "file_sha256": {
+      "results/R11-matched-mode-four-physical-tail-connector.md": "8c4e30ef3cac88ff3e7c858c77537bf03d102760b2324e1e1d21780cf59923ca",
+      "results/R69-actual-closed-approximate-exterior-and-two-held-disks.md": "c1c33adcf81b6546b68b0f7a6c1ded7ae1c56b35dfb279c7abd1496798dad6de",
+      "results/R119-actual-final-connector-all-label-continuation.md": "8b4f7d46321709e9151abb930748d1d28545a5b41b1329813cd7301747c8a083",
+      "results/R119-supplement-two-bumps-and-exact-nonlinear-matching.md": "db98a77d0b294bfad27677e670ef7c73f5acb33907950b2a38a52036e519c702",
+      "results/R15-supplement-actual-dominant-cone-and-exponential-label-weight.md": "25b9159e0d83eaa030a362b3feffe5ad5a6a7578a064c555b36a411a42fa6a5b",
+      "results/R119-supplement-joint-tail-label-schur-normalization.md": "966dd0a1d3c92353908c8cc3e8b7dcd723ce30947ce3316fe437bdd92a24cd38",
+      "results/R119-supplement-balanced-connector-label-domain-224.md": "aff48a37b08cb41e6eb1ddd8c014687242f744e6cb9e638201c0781df46222d1",
+      "scripts/fourfold_balanced_connector_label_domain_20261113.py": "8d874d0292ec75c052af83ce7f8efb99cc9ea94c675039b88b4dce82a05bcb21"
+    }
+  },
+  "checks": [
+    {
+      "name": "actual_main_platform_length",
+      "pass": true,
+      "evidence": "La=log(2^360/omega_a)/2, omega_a>2/3, log2<7/10, log(3/2)<1/2"
+    },
+    {
+      "name": "actual_short_groups_total",
+      "pass": true,
+      "evidence": "Both original quintic groups and their true Riccati stopping intervals are included"
+    },
+    {
+      "name": "actual_two_bump_length",
+      "pass": true,
+      "evidence": "Lb=25 omega/8 for the already chosen two bump profile"
+    },
+    {
+      "name": "full_denominator_neumann_inverse",
+      "pass": true,
+      "evidence": "J=1+K+E U, E<=2; the mean belongs to K"
+    },
+    {
+      "name": "full_quadratic_numerator",
+      "pass": true,
+      "evidence": "G<=14(K+U)^2+9(P+V)^2<=14N^2"
+    },
+    {
+      "name": "full_quadratic_remainder",
+      "pass": true,
+      "evidence": "R=G/J"
+    },
+    {
+      "name": "full_P_derivative",
+      "pass": true,
+      "evidence": "J_P=0"
+    },
+    {
+      "name": "full_K_derivative",
+      "pass": true,
+      "evidence": "Includes the J_K=1 denominator derivative"
+    },
+    {
+      "name": "full_U_derivative",
+      "pass": true,
+      "evidence": "Includes the J_U=E<=2 denominator derivative"
+    },
+    {
+      "name": "full_V_derivative",
+      "pass": true,
+      "evidence": "J_V=0"
+    },
+    {
+      "name": "nonlinear_full_four_state_zero_order",
+      "pass": true,
+      "evidence": "The R term plus R_P U+R_K V are retained"
+    },
+    {
+      "name": "nonlinear_full_four_state_angular",
+      "pass": true,
+      "evidence": "Both R_U U_theta and R_V V_theta are retained"
+    },
+    {
+      "name": "balanced_norm_equivalence",
+      "pass": true,
+      "evidence": "N<=Nb<2N since 1<sqrt3<2"
+    },
+    {
+      "name": "bootstrap_nonlinear_coefficient",
+      "pass": true,
+      "evidence": "This bounds each nonlinear coefficient in the moving-strip energy"
+    },
+    {
+      "name": "actual_main_angular_speed_bound",
+      "pass": true,
+      "evidence": "sqrt3<111/64"
+    },
+    {
+      "name": "actual_main_angular_absorption",
+      "pass": true,
+      "evidence": "The actual A=3 block is paid at angular rate 7/4"
+    },
+    {
+      "name": "actual_main_zero_order_damping",
+      "pass": true,
+      "evidence": "Real negative diagonal entries are kept in the Fourier absolute-value energy"
+    },
+    {
+      "name": "actual_short_angular_speed_bound",
+      "pass": true,
+      "evidence": "7/sqrt3<17/4"
+    },
+    {
+      "name": "actual_short_angular_absorption",
+      "pass": true,
+      "evidence": "All A in [-7,3] are included"
+    },
+    {
+      "name": "actual_short_zero_order_growth",
+      "pass": true,
+      "evidence": "Only the total short length <1/2 can contribute this growth"
+    },
+    {
+      "name": "actual_bump_balanced_speed",
+      "pass": true,
+      "evidence": "For 7/8<A<9/8, the balanced angular speed is sqrt3"
+    },
+    {
+      "name": "actual_bump_zero_order_damping",
+      "pass": true,
+      "evidence": "Both diagonal entries are negative on the complete real bump interval"
+    },
+    {
+      "name": "complete_actual_angular_fee",
+      "pass": true,
+      "evidence": "Main platform, both short groups, and both bumps are all paid"
+    },
+    {
+      "name": "only_short_segments_grow",
+      "pass": true,
+      "evidence": "e^(20 Ls)<e^10<2^20 using e<4"
+    },
+    {
+      "name": "complete_initial_relative_state",
+      "pass": true,
+      "evidence": "Initial unbalanced state 2^16 s_* X, then Nb<2N"
+    },
+    {
+      "name": "complete_actual_relative_state",
+      "pass": true,
+      "evidence": "No half-strip sacrifice; mean remains included"
+    },
+    {
+      "name": "bootstrap_closes",
+      "pass": true,
+      "evidence": "X_beta<1, so the first-exit threshold cannot be reached"
+    },
+    {
+      "name": "complete_raw_output_width",
+      "pass": true,
+      "evidence": "Uses the original physical angle and original internal labels"
+    },
+    {
+      "name": "complete_grounded_output_width",
+      "pass": true,
+      "evidence": "One full extra unit is retained for the existing grounded/shear conversion"
+    },
+    {
+      "name": "all_finite_angle_derivatives_paid",
+      "pass": true,
+      "evidence": "For M>=4, all M^j exp(-3M), j<=4, are below 1"
+    },
+    {
+      "name": "actual_physical_window_paid",
+      "pass": true,
+      "evidence": "Both full trace outputs cover the actual downstream physical strip"
+    },
+    {
+      "name": "full_physical_C2_budget",
+      "pass": true,
+      "evidence": "C2<2^-430 X_beta<2^-428 ||a||_ell224 on the complete finite interval"
+    },
+    {
+      "name": "same_chart_actual_larger_weight_output",
+      "pass": true,
+      "evidence": "At beta8192 the improved proof gives raw tau+7957, not a new input domain"
+    },
+    {
+      "name": "actual_R74_linear_label_input",
+      "pass": true,
+      "evidence": "The existing B-after-homogeneous ordinary-source contract is unchanged"
+    },
+    {
+      "name": "base_inverse_still_has_width_gap",
+      "pass": true,
+      "evidence": "No updated mixed-tail relative inverse is asserted"
+    },
+    {
+      "name": "uniform_reweighting_does_not_close",
+      "pass": true,
+      "evidence": "The true width gap remains even on the old stronger label ball"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "all_internal_labels_and_nonlinear_outputs": true,
+    "same_fixed_installed_profile_and_bumps": true,
+    "full_mean_and_holonomy_preserved": true,
+    "actual_physical_angular_window_paid": true,
+    "full_C2_reconstruction_paid": true,
+    "substantive_nonlinear_label_domain_enlargement": true,
+    "same_width_elliptic_Cauchy_bound": false,
+    "updated_mixed_tail_relative_inverse": false,
+    "closed_surface_main_goal": false
+  }
+}

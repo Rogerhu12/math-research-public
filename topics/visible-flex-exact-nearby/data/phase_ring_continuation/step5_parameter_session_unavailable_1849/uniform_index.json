@@ -1,0 +1,442 @@
+{
+  "kind": "actual_complete_forward_parameter_density_inputs",
+  "complete": false,
+  "source_sha256": "62ec86efa70ce9e2ebd1c427e524cd35bb97f99b69db93c5b0f8d337f7dfea00",
+  "pipeline_path": "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_parameter_density_pipeline_efficient_v5.py",
+  "pipeline_sha256": "bee932df5c1d63860a900898cf0b9f288c49462361d08fbf0545bd900ff340fb",
+  "descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+  "g0_index_path": "data/phase_ring_continuation/step5_forward_density_complete/index.json",
+  "pipeline_sources": {
+    "scripts/fourfold_parameter_density_pipeline_l2_v3.py": "613e8c97fbc7b66dac3983212996eb093fb019dd755ebae0775a25e7e24169ef",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_parameter_density_pipeline_efficient_v4.py": "7cd6b61fed53602353e0d18f9ebee8a5f9942b8244fb35b3fb6b37757730df3e",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_parameter_density_pipeline_l2_v2.py": "7268d4fb5e751bb7a5491f361d665277d8ba89e75f7ccea4c8e253346d07e05a",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_parameter_density_pipeline_l2_v3.py": "613e8c97fbc7b66dac3983212996eb093fb019dd755ebae0775a25e7e24169ef",
+    "scripts/fourfold_parameter_density_pipeline_efficient_v5.py": "bee932df5c1d63860a900898cf0b9f288c49462361d08fbf0545bd900ff340fb",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_parameter_density_pipeline_efficient_v5.py": "bee932df5c1d63860a900898cf0b9f288c49462361d08fbf0545bd900ff340fb"
+  },
+  "required_parameter_orders": [
+    2
+  ],
+  "exact_target_delta_fraction": "-7789843107295549/4611686018427387904",
+  "uniform_parameter_half_width": "1/1000000000",
+  "whole_real_parameter_tube": true,
+  "label_strip": "1/256",
+  "inner_strip": "3/1024",
+  "spatial_strip": "7/2048",
+  "completed_segments": 28,
+  "leaves": [
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0000_ef134f2a18_uniform.json.gz",
+      "sha256": "678b0a35c844980b898bfa1030462e4edcafa7c4ffe3540f25441c61f3b50920",
+      "bytes": 316809,
+      "segment": 0,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_pipeline_pilot0/forward_0000_ef134f2a18.json.gz",
+      "g0_report_sha256": "a6c8560ac4b34a53bb4636c55d4e9672c875156df95f3e975b46947bab15be15"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0001_ef134f2a18_uniform.json.gz",
+      "sha256": "096e32ce001cfb3edd0d0aa1850ece72b725a09455a616778c2e6c403cd31557",
+      "bytes": 180753,
+      "segment": 1,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0001_ef134f2a18.json.gz",
+      "g0_report_sha256": "dcfc8e721de4b6c2cb928fdbabc3b8db5c1be9e3f24772a23148efe072c31750"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0002_ef134f2a18_uniform.json.gz",
+      "sha256": "2c4834f924ad16dfe0667f44f386ea6168cdd4aa7eaa1e792910d5dc5498cb69",
+      "bytes": 184506,
+      "segment": 2,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0002_ef134f2a18.json.gz",
+      "g0_report_sha256": "d333912e47a683b018c9af2c0162ec7a8f2939fadacab20895682bdf98f44208"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0003_ef134f2a18_uniform.json.gz",
+      "sha256": "bafe9a7dea74d13892f03aeaa44b24c9eb7aef0ecb02a1c0f7e4c512eeb8abb1",
+      "bytes": 177600,
+      "segment": 3,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0003_ef134f2a18.json.gz",
+      "g0_report_sha256": "135ec493718b72748869ff061d9d3953a32a5284ae7dbe3fc2dbaab2566bccc5"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0004_ef134f2a18_uniform.json.gz",
+      "sha256": "ae6f12c1f7807c61c83de84704a22edf8b107f5a7ed0b4a83890cd1e821f9c99",
+      "bytes": 186425,
+      "segment": 4,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0004_ef134f2a18.json.gz",
+      "g0_report_sha256": "7681bcaeb7912425989a2c491dbf36f267b2c788b184b5a3a3d8715a581b5ba2"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0005_ef134f2a18_uniform.json.gz",
+      "sha256": "cd25db644acfdbe7598690253b79b02092a63673bdd82421d42bf60c478772a4",
+      "bytes": 127810,
+      "segment": 5,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0005_ef134f2a18.json.gz",
+      "g0_report_sha256": "69492ad65a4f225db335c40ac4333c36d98606b9d971f5c77710afc26fc39ab7"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0006_ef134f2a18_uniform.json.gz",
+      "sha256": "39aed790bd03bec73b17c7acda9f2b816b6fde6891115f1583f8a7fc947ae18e",
+      "bytes": 128003,
+      "segment": 6,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0006_ef134f2a18.json.gz",
+      "g0_report_sha256": "3c0eb3357080463a25ca7de7928126e2e746485d30c0eb647e1f0b67e2580c61"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0007_ef134f2a18_uniform.json.gz",
+      "sha256": "abeddc7f5808a1e16f9582752744295e03924b2ae62fb4794fc42549a063e8a3",
+      "bytes": 129110,
+      "segment": 7,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0007_ef134f2a18.json.gz",
+      "g0_report_sha256": "515f0ec85af0f20fc9c497db672b9a00a5703b00024e593d5a25add72a7b5f06"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0008_ef134f2a18_uniform.json.gz",
+      "sha256": "9fbbfc06d231a1d5c05ac79c56b509db285b58c40af10e8e59f4606a5b696673",
+      "bytes": 126373,
+      "segment": 8,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0008_ef134f2a18.json.gz",
+      "g0_report_sha256": "9b3d441b4036e08cdf5c76fc8c7d2ed2edc440bd09bfde3ceac9d4c09552b132"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0009_ef134f2a18_uniform.json.gz",
+      "sha256": "e50b9b72717ce9c51063ac543b5cd650ea2c9d68a7017807e9403f5d8c4eb488",
+      "bytes": 131306,
+      "segment": 9,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0009_ef134f2a18.json.gz",
+      "g0_report_sha256": "864d8b7d090e25639bb849aad9c93e0534b357b0bfc3684180c472a402fe4a4c"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0010_ef134f2a18_uniform.json.gz",
+      "sha256": "56ec9fde8ffb01b6a8017a8d11daab68f086235746c5aee5685bfad9daa2f58d",
+      "bytes": 129074,
+      "segment": 10,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0010_ef134f2a18.json.gz",
+      "g0_report_sha256": "c2e56a940c517c74bfb39194d38a79c292283ae1ee2839bbe6bdc5a61221bb7b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0011_ef134f2a18_uniform.json.gz",
+      "sha256": "b0f1b9c883fc7ae7f0dfb8ec398400861b7edfb66322797291e5fddba570bade",
+      "bytes": 134088,
+      "segment": 11,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0011_ef134f2a18.json.gz",
+      "g0_report_sha256": "5ffa37f68ae67f58e1f2015e81a8ed3dce23af212353f6861aafd60a544edda6"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0012_ef134f2a18_uniform.json.gz",
+      "sha256": "bbb76d2018b79884764126f8f0f8151375f43e296ff0a306843ab50e778ce228",
+      "bytes": 131306,
+      "segment": 12,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0012_ef134f2a18.json.gz",
+      "g0_report_sha256": "1b646c36d238ee23e735d763d7313dbf04cbae81a8df2956fe85bd3869593d94"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0013_ef134f2a18_uniform.json.gz",
+      "sha256": "0d61fef5d6bdf0de96137377ba6fa40759c58f9491ca9f19c0c2c9e7464cb349",
+      "bytes": 133140,
+      "segment": 13,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0013_ef134f2a18.json.gz",
+      "g0_report_sha256": "9c9add9fa4591b81e3a886cbdf2426ff5fab8f46db52a2479731d95639689127"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0014_ef134f2a18_uniform.json.gz",
+      "sha256": "1c36da078bc6ad9e6bd286a17a57b961a3f5e19efcbb9d3231e9bbbe317b94eb",
+      "bytes": 132077,
+      "segment": 14,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0014_ef134f2a18.json.gz",
+      "g0_report_sha256": "315fc31ddd23d332a9c13534f498d75444ec75271f00af28c83ad0b7bab06b1b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0015_ef134f2a18_uniform.json.gz",
+      "sha256": "9355921bbf45824f31c2cb7cb9decda408cae4e640bec0c7fb2f00c4f8049937",
+      "bytes": 132914,
+      "segment": 15,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0015_ef134f2a18.json.gz",
+      "g0_report_sha256": "f54affc453438b11b04bd8b4ce6124f4995a48f21f6d586387c38733118b1d0e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0016_ef134f2a18_uniform.json.gz",
+      "sha256": "72f08342ff40338cd50e8d8a2bdd61e370777710a769bdc12a947a8b8ef54ff5",
+      "bytes": 129760,
+      "segment": 16,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0016_ef134f2a18.json.gz",
+      "g0_report_sha256": "8d951812e57bb0970a1a9d81f7a1485fde7cb0fb143f00e52d7bfe4c58a5f451"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0017_ef134f2a18_uniform.json.gz",
+      "sha256": "a929b8715718a172cec217362c40c955af7d6ef5619df7a43d2ca71db3fc0d01",
+      "bytes": 135020,
+      "segment": 17,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0017_ef134f2a18.json.gz",
+      "g0_report_sha256": "79f24defa07d354f7944d0b0cee3a06fc3c2ec108a9d1b94e5cddb5088f47cdf"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_parameter_density18_R6_Q384_uniform.json.gz",
+      "sha256": "6fdf174ea6dbb46a6fd7c8a55642bde1011bbec9f89f16cbd6246dd6bf7b1179",
+      "bytes": 134661,
+      "segment": 18,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0018_ef134f2a18.json.gz",
+      "g0_report_sha256": "dcc7b13a63748c38c699f3e19ddd0888c24b527e9fb63ce85b174433fd97587a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0019_ef134f2a18_uniform.json.gz",
+      "sha256": "992d9d64669afa7cd552938f2b55d47344c715a698f8b0b6e45cff47e86b13da",
+      "bytes": 130013,
+      "segment": 19,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0019_ef134f2a18.json.gz",
+      "g0_report_sha256": "20802f79ca282486b95d137a8048f9021ec27f1f3c05c61b259864780a46cb35"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0020_ef134f2a18_uniform.json.gz",
+      "sha256": "2ab00ecc5bda85935d8a3e1dd65ee26d77e3fd13dbabe0157b248a6e0f0444e3",
+      "bytes": 135792,
+      "segment": 20,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0020_ef134f2a18.json.gz",
+      "g0_report_sha256": "77ab483a0863d79a4ef757965b8aca3ac7eb236a9c79ffe7c3a318c7c1344b93"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0021_ef134f2a18_uniform.json.gz",
+      "sha256": "d0f033b0b264feda757f48d23df03f0fffa00d9712fd4d850e3218bef590a36f",
+      "bytes": 138777,
+      "segment": 21,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0021_ef134f2a18.json.gz",
+      "g0_report_sha256": "caddc3220cc040d04de65507b761358699b6acb8843af6bc280ec41a9930ed82"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0022_ef134f2a18_uniform.json.gz",
+      "sha256": "10f4273d662ab12459ec5f55364efd2dd0477bc4d23b11fbabf0223a470fa10b",
+      "bytes": 137091,
+      "segment": 22,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0022_ef134f2a18.json.gz",
+      "g0_report_sha256": "8b1cd5614fcb082b92e45a9c642942faf6883de3842e0ab3cc0b777a9d1bf8a1"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0023_ef134f2a18_uniform.json.gz",
+      "sha256": "5f67e541ca650c7695ea37dbd4ccfa0b6494e4e8b049fc0c58ffef7e4d143226",
+      "bytes": 136584,
+      "segment": 23,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0023_ef134f2a18.json.gz",
+      "g0_report_sha256": "42c7305252ab0e52615963876bec183acd2a6999d1758805c9e901e00258f5b6"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0024_ef134f2a18_uniform.json.gz",
+      "sha256": "ce0a4b811e2ee7617b1dc18bc2442087fc7ab5f0022b0d90d1da7a01b3787cdb",
+      "bytes": 139325,
+      "segment": 24,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0024_ef134f2a18.json.gz",
+      "g0_report_sha256": "69032174c1e49b62dccd3288701d34a202b0050ef7057611939920481d1ebae8"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0025_ef134f2a18_uniform.json.gz",
+      "sha256": "2b852acf246577477d98a9f2a5a05b2067f0eab59924a1a45e52bddfe5bb4cce",
+      "bytes": 137254,
+      "segment": 25,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0025_ef134f2a18.json.gz",
+      "g0_report_sha256": "ddeb04608cf5c58f21dd714b6ed1ace9da947bab477c39e26b2a9a51fa785a3a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0026_ef134f2a18_uniform.json.gz",
+      "sha256": "869d153efe66abfb25bb1de6dbfff1ba59d1e1cf1279c619a49ad4dd24677726",
+      "bytes": 135754,
+      "segment": 26,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0026_ef134f2a18.json.gz",
+      "g0_report_sha256": "cb1a632f6358a1ec75871b32dba79880ec8fae16dd15d4fe431127fe3c9939ef"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0027_ef134f2a18_uniform.json.gz",
+      "sha256": "2fcfd6020c33ddafb79001c16f46eacd32d943c7c9e70ab26f10b6efe7e0058b",
+      "bytes": 127983,
+      "segment": 27,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0027_ef134f2a18.json.gz",
+      "g0_report_sha256": "d9c19d49728e1e8c4e3c7b924c9812cd6a35d883f44c15dbd4f547206630664f"
+    }
+  ],
+  "input_g0_snapshots": [
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/index.json",
+      "sha256": "5d12d91eb304318f64aa9ce9fcf37a3f918a2f2e206b544832fe29268e590960",
+      "completed_segments": 51
+    }
+  ],
+  "whole_forward_leg": false,
+  "independent_precompute_source_sha256": "228406f747e756bb0bdcfd44b9932028bc5bd80411a06a398f48b8ca04550354",
+  "precomputation_runs": [
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_precomputations/forward_0027_ef134f2a18_uniform.json.gz",
+      "sha256": "0bbdd71a69ac0d0ae55b06a5870e83839b845829a745e2e48b425bf31f6cbdd4",
+      "segment": 27,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ]
+    }
+  ],
+  "dynamic_block_seed_source_sha256": "70d6c212c0f7d635d599263d31b5484860b77cc547fc77941983b2cef8b16109",
+  "dynamic_block_seed_evidence": [],
+  "integrated_scalar_summary": {
+    "B2": {
+      "ball": "[4.6029215787408665717029971847029516e-5 +/- 4.87e-40]",
+      "lower": "[4.6029215787408665717029971847029516e-5 +/- 4.87e-40]",
+      "upper": "[4.6029215787408665717029971847029516e-5 +/- 4.87e-40]",
+      "mid_float": 4.602921578740866e-05,
+      "radius_upper_float": 0.0
+    },
+    "E2": {
+      "ball": "[9.5321755766998407272432011028672699e-7 +/- 1.40e-42]",
+      "lower": "[9.5321755766998407272432011028672699e-7 +/- 1.40e-42]",
+      "upper": "[9.5321755766998407272432011028672699e-7 +/- 1.40e-42]",
+      "mid_float": 9.532175576699841e-07,
+      "radius_upper_float": 0.0
+    },
+    "localJ2_g0_g2": {
+      "ball": "[2.8907535191944015608731840413672621e-14 +/- 1.77e-49]",
+      "lower": "[2.8907535191944015608731840413672621e-14 +/- 1.77e-49]",
+      "upper": "[2.8907535191944015608731840413672621e-14 +/- 1.77e-49]",
+      "mid_float": 2.8907535191944016e-14,
+      "radius_upper_float": 0.0
+    }
+  },
+  "integrated_spatial_SUP_moduli_by_parameter_order": {
+    "2": [
+      {
+        "ball": "[4.5723726709958926725733104694418321e-5 +/- 1.74e-40]",
+        "lower": "[4.5723726709958926725733104694418321e-5 +/- 1.74e-40]",
+        "upper": "[4.5723726709958926725733104694418321e-5 +/- 1.74e-40]",
+        "mid_float": 4.572372670995893e-05,
+        "radius_upper_float": 5.192856104109897e-81
+      },
+      {
+        "ball": "[0.0025737505643037214755755913733683997 +/- 2.05e-38]",
+        "lower": "[0.0025737505643037214755755913733683997 +/- 2.05e-38]",
+        "upper": "[0.0025737505643037214755755913733683997 +/- 2.05e-38]",
+        "mid_float": 0.0025737505643037215,
+        "radius_upper_float": 3.387998869032621e-79
+      },
+      {
+        "ball": "[8.0127871506926413478084350485739739 +/- 1.76e-35]",
+        "lower": "[8.0127871506926413478084350485739739 +/- 1.76e-35]",
+        "upper": "[8.0127871506926413478084350485739739 +/- 1.76e-35]",
+        "mid_float": 8.012787150692642,
+        "radius_upper_float": 1.1027307734081334e-75
+      }
+    ]
+  },
+  "g0_g1_uniform_control_requires_hybrid_center_mean_value_transfer": true,
+  "exact_final_time": {
+    "rational": "-1355070641955447/1125899906842624",
+    "pi_coefficient": "0"
+  },
+  "wall_seconds_this_process": 180.34598767900025,
+  "requested_prefix_finished": true
+}

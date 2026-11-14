@@ -1,0 +1,69 @@
+{
+  "kind": "floating_complementary_energy_cap_DN_lower_candidate",
+  "complete": true,
+  "rigorous_DN_enclosure": false,
+  "source_sha256": "688f6dc9d5e282ce73308f38bfb4872626cbfe684a77711e253c55e5fbc5024c",
+  "primal_report_path": "notes/2026-11-12-actual-cap-low-Schur-M4.json",
+  "primal_report_sha256": "19f3478e21f21bdd15808adeb54e5a41033039615884453a581937927e940b7e",
+  "actual_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+  "source_dependency_sha256": {
+    "fourfold_phase_cap_low_schur.py": "3e026d619911b3b9716064908d0312de71de7433778643e25231a997b74fc54e",
+    "fourfold_phase_core_low_block.py": "d3b554e05f13112679786bd11a113ab8a29442b4da8f6ea0cf73c2ebb93d37be",
+    "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad"
+  },
+  "modes": 4,
+  "flux_dimension": 657,
+  "physical_frequencies": [
+    -16,
+    -12,
+    -8,
+    -4,
+    0,
+    4,
+    8,
+    12,
+    16
+  ],
+  "radial_interval": [
+    "1/4",
+    "25/8"
+  ],
+  "radial_elements": 72,
+  "mean_slots_retained": true,
+  "flux_representation": "continuous P1 p_k, q_k=-p_k_prime/(4ik), k!=0; p0 global constant; q0 cellwise constant",
+  "dual_form": "integral flux* B^-1 flux plus <Gamma^-1 p_R,perp,p_R,perp>",
+  "dual_boundary_functional": "-<p_left,g_left>+p0*xi_regular",
+  "coefficient_calls": 5400,
+  "sampled_grounded_determinant_lower": 0.0007470974237510103,
+  "floating_normal_Hermitian_defect": 4.072447743752872e-15,
+  "floating_linear_residual": 1.5468644443291343e-14,
+  "lower_Hermitian_defect": 1.855752581952669e-16,
+  "lower_constant_kernel_residual": 0.0,
+  "finite_upper_minus_lower_eigenvalues": [
+    1.9903241352501245e-15,
+    6.639416041489824e-06,
+    0.0052409425757489105,
+    0.005291470710767766,
+    0.010357956773787256,
+    0.011620201799501581,
+    0.018777316062360407,
+    0.019737764990126687,
+    0.0785806479022212,
+    0.08882033568728065
+  ],
+  "finite_upper_minus_lower_norm": 0.08882033568728066,
+  "limitations": [
+    "Exact integrals and actual positive tail entries give a full cap DN lower form with every retained Dirichlet/regular-mean input.",
+    "This computation uses floating true-geometry approximations, quadrature and tail midpoints; it is not yet a directed upper/lower enclosure.",
+    "Angular complement is represented in the true primal/dual variational principle, not deleted by assuming the Galerkin solution exact.",
+    "No final cutoff or full core/cap infinite Schur inverse follows."
+  ],
+  "CPU_seconds": 24.887969113,
+  "wall_seconds": 135.01246754599924,
+  "arrays": {
+    "path": "notes/2026-11-12-actual-cap-complementary-energy-M4.npz",
+    "sha256": "64e46a787e76ec4de60024c3d720c1fba865a1061d556efcd2e24e3cec1b0706",
+    "bytes": 95013
+  }
+}

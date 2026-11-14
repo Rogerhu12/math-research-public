@@ -1,0 +1,24 @@
+{
+  "kind": "frozen_exact_width_comparison_under_proxy_hypotheses",
+  "archive_required": [
+    {
+      "path": "scripts/fourfold_circle_preconjugacy_width_budget.py",
+      "sha256": "7c1fadbfc9f92e63dce9be701102bc33ed329f4c8c5806dfd6e174037494b9c3",
+      "bytes": 5098
+    },
+    {
+      "path": "notes/2026-11-12-R63-preconjugacy-width-comparison.json",
+      "sha256": "188ae7425ace94d5b555ba7026d151210aefcc930bb3b9bd9855d8373fdbfa5a",
+      "bytes": 9226
+    },
+    {
+      "path": "notes/2026-11-12-R63-preconjugacy-width-choice.md",
+      "sha256": "935d91ca30d4830725b00f94bb08d5db63b0bf7caf41f8b5ca999d301b9ed729",
+      "bytes": 3066
+    }
+  ],
+  "reproducible_large_intermediates": [],
+  "limitations": [
+    "Exact width algebra only; true P/Q/T/B/twist/error gate unproved"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema": "visible-exact-R119-actual-joint-tail-Schur-normalization-v1",
+  "scope": "Actual full-frequency base Schur inverse to the original internal tail labels, with explicit analytic width loss; the real nonlinear outer forcing pays ell1_128, not the existing ell1_8192 nonlinear domain.",
+  "inputs": {
+    "true_interface_trace_pair": "(f_B,k_B/|m|)",
+    "true_matching_residual_norm": "sum exp(sigma |m|) |m| |g_m|",
+    "complete_angle_width_loss": 1850,
+    "nonlinear_forcing_paid_label_weight": 128,
+    "existing_nonlinear_chart_label_weight": 8192,
+    "file_sha256": {
+      "results/R15-supplement-actual-dominant-cone-and-exponential-label-weight.md": "25b9159e0d83eaa030a362b3feffe5ad5a6a7578a064c555b36a411a42fa6a5b",
+      "results/R74-actual-full-tail-robin-and-augmented-positive-cap.md": "174bc93631b5ade0faf51160d7026e42d674916fd94e12cdb2315479458c18d8",
+      "results/R119-supplement-two-bumps-and-exact-nonlinear-matching.md": "db98a77d0b294bfad27677e670ef7c73f5acb33907950b2a38a52036e519c702",
+      "results/R119-supplement-nonlinear-screened-outer-to-inner-map.md": "3c942418473cec67f01dead8168d90710f26cee14326fef59033c72040490793",
+      "results/R119-supplement-updated-inner-dn-and-continuous-jacobi-sources.md": "501e0699372258892d1a2efba80c83810664e6d0ac6813b1fb4d84be5ef2a1c8",
+      "results/R119-supplement-joint-tail-label-schur-normalization.md": "966dd0a1d3c92353908c8cc3e8b7dcd723ce30947ce3316fe437bdd92a24cd38",
+      "scripts/fourfold_joint_tail_schur_weights_20261113.py": "fb88fc7f42fb0eb4b745472893c321197e61909b3e22febbe143248635db47ec"
+    }
+  },
+  "checks": [
+    {
+      "name": "actual_two_trace_inverse_first_row",
+      "pass": true,
+      "evidence": "The true J_M inverse first row is 1/[omega(1-1/M)]"
+    },
+    {
+      "name": "actual_two_trace_inverse_second_row",
+      "pass": true,
+      "evidence": "The true J_M inverse second row is 1/(1-1/M)"
+    },
+    {
+      "name": "actual_radius_cancellation",
+      "pass": true,
+      "evidence": "h(B)^2 times the actual physical Y state cancels the inverse physical radius"
+    },
+    {
+      "name": "actual_inner_residual_to_Y_constant",
+      "pass": true,
+      "evidence": "The complete two-trace gap is used; no height denominator is introduced"
+    },
+    {
+      "name": "true_tail_delta_lower_bound",
+      "pass": true,
+      "evidence": "delta_tail=(2/25)2^-128>2^-132"
+    },
+    {
+      "name": "true_tail_delta_power_fee",
+      "pass": true,
+      "evidence": "delta_tail^(-15/4)<2^495"
+    },
+    {
+      "name": "true_physical_scale_and_growth_fee",
+      "pass": true,
+      "evidence": "128, delta power, Omega^3, and the exact relative two-trace inverse"
+    },
+    {
+      "name": "all_actual_flow_frequency_fees",
+      "pass": true,
+      "evidence": "The same installed connector, both real bumps, and the complete raw label weight"
+    },
+    {
+      "name": "endpoint_physical_scale_ratio_fee",
+      "pass": true,
+      "evidence": "h(T)^2/h(B)^2<=exp(3 L_u)"
+    },
+    {
+      "name": "all_frequency_constant_absorption",
+      "pass": true,
+      "evidence": "log 2<7/10 and M>=4"
+    },
+    {
+      "name": "all_frequency_polynomial_absorption",
+      "pass": true,
+      "evidence": "log M/M decreases for M>=4, so 4 log M/M<=log4<7/5"
+    },
+    {
+      "name": "complete_actual_label_width_fee",
+      "pass": true,
+      "evidence": "All true profile and state conversions are included before the final safe exponent"
+    },
+    {
+      "name": "complete_strong_inverse_constant",
+      "pass": true,
+      "evidence": "The Z_sigma norm uses M|g_m| while the label bound uses |g_m|/M"
+    },
+    {
+      "name": "same_weighted_chart_would_require_true_width",
+      "pass": true,
+      "evidence": "This input width has not been granted by the current nonlinear chart"
+    },
+    {
+      "name": "actual_nonlinear_column_width_match",
+      "pass": true,
+      "evidence": "The existing actual nonlinear outer-to-inner column genuinely pays ell1_128"
+    },
+    {
+      "name": "actual_nonlinear_preconditioned_column",
+      "pass": true,
+      "evidence": "The complete nonlinear forcing Lipschitz bound is composed with the true base inverse"
+    },
+    {
+      "name": "label_domain_mismatch_is_not_hidden",
+      "pass": true,
+      "evidence": "No claim of a closed nonlinear Newton map in ell1_8192 is made"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "all_internal_high_labels": true,
+    "complete_actual_two_trace_inverse": true,
+    "true_physical_scale_cancellation": true,
+    "all_actual_bump_and_connector_flows": true,
+    "real_nonlinear_forcing_column_composed": true,
+    "ordinary_particular_and_mean_rows_retained": true,
+    "same_width_label_inverse": false,
+    "closed_nonlinear_label_iteration": false,
+    "updated_mixed_tail_relative_inverse": false
+  }
+}

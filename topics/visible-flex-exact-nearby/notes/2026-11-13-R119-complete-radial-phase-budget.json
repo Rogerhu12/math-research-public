@@ -1,0 +1,181 @@
+{
+  "passed": true,
+  "gate_count": 32,
+  "gates": [
+    {
+      "name": "quintic_fourth_derivative",
+      "passed": true,
+      "detail": "sup <=360"
+    },
+    {
+      "name": "bump_fourth_derivative",
+      "passed": true,
+      "detail": "sup <=4608"
+    },
+    {
+      "name": "two_bump_jets_through_four",
+      "passed": true,
+      "detail": "actual new box fits old derivative budget through fourth log derivative"
+    },
+    {
+      "name": "complete_piece_count",
+      "passed": true,
+      "detail": "two real cells plus four bump support ends"
+    },
+    {
+      "name": "third_Q_derivative_constant",
+      "passed": true,
+      "detail": "Q_ttt <= 2^40 J delta^-6, J>=1"
+    },
+    {
+      "name": "complete_strict_V_derivative",
+      "passed": true,
+      "detail": "-(1 - 1/Q(x)**2)*Derivative(Q(x), x)/4 + Derivative(Q(x), (x, 2))/(2*Q(x)) - Derivative(Q(x), x)**2/(2*Q(x)**2) - Derivative(Q(x), (x, 3))/(4*Q(x)**2) + 9*Derivative(Q(x), x)*Derivative(Q(x), (x, 2))/(8*Q(x)**3) - 15*Derivative(Q(x), x)**3/(16*Q(x)**4)"
+    },
+    {
+      "name": "whole_strict_V_sup",
+      "passed": true,
+      "detail": "45036271168390176.5000000000000000000000000000000000000000"
+    },
+    {
+      "name": "whole_strict_BV_including_jumps",
+      "passed": true,
+      "detail": "18134053335199912990867456.0000000000000000000000000000000"
+    },
+    {
+      "name": "actual_root_V_derivative",
+      "passed": true,
+      "detail": "Cauchy on actual full root disk"
+    },
+    {
+      "name": "complete_root_Dyson_L1",
+      "passed": true,
+      "detail": "[78.5398163397448309615660845819875721049292349843776455244 +/- 6.77e-56]"
+    },
+    {
+      "name": "root_first_Dyson_all_entries",
+      "passed": true,
+      "detail": "[51769.4824574366918154022941324720461471547103900016931356 +/- 5.34e-53]"
+    },
+    {
+      "name": "root_second_Dyson",
+      "passed": true,
+      "detail": "high kappa or boundary kappa=2^12"
+    },
+    {
+      "name": "root_phase_exponentiation",
+      "passed": true,
+      "detail": "|bV|<2, first + full higher Dyson + diagonal exponential"
+    },
+    {
+      "name": "both_free_Airy_rows",
+      "passed": true,
+      "detail": "both height/derivative, both amplitude columns, fixed H"
+    },
+    {
+      "name": "root_cut_full_composition",
+      "passed": true,
+      "detail": "kappa^-2 <= kappa^-4/3 at actual high split"
+    },
+    {
+      "name": "true_high_split_strict_smallness",
+      "passed": true,
+      "detail": "I1/M <2^-12 by the strict input inequality"
+    },
+    {
+      "name": "true_high_split_root_size",
+      "passed": true,
+      "detail": "kappa >2^56 J^(3/2) delta^(-11/4)"
+    },
+    {
+      "name": "root_cut_map_and_inverse_smallness",
+      "passed": true,
+      "detail": "actual root cut errors <1/4, inverse norm <2"
+    },
+    {
+      "name": "full_strict_phase_remainder",
+      "passed": true,
+      "detail": "2658456070797994278518695787814191104.00000000000000000000"
+    },
+    {
+      "name": "high_complete_Cauchy_remainder",
+      "passed": true,
+      "detail": "two root errors, strict BV error, full inverses and compositions"
+    },
+    {
+      "name": "actual_full_phase_size",
+      "passed": true,
+      "detail": "strict half integral plus both real root first phases"
+    },
+    {
+      "name": "both_root_orientation_and_complete_phase",
+      "passed": true,
+      "detail": "Matrix([[0, exp(-I*left)*exp(-I*middle)*exp(-I*right)], [exp(I*left)*exp(I*middle)*exp(I*right), 0]])"
+    },
+    {
+      "name": "full_Maslov_return_sign",
+      "passed": true,
+      "detail": "1-exp(-2i Phi)=1+exp(-i(2MS+2b/M))"
+    },
+    {
+      "name": "physical_fourfold_phase_units",
+      "passed": true,
+      "detail": "omega=4Theta=-8S, beta=-b/2"
+    },
+    {
+      "name": "full_low_Cauchy_power_of_two",
+      "passed": true,
+      "detail": "5314"
+    },
+    {
+      "name": "full_low_Cauchy_J_power",
+      "passed": true,
+      "detail": "both real root frames, full uniform propagator, M0^(4/3)"
+    },
+    {
+      "name": "full_low_Cauchy_delta_power",
+      "passed": true,
+      "detail": "33+1/6 <34"
+    },
+    {
+      "name": "neighboring_rows_complete_fee",
+      "passed": true,
+      "detail": "finite adjacent rows and ratio delta<=2 retained"
+    },
+    {
+      "name": "complete_phase_parameter_size",
+      "passed": true,
+      "detail": "actual B>2^190; beta costs half of full strict b"
+    },
+    {
+      "name": "complete_phase_range",
+      "passed": true,
+      "detail": "both sides of the principal-preserving gamma2 curve"
+    },
+    {
+      "name": "full_weak_source_no_hidden_derivative",
+      "passed": true,
+      "detail": "-Ft_x/T=-d(Ft/T)-r(Ft/T); physical Jacobian in all other terms"
+    },
+    {
+      "name": "full_total_flux_source",
+      "passed": true,
+      "detail": "P=U_x+F; vector source (-F,s-imFtheta), no F_x demand"
+    }
+  ],
+  "bounds": {
+    "V_sup_coefficient": "45036271168390176.5000000000000000000000000000000000000000",
+    "V_total_variation_coefficient": "18134053335199912990867456.0000000000000000000000000000000",
+    "high_strict_remainder_coefficient": "2658456070797994278518695787814191104.00000000000000000000"
+  },
+  "scope": "complete actual radial return first phase and full two-row/source decomposition; no new infinite network inverse or nonradial beta-counterterm theorem",
+  "file_sha256": {
+    "results/R119-supplement-actual-complete-radial-return-first-phase.md": "69dbb306514c6d48a72129f3e1067caaa2d95ba83ddcee7655fb93ac7f005cad",
+    "scripts/fourfold_actual_complete_radial_phase_20261113.py": "f7153fc32f067b8c1124bed98c3fbfc0c47b8e940bb094aeccf6db4f44a8e8a6",
+    "results/R119-supplement-uniform-frequency-reference-Airy-Cauchy.md": "d116f9cf80740a5468d1b6addac8097891838b9f47ac28af667501b5ef6017fc",
+    "results/R119-supplement-actual-phase-preserving-subprincipal-metric-parameter.md": "7852f8b4ba2043663aee289a4f6631bbb4dc302d10c4a015e5e54149d0e3ac95",
+    "results/R119-supplement-actual-positive-two-root-Airy-defect-and-full-sources.md": "65bf66461f3d20cf4c313d738e0b04db82eb778e2d9bdfa2334c85cba8f682f3",
+    "results/R43-first-airy-phase-and-four-thirds-remainder.md": "3e611dbdeda50d30e7210982449075979f0688d789c6481d3f5f1fa0c58aa11e",
+    "results/R46-strict-negative-cauchy-phase-and-strong-remainder.md": "dc990060add490b374d07f715f71f2b8850cdcb2d940db8af270205c2956293a"
+  }
+}

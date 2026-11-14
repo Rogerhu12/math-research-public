@@ -1,0 +1,197 @@
+{
+  "kind": "complete_moving_nonlinear_flux_mean_and_joint_parameter_remainder",
+  "complete": true,
+  "executed": true,
+  "arithmetic": "normalized BigInt rationals and complete Laurent convolution",
+  "source": "scripts/fourfold_codazzi_moving_nonlinear_flux_budget.mjs",
+  "source_algebra_reused_from_published": "scripts/fourfold_codazzi_nu_adjoint_budget.mjs",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "actual_root_application": {
+    "whole_original_eta": true,
+    "same_actual_root_piece": 2549,
+    "full_real_joint_germ": true,
+    "angular_strip": "1/1024",
+    "required_strip_loss": "1/2048",
+    "allowed_complete_unknown_ball": "1/100",
+    "centre_Astrip_upper": "592/35",
+    "remainder_quadratic_constant_upper": "25394517/500",
+    "Jacobian_difference_linear_constant_upper": "50793651/500",
+    "all_unknown_Fourier_modes": true,
+    "metric_nu_bump_exactly_zero_on_this_germ": true,
+    "negative_real_mean_gap_after_ball": "1.1097",
+    "negative_real_v_gap_after_ball": "0.4388",
+    "ordinary_source_H_one_third_embedding": "10",
+    "single_positive_root_inverse_L2_response_quadratic": "1/5",
+    "single_positive_root_inverse_raw_trace_response_quadratic": "62",
+    "no_same_norm_iteration_from_these_gains": true
+  },
+  "compact_metric_control": {
+    "support": [
+      "1/20",
+      "9/50"
+    ],
+    "maximum": "1",
+    "derivative_square_exact_maximum": "57600000000000000/48217672333259",
+    "derivative_upper": "35"
+  },
+  "fixture": {
+    "artificial_field": true,
+    "nonzero_even_mean": true,
+    "actual_candidate_coefficients_not_reconstructed": true,
+    "highest_background_mode": 3,
+    "highest_direction_mode": 4,
+    "full_remainder_support": 12,
+    "nonzero_remainder_mean": [
+      "-21428249901389/1293249613656000",
+      "0"
+    ]
+  },
+  "source_permissions": {
+    "complete_state_and_nu_formulas": true,
+    "mean_discarded": false,
+    "radial_jumps_of_raw_state_are_linear": true,
+    "original_full_native_recovery": false,
+    "whole_body_coefficient_bounds": false,
+    "fixed_Sobolev_contraction_claimed": false,
+    "complete_global_inverse_claimed": false,
+    "nonlinear_closed_family_claimed": false
+  },
+  "gate_count": 32,
+  "gates": [
+    {
+      "name": "full nonlinear moving equation equals exact conservative flux plus mean reaction",
+      "passed": true
+    },
+    {
+      "name": "true second mean includes the entire S mean",
+      "passed": true
+    },
+    {
+      "name": "actual odd first mean remains zero",
+      "passed": true
+    },
+    {
+      "name": "fixture includes nonzero even mean in background and both directions",
+      "passed": true
+    },
+    {
+      "name": "entire quadratic and cubic remainder includes primitive and mean rank",
+      "passed": true
+    },
+    {
+      "name": "remainder separates exact homogeneous degrees two and three",
+      "passed": true
+    },
+    {
+      "name": "quadratic part scales by four",
+      "passed": true
+    },
+    {
+      "name": "cubic part scales by eight",
+      "passed": true
+    },
+    {
+      "name": "complete remainder mean is the nonzero mean-reaction term",
+      "passed": true
+    },
+    {
+      "name": "nonlinear remainder mean is genuinely nonzero in this exact fixture",
+      "passed": true
+    },
+    {
+      "name": "full Jacobian variation retains both mean columns",
+      "passed": true
+    },
+    {
+      "name": "K gamma and gamma K are independent affine coefficient coordinates",
+      "passed": true
+    },
+    {
+      "name": "all coefficient differences have complete conservative form",
+      "passed": true
+    },
+    {
+      "name": "coefficient difference formula retains complete perturbed state",
+      "passed": true
+    },
+    {
+      "name": "actual target exponential laws agree through complete fifth jet",
+      "passed": true
+    },
+    {
+      "name": "true K parameter first derivative includes w prime",
+      "passed": true
+    },
+    {
+      "name": "true gamma parameter first derivative",
+      "passed": true
+    },
+    {
+      "name": "true gamma K first derivative includes its cross coefficient",
+      "passed": true
+    },
+    {
+      "name": "actual compact bump maximum equals one",
+      "passed": true
+    },
+    {
+      "name": "actual compact bump complete derivative below 35",
+      "passed": true
+    },
+    {
+      "name": "same full finite root centre exponent budget below one",
+      "passed": true
+    },
+    {
+      "name": "complete moving root centre Astrip norm below 17",
+      "passed": true
+    },
+    {
+      "name": "full root nonlinear remainder constant below 51000",
+      "passed": true
+    },
+    {
+      "name": "full root Jacobian difference constant below 102000",
+      "passed": true
+    },
+    {
+      "name": "actual negative and positive root germs both have absolute K below one",
+      "passed": true
+    },
+    {
+      "name": "all allowed unknown angular tails remain in the declared strip ball",
+      "passed": true
+    },
+    {
+      "name": "joint metric parameter exponential majorants remain finite",
+      "passed": true
+    },
+    {
+      "name": "complete mean chart survives the full infinite-mode root ball",
+      "passed": true
+    },
+    {
+      "name": "complete angular chart survives the full infinite-mode root ball",
+      "passed": true
+    },
+    {
+      "name": "complete final strip embeds into H one-third with factor below ten",
+      "passed": true
+    },
+    {
+      "name": "same positive-root inverse applied once to the full nonlinear source has L2 gain below one fifth",
+      "passed": true
+    },
+    {
+      "name": "same positive-root full raw trace applied once has gain below sixty-two",
+      "passed": true
+    }
+  ],
+  "producer_sha256": "4031c37716812d50fd78650c6c1352fec245ed36fad7d3de1ea24b9edc0af06a",
+  "execution_runtime": "V8 exact core actually executed; Node CLI wrapper not run",
+  "input_proof_blobs": [
+    "bfe73ee59142618bc7e36d5e3fe06929d9fb68cb",
+    "3edf335784786da9a4a515b28d364d8ad2914e24",
+    "fba22f39824beb3f21ebad9b3c55da52f2b1a1ad"
+  ]
+}

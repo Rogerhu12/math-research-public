@@ -1,0 +1,39 @@
+{
+  "kind": "frozen_ready_uniform_parameter_beta_and_root_derivative",
+  "files": [
+    {
+      "path": "notes/2026-11-12-beta-step3-germ-bulk-h1e8-part00.json",
+      "bytes": 272189,
+      "sha256": "d770b0b8cf4e38a61299552117091956910c7950b1456c82cba9c571bc4c2fd4"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-germ-bulk-h1e8-part01.json",
+      "bytes": 234077,
+      "sha256": "a9b159b54fc8b93d33090f6d3c9b25375f6313de944f15471f400ec388339bb4"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-parameter-h1e8-complete-enclosure.json",
+      "bytes": 99023,
+      "sha256": "7a6da4745e33a4dfb05f11cd2c9391c6aeeef4f84e9e46af83de27ff513f8057"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_parameter_derivative.py",
+      "bytes": 11494,
+      "sha256": "608c541c1469bb45f5ec556751998fc3901f8623f6cca0e7eb77062d5821ce96"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-parameter-root-derivative-h1e5.json",
+      "bytes": 18158,
+      "sha256": "3284dfe4d3feaa5eeca5f114844c1052b381434fa1bb0c08def1c45d9b845243"
+    },
+    {
+      "path": "notes/2026-11-12-parameter-beta-and-true-root-derivative.md",
+      "bytes": 8039,
+      "sha256": "8f07facd36d42b24ab0eb4526309ce5e047705b7b68884bb570f5fde13b38a8d"
+    }
+  ],
+  "limitations": [
+    "Delta8 beta only; Delta5 root derivative only",
+    "No live beta-prime collar source/report included"
+  ]
+}

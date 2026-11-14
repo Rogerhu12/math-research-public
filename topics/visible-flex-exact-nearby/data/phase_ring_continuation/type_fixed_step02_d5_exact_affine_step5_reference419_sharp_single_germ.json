@@ -1,0 +1,111 @@
+{
+  "kind": "sharp_endpoint_certificate_for_one_actual_common_germ",
+  "proved": true,
+  "source_sha256": "bb0b9be1a9ed38895ca852fae0c7650f7d78c55cb9ddca2e473b14a81d3b7d1b",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "root_certificate_sha256": "489268d254c2a9454ccbee32a4821d9bf577279490f76c9cc6f8d902a5e64e0b",
+  "domain_certificate_sha256": "e1a2c3f327c3a36e33c412e76c70eebd185f224ea938dcdea93ee30ab9a05f90",
+  "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+  "bits": 192,
+  "original_oriented_exact_time_endpoints": [
+    "4466727694628647/9007199254740992",
+    "282639970307159/562949953421312"
+  ],
+  "ordered_exact_time_endpoints": [
+    "4466727694628647/9007199254740992",
+    "282639970307159/562949953421312"
+  ],
+  "selected_common_span": [
+    "8173936700574847/72057594037927936",
+    "8286623314361713/72057594037927936"
+  ],
+  "selected_germ_index": 2,
+  "certified_positive_root": {
+    "ball": "[0.23839687429987 +/- 7.97e-15]",
+    "lower": "[0.23839687429986203270892655111419382 +/- 4.73e-36]",
+    "upper": "[0.23839687429986869404708091949833678 +/- 1.29e-36]",
+    "mid_float": 0.23839687429986536,
+    "radius_upper_float": 3.330669077184192e-15
+  },
+  "exact_reflected_common_domain": [
+    "-3",
+    "3"
+  ],
+  "endpoint_radial_enclosures": [
+    {
+      "ball": "[0.11343615908523 +/- 2.47e-15]",
+      "lower": "[0.11343615908522753764530827270864684 +/- 2.38e-36]",
+      "upper": "[0.11343615908523070730355018327832313 +/- 4.60e-36]",
+      "mid_float": 0.11343615908522912,
+      "radius_upper_float": 1.5848291209552848e-15
+    },
+    {
+      "ball": "[0.11472625935159 +/- 4.81e-15]",
+      "lower": "[0.11472625935159160132985851429738506 +/- 3.43e-36]",
+      "upper": "[0.11472625935159480703637013085444067 +/- 2.31e-36]",
+      "mid_float": 0.11472625935159321,
+      "radius_upper_float": 1.6028532558082785e-15
+    }
+  ],
+  "sharp_radial_lower_bound": {
+    "ball": "[0.11343615908522753764530827270864684 +/- 2.38e-36]",
+    "lower": "[0.11343615908522753764530827270864684 +/- 2.38e-36]",
+    "upper": "[0.11343615908522753764530827270864684 +/- 2.38e-36]",
+    "mid_float": 0.11343615908522754,
+    "radius_upper_float": 0.0
+  },
+  "sharp_radial_upper_bound": {
+    "ball": "[0.11472625935159480703637013085444067 +/- 2.31e-36]",
+    "lower": "[0.11472625935159480703637013085444067 +/- 2.31e-36]",
+    "upper": "[0.11472625935159480703637013085444067 +/- 2.31e-36]",
+    "mid_float": 0.1147262593515948,
+    "radius_upper_float": 0.0
+  },
+  "left_strict_margin": {
+    "ball": "[1.4279809467760019761335663814988735e-13 +/- 4.14e-48]",
+    "lower": "[1.4279809467760019761335663814988735e-13 +/- 4.14e-48]",
+    "upper": "[1.4279809467760019761335663814988735e-13 +/- 4.14e-48]",
+    "mid_float": 1.427980946776002e-13,
+    "radius_upper_float": 0.0
+  },
+  "right_strict_margin": {
+    "ball": "[0.00027374064840519795963347995876376421 +/- 1.48e-39]",
+    "lower": "[0.00027374064840519795963347995876376421 +/- 1.48e-39]",
+    "upper": "[0.00027374064840519795963347995876376421 +/- 1.48e-39]",
+    "mid_float": 0.00027374064840519793,
+    "radius_upper_float": 0.0
+  },
+  "whole_time_cosine_lower_bound": {
+    "ball": "[0.87658853896295497783351467426211823 +/- 3.99e-36]",
+    "lower": "[0.87658853896295497783351467426211823 +/- 3.99e-36]",
+    "upper": "[0.87658853896295497783351467426211823 +/- 3.99e-36]",
+    "mid_float": 0.876588538962955,
+    "radius_upper_float": 0.0
+  },
+  "whole_actual_time_interval_in_selected_germ": true,
+  "original_coarse_required_spans": [
+    [
+      "8106479329266893/72057594037927936",
+      "8173936700574839/72057594037927936"
+    ],
+    [
+      "8173936700574839/72057594037927936",
+      "8173936700574847/72057594037927936"
+    ],
+    [
+      "8173936700574847/72057594037927936",
+      "8286623314361713/72057594037927936"
+    ]
+  ],
+  "reason": "For positive fixed root t, t*sin(tau) is increasing throughout these exact times; separate endpoint bounds stay strictly inside the selected common span",
+  "dependency_sha256": {
+    "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+    "fourfold_phase_field_time_germ_union.py": "53704f95997e92eca13b74e9466c8ccb60a0ce04c4360e91b23eef9b10c712b5"
+  },
+  "elapsed_seconds": 2.6059254679998958,
+  "limitations": [
+    "One exact affine point and one exact time interval only",
+    "This certifies actual scalar-germ location, not a new field or flow error",
+    "Other time segments and parameter values require their own endpoint gates"
+  ]
+}

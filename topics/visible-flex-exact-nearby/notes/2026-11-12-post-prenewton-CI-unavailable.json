@@ -1,0 +1,13 @@
+{
+  "kind": "actual_CI_runner_unavailable",
+  "run_id": 43309726544,
+  "job_id": 131502319416,
+  "head_sha": "e66451e3c7d7323fdb8815c58ef7fa2f68845ac9",
+  "conclusion": "failure",
+  "steps": null,
+  "mathematical_source_was_executed": false,
+  "reason": "The GitHub job metadata reports failure with no steps. The allocation/service/account cause has not been determined.",
+  "no_unbounded_retry_triggered": true,
+  "independent_completed_work": "The R100 budgets were instead computed with exact BigInt rational arithmetic from the two SHA-verified small actual reports; see notes/2026-11-12-post-prenewton-exact-rational.json.",
+  "original_python_source_preserved": "scripts/fourfold_post_prenewton_R31_v1.py"
+}

@@ -1,0 +1,251 @@
+{
+  "schema": "visible-exact-R119-joint-actual-negative-return-kam-v1",
+  "scope": "All actual internal negative-band two-ray returns, the complete joint infinite parameter selection, full Fourier KAM and its actual circle cohomological inverse; turning amplitudes and the full mixed strong inverse remain outside the claim.",
+  "inputs": {
+    "actual_metric_complex_radius": "2^-15",
+    "actual_metric_real_radius": "2^-16",
+    "full_label_weight": 224,
+    "actual_error_exponent": "443/256",
+    "squared_phase_window_exponent": "3/2",
+    "remaining_radial_exponent": "59/256",
+    "actual_uniform_epsilon_over_Diophantine_square": "<2^-764",
+    "proved_Newton_sufficient_gate": "<=2^-64",
+    "file_sha256": {
+      "results/R119-supplement-actual-negative-band-metric-parameters.md": "3139d06c6628df7d248bd3fcd0c842837edcde840f12ba383a9a99397ffbb361",
+      "results/R119-supplement-uniform-tail-chart-for-actual-metric-parameters.md": "4eb0d35d9dfb3b53074227fce591219b8d4164444da655494c94ce80b46be950",
+      "results/R119-supplement-actual-speed-hodograph-and-quadratic-scalar-phase.md": "9fed57edb94a4b837389567de5c489098fd31fa272940030227baa2998f2e9cf",
+      "results/R119-supplement-actual-positive-band-two-end-dn-and-ordinary-source.md": "501f0813575c071d1586b412873ae2c43022a955c04d870f41d21c448ce38484",
+      "results/R119-supplement-joint-actual-negative-band-return-kam.md": "d2eb6364aef5dfd0bf551384a4b597383f403dd5109cba5633ad15ec49ead95e",
+      "scripts/fourfold_joint_negative_return_kam_20261113.py": "877d6c79ac82f6dcb9cbebe39adaeb48cc8e418595231cbfc6f217aada833f59"
+    }
+  },
+  "checks": [
+    {
+      "name": "all_real_relative_state_exponent",
+      "pass": true,
+      "evidence": "Across a cell seam delta_(j-1)^alpha<4 delta_j^alpha"
+    },
+    {
+      "name": "actual_full_negative_component_integral_fee",
+      "pass": true,
+      "evidence": "The second negative component includes both adjacent cells"
+    },
+    {
+      "name": "actual_common_drift_integral_fee",
+      "pass": true,
+      "evidence": "The real nonlinear common drift is retained in both ray flows"
+    },
+    {
+      "name": "actual_two_ray_composition_fee",
+      "pass": true,
+      "evidence": "Forward, backward, scalar phase and angular composition are all paid"
+    },
+    {
+      "name": "actual_standard_circle_rescaling",
+      "pass": true,
+      "evidence": "The fourfold quotient uses x=4 xi, not an unscaled small-divisor parameter"
+    },
+    {
+      "name": "actual_first_tail_depth",
+      "pass": true,
+      "evidence": "This exact depth is used only with the proved all-layer monotone envelopes"
+    },
+    {
+      "name": "actual_relative_state_power",
+      "pass": true,
+      "evidence": "delta_129^alpha<2^-228"
+    },
+    {
+      "name": "actual_full_component_small_state",
+      "pass": true,
+      "evidence": "N_i<2^-1058 on the complete real and complex label domains"
+    },
+    {
+      "name": "actual_full_component_small_drift",
+      "pass": true,
+      "evidence": "j+4=133<2^8 at the first layer; the envelope decreases"
+    },
+    {
+      "name": "actual_complex_layer_variation_slack",
+      "pass": true,
+      "evidence": "The two new complex bump variations fit in the original full-cell integral bound"
+    },
+    {
+      "name": "actual_mean_paid_phase_error",
+      "pass": true,
+      "evidence": "|S-S0|<=256 N_i I_i is strictly below D_i/16"
+    },
+    {
+      "name": "actual_partial_complex_ray_phase",
+      "pass": true,
+      "evidence": "Every partial reference phase has imaginary part below this value"
+    },
+    {
+      "name": "actual_ray_flow_composition_width",
+      "pass": true,
+      "evidence": "The complete flow evaluates b within the paid width-2 domain"
+    },
+    {
+      "name": "actual_two_ray_final_composition_width",
+      "pass": true,
+      "evidence": "The two actual flows compose with a fixed analytic width margin"
+    },
+    {
+      "name": "complex_rotation_numerator_relative_change",
+      "pass": true,
+      "evidence": "Delta>1 makes |gamma psi_tt/A_t| strictly smaller"
+    },
+    {
+      "name": "complex_rotation_denominator_relative_change",
+      "pass": true,
+      "evidence": "The actual A factor stays in the same analytic square-root branch"
+    },
+    {
+      "name": "complex_inverse_three_half_derivative",
+      "pass": true,
+      "evidence": "|(1+z)^(-3/2)-1|<2|z| for |z|<1/256"
+    },
+    {
+      "name": "complete_complex_rotation_derivative_margin",
+      "pass": true,
+      "evidence": "The positive reference integral controls the complete complex derivative ratio"
+    },
+    {
+      "name": "actual_phase_inverse_domain",
+      "pass": true,
+      "evidence": "The strict reference derivative gives a holomorphic inverse on |lambda|<2 kappa"
+    },
+    {
+      "name": "actual_real_phase_inverse_geometry_box",
+      "pass": true,
+      "evidence": "Real |lambda|<=kappa stays strictly inside the original geometric parameter box"
+    },
+    {
+      "name": "actual_joint_phase_parameter_domain",
+      "pass": true,
+      "evidence": "The whole weighted p-ball of radius 4 maps into all inverse lambda disks"
+    },
+    {
+      "name": "all_Diophantine_target_measure",
+      "pass": true,
+      "evidence": "The total excluded measure is below kappa/8, versus an allowed interval of length kappa"
+    },
+    {
+      "name": "actual_small_divisor_radial_margin",
+      "pass": true,
+      "evidence": "The actual nonlinear error is smaller than the square of the actual tunable phase scale"
+    },
+    {
+      "name": "all_layer_square_budget_monotonicity",
+      "pass": true,
+      "evidence": "The ratio decreases further for every later j; no finite sample extrapolation"
+    },
+    {
+      "name": "first_layer_complete_polynomial_fee",
+      "pass": true,
+      "evidence": "Both j factors, including the inverse phase-window factor, are retained"
+    },
+    {
+      "name": "first_layer_complete_small_divisor_depth",
+      "pass": true,
+      "evidence": "j(j+4) delta_j^(59/256)<2^-15 for every j>=129"
+    },
+    {
+      "name": "complete_actual_small_divisor_fee",
+      "pass": true,
+      "evidence": "This includes the standard-circle factor, Diophantine factor 64^2 and phase-window lower bound"
+    },
+    {
+      "name": "coupled_average_row_Neumann_margin",
+      "pass": true,
+      "evidence": "The infinite parameter average row is inverted jointly in the weighted l-infinity space"
+    },
+    {
+      "name": "coupled_parameter_rowwise_fee",
+      "pass": true,
+      "evidence": "The final row bound preserves each deep layer's own epsilon_i"
+    },
+    {
+      "name": "full_cohomological_rhs_fee",
+      "pass": true,
+      "evidence": "The entire parameter coupling remains inside the true zero-average Fourier equation"
+    },
+    {
+      "name": "actual_newton_angle_correction_fee",
+      "pass": true,
+      "evidence": "The current h' factor is retained"
+    },
+    {
+      "name": "complete_newton_second_order_fee",
+      "pass": true,
+      "evidence": "Both E'v and the complete joint space/parameter Taylor remainder are paid"
+    },
+    {
+      "name": "whole_iteration_error_envelope",
+      "pass": true,
+      "evidence": "e_(n+1)<=2^(-26-10n)<=2^(-8(n+1)) for every n>=0"
+    },
+    {
+      "name": "whole_iteration_parameter_sum",
+      "pass": true,
+      "evidence": "Every p_i correction sums to less than 16 epsilon_i"
+    },
+    {
+      "name": "whole_iteration_C1_sum",
+      "pass": true,
+      "evidence": "The full analytic angle derivative corrections sum uniformly over all components"
+    },
+    {
+      "name": "whole_iteration_C1_domain",
+      "pass": true,
+      "evidence": "The actual limiting h_i remains a circle diffeomorphism"
+    },
+    {
+      "name": "whole_iteration_parameter_domain",
+      "pass": true,
+      "evidence": "All simultaneous parameter iterates stay inside the Cauchy domain"
+    },
+    {
+      "name": "whole_iteration_remaining_width",
+      "pass": true,
+      "evidence": "The width loss is a single convergent sum over the full Newton iteration"
+    },
+    {
+      "name": "actual_base_target_metric_parameter",
+      "pass": true,
+      "evidence": "The chosen zero-label target angle is converted back to the actual log-profile parameter"
+    },
+    {
+      "name": "actual_nonlinear_metric_parameter_correction",
+      "pass": true,
+      "evidence": "The metric parameter correction retains the inverse true phase derivative"
+    },
+    {
+      "name": "actual_final_geometry_parameter_box",
+      "pass": true,
+      "evidence": "All infinitely many final parameters satisfy the original actual geometry bounds"
+    },
+    {
+      "name": "actual_physical_angle_width",
+      "pass": true,
+      "evidence": "The true physical endpoint angle map reaches the required physical angular window"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "actual_nonlinear_two_ray_flows": true,
+    "all_internal_negative_components": true,
+    "full_parameter_cross_dependence": true,
+    "full_Fourier_small_divisor_inverse": true,
+    "joint_infinite_parameter_KAM": true,
+    "single_metric_along_each_phase_orbit": true,
+    "actual_invariant_mean_row_kept": true,
+    "both_traces_and_flux_density_kept": true,
+    "ordinary_sources_and_holonomy_kept": true,
+    "outer_cut128_reflection_claimed": false,
+    "full_positive_Airy_amplitude_connection": false,
+    "fixed_original_metric_R74_inverse": false,
+    "final_regular_and_core_match": false,
+    "topic_completion": false
+  }
+}

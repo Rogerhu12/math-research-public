@@ -1,0 +1,168 @@
+{
+  "kind": "R106_actual_complete_root_phase_sharp_flow",
+  "complete": true,
+  "proved": true,
+  "source_sha256": "6ef060a15cdf19a13423907a3b5c0ea3cbfe15e8ddb60810379792b154618e24",
+  "root_source_path": "data/R106/root_regularized_native_degree64_plus/report.json",
+  "root_source_sha256": "0e1e511cc0a5c10b13a5e314ba354f1880dfccf4e5bce411b99c648ba037a06d",
+  "seven_field_path": "data/R106/root_seven_native_degree64/report.json",
+  "seven_field_sha256": "abf77633bb8340eaf11fe45d6f3fb943a80d265c9a5c0d2ce234c64d9ee36bab",
+  "identity": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "root": {
+    "ball": "[0.238396874300 +/- 2.71e-13]",
+    "lower": "[0.23839687429972956132053396089863148 +/- 1.44e-36]",
+    "upper": "[0.23839687430000116458653473832827660 +/- 2.84e-37]",
+    "mid_float": 0.23839687429986536,
+    "radius_upper_float": 1.3580163300038871e-13
+  },
+  "original_fixed_physical_cut": "268136140016943/1125899906842624",
+  "s_cut_lower": {
+    "ball": "[0.015625018239657032973572922673888286 +/- 2.30e-37]",
+    "lower": "[0.015625018239657032973572922673888286 +/- 2.30e-37]",
+    "upper": "[0.015625018239657032973572922673888286 +/- 2.30e-37]",
+    "mid_float": 0.01562501823965703,
+    "radius_upper_float": 0.0
+  },
+  "s_cut_upper": {
+    "ball": "[0.015625018248348460054653399908808353 +/- 3.04e-37]",
+    "lower": "[0.015625018248348460054653399908808353 +/- 3.04e-37]",
+    "upper": "[0.015625018248348460054653399908808353 +/- 3.04e-37]",
+    "mid_float": 0.01562501824834846,
+    "radius_upper_float": 0.0
+  },
+  "root_label_physical_strip": "1/900",
+  "flow_and_source_physical_strip": "1/800",
+  "input_error_physical_strip": "1/400",
+  "complete_true_theta_derivative_moduli": {
+    "q": {
+      "ball": "[30.048067394082682950670871035800818 +/- 1.23e-34]",
+      "lower": "[30.048067394082682950670871035800818 +/- 1.23e-34]",
+      "upper": "[30.048067394082682950670871035800818 +/- 1.23e-34]",
+      "mid_float": 30.048067394082683,
+      "radius_upper_float": 0.0
+    },
+    "kstar": {
+      "ball": "[524.23179106719531860358166282354799 +/- 1.12e-33]",
+      "lower": "[524.23179106719531860358166282354799 +/- 1.12e-33]",
+      "upper": "[524.23179106719531860358166282354799 +/- 1.12e-33]",
+      "mid_float": 524.2317910671953,
+      "radius_upper_float": 0.0
+    }
+  },
+  "finite_theta_derivative_moduli": {
+    "q": {
+      "ball": "[29.740460772531118319554133286141655 +/- 4.00e-34]",
+      "lower": "[29.740460772531118319554133286141655 +/- 4.00e-34]",
+      "upper": "[29.740460772531118319554133286141655 +/- 4.00e-34]",
+      "mid_float": 29.74046077253112,
+      "radius_upper_float": 0.0
+    },
+    "kstar": {
+      "ball": "[515.53101323065648276097943952376566 +/- 2.39e-33]",
+      "lower": "[515.53101323065648276097943952376566 +/- 2.39e-33]",
+      "upper": "[515.53101323065648276097943952376566 +/- 2.39e-33]",
+      "mid_float": 515.5310132306565,
+      "radius_upper_float": 0.0
+    }
+  },
+  "true_tail_theta_derivative_moduli": {
+    "q": {
+      "ball": "[0.30760662155156463111673774965916272 +/- 2.90e-36]",
+      "lower": "[0.30760662155156463111673774965916272 +/- 2.90e-36]",
+      "upper": "[0.30760662155156463111673774965916272 +/- 2.90e-36]",
+      "mid_float": 0.30760662155156465,
+      "radius_upper_float": 0.0
+    },
+    "kstar": {
+      "ball": "[8.7007778365388358426022232997823265 +/- 2.42e-36]",
+      "lower": "[8.7007778365388358426022232997823265 +/- 2.42e-36]",
+      "upper": "[8.7007778365388358426022232997823265 +/- 2.42e-36]",
+      "mid_float": 8.700777836538835,
+      "radius_upper_float": 0.0
+    }
+  },
+  "true_root_J_exponent": {
+    "ball": "[0.0086691661465880818082022178769436255 +/- 5.14e-39]",
+    "lower": "[0.0086691661465880818082022178769436255 +/- 5.14e-39]",
+    "upper": "[0.0086691661465880818082022178769436255 +/- 5.14e-39]",
+    "mid_float": 0.008669166146588083,
+    "radius_upper_float": 0.0
+  },
+  "true_root_J_modulus": {
+    "ball": "[1.0087068521909001355527391984751984 +/- 8.38e-36]",
+    "lower": "[1.0087068521909001355527391984751984 +/- 8.38e-36]",
+    "upper": "[1.0087068521909001355527391984751984 +/- 8.38e-36]",
+    "mid_float": 1.0087068521909002,
+    "radius_upper_float": 0.0
+  },
+  "whole_true_flow_imaginary_image": {
+    "ball": "[0.0011207853913232223728363768871946649 +/- 2.05e-38]",
+    "lower": "[0.0011207853913232223728363768871946649 +/- 2.05e-38]",
+    "upper": "[0.0011207853913232223728363768871946649 +/- 2.05e-38]",
+    "mid_float": 0.0011207853913232223,
+    "radius_upper_float": 0.0
+  },
+  "complete_regularized_source_modulus": {
+    "ball": "[2059.3608476102599390094151761968610 +/- 3.49e-32]",
+    "lower": "[2059.3608476102599390094151761968610 +/- 3.49e-32]",
+    "upper": "[2059.3608476102599390094151761968610 +/- 3.49e-32]",
+    "mid_float": 2059.36084761026,
+    "radius_upper_float": 0.0
+  },
+  "complete_cut_field_modulus": {
+    "ball": "[8712.9521173938233646142290663688427 +/- 2.36e-32]",
+    "lower": "[8712.9521173938233646142290663688427 +/- 2.36e-32]",
+    "upper": "[8712.9521173938233646142290663688427 +/- 2.36e-32]",
+    "mid_float": 8712.952117393823,
+    "radius_upper_float": 0.0
+  },
+  "complete_root_field_modulus": {
+    "ball": "[0.36984273562335831327795190907121609 +/- 4.06e-37]",
+    "lower": "[0.36984273562335831327795190907121609 +/- 4.06e-37]",
+    "upper": "[0.36984273562335831327795190907121609 +/- 4.06e-37]",
+    "mid_float": 0.3698427356233583,
+    "radius_upper_float": 0.0
+  },
+  "complete_root_finite_part_modulus": {
+    "ball": "[8821.6420623647181650570430919527494 +/- 2.63e-32]",
+    "lower": "[8821.6420623647181650570430919527494 +/- 2.63e-32]",
+    "upper": "[8821.6420623647181650570430919527494 +/- 2.63e-32]",
+    "mid_float": 8821.642062364717,
+    "radius_upper_float": 0.0
+  },
+  "both_inward_branches": true,
+  "both_physical_roots": true,
+  "mean_retained": true,
+  "physical_root_label_J0": 1,
+  "whole_true_root_characteristic_proved": true,
+  "full_return_frame_proved": false,
+  "effective_R104_cutoff_proved": false,
+  "scope": "Actual complete root-to-fixed-cut finite part, holomorphic in the entire root-label strip and uniform in the real parameter family, before a global root-label pullback.",
+  "dependencies": {
+    "fourfold_subprincipal_root_regularized_fft_v2.py": "c4df0d689010ff72dd39b7f32dbbc77065577341d3c016922684e9e84b4c80ca",
+    "fourfold_subprincipal_root_regularized_transport.py": "b3c49d0e2662d2a36d13214fc10eba5ba568add24deddf61f46ea34528107d1c",
+    "fourfold_phase_root_fourier_fit.py": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604"
+  },
+  "wall_seconds": 6.3867286119998425
+}

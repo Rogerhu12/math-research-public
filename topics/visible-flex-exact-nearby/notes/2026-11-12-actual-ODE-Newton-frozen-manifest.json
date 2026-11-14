@@ -1,0 +1,86 @@
+{
+  "kind": "completed_actual_ODE_J_Newton128_fresh129_validation_and_second_prediction",
+  "files": [
+    {
+      "path": "scripts/fourfold_circle_actual_newton.py",
+      "sha256": "1a1c3e66f6442f92d9e6c7b4d5d35ad085c9acf63c95c49773ddfe4d9bd50a05",
+      "bytes": 7230
+    },
+    {
+      "path": "notes/2026-11-12-D5-actual-ODE-Newton-checkpoint.md",
+      "sha256": "5894aad2c216556f9e1353eb799433050a95866d9cc768847b1d3fb038773954",
+      "bytes": 8971
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-actual-Newton128.json",
+      "sha256": "3cba7d50b43be6c0245e4e8d856d9ea9c44ea5dc45cfaa3e995c92ef2fbeacc2",
+      "bytes": 13682
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_H.npz",
+      "sha256": "89050b15a3ba4a40ec5a0d367e803c86dc9498eaae00b2a96e23212a43f2bc90",
+      "bytes": 2050
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_probe.npz",
+      "sha256": "566c95612ee91f9fb04282873530dbb97a1450f4c01c8b1814b003bd0e06aee5",
+      "bytes": 96948
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-actual-Newton128-geometry.json",
+      "sha256": "ec4cd2ecdb4ec42f37479637b9d8be2c1af8cd5fa29e89f939f56b10c7a26916",
+      "bytes": 407365
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_dyadic_H.json",
+      "sha256": "9f5449fcb628492c26b8b968080b12d12c6bc91f6e60ddb6cf941501915598d6",
+      "bytes": 38864
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-actual-Newton128-H-Wiener-budget.json",
+      "sha256": "3307cf57821547cbbd2259053983a6b653f03ca4667982e1a53c3739f6421899",
+      "bytes": 4249
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-actual-Newton128-Hnodes129.json",
+      "sha256": "f23be7a39b8d6dee4b989e28eff2512d521c29326958582dd131f4efd65b6db7",
+      "bytes": 36209
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_Hnodes_branch.npz",
+      "sha256": "186895068c7e59b27e59bcd7997cffc137f12b8df5a3a727f0e536432d72cb16",
+      "bytes": 1995
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-actual-Newton129-step2.json",
+      "sha256": "8a8332573a519ddcfd6059a33de2568e15405f2f6848a623601abb1de7e0565c",
+      "bytes": 13653
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_H.npz",
+      "sha256": "5292c8d171a6a2dec5d5ae71d5331bf2461ad29bbfc450532ea45266adf1ce25",
+      "bytes": 2045
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_probe.npz",
+      "sha256": "3453e5be05f8ada2dc333d3e2eab5bcbf58d668eea4817ec7cda85913ca77fa7",
+      "bytes": 96987
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-actual-Newton129-step2-geometry.json",
+      "sha256": "8e69743dd47e6305b4e8485dbb367d8d37c3f13ae8404b413a6c0118061a17a9",
+      "bytes": 407371
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_dyadic_H.json",
+      "sha256": "58375d24a99ba0f43b29143fe22f950a6e74e4fec2b94123d68b078fcf088260",
+      "bytes": 35466
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-actual-Newton129-step2-H-Wiener-budget.json",
+      "sha256": "038160963efe6fc821ea83b2aa825357c651862409934ffb01b642af70e5002a",
+      "bytes": 4255
+    }
+  ],
+  "limitations": "All ray computations remain floating with unpaid radial reflection defect and no uniform complex error. The two new step2 ray jobs, branches and progress are still live and deliberately excluded; only their frozen input predictions and exact H budgets are included."
+}

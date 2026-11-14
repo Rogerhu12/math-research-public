@@ -1,0 +1,128 @@
+{
+  "kind": "R106_exact_Laurent_counterterm_identity_checks",
+  "complete": true,
+  "arithmetic": "Gaussian rationals, reduced BigInt, complete signed Laurent convolutions",
+  "geometric_candidate_computed": false,
+  "root_disk_numerics_proved": false,
+  "cases": [
+    {
+      "name": "real trigonometric nonzero radial jets",
+      "sigma": -1,
+      "all_identity_coefficients_exactly_zero": true,
+      "regular_monomials": 40,
+      "largest_s_power": 5,
+      "true_root_product_constant": true,
+      "logarithmic_source": [],
+      "finite_lower_boundary_constant": []
+    },
+    {
+      "name": "real trigonometric nonzero radial jets",
+      "sigma": 1,
+      "all_identity_coefficients_exactly_zero": true,
+      "regular_monomials": 40,
+      "largest_s_power": 5,
+      "true_root_product_constant": true,
+      "logarithmic_source": [],
+      "finite_lower_boundary_constant": []
+    },
+    {
+      "name": "nonconstant leading factors with exactly constant product",
+      "sigma": -1,
+      "all_identity_coefficients_exactly_zero": true,
+      "regular_monomials": 41,
+      "largest_s_power": 5,
+      "true_root_product_constant": true,
+      "logarithmic_source": [],
+      "finite_lower_boundary_constant": []
+    },
+    {
+      "name": "nonconstant leading factors with exactly constant product",
+      "sigma": 1,
+      "all_identity_coefficients_exactly_zero": true,
+      "regular_monomials": 41,
+      "largest_s_power": 5,
+      "true_root_product_constant": true,
+      "logarithmic_source": [],
+      "finite_lower_boundary_constant": []
+    },
+    {
+      "name": "nonconstant leading product keeps the logarithmic residual",
+      "sigma": -1,
+      "all_identity_coefficients_exactly_zero": true,
+      "regular_monomials": 64,
+      "largest_s_power": 5,
+      "true_root_product_constant": false,
+      "logarithmic_source": [
+        {
+          "s_power": -1,
+          "fourier_mode": -2,
+          "real": "0",
+          "imaginary": "-16/21"
+        },
+        {
+          "s_power": -1,
+          "fourier_mode": 2,
+          "real": "0",
+          "imaginary": "16/21"
+        }
+      ],
+      "finite_lower_boundary_constant": [
+        {
+          "s_power": 0,
+          "fourier_mode": -2,
+          "real": "0",
+          "imaginary": "16/63"
+        },
+        {
+          "s_power": 0,
+          "fourier_mode": 2,
+          "real": "0",
+          "imaginary": "-16/63"
+        }
+      ]
+    },
+    {
+      "name": "nonconstant leading product keeps the logarithmic residual",
+      "sigma": 1,
+      "all_identity_coefficients_exactly_zero": true,
+      "regular_monomials": 64,
+      "largest_s_power": 5,
+      "true_root_product_constant": false,
+      "logarithmic_source": [
+        {
+          "s_power": -1,
+          "fourier_mode": -2,
+          "real": "0",
+          "imaginary": "16/21"
+        },
+        {
+          "s_power": -1,
+          "fourier_mode": 2,
+          "real": "0",
+          "imaginary": "-16/21"
+        }
+      ],
+      "finite_lower_boundary_constant": [
+        {
+          "s_power": 0,
+          "fourier_mode": -2,
+          "real": "0",
+          "imaginary": "-16/63"
+        },
+        {
+          "s_power": 0,
+          "fourier_mode": 2,
+          "real": "0",
+          "imaginary": "16/63"
+        }
+      ]
+    }
+  ],
+  "all_passed": true,
+  "proof": "results/R106-supplement-analytic-root-transport-counterterm.md",
+  "provenance": {
+    "source": "scripts/fourfold_root_counterterm_identity_exact.mjs",
+    "source_sha256": "2b3d36239439b3da63890a6956e8b4d70a435a1115bff0ab4a1f6bc9d0e647e2",
+    "execution": "Exact computeChecks; the finite six cases contain no sampled geometry."
+  }
+}

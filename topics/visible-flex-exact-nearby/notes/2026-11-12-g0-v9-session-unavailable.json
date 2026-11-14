@@ -1,0 +1,21 @@
+{
+  "kind": "observed_unavailable_local_exec_session_and_isolated_recovery",
+  "observed_utc": "2026-11-12T18:37:44.850796+00:00",
+  "old_exec_session": 54523,
+  "observed_error": "write_stdin failed: Unknown process id 54523",
+  "old_log_last_modified_utc": "2026-11-12T18:22:14.483930+00:00",
+  "old_log_copy": "notes/2026-11-12-g0-v9-session-unavailable.log",
+  "old_log_sha256": "ddada4097627ac3ee9deaeb27e0c89259edb2f8891b49349c69e21d523dcdcc5",
+  "actual_exit_code": null,
+  "cause_not_diagnosed": true,
+  "completed_segments": 52,
+  "old_index_sha256": "8bc26a9c8953b36148bf43f380aaa52782a7ff8114f5712c3e1e2937df378a85",
+  "frozen_prefix_index": "data/phase_ring_continuation/step5_forward_density_prefix_checks/prefix0052_before_session_recovery/index.json",
+  "frozen_prefix_index_sha256": "9595528f04558fedb91f9d4bb52b1f6f80933e5317711779a692f1407dab67a5",
+  "full_ordered_accumulator_sha256": "d52b1b805e7940fe325d50b3712b02635f553fe6e24577dc24f88965c7e410de",
+  "new_output_directory": "data/phase_ring_continuation/step5_forward_density_complete_v9_resume1837",
+  "new_expanded_directory": "data/phase_ring_continuation/step5_expanded_time_domain_resume1837",
+  "same_controller": "scripts/fourfold_forward_density_cover_v9.py",
+  "controller_sha256": "1451d5d434ef8fb4d7e0214e051afd185537ad75d882ddde6a82bf92d6a35ee1",
+  "full_forward_leg_claimed": false
+}

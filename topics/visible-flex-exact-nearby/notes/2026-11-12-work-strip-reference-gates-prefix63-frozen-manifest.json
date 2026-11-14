@@ -1,0 +1,412 @@
+{
+  "kind": "frozen_partial_work_strip_reference_gates_and_actual_caps",
+  "complete": true,
+  "scope": "Completed forward 0..62 reference image and q on S=1/256, with image additionally on 1/512 and 1/128; actual cap joining covers precisely this prefix. Full requested leg remains live and is not inferred.",
+  "superseded_image_only_prefix": "Original image-only runner intentionally stopped after 0..2 when the joint image/q runner replaced it. All three completed leaves and the incomplete original index are retained.",
+  "live_outputs_excluded": [
+    "type_fixed_step02_d5_step5_complete_reference_real_time_gates_forward.json.gz",
+    "type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_full.json.gz"
+  ],
+  "reference_checkpoint_cases": 63,
+  "actual_cap_complete": true,
+  "actual_cap_parameter_and_reference_identity": "Exact delta5 descriptor 097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052, no rounded substitution.",
+  "actual_cap_integral_upper": {
+    "ball": "[2.7700035217254735210109525601066001e-35 +/- 4.26e-70]",
+    "lower": "[2.7700035217254735210109525601066001e-35 +/- 4.26e-70]",
+    "upper": "[2.7700035217254735210109525601066001e-35 +/- 4.26e-70]",
+    "mid_float": 2.7700035217254735e-35,
+    "radius_upper_float": 0.0
+  },
+  "files": [
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0000.json.gz",
+      "sha256": "3735c4ecb3742bbc5981a3760913a841a393e8cd423db02cff1b602eacde59eb",
+      "bytes": 7936
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0001.json.gz",
+      "sha256": "021748d265f797d319ebedee94d1eea867d1d32133176f7959c3459b3cd3b82a",
+      "bytes": 7996
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0002.json.gz",
+      "sha256": "d765ca667ba823e7f238d72eb212e645ae292fdaa0b018d6ce8b6fe736898e35",
+      "bytes": 8055
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0003.json.gz",
+      "sha256": "a4100648ef794be854986bbfa21277842328e204f88eb50b83e28358b3eaac2c",
+      "bytes": 8004
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0004.json.gz",
+      "sha256": "3e4d5af1f3d488e99d677e4ff8929b0aee43ac763830e673b872e28e26e02aff",
+      "bytes": 8033
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0005.json.gz",
+      "sha256": "6c1790b16409613bdfdef59b19370845e302ae9f2ec88d3cf5a59719adaf99c0",
+      "bytes": 8053
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0006.json.gz",
+      "sha256": "5d142eff2aa5c77d903ca6f61e580a481f7a81cba35cea8c6087765324204dea",
+      "bytes": 8021
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0007.json.gz",
+      "sha256": "52cd439201d39d281f8070fee981f9e0663c8810e7327a2e32e0e3f08b3d33eb",
+      "bytes": 8036
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0008.json.gz",
+      "sha256": "c9a1f82a0f4163276dbd934d158519ca63d9037cc0ee4f21cfa0c345dcee5893",
+      "bytes": 8018
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0009.json.gz",
+      "sha256": "340ada1954c107f680e31aa4e7a9e1e17adc4ecc44ff21a7415d60eb9943fc61",
+      "bytes": 8031
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0010.json.gz",
+      "sha256": "04513728816530014c56cb04101be681087389199a37a71402eaa65632775c70",
+      "bytes": 8058
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0011.json.gz",
+      "sha256": "ceca721d7cc0a9dfd4aca44096cb095cc3721f1539080d4f5a3d4d572b0f6e34",
+      "bytes": 8065
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0012.json.gz",
+      "sha256": "99ba221a83e122dea7b31380f5874ab1cd7487ef9f8d3abd1be89bb77af2c4cc",
+      "bytes": 8058
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0013.json.gz",
+      "sha256": "8e98754d554b1f5d4653f330306b75edbe62caffb1e520c95bc14a3afe1390c9",
+      "bytes": 8059
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0014.json.gz",
+      "sha256": "1e5e28309afa865f336016bfd22be328996a93c8364856d524a38ee366d113e4",
+      "bytes": 8056
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0015.json.gz",
+      "sha256": "d039237077b3101e825927c91c86f93da2f5d9f3664e4bc11e03279ba8a9b2d3",
+      "bytes": 8063
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0016.json.gz",
+      "sha256": "250b385719cb7fd87da7edd55e5981c63b8dc81472f25e81d58bc376b765f6fe",
+      "bytes": 8030
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0017.json.gz",
+      "sha256": "4e2706a5d6fb14aedb34d77b4fa6916bfc02f6011cecedf0d5fcbfbd0079e6a5",
+      "bytes": 8063
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0018.json.gz",
+      "sha256": "f4fc5206463d9d44f3c838616de9d2a9e169c86cd3acb80ab2a73e136eee6aed",
+      "bytes": 8083
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0019.json.gz",
+      "sha256": "0d0a92beff0cc4d1ed176cdfd5dddb4a441cc9ff691b92e238f4e0edf3912be8",
+      "bytes": 8010
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0020.json.gz",
+      "sha256": "fb74e0dd340d381e38e297fbbb893f2b4e5dc288d690065803bcc4b67e2b2bc5",
+      "bytes": 8049
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0021.json.gz",
+      "sha256": "14e7a8e613876e3770c3cf93ff4c35f9c2ccd41ba380a2950bd07f8f772498e8",
+      "bytes": 8088
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0022.json.gz",
+      "sha256": "2392004aad285958cbb4dbd06e66946db0b8a58241ae5faf8e03e9c5996466b7",
+      "bytes": 8039
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0023.json.gz",
+      "sha256": "2ac13953ea0c65f54883caf2d3fdc94ca280ea848261c53ed1b3c92510fce843",
+      "bytes": 8016
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0024.json.gz",
+      "sha256": "a995974c1065ce2afa565c70cd6c0dd6f3dee3d90c952e22aced7297f4e06ff6",
+      "bytes": 8016
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0025.json.gz",
+      "sha256": "a9fed596acd77ba2d583c96f8de657cb5c51be9c9fca99a40d738509234876d9",
+      "bytes": 8035
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0026.json.gz",
+      "sha256": "42a3b3ee518fb645cca9b44a62297da205d9cd5e101ca5ae8e464e0585d648e3",
+      "bytes": 7984
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0027.json.gz",
+      "sha256": "531f37df169f37c97ec16ba2b50497e1354df4a236cac8bc82e6634bf9e6fe2e",
+      "bytes": 7945
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0028.json.gz",
+      "sha256": "c7f6e279f0231adb099cdd3352960025b109bbb51614f643ce3b05f961627248",
+      "bytes": 8038
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0029.json.gz",
+      "sha256": "9ebf95619cbc40487de71cae9d2c3d27e410aae04623933b69580ddac57c46df",
+      "bytes": 7992
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0030.json.gz",
+      "sha256": "2268aad4043d6ed56b3da6945a537e88f8a2fc58a9c8a61a40ea7ba50ac271ee",
+      "bytes": 8052
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0031.json.gz",
+      "sha256": "ba3d44b095032d6f127fd0fb36a8f9812172d68dc31cdf08807a78b79e12d4d7",
+      "bytes": 8013
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0032.json.gz",
+      "sha256": "40b1422b34254d4239826a8d267be714593402f4359efdc6895283287ab9ce29",
+      "bytes": 8024
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0033.json.gz",
+      "sha256": "4f1bb8dc87afbd110a5fabfc0b318f28c3bc85f94002008a30de01b4584c3588",
+      "bytes": 8008
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0034.json.gz",
+      "sha256": "2789dcc83fd93597f197fd4363a14a73ce069045ada18f5992ec70d7cadcc236",
+      "bytes": 8052
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0035.json.gz",
+      "sha256": "b69fbcff70f549938d900a82f2cc4f7e78925a3f444bbc67cddae6e694e832a6",
+      "bytes": 8052
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0036.json.gz",
+      "sha256": "33e931a01ca3e495ba1978e70645dc0a78d0db86ffc0ad3bb0077d932c4b9212",
+      "bytes": 8028
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0037.json.gz",
+      "sha256": "42afb4b398ba50654457fd13b364816e16655a8e93beff4e74e936fc6008fffa",
+      "bytes": 8035
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0038.json.gz",
+      "sha256": "aa9441f831eaf5dd52551b18e604b1cec88b40525f72d16f922d32783e18f34b",
+      "bytes": 8033
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0039.json.gz",
+      "sha256": "ed476a909c0bf3f4056df3c671756367bb04f2966d6aa1e95acbba0327bd09f2",
+      "bytes": 8007
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0040.json.gz",
+      "sha256": "646ed5ebef5803424e8490ae3ede64949f252f121f0365169fab968951cb1ef4",
+      "bytes": 7982
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0041.json.gz",
+      "sha256": "a332b9050429eea11d1ba8b8b06e77c9b5fd4eadd329f28d641663d26d7e5a10",
+      "bytes": 8083
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0042.json.gz",
+      "sha256": "1d459c7498f6fc0cebaf19a9ce16158a0dfdfe9f6fafed072f21bc5a3ac9240d",
+      "bytes": 8058
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0043.json.gz",
+      "sha256": "ccfbd423742fd3bd94da705c43b48b037acfe27652af0a0b5977d6a9f8d34854",
+      "bytes": 8051
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0044.json.gz",
+      "sha256": "e43cb54e9308075b9ac9c0084bb39b6ff2ad05d97f73fba3743a0f303d584b51",
+      "bytes": 8079
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0045.json.gz",
+      "sha256": "f4773c6bd7e55cfcc5d4c5f3d3c8f980922051c0fab7646157cc1206136e41d5",
+      "bytes": 8072
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0046.json.gz",
+      "sha256": "b3703084c2d1c42bf355703a0937a61198e5877a8eaed5d221a6e74d55046514",
+      "bytes": 8094
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0047.json.gz",
+      "sha256": "fed513423d16b9a7c86ce0285dc03fe72e220f44ce4aea240f088a630943b12f",
+      "bytes": 8065
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0048.json.gz",
+      "sha256": "33c4c93ccd3377838a6794cc0b9f46eadf045508025e9eda9e2363192d186b53",
+      "bytes": 8044
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0049.json.gz",
+      "sha256": "a507a66b679dc69346c1a7c7c5f8aed9035ee02086b3ae3a1940cb1ae14a9a0e",
+      "bytes": 8101
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0050.json.gz",
+      "sha256": "36491f1c8ddd72c734100000a55458a4cfe1a81b3d77734165e569c0208ec852",
+      "bytes": 8072
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0051.json.gz",
+      "sha256": "3ed61c9229ebc90f42fcb026bbbae5b1d95ceb8ed582619891d29fc7f3adffd0",
+      "bytes": 8029
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0052.json.gz",
+      "sha256": "eb388c495f80aadad365cf843fe1f1db8982cc7cf5e93c0bcb879c7360275efd",
+      "bytes": 8071
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0053.json.gz",
+      "sha256": "acc16da77680db8cb2a233d1b584744e13ba93a8cda6e2f4e294387944089204",
+      "bytes": 8045
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0054.json.gz",
+      "sha256": "23b95a43442a09e69a624d3f07cb8a7c1dc70f83fc07da576e7e6856436cccf5",
+      "bytes": 8033
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0055.json.gz",
+      "sha256": "8c20f18267219888bf1f4f09f42f8fbe8dca57aaa59321197c239b7ea5002eab",
+      "bytes": 8095
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0056.json.gz",
+      "sha256": "7974ee1ae9baa0f2456ca2bbdfa3d63ada2af95d485f5bed9a89b464046258b3",
+      "bytes": 8101
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0057.json.gz",
+      "sha256": "4c07e92b4fd62097dde6789843c35373d2ba1bfcfce5e4f9fcc036c80a0cbd9a",
+      "bytes": 8004
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0058.json.gz",
+      "sha256": "18ff85a68e9bd8720918990bdf9db7c8b894dc16ea74478508e7761f75c35e33",
+      "bytes": 8092
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0059.json.gz",
+      "sha256": "d1ebf12c6ceadd30b2e08e4b9193cd9a6170a609a690c1e2063521c40615fa73",
+      "bytes": 8055
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0060.json.gz",
+      "sha256": "1c84db93485d51858741f1bd40d2f4f89fec16ae80a39ac4bee1e2c7e49e7c93",
+      "bytes": 7945
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0061.json.gz",
+      "sha256": "a0e7b8bd06eec1242d9c851d62c88ca46da7b486b4f903c103a8bbbf809f7ce3",
+      "bytes": 7911
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_gates_forward/forward_0062.json.gz",
+      "sha256": "2586efaa4fdd212c24c647f3248674fa0ea0361ccff377c5579b64a4cc736082",
+      "bytes": 8054
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_images_forward/forward_0000.json.gz",
+      "sha256": "e701f32a4f682a49b4ece4d6b34a80617add1aa5f5535ded4d8c01576c8b9be5",
+      "bytes": 4631
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_images_forward/forward_0001.json.gz",
+      "sha256": "db5a8f058fff78fa02f80fb93c9a1d09b58b94b5e963f362b6eeb62af63963ce",
+      "bytes": 4671
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_complete_reference_real_time_images_forward/forward_0002.json.gz",
+      "sha256": "9ba8c518066cdc5a93a25bee097229ca8454e71ee7f69bba3b48b78c31150337",
+      "bytes": 4688
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_complete_reference_real_time_gates_checkpoint_0001.json.gz",
+      "sha256": "8bebeaa6d789dcf8364c419143f23f45013563b4be0819d88498b1d6f83dad7b",
+      "bytes": 16250
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_complete_reference_real_time_images_forward.json.gz",
+      "sha256": "9ad4ba7a861cb98de591545438ed67e7fda901a61c019dc3aad51b8b8f3665e7",
+      "bytes": 2677
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_real_time_actual_cap_work_strip_checkpoint_0001.json.gz",
+      "sha256": "8070d5fa857d0ee068e667e39db4a1052e57376207fad478c909e5ff96c0bc94",
+      "bytes": 45539
+    },
+    {
+      "path": "notes/2026-11-12-complete-reference-image-q-independent-audit.md",
+      "sha256": "3c444f0c8105bebddad8172f4fafc49649184bd0fcd8b36684736ce9251cfc0a",
+      "bytes": 4166
+    },
+    {
+      "path": "notes/2026-11-12-complete-reference-real-time-q.md",
+      "sha256": "a5d5bafb96a5294f8f2b759508147d2f3fced05c6bbb4be91489b724a3498996",
+      "bytes": 4503
+    },
+    {
+      "path": "notes/2026-11-12-forward-density-pipeline-independent-audit.md",
+      "sha256": "6618143a8ffb0c90b0422b30845ee4fc9199aa547daa5f8e24e5806595e8eb44",
+      "bytes": 5995
+    },
+    {
+      "path": "notes/2026-11-12-real-time-cap-independent-audit.md",
+      "sha256": "83805d00e0c75a65b6b330e1095c557610c813868d3dce37c5f3f1ec3a71355e",
+      "bytes": 2847
+    },
+    {
+      "path": "scripts/fourfold_complete_reference_image_cover.py",
+      "sha256": "6599d9953c9b24972845be8ef2ffebc19d98d71ff3a89903c91ed918bbb755ff",
+      "bytes": 7540
+    },
+    {
+      "path": "scripts/fourfold_complete_reference_real_time_cover.py",
+      "sha256": "71d8f7ff8e8b78767bbfde7baf59f8d5fc24affb7636706b8dad4444fc441e27",
+      "bytes": 8220
+    },
+    {
+      "path": "scripts/fourfold_complete_reference_real_time_q.py",
+      "sha256": "c74cf5220f08e6e083c147741a3905a01ddc2995a56b475f541bd54abf80157d",
+      "bytes": 5105
+    },
+    {
+      "path": "scripts/fourfold_phase_real_time_cap_cover.py",
+      "sha256": "a710d5bcae85d07a768e6e6b87d32540b50bad81fae76cf4c4311b438e46bee9",
+      "bytes": 5633
+    }
+  ],
+  "total_bytes": 628835,
+  "replay": [
+    "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/fourfold_complete_reference_real_time_cover.py --leg forward --segments 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62 --label-widths 1/512,1/256,1/128 --q-widths 1/256 --nodes 512 --taylor-order 8 --bits 256 --compare-physical-strip 1/64 --out-directory /tmp/step5_real_time_gates_replay --index /tmp/step5_real_time_gates_replay.json.gz",
+    "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/fourfold_phase_real_time_cap_cover.py --domain-index data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_checkpoint_0002.json.gz --reference-index data/phase_ring_continuation/type_fixed_step02_d5_step5_complete_reference_real_time_gates_checkpoint_0001.json.gz --label-strip 1/256 --primitive-nodes 512 --bits 192 --out /tmp/step5_work_strip_caps_replay.json.gz"
+  ]
+}

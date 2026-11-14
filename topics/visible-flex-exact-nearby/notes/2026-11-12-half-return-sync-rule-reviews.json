@@ -1,0 +1,86 @@
+{
+  "reviewed_at_UTC": "2026-11-12T14:10:30.334066+00:00",
+  "comparison_base": "ab35447537eec57d6bd2bf838e2d295ddfb53ec1",
+  "latest_review": "ee614d3bf52639e68a7ee8f86ef7430b2163547b",
+  "reviews": [
+    {
+      "commit": "f967994be0a3862111d3cae0db6d7f5aa62f6341",
+      "reflog": "refs/remotes/origin/main@{12}",
+      "event": "pull --rebase origin main: fast-forward",
+      "root_and_topic_README_diff_empty": true
+    },
+    {
+      "commit": "4e152d0b3db754afb239e1d1071fec344a05b4d7",
+      "reflog": "refs/remotes/origin/main@{11}",
+      "event": "pull --rebase origin main: fast-forward",
+      "root_and_topic_README_diff_empty": true
+    },
+    {
+      "commit": "33a6ebb75e1f1d5870dc45a78014e9b7e519b098",
+      "reflog": "refs/remotes/origin/main@{10}",
+      "event": "pull --rebase origin main: fast-forward",
+      "root_and_topic_README_diff_empty": true
+    },
+    {
+      "commit": "a8db755fe46d9a78426038b2f5866c43d7fada34",
+      "reflog": "refs/remotes/origin/main@{9}",
+      "event": "pull --rebase origin main: fast-forward",
+      "root_and_topic_README_diff_empty": true
+    },
+    {
+      "commit": "bdde56812bcf8de7837bb3723b5742f98b50ead8",
+      "reflog": "refs/remotes/origin/main@{8}",
+      "event": "pull --rebase origin main: fast-forward",
+      "root_and_topic_README_diff_empty": true
+    },
+    {
+      "commit": "70820e82610794a980eefde591607d7474583d5f",
+      "reflog": "refs/remotes/origin/main@{7}",
+      "event": "pull --rebase origin main: fast-forward",
+      "root_and_topic_README_diff_empty": true
+    },
+    {
+      "commit": "725fe39a920c2a52ece1c7ea23d3857005bb5ab7",
+      "reflog": "refs/remotes/origin/main@{6}",
+      "event": "pull --rebase origin main: fast-forward",
+      "root_and_topic_README_diff_empty": true
+    },
+    {
+      "commit": "53f76d001388fe30662f0b5092caea84ca233904",
+      "reflog": "refs/remotes/origin/main@{5}",
+      "event": "pull --rebase origin main: fast-forward",
+      "root_and_topic_README_diff_empty": true
+    },
+    {
+      "commit": "9c4a2ca8b99084bb82212c11120e53f313acbe45",
+      "reflog": "refs/remotes/origin/main@{4}",
+      "event": "pull --rebase origin main: fast-forward",
+      "root_and_topic_README_diff_empty": true
+    },
+    {
+      "commit": "760fcdb83cccfae6df3825bd297f2aeda9926017",
+      "reflog": "refs/remotes/origin/main@{3}",
+      "event": "pull --rebase origin main: fast-forward",
+      "root_and_topic_README_diff_empty": true
+    },
+    {
+      "commit": "490275940e1c162bb45408218947f6263aabf7c8",
+      "reflog": "refs/remotes/origin/main@{2}",
+      "event": "pull --rebase origin main: fast-forward",
+      "root_and_topic_README_diff_empty": true
+    },
+    {
+      "commit": "ab35447537eec57d6bd2bf838e2d295ddfb53ec1",
+      "reflog": "refs/remotes/origin/main@{1}",
+      "event": "pull --rebase origin main: fast-forward",
+      "root_and_topic_README_diff_empty": true
+    },
+    {
+      "commit": "ee614d3bf52639e68a7ee8f86ef7430b2163547b",
+      "reflog": "refs/remotes/origin/main@{0}",
+      "event": "pull --rebase origin main: fast-forward",
+      "root_and_topic_README_diff_empty": true
+    }
+  ],
+  "note": "Includes fetched main from final pull that refused rebase due to the newly updated HANDOFF; its README diff was checked explicitly."
+}

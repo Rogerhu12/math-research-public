@@ -1,0 +1,41 @@
+{
+  "kind": "R67_exact_finite_field_polynomial_sharp_actual_germ_and_aggregate_error",
+  "files": [
+    {
+      "path": "results/R67-actual-two-variable-field-polynomial-and-complete-error.md",
+      "sha256": "d542a5b70b6bd4f0fd0ea8cd6941b031b59dce7e2af400fd4d7170b5c5854317",
+      "bytes": 9529
+    },
+    {
+      "path": "scripts/fourfold_saved_field_strip_budget.py",
+      "sha256": "7f733ee91cf554a22bded46bbebf294001ae06f72f511f4594306291ad8f4d7a",
+      "bytes": 6980
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_reference419_main_actual_field_narrow_strip_budget.json",
+      "sha256": "bb88e5be5a8058d0b32ff85e6907bd18f4605b8ea1cc7b1eee58bd74374a5e34",
+      "bytes": 18945
+    },
+    {
+      "path": "scripts/fourfold_phase_endpoint_germ_certificate.py",
+      "sha256": "bb0b9be1a9ed38895ca852fae0c7650f7d78c55cb9ddca2e473b14a81d3b7d1b",
+      "bytes": 5984
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_reference419_sharp_single_germ.json",
+      "sha256": "4def60df450762d31eebaaf891b756055c9c8bc6966f0a8c18ca5d850a1bdd1a",
+      "bytes": 4601
+    },
+    {
+      "path": "notes/2026-11-12-exact-field-polynomial-independent-audit.md",
+      "sha256": "620a865bd0d7805dcb639c9b1521bedff61d3282ad3670f04fac44a000b29728",
+      "bytes": 3041
+    }
+  ],
+  "total_bytes": 49080,
+  "depends_on_frozen_manifest": {
+    "path": "notes/2026-11-12-step5-exact-field-polynomial-frozen-manifest.json",
+    "sha256": "0a267ed7d545b54fe451fdd090ffeba4185075cb66e484877a0900481a427f9b"
+  },
+  "scope": "same exact delta5 and segment419; sharp endpoint proves whole actual time interval uses the selected main germ; no global flow claim"
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "independent_phase_agent_math_and_source_review",
+  "reviewer": "phase_inverse",
+  "complete": true,
+  "review_scope": "Complete proof and producer source were read; all algebra and the norm ordering were checked; the native numbers were not recomputed.",
+  "native_recomputed": false,
+  "reviewed_paths_sha256": {
+    "results/R133-supplement-relative-centre-full-derivative-budget.md": "6da2b480b1c865bbc934158ac2d2b534d8ab6a05a5b9e98dbbcd4270f5080cfd",
+    "scripts/fourfold_codazzi_cap_relative_centre_budget.py": "be77d36388b6eb84e710753480c280fee97f78a78524a1f9a4e7a0cc298a08d4",
+    "notes/2026-11-13-R133-r09-relative-centre-DQ-native.json.gz": "608ef3d56265056d544c7504470181e7a0656dc03245585647e1f250e92a02c6",
+    "notes/2026-11-13-R133-A0-r09-linear-kernels-native.json.gz": "d5364505098d55d84bae39f81d18ca81cf65a7a78fbcfc68f2797174b9f4ded3"
+  },
+  "native_producer_and_kernel_input_identity_verified": true,
+  "checks": {
+    "actual_quotient_derivative_columns": true,
+    "radial_supremum_taken_per_coefficient_before_summing": true,
+    "real_B_proxy_has_same_per_mode_absolute_value_as_sine_coefficients": true,
+    "relative_finite_centre_does_not_change_absolute_infinite_correction_space": true,
+    "full_correction_bound_rho_over_Cstar": true,
+    "full_Neumann_denominator_and_zero_mode_retained": true,
+    "pair_l1_operator_bound_uses_maximum_column": true,
+    "metric_bump_has_ended_before_requested_cap": true,
+    "actual_reference_denominator_has_its_gap_before_division": true,
+    "failed_zero_centre_report_not_promoted_to_nonlinear_success": true
+  },
+  "limitations": [
+    "No independent numerical native replay was performed.",
+    "Only the full DQ bound and its conditional residual allowance are reviewed.",
+    "No complete residual, cap existence, body seam, nonlinear regular-tail matching, or frame holonomy follows."
+  ]
+}

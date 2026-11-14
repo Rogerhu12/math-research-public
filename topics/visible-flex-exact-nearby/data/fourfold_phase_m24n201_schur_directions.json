@@ -1,0 +1,93 @@
+{
+  "kind": "floating_finite_regularized_Schur_directions_not_exact_family",
+  "checkpoint": "topics/visible-flex-exact-nearby/data/fourfold_phase_m24n201_q256_checkpoint.npz",
+  "checkpoint_sha256": "63b5513befcf44ce907b047dbeb41a7e143431211d20e3cbb103a081cbef0a0e",
+  "source_metadata": {
+    "kind": "floating_R33_phase_candidate_not_closed_surface_proof",
+    "parameters": {
+      "modes": 24,
+      "points": 201,
+      "length": 3.0,
+      "mu_scale": 4.0,
+      "means": 3,
+      "gauge": "none",
+      "profile_points": 1201,
+      "mesh": "graded"
+    },
+    "beta_waist": 0.2074748402240008,
+    "quarter_period_angles": 256,
+    "radial_gauss_points_per_interval": 3,
+    "amplitude_gauge": "beta4(0), not U4(0) or kernel projection",
+    "mean_radius": "circumference radius; includes explicitly saved source conversion shift",
+    "source_position": "topics/visible-flex-exact-nearby/data/fourfold_overcollocation_m24n151_graded_checkpoint.npz",
+    "limitations": [
+      "Floating arithmetic",
+      "Finite radial splines and Robin endpoint",
+      "FFT primitive approximates exact infinite angular field",
+      "No fixed caps or certified reach"
+    ]
+  },
+  "regularization": 1e-10,
+  "linear_normal_residual": 3.683251620367756e-15,
+  "representation": "R33 phases",
+  "schur_matrix": [
+    [
+      6.832360298167815e-05,
+      0.0010976917895825686,
+      0.0006257104660025941
+    ],
+    [
+      0.0010976917895825686,
+      0.01764726587822829,
+      0.010052308971671378
+    ],
+    [
+      0.0006257104660025941,
+      0.010052308971671378,
+      0.005730298516145234
+    ]
+  ],
+  "directions": [
+    {
+      "mean_basis": 0,
+      "before_weighted_l2": 0.03927965407524794,
+      "after_weighted_l2": 0.008265809275665515,
+      "after_maximum_weighted_coefficient": 0.008843125124545305,
+      "max_robin_linear_residual": 6.000347517031573e-16,
+      "waist_amplitude_change": -5.421010862427522e-20,
+      "maximum_control_variation": 2.320007377842439
+    },
+    {
+      "mean_basis": 1,
+      "before_weighted_l2": 0.6992876134602114,
+      "after_weighted_l2": 0.13284301215430291,
+      "after_maximum_weighted_coefficient": 0.1429558206941937,
+      "max_robin_linear_residual": 5.204934451648845e-15,
+      "waist_amplitude_change": 8.673617379884035e-19,
+      "maximum_control_variation": 37.290664665549826
+    },
+    {
+      "mean_basis": 2,
+      "before_weighted_l2": 0.37385839059994114,
+      "after_weighted_l2": 0.0756987352347794,
+      "after_maximum_weighted_coefficient": 0.08096044084096092,
+      "max_robin_linear_residual": 4.1767245451086385e-15,
+      "waist_amplitude_change": 0.0,
+      "maximum_control_variation": 21.23701381338674
+    }
+  ],
+  "constraints": [
+    "Each direction has one prescribed unit mean coefficient",
+    "delta beta4(0)=0",
+    "No fixed-height, diameter, action, or return-number constraint is imposed"
+  ],
+  "limitations": [
+    "Only the finite sampled linear metric system is minimized",
+    "Tikhonov regularization and normal equations",
+    "No actual exact family or infinite-dimensional inverse is established"
+  ],
+  "file": "topics/visible-flex-exact-nearby/data/fourfold_phase_m24n201_schur_directions.npz",
+  "bytes": 306617,
+  "sha256": "2c6e5eb5c17578baf08f43a3d6b39e1699b5fd7dd0c17aae02047f0ba2fd158a",
+  "script_sha256": "d6503a44257ada3dd17a075e54f5ffed517c63006bcc32631a770ac0fc448dc1"
+}

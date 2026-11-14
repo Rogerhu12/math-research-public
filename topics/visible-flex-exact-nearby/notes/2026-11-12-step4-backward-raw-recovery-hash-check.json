@@ -1,0 +1,264 @@
+{
+  "kind": "completed_historical_backward_raw_exact_hash_recovery",
+  "complete": true,
+  "expected_manifest_sha256": "e0e7dabea437b05a0b22bff5140935de1f6f798ebcd8bf25c2bd57bdf563aec4",
+  "recovery_source_sha256": "e8e95bfc4895c8b1fa53c542f0878cca1112fbaa2ed533b00a6a8cd6ef99d2dc",
+  "recovery_report": "notes/2026-11-12-step4-backward-stream-recovery.json",
+  "recovery_report_sha256": "1ba63401088a8b763833a1cfd2251b7ada1d384b8320b7a7cd53a078672c8029",
+  "files": [
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0000.npz.gz",
+      "bytes": 3381056,
+      "sha256": "8ad8ae9c83118f006427852b8fdd476509401116e93d6e6380a65e3268893653",
+      "old_sha256": "8ad8ae9c83118f006427852b8fdd476509401116e93d6e6380a65e3268893653",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0016.npz.gz",
+      "bytes": 3414744,
+      "sha256": "a7f9951e4b7905e57ec36048ecf069482f1640435a207900f740937c4ed0c568",
+      "old_sha256": "a7f9951e4b7905e57ec36048ecf069482f1640435a207900f740937c4ed0c568",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0032.npz.gz",
+      "bytes": 3417074,
+      "sha256": "4a57b476a1eb30158fb6a99088caf649d19f40a8c97814b9d29dfe752c248b23",
+      "old_sha256": "4a57b476a1eb30158fb6a99088caf649d19f40a8c97814b9d29dfe752c248b23",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0048.npz.gz",
+      "bytes": 3399789,
+      "sha256": "d39b0a50536c8b929f4230ac9e26b528d80295eb7a57d66780a2eea5d8a7e9e8",
+      "old_sha256": "d39b0a50536c8b929f4230ac9e26b528d80295eb7a57d66780a2eea5d8a7e9e8",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0064.npz.gz",
+      "bytes": 3413405,
+      "sha256": "c4abc51591294c198ac4d8e8c377a9a9be6053b846a32dcbb5b1fdb0f4d81983",
+      "old_sha256": "c4abc51591294c198ac4d8e8c377a9a9be6053b846a32dcbb5b1fdb0f4d81983",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0080.npz.gz",
+      "bytes": 3411325,
+      "sha256": "7ef5ae71f956de2d9547998c575f34c9643c8057b44acbb5eb49d6e21bbfeeb0",
+      "old_sha256": "7ef5ae71f956de2d9547998c575f34c9643c8057b44acbb5eb49d6e21bbfeeb0",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0096.npz.gz",
+      "bytes": 3401415,
+      "sha256": "c18382caa17e80fd24199182add0378ff76efca99f1d390d587e35836fcadd37",
+      "old_sha256": "c18382caa17e80fd24199182add0378ff76efca99f1d390d587e35836fcadd37",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0112.npz.gz",
+      "bytes": 3398889,
+      "sha256": "9bd016205d2a84a296e0e099c0d070434cc989ace3d433094bea020667810e0f",
+      "old_sha256": "9bd016205d2a84a296e0e099c0d070434cc989ace3d433094bea020667810e0f",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0128.npz.gz",
+      "bytes": 3405366,
+      "sha256": "e930b41af3e0ae9fcb8dc601e9c8d065a64f76d64429e890a69798d21681e6b0",
+      "old_sha256": "e930b41af3e0ae9fcb8dc601e9c8d065a64f76d64429e890a69798d21681e6b0",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0144.npz.gz",
+      "bytes": 3401681,
+      "sha256": "18b4bbb40aebe82dbe87a7404199f4332b1d355832566e481f348c191a0164e8",
+      "old_sha256": "18b4bbb40aebe82dbe87a7404199f4332b1d355832566e481f348c191a0164e8",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0160.npz.gz",
+      "bytes": 3394945,
+      "sha256": "4eb7070a717be7af2fd25880ce6e9f41e77d088cb30dd9da73f77982f541648f",
+      "old_sha256": "4eb7070a717be7af2fd25880ce6e9f41e77d088cb30dd9da73f77982f541648f",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0176.npz.gz",
+      "bytes": 3405562,
+      "sha256": "7940d21f79aadf623e25759236d459af63ce3956071736253baf7fcea532e757",
+      "old_sha256": "7940d21f79aadf623e25759236d459af63ce3956071736253baf7fcea532e757",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0192.npz.gz",
+      "bytes": 3398318,
+      "sha256": "88b7f5b55aefe57dadceab8991e666b8ea968d1183446e0206a316de29ecbf39",
+      "old_sha256": "88b7f5b55aefe57dadceab8991e666b8ea968d1183446e0206a316de29ecbf39",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0208.npz.gz",
+      "bytes": 3400765,
+      "sha256": "3700ebe035e15036e0f63b8e89b06bb64b80dcab0fe07892abeff19dc17a92d8",
+      "old_sha256": "3700ebe035e15036e0f63b8e89b06bb64b80dcab0fe07892abeff19dc17a92d8",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0224.npz.gz",
+      "bytes": 3409746,
+      "sha256": "e1fe4d1cd8da202548b1638c1743596a9780b2db4a34b0014b90a559b237dcef",
+      "old_sha256": "e1fe4d1cd8da202548b1638c1743596a9780b2db4a34b0014b90a559b237dcef",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0240.npz.gz",
+      "bytes": 3405634,
+      "sha256": "bb7cffe5a4137f5390c53b5307f586aaae25ce2b6ed6ff2e02a444ba155746fb",
+      "old_sha256": "bb7cffe5a4137f5390c53b5307f586aaae25ce2b6ed6ff2e02a444ba155746fb",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0256.npz.gz",
+      "bytes": 3406735,
+      "sha256": "bcb7f490be506c52321deb3e394b0176bbff30805f0dd11e9ce35fa88b8785ad",
+      "old_sha256": "bcb7f490be506c52321deb3e394b0176bbff30805f0dd11e9ce35fa88b8785ad",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0272.npz.gz",
+      "bytes": 3414103,
+      "sha256": "ae97d9214ccdc959ad9656487d1281bc412e6141df93364de9f9ba936143962c",
+      "old_sha256": "ae97d9214ccdc959ad9656487d1281bc412e6141df93364de9f9ba936143962c",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0288.npz.gz",
+      "bytes": 3410739,
+      "sha256": "a342ac17a76c91ecb434a967193041d9041aebdd56bb99ab637c90b78ed49e2e",
+      "old_sha256": "a342ac17a76c91ecb434a967193041d9041aebdd56bb99ab637c90b78ed49e2e",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0304.npz.gz",
+      "bytes": 3412176,
+      "sha256": "8348546dc0b9ea92233efd54d5b4983f6b940586a35dc2fe415b02afee8d454a",
+      "old_sha256": "8348546dc0b9ea92233efd54d5b4983f6b940586a35dc2fe415b02afee8d454a",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0320.npz.gz",
+      "bytes": 3410020,
+      "sha256": "fe9fa1525bd44f6f4b8fd3d4e1cadd27340b57356bea754e1723ebb6488c1e23",
+      "old_sha256": "fe9fa1525bd44f6f4b8fd3d4e1cadd27340b57356bea754e1723ebb6488c1e23",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0336.npz.gz",
+      "bytes": 3409836,
+      "sha256": "aef5b09c8ba7304236282e23d59973509ef4090204693da1b0d3c57c3c53432a",
+      "old_sha256": "aef5b09c8ba7304236282e23d59973509ef4090204693da1b0d3c57c3c53432a",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0352.npz.gz",
+      "bytes": 3402781,
+      "sha256": "f0a64d4948af25531de4927cc713fe9b1b3f62f1da909b1b79204f449e38202b",
+      "old_sha256": "f0a64d4948af25531de4927cc713fe9b1b3f62f1da909b1b79204f449e38202b",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0368.npz.gz",
+      "bytes": 3399512,
+      "sha256": "441199e26cb821a54e9463f018c7b23e8e37cdac77c54fb82bac3b3eb9d719bb",
+      "old_sha256": "441199e26cb821a54e9463f018c7b23e8e37cdac77c54fb82bac3b3eb9d719bb",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0384.npz.gz",
+      "bytes": 3412918,
+      "sha256": "15c9322c0a7a7c151e2603f096ba1db2781a16e81ff69f76a4c11f9dda81051f",
+      "old_sha256": "15c9322c0a7a7c151e2603f096ba1db2781a16e81ff69f76a4c11f9dda81051f",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0400.npz.gz",
+      "bytes": 3421031,
+      "sha256": "101977b69dbdeef0234ddea22d2cd8da4c5eb87894315620c2156bccc4a3c19f",
+      "old_sha256": "101977b69dbdeef0234ddea22d2cd8da4c5eb87894315620c2156bccc4a3c19f",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0416.npz.gz",
+      "bytes": 3414466,
+      "sha256": "47eb6553949fa0d4985142013bf67ec61581fae0e494d8a341527dee99b62821",
+      "old_sha256": "47eb6553949fa0d4985142013bf67ec61581fae0e494d8a341527dee99b62821",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0432.npz.gz",
+      "bytes": 3413135,
+      "sha256": "d285d9ec5e54fe00cbafd23a8e00a7a8bc7eb19e82bc7571f3e9f3caf6d19c26",
+      "old_sha256": "d285d9ec5e54fe00cbafd23a8e00a7a8bc7eb19e82bc7571f3e9f3caf6d19c26",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0448.npz.gz",
+      "bytes": 3411668,
+      "sha256": "e3b274dfcaba2e10a9b705cd1370d767b998b4a21f35469f5654f6f059cce817",
+      "old_sha256": "e3b274dfcaba2e10a9b705cd1370d767b998b4a21f35469f5654f6f059cce817",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0464.npz.gz",
+      "bytes": 3418201,
+      "sha256": "80121ae8b1f544718a6f5b29ea2c56964f7a6ed2cf0b12bb9495b2f03062e51e",
+      "old_sha256": "80121ae8b1f544718a6f5b29ea2c56964f7a6ed2cf0b12bb9495b2f03062e51e",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0480.npz.gz",
+      "bytes": 3414017,
+      "sha256": "735278913c1b0e3bb09693edc4f8c5b92607167d66560af82d55f0d77ce26a46",
+      "old_sha256": "735278913c1b0e3bb09693edc4f8c5b92607167d66560af82d55f0d77ce26a46",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0496.npz.gz",
+      "bytes": 3419416,
+      "sha256": "f89f4d772ad70c7e58390dadabaa63ba522e27edf58025cc7fa3b1db08afabd7",
+      "old_sha256": "f89f4d772ad70c7e58390dadabaa63ba522e27edf58025cc7fa3b1db08afabd7",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0512.npz.gz",
+      "bytes": 3409844,
+      "sha256": "30d973e433de832943bc5decd6943f60408e058dd147c43a75ff83b4c22ab960",
+      "old_sha256": "30d973e433de832943bc5decd6943f60408e058dd147c43a75ff83b4c22ab960",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0528.npz.gz",
+      "bytes": 3416667,
+      "sha256": "8b12d7bdd3a65f83a6e9431933c9ba762f339bec1acde63a44a43510c8cf0e94",
+      "old_sha256": "8b12d7bdd3a65f83a6e9431933c9ba762f339bec1acde63a44a43510c8cf0e94",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.part0544.npz.gz",
+      "bytes": 1320975,
+      "sha256": "40f63feb777ecf6c3b12f1765ba99c009a525d383858004582faadb6271c475f",
+      "old_sha256": "40f63feb777ecf6c3b12f1765ba99c009a525d383858004582faadb6271c475f",
+      "exact_match": true
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032/block_0000_backward.trace.json",
+      "bytes": 130496,
+      "sha256": "e59b287dd2eedcd4f80b80debf7f46f6b2f1a9dc3d40eb596e98082a681dd7ea",
+      "old_sha256": "e59b287dd2eedcd4f80b80debf7f46f6b2f1a9dc3d40eb596e98082a681dd7ea",
+      "exact_match": true
+    }
+  ],
+  "all_36_exact_matches": true,
+  "scope": "Exact historical floating trace/reference inputs restored; no new true ODE or interval certificate."
+}

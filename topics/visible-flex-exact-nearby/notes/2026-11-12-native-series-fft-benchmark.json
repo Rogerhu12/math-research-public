@@ -1,0 +1,24 @@
+{
+  "kind": "reconstructed_native_series_fft_finite_map_benchmark",
+  "source_sha256": "bcf9d5c43f2ebc5669fcf89f785e5da0b6acac5ec901581103006c6dc04d1289",
+  "nodes": 2048,
+  "terms": 53,
+  "fields": 3,
+  "bits": 320,
+  "timings": {
+    "previous_python_butterflies": {
+      "wall_seconds": 2.542394552000019,
+      "cpu_seconds": 2.1597455959999996
+    },
+    "native_coefficientwise": {
+      "wall_seconds": 1.3774045899999692,
+      "cpu_seconds": 1.217296728
+    }
+  },
+  "all_finite_coefficients_overlap": true,
+  "exact_input_roundtrip_contained": true,
+  "four_point_scalar_sign_check": true,
+  "limitations": [
+    "No continuous angle or omitted time estimate is asserted."
+  ]
+}

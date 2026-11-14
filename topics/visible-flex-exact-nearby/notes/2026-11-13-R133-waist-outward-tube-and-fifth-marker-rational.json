@@ -1,0 +1,214 @@
+{
+  "kind": "exact_waist_normal_offset_and_fifth_power_marker_budget",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "actual_input": "Complete public 65-dimensional initial_state and previously proved intrinsic a0 enclosure; radial shards not read.",
+  "arithmetic": "Exact BigInt rationals, including binary64 dyadics; no sampled distance or floating integration.",
+  "gates": [
+    {
+      "name": "exact_final_candidate_identity",
+      "passed": true
+    },
+    {
+      "name": "complete_65_dimensional_initial_state",
+      "passed": true
+    },
+    {
+      "name": "full_R_index_identity",
+      "passed": true
+    },
+    {
+      "name": "exact_alpha",
+      "passed": true
+    },
+    {
+      "name": "complete_unknown_tail_v_gap",
+      "passed": true
+    },
+    {
+      "name": "complete_unknown_mean_gap",
+      "passed": true
+    },
+    {
+      "name": "waist_support_lower",
+      "passed": true
+    },
+    {
+      "name": "positive_exact_phase_displacement",
+      "passed": true
+    },
+    {
+      "name": "whole_surface_held_five_percent_budget",
+      "passed": true
+    },
+    {
+      "name": "entire_displacement_inside_outward_tube",
+      "passed": true
+    },
+    {
+      "name": "outward_tube_constant_identity",
+      "passed": true
+    },
+    {
+      "name": "marker_curvature_square_budget",
+      "passed": true
+    },
+    {
+      "name": "marker_positive_curvature_factor",
+      "passed": true
+    },
+    {
+      "name": "marker_peaks_exceed_body_Gauss_bound",
+      "passed": true
+    },
+    {
+      "name": "marker_boundary_jet_order_0",
+      "passed": true
+    },
+    {
+      "name": "marker_boundary_jet_order_1",
+      "passed": true
+    },
+    {
+      "name": "marker_boundary_jet_order_2",
+      "passed": true
+    },
+    {
+      "name": "marker_boundary_jet_order_3",
+      "passed": true
+    },
+    {
+      "name": "marker_boundary_jet_order_4",
+      "passed": true
+    },
+    {
+      "name": "marker_radial_derivative_factorization",
+      "passed": true
+    },
+    {
+      "name": "marker_positive_peak_at_one_third",
+      "passed": true
+    },
+    {
+      "name": "marker_height_below_one_trillionth",
+      "passed": true
+    },
+    {
+      "name": "marker_points_preserve_radius_budget",
+      "passed": true
+    },
+    {
+      "name": "marker_support_numerator_positive",
+      "passed": true
+    },
+    {
+      "name": "marker_support_above_089",
+      "passed": true
+    },
+    {
+      "name": "two_sided_reach_three_percent_budget",
+      "passed": true
+    },
+    {
+      "name": "unchanged_cap_centres_give_grip_diameter",
+      "passed": true
+    },
+    {
+      "name": "noncoplanar_marker_determinant_coefficient",
+      "passed": true
+    },
+    {
+      "name": "four_distinct_exact_curvature_labels",
+      "passed": true
+    },
+    {
+      "name": "intrinsic_radius_box_order",
+      "passed": true
+    }
+  ],
+  "total_gates": 30,
+  "all_gates_passed": true,
+  "unnormalized_complete_even_A0_radius": "1/100",
+  "values": {
+    "exact_centre_waist_normal_displacement": {
+      "lower": "0.12970542309253905343",
+      "upper": "0.12970542309253905344",
+      "exact": "464825964760589561753338576951713338585009044716676403114392150217956316046344897/3583704934441768863733466278147929848916143102146718632271808446029554864095232000"
+    },
+    "complete_waist_displacement_lower": {
+      "lower": "0.12837208975920572009",
+      "upper": "0.12837208975920572010",
+      "exact": "460047691514667203268360621914182765453120853913814111604696405623250242894217921/3583704934441768863733466278147929848916143102146718632271808446029554864095232000"
+    },
+    "complete_waist_displacement_upper": {
+      "lower": "0.13103875642587238676",
+      "upper": "0.13103875642587238677",
+      "exact": "469604238006511920238316531989243911716897235519538694624087894812662389198471873/3583704934441768863733466278147929848916143102146718632271808446029554864095232000"
+    },
+    "full_unknown_tail_displacement_fee": {
+      "lower": "0.00133333333333333333",
+      "upper": "0.00133333333333333334",
+      "exact": "1/750"
+    },
+    "negative_waist_v_gap_lower": {
+      "lower": "0.07333671283955415330",
+      "upper": "0.07333671283955415331",
+      "exact": "5359086294573732285039695898698923224932032444166099241/73075081866545145910184241635814150982796627148800000000"
+    },
+    "negative_waist_mean_gap_lower": {
+      "lower": "1.05873281999999386803",
+      "upper": "1.05873281999999386804",
+      "exact": "590263271303541243688477159703813322633572517020703/557518629963265578538392956816209037649510400000000"
+    },
+    "exact_waist_support_lower": {
+      "lower": "1.00302788546692915020",
+      "upper": "1.00302788546692915021",
+      "exact": "1073225341470114175725025701179657964413900060159819690738663702853216388519210380905956600397746684349621/1069985547780166384076349207446677407569702335167831882512686808453270096375593381245214285155532800000000"
+    },
+    "required_body_radius_upper": {
+      "lower": "1.27750000000000000000",
+      "upper": "1.27750000000000000000",
+      "exact": "511/400"
+    },
+    "conditional_diameter_upper": {
+      "lower": "2.55500000000000000000",
+      "upper": "2.55500000000000000000",
+      "exact": "511/200"
+    },
+    "required_positive_curvature_upper": {
+      "lower": "7.25925925925925925925",
+      "upper": "7.25925925925925925926",
+      "exact": "196/27"
+    },
+    "conditional_outward_tube_radius": {
+      "lower": "0.13775510204081632653",
+      "upper": "0.13775510204081632654",
+      "exact": "27/196"
+    },
+    "conditional_held_to_diameter_lower": {
+      "lower": "0.05024347935781045796",
+      "upper": "0.05024347935781045797",
+      "exact": "460047691514667203268360621914182765453120853913814111604696405623250242894217921/9156366107498719446839006340667960763980745625984866105454470579605512677763317760"
+    },
+    "conditional_reach_to_diameter_lower": {
+      "lower": "0.03195015775390390990",
+      "upper": "0.03195015775390390991",
+      "exact": "800/25039"
+    },
+    "marker_height_upper": {
+      "lower": "0.00000000000023447265",
+      "upper": "0.00000000000023447266",
+      "exact": "2401/10240000000000000"
+    }
+  },
+  "exact_surface_conditions_not_established_by_this_calculation": [
+    "A single complete exact common rotational metric surface and its C2 phase family.",
+    "The final exact waist lies in the declared complete A0 ball, with u(0)=0 and exact turning mean m(0)=-a0.",
+    "Whole unmarked body |F|<=511/400, F dot N>4/49, |principal_curvature|<=12, maximum signed principal_curvature<=196/27.",
+    "Two fixed flat caps with positive radius at most 7e-6 and heights of absolute value in [0.9,1].",
+    "All actual tails, caps, ordinary sources, means, parameter matching, and nonlinear convergence."
+  ],
+  "conditional_conclusion": "With the proved geometric hypotheses and fifth-power static markers, held>=Delta>0.05D, reach>0.03D, grip diameter>0.2D, and reflected-rigid congruence is excluded.",
+  "complete_topic": false,
+  "executed_kernel_runtime": "functions V8 pure JavaScript",
+  "actual_wall_milliseconds": 2
+}

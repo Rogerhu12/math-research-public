@@ -1,0 +1,179 @@
+{
+  "status": "passed",
+  "computed_at_utc_date": "2026-11-13",
+  "implementation": "new exact reduced-rational BigInt JavaScript, actually executed in V8",
+  "producer_git_blob_sha": "2d60a867f71429714d3a2c82003af07fdc5f2f37",
+  "proof_git_blob_sha": "934cddff433cee17338575ea6d70fe8c95a8a207",
+  "dependencies": {
+    "results/R119-supplement-joint-actual-principal-and-beta-selection.md": "934cddff433cee17338575ea6d70fe8c95a8a207",
+    "results/R119-supplement-actual-nonradial-first-density-phase.md": "811e36bbc3858a2c3e3792d5103b4f25d38694b9",
+    "results/R119-supplement-actual-finite-Schur-14400-head-and-full-sources.md": "89ec05bd82d351230a0b8d69c19be622b91bbe0e",
+    "results/R119-supplement-two-parameter-full-tail-chart-reconstructed.md": "a76cb5bb70bd0d2e5a5a48967b16679ef8ed4170",
+    "results/R119-supplement-actual-phase-preserving-subprincipal-metric-parameter.md": "ae87a824ab3e58479894df470c9f066969e83241",
+    "results/R119-supplement-actual-complete-radial-return-first-phase.md": "0d1fb3753cf159387864cbe7d8b87cab086a0aac",
+    "results/R119-supplement-actual-two-parameter-complete-phase-arithmetic.md": "7d2a2f93a6c1c2ce01931fcba94fb8d1478cb7dc",
+    "results/R119-supplement-stronger-tail-joint-actual-return-KAM.md": "79257dea135065ec10fe2fcc5c091e5586407874",
+    "results/R119-supplement-stronger-deep-full-label-chart-and-fourth-line.md": "c8bb47e46fcfa26fa05da0825a597529b2e43dd0",
+    "results/R119-supplement-joint-KAM-incoming-and-actual-full-Newton-chain.md": "078ce582f9b0b46115167de3b6938a6a2df3186c"
+  },
+  "gates_passed": 31,
+  "gates_total": 31,
+  "gates": [
+    {
+      "name": "T1_derivative_exact",
+      "pass": true,
+      "detail": "153/8"
+    },
+    {
+      "name": "T1_derivative_bound",
+      "pass": true,
+      "detail": "153/8<32"
+    },
+    {
+      "name": "T2_derivative_exact",
+      "pass": true,
+      "detail": "2493/40"
+    },
+    {
+      "name": "T2_derivative_bound",
+      "pass": true,
+      "detail": "2493/40<64"
+    },
+    {
+      "name": "complex_T1_lower",
+      "pass": true,
+      "detail": "69607/819200>1/16"
+    },
+    {
+      "name": "complex_T2_upper",
+      "pass": true,
+      "detail": "511705213/8388608000<1/8"
+    },
+    {
+      "name": "complex_chi_derivative",
+      "pass": true,
+      "detail": "|chi'|<2"
+    },
+    {
+      "name": "first_curve_image",
+      "pass": true,
+      "detail": "second-angle shift<2^-35, first image contains 2^-25"
+    },
+    {
+      "name": "B_first_integral_exact",
+      "pass": true,
+      "detail": "399/512"
+    },
+    {
+      "name": "B_second_integral_exact",
+      "pass": true,
+      "detail": "3357/25600"
+    },
+    {
+      "name": "complex_B_upper",
+      "pass": true,
+      "detail": "23307/25600<2"
+    },
+    {
+      "name": "normalized_beta_transversality",
+      "pass": true,
+      "detail": "(det M/T1)/2>2^-9"
+    },
+    {
+      "name": "radial_second_derivative_Cauchy",
+      "pass": true,
+      "detail": "3*2^33<2^36"
+    },
+    {
+      "name": "small_inverse_derivative_variation",
+      "pass": true,
+      "detail": "2^36*2^-256=2^-220<2^-10"
+    },
+    {
+      "name": "small_inverse_domain",
+      "pass": true,
+      "detail": "|z/a_i|<2^-258<r/2, r=2^-256"
+    },
+    {
+      "name": "inverse_derivative_upper",
+      "pass": true,
+      "detail": "1/(2^-9-2^-220)<2^10"
+    },
+    {
+      "name": "new_Diophantine_square_fee",
+      "pass": true,
+      "detail": "64^2=2^12"
+    },
+    {
+      "name": "principal_KAM_budget",
+      "pass": true,
+      "detail": "2^288*A*=2^-261860"
+    },
+    {
+      "name": "principal_KAM_gate",
+      "pass": true,
+      "detail": "new actual small-divisor-square gate"
+    },
+    {
+      "name": "beta_sum_extra_reserve",
+      "pass": true,
+      "detail": "direct nonradial error plus first-parameter KAM shift"
+    },
+    {
+      "name": "parameter_Cauchy_radius",
+      "pass": true,
+      "detail": "at |s|<=2^-256, a 2^-35 direction disk stays within 2^-34"
+    },
+    {
+      "name": "full_cross_derivative_exponent",
+      "pass": true,
+      "detail": "Banach-space directional Cauchy, all columns"
+    },
+    {
+      "name": "beta_inverse_input",
+      "pass": true,
+      "detail": "|E|<2^-102104<2^-267"
+    },
+    {
+      "name": "full_parameter_self_map",
+      "pass": true,
+      "detail": "actual output<2^-102094"
+    },
+    {
+      "name": "full_parameter_self_map_domain",
+      "pass": true,
+      "detail": "output lies strictly inside r=2^-256"
+    },
+    {
+      "name": "full_parameter_contraction",
+      "pass": true,
+      "detail": "complete cross derivative<2^-102059"
+    },
+    {
+      "name": "full_parameter_contraction_half",
+      "pass": true,
+      "detail": "strictly below 1/2"
+    },
+    {
+      "name": "e_four_lower",
+      "pass": true,
+      "detail": "e>5/2 and (5/2)^4>32"
+    },
+    {
+      "name": "weighted_label_embedding_exponent",
+      "pass": true,
+      "detail": "beta=65536, norm<1/64 gives A224<2^-326566"
+    },
+    {
+      "name": "weighted_label_embedding_domain",
+      "pass": true,
+      "detail": "entire beta-ball lies within actual KAM/second-row domain"
+    },
+    {
+      "name": "exact_label_domain_radius",
+      "pass": true,
+      "detail": "X(a)=16*||a||224"
+    }
+  ],
+  "mathematical_scope": "Actual infinite coupled principal-return and first-beta parameter selector, with full-label and source scope in proof. No complete moving intermediate Schur inverse or solution of F(a,f*)=0 is claimed."
+}

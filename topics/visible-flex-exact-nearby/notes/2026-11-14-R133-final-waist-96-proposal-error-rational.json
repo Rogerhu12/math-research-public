@@ -1,0 +1,30 @@
+{
+  "kind": "actual_complete_waist_midpoint_and_binary64_proposal_error",
+  "complete": true,
+  "executed": true,
+  "input_sha256": "c99e3f6c7fd4975ee8fd1de26fadad7f4e42c6c379a861830d6fa419046b052e",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "norm": "complete physical moving L2 dual, mean1 and nonmean inverse Gram2",
+  "complete_midpoint_head_error": "0.000000055335165876481671721249696241916853376406",
+  "per_entry_binary64_error_upper": "1/4503599627370496",
+  "quantization_norm_upper": "0.000000000000003108624468950438313186168670654297",
+  "unknown_high_tail_upper": "1e-42",
+  "full_true_physical_waist_row_error": "0.000000055335168985106140671688009428085525030703",
+  "strict_final_upper": "0.00000006",
+  "exact_total_upper": "495746615167647123675140117135908603932647890796612546742071103159277655148641930256139262350116594650391503022822373944624417819094478729/8958978968711216842229769122273777112486581988938598139599956403855167484720643781523509973086428463104000000000000000000000000000000000000000000",
+  "whole_original_eta": true,
+  "current_centre_only": true,
+  "proposal_contract": "convert Fraction(L+U,2*S) once to binary64; verify exact round-trip error<=2^-52 for every entry",
+  "actual_finite_head_proposal_verified": false,
+  "gates": [
+    {
+      "name": "all head row entries have absolute magnitude below2",
+      "passed": true
+    },
+    {
+      "name": "whole original physical row to any midpoint proposal with the stipulated rounding error",
+      "passed": true
+    }
+  ],
+  "producer_sha256": "95eafe730c959df3c91df7c3590763de3835e0747bbf3c200e4082f67867427d"
+}

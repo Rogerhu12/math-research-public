@@ -1,0 +1,163 @@
+{
+  "kind": "R110_actual_characteristic_density_L2_transport",
+  "complete": true,
+  "arithmetic": "reduced BigInt rational comparisons; no native ODE or matrix is rerun",
+  "proved_region": {
+    "parameter_center": "-7789843107295549/4611686018427387904",
+    "parameter_half_width": "1/1000000000",
+    "physical_period": "pi/2",
+    "label_period": "2*pi",
+    "radial_scope": "any closed strictly negative interval inside (-t(p),t(p))",
+    "branches": "one saved forward branch; the opposite branch is defined by exact radial reflection with its labels based at the opposite root",
+    "time_scope": "all intermediate times; arbitrary pairs of radii in each closed strict interval"
+  },
+  "bounds": {
+    "true_label_J_real_lower": {
+      "exact": "213831/7812500",
+      "approximate": 0.027370368
+    },
+    "true_label_J_modulus": {
+      "exact": "8223669/7812500",
+      "approximate": 1.052629632
+    },
+    "exact_relative_J_ratio_bound": {
+      "exact": "913741/23759",
+      "approximate": 38.45873142809041
+    },
+    "density_transport_L2_norm_upper": {
+      "exact": "3101/500",
+      "approximate": 6.202
+    },
+    "three_halves_density_transport_L2_norm_upper": {
+      "exact": "38459/1000",
+      "approximate": 38.459
+    },
+    "half_density_transport_L2_norm_upper": {
+      "exact": "1",
+      "approximate": 1
+    },
+    "physical_nonmean_inverse_derivative_norm": {
+      "exact": "1/4",
+      "approximate": 0.25
+    },
+    "normalized_density_pullback_norm_squared_bound": {
+      "exact": "8223669/1953125",
+      "approximate": 4.210518528
+    },
+    "normalized_density_pushforward_norm_squared_bound": {
+      "exact": "1953125/213831",
+      "approximate": 9.133965608354261
+    }
+  },
+  "gates": [
+    {
+      "name": "completed actual all-time ray certificate",
+      "passed": true
+    },
+    {
+      "name": "all original 24 exact gates remain passed",
+      "passed": true
+    },
+    {
+      "name": "complete forward radial parameterization",
+      "passed": true
+    },
+    {
+      "name": "exact affine center",
+      "passed": true
+    },
+    {
+      "name": "whole real eta equals one billionth",
+      "passed": true
+    },
+    {
+      "name": "normalized full-circle label convention",
+      "passed": true
+    },
+    {
+      "name": "same actual affine object",
+      "passed": true
+    },
+    {
+      "name": "same exact all-time finite reference",
+      "passed": true
+    },
+    {
+      "name": "same complete actual g0 source",
+      "passed": true
+    },
+    {
+      "name": "exact lower Jacobian",
+      "passed": true
+    },
+    {
+      "name": "exact upper Jacobian",
+      "passed": true
+    },
+    {
+      "name": "strict positive real Jacobian",
+      "passed": true
+    },
+    {
+      "name": "compatible Jacobian range",
+      "passed": true
+    },
+    {
+      "name": "density L2 gain strictly below 6.202",
+      "passed": true
+    },
+    {
+      "name": "three-halves-density L2 gain strictly below 38.459",
+      "passed": true
+    },
+    {
+      "name": "physical nonzero frequency starts at four",
+      "passed": true
+    }
+  ],
+  "proved_not_assumed": [
+    "the two branch labels need not have the same initial radial endpoint",
+    "the reflection construction is not an uncharged second passage of the principal return",
+    "the quarter-circle normalization cancels in the relative transport norm",
+    "the physical zero mode remains an explicit scalar evolution",
+    "the three-halves-density entry is an L2 transport bound for its own PDE, not a standalone H1/2 bound for the original PDE"
+  ],
+  "not_proved": [
+    "actual continuous coupling coefficients Bplus/Bminus and full d on every strict span",
+    "complete H1/2 or Hminus1/2 composition and multiplier constants",
+    "complete source-to-Cauchy propagation through the roots and positive collars",
+    "new strong residual Gram, full high Schur inverse or nonlinear correction"
+  ],
+  "provenance": {
+    "source": "scripts/fourfold_characteristic_density_budget_exact.mjs",
+    "source_sha256": "f59744bf643347ea4746b4ef18d4611b8bed61bcdfc9e439c0df7fd885d57d1c",
+    "proof": "results/R110-characteristic-densities-mean-and-weak-sources.md",
+    "inputs": [
+      {
+        "key": "ray",
+        "path": "notes/2026-11-12-R106-actual-all-time-ray-tube.json",
+        "sha256": "6463e62641b9187045016c63ee633816676a75baf941ea01375a6ae36f1a1863"
+      },
+      {
+        "key": "ray_proof",
+        "path": "results/R106-supplement-actual-all-time-ray-tube.md",
+        "sha256": "fe38b910efa8ccd0dca351a98d48a34fe34f7e01e3ba2301cc9a4b5c778edb4b"
+      },
+      {
+        "key": "parity",
+        "path": "results/R105-actual-dihedral-six-block-and-even-core-composition.md",
+        "sha256": "6f1419ad5d8ef7f9d4d8576d6563b02251360abe50d236590f68b8cafe782c2d"
+      },
+      {
+        "key": "reflection",
+        "path": "results/R77-reflection-square-of-principal-return.md",
+        "sha256": "0a7276239ea25ceb87ca386e48e7c9901a7503edf52baad1d3ba753b51ae1243"
+      }
+    ],
+    "original_ray_source_sha256": "c8e2c97f9cb643b7040dd51789fe0f4fc60be006990b3a800336ffb82309fbd1",
+    "actual_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "reference_descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+    "execution": "The identical pure computeCharacteristicDensityBudget was executed in V8. Native CLI was not run.",
+    "scope": "Exact finite arithmetic extending already proved actual all-time ray and exact reflection inputs; no missing geometric certificate was fabricated."
+  }
+}

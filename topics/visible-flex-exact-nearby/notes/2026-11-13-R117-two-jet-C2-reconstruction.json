@@ -1,0 +1,235 @@
+{
+  "kind": "R117_two_jet_source_and_C2_reconstruction_universal_constants",
+  "complete": true,
+  "arithmetic": "exact reduced BigInt rational inequalities, complete exponential series tail",
+  "norms": "scalar/tensor intrinsic derivatives use spherical Hilbert-Schmidt point norms; physical vector derivatives use the sphere connection on inputs and ambient output",
+  "heat_psi_rotation_derivative_bounds": [
+    "10",
+    "10",
+    "19",
+    "68"
+  ],
+  "scalar_gradient_bound": "35/2",
+  "scalar_Hessian_bound": "149/2",
+  "scalar_third_derivative_bound": "2497/4",
+  "compatibility_projection_C0_bound": "957/4",
+  "compatibility_projection_C1_bound": "1899",
+  "rounded_C0_to_C1_projection_constant": "2048",
+  "compatible_strain_C1_to_tangent_C2_constant": "6",
+  "with_whole_cap_tangent_C2_bound": "18 A^2 F + 60 A W + 2^22 H",
+  "physical_C2_bound": "10 B (18 A^2 F + 60 A W + 2^22 H) + 6 W",
+  "notation": {
+    "A": "||rho||C2",
+    "B": "||1/rho||C2",
+    "F": "||desired strain||C1",
+    "W": "||radial correction||C2",
+    "H": "||complete compatibility residual||C0"
+  },
+  "retains_scalar_mean": true,
+  "degree_one_source": "required orthogonality is automatic for an actual complete compatibility residual",
+  "third_geometry_derivatives_required": false,
+  "high_Sobolev_or_material_analytic_norms_paid": false,
+  "actual_candidate_inverse_paid": false,
+  "nonlinear_convergence_paid": false,
+  "gates": [
+    {
+      "name": "complete positive Taylor envelope for exp(2)",
+      "left": "5431/735",
+      "relation": "<",
+      "right": "8",
+      "passed": true
+    },
+    {
+      "name": "exp(1) exceeds two already at order two",
+      "left": "2",
+      "relation": "<",
+      "right": "5/2",
+      "passed": true
+    },
+    {
+      "name": "sqrt(2) below 3/2",
+      "left": "2",
+      "relation": "<",
+      "right": "9/4",
+      "passed": true
+    },
+    {
+      "name": "sqrt(3) below 7/4",
+      "left": "3",
+      "relation": "<",
+      "right": "49/16",
+      "passed": true
+    },
+    {
+      "name": "1/sqrt(2) below 3/4",
+      "left": "1/2",
+      "relation": "<",
+      "right": "9/16",
+      "passed": true
+    },
+    {
+      "name": "(3/2)^(3/2) below 15/8",
+      "left": "27/8",
+      "relation": "<",
+      "right": "225/64",
+      "passed": true
+    },
+    {
+      "name": "all l>=2 heat-kernel spectral tail",
+      "left": "20288/3969",
+      "relation": "<",
+      "right": "9",
+      "passed": true
+    },
+    {
+      "name": "integrated 0 rotation derivatives",
+      "left": "19/2",
+      "relation": "<",
+      "right": "10",
+      "passed": true
+    },
+    {
+      "name": "integrated 1 rotation derivatives",
+      "left": "19/2",
+      "relation": "<",
+      "right": "10",
+      "passed": true
+    },
+    {
+      "name": "integrated 2 rotation derivatives",
+      "left": "19",
+      "relation": "<=",
+      "right": "19",
+      "passed": true
+    },
+    {
+      "name": "integrated 3 rotation derivatives",
+      "left": "543/8",
+      "relation": "<",
+      "right": "68",
+      "passed": true
+    },
+    {
+      "name": "scalar gradient",
+      "left": "35/2",
+      "relation": "<=",
+      "right": "35/2",
+      "passed": true
+    },
+    {
+      "name": "covariant Hessian from rotation derivatives",
+      "left": "149/2",
+      "relation": "<=",
+      "right": "149/2",
+      "passed": true
+    },
+    {
+      "name": "covariant third derivative with all frame terms",
+      "left": "2497/4",
+      "relation": "<=",
+      "right": "2497/4",
+      "passed": true
+    },
+    {
+      "name": "projection tensor C0 including retained constant mode",
+      "left": "957/4",
+      "relation": "<",
+      "right": "256",
+      "passed": true
+    },
+    {
+      "name": "projection tensor first derivative",
+      "left": "1899",
+      "relation": "<",
+      "right": "2048",
+      "passed": true
+    },
+    {
+      "name": "sqrt(3)/2 below 7/8",
+      "left": "3/4",
+      "relation": "<",
+      "right": "49/64",
+      "passed": true
+    },
+    {
+      "name": "global geodesic primitive",
+      "left": "11/4",
+      "relation": "<=",
+      "right": "11/4",
+      "passed": true
+    },
+    {
+      "name": "compatible primitive first derivative",
+      "left": "37/8",
+      "relation": "<=",
+      "right": "37/8",
+      "passed": true
+    },
+    {
+      "name": "compatible primitive second derivative",
+      "left": "45/8",
+      "relation": "<=",
+      "right": "45/8",
+      "passed": true
+    },
+    {
+      "name": "complete C1 to C2 primitive norm",
+      "left": "45/8",
+      "relation": "<",
+      "right": "6",
+      "passed": true
+    },
+    {
+      "name": "rho squared times strain C1 coefficient",
+      "left": "3",
+      "relation": "<=",
+      "right": "3",
+      "passed": true
+    },
+    {
+      "name": "minus 2 rho w sigma C1 coefficient",
+      "left": "6",
+      "relation": "<=",
+      "right": "6",
+      "passed": true
+    },
+    {
+      "name": "complete w part C1 coefficient",
+      "left": "10",
+      "relation": "<=",
+      "right": "10",
+      "passed": true
+    },
+    {
+      "name": "whole-cap projection correction",
+      "left": "2097152",
+      "relation": "<=",
+      "right": "2097152",
+      "passed": true
+    },
+    {
+      "name": "global plus whole-cap compatible source fee",
+      "left": "2109440",
+      "relation": "<",
+      "right": "4194304",
+      "passed": true
+    },
+    {
+      "name": "physical scalar times tangent field C2 coefficient",
+      "left": "19/2",
+      "relation": "<",
+      "right": "10",
+      "passed": true
+    },
+    {
+      "name": "complete ambient C2 of w times sphere position",
+      "left": "11/2",
+      "relation": "<",
+      "right": "6",
+      "passed": true
+    }
+  ],
+  "passed_gates": 28,
+  "source_sha256": "16975a1506584d7557de586472aa1d32c801089e3261d587869d70677019def1",
+  "execution": "Identical pure universal BigInt kernel actually run in functions V8; native CLI not run."
+}

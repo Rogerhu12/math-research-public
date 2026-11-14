@@ -1,0 +1,61 @@
+{
+  "kind": "R80 complete actual parameter sources and finite signed interface frozen manifest",
+  "complete": true,
+  "archive_required": [
+    {
+      "path": "results/R80-full-core-fixed-tau-parameter-sources.md",
+      "sha256": "37efb206c4d975554b44e712cb2195dea59e0eb638a7dd84dbc931011fc12528",
+      "bytes": 13097
+    },
+    {
+      "path": "scripts/fourfold_phase_fixed_tau_parameter_bounds.py",
+      "sha256": "0f93dd40ca924fd22a5df1e00e800c0cc0d2db4ac6e5cad753f7e0f3042841b2",
+      "bytes": 24720
+    },
+    {
+      "path": "scripts/fourfold_phase_parameter_source_certificate.py",
+      "sha256": "182a59a17374b2d4392cb0873663567e7cb4b44421f4d0d57059cfc985750ef3",
+      "bytes": 6561
+    },
+    {
+      "path": "scripts/fourfold_phase_real_parameter_forcing.py",
+      "sha256": "7c1d1393cf32b8d5e98f8f3cbb2963e2b04deeaa8cc7a19dedf41e607cc3b632",
+      "bytes": 21694
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_fixed_tau_parameter_source_full.json.gz",
+      "sha256": "33c2bdddb0c4e1172275b961da0a2e5e23486299168efe80c4cb6870c30dd556",
+      "bytes": 321489
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_fixed_tau_parameter_source_certificate.json",
+      "sha256": "08b6fb2f3be32b7d2657d756e547134dcb55a54bb67a89d5f44a7fcd2f9f6e76",
+      "bytes": 3366
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_local_parameter_root_jets_h5e7.json",
+      "sha256": "d83fe1e7ab3eed8baaf2448f2f6076212936633c69f58950720f6d372b03d99c",
+      "bytes": 5896
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_real_parameter_forcing419_pilot.json.gz",
+      "sha256": "fb5018fb1d6d24c8072062c4b49c852f3c3ee17c506ce452bb5742f2069001de",
+      "bytes": 207429
+    },
+    {
+      "path": "notes/2026-11-12-fixed-tau-parameter-source-proof.md",
+      "sha256": "a9e75c9cc0bc2c81111548ec3bfc60abc939ab08a2a44c4258a00d403515133a",
+      "bytes": 399
+    },
+    {
+      "path": "notes/2026-11-12-actual-parameter-forcing-interface.md",
+      "sha256": "55446f4b8df8bd10ee299e76ae3e14b60cc730e574471ed8fafe50f84cd203ad",
+      "bytes": 3309
+    }
+  ],
+  "excluded_live": [
+    "step5_sharp_time_domain_full and its live index",
+    "step5_complete_reference_real_time_gates_forward and its live index"
+  ],
+  "note": "All included interval reports were actually executed. Node probe remains finite, not a twist certificate."
+}

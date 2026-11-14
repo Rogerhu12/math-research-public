@@ -1,0 +1,229 @@
+{
+  "kind": "floating_actual_fixed_target_rotational_waist_regular_return",
+  "certified": false,
+  "success": true,
+  "source_sha256": "2afe9dece29673de6c5f058dca4a15aa62dfcc197d68a93fc00a76a346fb9117",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "cap_input_path": "notes/2026-11-13-Codazzi-rotational-cap-Jacobi-floating.json",
+  "cap_input_sha256": "c1bc89d13e7eb62cb0935af800eb2e1ef617bd5e22df840e20e1bae9b591a6f4",
+  "exact_center_parameter": {
+    "numerator": "-7789843107295549",
+    "denominator": "4611686018427387904"
+  },
+  "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "requested_interval": [
+    0.0,
+    0.239
+  ],
+  "reached_radius": 0.239,
+  "rhs_calls": 11474,
+  "accepted_steps": 956,
+  "primitive_nodes": 512,
+  "rtol": 2e-11,
+  "atol": 2e-13,
+  "max_step": 0.00025,
+  "solver_message": "The solver successfully reached the end of the integration interval.",
+  "finite_state": true,
+  "entries": [
+    {
+      "physical_frequency": 4,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": -0.6365066061203025,
+      "returned_C_cosine": 0.6026310058918047,
+      "cap_q": 1.056180708410158,
+      "true_regular_linear_mismatch": -1.936340757013877e-05,
+      "mismatch_over_column_norm": -2.2090981741011843e-05,
+      "signed_angle_sine": -1.5188213248887889e-05,
+      "column_euclidean_norm": 0.8765299703358433
+    },
+    {
+      "physical_frequency": 8,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": -0.7803489088936877,
+      "returned_C_cosine": -0.29445749659579523,
+      "cap_q": 0.8763101748782186,
+      "true_regular_linear_mismatch": -1.0383850092297515,
+      "mismatch_over_column_norm": -1.244982160337997,
+      "signed_angle_sine": -0.9363363475558576,
+      "column_euclidean_norm": 0.8340561353488335
+    },
+    {
+      "physical_frequency": 12,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": -0.2986018111161499,
+      "returned_C_cosine": -1.0802119056241015,
+      "cap_q": 0.7852255821164883,
+      "true_regular_linear_mismatch": -1.146811833518996,
+      "mismatch_over_column_norm": -1.0232782646502414,
+      "signed_angle_sine": -0.8048135027508342,
+      "column_euclidean_norm": 1.1207233390332771
+    },
+    {
+      "physical_frequency": 16,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": 0.477042044315831,
+      "returned_C_cosine": -1.2225757979581908,
+      "cap_q": 0.7230732370796039,
+      "true_regular_linear_mismatch": -0.40696979548897777,
+      "mismatch_over_column_norm": -0.3101078306471826,
+      "signed_angle_sine": -0.2512964314218648,
+      "column_euclidean_norm": 1.3123493032718592
+    },
+    {
+      "physical_frequency": 20,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": 0.9769335322896954,
+      "returned_C_cosine": -0.6472883370290053,
+      "cap_q": 0.6775076179838578,
+      "true_regular_linear_mismatch": 0.5383907529204415,
+      "mismatch_over_column_norm": 0.45941167153399654,
+      "signed_angle_sine": 0.38033992101479186,
+      "column_euclidean_norm": 1.1719135282800504
+    },
+    {
+      "physical_frequency": 24,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": 0.7958482114974041,
+      "returned_C_cosine": 0.22083283827445988,
+      "cap_q": 0.6425997237763501,
+      "true_regular_linear_mismatch": 0.9377553323733194,
+      "mismatch_over_column_norm": 1.135408916945653,
+      "signed_angle_sine": 0.9551933724447774,
+      "column_euclidean_norm": 0.8259185905426579
+    },
+    {
+      "physical_frequency": 28,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": -0.009725927890621712,
+      "returned_C_cosine": 0.7721154636580126,
+      "cap_q": 0.6148775142382517,
+      "true_regular_linear_mismatch": 0.4650305091083322,
+      "mismatch_over_column_norm": 0.6022332694447394,
+      "signed_angle_sine": 0.5130130560450481,
+      "column_euclidean_norm": 0.7721767173990429
+    },
+    {
+      "physical_frequency": 32,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": -0.9401902140710529,
+      "returned_C_cosine": 0.6529602888001644,
+      "cap_q": 0.5922100667951778,
+      "true_regular_linear_mismatch": -0.5535005578261089,
+      "mismatch_over_column_norm": -0.4835375920663996,
+      "signed_angle_sine": -0.4160530802238783,
+      "column_euclidean_norm": 1.1446898171054751
+    },
+    {
+      "physical_frequency": 36,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": -1.3807451153995105,
+      "returned_C_cosine": 0.014790866511753584,
+      "cap_q": 0.5732376853093646,
+      "true_regular_linear_mismatch": -1.372266433316593,
+      "mismatch_over_column_norm": -0.9938023242958013,
+      "signed_angle_sine": -0.8621893382287869,
+      "column_euclidean_norm": 1.380824334747826
+    },
+    {
+      "physical_frequency": 40,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": -1.017319111662688,
+      "returned_C_cosine": -0.6076873178170518,
+      "cap_q": 0.5570569974038778,
+      "true_regular_linear_mismatch": -1.3558355842862708,
+      "mismatch_over_column_norm": -1.144166251380404,
+      "signed_angle_sine": -0.9995434827035916,
+      "column_euclidean_norm": 1.184998755775652
+    },
+    {
+      "physical_frequency": 44,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": -0.05587856133612265,
+      "returned_C_cosine": -0.6986560689176183,
+      "cap_q": 0.5430445823638334,
+      "true_regular_linear_mismatch": -0.4352799544974483,
+      "mismatch_over_column_norm": -0.6210414762025319,
+      "signed_angle_sine": -0.5457615342338734,
+      "column_euclidean_norm": 0.7008870923710999
+    },
+    {
+      "physical_frequency": 48,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": 0.9070425884776454,
+      "returned_C_cosine": -0.14960757674169742,
+      "cap_q": 0.5307555609311888,
+      "true_regular_linear_mismatch": 0.82763753516455,
+      "mismatch_over_column_norm": 0.9002930476006609,
+      "signed_angle_sine": 0.7952257894427527,
+      "column_euclidean_norm": 0.9192979301242606
+    },
+    {
+      "physical_frequency": 52,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": 1.2770666195541482,
+      "returned_C_cosine": 0.6512798728212933,
+      "cap_q": 0.5198631784005678,
+      "true_regular_linear_mismatch": 1.6156430442673433,
+      "mismatch_over_column_norm": 1.127022726163789,
+      "signed_angle_sine": 0.999969494320838,
+      "column_euclidean_norm": 1.433549658547474
+    },
+    {
+      "physical_frequency": 56,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": 0.8527555018244674,
+      "returned_C_cosine": 1.0978159997025245,
+      "cap_q": 0.510121442192833,
+      "true_regular_linear_mismatch": 1.412774982855086,
+      "mismatch_over_column_norm": 1.0163081072058473,
+      "signed_angle_sine": 0.9053187948146849,
+      "column_euclidean_norm": 1.3901050014638292
+    },
+    {
+      "physical_frequency": 60,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": -0.049089873383686616,
+      "returned_C_cosine": 0.8131820689369231,
+      "cap_q": 0.5013411887574208,
+      "true_regular_linear_mismatch": 0.3585917917333694,
+      "mismatch_over_column_norm": 0.4401722402436892,
+      "signed_angle_sine": 0.39349069590187713,
+      "column_euclidean_norm": 0.8146624410818024
+    },
+    {
+      "physical_frequency": 64,
+      "waist_C_cosine_amplitude": 1.0,
+      "returned_B_sine": -0.8156778693967635,
+      "returned_C_cosine": -0.05951743903294357,
+      "cap_q": 0.493374258201048,
+      "true_regular_linear_mismatch": -0.8450422417296681,
+      "mismatch_over_column_norm": -1.0332530112174465,
+      "signed_angle_sine": -0.926612334361786,
+      "column_euclidean_norm": 0.8178463866599177
+    }
+  ],
+  "initial_geometric_condition": "Linearized B(0)=0 and C mean fixed at -1/a0; nonmean C columns are independently normalized.",
+  "regular_mean_height": "Retained separate axial translation; no forced mean flux or mean holonomy is solved.",
+  "body_target_fixed": true,
+  "actual_positive_cap_graph_used": true,
+  "whole_affine_parameter_interval": false,
+  "whole_radial_interval": false,
+  "complete_primitive_tail": false,
+  "whole_real_angular_circle": false,
+  "nonlinear_waist_branch_matched": false,
+  "closed_surface_complete": false,
+  "dependency_sha256": {
+    "fourfold_phase_codazzi_rotational_reference_probe.py": "c8495d0c1721a21a24b48c8cdce9e825a8110f4923edd01e9eb2b7fe76b2d411",
+    "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+    "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937",
+    "fourfold_phase_local_correction_probe.py": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf"
+  },
+  "limitations": [
+    "Finite primitive and floating IVP integration only; no interval lower bound for the displayed mismatch.",
+    "The positive-cap input is its floating stable-center representative; native propagation independently pays the true R74 fee.",
+    "These are the rotational reference linear modes, not the nonlinear Cauchy branch or a full contact inverse.",
+    "Only the listed physical modes are computed; no conclusion for omitted modes or changes of the fixed metric."
+  ],
+  "wall_seconds": 186.59840084499956
+}

@@ -1,0 +1,75 @@
+{
+  "kind": "executed_complete_small_moving_operator_audit",
+  "certified": false,
+  "complete": true,
+  "source_sha256": "5f5b35e91b75a01339ef6b2db349b2399cece6c752d812cadc29b332957cda7d",
+  "system_sha256": "9d5b70e81fcb6ac93a2cd802529b9a4509e278c31598c05e93ac6e1f7c4f784a",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "q_vector_sha256": "8be91d0265e7037c584faf1fa55b68bfd97b924aecc04b2a9b631c2354b5bf74",
+  "modes": 7,
+  "angles": 64,
+  "radii": [
+    0.0,
+    0.1,
+    0.145,
+    0.2383968743,
+    0.3,
+    1.5
+  ],
+  "seed": 20261113,
+  "alpha": 0.75,
+  "nu": -0.035,
+  "central_difference_step": 1.9073486328125e-06,
+  "all_columns_including_mean_and_parameter": true,
+  "full_action_max_absolute_error": 1.1368683772161603e-13,
+  "interior_derivative_max_error": 1.4534543395228194e-09,
+  "mean_feedback_max_error": 5.329070518200751e-15,
+  "complete_interior_tail": {
+    "normalized_complete_moving_rhs_tail_l1": 0.01937435531191361,
+    "roundoff_beyond_exact_cubic_support_l1": 9.715370465325366e-15,
+    "exact_polynomial_support_index": 21,
+    "complete_intermediate_drift_support_index": 14,
+    "all_cubic_coefficients_resolved_by_grid": true,
+    "boundary_quadrature_still_unpaid": true
+  },
+  "physical_boundary_checks": [
+    {
+      "radius": 0.0,
+      "all_state_and_parameter_columns_tested": 16,
+      "maximum_central_difference_error": 5.04257746669623e-10,
+      "physical_direct_grid": 16384,
+      "complete_retained_moment_difference": 5.757113535898029e-16,
+      "mean_C_identity_error": 0.0,
+      "mean_B_value": 0.0
+    },
+    {
+      "radius": 0.1,
+      "all_state_and_parameter_columns_tested": 16,
+      "maximum_central_difference_error": 2.285430429974089e-10,
+      "physical_direct_grid": 16384,
+      "complete_retained_moment_difference": 4.894088606599567e-16,
+      "mean_C_identity_error": 1.1102230246251565e-16,
+      "mean_B_value": 6.938893903907228e-18
+    },
+    {
+      "radius": 1.5,
+      "all_state_and_parameter_columns_tested": 16,
+      "maximum_central_difference_error": 9.773974636706332e-11,
+      "physical_direct_grid": 16384,
+      "complete_retained_moment_difference": 9.199455433539505e-17,
+      "mean_C_identity_error": 0.0,
+      "mean_B_value": 0.0
+    }
+  ],
+  "gates": {
+    "full_all_column_FFT_action": true,
+    "complete_interior_state_and_parameter_derivatives": true,
+    "true_mean_feedback_identity": true,
+    "exact_cubic_support": true,
+    "full_boundary_state_and_parameter_columns": true,
+    "independent_physical_moments": true
+  },
+  "all_gates_pass": true,
+  "wall_seconds": 1.5703148679967853,
+  "scope": "Floating implementation evidence only; no complete BVP, infinite PDE or geometric certificate."
+}

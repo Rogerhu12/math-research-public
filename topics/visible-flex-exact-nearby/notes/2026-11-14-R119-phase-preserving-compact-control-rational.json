@@ -1,0 +1,252 @@
+{
+  "kind": "actual_phase_preserving_C4_compact_control_and_normalized_Wronskian_derivative",
+  "complete": true,
+  "executed": true,
+  "arithmetic": "normalized exact BigInt rational",
+  "gate_count": 31,
+  "gates": [
+    {
+      "name": "real_branch_disk_keeps_roots_outside",
+      "left": "1/4",
+      "right": "29/64",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "real_branch_disk_right_edge",
+      "left": "45/64",
+      "right": "1/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "quartic_in_small_disk",
+      "left": "137725631/8388608",
+      "right": "17/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "algebraic_factor_small_disk_power",
+      "left": "118587876497/1",
+      "right": "1099511627776/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "fixed_Cauchy_circle_in_small_disk",
+      "left": "9/64",
+      "right": "1/4",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "twenty_first_factorial",
+      "left": "51090942171709440000/1",
+      "right": "73786976294838206464/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "twenty_first_derivative_margin",
+      "left": "149/1",
+      "right": "152/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "algebraic_factor_four_derivatives",
+      "left": "103079215104/1",
+      "right": "137438953472/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "bump_degree_derivative_factor",
+      "left": "4738381338321616896000000000000000000000000/1",
+      "right": "22300745198530623141535718272648361505980416/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "full_C4_sum_factor",
+      "left": "263280729171392966744795069209176080797237738501372778135777443840/1",
+      "right": "1684996666696914987166688442938726917102321526408785780068975640576/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "bump_positive_integral",
+      "left": "1/32768",
+      "right": "205891132094649/1152921504606846976",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "bump_support_radius_fits",
+      "left": "1/91343852333181432387730302044767688728495783936",
+      "right": "1/128",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "sign_is_preserved_over_complete_support",
+      "left": "3/16",
+      "right": "1/2",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "normalized_x_pairing_bit_exponent",
+      "left": "4136/1",
+      "right": "4136/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "normalized_x_pairing_B_power",
+      "left": "130/1",
+      "right": "130/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "raw_kernel_power_after_control",
+      "left": "26/1",
+      "right": "26/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "Wronskian_bit_exponent_before_M",
+      "left": "856104/1",
+      "right": "856104/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "Wronskian_a_power_before_M",
+      "left": "9933/1",
+      "right": "9933/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "Wronskian_B_power",
+      "left": "38402/1",
+      "right": "38402/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "Wronskian_lambda_power_before_M",
+      "left": "9958/1",
+      "right": "9958/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "Wronskian_Kj_power_before_M",
+      "left": "13261/1",
+      "right": "13261/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "Wronskian_final_bit_exponent",
+      "left": "856354/1",
+      "right": "1048576/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "Wronskian_final_a_power",
+      "left": "9983/1",
+      "right": "9983/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "Wronskian_final_lambda_power",
+      "left": "9983/1",
+      "right": "9983/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "Wronskian_final_Kj_power",
+      "left": "13311/1",
+      "right": "13311/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "Wronskian_final_complex_coefficient",
+      "left": "3865745804946757910528/1",
+      "right": "4722366482869645213696/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "actual_tail_a_power",
+      "left": "48385/1",
+      "right": "48385/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "actual_tail_delta_power_round_down_lower_bound",
+      "left": "571107/2",
+      "right": "285554/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "actual_tail_J_power",
+      "left": "144890/1",
+      "right": "144890/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "actual_tail_m_power",
+      "left": "19966/1",
+      "right": "19966/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "actual_tail_fixed_bit_exponent",
+      "left": "81233305/1",
+      "right": "134217728/1",
+      "relation": "lt",
+      "pass": true
+    }
+  ],
+  "input": {
+    "kernel_proof": "results/R119-supplement-quantitative-transparent-resonance-kernel.md",
+    "git_blob": "8b5e908a0da26a3a6038de2808cbe41c9849f439",
+    "phase_control_proof_blob": "5214cfffb5d16f3aebb0105af8aab14b2b5188b1"
+  },
+  "construction": {
+    "G": "Q^(9/2) K",
+    "local_derivative_bound": "M21=2^152 B^5 M",
+    "width": "r=epsilon0/(16 M21)",
+    "test": "f=r^24 (1-((x-x1)/r)^2)_+^30",
+    "direction": "psi=sign*Q^(9/2) f^(20)/(2^220 B^5)",
+    "C4_norm": "sum of sup norms of derivatives 0..4, at most 1",
+    "regularity": "real compact C9, hence C5"
+  },
+  "exact_phase_tangency": true,
+  "full_phase_compensation_by_actual_two_bumps": true,
+  "compensating_parameters_first_derivatives_zero": true,
+  "normalized_Wronskian_derivative_lower": "2^(-2^20) a^9983 B^-38402 lambda^-9983 Kj^-13311 exp(-2^72 T)",
+  "explicit_tail_lower": "2^(-2^27) delta^285554 (j+5)^-144890 abs(m)^-19966 exp(-2^74*(j+5)-2^71*abs(m)*delta^(3/4)*sqrt(j+5))",
+  "actual_dt_measure_factor_retained": true,
+  "true_right_resonance_amplitude_factor_retained": true,
+  "fixed_actual_Robin_lines": true,
+  "whole_nonradial_middle_matrix_inverted": false,
+  "finite_epsilon_Wronskian_gap_or_bad_set_proved": false,
+  "low_frequency_source_radial_weight_changed": false,
+  "producer_sha256": "c99377ef79d6850f6fb2fced2e683aac753a1a9e865b1e7138758f862414c80f"
+}

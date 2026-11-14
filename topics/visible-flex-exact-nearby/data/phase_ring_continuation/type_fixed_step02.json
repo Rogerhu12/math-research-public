@@ -1,0 +1,94 @@
+{
+  "step": 2,
+  "checkpoint": "data/phase_ring_continuation/type_fixed_step02.npz",
+  "checkpoint_sha256": "05d3e59cf338c5d2a2bde13aad7bf1d4e5247c326efb46b3148793e75a7ea883",
+  "fixed_mean_coefficients": {
+    "0": 0.7396093769906578,
+    "2": -0.049352132159964625
+  },
+  "sampled_gates": {
+    "core_N_upper": 0.0,
+    "core_N_interval": [
+      0.0,
+      0.7
+    ],
+    "outer_curvature_floor": 0.0
+  },
+  "alpha": [
+    0.7396093769906578,
+    -0.005100267374734773,
+    -0.049352132159964625
+  ],
+  "diagnostic": {
+    "kind": "floating_actual_finite_primitive_samples_not_bounds",
+    "radial_samples": 1798,
+    "quarter_period_angles": 256,
+    "metric_operator_norm_sample": 7.84528321744493e-05,
+    "at_x": 0.04086012201851308,
+    "at_theta": 1.533980787885641,
+    "exact_angular_formula_vs_finite_primitive_jet_max": 7.410327906853809e-11,
+    "twice_sampled_radius": 2.5524944150525135,
+    "waist_radial_gap": 0.13145596189134223,
+    "gap_ratio_sample": 0.051500979244508055,
+    "actual_U4_at_waist": 0.05961295801299534,
+    "beta4_at_waist": 0.2074748402240008,
+    "phase_retained_metric_coefficient_sample": 1.6387817099260944e-05,
+    "phase_retained_peak": {
+      "mode": 4,
+      "component": "xx",
+      "x": 0.23457829476782235
+    },
+    "above_phase_cutoff_metric_coefficient_sample": 1.0611458976695518e-05,
+    "above_phase_cutoff_peak": {
+      "mode": 100,
+      "component": "xt",
+      "x": 0.025433389858829477
+    },
+    "max_abs_principal_curvature_sample": 7.584655791740184,
+    "minimum_support_sample": 0.9016708943736265,
+    "waist_second_form_samples": {
+      "detII_min": -1.843131151731501,
+      "detII_max": -0.5407939595061565,
+      "N_min": -8.665058142382328,
+      "N_max": -0.4118455605286286,
+      "gauss_min": -1.312014162499789,
+      "gauss_max": -0.38494584758248274
+    }
+  },
+  "type_diagnostic": {
+    "kind": "floating_sampled_full_body_type_not_bounds",
+    "radial_samples": 582,
+    "quarter_period_angles": 256,
+    "target_K0_sign_crossings_linear_samples": [
+      0.23847516397747534
+    ],
+    "target_outer_minimum": 0.02933788299560547,
+    "actual_outer_Gauss_minimum": 0.029338039402925255,
+    "actual_outer_minimum_x": 3.0,
+    "target_ring_minimum": 0.06379181062289867,
+    "actual_ring_Gauss_minimum": 0.06352375031229714,
+    "actual_N_core_maximum": -0.4118455605286286,
+    "actual_N_core_minimum": -8.665058142382328,
+    "actual_N_full_maximum": -3.005917923356642e-11,
+    "actual_N_full_minimum": -8.665058142382328,
+    "target_at_0445": 0.06558416311547534,
+    "actual_Gauss_at_0445": [
+      0.06534398358471709,
+      0.06578891276351069
+    ]
+  },
+  "limitations": [
+    "Floating samples",
+    "Finite Robin endpoint",
+    "Sampled type gates are not continuous positivity certificates"
+  ],
+  "run_source_file": "scripts/fourfold_phase_constrained_multi.py",
+  "run_source_hash": "60ad13a4398fac8cf7b3b58ecda166f8e1b90864e07f52ec283fefc9828a09a9",
+  "current_reproducer_hash": "60ad13a4398fac8cf7b3b58ecda166f8e1b90864e07f52ec283fefc9828a09a9",
+  "dependency_hashes": {
+    "fourfold_phase_constrained.py": "3956b88e336ebc46dda54c0f3cf57c2da8996a6fd8a553393d942f3e9bb4cad6",
+    "fourfold_phase_newton.py": "633f1bd59e2a30b082a7915a38e0d0e27ce6d01aae6368675847235bb9bd38e5",
+    "fourfold_banded_normal.py": "78cb675a88b980b8660b0d768df12332328ec16736da2f842552d68574f18a66"
+  },
+  "meaning": "accepted nonlinear correction 2"
+}

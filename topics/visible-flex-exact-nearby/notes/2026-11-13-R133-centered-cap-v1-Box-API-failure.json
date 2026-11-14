@@ -1,0 +1,14 @@
+{
+  "kind": "preserved_nonzero_centre_consumer_API_failure",
+  "source_path": "scripts/fourfold_codazzi_cap_centered_residual.py",
+  "source_sha256": "f4a4807d10ac356d3929377c2ba60aec5bd4e1d63674784d3965a2c5e0341c4f",
+  "actual_exit_code": 1,
+  "actual_session": 70509,
+  "error": "TypeError: 'Box' object does not support item assignment",
+  "line": 109,
+  "complete_native_written": false,
+  "mathematical_gate_evaluated": false,
+  "repair": "Separate v2 uses explicit endpoint-array copying for interval assignments and handles scalar norm reductions. Frozen Box arithmetic and all mathematical formulas remain unchanged.",
+  "repaired_source_path": "scripts/fourfold_codazzi_cap_centered_residual_v2.py",
+  "repaired_source_sha256": "822adf25ee2b07c1ca81b2fe8115f5ea8961f9e6edddc8bf1d257416127a1532"
+}

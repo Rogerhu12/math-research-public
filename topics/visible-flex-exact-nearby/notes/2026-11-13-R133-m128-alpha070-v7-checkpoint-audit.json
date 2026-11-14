@@ -1,0 +1,60 @@
+{
+  "kind": "actual_alpha070_resource_failure_checkpoint_archive_and_parameter_description",
+  "rows": [
+    {
+      "original_path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-m128-alpha070-floating/accepted-000.npz",
+      "archive_path": "notes/2026-11-13-R133-m128-alpha070-accepted-v7-000.npz.gz",
+      "payload_sha256": "9c0aee66fb97c31ba648f61f379c8b40e37131a010e25cc361ea94a2ba1b3726",
+      "archive_sha256": "6126a8b7f064e5f58bf0b7e3b5fde21ef72225525c175f67878e8c4952b0a3c3",
+      "bytes": 2615829,
+      "nodes": 651,
+      "runtime_nu": 0.017516293704616163,
+      "correct_exact_float_nu": "5048727923265377/288230376151711744",
+      "inherited_exact_float_nu": "-6837290349363917/288230376151711744",
+      "amplitude": 0.7,
+      "complete_state_and_derivative_retained": true
+    },
+    {
+      "original_path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-m128-alpha070-floating/accepted-001.npz",
+      "archive_path": "notes/2026-11-13-R133-m128-alpha070-accepted-v7-001.npz.gz",
+      "payload_sha256": "69b3624c125bc59fa08417ad0a04bbe23db929a278621418e84bf129ac74e70d",
+      "archive_sha256": "95df2856c7617fcc0d9069fedd8bb75afaa9d40c7983cdd28246aff81165910d",
+      "bytes": 2615938,
+      "nodes": 651,
+      "runtime_nu": -0.027097681962394208,
+      "correct_exact_float_nu": "-7810375064860337/288230376151711744",
+      "inherited_exact_float_nu": "-6837290349363917/288230376151711744",
+      "amplitude": 0.7,
+      "complete_state_and_derivative_retained": true
+    },
+    {
+      "original_path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-m128-alpha070-floating/accepted-002.npz",
+      "archive_path": "notes/2026-11-13-R133-m128-alpha070-accepted-v7-002.npz.gz",
+      "payload_sha256": "23cf25f90c754c649b3bb5a65e11cd13334ece8d5a47a9eca3bdfe8de957cd5c",
+      "archive_sha256": "f6fe0eeeeae507fb10dd9734f4cd819ebf45e00ce1b9d8a78b05bfebacbde357",
+      "bytes": 2616449,
+      "nodes": 651,
+      "runtime_nu": -0.02846263801484825,
+      "correct_exact_float_nu": "-8203796861289721/288230376151711744",
+      "inherited_exact_float_nu": "-6837290349363917/288230376151711744",
+      "amplitude": 0.7,
+      "complete_state_and_derivative_retained": true
+    },
+    {
+      "original_path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-m128-alpha070-floating/accepted-003.npz",
+      "archive_path": "notes/2026-11-13-R133-m128-alpha070-accepted-v7-003.npz.gz",
+      "payload_sha256": "40374844b2cad784239fd8f9dac161cc6b744fdc86dc5b46fec93f55bc92b49f",
+      "archive_sha256": "a330d00717c86dc73249b662e96fbd04cc31a1419abcdeff4b3c7935a8378c23",
+      "bytes": 2614705,
+      "nodes": 651,
+      "runtime_nu": -0.028462943388345506,
+      "correct_exact_float_nu": "-4101942439603851/144115188075855872",
+      "inherited_exact_float_nu": "-6837290349363917/288230376151711744",
+      "amplitude": 0.7,
+      "complete_state_and_derivative_retained": true
+    }
+  ],
+  "old_checkpoint_bytes_preserved": true,
+  "known_v7_description_error": "exact_float_nu inherited from alpha .65 warm start; nu is the correct runtime field and is used for actual resume.",
+  "alpha070_final_finite_BVP_success_claimed": false
+}

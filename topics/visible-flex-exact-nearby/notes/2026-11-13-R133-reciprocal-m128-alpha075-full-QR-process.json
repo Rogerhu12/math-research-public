@@ -1,0 +1,63 @@
+{
+  "kind": "explicit_bounded_floating_Codazzi_producer_process",
+  "complete": true,
+  "certified": false,
+  "source_sha256": "56a1acf4aa643678ce2cdad7d2edba72da10de464c931c60acb377e77cdd932b",
+  "producer": "scripts/fourfold_codazzi_reciprocal_branch_refine_probe.py",
+  "producer_sha256": "331b68f1c11fe625c267620e983786cb5f0f388731b8782e64cd372ee17d1232",
+  "producer_arguments": [
+    "--guess",
+    "notes/2026-11-13-R133-compact-metric-m128-alpha075-v14-full-QR-candidate.json",
+    "--modes",
+    "128",
+    "--angles",
+    "1024",
+    "--amplitude",
+    ".75",
+    "--mean-boundary",
+    "outer",
+    "--mesh-stride",
+    "1",
+    "--tol",
+    "2e-6",
+    "--max-nodes",
+    "1600",
+    "--jac-chunk",
+    "4",
+    "--qr-storage",
+    "memory",
+    "--out",
+    "notes/2026-11-13-R133-reciprocal-m128-alpha075-full-QR-floating.json",
+    "--candidate",
+    "notes/2026-11-13-R133-reciprocal-m128-alpha075-full-QR-candidate.json"
+  ],
+  "address_space_limit_bytes": 3758096384,
+  "address_space_limit_MiB": 3584,
+  "limit_kind": "RLIMIT_AS address space, not resident memory",
+  "mathematical_equations_or_tolerances_modified": false,
+  "status": "producer_returned_normally",
+  "all_accepted_checkpoints": [
+    {
+      "path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-reciprocal-m128-alpha075-full-QR-floating/accepted-000.npz",
+      "sha256": "03fee964069b08daa1a45897a66e6f13f5d9e9960c51f069eadc7e746b719cce",
+      "bytes": 5439659
+    },
+    {
+      "path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-reciprocal-m128-alpha075-full-QR-floating/accepted-001.npz",
+      "sha256": "5e9d07abfd9e6efee03673f57766c56b42ed9d6369abcf2fe8f8b23f726edf44",
+      "bytes": 5465321
+    },
+    {
+      "path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-reciprocal-m128-alpha075-full-QR-floating/accepted-002.npz",
+      "sha256": "cd0c3508cbac8d015c9de70f31804e2aea2ed3655e6a14081fbc90526704716c",
+      "bytes": 5465967
+    }
+  ],
+  "producer_output": "notes/2026-11-13-R133-reciprocal-m128-alpha075-full-QR-floating.json",
+  "process_wrapper_exit_code": 0,
+  "peak_resident_KiB": 2645340,
+  "wall_seconds": 157.7568218600063,
+  "producer_output_exists": true,
+  "scope": "Only a process allocation guard and complete checkpoint inventory. A normal producer return does not mean its finite BVP converged; the separate producer report retains all actual solver/math gates.",
+  "producer_output_sha256": "11bbee8b1884be035ce518e7022b4487819246ad570afcf68573983b1db19dcd"
+}

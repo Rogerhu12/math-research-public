@@ -1,0 +1,29 @@
+{
+  "kind": "root_actual_complete_row_small_batch_equivalence_and_first_C0",
+  "complete": true,
+  "complete_first_row_JSON_identical": true,
+  "all_original_8192_closed_angle_computations_retained": true,
+  "original_interrupted_request_still_incomplete": true,
+  "original_interrupted_row_used_only_for_finite_equivalence": true,
+  "inputs": {
+    "notes/2026-11-13-Codazzi-positive-weight-batched-s10-first-native.json.gz": "9125379a75220b02ecbb99292559eef085bce51f56f7c66c71a64ecf53e351f4",
+    "notes/2026-11-13-Codazzi-positive-weight-cubic-s10-r02-native.json.gz": "cc015ef92041a2855b0e9cc8c6eba11b36c209569af195489972e3e05b2e48c6",
+    "notes/2026-11-13-Codazzi-positive-weight-batched-s10-first-C0-native.json.gz": "700880488456554b7855c0f802eeb7608ac97fb72f308114910820ccb312c946"
+  },
+  "original_source": "d467ee2b62c32365c98526fd06a1c0752f4538483a630a62124ace472c75da5c",
+  "small_batch_source": "369cb177be97cfc39765fc8902cda7ca74bca0384c8185967dd98f337d5df2f0",
+  "small_batch_consumer": "de8bb109898f8cc39ce2f41233f78f11338fbbaec575b5266b9839107774387f",
+  "passed_tubes": [
+    "1/500",
+    "1/200",
+    "1/100",
+    "1/50",
+    "1/16"
+  ],
+  "best_certified_tube": "1/500",
+  "requested_interval": [
+    "0",
+    "1152921504606847/2305843009213693952"
+  ],
+  "full_two_tenths_continuation_proved": false
+}

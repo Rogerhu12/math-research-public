@@ -1,0 +1,452 @@
+{
+  "kind": "R108_complete_canonical_compact_stream_actual_budget",
+  "proved_actual_coefficient_and_mean_budget": true,
+  "proved_new_full_cap_gap": false,
+  "actual_identity": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "angular_normalization": "unaveraged integral; e_phi=(2*pi/q)^(-1/2); physical e_theta=(2*pi)^(-1/2)",
+  "paid_canonical_height": "49/102400",
+  "true_root_height_upper": {
+    "numerator": "1477443",
+    "denominator": "1000000",
+    "decimal_upper": "1.477443000000000000"
+  },
+  "complete_principal_relative_error_upper": {
+    "numerator": "776429",
+    "denominator": "500000000000",
+    "decimal_upper": "0.000001552858000000"
+  },
+  "complete_height_log_derivative_upper": {
+    "numerator": "1670899",
+    "denominator": "50000",
+    "decimal_upper": "33.417980000000000000"
+  },
+  "complete_height_upper": {
+    "numerator": "7564508160",
+    "denominator": "5038125949",
+    "decimal_upper": "1.501452769655640064"
+  },
+  "inverse_density_factor_including_normalized_matrix": {
+    "numerator": "9536963950451097600000000000000",
+    "denominator": "4230445610373014290671548672057",
+    "decimal_upper": "2.254363920213640956"
+  },
+  "clean_inverse_density_factor": {
+    "numerator": "2257",
+    "denominator": "1000",
+    "decimal_upper": "2.257000000000000000"
+  },
+  "gap_mean_coefficient": {
+    "numerator": "2053968876826680704123",
+    "denominator": "62500000000000000000000",
+    "decimal_upper": "0.032863502029226892"
+  },
+  "gap_R1_coefficient": {
+    "numerator": "11302183977537106263",
+    "denominator": "1000000000000000000000000",
+    "decimal_upper": "0.000011302183977538"
+  },
+  "coefficient_bounds": {
+    "I0": {
+      "numerator": "831",
+      "denominator": "1000",
+      "decimal_upper": "0.831000000000000000"
+    },
+    "I1": {
+      "numerator": "744503",
+      "denominator": "500000",
+      "decimal_upper": "1.489006000000000000"
+    },
+    "mu0": {
+      "numerator": "4988043",
+      "denominator": "200000",
+      "decimal_upper": "24.940215000000000000"
+    },
+    "mu1": {
+      "numerator": "15622673",
+      "denominator": "500000",
+      "decimal_upper": "31.245346000000000000"
+    },
+    "Yprime_lower": {
+      "numerator": "55953",
+      "denominator": "1000000",
+      "decimal_upper": "0.055953000000000000"
+    },
+    "L1": {
+      "numerator": "1489006",
+      "denominator": "55953",
+      "decimal_upper": "26.611727700033957072"
+    },
+    "H2": {
+      "numerator": "4145063733",
+      "denominator": "200000000",
+      "decimal_upper": "20.725318665000000000"
+    },
+    "L2": {
+      "numerator": "2103367076743",
+      "denominator": "1865100000",
+      "decimal_upper": "1127.750295824888745912"
+    },
+    "B0": {
+      "numerator": "692327",
+      "denominator": "1",
+      "decimal_upper": "692327.000000000000000000"
+    },
+    "B1": {
+      "numerator": "143113",
+      "denominator": "1",
+      "decimal_upper": "143113.000000000000000000"
+    },
+    "V0": {
+      "numerator": "5176",
+      "denominator": "1",
+      "decimal_upper": "5176.000000000000000000"
+    },
+    "V1": {
+      "numerator": "1186",
+      "denominator": "1",
+      "decimal_upper": "1186.000000000000000000"
+    },
+    "Db": {
+      "numerator": "5724520",
+      "denominator": "1",
+      "decimal_upper": "5724520.000000000000000000"
+    },
+    "Dv": {
+      "numerator": "47440",
+      "denominator": "1",
+      "decimal_upper": "47440.000000000000000000"
+    }
+  },
+  "tables": [
+    {
+      "canonical_high_input_cutoff": 64,
+      "all_output_modes_and_mean_retained": true,
+      "Lambda_strict_lower": "2527",
+      "cube_Lambda_strict_lower": "1361/100",
+      "full_mean_functional_upper": {
+        "numerator": "307492395735218875383",
+        "denominator": "3676864334310747650000",
+        "decimal_upper": "0.083628975066021941"
+      },
+      "complete_gap_mean_fee": {
+        "numerator": "631579810701012737303263481679138631304109",
+        "denominator": "229804020894421728125000000000000000000000000",
+        "decimal_upper": "0.002748340991784378"
+      },
+      "root_contact_mean_fee": {
+        "numerator": "462397381999852696692231443311897451402834085687014055974706493533",
+        "denominator": "45960804178884345625000000000000000000000000000000000000000000000000",
+        "decimal_upper": "0.010060689543206269"
+      },
+      "root_contact_R1_coefficient": {
+        "numerator": "8274647469008242398238022186268044581872231",
+        "denominator": "200000000000000000000000000000000000000000000000",
+        "decimal_upper": "0.000041373237345042"
+      },
+      "root_and_regular_contact_mean_fee": {
+        "numerator": "1266247116178163393383378659996615231851403470929517692459720295787",
+        "denominator": "57451005223605432031250000000000000000000000000000000000000000000000",
+        "decimal_upper": "0.022040469287696443"
+      },
+      "root_and_regular_contact_R1_coefficient": {
+        "numerator": "22659618983366050774821510869076278242353009",
+        "denominator": "250000000000000000000000000000000000000000000000",
+        "decimal_upper": "0.000090638475933465"
+      },
+      "root_contact": {
+        "numerator": "732128187388734785543537",
+        "denominator": "200000000000000000000000",
+        "decimal_upper": "3.660640936943673928"
+      },
+      "root_and_regular_contact": {
+        "numerator": "2004888526713213013069943",
+        "denominator": "250000000000000000000000",
+        "decimal_upper": "8.019554106852852053"
+      }
+    },
+    {
+      "canonical_high_input_cutoff": 128,
+      "all_output_modes_and_mean_retained": true,
+      "Lambda_strict_lower": "5015",
+      "cube_Lambda_strict_lower": "1711/100",
+      "full_mean_functional_upper": {
+        "numerator": "1010197354380463449549",
+        "denominator": "22887205311155641250000",
+        "decimal_upper": "0.044138082419703503"
+      },
+      "complete_gap_mean_fee": {
+        "numerator": "2074913925350124848051675519832232806790527",
+        "denominator": "1430450331947227578125000000000000000000000000",
+        "decimal_upper": "0.001450531961166110"
+      },
+      "root_contact_mean_fee": {
+        "numerator": "6016454059627630966940125526466835289453159636679324114457104637677",
+        "denominator": "1430450331947227578125000000000000000000000000000000000000000000000000",
+        "decimal_upper": "0.004205985992842981"
+      },
+      "root_contact_R1_coefficient": {
+        "numerator": "32771995909583188309512421826851208047514613",
+        "denominator": "1000000000000000000000000000000000000000000000000",
+        "decimal_upper": "0.000032771995909584"
+      },
+      "root_and_regular_contact_mean_fee": {
+        "numerator": "551068176233240572711696611930059919818622187400797476427662533787",
+        "denominator": "49325873515421640625000000000000000000000000000000000000000000000000",
+        "decimal_upper": "0.011171990214444964"
+      },
+      "root_and_regular_contact_R1_coefficient": {
+        "numerator": "87049366838764507888007343333114194962342887",
+        "denominator": "1000000000000000000000000000000000000000000000000",
+        "decimal_upper": "0.000087049366838765"
+      },
+      "root_contact": {
+        "numerator": "2899616213531558076930451",
+        "denominator": "1000000000000000000000000",
+        "decimal_upper": "2.899616213531558077"
+      },
+      "root_and_regular_contact": {
+        "numerator": "7701995208339698576472049",
+        "denominator": "1000000000000000000000000",
+        "decimal_upper": "7.701995208339698577"
+      }
+    },
+    {
+      "canonical_high_input_cutoff": 256,
+      "all_output_modes_and_mean_retained": true,
+      "Lambda_strict_lower": "9992",
+      "cube_Lambda_strict_lower": "2153/100",
+      "full_mean_functional_upper": {
+        "numerator": "1832317270928103699903",
+        "denominator": "71930617140828404800000",
+        "decimal_upper": "0.025473398446460228"
+      },
+      "complete_gap_mean_fee": {
+        "numerator": "3763522646958325965008784743372973526800069",
+        "denominator": "4495663571301775300000000000000000000000000000",
+        "decimal_upper": "0.000837145081536551"
+      },
+      "root_contact_mean_fee": {
+        "numerator": "8653553539362326474058407470170503898185824576369412715126413058363",
+        "denominator": "4495663571301775300000000000000000000000000000000000000000000000000000",
+        "decimal_upper": "0.001924866797107014"
+      },
+      "root_contact_R1_coefficient": {
+        "numerator": "25987369636365948358619966364314771216594601",
+        "denominator": "1000000000000000000000000000000000000000000000000",
+        "decimal_upper": "0.000025987369636366"
+      },
+      "root_and_regular_contact_mean_fee": {
+        "numerator": "7053458048956772372348793854816320291549221376889105569408956721089",
+        "denominator": "1123915892825443825000000000000000000000000000000000000000000000000000",
+        "decimal_upper": "0.006275788156376084"
+      },
+      "root_and_regular_contact_R1_coefficient": {
+        "numerator": "21182144502725006771427247543452074693125803",
+        "denominator": "250000000000000000000000000000000000000000000000",
+        "decimal_upper": "0.000084728578010901"
+      },
+      "root_contact": {
+        "numerator": "2299322828934247817238527",
+        "denominator": "1000000000000000000000000",
+        "decimal_upper": "2.299322828934247818"
+      },
+      "root_and_regular_contact": {
+        "numerator": "1874163838141738792549581",
+        "denominator": "250000000000000000000000",
+        "decimal_upper": "7.496655352566955171"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "all_original_reports_proved",
+      "passed": true
+    },
+    {
+      "name": "same_actual_identity_exact_parameter_interval",
+      "passed": true
+    },
+    {
+      "name": "same_actual_identity_exact_center_parameter",
+      "passed": true
+    },
+    {
+      "name": "same_actual_identity_exact_parameter_half_width",
+      "passed": true
+    },
+    {
+      "name": "same_actual_identity_origin_inputs_sha256",
+      "passed": true
+    },
+    {
+      "name": "same_actual_identity_direction_sha256",
+      "passed": true
+    },
+    {
+      "name": "same_eta_1e-9",
+      "passed": true
+    },
+    {
+      "name": "R96_all_178_cells",
+      "passed": true
+    },
+    {
+      "name": "true_root_height_sup",
+      "passed": true
+    },
+    {
+      "name": "true_inverse_height_sup",
+      "passed": true
+    },
+    {
+      "name": "true_inverse_height_physical_first_derivative",
+      "passed": true
+    },
+    {
+      "name": "true_root_momentum_shear_sup",
+      "passed": true
+    },
+    {
+      "name": "true_root_momentum_shear_physical_derivative",
+      "passed": true
+    },
+    {
+      "name": "true_root_angle_derivative_lower",
+      "passed": true
+    },
+    {
+      "name": "true_principal_normalized_error",
+      "passed": true
+    },
+    {
+      "name": "true_covariant_log_height_derivative",
+      "passed": true
+    },
+    {
+      "name": "true_height_positive_lower",
+      "passed": true
+    },
+    {
+      "name": "same_paid_canonical_height",
+      "passed": true
+    },
+    {
+      "name": "height_drift_denominator_positive",
+      "passed": true
+    },
+    {
+      "name": "actual_full_inverse_density_not_height_only",
+      "passed": true
+    },
+    {
+      "name": "complete_actual_b_M0",
+      "passed": true
+    },
+    {
+      "name": "complete_actual_b_M1",
+      "passed": true
+    },
+    {
+      "name": "complete_actual_v0_M0",
+      "passed": true
+    },
+    {
+      "name": "complete_actual_v0_M1",
+      "passed": true
+    },
+    {
+      "name": "complete_actual_q_lower",
+      "passed": true
+    },
+    {
+      "name": "complete_actual_q_upper",
+      "passed": true
+    },
+    {
+      "name": "strict_frequency_lower_K64",
+      "passed": true
+    },
+    {
+      "name": "strict_cube_lower_K64",
+      "passed": true
+    },
+    {
+      "name": "strict_frequency_lower_K128",
+      "passed": true
+    },
+    {
+      "name": "strict_cube_lower_K128",
+      "passed": true
+    },
+    {
+      "name": "strict_frequency_lower_K256",
+      "passed": true
+    },
+    {
+      "name": "strict_cube_lower_K256",
+      "passed": true
+    }
+  ],
+  "unpaid_input": "R1 = sup_y || P_can(chi U_completed)(y)/y || from all continuous angles/radii, all cutoff, full E and height terms",
+  "scope": [
+    "Full physical cap with unchanged Robin form; compact primal and solenoidal dual vanish before outer port.",
+    "Canonical input high projection never replaces physical projection or removes low output rows.",
+    "No new wide-collar geometry was sampled; actual range is only the already proved R96 collar.",
+    "A fixed y^2 completion alone does not authorize high-input strong gain; R108 supplies right-input Airy localization."
+  ],
+  "input_reports": [
+    {
+      "key": "frame",
+      "path": "notes/2026-11-12-ci-actual-root-Cauchy-frame-Fourier-summary.json",
+      "sha256": "8c13c40e1ea65eb05a97eaeb79cba1ab49f8ebe734ad598d0b382a0afe6890bf"
+    },
+    {
+      "key": "v0",
+      "path": "notes/2026-11-12-ci-canonical-v0-scaled-Wiener-summary.json",
+      "sha256": "66112956b245389aa38c3d07244685ad31c29f7aae0575b8986bf80b54459ce8"
+    },
+    {
+      "key": "v1",
+      "path": "notes/2026-11-12-ci-canonical-v1-scaled-Wiener-summary.json",
+      "sha256": "c0050bf6f15666f1b0283d7d232c10a167d08a4bb69e42c6cc5653dc51c94c3b"
+    },
+    {
+      "key": "contact",
+      "path": "notes/2026-11-12-ci-direct-canonical-source-summary.json",
+      "sha256": "826bda30e5d42bf47efc4fb5daa3bf6da1361bb2f4ee737486f89be9c597ca09"
+    },
+    {
+      "key": "root",
+      "path": "notes/2026-11-12-actual-common-root-high-remainder.json",
+      "sha256": "e727251cd6c187ded5782aff3a03401301d21b83fd03d419f31f716862be6253"
+    }
+  ],
+  "source_sha256": "990fee2aa077fdc666be234184f4dc89cf2d0944a8039de69f62de1c1c3d7bf7",
+  "execution": {
+    "full_native_entry_executed": true,
+    "arithmetic": "Python exact Fraction, integer isqrt, directed rational decimals; no binary floating point",
+    "reconstructed_after_executor_loss": true,
+    "lost_old_report_reused": false
+  }
+}

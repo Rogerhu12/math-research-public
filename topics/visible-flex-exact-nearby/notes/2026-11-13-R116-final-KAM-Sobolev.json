@@ -1,0 +1,618 @@
+{
+  "kind": "R116_actual_final_KAM_coordinates_complete_Sobolev_budget",
+  "complete": true,
+  "arithmetic": "exact reduced BigInt rational comparisons; no sampled norm or native rerun",
+  "identity": {
+    "exact_parameter_center": "-7789843107295549/4611686018427387904",
+    "parameter_half_width": "1/1000000000",
+    "final_parameter_distance_bound": {
+      "exact": "60152095032711845598304535112543939589417640303469492756224188641680787230903958835941345715163990809450622469169930983744020504926466305169235197569989231214549457120431732841391513325833421597875677682876125860810947812034998434660311275414672148661005587679040728817907862845570443020429891708629872326898070364448364505800397406146433122190256466533130760990825314947/1838257934929923107536269336979803027525920787376000543793913498098200948281674069935282380818099299894000356411777524661186785346176598212632045764971542551818278254695386867655044406354493091888776490199531517393692059714980788341794590846553996295522039784969619815824097280000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "lower_decimal": "0.000000000032722336669801958595",
+      "upper_decimal": "0.000000000032722336669801958596"
+    },
+    "original_H_sha256": "0439d88f10f46d367e44a984db661ac3806a7bd052f46eca14e71594fa8eb2c2",
+    "original_reference_descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+    "final_conjugacy": "H_infinity = H o J o Phi",
+    "original_to_final_label_map": "chi = J o Phi",
+    "full_time_self_circle_map": "psi_infinity(tau,z) = 4 Theta(tau,chi(z),p_infinity)",
+    "actual_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848"
+  },
+  "actual_KAM_data": {
+    "final_width": "1/2048",
+    "phi_norm": {
+      "exact": "551262191/50000000000000000",
+      "lower_decimal": "0.000000011025243820000000000000",
+      "upper_decimal": "0.000000011025243820000000000000"
+    },
+    "phi_first_norm": {
+      "exact": "656863981/20000000000000",
+      "lower_decimal": "0.000032843199050000000000000000",
+      "upper_decimal": "0.000032843199050000000000000000"
+    },
+    "finite_w_norm": {
+      "exact": "9/1000000000000",
+      "lower_decimal": "0.000000000009000000000000000000",
+      "upper_decimal": "0.000000000009000000000000000000"
+    },
+    "finite_w_first": {
+      "exact": "3/2500000000",
+      "lower_decimal": "0.000000001200000000000000000000",
+      "upper_decimal": "0.000000001200000000000000000000"
+    },
+    "finite_w_second": {
+      "exact": "381/1000000000",
+      "lower_decimal": "0.000000381000000000000000000000",
+      "upper_decimal": "0.000000381000000000000000000000"
+    },
+    "exp_one_strict_lower": "163/60",
+    "derived_real_phi_second": {
+      "exact": "1970591943/79589843750",
+      "lower_decimal": "0.024759339259288343558282208588",
+      "upper_decimal": "0.024759339259288343558282208589"
+    }
+  },
+  "chi": {
+    "displacement_at_final_width": {
+      "exact": "551712191/50000000000000000",
+      "lower_decimal": "0.000000011034243820000000000000",
+      "upper_decimal": "0.000000011034243820000000000000"
+    },
+    "real_derivative_lower": {
+      "exact": "49998357780049470591943/50000000000000000000000",
+      "lower_decimal": "0.999967155600989411838860000000",
+      "upper_decimal": "0.999967155600989411838860000000"
+    },
+    "real_derivative_upper": {
+      "exact": "50001642219954470591943/50000000000000000000000",
+      "lower_decimal": "1.000032844399089411838860000000",
+      "upper_decimal": "1.000032844399089411838860000000"
+    },
+    "real_second_derivative": {
+      "exact": "1614333764474526451727831002560723183/65200000000000000000000000000000000000",
+      "lower_decimal": "0.024759720314026479320979003106",
+      "upper_decimal": "0.024759720314026479320979003107"
+    },
+    "analytic_inverse_width": "1/4096",
+    "analytic_inverse_displacement": {
+      "exact": "551712191/25000000000000000",
+      "lower_decimal": "0.000000022068487640000000000000",
+      "upper_decimal": "0.000000022068487640000000000000"
+    },
+    "full_height_Hs_and_density_Hminus_s_both_for_0_le_s_le_1": {
+      "exact": "1000017/1000000",
+      "lower_decimal": "1.000017000000000000000000000000",
+      "upper_decimal": "1.000017000000000000000000000000"
+    },
+    "strong_height": [
+      {
+        "kappa": "1",
+        "chi_H2_forward": {
+          "exact": "132020860990599245723873018760535766715294111/130400000000000000000000000000000000000000000",
+          "lower_decimal": "1.012429915572080105244424990494",
+          "upper_decimal": "1.012429915572080105244424990495"
+        },
+        "chi_H2_inverse": {
+          "exact": "20626251903740565297219968426183326505832591751287748950000000000000000/20372992452048627537779467003863385280564391555653822966467568114325541",
+          "lower_decimal": "1.012431136578881468672959097481",
+          "upper_decimal": "1.012431136578881468672959097482"
+        },
+        "chi_H5over4_both": {
+          "exact": "251/250",
+          "lower_decimal": "1.004000000000000000000000000000",
+          "upper_decimal": "1.004000000000000000000000000000"
+        },
+        "actual_all_time_height_H5over4_forward": {
+          "exact": "5271/250",
+          "lower_decimal": "21.084000000000000000000000000000",
+          "upper_decimal": "21.084000000000000000000000000000"
+        },
+        "actual_all_time_height_H5over4_inverse": {
+          "exact": "24849/250",
+          "lower_decimal": "99.396000000000000000000000000000",
+          "upper_decimal": "99.396000000000000000000000000000"
+        }
+      },
+      {
+        "kappa": "4",
+        "chi_H2_forward": {
+          "exact": "70892814217575469221437624205138266715294111/69275000000000000000000000000000000000000000",
+          "lower_decimal": "1.023353507290876495437569458031",
+          "upper_decimal": "1.023353507290876495437569458032"
+        },
+        "chi_H2_inverse": {
+          "exact": "354429941445187709705889878188134753838124632428141732150000000000000000/346340871684826668142250939065677549769594656446114990429948657943534197",
+          "lower_decimal": "1.023355804704800097490860614021",
+          "upper_decimal": "1.023355804704800097490860614022"
+        },
+        "chi_H5over4_both": {
+          "exact": "503/500",
+          "lower_decimal": "1.006000000000000000000000000000",
+          "upper_decimal": "1.006000000000000000000000000000"
+        },
+        "actual_all_time_height_H5over4_forward": {
+          "exact": "503/20",
+          "lower_decimal": "25.150000000000000000000000000000",
+          "upper_decimal": "25.150000000000000000000000000000"
+        },
+        "actual_all_time_height_H5over4_inverse": {
+          "exact": "14587/125",
+          "lower_decimal": "116.696000000000000000000000000000",
+          "upper_decimal": "116.696000000000000000000000000000"
+        }
+      }
+    ]
+  },
+  "all_time_final_frame": {
+    "common_kappa_height_Hhalf_forward": {
+      "exact": "3023051391/1000000000",
+      "lower_decimal": "3.023051391000000000000000000000",
+      "upper_decimal": "3.023051391000000000000000000000"
+    },
+    "common_kappa_height_Hhalf_inverse": {
+      "exact": "2491042347/1000000000",
+      "lower_decimal": "2.491042347000000000000000000000",
+      "upper_decimal": "2.491042347000000000000000000000"
+    },
+    "common_kappa_density_Hminus_half_forward": {
+      "exact": "2491042347/1000000000",
+      "lower_decimal": "2.491042347000000000000000000000",
+      "upper_decimal": "2.491042347000000000000000000000"
+    },
+    "common_kappa_density_Hminus_half_inverse": {
+      "exact": "3023051391/1000000000",
+      "lower_decimal": "3.023051391000000000000000000000",
+      "upper_decimal": "3.023051391000000000000000000000"
+    },
+    "relative_same_leg_frame_unchanged": {
+      "height_Hs_both_directions_for_0_le_s_le_1": "3101/500",
+      "density_Hminus_s_both_directions_for_0_le_s_le_1": "3101/500",
+      "common_scale_symplectic_port_both_directions": "3101/500"
+    },
+    "relative_all_two_leg_frames": {
+      "complete_derivative_ratio": {
+        "exact": "625870555667170108399350531/16272753184879388654711969",
+        "lower_decimal": "38.461257818912158007167569988860",
+        "upper_decimal": "38.461257818912158007167569988861"
+      },
+      "full_height_Hs_and_density_Hminus_s_both_for_0_le_s_le_1": {
+        "exact": "3101/500",
+        "lower_decimal": "6.202000000000000000000000000000",
+        "upper_decimal": "6.202000000000000000000000000000"
+      },
+      "reason": "same-leg chi cancels; different legs use their complete derivative ratio, not an uncharged cancellation"
+    },
+    "physical_kappa4_to_label_kappa1_height_Hhalf": {
+      "exact": "3023051391/1000000000",
+      "lower_decimal": "3.023051391000000000000000000000",
+      "upper_decimal": "3.023051391000000000000000000000"
+    },
+    "label_kappa1_to_physical_kappa4_height_Hhalf": {
+      "exact": "2491042347/500000000",
+      "lower_decimal": "4.982084694000000000000000000000",
+      "upper_decimal": "4.982084694000000000000000000000"
+    },
+    "physical_kappa4_to_label_kappa1_density_Hminus_half": {
+      "exact": "2491042347/500000000",
+      "lower_decimal": "4.982084694000000000000000000000",
+      "upper_decimal": "4.982084694000000000000000000000"
+    },
+    "label_kappa1_to_physical_kappa4_density_Hminus_half": {
+      "exact": "3023051391/1000000000",
+      "lower_decimal": "3.023051391000000000000000000000",
+      "upper_decimal": "3.023051391000000000000000000000"
+    },
+    "natural_scale_port_both_directions_upper": {
+      "exact": "4983/1000",
+      "lower_decimal": "4.983000000000000000000000000000",
+      "upper_decimal": "4.983000000000000000000000000000"
+    },
+    "natural_scale_height_H5over4_forward": {
+      "exact": "5271/250",
+      "lower_decimal": "21.084000000000000000000000000000",
+      "upper_decimal": "21.084000000000000000000000000000"
+    },
+    "natural_scale_height_H5over4_inverse_upper": {
+      "exact": "563",
+      "lower_decimal": "563.000000000000000000000000000000",
+      "upper_decimal": "563.000000000000000000000000000000"
+    }
+  },
+  "sharper_final_root_frame": {
+    "real_derivative_lower": {
+      "exact": "1538411010463/5280000000000",
+      "lower_decimal": "0.291365721678598484848484848484",
+      "upper_decimal": "0.291365721678598484848484848485"
+    },
+    "real_derivative_upper": {
+      "exact": "1050034486619043882430803/250000000000000000000000",
+      "lower_decimal": "4.200137946476175529723212000000",
+      "upper_decimal": "4.200137946476175529723212000000"
+    },
+    "real_second_derivative": {
+      "exact": "459740574232613153716715099901/31835937500000000000000000000",
+      "lower_decimal": "14.440930920680854889752032585847",
+      "upper_decimal": "14.440930920680854889752032585848"
+    },
+    "common_kappa_height_Hhalf_forward": {
+      "exact": "39/20",
+      "lower_decimal": "1.950000000000000000000000000000",
+      "upper_decimal": "1.950000000000000000000000000000"
+    },
+    "common_kappa_height_Hhalf_inverse": {
+      "exact": "41/20",
+      "lower_decimal": "2.050000000000000000000000000000",
+      "upper_decimal": "2.050000000000000000000000000000"
+    },
+    "common_kappa_density_Hminus_half_forward": {
+      "exact": "41/20",
+      "lower_decimal": "2.050000000000000000000000000000",
+      "upper_decimal": "2.050000000000000000000000000000"
+    },
+    "common_kappa_density_Hminus_half_inverse": {
+      "exact": "39/20",
+      "lower_decimal": "1.950000000000000000000000000000",
+      "upper_decimal": "1.950000000000000000000000000000"
+    },
+    "strong_height": [
+      {
+        "kappa": "1",
+        "height_H2_forward": {
+          "exact": "22",
+          "lower_decimal": "22.000000000000000000000000000000",
+          "upper_decimal": "22.000000000000000000000000000000"
+        },
+        "height_H2_inverse": {
+          "exact": "605",
+          "lower_decimal": "605.000000000000000000000000000000",
+          "upper_decimal": "605.000000000000000000000000000000"
+        },
+        "height_H5over4_forward": {
+          "exact": "93/25",
+          "lower_decimal": "3.720000000000000000000000000000",
+          "upper_decimal": "3.720000000000000000000000000000"
+        },
+        "height_H5over4_inverse": {
+          "exact": "17/2",
+          "lower_decimal": "8.500000000000000000000000000000",
+          "upper_decimal": "8.500000000000000000000000000000"
+        }
+      },
+      {
+        "kappa": "4",
+        "height_H2_forward": {
+          "exact": "34",
+          "lower_decimal": "34.000000000000000000000000000000",
+          "upper_decimal": "34.000000000000000000000000000000"
+        },
+        "height_H2_inverse": {
+          "exact": "1133",
+          "lower_decimal": "1133.000000000000000000000000000000",
+          "upper_decimal": "1133.000000000000000000000000000000"
+        },
+        "height_H5over4_forward": {
+          "exact": "207/50",
+          "lower_decimal": "4.140000000000000000000000000000",
+          "upper_decimal": "4.140000000000000000000000000000"
+        },
+        "height_H5over4_inverse": {
+          "exact": "199/20",
+          "lower_decimal": "9.950000000000000000000000000000",
+          "upper_decimal": "9.950000000000000000000000000000"
+        }
+      }
+    ],
+    "natural_scale_port_both_directions": {
+      "exact": "41/10",
+      "lower_decimal": "4.100000000000000000000000000000",
+      "upper_decimal": "4.100000000000000000000000000000"
+    },
+    "natural_scale_height_H5over4_forward": {
+      "exact": "93/25",
+      "lower_decimal": "3.720000000000000000000000000000",
+      "upper_decimal": "3.720000000000000000000000000000"
+    },
+    "natural_scale_height_H5over4_inverse": {
+      "exact": "49",
+      "lower_decimal": "49.000000000000000000000000000000",
+      "upper_decimal": "49.000000000000000000000000000000"
+    }
+  },
+  "conventions": {
+    "full_mean": "retained; height constants preserved, density integral preserved, no simultaneous mean/high projection",
+    "physical_frequency": "4k; normalization y=4 theta and density 4 Theta_z",
+    "zero_mode_weight": "one in every Bessel H^s_kappa norm",
+    "regular_scalars": "extend by identity; no zero-mean quotient",
+    "scope": "real Sobolev coordinate maps; same true parameter p_infinity inside paid eta box",
+    "exact_half_conjugacy": "R77 natural lifts and R101 irrational full conjugacy imply H_infinity^-1 P H_infinity = T_d_star",
+    "full_two_leg_scope": "second leg is the same forward chart at reflected radius and final label z+d_star; no new composition norm or complex-strip loss",
+    "full_PDE_propagator": false,
+    "full_PDE_inverse": false,
+    "density_positive_half_not_claimed": true,
+    "no_missing_nine_field_report_consumed": true
+  },
+  "gates": [
+    {
+      "name": "true R101 arithmetic and all three actual R31 gates",
+      "passed": true
+    },
+    {
+      "name": "R101 scalar and continuous-domain inputs",
+      "passed": true
+    },
+    {
+      "name": "finite exact preNewton complete without rewriting its old R31 failure",
+      "passed": true
+    },
+    {
+      "name": "R116 all 37 actual coordinate gates",
+      "passed": true
+    },
+    {
+      "name": "same complete full-parameter ray",
+      "passed": true
+    },
+    {
+      "name": "same complete finite reference and both seam checks",
+      "passed": true
+    },
+    {
+      "name": "same original H and exact J composition",
+      "passed": true
+    },
+    {
+      "name": "same original normalized H5 reference descriptor",
+      "passed": true
+    },
+    {
+      "name": "same real parameter and actual affine object",
+      "passed": true
+    },
+    {
+      "name": "whole true-ray parameter radius one billionth",
+      "passed": true
+    },
+    {
+      "name": "same exact finite parameter increment",
+      "passed": true
+    },
+    {
+      "name": "actual final parameter stays in the entire paid ray box",
+      "passed": true
+    },
+    {
+      "name": "actual final width, not an assumed derivative estimate",
+      "passed": true
+    },
+    {
+      "name": "true KAM displacement outward bound",
+      "passed": true
+    },
+    {
+      "name": "true KAM derivative outward bound",
+      "passed": true
+    },
+    {
+      "name": "finite J paid outer width",
+      "passed": true
+    },
+    {
+      "name": "complete finite w norm",
+      "passed": true
+    },
+    {
+      "name": "complete finite w first derivative",
+      "passed": true
+    },
+    {
+      "name": "complete finite w second derivative",
+      "passed": true
+    },
+    {
+      "name": "positive exponential series through degree five",
+      "passed": true
+    },
+    {
+      "name": "complete Phi image fits the already paid J strip",
+      "passed": true
+    },
+    {
+      "name": "complete final-to-original label image fits true-ray strip",
+      "passed": true
+    },
+    {
+      "name": "strict positive complete chi derivative",
+      "passed": true
+    },
+    {
+      "name": "chi lower derivative below one",
+      "passed": true
+    },
+    {
+      "name": "chi upper derivative above one",
+      "passed": true
+    },
+    {
+      "name": "complete chi second derivative below 0.024760",
+      "passed": true
+    },
+    {
+      "name": "optional analytic inverse closed ball inside final strip",
+      "passed": true
+    },
+    {
+      "name": "optional analytic inverse contraction from actual derivative",
+      "passed": true
+    },
+    {
+      "name": "chi L2 forward and all Hs zero to one, squared",
+      "passed": true
+    },
+    {
+      "name": "chi L2 inverse and all Hs zero to one, squared",
+      "passed": true
+    },
+    {
+      "name": "chi kappa 1 complete forward H5/4 fourth power",
+      "passed": true
+    },
+    {
+      "name": "chi kappa 1 complete inverse H5/4 fourth power",
+      "passed": true
+    },
+    {
+      "name": "chi kappa 4 complete forward H5/4 fourth power",
+      "passed": true
+    },
+    {
+      "name": "chi kappa 4 complete inverse H5/4 fourth power",
+      "passed": true
+    },
+    {
+      "name": "all two-leg relative frames keep the rounded 6.202 bound, squared",
+      "passed": true
+    },
+    {
+      "name": "whole reference bound used at exact initial time",
+      "passed": true
+    },
+    {
+      "name": "whole finite reference contains final analytic width",
+      "passed": true
+    },
+    {
+      "name": "paid actual Hnew inverse derivative",
+      "passed": true
+    },
+    {
+      "name": "paid actual Hnew second derivative",
+      "passed": true
+    },
+    {
+      "name": "actual final-root lower derivative positive",
+      "passed": true
+    },
+    {
+      "name": "actual final-root mM exceeds one",
+      "passed": true
+    },
+    {
+      "name": "root inverse square-root lower-derivative budget",
+      "passed": true
+    },
+    {
+      "name": "root square-root upper-derivative budget",
+      "passed": true
+    },
+    {
+      "name": "root complete forward Hhalf fourth power",
+      "passed": true
+    },
+    {
+      "name": "root complete inverse Hhalf squared",
+      "passed": true
+    },
+    {
+      "name": "root kappa 1 complete H2 forward",
+      "passed": true
+    },
+    {
+      "name": "root kappa 1 complete H2 inverse",
+      "passed": true
+    },
+    {
+      "name": "root kappa 1 H5/4 forward fourth power",
+      "passed": true
+    },
+    {
+      "name": "root kappa 1 H5/4 inverse fourth power",
+      "passed": true
+    },
+    {
+      "name": "root kappa 4 complete H2 forward",
+      "passed": true
+    },
+    {
+      "name": "root kappa 4 complete H2 inverse",
+      "passed": true
+    },
+    {
+      "name": "root kappa 4 H5/4 forward fourth power",
+      "passed": true
+    },
+    {
+      "name": "root kappa 4 H5/4 inverse fourth power",
+      "passed": true
+    },
+    {
+      "name": "mixed natural-scale full all-time symplectic port below 4.983",
+      "passed": true
+    },
+    {
+      "name": "mixed all-time strong inverse below 563, squared",
+      "passed": true
+    },
+    {
+      "name": "mixed final-root strong inverse below 49, squared",
+      "passed": true
+    }
+  ],
+  "passed_gates": 56,
+  "provenance": {
+    "inputs": [
+      {
+        "key": "kam",
+        "path": "notes/2026-11-12-split-Wiener-R31-exact.json",
+        "sha256": "f887bcce5a5ed8f2de2fee6a398aec86b323b91b64560f7cb84a3d6b918d521a"
+      },
+      {
+        "key": "pre",
+        "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/report.json",
+        "sha256": "030cf8444f5a0cc5058e7ce056b2b310328e7d78a842582273ffb70d2f6f720a"
+      },
+      {
+        "key": "sobolev",
+        "path": "notes/2026-11-13-R116-true-ray-Sobolev-coordinates.json",
+        "sha256": "3917745a9fbf7bcaa792a63c2164edd11565007ab6445da1437f9fe1eb1c9d94"
+      },
+      {
+        "key": "reference",
+        "path": "notes/2026-11-12-step5-forward-reference-derivative-complete-summary.json",
+        "sha256": "d1dd69ac94f5912c828a6e22856badcb69bf324fdc7fc9a43f05493161363dc9"
+      },
+      {
+        "key": "ray",
+        "path": "notes/2026-11-12-R106-actual-all-time-ray-tube.json",
+        "sha256": "6463e62641b9187045016c63ee633816676a75baf941ea01375a6ae36f1a1863"
+      },
+      {
+        "key": "kam_proof",
+        "path": "results/R101-actual-split-wiener-circle-conjugacy.md",
+        "sha256": "de58688c525f1fdf92ca8236a141b3ce640238ff39d72407b0d330c0949e80cf"
+      },
+      {
+        "key": "r31_proof",
+        "path": "results/R31-actual-parameter-circle-normalization.md",
+        "sha256": "e564eec1fce55ea2c341d5af9be8f5a8bede2f057062667823ad0a7a9b992f09"
+      },
+      {
+        "key": "ray_proof",
+        "path": "results/R106-supplement-actual-all-time-ray-tube.md",
+        "sha256": "fe38b910efa8ccd0dca351a98d48a34fe34f7e01e3ba2301cc9a4b5c778edb4b"
+      },
+      {
+        "key": "sobolev_proof",
+        "path": "results/R116-true-ray-Sobolev-coordinates-and-density-tame-bound.md",
+        "sha256": "138bae996321d5e7f933b56836c077c0191eaad266f4806fa25e8cf551d1aed8"
+      },
+      {
+        "key": "prenewton_proof",
+        "path": "results/R100-nearby-quadratic-and-exact-prenewton-transport.md",
+        "sha256": "136fa3a921f6992d32edb653343e77d5f15926c8e1d7d8038ed90552deaa633f"
+      }
+    ],
+    "source_sha256": "7f33824f67f1329180d8bde2cee63690356043f238e7d6fdc974c5e437789c89",
+    "source": "scripts/fourfold_final_KAM_Sobolev_budget_exact.mjs",
+    "proof": "results/R116-final-KAM-coordinate-Sobolev-bridge.md",
+    "execution": "Identical pure BigInt kernel actually executed in functions V8; native CLI not run."
+  }
+}

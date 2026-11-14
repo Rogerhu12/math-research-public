@@ -1,0 +1,25 @@
+{
+  "kind": "actual_remote_correlated_core_pilot_receipt",
+  "run_id": "43301849898",
+  "triggering_commit": "06b4c1db368eacc0fe2d2190ce3fb5b795341451",
+  "outcome": "failure",
+  "python": "3.12.14",
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_core_radial_taylor.py",
+      "sha256": "e9e759de4b9995377c1a7d8281b2a6144c9cf2c578b7d09faf0b1da0330e33c9",
+      "bytes": 23300
+    },
+    {
+      "path": "notes/core_remote/43301849898/domain-span90.json",
+      "sha256": "3338897202c6914a0152228fb2ee055b9384f12a6df88af96f21bd37fdb16293",
+      "bytes": 3570
+    },
+    {
+      "path": "notes/core_remote/43301849898/domain-span90.log",
+      "sha256": "ba31faf0be668b23d20eacb281bd83a26551cab89c6db815db80bc0de2a34a48",
+      "bytes": 231
+    }
+  ],
+  "scope": "The complete flag inside the newly executed domain report controls its mathematical scope. No full-core or Schur inverse is asserted."
+}

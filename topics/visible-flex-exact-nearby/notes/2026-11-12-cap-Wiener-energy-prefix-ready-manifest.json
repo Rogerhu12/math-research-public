@@ -1,0 +1,79 @@
+{
+  "kind": "true_Wiener_cap_energy_and_graft_ready_prefix",
+  "complete": true,
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_cap_wiener_box.py",
+      "sha256": "6c86a5542e3370482ae3fef0b25630fc7e436c03929f6dd8e0af0eaef1a7c64f",
+      "bytes": 13746
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_wiener_cover.py",
+      "sha256": "14075d80e5770f79fa913fc9c7e9d512a7b1e6e7f218760e2377a8d330a633f6",
+      "bytes": 8976
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_wiener_cover_v2.py",
+      "sha256": "1270e17296a8efe2151c5207e1245507e01d2acd760c9423eb47ae24b5d53d6b",
+      "bytes": 9285
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_vector_germs.py",
+      "sha256": "b6aa15d3df04bc8411b201e4dc428f4f716dc6eee72d2dc03a4187086f29c7af",
+      "bytes": 2248
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_graft_tail_energy.py",
+      "sha256": "247c7855b817f851f56ddb58c96d08b78dcacd9f223456f431019f09ebe9a4d1",
+      "bytes": 11640
+    },
+    {
+      "path": "notes/2026-11-12-cap-complete-Wiener-energy.md",
+      "sha256": "a6b21af2c1b69a994bbc2d09b89788fe06ace1df4deb5e94faa8204a7730e24d",
+      "bytes": 6733
+    },
+    {
+      "path": "notes/2026-11-12-cap-Wiener-energy-element20-span2.json",
+      "sha256": "70d639cff14c3afa8cbeb7a39e8a5be170429e0d4c41d9e308e7deb395ccdbb0",
+      "bytes": 3809
+    },
+    {
+      "path": "notes/2026-11-12-cap-Wiener-energy-element30-span2.json",
+      "sha256": "e432316cfb50482adf21a5631f81f818010f30f944aca409e105bdb8d8830af6",
+      "bytes": 41114
+    },
+    {
+      "path": "notes/2026-11-12-cap-Wiener-energy-element40-span2.json",
+      "sha256": "0b15eecc5f2f2b96dcbb6707a16bb099091299f3aa5c34b17a2c6c41a15fd0b4",
+      "bytes": 41154
+    },
+    {
+      "path": "notes/2026-11-12-cap-vector-germ-comparison.json",
+      "sha256": "6790f36251045e0477aeb65182baf26c79d2b78e7cd5c04444137e9e5b2dd7e8",
+      "bytes": 1520
+    },
+    {
+      "path": "data/cap_physical4_energy/graft_and_true_tail.json.gz",
+      "sha256": "53b606be74e24df88ecfb53247862037890e8ff53956768efb553ebbab0b8209",
+      "bytes": 207075
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0800_3000/element_020.json.gz",
+      "sha256": "d476c789f5d31ed1a6e27ff6915b6ec07603154ef2e70c63b9d6b1648cc73f50",
+      "bytes": 146080
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0800_3000/element_021.json.gz",
+      "sha256": "fe9ca869f6b86141b6183b45bd6be82426957608a228f076f5e4607a9cf1fa70",
+      "bytes": 130194
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_022.json.gz",
+      "sha256": "9578473b175b6deacf5f647ec5236591a57442878b75f5fe0a5ab0e32cc83773",
+      "bytes": 146967
+    }
+  ],
+  "total_bytes": 770541,
+  "scope": "Sources, proof, completed graft+tail and completed body elements20/21/22 only. The element20 probe failure is deliberately included. Live manifests and later elements are not in this frozen list.",
+  "active_continuation": "fourfold_phase_cap_wiener_cover_v2.py elements22..63; existing completed element22 resumes with exact identity checks."
+}

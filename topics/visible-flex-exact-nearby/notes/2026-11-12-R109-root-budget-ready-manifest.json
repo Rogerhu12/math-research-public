@@ -1,0 +1,27 @@
+{
+  "kind": "R109_small_complete_root_budget_ready",
+  "date": "2026-11-12",
+  "items": [
+    {
+      "path": "results/R109-frozen-linear-potential-Airy-and-complete-root-difference.md",
+      "sha256": "2453c1f2857f83c501a9a940f20bb1bf322e00388084cbdf2f059564b90cacde",
+      "bytes": 17087,
+      "git_blob_sha": "822883108604ebfe480945b7833f9d7aa24eca24"
+    },
+    {
+      "path": "scripts/fourfold_phase_frozen_linear_airy_root_budget.mjs",
+      "sha256": "54f1c0e9f718d34610e19e24b05fdfd4822aa6d5e92146e9471cc3baf0e34c2a",
+      "bytes": 9322,
+      "git_blob_sha": "092eb074e3a6648843604aad99f089c385195f75"
+    },
+    {
+      "path": "notes/2026-11-12-R109-frozen-linear-Airy-root-budget.json",
+      "sha256": "d73ccef2d88d1ba22ee7f548a576ebb50b2891f1b2a571fbcb065b6ee104d8df",
+      "bytes": 24022,
+      "git_blob_sha": "fc04669632375bd6323b24ee595baebd776dc6f3"
+    }
+  ],
+  "executed_checks": 34,
+  "execution": "functions JavaScript exact BigInt; Node entry not yet executed",
+  "full_gap_paid": false
+}

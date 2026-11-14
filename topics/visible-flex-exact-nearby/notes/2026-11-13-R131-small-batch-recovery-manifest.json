@@ -1,0 +1,68 @@
+{
+  "kind": "complete_small_batch_equivalence_and_interrupted_run_recovery_artifacts",
+  "files": [
+    {
+      "path": "results/R131-supplement-small-batch-comparison-and-interrupted-run-recovery.md",
+      "bytes": 5309,
+      "sha256": "1a22fcf714c757f18813257e35141cac4c241a059fd038b33c77173de70acd59"
+    },
+    {
+      "path": "scripts/fourfold_codazzi_positive_weight_batched_native.py",
+      "bytes": 18860,
+      "sha256": "369cb177be97cfc39765fc8902cda7ca74bca0384c8185967dd98f337d5df2f0"
+    },
+    {
+      "path": "scripts/fourfold_codazzi_positive_weight_batched_piece_C0.py",
+      "bytes": 10520,
+      "sha256": "de8bb109898f8cc39ce2f41233f78f11338fbbaec575b5266b9839107774387f"
+    },
+    {
+      "path": "notes/2026-11-13-Codazzi-positive-weight-cubic-exit137-record.json",
+      "bytes": 2131,
+      "sha256": "2d200afc053558a432d00d1e0221eb72ef53ebfca5e8f7a78c6243300c3ac1ea"
+    },
+    {
+      "path": "notes/2026-11-13-Codazzi-positive-weight-cubic-s10-r02-native.json.gz",
+      "bytes": 28385,
+      "sha256": "cc015ef92041a2855b0e9cc8c6eba11b36c209569af195489972e3e05b2e48c6"
+    },
+    {
+      "path": "notes/2026-11-13-Codazzi-positive-weight-cubic-s10-r02-part-000-native.json.gz",
+      "bytes": 11173,
+      "sha256": "5786d02405ebd4b940fe3d9a87bc6a5121fe4fcf09827e83d45e0fefa8a128b1"
+    },
+    {
+      "path": "notes/2026-11-13-Codazzi-positive-weight-cubic-s10-r02-native-exit137.log.gz",
+      "bytes": 2307,
+      "sha256": "ecd228289351f32035c09280ab0c178419dd79fc9a500015cf4c7f682349cf0e"
+    },
+    {
+      "path": "notes/2026-11-13-Codazzi-positive-weight-cubic-s10-r02-part-000-native-exit137.log.gz",
+      "bytes": 684,
+      "sha256": "d3abbb52532a65c03168785dec56e95df28811b77068c7187a89ab9af013ee36"
+    },
+    {
+      "path": "notes/2026-11-13-Codazzi-positive-weight-batched-s10-first-native.json.gz",
+      "bytes": 3677,
+      "sha256": "9125379a75220b02ecbb99292559eef085bce51f56f7c66c71a64ecf53e351f4"
+    },
+    {
+      "path": "notes/2026-11-13-Codazzi-positive-weight-batched-s10-first-C0-native.json.gz",
+      "bytes": 4991,
+      "sha256": "700880488456554b7855c0f802eeb7608ac97fb72f308114910820ccb312c946"
+    },
+    {
+      "path": "notes/2026-11-13-R131-small-batch-positive-weight-independent-newton-review.json",
+      "bytes": 2287,
+      "sha256": "db540b6088366c03155efc022f8042177b8588e5e40bdff36e75d665e9924f39"
+    },
+    {
+      "path": "notes/2026-11-13-R131-small-batch-root-equivalence-review.json",
+      "bytes": 1324,
+      "sha256": "e734202131a7654d6daeb2d1b9097e2f67bf706a5090d1abd7dbf85f4581d39a"
+    }
+  ],
+  "all_failed_checkpoint_bytes_and_logs_retained": true,
+  "only_complete_first_box_certified": true,
+  "all_running_native_pieces_excluded": true
+}

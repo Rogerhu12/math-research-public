@@ -1,0 +1,31 @@
+{
+  "kind": "independent_phase_agent_math_and_source_review",
+  "reviewer": "phase_inverse",
+  "complete": true,
+  "review_scope": "Pure algebra and complete primitive-tail fee review, with provider source and selected native identity read; no native numerical rerun.",
+  "native_recomputed": false,
+  "reviewed_paths_sha256": {
+    "scripts/fourfold_codazzi_positive_cap_stable_jets.py": "b601a1a51e7294c8814a7c3adca87200242150b00f95dd3ab1133a438c3504b8",
+    "scripts/fourfold_phase_cap_scaled_body.py": "f552b3c90880a9f9ee812015018a83da67e5d5fe66e1232fd2871d2c59e600db",
+    "notes/2026-11-13-R133-positive-cap-stable-jets-pilot-native.json.gz": "97e4d6e9594fee6df3626c6bd8c1a6f1655a1e441348f02d680849023cc361ea"
+  },
+  "native_producer_identity_matches": true,
+  "checks": {
+    "radius_powers_cancelled_before_differentiation": true,
+    "second_log_radius_ratio_numerator_and_denominator": true,
+    "second_height_ratio_numerator_and_denominator": true,
+    "full_e_second_derivative_has_both_uprime_square_and_u_usecond": true,
+    "curvature_Nprime_final_quotient_term": true,
+    "three_coordinate_tail_factors_for_all_quadratic_terms": true,
+    "Cauchy_tail_retains_complete_primitive_through_order_three": true,
+    "scalar_actual_germ_not_crossed": true,
+    "positive_a_Ebar_R_N_checked_before_ratios": true,
+    "K_gamma_Cref_lambda_first_jets_consistent": true
+  },
+  "not_granted": [
+    "No independent native interval computation was performed.",
+    "Selected native boxes do not certify any unstated radial span.",
+    "Overlap with old enclosures is an identity diagnostic, not proof that a discarded bound may be removed.",
+    "No nonlinear Codazzi existence or complete tail realization is inferred."
+  ]
+}

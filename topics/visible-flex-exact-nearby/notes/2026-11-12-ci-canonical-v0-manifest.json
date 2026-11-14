@@ -1,0 +1,30 @@
+{
+  "complete": true,
+  "run_id": "43304292862",
+  "workflow_commit": "e5cdcf8b4be09d1b34e872a03c312e119fedcd13",
+  "runtime": {
+    "python": "3.12.16",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "flint": "0.9.0"
+  },
+  "files": [
+    {
+      "path": "notes/2026-11-12-ci-canonical-v0-scaled-Wiener-summary.json",
+      "bytes": 49852,
+      "sha256": "66112956b245389aa38c3d07244685ad31c29f7aae0575b8986bf80b54459ce8"
+    },
+    {
+      "path": "notes/2026-11-12-ci-canonical-v0-scaled-Wiener.json",
+      "bytes": 156284,
+      "sha256": "3709417eec2b87e21f81f83c05dc83e113fd881984ea2e7de6678cbafe85db68"
+    },
+    {
+      "path": "notes/2026-11-12-ci-canonical-v0-scaled-Wiener.npz",
+      "bytes": 31821,
+      "sha256": "890b7d6296a62711bc0aabe76a4cc5a1864e06a263729863a9b17f487a63935f"
+    }
+  ],
+  "exact_constant_split": 5050,
+  "actual_geometry_replaced_by_polynomial": false
+}

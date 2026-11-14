@@ -1,0 +1,67 @@
+{
+  "kind": "complete_first193_positive_weight_evidence_manifest",
+  "files": [
+    {
+      "path": "results/R131-supplement-complete-first-193-positive-weight-comparison.md",
+      "bytes": 4257,
+      "sha256": "1685e2b8914169f6b1acf9e1e6cf7d386650a0c842c11f3c9e061eb193136dc0"
+    },
+    {
+      "path": "notes/2026-11-13-Codazzi-positive-weight-batched-s10-r02-part-000a-native.json.gz",
+      "bytes": 82874,
+      "sha256": "59bb43201e6d28661eda2f1090fb4a4362445c5150f557062d06b9fe420d8732"
+    },
+    {
+      "path": "notes/2026-11-13-Codazzi-positive-weight-batched-s10-r02-part-000b-native.json.gz",
+      "bytes": 87269,
+      "sha256": "6f39b7f309dff3d08142168162343473650c9ddbf44a247451ebe0363cfce55b"
+    },
+    {
+      "path": "notes/2026-11-13-R131-positive-weight-complete-first-193-C0-native.json.gz",
+      "bytes": 466074,
+      "sha256": "a1fa8d480c9003ad0090403ec8ad0c8605fc3c747aabc24336e0406c8955c657"
+    },
+    {
+      "path": "notes/2026-11-13-R131-complete-first-193-root-replay.json",
+      "bytes": 5252,
+      "sha256": "6736a02083eb08402caffd55e4ed2ddd9916753940afd7b044ec954f1987d07f"
+    }
+  ],
+  "verified_input_and_source_sha256": {
+    "notes/2026-11-13-Codazzi-positive-weight-batched-s10-r02-part-000a-native.json.gz": "59bb43201e6d28661eda2f1090fb4a4362445c5150f557062d06b9fe420d8732",
+    "notes/2026-11-13-Codazzi-positive-weight-batched-s10-r02-part-000b-native.json.gz": "6f39b7f309dff3d08142168162343473650c9ddbf44a247451ebe0363cfce55b",
+    "notes/2026-11-13-R131-C0-only-r005-native.json.gz": "be7f67eec3fd07a4057b7db351484d2c8360c93b3461f5b39fcebb6fff790f2e",
+    "notes/2026-11-13-Codazzi-cubic-cleared-r02-n1024-v1-native.json.gz": "92db89ea9640edbeebcbbe871d8383d13c0e3b107478a1fd8641c7aab07555e5",
+    "notes/2026-11-13-codazzi-dense-r02-n1024-candidate-shards.json": "715b139505c8b7a34ca06e0cbadbd109e777205ede11f6cf7a2f753861fa1316",
+    "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.json": "e396319d2dc8e32e7f762b1be320cbf4a8834ffaad86052752b4c5cc1d5f8c6a",
+    "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-000.gz": "7bc0b0064096edabc409381de2dae4002542617287628f33390549e5287e8f2f",
+    "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-001.gz": "c08f584a5d437604021f82cf382a82edb5ee728c7836e2b36cae4f265cb34f5b",
+    "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-002.gz": "04c6782749b5704901c52aa01ff46a95a1fa99c243466300b126f6945c08e810",
+    "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-003.gz": "bb6249e20a75089d340b2ce50d34c9b8bda3fea5bd7c97b9d65b6c0447028360",
+    "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-004.gz": "6d1d465c4cb22264827108782c3cc59f0f46cafbafd5b90f355ef05f3e4063ae",
+    "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-005.gz": "6094841836a1250371e0a98b91bbcf6ab6fb47134d873263215b07bd260a6726",
+    "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-006.gz": "ae1458f1653c25838cefd272c519a9aaa1824bc12e0f544dd9b4d9a9fcca084a",
+    "scripts/fourfold_codazzi_positive_weight_batched_native.py": "369cb177be97cfc39765fc8902cda7ca74bca0384c8185967dd98f337d5df2f0",
+    "scripts/fourfold_codazzi_positive_weight_cubic_native.py": "d467ee2b62c32365c98526fd06a1c0752f4538483a630a62124ace472c75da5c",
+    "scripts/fourfold_codazzi_cubic_cleared_residual.py": "02c9106751992cd466ac82fea138e4ec5cb0da34eea838b515b1bea4f44e1b5b",
+    "scripts/fourfold_codazzi_cubic_target_jets.py": "eb3fe6833fcba0162724031905964563e3f96f77aaa56b7996aadf3856ca8412",
+    "scripts/fourfold_codazzi_high_target_jets.py": "ea71aefd62bf0c16c9e9c9fe4a5da5ce95a973cf913825bd875a4ba59fc14168",
+    "scripts/fourfold_phase_codazzi_coefficients.py": "6bc8f108e89bef96134c580be6ae18b382dae5b5ab6139e5863acdfa526f73bb",
+    "scripts/fourfold_codazzi_positive_weight_candidate.py": "91fe7cf001f432ab02e5b8fcee91149d202df270920a343eb500093411fb5254",
+    "scripts/fourfold_codazzi_sharded_candidate.py": "ecefafa9a47495b050332893a0acd9fb3f3143c0c1b59d2e99c01813bdc25b92",
+    "scripts/fourfold_phase_codazzi_continuation_validate.py": "1c97e0bd58d49514501ede6d98b909567fb59d933813d2cc74d9e2813fc60258",
+    "scripts/fourfold_phase_newton_source_centered.py": "1bb36ce8ef6e8043f76c648b005cc3f56609e97ec49852f36bdbda80a5e4749d",
+    "scripts/fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+    "scripts/fourfold_phase_two_jet_newton_source.py": "cd7c36692b48844d268dc87e20556e39a869da154ce5e3826a6bdc0b50162f2a",
+    "scripts/fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "scripts/fourfold_codazzi_piecewise_barrier.py": "7fcbb78ee47354cd1081b5482c2ca6c6c7d04b4d766282aa362218f9c2e67927",
+    "scripts/fourfold_codazzi_positive_weight_batched_piece_C0.py": "de8bb109898f8cc39ce2f41233f78f11338fbbaec575b5266b9839107774387f",
+    "scripts/fourfold_codazzi_positive_weight_cubic_C0.py": "80c2853e0fffcb2e252da522b8da1316fa3f7ff18847363851443f36111bf54c",
+    "scripts/fourfold_codazzi_positive_weight_piece_C0.py": "f94c41e8a0874dc4c349f7e47d1e3d5a2c6b854092e9178643ec55096010606d",
+    "scripts/fourfold_codazzi_linear_degeneracy_v2.py": "3a179c671c4b2ab7f237875d8da64e8f7c7fa7599c0038ba326c3cecd8c630fa",
+    "scripts/fourfold_codazzi_linear_degeneracy.py": "8b4e003df87bbfd685254dda1113d22b746b9be619d38628bd6d909195921933"
+  },
+  "only_complete_original_pieces_consumed": true,
+  "whole_0_to_one_fifth_complete": false
+}

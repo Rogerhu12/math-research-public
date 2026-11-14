@@ -1,0 +1,42 @@
+{
+  "kind": "observed_native_process_exit_without_output",
+  "certified": false,
+  "exit_code": 137,
+  "session_id": 79472,
+  "source_path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v2_probe.py",
+  "source_sha256": "01ae3197e59e2c646811c8eb43e2434d5e556aade0a69ff4a881f86cdbfd3808",
+  "input_path": "notes/2026-11-13-R133-compact-metric-outer-mean-m64-candidate.npz.gz",
+  "input_sha256": "4046eb7ac8da162ab9aad9fcb4991933200abdbc2c22ed6329d49bb13d72b856",
+  "requested_modes": 128,
+  "requested_angles": 2048,
+  "requested_mesh_stride": 1,
+  "last_observed_stdout": {
+    "amplitude": 0.65,
+    "nu": -0.023721707968258524,
+    "rhs_calls": 12,
+    "jac_calls": 1,
+    "radial_nodes": 879,
+    "sampled_C_min": -3.74528,
+    "sampled_C_max": -0.171039
+  },
+  "output_report_generated": false,
+  "output_candidate_generated": false,
+  "diagnosis": "Exit 137 observed; memory pressure is suspected from simultaneous dense tensor sizes, not established by an OS OOM log.",
+  "scientific_conclusion": "No numerical or mathematical result from this failed 128-mode run.",
+  "scipy_collocation_source_sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+  "dense_single_tensor_bytes": 464456568,
+  "command_arguments": [
+    "--guess",
+    "notes/2026-11-13-R133-compact-metric-outer-mean-m64-candidate.npz.gz",
+    "--modes",
+    "128",
+    "--angles",
+    "2048",
+    "--mesh-stride",
+    "1",
+    "--out",
+    "notes/2026-11-13-R133-compact-metric-outer-mean-m128-floating.json",
+    "--candidate",
+    "notes/2026-11-13-R133-compact-metric-outer-mean-m128-candidate.json"
+  ]
+}

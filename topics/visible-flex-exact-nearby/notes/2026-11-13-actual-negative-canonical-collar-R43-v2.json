@@ -1,0 +1,318 @@
+{
+  "kind": "actual_exact_negative_characteristic_collar_R43",
+  "complete": true,
+  "proved": true,
+  "source_sha256": "4d87115bfe281dcebfc521f876c055bae6f0c87c56e77fcad762adf5b7ad6a9c",
+  "inputs": {
+    "notes/2026-11-13-negative-canonical-log-density-bidisk.json.gz": "2e01b579fbf36cf8ea660a73bfde8df145202c4ad76d719d80fdaef99ba8f0cb",
+    "notes/2026-11-12-actual-root-complex-potential-variation.json.gz": "47d68aa52435e786e0b8af05ee09f12a44d163165a9c08e144b599483578bd61"
+  },
+  "identity": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "exact_negative_characteristic_coordinates": true,
+  "positive_finite_chart_used": false,
+  "quarter_circle_frequency_lower": {
+    "ball": "[33.311545906970123851574773040042548 +/- 2.27e-34]",
+    "lower": "[33.311545906970123851574773040042548 +/- 2.27e-34]",
+    "upper": "[33.311545906970123851574773040042548 +/- 2.27e-34]",
+    "mid_float": 33.311545906970125,
+    "radius_upper_float": 0.0
+  },
+  "quarter_circle_frequency_upper": {
+    "ball": "[46.688602485231016167658603045737737 +/- 8.01e-35]",
+    "lower": "[46.688602485231016167658603045737737 +/- 8.01e-35]",
+    "upper": "[46.688602485231016167658603045737737 +/- 8.01e-35]",
+    "mid_float": 46.688602485231016,
+    "radius_upper_float": 0.0
+  },
+  "complete_potential_analytic_strip": {
+    "ball": "[8.7512855139749636302630178877794831e-6 +/- 4.76e-41]",
+    "lower": "[8.7512855139749636302630178877794831e-6 +/- 4.76e-41]",
+    "upper": "[8.7512855139749636302630178877794831e-6 +/- 4.76e-41]",
+    "mid_float": 8.751285513974964e-06,
+    "radius_upper_float": 1.3545341008327591e-101
+  },
+  "full_analytic_potential_radial_disk": {
+    "ball": "[5.0000000000000000000000000000000000e-8 +/- 3e-47]",
+    "lower": "[5.0000000000000000000000000000000000e-8 +/- 3e-47]",
+    "upper": "[5.0000000000000000000000000000000000e-8 +/- 1e-47]",
+    "mid_float": 5e-08,
+    "radius_upper_float": 2.7904965659454465e-104
+  },
+  "larger_real_negative_collar_height": {
+    "ball": "[2.5000000000000000000000000000000000e-8 +/- 3e-47]",
+    "lower": "[2.5000000000000000000000000000000000e-8 +/- 3e-47]",
+    "upper": "[2.5000000000000000000000000000000000e-8 +/- 1e-47]",
+    "mid_float": 2.5e-08,
+    "radius_upper_float": 1.3952482855715757e-104
+  },
+  "larger_real_collar_true_V_bound": {
+    "ball": "[406283535601666.63591206449503486570 +/- 3.31e-21]",
+    "lower": "[406283535601666.63591206449503486570 +/- 3.31e-21]",
+    "upper": "[406283535601666.63591206449503486570 +/- 3.31e-21]",
+    "mid_float": 406283535601666.6,
+    "radius_upper_float": 0.0
+  },
+  "larger_real_collar_true_Vxi_bound": {
+    "ball": "[16251341424066665436482.579801394628 +/- 1.33e-13]",
+    "lower": "[16251341424066665436482.579801394628 +/- 1.33e-13]",
+    "upper": "[16251341424066665436482.579801394628 +/- 1.33e-13]",
+    "mid_float": 1.6251341424066665e+22,
+    "radius_upper_float": 0.0
+  },
+  "negative_collar_height": "1/26959946667150639794667015087019630673637144422540572481103610249216",
+  "Sobolev_output_window": 8,
+  "paid_intermediate_window": 10,
+  "chart_bounds": {
+    "characteristic_rho_radius": {
+      "ball": "[0.00010000000000000000000000000000000000 +/- 3e-43]",
+      "lower": "[0.00010000000000000000000000000000000000 +/- 3e-43]",
+      "upper": "[0.00010000000000000000000000000000000000 +/- 1e-43]",
+      "mid_float": 0.0001,
+      "radius_upper_float": 5.714936956411375e-101
+    },
+    "physical_start_strip": {
+      "ball": "[0.0012500000000000000000000000000000000 +/- 3e-42]",
+      "lower": "[0.0012500000000000000000000000000000000 +/- 3e-42]",
+      "upper": "[0.0012500000000000000000000000000000000 +/- 1e-42]",
+      "mid_float": 0.00125,
+      "radius_upper_float": 9.1438991302582e-100
+    },
+    "complex_physical_angle_movement": {
+      "ball": "[0.00010587674908215800921122233072916667 +/- 3.34e-39]",
+      "lower": "[0.00010587674908215800921122233072916667 +/- 3.34e-39]",
+      "upper": "[0.00010587674908215800921122233072916667 +/- 3.34e-39]",
+      "mid_float": 0.00010587674908215801,
+      "radius_upper_float": 1.8128008711562695e-100
+    },
+    "remaining_analytic_angle_margin": {
+      "ball": "[0.0011441232509178419907887776692708333 +/- 3.34e-38]",
+      "lower": "[0.0011441232509178419907887776692708333 +/- 3.34e-38]",
+      "upper": "[0.0011441232509178419907887776692708333 +/- 3.34e-38]",
+      "mid_float": 0.001144123250917842,
+      "radius_upper_float": 2.9244498313026387e-99
+    },
+    "characteristic_variation_exponent": {
+      "ball": "[0.092539635915292557472161797266415441 +/- 1.25e-37]",
+      "lower": "[0.092539635915292557472161797266415441 +/- 1.25e-37]",
+      "upper": "[0.092539635915292557472161797266415441 +/- 1.25e-37]",
+      "mid_float": 0.09253963591529256,
+      "radius_upper_float": 4.535085640550928e-97
+    },
+    "deflated_difference_modulus": {
+      "ball": "[9.1939552773328790554022110977990242 +/- 8.91e-36]",
+      "lower": "[9.1939552773328790554022110977990242 +/- 8.91e-36]",
+      "upper": "[9.1939552773328790554022110977990242 +/- 8.91e-36]",
+      "mid_float": 9.19395527733288,
+      "radius_upper_float": 1.9538609685471896e-95
+    },
+    "phi_minus_Y0_modulus_on_outer_disk": {
+      "ball": "[3.8050479264117779752638522546466978e-5 +/- 2.24e-40]",
+      "lower": "[3.8050479264117779752638522546466978e-5 +/- 2.24e-40]",
+      "upper": "[3.8050479264117779752638522546466978e-5 +/- 2.24e-40]",
+      "mid_float": 3.805047926411778e-05,
+      "radius_upper_float": 9.372396698893377e-101
+    },
+    "root_angle_real_derivative_lower": {
+      "ball": "[0.056008227289439767233683314481788692 +/- 4.65e-37]",
+      "lower": "[0.056008227289439767233683314481788692 +/- 4.65e-37]",
+      "upper": "[0.056008227289439767233683314481788692 +/- 4.65e-37]",
+      "mid_float": 0.056008227289439765,
+      "radius_upper_float": 0.0
+    },
+    "canonical_inverse_target_radial_disk": {
+      "ball": "[1.0000000000000000000000000000000000e-7 +/- 3e-46]",
+      "lower": "[1.0000000000000000000000000000000000e-7 +/- 3e-46]",
+      "upper": "[1.0000000000000000000000000000000000e-7 +/- 1e-46]",
+      "mid_float": 1e-07,
+      "radius_upper_float": 5.5809931214954833e-104
+    },
+    "canonical_inverse_target_angle_strip": {
+      "ball": "[1.7502571027949927260526035775558966e-5 +/- 1.06e-40]",
+      "lower": "[1.7502571027949927260526035775558966e-5 +/- 1.06e-40]",
+      "upper": "[1.7502571027949927260526035775558966e-5 +/- 1.06e-40]",
+      "mid_float": 1.7502571027949927e-05,
+      "radius_upper_float": 2.7090681990042934e-101
+    },
+    "canonical_inverse_contraction": {
+      "ball": "[0.11025494452595429974617412284358364 +/- 1.62e-37]",
+      "lower": "[0.11025494452595429974617412284358364 +/- 1.62e-37]",
+      "upper": "[0.11025494452595429974617412284358364 +/- 1.62e-37]",
+      "mid_float": 0.1102549445259543,
+      "radius_upper_float": 0.0
+    },
+    "log_canonical_density_modulus": {
+      "ball": "[0.83951322518667539083572344624386852 +/- 8.94e-37]",
+      "lower": "[0.83951322518667539083572344624386852 +/- 8.94e-37]",
+      "upper": "[0.83951322518667539083572344624386852 +/- 8.94e-37]",
+      "mid_float": 0.8395132251866754,
+      "radius_upper_float": 0.0
+    },
+    "full_complex_potential_modulus_before_root_Taylor": {
+      "ball": "[406283535601666.63591206449503486570 +/- 3.31e-21]",
+      "lower": "[406283535601666.63591206449503486570 +/- 3.31e-21]",
+      "upper": "[406283535601666.63591206449503486570 +/- 3.31e-21]",
+      "mid_float": 406283535601666.6,
+      "radius_upper_float": 0.0
+    }
+  },
+  "root_Taylor_remainder": {
+    "V_minus_v0_xi_v1": {
+      "ball": "[2.2358937245420085132085622262443554e-106 +/- 1.02e-141]",
+      "lower": "[2.2358937245420085132085622262443554e-106 +/- 1.02e-141]",
+      "upper": "[2.2358937245420085132085622262443554e-106 +/- 1.02e-141]",
+      "mid_float": 2.2358937245420083e-106,
+      "radius_upper_float": 0.0
+    },
+    "Vxi_minus_v1": {
+      "ball": "[1.2055915113413870617745015684263326e-38 +/- 4.80e-73]",
+      "lower": "[1.2055915113413870617745015684263326e-38 +/- 4.80e-73]",
+      "upper": "[1.2055915113413870617745015684263326e-38 +/- 4.80e-73]",
+      "mid_float": 1.205591511341387e-38,
+      "radius_upper_float": 0.0
+    }
+  },
+  "complete_true_V_modulus": {
+    "ball": "[5467.3703384399414062500000000000000 +/- 1e-36]",
+    "lower": "[5467.3703384399414062500000000000000 +/- 1e-36]",
+    "upper": "[5467.3703384399414062500000000000000 +/- 1e-36]",
+    "mid_float": 5467.370338439941,
+    "radius_upper_float": 0.0
+  },
+  "complete_true_Vxi_modulus": {
+    "ball": "[2380464.9902343750000000000000000000 +/- 1e-33]",
+    "lower": "[2380464.9902343750000000000000000000 +/- 1e-33]",
+    "upper": "[2380464.9902343750000000000000000000 +/- 1e-33]",
+    "mid_float": 2380464.990234375,
+    "radius_upper_float": 0.0
+  },
+  "all_Fourier_mode_decay": {
+    "ball": "[0.00029151884914377963631323484023658881 +/- 8.26e-40]",
+    "lower": "[0.00029151884914377963631323484023658881 +/- 8.26e-40]",
+    "upper": "[0.00029151884914377963631323484023658881 +/- 8.26e-40]",
+    "mid_float": 0.00029151884914377965,
+    "radius_upper_float": 0.0
+  },
+  "R43_constants": {
+    "uniform_K0": {
+      "ball": "[1.3097718288084492900810246902193869e+58 +/- 2.84e+23]",
+      "lower": "[1.3097718288084492900810246902193869e+58 +/- 2.84e+23]",
+      "upper": "[1.3097718288084492900810246902193869e+58 +/- 2.84e+23]",
+      "mid_float": 1.3097718288084492e+58,
+      "radius_upper_float": 0.0
+    },
+    "delta_K0": {
+      "ball": "[4.8582137234134124442835641216742404e-10 +/- 3.41e-45]",
+      "lower": "[4.8582137234134124442835641216742404e-10 +/- 3.41e-45]",
+      "upper": "[4.8582137234134124442835641216742404e-10 +/- 3.41e-45]",
+      "mid_float": 4.858213723413412e-10,
+      "radius_upper_float": 0.0
+    },
+    "uniform_B1": {
+      "ball": "[2.6000226718637711797225790225901362e+53 +/- 2.31e+18]",
+      "lower": "[2.6000226718637711797225790225901362e+53 +/- 2.31e+18]",
+      "upper": "[2.6000226718637711797225790225901362e+53 +/- 2.31e+18]",
+      "mid_float": 2.600022671863771e+53,
+      "radius_upper_float": 0.0
+    },
+    "uniform_W": {
+      "ball": "[1.2865018347742834891050212852389428e+58 +/- 2.00e+23]",
+      "lower": "[1.2865018347742834891050212852389428e+58 +/- 2.00e+23]",
+      "upper": "[1.2865018347742834891050212852389428e+58 +/- 2.00e+23]",
+      "mid_float": 1.2865018347742834e+58,
+      "radius_upper_float": 0.0
+    },
+    "Cq": {
+      "ball": "[477.37765699154624168984974227561284 +/- 3.44e-33]",
+      "lower": "[477.37765699154624168984974227561284 +/- 3.44e-33]",
+      "upper": "[477.37765699154624168984974227561284 +/- 3.44e-33]",
+      "mid_float": 477.37765699154625,
+      "radius_upper_float": 0.0
+    },
+    "full_negative_collar_four_thirds_remainder": {
+      "ball": "[1.2282944631997456006125411063887029e+61 +/- 1.83e+26]",
+      "lower": "[1.2282944631997456006125411063887029e+61 +/- 1.83e+26]",
+      "upper": "[1.2282944631997456006125411063887029e+61 +/- 1.83e+26]",
+      "mid_float": 1.2282944631997456e+61,
+      "radius_upper_float": 0.0
+    },
+    "homogeneous_forward_and_inverse": {
+      "ball": "[1.1051709180756476248117078264902467 +/- 3.18e-35]",
+      "lower": "[1.1051709180756476248117078264902467 +/- 3.18e-35]",
+      "upper": "[1.1051709180756476248117078264902467 +/- 3.18e-35]",
+      "mid_float": 1.1051709180756477,
+      "radius_upper_float": 1.0046684902860978e-96
+    },
+    "canonical_ordinary_L1_source_to_amplitude": {
+      "ball": "[20.961936611777513391079713804904884 +/- 1.05e-34]",
+      "lower": "[20.961936611777513391079713804904884 +/- 1.05e-34]",
+      "upper": "[20.961936611777513391079713804904884 +/- 1.05e-34]",
+      "mid_float": 20.961936611777514,
+      "radius_upper_float": 0.0
+    }
+  },
+  "gates": [
+    {
+      "name": "full characteristic radial disk",
+      "passed": true
+    },
+    {
+      "name": "both complex characteristic flows stay in true angular strip",
+      "passed": true
+    },
+    {
+      "name": "deflated characteristic difference has its real branch",
+      "passed": true
+    },
+    {
+      "name": "global holomorphic canonical inverse contraction",
+      "passed": true
+    },
+    {
+      "name": "inverse domain remains within full characteristic disk",
+      "passed": true
+    },
+    {
+      "name": "actual positive-length negative collar lies in true chart",
+      "passed": true
+    },
+    {
+      "name": "actual root traces lie in their certified inverse-angle strip",
+      "passed": true
+    },
+    {
+      "name": "canonical quarter-circle frequency and mean convention",
+      "passed": true
+    },
+    {
+      "name": "all intermediate Airy-Volterra layers are short",
+      "passed": true
+    }
+  ],
+  "mean_and_all_cones_retained": true,
+  "complete_returned_R_star_proved": false,
+  "strict_negative_R46_remainder_proved": false,
+  "positive_Ai_contact_completion_proved": false,
+  "scope": "Actual exact negative collar only. The very short chosen collar and large strong constant do not close the practical full-return cutoff or the physical source/frame wiring.",
+  "seconds": 0.859703264000018
+}

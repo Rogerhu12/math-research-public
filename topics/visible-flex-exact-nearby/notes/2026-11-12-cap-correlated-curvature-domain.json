@@ -1,0 +1,97 @@
+{
+  "kind": "true_cap_axis_polynomial_cancellation_probe",
+  "complete": true,
+  "same_true_point_K_overlaps": true,
+  "rows": [
+    {
+      "class": "VectorScaledBodyForm",
+      "point_K": {
+        "ball": "[0.1819978424053 +/- 4.94e-14]",
+        "lower": "[0.18199784240532074219840037237149160 +/- 1.80e-37]",
+        "upper": "[0.18199784240534933044133740971161090 +/- 2.11e-36]",
+        "mid_float": 0.18199784240533504,
+        "radius_upper_float": 1.429412146851867e-14
+      },
+      "outer_gates": [
+        {
+          "radial_factor": 4,
+          "passed": false,
+          "reason": "interval contains zero"
+        },
+        {
+          "radial_factor": 2,
+          "passed": true,
+          "matrix_moduli": [
+            {
+              "ball": "[131253.42428411530761683981002512512 +/- 3.33e-30]",
+              "lower": "[131253.42428411530761683981002512512 +/- 3.33e-30]",
+              "upper": "[131253.42428411530761683981002512512 +/- 3.33e-30]",
+              "mid_float": 131253.42428411532,
+              "radius_upper_float": 0.0
+            },
+            {
+              "ball": "[541810863.03908050701695006385306558 +/- 4.26e-27]",
+              "lower": "[541810863.03908050701695006385306558 +/- 4.26e-27]",
+              "upper": "[541810863.03908050701695006385306558 +/- 4.26e-27]",
+              "mid_float": 541810863.0390805,
+              "radius_upper_float": 0.0
+            }
+          ]
+        }
+      ],
+      "CPU_seconds": 0.6096111470000001,
+      "wall_seconds": 5.013110122999933
+    },
+    {
+      "class": "CorrelatedCurvatureBodyForm",
+      "point_K": {
+        "ball": "[0.1819978424053 +/- 4.84e-14]",
+        "lower": "[0.18199784240532174139913576990217883 +/- 4.68e-37]",
+        "upper": "[0.18199784240534833124060201218092367 +/- 2.40e-36]",
+        "mid_float": 0.18199784240533504,
+        "radius_upper_float": 1.329492073312114e-14
+      },
+      "outer_gates": [
+        {
+          "radial_factor": 4,
+          "passed": false,
+          "reason": "interval contains zero"
+        },
+        {
+          "radial_factor": 2,
+          "passed": true,
+          "matrix_moduli": [
+            {
+              "ball": "[131180.17711950592137265191742037037 +/- 1.90e-30]",
+              "lower": "[131180.17711950592137265191742037037 +/- 1.90e-30]",
+              "upper": "[131180.17711950592137265191742037037 +/- 1.90e-30]",
+              "mid_float": 131180.1771195059,
+              "radius_upper_float": 0.0
+            },
+            {
+              "ball": "[530028015.22137249079516442345085104 +/- 4.33e-28]",
+              "lower": "[530028015.22137249079516442345085104 +/- 4.33e-28]",
+              "upper": "[530028015.22137249079516442345085104 +/- 4.33e-28]",
+              "mid_float": 530028015.2213725,
+              "radius_upper_float": 0.0
+            }
+          ]
+        }
+      ],
+      "CPU_seconds": 0.8703606879999999,
+      "wall_seconds": 6.928911083999992
+    }
+  ],
+  "exact_common_span": [
+    "1/4",
+    "4528886369647159/18014398509481984"
+  ],
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "source_sha256": "36bc53c0a2ef93db56d1979ce265dbe31283ce318b666faa2bd1dbf3c966f4fe",
+  "dependency_sha256": {
+    "fourfold_phase_cap_scaled_body.py": "f552b3c90880a9f9ee812015018a83da67e5d5fe66e1232fd2871d2c59e600db",
+    "fourfold_phase_cap_vector_germs.py": "b6aa15d3df04bc8411b201e4dc428f4f716dc6eee72d2dc03a4187086f29c7af",
+    "fourfold_phase_cap_energy_interval.py": "ef752984f6e8c9331b1f11f2419f49460d42288fa0aba10555a18455b971df91"
+  },
+  "scope": "Same true graph; gate failures are retained. This is an analytic-domain probe, not an energy integral."
+}

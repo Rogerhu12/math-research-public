@@ -1,0 +1,190 @@
+{
+  "kind": "floating_same_core_C2_comparison_not_a_tail_bound",
+  "reference": "topics/visible-flex-exact-nearby/data/fourfold_phase_m24n201_q256_checkpoint.npz",
+  "candidate": "topics/visible-flex-exact-nearby/data/fourfold_phase_m32n201_interrupted_checkpoint.npz",
+  "reference_sha256": "63b5513befcf44ce907b047dbeb41a7e143431211d20e3cbb103a081cbef0a0e",
+  "candidate_sha256": "20081f6a7118ee8d5c266e20adf8bd75e1ede37c1ad65644eeb735439a8ed315",
+  "core": 0.6,
+  "radial_samples": 697,
+  "quarter_period_angles": 512,
+  "reference_mean": [
+    0.7995351580493035,
+    -0.0020826635950623182,
+    -0.06091483777082038
+  ],
+  "candidate_mean": [
+    0.8006369437528564,
+    -0.0020915963313457497,
+    -0.060986561451011057
+  ],
+  "mean_change": [
+    0.0011017857035529044,
+    -8.932736283431483e-06,
+    -7.172368019067732e-05
+  ],
+  "jet_sample_maxima": {
+    "total_change": {
+      "F": {
+        "value": 0.0003213176274038814,
+        "at_x": 0.213,
+        "at_theta": 1.1780972450961724
+      },
+      "Fx": {
+        "value": 0.008609542092563705,
+        "at_x": 0.028,
+        "at_theta": 1.4572817484913592
+      },
+      "Ftheta": {
+        "value": 0.010724250609833301,
+        "at_x": 0.138,
+        "at_theta": 1.4910293258248433
+      },
+      "Fxx": {
+        "value": 0.6227719317758104,
+        "at_x": 0.0,
+        "at_theta": 0.23316507975861744
+      },
+      "Fxtheta": {
+        "value": 0.46073645230213256,
+        "at_x": 0.031,
+        "at_theta": 1.4296700943094176
+      },
+      "Fthetatheta": {
+        "value": 0.8617408542777447,
+        "at_x": 0.0,
+        "at_theta": 0.0
+      }
+    },
+    "change_with_mean_frozen": {
+      "F": {
+        "value": 0.0002887278952653193,
+        "at_x": 0.213,
+        "at_theta": 0.49394181369917645
+      },
+      "Fx": {
+        "value": 0.008612980120045612,
+        "at_x": 0.028,
+        "at_theta": 1.4572817484913592
+      },
+      "Ftheta": {
+        "value": 0.010723515664258911,
+        "at_x": 0.138,
+        "at_theta": 1.4910293258248433
+      },
+      "Fxx": {
+        "value": 0.6231308293422124,
+        "at_x": 0.0,
+        "at_theta": 0.23316507975861744
+      },
+      "Fxtheta": {
+        "value": 0.46072640789184055,
+        "at_x": 0.031,
+        "at_theta": 1.4296700943094176
+      },
+      "Fthetatheta": {
+        "value": 0.8610656494567284,
+        "at_x": 0.0,
+        "at_theta": 0.0
+      }
+    },
+    "mean_contribution": {
+      "F": {
+        "value": 0.00021779718876115703,
+        "at_x": 0.6,
+        "at_theta": 0.0
+      },
+      "Fx": {
+        "value": 0.0005264043565538114,
+        "at_x": 0.481,
+        "at_theta": 0.7853981633974483
+      },
+      "Ftheta": {
+        "value": 0.00017498174610008278,
+        "at_x": 0.6,
+        "at_theta": 0.923456434307156
+      },
+      "Fxx": {
+        "value": 0.0062668787293890995,
+        "at_x": 0.446,
+        "at_theta": 0.7424467013366504
+      },
+      "Fxtheta": {
+        "value": 0.0004502318996280698,
+        "at_x": 0.47700000000000004,
+        "at_theta": 1.2302525918842842
+      },
+      "Fthetatheta": {
+        "value": 0.0006752048210163508,
+        "at_x": 0.0,
+        "at_theta": 0.0
+      }
+    },
+    "added_phase_block": {
+      "F": {
+        "value": 2.7588775180514404e-05,
+        "at_x": 0.155,
+        "at_theta": 1.5401167110371838
+      },
+      "Fx": {
+        "value": 0.000997351562140959,
+        "at_x": 0.231,
+        "at_theta": 1.3621749396424494
+      },
+      "Ftheta": {
+        "value": 0.0028152504303426734,
+        "at_x": 0.155,
+        "at_theta": 1.4940972874006144
+      },
+      "Fxx": {
+        "value": 0.11957756488523635,
+        "at_x": 0.227,
+        "at_theta": 1.2455923997631406
+      },
+      "Fxtheta": {
+        "value": 0.10911623825631457,
+        "at_x": 0.232,
+        "at_theta": 0.2239611950313036
+      },
+      "Fthetatheta": {
+        "value": 0.3169195616810221,
+        "at_x": 0.0,
+        "at_theta": 0.0
+      }
+    }
+  },
+  "common_phase_coefficient_change_by_radial_derivative_and_beta_gamma": [
+    [
+      0.0023837411402685346,
+      0.0006348489221439126
+    ],
+    [
+      0.11363109035709024,
+      0.022441339284640933
+    ],
+    [
+      7.933502659632977,
+      1.293599781978242
+    ]
+  ],
+  "added_phase_coefficient_max_by_radial_derivative_and_beta_gamma": [
+    [
+      0.0010370994196263058,
+      8.380512527458476e-05
+    ],
+    [
+      0.03495400168807116,
+      0.005274689023070069
+    ],
+    [
+      8.762795103823333,
+      0.8301316288282976
+    ]
+  ],
+  "limitations": [
+    "Sampled coordinate jet norms, not uniform C2 bounds",
+    "The added finite phase block is not an estimate of the remaining infinite tail",
+    "Finite primitive Fourier cutoffs and ordinary floating arithmetic"
+  ],
+  "execution_candidate_path": "/workspace/scratch/f6a2c7886477/newton-experiments/phase-m32n201-q256.npz",
+  "script_sha256": "760e103befa83e886619971b488ee27ac82d98b1072b7735c1435a637347e8b9"
+}

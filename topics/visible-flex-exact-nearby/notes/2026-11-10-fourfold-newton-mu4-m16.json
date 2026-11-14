@@ -1,0 +1,281 @@
+{
+  "kind": "floating_finite_fourier_newton_not_proof",
+  "parameters": {
+    "mu_scale": 4.0,
+    "points": 801,
+    "length": 3.0,
+    "modes": 16,
+    "epsilons": [
+      0.02,
+      0.03,
+      0.04,
+      0.05,
+      0.055,
+      0.06
+    ],
+    "max_newton": 12,
+    "out": "topics/visible-flex-exact-nearby/notes/2026-11-10-fourfold-newton-mu4-m16.json",
+    "cache": "/workspace/scratch/76e8d4b55978/fourfold-candidates/fourfold-newton-mu4-m16.npz",
+    "restart": 60,
+    "cycles": 6
+  },
+  "history": [
+    {
+      "epsilon": 0.02,
+      "iteration": 0,
+      "low_coefficient_residual": 4.013078310734165e-06,
+      "full_metric_sample": 8.055634757693198e-06,
+      "full_metric_all_x_sample": 8.055634757693198e-06,
+      "alpha": 0.02127731994038252,
+      "gmres_info": 0,
+      "gmres_iterations": 18,
+      "gmres_final": 0.00015694209742312618,
+      "damping": 1.0
+    },
+    {
+      "epsilon": 0.02,
+      "iteration": 1,
+      "low_coefficient_residual": 1.8563286118897588e-09,
+      "full_metric_sample": 7.2222300659932855e-09,
+      "full_metric_all_x_sample": 7.2222300659932855e-09,
+      "alpha": 0.021277136230735464,
+      "gmres_info": 0,
+      "gmres_iterations": 29,
+      "gmres_final": 0.0001504785003604565,
+      "damping": 1.0
+    },
+    {
+      "epsilon": 0.02,
+      "iteration": 2,
+      "low_coefficient_residual": 7.336871941612602e-13,
+      "full_metric_sample": 3.192194724767516e-10,
+      "full_metric_all_x_sample": 3.192194724767516e-10,
+      "alpha": 0.021277135919546497
+    },
+    {
+      "epsilon": 0.03,
+      "iteration": 0,
+      "low_coefficient_residual": 0.0033759644815153688,
+      "full_metric_sample": 0.003468385002580542,
+      "full_metric_all_x_sample": 0.003468385002580542,
+      "alpha": 0.021277135919546497,
+      "gmres_info": 0,
+      "gmres_iterations": 11,
+      "gmres_final": 0.00012308412430890112,
+      "damping": 1.0
+    },
+    {
+      "epsilon": 0.03,
+      "iteration": 1,
+      "low_coefficient_residual": 7.933176230833466e-05,
+      "full_metric_sample": 0.00025783968203662715,
+      "full_metric_all_x_sample": 0.00025783968203662715,
+      "alpha": 0.04841475084138337,
+      "gmres_info": 0,
+      "gmres_iterations": 27,
+      "gmres_final": 0.0001611433035630216,
+      "damping": 1.0
+    },
+    {
+      "epsilon": 0.03,
+      "iteration": 2,
+      "low_coefficient_residual": 3.9878257157930233e-07,
+      "full_metric_sample": 1.7925450969870304e-06,
+      "full_metric_all_x_sample": 1.7925450969870304e-06,
+      "alpha": 0.047672379826865875,
+      "gmres_info": 0,
+      "gmres_iterations": 35,
+      "gmres_final": 0.0001975322437256783,
+      "damping": 1.0
+    },
+    {
+      "epsilon": 0.03,
+      "iteration": 3,
+      "low_coefficient_residual": 4.574008666136932e-09,
+      "full_metric_sample": 2.2229274106938886e-07,
+      "full_metric_all_x_sample": 2.2229274106938886e-07,
+      "alpha": 0.04767391270660619,
+      "gmres_info": 0,
+      "gmres_iterations": 41,
+      "gmres_final": 0.00014899047276084536,
+      "damping": 1.0
+    },
+    {
+      "epsilon": 0.03,
+      "iteration": 4,
+      "low_coefficient_residual": 1.1800096945546132e-12,
+      "full_metric_sample": 2.2140404293031077e-07,
+      "full_metric_all_x_sample": 2.2140404293031077e-07,
+      "alpha": 0.047673913662594755
+    },
+    {
+      "epsilon": 0.04,
+      "iteration": 0,
+      "low_coefficient_residual": 0.004491114694555586,
+      "full_metric_sample": 0.004784049268135796,
+      "full_metric_all_x_sample": 0.004784049268135796,
+      "alpha": 0.047673913662594755,
+      "gmres_info": 0,
+      "gmres_iterations": 32,
+      "gmres_final": 0.00012265719255549596,
+      "damping": 1.0
+    },
+    {
+      "epsilon": 0.04,
+      "iteration": 1,
+      "low_coefficient_residual": 0.00022946250652780035,
+      "full_metric_sample": 0.0007972673914004169,
+      "full_metric_all_x_sample": 0.0007972673914004169,
+      "alpha": 0.08611076703885917,
+      "gmres_info": 0,
+      "gmres_iterations": 39,
+      "gmres_final": 0.00018795049480100227,
+      "damping": 1.0
+    },
+    {
+      "epsilon": 0.04,
+      "iteration": 2,
+      "low_coefficient_residual": 3.262868495713505e-06,
+      "full_metric_sample": 3.154982127212764e-05,
+      "full_metric_all_x_sample": 3.154982127212764e-05,
+      "alpha": 0.08439314553888363,
+      "gmres_info": 0,
+      "gmres_iterations": 44,
+      "gmres_final": 0.00016555174848425586,
+      "damping": 1.0
+    },
+    {
+      "epsilon": 0.04,
+      "iteration": 3,
+      "low_coefficient_residual": 3.659087692347272e-08,
+      "full_metric_sample": 1.8059013263518052e-05,
+      "full_metric_all_x_sample": 1.8059013263518052e-05,
+      "alpha": 0.08440364156589986,
+      "gmres_info": 0,
+      "gmres_iterations": 56,
+      "gmres_final": 0.00019425681421612317,
+      "damping": 1.0
+    },
+    {
+      "epsilon": 0.04,
+      "iteration": 4,
+      "low_coefficient_residual": 3.860671252696777e-11,
+      "full_metric_sample": 1.8162204621430412e-05,
+      "full_metric_all_x_sample": 1.8162204621430412e-05,
+      "alpha": 0.08440364626555584
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 0,
+      "low_coefficient_residual": 0.005391445372498424,
+      "full_metric_sample": 0.006043657772737759,
+      "full_metric_all_x_sample": 0.006043657772737759,
+      "alpha": 0.08440364626555584,
+      "gmres_info": 0,
+      "gmres_iterations": 53,
+      "gmres_final": 0.00018051552252166284,
+      "damping": 1.0
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 1,
+      "low_coefficient_residual": 0.0005830698015721319,
+      "full_metric_sample": 0.002842357687768935,
+      "full_metric_all_x_sample": 0.002842357687768935,
+      "alpha": 0.1352261210074136,
+      "gmres_info": 0,
+      "gmres_iterations": 119,
+      "gmres_final": 0.0001769556672224793,
+      "damping": 0.5
+    },
+    {
+      "epsilon": 0.05,
+      "iteration": 2,
+      "low_coefficient_residual": 0.0002987293639150426,
+      "full_metric_sample": 0.001389739164332245,
+      "full_metric_all_x_sample": 0.001389739164332245,
+      "alpha": 0.13333307900203353,
+      "gmres_info": 6,
+      "gmres_iterations": 360,
+      "gmres_final": 0.43700618826662596
+    }
+  ],
+  "summaries": [
+    {
+      "epsilon": 0.02,
+      "success": true,
+      "actual_spline_metric": {
+        "epsilon": 1.0,
+        "order": 1,
+        "core": 3.0,
+        "diameter_sample": 2.299549230241355,
+        "waist_signed_radial_gap": 0.04012779656920673,
+        "waist_signed_gap_over_sampled_diameter": 0.017450288100592223,
+        "samples": 1201,
+        "angles": 256,
+        "metric_operator_norm_sample": 3.1921969389523654e-10,
+        "at_x": 0.0,
+        "at_theta": 0.0,
+        "minimum_mean_xx": 3.640072695758218e-09,
+        "minimum_mean_tt": 1.1519530561644094e-10
+      }
+    },
+    {
+      "epsilon": 0.03,
+      "success": true,
+      "actual_spline_metric": {
+        "epsilon": 1.0,
+        "order": 1,
+        "core": 3.0,
+        "diameter_sample": 2.3086434359149184,
+        "waist_signed_radial_gap": 0.06045455096815311,
+        "waist_signed_gap_over_sampled_diameter": 0.026186179306721263,
+        "samples": 1201,
+        "angles": 256,
+        "metric_operator_norm_sample": 2.214040424890502e-07,
+        "at_x": 0.0,
+        "at_theta": 0.0,
+        "minimum_mean_xx": 3.703175115321258e-09,
+        "minimum_mean_tt": 1.1719342144882604e-10
+      }
+    },
+    {
+      "epsilon": 0.04,
+      "success": true,
+      "actual_spline_metric": {
+        "epsilon": 1.0,
+        "order": 1,
+        "core": 3.0,
+        "diameter_sample": 2.320655662698644,
+        "waist_signed_radial_gap": 0.08115048446251927,
+        "waist_signed_gap_over_sampled_diameter": 0.03496877445753887,
+        "samples": 1201,
+        "angles": 256,
+        "metric_operator_norm_sample": 1.8162204621430412e-05,
+        "at_x": 0.0,
+        "at_theta": 0.0,
+        "minimum_mean_xx": 3.791881038569113e-09,
+        "minimum_mean_tt": 1.200022794884013e-10
+      }
+    },
+    {
+      "epsilon": 0.05,
+      "success": false,
+      "actual_spline_metric": {
+        "epsilon": 1.0,
+        "order": 1,
+        "core": 3.0,
+        "diameter_sample": 2.3362135563774302,
+        "waist_signed_radial_gap": 0.10249661387474729,
+        "waist_signed_gap_over_sampled_diameter": 0.04387296426516768,
+        "samples": 1201,
+        "angles": 256,
+        "metric_operator_norm_sample": 0.0013055393598230315,
+        "at_x": 0.0,
+        "at_theta": 3.067961575771282,
+        "minimum_mean_xx": 3.911962907361019e-09,
+        "minimum_mean_tt": 1.2380712798904035e-10
+      }
+    }
+  ]
+}

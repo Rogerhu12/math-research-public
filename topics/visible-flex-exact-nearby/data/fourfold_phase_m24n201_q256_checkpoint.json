@@ -1,0 +1,567 @@
+{
+  "status": "floating finite radial phase candidate; exact unit tangent formula but unsolved radial metric residual",
+  "file": "fourfold_phase_m24n201_q256_checkpoint.npz",
+  "bytes": 96535,
+  "sha256": "63b5513befcf44ce907b047dbeb41a7e143431211d20e3cbb103a081cbef0a0e",
+  "metadata": {
+    "kind": "floating_R33_phase_candidate_not_closed_surface_proof",
+    "parameters": {
+      "modes": 24,
+      "points": 201,
+      "length": 3.0,
+      "mu_scale": 4.0,
+      "means": 3,
+      "gauge": "none",
+      "profile_points": 1201,
+      "mesh": "graded"
+    },
+    "beta_waist": 0.2074748402240008,
+    "quarter_period_angles": 256,
+    "radial_gauss_points_per_interval": 3,
+    "amplitude_gauge": "beta4(0), not U4(0) or kernel projection",
+    "mean_radius": "circumference radius; includes explicitly saved source conversion shift",
+    "source_position": "topics/visible-flex-exact-nearby/data/fourfold_overcollocation_m24n151_graded_checkpoint.npz",
+    "limitations": [
+      "Floating arithmetic",
+      "Finite radial splines and Robin endpoint",
+      "FFT primitive approximates exact infinite angular field",
+      "No fixed caps or certified reach"
+    ]
+  },
+  "diagnostic": {
+    "kind": "floating_actual_finite_primitive_samples_not_bounds",
+    "radial_samples": 1798,
+    "quarter_period_angles": 256,
+    "metric_operator_norm_sample": 3.6569866948257156e-05,
+    "at_x": 0.2141512354213661,
+    "at_theta": 0.0,
+    "exact_angular_formula_vs_finite_primitive_jet_max": 6.422951059903426e-11,
+    "twice_sampled_radius": 2.578482278022644,
+    "waist_radial_gap": 0.132485335453858,
+    "gap_ratio_sample": 0.051381130901336565,
+    "actual_U4_at_waist": 0.06009144027308799,
+    "beta4_at_waist": 0.20747484022400084,
+    "phase_retained_metric_coefficient_sample": 4.080206678569891e-06,
+    "phase_retained_peak": {
+      "mode": 96,
+      "component": "xx",
+      "x": 0.043659987180544965
+    },
+    "above_phase_cutoff_metric_coefficient_sample": 4.6461780989500004e-06,
+    "above_phase_cutoff_peak": {
+      "mode": 100,
+      "component": "xt",
+      "x": 0.02997872743122284
+    },
+    "max_abs_principal_curvature_sample": 7.028196676265074,
+    "minimum_support_sample": 0.9226575034375718,
+    "waist_second_form_samples": {
+      "detII_min": -1.5981781272077007,
+      "detII_max": -0.9526042761363415,
+      "N_min": -8.158230375944884,
+      "N_max": -0.42317941383206853,
+      "gauss_min": -1.0859325120683412,
+      "gauss_max": -0.6472641774761807
+    }
+  },
+  "primitive_audit": [
+    {
+      "x": 0.0,
+      "quarter_period_nodes": 256,
+      "equivalent_full_circle_nodes": 1024,
+      "equivalent_full_circle_cutoff": 509,
+      "selected_sigma": 0.08,
+      "full_circle_vs_quarter_primitive_sample": 4.440892098500626e-16,
+      "doubled_FFT_primitive_jet_sample_max": 2.8553548414578245e-15,
+      "analytic_tail_alias_bounds": {
+        "T": {
+          "tail": [
+            1.0249266314990403e-17,
+            5.2271258206451046e-15,
+            2.728594522165715e-12
+          ],
+          "alias": [
+            1.4109599576290775e-17,
+            7.007694441457833e-15,
+            3.4827774244240904e-12
+          ],
+          "total": [
+            2.435886589128118e-17,
+            1.2234820262102938e-14,
+            6.211371946589805e-12
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_x": {
+          "tail": [
+            3.3550279160533302e-18,
+            1.7110642371871984e-15,
+            8.931869376900608e-13
+          ],
+          "alias": [
+            4.618681865408638e-18,
+            2.2939213164825258e-15,
+            1.1400636031140231e-12
+          ],
+          "total": [
+            7.973709781461969e-18,
+            4.0049855536697246e-15,
+            2.033250540804084e-12
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_xx": {
+          "tail": [
+            1.1906885471175015e-13,
+            6.072511590299258e-11,
+            3.169891529229242e-08
+          ],
+          "alias": [
+            1.639155243271587e-13,
+            8.141052497522733e-11,
+            4.046048823373791e-08
+          ],
+          "total": [
+            2.8298437903890884e-13,
+            1.421356408782199e-10,
+            7.215940352603034e-08
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        }
+      },
+      "geometry_jet_tail_alias_bounds": {
+        "F": 2.6244185195856522e-17,
+        "Fx": 8.59085628767326e-18,
+        "Ftheta": 1.3181766763270238e-14,
+        "Fxx": 3.0491596265779007e-13,
+        "Fxtheta": 4.3149620777238506e-15,
+        "Fthetatheta": 6.692117622150793e-12
+      },
+      "absolute_metric_entry_tail_alias_bounds": {
+        "xx": 1.9346655469923964e-17,
+        "xt": 1.4851961286671802e-14,
+        "tt": 2.840400942210398e-14
+      },
+      "roundoff_included": false
+    },
+    {
+      "x": 0.1,
+      "quarter_period_nodes": 256,
+      "equivalent_full_circle_nodes": 1024,
+      "equivalent_full_circle_cutoff": 509,
+      "selected_sigma": 0.08,
+      "full_circle_vs_quarter_primitive_sample": 6.661338147750939e-16,
+      "doubled_FFT_primitive_jet_sample_max": 1.1657341758564144e-15,
+      "analytic_tail_alias_bounds": {
+        "T": {
+          "tail": [
+            5.569660032513346e-18,
+            2.8405266165818064e-15,
+            1.4827738286801913e-12
+          ],
+          "alias": [
+            7.667443738865085e-18,
+            3.808123864785163e-15,
+            1.8926121760133815e-12
+          ],
+          "total": [
+            1.323710377137843e-17,
+            6.64865048136697e-15,
+            3.3753860046935726e-12
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_x": {
+          "tail": [
+            1.9826052376029115e-16,
+            1.0111286711774849e-13,
+            5.278159064935397e-11
+          ],
+          "alias": [
+            2.729343268163493e-16,
+            1.3555596348232976e-13,
+            6.737041024067532e-11
+          ],
+          "total": [
+            4.711948505766404e-16,
+            2.3666883060007825e-13,
+            1.201520008900293e-10
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_xx": {
+          "tail": [
+            2.5450907471708534e-14,
+            1.2979962810571352e-11,
+            6.77562711097486e-09
+          ],
+          "alias": [
+            3.5036860419347065e-14,
+            1.7401458537446206e-11,
+            8.64840889575967e-09
+          ],
+          "total": [
+            6.04877678910556e-14,
+            3.0381421348017556e-11,
+            1.5424036006734532e-08
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        }
+      },
+      "geometry_jet_tail_alias_bounds": {
+        "F": 1.4341984117706356e-17,
+        "Fx": 5.121002274862973e-16,
+        "Ftheta": 7.203602937231952e-15,
+        "Fxx": 6.566300001204725e-14,
+        "Fxtheta": 2.5721452991452625e-13,
+        "Fthetatheta": 3.657124194728772e-12
+      },
+      "absolute_metric_entry_tail_alias_bounds": {
+        "xx": 1.1851459605184645e-15,
+        "xt": 8.890440145952715e-15,
+        "tt": 1.560975281306375e-14
+      },
+      "roundoff_included": false
+    },
+    {
+      "x": 0.25,
+      "quarter_period_nodes": 256,
+      "equivalent_full_circle_nodes": 1024,
+      "equivalent_full_circle_cutoff": 509,
+      "selected_sigma": 0.1,
+      "full_circle_vs_quarter_primitive_sample": 4.440892098500626e-16,
+      "doubled_FFT_primitive_jet_sample_max": 1.4953316362920077e-15,
+      "analytic_tail_alias_bounds": {
+        "T": {
+          "tail": [
+            4.772140893048898e-22,
+            2.4337918554549377e-19,
+            1.264375147128174e-16
+          ],
+          "alias": [
+            5.913158171798865e-22,
+            2.952338759384628e-19,
+            1.474668611589121e-16
+          ],
+          "total": [
+            1.0685299064847763e-21,
+            5.386130614839566e-19,
+            2.7390437587172954e-16
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_x": {
+          "tail": [
+            1.1991149506349027e-19,
+            6.115486248238003e-17,
+            3.177046059853336e-14
+          ],
+          "alias": [
+            1.4858229310876118e-19,
+            7.418459817214647e-17,
+            3.7054588685012035e-14
+          ],
+          "total": [
+            2.684937881722514e-19,
+            1.3533946065452652e-16,
+            6.88250492835454e-14
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_xx": {
+          "tail": [
+            1.3442006770298617e-16,
+            6.855423452852295e-14,
+            3.5614496027663864e-11
+          ],
+          "alias": [
+            1.6655986057524917e-16,
+            8.316049018935904e-14,
+            4.153797196097312e-11
+          ],
+          "total": [
+            3.0097992827823537e-16,
+            1.51714724717882e-13,
+            7.715246798863698e-11
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        }
+      },
+      "geometry_jet_tail_alias_bounds": {
+        "F": 1.186572385814398e-21,
+        "Fx": 2.983866827600585e-19,
+        "Ftheta": 5.981146447255952e-19,
+        "Fxx": 3.3434662151565953e-16,
+        "Fxtheta": 1.5040754941165236e-16,
+        "Fthetatheta": 3.041630999663108e-16
+      },
+      "absolute_metric_entry_tail_alias_bounds": {
+        "xx": 7.470948278808977e-19,
+        "xt": 1.0801239750738468e-18,
+        "tt": 1.3283789563127175e-18
+      },
+      "roundoff_included": false
+    },
+    {
+      "x": 0.5,
+      "quarter_period_nodes": 256,
+      "equivalent_full_circle_nodes": 1024,
+      "equivalent_full_circle_cutoff": 509,
+      "selected_sigma": 0.2,
+      "full_circle_vs_quarter_primitive_sample": 4.440892098500626e-16,
+      "doubled_FFT_primitive_jet_sample_max": 2.220446049250313e-16,
+      "analytic_tail_alias_bounds": {
+        "T": {
+          "tail": [
+            4.5427889137926484e-46,
+            2.3168223460342505e-43,
+            1.1920436850224105e-40
+          ],
+          "alias": [
+            3.379284969598433e-46,
+            1.7046226199051723e-43,
+            8.59953720287392e-41
+          ],
+          "total": [
+            7.922073883391082e-46,
+            4.0214449659394225e-43,
+            2.0519974053098024e-40
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_x": {
+          "tail": [
+            1.520899967565843e-44,
+            7.756589834585799e-42,
+            3.990894660289303e-39
+          ],
+          "alias": [
+            1.1313654449260172e-44,
+            5.706979867487002e-42,
+            2.8790762901666242e-39
+          ],
+          "total": [
+            2.65226541249186e-44,
+            1.3463569702072802e-41,
+            6.869970950455927e-39
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_xx": {
+          "tail": [
+            3.319000425234795e-42,
+            1.6926902168697453e-39,
+            8.709173092933234e-37
+          ],
+          "alias": [
+            2.4689344946302933e-42,
+            1.2454118621168134e-39,
+            6.282895413983074e-37
+          ],
+          "total": [
+            5.787934919865089e-42,
+            2.938102078986559e-39,
+            1.4992068506916308e-36
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        }
+      },
+      "geometry_jet_tail_alias_bounds": {
+        "F": 8.851972447186338e-46,
+        "Fx": 2.9825052439706004e-44,
+        "Ftheta": 4.493484983900983e-43,
+        "Fxx": 6.484621903691781e-42,
+        "Fxtheta": 1.513995056824618e-41,
+        "Fthetatheta": 2.2928622934939034e-40
+      },
+      "absolute_metric_entry_tail_alias_bounds": {
+        "xx": 7.522325077441359e-44,
+        "xt": 5.999880560807601e-43,
+        "tt": 1.0041866777518793e-42
+      },
+      "roundoff_included": false
+    },
+    {
+      "x": 1.0,
+      "quarter_period_nodes": 256,
+      "equivalent_full_circle_nodes": 1024,
+      "equivalent_full_circle_cutoff": 509,
+      "selected_sigma": 0.25,
+      "full_circle_vs_quarter_primitive_sample": 4.440892098500626e-16,
+      "doubled_FFT_primitive_jet_sample_max": 2.220446049250313e-16,
+      "analytic_tail_alias_bounds": {
+        "T": {
+          "tail": [
+            2.6837409648799926e-57,
+            1.3687078920887961e-54,
+            7.028599876766183e-52
+          ],
+          "alias": [
+            1.5516611446407748e-57,
+            7.842827531676791e-55,
+            3.964386094969745e-52
+          ],
+          "total": [
+            4.2354021095207674e-57,
+            2.152990645256475e-54,
+            1.0992985971735928e-51
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_x": {
+          "tail": [
+            1.4083871454325894e-59,
+            7.182774441706207e-57,
+            3.6885041613057546e-54
+          ],
+          "alias": [
+            8.142885765716983e-60,
+            4.115798664627204e-57,
+            2.0804505683493786e-54
+          ],
+          "total": [
+            2.2226757220042875e-59,
+            1.1298573106333411e-56,
+            5.768954729655133e-54
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        },
+        "T_xx": {
+          "tail": [
+            1.703792792423056e-58,
+            8.689343241357585e-56,
+            4.462158594130672e-53
+          ],
+          "alias": [
+            9.850835490898723e-59,
+            4.979077040427243e-56,
+            2.5168198210566402e-53
+          ],
+          "total": [
+            2.6888763415129284e-58,
+            1.3668420281784827e-55,
+            6.978978415187313e-53
+          ],
+          "derivative_orders": [
+            0,
+            1,
+            2
+          ],
+          "roundoff_included": false
+        }
+      },
+      "geometry_jet_tail_alias_bounds": {
+        "F": 1.774480600156971e-57,
+        "Fx": 6.396329894716992e-57,
+        "Ftheta": 9.020253646611452e-55,
+        "Fxx": 1.473298412554816e-56,
+        "Fxtheta": 3.2514595004671767e-54,
+        "Fthetatheta": 4.605664312437696e-52
+      },
+      "absolute_metric_entry_tail_alias_bounds": {
+        "xx": 1.9412691192223001e-56,
+        "xt": 1.371491332618365e-54,
+        "tt": 7.558321354388853e-55
+      },
+      "roundoff_included": false
+    }
+  ],
+  "alpha": [
+    0.7995351580493035,
+    -0.0020826635950623182,
+    -0.06091483777082038
+  ],
+  "evaluator_source_sha256": {
+    "fourfold_phase_newton.py": "633f1bd59e2a30b082a7915a38e0d0e27ce6d01aae6368675847235bb9bd38e5",
+    "fourfold_banded_normal.py": "78cb675a88b980b8660b0d768df12332328ec16736da2f842552d68574f18a66",
+    "fourfold_unit_tangent.py": "2a41b6d2e87b29c731d910d1435487200a3925a124c6b09aecb205ea20634714",
+    "fourfold_newton_refined.py": "13486edbf499c21b8f69803968e2e258347a4f3661f5d08eda56e503e3739757",
+    "fourfold_overcollocation.py": "0ec3a60ac995b82839de85d65f3cb1e3b45e5fe0eb9c6cb56db7c94db59e77e2",
+    "poschl_teller_fourfold_series.py": "173634e9e305dfe12946b4bc792014f2e443f689fc3dd2f5e1dfd834210992c9"
+  },
+  "computation": {
+    "first_stage": "M24 n151 Q128, four normal steps from saved M24 position graph",
+    "saved_stage": "M24 n201 Q256, four normal steps from first phase stage",
+    "normal_solver": "sparse LU with released objects; new banded solver independently checked for continuation",
+    "gauss_per_interval": 3,
+    "initial_regularization": 1e-06,
+    "final_cost": 1.6937641820255072e-11
+  },
+  "limitations": [
+    "Ordinary floating arithmetic, with no rounding certificate",
+    "Finite radial splines and finite Robin endpoint",
+    "Full tangent and angular closure are analytic identities; radial metric equations are only approximately solved",
+    "Primitive analytic tail and alias formulas are evaluated at five radial samples, not over a continuous radial interval",
+    "No exact fixed caps, global reach bound, or completed closed family"
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "kind": "R119-actual-complete-strict-density-relative-Cauchy-v1",
+  "status": "proved",
+  "arithmetic": "exact rational inequalities and symbolic identities; Arb256 directed full-prefix and deep-tail arithmetic",
+  "operator_scope": "all Fourier modes, both independent means, actual fixed labels, same Gamma, no head projection",
+  "source_scope": "actual ordinary and weak full density source; bare endpoint weak traces remain separate inputs",
+  "all_checks_pass": true,
+  "check_count": 51,
+  "checks": [
+    {
+      "name": "complete_discriminant_height_conjugation",
+      "pass": true,
+      "evidence": "Both derivatives of log density and all mixed coefficients are retained"
+    },
+    {
+      "name": "complete_potential_difference_identity",
+      "pass": true,
+      "evidence": "The full S.12 includes every cross term and the radial coefficient derivative"
+    },
+    {
+      "name": "same_actual_reference_wave_potential",
+      "pass": true,
+      "evidence": "The density potential is q times the complete actual reference Vw"
+    },
+    {
+      "name": "actual_normalized_discriminant",
+      "pass": true,
+      "evidence": "No principal coefficient is frozen before taking the density frame"
+    },
+    {
+      "name": "actual_full_weak_density_row_-1",
+      "pass": true,
+      "evidence": "The exact total flux and both weak source components enter the complete density row"
+    },
+    {
+      "name": "actual_full_weak_density_row_1",
+      "pass": true,
+      "evidence": "The exact total flux and both weak source components enter the complete density row"
+    },
+    {
+      "name": "actual_weak_source_mean_compatibility",
+      "pass": true,
+      "evidence": "The source sum is minus d_theta(nu Ft); the independent height mean keeps minus mean(nu Ft)"
+    },
+    {
+      "name": "actual_complete_height_source_row",
+      "pass": true,
+      "evidence": "The total-flux state does not delete the radial weak source from the height equation"
+    },
+    {
+      "name": "actual_weak_height_source_transform",
+      "pass": true,
+      "evidence": "The ordinary correction has its exact negative density-gradient sign"
+    },
+    {
+      "name": "actual_physical_ordinary_density_unit",
+      "pass": true,
+      "evidence": "The actual radial factor a^(1/2) w_ref^(3/2) /sqrt(q), J and D all remain"
+    },
+    {
+      "name": "small_n_keeps_exact_lower_order_c_coefficient",
+      "pass": true,
+      "evidence": "The d^2/q^2 term is small at the actual strict lower cut"
+    },
+    {
+      "name": "potential_radial_coefficient_product",
+      "pass": true,
+      "evidence": "S^2/q, |Q_t|/q, Q_t^2/q^5 and |Q_tt|/q^3 dominate d_t(da L)"
+    },
+    {
+      "name": "potential_angular_cross_product",
+      "pass": true,
+      "evidence": "The b_theta L term uses the same nonnegative W envelope"
+    },
+    {
+      "name": "potential_complete_density_divergence_budget",
+      "pass": true,
+      "evidence": "All a r_tt, (a_t+b_theta)r_t, 2b r_ttheta, (b_t+c_theta)r_theta and c r_thetatheta terms are present"
+    },
+    {
+      "name": "potential_complete_quadratic_budget",
+      "pass": true,
+      "evidence": "The full six-term quadratic difference has a common n W majorant"
+    },
+    {
+      "name": "potential_complete_same_width_majorant",
+      "pass": true,
+      "evidence": "The complete potential difference is bounded without A_tt"
+    },
+    {
+      "name": "potential_whole_strict_radial_integral",
+      "pass": true,
+      "evidence": "The true piecewise Q_tt integral is included and Q_t is continuous at seams"
+    },
+    {
+      "name": "actual_label_flow_picard_fee",
+      "pass": true,
+      "evidence": "Integral of the full speed difference, including true drift and q(v-1)"
+    },
+    {
+      "name": "actual_inverse_flow_and_C8_fee",
+      "pass": true,
+      "evidence": "The full inverse flow and all eight angular derivatives use the actual unit strip reserve"
+    },
+    {
+      "name": "actual_working_input_full_C8_smallness",
+      "pass": true,
+      "evidence": "The real U.25 prefix and deep-tail budget pays the actual coefficient differences"
+    },
+    {
+      "name": "actual_composition_chain_count",
+      "pass": true,
+      "evidence": "The complete chain rule, not a finite Fourier truncation, controls H^6 and adjoints"
+    },
+    {
+      "name": "actual_full_Sobolev_multiplier_fee",
+      "pass": true,
+      "evidence": "(1+x)^6 exp(-x) <= sum binom(6,k) k! = 1957"
+    },
+    {
+      "name": "actual_primitive_full_nonzero_mode_gain",
+      "pass": true,
+      "evidence": "Every nonzero frequency is kept; the circle has |m|>=4"
+    },
+    {
+      "name": "actual_complete_generator_ordered_difference",
+      "pass": true,
+      "evidence": "The ordered LBR difference pays both means and uses R0 only where a derivative is needed"
+    },
+    {
+      "name": "actual_complete_generator_integral",
+      "pass": true,
+      "evidence": "Both complete potential and exact flow differences fit S.22 with N_j plus its adjacent cell"
+    },
+    {
+      "name": "reference_strict_high_frequency_energy",
+      "pass": true,
+      "evidence": "The full Vw perturbation controls both wave rows for every |m|>=mstar"
+    },
+    {
+      "name": "reference_strict_two_complete_low_frames",
+      "pass": true,
+      "evidence": "Both inverse and forward shears retain L^2 M^-2 and rho M^-1/3"
+    },
+    {
+      "name": "reference_complete_low_frequency_constants",
+      "pass": true,
+      "evidence": {
+        "powers_of_two": [
+          "865/3",
+          "815/3",
+          "230"
+        ]
+      }
+    },
+    {
+      "name": "reference_complete_low_frequency_powers",
+      "pass": true,
+      "evidence": "All low frequencies are bounded in the identical output Sobolev space"
+    },
+    {
+      "name": "reference_raw_mean_density_ratio",
+      "pass": true,
+      "evidence": "The actual independent mean height uses Lambda=mu q, not a gradient mean slot"
+    },
+    {
+      "name": "reference_raw_mean_integral_fee",
+      "pass": true,
+      "evidence": "The full integral of mu^-1 between arbitrary strict times is retained"
+    },
+    {
+      "name": "reference_complete_mean_two_shear_fee",
+      "pass": true,
+      "evidence": "Both normal shears and both complete c,alpha transformations are paid"
+    },
+    {
+      "name": "reference_complete_all_mode_state_bound",
+      "pass": true,
+      "evidence": "Kstrict includes every nonzero mode and the independent height and flux means"
+    },
+    {
+      "name": "actual_complete_relative_interaction_power",
+      "pass": true,
+      "evidence": "The full two-direction reference condition number is paid twice"
+    },
+    {
+      "name": "actual_full_adjacent_cell_budget_129",
+      "pass": true,
+      "evidence": {
+        "log2_upper_interval": "[4657.05798401543987565619701194847502785611377 +/- 4.18e-42]",
+        "normalizations": "Both delta4096^(-3/2) and delta8192^(-485/4), actual h_j and adjacent N retained"
+      }
+    },
+    {
+      "name": "actual_full_adjacent_cell_budget_130",
+      "pass": true,
+      "evidence": {
+        "log2_upper_interval": "[4682.57398594868219979742763953124880622803334 +/- 6.54e-43]",
+        "normalizations": "Both delta4096^(-3/2) and delta8192^(-485/4), actual h_j and adjacent N retained"
+      }
+    },
+    {
+      "name": "actual_full_adjacent_cell_budget_4096",
+      "pass": true,
+      "evidence": {
+        "log2_upper_interval": "[96956.2331329998376672251329705817891419269690 +/- 8.56e-42]",
+        "normalizations": "Both delta4096^(-3/2) and delta8192^(-485/4), actual h_j and adjacent N retained"
+      }
+    },
+    {
+      "name": "actual_full_adjacent_cell_budget_4097",
+      "pass": true,
+      "evidence": {
+        "log2_upper_interval": "[97023.5832370967227563992940361326989770048623 +/- 4.66e-41]",
+        "normalizations": "Both delta4096^(-3/2) and delta8192^(-485/4), actual h_j and adjacent N retained"
+      }
+    },
+    {
+      "name": "actual_full_adjacent_cell_budget_4098",
+      "pass": true,
+      "evidence": {
+        "log2_upper_interval": "[97048.7338716038372701743524898746324535816163 +/- 2.37e-42]",
+        "normalizations": "Both delta4096^(-3/2) and delta8192^(-485/4), actual h_j and adjacent N retained"
+      }
+    },
+    {
+      "name": "actual_full_adjacent_cell_budget_8192",
+      "pass": true,
+      "evidence": {
+        "log2_upper_interval": "[186186.176511506745400771079240739947290952749 +/- 3.13e-40]",
+        "normalizations": "Both delta4096^(-3/2) and delta8192^(-485/4), actual h_j and adjacent N retained"
+      }
+    },
+    {
+      "name": "actual_full_adjacent_cell_budget_8193",
+      "pass": true,
+      "evidence": {
+        "log2_upper_interval": "[186207.802269151733536401722797034930715769798 +/- 3.77e-40]",
+        "normalizations": "Both delta4096^(-3/2) and delta8192^(-485/4), actual h_j and adjacent N retained"
+      }
+    },
+    {
+      "name": "actual_full_adjacent_cell_budget_8194",
+      "pass": true,
+      "evidence": {
+        "log2_upper_interval": "[186108.324088298721009973036099614757666403248 +/- 6.33e-41]",
+        "normalizations": "Both delta4096^(-3/2) and delta8192^(-485/4), actual h_j and adjacent N retained"
+      }
+    },
+    {
+      "name": "actual_old_and_middle_finite_monotonicity",
+      "pass": true,
+      "evidence": "Each actual old or middle interval increases; the two mixed seam rows are computed separately"
+    },
+    {
+      "name": "actual_infinite_deep_tail_geometric_ratio",
+      "pass": true,
+      "evidence": {
+        "ratio_interval": "[1.13261827600099054436238831768565633429646758e-30 +/- 4.81e-75]",
+        "first_all_new_adjacent_row": 8194
+      }
+    },
+    {
+      "name": "actual_complete_prefix_count",
+      "pass": true,
+      "evidence": "All 8065 finite rows are retained, including the actual maximum at8193"
+    },
+    {
+      "name": "actual_all_components_and_infinite_sum",
+      "pass": true,
+      "evidence": "Two negative components per layer, the finite prefix and the whole geometric deep tail are all paid"
+    },
+    {
+      "name": "actual_working_input_full_relative_smallness",
+      "pass": true,
+      "evidence": "This consumes the existing proved small X input contract, without asserting a new nonlinear reach"
+    },
+    {
+      "name": "actual_complete_relative_propagator_error",
+      "pass": true,
+      "evidence": "The actual full F_state Neumann interaction gives exp(eta)-1<=2eta"
+    },
+    {
+      "name": "actual_complete_source_state_fee",
+      "pass": true,
+      "evidence": "The true density pullback, full mean reconstruction and weak height mean are included"
+    },
+    {
+      "name": "actual_complete_source_propagator_fee",
+      "pass": true,
+      "evidence": "The actual two-direction Cauchy bound is at most2Kstrict"
+    },
+    {
+      "name": "actual_ordinary_coefficient_multiplier_smallness",
+      "pass": true,
+      "evidence": "J/D is a bounded actual same-space multiplier; the exact radial unit is not removed"
+    }
+  ],
+  "actual_log2_budget_rows": {
+    "129": "[4657.05798401543987565619701194847502785611377 +/- 4.18e-42]",
+    "130": "[4682.57398594868219979742763953124880622803334 +/- 6.54e-43]",
+    "4096": "[96956.2331329998376672251329705817891419269690 +/- 8.56e-42]",
+    "4097": "[97023.5832370967227563992940361326989770048623 +/- 4.66e-41]",
+    "4098": "[97048.7338716038372701743524898746324535816163 +/- 2.37e-42]",
+    "8192": "[186186.176511506745400771079240739947290952749 +/- 3.13e-40]",
+    "8193": "[186207.802269151733536401722797034930715769798 +/- 3.77e-40]",
+    "8194": "[186108.324088298721009973036099614757666403248 +/- 6.33e-41]"
+  },
+  "deep_ratio_interval": "[1.13261827600099054436238831768565633429646758e-30 +/- 4.81e-75]",
+  "file_sha256": {
+    "results/R119-supplement-actual-strict-density-complete-relative-Cauchy.md": "dcf33b5e85b2a059963760d68b68f096fb4e764ebf248cc2a3805a3225b208dd",
+    "scripts/fourfold_actual_strict_density_relative_20261113.py": "5f4268175c10ca655f687dbb4d19a824c4df3ad0212a5647940aaba82ea0f600",
+    "results/R119-supplement-actual-root-graph-to-fixed-radial-two-port.md": "87f7886c8fc9566c351687a8a6e10d4fa67400ef2482811ec78531d16cfcfe0d",
+    "results/R119-supplement-uniform-frequency-reference-Airy-Cauchy.md": "d116f9cf80740a5468d1b6addac8097891838b9f47ac28af667501b5ef6017fc",
+    "results/R119-supplement-stronger-deep-full-label-chart-and-fourth-line.md": "513202b38f1c346ef3fb3f43ff79e1c6bd4bccbd1ed8d9151a8a7095dc75bf98",
+    "results/R119-supplement-unscalarized-tail-frame-and-summable-remainder.md": "c506990aa604918061c5189cfb40c9c3f5042d4a1453f6b134fa3983aefa3f7e",
+    "results/R119-supplement-actual-ray-amplitude-and-integrable-relative-coupling.md": "6a79a8ed9f22ddff4729608529a50d5bc3fc57b70c4179c89b1bb16072ccc3c6"
+  }
+}

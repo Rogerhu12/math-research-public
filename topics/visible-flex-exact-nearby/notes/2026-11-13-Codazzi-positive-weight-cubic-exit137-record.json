@@ -1,0 +1,55 @@
+{
+  "kind": "external_exit137_complete_positive_weight_process_records",
+  "all_original_checkpoint_bytes_unchanged": true,
+  "mathematical_failure_inferred": false,
+  "unfinished_flags_preserved": true,
+  "rows": [
+    {
+      "session_id": 84214,
+      "exit_code": 137,
+      "observed_status": "Killed",
+      "native": "notes/2026-11-13-Codazzi-positive-weight-cubic-s10-r02-native.json.gz",
+      "native_sha256": "cc015ef92041a2855b0e9cc8c6eba11b36c209569af195489972e3e05b2e48c6",
+      "native_bytes": 28385,
+      "complete": false,
+      "failure": null,
+      "completed_rows": 33,
+      "planned_boxes": 579,
+      "covered_interval": [
+        "0",
+        "6524082931222251/576460752303423488"
+      ],
+      "requested_interval": [
+        "0",
+        "1/5"
+      ],
+      "log": "notes/2026-11-13-Codazzi-positive-weight-cubic-s10-r02-native-exit137.log.gz",
+      "log_sha256": "ecd228289351f32035c09280ab0c178419dd79fc9a500015cf4c7f682349cf0e",
+      "source_sha256": "d467ee2b62c32365c98526fd06a1c0752f4538483a630a62124ace472c75da5c"
+    },
+    {
+      "session_id": 94623,
+      "exit_code": 137,
+      "observed_status": "Killed",
+      "native": "notes/2026-11-13-Codazzi-positive-weight-cubic-s10-r02-part-000-native.json.gz",
+      "native_sha256": "5786d02405ebd4b940fe3d9a87bc6a5121fe4fcf09827e83d45e0fefa8a128b1",
+      "native_bytes": 11173,
+      "complete": false,
+      "failure": null,
+      "completed_rows": 11,
+      "planned_boxes": 193,
+      "covered_interval": [
+        "0",
+        "8741514773958725/2305843009213693952"
+      ],
+      "requested_interval": [
+        "0",
+        "17317649385345/281474976710656"
+      ],
+      "log": "notes/2026-11-13-Codazzi-positive-weight-cubic-s10-r02-part-000-native-exit137.log.gz",
+      "log_sha256": "d3abbb52532a65c03168785dec56e95df28811b77068c7187a89ab9af013ee36",
+      "source_sha256": "d467ee2b62c32365c98526fd06a1c0752f4538483a630a62124ace472c75da5c"
+    }
+  ],
+  "recovery": "Rerun the first complete partition with an explicit small-batch producer; do not mark these interrupted requests complete or merge them as completed pieces."
+}

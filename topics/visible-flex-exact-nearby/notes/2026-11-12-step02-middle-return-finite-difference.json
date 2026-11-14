@@ -1,0 +1,29 @@
+{
+  "kind": "floating_independent_geometry_only_step02_parameter_FD",
+  "source_sha256": "05d3e59cf338c5d2a2bde13aad7bf1d4e5247c326efb46b3148793e75a7ea883",
+  "direction_source_sha256": "941c19642b4e74cbe5d68c311629bbe66f05df16fca26692c541ed61d6f29629",
+  "basis": "middle Schur eigenvector",
+  "mean_direction": [
+    0.08405712921090018,
+    -0.5337465935981294,
+    0.8414564592723831
+  ],
+  "theta": 1.0799224746714913,
+  "step": 2e-05,
+  "returns_minus_plus": [
+    1.7216705546117783,
+    1.7216799868242185
+  ],
+  "turns_minus_plus": [
+    0.23836439964427972,
+    0.2383754206282939
+  ],
+  "return_finite_difference": 0.2358053110051994,
+  "return_variational": 0.2359836575897747,
+  "turn_finite_difference": 0.2755246003544043,
+  "turn_variational": 0.2755240993823566,
+  "ode_rtol": 2e-11,
+  "limitations": "ordinary floating finite difference; no certified derivative bound",
+  "return_difference": -0.00017834658457530073,
+  "turn_difference": 5.009720476789603e-07
+}

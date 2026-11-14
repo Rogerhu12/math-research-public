@@ -1,0 +1,212 @@
+{
+  "kind": "local_complex_radial_angular_denominator_gate_for_exact_symmetric_infinite_R33_root",
+  "inputs_sha256": "bd9b4d14b104183f80feaeea4c4c1a5d8c40b511bd58974dbca1bda842474532",
+  "source_checkpoint_sha256": "05d3e59cf338c5d2a2bde13aad7bf1d4e5247c326efb46b3148793e75a7ea883",
+  "source_sha256": "cfdda23bef1543d11cb3c8de21a93cec4e17c68b695eebd7c53d2a00162370f0",
+  "certificates_sha256": {
+    "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_symmetric_root_interval.json": "a40084d57e07db9c2b9162c76a094d7a7b087abddc740ed146f79f708342aa2f",
+    "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_core_scalar_gate.json": "24feed025a1ca5c4bb53f54c148a3e53dd73a635a50655a4965a8a2df2cceb1a",
+    "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_core_interval.json": "36a83e821e7ca2572fdc95378d688505c1fee788b633e7f0195ff61ecf35eeac"
+  },
+  "dependency_sha256": {
+    "fourfold_phase_core_interval.py": "f489e86dadf7d013d5044fa3b7588b9699268f2db3923d80419a811cb077b40b",
+    "fourfold_phase_root_interval.py": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840",
+    "fourfold_phase_uniform_tail.py": "d7010fcd486cfe703eab58d0d5ad4e78a193418b7bc6c71f25e308c523b55c61",
+    "fourfold_interval_scalar.py": "0400c59be86f7f143481f89d5a08ca8d0ea992be36aa1687ff9a19d10343dda8"
+  },
+  "real_radial_collar": [
+    0.23788166874999997,
+    0.23885823125000002
+  ],
+  "common_real_polynomial_span": [
+    0.23750000000000002,
+    0.23969803864366687
+  ],
+  "imaginary_radial_width": 1.52587890625e-05,
+  "imaginary_angular_width": 0.00048828125,
+  "all_real_angles": true,
+  "gate_passed": true,
+  "positive_real_part_lower": {
+    "minus_Nraw": 0.24232141632643633,
+    "area_squared": 0.7090238851946261,
+    "F_squared": 0.6497501768202891,
+    "J": 0.6802363098009029,
+    "Fz": 0.22417762015629358,
+    "a": 1.0969829582965216,
+    "E": 1.5036384204105846,
+    "real_part_Cprime": 161.9603980830376
+  },
+  "real_baseline_lower": {
+    "minus_Nraw": 0.3916395581808442,
+    "area_squared": 0.7218208587706704,
+    "F_squared": 0.6510676789017662,
+    "J": 0.685532078828336,
+    "Fz": 0.22474332719859338
+  },
+  "complex_displacement_allowances": {
+    "Nraw": 0.14931814185440787,
+    "area_squared": 0.012796973576044172,
+    "F_squared": 0.0013175020814769442,
+    "J": 0.005295769027432978,
+    "Fz": 0.0005657070422997663
+  },
+  "complex_derivative_majorants": {
+    "Nraw": [
+      332.8664748546638,
+      295.40147717861896
+    ],
+    "area_squared": [
+      212.64526759389037,
+      19.563037271429383
+    ],
+    "F_squared": [
+      3.0586875899609836,
+      2.6026602756785002
+    ],
+    "J": [
+      87.99894875629109,
+      8.095767819548639
+    ],
+    "Fz": [
+      1.2949619321727752,
+      1.1181004622495216
+    ]
+  },
+  "E_radial_derivative_upper": 168.01129509041996,
+  "E_displacement_allowance": 0.0025636489119021605,
+  "Csecond_modulus_upper": 4538636.132624826,
+  "Cprime_displacement_allowance": 69.25409137916301,
+  "radius_complex_jet_majorants": [
+    1.0975294193938716,
+    0.23201398571751258,
+    0.16864120495438722,
+    121.23667479292958,
+    30716.005625993956,
+    344589.1960440707
+  ],
+  "height_complex_jet_majorants": [
+    0.27182573777218166,
+    1.189482942943264,
+    0.5965019005482752,
+    0.2409172580766484,
+    261.8468221354046,
+    60466.18075217856
+  ],
+  "phase_beta_complex_mixed_majorants": [
+    [
+      0.20844952130978048,
+      1.8946215641533322,
+      54.27459749250916
+    ],
+    [
+      1.6196349899798934,
+      32.01507515807743,
+      1590.808132404737
+    ],
+    [
+      26.561383011743942,
+      1465.0803150363297,
+      102710.21244262031
+    ],
+    [
+      5368.710541021654,
+      333347.4008506565,
+      24428660.410305526
+    ],
+    [
+      2272148.6618759907,
+      153446711.63129407,
+      11461336696.87829
+    ],
+    [
+      1185700518.1854224,
+      79741271968.39255,
+      5804406768023.482
+    ]
+  ],
+  "phase_gamma_complex_mixed_majorants": [
+    [
+      0.018569558161460217,
+      0.2039270740171533,
+      6.5174603718455755
+    ],
+    [
+      0.2457969441524777,
+      4.741151952401142,
+      224.66145945810325
+    ],
+    [
+      6.067789515367348,
+      340.0773372123417,
+      23898.387119757204
+    ],
+    [
+      1723.4359729021871,
+      106563.55708212515,
+      7890133.749357627
+    ],
+    [
+      696643.052921622,
+      46876218.23325689,
+      3540137706.39917
+    ],
+    [
+      352833494.91086894,
+      23736544009.55113,
+      1745869865334.883
+    ]
+  ],
+  "tangent_complex_mixed_majorants": [
+    [
+      1.003975682513137,
+      3.1888509220012318,
+      183.4342697497163
+    ],
+    [
+      1.920732217932937,
+      45.35382120508787,
+      5692.6723867848805
+    ],
+    [
+      38.97873461379043,
+      2262.3999268622774,
+      402990.8277850657
+    ],
+    [
+      7995.940198843999,
+      531222.0549679754,
+      100938221.56277066
+    ],
+    [
+      3351922.403530744,
+      239803471.97523385,
+      46229331579.45111
+    ],
+    [
+      4299622167.435053,
+      303191450882.30743,
+      23389801597929.91
+    ]
+  ],
+  "position_complex_radial_majorants": [
+    1.1809951759851767,
+    1.2949619321727752,
+    64.87113285582036,
+    12935.690966232489,
+    5352431.897423491,
+    7434058153.765152
+  ],
+  "kappa_modulus_lower": 32.13341822219848,
+  "kappa_modulus_upper": 88.48458135351574,
+  "zeta_modulus_lower": 0.40712699712687755,
+  "ell_modulus_upper": 6.9903811803628715,
+  "area_squared_modulus_upper": 2.0066327663101187,
+  "F_squared_modulus_upper": 1.3912075204007788,
+  "analytic_definitions": "Bilinear dot products in complex variables; A\u00b2=a\u00b2(T cross Fx) dot (T cross Fx); H\u00b2=F dot F; J=a F dot (T cross Fx); zeta=J/(sqrt(A\u00b2) sqrt(H\u00b2)), each square root is the principal branch on the proved right half-plane",
+  "kappa_identity": "K0(z)/(z-t) = integral_0^1 Cprime(t+s(z-t)) ds / (2 a(z) E(z)^2); t is the already certified exact real root",
+  "limitations": [
+    "Only this root collar and its exact radial reflection, not the entire piecewise-polynomial core, is complexified in x",
+    "No parameter tube, canonical coordinate univalence, beta coefficient enclosure, or PDE inverse is asserted",
+    "The complete infinite primitive is bounded directly; there is no uncharged finite FFT remainder"
+  ]
+}

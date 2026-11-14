@@ -1,0 +1,16 @@
+{"segment": 68, "subspan": ["0", "1"], "stage": "initializing", "mode": "ordinary_negative_K"}
+{"segment": 68, "subspan": ["0", "1"], "stage": "reference_outer_gate", "time_radius": "6", "label_strip": "1/64", "q_lower": "[0.068962388128001847894004227009239554 +/- 1.38e-37]", "passed": true}
+{"segment": 68, "subspan": ["0", "1"], "stage": "reference_outer_gate", "time_radius": "3", "label_strip": "1/64", "q_lower": "[0.069230895209931809027150499119826501 +/- 2.13e-37]", "passed": true}
+{"segment": 68, "subspan": ["0", "1"], "stage": "reference_outer_gate", "time_radius": "2", "label_strip": "1/32", "q_lower": "[0.068875916919090720920818858711452267 +/- 4.84e-38]", "passed": true}
+{"segment": 68, "subspan": ["0", "1"], "stage": "reference_outer_gate", "time_radius": "3/2", "label_strip": "1/32", "q_lower": "[0.068936078243080182399847833007024594 +/- 1.39e-37]", "passed": true}
+{"segment": 68, "subspan": ["0", "1"], "stage": "field_sampling", "nodes": 2048, "degree": 1023, "time_nodes": 48, "terms": 48}
+{"segment": 68, "subspan": ["0", "1"], "stage": "field_node", "node": 0, "of": 25}
+{"segment": 68, "subspan": ["0", "1"], "stage": "field_node", "node": 8, "of": 25}
+{"segment": 68, "subspan": ["0", "1"], "stage": "field_node", "node": 16, "of": 25}
+{"segment": 68, "subspan": ["0", "1"], "stage": "field_node", "node": 24, "of": 25}
+{"segment": 68, "subspan": ["0", "1"], "stage": "field_compressed", "terms": 11, "degree": 370, "fee": {"ball": "[5.4088006168551421903760280187220251e-21 +/- 3.79e-56]", "lower": "[5.4088006168551421903760280187220251e-21 +/- 3.79e-56]", "upper": "[5.4088006168551421903760280187220251e-21 +/- 3.79e-56]", "mid_float": 5.408800616855142e-21, "radius_upper_float": 0.0}}
+{"segment": 68, "subspan": ["0", "1"], "stage": "density_sampling", "nodes": 4096, "degree": 1919, "time_nodes": 30, "terms": 30}
+{"segment": 68, "subspan": ["0", "1"], "stage": "density_node", "node": 0, "of": 16}
+{"segment": 68, "subspan": ["0", "1"], "stage": "density_node", "node": 8, "of": 16}
+{"segment": 68, "subspan": ["0", "1"], "stage": "density_compressed", "terms": 12, "degree": 844, "fee": {"ball": "[6.4845120241170922501595391752225544e-22 +/- 8.86e-58]", "lower": "[6.4845120241170922501595391752225544e-22 +/- 8.86e-58]", "upper": "[6.4845120241170922501595391752225544e-22 +/- 8.86e-58]", "mid_float": 6.484512024117092e-22, "radius_upper_float": 0.0}}
+{"segment": 68, "subspan": ["0", "1"], "stage": "complete", "A": {"ball": "[2.0410144718000369984422817219861175e-12 +/- 2.41e-47]", "lower": "[2.0410144718000369984422817219861175e-12 +/- 2.41e-47]", "upper": "[2.0410144718000369984422817219861175e-12 +/- 2.41e-47]", "mid_float": 2.041014471800037e-12, "radius_upper_float": 0.0}, "E": {"ball": "[2.2725778672292577837087622778479792e-21 +/- 3.51e-56]", "lower": "[2.2725778672292577837087622778479792e-21 +/- 3.51e-56]", "upper": "[2.2725778672292577837087622778479792e-21 +/- 3.51e-56]", "mid_float": 2.2725778672292578e-21, "radius_upper_float": 0.0}, "local_J": {"ball": "[1.9750726094457045573463496323431345e-23 +/- 3.62e-58]", "lower": "[1.9750726094457045573463496323431345e-23 +/- 3.62e-58]", "upper": "[1.9750726094457045573463496323431345e-23 +/- 3.62e-58]", "mid_float": 1.9750726094457045e-23, "radius_upper_float": 0.0}, "cpu_seconds": 19.053164211000002, "wall_seconds": 19.067782303}

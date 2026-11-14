@@ -1,0 +1,21 @@
+{
+  "kind": "exact_step5_inclusion_in_true_beta_parameter_interval",
+  "exact_delta3": "-7832869216826619/4611686018427387904",
+  "exact_delta4": "-7789866024620307/4611686018427387904",
+  "exact_delta5": "-7789843107295549/4611686018427387904",
+  "beta_interval": [
+    "-24621831490659040247/14411518807585587200000",
+    "-24333601114507328503/14411518807585587200000"
+  ],
+  "step5_symmetric_margin": "4829297895631061/7205759403792793600000",
+  "step5_plus_minus_5e7_inside": true,
+  "step5_inside_delta4_plus_minus_5e7": true,
+  "proof": "Direct rational comparison of the saved dyadic parameters with delta3 +/- 1/100000.",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "all_exact_parameters_checked_against_saved_objects": true,
+  "input_object_hashes": {
+    "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_object.json": "e6ff2d46ed2d321c1b287e6c9d8e44ead7b9a70523350d145d703b4edd6def0f",
+    "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_object.json": "87566dee6e119bb4127200c2dae38f9cdf692a18475c1cde23961a56605919b5",
+    "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848"
+  }
+}

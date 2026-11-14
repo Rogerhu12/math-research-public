@@ -1,0 +1,165 @@
+{
+  "kind": "floating_geometry_diagnostic_not_proof",
+  "evaluator": "poschl_teller_fourfold_series.py",
+  "mean_height_representation": "integral_of_quintic_even_slope",
+  "limitations": [
+    "The input is a finite Robin BVP polynomial, not a closed fixed-cap surface.",
+    "All derivatives are those of the same actual spline/integral candidate.",
+    "No directed rounding, no global supremum or reach certificate.",
+    "The reach proxies use sampled extrema and are not reach lower bounds.",
+    "Twice sampled radius is not a certified diameter upper bound.",
+    "Mean height is an integral of its slope spline; derivatives do not differentiate rounded polar heights.",
+    "A normal gap is a rigorous Hausdorff witness only after a real global reach bound.",
+    "No exact nonlinear isometry follows from these geometric diagnostics."
+  ],
+  "runs": [
+    {
+      "series": "fourfold-newton-three-means.npz",
+      "parameters": {
+        "order": 1,
+        "points": 401,
+        "length": 3.0,
+        "mu": 5.656854249492381,
+        "A": 33.4142135623731,
+        "mean": "depth",
+        "bump_radius": 0.25,
+        "mu_scale": 4.0,
+        "actual_epsilon": 0.05,
+        "modes": 16,
+        "mean_parameters": [
+          0.627962702180312,
+          -0.002304156696820625,
+          -0.050150394773617164
+        ],
+        "mean_directions": 3,
+        "interpretation": "make_candidate(series,1,order=1)"
+      },
+      "epsilon": 1.0,
+      "actual_epsilon": 0.05,
+      "order": 1,
+      "samples": 1344,
+      "angles": 192,
+      "resolved_core_cut": 1.7677669529663687,
+      "entire_available_finite_body": {
+        "radius_max": {
+          "value": 1.2568258529327896,
+          "x": 0.5575,
+          "theta": 0.0
+        },
+        "support_min": {
+          "value": 0.9349628998507906,
+          "x": 0.23500000000000001,
+          "theta": 0.7853981633974483
+        },
+        "principal_curvature_abs_max": {
+          "value": 1438.6831888498537,
+          "x": 3.0,
+          "theta": 0.0
+        },
+        "gauss_max": {
+          "value": 341837.5799960925,
+          "x": 2.9975,
+          "theta": 0.0
+        },
+        "gauss_min": {
+          "value": -843712.0095551857,
+          "x": 3.0,
+          "theta": 3.1743175770646865
+        },
+        "tangent_angle_sine_min": {
+          "value": 0.9999999996224914,
+          "x": 0.0725,
+          "theta": 1.505346479845109
+        },
+        "curvature_discriminant_min": {
+          "value": 3.052001235070989e-09,
+          "x": 1.3925,
+          "theta": 0.7853981633974483
+        },
+        "twice_sampled_radius": 2.513651705865579,
+        "reach_proxy_from_sample_extrema_not_bound": 0.0006950800619276324,
+        "proxy_ratio_not_bound": 0.0002765220258262792
+      },
+      "central_resolved_range": {
+        "radius_max": {
+          "value": 1.2568258529327896,
+          "x": 0.5575,
+          "theta": 0.0
+        },
+        "support_min": {
+          "value": 0.9349628998507906,
+          "x": 0.23500000000000001,
+          "theta": 0.7853981633974483
+        },
+        "principal_curvature_abs_max": {
+          "value": 4.104576929035184,
+          "x": 0.52,
+          "theta": 3.926990816987241
+        },
+        "gauss_max": {
+          "value": 3.3641391975482056,
+          "x": 0.51,
+          "theta": 4.679664056909796
+        },
+        "gauss_min": {
+          "value": -1.0393542205881303,
+          "x": 0.0075,
+          "theta": 6.250460383704692
+        },
+        "tangent_angle_sine_min": {
+          "value": 0.9999999996224914,
+          "x": 0.0725,
+          "theta": 1.505346479845109
+        },
+        "curvature_discriminant_min": {
+          "value": 3.052001235070989e-09,
+          "x": 1.3925,
+          "theta": 0.7853981633974483
+        },
+        "twice_sampled_radius": 2.513651705865579,
+        "reach_proxy_from_sample_extrema_not_bound": 0.24363046844758704,
+        "proxy_ratio_not_bound": 0.09692292208943584
+      },
+      "waist_witness": {
+        "phase_angle": 0.7853981633974483,
+        "point_phase_zero": [
+          1.1117928499871033,
+          0.0,
+          2.1002632740604218e-26
+        ],
+        "point_phase_pi_over_four": [
+          1.0103212278893903,
+          8.114406303799863e-18,
+          2.6188667440399568e-24
+        ],
+        "normal_phase_zero": [
+          1.0,
+          -0.0,
+          8.090394340516221e-15
+        ],
+        "normal_phase_pi_over_four": [
+          1.0,
+          -9.680999383924183e-18,
+          6.2909490838831e-15
+        ],
+        "signed_normal_gap": 0.10147162209771299,
+        "normal_gap_abs": 0.10147162209771299,
+        "tangential_defect": 6.383926512491548e-16,
+        "point_distance": 0.10147162209771299,
+        "parity_sum": 0.10147162209771311,
+        "contributions_by_order": {
+          "1": 0.10147162209771311
+        },
+        "meridian_vertical_derivative": [
+          1.1049091025909894,
+          1.1049090942038668
+        ],
+        "angular_y_derivative": [
+          1.0609043855388984,
+          1.061001769486354
+        ],
+        "gap_over_twice_sampled_radius_not_certificate": 0.04036821086267841
+      }
+    }
+  ]
+}

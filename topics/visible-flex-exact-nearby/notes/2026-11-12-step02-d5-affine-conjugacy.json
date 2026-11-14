@@ -1,0 +1,559 @@
+{
+  "kind": "floating_affine_map_initializer_not_actual_geometric_conjugacy",
+  "base_map_sha256": "773148ccdd15d3bab644bd22b48f5913474260b2b7b7c9ab8261508299bf0150",
+  "probe_map_sha256": "acb90de2f53a5823df98dfb39baa24b6313cb86dace68c94e002044ae192c374",
+  "base_source_sha256": "05d3e59cf338c5d2a2bde13aad7bf1d4e5247c326efb46b3148793e75a7ea883",
+  "probe_source_sha256": "06d0710ee40590c88897936d19b67971fd67745163597ed7bf1f91c95ec56ef3",
+  "target": "D5",
+  "rotation_number": 0.5515001118801509,
+  "parameter": 0.41143386520907216,
+  "angular_scale": 4.0,
+  "initializer_history": [
+    {
+      "stage": "translation initializer",
+      "lambda_value": 0.1,
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.0,
+          "collocation_residual": 0.11539668607174214,
+          "sampled_minimum_Hprime": 1.0,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": 0.005654507767531706,
+          "collocation_residual": 0.0029335723669434086,
+          "sampled_minimum_Hprime": 0.6278092975266012,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": 0.005657426956176773,
+          "collocation_residual": 3.622031801222246e-06,
+          "sampled_minimum_Hprime": 0.7160849603076083,
+          "damping": 1.0
+        },
+        {
+          "step": 3,
+          "parameter": 0.005657472937776691,
+          "collocation_residual": 1.18980582330952e-10,
+          "sampled_minimum_Hprime": 0.7162350294809869,
+          "damping": 1.0
+        },
+        {
+          "step": 4,
+          "parameter": 0.005657472938799196,
+          "collocation_residual": 2.949029909160572e-15,
+          "sampled_minimum_Hprime": 0.7162350339929817
+        }
+      ]
+    },
+    {
+      "stage": "translation initializer",
+      "lambda_value": 0.2,
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.005657472938799196,
+          "collocation_residual": 0.11584191750304543,
+          "sampled_minimum_Hprime": 0.7162350339929817,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": 0.011696876419109624,
+          "collocation_residual": 0.0058924640100814375,
+          "sampled_minimum_Hprime": 0.5402279256559742,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": 0.011689467068133494,
+          "collocation_residual": 3.300475607485864e-05,
+          "sampled_minimum_Hprime": 0.6502127667528426,
+          "damping": 1.0
+        },
+        {
+          "step": 3,
+          "parameter": 0.011689356485826629,
+          "collocation_residual": 1.0313843529230482e-09,
+          "sampled_minimum_Hprime": 0.6509295825568382,
+          "damping": 1.0
+        },
+        {
+          "step": 4,
+          "parameter": 0.011689356483560535,
+          "collocation_residual": 3.3861802251067274e-15,
+          "sampled_minimum_Hprime": 0.6509295966419876
+        }
+      ]
+    },
+    {
+      "stage": "translation initializer",
+      "lambda_value": 0.30000000000000004,
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.011689356483560535,
+          "collocation_residual": 0.11508093541811312,
+          "sampled_minimum_Hprime": 0.6509295966419876,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": 0.017155367537825546,
+          "collocation_residual": 0.004971297602171715,
+          "sampled_minimum_Hprime": 0.41839555605141954,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": 0.017024921882774706,
+          "collocation_residual": 3.140814162233552e-05,
+          "sampled_minimum_Hprime": 0.5262295098072798,
+          "damping": 1.0
+        },
+        {
+          "step": 3,
+          "parameter": 0.017024934179906012,
+          "collocation_residual": 1.0722132001705909e-09,
+          "sampled_minimum_Hprime": 0.526336816149613,
+          "damping": 1.0
+        },
+        {
+          "step": 4,
+          "parameter": 0.017024934200325612,
+          "collocation_residual": 2.5951463200613034e-15,
+          "sampled_minimum_Hprime": 0.5263368155868067
+        }
+      ]
+    },
+    {
+      "stage": "translation initializer",
+      "lambda_value": 0.4,
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.017024934200325612,
+          "collocation_residual": 0.11569992006092558,
+          "sampled_minimum_Hprime": 0.5263368155868067,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": 0.02089026763892581,
+          "collocation_residual": 0.00815532861655957,
+          "sampled_minimum_Hprime": 0.4248712945664336,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": 0.020729367754183242,
+          "collocation_residual": 6.846162012595636e-05,
+          "sampled_minimum_Hprime": 0.5085632001426862,
+          "damping": 1.0
+        },
+        {
+          "step": 3,
+          "parameter": 0.020728772769787955,
+          "collocation_residual": 1.0826287533127754e-08,
+          "sampled_minimum_Hprime": 0.5083468363536645,
+          "damping": 1.0
+        },
+        {
+          "step": 4,
+          "parameter": 0.020728772521526845,
+          "collocation_residual": 3.0531133177191805e-15,
+          "sampled_minimum_Hprime": 0.5083468071863506
+        }
+      ]
+    },
+    {
+      "stage": "translation initializer",
+      "lambda_value": 0.5,
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.020728772521526845,
+          "collocation_residual": 0.11562722644715562,
+          "sampled_minimum_Hprime": 0.5083468071863506,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": 0.022266791491743522,
+          "collocation_residual": 0.006177356593268318,
+          "sampled_minimum_Hprime": 0.3182996135883094,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": 0.022068642385707094,
+          "collocation_residual": 9.42731560250043e-05,
+          "sampled_minimum_Hprime": 0.31044090920051093,
+          "damping": 1.0
+        },
+        {
+          "step": 3,
+          "parameter": 0.0220676531641072,
+          "collocation_residual": 3.5973449719062245e-08,
+          "sampled_minimum_Hprime": 0.31209715212237743,
+          "damping": 1.0
+        },
+        {
+          "step": 4,
+          "parameter": 0.022067653376203207,
+          "collocation_residual": 7.452372052796363e-15,
+          "sampled_minimum_Hprime": 0.3120976600531574
+        }
+      ]
+    },
+    {
+      "stage": "translation initializer",
+      "lambda_value": 0.6,
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.022067653376203207,
+          "collocation_residual": 0.11575742219943902,
+          "sampled_minimum_Hprime": 0.3120976600531574,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": 0.020801662472239153,
+          "collocation_residual": 0.009796087489449434,
+          "sampled_minimum_Hprime": 0.11650138875431237,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": 0.020820927016114273,
+          "collocation_residual": 9.47658347377478e-05,
+          "sampled_minimum_Hprime": 0.17445066963464329,
+          "damping": 1.0
+        },
+        {
+          "step": 3,
+          "parameter": 0.020820712211126448,
+          "collocation_residual": 2.1527482851890767e-08,
+          "sampled_minimum_Hprime": 0.1739594223264811,
+          "damping": 1.0
+        },
+        {
+          "step": 4,
+          "parameter": 0.02082071261099638,
+          "collocation_residual": 2.7478019859472624e-15,
+          "sampled_minimum_Hprime": 0.17395944980710643
+        }
+      ]
+    },
+    {
+      "stage": "translation initializer",
+      "lambda_value": 0.7000000000000001,
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.02082071261099638,
+          "collocation_residual": 0.115768649601035,
+          "sampled_minimum_Hprime": 0.17395944980710643,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": 0.017265001178455055,
+          "collocation_residual": 0.01402151280718178,
+          "sampled_minimum_Hprime": 0.22485471755141262,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": 0.017597062941384908,
+          "collocation_residual": 0.00012478746614114078,
+          "sampled_minimum_Hprime": 0.2845988970667447,
+          "damping": 1.0
+        },
+        {
+          "step": 3,
+          "parameter": 0.017597851543922797,
+          "collocation_residual": 1.910899097290475e-07,
+          "sampled_minimum_Hprime": 0.28614057411024296,
+          "damping": 1.0
+        },
+        {
+          "step": 4,
+          "parameter": 0.017597852665609592,
+          "collocation_residual": 7.041589533685055e-14,
+          "sampled_minimum_Hprime": 0.28614280639559897
+        }
+      ]
+    },
+    {
+      "stage": "translation initializer",
+      "lambda_value": 0.8,
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.017597852665609592,
+          "collocation_residual": 0.11488912707423332,
+          "sampled_minimum_Hprime": 0.28614280639559897,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": 0.012749073136376052,
+          "collocation_residual": 0.012499317368549534,
+          "sampled_minimum_Hprime": 0.2596634064270541,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": 0.012901893884134557,
+          "collocation_residual": 0.0003836018152382492,
+          "sampled_minimum_Hprime": 0.36216828850128713,
+          "damping": 1.0
+        },
+        {
+          "step": 3,
+          "parameter": 0.01290312541338804,
+          "collocation_residual": 7.10005113035983e-07,
+          "sampled_minimum_Hprime": 0.37234209478406444,
+          "damping": 1.0
+        },
+        {
+          "step": 4,
+          "parameter": 0.01290311851329267,
+          "collocation_residual": 7.791656209121811e-12,
+          "sampled_minimum_Hprime": 0.3723604057543185,
+          "damping": 1.0
+        },
+        {
+          "step": 5,
+          "parameter": 0.012903118513355915,
+          "collocation_residual": 6.203371150093062e-15,
+          "sampled_minimum_Hprime": 0.3723604058334594
+        }
+      ]
+    },
+    {
+      "stage": "translation initializer",
+      "lambda_value": 0.9,
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.012903118513355915,
+          "collocation_residual": 0.11570445555944042,
+          "sampled_minimum_Hprime": 0.3723604058334594,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": 0.007036345678219489,
+          "collocation_residual": 0.0166958177302291,
+          "sampled_minimum_Hprime": 0.0937743560265013,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": 0.006815899043006648,
+          "collocation_residual": 0.0009445218554393064,
+          "sampled_minimum_Hprime": 0.39094527180527305,
+          "damping": 1.0
+        },
+        {
+          "step": 3,
+          "parameter": 0.006789751785387579,
+          "collocation_residual": 1.0247400137330942e-06,
+          "sampled_minimum_Hprime": 0.39344797952873134,
+          "damping": 1.0
+        },
+        {
+          "step": 4,
+          "parameter": 0.006789752509463086,
+          "collocation_residual": 7.61463114784533e-12,
+          "sampled_minimum_Hprime": 0.39347020705229796,
+          "damping": 1.0
+        },
+        {
+          "step": 5,
+          "parameter": 0.006789752509433682,
+          "collocation_residual": 4.1147640850169864e-15,
+          "sampled_minimum_Hprime": 0.39347020710226177
+        }
+      ]
+    },
+    {
+      "stage": "translation initializer",
+      "lambda_value": 1.0,
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.006789752509433682,
+          "collocation_residual": 0.11528435745226984,
+          "sampled_minimum_Hprime": 0.39347020710226177,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": -0.0006509349632738901,
+          "collocation_residual": 0.030762252995193973,
+          "sampled_minimum_Hprime": 0.06216756604019802,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": 3.850010023279896e-05,
+          "collocation_residual": 0.0027014095523810733,
+          "sampled_minimum_Hprime": 0.3454550930926046,
+          "damping": 1.0
+        },
+        {
+          "step": 3,
+          "parameter": 2.7566015027942988e-05,
+          "collocation_residual": 6.868138903104448e-06,
+          "sampled_minimum_Hprime": 0.3539383595468063,
+          "damping": 1.0
+        },
+        {
+          "step": 4,
+          "parameter": 2.7530154636339648e-05,
+          "collocation_residual": 2.53625755813891e-10,
+          "sampled_minimum_Hprime": 0.3540434443082985,
+          "damping": 1.0
+        },
+        {
+          "step": 5,
+          "parameter": 2.7530151098865315e-05,
+          "collocation_residual": 2.6645352591003757e-15,
+          "sampled_minimum_Hprime": 0.35404344437041857
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "size": 65,
+      "parameter": 0.4147800670258659,
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.4,
+          "collocation_residual": 2.753015110106699e-05,
+          "sampled_minimum_Hprime": 0.35404344437041857,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": 0.4147801943083939,
+          "collocation_residual": 7.943329577431157e-09,
+          "sampled_minimum_Hprime": 0.35399130198088735,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": 0.4147800670258659,
+          "collocation_residual": 3.1433189384699745e-15,
+          "sampled_minimum_Hprime": 0.35399131953406016
+        }
+      ],
+      "sampled_residual_max": 0.002557758583226377,
+      "sampled_Hprime_range": [
+        0.3539641190927285,
+        1.8138510112701491
+      ],
+      "sampled_weighted_twist": 0.0023076591901308543,
+      "sampled_twist_integrand_range": [
+        0.00029116652826772246,
+        0.0045820582681225476
+      ]
+    },
+    {
+      "size": 129,
+      "parameter": 0.4110083082139241,
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.4147800670258659,
+          "collocation_residual": 0.002343310121854403,
+          "sampled_minimum_Hprime": 0.3539913195340556,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": 0.41098843568883003,
+          "collocation_residual": 7.261315144391212e-06,
+          "sampled_minimum_Hprime": 0.3482566450151019,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": 0.4110083080046898,
+          "collocation_residual": 6.420519671479497e-11,
+          "sampled_minimum_Hprime": 0.3482532232543928,
+          "damping": 1.0
+        },
+        {
+          "step": 3,
+          "parameter": 0.4110083082139241,
+          "collocation_residual": 3.0531133177191805e-15,
+          "sampled_minimum_Hprime": 0.3482532229405202
+        }
+      ],
+      "sampled_residual_max": 0.0007198765660939577,
+      "sampled_Hprime_range": [
+        0.3481503065407854,
+        1.8533319525975742
+      ],
+      "sampled_weighted_twist": 0.002308164329784425,
+      "sampled_twist_integrand_range": [
+        0.0002926478567537637,
+        0.004556461898515202
+      ]
+    },
+    {
+      "size": 257,
+      "parameter": 0.41143386520907216,
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.4110083082139241,
+          "collocation_residual": 0.0006962221866237961,
+          "sampled_minimum_Hprime": 0.3482269021660862,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": 0.41143430741061104,
+          "collocation_residual": 8.448148942075129e-07,
+          "sampled_minimum_Hprime": 0.34433478519045324,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": 0.41143386520907216,
+          "collocation_residual": 9.54458734270247e-13,
+          "sampled_minimum_Hprime": 0.3443353526777263
+        }
+      ],
+      "sampled_residual_max": 0.00010032008890004107,
+      "sampled_Hprime_range": [
+        0.3441530564229671,
+        1.8559281693914373
+      ],
+      "sampled_weighted_twist": 0.0023079763665745006,
+      "sampled_twist_integrand_range": [
+        0.00029474832881959276,
+        0.004538997729619439
+      ]
+    }
+  ],
+  "checkpoint_sha256": "61fc7fbd76385b9eee49e18b988ac11419984a1a022a2487ff8368fea4ea889a",
+  "limitations": [
+    "affine combination of sampled maps, not exact geometry family",
+    "finite Fourier and angular sampling; no norm or roundoff certificate",
+    "intermediate translation is only a numerical initializer",
+    "tiny binary reflection defect remains unpaid",
+    "real-node estimates are not R31 Wiener inputs or a KAM theorem application"
+  ]
+}

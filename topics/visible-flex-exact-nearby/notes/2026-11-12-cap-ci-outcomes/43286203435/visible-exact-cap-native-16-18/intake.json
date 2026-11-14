@@ -1,0 +1,56 @@
+{
+  "run": {
+    "id": 43286203435,
+    "head_sha": "dd8fc199d78c76379502b3be9f2c369e0147ce2d",
+    "head_branch": "visible-exact-cap-native-20261112-f6a2",
+    "status": "completed",
+    "conclusion": "success",
+    "run_attempt": 1,
+    "created_at": "2026-11-12T19:03:26Z",
+    "updated_at": "2026-11-12T19:06:11Z"
+  },
+  "artifact_id": 13975455737,
+  "artifact_name": "visible-exact-cap-native-16-18",
+  "artifact_archive_sha256": "e6a3fa318b3477f811c476ae323d37880daf21e1f784d546c156bcf5f104c1fb",
+  "artifact_archive_bytes": 193193,
+  "original_topic_relative_directory": "data/cap_physical4_energy/native_ci_43286203435/block_16_18",
+  "file_inventory": [
+    {
+      "path": "data/cap_physical4_energy/native_ci_43286203435/block_16_18/element_016.json.gz",
+      "sha256": "4bdbf4ccf632cefa8f7d168a3ddce56ff474e70633b4f6c823987fb33340b1d4",
+      "bytes": 89854
+    },
+    {
+      "path": "data/cap_physical4_energy/native_ci_43286203435/block_16_18/element_017.json.gz",
+      "sha256": "d246ca5587920c677eb2efff5b1331d7628bf41bfe6177099ce6f2e6a04e69f4",
+      "bytes": 93077
+    },
+    {
+      "path": "data/cap_physical4_energy/native_ci_43286203435/block_16_18/manifest.json",
+      "sha256": "dc30ef3f8b69df34d7d018da78732b659dce572c1e8af9b8650b6fc7a8b2ab01",
+      "bytes": 19039
+    },
+    {
+      "path": "data/cap_physical4_energy/native_ci_43286203435/block_16_18/worker_provenance.json",
+      "sha256": "d4f76de22da728cea91ec632fa94e92cb8e69ec26632d1beeaa3b0b719897c52",
+      "bytes": 14037
+    },
+    {
+      "path": "ci-output/cap-native.log",
+      "sha256": "0dcc9c935e9930465db9ac5aa8cdda8aced548efc87314e6a7362dbc8b15c59a",
+      "bytes": 10661
+    }
+  ],
+  "complete": true,
+  "partial_preserved": null,
+  "scope": "Intake and identity validation only; the unchanged energy collector must validate complete interval proofs.",
+  "checked_frozen_input_files": 42,
+  "complete_elements": [
+    16,
+    17
+  ],
+  "manifest_sha256": "dc30ef3f8b69df34d7d018da78732b659dce572c1e8af9b8650b6fc7a8b2ab01",
+  "worker_sha256": "d4f76de22da728cea91ec632fa94e92cb8e69ec26632d1beeaa3b0b719897c52",
+  "all_original_scientific_paths_preserved": true,
+  "mathematical_energy_collector_still_required": true
+}

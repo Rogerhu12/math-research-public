@@ -1,0 +1,74 @@
+{
+  "kind": "R66_actual_family_natural_graft_ready_manifest",
+  "complete": true,
+  "source_and_report_frozen": true,
+  "actual_graft_cells": 64,
+  "actual_graft_cover": [
+    "3",
+    "25/8"
+  ],
+  "parameter_interval": [
+    "-121752685431711260843/72057594037927936000000",
+    "-121680627837673332907/72057594037927936000000"
+  ],
+  "scope": "R66 moving-root collar and true natural graft; [1/4,3] body reports not included until separately complete; no closed exact-isometric-family assertion",
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_natural_exterior_graft.py",
+      "sha256": "5862772e46bb281201c427e71b85066d68f4ea9520ab62e6f6286b8baefdeaee",
+      "bytes": 18347
+    },
+    {
+      "path": "notes/2026-11-12-positive-family-natural-graft.json",
+      "sha256": "d56b7229439ade268b647f17a10f84ba662e02bcb9597f983d2c604fe765fa27",
+      "bytes": 870801
+    },
+    {
+      "path": "results/R66-actual-family-positive-collar-and-natural-exterior-graft.md",
+      "sha256": "79000b36b610cb1600437c70673e80f6edcb567e0e7ec0e140e7124221c17e30",
+      "bytes": 17626
+    },
+    {
+      "path": "notes/2026-11-12-exact-field-polynomial-independent-audit.md",
+      "sha256": "620a865bd0d7805dcb639c9b1521bedff61d3282ad3670f04fac44a000b29728",
+      "bytes": 3041
+    },
+    {
+      "path": "notes/2026-11-12-sine-turn-domain-independent-audit.md",
+      "sha256": "3d2c047f806b2f16be77754e8bdd41d2e4e50472b695104d5b03cec76c33ec26",
+      "bytes": 3070
+    }
+  ],
+  "reused_already_pushed_files": [
+    {
+      "path": "scripts/fourfold_phase_positive_family_collar.py",
+      "sha256": "9ea8a5fd0d554de6ffc700ca4f1c407d70c68c634065bda0b13f71887e67edf5",
+      "bytes": 7576
+    },
+    {
+      "path": "scripts/fourfold_phase_positive_family_outer.py",
+      "sha256": "6c06be00ba05a57a767fb30c56264dc1d6d837a936957cc194e8612d33e9d158",
+      "bytes": 14383
+    },
+    {
+      "path": "notes/2026-11-12-positive-family-root-collar.json",
+      "sha256": "f796e89e61f45ffba22c2aa2ab145a40ec4a80fe39abe30bc797dc0b06b966cc",
+      "bytes": 265160
+    },
+    {
+      "path": "scripts/fourfold_phase_exterior_entry_jet.py",
+      "sha256": "9c522b37a84e78251d195d9d821db31e7b5aa3915c14e6adb7e38bb2af7d3c9e",
+      "bytes": 4481
+    },
+    {
+      "path": "notes/2026-11-12-positive-family-exterior-entry-jets.json",
+      "sha256": "6748eb485a77031a3f50caccea5111d913e58aa32ac428e30a7689354cfd8f26",
+      "bytes": 88457
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-germ-root-h1e5.json",
+      "sha256": "55fb389d5c9937aff04f6b08ee75dea851c1718aed7619c0968e7dd03865669f",
+      "bytes": 11449
+    }
+  ]
+}

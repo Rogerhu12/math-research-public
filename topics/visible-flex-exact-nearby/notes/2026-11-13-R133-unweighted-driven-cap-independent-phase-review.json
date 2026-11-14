@@ -1,0 +1,38 @@
+{
+  "kind": "independent_phase_agent_review_actual_unweighted_driven_cap",
+  "complete": true,
+  "reviewer": "phase_inverse",
+  "theorem": "results/R133-supplement-unweighted-driven-cap-and-small-nonlinear-branch.md",
+  "theorem_sha256": "cab4369d2110251a78d15ee12bfc496ba4d7c15e16d4cdaf7cc8a01b06ad0ff6",
+  "source": "scripts/fourfold_codazzi_cap_unweighted_nonlinear_budget.py",
+  "source_sha256": "0c0ee98db7c45904ab8a603260b72190ef0b44b209eabe3f85985e23f26e5511",
+  "frozen_native": "notes/2026-11-13-R133-unweighted-driven-cap-r15-native.json.gz",
+  "frozen_native_sha256": "39e048fd46dad5a1c457dc47889c2c1761dd640864b461e5db1214998217c666",
+  "independent_full_consumer_rerun": true,
+  "entire_result_json_equal": true,
+  "ignored_fields": [],
+  "all_1334_suffix_faces_rechecked": true,
+  "selected_complete_closed_boxes": 663,
+  "hand_checks": [
+    "Exact Gauss quotient A=A0-ell*c+(B^2+ell*c^2)/(C0+c).",
+    "b_m=i sign(m) B_m gives nonlinear source -|m| gamma Q_m; d=b+q*c eliminates the c term with the stated Riccati equation.",
+    "d prime=(|m| gamma q-2 beta)d+(-|m| gamma+q beta)Q; c prime=-(|m| gamma q+beta(ell+1))c+|m| gamma d+beta Q.",
+    "The D kernel evolves inward with the negative source integral; the C kernel evolves outward.",
+    "Local coefficient-to-positive-rate ratios bound the full correlated exponential kernel integrals without an extra interval length.",
+    "For the nonhomogeneous Wiener weights the general one-derivative source uses (1+|m|)/|m|<=5/4.",
+    "The actual mean equations preserve (a^2 B0) prime=0 and (a^2 Cref c0) prime=a^2 Cref beta Q0.",
+    "With beta<0, both backward boundary factors are <=1 and the nonlinear mean kernel is <=1/(1+ell_min).",
+    "The pair norm gives K=max(K_nonzero,K_mean), because Q has the sum of nonzero and mean norms.",
+    "The radial-supremum Fourier Wiener space is a Banach algebra; the full reciprocal is bounded by 1/(C_min-rho), with the stated quadratic image and Lipschitz inequalities.",
+    "All finite dyadic input modes are retained, the physical frequency is 4*j, and the exact input norm is sum (1+4*j)^2 abs(c_j).",
+    "The four boundary ports remain independent; no linear regular coordinate is identified with the nonlinear tail, and no frame/position holonomy is inferred."
+  ],
+  "proved_scope": "The complete stated small Codazzi driven boundary value problem on [3/2,25/8], all Fourier modes and both means, over the whole actual affine parameter box.",
+  "not_inferred": [
+    "nonlinear regular-tail matching",
+    "inner body seam",
+    "periodic frame or position holonomy",
+    "closed surface",
+    "old grounded P_hat inverse"
+  ]
+}

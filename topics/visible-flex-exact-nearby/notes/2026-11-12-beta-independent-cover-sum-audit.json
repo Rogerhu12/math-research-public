@@ -1,0 +1,39 @@
+{
+  "kind": "independent_flat_exact_cover_and_endpoint_sum_audit",
+  "bits": 224,
+  "source_method": "flat sort all 259 subcells, independent bisect into 167 exact knot spans; add saved lower and upper endpoint balls separately, without importing collector",
+  "complete": true,
+  "source_files": [
+    {
+      "path": "notes/2026-11-12-beta-recovered-bulk-part00.json",
+      "sha256": "e32c6678163a943dd39b6f1c084433ad36a658aa3f98d8401f898eb03039643d"
+    },
+    {
+      "path": "notes/2026-11-12-beta-recovered-bulk-part01.json",
+      "sha256": "dfe261fca6954d6fb685ecd366bf66011605d0150593a7fb6161025d47d4efa2"
+    },
+    {
+      "path": "notes/2026-11-12-beta-recovered-bulk-part02.json",
+      "sha256": "ef84291f977513ffdf61b1f673eba217c2cf22d31fc4ba6619d187861b556d7b"
+    },
+    {
+      "path": "notes/2026-11-12-beta-recovered-full-collar-enclosure.json",
+      "sha256": "7a1687cc304cc29334de3e078c4ce427486f76183a517ed3b465c915802a0200"
+    }
+  ],
+  "exact_spans": 167,
+  "subcells": 259,
+  "bulk_lower": "[-1231.8039087048525803675904823135816 +/- 1.76e-32]",
+  "bulk_upper": "[-1231.7962593585059472551631603618892 +/- 6.32e-32]",
+  "beta_lower": "[36.7996750824638561056426558306011 +/- 2.65e-32]",
+  "beta_upper": "[36.8034999063412181269894797130153 +/- 3.69e-32]",
+  "scaled_beta_lower": "[52.3852606672403782622823676557111 +/- 6.12e-32]",
+  "scaled_beta_upper": "[52.3907053999825261447219381070216 +/- 2.22e-32]",
+  "odd_norm_gap_lower": "[0.6092946000174738552780618929783950430017894790643469879 +/- 4.04e-56]",
+  "beta_lattice_gap_lower": "[0.4280181681746317567393058959706055997064227564183039124 +/- 4.91e-56]",
+  "infinite_lattice_argument": "52<S<53; Q=53 is closest odd integer because Q<=51 gives S-Q>1 and Q>=55 gives Q-S>2",
+  "limitations": [
+    "This checks the stored full cover and arithmetic; analytic enclosures require the separately reviewed source and domain gates.",
+    "Only the frozen original symmetric input, not a different affine point."
+  ]
+}

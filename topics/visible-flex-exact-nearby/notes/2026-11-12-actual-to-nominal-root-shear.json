@@ -1,0 +1,228 @@
+{
+  "kind": "actual_full_root_shear_comparison_with_fixed_nominal_operator",
+  "proved": true,
+  "source_sha256": "3ed9852ee4a744457c322f810a68d9e15a125e031ca1f3f7cfe060663c9d5f13",
+  "bits": 320,
+  "fit_path": "notes/2026-11-12-actual-root-Fourier-fit-and-H-primitive.json.gz",
+  "fit_sha256": "1b9aa765803c8a12bd300a568e04dd93cd60f5ffd142bbcc18369ba4fb8bef1c",
+  "dependencies": {
+    "fourfold_phase_root_fourier_fit.py": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604",
+    "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f"
+  },
+  "identity": {
+    "identity": {
+      "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+      "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+      "exact_center_parameter": "-7789843107295549/4611686018427387904",
+      "exact_parameter_half_width": "1/1000000000",
+      "exact_parameter_interval": [
+        "-15214546326135873881617/9007199254740992000000000",
+        "-15214528311737364399633/9007199254740992000000000"
+      ],
+      "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+      "dependency_sha256": {
+        "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+        "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+        "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+        "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+        "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+        "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+      },
+      "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+    },
+    "root_certificate_sha256": "d83fe1e7ab3eed8baaf2448f2f6076212936633c69f58950720f6d372b03d99c",
+    "complex_root_sha256": "47d68aa52435e786e0b8af05ee09f12a44d163165a9c08e144b599483578bd61",
+    "refined_family_root": {
+      "ball": "[0.238396874300 +/- 2.71e-13]",
+      "lower": "[0.23839687429972956132053396089863148 +/- 1.44e-36]",
+      "upper": "[0.23839687430000116458653473832827660 +/- 2.84e-37]",
+      "mid_float": 0.23839687429986536,
+      "radius_upper_float": 1.3580163300038871e-13
+    },
+    "dependencies": {
+      "fourfold_phase_canonical_root_jets.py": "63a93b0b54b94c198adb22393f3b555095ae68ec545fb82d1412f52c311e95d7",
+      "fourfold_native_series_fft.py": "bcf9d5c43f2ebc5669fcf89f785e5da0b6acac5ec901581103006c6dc04d1289",
+      "fourfold_phase_beta_parameter_germ.py": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_time_angle_jets.py": "f452fe515af7bea2eeee3c715c158817a317671517ec719ccf9b15725af70cbd"
+    }
+  },
+  "true_frequency": {
+    "ball": "[9.72096290 +/- 5.78e-9]",
+    "lower": "[9.7209629014673150163017290026346018 +/- 1.61e-35]",
+    "upper": "[9.7209629057729377912822066321041348 +/- 3.09e-35]",
+    "mid_float": 9.720962903620126,
+    "radius_upper_float": 2.152811387490239e-09
+  },
+  "nominal_frequency_dyadic": [
+    "1297740671175042332345909735607907902979539551631625962095725391131476991992082692055626904807919",
+    -316
+  ],
+  "canonical_nominal_low_cutoff": 52,
+  "nominal_low_dimension": 105,
+  "complete_shear_difference_rank_upper": 210,
+  "definitions": {
+    "H0": "theta+q0*zero_mean_primitive(P_Y)",
+    "H0prime": "1+q0*(P_Y-c_Y0)",
+    "nu0": "P_v composed with H0 inverse",
+    "U0": "sqrt(H0prime)*(f composed with H0)",
+    "Delta0": "U0*[5050*(A0^2-T0^2)+A0*M_nu0*A0-T0*M_nu0*T0]*U0star"
+  },
+  "true_map_real_error": {
+    "ball": "[1.5737604093512710336105643323104679e-10 +/- 4.44e-45]",
+    "lower": "[1.5737604093512710336105643323104679e-10 +/- 4.44e-45]",
+    "upper": "[1.5737604093512710336105643323104679e-10 +/- 4.44e-45]",
+    "mid_float": 1.573760409351271e-10,
+    "radius_upper_float": 0.0
+  },
+  "true_map_derivative_real_error": {
+    "ball": "[4.1997858269014845584583764897662903e-9 +/- 3.69e-44]",
+    "lower": "[4.1997858269014845584583764897662903e-9 +/- 3.69e-44]",
+    "upper": "[4.1997858269014845584583764897662903e-9 +/- 3.69e-44]",
+    "mid_float": 4.199785826901484e-09,
+    "radius_upper_float": 0.0
+  },
+  "nominal_map_derivative_real_lower": {
+    "ball": "[0.54445389545614970680220638068109727 +/- 9.07e-37]",
+    "lower": "[0.54445389545614970680220638068109727 +/- 9.07e-37]",
+    "upper": "[0.54445389545614970680220638068109727 +/- 9.07e-37]",
+    "mid_float": 0.5444538954561498,
+    "radius_upper_float": 0.0
+  },
+  "nominal_residual_potential_real_modulus": {
+    "ball": "[127.62761828929668339946842892631965 +/- 4.26e-33]",
+    "lower": "[127.62761828929668339946842892631965 +/- 4.26e-33]",
+    "upper": "[127.62761828929668339946842892631965 +/- 4.26e-33]",
+    "mid_float": 127.62761828929668,
+    "radius_upper_float": 0.0
+  },
+  "physical_finite_potential_derivative_modulus": {
+    "ball": "[2564.3394327882891434601480631832704 +/- 3.24e-32]",
+    "lower": "[2564.3394327882891434601480631832704 +/- 3.24e-32]",
+    "upper": "[2564.3394327882891434601480631832704 +/- 3.24e-32]",
+    "mid_float": 2564.3394327882893,
+    "radius_upper_float": 0.0
+  },
+  "true_minus_nominal_canonical_potential_uniform_error": {
+    "ball": "[0.00012069702935266298407321931783066888 +/- 9.44e-40]",
+    "lower": "[0.00012069702935266298407321931783066888 +/- 9.44e-40]",
+    "upper": "[0.00012069702935266298407321931783066888 +/- 9.44e-40]",
+    "mid_float": 0.00012069702935266299,
+    "radius_upper_float": 0.0
+  },
+  "A_frequency_error": {
+    "ball": "[5.6954418362495811210303930716575071e-12 +/- 2.23e-47]",
+    "lower": "[5.6954418362495811210303930716575071e-12 +/- 2.23e-47]",
+    "upper": "[5.6954418362495811210303930716575071e-12 +/- 2.23e-47]",
+    "mid_float": 5.695441836249581e-12,
+    "radius_upper_float": 0.0
+  },
+  "T_frequency_error": {
+    "ball": "[1.0813511486310209493214059552118328e-13 +/- 1.52e-48]",
+    "lower": "[1.0813511486310209493214059552118328e-13 +/- 1.52e-48]",
+    "upper": "[1.0813511486310209493214059552118328e-13 +/- 1.52e-48]",
+    "mid_float": 1.081351148631021e-13,
+    "radius_upper_float": 0.0
+  },
+  "canonical_constant_frequency_error": {
+    "ball": "[1.4799125160456622431572726906846585e-9 +/- 4.19e-44]",
+    "lower": "[1.4799125160456622431572726906846585e-9 +/- 4.19e-44]",
+    "upper": "[1.4799125160456622431572726906846585e-9 +/- 4.19e-44]",
+    "mid_float": 1.4799125160456622e-09,
+    "radius_upper_float": 0.0
+  },
+  "canonical_residual_frequency_error": {
+    "ball": "[1.4538048308970943260477616690396477e-9 +/- 4.20e-44]",
+    "lower": "[1.4538048308970943260477616690396477e-9 +/- 4.20e-44]",
+    "upper": "[1.4538048308970943260477616690396477e-9 +/- 4.20e-44]",
+    "mid_float": 1.4538048308970944e-09,
+    "radius_upper_float": 0.0
+  },
+  "canonical_potential_error": {
+    "ball": "[0.00012069705812907722411470989009708491 +/- 1.54e-39]",
+    "lower": "[0.00012069705812907722411470989009708491 +/- 1.54e-39]",
+    "upper": "[0.00012069705812907722411470989009708491 +/- 1.54e-39]",
+    "mid_float": 0.00012069705812907722,
+    "radius_upper_float": 0.0
+  },
+  "nominal_canonical_shear_operator_modulus": {
+    "ball": "[5177.6264447042676271595495769471662 +/- 3.35e-32]",
+    "lower": "[5177.6264447042676271595495769471662 +/- 3.35e-32]",
+    "upper": "[5177.6264447042676271595495769471662 +/- 3.35e-32]",
+    "mid_float": 5177.626444704268,
+    "radius_upper_float": 0.0
+  },
+  "nominal_canonical_shear_first_derivative_operator_modulus": {
+    "ball": "[26.495719039006203668240124034510211 +/- 3.33e-36]",
+    "lower": "[26.495719039006203668240124034510211 +/- 3.33e-36]",
+    "upper": "[26.495719039006203668240124034510211 +/- 3.33e-36]",
+    "mid_float": 26.495719039006204,
+    "radius_upper_float": 0.0
+  },
+  "full_change_of_angle_operator_error": {
+    "ball": "[3.9957874133772610838793684731930876e-5 +/- 3.35e-40]",
+    "lower": "[3.9957874133772610838793684731930876e-5 +/- 3.35e-40]",
+    "upper": "[3.9957874133772610838793684731930876e-5 +/- 3.35e-40]",
+    "mid_float": 3.995787413377261e-05,
+    "radius_upper_float": 0.0
+  },
+  "complete_actual_minus_nominal_shear_operator_error": {
+    "ball": "[0.00016065786598019677771007277986337551 +/- 1.51e-39]",
+    "lower": "[0.00016065786598019677771007277986337551 +/- 1.51e-39]",
+    "upper": "[0.00016065786598019677771007277986337551 +/- 1.51e-39]",
+    "mid_float": 0.0001606578659801968,
+    "radius_upper_float": 0.0
+  },
+  "exact_physical_strip": "1/256",
+  "nominal_Hprime_complex_modulus": {
+    "ball": "[2.9578982627001886514756504521239164 +/- 4.80e-35]",
+    "lower": "[2.9578982627001886514756504521239164 +/- 4.80e-35]",
+    "upper": "[2.9578982627001886514756504521239164 +/- 4.80e-35]",
+    "mid_float": 2.957898262700189,
+    "radius_upper_float": 0.0
+  },
+  "nominal_Hprime_complex_real_lower": {
+    "ball": "[0.52086084455224473840989573362727202 +/- 2.51e-36]",
+    "lower": "[0.52086084455224473840989573362727202 +/- 2.51e-36]",
+    "upper": "[0.52086084455224473840989573362727202 +/- 2.51e-36]",
+    "mid_float": 0.5208608445522447,
+    "radius_upper_float": 0.0
+  },
+  "nominal_H_imaginary_modulus": {
+    "ball": "[0.011492760184230042825787040352869446 +/- 1.23e-37]",
+    "lower": "[0.011492760184230042825787040352869446 +/- 1.23e-37]",
+    "upper": "[0.011492760184230042825787040352869446 +/- 1.23e-37]",
+    "mid_float": 0.011492760184230042,
+    "radius_upper_float": 0.0
+  },
+  "nominal_physical_potential_complex_modulus": {
+    "ball": "[128.99616297527708883262963467035372 +/- 1.68e-33]",
+    "lower": "[128.99616297527708883262963467035372 +/- 1.68e-33]",
+    "upper": "[128.99616297527708883262963467035372 +/- 1.68e-33]",
+    "mid_float": 128.9961629752771,
+    "radius_upper_float": 0.0
+  },
+  "true_canonical_inverse_strip": {
+    "ball": "[0.0018609264148396234062137873896368732 +/- 6.99e-39]",
+    "lower": "[0.0018609264148396234062137873896368732 +/- 6.99e-39]",
+    "upper": "[0.0018609264148396234062137873896368732 +/- 6.99e-39]",
+    "mid_float": 0.0018609264148396233,
+    "radius_upper_float": 0.0
+  },
+  "true_residual_potential_complex_modulus": {
+    "ball": "467.11254835128784179687500000000000",
+    "lower": "467.11254835128784179687500000000000",
+    "upper": "467.11254835128784179687500000000000",
+    "mid_float": 467.11254835128784,
+    "radius_upper_float": 0.0
+  },
+  "scope": [
+    "The comparison is a full L2 operator estimate for the entire actual narrow parameter family.",
+    "Both root-angle half-density changes are actual onto unitaries; their full shear outputs have one controlled derivative.",
+    "The exact mean, frequency dependence, low cross terms and infinite Fourier modes are retained.",
+    "No finite physical column matrix or complete feedback inverse has been computed by this aggregation."
+  ]
+}

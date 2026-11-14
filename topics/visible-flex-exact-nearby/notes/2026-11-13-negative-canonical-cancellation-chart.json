@@ -1,0 +1,239 @@
+{
+  "kind": "actual_negative_canonical_chart_from_characteristic_cancellation",
+  "complete": true,
+  "proved": true,
+  "source_sha256": "650ceef0ea91bdf5f4ef86d114fb6dc412bef3a0b4b915910135357967ec0c8d",
+  "bits": 320,
+  "inputs": {
+    "notes/2026-11-13-negative-characteristic-cancellation-bidisk.json": "9d356257b5a4fe220121e4335f8182b872932ff3eb13403111d8fd7a30b9a44d",
+    "notes/2026-11-13-R106-seven-field-full-parameter-transfer.json": "7c411f5807fc6a97a466fe6800f75c71cdac5c1d5b24e3d54fa289e5ddd37497",
+    "notes/2026-11-13-negative-canonical-log-density-bidisk.json.gz": "2e01b579fbf36cf8ea660a73bfde8df145202c4ad76d719d80fdaef99ba8f0cb"
+  },
+  "identity": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "root": {
+    "ball": "[0.238396874300 +/- 2.71e-13]",
+    "lower": "[0.23839687429972956132053396089863148 +/- 1.44e-36]",
+    "upper": "[0.23839687430000116458653473832827660 +/- 2.84e-37]",
+    "mid_float": 0.23839687429986536,
+    "radius_upper_float": 1.3580163300038871e-13
+  },
+  "exact_negative_characteristic_coordinates": true,
+  "characteristic_definition": "D_sigma=partial_s+(2*s*q-2*sigma*s*s*k)*partial_theta; T_sigma(0)=Y0; Delta=3*(T_plus-T_minus)/(4*s^3); xi=rho*Delta^(2/3); phi=(T_plus+T_minus)/2",
+  "exact_negative_cancellation": "D_sigma(k*T_sigma_theta)=2*s*C*(k*T_sigma_theta), with initial value 1",
+  "exact_phi_radial_derivative": "phi_rho=-q*(F_plus+F_minus)/(2*k)+(sqrt(rho)/2)*(F_plus-F_minus)",
+  "analytic_domain": {
+    "inverse_target_rho_radius": "1/60000",
+    "physical_start_strip": "3/2000"
+  },
+  "full_analytic_potential_radial_disk": {
+    "ball": "[8.3333333333333333333333333333333333333333333333333e-6 +/- 3.34e-56]",
+    "lower": "[8.3333333333333333333333333333333333333333333333333e-6 +/- 3.34e-56]",
+    "upper": "[8.3333333333333333333333333333333333333333333333333e-6 +/- 3.34e-56]"
+  },
+  "complete_potential_analytic_strip": {
+    "ball": "[1.0501542616769956356315621465335379662999999529107e-5 +/- 3.81e-55]",
+    "lower": "[1.0501542616769956356315621465335379662999999529107e-5 +/- 3.81e-55]",
+    "upper": "[1.0501542616769956356315621465335379662999999529107e-5 +/- 3.81e-55]"
+  },
+  "larger_real_negative_collar_height": {
+    "ball": "[4.1666666666666666666666666666666666666666666666667e-6 +/- 3.34e-56]",
+    "lower": "[4.1666666666666666666666666666666666666666666666667e-6 +/- 3.34e-56]",
+    "upper": "[4.1666666666666666666666666666666666666666666666667e-6 +/- 3.34e-56]"
+  },
+  "larger_real_collar_true_V_bound": {
+    "ball": "[14509050115.289843988894611778827204912559156619303 +/- 3.13e-40]",
+    "lower": "[14509050115.289843988894611778827204912559156619303 +/- 3.13e-40]",
+    "upper": "[14509050115.289843988894611778827204912559156619303 +/- 3.13e-40]"
+  },
+  "larger_real_collar_true_Vxi_bound": {
+    "ball": "[3482172027669562.5573347068269185291790141975886328 +/- 5.07e-36]",
+    "lower": "[3482172027669562.5573347068269185291790141975886328 +/- 5.07e-36]",
+    "upper": "[3482172027669562.5573347068269185291790141975886328 +/- 5.07e-36]"
+  },
+  "chart_bounds": {
+    "characteristic_rho_radius": {
+      "ball": "[0.00026000000000000000000000000000000000000000000000000 +/- 3e-58]",
+      "lower": "[0.00026000000000000000000000000000000000000000000000000 +/- 3e-58]",
+      "upper": "[0.00026000000000000000000000000000000000000000000000000 +/- 1e-58]"
+    },
+    "physical_start_strip": {
+      "ball": "[0.0015000000000000000000000000000000000000000000000000 +/- 3e-57]",
+      "lower": "[0.0015000000000000000000000000000000000000000000000000 +/- 3e-57]",
+      "upper": "[0.0015000000000000000000000000000000000000000000000000 +/- 1e-57]"
+    },
+    "nested_characteristic_angle_movement": {
+      "ball": "[0.00048845691686187420242712530323573061618805052247087 +/- 1.39e-55]",
+      "lower": "[0.00048845691686187420242712530323573061618805052247087 +/- 1.39e-55]",
+      "upper": "[0.00048845691686187420242712530323573061618805052247087 +/- 1.39e-55]"
+    },
+    "remaining_complete_angle_margin": {
+      "ball": "[1.1543083138125797572874696764269383811949477529130e-5 +/- 1.38e-55]",
+      "lower": "[1.1543083138125797572874696764269383811949477529130e-5 +/- 1.38e-55]",
+      "upper": "[1.1543083138125797572874696764269383811949477529130e-5 +/- 1.38e-55]"
+    },
+    "complete_C_modulus": {
+      "ball": "101.01484831715336554225359577685594558715820312500",
+      "lower": "101.01484831715336554225359577685594558715820312500",
+      "upper": "101.01484831715336554225359577685594558715820312500"
+    },
+    "complete_q_modulus": {
+      "ball": "[0.82275375777264370125152481705299578607082366943359 +/- 3.76e-51]",
+      "lower": "[0.82275375777264370125152481705299578607082366943359 +/- 3.76e-51]",
+      "upper": "[0.82275375777264370125152481705299578607082366943359 +/- 3.76e-51]"
+    },
+    "complete_k_modulus": {
+      "ball": "21.691157229437507680813723709434270858764648437500",
+      "lower": "21.691157229437507680813723709434270858764648437500",
+      "upper": "21.691157229437507680813723709434270858764648437500"
+    },
+    "complete_inverse_k_modulus": {
+      "ball": "0.35938465991057455539703369140625000000000000000000",
+      "lower": "0.35938465991057455539703369140625000000000000000000",
+      "upper": "0.35938465991057455539703369140625000000000000000000"
+    },
+    "full_deflated_difference_error": {
+      "ball": "[0.026611795104682733024166688488102853393601796207853 +/- 2.25e-53]",
+      "lower": "[0.026611795104682733024166688488102853393601796207853 +/- 2.25e-53]",
+      "upper": "[0.026611795104682733024166688488102853393601796207853 +/- 2.25e-53]"
+    },
+    "inverse_search_deflated_difference_error": {
+      "ball": "[0.0033728368672753772795322522487936311429690612778263 +/- 2.44e-53]",
+      "lower": "[0.0033728368672753772795322522487936311429690612778263 +/- 2.44e-53]",
+      "upper": "[0.0033728368672753772795322522487936311429690612778263 +/- 2.44e-53]"
+    },
+    "full_search_phi_rho_modulus": {
+      "ball": "[0.29670185004699687500312106348566050565311420653810 +/- 1.38e-51]",
+      "lower": "[0.29670185004699687500312106348566050565311420653810 +/- 1.38e-51]",
+      "upper": "[0.29670185004699687500312106348566050565311420653810 +/- 1.38e-51]"
+    },
+    "full_search_Delta_rho_modulus": {
+      "ball": "[134.67041640345500708596464330052049511468037008299 +/- 3.01e-48]",
+      "lower": "[134.67041640345500708596464330052049511468037008299 +/- 3.01e-48]",
+      "upper": "[134.67041640345500708596464330052049511468037008299 +/- 3.01e-48]"
+    },
+    "full_search_phi_minus_Y_modulus": {
+      "ball": "[9.8900616682332291667707021161886835217704735512700e-6 +/- 4.58e-56]",
+      "lower": "[9.8900616682332291667707021161886835217704735512700e-6 +/- 4.58e-56]",
+      "upper": "[9.8900616682332291667707021161886835217704735512700e-6 +/- 4.58e-56]"
+    },
+    "full_search_xi_minus_rho_modulus": {
+      "ball": "[7.5036387239341283923139431002855313067686006896581e-8 +/- 3.77e-58]",
+      "lower": "[7.5036387239341283923139431002855313067686006896581e-8 +/- 3.77e-58]",
+      "upper": "[7.5036387239341283923139431002855313067686006896581e-8 +/- 3.77e-58]"
+    },
+    "inverse_xi_row_norm": {
+      "ball": "[0.0074982313424019694672595768716228117901071339204445 +/- 3.93e-53]",
+      "lower": "[0.0074982313424019694672595768716228117901071339204445 +/- 3.93e-53]",
+      "upper": "[0.0074982313424019694672595768716228117901071339204445 +/- 3.93e-53]"
+    },
+    "inverse_phi_row_norm": {
+      "ball": "[0.47088613688239236577239303935164586355066141987151 +/- 2.72e-51]",
+      "lower": "[0.47088613688239236577239303935164586355066141987151 +/- 2.72e-51]",
+      "upper": "[0.47088613688239236577239303935164586355066141987151 +/- 2.72e-51]"
+    },
+    "root_angle_real_derivative_lower": {
+      "ball": "[0.056008227289439767233683314481788691535999997488569 +/- 3.62e-52]",
+      "lower": "[0.056008227289439767233683314481788691535999997488569 +/- 3.62e-52]",
+      "upper": "[0.056008227289439767233683314481788691535999997488569 +/- 3.62e-52]"
+    },
+    "canonical_inverse_target_radial_disk": {
+      "ball": "[1.6666666666666666666666666666666666666666666666667e-5 +/- 3.34e-55]",
+      "lower": "[1.6666666666666666666666666666666666666666666666667e-5 +/- 3.34e-55]",
+      "upper": "[1.6666666666666666666666666666666666666666666666667e-5 +/- 3.34e-55]"
+    },
+    "canonical_inverse_target_angle_strip": {
+      "ball": "[2.1003085233539912712631242930670759325999999058213e-5 +/- 2.40e-55]",
+      "lower": "[2.1003085233539912712631242930670759325999999058213e-5 +/- 2.40e-55]",
+      "upper": "[2.1003085233539912712631242930670759325999999058213e-5 +/- 2.40e-55]"
+    },
+    "canonical_inverse_contraction": {
+      "ball": "[0.47088613688239236577239303935164586355066141987151 +/- 2.72e-51]",
+      "lower": "[0.47088613688239236577239303935164586355066141987151 +/- 2.72e-51]",
+      "upper": "[0.47088613688239236577239303935164586355066141987151 +/- 2.72e-51]"
+    },
+    "log_canonical_density_modulus": {
+      "ball": "[0.83377320016316586552630310193621154708481756555989 +/- 2.47e-51]",
+      "lower": "[0.83377320016316586552630310193621154708481756555989 +/- 2.47e-51]",
+      "upper": "[0.83377320016316586552630310193621154708481756555989 +/- 2.47e-51]"
+    },
+    "full_complex_potential_modulus_before_root_Taylor": {
+      "ball": "[14509050115.289843988894611778827204912559156619303 +/- 3.13e-40]",
+      "lower": "[14509050115.289843988894611778827204912559156619303 +/- 3.13e-40]",
+      "upper": "[14509050115.289843988894611778827204912559156619303 +/- 3.13e-40]"
+    }
+  },
+  "gates": [
+    {
+      "name": "whole transferred U0 modulus contains the cancellation bidisk",
+      "passed": true
+    },
+    {
+      "name": "actual grounded logarithm contains the complete characteristic chart",
+      "passed": true
+    },
+    {
+      "name": "all nested common and signed characteristic paths remain inside the true coefficient bidisk",
+      "passed": true
+    },
+    {
+      "name": "full deflated root quotient has its actual positive logarithm",
+      "passed": true
+    },
+    {
+      "name": "inverse search domain lies inside the complete characteristic disk",
+      "passed": true
+    },
+    {
+      "name": "true root-angle inverse target strip is positive",
+      "passed": true
+    },
+    {
+      "name": "global holomorphic inverse weighted derivative contraction",
+      "passed": true
+    },
+    {
+      "name": "global inverse fixed point preserves its radial disk",
+      "passed": true
+    },
+    {
+      "name": "global inverse fixed point preserves its angular disk",
+      "passed": true
+    }
+  ],
+  "all_modes_all_parameters_and_all_closed_cells_retained": true,
+  "both_characteristic_branches_and_the_mean_retained": true,
+  "all_radial_and_angular_tails_retained": true,
+  "full_negative_R43_operator_bound_proved": false,
+  "complete_returned_R_star_proved": false,
+  "positive_Ai_contact_proved": false,
+  "physical_source_frame_gluing_proved": false,
+  "README_completion_proved": false,
+  "scope": "A complete enlarged actual negative canonical inverse and full analytic potential disk. Operator propagation, physical source/frame gluing, and the full returned inverse require their separate consumers.",
+  "dependencies": {
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "fourfold_phase_root_fourier_fit.py": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604",
+    "fourfold_negative_collar_root_fourier_budget.py": "08866307bf0de20183db15387f16ec0f2f3a65d67bfec6e9229b27a65a902b9b"
+  },
+  "seconds": 0.058771579000676866
+}

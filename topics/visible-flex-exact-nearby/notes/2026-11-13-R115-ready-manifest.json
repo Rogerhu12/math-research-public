@@ -1,0 +1,29 @@
+{
+  "schema": "visible-exact-R115-ready-v1",
+  "base_commit": "bf05effdf766352eea9bce179b3e936c79529e13",
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R115-actual-tail-holomorphic-neighborhood-and-strong-extension.md",
+      "bytes": 24523,
+      "sha256": "7bc7fe7e0f285efabc0b1b64a55c661ce6084e4fc54f9a0c049ef3708544f1fa",
+      "git_blob": "9b7f2acc5c5f8bd168c38c22dacd97c93068f5be"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_true_tail_chart_budget.mjs",
+      "bytes": 6975,
+      "sha256": "7d278d7a3ccd14643c89410e5ec7349e0a93d51fa21e5afea31ba54e488a7594",
+      "git_blob": "e0e01a5fe1813e34f240b810f069828e7a6148b6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-true-tail-chart-budget.json",
+      "bytes": 4866,
+      "sha256": "217410373b0d10813da1a039fde0a622b1d26f09246be84f78f37d4cada6f5cd",
+      "git_blob": "4c1205b6bd04b03138b8220435830327f6909062"
+    }
+  ],
+  "finite_gates": 45,
+  "all_pass": true,
+  "full_Robin_update_paid": false,
+  "remaining": "Actual regular Cauchy graph/complete feedback must use the real tail chart; no global nonlinear zero is claimed.",
+  "preservation": "Only full UTF-8 source/proof/finite report. No lost binary or native output was reconstructed."
+}

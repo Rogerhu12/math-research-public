@@ -1,0 +1,48 @@
+{
+  "kind": "R105_dihedral_six_block_and_whole_eta_even_core_ready",
+  "branch": "visible-exact-core-native-20261112-f6a2",
+  "content_head_before_manifest": "d68444e04c99cef2cc04dc8126b4ce46c327ba51",
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_core_even_collect.py",
+      "sha256": "c16708910c91d47de0f67d01a7599d4d3a9c20cb1695ea74d77215d393e68113",
+      "bytes": 9726,
+      "git_blob": "9450628c66d0930a1dbf82274e092b987fef9d87"
+    },
+    {
+      "path": "scripts/fourfold_phase_low_block_dihedral.py",
+      "sha256": "ec7db94080f88695c06fff30f617a37d6bb44781eb42adfb2bfd0176ffc52f78",
+      "bytes": 12179,
+      "git_blob": "cb145bd30ab1c99b8cef3efd3b2563617e71ec66"
+    },
+    {
+      "path": "results/R105-actual-dihedral-six-block-and-even-core-composition.md",
+      "sha256": "6f1419ad5d8ef7f9d4d8576d6563b02251360abe50d236590f68b8cafe782c2d",
+      "bytes": 15604,
+      "git_blob": "84d6396d25bcefb613d39640aac5ba7d1fdb6d3a"
+    }
+  ],
+  "proved_scope": [
+    "Exact actual angular and waist involutions in the ordinary quarter-cut grounded variables.",
+    "Full 21-dimensional bordered low space decomposes as 6+7+4+4; the invariant sector retains the angular mean and normalized paired regular mean.",
+    "Group averaging and exact isometric compression do not increase a separately paid error to the actual symmetric target.",
+    "The existing whole-eta local transfers compress exactly algebraically to a 10-dimensional positive-half Cauchy system; no extra selected local coefficient error is introduced.",
+    "The desired finite core DN requires only the 5-by-5 height block inverse and has formula 8*C*A^-1 with the proved complete perturbation fee.",
+    "Complete high weak sources, high height and flux tails, regular flux and other invariant kernels remain necessary."
+  ],
+  "actual_input_scope": {
+    "cover_root": "data/core_uniform_flow_ci/43307149760",
+    "original_common_spans": 174,
+    "accepted_real_leaves": 175,
+    "exact_parameter_half_width": "1/1000000000",
+    "new_geometry_calculation_required_for_even_collector": false
+  },
+  "new_native_executed": false,
+  "new_finite_inverse_number_claimed": false,
+  "old_center_interface_transferred_to_eta": false,
+  "status": "Source and proof are saved; neither entry has executed. Native executor is unavailable. CI run 43309325704 attempt 2 failed before runner allocation and contains no mathematical execution.",
+  "next_commands": [
+    "python scripts/fourfold_phase_core_even_collect.py --cover-root data/core_uniform_flow_ci/43307149760 --bits 256 --out notes/native_core_20261112/complete_uniform_even_core.json",
+    "python scripts/fourfold_phase_low_block_dihedral.py --height-order 0 --bits 256 --out notes/native_core_20261112/finite_low_dihedral.json"
+  ]
+}

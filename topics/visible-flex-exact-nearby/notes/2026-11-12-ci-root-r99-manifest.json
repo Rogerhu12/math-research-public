@@ -1,0 +1,42 @@
+{
+  "complete": true,
+  "run_id": "43299719198",
+  "workflow_commit": "52bd20a64252af1547726241878e9d5657aa192c",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "flint": "0.9.0",
+    "sympy": "1.14.0"
+  },
+  "files": [
+    {
+      "path": "notes/2026-11-12-ci-canonical-v1-scaled-Wiener-summary.json",
+      "sha256": "c0050bf6f15666f1b0283d7d232c10a167d08a4bb69e42c6cc5653dc51c94c3b",
+      "bytes": 35066
+    },
+    {
+      "path": "notes/2026-11-12-ci-canonical-v1-scaled-Wiener.json",
+      "sha256": "c736ccff24d8cacc607d5a8f016f66b72a2565112e989ea01e4078c5dc9e1ae6",
+      "bytes": 107059
+    },
+    {
+      "path": "notes/2026-11-12-ci-canonical-v1-scaled-Wiener.npz",
+      "sha256": "5c0653d5844e5de2259e2e856ef5efeed0577b2d84b355cb18078fef2dfe8615",
+      "bytes": 31815
+    },
+    {
+      "path": "notes/2026-11-12-ci-physical-v1.json",
+      "sha256": "7364affd39b7b5a73f45988f0e697c93c73720f32b655b65940375d0b6dbc01d",
+      "bytes": 5587
+    },
+    {
+      "path": "notes/2026-11-12-ci-physical-v1.npz",
+      "sha256": "b85c556850ea7d345f8d2809b4b59bb8c3ff5130c040f91bdd9694f2b2d1c981",
+      "bytes": 16223
+    }
+  ],
+  "original_local_report_sha256": "f2f60b1a902cce143de9de9ac7b3b98cd5b186ce160c40f003a60886cee878e4",
+  "original_local_bytes_recovered": false,
+  "actual_fresh_computation": true
+}

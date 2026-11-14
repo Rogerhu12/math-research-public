@@ -1,0 +1,70 @@
+{
+  "kind": "seed_only_forward_controller_completed_probe_package",
+  "complete": true,
+  "whole_forward_leg_complete": false,
+  "archive_required": [
+    {
+      "path": "scripts/fourfold_forward_density_cover_v9.py",
+      "sha256": "1451d5d434ef8fb4d7e0214e051afd185537ad75d882ddde6a82bf92d6a35ee1",
+      "bytes": 26282
+    },
+    {
+      "path": "data/phase_ring_continuation/seed_only_missing_block_probe/g0/index.json",
+      "sha256": "e8ae86762a0848563b918c61344df120ef87082bf3400ca2b68cb51e4579dbc3",
+      "bytes": 3530
+    },
+    {
+      "path": "notes/2026-11-12-seed-only-forward-cover-validation.json",
+      "sha256": "72e3dff70589804afdc543df34902809b457911ffd76c0717bbb277db8fcca2a",
+      "bytes": 1130
+    },
+    {
+      "path": "notes/2026-11-12-seed-only-forward-density-cover.md",
+      "sha256": "a7719e39a3f6ec6f34bee8284711c5b8effeb533e9f3abcbda5dadc06eb9d448",
+      "bytes": 2646
+    }
+  ],
+  "files": [
+    {
+      "path": "scripts/fourfold_forward_density_cover_v9.py",
+      "sha256": "1451d5d434ef8fb4d7e0214e051afd185537ad75d882ddde6a82bf92d6a35ee1",
+      "bytes": 26282
+    },
+    {
+      "path": "data/phase_ring_continuation/seed_only_missing_block_probe/g0/index.json",
+      "sha256": "e8ae86762a0848563b918c61344df120ef87082bf3400ca2b68cb51e4579dbc3",
+      "bytes": 3530
+    },
+    {
+      "path": "notes/2026-11-12-seed-only-forward-cover-validation.json",
+      "sha256": "72e3dff70589804afdc543df34902809b457911ffd76c0717bbb277db8fcca2a",
+      "bytes": 1130
+    },
+    {
+      "path": "notes/2026-11-12-seed-only-forward-density-cover.md",
+      "sha256": "a7719e39a3f6ec6f34bee8284711c5b8effeb533e9f3abcbda5dadc06eb9d448",
+      "bytes": 2646
+    }
+  ],
+  "total_files": 4,
+  "total_bytes": 33588,
+  "external_required_inputs": [
+    {
+      "path": "scripts/fourfold_forward_density_cover_v8.py",
+      "sha256": "d9151dfb509b2f2df08bb01a699d8c78e9571334d3ef1da2f9219ec21ce2bca4"
+    },
+    {
+      "path": "scripts/fourfold_completed_block_seeds.py",
+      "sha256": "70d6c212c0f7d635d599263d31b5484860b77cc547fc77941983b2cef8b16109"
+    },
+    {
+      "path": "notes/2026-11-12-dynamic-block-seed-ready-manifest.json",
+      "sha256": "8278a98a9dea8b065ca35af383fe99635f786c2194fe6065f30674ea2bc17577"
+    }
+  ],
+  "excluded": [
+    "live full cover index",
+    "all running field and parameter jobs",
+    "uncompleted remote CI blocks"
+  ]
+}

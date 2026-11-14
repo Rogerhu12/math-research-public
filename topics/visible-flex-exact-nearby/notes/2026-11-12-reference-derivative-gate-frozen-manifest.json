@@ -1,0 +1,36 @@
+{
+  "kind": "frozen_R68_finite_reference_derivative_gate_and_preflight",
+  "complete": true,
+  "actual_delta4_or_delta5_reference_nonzero_proved": false,
+  "scope": "Proved finite Fourier/Bernstein gate and exact known-family preflight; actual recovered reference must be scanned separately.",
+  "files": [
+    {
+      "path": "scripts/fourfold_reference_derivative_gate.py",
+      "sha256": "a947f3b6bb93f254c22f8d9f526964899a4708cd4286b6029ddda0d5a1dcaa65",
+      "bytes": 18184
+    },
+    {
+      "path": "scripts/fourfold_reference_derivative_gate_preflight.py",
+      "sha256": "641b4b773dc402f69eaeb899692e705f3cad9138e5ede3b0263293230b4703c9",
+      "bytes": 5573
+    },
+    {
+      "path": "notes/2026-11-12-reference-derivative-continuous-gate.md",
+      "sha256": "ff7dfcc1ed60b3388f7342081570686fd8bb64cf92719a39509e6fa1b476df8f",
+      "bytes": 9503
+    },
+    {
+      "path": "notes/2026-11-12-reference-derivative-gate-known-family-preflight.json",
+      "sha256": "3cea4fdb55b4650477a890e7f877636f934977bfe6edc00726da6f5592522e9e",
+      "bytes": 32751
+    },
+    {
+      "path": "notes/2026-11-12-reference-derivative-gate-independent-audit.md",
+      "sha256": "0aacadcefe0dfc189d1dabb2349f313ffa0b864fc0d82d06919644529630bdfd",
+      "bytes": 3631
+    }
+  ],
+  "bytes_total": 69642,
+  "replay": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 python scripts/fourfold_reference_derivative_gate_preflight.py --out notes/2026-11-12-reference-derivative-gate-known-family-preflight-replay.json",
+  "actual_reference_status": "Frozen delta4 shared1032 driver is still rebuilding raw traces; no coefficient identity is inferred before hash comparison."
+}

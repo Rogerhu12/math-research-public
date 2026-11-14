@@ -1,0 +1,33 @@
+{
+  "kind": "exact_complete_moving_frame_curvature_and_position_torsion",
+  "complete": true,
+  "gates": {
+    "all_nine_frame_curvature_entries": true,
+    "all_three_position_torsion_entries": true,
+    "radial_normal_connection_cancels_inverse_v": true,
+    "mixed_normal_connection_cancels_inverse_v": true,
+    "first_form_determinant": true,
+    "second_form_determinant_ratio": true,
+    "physical_shape_trace": true,
+    "complete_mean_source_not_set_to_zero": true,
+    "both_full_residual_sources_retained": true
+  },
+  "source_sha256": "c74b858dfdb6effe99276450c79276d85fd7f766c740fb4896f425bece29caa8",
+  "sympy_version": "1.14.0",
+  "exact_arithmetic": "rational-function cancellation over Q[a,beta,gamma,K,m,u,v,d,Sbar,up,vp,gamma_r,Ru,Rv,R0]",
+  "assumptions": [
+    "a>0",
+    "gamma>0",
+    "m<0",
+    "v<0",
+    "beta_r=beta*gamma_r/gamma-a^2*gamma^2*K",
+    "d_phi=-beta*(u^2+K*v^2-Sbar)",
+    "Sbar=mean_phi(u^2+K*v^2)",
+    "R0=mean_phi(Rv)"
+  ],
+  "denominator_cancellation_does_not_remove_physical_curvature_gap": true,
+  "all_ordinary_residual_sources_and_mean_retained": true,
+  "infinite_dimensional_inverse_proved": false,
+  "nonlinear_PDE_solution_proved": false,
+  "closed_surface_proved": false
+}

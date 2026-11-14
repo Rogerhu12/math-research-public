@@ -1,0 +1,80 @@
+{
+  "kind": "floating_R126_frame_geometry_of_compact_metric_candidate",
+  "source_sha256": "06f9f06b873876c194086ccf6e6c167d7af9c186fa4a504dc3aaaf3764b898b5",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "candidate_path": "notes/2026-11-13-R133-compact-metric-outer-mean-m64-candidate.npz.gz",
+  "candidate_sha256": "4046eb7ac8da162ab9aad9fcb4991933200abdbc2c22ed6329d49bb13d72b856",
+  "modes": 64,
+  "quarter_angles": 256,
+  "amplitude": 0.65,
+  "nu": -0.023721707968258524,
+  "initial_waist_mean_removed": 3.4139802096433414e-11,
+  "coordinates": "r>=0, physical quarter theta; fourfold rotations and equatorial reflection reconstruct the sampled body",
+  "certified": false,
+  "complete_floating_reconstruction": true,
+  "summary": {
+    "frame_orthonormality": 1.9251267247000214e-13,
+    "frame_angular_constraint": 0.00018793984389321809,
+    "position_angular_constraint": 0.00027336335777003706,
+    "relative_angular_metric_error": 1737.1862516947429,
+    "normalized_cross_metric_error": 26.62022075784957,
+    "reconstructed_immersion_cross_norm_min": 6.535586412451964e-06,
+    "candidate_principal_curvature_abs_max": 4.117097272304893,
+    "actual_principal_curvature_abs_max_r_le_one": 4.11709727230453,
+    "actual_support_min": -0.10774829344020428,
+    "candidate_normal_support_min": 0.9285192900932062,
+    "max_position_norm": 1.275401650743059,
+    "phase_witness_sampled_nearest_distance": 0.10634542420111912,
+    "minimum_z_r_ge_quarter": 0.28257166634662195,
+    "diameter_from_sampled_central_symmetry": 2.550803301486118,
+    "witness_sample_over_sampled_diameter": 0.04169095442959535,
+    "last_height_range": [
+      0.9667958170120629,
+      0.9667974206194224
+    ]
+  },
+  "worst_radii": {
+    "frame_orthonormality": 2.957,
+    "frame_angular_constraint": 0.15031250000000002,
+    "position_angular_constraint": 3.125,
+    "relative_angular_metric_error": 3.125,
+    "candidate_principal_curvature_abs_max": 0.526,
+    "max_position_norm": 0.5650000000000001,
+    "witness_nearest_radius": 0.0,
+    "witness_nearest_angle": 0.7853981633974483,
+    "actual_curvature_radius": 0.526,
+    "normalized_cross_metric_error": 3.125
+  },
+  "radial_steps": 7059,
+  "maximum_step": 0.000500000000000167,
+  "RK_method": "ordinary explicit RK4, no reorthogonalization or interval error bound",
+  "actual_target_stage_count": 14119,
+  "saved_radial_count": 256,
+  "waist_mean_original": -0.9356875459993489,
+  "exact_closed_waist_mean_used": -0.9356875460334887,
+  "waist_curve_altered_by_mean_only": true,
+  "geometry_path": "notes/2026-11-13-R133-compact-metric-m64-frame-geometry.npz.gz",
+  "geometry_sha256": "c86bb2fa6d40c64481fb3d8783f69429d86f5bec424168f61143904bd15bd9e6",
+  "geometry_bytes": 3121706,
+  "exact_center_parameter": {
+    "numerator": "-7789843107295549",
+    "denominator": "4611686018427387904"
+  },
+  "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "dependency_sha256": {
+    "fourfold_codazzi_compact_metric_branch_probe.py": "e1692ce4e7b1090adb0aeab7414f8df32411072283cedad3d848ca4fb18ef0a4",
+    "fourfold_phase_codazzi_two_end_probe.py": "510a0ebf823f35942c0b45e67fb3ec5319cfe124996d88656fcc18a52c565eb2",
+    "fourfold_phase_codazzi_rotational_reference_probe.py": "c8495d0c1721a21a24b48c8cdce9e825a8110f4923edd01e9eb2b7fe76b2d411",
+    "fourfold_codazzi_rotational_cap_jacobi_probe.py": "2bfb4c8d7bca6ffe75d6496f8f9c3baa17ba5ee83045c6ca09dc475853d30114"
+  },
+  "limitations": [
+    "Floating finite primitive/Fourier and RK reconstruction only; no continuous parameter, angular or radial certificate.",
+    "The input waist mean correction is explicit. Candidate B,C fields were not modified to hide its initial constraint error.",
+    "Candidate II and actual reconstructed II are distinguished. Actual curvature is sampled only on r<=1 to avoid tiny-radius coordinate cancellation.",
+    "A nearest distance over a finite grid is not a lower bound on the continuous point-to-surface distance.",
+    "The true regular tail and a closed surface are not reconstructed by this body-only probe; no reach is claimed.",
+    "A phase-rotated auxiliary image is congruent; noncongruence would still require the separate fixed grip repair."
+  ],
+  "wall_seconds": 73.33640922400082
+}

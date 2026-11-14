@@ -1,0 +1,70 @@
+{
+  "kind": "continuous_scalar_and_area_gates_for_explicitly_symmetric_infinite_R33_graph",
+  "inputs": "data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+  "inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "source_checkpoint_sha256": "0dcfb37f84a1b3d6197b375aa8700628a00398c0b509ce5da6c92f1ecf489199",
+  "source_sha256": "2ccb284015ff136be73771f32d89722de9d2b1fc8e6eef0a309d0f4565d29978",
+  "dependency_sha256": {
+    "fourfold_phase_root_interval.py": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840",
+    "fourfold_phase_uniform_tail.py": "d7010fcd486cfe703eab58d0d5ad4e78a193418b7bc6c71f25e308c523b55c61",
+    "fourfold_interval_scalar.py": "0400c59be86f7f143481f89d5a08ca8d0ea992be36aa1687ff9a19d10343dda8"
+  },
+  "radial_core": [
+    -0.24,
+    0.24
+  ],
+  "radial_cells": 290,
+  "circumference_radius_derivative_ranges": [
+    [
+      1.0687306170564685,
+      1.0992113342838117
+    ],
+    [
+      -0.23115203669732454,
+      0.23115203669732454
+    ],
+    [
+      -0.1210833394086119,
+      1.8842980422563045
+    ]
+  ],
+  "exact_height_slope_ranges": [
+    [
+      1.108658953513657,
+      1.1942969321741417
+    ],
+    [
+      -0.5968806168198182,
+      0.5968806168198182
+    ]
+  ],
+  "beta_field_absolute_derivative_bounds": [
+    0.49285530692760987,
+    3.269226368481505,
+    133.95454855487006
+  ],
+  "gamma_field_absolute_derivative_bounds": [
+    0.023533199722202535,
+    0.37930248287016494,
+    25.91268578998397
+  ],
+  "vertical_primitive_operator_bound": 0.3928571428571429,
+  "full_vector_primitive_operator_bound": 1.5714285714285716,
+  "Fz_over_x_lower": 0.944863615255741,
+  "Fx_vertical_lower": 0.9427265717734656,
+  "Fx_vertical_upper": 1.3602293139143333,
+  "Fx_horizontal_norm_upper": 6.025697066204975,
+  "tangent_horizontal_norm_lower": 0.9997230942554174,
+  "T_cross_Fx_norm_lower": 0.8006615928456792,
+  "area_lower": 0.8556915581753776,
+  "area_upper": 8.11869399121295,
+  "quotient_radial_Lipschitz_upper": 5.967635730480837,
+  "quotient_angular_Lipschitz_upper": 0.4169335882928767,
+  "gate_passed": true,
+  "exact_object": "physical a,beta even and gamma,Z odd by explicit averaging; Z is the exact slope integral; no Gaussian smoothing",
+  "limitations": [
+    "No claim that N is negative or support zeta is positive from these gates alone",
+    "No angular sample is used as a proof bound; these conservative inequalities use full spline convex hulls",
+    "Only the stated core is covered; the original saved finite candidate and the new symmetric real object remain distinguished"
+  ]
+}

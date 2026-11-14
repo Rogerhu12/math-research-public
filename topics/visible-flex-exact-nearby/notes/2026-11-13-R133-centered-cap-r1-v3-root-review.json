@@ -1,0 +1,31 @@
+{
+  "kind": "root_complete_original_centered_cap_v3_failed_gate_review",
+  "complete": true,
+  "source_full_diff_against_reviewed_v2_read": true,
+  "all_input_source_manifest_sha256_checks": {
+    "scripts/fourfold_codazzi_cap_centered_residual_v3.py": true,
+    "notes/2026-11-13-R133-centered-cap-r1-v3-native.json.gz": true,
+    "notes/2026-11-13-R133-centered-cap-r1-v3-rejection.md": true,
+    "notes/2026-11-13-Codazzi-rotational-positive-cap-v2-native.json.gz": true,
+    "notes/2026-11-13-R133-A0-driven-cap-r1-native.json.gz": true,
+    "notes/2026-11-13-R133-compact-metric-outer-mean-m64-candidate.npz.gz": true,
+    "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json": true,
+    "scripts/fourfold_codazzi_cap_A0_translation_budget.py": true,
+    "scripts/fourfold_codazzi_cap_centered_residual_v2.py": true,
+    "scripts/fourfold_phase_codazzi_coefficients.py": true,
+    "scripts/fourfold_codazzi_candidate_shards.py": true,
+    "scripts/fourfold_codazzi_rotational_cap_jacobi.py": true,
+    "scripts/fourfold_codazzi_rotational_cap_jacobi_v2.py": true,
+    "scripts/fourfold_phase_beta_bulk_box.py": true,
+    "scripts/fourfold_phase_beta_bulk_interval.py": true,
+    "scripts/fourfold_phase_metric_defect.py": true
+  },
+  "complete_exact_common_closed_boxes": 935,
+  "independent_full_935_box_replay": false,
+  "full_Taylor_polynomial_derivative_algebra_reviewed": true,
+  "full_zero_mean_and_all_nonzero_Fourier_coefficients_retained": true,
+  "infinite_Neumann_tail_and_all_DQ_columns_retained": true,
+  "original_full_output_unchanged": true,
+  "nonzero_centred_contraction_certified": false,
+  "scope": "A checked complete failure of the chosen sufficient enclosure gate, not a residual lower bound or a nonexistence conclusion."
+}

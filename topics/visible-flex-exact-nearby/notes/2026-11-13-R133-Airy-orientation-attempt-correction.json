@@ -1,0 +1,19 @@
+{
+  "kind": "explicitly_excluded_Airy_orientation_attempt",
+  "complete": false,
+  "proved": false,
+  "reason": "For x=-|m|^(2/3)T the scalar root derivative is the negative of the positive-side derivative. The first universal producer omitted this reflection before the negative Sonin energy calculation. Its numerical finite bounds and dependent v2 budget are not certificates for the stated continuation.",
+  "affected_local_intermediates": {
+    "scripts/fourfold_full_two_port_Airy_universal.py": "e117d0396bb9a83d39fc1142b47d460e7e901539665a0b78d77f278e9b51190f",
+    "notes/2026-11-13-R133-universal-two-port-Airy-native.json.gz": "8e34f92d26dbd0749cdfa2dca52a1532ea5ab41d6f5fb5f3a5efc99aafa3873d",
+    "scripts/fourfold_codazzi_balanced_fold_ports_v2.py": "61f1afa031fb4f6c742e875f9a51525d2fd2b635168b027277da4c2eebcd8373",
+    "notes/2026-11-13-R133-actual-alpha075-balanced-fold-ports-v2.json.gz": "6d4e36f6cad0d0277887144a45af0e6922c6fe359065c38d41db68ea3e3b4235"
+  },
+  "corrected_producer": "scripts/fourfold_full_two_port_Airy_universal_v2.py",
+  "corrected_report": "notes/2026-11-13-R133-universal-two-port-Airy-v2-native.json.gz",
+  "corrected_report_sha256": "1e5b5436f35c46e1c760c7385754867db6a28e7bd89d1a66700a069908608921",
+  "correct_negative_initial_states": "Fminus(1)*diag(1,-1)*A0 and Fminus(1)*diag(1,-1)*B0",
+  "corrected_allmode_kernel_bound": 32,
+  "corrected_bound_scope": "Only the corrected v2 producer/report and consumers requiring the explicit reflected-root flag are authorized.",
+  "prior_actual_fold_2pow25_proof_unaffected": true
+}

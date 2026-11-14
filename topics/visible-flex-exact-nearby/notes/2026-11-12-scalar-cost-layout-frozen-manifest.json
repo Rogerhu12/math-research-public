@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "path": "scripts/fourfold_minimize_time_layout.py",
+      "bytes": 2414,
+      "sha256": "dadd2805e5e078a6029f266f824e0356b99d77b0401edc863489804c13a2290e"
+    },
+    {
+      "path": "scripts/fourfold_saved_time_layout_comparison.py",
+      "bytes": 4302,
+      "sha256": "4cb70214b69e14d24d616b95096a24fdf10c9f73423d36ed2f1b8e332c928e4c"
+    },
+    {
+      "path": "scripts/fourfold_scalar_field_precision_benchmark.py",
+      "bytes": 6210,
+      "sha256": "e30125cdfe8bcbe4b9d68733821623fa0a71bde3abe90fefdcfb356821d57f6d"
+    },
+    {
+      "path": "scripts/fourfold_scalar_field_precision_repeat.py",
+      "bytes": 2928,
+      "sha256": "292356d52d09e77ab00711d1d9b01323faf757261fae196aeb60861cfb39cdc4"
+    },
+    {
+      "path": "notes/2026-11-12-complete-budget-time-layout-comparison.json",
+      "bytes": 17235,
+      "sha256": "02bec8fc9017cf04d52722158e932772c142adf5f5d9e953b625c0d58e2d3994"
+    },
+    {
+      "path": "notes/2026-11-12-ordinary14-field-precision-benchmark.json",
+      "bytes": 28756,
+      "sha256": "0c06d86df34296509406971575659fcf7d7644e1eb31db255f926de2f6c3cabc"
+    },
+    {
+      "path": "notes/2026-11-12-ordinary14-field-precision-repeat.json",
+      "bytes": 4383,
+      "sha256": "8050019765e7128047615557a64713687584c233915b3ec588151d4816a13271"
+    },
+    {
+      "path": "notes/2026-11-12-ordinary14-primitive640-benchmark.json",
+      "bytes": 15482,
+      "sha256": "623fed78c7599320ea8d0442a6c8cd27fb05c26c5db15d5339b47415aa4b260e"
+    },
+    {
+      "path": "notes/2026-11-12-scalar-cost-and-complete-time-layout.md",
+      "bytes": 4062,
+      "sha256": "07b3ebe36447d9072276d609269aeff53d84b41ac697adc8b9b2d7e346947d3d"
+    }
+  ],
+  "scope": "same delta5 single-node precision/primitive trials, complete analytic layout comparisons only"
+}

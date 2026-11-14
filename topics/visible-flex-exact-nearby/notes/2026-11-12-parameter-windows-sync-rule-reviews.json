@@ -1,0 +1,31 @@
+{
+  "kind": "actual_per_pull_root_and_topic_rule_reviews",
+  "reviewed_commits": [
+    "3e026648301518e2fa298351107fa94e3a4522a3",
+    "1c60d29d838aabbf8abd0ef8b87918014852174d",
+    "5c277d5b72805d835245e1e8dc868ce04149159c",
+    "f90a47fdfce82e03ce56dcd0dc9eabd1c940ad58",
+    "5b217a64f11e42ddf8be3f0a7812efdaf1985626",
+    "9c9e51616483ff376c0a4107e43b90eb3b4210d2",
+    "0bf97c0644ea31b06f5940b3d0625d4a7a931919",
+    "2857edba6c79302f2daaa67a83685be18d42e3e9",
+    "29a4a0b6fb87938435c5b0470b3908de5330d27f",
+    "5cb9451be8b71f1b5c8d5b39a971e9a7766ebafa",
+    "e32be26c98d914b9907544c657aed0be3398fcee",
+    "d9cbb1026b4389782d1e4aa287e6bacfcd40e211",
+    "884799762368a19dadec8a3fa2bdc11beabccfac",
+    "2ada0592fd4976db2979cfc789f216e0d1f97ba9",
+    "bb82527513b8c69f530e5351810fb17390d5a7d6",
+    "f2564a59a7bb5877998bbd2251b858046666adef",
+    "d26f0a9396f4e6baf9c4518060ce2f17525ffa71",
+    "d881a9f6f0e28c1f5c45241b9c40112640e69955",
+    "f243ab37fe3c1d79ec9373a5d9edb17af060061b",
+    "6a5a170e0562b2689c2f42ef1258f6c422864a61"
+  ],
+  "both_README_differences_empty": true,
+  "recovery_branch": "visible-exact-recovery-20261112-l",
+  "recovery_sha": "3ce891bcdddf73c3fff0f7d69afe4eb7081acd33",
+  "main_push_succeeded": false,
+  "reason": "concurrent main updates; final local commit met a transient index lock, now absent",
+  "new_batch_will_continue_normal_merge_push": true
+}

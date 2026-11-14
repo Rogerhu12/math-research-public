@@ -1,0 +1,30 @@
+{
+  "kind": "lossless_preservation_of_last_observed_complete_accepted_checkpoint",
+  "original_process_sha256": "44aae7a220bc87eab9f02ef090a0876c676086a5a3826c141cc2b76d7cc34ed6",
+  "original_process_complete": false,
+  "original_process_status": "started",
+  "original_process_record_unmodified": true,
+  "original_log_sha256": "e90b12196381d109d9e0ac16594007dc355c19867a9c8659c38d4154220244fc",
+  "checkpoint_sha256": "e8abd66e63c6aba8f6174461cde62837c03e5903dce259370c670f8fd670514b",
+  "checkpoint_bytes": 5319103,
+  "original_checkpoint": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-reciprocal-capcut-m128-alpha075-QR-floating/accepted-000.npz",
+  "radial_nodes": 1343,
+  "state_dimension": 257,
+  "full_cubic_shape": [
+    4,
+    1342,
+    257
+  ],
+  "every_saved_state_and_derivative_used": true,
+  "source_sha256": "e7d7e33ea74457baab55e7620aa4a52353fd7941edd11f79a238729e530b90c2",
+  "candidate_path": "/workspace/scratch/ac0d699811ad/reciprocal-capcut-m128-alpha075-accepted000-candidate.json",
+  "candidate_sha256": "ef57dce9a2cd2d478baa52ce7f4ba9b409555b581c46ad5a09788de1968bd223",
+  "observed_session": 81525,
+  "session_handle_observation": "write_stdin reported bash Killed and exit_code=137 while the next 1854-node QR factorization was incomplete; original process report remains started",
+  "actual_exit_code": 137,
+  "actual_exit_cause": null,
+  "finite_BVP_convergence_not_established": true,
+  "this_preservation_does_not_resume_or_repeat_the_failed_session": true,
+  "mathematical_certificate": false,
+  "wall_seconds": 2.420091240994225
+}

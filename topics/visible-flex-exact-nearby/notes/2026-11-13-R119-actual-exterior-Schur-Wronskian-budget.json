@@ -1,0 +1,161 @@
+{
+  "status": "proved_new_algebra_and_scalar_budgets",
+  "object": "actual fixed Gamma0 stronger-tail reference, same true good bump",
+  "passed": true,
+  "gate_count": 26,
+  "gates": [
+    {
+      "name": "unshifted_source_first_row",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "unshifted_source_second_row",
+      "passed": true,
+      "detail": "r**4*(-I*Ftang*m - 2*sqrt(3)*Fy + src)/(12*muj)"
+    },
+    {
+      "name": "total_flux_weak_two_rows",
+      "passed": true,
+      "detail": "Matrix([[-sqrt(3)*F*m**2*r**4*(m**2 - 1)/(72*muj*pp)], [r**4*(F*m**2 - I*Ftang*m + src)/(12*muj)]])"
+    },
+    {
+      "name": "no_radial_derivative_of_F",
+      "passed": true,
+      "detail": "Matrix([[sqrt(3)*F*m**2*r**4*(1 - m**2)/(72*muj*pp)], [r**4*(F*m**2 - I*Ftang*m + src)/(12*muj)]])"
+    },
+    {
+      "name": "canonical_charge_from_raw_flux",
+      "passed": true,
+      "detail": "sqrt(3)*r**4/(6*muj)"
+    },
+    {
+      "name": "remaining_radial_charge",
+      "passed": true,
+      "detail": "c_y+k*c=m^2*q"
+    },
+    {
+      "name": "ordinary_source_identity",
+      "passed": true,
+      "detail": "q*w^2*e=mu_j*p_*^2*e/(12*r^10)"
+    },
+    {
+      "name": "grounded_two_trace_determinant",
+      "passed": true,
+      "detail": "4 - 4/m**2"
+    },
+    {
+      "name": "raw_two_trace_determinant",
+      "passed": true,
+      "detail": "-4 + 4/m**2"
+    },
+    {
+      "name": "opposite_Wronskian_sign",
+      "passed": true,
+      "detail": "W_grounded=-W_raw"
+    },
+    {
+      "name": "full_weak_Wronskian_source",
+      "passed": true,
+      "detail": "F*pq/mu + hq*(-I*Ftang*m + src)"
+    },
+    {
+      "name": "physical_height_scaling",
+      "passed": true,
+      "detail": "physical and dimensionless total raw flux have the same unit"
+    },
+    {
+      "name": "DN_left_from_Cauchy",
+      "passed": true,
+      "detail": "q_L=r_h/beta_T"
+    },
+    {
+      "name": "DN_right_from_Cauchy",
+      "passed": true,
+      "detail": "q_R=r_p-delta*r_h/beta_T"
+    },
+    {
+      "name": "Cauchy_from_DN_two_rows",
+      "passed": true,
+      "detail": "r_h=beta_T*q_L; r_p=q_R+delta*q_L"
+    },
+    {
+      "name": "actual_connector_loss",
+      "passed": true,
+      "detail": "88823/400"
+    },
+    {
+      "name": "actual_224_positive_width",
+      "passed": true,
+      "detail": "777/400"
+    },
+    {
+      "name": "full_Schur_width_margin",
+      "passed": true,
+      "detail": "3177/400"
+    },
+    {
+      "name": "outer_Wronskian_fee",
+      "passed": true,
+      "detail": "2^41 * 2^-447 * 2^16 = 2^-390"
+    },
+    {
+      "name": "continuous_outer_fee",
+      "passed": true,
+      "detail": "2^-390 * 2^450 = 2^60"
+    },
+    {
+      "name": "nonmean_Schur_row_fee",
+      "passed": true,
+      "detail": "two retained traces cost at most 2"
+    },
+    {
+      "name": "true_2080_inverse_margin",
+      "passed": true,
+      "detail": "[9.9619493036490506473907605070620359786343881597564340492e-16 +/- 6.70e-72]"
+    },
+    {
+      "name": "full_reference_Green_fee",
+      "passed": true,
+      "detail": "2^16 + 9*2^-479 < 2^17"
+    },
+    {
+      "name": "all_beta_outer_width_positive",
+      "passed": true,
+      "detail": "9805539977/400"
+    },
+    {
+      "name": "coth_full_actual_long",
+      "passed": true,
+      "detail": "[3.4231983900805310697640724335487239734039424140140e-85170612 +/- 4.93e-85170662]"
+    },
+    {
+      "name": "mean_not_using_canonical_nu_zero",
+      "passed": true,
+      "detail": "mean is retained through pi_0'=s_0, H_0'=(pi_0-F0^t)/mu"
+    }
+  ],
+  "exact_widths": {
+    "connector_loss": "88823/400",
+    "width_at_beta224": "777/400",
+    "Schur_2080_margin": "3177/400",
+    "outer_width": "L+beta-88823/400"
+  },
+  "operator_scope": {
+    "outer_affine_source": "F_beta to dotA1_(L+beta-88823/400), norm < 2^-390",
+    "continuous_weak_source": "S1_beta(J) to same external space, norm < 2^60",
+    "reference_internal_Green": "F_(beta+2080) to X_beta, norm < 2^17",
+    "unpaid_relative_gate": "D0^-1 E G deltaL_a on the same X_beta",
+    "means": "independent total flux integral and one raw height constant retained",
+    "weak_C2": "requires effective ordinary S1/S2 and actual boundary traces"
+  },
+  "file_sha256": {
+    "results/R119-supplement-actual-exterior-Schur-and-full-weak-Wronskian.md": "ef1e50c409848f0da793e331d260ae056274c1a548781209c26bad072273e3f0",
+    "results/R119-supplement-stronger-deep-full-label-chart-and-fourth-line.md": "513202b38f1c346ef3fb3f43ff79e1c6bd4bccbd1ed8d9151a8a7095dc75bf98",
+    "results/R119-supplement-stronger-tail-raw-labels-sources-and-regular-boundary.md": "1fe5a4a7e10dfb1362a47d91eb9276ef9499bbc6f57c5c73fdb8fdd7665568ca",
+    "results/R119-supplement-balanced-connector-label-domain-224.md": "aff48a37b08cb41e6eb1ddd8c014687242f744e6cb9e638201c0781df46222d1",
+    "results/R119-supplement-joint-KAM-incoming-and-actual-full-Newton-chain.md": "46dc40c62061d443f43758030e9161902f00b51df2724f3112257979fa2cba5f",
+    "results/R74-actual-full-tail-robin-and-augmented-positive-cap.md": "174bc93631b5ade0faf51160d7026e42d674916fd94e12cdb2315479458c18d8",
+    "scripts/fourfold_actual_exterior_Schur_Wronskian_20261113.py": "6fa72a1b6bede769f64ab270dc9086599266ecb9adb97b2a56d42f2cfa919036"
+  }
+}

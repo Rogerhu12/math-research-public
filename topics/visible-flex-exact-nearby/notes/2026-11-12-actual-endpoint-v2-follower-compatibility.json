@@ -1,0 +1,24 @@
+{
+  "kind": "actual_saved_follower_endpoint_contract_check",
+  "complete": true,
+  "actual_R31_accepted": false,
+  "actual_endpoint_source_sha256": "4d67186bc891279b668dd898baa3cb58d92e80342e995911e49416b4b6ca8c32",
+  "cases": [
+    {
+      "scope": "center",
+      "report_path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/center_efficient_prefix0020_replay_v2/chronological/report.json.gz",
+      "report_sha256": "808641cb1d4745a36ac74e88152987796b4837c14502d2d38c36102e0752cdfa",
+      "local_ordered_term_contract_accepted": true,
+      "incomplete_prefix_rejected": true,
+      "failure": "complete same-object actual center chronological data required"
+    },
+    {
+      "scope": "uniform",
+      "report_path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/hybrid_efficient_prefix0020_replay_v3/chronological/report.json.gz",
+      "report_sha256": "fad44aa939f83434d997ccae6ac74662d48b8fa0a9314e405703a01f49440b46",
+      "local_ordered_term_contract_accepted": true,
+      "incomplete_prefix_rejected": true,
+      "failure": "complete same-object actual uniform chronological data required"
+    }
+  ]
+}

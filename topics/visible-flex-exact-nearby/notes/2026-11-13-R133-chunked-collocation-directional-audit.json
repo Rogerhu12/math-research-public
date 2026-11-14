@@ -1,0 +1,51 @@
+{
+  "kind": "chunked_collocation_actual_system_independent_directional_audit",
+  "passed": true,
+  "certified": false,
+  "source_sha256": "5b96d9298014703cf41c59a2d9466e81d523673fb659a52ca6488a03ef939a73",
+  "input_sha256": "4046eb7ac8da162ab9aad9fcb4991933200abdbc2c22ed6329d49bb13d72b856",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "actual_modes": 8,
+  "actual_amplitude": 0.65,
+  "radial_nodes": [
+    0.04,
+    0.042,
+    0.044000000000000004,
+    0.046,
+    0.048,
+    0.05
+  ],
+  "full_vs_original_scipy_max_error": 2.0816681711721685e-17,
+  "central_differences": [
+    {
+      "step": 1e-05,
+      "relative_error": 1.0311343294570727e-10
+    },
+    {
+      "step": 1e-06,
+      "relative_error": 1.120363737333709e-11
+    },
+    {
+      "step": 1e-07,
+      "relative_error": 1.487838987843741e-10
+    }
+  ],
+  "assembly_history": [
+    {
+      "radial_nodes": 6,
+      "state_dimension": 17,
+      "parameter_dimension": 1,
+      "Fourier_band": 8,
+      "absolute_entry_cutoff": 0,
+      "radial_chunk": 2,
+      "nonzero_entries": 2916,
+      "maximum_omitted_entry": 0.0,
+      "maximum_omitted_collocation_row_l1": 0.0,
+      "maximum_full_collocation_row_l1": 2.225151266095273,
+      "assembly_seconds": 0.11605650700221304,
+      "nonlinear_residual_unchanged": true,
+      "approximate_Newton_matrix": true
+    }
+  ],
+  "scope": "Untruncated full chunked matrix is checked against scipy assembly and independent differences of the unchanged actual nonlinear collocation residual. The production band restriction is a separate approximate linear solver only."
+}

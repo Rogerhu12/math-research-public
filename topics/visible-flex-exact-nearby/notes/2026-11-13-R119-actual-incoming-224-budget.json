@@ -1,0 +1,180 @@
+{
+  "status": "all_pass",
+  "scope": "Actual nonlinear incoming and its cap feedback, with the complete remaining F residual explicitly retained",
+  "checks": [
+    {
+      "name": "actual_raw_output_width",
+      "pass": true,
+      "evidence": {
+        "raw_width_exact": "777/400",
+        "input_weight": 224
+      }
+    },
+    {
+      "name": "actual_cap_width_is_consumable",
+      "pass": true,
+      "evidence": "The actual cap width is below1/8; no angular width is added to its data"
+    },
+    {
+      "name": "actual_Schur_domain",
+      "pass": true,
+      "evidence": "The genuine Z2074-to-a224 inverse is applied to a genuine angular exponential norm"
+    },
+    {
+      "name": "full_frequency_embedding",
+      "pass": true,
+      "evidence": "Every nonzero physical frequency has M>=4, including both signs"
+    },
+    {
+      "name": "actual_nonlinear_incoming_factor",
+      "pass": true,
+      "evidence": "Full nonlinear slope bound18 composed with the true Schur inverse1/16"
+    },
+    {
+      "name": "actual_incoming_derivative_factor",
+      "pass": true,
+      "evidence": "The complete derivative column is composed in the same spaces"
+    },
+    {
+      "name": "strict_log_bound_for_incoming",
+      "pass": true,
+      "evidence": "[0.117783035656383454538794109470521705068481 +/- 2.88e-43]"
+    },
+    {
+      "name": "strict_rounded_actual_exponent",
+      "pass": true,
+      "evidence": "10722832812020461/250000000"
+    },
+    {
+      "name": "actual_label_input_binary_exponent",
+      "pass": true,
+      "evidence": {
+        "log_margin": "[1302500.16640328143496607271250940591546999 +/- 1.94e-36]"
+      }
+    },
+    {
+      "name": "actual_derivative_binary_exponent",
+      "pass": true,
+      "evidence": {
+        "log_margin": "[1302500.82716719788674700015172841190929742 +/- 3.45e-36]"
+      }
+    },
+    {
+      "name": "actual_nonzero_input_size",
+      "pass": true,
+      "evidence": "1/100000000"
+    },
+    {
+      "name": "actual_state_reaches_working_ball",
+      "pass": true,
+      "evidence": "X<16 a is applied after constructing the actual incoming label"
+    },
+    {
+      "name": "actual_nonlinear_trace_factor",
+      "pass": true,
+      "evidence": "The new full-label constant16 replaces the old13/4; both physical traces remain"
+    },
+    {
+      "name": "actual_cap_fB_half_ball",
+      "pass": true,
+      "evidence": "The actual tail output is in the half of the existing2^-60 cap-input ball"
+    },
+    {
+      "name": "actual_tail_Cauchy_disk",
+      "pass": true,
+      "evidence": "The derivative uses only the already established complex label chart"
+    },
+    {
+      "name": "actual_tail_derivative",
+      "pass": true,
+      "evidence": "The true2^-443 linear trace estimate gives2^-442 on the smaller ball"
+    },
+    {
+      "name": "actual_cap_derivative_disk",
+      "pass": true,
+      "evidence": "Phi is bounded by rf<2^-26 on its existing2^-60 disk; no large cap disk is assumed"
+    },
+    {
+      "name": "actual_feedback_contraction",
+      "pass": true,
+      "evidence": "Complete D0^-1 Dg* Df* DfB composition, not a linear incoming surrogate"
+    },
+    {
+      "name": "actual_feedback_self_map",
+      "pass": true,
+      "evidence": "The full incoming image has radius less than Ra/2"
+    },
+    {
+      "name": "actual_feedback_parameter_derivative",
+      "pass": true,
+      "evidence": "The complete implicit input derivative keeps the actual cap parameter column"
+    },
+    {
+      "name": "tail_remainder_exact_fee",
+      "pass": true,
+      "evidence": "Entire degree>=2 series of the actual full two-trace map on radius1/64"
+    },
+    {
+      "name": "actual_long_solution_linear_bound",
+      "pass": true,
+      "evidence": "The true finite-length Green and the holonomy root are retained"
+    },
+    {
+      "name": "actual_long_quadratic_trace",
+      "pass": true,
+      "evidence": "The complete two-end source-to-slope estimate is used, without discarding the other end"
+    },
+    {
+      "name": "actual_long_self_remainder_fee",
+      "pass": true,
+      "evidence": "The true nonlinear boundary fB enters the long-segment quadratic term"
+    },
+    {
+      "name": "actual_tail_plus_long_remainder",
+      "pass": true,
+      "evidence": "Both entire quadratic remainders remain"
+    },
+    {
+      "name": "actual_mixed_remainder_fee",
+      "pass": true,
+      "evidence": "The complete mixed nonlinear incoming term keeps its rf and exp(-7L/4) factors"
+    },
+    {
+      "name": "actual_mixed_radial_exponent",
+      "pass": true,
+      "evidence": {
+        "log_margin": "[1310796.26342395443496607271250940591546999 +/- 1.94e-36]"
+      }
+    },
+    {
+      "name": "actual_total_physical_residual",
+      "pass": true,
+      "evidence": "After factoring2^-120000400, both nonzero residual summands are strictly retained"
+    },
+    {
+      "name": "residual_domain_remains_distinct",
+      "pass": true,
+      "evidence": "No second application of the Z2074 inverse is inferred from the much smaller raw width"
+    },
+    {
+      "name": "mean_height_is_not_screened",
+      "pass": true,
+      "evidence": "The actual aw(t) factor gives the full mean primitive; no exp(-7L/4) is attached to its span"
+    }
+  ],
+  "actual_exponent_exact": "10722832843270461/250000000",
+  "actual_exponent_log2_interval": "[61879111.0690703899364722328942854389819614 +/- 4.60e-35]",
+  "source_free": true,
+  "complete_F_solved": false,
+  "file_sha256": {
+    "results/R119-supplement-actual-nonlinear-incoming-reaches-224-labels.md": "c4618e5c380a742adec7e1609ebe8ef02c673321bf6b611ce99a68acfc39dcea",
+    "scripts/fourfold_actual_incoming_224_20261113.py": "76873d0135490610ba507a3e2f44cf657cdc39edc2ac0acf30e23def8549a380",
+    "results/R119-supplement-stronger-tail-raw-labels-sources-and-regular-boundary.md": "1fe5a4a7e10dfb1362a47d91eb9276ef9499bbc6f57c5c73fdb8fdd7665568ca",
+    "results/R119-supplement-stronger-deep-full-label-chart-and-fourth-line.md": "513202b38f1c346ef3fb3f43ff79e1c6bd4bccbd1ed8d9151a8a7095dc75bf98",
+    "results/R119-supplement-balanced-connector-label-domain-224.md": "aff48a37b08cb41e6eb1ddd8c014687242f744e6cb9e638201c0781df46222d1",
+    "results/R119-supplement-retuned-fourth-connector-and-common-bumps.md": "e22a74f54ea1122271e50d2bdcd2ae8db5bc4c28e1e36eaebc35c40f6c3c3752",
+    "results/R133-supplement-actual-nonlinear-long-tail-screening-and-analytic-gain.md": "c5f3071445c23b146a58abfc69a248d25b5f02c62790d9245c2ac46741f41a1a",
+    "results/R133-supplement-actual-periodic-cap-open-inner-graph.md": "710e385fafc001088e2411805edef898dcfa1dd0e84562295fafa0ea2ab6547c",
+    "results/R133-supplement-universal-small-inner-periodic-cap.md": "65c04e3fdfe65b04581172b4f4f07bea8d9b795207e09b4bf516eb20c5707e54"
+  }
+}

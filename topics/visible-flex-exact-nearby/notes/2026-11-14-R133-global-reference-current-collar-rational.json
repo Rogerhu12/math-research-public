@@ -1,0 +1,188 @@
+{
+  "kind": "uniform_global_positive_reference_actual_current_root_collar",
+  "complete": true,
+  "arithmetic": "normalized BigInt rational; complete positive variational reference and full Fourier kernels",
+  "source": "scripts/fourfold_codazzi_global_reference_current_collar.mjs",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "inputs": [
+    {
+      "path": "results/R133-supplement-current-moving-positive-root-Riccati-and-full-head.md",
+      "git_blob": "3edf335784786da9a4a515b28d364d8ad2914e24"
+    },
+    {
+      "path": "results/R133-supplement-final-regular-Hs-and-Riccati-outer-graph.md",
+      "git_blob": "7784d7158974d4632ca634369e55dc095e134902"
+    },
+    {
+      "path": "results/R133-actual-rotational-positive-cap-and-Codazzi-Jacobi-graph.md",
+      "git_blob": "1f0c66859862fbe6280fdce466f98dd10cc4a17f",
+      "scope": "same intrinsic K bound only"
+    },
+    {
+      "path": "results/R133-supplement-full-compact-metric-curvature-type.md",
+      "git_blob": "15de90fc2e61c0d15df47a1a636675c8f0397122",
+      "scope": "same intrinsic root-to-.239 monotonicity only"
+    }
+  ],
+  "reference": {
+    "domain": "[r*(eta),25/8]",
+    "speed": "any frequency-independent positive bounded radial extension of the actual -gamma*m on the certified root piece",
+    "g_initial": "M^-1/3",
+    "p_final": "q_*/(-m_R)",
+    "K": "the actual full intrinsic K; 0<=K<4",
+    "p_g_upper": "2 each",
+    "M_log_derivative": "<=1 for each positive p,g",
+    "root_p_upper": "66 M^-1/3",
+    "root_two_row_Airy_equivalence": "9"
+  },
+  "actual_collar": {
+    "h": "9/1000000",
+    "cutoff_index": 97,
+    "physical_minimum": 388,
+    "W_upper": "4",
+    "K_over_W_upper": "1",
+    "E_upper": "18262183/1261",
+    "hE_upper": "164359647/1261000000",
+    "resolvent": "15/13",
+    "complete_head_size": 193,
+    "complete_head_loop": "1921439637/250000000000",
+    "ordinary_source_to_state": "1/8000",
+    "ports_to_state": "3/250",
+    "ordinary_source_to_both_raw_traces": "1/25",
+    "ports_to_both_raw_traces": "27/5"
+  },
+  "angular_bootstrap": {
+    "derivatives": [
+      0,
+      1,
+      2
+    ],
+    "same_high_resolvent": "15/13",
+    "Eabsolute_upper": "17700",
+    "C1": "4538112",
+    "C21": "9090048",
+    "C20": "1161756672",
+    "triangular_equations": "X0<=I(hF0+sqrt(h)g0); X1<=I(hF1+sqrt(h)g1+h C1 X0); X2<=I(hF2+sqrt(h)g2+h C21 X1+h C20 X0)",
+    "source": "physical H^(j+1/3), complete head forcing retained",
+    "repeat_head_inversion": false
+  },
+  "negative_input": {
+    "ordinary_initial_H1_to_both_global_root_rows": "15",
+    "ordinary_L2r_H1_source_to_both_global_root_rows": "0.046"
+  },
+  "permissions": {
+    "actual_root_operator": true,
+    "actual_outer_graph_same_reference": true,
+    "uniform_over_positive_speed_extensions": true,
+    "actual_speed_sign_outside_root_certified": false,
+    "whole_positive_body_inverse": false,
+    "global_return_inverse": false,
+    "global_nu_inverse": false
+  },
+  "gates": [
+    {
+      "name": "same_intrinsic_full_positive_K_upper_4",
+      "passed": true
+    },
+    {
+      "name": "actual_outer_reference_p_between_one_eighth_and_one_fifth",
+      "passed": true
+    },
+    {
+      "name": "true_root_optical_K_s_bounds_29_and_122",
+      "passed": true
+    },
+    {
+      "name": "global_positive_reference_root_trial_66",
+      "passed": true,
+      "trial_nonterminal": "64061/3200",
+      "minimum_optical_length": "9/2000000"
+    },
+    {
+      "name": "root_complete_two_row_Airy_comparison_9",
+      "passed": true
+    },
+    {
+      "name": "root_Airy_polynomial_endpoints",
+      "passed": true
+    },
+    {
+      "name": "complete_grounded_reaction_sup",
+      "passed": true
+    },
+    {
+      "name": "complete_grounded_reaction_Wiener",
+      "passed": true
+    },
+    {
+      "name": "complete_nonlocal_dyad_with_global_W",
+      "passed": true
+    },
+    {
+      "name": "global_reference_full_high_collar_contraction",
+      "passed": true,
+      "exact_hE": "164359647/1261000000"
+    },
+    {
+      "name": "source_frame_3_even_with_W4",
+      "passed": true
+    },
+    {
+      "name": "raw_reconstruction_frame_3_even_with_W4",
+      "passed": true
+    },
+    {
+      "name": "same_actual_high_ordinary_source_contract_1e4",
+      "passed": true
+    },
+    {
+      "name": "same_actual_high_port_state_contract_0011",
+      "passed": true
+    },
+    {
+      "name": "same_actual_high_source_both_traces_1over32",
+      "passed": true
+    },
+    {
+      "name": "same_actual_high_ports_both_traces_24over5",
+      "passed": true
+    },
+    {
+      "name": "complete_193_head_feedback_unchanged",
+      "passed": true,
+      "loop_upper": "1921439637/250000000000"
+    },
+    {
+      "name": "all_ordinary_source_and_both_mean_head_ports_inherited",
+      "passed": true
+    },
+    {
+      "name": "finite_absolute_kernel_Estar_17700",
+      "passed": true
+    },
+    {
+      "name": "highest_transport_derivative_no_new_frequency_loss",
+      "passed": true
+    },
+    {
+      "name": "actual_complete_band_commutator_C1",
+      "passed": true
+    },
+    {
+      "name": "actual_complete_band_commutator_C21",
+      "passed": true
+    },
+    {
+      "name": "actual_complete_band_commutator_C20",
+      "passed": true
+    },
+    {
+      "name": "negative_root_input_global_frame_15",
+      "passed": true
+    },
+    {
+      "name": "negative_root_source_global_frame_0046",
+      "passed": true
+    }
+  ]
+}

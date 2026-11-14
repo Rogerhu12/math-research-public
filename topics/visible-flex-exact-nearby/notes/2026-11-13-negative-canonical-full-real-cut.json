@@ -1,0 +1,166 @@
+{
+  "kind": "actual_negative_canonical_full_real_cut_and_spacelike_trace",
+  "complete": true,
+  "proved": true,
+  "source_sha256": "37d1c5294ada2479586ddbc704d10da45e16b4b8e47fd28d2436f21cf2bd134a",
+  "bits": 320,
+  "inputs": {
+    "notes/2026-11-13-negative-characteristic-cancellation-bidisk.json": "9d356257b5a4fe220121e4335f8182b872932ff3eb13403111d8fd7a30b9a44d",
+    "notes/2026-11-13-negative-canonical-cancellation-chart.json": "71f1f5277ea9764eef3cce264c320ef33ab23278bead7b5c2e53fd599dd61cb0"
+  },
+  "identity": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "true_root": {
+    "ball": "[0.238396874300 +/- 2.71e-13]",
+    "lower": "[0.23839687429972956132053396089863148 +/- 1.44e-36]",
+    "upper": "[0.23839687430000116458653473832827660 +/- 2.84e-37]",
+    "mid_float": 0.23839687429986536,
+    "radius_upper_float": 1.3580163300038871e-13
+  },
+  "physical_cut": "268136140016943/1125899906842624",
+  "exact_real_physical_rho_interval": [
+    "0",
+    "13/50000"
+  ],
+  "actual_physical_cut_root_distance": [
+    {
+      "ball": "[0.00024414119498961703896221616576569924216250268781133 +/- 4.85e-54]",
+      "lower": "[0.00024414119498961703896221616576569924216250268781133 +/- 4.85e-54]",
+      "upper": "[0.00024414119498961703896221616576569924216250268781133 +/- 4.85e-54]"
+    },
+    {
+      "ball": "[0.00024414119526122030623354301629226859414706536025315 +/- 4.31e-55]",
+      "lower": "[0.00024414119526122030623354301629226859414706536025315 +/- 4.31e-55]",
+      "upper": "[0.00024414119526122030623354301629226859414706536025315 +/- 4.31e-55]"
+    }
+  ],
+  "actual_full_real_canonical_rectangle_upper": {
+    "ball": "[0.00025548722046429369627220286695249866983278463077743 +/- 9.78e-55]",
+    "lower": "[0.00025548722046429369627220286695249866983278463077743 +/- 9.78e-55]",
+    "upper": "[0.00025548722046429369627220286695249866983278463077743 +/- 9.78e-55]"
+  },
+  "actual_physical_cut_canonical_graph_range": [
+    {
+      "ball": "[0.00024016002421525496241457956814623416045648319212910 +/- 4.48e-54]",
+      "lower": "[0.00024016002421525496241457956814623416045648319212910 +/- 4.48e-54]",
+      "upper": "[0.00024016002421525496241457956814623416045648319212910 +/- 4.48e-54]"
+    },
+    {
+      "ball": "[0.00024818836253882110518933796698554455220487963525325 +/- 1.60e-54]",
+      "lower": "[0.00024818836253882110518933796698554455220487963525325 +/- 1.60e-54]",
+      "upper": "[0.00024818836253882110518933796698554455220487963525325 +/- 1.60e-54]"
+    }
+  ],
+  "real_global_bounds": {
+    "phi_theta_lower": {
+      "ball": "[0.051243937063479205013214567773044881427007974109199 +/- 1.34e-52]",
+      "lower": "[0.051243937063479205013214567773044881427007974109199 +/- 1.34e-52]",
+      "upper": "[0.051243937063479205013214567773044881427007974109199 +/- 1.34e-52]"
+    },
+    "phi_theta_upper": {
+      "ball": "[0.36894853084388085220387531279272941477749430565580 +/- 2.34e-51]",
+      "lower": "[0.36894853084388085220387531279272941477749430565580 +/- 2.34e-51]",
+      "upper": "[0.36894853084388085220387531279272941477749430565580 +/- 2.34e-51]"
+    },
+    "xi_rho_at_fixed_phi_lower": {
+      "ball": "[0.96558757131021614887259739505254557412707320758517 +/- 4.68e-51]",
+      "lower": "[0.96558757131021614887259739505254557412707320758517 +/- 4.68e-51]",
+      "upper": "[0.96558757131021614887259739505254557412707320758517 +/- 4.68e-51]"
+    },
+    "xi_rho_at_fixed_phi_upper": {
+      "ball": "[1.0356388480053541461222120395638843947296775703749 +/- 4.44e-50]",
+      "lower": "[1.0356388480053541461222120395638843947296775703749 +/- 4.44e-50]",
+      "upper": "[1.0356388480053541461222120395638843947296775703749 +/- 4.44e-50]"
+    },
+    "complete_coordinate_Jacobian_lower": {
+      "ball": "[0.049480508733498455186623153848919544667860657996377 +/- 4.51e-52]",
+      "lower": "[0.049480508733498455186623153848919544667860657996377 +/- 4.51e-52]",
+      "upper": "[0.049480508733498455186623153848919544667860657996377 +/- 4.51e-52]"
+    },
+    "complete_coordinate_Jacobian_upper": {
+      "ball": "[0.38209743145642463797139328381413531270856509627203 +/- 1.79e-51]",
+      "lower": "[0.38209743145642463797139328381413531270856509627203 +/- 1.79e-51]",
+      "upper": "[0.38209743145642463797139328381413531270856509627203 +/- 1.79e-51]"
+    },
+    "graph_sqrt_xi_times_slope_modulus": {
+      "ball": "[0.024656887166255250617505429964944550067147933794706 +/- 1.03e-52]",
+      "lower": "[0.024656887166255250617505429964944550067147933794706 +/- 1.03e-52]",
+      "upper": "[0.024656887166255250617505429964944550067147933794706 +/- 1.03e-52]"
+    },
+    "graph_spacelike_normal_lower": {
+      "ball": "[0.99939203791527055711709416842504635688378533111699 +/- 2.53e-51]",
+      "lower": "[0.99939203791527055711709416842504635688378533111699 +/- 2.53e-51]",
+      "upper": "[0.99939203791527055711709416842504635688378533111699 +/- 2.53e-51]"
+    },
+    "pointwise_gradient_trace_map_norm": {
+      "ball": "[1.0246568871662552506175054299649445500671479337947 +/- 5.90e-51]",
+      "lower": "[1.0246568871662552506175054299649445500671479337947 +/- 5.90e-51]",
+      "upper": "[1.0246568871662552506175054299649445500671479337947 +/- 5.90e-51]"
+    },
+    "pointwise_inverse_gradient_trace_map_norm": {
+      "ball": "[1.0252802186654269426387914885155853554442574428570 +/- 4.60e-50]",
+      "lower": "[1.0252802186654269426387914885155853554442574428570 +/- 4.60e-50]",
+      "upper": "[1.0252802186654269426387914885155853554442574428570 +/- 4.60e-50]"
+    }
+  },
+  "exact_determinant": "det D(xi,phi)=sqrt(rho/xi)*F_plus*F_minus/k",
+  "exact_radial_derivative_at_fixed_phi": "2*sqrt(rho/xi)*F_plus*F_minus/(F_plus+F_minus)",
+  "exact_physical_cut_tilt": "sqrt(xi)*dchi/dphi=(F_plus-F_minus)/(F_plus+F_minus)",
+  "exact_graph_trace": "p_graph=U_xi+xi*chi_prime*U_phi; (U_on_graph)_phi=chi_prime*U_xi+U_phi",
+  "exact_grounded_flux": "p_rho dtheta=phi_theta*sqrt(alpha_c)*(p_graph-(L_xi+xi*chi_prime*L_phi)*U/2) dtheta, with dphi=phi_theta dtheta",
+  "exact_ordinary_source": "f_U=alpha_c^(-1/2)*(f_ground/Jacobian) composed with inverse chart",
+  "normalized_period_rule": "Physical theta has period pi/2; canonical phi has its actual root quarter period. Unnormalized flux integrals agree; normalized means retain the actual period factor.",
+  "all_modes_and_mean_retained": true,
+  "whole_actual_real_parameter_interval": true,
+  "both_actual_roots": "The second root uses the exact radial reflection and simultaneous conormal orientation reversal.",
+  "gates": [
+    {
+      "name": "the whole true physical strict cut lies inside the negative root characteristic collar",
+      "passed": true
+    },
+    {
+      "name": "the actual full real canonical chart is orientation preserving",
+      "passed": true
+    },
+    {
+      "name": "the canonical full rectangle contains the entire real physical cut graph",
+      "passed": true
+    },
+    {
+      "name": "the full physical cut graph is uniformly spacelike in the actual canonical principal metric",
+      "passed": true
+    }
+  ],
+  "complete_graph_Cauchy_propagation_bound_proved": false,
+  "full_Hs_physical_frame_gluing_bound_proved": false,
+  "positive_Ai_contact_proved": false,
+  "full_returned_Rstar_proved": false,
+  "scope": "A full real actual root diffeomorphism reaching the true strict cut, plus exact source and physical graph/conormal identities and a uniform spacelike tilt. It does not supply the remaining Hs graph-propagation or strong gluing norms.",
+  "dependencies": {
+    "fourfold_negative_canonical_cancellation_chart.py": "650ceef0ea91bdf5f4ef86d114fb6dc412bef3a0b4b915910135357967ec0c8d",
+    "fourfold_negative_collar_root_fourier_budget.py": "08866307bf0de20183db15387f16ec0f2f3a65d67bfec6e9229b27a65a902b9b",
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "fourfold_phase_root_fourier_fit.py": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604"
+  },
+  "seconds": 0.5480664279984921
+}

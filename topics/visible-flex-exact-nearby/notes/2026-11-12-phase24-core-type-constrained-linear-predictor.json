@@ -1,0 +1,269 @@
+{
+  "kind": "floating_sampled_linear_core_type_and_outer_target_LP",
+  "checkpoint": "fourfold_phase_m24n201_q256_checkpoint.npz",
+  "checkpoint_sha256": "63b5513befcf44ce907b047dbeb41a7e143431211d20e3cbb103a081cbef0a0e",
+  "directions_sha256": "2c6e5eb5c17578baf08f43a3d6b39e1699b5fd7dd0c17aae02047f0ba2fd158a",
+  "core_sample_shape": [
+    121,
+    128
+  ],
+  "core_interval": [
+    0.0,
+    0.3
+  ],
+  "inner_K_interval": [
+    0.0,
+    0.2
+  ],
+  "outer_target_interval": [
+    0.3,
+    0.6
+  ],
+  "source_core_N_max": -0.42713817265618803,
+  "schur_eigenvalues": [
+    1.8556509736460965e-11,
+    3.241270328211468e-06,
+    0.02344264670847046
+  ],
+  "compatibility_row": [
+    -0.053976384578935076,
+    -0.8676119643544877,
+    -0.4943035800161002
+  ],
+  "tests": [
+    {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "N_upper_target": -0.02,
+      "inner_K_upper_target": null,
+      "parameter_box": 0.1,
+      "maximize_outer": false,
+      "mean_increment": [
+        -0.04602208468903051,
+        -0.0037001183138474702,
+        0.011519990732689363
+      ],
+      "objective_value": 0.04602208468903051,
+      "predicted_outer_target_K_min": 0.050000000000000044,
+      "predicted_core_N_max": -0.01999999999999813,
+      "predicted_inner_K_max": -0.10280216582710572,
+      "compatibility_residual": 1.1102154011480224e-19
+    },
+    {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "N_upper_target": -0.02,
+      "inner_K_upper_target": null,
+      "parameter_box": 0.1,
+      "maximize_outer": true,
+      "mean_increment": [
+        -0.1,
+        -0.003564985320952015,
+        0.01717701978776493
+      ],
+      "objective_value": -0.3148202195126093,
+      "predicted_outer_target_K_min": 0.3148202195126093,
+      "predicted_core_N_max": -0.019999999999999907,
+      "predicted_inner_K_max": -0.11489890181516921,
+      "compatibility_residual": -7.143927932148341e-19
+    },
+    {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "N_upper_target": -0.1,
+      "inner_K_upper_target": null,
+      "parameter_box": 0.1,
+      "maximize_outer": false,
+      "mean_increment": [
+        -0.05217108412769919,
+        -0.0033283358613783705,
+        0.011538881663193421
+      ],
+      "objective_value": 0.05217108412769919,
+      "predicted_outer_target_K_min": 0.050000000000000044,
+      "predicted_core_N_max": -0.10000000000000042,
+      "predicted_inner_K_max": -0.13131920669289743,
+      "compatibility_residual": 4.517168652249623e-19
+    },
+    {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "N_upper_target": -0.1,
+      "inner_K_upper_target": null,
+      "parameter_box": 0.1,
+      "maximize_outer": true,
+      "mean_increment": [
+        -0.1,
+        -0.0032098599634744255,
+        0.016553696345553193
+      ],
+      "objective_value": -0.2847596314715217,
+      "predicted_outer_target_K_min": 0.28475963147152183,
+      "predicted_core_N_max": -0.09999999999999953,
+      "predicted_inner_K_max": -0.14194172992448156,
+      "compatibility_residual": -7.760544499651604e-19
+    },
+    {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "N_upper_target": -0.2,
+      "inner_K_upper_target": null,
+      "parameter_box": 0.1,
+      "maximize_outer": false,
+      "mean_increment": [
+        -0.05992578105864573,
+        -0.002859469296679818,
+        0.011562705610855754
+      ],
+      "objective_value": 0.05992578105864573,
+      "predicted_outer_target_K_min": 0.050000000000000044,
+      "predicted_core_N_max": -0.20000000000000007,
+      "predicted_inner_K_max": -0.1665557765193209,
+      "compatibility_residual": -6.468945682783746e-19
+    },
+    {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "N_upper_target": -0.2,
+      "inner_K_upper_target": null,
+      "parameter_box": 0.1,
+      "maximize_outer": true,
+      "mean_increment": [
+        -0.1,
+        -0.002760202378639014,
+        0.015764447964116753
+      ],
+      "objective_value": -0.24669709627747927,
+      "predicted_outer_target_K_min": 0.24669709627747938,
+      "predicted_core_N_max": -0.20000000000000007,
+      "predicted_inner_K_max": -0.17551096995138643,
+      "compatibility_residual": -1.0217483064290845e-18
+    },
+    {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "N_upper_target": -0.02,
+      "inner_K_upper_target": -0.02,
+      "parameter_box": 0.1,
+      "maximize_outer": false,
+      "mean_increment": [
+        -0.04602208468903051,
+        -0.0037001183138474702,
+        0.011519990732689363
+      ],
+      "objective_value": 0.04602208468903051,
+      "predicted_outer_target_K_min": 0.050000000000000044,
+      "predicted_core_N_max": -0.01999999999999813,
+      "predicted_inner_K_max": -0.10280216582710572,
+      "compatibility_residual": 1.1102154011480224e-19
+    },
+    {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "N_upper_target": -0.02,
+      "inner_K_upper_target": -0.02,
+      "parameter_box": 0.1,
+      "maximize_outer": true,
+      "mean_increment": [
+        -0.1,
+        -0.003564985320952015,
+        0.01717701978776493
+      ],
+      "objective_value": -0.3148202195126093,
+      "predicted_outer_target_K_min": 0.3148202195126093,
+      "predicted_core_N_max": -0.019999999999999907,
+      "predicted_inner_K_max": -0.11489890181516921,
+      "compatibility_residual": -7.143927932148341e-19
+    },
+    {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "N_upper_target": -0.1,
+      "inner_K_upper_target": -0.02,
+      "parameter_box": 0.1,
+      "maximize_outer": false,
+      "mean_increment": [
+        -0.05217108412769919,
+        -0.0033283358613783705,
+        0.011538881663193421
+      ],
+      "objective_value": 0.05217108412769919,
+      "predicted_outer_target_K_min": 0.050000000000000044,
+      "predicted_core_N_max": -0.10000000000000042,
+      "predicted_inner_K_max": -0.13131920669289743,
+      "compatibility_residual": 4.517168652249623e-19
+    },
+    {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "N_upper_target": -0.1,
+      "inner_K_upper_target": -0.02,
+      "parameter_box": 0.1,
+      "maximize_outer": true,
+      "mean_increment": [
+        -0.1,
+        -0.0032098599634744255,
+        0.016553696345553193
+      ],
+      "objective_value": -0.2847596314715217,
+      "predicted_outer_target_K_min": 0.28475963147152183,
+      "predicted_core_N_max": -0.09999999999999953,
+      "predicted_inner_K_max": -0.14194172992448156,
+      "compatibility_residual": -7.760544499651604e-19
+    },
+    {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "N_upper_target": -0.2,
+      "inner_K_upper_target": -0.02,
+      "parameter_box": 0.1,
+      "maximize_outer": false,
+      "mean_increment": [
+        -0.05992578105864573,
+        -0.002859469296679818,
+        0.011562705610855754
+      ],
+      "objective_value": 0.05992578105864573,
+      "predicted_outer_target_K_min": 0.050000000000000044,
+      "predicted_core_N_max": -0.20000000000000007,
+      "predicted_inner_K_max": -0.1665557765193209,
+      "compatibility_residual": -6.468945682783746e-19
+    },
+    {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "N_upper_target": -0.2,
+      "inner_K_upper_target": -0.02,
+      "parameter_box": 0.1,
+      "maximize_outer": true,
+      "mean_increment": [
+        -0.1,
+        -0.002760202378639014,
+        0.015764447964116753
+      ],
+      "objective_value": -0.24669709627747927,
+      "predicted_outer_target_K_min": 0.24669709627747938,
+      "predicted_core_N_max": -0.20000000000000007,
+      "predicted_inner_K_max": -0.17551096995138643,
+      "compatibility_residual": -1.0217483064290845e-18
+    }
+  ],
+  "limitations": [
+    "ordinary floating LP; no interval or exact Farkas certificate",
+    "finite sampled inequalities and Schur directions",
+    "compatibility row removes only the largest finite Gram eigendirection",
+    "linear feasibility does not imply actual nonlinear geometry or PDE feasibility"
+  ]
+}

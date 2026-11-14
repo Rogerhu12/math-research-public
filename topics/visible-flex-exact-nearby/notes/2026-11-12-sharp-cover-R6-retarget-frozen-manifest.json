@@ -1,0 +1,83 @@
+{
+  "kind": "completed_sharp_domain_pilots_R6_and_exact_retarget_budget",
+  "complete": true,
+  "archive_required": [
+    {
+      "path": "scripts/fourfold_phase_sharp_time_domain_cover.py",
+      "sha256": "582d97cf2a14b7d45050770527acf97a3bde1cfda565df4f29dc309633950ba3",
+      "bytes": 21560
+    },
+    {
+      "path": "scripts/fourfold_retarget_initial_correction_budget.py",
+      "sha256": "6667795b20f197416a46f29dad6f5ee9da3d796a527bd73df54c47667b7d74ad",
+      "bytes": 3101
+    },
+    {
+      "path": "notes/2026-11-12-sharp-cover-R6-and-retarget-budget.md",
+      "sha256": "4347e45086cb47483580ec7f75d57ed494434d6b7e08fdcc808a9adefd53a878",
+      "bytes": 5356
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_initial_retarget_Wiener_budget.json",
+      "sha256": "5a1e2cadbb042170ec3e19ccbee3601e22de2b875cb18c1694f0c68811fc4cc8",
+      "bytes": 5412
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_pilot/forward_0286_r.json.gz",
+      "sha256": "df1dee8c548ed2d9befe11cfb6edf90e4c927dfaa79cbf8eaaae2abe1526c218",
+      "bytes": 28555
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_pilot/forward_0287_r.json.gz",
+      "sha256": "8bce63af30ae19f3289f6d62288c73d6dd9107e030cca1ba4ec37fee7c070b1c",
+      "bytes": 28553
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_pilot/forward_0547_r.json.gz",
+      "sha256": "e0490403fd1f45fbf29580392f6b85f91b3288595e215e7ee7c6a6fb49ddf575",
+      "bytes": 15090
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_pilot/forward_0547_r0.json.gz",
+      "sha256": "ec73d8dcf2900759bd9037c4d7a7bbdd06b2dc3562b7e62f5659df19c9f7dc58",
+      "bytes": 15358
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_pilot/forward_0547_r1.json.gz",
+      "sha256": "736b607ee9b203d043b6094ac7d1da911cb899eac8cfa17615e1b45a1c3e4a16",
+      "bytes": 3854
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_R6_pilot/forward_0419_r.json.gz",
+      "sha256": "f228325b4c60e9d999076c9405d8a835d0916e3692d27e90f3d6edae007608c6",
+      "bytes": 13228
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_R6_order40/forward_0419_r.json.gz",
+      "sha256": "c255d96333fae4f006d0bc53bf4c81ad197ad2a00831f1c03965032b039a69da",
+      "bytes": 15666
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_pilot.json.gz",
+      "sha256": "ecc45b12f6be48d5e4e6902645cedbbabf98a9ed1923c82349bf904365c8f9e0",
+      "bytes": 3278
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_R6_pilot.json.gz",
+      "sha256": "53b1b051ca8433424ad4f5b27732e2e208160bc5967d8f739549bb18044c41f8",
+      "bytes": 3049
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_R6_order40.json.gz",
+      "sha256": "859704ee5a4ad775c9cb2c680ce94a1afce26ec5cc4b1f2c0f7f6ddddee2a945",
+      "bytes": 3007
+    }
+  ],
+  "total_bytes": 165067,
+  "scope": "Three explicit R3 segment pilots, one exact R6 segment, and finite initial a budget; not full-branch coverage",
+  "live_excluded": [
+    "data/phase_ring_continuation/step5_sharp_time_domain_full",
+    "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_full.json.gz",
+    "future actual angle anchor sources and outputs"
+  ]
+}

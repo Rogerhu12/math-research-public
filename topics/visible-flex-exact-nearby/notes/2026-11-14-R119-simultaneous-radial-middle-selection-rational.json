@@ -1,0 +1,260 @@
+{
+  "kind": "simultaneous_radial_middle_Wronskian_selection_with_exact_phase_preservation",
+  "complete": true,
+  "executed": true,
+  "arithmetic": "normalized exact BigInt rational",
+  "gate_count": 30,
+  "gates": [
+    {
+      "name": "full_Hessian_paid_by_A_squared",
+      "left": "1048576/1",
+      "right": "1513470582304237072513410067329391955423482356622077508836389416646889306993564534635830817676552455824162236150182627025523267446014684388515185452610872385131925014977944482910893194864870039450549067298170721939711827195277899152348801107671644590882157659897905715342306574668169658354699728703352747795407934837779271083755217530954282733292552820320384388452736605849854097009866199175847289532126439677946323677218741195176031143605520246681993939075046911841617410627221987267713724332646446061053160572807286503464245558500643221584631072641658731573097806459864337910226647829569494284055229751599736619753728848188090692318773574702174698843299086831373062575703757942149263399264787530048897154373819381136097105118607145954825590031647682047062652157439770794084025717418220995063370720546665168546633747096935011148065108431975289654040627344874607009807315363771104716985869481861040739858883444667635709902593581610755376089941291884120821811227210157156298148402819214731929270895508821230096451968194267364284229325768503489509991935215231081649023894346868133110803328310541268950321043061542938876190012860779210104580276403692887034246086754314279566458942937081999323928294877166406222310453677892068557340540597459094762172544492440478876793960002924059634516299394201455941482615164498572903667144188855598846763146090065079005267746644237582086328585101060359200085939560982221139190410290320736471223679431103604473374855519720454278533708018865824147794661166033633485429613879963993123931400014731049432239676739743030689374442267266097857265402044759137688500162237085777842605048998997700656346545264515630042484382164065996643359816205614528690639187167278480340820347644352745397902032133004265874403392556745361780498817583655041048101434716704942594567023160800649072869376/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "near_resonance_line_has_nonzero_projection",
+      "left": "1/16",
+      "right": "1/2",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "projected_line_derivative_fee",
+      "left": "1/8",
+      "right": "1/8",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "full_box_Hessian_fee",
+      "left": "1/64",
+      "right": "1/4",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "true_derivative_over_full_box",
+      "left": "1/2",
+      "right": "55/64",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "inactive_Wronskian_change",
+      "left": "1/4",
+      "right": "1/4",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "inactive_lower_gap_dominates_selected_gap",
+      "left": "1/64",
+      "right": "3/4",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "finite_box_bad_set_union",
+      "left": "1/8",
+      "right": "1/8",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "good_parameter_volume_is_positive",
+      "left": "1/8",
+      "right": "1/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "future_radius_geometric_ratio",
+      "left": "1/256",
+      "right": "1/2",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "future_radius_sum",
+      "left": "256/255",
+      "right": "2/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "future_gap_relative_fee",
+      "left": "1/8",
+      "right": "1/8",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "retained_gap_above_half",
+      "left": "1/2",
+      "right": "7/8",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "whole_control_sum_inside_ball",
+      "left": "1/36893488147419103232",
+      "right": "1/18446744073709551616",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "radius_recurrence_binary_cost",
+      "left": "256/1",
+      "right": "256/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "first_actual_dyadic_band_index",
+      "left": "984/1",
+      "right": "984/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "all_actual_band_counts",
+      "left": "65538/1",
+      "right": "4099000/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "uniform_log_K_cost",
+      "left": "6000/1",
+      "right": "8198/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "uniform_log_B_constant",
+      "left": "96/1",
+      "right": "128/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "uniform_log_B_layer_cost",
+      "left": "7/1",
+      "right": "12297/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "uniform_log_U_cost",
+      "left": "65537/1",
+      "right": "4099000/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "uniform_log_A_cost",
+      "left": "2/1",
+      "right": "7984852/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "radius_log_polynomial_fee",
+      "left": "8396866/1",
+      "right": "16777216/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "selected_gap_log_polynomial_fee",
+      "left": "16779268/1",
+      "right": "33554432/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "final_gap_log_polynomial_fee",
+      "left": "33554433/1",
+      "right": "67108864/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "band_endpoint_to_actual_mode_factor",
+      "left": "6/1",
+      "right": "6/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "layer_fee_to_original_width_binary_cost",
+      "left": "63/1",
+      "right": "63/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "layer_fee_delta_exponent",
+      "left": "15/128",
+      "right": "15/128",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "entire_layer_fee_less_than_2pow_minus803",
+      "left": "110848/1",
+      "right": "122895/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "combined_width_fee",
+      "left": "7/53344115463038834192638814325770062377158066578527265283170062494112297902541056572171457606972434325943439284747465923567110413232954920642906848418646640368761260636112116467704626287294512197831720129087092815853525984299811690329311019008",
+      "right": "1/6668014432879854274079851790721257797144758322315908160396257811764037237817632071521432200871554290742929910593433240445888801654119365080363356052330830046095157579514014558463078285911814024728965016135886601981690748037476461291163877376",
+      "relation": "lt",
+      "pass": true
+    }
+  ],
+  "inputs": {
+    "unused_interval_proof_blob": "27e75c019c0e4441c3237a36bb3c9f485fd2cdbf",
+    "phase_compensation_proof_blob": "dd0d1378fce997297795ce14312fe91b181af4b1",
+    "controlled_joint_high_proof_blob": "fc3aab62e99a51cc06bd26a7233663a2b8e4dd73"
+  },
+  "frequency_bands": {
+    "k0": "floor((j+3)/8)-40",
+    "U_n": "2^(k0+n+1)",
+    "range": "2^-40*delta^-1/8 <= M <= 2^65536*(j+5)^204*delta^-320",
+    "one_interval_per_band": true
+  },
+  "constants": {
+    "epsilon": "2^-803",
+    "D_n": "exp(-epsilon*U_n*h_j)",
+    "A_n": "2*Kj^2*(U_n+B)",
+    "H_n_upper": "A_n^2",
+    "near_resonance_threshold": "D_n/(16*A_n^2)"
+  },
+  "radii": {
+    "rho_0": "min(2^-66,D_0/(64*A_0^3))",
+    "rho_n": "min(D_n/(64*A_n^3),g_(n-1)/(16*A_(n-1)))",
+    "g_n": "D_n*rho_n/(16*U_n^2)",
+    "box_coordinate_half_length": "rho_n/(number of active modes)",
+    "bad_volume_fraction_at_most": "1/8"
+  },
+  "result": {
+    "whole_C4_control_norm_less_than": "2^-65",
+    "exact_two_phase_preservation": true,
+    "current_profile_used_at_each_band": true,
+    "all_prescribed_middle_Wronskians_lower": "exp(-2^-800*M*h_j)",
+    "previous_gaps_retained_fraction_more_than": "7/8"
+  },
+  "numerical_parameter_arrays_computed": false,
+  "constructive_finite_selection_existence_proved": true,
+  "full_coupled_radial_network_inverse": false,
+  "nonradial_middle_matrix_inverse": false,
+  "physical_positive_DN_cross_sources_retained": true,
+  "original_zeta_h_and_source_weights_unchanged": true,
+  "producer_sha256": "31f9729bbf96462aafd1809201cc132c5b22f8a2b623ec78f326e99a77e4e3e7",
+  "execution_engine": "functions.exec V8",
+  "executed_at_UTC": "2026-11-14 02:00:12 UTC"
+}

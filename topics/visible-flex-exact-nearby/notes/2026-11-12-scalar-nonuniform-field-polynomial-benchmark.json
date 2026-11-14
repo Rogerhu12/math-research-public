@@ -1,0 +1,207 @@
+{
+  "kind": "actual_saved_field_finite_polynomial_scalar_nonuniform_evaluation",
+  "complete": true,
+  "source_sha256": "42650b649b0661fa18640ea35d2e60ee40f87694341bf577c3e0b8cc55bd5a22",
+  "polynomial_manifest_sha256": "4b33966313c4fdde253ffca05d21a49692186d8263f9f7f069804632b22b6613",
+  "actual_field_identity": {
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "root_certificate_sha256": "489268d254c2a9454ccbee32a4821d9bf577279490f76c9cc6f8d902a5e64e0b",
+    "domain_certificate_sha256": "e1a2c3f327c3a36e33c412e76c70eebd185f224ea938dcdea93ee30ab9a05f90",
+    "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+    "exact_time_endpoints": [
+      "4466727694628647/9007199254740992",
+      "282639970307159/562949953421312"
+    ],
+    "tau_center": "8988967219543191/18014398509481984",
+    "time_halfwidth": "55511830285897/18014398509481984",
+    "common_span": [
+      "8173936700574847/72057594037927936",
+      "8286623314361713/72057594037927936"
+    ],
+    "germ_index": 2,
+    "branch_sign": -1
+  },
+  "H_sha256": "0439d88f10f46d367e44a984db661ac3806a7bd052f46eca14e71594fa8eb2c2",
+  "nodes": 1024,
+  "input_map": "actual saved delta5 H(x)/4 at a uniform finite initial-label grid",
+  "label_imaginary": "1/512",
+  "time_real": "1/2",
+  "time_imaginary": "1/8",
+  "bits": 320,
+  "preparation": {
+    "wall_seconds": 8.427913388999968,
+    "cpu_seconds": 1.5009786689999998
+  },
+  "runs": [
+    {
+      "algorithm": "iter",
+      "retained_degree": 1024,
+      "guard_bits": 128,
+      "wall_seconds": 4.800326132999999,
+      "cpu_seconds": 0.8845428580000001,
+      "physical_theta_strip": {
+        "ball": "[0.00086675992289134930716614296464488511 +/- 3.00e-40]",
+        "lower": "[0.00086675992289134930716614296464488511 +/- 3.00e-40]",
+        "upper": "[0.00086675992289134930716614296464488511 +/- 3.00e-40]",
+        "mid_float": 0.0008667599228913493,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_error": {
+        "ball": "[9.2264105975338440363337955535230941e-96 +/- 4.89e-131]",
+        "lower": "[9.2264105975338440363337955535230941e-96 +/- 4.89e-131]",
+        "upper": "[9.2264105975338440363337955535230941e-96 +/- 4.89e-131]",
+        "mid_float": 9.226410597533844e-96,
+        "radius_upper_float": 0.0
+      },
+      "coefficient_input_fee": {
+        "ball": "[5.9586399997669293658585138591125608e-97 +/- 4.13e-133]",
+        "lower": "[5.9586399997669293658585138591125608e-97 +/- 4.13e-133]",
+        "upper": "[5.9586399997669293658585138591125608e-97 +/- 4.13e-133]",
+        "mid_float": 5.958639999766929e-97,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_fee": {
+        "ball": "[1.6800266748636062694963229448301455e-94 +/- 3.05e-129]",
+        "lower": "[1.6800266748636062694963229448301455e-94 +/- 3.05e-129]",
+        "upper": "[1.6800266748636062694963229448301455e-94 +/- 3.05e-129]",
+        "mid_float": 1.6800266748636062e-94,
+        "radius_upper_float": 0.0
+      },
+      "discarded_finite_modes_fee": {
+        "ball": "[2.3023391950834761702732478988435039e-43 +/- 1.54e-78]",
+        "lower": "[2.3023391950834761702732478988435039e-43 +/- 1.54e-78]",
+        "upper": "[2.3023391950834761702732478988435039e-43 +/- 1.54e-78]",
+        "mid_float": 2.3023391950834762e-43,
+        "radius_upper_float": 0.0
+      },
+      "total_input_fee": {
+        "ball": "[2.3023391950834761702732478988435039e-43 +/- 1.54e-78]",
+        "lower": "[2.3023391950834761702732478988435039e-43 +/- 1.54e-78]",
+        "upper": "[2.3023391950834761702732478988435039e-43 +/- 1.54e-78]",
+        "mid_float": 2.3023391950834762e-43,
+        "radius_upper_float": 0.0
+      },
+      "maximum_arithmetic_radius": {
+        "ball": "[4.3798910662471820573663187547946222e-24 +/- 2.64e-59]",
+        "lower": "[4.3798910662471820573663187547946222e-24 +/- 2.64e-59]",
+        "upper": "[4.3798910662471820573663187547946222e-24 +/- 2.64e-59]",
+        "mid_float": 4.379891066247182e-24,
+        "radius_upper_float": 0.0
+      },
+      "complete_finite_evaluation_error": {
+        "ball": "[4.3798910662471820575965526743029698e-24 +/- 4.34e-59]",
+        "lower": "[4.3798910662471820575965526743029698e-24 +/- 4.34e-59]",
+        "upper": "[4.3798910662471820575965526743029698e-24 +/- 4.34e-59]",
+        "mid_float": 4.379891066247182e-24,
+        "radius_upper_float": 0.0
+      },
+      "independent_direct_checks": [
+        {
+          "node": 0,
+          "full_finite_Laurent_sum_overlaps": true
+        },
+        {
+          "node": 146,
+          "full_finite_Laurent_sum_overlaps": true
+        },
+        {
+          "node": 341,
+          "full_finite_Laurent_sum_overlaps": true
+        },
+        {
+          "node": 1023,
+          "full_finite_Laurent_sum_overlaps": true
+        }
+      ],
+      "error_below_1e_minus_28": false
+    },
+    {
+      "algorithm": "fast",
+      "retained_degree": 1024,
+      "guard_bits": 1536,
+      "wall_seconds": 10.125057424000033,
+      "cpu_seconds": 1.7335342210000002,
+      "physical_theta_strip": {
+        "ball": "[0.00086675992289134930716614296464488511 +/- 3.00e-40]",
+        "lower": "[0.00086675992289134930716614296464488511 +/- 3.00e-40]",
+        "upper": "[0.00086675992289134930716614296464488511 +/- 3.00e-40]",
+        "mid_float": 0.0008667599228913493,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_error": {
+        "ball": "[9.2264105975338440363337955535230941e-96 +/- 4.89e-131]",
+        "lower": "[9.2264105975338440363337955535230941e-96 +/- 4.89e-131]",
+        "upper": "[9.2264105975338440363337955535230941e-96 +/- 4.89e-131]",
+        "mid_float": 9.226410597533844e-96,
+        "radius_upper_float": 0.0
+      },
+      "coefficient_input_fee": {
+        "ball": "[5.9586399997669293658585138591125608e-97 +/- 4.13e-133]",
+        "lower": "[5.9586399997669293658585138591125608e-97 +/- 4.13e-133]",
+        "upper": "[5.9586399997669293658585138591125608e-97 +/- 4.13e-133]",
+        "mid_float": 5.958639999766929e-97,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_fee": {
+        "ball": "[1.6800266748636062694963229448301455e-94 +/- 3.05e-129]",
+        "lower": "[1.6800266748636062694963229448301455e-94 +/- 3.05e-129]",
+        "upper": "[1.6800266748636062694963229448301455e-94 +/- 3.05e-129]",
+        "mid_float": 1.6800266748636062e-94,
+        "radius_upper_float": 0.0
+      },
+      "discarded_finite_modes_fee": {
+        "ball": "[2.3023391950834761702732478988435039e-43 +/- 1.54e-78]",
+        "lower": "[2.3023391950834761702732478988435039e-43 +/- 1.54e-78]",
+        "upper": "[2.3023391950834761702732478988435039e-43 +/- 1.54e-78]",
+        "mid_float": 2.3023391950834762e-43,
+        "radius_upper_float": 0.0
+      },
+      "total_input_fee": {
+        "ball": "[2.3023391950834761702732478988435039e-43 +/- 1.54e-78]",
+        "lower": "[2.3023391950834761702732478988435039e-43 +/- 1.54e-78]",
+        "upper": "[2.3023391950834761702732478988435039e-43 +/- 1.54e-78]",
+        "mid_float": 2.3023391950834762e-43,
+        "radius_upper_float": 0.0
+      },
+      "maximum_arithmetic_radius": {
+        "ball": "[9.6572438742811790020646356525514897e+416 +/- 4.82e+381]",
+        "lower": "[9.6572438742811790020646356525514897e+416 +/- 4.82e+381]",
+        "upper": "[9.6572438742811790020646356525514897e+416 +/- 4.82e+381]",
+        "mid_float": Infinity,
+        "radius_upper_float": 0.0
+      },
+      "complete_finite_evaluation_error": {
+        "ball": "[9.6572438742811790020646356525514897e+416 +/- 4.82e+381]",
+        "lower": "[9.6572438742811790020646356525514897e+416 +/- 4.82e+381]",
+        "upper": "[9.6572438742811790020646356525514897e+416 +/- 4.82e+381]",
+        "mid_float": Infinity,
+        "radius_upper_float": 0.0
+      },
+      "independent_direct_checks": [
+        {
+          "node": 0,
+          "full_finite_Laurent_sum_overlaps": true
+        },
+        {
+          "node": 146,
+          "full_finite_Laurent_sum_overlaps": true
+        },
+        {
+          "node": 341,
+          "full_finite_Laurent_sum_overlaps": true
+        },
+        {
+          "node": 1023,
+          "full_finite_Laurent_sum_overlaps": true
+        }
+      ],
+      "error_below_1e_minus_28": false
+    }
+  ],
+  "limitations": [
+    "This is a finite P evaluation benchmark at H/4, not the segment419 trajectory Y.",
+    "The full finite Fourier sum is enclosed, including all discarded finite modes.",
+    "The actual f-P analytic error must be added on its separately proved domain.",
+    "No initial-label continuum, reference residual, or complete flow is claimed."
+  ]
+}

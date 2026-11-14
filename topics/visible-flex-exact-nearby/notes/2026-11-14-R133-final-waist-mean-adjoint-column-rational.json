@@ -1,0 +1,81 @@
+{
+  "kind": "actual_final_waist_complete_mean_column_for_adjoint_lift",
+  "complete": true,
+  "executed": true,
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "whole_original_eta": true,
+  "whole_unknown_Wiener_ball": {
+    "norm": "sum over all physical moving frequencies 4j of absolute complex Fourier coefficients of v-v_center; real even symmetry, full mean retained",
+    "radius": "1/1000000",
+    "unknown_infinite_tail_retained": true
+  },
+  "arithmetic": "exact BigInt rational intervals; no quadrature or floating Bessel",
+  "inputs": {
+    "waist_report": "notes/2026-11-13-R133-final-waist-amplitude-chart-rational.json",
+    "waist_proof_blob": "511c9ca83972003796c4c4fa456236f32095e3e3",
+    "retained_higher_phase_indices": "2..8",
+    "all_rest_paid": true
+  },
+  "derivative_definition": "D A(v)[1], actual physical cosine-four amplitude; complete mean direction",
+  "derivative_interval_outward_decimal": [
+    "-1.276033052468980174799328",
+    "-1.276014207147490866328027"
+  ],
+  "proved_coarse_interval": [
+    "-13/10",
+    "-127/100"
+  ],
+  "phase_external_full_bound": "0.000000468308419978908296",
+  "higher_phase_exponential_remainder": "0.000000000000057700436051487386888430010450774956174608622596",
+  "mean_integrand_total_error": "0.000001365453655644017269",
+  "Bessel_maximum_order": 41,
+  "Bessel_terms_per_series": 16,
+  "complete_Bessel_tail_upper": "0.0000000000000000000000000000000000000265513469149260431131762284936484",
+  "gate_count": 8,
+  "gates": [
+    {
+      "name": "retained complete mean gap",
+      "passed": true,
+      "margin_lower": "0.068731819999993868000000"
+    },
+    {
+      "name": "full primary phase below one",
+      "passed": true,
+      "margin_lower": "0.089433460050344967000000"
+    },
+    {
+      "name": "all remaining known and unknown phase paid",
+      "passed": true,
+      "margin_lower": "0.000000531691580021091704"
+    },
+    {
+      "name": "actual full mean column strictly negative",
+      "passed": true,
+      "margin_lower": "1.276014207147490866328027"
+    },
+    {
+      "name": "mean-column lower coarse bound",
+      "passed": true,
+      "margin_lower": "0.023966947531019825200672"
+    },
+    {
+      "name": "mean-column upper coarse bound",
+      "passed": true,
+      "margin_lower": "0.006014207147490866328027"
+    },
+    {
+      "name": "finite higher-phase exponential full remainder",
+      "passed": true,
+      "margin_lower": "0.000000000000942299563948"
+    },
+    {
+      "name": "whole-ball final mean-column interval width",
+      "passed": true,
+      "margin_lower": "0.000081154678510691528699"
+    }
+  ],
+  "actual_nu_Schur_nonzero_proved": false,
+  "complete_BVP_inverse_proved": false,
+  "original_waist_report_sha256": "8066f501acc87d42e7d58f30377680aaa317be500471fa71bcceef336fc9357b",
+  "producer_sha256": "e1e16cfa270811353c7dccdc58cfe959561a1301a81bd6aebec18861bfaa8221"
+}

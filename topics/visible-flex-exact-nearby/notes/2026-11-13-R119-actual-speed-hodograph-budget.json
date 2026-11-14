@@ -1,0 +1,196 @@
+{
+  "schema": "visible-exact-R119-actual-speed-hodograph-v1",
+  "scope": "A genuine full-label spatial hodograph for the actual tail, with retained common drift and quadratic scalar phase budgets; no full return/KAM inverse is inferred.",
+  "inputs": {
+    "label_weight": 224,
+    "actual_coefficient_angle_width": 2,
+    "scalar_optical_phase_upper_power_of_2": -874,
+    "full_drift_integral_upper_power_of_2": -429,
+    "file_sha256": {
+      "results/R11-matched-mode-four-physical-tail-connector.md": "8c4e30ef3cac88ff3e7c858c77537bf03d102760b2324e1e1d21780cf59923ca",
+      "results/R119-actual-final-connector-all-label-continuation.md": "8b4f7d46321709e9151abb930748d1d28545a5b41b1329813cd7301747c8a083",
+      "results/R119-supplement-actual-tail-angle-density-conjugation.md": "cdcdef642bb59ae829c266dabfc479157f4a25741e1d77c41f0b103056f2b049",
+      "results/R119-supplement-balanced-connector-label-domain-224.md": "aff48a37b08cb41e6eb1ddd8c014687242f744e6cb9e638201c0781df46222d1",
+      "results/R119-supplement-unscalarized-tail-frame-and-summable-remainder.md": "c506990aa604918061c5189cfb40c9c3f5042d4a1453f6b134fa3983aefa3f7e",
+      "results/R119-supplement-actual-speed-hodograph-and-quadratic-scalar-phase.md": "9fed57edb94a4b837389567de5c489098fd31fa272940030227baa2998f2e9cf",
+      "scripts/fourfold_actual_speed_hodograph_20261113.py": "d89900f86cb4ff3b3fd9ee48ec8cc26d496ce7ce0e058e7463c9ab0d7dfd01a7"
+    }
+  },
+  "checks": [
+    {
+      "name": "exact_scalar_principal_speed",
+      "pass": true,
+      "evidence": "The hodograph changes v B0 to the actual scalar c(t) B0"
+    },
+    {
+      "name": "exact_nonconstant_drift_derivative",
+      "pass": true,
+      "evidence": "b_xi=H-Hbar is retained; it is not deleted as a lower-order term"
+    },
+    {
+      "name": "correct_circle_jacobian_once",
+      "pass": true,
+      "evidence": "<1/nu>_eta=<1/v>_theta, since dtheta=j deta"
+    },
+    {
+      "name": "actual_R25_nonmean_domain",
+      "pass": true,
+      "evidence": "The five-term R25 norm is at most twice the full four-state norm"
+    },
+    {
+      "name": "full_mean_quadratic_fee",
+      "pass": true,
+      "evidence": "K0<=48 n^2 uses the same complete holonomy-one root"
+    },
+    {
+      "name": "true_D_square_root_series_domain",
+      "pass": true,
+      "evidence": "T0=2K+K^2+E P^2 has norm below 3n"
+    },
+    {
+      "name": "true_D_square_root_quadratic_fee",
+      "pass": true,
+      "evidence": "Retains the quadratic part of T0 and the full analytic square-root remainder"
+    },
+    {
+      "name": "full_inverse_speed_quadratic_fee",
+      "pass": true,
+      "evidence": "J D^(-1/2)=1+E(K+U)+R_I"
+    },
+    {
+      "name": "scalar_mean_inverse_speed_fee",
+      "pass": true,
+      "evidence": "Mean U=0; K0 is quadratic, not discarded"
+    },
+    {
+      "name": "scalar_inverse_exists",
+      "pass": true,
+      "evidence": "c=<1/v>^-1 is an actual analytic scalar on the same label ball"
+    },
+    {
+      "name": "scalar_speed_quadratic_fee",
+      "pass": true,
+      "evidence": "|c-1|<256 n^2"
+    },
+    {
+      "name": "full_speed_inverse_series_fee",
+      "pass": true,
+      "evidence": "v=1-E(K+U)+R_v, with full nonlinear remainder"
+    },
+    {
+      "name": "full_speed_difference_quadratic_fee",
+      "pass": true,
+      "evidence": "The entire difference 1/v-v is retained through second order"
+    },
+    {
+      "name": "scalar_log_speed_time_fee",
+      "pass": true,
+      "evidence": "Hbar=<H/v>/<1/v> has a quadratic bound, with no A_t"
+    },
+    {
+      "name": "actual_hodograph_derivative_bound",
+      "pass": true,
+      "evidence": "||c/v-1||<7n"
+    },
+    {
+      "name": "actual_hodograph_size_bound",
+      "pass": true,
+      "evidence": "The full nonzero 4Z angular inverse has norm at most 1/4"
+    },
+    {
+      "name": "actual_hodograph_inverse_contraction",
+      "pass": true,
+      "evidence": "The true inverse is obtained by a convergent composition equation"
+    },
+    {
+      "name": "actual_inverse_jacobian_fee",
+      "pass": true,
+      "evidence": "j_chi=(v/c) o Theta, with both factors paid"
+    },
+    {
+      "name": "actual_drift_mean_constant_fee",
+      "pass": true,
+      "evidence": "<V-P>=0 makes the retained constant <cd/v> quadratic"
+    },
+    {
+      "name": "actual_nonconstant_H_fee",
+      "pass": true,
+      "evidence": "The nonconstant H-Hbar remains a first-order perturbation"
+    },
+    {
+      "name": "actual_drift_primitive_fee",
+      "pass": true,
+      "evidence": "The full angular primitive is bounded without removing high modes"
+    },
+    {
+      "name": "actual_full_drift_fee",
+      "pass": true,
+      "evidence": "The physical-angle mean term is included"
+    },
+    {
+      "name": "actual_new_angle_mean_fee",
+      "pass": true,
+      "evidence": "The xi mean uses the true Jacobian c/v"
+    },
+    {
+      "name": "complete_scalar_speed_budget",
+      "pass": true,
+      "evidence": "Uniform c-1 is quadratic in the actual weighted state"
+    },
+    {
+      "name": "complete_log_speed_variation_budget",
+      "pass": true,
+      "evidence": "Uses the complete actual tail plus connector plus two-bump integral"
+    },
+    {
+      "name": "complete_optical_scalar_phase_budget",
+      "pass": true,
+      "evidence": "sqrt(|A|)<=1+|A| includes every real type crossing"
+    },
+    {
+      "name": "complete_mean_drift_budget",
+      "pass": true,
+      "evidence": "This mean is quadratic, although the complete drift is only first order"
+    },
+    {
+      "name": "complete_nonconstant_drift_budget",
+      "pass": true,
+      "evidence": "Both b and b_xi are retained in the true principal system"
+    },
+    {
+      "name": "exact_complete_holonomy_second_order",
+      "pass": true,
+      "evidence": "Averaging this density determines <K2>; nonmean second-order terms have mean zero"
+    },
+    {
+      "name": "exact_complete_scalar_speed_quadratic_form",
+      "pass": true,
+      "evidence": "The scalar mean inversion uses the vanishing averaged first-order term"
+    },
+    {
+      "name": "true_infinite_tail_fourth_mode_phase_coefficient",
+      "pass": true,
+      "evidence": "R11 proves the same actual full-tail slope d_* lies in (14,15)"
+    },
+    {
+      "name": "true_fourth_mode_phase_is_not_constant",
+      "pass": true,
+      "evidence": "The genuine cut128 scalar speed has strictly negative second-order coefficient"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "actual_hodograph_and_inverse": true,
+    "complete_common_principal_drift_retained": true,
+    "full_mean_causes_quadratic_scalar_speed": true,
+    "all_infinite_cells_and_fixed_finite_segments": true,
+    "same_metric_and_same_selected_bumps": true,
+    "physical_source_and_density_mean_rules_retained": true,
+    "holonomy_alone_forces_phase_invariance": false,
+    "true_fourth_label_changes_cut128_scalar_speed": true,
+    "full_return_rotation_number_computed": false,
+    "complete_ray_return_conjugacy": false,
+    "updated_all_high_input_inverse": false,
+    "closed_surface_main_goal": false
+  }
+}

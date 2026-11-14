@@ -1,0 +1,154 @@
+{
+  "schema": "visible-exact-R119-full-installed-connector-weight-v1",
+  "scope": "Paid all-mode label-weight continuation through the whole installed connector; the regular-port nonlinear inverse remains open.",
+  "inputs": {
+    "label_exponential_weight": 8192,
+    "T": 16777216,
+    "source_absolute_tau": "5177/400",
+    "weighted_initial_relative_tau": "1643577/400",
+    "raw_output_tau": "824377/400",
+    "grounded_output_tau": "823977/400",
+    "file_sha256": {
+      "results/R119-actual-final-connector-all-label-continuation.md": "8b4f7d46321709e9151abb930748d1d28545a5b41b1329813cd7301747c8a083",
+      "results/R119-supplement-full-installed-connector-with-paid-label-weight.md": "6929ed13861b8b7560066f686e72c2a4e8ea4d232d201385e2f3fb941c0982ab",
+      "results/R74-actual-full-tail-robin-and-augmented-positive-cap.md": "174bc93631b5ade0faf51160d7026e42d674916fd94e12cdb2315479458c18d8",
+      "scripts/fourfold_full_connector_weight_20261113.py": "2315c19e1a6f9fe4098f4408cdb56e58f46171f8846f648dfd7bd71ecc3fa81a"
+    }
+  },
+  "checks": [
+    {
+      "name": "actual_complete_connector_length",
+      "pass": true
+    },
+    {
+      "name": "log_two_bound",
+      "pass": true
+    },
+    {
+      "name": "paid_label_weight",
+      "pass": true
+    },
+    {
+      "name": "nonzero_frequency_decay_exponent",
+      "pass": true
+    },
+    {
+      "name": "all_mean_restored_after_restriction",
+      "pass": true
+    },
+    {
+      "name": "initial_relative_exponent",
+      "pass": true
+    },
+    {
+      "name": "whole_connector_reaction_exponent",
+      "pass": true
+    },
+    {
+      "name": "whole_connector_relative_exponent",
+      "pass": true
+    },
+    {
+      "name": "actual_relative_slope_scale",
+      "pass": true
+    },
+    {
+      "name": "complete_relative_ball_exponent",
+      "pass": true
+    },
+    {
+      "name": "complete_relative_ball_closes",
+      "pass": true
+    },
+    {
+      "name": "exact_initial_width",
+      "pass": true
+    },
+    {
+      "name": "actual_output_energy_width",
+      "pass": true
+    },
+    {
+      "name": "raw_angular_margin",
+      "pass": true
+    },
+    {
+      "name": "grounded_angular_margin",
+      "pass": true
+    },
+    {
+      "name": "no_free_strip_increase",
+      "pass": true
+    },
+    {
+      "name": "downstream_physical_window",
+      "pass": true
+    },
+    {
+      "name": "reference_radius_exponent",
+      "pass": true
+    },
+    {
+      "name": "slope_ratio_exponent",
+      "pass": true
+    },
+    {
+      "name": "height_integrand_exponent",
+      "pass": true
+    },
+    {
+      "name": "height_integral_exponent",
+      "pass": true
+    },
+    {
+      "name": "height_derivative_exponent",
+      "pass": true
+    },
+    {
+      "name": "raw_output_fourth_derivative_margin",
+      "pass": true
+    },
+    {
+      "name": "raw_output_second_derivative_margin",
+      "pass": true
+    },
+    {
+      "name": "complete_raw_trace_label_constant",
+      "pass": true
+    },
+    {
+      "name": "physical_vertical_hessian",
+      "pass": true
+    },
+    {
+      "name": "physical_horizontal_curvature_factor",
+      "pass": true
+    },
+    {
+      "name": "complete_physical_C2_exponent",
+      "pass": true
+    },
+    {
+      "name": "R74_label_weight_is_paid",
+      "pass": true
+    },
+    {
+      "name": "R74_complete_label_decay_gap",
+      "pass": true
+    },
+    {
+      "name": "R74_label_ball_for_unit_source",
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "same_actual_complete_connector": true,
+    "stronger_label_domain_is_explicit": true,
+    "all_modes_and_mean_retained": true,
+    "R74_linear_label_inputs_pay_extra_weight": true,
+    "two_bumps_and_long_radial_segment_included": false,
+    "regular_port_nonlinear_high_inverse": false,
+    "global_exact_visible_family": false
+  }
+}

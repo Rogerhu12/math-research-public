@@ -1,0 +1,34 @@
+{
+  "kind": "independent_small_batch_native_and_mixed_piece_consumer_source_diff_review",
+  "passed": true,
+  "files": [
+    {
+      "path": "scripts/fourfold_codazzi_positive_weight_cubic_native.py",
+      "sha256": "d467ee2b62c32365c98526fd06a1c0752f4538483a630a62124ace472c75da5c"
+    },
+    {
+      "path": "scripts/fourfold_codazzi_positive_weight_batched_native.py",
+      "sha256": "369cb177be97cfc39765fc8902cda7ca74bca0384c8185967dd98f337d5df2f0"
+    },
+    {
+      "path": "scripts/fourfold_codazzi_positive_weight_piece_C0.py",
+      "sha256": "f94c41e8a0874dc4c349f7e47d1e3d5a2c6b854092e9178643ec55096010606d"
+    },
+    {
+      "path": "scripts/fourfold_codazzi_positive_weight_batched_piece_C0.py",
+      "sha256": "de8bb109898f8cc39ce2f41233f78f11338fbbaec575b5266b9839107774387f"
+    }
+  ],
+  "actual_native_reexecuted_by_this_reviewer": false,
+  "root_reported_first_row_exact_comparison_not_relabelled_as_own_execution": true,
+  "checks": [
+    "The original one-batch FFT and complete angular Taylor formulas are byte-for-byte retained inside angular_coefficients_one_batch.",
+    "Each FFT column and its complete-polynomial Taylor remainder are independent of all other polynomial columns; batches of eight retain every column and its original order.",
+    "The wrapper checks the common grid and exact DirectedFFT instance before batching. No Fourier coefficient, radial polynomial, scalar model fee, or error-tube term is truncated.",
+    "The new producer has its own explicit kind/source SHA and records the eight-polynomial contract; the original producer and its incomplete checkpoints are unchanged.",
+    "The consumer maps each explicitly allowed old/new native kind to its own original producer SHA and checks the small-batch contract only for the new kind.",
+    "All original complete/failure, input/dependency SHA, target/eta, full weight bytes, initial data, tube, contiguous original row and scalar-germ checks remain unchanged.",
+    "All checked parts feed the same single propagation with no error reset at interfaces; incomplete old or new reports still reject."
+  ],
+  "scope": "Pure formula/storage and consumer identity review. Root independently executed the first-row bitwise JSON comparison; this reviewer did not rerun the large native."
+}

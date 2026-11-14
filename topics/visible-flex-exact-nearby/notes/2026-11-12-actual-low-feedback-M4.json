@@ -1,0 +1,95 @@
+{
+  "kind": "floating_physical_two_cap_core_feedback_with_two_regular_means",
+  "complete": true,
+  "rigorous_full_Schur_inverse": false,
+  "source_sha256": "44f66045d1b0c398030932b42457623ed7e384132c46667b05a114f62818218c",
+  "input_sha256": {
+    "notes/2026-11-12-actual-core-low-block-M4.json": "f0a655ad2ee5c1a2f5432aabb80a8db1347874ed5cc4f98bfccd8a679a2e1c39",
+    "notes/2026-11-12-actual-cap-low-Schur-M4.json": "19f3478e21f21bdd15808adeb54e5a41033039615884453a581937927e940b7e"
+  },
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+  "modes": 4,
+  "physical_core_cuts": [
+    "-1/4",
+    "1/4"
+  ],
+  "state_slots": [
+    "left positive-grounded height modes",
+    "right positive-grounded height modes",
+    "left regular mean xi",
+    "right regular mean xi"
+  ],
+  "left_positive_height": "-Yz",
+  "right_positive_height": "Yz",
+  "mean_flux_rows_retained": [
+    18,
+    19
+  ],
+  "core_to_cap_rule": "w=Y U; p_g,cap=-(Y p_core-w pY_core)",
+  "physical_height_min": 0.2460410467007147,
+  "projected_height_minimum_eigenvalue": 0.2464786258303054,
+  "height_multiplier_discarded_Fourier_l1": 4.627714922029732e-05,
+  "shear_multiplier_discarded_Fourier_l1": 0.10616466005396331,
+  "Hermitian_defect": 1.2221303184518803e-13,
+  "singular_values": [
+    6.139941775183651,
+    6.032363613428801,
+    3.6453229678287773,
+    3.3151005403582134,
+    1.1373808490475616,
+    1.1193926433175618,
+    0.6688938289906892,
+    0.6293590100213337,
+    0.5733383380767554,
+    0.5497325422119106,
+    0.45806767120608183,
+    0.40605727068031255,
+    0.26581253618609924,
+    0.25566462365352344,
+    0.24854478324999413,
+    0.10502368397038461,
+    0.03986047778227833,
+    0.02975152844617015,
+    0.01586684411210949,
+    1.4246857214500706e-06
+  ],
+  "expected_vertical_translation_residual": 0.0006075817799839979,
+  "bordered_singular_values": [
+    6.139941775183654,
+    6.032363613428802,
+    3.645322975238677,
+    3.3151005403582126,
+    1.1373808490475619,
+    1.1193926433175618,
+    1.000000785450799,
+    0.9999992336482206,
+    0.6688938131540685,
+    0.6293590100213339,
+    0.5733383380767555,
+    0.5497325422119108,
+    0.45806764244602155,
+    0.4060572706803127,
+    0.2658125361860995,
+    0.25566462365352344,
+    0.24854469335939125,
+    0.10502368397038445,
+    0.03986047778227832,
+    0.029751528406698247,
+    0.015866844112109493
+  ],
+  "floating_bordered_inverse_norm": 63.024505247190596,
+  "limitations": [
+    "The full-frequency core/cap trace products have been projected; their high-mode feedback is not discarded in the intended proof.",
+    "This finite candidate retains all two-channel and both regular mean slots, but is not the true infinite Schur complement.",
+    "Core radial ODE, cap quadrature/Galerkin, exact-tail midpoint and floating arithmetic errors remain separate.",
+    "A numerical bordered inverse is not a certified inverse of the actual operator."
+  ],
+  "arrays": {
+    "path": "notes/2026-11-12-actual-low-feedback-M4.npz",
+    "sha256": "34dbe639464694d3d92f275e5269d3a01eb62ec4b4357ed822575bacc2aaabdc",
+    "bytes": 26832
+  }
+}

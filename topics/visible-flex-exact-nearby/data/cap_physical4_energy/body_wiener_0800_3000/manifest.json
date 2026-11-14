@@ -1,0 +1,88 @@
+{
+  "kind": "true_infinite_Wiener_body_energy_cover",
+  "complete": false,
+  "identity": {
+    "source_sha256": "14075d80e5770f79fa913fc9c7e9d512a7b1e6e7f218760e2377a8d330a633f6",
+    "dependency_sha256": {
+      "fourfold_phase_cap_wiener_box.py": "6c86a5542e3370482ae3fef0b25630fc7e436c03929f6dd8e0af0eaef1a7c64f",
+      "fourfold_phase_cap_scaled_body.py": "f552b3c90880a9f9ee812015018a83da67e5d5fe66e1232fd2871d2c59e600db",
+      "fourfold_phase_cap_energy_interval.py": "ef752984f6e8c9331b1f11f2419f49460d42288fa0aba10555a18455b971df91",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_cap_moment_space.py": "4d20d2a8f6d71ebaf9b61aac23770ace273ecf14912a9ea4109df58406dc80da"
+    },
+    "trial_report_path": "notes/2026-11-12-cap-space-boundary4-interior16-P2.json",
+    "trial_report_sha256": "7bb50d93188dd4253ccea2d8731931ea82e212c66829e91ff49ec29bb9a291ac",
+    "exact_trial_arrays": {
+      "path": "notes/2026-11-12-cap-space-boundary4-interior16-P2.npz",
+      "sha256": "d4d0db0b582ebda4e2941e5bc9d9a15f3bfc421b828deb8967b1a7115962ef2c",
+      "bytes": 1298513
+    },
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+    "bits": 160,
+    "error_density_target": "1/1000",
+    "max_depth": 4,
+    "boundary_physical_modes": 4,
+    "interior_physical_modes": 16,
+    "radial_degree": 2
+  },
+  "requested_exact_radial_interval": [
+    "7205759403792793/9007199254740992",
+    "3"
+  ],
+  "requested_element_range": [
+    20,
+    64
+  ],
+  "elements": [
+    {
+      "element": 20,
+      "path": "data/cap_physical4_energy/body_wiener_0800_3000/element_020.json.gz",
+      "sha256": "d476c789f5d31ed1a6e27ff6915b6ec07603154ef2e70c63b9d6b1648cc73f50",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[2.0264603357943097630537771917055409e-5 +/- 1.94e-40]",
+          "lower": "[2.0264603357943097630537771917055409e-5 +/- 1.94e-40]",
+          "upper": "[2.0264603357943097630537771917055409e-5 +/- 1.94e-40]",
+          "mid_float": 2.0264603357943097e-05,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[2.0764256693621606883874339310498870e-5 +/- 2.83e-41]",
+          "lower": "[2.0764256693621606883874339310498870e-5 +/- 2.83e-41]",
+          "upper": "[2.0764256693621606883874339310498870e-5 +/- 2.83e-41]",
+          "mid_float": 2.0764256693621606e-05,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 21,
+      "path": "data/cap_physical4_energy/body_wiener_0800_3000/element_021.json.gz",
+      "sha256": "fe9ca869f6b86141b6183b45bd6be82426957608a228f076f5e4607a9cf1fa70",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[1.2866632620311962460872177229526755e-5 +/- 4.97e-40]",
+          "lower": "[1.2866632620311962460872177229526755e-5 +/- 4.97e-40]",
+          "upper": "[1.2866632620311962460872177229526755e-5 +/- 4.97e-40]",
+          "mid_float": 1.2866632620311962e-05,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[1.3057632148141036264022812858026538e-5 +/- 3.52e-40]",
+          "lower": "[1.3057632148141036264022812858026538e-5 +/- 3.52e-40]",
+          "upper": "[1.3057632148141036264022812858026538e-5 +/- 3.52e-40]",
+          "mid_float": 1.3057632148141036e-05,
+          "radius_upper_float": 0.0
+        }
+      }
+    }
+  ],
+  "full_positive_cap_complete": false,
+  "scope": "Only the requested body interval. All infinite angular perturbations and every scalar common span are included; no whole cap or final inverse claim.",
+  "CPU_seconds_this_invocation": 22.321333555000002,
+  "wall_seconds_this_invocation": 303.91580423599953
+}

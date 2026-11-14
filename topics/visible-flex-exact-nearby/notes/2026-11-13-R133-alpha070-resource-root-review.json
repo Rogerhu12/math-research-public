@@ -1,0 +1,104 @@
+{
+  "kind": "root_complete_alpha070_resource_failure_and_checkpoint_review",
+  "complete": true,
+  "manifest_and_source_sha256_checks": {
+    "notes/2026-11-13-R133-m128-alpha070-accepted-v7-000.npz.gz": true,
+    "notes/2026-11-13-R133-m128-alpha070-accepted-v7-001.npz.gz": true,
+    "notes/2026-11-13-R133-m128-alpha070-accepted-v7-002.npz.gz": true,
+    "notes/2026-11-13-R133-m128-alpha070-accepted-v7-003.npz.gz": true,
+    "notes/2026-11-13-R133-m128-alpha070-v7-checkpoint-audit.json": true,
+    "notes/2026-11-13-R133-m128-alpha070-address-space-recovery.md": true,
+    "notes/2026-11-13-R133-m128-alpha070-process.json": true,
+    "scripts/fourfold_codazzi_compact_metric_branch_refine_v7_probe.py": true,
+    "scripts/fourfold_codazzi_bounded_process.py": true
+  },
+  "complete_checkpoint_arrays_reviewed": [
+    {
+      "archive": "notes/2026-11-13-R133-m128-alpha070-accepted-v7-000.npz.gz",
+      "payload_sha256_matches": true,
+      "complete_array_shapes": {
+        "radial_nodes": [
+          651
+        ],
+        "state": [
+          257,
+          651
+        ],
+        "radial_derivative": [
+          257,
+          651
+        ]
+      },
+      "all_entries_finite": true,
+      "exact_runtime_parameter": "5048727923265377/288230376151711744",
+      "legacy_description_matches_runtime": false
+    },
+    {
+      "archive": "notes/2026-11-13-R133-m128-alpha070-accepted-v7-001.npz.gz",
+      "payload_sha256_matches": true,
+      "complete_array_shapes": {
+        "radial_nodes": [
+          651
+        ],
+        "state": [
+          257,
+          651
+        ],
+        "radial_derivative": [
+          257,
+          651
+        ]
+      },
+      "all_entries_finite": true,
+      "exact_runtime_parameter": "-7810375064860337/288230376151711744",
+      "legacy_description_matches_runtime": false
+    },
+    {
+      "archive": "notes/2026-11-13-R133-m128-alpha070-accepted-v7-002.npz.gz",
+      "payload_sha256_matches": true,
+      "complete_array_shapes": {
+        "radial_nodes": [
+          651
+        ],
+        "state": [
+          257,
+          651
+        ],
+        "radial_derivative": [
+          257,
+          651
+        ]
+      },
+      "all_entries_finite": true,
+      "exact_runtime_parameter": "-8203796861289721/288230376151711744",
+      "legacy_description_matches_runtime": false
+    },
+    {
+      "archive": "notes/2026-11-13-R133-m128-alpha070-accepted-v7-003.npz.gz",
+      "payload_sha256_matches": true,
+      "complete_array_shapes": {
+        "radial_nodes": [
+          651
+        ],
+        "state": [
+          257,
+          651
+        ],
+        "radial_derivative": [
+          257,
+          651
+        ]
+      },
+      "all_entries_finite": true,
+      "exact_runtime_parameter": "-4101942439603851/144115188075855872",
+      "legacy_description_matches_runtime": false
+    }
+  ],
+  "actual_exit_code": 70,
+  "actual_status": "address_space_allocation_failure",
+  "all_four_accepted_states_preserved": true,
+  "original_description_defect_preserved_and_not_used_for_recovery": true,
+  "finite_BVP_recomputed": false,
+  "finite_BVP_success_claimed": false,
+  "scope": "Complete accepted-state archives and recorded resource failure only. No radial BVP convergence or continuous PDE claim."
+}

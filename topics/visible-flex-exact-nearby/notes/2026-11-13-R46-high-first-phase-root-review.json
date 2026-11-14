@@ -1,0 +1,29 @@
+{
+  "kind": "root_complete_actual_high_first_phase_math_and_native_review",
+  "complete": true,
+  "whole_native_rerun": true,
+  "whole_math_json_equal_except_seconds": true,
+  "input_and_source_sha256_checks": {
+    "notes/2026-11-13-R46-native-WKB-full-strict-fields-v2.json.gz": true,
+    "notes/2026-11-13-actual-fixed-label-high-density-Volterra.json": true,
+    "scripts/fourfold_phase_beta_bulk_interval.py": true,
+    "scripts/fourfold_phase_root_fourier_fit.py": true,
+    "scripts/fourfold_negative_collar_root_fourier_budget.py": true,
+    "scripts/fourfold_negative_canonical_cancellation_chart.py": true,
+    "scripts/fourfold_negative_root_physical_graph_operator.py": true,
+    "scripts/fourfold_strict_high_energy_triangular.py": true,
+    "scripts/fourfold_actual_label_high_density_volterra.py": true,
+    "scripts/fourfold_actual_high_density_first_phase.py": true
+  },
+  "manual_checks": [
+    "actual diagonal phase keeps full function and exact Fourier projection positions",
+    "cross-label velocity and both minus1/64 endpoint columns",
+    "full material Qsigma and label log-J term from coefficient differentiation",
+    "complete physical theta derivative and fourfold normalization",
+    "opposite window uses adjoint primitive on left and base norms",
+    "both exact Duhamel expansions place the full propagator on its base side",
+    "half-simplex factor uses common scalar kappa density in both ordered factors",
+    "all physical ordinary source and low-height columns in both windows"
+  ],
+  "scope": "Prescribed full low time history only. No finite-head closure, final returned remainder or complete feedback inverse is granted."
+}

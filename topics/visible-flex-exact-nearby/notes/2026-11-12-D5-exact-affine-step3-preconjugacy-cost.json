@@ -1,0 +1,236 @@
+{
+  "kind": "floating_fixed_H_preconjugacy_cost_comparison_not_a_KAM_certificate",
+  "source_sha256": "bf0a85b25a2ca48fc82a061f219e10dc50db98b95b913a1d3deb4445260ee450",
+  "actual_nodes_sha256": "3ba4ca28b138a63ca9fe3ce6202e393ab33cc7d5b15063a7580902458085278b",
+  "actual_second_rays_sha256": "bb4b7ef2e96c6abe5d2f2e8bf1f805c0fe7936d3e35026797d04220544bb9bff",
+  "dyadic_H_sha256": "028a95679f5c6e6ff6438b539c9c427f745f976a4dbc70b46c0bb01dd0f4fb49",
+  "H_budget_sha256": "36c84a53d3e3ed2ec12c8486fece4bcf8e8bc0e75439fc2b9ac0e0dc29660d77",
+  "object_sha256": "e6ff2d46ed2d321c1b287e6c9d8e44ead7b9a70523350d145d703b4edd6def0f",
+  "exact_delta_fraction": "-7832869216826619/4611686018427387904",
+  "source_grid_nodes": 516,
+  "floating_real_inverse_max_residual": 1.7763568394002505e-15,
+  "inverse_uniform_coordinate_max_residual": 8.881784197001252e-16,
+  "inverse_selected_ray_max_residual": 8.881784197001252e-16,
+  "initial_x_width": 0.001953125,
+  "proxy_map_x_width": 0.0078125,
+  "complete_sampled_G_residual_max": 2.515420405302393e-07,
+  "complete_sampled_Gx_range": [
+    0.9999886697877454,
+    1.0000113876207735
+  ],
+  "complete_sampled_Gp_range": [
+    0.0003102252594725104,
+    0.004414346477122712
+  ],
+  "complete_sampled_Gp_mean": 0.0023071722466050256,
+  "finite_interpolant_norms": {
+    "direct": {
+      "P": 0.010498038190281696,
+      "Q": 0.14111891912479002,
+      "B": 106.70185171173551
+    },
+    "preconjugated": {
+      "P": 0.0072805295445240335,
+      "Q": 0.03233161491788075,
+      "B": 0.009594558301017315,
+      "B_from_residual_second_derivative": 0.009594558301017315
+    }
+  },
+  "selected_parameter_two_jets": {
+    "indices": [
+      0,
+      64,
+      129,
+      193,
+      258,
+      322,
+      387,
+      451
+    ],
+    "G": [
+      3.465177441398447,
+      4.244487246988844,
+      5.035973772370392,
+      5.8152835581947535,
+      6.606769870077671,
+      7.386079676805154,
+      8.177566363973678,
+      8.956876176600872
+    ],
+    "Gp": [
+      0.002648759404324052,
+      0.0037028646207035863,
+      0.004364720996196332,
+      0.002617516453947236,
+      0.0035766262936371544,
+      0.0004157594371901163,
+      0.001526661928093631,
+      0.0008477263561547178
+    ],
+    "Gx": [
+      1.000001969850629,
+      0.9999887020744131,
+      0.9999998727029022,
+      0.9999999382935004,
+      0.9999973826963555,
+      1.0000036167296285,
+      0.9999999061254349,
+      1.0000000955471828
+    ],
+    "Gpp": [
+      -8.178367286635149e-05,
+      -8.993880207767852e-05,
+      -6.129757465519271e-05,
+      -0.00013726343291695385,
+      -9.647986086014509e-05,
+      -8.53776478274259e-05,
+      -8.747835636453276e-05,
+      -8.145938104707767e-05
+    ],
+    "Gxp": [
+      -0.006981503205504584,
+      -0.001714543649299355,
+      -0.002750924966250218,
+      -0.011292902821097659,
+      0.0014873531638265672,
+      -0.0030502756706880015,
+      -0.0041238478818700075,
+      -0.0005496066592038855
+    ],
+    "maximum_abs_Gp": 0.004364720996196332,
+    "maximum_abs_Gpp": 0.00013726343291695385,
+    "maximum_abs_Gxp": 0.011292902821097659,
+    "maximum_abs_original_Fpp": 0.00014426088142682127,
+    "maximum_abs_original_Fxp": 0.030588384360373096,
+    "Gxp_vs_complete_first_column_interpolant_max_difference": 7.780103714050135e-10,
+    "Gp_vs_complete_first_column_max_difference": 1.0654129488363306e-12
+  },
+  "prospective_gate_scenarios": [
+    {
+      "assumed_T_multiplier_of_selected_ray_maximum": 1.0,
+      "direct": {
+        "M0": 2.3592615765285547,
+        "R0": 3.424211150149836,
+        "P": 0.010498038190281696,
+        "Q": 0.14111891912479002,
+        "T": 0.00014426088142682127,
+        "B": 106.70185171173551,
+        "sigma": 0.002307172234745314,
+        "K": 1.5,
+        "loss": 0.000244140625,
+        "La": 5936.637236843014,
+        "Astar": 433.6629496262228,
+        "LH": 2185.1809257651125,
+        "C": 256585383.07361597,
+        "Z": 1327.8357543097936,
+        "epsilon_threshold_if_inputs_were_proved": 7.259357984147337e-18,
+        "limiting_term_index": 0
+      },
+      "preconjugated": {
+        "M0": 1.0,
+        "R0": 1.0,
+        "P": 0.0072805295445240335,
+        "Q": 0.03233161491788075,
+        "T": 0.00013726343291695385,
+        "B": 0.009594558301017315,
+        "sigma": 0.0023071722466050256,
+        "K": 1.5,
+        "loss": 0.000244140625,
+        "La": 1733.7240450451625,
+        "Astar": 27.244858264006044,
+        "LH": 81.73457479201814,
+        "C": 4860.766736791604,
+        "Z": 3.475658698388217,
+        "epsilon_threshold_if_inputs_were_proved": 3.8319986333275766e-13,
+        "limiting_term_index": 0
+      },
+      "epsilon_threshold_ratio": 52787.01837952784
+    },
+    {
+      "assumed_T_multiplier_of_selected_ray_maximum": 10.0,
+      "direct": {
+        "M0": 2.3592615765285547,
+        "R0": 3.424211150149836,
+        "P": 0.010498038190281696,
+        "Q": 0.14111891912479002,
+        "T": 0.0014426088142682127,
+        "B": 106.70185171173551,
+        "sigma": 0.002307172234745314,
+        "K": 1.5,
+        "loss": 0.000244140625,
+        "La": 5936.637236843014,
+        "Astar": 433.6629496262228,
+        "LH": 2185.1809257651125,
+        "C": 256608262.34126118,
+        "Z": 1354.2289598409607,
+        "epsilon_threshold_if_inputs_were_proved": 7.258710737668457e-18,
+        "limiting_term_index": 0
+      },
+      "preconjugated": {
+        "M0": 1.0,
+        "R0": 1.0,
+        "P": 0.0072805295445240335,
+        "Q": 0.03233161491788075,
+        "T": 0.0013726343291695386,
+        "B": 0.009594558301017315,
+        "sigma": 0.0023071722466050256,
+        "K": 1.5,
+        "loss": 0.000244140625,
+        "La": 1733.7240450451625,
+        "Astar": 27.244858264006044,
+        "LH": 81.73457479201814,
+        "C": 6717.405078843194,
+        "Z": 5.617450925770317,
+        "epsilon_threshold_if_inputs_were_proved": 2.7728641154862786e-13,
+        "limiting_term_index": 0
+      },
+      "epsilon_threshold_ratio": 38200.50441046973
+    },
+    {
+      "assumed_T_multiplier_of_selected_ray_maximum": 100.0,
+      "direct": {
+        "M0": 2.3592615765285547,
+        "R0": 3.424211150149836,
+        "P": 0.010498038190281696,
+        "Q": 0.14111891912479002,
+        "T": 0.014426088142682127,
+        "B": 106.70185171173551,
+        "sigma": 0.002307172234745314,
+        "K": 1.5,
+        "loss": 0.000244140625,
+        "La": 5936.637236843014,
+        "Astar": 433.6629496262228,
+        "LH": 2185.1809257651125,
+        "C": 256837055.01771328,
+        "Z": 1618.1610151526293,
+        "epsilon_threshold_if_inputs_were_proved": 7.25224461518022e-18,
+        "limiting_term_index": 0
+      },
+      "preconjugated": {
+        "M0": 1.0,
+        "R0": 1.0,
+        "P": 0.0072805295445240335,
+        "Q": 0.03233161491788075,
+        "T": 0.013726343291695385,
+        "B": 0.009594558301017315,
+        "sigma": 0.0023071722466050256,
+        "K": 1.5,
+        "loss": 0.000244140625,
+        "La": 1733.7240450451625,
+        "Astar": 27.244858264006044,
+        "LH": 81.73457479201814,
+        "C": 25283.7884993591,
+        "Z": 27.0353731995913,
+        "epsilon_threshold_if_inputs_were_proved": 7.366954320465748e-14,
+        "limiting_term_index": 0
+      },
+      "epsilon_threshold_ratio": 10158.171312982771
+    }
+  ],
+  "limitations": [
+    "finite interpolant norms omit alias and ODE/arithmetic errors and are not upper bounds for the true map",
+    "selected ray maxima and their multipliers are assumptions in the gate scenarios, not continuous parameter bounds",
+    "only the original H and inverse-Hprime polynomial bounds are proved inputs",
+    "no complex local inverse, true E, full parameter box, or R31/R63 gate is certified here"
+  ]
+}

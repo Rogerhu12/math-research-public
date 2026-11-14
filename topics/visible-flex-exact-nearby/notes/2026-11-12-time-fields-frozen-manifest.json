@@ -1,0 +1,183 @@
+{
+  "kind": "frozen_reproduce_newton_time_field_package",
+  "complete": true,
+  "created_utc": "2026-11-12T09:44:35.984703+00:00",
+  "all_hashes_match_previous_freeze_messages": true,
+  "file_count": 21,
+  "total_bytes": 638008,
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_field_time_taylor.py",
+      "role": "time_model",
+      "sha256": "5f8b0294bc3cc6f19444ebf2d8e5106bdabaecab44576a77593890b2c42c312a",
+      "bytes": 23148
+    },
+    {
+      "path": "notes/2026-11-12-strict-field-time-taylor.md",
+      "role": "time_model_proof",
+      "sha256": "a2d7517f239ce993392360d47178d5dee63b49db6ec0c36cc7f874fe871ef2f6",
+      "bytes": 8890
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step2_field_time_pilot_q256.json",
+      "role": "local_model_certificate",
+      "sha256": "6109df95237a2004630c287337184880acd3b2acae7c01474c9265bf09ed9ff0",
+      "bytes": 27597
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step2_field_time_pilot_q512.json",
+      "role": "local_model_certificate",
+      "sha256": "b37d1ac92647cb58627d8b7374172303ae9b646af965cb6132e78f3a964f6b8d",
+      "bytes": 27880
+    },
+    {
+      "path": "scripts/fourfold_phase_reference_time_sample.py",
+      "role": "actual_reference_adapter",
+      "sha256": "2f89af783fd4a0a1c16caa39b1cb18377ce5e6fa7d5ee0ef8c117c2b47f0c189",
+      "bytes": 10530
+    },
+    {
+      "path": "notes/2026-11-12-actual-reference-strict-time-sample.md",
+      "role": "actual_reference_proof",
+      "sha256": "c07c24447e92d879309b15b5953183288fab7c0a86f9e2b122384fbbc8056ffe",
+      "bytes": 7885
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step2_reference_time_segment653_real.json",
+      "role": "actual_reference_certificate",
+      "sha256": "547c5ec474b49c57c40cbac349ececeafd116e936e83f94bdba17dfca0da723b",
+      "bytes": 34934
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step2_reference_time_segment653_complex.json",
+      "role": "actual_reference_certificate",
+      "sha256": "27320866721ab55ee539096f5279b095e9cccb283f3ff1f69cca389eb5eb8c7f",
+      "bytes": 43922
+    },
+    {
+      "path": "scripts/fourfold_phase_field_time_germ_union.py",
+      "role": "common_germ_union_source",
+      "sha256": "53704f95997e92eca13b74e9466c8ccb60a0ce04c4360e91b23eef9b10c712b5",
+      "bytes": 17759
+    },
+    {
+      "path": "notes/2026-11-12-time-residual-common-germ-union.md",
+      "role": "common_germ_union_proof",
+      "sha256": "3f76dd9d22dcda63e1c25ee1231c8dd01215d7133646c4268293f1a46acbb960",
+      "bytes": 8246
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step2_reference_time_union_single_knot.json",
+      "role": "common_germ_union_certificate",
+      "sha256": "63561906deee3971f39ba8b3dcdd62c2b4d0b5f82154ee1fc87fa84b9e0eaa49",
+      "bytes": 64689
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step2_reference_time_union_near_knots.json",
+      "role": "common_germ_union_certificate",
+      "sha256": "982edf9491e36658d1600f648d700ab19e3efe1e351988a2d6e9e3e4e45c4d1a",
+      "bytes": 109527
+    },
+    {
+      "path": "scripts/fourfold_phase_field_time_turn_collar.py",
+      "role": "turn_collar_source",
+      "sha256": "4c925c5478eb5355eec750112d0c3496642d3111ca97583559e4a7f6e46d6536",
+      "bytes": 26214
+    },
+    {
+      "path": "notes/2026-11-12-true-turning-time-collar.md",
+      "role": "turn_collar_proof",
+      "sha256": "692c4dddccdd63488dd3e567b98d89341f9e310d29078dc58d8654135dad38af",
+      "bytes": 10296
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step2_reference_time_negative_turn.json",
+      "role": "turn_collar_certificate",
+      "sha256": "980ee8ffc1deb6262020a1b8e7a0e092923b84df71ada60bc1e2cb1000c1547c",
+      "bytes": 66000
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step2_reference_time_positive_turn.json",
+      "role": "turn_collar_certificate",
+      "sha256": "09745bb98efe61848b01e1596271726490efc193f53df8a1ff4e3c5c7433f2e1",
+      "bytes": 75802
+    },
+    {
+      "path": "scripts/fourfold_phase_field_time_refined_root.py",
+      "role": "shared_root_source",
+      "sha256": "7969b0dcf5ff43babe762dfdbb00836f4b4c3173965f923525ca64ab43886d79",
+      "bytes": 15695
+    },
+    {
+      "path": "notes/2026-11-12-shared-native-root-time-model.md",
+      "role": "shared_root_proof",
+      "sha256": "9b59a292fe2648f2a3928376d9e17ea83185c0b399f8ea9c16de71258af866ab",
+      "bytes": 4715
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step2_reference_time_segment653_native_root.json",
+      "role": "shared_root_certificate",
+      "sha256": "7b095a26a125b376e4de136e65dffbb3f0b4f02d948eb9c06078a5033844abcc",
+      "bytes": 41938
+    },
+    {
+      "path": "notes/2026-11-12-exact-affine-step4-root-tight.md",
+      "role": "step4_root_proof",
+      "sha256": "0251a7f7c19350d30b835ef51b7ce7e69d6c3331204e742e570506e41446b328",
+      "bytes": 2349
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_root_tight.json",
+      "role": "step4_root_certificate",
+      "sha256": "03a0863733b25b6c4058a39590648dda2292a2943e783021747e3bc3f27c86f4",
+      "bytes": 9992
+    }
+  ],
+  "required_external_inputs": [
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step2_object.json",
+      "sha256": "aa5df888dbf672c9e221f03e80cfa06c3c9c94a5dd7dd4f29fe15b1d795d99b1",
+      "bytes": 1728
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step2_root_tight.json",
+      "sha256": "c2cfad858f64a0082d131eb492993c6a237ab249220dfe61593323c8d1cdfeeb",
+      "bytes": 9997
+    },
+    {
+      "path": "data/phase_ring_continuation/r61_step2_bernstein_forward/manifest.json",
+      "sha256": "2a76ac79b15f28aa3ea95f708d10e073b346e0c23809a0c8021d391c1c2a816a",
+      "bytes": 116979
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+      "sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+      "bytes": 386775
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz",
+      "sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+      "bytes": 137851
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_parameter_root_interval.json",
+      "sha256": "b5900c391667b2a1be90912f2abaf58eaea66dfc51c082a8db39ea582b4b94a8",
+      "bytes": 4879
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_object.json",
+      "sha256": "87566dee6e119bb4127200c2dae38f9cdf692a18475c1cde23961a56605919b5",
+      "bytes": 1638
+    }
+  ],
+  "scope": [
+    "True infinite exact-affine delta2 local time models and actual frozen-reference samples",
+    "Ordinary common spans, finite germ unions, exact +/-pi/2 turning collars and shared native root refinement",
+    "Separate exact-affine delta4 tight-root certificate"
+  ],
+  "limitations": [
+    "No full initial-circle/strip or full-time return/Wiener certificate is included",
+    "Local matching-left initial-error models are not complete-branch accumulated-error certificates",
+    "No live time-angle source, large floating trace or ongoing calculation is included"
+  ]
+}

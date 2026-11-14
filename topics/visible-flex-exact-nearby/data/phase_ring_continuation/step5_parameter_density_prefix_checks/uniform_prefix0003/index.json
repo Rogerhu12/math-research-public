@@ -1,0 +1,190 @@
+{
+  "kind": "actual_complete_forward_parameter_density_inputs",
+  "complete": false,
+  "source_sha256": "de92157eaf9f2a79731dad492324c9103c9ed3766fb73520cc1596e760918a7b",
+  "pipeline_path": "scripts/fourfold_parameter_density_pipeline_l2_v3.py",
+  "pipeline_sha256": "613e8c97fbc7b66dac3983212996eb093fb019dd755ebae0775a25e7e24169ef",
+  "descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+  "g0_index_path": "data/phase_ring_continuation/step5_forward_density_complete/index.json",
+  "exact_target_delta_fraction": "-7789843107295549/4611686018427387904",
+  "uniform_parameter_half_width": "1/1000000000",
+  "whole_real_parameter_tube": true,
+  "label_strip": "1/256",
+  "inner_strip": "3/1024",
+  "spatial_strip": "7/2048",
+  "completed_segments": 3,
+  "leaves": [
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0000_ef134f2a18_uniform.json.gz",
+      "sha256": "678b0a35c844980b898bfa1030462e4edcafa7c4ffe3540f25441c61f3b50920",
+      "bytes": 316809,
+      "segment": 0,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_pipeline_pilot0/forward_0000_ef134f2a18.json.gz",
+      "g0_report_sha256": "a6c8560ac4b34a53bb4636c55d4e9672c875156df95f3e975b46947bab15be15"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0001_ef134f2a18_uniform.json.gz",
+      "sha256": "096e32ce001cfb3edd0d0aa1850ece72b725a09455a616778c2e6c403cd31557",
+      "bytes": 180753,
+      "segment": 1,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0001_ef134f2a18.json.gz",
+      "g0_report_sha256": "dcfc8e721de4b6c2cb928fdbabc3b8db5c1be9e3f24772a23148efe072c31750"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0002_ef134f2a18_uniform.json.gz",
+      "sha256": "2c4834f924ad16dfe0667f44f386ea6168cdd4aa7eaa1e792910d5dc5498cb69",
+      "bytes": 184506,
+      "segment": 2,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "g0_report_path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0002_ef134f2a18.json.gz",
+      "g0_report_sha256": "d333912e47a683b018c9af2c0162ec7a8f2939fadacab20895682bdf98f44208"
+    }
+  ],
+  "input_g0_snapshots": [
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/index.json",
+      "sha256": "9e775d83247284915691fc7df059592f8a8d016aeefbea7f02e68000b476dfc9",
+      "completed_segments": 19
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/index.json",
+      "sha256": "d7799b4699ac5560ff5c364427581521de46c6314c40584f0bd061fa2729fee0",
+      "completed_segments": 21
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/index.json",
+      "sha256": "0ad9431b92f361e2064d6c9f5131c85c3fb29d898a564d93c769a65f7673ccaa",
+      "completed_segments": 22
+    }
+  ],
+  "whole_forward_leg": false,
+  "integrated_scalar_summary": {
+    "A": {
+      "ball": "[1.1392191477845186454097580146720563e-11 +/- 4.44e-46]",
+      "lower": "[1.1392191477845186454097580146720563e-11 +/- 4.44e-46]",
+      "upper": "[1.1392191477845186454097580146720563e-11 +/- 4.44e-46]",
+      "mid_float": 1.1392191477845186e-11,
+      "radius_upper_float": 0.0
+    },
+    "E0": {
+      "ball": "[5.4743461648723645028270578792567189e-14 +/- 3.37e-49]",
+      "lower": "[5.4743461648723645028270578792567189e-14 +/- 3.37e-49]",
+      "upper": "[5.4743461648723645028270578792567189e-14 +/- 3.37e-49]",
+      "mid_float": 5.4743461648723644e-14,
+      "radius_upper_float": 0.0
+    },
+    "B1": {
+      "ball": "[5.4743452702871980628657086278522329e-5 +/- 2.68e-40]",
+      "lower": "[5.4743452702871980628657086278522329e-5 +/- 2.68e-40]",
+      "upper": "[5.4743452702871980628657086278522329e-5 +/- 2.68e-40]",
+      "mid_float": 5.474345270287198e-05,
+      "radius_upper_float": 0.0
+    },
+    "B2": {
+      "ball": "[7.3786956830343609365803473778462158e-7 +/- 3.16e-42]",
+      "lower": "[7.3786956830343609365803473778462158e-7 +/- 3.16e-42]",
+      "upper": "[7.3786956830343609365803473778462158e-7 +/- 3.16e-42]",
+      "mid_float": 7.378695683034361e-07,
+      "radius_upper_float": 0.0
+    },
+    "E1": {
+      "ball": "[8.8972981558884875100362064804483529e-9 +/- 2.35e-44]",
+      "lower": "[8.8972981558884875100362064804483529e-9 +/- 2.35e-44]",
+      "upper": "[8.8972981558884875100362064804483529e-9 +/- 2.35e-44]",
+      "mid_float": 8.897298155888487e-09,
+      "radius_upper_float": 0.0
+    },
+    "E2": {
+      "ball": "[6.0601069596586493468632486308138222e-9 +/- 4.97e-44]",
+      "lower": "[6.0601069596586493468632486308138222e-9 +/- 4.97e-44]",
+      "upper": "[6.0601069596586493468632486308138222e-9 +/- 4.97e-44]",
+      "mid_float": 6.060106959658649e-09,
+      "radius_upper_float": 0.0
+    },
+    "localJ0": {
+      "ball": "[1.0281334086513175854307101016361461e-22 +/- 3.62e-57]",
+      "lower": "[1.0281334086513175854307101016361461e-22 +/- 3.62e-57]",
+      "upper": "[1.0281334086513175854307101016361461e-22 +/- 3.62e-57]",
+      "mid_float": 1.0281334086513175e-22,
+      "radius_upper_float": 0.0
+    },
+    "localJ1": {
+      "ball": "[2.8590982697143956778455778642784765e-14 +/- 4.69e-49]",
+      "lower": "[2.8590982697143956778455778642784765e-14 +/- 4.69e-49]",
+      "upper": "[2.8590982697143956778455778642784765e-14 +/- 4.69e-49]",
+      "mid_float": 2.8590982697143955e-14,
+      "radius_upper_float": 0.0
+    },
+    "localJ2": {
+      "ball": "[3.8823046438312330292918515455379230e-16 +/- 4.17e-51]",
+      "lower": "[3.8823046438312330292918515455379230e-16 +/- 4.17e-51]",
+      "upper": "[3.8823046438312330292918515455379230e-16 +/- 4.17e-51]",
+      "mid_float": 3.882304643831233e-16,
+      "radius_upper_float": 0.0
+    }
+  },
+  "integrated_parameter_spatial_SUP_moduli": [
+    [
+      {
+        "ball": "[5.4462102522832126262478002837444307e-5 +/- 3.96e-40]",
+        "lower": "[5.4462102522832126262478002837444307e-5 +/- 3.96e-40]",
+        "upper": "[5.4462102522832126262478002837444307e-5 +/- 3.96e-40]",
+        "mid_float": 5.4462102522832124e-05,
+        "radius_upper_float": 2.635549485807631e-82
+      },
+      {
+        "ball": "[0.00059141044892350257990470321809454529 +/- 2.67e-39]",
+        "lower": "[0.00059141044892350257990470321809454529 +/- 2.67e-39]",
+        "upper": "[0.00059141044892350257990470321809454529 +/- 2.67e-39]",
+        "mid_float": 0.0005914104489235025,
+        "radius_upper_float": 4.2168791772922093e-81
+      },
+      {
+        "ball": "[0.086923864676034699053629874292962847 +/- 2.25e-37]",
+        "lower": "[0.086923864676034699053629874292962847 +/- 2.25e-37]",
+        "upper": "[0.086923864676034699053629874292962847 +/- 2.25e-37]",
+        "mid_float": 0.0869238646760347,
+        "radius_upper_float": 0.0
+      }
+    ],
+    [
+      {
+        "ball": "[7.3273077421129952514646233232479912e-7 +/- 3.12e-43]",
+        "lower": "[7.3273077421129952514646233232479912e-7 +/- 3.12e-43]",
+        "upper": "[7.3273077421129952514646233232479912e-7 +/- 3.12e-43]",
+        "mid_float": 7.327307742112995e-07,
+        "radius_upper_float": 1.2354138230064186e-83
+      },
+      {
+        "ball": "[2.2873304254754298418206818657461075e-5 +/- 1.09e-40]",
+        "lower": "[2.2873304254754298418206818657461075e-5 +/- 1.09e-40]",
+        "upper": "[2.2873304254754298418206818657461075e-5 +/- 1.09e-40]",
+        "mid_float": 2.2873304254754298e-05,
+        "radius_upper_float": 3.9533242336205397e-82
+      },
+      {
+        "ball": "[0.051088622344933254534933159378057929 +/- 1.15e-37]",
+        "lower": "[0.051088622344933254534933159378057929 +/- 1.15e-37]",
+        "upper": "[0.051088622344933254534933159378057929 +/- 1.15e-37]",
+        "mid_float": 0.051088622344933256,
+        "radius_upper_float": 5.397605346934028e-79
+      }
+    ]
+  ],
+  "exact_final_time": {
+    "rational": "-6729979479545749/4503599627370496",
+    "pi_coefficient": "0"
+  },
+  "wall_seconds_this_process": 669.0239151340029
+}

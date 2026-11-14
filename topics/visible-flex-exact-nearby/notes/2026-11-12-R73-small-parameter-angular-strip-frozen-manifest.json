@@ -1,0 +1,55 @@
+{
+  "kind": "frozen_R73_full_real_core_small_parameter_angular_strip",
+  "status": "complete_frozen",
+  "archive_required": [
+    {
+      "path": "results/R73-real-core-small-parameter-angular-strip.md",
+      "sha256": "5dc780304d063aada8f140f6540cf7a2a6f70622cf5bb2416a891b8c4f6e0513",
+      "bytes": 10433
+    },
+    {
+      "path": "scripts/fourfold_phase_narrow_parameter_angle_strip.py",
+      "sha256": "74970e790d68d86376eef92b1acee94cb3ea173077be48f8e7529da67824fc3c",
+      "bytes": 7761
+    },
+    {
+      "path": "scripts/fourfold_phase_angle_strip_second_gap.py",
+      "sha256": "591e1da6adc4a382d5af7e3f93207c07bc9f290b5ca6447a30aa6b7dd52a1336",
+      "bytes": 7759
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_small_parameter_modulus_1over56.json.gz",
+      "sha256": "30001c1a7e7de13e89924163cdbf79c95a5a1e2269430d9f5ee93038c12f2e80",
+      "bytes": 312359,
+      "failed_cells": 0,
+      "proved_uniform_denominator_nonzero": true
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_small_parameter_modulus_1over48.json.gz",
+      "sha256": "a1846d8cdf3db47d82c876c96bf80971e1356b7454d88c5816b5449d2110985c",
+      "bytes": 301976,
+      "failed_cells": 132,
+      "proved_uniform_denominator_nonzero": false
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_small_parameter_modulus_second_gap_1over48.json.gz",
+      "sha256": "5676d00ce8f09d10dda6aec1ee3302d1a457ded0d7c24082d0fd5ef44a5dde31",
+      "bytes": 316756,
+      "failed_cells": 68,
+      "proved_uniform_denominator_nonzero": false
+    }
+  ],
+  "complete_success_scope": "Exact affine delta5 +/- 1/2000000; real |r|<=binary64(.24); physical |Im theta|<=1/56; 592 closed radial cells",
+  "preserved_failures": "1/48 first-order finite P gap:132 failed; same rows with second-order P gap:68 failed. Neither implies an actual zero.",
+  "replay": [
+    "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/fourfold_phase_narrow_parameter_angle_strip.py --object data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json --width 1/56 --halfwidth 1/2000000 --out data/phase_ring_continuation/type_fixed_step02_d5_step5_small_parameter_modulus_1over56.json.gz",
+    "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/fourfold_phase_narrow_parameter_angle_strip.py --object data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json --width 1/48 --halfwidth 1/2000000 --out data/phase_ring_continuation/type_fixed_step02_d5_step5_small_parameter_modulus_1over48.json.gz",
+    "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/fourfold_phase_angle_strip_second_gap.py --object data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json --old-scan data/phase_ring_continuation/type_fixed_step02_d5_step5_small_parameter_modulus_1over48.json.gz --out data/phase_ring_continuation/type_fixed_step02_d5_step5_small_parameter_modulus_second_gap_1over48.json.gz"
+  ],
+  "limitations": [
+    "No complex radial time coverage",
+    "No true return/conjugacy certificate",
+    "No PDE/closed surface conclusion",
+    "Replay timing fields may vary"
+  ]
+}

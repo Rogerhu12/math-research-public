@@ -1,0 +1,29 @@
+{
+  "kind": "actual_recorded_native_process",
+  "complete": true,
+  "source": "/workspace/scratch/ac0d699811ad/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_nu_full_adjoint_kernel.py",
+  "source_sha256": "09807e405455b58c043a5ff26b7ff5e4e1569a96c81ecd860125552bfba95a3b",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-u",
+    "/workspace/scratch/ac0d699811ad/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_nu_full_adjoint_kernel.py",
+    "--candidate",
+    "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+    "--out",
+    "/workspace/scratch/ac0d699811ad/final-nu-kernel-20261114/attempt01/native.json.gz"
+  ],
+  "cwd": "/workspace/scratch/ac0d699811ad/math-research/topics/visible-flex-exact-nearby",
+  "out": "/workspace/scratch/ac0d699811ad/final-nu-kernel-20261114/attempt01/native.json.gz",
+  "started_utc": "2026-11-14T04:27:01.295594+00:00",
+  "actual_returncode": 0,
+  "address_space_limit_mib": 2048,
+  "wall_seconds": 994.3267935459999,
+  "maximum_child_rss_kib": 210412,
+  "stdout_sha256": "01dc686cfb2d2e95567a09e728b9ee8448f103ab06c2bc789151f66420e21fe7",
+  "finished_utc": "2026-11-14T04:43:35.630417+00:00",
+  "out_sha256": "281fa7c17d16b8f6823883df7ff61fc12f9c846c6b98bdd6951eed928d480848",
+  "result_complete": true,
+  "result_failure": null,
+  "completed_rows": 1156,
+  "total_closed_cells": null
+}

@@ -1,0 +1,147 @@
+{
+  "kind": "actual_negative_characteristic_complete_cancellation_bidisk",
+  "complete": true,
+  "proved": true,
+  "source_sha256": "3ca055b6f4895021c0cd5c8acd697e8a79ddd601fbf51c3f9996fcdc4360ea66",
+  "bits": 320,
+  "inputs": {
+    "notes/2026-11-13-R106-seven-field-full-parameter-transfer.json": "7c411f5807fc6a97a466fe6800f75c71cdac5c1d5b24e3d54fa289e5ddd37497",
+    "notes/2026-11-12-actual-root-complex-potential-variation.json.gz": "47d68aa52435e786e0b8af05ee09f12a44d163165a9c08e144b599483578bd61"
+  },
+  "identity": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "root": {
+    "ball": "[0.238396874300 +/- 2.71e-13]",
+    "lower": "[0.23839687429972956132053396089863148 +/- 1.44e-36]",
+    "upper": "[0.23839687430000116458653473832827660 +/- 2.84e-37]",
+    "mid_float": 0.23839687429986536,
+    "radius_upper_float": 1.3580163300038871e-13
+  },
+  "rho_radius": "13/50000",
+  "physical_angle_strip": "1/500",
+  "radial_phase_cells": 128,
+  "angular_cells": 2048,
+  "exact_input_radial_degree": 80,
+  "complete_input_positive_angle_modes": 650,
+  "all_modes_all_parameter_errors_and_all_closed_cell_gaps_retained": true,
+  "actual_identity": "C=-(U0_rho+q*U0_theta)/U0-q_theta; kstar=1/(2*U0)",
+  "actual_flow_identity": "(partial_s+(2*s*q-2*sigma*s*s*kstar)*partial_theta)(kstar*T_sigma_theta)=2*s*C*(kstar*T_sigma_theta)",
+  "actual_initial_condition": "kstar(0,theta)*Y0_prime(theta)=1",
+  "complete_complex_moduli": {
+    "C": {
+      "ball": "101.01484831715336554225359577685594558715820312500",
+      "lower": "101.01484831715336554225359577685594558715820312500",
+      "upper": "101.01484831715336554225359577685594558715820312500"
+    },
+    "q": {
+      "ball": "[0.82275375777264370125152481705299578607082366943359 +/- 3.75e-51]",
+      "lower": "[0.82275375777264370125152481705299578607082366943359 +/- 3.75e-51]",
+      "upper": "[0.82275375777264370125152481705299578607082366943359 +/- 3.75e-51]"
+    },
+    "kstar": {
+      "ball": "21.691157229437507680813723709434270858764648437500",
+      "lower": "21.691157229437507680813723709434270858764648437500",
+      "upper": "21.691157229437507680813723709434270858764648437500"
+    },
+    "root_Y0_prime": {
+      "ball": "[0.31376929583353422059545289728086412218244130963988 +/- 3.30e-51]",
+      "lower": "[0.31376929583353422059545289728086412218244130963988 +/- 3.30e-51]",
+      "upper": "[0.31376929583353422059545289728086412218244130963988 +/- 3.30e-51]"
+    }
+  },
+  "complete_U0_real_lower": {
+    "ball": "[0.026303815108484885493256300037501205224543809890747 +/- 7.04e-53]",
+    "lower": "[0.026303815108484885493256300037501205224543809890747 +/- 7.04e-53]",
+    "upper": "[0.026303815108484885493256300037501205224543809890747 +/- 7.04e-53]"
+  },
+  "root_Y0_prime_real_lower": {
+    "ball": "[0.056008227289439767233683314481788691535999997488569 +/- 3.61e-52]",
+    "lower": "[0.056008227289439767233683314481788691535999997488569 +/- 3.61e-52]",
+    "upper": "[0.056008227289439767233683314481788691535999997488569 +/- 3.61e-52]"
+  },
+  "complete_finite_cell_movement": {
+    "U0": {
+      "ball": "[0.0011689954643507354203394211804441247769519559845752 +/- 2.35e-53]",
+      "lower": "[0.0011689954643507354203394211804441247769519559845752 +/- 2.35e-53]",
+      "upper": "[0.0011689954643507354203394211804441247769519559845752 +/- 2.35e-53]"
+    },
+    "q": {
+      "ball": "[0.010863114176321074787378504921166461625062275548349 +/- 3.52e-52]",
+      "lower": "[0.010863114176321074787378504921166461625062275548349 +/- 3.52e-52]",
+      "upper": "[0.010863114176321074787378504921166461625062275548349 +/- 3.52e-52]"
+    },
+    "U0_rho": {
+      "ball": "[0.078083590817747045068843670866131770576752576414241 +/- 8.06e-53]",
+      "lower": "[0.078083590817747045068843670866131770576752576414241 +/- 8.06e-53]",
+      "upper": "[0.078083590817747045068843670866131770576752576414241 +/- 8.06e-53]"
+    },
+    "U0_theta": {
+      "ball": "[0.063137314833255611577529479076274449039445734671246 +/- 2.54e-52]",
+      "lower": "[0.063137314833255611577529479076274449039445734671246 +/- 2.54e-52]",
+      "upper": "[0.063137314833255611577529479076274449039445734671246 +/- 2.54e-52]"
+    },
+    "q_theta": {
+      "ball": "[0.61725773694013012673352138706441982762570390151821 +/- 4.34e-51]",
+      "lower": "[0.61725773694013012673352138706441982762570390151821 +/- 4.34e-51]",
+      "upper": "[0.61725773694013012673352138706441982762570390151821 +/- 4.34e-51]"
+    }
+  },
+  "complete_true_Cauchy_derivative_tails": {
+    "U0": {
+      "ball": "[2.3284183144621879139753421366020275361000001466506e-12 +/- 1.42e-62]",
+      "lower": "[2.3284183144621879139753421366020275361000001466506e-12 +/- 1.42e-62]",
+      "upper": "[2.3284183144621879139753421366020275361000001466506e-12 +/- 1.42e-62]"
+    },
+    "q": {
+      "ball": "[4.2742262891036333115422111776377529374000001902882e-10 +/- 4.00e-60]",
+      "lower": "[4.2742262891036333115422111776377529374000001902882e-10 +/- 4.00e-60]",
+      "upper": "[4.2742262891036333115422111776377529374000001902882e-10 +/- 4.00e-60]"
+    },
+    "U0_rho": {
+      "ball": "[1.1642091572310939569876710683010137680500000733253e-7 +/- 7.07e-58]",
+      "lower": "[1.1642091572310939569876710683010137680500000733253e-7 +/- 7.07e-58]",
+      "upper": "[1.1642091572310939569876710683010137680500000733253e-7 +/- 7.07e-58]"
+    },
+    "U0_theta": {
+      "ball": "[4.6568366289243758279506842732040550722000002933012e-9 +/- 2.83e-59]",
+      "lower": "[4.6568366289243758279506842732040550722000002933012e-9 +/- 2.83e-59]",
+      "upper": "[4.6568366289243758279506842732040550722000002933012e-9 +/- 2.83e-59]"
+    },
+    "q_theta": {
+      "ball": "[8.5484525782072666230844223552755058748000003805763e-7 +/- 2.01e-57]",
+      "lower": "[8.5484525782072666230844223552755058748000003805763e-7 +/- 2.01e-57]",
+      "upper": "[8.5484525782072666230844223552755058748000003805763e-7 +/- 2.01e-57]"
+    }
+  },
+  "maximum_principle": "Full rho-circle/upper-angle closed cells; Schwarz reflection fills lower angle boundary, then successive maximum principles cover both disks. Re U0>0 pays the exact quotient throughout.",
+  "actual_negative_chart_enlargement_proved": false,
+  "full_return_inverse_proved": false,
+  "dependencies": {
+    "fourfold_subprincipal_root_parameter_transfer.py": "04e5978a83626febf8bd7a0b74c7ee18b862cd534959ce6b4620af2416fe1cc9",
+    "fourfold_subprincipal_root_regularized_fft_v2.py": "c4df0d689010ff72dd39b7f32dbbc77065577341d3c016922684e9e84b4c80ca",
+    "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+    "fourfold_phase_root_fourier_fit.py": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604",
+    "fourfold_negative_collar_root_fourier_budget.py": "08866307bf0de20183db15387f16ec0f2f3a65d67bfec6e9229b27a65a902b9b"
+  },
+  "seconds": 43.0277610840003
+}

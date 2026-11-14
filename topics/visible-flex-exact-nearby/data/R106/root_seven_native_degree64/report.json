@@ -1,0 +1,757 @@
+{
+  "kind": "R106_actual_nonmean_root_G_q_k_Fourier_Taylor",
+  "preserved_fields": [
+    "G",
+    "q",
+    "kstar",
+    "Sreg",
+    "Ltheta",
+    "U0",
+    "U1"
+  ],
+  "root_auxiliary_fields_included": true,
+  "complete": true,
+  "proved": true,
+  "source_sha256": "c696c5d1d291d4278bbbb11ba9fb11c9b511d3148f956e2dd68a293983825a31",
+  "identity": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "root_certificate_path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_local_parameter_root_jets_h5e7.json",
+  "root_certificate_sha256": "d83fe1e7ab3eed8baaf2448f2f6076212936633c69f58950720f6d372b03d99c",
+  "root": {
+    "ball": "[0.238396874300 +/- 2.71e-13]",
+    "lower": "[0.23839687429972956132053396089863148 +/- 1.44e-36]",
+    "upper": "[0.23839687430000116458653473832827660 +/- 2.84e-37]",
+    "mid_float": 0.23839687429986536,
+    "radius_upper_float": 1.3580163300038871e-13
+  },
+  "root_common_spans": [
+    {
+      "sign": -1,
+      "left": "-2159007995034115/9007199254740992",
+      "right": "-8428144502278487/36028797018963968"
+    },
+    {
+      "sign": 1,
+      "left": "4214072251139241/18014398509481984",
+      "right": "8636031980136455/36028797018963968"
+    },
+    {
+      "sign": -1,
+      "left": "-2159007995034115/9007199254740992",
+      "right": "-8428144502278487/36028797018963968"
+    },
+    {
+      "sign": 1,
+      "left": "4214072251139241/18014398509481984",
+      "right": "8636031980136455/36028797018963968"
+    },
+    {
+      "sign": -1,
+      "left": "-1080863910568919/4503599627370496",
+      "right": "-8556839292003943/36028797018963968"
+    },
+    {
+      "sign": 1,
+      "left": "8556839292003943/36028797018963968",
+      "right": "1080863910568919/4503599627370496"
+    },
+    {
+      "sign": -1,
+      "left": "-1080863910568919/4503599627370496",
+      "right": "-8556839292003943/36028797018963968"
+    },
+    {
+      "sign": 1,
+      "left": "8556839292003943/36028797018963968",
+      "right": "1080863910568919/4503599627370496"
+    },
+    {
+      "sign": -1,
+      "left": "-1080863910568919/4503599627370496",
+      "right": "-8556839292003943/36028797018963968"
+    },
+    {
+      "sign": 1,
+      "left": "8556839292003943/36028797018963968",
+      "right": "1080863910568919/4503599627370496"
+    },
+    {
+      "sign": -1,
+      "left": "-1080863910568919/4503599627370496",
+      "right": "-8556839292003943/36028797018963968"
+    },
+    {
+      "sign": 1,
+      "left": "8556839292003943/36028797018963968",
+      "right": "1080863910568919/4503599627370496"
+    },
+    {
+      "sign": -1,
+      "left": "-1080863910568919/4503599627370496",
+      "right": "-8556839292003943/36028797018963968"
+    },
+    {
+      "sign": 1,
+      "left": "8556839292003943/36028797018963968",
+      "right": "1080863910568919/4503599627370496"
+    },
+    {
+      "sign": -1,
+      "left": "-1080863910568919/4503599627370496",
+      "right": "-8556839292003943/36028797018963968"
+    },
+    {
+      "sign": 1,
+      "left": "8556839292003943/36028797018963968",
+      "right": "1080863910568919/4503599627370496"
+    },
+    {
+      "sign": -1,
+      "left": "-1080863910568919/4503599627370496",
+      "right": "-8556839292003943/36028797018963968"
+    },
+    {
+      "sign": 1,
+      "left": "8556839292003943/36028797018963968",
+      "right": "1080863910568919/4503599627370496"
+    },
+    {
+      "sign": -1,
+      "left": "-1080863910568919/4503599627370496",
+      "right": "-8556839292003943/36028797018963968"
+    },
+    {
+      "sign": 1,
+      "left": "8556839292003943/36028797018963968",
+      "right": "1080863910568919/4503599627370496"
+    },
+    {
+      "sign": -1,
+      "left": "-1080863910568919/4503599627370496",
+      "right": "-8556839292003943/36028797018963968"
+    },
+    {
+      "sign": 1,
+      "left": "8556839292003943/36028797018963968",
+      "right": "1080863910568919/4503599627370496"
+    }
+  ],
+  "outer_geometry_inputs": [
+    {
+      "path": "notes/2026-11-13-R106-whole-parameter-root-density.json",
+      "sha256": "e465844f0880356afd80829a4fc782856db7fc61e513be2669d84a61e80f8a09"
+    },
+    {
+      "path": "notes/2026-11-13-R106-coarse-root-finite-part.json",
+      "sha256": "da377ff1bd64f53b436eee714bda394f288cea8c41e167da0a680ea1ab4d6f4e"
+    },
+    {
+      "path": "notes/2026-11-13-R106-seven-field-boundary-v2-native-2048.json.gz",
+      "sha256": "92c9da078e1dfa4d18843dcc2a31e0fea70b83f16ec1acf6a9c73cab896bb712"
+    }
+  ],
+  "outer_rho_radius": "1/2500",
+  "outer_physical_angle_strip": "1/64",
+  "complete_true_outer_bounds": {
+    "G": {
+      "ball": "[0.038934034976828619837760925292968750 +/- 2e-41]",
+      "lower": "[0.038934034976828619837760925292968750 +/- 2e-41]",
+      "upper": "[0.038934034976828619837760925292968750 +/- 2e-41]",
+      "mid_float": 0.03893403497682862,
+      "radius_upper_float": 0.0
+    },
+    "q": {
+      "ball": "370.30763006210327148437500000000000",
+      "lower": "370.30763006210327148437500000000000",
+      "upper": "370.30763006210327148437500000000000",
+      "mid_float": 370.30763006210327,
+      "radius_upper_float": 0.0
+    },
+    "kstar": {
+      "ball": "10008.806625366210937500000000000000",
+      "lower": "10008.806625366210937500000000000000",
+      "upper": "10008.806625366210937500000000000000",
+      "mid_float": 10008.806625366211,
+      "radius_upper_float": 0.0
+    },
+    "Sreg": {
+      "ball": "7.1320921555161476135253906250000000",
+      "lower": "7.1320921555161476135253906250000000",
+      "upper": "7.1320921555161476135253906250000000",
+      "mid_float": 7.132092155516148,
+      "radius_upper_float": 0.0
+    },
+    "Ltheta": {
+      "ball": "1.5380356330424547195434570312500000",
+      "lower": "1.5380356330424547195434570312500000",
+      "upper": "1.5380356330424547195434570312500000",
+      "mid_float": 1.5380356330424547,
+      "radius_upper_float": 0.0
+    },
+    "U0": {
+      "ball": "0.26633315254002809524536132812500000",
+      "lower": "0.26633315254002809524536132812500000",
+      "upper": "0.26633315254002809524536132812500000",
+      "mid_float": 0.2663331525400281,
+      "radius_upper_float": 0.0
+    },
+    "U1": {
+      "ball": "54.198309957981109619140625000000000",
+      "lower": "54.198309957981109619140625000000000",
+      "upper": "54.198309957981109619140625000000000",
+      "mid_float": 54.19830995798111,
+      "radius_upper_float": 0.0
+    }
+  },
+  "working_rho_radius": "7/25000",
+  "working_physical_angle_strip": "1/400",
+  "radial_variable": "w=rho/scale; the saved coefficient at row n multiplies w**n",
+  "radial_scale_dyadic": [
+    "1",
+    -10
+  ],
+  "angular_variable": "exp(4*i*k*physical_theta)",
+  "degree": 64,
+  "series_precision": 76,
+  "N": 1024,
+  "K": 450,
+  "primitive_nodes": 512,
+  "bits": 256,
+  "rows_done": 513,
+  "coefficient_shards": [
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0000_0003.json.gz",
+      "sha256": "dc1f0e7e1fa4ff582726f443804d4ba992b4084a6e0cd10e8609c8ba1077eb84",
+      "first_row": 0,
+      "last_row": 3
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0004_0007.json.gz",
+      "sha256": "9d0b95d1d8a046fdc25cc12561d8554dcec8d644f36ab79dfb91f3fdd18c5771",
+      "first_row": 4,
+      "last_row": 7
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0008_0011.json.gz",
+      "sha256": "43f56f397eadf99b8d99af76599ac061266586ab67d386941ed2c1b6a253ffd3",
+      "first_row": 8,
+      "last_row": 11
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0012_0015.json.gz",
+      "sha256": "e136d85abd17a961b55ae0f0b84fbfa7df2de94c3f847830a28136e111e2f8a9",
+      "first_row": 12,
+      "last_row": 15
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0016_0019.json.gz",
+      "sha256": "f3b1a17e4a908a934a48bab9d51794ea92d37fc7dedc3d50c493be4eb4f02bd7",
+      "first_row": 16,
+      "last_row": 19
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0020_0023.json.gz",
+      "sha256": "5503c3f83acc15e7e6f1c160a0e8cb094a19109e39a00d24ad4f3bcfd26086fb",
+      "first_row": 20,
+      "last_row": 23
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0024_0027.json.gz",
+      "sha256": "e85e6d24932244e53c27256b6ce2f81ee00037aed3c7484218e1148daa09373e",
+      "first_row": 24,
+      "last_row": 27
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0028_0031.json.gz",
+      "sha256": "b3eaafe1d0b2de9d6210d864bfb5ff470850124847a4d6c133c5cfd5ddbbe090",
+      "first_row": 28,
+      "last_row": 31
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0032_0035.json.gz",
+      "sha256": "56d507def06a020646c3b17c31888a873d4ec8e62f65111a2c242febdeedf919",
+      "first_row": 32,
+      "last_row": 35
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0036_0039.json.gz",
+      "sha256": "f664dd6d4faeafe77968a9d4ccb5c2d85595ae239915c691b6d1173044710a5b",
+      "first_row": 36,
+      "last_row": 39
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0040_0043.json.gz",
+      "sha256": "48b5f6a910f311ab23b4b8cf51f68eb5c3d092c7be8b50507a621a7bcf224cb7",
+      "first_row": 40,
+      "last_row": 43
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0044_0047.json.gz",
+      "sha256": "b10b2a2621dbcc18d26c0d51b78a64a2e5fb9127137413624950293ded730e2f",
+      "first_row": 44,
+      "last_row": 47
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0048_0051.json.gz",
+      "sha256": "6982fdd36ef104a54cc4f438d2f87735c8765552d090b7816b44e2367a896065",
+      "first_row": 48,
+      "last_row": 51
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0052_0055.json.gz",
+      "sha256": "1862de74c27f96dd6665aa044e9c6e5ba82ab0c63a799ca9f2d2a6ece9898a44",
+      "first_row": 52,
+      "last_row": 55
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0056_0059.json.gz",
+      "sha256": "299e10ac93b42653216525ebdfd1f59be37d288b63d396a4fbd2ecffc63a7b3e",
+      "first_row": 56,
+      "last_row": 59
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0060_0063.json.gz",
+      "sha256": "3164fa25d39f0f092d9577d13b9376c967b1044c12c4585ed2a043c191fdde96",
+      "first_row": 60,
+      "last_row": 63
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/coefficients_0064_0064.json.gz",
+      "sha256": "1e17c0433775881d278f23827484f36b4e413f5da518b443be4da227bfcb43d1",
+      "first_row": 64,
+      "last_row": 64
+    }
+  ],
+  "nodal_shards": [
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00000_00031.json.gz",
+      "sha256": "1453b02dc14ce714afb0e86f0741951e17513e7abeaa3ce83e3814e25fe72f19",
+      "first": 0,
+      "last": 31
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00032_00063.json.gz",
+      "sha256": "30629dd31a88794f9fe6cb74e3f8177d6fd422863cac9b01c1f1aa1a5b00b353",
+      "first": 32,
+      "last": 63
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00064_00095.json.gz",
+      "sha256": "e354f958236911fa1f4b05499cb97d494fd740326f4851697c40d44ea900c134",
+      "first": 64,
+      "last": 95
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00096_00127.json.gz",
+      "sha256": "aff3dca1a9e67a94d9c06a01163de9ff535e2ea8833e434cf4c9a911bd5b6215",
+      "first": 96,
+      "last": 127
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00128_00159.json.gz",
+      "sha256": "7a3d00102517faafa64353013f81f786fe31808940b9224900f7c43aef8b5ab9",
+      "first": 128,
+      "last": 159
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00160_00191.json.gz",
+      "sha256": "5aa5b0ed7c89f4704f40e519da7820b0b6db7697537f82f011fb96122fcd2af7",
+      "first": 160,
+      "last": 191
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00192_00223.json.gz",
+      "sha256": "d7d3657edc6ea1e73fdbaf4a4884ce49861ccf882b98cf7446f9a07c94f7377e",
+      "first": 192,
+      "last": 223
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00224_00255.json.gz",
+      "sha256": "c3ddcc346a2f53dffd706003b4c90394f3132c20a2d8aeccf620ea69459f5cbb",
+      "first": 224,
+      "last": 255
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00256_00287.json.gz",
+      "sha256": "d74132aff5a72eb1e8c253f75021445b99f3d0b1215e695f00d4d053f868f09e",
+      "first": 256,
+      "last": 287
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00288_00319.json.gz",
+      "sha256": "3344d5ffd5cfc0adc7dcb8ff0e0a9528f8733595213105daf898428898b52c7d",
+      "first": 288,
+      "last": 319
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00320_00351.json.gz",
+      "sha256": "61d7f69d5b5295aab8c6216d29017c5c05b1c40a3732a215de6dd6ddb7c857b3",
+      "first": 320,
+      "last": 351
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00352_00383.json.gz",
+      "sha256": "f4530d6ddf5399d8e2451472100f7e282597c1ef741557f3a97243d76ebfa9f0",
+      "first": 352,
+      "last": 383
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00384_00415.json.gz",
+      "sha256": "3e00455b36f798dd9502362e1438ceb0487c2d86469c0277991d7d02e48cde20",
+      "first": 384,
+      "last": 415
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00416_00447.json.gz",
+      "sha256": "0969a98c72202f1cee2d290f1317b78688a72567d2f2577770eb2290845ff6d7",
+      "first": 416,
+      "last": 447
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00448_00479.json.gz",
+      "sha256": "7284df32740be930af3ddc106a46e1e180415a45a49a1a69bb9e046eac6ea366",
+      "first": 448,
+      "last": 479
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00480_00511.json.gz",
+      "sha256": "2f4af9efd6dbbc601a844b3aac9f658687ffe236a20ab4a16d39755b13348bd7",
+      "first": 480,
+      "last": 511
+    },
+    {
+      "path": "data/R106/root_seven_native_degree64/nodes_00512_00512.json.gz",
+      "sha256": "51514c4183969a815813377e32856b102b1209f4d6b39f141fe2637f6ccd48e0",
+      "first": 512,
+      "last": 512
+    }
+  ],
+  "parity": {
+    "G": "even, real cosine coefficients",
+    "q": "odd, imaginary positive coefficients",
+    "kstar": "even, real cosine coefficients",
+    "Sreg": "odd, imaginary positive coefficients",
+    "Ltheta": "odd, imaginary positive coefficients",
+    "U0": "even, real cosine coefficients",
+    "U1": "even, real cosine coefficients"
+  },
+  "root_auxiliary_convention": "Sreg=s*S; V_rho=s^-3*U0+s^-1*U1; inward Lrho_regular and original-height Ltheta",
+  "full_nonmean_return_phase_proved": false,
+  "effective_R104_cutoff_proved": false,
+  "dependencies": {
+    "fourfold_subprincipal_root_fields.py": "3a92a7ae5c8d66199ca2599be53590f91d976e89b05a24ec9ddab182367e8ac5",
+    "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+    "fourfold_phase_beta_parameter_germ.py": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "fourfold_phase_root_cauchy_frame_ci_v1.py": "a63e27addc3af0b14a16ed22768c2248bb969a6129ea021e678699e09cacfb2f",
+    "fourfold_phase_root_fourier_fit.py": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604",
+    "fourfold_native_series_fft.py": "bcf9d5c43f2ebc5669fcf89f785e5da0b6acac5ec901581103006c6dc04d1289"
+  },
+  "wall_seconds": 60.40520113499997,
+  "cpu_seconds": 59.43466470400001,
+  "complete_approximant_errors": {
+    "G": {
+      "complete_sup_error": {
+        "ball": "[4.3169543009899961375463664211738278e-6 +/- 3.03e-41]",
+        "lower": "[4.3169543009899961375463664211738278e-6 +/- 3.03e-41]",
+        "upper": "[4.3169543009899961375463664211738278e-6 +/- 3.03e-41]",
+        "mid_float": 4.316954300989996e-06,
+        "radius_upper_float": 0.0
+      },
+      "pieces": {
+        "node_dft_choice": {
+          "ball": "[4.3166786346061022721965843924143563e-6 +/- 8.48e-42]",
+          "lower": "[4.3166786346061022721965843924143563e-6 +/- 8.48e-42]",
+          "upper": "[4.3166786346061022721965843924143563e-6 +/- 8.48e-42]",
+          "mid_float": 4.316678634606102e-06,
+          "radius_upper_float": 0.0
+        },
+        "alias": {
+          "ball": "[8.7813005865286643857444015488412932e-14 +/- 1.79e-49]",
+          "lower": "[8.7813005865286643857444015488412932e-14 +/- 1.79e-49]",
+          "upper": "[8.7813005865286643857444015488412932e-14 +/- 1.79e-49]",
+          "mid_float": 8.781300586528665e-14,
+          "radius_upper_float": 0.0
+        },
+        "omitted_angle": {
+          "ball": "[2.6449752480724105903607475769672369e-10 +/- 3.41e-45]",
+          "lower": "[2.6449752480724105903607475769672369e-10 +/- 3.41e-45]",
+          "upper": "[2.6449752480724105903607475769672369e-10 +/- 3.41e-45]",
+          "mid_float": 2.6449752480724107e-10,
+          "radius_upper_float": 0.0
+        },
+        "omitted_radial": {
+          "ball": "[1.1081046080759004102096557759326613e-11 +/- 3.42e-46]",
+          "lower": "[1.1081046080759004102096557759326613e-11 +/- 3.42e-46]",
+          "upper": "[1.1081046080759004102096557759326613e-11 +/- 3.42e-46]",
+          "mid_float": 1.1081046080759004e-11,
+          "radius_upper_float": 0.0
+        }
+      },
+      "norm_semantics": "complete sup on working complex bidisk; not an asserted full Wiener norm"
+    },
+    "q": {
+      "complete_sup_error": {
+        "ball": "[0.00038450827693945578889592218707395340 +/- 3.61e-39]",
+        "lower": "[0.00038450827693945578889592218707395340 +/- 3.61e-39]",
+        "upper": "[0.00038450827693945578889592218707395340 +/- 3.61e-39]",
+        "mid_float": 0.0003845082769394558,
+        "radius_upper_float": 0.0
+      },
+      "pieces": {
+        "node_dft_choice": {
+          "ball": "[0.00038188637131451143351431122827587750 +/- 4.89e-39]",
+          "lower": "[0.00038188637131451143351431122827587750 +/- 4.89e-39]",
+          "upper": "[0.00038188637131451143351431122827587750 +/- 4.89e-39]",
+          "mid_float": 0.00038188637131451143,
+          "radius_upper_float": 0.0
+        },
+        "alias": {
+          "ball": "[8.3520308413850964781490069374085788e-10 +/- 3.77e-45]",
+          "lower": "[8.3520308413850964781490069374085788e-10 +/- 3.77e-45]",
+          "upper": "[8.3520308413850964781490069374085788e-10 +/- 3.77e-45]",
+          "mid_float": 8.352030841385097e-10,
+          "radius_upper_float": 0.0
+        },
+        "omitted_angle": {
+          "ball": "[2.5156768782622584664537813877038246e-6 +/- 1.26e-41]",
+          "lower": "[2.5156768782622584664537813877038246e-6 +/- 1.26e-41]",
+          "upper": "[2.5156768782622584664537813877038246e-6 +/- 1.26e-41]",
+          "mid_float": 2.5156768782622584e-06,
+          "radius_upper_float": 0.0
+        },
+        "omitted_radial": {
+          "ball": "[1.0539354359795840550936250967833328e-7 +/- 3.45e-42]",
+          "lower": "[1.0539354359795840550936250967833328e-7 +/- 3.45e-42]",
+          "upper": "[1.0539354359795840550936250967833328e-7 +/- 3.45e-42]",
+          "mid_float": 1.053935435979584e-07,
+          "radius_upper_float": 0.0
+        }
+      },
+      "norm_semantics": "complete sup on working complex bidisk; not an asserted full Wiener norm"
+    },
+    "kstar": {
+      "complete_sup_error": {
+        "ball": "[0.010875972295673544803252779124727908 +/- 1.21e-37]",
+        "lower": "[0.010875972295673544803252779124727908 +/- 1.21e-37]",
+        "upper": "[0.010875972295673544803252779124727908 +/- 1.21e-37]",
+        "mid_float": 0.010875972295673544,
+        "radius_upper_float": 0.0
+      },
+      "pieces": {
+        "node_dft_choice": {
+          "ball": "[0.010805106495836725340714169842752411 +/- 1.96e-37]",
+          "lower": "[0.010805106495836725340714169842752411 +/- 1.96e-37]",
+          "upper": "[0.010805106495836725340714169842752411 +/- 1.96e-37]",
+          "mid_float": 0.010805106495836726,
+          "radius_upper_float": 0.0
+        },
+        "alias": {
+          "ball": "[2.2574166675015253354540511746378227e-8 +/- 3.23e-43]",
+          "lower": "[2.2574166675015253354540511746378227e-8 +/- 3.23e-43]",
+          "upper": "[2.2574166675015253354540511746378227e-8 +/- 3.23e-43]",
+          "mid_float": 2.2574166675015254e-08,
+          "radius_upper_float": 0.0
+        },
+        "omitted_angle": {
+          "ball": "[6.7994611405142237017833830253480187e-5 +/- 2.79e-40]",
+          "lower": "[6.7994611405142237017833830253480187e-5 +/- 2.79e-40]",
+          "upper": "[6.7994611405142237017833830253480187e-5 +/- 2.79e-40]",
+          "mid_float": 6.799461140514224e-05,
+          "radius_upper_float": 0.0
+        },
+        "omitted_radial": {
+          "ball": "[2.8486142650022102674209112102703598e-6 +/- 3.25e-41]",
+          "lower": "[2.8486142650022102674209112102703598e-6 +/- 3.25e-41]",
+          "upper": "[2.8486142650022102674209112102703598e-6 +/- 3.25e-41]",
+          "mid_float": 2.8486142650022104e-06,
+          "radius_upper_float": 0.0
+        }
+      },
+      "norm_semantics": "complete sup on working complex bidisk; not an asserted full Wiener norm"
+    },
+    "Sreg": {
+      "complete_sup_error": {
+        "ball": "[2.5469259707164879770523552648787749e-6 +/- 2.79e-41]",
+        "lower": "[2.5469259707164879770523552648787749e-6 +/- 2.79e-41]",
+        "upper": "[2.5469259707164879770523552648787749e-6 +/- 2.79e-41]",
+        "mid_float": 2.546925970716488e-06,
+        "radius_upper_float": 0.0
+      },
+      "pieces": {
+        "node_dft_choice": {
+          "ball": "[2.4964283006116801740263250124706578e-6 +/- 1.32e-41]",
+          "lower": "[2.4964283006116801740263250124706578e-6 +/- 1.32e-41]",
+          "upper": "[2.4964283006116801740263250124706578e-6 +/- 1.32e-41]",
+          "mid_float": 2.4964283006116803e-06,
+          "radius_upper_float": 0.0
+        },
+        "alias": {
+          "ball": "[1.6085937423563668759305234056764648e-11 +/- 2.74e-46]",
+          "lower": "[1.6085937423563668759305234056764648e-11 +/- 2.74e-46]",
+          "upper": "[1.6085937423563668759305234056764648e-11 +/- 2.74e-46]",
+          "mid_float": 1.6085937423563668e-11,
+          "radius_upper_float": 0.0
+        },
+        "omitted_angle": {
+          "ball": "[4.8451713852773150580265900215714762e-8 +/- 1.64e-44]",
+          "lower": "[4.8451713852773150580265900215714762e-8 +/- 1.64e-44]",
+          "upper": "[4.8451713852773150580265900215714762e-8 +/- 1.64e-44]",
+          "mid_float": 4.845171385277315e-08,
+          "radius_upper_float": 0.0
+        },
+        "omitted_radial": {
+          "ball": "[2.0298703146110887770050469583455324e-9 +/- 2.44e-44]",
+          "lower": "[2.0298703146110887770050469583455324e-9 +/- 2.44e-44]",
+          "upper": "[2.0298703146110887770050469583455324e-9 +/- 2.44e-44]",
+          "mid_float": 2.0298703146110886e-09,
+          "radius_upper_float": 0.0
+        }
+      },
+      "norm_semantics": "complete sup on working complex bidisk; not an asserted full Wiener norm"
+    },
+    "Ltheta": {
+      "complete_sup_error": {
+        "ball": "[0.00043996499580301637582559430694566250 +/- 1.97e-39]",
+        "lower": "[0.00043996499580301637582559430694566250 +/- 1.97e-39]",
+        "upper": "[0.00043996499580301637582559430694566250 +/- 1.97e-39]",
+        "mid_float": 0.00043996499580301637,
+        "radius_upper_float": 0.0
+      },
+      "pieces": {
+        "node_dft_choice": {
+          "ball": "[0.00043995410598074357369376114712598974 +/- 2.41e-39]",
+          "lower": "[0.00043995410598074357369376114712598974 +/- 2.41e-39]",
+          "upper": "[0.00043995410598074357369376114712598974 +/- 2.41e-39]",
+          "mid_float": 0.0004399541059807436,
+          "radius_upper_float": 0.0
+        },
+        "alias": {
+          "ball": "[3.4689323145098339271691568702451723e-12 +/- 2.86e-47]",
+          "lower": "[3.4689323145098339271691568702451723e-12 +/- 2.86e-47]",
+          "upper": "[3.4689323145098339271691568702451723e-12 +/- 2.86e-47]",
+          "mid_float": 3.468932314509834e-12,
+          "radius_upper_float": 0.0
+        },
+        "omitted_angle": {
+          "ball": "[1.0448611818610018973642123982024201e-8 +/- 7.67e-44]",
+          "lower": "[1.0448611818610018973642123982024201e-8 +/- 7.67e-44]",
+          "upper": "[1.0448611818610018973642123982024201e-8 +/- 7.67e-44]",
+          "mid_float": 1.0448611818610019e-08,
+          "radius_upper_float": 0.0
+        },
+        "omitted_radial": {
+          "ball": "[4.3774152187760302559052653386510976e-10 +/- 4.25e-45]",
+          "lower": "[4.3774152187760302559052653386510976e-10 +/- 4.25e-45]",
+          "upper": "[4.3774152187760302559052653386510976e-10 +/- 4.25e-45]",
+          "mid_float": 4.3774152187760303e-10,
+          "radius_upper_float": 0.0
+        }
+      },
+      "norm_semantics": "complete sup on working complex bidisk; not an asserted full Wiener norm"
+    },
+    "U0": {
+      "complete_sup_error": {
+        "ball": "[3.1792584460601457144816437553700292e-5 +/- 2.81e-40]",
+        "lower": "[3.1792584460601457144816437553700292e-5 +/- 2.81e-40]",
+        "upper": "[3.1792584460601457144816437553700292e-5 +/- 2.81e-40]",
+        "mid_float": 3.1792584460601454e-05,
+        "radius_upper_float": 0.0
+      },
+      "pieces": {
+        "node_dft_choice": {
+          "ball": "[3.1790698730105877691967920571515930e-5 +/- 2.27e-40]",
+          "lower": "[3.1790698730105877691967920571515930e-5 +/- 2.27e-40]",
+          "upper": "[3.1790698730105877691967920571515930e-5 +/- 2.27e-40]",
+          "mid_float": 3.179069873010588e-05,
+          "radius_upper_float": 0.0
+        },
+        "alias": {
+          "ball": "[6.0069588728824850297444157782301303e-13 +/- 9.15e-49]",
+          "lower": "[6.0069588728824850297444157782301303e-13 +/- 9.15e-49]",
+          "upper": "[6.0069588728824850297444157782301303e-13 +/- 9.15e-49]",
+          "mid_float": 6.006958872882485e-13,
+          "radius_upper_float": 0.0
+        },
+        "omitted_angle": {
+          "ball": "[1.8093285132884746473220421855827199e-9 +/- 1.04e-46]",
+          "lower": "[1.8093285132884746473220421855827199e-9 +/- 1.04e-46]",
+          "upper": "[1.8093285132884746473220421855827199e-9 +/- 1.04e-46]",
+          "mid_float": 1.8093285132884747e-09,
+          "radius_upper_float": 0.0
+        },
+        "omitted_radial": {
+          "ball": "[7.5801286403689952691965557201511285e-11 +/- 2.94e-46]",
+          "lower": "[7.5801286403689952691965557201511285e-11 +/- 2.94e-46]",
+          "upper": "[7.5801286403689952691965557201511285e-11 +/- 2.94e-46]",
+          "mid_float": 7.580128640368995e-11,
+          "radius_upper_float": 0.0
+        }
+      },
+      "norm_semantics": "complete sup on working complex bidisk; not an asserted full Wiener norm"
+    },
+    "U1": {
+      "complete_sup_error": {
+        "ball": "[0.0047967674318190311273670303176503107 +/- 4.67e-38]",
+        "lower": "[0.0047967674318190311273670303176503107 +/- 4.67e-38]",
+        "upper": "[0.0047967674318190311273670303176503107 +/- 4.67e-38]",
+        "mid_float": 0.0047967674318190314,
+        "radius_upper_float": 0.0
+      },
+      "pieces": {
+        "node_dft_choice": {
+          "ball": "[0.0047963836891083624958215814172583233 +/- 3.20e-38]",
+          "lower": "[0.0047963836891083624958215814172583233 +/- 3.20e-38]",
+          "upper": "[0.0047963836891083624958215814172583233 +/- 3.20e-38]",
+          "mid_float": 0.004796383689108363,
+          "radius_upper_float": 0.0
+        },
+        "alias": {
+          "ball": "[1.2224051560700811394288338048423551e-10 +/- 1.03e-45]",
+          "lower": "[1.2224051560700811394288338048423551e-10 +/- 1.03e-45]",
+          "upper": "[1.2224051560700811394288338048423551e-10 +/- 1.03e-45]",
+          "mid_float": 1.2224051560700812e-10,
+          "radius_upper_float": 0.0
+        },
+        "omitted_angle": {
+          "ball": "[3.6819504685690132209661997584241200e-7 +/- 7.98e-43]",
+          "lower": "[3.6819504685690132209661997584241200e-7 +/- 7.98e-43]",
+          "upper": "[3.6819504685690132209661997584241200e-7 +/- 7.98e-43]",
+          "mid_float": 3.681950468569013e-07,
+          "radius_upper_float": 0.0
+        },
+        "omitted_radial": {
+          "ball": "[1.5425423296123215238337532764582335e-8 +/- 4.38e-43]",
+          "lower": "[1.5425423296123215238337532764582335e-8 +/- 4.38e-43]",
+          "upper": "[1.5425423296123215238337532764582335e-8 +/- 4.38e-43]",
+          "mid_float": 1.5425423296123215e-08,
+          "radius_upper_float": 0.0
+        }
+      },
+      "norm_semantics": "complete sup on working complex bidisk; not an asserted full Wiener norm"
+    }
+  },
+  "proof": "R106 root Taylor formula before angular mean; coefficient Cauchy on the pinned complete bidisk; full signed DFT aliases and omitted radial complement are separately paid.",
+  "no_missing_radial_rows": true
+}

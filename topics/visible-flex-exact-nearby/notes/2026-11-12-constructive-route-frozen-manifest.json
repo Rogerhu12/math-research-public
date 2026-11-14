@@ -1,0 +1,66 @@
+{
+  "kind": "frozen_constructive_batch_pending_root_review",
+  "files": {
+    "scripts/fourfold_turning_return.py": {
+      "sha256": "197e8966a98e677cd2e967ed2d6ead877cc9a668984dd7ef44f1b2d967003efb",
+      "bytes": 17113
+    },
+    "scripts/fourfold_phase_geometry.py": {
+      "sha256": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937",
+      "bytes": 23552
+    },
+    "scripts/fourfold_phase_type_control.py": {
+      "sha256": "cde1ae381789410adbbe4cb00621366dcf85e380d2a6bab440944d1ffc91391b",
+      "bytes": 17649
+    },
+    "notes/2026-11-12-actual-characteristics-and-mean-control.md": {
+      "sha256": "0a96ef173eb97fe3f47c750e7194354134289be6cfa81ee2e5d579071ef4e244",
+      "bytes": 17633
+    },
+    "notes/2026-11-12-new-spline-turning-return.json": {
+      "sha256": "bc06f2855d0956c2b48a63e1eb34de0b5ca0c672d8f5d1e2e2b3ca6f8d3e1db6",
+      "bytes": 4997
+    },
+    "notes/2026-11-12-new-spline-turning-return-fd.json": {
+      "sha256": "20a4d6d5bf843c1e825a47b22056798ef0db66bfb7de6a13c5cd2ed5c8acbe73",
+      "bytes": 647
+    },
+    "notes/2026-11-12-new-spline-return-rotation-exploration.json": {
+      "sha256": "fbbda6c74dd72caa26b4b35c4da53cb10b7e32651e23efb081284a0256b682a5",
+      "bytes": 1440
+    },
+    "notes/2026-11-12-phase-symbol-and-parameter-checks.md": {
+      "sha256": "1e1cec9254303ffcc6cd6aadf9f616fbabf06bee1abca449252109f49d7b7879",
+      "bytes": 7743
+    },
+    "notes/2026-11-12-phase-threejet-preflight.json": {
+      "sha256": "fd71eb60f39dc37101fb4e0f284d27adda74dc98cff5174fa8948bbff052fe0d",
+      "bytes": 729
+    },
+    "notes/2026-11-12-phase24-actual-type.json": {
+      "sha256": "64f1737fce5c0fb1c068525c6aa7addc0d8bdad1f9da5eb78ac5c9b523b3e9bf",
+      "bytes": 45548
+    },
+    "notes/2026-11-12-phase24-three-root-mean-control.json": {
+      "sha256": "7179b60c34a773459282f35bd0158c81d3f60b43a8d2cdbf84b00cf182dd799d",
+      "bytes": 54814
+    },
+    "notes/2026-11-12-phase24-compatible-ring-removal-trial.json": {
+      "sha256": "e0ab00ab1c426220814ab1c1bca803f314628a712c00799bf16a550a2677c244",
+      "bytes": 458499
+    },
+    "notes/2026-11-12-phase24-type-network-and-compatible-removal.md": {
+      "sha256": "ef5c7a356a39534aab42590add5e1f0fff2a53237ceefdd396eb4d1b6531ae5a",
+      "bytes": 8149
+    },
+    "data/fourfold_phase_m24n201_ring_removed_predictor.npz": {
+      "sha256": "0491c4a735e59e2631e8bc8646d4b6590ec699b74c4c4885dc981be6b7aedbaf",
+      "bytes": 96867
+    }
+  },
+  "not_frozen": [
+    "scripts/fourfold_phase_turning_return.py",
+    "scripts/fourfold_phase_core_type_predictor.py",
+    "notes/2026-11-12-phase24-modified-return-schur.json"
+  ]
+}

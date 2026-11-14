@@ -1,0 +1,103 @@
+{
+  "kind": "orchestration_of_true_step5_turn_domain_runs",
+  "complete": false,
+  "source_sha256": "b7b05da28d63c186b4cfbefb09de1f96c6e82f98ed9146f7358ac31ad5bddd3a",
+  "geometry_sha256": "c369f202fed14a6951b44cfaf3e3890841814c15040f0d15773d2bc61b189efa",
+  "requested_cases": [
+    [
+      "forward",
+      0
+    ],
+    [
+      "forward",
+      1
+    ],
+    [
+      "forward",
+      2
+    ],
+    [
+      "forward",
+      3
+    ],
+    [
+      "forward",
+      547
+    ],
+    [
+      "forward",
+      548
+    ],
+    [
+      "forward",
+      549
+    ],
+    [
+      "backward",
+      0
+    ],
+    [
+      "backward",
+      1
+    ],
+    [
+      "backward",
+      2
+    ],
+    [
+      "backward",
+      3
+    ],
+    [
+      "backward",
+      547
+    ],
+    [
+      "backward",
+      548
+    ],
+    [
+      "backward",
+      549
+    ]
+  ],
+  "curvature_radius": "3/1250",
+  "radial_degree": 64,
+  "cases": [
+    {
+      "leg": "forward",
+      "segment": 0,
+      "completed": true,
+      "proved": true,
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward000_turn_domain.json",
+      "sha256": "634b536b43655551197c080e832ba5164265184520cd923010ce98c5af80c639",
+      "bytes": 118544
+    },
+    {
+      "leg": "forward",
+      "segment": 1,
+      "completed": true,
+      "proved": true,
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward001_turn_domain.json",
+      "sha256": "ce09b230a2f1327619879aeffd96e1f4bdef8f058241fa59f3092da7c89f1fee",
+      "bytes": 118526
+    },
+    {
+      "leg": "forward",
+      "segment": 2,
+      "completed": true,
+      "proved": true,
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward002_turn_domain.json",
+      "sha256": "6df63f236421a493af2aa4e83a5df08ec8956bc10e44ca91afd311525b508202",
+      "bytes": 118520
+    },
+    {
+      "leg": "forward",
+      "segment": 3,
+      "completed": false,
+      "proved": false,
+      "error": "ValueError: the complete real turning collar leaves its actual common scalar span"
+    }
+  ],
+  "all_requested_domain_gates_proved": false
+}

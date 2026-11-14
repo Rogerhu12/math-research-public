@@ -1,0 +1,274 @@
+{
+  "schema": "R119-all-symmetric-quadratic-kernels-and-positive-scattering-control-v1",
+  "complete": true,
+  "executed": true,
+  "gate_count": 32,
+  "gates": [
+    {
+      "name": "complete_symmetric_square_first_observability_identity",
+      "arithmetic": "exact multivariate BigInt polynomial",
+      "residual": [],
+      "pass": true
+    },
+    {
+      "name": "complete_symmetric_square_second_observability_identity",
+      "arithmetic": "exact multivariate BigInt polynomial",
+      "residual": [],
+      "pass": true
+    },
+    {
+      "name": "complete_covariance_recovery_without_positive_energy",
+      "arithmetic": "exact multivariate BigInt polynomial",
+      "residual": [],
+      "pass": true
+    },
+    {
+      "name": "original_exact_Z_recovery_is_valid_for_indefinite_A",
+      "arithmetic": "exact multivariate BigInt polynomial",
+      "residual": [],
+      "pass": true
+    },
+    {
+      "name": "reserved_centres_Qx_lower_strict",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "1/1",
+      "right": "842415/524288",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "reserved_centres_Qx_upper_strict",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "225/128",
+      "right": "2/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "reserved_real_Q_upper_strict",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "71/8",
+      "right": "9/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "wave_frame_squared_norm_coefficient",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "16/1",
+      "right": "16/1",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "all_covariance_entries_X_coefficient",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "140/1",
+      "right": "256/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "complete_covariance_Y_coefficient",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "2573/2",
+      "right": "2048/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "complete_covariance_Z_coefficient",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "2318/1",
+      "right": "4096/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "observability_binary_cost_before_rounding",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "17/1",
+      "right": "20/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "all_symmetric_spectral_decomposition_norm",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "2/1",
+      "right": "4/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "short_propagation_division_by_three",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "3/1",
+      "right": "16/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "new_separation_binary_cost_at_L13",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "9088/1",
+      "right": "29952/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "new_separation_B_cost_at_L13",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "480/1",
+      "right": "832/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "new_complex_square_prefix",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "1792/1",
+      "right": "1792/1",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "new_compact_pairing_binary_cost",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "18002260/1",
+      "right": "22151168/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "new_compact_a_power",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "421875/1",
+      "right": "432640/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "new_compact_B_power",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "843778/1",
+      "right": "865280/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "new_compact_lambda_power",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "421849/1",
+      "right": "432640/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "new_compact_covariance_K_power",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "562482/1",
+      "right": "584064/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "finite_net_support_margin",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "3/4",
+      "right": "3/4",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "target_identity_Frobenius_radius_squared",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "1/8",
+      "right": "9/16",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "complex_incoming_positive_generator_factor",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "1/8",
+      "right": "1/8",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "full_scattering_generator_matrix_Hessian",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "16777344/1",
+      "right": "1073741824/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "complete_band_error_margin",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "1/16",
+      "right": "7/64",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "band_direction_operator_upper_binary_exponent",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "-33/1",
+      "right": "-33/1",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "all_control_band_norms_stay_in_real_compensation_ball",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "1/604462909807314587353088",
+      "right": "1/36893488147419103232",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "complete_local_D_log_polynomial_fee",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "6401/1",
+      "right": "8192/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "full_polynomial_fee_over_Mh_first_layer",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "-474173/512",
+      "right": "-803/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "two_derivatives_and_dyadic_band_width_fee",
+      "arithmetic": "normalized exact BigInt rational",
+      "left": "5/8",
+      "right": "1/1",
+      "relation": "<",
+      "pass": true
+    }
+  ],
+  "normalized_state": "unit wave fundamental at the actual unused interval centre",
+  "covariance_space": "all real Sym2, including indefinite matrices, Frobenius norm one",
+  "compact_control": "finite convex combination of at most four real C9 controls; sum C4 <=1; all degree<=19 phase kernels annihilated exactly",
+  "complete_pairing_matrix": "(D_L/4)*I",
+  "complete_complex_scattering_generator_lower": "D_L/(8 K_j^2)",
+  "complete_finite_band_generator_lower": "D_jm=r_j D_L/(16 Nband K_j^2) > exp(-2^-800 M h_j)",
+  "outside_control_uniformity": "all other reserved intervals may be simultaneously controlled inside the common actual C4 ball; no fixed prior global resonant trial reused",
+  "dependencies": {
+    "actual_short_support": "27e75c019c0e4441c3237a36bb3c9f485fd2cdbf",
+    "complete_phase_compensation": "dd0d1378fce997297795ce14312fe91b181af4b1",
+    "actual_compact_normalization": "5662bf40391a53a2212311406cf7ad63064908fc",
+    "complete_radial_network_commit": "789268ff1c9d7852733f32e6f89fc3c37cbe6d7f"
+  },
+  "original_h_zeta_low_source_weights_unchanged": true,
+  "numerical_control_coefficients_claimed": false,
+  "common_infinite_parameters_selected": false,
+  "coupled_nonradial_inverse_proved": false,
+  "producer_sha256": "2fbdb150527d4b8f751e1bd79e867bd3eef4d398cfcd03f8d3223a26c7670857"
+}

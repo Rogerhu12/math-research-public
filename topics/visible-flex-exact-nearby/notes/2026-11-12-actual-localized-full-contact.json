@@ -1,0 +1,133 @@
+{
+  "kind": "actual_complete_exterior_localized_root_collar_contact",
+  "proved": true,
+  "source_sha256": "10c6ea8acc199bc5d099c355b8a125fd4f9d7e13172f67ae2bccf835e267ef52",
+  "dependency_sha256": {
+    "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f"
+  },
+  "input_sha256": {
+    "notes/2026-11-12-positive-family-root-collar.json": "f796e89e61f45ffba22c2aa2ab145a40ec4a80fe39abe30bc797dc0b06b966cc",
+    "notes/2026-11-12-actual-closed-approximate-exterior.json": "2d9dd3fec38a1f6b75bd41d858f9ef2cd0b7205a57ad9a5f6ee66996404aebbf",
+    "notes/2026-11-12-actual-exterior-robin-certificate.json": "c5645727cf5a382bb45aa002f36eafe80cdd7c17ffdc56f7bbec2e224684c958",
+    "notes/2026-11-12-common-core-exterior-parameter-interval.json": "23d1062d080cd875e69a32ba76f45080990a9d41c29094eb3e00ad01d7593af0"
+  },
+  "exact_parameter_interval": [
+    "-608725607945540621497/360287970189639680000000",
+    "-608437377569388909753/360287970189639680000000"
+  ],
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "bits": 256,
+  "constants": {
+    "collar_length_lower": {
+      "ball": "[0.011603124879035864314147374898311682 +/- 4.56e-38]",
+      "lower": "[0.011603124879035864314147374898311682 +/- 4.56e-38]",
+      "upper": "[0.011603124879035864314147374898311682 +/- 4.56e-38]",
+      "mid_float": 0.011603124879035864,
+      "radius_upper_float": 0.0
+    },
+    "collar_length_upper": {
+      "ball": "[0.011603127661484247123979685056838207 +/- 5.33e-38]",
+      "lower": "[0.011603127661484247123979685056838207 +/- 5.33e-38]",
+      "upper": "[0.011603127661484247123979685056838207 +/- 5.33e-38]",
+      "mid_float": 0.011603127661484247,
+      "radius_upper_float": 0.0
+    },
+    "collar_matrix_lower": {
+      "ball": "[0.024759788201589129579814469844298537 +/- 3.98e-38]",
+      "lower": "[0.024759788201589129579814469844298537 +/- 3.98e-38]",
+      "upper": "[0.024759788201589129579814469844298537 +/- 3.98e-38]",
+      "mid_float": 0.02475978820158913,
+      "radius_upper_float": 0.0
+    },
+    "collar_matrix_upper": {
+      "ball": "[45.348056934421638469943236447296150 +/- 2.82e-34]",
+      "lower": "[45.348056934421638469943236447296150 +/- 2.82e-34]",
+      "upper": "[45.348056934421638469943236447296150 +/- 2.82e-34]",
+      "mid_float": 45.34805693442164,
+      "radius_upper_float": 0.0
+    },
+    "whole_length_lower": {
+      "ball": "[2.8866031248790358643141473748983117 +/- 1.81e-35]",
+      "lower": "[2.8866031248790358643141473748983117 +/- 1.81e-35]",
+      "upper": "[2.8866031248790358643141473748983117 +/- 1.81e-35]",
+      "mid_float": 2.886603124879036,
+      "radius_upper_float": 0.0
+    },
+    "whole_matrix_upper": {
+      "ball": "[146.96549789656830195499984155792546 +/- 3.85e-33]",
+      "lower": "[146.96549789656830195499984155792546 +/- 3.85e-33]",
+      "upper": "[146.96549789656830195499984155792546 +/- 3.85e-33]",
+      "mid_float": 146.9654978965683,
+      "radius_upper_float": 0.0
+    },
+    "gradient_extension_squared": {
+      "ball": "[86.183679864272283975904535325984688 +/- 2.87e-34]",
+      "lower": "[86.183679864272283975904535325984688 +/- 2.87e-34]",
+      "upper": "[86.183679864272283975904535325984688 +/- 2.87e-34]",
+      "mid_float": 86.18367986427228,
+      "radius_upper_float": 0.0
+    },
+    "root_extension_energy_squared": {
+      "ball": "[3908.2624213029872811295842337363865 +/- 3.25e-32]",
+      "lower": "[3908.2624213029872811295842337363865 +/- 3.25e-32]",
+      "upper": "[3908.2624213029872811295842337363865 +/- 3.25e-32]",
+      "mid_float": 3908.262421302987,
+      "radius_upper_float": 0.0
+    },
+    "regular_mean_extension_energy_squared": {
+      "ball": "[50.912956003512586675099848751597022 +/- 1.01e-34]",
+      "lower": "[50.912956003512586675099848751597022 +/- 1.01e-34]",
+      "upper": "[50.912956003512586675099848751597022 +/- 1.01e-34]",
+      "mid_float": 50.91295600351258,
+      "radius_upper_float": 0.0
+    },
+    "root_localized_Poisson": {
+      "ball": "[794.61559403231767612696029136753983 +/- 4.55e-33]",
+      "lower": "[794.61559403231767612696029136753983 +/- 4.55e-33]",
+      "upper": "[794.61559403231767612696029136753983 +/- 4.55e-33]",
+      "mid_float": 794.6155940323176,
+      "radius_upper_float": 0.0
+    },
+    "regular_mean_localized_Poisson": {
+      "ball": "[90.693883364623229880371961055151563 +/- 2.34e-34]",
+      "lower": "[90.693883364623229880371961055151563 +/- 2.34e-34]",
+      "upper": "[90.693883364623229880371961055151563 +/- 2.34e-34]",
+      "mid_float": 90.69388336462323,
+      "radius_upper_float": 0.0
+    },
+    "complete_localized_Poisson_and_contact": {
+      "ball": "[799.77454495569498405102719133433870 +/- 4.28e-33]",
+      "lower": "[799.77454495569498405102719133433870 +/- 4.28e-33]",
+      "upper": "[799.77454495569498405102719133433870 +/- 4.28e-33]",
+      "mid_float": 799.774544955695,
+      "radius_upper_float": 0.0
+    },
+    "high_root_localized_Poisson": {
+      "ball": "[89.111608066482623086686733597518464 +/- 7.46e-35]",
+      "lower": "[89.111608066482623086686733597518464 +/- 7.46e-35]",
+      "upper": "[89.111608066482623086686733597518464 +/- 7.46e-35]",
+      "mid_float": 89.11160806648262,
+      "radius_upper_float": 0.0
+    },
+    "sufficient_high_frequency": {
+      "ball": "[2262.9895262771209123989731217013389 +/- 3.12e-32]",
+      "lower": "[2262.9895262771209123989731217013389 +/- 3.12e-32]",
+      "upper": "[2262.9895262771209123989731217013389 +/- 3.12e-32]",
+      "mid_float": 2262.989526277121,
+      "radius_upper_float": 0.0
+    }
+  },
+  "spaces": {
+    "trace": "H^(1/3)(root physical shear angle) direct_sum C regular physical mean",
+    "localized_source": "L2_x H^(-2/3), supported in the true root-to-quarter collar",
+    "contact": "H^(-1/3) root conormal direct_sum C regular mean flux"
+  },
+  "scope": [
+    "The Poisson solution uses the entire same actual R74 exterior and true full-tail Robin.",
+    "Both mean slots and all source-contact cross terms remain in the Hilbert direct sum.",
+    "The coefficient in the report is in the actual grounded shear coordinates.",
+    "Sources outside the collar and regular loads retain the complete R81 bounds.",
+    "No whole-collar canonical Airy residual or feedback cutoff is asserted here."
+  ]
+}

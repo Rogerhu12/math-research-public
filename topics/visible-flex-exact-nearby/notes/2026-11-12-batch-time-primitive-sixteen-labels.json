@@ -1,0 +1,67 @@
+{
+  "kind": "actual_batched_time_primitive_retained_coefficients_and_cost",
+  "complete": true,
+  "provenance": {
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_phase_batch_time_primitive.py": "8a6353ee2633a23c012f2a2bf4bb534403d8e0b2214b4caea44c02cfa0a77046",
+    "data/phase_ring_continuation/r61_step3_shared_forward/manifest.json": "0b5c7b410fd2ec2638f583396f51fcb1ddc1c311c39f978f3dfb3e1d6f7dd5a7",
+    "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_object.json": "e6ff2d46ed2d321c1b287e6c9d8e44ead7b9a70523350d145d703b4edd6def0f",
+    "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_root_tight.json": "afdc964a11682f9c54ceb1e6a165950f007ea26ab917f8dbde8b38c9fe78629f"
+  },
+  "segment": 419,
+  "subspan": [
+    "31/64",
+    "33/64"
+  ],
+  "labels": 16,
+  "label_imaginary": "1/512",
+  "algorithm": "fast",
+  "bits": 192,
+  "geometry_seconds": 11.802939475999665,
+  "primitive_seconds": 14.15014159400016,
+  "total_seconds": 14.84040251299848,
+  "infinite_primitive_fees": [
+    "[3.03022723408118364194570297335742399588978630524858279297e-33 +/- 2.20e-90]",
+    "[4.05737376781534538472252903646739453175224367774145057933e-33 +/- 4.70e-91]",
+    "[4.37744792012743837133653305718563931434312748476432640411e-33 +/- 4.15e-90]",
+    "[4.53285623364844042009191654821730255293997432309880209213e-33 +/- 1.80e-91]",
+    "[5.64773523861150195697463078647497602484093563098214320043e-33 +/- 1.12e-90]",
+    "[6.07708904045243662645915295985700453345918419193981055484e-33 +/- 3.80e-91]",
+    "[4.70590749444768365785497148792661990898578033504728507277e-33 +/- 9.01e-92]",
+    "[4.40414042582943361245190954629508421026583625548568565290e-33 +/- 1.47e-90]",
+    "[3.62186636064773496754778877858658300317238804444695666135e-33 +/- 2.22e-90]",
+    "[2.91316640761390108000397783388328252144957715053243826672e-33 +/- 1.73e-90]",
+    "[2.09016298743504810693851221733269738868780187268608310750e-33 +/- 3.37e-90]",
+    "[1.93601485368829627071330857272444721220775279527704425955e-33 +/- 3.75e-91]",
+    "[1.83435362284747188530831318106900113363630131089269492621e-33 +/- 3.52e-90]",
+    "[1.85455497509029068390971567569277579088075464202313265612e-33 +/- 1.40e-90]",
+    "[2.00858710030190761596627834349397386321121576218940654857e-33 +/- 1.39e-90]",
+    "[2.42636018814909723347282107379580071148149685008614139484e-33 +/- 2.49e-90]"
+  ],
+  "direct_four_points_seconds": 0.7684711550009524,
+  "independent_checks": [
+    {
+      "index": 0,
+      "all_f_f1_f2_time_coefficients_overlap": true,
+      "largest_component_radius": 3.8260403651974646e-19
+    },
+    {
+      "index": 5,
+      "all_f_f1_f2_time_coefficients_overlap": true,
+      "largest_component_radius": 8.406259204611621e-20
+    },
+    {
+      "index": 10,
+      "all_f_f1_f2_time_coefficients_overlap": true,
+      "largest_component_radius": 0.3580069444142282
+    },
+    {
+      "index": 15,
+      "all_f_f1_f2_time_coefficients_overlap": true,
+      "largest_component_radius": 0.4278985299170017
+    }
+  ],
+  "limitations": [
+    "Retained coefficients only; no omitted-time or outer-domain bound.",
+    "Finite labels only; no continuous initial-circle residual is asserted."
+  ]
+}

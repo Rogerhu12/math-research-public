@@ -1,0 +1,158 @@
+{
+  "kind": "R106_actual_complex_root_drift_from_real_axis_and_Chebyshev",
+  "complete": true,
+  "parameter_center": "-7789843107295549/4611686018427387904",
+  "parameter_half_width": "1/1000000000",
+  "physical_theta_strip": "1/320",
+  "target_root_semantics": "t=t(p) is the real radial target-curvature root, independent of complex theta; not a nonradial detII root",
+  "outer_rho_radius": "1/2000",
+  "real_half_interval": "3/10000",
+  "outer_ellipse_parameter": "3",
+  "inner_ellipse_parameter": "21/20",
+  "degree": 22,
+  "complex_drift_bound": {
+    "exact": "15094192482356543796294422702397/545259520000000000000000000000",
+    "decimal_upper": "27.6825840332994897481010"
+  },
+  "safe_complex_drift_bound": "28",
+  "coarse_outer_drift": {
+    "exact": "6834375000",
+    "decimal_upper": "6834375000.0000000000000000000000"
+  },
+  "real_axis_drift_safe": "9",
+  "real_Chebyshev_tail": {
+    "exact": "7000000000/31381059609",
+    "decimal_upper": "0.2230644881727454354807"
+  },
+  "complex_Chebyshev_tail": {
+    "exact": "191581231380566414401/272629760000000000000",
+    "decimal_upper": "0.7027157687428049469031"
+  },
+  "inner_semimajor": {
+    "exact": "841/2800000",
+    "decimal_upper": "0.0003003571428571428572"
+  },
+  "inner_semiminor": {
+    "exact": "41/2800000",
+    "decimal_upper": "0.0000146428571428571429"
+  },
+  "entire_actual_root_collar_rho_upper": {
+    "exact": "20000111248773819738744350615889198789/81920000000000000000000000000000000000000",
+    "decimal_upper": "0.0002441419830172585418"
+  },
+  "uniform_complex_radial_tube": "7/1000000",
+  "tube_ellipse_inclusion_polynomial": {
+    "exact": "28554287048/29723484025",
+    "decimal_upper": "0.9606642015445899599585"
+  },
+  "gates": [
+    {
+      "name": "complete original fixed-r derivative collar",
+      "passed": true
+    },
+    {
+      "name": "previous complete coarse root geometry theorem",
+      "passed": true
+    },
+    {
+      "name": "actual real-core principal field certificate",
+      "passed": true
+    },
+    {
+      "name": "same exact affine origin and direction",
+      "passed": true
+    },
+    {
+      "name": "requested real parameter tube inside R75",
+      "passed": true
+    },
+    {
+      "name": "requested parameter tube inside complex root collar",
+      "passed": true
+    },
+    {
+      "name": "real drift below nine",
+      "passed": true
+    },
+    {
+      "name": "complex theta strips nested",
+      "passed": true
+    },
+    {
+      "name": "whole complex root disk in one actual scalar germ",
+      "passed": true
+    },
+    {
+      "name": "real Chebyshev interval belongs to actual R75 radial domain",
+      "passed": true
+    },
+    {
+      "name": "target root is real and radial",
+      "passed": true
+    },
+    {
+      "name": "complete prior primitive bound",
+      "passed": true
+    },
+    {
+      "name": "complete prior true angular tangent bound",
+      "passed": true
+    },
+    {
+      "name": "paid positive whole complex area",
+      "passed": true
+    },
+    {
+      "name": "paid positive whole complex a0",
+      "passed": true
+    },
+    {
+      "name": "complete characteristic drift below seven billion",
+      "passed": true
+    },
+    {
+      "name": "outer Bernstein ellipse lies inside complete complex radial disk",
+      "passed": true
+    },
+    {
+      "name": "whole inner ellipse drift below 28",
+      "passed": true
+    },
+    {
+      "name": "true cut is on inward real collar",
+      "passed": true
+    },
+    {
+      "name": "every radius-seven-micro disk along the real root collar fits inner ellipse",
+      "passed": true
+    }
+  ],
+  "not_proved": [
+    "signed Fourier coefficient vector of q",
+    "complete b-beta or any effective R104 cutoff",
+    "a result for a nonradial moving root t(theta)"
+  ],
+  "provenance": {
+    "source": "scripts/fourfold_subprincipal_root_drift_chebyshev_exact.mjs",
+    "source_sha256": "ea57f609240a17ac21ad73fa0da7041516e03c248ff530eda1c13bc469231be0",
+    "inputs": [
+      {
+        "key": "collar",
+        "path": "notes/2026-11-12-beta-step3-true-derivative-collar-h1e5-domain500.json",
+        "sha256": "b387ede87055d0a990cafca12002b8baead5a2415d2d4cef610dde99405efd08"
+      },
+      {
+        "key": "existence",
+        "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_real_parameter_return_existence.json",
+        "sha256": "edd1450e9418ad060c54dd64885c7e5e77d3b34ba538d3da16b5395a2737cdc2"
+      },
+      {
+        "key": "migration",
+        "path": "notes/2026-11-13-R106-coarse-root-finite-part.json",
+        "sha256": "da377ff1bd64f53b436eee714bda394f288cea8c41e167da0a680ea1ab4d6f4e"
+      }
+    ],
+    "proof": "results/R106-supplement-root-drift-chebyshev.md",
+    "execution": "Exact BigInt computeChebyshevRootDrift; no new geometry or numerical samples."
+  }
+}

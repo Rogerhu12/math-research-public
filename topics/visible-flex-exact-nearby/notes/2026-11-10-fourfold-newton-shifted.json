@@ -1,0 +1,76 @@
+{
+  "kind": "floating_finite_fourier_newton_not_proof",
+  "parameters": {
+    "mu_scale": 4.0,
+    "points": 601,
+    "length": 3.0,
+    "first_shift": 1,
+    "tail_weight": 3,
+    "mean_gauge": "radius",
+    "mean_directions": 3,
+    "mean": "depth",
+    "bump_radius": 0.25,
+    "modes": 16,
+    "epsilons": [
+      0.05,
+      0.0525,
+      0.055,
+      0.0575
+    ],
+    "max_newton": 20,
+    "start_cache": "/workspace/scratch/76e8d4b55978/fourfold-candidates/fourfold-newton-weighted-radius.npz",
+    "out": "topics/visible-flex-exact-nearby/notes/2026-11-10-fourfold-newton-shifted.json",
+    "cache": "/workspace/scratch/76e8d4b55978/fourfold-candidates/fourfold-newton-shifted.npz",
+    "linear_method": "direct",
+    "restart": 35,
+    "cycles": 4
+  },
+  "history": [
+    {
+      "epsilon": 0.05,
+      "iteration": 0,
+      "low_coefficient_residual": 0.005639872897481697,
+      "retained_robin_system_residual": 0.005639872897481697,
+      "system_tail_weight": 3,
+      "outer_xx_metric_coeff_residual": 3.7086734450307154e-26,
+      "robin_residual": 2.101613435999986e-11,
+      "full_metric_sample": 0.010639026338791824,
+      "full_metric_all_x_sample": 0.010639026338791824,
+      "alpha": [
+        0.05664250460882002,
+        0.006794349678469589,
+        0.0028959802131927814
+      ],
+      "linear_method": "sparse_direct",
+      "jacobian_nnz": 8746354,
+      "linear_residual": 8.579152917769829e+91,
+      "mean_schur": [
+        -3.420373978752192e+102,
+        -416.68472594710215,
+        3802582879973.2485
+      ],
+      "maximum_step": 9.824675439760635e+94
+    }
+  ],
+  "summaries": [
+    {
+      "epsilon": 0.05,
+      "success": false,
+      "actual_spline_metric": {
+        "epsilon": 1.0,
+        "order": 1,
+        "core": 3.0,
+        "diameter_sample": 2.312720966832643,
+        "waist_signed_radial_gap": 0.106394312681659,
+        "waist_signed_gap_over_sampled_diameter": 0.04600395560358929,
+        "samples": 1201,
+        "angles": 256,
+        "metric_operator_norm_sample": 0.009162496389446826,
+        "at_x": 0.03,
+        "at_theta": 4.76147636559703,
+        "minimum_mean_xx": 3.7247382749965163e-09,
+        "minimum_mean_tt": 1.1787621318281608e-10
+      }
+    }
+  ]
+}

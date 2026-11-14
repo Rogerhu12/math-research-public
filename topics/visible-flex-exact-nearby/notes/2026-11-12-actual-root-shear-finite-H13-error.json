@@ -1,0 +1,43 @@
+{
+  "kind": "complete_actual_root_shear_finite_reference_H13_output_error",
+  "proved": true,
+  "source_sha256": "1200e3442539fe6426baa03f0de095902ed45d491632dbfe7e876caf5dfec59a",
+  "bits": 320,
+  "columns_path": "data/root_finite_grid/physical_columns4096/manifest.json",
+  "columns_sha256": "c093aa167bf6f0e416f0f8c5f0aaddebfb3be7a8ba1d1439768ff8e57cc460be",
+  "true_physical_tail_sha256": "bfc7ea9c2d27e2937bd69b8f238cb6cfd3a19e056a9dc115e8a4c022e2b39ac6",
+  "physical_cutoff": 4096,
+  "norm": "normalized physical Fourier norm: sum_n (1+(4n)^2)^(1/3)*abs(f_hat_n)^2",
+  "finite_output_weight": {
+    "ball": "[25.398416847260604207990927460314786 +/- 1.62e-34]",
+    "lower": "[25.398416847260604207990927460314786 +/- 1.62e-34]",
+    "upper": "[25.398416847260604207990927460314786 +/- 1.62e-34]",
+    "mid_float": 25.398416847260606,
+    "radius_upper_float": 0.0
+  },
+  "true_high_output_conversion": {
+    "ball": "[1.0000000006205786615331067616092032 +/- 4.52e-35]",
+    "lower": "[1.0000000006205786615331067616092032 +/- 4.52e-35]",
+    "upper": "[1.0000000006205786615331067616092032 +/- 4.52e-35]",
+    "mid_float": 1.0000000006205787,
+    "radius_upper_float": 0.0
+  },
+  "full_L2_operator_error": {
+    "ball": "[0.00016074460817971216835823764158465108 +/- 4.79e-39]",
+    "lower": "[0.00016074460817971216835823764158465108 +/- 4.79e-39]",
+    "upper": "[0.00016074460817971216835823764158465108 +/- 4.79e-39]",
+    "mid_float": 0.00016074460817971218,
+    "radius_upper_float": 0.0
+  },
+  "complete_L2_to_inhomogeneous_H13_error": {
+    "ball": "[0.0040826585644979073594214989439587803 +/- 4.23e-38]",
+    "lower": "[0.0040826585644979073594214989439587803 +/- 4.23e-38]",
+    "upper": "[0.0040826585644979073594214989439587803 +/- 4.23e-38]",
+    "mid_float": 0.004082658564497907,
+    "radius_upper_float": 0.0
+  },
+  "proof": "Split output P_N+(I-P_N). The finite part is bounded by its maximum Fourier weight times the complete L2 error; F has zero high output, so the complete true R92 high-output H13 estimate pays the other part.",
+  "actual_narrow_family": true,
+  "mean_retained": true,
+  "complete_feedback_claimed": false
+}

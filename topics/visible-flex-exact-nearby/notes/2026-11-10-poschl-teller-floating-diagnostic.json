@@ -1,0 +1,48 @@
+{
+  "status": "floating diagnostics only; no rigorous geometry certificate",
+  "object": "R4 rotational background, not a nonlinear flexible surface",
+  "parameters": {
+    "mu": "sqrt(2)",
+    "A": "2+sqrt(2)/3"
+  },
+  "runtime": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "ode": {
+    "method": "RK45",
+    "rtol": 2e-12,
+    "atol": 2e-14,
+    "xmax": 10.0,
+    "panels": 10000
+  },
+  "samples": {
+    "h_min": 0.9195997301653009,
+    "half_height_at_xmax": 2.007769248780311,
+    "half_arc_length_at_xmax": 2.66681698439793,
+    "enclosing_radius": 2.0077692487964476,
+    "maximum_absolute_principal_curvature": 1.1220017625348455,
+    "minimum_positive_support": 0.9658484536070999,
+    "uncertified_reach_proxy_over_ball_diameter": 0.22195384195847412
+  },
+  "spectrum": {
+    "max_mode": 500,
+    "decimal_precision": 70,
+    "excluded_exact_kernel": {
+      "n": 3,
+      "j": 0
+    },
+    "minimum_absolute_discrete_eigenvalue": "0.6782634824117435641691957013231101346662486114212876597958776906690462",
+    "argmin_n": 1,
+    "argmin_j": 0,
+    "signed_eigenvalue": "0.6782634824117435641691957013231101346662486114212876597958776906690462",
+    "scope": "finite decimal diagnostic; not a proof of the all-mode gap"
+  },
+  "missing": [
+    "interval error control for geometry",
+    "infinite x tail bounds",
+    "nonlinear exact isometry",
+    "fixed open caps",
+    "visible flex amplitude"
+  ]
+}

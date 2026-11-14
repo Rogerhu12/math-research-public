@@ -1,0 +1,152 @@
+{
+  "status": "passed",
+  "computed_at_utc_date": "2026-11-13",
+  "implementation": "new pure JavaScript exact reduced-rational BigInt",
+  "execution_claim": "V8 functions execution; not the lost Python/native run",
+  "producer_git_blob_sha": "6a4c9659cfa629b6d70e9ee88d099f319b66c2c2",
+  "proof_git_blob_sha": "811e36bbc3858a2c3e3792d5103b4f25d38694b9",
+  "dependencies": {
+    "results/R119-supplement-two-parameter-full-tail-chart-reconstructed.md": "a76cb5bb70bd0d2e5a5a48967b16679ef8ed4170",
+    "results/R119-supplement-actual-nonradial-first-density-phase.md": "811e36bbc3858a2c3e3792d5103b4f25d38694b9",
+    "results/R119-supplement-actual-strict-density-complete-relative-Cauchy.md": "ce2ae0beeb75d96db8f433ee6ebaeb88bfcf96e7",
+    "results/R119-supplement-actual-joint-analytic-root-and-relative-Airy-Cauchy.md": "3d8f5ee032b8b2c1eb73b1cf7f072ed4e8fd7cbc",
+    "results/R119-supplement-actual-root-graph-to-fixed-radial-two-port.md": "5e33e4efae59ce6982a230a34d1d17f18e603eda",
+    "results/R119-supplement-actual-complete-radial-return-first-phase.md": "0d1fb3753cf159387864cbe7d8b87cab086a0aac",
+    "results/R119-supplement-stronger-deep-full-label-chart-and-fourth-line.md": "c8bb47e46fcfa26fa05da0825a597529b2e43dd0",
+    "results/R119-supplement-actual-phase-preserving-subprincipal-metric-parameter.md": "ae87a824ab3e58479894df470c9f066969e83241",
+    "results/R119-supplement-actual-two-parameter-complete-phase-arithmetic.md": "7d2a2f93a6c1c2ce01931fcba94fb8d1478cb7dc",
+    "results/R119-supplement-actual-positive-band-two-end-dn-and-ordinary-source.md": "2d26fdb91363744bfe74ae83ee81bdcce60588af",
+    "results/R119-supplement-positive-DN-in-actual-Airy-endpoint-angles.md": "5181b7dd7a03dcac64a4e2b72027ffc9a549a6ca",
+    "results/R45-supplement-actual-exact-positive-cap-Airy-contact-and-four-thirds.md": "abdc0be67c66dbdbdd6eecefaba603b05da9b2e3"
+  },
+  "gates_passed": 25,
+  "gates_total": 25,
+  "gates": [
+    {
+      "name": "finite_part_density_coefficient",
+      "pass": true,
+      "detail": "(5/16)*(2/3)=5/24"
+    },
+    {
+      "name": "half_density_finite_part",
+      "pass": true,
+      "detail": "half-integral subtracts 5*b/(48*epsilon^(3/2))"
+    },
+    {
+      "name": "physical_to_standard_frequency",
+      "pass": true,
+      "detail": "-2*b/m=-b/(2*n), m=4*n"
+    },
+    {
+      "name": "root_H_and_sqrt",
+      "pass": true,
+      "detail": "H=1/64, sqrt(H)=1/8"
+    },
+    {
+      "name": "positive_height_absorption",
+      "pass": true,
+      "detail": "5/64<1"
+    },
+    {
+      "name": "positive_height_reserve",
+      "pass": true,
+      "detail": "|log(alpha)_xi|<9 gives half-gradient<5 with paid tiny angular term"
+    },
+    {
+      "name": "graph_density_fee_exponents",
+      "pass": true,
+      "detail": "2^17*b times 2^13*n is 2^30*b*n"
+    },
+    {
+      "name": "root_potential_fee_exponents",
+      "pass": true,
+      "detail": "2^32*b*n*sqrt(H)=2^29*b*n"
+    },
+    {
+      "name": "two_roots_with_state_four",
+      "pass": true,
+      "detail": "2 roots, n_i=4*Nsharp*X, graph plus half-sized potential <16"
+    },
+    {
+      "name": "root_power_below_strict",
+      "pass": true,
+      "detail": "delta^(-9/4)<=delta^(-5), 0<delta<1"
+    },
+    {
+      "name": "strict_constant_reserve",
+      "pass": true,
+      "detail": "strict 2^130 is below selected 2^144"
+    },
+    {
+      "name": "root_constant_reserve",
+      "pass": true,
+      "detail": "graph b bound and root/state multiplicities"
+    },
+    {
+      "name": "normalized_beta_delta_power",
+      "pass": true,
+      "detail": "17/4"
+    },
+    {
+      "name": "reference_squared_delta_dominance",
+      "pass": true,
+      "detail": "17/4<20"
+    },
+    {
+      "name": "reference_squared_constant_dominance",
+      "pass": true,
+      "detail": "2^144<2^10000"
+    },
+    {
+      "name": "reference_polynomial_dominance",
+      "pass": true,
+      "detail": "(j+5)^3<2*(j+4)^3 for j>=129; remaining seven powers absorb 2"
+    },
+    {
+      "name": "neighbor_reference_polynomial",
+      "pass": true,
+      "detail": "worst j=130 ratio, <2"
+    },
+    {
+      "name": "neighbor_reference_total_exponent",
+      "pass": true,
+      "detail": "delta ratio contributes 2^20, polynomial contributes <2"
+    },
+    {
+      "name": "component_neighbor_multiplicity",
+      "pass": true,
+      "detail": "8388612<2^24"
+    },
+    {
+      "name": "summed_beta_reserve",
+      "pass": true,
+      "detail": "actual complete sum <2^160000, multiplicity <2^24"
+    },
+    {
+      "name": "actual_X_beta_error",
+      "pass": true,
+      "detail": "normalized beta sum <2^-102112"
+    },
+    {
+      "name": "actual_state_root_gate",
+      "pass": true,
+      "detail": "n_i<=4*sum(Kref^2*N)*X<2^-102142"
+    },
+    {
+      "name": "actual_graph_b2_gate",
+      "pass": true,
+      "detail": "b^2*n_i is bounded by same paid reference-square sum"
+    },
+    {
+      "name": "actual_root_log_derivative_gate",
+      "pass": true,
+      "detail": "2^25*n_i<1"
+    },
+    {
+      "name": "actual_root_potential_gate",
+      "pass": true,
+      "detail": "2^32*n_i<1, |V|<17"
+    }
+  ],
+  "mathematical_scope": "Actual nonradial first-symbol/finite-part identification is proved in the linked text. Gates audit its displayed sufficient budgets. No uniform whole-network inverse or solution of F(a,f*)=0 is claimed."
+}

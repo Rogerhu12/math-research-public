@@ -1,0 +1,68 @@
+{
+  "kind": "root_complete_saved_geometry_and_source_review_v3",
+  "complete": true,
+  "full_ODE_native_rerun": false,
+  "all_saved_arrays_loaded_and_checked": true,
+  "full_source_read": true,
+  "source_diff_from_v2_checked": true,
+  "input_sha256_checks": {
+    "scripts/fourfold_codazzi_compact_metric_frame_v3_probe.py": true,
+    "notes/2026-11-13-R133-m128-alpha065-small-height-frame.md": true,
+    "notes/2026-11-13-R133-m128-alpha065-small-height-frame-floating.json": true,
+    "notes/2026-11-13-R133-m128-alpha065-small-height-frame-geometry.npz.gz": true,
+    "notes/2026-11-13-R133-m128-alpha065-small-height-frame-process.json": true,
+    "scripts/fourfold_codazzi_candidate_shards.py": true,
+    "scripts/fourfold_codazzi_compact_metric_branch_probe.py": true,
+    "scripts/fourfold_codazzi_compact_metric_frame_probe.py": true,
+    "scripts/fourfold_phase_symmetric_geometry.py": true,
+    "scripts/fourfold_phase_codazzi_rotational_reference_probe.py": true,
+    "scripts/fourfold_codazzi_rotational_cap_jacobi_probe.py": true,
+    "scripts/fourfold_phase_codazzi_two_end_probe.py": true,
+    "notes/2026-11-13-R133-compact-metric-outer-mean-m128-bounded-v7-b4-candidate.json": true,
+    "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json": true
+  },
+  "metadata_matches_report": true,
+  "all_saved_array_shapes": {
+    "radial_nodes": [
+      96
+    ],
+    "theta": [
+      512
+    ],
+    "position": [
+      96,
+      512,
+      3
+    ],
+    "normal": [
+      96,
+      512,
+      3
+    ],
+    "candidate_II": [
+      96,
+      512,
+      3
+    ],
+    "initial_state": [
+      512,
+      12
+    ],
+    "metadata": []
+  },
+  "saved_normal_unit_error": 3.3306690738754696e-16,
+  "saved_actual_support_min": 0.9288263565757856,
+  "saved_maximum_position_norm": 1.2753023428280714,
+  "process_exit_code": 0,
+  "exact_double_parameters_checked": true,
+  "manual_checks": [
+    "actual second-form diagnostic retains mixed metric and actual normal",
+    "all candidate Fourier modes enter A=(K+B squared)/C and full frame evolution",
+    "no reorthogonalization, waist-plane projection or frequency deletion",
+    "regular outer B/C discrepancies and nonzero waist constraints retained",
+    "v3 angle differentiation precedes constant coordinate translation; two full inward sweeps",
+    "finite sampled nearest distance is not a continuous Hausdorff lower bound",
+    "nominal reflection and twice maximum norm are only diagnostic until exact closed geometry is proved"
+  ],
+  "scope": "Input, complete saved-array and algorithm audit only. The original full radial floating run is preserved and was not rerun; no continuous PDE, closed surface, held displacement or reach proof is inferred."
+}

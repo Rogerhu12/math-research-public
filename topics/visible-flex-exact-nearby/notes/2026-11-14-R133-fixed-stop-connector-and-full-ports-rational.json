@@ -1,0 +1,251 @@
+{
+  "kind": "actual_fixed_stop_fourth_line_and_complete_regular_port_budget",
+  "complete": true,
+  "arithmetic": "normalized BigInt rational arithmetic and strict cross-multiplication; exp bounds proved via e>2",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "cut_error": {
+    "deep_only": {
+      "mantissa": "1",
+      "dyadic_exponent": -193532
+    },
+    "gamma1_derivative": {
+      "mantissa": "1",
+      "dyadic_exponent": -22
+    },
+    "gamma2_derivative": {
+      "mantissa": "1",
+      "dyadic_exponent": -8
+    },
+    "full_box_bound": "2^-35",
+    "meaning": "cut128 physical d4 difference; no identification with lambda"
+  },
+  "connector": {
+    "fixed_stop": true,
+    "R_tube": [
+      "-15",
+      "-1/8"
+    ],
+    "reference_R_upper": "-1/6",
+    "inverse_flow_lipschitz_upper": "1",
+    "cut_to_R_lipschitz": "15",
+    "cut_to_T_relative_lambda": "60",
+    "cut_to_inner_relative_lambda": "240 exp(-8L)"
+  },
+  "full_new_good_angle": {
+    "epsilon": "1/549755813888",
+    "bad_measure": "83/16384",
+    "reference_bump_curve_fixed": true,
+    "new_good_parameter_required": true,
+    "continuous_selection_claimed": false
+  },
+  "retained_true_ports": {
+    "all_mode_q_fee": "2^-512",
+    "actual_dyadic_q_fee": "1e-17",
+    "full_nonmean_row": "1.258389e-15",
+    "full_C_mean_row": "2.048004e-19",
+    "independent_fB_ball": "2^-60",
+    "independent_mean_height_retained": true,
+    "ordinary_source_J_and_Rm_retained": true,
+    "new_affine_tail_source_not_set_zero": true
+  },
+  "source_scope": {
+    "g0_on_finite_body_and_long": "unchanged",
+    "fixed_connector_scale_derivative": "zero",
+    "mean_height_change": "rho integral_1^b Delta w_bar",
+    "true_new_D0_repayment_still_required": true,
+    "actual_updated_nonlinear_tail_inverse_proved": false,
+    "full_body_BVP_inverse_proved": false
+  },
+  "gate_count": 29,
+  "gates": [
+    {
+      "name": "entire_actual_eta_inside_paid_R74_domain",
+      "passed": true,
+      "evidence": "Actual complete affine halfwidth1e-9 stays in R74 (74.1); the body nu bump is zero at R."
+    },
+    {
+      "name": "actual_deep_screen_exact_exponent",
+      "passed": true,
+      "evidence": "C.36: cut128 d4, same Gamma, not lambda."
+    },
+    {
+      "name": "both_true_Gamma_columns_kept",
+      "passed": true,
+      "evidence": "U.17: gamma1 derivative2^-22 and gamma2 derivative2^-8; whole box diameters2^-15 and2^-29."
+    },
+    {
+      "name": "complete_fixed_stop_cut_difference",
+      "passed": true,
+      "evidence": "2^-193532+2^-37+2^-37 <2^-35."
+    },
+    {
+      "name": "actual_cut_error_inside_negative_tube",
+      "passed": true,
+      "evidence": "Universal bootstrap can use epsilon_d<=2^-12."
+    },
+    {
+      "name": "whole_connector_upper_face_slack",
+      "passed": true,
+      "evidence": "Reference R<=-1/6; perturbation15 epsilon_d stays below-1/8."
+    },
+    {
+      "name": "whole_connector_lower_face_slack",
+      "passed": true,
+      "evidence": "Reference R>-14; perturbation stays above-15."
+    },
+    {
+      "name": "inverse_Riccati_rate_positive",
+      "passed": true,
+      "evidence": "-q-16(Rnew+Rbase)>=2 for q<=2 and both R<=-1/8."
+    },
+    {
+      "name": "relative_T_fourth_error_below_one_eighth",
+      "passed": true,
+      "evidence": "lambda4(T)/(4omega)+1 <=60 epsilon_d."
+    },
+    {
+      "name": "true_two_bump_positive_lower",
+      "passed": true,
+      "evidence": "(omega+psi')²+psi'' >(5/4)²."
+    },
+    {
+      "name": "true_two_bump_positive_upper",
+      "passed": true,
+      "evidence": "(omega+psi')²+psi'' <(8/5)²."
+    },
+    {
+      "name": "new_T_log_slope_inside_lower_cone",
+      "passed": true,
+      "evidence": "p(T)= -lambda4(T)/4."
+    },
+    {
+      "name": "new_T_log_slope_inside_upper_cone",
+      "passed": true,
+      "evidence": "Both actual and reference p stay in [5/4,8/5] under backward flow."
+    },
+    {
+      "name": "fourth_angle_never_bad",
+      "passed": true,
+      "evidence": "sin(angle((1,-p),(1,omega)))>1/2."
+    },
+    {
+      "name": "new_high_bad_angle_crossing_preserved",
+      "passed": true,
+      "evidence": "Old reference curve slope ratio<1/64 and NEW high-line K1/K2<1/256."
+    },
+    {
+      "name": "all_new_high_modes_summable",
+      "passed": true,
+      "evidence": "Repeat R11 A.6-A.10 for new nonzero right lines; old good parameter is not reused."
+    },
+    {
+      "name": "deep_screen_inner_constant",
+      "passed": true,
+      "evidence": "Same-Gamma inner relative error<2^-193524 exp(-8L)."
+    },
+    {
+      "name": "whole_parameter_inner_constant",
+      "passed": true,
+      "evidence": "Whole real box inner relative error<2^-27 exp(-8L)."
+    },
+    {
+      "name": "new_fourth_fits_all_mode_regular_contract",
+      "passed": true,
+      "evidence": "m4 now has a paid nonzero fee, smaller than the all-mode2^41 coefficient."
+    },
+    {
+      "name": "same_actual_full_long_length",
+      "passed": true,
+      "evidence": "L=omega(2^24-25/8), omega>7/5."
+    },
+    {
+      "name": "complete_regular_error_below_two_minus_512",
+      "passed": true,
+      "evidence": "(2^42+8) exp(-8L)<2^(43-8L)<2^-512; no floating underflow."
+    },
+    {
+      "name": "independent_long_reflected_source_below_two_minus_512",
+      "passed": true,
+      "evidence": "2 exp(-6L)<2^-512."
+    },
+    {
+      "name": "two_trace_matrix_fourth_invertible",
+      "passed": true,
+      "evidence": "R74 actual (y,y'/4)->(v,p) determinant15."
+    },
+    {
+      "name": "fourth_grounded_DN_sensitivity",
+      "passed": true,
+      "evidence": "|Delta gamma4| <=75/112 times |Delta lambda4|/(4omega), when both lambda4<0."
+    },
+    {
+      "name": "unchanged_dyadic_q_proposal_budget",
+      "passed": true,
+      "evidence": "9.1496e-18 + all-mode2^-512 <1e-17."
+    },
+    {
+      "name": "same_true_periodic_long_C_inverse",
+      "passed": true,
+      "evidence": "Geometry unchanged; full fB input retained."
+    },
+    {
+      "name": "complete_actual_nonlinear_nonmean_row",
+      "passed": true,
+      "evidence": "Full physical A0 row, every frequency: <1.258389e-15."
+    },
+    {
+      "name": "complete_actual_independent_mean_row",
+      "passed": true,
+      "evidence": "Full C mean row<2.048004e-19; B mean zero by reflection, mean height retained."
+    },
+    {
+      "name": "actual_alpha_normalized_rows",
+      "passed": true,
+      "evidence": "Normalize only after physical rows: <1.645e-15 and2.678e-19."
+    }
+  ],
+  "modest_exact_values": {
+    "bump_K_lower": "11877848569/6710886400",
+    "bump_K_upper": "655048929/268435456",
+    "long_L_lower": "939523921/40",
+    "long_image_bound": "331696052106987329147165589907666390662447227186126474115766326911730910361342834321246810898421891893949407974309911590973716006170689750485185760965246031673511170924022786761/36855101804897864767983931454963563387860558793129301058361389650836173460860828633653581300563073901772152099909803172849322115526609303052357756361647422301263626240000000000000000000000",
+    "long_Lipschitz_bound": "5066554414776183/3435973836800000000000"
+  },
+  "proof_path": "results/R133-supplement-fixed-stop-connector-and-complete-regular-ports.md",
+  "proof_sha256": "63b641775538e19be0a429327043566d58012d18130219079e415b328236edb9",
+  "consumed_proof_inputs": {
+    "results/R11-matched-mode-four-physical-tail-connector.md": {
+      "sha256": "8c4e30ef3cac88ff3e7c858c77537bf03d102760b2324e1e1d21780cf59923ca",
+      "git_blob": "891486d30d83cd06a580c6905825d8bdfbe49d8d"
+    },
+    "results/R74-actual-full-tail-robin-and-augmented-positive-cap.md": {
+      "sha256": "174bc93631b5ade0faf51160d7026e42d674916fd94e12cdb2315479458c18d8",
+      "git_blob": "12b50b77b27ca7f501a323164e905ce4af4963dd"
+    },
+    "results/R119-supplement-retuned-fourth-connector-and-common-bumps.md": {
+      "sha256": "e22a74f54ea1122271e50d2bdcd2ae8db5bc4c28e1e36eaebc35c40f6c3c3752",
+      "git_blob": "4f33b6277074962f7df3009355b44031fa6c1389"
+    },
+    "results/R119-supplement-two-parameter-full-tail-chart-reconstructed.md": {
+      "sha256": "3cc2cb9efe51ff275ce9eba496bafe6df94e3eaafabfd07fe74b6415bd9c5f46",
+      "git_blob": "a76cb5bb70bd0d2e5a5a48967b16679ef8ed4170"
+    },
+    "results/R119-supplement-controlled-profile-full-label-and-raw-ports.md": {
+      "sha256": "ff11cb043128a5d66ee996bb174edda0d6537fe73f9a7a565ba143d2ab5c04d0",
+      "git_blob": "f11edbccd752bf034aa40e71888859d667a04b42"
+    },
+    "results/R133-supplement-regular-fourth-mode-robustness-budget.md": {
+      "sha256": "08647ab86a9f4a06702c33dafd27967be2b974f04cdf3d1b77a8434ef7aa8938",
+      "git_blob": "4f08d7c4ee71b62ef80f8305fce7efd0cf1ce4ba"
+    },
+    "results/R133-supplement-final-moving-centre-actual-regular-boundary.md": {
+      "sha256": "f4ae237c86542f29f2127f7e43d5ab97827756fcce86e71bcff8c0a610ec81af",
+      "git_blob": "40463b6917c943e4ac991a597603cf41095baeb9"
+    },
+    "results/R133-supplement-actual-regular-R25over8-vector-and-long-ports.md": {
+      "sha256": "288245decc9aa64b1bfa5baff77731e0cd6a09e117bbf3ac61a3235a3ee5c779",
+      "git_blob": "210f2ccbd60a75ecd31e7f73994bde7f9a88c745"
+    }
+  },
+  "producer_sha256": "fb2cef96be4a99e44b92316f909aa590a4cf3a1907fd632bbe84131763c97020"
+}

@@ -1,0 +1,237 @@
+{
+  "kind": "actual_fixed_target_exact_waist_two_jet_correction",
+  "complete": true,
+  "whole_real_angular_circle": true,
+  "whole_radial_domain": false,
+  "exact_radial_interval": [
+    "0",
+    "0"
+  ],
+  "exact_scalar_germ": [
+    "0",
+    "2609037194989121/1152921504606846976"
+  ],
+  "exact_center_parameter": "-7789843107295549/4611686018427387904",
+  "exact_half_width": "1/1000000000",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "source_sha256": "7895d7edba42f1269e4709d05eabcff04fd6ec46cb7cb861112157f82655e46e",
+  "centered_source_sha256": "1bb36ce8ef6e8043f76c648b005cc3f56609e97ec49852f36bdbda80a5e4749d",
+  "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "original_fixed_target": {
+    "E": {
+      "ball": "[1.22913883125 +/- 4.32e-12]",
+      "lower": "[1.2291388312511720845748885207887602 +/- 1.78e-35]",
+      "upper": "[1.2291388312543115448988129915358636 +/- 1.87e-35]",
+      "mid_float": 1.2291388312527418,
+      "radius_upper_float": 1.5697301619622354e-12
+    },
+    "Eprime_exact": "0",
+    "a": {
+      "ball": "[1.068732830996 +/- 3.49e-13]",
+      "lower": "[1.0687328309956518612717985331189013 +/- 4.21e-35]",
+      "upper": "[1.0687328309961974248669463679901198 +/- 1.50e-35]",
+      "mid_float": 1.0687328309959248,
+      "radius_upper_float": 2.7278179757391744e-13
+    },
+    "aprime_exact": "0",
+    "asecond": {
+      "ball": "[1.12375466942 +/- 6.23e-12]",
+      "lower": "[1.1237546694137769964749165498701933 +/- 2.81e-35]",
+      "upper": "[1.1237546694189100016137447621972223 +/- 6.70e-36]",
+      "mid_float": 1.1237546694163436,
+      "radius_upper_float": 2.566502569414106e-12
+    },
+    "K0": {
+      "ball": "[-0.85546337178 +/- 3.80e-12]",
+      "lower": "[-0.85546337178379666296894139575213156 +/- 2.35e-36]",
+      "upper": "[-0.85546337177726732496524137024096479 +/- 1.10e-36]",
+      "mid_float": -0.855463371780532,
+      "radius_upper_float": 3.2646690018500128e-12
+    }
+  },
+  "positivity": {
+    "old_F_r_z": {
+      "lower_bound": {
+        "ball": "[1.1086519767682239123729459606693126 +/- 2.62e-35]",
+        "lower": "[1.1086519767682239123729459606693126 +/- 2.62e-35]",
+        "upper": "[1.1086519767682239123729459606693126 +/- 2.62e-35]",
+        "mid_float": 1.108651976768224,
+        "radius_upper_float": 0.0
+      },
+      "upper_bound": {
+        "ball": "[1.1086780985842137337016310993931256 +/- 2.35e-35]",
+        "lower": "[1.1086780985842137337016310993931256 +/- 2.35e-35]",
+        "upper": "[1.1086780985842137337016310993931256 +/- 2.35e-35]",
+        "mid_float": 1.1086780985842137,
+        "radius_upper_float": 0.0
+      }
+    },
+    "waist_F_thetatheta_squared": {
+      "lower_bound": {
+        "ball": "[0.15636748702659078458232499997393461 +/- 5.58e-37]",
+        "lower": "[0.15636748702659078458232499997393461 +/- 5.58e-37]",
+        "upper": "[0.15636748702659078458232499997393461 +/- 5.58e-37]",
+        "mid_float": 0.15636748702659078,
+        "radius_upper_float": 0.0
+      },
+      "upper_bound": {
+        "ball": "[75.228039818774121272326738107949495 +/- 3.16e-34]",
+        "lower": "[75.228039818774121272326738107949495 +/- 3.16e-34]",
+        "upper": "[75.228039818774121272326738107949495 +/- 3.16e-34]",
+        "mid_float": 75.22803981877412,
+        "radius_upper_float": 0.0
+      }
+    }
+  },
+  "fixed_target_metric_correction": {
+    "V_C0_exact": "0",
+    "material_gradient_C0_upper": {
+      "ball": "[1.2051462367611810836066270927416581e-5 +/- 4.96e-40]",
+      "lower": "[1.2051462367611810836066270927416581e-5 +/- 4.96e-40]",
+      "upper": "[1.2051462367611810836066270927416581e-5 +/- 4.96e-40]",
+      "mid_float": 1.205146236761181e-05,
+      "radius_upper_float": 0.0
+    },
+    "radial_partial_C0_upper": {
+      "ball": "[1.3361038596837463931231885077165779e-5 +/- 1.59e-40]",
+      "lower": "[1.3361038596837463931231885077165779e-5 +/- 1.59e-40]",
+      "upper": "[1.3361038596837463931231885077165779e-5 +/- 1.59e-40]",
+      "mid_float": 1.3361038596837463e-05,
+      "radius_upper_float": 0.0
+    },
+    "material_H_rr_C0_upper": {
+      "ball": "[0.40644292784309050809551545595239275 +/- 2.10e-37]",
+      "lower": "[0.40644292784309050809551545595239275 +/- 2.10e-37]",
+      "upper": "[0.40644292784309050809551545595239275 +/- 2.10e-37]",
+      "mid_float": 0.4064429278430905,
+      "radius_upper_float": 0.0
+    },
+    "material_H_rtheta_C0_upper": {
+      "ball": "[0.00091522766148067581210440179611215781 +/- 4.56e-39]",
+      "lower": "[0.00091522766148067581210440179611215781 +/- 4.56e-39]",
+      "upper": "[0.00091522766148067581210440179611215781 +/- 4.56e-39]",
+      "mid_float": 0.0009152276614806758,
+      "radius_upper_float": 0.0
+    },
+    "material_H_thetatheta_C0_exact": "0",
+    "material_Hilbert_Schmidt_Hessian_C0_upper": {
+      "ball": "[0.40644292966215750304004078326441166 +/- 3.54e-36]",
+      "lower": "[0.40644292966215750304004078326441166 +/- 3.54e-36]",
+      "upper": "[0.40644292966215750304004078326441166 +/- 3.54e-36]",
+      "mid_float": 0.4064429296621575,
+      "radius_upper_float": 0.0
+    },
+    "normal_projected_material_H_rr_C0_upper": {
+      "ball": "[0.40627775467981547263818242754496168 +/- 3.46e-36]",
+      "lower": "[0.40627775467981547263818242754496168 +/- 3.46e-36]",
+      "upper": "[0.40627775467981547263818242754496168 +/- 3.46e-36]",
+      "mid_float": 0.4062777546798155,
+      "radius_upper_float": 0.0
+    },
+    "normal_projected_material_H_rtheta_C0_exact": "0",
+    "normal_projected_material_H_thetatheta_C0_exact": "0",
+    "radial_second_partial_C0_upper": {
+      "ball": "[0.49957478529936043973019577825395208 +/- 1.55e-36]",
+      "lower": "[0.49957478529936043973019577825395208 +/- 1.55e-36]",
+      "upper": "[0.49957478529936043973019577825395208 +/- 1.55e-36]",
+      "mid_float": 0.49957478529936045,
+      "radius_upper_float": 0.0
+    },
+    "mixed_partial_C0_upper": {
+      "ball": "[0.0010844230948519521754254335821424822 +/- 3.91e-38]",
+      "lower": "[0.0010844230948519521754254335821424822 +/- 3.91e-38]",
+      "upper": "[0.0010844230948519521754254335821424822 +/- 3.91e-38]",
+      "mid_float": 0.0010844230948519522,
+      "radius_upper_float": 0.0
+    }
+  },
+  "original_induced_metric_correction": {
+    "V_C0_exact": "0",
+    "target_to_original_Hessian_ratio": {
+      "lower_bound": {
+        "ball": "[0.99997698032388671052217432588804513 +/- 2.17e-36]",
+        "lower": "[0.99997698032388671052217432588804513 +/- 2.17e-36]",
+        "upper": "[0.99997698032388671052217432588804513 +/- 2.17e-36]",
+        "mid_float": 0.9999769803238867,
+        "radius_upper_float": 0.0
+      },
+      "upper_bound": {
+        "ball": "[1.0000241033604557738811990930116735 +/- 3.99e-35]",
+        "lower": "[1.0000241033604557738811990930116735 +/- 3.99e-35]",
+        "upper": "[1.0000241033604557738811990930116735 +/- 3.99e-35]",
+        "mid_float": 1.0000241033604558,
+        "radius_upper_float": 0.0
+      }
+    },
+    "material_gradient_C0_upper": {
+      "ball": "[1.2051607607091962465012152491695088e-5 +/- 1.08e-41]",
+      "lower": "[1.2051607607091962465012152491695088e-5 +/- 1.08e-41]",
+      "upper": "[1.2051607607091962465012152491695088e-5 +/- 1.08e-41]",
+      "mid_float": 1.2051607607091962e-05,
+      "radius_upper_float": 0.0
+    },
+    "material_H_rr_C0_upper": {
+      "ball": "[0.40644341118516312964212720862825434 +/- 9.87e-37]",
+      "lower": "[0.40644341118516312964212720862825434 +/- 9.87e-37]",
+      "upper": "[0.40644341118516312964212720862825434 +/- 9.87e-37]",
+      "mid_float": 0.40644341118516314,
+      "radius_upper_float": 0.0
+    },
+    "material_H_rtheta_C0_upper": {
+      "ball": "[0.00091522870836347176450050115090686391 +/- 1.07e-39]",
+      "lower": "[0.00091522870836347176450050115090686391 +/- 1.07e-39]",
+      "upper": "[0.00091522870836347176450050115090686391 +/- 1.07e-39]",
+      "mid_float": 0.0009152287083634717,
+      "radius_upper_float": 0.0
+    },
+    "material_H_thetatheta_C0_exact": "0",
+    "material_Hilbert_Schmidt_Hessian_C0_upper": {
+      "ball": "[0.40644341300423229769959214533624154 +/- 1.26e-36]",
+      "lower": "[0.40644341300423229769959214533624154 +/- 1.26e-36]",
+      "upper": "[0.40644341300423229769959214533624154 +/- 1.26e-36]",
+      "mid_float": 0.4064434130042323,
+      "radius_upper_float": 0.0
+    },
+    "normal_projected_material_H_rr_C0_upper": {
+      "ball": "[0.40627823782546412800797952513676137 +/- 2.68e-36]",
+      "lower": "[0.40627823782546412800797952513676137 +/- 2.68e-36]",
+      "upper": "[0.40627823782546412800797952513676137 +/- 2.68e-36]",
+      "mid_float": 0.40627823782546413,
+      "radius_upper_float": 0.0
+    },
+    "normal_projected_material_H_rtheta_C0_exact": "0",
+    "normal_projected_material_H_thetatheta_C0_exact": "0"
+  },
+  "exact_updated_waist": {
+    "metric_defect": "0",
+    "first_metric_jet_defect": "0",
+    "Gauss_curvature_defect": "0",
+    "R117_Newton_source": "0",
+    "held_waist_positions_unchanged": true
+  },
+  "redundant_direct_updated_curvature_defect_C0_upper": {
+    "ball": "[0.11273815125086185384706283230116242 +/- 3.89e-36]",
+    "lower": "[0.11273815125086185384706283230116242 +/- 3.89e-36]",
+    "upper": "[0.11273815125086185384706283230116242 +/- 3.89e-36]",
+    "mid_float": 0.11273815125086185,
+    "radius_upper_float": 0.0
+  },
+  "complete_primitive_error": {
+    "ball": "[5.3735340179527583400016358565398631e-31 +/- 3.48e-66]",
+    "lower": "[5.3735340179527583400016358565398631e-31 +/- 3.48e-66]",
+    "upper": "[5.3735340179527583400016358565398631e-31 +/- 3.48e-66]",
+    "mid_float": 5.373534017952758e-31,
+    "radius_upper_float": 0.0
+  },
+  "angles": 16384,
+  "primitive_nodes": 512,
+  "bits": 192,
+  "wall_seconds": 10.994677037999736,
+  "limitations": [
+    "The specified waist two-jet has a smooth symmetry-preserving local extension; no positive radial extent is certified here.",
+    "No global correction, low/mid/tail inverse, regular-mean return condition, or Newton convergence is claimed.",
+    "Fixed-target and original-induced material norms are reported separately; R79/R123 use original_induced_metric_correction.",
+    "This is an exact local nonlinear jet replacement, not a certified global Newton step."
+  ]
+}

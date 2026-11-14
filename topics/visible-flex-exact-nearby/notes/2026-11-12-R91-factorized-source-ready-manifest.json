@@ -1,0 +1,22 @@
+{
+  "kind": "R91_complete_analytic_factorization_and_actual_budget_ready",
+  "complete": true,
+  "scope": "Complete actual 56-term narrow-cutoff source estimate; constants remain too large to close the feedback inverse. No full reflection cutoff or nonlinear solution is asserted.",
+  "files": [
+    {
+      "path": "results/R91-airy-analytic-factorization-and-actual-source-budget.md",
+      "sha256": "954effc8639d3a4a42900f4f0165858782f8e7f4149429b236b67391c20029bb",
+      "bytes": 12992
+    },
+    {
+      "path": "scripts/fourfold_phase_airy_factorized_source_budget.py",
+      "sha256": "91fd06ef3126f6a1323de16b76aa8e45c522d37c6fe674ecc143104241f55e50",
+      "bytes": 17491
+    },
+    {
+      "path": "notes/2026-11-12-actual-factorized-airy-source-budget.json",
+      "sha256": "26ae397b1e92e450cbb1a9131c544f5476919503a8dd03b59525c63af701032f",
+      "bytes": 383440
+    }
+  ]
+}

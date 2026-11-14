@@ -1,0 +1,45 @@
+{
+  "kind": "actual_discrete_Fourier_multiplication_Jacobian_audit",
+  "passed": true,
+  "certified": false,
+  "source_sha256": "0d82b18aaed063660f7003e36061958a327d134c67490adb7b340deddfc90c17",
+  "original_source_sha256": "e1692ce4e7b1090adb0aeab7414f8df32411072283cedad3d848ca4fb18ef0a4",
+  "input_sha256": "4046eb7ac8da162ab9aad9fcb4991933200abdbc2c22ed6329d49bb13d72b856",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "modes": 128,
+  "angles": 2048,
+  "actual_amplitude": 0.65,
+  "radial_samples": [
+    0.0,
+    0.1,
+    0.5,
+    1.5
+  ],
+  "absolute_original_matrix_difference": 1.4097167877480388e-11,
+  "relative_original_matrix_difference": 5.2573503901856585e-15,
+  "parameter_matrix_difference": 0.0,
+  "fast_seconds": 0.04593817700151703,
+  "original_seconds": 2.7362621239990403,
+  "independent_actual_finite_differences": {
+    "passed": true,
+    "diagnostic_only": true,
+    "radial_points": [
+      0.02,
+      0.08,
+      0.12,
+      0.17,
+      0.25,
+      1.0,
+      3.07
+    ],
+    "central_step": 1e-06,
+    "parameter_relative_error": 4.720861666270578e-10,
+    "state_relative_errors": [
+      2.1515927990706376e-10,
+      3.563268200291515e-10,
+      1.924764317970233e-10,
+      1.8163146850839563e-12
+    ]
+  },
+  "continuous_PDE_certified": false
+}

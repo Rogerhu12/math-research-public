@@ -1,0 +1,102 @@
+{
+  "kind": "floating_streaming_two_anchor_compact_metric_geometry_v2",
+  "source_sha256": "0fd46f5387c9cd66708cd3f2ec720199779079fc18fb7c2639b36315d53c3bc7",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "candidate_path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-bounded-v7-b4-candidate.json",
+  "candidate_sha256": "4f19203308f8d95cb65f90d52c75edb7f476307698138be37efe7e305bde3e14",
+  "anchor": "regular",
+  "modes": 128,
+  "quarter_angles": 512,
+  "amplitude": 0.65,
+  "nu": -0.023721616162222504,
+  "exact_nu": "-6837290349363917/288230376151711744",
+  "exact_amplitude": "5854679515581645/9007199254740992",
+  "coordinates": "physical r and quarter angle; Cartesian frame X,Y,n",
+  "certified": false,
+  "complete_floating_reconstruction": true,
+  "summary": {
+    "frame_orthonormality": 5.564437799421285e-13,
+    "frame_angular_constraint": 3.855849359786438e-08,
+    "position_angular_constraint": 4.180993686087415e-09,
+    "relative_angular_metric_error": 1.154387806567847e-06,
+    "normalized_cross_metric_error": 5.653986282121967e-07,
+    "reconstructed_immersion_cross_norm_min": 6.5637619993989335e-06,
+    "candidate_principal_curvature_abs_max": 4.117097272027344,
+    "actual_principal_curvature_abs_max": 86.13400767422337,
+    "actual_principal_curvature_abs_max_r_le_one": 4.117097272026236,
+    "actual_support_min": 0.928519163885854,
+    "candidate_normal_support_min": 0.9285191638860305,
+    "max_position_norm": 1.2754012478120393,
+    "phase_witness_sampled_nearest_distance": 0.10634542536444756,
+    "minimum_z_r_ge_quarter": 0.2825716492716496,
+    "nominal_reflected_sampled_diameter": 2.5508024956240787,
+    "witness_sample_over_nominal_reflected_sampled_diameter": 0.04169096805686993,
+    "regular_anchor_roundtrip_maximum_state_error": 2.7466917629226373e-13,
+    "last_height_range": [
+      0.9667966215961524,
+      0.9667966215962556
+    ]
+  },
+  "worst_radii": {
+    "frame_orthonormality": 0.547,
+    "frame_angular_constraint": 0.0,
+    "position_angular_constraint": 0.0,
+    "relative_angular_metric_error": 3.125,
+    "normalized_cross_metric_error": 3.125,
+    "candidate_principal_curvature_abs_max": 0.526,
+    "actual_principal_curvature_abs_max": 3.125,
+    "max_position_norm": 0.5650000000000001,
+    "actual_principal_curvature_abs_max_r_le_one": 0.526,
+    "witness_nearest_radius": 0.0,
+    "witness_nearest_angle": 0.7853981633974483
+  },
+  "radial_steps": 6855,
+  "maximum_step": 0.000500000000000167,
+  "coefficient_batch": 64,
+  "RK_method": "ordinary explicit RK4 without reorthogonalization or rigorous integration error bounds",
+  "initial_waist_C_mean_gap": 2.563882439687859e-11,
+  "waist_anchor_mean_explicitly_removed": false,
+  "regular_anchor_initial_B_difference": 2.0738727520637e-13,
+  "regular_anchor_initial_C_difference": 2.0738727540567701e-13,
+  "rotational_initial_slope_identity_error": 0.0,
+  "backward_seconds": 83.6426743100019,
+  "backward_mean_height_shift": -0.9667966215961041,
+  "waist_diagnostics": {
+    "position_height_range": [
+      -4.163009936775097e-10,
+      3.9910474924909067e-10
+    ],
+    "meridian_frame_distance_to_vertical": 9.902721006682354e-10,
+    "angular_frame_vertical_max": 2.8669344605575146e-10,
+    "normal_vertical_max": 9.902581874074098e-10,
+    "maximum_position_distance_to_corrected_planar_waist": 1.0448632259474488e-09
+  },
+  "geometry_path": "notes/2026-11-13-R133-m128-alpha065-regular-frame-geometry.npz.gz",
+  "geometry_sha256": "fc727dbda602d75dc870b506bda78d88f339a027befe5458685f7cb163320540",
+  "geometry_bytes": 2260100,
+  "exact_center_parameter": {
+    "numerator": "-7789843107295549",
+    "denominator": "4611686018427387904"
+  },
+  "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "dependencies": {
+    "fourfold_codazzi_candidate_shards.py": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e",
+    "fourfold_codazzi_compact_metric_branch_probe.py": "e1692ce4e7b1090adb0aeab7414f8df32411072283cedad3d848ca4fb18ef0a4",
+    "fourfold_codazzi_compact_metric_frame_probe.py": "06f9f06b873876c194086ccf6e6c167d7af9c186fa4a504dc3aaaf3764b898b5",
+    "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+    "fourfold_phase_codazzi_rotational_reference_probe.py": "c8495d0c1721a21a24b48c8cdce9e825a8110f4923edd01e9eb2b7fe76b2d411",
+    "fourfold_codazzi_rotational_cap_jacobi_probe.py": "2bfb4c8d7bca6ffe75d6496f8f9c3baa17ba5ee83045c6ca09dc475853d30114",
+    "fourfold_phase_codazzi_two_end_probe.py": "510a0ebf823f35942c0b45e67fb3ec5319cfe124996d88656fcc18a52c565eb2"
+  },
+  "limitations": [
+    "All geometry is floating, finitely sampled, and belongs to this exact stored nu and amplitude only.",
+    "The regular anchor imposes a rotational outer position/frame; its nonzero B/C trace differences are printed, not certified away.",
+    "The backward waist is not projected to a plane or to vertical meridians; its actual constraint errors remain in the report.",
+    "Candidate II and actual reconstructed II are measured separately, including the small-radius cap where differentiation may amplify roundoff.",
+    "The nominal reflection is a diagnostic diameter convention; nonzero waist constraint errors prevent claiming an exact reflected C2 surface.",
+    "The sampled nearest distance is an upper bound on the continuous nearest distance, not a certified held lower bound.",
+    "No true nonlinear regular tail, all-mode PDE existence, fixed-grip noncongruence, closed surface, or reach is certified."
+  ],
+  "wall_seconds": 315.93226966800285
+}

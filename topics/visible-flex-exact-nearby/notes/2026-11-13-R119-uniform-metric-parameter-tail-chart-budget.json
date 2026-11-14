@@ -1,0 +1,173 @@
+{
+  "schema": "visible-exact-R119-uniform-metric-parameter-tail-chart-v1",
+  "scope": "The actual complete R72/R115 tail chart uniformly on the full complex metric-parameter box, all internal labels and continuous ordinary sources; only the already paid forward connector is extended.",
+  "inputs": {
+    "complex_parameter_radius": "1/32768",
+    "real_parameter_radius": "1/65536",
+    "full_label_radius": "1/4",
+    "finite_connector_label_weight": 224,
+    "file_sha256": {
+      "results/R115-actual-tail-holomorphic-neighborhood-and-strong-extension.md": "7bc7fe7e0f285efabc0b1b64a55c661ce6084e4fc54f9a0c049ef3708544f1fa",
+      "results/R119-supplement-balanced-connector-label-domain-224.md": "aff48a37b08cb41e6eb1ddd8c014687242f744e6cb9e638201c0781df46222d1",
+      "results/R119-supplement-actual-negative-band-metric-parameters.md": "3139d06c6628df7d248bd3fcd0c842837edcde840f12ba383a9a99397ffbb361",
+      "results/R119-supplement-uniform-tail-chart-for-actual-metric-parameters.md": "4eb0d35d9dfb3b53074227fce591219b8d4164444da655494c94ce80b46be950",
+      "scripts/fourfold_uniform_metric_parameter_tail_chart_20261113.py": "b9a8bde2f3c5ac8ad0cc84ad023e893e1b28617d4d293d8f2f6328c2b0eb5026"
+    }
+  },
+  "checks": [
+    {
+      "name": "complex_parameter_Cauchy_margin",
+      "pass": true,
+      "evidence": "The complete real box lies a fixed distance inside the complex l-infinity ball"
+    },
+    {
+      "name": "complex_modulus_monotonicity",
+      "pass": true,
+      "evidence": "S'>1 and Delta>1 keep |p_gamma| strictly decreasing on the changed ramps"
+    },
+    {
+      "name": "actual_quintic_first_derivative_budget",
+      "pass": true,
+      "evidence": "The perturbation is supported away from the original maximum 15/8"
+    },
+    {
+      "name": "actual_quintic_second_derivative_budget",
+      "pass": true,
+      "evidence": "The original full second log derivative budget survives throughout the complex box"
+    },
+    {
+      "name": "two_bump_total_variation",
+      "pass": true,
+      "evidence": "Each bump has complete absolute variation 2"
+    },
+    {
+      "name": "actual_log_constant_upper",
+      "pass": true,
+      "evidence": "c_R=6 log2+2 log(1+1/64)<9/2+1/32"
+    },
+    {
+      "name": "actual_complex_high_frequency_variation_margin",
+      "pass": true,
+      "evidence": "2 log128=14 log2>28/3; no extra high-frequency exponential fee"
+    },
+    {
+      "name": "complex_exponential_series_bound",
+      "pass": true,
+      "evidence": "exp(2 r_C)<=(1-2 r_C)^-1<2"
+    },
+    {
+      "name": "actual_low_plateau_inverse_bound",
+      "pass": true,
+      "evidence": "All p and inverse-p endpoint boxes remain exact"
+    },
+    {
+      "name": "complex_material_integral_full_margin",
+      "pass": true,
+      "evidence": "After multiplying U.6 by delta^2, this overestimate covers all delta<=1/256"
+    },
+    {
+      "name": "original_local_source_budget_unchanged",
+      "pass": true,
+      "evidence": "The original 2^24 and 2^26 material estimates consume only the upper bound 64"
+    },
+    {
+      "name": "true_linear_Neumann_gate",
+      "pass": true,
+      "evidence": "This is the original R72 strict upper envelope; the new profile preserves every input"
+    },
+    {
+      "name": "full_label_quarter_ball_self_map",
+      "pass": true,
+      "evidence": "The true all-label fixed point stays in the original unit strong-state ball"
+    },
+    {
+      "name": "full_label_quarter_ball_contraction",
+      "pass": true,
+      "evidence": "No extra per-cell iteration loss is introduced"
+    },
+    {
+      "name": "true_full_label_linear_bound",
+      "pass": true,
+      "evidence": "The same strong X norm includes every nonzero fourfold mode"
+    },
+    {
+      "name": "all_parameter_direction_derivative_bound",
+      "pass": true,
+      "evidence": "Cauchy along any unit l-infinity direction gives the claimed Frechet bound"
+    },
+    {
+      "name": "all_label_derivative_original_budget",
+      "pass": true,
+      "evidence": "The complete updated label derivative remains below 13/4"
+    },
+    {
+      "name": "low_window_deep_perturbation_decay",
+      "pass": true,
+      "evidence": "The low-window coefficient-difference envelope vanishes uniformly at the flat limit"
+    },
+    {
+      "name": "high_window_exponential_decay",
+      "pass": true,
+      "evidence": "h_j M_j^sharp tends to infinity; the actual high-frequency tail envelope tends to zero"
+    },
+    {
+      "name": "full_nonlinear_tail_operator_decay",
+      "pass": true,
+      "evidence": "The nonlinear local operator tails vanish uniformly on the unit strong-state ball"
+    },
+    {
+      "name": "complete_physical_C2_tail_decay",
+      "pass": true,
+      "evidence": "The full physical jet bound includes mean derivatives and tends to zero"
+    },
+    {
+      "name": "relative_four_state_decay",
+      "pass": true,
+      "evidence": "The actual relative state retains the needed strictly better-than-3/2 decay"
+    },
+    {
+      "name": "full_mean_root_domain",
+      "pass": true,
+      "evidence": "The original material relative ball remains inside the same mean-root branch"
+    },
+    {
+      "name": "ordinary_source_direct_power",
+      "pass": true,
+      "evidence": "The actual continuous source leaves a positive normalized endpoint power"
+    },
+    {
+      "name": "ordinary_source_mean_power",
+      "pass": true,
+      "evidence": "The nonzero holonomy charge and induced mean slope retain their own paid power"
+    },
+    {
+      "name": "ordinary_source_full_Green_bound",
+      "pass": true,
+      "evidence": "The full source estimate retains the exact updated nonlinear derivative"
+    },
+    {
+      "name": "actual_connector_raw_window",
+      "pass": true,
+      "evidence": "The forward connector uses the same true cut jet and the same paid label weight"
+    },
+    {
+      "name": "actual_connector_grounded_window",
+      "pass": true,
+      "evidence": "Both true trace conversions still reach the physical angular window"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "all_actual_internal_labels": true,
+    "actual_high_frequency_matrices_retained": true,
+    "complete_mean_and_two_traces": true,
+    "joint_Frechet_holomorphy": true,
+    "infinite_product_parameter_C2_continuity": true,
+    "continuous_ordinary_source_space_uniform": true,
+    "actual_finite_forward_connector_uniform": true,
+    "arbitrary_common_cut_high_Dirichlet_inverse": false,
+    "old_R74_regular_line_preserved": false,
+    "metric_parameter_sources_automatically_in_T": false,
+    "topic_completion": false
+  }
+}

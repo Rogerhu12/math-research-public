@@ -1,0 +1,114 @@
+{
+  "kind": "exact_rational_sum_of_paid_uniform_local_transfer_errors",
+  "complete": true,
+  "actual_run_id": "43307149760",
+  "identity": {
+    "object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+    "affine_arithmetic": "Arb encloses c0+exact_delta*v and alpha0+exact_delta*w before all fixed base weights",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "uniform_in_the_entire_real_parameter_interval": true,
+    "parameter_arithmetic": "First form complete exact center and direction scalar polynomials; then add the single p in [-eta,eta]. No independent raw-control parameter intervals are introduced.",
+    "exact_delta_fraction_scope": "The exact_delta_fraction field names the center only; all bounds cover the separately stated whole exact_parameter_interval.",
+    "modes": 4,
+    "primitive_nodes": 512,
+    "angular_nodes": 1024,
+    "bits": 192,
+    "native_order": 32,
+    "native_radius": "1/64",
+    "outer_radius": "3",
+    "sample_radius": "5/4",
+    "time_nodes": 40,
+    "time_terms": 24,
+    "flow_degree": 32,
+    "normalized_angular_strip": "1/16",
+    "momentum_scale": "8",
+    "worker_source_sha256": "569ffd0e582865d840cdb5a31241da50609f0c3ad049b1d8850992b8bbbaa000",
+    "dependency_sha256": {
+      "fourfold_phase_core_cell_flow.py": "4db55a8c06b1770566416dbc7e7f81a4f004a6e12d8b517ce5007b6e0c7933d4",
+      "fourfold_phase_core_radial_taylor.py": "5303121d11a2af4cd39e67c50a6d23babe6f73e9873f2cf369b93584d983037c",
+      "fourfold_phase_core_waist_taylor.py": "09989f34a57e62e215aacb122926c0ef595332dd00f6b25246bc8dce6ecf9480",
+      "fourfold_phase_core_parameter_taylor.py": "5348dfb57db8296291b9c95dd884a189e9176f3765fc21c114ca6317ca7b1d06",
+      "fourfold_phase_beta_parameter_germ.py": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+      "fourfold_native_series_fft.py": "bcf9d5c43f2ebc5669fcf89f785e5da0b6acac5ec901581103006c6dc04d1289",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_core_low_coefficients.py": "ba2f5c93fbe7d1cdc0ddd21775f54c4e5e56d542d94fb69b985a3bfe42751990",
+      "fourfold_phase_actual_positive_cap.py": "1e8418174f54bd1d22dd628ef7f7e6525ca6b43cbcf7a2307d29f9d467e1612b"
+    }
+  },
+  "original_common_spans": 174,
+  "accepted_leaves": 175,
+  "rejected_boxes": 1,
+  "exact_positive_coverage": [
+    "0",
+    "1/4"
+  ],
+  "additive_local_error_sum_exact_rational": "22946422518765624667805468078913260393195010901923/10000000000000000000000000000000000000000000000000000000",
+  "additive_local_error_sum_decimal_upper": "0.000002294642251876562467",
+  "maximum_local_error_exact_rational": "36020340463550503555450948465602108453/1000000000000000000000000000000000000000000000",
+  "maximum_local_error_decimal_upper": "0.000000036020340463550504",
+  "arithmetic": "Decimal midpoint and radius strings are parsed as exact BigInt rationals. Each recorded Arb upper string is enlarged by its own printed decimal radius, then all 175 numbers are added exactly. Decimal display is rounded upward by integer ceiling.",
+  "input_manifests": [
+    {
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/manifest.json",
+      "sha256": "caa650d4a220bd4309be35ffc9ff0cd973a95e5af64d3f5390ae602acb694698",
+      "git_blob_sha": "878c5e5b8ce18cdef377fcfde804355a02459cd8"
+    },
+    {
+      "path": "data/core_uniform_flow_ci/43307149760/block_20_40/manifest.json",
+      "sha256": "e30f2b60dc515168349fa9002061ad38d616629a02a73358003154b7a00f2236",
+      "git_blob_sha": "8cef9f590d513ffa7f60bb09cb02e96f556160e4"
+    },
+    {
+      "path": "data/core_uniform_flow_ci/43307149760/block_40_60/manifest.json",
+      "sha256": "6978d409d3de1afe3978aa261e98da39757eaf351a4644fe604bc0ca7fd70f6d",
+      "git_blob_sha": "94d751fdb106d6181a32c9d4782c2932bba53395"
+    },
+    {
+      "path": "data/core_uniform_flow_ci/43307149760/block_60_80/manifest.json",
+      "sha256": "e934340c861cf9730fc0a8df1a105573fa69abd0a1c7eb48a315d6f1765e853e",
+      "git_blob_sha": "d0be47a9b1b68dda7ebf8843306b604959507f29"
+    },
+    {
+      "path": "data/core_uniform_flow_ci/43307149760/block_80_100/manifest.json",
+      "sha256": "8b4018975a23778379146e2aad0e6918957ffbcf46d63d6c9f3e2f2c2164a837",
+      "git_blob_sha": "891a23af82d14c1767ae3180c01e5308bb7fec44"
+    },
+    {
+      "path": "data/core_uniform_flow_ci/43307149760/block_100_120/manifest.json",
+      "sha256": "7056e2cb1b255a3bf8105e504078a8cc1d9059131f50b5c0943105e7020f2db4",
+      "git_blob_sha": "9e860659a02075a6106354f9a026ebf57118efca"
+    },
+    {
+      "path": "data/core_uniform_flow_ci/43307149760/block_120_140/manifest.json",
+      "sha256": "52b1952db740918a379d9ef8ef114111de3f7488c727af4ed74683566bd11e48",
+      "git_blob_sha": "e1fbcfd56431139fc237d3c531bede38771c4af1"
+    },
+    {
+      "path": "data/core_uniform_flow_ci/43307149760/block_140_160/manifest.json",
+      "sha256": "d34d8894b0731ebeec0edebafa1da1d643e8e3948a9f7a8c96ba283c90ed48ed",
+      "git_blob_sha": "f4c4f0ac40a7af4891cbcfe047d67fcca97246ea"
+    },
+    {
+      "path": "data/core_uniform_flow_ci/43307149760/block_160_174/manifest.json",
+      "sha256": "51c6e18276cf2e36d8883d50aed97f7fa2d22c236f29c7f1cb3780c56f1ab279",
+      "git_blob_sha": "db04fbf5a69c9908f7eae4dc2e1d77b9fbfb4a2d"
+    }
+  ],
+  "whole_core_product_error_certified": false,
+  "whole_core_DN_certified": false,
+  "scope": "This is the exact additive input sum for the ordered prefix-inverse bound, not the global transfer error. Actual matrix prefixes, their inverse norms and the finite B-block still require the native collector; no binary data was read through an integration.",
+  "source_sha256": "1761c20dea16a51e640a298c374f5d6ddd732f34076e5252a5bca2d0dfcccbe4",
+  "local_error_input_manifest_scope": "All 175 exact input rows remain in the nine hash-bound native manifests; the reproducible helper may print them, but this summary avoids duplicating that regenerable data."
+}

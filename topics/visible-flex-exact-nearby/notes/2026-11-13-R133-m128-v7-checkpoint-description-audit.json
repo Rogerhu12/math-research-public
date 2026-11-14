@@ -1,0 +1,89 @@
+{
+  "kind": "v7_inherited_checkpoint_parameter_description_audit_v1",
+  "source_sha256": "9746197c82e697436804a8c76bee6ed207acf52597d77c04be118992ea2f01ea",
+  "v7_source_sha256": "50191f3b2b3e695bc67e0ed6c93d41fc934221d26ec89f55967cbd11aaa92957",
+  "v8_source_sha256": "cf3a2ed50d3a72401c14705f9fcad13588d3b54fb9fdb72994d08df5e74067b6",
+  "v8_executable_AST_equal_after_only_declared_metadata_reversal": true,
+  "changed_description_fields": [
+    "exact_float_nu",
+    "exact_float_amplitude",
+    "mean_boundary",
+    "final_diagnostic_kind"
+  ],
+  "checkpoint_rows": [
+    {
+      "path": "notes/2026-11-13-R133-m128-accepted-v7-b8-000.npz.gz",
+      "sha256": "d1eb70fa20b803e0d79a3c122676c63b0fba413d7efdbbe4842067dfcaa4f7bb",
+      "payload_sha256": "66e3f23fe81ea0a27a86b7daa6b4b493a5035fcec1ba1584ff4ab7feff951a8c",
+      "amplitude": 0.65,
+      "runtime_nu": -0.023722177521444274,
+      "correct_exact_float_nu": "-1709363037535891/72057594037927936",
+      "inherited_exact_float_nu": "-1709329202663053/72057594037927936",
+      "inherited_description_matches_runtime": false,
+      "nodes": 440,
+      "state_shape": [
+        257,
+        440
+      ],
+      "complete_state_and_radial_derivative_retained": true,
+      "checkpoint_bytes_unchanged": true
+    },
+    {
+      "path": "notes/2026-11-13-R133-m128-accepted-bounded-v7-b4-000.npz.gz",
+      "sha256": "61cbbdec9d6a9f7b991e32d20acc001c21ab6fed5253077372d5eeba3fdd37bf",
+      "payload_sha256": "008dccf45b1a6fb3da8bbb31708aa1ffff409bd226ff3acd0061aa29278164c8",
+      "amplitude": 0.65,
+      "runtime_nu": -0.023721614896017137,
+      "correct_exact_float_nu": "-1709322496101267/72057594037927936",
+      "inherited_exact_float_nu": "-1709363037535891/72057594037927936",
+      "inherited_description_matches_runtime": false,
+      "nodes": 650,
+      "state_shape": [
+        257,
+        650
+      ],
+      "complete_state_and_radial_derivative_retained": true,
+      "checkpoint_bytes_unchanged": true
+    },
+    {
+      "path": "notes/2026-11-13-R133-m128-accepted-bounded-v7-b4-001.npz.gz",
+      "sha256": "27f09bb34c4a7bacb05fbec673d7a64040e0d8a701ff1586fa736fb4af9b5260",
+      "payload_sha256": "7282c6a1cd434066cb9157511a1ae1a8f838dd83f573375935d31ede566bf26e",
+      "amplitude": 0.65,
+      "runtime_nu": -0.023721616162222504,
+      "correct_exact_float_nu": "-6837290349363917/288230376151711744",
+      "inherited_exact_float_nu": "-1709363037535891/72057594037927936",
+      "inherited_description_matches_runtime": false,
+      "nodes": 651,
+      "state_shape": [
+        257,
+        651
+      ],
+      "complete_state_and_radial_derivative_retained": true,
+      "checkpoint_bytes_unchanged": true
+    }
+  ],
+  "final_identity_rows": [
+    {
+      "kind": "final_candidate_index",
+      "nu": -0.023721616162222504,
+      "exact_float_nu": "-6837290349363917/288230376151711744",
+      "identity_matches": true
+    },
+    {
+      "kind": "final_report",
+      "nu": -0.023721616162222504,
+      "exact_float_nu": "-6837290349363917/288230376151711744",
+      "identity_matches": true
+    }
+  ],
+  "final_inputs": {
+    "notes/2026-11-13-R133-compact-metric-outer-mean-m128-bounded-v7-b4-candidate.json": "4f19203308f8d95cb65f90d52c75edb7f476307698138be37efe7e305bde3e14",
+    "notes/2026-11-13-R133-compact-metric-outer-mean-m128-bounded-v7-b4-floating.json": "5001d4c110bd402f0d500b86670ad81e7d5f072adaa46a1e10644753de2e9754"
+  },
+  "stored_checkpoint_arrays_or_previous_artifacts_modified": false,
+  "execution_parameter_field": "nu",
+  "resume_exact_fraction_field_used_by_v7": false,
+  "mathematical_conclusions_changed": false,
+  "conclusion": "Accepted v7 checkpoints retain correct runtime doubles and complete arrays; exact_float_nu can be inherited and stale. Final v7 candidate/report identities are correctly recomputed. v8 only refreshes checkpoint descriptions and its diagnostic kind."
+}

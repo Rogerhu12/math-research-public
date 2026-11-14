@@ -1,0 +1,91 @@
+{
+  "kind": "actual_mean_retaining_finite_rank_common_root_shear_regularization",
+  "proved": true,
+  "source_sha256": "a0980f4077390f2a7cdc955fc12471a9d85966576a63fb0601939826ccda95fb",
+  "input_sha256": {
+    "notes/2026-11-12-actual-root-v0-complex-strip.json.gz": "70cd03af5bd7930be7421933dc072c866357858503c43f56fedb5cde1edfdd6c"
+  },
+  "actual_object": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/2500000",
+    "exact_parameter_interval": [
+      "-608725607945540621497/360287970189639680000000",
+      "-608437377569388909753/360287970189639680000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "L": 2048,
+  "max_possible_low_fourfold_index": 61,
+  "root_low_dimension_upper": 123,
+  "root_shear_difference_rank_upper": 246,
+  "constants": {
+    "v0_real_modulus_upper": {
+      "ball": "6004.1483230590820312500000000000000",
+      "lower": "6004.1483230590820312500000000000000",
+      "upper": "6004.1483230590820312500000000000000",
+      "mid_float": 6004.148323059082,
+      "radius_upper_float": 0.0
+    },
+    "balanced_shear_norm_upper": {
+      "ball": "[0.23085793636819887491995764033852994 +/- 2.34e-37]",
+      "lower": "[0.23085793636819887491995764033852994 +/- 2.34e-37]",
+      "upper": "[0.23085793636819887491995764033852994 +/- 2.34e-37]",
+      "mid_float": 0.23085793636819887,
+      "radius_upper_float": 0.0
+    },
+    "Airy_initial_square_sum_upper": {
+      "ball": "[0.77212961130813934272229911760036131 +/- 4.56e-36]",
+      "lower": "[0.77212961130813934272229911760036131 +/- 4.56e-36]",
+      "upper": "[0.77212961130813934272229911760036131 +/- 4.56e-36]",
+      "mid_float": 0.7721296113081394,
+      "radius_upper_float": 0.0
+    },
+    "full_balanced_free_frame_upper": {
+      "ball": "[1.6563340026688145891533075935217574 +/- 4.09e-35]",
+      "lower": "[1.6563340026688145891533075935217574 +/- 4.09e-35]",
+      "upper": "[1.6563340026688145891533075935217574 +/- 4.09e-35]",
+      "mid_float": 1.6563340026688147,
+      "radius_upper_float": 0.0
+    },
+    "full_balanced_free_frame_inverse_upper": {
+      "ball": "[1.8967144600834215900500556996614380 +/- 4.44e-35]",
+      "lower": "[1.8967144600834215900500556996614380 +/- 4.44e-35]",
+      "upper": "[1.8967144600834215900500556996614380 +/- 4.44e-35]",
+      "mid_float": 1.8967144600834216,
+      "radius_upper_float": 0.0
+    },
+    "full_wave_frame_condition_upper": {
+      "ball": "[1.7252615969172335382068077573640486 +/- 2.08e-35]",
+      "lower": "[1.7252615969172335382068077573640486 +/- 2.08e-35]",
+      "upper": "[1.7252615969172335382068077573640486 +/- 2.08e-35]",
+      "mid_float": 1.7252615969172336,
+      "radius_upper_float": 0.0
+    },
+    "same_bound_for_inverse": {
+      "ball": "[1.7252615969172335382068077573640486 +/- 2.08e-35]",
+      "lower": "[1.7252615969172335382068077573640486 +/- 2.08e-35]",
+      "upper": "[1.7252615969172335382068077573640486 +/- 2.08e-35]",
+      "mid_float": 1.7252615969172336,
+      "radius_upper_float": 0.0
+    }
+  },
+  "scope": [
+    "Gamma(0)=1, nonzero Gamma(j)=q*abs(j), and j is restricted to fourfold modes.",
+    "The regular finite port is unchanged, and root mean is retained.",
+    "P0-P0L is finite rank, not zero: all low rows, low columns and their full high tails must enter the real feedback.",
+    "This is a proved root-frame budget, not a certified inversion of the finite feedback block."
+  ]
+}

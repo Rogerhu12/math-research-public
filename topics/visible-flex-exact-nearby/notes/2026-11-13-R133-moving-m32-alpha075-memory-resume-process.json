@@ -1,0 +1,73 @@
+{
+  "kind": "explicit_bounded_floating_Codazzi_producer_process",
+  "complete": true,
+  "certified": false,
+  "source_sha256": "56a1acf4aa643678ce2cdad7d2edba72da10de464c931c60acb377e77cdd932b",
+  "producer": "scripts/fourfold_codazzi_moving_cap_cut_probe.py",
+  "producer_sha256": "5b019896c9b5cb50b24da0f349bc2266e6d4585795b8b2c8fdd1150496f4015c",
+  "producer_arguments": [
+    "--q-vector",
+    "notes/2026-11-13-R133-cap-cut-r15-q256-with-tail.json",
+    "--guess",
+    "/dev/shm/visible-exact-ac0d699811ad/moving-m32-alpha075-accepted000-candidate.json",
+    "--modes",
+    "32",
+    "--angles",
+    "512",
+    "--amplitude",
+    ".75",
+    "--mean-boundary",
+    "outer",
+    "--mesh-stride",
+    "1",
+    "--tol",
+    "2e-6",
+    "--max-nodes",
+    "1800",
+    "--jac-chunk",
+    "4",
+    "--qr-span",
+    "8",
+    "--qr-storage",
+    "memory",
+    "--qr-scratch",
+    "/dev/shm/visible-exact-ac0d699811ad",
+    "--checkpoint-dir",
+    "/dev/shm/visible-exact-ac0d699811ad/codazzi_newton_checkpoints",
+    "--pause-after-accepted",
+    "0",
+    "--out",
+    "notes/2026-11-13-R133-moving-m32-alpha075-memory-resume-floating.json",
+    "--candidate",
+    "/dev/shm/visible-exact-ac0d699811ad/moving-m32-alpha075-memory-resume-candidate.json"
+  ],
+  "address_space_limit_bytes": 1073741824,
+  "address_space_limit_MiB": 1024,
+  "limit_kind": "RLIMIT_AS address space, not resident memory",
+  "mathematical_equations_or_tolerances_modified": false,
+  "status": "producer_returned_normally",
+  "all_accepted_checkpoints": [
+    {
+      "path": "/dev/shm/visible-exact-ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-moving-m32-alpha075-memory-resume-floating/accepted-000.npz",
+      "sha256": "7273da7caa24ed5827626edd31305b7c89c80d963e246738d6c1661afbcfd54b",
+      "bytes": 463529
+    },
+    {
+      "path": "/dev/shm/visible-exact-ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-moving-m32-alpha075-memory-resume-floating/accepted-001.npz",
+      "sha256": "e5215ee13c55c8dc863fbda859518aeedb21439c25c15a05df6868396294e639",
+      "bytes": 616187
+    },
+    {
+      "path": "/dev/shm/visible-exact-ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-moving-m32-alpha075-memory-resume-floating/accepted-002.npz",
+      "sha256": "a399543b71d1fe9875cb8525c7ea8a75dca0834e6e3a1c3d1aa6bd6345cd7499",
+      "bytes": 632714
+    }
+  ],
+  "producer_output": "notes/2026-11-13-R133-moving-m32-alpha075-memory-resume-floating.json",
+  "process_wrapper_exit_code": 0,
+  "peak_resident_KiB": 182812,
+  "wall_seconds": 157.84824814400054,
+  "producer_output_exists": true,
+  "scope": "Only a process allocation guard and complete checkpoint inventory. A normal producer return does not mean its finite BVP converged; the separate producer report retains all actual solver/math gates.",
+  "producer_output_sha256": "1a45bf1e53a3abe4348edd6c6f806b78d167a6d01f3dfbecbb0bb68c59d314dc"
+}

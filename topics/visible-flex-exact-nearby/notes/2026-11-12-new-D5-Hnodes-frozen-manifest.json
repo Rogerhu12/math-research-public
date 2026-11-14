@@ -1,0 +1,17 @@
+{
+  "kind": "completed_same_new_D5_geometry_and_new_H_actual_ray_validation",
+  "files": [
+    {
+      "path": "notes/2026-11-12-step02-d5-jet-actual-conjugacy-nodes64.json",
+      "sha256": "5cd6ff063d04258611b0c466cf5d188e1d2ecdb0d2e6b3a6c3722e145ee1bba0",
+      "bytes": 20777
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_jet_Hnodes_branch.npz",
+      "sha256": "9538c2c0d0192728bc05c06e7f485ed69e68ae9ac0acf4228322b76f8d3cd8b5",
+      "bytes": 2224
+    }
+  ],
+  "source_sha256": "0dcfb37f84a1b3d6197b375aa8700628a00398c0b509ce5da6c92f1ecf489199",
+  "limitations": "Floating ODE samples and actual local curve column, not a uniform or analytic conjugacy bound; original radial reflection caveat applies."
+}

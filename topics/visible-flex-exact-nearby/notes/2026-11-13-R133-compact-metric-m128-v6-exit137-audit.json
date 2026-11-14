@@ -1,0 +1,24 @@
+{
+  "kind": "actual_full_matrix_free_M128_process_failure_audit",
+  "certified": false,
+  "finite_BVP_success": false,
+  "actual_process_exit_code": 137,
+  "actual_session": 81764,
+  "source_sha256": "fa48d5aedd5b41581ed30ac9758c4f279cef2032aa1a24e36bf02cb86c9f3e97",
+  "input_sha256": "4046eb7ac8da162ab9aad9fcb4991933200abdbc2c22ed6329d49bb13d72b856",
+  "modes": 128,
+  "angular_grid": 2048,
+  "initial_radial_nodes": 879,
+  "preconditioner_Fourier_band": 4,
+  "matrix_free_operator_all_finite_couplings_retained": true,
+  "last_actual_output": {
+    "preconditioner_nonzeros": 7652246,
+    "assembly_seconds": 63.83369661699908,
+    "maximum_omitted_preconditioner_row_l1": 0.0254959907805684,
+    "maximum_full_collocation_row_l1": 938.3248484694119
+  },
+  "accepted_checkpoints": [],
+  "complete_final_report_written": false,
+  "complete_final_candidate_written": false,
+  "scope": "Exit 137 after the sparse preconditioner assembly and before any complete GMRES solve or accepted-step output. There is no OS OOM log. This is a preserved resource failure, not a mathematical singularity or a nonlinear rejection. The independent small full-action audit remains passed. A separately named lower-memory full-operator run follows."
+}

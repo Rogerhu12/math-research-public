@@ -1,0 +1,44 @@
+{
+  "kind": "actual_execution_availability_and_core_retry",
+  "date_utc": "2026-11-12",
+  "last_successful_terminal_pull": {
+    "time_utc": "21:45",
+    "head": "93bbc1b548afd86ace4f397b545476172d370eb1",
+    "readme_diff_empty": true
+  },
+  "terminal_probe": {
+    "time_utc": "22:40:32",
+    "command": "git rev-parse HEAD",
+    "working_directory": "/home/agent/visible-exact-native-f6a2",
+    "tool_error": "No usable execution environment is available. Wait for an environment to become available before using this tool.",
+    "git_pull_executed": false
+  },
+  "readme_api_check": {
+    "head": "5fd9fccadab5ef7a6d1e342c4f240379bda7bc89",
+    "root_blob": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topic_blob": "84b6d9fc74ed90ab725aa230cdf348f325505396",
+    "both_unchanged": true,
+    "is_terminal_pull": false
+  },
+  "core_retry": {
+    "original_run": 43309325704,
+    "original_job": 131500893401,
+    "retry_requested_utc": "22:34:04",
+    "api_request_success": true,
+    "attempt": 2,
+    "new_job": 131541628413,
+    "head": "53c60cdf48842fa4c6bf1b0362bfe1a2d212f0fc",
+    "created_at": "2026-11-12T22:34:06Z",
+    "completed_at": "2026-11-12T22:34:08Z",
+    "conclusion": "failure",
+    "runner_id": 0,
+    "steps": [],
+    "mathematical_execution": false
+  },
+  "original_job_log": {
+    "requested_utc": "22:30:18",
+    "response": "HTTP 404 BlobNotFound",
+    "cause_of_no_runner": "not established"
+  },
+  "scope": "No native global core matrix, family multiplier, new gap or nonlinear result is claimed. Continue the authorized mathematical work and resume actual computation immediately when an execution environment is available."
+}

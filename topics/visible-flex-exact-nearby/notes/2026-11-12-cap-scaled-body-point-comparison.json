@@ -1,0 +1,165 @@
+{
+  "kind": "same_actual_graph_radius_cancelled_positive_body",
+  "complete": true,
+  "source_sha256": "f552b3c90880a9f9ee812015018a83da67e5d5fe66e1232fd2871d2c59e600db",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+  "trial_report_path": "notes/2026-11-12-cap-space-boundary4-interior16-P2.json",
+  "trial_report_sha256": "7bb50d93188dd4253ccea2d8731931ea82e212c66829e91ff49ec29bb9a291ac",
+  "primitive_nodes": 512,
+  "angular_nodes": 1024,
+  "bits": 160,
+  "full_positive_cap_complete": false,
+  "dependency_sha256": {
+    "fourfold_phase_cap_energy_interval.py": "ef752984f6e8c9331b1f11f2419f49460d42288fa0aba10555a18455b971df91",
+    "fourfold_phase_positive_family_outer.py": "6c06be00ba05a57a767fb30c56264dc1d6d837a936957cc194e8612d33e9d158",
+    "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+    "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991"
+  },
+  "comparisons": [
+    {
+      "radial": "1/4",
+      "true_common_span": [
+        "1/4",
+        "4528886369647159/18014398509481984"
+      ],
+      "true_target_K_overlap": true,
+      "true_form_and_inverse_overlaps": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "K_new": {
+        "ball": "[0.1718274660408 +/- 1.99e-14]",
+        "lower": "[0.17182746604078019680982078906233404 +/- 3.55e-36]",
+        "upper": "[0.17182746604079729424442648625265826 +/- 2.74e-36]",
+        "mid_float": 0.17182746604078875,
+        "radius_upper_float": 8.548717302848595e-15
+      },
+      "K_previous": {
+        "ball": "[0.17182746604079 +/- 5.15e-15]",
+        "lower": "[0.17182746604078485974653083216470424 +/- 7.47e-38]",
+        "upper": "[0.17182746604079263130771644315028805 +/- 3.80e-36]",
+        "mid_float": 0.17182746604078875,
+        "radius_upper_float": 3.885780592805493e-15
+      },
+      "new_max_component_radii": [
+        1.772887392448297e-14,
+        1.145264438839888e-14,
+        1.6139867220488213e-14,
+        2.071232074740692e-11,
+        2.5796254021770437e-11,
+        5.225331278779777e-11
+      ],
+      "previous_max_component_radii": [
+        2.1593837828959295e-14,
+        1.3853501679150781e-14,
+        1.8360313269738526e-14,
+        2.0673240896940115e-11,
+        2.438937940496544e-11,
+        4.5986325858393684e-11
+      ],
+      "passed": true
+    },
+    {
+      "radial": "1",
+      "true_common_span": [
+        "1",
+        "2257429313219461/2251799813685248"
+      ],
+      "true_target_K_overlap": true,
+      "true_form_and_inverse_overlaps": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "K_new": {
+        "ball": "[0.09665872387285 +/- 5.30e-15]",
+        "lower": "[0.096658723872844701241465758831684896 +/- 2.57e-37]",
+        "upper": "[0.096658723872849960923051537955695577 +/- 4.33e-37]",
+        "mid_float": 0.09665872387284732,
+        "radius_upper_float": 2.629840792889562e-15
+      },
+      "K_previous": {
+        "ball": "[0.09665872387285 +/- 4.18e-15]",
+        "lower": "[0.096658723872845825342279846163907181 +/- 2.39e-37]",
+        "upper": "[0.096658723872848933966752105324670580 +/- 4.83e-37]",
+        "mid_float": 0.09665872387284738,
+        "radius_upper_float": 1.5543122361295804e-15
+      },
+      "new_max_component_radii": [
+        1.9220736113823023e-15,
+        8.608565249534905e-17,
+        8.859579736508749e-14,
+        3.4727776210274897e-13,
+        3.462508058049707e-15,
+        1.0774714453987144e-13
+      ],
+      "previous_max_component_radii": [
+        4.093947403305265e-15,
+        1.6436504934880247e-16,
+        1.2889689315898067e-13,
+        7.913669719528116e-13,
+        3.975986206938842e-15,
+        1.1851630787873546e-13
+      ],
+      "passed": true
+    },
+    {
+      "radial": "3",
+      "true_common_span": [
+        "6738510942453105/2251799813685248",
+        "3"
+      ],
+      "true_target_K_overlap": true,
+      "true_form_and_inverse_overlaps": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "K_new": {
+        "ball": "[0.02934244629198 +/- 1.53e-15]",
+        "lower": "[0.029342446291979802641679836374622234 +/- 2.67e-38]",
+        "upper": "[0.029342446291981526956816611682099186 +/- 4.66e-37]",
+        "mid_float": 0.029342446291980663,
+        "radius_upper_float": 8.621575683876537e-16
+      },
+      "K_previous": {
+        "ball": "[0.029342446291981 +/- 8.86e-16]",
+        "lower": "[0.029342446291980114891905512199899228 +/- 1.74e-37]",
+        "upper": "[0.029342446291981190420462272181522870 +/- 3.79e-37]",
+        "mid_float": 0.029342446291980653,
+        "radius_upper_float": 5.377642783799908e-16
+      },
+      "new_max_component_radii": [
+        8.708311849403572e-16,
+        4.8871510800252123e-26,
+        7.366329768387914e-14,
+        7.744915819785092e-13,
+        5.496227429502735e-24,
+        1.4210854715202004e-13
+      ],
+      "previous_max_component_radii": [
+        1.9307472287621863e-15,
+        9.117969886906543e-26,
+        1.0980105713542798e-13,
+        1.7408297026122455e-12,
+        6.468810884106099e-24,
+        1.6442402994698568e-13
+      ],
+      "passed": true
+    }
+  ],
+  "CPU_seconds": 5.182716060000001,
+  "wall_seconds": 37.20433865999803,
+  "scope": "Independent true point enclosures only; all infinite primitive tails included. No whole cap integral claim."
+}

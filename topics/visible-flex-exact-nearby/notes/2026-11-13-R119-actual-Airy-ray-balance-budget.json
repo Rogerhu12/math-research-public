@@ -1,0 +1,321 @@
+{
+  "schema": "visible-exact-R119-actual-Airy-ray-balance-v1",
+  "scope": "Actual all-frequency Airy balance of the full two-branch perturbation, an exact paired ordinary-source cancellation and the full physical endpoint height/flux/mean conversion. The reference mixed-network Green inverse is not asserted.",
+  "parameters": {
+    "real_label_weight": 224,
+    "Airy_scale": "varrho_i=32(j+4)/delta_j",
+    "all_frequencies": "m in 4Z, including zero",
+    "generator_angle_loss": "h_j/64",
+    "physical_ordinary_source_angle_loss": "h_j/32",
+    "relative_generator_integral": "<2^-574 X",
+    "first_full_label_derivative": "<2^-571",
+    "second_full_label_derivative": "<2^-566",
+    "ordinary_source": "<2^20 epsilon_tail rho delta_j^(8447/1536) ||e||_(L2 A_(s+h_j/32))"
+  },
+  "file_sha256": {
+    "results/R119-supplement-actual-negative-band-metric-parameters.md": "3139d06c6628df7d248bd3fcd0c842837edcde840f12ba383a9a99397ffbb361",
+    "results/R119-supplement-joint-actual-negative-band-return-kam.md": "d2eb6364aef5dfd0bf551384a4b597383f403dd5109cba5633ad15ec49ead95e",
+    "results/R119-supplement-actual-ray-amplitude-and-integrable-relative-coupling.md": "6a79a8ed9f22ddff4729608529a50d5bc3fc57b70c4179c89b1bb16072ccc3c6",
+    "results/R119-supplement-divergence-frame-and-uniform-turning-energy.md": "9721fd961358c271466aff2192265a53707aad8a97b37c80e9931245ecd84a14",
+    "results/R119-supplement-actual-Airy-balance-of-ray-coupling-and-sources.md": "1d6fe6010177cffde98f11f2bf7262b21ec33c428ec431f31a58c8f66f3be6a3",
+    "scripts/fourfold_actual_Airy_ray_balance_20261113.py": "56f4a4715ba4ead4c3f3aa0ea225870e832f256da6f8bcf4fbb25e8000c26132"
+  },
+  "checks": [
+    {
+      "name": "exact_reference_raw_gradient_principal",
+      "pass": true,
+      "evidence": "The actual frame is the raw height-gradient frame, with both characteristic branches"
+    },
+    {
+      "name": "exact_reference_raw_gradient_zero_order",
+      "pass": true,
+      "evidence": "All q_t terms cancel only inside the exact reference operator"
+    },
+    {
+      "name": "exact_orthogonal_branch_change",
+      "pass": true,
+      "evidence": "In component sum or maximum norm the two changes together cost at most 2"
+    },
+    {
+      "name": "exact_true_endpoint_height_derivative",
+      "pass": true,
+      "evidence": "The same physical endpoint angle is used on both branches"
+    },
+    {
+      "name": "exact_true_endpoint_flux_density",
+      "pass": true,
+      "evidence": "The complete physical conormal and its nonlinear density survive the Airy change"
+    },
+    {
+      "name": "exact_weighted_endpoint_height_compatibility",
+      "pass": true,
+      "evidence": "The mean constraint is on sqrt(D)*z0, not the unweighted z0 zero mode"
+    },
+    {
+      "name": "exact_weighted_endpoint_holonomy",
+      "pass": true,
+      "evidence": "The holonomy mean is read from the full weighted flux"
+    },
+    {
+      "name": "exact_zero_background_paired_source",
+      "pass": true,
+      "evidence": "The reference first source is exactly zero and the second is the true normalized ordinary source"
+    },
+    {
+      "name": "all_frequency_Airy_upper_envelope",
+      "pass": true,
+      "evidence": "For every Fourier mode, q<=omega_m<=q+varrho"
+    },
+    {
+      "name": "complete_turning_branch_balance_fee",
+      "pass": true,
+      "evidence": "Both branch rotations have component norm sqrt(2); both diagonal ratios are bounded by sqrt(1+varrho/q)"
+    },
+    {
+      "name": "actual_Airy_scale_dominates_peak",
+      "pass": true,
+      "evidence": "delta<1 and the polynomial inequality improves for every later layer"
+    },
+    {
+      "name": "actual_full_reference_radial_slope",
+      "pass": true,
+      "evidence": "The actual quintic and Gamma0 bump second derivatives are both included"
+    },
+    {
+      "name": "actual_Airy_scale_covers_turning_slope",
+      "pass": true,
+      "evidence": "varrho_j^3 bounds the real reference |A_t| on the complete negative component"
+    },
+    {
+      "name": "exact_left_inverse_speed_integration",
+      "pass": true,
+      "evidence": "The monotone left half pays the entire q'/q^2 singularity by one exact integration"
+    },
+    {
+      "name": "exact_right_inverse_speed_integration",
+      "pass": true,
+      "evidence": "The right half uses the remaining optical distance, with its true endpoint vanishing"
+    },
+    {
+      "name": "actual_inverse_speed_optical_moment",
+      "pass": true,
+      "evidence": "The two roots, all platforms and the entire steep shoulder are integrated"
+    },
+    {
+      "name": "actual_retuned_profile_inverse_speed_fee",
+      "pass": true,
+      "evidence": "64 delta-gamma times sqrt(eta/Delta)=64 delta-gamma*2^25 kappa"
+    },
+    {
+      "name": "actual_nonlinear_amplitude_inverse_speed_fee",
+      "pass": true,
+      "evidence": "The actual q/q0 ratio, both discriminant terms and the exact A=-q^2 factor are retained"
+    },
+    {
+      "name": "actual_direct_inverse_speed_integral",
+      "pass": true,
+      "evidence": "Both density-pullback factors are included"
+    },
+    {
+      "name": "actual_complete_inverse_speed_coupling_constant",
+      "pass": true,
+      "evidence": "The weighted optical moment, r_i, Diophantine normalization and h_j/64 are all paid"
+    },
+    {
+      "name": "actual_inverse_speed_two_constant_merge",
+      "pass": true,
+      "evidence": "The true parameter amplitude and nonlinear density terms are combined without omission"
+    },
+    {
+      "name": "actual_Airy_parameter_term_constant",
+      "pass": true,
+      "evidence": "This includes 2 varrho_j and the complete epsilon_i"
+    },
+    {
+      "name": "actual_Airy_phase_term_constant",
+      "pass": true,
+      "evidence": "Both inverse kappa and inverse h_j are included after the Airy balancing"
+    },
+    {
+      "name": "actual_Airy_parameter_radial_power",
+      "pass": true,
+      "evidence": "The complete explicit Airy scale costs one power of delta"
+    },
+    {
+      "name": "actual_Airy_phase_radial_power",
+      "pass": true,
+      "evidence": "All profile, true phase-window and angle costs are retained"
+    },
+    {
+      "name": "actual_first_Airy_parameter_depth",
+      "pass": true,
+      "evidence": "The full first actual layer is used with the monotone envelope"
+    },
+    {
+      "name": "actual_first_Airy_phase_depth",
+      "pass": true,
+      "evidence": "The full first actual layer is used with the monotone envelope"
+    },
+    {
+      "name": "actual_first_Airy_parameter_polynomial",
+      "pass": true,
+      "evidence": "Both j+4 factors remain in the first envelope"
+    },
+    {
+      "name": "actual_first_Airy_phase_polynomial",
+      "pass": true,
+      "evidence": "(j+4)^3 sqrt(j)<2^28 at the first actual layer"
+    },
+    {
+      "name": "actual_first_Airy_parameter_bound",
+      "pass": true,
+      "evidence": "This is the wide-domain exp(-640) fee"
+    },
+    {
+      "name": "actual_first_Airy_phase_bound",
+      "pass": true,
+      "evidence": "No narrow-domain exp(-896) budget is borrowed"
+    },
+    {
+      "name": "actual_parameter_layer_ratio_power",
+      "pass": true,
+      "evidence": "2^(-187/256)<2/3"
+    },
+    {
+      "name": "actual_parameter_layer_ratio",
+      "pass": true,
+      "evidence": "The polynomial ratio decreases for every j>=129"
+    },
+    {
+      "name": "actual_phase_layer_ratio_power",
+      "pass": true,
+      "evidence": "2^(-250/256)<3/5"
+    },
+    {
+      "name": "actual_phase_layer_ratio",
+      "pass": true,
+      "evidence": "The square root j ratio is safely bounded by (j+1)/j"
+    },
+    {
+      "name": "actual_all_Airy_components_sum_factor",
+      "pass": true,
+      "evidence": "At most two true negative components occur per layer"
+    },
+    {
+      "name": "actual_full_Airy_relative_integral",
+      "pass": true,
+      "evidence": "The complete infinite sum includes the unweighted generator fee"
+    },
+    {
+      "name": "actual_Airy_full_label_derivatives",
+      "pass": true,
+      "evidence": "The entire operator is differentiated, including all metric and true angle dependencies"
+    },
+    {
+      "name": "actual_source_total_angle_domain",
+      "pass": true,
+      "evidence": "Common physical source composition and the paired difference fit inside the proved wide coefficient strip"
+    },
+    {
+      "name": "actual_source_total_infinite_angle_bill",
+      "pass": true,
+      "evidence": "The extra correlated-source width is not hidden"
+    },
+    {
+      "name": "actual_paired_source_density_difference",
+      "pass": true,
+      "evidence": "The two sources are related by the exact density pullback of the same source"
+    },
+    {
+      "name": "actual_first_balanced_source_constant",
+      "pass": true,
+      "evidence": "The complete two-branch difference is divided by q0 only after its optical vanishing"
+    },
+    {
+      "name": "actual_fractional_source_Cauchy_domain",
+      "pass": true,
+      "evidence": "The maximum of (1+m)^(1/6) exp(-h m) is in the stated range, including m=0"
+    },
+    {
+      "name": "actual_fractional_source_Cauchy_constant",
+      "pass": true,
+      "evidence": "exp(h)<2, so the full Fourier multiplier costs at most 2 h^(-1/6)"
+    },
+    {
+      "name": "actual_second_balanced_source_constant",
+      "pass": true,
+      "evidence": "The correct sixth-order angular source weight is paid"
+    },
+    {
+      "name": "actual_source_absorption_condition",
+      "pass": true,
+      "evidence": "Comparing the first source to 32 a w varrho^-1/2 h^-1/6 retains delta*varrho=32(j+4)"
+    },
+    {
+      "name": "actual_source_absorption_width_fee",
+      "pass": true,
+      "evidence": "hbar^(-5/6)<2^9 delta^(-5/1536) includes the factor64"
+    },
+    {
+      "name": "actual_source_absorption_radial_power",
+      "pass": true,
+      "evidence": "The whole true partial-return correction is included"
+    },
+    {
+      "name": "actual_source_absorption_first_depth",
+      "pass": true,
+      "evidence": "The nearly-critical first layer is not rounded to the false exponent129"
+    },
+    {
+      "name": "actual_source_absorption_first_polynomial",
+      "pass": true,
+      "evidence": "(j+4)^2 sqrt(j)<2^20"
+    },
+    {
+      "name": "actual_source_absorption_constant",
+      "pass": true,
+      "evidence": "This includes the actual KAM phase inverse, angle loss and geometric Airy scale"
+    },
+    {
+      "name": "actual_source_absorption_first_bound",
+      "pass": true,
+      "evidence": "The two-source cancellation is small enough to absorb on the whole real label ball"
+    },
+    {
+      "name": "actual_source_absorption_layer_power",
+      "pass": true,
+      "evidence": "2^(-1501/1536)<3/5, proved by integer arithmetic"
+    },
+    {
+      "name": "actual_source_absorption_layer_ratio",
+      "pass": true,
+      "evidence": "Every deeper layer satisfies the same strict absorption gate"
+    },
+    {
+      "name": "actual_physical_source_prefactor",
+      "pass": true,
+      "evidence": "Both components, a<=2rho, w<=2^11 epsilon delta^5 and hbar^-1/6<4 delta^-1/1536 remain"
+    },
+    {
+      "name": "actual_physical_source_radial_power",
+      "pass": true,
+      "evidence": "The final L2 source estimate keeps its real physical epsilon*rho units"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "actual_complete_reference_operator_retained": true,
+    "full_frequency_Airy_weight_including_mean": true,
+    "true_shoulder_and_turning_inverse_speed_integrals": true,
+    "all_layer_balanced_generator_difference": true,
+    "full_first_second_label_derivatives": true,
+    "paired_physical_ordinary_source_L2_bound": true,
+    "both_true_endpoint_height_flux_rows": true,
+    "complete_weighted_mean_and_independent_height": true,
+    "reference_Airy_Green_norm": false,
+    "complete_positive_negative_network_inverse": false,
+    "all_metric_source_conversion": false,
+    "full_nonlinear_high_input_inverse": false,
+    "topic_completion": false
+  }
+}

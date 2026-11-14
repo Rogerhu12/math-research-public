@@ -1,0 +1,154 @@
+{
+  "status": "all_pass",
+  "scope": "Actual positive cross transmission, its weighted perturbation and complete sourced total flux in the existing true endpoint angles",
+  "checks": [
+    {
+      "name": "actual_new_profile_optical_upper",
+      "pass": true,
+      "evidence": {
+        "log2_interval": "[-89.9552509245804487211877347741647526481300 +/- 2.01e-41]",
+        "actual_profile": "K_j64 through8192 and2^128 later; the same paid Delta+<3(j+4)"
+      }
+    },
+    {
+      "name": "all_deeper_optical_rows_decrease",
+      "pass": true,
+      "evidence": "[0.596834723154700509934998321267552510329266 +/- 4.39e-43]"
+    },
+    {
+      "name": "actual_variable_angular_strip",
+      "pass": true,
+      "evidence": "The genuine half optical length stays inside the paid complex coefficient strip"
+    },
+    {
+      "name": "full_Fourier_coefficient_sum",
+      "pass": true,
+      "evidence": "All frequencies4Z, both signs and the mean; exp(1/8)-1>1/8"
+    },
+    {
+      "name": "actual_total_weighted_coefficient_error",
+      "pass": true,
+      "evidence": "Every local epsilonhat is at most its complete actual all-layer sum"
+    },
+    {
+      "name": "weighted_principal_coercivity",
+      "pass": true,
+      "evidence": "The real mixed radial terms cancel exactly; the mean multiplier is zero"
+    },
+    {
+      "name": "actual_complete_weighted_coercivity",
+      "pass": true,
+      "evidence": "39/64"
+    },
+    {
+      "name": "actual_weighted_form_boundedness",
+      "pass": true,
+      "evidence": "Both the plus and minus radial derivatives are retained"
+    },
+    {
+      "name": "true_weighted_Dirichlet_solution",
+      "pass": true,
+      "evidence": "Reference two-end harmonic lift plus the genuine coercive zero-boundary correction"
+    },
+    {
+      "name": "both_direction_complete_transmission",
+      "pass": true,
+      "evidence": "Opposite optical weights give the two independent cross blocks"
+    },
+    {
+      "name": "actual_difference_energy",
+      "pass": true,
+      "evidence": "The actual-minus-reference solution has both Dirichlet traces zero"
+    },
+    {
+      "name": "actual_weighted_flux_difference",
+      "pass": true,
+      "evidence": "Both the changed solution and changed full form are retained"
+    },
+    {
+      "name": "cross_difference_safety",
+      "pass": true,
+      "evidence": "The coefficient Fourier fee is included before the final cross-operator bound"
+    },
+    {
+      "name": "full_actual_cross_sum",
+      "pass": true,
+      "evidence": "Both transmission directions and every actual positive component"
+    },
+    {
+      "name": "full_actual_working_input",
+      "pass": true,
+      "evidence": "The all-layer operator difference has a genuine strictly positive exponential bound"
+    },
+    {
+      "name": "full_label_to_operator_factor",
+      "pass": true,
+      "evidence": "The actual new chart has X<16 a, with no old chart constant substitution"
+    },
+    {
+      "name": "complete_operator_Cauchy_derivative",
+      "pass": true,
+      "evidence": "The disk is A*/4 at a point inside A*/2; the entire parameter dependence is retained"
+    },
+    {
+      "name": "physical_source_composition_strip",
+      "pass": true,
+      "evidence": "The source is composed with the original physical total angle map, with a paid width margin"
+    },
+    {
+      "name": "physical_total_angle_majorant",
+      "pass": true,
+      "evidence": "Actual drift and endpoint angle bounds, converted to the complete Fourier norm"
+    },
+    {
+      "name": "complete_Airy_cross_normalization",
+      "pass": true,
+      "evidence": "The full cross block is conjugated at both ends, while the reference multipliers commute with angular weights"
+    },
+    {
+      "name": "actual_scale_cancellation",
+      "pass": true,
+      "evidence": "D scales as rho^-1 and the true Airy height inverse scales as sqrt(rho)"
+    },
+    {
+      "name": "mean_cross_is_kept",
+      "pass": true,
+      "evidence": "At m=0 the normalized cross is -1, not zero, and the exponential weight is exactly1"
+    },
+    {
+      "name": "complete_weak_source_factor",
+      "pass": true,
+      "evidence": "The rho'|D| test term is paid together with both original weak source components"
+    },
+    {
+      "name": "actual_total_flux_affine_column",
+      "pass": true,
+      "evidence": "The zero-boundary solution term and the direct physical source boundary functional both remain"
+    },
+    {
+      "name": "both_source_endpoint_columns",
+      "pass": true,
+      "evidence": "The full two-end vector is controlled without deleting either mean flux"
+    },
+    {
+      "name": "support_dependent_gain_positive",
+      "pass": true,
+      "evidence": "rho=r+(tau-tau_s)/2: only sources with the stated actual support gain the corresponding output width"
+    },
+    {
+      "name": "full_transmission_not_inverted",
+      "pass": true,
+      "evidence": "Only half the real optical exponent is removed; no relative inverse of the tiny full reference cross is asserted"
+    }
+  ],
+  "full_reference_transmission_inverted": false,
+  "full_network_inverse_proved": false,
+  "file_sha256": {
+    "results/R119-supplement-actual-positive-transmission-and-weighted-affine-source.md": "9a7b80ed242edaee24376314e98c2400e2a1c2b624d3f49b4032fdc2e90fdc99",
+    "scripts/fourfold_actual_positive_transmission_20261113.py": "47af50bd6825d5189216a7541af5bb39541d6bfd3e40fa1c237254f5c30eb287",
+    "results/R119-supplement-actual-positive-DN-to-full-Airy-Cayley-and-sources.md": "6ca70b578531fd77edbc65cfe0f04f1859182c19b2e43446069c8a5ef0f5ca88",
+    "results/R119-supplement-KAM-selected-fixed-reference-and-exact-endpoint-phases.md": "004b9210a856807beb0aeeac62538e8f269eaa1b3872e3282d7cfa728ac0f82d",
+    "results/R119-supplement-stronger-tail-joint-actual-return-KAM.md": "143a213914c048141b0c42f72120b903b15fde66fa31234a37196d4c5b6ebc54",
+    "results/R119-supplement-actual-positive-band-two-end-dn-and-ordinary-source.md": "501f0813575c071d1586b412873ae2c43022a955c04d870f41d21c448ce38484"
+  }
+}

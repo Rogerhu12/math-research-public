@@ -1,0 +1,248 @@
+{
+  "kind": "complete_exact_forward_density_and_ordered_flow",
+  "complete": false,
+  "source_sha256": "7c4832e7abda327be7e2716a33c946b5058b8a96fd2e2211fcfa3ae428ffd99d",
+  "descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+  "pipeline_sources": {
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_expanded_time_v5.py": "6be6b7c02eba1eebb8c6f9cda09641af1653fb2b19dc49a36e57670fc0c64d57",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_minimal_time.py": "f2c373e1a2226224f08078fc01abb219de32c39344d2fb143947c2f5058d04b0",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_Q1024_v3.py": "97f75109f6636785a7f6718eab46b9c1e51e62ff49261ef974dfa8b45cda240e",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_turn0_v1.py": "6fcfe5ff8c4e3ffb9c79f9a613c6bacc244b3a6b707fa78f558cd8933b16342f"
+  },
+  "reference_seams": {
+    "path": "notes/2026-11-12-step5-forward-reference-derivative-complete-summary.json",
+    "sha256": "d1dd69ac94f5912c828a6e22856badcb69bf324fdc7fc9a43f05493161363dc9",
+    "report_path": "notes/2026-11-12-step5-forward-reference-derivative-gate.json.gz",
+    "report_sha256": "87aeff7e8824c7d6301c6f33cbeea506e584004c5bee1591512a556348cbfd8c",
+    "all_549_base_and_Q_seams_exact": true
+  },
+  "label_strip": "1/256",
+  "inner_strip": "3/1024",
+  "exact_initial_time": {
+    "rational": "0",
+    "pi_coefficient": "-1/2"
+  },
+  "leaves": [
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_pipeline_pilot0/forward_0000_ef134f2a18.json.gz",
+      "sha256": "a6c8560ac4b34a53bb4636c55d4e9672c875156df95f3e975b46947bab15be15",
+      "bytes": 56591,
+      "segment": 0,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0000_r.json.gz",
+      "current_field_cover_domain_sha256": "9415569ec4a2b86a15b6764406927584ed0c866955097700ec8aa5616a46891b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0001_ef134f2a18.json.gz",
+      "sha256": "dcfc8e721de4b6c2cb928fdbabc3b8db5c1be9e3f24772a23148efe072c31750",
+      "bytes": 43450,
+      "segment": 1,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0001_r.json.gz",
+      "current_field_cover_domain_sha256": "2b5b8bcae2f07e42f93208889c1bccaede6161917978f23696c0d110c3cbfc1a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0002_ef134f2a18.json.gz",
+      "sha256": "d333912e47a683b018c9af2c0162ec7a8f2939fadacab20895682bdf98f44208",
+      "bytes": 46219,
+      "segment": 2,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0002_r.json.gz",
+      "current_field_cover_domain_sha256": "4e261d18833de168905eeb071793f18797549499acb47e0aa56e80dac4709695"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0003_ef134f2a18.json.gz",
+      "sha256": "135ec493718b72748869ff061d9d3953a32a5284ae7dbe3fc2dbaab2566bccc5",
+      "bytes": 43072,
+      "segment": 3,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0003_r.json.gz",
+      "current_field_cover_domain_sha256": "99ab3ad3de524436c703201e7497bea5c7613ce845c45c8b4408a19f8f43d9a9"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0004_ef134f2a18.json.gz",
+      "sha256": "7681bcaeb7912425989a2c491dbf36f267b2c788b184b5a3a3d8715a581b5ba2",
+      "bytes": 41404,
+      "segment": 4,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0004_r.json.gz",
+      "current_field_cover_domain_sha256": "dbf6934bd05ecaeafdda6348c2e36ba19e549a78a9e3ade28e4992c10848c852"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0005_ef134f2a18.json.gz",
+      "sha256": "69492ad65a4f225db335c40ac4333c36d98606b9d971f5c77710afc26fc39ab7",
+      "bytes": 40417,
+      "segment": 5,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0005_r.json.gz",
+      "current_field_cover_domain_sha256": "3504e7f07e3b693c24c4ee5ea6df70e44e8bb176ac802bfff953cfc24ee083a2"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0006_ef134f2a18.json.gz",
+      "sha256": "3c0eb3357080463a25ca7de7928126e2e746485d30c0eb647e1f0b67e2580c61",
+      "bytes": 40389,
+      "segment": 6,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0006_r.json.gz",
+      "current_field_cover_domain_sha256": "b0e6703dd35af395469f81e13e81b190c60d0bf2b8a3c0acb0da7e8115fda29d"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0007_ef134f2a18.json.gz",
+      "sha256": "515f0ec85af0f20fc9c497db672b9a00a5703b00024e593d5a25add72a7b5f06",
+      "bytes": 40417,
+      "segment": 7,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0007_r.json.gz",
+      "current_field_cover_domain_sha256": "5350c3eec13fc8fc70017010de95350614a8647ec153b58212cc6ec100baffdb"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0008_ef134f2a18.json.gz",
+      "sha256": "9b3d441b4036e08cdf5c76fc8c7d2ed2edc440bd09bfde3ceac9d4c09552b132",
+      "bytes": 37378,
+      "segment": 8,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0008_r.json.gz",
+      "current_field_cover_domain_sha256": "01521f6b18629ccd3d2304c7b2ccc82236fcbf577b2d996c2c96c009c3098176"
+    }
+  ],
+  "completed_segments": 9,
+  "whole_forward_leg": false,
+  "input_cover_snapshots": [
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_forward.json.gz",
+      "sha256": "41ffc50cd39b404a0f7fef71cf3388bb0b92945e83f8424a6715124be49f7f97",
+      "completed_cases": 332
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_forward.json.gz",
+      "sha256": "b963491d814d8e4ae5b892dbf59e0fa65862fa5af2250d65163803dc833e744e",
+      "completed_cases": 334
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_forward.json.gz",
+      "sha256": "a4a8a5b2df01c7adb80f292a49cb11560eb7d74fc6858d7337745e8d016b9397",
+      "completed_cases": 335
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_forward.json.gz",
+      "sha256": "b490ee7439532e4b989d1597642006fc653d8eb290cb29bff2f8fbe7939dc93f",
+      "completed_cases": 353
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_forward.json.gz",
+      "sha256": "792d899ce884d64967d79acfae1beffc5d87deaca29b0e0b287abdeb89dcd0a6",
+      "completed_cases": 369
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_forward.json.gz",
+      "sha256": "c4ee964fad5e2821af09950847e10f5d0d1fa642c3552ca4fb1e844047f1ac83",
+      "completed_cases": 391
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_forward.json.gz",
+      "sha256": "d82e999c67532a388be9b44cff41dd0cf3ea9f229b556635d78f21ce24252e1a",
+      "completed_cases": 406
+    }
+  ],
+  "resumed_previous_controller": {
+    "path": "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_cover.py",
+    "sha256": "c7ab6ee7399a084fe2629cffc1ed42810b97acc0e8d29994869c886d0f4ba0b7",
+    "completed_segments": 4
+  },
+  "summary": {
+    "A": {
+      "ball": "[4.8717485075147111883112306362926185e-11 +/- 2.44e-46]",
+      "lower": "[4.8717485075147111883112306362926185e-11 +/- 2.44e-46]",
+      "upper": "[4.8717485075147111883112306362926185e-11 +/- 2.44e-46]",
+      "mid_float": 4.871748507514711e-11,
+      "radius_upper_float": 0.0
+    },
+    "E": {
+      "ball": "[2.5161459511170535013218192598578140e-20 +/- 3.58e-55]",
+      "lower": "[2.5161459511170535013218192598578140e-20 +/- 3.58e-55]",
+      "upper": "[2.5161459511170535013218192598578140e-20 +/- 3.58e-55]",
+      "mid_float": 2.5161459511170536e-20,
+      "radius_upper_float": 0.0
+    },
+    "omitted_local_J": {
+      "ball": "[6.2305173194910980656020927478198253e-22 +/- 3.19e-57]",
+      "lower": "[6.2305173194910980656020927478198253e-22 +/- 3.19e-57]",
+      "upper": "[6.2305173194910980656020927478198253e-22 +/- 3.19e-57]",
+      "mid_float": 6.230517319491098e-22,
+      "radius_upper_float": 0.0
+    },
+    "R": {
+      "ball": "0.00097656250000000000000000000000000000",
+      "lower": "0.00097656250000000000000000000000000000",
+      "upper": "0.00097656250000000000000000000000000000",
+      "mid_float": 0.0009765625,
+      "radius_upper_float": 0.0
+    },
+    "R72_smallness_passed": true,
+    "finite_first_A_inner": {
+      "ball": "[1.9246055959615569585777194473911064e-12 +/- 3.73e-47]",
+      "lower": "[1.9246055959615569585777194473911064e-12 +/- 3.73e-47]",
+      "upper": "[1.9246055959615569585777194473911064e-12 +/- 3.73e-47]",
+      "mid_float": 1.924605595961557e-12,
+      "radius_upper_float": 0.0
+    },
+    "finite_cross_second_A_inner": {
+      "ball": "[1.1192142655250503788481462530707672e-23 +/- 8.84e-59]",
+      "lower": "[1.1192142655250503788481462530707672e-23 +/- 8.84e-59]",
+      "upper": "[1.1192142655250503788481462530707672e-23 +/- 8.84e-59]",
+      "mid_float": 1.1192142655250504e-23,
+      "radius_upper_float": 0.0
+    },
+    "true_coordinate_flow_error_with_all_local_J_paid": {
+      "ball": "[2.5784573119543939429640947913993899e-20 +/- 2.33e-55]",
+      "lower": "[2.5784573119543939429640947913993899e-20 +/- 2.33e-55]",
+      "upper": "[2.5784573119543939429640947913993899e-20 +/- 2.33e-55]",
+      "mid_float": 2.578457311954394e-20,
+      "radius_upper_float": 0.0
+    }
+  },
+  "exact_final_time": {
+    "rational": "-3156534223618799/2251799813685248",
+    "pi_coefficient": "0"
+  },
+  "accumulator_path": "data/phase_ring_continuation/step5_forward_density_complete/prefix_0009_ordered_accumulator.json.gz",
+  "accumulator_sha256": "42685196968cc6ce91fc93bbc083d742469f0a2b7497ee628588a16756660b4e",
+  "all_listed_time_and_finite_reference_seams_exact": true,
+  "wall_seconds_this_process": 1111.7974312789993
+}

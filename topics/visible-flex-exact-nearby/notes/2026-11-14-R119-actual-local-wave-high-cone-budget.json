@@ -1,0 +1,274 @@
+{
+  "schema": "visible-exact-R119-actual-local-wave-high-cone-v1",
+  "implementation": "new exact SymPy complete-density, source, frame, and kernel identities with rational norm budgets",
+  "scope": "Current actual local conformal scalar wave, genuine full positive high cone square roots and balance, preserved complement/mean/source/physical graph ports",
+  "file_sha256": {
+    "scripts/fourfold_actual_local_wave_high_cone_20261114.py": "eafec801465bf1849e24201affd46bbfba913791ebc99894b60a90a8bfcfff3d",
+    "results/R119-supplement-actual-local-wave-square-root-and-complete-high-cone.md": "3cbfd0dc460338080df1cc1ff1c971f551847ebdbe43ab5a706ee909a4de5588",
+    "results/R119-supplement-actual-canonical-profile-generator-and-complete-weak-sources.md": "3b9899adaba350486def68d641e473bdd0dd2ab26075a38f1943780ed7dd4075",
+    "results/R119-supplement-actual-strict-density-complete-relative-Cauchy.md": "dcf33b5e85b2a059963760d68b68f096fb4e764ebf248cc2a3805a3225b208dd",
+    "results/R119-supplement-two-ended-negative-characteristic-chart-and-densities.md": "9ed3041f8114e353aa83ade7efc6ceac33c2d77a92eab27522f0f0c66859daff",
+    "results/R119-supplement-common-high-frequency-third-phase-and-two-port-positivity.md": "667cd973d591184b625d020c4716dc9c0c7b2beac1f64a6c6ee5a8d9ca7d5d71"
+  },
+  "gate_count": 40,
+  "all_passed": true,
+  "gates": [
+    {
+      "name": "actual_characteristic_full_Jacobian",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_divergence_density_discriminant",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_conformal_full_density_0_0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_conformal_full_density_0_1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_conformal_full_density_1_0",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_conformal_full_density_1_1",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_J_cancels_in_density",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "complete_actual_height_potential",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "complete_weak_height_extra_ordinary_column",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "complete_balanced_plus_row",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "complete_balanced_minus_row",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_connection_order_three_kernel",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_off_diagonal_order_two_kernel",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_connection_skew_hermitian_coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_off_diagonal_selfadjoint_coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_total_flux_Piola_graph",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "complete_actual_graph_normal_shear_and_weak_charge",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "first_root_self_map",
+      "passed": true,
+      "left": "65/128",
+      "relation": "<",
+      "right": "1"
+    },
+    {
+      "name": "first_root_contraction",
+      "passed": true,
+      "left": "1/64",
+      "relation": "<",
+      "right": "1"
+    },
+    {
+      "name": "first_root_positive_margin",
+      "passed": true,
+      "left": "1/64",
+      "relation": "<",
+      "right": "1"
+    },
+    {
+      "name": "first_time_derivative_bound",
+      "passed": true,
+      "left": "32/63",
+      "relation": "<",
+      "right": "1"
+    },
+    {
+      "name": "second_time_derivative_bound",
+      "passed": true,
+      "left": "11/21",
+      "relation": "<",
+      "right": "1"
+    },
+    {
+      "name": "complete_order_three_root_remainder",
+      "passed": true,
+      "left": "1/2",
+      "relation": "<=",
+      "right": "1/2"
+    },
+    {
+      "name": "complete_order_five_root_remainder",
+      "passed": true,
+      "left": "3/8",
+      "relation": "<",
+      "right": "1"
+    },
+    {
+      "name": "second_root_same_scale_contraction",
+      "passed": true,
+      "left": "1/64",
+      "relation": "<",
+      "right": "1"
+    },
+    {
+      "name": "second_root_order_three_halves_bootstrap",
+      "passed": true,
+      "left": "65/128",
+      "relation": "<",
+      "right": "1"
+    },
+    {
+      "name": "second_root_order_seven_halves_remainder",
+      "passed": true,
+      "left": "3/4",
+      "relation": "<",
+      "right": "4"
+    },
+    {
+      "name": "actual_square_root_inverse_neumann",
+      "passed": true,
+      "left": "64/63",
+      "relation": "<",
+      "right": "2"
+    },
+    {
+      "name": "complete_connection_order_four_remainder",
+      "passed": true,
+      "left": "8",
+      "relation": "<",
+      "right": "64"
+    },
+    {
+      "name": "actual_K3_lag_charge",
+      "passed": true,
+      "left": "1/16",
+      "relation": "<",
+      "right": "1"
+    },
+    {
+      "name": "actual_B2_order_charge",
+      "passed": true,
+      "left": "1/4",
+      "relation": "<",
+      "right": "1"
+    },
+    {
+      "name": "complete_ang_reserve_for_root_order_five",
+      "passed": true,
+      "left": "4",
+      "relation": "<",
+      "right": "8"
+    },
+    {
+      "name": "complete_ang_reserve_second_root",
+      "passed": true,
+      "left": "11/2",
+      "relation": "<",
+      "right": "8"
+    },
+    {
+      "name": "actual_commutator_denominator_difference",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "actual_small_lag_difference",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "large_lag_denominator_fee",
+      "passed": true,
+      "left": "5/2",
+      "relation": "<",
+      "right": "8"
+    },
+    {
+      "name": "small_lag_denominator_fee",
+      "passed": true,
+      "left": "7/18",
+      "relation": "<",
+      "right": "8"
+    },
+    {
+      "name": "complete_commutator_bulk_fee",
+      "passed": true,
+      "left": "16",
+      "relation": "=",
+      "right": "16"
+    },
+    {
+      "name": "complete_buffer_edge_fee",
+      "passed": true,
+      "left": "2",
+      "relation": "=",
+      "right": "2"
+    },
+    {
+      "name": "buffer_endpoint_ratio",
+      "passed": true,
+      "left": "1/4",
+      "relation": "=",
+      "right": "1/4"
+    }
+  ],
+  "retained": [
+    "full physical graph-normal Piola and density shear",
+    "height-conjugated weak ordinary term",
+    "unbounded positive high cone",
+    "finite positive head, mean, and whole negative cone",
+    "hard-cutoff chronological order-two edge",
+    "true total weak flux and bare endpoint charge"
+  ],
+  "not_claimed": [
+    "two physical radial circles are constant canonical slices",
+    "uniform whole-tail potential budget",
+    "chronological edge is zero",
+    "full nonradial paired return inverse",
+    "solution of nonlinear F"
+  ]
+}

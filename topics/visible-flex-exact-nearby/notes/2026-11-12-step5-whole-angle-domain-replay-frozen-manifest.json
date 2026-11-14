@@ -1,0 +1,48 @@
+{
+  "kind": "frozen_true_replay_of_step5_whole_angle_time_domain_after_executor_replacement",
+  "complete": true,
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_full_angle_time_domain.py",
+      "sha256": "d681614326efacb0c256037d2c7e995eb895d8f77ce4281720f44c76a896548e",
+      "bytes": 15601
+    },
+    {
+      "path": "scripts/fourfold_phase_uniform_field_time_grid.py",
+      "sha256": "7c5b0f94aa4e4008b23c1e30443454ad21d3885206206dddcbb7a834e1451c32",
+      "bytes": 10066
+    },
+    {
+      "path": "scripts/fourfold_phase_uniform_field_time_grid_fast.py",
+      "sha256": "30655319d9172b0ac8de857f24329d944f5ec9d87b08ee283ee0292f90159aa8",
+      "bytes": 8962
+    },
+    {
+      "path": "notes/2026-11-12-step5-whole-angle-complex-time-domain.md",
+      "sha256": "17aa802266c6e32deeba453d26c9e302fa754a90e89e74749d11569886401c5a",
+      "bytes": 11182
+    },
+    {
+      "path": "notes/2026-11-12-whole-angle-domain-executor-recovery.md",
+      "sha256": "f0adc1125cc6f4901362d456f9cb86c51b3448f3f55c564df31e4de012ce7362",
+      "bytes": 3412
+    },
+    {
+      "path": "notes/2026-11-12-step5-whole-angle-time-domain-replay.md",
+      "sha256": "d89c46b1f00499c5e982170fab7d189f2cda1d263191d0e3aa3a674a195ef9a2",
+      "bytes": 2142
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_reference419_whole_angle_time_domain.json",
+      "sha256": "e1a2c3f327c3a36e33c412e76c70eebd185f224ea938dcdea93ee30ab9a05f90",
+      "bytes": 328986
+    }
+  ],
+  "prior_missing_report_sha256": "414a8cd3f1704c0abe7aee3b0b90a33c19e44ed425912898f4293c5a79487dcd",
+  "current_report_sha256": "e1a2c3f327c3a36e33c412e76c70eebd185f224ea938dcdea93ee30ab9a05f90",
+  "replay_performed": true,
+  "exclude_live": [
+    "scripts/fourfold_phase_sine_time_geometry.py",
+    "Future turning and full-branch domain work"
+  ]
+}

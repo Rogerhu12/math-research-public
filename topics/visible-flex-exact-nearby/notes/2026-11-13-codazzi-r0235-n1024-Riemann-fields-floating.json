@@ -1,0 +1,148 @@
+{
+  "kind": "floating_Codazzi_Riemann_endpoint_fields",
+  "certified": false,
+  "r": 0.235,
+  "base_angular_grid": 1024,
+  "spectral_grid": 2048,
+  "source_sha256": "7f1cbe459f487ce38812cbf073d4ef0075a2e52e339d728ff92f47dd188c4b29",
+  "input_state_sha256": "825e9eb6b4c587c41bd39ef36c76f28366993a81af754c120fea9dbcf1081552",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "base_columns": [
+    "B",
+    "C"
+  ],
+  "coefficient_contract": "base_BC_coefficients are an exactly Hermitian dyadic chosen finite reference; full_spectrum contains sampled floating spectra of the listed rational fields, not certified tail bounds",
+  "initial_definition": {
+    "numerator": "-7789843107295549",
+    "denominator": "4611686018427387904"
+  },
+  "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "target": {
+    "E": 1.5035499507203838,
+    "E_x": 1.7736293915042125,
+    "a": 1.0963277348295353,
+    "a_x": 0.22983962647975464,
+    "K": -0.29342249262569897,
+    "minus_K_x": -104.8485050378169
+  },
+  "k": 0.5416848646821314,
+  "k_r": -96.7799839666404,
+  "k_r_over_2k": -89.33236857506837,
+  "transport_factor": 1.1184550361124674,
+  "radial_log_radius": 0.2096449986422096,
+  "minimum_abs_C": 0.4656885266458364,
+  "Hermitian_reference_finite_l1_difference": 2.8977036297270134e-15,
+  "fields": {
+    "B": {
+      "minimum": -0.8761056276091862,
+      "maximum": 0.8761056276092187,
+      "sampled_C0": 0.8761056276092187,
+      "finite_coefficient_l1": 1.9786474290286589
+    },
+    "C": {
+      "minimum": -3.0078119365918567,
+      "maximum": -0.4656885266458364,
+      "sampled_C0": 3.0078119365918567,
+      "finite_coefficient_l1": 3.3759710804878296
+    },
+    "B_theta": {
+      "minimum": -26.72240261285488,
+      "maximum": 37.083995801768296,
+      "sampled_C0": 37.083995801768296,
+      "finite_coefficient_l1": 92.02370863232395
+    },
+    "C_theta": {
+      "minimum": -78.35894939247454,
+      "maximum": 78.35894939255985,
+      "sampled_C0": 78.35894939255985,
+      "finite_coefficient_l1": 162.25667638131554
+    },
+    "B_thetatheta": {
+      "minimum": -4999.5354505035175,
+      "maximum": 4999.535450576839,
+      "sampled_C0": 4999.535450576839,
+      "finite_coefficient_l1": 11386.663084102445
+    },
+    "C_thetatheta": {
+      "minimum": -10128.090696063166,
+      "maximum": 13399.561447794165,
+      "sampled_C0": 13399.561447794165,
+      "finite_coefficient_l1": 24055.68808535709
+    },
+    "p": {
+      "minimum": -1.9380166081825483,
+      "maximum": 0.32562237850260295,
+      "sampled_C0": 1.9380166081825483,
+      "finite_coefficient_l1": 3.6521624032959146
+    },
+    "q": {
+      "minimum": -0.32562237850256165,
+      "maximum": 1.9380166081825043,
+      "sampled_C0": 1.9380166081825043,
+      "finite_coefficient_l1": 3.6521624032959608
+    },
+    "p_theta": {
+      "minimum": -54.89496780027335,
+      "maximum": 64.20912755626897,
+      "sampled_C0": 64.20912755626897,
+      "finite_coefficient_l1": 200.75445887739443
+    },
+    "q_theta": {
+      "minimum": -54.894967800227434,
+      "maximum": 64.2091275562734,
+      "sampled_C0": 64.2091275562734,
+      "finite_coefficient_l1": 200.75445887745553
+    },
+    "p_thetatheta": {
+      "minimum": -5294.129534987329,
+      "maximum": 14838.425928095785,
+      "sampled_C0": 14838.425928095785,
+      "finite_coefficient_l1": 29908.01777239804
+    },
+    "q_thetatheta": {
+      "minimum": -14838.425928152225,
+      "maximum": 5294.129535004749,
+      "sampled_C0": 14838.425928152225,
+      "finite_coefficient_l1": 29908.01777248754
+    },
+    "R_p": {
+      "minimum": -3.90345135770076e-07,
+      "maximum": 3.903079885958505e-07,
+      "sampled_C0": 3.90345135770076e-07,
+      "finite_coefficient_l1": 5.31551715464567e-07
+    },
+    "R_q": {
+      "minimum": -3.903345486833132e-07,
+      "maximum": 3.90318689369451e-07,
+      "sampled_C0": 3.903345486833132e-07,
+      "finite_coefficient_l1": 5.315508447001073e-07
+    },
+    "R_p_theta": {
+      "minimum": -0.0008285811888981698,
+      "maximum": 0.0008150372502484515,
+      "sampled_C0": 0.0008285811888981698,
+      "finite_coefficient_l1": 0.0011248176913491302
+    },
+    "R_q_theta": {
+      "minimum": -0.0008285655676445458,
+      "maximum": 0.0008150095410996983,
+      "sampled_C0": 0.0008285655676445458,
+      "finite_coefficient_l1": 0.0011248151279233854
+    }
+  },
+  "spectrum_path": "notes/2026-11-13-codazzi-r0235-n1024-Riemann-spectrum-floating.npz",
+  "spectrum_sha256": "7f1e5a05e29e96eaf52a89cc456e62cc544fbc74cd12ca7c33fbe212ff913581",
+  "dependency_sha256": {
+    "fourfold_phase_codazzi_evolution_probe.py": "2d9e8a9dd185e13c1c506a628f36847fe6180390bca3b60014d7c1beb8a69c36",
+    "fourfold_phase_local_correction_probe.py": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf",
+    "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+    "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937"
+  },
+  "limitations": [
+    "Only one radial endpoint and the center affine parameter are processed.",
+    "B,C references are finite; p,q are rational functions with unbounded Fourier support. The exported doubled-grid spectra do not certify their infinite tails.",
+    "Residuals use the semidiscrete RHS, not a validated radial interpolant; temporal integration error is not bounded.",
+    "All norms/ranges are sampled floating diagnostics, not directed enclosures."
+  ]
+}

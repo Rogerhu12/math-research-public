@@ -1,0 +1,30 @@
+{
+  "kind": "old_actual_geometry_curvature_initial_guess_only",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "source_sha256": "9c3e045fa49fa88e1ab5c912a33661062fb4fa1360b417e069c230fc5b630574",
+  "modes": 32,
+  "boundary_amplitude": 1.0,
+  "physical_frequency_factor": 4,
+  "state_order": "B sine k=1..M, C cosine k=0..M",
+  "certified": false,
+  "angular_grid": 512,
+  "radial_nodes": 251,
+  "right": 0.25,
+  "candidate_path": "notes/2026-11-13-codazzi-bvp-old-geometry-m32-guess.npz.gz",
+  "candidate_sha256": "18af24f72c0bc1e4c2e60a7bad0f1750e69d5d101a4658572857ff811c311df6",
+  "limitations": [
+    "A floating interpolatory INITIAL GUESS, not a solution of either the finite or full Codazzi PDE."
+  ],
+  "exact_center_parameter": {
+    "numerator": "-7789843107295549",
+    "denominator": "4611686018427387904"
+  },
+  "dependency_sha256": {
+    "fourfold_phase_codazzi_two_end_probe.py": "510a0ebf823f35942c0b45e67fb3ec5319cfe124996d88656fcc18a52c565eb2",
+    "fourfold_phase_codazzi_two_end_homotopy_probe.py": "33d2cf9d72bff21e66b0f9d67620383bdb1a417f9f7c33e9ace9489b6624ace9",
+    "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+    "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937",
+    "fourfold_phase_core_low_block.py": "d3b554e05f13112679786bd11a113ab8a29442b4da8f6ea0cf73c2ebb93d37be",
+    "fourfold_phase_local_correction_probe.py": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf"
+  }
+}

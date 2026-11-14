@@ -1,0 +1,29 @@
+{
+  "kind": "lossless_preservation_of_last_observed_complete_accepted_checkpoint",
+  "original_process_sha256": "5ac43172641a10317542c88233284d74550fef0523d21fec710aa16b084d7b41",
+  "original_process_complete": false,
+  "original_process_status": "started",
+  "original_process_record_unmodified": true,
+  "original_log_sha256": "049f868eee77ea3fd74418e780728d4877b9ccccda61d23566a12b5d683f250e",
+  "checkpoint_sha256": "41a9f0655efdfaffa6affed308015e33b4f13a4514cfdc709527c262f3f50915",
+  "checkpoint_bytes": 5479118,
+  "original_checkpoint": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-m128-alpha0765-v15-checkpointed-QR-floating/accepted-002.npz",
+  "radial_nodes": 1379,
+  "state_dimension": 257,
+  "full_cubic_shape": [
+    4,
+    1378,
+    257
+  ],
+  "every_saved_state_and_derivative_used": true,
+  "source_sha256": "4335f902bfc257c25299d383ecb346a555db01991607d02800b5b80b0631d939",
+  "candidate_path": "notes/2026-11-13-R133-alpha0765-v15-last-accepted-candidate.json",
+  "candidate_sha256": "c1a8df23d05e6934fc7ba82fe2d2be501d97ef198205b12b2ecb705eb34bb69c",
+  "session_handle_observation": "write_stdin reported Unknown process id 28392; no final solver result was available",
+  "actual_exit_code": null,
+  "actual_exit_cause": null,
+  "finite_BVP_convergence_not_established": true,
+  "this_preservation_does_not_resume_or_repeat_the_failed_session": true,
+  "mathematical_certificate": false,
+  "wall_seconds": 1.3985019399988232
+}

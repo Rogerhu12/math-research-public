@@ -1,0 +1,117 @@
+{
+  "kind": "actual_native_R111_body_execution_receipt_not_a_replacement_for_full_interval_reports",
+  "recorded_utc": "2026-11-13 01:15:54 UTC",
+  "source_path": "scripts/fourfold_phase_cap_parameter_comparison.py",
+  "source_sha256": "0879acf59242862833b675c2790d62300c0ed2764146b635d4415ac6eef9b65b",
+  "object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "exact_center": "-7789843107295549/4611686018427387904",
+  "exact_half_width": "1/1000000000",
+  "exact_parameter_interval": [
+    "-15214546326135873881617/9007199254740992000000000",
+    "-15214528311737364399633/9007199254740992000000000"
+  ],
+  "complex_parameter_radius": "1/10000",
+  "relative_error_target": "1/500",
+  "primitive_nodes": 512,
+  "angular_nodes": 1024,
+  "bits": 192,
+  "whole_angles": true,
+  "whole_parameter_interval": true,
+  "actual_runs": [
+    {
+      "path": "notes/2026-11-13-R111-body-prefix-0035.json.gz",
+      "sha256": "4eba1d11e55dcf24f2f117aa444aab8093324e311cddaac2f08b82ad8a7d9a58",
+      "bytes": 128498,
+      "complete": false,
+      "accepted_intervals": 372,
+      "exact_observed_accepted_interval": [
+        "1/4",
+        "1030198414761001/1125899906842624"
+      ],
+      "unresolved_intervals": [],
+      "pending_current_piece": [],
+      "rejected_parent_boxes": 3,
+      "CPU_seconds": 437.615004784,
+      "wall_seconds": 788.8834039709982,
+      "note": "The producer checkpoint ended between complete scalar pieces. The original both-domain run did not finish. Only the stated accepted prefix is used."
+    },
+    {
+      "path": "notes/2026-11-13-R111-body-continuation-0.json.gz",
+      "sha256": "4672fa08e1dfdf4cd2945ffe02e8e0d89223bccdfede9a3c3301667ae597d125",
+      "bytes": 80720,
+      "complete": true,
+      "requested_part": "body",
+      "exact_requested_interval": [
+        "1030198414761001/1125899906842624",
+        "6327557476455547/4503599627370496"
+      ],
+      "maximum_relative_form_error": "[1.1950281403426879240133063460172753e-5 +/- 5.97e-41]",
+      "wall_seconds": 413.08962378799333
+    },
+    {
+      "path": "notes/2026-11-13-R111-body-continuation-1.json.gz",
+      "sha256": "6a1f53ebc941f94e2c7e1e7af0330f0fb9d76d1a7c0027f9f7c84ee8fd02b324",
+      "bytes": 80741,
+      "complete": true,
+      "requested_part": "body",
+      "exact_requested_interval": [
+        "6327557476455547/4503599627370496",
+        "8680688281756631/4503599627370496"
+      ],
+      "maximum_relative_form_error": "[1.0307150795973837107736265957225841e-5 +/- 4.92e-41]",
+      "wall_seconds": 395.7432229879996
+    },
+    {
+      "path": "notes/2026-11-13-R111-body-continuation-2.json.gz",
+      "sha256": "81af896a7d01768c7c86117dc29ff4138511083c47a564ddc7c0f8f982124346",
+      "bytes": 80136,
+      "complete": true,
+      "requested_part": "body",
+      "exact_requested_interval": [
+        "8680688281756631/4503599627370496",
+        "5522539043063071/2251799813685248"
+      ],
+      "maximum_relative_form_error": "[1.0093876590394733482322756649808445e-5 +/- 3.14e-40]",
+      "wall_seconds": 397.2749316730042
+    },
+    {
+      "path": "notes/2026-11-13-R111-body-continuation-3.json.gz",
+      "sha256": "b9c50a05f3905d7cbd67e774fe15d7836b3974cb4f240bf50a040ab8a948b842",
+      "bytes": 80329,
+      "complete": true,
+      "requested_part": "body",
+      "exact_requested_interval": [
+        "5522539043063071/2251799813685248",
+        "3"
+      ],
+      "maximum_relative_form_error": "[1.0034250644271376312458458989738585e-5 +/- 4.35e-40]",
+      "wall_seconds": 384.0801809070035
+    }
+  ],
+  "cover_argument": "The accepted prefix starts at 1/4; each following complete body report starts at the exact previous rational endpoint; the fourth ends at 3. A complete producer body report includes its exact cover_complete check. Every accepted row must have a relative bound <=1/500. Thus the observed runs establish the body bound on their union, all angles and all declared parameters.",
+  "paid_graft_path": "notes/2026-11-12-R111-actual-whole-family-graft.json",
+  "paid_graft_sha256": "58a7a41f6d625a27f263f4b840018f538c88a7b2004aaec9118c72c35ee2a661",
+  "paid_graft_exact_interval": [
+    "3",
+    "25/8"
+  ],
+  "paid_graft_relative_bound": "0.001973601",
+  "observed_whole_cap_relative_bound": "1/500",
+  "full_new_body_reports_pushed": false,
+  "combined_collector_execution_observed": false,
+  "native_graft_consumption_execution_observed": false,
+  "reproduction_required": "The environment became unavailable before native push and before the new collector returned. Restore or regenerate the complete body reports from the saved producer and original inputs; do not reconstruct missing interval rows from this receipt. The complete paid graft report is already on main.",
+  "reproduction_whole_command": "python scripts/fourfold_phase_cap_parameter_comparison.py --part both --out notes/2026-11-13-R111-whole-eta-cap-form-recovered.json.gz",
+  "reproduction_split_commands": [
+    "python scripts/fourfold_phase_cap_parameter_comparison.py --part body --body-left 1/4 --body-right 1030198414761001/1125899906842624 --out notes/2026-11-13-R111-body-prefix-recovered.json.gz",
+    "python scripts/fourfold_phase_cap_parameter_comparison.py --part body --body-left 1030198414761001/1125899906842624 --body-right 6327557476455547/4503599627370496 --out notes/2026-11-13-R111-body-continuation-0-recovered.json.gz",
+    "python scripts/fourfold_phase_cap_parameter_comparison.py --part body --body-left 6327557476455547/4503599627370496 --body-right 8680688281756631/4503599627370496 --out notes/2026-11-13-R111-body-continuation-1-recovered.json.gz",
+    "python scripts/fourfold_phase_cap_parameter_comparison.py --part body --body-left 8680688281756631/4503599627370496 --body-right 5522539043063071/2251799813685248 --out notes/2026-11-13-R111-body-continuation-2-recovered.json.gz",
+    "python scripts/fourfold_phase_cap_parameter_comparison.py --part body --body-left 5522539043063071/2251799813685248 --body-right 3 --out notes/2026-11-13-R111-body-continuation-3-recovered.json.gz"
+  ],
+  "full_PDE_inverse_complete": false,
+  "nonlinear_family_complete": false
+}

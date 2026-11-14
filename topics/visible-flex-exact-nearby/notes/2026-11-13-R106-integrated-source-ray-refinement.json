@@ -1,0 +1,175 @@
+{
+  "kind": "R106_integrated_parameter_source_true_all_time_ray_refinement",
+  "complete": true,
+  "arithmetic": "exact reduced BigInt with all displayed radii added outward",
+  "proved_region": {
+    "leg": "forward",
+    "segments": 550,
+    "time_endpoints": [
+      "-pi/2",
+      "pi/2"
+    ],
+    "parameter_center": "-7789843107295549/4611686018427387904",
+    "parameter_half_width": "1/1000000000",
+    "label_strip": "1/1024",
+    "label_period": "2*pi",
+    "physical_angle": "theta; reference Y(x+2*pi)=Y(x)+pi/2"
+  },
+  "source_convention": "R80 f_p is physical-theta fixed-tau derivative, r=t(p)sin(tau); g_p=f_p(Y)/Y_x per physical tau, no extra factor 4",
+  "bounds": {
+    "uniform_B1": {
+      "exact": "673556157657860984372112943570580963/625000000000000000000000000000000",
+      "decimal_upper_28": "1077.6898522525775749953807097130"
+    },
+    "uniform_B2": {
+      "exact": "24115908322887056299865271334170507563/2500000000000000000000000000000000",
+      "decimal_upper_28": "9646.3633291548225199461085336683"
+    },
+    "center_A": {
+      "exact": "409256398925551511672190910308412520603/10000000000000000000000000000000000000000000000",
+      "decimal_upper_28": "0.0000000409256398925551511673"
+    },
+    "uniform_A": {
+      "exact": "11186154921451327261625998007437707928603/10000000000000000000000000000000000000000000000",
+      "decimal_upper_28": "0.0000011186154921451327261626"
+    },
+    "safe_displacement": {
+      "exact": "7/6250000",
+      "decimal_upper_28": "0.0000011200000000000000000000"
+    },
+    "coordinate_outer_strip": {
+      "exact": "15/8192",
+      "decimal_upper_28": "0.0018310546875000000000000000"
+    },
+    "coordinate_first_derivative_error": {
+      "exact": "512/390625",
+      "decimal_upper_28": "0.0013107200000000000000000000"
+    },
+    "coordinate_second_derivative": {
+      "exact": "8388608/2734375",
+      "decimal_upper_28": "3.0678337828571428571428571429"
+    },
+    "true_label_J_real_lower": {
+      "exact": "223623/7812500",
+      "decimal_upper_28": "0.0286237440000000000000000000"
+    },
+    "true_label_J_modulus": {
+      "exact": "8213877/7812500",
+      "decimal_upper_28": "1.0513762560000000000000000000"
+    },
+    "physical_image_strip": {
+      "exact": "8212533/8000000000",
+      "decimal_upper_28": "0.0010265666250000000000000000"
+    },
+    "true_second_label_derivative": {
+      "exact": "30552558915328/28224609375",
+      "decimal_upper_28": "1082.4794245829310082347242405370"
+    },
+    "true_angle_minus_reference": {
+      "exact": "147/125000000",
+      "decimal_upper_28": "0.0000011760000000000000000000"
+    },
+    "true_J_minus_reference_q": {
+      "exact": "655848592/254021484375",
+      "decimal_upper_28": "0.0025818626861962647721418741"
+    }
+  },
+  "gates": [
+    {
+      "name": "old whole-time true ray certificate complete",
+      "passed": true
+    },
+    {
+      "name": "actual integrated source certificate complete",
+      "passed": true
+    },
+    {
+      "name": "same fixed finite reference",
+      "passed": true
+    },
+    {
+      "name": "same actual center",
+      "passed": true
+    },
+    {
+      "name": "exact whole eta-box included",
+      "passed": true
+    },
+    {
+      "name": "source and reference strips match",
+      "passed": true
+    },
+    {
+      "name": "true complete ordinary and turn cover",
+      "passed": true
+    },
+    {
+      "name": "exact integrated B1 improvement",
+      "passed": true
+    },
+    {
+      "name": "exact integrated B2",
+      "passed": true
+    },
+    {
+      "name": "full physical source image",
+      "passed": true
+    },
+    {
+      "name": "uniform displacement bound",
+      "passed": true
+    },
+    {
+      "name": "complete all-time Picard margin",
+      "passed": true
+    },
+    {
+      "name": "actual coordinate image",
+      "passed": true
+    },
+    {
+      "name": "true Jacobian remains positive",
+      "passed": true
+    },
+    {
+      "name": "true phase Jacobian modulus below 1.052",
+      "passed": true
+    },
+    {
+      "name": "true Jacobian-reference gap below .0026",
+      "passed": true
+    },
+    {
+      "name": "actual physical angle-reference gap below 1.18e-6",
+      "passed": true
+    },
+    {
+      "name": "actual physical strip below 1/900",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Only the complete actual moduli B1/B2 are consumed; no signed mean or phase coefficients are inferred.",
+    "The finite reference Y is fixed throughout the real parameter interval; B1 is an integral for physical-time fixed-tau fp divided by Yx.",
+    "No extra factor 4 is inserted. The normalized label is x and the actual angle is theta.",
+    "This refines the already paid whole-time ray tube; it is not a nonmean phase integral, PDE inverse, or seven-field geometry computation."
+  ],
+  "provenance": {
+    "source": "scripts/fourfold_integrated_true_ray_budget_exact.mjs",
+    "source_sha256": "8a539bf0e5eee9f398db37c9df7b6068f25badbcb10e483aff39f1a1d82809c1",
+    "inputs": [
+      {
+        "key": "old",
+        "path": "notes/2026-11-12-R106-actual-all-time-ray-tube.json",
+        "sha256": "6463e62641b9187045016c63ee633816676a75baf941ea01375a6ae36f1a1863"
+      },
+      {
+        "key": "integrated",
+        "path": "notes/2026-11-12-step5-integrated-parameter-source-budget.json",
+        "sha256": "1157bc1b8ad6f70b9fbd65aeaee6152da842e066d22b216cd2ca87620e5f5a41"
+      }
+    ],
+    "execution": "The identical computeIntegratedRayBudget was actually evaluated with exact BigInt; all ball display radii were added outward.",
+    "proof": "results/R106-supplement-integrated-ray-and-boundary-bidisk.md"
+  }
+}

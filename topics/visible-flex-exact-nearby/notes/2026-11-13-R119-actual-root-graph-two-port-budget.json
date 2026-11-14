@@ -1,0 +1,248 @@
+{
+  "kind": "R119-actual-root-graph-to-fixed-radial-complete-two-port-v1",
+  "status": "complete",
+  "arithmetic": "exact Fraction and symbolic identities; Arb256 for the geometric-series inequality",
+  "operator_scope": "all Fourier modes, full mean height and flux, abs(s)<=4, same stronger-tail object",
+  "source_scope": "exact joint source norm and separately charged weak normal/tangential endpoint traces; no free anisotropic pullback",
+  "checks_count": 46,
+  "checks": [
+    {
+      "name": "actual_graph_stays_inside_one_strict_root_germ",
+      "pass": true,
+      "evidence": "The two-sided graph may cross the plane; its whole strip remains away from the root and all radial seams"
+    },
+    {
+      "name": "actual_root_slope_squared_paid_by_reference",
+      "pass": true,
+      "evidence": "b^2<2^32(j+4)delta^(-9/2) is bounded by the actual Kref squared"
+    },
+    {
+      "name": "actual_small_input_pays_both_radial_slope_factors",
+      "pass": true,
+      "evidence": "The retained U.25 finite prefix plus deep factors pay b^2*n"
+    },
+    {
+      "name": "actual_working_input_inside_graph_domain",
+      "pass": true,
+      "evidence": "The original constructed small X is used without changing the profile"
+    },
+    {
+      "name": "actual_canonical_potential_on_graph_strip",
+      "pass": true,
+      "evidence": "The complete V0<16 and full V-V0 bound give V<17"
+    },
+    {
+      "name": "actual_full_density_potential_coefficient",
+      "pass": true,
+      "evidence": "The full5/(16xi^2) term is retained before dividing by c"
+    },
+    {
+      "name": "actual_complete_three_state_matrix",
+      "pass": true,
+      "evidence": "All zero-order entries, including the independent height row, are included"
+    },
+    {
+      "name": "actual_path_C6_and_inverse_C6_smallness",
+      "pass": true,
+      "evidence": "Joint analyticity gives all six derivatives of each full path and its inverse"
+    },
+    {
+      "name": "actual_full_chain_rule_Bell_fee",
+      "pass": true,
+      "evidence": "The nonidentity chain-rule terms are small, not merely bounded by an arbitrary C6 map"
+    },
+    {
+      "name": "actual_H5_density_and_inverse_fee",
+      "pass": true,
+      "evidence": "Integer derivatives, Jacobian, adjoints for negative indices and interpolation use one uniform bound"
+    },
+    {
+      "name": "actual_source_and_coefficient_strip_geometric_bound",
+      "pass": true,
+      "evidence": "exp(-1/2)<2/3, used only as an outward geometric majorant"
+    },
+    {
+      "name": "actual_all_frequency_graph_multiplier_fee",
+      "pass": true,
+      "evidence": "61208693"
+    },
+    {
+      "name": "actual_complete_path_count",
+      "pass": true,
+      "evidence": "All three local characteristic states and every branch switch are included"
+    },
+    {
+      "name": "actual_complete_path_prefactor",
+      "pass": true,
+      "evidence": "One full analytic product multiplier, one true terminal pullback, density and vector norm factors"
+    },
+    {
+      "name": "actual_ordered_series_smallness",
+      "pass": true,
+      "evidence": "The true b^2*n assumption implies2^20*b*D<1/2"
+    },
+    {
+      "name": "actual_complete_graph_remainder",
+      "pass": true,
+      "evidence": "The complete initial height primitive and all k>=1 ordered paths are summed"
+    },
+    {
+      "name": "actual_complete_density_phase_preconditioning",
+      "pass": true,
+      "evidence": "Both exact density pullbacks are inverted; neither is replaced by the identity"
+    },
+    {
+      "name": "actual_left_and_right_root_branch_identification",
+      "pass": true,
+      "evidence": "The raw root label epsilon=-orientation*canonical_branch is retained at all four root ends"
+    },
+    {
+      "name": "actual_complete_second_height_conjugation",
+      "pass": true,
+      "evidence": "The complete density potential is(V+5/(16xi^2))/c"
+    },
+    {
+      "name": "actual_full_second_weak_source_correction",
+      "pass": true,
+      "evidence": "The second height conjugation keeps its ordinary correction with the exact minus sign"
+    },
+    {
+      "name": "actual_height_row_and_weak_source",
+      "pass": true,
+      "evidence": "The full weak radial source appears in the independent height row"
+    },
+    {
+      "name": "actual_full_height_derivative_constraint",
+      "pass": true,
+      "evidence": "Both signs, including their means, participate in the derivative constraint"
+    },
+    {
+      "name": "actual_complete_density_row_-1",
+      "pass": true,
+      "evidence": "The full three-state row is exactly the original weak equation, with no discarded mean"
+    },
+    {
+      "name": "actual_complete_density_row_1",
+      "pass": true,
+      "evidence": "The full three-state row is exactly the original weak equation, with no discarded mean"
+    },
+    {
+      "name": "actual_weak_graph_tangential_height",
+      "pass": true,
+      "evidence": "The weak radial endpoint charge is retained in the periodic-height row"
+    },
+    {
+      "name": "actual_weak_graph_total_conormal",
+      "pass": true,
+      "evidence": "The normal graph flux includes the tangential weak endpoint source"
+    },
+    {
+      "name": "actual_source_adjusted_complete_period_constraint",
+      "pass": true,
+      "evidence": "After the full endpoint charge the output belongs to the genuine E_q subspace"
+    },
+    {
+      "name": "actual_source_adjusted_complete_total_flux",
+      "pass": true,
+      "evidence": "The same affine correction fixes the whole total conormal row"
+    },
+    {
+      "name": "actual_signed_original_physical_flux_identity",
+      "pass": true,
+      "evidence": "detDpsi=sign*J gives p_old=sign*Hprime*p_graph for both roots"
+    },
+    {
+      "name": "actual_zero_frequency_frame_value",
+      "pass": true,
+      "evidence": "The real normal shear at the chosen cut is16"
+    },
+    {
+      "name": "actual_nonzero_frame_forward_flux_fee",
+      "pass": true,
+      "evidence": "s/[c(1+M)]<=24b, using s<=3(1+M/b)"
+    },
+    {
+      "name": "actual_nonzero_frame_forward_height_shear_fee",
+      "pass": true,
+      "evidence": "The full16u shear is retained in the momentum"
+    },
+    {
+      "name": "actual_nonzero_frame_inverse_height_fee",
+      "pass": true,
+      "evidence": "M>=4 and b>=1 bound s(1+M)/(cM^2) by37.5b"
+    },
+    {
+      "name": "actual_nonzero_frame_inverse_shear_fee",
+      "pass": true,
+      "evidence": "The complete inverse momentum row retains the height derivative primitive"
+    },
+    {
+      "name": "actual_mean_frame_inverse",
+      "pass": true,
+      "evidence": "The independent height mean and opposite flux means are inverted directly, without1/m"
+    },
+    {
+      "name": "actual_full_Airy_density_frame_budget",
+      "pass": true,
+      "evidence": "Both complete frequency frames, including mean, fit2^20sqrt(b)"
+    },
+    {
+      "name": "actual_complete_same_Hs_graph_relative_fee",
+      "pass": true,
+      "evidence": "The true frame condition number contributes its full factor b"
+    },
+    {
+      "name": "actual_complete_root_graph_composition_fee",
+      "pass": true,
+      "evidence": "The relative graph error is conjugated by both complete reference root propagators"
+    },
+    {
+      "name": "actual_all_four_roots_and_full_prefix",
+      "pass": true,
+      "evidence": "All four roots per cell and the exact finite/infinite U.25 budget are retained"
+    },
+    {
+      "name": "actual_working_full_root_to_physical_cut_relative_sum",
+      "pass": true,
+      "evidence": "This is the complete root-plus-graph sum, after the actual principal phase preconditioners"
+    },
+    {
+      "name": "actual_graph_body_source_integral_fee",
+      "pass": true,
+      "evidence": "All source insertion positions and ordered couplings are summed in the ambient triple space"
+    },
+    {
+      "name": "actual_graph_source_to_original_root_frame",
+      "pass": true,
+      "evidence": "The full principal inverse and the exact input Airy-density frame are both paid"
+    },
+    {
+      "name": "actual_weak_endpoint_source_column_fee",
+      "pass": true,
+      "evidence": "The nonzero weak graph endpoint charge is separately paid after the body norm"
+    },
+    {
+      "name": "actual_weak_bare_initial_column_fee",
+      "pass": true,
+      "evidence": "A supplied bare initial trace requires its actual total-flux correction before propagation"
+    },
+    {
+      "name": "actual_physical_ordinary_source_coefficient",
+      "pass": true,
+      "evidence": "Physical radius, slope^3/2, J,D,Q^1/4 and the complete Jacobian all remain"
+    },
+    {
+      "name": "actual_physical_ordinary_graph_source_fee",
+      "pass": true,
+      "evidence": "The exact remaining physical factor is n*sqrt(a_e/b_e)*w_e^(3/2)"
+    }
+  ],
+  "file_sha256": {
+    "results/R119-supplement-actual-root-graph-to-fixed-radial-two-port.md": "87f7886c8fc9566c351687a8a6e10d4fa67400ef2482811ec78531d16cfcfe0d",
+    "scripts/fourfold_actual_root_graph_two_port_20261113.py": "eb7bfb7c46a28351e9002425b1ffcda0c80692d52181107166fb11ad5fa4dbe8",
+    "results/R119-supplement-actual-joint-analytic-root-and-relative-Airy-Cauchy.md": "6f12b6a6a79bdff8deb26e9092e46ab08463e19064912d518d50c981e592741a",
+    "notes/2026-11-13-R119-actual-root-real-uniqueness-clarification.md": "a3befbf8674d55497e994ce69575f592de0749fb67945b1f3e14900dcd1f0c73",
+    "results/R119-supplement-stronger-deep-full-label-chart-and-fourth-line.md": "513202b38f1c346ef3fb3f43ff79e1c6bd4bccbd1ed8d9151a8a7095dc75bf98",
+    "results/R119-supplement-uniform-frequency-reference-Airy-Cauchy.md": "d116f9cf80740a5468d1b6addac8097891838b9f47ac28af667501b5ef6017fc"
+  }
+}

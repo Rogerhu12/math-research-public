@@ -1,0 +1,47 @@
+{
+  "kind": "literal_center_scalar_fields_read_from_verified_original_gzip",
+  "source_path": "data/phase_ring_continuation/step5_complete_flow_ci_43301401638/actual_endpoint.json.gz",
+  "source_sha256": "f8d958ce1af4cac5d4053d8c7569d33c049a917d84094e55944842fad4228328",
+  "actual_native_gzip_read_succeeded_before_second_environment_interruption": true,
+  "numerical_values_not_reconstructed_from_mid_float": true,
+  "every_retained_display_radius_is_included": true,
+  "center_endpoint": {
+    "coefficient_selection_fees": [
+      {
+        "upper": "[2.0966317681340406856554711813613966e-85 +/- 2.89e-120]",
+        "lower": "[2.0966317681340406856554711813613966e-85 +/- 2.89e-120]",
+        "ball": "[2.0966317681340406856554711813613966e-85 +/- 2.89e-120]"
+      }
+    ],
+    "chosen_coordinate_norms": [
+      {
+        "upper": "[3.0161292205282424287344941588723435e-11 +/- 2.82e-46]",
+        "lower": "[3.0161292205282424287344941588723435e-11 +/- 2.82e-46]",
+        "ball": "[3.0161292205282424287344941588723435e-11 +/- 2.82e-46]"
+      }
+    ],
+    "complete_Taylor_fees": [
+      {
+        "upper": "[1.5359306343160937028569299778924515e-30 +/- 6.15e-66]",
+        "lower": "[1.5359306343160937028569299778924515e-30 +/- 6.15e-66]",
+        "ball": "[1.5359306343160937028569299778924515e-30 +/- 6.15e-66]"
+      }
+    ],
+    "coordinate_budget": {
+      "tails": [
+        {
+          "upper": "[1.0026481984957725937876745313327737e-17 +/- 4.94e-54]",
+          "lower": "[1.0026481984957725937876745313327737e-17 +/- 4.94e-54]",
+          "ball": "[1.0026481984957725937876745313327737e-17 +/- 4.94e-54]"
+        }
+      ],
+      "source_error_fees": [
+        {
+          "upper": "[1.8508416428455806971106929445028874e-18 +/- 1.33e-53]",
+          "lower": "[1.8508416428455806971106929445028874e-18 +/- 1.33e-53]",
+          "ball": "[1.8508416428455806971106929445028874e-18 +/- 1.33e-53]"
+        }
+      ]
+    }
+  }
+}

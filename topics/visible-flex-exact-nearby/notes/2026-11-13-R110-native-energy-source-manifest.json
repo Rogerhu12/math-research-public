@@ -1,0 +1,65 @@
+{
+  "kind": "R110_native_restored_energy_and_actual_strong_source",
+  "complete": true,
+  "files": [
+    {
+      "path": "results/R110-supplement-native-leaf-energy-and-strong-source.md",
+      "bytes": 7114,
+      "sha256": "22be0abb7853509d7cf63c8d53e2c12848a3e443439a61943d5f35205f758dfa"
+    },
+    {
+      "path": "scripts/fourfold_phase_core_source_lower_bound.py",
+      "bytes": 4521,
+      "sha256": "f0f8398d7a07c0148ddd47cab5698d6cee4604060c95f368f17339a85dc6b74a"
+    },
+    {
+      "path": "data/native_core_20261113_ac0d/energy9_leaf0060.json",
+      "bytes": 150083,
+      "sha256": "3f081c5a62b70455d562efca93f7fa81ec23907e546aa1959f966d8d65776f0c"
+    },
+    {
+      "path": "data/native_core_20261113_ac0d/energy9_leaf0060.npz.gz",
+      "bytes": 2829498,
+      "sha256": "1283562ea206e75c6572af57522f1ed1fd8e53eeebd909179977077df9dd9177"
+    },
+    {
+      "path": "data/native_core_20261113_ac0d/energy9_leaf0060_continuous.json",
+      "bytes": 23418,
+      "sha256": "d1ce38670a3c128428ae20aac76bd3e47e7e3d02272ddff3497111471c304d61"
+    },
+    {
+      "path": "data/native_core_20261113_ac0d/energy9_leaf0060_density.json",
+      "bytes": 133354,
+      "sha256": "fbeba3320b5eb96fd570086195fef8cf11bdf77ca41500b61ecdc1fa46d11734"
+    },
+    {
+      "path": "data/native_core_20261113_ac0d/energy9_leaf0060_density96.json",
+      "bytes": 135362,
+      "sha256": "bd08f0bd825741a42d121e778cc8fbd1d0442c3ccf361e90cb99f51bb8731013"
+    },
+    {
+      "path": "data/native_core_20261113_ac0d/energy9_leaf0060_kernel_v2.json",
+      "bytes": 79848,
+      "sha256": "3c59878543ab8bacc0a59d919c919f6a9e044e3a140263ae7a159109e3ce2aa0"
+    },
+    {
+      "path": "data/native_core_20261113_ac0d/core_source_leaf0060_actual_lower_bound.json",
+      "bytes": 6199,
+      "sha256": "e758138c02ee5288f4fbbebc3871bd6eb93d2be82d649598034195a13fc53563"
+    },
+    {
+      "path": "data/native_core_20261113_ac0d/core_source_leaf0060_exact_time.json",
+      "bytes": 57016,
+      "sha256": "b5b7016dcf676c27cd207ad37aa39e14a9d551dce1b5528f4145fa9d7be9f465"
+    },
+    {
+      "path": "data/native_core_20261113_ac0d/core_source_leaf0060_exact_time.npz",
+      "bytes": 2973,
+      "sha256": "2a97ad011c1f0feb73a664b3f3fce13f683d560653aed80ac0b80cc9f0856dec"
+    }
+  ],
+  "actual_process_exit_codes_zero": true,
+  "all_reports_saved": true,
+  "full_PDE_inverse_certified": false,
+  "nonlinear_family_complete": false
+}

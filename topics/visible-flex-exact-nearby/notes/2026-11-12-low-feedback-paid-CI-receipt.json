@@ -1,0 +1,30 @@
+{
+  "kind": "remote_replay_execution_receipt",
+  "run_id": "43299715651",
+  "triggering_commit": "ba09fe410038f69e9a9e57e0c2adf3067d0507cb",
+  "outcome": "success",
+  "python": "3.12.14",
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_low_feedback_paid_inputs.py",
+      "sha256": "4e50c307b451aa574af994ac4bfc9a5da1e057de6fdc024a2854dd58ec4e06b8",
+      "bytes": 14491
+    },
+    {
+      "path": "notes/2026-11-12-actual-low-feedback-paid-cap-interface-M4.json",
+      "sha256": "57d697f30eb18fc9daff787faf2d59d700f167726c74b6465821a98b22ce66e2",
+      "bytes": 10158
+    },
+    {
+      "path": "notes/2026-11-12-actual-low-feedback-paid-cap-interface-M4.npz",
+      "sha256": "aad06ad36773210c398c41b7f4b515631301d3e54f84322332d0fb49b6087837",
+      "bytes": 11512
+    },
+    {
+      "path": "notes/2026-11-12-low-feedback-paid-CI.log",
+      "sha256": "b5bf7416028d0989bb8d9f2bdba28b30f3752d37235e035c6c309593cfe3a7f3",
+      "bytes": 1346
+    }
+  ],
+  "mathematical_scope": "Only the source report defines successful mathematical claims; an execution receipt alone proves none."
+}

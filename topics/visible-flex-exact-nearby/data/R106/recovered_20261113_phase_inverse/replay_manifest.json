@@ -1,0 +1,28 @@
+{
+  "kind": "actual_native_R106_replay",
+  "complete": true,
+  "source_sha256": "94b78f33190e3858cd32c6153b1d484825175a0cd1d745abef10cf05cfa0c736",
+  "frozen_kernels": {
+    "fourfold_subprincipal_extract_saved_bulk_moduli.py": "5f905b4257e2e968623d87a8315ed035e4b1df37664cef1a407b459e5e0f7f3e",
+    "fourfold_subprincipal_root_fields.py": "3a92a7ae5c8d66199ca2599be53590f91d976e89b05a24ec9ddab182367e8ac5"
+  },
+  "files": {
+    "data/R106/recovered_20261113_phase_inverse/grounded_root_point.json": {
+      "sha256": "0d3d6ca93478964ef1dcaf14093228d2f8aea43a276a1cb701866a143dd73fce",
+      "bytes": 17113
+    },
+    "data/R106/recovered_20261113_phase_inverse/grounded_root_strip.json.gz": {
+      "sha256": "faa2fa67bfed63780b1dd5ffb97ec6ff0e0109333a247612a6bf57cd00f120f3",
+      "bytes": 46212
+    },
+    "data/R106/recovered_20261113_phase_inverse/saved_bulk_moduli.json.gz": {
+      "sha256": "5f8ead1a783632d5a942403405cb42bf7d957a3d7a7847c85d138f63b240053e",
+      "bytes": 13474
+    },
+    "data/R106/recovered_20261113_phase_inverse/saved_bulk_moduli_summary.json": {
+      "sha256": "5d675fd5e82c737d25d7999d00d38d276dfb65e524479af6637f9484531e465a",
+      "bytes": 4323
+    }
+  },
+  "scope": "Complete original mathematical kernels rerun; no binary data reconstructed from summaries."
+}

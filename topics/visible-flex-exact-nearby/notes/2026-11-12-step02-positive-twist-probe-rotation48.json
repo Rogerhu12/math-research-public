@@ -1,0 +1,162 @@
+{
+  "kind": "floating_interpolated_principal_rotation_exploration_not_true_map_certificate",
+  "map_file": "2026-11-12-step02-positive-twist-probe-map48.json",
+  "map_file_sha256": "acb90de2f53a5823df98dfb39baa24b6313cb86dace68c94e002044ae192c374",
+  "source_checkpoint_sha256": "06d0710ee40590c88897936d19b67971fd67745163597ed7bf1f91c95ec56ef3",
+  "angular_period": 1.5707963267948966,
+  "sample_count": 48,
+  "interpolants": {
+    "periodic_cubic_Hermite_with_actual_angular_derivatives": {
+      "interpolant_minimum_derivative": 0.2236138258042999,
+      "interpolant_orientation_preserving": true,
+      "iteration_count": 100000,
+      "initial_seeds": [
+        0.0,
+        0.19634954084936207,
+        0.39269908169872414,
+        0.5890486225480862,
+        0.7853981633974483,
+        0.9817477042468103,
+        1.1780972450961724,
+        1.3744467859455345
+      ],
+      "rotation_estimates": [
+        0.5517195236994342,
+        0.5517193174310783,
+        0.5517188623051826,
+        0.5517186629714943,
+        0.5517184691079892,
+        0.5517184552310097,
+        0.5517187058514283,
+        0.5517189359652133
+      ],
+      "floating_interpolant_translation_intervals": [
+        [
+          0.5517095236994343,
+          0.5517295236994342
+        ],
+        [
+          0.5517093174310783,
+          0.5517293174310782
+        ],
+        [
+          0.5517088623051827,
+          0.5517288623051826
+        ],
+        [
+          0.5517086629714943,
+          0.5517286629714943
+        ],
+        [
+          0.5517084691079892,
+          0.5517284691079891
+        ],
+        [
+          0.5517084552310098,
+          0.5517284552310097
+        ],
+        [
+          0.5517087058514284,
+          0.5517287058514283
+        ],
+        [
+          0.5517089359652133,
+          0.5517289359652132
+        ]
+      ],
+      "intersection_of_these_intervals": [
+        0.5517095236994343,
+        0.5517284552310097
+      ],
+      "mean_estimate": 0.5517188665703537,
+      "period_two_residual_min": 0.06796229254546127,
+      "period_two_residual_max": 0.25922556477750835,
+      "period_two_residual_min_abs_grid": 0.06796229254546127,
+      "period_two_sign_change_roots": [],
+      "period_two_multipliers": [],
+      "period_two_scan_nodes": 8193,
+      "interval_interpretation": "For an exact increasing degree-one lift each n-step displacement/n differs from its translation number by at most period/n; numerical iteration and interpolation errors are not included here.",
+      "no_sign_change_is_not_a_tangent_root_exclusion": true
+    },
+    "monotone_PCHIP_lift": {
+      "interpolant_minimum_derivative": 0.2249074990229036,
+      "interpolant_orientation_preserving": true,
+      "iteration_count": 100000,
+      "initial_seeds": [
+        0.0,
+        0.19634954084936207,
+        0.39269908169872414,
+        0.5890486225480862,
+        0.7853981633974483,
+        0.9817477042468103,
+        1.1780972450961724,
+        1.3744467859455345
+      ],
+      "rotation_estimates": [
+        0.551723881098204,
+        0.551725739709521,
+        0.5517257838915132,
+        0.5517254168223963,
+        0.5517245411803035,
+        0.5517236749718875,
+        0.5517228988245606,
+        0.5517222822614601
+      ],
+      "floating_interpolant_translation_intervals": [
+        [
+          0.5517138810982041,
+          0.551733881098204
+        ],
+        [
+          0.551715739709521,
+          0.551735739709521
+        ],
+        [
+          0.5517157838915132,
+          0.5517357838915131
+        ],
+        [
+          0.5517154168223963,
+          0.5517354168223962
+        ],
+        [
+          0.5517145411803035,
+          0.5517345411803034
+        ],
+        [
+          0.5517136749718875,
+          0.5517336749718874
+        ],
+        [
+          0.5517128988245606,
+          0.5517328988245606
+        ],
+        [
+          0.5517122822614602,
+          0.5517322822614601
+        ]
+      ],
+      "intersection_of_these_intervals": [
+        0.5517157838915132,
+        0.5517322822614601
+      ],
+      "mean_estimate": 0.5517242773449809,
+      "period_two_residual_min": 0.068375580249882,
+      "period_two_residual_max": 0.2631454003701865,
+      "period_two_residual_min_abs_grid": 0.068375580249882,
+      "period_two_sign_change_roots": [],
+      "period_two_multipliers": [],
+      "period_two_scan_nodes": 8193,
+      "interval_interpretation": "For an exact increasing degree-one lift each n-step displacement/n differs from its translation number by at most period/n; numerical iteration and interpolation errors are not included here.",
+      "no_sign_change_is_not_a_tangent_root_exclusion": true
+    }
+  },
+  "limitations": [
+    "not a rotation-number certificate for the actual principal ODE",
+    "interpolant differences expose angular under-resolution",
+    "ordinary floating interpolation/root finding/iteration with no outward rounding",
+    "period-two scan can miss tangential roots",
+    "no phase-corrected PDE transfer, exact flex, or reach conclusion"
+  ],
+  "difference_between_interpolant_rotation_estimates": 5.410774627123693e-06
+}

@@ -1,0 +1,180 @@
+{
+  "kind": "actual_final_outer_mean_canonical_ports_and_complete_mean_Schur_rational_budget",
+  "complete": true,
+  "executed": true,
+  "arithmetic": "normalized exact BigInt rational",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "whole_original_eta_interval": true,
+  "coordinate": "same moving physical variation h=(delta u,delta v)",
+  "inputs": [
+    {
+      "path": "results/R133-supplement-final-regular-Hs-and-Riccati-outer-graph.md",
+      "git_blob": "7784d7158974d4632ca634369e55dc095e134902",
+      "used": "S.35,S.37,S.38, W>=1/8 and complete low/high/mean/source"
+    },
+    {
+      "path": "results/R133-supplement-full-scalar-mean-Green-and-residual-sensitive-nu.md",
+      "git_blob": "c7454ac2da81690f63ae3a1bbd9aa41643bc0a05",
+      "used": "Q.17-Q.23; true scalar mean Green and endpoint factor"
+    },
+    {
+      "path": "results/R133-supplement-final-waist-amplitude-coordinate-and-mean-Schur.md",
+      "git_blob": "511c9ca83972003796c4c4fa456236f32095e3e3",
+      "used": "A.13; full amplitude functional norm<7/2, mean retained"
+    },
+    {
+      "path": "results/R133-supplement-complete-moving-band-and-mean-parameter-Schur.md",
+      "git_blob": "a51dbc432d2945bad9a7deb5d985ca021676030b",
+      "used": "complete operator and support, no high boundary truncation"
+    }
+  ],
+  "full_mean_outer_gain": {
+    "canonical_stable_high": {
+      "exact_outer_mean_upper": "69106534131/20000000000000000",
+      "outward_outer_mean_decimal": "0.000003455326706550000000",
+      "rounded_outer_mean_upper": "27/7812500",
+      "exact_waist_mean_factor_before_Gamma": "186141974115089181/200000000000000000000000000000000000",
+      "waist_mean_factor_decimal": "0.000000000000000000930710",
+      "rounded_waist_mean_factor_before_Gamma": "2327/2500000000000000000000",
+      "exact_waist_amplitude_factor_before_Gamma": "1302993818805624267/400000000000000000000000000000000000",
+      "waist_amplitude_factor_decimal": "0.000000000000000003257485",
+      "rounded_waist_amplitude_factor_before_Gamma": "16289/5000000000000000000000"
+    },
+    "complete_nonmean_head": {
+      "exact_outer_mean_upper": "26016649587/8000000000000000",
+      "outward_outer_mean_decimal": "0.000003252081198375000000",
+      "rounded_outer_mean_upper": "3253/1000000000",
+      "exact_waist_mean_factor_before_Gamma": "70077172511713437/80000000000000000000000000000000000",
+      "waist_mean_factor_decimal": "0.000000000000000000875965",
+      "rounded_waist_mean_factor_before_Gamma": "219/250000000000000000000",
+      "exact_waist_amplitude_factor_before_Gamma": "490540207581994059/160000000000000000000000000000000000",
+      "waist_amplitude_factor_decimal": "0.000000000000000003065877",
+      "rounded_waist_amplitude_factor_before_Gamma": "30659/10000000000000000000000"
+    },
+    "independent_fB": {
+      "exact_outer_mean_upper": "1640041463/400000000000000",
+      "outward_outer_mean_decimal": "0.000004100103657500000000",
+      "rounded_outer_mean_upper": "4101/1000000000",
+      "exact_waist_mean_factor_before_Gamma": "4417535322705113/4000000000000000000000000000000000",
+      "waist_mean_factor_decimal": "0.000000000000000001104384",
+      "rounded_waist_mean_factor_before_Gamma": "2761/2500000000000000000000",
+      "exact_waist_amplitude_factor_before_Gamma": "30922747258935791/8000000000000000000000000000000000",
+      "waist_amplitude_factor_decimal": "0.000000000000000003865344",
+      "rounded_waist_amplitude_factor_before_Gamma": "19327/5000000000000000000000"
+    },
+    "physical_Robin_residual": {
+      "exact_outer_mean_upper": "152031/2000000000",
+      "outward_outer_mean_decimal": "0.000076015500000000000000",
+      "rounded_outer_mean_upper": "3801/50000000",
+      "exact_waist_mean_factor_before_Gamma": "409503252081/20000000000000000000000000000",
+      "waist_mean_factor_decimal": "0.000000000000000020475163",
+      "rounded_waist_mean_factor_before_Gamma": "5119/250000000000000000000",
+      "exact_waist_amplitude_factor_before_Gamma": "2866522764567/40000000000000000000000000000",
+      "waist_amplitude_factor_decimal": "0.000000000000000071663070",
+      "rounded_waist_amplitude_factor_before_Gamma": "4479/62500000000000000000"
+    },
+    "physical_mean_residual": {
+      "exact_outer_mean_upper": "100000179673/2000000000",
+      "outward_outer_mean_decimal": "50.000089836500000000000000",
+      "rounded_outer_mean_upper": "50001/1000",
+      "exact_waist_mean_factor_before_Gamma": "269355583958388823/20000000000000000000000000000",
+      "waist_mean_factor_decimal": "0.000000000013467779197920",
+      "rounded_waist_mean_factor_before_Gamma": "67339/5000000000000000",
+      "exact_waist_amplitude_factor_before_Gamma": "1885489087708721761/40000000000000000000000000000",
+      "waist_amplitude_factor_decimal": "0.000000000047137227192719",
+      "rounded_waist_amplitude_factor_before_Gamma": "471373/10000000000000000"
+    }
+  },
+  "gate_count": 18,
+  "gates": [
+    {
+      "name": "canonical_stable_high_outer_mean",
+      "pass": true
+    },
+    {
+      "name": "canonical_stable_high_waist_before_Gamma",
+      "pass": true
+    },
+    {
+      "name": "canonical_stable_high_waist_amplitude_before_Gamma",
+      "pass": true
+    },
+    {
+      "name": "complete_nonmean_head_outer_mean",
+      "pass": true
+    },
+    {
+      "name": "complete_nonmean_head_waist_before_Gamma",
+      "pass": true
+    },
+    {
+      "name": "complete_nonmean_head_waist_amplitude_before_Gamma",
+      "pass": true
+    },
+    {
+      "name": "independent_fB_outer_mean",
+      "pass": true
+    },
+    {
+      "name": "independent_fB_waist_before_Gamma",
+      "pass": true
+    },
+    {
+      "name": "independent_fB_waist_amplitude_before_Gamma",
+      "pass": true
+    },
+    {
+      "name": "physical_Robin_residual_outer_mean",
+      "pass": true
+    },
+    {
+      "name": "physical_Robin_residual_waist_before_Gamma",
+      "pass": true
+    },
+    {
+      "name": "physical_Robin_residual_waist_amplitude_before_Gamma",
+      "pass": true
+    },
+    {
+      "name": "physical_mean_residual_outer_mean",
+      "pass": true
+    },
+    {
+      "name": "physical_mean_residual_waist_before_Gamma",
+      "pass": true
+    },
+    {
+      "name": "physical_mean_residual_waist_amplitude_before_Gamma",
+      "pass": true
+    },
+    {
+      "name": "complete_physical_mean_row_scalar_gap",
+      "pass": true
+    },
+    {
+      "name": "physical_mean_row_inverse_below_50",
+      "pass": true
+    },
+    {
+      "name": "physical_mean_fB_column_below_original_outer_budget",
+      "pass": true
+    }
+  ],
+  "physical_mean_scalar_preconditioner": {
+    "coupling_upper": "541902123/500000000000000",
+    "inverse_abs_upper": "24500000000000000/499999458097877",
+    "source_and_adjoint_scaling_retained": true
+  },
+  "independent_fB_norm": "dot H^(2,1/6)",
+  "physical_Robin_residual_norm": "H^(1/6)",
+  "physical_mean_residual_norm": "absolute scalar",
+  "head_norm": "all 1<=|j|<=96, ordinary moving L2",
+  "high_norm": "full same Riccati stable state l2, |j|>=97",
+  "unknown_Gamma_must_multiply_all_waist_factors": true,
+  "Gamma_numerically_certified": false,
+  "only_homogeneous_outer_contribution_to_waist": true,
+  "full_body_nonmean_mean_feedback_and_sources_still_retained": true,
+  "complete_BVP_inverse_proved": false,
+  "nu_Schur_nonzero_proved": false,
+  "producer_sha256": "f21663bf009d1f26c845b7aeaba66f9417252e868532e8ca430d79bd84be2e03"
+}

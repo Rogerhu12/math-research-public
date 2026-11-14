@@ -1,0 +1,113 @@
+{
+  "kind": "high_precision_root_Taylor_full_phase_diagnostic_not_interval_certificate",
+  "inputs": "data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+  "inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "script_sha256": "3a7084be73ade614c2ba29c90dc1c109c682a65151a354758dbaf072f0efc700",
+  "dps": 50,
+  "quarter_nodes": 256,
+  "angular_quadrature_nodes": 512,
+  "root": "0.23839697751927484249495158293737248892953095359564",
+  "root_Newton_trace": [
+    {
+      "iteration": 0,
+      "root": "0.238396977519",
+      "C": "-8.25224920893e-11",
+      "step": "-2.74842494941e-13"
+    },
+    {
+      "iteration": 1,
+      "root": "0.23839697751927484249494075054347756070352972835539",
+      "C": "-3.25246697977e-21",
+      "step": "-1.08323938949e-23"
+    },
+    {
+      "iteration": 2,
+      "root": "0.23839697751927484249495158293737248892953093677288",
+      "C": "-5.05109674564e-42",
+      "step": "-1.68227594286e-44"
+    }
+  ],
+  "root_K_residual": "-1.6981074326115821297145698406097375349501481173113e-46",
+  "zero_order": "ground-state",
+  "exact_object_definition": "frozen binary64 spline inputs; physical a,beta even; gamma and exact-integral Z odd",
+  "finite_primitive_definition": "mp DFT at stated quarter grid; Nyquist deleted; real conjugate symmetry projected",
+  "Taylor_coefficient_definition": "G(rho)=rho^(5/2) times angular mean of R50 J, ordinary Taylor coefficients at rho=0",
+  "G_Taylor_coefficients": [
+    "-0.0064294090055856999257827916562595819979782655348764",
+    "-1.3849519032520085366922738419615441114869158346643",
+    "203.54683443054782100510948526997853038258538435496",
+    "-15328.371238458057733748621086344823831224268483277",
+    "-893035.96458086102614156792684069204221337640582361",
+    "684134035.40575307719245147145375241688793916990183",
+    "-188977264491.87748671646085306172307005785170374863",
+    "41293373097874.567440230196449736004147527537050952",
+    "-8079162016936672.207243952733142306988781185679929",
+    "1480107810461616897.2349296908586236374359357123465",
+    "-259511175809184285830.74054556460691071065002002164",
+    "44089415872066567025791.509229797130980833938071616",
+    "-7314451083660844570375466.9601823526059804607764143"
+  ],
+  "root_diagnostics": {
+    "root_K_residual_before_division": "-1.6981074326115821297145698406097375349501481173113e-46",
+    "kappa_radial_at_root": "7.7526864258553843212955749509621010467537005217862",
+    "minimum_a_at_root": "0.621750350289003",
+    "minimum_zeta_at_root": "0.8275584597623976",
+    "minimum_Fz_over_r_at_root": "1.126404202282814",
+    "maximum_abs_omega_at_root": "0.1208837780280411",
+    "work_Taylor_order": 17,
+    "rho_direction": "rho=t-r; mixed principal coefficient is minus the r coefficient"
+  },
+  "half_core_to_beta_factor": ".5",
+  "bulk_method": "same frozen finite Fourier polynomial, zero-padded uniform-grid FFT, binary64 Gauss-Legendre",
+  "gauss_order": 12,
+  "runs": [
+    {
+      "collar_width": "1/2048",
+      "Taylor_degree": 8,
+      "collar_finite_part_mp": "531.49533069254210952828560888732783817978864641813",
+      "bulk_float": -457.4434877070346,
+      "beta_mp_collar_plus_float_bulk": "37.025921492753758789545003920621240256886510709066",
+      "bulk_diagnostics": {
+        "radial_cells": 167,
+        "quadrature_nodes": 2004,
+        "minimum_a": 0.3467889798715512,
+        "minimum_zeta": 0.8278224034625938,
+        "minimum_area": 1.1848514412476658,
+        "maximum_actual_N": -0.40801176017936464,
+        "minimum_Fz_over_r": 1.1086512134949176,
+        "maximum_abs_omega": 0.24360872453237445,
+        "minimum_K": -1.047106245320299,
+        "maximum_K": -0.031697463883188684
+      }
+    },
+    {
+      "collar_width": "1/2048",
+      "Taylor_degree": 12,
+      "collar_finite_part_mp": "531.49533071936958672378699525181256740875387776843",
+      "bulk_float": -457.4434877070346,
+      "beta_mp_collar_plus_float_bulk": "37.025921506167497387295697102863604871369126384216",
+      "bulk_diagnostics": {
+        "radial_cells": 167,
+        "quadrature_nodes": 2004,
+        "minimum_a": 0.3467889798715512,
+        "minimum_zeta": 0.8278224034625938,
+        "minimum_area": 1.1848514412476658,
+        "maximum_actual_N": -0.40801176017936464,
+        "minimum_Fz_over_r": 1.1086512134949176,
+        "maximum_abs_omega": 0.24360872453237445,
+        "minimum_K": -1.047106245320299,
+        "maximum_K": -0.031697463883188684
+      }
+    }
+  ],
+  "limitations": [
+    "High precision ordinary arithmetic, not directed interval rounding",
+    "Finite primitive and angular quadrature; no full infinite Fourier tail or alias error is paid",
+    "A finite Taylor polynomial is integrated exactly; no analytic remainder bound is claimed",
+    "Bulk quadrature, when used, is the original binary64 finite-primitive evaluator",
+    "Root residual is reported before the formal division by rho; a directed root enclosure remains necessary",
+    "R46 complete network, parameter family, finite low block and exact closed isometric family remain separate"
+  ],
+  "finished": true,
+  "wall_seconds": 253.34593919099984
+}

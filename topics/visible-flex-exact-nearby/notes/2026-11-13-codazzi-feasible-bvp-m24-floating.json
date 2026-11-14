@@ -1,0 +1,360 @@
+{
+  "kind": "floating_feasible_Newton_Codazzi_BVP",
+  "coordinates": "B,C",
+  "modes": 24,
+  "source_sha256": "07e3607038e47c9dd1d541597dfd0a041034d340c2bd76635d77c2602d1ec0a7",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "boundary_amplitude": 1.0,
+  "physical_frequency_factor": 4,
+  "state_order": "B sine k=1..M, C cosine k=0..M",
+  "initial_waist_curve_changed": true,
+  "original_target_fixed": true,
+  "right_boundary": "old actual nonmean C only; no cap DN, outer C mean free",
+  "finite_coefficients": true,
+  "certified": false,
+  "success": false,
+  "solver_status": 2,
+  "solver_message": "A singular Jacobian encountered when solving the collocation system.",
+  "guarded_Newton_history": [
+    {
+      "nodes": 251,
+      "iteration": 0,
+      "accepted": true,
+      "step_fraction": 0.0625,
+      "affine_invariant_cost": 430.22297853281657,
+      "next_cost": 201.44140252972778,
+      "max_collocation_residual": 0.006544714050712188,
+      "max_boundary_residual": 5.551115123125783e-16
+    },
+    {
+      "nodes": 251,
+      "iteration": 1,
+      "accepted": true,
+      "step_fraction": 0.0625,
+      "affine_invariant_cost": 164.81690205913918,
+      "next_cost": 157.90014152390197,
+      "max_collocation_residual": 0.006041037863311937,
+      "max_boundary_residual": 5.551115123125783e-16
+    },
+    {
+      "nodes": 251,
+      "iteration": 2,
+      "accepted": true,
+      "step_fraction": 0.125,
+      "affine_invariant_cost": 305.665998191747,
+      "next_cost": 156.83153483972256,
+      "max_collocation_residual": 0.005635753562404102,
+      "max_boundary_residual": 5.551115123125783e-16
+    },
+    {
+      "nodes": 251,
+      "iteration": 3,
+      "accepted": true,
+      "step_fraction": 0.0078125,
+      "affine_invariant_cost": 1717.7308613632313,
+      "next_cost": 1698.5414849790748,
+      "max_collocation_residual": 0.0052396788301960345,
+      "max_boundary_residual": 4.440892098500626e-16
+    },
+    {
+      "nodes": 251,
+      "iteration": 4,
+      "accepted": true,
+      "step_fraction": 0.001953125,
+      "affine_invariant_cost": 10271.350287843197,
+      "next_cost": 10264.244501203211,
+      "max_collocation_residual": 0.005214938948322825,
+      "max_boundary_residual": 4.440892098500626e-16
+    },
+    {
+      "nodes": 251,
+      "iteration": 5,
+      "accepted": true,
+      "step_fraction": 0.015625,
+      "affine_invariant_cost": 22066.03376407794,
+      "next_cost": 8016.344682012296,
+      "max_collocation_residual": 0.005210408088671712,
+      "max_boundary_residual": 4.440892098500626e-16
+    },
+    {
+      "nodes": 251,
+      "iteration": 6,
+      "accepted": true,
+      "step_fraction": 0.0625,
+      "affine_invariant_cost": 108.34343086667366,
+      "next_cost": 99.31673274268854,
+      "max_collocation_residual": 0.006016748138074256,
+      "max_boundary_residual": 3.3306690738754696e-16
+    },
+    {
+      "nodes": 251,
+      "iteration": 7,
+      "accepted": true,
+      "step_fraction": 0.015625,
+      "affine_invariant_cost": 695.6850088892909,
+      "next_cost": 688.8580030506437,
+      "max_collocation_residual": 0.005678155922778139,
+      "max_boundary_residual": 3.3306690738754696e-16
+    },
+    {
+      "nodes": 251,
+      "iteration": 8,
+      "accepted": true,
+      "step_fraction": 0.015625,
+      "affine_invariant_cost": 28618.2548108458,
+      "next_cost": 6648.046942978733,
+      "max_collocation_residual": 0.005610137584027588,
+      "max_boundary_residual": 3.3306690738754696e-16
+    },
+    {
+      "nodes": 251,
+      "iteration": 9,
+      "accepted": true,
+      "step_fraction": 0.00390625,
+      "affine_invariant_cost": 1591.7598086815533,
+      "next_cost": 1581.756064487936,
+      "max_collocation_residual": 0.007222194140370935,
+      "max_boundary_residual": 3.3306690738754696e-16
+    },
+    {
+      "nodes": 251,
+      "iteration": 10,
+      "accepted": true,
+      "step_fraction": 0.000244140625,
+      "affine_invariant_cost": 8802.412386237713,
+      "next_cost": 8800.282582855063,
+      "max_collocation_residual": 0.007196191764136668,
+      "max_boundary_residual": 3.3306690738754696e-16
+    },
+    {
+      "nodes": 251,
+      "iteration": 11,
+      "accepted": true,
+      "step_fraction": 0.00390625,
+      "affine_invariant_cost": 80475.69905119999,
+      "next_cost": 34462.04240797031,
+      "max_collocation_residual": 0.007194494186111736,
+      "max_boundary_residual": 3.3306690738754696e-16
+    },
+    {
+      "nodes": 251,
+      "iteration": 12,
+      "accepted": true,
+      "step_fraction": 0.25,
+      "affine_invariant_cost": 69.41278031120254,
+      "next_cost": 44.62090920668851,
+      "max_collocation_residual": 0.007346800032472595,
+      "max_boundary_residual": 3.3306690738754696e-16
+    },
+    {
+      "nodes": 251,
+      "iteration": 13,
+      "accepted": true,
+      "step_fraction": 0.00390625,
+      "affine_invariant_cost": 2965.8058569483915,
+      "next_cost": 2951.969861020301,
+      "max_collocation_residual": 0.005696906614722176,
+      "max_boundary_residual": 2.220446049250313e-16
+    },
+    {
+      "nodes": 251,
+      "iteration": 14,
+      "accepted": true,
+      "step_fraction": 1.9073486328125e-06,
+      "affine_invariant_cost": 4259076.077618861,
+      "next_cost": 4259069.826896681,
+      "max_collocation_residual": 0.005679995309867276,
+      "max_boundary_residual": 2.220446049250313e-16
+    },
+    {
+      "nodes": 251,
+      "iteration": 15,
+      "accepted": true,
+      "step_fraction": 0.000244140625,
+      "affine_invariant_cost": 74782079.56933816,
+      "next_cost": 5253909.374651434,
+      "max_collocation_residual": 0.005679985989443002,
+      "max_boundary_residual": 2.220446049250313e-16
+    },
+    {
+      "reason": "per-mesh Newton iteration limit",
+      "nodes": 251,
+      "iterations": 16
+    },
+    {
+      "nodes": 751,
+      "iteration": 0,
+      "accepted": true,
+      "step_fraction": 0.0625,
+      "affine_invariant_cost": 1003.3945952908034,
+      "next_cost": 927.5264124297739,
+      "max_collocation_residual": 0.004279073239589782,
+      "max_boundary_residual": 2.220446049250313e-16
+    },
+    {
+      "nodes": 751,
+      "iteration": 1,
+      "accepted": true,
+      "step_fraction": 0.001953125,
+      "affine_invariant_cost": 13111.193054362198,
+      "next_cost": 13091.955356939112,
+      "max_collocation_residual": 0.00416122181109786,
+      "max_boundary_residual": 2.220446049250313e-16
+    },
+    {
+      "nodes": 751,
+      "iteration": 2,
+      "accepted": true,
+      "step_fraction": 0.00390625,
+      "affine_invariant_cost": 250531.1241695562,
+      "next_cost": 229713.2918697474,
+      "max_collocation_residual": 0.0041558451323839216,
+      "max_boundary_residual": 2.220446049250313e-16
+    },
+    {
+      "nodes": 751,
+      "iteration": 3,
+      "accepted": true,
+      "step_fraction": 0.000244140625,
+      "affine_invariant_cost": 2510896.200432465,
+      "next_cost": 2505173.8239117214,
+      "max_collocation_residual": 0.004282322539964667,
+      "max_boundary_residual": 2.220446049250313e-16
+    },
+    {
+      "nodes": 751,
+      "iteration": 4,
+      "accepted": true,
+      "step_fraction": 0.00048828125,
+      "affine_invariant_cost": 96475.07252881436,
+      "next_cost": 96369.79293390698,
+      "max_collocation_residual": 0.004289245495305108,
+      "max_boundary_residual": 2.220446049250313e-16
+    },
+    {
+      "nodes": 751,
+      "iteration": 5,
+      "accepted": true,
+      "step_fraction": 3.0517578125e-05,
+      "affine_invariant_cost": 74628.89244122113,
+      "next_cost": 74624.33267020147,
+      "max_collocation_residual": 0.004288513101482233,
+      "max_boundary_residual": 2.220446049250313e-16
+    },
+    {
+      "nodes": 751,
+      "iteration": 6,
+      "accepted": true,
+      "step_fraction": 3.814697265625e-06,
+      "affine_invariant_cost": 74344.80831913397,
+      "next_cost": 74344.24105508192,
+      "max_collocation_residual": 0.004288386423431663,
+      "max_boundary_residual": 2.220446049250313e-16
+    },
+    {
+      "nodes": 751,
+      "iteration": 7,
+      "accepted": true,
+      "step_fraction": 4.76837158203125e-07,
+      "affine_invariant_cost": 74313.765070216,
+      "next_cost": 74313.69419820984,
+      "max_collocation_residual": 0.004288370129901686,
+      "max_boundary_residual": 2.220446049250313e-16
+    },
+    {
+      "nodes": 751,
+      "iteration": 8,
+      "accepted": true,
+      "step_fraction": 2.384185791015625e-07,
+      "affine_invariant_cost": 74309.95344843372,
+      "next_cost": 74309.91801446753,
+      "max_collocation_residual": 0.004288368086068444,
+      "max_boundary_residual": 2.220446049250313e-16
+    },
+    {
+      "nodes": 751,
+      "iteration": 9,
+      "accepted": true,
+      "step_fraction": 1.1920928955078125e-07,
+      "affine_invariant_cost": 74308.05037538178,
+      "next_cost": 74308.03265890705,
+      "max_collocation_residual": 0.0042883670638970564,
+      "max_boundary_residual": 2.220446049250313e-16
+    },
+    {
+      "nodes": 751,
+      "iteration": 10,
+      "accepted": false,
+      "step_fraction": 5.960464477539063e-08,
+      "affine_invariant_cost": 74307.09952309384,
+      "next_cost": null,
+      "max_collocation_residual": 0.00428836655274766,
+      "max_boundary_residual": 2.220446049250313e-16
+    },
+    {
+      "reason": "no admissible decreasing step in 24 backtracks; NOT an asserted singular Jacobian",
+      "nodes": 751,
+      "iteration": 10
+    }
+  ],
+  "guard_stop_interpretation": "If history says no admissible step or domain exit, the library singular-stop flag was used to terminate; it is NOT a claim that the actual Jacobian is singular.",
+  "diagnostics": {
+    "finite_PDE_residual": 68.99341220084868,
+    "A_projection_defect": 3.579207504197052,
+    "A_theta_projection_defect": 707.368021987914,
+    "full_sampled_B_residual": 774.759611416003,
+    "full_sampled_C_residual": 0.6857108489616659,
+    "C_abs_min": 0.045745622687312776,
+    "C_min": -7.528771584338687,
+    "C_max": -0.045745622687312776,
+    "valid": true
+  },
+  "radial_nodes": 751,
+  "right": 0.25,
+  "tol": 1e-05,
+  "max_nodes": 3000,
+  "initial_radial_nodes": 251,
+  "angular_grid": 384,
+  "diagnostic_angular_grid": 768,
+  "sampled_C_guard_floor": 0.05,
+  "sampled_B_C_guard_ceiling": 20.0,
+  "maximum_Newton_steps_per_mesh": 16,
+  "initial_mean_gap": 2.220446049250313e-16,
+  "initial_turn_number": 0.9999999999999998,
+  "initial_total_turn": 6.2831853071795845,
+  "free_outer_C_mean": -0.8915946474068565,
+  "initial_B_l1": 1.4329653619724879e-16,
+  "outer_nonmean_C_boundary_gap_l1": 8.153200337090993e-17,
+  "exact_center_parameter": {
+    "numerator": "-7789843107295549",
+    "denominator": "4611686018427387904"
+  },
+  "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "guess_path": null,
+  "guess_sha256": null,
+  "scipy_version": "1.17.0",
+  "scipy_collocation_module_sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+  "candidate_path": "notes/2026-11-13-codazzi-feasible-bvp-m24-candidate.npz.gz",
+  "candidate_sha256": "c178e9abc416734fa2c621c6729977886e96d6ff797a4ff3039e4669f6de2cac",
+  "dependency_sha256": {
+    "fourfold_phase_codazzi_two_end_probe.py": "510a0ebf823f35942c0b45e67fb3ec5319cfe124996d88656fcc18a52c565eb2",
+    "fourfold_phase_codazzi_two_end_homotopy_probe.py": "33d2cf9d72bff21e66b0f9d67620383bdb1a417f9f7c33e9ace9489b6624ace9",
+    "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+    "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937",
+    "fourfold_phase_core_low_block.py": "d3b554e05f13112679786bd11a113ab8a29442b4da8f6ea0cf73c2ebb93d37be",
+    "fourfold_phase_local_correction_probe.py": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf"
+  },
+  "mean_retained": true,
+  "regular_trace": null,
+  "regular_flux": null,
+  "whole_parameter_interval": false,
+  "whole_real_angular_circle": false,
+  "whole_radial_domain": false,
+  "wall_seconds": 72.84789948900107,
+  "limitations": [
+    "Floating finite BVP and sampled search-domain constraints only, not a continuous PDE certificate.",
+    "The new line search rejects invalid trial states; it neither clips C nor changes the Codazzi equations.",
+    "The outer condition is not the complete cap DN. No regular-port matching or global closed surface is claimed."
+  ]
+}

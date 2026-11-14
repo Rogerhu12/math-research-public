@@ -1,0 +1,117 @@
+{
+  "kind": "R106_actual_root_endpoint_and_leading_counterterm_from_R99",
+  "complete": true,
+  "arithmetic": "exact BigInt rational upper endpoints, with all display radii added",
+  "same_parameter_interval": [
+    "-15214546326135873881617/9007199254740992000000000",
+    "-15214528311737364399633/9007199254740992000000000"
+  ],
+  "physical_root_outer_strip": "1/256",
+  "label_strip": "1/1024",
+  "bounds": {
+    "physical_root_endpoint_A0": {
+      "exact_upper": "1145393623412785309847964376681499077834884000148996342832941759259618205561038668870863/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "approximate_only": 1.1453936234127853
+    },
+    "root_endpoint_physical_image_modulus": {
+      "exact_upper": "693277575411452876953125/3241029404848524623872",
+      "approximate_only": 213.9065984326836
+    },
+    "true_label_root_endpoint_modulus": {
+      "exact_upper": "2919058076316839561810037/12964117619394098495488",
+      "approximate_only": 225.1644239905675
+    },
+    "physical_leading_counterterm_modulus": {
+      "exact_upper": "1596561725/17179869184",
+      "approximate_only": 0.0929321235162206
+    },
+    "true_label_leading_counterterm_modulus": {
+      "exact_upper": "525183806578761/5368709120000000",
+      "approximate_only": 0.09782310697785783
+    }
+  },
+  "normalization": "endpoint = sigma*u_theta/8 = -sigma*t0_theta/(2*t0) in the physical root label; pull back as a one-form by multiplying the actual physical-angle label Jacobian",
+  "checks": [
+    {
+      "name": "same completed true root family and ray",
+      "passed": true
+    },
+    {
+      "name": "true ray image strictly inside root complex strip",
+      "passed": true
+    },
+    {
+      "name": "root endpoint physical Wiener A0 below 1.146",
+      "passed": true
+    },
+    {
+      "name": "root endpoint full pulled-label strip modulus below 226",
+      "passed": true
+    },
+    {
+      "name": "leading root counterterm full label modulus below .098",
+      "passed": true
+    }
+  ],
+  "not_proved": [
+    "h1/s1 counterterms",
+    "continuous root finite-part integral",
+    "complete nonmean phase or full PDE inverse"
+  ],
+  "separate_real_bulk_parameter_transfer": {
+    "exact_parameter_movement": "42022188688562917371/4503599627370496000000000",
+    "true_fixed_r_real_bulk_Dp_integral": "62452383022873958206457557368274120807721140820958946717042155048871014608061/28269553036454149273332760011886696253239742350009903329945699220681916416",
+    "real_transfer_fee": "2624385823437612823057106777211142772906195293757374865137338576698696088050228555875240293527631/127314748520905380391777855525586135065716774604121015664758778084648831235208544136462336000000000",
+    "readable_fee": 0.020613368474012125,
+    "safe_strict_real_fee": "21/1000",
+    "old_complex_strip_transferred": false,
+    "old_bulk_moduli_extracted": false,
+    "old_center_parameter": "-7832869216826619/4611686018427387904",
+    "whole_derivative_parameter_half_width": "1/100000",
+    "gates": [
+      {
+        "name": "current real box inside true fixed-r derivative family",
+        "passed": true
+      },
+      {
+        "name": "real density transfer integral fee below .021",
+        "passed": true
+      }
+    ]
+  },
+  "provenance": {
+    "source": "scripts/fourfold_subprincipal_root_endpoint_exact.mjs",
+    "source_sha256": "0cc7e1e923791743ccf6cb61a53d4c948d65ba1bff54eb3dd3fc94020b04f2ee",
+    "inputs": [
+      {
+        "key": "root",
+        "path": "notes/2026-11-12-ci-actual-root-Cauchy-frame-Fourier-summary.json",
+        "sha256": "8c13c40e1ea65eb05a97eaeb79cba1ab49f8ebe734ad598d0b382a0afe6890bf",
+        "json": true
+      },
+      {
+        "key": "ray",
+        "path": "notes/2026-11-12-R106-actual-all-time-ray-tube.json",
+        "sha256": "6463e62641b9187045016c63ee633816676a75baf941ea01375a6ae36f1a1863",
+        "json": true
+      },
+      {
+        "key": "root_proof",
+        "path": "results/R99-actual-root-cauchy-frame-and-canonical-v1.md",
+        "sha256": "df19c58b1359f215684871a66208408417f36870c99b0522eccf79d231f4a479",
+        "json": false
+      },
+      {
+        "key": "bulk_derivative",
+        "path": "notes/2026-11-12-beta-derivative-independent-cover-and-transfer-audit.json",
+        "sha256": "1047f423a77d07aa14093b17fcf28376243857d8bf738b5d62f65f0f3dea7923",
+        "json": true
+      }
+    ],
+    "proof": "results/R106-supplement-existing-bulk-moduli-and-root-endpoint.md",
+    "root_full_report_sha256": "d6f74fae93df5db08f5ac26b2ba196112ce73812643ad125278c42a8ca345439",
+    "root_complex_report_sha256": "b872d49b788f54c0ad8f854b16c1097d6a7ef04162b883b9d0b675ab57db7d05",
+    "execution": "The identical pure checkedEndpoint/computeRootEndpoint implementation was actually evaluated in V8 with BigInt. Native CLI not run.",
+    "scope": "Completed input arithmetic, not a new geometric or ray integration."
+  }
+}

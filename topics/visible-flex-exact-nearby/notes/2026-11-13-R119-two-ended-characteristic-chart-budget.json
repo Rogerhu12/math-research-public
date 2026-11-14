@@ -1,0 +1,180 @@
+{
+  "schema": "visible-exact-R119-two-ended-characteristic-chart-v1",
+  "scope": "Actual two-ended C2 characteristic coordinates on every internal negative component, exact full weak matrix and density, both traces, mean, ordinary/Piola sources and complete coordinate-parameter variations.",
+  "file_sha256": {
+    "results/R119-supplement-actual-negative-band-metric-parameters.md": "3139d06c6628df7d248bd3fcd0c842837edcde840f12ba383a9a99397ffbb361",
+    "results/R119-supplement-uniform-tail-chart-for-actual-metric-parameters.md": "4eb0d35d9dfb3b53074227fce591219b8d4164444da655494c94ce80b46be950",
+    "results/R119-supplement-joint-actual-negative-band-return-kam.md": "d2eb6364aef5dfd0bf551384a4b597383f403dd5109cba5633ad15ec49ead95e",
+    "results/R119-supplement-retuned-fourth-connector-and-common-bumps.md": "e22a74f54ea1122271e50d2bdcd2ae8db5bc4c28e1e36eaebc35c40f6c3c3752",
+    "results/R119-supplement-actual-positive-band-two-end-dn-and-ordinary-source.md": "501f0813575c071d1586b412873ae2c43022a955c04d870f41d21c448ce38484",
+    "results/R119-supplement-two-ended-negative-characteristic-chart-and-densities.md": "9ed3041f8114e353aa83ade7efc6ceac33c2d77a92eab27522f0f0c66859daff",
+    "scripts/fourfold_two_ended_characteristic_chart_20261113.py": "ead6ff42b2ac522a57261fd474c8f8591c3a19b9a7a13b57848bee2bf5281ad7"
+  },
+  "checks": [
+    {
+      "name": "actual_two_branch_product",
+      "pass": true,
+      "evidence": "Both inverse characteristic derivatives are positive"
+    },
+    {
+      "name": "exact_full_characteristic_Jacobian",
+      "pass": true,
+      "evidence": "The full two-dimensional cross terms are retained"
+    },
+    {
+      "name": "exact_transformed_radial_coefficient",
+      "pass": true,
+      "evidence": "This is the actual weak matrix, divided by the full Jacobian"
+    },
+    {
+      "name": "exact_transformed_cross_coefficient",
+      "pass": true,
+      "evidence": "The two characteristic equations cancel the complete mixed coefficient"
+    },
+    {
+      "name": "exact_transformed_angular_coefficient",
+      "pass": true,
+      "evidence": "The reference type factor is exactly -q0(T)^2"
+    },
+    {
+      "name": "exact_transformed_discriminant",
+      "pass": true,
+      "evidence": "The determinant density is invariant under the two-dimensional push"
+    },
+    {
+      "name": "exact_hodograph_full_matrix",
+      "pass": true,
+      "evidence": "The physical-angle time derivative is retained"
+    },
+    {
+      "name": "exact_hodograph_density_cancellation",
+      "pass": true,
+      "evidence": "The full J and square-root discriminant factors cancel"
+    },
+    {
+      "name": "exact_hodograph_source_cancellation",
+      "pass": true,
+      "evidence": "The original ordinary scalar source has its true physical units"
+    },
+    {
+      "name": "exact_source_to_raw_principal_ratio",
+      "pass": true,
+      "evidence": "The normalized physical source is a*w*e before the second map"
+    },
+    {
+      "name": "exact_full_ordinary_source_factor",
+      "pass": true,
+      "evidence": "Both branch Jacobians and both optical factors remain"
+    },
+    {
+      "name": "exact_fold_optical_ratio",
+      "pass": true,
+      "evidence": "The s^(3/2) factor is removed before taking an endpoint limit"
+    },
+    {
+      "name": "exact_fold_Jacobian",
+      "pass": true,
+      "evidence": "The full endpoint Jacobian has a positive finite value"
+    },
+    {
+      "name": "exact_fold_boundary_flux_density",
+      "pass": true,
+      "evidence": "The endpoint conormal transforms by division by Hprime"
+    },
+    {
+      "name": "exact_fold_ordinary_source",
+      "pass": true,
+      "evidence": "There is no unremoved inverse square-root singularity"
+    },
+    {
+      "name": "exact_fold_parameter_jet",
+      "pass": true,
+      "evidence": "Both the actual scalar speed and the actual endpoint angle vary"
+    },
+    {
+      "name": "exact_complete_raw_jet_recovery",
+      "pass": true,
+      "evidence": "The actual drift remains in h_t and cancels only in the true conormal"
+    },
+    {
+      "name": "exact_total_endpoint_flux",
+      "pass": true,
+      "evidence": "The physical-angle Jacobian and the KAM angle Jacobian are both present"
+    },
+    {
+      "name": "exact_first_parameter_inverse",
+      "pass": true,
+      "evidence": "All of Sigma's parameter dependence is retained"
+    },
+    {
+      "name": "exact_second_parameter_inverse",
+      "pass": true,
+      "evidence": "The q0prime*T_a*T_b term is necessary"
+    },
+    {
+      "name": "fold_first_parameter_order",
+      "pass": true,
+      "evidence": "D Sigma is O(s^(3/2)), while q0(T) is O(s^(1/2))"
+    },
+    {
+      "name": "fold_second_parameter_cross_order",
+      "pass": true,
+      "evidence": "The complete second inverse numerator has the same vanishing order"
+    },
+    {
+      "name": "exact_Piola_weak_source",
+      "pass": true,
+      "evidence": "A full vector divergence source is pushed, not replaced by a boundary jump"
+    },
+    {
+      "name": "exact_parameter_log_Jacobian",
+      "pass": true,
+      "evidence": "The coordinate variation includes both divergence and transport"
+    },
+    {
+      "name": "exact_parameter_density_column",
+      "pass": true,
+      "evidence": "The actual numerator is delta f - div(f V)"
+    },
+    {
+      "name": "exact_residual_density_first_order_system",
+      "pass": true,
+      "evidence": "The lower-left density remainder retains the exact turning factor A0"
+    },
+    {
+      "name": "constant_height_translation_retained",
+      "pass": true,
+      "evidence": "No artificial zeroth-order potential has been inserted"
+    },
+    {
+      "name": "actual_nonturning_quintic_shoulder",
+      "pass": true,
+      "evidence": "The sharp shoulder comes from the actual quintic, not a hypothetical profile"
+    },
+    {
+      "name": "absolute_shift_is_not_relative_profile_control",
+      "pass": true,
+      "evidence": "For Lambda>=16, a shift of one shrinking shoulder width changes q^2 by a factor >3"
+    },
+    {
+      "name": "finite_source_L2_change_of_variables",
+      "pass": true,
+      "evidence": "The stated source norm keeps its explicit Jacobian weight"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "actual_two_end_fixed_C2_diffeomorphism": true,
+    "actual_fold_inverse_and_parameter_terms": true,
+    "full_principal_and_density_transformed_exactly": true,
+    "both_height_and_flux_traces": true,
+    "mean_and_holonomy_source_retained": true,
+    "ordinary_scalar_and_weak_divergence_sources": true,
+    "all_Fourier_inputs_retained": true,
+    "full_domain_analytic_angle_chart": false,
+    "uniform_relative_density_smallness": false,
+    "complete_Airy_and_positive_port_comparison": false,
+    "full_nonlinear_high_input_inverse": false,
+    "topic_completion": false
+  }
+}

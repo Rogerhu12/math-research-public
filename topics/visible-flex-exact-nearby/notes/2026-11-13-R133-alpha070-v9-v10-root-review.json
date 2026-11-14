@@ -1,0 +1,51 @@
+{
+  "kind": "root_complete_alpha070_v9_v10_failed_candidates_and_algorithm_diff_review",
+  "complete": true,
+  "manifest_and_source_sha256_checks": {
+    "notes/2026-11-13-R133-m128-alpha070-v9-v10-rejections.md": true,
+    "scripts/fourfold_codazzi_compact_metric_branch_refine_v9_probe.py": true,
+    "scripts/fourfold_codazzi_guarded_Newton_krylov_v2.py": true,
+    "scripts/fourfold_codazzi_matrix_free_fft_collocation_v2.py": true,
+    "scripts/fourfold_codazzi_compact_metric_branch_refine_v10_probe.py": true,
+    "scripts/fourfold_codazzi_guarded_Newton_krylov_v3.py": true,
+    "notes/2026-11-13-R133-compact-metric-m128-alpha070-v9-floating.json": true,
+    "notes/2026-11-13-R133-m128-alpha070-v9-process.json": true,
+    "notes/2026-11-13-R133-m128-alpha070-v10-b3-process.json": true,
+    "notes/2026-11-13-R133-compact-metric-m128-alpha070-v9-candidate.json": true,
+    "notes/2026-11-13-R133-compact-metric-m128-alpha070-v9-candidate-part000.npz.gz": true,
+    "notes/2026-11-13-R133-compact-metric-m128-alpha070-v9-candidate-part001.npz.gz": true,
+    "notes/2026-11-13-R133-compact-metric-m128-alpha070-v9-candidate-part002.npz.gz": true,
+    "scripts/fourfold_codazzi_compact_metric_branch_probe.py": true,
+    "scripts/fourfold_codazzi_compact_metric_return_probe.py": true,
+    "scripts/fourfold_codazzi_candidate_shards.py": true,
+    "scripts/fourfold_codazzi_chunked_collocation.py": true,
+    "scripts/fourfold_codazzi_compact_metric_fast_jacobian.py": true,
+    "scripts/fourfold_phase_codazzi_two_end_probe.py": true,
+    "scripts/fourfold_phase_codazzi_rotational_reference_probe.py": true,
+    "scripts/fourfold_codazzi_rotational_cap_jacobi_probe.py": true,
+    "scripts/fourfold_phase_symmetric_geometry.py": true,
+    "scripts/fourfold_phase_geometry.py": true
+  },
+  "all_failed_v9_polynomial_shards_loaded": true,
+  "complete_v9_piece_shape": [
+    4,
+    849,
+    257
+  ],
+  "all_v9_saved_numeric_entries_finite": true,
+  "same_exact_runtime_parameter": "-4101942439603851/144115188075855872",
+  "v9_BVP_success": false,
+  "new_finite_solve_rerun": false,
+  "diagnostic_array_rerun": false,
+  "manual_source_checks": [
+    "v8-to-v9 producer changes only imports, checkpoint/report identities, and declared dependencies",
+    "full matrix-free Fourier Jacobian action and parameter column identical; only GMRES restart changes 32 to 64",
+    "trial direct acceptance uses exactly the same complete midpoint collocation and boundary tests as loop entry",
+    "all actual C and nu feasibility checks retained",
+    "full backward residual gate remains 5e-8 with all retained Fourier entries",
+    "v10 adds actual construction exception recording without changing any residual gate"
+  ],
+  "v9_original_RuntimeError_message_unavailable": true,
+  "v10_recorded_allocation_failure_exit": 70,
+  "scope": "Preserved false finite attempts and exact source differences. Generic downstream singular-Jacobian text is not a mathematical singularity or nonexistence certificate."
+}

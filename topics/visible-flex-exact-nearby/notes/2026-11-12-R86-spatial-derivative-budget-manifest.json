@@ -1,0 +1,46 @@
+{
+  "kind": "R86_proved_formulas_actual_single_leaf_and_completed_prefix",
+  "files": [
+    {
+      "path": "results/R86-actual-spatial-derivatives-in-parameter-ordered-tails.md",
+      "bytes": 12254,
+      "sha256": "79fedf7f768a7abe0eb85b336d2c8fc32af32a096a9e87621dc6ac1ccba842bd"
+    },
+    {
+      "path": "scripts/fourfold_spatial_derivative_defect_budget.py",
+      "bytes": 12360,
+      "sha256": "ed2a43049c290aa95c74c5580bc6da3c432c374b24eb43203319ac5fb47fe4cc"
+    },
+    {
+      "path": "scripts/fourfold_R86_actual_budget.py",
+      "bytes": 10371,
+      "sha256": "fdb9176ac1ca417d3398ba5fbcf430d7eccdee863a3e64261452c8326618a60d"
+    },
+    {
+      "path": "notes/2026-11-12-R86-forward0-spatial-derivative-budget.json",
+      "bytes": 29305,
+      "sha256": "802a2d3098537d17c9e75ec69875b0462236617b0f433b9fe8287f17a5f81fc5"
+    },
+    {
+      "path": "notes/2026-11-12-R86-forward419-spatial-derivative-budget.json",
+      "bytes": 11772,
+      "sha256": "be0c7b8553955a6c503fd6d712631afd54067a42bd125f1ca5bf393a27ef0c44"
+    },
+    {
+      "path": "notes/2026-11-12-R86-actual419-prefix12-and-layout.json",
+      "bytes": 99527,
+      "sha256": "c9d10a7ff84627fe64e907925b9aabbbbc83e420e022cc3eb91ba9915310e52a"
+    },
+    {
+      "path": "notes/2026-11-12-R86-forward-layout-forecast.md",
+      "bytes": 2970,
+      "sha256": "e29fcaf46d0732c604b174dfe6f219623c8e6cca4e12f9b4368d72eca0062e76"
+    }
+  ],
+  "scope": {
+    "proof": "conditional theorem with complete actual spatial derivative and source-error formulas",
+    "actual": "same delta5 central segment419 local flow; g0 prefix0 through11; exact rectangles0 and419",
+    "layout_only": "550-segment extrapolation and old delta3 R31 proxy comparison"
+  },
+  "new_field_samples": false
+}

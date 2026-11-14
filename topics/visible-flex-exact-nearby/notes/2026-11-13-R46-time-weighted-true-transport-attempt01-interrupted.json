@@ -1,0 +1,18 @@
+{
+  "kind": "actual_native_attempt_interrupted_before_output",
+  "complete": false,
+  "proved": false,
+  "source_path": "scripts/fourfold_strict_time_weighted_true_transport.py",
+  "source_sha256": "421ad663c91ac82db997296d30dd7aa6036507c09a018279fab6a444af25a0a6",
+  "original_session": 67045,
+  "last_observed_completed_reference_segments": 276,
+  "required_reference_segments": 550,
+  "last_observed_seconds": 546.3505582630023,
+  "last_observed_log_reference_integral": "[8.333524351 +/- 2.27e-10]",
+  "observed_after_resume": "write_stdin returned Unknown process id 67045; expected final JSON does not exist",
+  "mathematical_gate_failure_observed": false,
+  "native_intermediate_enclosures_saved": false,
+  "full_result_claimed": false,
+  "recovery": "Recompute the complete reference consumer using the unchanged 550 exact shards, with new per-segment checkpoints. No geometric native is rerun.",
+  "recorded_utc": "2026-11-13T20:30:49.050445+00:00"
+}

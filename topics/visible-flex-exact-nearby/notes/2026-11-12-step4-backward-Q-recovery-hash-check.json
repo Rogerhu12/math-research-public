@@ -1,0 +1,70 @@
+{
+  "kind": "historical_backward_finite_Q_exact_recovery",
+  "complete": true,
+  "manifest_sha256": "6759d5c65842a32ad9c9f4ad7e8ccd51b264f6d5d9b7e29549ec409cd1554b5e",
+  "segment_count": 550,
+  "all_shards_exact_matches": true,
+  "files": [
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_backward/segments_00000.npz.gz",
+      "sha256": "e412995c08fe9500ae76f41a73b49a054cd6fef925d2934cad1b576027a241ac",
+      "bytes": 674459
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_backward/segments_00048.npz.gz",
+      "sha256": "6482be931ef4b4fdad06e0d77cbe1029914b9207d82818014aff03a31f8f17ec",
+      "bytes": 674362
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_backward/segments_00096.npz.gz",
+      "sha256": "623ec75d84e0954961600f7ae51d773f2dd6fb72b62dc930982950a7b3b887c7",
+      "bytes": 674070
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_backward/segments_00144.npz.gz",
+      "sha256": "cd380829545ac982d208b260eb18299d9b81b350b132219f95d45c8e1d5a3afd",
+      "bytes": 674928
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_backward/segments_00192.npz.gz",
+      "sha256": "7f866efae79d3bbc4e4cb0e08c95abb88e134771741006e95852bf8f097a923f",
+      "bytes": 673096
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_backward/segments_00240.npz.gz",
+      "sha256": "6571ca04979398fdb9204f939c15cbaeb5468b1516c5f952bb2075c91e881d76",
+      "bytes": 673117
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_backward/segments_00288.npz.gz",
+      "sha256": "58a1d2caced6e47216da9599aeb5c8c7c4a78c966c99fdb2487cbe75de4e420c",
+      "bytes": 672654
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_backward/segments_00336.npz.gz",
+      "sha256": "7b4344ac95ef8beee7f4689f235dd3c874dd63c0da55aa62ac8c22de927b6380",
+      "bytes": 672779
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_backward/segments_00384.npz.gz",
+      "sha256": "af7e5c528e5b68c50e8e3d9139c360e55f90e3b6590ad30d67befee2f2a1e26f",
+      "bytes": 674523
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_backward/segments_00432.npz.gz",
+      "sha256": "25958e3587c04813ab06632e343a893b60a9032704970852615372a45e49e932",
+      "bytes": 671834
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_backward/segments_00480.npz.gz",
+      "sha256": "7e0f32afc547c227b1567e624bb1fce899b0935ba2ba78590196d0601af6a8c3",
+      "bytes": 674862
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_backward/segments_00528.npz.gz",
+      "sha256": "223b97a80d69b41a15a2f412e7cbb99fdf8db8ea05347dd69bce531af56b325a",
+      "bytes": 311364
+    }
+  ],
+  "scope": "Exact historical finite Q definition restored, not a Jacobian or true-flow claim."
+}

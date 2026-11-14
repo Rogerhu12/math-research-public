@@ -1,0 +1,410 @@
+{
+  "status": "proved_exact_algebra_and_rational_budget",
+  "scope": "Actual unchanged quartic; all frequency residual Wronskian; low-scaled 16<=M^2<=B full real Sym2 and full complex two-port direction. No nonradial full-network inverse.",
+  "method": "SymPy exact rational polynomial identities plus Fraction inequalities; no floating point, finite Fourier cut or numerical ODE",
+  "gate_count": 77,
+  "passed": true,
+  "gates": [
+    {
+      "name": "residual_1_independent_of_frequency",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "residual_2_frequency_column_exact",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "residual_Wronskian_independent_of_frequency",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "sixth_Delta_coefficient_exact",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "only_even_Delta_degrees_up_to_six",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "actual_quartic_zero_e_factorization",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "P0_positive_on_z_interval",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "P0_decreasing_on_zero_quarter",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "P2_positive_on_z_interval",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "P2_decreasing_on_zero_quarter",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "P4_positive_on_z_interval",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "base_sixth_coefficient_exceeds_four",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_e_error_coefficient_norm",
+      "passed": true,
+      "evidence": "5487641532223472045113448949183599592330240000000"
+    },
+    {
+      "name": "e_error_smaller_than_Delta_sixth",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "two_actual_phase_Wronskian_factorization",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "phase_sixth_coefficient_lower",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "phase_e_error_coefficient_norm",
+      "passed": true,
+      "evidence": "677495802286861459200"
+    },
+    {
+      "name": "phase_e_error_less_than_one",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "phase_Wbar_complete_coefficient_bound",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "phase_Wbar_derivative_complete_coefficient_bound",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "phase_c0_numerator_complete_coefficient_bound",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "explicit_phase_Cauchy_disk",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "phase_coefficients_raw_jet_0",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "phase_coefficients_raw_jet_1",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "phase_coefficients_raw_jet_2",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "phase_coefficients_raw_jet_3",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "phase_coefficients_raw_jet_4",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "phase_coefficients_raw_jet_5",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_Sym2_center_observability_determinant",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "center_X_bound",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "center_wave_covariance_complete_Frobenius",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "center_g_jet_after_actual_multiplier",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "three_by_three_transfer_inverse_budget",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "lower_r_jet_margin",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "balanced_local_ODE_coefficient_jet_1",
+      "passed": true,
+      "evidence": "187239/8"
+    },
+    {
+      "name": "balanced_local_ODE_coefficient_jet_2",
+      "passed": true,
+      "evidence": "462027/4"
+    },
+    {
+      "name": "balanced_local_ODE_coefficient_jet_3",
+      "passed": true,
+      "evidence": "982809/2"
+    },
+    {
+      "name": "balanced_local_ODE_coefficient_jet_4",
+      "passed": true,
+      "evidence": "1737000"
+    },
+    {
+      "name": "balanced_local_ODE_coefficient_jet_5",
+      "passed": true,
+      "evidence": "4860000"
+    },
+    {
+      "name": "balanced_local_ODE_coefficient_jet_6",
+      "passed": true,
+      "evidence": "10044000"
+    },
+    {
+      "name": "local_ODE_zero_jet",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_two_row_local_jet_0",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_two_row_local_jet_1",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_two_row_local_jet_2",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_two_row_local_jet_3",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_two_row_local_jet_4",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_two_row_local_jet_5",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_two_row_local_jet_6",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_two_row_local_jet_7",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "explicit_F_nine_halves_jet_0",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "explicit_F_nine_halves_jet_1",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "explicit_F_nine_halves_jet_2",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "explicit_F_nine_halves_jet_3",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "explicit_F_nine_halves_jet_4",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "explicit_F_nine_halves_jet_5",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_g_fifth_jet_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_annihilator_third_jet_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "rho_definition_bit_count",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "rho_within_available_support_margin",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "rho_within_local_ODE_interval",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "bump_integral_lower_bound",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "bump_raw_derivative_0",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "bump_raw_derivative_1",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "bump_raw_derivative_2",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "bump_raw_derivative_3",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "bump_raw_derivative_4",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "bump_raw_derivative_5",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "bump_raw_derivative_6",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "bump_raw_derivative_7",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "bump_raw_derivative_8",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_C4_compact_direction_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_pairing_bit_budget",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_pairing_M_exponent",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_pairing_B_exponent_after_dt",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_pairing_Delta_exponent_after_dt",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "convex_target_inside_support_ball",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "full_two_port_conversion_bits",
+      "passed": true,
+      "evidence": null
+    }
+  ],
+  "identities": {
+    "frequency_residual_1": "d_kappa r1=0",
+    "frequency_residual_2": "d_kappa r2=-32 Delta^2 r1",
+    "residual_Wronskian_lower": "W_res>Delta^6",
+    "actual_phase_Wronskian_lower": "W_phase>Delta^2",
+    "center_jet_lower": "max_0..2 |K_A^(r)|>2^-9 M^5/(Delta B^2)",
+    "compact_support_function_lower": "2^-22000 M^50 B^-39 Delta^-103",
+    "full_two_port_generator_lower": "2^-22016 M^50 B^-39 Delta^-103 K^-2"
+  },
+  "dependency_sha256": {
+    "results/R119-supplement-actual-two-phase-five-function-Wronskian-and-low-scaled-control.md": "97c7cf4b168f4ce546534e871c966fbf1bdd0a4ca774ecb8f82c02c76efe1b6c",
+    "results/R119-supplement-scale-correct-polynomial-middle-scattering-generator.md": "93202284c7f51119a517c660bcf845dac7ee7bea0aaf990282e007c329bc3a32",
+    "results/R119-supplement-polynomial-all-Sym2-profile-separation-and-positive-control.md": "915f568d48fd2095d8bc16a4335a7da9fedefbf77fecd02b9772360390137418",
+    "results/R119-supplement-actual-canonical-profile-generator-and-complete-weak-sources.md": "3b9899adaba350486def68d641e473bdd0dd2ab26075a38f1943780ed7dd4075",
+    "scripts/fourfold_actual_two_phase_five_function_20261114.py": "b837a688967f8461c81b46cdb523994eda75337534fdf87eeda4103c5d3ee4a7"
+  }
+}

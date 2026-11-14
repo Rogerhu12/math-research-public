@@ -1,0 +1,34 @@
+{
+  "schema": "visible-exact-R115-grounded-low-graph-ready-v1",
+  "date": "2026-11-13",
+  "base_commit": "300b0390fa80b2c91e0704871b795089a9d91dcd",
+  "proof_scope": "Actual cut128 low physical frequencies through 172 and mean input, with all high and mean outputs; angle loss 9/400.",
+  "executed_budget": {
+    "engine": "functions V8 BigInt exact rational",
+    "checks": 56,
+    "all_pass": true
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-true-tail-grounded-low-graph.md",
+      "sha256": "46b7940bd2e2cd71a6f867abce2c93368eb01ba2b6716391d54a4715f69cf7e2",
+      "bytes": 13663
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_true_tail_grounded_low_graph.mjs",
+      "sha256": "7ba8e9cf5fbbad03120fef40c1194a63778e75904845d1e88c95a9030365067b",
+      "bytes": 9737
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-true-tail-grounded-low-graph-budget.json",
+      "sha256": "02f7a724b6d6fc05719789982227b33c1c3c67abb84fdaa70402bcaab28c2b32",
+      "bytes": 5734
+    }
+  ],
+  "boundaries": {
+    "new_native_PDE_run": false,
+    "regular_Robin_update_paid": false,
+    "all_high_incoming_inverse_paid": false,
+    "full_feedback_inverse_paid": false
+  }
+}

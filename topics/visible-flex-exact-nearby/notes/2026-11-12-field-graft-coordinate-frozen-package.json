@@ -1,0 +1,409 @@
+{
+  "kind": "actual_field_polynomial_turn_domains_parameter_graft_and_coordinate_defect_interface",
+  "files": [
+    {
+      "path": "results/R65-whole-angle-time-domains-and-exact-turns.md",
+      "sha256": "0cfe019380eb1f68ff41f690fccb79ed59206472c939e5902ede65deda52a7a6",
+      "bytes": 13702
+    },
+    {
+      "path": "scripts/fourfold_phase_sine_time_geometry.py",
+      "sha256": "c369f202fed14a6951b44cfaf3e3890841814c15040f0d15773d2bc61b189efa",
+      "bytes": 9187
+    },
+    {
+      "path": "scripts/fourfold_phase_full_angle_sine_domain.py",
+      "sha256": "b7b05da28d63c186b4cfbefb09de1f96c6e82f98ed9146f7358ac31ad5bddd3a",
+      "bytes": 14145
+    },
+    {
+      "path": "notes/2026-11-12-sine-turn-domain-independent-audit.md",
+      "sha256": "3d2c047f806b2f16be77754e8bdd41d2e4e50472b695104d5b03cec76c33ec26",
+      "bytes": 3070
+    },
+    {
+      "path": "notes/2026-11-12-sine-turn-domain-checkpoint.md",
+      "sha256": "5ba36954bdc77d576596406f8943299cf3d091b2cc095c9724015ba7ec90cc0c",
+      "bytes": 3836
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward000_turn_domain.json",
+      "sha256": "634b536b43655551197c080e832ba5164265184520cd923010ce98c5af80c639",
+      "bytes": 118544
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward001_turn_domain.json",
+      "sha256": "ce09b230a2f1327619879aeffd96e1f4bdef8f058241fa59f3092da7c89f1fee",
+      "bytes": 118526
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward002_turn_domain.json",
+      "sha256": "6df63f236421a493af2aa4e83a5df08ec8956bc10e44ca91afd311525b508202",
+      "bytes": 118520
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward548_turn_domain.json",
+      "sha256": "91ff1024ff9fa8019b0c379506550bc8a10bf51959ddcfe120ad7eacfa9c68b1",
+      "bytes": 118518
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward549_turn_domain.json",
+      "sha256": "a14b1b4c0b04a33375d645e701b9a616422b4f27dc9b7f9156bb06271f7b3ee2",
+      "bytes": 118552
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_backward000_turn_domain.json",
+      "sha256": "5ce956c18c42507d79918aee80a9fbe8d7820e6f06d951a15fc77ccdb88d380d",
+      "bytes": 118544
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_backward001_turn_domain.json",
+      "sha256": "e019c22b027299e39f9aea49f44859123cd706b98885d908dc910947cadbc8e4",
+      "bytes": 118524
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_backward002_turn_domain.json",
+      "sha256": "633d6bb2a6db994e4fab10af1dff53fcedaacefe12d7b11c4a4ac6beee626ef1",
+      "bytes": 118512
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_backward548_turn_domain.json",
+      "sha256": "ea54c2cb1b64d1fa946e29b5b2275580ec75883e5dc1890043fcb9a06baf670e",
+      "bytes": 118514
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_backward549_turn_domain.json",
+      "sha256": "8c7c86078fa3ad651eab04c757990c06f63b03300e5287aadd6d03c7ec0718bb",
+      "bytes": 118551
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward003_ordinary_domain.json",
+      "sha256": "617739d41769e6f41cf5a045e805c4b735dff79b76cfaff2331922498c4ad938",
+      "bytes": 235682
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_turn_domain_batch.json",
+      "sha256": "57efd6f7c73d3a6d9a4c89f90ffc7c76449bca1fde65284d8855967ab8160a7b",
+      "bytes": 2131
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_turn_domain_batch_complete.json",
+      "sha256": "ed8da90bfeda952f0b0fc4a4a76736fb9d4da45b105a39db0ddfe51163ba2ad9",
+      "bytes": 4045
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_ordinary_fast_domain_batch.json",
+      "sha256": "84b7f0e799905027c10dabf9ceb5000d2c282be64242a44f53ca684536d8e9e0",
+      "bytes": 1918
+    },
+    {
+      "path": "notes/2026-11-12-sine-turn-domain-frozen-manifest.json",
+      "sha256": "c0d8ea63a7e31c8673da53f0460416311f270df833902c707e28da28574c0a59",
+      "bytes": 4706
+    },
+    {
+      "path": "scripts/fourfold_phase_natural_exterior_graft.py",
+      "sha256": "5862772e46bb281201c427e71b85066d68f4ea9520ab62e6f6286b8baefdeaee",
+      "bytes": 18347
+    },
+    {
+      "path": "notes/2026-11-12-positive-family-natural-graft.json",
+      "sha256": "d56b7229439ade268b647f17a10f84ba662e02bcb9597f983d2c604fe765fa27",
+      "bytes": 870801
+    },
+    {
+      "path": "results/R66-actual-family-positive-collar-and-natural-exterior-graft.md",
+      "sha256": "79000b36b610cb1600437c70673e80f6edcb567e0e7ec0e140e7124221c17e30",
+      "bytes": 17626
+    },
+    {
+      "path": "notes/2026-11-12-exact-field-polynomial-independent-audit.md",
+      "sha256": "620a865bd0d7805dcb639c9b1521bedff61d3282ad3670f04fac44a000b29728",
+      "bytes": 3041
+    },
+    {
+      "path": "notes/2026-11-12-R66-actual-family-graft-ready-manifest.json",
+      "sha256": "83c9fc76b6df8811a46971d0befb885eaf07451439a6ba31bd27132c08e859d1",
+      "bytes": 2627
+    },
+    {
+      "path": "scripts/fourfold_phase_uniform_field_time_grid_noise.py",
+      "sha256": "94d1b4236673d888a787db624a8fb4bd7134f702f49e17764cbee7292bf94e74",
+      "bytes": 8279
+    },
+    {
+      "path": "scripts/fourfold_phase_uniform_field_time_grid_real.py",
+      "sha256": "cbcf47fb47a8a3a779398e942055c364924ff6a3fd03bff594de62602b5e01cd",
+      "bytes": 8321
+    },
+    {
+      "path": "scripts/fourfold_phase_actual_field_fourier_package.py",
+      "sha256": "c5198dcc172d4c2ef271370d4fc9b1bf39c749f20e04835e4c39cccf7498734a",
+      "bytes": 19721
+    },
+    {
+      "path": "notes/2026-11-12-whole-angle-time-domain-independent-review.md",
+      "sha256": "2756fea624078ed3450b06b9796c2e7551b400b66e7da3ece50a161f68de00a2",
+      "bytes": 4338
+    },
+    {
+      "path": "notes/2026-11-12-exact-field-polynomial-preservation.md",
+      "sha256": "32fdd8583fdf8e15852f0155dfd36cbe67dfa538c8f0f68dd0c58711ed8f315c",
+      "bytes": 7053
+    },
+    {
+      "path": "notes/2026-11-12-step5-reference419-actual-field-polynomial.md",
+      "sha256": "30b2db426e48887ad8318d60755326affd4e19eecd3fe74eadc41890683df2d5",
+      "bytes": 4655
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_reference419_main_actual_field_fourier.json",
+      "sha256": "b8990af160ac31055cd8afe9118706e297bdb2578398a069191b418df67744a7",
+      "bytes": 85773
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_reference419_main_field_polynomial/manifest.json",
+      "sha256": "4b33966313c4fdde253ffca05d21a49692186d8263f9f7f069804632b22b6613",
+      "bytes": 73899
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_reference419_main_field_polynomial/coefficients_t000_003.json.gz",
+      "sha256": "602e3ff546a2229dc144bb2bfedbb0c0fd1b4911edebc6f327927b24780dbb50",
+      "bytes": 611236
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_reference419_main_field_polynomial/coefficients_t004_007.json.gz",
+      "sha256": "5e6d4e8f7819f279022dd842ac63f46dea570b9a2bc9f5f0d9d0a4b2d9ebcade",
+      "bytes": 615079
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_reference419_main_field_polynomial/coefficients_t008_011.json.gz",
+      "sha256": "ebc38ad7d9f44fdc6cb45ee84f70ebdb0ac239d667da29935cd2773764517ef8",
+      "bytes": 617860
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_reference419_main_field_polynomial/coefficients_t012_015.json.gz",
+      "sha256": "660f83a1b035da59ea0fd27e8f8ee35637fccc3453a5ce92ab3c124bae3374de",
+      "bytes": 620243
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_reference419_main_field_polynomial/coefficients_t016_019.json.gz",
+      "sha256": "c527cf4235b5c24100897d9f88ceae7784be339daa4041660a3ec091e27385b4",
+      "bytes": 623706
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_reference419_main_field_polynomial/coefficients_t020_023.json.gz",
+      "sha256": "ca5c6526d05f1e9719070ece52c978132b2ad19c3d8d1f94d3f48291ec483f52",
+      "bytes": 627608
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_reference419_main_field_polynomial/coefficients_t024_027.json.gz",
+      "sha256": "632ca0f452b804ec54a1ec1a05180cc2b1c4790a195d175e88d017b5bcfef158",
+      "bytes": 632871
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_reference419_main_field_polynomial/coefficients_t028_031.json.gz",
+      "sha256": "595adf268146311dd440fb1b6d712f231b8b5e02426b9c07e834ffaffa0438a9",
+      "bytes": 639399
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_reference419_main_field_polynomial/coefficients_t032_035.json.gz",
+      "sha256": "0ffd49a71c45218302c54fb01eb05f811cb55d84c38d1a7a440b942512724bc3",
+      "bytes": 647946
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_reference419_main_field_polynomial/coefficients_t036_039.json.gz",
+      "sha256": "7c4f12cda9db19ed0a32acfcff6e993c4b6c67fb468207e5f052f58a2f99ea72",
+      "bytes": 658047
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_reference419_main_field_polynomial/coefficients_t040_043.json.gz",
+      "sha256": "e606bcf44c948ccf12632f74478a446809c48dd3f7e9c783d50245a3598b0026",
+      "bytes": 668140
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_reference419_main_field_polynomial/coefficients_t044_047.json.gz",
+      "sha256": "08559bdeca5a2ccd0244d47644b55d7ccfac66287ce10c416310af42229911e7",
+      "bytes": 676537
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_reference419_main_field_polynomial/coefficients_t048_051.json.gz",
+      "sha256": "4dd99bc8709aa42e4c5ea539130073199c0b2064d7780690dc648f44cf18f33a",
+      "bytes": 683933
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_reference419_main_field_polynomial/coefficients_t052_052.json.gz",
+      "sha256": "30fe60df1dd503f15ea959951211327fb6d667bef68a916825452da651f9f77d",
+      "bytes": 173508
+    },
+    {
+      "path": "notes/2026-11-12-step5-exact-field-polynomial-frozen-manifest.json",
+      "sha256": "0a267ed7d545b54fe451fdd090ffeba4185075cb66e484877a0900481a427f9b",
+      "bytes": 5594
+    },
+    {
+      "path": "results/R67-actual-two-variable-field-polynomial-and-complete-error.md",
+      "sha256": "d542a5b70b6bd4f0fd0ea8cd6941b031b59dce7e2af400fd4d7170b5c5854317",
+      "bytes": 9529
+    },
+    {
+      "path": "scripts/fourfold_saved_field_strip_budget.py",
+      "sha256": "7f733ee91cf554a22bded46bbebf294001ae06f72f511f4594306291ad8f4d7a",
+      "bytes": 6980
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_reference419_main_actual_field_narrow_strip_budget.json",
+      "sha256": "bb88e5be5a8058d0b32ff85e6907bd18f4605b8ea1cc7b1eee58bd74374a5e34",
+      "bytes": 18945
+    },
+    {
+      "path": "scripts/fourfold_phase_endpoint_germ_certificate.py",
+      "sha256": "bb0b9be1a9ed38895ca852fae0c7650f7d78c55cb9ddca2e473b14a81d3b7d1b",
+      "bytes": 5984
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_reference419_sharp_single_germ.json",
+      "sha256": "4def60df450762d31eebaaf891b756055c9c8bc6966f0a8c18ca5d850a1bdd1a",
+      "bytes": 4601
+    },
+    {
+      "path": "notes/2026-11-12-R67-polynomial-and-sharp-germ-frozen-manifest.json",
+      "sha256": "03f2217d24128e986942b0f14aacfee7803267ad29db0d9f3fabc7a462a47b1e",
+      "bytes": 1742
+    },
+    {
+      "path": "results/R68-reference-coordinate-defect-flow.md",
+      "sha256": "e595775a847c6d965f5d3efda421986d4b45df486487bfea51ac8288057e1774",
+      "bytes": 10258
+    },
+    {
+      "path": "notes/2026-11-12-handoff-before-field-graft-coordinate.md",
+      "sha256": "8d40222ac11401369e376154a4081da9bcf21198ea5cbd1c9eb3fecca1bac97a",
+      "bytes": 9737
+    },
+    {
+      "path": "notes/2026-11-12-scalar-time-circle-and-native-composition.md",
+      "sha256": "95124d328f66f6eec7b5d377a1bd0bf12cdf1d246033a6d6230fa1b60ca0e6f4",
+      "bytes": 4511
+    },
+    {
+      "path": "scripts/fourfold_phase_scalar_time_circle_direct.py",
+      "sha256": "56756ae2e65796a147865c18113abaccdc9551e0d8d287b64a6e47fc23892b13",
+      "bytes": 13176
+    },
+    {
+      "path": "scripts/fourfold_phase_scalar_time_circle.py",
+      "sha256": "4e18ff9ae708ba53b26638ea5a4a6ade81301788582f997bfb4d67922b7aefcf",
+      "bytes": 6523
+    },
+    {
+      "path": "scripts/fourfold_exact_fourier_multipoint.py",
+      "sha256": "42650b649b0661fa18640ea35d2e60ee40f87694341bf577c3e0b8cc55bd5a22",
+      "bytes": 7840
+    },
+    {
+      "path": "notes/2026-11-12-scalar-time-circle-pilot.json",
+      "sha256": "aa8a36ce414274d786f8cf402cf1d56619072e37c6f1a2ad1117c2d43f4969c0",
+      "bytes": 23486
+    },
+    {
+      "path": "notes/2026-11-12-scalar-time-circle-shared-budget-pilot.json",
+      "sha256": "d6bd712aa9f229d86d1e23a7bed3523b60bf2e69001dd409a73ef8e9d3bb0aa3",
+      "bytes": 24586
+    },
+    {
+      "path": "notes/2026-11-12-scalar-nonuniform-field-polynomial-benchmark.json",
+      "sha256": "5eef3acbf372659d1209181d8cf48dcb6557947e387373e06fc688ebc54fe75b",
+      "bytes": 8684
+    },
+    {
+      "path": "scripts/fourfold_phase_sharp_time_domain_cover.py",
+      "sha256": "582d97cf2a14b7d45050770527acf97a3bde1cfda565df4f29dc309633950ba3",
+      "bytes": 21560
+    },
+    {
+      "path": "scripts/fourfold_retarget_initial_correction_budget.py",
+      "sha256": "6667795b20f197416a46f29dad6f5ee9da3d796a527bd73df54c47667b7d74ad",
+      "bytes": 3101
+    },
+    {
+      "path": "notes/2026-11-12-sharp-cover-R6-and-retarget-budget.md",
+      "sha256": "4347e45086cb47483580ec7f75d57ed494434d6b7e08fdcc808a9adefd53a878",
+      "bytes": 5356
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_initial_retarget_Wiener_budget.json",
+      "sha256": "5a1e2cadbb042170ec3e19ccbee3601e22de2b875cb18c1694f0c68811fc4cc8",
+      "bytes": 5412
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_pilot/forward_0286_r.json.gz",
+      "sha256": "df1dee8c548ed2d9befe11cfb6edf90e4c927dfaa79cbf8eaaae2abe1526c218",
+      "bytes": 28555
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_pilot/forward_0287_r.json.gz",
+      "sha256": "8bce63af30ae19f3289f6d62288c73d6dd9107e030cca1ba4ec37fee7c070b1c",
+      "bytes": 28553
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_pilot/forward_0547_r.json.gz",
+      "sha256": "e0490403fd1f45fbf29580392f6b85f91b3288595e215e7ee7c6a6fb49ddf575",
+      "bytes": 15090
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_pilot/forward_0547_r0.json.gz",
+      "sha256": "ec73d8dcf2900759bd9037c4d7a7bbdd06b2dc3562b7e62f5659df19c9f7dc58",
+      "bytes": 15358
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_pilot/forward_0547_r1.json.gz",
+      "sha256": "736b607ee9b203d043b6094ac7d1da911cb899eac8cfa17615e1b45a1c3e4a16",
+      "bytes": 3854
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_R6_pilot/forward_0419_r.json.gz",
+      "sha256": "f228325b4c60e9d999076c9405d8a835d0916e3692d27e90f3d6edae007608c6",
+      "bytes": 13228
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_sharp_time_domain_R6_order40/forward_0419_r.json.gz",
+      "sha256": "c255d96333fae4f006d0bc53bf4c81ad197ad2a00831f1c03965032b039a69da",
+      "bytes": 15666
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_pilot.json.gz",
+      "sha256": "ecc45b12f6be48d5e4e6902645cedbbabf98a9ed1923c82349bf904365c8f9e0",
+      "bytes": 3278
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_R6_pilot.json.gz",
+      "sha256": "53b1b051ca8433424ad4f5b27732e2e208160bc5967d8f739549bb18044c41f8",
+      "bytes": 3049
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_R6_order40.json.gz",
+      "sha256": "859704ee5a4ad775c9cb2c680ce94a1afce26ec5cc4b1f2c0f7f6ddddee2a945",
+      "bytes": 3007
+    },
+    {
+      "path": "notes/2026-11-12-sharp-cover-R6-retarget-frozen-manifest.json",
+      "sha256": "c938b574e9d041f5927bc8500996176aec0ecc026d63d728ca222fe565bb7dac",
+      "bytes": 3566
+    },
+    {
+      "path": "notes/2026-11-12-sharp-time-domain-cover-independent-audit.md",
+      "sha256": "38619e08b60a74109717ce2a635e3d2ce57ad1987c9d1e423de3d9ea7f248709",
+      "bytes": 4755
+    }
+  ],
+  "complete_artifact_package_not_complete_topic": true,
+  "total_bytes": 11433885,
+  "excluded_live": [
+    "whole two-leg sharp time domain coverage",
+    "R6 and wider-angle domain experiments",
+    "positive-family outer B",
+    "raw shared1032 recovery and derived references",
+    "actual closed approximate exterior and nonlinear work"
+  ]
+}

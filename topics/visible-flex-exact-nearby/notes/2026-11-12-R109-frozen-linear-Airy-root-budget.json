@@ -1,0 +1,680 @@
+{
+  "kind": "R109_actual_frozen_linear_potential_root_budget",
+  "proved": true,
+  "full_gap_paid": false,
+  "actual_identity": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "norm": "diag(barGamma^(1/3),barGamma^(-1/3)); barGamma(0)=1 and barGamma(k)=4q|k| otherwise; not an unproved physical/symplectic inverse",
+  "rounding": "exact BigInt rationals, each positive arithmetic upper rounded to 30 decimal places, roots enclosed at 24 places",
+  "Airy_series": "degree 24 plus both complete residue-class geometric tails; c Ai(0)<27/50,c |Ai'(0)|<39/100",
+  "complete_output_mean_and_low_rows_retained": true,
+  "common_symplectic_inverse_included": false,
+  "rows": [
+    {
+      "K": 64,
+      "old_complete_mean": {
+        "numerator": "4181448753301097019878855927",
+        "denominator": "50000000000000000000000000000",
+        "decimal_upper": "0.083628975066021941"
+      },
+      "root_change_complete_mean_fee": {
+        "numerator": "235628466136034523019978701577",
+        "denominator": "1000000000000000000000000000000",
+        "decimal_upper": "0.235628466136034524"
+      },
+      "new_complete_mean": {
+        "numerator": "319257441202056463417555820117",
+        "denominator": "1000000000000000000000000000000",
+        "decimal_upper": "0.319257441202056464"
+      },
+      "lambda_strict_lower": "2527",
+      "symbols": [
+        {
+          "weight_order": 0,
+          "v0_bound": "5176",
+          "v1_bound": "2076981",
+          "slope": {
+            "numerator": "81313386459087130067686868641",
+            "denominator": "250000000000000000000000000000",
+            "decimal_upper": "0.325253545836348521"
+          },
+          "cubic_factor_lower": {
+            "numerator": "877095474742682562893501",
+            "denominator": "1000000000000000000000000"
+          },
+          "root_shift": {
+            "numerator": "97815384002369090513231709911",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.195630768004738182"
+          },
+          "Airy_value_tail": {
+            "numerator": "1",
+            "denominator": "250000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "Airy_derivative_tail": {
+            "numerator": "27",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "value_difference": {
+            "numerator": "1832337135166852590238645829",
+            "denominator": "100000000000000000000000000000",
+            "decimal_upper": "0.018323371351668526"
+          },
+          "flux_difference": {
+            "numerator": "18352164641514774963499123321",
+            "denominator": "1000000000000000000000000000000",
+            "decimal_upper": "0.018352164641514775"
+          }
+        },
+        {
+          "weight_order": 1,
+          "v0_bound": "5194",
+          "v1_bound": "2083587",
+          "slope": {
+            "numerator": "326288040096909843809532161481",
+            "denominator": "1000000000000000000000000000000",
+            "decimal_upper": "0.326288040096909844"
+          },
+          "cubic_factor_lower": {
+            "numerator": "876647002911173759377231",
+            "denominator": "1000000000000000000000000"
+          },
+          "root_shift": {
+            "numerator": "4912799974183019392456333729",
+            "denominator": "25000000000000000000000000000",
+            "decimal_upper": "0.196511998967320776"
+          },
+          "Airy_value_tail": {
+            "numerator": "1",
+            "denominator": "250000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "Airy_derivative_tail": {
+            "numerator": "27",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "value_difference": {
+            "numerator": "18472952463593496387902413373",
+            "denominator": "1000000000000000000000000000000",
+            "decimal_upper": "0.018472952463593497"
+          },
+          "flux_difference": {
+            "numerator": "9258726770697503712281102649",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.018517453541395008"
+          }
+        },
+        {
+          "weight_order": 3,
+          "v0_bound": "5314",
+          "v1_bound": "2158473",
+          "slope": {
+            "numerator": "338015127168722631355010524249",
+            "denominator": "1000000000000000000000000000000",
+            "decimal_upper": "0.338015127168722632"
+          },
+          "cubic_factor_lower": {
+            "numerator": "87153069710970090612451",
+            "denominator": "100000000000000000000000"
+          },
+          "root_shift": {
+            "numerator": "50854901175051542862026934391",
+            "denominator": "250000000000000000000000000000",
+            "decimal_upper": "0.203419604700206172"
+          },
+          "Airy_value_tail": {
+            "numerator": "1",
+            "denominator": "250000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "Airy_derivative_tail": {
+            "numerator": "27",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "value_difference": {
+            "numerator": "19887964329395604743098992563",
+            "denominator": "1000000000000000000000000000000",
+            "decimal_upper": "0.019887964329395605"
+          },
+          "flux_difference": {
+            "numerator": "5002801993623431843273767809",
+            "denominator": "250000000000000000000000000000",
+            "decimal_upper": "0.020011207974493728"
+          }
+        }
+      ],
+      "balanced_high_high": {
+        "numerator": "26156185853061748143373",
+        "denominator": "1000000000000000000000000",
+        "decimal_upper": "0.026156185853061749"
+      },
+      "balanced_all_output": {
+        "numerator": "125326157378488255970289",
+        "denominator": "500000000000000000000000",
+        "decimal_upper": "0.250652314756976512"
+      },
+      "balanced_all_output_flux": {
+        "numerator": "7811583253732146960951015791",
+        "denominator": "31250000000000000000000000000",
+        "decimal_upper": "0.249970664119428703"
+      },
+      "high_high_H0_to_H8over3": {
+        "numerator": "33424501507608753584183609912033655791",
+        "denominator": "1000000000000000000000000000000",
+        "decimal_upper": "33424501.507608753584183610"
+      }
+    },
+    {
+      "K": 128,
+      "old_complete_mean": {
+        "numerator": "44138082419703502926670378143",
+        "denominator": "1000000000000000000000000000000",
+        "decimal_upper": "0.044138082419703503"
+      },
+      "root_change_complete_mean_fee": {
+        "numerator": "2842361444272546433637046183",
+        "denominator": "125000000000000000000000000000",
+        "decimal_upper": "0.022738891554180372"
+      },
+      "new_complete_mean": {
+        "numerator": "66876973973883874395766747607",
+        "denominator": "1000000000000000000000000000000",
+        "decimal_upper": "0.066876973973883875"
+      },
+      "lambda_strict_lower": "5015",
+      "symbols": [
+        {
+          "weight_order": 0,
+          "v0_bound": "5176",
+          "v1_bound": "2076981",
+          "slope": {
+            "numerator": "5161437422528029073298549019",
+            "denominator": "62500000000000000000000000000",
+            "decimal_upper": "0.082582998760448466"
+          },
+          "cubic_factor_lower": {
+            "numerator": "485838878599824882434219",
+            "denominator": "500000000000000000000000"
+          },
+          "root_shift": {
+            "numerator": "7986174787887133031354239767",
+            "denominator": "125000000000000000000000000000",
+            "decimal_upper": "0.063889398303097065"
+          },
+          "Airy_value_tail": {
+            "numerator": "1",
+            "denominator": "250000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "Airy_derivative_tail": {
+            "numerator": "27",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "value_difference": {
+            "numerator": "1415428532495158375521696231",
+            "denominator": "1000000000000000000000000000000",
+            "decimal_upper": "0.001415428532495159"
+          },
+          "flux_difference": {
+            "numerator": "18476029369523147337954529",
+            "denominator": "12500000000000000000000000000",
+            "decimal_upper": "0.001478082349561852"
+          }
+        },
+        {
+          "weight_order": 1,
+          "v0_bound": "5185",
+          "v1_bound": "2080308",
+          "slope": {
+            "numerator": "82715283859289529218923488757",
+            "denominator": "1000000000000000000000000000000",
+            "decimal_upper": "0.082715283859289530"
+          },
+          "cubic_factor_lower": {
+            "numerator": "971631051914924522503701",
+            "denominator": "1000000000000000000000000"
+          },
+          "root_shift": {
+            "numerator": "32003320926944571490973230553",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.064006641853889143"
+          },
+          "Airy_value_tail": {
+            "numerator": "1",
+            "denominator": "250000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "Airy_derivative_tail": {
+            "numerator": "27",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "value_difference": {
+            "numerator": "355095259104667943301882327",
+            "denominator": "250000000000000000000000000000",
+            "decimal_upper": "0.001420381036418672"
+          },
+          "flux_difference": {
+            "numerator": "741754691883493382255411511",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.001483509383766987"
+          }
+        },
+        {
+          "weight_order": 3,
+          "v0_bound": "5218",
+          "v1_bound": "2096415",
+          "slope": {
+            "numerator": "8335571550552728653520992357",
+            "denominator": "100000000000000000000000000000",
+            "decimal_upper": "0.083355715505527287"
+          },
+          "cubic_factor_lower": {
+            "numerator": "242851218544105693295691",
+            "denominator": "250000000000000000000000"
+          },
+          "root_shift": {
+            "numerator": "32222006107739689537273776089",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.064444012215479380"
+          },
+          "Airy_value_tail": {
+            "numerator": "1",
+            "denominator": "250000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "Airy_derivative_tail": {
+            "numerator": "27",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "value_difference": {
+            "numerator": "90091830300434976775884341",
+            "denominator": "62500000000000000000000000000",
+            "decimal_upper": "0.001441469284806960"
+          },
+          "flux_difference": {
+            "numerator": "1505047406799542762100503877",
+            "denominator": "1000000000000000000000000000000",
+            "decimal_upper": "0.001505047406799543"
+          }
+        }
+      ],
+      "balanced_high_high": {
+        "numerator": "2053845753785440676097",
+        "denominator": "1000000000000000000000000",
+        "decimal_upper": "0.002053845753785441"
+      },
+      "balanced_all_output": {
+        "numerator": "12669970966143542937257",
+        "denominator": "500000000000000000000000",
+        "decimal_upper": "0.025339941932287086"
+      },
+      "balanced_all_output_flux": {
+        "numerator": "25300102269419062394030555553",
+        "denominator": "1000000000000000000000000000000",
+        "decimal_upper": "0.025300102269419063"
+      },
+      "high_high_H0_to_H8over3": {
+        "numerator": "3839053456288682263899682865123253933",
+        "denominator": "250000000000000000000000000000",
+        "decimal_upper": "15356213.825154729055598732"
+      }
+    },
+    {
+      "K": 256,
+      "old_complete_mean": {
+        "numerator": "25473398446460227525272137607",
+        "denominator": "1000000000000000000000000000000",
+        "decimal_upper": "0.025473398446460228"
+      },
+      "root_change_complete_mean_fee": {
+        "numerator": "3399550209125690113047821263",
+        "denominator": "1000000000000000000000000000000",
+        "decimal_upper": "0.003399550209125691"
+      },
+      "new_complete_mean": {
+        "numerator": "2887294865558591763831995887",
+        "denominator": "100000000000000000000000000000",
+        "decimal_upper": "0.028872948655585918"
+      },
+      "lambda_strict_lower": "9992",
+      "symbols": [
+        {
+          "weight_order": 0,
+          "v0_bound": "5176",
+          "v1_bound": "2076981",
+          "slope": {
+            "numerator": "20803081616614348324135689657",
+            "denominator": "1000000000000000000000000000000",
+            "decimal_upper": "0.020803081616614349"
+          },
+          "cubic_factor_lower": {
+            "numerator": "248254247635716493780863",
+            "denominator": "250000000000000000000000"
+          },
+          "root_shift": {
+            "numerator": "12199849077400163969781539311",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.024399698154800328"
+          },
+          "Airy_value_tail": {
+            "numerator": "1",
+            "denominator": "250000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "Airy_derivative_tail": {
+            "numerator": "27",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "value_difference": {
+            "numerator": "66876928150739794711220893",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.000133753856301480"
+          },
+          "flux_difference": {
+            "numerator": "182740529017824785454404583",
+            "denominator": "1000000000000000000000000000000",
+            "decimal_upper": "0.000182740529017825"
+          }
+        },
+        {
+          "weight_order": 1,
+          "v0_bound": "5180",
+          "v1_bound": "2078652",
+          "slope": {
+            "numerator": "20819818384731804659099577501",
+            "denominator": "1000000000000000000000000000000",
+            "decimal_upper": "0.020819818384731805"
+          },
+          "cubic_factor_lower": {
+            "numerator": "62063208303049667940607",
+            "denominator": "62500000000000000000000"
+          },
+          "root_shift": {
+            "numerator": "24418832432002921252601098647",
+            "denominator": "1000000000000000000000000000000",
+            "decimal_upper": "0.024418832432002922"
+          },
+          "Airy_value_tail": {
+            "numerator": "1",
+            "denominator": "250000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "Airy_derivative_tail": {
+            "numerator": "27",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "value_difference": {
+            "numerator": "133967833834210215292011493",
+            "denominator": "1000000000000000000000000000000",
+            "decimal_upper": "0.000133967833834211"
+          },
+          "flux_difference": {
+            "numerator": "91515309705119906546918889",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.000183030619410240"
+          }
+        },
+        {
+          "weight_order": 3,
+          "v0_bound": "5192",
+          "v1_bound": "2083581",
+          "slope": {
+            "numerator": "10434593671734825811009095507",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.020869187343469652"
+          },
+          "cubic_factor_lower": {
+            "numerator": "992994643799333269067349",
+            "denominator": "1000000000000000000000000"
+          },
+          "root_shift": {
+            "numerator": "24476223868404625871577421333",
+            "denominator": "1000000000000000000000000000000",
+            "decimal_upper": "0.024476223868404626"
+          },
+          "Airy_value_tail": {
+            "numerator": "1",
+            "denominator": "250000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "Airy_derivative_tail": {
+            "numerator": "27",
+            "denominator": "500000000000000000000000000000",
+            "decimal_upper": "0.000000000000000001"
+          },
+          "value_difference": {
+            "numerator": "13460534993004781760472053",
+            "denominator": "100000000000000000000000000000",
+            "decimal_upper": "0.000134605349930048"
+          },
+          "flux_difference": {
+            "numerator": "183900546043446769261437427",
+            "denominator": "1000000000000000000000000000000",
+            "decimal_upper": "0.000183900546043447"
+          }
+        }
+      ],
+      "balanced_high_high": {
+        "numerator": "226820607846656240153",
+        "denominator": "1000000000000000000000000",
+        "decimal_upper": "0.000226820607846657"
+      },
+      "balanced_all_output": {
+        "numerator": "1969127225898747005043",
+        "denominator": "500000000000000000000000",
+        "decimal_upper": "0.003938254451797495"
+      },
+      "balanced_all_output_flux": {
+        "numerator": "3935975196390412914571173039",
+        "denominator": "1000000000000000000000000000000",
+        "decimal_upper": "0.003935975196390413"
+      },
+      "high_high_H0_to_H8over3": {
+        "numerator": "10555588669036162170194432261092083169",
+        "denominator": "1000000000000000000000000000000",
+        "decimal_upper": "10555588.669036162170194433"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "original_reports_proved",
+      "passed": true
+    },
+    {
+      "name": "same_actual_exact_parameter_interval",
+      "passed": true
+    },
+    {
+      "name": "same_actual_exact_center_parameter",
+      "passed": true
+    },
+    {
+      "name": "same_actual_exact_parameter_half_width",
+      "passed": true
+    },
+    {
+      "name": "same_actual_origin_inputs_sha256",
+      "passed": true
+    },
+    {
+      "name": "same_actual_direction_sha256",
+      "passed": true
+    },
+    {
+      "name": "same_eta",
+      "passed": true
+    },
+    {
+      "name": "complete_R108_mean_budget",
+      "passed": true
+    },
+    {
+      "name": "same_R108_parameter_interval",
+      "passed": true
+    },
+    {
+      "name": "q_lower",
+      "passed": true
+    },
+    {
+      "name": "frequency_K64",
+      "passed": true
+    },
+    {
+      "name": "cube_K64",
+      "passed": true
+    },
+    {
+      "name": "t_less_half_K64_a0",
+      "passed": true
+    },
+    {
+      "name": "shift_less_quarter_K64_a0",
+      "passed": true
+    },
+    {
+      "name": "t_less_half_K64_a1",
+      "passed": true
+    },
+    {
+      "name": "shift_less_quarter_K64_a1",
+      "passed": true
+    },
+    {
+      "name": "t_less_half_K64_a3",
+      "passed": true
+    },
+    {
+      "name": "shift_less_quarter_K64_a3",
+      "passed": true
+    },
+    {
+      "name": "frequency_K128",
+      "passed": true
+    },
+    {
+      "name": "cube_K128",
+      "passed": true
+    },
+    {
+      "name": "t_less_half_K128_a0",
+      "passed": true
+    },
+    {
+      "name": "shift_less_quarter_K128_a0",
+      "passed": true
+    },
+    {
+      "name": "t_less_half_K128_a1",
+      "passed": true
+    },
+    {
+      "name": "shift_less_quarter_K128_a1",
+      "passed": true
+    },
+    {
+      "name": "t_less_half_K128_a3",
+      "passed": true
+    },
+    {
+      "name": "shift_less_quarter_K128_a3",
+      "passed": true
+    },
+    {
+      "name": "frequency_K256",
+      "passed": true
+    },
+    {
+      "name": "cube_K256",
+      "passed": true
+    },
+    {
+      "name": "t_less_half_K256_a0",
+      "passed": true
+    },
+    {
+      "name": "shift_less_quarter_K256_a0",
+      "passed": true
+    },
+    {
+      "name": "t_less_half_K256_a1",
+      "passed": true
+    },
+    {
+      "name": "shift_less_quarter_K256_a1",
+      "passed": true
+    },
+    {
+      "name": "t_less_half_K256_a3",
+      "passed": true
+    },
+    {
+      "name": "shift_less_quarter_K256_a3",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "The full E matrix, every angular derivative, and all cutoff terms remain in the exact residual.",
+    "The complete root geometry and coefficient Fourier tails are actual; no new whole-collar geometry is claimed.",
+    "High-high bound is not substituted for the separately displayed complete all-output bound."
+  ],
+  "input_reports": [
+    {
+      "key": "v0",
+      "path": "notes/2026-11-12-ci-canonical-v0-scaled-Wiener-summary.json",
+      "sha256": "66112956b245389aa38c3d07244685ad31c29f7aae0575b8986bf80b54459ce8"
+    },
+    {
+      "key": "v1",
+      "path": "notes/2026-11-12-ci-canonical-v1-scaled-Wiener-summary.json",
+      "sha256": "c0050bf6f15666f1b0283d7d232c10a167d08a4bb69e42c6cc5653dc51c94c3b"
+    },
+    {
+      "key": "root",
+      "path": "notes/2026-11-12-actual-common-root-high-remainder.json",
+      "sha256": "e727251cd6c187ded5782aff3a03401301d21b83fd03d419f31f716862be6253"
+    },
+    {
+      "key": "stream",
+      "path": "notes/2026-11-12-R108-canonical-stream-gap-budget.json",
+      "sha256": "c1b90d922f0484358397b66c149efeb36e0eeb54412eadc3ae6ad022740d4a7c"
+    }
+  ],
+  "source_sha256": "54f1c0e9f718d34610e19e24b05fdfd4822aa6d5e92146e9471cc3baf0e34c2a",
+  "execution": {
+    "core_executed": true,
+    "full_Node_entry_executed": false,
+    "runtime": "functions JavaScript exact BigInt rational arithmetic",
+    "new_geometric_sampling": false
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "kind": "actual_current_negative_quadratic_density_and_HH_transport_rational",
+  "complete": true,
+  "executed": true,
+  "arithmetic": "exact BigInt rationals and exact multivariate polynomial identities",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "exact_alpha": "6890507429876859/9007199254740992",
+  "exact_nu": "-2572625729470897/72057594037927936",
+  "whole_original_eta": true,
+  "physical_frequency_factor": 4,
+  "high_moving_index": 97,
+  "proof_scope": "Exact full moving Jacobi change on any strict negative subinterval; actual principal HH transport only in H^(-3/2) wave density on the named joint root germ.",
+  "full_source_mean_jumps_in_proof": true,
+  "full_cross_waves_and_nonlocal_terms_retained": true,
+  "ordinary_to_weighted_source": "f_w = (a_phys^2/m^2) T(q) f; f_Y=Lambda^(-3/2) f_w",
+  "mean_residual": "R0=m'-beta*m*(1-mean(u^2+K*v^2)); scalar coefficient -2*R0/m is not included in the principal bound",
+  "wave_cross": "B_sigma=-q'/(2*q)-beta*(1+(u+sigma*q*v)^2); retained, not included in the principal bound",
+  "endpoint_limit_to_K_zero_authorized": false,
+  "physical_L2_inverse_authorized": false,
+  "full_high_return_inverse_authorized": false,
+  "whole_BVP_inverse_authorized": false,
+  "source_native_rerun": false,
+  "inputs_are_existing_complete_published_joint_germ_bounds": true,
+  "exact_negative_S_range_upper": "6404941/2500000",
+  "physical_max_d_frequency": "256",
+  "high_physical_min_frequency": "388",
+  "d_phi_A0_upper": "54",
+  "d_phiphi_phi_A0_upper": "3538944/1",
+  "HH_Hermitian_norm_upper": {
+    "exact": "1769553/75272",
+    "decimal": {
+      "lower": "23.508781485811457115527686",
+      "upper": "23.508781485811457115527687"
+    }
+  },
+  "actual_max_radial_length": {
+    "exact": "90000009/10000000000000",
+    "decimal": {
+      "lower": "0.000009000000900000000000",
+      "upper": "0.000009000000900000000000"
+    }
+  },
+  "log_norm_integral_upper": {
+    "exact": "1769553/7527200000",
+    "decimal": {
+      "lower": "0.000235087814858114571155",
+      "upper": "0.000235087814858114571156"
+    },
+    "simple_bound": "1/4000"
+  },
+  "principal_two_way_growth_upper": "4000/3999",
+  "general_full_signed_kernel_bound": "(3/2*||d'''||_A0+3*||d'||_A0)/M0^2 <= (3/2)*||d||_A3/M0^2",
+  "frozen_finite_band_kernel_bound": "(||d'''||_A0+3*||d'||_A0)/M0^2",
+  "omitted_from_small_budget": [
+    "cross-wave B including radial q'/q",
+    "full primitive and mean-column operator N",
+    "true scalar mean residual -2R0/m",
+    "all head-high off-diagonal blocks",
+    "PPoly transmission factors",
+    "root Airy port conversion",
+    "outer regular graph",
+    "nu scalar Schur"
+  ],
+  "provenance": {
+    "source_sha256": "d042bad19b271fd84fdb383f18ac6fbcb9cd0c38a8c10a64e9baa591b0981782",
+    "inputs": [
+      {
+        "path": "results/R133-supplement-current-moving-body-physical-complex-germ.md",
+        "git_blob": "bfe73ee59142618bc7e36d5e3fe06929d9fb68cb",
+        "sha256": "c10b049282d1837ab45fe2b40e6276ec7074aa534b4a7bb0c1f4251a9db729ba"
+      },
+      {
+        "path": "results/R133-supplement-current-moving-positive-root-Riccati-and-full-head.md",
+        "git_blob": "3edf335784786da9a4a515b28d364d8ad2914e24",
+        "sha256": "38d7ec697d8a0565b2563324aca689776749aa81fc8bf8b0dab4d0f28fcfd8fb"
+      },
+      {
+        "path": "results/R133-supplement-global-positive-reference-and-current-collar.md",
+        "git_blob": "5e89a2ec36f36f2852d47738bc46373fdacf67d1",
+        "sha256": "2e5441d4f569ee8d4a1604ebc4c2f3da25df4058fdf786032f125a0532946d35"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "full_local_wave_diagonal_plus",
+      "passed": true
+    },
+    {
+      "name": "full_local_wave_diagonal_minus",
+      "passed": true
+    },
+    {
+      "name": "full_local_wave_offdiagonal_plus",
+      "passed": true
+    },
+    {
+      "name": "full_local_wave_offdiagonal_minus",
+      "passed": true
+    },
+    {
+      "name": "actual_principal_speed_plus",
+      "passed": true
+    },
+    {
+      "name": "actual_principal_speed_minus",
+      "passed": true
+    },
+    {
+      "name": "actual_principal_cross_zero",
+      "passed": true
+    },
+    {
+      "name": "radial_normalization_only_cross",
+      "passed": true
+    },
+    {
+      "name": "actual_mean_residual_after_density",
+      "passed": true
+    },
+    {
+      "name": "complete_same_sign_cubic_kernel_identity",
+      "passed": true
+    },
+    {
+      "name": "density_weight_cancels_order_zero_Hermitian",
+      "passed": true
+    },
+    {
+      "name": "negative_range_uses_signed_K",
+      "passed": true
+    },
+    {
+      "name": "true_degree64_Parseval_fee_below54",
+      "passed": true
+    },
+    {
+      "name": "high_cut388_exceeds_entire_d_band256",
+      "passed": true
+    },
+    {
+      "name": "HH_same_sign_ratio_below2",
+      "passed": true
+    },
+    {
+      "name": "actual_ra_inside_full_negative_joint_germ",
+      "passed": true
+    },
+    {
+      "name": "actual_whole_parameter_length_below1e_minus5",
+      "passed": true
+    },
+    {
+      "name": "complete_HH_transport_log_bound_below1_over4000",
+      "passed": true
+    },
+    {
+      "name": "exponential_majorant_below4000_over3999",
+      "passed": true
+    },
+    {
+      "name": "A3_majorant_exact_polynomial_identity",
+      "passed": true
+    },
+    {
+      "name": "large_ratio_majorant_exact_polynomial_identity",
+      "passed": true
+    },
+    {
+      "name": "opposite_sign_majorant_exact_polynomial_identity",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "gate_count": 22
+}

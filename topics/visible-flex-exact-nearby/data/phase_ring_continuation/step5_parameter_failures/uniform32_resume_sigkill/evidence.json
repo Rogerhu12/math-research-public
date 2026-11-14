@@ -1,0 +1,101 @@
+{
+  "kind": "observed_actual_uniform32_signal9_after_disk_recovery",
+  "observed_utc": "2026-11-12T19:20:13.260451+00:00",
+  "controller_session": 55783,
+  "controller_exit_code": 1,
+  "child_returncode": -9,
+  "native_cause": "unknown; no Python traceback or memory diagnosis is asserted",
+  "prior_ENOSPC_is_distinct": "notes/2026-11-12-parameter-uniform32-enospc-evidence.json",
+  "files": [
+    {
+      "original_path": "data/phase_ring_continuation/step5_parameter_sequential_cover_resume1849.json.gz",
+      "snapshot_path": "data/phase_ring_continuation/step5_parameter_failures/uniform32_resume_sigkill/0_step5_parameter_sequential_cover_resume1849.json.gz",
+      "sha256": "37c7fddd585c646605d901d2b9a05b7e54d78b809717430751c0ebdb6ceb8650",
+      "bytes": 2596
+    },
+    {
+      "original_path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9_resume1849/index_uniform.json",
+      "snapshot_path": "data/phase_ring_continuation/step5_parameter_failures/uniform32_resume_sigkill/1_index_uniform.json",
+      "sha256": "12bde2b6eb0b0ecac5562a5b170c31dc33f34b0b7b8c0895ffa9f0a3d6419f7e",
+      "bytes": 25181
+    },
+    {
+      "original_path": "/workspace/scratch/f6a2c7886477/parameter-density-logs-resume1849/sequential_0009_uniform_until_0033.log",
+      "snapshot_path": "data/phase_ring_continuation/step5_parameter_failures/uniform32_resume_sigkill/2_sequential_0009_uniform_until_0033.log",
+      "sha256": "71cfba869687a58c5994ce70cade35c3abf28d8de6e349777bccf2decd7cfe93",
+      "bytes": 9682
+    },
+    {
+      "original_path": "/workspace/scratch/f6a2c7886477/parameter-density-logs-resume1849/forward_0032_ef134f2a18_uniform.log",
+      "snapshot_path": "data/phase_ring_continuation/step5_parameter_failures/uniform32_resume_sigkill/3_forward_0032_ef134f2a18_uniform.log",
+      "sha256": "634a4944cdf1b13c6ea71ac13c7e0de79a67d89d24d3f7ded6ee0c266c91975e",
+      "bytes": 143
+    },
+    {
+      "original_path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9_resume1849/forward_0032_ef134f2a18_uniform.json.gz",
+      "snapshot_path": "data/phase_ring_continuation/step5_parameter_failures/uniform32_resume_sigkill/4_forward_0032_ef134f2a18_uniform.json.gz",
+      "sha256": "77edcf0bc94fe7654cac7e843f90b29010ec7e4e562874ef4c2607fe1e2a79d0",
+      "bytes": 21484
+    }
+  ],
+  "exact_failed_child": {
+    "segment": 32,
+    "normalized_subspan": [
+      "0",
+      "1"
+    ],
+    "report_path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9_resume1849/forward_0032_ef134f2a18_uniform.json.gz",
+    "log_path": "/workspace/scratch/f6a2c7886477/parameter-density-logs-resume1849/forward_0032_ef134f2a18_uniform.log",
+    "returncode": -9,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-u",
+      "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_parameter_density_pipeline_efficient_v5.py",
+      "--descriptor",
+      "data/phase_ring_continuation/step5_retargeted_reference/descriptor.json",
+      "--domain",
+      "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0032_r.json.gz",
+      "--reference-certificate",
+      "data/phase_ring_continuation/step5_forward_density_complete/forward_0032_ef134f2a18.json.gz",
+      "--reference-source",
+      "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_composition_v9.py",
+      "--uniform-half-width",
+      "1/1000000000",
+      "--target",
+      "1e-7",
+      "--label-strip",
+      "1/256",
+      "--inner-strip",
+      "3/1024",
+      "--spatial-strip",
+      "7/2048",
+      "--primitive-nodes",
+      "384",
+      "--root-nodes",
+      "1024",
+      "--bits",
+      "256",
+      "--coefficient-bits",
+      "160",
+      "--outer",
+      "3",
+      "--directory",
+      "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9_resume1849/forward_0032_ef134f2a18_uniform",
+      "--out",
+      "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9_resume1849/forward_0032_ef134f2a18_uniform.json.gz",
+      "--expanded-domain-directory",
+      "data/phase_ring_continuation/step5_expanded_time_domain_full",
+      "--parameter-proof-directory",
+      "data/phase_ring_continuation/step5_expanded_parameter_time_domain_resume1849",
+      "--parameter-proof-lock-directory",
+      "/tmp/visible-flex-parameter-domain-locks-resume1849",
+      "--expanded-proof-nodes",
+      "512",
+      "--expanded-proof-bits",
+      "320",
+      "--expanded-proof-half-width",
+      "1/1000000000",
+      "--second-only"
+    ]
+  }
+}

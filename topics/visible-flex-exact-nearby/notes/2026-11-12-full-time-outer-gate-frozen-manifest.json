@@ -1,0 +1,83 @@
+{
+  "kind": "frozen_exact_step3_complete_time_outer_gate_and_finite_germ_cap",
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_time_outer_taylor_gate.py",
+      "bytes": 30215,
+      "sha256": "dedbda9a689fcb49642aca4bd69cfbcdc502d71836b2480968606e74d40051a4"
+    },
+    {
+      "path": "scripts/fourfold_phase_reference_germ_partition.py",
+      "bytes": 5467,
+      "sha256": "124af777a53b72a83b366f8853a5b017d14ddda74312d60d79fc44bed683e1a7"
+    },
+    {
+      "path": "notes/2026-11-12-full-time-correlated-outer-gate.md",
+      "bytes": 8843,
+      "sha256": "e62e9b83bb75ef95ddda53577eb0fd6af2af0dc2b1ec21c245d8ae99333f0291"
+    },
+    {
+      "path": "notes/2026-11-12-reference419-finite-germ-cap.md",
+      "bytes": 1988,
+      "sha256": "a9d0df067382731673994ff3f2d44ad52ccaac35f177b7aaaa42f2709ae85c1e"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_reference419_full_outer_gate.json",
+      "bytes": 169276,
+      "sha256": "8e3a554dbd6a4de90508765bbfe8562dc95d76dd765bfbe1aacd1923ce9d1b66"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_reference419_germ_partition.json",
+      "bytes": 12904,
+      "sha256": "32d1e3743c8461d98c30ed92a23dc4eb2d8f6054b498db97d35905aba792b9b1"
+    }
+  ],
+  "total_bytes": 228693,
+  "scope": [
+    "Whole reference segment419 on all required common-germ extensions",
+    "Physical-state and complex-time outer domain on initial-label arcs through halfwidth1/256 with Rx4",
+    "Exact finite [0,1/1024],[1/1024,1] radial/germ coverage"
+  ],
+  "not_claimed": [
+    "Complete angle residual or a whole branch flow certificate",
+    "Defect-corrected residual on either new time piece",
+    "Any transfer to delta4 or other input graphs"
+  ],
+  "external_inputs": [
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_object.json",
+      "bytes": 1638,
+      "sha256": "e6ff2d46ed2d321c1b287e6c9d8e44ead7b9a70523350d145d703b4edd6def0f"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_root_tight.json",
+      "bytes": 9997,
+      "sha256": "afdc964a11682f9c54ceb1e6a165950f007ea26ab917f8dbde8b38c9fe78629f"
+    },
+    {
+      "path": "data/phase_ring_continuation/r61_step3_shared_forward/manifest.json",
+      "bytes": 94170,
+      "sha256": "0b5c7b410fd2ec2638f583396f51fcb1ddc1c311c39f978f3dfb3e1d6f7dd5a7"
+    },
+    {
+      "path": "scripts/fourfold_time_angle_jets.py",
+      "bytes": 13740,
+      "sha256": "f452fe515af7bea2eeee3c715c158817a317671517ec719ccf9b15725af70cbd"
+    },
+    {
+      "path": "scripts/fourfold_phase_field_time_taylor.py",
+      "bytes": 23148,
+      "sha256": "5f8b0294bc3cc6f19444ebf2d8e5106bdabaecab44576a77593890b2c42c312a"
+    },
+    {
+      "path": "scripts/fourfold_phase_field_time_germ_union.py",
+      "bytes": 17759,
+      "sha256": "53704f95997e92eca13b74e9466c8ccb60a0ce04c4360e91b23eef9b10c712b5"
+    },
+    {
+      "path": "scripts/fourfold_phase_field_time_refined_root.py",
+      "bytes": 15695,
+      "sha256": "7969b0dcf5ff43babe762dfdbb00836f4b4c3173965f923525ca64ab43886d79"
+    }
+  ]
+}

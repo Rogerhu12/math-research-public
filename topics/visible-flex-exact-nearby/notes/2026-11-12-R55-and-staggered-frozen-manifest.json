@@ -1,0 +1,67 @@
+{
+  "kind": "completed_R55_new_D5_continuous_chart_and_staggered_failure_freeze",
+  "files": [
+    {
+      "path": "results/R55-symmetric-D5-continuous-N-chart.md",
+      "sha256": "6e8b6b4709b96701847edb4bcba67ba8489842a3568e5e63bdde50adf1d2ca46",
+      "bytes": 12041
+    },
+    {
+      "path": "scripts/fourfold_phase_core_N_interval.py",
+      "sha256": "a46b455229d801df057acd10695c8621c72f73719806b8e41e05475b1f2fe460",
+      "bytes": 13375
+    },
+    {
+      "path": "scripts/fourfold_phase_core_N_coverage.py",
+      "sha256": "e708cb4d3b98dc2ac2edd960a98da57984aa05b6c322fb1a921e6c9f8c04fe46",
+      "bytes": 2470
+    },
+    {
+      "path": "scripts/fourfold_phase_conjugacy_validation.py",
+      "sha256": "b9dc6581309201310bb26962b72893ae19ce22f91990ac7879f1ec21d571c2d3",
+      "bytes": 5538
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+      "sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+      "bytes": 386775
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_jet_core_N_interval.json",
+      "sha256": "538c3edbd89c2e322f5921ab62f08ff9f12dece2d878d19014daa2db6d866b28",
+      "bytes": 526511
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_jet_core_N_coverage.json",
+      "sha256": "4f0accf14db795b6082822bb25167d66b0872191b3def33e45d95d4ca33ef644",
+      "bytes": 970
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_jet_symmetric_root_interval.json",
+      "sha256": "a2cae14e5d89cc1053b5806c8030955aa6cd0de03b590be0727630b26e889ffe",
+      "bytes": 5668
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-jet-staggered-Hnodes64.json",
+      "sha256": "05b6f6da8e94a4868f3dca5c5e2adb973c4673556960214495b11b95872ae6c1",
+      "bytes": 12456
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_jet_staggered_branch.npz",
+      "sha256": "b0dcefe51991ca19134f7c0cd70073ae07bb46a0f71401ae58ae9521540f9540",
+      "bytes": 2293
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-N-factor-scan.json",
+      "sha256": "3448b7f41d188db4099638096bb9dba63ab34b8e01885c7155116bda7e8bb2f6",
+      "bytes": 32775
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-N-factor-grid-scan.json",
+      "sha256": "5c494574ca93bc090843e6e3ecdebb74581294c116bafa10cc49660635b57809",
+      "bytes": 32789
+    }
+  ],
+  "source_D5_sha256": "0dcfb37f84a1b3d6197b375aa8700628a00398c0b509ce5da6c92f1ecf489199",
+  "limitations": "R55 is a continuous certificate for the explicitly symmetrized infinite R33 graph; ray/staggered diagnostics still concern the old approximate-mirror floating evaluator. No transfer between them is assumed."
+}

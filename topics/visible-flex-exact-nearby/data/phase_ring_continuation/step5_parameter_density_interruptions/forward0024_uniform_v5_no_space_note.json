@@ -1,0 +1,78 @@
+{
+  "kind": "actual_interrupted_process_not_mathematical_failure",
+  "observed_utc": "2026-11-12T17:50:43.442133+00:00",
+  "failed_leaf": {
+    "segment": 24,
+    "normalized_subspan": [
+      "0",
+      "1"
+    ],
+    "report_path": "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0024_ef134f2a18_uniform.json.gz",
+    "log_path": "/workspace/scratch/f6a2c7886477/parameter-density-logs/forward_0024_ef134f2a18_uniform.log",
+    "returncode": 1,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-u",
+      "scripts/fourfold_parameter_density_pipeline_efficient_v5.py",
+      "--descriptor",
+      "data/phase_ring_continuation/step5_retargeted_reference/descriptor.json",
+      "--domain",
+      "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0024_r.json.gz",
+      "--reference-certificate",
+      "data/phase_ring_continuation/step5_forward_density_complete/forward_0024_ef134f2a18.json.gz",
+      "--reference-source",
+      "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_composition_v9.py",
+      "--uniform-half-width",
+      "1/1000000000",
+      "--target",
+      "1e-7",
+      "--label-strip",
+      "1/256",
+      "--inner-strip",
+      "3/1024",
+      "--spatial-strip",
+      "7/2048",
+      "--primitive-nodes",
+      "384",
+      "--root-nodes",
+      "1024",
+      "--bits",
+      "256",
+      "--coefficient-bits",
+      "160",
+      "--outer",
+      "3",
+      "--directory",
+      "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0024_ef134f2a18_uniform",
+      "--out",
+      "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0024_ef134f2a18_uniform.json.gz",
+      "--expanded-domain-directory",
+      "data/phase_ring_continuation/step5_expanded_time_domain_full",
+      "--parameter-proof-directory",
+      "data/phase_ring_continuation/step5_expanded_parameter_time_domain_full",
+      "--parameter-proof-lock-directory",
+      "/tmp/visible-flex-parameter-domain-locks",
+      "--expanded-proof-nodes",
+      "512",
+      "--expanded-proof-bits",
+      "320",
+      "--expanded-proof-half-width",
+      "1/1000000000",
+      "--second-only"
+    ]
+  },
+  "cause_observed": "OSError: [Errno 28] No space left on device while creating finite field_p2 output directory",
+  "preserved": [
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_interruptions/forward0024_uniform_v5_no_space.json.gz",
+      "sha256": "95367fae6d8b0b69e0d23f2f681488a57ae7ba724bb2710f7d23ba1ceb9fdfaa",
+      "bytes": 26196
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_parameter_density_interruptions/forward0024_uniform_v5_no_space.log",
+      "sha256": "ee29abd2f9191d4041b49d237d2d95620afd7a6ba19cb5771b35e2e130eb845d",
+      "bytes": 2159
+    }
+  ],
+  "no_math_failure_inferred": true
+}

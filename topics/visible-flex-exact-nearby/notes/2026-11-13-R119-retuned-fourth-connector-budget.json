@@ -1,0 +1,210 @@
+{
+  "schema": "visible-exact-R119-retuned-fourth-connector-v1",
+  "scope": "The true fourth infinite-tail line for every actual metric parameter, the exactly retuned finite connector, invariant nonlinear tail epsilon, isotropic rescaling and a pointwise full-frequency common bump/regular selection.",
+  "inputs": {
+    "parameter_real_radius": "2^-16",
+    "parameter_complex_radius": "2^-15",
+    "actual_target_direction": "14<d_4(Gamma)<15",
+    "connector_amplifier": "Omega=2^360",
+    "long_segment": "T=2^24",
+    "variable_segment": "the final q=-1 main segment only",
+    "file_sha256": {
+      "results/R11-matched-mode-four-physical-tail-connector.md": "8c4e30ef3cac88ff3e7c858c77537bf03d102760b2324e1e1d21780cf59923ca",
+      "results/R69-actual-closed-approximate-exterior-and-two-held-disks.md": "c1c33adcf81b6546b68b0f7a6c1ded7ae1c56b35dfb279c7abd1496798dad6de",
+      "results/R74-actual-full-tail-robin-and-augmented-positive-cap.md": "174bc93631b5ade0faf51160d7026e42d674916fd94e12cdb2315479458c18d8",
+      "results/R119-supplement-uniform-tail-chart-for-actual-metric-parameters.md": "4eb0d35d9dfb3b53074227fce591219b8d4164444da655494c94ce80b46be950",
+      "results/R119-supplement-joint-actual-negative-band-return-kam.md": "d2eb6364aef5dfd0bf551384a4b597383f403dd5109cba5633ad15ec49ead95e",
+      "results/R119-supplement-retuned-fourth-connector-and-common-bumps.md": "e22a74f54ea1122271e50d2bdcd2ae8db5bc4c28e1e36eaebc35c40f6c3c3752",
+      "scripts/fourfold_retuned_fourth_connector_20261113.py": "55fd6b2b24dfac6fa9720b914b29fd23ea045fe4d8e595c075815c2f3deee47a"
+    }
+  },
+  "checks": [
+    {
+      "name": "actual_reference_fourth_determinant",
+      "pass": true,
+      "evidence": "The actual matrices have this same determinant from the canonical trace-zero flow"
+    },
+    {
+      "name": "actual_reference_fourth_trace",
+      "pass": true,
+      "evidence": "This is exactly the R11/R72 ideal fourth matrix, including endpoint factor 1/64"
+    },
+    {
+      "name": "complete_complex_projective_cone",
+      "pass": true,
+      "evidence": "Every complex cone value has |s|<1/32"
+    },
+    {
+      "name": "actual_fourth_denominator",
+      "pass": true,
+      "evidence": "The actual ramp error and both row entries are included"
+    },
+    {
+      "name": "actual_fourth_Mobius_contraction",
+      "pass": true,
+      "evidence": "Uses the exact full-cell determinant, not a finite numerical derivative"
+    },
+    {
+      "name": "actual_fourth_Mobius_center_fee",
+      "pass": true,
+      "evidence": "The center defect keeps numerator and denominator perturbations"
+    },
+    {
+      "name": "actual_infinite_tail_cone_sum",
+      "pass": true,
+      "evidence": "The inductive error envelope covers every depth and the true infinite limit"
+    },
+    {
+      "name": "actual_infinite_tail_cone_invariance",
+      "pass": true,
+      "evidence": "All finite continuations and their uniform limit stay inside the projective cone"
+    },
+    {
+      "name": "actual_deep_angle_step_upper",
+      "pass": true,
+      "evidence": "h_4097<1/8192 and every subsequent h_j decreases"
+    },
+    {
+      "name": "actual_normalization_power",
+      "pass": true,
+      "evidence": "2^(-39/4)>1/864"
+    },
+    {
+      "name": "actual_angle_exponential_lower",
+      "pass": true,
+      "evidence": "The positive exponential series gives exp(-9/25)>69/100"
+    },
+    {
+      "name": "actual_complete_tail_future_decay",
+      "pass": true,
+      "evidence": "The true normalized outward multiplier exceeds 33/32 on every layer"
+    },
+    {
+      "name": "actual_full_fourth_slope_error",
+      "pass": true,
+      "evidence": "The exact physical conversion is 16+20 sqrt(12) s"
+    },
+    {
+      "name": "actual_full_fourth_slope_lower",
+      "pass": true,
+      "evidence": "The real fourth slope remains above 14 for every actual parameter"
+    },
+    {
+      "name": "actual_full_fourth_slope_upper",
+      "pass": true,
+      "evidence": "The real fourth slope remains below 15 for every actual parameter"
+    },
+    {
+      "name": "actual_all_parameter_fourth_derivative",
+      "pass": true,
+      "evidence": "Cauchy uses the full complex parameter box, in any l-infinity direction"
+    },
+    {
+      "name": "actual_height_to_Sturm_direction_derivative",
+      "pass": true,
+      "evidence": "The physical height slope is not y'/y"
+    },
+    {
+      "name": "actual_Sturm_target_box",
+      "pass": true,
+      "evidence": "The new true target remains in the exact interval used by the connector"
+    },
+    {
+      "name": "actual_all_parameter_Sturm_derivative",
+      "pass": true,
+      "evidence": "The true projective denominator remains larger than 1"
+    },
+    {
+      "name": "actual_terminal_short_transition",
+      "pass": true,
+      "evidence": "The same real short flow reaches the new exact target"
+    },
+    {
+      "name": "actual_terminal_short_inverse",
+      "pass": true,
+      "evidence": "exp(520 eta)<2; the actual real derivative is >1"
+    },
+    {
+      "name": "actual_terminal_main_length_derivative",
+      "pass": true,
+      "evidence": "|d ell/d R_in|=1/[P(1+16P)]<1/512"
+    },
+    {
+      "name": "actual_all_parameter_stop_derivative",
+      "pass": true,
+      "evidence": "The final main stop has the stated full parameter derivative bound"
+    },
+    {
+      "name": "actual_stop_motion_on_real_box",
+      "pass": true,
+      "evidence": "The full real parameter box moves the actual stop by less than 2^-43"
+    },
+    {
+      "name": "exact_terminal_product_invariant",
+      "pass": true,
+      "evidence": "The only variable-duration segment has q=-1"
+    },
+    {
+      "name": "exact_nonlinear_tail_epsilon_invariant",
+      "pass": true,
+      "evidence": "The actual nonlinear tail is called at the same epsilon, with no circular retuning"
+    },
+    {
+      "name": "exact_tail_isotropic_scale",
+      "pass": true,
+      "evidence": "Only the overall isotropic factor rho changes"
+    },
+    {
+      "name": "actual_scale_plus_profile_curvature_fee",
+      "pass": true,
+      "evidence": "The extra rho motion is included in the full infinite-tail curvature bound"
+    },
+    {
+      "name": "actual_full_tail_curvature",
+      "pass": true,
+      "evidence": "The same physical curvature budget remains valid after true connector retuning"
+    },
+    {
+      "name": "exact_scale_part_of_metric_parameter_source",
+      "pass": true,
+      "evidence": "At fixed physical a, the source includes w A delta ell in addition to w psi delta gamma"
+    },
+    {
+      "name": "actual_shared_bump_good_measure",
+      "pass": true,
+      "evidence": "The existing full-frequency bad-set proof is applied to the new real nonzero tail lines"
+    },
+    {
+      "name": "actual_unchanged_fourth_bump_curve_domain",
+      "pass": true,
+      "evidence": "The same fourth right line and same two bump geometry give the same matching curve"
+    },
+    {
+      "name": "actual_regular_exponential_fee",
+      "pass": true,
+      "evidence": "All nonzero real frequencies retain their exact exponentially small reflection term"
+    },
+    {
+      "name": "actual_two_trace_transversality_fee",
+      "pass": true,
+      "evidence": "The finite-length reflection correction is paid after full two-trace conversion"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "actual_infinite_fourth_tail_line": true,
+    "full_parameter_continuous_connector_stop": true,
+    "exact_nonlinear_tail_epsilon_invariance": true,
+    "true_isotropic_physical_scale": true,
+    "all_endpoint_geometry_and_fourth_jets_matched": true,
+    "complete_metric_parameter_source_columns_retained": true,
+    "same_fourth_preserving_bump_curve": true,
+    "new_pointwise_all_frequency_regular_selection": true,
+    "no_circular_dependency_with_tail_KAM": true,
+    "one_target_metric_on_each_final_phase_orbit": true,
+    "continuous_minimum_good_bump_parameter_claimed": false,
+    "full_nonlinear_high_input_inverse": false,
+    "global_nonlinear_matching_point": false,
+    "topic_completion": false
+  }
+}

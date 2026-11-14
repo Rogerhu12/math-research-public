@@ -1,0 +1,70 @@
+{
+  "kind": "frozen_exact_forward_recovery_and_self_contained_step5_reference419",
+  "complete": true,
+  "files": [
+    {
+      "path": "scripts/fourfold_retarget_reference_segment_package.py",
+      "sha256": "3863aae2e5259d17023d6ba3a8cfc3e55bbf8fef431803dca27ccec140e1d0b2",
+      "bytes": 13042
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward419_exact_reference_package.npz.gz",
+      "sha256": "bf9e219a46415dc330a089d56be73eccb7329fe0e99b8fcdc1aa43f2fe9b8c04",
+      "bytes": 259998
+    },
+    {
+      "path": "notes/2026-11-12-step5-forward419-reference-package-extraction.json",
+      "sha256": "f14720477f5837114365d5ff466e2fb0a13eac917227774646cdfc14b50fb37b",
+      "bytes": 4916
+    },
+    {
+      "path": "notes/2026-11-12-step5-forward419-reference-package-standalone-check.json",
+      "sha256": "2f7d84c785dbf8a319f9f447d4786ca729b9589c43316d9739c00bb88964e4e6",
+      "bytes": 1058
+    },
+    {
+      "path": "notes/2026-11-12-step5-forward419-reference-package.md",
+      "sha256": "d09b81de41ee13e556c6d3ef765c3527a17d1a7b6f3dc4b0559e38a75c6fac71",
+      "bytes": 7953
+    },
+    {
+      "path": "notes/2026-11-12-step5-forward419-reference-derivative-gate.json.gz",
+      "sha256": "bf0ce1df9cc088031f4b9f989e1c64f95cc32eddd71a81bf6984c10ebab67c37",
+      "bytes": 9443
+    },
+    {
+      "path": "notes/2026-11-12-step4-forward-raw-recovery-hash-check.json",
+      "sha256": "69beb3bd9f5edd22cd3e93173a6b7ca29ee2a3c639c26de4046d4e6c8afd4278",
+      "bytes": 9895
+    },
+    {
+      "path": "notes/2026-11-12-step4-forward-reference-recovery-hash-check.json",
+      "sha256": "e42b5c76200a2bd7276d31a361411c9e1f47f1b5e76263297f28e6c549d2fb94",
+      "bytes": 6373
+    },
+    {
+      "path": "notes/2026-11-12-step5-Q-forward-recovery-hash-check.json",
+      "sha256": "3d79b52499e3c8a7847577cb14969e2e7812f51819190eebbbc60b5957e0dc6b",
+      "bytes": 3649
+    },
+    {
+      "path": "notes/2026-11-12-native-reference-grid-closed-form-audit.md",
+      "sha256": "8b8e7ad318897c6c6dab4aad57cab8eeaf89085c16a88f985f76bcc18a4cd47e",
+      "bytes": 3292
+    }
+  ],
+  "bytes_total": 319619,
+  "preserved_reference_segment": 419,
+  "raw_forward_exact_hash_reproduction": true,
+  "U_L_and_Q_forward_exact_hash_reproduction": true,
+  "single_segment_real_time_nonzero_q_strips": [
+    "1/512",
+    "1/256",
+    "1/128",
+    "1/64"
+  ],
+  "full_forward_q_gate_included": false,
+  "backward_raw_recovery_included": false,
+  "large_reproducible_raw_and_full_reference_shards_included": false,
+  "limitations": "Only completed small recovery proofs and the self-contained exact finite segment package are frozen; no full flow/return/PDE assertion."
+}

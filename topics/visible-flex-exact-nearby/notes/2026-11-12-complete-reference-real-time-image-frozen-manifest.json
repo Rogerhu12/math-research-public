@@ -1,0 +1,30 @@
+{
+  "kind": "frozen_complete_reference_adapter_and_real_time_image_gate",
+  "status": "complete_frozen",
+  "archive_required": [
+    {
+      "path": "scripts/fourfold_complete_reference_segment.py",
+      "sha256": "3a6cbc6f1a2d490db72ecc4b977eca26becd4468284efd2fbf09023e2072a33f",
+      "bytes": 12942
+    },
+    {
+      "path": "notes/2026-11-12-complete-reference-real-time-image.md",
+      "sha256": "b05e8bfa523a1c3ebf5812e67d5b6ac887088830d9d8d36d34d522ddf89d47e4",
+      "bytes": 6357
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_complete_reference_real_time_images_0_419_549.json.gz",
+      "sha256": "1eff8f66068252ec2e5ca9b25fb5abc6ff088e85950b89db6d61fa0b5bd830c6",
+      "bytes": 9168
+    }
+  ],
+  "reproducible_large_intermediates": [],
+  "replay": "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -u scripts/fourfold_complete_reference_segment.py --leg forward --segments 0,419,549 --label-widths 1/512,1/128 --nodes 512 --taylor-order 8 --bits 256 --out data/phase_ring_continuation/type_fixed_step02_d5_step5_complete_reference_real_time_images_0_419_549.json.gz",
+  "api": "CompleteReferenceSegment(ref,leg,segment,left=0,right=1); complete_periodic(); real_time_image(S,nodes=512,p=8)",
+  "scope": "Exact finite retarget-reference image, full original real-time segment and full complex initial-label strip; every symbolic Fourier product retained.",
+  "limitations": [
+    "No true-flow or q lower bound from this image gate.",
+    "Only the three listed actual segments were run; other segments require their own gate.",
+    "The complete_periodic adapter does not make any full complex-time gate automatically true."
+  ]
+}

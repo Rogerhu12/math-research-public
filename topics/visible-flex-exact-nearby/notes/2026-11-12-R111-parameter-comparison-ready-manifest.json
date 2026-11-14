@@ -1,0 +1,39 @@
+{
+  "kind": "R111_parameter_comparison_ready",
+  "date_utc": "2026-11-12 23:59 UTC",
+  "input": {
+    "path": "notes/2026-11-12-positive-family-exterior-entry-jets.json",
+    "sha256": "6748eb485a77031a3f50caccea5111d913e58aa32ac428e30a7689354cfd8f26",
+    "bytes": 88457
+  },
+  "actual_graft_execution": {
+    "environment": "functions V8 pure BigInt kernel",
+    "complete": true,
+    "evaluations": 643,
+    "accepted_intervals": 322,
+    "maximum_relative_form_error_upper": "0.001973601",
+    "source_path": "scripts/fourfold_phase_graft_parameter_exact.mjs",
+    "source_sha256": "ec2411a711b0123e96b654a7952cffbcb9472fb684af41c3367acd7f2985a64f",
+    "report_path": "notes/2026-11-12-R111-actual-whole-family-graft.json",
+    "report_sha256": "58a7a41f6d625a27f263f4b840018f538c88a7b2004aaec9118c72c35ee2a661",
+    "first_observed_wall_ms": 3752,
+    "node_file_CLI_executed": false,
+    "large_diagnostic_report_bytes": 506651,
+    "large_diagnostic_report_sha256": "f78ee6265aaba5fb242da5bb25df55cba2725a869ff9b2183c8784c7650b8e8c",
+    "large_diagnostic_report_saved_remotely": false
+  },
+  "body": {
+    "native_executed": false,
+    "path": "scripts/fourfold_phase_cap_parameter_comparison.py",
+    "sha256": "0879acf59242862833b675c2790d62300c0ed2764146b635d4415ac6eef9b65b",
+    "command": "python scripts/fourfold_phase_cap_parameter_comparison.py --part both --out notes/2026-11-13-R111-whole-eta-cap-form.json.gz",
+    "scope": "Default reuses the actually paid BigInt graft certificate; only the genuine complex-parameter body remains to compute."
+  },
+  "proof": {
+    "path": "results/R111-fixed-tail-cap-parameter-comparison.md",
+    "sha256": "d0f9f6a368a876e97f1fdf2264459b2e2d7806e834caec2c882a29728b500bc8"
+  },
+  "full_cap_complete": false,
+  "full_PDE_inverse_complete": false,
+  "nonlinear_goal_complete": false
+}

@@ -1,0 +1,333 @@
+{
+  "kind": "R116_actual_true_ray_angular_Sobolev_and_density_constants",
+  "complete": true,
+  "arithmetic": "exact reduced BigInt fractions; positive powers remove all square/fourth roots",
+  "input": {
+    "path": "notes/2026-11-12-R106-actual-all-time-ray-tube.json",
+    "sha256": "6463e62641b9187045016c63ee633816676a75baf941ea01375a6ae36f1a1863"
+  },
+  "actual_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "parameter": {
+    "leg": "forward",
+    "segments": 550,
+    "time_endpoints": [
+      "-pi/2",
+      "pi/2"
+    ],
+    "parameter_center": "-7789843107295549/4611686018427387904",
+    "parameter_half_width": "1/1000000000",
+    "label_strip": "1/1024",
+    "label_period": "2*pi",
+    "physical_angle": "theta; reference Y(x+2*pi)=Y(x)+pi/2"
+  },
+  "normalized_self_map": "psi=4 Theta; period 2pi on both sides",
+  "normalized_m": "213831/1953125",
+  "normalized_M": "8223669/1953125",
+  "normalized_second_derivative": "4400",
+  "relative_derivative_ratio": "913741/23759",
+  "relative_second_derivative": "5245208740234375000000/362116435530933",
+  "one_leg": {
+    "height_Hhalf_forward": "3023/1000",
+    "height_Hhalf_inverse": "2491/1000",
+    "density_Hminus_half_forward": "2491/1000",
+    "density_Hminus_half_inverse": "3023/1000",
+    "common_scale_symplectic_port_both_directions": "3023/1000",
+    "homogeneous_Hhalf_both_directions": "2491/1000"
+  },
+  "relative": {
+    "height_Hs_both_directions_for_0_le_s_le_1": "3101/500",
+    "density_Hminus_s_both_directions_for_0_le_s_le_1": "3101/500",
+    "common_scale_symplectic_port_both_directions": "3101/500"
+  },
+  "strong_height": [
+    {
+      "kappa": "1",
+      "forward_H2": "6660",
+      "inverse_H2": "3441000",
+      "forward_H5over4": "21",
+      "inverse_H5over4": "99"
+    },
+    {
+      "kappa": "4",
+      "forward_H2": "12528",
+      "inverse_H2": "6477000",
+      "forward_H5over4": "25",
+      "inverse_H5over4": "116"
+    }
+  ],
+  "tame_density_Hplus_half": [
+    {
+      "kappa": "1",
+      "forward_base": "513/250",
+      "forward_high": "8223669/1953125",
+      "forward_lower_to_higher": "15962",
+      "inverse_base": "3023/1000",
+      "inverse_high": "1953125/213831",
+      "inverse_lower_to_higher": "8256400",
+      "relative_base": "3101/500",
+      "relative_high": "913741/23759",
+      "relative_lower_to_higher": "107803000"
+    },
+    {
+      "kappa": "4",
+      "forward_base": "513/250",
+      "forward_high": "8223669/1953125",
+      "forward_lower_to_higher": "31924",
+      "inverse_base": "3023/1000",
+      "inverse_high": "1953125/213831",
+      "inverse_lower_to_higher": "16512800",
+      "relative_base": "3101/500",
+      "relative_high": "913741/23759",
+      "relative_lower_to_higher": "215606000"
+    }
+  ],
+  "tame_norm": "mean^2 + kappa sum_{k!=0}|k| |f_k|^2; mean retained exactly",
+  "coordinate_change_only": true,
+  "full_strong_propagator_proved": false,
+  "final_KAM_frame_paid": false,
+  "full_PDE_inverse_proved": false,
+  "nonlinear_family_proved": false,
+  "gates": [
+    {
+      "name": "complete paid input bytes",
+      "passed": true
+    },
+    {
+      "name": "same full forward leg and 550 segments",
+      "passed": true
+    },
+    {
+      "name": "whole actual parameter interval",
+      "passed": true
+    },
+    {
+      "name": "physical angle and label periods are not conflated",
+      "passed": true
+    },
+    {
+      "name": "same actual affine geometry",
+      "passed": true
+    },
+    {
+      "name": "all upstream gates passed",
+      "passed": true
+    },
+    {
+      "name": "exact actual Jacobian fractions",
+      "passed": true
+    },
+    {
+      "name": "positive physical label derivative",
+      "left": "0",
+      "relation": "<",
+      "right": "213831/7812500",
+      "passed": true
+    },
+    {
+      "name": "paid physical second derivative below 1100",
+      "left": "1934594494853376/1776291015625",
+      "relation": "<",
+      "right": "1100",
+      "passed": true
+    },
+    {
+      "name": "normalized derivative lower bound below one",
+      "left": "213831/1953125",
+      "relation": "<",
+      "right": "1",
+      "passed": true
+    },
+    {
+      "name": "normalized derivative upper bound above one",
+      "left": "1",
+      "relation": "<",
+      "right": "8223669/1953125",
+      "passed": true
+    },
+    {
+      "name": "m times M below one",
+      "left": "1758475365939/3814697265625",
+      "relation": "<",
+      "right": "1",
+      "passed": true
+    },
+    {
+      "name": "one-leg L2 and H1 forward bound, squared",
+      "left": "1953125/213831",
+      "relation": "<",
+      "right": "9138529/1000000",
+      "passed": true
+    },
+    {
+      "name": "one-leg L2 inverse bound, squared",
+      "left": "8223669/1953125",
+      "relation": "<",
+      "right": "263169/62500",
+      "passed": true
+    },
+    {
+      "name": "one-leg Hhalf inverse bound, fourth power",
+      "left": "913741/23759",
+      "relation": "<",
+      "right": "38503030216561/1000000000000",
+      "passed": true
+    },
+    {
+      "name": "relative full Hs, zero<=s<=1, both directions, squared",
+      "left": "913741/23759",
+      "relation": "<",
+      "right": "9616201/250000",
+      "passed": true
+    },
+    {
+      "name": "relative derivative upper bound",
+      "left": "913741/23759",
+      "relation": "<",
+      "right": "38459/1000",
+      "passed": true
+    },
+    {
+      "name": "one-leg principal H2 bound",
+      "left": "4218742197/488281250",
+      "relation": "<",
+      "right": "9",
+      "passed": true
+    },
+    {
+      "name": "one-leg forward zeroth term below principal H2 budget",
+      "left": "3023/1000",
+      "relation": "<",
+      "right": "9",
+      "passed": true
+    },
+    {
+      "name": "inverse principal H2 bound",
+      "left": "47234375/1710648",
+      "relation": "<",
+      "right": "28",
+      "passed": true
+    },
+    {
+      "name": "inverse zeroth term below principal H2 budget",
+      "left": "513/250",
+      "relation": "<",
+      "right": "28",
+      "passed": true
+    },
+    {
+      "name": "kappa=1 complete forward H2",
+      "left": "33298/5",
+      "relation": "<",
+      "right": "6660",
+      "passed": true
+    },
+    {
+      "name": "kappa=1 complete inverse H2",
+      "left": "1245747215065858928624/362116435530933",
+      "relation": "<",
+      "right": "3441000",
+      "passed": true
+    },
+    {
+      "name": "kappa=1 forward H5/4, fourth power",
+      "left": "9199382464611/50000000",
+      "relation": "<",
+      "right": "194481",
+      "passed": true
+    },
+    {
+      "name": "kappa=1 inverse H5/4, fourth power",
+      "left": "95060285467647/1000000",
+      "relation": "<",
+      "right": "96059601",
+      "passed": true
+    },
+    {
+      "name": "kappa=4 complete forward H2",
+      "left": "1064861/85",
+      "relation": "<",
+      "right": "12528",
+      "passed": true
+    },
+    {
+      "name": "kappa=4 complete inverse H2",
+      "left": "39863758793204562724108/6155979404025861",
+      "relation": "<",
+      "right": "6477000",
+      "passed": true
+    },
+    {
+      "name": "kappa=4 forward H5/4, fourth power",
+      "left": "21630980389761/62500000",
+      "relation": "<",
+      "right": "390625",
+      "passed": true
+    },
+    {
+      "name": "kappa=4 inverse H5/4, fourth power",
+      "left": "178932132802659/1000000",
+      "relation": "<",
+      "right": "181063936",
+      "passed": true
+    },
+    {
+      "name": "complete log2 geometric-tail envelope",
+      "left": "23581/34020",
+      "relation": "<",
+      "right": "7/10",
+      "passed": true
+    },
+    {
+      "name": "sqrt(2 log2) below 6/5, squared",
+      "left": "23581/17010",
+      "relation": "<",
+      "right": "36/25",
+      "passed": true
+    },
+    {
+      "name": "kappa=1 forward density lower-to-higher fee",
+      "left": "399036/25",
+      "relation": "<",
+      "right": "15962",
+      "passed": true
+    },
+    {
+      "name": "kappa=1 inverse density lower-to-higher fee",
+      "left": "996589660644531250000/120705478510311",
+      "relation": "<",
+      "right": "8256400",
+      "passed": true
+    },
+    {
+      "name": "kappa=1 relative density lower-to-higher fee",
+      "left": "13012313842773437500000/120705478510311",
+      "relation": "<",
+      "right": "107803000",
+      "passed": true
+    },
+    {
+      "name": "kappa=4 forward density lower-to-higher fee",
+      "left": "798072/25",
+      "relation": "<",
+      "right": "31924",
+      "passed": true
+    },
+    {
+      "name": "kappa=4 inverse density lower-to-higher fee",
+      "left": "1993179321289062500000/120705478510311",
+      "relation": "<",
+      "right": "16512800",
+      "passed": true
+    },
+    {
+      "name": "kappa=4 relative density lower-to-higher fee",
+      "left": "26024627685546875000000/120705478510311",
+      "relation": "<",
+      "right": "215606000",
+      "passed": true
+    }
+  ],
+  "passed_gates": 37,
+  "source_sha256": "8df0f3d84acb8eec7c8f5814c2df9995497bfb3b2d8934dab801d70b14a2ddf3",
+  "execution": "Identical pure BigInt kernel actually executed in functions V8; Node CLI not run."
+}

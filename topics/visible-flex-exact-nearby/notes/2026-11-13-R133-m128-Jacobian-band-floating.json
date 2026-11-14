@@ -1,0 +1,75 @@
+{
+  "kind": "floating_Newton_Jacobian_band_diagnostic",
+  "certified": false,
+  "radial_samples": [
+    0.0,
+    0.025,
+    0.05,
+    0.1,
+    0.15,
+    0.18,
+    0.2384,
+    0.3,
+    0.5,
+    1.0,
+    2.0,
+    3.1
+  ],
+  "input_path": "notes/2026-11-13-R133-compact-metric-outer-mean-m64-candidate.npz.gz",
+  "input_sha256": "4046eb7ac8da162ab9aad9fcb4991933200abdbc2c22ed6329d49bb13d72b856",
+  "full_jacobian_max": 2885.6553388695984,
+  "full_jacobian_row_l1": 3040.51122236487,
+  "rows": [
+    {
+      "band": 4,
+      "sampled_maximum_dropped_entry": 6.646059313535625,
+      "sampled_maximum_dropped_row_l1": 39.618433889580615,
+      "fraction_kept": 0.06881254825962543
+    },
+    {
+      "band": 8,
+      "sampled_maximum_dropped_entry": 1.2831033415802149,
+      "sampled_maximum_dropped_row_l1": 8.82812811361647,
+      "fraction_kept": 0.12792018047207376
+    },
+    {
+      "band": 12,
+      "sampled_maximum_dropped_entry": 0.3427855019331978,
+      "sampled_maximum_dropped_row_l1": 2.7583306958763028,
+      "fraction_kept": 0.18508985753001558
+    },
+    {
+      "band": 16,
+      "sampled_maximum_dropped_entry": 0.11922397994655053,
+      "sampled_maximum_dropped_row_l1": 0.9995110155588919,
+      "fraction_kept": 0.24032157943345092
+    },
+    {
+      "band": 24,
+      "sampled_maximum_dropped_entry": 0.020565816705133775,
+      "sampled_maximum_dropped_row_l1": 0.16775830322375018,
+      "fraction_kept": 0.3449711577768021
+    },
+    {
+      "band": 32,
+      "sampled_maximum_dropped_entry": 0.006106330277136777,
+      "sampled_maximum_dropped_row_l1": 0.03754656260601293,
+      "fraction_kept": 0.4418689155021272
+    },
+    {
+      "band": 48,
+      "sampled_maximum_dropped_entry": 0.006106330277136777,
+      "sampled_maximum_dropped_row_l1": 0.014451711351447322,
+      "fraction_kept": 0.6124089690986995
+    },
+    {
+      "band": 64,
+      "sampled_maximum_dropped_entry": 0.006106330277136777,
+      "sampled_maximum_dropped_row_l1": 0.0070773235908491074,
+      "fraction_kept": 0.7519417402231676
+    }
+  ],
+  "precision": 192,
+  "initial_setup_failure": "An exploratory run at default Arb precision rejected a nonpositive entry-radius enclosure before any Jacobian was evaluated. The recorded run explicitly sets 192 bits.",
+  "interpretation": "A band restriction is a linear-solver approximation only. The candidate must still pass the original full nonlinear residual and full angular omission diagnostic."
+}

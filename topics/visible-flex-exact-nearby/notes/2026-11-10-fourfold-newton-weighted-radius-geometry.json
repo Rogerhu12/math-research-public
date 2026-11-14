@@ -1,0 +1,262 @@
+{
+  "kind": "floating_geometry_diagnostic_not_proof",
+  "evaluator": "poschl_teller_fourfold_series.py",
+  "mean_height_representation": "integral_of_quintic_even_slope",
+  "limitations": [
+    "The input is a finite Robin BVP polynomial, not a closed fixed-cap surface.",
+    "All derivatives are those of the same actual spline/integral candidate.",
+    "No directed rounding, no global supremum or reach certificate.",
+    "The reach proxies use sampled extrema and are not reach lower bounds.",
+    "Twice sampled radius is not a certified diameter upper bound.",
+    "Mean height is an integral of its slope spline; derivatives do not differentiate rounded polar heights.",
+    "A normal gap is a rigorous Hausdorff witness only after a real global reach bound.",
+    "No exact nonlinear isometry follows from these geometric diagnostics."
+  ],
+  "runs": [
+    {
+      "series": "fourfold-newton-weighted-radius.npz",
+      "parameters": {
+        "order": 1,
+        "points": 401,
+        "length": 3.0,
+        "mu": 5.656854249492381,
+        "A": 33.4142135623731,
+        "mean": "depth",
+        "bump_radius": 0.25,
+        "mu_scale": 4.0,
+        "actual_epsilon": 0.06,
+        "modes": 16,
+        "mean_parameters": [
+          0.05664250460882002,
+          0.006794349678469589,
+          0.0028959802131927814
+        ],
+        "mean_directions": 3,
+        "tail_weight": 3,
+        "mean_gauge": "radius",
+        "interpretation": "make_candidate(series,1,order=1)"
+      },
+      "epsilon": 1.0,
+      "actual_epsilon": 0.06,
+      "order": 1,
+      "samples": 1344,
+      "angles": 512,
+      "resolved_core_cut": 1.7677669529663687,
+      "entire_available_finite_body": {
+        "radius_max": {
+          "value": 1.1574093117626718,
+          "x": 0.4875,
+          "theta": 0.0
+        },
+        "support_min": {
+          "value": 0.8201124989339127,
+          "x": 3.0,
+          "theta": 0.0
+        },
+        "principal_curvature_abs_max": {
+          "value": 8.078395721863654,
+          "x": 0.0,
+          "theta": 0.0
+        },
+        "gauss_max": {
+          "value": 4.336828314455429,
+          "x": 0.45749999999999996,
+          "theta": 0.0
+        },
+        "gauss_min": {
+          "value": -2.944526149255939,
+          "x": 0.0375,
+          "theta": 4.675573441475434
+        },
+        "tangent_angle_sine_min": {
+          "value": 0.9999983747341298,
+          "x": 0.0475,
+          "theta": 3.117048960983623
+        },
+        "curvature_discriminant_min": {
+          "value": 1.6034643363083134e-07,
+          "x": 3.0,
+          "theta": 0.01227184630308513
+        },
+        "full_nonmean_metric_relative_max": {
+          "value": 0.0069704960600942955,
+          "x": 0.0225,
+          "theta": 0.0
+        },
+        "twice_sampled_radius": 2.3148186235253436,
+        "reach_proxy_from_sample_extrema_not_bound": 0.12378695404751774,
+        "proxy_ratio_not_bound": 0.053475876161302394
+      },
+      "central_resolved_range": {
+        "radius_max": {
+          "value": 1.1574093117626718,
+          "x": 0.4875,
+          "theta": 0.0
+        },
+        "support_min": {
+          "value": 0.8201199751320932,
+          "x": 1.7675,
+          "theta": 0.0
+        },
+        "principal_curvature_abs_max": {
+          "value": 8.078395721863654,
+          "x": 0.0,
+          "theta": 0.0
+        },
+        "gauss_max": {
+          "value": 4.336828314455429,
+          "x": 0.45749999999999996,
+          "theta": 0.0
+        },
+        "gauss_min": {
+          "value": -2.944526149255939,
+          "x": 0.0375,
+          "theta": 4.675573441475434
+        },
+        "tangent_angle_sine_min": {
+          "value": 0.9999983747341298,
+          "x": 0.0475,
+          "theta": 3.117048960983623
+        },
+        "curvature_discriminant_min": {
+          "value": 3.200299084790692e-05,
+          "x": 1.7675,
+          "theta": 0.0
+        },
+        "full_nonmean_metric_relative_max": {
+          "value": 0.0069704960600942955,
+          "x": 0.0225,
+          "theta": 0.0
+        },
+        "twice_sampled_radius": 2.3148186235253436,
+        "reach_proxy_from_sample_extrema_not_bound": 0.12378695404751774,
+        "proxy_ratio_not_bound": 0.053475876161302394
+      },
+      "outer_available_range": {
+        "radius_max": {
+          "value": 0.8201585246762235,
+          "x": 1.77,
+          "theta": 0.0
+        },
+        "support_min": {
+          "value": 0.8201124989339127,
+          "x": 3.0,
+          "theta": 0.0
+        },
+        "principal_curvature_abs_max": {
+          "value": 0.19618836122081787,
+          "x": 1.77,
+          "theta": 3.9269908169872414
+        },
+        "gauss_max": {
+          "value": 0.037386082335509774,
+          "x": 1.77,
+          "theta": 0.7853981633974483
+        },
+        "gauss_min": {
+          "value": 0.031696820309798764,
+          "x": 3.0,
+          "theta": 0.7485826244881929
+        },
+        "tangent_angle_sine_min": {
+          "value": 0.9999999999999996,
+          "x": 1.8299999999999998,
+          "theta": 3.067961575771282
+        },
+        "curvature_discriminant_min": {
+          "value": 1.6034643363083134e-07,
+          "x": 3.0,
+          "theta": 0.01227184630308513
+        },
+        "full_nonmean_metric_relative_max": {
+          "value": 1.0337814846809576e-15,
+          "x": 1.785,
+          "theta": 5.387340527054372
+        }
+      },
+      "terminal_range_start": 2.75,
+      "terminal_range": {
+        "radius_max": {
+          "value": 0.820112499939381,
+          "x": 2.75,
+          "theta": 0.0
+        },
+        "support_min": {
+          "value": 0.8201124989339127,
+          "x": 3.0,
+          "theta": 0.0
+        },
+        "principal_curvature_abs_max": {
+          "value": 0.17923396437725936,
+          "x": 2.75,
+          "theta": 3.9392626632903265
+        },
+        "gauss_max": {
+          "value": 0.03200536792209243,
+          "x": 2.75,
+          "theta": 0.01227184630308513
+        },
+        "gauss_min": {
+          "value": 0.031696820309798764,
+          "x": 3.0,
+          "theta": 0.7485826244881929
+        },
+        "tangent_angle_sine_min": {
+          "value": 0.9999999999999996,
+          "x": 2.7725,
+          "theta": 3.448388811166921
+        },
+        "curvature_discriminant_min": {
+          "value": 1.6034643363083134e-07,
+          "x": 3.0,
+          "theta": 0.01227184630308513
+        },
+        "full_nonmean_metric_relative_max": {
+          "value": 7.740744268691109e-16,
+          "x": 2.9875000000000003,
+          "theta": 4.405592822807561
+        }
+      },
+      "waist_witness": {
+        "phase_angle": 0.7853981633974483,
+        "point_phase_zero": [
+          1.0679442075722019,
+          0.0,
+          -8.845964596412522e-19
+        ],
+        "point_phase_pi_over_four": [
+          0.9415498948905429,
+          8.315439003934757e-18,
+          -5.66004910225279e-18
+        ],
+        "normal_phase_zero": [
+          1.0,
+          -0.0,
+          2.55900731060677e-15
+        ],
+        "normal_phase_pi_over_four": [
+          1.0,
+          2.089429716909343e-18,
+          1.175313956877692e-15
+        ],
+        "signed_normal_gap": 0.12639431268165902,
+        "normal_gap_abs": 0.12639431268165902,
+        "tangential_defect": 1.4403329965415068e-16,
+        "point_distance": 0.12639431268165902,
+        "parity_sum": 0.1263943126816593,
+        "contributions_by_order": {
+          "1": 0.1263943126816593
+        },
+        "meridian_vertical_derivative": [
+          0.980619720338744,
+          0.9806179937386218
+        ],
+        "angular_y_derivative": [
+          1.0013492436132585,
+          1.0050504848413937
+        ],
+        "gap_over_twice_sampled_radius_not_certificate": 0.054602253237952314
+      }
+    }
+  ]
+}

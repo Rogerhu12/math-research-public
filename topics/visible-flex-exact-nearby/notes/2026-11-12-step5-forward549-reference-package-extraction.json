@@ -1,0 +1,119 @@
+{
+  "kind": "exact_single_segment_reference_extraction_check",
+  "complete": true,
+  "source_sha256": "3863aae2e5259d17023d6ba3a8cfc3e55bbf8fef431803dca27ccec140e1d0b2",
+  "package": {
+    "path": "data/phase_ring_continuation/step5_forward549_exact_reference_package.npz.gz",
+    "sha256": "ddfaf470a6d64badee122b637c8ce6234db379f8f1da1473db431eced2fa16a7",
+    "bytes": 254689
+  },
+  "identity": {
+    "leg": "forward",
+    "segment": 549,
+    "branch_sign": -1.0,
+    "old_exact_delta_fraction": "-7789866024620307/4611686018427387904",
+    "target_exact_delta_fraction": "-7789843107295549/4611686018427387904",
+    "target_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "target_root_sha256": "489268d254c2a9454ccbee32a4821d9bf577279490f76c9cc6f8d902a5e64e0b",
+    "target_H_sha256": "0439d88f10f46d367e44a984db661ac3806a7bd052f46eca14e71594fa8eb2c2"
+  },
+  "exact_time_rows": [
+    {
+      "kind": "rational",
+      "numerator": "870503808124503",
+      "denominator": "562949953421312"
+    },
+    {
+      "kind": "rational_multiple_of_pi",
+      "numerator": 1,
+      "denominator": 2
+    }
+  ],
+  "original_coefficient_sources": {
+    "base": {
+      "path": "data/phase_ring_continuation/step4_shared1032_reference_forward/segments_00528.npz.gz",
+      "sha256": "8768c07dfb573fcbd8ad35aaa378cd19378cbd3047d82205965dbdded7ea8324",
+      "bytes": 2507769,
+      "selected_global_segment": 549,
+      "selected_control": null
+    },
+    "Q": {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00528.npz.gz",
+      "sha256": "8f45a4c9ba083202c7d55b3df25ae0e7f8027675269a28fd872c7e4c25008508",
+      "bytes": 311241,
+      "selected_global_segment": 549,
+      "selected_control": null
+    },
+    "forward_end_Q": {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00528.npz.gz",
+      "sha256": "8f45a4c9ba083202c7d55b3df25ae0e7f8027675269a28fd872c7e4c25008508",
+      "bytes": 311241,
+      "selected_global_segment": 549,
+      "selected_control": 7
+    }
+  },
+  "original_JSONs": {
+    "descriptor": {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/descriptor.json",
+      "sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+      "bytes": 3129
+    },
+    "old_forward_reference": {
+      "path": "data/phase_ring_continuation/step4_shared1032_reference_forward/manifest.json",
+      "sha256": "43cbffb2e0b924b6d69608df54e0acf3cf8ecd66c030b7343e84864ad6eb81a0",
+      "bytes": 99605
+    },
+    "old_backward_reference": {
+      "path": "data/phase_ring_continuation/step4_shared1032_reference_backward/manifest.json",
+      "sha256": "0ad615a077a0c313d0700c3a6392f39250617257b93197ba1f5f766716191a07",
+      "bytes": 99868
+    },
+    "Q_forward": {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/manifest.json",
+      "sha256": "f1e7556a13aef2a4e5661fc00c1e9c4eda961335fb8685d26bcef550b7b147ce",
+      "bytes": 76482
+    },
+    "Q_backward": {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/Q_backward/manifest.json",
+      "sha256": "6759d5c65842a32ad9c9f4ad7e8ccd51b264f6d5d9b7e29549ec409cd1554b5e",
+      "bytes": 76501
+    },
+    "initial_correction": {
+      "path": "data/phase_ring_continuation/step5_retargeted_reference/initial_correction.json",
+      "sha256": "095a980a31bbeb4bfb3f61510bedfe8bf822e4f48602df82f3a9404ad884ea5c",
+      "bytes": 39888
+    },
+    "target_object": {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "bytes": 1638
+    },
+    "target_root": {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_root_tight.json",
+      "sha256": "489268d254c2a9454ccbee32a4821d9bf577279490f76c9cc6f8d902a5e64e0b",
+      "bytes": 12640
+    },
+    "target_H": {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_dyadic_H.json",
+      "sha256": "0439d88f10f46d367e44a984db661ac3806a7bd052f46eca14e71594fa8eb2c2",
+      "bytes": 122427
+    }
+  },
+  "freshly_reloaded_source_arrays_bitwise_equal": {
+    "base_real": true,
+    "base_imag": true,
+    "Q_real": true,
+    "Q_imag": true,
+    "forward_end_Q_real": true,
+    "forward_end_Q_imag": true
+  },
+  "all_embedded_original_JSON_byte_hashes_verified": true,
+  "loader_does_not_open_original_source_paths": true,
+  "elapsed_seconds": 1.090386130999832,
+  "cpu_seconds": 0.136947838,
+  "limitations": [
+    "This is the complete exact chosen finite reference for one segment.",
+    "The package contains all Fourier modes and the complete symbolic correction; no resampling was used.",
+    "It does not prove true-field accuracy, a whole branch, a residual or a flow."
+  ]
+}

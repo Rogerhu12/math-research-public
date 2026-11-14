@@ -1,0 +1,181 @@
+{
+  "kind": "actual_middle_angular_width_payment_for_compensated_radial_transversality",
+  "complete": true,
+  "executed": true,
+  "arithmetic": "normalized exact BigInt rational",
+  "gate_count": 21,
+  "gates": [
+    {
+      "name": "delta_log_lower",
+      "left": "8/1",
+      "right": "25/2",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "delta_log_upper",
+      "left": "25/2",
+      "right": "16/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "middle_threshold_exponent_is_greater_than_two",
+      "left": "2/1",
+      "right": "1969/2",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "first_J_is_below_2pow14",
+      "left": "8198/1",
+      "right": "16384/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "first_layer_exponent_is_above_14",
+      "left": "14/1",
+      "right": "8193/512",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "J_induction_geometric_series_ratio_below_one",
+      "left": "256/4099",
+      "right": "1/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "J_induction_512_power_below_two",
+      "left": "4099/3843",
+      "right": "2/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "constant_log_fee",
+      "left": "134217728/1",
+      "right": "134316032/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "delta_log_fee",
+      "left": "285554/1",
+      "right": "524288/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "J_log_fee",
+      "left": "144890/1",
+      "right": "262144/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "all_layer_only_fees",
+      "left": "18889465931478581657600/1",
+      "right": "37778931862957161709568/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "frequency_log_coefficient",
+      "left": "9983/4",
+      "right": "4096/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "threshold_reciprocal_bit",
+      "left": "115/1",
+      "right": "115/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "frequency_log_reciprocal_bit",
+      "left": "52/1",
+      "right": "52/1",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "two_nonfrequency_terms",
+      "left": "41538374868278621032747570261131264/1",
+      "right": "83076749736557242056487941267521536/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "layer_delta_exponent",
+      "left": "61/512",
+      "right": "61/512",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "frequency_delta_exponent",
+      "left": "763/1024",
+      "right": "763/1024",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "first_layer_only_width_fee_less_than_2pow_minus801",
+      "left": "469504/1",
+      "right": "499773/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "first_frequency_width_fee_less_than_2pow_minus801",
+      "left": "892928/1",
+      "right": "6251259/1",
+      "relation": "lt",
+      "pass": true
+    },
+    {
+      "name": "sum_of_two_width_fees",
+      "left": "1/6668014432879854274079851790721257797144758322315908160396257811764037237817632071521432200871554290742929910593433240445888801654119365080363356052330830046095157579514014558463078285911814024728965016135886601981690748037476461291163877376",
+      "right": "1/6668014432879854274079851790721257797144758322315908160396257811764037237817632071521432200871554290742929910593433240445888801654119365080363356052330830046095157579514014558463078285911814024728965016135886601981690748037476461291163877376",
+      "relation": "eq",
+      "pass": true
+    },
+    {
+      "name": "conversion_to_original_h",
+      "left": "1/53344115463038834192638814325770062377158066578527265283170062494112297902541056572171457606972434325943439284747465923567110413232954920642906848418646640368761260636112116467704626287294512197831720129087092815853525984299811690329311019008",
+      "right": "1/53344115463038834192638814325770062377158066578527265283170062494112297902541056572171457606972434325943439284747465923567110413232954920642906848418646640368761260636112116467704626287294512197831720129087092815853525984299811690329311019008",
+      "relation": "eq",
+      "pass": true
+    }
+  ],
+  "inputs": {
+    "kernel_separation_proof_blob": "8b5e908a0da26a3a6038de2808cbe41c9849f439",
+    "compact_control_proof_blob": "5662bf40391a53a2212311406cf7ad63064908fc",
+    "compact_control_result": "R119-supplement-quantitative-phase-preserving-compact-control.md",
+    "controlled_full_label_proof_blob": "f11edbccd752bf034aa40e71888859d667a04b42"
+  },
+  "domain": {
+    "j_min": "8193",
+    "delta": "(2/25)*2^-j",
+    "J": "j+5",
+    "magnitude_min": "2^-40*delta^-1/8",
+    "original_h": "8*delta^1/256"
+  },
+  "old_derivative_lower": "2^(-2^27)*delta^285554*(j+5)^-144890*M^-19966*exp(-2^74*(j+5)-2^71*M*delta^3/4*sqrt(j+5))",
+  "log_reciprocal_upper": "2^-800*M*delta^1/256 = 2^-803*M*h_j",
+  "resulting_derivative_lower": "exp(-2^-803*M*h_j)",
+  "whole_window_proved": true,
+  "all_modes_below_middle_covered": false,
+  "finite_parameter_bad_set_proved": false,
+  "coupled_nonradial_matrix_inverted": false,
+  "original_zeta_and_h_unchanged": true,
+  "radial_low_source_weight_changed": false,
+  "producer_sha256": "ecdd4500a2e98d5e0c27835cfabb224fa49b8ccf1f641cf8d00eac5466968874",
+  "execution_engine": "functions.exec V8",
+  "executed_at_UTC": "2026-11-14 01:38:42 UTC"
+}

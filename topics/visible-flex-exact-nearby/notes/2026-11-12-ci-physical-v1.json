@@ -1,0 +1,105 @@
+{
+  "kind": "actual_physical_v1_full_Fourier_enclosure",
+  "proved": true,
+  "source_path": "scripts/fourfold_phase_physical_v1_fourier.py",
+  "source_sha256": "b00eaf2b1389a8bee9541c18962f25d2178f903fab1f865eff41130b443c9b86",
+  "bits": 320,
+  "identity": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "grid_path": "data/root_finite_grid/grid4096_h1e9/manifest.json",
+  "grid_sha256": "3e9e902d540bfd2cd159492af2667d32db3580cc14d0dea5c80b3d768228af0f",
+  "original_v1_complex_path": "notes/2026-11-12-actual-root-complex-potential-variation.json.gz",
+  "original_v1_complex_sha256": "47d68aa52435e786e0b8af05ee09f12a44d163165a9c08e144b599483578bd61",
+  "exact_physical_strip": "1/256",
+  "physical_grid": 4096,
+  "coefficient_path": "notes/2026-11-12-ci-physical-v1.npz",
+  "coefficient_sha256": "b85c556850ea7d345f8d2809b4b59bb8c3ff5130c040f91bdd9694f2b2d1c981",
+  "coefficient_representation": "P=c0+2*sum(c_n*cos(4n theta),1<=n<K)+c_K*cos(4K theta); exact binary64 dyadics",
+  "even_reflection_from_exact_original_geometry": true,
+  "mean_retained": true,
+  "complete_original_infinite_primitive_error_retained": true,
+  "fields": {
+    "v1": {
+      "complete_complex_modulus": {
+        "ball": "2380464.9902343750000000000000000000",
+        "lower": "2380464.9902343750000000000000000000",
+        "upper": "2380464.9902343750000000000000000000",
+        "mid_float": 2380464.990234375,
+        "radius_upper_float": 0.0
+      },
+      "discrete_nodal_RMS_error": {
+        "ball": "[0.0071843972851643096792679364428267431 +/- 1.72e-38]",
+        "lower": "[0.0071843972851643096792679364428267431 +/- 1.72e-38]",
+        "upper": "[0.0071843972851643096792679364428267431 +/- 1.72e-38]",
+        "mid_float": 0.00718439728516431,
+        "radius_upper_float": 0.0
+      },
+      "maximum_nodal_ball_error": {
+        "ball": "0.010668420363799668848514556884765625",
+        "lower": "0.010668420363799668848514556884765625",
+        "upper": "0.010668420363799668848514556884765625",
+        "mid_float": 0.010668420363799669,
+        "radius_upper_float": 0.0
+      },
+      "full_analytic_alias_error": {
+        "ball": "[7.7779805147158996723486532905507109e-6 +/- 2.28e-41]",
+        "lower": "[7.7779805147158996723486532905507109e-6 +/- 2.28e-41]",
+        "upper": "[7.7779805147158996723486532905507109e-6 +/- 2.28e-41]",
+        "mid_float": 7.777980514715899e-06,
+        "radius_upper_float": 0.0
+      },
+      "finite_DFT_L1_rounding": {
+        "ball": "[1.0410610741498907026495498116052689e-10 +/- 4.54e-45]",
+        "lower": "[1.0410610741498907026495498116052689e-10 +/- 4.54e-45]",
+        "upper": "[1.0410610741498907026495498116052689e-10 +/- 4.54e-45]",
+        "mid_float": 1.0410610741498907e-10,
+        "radius_upper_float": 0.0
+      },
+      "finite_DFT_L2_rounding": {
+        "ball": "[1.0306236814432258750678007032573060e-10 +/- 4.65e-45]",
+        "lower": "[1.0306236814432258750678007032573060e-10 +/- 4.65e-45]",
+        "upper": "[1.0306236814432258750678007032573060e-10 +/- 4.65e-45]",
+        "mid_float": 1.0306236814432258e-10,
+        "radius_upper_float": 0.0
+      },
+      "real_L2_error": {
+        "ball": "[0.0071921753687413937232628726028973642 +/- 4.62e-38]",
+        "lower": "[0.0071921753687413937232628726028973642 +/- 4.62e-38]",
+        "upper": "[0.0071921753687413937232628726028973642 +/- 4.62e-38]",
+        "mid_float": 0.007192175368741394,
+        "radius_upper_float": 0.0
+      },
+      "real_uniform_error": {
+        "ball": "[0.080749994708012475615097328347643301 +/- 6.7e-39]",
+        "lower": "[0.080749994708012475615097328347643301 +/- 6.7e-39]",
+        "upper": "[0.080749994708012475615097328347643301 +/- 6.7e-39]",
+        "mid_float": 0.08074999470801247,
+        "radius_upper_float": 0.0
+      }
+    }
+  },
+  "dependencies": {
+    "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+    "fourfold_phase_root_fourier_fit.py": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604"
+  }
+}

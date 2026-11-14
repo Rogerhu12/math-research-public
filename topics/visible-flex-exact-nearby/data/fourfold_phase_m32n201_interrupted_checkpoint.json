@@ -1,0 +1,207 @@
+{
+  "status": "floating saved third accepted iterate; process later exited137; not C2-converged",
+  "file": "topics/visible-flex-exact-nearby/data/fourfold_phase_m32n201_interrupted_checkpoint.npz",
+  "bytes": 121860,
+  "sha256": "20081f6a7118ee8d5c266e20adf8bd75e1ede37c1ad65644eeb735439a8ed315",
+  "metadata": {
+    "kind": "floating_R33_phase_candidate_not_closed_surface_proof",
+    "parameters": {
+      "modes": 32,
+      "points": 201,
+      "length": 3.0,
+      "mu_scale": 4.0,
+      "means": 3,
+      "gauge": "none",
+      "profile_points": 1201,
+      "mesh": "graded"
+    },
+    "beta_waist": 0.2074748402240008,
+    "quarter_period_angles": 256,
+    "radial_gauss_points_per_interval": 3,
+    "amplitude_gauge": "beta4(0), not U4(0) or kernel projection",
+    "mean_radius": "circumference radius; includes explicitly saved source conversion shift",
+    "source_position": "topics/visible-flex-exact-nearby/data/fourfold_overcollocation_m24n151_graded_checkpoint.npz",
+    "limitations": [
+      "Floating arithmetic",
+      "Finite radial splines and Robin endpoint",
+      "FFT primitive approximates exact infinite angular field",
+      "No fixed caps or certified reach"
+    ]
+  },
+  "diagnostic": {
+    "kind": "floating_actual_finite_primitive_samples_not_bounds",
+    "radial_samples": 1798,
+    "quarter_period_angles": 256,
+    "metric_operator_norm_sample": 2.4141687660040725e-05,
+    "at_x": 0.0175,
+    "at_theta": 1.5401167110371838,
+    "exact_angular_formula_vs_finite_primitive_jet_max": 6.734679480757677e-11,
+    "twice_sampled_radius": 2.578898062530205,
+    "waist_radial_gap": 0.13284432932547197,
+    "gap_ratio_sample": 0.05151205131199948,
+    "actual_U4_at_waist": 0.060097190957006975,
+    "beta4_at_waist": 0.20747484022400084,
+    "phase_retained_metric_coefficient_sample": 9.346444566694159e-06,
+    "phase_retained_peak": {
+      "mode": 4,
+      "component": "xx",
+      "x": 0.23457829476782235
+    },
+    "above_phase_cutoff_metric_coefficient_sample": 1.8917448803132478e-06,
+    "above_phase_cutoff_peak": {
+      "mode": 132,
+      "component": "xt",
+      "x": 0.015
+    },
+    "max_abs_principal_curvature_sample": 7.769410559515704,
+    "minimum_support_sample": 0.9224788752869324,
+    "waist_second_form_samples": {
+      "detII_min": -1.6021966968668142,
+      "detII_max": -0.9864438249817092,
+      "N_min": -9.019971230065872,
+      "N_max": -0.5009065011713945,
+      "gauss_min": -1.0881875269012475,
+      "gauss_max": -0.669965674007216
+    }
+  },
+  "alpha": [
+    0.8006369437528564,
+    -0.0020915963313457497,
+    -0.060986561451011057
+  ],
+  "phase_amplitudes": [
+    {
+      "x": 0.0,
+      "beta_last8": [
+        0.0006055347407129604,
+        0.0005097309055075431,
+        0.0004031795224514531,
+        0.00025309202194304803,
+        0.00024071461454775117,
+        0.0001695168962312095,
+        0.00018598012371016194,
+        0.0002917903127856181
+      ],
+      "gamma_last8": [
+        -5.05070524280637e-22,
+        -6.0891190494277555e-22,
+        -5.528013674982757e-22,
+        -9.510261580050151e-22,
+        -8.202472658402871e-22,
+        -1.1695487397510005e-21,
+        -1.237306821288205e-21,
+        -2.378281812893461e-22
+      ]
+    },
+    {
+      "x": 0.03,
+      "beta_last8": [
+        0.00042126718047060815,
+        0.00033612994021076423,
+        0.00025896163139769627,
+        0.00018957657503770802,
+        0.00012471676517948488,
+        2.204495187905147e-05,
+        -3.456668311263541e-05,
+        -7.322394092093519e-05
+      ],
+      "gamma_last8": [
+        -5.782777732098136e-06,
+        -4.109470822094537e-06,
+        -3.938922986679133e-06,
+        -3.6856101229260603e-06,
+        -3.5475395723457312e-06,
+        -5.28662765414727e-06,
+        -5.3393566719704805e-06,
+        -6.206651365463785e-06
+      ]
+    },
+    {
+      "x": 0.1,
+      "beta_last8": [
+        0.0007092977324094325,
+        0.00047272065315811753,
+        0.00025863740744501,
+        9.159488551429041e-05,
+        -3.114999178599404e-06,
+        -5.5081942530036566e-05,
+        -7.779988834599781e-05,
+        -6.794162528409622e-05
+      ],
+      "gamma_last8": [
+        2.0235607233401168e-05,
+        6.511453084431976e-06,
+        -5.481730402420159e-06,
+        -1.3981113599433764e-05,
+        -1.5648674341606308e-05,
+        -1.505846913101424e-05,
+        -1.3932349172518017e-05,
+        -1.1344541610418657e-05
+      ]
+    },
+    {
+      "x": 0.22,
+      "beta_last8": [
+        0.0004194229018327196,
+        0.0005804214625427493,
+        0.0002906185699775769,
+        -0.00022387750440089438,
+        -0.00043911796927341944,
+        -0.00030337636462671104,
+        -0.00010928550555949617,
+        5.8362277717572614e-05
+      ],
+      "gamma_last8": [
+        4.731935914678171e-06,
+        7.468223962138338e-05,
+        3.764469356705158e-05,
+        -4.875899429412574e-05,
+        -7.2263489500991e-05,
+        -3.355965843553194e-05,
+        -1.6431488852376332e-06,
+        2.6644695864550495e-05
+      ]
+    },
+    {
+      "x": 0.5,
+      "beta_last8": [
+        5.33924126139928e-10,
+        2.301145074035627e-10,
+        9.14784211320049e-11,
+        3.39195179463746e-11,
+        1.296611445302016e-11,
+        1.2417137403649782e-11,
+        2.8923148047305552e-12,
+        4.014747707924981e-12
+      ],
+      "gamma_last8": [
+        -1.3217547873074846e-10,
+        -5.997370091691455e-11,
+        -2.446614687550668e-11,
+        -9.310732921691921e-12,
+        -3.766119657965146e-12,
+        -2.685560034062601e-12,
+        -9.077568216530326e-13,
+        1.2438613469328477e-12
+      ]
+    }
+  ],
+  "computation": {
+    "modes": 32,
+    "points": 201,
+    "quarter_period_angles": 256,
+    "gauss_per_interval": 3,
+    "solver": "banded mean Schur",
+    "initial_regularization": 1e-06,
+    "last_accepted_regularization": 3.333333333333333e-07,
+    "accepted_iterations": 3,
+    "last_accepted_cost": 6.191594166760913e-12
+  },
+  "limitations": [
+    "Finite radial problem with a Robin endpoint",
+    "Nonzero radial metric error",
+    "Large measured C2 difference from the M24 graph",
+    "No assertion that this sequence converges in C2",
+    "No exact caps or closed isometric family"
+  ]
+}

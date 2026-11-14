@@ -1,0 +1,325 @@
+{
+  "kind": "actual_current_moving_positive_root_Riccati_all_frequency_contract",
+  "complete": true,
+  "arithmetic": "normalized BigInt rational inequalities; no binary native reads",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "source": "scripts/fourfold_codazzi_current_positive_root_Riccati_budget.mjs",
+  "inputs": [
+    {
+      "path": "results/R133-supplement-current-moving-body-physical-complex-germ.md",
+      "git_blob": "bfe73ee59142618bc7e36d5e3fe06929d9fb68cb",
+      "scope": "all current-centre quantities used here"
+    },
+    {
+      "path": "results/R133-supplement-actual-physical-fold-and-full-Airy-collar.md",
+      "git_blob": "90daf082281a7dfd6616f62e5c187795bf2324ea",
+      "scope": "only same intrinsic whole-eta Kprime bound, no old nonradial quantity"
+    },
+    {
+      "path": "results/R133-supplement-complete-moving-band-and-mean-parameter-Schur.md",
+      "git_blob": "a51dbc432d2945bad9a7deb5d985ca021676030b",
+      "scope": "complete moving operator, band, parameter, mean, physical boundary formulas"
+    }
+  ],
+  "domain": {
+    "left": "the true current intrinsic root r*(eta)",
+    "right": "r*(eta)+9/1000000",
+    "whole_original_eta": true,
+    "one_actual_PPoly_piece": 2549,
+    "joins_inside": false
+  },
+  "high": {
+    "first_index": 97,
+    "first_physical_frequency": 388,
+    "complete_unbounded_frequency_set": true,
+    "reference": "true positive scalar Riccati/Wronskian DN at both ends; Robin M^(2/3)",
+    "full_E_upper": "14383799/1261",
+    "contraction_upper": "129454191/1261000000",
+    "base_resolvent": "8/7",
+    "H1_resolvent": "3/2",
+    "H2_resolvent": "6"
+  },
+  "head": {
+    "max_index": 96,
+    "reflection_dimension": 193,
+    "with_global_scalar_parameter": 194,
+    "all_allowed_means_retained": true,
+    "shell_first_index": 33,
+    "shell_last_index": 96,
+    "complete_schur_contraction_upper": "1921439637/250000000000"
+  },
+  "all_frequency_bounds": {
+    "source_L2r_Hthird_to_state_L2": "1/8000",
+    "incoming_ports_to_state_L2": "3/250",
+    "source_to_complete_two_end_raw_moving_traces": "1/25",
+    "incoming_ports_to_complete_two_end_raw_moving_traces": "27/5"
+  },
+  "ports": {
+    "low": "both complete head Cauchy rows at the true root, including means",
+    "high": "stable reference row at true root and unstable reference row at right endpoint",
+    "root_soft_Airy_frame_both_directions": "5",
+    "right_soft_Airy_frame_both_directions": "6"
+  },
+  "permissions": {
+    "same_moving_operator": true,
+    "physical_theta_variation_bridge_paid_by_this_report": false,
+    "negative_return_paid": false,
+    "whole_positive_body_paid": false,
+    "exterior_regular_graph_paid": false,
+    "nonlinear_full_BVP_paid": false
+  },
+  "gates": [
+    {
+      "name": "h_square_root_exact",
+      "passed": true
+    },
+    {
+      "name": "root_union_and_h_strictly_inside_actual_piece",
+      "passed": true
+    },
+    {
+      "name": "strict_complex_margin_includes_root_enclosure",
+      "passed": true
+    },
+    {
+      "name": "eta_from_actual_physical_a_and_mean",
+      "passed": true
+    },
+    {
+      "name": "gamma_lower_from_eta_mean",
+      "passed": true
+    },
+    {
+      "name": "gamma_upper_and_rotational_gap_beta_budget",
+      "passed": true
+    },
+    {
+      "name": "actual_u_real_sup",
+      "passed": true
+    },
+    {
+      "name": "actual_u_phi_real_sup",
+      "passed": true
+    },
+    {
+      "name": "finite_u_A0_and_A1",
+      "passed": true
+    },
+    {
+      "name": "complete_v_A0",
+      "passed": true
+    },
+    {
+      "name": "complete_v_A1",
+      "passed": true
+    },
+    {
+      "name": "actual_positive_K_and_optical_slope",
+      "passed": true
+    },
+    {
+      "name": "Kmax_below_one_over_1600",
+      "passed": true
+    },
+    {
+      "name": "frequency_ratio_bound",
+      "passed": true
+    },
+    {
+      "name": "reference_W_upper_below_one_third",
+      "passed": true
+    },
+    {
+      "name": "reference_K_over_W_comparison_constants",
+      "passed": true
+    },
+    {
+      "name": "tanh_one_lower_by_positive_exponential_series",
+      "passed": true
+    },
+    {
+      "name": "uniform_W_lower_barrier",
+      "passed": true
+    },
+    {
+      "name": "Wronskian_log_frequency_bound",
+      "passed": true
+    },
+    {
+      "name": "Airy_weighted_frequency_constants",
+      "passed": true
+    },
+    {
+      "name": "S_sup_from_complete_real_fields",
+      "passed": true
+    },
+    {
+      "name": "sqrt_128_below_23_over_2",
+      "passed": true
+    },
+    {
+      "name": "full_d_phi_Wiener_budget",
+      "passed": true
+    },
+    {
+      "name": "reaction_a_sup_16",
+      "passed": true
+    },
+    {
+      "name": "reaction_e_sup_3",
+      "passed": true
+    },
+    {
+      "name": "reaction_offdiag_sup_11",
+      "passed": true
+    },
+    {
+      "name": "reaction_a_Wiener_915",
+      "passed": true
+    },
+    {
+      "name": "reaction_e_Wiener_307",
+      "passed": true
+    },
+    {
+      "name": "reaction_offdiag_Wiener_85",
+      "passed": true
+    },
+    {
+      "name": "whole_weighted_reaction_infinity_34",
+      "passed": true
+    },
+    {
+      "name": "whole_weighted_reaction_Wiener_1336",
+      "passed": true
+    },
+    {
+      "name": "complete_nonlocal_weighted_product_3700",
+      "passed": true
+    },
+    {
+      "name": "E0_below_11408",
+      "passed": true,
+      "exact_upper": "14383799/1261"
+    },
+    {
+      "name": "same_space_base_contraction_below_one_eighth",
+      "passed": true
+    },
+    {
+      "name": "H1_contraction_below_one_third",
+      "passed": true,
+      "exact_upper": "42394991/1261"
+    },
+    {
+      "name": "H2_contraction_below_five_sixths",
+      "passed": true,
+      "exact_upper": "112164563/1261"
+    },
+    {
+      "name": "H1_H2_frequency_commutator_constants",
+      "passed": true
+    },
+    {
+      "name": "source_and_state_factor_3",
+      "passed": true
+    },
+    {
+      "name": "ordinary_moving_high_source_gain_below_one_over_10000",
+      "passed": true
+    },
+    {
+      "name": "ordinary_moving_high_port_gain_below_011",
+      "passed": true
+    },
+    {
+      "name": "complete_high_trace_source_below_one_over_32",
+      "passed": true
+    },
+    {
+      "name": "complete_high_trace_port_below_24_over_5",
+      "passed": true
+    },
+    {
+      "name": "root_reference_two_way_Airy_frame_factor_5",
+      "passed": true
+    },
+    {
+      "name": "right_reference_two_way_soft_Airy_frame_factor_6",
+      "passed": true
+    },
+    {
+      "name": "drift_sup_below_2",
+      "passed": true
+    },
+    {
+      "name": "d_phi_sup_below_5",
+      "passed": true
+    },
+    {
+      "name": "complete_local_raw_matrix_below_31",
+      "passed": true
+    },
+    {
+      "name": "full_primitive_nonlocal_part_below_163",
+      "passed": true
+    },
+    {
+      "name": "true_mean_rank_part_below_49",
+      "passed": true
+    },
+    {
+      "name": "full_head_high_L2_and_Hthird_couplings",
+      "passed": true
+    },
+    {
+      "name": "complete_high_shell_Hthird_factor_9",
+      "passed": true
+    },
+    {
+      "name": "finite_head_full_generator_below_1800",
+      "passed": true
+    },
+    {
+      "name": "head_exponential_by_geometric_majorant",
+      "passed": true
+    },
+    {
+      "name": "complete_low_high_return_contraction_below_one_percent",
+      "passed": true,
+      "exact_upper": "1921439637/250000000000"
+    },
+    {
+      "name": "complete_head_response_matrix",
+      "passed": true
+    },
+    {
+      "name": "complete_high_response_matrix",
+      "passed": true
+    },
+    {
+      "name": "whole_frequency_source_gain_below_one_over_8000",
+      "passed": true
+    },
+    {
+      "name": "whole_frequency_port_gain_below_012",
+      "passed": true
+    },
+    {
+      "name": "complete_low_right_trace",
+      "passed": true
+    },
+    {
+      "name": "complete_high_two_end_trace",
+      "passed": true
+    },
+    {
+      "name": "low_two_end_port_factor_144",
+      "passed": true
+    },
+    {
+      "name": "whole_frequency_two_end_trace",
+      "passed": true
+    }
+  ]
+}

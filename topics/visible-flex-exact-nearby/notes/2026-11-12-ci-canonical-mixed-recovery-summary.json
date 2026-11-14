@@ -1,0 +1,78 @@
+{
+  "kind": "actual_recovered_mixed_complete_summary",
+  "proved": true,
+  "full_report_path": "ci-output/actual-canonical-mixed-recovery-complete.json.gz",
+  "full_report_sha256": "6f4c518f402dcb5b6fc7b19a50790e1e31d7d76e047f5bb2759aee66fb0ac93f",
+  "full_report_bytes": 5041047,
+  "actual_cells": 178,
+  "collector_source_sha256": "ae992a201768a6b63cad4dd1a01e3612f9e149580fcce5f5f72c5b483bc60720",
+  "native_source_sha256": "37f2e11402165075577d65349c2eebee830a6f17e11a6bcc94192dab3ed9be26",
+  "base_cover_sha256": "786cc482a6890f8caf670a8131a0923dc1e2e2cb40faa96b269590baaf834f6e",
+  "actual_object": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/2500000",
+    "exact_parameter_interval": [
+      "-608725607945540621497/360287970189639680000000",
+      "-608437377569388909753/360287970189639680000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "root_certificate_sha256": "d83fe1e7ab3eed8baaf2448f2f6076212936633c69f58950720f6d372b03d99c",
+  "retained_native_root_order": 40,
+  "retained_E_order": 39,
+  "lost_previous_results_reconstructed_from_prose": false,
+  "actual_piece_sources": [
+    {
+      "path": "ci-output/parts/mixed-part-0.json.gz",
+      "sha256": "dd05ee4cfa9436f52e8c5cd00711336fa1fcd8e1827ebb265944b43f0154ccf1",
+      "first_index": 0,
+      "last_index": 30
+    },
+    {
+      "path": "ci-output/parts/mixed-part-1.json.gz",
+      "sha256": "997be47e221f55c37d7013a5653e3b8de0966d6515cdaa624694bc3337dde459",
+      "first_index": 30,
+      "last_index": 60
+    },
+    {
+      "path": "ci-output/parts/mixed-part-2.json.gz",
+      "sha256": "deae6b7dac749f3ddd716e69d94b66f4a0981a59ae57f8345d72fd14598bae02",
+      "first_index": 60,
+      "last_index": 90
+    },
+    {
+      "path": "ci-output/parts/mixed-part-3.json.gz",
+      "sha256": "fbaa06f06511195b9c7b5cbc50b1b16541446094a010fb10a09db5cb5f284843",
+      "first_index": 90,
+      "last_index": 120
+    },
+    {
+      "path": "ci-output/parts/mixed-part-4.json.gz",
+      "sha256": "955aa48078148f96fc7c5941f5e78b4c390d7cc938318b04ebde345b1d10ab25",
+      "first_index": 120,
+      "last_index": 150
+    },
+    {
+      "path": "ci-output/parts/mixed-part-5.json.gz",
+      "sha256": "f845ee054cc3864e77089d486f008066116577649b19430fcd50b889d3904e46",
+      "first_index": 150,
+      "last_index": 178
+    }
+  ],
+  "exact_reassembly_manifest": "notes/2026-11-12-canonical-mixed-recovery-complete-parts/manifest.json",
+  "exact_reassembly_manifest_sha256": "7079605bb9dcb1876fda9f581170482f0064a44f7a42625c453dfc6e7f38faf4",
+  "preservation_run_id": "43301491511"
+}

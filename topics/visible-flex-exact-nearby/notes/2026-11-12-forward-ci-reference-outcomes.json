@@ -1,0 +1,100 @@
+{
+  "kind": "actual_CI_reference_cache_recovery_outcomes",
+  "failure_run": 43269259543,
+  "failure": "first recovered original raw shard SHA differs; exact checker rejected it; numerical cause unresolved",
+  "success_run": 43270092696,
+  "success_complete": true,
+  "success_total_forward_segments": 550,
+  "recovered_raw_and_reference_shards_checked_against_historical_SHA": true,
+  "archive_artifact_id": 13968591869,
+  "archive_artifact_name": "visible-exact-forward-reference-cache",
+  "archive_artifact_bytes": 70748328,
+  "archive_artifact_sha256": "cc8d3b6c611d604b798b5ac7c46c1b017a644d444cf1747cd3f65cfbc085bee9",
+  "cache_tar_bytes": 70748160,
+  "cache_tar_sha256": "6c5d10b4f1a4c67d05059bd661c813ea06d60b4c16a967905f277a0f572ea831",
+  "source_sha256": "bcf9fe92ef39f2a2754dbe05c76818537b7931e5e8b8c0ae83dcb1971460b5b1",
+  "files": [
+    {
+      "path": "notes/2026-11-12-forward-ci-reference-outcomes/43269259543/bootstrap.log",
+      "bytes": 480,
+      "sha256": "5c65bba0c6549cfcd6ab094187e6c501ea7a111ec40ed6e817022adb98a30a27"
+    },
+    {
+      "path": "notes/2026-11-12-forward-ci-reference-outcomes/43269259543/forward-reference-cache-proof.json",
+      "bytes": 2041,
+      "sha256": "c305eae72cb46627e94497361acbacc738f0a10649e979366111e65cce72cdc3"
+    },
+    {
+      "path": "notes/2026-11-12-forward-ci-reference-outcomes/43269259543/raw-progress.json",
+      "bytes": 307,
+      "sha256": "99681b701c235514935a2c7ec7c8bb141e0ad8f69782a948c5d1c75584a4257f"
+    },
+    {
+      "path": "notes/2026-11-12-forward-ci-reference-outcomes/43269259543/download-metadata.json",
+      "bytes": 801,
+      "sha256": "202abe6678d1e2118131ba439066b6a45bd8e815d446e0e6a4b6acbac4abbf88"
+    },
+    {
+      "path": "notes/2026-11-12-forward-ci-reference-outcomes/43270092696/bootstrap.log",
+      "bytes": 497,
+      "sha256": "f137b69cc889b79797c7ecc86366d63036d964392234825be3a992c28a5b66eb"
+    },
+    {
+      "path": "notes/2026-11-12-forward-ci-reference-outcomes/43270092696/forward-reference-cache-proof.json",
+      "bytes": 17538,
+      "sha256": "ddd9d95c7ea3724d25516c4ab3e120f92fc3a152328402dc77d2ba2418f09bd8"
+    },
+    {
+      "path": "notes/2026-11-12-forward-ci-reference-outcomes/43270092696/raw-progress.json",
+      "bytes": 307,
+      "sha256": "9d5c41741c7fdb6a8f89c86030ef9f0ef325997ed196ec1e57a2932e9d850a0e"
+    },
+    {
+      "path": "notes/2026-11-12-forward-ci-reference-outcomes/43270092696/download-metadata.json",
+      "bytes": 802,
+      "sha256": "99c7f943cdd2ae990a91d356be07614de339e1f60495c6352da7b3f538f565be"
+    }
+  ],
+  "cache_not_committed": true,
+  "full_actual_return_or_KAM_claimed": false,
+  "following_workflow": "visible-exact-forward-density-blocks.yml",
+  "following_worker": "fourfold_ci_density_block_v3.py",
+  "following_blocks": [
+    [
+      55,
+      110
+    ],
+    [
+      110,
+      165
+    ],
+    [
+      165,
+      220
+    ],
+    [
+      220,
+      275
+    ],
+    [
+      275,
+      330
+    ],
+    [
+      330,
+      385
+    ],
+    [
+      385,
+      440
+    ],
+    [
+      440,
+      495
+    ],
+    [
+      495,
+      550
+    ]
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "passed": true,
+  "gate_count": 24,
+  "gates": [
+    {
+      "name": "actual_two_trace_det",
+      "passed": true,
+      "detail": "-omega + omega/M**2"
+    },
+    {
+      "name": "actual_finite_long_row",
+      "passed": true,
+      "detail": "Matrix([[coth*omega + omega/M, -1 - coth/M]])"
+    },
+    {
+      "name": "C_column_bound",
+      "passed": true,
+      "detail": "15/8 < 2"
+    },
+    {
+      "name": "C_inverse_column_one",
+      "passed": true,
+      "detail": "36/35 < 2"
+    },
+    {
+      "name": "C_inverse_column_two",
+      "passed": true,
+      "detail": "44/35 < 2"
+    },
+    {
+      "name": "full_angle_margin",
+      "passed": true,
+      "detail": "2^-39-2^-99 > 2^-40"
+    },
+    {
+      "name": "trace_reconstruction_fee",
+      "passed": true,
+      "detail": "3*2^40 < 2^42"
+    },
+    {
+      "name": "full_projector_fee",
+      "passed": true,
+      "detail": "1+2^43 < 2^44"
+    },
+    {
+      "name": "projector_full_matrix",
+      "passed": true,
+      "detail": "Matrix([[-coth*x1/(coth*x1 + x2) + 1, -x1/(coth*x1 + x2)], [-coth*x2/(coth*x1 + x2), -x2/(coth*x1 + x2) + 1]])"
+    },
+    {
+      "name": "projector_kernel_actual_allowed_line",
+      "passed": true,
+      "detail": "Matrix([[-x1*x2/(coth*x1 + x2) + x1*(-coth*x1/(coth*x1 + x2) + 1)], [-coth*x1*x2/(coth*x1 + x2) + x2*(-x2/(coth*x1 + x2) + 1)]])"
+    },
+    {
+      "name": "projector_raw_Dirichlet_range",
+      "passed": true,
+      "detail": "Matrix([[-coth*x2/(coth*x1 + x2) + coth*(-coth*x1/(coth*x1 + x2) + 1), -coth*x1/(coth*x1 + x2) - x2/(coth*x1 + x2) + 1]])"
+    },
+    {
+      "name": "source_boundary_fee",
+      "passed": true,
+      "detail": "2^44 * 2^-431 = 2^-387"
+    },
+    {
+      "name": "continuous_source_boundary_fee",
+      "passed": true,
+      "detail": "2^450 * 2^-387 = 2^63"
+    },
+    {
+      "name": "true_regular_raw_height",
+      "passed": true,
+      "detail": "1 + (A0 - 4*omega)*(gamma/M**2 - 1/A0)/(1 - 1/M**2)"
+    },
+    {
+      "name": "raw_height_gap_fee",
+      "passed": true,
+      "detail": "(2^-34/4)/(15/16) < 2^-35"
+    },
+    {
+      "name": "raw_height_strict_sign",
+      "passed": true,
+      "detail": "gamma/M^2 < 1/20 < 1/A0"
+    },
+    {
+      "name": "raw_Dirichlet_companion_initial_state",
+      "passed": true,
+      "detail": "Matrix([[1/((1 + (A0 - 4*omega)*(gamma/M**2 - 1/A0)/(1 - 1/M**2))*(M**2 - 1))], [M**2*omega/((1 + (A0 - 4*omega)*(gamma/M**2 - 1/A0)/(1 - 1/M**2))*(M**2 - 1))]])"
+    },
+    {
+      "name": "companion_affine_grounded_row_one",
+      "passed": true,
+      "detail": "p_v + gamma*v_v = 1, although v_v need not be zero"
+    },
+    {
+      "name": "raw_Wronskian_minus_one",
+      "passed": true,
+      "detail": "W_raw(q,v) = -1"
+    },
+    {
+      "name": "grounded_Wronskian_plus_one",
+      "passed": true,
+      "detail": "W_grounded(q,v) = 1"
+    },
+    {
+      "name": "full_companion_Y_initial_norm",
+      "passed": true,
+      "detail": "M^2 ||Y_v(0)||^2 <= 606208/216225 < 4"
+    },
+    {
+      "name": "balanced_B_frame_fee",
+      "passed": true,
+      "detail": "sqrt(2^86+64) < 2^44"
+    },
+    {
+      "name": "complete_Green_differentiation",
+      "passed": true,
+      "detail": "q[v,J]-v[q,J] = -W(q,v)J = J"
+    },
+    {
+      "name": "all_weak_source_pairing",
+      "passed": true,
+      "detail": "[q,J]=q_h(s-imFtheta)+q_h' Ft"
+    }
+  ],
+  "object": "same actual fixed Gamma0, same true all-mode good bump, full nonzero fourfold spectrum",
+  "scope": {
+    "homogeneous_trace_inverse": "Z_sigma to C_sigma < 2^42",
+    "full_raw_Dirichlet_projector": "C_sigma to C_sigma < 2^44",
+    "discrete_source_B_two_traces": "F_beta to C_(beta-88823/400) < 2^-387",
+    "continuous_ordinary_and_weak_B_two_traces": "S1_beta(J) to same C space < 2^63",
+    "companion_boundary": "raw height zero, raw flux -1/b_m; not grounded height zero",
+    "actual_Green_Wronskian": "-1",
+    "still_required": "same-weight interior norm of full two-column Green acting on actual DeltaG gradient, including all weak charges and means"
+  },
+  "file_sha256": {
+    "results/R119-supplement-actual-boundary-Schur-projector-and-interior-Green-kernel.md": "a03f8ec20bd81489c8960ad0a38e5751591b56eedbc7f7ba8f47c547213c628a",
+    "scripts/fourfold_actual_boundary_Schur_Green_20261113.py": "6bd5b8b24d7eace5d83645eca4d16f9b1f9d1b57e4cbe165f45b840c9a7b026a",
+    "results/R119-supplement-actual-exterior-Schur-and-full-weak-Wronskian.md": "ef1e50c409848f0da793e331d260ae056274c1a548781209c26bad072273e3f0",
+    "results/R119-supplement-stronger-tail-raw-labels-sources-and-regular-boundary.md": "1fe5a4a7e10dfb1362a47d91eb9276ef9499bbc6f57c5c73fdb8fdd7665568ca",
+    "results/R74-actual-full-tail-robin-and-augmented-positive-cap.md": "174bc93631b5ade0faf51160d7026e42d674916fd94e12cdb2315479458c18d8",
+    "results/R119-supplement-actual-strict-density-complete-relative-Cauchy.md": "dcf33b5e85b2a059963760d68b68f096fb4e764ebf248cc2a3805a3225b208dd"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "R79_completed_actual_global_reach_ready",
+  "files": [
+    {
+      "path": "results/R79-actual-global-reach-and-uniform-c2-correction-budget.md",
+      "sha256": "27013afd5ff4c21a59112df87b3da5bd92e57719bec7d4ddab9d2920fa9106fc",
+      "bytes": 20301
+    },
+    {
+      "path": "scripts/fourfold_phase_reach_certificate.py",
+      "sha256": "71b55617d7133966ac2f917cb5acd3a1f47e6071f692f4ca50563ef498cdea21",
+      "bytes": 21905
+    },
+    {
+      "path": "notes/2026-11-12-actual-closed-reach-certificate.json.gz",
+      "sha256": "54825ed66f3015b4d606d80e080416d6cc1831a99dd7e5a75851ef81eca6c202",
+      "bytes": 855313
+    },
+    {
+      "path": "notes/2026-11-12-current-family-fixed-curvature-marker-budget.md",
+      "sha256": "e3d6881ded44b86f80fdad131c9bd21479299026d39d816de277f24228e20bca",
+      "bytes": 8005
+    }
+  ],
+  "complete": true,
+  "body_leaves": 1679,
+  "graft_leaves": 64,
+  "attempts": 1945,
+  "exact_parameter_interval": [
+    "-121752685431711260843/72057594037927936000000",
+    "-121680627837673332907/72057594037927936000000"
+  ],
+  "scope": [
+    "complete same-object support, curvature, global reach and intrinsic C2 correction budget",
+    "marker transfer is conditional on one actual held exact zero; no nonlinear zero is asserted"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "exact_binary_split_of_original_gzip",
+  "original_relative_path": "notes/2026-11-12-actual-finite-canonical-far-cover-resumed.json.gz",
+  "original_bytes": 6007300,
+  "original_sha256": "5619c1733811c0232a7d899221e985b72eaab566c0483bd561983807824d573f",
+  "reassembly_source": "scripts/fourfold_phase_root_jets_reassemble.py",
+  "reassembly_source_sha256": "f5f7cfd3e0161ff84c0befa3cec01c64ecaf63f97b0b7bbd8e18f5345714919c",
+  "parts": [
+    {
+      "filename": "part-000.bin",
+      "offset": 0,
+      "bytes": 4000000,
+      "sha256": "0cfef4b898a01353b84098546ba7c19b2f9cc5bb1073255caac5c24c6150013b"
+    },
+    {
+      "filename": "part-001.bin",
+      "offset": 4000000,
+      "bytes": 2007300,
+      "sha256": "863de380c4405603298b7af3e208dce8616b3dc53dafa7c517599fb615608710"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "kind": "actual_complete_negative_root_fixed_canonical_domain",
+  "complete": true,
+  "proved": true,
+  "source_sha256": "72ac2f6ff9cc71aa9f79ff4a949926fb0dc647381c8c4c7886b90053dcfc2e95",
+  "bits": 320,
+  "inputs": {
+    "notes/2026-11-13-negative-root-complete-potential-density.json": "0325b869504dff6cf1d29937b05ac67ddb5130183080db292e41e8f1a45f3923",
+    "notes/2026-11-13-negative-canonical-full-real-cut.json": "d0304d1c06b441c63d3b3ad6d665ec974f79ed116ad4b1ae28173c8d6be4165c",
+    "notes/2026-11-13-negative-cancellation-R43-window8.json": "9cbed50e5b5d40c68050a4aff822f94c9bc4ed4fbd00bf149321704dec9ba175"
+  },
+  "identity": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "canonical_real_height": "1/4000",
+  "canonical_complex_angle_strip": "1/40000",
+  "canonical_complex_radial_halo": "1/100000",
+  "canonical_domain": "dist(xi,[0,height])<=radial_halo; |Im phi|<=angle_strip; full actual quarter-period circle",
+  "actual_quarter_circle_frequency": [
+    {
+      "ball": "[38.883851605869260037451340394909493748528766345831 +/- 9.60e-50]",
+      "lower": "[38.883851605869260037451340394909493748528766345831 +/- 9.60e-50]",
+      "upper": "[38.883851605869260037451340394909493748528766345831 +/- 9.60e-50]"
+    },
+    {
+      "ball": "[38.883851623091751192884402144045452710671233844610 +/- 3.94e-49]",
+      "lower": "[38.883851623091751192884402144045452710671233844610 +/- 3.94e-49]",
+      "upper": "[38.883851623091751192884402144045452710671233844610 +/- 3.94e-49]"
+    }
+  ],
+  "inverse_path_bounds": {
+    "physical_rho_radius": {
+      "ball": "[0.00027900000000000000000000000000000000000000000000000 +/- 3e-58]",
+      "lower": "[0.00027900000000000000000000000000000000000000000000000 +/- 3e-58]",
+      "upper": "[0.00027900000000000000000000000000000000000000000000000 +/- 1e-58]"
+    },
+    "physical_half_angle_strip": {
+      "ball": "[0.00075000000000000000000000000000000000000000000000000 +/- 3e-58]",
+      "lower": "[0.00075000000000000000000000000000000000000000000000000 +/- 3e-58]",
+      "upper": "[0.00075000000000000000000000000000000000000000000000000 +/- 1e-58]"
+    },
+    "complex_phi_theta_lower": {
+      "ball": "[0.050998938525045115821535657345407144113904285644734 +/- 4.78e-52]",
+      "lower": "[0.050998938525045115821535657345407144113904285644734 +/- 4.78e-52]",
+      "upper": "[0.050998938525045115821535657345407144113904285644734 +/- 4.78e-52]"
+    },
+    "complex_Jacobian_modulus_lower": {
+      "ball": "[0.049148101510655658527646290031809062194723336821583 +/- 1.97e-52]",
+      "lower": "[0.049148101510655658527646290031809062194723336821583 +/- 1.97e-52]",
+      "upper": "[0.049148101510655658527646290031809062194723336821583 +/- 1.97e-52]"
+    },
+    "complex_xi_theta_modulus": {
+      "ball": "[0.0071998471686900757503393372509182350000734924142731 +/- 1.06e-53]",
+      "lower": "[0.0071998471686900757503393372509182350000734924142731 +/- 1.06e-53]",
+      "upper": "[0.0071998471686900757503393372509182350000734924142731 +/- 1.06e-53]"
+    },
+    "complex_phi_rho_modulus": {
+      "ball": "[0.25355115949048124197050292948760024147968234037522 +/- 8.21e-52]",
+      "lower": "[0.25355115949048124197050292948760024147968234037522 +/- 8.21e-52]",
+      "upper": "[0.25355115949048124197050292948760024147968234037522 +/- 8.21e-52]"
+    },
+    "inverse_rho_phi": {
+      "ball": "[0.14649288471761411972461616809054326800911290927372 +/- 1.49e-52]",
+      "lower": "[0.14649288471761411972461616809054326800911290927372 +/- 1.49e-52]",
+      "upper": "[0.14649288471761411972461616809054326800911290927372 +/- 1.49e-52]"
+    },
+    "inverse_theta_phi": {
+      "ball": "[20.336569167374429363809498142268302257399474314801 +/- 3.93e-50]",
+      "lower": "[20.336569167374429363809498142268302257399474314801 +/- 3.93e-50]",
+      "upper": "[20.336569167374429363809498142268302257399474314801 +/- 3.93e-50]"
+    },
+    "inverse_rho_xi": {
+      "ball": "[1.0385168034873721709631315606940942135018214455100 +/- 4.37e-50]",
+      "lower": "[1.0385168034873721709631315606940942135018214455100 +/- 4.37e-50]",
+      "upper": "[1.0385168034873721709631315606940942135018214455100 +/- 4.37e-50]"
+    },
+    "inverse_theta_xi": {
+      "ball": "[5.1589207252595411920629307737687224678478501039268 +/- 1.92e-50]",
+      "lower": "[5.1589207252595411920629307737687224678478501039268 +/- 1.92e-50]",
+      "upper": "[5.1589207252595411920629307737687224678478501039268 +/- 1.92e-50]"
+    },
+    "initial_real_rho_upper": {
+      "ball": "[0.00025476911158529552144691684212369566896828942999703 +/- 2.29e-54]",
+      "lower": "[0.00025476911158529552144691684212369566896828942999703 +/- 2.29e-54]",
+      "upper": "[0.00025476911158529552144691684212369566896828942999703 +/- 2.29e-54]"
+    },
+    "full_complex_rho_movement": {
+      "ball": "[1.4047490152814074702746719809204523835246037186943e-5 +/- 4.33e-55]",
+      "lower": "[1.4047490152814074702746719809204523835246037186943e-5 +/- 4.33e-55]",
+      "upper": "[1.4047490152814074702746719809204523835246037186943e-5 +/- 4.33e-55]"
+    },
+    "full_complex_theta_movement": {
+      "ball": "[0.00056000343643695614601586676129439478111346535890929 +/- 2.22e-54]",
+      "lower": "[0.00056000343643695614601586676129439478111346535890929 +/- 2.22e-54]",
+      "upper": "[0.00056000343643695614601586676129439478111346535890929 +/- 2.22e-54]"
+    },
+    "remaining_physical_radial_margin": {
+      "ball": "[1.0183398261890403850336438067099807196464532816030e-5 +/- 2.81e-55]",
+      "lower": "[1.0183398261890403850336438067099807196464532816030e-5 +/- 2.81e-55]",
+      "upper": "[1.0183398261890403850336438067099807196464532816030e-5 +/- 2.81e-55]"
+    },
+    "remaining_physical_angular_margin": {
+      "ball": "[0.00018999656356304385398413323870560521888653464109071 +/- 2.22e-54]",
+      "lower": "[0.00018999656356304385398413323870560521888653464109071 +/- 2.22e-54]",
+      "upper": "[0.00018999656356304385398413323870560521888653464109071 +/- 2.22e-54]"
+    }
+  },
+  "full_canonical_V_modulus": {
+    "ball": "[752813.54168679381899328480432787956064328878086609 +/- 4.53e-45]",
+    "lower": "[752813.54168679381899328480432787956064328878086609 +/- 4.53e-45]",
+    "upper": "[752813.54168679381899328480432787956064328878086609 +/- 4.53e-45]"
+  },
+  "full_canonical_Vxi_modulus": {
+    "ball": "[75281354168.679381899328480432787956064328878086609 +/- 4.53e-40]",
+    "lower": "[75281354168.679381899328480432787956064328878086609 +/- 4.53e-40]",
+    "upper": "[75281354168.679381899328480432787956064328878086609 +/- 4.53e-40]"
+  },
+  "full_canonical_V_bound_domain": "the entire canonical product domain, including its radial halo",
+  "full_canonical_Vxi_bound_domain": "real xi in [0,height], |Im phi|<=angle_strip; no derivative claim at the radial halo boundary",
+  "full_canonical_shifted_5050_residual_modulus": {
+    "ball": "[757863.54168679381899328480432787956064328878086609 +/- 4.53e-45]",
+    "lower": "[757863.54168679381899328480432787956064328878086609 +/- 4.53e-45]",
+    "upper": "[757863.54168679381899328480432787956064328878086609 +/- 4.53e-45]"
+  },
+  "full_height_L2_Volterra_norm": {
+    "ball": "[0.023683235677712306843540150135246236270102774402065 +/- 4.54e-52]",
+    "lower": "[0.023683235677712306843540150135246236270102774402065 +/- 4.54e-52]",
+    "upper": "[0.023683235677712306843540150135246236270102774402065 +/- 4.54e-52]"
+  },
+  "full_height_L2_Volterra_resolvent": {
+    "ball": "[1.0242577373893114229257910876474056193511563056123 +/- 1.39e-50]",
+    "lower": "[1.0242577373893114229257910876474056193511563056123 +/- 1.39e-50]",
+    "upper": "[1.0242577373893114229257910876474056193511563056123 +/- 1.39e-50]"
+  },
+  "all_actual_Fourier_modes_mean_and_parameter_values_retained": true,
+  "full_physical_cut_graph_contained": true,
+  "mean_reference": "cos(sqrt(5050)*xi) and sin(sqrt(5050)*xi)/sqrt(5050)",
+  "nonzero_reference": "Ai(-|q*n|^(2/3)*xi-5050*|q*n|^(-4/3)), Bi of the same full negative argument",
+  "gates": [
+    {
+      "name": "all earlier complete characteristic gates hold",
+      "passed": true
+    },
+    {
+      "name": "the complete real rectangle contains the full requested canonical collar",
+      "passed": true
+    },
+    {
+      "name": "the actual strict physical cut graph is strictly inside the requested collar",
+      "passed": true
+    },
+    {
+      "name": "the complex inverse angular derivative and Jacobian are separated",
+      "passed": true
+    },
+    {
+      "name": "full inverse path lifting stays inside the complete physical radial disk",
+      "passed": true
+    },
+    {
+      "name": "full inverse path lifting stays inside the paid half angular strip",
+      "passed": true
+    },
+    {
+      "name": "full-frequency shifted-Airy height Volterra is a contraction",
+      "passed": true
+    },
+    {
+      "name": "same actual full canonical quarter-period frequency retained",
+      "passed": true
+    }
+  ],
+  "complete_high_Sobolev_Airy_frame_bound_proved": false,
+  "full_graph_trace_strong_gluing_proved": false,
+  "full_returned_Rstar_proved": false,
+  "scope": "A complete canonical product neighborhood with a full V bound; V_xi is bounded on the real radial segment [0,height] and the same complex angle strip. The all-frequency L2 height Volterra contraction is complete. Higher Sobolev, full momentum, ordinary-source, graph trace and normal-form bounds need their explicit consumers.",
+  "dependencies": {
+    "fourfold_negative_canonical_cancellation_chart.py": "650ceef0ea91bdf5f4ef86d114fb6dc412bef3a0b4b915910135357967ec0c8d",
+    "fourfold_negative_collar_root_fourier_budget.py": "08866307bf0de20183db15387f16ec0f2f3a65d67bfec6e9229b27a65a902b9b",
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "fourfold_phase_root_fourier_fit.py": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604"
+  },
+  "seconds": 0.03984483899876068
+}

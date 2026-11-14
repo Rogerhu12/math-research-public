@@ -1,0 +1,200 @@
+{
+  "kind": "exact_integer_correction_and_rational_H_inverse_budget",
+  "run_source_sha256": "8fbb2dba9871c9847234b9be774bd401fcadc77a5e2a225db4a8c1c13ec9494a",
+  "source_newton_report_sha256": "046b4659e04f746c3b47ab99cc90c7b82fe8fc4348bea0f04f3c47f89eb22130",
+  "source_base_polynomials_sha256": "8bd6078f8c442b48bab2b15850b99e2455d616ab48e687abb22114a1f1bfe39b",
+  "polynomials_file": "type_fixed_step02_d5_exact_affine_step5_dyadic_H.json",
+  "polynomials_sha256": "0439d88f10f46d367e44a984db661ac3806a7bd052f46eca14e71594fa8eb2c2",
+  "polynomial_degree": 516,
+  "inverse_test_degree": 1024,
+  "Hprime_at_zero_numerator": "475497921579945361508672251135643136",
+  "Hprime_at_zero_denominator_power_of_two": 120,
+  "correction_rounding_C0_C1_C2_upper": [
+    {
+      "numerator": "0",
+      "denominator_power_of_two": 120,
+      "floating_upper_display": 5e-324
+    },
+    {
+      "numerator": "0",
+      "denominator_power_of_two": 120,
+      "floating_upper_display": 5e-324
+    },
+    {
+      "numerator": "0",
+      "denominator_power_of_two": 120,
+      "floating_upper_display": 5e-324
+    }
+  ],
+  "exact_old_constant_preserved": true,
+  "exp_majorant_order": 80,
+  "bounds": [
+    {
+      "width_numerator": 1,
+      "width_denominator": 512,
+      "h_Wiener_upper": {
+        "numerator": "737368215020335449",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 0.6395649765174451
+      },
+      "Hprime_Wiener_upper": {
+        "numerator": "2720047992026442993",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 2.359265553775923
+      },
+      "q_Wiener_upper": {
+        "numerator": "3947784639608791163",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.424157346215005
+      },
+      "product_residual_Wiener_upper": {
+        "numerator": "84468",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 7.326431128440448e-14
+      },
+      "exact_rational_Neumann_test_passed": true,
+      "Hprime_at_zero_positive": true,
+      "inverse_Hprime_Wiener_upper": {
+        "numerator": "3947784639609080393",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.4241573462152557
+      },
+      "strictly_positive_on_whole_real_circle_proved": true
+    },
+    {
+      "width_numerator": 1,
+      "width_denominator": 256,
+      "h_Wiener_upper": {
+        "numerator": "740459914425523563",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 0.6422465982868668
+      },
+      "Hprime_Wiener_upper": {
+        "numerator": "2751941440923688772",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 2.386928711041883
+      },
+      "q_Wiener_upper": {
+        "numerator": "3983436395256227456",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.455080314955703
+      },
+      "product_residual_Wiener_upper": {
+        "numerator": "349762",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.0337017620230005e-13
+      },
+      "exact_rational_Neumann_test_passed": true,
+      "Hprime_at_zero_positive": true,
+      "inverse_Hprime_Wiener_upper": {
+        "numerator": "3983436395257435910",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.4550803149567515
+      },
+      "strictly_positive_on_whole_real_circle_proved": true
+    },
+    {
+      "width_numerator": 1,
+      "width_denominator": 128,
+      "h_Wiener_upper": {
+        "numerator": "746837706331072340",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 0.647778450958592
+      },
+      "Hprime_Wiener_upper": {
+        "numerator": "2820422458788124645",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 2.4463265257159947
+      },
+      "q_Wiener_upper": {
+        "numerator": "4058295613403572691",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.5200103365124376
+      },
+      "product_residual_Wiener_upper": {
+        "numerator": "9719697",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 8.430493282640674e-12
+      },
+      "exact_rational_Neumann_test_passed": true,
+      "Hprime_at_zero_positive": true,
+      "inverse_Hprime_Wiener_upper": {
+        "numerator": "4058295613437786122",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.520010336542113
+      },
+      "strictly_positive_on_whole_real_circle_proved": true
+    },
+    {
+      "width_numerator": 1,
+      "width_denominator": 64,
+      "h_Wiener_upper": {
+        "numerator": "760465605675981177",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 0.6595987694195231
+      },
+      "Hprime_Wiener_upper": {
+        "numerator": "2979588240254564194",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 2.5843808345570083
+      },
+      "q_Wiener_upper": {
+        "numerator": "4224153037280848706",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.663868719944911
+      },
+      "product_residual_Wiener_upper": {
+        "numerator": "14766041686",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 1.2807499579978178e-08
+      },
+      "exact_rational_Neumann_test_passed": true,
+      "Hprime_at_zero_positive": true,
+      "inverse_Hprime_Wiener_upper": {
+        "numerator": "4224153091381687647",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.663868766869909
+      },
+      "strictly_positive_on_whole_real_circle_proved": true
+    },
+    {
+      "width_numerator": 1,
+      "width_denominator": 32,
+      "h_Wiener_upper": {
+        "numerator": "792230509796561206",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 0.6871504318645844
+      },
+      "Hprime_Wiener_upper": {
+        "numerator": "3428298147499443786",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 2.973574639557542
+      },
+      "q_Wiener_upper": {
+        "numerator": "4788561841135992501",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 4.153415320992665
+      },
+      "product_residual_Wiener_upper": {
+        "numerator": "69131620654476755",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 0.05996212264082198
+      },
+      "exact_rational_Neumann_test_passed": true,
+      "Hprime_at_zero_positive": true,
+      "inverse_Hprime_Wiener_upper": {
+        "numerator": "5094009461180824566",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 4.418348899579172
+      },
+      "strictly_positive_on_whole_real_circle_proved": true
+    }
+  ],
+  "proof_method": "exact Fraction addition; exact ties-to-even dyadic rounding; R48 integer convolution, rational exp majorant and Wiener Neumann series",
+  "limitations": [
+    "computed finite Newton corrections are interpreted exactly, not proved to solve the true map equation",
+    "a new exact H requires fresh actual ray validation and continuous E bounds",
+    "q selection is floating, but its certificate is the exact finite convolution",
+    "no root, geometric parameter, complete map or PDE error is paid by this report"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "kind": "complete_infinite_Wiener_body_trial_energy",
+  "complete": false,
+  "source_sha256": "6c86a5542e3370482ae3fef0b25630fc7e436c03929f6dd8e0af0eaef1a7c64f",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+  "trial_report_path": "notes/2026-11-12-cap-space-boundary4-interior16-P2.json",
+  "trial_report_sha256": "7bb50d93188dd4253ccea2d8731931ea82e212c66829e91ff49ec29bb9a291ac",
+  "bits": 160,
+  "requested_exact_radial_interval": [
+    "3614138700964823/4503599627370496",
+    "7250795400066499/9007199254740992"
+  ],
+  "actual_common_span": [
+    "3614138700964823/4503599627370496",
+    "7250795400066499/9007199254740992"
+  ],
+  "finite_element": 20,
+  "angular_sampling_used": false,
+  "radial_Gram_quadrature_degree": 3,
+  "gauss_nodes": [
+    {
+      "ball": "[-0.77459666924148337703585307995647992 +/- 2.17e-36]",
+      "lower": "[-0.77459666924148337703585307995647992 +/- 2.17e-36]",
+      "upper": "[-0.77459666924148337703585307995647992 +/- 2.17e-36]",
+      "mid_float": -0.7745966692414834,
+      "radius_upper_float": 1.3684555341161512e-48
+    },
+    {
+      "ball": "0",
+      "lower": "0",
+      "upper": "0",
+      "mid_float": 0.0,
+      "radius_upper_float": 0.0
+    },
+    {
+      "ball": "[0.77459666924148337703585307995647992 +/- 2.17e-36]",
+      "lower": "[0.77459666924148337703585307995647992 +/- 2.17e-36]",
+      "upper": "[0.77459666924148337703585307995647992 +/- 2.17e-36]",
+      "mid_float": 0.7745966692414834,
+      "radius_upper_float": 1.3684555341161512e-48
+    }
+  ],
+  "gauss_weights": [
+    {
+      "ball": "[0.55555555555555555555555555555555556 +/- 4.45e-36]",
+      "lower": "[0.55555555555555555555555555555555556 +/- 4.45e-36]",
+      "upper": "[0.55555555555555555555555555555555556 +/- 4.45e-36]",
+      "mid_float": 0.5555555555555556,
+      "radius_upper_float": 1.5163964595857611e-47
+    },
+    {
+      "ball": "[0.88888888888888888888888888888888889 +/- 1.12e-36]",
+      "lower": "[0.88888888888888888888888888888888889 +/- 1.12e-36]",
+      "upper": "[0.88888888888888888888888888888888889 +/- 1.12e-36]",
+      "mid_float": 0.8888888888888888,
+      "radius_upper_float": 6.842277657836021e-49
+    },
+    {
+      "ball": "[0.55555555555555555555555555555555556 +/- 4.45e-36]",
+      "lower": "[0.55555555555555555555555555555555556 +/- 4.45e-36]",
+      "upper": "[0.55555555555555555555555555555555556 +/- 4.45e-36]",
+      "mid_float": 0.5555555555555556,
+      "radius_upper_float": 1.5163964595857611e-47
+    }
+  ],
+  "error_density_target": "1/10000",
+  "full_positive_cap_complete": false,
+  "intervals": [],
+  "unresolved_intervals": [
+    {
+      "exact_radial_interval": [
+        "3614138700964823/4503599627370496",
+        "7250795400066499/9007199254740992"
+      ],
+      "depth": 0,
+      "reason": "full energy error per radial length exceeds the requested budget: [0.0005337836547826975 +/- 3.14e-20]"
+    }
+  ],
+  "rejected_parent_boxes": [],
+  "dependency_sha256": {
+    "fourfold_phase_cap_scaled_body.py": "f552b3c90880a9f9ee812015018a83da67e5d5fe66e1232fd2871d2c59e600db",
+    "fourfold_phase_cap_energy_interval.py": "ef752984f6e8c9331b1f11f2419f49460d42288fa0aba10555a18455b971df91",
+    "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+    "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a"
+  },
+  "scope": "Only the listed actual body interval. The entire infinite angular primitive is enclosed analytically; finite trial Gram integration is exact up to paid directed rounding. No whole cap or inverse claim.",
+  "pending": [],
+  "CPU_seconds": 0.6107713439999999,
+  "wall_seconds": 6.929793217001134
+}

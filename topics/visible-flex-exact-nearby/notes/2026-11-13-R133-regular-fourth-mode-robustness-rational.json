@@ -1,0 +1,153 @@
+{
+  "kind": "exact_rational_true_regular_fourth_mode_robustness_budget",
+  "complete": true,
+  "arithmetic": "normalized BigInt rational operations and strict integer comparisons only",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "consumed_endpoint_proof": "results/R133-supplement-final-moving-centre-actual-regular-boundary.md",
+  "consumed_endpoint_proof_git_blob": "479d98118588ffc7b4edcec172df21b8aae7723b",
+  "consumed_executed_endpoint_source_sha256": "aa98cdd2289b13ac125a0bdb193faa9ae389b566d9a561c0b0e93208d29937f1",
+  "original_binary_native_hash_not_invented": true,
+  "assumptions": [
+    "same actual a_R, omega, B, periodic long interval, and reflection class",
+    "all physical m in 4N including m=4 satisfy |lambda_m+m*omega|<2^41*m*omega*exp(-2*m*L)",
+    "actual complete endpoint C/B/previous true Robin bounds are those of the consumed proof",
+    "independent far Dirichlet dot A2 norm <=2^-60; mean height remains independent"
+  ],
+  "transcendental_comparisons_paid_symbolically": [
+    "omega>7/5 implies L>(7/5)*(2^24-25/8)>2^24",
+    "e>2 implies 2^42*exp(-8L)<2^(42-8L)<2^-512",
+    "(2^42+8)*exp(-8L)<2^(43-8L)<2^-512",
+    "2*exp(-6L)<2^(1-6L)<2^-512"
+  ],
+  "exact_bounds": {
+    "Lmin": {
+      "numerator": "939523921",
+      "denominator": "40"
+    },
+    "epsilon": {
+      "numerator": "1",
+      "denominator": "13407807929942597099574024998205846127479365820592393377723561443721764030073546976801874298166903427690031858186486050853753882811946569946433649006084096"
+    },
+    "actual_Z_A0_upper": {
+      "numerator": "1266493",
+      "denominator": "5000000000000000000"
+    },
+    "previous_complete_true_Robin_upper": {
+      "numerator": "5027",
+      "denominator": "4000000000000000000"
+    },
+    "actual_mean_C_upper": {
+      "numerator": "1211",
+      "denominator": "2000000000000000000000000000000000000000000000"
+    },
+    "model_q_error_upper": {
+      "numerator": "183",
+      "denominator": "20000000000000000000"
+    },
+    "qstar_lower": {
+      "numerator": "1562499999999",
+      "denominator": "1562500000000"
+    },
+    "qstar_upper": {
+      "numerator": "99999999999937",
+      "denominator": "100000000000000"
+    },
+    "rZ": {
+      "numerator": "1",
+      "denominator": "1000000000000"
+    },
+    "rB": {
+      "numerator": "1",
+      "denominator": "1152921504606846976"
+    },
+    "rf": {
+      "numerator": "281475220851281",
+      "denominator": "28147497671065600000000000"
+    },
+    "F": {
+      "numerator": "562950490530687",
+      "denominator": "56294995342131200000000000"
+    },
+    "H": {
+      "numerator": "1688851471592061",
+      "denominator": "28147497671065600000000000"
+    },
+    "C_inverse_image": {
+      "numerator": "331696052106987329147165589907666390662447227186126474115766326911730910361342834321246810898421891893949407974309911590973716006170689750485185760965246031673511170924022786761",
+      "denominator": "36855101804897864767983931454963563387860558793129301058361389650836173460860828633653581300563073901772152099909803172849322115526609303052357756361647422301263626240000000000000000000000"
+    },
+    "C_inverse_image_margin": {
+      "numerator": "36855285609042870890278218117525574036388069401616345360893417574303489885331507159288502426553800825349959791065866969557689642968112839158807166765250591339125091475977213239",
+      "denominator": "36855101804897864767983931454963563387860558793129301058361389650836173460860828633653581300563073901772152099909803172849322115526609303052357756361647422301263626240000000000000000000000"
+    },
+    "C_inverse_contraction": {
+      "numerator": "5066554414776183",
+      "denominator": "3435973836800000000000"
+    },
+    "C_inverse_derivative": {
+      "numerator": "30923764531200000000000",
+      "denominator": "3435968770245585223817"
+    },
+    "full_q_proposal_error": {
+      "numerator": "2339962817363257664892241072341604081467365212601097095607196563912470643523654076342337605061095549838329153106810519510495148233972761459538800972093",
+      "denominator": "255733641241886083594780445064656183766925159847114436678382138132510452844115199600255475962961262277413022197465630547595098167647296332291291217920000000000000000000"
+    },
+    "complete_true_regular_to_long_difference": {
+      "numerator": "1",
+      "denominator": "13407807929942597099574024998205846127479365820592393377723561443721764030073546976801874298166903427690031858186486050853753882811946569946433649006084096"
+    },
+    "complete_nonlinear_long_d": {
+      "numerator": "60383514020549026758583553031187423199132427895373561697801869044094931278497050924085935211901333350700054081349035474207302758232450651534982408549843064187216116247241",
+      "denominator": "36855101804897864767983931454963563387860558793129301058361389650836173460860828633653581300563073901772152099909803172849322115526609303052357756361647422301263626240000000000000000000000"
+    },
+    "complete_nonlinear_long_mean": {
+      "numerator": "316913254788741113654888691969",
+      "denominator": "1547425049106725343623905280000000000000000000000"
+    },
+    "complete_true_Robin_residual": {
+      "numerator": "46378032707325940573922389409056645710892889691160622666793478312732455928215343436268224234694544459402852205642994172952592871446298692262585592716051633565080275302935241",
+      "denominator": "36855101804897864767983931454963563387860558793129301058361389650836173460860828633653581300563073901772152099909803172849322115526609303052357756361647422301263626240000000000000000000000"
+    },
+    "complete_C_mean_residual": {
+      "numerator": "3777900395259155197797890054403152872588581613",
+      "denominator": "18446744073709551616000000000000000000000000000000000000000000000"
+    },
+    "complete_d_derivative": {
+      "numerator": "271725553839687122735828034875779348891871183428033757453818180694361292906031392600425870967782743474594969352440379735541106023361303503667553089725975162492202048766089",
+      "denominator": "46068809324733871038199230361695735289988475523615769314512373609000043235752809284218826519236100431529321476144915855966718759131755788489571278563786847241781102310884114432"
+    },
+    "complete_mean_derivative": {
+      "numerator": "5066554414776183",
+      "denominator": "6871937540491170447634"
+    }
+  },
+  "gates": {
+    "genuine_long_length_lower": true,
+    "all_mode_regular_fee_below_epsilon": true,
+    "regular_plus_finite_long_fee_below_epsilon": true,
+    "far_reflection_fee_below_epsilon": true,
+    "actual_complete_Z_in_original_ball": true,
+    "actual_complete_Z_in_stated_smaller_ball": true,
+    "broadened_true_q_strictly_positive": true,
+    "broadened_true_q_strictly_below_one": true,
+    "broadened_nominal_q_error_below_1e17": true,
+    "complete_long_small_input_gate": true,
+    "complete_long_Y_gate": true,
+    "actual_C_inverse_strict_image": true,
+    "actual_C_inverse_strict_contraction": true,
+    "actual_C_inverse_derivative_below_ten": true,
+    "complete_nonlinear_long_d_below_1p638404e18": true,
+    "complete_nonlinear_Robin_below_1p258389e15": true,
+    "complete_mean_C_below_2p048004e19": true,
+    "complete_d_derivative_below_6e6": true,
+    "complete_mean_derivative_below_8e7": true
+  },
+  "number_of_strict_rational_gates": 19,
+  "fourth_regular_fee_not_assumed_zero": true,
+  "all_physical_modes_and_mean_retained": true,
+  "independent_far_Dirichlet_and_mean_height_retained": true,
+  "actual_far_regular_label_equation_solved": false,
+  "new_tail_profile_existence_claimed": false,
+  "full_body_inverse_or_nonlinear_solution_claimed": false,
+  "source_sha256": "0d8b23cfaa03383814059f3c3d9deb78dec440700cf20fbfe66dee2ab073d862"
+}

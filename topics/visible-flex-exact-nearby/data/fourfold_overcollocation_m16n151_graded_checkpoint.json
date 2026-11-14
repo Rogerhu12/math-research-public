@@ -1,0 +1,88 @@
+{
+  "status": "floating completed finite-body calculation; not an exact closed surface",
+  "file": "fourfold_overcollocation_m16n151_graded_checkpoint.npz",
+  "bytes": 57830,
+  "sha256": "cfde01e091aeb06e98fe709e52dd921fc114be45aa86c964e7a3eb21dd3d497a",
+  "metadata": {
+    "kind": "floating_actual_spline_finite_body_candidate_not_proof",
+    "parameters": {
+      "modes": 16,
+      "points": 151,
+      "length": 3.0,
+      "mu_scale": 4.0,
+      "means": 3,
+      "gauge": "none",
+      "profile_points": 1201,
+      "mesh": "graded"
+    },
+    "epsilon": 0.06,
+    "amplitude_gauge": "exact fourth radial coefficient U4(0), not kernel projection",
+    "radial_gauss_points_per_spline_interval": 3,
+    "objective_positive_modes": 32,
+    "limitations": [
+      "Finite angular approximation",
+      "Finite Robin endpoint",
+      "No actual caps",
+      "Floating arithmetic and sampled diagnostics only"
+    ],
+    "fixed_mean_height": null
+  },
+  "actual_spline_diagnostic": {
+    "kind": "floating_actual_spline_samples_not_bounds",
+    "samples": 1351,
+    "angles": 264,
+    "metric_operator_norm_sample": 0.00028177314631862657,
+    "at_x": 0.1075,
+    "at_theta": 0.0,
+    "twice_sampled_radius": 2.489072109255009,
+    "waist_radial_gap": 0.13279402190189749,
+    "gap_ratio_sample": 0.05335081350521555,
+    "max_abs_principal_curvature_sample": 5.4128863514637136,
+    "minimum_support_sample": 0.8985969817340302,
+    "retained_metric_coefficient_sample": 8.58369834332155e-05,
+    "retained_peak": {
+      "mode": 4,
+      "component": "xx",
+      "x": 0.4675
+    },
+    "unretained_metric_coefficient_sample": 3.7443777560100305e-05,
+    "unretained_peak": {
+      "mode": 72,
+      "component": "tt",
+      "x": 0.0
+    },
+    "waist_second_form_samples": {
+      "detII_min": -1.467284113144816,
+      "detII_max": -0.9635511652979618,
+      "N_min": -6.002025805989404,
+      "N_max": -0.4205081952994132,
+      "gauss_min": -1.1421050319854744,
+      "gauss_max": -0.7498541647279552
+    }
+  },
+  "alpha": [
+    0.5689787226486773,
+    -0.0012761775564749326,
+    -0.03696084662726113
+  ],
+  "source_sha256": {
+    "fourfold_overcollocation.py": "4bf218a543e79d62db46b3973c9b316a7de13bdbf3257718043d2f66341930da",
+    "fourfold_newton_refined.py": "13486edbf499c21b8f69803968e2e258347a4f3661f5d08eda56e503e3739757",
+    "poschl_teller_fourfold_series.py": "173634e9e305dfe12946b4bc792014f2e443f689fc3dd2f5e1dfd834210992c9"
+  },
+  "computation": {
+    "radial_mesh": "L*sinh(3s)/sinh(3)",
+    "gauss_per_interval": 3,
+    "objective_positive_modes": 32,
+    "iterations_after_preserved_preceding_step": 6,
+    "regularization": 1e-08,
+    "linear_method": "column-equilibrated, radial-block normal equations with actual-residual line search"
+  },
+  "limitations": [
+    "Double precision",
+    "Finite Robin endpoint",
+    "All stated extrema are samples, not bounds",
+    "No actual nonlinear infinite tail, fixed caps, or closed exact isometric family",
+    "U4(0)=.06 is the amplitude gauge, not the original kernel projection"
+  ]
+}

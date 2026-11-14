@@ -1,0 +1,57 @@
+{
+  "kind": "frozen_complete_step4_samples_and_exact_step5_predictor",
+  "archive_required": [
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-step4-shared-knot-Hnodes1032.json",
+      "sha256": "4ef35b2a2eb3320a67b9a777859feeffb8448057c97c5e5e2053fbf86e156d01",
+      "bytes": 301475
+    },
+    {
+      "path": "notes/2026-11-12-D5-step4-shared1032-raw-trace-hashes.json",
+      "sha256": "e0e7dabea437b05a0b22bff5140935de1f6f798ebcd8bf25c2bd57bdf563aec4",
+      "bytes": 18040
+    },
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-Newton1032-step5.json",
+      "sha256": "046b4659e04f746c3b47ab99cc90c7b82fe8fc4348bea0f04f3c47f89eb22130",
+      "bytes": 87033
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "bytes": 1638
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_H_float_export.npz",
+      "sha256": "e91e1439387bf2b45d0b5ef3bc1180a3db7ca41f4b47006cdfb9032cd4c2feb8",
+      "bytes": 7588
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_dyadic_H.json",
+      "sha256": "0439d88f10f46d367e44a984db661ac3806a7bd052f46eca14e71594fa8eb2c2",
+      "bytes": 122427
+    },
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-step5-H-Wiener-budget.json",
+      "sha256": "a748f90704fdd197d3b0e13da06393b67951c7a1bcd2ef2ad6a86766e06e0625",
+      "bytes": 7256
+    },
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-step5-local-inverse-budget.json",
+      "sha256": "e08d375b0cad3186ed18105956304ba24acdf2cc90c0c846bf6fc6681d2346d1",
+      "bytes": 7214
+    },
+    {
+      "path": "notes/2026-11-12-D5-step4-1032-and-step5-predictor.md",
+      "sha256": "7bc7d6dc018667e93e11918c40b2f1bac4e476ba5ae173d63c961b0e189dcabc",
+      "bytes": 5865
+    }
+  ],
+  "reproducible_large_intermediates_hash_manifest": "notes/2026-11-12-D5-step4-shared1032-raw-trace-hashes.json",
+  "exclude_live": [
+    "step4 R61 reference construction and step5 retarget definition are owned separately"
+  ],
+  "limitations": [
+    "Step4 samples are not a continuous flow certificate; step5 is a predictor with a proved finite H budget only"
+  ]
+}

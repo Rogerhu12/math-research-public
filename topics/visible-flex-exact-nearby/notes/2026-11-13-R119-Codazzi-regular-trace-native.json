@@ -1,0 +1,114 @@
+{
+  "kind": "R119_actual_tail_to_Codazzi_boundary_exact_arithmetic",
+  "all_pass": true,
+  "arithmetic_only": true,
+  "complete_PDE_input": "R119 actual long-radial nonlinear Dirichlet theorem",
+  "actual_location": "r=25/8, on the installed long-radial annulus, not r=.25",
+  "radius": "1/1048576",
+  "chi_upper": "5/28",
+  "w_upper": "1/800000",
+  "C_Dirichlet_inverse_norm_convention": "A0=sum_{m in 4Z nonzero} exp(sigma|m|)|f_m|; homogeneous A2=sum exp(sigma|m|)|m|^2|f_m|; zero mode is independent",
+  "checks": [
+    {
+      "name": "actual_tail_slope_bound",
+      "passed": true,
+      "exact_evidence": "a<7e-6, omega>7/5 imply w=a/(4omega)<1/800000"
+    },
+    {
+      "name": "full_state_radius",
+      "passed": true,
+      "exact_evidence": "N<4 r, r=2^-20"
+    },
+    {
+      "name": "positive_normal_component_denominator",
+      "passed": true,
+      "exact_evidence": "|D-1| <= w^2(2N+N^2+E N^2) < 2^-55"
+    },
+    {
+      "name": "nonzero_angular_curvature_denominator",
+      "passed": true,
+      "exact_evidence": "|J-1| <= (1+E)N < 9r"
+    },
+    {
+      "name": "relative_C_trace_bound",
+      "passed": true,
+      "exact_evidence": "|C/Cref-1| <= (|J-1|+|D-1|)/(1-|D-1|) < 10r"
+    },
+    {
+      "name": "absolute_B_trace_bound",
+      "passed": true,
+      "exact_evidence": "|B| <= chi*2N/(1-|D-1|) < 2r"
+    },
+    {
+      "name": "absolute_C_trace_change_bound",
+      "passed": true,
+      "exact_evidence": "|C-Cref| <= chi*|C/Cref-1| < 2r"
+    },
+    {
+      "name": "binomial_remainder_domain",
+      "passed": true,
+      "exact_evidence": "|D-1|<3w^2N<1/4"
+    },
+    {
+      "name": "binomial_remainder_constant",
+      "passed": true,
+      "exact_evidence": "Square of (3/8)(4/3)^(5/2) is <1; Taylor remainder <=|D-1|^2"
+    },
+    {
+      "name": "quadratic_mean_remainder",
+      "passed": true,
+      "exact_evidence": "6w^2 N^2+18w^4 N^2 < 7w^2 N^2"
+    },
+    {
+      "name": "quadratic_mean_C_relative",
+      "passed": true,
+      "exact_evidence": "|mean(C)/Cref-1| <= (256+368w^2)r^2 <257r^2"
+    },
+    {
+      "name": "quadratic_mean_C_absolute",
+      "passed": true,
+      "exact_evidence": "|mean(C)-Cref| <46r^2"
+    },
+    {
+      "name": "finite_length_coth_bound",
+      "passed": true,
+      "exact_evidence": "M>=4,L>1,e>2 imply e^(-2ML)<1/256 and coth(ML)<257/255"
+    },
+    {
+      "name": "full_frequency_C_dirichlet_inverse",
+      "passed": true,
+      "exact_evidence": "Homogeneous M^2 norm on nonzero modes: M^2/(M^2-M coth(ML)) <=1020/763<3/2"
+    },
+    {
+      "name": "inhomogeneous_second_order_weight_conversion",
+      "passed": true,
+      "exact_evidence": "(1+M)^2/M^2<=25/16 for M>=4; the inhomogeneous inverse bound is <75/32"
+    },
+    {
+      "name": "full_frequency_linear_robin_bound",
+      "passed": true,
+      "exact_evidence": "(M coth(ML)-1)/(M-coth(ML)) <=773/763<2"
+    }
+  ],
+  "exact_bounds": {
+    "D_error": "335545600000000001/28147497671065600000000000000000000",
+    "J_error": "1280000000001/167772160000000000",
+    "relative_C_error": "214748364800503317760000000001/28147497671065599664454399999999999",
+    "B_bound": "268435456000000000000000000000/197032483697459197651180799999999993",
+    "C_change_bound": "1073741824002516588800000000005/788129934789836790604723199999999972",
+    "mean_C_change_bound": "23/549755813888",
+    "C_Dirichlet_inverse_norm": "1020/763",
+    "linear_Robin_norm": "773/763"
+  },
+  "input_sha256": {
+    "scripts/fourfold_phase_codazzi_regular_trace_budget.py": "bcf9a083e69b46f26506ae7a05dd7c83d3982439772da76ddfc768351b20b927",
+    "results/R119-supplement-actual-long-radial-nonlinear-dirichlet-problem.md": "1241e0df199d8aa1487d2d1b3b0cf5b60615f3eb21b51bfa207ad54b30cd6d7c",
+    "results/R119-supplement-Codazzi-boundary-from-actual-regular-tail.md": "63474a0f39a1517fdb29282d9f3549bae1c83923bd5aeb1a86486a5e7b2af3a0"
+  },
+  "retains_mean_C": true,
+  "retains_mean_height": true,
+  "retains_regular_reflection": true,
+  "full_body_cap_DN_constructed": false,
+  "body_to_tail_matching_solved": false,
+  "scope": "Exact true-tail trace conversion and all-frequency linear boundary operator with finite-length reflection. No body/cap BVP candidate or global exact surface is claimed."
+}

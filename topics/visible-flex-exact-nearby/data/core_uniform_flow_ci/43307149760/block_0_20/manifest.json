@@ -1,0 +1,679 @@
+{
+  "kind": "complete_piece_of_true_uniform_core_flow",
+  "complete": true,
+  "identity": {
+    "object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+    "affine_arithmetic": "Arb encloses c0+exact_delta*v and alpha0+exact_delta*w before all fixed base weights",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "uniform_in_the_entire_real_parameter_interval": true,
+    "parameter_arithmetic": "First form complete exact center and direction scalar polynomials; then add the single p in [-eta,eta]. No independent raw-control parameter intervals are introduced.",
+    "exact_delta_fraction_scope": "The exact_delta_fraction field names the center only; all bounds cover the separately stated whole exact_parameter_interval.",
+    "modes": 4,
+    "primitive_nodes": 512,
+    "angular_nodes": 1024,
+    "bits": 192,
+    "native_order": 32,
+    "native_radius": "1/64",
+    "outer_radius": "3",
+    "sample_radius": "5/4",
+    "time_nodes": 40,
+    "time_terms": 24,
+    "flow_degree": 32,
+    "normalized_angular_strip": "1/16",
+    "momentum_scale": "8",
+    "worker_source_sha256": "569ffd0e582865d840cdb5a31241da50609f0c3ad049b1d8850992b8bbbaa000",
+    "dependency_sha256": {
+      "fourfold_phase_core_cell_flow.py": "4db55a8c06b1770566416dbc7e7f81a4f004a6e12d8b517ce5007b6e0c7933d4",
+      "fourfold_phase_core_radial_taylor.py": "5303121d11a2af4cd39e67c50a6d23babe6f73e9873f2cf369b93584d983037c",
+      "fourfold_phase_core_waist_taylor.py": "09989f34a57e62e215aacb122926c0ef595332dd00f6b25246bc8dce6ecf9480",
+      "fourfold_phase_core_parameter_taylor.py": "5348dfb57db8296291b9c95dd884a189e9176f3765fc21c114ca6317ca7b1d06",
+      "fourfold_phase_beta_parameter_germ.py": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+      "fourfold_native_series_fft.py": "bcf9d5c43f2ebc5669fcf89f785e5da0b6acac5ec901581103006c6dc04d1289",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_core_low_coefficients.py": "ba2f5c93fbe7d1cdc0ddd21775f54c4e5e56d542d94fb69b985a3bfe42751990",
+      "fourfold_phase_actual_positive_cap.py": "1e8418174f54bd1d22dd628ef7f7e6525ca6b43cbcf7a2307d29f9d467e1612b"
+    }
+  },
+  "first_span": 0,
+  "last_span_exclusive": 20,
+  "total_original_common_spans": 174,
+  "exact_piece_interval": [
+    "0",
+    "8492934947391625/288230376151711744"
+  ],
+  "original_spans": [
+    {
+      "index": 0,
+      "exact_interval": [
+        "0",
+        "2609037194989121/1152921504606846976"
+      ]
+    },
+    {
+      "index": 1,
+      "exact_interval": [
+        "2609037194989121/1152921504606846976",
+        "5764607523034235/2305843009213693952"
+      ]
+    },
+    {
+      "index": 2,
+      "exact_interval": [
+        "5764607523034235/2305843009213693952",
+        "5764607523034235/1152921504606846976"
+      ]
+    },
+    {
+      "index": 3,
+      "exact_interval": [
+        "5764607523034235/1152921504606846976",
+        "7827707535241863/1152921504606846976"
+      ]
+    },
+    {
+      "index": 4,
+      "exact_interval": [
+        "7827707535241863/1152921504606846976",
+        "1080863910568919/144115188075855872"
+      ]
+    },
+    {
+      "index": 5,
+      "exact_interval": [
+        "1080863910568919/144115188075855872",
+        "5764607523034235/576460752303423488"
+      ]
+    },
+    {
+      "index": 6,
+      "exact_interval": [
+        "5764607523034235/576460752303423488",
+        "3262041465611097/288230376151711744"
+      ]
+    },
+    {
+      "index": 7,
+      "exact_interval": [
+        "3262041465611097/288230376151711744",
+        "6524082931222251/576460752303423488"
+      ]
+    },
+    {
+      "index": 8,
+      "exact_interval": [
+        "6524082931222251/576460752303423488",
+        "3602879701896397/288230376151711744"
+      ]
+    },
+    {
+      "index": 9,
+      "exact_interval": [
+        "3602879701896397/288230376151711744",
+        "1080863910568919/72057594037927936"
+      ]
+    },
+    {
+      "index": 10,
+      "exact_interval": [
+        "1080863910568919/72057594037927936",
+        "17843363888359/1125899906842624"
+      ]
+    },
+    {
+      "index": 11,
+      "exact_interval": [
+        "17843363888359/1125899906842624",
+        "1141975288854983/72057594037927936"
+      ]
+    },
+    {
+      "index": 12,
+      "exact_interval": [
+        "1141975288854983/72057594037927936",
+        "1261007895663739/72057594037927936"
+      ]
+    },
+    {
+      "index": 13,
+      "exact_interval": [
+        "1261007895663739/72057594037927936",
+        "5764607523034235/288230376151711744"
+      ]
+    },
+    {
+      "index": 14,
+      "exact_interval": [
+        "5764607523034235/288230376151711744",
+        "2937402117351765/144115188075855872"
+      ]
+    },
+    {
+      "index": 15,
+      "exact_interval": [
+        "2937402117351765/144115188075855872",
+        "3242591731706757/144115188075855872"
+      ]
+    },
+    {
+      "index": 16,
+      "exact_interval": [
+        "3242591731706757/144115188075855872",
+        "7183049223257071/288230376151711744"
+      ]
+    },
+    {
+      "index": 17,
+      "exact_interval": [
+        "7183049223257071/288230376151711744",
+        "3602879701896397/144115188075855872"
+      ]
+    },
+    {
+      "index": 18,
+      "exact_interval": [
+        "3602879701896397/144115188075855872",
+        "7926335344172073/288230376151711744"
+      ]
+    },
+    {
+      "index": 19,
+      "exact_interval": [
+        "7926335344172073/288230376151711744",
+        "8492934947391625/288230376151711744"
+      ]
+    }
+  ],
+  "complete_leaves": [
+    {
+      "index": 0,
+      "word": "",
+      "exact_interval": [
+        "0",
+        "2609037194989121/1152921504606846976"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0000_root.json",
+      "sha256": "42623269c6c2022f74a65c3f9379163d6e08bd15dfaa11d5e5a740a8615c2b8d",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0000_root.npz",
+        "sha256": "f05c102dba38149031850d913f1ab39ab0291634cd6d7edf13119118d4e7863a",
+        "bytes": 52507
+      },
+      "transfer_error": {
+        "ball": "[1.0048019492847429116809617942969392e-8 +/- 4.72e-43]",
+        "lower": "[1.0048019492847429116809617942969392e-8 +/- 4.72e-43]",
+        "upper": "[1.0048019492847429116809617942969392e-8 +/- 4.72e-43]",
+        "mid_float": 1.0048019492847428e-08,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 1,
+      "word": "",
+      "exact_interval": [
+        "2609037194989121/1152921504606846976",
+        "5764607523034235/2305843009213693952"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0001_root.json",
+      "sha256": "7bdf42fa0dbd7cb9e8d27bf491e0ab7864f64bef62df6131ebab1a36b40ad63c",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0001_root.npz",
+        "sha256": "461577e61363dd5facdf1457dd5f7fd55e4e5838110ac9527ecdacb7a175f2cd",
+        "bytes": 54342
+      },
+      "transfer_error": {
+        "ball": "[7.1526483091922356719615044277198254e-10 +/- 2.75e-46]",
+        "lower": "[7.1526483091922356719615044277198254e-10 +/- 2.75e-46]",
+        "upper": "[7.1526483091922356719615044277198254e-10 +/- 2.75e-46]",
+        "mid_float": 7.152648309192236e-10,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 2,
+      "word": "0",
+      "exact_interval": [
+        "5764607523034235/2305843009213693952",
+        "17293822569102705/4611686018427387904"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0002_0.json",
+      "sha256": "a42c7d0a607c551911bbe2402c58f03903abd0d0d164724992aca4c53948f5b9",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0002_0.npz",
+        "sha256": "a074df9ed664882dd151010d6cb57b2272bf89aee2e9f693ee8bc1fb6c405f69",
+        "bytes": 53013
+      },
+      "transfer_error": {
+        "ball": "[4.6979651868422088697857208758549930e-9 +/- 2.30e-44]",
+        "lower": "[4.6979651868422088697857208758549930e-9 +/- 2.30e-44]",
+        "upper": "[4.6979651868422088697857208758549930e-9 +/- 2.30e-44]",
+        "mid_float": 4.697965186842209e-09,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 2,
+      "word": "1",
+      "exact_interval": [
+        "17293822569102705/4611686018427387904",
+        "5764607523034235/1152921504606846976"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0002_1.json",
+      "sha256": "fb0ecb83210f1099a92981a320a6e76ba6f41057a4cc37690c901abe0167553f",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0002_1.npz",
+        "sha256": "5fb3f3c21e13aa6ebbd69f1d8195fdbc511a4ef9478665b9ba35f359e2dc4af5",
+        "bytes": 53217
+      },
+      "transfer_error": {
+        "ball": "[4.7305165990145839981216245581181722e-9 +/- 1.65e-44]",
+        "lower": "[4.7305165990145839981216245581181722e-9 +/- 1.65e-44]",
+        "upper": "[4.7305165990145839981216245581181722e-9 +/- 1.65e-44]",
+        "mid_float": 4.730516599014584e-09,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 3,
+      "word": "",
+      "exact_interval": [
+        "5764607523034235/1152921504606846976",
+        "7827707535241863/1152921504606846976"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0003_root.json",
+      "sha256": "89841362ce69809c59276ac68d950e0855fc3f6ce3a4a80a55481ba3ad404ab6",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0003_root.npz",
+        "sha256": "fe2c7abacd91a8466cb9cf8ddf087601e3d9609f56b8b8791021575d783ce1a7",
+        "bytes": 52761
+      },
+      "transfer_error": {
+        "ball": "[7.7853421461009554738065648943739479e-9 +/- 3.23e-44]",
+        "lower": "[7.7853421461009554738065648943739479e-9 +/- 3.23e-44]",
+        "upper": "[7.7853421461009554738065648943739479e-9 +/- 3.23e-44]",
+        "mid_float": 7.785342146100956e-09,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 4,
+      "word": "",
+      "exact_interval": [
+        "7827707535241863/1152921504606846976",
+        "1080863910568919/144115188075855872"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0004_root.json",
+      "sha256": "27f3a5d2c118a982c7e65c6236bac8bc26d01d600f3eaf7bb8d4fc888a5b9d01",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0004_root.npz",
+        "sha256": "eaa4b529adc458941cc7955ead701c80d354c72abc9874c89cfd21026caef4ad",
+        "bytes": 53791
+      },
+      "transfer_error": {
+        "ball": "[2.5057237928868002396839476297919129e-9 +/- 3.09e-44]",
+        "lower": "[2.5057237928868002396839476297919129e-9 +/- 3.09e-44]",
+        "upper": "[2.5057237928868002396839476297919129e-9 +/- 3.09e-44]",
+        "mid_float": 2.5057237928868004e-09,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 5,
+      "word": "",
+      "exact_interval": [
+        "1080863910568919/144115188075855872",
+        "5764607523034235/576460752303423488"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0005_root.json",
+      "sha256": "8e6705b5b10023e22521debfb5ded8cd6f02775b8ac34c6c756eb5b522c4440a",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0005_root.npz",
+        "sha256": "7d7ce0b3a40c08a0f63f3efa8a146d7ada78af529205d48e419ccbab6a973796",
+        "bytes": 52218
+      },
+      "transfer_error": {
+        "ball": "[1.3513139392178970995908243355592074e-8 +/- 4.69e-43]",
+        "lower": "[1.3513139392178970995908243355592074e-8 +/- 4.69e-43]",
+        "upper": "[1.3513139392178970995908243355592074e-8 +/- 4.69e-43]",
+        "mid_float": 1.351313939217897e-08,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 6,
+      "word": "",
+      "exact_interval": [
+        "5764607523034235/576460752303423488",
+        "3262041465611097/288230376151711744"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0006_root.json",
+      "sha256": "381b5b8f1ef47b1d2f7dbac048eb7a748e44f38e0614cf78512cba6259b25425",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0006_root.npz",
+        "sha256": "7686f8ac0d95190093eae6ee4b831aa18b85461571ff6fbc143a2d8f7397ddc9",
+        "bytes": 53143
+      },
+      "transfer_error": {
+        "ball": "[5.6954318290427560779706607382807702e-9 +/- 2.78e-44]",
+        "lower": "[5.6954318290427560779706607382807702e-9 +/- 2.78e-44]",
+        "upper": "[5.6954318290427560779706607382807702e-9 +/- 2.78e-44]",
+        "mid_float": 5.695431829042756e-09,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 7,
+      "word": "",
+      "exact_interval": [
+        "3262041465611097/288230376151711744",
+        "6524082931222251/576460752303423488"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0007_root.json",
+      "sha256": "326253c9647753842f36aaeb8e8e28165d70b7faf126afef5b7fe8ea93ed2339",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0007_root.npz",
+        "sha256": "22c0972e53e50ee2632acf220470ba6b453755bff00247ebdb05672a2991b467",
+        "bytes": 56102
+      },
+      "transfer_error": {
+        "ball": "[3.7939046047789542081029434352746803e-17 +/- 2.45e-52]",
+        "lower": "[3.7939046047789542081029434352746803e-17 +/- 2.45e-52]",
+        "upper": "[3.7939046047789542081029434352746803e-17 +/- 2.45e-52]",
+        "mid_float": 3.793904604778954e-17,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 8,
+      "word": "",
+      "exact_interval": [
+        "6524082931222251/576460752303423488",
+        "3602879701896397/288230376151711744"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0008_root.json",
+      "sha256": "ca4d6def1e15c5aa065c1d2f83c134b078fff71c135b9db0fda45b2bc71ff398",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0008_root.npz",
+        "sha256": "08cbf46ea6e316ec289d2d8c1bf1499109263ca2256c324e6f3eb3b2a3906d9b",
+        "bytes": 53230
+      },
+      "transfer_error": {
+        "ball": "[5.0813603408039206949999468213591607e-9 +/- 3.14e-44]",
+        "lower": "[5.0813603408039206949999468213591607e-9 +/- 3.14e-44]",
+        "upper": "[5.0813603408039206949999468213591607e-9 +/- 3.14e-44]",
+        "mid_float": 5.0813603408039205e-09,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 9,
+      "word": "",
+      "exact_interval": [
+        "3602879701896397/288230376151711744",
+        "1080863910568919/72057594037927936"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0009_root.json",
+      "sha256": "70bacb7ae8e8e5a87fae9fe6a34119d3f3b7b1fd8f3516ce4d34d0fa94d24d2b",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0009_root.npz",
+        "sha256": "c7a4fb555ffdf2a29361448101b6b11054b653e9367875a34909ff06f243705b",
+        "bytes": 52534
+      },
+      "transfer_error": {
+        "ball": "[1.4857056007446921701260556292914379e-8 +/- 2.84e-43]",
+        "lower": "[1.4857056007446921701260556292914379e-8 +/- 2.84e-43]",
+        "upper": "[1.4857056007446921701260556292914379e-8 +/- 2.84e-43]",
+        "mid_float": 1.4857056007446922e-08,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 10,
+      "word": "",
+      "exact_interval": [
+        "1080863910568919/72057594037927936",
+        "17843363888359/1125899906842624"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0010_root.json",
+      "sha256": "452ab6f2583bc40893ebfa1742b26e629c88923ce6b64d8dafeab8e62e6b941b",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0010_root.npz",
+        "sha256": "d540bc8550b843d559b58af2d2bd2ff8bfbb9e2d8bd3059c601845590138b1da",
+        "bytes": 53821
+      },
+      "transfer_error": {
+        "ball": "[3.5677777540593312651697621904594437e-9 +/- 4.98e-44]",
+        "lower": "[3.5677777540593312651697621904594437e-9 +/- 4.98e-44]",
+        "upper": "[3.5677777540593312651697621904594437e-9 +/- 4.98e-44]",
+        "mid_float": 3.5677777540593313e-09,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 11,
+      "word": "",
+      "exact_interval": [
+        "17843363888359/1125899906842624",
+        "1141975288854983/72057594037927936"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0011_root.json",
+      "sha256": "3b62204a508486964debc5591e91cb30aed82308d7fc5b4d5567ee07588cdfb7",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0011_root.npz",
+        "sha256": "101d3cf1c2122f0676b7964c756f68df53252e46f380e80b5bbc3d13c68dd766",
+        "bytes": 56186
+      },
+      "transfer_error": {
+        "ball": "[5.0147542528985061420324900891260309e-17 +/- 2.30e-52]",
+        "lower": "[5.0147542528985061420324900891260309e-17 +/- 2.30e-52]",
+        "upper": "[5.0147542528985061420324900891260309e-17 +/- 2.30e-52]",
+        "mid_float": 5.014754252898506e-17,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 12,
+      "word": "",
+      "exact_interval": [
+        "1141975288854983/72057594037927936",
+        "1261007895663739/72057594037927936"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0012_root.json",
+      "sha256": "e5487f556c73664c7a61ed7a8ea76e2fa19934a5008d22db19c7683ef82d7ce7",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0012_root.npz",
+        "sha256": "9b548ba8697244137417ea15c8437c44dcb817b4126795822df0de2dcafa5c4a",
+        "bytes": 52610
+      },
+      "transfer_error": {
+        "ball": "[8.3805806675115693318110056477433854e-9 +/- 1.12e-44]",
+        "lower": "[8.3805806675115693318110056477433854e-9 +/- 1.12e-44]",
+        "upper": "[8.3805806675115693318110056477433854e-9 +/- 1.12e-44]",
+        "mid_float": 8.38058066751157e-09,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 13,
+      "word": "",
+      "exact_interval": [
+        "1261007895663739/72057594037927936",
+        "5764607523034235/288230376151711744"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0013_root.json",
+      "sha256": "d0a4148feafeca91d271a255c2f96c0d6371a943041c39e7e8200a6478c1bb67",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0013_root.npz",
+        "sha256": "2af1690cc8c96f8ad88bed92ab47e1a5e57f6acb1e5215fcd33e2e312f4b3a8e",
+        "bytes": 52867
+      },
+      "transfer_error": {
+        "ball": "[1.5641508928625156638056222286403484e-8 +/- 1.62e-43]",
+        "lower": "[1.5641508928625156638056222286403484e-8 +/- 1.62e-43]",
+        "upper": "[1.5641508928625156638056222286403484e-8 +/- 1.62e-43]",
+        "mid_float": 1.5641508928625157e-08,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 14,
+      "word": "",
+      "exact_interval": [
+        "5764607523034235/288230376151711744",
+        "2937402117351765/144115188075855872"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0014_root.json",
+      "sha256": "0dc916bed5016eb9f082eeca21005335fb3c2368abde1eac1989fdb97afa9131",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0014_root.npz",
+        "sha256": "889fe42e3549b844233bcd2970609bdc90b5497ead50cf2b1f6da80a26f3dcff",
+        "bytes": 54118
+      },
+      "transfer_error": {
+        "ball": "[1.5244915805652481268769225337333573e-9 +/- 3.66e-44]",
+        "lower": "[1.5244915805652481268769225337333573e-9 +/- 3.66e-44]",
+        "upper": "[1.5244915805652481268769225337333573e-9 +/- 3.66e-44]",
+        "mid_float": 1.524491580565248e-09,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 15,
+      "word": "",
+      "exact_interval": [
+        "2937402117351765/144115188075855872",
+        "3242591731706757/144115188075855872"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0015_root.json",
+      "sha256": "f62c98b4f0954e69b93c054b0d45634b0c6c57761c1a08ecdeca8db2cdc0ed8a",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0015_root.npz",
+        "sha256": "77512b0bcab969f340074b79f4bd2607041ea20984f7af7ad966e03bfbf14807",
+        "bytes": 52961
+      },
+      "transfer_error": {
+        "ball": "[1.2391752556015381157282651214881933e-8 +/- 4.38e-43]",
+        "lower": "[1.2391752556015381157282651214881933e-8 +/- 4.38e-43]",
+        "upper": "[1.2391752556015381157282651214881933e-8 +/- 4.38e-43]",
+        "mid_float": 1.239175255601538e-08,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 16,
+      "word": "",
+      "exact_interval": [
+        "3242591731706757/144115188075855872",
+        "7183049223257071/288230376151711744"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0016_root.json",
+      "sha256": "88b546fbd7406c34d190dc73049134ea4c1dcec6e421d3e9310f3055a4e7f593",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0016_root.npz",
+        "sha256": "bade6196b863ae4d0e30233c78bdc59e6dd009221155b02bb800e789f709b3c5",
+        "bytes": 52736
+      },
+      "transfer_error": {
+        "ball": "[1.5187828271336849445012989673683411e-8 +/- 1.71e-43]",
+        "lower": "[1.5187828271336849445012989673683411e-8 +/- 1.71e-43]",
+        "upper": "[1.5187828271336849445012989673683411e-8 +/- 1.71e-43]",
+        "mid_float": 1.518782827133685e-08,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 17,
+      "word": "",
+      "exact_interval": [
+        "7183049223257071/288230376151711744",
+        "3602879701896397/144115188075855872"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0017_root.json",
+      "sha256": "58c875520066d1bb108270d12f5f66175ebde84c171fa7759d9956128f14dfc2",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0017_root.npz",
+        "sha256": "05f379018d2bb17188ec7e0cd5605c362984d1e8fd3e4eab966a7f96ac1a6fca",
+        "bytes": 54843
+      },
+      "transfer_error": {
+        "ball": "[2.9330278333704558648507635550487064e-10 +/- 7.34e-46]",
+        "lower": "[2.9330278333704558648507635550487064e-10 +/- 7.34e-46]",
+        "upper": "[2.9330278333704558648507635550487064e-10 +/- 7.34e-46]",
+        "mid_float": 2.9330278333704557e-10,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 18,
+      "word": "",
+      "exact_interval": [
+        "3602879701896397/144115188075855872",
+        "7926335344172073/288230376151711744"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0018_root.json",
+      "sha256": "1c650a3737c3c570be6ebdbf6cac2e8d9dbc7dda6e8f1621abbfb52ad98b9a02",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0018_root.npz",
+        "sha256": "df0a5528b4fd46f649a057d7c38a346b68998c947fd4f061de385283e2c82434",
+        "bytes": 52750
+      },
+      "transfer_error": {
+        "ball": "[1.5917316683830464812975323897363450e-8 +/- 5.55e-44]",
+        "lower": "[1.5917316683830464812975323897363450e-8 +/- 5.55e-44]",
+        "upper": "[1.5917316683830464812975323897363450e-8 +/- 5.55e-44]",
+        "mid_float": 1.5917316683830465e-08,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "index": 19,
+      "word": "",
+      "exact_interval": [
+        "7926335344172073/288230376151711744",
+        "8492934947391625/288230376151711744"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0019_root.json",
+      "sha256": "882ba1272f4c4a1f3848dc48d21b8b2fb83c537c78d6161fa75f88a0ab858484",
+      "arrays": {
+        "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0019_root.npz",
+        "sha256": "509bc4e85946d7179105d3d3f1afae7b78520282bdb82260e5211383e1bc08c2",
+        "bytes": 52970
+      },
+      "transfer_error": {
+        "ball": "[1.1162835411380748209208873492031953e-8 +/- 3.24e-43]",
+        "lower": "[1.1162835411380748209208873492031953e-8 +/- 3.24e-43]",
+        "upper": "[1.1162835411380748209208873492031953e-8 +/- 3.24e-43]",
+        "mid_float": 1.1162835411380749e-08,
+        "radius_upper_float": 0.0
+      }
+    }
+  ],
+  "terminal_failures": [],
+  "rejected_boxes": [
+    {
+      "index": 2,
+      "word": "",
+      "exact_interval": [
+        "5764607523034235/2305843009213693952",
+        "5764607523034235/1152921504606846976"
+      ],
+      "path": "data/core_uniform_flow_ci/43307149760/block_0_20/span_0002_root.json",
+      "sha256": "e70339bebface05c1c3666a14f1b37c92c160ed11d92a0e27ee55129368e1212",
+      "failure": "ValueError('a waist disk requires the separately removable Fz/r implementation')"
+    }
+  ],
+  "scope": "Exactly the declared common-span piece of the true finite angular core family. No omitted interval is assigned zero and no full core DN or full Schur inverse is claimed.",
+  "CPU_seconds": 193.696066438,
+  "wall_seconds": 194.077269061
+}

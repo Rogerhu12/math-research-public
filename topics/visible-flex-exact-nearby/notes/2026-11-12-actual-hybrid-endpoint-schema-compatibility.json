@@ -1,0 +1,22 @@
+{
+  "kind": "actual_saved_hybrid_local_schema_compatibility",
+  "actual_R31_accepted": false,
+  "checks": [
+    {
+      "scope": "center",
+      "path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/center_efficient_prefix0020/chronological/report.json.gz",
+      "sha256": "b761788bb63983f9a7f8ea8820b2a76be4d5c14bce58870dbaf841172f2ea863",
+      "completed_segments": 20,
+      "local_terms_contract_accepted": true,
+      "incomplete_full_return_rejected": "complete same-object actual center chronological data required"
+    },
+    {
+      "scope": "uniform",
+      "path": "data/phase_ring_continuation/step5_parameter_density_prefix_checks/hybrid_efficient_prefix0020/chronological/report.json.gz",
+      "sha256": "efa7f31365923809279726bc1a4cba23ed86a74b09e10a111ac5838a00e86c8e",
+      "completed_segments": 20,
+      "local_terms_contract_accepted": true,
+      "incomplete_full_return_rejected": "complete same-object actual uniform chronological data required"
+    }
+  ]
+}

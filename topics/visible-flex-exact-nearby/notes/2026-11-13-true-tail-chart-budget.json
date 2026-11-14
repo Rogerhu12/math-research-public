@@ -1,0 +1,224 @@
+{
+  "schema": "visible-exact-R115-true-tail-chart-budget-v1",
+  "scope": "Exact finite rational gates for a proved infinite-tail chart theorem; no new native collar run and no full-feedback claim.",
+  "inputs": {
+    "H": "256/85",
+    "kappa_upper": "1/1152921504606846976",
+    "state_radius": "13/48",
+    "beta": "1467/256",
+    "source_power": "11607/4",
+    "source_prefactor_power": 4200,
+    "source_R72_blob": "a7c78793ba18724a4f0553b6ccd55259b8f4df92",
+    "source_R21_blob": "a3b55246f416d73a4c4fe2b0b1545f0bfee0863d",
+    "source_R25_blob": "be20257721fed270c59a4024427042fc76ee0073"
+  },
+  "checks": [
+    {
+      "name": "label_quarter_self_map",
+      "pass": true
+    },
+    {
+      "name": "unit_state_contraction",
+      "pass": true
+    },
+    {
+      "name": "state_at_label_twelfth",
+      "pass": true
+    },
+    {
+      "name": "derivative_invertible",
+      "pass": true
+    },
+    {
+      "name": "DX_norm",
+      "pass": true
+    },
+    {
+      "name": "DX_minus_H",
+      "pass": true,
+      "bound": "3328/2351959869397967829935",
+      "claimed": "1/576460752303423488"
+    },
+    {
+      "name": "D2R_Cauchy_radius",
+      "pass": true
+    },
+    {
+      "name": "D2X_43kappa",
+      "pass": true
+    },
+    {
+      "name": "D2X_2minus54",
+      "pass": true,
+      "bound": "1014/27670116110564327411"
+    },
+    {
+      "name": "quadratic_remainder",
+      "pass": true
+    },
+    {
+      "name": "beta_identity",
+      "pass": true
+    },
+    {
+      "name": "beta_positive",
+      "pass": true
+    },
+    {
+      "name": "beta_above_11_over_2",
+      "pass": true
+    },
+    {
+      "name": "constant_width_h5",
+      "pass": true
+    },
+    {
+      "name": "deep_width_h5",
+      "pass": true
+    },
+    {
+      "name": "width_lower_constant",
+      "pass": true
+    },
+    {
+      "name": "delta129_below_2minus132",
+      "pass": true
+    },
+    {
+      "name": "geometric_mean_integral",
+      "pass": true
+    },
+    {
+      "name": "physical_epsilon_over_rho",
+      "pass": true
+    },
+    {
+      "name": "C2_chart_small_exponent",
+      "pass": true
+    },
+    {
+      "name": "DF_physical_Cauchy",
+      "pass": true
+    },
+    {
+      "name": "D2F_physical_Cauchy",
+      "pass": true
+    },
+    {
+      "name": "horizontal_jet_all_terms",
+      "pass": true
+    },
+    {
+      "name": "mean_inverse",
+      "pass": true
+    },
+    {
+      "name": "exp2012_elementary",
+      "pass": true
+    },
+    {
+      "name": "local_source_constant_port",
+      "pass": true
+    },
+    {
+      "name": "local_source_constant_jet",
+      "pass": true
+    },
+    {
+      "name": "mean_integral_power",
+      "pass": true
+    },
+    {
+      "name": "mean_lift_power",
+      "pass": true
+    },
+    {
+      "name": "ordinary_port_remaining_power",
+      "pass": true
+    },
+    {
+      "name": "mean_port_remaining_power",
+      "pass": true
+    },
+    {
+      "name": "ordinary_jet_remaining_power",
+      "pass": true
+    },
+    {
+      "name": "mean_jet_remaining_power",
+      "pass": true
+    },
+    {
+      "name": "ordinary_jet_flat",
+      "pass": true
+    },
+    {
+      "name": "mean_jet_flat",
+      "pass": true
+    },
+    {
+      "name": "strong_source_direct_margin",
+      "pass": true
+    },
+    {
+      "name": "strong_source_mean_margin",
+      "pass": true
+    },
+    {
+      "name": "source_Green_state",
+      "pass": true
+    },
+    {
+      "name": "source_H_state",
+      "pass": true
+    },
+    {
+      "name": "R15_source_embedding_exponent",
+      "pass": true
+    },
+    {
+      "name": "R15_source_embedding_margin",
+      "pass": true
+    },
+    {
+      "name": "density_Darboux_polynomial_identity",
+      "pass": true
+    },
+    {
+      "name": "horizontal_determinant",
+      "pass": true
+    },
+    {
+      "name": "horizontal_physical_U_strain",
+      "pass": true
+    },
+    {
+      "name": "grounded_flux_shear",
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "actual_full_tail_chart": true,
+    "all_internal_labels": true,
+    "continuous_weighted_sources": true,
+    "mean_holonomy_load_retained": true,
+    "complete_C2_horizontal_reconstruction": true,
+    "regular_full_Robin_perturbation_paid": false,
+    "global_exact_zero_constructed": false
+  },
+  "execution": {
+    "engine": "functions.exec V8 BigInt",
+    "utc": "2026-11-13 02:35:50 UTC",
+    "source_sha256": "7d278d7a3ccd14643c89410e5ec7349e0a93d51fa21e5afea31ba54e488a7594",
+    "proof_sha256": "7bc7fe7e0f285efabc0b1b64a55c661ce6084e4fc54f9a0c049ef3708544f1fa",
+    "native_execution": false
+  },
+  "rule_read": {
+    "commit": "bf05effdf766352eea9bce179b3e936c79529e13",
+    "root_blob": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topic_blob": "84b6d9fc74ed90ab725aa230cdf348f325505396",
+    "both_unchanged": true,
+    "method": "GitHub connector read during unavailable executor; not git pull"
+  }
+}

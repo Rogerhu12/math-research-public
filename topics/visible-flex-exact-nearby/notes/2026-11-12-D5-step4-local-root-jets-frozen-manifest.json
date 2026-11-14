@@ -1,0 +1,29 @@
+{
+  "kind": "frozen_step4_local_actual_root_parameter_jets",
+  "archive_required": [
+    {
+      "path": "scripts/fourfold_phase_local_parameter_root_jets.py",
+      "sha256": "6b7066e301452ae644c356f82b923edcfe0e99dc01b05d2e978fd123c096cf11",
+      "bytes": 8452
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_local_root_jets.json",
+      "sha256": "cbc29437b88a9349fdf27fddff14ed53c73e9192b89676cd5e798cb2fe785c24",
+      "bytes": 5730
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_local_root_jets_h1e6.json",
+      "sha256": "2cb965df97862f068c0149211d9f1238c0ee8c5f13623cbe39743d7d679ad991",
+      "bytes": 5896
+    },
+    {
+      "path": "notes/2026-11-12-D5-step4-local-root-parameter-jets.md",
+      "sha256": "745db80f91d4f80639e25879cc24a1cdb09463c30c905ca8931a6fbfe1a992a6",
+      "bytes": 4487
+    }
+  ],
+  "reproducible_large_intermediates": [],
+  "limitations": [
+    "True local root/endpoint jets only; no whole ODE or KAM certificate"
+  ]
+}

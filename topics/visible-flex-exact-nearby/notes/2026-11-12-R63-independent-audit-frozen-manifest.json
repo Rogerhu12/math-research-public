@@ -1,0 +1,24 @@
+{
+  "kind": "frozen_independent_R63_audit",
+  "archive_required": [
+    {
+      "path": "scripts/fourfold_circle_local_inverse_independent_audit.py",
+      "sha256": "6308748d20ff758b12019b79f59b75045765eec7850152274562b7ac8058b60c",
+      "bytes": 5628
+    },
+    {
+      "path": "notes/2026-11-12-R63-finite-local-inverse-independent-audit.json",
+      "sha256": "412d9ebe07d0e044ccdca8b2fee1e1cbbf38ecd7acbe21dc674ab0a3d5b7b654",
+      "bytes": 3160
+    },
+    {
+      "path": "notes/2026-11-12-R63-independent-audit.md",
+      "sha256": "68b9cec7b5ae48b20355b77f7d6d7e1ddb3bfe24510c03b28aa5634015af35f1",
+      "bytes": 2604
+    }
+  ],
+  "reproducible_large_intermediates": [],
+  "limitations": [
+    "Finite H/input audit only; no actual return or KAM certificate"
+  ]
+}

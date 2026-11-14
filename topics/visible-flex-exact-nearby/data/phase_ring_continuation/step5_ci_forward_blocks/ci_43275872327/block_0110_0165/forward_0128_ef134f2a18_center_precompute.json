@@ -1,0 +1,83 @@
+{
+  "kind": "separate_process_preparation_of_existing_parameter_proof_cache",
+  "complete": true,
+  "source_sha256": "228406f747e756bb0bdcfd44b9932028bc5bd80411a06a398f48b8ca04550354",
+  "actual_proof_source_sha256": "55d38e76067db34ccff0c4bd28be70b8159ec68395046a1c9a517bceba2a7b89",
+  "domain_path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0128_r.json.gz",
+  "domain_sha256": "6f26c79e9f419defcccb9c353daccbe128a65fc6e05704f5e91ab703ac9696c5",
+  "descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+  "segment": 128,
+  "cache_key_matches_frozen_v5": true,
+  "parameter_density_not_computed": true,
+  "attempts": [
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/expanded-field/forward_0128_6f26c79e9f41_main1_optimal_R6_S12.json.gz",
+      "germ": 0,
+      "rejected": "the expanded domain does not cover the sampled main germ"
+    }
+  ],
+  "children": [
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/expanded-parameter/forward_0128_7c81026da39ed1794357.json.gz",
+      "proof_key": {
+        "domain": "6f26c79e9f419defcccb9c353daccbe128a65fc6e05704f5e91ab703ac9696c5",
+        "expanded": "0b1cd10a15e001fc5c7c6d689a69dccacc6946fb138e3c86670263498c84b881",
+        "germ": 1,
+        "descriptor": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+        "local_root": "370f5864a2edc9a7c899bcaa42c284d1f990db468f21b12c52fc82a7b260030d",
+        "wide_root": "d83fe1e7ab3eed8baaf2448f2f6076212936633c69f58950720f6d372b03d99c",
+        "half_width": "1/1000000000",
+        "nodes": 512,
+        "root_nodes": 1024,
+        "bits": 320,
+        "radial_degree": 40,
+        "proof_source": "55d38e76067db34ccff0c4bd28be70b8159ec68395046a1c9a517bceba2a7b89"
+      },
+      "reused": false,
+      "log_path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/logs/parameter-proof/expanded_parameter_0128_7c81026da39ed1794357.log",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/math-research/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_parameter_expanded_time_domain.py",
+        "--descriptor",
+        "data/phase_ring_continuation/step5_retargeted_reference/descriptor.json",
+        "--domain",
+        "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0128_r.json.gz",
+        "--expanded-domain",
+        "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/expanded-field/forward_0128_6f26c79e9f41_main1_optimal_R6_S12.json.gz",
+        "--local-root-jets",
+        "data/phase_ring_continuation/type_fixed_step02_d5_step5_local_parameter_root_jets_h1e14.json",
+        "--wide-root-jets",
+        "data/phase_ring_continuation/type_fixed_step02_d5_step5_local_parameter_root_jets_h5e7.json",
+        "--half-width",
+        "1/1000000000",
+        "--nodes",
+        "512",
+        "--root-nodes",
+        "1024",
+        "--germ",
+        "1",
+        "--radial-degree",
+        "40",
+        "--bits",
+        "320",
+        "--out",
+        "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/expanded-parameter/forward_0128_7c81026da39ed1794357.json.gz"
+      ],
+      "returncode": 0,
+      "log_sha256": "159bb4edcd3677370361b089b83d94ae3d23d5e35fec9276cb41b412249fd13f",
+      "sha256": "7d781cfcfe83c07623ce1491fbf0bd99e3ce1f4564d33c3ab88a610667ab187a",
+      "actual_proof_complete": true,
+      "proof_failure": null
+    }
+  ],
+  "actual_complete_larger_parameter_domains": [
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0110_0165/expanded-parameter/forward_0128_7c81026da39ed1794357.json.gz",
+      "sha256": "7d781cfcfe83c07623ce1491fbf0bd99e3ce1f4564d33c3ab88a610667ab187a"
+    }
+  ],
+  "all_requested_child_processes_finished": true,
+  "next_density_consumer_must_run_full_checked_parameter_proof": true,
+  "wall_seconds": 8.381337198999972
+}

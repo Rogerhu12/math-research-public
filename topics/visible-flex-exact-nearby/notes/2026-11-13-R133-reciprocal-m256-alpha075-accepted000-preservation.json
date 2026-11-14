@@ -1,0 +1,30 @@
+{
+  "kind": "lossless_preservation_of_last_observed_complete_accepted_checkpoint",
+  "original_process_sha256": "4e179308ed798dd591be8847e52c0684afa080b00da23d286accd2b4e7581edc",
+  "original_process_complete": false,
+  "original_process_status": "started",
+  "original_process_record_unmodified": true,
+  "original_log_sha256": "de62d86f45228a2a218f951430276b46fc69641e82230000e2e831c2b3fa460a",
+  "checkpoint_sha256": "af0a3f5fabd4d8d1194f30ff942130040e62975c0963f127c9ae864f7bd9521a",
+  "checkpoint_bytes": 10916086,
+  "original_checkpoint": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-reciprocal-m256-alpha075-checkpointed-QR-floating/accepted-000.npz",
+  "radial_nodes": 1379,
+  "state_dimension": 513,
+  "full_cubic_shape": [
+    4,
+    1378,
+    513
+  ],
+  "every_saved_state_and_derivative_used": true,
+  "source_sha256": "e7d7e33ea74457baab55e7620aa4a52353fd7941edd11f79a238729e530b90c2",
+  "candidate_path": "/workspace/scratch/ac0d699811ad/reciprocal-m256-alpha075-accepted000-candidate.json",
+  "candidate_sha256": "45923b3675d2789376361192c6e0841e82914e27605d362872d5ac1dcf7a628e",
+  "observed_session": 82459,
+  "session_handle_observation": "write_stdin reported bash Killed and exit_code=137; the original process report remains started and has no final solver outcome",
+  "actual_exit_code": 137,
+  "actual_exit_cause": null,
+  "finite_BVP_convergence_not_established": true,
+  "this_preservation_does_not_resume_or_repeat_the_failed_session": true,
+  "mathematical_certificate": false,
+  "wall_seconds": 3.575859960001253
+}

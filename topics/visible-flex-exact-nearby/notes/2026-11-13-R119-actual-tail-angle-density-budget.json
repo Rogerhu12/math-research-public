@@ -1,0 +1,179 @@
+{
+  "schema": "visible-exact-R119-actual-tail-angle-density-conjugation-v1",
+  "scope": "Exact nonlinear mixed-tail principal frame, actual drift-angle flow, true grounded density/source conjugation, and complete degenerate amplitude frame. No all-frequency return inverse is asserted.",
+  "inputs": {
+    "true_uniform_tail_relative_state": "2^-164",
+    "actual_total_tail_log_length": "2^-130",
+    "actual_full_drift_integral": "2^-289",
+    "actual_full_angle_and_Jacobian_bound": "2^-280",
+    "paid_output_angle_width": "5177/400-4",
+    "source_R72_blob": "a7c78793ba18724a4f0553b6ccd55259b8f4df92",
+    "file_sha256": {
+      "results/R115-actual-tail-holomorphic-neighborhood-and-strong-extension.md": "7bc7fe7e0f285efabc0b1b64a55c661ce6084e4fc54f9a0c049ef3708544f1fa",
+      "results/R119-actual-final-connector-all-label-continuation.md": "8b4f7d46321709e9151abb930748d1d28545a5b41b1329813cd7301747c8a083",
+      "results/R119-supplement-two-bumps-and-exact-nonlinear-matching.md": "db98a77d0b294bfad27677e670ef7c73f5acb33907950b2a38a52036e519c702",
+      "results/R119-supplement-actual-tail-angle-density-conjugation.md": "cdcdef642bb59ae829c266dabfc479157f4a25741e1d77c41f0b103056f2b049",
+      "scripts/fourfold_actual_tail_angle_density_20261113.py": "95e3c132015d03cd98223d14ef47ea26dab2eaf88343b364bbe7505df8d9b949"
+    }
+  },
+  "checks": [
+    {
+      "name": "exact_true_principal_F_U",
+      "pass": true,
+      "evidence": "Differentiate the actual complete nonlinear quotient"
+    },
+    {
+      "name": "exact_true_principal_F_V",
+      "pass": true,
+      "evidence": "The drift is EQ/J and includes the true mean K0"
+    },
+    {
+      "name": "exact_true_principal_discriminant",
+      "pass": true,
+      "evidence": "All actual type zeros remain exactly the original A(t)=0"
+    },
+    {
+      "name": "exact_turning_regular_frame",
+      "pass": true,
+      "evidence": "No division by A or sqrt(A) occurs in the true frame"
+    },
+    {
+      "name": "complete_v_transport_identity",
+      "pass": true,
+      "evidence": "All independent U_theta and V_theta terms cancel exactly"
+    },
+    {
+      "name": "complete_d_transport_identity",
+      "pass": true,
+      "evidence": "The true drift identity contains no omitted A_t/A term"
+    },
+    {
+      "name": "exact_grounded_density_determinant",
+      "pass": true,
+      "evidence": "This is the actual Gauss determinant, not a scalar model determinant"
+    },
+    {
+      "name": "exact_conormal_principal_cancellation",
+      "pass": true,
+      "evidence": "Both the actual angular drift and v cancel in the physical conormal symbol"
+    },
+    {
+      "name": "exact_density_pullback_drift_cancellation",
+      "pass": true,
+      "evidence": "p_t=(d p)_theta-flux_theta+s and j_t=-(d_theta composed)j"
+    },
+    {
+      "name": "exact_pulled_back_density_product",
+      "pass": true,
+      "evidence": "The full source and both trace densities carry the true angular Jacobian"
+    },
+    {
+      "name": "exact_full_amplitude_lower_order_identity",
+      "pass": true,
+      "evidence": "All amplitude first derivatives and the complete potential are retained"
+    },
+    {
+      "name": "exact_regular_translation_column",
+      "pass": true,
+      "evidence": "The canonical regular translation column is (k,0), not a discarded constant"
+    },
+    {
+      "name": "actual_drift_relative_bound",
+      "pass": true,
+      "evidence": "|d|<=2N/(1-2N)"
+    },
+    {
+      "name": "actual_v_relative_bound",
+      "pass": true,
+      "evidence": "|sqrt(D)-J|<5N on the complete relative ball"
+    },
+    {
+      "name": "actual_frame_bound",
+      "pass": true,
+      "evidence": "T has row bound |d|+|v|<=1+9N"
+    },
+    {
+      "name": "actual_inverse_frame_bound",
+      "pass": true,
+      "evidence": "No turning-point factor is hidden in T inverse"
+    },
+    {
+      "name": "complete_local_correction_is_smaller",
+      "pass": true,
+      "evidence": "R72 5.6 correction divided by 4.6 is <=2^55 delta^(2407/2)"
+    },
+    {
+      "name": "complete_relative_tail_constant",
+      "pass": true,
+      "evidence": "Physical strong flow, actual w_min, four-state sum, and h^-5 all retained"
+    },
+    {
+      "name": "complete_relative_tail_exponent",
+      "pass": true,
+      "evidence": "This is the actual local relative state exponent after all conversions"
+    },
+    {
+      "name": "actual_first_tail_cell_smallness",
+      "pass": true,
+      "evidence": "delta_129<2^-132 and ||X||<1"
+    },
+    {
+      "name": "actual_total_tail_log_length",
+      "pass": true,
+      "evidence": "2 delta_128 <2^-130, with delta_128=(2/25)2^-128"
+    },
+    {
+      "name": "actual_connector_and_bumps_length",
+      "pass": true,
+      "evidence": "All installed connector groups and both fixed bumps are included"
+    },
+    {
+      "name": "actual_drift_and_derivative_tail_bound",
+      "pass": true,
+      "evidence": "One actual unit of angular width pays the derivative"
+    },
+    {
+      "name": "actual_drift_and_derivative_connector_bound",
+      "pass": true,
+      "evidence": "The already proved weighted full chart supplies the actual outer segment"
+    },
+    {
+      "name": "complete_true_drift_integral",
+      "pass": true,
+      "evidence": "The entire infinite tail and both finite connector pieces are covered"
+    },
+    {
+      "name": "complex_flow_remains_in_paid_strip",
+      "pass": true,
+      "evidence": "Start at width tau-3 inside the actual coefficient width tau-2"
+    },
+    {
+      "name": "full_Fourier_Cauchy_factor",
+      "pass": true,
+      "evidence": "All 4Z frequencies sum after a true unit of remaining strip width"
+    },
+    {
+      "name": "actual_angle_and_Jacobian_Wiener_norm",
+      "pass": true,
+      "evidence": "Displacement, exponential Jacobian, and complete Fourier summation are all paid"
+    },
+    {
+      "name": "complete_two_trace_Sobolev_isomorphism",
+      "pass": true,
+      "evidence": "L2 and H1 change-of-variable bounds interpolate and dualize to Hhalf/Hminus-half"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "actual_nonlinear_type_zeros_preserved": true,
+    "true_turning_regular_principal_frame": true,
+    "complete_grounded_flux_and_source": true,
+    "actual_angle_flow_entire_infinite_tail_and_connector": true,
+    "full_two_trace_bounded_angle_conjugacy": true,
+    "mean_and_regular_column_retained": true,
+    "degenerate_amplitude_weights_explicit": true,
+    "same_width_pullback_difference_claimed_small": false,
+    "nonlinear_actual_high_return_inverse": false,
+    "final_global_family": false
+  }
+}

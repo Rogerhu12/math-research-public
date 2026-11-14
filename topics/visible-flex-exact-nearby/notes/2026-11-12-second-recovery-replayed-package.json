@@ -1,0 +1,101 @@
+{
+  "kind": "second_executor_recovery_sources_and_actually_replayed_outputs",
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_full_angle_time_domain.py",
+      "bytes": 15601,
+      "sha256": "d681614326efacb0c256037d2c7e995eb895d8f77ce4281720f44c76a896548e"
+    },
+    {
+      "path": "scripts/fourfold_phase_uniform_field_time_grid.py",
+      "bytes": 10066,
+      "sha256": "7c5b0f94aa4e4008b23c1e30443454ad21d3885206206dddcbb7a834e1451c32"
+    },
+    {
+      "path": "scripts/fourfold_phase_uniform_field_time_grid_fast.py",
+      "bytes": 8962,
+      "sha256": "30655319d9172b0ac8de857f24329d944f5ec9d87b08ee283ee0292f90159aa8"
+    },
+    {
+      "path": "notes/2026-11-12-step5-whole-angle-complex-time-domain.md",
+      "bytes": 11182,
+      "sha256": "17aa802266c6e32deeba453d26c9e302fa754a90e89e74749d11569886401c5a"
+    },
+    {
+      "path": "notes/2026-11-12-whole-angle-domain-executor-recovery.md",
+      "bytes": 3412,
+      "sha256": "f0adc1125cc6f4901362d456f9cb86c51b3448f3f55c564df31e4de012ce7362"
+    },
+    {
+      "path": "notes/2026-11-12-step5-whole-angle-time-domain-replay.md",
+      "bytes": 2142,
+      "sha256": "d89c46b1f00499c5e982170fab7d189f2cda1d263191d0e3aa3a674a195ef9a2"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_reference419_whole_angle_time_domain.json",
+      "bytes": 328986,
+      "sha256": "e1a2c3f327c3a36e33c412e76c70eebd185f224ea938dcdea93ee30ab9a05f90"
+    },
+    {
+      "path": "notes/2026-11-12-step5-whole-angle-domain-replay-frozen-manifest.json",
+      "bytes": 1862,
+      "sha256": "37f1430a6bbc1b876e20ca4fa6ba1a66720a3d1b01271068eacfd33064949eea"
+    },
+    {
+      "path": "notes/2026-11-12-handoff-before-second-executor-recovery.md",
+      "bytes": 9368,
+      "sha256": "dd3870df160f499b71a5a6bf30065daf5d1a46a8a4b5d98769aafd5fe6fbe398"
+    },
+    {
+      "path": "notes/2026-11-12-second-executor-recovery.md",
+      "bytes": 4897,
+      "sha256": "1f5e96071d24b059a8c7bcf5aaf29e566bc3ba26444820214b6b502a07174dd3"
+    },
+    {
+      "path": "scripts/fourfold_phase_positive_family_outer.py",
+      "bytes": 14383,
+      "sha256": "6c06be00ba05a57a767fb30c56264dc1d6d837a936957cc194e8612d33e9d158"
+    },
+    {
+      "path": "scripts/fourfold_phase_positive_family_collar.py",
+      "bytes": 7576,
+      "sha256": "9ea8a5fd0d554de6ffc700ca4f1c407d70c68c634065bda0b13f71887e67edf5"
+    },
+    {
+      "path": "scripts/fourfold_phase_exterior_entry_jet.py",
+      "bytes": 4481,
+      "sha256": "9c522b37a84e78251d195d9d821db31e7b5aa3915c14e6adb7e38bb2af7d3c9e"
+    },
+    {
+      "path": "notes/2026-11-12-positive-family-stable-curvature.md",
+      "bytes": 7276,
+      "sha256": "c4ea0f5fdae6f1d59eaa348dc1bd559cc3106aeba5dd523bfdfb6eff235c8dd8"
+    },
+    {
+      "path": "notes/2026-11-12-positive-family-root-collar.json",
+      "bytes": 265160,
+      "sha256": "f796e89e61f45ffba22c2aa2ab145a40ec4a80fe39abe30bc797dc0b06b966cc"
+    },
+    {
+      "path": "notes/2026-11-12-positive-family-exterior-entry-jets.json",
+      "bytes": 88457,
+      "sha256": "6748eb485a77031a3f50caccea5111d913e58aa32ac428e30a7689354cfd8f26"
+    },
+    {
+      "path": "scripts/fourfold_native_series_fft.py",
+      "bytes": 4788,
+      "sha256": "bcf9d5c43f2ebc5669fcf89f785e5da0b6acac5ec901581103006c6dc04d1289"
+    },
+    {
+      "path": "notes/2026-11-12-native-series-fft-benchmark.json",
+      "bytes": 690,
+      "sha256": "ed0f981eb4feff00760bd487c409416a9487b89daf8820af7829ce2244d051e2"
+    }
+  ],
+  "exclude_live": [
+    "positive-family-outer-quarter-to-one.json.gz",
+    "positive-family-outer-one-to-three.json.gz",
+    "fourfold_phase_sine_time_geometry.py",
+    "noise/real/actualfield reconstruction in progress"
+  ]
+}

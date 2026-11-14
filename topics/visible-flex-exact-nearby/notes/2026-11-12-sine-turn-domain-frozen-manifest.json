@@ -1,0 +1,111 @@
+{
+  "kind": "completed_R65_and_actual_sine_turn_domain_checkpoint",
+  "complete": true,
+  "archive_required": [
+    {
+      "path": "results/R65-whole-angle-time-domains-and-exact-turns.md",
+      "sha256": "0cfe019380eb1f68ff41f690fccb79ed59206472c939e5902ede65deda52a7a6",
+      "bytes": 13702
+    },
+    {
+      "path": "scripts/fourfold_phase_sine_time_geometry.py",
+      "sha256": "c369f202fed14a6951b44cfaf3e3890841814c15040f0d15773d2bc61b189efa",
+      "bytes": 9187
+    },
+    {
+      "path": "scripts/fourfold_phase_full_angle_sine_domain.py",
+      "sha256": "b7b05da28d63c186b4cfbefb09de1f96c6e82f98ed9146f7358ac31ad5bddd3a",
+      "bytes": 14145
+    },
+    {
+      "path": "notes/2026-11-12-sine-turn-domain-independent-audit.md",
+      "sha256": "3d2c047f806b2f16be77754e8bdd41d2e4e50472b695104d5b03cec76c33ec26",
+      "bytes": 3070
+    },
+    {
+      "path": "notes/2026-11-12-sine-turn-domain-checkpoint.md",
+      "sha256": "5ba36954bdc77d576596406f8943299cf3d091b2cc095c9724015ba7ec90cc0c",
+      "bytes": 3836
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward000_turn_domain.json",
+      "sha256": "634b536b43655551197c080e832ba5164265184520cd923010ce98c5af80c639",
+      "bytes": 118544
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward001_turn_domain.json",
+      "sha256": "ce09b230a2f1327619879aeffd96e1f4bdef8f058241fa59f3092da7c89f1fee",
+      "bytes": 118526
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward002_turn_domain.json",
+      "sha256": "6df63f236421a493af2aa4e83a5df08ec8956bc10e44ca91afd311525b508202",
+      "bytes": 118520
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward548_turn_domain.json",
+      "sha256": "91ff1024ff9fa8019b0c379506550bc8a10bf51959ddcfe120ad7eacfa9c68b1",
+      "bytes": 118518
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward549_turn_domain.json",
+      "sha256": "a14b1b4c0b04a33375d645e701b9a616422b4f27dc9b7f9156bb06271f7b3ee2",
+      "bytes": 118552
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_backward000_turn_domain.json",
+      "sha256": "5ce956c18c42507d79918aee80a9fbe8d7820e6f06d951a15fc77ccdb88d380d",
+      "bytes": 118544
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_backward001_turn_domain.json",
+      "sha256": "e019c22b027299e39f9aea49f44859123cd706b98885d908dc910947cadbc8e4",
+      "bytes": 118524
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_backward002_turn_domain.json",
+      "sha256": "633d6bb2a6db994e4fab10af1dff53fcedaacefe12d7b11c4a4ac6beee626ef1",
+      "bytes": 118512
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_backward548_turn_domain.json",
+      "sha256": "ea54c2cb1b64d1fa946e29b5b2275580ec75883e5dc1890043fcb9a06baf670e",
+      "bytes": 118514
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_backward549_turn_domain.json",
+      "sha256": "8c7c86078fa3ad651eab04c757990c06f63b03300e5287aadd6d03c7ec0718bb",
+      "bytes": 118551
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_forward003_ordinary_domain.json",
+      "sha256": "617739d41769e6f41cf5a045e805c4b735dff79b76cfaff2331922498c4ad938",
+      "bytes": 235682
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_turn_domain_batch.json",
+      "sha256": "57efd6f7c73d3a6d9a4c89f90ffc7c76449bca1fde65284d8855967ab8160a7b",
+      "bytes": 2131
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_turn_domain_batch_complete.json",
+      "sha256": "ed8da90bfeda952f0b0fc4a4a76736fb9d4da45b105a39db0ddfe51163ba2ad9",
+      "bytes": 4045
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_ordinary_fast_domain_batch.json",
+      "sha256": "84b7f0e799905027c10dabf9ceb5000d2c282be64242a44f53ca684536d8e9e0",
+      "bytes": 1918
+    }
+  ],
+  "total_bytes": 1473021,
+  "live_excluded": [
+    "new full branch coverage driver and reports",
+    "larger complex time radius trial"
+  ],
+  "scope": "Ten explicit true-turn domains and forward3 complete two-germ ordinary domain, not full-branch coverage",
+  "failures_preserved": [
+    "turn forward3 leaves unique true root common span",
+    "five Q256 native root refinement attempts"
+  ]
+}

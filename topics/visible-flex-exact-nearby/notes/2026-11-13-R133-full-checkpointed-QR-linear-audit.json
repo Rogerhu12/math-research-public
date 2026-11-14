@@ -1,0 +1,148 @@
+{
+  "kind": "floating_complete_checkpointed_block_QR_algorithm_audit",
+  "synthetic_memory": {
+    "storage": "memory",
+    "dimension": 218,
+    "matrix_condition_2": 329.722670983397,
+    "factor_history": [
+      {
+        "kind": "full_checkpointed_boundary_QR_factorization",
+        "radial_nodes": 31,
+        "state_dimension": 7,
+        "parameter_dimension": 1,
+        "all_Fourier_couplings_retained": true,
+        "no_entry_drop": true,
+        "recomputation_segment_length": 5,
+        "retained_boundary_row_bytes": 1792,
+        "maximum_cached_factor_bytes": 6520,
+        "final_boundary_condition_2": 26.19131205597085,
+        "minimum_local_QR_diagonal": 0.8848447848935437,
+        "seconds": 0.00800268299644813
+      }
+    ],
+    "tests": [
+      {
+        "full_relative_residual": 4.470832015572961e-16,
+        "relative_difference_from_dense_LU": 5.216764123675228e-15,
+        "relative_difference_from_known_answer": 5.128238979783482e-15
+      },
+      {
+        "full_relative_residual": 4.375033197464639e-16,
+        "relative_difference_from_dense_LU": 3.68046679366038e-15,
+        "relative_difference_from_known_answer": 7.73965834445565e-16
+      }
+    ]
+  },
+  "synthetic_file": {
+    "storage": "file",
+    "dimension": 218,
+    "matrix_condition_2": 329.722670983397,
+    "factor_history": [
+      {
+        "kind": "full_checkpointed_boundary_QR_factorization",
+        "radial_nodes": 31,
+        "state_dimension": 7,
+        "parameter_dimension": 1,
+        "all_Fourier_couplings_retained": true,
+        "no_entry_drop": true,
+        "recomputation_segment_length": 8,
+        "retained_boundary_row_bytes": 1024,
+        "maximum_cached_factor_bytes": 10432,
+        "final_boundary_condition_2": 26.19131205597085,
+        "minimum_local_QR_diagonal": 0.8848447848935437,
+        "seconds": 0.005387671997596044
+      }
+    ],
+    "tests": [
+      {
+        "full_relative_residual": 4.470832015572961e-16,
+        "relative_difference_from_dense_LU": 5.216764123675228e-15,
+        "relative_difference_from_known_answer": 5.128238979783482e-15
+      },
+      {
+        "full_relative_residual": 4.375033197464639e-16,
+        "relative_difference_from_dense_LU": 3.68046679366038e-15,
+        "relative_difference_from_known_answer": 7.73965834445565e-16
+      }
+    ]
+  },
+  "actual_finite": {
+    "original_complete_candidate_sha256": "0e5e7f206f0d98a5136b4c13b723cce1dfeb7b7abfe2ed2cd4deb2b51b2b2146",
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "projected_test_modes": 4,
+    "projected_test_angles": 64,
+    "radial_nodes": 14,
+    "projection_is_only_a_linear_algorithm_test": true,
+    "input_finite_BVP_success_not_assumed": true,
+    "scipy_version": "1.17.0",
+    "scipy_bvp_sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2",
+    "factor_history": [
+      {
+        "kind": "full_checkpointed_boundary_QR_factorization",
+        "radial_nodes": 14,
+        "state_dimension": 9,
+        "parameter_dimension": 1,
+        "all_Fourier_couplings_retained": true,
+        "no_entry_drop": true,
+        "recomputation_segment_length": 6,
+        "retained_boundary_row_bytes": 1200,
+        "maximum_cached_factor_bytes": 12432,
+        "final_boundary_condition_2": 18.753178881586695,
+        "minimum_local_QR_diagonal": 0.5929507557148227,
+        "seconds": 0.09118032400147058
+      },
+      {
+        "kind": "full_finite_collocation_QR_solve",
+        "refinements": [
+          {
+            "iteration": 0,
+            "full_relative_residual": 9.999427105208966e-15,
+            "maximum_absolute_residual": 2.000483112496454e-14
+          }
+        ],
+        "full_relative_residual": 9.999427105208966e-15,
+        "seconds": 0.02210810099495575,
+        "all_finite_modes_and_parameter_column_retained": true,
+        "original_backward_residual_gate": 5e-08,
+        "complete": true
+      },
+      {
+        "kind": "full_finite_collocation_QR_solve",
+        "refinements": [
+          {
+            "iteration": 0,
+            "full_relative_residual": 4.678857918634008e-13,
+            "maximum_absolute_residual": 4.6349590832051035e-12
+          }
+        ],
+        "full_relative_residual": 4.678857918634008e-13,
+        "seconds": 0.022213785006897524,
+        "all_finite_modes_and_parameter_column_retained": true,
+        "original_backward_residual_gate": 5e-08,
+        "complete": true
+      }
+    ],
+    "tests": [
+      {
+        "independent_sparse_LU_residual": 3.9070131564047546e-16,
+        "full_QR_residual_against_original_scipy_Jacobian": 1.0445551762154046e-14,
+        "relative_QR_difference_from_independent_LU": 4.830164730902567e-15,
+        "full_FFT_action_difference": 5.519078272753599e-16
+      },
+      {
+        "independent_sparse_LU_residual": 2.477848149389304e-14,
+        "full_QR_residual_against_original_scipy_Jacobian": 4.2992853162030507e-13,
+        "relative_QR_difference_from_independent_LU": 9.807808023966125e-16,
+        "full_FFT_action_difference": 2.9783923142613984e-16
+      }
+    ]
+  },
+  "complete": true,
+  "all_original_linear_backward_gates_passed": true,
+  "continuous_PDE_certificate": false,
+  "full_M128_BVP_solved": false,
+  "source_sha256": "bfc5a2356d2beff3c1909461fce1fb7a809e5d63d5e208e91244e13675450860",
+  "complete_QR_source_sha256": "62a538a21334f591a227492cade1af369403dc4ed18fad184fc8604abc8bf429",
+  "checkpointed_QR_source_sha256": "7eda6f1798105a54944521b9c746cf79cb0dfd020b0a91e59fd21aeb5d0cd677",
+  "wall_seconds": 1.0200987249991158
+}

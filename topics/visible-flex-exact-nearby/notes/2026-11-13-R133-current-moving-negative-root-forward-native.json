@@ -1,0 +1,245 @@
+{
+  "kind": "actual_current_moving_negative_inner_germ_full_forward_Cauchy",
+  "complete": true,
+  "arithmetic": "normalized BigInt rational matrix exponential with complete tail",
+  "source": "scripts/fourfold_codazzi_current_negative_root_forward_budget.mjs",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "domain": {
+    "left": "1191939371497/5000000000000",
+    "right": "the actual root r*(eta)",
+    "whole_original_eta": true,
+    "max_length": "90000009/10000000000000",
+    "exponential_budget_length": "1/100000",
+    "actual_piece": 2549,
+    "joins_inside": false
+  },
+  "matrix_state_order": [
+    "E0=||(h1,sqrt(-K)h2)||2",
+    "M=|mean(h2)|",
+    "E1=||(h1_phi,sqrt(-K)h2_phi)||2",
+    "Y=||h2||2"
+  ],
+  "exact_constant_comparison_matrix": [
+    [
+      "60",
+      "13/10",
+      "0",
+      "0"
+    ],
+    [
+      "7",
+      "7",
+      "0",
+      "0"
+    ],
+    [
+      "41800",
+      "1260",
+      "19",
+      "0"
+    ],
+    [
+      "137",
+      "49",
+      "201/100",
+      "6"
+    ]
+  ],
+  "complete_outward_forward_matrix": [
+    [
+      "250150045123/250000000000",
+      "3251089/250000000000",
+      "1/1000000000000",
+      "1/1000000000000"
+    ],
+    [
+      "14004691/200000000000",
+      "500035001453/500000000000",
+      "1/1000000000000",
+      "1/1000000000000"
+    ],
+    [
+      "418165586733/1000000000000",
+      "2520871179/200000000000",
+      "250047504513/250000000000",
+      "1/1000000000000"
+    ],
+    [
+      "17183393/12500000000",
+      "24508371/50000000000",
+      "20102513/1000000000000",
+      "1000060001801/1000000000000"
+    ]
+  ],
+  "forward_matrix_decimal_scale": 12,
+  "complete_row_sums": [
+    "20012263697/20000000000",
+    "1000140026363/1000000000000",
+    "1430959960681/1000000000000",
+    "500972471587/500000000000"
+  ],
+  "source_vector": [
+    "integral ||f||2",
+    "integral ||f||2",
+    "integral ||f_phi||2",
+    "integral ||f||2"
+  ],
+  "coefficients_paid": {
+    "Kprime_over_K": "nonpositive on the exact negative interval; discarded only forward",
+    "q_inverse_used": false,
+    "all_means_retained": true,
+    "all_fourier_modes": true,
+    "complete_nonlocal_and_mean_rank": true
+  },
+  "norms": {
+    "initial": "ordinary moving H1",
+    "source": "ordinary L2_r H1_phi",
+    "ordinary_state_Linfinity_L2_initial": "71/50",
+    "ordinary_state_Linfinity_L2_source": "9/2000",
+    "complete_root_Airy_initial": "8/5",
+    "complete_root_Airy_source": "51/10000",
+    "positive_reference_root_pair_initial": "8",
+    "positive_reference_root_pair_source": "13/500"
+  },
+  "endpoint_limit": {
+    "h1": "strong Hs for every s<1; bounded H1",
+    "h2": "strong L2 via its actual transport equation",
+    "mean": "the true mean limit, independent row retained"
+  },
+  "permissions": {
+    "complete_forward_Cauchy": true,
+    "backward_Cauchy": false,
+    "negative_one_incoming_BVP": false,
+    "physical_theta_variation_bridge": false,
+    "previous_piece_left_to_this_left": false,
+    "global_return_inverse": false,
+    "whole_nonlinear_BVP": false
+  },
+  "gates": [
+    {
+      "name": "same_current_candidate_piece_and_joint_domain",
+      "passed": true
+    },
+    {
+      "name": "left_is_exact_root_lower_minus_nine_micro",
+      "passed": true
+    },
+    {
+      "name": "negative_type_from_same_strict_Kprime",
+      "passed": true
+    },
+    {
+      "name": "S_oscillation_and_absolute_bound",
+      "passed": true
+    },
+    {
+      "name": "R_bound_without_q_inverse",
+      "passed": true
+    },
+    {
+      "name": "L_bound_without_q_inverse",
+      "passed": true
+    },
+    {
+      "name": "L2_from_complete_finite_derivative_sums",
+      "passed": true
+    },
+    {
+      "name": "complete_d_phi_sup_5",
+      "passed": true
+    },
+    {
+      "name": "first_local_energy_diagonal_16",
+      "passed": true
+    },
+    {
+      "name": "second_local_energy_diagonal_3",
+      "passed": true
+    },
+    {
+      "name": "E0_diagonal_60",
+      "passed": true
+    },
+    {
+      "name": "E0_mean_column_13_over_10",
+      "passed": true
+    },
+    {
+      "name": "true_mean_E0_column_7",
+      "passed": true
+    },
+    {
+      "name": "true_mean_diagonal_7",
+      "passed": true
+    },
+    {
+      "name": "E1_E0_column_41800",
+      "passed": true
+    },
+    {
+      "name": "E1_mean_column_1260",
+      "passed": true
+    },
+    {
+      "name": "E1_diagonal_19",
+      "passed": true
+    },
+    {
+      "name": "Y_E0_column_137",
+      "passed": true
+    },
+    {
+      "name": "Y_mean_column_49",
+      "passed": true
+    },
+    {
+      "name": "Y_E1_column_201_over_100",
+      "passed": true
+    },
+    {
+      "name": "Y_diagonal_6",
+      "passed": true
+    },
+    {
+      "name": "complete_matrix_exponential_tail_valid",
+      "passed": true
+    },
+    {
+      "name": "full_matrix_tail_below_1e_minus_14",
+      "passed": true,
+      "exact_tail_upper": "1759758104904961524404219190771075847520352155077187480652839/603541092211200000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "outward_rounding_keeps_every_positive_matrix_entry",
+      "passed": true
+    },
+    {
+      "name": "ordinary_state_gain_below_142",
+      "passed": true
+    },
+    {
+      "name": "complete_root_Airy_gain_below_16_by_interpolation",
+      "passed": true
+    },
+    {
+      "name": "independent_true_mean_gain_below_1001",
+      "passed": true
+    },
+    {
+      "name": "independent_second_state_gain_below_1003",
+      "passed": true
+    },
+    {
+      "name": "L2_radial_source_to_state_below_0045",
+      "passed": true
+    },
+    {
+      "name": "L2_radial_source_to_Airy_below_0051",
+      "passed": true
+    },
+    {
+      "name": "same_positive_reference_root_input_below_8_and_0026",
+      "passed": true
+    }
+  ]
+}

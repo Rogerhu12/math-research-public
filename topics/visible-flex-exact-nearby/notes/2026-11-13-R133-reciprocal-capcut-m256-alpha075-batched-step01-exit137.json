@@ -1,0 +1,19 @@
+{
+  "kind": "observed_full_action_batched_process_exit",
+  "observed_session": 35049,
+  "actual_exit_code": 137,
+  "actual_exit_message": "bash Killed",
+  "actual_exit_cause": null,
+  "original_process_status": "started",
+  "original_process_sha256": "c731c03b0c7e60c18542bdfe65832f9a921e3e16bb71c43ea06cdd269dac4133",
+  "original_process_record_unmodified": true,
+  "original_log_sha256": "79870d5a4759b120c0c37f53c2f17b652cdfc7cc883fd3748e1e62fa239106a9",
+  "new_accepted_checkpoints": [],
+  "final_floating_report_exists": false,
+  "last_observed_stage": "complete warm-start load; no QR-block or completed linear-solve record",
+  "last_known_radial_nodes": 1343,
+  "state_dimension": 513,
+  "full_backward_residual_gate_changed": false,
+  "kernel_log_read_observation": "dmesg: read kernel buffer failed: Operation not permitted",
+  "no_exit_cause_inferred": true
+}

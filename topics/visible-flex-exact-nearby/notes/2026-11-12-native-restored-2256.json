@@ -1,0 +1,25 @@
+{
+  "kind": "native_environment_actually_restored",
+  "observed_utc": "2026-11-12T22:56:05Z",
+  "old_home_worktrees_present": false,
+  "old_primary_preserved": "/workspace/scratch/f6a2c7886477/math-research",
+  "root_repository": "/home/agent/visible-exact-native-2256-f6a2",
+  "agent_repositories": [
+    "/home/agent/visible-exact-core-2256-f6a2",
+    "/home/agent/visible-exact-audit-2256-f6a2",
+    "/home/agent/visible-exact-constructive-2256-f6a2"
+  ],
+  "python": "/home/agent/visible-exact-py2256/bin/python",
+  "actual_imported_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0"
+  },
+  "first_true_pull_head": "afc8c9528e89cde9b0dc461d70c355a0d95e0f11",
+  "readme_comparison_base": "93bbc1b548afd86ace4f397b545476172d370eb1",
+  "both_readme_diffs_empty": true,
+  "R105_R107_original_branch_head": "fa2be59a80685915bd2a24c9c11e7ff68631b104",
+  "original_branch_merged_locally": true,
+  "scope": "No new matrix, ray, collar-gap or nonlinear number is granted by restoring the runtime. Each actual mathematical report retains its own completion status."
+}

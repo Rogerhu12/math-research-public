@@ -1,0 +1,305 @@
+{
+  "kind": "actual_current_root_complete_capped_negative_window_inverse",
+  "complete": true,
+  "arithmetic": "Fraction for every feedback/port inequality; Arb256 for same native germ scalar enclosure",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "whole_original_eta": true,
+  "interval": "[rstar(eta),rstar(eta)+9/1000000]",
+  "producer": {
+    "path": "scripts/fourfold_codazzi_current_root_negative_window.py",
+    "sha256": "10b3be943f7703afff4d7fc32e4b8156c18cdba29f15e03ad2bad0c2a52a9c4c"
+  },
+  "inputs": [
+    {
+      "path": "notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+      "sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864"
+    },
+    {
+      "path": "results/R133-supplement-global-positive-reference-and-current-collar.md",
+      "sha256": "2e5441d4f569ee8d4a1604ebc4c2f3da25df4058fdf786032f125a0532946d35"
+    },
+    {
+      "path": "results/R133-supplement-current-moving-positive-root-Riccati-and-full-head.md",
+      "sha256": "38d7ec697d8a0565b2563324aca689776749aa81fc8bf8b0dab4d0f28fcfd8fb"
+    },
+    {
+      "path": "results/R133-supplement-current-moving-body-physical-complex-germ.md",
+      "sha256": "c10b049282d1837ab45fe2b40e6276ec7074aa534b4a7bb0c1f4251a9db729ba"
+    },
+    {
+      "path": "results/R133-supplement-residual-sensitive-vector-height-and-Airy-contact.md",
+      "sha256": "ef6aca523477ebe890b01297a971060b5aca193e3e5009ad28c2649180ec06ef"
+    },
+    {
+      "path": "results/R133-supplement-final-regular-negative-window-and-height-ports.md",
+      "sha256": "b150ae277e706ca727cfa7d25864322ff8507d758eb77862c1ff814cee2ad4ca"
+    }
+  ],
+  "gates": [
+    {
+      "name": "identical_complete_current_complex_germ_bytes",
+      "passed": true
+    },
+    {
+      "name": "complete_actual_current_candidate_and_parameter_domain",
+      "passed": true
+    },
+    {
+      "name": "actual_full_root_radial_a_lower",
+      "passed": true
+    },
+    {
+      "name": "actual_full_root_radial_a_upper",
+      "passed": true
+    },
+    {
+      "name": "actual_full_root_mean_modulus_bounds",
+      "passed": true
+    },
+    {
+      "name": "actual_root_n_lower",
+      "passed": true
+    },
+    {
+      "name": "actual_root_n_upper",
+      "passed": true
+    },
+    {
+      "name": "actual_root_n_ratio_without_radial_derivative",
+      "passed": true
+    },
+    {
+      "name": "all_actual_high_cross_cone_entries_vanish_before_compression",
+      "passed": true
+    },
+    {
+      "name": "complete_nonlocal_primitive_index_is_nonzero",
+      "passed": true
+    },
+    {
+      "name": "full_actual_high_lag_ratio_squared",
+      "passed": true
+    },
+    {
+      "name": "complete_skew_transport_negative_weight_commutator",
+      "passed": true
+    },
+    {
+      "name": "same_Hilbert_complete_high_Volterra_contraction",
+      "passed": true
+    },
+    {
+      "name": "complete_high_source_column",
+      "passed": true
+    },
+    {
+      "name": "complete_high_port_column",
+      "passed": true
+    },
+    {
+      "name": "both_high_endpoint_port_column",
+      "passed": true
+    },
+    {
+      "name": "all_direct_low_high_paths_stay_in_the_true_shell",
+      "passed": true
+    },
+    {
+      "name": "negative_weight_shell_inverse_paid",
+      "passed": true
+    },
+    {
+      "name": "complete_193_head_and_infinite_high_feedback",
+      "passed": true
+    },
+    {
+      "name": "complete_hybrid_state_source",
+      "passed": true
+    },
+    {
+      "name": "complete_hybrid_state_ports",
+      "passed": true
+    },
+    {
+      "name": "all_mean_and_both_full_endpoint_source",
+      "passed": true
+    },
+    {
+      "name": "all_mean_and_both_full_endpoint_ports",
+      "passed": true
+    },
+    {
+      "name": "true_height_scaled_state_source",
+      "passed": true
+    },
+    {
+      "name": "true_height_scaled_state_ports",
+      "passed": true
+    },
+    {
+      "name": "true_height_scaled_two_trace_source",
+      "passed": true
+    },
+    {
+      "name": "true_height_scaled_two_trace_ports",
+      "passed": true
+    }
+  ],
+  "all_orders_t_interval": [
+    "0",
+    "2"
+  ],
+  "height_order_t": "5/3",
+  "high_state": "Y=(388/M)^t Z; Z=M^(1/6)T_M^-1(-i sign(k)h1,h2)",
+  "low_state": "full 193 real coordinates; both formal mean rows before the stated reflection restriction",
+  "source_norm": "L2r direct sum of f_L in L2phi and (388/M)^t f_H in H^(1/3)phi",
+  "high_ports": "Y_s at rstar and Y_u at rstar+h; both independent, not extra full Cauchy data",
+  "low_ports": "all raw h_L at rstar, including the allowed even mean",
+  "values": {
+    "full_high_ratio": {
+      "exact_rational": "161/97",
+      "decimal_upper": "1.659793814432989690721649484537"
+    },
+    "high_remainder": {
+      "exact_rational": "53640",
+      "decimal_upper": "53640.000000000000000000000000000000"
+    },
+    "high_contraction": {
+      "exact_rational": "12069/25000",
+      "decimal_upper": "0.482760000000000000000000000000"
+    },
+    "high_resolvent": {
+      "exact_rational": "2",
+      "decimal_upper": "2.000000000000000000000000000000"
+    },
+    "high_source": {
+      "exact_rational": "81/500000",
+      "decimal_upper": "0.000162000000000000000000000000"
+    },
+    "high_port": {
+      "exact_rational": "9/500",
+      "decimal_upper": "0.018000000000000000000000000000"
+    },
+    "head_feedback": {
+      "exact_rational": "466909831791/12500000000000",
+      "decimal_upper": "0.037352786543280000000000000000"
+    },
+    "head_resolvent": {
+      "exact_rational": "12500000000000/12033090168209",
+      "decimal_upper": "1.038802155162483475339569229235"
+    },
+    "n_lower": {
+      "exact_rational": "120364728019396/125396794121041",
+      "decimal_upper": "0.959870855256572762210245792164"
+    },
+    "n_upper": {
+      "exact_rational": "120365759303689/125374533343929",
+      "decimal_upper": "0.960049510002961543028769961342"
+    },
+    "n_ratio": {
+      "exact_rational": "15093480338627464844943820249/15090671606500708985050846884",
+      "decimal_upper": "1.000186123732594242105975374494"
+    }
+  },
+  "response_matrix": [
+    [
+      {
+        "exact_rational": "114750000/12033090168209",
+        "decimal_upper": "0.000009536203784391598303617246"
+      },
+      {
+        "exact_rational": "107856279/24066180336418",
+        "decimal_upper": "0.000004481653402920244321964568"
+      },
+      {
+        "exact_rational": "38250000000/12033090168209",
+        "decimal_upper": "0.003178734594797199434539081842"
+      },
+      {
+        "exact_rational": "5992015500/12033090168209",
+        "decimal_upper": "0.000497961489213360480218285327"
+      }
+    ],
+    [
+      {
+        "exact_rational": "160947891/12033090168209",
+        "decimal_upper": "0.000013375441283172518214260335"
+      },
+      {
+        "exact_rational": "2025000000/12033090168209",
+        "decimal_upper": "0.000168285949136322323005010216"
+      },
+      {
+        "exact_rational": "53649297000/12033090168209",
+        "decimal_upper": "0.004458480427724172738086778035"
+      },
+      {
+        "exact_rational": "225000000000/12033090168209",
+        "decimal_upper": "0.018698438792924702556112246127"
+      }
+    ]
+  ],
+  "trace_matrix": {
+    "low_right": [
+      {
+        "exact_rational": "38250000000/12033090168209",
+        "decimal_upper": "0.003178734594797199434539081842"
+      },
+      {
+        "exact_rational": "17976046500/12033090168209",
+        "decimal_upper": "0.001493884467640081440654855981"
+      },
+      {
+        "exact_rational": "12750000000000/12033090168209",
+        "decimal_upper": "1.059578198265733144846360613819"
+      },
+      {
+        "exact_rational": "1997338500000/12033090168209",
+        "decimal_upper": "0.165987163071120160072761775598"
+      }
+    ],
+    "high_both": [
+      {
+        "exact_rational": "53649297000/12033090168209",
+        "decimal_upper": "0.004458480427724172738086778035"
+      },
+      {
+        "exact_rational": "675000000000/12033090168209",
+        "decimal_upper": "0.056095316378774107668336738379"
+      },
+      {
+        "exact_rational": "17883099000000/12033090168209",
+        "decimal_upper": "1.486160142574724246028926011500"
+      },
+      {
+        "exact_rational": "87033090168209/12033090168209",
+        "decimal_upper": "7.232812930974900852037415375406"
+      }
+    ],
+    "low_left": "exact input gL"
+  },
+  "bounds": {
+    "hybrid_state_source": "0.00018",
+    "hybrid_state_ports": "0.02",
+    "hybrid_two_trace_source": "0.06",
+    "hybrid_two_trace_ports": "8",
+    "height_scaled_state_source": "0.000181",
+    "height_scaled_state_ports": "0.0201",
+    "height_scaled_two_trace_source": "0.061",
+    "height_scaled_two_trace_ports": "8.03"
+  },
+  "exact_height_identification": "tilde Z=n M^-5/3 Z=n 388^-5/3 Y; same scalar n 388^-5/3 on the complete low block and source",
+  "permissions": {
+    "full_local_head_and_infinite_high_inverse": true,
+    "negative_window_not_free_from_positive_bootstrap": true,
+    "full_independent_mean_source_and_ports": true,
+    "actual_center_finite_band_only": true,
+    "infinite_tail_neighbourhood_not_claimed": true,
+    "whole_positive_body_inverse": false,
+    "whole_negative_return_inverse": false,
+    "global_n_ratio_not_claimed": true,
+    "global_finite_head_inverse": false,
+    "nu_Schur_nonzero": false,
+    "nonlinear_closed_surface": false
+  }
+}

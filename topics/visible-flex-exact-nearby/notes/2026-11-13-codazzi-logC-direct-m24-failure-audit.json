@@ -1,0 +1,36 @@
+{
+  "kind": "explicit_preserved_nonfinite_Codazzi_BVP_failure_audit",
+  "success": false,
+  "certified": false,
+  "source_sha256": "ee6b5213fdeb1f240a802d9068c7eb5fe911d15bd85fc0cd2095c4f75d2b8ef2",
+  "raw_report_path": "notes/2026-11-13-codazzi-logC-direct-m24-raw-failure.txt",
+  "raw_report_sha256": "8e453bb2afc190fcf588046a6c48fbce583ef0ce20318956d04d6eb3ad0a9026",
+  "failed_source_path": "/workspace/scratch/ac0d699811ad/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_phase_codazzi_log_curvature_bvp_probe_v1_failed.py",
+  "failed_source_sha256": "e4c91e0145490c33c6bd98a8bc0ea034db7cb1c25b37a62aff1b3886eb0a6f26",
+  "candidate_path": "notes/2026-11-13-codazzi-logC-direct-m24-candidate.npz.gz",
+  "candidate_sha256": "9374c709601b1e144e39e43fd643531722b40d549c57e134da5329daa7a4c6bb",
+  "candidate_coefficients_finite": false,
+  "nonfinite_candidate_coefficient_count": 107550,
+  "original_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "solver_attempts": [
+    {
+      "amplitude": 1.0,
+      "success": false,
+      "status": 2,
+      "message": "A singular Jacobian encountered when solving the collocation system.",
+      "nodes": 751,
+      "iterations": 2,
+      "max_collocation_rms_residual": null,
+      "boundary_residual": null,
+      "elapsed": 23.202087084000595
+    }
+  ],
+  "diagnostics_valid": false,
+  "finite_PDE_residual": null,
+  "full_B_residual": null,
+  "full_C_residual": null,
+  "diagnosis": "The log-chart Newton iterate overflowed/underflowed and the collocation solve stopped. V1 initialized maxima stayed at zero when compared with NaN. None of these zero fields is a residual bound.",
+  "correction": "The main log-chart runner now rejects nonfinite diagnostics and writes null, with valid=false; nonfinite candidates cannot be used as guesses.",
+  "corrected_runner_sha256": "346f65ef2c2f76568bd7299868a5d3ff2df7fa2af1d1874760ca100c66187400",
+  "scope": "A preserved floating failure only. This does not affect any R120-R129 directed proof or assert surface nonexistence."
+}

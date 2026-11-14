@@ -1,0 +1,149 @@
+{
+  "kind": "floating_actual_full_positive_cap_Galerkin_Schur_with_regular_mean",
+  "complete": true,
+  "rigorous_cap_DN": false,
+  "source_sha256": "3e026d619911b3b9716064908d0312de71de7433778643e25231a997b74fc54e",
+  "object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "actual_tail_input_sha256": {
+    "notes/2026-11-12-positive-family-natural-graft.json": "d56b7229439ade268b647f17a10f84ba662e02bcb9597f983d2c604fe765fa27",
+    "notes/2026-11-12-actual-exterior-robin-certificate.json": "c5645727cf5a382bb45aa002f36eafe80cdd7c17ffdc56f7bbec2e224684c958",
+    "notes/2026-11-12-common-core-exterior-parameter-interval.json": "23d1062d080cd875e69a32ba76f45080990a9d41c29094eb3e00ad01d7593af0"
+  },
+  "modes": 4,
+  "physical_frequencies": [
+    -16,
+    -12,
+    -8,
+    -4,
+    0,
+    4,
+    8,
+    12,
+    16
+  ],
+  "physical_radial_interval": [
+    "1/4",
+    "25/8"
+  ],
+  "body_then_natural_graft": true,
+  "actual_infinite_exterior_retained": true,
+  "angular_coordinate": "physical theta, no uncharged angular shear",
+  "root_slot": "grounded U=w/Yz at physical regular core cut r=1/4",
+  "final_slots": [
+    "all retained left grounded heights",
+    "physical regular mean xi"
+  ],
+  "output_slots": [
+    "all retained left grounded outward conormals",
+    "physical regular mean flux lambda"
+  ],
+  "regular_mean_index": 9,
+  "mean_not_eliminated": true,
+  "primitive_nodes": 512,
+  "angular_nodes": 512,
+  "radial_elements": 72,
+  "radial_gauss_order": 4,
+  "coefficient_calls": 5400,
+  "sampled_grounded_matrix_lower": 0.005754795992493372,
+  "sampled_target_curvature_lower": 0.02914704979262677,
+  "actual_tail_chosen_midpoints": [
+    2.7375644,
+    2.0531733,
+    1.36878218,
+    0.68439109,
+    0.0,
+    0.68439109,
+    1.36878218,
+    2.0531733,
+    2.7375644
+  ],
+  "actual_tail_interval_radii": [
+    5.3500000152251204e-08,
+    4.000000014547922e-08,
+    6.520000019050176e-09,
+    3.080000008509609e-09,
+    0.0,
+    3.080000008509609e-09,
+    6.520000019050176e-09,
+    4.000000014547922e-08,
+    5.3500000152251204e-08
+  ],
+  "augmented_Hermitian_defect": 2.9886272466566057e-16,
+  "augmented_constant_kernel_residual": 3.731688357065891e-15,
+  "augmented_eigenvalues": [
+    1.9290124935956005e-15,
+    0.029763283491601972,
+    0.491560691364436,
+    0.5413686629158516,
+    0.7633519008247643,
+    0.7881678145368367,
+    0.9837686272272953,
+    0.9967443752542715,
+    1.1841863245703719,
+    1.2238509179939088
+  ],
+  "actual_regular_mean_row": [
+    [
+      -0.0003847885611868797,
+      2.854162032934858e-19
+    ],
+    [
+      -0.001013693236748079,
+      5.19559505894029e-19
+    ],
+    [
+      -0.0015753714247747248,
+      4.819813734055743e-19
+    ],
+    [
+      -0.003106650033205489,
+      5.165925401878319e-19
+    ],
+    [
+      -0.014924145983962122,
+      2.3610182282559388e-21
+    ],
+    [
+      -0.0031066500332054886,
+      -6.293067597626615e-19
+    ],
+    [
+      -0.0015753714247747253,
+      -5.695075221607201e-19
+    ],
+    [
+      -0.0010136932367480784,
+      -5.645580135150143e-19
+    ],
+    [
+      -0.0003847885611868797,
+      -3.261339713858394e-19
+    ],
+    [
+      0.014924145983962633,
+      -1.209416555737508e-44
+    ]
+  ],
+  "regular_mean_pivot_from_left_constant": [
+    -0.014924145983962122,
+    2.3610182282559388e-21
+  ],
+  "limitations": [
+    "Primitive/angle alias, radial quadrature, floating solve and finite Galerkin errors are not certified here.",
+    "The true infinite-tail entries are independently enclosed; choosing their midpoints is not silently identified with the true tail.",
+    "The regular mean xi and its actual output lambda remain separate finite slots.",
+    "Core-to-cap multiplication by Yz and physical flux shear remain required matching maps.",
+    "No final high-frequency cutoff, infinite Schur inverse, or nonlinear solution is asserted."
+  ],
+  "CPU_seconds": 25.265299064,
+  "wall_seconds": 147.46413389100053,
+  "arrays": {
+    "path": "notes/2026-11-12-actual-cap-low-Schur-M4.npz",
+    "sha256": "0072cc7dbf6e9041630a146426ae3e49867e819fa724ed3d3afbb28f2437d033",
+    "bytes": 128253
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "kind": "R88_physical_N4_cap_internal_trial_and_first_true_energy_ready",
+  "complete": true,
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_cap_moment_space.py",
+      "sha256": "4d20d2a8f6d71ebaf9b61aac23770ace273ecf14912a9ea4109df58406dc80da",
+      "bytes": 14540
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_energy_interval.py",
+      "sha256": "ef752984f6e8c9331b1f11f2419f49460d42288fa0aba10555a18455b971df91",
+      "bytes": 20302
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_scaled_body.py",
+      "sha256": "f552b3c90880a9f9ee812015018a83da67e5d5fe66e1232fd2871d2c59e600db",
+      "bytes": 18129
+    },
+    {
+      "path": "notes/2026-11-12-cap-interior-spaces-and-native-energy.md",
+      "sha256": "eb969ca0aa47336715102b95bca058756eb173aee91e6ea416a2a241be79ede8",
+      "bytes": 8192
+    },
+    {
+      "path": "notes/2026-11-12-actual-cap-Fourier-moment-cache.json",
+      "sha256": "cefe6e7761e9e322d34d39aa3e199371558398f0b1ee7e2412eacef94f95d73e",
+      "bytes": 2235
+    },
+    {
+      "path": "notes/2026-11-12-cap-space-boundary4-interior4-P1.json",
+      "sha256": "a8890ce0b6de859f67b091309266d03c2239f3d47949811149763ac772c6dd10",
+      "bytes": 1680
+    },
+    {
+      "path": "notes/2026-11-12-cap-space-boundary4-interior4-P2.json",
+      "sha256": "6db253bf4c8fbd830de2b63820058f6620ae72380de65878ad231aceaf4d71ee",
+      "bytes": 1718
+    },
+    {
+      "path": "notes/2026-11-12-cap-space-boundary4-interior8-P1.json",
+      "sha256": "ad90ad61aee99a0fb1de9220ac7580d1e894d242cbf019c1ab9aead25f347f6c",
+      "bytes": 1714
+    },
+    {
+      "path": "notes/2026-11-12-cap-space-boundary4-interior8-P2.json",
+      "sha256": "65d82e97a361dcc3a87023197e1d7f8ad7a48054578d282d6f3ae2256899d813",
+      "bytes": 1716
+    },
+    {
+      "path": "notes/2026-11-12-cap-space-boundary4-interior8-P3.json",
+      "sha256": "87664c8f2334cffebd6d87dce7bc6f48833d7cb45c0abbd35eb96d3c38b87a80",
+      "bytes": 1716
+    },
+    {
+      "path": "notes/2026-11-12-cap-space-boundary4-interior16-P2.json",
+      "sha256": "7bb50d93188dd4253ccea2d8731931ea82e212c66829e91ff49ec29bb9a291ac",
+      "bytes": 1729
+    },
+    {
+      "path": "notes/2026-11-12-cap-space-boundary4-interior16-P2.npz",
+      "sha256": "d4d0db0b582ebda4e2941e5bc9d9a15f3bfc421b828deb8967b1a7115962ef2c",
+      "bytes": 1298513
+    },
+    {
+      "path": "notes/2026-11-12-cap-true-energy-first-span.json",
+      "sha256": "621fc6867dcd782dcc1108cf1b1ef0a13b88301d424ceaa9e91105901a5a38e1",
+      "bytes": 116785
+    },
+    {
+      "path": "notes/2026-11-12-cap-scaled-body-point-comparison.json",
+      "sha256": "1aea91b3359273922c9d6a6d0eb903682113a448f3da55c7e3605ca129c34369",
+      "bytes": 5594
+    },
+    {
+      "path": "notes/2026-11-12-cap-scaled-true-energy-first-span.json",
+      "sha256": "ecd77319c528b063e7870870a0a015f7ef6227738958bfa6a125435f8f2cd4c9",
+      "bytes": 116672
+    }
+  ],
+  "total_bytes": 1611235,
+  "scope": "Finite moment comparison plus exact N16/P2 trial and a single fully certified common body span, not a whole cap inverse. Regenerable floating cache NPZ is omitted; the selected true finite trial NPZ is included.",
+  "working_sources_not_included": [
+    "scripts/fourfold_phase_cap_wiener_box.py"
+  ]
+}

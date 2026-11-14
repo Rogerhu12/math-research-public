@@ -1,0 +1,170 @@
+{
+  "kind": "observed_native_execution_receipt_not_complete_reconstructed_certificate",
+  "complete_certificate_archived": false,
+  "date": "2026-11-12",
+  "native_checkout": "f33e62910428f588a326e82f48652aadbe8fe354",
+  "native_scope": "All five listed computations really finished with exit code 0 before the executor disconnected. The complete reports and arrays were on the local checkout; only the explicitly quoted observations and hashes were read into the session. This receipt is not a replacement for those complete reports or matrices.",
+  "whole_parameter_half_width": "1/1000000000",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "exact_center_parameter": "-7789843107295549/4611686018427387904",
+  "actual_runs": [
+    {
+      "source": "scripts/fourfold_phase_low_block_dihedral.py",
+      "output": "notes/native_core_20261112/finite_low_dihedral.json",
+      "exit_code": 0,
+      "sector_dimensions": [
+        6,
+        7,
+        4,
+        4
+      ],
+      "inverse_upper_conservative_decimal": [
+        "63.179795",
+        "33.633718",
+        "9.437327",
+        "4.116037"
+      ],
+      "scope": "Exact selected finite centers only; unpaid core/high fees excluded in this first split."
+    },
+    {
+      "source": "scripts/fourfold_phase_core_even_collect.py",
+      "output": "notes/native_core_20261112/complete_uniform_even_core.json",
+      "exit_code": 0,
+      "accepted_leaves": 175,
+      "common_spans": 174,
+      "finite_Cauchy_dimension": 10,
+      "CPU_seconds": 0.940094889,
+      "positive_transfer_error_upper": "0.000044844082",
+      "height_inverse_perturbation_product_upper": "0.000272351",
+      "uniform_even_DN_radius_upper": "0.025382309",
+      "old_floating_even_center_difference_upper": "0.000000005557842",
+      "arrays": {
+        "path": "notes/native_core_20261112/complete_uniform_even_core.npz",
+        "sha256": "53de2b376532718740456c2d83287b267e4b9df196479db5db9035d8591f791d",
+        "bytes": 1463
+      },
+      "scope": "Actual directed global product and finite 5x5 even DN for the whole eta interval. Infinite core elimination is not certified."
+    },
+    {
+      "source": "scripts/fourfold_phase_family_interface_fourier.py",
+      "output": "notes/native_core_20261112/family_quarter_cut.json",
+      "exit_code": 0,
+      "CPU_seconds": 2.2436,
+      "primitive_nodes": 512,
+      "angles": 2048,
+      "keep": 512,
+      "bits": 192,
+      "normalized_strip": "1/16",
+      "real_height_lower": "0.239953664",
+      "complete_A0_errors_upper": {
+        "height_Y": "0.000000008605438",
+        "inverse_height": "0.000000096900011",
+        "conormal_pY": "0.000000623285858",
+        "energy_shear_YpY": "0.000000150766006",
+        "conormal_ratio_pY_over_Y": "0.000002574024997"
+      },
+      "arrays": {
+        "path": "notes/native_core_20261112/family_quarter_cut.npz",
+        "sha256": "dd08f0fe81ebff26478daec08d687ce70371a0ee260d2dd2f5d3058c7ad172d9",
+        "bytes": 28558
+      }
+    },
+    {
+      "source": "scripts/fourfold_phase_interface_strong_grams.py",
+      "output": "notes/native_core_20261112/family_quarter_cut_strong_Grams.json",
+      "exit_code": 0,
+      "complete": true,
+      "rows": 40,
+      "input_dimensions": [
+        9,
+        5
+      ],
+      "full_finite_output_range": [
+        -516,
+        516
+      ],
+      "arrays": {
+        "path": "notes/native_core_20261112/family_quarter_cut_strong_Grams.npz",
+        "sha256": "a35c292d980fdf9dc072dc5e66b02aeed6a82d14f808d75cfc920536df8bee09",
+        "bytes": 40148
+      },
+      "selected_true_cosine_high_norm_bounds": [
+        {
+          "field": "height_Y",
+          "space": "H1",
+          "cut": 4,
+          "upper": "0.054006350"
+        },
+        {
+          "field": "height_Y",
+          "space": "H3/2",
+          "cut": 4,
+          "upper": "0.262037159"
+        },
+        {
+          "field": "height_Y",
+          "space": "H1",
+          "cut": 64,
+          "upper": "0.000141135926"
+        },
+        {
+          "field": "height_Y",
+          "space": "H3/2",
+          "cut": 64,
+          "upper": "0.020693780"
+        },
+        {
+          "field": "energy_shear_YpY",
+          "space": "H0",
+          "cut": 4,
+          "upper": "0.083425374"
+        },
+        {
+          "field": "energy_shear_YpY",
+          "space": "H1/2",
+          "cut": 4,
+          "upper": "0.480744688"
+        },
+        {
+          "field": "energy_shear_YpY",
+          "space": "H0",
+          "cut": 64,
+          "upper": "0.000000152584358"
+        },
+        {
+          "field": "energy_shear_YpY",
+          "space": "H1/2",
+          "cut": 64,
+          "upper": "0.000019930238"
+        }
+      ]
+    },
+    {
+      "source": "scripts/fourfold_phase_even_low_paid_core.py",
+      "source_sha256": "bbb99a3e1eee8e3f73d63381ce1daa60bff2b85f99cfe0ba10bd03d51b03874f",
+      "output": "notes/native_core_20261112/actual_even_low_paid_core.json",
+      "exit_code": 0,
+      "dimension": 6,
+      "paid_matrix_fee_upper": "0.002442475458",
+      "paid_Banach_product_upper": "0.154315098",
+      "actual_center_retained_block_inverse_upper": "74.708434",
+      "remaining_other_matrix_fee_lower": "0.01338536967",
+      "sufficient_cap_relative_form_variation_lower": "0.01141230544",
+      "whole_eta_core_and_interface_paid": true,
+      "cap_family_variation_paid": false,
+      "infinite_high_feedback_paid": false,
+      "scope": "The actual finite retained block at the center is certified. Uniformity with the cap artificially held at its central complete form is also certified. The true varying cap and omitted high channels are separate outstanding fees."
+    }
+  ],
+  "rejected_input_receipt": {
+    "cause": "The surviving old-primary paid-low JSON/NPZ were not the newer main schema and were rejected before the numerical calculation. Correct main inputs were then fetched by authenticated terminal git and the native split succeeded.",
+    "old_json_sha256": "d77c7c8788f06782192d68a527c986788719bb6b208978e6c531938ac923d6e4",
+    "old_npz_sha256": "1e9533c5a888ca9d296e32a77168dd9b1b5bf8b21bfb8174fa489ac358d3d6de",
+    "used_main_json_sha256": "57d697f30eb18fc9daff787faf2d59d700f167726c74b6465821a98b22ce66e2",
+    "used_main_npz_sha256": "aad06ad36773210c398c41b7f4b515631301d3e54f84322332d0fb49b6087837"
+  },
+  "last_executor_failure": "A subsequent read-only rg command failed with exec-server transport disconnected; recovery timed out after 45s. No running numerical job was inferred to have succeeded from this failure.",
+  "replay_required": "Recover the actual local report/array files if they survive; otherwise execute the preserved five commands. Do not reconstruct unknown JSON fields or binary matrices from this receipt."
+}

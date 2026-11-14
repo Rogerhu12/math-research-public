@@ -1,0 +1,30 @@
+{
+  "kind": "ready_actual_delta4_positive_collar_source_and_dn",
+  "complete": true,
+  "scope": "exact delta4 singleton, true root to physical r=1/4; both ports, source and mean; no completed exterior cap/H",
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_actual_positive_cap.py",
+      "sha256": "1e8418174f54bd1d22dd628ef7f7e6525ca6b43cbcf7a2307d29f9d467e1612b",
+      "bytes": 16734
+    },
+    {
+      "path": "notes/2026-11-12-step4-actual-positive-cap.json",
+      "sha256": "44aa2dfb783b975c6904b0a57335a2b7d809e07956a484984f6ef9df02840126",
+      "bytes": 264350
+    },
+    {
+      "path": "results/R64-actual-positive-collar-source-and-dn-input.md",
+      "sha256": "aa8ce28a1819f3fee2e04672763cbe5796ffd4e9375ab6c495d37f3702f16eb3",
+      "bytes": 17354
+    }
+  ],
+  "checks": {
+    "exact_fraction_radial_tile": true,
+    "accepted_cells": 55,
+    "failed_cells": 0,
+    "displayed_operator_bounds": true,
+    "explicit_analytic_weight": "2^-75",
+    "relative_result_links_exist": true
+  }
+}

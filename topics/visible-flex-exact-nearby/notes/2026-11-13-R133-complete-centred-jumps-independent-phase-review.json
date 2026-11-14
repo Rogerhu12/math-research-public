@@ -1,0 +1,81 @@
+{
+  "kind": "independent_phase_review_complete_nonzero_centred_cap_with_all_interface_jumps",
+  "reviewer": "phase_inverse",
+  "complete_review": true,
+  "proof_and_two_new_consumer_sources_read_in_full": true,
+  "large_v4_native_reexecuted": false,
+  "jump_consumer_reexecuted": false,
+  "regularity_consumer_reexecuted": false,
+  "native_completion_and_producer_identities_read": true,
+  "scope": "Pure mathematical/source audit plus SHA and report-state inspection; not an independent reproduction of 935 residual boxes or of directed arithmetic output.",
+  "bound_files": {
+    "results/R133-supplement-complete-nonzero-centred-cap-with-interface-jumps.md": "808f097490c388778a920403df30a80f2cab841f2e7539efec07a429134b7516",
+    "scripts/fourfold_codazzi_centered_cap_interface_jumps.py": "2bbb4e70d00e43a71219f5ab1d1a23af10ddc780227c4ada6ebeffa37a4a680b",
+    "scripts/fourfold_codazzi_centered_cap_regularity.py": "29be6fef4f0228b22a99d95863f4acf5133971cea2502b8dad44785965a0044d",
+    "scripts/fourfold_codazzi_cap_centered_residual_v4.py": "ce4b1820a18532d78103bd0d3d93e08986b05612528421362ae6f6f7bc780fd9",
+    "notes/2026-11-13-R133-centered-cap-r1-v4-native.json.gz": "77f7ecd9f9612eb8cc5213dd512aeecd89defe90f36e96f4ce6f1c93a1d8c8b7",
+    "notes/2026-11-13-R133-centered-cap-r1-v4-jumps-native.json.gz": "7cac2a441ae9239168be0d4519957666167dc8883d957d68ce1eff11790842d8",
+    "notes/2026-11-13-R133-centered-cap-r1-regularity-native.json.gz": "0c2c663331032d04e9a3959201dda032743720dcd0c092bc989fccfc93302ef8",
+    "notes/2026-11-13-R133-A0-driven-cap-r1-native.json.gz": "e780eb3caee46dbd19139ef6b4a2056408bf1039d3eab248fe0bf57fc387c70b"
+  },
+  "checks": [
+    {
+      "statement": "N.6: positive modewise exponential kernels are bounded before radial sup and Fourier sum; the source gain 1/M is not assigned to point sources.",
+      "passed": true
+    },
+    {
+      "statement": "N.8: physical B is transformed by i sign(m) only on nonzero modes; the physical B square remains unchanged in Q; both mean equations and source units remain.",
+      "passed": true
+    },
+    {
+      "statement": "N.9-N.10: all finite Fourier convolutions precede the global Neumann remainder; gamma*T, |beta|*T/4, |beta|*T are separate and the mean is not divided by four.",
+      "passed": true
+    },
+    {
+      "statement": "N.4: finite piecewise radial algebra uses max over closed pieces with both interface traces, then Fourier l1; neither centre nor correction is falsely required continuous.",
+      "passed": true
+    },
+    {
+      "statement": "N.10b: d jump is j_b+q j_c; backward D point kernel and forward C point kernel are bounded by one; D-to-C triangle remains T, giving HD*JB+(HD*qplus+HC)*JC+Jmean.",
+      "passed": true
+    },
+    {
+      "statement": "Jump source: exact binary rationals are used for coefficients, nodes and amplitude; Horner evaluates every interior join; real sine/cosine absolute coefficient sums equal the two-sided Fourier A0 norm.",
+      "passed": true
+    },
+    {
+      "statement": "N.15: distributional jumps enter with the same minus-G_vec residual sign; original equation U=Hh+G_Q Q(U) then gives radial continuity. G_vec and G_Q are distinguished.",
+      "passed": true
+    },
+    {
+      "statement": "N.13-N.16: both full DQ columns and the pair-l1 maximum are retained; the Hessian majorant uses S=Bcentre+ccentre+rho, not two independently discarded correction columns.",
+      "passed": true
+    },
+    {
+      "statement": "Regularity source: the initial full jump-corrected strict ball is rechecked; only one explicit radius 2*epsilon/(1-lambda0) is proposed and accepted only after its own true denominator/DQ/image gates.",
+      "passed": true
+    },
+    {
+      "statement": "Angular regularity: strict interior margin permits small translated boundary data around the fixed nonzero centre; Green and Q commute with translations, and fixed-point uniqueness identifies the translated solution.",
+      "passed": true
+    },
+    {
+      "statement": "Strong two angular derivatives: difference quotients and (I-G_Q DQ)^-1 precede Fourier-coordinate identification; all mean derivatives are exactly zero but their values and radial equations persist.",
+      "passed": true
+    },
+    {
+      "statement": "Actual inner derivative weights are physical 4(j+1); outer nonzero A2 budget pays both angular derivatives, and all generated unknown output frequencies remain.",
+      "passed": true
+    },
+    {
+      "statement": "The result is a four-port driven curvature BVP and local C2 immersion; nonlinear regular tail, body seam, mean height/flux and periodic Euclidean holonomy are not claimed solved.",
+      "passed": true
+    }
+  ],
+  "observed_complete_interfaces": 92,
+  "observed_nonzero_exact_jump_coefficients": 11868,
+  "observed_driven_cap_existence_with_all_jumps": true,
+  "observed_full_angular_regularity_report_complete": true,
+  "full_surface_completion_inferred": false,
+  "original_v4_existence_flag_used_without_jumps": false
+}

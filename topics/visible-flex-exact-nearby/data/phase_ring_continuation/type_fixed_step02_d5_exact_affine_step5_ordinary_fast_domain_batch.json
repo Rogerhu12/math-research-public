@@ -1,0 +1,99 @@
+{
+  "kind": "directed_ordinary_domain_cost_and_safety_cases",
+  "complete": true,
+  "source_sha256": "b7b05da28d63c186b4cfbefb09de1f96c6e82f98ed9146f7358ac31ad5bddd3a",
+  "cases": [
+    {
+      "leg": "forward",
+      "segment": 547,
+      "subspan": [
+        "0",
+        "1/2"
+      ],
+      "completed": false,
+      "proved": false,
+      "error": "ValueError: native refinement escaped the original positive root certificate"
+    },
+    {
+      "leg": "forward",
+      "segment": 547,
+      "subspan": [
+        "1/2",
+        "1"
+      ],
+      "completed": false,
+      "proved": false,
+      "error": "ValueError: native refinement escaped the original positive root certificate"
+    },
+    {
+      "leg": "forward",
+      "segment": 286,
+      "subspan": [
+        "0",
+        "1"
+      ],
+      "completed": false,
+      "proved": false,
+      "error": "ValueError: native refinement escaped the original positive root certificate"
+    },
+    {
+      "leg": "forward",
+      "segment": 287,
+      "subspan": [
+        "0",
+        "1"
+      ],
+      "completed": false,
+      "proved": false,
+      "error": "ValueError: native refinement escaped the original positive root certificate"
+    },
+    {
+      "leg": "forward",
+      "segment": 484,
+      "subspan": [
+        "0",
+        "1/2"
+      ],
+      "completed": false,
+      "proved": false,
+      "error": "ValueError: native refinement escaped the original positive root certificate"
+    }
+  ],
+  "requested_cases": [
+    [
+      "forward",
+      547,
+      "0",
+      "1/2"
+    ],
+    [
+      "forward",
+      547,
+      "1/2",
+      "1"
+    ],
+    [
+      "forward",
+      286,
+      "0",
+      "1"
+    ],
+    [
+      "forward",
+      287,
+      "0",
+      "1"
+    ],
+    [
+      "forward",
+      484,
+      "0",
+      "1/2"
+    ]
+  ],
+  "angles": 512,
+  "primitive_nodes": 256,
+  "time_order": 40,
+  "bits": 160,
+  "all_cases_proved": false
+}

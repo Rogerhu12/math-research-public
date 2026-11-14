@@ -1,0 +1,29 @@
+{
+  "kind": "frozen_R75_actual_real_parameter_principal_return_existence",
+  "status": "complete_frozen",
+  "archive_required": [
+    {
+      "path": "results/R75-real-parameter-principal-return-regularity.md",
+      "sha256": "102b002eb1d8e5d5dfeac487bd2cbf42c2f32e8a1064d4b8b751f31a5a8d49ef",
+      "bytes": 13602
+    },
+    {
+      "path": "scripts/fourfold_phase_principal_return_regularity.py",
+      "sha256": "d43c40d72743f61b7fdbd998b1d9663e303a408dcff7bcc9e19452435d80021c",
+      "bytes": 8870
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_real_parameter_return_existence.json",
+      "sha256": "edd1450e9418ad060c54dd64885c7e5e77d3b34ba538d3da16b5395a2737cdc2",
+      "bytes": 4038
+    }
+  ],
+  "report_scope": "Same exact affine family delta5 +/- 1/2000000; true R37 modified principal two-leg circle return; orientation-preserving, angle-analytic, real-parameter C2",
+  "common_normalized_existence_strip": "exp(-1120*pi)/56",
+  "limitations": [
+    "The tiny strip is not the effective R31 strip",
+    "No numerical parameter Taylor bounds/twist or true return residual",
+    "No full PDE inverse or isometric closed-surface family"
+  ],
+  "replay": "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/fourfold_phase_principal_return_regularity.py --out data/phase_ring_continuation/type_fixed_step02_d5_step5_real_parameter_return_existence.json"
+}

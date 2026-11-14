@@ -1,0 +1,32 @@
+{
+  "kind": "exact_finite_coverage_and_output_comparison_for_directed_N_certificate",
+  "certificate_sha256": "538c3edbd89c2e322f5921ab62f08ff9f12dece2d878d19014daa2db6d866b28",
+  "radial_cells": 592,
+  "exact_positive_endpoint": {
+    "numerator": "1080863910568919",
+    "denominator": "4503599627370496"
+  },
+  "whole_closed_positive_interval_covered": true,
+  "all_cells_passed": true,
+  "strict_rational_bounds": {
+    "N_factor_lower": "37235/100000",
+    "minus_raw_n_lower": "42529/100000",
+    "unit_N_upper": "-3092/10000"
+  },
+  "maximum_core_knot_multiplicities": {
+    "phase_knots": 1,
+    "base_knots": 1,
+    "shift_knots": 1,
+    "mean0_knots": 1,
+    "mean1_knots": 1,
+    "mean2_knots": 1,
+    "height0_slope_knots": 1,
+    "height0_primitive_knots": 1,
+    "height1_slope_knots": 1,
+    "height1_primitive_knots": 1,
+    "height2_slope_knots": 1,
+    "height2_primitive_knots": 1,
+    "height3_slope_knots": 1,
+    "height3_primitive_knots": 1
+  }
+}

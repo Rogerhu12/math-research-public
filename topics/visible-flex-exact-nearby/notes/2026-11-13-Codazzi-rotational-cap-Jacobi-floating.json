@@ -1,0 +1,233 @@
+{
+  "kind": "floating_actual_body_graft_rotational_Jacobi_probe",
+  "certified": false,
+  "source_sha256": "2bfb4c8d7bca6ffe75d6496f8f9c3baa17ba5ee83045c6ca09dc475853d30114",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "endpoint_sha256": "b54cdfb48418f6794610c3b3ed6f47f496f069316fff9be5ab3550d5a2895e51",
+  "exact_center_parameter": {
+    "numerator": "-7789843107295549",
+    "denominator": "4611686018427387904"
+  },
+  "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "success": true,
+  "message": "The solver successfully reached the end of the integration interval.",
+  "requested_interval": [
+    0.239,
+    3.125
+  ],
+  "primitive_nodes": 512,
+  "modes": 16,
+  "physical_frequencies": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32,
+    36,
+    40,
+    44,
+    48,
+    52,
+    56,
+    60,
+    64
+  ],
+  "rtol": 2e-10,
+  "atol": 2e-12,
+  "max_step": 0.005,
+  "rhs_calls": 15227,
+  "accepted_steps": 967,
+  "actual_graft_used": true,
+  "body_spline_extrapolation_used": false,
+  "body_graft_float_join_mismatch": {
+    "gamma": -2.4868995751603507e-14,
+    "beta": 2.398081733190338e-14,
+    "K": 6.305025945785303e-14,
+    "Cref": -7.216449660063518e-16,
+    "lambda_ref": 2.1453949727856525e-12
+  },
+  "actual_omega_center": 1.4611528630879125,
+  "actual_graft_end_radius": 6.563765787964039e-06,
+  "stable_center_initial_q": 0.9999999999993694,
+  "true_R74_nonfourth_mode_initial_fee": "<=2^42 exp(-2m omega_lower*(2^24-25/8)); NOT propagated in this floating run",
+  "endpoint_radius": 0.239,
+  "endpoint_reference": {
+    "r": 0.239,
+    "a": 1.0972502700831321,
+    "a_r": 0.23104279390182608,
+    "a_rr": 0.04814127178225813,
+    "E": 1.5096969602001478,
+    "Ebar": 1.2539447103562213,
+    "E_minus_a_r_squared": 1.456316187586186,
+    "normalized_E_minus_a_r_squared": 1.0046918776253129,
+    "K": 0.03308223613022051,
+    "gamma": 1.1197967272483973,
+    "beta": 0.2105652650095236,
+    "Cref": -0.8951117369289674,
+    "Aref": -0.03695877817860162,
+    "lambda_ref": 0.04128956939544021,
+    "a_s": 0.18803882873182864,
+    "primitive_mean_correction": 0.034893752872697234,
+    "primitive_mean_correction_r": -0.09429084528596665,
+    "height_slope_ratio": 0.9877800099329892,
+    "height_slope_ratio_r": 0.07950801187175818
+  },
+  "entries": [
+    {
+      "physical_frequency": 4,
+      "q": 1.056180708410158,
+      "B_sine_over_C_cosine": -1.056180708410158,
+      "candidate_B_sine": 0.4910191331346938,
+      "candidate_C_nonmean_cosine": -0.5023649319903778,
+      "rotational_linear_graph_mismatch": -0.039569016615324304
+    },
+    {
+      "physical_frequency": 8,
+      "q": 0.8763101748782186,
+      "B_sine_over_C_cosine": -0.8763101748782186,
+      "candidate_B_sine": 0.24130821524793594,
+      "candidate_C_nonmean_cosine": -0.2579575051878299,
+      "rotational_linear_graph_mismatch": 0.015257428765639736
+    },
+    {
+      "physical_frequency": 12,
+      "q": 0.7852255821164883,
+      "B_sine_over_C_cosine": -0.7852255821164883,
+      "candidate_B_sine": 0.15680241687758245,
+      "candidate_C_nonmean_cosine": -0.17044514440545783,
+      "rotational_linear_graph_mismatch": 0.022964529142877915
+    },
+    {
+      "physical_frequency": 16,
+      "q": 0.7230732370796039,
+      "B_sine_over_C_cosine": -0.7230732370796039,
+      "candidate_B_sine": 0.07291809891153606,
+      "candidate_C_nonmean_cosine": -0.08559235366067447,
+      "rotational_linear_graph_mismatch": 0.011028558680849884
+    },
+    {
+      "physical_frequency": 20,
+      "q": 0.6775076179838578,
+      "B_sine_over_C_cosine": -0.6775076179838578,
+      "candidate_B_sine": 0.0005258246959532833,
+      "candidate_C_nonmean_cosine": -0.03679862110012985,
+      "rotational_linear_graph_mismatch": -0.024405521430686226
+    },
+    {
+      "physical_frequency": 24,
+      "q": 0.6425997237763501,
+      "B_sine_over_C_cosine": -0.6425997237763501,
+      "candidate_B_sine": 0.04074139443543141,
+      "candidate_C_nonmean_cosine": -0.06882338218682917,
+      "rotational_linear_graph_mismatch": -0.0034844919471791816
+    },
+    {
+      "physical_frequency": 28,
+      "q": 0.6148775142382517,
+      "B_sine_over_C_cosine": -0.6148775142382517,
+      "candidate_B_sine": 0.08661402892164252,
+      "candidate_C_nonmean_cosine": -0.06305480038051348,
+      "rotational_linear_graph_mismatch": 0.04784305000288323
+    },
+    {
+      "physical_frequency": 32,
+      "q": 0.5922100667951778,
+      "B_sine_over_C_cosine": -0.5922100667951778,
+      "candidate_B_sine": -0.023898322853537372,
+      "candidate_C_nonmean_cosine": 0.007207604902677112,
+      "rotational_linear_graph_mismatch": -0.01962990667268971
+    },
+    {
+      "physical_frequency": 36,
+      "q": 0.5732376853093646,
+      "B_sine_over_C_cosine": -0.5732376853093646,
+      "candidate_B_sine": 0.03208488651660943,
+      "candidate_C_nonmean_cosine": -0.022681530189501517,
+      "rotational_linear_graph_mismatch": 0.019082978651505107
+    },
+    {
+      "physical_frequency": 40,
+      "q": 0.5570569974038778,
+      "B_sine_over_C_cosine": -0.5570569974038778,
+      "candidate_B_sine": 0.058543551647560574,
+      "candidate_C_nonmean_cosine": -0.02110533761800952,
+      "rotational_linear_graph_mismatch": 0.04678667564487708
+    },
+    {
+      "physical_frequency": 44,
+      "q": 0.5430445823638334,
+      "B_sine_over_C_cosine": -0.5430445823638334,
+      "candidate_B_sine": -0.05088271660419269,
+      "candidate_C_nonmean_cosine": -0.028181232787223585,
+      "rotational_linear_graph_mismatch": -0.06618638239362849
+    },
+    {
+      "physical_frequency": 48,
+      "q": 0.5307555609311888,
+      "B_sine_over_C_cosine": -0.5307555609311888,
+      "candidate_B_sine": 0.04057605538546356,
+      "candidate_C_nonmean_cosine": -0.004469135086249826,
+      "rotational_linear_graph_mismatch": 0.038204037085883776
+    },
+    {
+      "physical_frequency": 52,
+      "q": 0.5198631784005678,
+      "B_sine_over_C_cosine": -0.5198631784005678,
+      "candidate_B_sine": 0.04252920793397619,
+      "candidate_C_nonmean_cosine": -0.0034447745087831452,
+      "rotational_linear_graph_mismatch": 0.04073839650896693
+    },
+    {
+      "physical_frequency": 56,
+      "q": 0.510121442192833,
+      "B_sine_over_C_cosine": -0.510121442192833,
+      "candidate_B_sine": 0.07964558203162365,
+      "candidate_C_nonmean_cosine": 0.009935648988982675,
+      "rotational_linear_graph_mismatch": 0.08471396962300526
+    },
+    {
+      "physical_frequency": 60,
+      "q": 0.5013411887574208,
+      "B_sine_over_C_cosine": -0.5013411887574208,
+      "candidate_B_sine": 0.04962087717592352,
+      "candidate_C_nonmean_cosine": -0.012183946902336571,
+      "rotational_linear_graph_mismatch": 0.043512562752148806
+    },
+    {
+      "physical_frequency": 64,
+      "q": 0.493374258201048,
+      "B_sine_over_C_cosine": -0.493374258201048,
+      "candidate_B_sine": 0.03523530579642245,
+      "candidate_C_nonmean_cosine": -0.0359274650527743,
+      "rotational_linear_graph_mismatch": 0.017509619376965855
+    }
+  ],
+  "candidate_B_mean": 8.379671805139228e-18,
+  "candidate_C_mean": -0.8928701967333277,
+  "candidate_C_mean_minus_Cref": 0.002241540195639713,
+  "omitted_candidate_B_C_DFT_l1": [
+    0.6086925620452387,
+    1.238054770360009
+  ],
+  "finite_mismatch_l1": 0.5409171252951115,
+  "mean_height_port": "Separate regular axial translation; no forced mean contact computed.",
+  "nonlinear_remainder": "Not paid: A-Aref+lambda_ref*(C-Cref)=B^2/C+K*(C-Cref)^2/(C*Cref^2).",
+  "limitations": [
+    "Floating finite-primitive scalar coefficients and unvalidated radial ODE integration.",
+    "The initial stable-center representative differs from the true non-fourth-mode regular line by the recorded tiny fee; the independent native run pays it.",
+    "The displayed mismatch is against the rotational LINEAR graph, not the unknown nonlinear cap map.",
+    "All omitted high channels and the candidate mean difference remain unclosed."
+  ],
+  "dependency_sha256": {
+    "fourfold_phase_codazzi_rotational_reference_probe.py": "c8495d0c1721a21a24b48c8cdce9e825a8110f4923edd01e9eb2b7fe76b2d411",
+    "fourfold_phase_cap_graft_tail_energy.py": "247c7855b817f851f56ddb58c96d08b78dcacd9f223456f431019f09ebe9a4d1",
+    "fourfold_phase_natural_exterior_graft.py": "5862772e46bb281201c427e71b85066d68f4ea9520ab62e6f6286b8baefdeaee",
+    "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+    "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937"
+  },
+  "wall_seconds": 145.15046245700069
+}

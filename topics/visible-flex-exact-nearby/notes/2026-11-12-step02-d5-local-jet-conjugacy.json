@@ -1,0 +1,104 @@
+{
+  "kind": "floating_actual_same_source_tangent_model_conjugacy",
+  "source_sha256": "a042a48e7245e6dbba9466bad493e439e84c375a37b92f32ddaee60e3274c275",
+  "curve_direction_sha256": "746253d55fd452015b5c7f2a242efcec42de64391976b767a8a8f0a1853df6c7",
+  "merged_map_sha256": "57888e89706b474653d793e741b89024d1ba4b9ca636819f0944c7822fabaf73",
+  "initial_conjugacy_sha256": "61fc7fbd76385b9eee49e18b988ac11419984a1a022a2487ff8368fea4ea889a",
+  "target": "D5",
+  "rotation_number": 0.5515001118801509,
+  "angular_scale": 4.0,
+  "base_global_parameter": 0.41143386520907216,
+  "parameter": 0.0299176266001324,
+  "proposed_global_parameter": 0.4413514918092046,
+  "levels": [
+    {
+      "size": 257,
+      "local_parameter_step": 0.029909781373251218,
+      "proposed_global_parameter": 0.4413436465823234,
+      "sampled_residual_max": 3.5858870143179455e-05,
+      "sampled_Hprime_range": [
+        0.3565405871578188,
+        1.7999762576900689
+      ],
+      "sampled_weighted_twist": 0.002309801878406695,
+      "sampled_twist_integrand_range": [
+        0.00030877494315307294,
+        0.004400498494621525
+      ],
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.0,
+          "collocation_residual": 0.006830874026949041,
+          "sampled_minimum_Hprime": 0.3443353526777263,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": 0.029939241780426545,
+          "collocation_residual": 3.627184578108844e-05,
+          "sampled_minimum_Hprime": 0.356647455626502,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": 0.029909773916595644,
+          "collocation_residual": 1.2828306195089567e-09,
+          "sampled_minimum_Hprime": 0.35659558227110555,
+          "damping": 1.0
+        },
+        {
+          "step": 3,
+          "parameter": 0.029909781373251218,
+          "collocation_residual": 5.88418203051333e-15,
+          "sampled_minimum_Hprime": 0.35659557693913024
+        }
+      ]
+    },
+    {
+      "size": 513,
+      "local_parameter_step": 0.0299176266001324,
+      "proposed_global_parameter": 0.4413514918092046,
+      "sampled_residual_max": 7.459016286903708e-06,
+      "sampled_Hprime_range": [
+        0.3544633153690617,
+        1.807175193733149
+      ],
+      "sampled_weighted_twist": 0.0023099257736927444,
+      "sampled_twist_integrand_range": [
+        0.0003092512274544467,
+        0.004445859655886108
+      ],
+      "steps": [
+        {
+          "step": 0,
+          "parameter": 0.029909781373251218,
+          "collocation_residual": 3.5859937049409485e-05,
+          "sampled_minimum_Hprime": 0.35654074135481983,
+          "damping": 1.0
+        },
+        {
+          "step": 1,
+          "parameter": 0.02991762489954901,
+          "collocation_residual": 2.675990445899501e-08,
+          "sampled_minimum_Hprime": 0.354553727146357,
+          "damping": 1.0
+        },
+        {
+          "step": 2,
+          "parameter": 0.0299176266001324,
+          "collocation_residual": 4.690692279041286e-15,
+          "sampled_minimum_Hprime": 0.3545536664018367
+        }
+      ]
+    }
+  ],
+  "checkpoint_sha256": "9e60b97c5abe68ce78db049c47bbc6747cb5068207344eef7606ef697da1d3c1",
+  "limitations": [
+    "interpolated actual map and first parameter column, not the actual nonlinear family",
+    "parameter Taylor terms are omitted by the surrogate and require actual verification",
+    "finite Fourier, real sampling and floating linear solves",
+    "original binary reflection defect remains unpaid",
+    "a new H requires its own dyadic norm certificate and fresh actual ODE residual"
+  ]
+}

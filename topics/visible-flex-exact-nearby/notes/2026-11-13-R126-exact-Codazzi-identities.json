@@ -1,0 +1,27 @@
+{
+  "kind": "R126_exact_symbolic_Gauss_Codazzi_identities",
+  "complete": true,
+  "checks": {
+    "frame_radial_generator_is_skew": true,
+    "frame_angular_generator_is_skew": true,
+    "complete_frame_flatness": true,
+    "actual_symmetrizer": true,
+    "symmetrizer_determinant": true,
+    "principal_characteristic_polynomial": true,
+    "complete_linearized_lower_order_matrix": true,
+    "first_complete_Riemann_equation": true,
+    "second_complete_Riemann_equation": true,
+    "inverse_C": true,
+    "inverse_B": true,
+    "inverse_A": true,
+    "forcing_jacobian": true,
+    "first_forcing_Hessian": true,
+    "second_forcing_Hessian": true
+  },
+  "check_count": 15,
+  "sympy_version": "1.14.0",
+  "source_sha256": "4cefcd6f9bc6a64cb9e33cb33e66dff11a4917d4238439d456512e3b74483fc9",
+  "scope": "Exact rational symbolic identities only; no finite angular truncation.",
+  "continuation_numerical_gates_paid": false,
+  "closed_surface_or_flex_completion_claimed": false
+}

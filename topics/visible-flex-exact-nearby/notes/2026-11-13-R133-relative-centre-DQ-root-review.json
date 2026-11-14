@@ -1,0 +1,32 @@
+{
+  "kind": "root_complete_relative_centre_DQ_with_piecewise_scope_review",
+  "complete": true,
+  "whole_994_box_native_independently_rerun": true,
+  "entire_native_json_equal": true,
+  "input_and_source_sha256_checks": {
+    "notes/2026-11-13-Codazzi-rotational-positive-cap-v2-native.json.gz": true,
+    "notes/2026-11-13-R133-A0-r09-linear-kernels-native.json.gz": true,
+    "notes/2026-11-13-R133-compact-metric-outer-mean-m64-candidate.npz.gz": true,
+    "scripts/fourfold_codazzi_cap_centered_residual_v3.py": true,
+    "scripts/fourfold_codazzi_candidate_shards.py": true,
+    "scripts/fourfold_codazzi_cap_A0_translation_budget.py": true,
+    "scripts/fourfold_codazzi_rotational_cap_jacobi.py": true,
+    "scripts/fourfold_phase_beta_bulk_box.py": true,
+    "scripts/fourfold_phase_metric_defect.py": true,
+    "scripts/fourfold_codazzi_cap_relative_centre_budget.py": true
+  },
+  "scope_correction_sha256": "102007d3ea18ecd2cfe7e9769f817b17a23735d20a9b2bb4e5acf1ba1a9a494e",
+  "manual_checks": [
+    "full actual derivative columns from the exact rational Q",
+    "per-mode radial maxima before full Fourier l1 sum",
+    "true Cref divided before taking bounds; absolute full-mode correction ball unchanged",
+    "complete source-to-pair column maximum includes all modes and both means",
+    "four independent physical boundary ports not declared matched",
+    "original exact dyadic centre is only piecewise continuous until its jumps are paid",
+    "finite direct-sum maximum-norm algebra includes both traces at every interface",
+    "fixed-point correction may have opposite centre jumps; only the true integral solution is required continuous"
+  ],
+  "complete_residual_recomputed": false,
+  "cap_existence_claimed": false,
+  "scope": "Derivative-only result in the explicitly corrected piecewise algebra. The complete residual including all exact interface jumps, body matching, true nonlinear regular tail and frame holonomy remain separate."
+}

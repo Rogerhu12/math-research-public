@@ -1,0 +1,354 @@
+{
+  "kind": "actual_strict_half_density_bootstrap_and_complete_strong_scattering",
+  "complete": true,
+  "proved": true,
+  "source_sha256": "af0d6b3609d055dbfb1412bf5bca56d1ee1f017b99361ffdcafc696fa8170f00",
+  "bits": 384,
+  "identity": {
+    "object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+    "source_sha256": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a"
+    },
+    "affine_arithmetic": "Arb encloses c0+exact_delta*v and alpha0+exact_delta*w before all fixed base weights",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "uniform_in_the_entire_real_parameter_interval": true,
+    "parameter_arithmetic": "First form complete exact center and direction scalar polynomials; then add the single p in [-eta,eta]. No independent raw-control parameter intervals are introduced.",
+    "exact_delta_fraction_scope": "The exact_delta_fraction field names the center only; all bounds cover the separately stated whole exact_parameter_interval."
+  },
+  "scale": 1048576,
+  "actual_parameter_scope": "The actual p_infinity supplied by R101, rigorously inside the full phase parameter box.",
+  "entire_original_real_parameter_box_for_local_estimates": true,
+  "inputs": {
+    "notes/2026-11-13-R46-unshifted-half-density-energy.json": "ebe435c41b5337b3f92aeadfc132ae173e459c54d2cfd9befaeaadf5afad384e",
+    "notes/2026-11-13-R106-full-relative-real-log-jets-refined.json.gz": "58ca0e25559f066a06b34e01eb17267aa9751d4892f39cc66aed9dab63ca0140",
+    "notes/2026-11-13-R46-complete-density-transport-bootstrap.json": "f86e1cd3e2be7542b4f0e3e5c52b297a77b016b3744df64cbfa04446a559ade7",
+    "notes/2026-11-13-R46-strict-two-base-four-thirds.json": "bed242890edeb415482a5bd655c92f72acbb4c2c6990172586729ae16a6df48a",
+    "notes/2026-11-13-actual-root-cut-true-strong-rebudget.json": "bcf37acb85638acefdc1e6b5df486113ab11e7078305a13039886b3e503a55f0",
+    "notes/2026-11-13-R46-native-WKB-full-strict-fields-v2.json.gz": "8a97d6780955b94f3f96ab7cd8c8d4e518f291cd04e0903505c03e2abe176788"
+  },
+  "native_cells_recomputed": 0,
+  "all_original_215_closed_cells_and_550_true_relative_times_retained": true,
+  "exact_physical_interval": [
+    "-268136140016943/1125899906842624",
+    "268136140016943/1125899906842624"
+  ],
+  "original_density_equations_and_first_phase_unchanged": true,
+  "complete_old_density_potential_retained_only_in_the_lower_order_bootstrap": true,
+  "source_and_Cauchy_costs_not_identified": true,
+  "strong_error_identity": "I_t*(C_t*(initial_defect+mean_frame)+S_t*ordinary_residual)+1+all_original_cross_mean_momentum_ordering_terms",
+  "full_actual_scattering_identity": "R_S=3 max_s kappa^-1*(R_Kp*C0*K2+M2*R_strict_s*K2+M2*W2*R_Kp)",
+  "bounds": {
+    "physical_Cauchy_half": {
+      "ball": "[3027016467420377413580.8209291806401366760162761259 +/- 3.21e-29]",
+      "lower": "[3027016467420377413580.8209291806401366760162761259 +/- 3.21e-29]",
+      "upper": "[3027016467420377413580.8209291806401366760162761259 +/- 3.21e-29]"
+    },
+    "physical_ordinary_source_half": {
+      "ball": "[1617072565263312.0114880340151003313914366155374407 +/- 1.89e-35]",
+      "lower": "[1617072565263312.0114880340151003313914366155374407 +/- 1.89e-35]",
+      "upper": "[1617072565263312.0114880340151003313914366155374407 +/- 1.89e-35]"
+    },
+    "complete_density_transport_order_one": {
+      "ball": "[58.154521950477588885592826619567270867475117225319 +/- 3.18e-49]",
+      "lower": "[58.154521950477588885592826619567270867475117225319 +/- 3.18e-49]",
+      "upper": "[58.154521950477588885592826619567270867475117225319 +/- 3.18e-49]"
+    },
+    "full_angular_antiderivative_gain": {
+      "ball": "[0.25000000000011368683772159018034523761245260377669 +/- 4.57e-51]",
+      "lower": "[0.25000000000011368683772159018034523761245260377669 +/- 4.57e-51]",
+      "upper": "[0.25000000000011368683772159018034523761245260377669 +/- 4.57e-51]"
+    },
+    "full_integrated_density_potential": {
+      "ball": "[113197.89827852596171167270366062046136781785363256 +/- 4.15e-45]",
+      "lower": "[113197.89827852596171167270366062046136781785363256 +/- 4.15e-45]",
+      "upper": "[113197.89827852596171167270366062046136781785363256 +/- 4.15e-45]"
+    },
+    "complete_old_density_initial_order_one": {
+      "ball": "[3975060.9608908109355861938860573091303917991724039 +/- 3.25e-44]",
+      "lower": "[3975060.9608908109355861938860573091303917991724039 +/- 3.25e-44]",
+      "upper": "[3975060.9608908109355861938860573091303917991724039 +/- 3.25e-44]"
+    },
+    "complete_density_homogeneous_order_one": {
+      "ball": "[10474900550595935588757084811521.100951356920243590 +/- 3.02e-19]",
+      "lower": "[10474900550595935588757084811521.100951356920243590 +/- 3.02e-19]",
+      "upper": "[10474900550595935588757084811521.100951356920243590 +/- 3.02e-19]"
+    },
+    "complete_density_ordinary_source_order_one": {
+      "ball": "[5595831567664176758491402.3971606473931921965902392 +/- 3.22e-26]",
+      "lower": "[5595831567664176758491402.3971606473931921965902392 +/- 3.22e-26]",
+      "upper": "[5595831567664176758491402.3971606473931921965902392 +/- 3.22e-26]"
+    },
+    "physical_Cauchy_three_halves": {
+      "ball": "[22731597942559088524062623497199.601668574000694846 +/- 1.30e-19]",
+      "lower": "[22731597942559088524062623497199.601668574000694846 +/- 1.30e-19]",
+      "upper": "[22731597942559088524062623497199.601668574000694846 +/- 1.30e-19]"
+    },
+    "physical_ordinary_source_three_halves": {
+      "ball": "[12143522770073978599343045.135517977902494699632306 +/- 9.10e-26]",
+      "lower": "[12143522770073978599343045.135517977902494699632306 +/- 9.10e-26]",
+      "upper": "[12143522770073978599343045.135517977902494699632306 +/- 9.10e-26]"
+    },
+    "physical_ordinary_source_zero": {
+      "ball": "[2212443283807690838.9245931243589852026035217005149 +/- 4.48e-32]",
+      "lower": "[2212443283807690838.9245931243589852026035217005149 +/- 4.48e-32]",
+      "upper": "[2212443283807690838.9245931243589852026035217005149 +/- 4.48e-32]"
+    },
+    "complete_original_base_amplitude_Cauchy": {
+      "ball": "[1594617251678447900487285.9145394600551750741972379 +/- 1.34e-28]",
+      "lower": "[1594617251678447900487285.9145394600551750741972379 +/- 1.34e-28]",
+      "upper": "[1594617251678447900487285.9145394600551750741972379 +/- 1.34e-28]"
+    },
+    "strict_complete_L1_HNminus_half_to_base_amplitude": {
+      "ball": "[67847783486259466468.109230730837355369617522731160 +/- 2.93e-31]",
+      "lower": "[67847783486259466468.109230730837355369617522731160 +/- 2.93e-31]",
+      "upper": "[67847783486259466468.109230730837355369617522731160 +/- 2.93e-31]"
+    },
+    "strict_complete_L1_HNhalf_to_HN1_amplitude": {
+      "ball": "[2024252704044561420202283.2158821533432586165241065 +/- 2.53e-26]",
+      "lower": "[2024252704044561420202283.2158821533432586165241065 +/- 2.53e-26]",
+      "upper": "[2024252704044561420202283.2158821533432586165241065 +/- 2.53e-26]"
+    },
+    "complete_negative_transfer_error_forward": {
+      "ball": "[1.2065413300756719539853665348751780572442018022866e+74 +/- 2.09e+24]",
+      "lower": "[1.2065413300756719539853665348751780572442018022866e+74 +/- 2.09e+24]",
+      "upper": "[1.2065413300756719539853665348751780572442018022866e+74 +/- 2.09e+24]"
+    },
+    "complete_negative_transfer_error_opposite": {
+      "ball": "[3.0681781923437087846094394790746030632991118105417e+72 +/- 1.12e+22]",
+      "lower": "[3.0681781923437087846094394790746030632991118105417e+72 +/- 1.12e+22]",
+      "upper": "[3.0681781923437087846094394790746030632991118105417e+72 +/- 1.12e+22]"
+    },
+    "complete_actual_strong_scattering_error_both_windows": {
+      "ball": "[3.6196239902270158619560996046255341717326054068597e+74 +/- 3.76e+24]",
+      "lower": "[3.6196239902270158619560996046255341717326054068597e+74 +/- 3.76e+24]",
+      "upper": "[3.6196239902270158619560996046255341717326054068597e+74 +/- 3.76e+24]"
+    }
+  },
+  "strict_strong_rows": [
+    {
+      "input_order": "0",
+      "output_order": "4/3",
+      "full_physical_Cauchy": {
+        "ball": "[513681709562810204720039149417.20604049926008034407 +/- 1.04e-21]",
+        "lower": "[513681709562810204720039149417.20604049926008034407 +/- 1.04e-21]",
+        "upper": "[513681709562810204720039149417.20604049926008034407 +/- 1.04e-21]"
+      },
+      "full_physical_ordinary_source": {
+        "ball": "[274415619720584414680056.32082064337896687224232276 +/- 2.18e-27]",
+        "lower": "[274415619720584414680056.32082064337896687224232276 +/- 2.18e-27]",
+        "upper": "[274415619720584414680056.32082064337896687224232276 +/- 2.18e-27]"
+      },
+      "unchanged_full_initial_defect": {
+        "ball": "[1771613753.7590287756590153428952481625672080116119 +/- 2.25e-41]",
+        "lower": "[1771613753.7590287756590153428952481625672080116119 +/- 2.25e-41]",
+        "upper": "[1771613753.7590287756590153428952481625672080116119 +/- 2.25e-41]"
+      },
+      "unchanged_complete_residual": {
+        "ball": "[918999424487449319.11621683862009033134626152371106 +/- 4.74e-33]",
+        "lower": "[918999424487449319.11621683862009033134626152371106 +/- 4.74e-33]",
+        "upper": "[918999424487449319.11621683862009033134626152371106 +/- 4.74e-33]"
+      },
+      "unchanged_full_frame": {
+        "ball": "[16922.359631546296940183453201114989113036971754952 +/- 2.32e-46]",
+        "lower": "[16922.359631546296940183453201114989113036971754952 +/- 2.32e-46]",
+        "upper": "[16922.359631546296940183453201114989113036971754952 +/- 2.32e-46]"
+      },
+      "unchanged_full_inverse_frame": {
+        "ball": "[14445.335327277851284014496244201067949102472953496 +/- 1.29e-47]",
+        "lower": "[14445.335327277851284014496244201067949102472953496 +/- 1.29e-47]",
+        "upper": "[14445.335327277851284014496244201067949102472953496 +/- 1.29e-47]"
+      },
+      "complete_source_and_mean_correction": {
+        "ball": "[3656083326401713676765898774361419117209632059.2702 +/- 3.73e-5]",
+        "lower": "[3656083326401713676765898774361419117209632059.2702 +/- 3.73e-5]",
+        "upper": "[3656083326401713676765898774361419117209632059.2702 +/- 3.73e-5]"
+      },
+      "unchanged_complete_cross_mean_momentum_and_ordering": {
+        "ball": "[2053899918099436279846967624916606139713.8806077613 +/- 8.72e-12]",
+        "lower": "[2053899918099436279846967624916606139713.8806077613 +/- 8.72e-12]",
+        "upper": "[2053899918099436279846967624916606139713.8806077613 +/- 8.72e-12]"
+      },
+      "full_strict_four_thirds": {
+        "ball": "[3656085380301631776202178621329044033815771773.1508 +/- 4.51e-5]",
+        "lower": "[3656085380301631776202178621329044033815771773.1508 +/- 4.51e-5]",
+        "upper": "[3656085380301631776202178621329044033815771773.1508 +/- 4.51e-5]"
+      },
+      "previous_full_strict_four_thirds": {
+        "ball": "[4.2350393795686408425732534002232085774910035671486e+73 +/- 4.64e+23]",
+        "lower": "[4.2350393795686408425732534002232085774910035671486e+73 +/- 4.64e+23]",
+        "upper": "[4.2350393795686408425732534002232085774910035671486e+73 +/- 4.64e+23]"
+      }
+    },
+    {
+      "input_order": "-4/3",
+      "output_order": "0",
+      "full_physical_Cauchy": {
+        "ball": "[3027016467420377413580.8209291806401366760162761259 +/- 3.21e-29]",
+        "lower": "[3027016467420377413580.8209291806401366760162761259 +/- 3.21e-29]",
+        "upper": "[3027016467420377413580.8209291806401366760162761259 +/- 3.21e-29]"
+      },
+      "full_physical_ordinary_source": {
+        "ball": "[2212443283807690838.9245931243589852026035217005149 +/- 4.48e-32]",
+        "lower": "[2212443283807690838.9245931243589852026035217005149 +/- 4.48e-32]",
+        "upper": "[2212443283807690838.9245931243589852026035217005149 +/- 4.48e-32]"
+      },
+      "unchanged_full_initial_defect": {
+        "ball": "[1771613753.7590287756590153428952481625672080116119 +/- 2.25e-41]",
+        "lower": "[1771613753.7590287756590153428952481625672080116119 +/- 2.25e-41]",
+        "upper": "[1771613753.7590287756590153428952481625672080116119 +/- 2.25e-41]"
+      },
+      "unchanged_complete_residual": {
+        "ball": "[56718975378889439.201458058242413958162078075961210 +/- 4.64e-35]",
+        "lower": "[56718975378889439.201458058242413958162078075961210 +/- 4.64e-35]",
+        "upper": "[56718975378889439.201458058242413958162078075961210 +/- 4.64e-35]"
+      },
+      "unchanged_full_frame": {
+        "ball": "[16920.392665135226704364167675873597533329250971957 +/- 1.28e-46]",
+        "lower": "[16920.392665135226704364167675873597533329250971957 +/- 1.28e-46]",
+        "upper": "[16920.392665135226704364167675873597533329250971957 +/- 1.28e-46]"
+      },
+      "unchanged_full_inverse_frame": {
+        "ball": "[14443.541271834751262973750548196106207611781518007 +/- 3.31e-46]",
+        "lower": "[14443.541271834751262973750548196106207611781518007 +/- 3.31e-46]",
+        "upper": "[14443.541271834751262973750548196106207611781518007 +/- 3.31e-46]"
+      },
+      "complete_source_and_mean_correction": {
+        "ball": "[1812561575665883722021923067569670469292.9731243084 +/- 2.79e-11]",
+        "lower": "[1812561575665883722021923067569670469292.9731243084 +/- 2.79e-11]",
+        "upper": "[1812561575665883722021923067569670469292.9731243084 +/- 2.79e-11]"
+      },
+      "unchanged_complete_cross_mean_momentum_and_ordering": {
+        "ball": "[21456937361949892432454580861933.605908508926665212 +/- 4.75e-19]",
+        "lower": "[21456937361949892432454580861933.605908508926665212 +/- 4.75e-19]",
+        "upper": "[21456937361949892432454580861933.605908508926665212 +/- 4.75e-19]"
+      },
+      "full_strict_four_thirds": {
+        "ball": "[1812561597122821083971815500024251331226.5790328173 +/- 1.16e-12]",
+        "lower": "[1812561597122821083971815500024251331226.5790328173 +/- 1.16e-12]",
+        "upper": "[1812561597122821083971815500024251331226.5790328173 +/- 1.16e-12]"
+      },
+      "previous_full_strict_four_thirds": {
+        "ball": "[2.1217244791061610007431179496094859631675588427469e+63 +/- 4.87e+13]",
+        "lower": "[2.1217244791061610007431179496094859631675588427469e+63 +/- 4.87e+13]",
+        "upper": "[2.1217244791061610007431179496094859631675588427469e+63 +/- 4.87e+13]"
+      }
+    }
+  ],
+  "full_negative_near_endpoint_raw_base_columns": {
+    "strict_core": {
+      "ball": "[11479074226404340632391774994356387585457.547492776 +/- 4.38e-10]",
+      "lower": "[11479074226404340632391774994356387585457.547492776 +/- 4.38e-10]",
+      "upper": "[11479074226404340632391774994356387585457.547492776 +/- 4.38e-10]"
+    },
+    "either_canonical_root": {
+      "ball": "[639305582593777996386901679198329763767.64170937063 +/- 1.04e-12]",
+      "lower": "[639305582593777996386901679198329763767.64170937063 +/- 1.04e-12]",
+      "upper": "[639305582593777996386901679198329763767.64170937063 +/- 1.04e-12]"
+    },
+    "either_tilted_graph": {
+      "ball": "[76247853594741104978058234655.390421925393920845078 +/- 2.92e-22]",
+      "lower": "[76247853594741104978058234655.390421925393920845078 +/- 2.92e-22]",
+      "upper": "[76247853594741104978058234655.390421925393920845078 +/- 2.92e-22]"
+    }
+  },
+  "full_negative_near_endpoint_raw_HN1_columns": {
+    "strict_core": {
+      "ball": "[3251521162355247979063099439299234810947467527.5838 +/- 5.68e-7]",
+      "lower": "[3251521162355247979063099439299234810947467527.5838 +/- 5.68e-7]",
+      "upper": "[3251521162355247979063099439299234810947467527.5838 +/- 5.68e-7]"
+    },
+    "either_canonical_root": {
+      "ball": "[57624850386925676307314424080237576956398.961177022 +/- 3.77e-10]",
+      "lower": "[57624850386925676307314424080237576956398.961177022 +/- 3.77e-10]",
+      "upper": "[57624850386925676307314424080237576956398.961177022 +/- 3.77e-10]"
+    },
+    "either_tilted_graph": {
+      "ball": "[6872724523841709057430541068618.2672992710401673204 +/- 1.92e-20]",
+      "lower": "[6872724523841709057430541068618.2672992710401673204 +/- 1.92e-20]",
+      "upper": "[6872724523841709057430541068618.2672992710401673204 +/- 1.92e-20]"
+    }
+  },
+  "full_negative_original_affine_base_columns": {
+    "strict_core": {
+      "ball": "[16233862454468462776694639401596359189686.241781783 +/- 3.26e-10]",
+      "lower": "[16233862454468462776694639401596359189686.241781783 +/- 3.26e-10]",
+      "upper": "[16233862454468462776694639401596359189686.241781783 +/- 3.26e-10]"
+    },
+    "either_canonical_root": {
+      "ball": "[904114625404953726844560996835909792791.70829516767 +/- 3.74e-12]",
+      "lower": "[904114625404953726844560996835909792791.70829516767 +/- 3.74e-12]",
+      "upper": "[904114625404953726844560996835909792791.70829516767 +/- 3.74e-12]"
+    },
+    "either_tilted_graph": {
+      "ball": "[107830748655521019196789617456.88904505143080048931 +/- 2.55e-23]",
+      "lower": "[107830748655521019196789617456.88904505143080048931 +/- 2.55e-23]",
+      "upper": "[107830748655521019196789617456.88904505143080048931 +/- 2.55e-23]"
+    },
+    "negative_five_space_direct_sum": {
+      "ball": "[16284137579323723653931030410283536154608.701191725 +/- 3.85e-10]",
+      "lower": "[16284137579323723653931030410283536154608.701191725 +/- 3.85e-10]",
+      "upper": "[16284137579323723653931030410283536154608.701191725 +/- 3.85e-10]"
+    }
+  },
+  "complete_base_physical_source_units": {
+    "strict_core": "L1(dr; H_N^(-1/2)) of the original physical scalar, x=4theta",
+    "either_canonical_root": "L1(dxi; H_N^(-1/3)) of the exact canonical scalar on the same permitted extension",
+    "either_tilted_graph": "L1(dt; H_N^(-1/2)) of f_t=(L-chi)*f_c/q on that same extension"
+  },
+  "complete_stronger_physical_source_units": {
+    "strict_core": "L1(dr; H_N^(1/2)) of the original physical scalar source, normalized physical angle x=4theta",
+    "either_canonical_root": "L1(dxi; H_N^(2/3)) of the exact canonical ordinary source on the same valid extension",
+    "either_tilted_graph": "L1(dt; H_N^(1/2)) of the corresponding exact density f_t=(L-chi)*f_c/q on that same extension",
+    "paired_positive_local_ordinary": "paired l2 norm of physical-measure L2(dy; H_phi^(1/3)) canonical collar scalars",
+    "paired_positive_local_weak": "paired l2 norm of (F_y,F_phi/sqrt(y)) in physical-measure L2(dy;(H_phi^1)^2), with the original weak load convention",
+    "two_independent_physical_regular_fluxes": "Euclidean norm of the two independent physical normalized scalar regular fluxes"
+  },
+  "source_partition": "f=f*1_(r<0)+f*1_(r>=0); their L1 radial norms sum exactly to the original whole-core norm",
+  "exact_source_reflection": "the exact physical radial reflection preserves theta and the full canonical root angle; inward conormal and the complete branch permutation are retained",
+  "original_mean_matrices_both_regular_ports_and_every_head_path_retained": true,
+  "exact_actual_scattering_is_still_onto_unitary": true,
+  "full_returned_Rstar_recomputed": false,
+  "finite_head_inverse_proved": false,
+  "full_feedback_inverse_proved": false,
+  "new_nu_body_or_deep_tail_transfer_proved": false,
+  "dependencies": {
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "fourfold_phase_root_fourier_fit.py": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604",
+    "fourfold_negative_collar_root_fourier_budget.py": "08866307bf0de20183db15387f16ec0f2f3a65d67bfec6e9229b27a65a902b9b",
+    "fourfold_negative_canonical_cancellation_chart.py": "650ceef0ea91bdf5f4ef86d114fb6dc412bef3a0b4b915910135357967ec0c8d",
+    "fourfold_negative_root_physical_graph_operator.py": "9d3e2560be9dabc5714908ea02ab8c479cea9631a889b71ebba77358bfb1831c",
+    "fourfold_actual_relative_ray_real_jets.py": "a61e81df8e810c2f5f5afc92b22c7936e73485704c84554271e6f90aca6b18f8",
+    "fourfold_strict_windowed_density_R46.py": "79dc3d8628fa34030d3310abfb73bcbbf928e49b3958c6720abfded8f299b96d"
+  },
+  "gates": [
+    {
+      "name": "both full physical first higher Cauchy and source constants improve",
+      "passed": true
+    },
+    {
+      "name": "both actual complete strong windows improve",
+      "passed": true
+    },
+    {
+      "name": "the actual complete scattering error improves",
+      "passed": true
+    },
+    {
+      "name": "the strict ordinary base and H1 raw columns improve",
+      "passed": true
+    }
+  ],
+  "seconds": 2.479433724001865
+}

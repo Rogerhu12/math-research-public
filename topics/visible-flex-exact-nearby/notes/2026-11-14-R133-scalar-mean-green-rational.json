@@ -1,0 +1,137 @@
+{
+  "kind": "actual_final_scalar_mean_green_and_residual_sensitive_nu_cancellation",
+  "complete": true,
+  "executed": true,
+  "arithmetic": "Exact BigInt rational identities and existing actual endpoint constants; no full native body propagation.",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "actual_full_radial_mean_integration_performed": false,
+  "actual_mean_jump_log_sum_computed": false,
+  "actual_body_complement_inverse_proved": false,
+  "actual_nu_scalar_nonzero_certified": false,
+  "all_even_mean_and_independent_outer_inputs_retained": true,
+  "artificial_scalar_jet_test": {
+    "actual_candidate_native": false,
+    "mean_residual": "155676801/620000000",
+    "tau": "121/50",
+    "reference_n": "121/144"
+  },
+  "endpoint_bounds": {
+    "waist_radius_lower": "53436641/50000000",
+    "waist_mean_abs_upper": "107/100",
+    "R_radius_upper": "7/1000000",
+    "R_mean_abs_lower": "29/5"
+  },
+  "endpoint_prefactors_must_multiply_exp_of_actual_diagonal_and_jump_budget": {
+    "raw_outer_z_to_waist_z": "0.0000000000002693550606381354413304182871",
+    "physical_outer_delta_Cmean_to_waist_z": "0.0000000000090611042398668762463552711766",
+    "cap_DZ_mean_to_waist_z": "0.0000000000000000066805872439566822792901",
+    "independent_fB_dotH2_mean_to_waist_z": "0.0000000000000000007422874621090718575354"
+  },
+  "unknown_remaining_factor": "exp(integral(max(0,-ctilde)) + 3*sum(abs(exact_mean_jump)/actual_two_sided_mean_gap)); full original radial span",
+  "gate_count": 23,
+  "gates": [
+    {
+      "name": "nonlinear transformed mean residual is exactly tau times R0",
+      "passed": true
+    },
+    {
+      "name": "test mean transformation is positive",
+      "passed": true,
+      "strict_margin_lower": "2.4200000000000000000000000000000000000000"
+    },
+    {
+      "name": "test residual is genuinely nonzero",
+      "passed": true,
+      "strict_margin_lower": "0.2510916145161290322580645161290322580645"
+    },
+    {
+      "name": "full mean linearization keeps the exact residual-sensitive coefficient",
+      "passed": true
+    },
+    {
+      "name": "mean Green diagonal identity on every smooth piece",
+      "passed": true
+    },
+    {
+      "name": "true rotational nref derivative",
+      "passed": true
+    },
+    {
+      "name": "compact reference parameter derivative eliminates the entire large radial source",
+      "passed": true
+    },
+    {
+      "name": "complete transformed nu mean source",
+      "passed": true
+    },
+    {
+      "name": "reference-subtracted nu mean retains nonmean and residual terms",
+      "passed": true
+    },
+    {
+      "name": "cancelled exact normalized mean residual",
+      "passed": true
+    },
+    {
+      "name": "normalized n minus nref explicit nu column",
+      "passed": true
+    },
+    {
+      "name": "exact multiplicative mean interface and additive physical jump",
+      "passed": true
+    },
+    {
+      "name": "reference-subtracted transformed nu interface is not deleted",
+      "passed": true
+    },
+    {
+      "name": "exact nonlinear n jump",
+      "passed": true
+    },
+    {
+      "name": "backward Green jump factor is actual mean ratio cubed",
+      "passed": true
+    },
+    {
+      "name": "all interface conversion factors are positive",
+      "passed": true,
+      "strict_margin_lower": "1.3717421124828532235939643347050754458161"
+    },
+    {
+      "name": "published whole-waist mean upper is below the chosen bound",
+      "passed": true,
+      "strict_margin_lower": "0.0012661590000061310000000000000000000000"
+    },
+    {
+      "name": "actual waist a0 exceeds one",
+      "passed": true,
+      "strict_margin_lower": "0.0687328200000000000000000000000000000000"
+    },
+    {
+      "name": "actual endpoint mean gap exceeds five",
+      "passed": true,
+      "strict_margin_lower": "0.8000000000000000000000000000000000000000"
+    },
+    {
+      "name": "raw outer mean to waist prefactor below three e minus thirteen",
+      "passed": true,
+      "strict_margin_lower": "0.0000000000000306449393618645586695817129"
+    },
+    {
+      "name": "physical outer C mean to waist prefactor below one e minus eleven",
+      "passed": true,
+      "strict_margin_lower": "0.0000000000009388957601331237536447288234"
+    },
+    {
+      "name": "actual nonlinear cap mean Z-column prefactor below seven e minus eighteen",
+      "passed": true,
+      "strict_margin_lower": "0.0000000000000000003194127560433177207099"
+    },
+    {
+      "name": "independent far-height mean column prefactor below eight e minus nineteen",
+      "passed": true,
+      "strict_margin_lower": "0.0000000000000000000577125378909281424646"
+    }
+  ],
+  "producer_sha256": "396ac1279242c6bfc4706225b28f26c0b58ea425647164a9ee4279487bbd4635"
+}

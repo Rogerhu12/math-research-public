@@ -1,0 +1,19 @@
+{
+  "kind": "observed_complete_cap_cut_QR_process_exit",
+  "observed_session": 84317,
+  "actual_exit_code": 137,
+  "actual_exit_message": "bash Killed",
+  "actual_exit_cause": null,
+  "original_process_status": "started",
+  "original_process_sha256": "4ce7e464eb14fad1b3adf8d7b61c3e9a26e1234bb9039e012a87f6ca2f2cd5b9",
+  "original_process_record_unmodified": true,
+  "original_log_sha256": "2d33ee462833ec8953dbbd4029503fef02b2ecfe838cde22689fcc117d642ffa",
+  "new_accepted_checkpoints": [],
+  "final_floating_report_exists": false,
+  "last_observed_stage": "complete full checkpoint QR factorization; no completed checked linear solve",
+  "last_known_radial_nodes": 1343,
+  "state_dimension": 513,
+  "complete_initial_factorization_seconds": 579.5709435649987,
+  "original_final_boundary_condition_2": 26.760704827248837,
+  "full_backward_residual_gate_changed": false
+}

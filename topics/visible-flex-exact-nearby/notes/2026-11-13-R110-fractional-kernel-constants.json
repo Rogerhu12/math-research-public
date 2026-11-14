@@ -1,0 +1,89 @@
+{
+  "kind": "R110_complete_periodic_fractional_kernel_rational_constants",
+  "complete": true,
+  "arithmetic": "exact reduced BigInt; comparisons cross-multiply integers",
+  "pi_enclosure": {
+    "lower": {
+      "exact": "1032153801479908028/328544769287109375",
+      "approximate": 3.141592555923261
+    },
+    "upper": {
+      "exact": "5011401025815631177877816/1595178490148162841796875",
+      "approximate": 3.141592653590862
+    },
+    "identity": "pi=16 atan(1/5)-4 atan(1/239)",
+    "lower_terms": [
+      8,
+      1
+    ],
+    "upper_terms": [
+      9,
+      2
+    ],
+    "justification": "alternating Taylor sums; positive even truncations are lower, positive odd truncations are upper"
+  },
+  "universal_coefficients": {
+    "zero_order_radical": {
+      "exact_formula": "4/sqrt(pi)",
+      "strict_rational_upper": {
+        "exact": "113/50",
+        "approximate": 2.26
+      }
+    },
+    "signed_remainder_radical": {
+      "exact_formula": "6/sqrt(2*pi)",
+      "strict_rational_upper": {
+        "exact": "12/5",
+        "approximate": 2.4
+      }
+    },
+    "exact_zero_mode_derivative_coefficient": {
+      "exact": "3/2",
+      "approximate": 1.5
+    }
+  },
+  "gates": [
+    {
+      "name": "Machin lower sum positive",
+      "passed": true
+    },
+    {
+      "name": "Machin lower below upper",
+      "passed": true
+    },
+    {
+      "name": "pi lower above 25/8",
+      "passed": true
+    },
+    {
+      "name": "pi upper below 22/7",
+      "passed": true
+    },
+    {
+      "name": "4/sqrt(pi) strictly below 113/50",
+      "passed": true
+    },
+    {
+      "name": "6/sqrt(2*pi) strictly below 12/5",
+      "passed": true
+    }
+  ],
+  "contract": {
+    "physical_derivative": "Dtheta with Fourier frequencies 4k; J=max(1,|4k|)^1/2",
+    "zero_order": "||[J,a]|| <= O+(4/sqrt(pi))*sqrt(O*||Da||infty)",
+    "signed_remainder": "||D[J,a]-(Da)J/2|| <= (6/sqrt(2*pi))*sqrt(||Da||infty*||D2a||infty)+(3/2)||Da||infty",
+    "oscillation": "O bounds ||a-a_c||infty for one actual constant; a_c need not be the mean",
+    "full_mean": true,
+    "full_frequency": true,
+    "not_a_computed_actual_core_rate": true
+  },
+  "provenance": {
+    "source": "scripts/fourfold_fractional_kernel_budget_exact.mjs",
+    "source_sha256": "001b996d24e009fe35d5fed51851ee06fe810bd774c764a04a93a7fb812d980a",
+    "native_consumer": "scripts/fourfold_phase_strict_core_kernel_tame_energy.py",
+    "native_consumer_sha256": "bcd08a50d1e934b70caa2c19dc90e7bd887513bf06f4c1bdc3fa73320b609ca7",
+    "proof": "results/R110-complete-periodic-kernel-tame-bounds.md",
+    "proof_sha256": "e126c2b0beaafcefd4585088e80471d8784f3460a5a675fece271a953ad327a2",
+    "execution": "The identical pure computeKernelConstantBudget function was executed in V8; native consumer and Node file-I/O wrapper have not run."
+  }
+}

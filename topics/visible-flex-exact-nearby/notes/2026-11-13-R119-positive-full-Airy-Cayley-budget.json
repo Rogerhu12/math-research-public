@@ -1,0 +1,280 @@
+{
+  "kind": "R119-actual-complete-positive-DN-Airy-Cayley-source-v1",
+  "status": "proved",
+  "arithmetic": "exact rational and symbolic full two-end identities; Arb256 actual prefix and deep powers",
+  "scope": "all modes, both positive endpoints, both means, genuine KAM end angles, full ordinary and weak affine source",
+  "norm_scope": "same Hs for abs(s)<=4 in complete regularized canonical root Airy balance",
+  "all_checks_pass": true,
+  "check_count": 44,
+  "checks": [
+    {
+      "name": "actual_positive_optical_jump_new_profile",
+      "pass": true,
+      "evidence": "The new first upward jump contains128 log2 and remains inside the actual optical-length gate"
+    },
+    {
+      "name": "actual_KAM_endpoint_original_units",
+      "pass": true,
+      "evidence": "Both original KAM normalization factors, gammaD=kappa/64, actual inverse kappa and a<=2X"
+    },
+    {
+      "name": "actual_neighbor_endpoint_envelope",
+      "pass": true,
+      "evidence": "Adjacent delta powers and row polynomial factors are covered while every N_r is kept"
+    },
+    {
+      "name": "actual_drift_and_two_endpoint_inverse_composition",
+      "pass": true,
+      "evidence": "The full real drift and exact inverse maps are paid before optical interpolation"
+    },
+    {
+      "name": "actual_complete_optical_form_fee",
+      "pass": true,
+      "evidence": "The entire weighted2x2 form, optical L^-1 and both endpoint maps are retained"
+    },
+    {
+      "name": "actual_all_adjacent_cells_count",
+      "pass": true,
+      "evidence": "All five neighboring N_r terms, their exact delta ratios and polynomial weights are included"
+    },
+    {
+      "name": "actual_full_positive_prefix_plus_deep_sum",
+      "pass": true,
+      "evidence": "Both positive components and the complete actual finite prefix and geometric deep tail"
+    },
+    {
+      "name": "actual_positive_N_budget_129",
+      "pass": true,
+      "evidence": {
+        "log2_interval": "[182.275201585142824211804014465225590755180 +/- 3.98e-40]",
+        "identity": "actual mu,zeta,h and both global seam factors"
+      }
+    },
+    {
+      "name": "actual_positive_N_budget_130",
+      "pass": true,
+      "evidence": {
+        "log2_interval": "[182.047148897704607431427054233184943568193 +/- 1.50e-40]",
+        "identity": "actual mu,zeta,h and both global seam factors"
+      }
+    },
+    {
+      "name": "actual_positive_N_budget_4096",
+      "pass": true,
+      "evidence": {
+        "log2_interval": "[-799.539899911388811120862744692827269364459 +/- 8.56e-41]",
+        "identity": "actual mu,zeta,h and both global seam factors"
+      }
+    },
+    {
+      "name": "actual_positive_N_budget_4097",
+      "pass": true,
+      "evidence": {
+        "log2_interval": "[-753.568151525429626365154021754980280503917 +/- 3.76e-40]",
+        "identity": "actual mu,zeta,h and both global seam factors"
+      }
+    },
+    {
+      "name": "actual_positive_N_budget_4098",
+      "pass": true,
+      "evidence": {
+        "log2_interval": "[-755.297916435746044956991072637431582112153 +/- 3.01e-40]",
+        "identity": "actual mu,zeta,h and both global seam factors"
+      }
+    },
+    {
+      "name": "actual_positive_N_budget_8192",
+      "pass": true,
+      "evidence": {
+        "log2_interval": "[-7837.83909071222589693896293742798804558774 +/- 2.03e-39]",
+        "identity": "actual mu,zeta,h and both global seam factors"
+      }
+    },
+    {
+      "name": "actual_positive_N_budget_8193",
+      "pass": true,
+      "evidence": {
+        "log2_interval": "[-7960.81920734919188187356820705639509459623 +/- 4.76e-39]",
+        "identity": "actual mu,zeta,h and both global seam factors"
+      }
+    },
+    {
+      "name": "actual_positive_N_budget_8194",
+      "pass": true,
+      "evidence": {
+        "log2_interval": "[-8083.79932402912206384687963318636184576955 +/- 4.99e-39]",
+        "identity": "actual mu,zeta,h and both global seam factors"
+      }
+    },
+    {
+      "name": "actual_shallow_positive_budget_monotonicity",
+      "pass": true,
+      "evidence": "[0.853786533410252802914390965552404468823069 +/- 1.18e-43]"
+    },
+    {
+      "name": "actual_middle_and_deep_positive_budget_monotonicity",
+      "pass": true,
+      "evidence": "The full actual middle and deep powers are stronger, and mixed seam rows are separately evaluated"
+    },
+    {
+      "name": "actual_full_positive_radial_sum",
+      "pass": true,
+      "evidence": "Every finite row through8193 and the complete later geometric tail are included"
+    },
+    {
+      "name": "actual_root_normal_shear_quartic_term",
+      "pass": true,
+      "evidence": "The complete g_x/g^2 term is2(14d0-1/28)/5"
+    },
+    {
+      "name": "actual_root_beta_negative",
+      "pass": true,
+      "evidence": "Every actual root has beta in(-1/28,0)"
+    },
+    {
+      "name": "actual_full_root_normal_shear",
+      "pass": true,
+      "evidence": "Both the signed true density derivative and the exact quartic root term are retained"
+    },
+    {
+      "name": "actual_reference_shear_operator",
+      "pass": true,
+      "evidence": "The full root weight is>=1 for every mode, including zero"
+    },
+    {
+      "name": "actual_complete_two_end_Cayley_identity",
+      "pass": true,
+      "evidence": "The independent off-diagonal coupling is retained in the exact2x2 relation"
+    },
+    {
+      "name": "actual_complete_two_end_Cayley_unitarity",
+      "pass": true,
+      "evidence": "Selfadjointness includes the entire mean block; no kernel is removed"
+    },
+    {
+      "name": "actual_complete_incoming_source_relation",
+      "pass": true,
+      "evidence": "The actual full boundary charge enters the same incoming equation"
+    },
+    {
+      "name": "actual_complete_outgoing_source_sign",
+      "pass": true,
+      "evidence": "The exact affine source is minus sqrt(2)(R+i)^-1 qsharp"
+    },
+    {
+      "name": "actual_real_form_to_Cayley_fee",
+      "pass": true,
+      "evidence": "Both complete resolvents with their P0 half-powers are paid"
+    },
+    {
+      "name": "actual_reference_double_form_resolvent",
+      "pass": true,
+      "evidence": "The bounded true normal shear is inserted in the exact positive-operator resolvent"
+    },
+    {
+      "name": "actual_complex_form_Neumann_margin",
+      "pass": true,
+      "evidence": "The actual complex-angle DN difference has relative norm<=2epsilon"
+    },
+    {
+      "name": "actual_complex_Cayley_difference_fee",
+      "pass": true,
+      "evidence": "The complex form correction retains both half-power resolvents and its full inverse"
+    },
+    {
+      "name": "actual_all_Sobolev_commutator_fee",
+      "pass": true,
+      "evidence": {
+        "sixth_order_complete_sum": 213874609,
+        "dual_and_interpolation": "both signs of i use the same real reference"
+      }
+    },
+    {
+      "name": "actual_root_fractional_weight_multiplier_fee",
+      "pass": true,
+      "evidence": {
+        "full_weighted_polynomial_sum": 4455721,
+        "weight": "W_m/W_n <= (1+|m-n|)^(1/3), all m,n including zero"
+      }
+    },
+    {
+      "name": "actual_real_root_full_frame_budget",
+      "pass": true,
+      "evidence": "Both root density multipliers and the complete normal/shear row are retained"
+    },
+    {
+      "name": "actual_full_root_frame_symplectic",
+      "pass": true,
+      "evidence": "Height multiplication, inverse density multiplication and the complete lower shear occur together"
+    },
+    {
+      "name": "actual_full_root_weighted_frame_identity",
+      "pass": true,
+      "evidence": "The full displayed frame converts both actual Airy traces with the correct normal-shear sign"
+    },
+    {
+      "name": "actual_Cayley_frame_full_inverse_fee",
+      "pass": true,
+      "evidence": "Incoming/outgoing mixing is inverted as a full block; no endpoint row is discarded"
+    },
+    {
+      "name": "actual_all_endpoint_frame_sum",
+      "pass": true,
+      "evidence": "All neighboring negative components, both endpoints and actual kappa factors enter the sum"
+    },
+    {
+      "name": "actual_complete_positive_Airy_global_fee",
+      "pass": true,
+      "evidence": "Both full DN and complete root-frame differences are summed"
+    },
+    {
+      "name": "actual_complete_positive_Airy_working_margin",
+      "pass": true,
+      "evidence": "The actual existing working X contract pays all complete positive blocks"
+    },
+    {
+      "name": "actual_complete_form_dual_source_resolvent",
+      "pass": true,
+      "evidence": "The source is in the full(P0+I) form dual, including its nonzero mean charge"
+    },
+    {
+      "name": "actual_complete_complex_source_resolvent",
+      "pass": true,
+      "evidence": "Complex Poisson lift and full form resolvent use the same fixed source norm; no source analyticity is assumed"
+    },
+    {
+      "name": "actual_complete_source_Sobolev_fee",
+      "pass": true,
+      "evidence": "The full source operator family uses all commutators through six and both dual windows"
+    },
+    {
+      "name": "actual_physical_ordinary_source_composition",
+      "pass": true,
+      "evidence": "True C6 angular composition, full Jacobian and the J D^-3/2 multiplier retain w_ref squared"
+    },
+    {
+      "name": "actual_complete_weak_Piola_source",
+      "pass": true,
+      "evidence": "The entire angle-time Jacobian acts on both weak components; endpoint normal traces remain separate"
+    }
+  ],
+  "actual_N_budget_rows": {
+    "129": "[182.275201585142824211804014465225590755180 +/- 3.98e-40]",
+    "130": "[182.047148897704607431427054233184943568193 +/- 1.50e-40]",
+    "4096": "[-799.539899911388811120862744692827269364459 +/- 8.56e-41]",
+    "4097": "[-753.568151525429626365154021754980280503917 +/- 3.76e-40]",
+    "4098": "[-755.297916435746044956991072637431582112153 +/- 3.01e-40]",
+    "8192": "[-7837.83909071222589693896293742798804558774 +/- 2.03e-39]",
+    "8193": "[-7960.81920734919188187356820705639509459623 +/- 4.76e-39]",
+    "8194": "[-8083.79932402912206384687963318636184576955 +/- 4.99e-39]"
+  },
+  "file_sha256": {
+    "results/R119-supplement-actual-positive-DN-to-full-Airy-Cayley-and-sources.md": "6ca70b578531fd77edbc65cfe0f04f1859182c19b2e43446069c8a5ef0f5ca88",
+    "scripts/fourfold_positive_full_Airy_Cayley_20261113.py": "ed818fb87ba8ed763f152e336bdec7f252460193a1480761944a9dc00169cb15",
+    "results/R119-supplement-KAM-selected-fixed-reference-and-exact-endpoint-phases.md": "004b9210a856807beb0aeeac62538e8f269eaa1b3872e3282d7cfa728ac0f82d",
+    "results/R119-supplement-stronger-tail-joint-actual-return-KAM.md": "143a213914c048141b0c42f72120b903b15fde66fa31234a37196d4c5b6ebc54",
+    "results/R119-supplement-actual-joint-analytic-root-and-relative-Airy-Cauchy.md": "6f12b6a6a79bdff8deb26e9092e46ab08463e19064912d518d50c981e592741a",
+    "results/R119-supplement-actual-positive-band-two-end-dn-and-ordinary-source.md": "501f0813575c071d1586b412873ae2c43022a955c04d870f41d21c448ce38484",
+    "results/R119-supplement-stronger-deep-first-shear-and-complete-local-map.md": "4aaef72754b7c5b60c43cd17520814025dfcd033e2a9eb94842de661b24199ab"
+  }
+}

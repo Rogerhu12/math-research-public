@@ -1,0 +1,78 @@
+{
+  "kind": "R106_exact_extraction_of_saved_full_angle_beta_moduli",
+  "complete": true,
+  "geometry_recomputed": false,
+  "source_sha256": "5f905b4257e2e968623d87a8315ed035e4b1df37664cef1a407b459e5e0f7f3e",
+  "inputs": {
+    "point": {
+      "path": "notes/2026-11-12-beta-exact-affine-step3-complete-enclosure.json",
+      "sha256": "179c58121f284ea16c2522e4e3f1493f109f857d37be5de60cf445bbe8750680"
+    },
+    "derivative": {
+      "path": "notes/2026-11-12-beta-derivative-independent-cover-and-transfer-audit.json",
+      "sha256": "1047f423a77d07aa14093b17fcf28376243857d8bf738b5d62f65f0f3dea7923"
+    },
+    "derivative_full": {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-complete-transfer-h1e5.json",
+      "sha256": "9d64d4ba9993febcc4e8bf387ea0503672ce968cb6674bdb1fab5fb70a8cbeb8"
+    },
+    "ray": {
+      "path": "notes/2026-11-12-R106-actual-all-time-ray-tube.json",
+      "sha256": "6463e62641b9187045016c63ee633816676a75baf941ea01375a6ae36f1a1863"
+    }
+  },
+  "old_center_parameter": "-7832869216826619/4611686018427387904",
+  "current_center_parameter": "-7789843107295549/4611686018427387904",
+  "current_parameter_half_width": "1/1000000000",
+  "actual_origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "actual_direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "positive_strict_interval": [
+    "1/1048576",
+    "268136140016943/1125899906842624"
+  ],
+  "physical_complex_strip_at_old_center": "1/200",
+  "selected_original_spans": 167,
+  "selected_subcells": 257,
+  "old_center_complex_strict_integrated_modulus": {
+    "exact_upper": "115932828694929434880983078391013753475491485746134804888364693/1844674407370955161600000000000000000000000000000000000000",
+    "approximate_only": 62847.31236671616
+  },
+  "old_center_real_waist_integrated_modulus": {
+    "exact_upper": "15171329381408034109313121007289737463/2097152000000000000000000000000000000000000",
+    "approximate_only": 7.234253588394181e-06
+  },
+  "current_real_parameter_movement": {
+    "exact_upper": "42022188688562917371/4503599627370496000000000",
+    "approximate_only": 9.330800285437073e-06
+  },
+  "true_fixed_r_density_derivative_real_integrated_bound": {
+    "exact_upper": "62452383022873958206457557368274120807721140820958946717042155048871014608061/28269553036454149273332760011886696253239742350009903329945699220681916416",
+    "approximate_only": 2209.174759230907
+  },
+  "real_parameter_transfer_fee": {
+    "exact_upper": "2624385823437612823057106777211142772906195293757374865137338576698696088050228555875240293527631/127314748520905380391777855525586135065716774604121015664758778084648831235208544136462336000000000",
+    "approximate_only": 0.020613368474012125
+  },
+  "current_real_positive_bulk_integrated_modulus": {
+    "exact_upper": "1490375473069046686318380057796480575600544301022205531789721680587225366629444343094210525861759611606059029198948139330619/23714219875802356822747337729779283528349692859523187515280913204820608950258892800000000000000000000000000000000000000",
+    "approximate_only": 62847.332987318885
+  },
+  "current_real_signed_primary_integral_absolute_upper_on_minus_cut_to_cut": {
+    "exact_upper": "12256354576238254093829186211519125618668352551442979943407648703273067043564195931529223181003050803416787850593484646020892221111/185267342779705912677713576013900652565231975465024902463132134412661007423897600000000000000000000000000000000000000000000000",
+    "approximate_only": 66154.96499462295
+  },
+  "new_center_complex_strip_proved": false,
+  "angular_divergence_and_endpoint_paid": false,
+  "root_finite_parts_paid": false,
+  "complete_first_phase_paid": false,
+  "limitations": [
+    "The old complex-angle modulus is from true angular_domain, not the mean integral.",
+    "The true derivative cover controls real angles only; it does not transfer the old complex strip.",
+    "The real strict-primary bound uses true J and exact reflection, with the R106 one-half factor.",
+    "No full phase, Sobolev multiplier norm, root finite part or full PDE inverse is claimed."
+  ],
+  "full_report": {
+    "path": "data/R106/recovered_20261113_phase_inverse/saved_bulk_moduli.json.gz",
+    "sha256": "5f8ead1a783632d5a942403405cb42bf7d957a3d7a7847c85d138f63b240053e"
+  }
+}

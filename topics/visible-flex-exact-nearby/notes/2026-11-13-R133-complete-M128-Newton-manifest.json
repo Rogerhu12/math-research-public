@@ -1,0 +1,606 @@
+{
+  "kind": "R133_complete_M128_finite_Newton_resource_recovery_and_preserved_failures",
+  "certified": false,
+  "actual_finite_BVP_success": true,
+  "exact_interval": [
+    "0",
+    "25/8"
+  ],
+  "modes": 128,
+  "physical_frequency_factor": 4,
+  "final_radial_nodes": 651,
+  "original_target_fixed": false,
+  "whole_affine_parameter_interval": false,
+  "whole_real_angular_circle_certified": false,
+  "source_identity_checks_passed": true,
+  "files": [
+    {
+      "path": "notes/2026-11-13-R133-chunked-collocation-directional-audit.json",
+      "sha256": "99fab92e7d0dd049fa5fcd934567533365575e6db82feb74d46753340c97bb7c",
+      "bytes": 1626
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-m128-exit137-audit.json",
+      "sha256": "0c38742973b3037057a7868086c92d731b6a6f1a4928f11138ca9c756d34acb2",
+      "bytes": 1615
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-m128-v3-exit137-audit.json",
+      "sha256": "5b7681bb08f88f1e3a734c19e1a348b0d2aceac077d502bd3b095667c220bf95",
+      "bytes": 1819
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-m128-v4-exit137-audit.json",
+      "sha256": "43613cc12ff9847a217b83152322b953ae7850a9332f0013cbbd613950d5f5c6",
+      "bytes": 1875
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-m128-v5-band16-exit137-audit.json",
+      "sha256": "68ea38c33c27fb39a5059456e521a01af94771033a5099f5fa83fe396a46dbce",
+      "bytes": 1587
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-m128-v5-stride2-exit137-audit.json",
+      "sha256": "85503965ebf07bfbc5b282776d3cf4667cd34f88a087dc7217ca35079c514106",
+      "bytes": 2159
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-m128-v6-exit137-audit.json",
+      "sha256": "46b2c883a6feccc7ecf2290226a8860c08517d9b2fdd71524e9ba550246e68a6",
+      "bytes": 1236
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-b4-v5-candidate-part000.npz.gz",
+      "sha256": "a847f0002e664ee453251b865c3ff9fdd9fc375540a4e0ff45959bb9c63dbf4a",
+      "bytes": 2707771
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-b4-v5-candidate-part001.npz.gz",
+      "sha256": "28af124ecad6d29f7036b52869dc572da1362c5b5d7f432c2e878af8d612fbca",
+      "bytes": 2715782
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-b4-v5-candidate-part002.npz.gz",
+      "sha256": "1d00bf9954811924a5334bae5c9a81cb91f6553eb02c25cd2f9d92d88e0a8af7",
+      "bytes": 1580264
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-b4-v5-candidate.json",
+      "sha256": "59326f96bd1880b565835be6b2cfe1df5364d846bc1f9963c8e1b0924796fa17",
+      "bytes": 7156
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-b4-v5-floating.json",
+      "sha256": "6df70a03fc35acacd62efac017d03bc3eba9d0d2560c86a8d9adad86afacd6a9",
+      "bytes": 23914
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-bounded-v7-b4-candidate-part000.npz.gz",
+      "sha256": "afc95d16bde3c10af763d21b8e7862399c179f2aef7ea2eb131235f95f067f72",
+      "bytes": 2719395
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-bounded-v7-b4-candidate-part001.npz.gz",
+      "sha256": "3875a64597341dcfc50ff4648d7d94a0668470a844a7cfad049915edc5150b14",
+      "bytes": 2476940
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-bounded-v7-b4-candidate.json",
+      "sha256": "4f19203308f8d95cb65f90d52c75edb7f476307698138be37efe7e305bde3e14",
+      "bytes": 6835
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-bounded-v7-b4-floating.json",
+      "sha256": "5001d4c110bd402f0d500b86670ad81e7d5f072adaa46a1e10644753de2e9754",
+      "bytes": 32418
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-v6-b2-n1024-candidate-part000.npz.gz",
+      "sha256": "7ed1fb63ad8f52f71f64dcc4ac628ffbfc4ffd6dacf6bce3f136a5a50c5bb4fe",
+      "bytes": 2392639
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-v6-b2-n1024-candidate-part001.npz.gz",
+      "sha256": "825e76b5d08a3a69dddda2f1a52a1c046bcb4fc506891c78a42000a9f0564015",
+      "bytes": 693075
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-v6-b2-n1024-candidate.json",
+      "sha256": "9ae67bb4514cf74b32c58d33c556146d98298095e6f838018bd129ea23ca41f7",
+      "bytes": 5589
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-v6-b2-n1024-floating.json",
+      "sha256": "2200a575894cfcf66f46e48705422ca08b0048288a86f6b76541324dedff0235",
+      "bytes": 29382
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-v7-b8-n1024-candidate-part000.npz.gz",
+      "sha256": "2090327ae559b718e483567d8a9a9ce227aa06873c7ac2e9a6bc724bc1f08351",
+      "bytes": 2714810
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-v7-b8-n1024-candidate-part001.npz.gz",
+      "sha256": "d211622f80a63a529bff852fd01af7ee448b0607baedf5c23f89920f1f150e75",
+      "bytes": 789745
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-v7-b8-n1024-candidate.json",
+      "sha256": "15952f4245b7c4214f58f32a68ca64a875caa7a23d3c0b3b8d7c11321db349c6",
+      "bytes": 6840
+    },
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m128-v7-b8-n1024-floating.json",
+      "sha256": "209f30a8d3ab4233e209eef5d31a5d25a4f41dc0edbdc58030305596d7489d88",
+      "bytes": 25711
+    },
+    {
+      "path": "notes/2026-11-13-R133-complete-M128-Newton-and-resource-recovery.md",
+      "sha256": "6d76be61ff8e444be9618606f7249a95a5563c3a40a9e4ff50b1c369acc9b285",
+      "bytes": 10460
+    },
+    {
+      "path": "notes/2026-11-13-R133-fast-Fourier-Jacobian-audit.json",
+      "sha256": "415f0649a11ba775c05dc91dc1f3c26a540dcd9a2e687bd8939d7cfabdcdb5f2",
+      "bytes": 1323
+    },
+    {
+      "path": "notes/2026-11-13-R133-full-FFT-matrix-free-collocation-audit.json",
+      "sha256": "fd492150ab912a9676f3a29acf6b22c1668123f456bd3c600aef730626574b6c",
+      "bytes": 3358
+    },
+    {
+      "path": "notes/2026-11-13-R133-full-matrix-free-collocation-audit.json",
+      "sha256": "5d8606a460de9931bb2deab152d7ce861d5aa2bb4f569f888c96d92409a4ef86",
+      "bytes": 3299
+    },
+    {
+      "path": "notes/2026-11-13-R133-m128-Jacobian-band-floating.json",
+      "sha256": "1a3fd19ea8b2e84b0256f9e4174b7212571b5507ba3f48f9bcd7a78ef6410ca9",
+      "bytes": 2453
+    },
+    {
+      "path": "notes/2026-11-13-R133-m128-accepted-bounded-v7-b4-000.npz.gz",
+      "sha256": "61cbbdec9d6a9f7b991e32d20acc001c21ab6fed5253077372d5eeba3fdd37bf",
+      "bytes": 2600502
+    },
+    {
+      "path": "notes/2026-11-13-R133-m128-accepted-bounded-v7-b4-001.npz.gz",
+      "sha256": "27f09bb34c4a7bacb05fbec673d7a64040e0d8a701ff1586fa736fb4af9b5260",
+      "bytes": 2604925
+    },
+    {
+      "path": "notes/2026-11-13-R133-m128-accepted-v7-b8-000.npz.gz",
+      "sha256": "d1eb70fa20b803e0d79a3c122676c63b0fba413d7efdbbe4842067dfcaa4f7bb",
+      "bytes": 1762279
+    },
+    {
+      "path": "notes/2026-11-13-R133-m128-bounded-v7-b4-process.json",
+      "sha256": "3241e682b6f3b34414a37367300ee6d465817dee044e64cb129cd304897577d0",
+      "bytes": 2306
+    },
+    {
+      "path": "notes/2026-11-13-R133-m128-sparse-ordering-floating.json",
+      "sha256": "aa4cab2510f5165cf85fb1a21e958ba6948a4b539b25ef8313a480affef7a767",
+      "bytes": 2908
+    },
+    {
+      "path": "scripts/fourfold_codazzi_bounded_process.py",
+      "sha256": "56a1acf4aa643678ce2cdad7d2edba72da10de464c931c60acb377e77cdd932b",
+      "bytes": 4215
+    },
+    {
+      "path": "scripts/fourfold_codazzi_chunked_collocation.py",
+      "sha256": "5b96d9298014703cf41c59a2d9466e81d523673fb659a52ca6488a03ef939a73",
+      "bytes": 4857
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v2_probe.py",
+      "sha256": "01ae3197e59e2c646811c8eb43e2434d5e556aade0a69ff4a881f86cdbfd3808",
+      "bytes": 9128
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v3_probe.py",
+      "sha256": "1fea4a5814da5e98aca14263ebb11bac30948c77a4750aa9de4ba3a0145eba58",
+      "bytes": 10427
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v4_probe.py",
+      "sha256": "852b48efa009c0229467efc1b5a31f94002f69f713f89d5ce6290b0aa133e900",
+      "bytes": 10194
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v5_probe.py",
+      "sha256": "5348a5acfda8bdb4eea580e38a7d209fa1174188d42254575122e9465c8f1704",
+      "bytes": 10316
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v6_probe.py",
+      "sha256": "fa48d5aedd5b41581ed30ac9758c4f279cef2032aa1a24e36bf02cb86c9f3e97",
+      "bytes": 12003
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v7_probe.py",
+      "sha256": "50191f3b2b3e695bc67e0ed6c93d41fc934221d26ec89f55967cbd11aaa92957",
+      "bytes": 12015
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_fast_jacobian.py",
+      "sha256": "0d82b18aaed063660f7003e36061958a327d134c67490adb7b340deddfc90c17",
+      "bytes": 2124
+    },
+    {
+      "path": "scripts/fourfold_codazzi_guarded_Newton_krylov.py",
+      "sha256": "03e466ef693694b6dc94e0f88328e842ecc435ba031572f2a83578776bf5ff9e",
+      "bytes": 4629
+    },
+    {
+      "path": "scripts/fourfold_codazzi_guarded_Newton_release.py",
+      "sha256": "d9501bac749b728e4360fd3949c20443f82e3685446673cc9705b09b2bb90efe",
+      "bytes": 4094
+    },
+    {
+      "path": "scripts/fourfold_codazzi_matrix_free_collocation.py",
+      "sha256": "dfa07b7257b5ba5dff3c7580e6a8d74f2b7302691d6391a0a66c04f4f304592e",
+      "bytes": 4501
+    },
+    {
+      "path": "scripts/fourfold_codazzi_matrix_free_collocation_audit.py",
+      "sha256": "bc23c77011d0e8a425302360dbf8e1c401e230d75c7ca754d368d8cd81f63b50",
+      "bytes": 5125
+    },
+    {
+      "path": "scripts/fourfold_codazzi_matrix_free_fft_collocation.py",
+      "sha256": "bb1095f2635ae3961b4b25ae50ae84d2007e02ca1268ffdd1b8348d4484a5600",
+      "bytes": 5235
+    },
+    {
+      "path": "scripts/fourfold_codazzi_matrix_free_fft_collocation_audit.py",
+      "sha256": "de697706db9723b7081df90e952dc15863669c8ad5323e6fb1a7b0519c3e5ff7",
+      "bytes": 5137
+    },
+    {
+      "path": "scripts/fourfold_codazzi_sparse_ordering_probe.py",
+      "sha256": "99bb30c88f47de1d6705ed5463c66fd78b1ead2017ae6597be446229599bd8f1",
+      "bytes": 4432
+    }
+  ],
+  "all_local_python_import_dependencies": [
+    {
+      "path": "scripts/fourfold_banded_normal.py",
+      "sha256": "78cb675a88b980b8660b0d768df12332328ec16736da2f842552d68574f18a66",
+      "bytes": 6253
+    },
+    {
+      "path": "scripts/fourfold_codazzi_bounded_process.py",
+      "sha256": "56a1acf4aa643678ce2cdad7d2edba72da10de464c931c60acb377e77cdd932b",
+      "bytes": 4215
+    },
+    {
+      "path": "scripts/fourfold_codazzi_candidate_shards.py",
+      "sha256": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e",
+      "bytes": 4187
+    },
+    {
+      "path": "scripts/fourfold_codazzi_chunked_collocation.py",
+      "sha256": "5b96d9298014703cf41c59a2d9466e81d523673fb659a52ca6488a03ef939a73",
+      "bytes": 4857
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_branch_probe.py",
+      "sha256": "e1692ce4e7b1090adb0aeab7414f8df32411072283cedad3d848ca4fb18ef0a4",
+      "bytes": 21153
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v2_probe.py",
+      "sha256": "01ae3197e59e2c646811c8eb43e2434d5e556aade0a69ff4a881f86cdbfd3808",
+      "bytes": 9128
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v3_probe.py",
+      "sha256": "1fea4a5814da5e98aca14263ebb11bac30948c77a4750aa9de4ba3a0145eba58",
+      "bytes": 10427
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v4_probe.py",
+      "sha256": "852b48efa009c0229467efc1b5a31f94002f69f713f89d5ce6290b0aa133e900",
+      "bytes": 10194
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v5_probe.py",
+      "sha256": "5348a5acfda8bdb4eea580e38a7d209fa1174188d42254575122e9465c8f1704",
+      "bytes": 10316
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v6_probe.py",
+      "sha256": "fa48d5aedd5b41581ed30ac9758c4f279cef2032aa1a24e36bf02cb86c9f3e97",
+      "bytes": 12003
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_branch_refine_v7_probe.py",
+      "sha256": "50191f3b2b3e695bc67e0ed6c93d41fc934221d26ec89f55967cbd11aaa92957",
+      "bytes": 12015
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_fast_jacobian.py",
+      "sha256": "0d82b18aaed063660f7003e36061958a327d134c67490adb7b340deddfc90c17",
+      "bytes": 2124
+    },
+    {
+      "path": "scripts/fourfold_codazzi_compact_metric_return_probe.py",
+      "sha256": "6b857134df75524e0fffcaa163212bfbb03c3edffee983f27cde3f9357ab9a38",
+      "bytes": 6294
+    },
+    {
+      "path": "scripts/fourfold_codazzi_guarded_Newton_krylov.py",
+      "sha256": "03e466ef693694b6dc94e0f88328e842ecc435ba031572f2a83578776bf5ff9e",
+      "bytes": 4629
+    },
+    {
+      "path": "scripts/fourfold_codazzi_guarded_Newton_release.py",
+      "sha256": "d9501bac749b728e4360fd3949c20443f82e3685446673cc9705b09b2bb90efe",
+      "bytes": 4094
+    },
+    {
+      "path": "scripts/fourfold_codazzi_matrix_free_collocation.py",
+      "sha256": "dfa07b7257b5ba5dff3c7580e6a8d74f2b7302691d6391a0a66c04f4f304592e",
+      "bytes": 4501
+    },
+    {
+      "path": "scripts/fourfold_codazzi_matrix_free_collocation_audit.py",
+      "sha256": "bc23c77011d0e8a425302360dbf8e1c401e230d75c7ca754d368d8cd81f63b50",
+      "bytes": 5125
+    },
+    {
+      "path": "scripts/fourfold_codazzi_matrix_free_fft_collocation.py",
+      "sha256": "bb1095f2635ae3961b4b25ae50ae84d2007e02ca1268ffdd1b8348d4484a5600",
+      "bytes": 5235
+    },
+    {
+      "path": "scripts/fourfold_codazzi_matrix_free_fft_collocation_audit.py",
+      "sha256": "de697706db9723b7081df90e952dc15863669c8ad5323e6fb1a7b0519c3e5ff7",
+      "bytes": 5137
+    },
+    {
+      "path": "scripts/fourfold_codazzi_rotational_cap_jacobi_probe.py",
+      "sha256": "2bfb4c8d7bca6ffe75d6496f8f9c3baa17ba5ee83045c6ca09dc475853d30114",
+      "bytes": 8314
+    },
+    {
+      "path": "scripts/fourfold_codazzi_sparse_ordering_probe.py",
+      "sha256": "99bb30c88f47de1d6705ed5463c66fd78b1ead2017ae6597be446229599bd8f1",
+      "bytes": 4432
+    },
+    {
+      "path": "scripts/fourfold_interval_scalar.py",
+      "sha256": "0400c59be86f7f143481f89d5a08ca8d0ea992be36aa1687ff9a19d10343dda8",
+      "bytes": 4261
+    },
+    {
+      "path": "scripts/fourfold_newton_refined.py",
+      "sha256": "13486edbf499c21b8f69803968e2e258347a4f3661f5d08eda56e503e3739757",
+      "bytes": 30711
+    },
+    {
+      "path": "scripts/fourfold_overcollocation.py",
+      "sha256": "0ec3a60ac995b82839de85d65f3cb1e3b45e5fe0eb9c6cb56db7c94db59e77e2",
+      "bytes": 24323
+    },
+    {
+      "path": "scripts/fourfold_phase_actual_positive_cap.py",
+      "sha256": "1e8418174f54bd1d22dd628ef7f7e6525ca6b43cbcf7a2307d29f9d467e1612b",
+      "bytes": 16734
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_affine.py",
+      "sha256": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "bytes": 14806
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_bulk_box.py",
+      "sha256": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "bytes": 20229
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_bulk_interval.py",
+      "sha256": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "bytes": 18392
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_combine.py",
+      "sha256": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "bytes": 7624
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_interval.py",
+      "sha256": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "bytes": 30343
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_parameter_germ.py",
+      "sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+      "bytes": 13331
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_parameter_root.py",
+      "sha256": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f",
+      "bytes": 7879
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_energy_interval.py",
+      "sha256": "ef752984f6e8c9331b1f11f2419f49460d42288fa0aba10555a18455b971df91",
+      "bytes": 20302
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_graft_tail_energy.py",
+      "sha256": "247c7855b817f851f56ddb58c96d08b78dcacd9f223456f431019f09ebe9a4d1",
+      "bytes": 11640
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_low_schur.py",
+      "sha256": "3e026d619911b3b9716064908d0312de71de7433778643e25231a997b74fc54e",
+      "bytes": 16405
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_moment_space.py",
+      "sha256": "4d20d2a8f6d71ebaf9b61aac23770ace273ecf14912a9ea4109df58406dc80da",
+      "bytes": 14540
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_scaled_body.py",
+      "sha256": "f552b3c90880a9f9ee812015018a83da67e5d5fe66e1232fd2871d2c59e600db",
+      "bytes": 18129
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_wiener_box.py",
+      "sha256": "6c86a5542e3370482ae3fef0b25630fc7e436c03929f6dd8e0af0eaef1a7c64f",
+      "bytes": 13746
+    },
+    {
+      "path": "scripts/fourfold_phase_codazzi_rotational_reference_probe.py",
+      "sha256": "c8495d0c1721a21a24b48c8cdce9e825a8110f4923edd01e9eb2b7fe76b2d411",
+      "bytes": 8222
+    },
+    {
+      "path": "scripts/fourfold_phase_codazzi_two_end_probe.py",
+      "sha256": "510a0ebf823f35942c0b45e67fb3ec5319cfe124996d88656fcc18a52c565eb2",
+      "bytes": 10306
+    },
+    {
+      "path": "scripts/fourfold_phase_compare.py",
+      "sha256": "760e103befa83e886619971b488ee27ac82d98b1072b7735c1435a637347e8b9",
+      "bytes": 5209
+    },
+    {
+      "path": "scripts/fourfold_phase_core_low_block.py",
+      "sha256": "d3b554e05f13112679786bd11a113ab8a29442b4da8f6ea0cf73c2ebb93d37be",
+      "bytes": 14588
+    },
+    {
+      "path": "scripts/fourfold_phase_core_low_coefficients.py",
+      "sha256": "ba2f5c93fbe7d1cdc0ddd21775f54c4e5e56d542d94fb69b985a3bfe42751990",
+      "bytes": 13658
+    },
+    {
+      "path": "scripts/fourfold_phase_exterior_entry_jet.py",
+      "sha256": "9c522b37a84e78251d195d9d821db31e7b5aa3915c14e6adb7e38bb2af7d3c9e",
+      "bytes": 4481
+    },
+    {
+      "path": "scripts/fourfold_phase_finite_tail_DN.py",
+      "sha256": "b536f82516a4073337023b91e3255ed0832abc9fa23b6b8727dcd58cc285154e",
+      "bytes": 6433
+    },
+    {
+      "path": "scripts/fourfold_phase_geometry.py",
+      "sha256": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937",
+      "bytes": 23552
+    },
+    {
+      "path": "scripts/fourfold_phase_local_correction_probe.py",
+      "sha256": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf",
+      "bytes": 9547
+    },
+    {
+      "path": "scripts/fourfold_phase_natural_exterior_graft.py",
+      "sha256": "5862772e46bb281201c427e71b85066d68f4ea9520ab62e6f6286b8baefdeaee",
+      "bytes": 18347
+    },
+    {
+      "path": "scripts/fourfold_phase_newton.py",
+      "sha256": "633f1bd59e2a30b082a7915a38e0d0e27ce6d01aae6368675847235bb9bd38e5",
+      "bytes": 35030
+    },
+    {
+      "path": "scripts/fourfold_phase_positive_family_outer.py",
+      "sha256": "6c06be00ba05a57a767fb30c56264dc1d6d837a936957cc194e8612d33e9d158",
+      "bytes": 14383
+    },
+    {
+      "path": "scripts/fourfold_phase_root_interval.py",
+      "sha256": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840",
+      "bytes": 18526
+    },
+    {
+      "path": "scripts/fourfold_phase_symmetric_geometry.py",
+      "sha256": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+      "bytes": 13955
+    },
+    {
+      "path": "scripts/fourfold_phase_uniform_tail.py",
+      "sha256": "d7010fcd486cfe703eab58d0d5ad4e78a193418b7bc6c71f25e308c523b55c61",
+      "bytes": 16454
+    },
+    {
+      "path": "scripts/fourfold_unit_tangent.py",
+      "sha256": "2a41b6d2e87b29c731d910d1435487200a3925a124c6b09aecb205ea20634714",
+      "bytes": 14363
+    },
+    {
+      "path": "scripts/poschl_teller_fourfold_series.py",
+      "sha256": "173634e9e305dfe12946b4bc792014f2e443f689fc3dd2f5e1dfd834210992c9",
+      "bytes": 18152
+    }
+  ],
+  "accepted_checkpoints_losslessly_archived": [
+    {
+      "original_path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-outer-mean-m128-v7-b8-n1024-floating/accepted-000.npz",
+      "original_sha256": "66e3f23fe81ea0a27a86b7daa6b4b493a5035fcec1ba1584ff4ab7feff951a8c",
+      "archived_path": "notes/2026-11-13-R133-m128-accepted-v7-b8-000.npz.gz",
+      "archive_sha256": "d1eb70fa20b803e0d79a3c122676c63b0fba413d7efdbbe4842067dfcaa4f7bb",
+      "raw_bytes": 1761830,
+      "compressed_bytes": 1762279,
+      "lossless": true
+    },
+    {
+      "original_path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-outer-mean-m128-bounded-v7-b4-floating/accepted-000.npz",
+      "original_sha256": "008dccf45b1a6fb3da8bbb31708aa1ffff409bd226ff3acd0061aa29278164c8",
+      "archived_path": "notes/2026-11-13-R133-m128-accepted-bounded-v7-b4-000.npz.gz",
+      "archive_sha256": "61cbbdec9d6a9f7b991e32d20acc001c21ab6fed5253077372d5eeba3fdd37bf",
+      "raw_bytes": 2599789,
+      "compressed_bytes": 2600502,
+      "lossless": true
+    },
+    {
+      "original_path": "/workspace/scratch/ac0d699811ad/codazzi_newton_checkpoints/2026-11-13-R133-compact-metric-outer-mean-m128-bounded-v7-b4-floating/accepted-001.npz",
+      "original_sha256": "7282c6a1cd434066cb9157511a1ae1a8f838dd83f573375935d31ede566bf26e",
+      "archived_path": "notes/2026-11-13-R133-m128-accepted-bounded-v7-b4-001.npz.gz",
+      "archive_sha256": "27f09bb34c4a7bacb05fbec673d7a64040e0d8a701ff1586fa736fb4af9b5260",
+      "raw_bytes": 2604214,
+      "compressed_bytes": 2604925,
+      "lossless": true
+    }
+  ],
+  "inputs": [
+    {
+      "path": "notes/2026-11-13-R133-compact-metric-outer-mean-m64-candidate.npz.gz",
+      "sha256": "4046eb7ac8da162ab9aad9fcb4991933200abdbc2c22ed6329d49bb13d72b856",
+      "bytes": 3516038
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "bytes": 1638
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+      "sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+      "bytes": 386775
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz",
+      "sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+      "bytes": 137851
+    }
+  ],
+  "full_finite_Jacobian_action_retained": true,
+  "band_restriction_only_preconditioner_in_final_solver": true,
+  "all_actual_failures_and_complete_arrays_preserved": true,
+  "address_space_limit_MiB": 1536,
+  "actual_peak_resident_KiB": 1026064,
+  "true_nonlinear_regular_tail_matched": false,
+  "periodic_frame_holonomy_proved": false,
+  "full_mixed_inverse": false,
+  "closed_surface_complete": false,
+  "scope": "Complete successful floating finite BVP and all actual failed/resource-limited attempts, full-state checkpoints and independently audited complete Jacobian actions. Sampled diagnostics are not continuous or infinite-mode certificates. The explicit metric parameter changes the core target."
+}

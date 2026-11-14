@@ -1,0 +1,280 @@
+{
+  "kind": "actual_same_exact_root_canonical_chart_on_both_sides",
+  "complete": true,
+  "proved": true,
+  "source_sha256": "4b78e63a2a0f7abb405352cdf66784e8e7f9aadf989bff1015b2cf5683419d65",
+  "bits": 320,
+  "inputs": {
+    "notes/2026-11-13-negative-root-complete-potential-density.json": "0325b869504dff6cf1d29937b05ac67ddb5130183080db292e41e8f1a45f3923",
+    "notes/2026-11-13-negative-root-full-canonical-domain.json": "e511da0be8da1f489769ed65a948438b6aab6bd059b442b7195a303ec4b42d8e",
+    "notes/2026-11-13-negative-canonical-log-density-bidisk.json.gz": "2e01b579fbf36cf8ea660a73bfde8df145202c4ad76d719d80fdaef99ba8f0cb"
+  },
+  "identity": {
+    "center_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "center_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "source_sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_combine.py": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "fourfold_phase_beta_parameter_root.py": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f"
+    },
+    "semantics": "exact origin and direction scalar germs first; one shared real affine parameter applied afterwards"
+  },
+  "true_root": {
+    "ball": "[0.238396874300 +/- 2.71e-13]",
+    "lower": "[0.23839687429972956132053396089863148 +/- 1.44e-36]",
+    "upper": "[0.23839687430000116458653473832827660 +/- 2.84e-37]",
+    "mid_float": 0.23839687429986536,
+    "radius_upper_float": 1.3580163300038871e-13
+  },
+  "canonical_real_half_height": "1/4000",
+  "canonical_complex_angle_strip": "1/40000",
+  "canonical_complex_radial_halo": "1/100000",
+  "canonical_domain": "dist(xi,[-height,height])<=radial_halo; |Im phi|<=angle_strip; the same actual quarter-period circle",
+  "positive_side_coordinates": "s=r-t(p)=-rho; y=-xi; phi is the same even characteristic coordinate",
+  "actual_quarter_circle_frequency": [
+    {
+      "ball": "[38.883851605869260037451340394909493748528766345831 +/- 9.60e-50]",
+      "lower": "[38.883851605869260037451340394909493748528766345831 +/- 9.60e-50]",
+      "upper": "[38.883851605869260037451340394909493748528766345831 +/- 9.60e-50]"
+    },
+    {
+      "ball": "[38.883851623091751192884402144045452710671233844610 +/- 3.94e-49]",
+      "lower": "[38.883851623091751192884402144045452710671233844610 +/- 3.94e-49]",
+      "upper": "[38.883851623091751192884402144045452710671233844610 +/- 3.94e-49]"
+    }
+  ],
+  "conjugacy": "For real rho<0 and real theta, F_minus=conjugate(F_plus); phi and Delta are real by their even holomorphic series in s=sqrt(rho).",
+  "exact_principal_density": "alpha_c diag(1,-xi), alpha_c=sqrt(Ucal)*Delta^(-1/3); on y=-xi this is alpha_c diag(1,y)",
+  "exact_positive_operator": "P_positive=-d_y^2-y*d_phi^2-V(-y,phi), obtained from the same canonical height and the positive grounded form",
+  "exact_positive_source": "For -div(B grad w)=f_ground and w=tau*U composed with Psi_plus, P_positive U=(tau/J_plus)*f_ground composed with Psi_plus_inverse; tau=alpha_c^(-1/2).",
+  "exact_root_canonical_outward_conormal": "p_out=-U_y=U_xi; the grounded conormal additionally contains the true height shear and density",
+  "inverse_path_bounds": {
+    "physical_rho_radius": {
+      "ball": "[0.00027900000000000000000000000000000000000000000000000 +/- 3e-58]",
+      "lower": "[0.00027900000000000000000000000000000000000000000000000 +/- 3e-58]",
+      "upper": "[0.00027900000000000000000000000000000000000000000000000 +/- 1e-58]"
+    },
+    "physical_half_angle_strip": {
+      "ball": "[0.00075000000000000000000000000000000000000000000000000 +/- 3e-58]",
+      "lower": "[0.00075000000000000000000000000000000000000000000000000 +/- 3e-58]",
+      "upper": "[0.00075000000000000000000000000000000000000000000000000 +/- 1e-58]"
+    },
+    "complex_phi_theta_lower": {
+      "ball": "[0.050998938525045115821535657345407144113904285644734 +/- 4.78e-52]",
+      "lower": "[0.050998938525045115821535657345407144113904285644734 +/- 4.78e-52]",
+      "upper": "[0.050998938525045115821535657345407144113904285644734 +/- 4.78e-52]"
+    },
+    "complex_Jacobian_modulus_lower": {
+      "ball": "[0.049148101510655658527646290031809062194723336821583 +/- 1.97e-52]",
+      "lower": "[0.049148101510655658527646290031809062194723336821583 +/- 1.97e-52]",
+      "upper": "[0.049148101510655658527646290031809062194723336821583 +/- 1.97e-52]"
+    },
+    "complex_xi_theta_modulus": {
+      "ball": "[0.0071998471686900757503393372509182350000734924142731 +/- 1.06e-53]",
+      "lower": "[0.0071998471686900757503393372509182350000734924142731 +/- 1.06e-53]",
+      "upper": "[0.0071998471686900757503393372509182350000734924142731 +/- 1.06e-53]"
+    },
+    "complex_phi_rho_modulus": {
+      "ball": "[0.25355115949048124197050292948760024147968234037522 +/- 8.21e-52]",
+      "lower": "[0.25355115949048124197050292948760024147968234037522 +/- 8.21e-52]",
+      "upper": "[0.25355115949048124197050292948760024147968234037522 +/- 8.21e-52]"
+    },
+    "inverse_rho_phi": {
+      "ball": "[0.14649288471761411972461616809054326800911290927372 +/- 1.49e-52]",
+      "lower": "[0.14649288471761411972461616809054326800911290927372 +/- 1.49e-52]",
+      "upper": "[0.14649288471761411972461616809054326800911290927372 +/- 1.49e-52]"
+    },
+    "inverse_theta_phi": {
+      "ball": "[20.336569167374429363809498142268302257399474314801 +/- 3.93e-50]",
+      "lower": "[20.336569167374429363809498142268302257399474314801 +/- 3.93e-50]",
+      "upper": "[20.336569167374429363809498142268302257399474314801 +/- 3.93e-50]"
+    },
+    "inverse_rho_xi": {
+      "ball": "[1.0385168034873721709631315606940942135018214455100 +/- 4.37e-50]",
+      "lower": "[1.0385168034873721709631315606940942135018214455100 +/- 4.37e-50]",
+      "upper": "[1.0385168034873721709631315606940942135018214455100 +/- 4.37e-50]"
+    },
+    "inverse_theta_xi": {
+      "ball": "[5.1589207252595411920629307737687224678478501039268 +/- 1.92e-50]",
+      "lower": "[5.1589207252595411920629307737687224678478501039268 +/- 1.92e-50]",
+      "upper": "[5.1589207252595411920629307737687224678478501039268 +/- 1.92e-50]"
+    },
+    "symmetric_real_canonical_rectangle_half_height": {
+      "ball": "[0.00027362641109419597135673782543915783595615992974800 +/- 9.46e-55]",
+      "lower": "[0.00027362641109419597135673782543915783595615992974800 +/- 9.46e-55]",
+      "upper": "[0.00027362641109419597135673782543915783595615992974800 +/- 9.46e-55]"
+    },
+    "initial_real_absolute_rho_upper": {
+      "ball": "[0.00025490960364929298537667040514429485444069063035917 +/- 3.65e-55]",
+      "lower": "[0.00025490960364929298537667040514429485444069063035917 +/- 3.65e-55]",
+      "upper": "[0.00025490960364929298537667040514429485444069063035917 +/- 3.65e-55]"
+    },
+    "full_complex_rho_movement": {
+      "ball": "[1.4047490152814074702746719809204523835246037186943e-5 +/- 4.33e-55]",
+      "lower": "[1.4047490152814074702746719809204523835246037186943e-5 +/- 4.33e-55]",
+      "upper": "[1.4047490152814074702746719809204523835246037186943e-5 +/- 4.33e-55]"
+    },
+    "full_complex_theta_movement": {
+      "ball": "[0.00056000343643695614601586676129439478111346535890929 +/- 2.22e-54]",
+      "lower": "[0.00056000343643695614601586676129439478111346535890929 +/- 2.22e-54]",
+      "upper": "[0.00056000343643695614601586676129439478111346535890929 +/- 2.22e-54]"
+    },
+    "remaining_physical_radial_margin": {
+      "ball": "[1.0042906197892939920582875046500621724063332453887e-5 +/- 6.84e-56]",
+      "lower": "[1.0042906197892939920582875046500621724063332453887e-5 +/- 6.84e-56]",
+      "upper": "[1.0042906197892939920582875046500621724063332453887e-5 +/- 6.84e-56]"
+    },
+    "remaining_physical_angular_margin": {
+      "ball": "[0.00018999656356304385398413323870560521888653464109071 +/- 2.22e-54]",
+      "lower": "[0.00018999656356304385398413323870560521888653464109071 +/- 2.22e-54]",
+      "upper": "[0.00018999656356304385398413323870560521888653464109071 +/- 2.22e-54]"
+    }
+  },
+  "complete_real_bounds": {
+    "phi_theta_lower": {
+      "ball": "[0.050998938525045115821535657345407144113904285644734 +/- 4.78e-52]",
+      "lower": "[0.050998938525045115821535657345407144113904285644734 +/- 4.78e-52]",
+      "upper": "[0.050998938525045115821535657345407144113904285644734 +/- 4.78e-52]"
+    },
+    "phi_theta_upper": {
+      "ball": "[0.30734622402741585105139158081865862246169332746250 +/- 1.64e-51]",
+      "lower": "[0.30734622402741585105139158081865862246169332746250 +/- 1.64e-51]",
+      "upper": "[0.30734622402741585105139158081865862246169332746250 +/- 1.64e-51]"
+    },
+    "xi_rho_at_fixed_phi_lower": {
+      "ball": "[0.96291171856051675774313013705715019735971201591089 +/- 4.82e-51]",
+      "lower": "[0.96291171856051675774313013705715019735971201591089 +/- 4.82e-51]",
+      "upper": "[0.96291171856051675774313013705715019735971201591089 +/- 4.82e-51]"
+    },
+    "xi_rho_at_fixed_phi_upper": {
+      "ball": "[1.1003039447208610134070416171561045493135030959192 +/- 4.02e-50]",
+      "lower": "[1.1003039447208610134070416171561045493135030959192 +/- 4.02e-50]",
+      "upper": "[1.1003039447208610134070416171561045493135030959192 +/- 4.02e-50]"
+    },
+    "Jacobian_lower": {
+      "ball": "[0.049148101510655658527646290031809062194723336821583 +/- 1.97e-52]",
+      "lower": "[0.049148101510655658527646290031809062194723336821583 +/- 1.97e-52]",
+      "upper": "[0.049148101510655658527646290031809062194723336821583 +/- 1.97e-52]"
+    },
+    "Jacobian_upper": {
+      "ball": "[0.31927221285281410921376035247251355574358631022117 +/- 1.91e-51]",
+      "lower": "[0.31927221285281410921376035247251355574358631022117 +/- 1.91e-51]",
+      "upper": "[0.31927221285281410921376035247251355574358631022117 +/- 1.91e-51]"
+    },
+    "log_alpha_modulus": {
+      "ball": "[0.84237105540597685914547398705527948130304351208927 +/- 9.43e-52]",
+      "lower": "[0.84237105540597685914547398705527948130304351208927 +/- 9.43e-52]",
+      "upper": "[0.84237105540597685914547398705527948130304351208927 +/- 9.43e-52]"
+    },
+    "alpha_lower": {
+      "ball": "[0.43068812641765132846182212865511515953332653047178 +/- 4.76e-51]",
+      "lower": "[0.43068812641765132846182212865511515953332653047178 +/- 4.76e-51]",
+      "upper": "[0.43068812641765132846182212865511515953332653047178 +/- 4.76e-51]"
+    },
+    "alpha_upper": {
+      "ball": "[2.3218657275688851806675532077646742901187308260965 +/- 1.82e-50]",
+      "lower": "[2.3218657275688851806675532077646742901187308260965 +/- 1.82e-50]",
+      "upper": "[2.3218657275688851806675532077646742901187308260965 +/- 1.82e-50]"
+    },
+    "tau_lower": {
+      "ball": "[0.65626833415734095471157225805257741354250533382468 +/- 1.82e-51]",
+      "lower": "[0.65626833415734095471157225805257741354250533382468 +/- 1.82e-51]",
+      "upper": "[0.65626833415734095471157225805257741354250533382468 +/- 1.82e-51]"
+    },
+    "tau_upper": {
+      "ball": "[1.5237669531686547180417518852198560120832142888520 +/- 1.31e-50]",
+      "lower": "[1.5237669531686547180417518852198560120832142888520 +/- 1.31e-50]",
+      "upper": "[1.5237669531686547180417518852198560120832142888520 +/- 1.31e-50]"
+    }
+  },
+  "complete_potential_modulus": {
+    "ball": "[752813.54168679381899328480432787956064328878086609 +/- 4.53e-45]",
+    "lower": "[752813.54168679381899328480432787956064328878086609 +/- 4.53e-45]",
+    "upper": "[752813.54168679381899328480432787956064328878086609 +/- 4.53e-45]"
+  },
+  "complete_potential_first_radial_derivative_modulus": {
+    "ball": "[75281354168.679381899328480432787956064328878086609 +/- 4.53e-40]",
+    "lower": "[75281354168.679381899328480432787956064328878086609 +/- 4.53e-40]",
+    "upper": "[75281354168.679381899328480432787956064328878086609 +/- 4.53e-40]"
+  },
+  "potential_domain": "entire two-sided canonical product domain including its radial halo",
+  "potential_radial_derivative_domain": "real xi in [-height,height] with the full complex phi strip; no derivative assertion on the radial halo boundary",
+  "finite_positive_zero_two_trace": {
+    "potential_relative_fee": {
+      "ball": "[0.0047672474441053961185847923775060164591060853466358 +/- 3.59e-53]",
+      "lower": "[0.0047672474441053961185847923775060164591060853466358 +/- 3.59e-53]",
+      "upper": "[0.0047672474441053961185847923775060164591060853466358 +/- 3.59e-53]"
+    },
+    "gradient_coercivity": {
+      "ball": "[0.99523275255589460388141520762249398354089391465336 +/- 4.17e-51]",
+      "lower": "[0.99523275255589460388141520762249398354089391465336 +/- 4.17e-51]",
+      "upper": "[0.99523275255589460388141520762249398354089391465336 +/- 4.17e-51]"
+    },
+    "ordinary_L2_to_L2_Dirichlet_inverse": {
+      "ball": "[6.3629075323166261242890069571055689998655174250754e-9 +/- 3.72e-59]",
+      "lower": "[6.3629075323166261242890069571055689998655174250754e-9 +/- 3.72e-59]",
+      "upper": "[6.3629075323166261242890069571055689998655174250754e-9 +/- 3.72e-59]"
+    },
+    "domain": "only the actual finite positive collar [0,height], with zero trace at both ends; every angular mode and the mean"
+  },
+  "gates": [
+    {
+      "name": "all earlier complete characteristic gates hold",
+      "passed": true
+    },
+    {
+      "name": "grounded density logarithm covers the complete physical bidisk",
+      "passed": true
+    },
+    {
+      "name": "the actual real-conjugate chart has separated Delta and angular derivative",
+      "passed": true
+    },
+    {
+      "name": "both full real canonical rectangles fit",
+      "passed": true
+    },
+    {
+      "name": "the same complete inverse path lifting remains inside the physical radial disk",
+      "passed": true
+    },
+    {
+      "name": "the same complete inverse path lifting remains inside the physical half angular strip",
+      "passed": true
+    },
+    {
+      "name": "the continued actual grounded height is positive on both real sides",
+      "passed": true
+    },
+    {
+      "name": "the complete positive-collar zero-two-trace form is coercive",
+      "passed": true
+    }
+  ],
+  "all_actual_modes_and_whole_parameters_retained": true,
+  "finite_positive_approximate_chart_used": false,
+  "positive_Cauchy_growth_bound_claimed": false,
+  "full_positive_cap_Ai_reflection_proved": false,
+  "full_positive_cap_source_contact_proved": false,
+  "full_returned_Rstar_proved": false,
+  "dependencies": {
+    "fourfold_negative_canonical_cancellation_chart.py": "650ceef0ea91bdf5f4ef86d114fb6dc412bef3a0b4b915910135357967ec0c8d",
+    "fourfold_negative_collar_root_fourier_budget.py": "08866307bf0de20183db15387f16ec0f2f3a65d67bfec6e9229b27a65a902b9b",
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "fourfold_phase_root_fourier_fit.py": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604"
+  },
+  "scope": "The same exact analytic canonical chart and height, now with a proved real positive-side inverse and a symmetric full product domain. The finite positive zero-two-trace Dirichlet form is coercive; full cap/contact, Ai reflection, exterior regular/mean coupling and returned strong inverse remain separate.",
+  "seconds": 0.14154244199744426
+}

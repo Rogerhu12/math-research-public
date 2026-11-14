@@ -1,0 +1,60 @@
+{
+  "kind": "actual_remote_true_core_uniform_family_pilots_receipt",
+  "run_id": "43305738833",
+  "triggering_commit": "6bb257bd3ba9b82810c5d691d6c539059d9eca88",
+  "outcome": "success",
+  "python": "3.12.14",
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_core_radial_taylor.py",
+      "sha256": "5303121d11a2af4cd39e67c50a6d23babe6f73e9873f2cf369b93584d983037c",
+      "bytes": 28010
+    },
+    {
+      "path": "scripts/fourfold_phase_core_cell_flow.py",
+      "sha256": "4db55a8c06b1770566416dbc7e7f81a4f004a6e12d8b517ce5007b6e0c7933d4",
+      "bytes": 14690
+    },
+    {
+      "path": "scripts/fourfold_phase_core_waist_taylor.py",
+      "sha256": "09989f34a57e62e215aacb122926c0ef595332dd00f6b25246bc8dce6ecf9480",
+      "bytes": 13424
+    },
+    {
+      "path": "scripts/fourfold_phase_core_parameter_taylor.py",
+      "sha256": "5348dfb57db8296291b9c95dd884a189e9176f3765fc21c114ca6317ca7b1d06",
+      "bytes": 3256
+    },
+    {
+      "path": "notes/core_remote/43305738833/family-flow-span0.json",
+      "sha256": "78e5c04375658f590d0f40245db4d1392b633fb4bc2f4f37dfc882d586532433",
+      "bytes": 59278
+    },
+    {
+      "path": "notes/core_remote/43305738833/family-flow-span0.log",
+      "sha256": "ac0acaf0c3e824d42c0893d5096facd9bfacf42e12ade633fa95738b03b99382",
+      "bytes": 474
+    },
+    {
+      "path": "notes/core_remote/43305738833/family-flow-span0.npz",
+      "sha256": "f05c102dba38149031850d913f1ab39ab0291634cd6d7edf13119118d4e7863a",
+      "bytes": 52507
+    },
+    {
+      "path": "notes/core_remote/43305738833/family-flow-span90.json",
+      "sha256": "b285951d7f60ed638a830c6ccbea0a87b38168149ab823079410cedfece48e47",
+      "bytes": 59295
+    },
+    {
+      "path": "notes/core_remote/43305738833/family-flow-span90.log",
+      "sha256": "030621f36c7c666d9d991b434d3fe97ffd8ddd4d926cf839d7fe80aab750aafa",
+      "bytes": 484
+    },
+    {
+      "path": "notes/core_remote/43305738833/family-flow-span90.npz",
+      "sha256": "77186069b9d382348a051f93637abf4493291ac0d353b6d3c5f6963f055e3f6a",
+      "bytes": 52793
+    }
+  ],
+  "scope": "The complete flag inside the newly executed local-flow report controls its mathematical scope. No full-core or Schur inverse is asserted."
+}

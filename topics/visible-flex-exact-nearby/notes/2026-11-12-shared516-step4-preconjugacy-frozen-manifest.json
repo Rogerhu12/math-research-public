@@ -1,0 +1,498 @@
+{
+  "kind": "complete_shared516_and_exact_step4_prediction_with_preconjugacy_costs",
+  "scope": "archive_required only; all grouped/shared dense intermediates reproducible and not staged; live step4 1032 excluded",
+  "archive_required": [
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-step3-knot-Hnodes516.json",
+      "bytes": 156637,
+      "sha256": "118239ce6fa60c1363e65ae15759dc5c2aee11115ecea43349c4ec9476f40791"
+    },
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-step3-shared-knot-Hnodes516.json",
+      "bytes": 159444,
+      "sha256": "3ba4ca28b138a63ca9fe3ce6202e393ab33cc7d5b15063a7580902458085278b"
+    },
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-Newton516-step4.json",
+      "bytes": 44565,
+      "sha256": "f77e065cbfae819b7033d560d90eacfa8beb5580748d3db4baac5cd19f005f4d"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_object.json",
+      "bytes": 1638,
+      "sha256": "87566dee6e119bb4127200c2dae38f9cdf692a18475c1cde23961a56605919b5"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_H_float_export.npz",
+      "bytes": 4528,
+      "sha256": "9c1be55a04dc1eabf272e9954bc11459f0ec4e4574d826b85ab5f8932b5ca52f"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_dyadic_H.json",
+      "bytes": 64427,
+      "sha256": "8bd6078f8c442b48bab2b15850b99e2455d616ab48e687abb22114a1f1bfe39b"
+    },
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-step4-H-Wiener-budget.json",
+      "bytes": 7246,
+      "sha256": "4129939803e93cef2c26ec1817540d258bb7953d0ea21313e2b51eaafe070ba0"
+    },
+    {
+      "path": "scripts/fourfold_circle_exact_correction_budget.py",
+      "bytes": 7165,
+      "sha256": "8fbb2dba9871c9847234b9be774bd401fcadc77a5e2a225db4a8c1c13ec9494a"
+    },
+    {
+      "path": "scripts/fourfold_phase_shared_grid_adaptive_chunks.py",
+      "bytes": 2694,
+      "sha256": "0245627b9973a0cbac80c5466e6276d91ec9ad61d4c60d9f25286fac2a799994"
+    },
+    {
+      "path": "scripts/fourfold_circle_preconjugacy_probe.py",
+      "bytes": 9340,
+      "sha256": "bf0a85b25a2ca48fc82a061f219e10dc50db98b95b913a1d3deb4445260ee450"
+    },
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-step3-preconjugacy-cost.json",
+      "bytes": 7741,
+      "sha256": "3170b4e53e4b3c5d940c6de6b61989aa4a80873f5c0c42af105de329654b555d"
+    },
+    {
+      "path": "notes/2026-11-12-shared516-exact-step4-and-preconjugacy.md",
+      "bytes": 7187,
+      "sha256": "e6ac082874a7936b671973e4f93c9aca473e2f6a5076108dba48a35fdbabd71f"
+    }
+  ],
+  "reproducible_large_intermediates": [
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0000_backward.npz.gz",
+      "bytes": 4701689,
+      "sha256": "2a3a9345a0edebec0f5a31a1ccd3016c96b0f9f98c6a557358e45be23bdfec73"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0000_backward.trace.json",
+      "bytes": 21639,
+      "sha256": "e54d8e1d60826132e1ce02c2e534f4ecf50db3a82284aee69bd7dd03b396f123"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0000_forward.npz.gz",
+      "bytes": 3600376,
+      "sha256": "9e4b4ada1eab09793a6bac32168440bc844a1259a2bac826b73a938b592500f4"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0000_forward.trace.json",
+      "bytes": 21763,
+      "sha256": "04df0b503cb000928d0ded697ebd03d748b5e2c1a0ef7ea714750cfa8f998a3a"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0043_backward.npz.gz",
+      "bytes": 4850653,
+      "sha256": "4c4954a814d2c92ee5e71a28bd2a236039d09f47df917b3ee8edc5e302899f08"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0043_backward.trace.json",
+      "bytes": 21644,
+      "sha256": "d4402f0949cb7d17e8a85ae0f77f0265c5a6573f4763bfb23bcf703da4510bf7"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0043_forward.npz.gz",
+      "bytes": 3934506,
+      "sha256": "1c04725200818d769e3944de72a7e6f4c9f584eef6ab9b277b84de2c736ee17c"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0043_forward.trace.json",
+      "bytes": 21663,
+      "sha256": "aacce5f8b3159b699b72f92cf77fb1ca4b45c3ce34f29e32a8c8614ececb06f8"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0086_backward.npz.gz",
+      "bytes": 4770786,
+      "sha256": "cf3e0e7fe27106425430ce8dc812f7ad59a39a1fb12e4298cc9bbe34521ad382"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0086_backward.trace.json",
+      "bytes": 21633,
+      "sha256": "0e52d18926c53ebe2aad1f76f94e01aa58cc8a4973834af7f046f7e8c44b51f3"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0086_forward.npz.gz",
+      "bytes": 4240177,
+      "sha256": "d511858068a97547e0cfaa19f68f2d25ce13b8d537bf941c45175abbe119ff65"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0086_forward.trace.json",
+      "bytes": 21640,
+      "sha256": "9d321f3e69f08956ee90492213d7d358880f58f5ab6378e8a12b8963f06a1ea6"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0129_backward.npz.gz",
+      "bytes": 4603830,
+      "sha256": "9c1436e2f4c3242fa18ef4ca0e218856ee30bea3ccf1d5a8de37e347f44bd9d1"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0129_backward.trace.json",
+      "bytes": 21657,
+      "sha256": "9d1ed433f193df9520f39ade5146aa117df1331fceef832210a3fa60325c0340"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0129_forward.npz.gz",
+      "bytes": 4415569,
+      "sha256": "6e426ecf8ea85cde1924b8402374754c4da319620ea68b4bfb693af6ecf7a121"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0129_forward.trace.json",
+      "bytes": 21634,
+      "sha256": "b25e5a02edf2239b67d39e84ec60f8af0daf870e9cbcab8f5c5652f3a85de59e"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0172_backward.npz.gz",
+      "bytes": 4018188,
+      "sha256": "65bf7f661043e69f9988a137d8361b3ba867a848e2e1d2c0c20cc83518949ceb"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0172_backward.trace.json",
+      "bytes": 21655,
+      "sha256": "049ac4e461a7984c2da13b7ec6d6d6f6cdcbb4cdb24c6b2113b1077af1df6335"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0172_forward.npz.gz",
+      "bytes": 4892894,
+      "sha256": "3c85159662fd8d27a5f095bad0dff3cc1acffff025757a752630daa2eaf236dd"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0172_forward.trace.json",
+      "bytes": 21623,
+      "sha256": "3772e58c9926d7f5af3e190f0d921c18c8ca3eb01315481991c33a120326fe3c"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0215_backward.npz.gz",
+      "bytes": 3688419,
+      "sha256": "1498bb7da0b8e08aa10abeeea8eb82ab95197d55893ba3ddb146052b07a9524a"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0215_backward.trace.json",
+      "bytes": 21666,
+      "sha256": "8515c5ca88d0d19db3f38229269e8beeec26b222d3076c109df4e49371c1f3cf"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0215_forward.npz.gz",
+      "bytes": 4841950,
+      "sha256": "fc681947afa6e0dbbe56f819cd5cd7555d79a085a42e38a2ffa1857dc8c54d20"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0215_forward.trace.json",
+      "bytes": 21636,
+      "sha256": "4580413097b64d82289188c8b4ef05d8b939e52c1bdb0f65e43030767e47a6b4"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0258_backward.npz.gz",
+      "bytes": 3108611,
+      "sha256": "92b0a73be17baccad1f556e516e2695b6f6f1b8d6ce0f831a77e7d47de991710"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0258_backward.trace.json",
+      "bytes": 21673,
+      "sha256": "c3fe0bff76cb42dfc04f3f3652424848ffc7720d4a356feaf1fb172fe6d7284e"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0258_forward.npz.gz",
+      "bytes": 4702046,
+      "sha256": "b2b4101457e9747691c2354266c227d66f435d64bbd363b6990004d829452a58"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0258_forward.trace.json",
+      "bytes": 21651,
+      "sha256": "5e81abe2d2a45d132b968aa51ea64f6adae82936313098b6c55ba219b0aa19fc"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0301_backward.npz.gz",
+      "bytes": 3086497,
+      "sha256": "ae9357d700fc973ca3d16915ce8fd9789af5ab548affc4505413f77c9be064ec"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0301_backward.trace.json",
+      "bytes": 21666,
+      "sha256": "550b58ae179cc0244edf83cca30021ceddaf12263fc1dedbe18cb4a3a687c2aa"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0301_forward.npz.gz",
+      "bytes": 4144660,
+      "sha256": "7104209e8960170aeef006d2739297d8f3d5ed40af7b7c737b90c38d47ffd47d"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0301_forward.trace.json",
+      "bytes": 21664,
+      "sha256": "02500b0115c787f5fd2286a236f5c6abd77f7aaed086b4688ba20fbc5be16aaf"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0344_backward.npz.gz",
+      "bytes": 3414493,
+      "sha256": "4d31fbd217c8b9f5e0a1620293e8df11df74c0dcddc89a4e4b355bfbe7359c3b"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0344_backward.trace.json",
+      "bytes": 21624,
+      "sha256": "0e6eecd222ab0f030381a82d27d4cb1a59f16796faf6d5999a6b0d9b9eff4b97"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0344_forward.npz.gz",
+      "bytes": 3800709,
+      "sha256": "ed361afcd999c46deb2cbaca55757452eddfa13ffb43c4d352e0e8f044bbe9fe"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0344_forward.trace.json",
+      "bytes": 21670,
+      "sha256": "c96526ad00c3036ab7c68561ca5cae5f6eae7b88a70a0a77c96e8783c3a18802"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0387_backward.npz.gz",
+      "bytes": 3608305,
+      "sha256": "127c8121b293a17fecc76ce47702e65aa38d525b806fdd5804f8e218500993ab"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0387_backward.trace.json",
+      "bytes": 21643,
+      "sha256": "3e2e902b07aae993ce16c65a41798b2e2e662f6b5a4fa9169366d7243c1209a8"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0387_forward.npz.gz",
+      "bytes": 3252758,
+      "sha256": "a2f089eb023eb5e461d67969c57ba37138a056f0f43eda807b10ec41f5a481ce"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0387_forward.trace.json",
+      "bytes": 21667,
+      "sha256": "30538184c5937aee3bacc0d9f7687da32cb7fa4fb7d7b556cf83005b1b973062"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0430_backward.npz.gz",
+      "bytes": 4077253,
+      "sha256": "fc0c25c857f67e9de0a96a5b357be17f1db1fff0922bc83f16f7c2485da22c99"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0430_backward.trace.json",
+      "bytes": 21578,
+      "sha256": "b72f5f8bdb06ce8d2c512cf411fa7197de4033eb0777e008aca62bb184ceaf01"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0430_forward.npz.gz",
+      "bytes": 3020762,
+      "sha256": "6fd660d05e67763a1b672d6885d937e1d0477e165c79cb83d9a1354c3c0244c2"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0430_forward.trace.json",
+      "bytes": 21693,
+      "sha256": "f5e7e165fa1bed9e4a26abab2973d6ebab9640f9427927329f7b6f50d454a9a4"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0473_backward.npz.gz",
+      "bytes": 4291796,
+      "sha256": "2cfd811e493fd26b123e3dcd9d133ed3f2014cb2edee91c4fe2090e8d5bec4bd"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0473_backward.trace.json",
+      "bytes": 21590,
+      "sha256": "1d26c3711796a2c6c9a9719745defeafc05c2051a6ee7ec0fe73e1abfde5801c"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0473_forward.npz.gz",
+      "bytes": 3332353,
+      "sha256": "f24d975ba31147e8d2876ad2ab3d0dcf009463efbe604b240a15906d7f71c418"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_knot_dense516/block_0473_forward.trace.json",
+      "bytes": 21623,
+      "sha256": "7a5e3328f944dbb151d575b47c86a2a50218e8abb3e31d5a842ec0a8338f673e"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0000.npz.gz",
+      "bytes": 3395872,
+      "sha256": "e5ac9fb0e0b52755576cdae0ec4e8a6554e6c1183bec347a723d0f88b0bc6923"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0032.npz.gz",
+      "bytes": 3404856,
+      "sha256": "cc434b9089a7eca981d8dcd83943ca172cc152f8d77a7c9161765fa9d0cbdc33"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0064.npz.gz",
+      "bytes": 3408877,
+      "sha256": "0df677c40aa105053555db73f69ab2bba2da679ad58f503fe2b9a07cab2e6ad7"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0096.npz.gz",
+      "bytes": 3399015,
+      "sha256": "8fe41aaba1f00c2f853d1d7607738c3e964af8efdda0595a3fc860a2ffe00461"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0128.npz.gz",
+      "bytes": 3402712,
+      "sha256": "d9d2f627c8601a965ddaff454e2ed11fd9b2a0302403359439734924616ebdd8"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0160.npz.gz",
+      "bytes": 3401873,
+      "sha256": "ae78cf99484a3253279d862c43151a7158185286b90537a45ecbbea96e2b8548"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0192.npz.gz",
+      "bytes": 3401137,
+      "sha256": "12642b5513ea45e262184689af8f0bd2d6dec55f004b268e63343f9abe9fac8f"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0224.npz.gz",
+      "bytes": 3407302,
+      "sha256": "490aca09c21181a186345d6cdd1bf809d46cf974c90a739fa62b2ee5087adaae"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0256.npz.gz",
+      "bytes": 3409562,
+      "sha256": "7e8904ee144779584d75666cd709748b5d35409c97a9e37d62c1fdb617a8b866"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0288.npz.gz",
+      "bytes": 3409787,
+      "sha256": "9a94fdaf2fa3fc58607069ee01bf6607019e69ee8db27d6982e8d51f03c404bf"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0320.npz.gz",
+      "bytes": 3409255,
+      "sha256": "74d5917ae81e9c64b9b7876c84ca94fd6c29481e51e75505868e77b2de9d80c3"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0352.npz.gz",
+      "bytes": 3399218,
+      "sha256": "0feeb3787eaf758154128df6505fbc906f4eb212b6699b62dd5258acdd7dc26b"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0384.npz.gz",
+      "bytes": 3414334,
+      "sha256": "04aa5bf27885562a4a8a0a983da33e354f7022160853de8abf1982c4776441b4"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0416.npz.gz",
+      "bytes": 3409871,
+      "sha256": "eb175e77c49cbf07a66a375d723c92389e932b1c05cf89b123eae88ab3733298"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0448.npz.gz",
+      "bytes": 3412693,
+      "sha256": "ea53542943f3e98fee55ca0fd64f9fd313aa29638a15455f53cfcf768122212b"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0480.npz.gz",
+      "bytes": 3413832,
+      "sha256": "6f55e6073679d0fe2c8abbfe3369d9ee85bbec75dc0170fc23d7e35ace51db5e"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0512.npz.gz",
+      "bytes": 3411743,
+      "sha256": "638dd07afc574594cc93ac5a742bcedc3de39460b33b06319606c7e746376718"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.part0544.npz",
+      "bytes": 670158,
+      "sha256": "83b322963007a07b1fae5f52a3693c122de8519e9a86504502b2f83d5d3cc361"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_backward.trace.json",
+      "bytes": 73975,
+      "sha256": "00a2d5a11768049db6b4d38dcb569412e9f4e6134fcb3b0c6528f11546842326"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0000.npz.gz",
+      "bytes": 3399270,
+      "sha256": "b0f0c5cb6b013b3f9aef1c17e8d385201055301d0101d1c898a21770019eeb5c"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0032.npz.gz",
+      "bytes": 3408108,
+      "sha256": "52b986922bbd81d8d07181fa1a5fe67185900f79bfbeb66e28d469670cafb6e7"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0064.npz.gz",
+      "bytes": 3412843,
+      "sha256": "e936ffdbefcf8bd23c298715307d54283ddb05904b682a7c32c3ff82c065b8b2"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0096.npz.gz",
+      "bytes": 3401704,
+      "sha256": "4acb448fe95f4e02cdca917d47d6d3ae41822a41f09f4383e1fa47ed3909a668"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0128.npz.gz",
+      "bytes": 3406072,
+      "sha256": "1b9afef258d091bf9aeeba5e0f6fe6e22c467c712c0965ce04da4db68cc85c25"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0160.npz.gz",
+      "bytes": 3403294,
+      "sha256": "c30b00284a740e389017b1bada3210cad982df4f1af141c7f473be15df5a60ca"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0192.npz.gz",
+      "bytes": 3401839,
+      "sha256": "18ca7174107995a08215d6406019b17ffba08e2ff492663d9e5ef1cb7f7f7609"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0224.npz.gz",
+      "bytes": 3409183,
+      "sha256": "6aa287e163056eb28f7fb973347a6fee6a0a965474fb991986e3e53c498c4779"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0256.npz.gz",
+      "bytes": 3410400,
+      "sha256": "919ce68127a786ec662f4d1583cce24015b429a331fb90def5526f85695ed3b4"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0288.npz.gz",
+      "bytes": 3409648,
+      "sha256": "b5514d2b4b362c11bab82742f101afe2953bd1e1fc958ca864fe4659830130f5"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0320.npz.gz",
+      "bytes": 3408695,
+      "sha256": "1a1bbf51323636a3e1ebd87bff1fa1106d6f28a8d35bed5674661ab4d70c62c2"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0352.npz.gz",
+      "bytes": 3399676,
+      "sha256": "cb80131f396ff320f1eee51d0f4d0cb5a8be04196beb0befce32490f3d099d09"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0384.npz.gz",
+      "bytes": 3412769,
+      "sha256": "29821d7810b2fe769c1dff94170a5a82802f874d6420ea3fa053ad77af6f22ba"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0416.npz.gz",
+      "bytes": 3409548,
+      "sha256": "bd69532a1b7a773a68cb66266dab92e20db326ef104aa7faebdc2c6ee50b083b"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0448.npz.gz",
+      "bytes": 3410124,
+      "sha256": "3003c14370051bd8564faa91afd9dec363e3e3bf01da5f43921b0212978c5a28"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0480.npz.gz",
+      "bytes": 3412249,
+      "sha256": "f1c6ef05acb4353ca62821cf91fdc1b088778e1f47335cbfbbf7493d3453c15f"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0512.npz.gz",
+      "bytes": 3408395,
+      "sha256": "58097064ee3c513bdc7ebe64f5b536f69f5c7bbd48ab365b918b9572939338dd"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.part0544.npz",
+      "bytes": 669518,
+      "sha256": "9154e8cba43b596602ba4e35f1c81b62e44bafd7543f518d089621aa2ad45179"
+    },
+    {
+      "path": "data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516/block_0000_forward.trace.json",
+      "bytes": 74179,
+      "sha256": "88e4f1798931c6aefab472e5384651a939b9eee101bcd37431b9182d0503181a"
+    }
+  ]
+}

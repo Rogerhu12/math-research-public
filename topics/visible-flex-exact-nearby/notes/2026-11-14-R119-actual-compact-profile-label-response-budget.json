@@ -1,0 +1,378 @@
+{
+  "schema": "visible-exact-R119-actual-compact-profile-label-response-v1",
+  "implementation": "new exact V8 BigInt rational computation; not recovered Python native",
+  "input_blobs": {
+    "gauge": "1418581428ea76ede13a0a84ef718a92686d900f",
+    "controlled_profile": "f11edbccd752bf034aa40e71888859d667a04b42",
+    "small_amplitude": "8a359f45c35e513e786b11d6217a20c345ced5eb",
+    "high_oscillation": "30de43573d98bc4dcc2923561fed2e16a18cf51d",
+    "proof": "b4dc2199f9cfad8d7905068b84c7d658cf30abac"
+  },
+  "implementation_blob": "a3a4f0dda22d24edaa2db56aedac1d86061536e4",
+  "gates": [
+    {
+      "name": "actual_S_left_endpoint",
+      "passed": true,
+      "detail": {
+        "left": "201341/524288",
+        "relation": "lt",
+        "right": "1/2"
+      }
+    },
+    {
+      "name": "actual_S_greater_than_three_eighths",
+      "passed": true,
+      "detail": {
+        "left": "3/8",
+        "relation": "lt",
+        "right": "201341/524288"
+      }
+    },
+    {
+      "name": "first_descent_delta_exponent",
+      "passed": true,
+      "detail": {
+        "left": "-1/4",
+        "relation": "eq",
+        "right": "-1/4"
+      }
+    },
+    {
+      "name": "second_descent_delta_exponent",
+      "passed": true,
+      "detail": {
+        "left": "-5/8",
+        "relation": "eq",
+        "right": "-5/8"
+      }
+    },
+    {
+      "name": "first_descent_covered_by_second",
+      "passed": true,
+      "detail": {
+        "left": "-5/8",
+        "relation": "lt",
+        "right": "-1/4"
+      }
+    },
+    {
+      "name": "two_canonical_component_margin",
+      "passed": true,
+      "detail": {
+        "left": "33",
+        "relation": "lt",
+        "right": "64"
+      }
+    },
+    {
+      "name": "canonical_full_cell_power_margin",
+      "passed": true,
+      "detail": {
+        "left": "472",
+        "relation": "lt",
+        "right": "480"
+      }
+    },
+    {
+      "name": "mean_source_ball_n",
+      "passed": true,
+      "detail": {
+        "left": "1/64",
+        "relation": "lt",
+        "right": "1/32"
+      }
+    },
+    {
+      "name": "fourfold_cutoff_radius_fee",
+      "passed": true,
+      "detail": {
+        "left": "1048576",
+        "relation": "eq",
+        "right": "1048576"
+      }
+    },
+    {
+      "name": "halved_width_radius_fee",
+      "passed": true,
+      "detail": {
+        "left": "1024",
+        "relation": "eq",
+        "right": "1024"
+      }
+    },
+    {
+      "name": "true_derivative_Cauchy_fee",
+      "passed": true,
+      "detail": {
+        "left": "561216628735066720590214975763052679547878096502784",
+        "relation": "lt",
+        "right": "1496577676626844588240573268701473812127674924007424"
+      }
+    },
+    {
+      "name": "true_physical_derivative_fee",
+      "passed": true,
+      "detail": {
+        "left": "2468256835981809063232453773836025757474103798450369795022913536",
+        "relation": "lt",
+        "right": "6582018229284824168619876730229402019930943462534319453394436096"
+      }
+    },
+    {
+      "name": "actual_internal_subinterval_ball_first_layer",
+      "passed": true,
+      "detail": {
+        "left": "442597/32",
+        "relation": "lt",
+        "right": "14000"
+      }
+    },
+    {
+      "name": "actual_internal_true_input_below_quarter",
+      "passed": true,
+      "detail": {
+        "left": "-248144",
+        "relation": "lt",
+        "right": "-2"
+      }
+    },
+    {
+      "name": "actual_original_half_width_input",
+      "passed": true,
+      "detail": {
+        "left": "-281823",
+        "relation": "lt",
+        "right": "-2"
+      }
+    },
+    {
+      "name": "actual_background_n_first_layer",
+      "passed": true,
+      "detail": {
+        "left": "-281975",
+        "relation": "lt",
+        "right": "-6"
+      }
+    },
+    {
+      "name": "actual_internal_ball_all_layer_monotonicity",
+      "passed": true,
+      "detail": {
+        "left": "-29555/256",
+        "relation": "lt",
+        "right": "0"
+      }
+    },
+    {
+      "name": "ceil_argument_log_ratio",
+      "passed": true,
+      "detail": {
+        "left": "81/64",
+        "relation": "lt",
+        "right": "2"
+      }
+    },
+    {
+      "name": "fractional_h_ratio",
+      "passed": true,
+      "detail": {
+        "left": "2",
+        "relation": "lt",
+        "right": "43046721/16777216"
+      }
+    },
+    {
+      "name": "actual_fourfold_Galerkin_cutoff",
+      "passed": true,
+      "detail": {
+        "left": "28167/256",
+        "relation": "lt",
+        "right": "6137/2"
+      }
+    },
+    {
+      "name": "actual_cutoff_monotonicity",
+      "passed": true,
+      "detail": {
+        "left": "3/256",
+        "relation": "lt",
+        "right": "3/8"
+      }
+    },
+    {
+      "name": "source_R_k_with_one_width",
+      "passed": true,
+      "detail": {
+        "left": "83/24",
+        "relation": "lt",
+        "right": "32"
+      }
+    },
+    {
+      "name": "source_Rp_theta_with_two_widths",
+      "passed": true,
+      "detail": {
+        "left": "8/3",
+        "relation": "lt",
+        "right": "3"
+      }
+    },
+    {
+      "name": "source_Rk_plus_Rp_theta",
+      "passed": true,
+      "detail": {
+        "left": "35",
+        "relation": "lt",
+        "right": "64"
+      }
+    },
+    {
+      "name": "actual_nu_f_four_derivative_fee",
+      "passed": true,
+      "detail": {
+        "left": "32/9",
+        "relation": "lt",
+        "right": "32"
+      }
+    },
+    {
+      "name": "actual_profile_source_exponent",
+      "passed": true,
+      "detail": {
+        "left": "-13/4",
+        "relation": "eq",
+        "right": "-13/4"
+      }
+    },
+    {
+      "name": "actual_source_log_constant",
+      "passed": true,
+      "detail": {
+        "left": "482",
+        "relation": "lt",
+        "right": "490"
+      }
+    },
+    {
+      "name": "actual_full_integral_log_fee",
+      "passed": true,
+      "detail": {
+        "left": "491",
+        "relation": "eq",
+        "right": "491"
+      }
+    },
+    {
+      "name": "actual_true_linearized_endpoint_log_fee",
+      "passed": true,
+      "detail": {
+        "left": "661",
+        "relation": "eq",
+        "right": "661"
+      }
+    },
+    {
+      "name": "actual_radial_measure_delta_gain",
+      "passed": true,
+      "detail": {
+        "left": "-7/4",
+        "relation": "eq",
+        "right": "-7/4"
+      }
+    },
+    {
+      "name": "actual_endpoint_strong_source_margin",
+      "passed": true,
+      "detail": {
+        "left": "659",
+        "relation": "lt",
+        "right": "672"
+      }
+    },
+    {
+      "name": "actual_full_label_response_margin",
+      "passed": true,
+      "detail": {
+        "left": "689",
+        "relation": "lt",
+        "right": "768"
+      }
+    },
+    {
+      "name": "actual_gauged_local_field_log_fee",
+      "passed": true,
+      "detail": {
+        "left": "501",
+        "relation": "lt",
+        "right": "512"
+      }
+    },
+    {
+      "name": "actual_gauged_global_field_margin",
+      "passed": true,
+      "detail": {
+        "left": "781",
+        "relation": "lt",
+        "right": "832"
+      }
+    },
+    {
+      "name": "actual_gauged_local_field_covered",
+      "passed": true,
+      "detail": {
+        "left": "513",
+        "relation": "lt",
+        "right": "832"
+      }
+    },
+    {
+      "name": "actual_mean_global_sum_fee",
+      "passed": true,
+      "detail": {
+        "left": "160850",
+        "relation": "lt",
+        "right": "160900"
+      }
+    },
+    {
+      "name": "actual_mean_compact_integral_fee",
+      "passed": true,
+      "detail": {
+        "left": "160031",
+        "relation": "lt",
+        "right": "160900"
+      }
+    },
+    {
+      "name": "actual_Pj_delta_exponent",
+      "passed": true,
+      "detail": {
+        "left": "231/128",
+        "relation": "eq",
+        "right": "231/128"
+      }
+    }
+  ],
+  "gate_count": 38,
+  "all_passed": true,
+  "actual_contracts": {
+    "endpoint_source": "2^672 h_j^-14 delta_j^-7/4 rho^5 ||X||_X_beta",
+    "fixed_original_label_response": "2^768 h_j^-14 delta_j^-7/4 rho^5 ||X||_X_beta",
+    "full_gauged_physical_field": "2^832 (N_i^c)^# ||X||_X_beta h_j^-14 delta_j^-7/4 rho^5",
+    "mean_height": "2^160900 h_j^-14 delta_j^-7/4 rho^5 ||X||_X_beta, plus the one independent height constant and separate reference-height term"
+  },
+  "scope": "Actual same-current-Gamma source-free nonlinear background, all modes, original weighted labels, actual complete truncated IVP and tangent mean; profile compensation columns and physical network remain separate",
+  "retained": [
+    "all actual Fourier output",
+    "both nonlinear mean identities and independent height",
+    "full source first component",
+    "actual ordinary and weak source units",
+    "total/bare weak endpoint traces"
+  ],
+  "excluded": [
+    "new arbitrary label width",
+    "arbitrary L1 sources receiving rho5 for free",
+    "same-width derivative of naked pullback",
+    "claim of full nonradial network inverse"
+  ]
+}

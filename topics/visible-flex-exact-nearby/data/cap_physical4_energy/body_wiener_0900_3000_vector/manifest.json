@@ -1,0 +1,985 @@
+{
+  "kind": "true_infinite_Wiener_body_energy_cover",
+  "complete": true,
+  "identity": {
+    "source_sha256": "1270e17296a8efe2151c5207e1245507e01d2acd760c9423eb47ae24b5d53d6b",
+    "dependency_sha256": {
+      "fourfold_phase_cap_wiener_box.py": "6c86a5542e3370482ae3fef0b25630fc7e436c03929f6dd8e0af0eaef1a7c64f",
+      "fourfold_phase_cap_scaled_body.py": "f552b3c90880a9f9ee812015018a83da67e5d5fe66e1232fd2871d2c59e600db",
+      "fourfold_phase_cap_energy_interval.py": "ef752984f6e8c9331b1f11f2419f49460d42288fa0aba10555a18455b971df91",
+      "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_cap_moment_space.py": "4d20d2a8f6d71ebaf9b61aac23770ace273ecf14912a9ea4109df58406dc80da",
+      "fourfold_phase_cap_vector_germs.py": "b6aa15d3df04bc8411b201e4dc428f4f716dc6eee72d2dc03a4187086f29c7af"
+    },
+    "trial_report_path": "notes/2026-11-12-cap-space-boundary4-interior16-P2.json",
+    "trial_report_sha256": "7bb50d93188dd4253ccea2d8731931ea82e212c66829e91ff49ec29bb9a291ac",
+    "exact_trial_arrays": {
+      "path": "notes/2026-11-12-cap-space-boundary4-interior16-P2.npz",
+      "sha256": "d4d0db0b582ebda4e2941e5bc9d9a15f3bfc421b828deb8967b1a7115962ef2c",
+      "bytes": 1298513
+    },
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+    "bits": 160,
+    "error_density_target": "1/1000",
+    "max_depth": 4,
+    "boundary_physical_modes": 4,
+    "interior_physical_modes": 16,
+    "radial_degree": 2
+  },
+  "requested_exact_radial_interval": [
+    "2026619832316723/2251799813685248",
+    "3"
+  ],
+  "requested_element_range": [
+    22,
+    64
+  ],
+  "elements": [
+    {
+      "element": 22,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_022.json.gz",
+      "sha256": "9578473b175b6deacf5f647ec5236591a57442878b75f5fe0a5ab0e32cc83773",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[9.3534462963721924148039992435945735e-6 +/- 4.86e-41]",
+          "lower": "[9.3534462963721924148039992435945735e-6 +/- 4.86e-41]",
+          "upper": "[9.3534462963721924148039992435945735e-6 +/- 4.86e-41]",
+          "mid_float": 9.353446296372192e-06,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[9.4338779420270765542723931227108130e-6 +/- 2.65e-41]",
+          "lower": "[9.4338779420270765542723931227108130e-6 +/- 2.65e-41]",
+          "upper": "[9.4338779420270765542723931227108130e-6 +/- 2.65e-41]",
+          "mid_float": 9.433877942027077e-06,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 23,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_023.json.gz",
+      "sha256": "da06deb7e4cf44e770c1c56cc0d85b41b5d67516892180887d8f3004237e138b",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[7.0695878297049339998663375257191165e-6 +/- 1.95e-41]",
+          "lower": "[7.0695878297049339998663375257191165e-6 +/- 1.95e-41]",
+          "upper": "[7.0695878297049339998663375257191165e-6 +/- 1.95e-41]",
+          "mid_float": 7.069587829704934e-06,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[7.1051589146741613607726788381852819e-6 +/- 3.54e-41]",
+          "lower": "[7.1051589146741613607726788381852819e-6 +/- 3.54e-41]",
+          "upper": "[7.1051589146741613607726788381852819e-6 +/- 3.54e-41]",
+          "mid_float": 7.105158914674161e-06,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 24,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_024.json.gz",
+      "sha256": "2576ce15d380cde1ce6d71a44e8d20dd2e1b6c920ed06cba300b5628a206c8ce",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[5.3285096670033484853118677250620171e-6 +/- 2.99e-42]",
+          "lower": "[5.3285096670033484853118677250620171e-6 +/- 2.99e-42]",
+          "upper": "[5.3285096670033484853118677250620171e-6 +/- 2.99e-42]",
+          "mid_float": 5.328509667003349e-06,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[5.3439656664790859472509312043558050e-6 +/- 2.73e-41]",
+          "lower": "[5.3439656664790859472509312043558050e-6 +/- 2.73e-41]",
+          "upper": "[5.3439656664790859472509312043558050e-6 +/- 2.73e-41]",
+          "mid_float": 5.343965666479086e-06,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 25,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_025.json.gz",
+      "sha256": "3e63c195921f5b1d5bd728b56e156ee20518e434b5192da0e978ceeb1cf26194",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[4.0210880610043112829115756954070657e-6 +/- 2.79e-41]",
+          "lower": "[4.0210880610043112829115756954070657e-6 +/- 2.79e-41]",
+          "upper": "[4.0210880610043112829115756954070657e-6 +/- 2.79e-41]",
+          "mid_float": 4.0210880610043115e-06,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[4.0274294385487897197026816275575016e-6 +/- 4.56e-41]",
+          "lower": "[4.0274294385487897197026816275575016e-6 +/- 4.56e-41]",
+          "upper": "[4.0274294385487897197026816275575016e-6 +/- 4.56e-41]",
+          "mid_float": 4.02742943854879e-06,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 26,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_026.json.gz",
+      "sha256": "c1a03d9805c77e963894c89b897e21f14de6678a858325654057e300f5862225",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[2.9909574359586946903860371717853284e-6 +/- 1.81e-41]",
+          "lower": "[2.9909574359586946903860371717853284e-6 +/- 1.81e-41]",
+          "upper": "[2.9909574359586946903860371717853284e-6 +/- 1.81e-41]",
+          "mid_float": 2.990957435958695e-06,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[2.9932235685725064091238871873495737e-6 +/- 9.47e-42]",
+          "lower": "[2.9932235685725064091238871873495737e-6 +/- 9.47e-42]",
+          "upper": "[2.9932235685725064091238871873495737e-6 +/- 9.47e-42]",
+          "mid_float": 2.9932235685725065e-06,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 27,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_027.json.gz",
+      "sha256": "4925d11fac679ac0eff0086f097b454dbd7937a303e7e63a5a4a3d9b597df99f",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[2.2756161698237506210791635448606565e-6 +/- 1.12e-41]",
+          "lower": "[2.2756161698237506210791635448606565e-6 +/- 1.12e-41]",
+          "upper": "[2.2756161698237506210791635448606565e-6 +/- 1.12e-41]",
+          "mid_float": 2.2756161698237505e-06,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[2.2761980155803914791355888072451518e-6 +/- 4.48e-41]",
+          "lower": "[2.2761980155803914791355888072451518e-6 +/- 4.48e-41]",
+          "upper": "[2.2761980155803914791355888072451518e-6 +/- 4.48e-41]",
+          "mid_float": 2.2761980155803916e-06,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 28,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_028.json.gz",
+      "sha256": "d35d00bd572200a39dcde2b8168fbc41711aaf35c9c2296a9486ddbafe0f122a",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[1.7309195124701989448429529098307547e-6 +/- 2.08e-41]",
+          "lower": "[1.7309195124701989448429529098307547e-6 +/- 2.08e-41]",
+          "upper": "[1.7309195124701989448429529098307547e-6 +/- 2.08e-41]",
+          "mid_float": 1.7309195124701989e-06,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[1.7308745811754254131140951833023299e-6 +/- 4.73e-41]",
+          "lower": "[1.7308745811754254131140951833023299e-6 +/- 4.73e-41]",
+          "upper": "[1.7308745811754254131140951833023299e-6 +/- 4.73e-41]",
+          "mid_float": 1.7308745811754254e-06,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 29,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_029.json.gz",
+      "sha256": "50b850d4a28158402b28c4452ca184e2a9596e1e065c79ad17be69d7932865a3",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[1.3249033212760257229017116857599058e-6 +/- 5.29e-43]",
+          "lower": "[1.3249033212760257229017116857599058e-6 +/- 5.29e-43]",
+          "upper": "[1.3249033212760257229017116857599058e-6 +/- 5.29e-43]",
+          "mid_float": 1.3249033212760257e-06,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[1.3246944748505906823232288122497347e-6 +/- 3.40e-41]",
+          "lower": "[1.3246944748505906823232288122497347e-6 +/- 3.40e-41]",
+          "upper": "[1.3246944748505906823232288122497347e-6 +/- 3.40e-41]",
+          "mid_float": 1.3246944748505908e-06,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 30,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_030.json.gz",
+      "sha256": "1f09d8ce3b7266af397d1b19bb40519a7bc928b60d77411830e6e95040cdc313",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[1.0343200253677856339486179293787383e-6 +/- 1.15e-41]",
+          "lower": "[1.0343200253677856339486179293787383e-6 +/- 1.15e-41]",
+          "upper": "[1.0343200253677856339486179293787383e-6 +/- 1.15e-41]",
+          "mid_float": 1.0343200253677856e-06,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[1.0340804346967572408057460147252220e-6 +/- 1.78e-41]",
+          "lower": "[1.0340804346967572408057460147252220e-6 +/- 1.78e-41]",
+          "upper": "[1.0340804346967572408057460147252220e-6 +/- 1.78e-41]",
+          "mid_float": 1.0340804346967572e-06,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 31,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_031.json.gz",
+      "sha256": "a4fbf655d8be2dd814eaec820c67f0a4300c7fe3db812b0fdf79f687d4f159b9",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[8.1423820100751853235559984531722956e-7 +/- 8.63e-43]",
+          "lower": "[8.1423820100751853235559984531722956e-7 +/- 8.63e-43]",
+          "upper": "[8.1423820100751853235559984531722956e-7 +/- 8.63e-43]",
+          "mid_float": 8.142382010075185e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[8.1403236213919387296916521459684705e-7 +/- 4.47e-42]",
+          "lower": "[8.1403236213919387296916521459684705e-7 +/- 4.47e-42]",
+          "upper": "[8.1403236213919387296916521459684705e-7 +/- 4.47e-42]",
+          "mid_float": 8.140323621391939e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 32,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_032.json.gz",
+      "sha256": "af7078eb85604f70e4b7238efd6f6b65b3cfcaee9ee45de2663966895c67567b",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[6.7248421698799942555598308484312982e-7 +/- 1.07e-42]",
+          "lower": "[6.7248421698799942555598308484312982e-7 +/- 1.07e-42]",
+          "upper": "[6.7248421698799942555598308484312982e-7 +/- 1.07e-42]",
+          "mid_float": 6.724842169879994e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[6.7229661260670943771141159845670092e-7 +/- 1.96e-42]",
+          "lower": "[6.7229661260670943771141159845670092e-7 +/- 1.96e-42]",
+          "upper": "[6.7229661260670943771141159845670092e-7 +/- 1.96e-42]",
+          "mid_float": 6.722966126067095e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 33,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_033.json.gz",
+      "sha256": "6a9d25d98ec88d7e34a40fea381bb37915e3ce9ede7eb5c9c28b1fcd44353be9",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[5.6610433624746304522491315249306361e-7 +/- 3.82e-42]",
+          "lower": "[5.6610433624746304522491315249306361e-7 +/- 3.82e-42]",
+          "upper": "[5.6610433624746304522491315249306361e-7 +/- 3.82e-42]",
+          "mid_float": 5.66104336247463e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[5.6594282208812735892274841209549248e-7 +/- 9.01e-43]",
+          "lower": "[5.6594282208812735892274841209549248e-7 +/- 9.01e-43]",
+          "upper": "[5.6594282208812735892274841209549248e-7 +/- 9.01e-43]",
+          "mid_float": 5.659428220881274e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 34,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_034.json.gz",
+      "sha256": "bac248195ff0ad954721c3418057e9de6d62797b18c13a6f8ccc0ba890116020",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[4.8327214487491546712986154779638959e-7 +/- 4.45e-42]",
+          "lower": "[4.8327214487491546712986154779638959e-7 +/- 4.45e-42]",
+          "upper": "[4.8327214487491546712986154779638959e-7 +/- 4.45e-42]",
+          "mid_float": 4.832721448749154e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[4.8313411586979396907525682483326548e-7 +/- 4.31e-42]",
+          "lower": "[4.8313411586979396907525682483326548e-7 +/- 4.31e-42]",
+          "upper": "[4.8313411586979396907525682483326548e-7 +/- 4.31e-42]",
+          "mid_float": 4.83134115869794e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 35,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_035.json.gz",
+      "sha256": "7607adc21b1619311d7078c6f74b1d935fbd5155910e2c1567225d0e02ed2d82",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[4.2468811941747291978168811804456584e-7 +/- 2.15e-42]",
+          "lower": "[4.2468811941747291978168811804456584e-7 +/- 2.15e-42]",
+          "upper": "[4.2468811941747291978168811804456584e-7 +/- 2.15e-42]",
+          "mid_float": 4.246881194174729e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[4.2456765679667414316171795525762377e-7 +/- 1.49e-42]",
+          "lower": "[4.2456765679667414316171795525762377e-7 +/- 1.49e-42]",
+          "upper": "[4.2456765679667414316171795525762377e-7 +/- 1.49e-42]",
+          "mid_float": 4.2456765679667416e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 36,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_036.json.gz",
+      "sha256": "a9ab1ff81f404abdc897f4324a568ea6e6f53d043c830eec6e55f8532c749e43",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[3.7301962501876897194024869700978293e-7 +/- 4.64e-42]",
+          "lower": "[3.7301962501876897194024869700978293e-7 +/- 4.64e-42]",
+          "upper": "[3.7301962501876897194024869700978293e-7 +/- 4.64e-42]",
+          "mid_float": 3.73019625018769e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[3.7291302908607604265696236678944883e-7 +/- 1.04e-42]",
+          "lower": "[3.7291302908607604265696236678944883e-7 +/- 1.04e-42]",
+          "upper": "[3.7291302908607604265696236678944883e-7 +/- 1.04e-42]",
+          "mid_float": 3.7291302908607607e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 37,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_037.json.gz",
+      "sha256": "ea70ab2c7ad5afb7a53fba860c6bf238ed3dbebb64871ed0642216b97974495a",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[3.3655051395407292322361284364362228e-7 +/- 3.42e-42]",
+          "lower": "[3.3655051395407292322361284364362228e-7 +/- 3.42e-42]",
+          "upper": "[3.3655051395407292322361284364362228e-7 +/- 3.42e-42]",
+          "mid_float": 3.365505139540729e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[3.3645485582631151063762556290305612e-7 +/- 2.08e-42]",
+          "lower": "[3.3645485582631151063762556290305612e-7 +/- 2.08e-42]",
+          "upper": "[3.3645485582631151063762556290305612e-7 +/- 2.08e-42]",
+          "mid_float": 3.364548558263115e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 38,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_038.json.gz",
+      "sha256": "315e19490eeb8310624d2a71e2fb8844fc9a4ea9f63fb65e74f149f666604951",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[2.9990156272546452125969109341967408e-7 +/- 4.19e-44]",
+          "lower": "[2.9990156272546452125969109341967408e-7 +/- 4.19e-44]",
+          "upper": "[2.9990156272546452125969109341967408e-7 +/- 4.19e-44]",
+          "mid_float": 2.9990156272546454e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[2.9981691773574925083143355125430290e-7 +/- 9.21e-43]",
+          "lower": "[2.9981691773574925083143355125430290e-7 +/- 9.21e-43]",
+          "upper": "[2.9981691773574925083143355125430290e-7 +/- 9.21e-43]",
+          "mid_float": 2.9981691773574926e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 39,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_039.json.gz",
+      "sha256": "dcb46e785a6075d135f21f62ff9a0a83394674763b2e7b8985d7a348dfef4669",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[2.6740043416912180034237690698147530e-7 +/- 1.95e-44]",
+          "lower": "[2.6740043416912180034237690698147530e-7 +/- 1.95e-44]",
+          "upper": "[2.6740043416912180034237690698147530e-7 +/- 1.95e-44]",
+          "mid_float": 2.674004341691218e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[2.6732464020632073415614223413293507e-7 +/- 1.98e-42]",
+          "lower": "[2.6732464020632073415614223413293507e-7 +/- 1.98e-42]",
+          "upper": "[2.6732464020632073415614223413293507e-7 +/- 1.98e-42]",
+          "mid_float": 2.6732464020632075e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 40,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_040.json.gz",
+      "sha256": "1cf6f8e15f362419ea802d9714971ff39bd1344a53f07563cc96c0a2967262af",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[2.4400666410078921275120903509138572e-7 +/- 2.21e-43]",
+          "lower": "[2.4400666410078921275120903509138572e-7 +/- 2.21e-43]",
+          "upper": "[2.4400666410078921275120903509138572e-7 +/- 2.21e-43]",
+          "mid_float": 2.4400666410078924e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[2.4393758326698746152638746683585071e-7 +/- 2.34e-42]",
+          "lower": "[2.4393758326698746152638746683585071e-7 +/- 2.34e-42]",
+          "upper": "[2.4393758326698746152638746683585071e-7 +/- 2.34e-42]",
+          "mid_float": 2.4393758326698745e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 41,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_041.json.gz",
+      "sha256": "1fa779ea4924efa24d40abb0b6aac125c153ead70bfaa4fa9ab91ccab1bd68f4",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[2.2155975746419165165347301222875676e-7 +/- 2.99e-42]",
+          "lower": "[2.2155975746419165165347301222875676e-7 +/- 2.99e-42]",
+          "upper": "[2.2155975746419165165347301222875676e-7 +/- 2.99e-42]",
+          "mid_float": 2.2155975746419166e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[2.2149788256796787438550405249716843e-7 +/- 9.59e-44]",
+          "lower": "[2.2149788256796787438550405249716843e-7 +/- 9.59e-44]",
+          "upper": "[2.2149788256796787438550405249716843e-7 +/- 9.59e-44]",
+          "mid_float": 2.2149788256796787e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 42,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_042.json.gz",
+      "sha256": "76ca3bef767e339f3dd8334ba48295faaf42e6911f0b93e1572bea1d0901c195",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[2.0345902143400745699565565922200181e-7 +/- 4.57e-42]",
+          "lower": "[2.0345902143400745699565565922200181e-7 +/- 4.57e-42]",
+          "upper": "[2.0345902143400745699565565922200181e-7 +/- 4.57e-42]",
+          "mid_float": 2.0345902143400745e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[2.0340156355855808088723918253246056e-7 +/- 3.11e-42]",
+          "lower": "[2.0340156355855808088723918253246056e-7 +/- 3.11e-42]",
+          "upper": "[2.0340156355855808088723918253246056e-7 +/- 3.11e-42]",
+          "mid_float": 2.0340156355855808e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 43,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_043.json.gz",
+      "sha256": "fc71b6690e143bbc7aece6fbf8f82a9dbf5b90f3c7580602d0c3fe9f51bc9c94",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[1.8062572062682119160541095959543296e-7 +/- 3.13e-43]",
+          "lower": "[1.8062572062682119160541095959543296e-7 +/- 3.13e-43]",
+          "upper": "[1.8062572062682119160541095959543296e-7 +/- 3.13e-43]",
+          "mid_float": 1.806257206268212e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[1.8057560174421328673413687754880529e-7 +/- 3.64e-42]",
+          "lower": "[1.8057560174421328673413687754880529e-7 +/- 3.64e-42]",
+          "upper": "[1.8057560174421328673413687754880529e-7 +/- 3.64e-42]",
+          "mid_float": 1.8057560174421328e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 44,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_044.json.gz",
+      "sha256": "bfbf32a020c00cc6a70b70c9be4aa5f792a69256117ec0a54d2fc31383d355e0",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[1.6866773801267951572003729890784139e-7 +/- 3.39e-42]",
+          "lower": "[1.6866773801267951572003729890784139e-7 +/- 3.39e-42]",
+          "upper": "[1.6866773801267951572003729890784139e-7 +/- 3.39e-42]",
+          "mid_float": 1.6866773801267952e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[1.6862082680550461891805116585080688e-7 +/- 3.83e-42]",
+          "lower": "[1.6862082680550461891805116585080688e-7 +/- 3.83e-42]",
+          "upper": "[1.6862082680550461891805116585080688e-7 +/- 3.83e-42]",
+          "mid_float": 1.6862082680550463e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 45,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_045.json.gz",
+      "sha256": "d158afa081839d7979cd21f62e00bad1c0cdcb01a8995e53cdf05fe0268309e7",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[1.5222022060666828779915185453282265e-7 +/- 1.08e-42]",
+          "lower": "[1.5222022060666828779915185453282265e-7 +/- 1.08e-42]",
+          "upper": "[1.5222022060666828779915185453282265e-7 +/- 1.08e-42]",
+          "mid_float": 1.522202206066683e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[1.5217829549635560421095857290977650e-7 +/- 1.95e-42]",
+          "lower": "[1.5217829549635560421095857290977650e-7 +/- 1.95e-42]",
+          "upper": "[1.5217829549635560421095857290977650e-7 +/- 1.95e-42]",
+          "mid_float": 1.521782954963556e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 46,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_046.json.gz",
+      "sha256": "a46f20f24aff0149a39efb2bf7a9444f2de4f564f8e83e846a3a289b497ef0fc",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[1.3555162351903936240593724082176343e-7 +/- 3.21e-42]",
+          "lower": "[1.3555162351903936240593724082176343e-7 +/- 3.21e-42]",
+          "upper": "[1.3555162351903936240593724082176343e-7 +/- 3.21e-42]",
+          "mid_float": 1.3555162351903937e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[1.3551471345011085840967931119708849e-7 +/- 2.81e-42]",
+          "lower": "[1.3551471345011085840967931119708849e-7 +/- 2.81e-42]",
+          "upper": "[1.3551471345011085840967931119708849e-7 +/- 2.81e-42]",
+          "mid_float": 1.3551471345011087e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 47,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_047.json.gz",
+      "sha256": "42a215ed7703335185cec3e6397471fda5f47476e284236dcaa6feec9bec46a2",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[1.2717301554612965840246860048452402e-7 +/- 3.10e-42]",
+          "lower": "[1.2717301554612965840246860048452402e-7 +/- 3.10e-42]",
+          "upper": "[1.2717301554612965840246860048452402e-7 +/- 3.10e-42]",
+          "mid_float": 1.2717301554612965e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[1.2713852884655689828048570718179272e-7 +/- 7.88e-43]",
+          "lower": "[1.2713852884655689828048570718179272e-7 +/- 7.88e-43]",
+          "upper": "[1.2713852884655689828048570718179272e-7 +/- 7.88e-43]",
+          "mid_float": 1.271385288465569e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 48,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_048.json.gz",
+      "sha256": "1c271e921e64cbb91ce469761d0b29fcc77661c63c2a6592ab8e62d8f3563532",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[1.1417532424026971281871403602703894e-7 +/- 3.85e-42]",
+          "lower": "[1.1417532424026971281871403602703894e-7 +/- 3.85e-42]",
+          "upper": "[1.1417532424026971281871403602703894e-7 +/- 3.85e-42]",
+          "mid_float": 1.1417532424026971e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[1.1414495055392920982295263991382890e-7 +/- 4.50e-42]",
+          "lower": "[1.1414495055392920982295263991382890e-7 +/- 4.50e-42]",
+          "upper": "[1.1414495055392920982295263991382890e-7 +/- 4.50e-42]",
+          "mid_float": 1.1414495055392921e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 49,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_049.json.gz",
+      "sha256": "b6eaabb957a68e76a1a91c02b23b0c7c0c648ed72e09e8a4a8524003c2e25e3c",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[1.0438979985009657068357342793697784e-7 +/- 9.89e-43]",
+          "lower": "[1.0438979985009657068357342793697784e-7 +/- 9.89e-43]",
+          "upper": "[1.0438979985009657068357342793697784e-7 +/- 9.89e-43]",
+          "mid_float": 1.0438979985009657e-07,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[1.0436204801387223560456815771152124e-7 +/- 7.34e-43]",
+          "lower": "[1.0436204801387223560456815771152124e-7 +/- 7.34e-43]",
+          "upper": "[1.0436204801387223560456815771152124e-7 +/- 7.34e-43]",
+          "mid_float": 1.0436204801387224e-07,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 50,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_050.json.gz",
+      "sha256": "bb49c582dc3d39771ccc89aa9c77baffde27bd1a67f3aeff25f4f287d14daf84",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[9.4742402349095706224857883146722995e-8 +/- 2.25e-43]",
+          "lower": "[9.4742402349095706224857883146722995e-8 +/- 2.25e-43]",
+          "upper": "[9.4742402349095706224857883146722995e-8 +/- 2.25e-43]",
+          "mid_float": 9.47424023490957e-08,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[9.4717318179968832704721371904873922e-8 +/- 4.15e-44]",
+          "lower": "[9.4717318179968832704721371904873922e-8 +/- 4.15e-44]",
+          "upper": "[9.4717318179968832704721371904873922e-8 +/- 4.15e-44]",
+          "mid_float": 9.471731817996883e-08,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 51,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_051.json.gz",
+      "sha256": "ef2cc96c6827b4639df3a0f7e3314850b586b311afbd48b8a95e7515016eace7",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[8.5146718872025290034270376588623782e-8 +/- 4.57e-43]",
+          "lower": "[8.5146718872025290034270376588623782e-8 +/- 4.57e-43]",
+          "upper": "[8.5146718872025290034270376588623782e-8 +/- 4.57e-43]",
+          "mid_float": 8.514671887202529e-08,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[8.5124772132345998173150258258974984e-8 +/- 2.88e-43]",
+          "lower": "[8.5124772132345998173150258258974984e-8 +/- 2.88e-43]",
+          "upper": "[8.5124772132345998173150258258974984e-8 +/- 2.88e-43]",
+          "mid_float": 8.5124772132346e-08,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 52,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_052.json.gz",
+      "sha256": "58c3d665f691264fed0e43a0d838c6ca3508ac048240298fb390dab4ba7dee17",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[7.9283240499543015534861441979408419e-8 +/- 3.98e-43]",
+          "lower": "[7.9283240499543015534861441979408419e-8 +/- 3.98e-43]",
+          "upper": "[7.9283240499543015534861441979408419e-8 +/- 3.98e-43]",
+          "mid_float": 7.928324049954302e-08,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[7.9262863812262988450564925020635171e-8 +/- 3.19e-43]",
+          "lower": "[7.9262863812262988450564925020635171e-8 +/- 3.19e-43]",
+          "upper": "[7.9262863812262988450564925020635171e-8 +/- 3.19e-43]",
+          "mid_float": 7.926286381226299e-08,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 53,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_053.json.gz",
+      "sha256": "977625a8655a6db6c29023c3281bdc5ca20dcb911d9bf4dcb2b874284284092f",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[7.0553638133486233113909346917982318e-8 +/- 4.49e-43]",
+          "lower": "[7.0553638133486233113909346917982318e-8 +/- 4.49e-43]",
+          "upper": "[7.0553638133486233113909346917982318e-8 +/- 4.49e-43]",
+          "mid_float": 7.055363813348623e-08,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[7.0535331089523291387710694959100076e-8 +/- 3.46e-43]",
+          "lower": "[7.0535331089523291387710694959100076e-8 +/- 3.46e-43]",
+          "upper": "[7.0535331089523291387710694959100076e-8 +/- 3.46e-43]",
+          "mid_float": 7.05353310895233e-08,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 54,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_054.json.gz",
+      "sha256": "5633dee4f30970608f8634ab70ff95bdfac9128501bf554bd87f92e0c6c2d056",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[6.4846793410650540318357511501026713e-8 +/- 1.62e-43]",
+          "lower": "[6.4846793410650540318357511501026713e-8 +/- 1.62e-43]",
+          "upper": "[6.4846793410650540318357511501026713e-8 +/- 1.62e-43]",
+          "mid_float": 6.484679341065053e-08,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[6.4830125273460031303779716139026955e-8 +/- 1.12e-43]",
+          "lower": "[6.4830125273460031303779716139026955e-8 +/- 1.12e-43]",
+          "upper": "[6.4830125273460031303779716139026955e-8 +/- 1.12e-43]",
+          "mid_float": 6.483012527346003e-08,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 55,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_055.json.gz",
+      "sha256": "13a5fdf2124b83176e2d939868a792c7d232e8f0b6b2b8c85eb979f5550c9593",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[5.8729445402478570252918026043453158e-8 +/- 3.01e-43]",
+          "lower": "[5.8729445402478570252918026043453158e-8 +/- 3.01e-43]",
+          "upper": "[5.8729445402478570252918026043453158e-8 +/- 3.01e-43]",
+          "mid_float": 5.872944540247857e-08,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[5.8714435800288763019319594324524186e-8 +/- 1.98e-43]",
+          "lower": "[5.8714435800288763019319594324524186e-8 +/- 1.98e-43]",
+          "upper": "[5.8714435800288763019319594324524186e-8 +/- 1.98e-43]",
+          "mid_float": 5.871443580028876e-08,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 56,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_056.json.gz",
+      "sha256": "5682bf2dad0d03b1bc4cef6e16a7021742ad26111b9491893c3fb6e2596745ba",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[5.2841652922805127428846406848739343e-8 +/- 6.77e-44]",
+          "lower": "[5.2841652922805127428846406848739343e-8 +/- 6.77e-44]",
+          "upper": "[5.2841652922805127428846406848739343e-8 +/- 6.77e-44]",
+          "mid_float": 5.2841652922805126e-08,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[5.2828608542993728577802754090834818e-8 +/- 2.21e-43]",
+          "lower": "[5.2828608542993728577802754090834818e-8 +/- 2.21e-43]",
+          "upper": "[5.2828608542993728577802754090834818e-8 +/- 2.21e-43]",
+          "mid_float": 5.282860854299373e-08,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 57,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_057.json.gz",
+      "sha256": "1674b7b23cd7f6b574478531a34c6e46799aa449ab531477c4fb569871525361",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[4.7490650910581259804998894702301747e-8 +/- 2.93e-43]",
+          "lower": "[4.7490650910581259804998894702301747e-8 +/- 2.93e-43]",
+          "upper": "[4.7490650910581259804998894702301747e-8 +/- 2.93e-43]",
+          "mid_float": 4.749065091058126e-08,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[4.7479168355984268597013986364805737e-8 +/- 4.24e-43]",
+          "lower": "[4.7479168355984268597013986364805737e-8 +/- 4.24e-43]",
+          "upper": "[4.7479168355984268597013986364805737e-8 +/- 4.24e-43]",
+          "mid_float": 4.747916835598427e-08,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 58,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_058.json.gz",
+      "sha256": "54a8e55ec8644bf8bb9493fbff79b5a4cf675344a23c8a7ce8fdec6982916172",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[4.3462009335561705440675589183944658e-8 +/- 1.82e-43]",
+          "lower": "[4.3462009335561705440675589183944658e-8 +/- 1.82e-43]",
+          "upper": "[4.3462009335561705440675589183944658e-8 +/- 1.82e-43]",
+          "mid_float": 4.3462009335561706e-08,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[4.3451694165100413506642885004632347e-8 +/- 3.50e-43]",
+          "lower": "[4.3451694165100413506642885004632347e-8 +/- 3.50e-43]",
+          "upper": "[4.3451694165100413506642885004632347e-8 +/- 3.50e-43]",
+          "mid_float": 4.345169416510041e-08,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 59,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_059.json.gz",
+      "sha256": "3f06a8c0fb8eb08864e012f9dd448c55cfd6d9ac07b253a6b42d0a4e71a131ce",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[3.9691343509946997110133082140503644e-8 +/- 2.47e-43]",
+          "lower": "[3.9691343509946997110133082140503644e-8 +/- 2.47e-43]",
+          "upper": "[3.9691343509946997110133082140503644e-8 +/- 2.47e-43]",
+          "mid_float": 3.9691343509946996e-08,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[3.9682132402358048225334090439475155e-8 +/- 4.22e-43]",
+          "lower": "[3.9682132402358048225334090439475155e-8 +/- 4.22e-43]",
+          "upper": "[3.9682132402358048225334090439475155e-8 +/- 4.22e-43]",
+          "mid_float": 3.968213240235805e-08,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 60,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_060.json.gz",
+      "sha256": "64ffb7a77a367453014b0870ae35971961f5ede5fba06b87d0848a5eb66f5d3e",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[3.5886438697999025572191242783129182e-8 +/- 4.64e-43]",
+          "lower": "[3.5886438697999025572191242783129182e-8 +/- 4.64e-43]",
+          "upper": "[3.5886438697999025572191242783129182e-8 +/- 4.64e-43]",
+          "mid_float": 3.5886438697999024e-08,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[3.5878151025544890297398095911379699e-8 +/- 2.30e-43]",
+          "lower": "[3.5878151025544890297398095911379699e-8 +/- 2.30e-43]",
+          "upper": "[3.5878151025544890297398095911379699e-8 +/- 2.30e-43]",
+          "mid_float": 3.587815102554489e-08,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 61,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_061.json.gz",
+      "sha256": "06adf4ff7c0bb7fdf3e4f8ca20f68370bad2763c67e0c820705f1ec13053e843",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[3.2284732268006537885200484293229579e-8 +/- 3.84e-44]",
+          "lower": "[3.2284732268006537885200484293229579e-8 +/- 3.84e-44]",
+          "upper": "[3.2284732268006537885200484293229579e-8 +/- 3.84e-44]",
+          "mid_float": 3.228473226800654e-08,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[3.2277581222731333621773708899129538e-8 +/- 3.34e-43]",
+          "lower": "[3.2277581222731333621773708899129538e-8 +/- 3.34e-43]",
+          "upper": "[3.2277581222731333621773708899129538e-8 +/- 3.34e-43]",
+          "mid_float": 3.227758122273133e-08,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 62,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_062.json.gz",
+      "sha256": "897ec4f9300f2b5c5e6fa5d37adf809fd57321c52caf3471015daa14ec41c580",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[2.9758737846208315475412466680784406e-8 +/- 4.59e-44]",
+          "lower": "[2.9758737846208315475412466680784406e-8 +/- 4.59e-44]",
+          "upper": "[2.9758737846208315475412466680784406e-8 +/- 4.59e-44]",
+          "mid_float": 2.9758737846208315e-08,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[2.9752548522946036864006390819407034e-8 +/- 3.41e-43]",
+          "lower": "[2.9752548522946036864006390819407034e-8 +/- 3.41e-43]",
+          "upper": "[2.9752548522946036864006390819407034e-8 +/- 3.41e-43]",
+          "mid_float": 2.9752548522946038e-08,
+          "radius_upper_float": 0.0
+        }
+      }
+    },
+    {
+      "element": 63,
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_063.json.gz",
+      "sha256": "ad8450dbe5fee542a4862592ef55a52567b9466b8f8ed6d99d8625aef25ccaff",
+      "complete": true,
+      "errors": {
+        "primal_energy": {
+          "ball": "[3.5494957762701122868835209535775592e-8 +/- 1.86e-43]",
+          "lower": "[3.5494957762701122868835209535775592e-8 +/- 1.86e-43]",
+          "upper": "[3.5494957762701122868835209535775592e-8 +/- 1.86e-43]",
+          "mid_float": 3.549495776270112e-08,
+          "radius_upper_float": 0.0
+        },
+        "dual_energy": {
+          "ball": "[3.5486880420657821081305592325040167e-8 +/- 6.71e-44]",
+          "lower": "[3.5486880420657821081305592325040167e-8 +/- 6.71e-44]",
+          "upper": "[3.5486880420657821081305592325040167e-8 +/- 6.71e-44]",
+          "mid_float": 3.5486880420657824e-08,
+          "radius_upper_float": 0.0
+        }
+      }
+    }
+  ],
+  "full_positive_cap_complete": false,
+  "scope": "Only the requested body interval. All infinite angular perturbations and every scalar common span are included; no whole cap or final inverse claim.",
+  "CPU_seconds_this_invocation": 215.28813702899998,
+  "wall_seconds_this_invocation": 2278.3705760830017,
+  "integrated_operator_errors": {
+    "primal_energy": {
+      "ball": "[4.1789049120705821470767337808141261e-5 +/- 2.26e-40]",
+      "lower": "[4.1789049120705821470767337808141261e-5 +/- 2.26e-40]",
+      "upper": "[4.1789049120705821470767337808141261e-5 +/- 2.26e-40]",
+      "mid_float": 4.1789049120705824e-05,
+      "radius_upper_float": 0.0
+    },
+    "dual_energy": {
+      "ball": "[4.1927379654209963701214181716642026e-5 +/- 6.39e-41]",
+      "lower": "[4.1927379654209963701214181716642026e-5 +/- 6.39e-41]",
+      "upper": "[4.1927379654209963701214181716642026e-5 +/- 6.39e-41]",
+      "mid_float": 4.1927379654209966e-05,
+      "radius_upper_float": 0.0
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "kind": "R96_R98_complete_sources_proofs_and_actual_CI_reports",
+  "proved_intermediate_results": [
+    "R96",
+    "R98"
+  ],
+  "topic_complete": false,
+  "scope": "Complete actual 178-cell source/contact and common symplectic root frame. The full feedback inverse and exact nonlinear zero remain open.",
+  "actual_compute_run": 43300408666,
+  "preservation_run": 43301491511,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_canonical_collar_bivariate_recovery.py",
+      "sha256": "37f2e11402165075577d65349c2eebee830a6f17e11a6bcc94192dab3ed9be26",
+      "transferred": "small text GitHub blob"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_canonical_mixed_recovery_run.py",
+      "sha256": "d98b831c1995cf2887136833a1587b817d9b81f28a23ffaf16e2ed8b6c0f5642",
+      "transferred": "small text GitHub blob"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_canonical_mixed_recovery_collect.py",
+      "sha256": "ae992a201768a6b63cad4dd1a01e3612f9e149580fcce5f5f72c5b483bc60720",
+      "transferred": "small text GitHub blob"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_direct_canonical_source_budget.py",
+      "sha256": "a4fb3ec6a1639c7f2756b7e44066cca5a68d8e1c805aa288cc8c70c8d9645417",
+      "transferred": "small text GitHub blob"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_canonical_mixed_publish.py",
+      "sha256": "4d0bcd34e6b70ba5bda673809f18403fd1724cf927e97346a356e8024c19e89a",
+      "transferred": "small text GitHub blob"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_canonical_mixed_reassemble.py",
+      "sha256": "17c1fdc7cf0ca244a6e1ddfc9c09b85cf950340ceaa86158e9d9b59a2b06ffbc",
+      "transferred": "small text GitHub blob"
+    },
+    {
+      "path": ".github/workflows/visible-exact-mixed-r96-recovery.yml",
+      "sha256": "6b40a5eea44a4907fc4af483b6d244269c4e465e4c4bf81672a6399af3b02b0e",
+      "transferred": "small text GitHub blob"
+    },
+    {
+      "path": ".github/workflows/visible-exact-r96-publish.yml",
+      "sha256": "eba3d6852e1ed6d0e378c1e82ce997354bac20fbfc4408e7356a5a9d18722b26",
+      "transferred": "small text GitHub blob"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R96-direct-canonical-full-cap-source-and-contact.md",
+      "sha256": "0020b1595f1971c13e43ae8cae5c1cf50fda28c5858b6a3b949edd842c85442f",
+      "transferred": "small text GitHub blob"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R98-common-positive-root-amplitude-and-symplectic-frame.md",
+      "sha256": "2554057ad6b0414c1cd6217f16dea6e71273c1c39cd48aa01b64bf92cc4f5327",
+      "transferred": "small text GitHub blob"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-mixed-R96-environment-recovery.md",
+      "sha256": "debd05e469a7cb044e1ca563cf4feb78ae2848114f66907752d59c7c0ab20d61",
+      "transferred": "small text GitHub blob"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-ci-canonical-mixed-recovery-summary.json",
+      "sha256": "cbae384c627b7db4b01d142d29bacf4627776fafb80f8689e58cc896311266cf",
+      "transferred": "CI terminal Git"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-ci-direct-canonical-source-summary.json",
+      "sha256": "826bda30e5d42bf47efc4fb5daa3bf6da1361bb2f4ee737486f89be9c597ca09",
+      "transferred": "CI terminal Git"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-direct-canonical-source-budget.json",
+      "sha256": "b568783f5270102aac2ed2d9656c6e86cc6acdce734358e53a0ac4a265513d3c",
+      "transferred": "CI terminal Git"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-canonical-mixed-recovery-complete-parts/manifest.json",
+      "sha256": "7079605bb9dcb1876fda9f581170482f0064a44f7a42625c453dfc6e7f38faf4",
+      "transferred": "CI terminal Git"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-canonical-mixed-recovery-complete-parts/part-000.bin",
+      "sha256": "9cfa775739d42ac00766e74533f4a9b70ca161587e30ab824ca284c4c10bdf90",
+      "bytes": 4000000,
+      "transferred": "CI terminal Git only; no binary in tools"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-canonical-mixed-recovery-complete-parts/part-001.bin",
+      "sha256": "fde50649d851b22c0c12ddd68333c8a1c8eb50d9a7544b04261f8ee5fe2e9450",
+      "bytes": 1041047,
+      "transferred": "CI terminal Git only; no binary in tools"
+    }
+  ]
+}

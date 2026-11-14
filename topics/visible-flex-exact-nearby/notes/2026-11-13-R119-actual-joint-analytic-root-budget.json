@@ -1,0 +1,412 @@
+{
+  "kind": "R119-actual-joint-analytic-root-and-relative-Airy-Cauchy-v1",
+  "status": "complete",
+  "arithmetic": "exact Fraction and symbolic identities; Arb256 for strict transcendental gates",
+  "frequency_scope": "all m in4Z including both complete canonical mean states",
+  "background_scope": "actual stronger-tail nonlinear label solution; working small X is conditional",
+  "source_scope": "exact full Piola and height formulas; canonical L1 pair paid, original anisotropic pullback not asserted",
+  "checks_count": 77,
+  "checks": [
+    {
+      "name": "actual_complete_relative_state_at_129",
+      "pass": true,
+      "evidence": "[-30.7570923904437065533803131477971289444767400 +/- 2.23e-44]"
+    },
+    {
+      "name": "actual_complete_relative_state_at_4096",
+      "pass": true,
+      "evidence": "[-6973.00709239044370655338031314779712894447674 +/- 2.24e-44]"
+    },
+    {
+      "name": "actual_complete_relative_state_at_4097",
+      "pass": true,
+      "evidence": "[-6928.53604801589923062583243365049843631178219 +/- 1.01e-43]"
+    },
+    {
+      "name": "actual_complete_relative_state_at_8192",
+      "pass": true,
+      "evidence": "[-20157.3055792658992306258324336504984363117822 +/- 1.02e-41]"
+    },
+    {
+      "name": "actual_complete_relative_state_at_8193",
+      "pass": true,
+      "evidence": "[-20281.7860480158992306258324336504984363117822 +/- 1.02e-41]"
+    },
+    {
+      "name": "actual_first_regime_decreases",
+      "pass": true,
+      "evidence": "N_(j+1)/N_j=2^(-7/4) through4096"
+    },
+    {
+      "name": "actual_middle_regime_decreases",
+      "pass": true,
+      "evidence": "The actual h and the retained delta4096 factor are used"
+    },
+    {
+      "name": "actual_last_regime_decreases",
+      "pass": true,
+      "evidence": "The actual delta8192^(-485/4) is retained in logN"
+    },
+    {
+      "name": "actual_full_label_CK_domain",
+      "pass": true,
+      "evidence": "n=4N X and X<16a on the true label ball2^-8"
+    },
+    {
+      "name": "actual_working_root_smallness",
+      "pass": true,
+      "evidence": "The complete finite prefix and infinite new tail were paid in U.25"
+    },
+    {
+      "name": "actual_four_roots_count",
+      "pass": true,
+      "evidence": "Two true up ramps, two roots per ramp, and the complete four-state input factor"
+    },
+    {
+      "name": "actual_root_slope",
+      "pass": true,
+      "evidence": "[298.448676426993130565416437432702255791391741 +/- 2.69e-43]"
+    },
+    {
+      "name": "actual_root_w_old129",
+      "pass": true,
+      "evidence": "[-656.219280948873623478703194294893901758648314 +/- 7.00e-44]"
+    },
+    {
+      "name": "actual_root_w_middle4097",
+      "pass": true,
+      "evidence": "[-20494.7192809488736234787031942948939017586483 +/- 1.40e-41]"
+    },
+    {
+      "name": "actual_root_w_new8193",
+      "pass": true,
+      "evidence": "[-34708.7192809488736234787031942948939017586483 +/- 1.40e-41]"
+    },
+    {
+      "name": "actual_complex_w_remains_small",
+      "pass": true,
+      "evidence": "exp(2/b)<2 on the whole true root disk"
+    },
+    {
+      "name": "actual_quartic_complete_complex_disk",
+      "pass": true,
+      "evidence": "269361/7340032"
+    },
+    {
+      "name": "actual_root_disk_does_not_cross_radial_seam",
+      "pass": true,
+      "evidence": "The exact scaled seam distance is14sqrt(1-4z), z<2^-20"
+    },
+    {
+      "name": "CK_weighted_full_convolution_algebra",
+      "pass": true,
+      "evidence": "[1.00000000000000000000000000000000000000000000 +/- 1e-49]"
+    },
+    {
+      "name": "CK_complete_leading_denominator",
+      "pass": true,
+      "evidence": "The full inverse is the convergent complete convolution series"
+    },
+    {
+      "name": "CK_complete_numerator_bound",
+      "pass": true,
+      "evidence": "16385/4096"
+    },
+    {
+      "name": "CK_complete_numerator_Lipschitz",
+      "pass": true,
+      "evidence": "32773/8192"
+    },
+    {
+      "name": "CK_inverse_Lipschitz",
+      "pass": true,
+      "evidence": "Two products, two inverse bounds, and the full J difference"
+    },
+    {
+      "name": "CK_complete_second_row_Lipschitz",
+      "pass": true,
+      "evidence": "20485/1024"
+    },
+    {
+      "name": "CK_both_rows_Lipschitz",
+      "pass": true,
+      "evidence": "The first and second nonlinear rows are both included"
+    },
+    {
+      "name": "CK_Volterra_cancels_one_full_angular_derivative",
+      "pass": true,
+      "evidence": "(1+|m|)/b times the exact exponential kernel integral is1/(b lambda)"
+    },
+    {
+      "name": "CK_true_full_ball_maps_into_itself",
+      "pass": true,
+      "evidence": "Data n plus the full nonlinear image of the2n ball"
+    },
+    {
+      "name": "CK_full_complex_four_state_bound",
+      "pass": true,
+      "evidence": "The weighted fixed point is at most64n/63; removing its radial weight costs less than2"
+    },
+    {
+      "name": "actual_two_characteristic_coefficient_difference",
+      "pass": true,
+      "evidence": "345/4"
+    },
+    {
+      "name": "actual_two_characteristic_angular_derivative",
+      "pass": true,
+      "evidence": "345/2"
+    },
+    {
+      "name": "actual_two_characteristic_full_speed",
+      "pass": true,
+      "evidence": "20535312729/17179869184"
+    },
+    {
+      "name": "actual_characteristic_full_Jacobian_fee",
+      "pass": true,
+      "evidence": "The actual derivative flow exponential is bounded before taking its inverse"
+    },
+    {
+      "name": "actual_characteristic_inverse_label_fee",
+      "pass": true,
+      "evidence": "The inverse contains the whole angular map, not its linearization"
+    },
+    {
+      "name": "actual_z_cubed_removable_quotient",
+      "pass": true,
+      "evidence": "32768/9"
+    },
+    {
+      "name": "actual_two_thirds_power_branch",
+      "pass": true,
+      "evidence": "The complete T stays in a fixed simply connected disk away from0"
+    },
+    {
+      "name": "actual_radial_derivative_Cauchy_fee",
+      "pass": true,
+      "evidence": "The actual x radii are9/16 and1/4"
+    },
+    {
+      "name": "actual_angle_derivative_Cauchy_fee",
+      "pass": true,
+      "evidence": "The actual angular widths are2 and3/2"
+    },
+    {
+      "name": "actual_phi_radial_derivative_Cauchy_fee",
+      "pass": true,
+      "evidence": "The entire inverse characteristic average is differentiated"
+    },
+    {
+      "name": "actual_full_two_variable_Jacobian_error",
+      "pass": true,
+      "evidence": "1122305/32"
+    },
+    {
+      "name": "actual_full_real_Jacobian_lower",
+      "pass": true,
+      "evidence": "The determinant includes both cross derivatives"
+    },
+    {
+      "name": "actual_full_real_Jacobian_upper",
+      "pass": true,
+      "evidence": "The determinant includes both cross derivatives"
+    },
+    {
+      "name": "actual_inverse_product_domain_radial",
+      "pass": true,
+      "evidence": "The reference inverse is applied to the complete perturbed argument"
+    },
+    {
+      "name": "actual_inverse_product_domain_angle",
+      "pass": true,
+      "evidence": "The target strip1 maps inside the true input strip5/4"
+    },
+    {
+      "name": "actual_inverse_contraction",
+      "pass": true,
+      "evidence": "The complete two-variable Jacobian, including the off-diagonal row, is small"
+    },
+    {
+      "name": "actual_inverse_radial_displacement",
+      "pass": true,
+      "evidence": "The actual inverse is compared at the same canonical point"
+    },
+    {
+      "name": "actual_joint_parameter_gamma_domain",
+      "pass": true,
+      "evidence": "A full unit directional parameter disk remains in the complex Gamma box"
+    },
+    {
+      "name": "actual_joint_parameter_label_domain",
+      "pass": true,
+      "evidence": "The same disk stays strictly in the complete nonlinear CK label domain"
+    },
+    {
+      "name": "actual_joint_parameter_complete_state_bound",
+      "pass": true,
+      "evidence": "The whole directional disk has n_j<N_j/8"
+    },
+    {
+      "name": "actual_raw_discriminant_exact",
+      "pass": true,
+      "evidence": "The complete raw divergence matrix, not only its principal roots"
+    },
+    {
+      "name": "actual_characteristic_covector_-1",
+      "pass": true,
+      "evidence": "The signs in S_t+(-d plusminus qv)S_theta=0 agree with the raw density"
+    },
+    {
+      "name": "actual_characteristic_covector_1",
+      "pass": true,
+      "evidence": "The signs in S_t+(-d plusminus qv)S_theta=0 agree with the raw density"
+    },
+    {
+      "name": "actual_two_dimensional_density_determinant",
+      "pass": true,
+      "evidence": "Using abs(det) on the real orientation gives the same determinant identity"
+    },
+    {
+      "name": "actual_canonical_two_null_covectors_-1",
+      "pass": true,
+      "evidence": "Both actual phases force zero cross term and the exact Airy coefficient"
+    },
+    {
+      "name": "actual_canonical_two_null_covectors_1",
+      "pass": true,
+      "evidence": "Both actual phases force zero cross term and the exact Airy coefficient"
+    },
+    {
+      "name": "actual_density_alpha_complete_factor",
+      "pass": true,
+      "evidence": "The full J cancels and exactly D^(-1) remains in alpha"
+    },
+    {
+      "name": "actual_complete_height_potential",
+      "pass": true,
+      "evidence": "All four full density derivative terms have their exact signs and coefficients"
+    },
+    {
+      "name": "actual_reference_full_potential_identification",
+      "pass": true,
+      "evidence": "The canonical raw density gives exactly reference F.11, including the signed first density derivative"
+    },
+    {
+      "name": "actual_complete_log_density_difference",
+      "pass": true,
+      "evidence": "The actual inverse movement, D and T are all charged"
+    },
+    {
+      "name": "actual_full_radial_potential_Cauchy_second_derivative",
+      "pass": true,
+      "evidence": "The complete xi radii are1/16 and1/32"
+    },
+    {
+      "name": "actual_complete_potential_difference",
+      "pass": true,
+      "evidence": "1208156168"
+    },
+    {
+      "name": "actual_angular_strip_geometric_majorant",
+      "pass": true,
+      "evidence": "[0.135335283236612691893999494972484403407631546 +/- 9.05e-47]"
+    },
+    {
+      "name": "actual_all_fourier_Hs_multiplier",
+      "pass": true,
+      "evidence": "57956/81"
+    },
+    {
+      "name": "actual_same_space_multiplier_exponent",
+      "pass": true,
+      "evidence": "The full convolution acts in the same Hs for everyabs(s)<=4"
+    },
+    {
+      "name": "actual_low_kappa_includes_mean",
+      "pass": true,
+      "evidence": "Every0<=kappa<1 has1<=s<3/2, including the actual canonical mean"
+    },
+    {
+      "name": "actual_low_kappa_full_two_row_generator",
+      "pass": true,
+      "evidence": "Both s derivatives and both off-diagonal entries are retained"
+    },
+    {
+      "name": "actual_low_kappa_Cauchy_both_directions",
+      "pass": true,
+      "evidence": "[1.36683794117379636283875677272120867217273329 +/- 4.44e-45]"
+    },
+    {
+      "name": "actual_common_reference_root_constant",
+      "pass": true,
+      "evidence": "The complete high-kappa Airy proof and the low/mean system use one K_R"
+    },
+    {
+      "name": "actual_complete_interaction_integral_exponent",
+      "pass": true,
+      "evidence": "Two complete reference propagators, full potential multiplier and the actual collar length"
+    },
+    {
+      "name": "actual_same_space_Volterra_smallness",
+      "pass": true,
+      "evidence": "This condition is only asserted for n<=2^-4424"
+    },
+    {
+      "name": "actual_same_space_relative_Cauchy_constant",
+      "pass": true,
+      "evidence": "exp(eta)-1<2eta for eta<=2^-10"
+    },
+    {
+      "name": "actual_working_full_nonlinear_root_input",
+      "pass": true,
+      "evidence": "The conditional actual X bound meets the proved root operator domain"
+    },
+    {
+      "name": "actual_all_roots_complete_sum",
+      "pass": true,
+      "evidence": "The four roots and the true finite prefix are included"
+    },
+    {
+      "name": "actual_all_roots_working_relative_bound",
+      "pass": true,
+      "evidence": "No physical endpoint identification or anisotropic source norm is included for free"
+    },
+    {
+      "name": "actual_full_weak_source_height_correction",
+      "pass": true,
+      "evidence": "The weak divergence produces the negative one-half log-density ordinary correction"
+    },
+    {
+      "name": "actual_total_flux_full_first_order_source",
+      "pass": true,
+      "evidence": "The first weak source enters the height row with the minus sign"
+    },
+    {
+      "name": "actual_canonical_bare_conormal",
+      "pass": true,
+      "evidence": "The height logarithmic shear is retained in the bare conormal"
+    },
+    {
+      "name": "actual_signed_root_physical_conormal",
+      "pass": true,
+      "evidence": "At the root phi_t=d and xi_t=sign*b*v^(2/3); both physical orientations are retained"
+    }
+  ],
+  "numeric": {
+    "log2_N_129": "[-30.7570923904437065533803131477971289444767400 +/- 2.23e-44]",
+    "log2_N_4096": "[-6973.00709239044370655338031314779712894447674 +/- 2.24e-44]",
+    "log2_N_4097": "[-6928.53604801589923062583243365049843631178219 +/- 1.01e-43]",
+    "log2_N_8192": "[-20157.3055792658992306258324336504984363117822 +/- 1.02e-41]",
+    "log2_N_8193": "[-20281.7860480158992306258324336504984363117822 +/- 1.02e-41]"
+  },
+  "file_sha256": {
+    "results/R119-supplement-actual-joint-analytic-root-and-relative-Airy-Cauchy.md": "6f12b6a6a79bdff8deb26e9092e46ab08463e19064912d518d50c981e592741a",
+    "scripts/fourfold_actual_joint_analytic_root_20261113.py": "dc145aa8bf002298ae70e325ec60949fa3c229e645fc3c48e4289c4cfc50af98",
+    "results/R119-supplement-stronger-deep-first-shear-and-complete-local-map.md": "4aaef72754b7c5b60c43cd17520814025dfcd033e2a9eb94842de661b24199ab",
+    "results/R119-supplement-stronger-deep-full-label-chart-and-fourth-line.md": "513202b38f1c346ef3fb3f43ff79e1c6bd4bccbd1ed8d9151a8a7095dc75bf98",
+    "results/R119-supplement-stronger-tail-raw-labels-sources-and-regular-boundary.md": "1fe5a4a7e10dfb1362a47d91eb9276ef9499bbc6f57c5c73fdb8fdd7665568ca",
+    "results/R119-supplement-uniform-frequency-reference-Airy-Cauchy.md": "d116f9cf80740a5468d1b6addac8097891838b9f47ac28af667501b5ef6017fc",
+    "results/R119-supplement-actual-ray-amplitude-and-integrable-relative-coupling.md": "6a79a8ed9f22ddff4729608529a50d5bc3fc57b70c4179c89b1bb16072ccc3c6"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "kind": "true_correlated_curvature_and_optimal_infinite_time_tail",
+  "complete": true,
+  "files": [
+    {
+      "path": "scripts/fourfold_ordinary_curvature_time_gate.py",
+      "sha256": "278cd57e2a299fb543107ea7db8c1d953cb0bd9d1d09a9e0cc3ef9d5fbbcd958",
+      "bytes": 9066
+    },
+    {
+      "path": "notes/2026-11-12-forward4-correlated-curvature-time-gate.json",
+      "sha256": "b7a13ed6ee56f3afa10a899d27c1b7ee5427b6e4df946946072eeda4b9cbbd4b",
+      "bytes": 57404
+    },
+    {
+      "path": "scripts/fourfold_correlated_curvature_time_extension.py",
+      "sha256": "a9c0ceb204ddb805cff1d39a59af68b2c86581faa973d135c88814eecbf27e36",
+      "bytes": 5531
+    },
+    {
+      "path": "scripts/fourfold_expand_correlated_time_domain.py",
+      "sha256": "051cfae2f8ec96d454f9e7aab80afd53e9a5c9569add1dc5f86ce88ed1f3ca1e",
+      "bytes": 11057
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_time_domain_full/forward_0004_correlated_R6_S8.json.gz",
+      "sha256": "8355f86c3d2b2450f6bbf31540733c6927b655eb7fbc982c85e42e560b2aab1f",
+      "bytes": 37802
+    },
+    {
+      "path": "scripts/fourfold_saved_time_optimal_cauchy_extension.py",
+      "sha256": "7e1415de0eb4b12b01865d42eab064e27bbd4ea52d4dc8e382cfad59de21e0fa",
+      "bytes": 9712
+    },
+    {
+      "path": "notes/2026-11-12-forward4-optimal-Cauchy-time-extension.json.gz",
+      "sha256": "4751ed0f6a4816e2a0c38743c215ce2d16f34946fbfbb05119151ce878ccc64b",
+      "bytes": 99279
+    },
+    {
+      "path": "scripts/fourfold_expand_optimal_time_domain.py",
+      "sha256": "f79ec42d43185a272dab5e23d5c752f10fca10e31a20f0aa52f78ace5681e25b",
+      "bytes": 12366
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_expanded_time_domain_full/forward_0004_optimal_R6_S12.json.gz",
+      "sha256": "ac2eb927c994903ed2ca701682373794482249e1a60d0cb21667d490efb497b3",
+      "bytes": 69720
+    },
+    {
+      "path": "scripts/fourfold_true_field_strip_perturbation.py",
+      "sha256": "0b30026790ad25bf5012ed929465137bddcd48c295b18b7b8abac9e85ebceb5e",
+      "bytes": 5164
+    },
+    {
+      "path": "notes/2026-11-12-turn1-wider-physical-angle-perturbation.json",
+      "sha256": "81abf8c4831c516862e372a395aa15f5b745ecf783e8357cd770d27f1ec95b04",
+      "bytes": 33304
+    },
+    {
+      "path": "notes/2026-11-12-correlated-curvature-and-optimal-time-cutoff.md",
+      "sha256": "3702fbb31a4b4bec6d4d7dc13a1fed26c4dc5c467f83aa0123e9c32699e04af5",
+      "bytes": 6455
+    }
+  ],
+  "scope": [
+    "Actual forward4 full two-germ R6 domain proved, invariant outer S12 and curvature outer S8.",
+    "Earlier all-41-coefficient expansion and coarse wider-angle perturbations are saved failures.",
+    "No whole flow or return residual claim."
+  ]
+}

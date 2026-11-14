@@ -1,0 +1,306 @@
+{
+  "kind": "directed_local_simple_root_certificate_for_explicitly_symmetric_infinite_phase_target",
+  "inputs": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_analytic_smoothing_inputs.npz",
+  "inputs_sha256": "bd9b4d14b104183f80feaeea4c4c1a5d8c40b511bd58974dbca1bda842474532",
+  "source_checkpoint_sha256": "05d3e59cf338c5d2a2bde13aad7bf1d4e5247c326efb46b3148793e75a7ea883",
+  "run_source_sha256": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840",
+  "dependency_sha256": {
+    "fourfold_interval_scalar.py": "0400c59be86f7f143481f89d5a08ca8d0ea992be36aa1687ff9a19d10343dda8",
+    "fourfold_phase_uniform_tail.py": "d7010fcd486cfe703eab58d0d5ad4e78a193418b7bc6c71f25e308c523b55c61"
+  },
+  "quarter_nodes": 256,
+  "full_circle_nodes": 1024,
+  "radial_symmetry": "a,beta even; exact-integral Z and gamma odd, by explicit averaging before R33",
+  "target": "E=<Fx dot Fx> of the infinite primitive, g0=E dx^2+a^2 dtheta^2",
+  "root_function": "C=a_prime E_prime-2 a_second E; C_prime=a_prime E_second-a_second E_prime-2 a_third E",
+  "evaluations": [
+    {
+      "x": [
+        0.2383698,
+        0.2383698
+      ],
+      "a": [
+        1.0972561542286898,
+        1.097256154228706
+      ],
+      "E": [
+        1.5094573679285175,
+        1.5094573679286434
+      ],
+      "Eprime": [
+        1.3903011189936294,
+        1.3903011189946235
+      ],
+      "Esecond": [
+        -81.46337041763482,
+        -81.46337041722838
+      ],
+      "C": [
+        -3.4782681381795306e-05,
+        -3.47826793911099e-05
+      ],
+      "Cprime": [
+        300.551395401458,
+        300.5513954029206
+      ],
+      "K": [
+        -6.956380584002225e-06,
+        -6.956380185872781e-06
+      ],
+      "Kprime": [
+        60.108948046363004,
+        60.10894804666735
+      ],
+      "tail_sigma": 0.08,
+      "primitive_radial_jet_errors": [
+        2.1929434496889755e-16,
+        3.3650542184871924e-14,
+        9.183801932311998e-12
+      ],
+      "angular_mean_corrections": [
+        7.935472380579418e-16,
+        1.2265450167982246e-13,
+        3.3666790791176704e-11
+      ]
+    },
+    {
+      "x": [
+        0.2383701,
+        0.2383701
+      ],
+      "a": [
+        1.0972562234812493,
+        1.0972562234812655
+      ],
+      "E": [
+        1.5094577850151862,
+        1.5094577850153132
+      ],
+      "Eprime": [
+        1.3902766809472134,
+        1.3902766809482083
+      ],
+      "Esecond": [
+        -81.45693899868482,
+        -81.4569389982781
+      ],
+      "C": [
+        5.5378890796764495e-05,
+        5.537889278867115e-05
+      ],
+      "Cprime": [
+        300.52575245512554,
+        300.52575245658846
+      ],
+      "K": [
+        1.107552345564983e-05,
+        1.1075523854024044e-05
+      ],
+      "Kprime": [
+        60.10374555309756,
+        60.10374555340207
+      ],
+      "tail_sigma": 0.08,
+      "primitive_radial_jet_errors": [
+        2.1928938714393838e-16,
+        3.365046710986998e-14,
+        9.183187879799208e-12
+      ],
+      "angular_mean_corrections": [
+        7.935293301575555e-16,
+        1.226542240296337e-13,
+        3.366455655010981e-11
+      ]
+    },
+    {
+      "x": [
+        0.2383698,
+        0.2383701
+      ],
+      "a": [
+        1.0972561060934276,
+        1.097256271616525
+      ],
+      "E": [
+        1.5094565892659995,
+        1.5094585636830735
+      ],
+      "Eprime": [
+        1.3902144968450652,
+        1.3903633025962563
+      ],
+      "Esecond": [
+        -81.48657382018384,
+        -81.4337357710286
+      ],
+      "C": [
+        -6.030813944052361e-05,
+        8.090625298351474e-05
+      ],
+      "Cprime": [
+        300.51848967690745,
+        300.5586581198201
+      ],
+      "K": [
+        -1.2061370913046058e-05,
+        1.618090585237325e-05
+      ],
+      "Kprime": [
+        60.102217905049436,
+        60.11047569020244
+      ],
+      "tail_sigma": 0.08,
+      "primitive_radial_jet_errors": [
+        2.1929701483453507e-16,
+        3.365189936529035e-14,
+        9.184106942123144e-12
+      ],
+      "angular_mean_corrections": [
+        7.935603690571382e-16,
+        1.226605265091181e-13,
+        3.366843447514741e-11
+      ]
+    }
+  ],
+  "sign_and_simple_root_gate": true,
+  "isolating_interval": [
+    0.2383698,
+    0.2383701
+  ],
+  "common_spline_cell": [
+    0.23750000000000002,
+    0.23969803864366687
+  ],
+  "distances_to_cell_boundary": [
+    0.000869799999999976,
+    0.0013279386436668703
+  ],
+  "optional_collar_evaluation": {
+    "x": [
+      0.23788166874999997,
+      0.23885823125000002
+    ],
+    "a": [
+      1.0969864985489894,
+      1.0975258791609628
+    ],
+    "E": [
+      1.506202069322487,
+      1.5127511738437371
+    ],
+    "Eprime": [
+      1.1228613033106767,
+      1.6576595976557926
+    ],
+    "Esecond": [
+      -182.3633009154645,
+      18.672920081580827
+    ],
+    "C": [
+      -0.24674808525597505,
+      0.24658062463470437
+    ],
+    "Cprime": [
+      231.21448946220065,
+      369.6648319301894
+    ],
+    "K": [
+      -0.04957423638981398,
+      0.04954059182306386
+    ],
+    "Kprime": [
+      45.90925538146329,
+      74.3897021630509
+    ],
+    "tail_sigma": 0.08,
+    "primitive_radial_jet_errors": [
+      2.3725636572960276e-16,
+      3.873089977693077e-14,
+      1.1494964401576438e-11
+    ],
+    "angular_mean_corrections": [
+      8.712252113083264e-16,
+      1.4537693333319202e-13,
+      4.428998522361338e-11
+    ]
+  },
+  "limitations": [
+    "Local root enclosure only; no exclusion of all other roots on the body",
+    "No actual isometric PDE solution, cap construction or whole transfer inverse",
+    "No claim that an earlier floating return already belongs to this explicitly symmetric object"
+  ],
+  "angular_cutoff_overlap_check": {
+    "kind": "independent_angular_cutoff_overlap_of_directed_intervals",
+    "quarter_nodes": [
+      256,
+      512
+    ],
+    "x": 0.2383698,
+    "interval_overlap": {
+      "a": true,
+      "E": true,
+      "Eprime": true,
+      "Esecond": true,
+      "C": true,
+      "Cprime": true,
+      "K": true,
+      "Kprime": true
+    },
+    "fine_evaluation": {
+      "x": [
+        0.2383698,
+        0.2383698
+      ],
+      "a": [
+        1.0972561542286898,
+        1.097256154228706
+      ],
+      "E": [
+        1.509457367928486,
+        1.509457367928675
+      ],
+      "Eprime": [
+        1.3903011189937156,
+        1.3903011189945373
+      ],
+      "Esecond": [
+        -81.4633704176063,
+        -81.46337041725684
+      ],
+      "C": [
+        -3.4782681368639163e-05,
+        -3.478267940432155e-05
+      ],
+      "Cprime": [
+        300.55139540145797,
+        300.5513954029208
+      ],
+      "K": [
+        -6.956380581371347e-06,
+        -6.956380188514761e-06
+      ],
+      "Kprime": [
+        60.10894804636048,
+        60.108948046669894
+      ],
+      "tail_sigma": 0.08,
+      "primitive_radial_jet_errors": [
+        1.7662380653153094e-34,
+        2.710278212320022e-32,
+        7.396807500652299e-30
+      ],
+      "angular_mean_corrections": [
+        6.391379306578056e-34,
+        9.878825182651843e-32,
+        2.7115869057553e-29
+      ]
+    }
+  },
+  "arithmetic_contract": [
+    "Exact binary64 input coefficients/knots; IEEE correctly rounded elementary operations widened by nextafter",
+    "Degree32 real trigonometric Taylor intervals with rational coefficients and explicit degree33 remainder",
+    "Machin pi interval from exact rational alternating sums",
+    "Direct interval sine/cosine transforms, not a floating FFT",
+    "Analytic infinite primitive tails include radial jets through order3"
+  ]
+}

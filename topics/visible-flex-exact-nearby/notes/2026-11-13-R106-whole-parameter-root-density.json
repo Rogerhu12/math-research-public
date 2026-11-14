@@ -1,0 +1,337 @@
+{
+  "kind": "R106_true_fixed_r_parameter_transfer_of_nonmean_root_density",
+  "complete": true,
+  "arithmetic": "exact BigInt rational bounds; all display radii retained",
+  "input_semantics": {
+    "density": "original-height reduced Dred of R50/R106, with full ell and zero-order terms retained",
+    "G": "rho^(5/2) Dred(t(p)-rho,theta,p), analytically root-deflated",
+    "H": "rho^(7/2) partial_p Dred(r,theta,p) at FIXED physical r; not fixed-rho derivative of G"
+  },
+  "proved_region": {
+    "parameter_center": "-7789843107295549/4611686018427387904",
+    "parameter_half_width": "1/1000000000",
+    "outer_parameter_center": "-7832869216826619/4611686018427387904",
+    "outer_parameter_half_width": "1/100000",
+    "complex_root_radius": "1/2500",
+    "physical_theta_strip": "1/320",
+    "real_fixed_cut": "268136140016943/1125899906842624",
+    "common_scalar_span": [
+      "8556839292003943/36028797018963968",
+      "8636031980136455/36028797018963968"
+    ],
+    "label_strip": "1/1024",
+    "leg": "forward",
+    "second_leg_or_final_KAM_frame_not_transferred": true
+  },
+  "bounds": {
+    "parameter_movement": {
+      "exact_upper": "42022188688562917371/4503599627370496000000000",
+      "decimal_upper_22": "0.0000093308002854370725"
+    },
+    "root_parameter_derivative_upper": {
+      "exact_upper": "12221624956509956685946072241222282227/200000000000000000000000000000000000000000",
+      "decimal_upper_22": "0.0000611081247825497835"
+    },
+    "root_movement": {
+      "exact_upper": "513579430003310958797399579666098431126787773113842865217/900719925474099200000000000000000000000000000000000000000000000000",
+      "decimal_upper_22": "0.0000000005701877081636"
+    },
+    "boundary_distance_from_any_root_lower": {
+      "exact_lower": "360287456610209676689041202600420333901568873212226886157134783/900719925474099200000000000000000000000000000000000000000000000000"
+    },
+    "old_G_modulus": {
+      "exact_upper": "4663381774556726217269897460937500000001/100000000000000000000000000000000000000000",
+      "decimal_upper_22": "0.0466338177455672621727"
+    },
+    "whole_fixed_r_H_modulus": {
+      "exact_upper": "36677273669738497119396924972534180313/1000000000000000000000000000000000000000000",
+      "decimal_upper_22": "0.0000366772736697384972"
+    },
+    "dilation": {
+      "exact_upper": "360287970189639680000000000000000000000000000000000000000000000/360287456610209676689041202600420333901568873212226886157134783",
+      "decimal_upper_22": "1.0000014254713023743868"
+    },
+    "transferred_G_modulus": {
+      "exact_upper": "785791570802816051281250051069610438346603691483200529921105159861254097834999965114903630987431702847722771701970644836572293175657624751212535018946560000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/16849870590735815981263172117820248807237369865399985206142012152861631698760062922745705548970217330960661967018296975666369432196168696716089479593579241165961024527716434757247447506741759027793480423236087750135019044456433645930327455053914353921",
+      "decimal_upper_22": "0.0466348727470257305181"
+    },
+    "safe_G_bound": "9327/200000",
+    "true_physical_image": {
+      "exact_upper": "8221101/8000000000"
+    },
+    "true_J_modulus": {
+      "exact_upper": "8223669/7812500"
+    },
+    "pulled_regularized_numerator": {
+      "exact_upper": "827147492002870204623875369757385242100144132215802907993057913458053072062548009998913846801764029993731773214665373549123793106888596899862942290780830480465920000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/16849870590735815981263172117820248807237369865399985206142012152861631698760062922745705548970217330960661967018296975666369432196168696716089479593579241165961024527716434757247447506741759027793480423236087750135019044456433645930327455053914353921",
+      "decimal_upper_22": "0.0490892489380685238098"
+    },
+    "safe_pulled_numerator": "491/10000",
+    "G_physical_theta_derivatives_on_actual_ray_image": [
+      {
+        "order": 0,
+        "exact_upper": "785791570802816051281250051069610438346603691483200529921105159861254097834999965114903630987431702847722771701970644836572293175657624751212535018946560000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/16849870590735815981263172117820248807237369865399985206142012152861631698760062922745705548970217330960661967018296975666369432196168696716089479593579241165961024527716434757247447506741759027793480423236087750135019044456433645930327455053914353921",
+        "decimal_upper_22": "0.0466348727470257305181"
+      },
+      {
+        "order": 1,
+        "exact_upper": "6286332566422528410250000408556883506772829531865604239368841278890032782679999720919229047899453622781782173615765158692578345405260998009700280151572480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/282722276805026592032200657384522054891506297997189946375351001569637879248693521014394996089910830604238520117741336106711470399506862749160897053063227136020302268487076759431944439723421793809685000879955569514652720910011010045266725405276668499090712979",
+        "decimal_upper_22": "22.2350096973708372727328"
+      },
+      {
+        "order": 2,
+        "exact_upper": "100581321062760454564000006536910136108365272509849667829901460462240524522879995534707664766391257964508514777852242539081253526484175968155204482425159680000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/4743768527561583880022499577988499722297040131958752394047430544885795442488024471054911185498008745714627100965049986659564983974815299875033026402745528729343913712415543751755893127730882212731529851579685625373837024224262826437515813635871287802724664912630121",
+        "decimal_upper_22": "21202.8307195801939307056570"
+      },
+      {
+        "order": 3,
+        "exact_upper": "2413951705506250909536000156885843266600766540236392027917635051093772588549119892832983954393390191148204354668453820937950084635620223235724907578203832320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/79595213003334532202925638146611660001950084373082578585730038322153728264166871309358778235441353445462410949755376256112188250050044460257891771676000549251259864445335454640793203444990571828318853495140535559899448671919459314249607647899107115041849077377864624616779",
+        "decimal_upper_22": "30327850.3118663897039332418464"
+      },
+      {
+        "order": 4,
+        "exact_upper": "77246454576200029105152005020346984531224529287564544893364321635000722833571836570655486540588486116742539349390522270014402708339847143543197042502522634240000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/1335520039866436779045136786972544235395060268737430904749527154273546869017901252845728694775868689884715801622439532908304539316576440944176679989882673939831414888281974614536950440489948860659607382590760036965461299421820743968403427513726680473468566442566375372117848546321",
+        "decimal_upper_22": "57839981632.8666422347416084383243"
+      }
+    ]
+  },
+  "gates": [
+    {
+      "name": "old nonmean complex collar completed",
+      "passed": true
+    },
+    {
+      "name": "whole fixed-r derivative complex collar completed",
+      "passed": true
+    },
+    {
+      "name": "whole true root derivative proved",
+      "passed": true
+    },
+    {
+      "name": "complete true forward ray certificate",
+      "passed": true
+    },
+    {
+      "name": "same exact affine origin",
+      "passed": true
+    },
+    {
+      "name": "same exact affine direction",
+      "passed": true
+    },
+    {
+      "name": "saved exact delta3 center",
+      "passed": true
+    },
+    {
+      "name": "saved exact delta5 center",
+      "passed": true
+    },
+    {
+      "name": "same derivative parameter centers",
+      "passed": true
+    },
+    {
+      "name": "whole Delta5 half width",
+      "passed": true
+    },
+    {
+      "name": "requested whole eta half width",
+      "passed": true
+    },
+    {
+      "name": "entire current parameter tube in Delta5",
+      "passed": true
+    },
+    {
+      "name": "density derivative exact family endpoints",
+      "passed": true
+    },
+    {
+      "name": "root derivative exact family endpoints",
+      "passed": true
+    },
+    {
+      "name": "same original object for old collar and derivatives",
+      "passed": true
+    },
+    {
+      "name": "derivative collar binds original collar",
+      "passed": true
+    },
+    {
+      "name": "derivative collar binds true root derivative",
+      "passed": true
+    },
+    {
+      "name": "true kernel and finishing source identities",
+      "passed": true
+    },
+    {
+      "name": "same exact physical cut",
+      "passed": true
+    },
+    {
+      "name": "same exact common scalar germ",
+      "passed": true
+    },
+    {
+      "name": "whole positive roots and fixed cut in same scalar span",
+      "passed": true
+    },
+    {
+      "name": "positive inner complex root disk",
+      "passed": true
+    },
+    {
+      "name": "entire old and new real collar in inner disk",
+      "passed": true
+    },
+    {
+      "name": "common physical complex angle strip",
+      "passed": true
+    },
+    {
+      "name": "positive true root derivative",
+      "passed": true
+    },
+    {
+      "name": "parameter line never crosses moving root on boundary",
+      "passed": true
+    },
+    {
+      "name": "shifted complex boundary inside old radial disk",
+      "passed": true
+    },
+    {
+      "name": "whole parameter line inside derivative radial disk",
+      "passed": true
+    },
+    {
+      "name": "complete complex family positive area2",
+      "passed": true
+    },
+    {
+      "name": "complete complex family positive radius2",
+      "passed": true
+    },
+    {
+      "name": "complete complex family positive support",
+      "passed": true
+    },
+    {
+      "name": "complete complex family positive a",
+      "passed": true
+    },
+    {
+      "name": "complete complex family positive Fz",
+      "passed": true
+    },
+    {
+      "name": "whole complex family has analytic deflated curvature branch",
+      "passed": true
+    },
+    {
+      "name": "old nonmean G modulus is positive",
+      "passed": true
+    },
+    {
+      "name": "true fixed-r H modulus is positive",
+      "passed": true
+    },
+    {
+      "name": "rational cubic majorizes five-halves dilation",
+      "passed": true
+    },
+    {
+      "name": "whole current G bound below 9327/200000",
+      "passed": true
+    },
+    {
+      "name": "true ray image lies inside paid physical strip",
+      "passed": true
+    },
+    {
+      "name": "true ray label remains original H5 label",
+      "passed": true
+    },
+    {
+      "name": "true J multiplier positive",
+      "passed": true
+    },
+    {
+      "name": "pulled regularized numerator below 491/10000",
+      "passed": true
+    }
+  ],
+  "not_proved": [
+    "complete root finite-part integral along rays",
+    "complex-root-time continuation of true rays",
+    "grounded density without an explicit gauge conversion",
+    "complete nonmean first phase b",
+    "final KAM label multiplier norm",
+    "full PDE inverse"
+  ],
+  "provenance": {
+    "source": "scripts/fourfold_subprincipal_root_density_transfer_exact.mjs",
+    "source_sha256": "07506d38dae53279d842b2c30bd25f8ab98e51e8ec09ca63afdff9e2ec7e93c7",
+    "proof": "results/R106-supplement-moving-root-density-transfer.md",
+    "inputs": [
+      {
+        "key": "old",
+        "path": "notes/2026-11-12-beta-exact-affine-step3-collar.json",
+        "sha256": "037cd700677da4a34b423de431e9b22ab9903b5cd844a6a9348e6ccd0ee8918d",
+        "json": true,
+        "utf8_characters": 22982
+      },
+      {
+        "key": "derivative",
+        "path": "notes/2026-11-12-beta-step3-true-derivative-collar-h1e5-domain500.json",
+        "sha256": "b387ede87055d0a990cafca12002b8baead5a2415d2d4cef610dde99405efd08",
+        "json": true,
+        "utf8_characters": 26343
+      },
+      {
+        "key": "root",
+        "path": "notes/2026-11-12-beta-step3-parameter-root-derivative-h1e5.json",
+        "sha256": "3284dfe4d3feaa5eeca5f114844c1052b381434fa1bb0c08def1c45d9b845243",
+        "json": true,
+        "utf8_characters": 18158
+      },
+      {
+        "key": "ray",
+        "path": "notes/2026-11-12-R106-actual-all-time-ray-tube.json",
+        "sha256": "6463e62641b9187045016c63ee633816676a75baf941ea01375a6ae36f1a1863",
+        "json": true,
+        "utf8_characters": 6772
+      },
+      {
+        "key": "old_kernel",
+        "path": "scripts/fourfold_phase_beta_interval.py",
+        "sha256": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+        "utf8_characters": 30343
+      },
+      {
+        "key": "derivative_kernel",
+        "path": "scripts/fourfold_phase_beta_derivative_collar.py",
+        "sha256": "0e24abf168309f7f98cb027cf6a30d85026149ae91532d5cbf8e30920957e5a5",
+        "utf8_characters": 15861
+      },
+      {
+        "key": "derivative_finish",
+        "path": "scripts/fourfold_phase_beta_derivative_collar_finish.py",
+        "sha256": "273b5e48262d9f4046d4a55f62017e615d57beddbcf9eb27420575602d8135cb",
+        "utf8_characters": 5414
+      },
+      {
+        "key": "root_kernel",
+        "path": "scripts/fourfold_phase_beta_parameter_derivative.py",
+        "sha256": "608c541c1469bb45f5ec556751998fc3901f8623f6cca0e7eb77062d5821ce96",
+        "utf8_characters": 11494
+      }
+    ],
+    "execution": "The identical pure checkedTransfer/rootDensityTransfer functions were actually executed with BigInt in V8 after reading all eight original UTF8 inputs. The Node CLI is a byte-checking replay wrapper.",
+    "recovery": "Reconstructed after executor/store loss, then actually rerun; 42 gates in this version. This is not a claim of byte identity with the unpublished earlier 41-gate version."
+  }
+}

@@ -1,0 +1,493 @@
+{
+  "execution": {
+    "implementation_blob": "521dbc1916df1794782048b3f5bc1da5211a31a9",
+    "engine": "functions.exec V8",
+    "executed_on": "2026-11-14",
+    "arithmetic": "exact BigInt rationals and exact exponent comparisons",
+    "claim": "new implementation actually executed; not a native/Python replay"
+  },
+  "computation": {
+    "schema": "R119-controlled-tail-actual-joint-phase-remainder-v1",
+    "date": "2026-11-14",
+    "computation": "new JavaScript exact BigInt rational arithmetic and exact exponent comparisons",
+    "dependencies": {
+      "proof": "fc3aab62e99a51cc06bd26a7233663a2b8e4dd73",
+      "controlled_chart53": "f11edbccd752bf034aa40e71888859d667a04b42",
+      "phase_compensation54": "dd0d1378fce997297795ce14312fe91b181af4b1",
+      "joint_phase50": "934cddff433cee17338575ea6d70fe8c95a8a207",
+      "full_remainder51": "7c012d3dd9dbf8331624f11221eca02f6e9693b5",
+      "actual_incoming": "1a5b8d8f1d4f4023749e2af953237d31e4949579"
+    },
+    "domains": {
+      "shape_annihilator_complex_radius": "2^-64",
+      "true_label_224_ball": "2^-262148",
+      "true_state_bound": "2^-262144",
+      "second_parameter_fixedpoint_ball": "2^-256",
+      "actual_incoming_ball": "2^-60000000"
+    },
+    "proved_bounds": {
+      "second_phase_selfmap": "<2^-102078",
+      "second_phase_contraction": "<2^-102043",
+      "whole_actual_angular_fee": "<2^-102096",
+      "actual_Hs_to_Hs_plus_four_thirds": "2^20000 (j+5)^64 delta^-100, |s|<=1",
+      "actual_HH_feedback": "<2^-1024",
+      "actual_new_incoming_feedback": "<2^-60000406",
+      "actual_complete_far_residual_in_physical_width": "<2^-119738000"
+    },
+    "scope": "Actual controlled profile and exact joint nonradial omega/beta selection; complete ports, both means, ordinary and weak sources retained. HH and a new actual incoming fixed point are proved. Nonradial moving middle and full same-weight inverse/F=0 remain open.",
+    "gates_count": 50,
+    "all_passed": true,
+    "gates": [
+      {
+        "name": "state_prefactor_increase",
+        "passed": true,
+        "detail": {
+          "left": "16",
+          "relation": "eq",
+          "right": "16"
+        }
+      },
+      {
+        "name": "third_Q_derivative_new_shape",
+        "passed": true,
+        "detail": {
+          "left": "9/1125899906842624",
+          "relation": "lt",
+          "right": "1/70368744177664"
+        }
+      },
+      {
+        "name": "first_radial_compensated_base",
+        "passed": true,
+        "detail": {
+          "left": "20282409603651670428345297797121/340282366920938463463374607431768211456",
+          "relation": "lt",
+          "right": "1/8388608"
+        }
+      },
+      {
+        "name": "second_radial_compensated_base",
+        "passed": true,
+        "detail": {
+          "left": "4398046511105/340282366920938463463374607431768211456",
+          "relation": "lt",
+          "right": "1/38685626227668133590597632"
+        }
+      },
+      {
+        "name": "first_base_and_curve_inside_complex_box",
+        "passed": true,
+        "detail": {
+          "left": "9/8388608",
+          "relation": "lt",
+          "right": "1/32768"
+        }
+      },
+      {
+        "name": "second_base_and_curve_inside_complex_box",
+        "passed": true,
+        "detail": {
+          "left": "9007199254740993/38685626227668133590597632",
+          "relation": "lt",
+          "right": "1/536870912"
+        }
+      },
+      {
+        "name": "principal_curve_parameter_Cauchy_disk",
+        "passed": true,
+        "detail": {
+          "left": "3369993333393829974333376885877453834204643052817571560137951281153/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+          "relation": "lt",
+          "right": "1/17179869184"
+        }
+      },
+      {
+        "name": "radial_second_inverse_variation",
+        "passed": true,
+        "detail": {
+          "left": "1/1684996666696914987166688442938726917102321526408785780068975640576",
+          "relation": "lt",
+          "right": "1/1024"
+        }
+      },
+      {
+        "name": "label_X_normalization",
+        "passed": true,
+        "detail": {
+          "left": "-262144",
+          "relation": "eq",
+          "right": "-262144"
+        }
+      },
+      {
+        "name": "KAM_new_smallness",
+        "passed": true,
+        "detail": {
+          "left": "-261844",
+          "relation": "eq",
+          "right": "-261844"
+        }
+      },
+      {
+        "name": "KAM_strict_target",
+        "passed": true,
+        "detail": {
+          "left": "-261844",
+          "relation": "lt",
+          "right": "-64"
+        }
+      },
+      {
+        "name": "full_reference_weighted_sum_shift",
+        "passed": true,
+        "detail": {
+          "left": "160016",
+          "relation": "eq",
+          "right": "160016"
+        }
+      },
+      {
+        "name": "true_beta_layer_sum_shift",
+        "passed": true,
+        "detail": {
+          "left": "160048",
+          "relation": "eq",
+          "right": "160048"
+        }
+      },
+      {
+        "name": "whole_second_row_sum_shift",
+        "passed": true,
+        "detail": {
+          "left": "160056",
+          "relation": "eq",
+          "right": "160056"
+        }
+      },
+      {
+        "name": "whole_cross_derivative_Cauchy",
+        "passed": true,
+        "detail": {
+          "left": "160091",
+          "relation": "eq",
+          "right": "160091"
+        }
+      },
+      {
+        "name": "actual_radial_inverse_input",
+        "passed": true,
+        "detail": {
+          "left": "-102088",
+          "relation": "lt",
+          "right": "-267"
+        }
+      },
+      {
+        "name": "second_infinite_selfmap",
+        "passed": true,
+        "detail": {
+          "left": "-102078",
+          "relation": "eq",
+          "right": "-102078"
+        }
+      },
+      {
+        "name": "second_infinite_selfmap_domain",
+        "passed": true,
+        "detail": {
+          "left": "-102078",
+          "relation": "lt",
+          "right": "-256"
+        }
+      },
+      {
+        "name": "second_infinite_contraction",
+        "passed": true,
+        "detail": {
+          "left": "-102043",
+          "relation": "eq",
+          "right": "-102043"
+        }
+      },
+      {
+        "name": "second_infinite_contraction_strict",
+        "passed": true,
+        "detail": {
+          "left": "-102043",
+          "relation": "lt",
+          "right": "-1"
+        }
+      },
+      {
+        "name": "actual_angular_fee_sum",
+        "passed": true,
+        "detail": {
+          "left": "-102096",
+          "relation": "eq",
+          "right": "-102096"
+        }
+      },
+      {
+        "name": "angular_fee_inside_prior_budget",
+        "passed": true,
+        "detail": {
+          "left": "-102096",
+          "relation": "lt",
+          "right": "-64"
+        }
+      },
+      {
+        "name": "HH_binary_exponent",
+        "passed": true,
+        "detail": {
+          "left": "-5035/3",
+          "relation": "eq",
+          "right": "-5035/3"
+        }
+      },
+      {
+        "name": "HH_layer_polynomial_exponent",
+        "passed": true,
+        "detail": {
+          "left": "-1",
+          "relation": "eq",
+          "right": "-1"
+        }
+      },
+      {
+        "name": "HH_delta_exponent",
+        "passed": true,
+        "detail": {
+          "left": "1/6",
+          "relation": "eq",
+          "right": "1/6"
+        }
+      },
+      {
+        "name": "HH_degree_eight_row_and_column",
+        "passed": true,
+        "detail": {
+          "left": "-5026/3",
+          "relation": "lt",
+          "right": "-1024"
+        }
+      },
+      {
+        "name": "exp4_exceeds32",
+        "passed": true,
+        "detail": {
+          "left": "32",
+          "relation": "lt",
+          "right": "103/3"
+        }
+      },
+      {
+        "name": "wide_label_whole_ball_embedding",
+        "passed": true,
+        "detail": {
+          "left": "-326566",
+          "relation": "lt",
+          "right": "-262148"
+        }
+      },
+      {
+        "name": "actual_physical_output_width",
+        "passed": true,
+        "detail": {
+          "left": "777/400",
+          "relation": "eq",
+          "right": "777/400"
+        }
+      },
+      {
+        "name": "incoming_ball_inside_joint_quarter_ball",
+        "passed": true,
+        "detail": {
+          "left": "-60000000",
+          "relation": "lt",
+          "right": "-262150"
+        }
+      },
+      {
+        "name": "small_joint_ball_Cauchy_factor",
+        "passed": true,
+        "detail": {
+          "left": "3/2",
+          "relation": "lt",
+          "right": "2"
+        }
+      },
+      {
+        "name": "small_joint_ball_fB_derivative",
+        "passed": true,
+        "detail": {
+          "left": "-442",
+          "relation": "eq",
+          "right": "-442"
+        }
+      },
+      {
+        "name": "actual_cap_feedback_derivative",
+        "passed": true,
+        "detail": {
+          "left": "9007199254740992/390625",
+          "relation": "lt",
+          "right": "34359738368"
+        }
+      },
+      {
+        "name": "actual_incoming_feedback",
+        "passed": true,
+        "detail": {
+          "left": "-60000406",
+          "relation": "eq",
+          "right": "-60000406"
+        }
+      },
+      {
+        "name": "actual_incoming_strict_contraction",
+        "passed": true,
+        "detail": {
+          "left": "-60000406",
+          "relation": "lt",
+          "right": "-2"
+        }
+      },
+      {
+        "name": "incoming_selfmap_radius",
+        "passed": true,
+        "detail": {
+          "left": "1/100000000",
+          "relation": "lt",
+          "right": "1/2"
+        }
+      },
+      {
+        "name": "far_fB_inside_actual_cap_input",
+        "passed": true,
+        "detail": {
+          "left": "-60000443",
+          "relation": "lt",
+          "right": "-61"
+        }
+      },
+      {
+        "name": "actual_analytic_width_gap",
+        "passed": true,
+        "detail": {
+          "left": "10722832843270461/250000000",
+          "relation": "eq",
+          "right": "10722832843270461/250000000"
+        }
+      },
+      {
+        "name": "incoming_log_prefactor_fee",
+        "passed": true,
+        "detail": {
+          "left": "343130649/8",
+          "relation": "lt",
+          "right": "10722832843270461/250000000"
+        }
+      },
+      {
+        "name": "ln2_less_than_seven_tenths",
+        "passed": true,
+        "detail": {
+          "left": "2",
+          "relation": "lt",
+          "right": "482921/240000"
+        }
+      },
+      {
+        "name": "incoming_exact_binary_decay",
+        "passed": true,
+        "detail": {
+          "left": "42000000",
+          "relation": "lt",
+          "right": "42891331"
+        }
+      },
+      {
+        "name": "long_screening_exact_binary_decay",
+        "passed": true,
+        "detail": {
+          "left": "42000000",
+          "relation": "lt",
+          "right": "42899626"
+        }
+      },
+      {
+        "name": "joint_tail_Cauchy_quadratic_coefficient",
+        "passed": true,
+        "detail": {
+          "left": "261707",
+          "relation": "lt",
+          "right": "261710"
+        }
+      },
+      {
+        "name": "quadratic_far_residual_exponent",
+        "passed": true,
+        "detail": {
+          "left": "-119738290",
+          "relation": "eq",
+          "right": "-119738290"
+        }
+      },
+      {
+        "name": "quadratic_far_residual_margin",
+        "passed": true,
+        "detail": {
+          "left": "-119738289",
+          "relation": "lt",
+          "right": "-119738000"
+        }
+      },
+      {
+        "name": "long_zero_inner_quadratic_fee",
+        "passed": true,
+        "detail": {
+          "left": "-864",
+          "relation": "lt",
+          "right": "261710"
+        }
+      },
+      {
+        "name": "mixed_long_far_residual_exponent",
+        "passed": true,
+        "detail": {
+          "left": "-120000411",
+          "relation": "lt",
+          "right": "-119738290"
+        }
+      },
+      {
+        "name": "two_residual_terms_complete_sum",
+        "passed": true,
+        "detail": {
+          "left": "-119738289",
+          "relation": "lt",
+          "right": "-119738000"
+        }
+      },
+      {
+        "name": "smallest_nonzero_lambda",
+        "passed": true,
+        "detail": {
+          "left": "16",
+          "relation": "eq",
+          "right": "16"
+        }
+      },
+      {
+        "name": "smallest_nonzero_physical_frequency",
+        "passed": true,
+        "detail": {
+          "left": "4",
+          "relation": "eq",
+          "right": "4"
+        }
+      }
+    ]
+  }
+}

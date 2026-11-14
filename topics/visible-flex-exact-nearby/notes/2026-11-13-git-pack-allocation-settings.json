@@ -1,0 +1,20 @@
+{
+  "kind": "reversible_git_pack_resource_configuration",
+  "previous": {
+    "pack.threads": null,
+    "pack.windowMemory": null,
+    "pack.deltaCacheSize": null,
+    "core.packedGitLimit": null,
+    "core.packedGitWindowSize": null
+  },
+  "observed": {
+    "pack.threads": "1",
+    "pack.windowMemory": "64m",
+    "pack.deltaCacheSize": "64m",
+    "core.packedGitLimit": "128m",
+    "core.packedGitWindowSize": "16m"
+  },
+  "reason": "Two independently observed solver exit137 events of undetermined cause; keep one large solver active and reduce simultaneous Git pack allocations.",
+  "does_not_establish_the_solver_exit_cause": true,
+  "mathematical_inputs_and_tolerances_changed": false
+}

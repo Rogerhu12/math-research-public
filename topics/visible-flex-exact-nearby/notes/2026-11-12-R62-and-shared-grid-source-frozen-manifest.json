@@ -1,0 +1,41 @@
+{
+  "kind": "actual_fixed_tau_second_parameter_source_and_shared_grid_entrypoint",
+  "scope": "Proved R62 identities, actual floating source diagnostics and source code only; live shared-grid traces and full flow Taylor certification excluded",
+  "archive_required": [
+    {
+      "path": "results/R62-moving-turn-actual-parameter-second-source.md",
+      "bytes": 9653,
+      "sha256": "73ca3f215fcd7b51cc4d60c4d0de01e37d107c415b2a8c6fd298ad5f6d27592a"
+    },
+    {
+      "path": "scripts/fourfold_phase_affine_second_variation.py",
+      "bytes": 16610,
+      "sha256": "386e6fe82e729e0c3d15ea4d21d50731b18e9939a438255e7e48466e27239f11"
+    },
+    {
+      "path": "scripts/fourfold_phase_shared_knot_nodes.py",
+      "bytes": 3028,
+      "sha256": "1f97fdfd51c546540b6f53598845bff560cd922c83754a0d194c7de9bb73e8f8"
+    },
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-step3-second-source.json",
+      "bytes": 11361,
+      "sha256": "65c13c079d0a07a3fef402e4664accaca13f91d0fc5cdfb0e6f326fdda4c0934"
+    },
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-step3-second-source-h1e3.json",
+      "bytes": 11360,
+      "sha256": "2c5fff4098ba0ff5c71c3fa26827d2a01efc61aabdb356e08b6919888374daf5"
+    },
+    {
+      "path": "notes/2026-11-12-D5-exact-affine-step3-second-source-h4e3.json",
+      "bytes": 11356,
+      "sha256": "057a895795acf5d4bcd0e88f0828d932e32a66f6c51624bd219caed43ccf922f"
+    },
+    {
+      "path": "notes/2026-11-12-D5-second-parameter-source-checkpoint.md",
+      "bytes": 4700,
+      "sha256": "1d4692bd0f4973fa220a1566d09c087f6b69043f69298dffabc91470df429a83"
+    }
+  ]
+}

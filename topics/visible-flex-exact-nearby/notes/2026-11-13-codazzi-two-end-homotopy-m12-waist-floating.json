@@ -1,0 +1,72 @@
+{
+  "kind": "floating_BVP_waist_mean_turning_and_fourfold_closure_diagnostic",
+  "certified": false,
+  "source_sha256": "9c3e045fa49fa88e1ab5c912a33661062fb4fa1360b417e069c230fc5b630574",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "input_candidate_path": "notes/2026-11-13-codazzi-two-end-homotopy-m12-candidate.npz.gz",
+  "input_candidate_sha256": "47efe29ced43242acc8b6f883a9f9605c3e074c04741dcf7d2b3f2478fc8cf29",
+  "input_metadata": {
+    "kind": "floating_homotopy_two_ended_Codazzi_candidate",
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "source_sha256": "33d2cf9d72bff21e66b0f9d67620383bdb1a417f9f7c33e9ace9489b6624ace9",
+    "modes": 12,
+    "physical_frequency_factor": 4,
+    "boundary_amplitude": 0.5318593749999999,
+    "state_order": "B sine k=1..M, C cosine k=0..M",
+    "original_target_fixed": true,
+    "initial_waist_curve_changed": true,
+    "right_boundary": "scaled old actual nonmean angular normal curvature only; NOT cap DN"
+  },
+  "angular_grid": 2048,
+  "original_target_fixed": true,
+  "initial_waist_curve_changed": true,
+  "floating_target_a0": 1.0687328309959248,
+  "initial_B_coefficient_l1": 0.0,
+  "initial_C_mean": -0.9356875460334887,
+  "required_initial_C_mean": -0.9356875460334887,
+  "initial_mean_gap": 0.0,
+  "raw_initial_total_turn": 6.283185307179586,
+  "raw_initial_turn_number": 1.0,
+  "exact_mean_repair_rule": "C(0,theta)=-1/a_true(0)+sum_{k=1}^M c_k cos(4k theta)",
+  "exact_phase_rule": "beta(theta)=-a_true(0)*sum_{k=1}^M c_k*sin(4k theta)/(4k)",
+  "exact_closure_identity": "The repaired tangent is i*exp(i theta+i beta(theta)); beta is pi/2-periodic. The four quarter integrals sum by 1+i-1-i=0. Its turn is exactly 2pi, and X0=ez gives identity frame holonomy.",
+  "sampled_repaired_C_range": [
+    -1.579785812513098,
+    -0.5366380747789617
+  ],
+  "sampled_waist_support_min": 1.0310477848823418,
+  "sampled_primitive_tangent_mismatch": 1.6250294746938324e-12,
+  "sampled_repaired_metric_defect": 3.8880506982959944e-16,
+  "sampled_repaired_source": 8.259848339674553e-16,
+  "correction_vs_old_waist": {
+    "C0": 0.03411002427047838,
+    "original_induced_C1": 0.180386955600488,
+    "original_induced_H11": 1.100938004121689,
+    "original_induced_H12": 0.0009108337788798332,
+    "original_induced_H22": 6.295418285770722,
+    "original_induced_Hessian_HS": 6.324818960790145,
+    "old_normal_Hessian_HS": 6.324818960790145
+  },
+  "free_outer_C_mean": -0.8930601999736342,
+  "outer_nonmean_C_boundary_difference_l1": 4.336808689942018e-19,
+  "true_outer_condition_identity": "scaled old actual nonmean angular normal curvature only; NOT cap DN",
+  "regular_port": null,
+  "outer_mean_was_not_prescribed": true,
+  "limitations": [
+    "All displayed numerical gaps and geometric norms are floating samples, not certified.",
+    "The exact mean/phase rules describe a legitimate new initial curve; they do not turn the input finite BVP into an exact PDE solution.",
+    "Only nonmean outer C was specified. No full cap DN, regular-port response or global closure is imposed."
+  ],
+  "exact_center_parameter": {
+    "numerator": "-7789843107295549",
+    "denominator": "4611686018427387904"
+  },
+  "dependency_sha256": {
+    "fourfold_phase_codazzi_two_end_probe.py": "510a0ebf823f35942c0b45e67fb3ec5319cfe124996d88656fcc18a52c565eb2",
+    "fourfold_phase_codazzi_two_end_homotopy_probe.py": "33d2cf9d72bff21e66b0f9d67620383bdb1a417f9f7c33e9ace9489b6624ace9",
+    "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+    "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937",
+    "fourfold_phase_core_low_block.py": "d3b554e05f13112679786bd11a113ab8a29442b4da8f6ea0cf73c2ebb93d37be",
+    "fourfold_phase_local_correction_probe.py": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf"
+  }
+}

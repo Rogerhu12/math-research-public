@@ -1,0 +1,21 @@
+{
+  "kind": "floating_phase_geometry_threejet_preflight",
+  "checkpoint": "fourfold_phase_m24n201_q256_checkpoint.npz",
+  "sha256": "63b5513befcf44ce907b047dbeb41a7e143431211d20e3cbb103a081cbef0a0e",
+  "quarter_nodes": 256,
+  "checks": {
+    "existing_finite_twojet_max_difference": 3.6638136968747403e-11,
+    "radial_third_jet_finite_difference_errors": {
+      "6": 5.031377146469396e-06,
+      "7": 1.1008909517329357e-07,
+      "8": 2.3592033215891206e-08
+    },
+    "actual_parameter_discriminant_derivative_errors": [
+      4.165274347656123e-09,
+      2.575569624241325e-08,
+      5.170448957869667e-09
+    ],
+    "finite_difference_step": 2e-06,
+    "limitations": "ordinary floating comparison, not error bounds"
+  }
+}

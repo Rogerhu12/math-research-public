@@ -1,0 +1,275 @@
+{
+  "kind": "high_precision_root_Taylor_full_phase_diagnostic_not_interval_certificate",
+  "inputs": "data/phase_ring_continuation/type_fixed_step02_analytic_smoothing_inputs.npz",
+  "inputs_sha256": "bd9b4d14b104183f80feaeea4c4c1a5d8c40b511bd58974dbca1bda842474532",
+  "script_sha256": "3a7084be73ade614c2ba29c90dc1c109c682a65151a354758dbaf072f0efc700",
+  "dps": 60,
+  "quarter_nodes": 256,
+  "angular_quadrature_nodes": 512,
+  "root": "0.238369915731463372673491497569319954554146791362902738850309",
+  "root_Newton_trace": [
+    {
+      "iteration": 0,
+      "root": "0.238369915731",
+      "C": "-1.39262719783e-10",
+      "step": "-4.63372673461e-13"
+    },
+    {
+      "iteration": 1,
+      "root": "0.238369915731463372673460964305597055912830937480372821265486",
+      "C": "-9.17651297299e-21",
+      "step": "-3.05332637229e-23"
+    },
+    {
+      "iteration": 2,
+      "root": "0.238369915731463372673491497569319954554146658788753294205658",
+      "C": "-3.98440341427e-41",
+      "step": "-1.32574149445e-43"
+    },
+    {
+      "iteration": 3,
+      "root": "0.238369915731463372673491497569319954554146791362902738850324",
+      "C": "4.62117225149e-57",
+      "step": "1.53761533906e-59"
+    }
+  ],
+  "root_K_residual": "-1.03341021429179933612001406492970358039601777586296929884861e-56",
+  "zero_order": "ground-state",
+  "exact_object_definition": "frozen binary64 spline inputs; physical a,beta even; gamma and exact-integral Z odd",
+  "finite_primitive_definition": "mp DFT at stated quarter grid; Nyquist deleted; real conjugate symmetry projected",
+  "Taylor_coefficient_definition": "G(rho)=rho^(5/2) times angular mean of R50 J, ordinary Taylor coefficients at rho=0",
+  "G_Taylor_coefficients": [
+    "-0.0064282775012557264568286716326073605713568131002543601872443",
+    "-1.37314483715196699847556783021168155246722095248903204310657",
+    "200.195306285766620508045463092823484493091773563519645117093",
+    "-14950.2831927736043439059476729527816536753874735312895754404",
+    "-863335.017132464242671217484452169765183274600164676684584487",
+    "656206879.822170425861158180229603510491119874583367514677969",
+    "-179772646846.213543408188702010379203402376557840469682007369",
+    "38958107918361.3574230309325111750620312198206490344674435798",
+    "-7559516436988063.49384626865273051434501496496251076232666187",
+    "1373506119301316348.84421916703309920751498585983611359178905",
+    "-238837200676199785337.320478655122275602484005743209044739489",
+    "40242834916769039992240.5800422422993777847289328894585076535",
+    "-6621309560192871320261743.94787760723626124625115014724140914",
+    "1069327947450687788304524849.4286120051680831764038739300415",
+    "-170124437209768844298048328311.520244389378604797806835023736",
+    "26733999904993367064060334748631.5364682895822334661584905652",
+    "-4157877600386657712960397691514355.46962093406125067032889856"
+  ],
+  "root_diagnostics": {
+    "root_K_residual_before_division": "-1.03341021429179933612001406492970358039601777586296929884861e-56",
+    "kappa_radial_at_root": "7.7528666355867261424494499748626530401431254168773959091807",
+    "minimum_a_at_root": "0.6220324414616586",
+    "minimum_zeta_at_root": "0.8277084214192387",
+    "minimum_Fz_over_r_at_root": "1.126646603883047",
+    "maximum_abs_omega_at_root": "0.1190609700054843",
+    "work_Taylor_order": 21,
+    "rho_direction": "rho=t-r; mixed principal coefficient is minus the r coefficient"
+  },
+  "half_core_to_beta_factor": ".5",
+  "bulk_method": "same frozen finite Fourier polynomial, zero-padded uniform-grid FFT, binary64 Gauss-Legendre",
+  "gauss_order": 16,
+  "runs": [
+    {
+      "collar_width": "1/2048",
+      "Taylor_degree": 6,
+      "collar_finite_part_mp": "530.211405740009704518937728116669414818948867802507283093933",
+      "bulk_float": -456.60818762635887,
+      "beta_mp_collar_plus_float_bulk": "36.8016090568254174130079283986281148496599807762536415469666",
+      "bulk_diagnostics": {
+        "radial_cells": 167,
+        "quadrature_nodes": 2672,
+        "minimum_a": 0.34742765661330927,
+        "minimum_zeta": 0.8279723516016033,
+        "minimum_area": 1.1852416131629475,
+        "maximum_actual_N": -0.4088973087977693,
+        "minimum_Fz_over_r": 1.1088915864608786,
+        "maximum_abs_omega": 0.2406123164630598,
+        "minimum_K": -1.0367749036433738,
+        "maximum_K": -0.03156152062505717
+      }
+    },
+    {
+      "collar_width": "1/2048",
+      "Taylor_degree": 8,
+      "collar_finite_part_mp": "530.211409736029954136028178768587055388287321210672761591254",
+      "bulk_float": -456.60818762635887,
+      "beta_mp_collar_plus_float_bulk": "36.801611054835542221553153724586935134329207480336380795627",
+      "bulk_diagnostics": {
+        "radial_cells": 167,
+        "quadrature_nodes": 2672,
+        "minimum_a": 0.34742765661330927,
+        "minimum_zeta": 0.8279723516016033,
+        "minimum_area": 1.1852416131629475,
+        "maximum_actual_N": -0.4088973087977693,
+        "minimum_Fz_over_r": 1.1088915864608786,
+        "maximum_abs_omega": 0.2406123164630598,
+        "minimum_K": -1.0367749036433738,
+        "maximum_K": -0.03156152062505717
+      }
+    },
+    {
+      "collar_width": "1/2048",
+      "Taylor_degree": 10,
+      "collar_finite_part_mp": "530.211409760802755438758025010038818561582414279624572644305",
+      "bulk_float": -456.60818762635887,
+      "beta_mp_collar_plus_float_bulk": "36.8016110672219428729180768453128167209767540148122863221526",
+      "bulk_diagnostics": {
+        "radial_cells": 167,
+        "quadrature_nodes": 2672,
+        "minimum_a": 0.34742765661330927,
+        "minimum_zeta": 0.8279723516016033,
+        "minimum_area": 1.1852416131629475,
+        "maximum_actual_N": -0.4088973087977693,
+        "minimum_Fz_over_r": 1.1088915864608786,
+        "maximum_abs_omega": 0.2406123164630598,
+        "minimum_K": -1.0367749036433738,
+        "maximum_K": -0.03156152062505717
+      }
+    },
+    {
+      "collar_width": "1/2048",
+      "Taylor_degree": 12,
+      "collar_finite_part_mp": "530.211409760939703703304029049452474038217335171815171923272",
+      "bulk_float": -456.60818762635887,
+      "beta_mp_collar_plus_float_bulk": "36.8016110672904170051910788650196444592942144609075859616359",
+      "bulk_diagnostics": {
+        "radial_cells": 167,
+        "quadrature_nodes": 2672,
+        "minimum_a": 0.34742765661330927,
+        "minimum_zeta": 0.8279723516016033,
+        "minimum_area": 1.1852416131629475,
+        "maximum_actual_N": -0.4088973087977693,
+        "minimum_Fz_over_r": 1.1088915864608786,
+        "maximum_abs_omega": 0.2406123164630598,
+        "minimum_K": -1.0367749036433738,
+        "maximum_K": -0.03156152062505717
+      }
+    },
+    {
+      "collar_width": "1/2048",
+      "Taylor_degree": 16,
+      "collar_finite_part_mp": "530.211409760940425004643199365680742227310041956043453815013",
+      "bulk_float": -456.60818762635887,
+      "beta_mp_collar_plus_float_bulk": "36.8016110672907776558606640231337785538405678530217269075067",
+      "bulk_diagnostics": {
+        "radial_cells": 167,
+        "quadrature_nodes": 2672,
+        "minimum_a": 0.34742765661330927,
+        "minimum_zeta": 0.8279723516016033,
+        "minimum_area": 1.1852416131629475,
+        "maximum_actual_N": -0.4088973087977693,
+        "minimum_Fz_over_r": 1.1088915864608786,
+        "maximum_abs_omega": 0.2406123164630598,
+        "minimum_K": -1.0367749036433738,
+        "maximum_K": -0.03156152062505717
+      }
+    },
+    {
+      "collar_width": "1/4096",
+      "Taylor_degree": 6,
+      "collar_finite_part_mp": "1305.4032589281572871288034970091368444526309014318422767178",
+      "bulk_float": -1231.800036975711,
+      "beta_mp_collar_plus_float_bulk": "36.8016109762231389191342470311416033786592007159211383588982",
+      "bulk_diagnostics": {
+        "radial_cells": 167,
+        "quadrature_nodes": 2672,
+        "minimum_a": 0.34742765661330927,
+        "minimum_zeta": 0.8278392399245087,
+        "minimum_area": 1.1852416131629475,
+        "maximum_actual_N": -0.4088973087977693,
+        "minimum_Fz_over_r": 1.1088915864608786,
+        "maximum_abs_omega": 0.2406123164630598,
+        "minimum_K": -1.0367749036433738,
+        "maximum_K": -0.01540565926508597
+      }
+    },
+    {
+      "collar_width": "1/4096",
+      "Taylor_degree": 8,
+      "collar_finite_part_mp": "1305.4032590203057464636085370445165686926614315265766770918",
+      "bulk_float": -1231.800036975711,
+      "beta_mp_collar_plus_float_bulk": "36.8016110222973685865367670488314654986744657632883385458989",
+      "bulk_diagnostics": {
+        "radial_cells": 167,
+        "quadrature_nodes": 2672,
+        "minimum_a": 0.34742765661330927,
+        "minimum_zeta": 0.8278392399245087,
+        "minimum_area": 1.1852416131629475,
+        "maximum_actual_N": -0.4088973087977693,
+        "minimum_Fz_over_r": 1.1088915864608786,
+        "maximum_abs_omega": 0.2406123164630598,
+        "minimum_K": -1.0367749036433738,
+        "maximum_K": -0.01540565926508597
+      }
+    },
+    {
+      "collar_width": "1/4096",
+      "Taylor_degree": 10,
+      "collar_finite_part_mp": "1305.40325902044813960036099977472857361198384559897055968565",
+      "bulk_float": -1231.800036975711,
+      "beta_mp_collar_plus_float_bulk": "36.8016110223685651549129984139374679583356727994852798428235",
+      "bulk_diagnostics": {
+        "radial_cells": 167,
+        "quadrature_nodes": 2672,
+        "minimum_a": 0.34742765661330927,
+        "minimum_zeta": 0.8278392399245087,
+        "minimum_area": 1.1852416131629475,
+        "maximum_actual_N": -0.4088973087977693,
+        "minimum_Fz_over_r": 1.1088915864608786,
+        "maximum_abs_omega": 0.2406123164630598,
+        "minimum_K": -1.0367749036433738,
+        "maximum_K": -0.01540565926508597
+      }
+    },
+    {
+      "collar_width": "1/4096",
+      "Taylor_degree": 12,
+      "collar_finite_part_mp": "1305.40325902044833614789558709230318854929341715862636517343",
+      "bulk_float": -1231.800036975711,
+      "beta_mp_collar_plus_float_bulk": "36.801611022368663428680292072724775426990458579313182586716",
+      "bulk_diagnostics": {
+        "radial_cells": 167,
+        "quadrature_nodes": 2672,
+        "minimum_a": 0.34742765661330927,
+        "minimum_zeta": 0.8278392399245087,
+        "minimum_area": 1.1852416131629475,
+        "maximum_actual_N": -0.4088973087977693,
+        "minimum_Fz_over_r": 1.1088915864608786,
+        "maximum_abs_omega": 0.2406123164630598,
+        "minimum_K": -1.0367749036433738,
+        "maximum_K": -0.01540565926508597
+      }
+    },
+    {
+      "collar_width": "1/4096",
+      "Taylor_degree": 16,
+      "collar_finite_part_mp": "1305.40325902044833640554052525119426659040457666441140142182",
+      "bulk_float": -1231.800036975711,
+      "beta_mp_collar_plus_float_bulk": "36.8016110223686635575027611521703144475460383322057007109083",
+      "bulk_diagnostics": {
+        "radial_cells": 167,
+        "quadrature_nodes": 2672,
+        "minimum_a": 0.34742765661330927,
+        "minimum_zeta": 0.8278392399245087,
+        "minimum_area": 1.1852416131629475,
+        "maximum_actual_N": -0.4088973087977693,
+        "minimum_Fz_over_r": 1.1088915864608786,
+        "maximum_abs_omega": 0.2406123164630598,
+        "minimum_K": -1.0367749036433738,
+        "maximum_K": -0.01540565926508597
+      }
+    }
+  ],
+  "limitations": [
+    "High precision ordinary arithmetic, not directed interval rounding",
+    "Finite primitive and angular quadrature; no full infinite Fourier tail or alias error is paid",
+    "A finite Taylor polynomial is integrated exactly; no analytic remainder bound is claimed",
+    "Bulk quadrature, when used, is the original binary64 finite-primitive evaluator",
+    "Root residual is reported before the formal division by rho; a directed root enclosure remains necessary",
+    "R46 complete network, parameter family, finite low block and exact closed isometric family remain separate"
+  ],
+  "finished": true,
+  "wall_seconds": 321.745087840005
+}

@@ -1,0 +1,179 @@
+{
+  "schema": "visible-exact-R119-actual-double-bump-matching-v1",
+  "scope": "Complete exact-tail continuation through both already installed bumps and the exact remaining nonlinear matching equation; a uniform base all-frequency relative two-trace gap is proved, but no nonlinear relative inverse is asserted.",
+  "inputs": {
+    "internal_label_exponential_weight": 8192,
+    "actual_bump_log_radius_length_upper": "75/16",
+    "actual_full_tail_line_angle_gap": "2^-39",
+    "complete_matching_relative_gap": "2^-40",
+    "physical_output_strip": "1/512",
+    "file_sha256": {
+      "results/R74-actual-full-tail-robin-and-augmented-positive-cap.md": "174bc93631b5ade0faf51160d7026e42d674916fd94e12cdb2315479458c18d8",
+      "results/R119-actual-final-connector-all-label-continuation.md": "8b4f7d46321709e9151abb930748d1d28545a5b41b1329813cd7301747c8a083",
+      "results/R119-supplement-full-installed-connector-with-paid-label-weight.md": "6929ed13861b8b7560066f686e72c2a4e8ea4d232d201385e2f3fb941c0982ab",
+      "results/R119-supplement-actual-long-radial-nonlinear-dirichlet-problem.md": "1241e0df199d8aa1487d2d1b3b0cf5b60615f3eb21b51bfa207ad54b30cd6d7c",
+      "results/R119-supplement-two-bumps-and-exact-nonlinear-matching.md": "db98a77d0b294bfad27677e670ef7c73f5acb33907950b2a38a52036e519c702",
+      "scripts/fourfold_two_bumps_matching_20261113.py": "32801352391b92341645a80ca5aba8409169bb3516a551fe56d7de904b5f57f7"
+    }
+  },
+  "checks": [
+    {
+      "name": "actual_omega_tilde_positive",
+      "pass": true,
+      "evidence": "Use R74 continuous derivative bounds, with the selected fixed parameters"
+    },
+    {
+      "name": "actual_A_minus_one",
+      "pass": true,
+      "evidence": "A=1+psi_uu/omega_tilde^2 in the true physical radius"
+    },
+    {
+      "name": "A_in_paid_R119_box",
+      "pass": true,
+      "evidence": "|A|<=7 and |A+1|<=6 remain valid"
+    },
+    {
+      "name": "physical_w_over_a",
+      "pass": true,
+      "evidence": "Same paid physical C2 reconstruction constants"
+    },
+    {
+      "name": "actual_log_radius_length",
+      "pass": true,
+      "evidence": "psi vanishes at both actual endpoints, so Lb=25 omega/8"
+    },
+    {
+      "name": "angle_width_fee",
+      "pass": true,
+      "evidence": "The full energy estimate is applied on the actual variable-coefficient segment"
+    },
+    {
+      "name": "relative_growth_exponent",
+      "pass": true,
+      "evidence": "e^(32 Lb)<e^150<2^300, using e<4"
+    },
+    {
+      "name": "actual_relative_output",
+      "pass": true,
+      "evidence": "The same weighted full connector input is propagated"
+    },
+    {
+      "name": "full_complex_relative_ball",
+      "pass": true,
+      "evidence": "X_beta<1, so all modes and the mean stay inside the actual ball"
+    },
+    {
+      "name": "endpoint_energy_angle_width",
+      "pass": true,
+      "evidence": "All widths use the original physical angle"
+    },
+    {
+      "name": "raw_angle_margin",
+      "pass": true,
+      "evidence": "Finite extra angular derivatives at the raw output have paid margin"
+    },
+    {
+      "name": "grounded_angle_margin",
+      "pass": true,
+      "evidence": "The true normal and shear transformation has paid margin"
+    },
+    {
+      "name": "positive_output_strip",
+      "pass": true,
+      "evidence": "The actual final physical strip is a restriction of a paid strip"
+    },
+    {
+      "name": "physical_bump_C2",
+      "pass": true,
+      "evidence": "Complete horizontal and vertical physical second jets are included"
+    },
+    {
+      "name": "weighted_label_state_ball",
+      "pass": true,
+      "evidence": "Original internal labels use the explicitly stronger ell1_8192 domain"
+    },
+    {
+      "name": "tail_boundary_fits_Dirichlet_ball",
+      "pass": true,
+      "evidence": "f_B is bounded by U=(f_B)_theta_theta, not only by its unweighted height"
+    },
+    {
+      "name": "actual_long_annulus_length",
+      "pass": true,
+      "evidence": "The actual long interval is retained when bounding reflected waves"
+    },
+    {
+      "name": "nonlinear_neumann_error_constant",
+      "pass": true,
+      "evidence": "Use the already paid complete two-endpoint nonlinear error bound"
+    },
+    {
+      "name": "exact_true_two_trace_determinant",
+      "pass": true,
+      "evidence": "det J_M=-omega(1-M^-2), with the common north-height sign retained"
+    },
+    {
+      "name": "exact_matching_row_first_column",
+      "pass": true,
+      "evidence": "(1,1)J_M=(1+1/M)(omega,-1)"
+    },
+    {
+      "name": "exact_matching_row_second_column",
+      "pass": true,
+      "evidence": "The derivative trace is retained with its true coefficient"
+    },
+    {
+      "name": "exact_full_matrix_Frobenius_norm",
+      "pass": true,
+      "evidence": "||J_M||_F^2=(1+omega^2)(1+M^-2)"
+    },
+    {
+      "name": "transversality_ratio_polynomial",
+      "pass": true,
+      "evidence": "(1+1/M)^2-(1+M^-2)=2/M>0 for all M>=4"
+    },
+    {
+      "name": "full_two_trace_map_invertible",
+      "pass": true,
+      "evidence": "All actual nonzero fourfold frequencies satisfy M>=4"
+    },
+    {
+      "name": "exact_coth_reflection_fee",
+      "pass": true,
+      "evidence": "L>16 and M>=4; no finite-frequency sampling or infinite-half-line replacement"
+    },
+    {
+      "name": "actual_relative_transversality",
+      "pass": true,
+      "evidence": "Gap is for the complete pair (f_B,k_B/M), even when f_B=0"
+    },
+    {
+      "name": "relative_linear_inverse_constant",
+      "pass": true,
+      "evidence": "This is an inverse on the actual base tail line, not an assumed nonlinear chart inverse"
+    },
+    {
+      "name": "screened_complete_trace_constant",
+      "pass": true,
+      "evidence": "e^(2L)csch(ML)<=4 exp(-(M-2)L)"
+    },
+    {
+      "name": "screening_exponent_all_frequencies",
+      "pass": true,
+      "evidence": "M-2>=M/2 for all M>=4"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "both_actual_bumps_retained": true,
+    "bump_selection_fixed_while_labels_vary": true,
+    "complete_high_mode_and_mean_continuation": true,
+    "actual_all_mode_two_trace_base_gap": true,
+    "height_nonvanishing_assumed": false,
+    "mean_slope_matched_by_same_holonomy_root": true,
+    "mean_height_difference_is_retained_output": true,
+    "nonlinear_relative_tail_graph_inverse": false,
+    "nonlinear_ordinary_source_inverse": false,
+    "final_global_family": false
+  }
+}

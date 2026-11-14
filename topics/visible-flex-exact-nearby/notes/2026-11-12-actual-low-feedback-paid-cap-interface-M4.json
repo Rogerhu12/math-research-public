@@ -1,0 +1,209 @@
+{
+  "kind": "paid_cap_and_interface_fees_for_exact_finite_low_feedback_candidate",
+  "complete": true,
+  "source_sha256": "4e50c307b451aa574af994ac4bfc9a5da1e057de6fdc024a2854dd58ec4e06b8",
+  "bits": 256,
+  "recovery_status": "Rebuilt UTF-8 implementation after executor loss; this report is newly executed, not reconstructed from earlier numbers.",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+  "modes": 4,
+  "physical_cut": "1/4",
+  "finite_bordered_dimension": 21,
+  "input_reports": [
+    {
+      "path": "notes/2026-11-12-actual-core-low-block-M4.json",
+      "sha256": "f0a655ad2ee5c1a2f5432aabb80a8db1347874ed5cc4f98bfccd8a679a2e1c39"
+    },
+    {
+      "path": "notes/2026-11-12-actual-cap-compression-energy.json",
+      "sha256": "4cf5f4e7f877ba4fafa4802c7f5669709284c0b07d2442948cad76a2df1f09a1"
+    },
+    {
+      "path": "notes/2026-11-12-actual-cap-full-hybrid-output.json",
+      "sha256": "5db2f1ceece36e67e70076bb4438625f81969e6744e8fc669ce6258f450c0ce8"
+    },
+    {
+      "path": "notes/2026-11-12-actual-quarter-cut-interface-Fourier.json",
+      "sha256": "1bb36bab2e2e6ef0c574df1d31bfb0b46f3ff7f4397a086bdfeb964bbff511e0"
+    }
+  ],
+  "dependency_sha256": {
+    "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+    "fourfold_phase_cap_energy_collect.py": "e15fd40314ecd539c7e162041de70f18e7bae153e244fbc4e6df82e39107b11f"
+  },
+  "arrays": {
+    "path": "notes/2026-11-12-actual-low-feedback-paid-cap-interface-M4.npz",
+    "sha256": "aad06ad36773210c398c41b7f4b515631301d3e54f84322332d0fb49b6087837",
+    "bytes": 11512
+  },
+  "exact_matrix_definition": "A is the exact dyadic algebraic expression in the input arrays, two projected Y factors, two complete cap centers, two projected -YpY shears and the exact unit translation border. The saved binary64 finite_bordered_center is an approximation whose selection fee is separately reported.",
+  "exact_finite_center_inverse_certified": true,
+  "inverse_candidate_norm": {
+    "ball": "[63.190082546641824227380810835328089 +/- 2.10e-34]",
+    "lower": "[63.190082546641824227380810835328089 +/- 2.10e-34]",
+    "upper": "[63.190082546641824227380810835328089 +/- 2.10e-34]",
+    "mid_float": 63.190082546641825,
+    "radius_upper_float": 0.0
+  },
+  "inverse_candidate_residual": {
+    "ball": "[1.3154133266448634126559407474974255e-14 +/- 2.77e-49]",
+    "lower": "[1.3154133266448634126559407474974255e-14 +/- 2.77e-49]",
+    "upper": "[1.3154133266448634126559407474974255e-14 +/- 2.77e-49]",
+    "mid_float": 1.3154133266448633e-14,
+    "radius_upper_float": 0.0
+  },
+  "exact_finite_inverse_norm_upper": {
+    "ball": "[63.190082546642655438147747262706093 +/- 2.55e-34]",
+    "lower": "[63.190082546642655438147747262706093 +/- 2.55e-34]",
+    "upper": "[63.190082546642655438147747262706093 +/- 2.55e-34]",
+    "mid_float": 63.19008254664266,
+    "radius_upper_float": 0.0
+  },
+  "saved_binary_center_selection_error": {
+    "ball": "[3.7108275118390932838725826164925826e-16 +/- 4.65e-52]",
+    "lower": "[3.7108275118390932838725826164925826e-16 +/- 4.65e-52]",
+    "upper": "[3.7108275118390932838725826164925826e-16 +/- 4.65e-52]",
+    "mid_float": 3.7108275118390934e-16,
+    "radius_upper_float": 0.0
+  },
+  "cap_compression_fee": {
+    "ball": "[0.00075782973561190229503967443393436419 +/- 4.64e-40]",
+    "lower": "[0.00075782973561190229503967443393436419 +/- 4.64e-40]",
+    "upper": "[0.00075782973561190229503967443393436419 +/- 4.64e-40]",
+    "mid_float": 0.0007578297356119023,
+    "radius_upper_float": 0.0
+  },
+  "true_projected_interface_multiplier_fee": {
+    "ball": "[1.0668210855142896253167098947138571e-9 +/- 8.05e-45]",
+    "lower": "[1.0668210855142896253167098947138571e-9 +/- 8.05e-45]",
+    "upper": "[1.0668210855142896253167098947138571e-9 +/- 8.05e-45]",
+    "mid_float": 1.0668210855142896e-09,
+    "radius_upper_float": 0.0
+  },
+  "raw_core_symmetrization_norm": {
+    "ball": "[9.6507109306043258596502088445256175e-13 +/- 1.48e-48]",
+    "lower": "[9.6507109306043258596502088445256175e-13 +/- 1.48e-48]",
+    "upper": "[9.6507109306043258596502088445256175e-13 +/- 1.48e-48]",
+    "mid_float": 9.650710930604325e-13,
+    "radius_upper_float": 0.0
+  },
+  "core_symmetrization_after_height_fee": {
+    "ball": "[6.3748066746598848368289751498023038e-14 +/- 3.89e-49]",
+    "lower": "[6.3748066746598848368289751498023038e-14 +/- 3.89e-49]",
+    "upper": "[6.3748066746598848368289751498023038e-14 +/- 3.89e-49]",
+    "mid_float": 6.374806674659885e-14,
+    "radius_upper_float": 0.0
+  },
+  "total_paid_finite_matrix_fee": {
+    "ball": "[0.00075783080249673587607589859901254866 +/- 4.19e-39]",
+    "lower": "[0.00075783080249673587607589859901254866 +/- 4.19e-39]",
+    "upper": "[0.00075783080249673587607589859901254866 +/- 4.19e-39]",
+    "mid_float": 0.0007578308024967359,
+    "radius_upper_float": 0.0
+  },
+  "paid_Banach_product": {
+    "ball": "[0.047887390966157186991216057747401829 +/- 3.07e-37]",
+    "lower": "[0.047887390966157186991216057747401829 +/- 3.07e-37]",
+    "upper": "[0.047887390966157186991216057747401829 +/- 3.07e-37]",
+    "mid_float": 0.047887390966157184,
+    "radius_upper_float": 0.0
+  },
+  "remaining_unpaid_low_matrix_error_allowance": {
+    "ball": "[0.015067437336089211863359919782641789 +/- 1.64e-37]",
+    "lower": "[0.015067437336089211863359919782641789 +/- 1.64e-37]",
+    "upper": "[0.015067437336089211863359919782641789 +/- 1.64e-37]",
+    "mid_float": 0.015067437336089212,
+    "radius_upper_float": 0.0
+  },
+  "conditional_core_DN_error_allowance_if_all_other_unpaid_terms_zero": {
+    "ball": "[0.22810336001812952791531285940111301 +/- 3.29e-36]",
+    "lower": "[0.22810336001812952791531285940111301 +/- 3.29e-36]",
+    "upper": "[0.22810336001812952791531285940111301 +/- 3.29e-36]",
+    "mid_float": 0.22810336001812953,
+    "radius_upper_float": 0.0
+  },
+  "conditional_finite_inverse_after_paid_fees": {
+    "ball": "[66.368286636561669486086195211916610 +/- 1.21e-35]",
+    "lower": "[66.368286636561669486086195211916610 +/- 1.21e-35]",
+    "upper": "[66.368286636561669486086195211916610 +/- 1.21e-35]",
+    "mid_float": 66.36828663656166,
+    "radius_upper_float": 0.0
+  },
+  "true_projected_height_norm_upper": {
+    "ball": "[0.25701226896121117061649159821877854 +/- 1.14e-36]",
+    "lower": "[0.25701226896121117061649159821877854 +/- 1.14e-36]",
+    "upper": "[0.25701226896121117061649159821877854 +/- 1.14e-36]",
+    "mid_float": 0.25701226896121115,
+    "radius_upper_float": 0.0
+  },
+  "selected_core_norm_upper": {
+    "ball": "[82.067840067755260350927238537842040 +/- 4.39e-34]",
+    "lower": "[82.067840067755260350927238537842040 +/- 4.39e-34]",
+    "upper": "[82.067840067755260350927238537842040 +/- 4.39e-34]",
+    "mid_float": 82.06784006775526,
+    "radius_upper_float": 0.0
+  },
+  "selected_gauge_equation_defect": {
+    "ball": "[0.00060758177998394669636408082442812795 +/- 1.01e-39]",
+    "lower": "[0.00060758177998394669636408082442812795 +/- 1.01e-39]",
+    "upper": "[0.00060758177998394669636408082442812795 +/- 1.01e-39]",
+    "mid_float": 0.0006075817799839467,
+    "radius_upper_float": 0.0
+  },
+  "full_high_output_diagnostics": {
+    "input_norm": "Euclidean physical Fourier coefficients k=-N..N; cap includes its regular mean input",
+    "output_weights": "Hhalf: w0=1,wk=sqrt(4|k|); Hminus: reciprocal; all |k|>N",
+    "finite_height_low_to_high_Hhalf": {
+      "ball": "[0.012027320027524458181302881356967803 +/- 8.22e-38]",
+      "lower": "[0.012027320027524458181302881356967803 +/- 8.22e-38]",
+      "upper": "[0.012027320027524458181302881356967803 +/- 8.22e-38]",
+      "mid_float": 0.012027320027524458,
+      "radius_upper_float": 0.0
+    },
+    "full_height_low_to_high_Hhalf": {
+      "ball": "[0.012027323020325766372485480964938303 +/- 4.16e-37]",
+      "lower": "[0.012027323020325766372485480964938303 +/- 4.16e-37]",
+      "upper": "[0.012027323020325766372485480964938303 +/- 4.16e-37]",
+      "mid_float": 0.012027323020325767,
+      "radius_upper_float": 0.0
+    },
+    "finite_shear_low_to_high_Hminus": {
+      "ball": "[0.016538031279082152557880536807697171 +/- 4.98e-37]",
+      "lower": "[0.016538031279082152557880536807697171 +/- 4.98e-37]",
+      "upper": "[0.016538031279082152557880536807697171 +/- 4.98e-37]",
+      "mid_float": 0.01653803127908215,
+      "radius_upper_float": 0.0
+    },
+    "full_shear_low_to_high_Hminus": {
+      "ball": "[0.016538031391708097241532398457113866 +/- 1.25e-37]",
+      "lower": "[0.016538031391708097241532398457113866 +/- 1.25e-37]",
+      "upper": "[0.016538031391708097241532398457113866 +/- 1.25e-37]",
+      "mid_float": 0.016538031391708098,
+      "radius_upper_float": 0.0
+    },
+    "true_cap_low_to_high_Hminus": {
+      "ball": "[0.057778125221499126023928160260248618 +/- 4.73e-37]",
+      "lower": "[0.057778125221499126023928160260248618 +/- 4.73e-37]",
+      "upper": "[0.057778125221499126023928160260248618 +/- 4.73e-37]",
+      "mid_float": 0.057778125221499124,
+      "radius_upper_float": 0.0
+    },
+    "cap_plus_shear_triangle_bound": {
+      "ball": "[0.074316156613207223265460558717362484 +/- 3.48e-37]",
+      "lower": "[0.074316156613207223265460558717362484 +/- 3.48e-37]",
+      "upper": "[0.074316156613207223265460558717362484 +/- 3.48e-37]",
+      "mid_float": 0.07431615661320723,
+      "radius_upper_float": 0.0
+    }
+  },
+  "angular_mean_and_regular_xi_lambda_ports_retained": true,
+  "actual_core_radial_error_paid": false,
+  "infinite_high_frequency_elimination_paid": false,
+  "rigorous_full_Schur_inverse": false,
+  "scope": [
+    "The cap and quarter-cut multipliers are actual directed inputs.",
+    "The core_DN array remains the previously saved floating radial candidate.",
+    "No actual full Schur inverse follows until core propagation, all projected-height omitted channels, and the actual high-channel feedback are paid in this same port and norm.",
+    "The conditional scalar allowance cannot be combined with any unrecorded or cross-port operator estimate."
+  ]
+}

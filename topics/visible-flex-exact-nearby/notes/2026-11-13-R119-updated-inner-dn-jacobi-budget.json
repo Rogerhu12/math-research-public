@@ -1,0 +1,175 @@
+{
+  "schema": "visible-exact-R119-actual-updated-inner-dn-jacobi-v1",
+  "scope": "The actual nonlinear annulus inner DN derivative in its complete physical trace units and the updated continuous scalar Darboux-source Jacobi column; the mixed-tail relative graph inverse and general metric-source conversion are not asserted.",
+  "inputs": {
+    "outer_Dirichlet_radius": "2^-29",
+    "nonlinear_screened_background_radius": "2^-24",
+    "true_inner_background_radius": "2^-8418",
+    "relative_inner_DN_difference": "2^-8390",
+    "actual_mean_boundary_derivative": "2^-8400",
+    "source_units": "e = delta K_t - D F_t[delta P,delta K,delta U,delta V]",
+    "retained_initial_holonomy": "m_B = delta M(0)/w_B^2",
+    "file_sha256": {
+      "results/R119-supplement-actual-long-radial-nonlinear-dirichlet-problem.md": "1241e0df199d8aa1487d2d1b3b0cf5b60615f3eb21b51bfa207ad54b30cd6d7c",
+      "results/R119-supplement-two-bumps-and-exact-nonlinear-matching.md": "db98a77d0b294bfad27677e670ef7c73f5acb33907950b2a38a52036e519c702",
+      "results/R119-supplement-nonlinear-screened-outer-to-inner-map.md": "3c942418473cec67f01dead8168d90710f26cee14326fef59033c72040490793",
+      "results/R119-supplement-updated-inner-dn-and-continuous-jacobi-sources.md": "501e0699372258892d1a2efba80c83810664e6d0ac6813b1fb4d84be5ef2a1c8",
+      "scripts/fourfold_updated_inner_dn_jacobi_20261113.py": "66f4b6b3d7f759f43a715f25e52bccf4296f679f0d603599916339d0c1fab46a"
+    }
+  },
+  "checks": [
+    {
+      "name": "actual_inner_half_kernel_margin",
+      "pass": true,
+      "evidence": "M>=4, with q_i=exp(t/2) and the actual paid angle ramp"
+    },
+    {
+      "name": "inner_weighted_green_height",
+      "pass": true,
+      "evidence": "Both exact finite-interval half-kernels are retained"
+    },
+    {
+      "name": "inner_weighted_green_first_jet",
+      "pass": true,
+      "evidence": "Use the complete differentiated Green kernel"
+    },
+    {
+      "name": "inner_weighted_green_second_jet",
+      "pass": true,
+      "evidence": "The second derivative is recovered from the exact ODE"
+    },
+    {
+      "name": "inner_weighted_complete_green",
+      "pass": true,
+      "evidence": "All three jets are summed before all Fourier frequencies"
+    },
+    {
+      "name": "unweighted_variable_angle_margin",
+      "pass": true,
+      "evidence": "The W0 inward kernel rate is at least M/4"
+    },
+    {
+      "name": "W0_green_height",
+      "pass": true,
+      "evidence": "Two half-kernels with rates M and M/4"
+    },
+    {
+      "name": "W0_green_first_jet",
+      "pass": true,
+      "evidence": "The exact first kernel derivative"
+    },
+    {
+      "name": "W0_green_second_jet",
+      "pass": true,
+      "evidence": "Use the exact Jacobi ODE"
+    },
+    {
+      "name": "W0_complete_green",
+      "pass": true,
+      "evidence": "Same actual long interval and variable angle strip"
+    },
+    {
+      "name": "inner_Jacobi_contraction",
+      "pass": true,
+      "evidence": "Actual h=h0+z has complete W0 norm less than 2r"
+    },
+    {
+      "name": "inner_Jacobi_boundary_bound",
+      "pass": true,
+      "evidence": "This is the full nonlinear DN derivative input column"
+    },
+    {
+      "name": "true_outer_state_difference",
+      "pass": true,
+      "evidence": "All four states, including the complete mean-root difference"
+    },
+    {
+      "name": "true_inner_state_derivative",
+      "pass": true,
+      "evidence": "The complete mean derivative is included in D S(h) xi"
+    },
+    {
+      "name": "background_split_source_fee",
+      "pass": true,
+      "evidence": "q_i q_o=exp(L/2), so the separated product pays exp(-L/2) exactly"
+    },
+    {
+      "name": "inner_endpoint_source_fee",
+      "pass": true,
+      "evidence": "M times the inner derivative kernel integrates at rate at least M/4"
+    },
+    {
+      "name": "actual_updated_DN_difference_fee",
+      "pass": true,
+      "evidence": "This is a relative operator norm on actual inner boundary traces"
+    },
+    {
+      "name": "actual_long_length_exceeds_screening_budget",
+      "pass": true,
+      "evidence": "Using e>2 gives r exp(-L/2)<2^-8418=r0"
+    },
+    {
+      "name": "relative_DN_actual_number",
+      "pass": true,
+      "evidence": "The real all-frequency updated DN difference is below the stated safe bound"
+    },
+    {
+      "name": "actual_mean_boundary_derivative_fee",
+      "pass": true,
+      "evidence": "The full holonomy-root derivative from N.12 is retained"
+    },
+    {
+      "name": "actual_mean_boundary_number",
+      "pass": true,
+      "evidence": "The inner normalized mean slope derivative is not discarded"
+    },
+    {
+      "name": "source_holonomy_decay_rate",
+      "pass": true,
+      "evidence": "(w^2)_t=2w^2 on the same A=1 radial annulus"
+    },
+    {
+      "name": "source_holonomy_integral_constant",
+      "pass": true,
+      "evidence": "||rho A_h||<2 and the e^-2(t-s) kernel has L1 norm at most 1/2"
+    },
+    {
+      "name": "mean_load_to_nonmean_source",
+      "pass": true,
+      "evidence": "b_h=Pi_perp(partial_K Q_full)/<rho A_h>, with N<8r"
+    },
+    {
+      "name": "updated_continuous_source_Green",
+      "pass": true,
+      "evidence": "The actual updated inverse is the complete W0 Neumann inverse"
+    },
+    {
+      "name": "updated_continuous_source_E_constant",
+      "pass": true,
+      "evidence": "Includes the source-induced mean load before solving the nonmean equation"
+    },
+    {
+      "name": "updated_source_initial_mean_constant",
+      "pass": true,
+      "evidence": "The actual initial source holonomy m_B is a retained input"
+    },
+    {
+      "name": "updated_source_boundary_constant",
+      "pass": true,
+      "evidence": "Both actual nonmean Dirichlet endpoints are retained"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "actual_updated_nonlinear_background": true,
+    "full_all_high_inner_DN_derivative": true,
+    "same_inner_physical_angle_width": true,
+    "complete_mean_boundary_derivative": true,
+    "ordinary_continuous_scalar_Darboux_source": true,
+    "source_induced_holonomy_retained": true,
+    "joint_annulus_Schur_row_identified": true,
+    "mixed_tail_relative_graph_inverse": false,
+    "general_metric_source_conversion": false,
+    "final_global_family": false
+  }
+}

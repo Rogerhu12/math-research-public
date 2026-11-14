@@ -1,0 +1,77 @@
+{
+  "kind": "separate_process_preparation_of_existing_parameter_proof_cache",
+  "complete": true,
+  "source_sha256": "228406f747e756bb0bdcfd44b9932028bc5bd80411a06a398f48b8ca04550354",
+  "actual_proof_source_sha256": "55d38e76067db34ccff0c4bd28be70b8159ec68395046a1c9a517bceba2a7b89",
+  "domain_path": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0514_r.json.gz",
+  "domain_sha256": "3be7a88863ad96b63f92163dbc4b627682b30281d45f5128cdb1c70e3808be33",
+  "descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+  "segment": 514,
+  "cache_key_matches_frozen_v5": true,
+  "parameter_density_not_computed": true,
+  "attempts": [],
+  "children": [
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0495_0550/expanded-parameter/forward_0514_2a10f43b8a977562c5cd.json.gz",
+      "proof_key": {
+        "domain": "3be7a88863ad96b63f92163dbc4b627682b30281d45f5128cdb1c70e3808be33",
+        "expanded": "e42ad461c665126712de58b21edf8fde6593983fab84682e5fed1c3aee764ce4",
+        "germ": 0,
+        "descriptor": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+        "local_root": "370f5864a2edc9a7c899bcaa42c284d1f990db468f21b12c52fc82a7b260030d",
+        "wide_root": "d83fe1e7ab3eed8baaf2448f2f6076212936633c69f58950720f6d372b03d99c",
+        "half_width": "1/1000000000",
+        "nodes": 512,
+        "root_nodes": 1024,
+        "bits": 320,
+        "radial_degree": 40,
+        "proof_source": "55d38e76067db34ccff0c4bd28be70b8159ec68395046a1c9a517bceba2a7b89"
+      },
+      "reused": false,
+      "log_path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0495_0550/logs/parameter-proof/expanded_parameter_0514_2a10f43b8a977562c5cd.log",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/math-research/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_parameter_expanded_time_domain.py",
+        "--descriptor",
+        "data/phase_ring_continuation/step5_retargeted_reference/descriptor.json",
+        "--domain",
+        "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0514_r.json.gz",
+        "--expanded-domain",
+        "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0495_0550/expanded-field/forward_0514_3be7a88863ad_main0_optimal_R6_S12.json.gz",
+        "--local-root-jets",
+        "data/phase_ring_continuation/type_fixed_step02_d5_step5_local_parameter_root_jets_h1e14.json",
+        "--wide-root-jets",
+        "data/phase_ring_continuation/type_fixed_step02_d5_step5_local_parameter_root_jets_h5e7.json",
+        "--half-width",
+        "1/1000000000",
+        "--nodes",
+        "512",
+        "--root-nodes",
+        "1024",
+        "--germ",
+        "0",
+        "--radial-degree",
+        "40",
+        "--bits",
+        "320",
+        "--out",
+        "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0495_0550/expanded-parameter/forward_0514_2a10f43b8a977562c5cd.json.gz"
+      ],
+      "returncode": 0,
+      "log_sha256": "48a6d526d52cf219f4665c4225ba656285b7925faa745297376608c043ba9d72",
+      "sha256": "7d0b9626a999fb3b901f979c28e85d902dda94e2775aade99c580e531f092e28",
+      "actual_proof_complete": true,
+      "proof_failure": null
+    }
+  ],
+  "actual_complete_larger_parameter_domains": [
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/ci_43275872327/block_0495_0550/expanded-parameter/forward_0514_2a10f43b8a977562c5cd.json.gz",
+      "sha256": "7d0b9626a999fb3b901f979c28e85d902dda94e2775aade99c580e531f092e28"
+    }
+  ],
+  "all_requested_child_processes_finished": true,
+  "next_density_consumer_must_run_full_checked_parameter_proof": true,
+  "wall_seconds": 8.624174845999732
+}

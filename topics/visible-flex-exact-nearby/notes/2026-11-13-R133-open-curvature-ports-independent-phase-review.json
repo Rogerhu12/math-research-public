@@ -1,0 +1,33 @@
+{
+  "kind": "independent_phase_mathematical_and_source_review_R133_open_curvature_ports",
+  "complete": true,
+  "reviewer": "phase_inverse",
+  "native_rerun_performed": false,
+  "inputs": {
+    "results/R133-supplement-open-nonlinear-curvature-port-graph.md": "e0d8b58e6e3fcdcd5bea0ffb2bccc18f367729be3289c832047a2922741b8765",
+    "scripts/fourfold_codazzi_cap_open_curvature_ports_v2.py": "518f26be80bd31ea657c0101a15f315e171a2a09540136c0ea17e17042935595",
+    "scripts/fourfold_codazzi_cap_M128_inner_trace.py": "26f0fbc72754f663476024ff80b3e6f1ea83656d4ee0cda11be1869a53084c41",
+    "notes/2026-11-13-R133-open-curvature-ports-r1-v2-native.json.gz": "82b1eb0d5274d366f49e664d9805a546ff9ac1800c5d88cd1b81fd332d435782",
+    "notes/2026-11-13-R133-M128-actual-inner-cap-trace-native.json.gz": "87602796dde3a63f28b459fa7b52d602ac9b437f228bdf211aa59cc348caf27c"
+  },
+  "checked": [
+    "Backward D integral sign and complete nonlinear coefficient M*gamma-q*beta",
+    "Independent B0 and c0 mean transfers with exact a^2 and a^2*Cref weights",
+    "Full infinite-mode Frechet columns in the same pair l1 Banach algebra",
+    "Neumann denominator q_lower minus the complete derivative remainder, without a Fourier truncation",
+    "Ordinary residual/frequency kernel, every interface point source and full DQ correction",
+    "v2 inward parsed radius does not enlarge the previously certified derivative tube",
+    "Exact dyadic Horner evaluation of all 128 candidate modes, full negative conjugates and zero extension of the old centre",
+    "Physical sine/cosine and complex Fourier l1 normalization in both trace differences",
+    "Ordered M128 trace comparison using Delta_b+q*Delta_c and the nonlinear derivative remainder",
+    "Compact metric modification vanishes identically on the complete cap; no inference inside its support"
+  ],
+  "result": "The requested O.7-O.21 mathematical identities, norm orders, complete source/jump budgets and both consumer implementations agree.",
+  "not_claimed": [
+    "rerun of the large cap or these small native consumers",
+    "height or grounded DN identification",
+    "body PDE validation",
+    "nonlinear regular-tail matching",
+    "frame holonomy or closed surface existence"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "kind": "uniform_real_scalar_gates_for_exact_affine_R57_family",
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "frozen_direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "source_sha256": "2b1fc7dd1ac47da22669ecf46f1dd1f75d3b8f372560eca4c00ddd68e12a0e65",
+  "dependency_sha256": {
+    "fourfold_phase_core_scalar_gate.py": "2ccb284015ff136be73771f32d89722de9d2b1fc8e6eef0a309d0f4565d29978",
+    "fourfold_phase_root_interval.py": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840",
+    "fourfold_phase_uniform_tail.py": "d7010fcd486cfe703eab58d0d5ad4e78a193418b7bc6c71f25e308c523b55c61",
+    "fourfold_interval_scalar.py": "0400c59be86f7f143481f89d5a08ca8d0ea992be36aa1687ff9a19d10343dda8"
+  },
+  "family": "raw_phase=raw_phase_0+delta*raw_phase_direction; alpha=alpha_0+delta*alpha_direction; exact real arithmetic then explicit symmetry and infinite R33",
+  "exact_parameter_interval": [
+    -0.01,
+    0.01
+  ],
+  "exact_parameter_fractions": [
+    "-5764607523034235/576460752303423488",
+    "5764607523034235/576460752303423488"
+  ],
+  "absolute_parameter_bound": 0.01,
+  "radial_core": [
+    -0.24,
+    0.24
+  ],
+  "radial_cells": 290,
+  "circumference_radius_derivative_ranges": [
+    [
+      1.0687259059300396,
+      1.0992147461472537
+    ],
+    [
+      -0.23390722745118042,
+      0.23390722745118042
+    ],
+    [
+      -2.3107015507764834,
+      4.180626438667909
+    ]
+  ],
+  "exact_height_slope_ranges": [
+    [
+      1.1086495312816214,
+      1.1943039880913964
+    ],
+    [
+      -0.6025688937926443,
+      0.6025688937926443
+    ]
+  ],
+  "beta_field_absolute_derivative_bounds": [
+    0.49286051249318136,
+    3.2695058007802635,
+    133.9784710711731
+  ],
+  "gamma_field_absolute_derivative_bounds": [
+    0.023534946086718484,
+    0.37935965181243536,
+    25.919280348422838
+  ],
+  "vertical_primitive_operator_bound": 0.3928571428571429,
+  "full_vector_primitive_operator_bound": 1.5714285714285716,
+  "Fz_over_x_lower": 0.944828997102311,
+  "Fx_vertical_lower": 0.9426663208929921,
+  "Fx_vertical_upper": 1.3602871984800258,
+  "Fx_horizontal_norm_upper": 6.030530369632254,
+  "tangent_horizontal_norm_lower": 0.9997230531563475,
+  "T_cross_Fx_norm_lower": 0.8004770453071893,
+  "area_lower": 0.8554905554221272,
+  "area_upper": 8.124095656953205,
+  "quotient_radial_Lipschitz_upper": 5.9829628091897336,
+  "quotient_angular_Lipschitz_upper": 0.4169977233655167,
+  "gate_passed": true,
+  "exact_object": "Physical a,beta even and gamma,Z odd by explicit averaging; Z is the exact affine slope integral; infinite R33 primitive; no Gaussian",
+  "limitations": [
+    "Exact real affine family only; not a rounded predictor or independent control box",
+    "No angular sample or finite primitive is substituted for the exact graph",
+    "N, support/zeta, complex tubes and actual target curvature require their own certificates",
+    "No ODE residual, cap, full-frequency inverse or closed isometric-family claim"
+  ]
+}

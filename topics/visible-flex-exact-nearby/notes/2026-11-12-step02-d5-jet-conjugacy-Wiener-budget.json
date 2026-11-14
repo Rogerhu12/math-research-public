@@ -1,0 +1,109 @@
+{
+  "kind": "exact_rational_finite_polynomial_Wiener_budget",
+  "polynomials_file": "type_fixed_step02_d5_jet_dyadic_conjugacy.json",
+  "polynomials_sha256": "8d742b24445d7084047fef756571079cfc8ff3c400d2de1dfc2b109973cad6df",
+  "source_conjugacy_sha256": "9e60b97c5abe68ce78db049c47bbc6747cb5068207344eef7606ef697da1d3c1",
+  "Hprime_at_zero_numerator": "431783113701015258060454",
+  "Hprime_at_zero_denominator_power_of_two": 80,
+  "polynomial_degree": 256,
+  "inverse_test_degree": 512,
+  "exp_majorant_order": 80,
+  "bounds": [
+    {
+      "width_numerator": 1,
+      "width_denominator": 128,
+      "h_Wiener_upper": {
+        "numerator": "748326375743109864",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 0.649069665847107
+      },
+      "Hprime_Wiener_upper": {
+        "numerator": "3032491657044546052",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 2.6302672340894917
+      },
+      "q_Wiener_upper": {
+        "numerator": "4398085341226702702",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.8147309453877143
+      },
+      "product_residual_Wiener_upper": {
+        "numerator": "42049371360880",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.6472015824892685e-05
+      },
+      "exact_rational_Neumann_test_passed": true,
+      "Hprime_at_zero_positive": true,
+      "inverse_Hprime_Wiener_upper": {
+        "numerator": "4398245754115448567",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.8148700813896923
+      },
+      "strictly_positive_on_whole_real_circle_proved": true
+    },
+    {
+      "width_numerator": 1,
+      "width_denominator": 64,
+      "h_Wiener_upper": {
+        "numerator": "765212147666736229",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 0.6637157383300594
+      },
+      "Hprime_Wiener_upper": {
+        "numerator": "3715396033533043106",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.2225923609604417
+      },
+      "q_Wiener_upper": {
+        "numerator": "5400762611733241324",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 4.684414845375734
+      },
+      "product_residual_Wiener_upper": {
+        "numerator": "3422555151309473",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 0.0029685933844009484
+      },
+      "exact_rational_Neumann_test_passed": true,
+      "Hprime_at_zero_positive": true,
+      "inverse_Hprime_Wiener_upper": {
+        "numerator": "5416843016075100345",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 4.6983623728332455
+      },
+      "strictly_positive_on_whole_real_circle_proved": true
+    },
+    {
+      "width_numerator": 1,
+      "width_denominator": 32,
+      "h_Wiener_upper": {
+        "numerator": "859821911055164329",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 0.7457766271333179
+      },
+      "Hprime_Wiener_upper": {
+        "numerator": "15940035056792677597",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 13.82577651045578
+      },
+      "q_Wiener_upper": {
+        "numerator": "57797806806197943497",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 50.131606163341836
+      },
+      "product_residual_Wiener_upper": {
+        "numerator": "34570450554557094582",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 29.985086076042816
+      },
+      "exact_rational_Neumann_test_passed": false,
+      "Hprime_at_zero_positive": true
+    }
+  ],
+  "proof_method": "exact integer convolution; ceil integer square roots; rational Taylor exponential majorant; Wiener Neumann series",
+  "limitations": [
+    "H is the explicitly defined dyadic polynomial, not an inferred exact conjugacy",
+    "no bound on actual map E0, parameter twist, P/Q/T/B supplied here",
+    "no actual map reflection, interpolation, ODE, or PDE scattering error paid"
+  ]
+}

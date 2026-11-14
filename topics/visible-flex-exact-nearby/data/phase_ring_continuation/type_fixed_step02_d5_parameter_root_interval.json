@@ -1,0 +1,190 @@
+{
+  "kind": "directed_common_simple_root_for_exact_real_affine_R57_family",
+  "proved": true,
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "frozen_direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "exact_parameter_interval": [
+    -0.01,
+    0.01
+  ],
+  "quarter_nodes": 256,
+  "root_bracket": [
+    0.238394,
+    0.2384
+  ],
+  "exact_collar": [
+    "15241783/64000000",
+    "15273033/64000000"
+  ],
+  "outward_binary_collar": [
+    0.238152859375,
+    0.23864114062500003
+  ],
+  "conditions": {
+    "left_C_negative": true,
+    "right_C_positive": true,
+    "collar_a_positive": true,
+    "collar_E_positive": true,
+    "collar_Kprime_positive": true
+  },
+  "rows": [
+    {
+      "x": [
+        0.238394,
+        0.238394
+      ],
+      "a": [
+        1.0971062432285872,
+        1.0971131337078726
+      ],
+      "E": [
+        1.508823809042951,
+        1.5089080887816841
+      ],
+      "Eprime": [
+        1.3899476382280254,
+        1.391589356162366
+      ],
+      "Esecond": [
+        -81.76470879557151,
+        -81.45911178972584
+      ],
+      "C": [
+        -0.0014545315600597022,
+        -0.0003342569881028545
+      ],
+      "Cprime": [
+        300.41019250830067,
+        300.61013535803124
+      ],
+      "K": [
+        -0.00029118393428808595,
+        -6.690730121845182e-05
+      ],
+      "Kprime": [
+        60.13241865450777,
+        60.18000213913756
+      ],
+      "tail_sigma": 0.08,
+      "primitive_radial_jet_errors": [
+        2.150001526918183e-16,
+        3.3089145427736466e-14,
+        8.97524091534731e-12
+      ],
+      "angular_mean_corrections": [
+        7.781789268902839e-16,
+        1.2063835700114443e-13,
+        3.29148552082028e-11
+      ]
+    },
+    {
+      "x": [
+        0.2384,
+        0.2384
+      ],
+      "a": [
+        1.09710762923381,
+        1.0971145196705887
+      ],
+      "E": [
+        1.508832153642265,
+        1.508916430467177
+      ],
+      "Eprime": [
+        1.3894583376529988,
+        1.3911000935976705
+      ],
+      "Esecond": [
+        -81.6345137788273,
+        -81.3294583213183
+      ],
+      "C": [
+        0.0003473492547891865,
+        0.0014668841041785565
+      ],
+      "Cprime": [
+        299.8936898438223,
+        300.093267061551
+      ],
+      "K": [
+        6.952708763516734e-05,
+        0.0002936531816961704
+      ],
+      "Kprime": [
+        60.027551501278836,
+        60.0750482883938
+      ],
+      "tail_sigma": 0.08,
+      "primitive_radial_jet_errors": [
+        2.1490356409377562e-16,
+        3.308809399628418e-14,
+        8.963042587839527e-12
+      ],
+      "angular_mean_corrections": [
+        7.778299658874834e-16,
+        1.2063443239455344e-13,
+        3.2870462260298604e-11
+      ]
+    },
+    {
+      "x": [
+        0.238152859375,
+        0.23864114062500003
+      ],
+      "a": [
+        1.096972306542676,
+        1.0972484630701707
+      ],
+      "E": [
+        1.5072101270606768,
+        1.5105398622831714
+      ],
+      "Eprime": [
+        1.2632706162316885,
+        1.5178860300575587
+      ],
+      "Esecond": [
+        -129.06436340727657,
+        -34.242859634371925
+      ],
+      "C": [
+        -0.1195019299573304,
+        0.11946674286374086
+      ],
+      "Cprime": [
+        266.15879256341447,
+        334.29218054837025
+      ],
+      "K": [
+        -0.02397737594548586,
+        0.02397031585723685
+      ],
+      "Kprime": [
+        53.1011920872526,
+        67.12730394546958
+      ],
+      "tail_sigma": 0.08,
+      "primitive_radial_jet_errors": [
+        2.234735551222885e-16,
+        3.543232309975111e-14,
+        1.002813661975485e-11
+      ],
+      "angular_mean_corrections": [
+        8.147116337825775e-16,
+        1.310656760619068e-13,
+        3.771470430549346e-11
+      ]
+    }
+  ],
+  "run_source_sha256": "9cc41d64f382b780128056228b9e04534d09c03712ab88fbc62d7758b5215b0d",
+  "root_engine_sha256": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840",
+  "closed_span_engine_sha256": "a46b455229d801df057acd10695c8621c72f73719806b8e41e05475b1f2fe460",
+  "family": "raw_phase=raw_phase_0+delta*raw_phase_direction; alpha=alpha_0+delta*alpha_direction; exact real arithmetic then explicit symmetry and infinite R33",
+  "derivative_semantics": "phase derivatives are enclosed as S0^(j)+delta*V^(j), retaining one shared real parameter before interval evaluation",
+  "conclusion": "for every parameter a unique positive root lies in the bracket, is simple, and is unique throughout the collar; explicit symmetry supplies its negative partner",
+  "limitations": [
+    "applies to the exact affine family, not every point in the larger independent control box",
+    "does not identify rounded checkpoint controls with an exact affine-family point",
+    "no full-core curvature-sign classification or complex-domain ray bound"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "kind": "independent_beta_step3_and_germ_ready_manifest",
+  "created_utc": "2026-11-12T09:12:00.815721+00:00",
+  "frozen_ready_files": [
+    {
+      "path": "notes/2026-11-12-exact-affine-step3-complete-directed-beta.md",
+      "bytes": 6778,
+      "sha256": "aa38d4ec5038b4fde8978f41593c7166de01dc79bd1383d52b667f05545a3753"
+    },
+    {
+      "path": "notes/2026-11-12-beta-exact-affine-step3-bulk-part00.json",
+      "bytes": 170678,
+      "sha256": "c073d072bfb25c7774a8749b8d37b7ec6539e64a1203c59d96d8d1613a249b09"
+    },
+    {
+      "path": "notes/2026-11-12-beta-exact-affine-step3-bulk-part01.json",
+      "bytes": 150668,
+      "sha256": "1df2298ed56599e6e068118787ffb24937a9d92ff8ea36366f2c1b49d36e0d79"
+    },
+    {
+      "path": "notes/2026-11-12-beta-exact-affine-step3-complete-enclosure.json",
+      "bytes": 98954,
+      "sha256": "179c58121f284ea16c2522e4e3f1493f109f857d37be5de60cf445bbe8750680"
+    },
+    {
+      "path": "notes/2026-11-12-physical-parameter-beta-derivative.md",
+      "bytes": 10439,
+      "sha256": "b1425cc3b9f325dcdcdd78cd1a096a318353f5b1fe0cd26e448d20b635ff9099"
+    },
+    {
+      "path": "notes/2026-11-12-parameter-germ-collar-enclosures.md",
+      "bytes": 7350,
+      "sha256": "608201babd0f30b8d30ddf4d5b9c5d59cc8de59bef12e93e9468c9b496d2a629"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_parameter_germ.py",
+      "bytes": 13331,
+      "sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_parameter_bulk.py",
+      "bytes": 8850,
+      "sha256": "41173d3683c3d226c45fe799b1a00f011be50897795bb1a9041ff6dba8d0f6e9"
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_parameter_combine.py",
+      "bytes": 7278,
+      "sha256": "335c264bd5c6a4db01f9667e1a3c181cc2bb1600c9ad0480155dd613b1ea3793"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-parameter-collar-h1e8.json",
+      "bytes": 22894,
+      "sha256": "0378eaa98ee17b8fcd321acb75ec643f3b5c0a3820748b5233b5d5a89d142f42"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-germ-root-h1e8.json",
+      "bytes": 11475,
+      "sha256": "56bafefb728243fc340490c2504f60fd593716ae71f3aaaad32f43ad8b790e04"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-germ-root-h1e5.json",
+      "bytes": 11449,
+      "sha256": "55fb389d5c9937aff04f6b08ee75dea851c1718aed7619c0968e7dd03865669f"
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-germ-collar-h1e8.json",
+      "bytes": 23029,
+      "sha256": "9c97251943c911ac7a2dbde0665b9bbc7ca5a2a9dcbfc017d8792854cd7462cd"
+    }
+  ],
+  "live_outputs_excluded": [
+    "notes/2026-11-12-beta-step3-germ-bulk-h1e8-part00.json",
+    "notes/2026-11-12-beta-step3-germ-bulk-h1e8-part01.json"
+  ],
+  "scope": "Exact affine step3 point beta complete. Parameter germ root/collar layers complete on named test boxes. Uniform beta on the h1e-8 box is still running; no final KAM box is identified."
+}

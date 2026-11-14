@@ -1,0 +1,252 @@
+{
+  "parameters": {
+    "order": 7,
+    "points": 1601,
+    "length": 6.0,
+    "mu": 2.8284271247461903,
+    "A": 8.70710678118655,
+    "mean": "depth",
+    "bump_radius": 0.125,
+    "mu_scale": 2.0
+  },
+  "transversality": {
+    "mean": "depth",
+    "bump_radius": 0.125,
+    "discrete_mean_multiplier": 15.322820602803308,
+    "direct_projection": 4.082046319216636,
+    "kernel_half_norm_squared": 0.266403061487898,
+    "depth_expected_normalized_projection": 15.322820602803302
+  },
+  "recursion": [
+    {
+      "order": 2,
+      "mean_previous": null,
+      "critical_multiplier": null,
+      "maximum_coefficient_norm_sample": 3.536363222802443
+    },
+    {
+      "order": 3,
+      "mean_previous": 26.85234549270807,
+      "critical_multiplier": 1.1255263323615391e-13,
+      "maximum_coefficient_norm_sample": 26.71094700833528
+    },
+    {
+      "order": 4,
+      "mean_previous": null,
+      "critical_multiplier": null,
+      "maximum_coefficient_norm_sample": 270.16367400872537
+    },
+    {
+      "order": 5,
+      "mean_previous": -310.73183457258887,
+      "critical_multiplier": -5.092966249781693e-12,
+      "maximum_coefficient_norm_sample": 3197.6165604300118
+    },
+    {
+      "order": 6,
+      "mean_previous": null,
+      "critical_multiplier": null,
+      "maximum_coefficient_norm_sample": 45759.71602309697
+    },
+    {
+      "order": 7,
+      "mean_previous": 63574.50985793268,
+      "critical_multiplier": 3.450581835709054e-11,
+      "maximum_coefficient_norm_sample": 706563.8431618758
+    }
+  ],
+  "kind": "floating_diagnostic_not_proof",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "limitations": [
+    "Finite Robin endpoint approximates the true whole-line inverse.",
+    "Eighth-order finite differences have no interval error bounds.",
+    "Metric diagnostics use actual quintic spline derivatives.",
+    "Finite radial and angular samples do not bound continuous suprema.",
+    "No true fixed flat caps, no nonlinear exact isometry, no certified reach."
+  ],
+  "diagnostics": [
+    {
+      "epsilon": 0.03,
+      "order": 1,
+      "core": 3.0,
+      "diameter_sample": 2.597828387098788,
+      "waist_signed_radial_gap": 0.06000000000000005,
+      "waist_signed_gap_over_sampled_diameter": 0.023096213859995218,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.006288331651269331,
+      "at_x": 0.0,
+      "at_theta": 0.0,
+      "minimum_mean_xx": 0.00029608841309548004,
+      "minimum_mean_tt": 3.7639469400288993e-05
+    },
+    {
+      "epsilon": 0.05,
+      "order": 1,
+      "core": 3.0,
+      "diameter_sample": 2.5988074916914683,
+      "waist_signed_radial_gap": 0.10000000000000009,
+      "waist_signed_gap_over_sampled_diameter": 0.03847918721171369,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.017274472168906173,
+      "at_x": 0.0,
+      "at_theta": 0.0,
+      "minimum_mean_xx": 0.00029608841309548004,
+      "minimum_mean_tt": 3.7639469400288993e-05
+    },
+    {
+      "epsilon": 0.07,
+      "order": 1,
+      "core": 3.0,
+      "diameter_sample": 2.5998040740347275,
+      "waist_signed_radial_gap": 0.14000000000000012,
+      "waist_signed_gap_over_sampled_diameter": 0.05385021179027895,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.03330564156785761,
+      "at_x": 0.0,
+      "at_theta": 0.0,
+      "minimum_mean_xx": 0.0002960884130954801,
+      "minimum_mean_tt": 3.7639469400288993e-05
+    },
+    {
+      "epsilon": 0.03,
+      "order": 3,
+      "core": 3.0,
+      "diameter_sample": 2.617417122527209,
+      "waist_signed_radial_gap": 0.06040159334517947,
+      "waist_signed_gap_over_sampled_diameter": 0.02307679308174602,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.002437890305620086,
+      "at_x": 0.0,
+      "at_theta": 0.39269908169872414,
+      "minimum_mean_xx": 0.00030481450630812367,
+      "minimum_mean_tt": 3.875058135820512e-05
+    },
+    {
+      "epsilon": 0.05,
+      "order": 3,
+      "core": 3.0,
+      "diameter_sample": 2.6536632630921178,
+      "waist_signed_radial_gap": 0.10185922844990469,
+      "waist_signed_gap_over_sampled_diameter": 0.03838438352996441,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.01752505865791058,
+      "at_x": 0.0,
+      "at_theta": 5.105088062083413,
+      "minimum_mean_xx": 0.00032064046073137885,
+      "minimum_mean_tt": 4.07657982954032e-05
+    },
+    {
+      "epsilon": 0.07,
+      "order": 3,
+      "core": 3.0,
+      "diameter_sample": 2.7085605383908216,
+      "waist_signed_radial_gap": 0.14510172286653855,
+      "waist_signed_gap_over_sampled_diameter": 0.053571526576527875,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.060186560116226494,
+      "at_x": 0.0,
+      "at_theta": 3.010692959690218,
+      "minimum_mean_xx": 0.00034513035194162436,
+      "minimum_mean_tt": 4.388439999670016e-05
+    },
+    {
+      "epsilon": 0.03,
+      "order": 5,
+      "core": 3.0,
+      "diameter_sample": 2.617213981833592,
+      "waist_signed_radial_gap": 0.0604437195976093,
+      "waist_signed_gap_over_sampled_diameter": 0.023094680074749973,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.0006202301858237584,
+      "at_x": 0.0,
+      "at_theta": 0.39269908169872414,
+      "minimum_mean_xx": 0.0003047229737936424,
+      "minimum_mean_tt": 3.8738926194180725e-05
+    },
+    {
+      "epsilon": 0.05,
+      "order": 5,
+      "core": 3.0,
+      "diameter_sample": 2.652076093272077,
+      "waist_signed_radial_gap": 0.10240097552333227,
+      "waist_signed_gap_over_sampled_diameter": 0.03861162799329489,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.011808178745067727,
+      "at_x": 0.0,
+      "at_theta": 0.39269908169872414,
+      "minimum_mean_xx": 0.00031991644329874575,
+      "minimum_mean_tt": 4.0673602916114076e-05
+    },
+    {
+      "epsilon": 0.07,
+      "order": 5,
+      "core": 3.0,
+      "diameter_sample": 2.702349378287881,
+      "waist_signed_radial_gap": 0.14801536864672915,
+      "waist_signed_gap_over_sampled_diameter": 0.05477284685539321,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.08065622037074127,
+      "at_x": 0.0,
+      "at_theta": 6.086835766330224,
+      "minimum_mean_xx": 0.00034224910975627995,
+      "minimum_mean_tt": 4.3517486634066895e-05
+    },
+    {
+      "epsilon": 0.03,
+      "order": 7,
+      "core": 3.0,
+      "diameter_sample": 2.617251712001181,
+      "waist_signed_radial_gap": 0.060443043352877535,
+      "waist_signed_gap_over_sampled_diameter": 0.02309408876330893,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.0001925448105059113,
+      "at_x": 0.0,
+      "at_theta": 0.39269908169872414,
+      "minimum_mean_xx": 0.00030473982723399143,
+      "minimum_mean_tt": 3.874107220310115e-05
+    },
+    {
+      "epsilon": 0.05,
+      "order": 7,
+      "core": 3.0,
+      "diameter_sample": 2.6528980377559566,
+      "waist_signed_radial_gap": 0.1023768184041518,
+      "waist_signed_gap_over_sampled_diameter": 0.038590559059235724,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.01000786397482238,
+      "at_x": 0.0,
+      "at_theta": 0.2617993877991494,
+      "minimum_mean_xx": 0.00032028666884803916,
+      "minimum_mean_tt": 4.072074690547395e-05
+    },
+    {
+      "epsilon": 0.07,
+      "order": 7,
+      "core": 3.0,
+      "diameter_sample": 2.7086668921089356,
+      "waist_signed_radial_gap": 0.14776071998879325,
+      "waist_signed_gap_over_sampled_diameter": 0.054551085782921255,
+      "samples": 1201,
+      "angles": 96,
+      "metric_operator_norm_sample": 0.14059799084221875,
+      "at_x": 0.0,
+      "at_theta": 3.4033920413889427,
+      "minimum_mean_xx": 0.0003451376299672291,
+      "minimum_mean_tt": 4.388532682379841e-05
+    }
+  ]
+}

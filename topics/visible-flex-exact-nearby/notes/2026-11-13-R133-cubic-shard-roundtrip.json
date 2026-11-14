@@ -1,0 +1,14 @@
+{
+  "kind": "lossless_radial_shard_roundtrip",
+  "input_path": "notes/2026-11-13-R133-compact-metric-outer-mean-m64-candidate.npz.gz",
+  "input_sha256": "4046eb7ac8da162ab9aad9fcb4991933200abdbc2c22ed6329d49bb13d72b856",
+  "source_sha256": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e",
+  "checks": {
+    "radial_nodes": true,
+    "piece_coefficients": true,
+    "initial_state": true
+  },
+  "shards": 2,
+  "maximum_shard_bytes": 2713422,
+  "temporary_roundtrip_shards_deleted": true
+}

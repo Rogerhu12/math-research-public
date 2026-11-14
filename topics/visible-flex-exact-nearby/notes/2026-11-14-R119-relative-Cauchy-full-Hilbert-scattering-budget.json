@@ -1,0 +1,284 @@
+{
+  "execution": {
+    "implementation_blob": "e19135c3eb3334c9fe18fe4e6054976886e568de",
+    "engine": "functions.exec V8",
+    "executed_on": "2026-11-14",
+    "arithmetic": "exact BigInt rational arithmetic and block identities",
+    "claim": "new implementation actually executed; not an old native replay"
+  },
+  "computation": {
+    "schema": "R119-relative-Cauchy-full-Hilbert-scattering-v1",
+    "date": "2026-11-14",
+    "computation": "new exact BigInt rational operator constants and complete symplectic-block identities",
+    "dependencies": {
+      "proof": "328192a452be36598c77b26cf51d75f06244b015",
+      "actual_strict_full_interaction": "ce2ae0beeb75d96db8f433ee6ebaeb88bfcf96e7",
+      "controlled_profile53": "f11edbccd752bf034aa40e71888859d667a04b42",
+      "actual_controlled_joint55": "fc3aab62e99a51cc06bd26a7233663a2b8e4dd73"
+    },
+    "bounds": {
+      "relative_endpoint_input": "epsilon<=1/16",
+      "full_Hilbert_unitary_scattering": "||S-S0|| <=8 epsilon, no ||C0|| factor",
+      "actual_strict_scattering": "<=64 eta_i",
+      "whole_true_controlled_sum": "<2^192022 ||X|| <=2^-70122",
+      "affine_complete_port_source": "q=b_minus-S b_plus; norm <=sqrt(2)||b||",
+      "derivative_consumer": "<=16||E-I||||DS0||+16||DE||, only when actual bounded derivatives supplied"
+    },
+    "scope": "complete infinite Fourier Hilbert graph, both means, true principal endpoint coordinates and paid affine charges; not whole physical network or nonradial cluster inverse",
+    "gates_count": 29,
+    "all_passed": true,
+    "gates": [
+      {
+        "name": "inverse_near_identity_endpoint_fee",
+        "passed": true,
+        "detail": {
+          "left": "1/15",
+          "relation": "eq",
+          "right": "1/15"
+        }
+      },
+      {
+        "name": "full_Mobius_denominator",
+        "passed": true,
+        "detail": {
+          "left": "2/15",
+          "relation": "lt",
+          "right": "1"
+        }
+      },
+      {
+        "name": "full_Mobius_denominator_inverse",
+        "passed": true,
+        "detail": {
+          "left": "15/13",
+          "relation": "eq",
+          "right": "15/13"
+        }
+      },
+      {
+        "name": "full_four_term_Mobius_difference",
+        "passed": true,
+        "detail": {
+          "left": "64/13",
+          "relation": "eq",
+          "right": "64/13"
+        }
+      },
+      {
+        "name": "full_scattering_rounding",
+        "passed": true,
+        "detail": {
+          "left": "64/13",
+          "relation": "lt",
+          "right": "8"
+        }
+      },
+      {
+        "name": "complete_Dtheta_inverse_half_norm",
+        "passed": true,
+        "detail": {
+          "left": "5/4",
+          "relation": "lt",
+          "right": "4"
+        }
+      },
+      {
+        "name": "sum_to_Hilbert_four_components_squared",
+        "passed": true,
+        "detail": {
+          "left": "4",
+          "relation": "eq",
+          "right": "4"
+        }
+      },
+      {
+        "name": "two_norm_equivalences_operator_fee",
+        "passed": true,
+        "detail": {
+          "left": "4",
+          "relation": "eq",
+          "right": "4"
+        }
+      },
+      {
+        "name": "exp_eta_minus_one_linear_fee",
+        "passed": true,
+        "detail": {
+          "left": "4/3",
+          "relation": "lt",
+          "right": "2"
+        }
+      },
+      {
+        "name": "actual_interaction_Hilbert_fee",
+        "passed": true,
+        "detail": {
+          "left": "8",
+          "relation": "eq",
+          "right": "8"
+        }
+      },
+      {
+        "name": "complete_relative_scattering_actual_fee",
+        "passed": true,
+        "detail": {
+          "left": "64",
+          "relation": "eq",
+          "right": "64"
+        }
+      },
+      {
+        "name": "interaction_domain_for_scattering",
+        "passed": true,
+        "detail": {
+          "left": "1/16",
+          "relation": "eq",
+          "right": "1/16"
+        }
+      },
+      {
+        "name": "controlled_reference_state_extra_bits",
+        "passed": true,
+        "detail": {
+          "left": "16",
+          "relation": "eq",
+          "right": "16"
+        }
+      },
+      {
+        "name": "controlled_whole_interaction_sum_bits",
+        "passed": true,
+        "detail": {
+          "left": "192016",
+          "relation": "eq",
+          "right": "192016"
+        }
+      },
+      {
+        "name": "complete_scattering_whole_sum_bits",
+        "passed": true,
+        "detail": {
+          "left": "192022",
+          "relation": "eq",
+          "right": "192022"
+        }
+      },
+      {
+        "name": "actual_true_input_interaction_exponent",
+        "passed": true,
+        "detail": {
+          "left": "-70128",
+          "relation": "eq",
+          "right": "-70128"
+        }
+      },
+      {
+        "name": "actual_interaction_inside_Mobius_domain",
+        "passed": true,
+        "detail": {
+          "left": "-70128",
+          "relation": "lt",
+          "right": "-7"
+        }
+      },
+      {
+        "name": "actual_true_input_complete_scattering_exponent",
+        "passed": true,
+        "detail": {
+          "left": "-70122",
+          "relation": "eq",
+          "right": "-70122"
+        }
+      },
+      {
+        "name": "affine_both_port_Cauchy_Schwarz_factor_squared",
+        "passed": true,
+        "detail": {
+          "left": "2",
+          "relation": "eq",
+          "right": "2"
+        }
+      },
+      {
+        "name": "derivative_reference_scattering_fee",
+        "passed": true,
+        "detail": {
+          "left": "64/13",
+          "relation": "lt",
+          "right": "16"
+        }
+      },
+      {
+        "name": "derivative_endpoint_inverse_fee",
+        "passed": true,
+        "detail": {
+          "left": "256/225",
+          "relation": "lt",
+          "right": "2"
+        }
+      },
+      {
+        "name": "derivative_complete_endpoint_four_terms",
+        "passed": true,
+        "detail": {
+          "left": "1024/195",
+          "relation": "lt",
+          "right": "16"
+        }
+      },
+      {
+        "name": "complete_mean_symplectic_factor",
+        "passed": true,
+        "detail": {
+          "left": "2",
+          "relation": "eq",
+          "right": "2"
+        }
+      },
+      {
+        "name": "plus_wave_full_symplectic_factor",
+        "passed": true,
+        "detail": {
+          "left": "2",
+          "relation": "eq",
+          "right": "2"
+        }
+      },
+      {
+        "name": "minus_wave_full_symplectic_factor",
+        "passed": true,
+        "detail": {
+          "left": "-2",
+          "relation": "eq",
+          "right": "-2"
+        }
+      },
+      {
+        "name": "plus_minus_symplectic_cross_cancellation",
+        "passed": true,
+        "detail": {
+          "left": "0",
+          "relation": "eq",
+          "right": "0"
+        }
+      },
+      {
+        "name": "minus_plus_symplectic_cross_cancellation",
+        "passed": true,
+        "detail": {
+          "left": "0",
+          "relation": "eq",
+          "right": "0"
+        }
+      },
+      {
+        "name": "actual_mean_strong_complex_structure",
+        "passed": true
+      },
+      {
+        "name": "both_real_chiral_complex_structures",
+        "passed": true
+      }
+    ]
+  }
+}

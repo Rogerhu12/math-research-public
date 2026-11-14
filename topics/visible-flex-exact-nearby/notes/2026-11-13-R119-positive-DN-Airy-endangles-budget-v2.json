@@ -1,0 +1,294 @@
+{
+  "schema": "visible-exact-R119-positive-DN-actual-Airy-endangles-v1",
+  "scope": "Complete weak two-end DN in the exact adjacent Airy endpoint angles, an optical interpolation of the physical coordinate change, all mean and off-diagonal rows, continuous ordinary and explicitly given divergence sources, and full coupled parameter and scale derivatives. No mixed-network Green condition number is asserted.",
+  "parameters": {
+    "label_weight": 224,
+    "true_positive_optical_lower_bound": "Lplus>delta_j^(3/4)*sqrt(j)/32",
+    "all_modes": "m in 4Z including mean; no Fourier cutoff",
+    "relative_form_per_component": "2^154(j+5)^2 delta_j^(59/256) exp(-640) X",
+    "sum_relative_DN": "<2^-480 X",
+    "sum_first_label_derivative": "<2^-476 after exact rho/rho0 normalization",
+    "sum_second_label_derivative": "<2^-470 after exact rho/rho0 normalization",
+    "ordinary_source_norm": "[2^16 epsilon^2 delta_j^(43/4)+2^23 epsilon^(3/2) sqrt(rho) delta_j^8] ||e||_L2"
+  },
+  "file_sha256": {
+    "results/R119-supplement-actual-negative-band-metric-parameters.md": "3139d06c6628df7d248bd3fcd0c842837edcde840f12ba383a9a99397ffbb361",
+    "results/R119-supplement-actual-positive-band-two-end-dn-and-ordinary-source.md": "501f0813575c071d1586b412873ae2c43022a955c04d870f41d21c448ce38484",
+    "results/R119-supplement-actual-ray-amplitude-and-integrable-relative-coupling.md": "6a79a8ed9f22ddff4729608529a50d5bc3fc57b70c4179c89b1bb16072ccc3c6",
+    "results/R119-supplement-actual-Airy-balance-of-ray-coupling-and-sources.md": "1d6fe6010177cffde98f11f2bf7262b21ec33c428ec431f31a58c8f66f3be6a3",
+    "results/R119-supplement-retuned-fourth-connector-and-common-bumps.md": "e22a74f54ea1122271e50d2bdcd2ae8db5bc4c28e1e36eaebc35c40f6c3c3752",
+    "results/R119-supplement-positive-DN-in-actual-Airy-endpoint-angles.md": "f1132231588e2ccdc7e3e394e048f306dd79caf22ea993a98a57fba2622c34dc",
+    "scripts/fourfold_positive_DN_Airy_endangles_20261113.py": "6e29fad2f0f511c06f97c9e5e5ba18085b4dd7aadb5f51bf56f129978aa6ef70"
+  },
+  "checks": [
+    {
+      "name": "actual_quintic_derivative",
+      "pass": true,
+      "evidence": "The positive components are the exact ascending log-quintic ramps"
+    },
+    {
+      "name": "actual_central_positive_interval",
+      "pass": true,
+      "evidence": "S' is at least 135/128 on the complete middle half"
+    },
+    {
+      "name": "actual_positive_peak",
+      "pass": true,
+      "evidence": "The optical upper bound uses the actual maximum"
+    },
+    {
+      "name": "actual_symmetric_turning_roots",
+      "pass": true,
+      "evidence": "The two endpoint log losses coincide"
+    },
+    {
+      "name": "actual_turning_log_bound",
+      "pass": true,
+      "evidence": "For x in [0,1], S(x)<=10x^3; the actual root satisfies x<=2 sqrt(7/(30 Lambda))"
+    },
+    {
+      "name": "actual_large_ramp_parameter",
+      "pass": true,
+      "evidence": "sqrt12>3, Delta>j/2 and eta<1 imply Lambda>14 at every layer"
+    },
+    {
+      "name": "positive_optical_integral_constant",
+      "pass": true,
+      "evidence": "The exact middle-half denominator squared is 8 sqrt12<32<64"
+    },
+    {
+      "name": "positive_optical_length_layer_power",
+      "pass": true,
+      "evidence": "eta>delta^(3/2)/8 and Delta>j/2 give Lplus>delta^(3/4)*sqrt(j)/32"
+    },
+    {
+      "name": "positive_optical_length_upper_first_layer",
+      "pass": true,
+      "evidence": "Lplus<2 sqrt(eta Delta)<1 at the first actual layer"
+    },
+    {
+      "name": "positive_optical_upper_deeper_layers",
+      "pass": true,
+      "evidence": "Delta's linear envelope grows more slowly than eta's factor2^(-3/2)"
+    },
+    {
+      "name": "full_KAM_endpoint_constant",
+      "pass": true,
+      "evidence": "The complete Diophantine normalization kappa/64 and actual inverse kappa are retained"
+    },
+    {
+      "name": "full_KAM_endpoint_layer_power",
+      "pass": true,
+      "evidence": "The true local KAM endpoint displacement includes its kappa inverse"
+    },
+    {
+      "name": "adjacent_layer_endpoint_envelope",
+      "pass": true,
+      "evidence": "The outer adjacent delta doubles and costs less than factor2; the polynomial is bounded by (j+5)^2"
+    },
+    {
+      "name": "endpoint_maps_inverse_drift_budget",
+      "pass": true,
+      "evidence": "Both actual endpoint compositions and the complete drift inverse fit the stated a_j"
+    },
+    {
+      "name": "drift_metric_relative_budget",
+      "pass": true,
+      "evidence": "512 N_j is dominated by a_j, including all drift Jacobian terms"
+    },
+    {
+      "name": "endpoint_a_first_layer_polynomial",
+      "pass": true,
+      "evidence": "The first actual polynomial factor is explicitly retained"
+    },
+    {
+      "name": "endpoint_a_first_layer_decay",
+      "pass": true,
+      "evidence": "The complete first-layer polynomial times delta^(251/256) is less than1"
+    },
+    {
+      "name": "endpoint_a_decay_integer",
+      "pass": true,
+      "evidence": "2^(-251/256)<3/5 is an exact integer inequality"
+    },
+    {
+      "name": "endpoint_a_deeper_layer_ratio",
+      "pass": true,
+      "evidence": "The real endpoint envelope decreases at every later depth"
+    },
+    {
+      "name": "endpoint_a_smallness",
+      "pass": true,
+      "evidence": "e>2 and the preceding all-layer envelope give a_j<2^-400"
+    },
+    {
+      "name": "exact_full_physical_pullback_matrix",
+      "pass": true,
+      "evidence": "The full physical matrix, Jacobian, drift and cross term are transformed together"
+    },
+    {
+      "name": "exact_drift_then_optical_interpolation",
+      "pass": true,
+      "evidence": "The only remaining cross term is psi_t, which is exactly sqrt(A) times the endpoint difference/Lplus"
+    },
+    {
+      "name": "exact_complete_endpoint_flux_density",
+      "pass": true,
+      "evidence": "The output is K_e' times the full original raw conormal, including drift"
+    },
+    {
+      "name": "exact_metric_source_radial_Piola",
+      "pass": true,
+      "evidence": "The true radial source density and its two endpoint terms survive"
+    },
+    {
+      "name": "exact_metric_source_angular_Piola",
+      "pass": true,
+      "evidence": "The entire angular source includes the moving-coordinate shear"
+    },
+    {
+      "name": "exact_weighted_form_determinant",
+      "pass": true,
+      "evidence": "The complete coordinate shear leaves the determinant independent of nu and jpsi"
+    },
+    {
+      "name": "complete_complex_form_first_row",
+      "pass": true,
+      "evidence": "The same coefficient majorant works for the analytic complex form extension"
+    },
+    {
+      "name": "complete_complex_form_second_row",
+      "pass": true,
+      "evidence": "Both diagonal changes and the entire cross term are included"
+    },
+    {
+      "name": "true_relative_DN_layer_power",
+      "pass": true,
+      "evidence": "The optical inverse length is paid without the invalid eta^(-1) cost"
+    },
+    {
+      "name": "complete_DN_coefficient_constant",
+      "pass": true,
+      "evidence": "16 times the complete coefficient sum is at most64 a_j/Lplus"
+    },
+    {
+      "name": "relative_DN_decay_integer",
+      "pass": true,
+      "evidence": "2^(-59/256)<6/7, with no floating approximation"
+    },
+    {
+      "name": "all_positive_layer_sum",
+      "pass": true,
+      "evidence": {
+        "exact_upper_sum": "67545895873323906762375238835358344030455616283621150636190697599027252556786120636455826337884931096576/212545092456801670844330383105896224333193816736399849985499757869483902203328714236393937418376186556719543",
+        "two_positive_components_per_layer": true
+      }
+    },
+    {
+      "name": "actual_full_relative_DN_sum",
+      "pass": true,
+      "evidence": "Both positive components at every depth are included in the strict2^-480 bound"
+    },
+    {
+      "name": "exact_DN_left_port",
+      "pass": true,
+      "evidence": "The left port has the correct outward sign and complete off-diagonal coupling"
+    },
+    {
+      "name": "exact_DN_right_port",
+      "pass": true,
+      "evidence": "The right port uses the exact determinant-one transfer relation"
+    },
+    {
+      "name": "complete_mean_translation_kernel",
+      "pass": true,
+      "evidence": "Only common height translation is in the kernel; mean difference and flux remain"
+    },
+    {
+      "name": "same_Airy_height_port",
+      "pass": true,
+      "evidence": "The input is the complete sqrt(D)-weighted height derivative"
+    },
+    {
+      "name": "same_Airy_flux_port",
+      "pass": true,
+      "evidence": "The output uses the true D^(-1/2)-weighted flux, not its unweighted mean"
+    },
+    {
+      "name": "actual_turning_endpoint_log_smallness",
+      "pass": true,
+      "evidence": "eta<2^-8 and Delta>1 suffice for the true endpoint log deficit<1/4"
+    },
+    {
+      "name": "actual_endpoint_exponential_factor",
+      "pass": true,
+      "evidence": "e<3 implies exp(1/4)<2, so the two actual endpoint p* values are retained"
+    },
+    {
+      "name": "actual_endpoint_mean_energy_gap",
+      "pass": true,
+      "evidence": "delta<2^-12 gives mu_start<epsilon delta^5/(1024 rho), below half mu_end"
+    },
+    {
+      "name": "actual_radial_resistance_power",
+      "pass": true,
+      "evidence": "Both the real minimum mu and the actual ramp length are included"
+    },
+    {
+      "name": "actual_continuous_source_embedding_constant",
+      "pass": true,
+      "evidence": "The full 1+2sqrt(R)+1/(4sqrt(M)) mean and nonmean embedding is retained"
+    },
+    {
+      "name": "physical_scalar_source_density_constant",
+      "pass": true,
+      "evidence": "The real angular L2 change of variables and the actual maximum w are both paid"
+    },
+    {
+      "name": "physical_scalar_source_first_power",
+      "pass": true,
+      "evidence": "L2 radial input costs the actual square root of the positive-band length"
+    },
+    {
+      "name": "physical_scalar_source_second_power",
+      "pass": true,
+      "evidence": "The continuous body-source to full boundary-source power is positive and summable"
+    },
+    {
+      "name": "physical_scalar_source_second_constant",
+      "pass": true,
+      "evidence": "The epsilon^(3/2)*sqrt(rho) term includes the exact C_I factor"
+    },
+    {
+      "name": "full_label_Cauchy_domain",
+      "pass": true,
+      "evidence": "Both label directions and their coupled Gamma variations remain inside the original ball"
+    },
+    {
+      "name": "full_first_label_operator_derivative",
+      "pass": true,
+      "evidence": "The first derivative is on a fixed reference energy space after paying rho/rho0"
+    },
+    {
+      "name": "full_second_label_operator_derivative",
+      "pass": true,
+      "evidence": "Two independent complex directions retain all cross-label derivatives"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "same_actual_Airy_endpoint_coordinates": true,
+    "full_positive_weak_DN_relative_bound": true,
+    "both_off_diagonal_DN_entries_retained": true,
+    "full_mean_flux_and_independent_height": true,
+    "actual_continuous_scalar_source_weight": true,
+    "explicit_divergence_source_and_both_endpoint_terms": true,
+    "all_coupled_label_and_scale_derivatives": true,
+    "negative_reference_full_Green": false,
+    "strong_Airy_to_positive_trace_comparison": false,
+    "whole_mixed_network_inverse": false,
+    "automatic_all_metric_source_conversion": false,
+    "full_nonlinear_regular_high_input_inverse": false,
+    "topic_completion": false
+  }
+}

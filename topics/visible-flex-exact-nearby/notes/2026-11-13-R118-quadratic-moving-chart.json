@@ -1,0 +1,165 @@
+{
+  "kind": "R118_true_Newton_quadratic_source_and_moving_chart",
+  "execution": "actual V8 BigInt rational arithmetic",
+  "allowed_a": "0 <= ||rho||C2 * ||V||C2 <= 1/100",
+  "gates": [
+    {
+      "name": "sqrt(2) strictly below 3/2",
+      "left": "2",
+      "relation": "<",
+      "right": "9/4",
+      "passed": true
+    },
+    {
+      "name": "normalization C0 difference per a",
+      "left": "100/99",
+      "relation": "<",
+      "right": "2",
+      "passed": true
+    },
+    {
+      "name": "ambient first derivative difference per a",
+      "left": "49700/9801",
+      "relation": "<",
+      "right": "6",
+      "passed": true
+    },
+    {
+      "name": "complete ambient second derivative difference per a",
+      "left": "12915350/107811",
+      "relation": "<",
+      "right": "120",
+      "passed": true
+    },
+    {
+      "name": "sphere-map Hessian including projection difference per a",
+      "left": "4010/33",
+      "relation": "<",
+      "right": "122",
+      "passed": true
+    },
+    {
+      "name": "strict global local-diffeomorphism margin",
+      "left": "0",
+      "relation": "<",
+      "right": "47/50",
+      "passed": true
+    },
+    {
+      "name": "inverse first derivative",
+      "left": "50/47",
+      "relation": "<=",
+      "right": "50/47",
+      "passed": true
+    },
+    {
+      "name": "complete inverse-chart C2 composition",
+      "left": "270000/103823",
+      "relation": "<",
+      "right": "3",
+      "passed": true
+    },
+    {
+      "name": "inverse radius first derivative per a",
+      "left": "3020000/970299",
+      "relation": "<",
+      "right": "4",
+      "passed": true
+    },
+    {
+      "name": "inverse radius complete Hessian per a",
+      "left": "32209900000/3169966833",
+      "relation": "<",
+      "right": "11",
+      "passed": true
+    },
+    {
+      "name": "radius first derivative per a",
+      "left": "302/99",
+      "relation": "<",
+      "right": "4",
+      "passed": true
+    },
+    {
+      "name": "radius complete Hessian per a",
+      "left": "9480562/970299",
+      "relation": "<",
+      "right": "10",
+      "passed": true
+    },
+    {
+      "name": "rho times inverse-radius deviation C2",
+      "left": "21",
+      "relation": "<=",
+      "right": "21",
+      "passed": true
+    },
+    {
+      "name": "R times radius deviation C2",
+      "left": "19",
+      "relation": "<=",
+      "right": "19",
+      "passed": true
+    },
+    {
+      "name": "updated rho and radius relative to one fixed reference",
+      "left": "363/100",
+      "relation": "<",
+      "right": "4",
+      "passed": true
+    },
+    {
+      "name": "quadratic source full coefficient",
+      "left": "11",
+      "relation": "<=",
+      "right": "11",
+      "passed": true
+    },
+    {
+      "name": "updated defect C0 coefficient",
+      "left": "9",
+      "relation": "<=",
+      "right": "9",
+      "passed": true
+    },
+    {
+      "name": "updated defect C1 coefficient",
+      "left": "18",
+      "relation": "<=",
+      "right": "18",
+      "passed": true
+    },
+    {
+      "name": "updated compatibility source coefficient",
+      "left": "1584",
+      "relation": "<=",
+      "right": "1584",
+      "passed": true
+    },
+    {
+      "name": "actual Newton scalar RHS coefficient",
+      "left": "792",
+      "relation": "<=",
+      "right": "792",
+      "passed": true
+    }
+  ],
+  "gate_count": 20,
+  "passed": true,
+  "constants": {
+    "ambient_chart_difference_C1": 6,
+    "ambient_chart_difference_C2": 120,
+    "intrinsic_chart_Hessian": 122,
+    "inverse_chart_C2_composition": 3,
+    "new_rho_radius_reference_factor": 4,
+    "metric_defect_C0": 9,
+    "metric_defect_C1": 18,
+    "compatibility_source": 1584,
+    "Newton_scalar_RHS": 792
+  },
+  "limitations": [
+    "The actual full linearized metric equation must be solved exactly for the quadratic-only conclusion.",
+    "An approximate inverse retains the complete compatibility source of its true strain residual.",
+    "No arbitrary mixed-type PDE C0-to-C2 inverse, candidate numerical neighborhood, high angular norm or nonlinear convergence is asserted."
+  ]
+}

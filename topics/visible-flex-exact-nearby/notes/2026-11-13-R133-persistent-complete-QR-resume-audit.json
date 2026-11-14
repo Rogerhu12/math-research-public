@@ -1,0 +1,190 @@
+{
+  "kind": "persistent_complete_reciprocal_cap_cut_QR_actual_resume_test",
+  "all_original_backward_gates_passed": true,
+  "finite_linear_algorithm_only": true,
+  "source_input_sha256": "88a1e73b62a1c0157b81cf71f2dc93c912c079bd07b85acbdadbb13267a85c7b",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "q_vector_sha256": "8be91d0265e7037c584faf1fa55b68bfd97b924aecc04b2a9b631c2354b5bf74",
+  "modes": 8,
+  "angles": 128,
+  "full_source_projection_angles": 2048,
+  "radial_nodes": 22,
+  "complete_dimension": 375,
+  "all_nonlinear_boundary_rows_and_parameter_retained": true,
+  "tests": [
+    {
+      "storage": "persistent_complete_checkpoint",
+      "history": [
+        {
+          "kind": "full_checkpointed_boundary_QR_factorization",
+          "radial_nodes": 22,
+          "state_dimension": 17,
+          "parameter_dimension": 1,
+          "all_Fourier_couplings_retained": true,
+          "no_entry_drop": true,
+          "recomputation_segment_length": 6,
+          "retained_boundary_row_bytes": 5184,
+          "maximum_cached_factor_bytes": 41424,
+          "final_boundary_condition_2": 27.101752345452486,
+          "minimum_local_QR_diagonal": 0.358402335557544,
+          "seconds": 0.07925343300303211
+        },
+        {
+          "kind": "restored_complete_boundary_QR_factor",
+          "fingerprint": "0e35574070e000a846bf9ca862814e2d5c1d385448ea1c690e039c3b7a44e65f",
+          "radial_nodes": 22,
+          "state_dimension": 17,
+          "parameter_dimension": 1,
+          "all_Fourier_couplings_retained": true,
+          "all_saved_seed_hashes_checked_when_used": true,
+          "original_factorization": {
+            "kind": "full_checkpointed_boundary_QR_factorization",
+            "radial_nodes": 22,
+            "state_dimension": 17,
+            "parameter_dimension": 1,
+            "all_Fourier_couplings_retained": true,
+            "no_entry_drop": true,
+            "recomputation_segment_length": 6,
+            "retained_boundary_row_bytes": 5184,
+            "maximum_cached_factor_bytes": 41424,
+            "final_boundary_condition_2": 27.101752345452486,
+            "minimum_local_QR_diagonal": 0.358402335557544,
+            "seconds": 0.07925343300303211
+          }
+        },
+        {
+          "kind": "full_finite_collocation_QR_solve",
+          "refinements": [
+            {
+              "iteration": 0,
+              "full_relative_residual": 5.876388643666977e-13,
+              "maximum_absolute_residual": 2.11785177508602e-14
+            }
+          ],
+          "full_relative_residual": 5.876388643666977e-13,
+          "seconds": 0.06493055100145284,
+          "all_finite_modes_and_parameter_column_retained": true,
+          "original_backward_residual_gate": 5e-08,
+          "complete": true
+        },
+        {
+          "kind": "full_finite_collocation_QR_solve",
+          "refinements": [
+            {
+              "iteration": 0,
+              "full_relative_residual": 7.033365947882099e-13,
+              "maximum_absolute_residual": 8.683886942861818e-12
+            }
+          ],
+          "full_relative_residual": 7.033365947882099e-13,
+          "seconds": 0.06227986099838745,
+          "all_finite_modes_and_parameter_column_retained": true,
+          "original_backward_residual_gate": 5e-08,
+          "complete": true
+        },
+        {
+          "kind": "restored_complete_boundary_QR_factor",
+          "fingerprint": "0e35574070e000a846bf9ca862814e2d5c1d385448ea1c690e039c3b7a44e65f",
+          "radial_nodes": 22,
+          "state_dimension": 17,
+          "parameter_dimension": 1,
+          "all_Fourier_couplings_retained": true,
+          "all_saved_seed_hashes_checked_when_used": true,
+          "original_factorization": {
+            "kind": "full_checkpointed_boundary_QR_factorization",
+            "radial_nodes": 22,
+            "state_dimension": 17,
+            "parameter_dimension": 1,
+            "all_Fourier_couplings_retained": true,
+            "no_entry_drop": true,
+            "recomputation_segment_length": 6,
+            "retained_boundary_row_bytes": 5184,
+            "maximum_cached_factor_bytes": 41424,
+            "final_boundary_condition_2": 27.101752345452486,
+            "minimum_local_QR_diagonal": 0.358402335557544,
+            "seconds": 0.07925343300303211
+          }
+        },
+        {
+          "kind": "full_finite_collocation_QR_solve",
+          "refinements": [
+            {
+              "iteration": 0,
+              "full_relative_residual": 5.876388643666977e-13,
+              "maximum_absolute_residual": 2.11785177508602e-14
+            }
+          ],
+          "full_relative_residual": 5.876388643666977e-13,
+          "seconds": 0.004433096997672692,
+          "all_finite_modes_and_parameter_column_retained": true,
+          "original_backward_residual_gate": 5e-08,
+          "complete": true
+        },
+        {
+          "kind": "full_finite_collocation_QR_solve",
+          "refinements": [
+            {
+              "iteration": 0,
+              "full_relative_residual": 7.033365947882099e-13,
+              "maximum_absolute_residual": 8.683886942861818e-12
+            }
+          ],
+          "full_relative_residual": 7.033365947882099e-13,
+          "seconds": 0.006767509003111627,
+          "all_finite_modes_and_parameter_column_retained": true,
+          "original_backward_residual_gate": 5e-08,
+          "complete": true
+        }
+      ],
+      "actual_mid_substitution_pause": {
+        "stage": "forward",
+        "next_index": 6,
+        "actual_exception": "saved forward block six"
+      },
+      "tests": [
+        {
+          "round": "resume_actual_forward_checkpoint",
+          "measurements": {
+            "full_QR_residual_against_original_SciPy": 5.876425412114545e-13,
+            "difference_from_independent_full_LU": 2.323218848004992e-14,
+            "full_FFT_action_against_original_SciPy": 3.148515490935014e-16
+          }
+        },
+        {
+          "round": "resume_actual_forward_checkpoint",
+          "measurements": {
+            "full_QR_residual_against_original_SciPy": 7.713132739987983e-13,
+            "difference_from_independent_full_LU": 1.8854635668523735e-14,
+            "full_FFT_action_against_original_SciPy": 3.9178638689515353e-16
+          }
+        },
+        {
+          "round": "reload_complete_solutions",
+          "measurements": {
+            "full_QR_residual_against_original_SciPy": 5.876425412114545e-13,
+            "difference_from_independent_full_LU": 2.323218848004992e-14,
+            "full_FFT_action_against_original_SciPy": 3.8113007079137967e-16
+          }
+        },
+        {
+          "round": "reload_complete_solutions",
+          "measurements": {
+            "full_QR_residual_against_original_SciPy": 7.713132739987983e-13,
+            "difference_from_independent_full_LU": 1.8854635668523735e-14,
+            "full_FFT_action_against_original_SciPy": 3.0968819869779125e-16
+          }
+        }
+      ]
+    }
+  ],
+  "source_sha256": "2285e8a9e1d1becd09ad3ab5c454b67ced2a20b7cd2e8bb1a976435cbbc22668",
+  "dependencies": {
+    "fourfold_codazzi_reciprocal_batched_system.py": "fbcb53536b9db99c10cd8ebe039432001e2f84fe75520157a1fe22cc1398f416",
+    "fourfold_codazzi_reciprocal_cap_cut_system.py": "bc23c4cdc74ed0e5b146444819d6d09bcc7ce4191f984ab5abd3f6ee6b1fc68c",
+    "fourfold_codazzi_full_action_qr_collocation_persistent.py": "c75aaea857ac43bcf7c80adc5d667f26656bb6fd36eac44f11d6c0a91e57aa21",
+    "fourfold_codazzi_block_qr_collocation.py": "62a538a21334f591a227492cade1af369403dc4ed18fad184fc8604abc8bf429",
+    "fourfold_codazzi_block_qr_checkpointed.py": "7eda6f1798105a54944521b9c746cf79cb0dfd020b0a91e59fd21aeb5d0cd677",
+    "fourfold_codazzi_block_qr_persistent.py": "ff688859ded8d7db16b1d6ccace9b61fcd1676ec6f09383afb8e9c0e8c893a3f"
+  },
+  "wall_seconds": 0.9250577649945626
+}

@@ -1,0 +1,167 @@
+{
+  "kind": "actual_native_R111_disjoint_continuations",
+  "prefix_path": "data/R111/2026-11-13-ac0d-body-prefix.json.gz",
+  "prefix_sha256": "e564032fc05a4a24f8274995dbad9b84f80187eabcc48461bdf8449f68e9ec6b",
+  "prefix_accepted": 198,
+  "jobs": [
+    {
+      "part": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/fourfold_phase_cap_parameter_comparison.py",
+        "--part",
+        "body",
+        "--body-left",
+        "5212980234710965/9007199254740992",
+        "--body-right",
+        "42660538468355871/36028797018963968",
+        "--half-width",
+        "1/1000000000",
+        "--parameter-radius",
+        "1/10000",
+        "--relative-target",
+        "1/500",
+        "--primitive-nodes",
+        "512",
+        "--angles",
+        "1024",
+        "--bits",
+        "192",
+        "--out",
+        "data/R111/ac0d_complete/continuation_0.json.gz"
+      ],
+      "output": "data/R111/ac0d_complete/continuation_0.json.gz",
+      "exact_interval": [
+        "5212980234710965/9007199254740992",
+        "42660538468355871/36028797018963968"
+      ],
+      "exit_code": 0,
+      "sha256": "9fad432e0d6167e2dd754cdb259e30e2780a371c4287384f27f4f567d6aa4a42",
+      "bytes": 104838
+    },
+    {
+      "part": 1,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/fourfold_phase_cap_parameter_comparison.py",
+        "--part",
+        "body",
+        "--body-left",
+        "42660538468355871/36028797018963968",
+        "--body-right",
+        "32234577998933941/18014398509481984",
+        "--half-width",
+        "1/1000000000",
+        "--parameter-radius",
+        "1/10000",
+        "--relative-target",
+        "1/500",
+        "--primitive-nodes",
+        "512",
+        "--angles",
+        "1024",
+        "--bits",
+        "192",
+        "--out",
+        "data/R111/ac0d_complete/continuation_1.json.gz"
+      ],
+      "output": "data/R111/ac0d_complete/continuation_1.json.gz",
+      "exact_interval": [
+        "42660538468355871/36028797018963968",
+        "32234577998933941/18014398509481984"
+      ],
+      "exit_code": 0,
+      "sha256": "93c533fe93966a196aeed3c538857f44197ae1c58072ca920cef7051ec6bc636",
+      "bytes": 96509
+    },
+    {
+      "part": 2,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/fourfold_phase_cap_parameter_comparison.py",
+        "--part",
+        "body",
+        "--body-left",
+        "32234577998933941/18014398509481984",
+        "--body-right",
+        "86277773527379893/36028797018963968",
+        "--half-width",
+        "1/1000000000",
+        "--parameter-radius",
+        "1/10000",
+        "--relative-target",
+        "1/500",
+        "--primitive-nodes",
+        "512",
+        "--angles",
+        "1024",
+        "--bits",
+        "192",
+        "--out",
+        "data/R111/ac0d_complete/continuation_2.json.gz"
+      ],
+      "output": "data/R111/ac0d_complete/continuation_2.json.gz",
+      "exact_interval": [
+        "32234577998933941/18014398509481984",
+        "86277773527379893/36028797018963968"
+      ],
+      "exit_code": 0,
+      "sha256": "0e55b89e4bc0dbc47a9563de358466e8ab981e07373b64f6398f4351dd8fee1e",
+      "bytes": 92445
+    },
+    {
+      "part": 3,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/fourfold_phase_cap_parameter_comparison.py",
+        "--part",
+        "body",
+        "--body-left",
+        "86277773527379893/36028797018963968",
+        "--body-right",
+        "3",
+        "--half-width",
+        "1/1000000000",
+        "--parameter-radius",
+        "1/10000",
+        "--relative-target",
+        "1/500",
+        "--primitive-nodes",
+        "512",
+        "--angles",
+        "1024",
+        "--bits",
+        "192",
+        "--out",
+        "data/R111/ac0d_complete/continuation_3.json.gz"
+      ],
+      "output": "data/R111/ac0d_complete/continuation_3.json.gz",
+      "exact_interval": [
+        "86277773527379893/36028797018963968",
+        "3"
+      ],
+      "exit_code": 0,
+      "sha256": "da43ef585c3a753bd5cd84af8a96f44fc841c28feb11bf77aff69b182e427cf2",
+      "bytes": 88799
+    }
+  ],
+  "complete": true,
+  "collector_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "scripts/fourfold_phase_cap_parameter_collect.py",
+    "--body",
+    "data/R111/2026-11-13-ac0d-body-prefix.json.gz",
+    "data/R111/ac0d_complete/continuation_0.json.gz",
+    "data/R111/ac0d_complete/continuation_1.json.gz",
+    "data/R111/ac0d_complete/continuation_2.json.gz",
+    "data/R111/ac0d_complete/continuation_3.json.gz",
+    "--out",
+    "data/R111/ac0d_complete/complete_cap_parameter_comparison.json.gz",
+    "--summary",
+    "data/R111/ac0d_complete/complete_cap_parameter_summary.json"
+  ],
+  "full_report": {
+    "path": "data/R111/ac0d_complete/complete_cap_parameter_comparison.json.gz",
+    "sha256": "02b2126762e9a3aff3313637aab97d3b7d7081826170e54a4d993e9acd7d9282"
+  }
+}

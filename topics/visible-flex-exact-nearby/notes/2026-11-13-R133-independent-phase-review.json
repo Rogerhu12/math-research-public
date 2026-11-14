@@ -1,0 +1,81 @@
+{
+  "kind": "independent_phase_review_of_R133_complete_cap_cache_and_full_frequency_source",
+  "complete": true,
+  "native_geometry_recomputed": false,
+  "inputs": {
+    "notes/2026-11-13-Codazzi-rotational-positive-cap-native.json.gz": "582cc5bb7a74d42a9a9548b42370cef9c3e91efac1a5c05104c7e0724565a2bf",
+    "notes/2026-11-13-Codazzi-rotational-positive-cap-v2-native.json.gz": "3a89805ebe1ab22000529a7a8c2fdc262b1c3a2afbc52433cf610d2d6542ff22",
+    "notes/2026-11-13-R133-Codazzi-cap-source-budget-native.json": "f2e0dd6a706284e4a077f47e1a9301462ec65d0c2c2d1f4e4a04a6c125b7d8a3"
+  },
+  "passed_gate_counts": {
+    "manifest_file_sha256": 88,
+    "preserved_original_failure": 1,
+    "replay_checkpoint_identity": 1,
+    "complete_current_producer_identity": 1,
+    "exact_source_input": 1,
+    "same_object_family_and_true_R74_entrance": 1,
+    "whole_parameter_R74_containment": 1,
+    "complete_row_counts": 1,
+    "three_exact_graft_subdivisions": 1,
+    "closed_adjacent_radial_cell": 1334,
+    "strict_positive_derived_coefficients": 1334,
+    "positive_width_ratio": 1334,
+    "unchanged_cached_coefficient_box": 1331,
+    "normalized_full_frequency_inward_faces": 1334,
+    "full_exact_domain": 1,
+    "positive_complete_tail_fee": 1,
+    "all_true_R74_initial_data_inside": 1,
+    "physical_frequency_and_true_tail_fee": 16,
+    "complete_source_mean_limitations": 1
+  },
+  "all_passed": true,
+  "fresh_graft_intervals": [
+    [
+      "3",
+      "97/32"
+    ],
+    [
+      "97/32",
+      "195/64"
+    ],
+    [
+      "195/64",
+      "49/16"
+    ]
+  ],
+  "lower_inward_margin_recomputed": {
+    "ball": "[2.1063915278804026485754206273860926e-36 +/- 3.71e-72]",
+    "lower": "[2.1063915278804026485754206273860926e-36 +/- 3.71e-72]",
+    "upper": "[2.1063915278804026485754206273860926e-36 +/- 3.71e-72]",
+    "mid_float": 2.1063915278804028e-36,
+    "radius_upper_float": 0.0
+  },
+  "upper_inward_margin_recomputed": {
+    "ball": "[3.1909439641662008107981837538819282e-35 +/- 3.08e-70]",
+    "lower": "[3.1909439641662008107981837538819282e-35 +/- 3.08e-70]",
+    "upper": "[3.1909439641662008107981837538819282e-35 +/- 3.08e-70]",
+    "mid_float": 3.190943964166201e-35,
+    "radius_upper_float": 0.0
+  },
+  "q_lower": {
+    "ball": "[0.19460680377865742738546189096523098 +/- 2.72e-36]",
+    "lower": "[0.19460680377865742738546189096523098 +/- 2.72e-36]",
+    "upper": "[0.19460680377865742738546189096523098 +/- 2.72e-36]",
+    "mid_float": 0.19460680377865744,
+    "radius_upper_float": 0.0
+  },
+  "q_upper": {
+    "ball": "[2.5034349387940211160677974684488759 +/- 3.61e-36]",
+    "lower": "[2.5034349387940211160677974684488759 +/- 3.61e-36]",
+    "upper": "[2.5034349387940211160677974684488759 +/- 3.61e-36]",
+    "mid_float": 2.503434938794021,
+    "radius_upper_float": 0.0
+  },
+  "mathematical_review": [
+    "The exact inward direction and physical M=4j give ell-q^2-beta*(ell-1)*q/(M gamma).",
+    "For all M>=4 its linear coefficient lies in hull(0,-beta*(ell-1)/(4 gamma)); both normalized faces above were independently evaluated on every saved closed box.",
+    "The strict radial Cref sign and original true R74 entrance are preserved.",
+    "The triangular source kernel has derivative M gamma q K, hence its complete coupling is Cplus/qminus, with no extra gamma ratio.",
+    "Both mean integration constants, physical radius unweighting, and metric-source conversion remain explicit obligations."
+  ]
+}

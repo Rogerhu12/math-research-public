@@ -1,0 +1,211 @@
+{
+  "kind": "completed_constructive_R48_and_parameter_checkpoint_freeze",
+  "source_step02_sha256": "05d3e59cf338c5d2a2bde13aad7bf1d4e5247c326efb46b3148793e75a7ea883",
+  "limitations": "Floating map artifacts remain under the separate reflection caveat; only R48 polynomial/number-theory claims are proved.",
+  "live_exclusions": [
+    "fourfold_phase_conjugacy_nodes.py and its Hnodes output/branch/progress",
+    "step02 d8 map48 output/branch/progress"
+  ],
+  "files": [
+    {
+      "path": "results/R48-dyadic-conjugacy-and-nearby-quadratics.md",
+      "bytes": 9703,
+      "sha256": "0dc1234fd01d15733a96595355e8c1b2d9eaf422bb16998ac8412d60d8898cc7"
+    },
+    {
+      "path": "scripts/fourfold_phase_refine_map.py",
+      "bytes": 6366,
+      "sha256": "370e17a9652dda655bd08404b0c7ebdb9214a0a37aec22d662ae4d97af304ee4"
+    },
+    {
+      "path": "scripts/fourfold_circle_map_rotation.py",
+      "bytes": 5876,
+      "sha256": "67ee6985352f8b1be9a9c055063f52fb13ae6118658fb2e259f7d5f3a6e8ff7f"
+    },
+    {
+      "path": "scripts/fourfold_phase_principal_parameter_map.py",
+      "bytes": 13276,
+      "sha256": "a61bdf0d8b82812a48f2e3ccd3ef65efcee7825ef7c119e12485de94a61018c4"
+    },
+    {
+      "path": "scripts/fourfold_phase_refine_parameter_map.py",
+      "bytes": 7257,
+      "sha256": "966ed60fdde8f62399659aea55a63d1132dd17fd1aa75cd570315763ea0b3423"
+    },
+    {
+      "path": "scripts/fourfold_phase_parameter_probe.py",
+      "bytes": 6121,
+      "sha256": "c9c709f64020f429f9a456da9619b9b15e816e70d7f1fdce5f8e7a926091e094"
+    },
+    {
+      "path": "scripts/fourfold_phase_evaluate_map_grid.py",
+      "bytes": 5364,
+      "sha256": "ca6f6af03429df3dd22586c6fb0795ce3cb3b41a684a6c974707525a0218cc20"
+    },
+    {
+      "path": "scripts/fourfold_circle_periodic_orbits.py",
+      "bytes": 4091,
+      "sha256": "f9fca5ac87d51bfc54622f0bf0acaa3fd147281f5c81b0002d0e1bd66b390ee3"
+    },
+    {
+      "path": "scripts/fourfold_circle_conjugacy.py",
+      "bytes": 8842,
+      "sha256": "29edb5dea76ce2756ef14deefc93164713ad43c9f95d07056aea2c71169a17f8"
+    },
+    {
+      "path": "scripts/fourfold_circle_conjugacy_budget.py",
+      "bytes": 6740,
+      "sha256": "d75acf7406db7a9fda563a5f40efbf21d3630f8d502b661c9a15ed487cf0f8c4"
+    },
+    {
+      "path": "notes/2026-11-12-principal-map-reflection-caveat.md",
+      "bytes": 2216,
+      "sha256": "02f4394bbcf19cdcb666303f20f7cda3214e6d1d528b896d3ae1ab4658fd3ac0"
+    },
+    {
+      "path": "notes/2026-11-12-phase24-corrected-step02-principal-map48-adaptive.json",
+      "bytes": 11733,
+      "sha256": "773148ccdd15d3bab644bd22b48f5913474260b2b7b7c9ab8261508299bf0150"
+    },
+    {
+      "path": "notes/2026-11-12-phase24-corrected-step02-rotation48.json",
+      "bytes": 5141,
+      "sha256": "c5c00780b08e0a34abec7aaa6501b5b10e134871e0d043bc1db2ef124faf1510"
+    },
+    {
+      "path": "notes/2026-11-12-phase24-corrected-step02-parameter-map16.json",
+      "bytes": 17129,
+      "sha256": "c73a0d4477da5768f138825d8a42a1ee9bfc2727ad029a5868e5cdd1e7afecbb"
+    },
+    {
+      "path": "notes/2026-11-12-step02-middle-return-finite-difference.json",
+      "bytes": 981,
+      "sha256": "dd9c0703f59fa84c7cf21ec7e1c8422b58b399ba25f72b94fdec77b2ec1b3886"
+    },
+    {
+      "path": "notes/2026-11-12-phase24-corrected-step02-parameter-map48.json",
+      "bytes": 37739,
+      "sha256": "c32ffe0b5f6d557e9607b2a1d38c43cddf5e691bfc4ffb5353f12a1002b269ae"
+    },
+    {
+      "path": "notes/2026-11-12-step02-positive-twist-probe.json",
+      "bytes": 407310,
+      "sha256": "27623fcfb06f129a7d4fff280f4b11efe426ebc836eee63ba293cd34841efcfb"
+    },
+    {
+      "path": "notes/2026-11-12-step02-positive-twist-probe-map48.json",
+      "bytes": 9975,
+      "sha256": "acb90de2f53a5823df98dfb39baa24b6313cb86dace68c94e002044ae192c374"
+    },
+    {
+      "path": "notes/2026-11-12-step02-positive-twist-probe-rotation48.json",
+      "bytes": 5125,
+      "sha256": "d4a56761985290367fb99e6171cf71e0a537c44e0c2068338b85b4685481ddd6"
+    },
+    {
+      "path": "notes/2026-11-12-step02-probe-period29.json",
+      "bytes": 4901,
+      "sha256": "bdeb85aec099fd5302a20efd92ac7e976beb0dfa61028d9aea17fe465a1f6aa0"
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-affine-conjugacy.json",
+      "bytes": 17159,
+      "sha256": "171e3e9c70afd18fc488b84cc03f54b1eb2f5b55a0ddddd9e82b2d60029205fe"
+    },
+    {
+      "path": "notes/2026-11-12-step02-d8-affine-conjugacy.json",
+      "bytes": 16943,
+      "sha256": "4498b15437dd242fcb31a2abb6e2073c9112b33598144c193d8a369e56f42220"
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-local-affine-conjugacy.json",
+      "bytes": 2216,
+      "sha256": "4ee508aa067d705292dc80af3ae8f31a4c614ff660f24d00143b5c269222ad2a"
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-geometry.json",
+      "bytes": 407294,
+      "sha256": "afda2786ead1413fbf8d5b46fa858c1a85b9e2947c2282f03f89f71eecc6bc15"
+    },
+    {
+      "path": "notes/2026-11-12-step02-d8-geometry.json",
+      "bytes": 407297,
+      "sha256": "32d0a4d8763c677b7eb2c14c269b12cdbb8c969c534b6a64f4a8281455e86e9c"
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-map48.json",
+      "bytes": 10039,
+      "sha256": "243e6ac9689fe12ce26c884dbb64f453742d288287e5e1f0033d43c613de10da"
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-rotation48.json",
+      "bytes": 5110,
+      "sha256": "0930356c8914d73260bd0258d1e42286b4cf67e017911cb9f915c3bead50daad"
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-conjugacy-Wiener-budget.json",
+      "bytes": 5355,
+      "sha256": "ac10a3c82205c3f57bd942d26885060a08ffa5b8b7496bd8bd8365955aef4026"
+    },
+    {
+      "path": "notes/2026-11-12-step02-d5-conjugacy-wide-Wiener-budget.json",
+      "bytes": 5361,
+      "sha256": "100e359c2bf6406ca4b3f13645e40944793e6aff6034b0ba6264dc293fb3637f"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_positive_twist_probe.npz",
+      "bytes": 96940,
+      "sha256": "06d0710ee40590c88897936d19b67971fd67745163597ed7bf1f91c95ec56ef3"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_probe.npz",
+      "bytes": 96964,
+      "sha256": "a042a48e7245e6dbba9466bad493e439e84c375a37b92f32ddaee60e3274c275"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d8_probe.npz",
+      "bytes": 96995,
+      "sha256": "61de372c2fce6d4dfc8fe8f38e02bbcb3846e40eba6fc1bf0d5e08d6e6f8b44f"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_affine_conjugacy.npz",
+      "bytes": 2924,
+      "sha256": "61fc7fbd76385b9eee49e18b988ac11419984a1a022a2487ff8368fea4ea889a"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d8_affine_conjugacy.npz",
+      "bytes": 2925,
+      "sha256": "70424cf59a84e2930ad7a91f734440d0b3d607abc9729a5f69315a74c6c45bcb"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_local_affine_conjugacy.npz",
+      "bytes": 3005,
+      "sha256": "ddd636f9a81b9e4686dc1b07e2cf0ba9b2f6802d6ba2607ef298884d5d80a819"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_dyadic_conjugacy.json",
+      "bytes": 45403,
+      "sha256": "c1122583e2ec638f8d48d174c7a9126b42d33b9977602cb72f093cec91b60618"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_refine_branch.npz",
+      "bytes": 1679,
+      "sha256": "d57efdfb9b6a8f0e2c580853d6d0fd89e4fa00eef5f00359afe2ae008d1dc57e"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_parameter_refine_branch.npz",
+      "bytes": 2153,
+      "sha256": "2a6c1167f994c5ba7da4424a31350216ead03cf165e485816c31e145234ba84d"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_probe_principal_branch.npz",
+      "bytes": 1677,
+      "sha256": "33bae039f3e72e92a475308f0139bd0491d4c111d0050e9d149071150cbab867"
+    },
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_principal_branch.npz",
+      "bytes": 1679,
+      "sha256": "ebacfb9398d4c0eee281870c215b7a2296effabeb546d263b385718f86fb7e3f"
+    }
+  ]
+}

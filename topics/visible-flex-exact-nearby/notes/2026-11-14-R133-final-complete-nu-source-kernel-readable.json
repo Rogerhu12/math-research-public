@@ -1,0 +1,72 @@
+{
+  "kind": "actual_final_complete_nu_5M_kernel_readable_bounds",
+  "source_sha256": "89240bab80e1424a73a64770885b67df6385e2307eb20b6180ea12517a2e235c",
+  "complete": true,
+  "inputs": {
+    "notes/2026-11-14-R133-final-complete-nu-source-kernel-native.json.gz": "281fa7c17d16b8f6823883df7ff61fc12f9c846c6b98bdd6951eed928d480848"
+  },
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "complete_closed_radial_rows": 1156,
+  "all_actual_A_jumps": 864,
+  "whole_original_eta": true,
+  "complete_original_primitive_tail": true,
+  "exact_support": [
+    "1/20",
+    "9/50"
+  ],
+  "full_kernel_support_index": 160,
+  "gate_count": 4,
+  "gates": [
+    {
+      "name": "unnormalized_full_parameter_source_L1L2_upper",
+      "actual": {
+        "ball": "[1.9649553836342516568114756252643243 +/- 1.05e-35]",
+        "lower": "[1.9649553836342516568114756252643243 +/- 1.05e-35]",
+        "upper": "[1.9649553836342516568114756252643243 +/- 1.05e-35]",
+        "mid_float": 1.9649553836342517,
+        "radius_upper_float": 1.0400000041939474e-35
+      },
+      "strict_upper": "1.964956",
+      "passed": true
+    },
+    {
+      "name": "complete_G_weighted_L1L2_upper",
+      "actual": {
+        "ball": "[625.52301877979982130811177600544833 +/- 4.83e-33]",
+        "lower": "[625.52301877979982130811177600544833 +/- 4.83e-33]",
+        "upper": "[625.52301877979982130811177600544833 +/- 4.83e-33]",
+        "mid_float": 625.5230187797998,
+        "radius_upper_float": 4.820000020765333e-33
+      },
+      "strict_upper": "625.523019",
+      "passed": true
+    },
+    {
+      "name": "all_A_jumps_weighted_l1_L2_upper",
+      "actual": {
+        "ball": "[8.0724884485815272391048591954107038e-19 +/- 1.34e-54]",
+        "lower": "[8.0724884485815272391048591954107038e-19 +/- 1.34e-54]",
+        "upper": "[8.0724884485815272391048591954107038e-19 +/- 1.34e-54]",
+        "mid_float": 8.072488448581528e-19,
+        "radius_upper_float": 1.3300000089715923e-54
+      },
+      "strict_upper": "8.072489e-19",
+      "passed": true
+    },
+    {
+      "name": "true_continuous_adjoint_scalar_absolute_coefficient",
+      "actual": {
+        "ball": "[625.52301877979982130891902485030648 +/- 2.10e-33]",
+        "lower": "[625.52301877979982130891902485030648 +/- 2.10e-33]",
+        "upper": "[625.52301877979982130891902485030648 +/- 2.10e-33]",
+        "mid_float": 625.5230187797998,
+        "radius_upper_float": 2.090000010361582e-33
+      },
+      "strict_upper": "625.523019",
+      "passed": true
+    }
+  ],
+  "actual_adjoint_not_supplied": true,
+  "actual_nu_Schur_nonzero_proved": false,
+  "complete_BVP_inverse_proved": false
+}

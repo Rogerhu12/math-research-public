@@ -1,0 +1,130 @@
+{
+  "kind": "exact_complete_moving_Jacobi_band_mean_parameter_algebra",
+  "arithmetic": "BigInt normalized rational complex Laurent coefficients; no float or FFT",
+  "source": "scripts/fourfold_codazzi_moving_full_band_exact.mjs",
+  "intended_centre_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "actual_candidate_coefficients_loaded": false,
+  "coefficient_fixture": "explicit complete degree-32 rational odd/even fields in this source",
+  "scope": "Exact formula checks and structural support counts. The proof establishes universal identities. This is not a numerical inverse or a coefficient bound for the intended centre.",
+  "angular_centre_degree": 32,
+  "complete_jacobi_band": 64,
+  "parameter_source_degree": 96,
+  "structural_head_max_index": 96,
+  "physical_first_high_frequency": 388,
+  "reflection_head_dimension": 193,
+  "with_one_parameter_dimension": 194,
+  "coupling_shell_first_index": 33,
+  "coupling_shell_last_index": 96,
+  "reflection_shell_dimension": 128,
+  "inner_core_dimension": 65,
+  "complete": true,
+  "gates": [
+    {
+      "name": "all_32_centre_modes_nonzero",
+      "passed": true
+    },
+    {
+      "name": "local_and_drift_support_at_most_64",
+      "passed": true
+    },
+    {
+      "name": "closed_infinite_band_entries_equal_complete_convolution_action",
+      "passed": true,
+      "detail": {
+        "exact_entry_checks": 5852
+      }
+    },
+    {
+      "name": "all_basis_outputs_obey_complete_64_band",
+      "passed": true
+    },
+    {
+      "name": "complete_second_mean_row_exact",
+      "passed": true
+    },
+    {
+      "name": "direct_high_to_second_mean_zero_past_32",
+      "passed": true
+    },
+    {
+      "name": "full_state_action_matches_independent_dual_derivative",
+      "passed": true
+    },
+    {
+      "name": "complete_physical_parameter_column_matches_dual_derivative",
+      "passed": true
+    },
+    {
+      "name": "physical_parameter_support_at_most_96",
+      "passed": true
+    },
+    {
+      "name": "parameter_top_96_not_silently_removed",
+      "passed": true
+    },
+    {
+      "name": "parameter_mean_is_minus_beta_m_Knu_mean_v_squared",
+      "passed": true
+    },
+    {
+      "name": "normalized_parameter_keeps_snu_and_snur",
+      "passed": true
+    },
+    {
+      "name": "normalized_parameter_complete_mean_row",
+      "passed": true
+    },
+    {
+      "name": "normalized_parameter_support_at_most_96",
+      "passed": true
+    },
+    {
+      "name": "physical_C0_boundary_parameter_identity",
+      "passed": true
+    },
+    {
+      "name": "physical_C0_state_derivative_exact",
+      "passed": true
+    },
+    {
+      "name": "all_internal_parameter_source_fits_head_96",
+      "passed": true
+    },
+    {
+      "name": "head_tail_shell_starts_at_33",
+      "passed": true
+    },
+    {
+      "name": "reflection_head_193_and_shell_128",
+      "passed": true
+    },
+    {
+      "name": "core_65_plus_shell_128_is_full_head_193",
+      "passed": true
+    },
+    {
+      "name": "mean_columns_retained_and_zero_only_outside_exact_band",
+      "passed": true
+    },
+    {
+      "name": "truncating_intermediate_primitive_to_32_changes_operator",
+      "passed": true
+    }
+  ],
+  "exact_samples": {
+    "normalized_nu_mean": [
+      "-296269927568728862720/719210494008256911843",
+      "0"
+    ],
+    "physical_C0_nu": [
+      "-17873661021126656/5767354718806930983",
+      "0"
+    ]
+  },
+  "unproved": [
+    "same-centre high inverse gate",
+    "finite radial head BVP inverse",
+    "complete physical boundary operator tail and its feedback",
+    "nonlinear full BVP"
+  ]
+}

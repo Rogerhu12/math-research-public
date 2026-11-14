@@ -1,0 +1,173 @@
+{
+  "kind": "directed_evaluation_of_exact_symbolic_retarget_reference",
+  "complete": true,
+  "source_sha256": "4053227c7e24fa729d7d5a7b10cb24def7e04aa62893d076405106337feba85b",
+  "bits": 192,
+  "metadata": {
+    "leg": "forward",
+    "segment": 419,
+    "exact_segment_time_rows": [
+      {
+        "kind": "rational",
+        "numerator": "4466727694628647",
+        "denominator": "9007199254740992"
+      },
+      {
+        "kind": "rational",
+        "numerator": "282639970307159",
+        "denominator": "562949953421312"
+      }
+    ],
+    "normalized_subspan": [
+      "31/64",
+      "33/64"
+    ],
+    "time_halfwidth": {
+      "ball": "[9.6297675191385836979129919654951664e-5 +/- 3.13e-40]",
+      "lower": "[9.6297675191385836979129919654951664e-5 +/- 3.13e-40]",
+      "upper": "[9.6297675191385836979129919654951664e-5 +/- 3.13e-40]",
+      "mid_float": 9.629767519138584e-05,
+      "radius_upper_float": 0.0
+    },
+    "branch_sign": -1.0,
+    "old_exact_delta_fraction": "-7789866024620307/4611686018427387904",
+    "target_exact_delta_fraction": "-7789843107295549/4611686018427387904",
+    "provenance": {
+      "data/phase_ring_continuation/step5_retargeted_reference/descriptor.json": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+      "data/phase_ring_continuation/step5_retargeted_reference/initial_correction.json": "095a980a31bbeb4bfb3f61510bedfe8bf822e4f48602df82f3a9404ad884ea5c",
+      "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00528.npz.gz": "8f45a4c9ba083202c7d55b3df25ae0e7f8027675269a28fd872c7e4c25008508",
+      "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_root_tight.json": "489268d254c2a9454ccbee32a4821d9bf577279490f76c9cc6f8d902a5e64e0b",
+      "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_dyadic_H.json": "0439d88f10f46d367e44a984db661ac3806a7bd052f46eca14e71594fa8eb2c2",
+      "data/phase_ring_continuation/step4_shared1032_reference_forward/manifest.json": "43cbffb2e0b924b6d69608df54e0acf3cf8ecd66c030b7343e84864ad6eb81a0",
+      "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/manifest.json": "f1e7556a13aef2a4e5661fc00c1e9c4eda961335fb8685d26bcef550b7b147ce",
+      "data/phase_ring_continuation/step4_shared1032_reference_forward/segments_00408.npz.gz": "fd96ebfcb05f7084872f66798235b618b626301dd1f155e445f62f1861487b40",
+      "data/phase_ring_continuation/step5_retargeted_reference/Q_forward/segments_00384.npz.gz": "cf6223064af286defdf51bd061e6aa8e9572764544541872f938938ba5c6d495"
+    }
+  },
+  "evaluation": {
+    "label_real": "1/2",
+    "label_imag": "1/512",
+    "angle_halfwidth": "1/4096",
+    "time_precision": 33,
+    "angle_precision": 32,
+    "time_outer_radius": "8",
+    "angle_outer_radius": "4"
+  },
+  "full_finite_reference_bounds": {
+    "theta_angular_variation_on_outer_bidisk": {
+      "ball": "[0.00067981535237060685117471497011003604 +/- 6.39e-40]",
+      "lower": "[0.00067981535237060685117471497011003604 +/- 6.39e-40]",
+      "upper": "[0.00067981535237060685117471497011003604 +/- 6.39e-40]",
+      "mid_float": 0.0006798153523706068,
+      "radius_upper_float": 0.0
+    },
+    "derivative_on_real_time_outer_angle": [
+      {
+        "ball": "[0.64464830493242284283918382419560910 +/- 3.17e-36]",
+        "lower": "[0.64464830493242284283918382419560910 +/- 3.17e-36]",
+        "upper": "[0.64464830493242284283918382419560910 +/- 3.17e-36]",
+        "mid_float": 0.6446483049324229,
+        "radius_upper_float": 0.0
+      },
+      {
+        "ball": "[19.634187760750990081478164018834329 +/- 3.65e-34]",
+        "lower": "[19.634187760750990081478164018834329 +/- 3.65e-34]",
+        "upper": "[19.634187760750990081478164018834329 +/- 3.65e-34]",
+        "mid_float": 19.63418776075099,
+        "radius_upper_float": 0.0
+      }
+    ],
+    "value_on_real_time_outer_angle": [
+      {
+        "ball": "[0.55898431563469631552188038726015397 +/- 3.81e-36]",
+        "lower": "[0.55898431563469631552188038726015397 +/- 3.81e-36]",
+        "upper": "[0.55898431563469631552188038726015397 +/- 3.81e-36]",
+        "mid_float": 0.5589843156346963,
+        "radius_upper_float": 0.0
+      },
+      {
+        "ball": "[2.6769728412455933163833308338359322 +/- 8.69e-36]",
+        "lower": "[2.6769728412455933163833308338359322 +/- 8.69e-36]",
+        "upper": "[2.6769728412455933163833308338359322 +/- 8.69e-36]",
+        "mid_float": 2.6769728412455933,
+        "radius_upper_float": 0.0
+      }
+    ]
+  },
+  "symbolic_correction_bounds": {
+    "center": {
+      "ball": "[4.7918187244891592996700248722993306e-11 +/- 3.31e-46]",
+      "lower": "[4.7918187244891592996700248722993306e-11 +/- 3.31e-46]",
+      "upper": "[4.7918187244891592996700248722993306e-11 +/- 3.31e-46]",
+      "mid_float": 4.791818724489159e-11,
+      "radius_upper_float": 0.0
+    },
+    "outer": {
+      "ball": "[8.1994480151473991332869290032024523e-11 +/- 9.39e-47]",
+      "lower": "[8.1994480151473991332869290032024523e-11 +/- 9.39e-47]",
+      "upper": "[8.1994480151473991332869290032024523e-11 +/- 9.39e-47]",
+      "mid_float": 8.199448015147399e-11,
+      "radius_upper_float": 0.0
+    },
+    "change": {
+      "ball": "[1.1066928320304265134352618138135736e-11 +/- 3.51e-46]",
+      "lower": "[1.1066928320304265134352618138135736e-11 +/- 3.51e-46]",
+      "upper": "[1.1066928320304265134352618138135736e-11 +/- 3.51e-46]",
+      "mid_float": 1.1066928320304266e-11,
+      "radius_upper_float": 0.0
+    },
+    "value": {
+      "ball": "[8.1468431851775508232875941588475070e-11 +/- 4.87e-46]",
+      "lower": "[8.1468431851775508232875941588475070e-11 +/- 4.87e-46]",
+      "upper": "[8.1468431851775508232875941588475070e-11 +/- 4.87e-46]",
+      "mid_float": 8.14684318517755e-11,
+      "radius_upper_float": 0.0
+    },
+    "derivative": {
+      "ball": "[7.7178390366185636736405548335583138e-10 +/- 3.85e-45]",
+      "lower": "[7.7178390366185636736405548335583138e-10 +/- 3.85e-45]",
+      "upper": "[7.7178390366185636736405548335583138e-10 +/- 3.85e-45]",
+      "mid_float": 7.717839036618564e-10,
+      "radius_upper_float": 0.0
+    }
+  },
+  "constant_coefficients": [
+    {
+      "real": {
+        "ball": "[0.25651705775865688622793974538581558 +/- 4.78e-36]",
+        "lower": "[0.25651705775865688622793974538581558 +/- 4.78e-36]",
+        "upper": "[0.25651705775865688622793974538581558 +/- 4.78e-36]",
+        "mid_float": 0.2565170577586569,
+        "radius_upper_float": 4.139550400935384e-56
+      },
+      "imag": {
+        "ball": "[0.00063595434756224488198365928719930606 +/- 3.52e-39]",
+        "lower": "[0.00063595434756224488198365928719930606 +/- 3.52e-39]",
+        "upper": "[0.00063595434756224488198365928719930606 +/- 3.52e-39]",
+        "mid_float": 0.0006359543475622449,
+        "radius_upper_float": 1.4674946834448401e-58
+      }
+    },
+    {
+      "real": {
+        "ball": "[0.77341498017467397806810615879659454 +/- 4.04e-36]",
+        "lower": "[0.77341498017467397806810615879659454 +/- 4.04e-36]",
+        "upper": "[0.77341498017467397806810615879659454 +/- 4.04e-36]",
+        "mid_float": 0.773414980174674,
+        "radius_upper_float": 1.6583628728700773e-55
+      },
+      "imag": {
+        "ball": "[0.0024536676510174082517623523071201150 +/- 1.96e-38]",
+        "lower": "[0.0024536676510174082517623523071201150 +/- 1.96e-38]",
+        "upper": "[0.0024536676510174082517623523071201150 +/- 1.96e-38]",
+        "mid_float": 0.002453667651017408,
+        "radius_upper_float": 2.4376589373626446e-57
+      }
+    }
+  ],
+  "limitations": [
+    "Only the chosen finite reference is evaluated. No true-field residual or flow comparison is asserted.",
+    "Rectangular Taylor jets retain coefficients only; the supplied full finite bounds must pay omitted angular terms."
+  ]
+}

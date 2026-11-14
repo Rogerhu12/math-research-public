@@ -1,0 +1,536 @@
+{
+  "kind": "same_full_finite_P_at_actual_complex_time_reference_cost",
+  "complete": true,
+  "source_sha256": "de2840a49505dd29150c3854dd40552ae80b42215219ed2b5e3181c1280c716a",
+  "field_certificate_sha256": "87adf2be93c46719aaa0e1bd8d74ff089f134347978782cbce07b954039260e8",
+  "field_manifest_sha256": "6e367eb44e5d0e7a9d91198204c52e2d2a0b933fb3f55121175b0a47ef882e09",
+  "reference_package_sha256": "bf9e219a46415dc330a089d56be73eccb7329fe0e99b8fcdc1aa43f2fe9b8c04",
+  "normalized_time": "5i/4",
+  "initial_label_strip": "0",
+  "nodes": 4096,
+  "bits": 320,
+  "field_degree": 518,
+  "finite_time_terms": 12,
+  "input_preparation_CPU": 0.17938383400000002,
+  "input_preparation_wall": 0.8106171969993738,
+  "cases": [
+    {
+      "passed": true,
+      "all_4096_nodes_overlap_baseline": true,
+      "Fourier_degree": 518,
+      "physical_frequency_scale": 4,
+      "anchors": 512,
+      "terms": 52,
+      "no_finite_modes_discarded": true,
+      "exact_DFT_folding": true,
+      "Taylor_radius": "1/64",
+      "Taylor_tail_target": "1e-42",
+      "maximum_normalized_anchor_distance": {
+        "ball": "[0.15368434192443998577308019160343214 +/- 3.79e-36]",
+        "lower": "[0.15368434192443998577308019160343214 +/- 3.79e-36]",
+        "upper": "[0.15368434192443998577308019160343214 +/- 3.79e-36]",
+        "mid_float": 0.15368434192444,
+        "radius_upper_float": 0.0
+      },
+      "center_physical_theta_strip": {
+        "ball": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "lower": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "upper": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "mid_float": 0.001922337185986038,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_error": {
+        "ball": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "lower": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "upper": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "mid_float": 1.7134231985152468e-95,
+        "radius_upper_float": 0.0
+      },
+      "coefficient_input_fee": {
+        "ball": "0",
+        "lower": "0",
+        "upper": "0",
+        "mid_float": 0.0,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_fee": {
+        "ball": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "lower": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "upper": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "mid_float": 3.3881071685145036e-94,
+        "radius_upper_float": 0.0
+      },
+      "finite_polynomial_norm_on_Taylor_radius": {
+        "ball": "[1.4084891566210123503279790321214032 +/- 4.46e-35]",
+        "lower": "[1.4084891566210123503279790321214032 +/- 4.46e-35]",
+        "upper": "[1.4084891566210123503279790321214032 +/- 4.46e-35]",
+        "mid_float": 1.4084891566210123,
+        "radius_upper_float": 0.0
+      },
+      "complete_angular_Taylor_tail": {
+        "ball": "[8.4325993396617534362360519454124482e-43 +/- 8.27e-79]",
+        "lower": "[8.4325993396617534362360519454124482e-43 +/- 8.27e-79]",
+        "upper": "[8.4325993396617534362360519454124482e-43 +/- 8.27e-79]",
+        "mid_float": 8.432599339661753e-43,
+        "radius_upper_float": 0.0
+      },
+      "maximum_arithmetic_radius": {
+        "ball": "[1.7861473004776967969769014302186646e-95 +/- 4.49e-130]",
+        "lower": "[1.7861473004776967969769014302186646e-95 +/- 4.49e-130]",
+        "upper": "[1.7861473004776967969769014302186646e-95 +/- 4.49e-130]",
+        "mid_float": 1.7861473004776968e-95,
+        "radius_upper_float": 0.0
+      },
+      "complete_finite_evaluation_error": {
+        "ball": "[8.4325993396617534362360519454124482e-43 +/- 8.27e-79]",
+        "lower": "[8.4325993396617534362360519454124482e-43 +/- 8.27e-79]",
+        "upper": "[8.4325993396617534362360519454124482e-43 +/- 8.27e-79]",
+        "mid_float": 8.432599339661753e-43,
+        "radius_upper_float": 0.0
+      },
+      "preparation_seconds": 0.10178303399879951,
+      "preparation_cpu_seconds": 0.021257448000000068,
+      "table_seconds": 0.9195836050021171,
+      "table_cpu_seconds": 0.19663369099999994,
+      "evaluation_seconds": 0.4178861059990595,
+      "evaluation_cpu_seconds": 0.09042726200000017,
+      "total_seconds": 1.4392527449999761,
+      "total_cpu_seconds": 0.3083184010000002
+    },
+    {
+      "passed": true,
+      "all_4096_nodes_overlap_baseline": true,
+      "Fourier_degree": 518,
+      "physical_frequency_scale": 4,
+      "anchors": 512,
+      "terms": 44,
+      "no_finite_modes_discarded": true,
+      "exact_DFT_folding": true,
+      "Taylor_radius": "1/32",
+      "Taylor_tail_target": "1e-42",
+      "maximum_normalized_anchor_distance": {
+        "ball": "[0.076842170962219992886540095801716068 +/- 1.10e-37]",
+        "lower": "[0.076842170962219992886540095801716068 +/- 1.10e-37]",
+        "upper": "[0.076842170962219992886540095801716068 +/- 1.10e-37]",
+        "mid_float": 0.07684217096222,
+        "radius_upper_float": 0.0
+      },
+      "center_physical_theta_strip": {
+        "ball": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "lower": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "upper": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "mid_float": 0.001922337185986038,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_error": {
+        "ball": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "lower": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "upper": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "mid_float": 1.7134231985152468e-95,
+        "radius_upper_float": 0.0
+      },
+      "coefficient_input_fee": {
+        "ball": "0",
+        "lower": "0",
+        "upper": "0",
+        "mid_float": 0.0,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_fee": {
+        "ball": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "lower": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "upper": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "mid_float": 3.3881071685145036e-94,
+        "radius_upper_float": 0.0
+      },
+      "finite_polynomial_norm_on_Taylor_radius": {
+        "ball": "[1083018.3915394374528801794593269390 +/- 4.29e-29]",
+        "lower": "[1083018.3915394374528801794593269390 +/- 4.29e-29]",
+        "upper": "[1083018.3915394374528801794593269390 +/- 4.29e-29]",
+        "mid_float": 1083018.3915394375,
+        "radius_upper_float": 0.0
+      },
+      "complete_angular_Taylor_tail": {
+        "ball": "[1.0857839686385588985791281364407347e-43 +/- 3.71e-78]",
+        "lower": "[1.0857839686385588985791281364407347e-43 +/- 3.71e-78]",
+        "upper": "[1.0857839686385588985791281364407347e-43 +/- 3.71e-78]",
+        "mid_float": 1.0857839686385588e-43,
+        "radius_upper_float": 0.0
+      },
+      "maximum_arithmetic_radius": {
+        "ball": "[1.7861473004776967969769014302186646e-95 +/- 4.49e-130]",
+        "lower": "[1.7861473004776967969769014302186646e-95 +/- 4.49e-130]",
+        "upper": "[1.7861473004776967969769014302186646e-95 +/- 4.49e-130]",
+        "mid_float": 1.7861473004776968e-95,
+        "radius_upper_float": 0.0
+      },
+      "complete_finite_evaluation_error": {
+        "ball": "[1.0857839686385588985791281364407347e-43 +/- 3.71e-78]",
+        "lower": "[1.0857839686385588985791281364407347e-43 +/- 3.71e-78]",
+        "upper": "[1.0857839686385588985791281364407347e-43 +/- 3.71e-78]",
+        "mid_float": 1.0857839686385588e-43,
+        "radius_upper_float": 0.0
+      },
+      "preparation_seconds": 0.11030242799824919,
+      "preparation_cpu_seconds": 0.023344503999999988,
+      "table_seconds": 0.471057736001967,
+      "table_cpu_seconds": 0.10628179700000007,
+      "evaluation_seconds": 0.32128318499962916,
+      "evaluation_cpu_seconds": 0.07186912199999984,
+      "total_seconds": 0.9026433489998453,
+      "total_cpu_seconds": 0.2014954229999999
+    },
+    {
+      "passed": true,
+      "all_4096_nodes_overlap_baseline": true,
+      "Fourier_degree": 518,
+      "physical_frequency_scale": 4,
+      "anchors": 512,
+      "terms": 54,
+      "no_finite_modes_discarded": true,
+      "exact_DFT_folding": true,
+      "Taylor_radius": "1/16",
+      "Taylor_tail_target": "1e-42",
+      "maximum_normalized_anchor_distance": {
+        "ball": "[0.038421085481109996443270047900858034 +/- 5.49e-38]",
+        "lower": "[0.038421085481109996443270047900858034 +/- 5.49e-38]",
+        "upper": "[0.038421085481109996443270047900858034 +/- 5.49e-38]",
+        "mid_float": 0.03842108548111,
+        "radius_upper_float": 0.0
+      },
+      "center_physical_theta_strip": {
+        "ball": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "lower": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "upper": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "mid_float": 0.001922337185986038,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_error": {
+        "ball": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "lower": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "upper": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "mid_float": 1.7134231985152468e-95,
+        "radius_upper_float": 0.0
+      },
+      "coefficient_input_fee": {
+        "ball": "0",
+        "lower": "0",
+        "upper": "0",
+        "mid_float": 0.0,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_fee": {
+        "ball": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "lower": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "upper": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "mid_float": 3.3881071685145036e-94,
+        "radius_upper_float": 0.0
+      },
+      "finite_polynomial_norm_on_Taylor_radius": {
+        "ball": "[2651469330543007306107151018748498.3 +/- 0.0489]",
+        "lower": "[2651469330543007306107151018748498.3 +/- 0.0489]",
+        "upper": "[2651469330543007306107151018748498.3 +/- 0.0489]",
+        "mid_float": 2.651469330543007e+33,
+        "radius_upper_float": 0.0
+      },
+      "complete_angular_Taylor_tail": {
+        "ball": "[1.0168613080532291433830755264546380e-43 +/- 9.00e-80]",
+        "lower": "[1.0168613080532291433830755264546380e-43 +/- 9.00e-80]",
+        "upper": "[1.0168613080532291433830755264546380e-43 +/- 9.00e-80]",
+        "mid_float": 1.0168613080532292e-43,
+        "radius_upper_float": 0.0
+      },
+      "maximum_arithmetic_radius": {
+        "ball": "[1.7861614064378113768109715004965862e-95 +/- 3.54e-130]",
+        "lower": "[1.7861614064378113768109715004965862e-95 +/- 3.54e-130]",
+        "upper": "[1.7861614064378113768109715004965862e-95 +/- 3.54e-130]",
+        "mid_float": 1.7861614064378114e-95,
+        "radius_upper_float": 0.0
+      },
+      "complete_finite_evaluation_error": {
+        "ball": "[1.0168613080532291433830755264546380e-43 +/- 9.00e-80]",
+        "lower": "[1.0168613080532291433830755264546380e-43 +/- 9.00e-80]",
+        "upper": "[1.0168613080532291433830755264546380e-43 +/- 9.00e-80]",
+        "mid_float": 1.0168613080532292e-43,
+        "radius_upper_float": 0.0
+      },
+      "preparation_seconds": 0.08959048700126004,
+      "preparation_cpu_seconds": 0.02147889699999994,
+      "table_seconds": 0.7507762729983369,
+      "table_cpu_seconds": 0.15922628299999997,
+      "evaluation_seconds": 0.4300589489976119,
+      "evaluation_cpu_seconds": 0.09410816800000021,
+      "total_seconds": 1.2704257089972089,
+      "total_cpu_seconds": 0.2748133480000001
+    },
+    {
+      "passed": true,
+      "all_4096_nodes_overlap_baseline": true,
+      "Fourier_degree": 518,
+      "physical_frequency_scale": 4,
+      "anchors": 256,
+      "terms": 52,
+      "no_finite_modes_discarded": true,
+      "exact_DFT_folding": true,
+      "Taylor_radius": "1/32",
+      "Taylor_tail_target": "1e-42",
+      "maximum_normalized_anchor_distance": {
+        "ball": "[0.11538140624498315305245889066034246 +/- 2.02e-36]",
+        "lower": "[0.11538140624498315305245889066034246 +/- 2.02e-36]",
+        "upper": "[0.11538140624498315305245889066034246 +/- 2.02e-36]",
+        "mid_float": 0.11538140624498315,
+        "radius_upper_float": 0.0
+      },
+      "center_physical_theta_strip": {
+        "ball": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "lower": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "upper": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "mid_float": 0.001922337185986038,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_error": {
+        "ball": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "lower": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "upper": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "mid_float": 1.7134231985152468e-95,
+        "radius_upper_float": 0.0
+      },
+      "coefficient_input_fee": {
+        "ball": "0",
+        "lower": "0",
+        "upper": "0",
+        "mid_float": 0.0,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_fee": {
+        "ball": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "lower": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "upper": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "mid_float": 3.3881071685145036e-94,
+        "radius_upper_float": 0.0
+      },
+      "finite_polynomial_norm_on_Taylor_radius": {
+        "ball": "[1083018.3915394374528801794593269390 +/- 4.29e-29]",
+        "lower": "[1083018.3915394374528801794593269390 +/- 4.29e-29]",
+        "upper": "[1083018.3915394374528801794593269390 +/- 4.29e-29]",
+        "mid_float": 1083018.3915394375,
+        "radius_upper_float": 0.0
+      },
+      "complete_angular_Taylor_tail": {
+        "ball": "[2.0842164103567722466844269758425136e-43 +/- 9.44e-79]",
+        "lower": "[2.0842164103567722466844269758425136e-43 +/- 9.44e-79]",
+        "upper": "[2.0842164103567722466844269758425136e-43 +/- 9.44e-79]",
+        "mid_float": 2.084216410356772e-43,
+        "radius_upper_float": 0.0
+      },
+      "maximum_arithmetic_radius": {
+        "ball": "[1.5499623504527062610619576011748226e-95 +/- 3.88e-130]",
+        "lower": "[1.5499623504527062610619576011748226e-95 +/- 3.88e-130]",
+        "upper": "[1.5499623504527062610619576011748226e-95 +/- 3.88e-130]",
+        "mid_float": 1.5499623504527063e-95,
+        "radius_upper_float": 0.0
+      },
+      "complete_finite_evaluation_error": {
+        "ball": "[2.0842164103567722466844269758425136e-43 +/- 9.44e-79]",
+        "lower": "[2.0842164103567722466844269758425136e-43 +/- 9.44e-79]",
+        "upper": "[2.0842164103567722466844269758425136e-43 +/- 9.44e-79]",
+        "mid_float": 2.084216410356772e-43,
+        "radius_upper_float": 0.0
+      },
+      "preparation_seconds": 0.10162202499850537,
+      "preparation_cpu_seconds": 0.021026618000000052,
+      "table_seconds": 0.3649650669976836,
+      "table_cpu_seconds": 0.08199707599999995,
+      "evaluation_seconds": 0.2939835659999517,
+      "evaluation_cpu_seconds": 0.06919936800000004,
+      "total_seconds": 0.7605706579961407,
+      "total_cpu_seconds": 0.17222306200000004
+    },
+    {
+      "passed": true,
+      "all_4096_nodes_overlap_baseline": true,
+      "Fourier_degree": 518,
+      "physical_frequency_scale": 4,
+      "anchors": 1024,
+      "terms": 41,
+      "no_finite_modes_discarded": true,
+      "exact_DFT_folding": true,
+      "Taylor_radius": "1/32",
+      "Taylor_tail_target": "1e-42",
+      "maximum_normalized_anchor_distance": {
+        "ball": "[0.065489791575782409445240923566718033 +/- 4.83e-37]",
+        "lower": "[0.065489791575782409445240923566718033 +/- 4.83e-37]",
+        "upper": "[0.065489791575782409445240923566718033 +/- 4.83e-37]",
+        "mid_float": 0.06548979157578241,
+        "radius_upper_float": 0.0
+      },
+      "center_physical_theta_strip": {
+        "ball": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "lower": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "upper": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "mid_float": 0.001922337185986038,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_error": {
+        "ball": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "lower": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "upper": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "mid_float": 1.7134231985152468e-95,
+        "radius_upper_float": 0.0
+      },
+      "coefficient_input_fee": {
+        "ball": "0",
+        "lower": "0",
+        "upper": "0",
+        "mid_float": 0.0,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_fee": {
+        "ball": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "lower": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "upper": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "mid_float": 3.3881071685145036e-94,
+        "radius_upper_float": 0.0
+      },
+      "finite_polynomial_norm_on_Taylor_radius": {
+        "ball": "[1083018.3915394374528801794593269390 +/- 4.29e-29]",
+        "lower": "[1083018.3915394374528801794593269390 +/- 4.29e-29]",
+        "upper": "[1083018.3915394374528801794593269390 +/- 4.29e-29]",
+        "mid_float": 1083018.3915394375,
+        "radius_upper_float": 0.0
+      },
+      "complete_angular_Taylor_tail": {
+        "ball": "[3.3664310272897786713732448900187040e-43 +/- 1.02e-78]",
+        "lower": "[3.3664310272897786713732448900187040e-43 +/- 1.02e-78]",
+        "upper": "[3.3664310272897786713732448900187040e-43 +/- 1.02e-78]",
+        "mid_float": 3.3664310272897785e-43,
+        "radius_upper_float": 0.0
+      },
+      "maximum_arithmetic_radius": {
+        "ball": "[2.0078383332322598617948523837941539e-95 +/- 1.65e-130]",
+        "lower": "[2.0078383332322598617948523837941539e-95 +/- 1.65e-130]",
+        "upper": "[2.0078383332322598617948523837941539e-95 +/- 1.65e-130]",
+        "mid_float": 2.00783833323226e-95,
+        "radius_upper_float": 0.0
+      },
+      "complete_finite_evaluation_error": {
+        "ball": "[3.3664310272897786713732448900187040e-43 +/- 1.02e-78]",
+        "lower": "[3.3664310272897786713732448900187040e-43 +/- 1.02e-78]",
+        "upper": "[3.3664310272897786713732448900187040e-43 +/- 1.02e-78]",
+        "mid_float": 3.3664310272897785e-43,
+        "radius_upper_float": 0.0
+      },
+      "preparation_seconds": 0.0862340480016428,
+      "preparation_cpu_seconds": 0.021274995000000185,
+      "table_seconds": 0.9031016049993923,
+      "table_cpu_seconds": 0.19620428399999978,
+      "evaluation_seconds": 0.4481604549982876,
+      "evaluation_cpu_seconds": 0.09739640100000013,
+      "total_seconds": 1.4374961079993227,
+      "total_cpu_seconds": 0.3148756800000001
+    },
+    {
+      "passed": true,
+      "all_4096_nodes_overlap_baseline": true,
+      "Fourier_degree": 518,
+      "physical_frequency_scale": 4,
+      "anchors": 512,
+      "terms": 48,
+      "no_finite_modes_discarded": true,
+      "exact_DFT_folding": true,
+      "Taylor_radius": "3/64",
+      "Taylor_tail_target": "1e-42",
+      "maximum_normalized_anchor_distance": {
+        "ball": "[0.051228113974813328591026730534477379 +/- 2.61e-37]",
+        "lower": "[0.051228113974813328591026730534477379 +/- 2.61e-37]",
+        "upper": "[0.051228113974813328591026730534477379 +/- 2.61e-37]",
+        "mid_float": 0.051228113974813326,
+        "radius_upper_float": 0.0
+      },
+      "center_physical_theta_strip": {
+        "ball": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "lower": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "upper": "[0.0019223371859860381240380543103144117 +/- 3.36e-38]",
+        "mid_float": 0.001922337185986038,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_error": {
+        "ball": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "lower": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "upper": "[1.7134231985152467614709948234192010e-95 +/- 1.94e-130]",
+        "mid_float": 1.7134231985152468e-95,
+        "radius_upper_float": 0.0
+      },
+      "coefficient_input_fee": {
+        "ball": "0",
+        "lower": "0",
+        "upper": "0",
+        "mid_float": 0.0,
+        "radius_upper_float": 0.0
+      },
+      "theta_input_fee": {
+        "ball": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "lower": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "upper": "[3.3881071685145038248816943734388776e-94 +/- 4.25e-129]",
+        "mid_float": 3.3881071685145036e-94,
+        "radius_upper_float": 0.0
+      },
+      "finite_polynomial_norm_on_Taylor_radius": {
+        "ball": "[38226223599665151463.887177196037851 +/- 4.53e-16]",
+        "lower": "[38226223599665151463.887177196037851 +/- 4.53e-16]",
+        "upper": "[38226223599665151463.887177196037851 +/- 4.53e-16]",
+        "mid_float": 3.822622359966515e+19,
+        "radius_upper_float": 0.0
+      },
+      "complete_angular_Taylor_tail": {
+        "ball": "[4.5877654774337584996671185958266768e-43 +/- 4.21e-78]",
+        "lower": "[4.5877654774337584996671185958266768e-43 +/- 4.21e-78]",
+        "upper": "[4.5877654774337584996671185958266768e-43 +/- 4.21e-78]",
+        "mid_float": 4.5877654774337586e-43,
+        "radius_upper_float": 0.0
+      },
+      "maximum_arithmetic_radius": {
+        "ball": "[1.7756805915672851769169179541930075e-95 +/- 3.21e-130]",
+        "lower": "[1.7756805915672851769169179541930075e-95 +/- 3.21e-130]",
+        "upper": "[1.7756805915672851769169179541930075e-95 +/- 3.21e-130]",
+        "mid_float": 1.7756805915672852e-95,
+        "radius_upper_float": 0.0
+      },
+      "complete_finite_evaluation_error": {
+        "ball": "[4.5877654774337584996671185958266768e-43 +/- 4.21e-78]",
+        "lower": "[4.5877654774337584996671185958266768e-43 +/- 4.21e-78]",
+        "upper": "[4.5877654774337584996671185958266768e-43 +/- 4.21e-78]",
+        "mid_float": 4.5877654774337586e-43,
+        "radius_upper_float": 0.0
+      },
+      "preparation_seconds": 0.13999357699867687,
+      "preparation_cpu_seconds": 0.03237987599999981,
+      "table_seconds": 0.5109910430001037,
+      "table_cpu_seconds": 0.11550122800000029,
+      "evaluation_seconds": 0.34167641599924536,
+      "evaluation_cpu_seconds": 0.07430350000000008,
+      "total_seconds": 0.9926610359980259,
+      "total_cpu_seconds": 0.22218460400000017
+    }
+  ],
+  "limitation": "Finite-node evaluation cost only; the true f-P error and complete-label reconstruction remain separate.",
+  "fastest_case_index": 3,
+  "independent_checks": [
+    {
+      "node": 0,
+      "independent_full_Laurent_overlap": true
+    },
+    {
+      "node": 585,
+      "independent_full_Laurent_overlap": true
+    },
+    {
+      "node": 1365,
+      "independent_full_Laurent_overlap": true
+    },
+    {
+      "node": 4095,
+      "independent_full_Laurent_overlap": true
+    }
+  ]
+}

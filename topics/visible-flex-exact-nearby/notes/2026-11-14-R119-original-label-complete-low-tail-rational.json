@@ -1,0 +1,223 @@
+{
+  "schema": "R119-original-label-complete-actual-low-tail-v1",
+  "executed": true,
+  "arithmetic": "exact normalized BigInt rational",
+  "complete": true,
+  "gate_count": 26,
+  "gates": [
+    {
+      "name": "whole_basis_product_below_two",
+      "left": "289/256",
+      "right": "2/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "relative_error_exponent",
+      "left": "149/1",
+      "right": "149/1",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "first_low_relative_error_exponent",
+      "left": "-11/1",
+      "right": "-11/1",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "lambda_ratio_exponent_at_M4",
+      "left": "268/1",
+      "right": "268/1",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "lambda_ratio_safety_margin",
+      "left": "16/1",
+      "right": "268/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "actual_sqrt_decay_below_three_quarters",
+      "left": "1/1",
+      "right": "9/8",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "entire_epsilon_sum",
+      "left": "1/512",
+      "right": "1/512",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "complete_disk_denominator_positive",
+      "left": "0/1",
+      "right": "1048063/1048576",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "complete_Mobius_disk_invariance",
+      "left": "16417/33538016",
+      "right": "1/512",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "full_determinant_Mobius_contraction",
+      "left": "554180608/1098436051969",
+      "right": "1/4",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "narrow_varying_cone_induction",
+      "left": "1049632/1048063",
+      "right": "2/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "narrow_cone_inside_original_disk",
+      "left": "1/1024",
+      "right": "1/512",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "complete_z_relative_bound",
+      "left": "513/512",
+      "right": "2/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "all_factor_error_sum",
+      "left": "1/256",
+      "right": "1/256",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "finite_product_difference",
+      "left": "1/255",
+      "right": "1/255",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "finite_product_lower",
+      "left": "255/256",
+      "right": "255/256",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "finite_product_upper",
+      "left": "256/255",
+      "right": "256/255",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "inverse_product_difference",
+      "left": "256/65025",
+      "right": "256/65025",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "unified_product_and_inverse_relative_error",
+      "left": "256/65025",
+      "right": "1/254",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "complete_physical_lower",
+      "left": "15/16",
+      "right": "15/16",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "complete_physical_upper",
+      "left": "16/15",
+      "right": "16/15",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "complete_physical_lower_above_half",
+      "left": "1/2",
+      "right": "15/16",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "complete_physical_upper_below_two",
+      "left": "16/15",
+      "right": "2/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "original_deep_ratio_exact",
+      "left": "1/1",
+      "right": "1/1",
+      "relation": "=",
+      "pass": true
+    },
+    {
+      "name": "original_D_at_smallest_physical_mode_exceeds_one",
+      "left": "1/1",
+      "right": "2/1",
+      "relation": "<",
+      "pass": true
+    },
+    {
+      "name": "all_real_high_prefix_contracts",
+      "left": "1/4",
+      "right": "1/1",
+      "relation": "<",
+      "pass": true
+    }
+  ],
+  "dependencies": [
+    {
+      "file": "R119-supplement-controlled-profile-full-label-and-raw-ports.md",
+      "sha256": "ff11cb043128a5d66ee996bb174edda0d6537fe73f9a7a565ba143d2ab5c04d0"
+    },
+    {
+      "file": "R119-supplement-stronger-deep-full-label-chart-and-fourth-line.md",
+      "sha256": "513202b38f1c346ef3fb3f43ff79e1c6bd4bccbd1ed8d9151a8a7095dc75bf98"
+    },
+    {
+      "file": "R119-supplement-original-neutral-label-common-analytic-normalization.md",
+      "sha256": "5bc9d551c8e7b1329709d9513891d15536494d9f55163a2d5c40877877c09fc8"
+    }
+  ],
+  "producer_sha256": "2f9ca55dfe4e154c6582fc1657f327ff9ddbab210b81c2975597ebc98fcf0912",
+  "proof_sha256": "2385283eea18abfd813da2ad7d770330185ed87630e3ca4801f7d82f0b399b62",
+  "object": "actual radial zero-background Jacobi derivative for the complete original controlled profile box",
+  "range": "m in 4Z minus zero, abs(m)>=2^984*25^(1/8), all radial layers j>=128",
+  "original_label_and_C_zeta_retained": true,
+  "full_actual_high_prefix_retained": true,
+  "complete_infinite_low_tail_two_rows_retained": true,
+  "relative_first_row_error": "strictly below 1/254 relative to N_M a_m Lambda^(b_M-j)",
+  "physical_two_row_factors": [
+    "255/272",
+    "272/255"
+  ],
+  "all_layer_original_normalized_majorant": "(272/255)*abs(original label), with all true high prefix contractions",
+  "arbitrary_physical_source_Green_proved": false,
+  "nonzero_nonradial_inverse_proved": false,
+  "low_finite_frequency_range_proved": false,
+  "mean_or_independent_height_removed": false,
+  "final_F_zero_proved": false
+}

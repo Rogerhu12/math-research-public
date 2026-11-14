@@ -1,0 +1,17 @@
+{
+  "kind": "actual_intentional_interruption_before_regular_endpoint_restart",
+  "actual_tool_exit_code": 130,
+  "process_session": 97005,
+  "automatic_termination_or_mathematical_failure": false,
+  "reason": "A tracked shared diagnostic edit blocked the concurrent mandated rebase. Stop the new producer explicitly, preserve its original state, restore the already-published common module, and place the endpoint diagnostic in a separate new module before restarting.",
+  "original_process_report": "notes/2026-11-13-R133-moving-m32-alpha0765-fullR-tol2e9-process.json",
+  "original_process_report_sha256": "832cabe73f423af62c90ca38014e84881ca893d12ab6c32a86e96b79ed2263c2",
+  "original_producer_source_archive": "scripts/fourfold_codazzi_moving_regular_endpoint_probe_attempt1.py",
+  "original_producer_sha256": "1b7c6959650572d003c4557c0c005668c4edf0149a6afc6394d7fd940b9d1ad3",
+  "original_common_module_at_start_sha256": "186c2a3d796682d52e71b7eace7994c40bd47c5895efff15217857c66fa0e2b9",
+  "original_common_module_change_patch": "notes/2026-11-13-R133-fullR-initial-diagnostic-factory-change.patch",
+  "original_stdout_gzip": "notes/2026-11-13-R133-moving-m32-alpha0765-fullR-initial-original-interrupted.log.gz",
+  "original_stdout_sha256": "26a8452c8726cf6b0a85bb1814baf83b8bdb15d55b91a45b3d521729b21e3864",
+  "original_accepted_checkpoints_preserved": true,
+  "original_input_complete_candidate_unchanged": true
+}

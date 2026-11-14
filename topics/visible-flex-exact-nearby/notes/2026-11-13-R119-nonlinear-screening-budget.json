@@ -1,0 +1,194 @@
+{
+  "schema": "visible-exact-R119-actual-nonlinear-outer-screening-v1",
+  "scope": "The actual nonlinear outer Dirichlet-to-inner complete trace column with its true fixed nonlinear inner height; no nonlinear mixed-tail matching inverse is asserted.",
+  "inputs": {
+    "outer_physical_angular_width": "1/512",
+    "inner_paid_physical_angular_width": "792377/400",
+    "angle_ramp_length": "25356039/3200",
+    "actual_L_lower": "939523921/40",
+    "complete_outer_boundary_radius": "2^-29",
+    "complete_weighted_response_radius": "2^-24",
+    "radial_screening": "exp(-L/2)",
+    "source_R25_blob": "be20257721fed270c59a4024427042fc76ee0073",
+    "file_sha256": {
+      "results/R119-supplement-actual-long-radial-nonlinear-dirichlet-problem.md": "1241e0df199d8aa1487d2d1b3b0cf5b60615f3eb21b51bfa207ad54b30cd6d7c",
+      "results/R119-supplement-two-bumps-and-exact-nonlinear-matching.md": "db98a77d0b294bfad27677e670ef7c73f5acb33907950b2a38a52036e519c702",
+      "results/R119-supplement-nonlinear-screened-outer-to-inner-map.md": "3c942418473cec67f01dead8168d90710f26cee14326fef59033c72040490793",
+      "scripts/fourfold_nonlinear_screening_20261113.py": "3aca18576e85e9767bce2fa6baa0a46b920ad3309826afaa3881cd97acad515d"
+    }
+  },
+  "checks": [
+    {
+      "name": "actual_angle_ramp_length",
+      "pass": true,
+      "evidence": "S=4(sigma_i-sigma_o); sigma_i is the actual paid double-bump output"
+    },
+    {
+      "name": "actual_same_width_background_solution",
+      "pass": true,
+      "evidence": "Use the already proved nonlinear Dirichlet solution with outer data zero"
+    },
+    {
+      "name": "actual_background_smallness",
+      "pass": true,
+      "evidence": "The true f_B is supplied by the actual nonlinear tail chart"
+    },
+    {
+      "name": "background_less_than_difference_radius",
+      "pass": true,
+      "evidence": "Only the difference, not the fixed inner-end background, carries q(t)"
+    },
+    {
+      "name": "inward_weighted_kernel_rate",
+      "pass": true,
+      "evidence": "(3/4)M-5/2>=M/8 for every M>=4"
+    },
+    {
+      "name": "outward_weighted_kernel_rate",
+      "pass": true,
+      "evidence": "The opposite half-kernel has decay at least exp(-M(t-s))"
+    },
+    {
+      "name": "weighted_green_height_constant",
+      "pass": true,
+      "evidence": "Integrate the full finite-interval kernel over the two half-intervals"
+    },
+    {
+      "name": "weighted_green_first_jet_constant",
+      "pass": true,
+      "evidence": "The exact differentiated kernel is at most 3 times the same exponential"
+    },
+    {
+      "name": "weighted_green_second_jet_constant",
+      "pass": true,
+      "evidence": "Use the exact ODE, not a differentiated absolute-value estimate"
+    },
+    {
+      "name": "complete_weighted_green_bound",
+      "pass": true,
+      "evidence": "The complete sum of all three jets is bounded uniformly in actual L"
+    },
+    {
+      "name": "weighted_boundary_lift",
+      "pass": true,
+      "evidence": "Same exact lift, with the positive inward exponential margin retained"
+    },
+    {
+      "name": "complete_mean_T_domain",
+      "pass": true,
+      "evidence": "T=2K+K^2+E P^2 with E<=2 and complete N<=1/64"
+    },
+    {
+      "name": "binomial_derivative_tail_bound",
+      "pass": true,
+      "evidence": "(3/8)(2-x)/(1-x)^2<1 for 0<=x<=1/16"
+    },
+    {
+      "name": "complete_mean_first_remainder_derivative",
+      "pass": true,
+      "evidence": "Quadratic terms plus the exact square-root series remainder"
+    },
+    {
+      "name": "complete_mean_B_bound",
+      "pass": true,
+      "evidence": "B=(1+K)J/(1-w^2P^2)-1 includes every nonconstant term"
+    },
+    {
+      "name": "complete_mean_dB_bound",
+      "pass": true,
+      "evidence": "Differentiate all numerator, square-root, and inverse factors"
+    },
+    {
+      "name": "complete_mean_second_remainder_derivative",
+      "pass": true,
+      "evidence": "Differentiate U B and retain both product terms"
+    },
+    {
+      "name": "complete_mean_total_derivative",
+      "pass": true,
+      "evidence": "The linear angular mean vanishes by the actual compatibility relations"
+    },
+    {
+      "name": "complete_mean_implicit_derivative",
+      "pass": true,
+      "evidence": "Use the full holonomy root derivative, not a discarded mean row"
+    },
+    {
+      "name": "complete_mean_Y_derivative",
+      "pass": true,
+      "evidence": "P, U and Kperp variation has coefficient 13/8 in Y"
+    },
+    {
+      "name": "complete_relative_state_derivative",
+      "pass": true,
+      "evidence": "The true mean derivative is included in the complete four-state derivative"
+    },
+    {
+      "name": "complete_quadratic_numerator_derivative",
+      "pass": true,
+      "evidence": "Each term of E(V-P)^2+K^2+2EKU+EU^2-w^2P^2 is differentiated"
+    },
+    {
+      "name": "complete_quotient_derivative",
+      "pass": true,
+      "evidence": "The derivative of the denominator inverse is retained"
+    },
+    {
+      "name": "weighted_source_lipschitz_constant",
+      "pass": true,
+      "evidence": "The weighted ideal norm is placed on each differentiated factor"
+    },
+    {
+      "name": "nonlinear_difference_domain",
+      "pass": true,
+      "evidence": "h0+z remains inside the actual mean and source domain"
+    },
+    {
+      "name": "outer_data_lift_half_ball",
+      "pass": true,
+      "evidence": "Outer physical angular input is measured at sigma_o=1/512"
+    },
+    {
+      "name": "complete_nonlinear_weighted_contraction",
+      "pass": true,
+      "evidence": "The contraction is for the actual nonlinear difference problem"
+    },
+    {
+      "name": "complete_difference_selfmap",
+      "pass": true,
+      "evidence": "The weighted full-frequency closed ball maps into itself"
+    },
+    {
+      "name": "complete_nonlinear_input_Lipschitz",
+      "pass": true,
+      "evidence": "The same bound holds for differences of two permitted outer inputs"
+    },
+    {
+      "name": "complete_inner_mean_screening",
+      "pass": true,
+      "evidence": "The mean derivative is screened after using its full root difference"
+    },
+    {
+      "name": "ordinary_Dirichlet_uniqueness_overlap",
+      "pass": true,
+      "evidence": "The weighted solution is the same existing physical nonlinear solution"
+    },
+    {
+      "name": "outer_boundary_original_ball",
+      "pass": true,
+      "evidence": "No larger Dirichlet input ball is silently introduced"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "actual_full_nonlinear_difference_problem": true,
+    "fixed_actual_nonlinear_inner_height": true,
+    "all_outer_and_inner_angular_modes": true,
+    "paid_inner_angular_width_gain": true,
+    "complete_mean_slope_difference": true,
+    "outer_mean_height_integral_retained": true,
+    "nonlinear_mixed_tail_relative_inverse": false,
+    "ordinary_metric_source_columns": false,
+    "final_global_family": false
+  }
+}

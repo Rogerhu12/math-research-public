@@ -1,0 +1,90 @@
+{
+  "kind": "floating_actual_curve_first_second_ray_differences_not_uniform_Taylor_bounds",
+  "source_checkpoint": "type_fixed_step02_d5_probe.npz",
+  "source_sha256": "a042a48e7245e6dbba9466bad493e439e84c375a37b92f32ddaee60e3274c275",
+  "original_schur_sha256": "941c19642b4e74cbe5d68c311629bbe66f05df16fca26692c541ed61d6f29629",
+  "curve_direction_sha256": "746253d55fd452015b5c7f2a242efcec42de64391976b767a8a8f0a1853df6c7",
+  "curve_eigen_increment": [
+    0.002,
+    0.0002,
+    0.0
+  ],
+  "conjugacy_angle": 0.0,
+  "physical_initial_angle": -0.0002789495542936589,
+  "ode_rtol": 2e-11,
+  "variational": {
+    "returned": 0.9116164145187894,
+    "angular_derivative": 3.7247866612677183,
+    "parameter_column": 0.0008902040138020484,
+    "root_parameter_column": 6.113456030423678e-05
+  },
+  "independent_samples": {
+    "0.0": {
+      "displacement": 0.0,
+      "returned": 0.9116164149721345,
+      "angular_derivative": 3.724786663799012,
+      "target_root": 0.23839514893951733,
+      "vector_sha256": "b84db3bb59ddaae7247fc690c90e4e266e46008c21ac8ea2c03952268c39fc3e",
+      "rhs_calls": 8944
+    },
+    "-0.05": {
+      "displacement": -0.05,
+      "returned": 0.9115718681204351,
+      "angular_derivative": 3.726391296812778,
+      "target_root": 0.23839209103282533,
+      "vector_sha256": "1950efc1a3ecabb234ecb634be1a126c1880d609ea04a8f4cab1793e72135c65",
+      "rhs_calls": 8800
+    },
+    "0.05": {
+      "displacement": 0.05,
+      "returned": 0.9116608869063412,
+      "angular_derivative": 3.723185818866629,
+      "target_root": 0.23839820449127935,
+      "vector_sha256": "27419c13272dae24fff1e536b194b215d084f96756b18c4a77c9f542c629dc78",
+      "rhs_calls": 8764
+    },
+    "-0.025": {
+      "displacement": -0.025,
+      "returned": 0.9115941535376545,
+      "angular_derivative": 3.7255884984181025,
+      "target_root": 0.23839362028094352,
+      "vector_sha256": "91dca45bd076f66c2569e2f5ce38d38c1e8eb9ec425db9ed239318f10394cde2",
+      "rhs_calls": 8968
+    },
+    "0.025": {
+      "displacement": 0.025,
+      "returned": 0.9116386571924346,
+      "angular_derivative": 3.7239857956049076,
+      "target_root": 0.23839667700923717,
+      "vector_sha256": "ad14f22a3ea33325903196bc4f56492beb3682a6ca258e6863e13e5f9e2011ab",
+      "rhs_calls": 8776
+    }
+  },
+  "differences": [
+    {
+      "step": 0.05,
+      "first_parameter_difference": 0.0008901878590605872,
+      "second_parameter_difference": -2.9966997106001252e-05,
+      "mixed_angle_parameter_difference": -0.032054779461487826,
+      "difference_from_variational": -1.6154741461216204e-08,
+      "root_first_difference": 6.113458454026777e-05,
+      "root_second_difference": -9.419719892989063e-07
+    },
+    {
+      "step": 0.025,
+      "first_parameter_difference": 0.0008900730956029612,
+      "second_parameter_difference": -3.074268786207312e-05,
+      "mixed_angle_parameter_difference": -0.032054056263897124,
+      "difference_from_variational": -1.3091819908717106e-07,
+      "root_first_difference": 6.113456587297783e-05,
+      "root_second_difference": -9.421663449415971e-07
+    }
+  ],
+  "limitations": [
+    "ordinary floating ODE; no outward integration or Taylor interval bound",
+    "second quotients do not upper-bound parameter second derivatives",
+    "original radial reflection defect remains unpaid",
+    "parameter is a local phase-vector curve with synchronous radial target",
+    "R31 analytic P/Q/T/B and exact PDE family remain unpaid"
+  ]
+}

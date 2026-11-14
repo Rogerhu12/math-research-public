@@ -1,0 +1,144 @@
+{
+  "schema": "visible-exact-R119-actual-positive-band-two-end-dn-v1",
+  "scope": "The actual complete raw-height scalar divergence operator, holonomy flux, true-angle positive-band weak Dirichlet/source Green and both-end relative DN in an explicit full-frequency radial energy trace space.",
+  "inputs": {
+    "label_weight": 224,
+    "full_relative_positive_form_fee_power_of_2": -430,
+    "true_trace_space": "sum over every m in 4Z of f_m^* S_m f_m, plus the independent common mean height",
+    "file_sha256": {
+      "results/R119-actual-final-connector-all-label-continuation.md": "8b4f7d46321709e9151abb930748d1d28545a5b41b1329813cd7301747c8a083",
+      "results/R119-supplement-unscalarized-tail-frame-and-summable-remainder.md": "c506990aa604918061c5189cfb40c9c3f5042d4a1453f6b134fa3983aefa3f7e",
+      "results/R119-supplement-actual-speed-hodograph-and-quadratic-scalar-phase.md": "9fed57edb94a4b837389567de5c489098fd31fa272940030227baa2998f2e9cf",
+      "results/R119-supplement-divergence-frame-and-uniform-turning-energy.md": "9721fd961358c271466aff2192265a53707aad8a97b37c80e9931245ecd84a14",
+      "results/R119-supplement-actual-positive-band-two-end-dn-and-ordinary-source.md": "501f0813575c071d1586b412873ae2c43022a955c04d870f41d21c448ce38484",
+      "scripts/fourfold_positive_band_two_end_dn_20261113.py": "9eea1ca65672c3ccaa9ad4ecac5e36398fd2e4764ac7263c23c2234d1cb3b376"
+    }
+  },
+  "checks": [
+    {
+      "name": "exact_raw_height_t_coefficient",
+      "pass": true,
+      "evidence": "mu=(w/a) J D^-3/2 includes all actual first-order terms"
+    },
+    {
+      "name": "exact_raw_height_theta_coefficient",
+      "pass": true,
+      "evidence": "The independent U_theta,V_theta terms cancel in the full divergence identity"
+    },
+    {
+      "name": "exact_raw_height_principal",
+      "pass": true,
+      "evidence": "The complete principal matrix is retained"
+    },
+    {
+      "name": "exact_full_holonomy_K_Euler_derivative",
+      "pass": true,
+      "evidence": "G_K=w^2 rho J, including the mean"
+    },
+    {
+      "name": "exact_full_holonomy_P_Euler_derivative",
+      "pass": true,
+      "evidence": "G_P-d_theta G_U=-w^2 rho E(V-P)"
+    },
+    {
+      "name": "exact_ordinary_scalar_density_source",
+      "pass": true,
+      "evidence": "The true source is w^2 J rho e, not an endpoint jump"
+    },
+    {
+      "name": "exact_raw_conormal_holonomy_identity",
+      "pass": true,
+      "evidence": "<p_raw>=delta M after the complete angular Euler integration"
+    },
+    {
+      "name": "actual_D_series_domain",
+      "pass": true,
+      "evidence": "All coefficient ratios use the actual small relative state"
+    },
+    {
+      "name": "actual_rho_derivative_bound",
+      "pass": true,
+      "evidence": "(3/2)(16/15)^(5/2)<2"
+    },
+    {
+      "name": "actual_inverse_root_derivative_bound",
+      "pass": true,
+      "evidence": "The inverse square-root first derivative is below 1"
+    },
+    {
+      "name": "actual_radial_ratio_bound",
+      "pass": true,
+      "evidence": "||J rho-1||<=10n"
+    },
+    {
+      "name": "actual_angular_ratio_bound",
+      "pass": true,
+      "evidence": "||D^-1/2/J-1||<=10n"
+    },
+    {
+      "name": "actual_complete_positive_form_relative_fee",
+      "pass": true,
+      "evidence": "Includes the actual angle Jacobian at both endpoints"
+    },
+    {
+      "name": "actual_positive_form_coercivity",
+      "pass": true,
+      "evidence": "The same energy completion works at true A=0 endpoints"
+    },
+    {
+      "name": "exact_complete_two_end_DN_matrix",
+      "pass": true,
+      "evidence": "Both outward fluxes and the exact nonzero cross term are retained"
+    },
+    {
+      "name": "exact_independent_mean_translation_kernel",
+      "pass": true,
+      "evidence": "Mean height difference and flux remain; only the common height is a kernel"
+    },
+    {
+      "name": "exact_mean_difference_energy",
+      "pass": true,
+      "evidence": "The complete mean energy uses the true radial resistance"
+    },
+    {
+      "name": "ordinary_source_green_relative_fee",
+      "pass": true,
+      "evidence": "The resolvent identity retains the actual ordinary source functional"
+    },
+    {
+      "name": "ordinary_source_flux_full_dual_fee",
+      "pass": true,
+      "evidence": "The complete two-end source flux, including its translation test row, is below 2 S_I"
+    },
+    {
+      "name": "actual_nonzero_angular_Poincare_constant",
+      "pass": true,
+      "evidence": "All real fourfold modes are included; there is no discarded low nonzero mode"
+    },
+    {
+      "name": "whole_source_contract_keeps_translation",
+      "pass": true,
+      "evidence": "C_I=1+2 sqrt(R_I)+1/(4 sqrt(M_I)) bounds full height, not just its angular derivative"
+    },
+    {
+      "name": "source_outward_flux_mean_kept",
+      "pass": true,
+      "evidence": "Testing the exact divergence identity against 1 gives total outward flux=int source"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "complete_raw_scalar_operator": true,
+    "true_raw_flux_mean_equals_holonomy_variation": true,
+    "all_positive_component_frequencies": true,
+    "both_endpoint_trace_and_feedback": true,
+    "actual_endpoint_angle_maps_retained": true,
+    "updated_weak_positive_DN_relative_bound": true,
+    "continuous_ordinary_source_and_mean_charge": true,
+    "uniform_installed_strong_Airy_trace_equivalence": false,
+    "uniform_all_layer_source_fee": false,
+    "arbitrary_R37_metric_source_conversion": false,
+    "full_mixed_return_relative_inverse": false,
+    "closed_surface_main_goal": false
+  }
+}

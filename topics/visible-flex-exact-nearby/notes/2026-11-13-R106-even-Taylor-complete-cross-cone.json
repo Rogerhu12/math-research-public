@@ -1,0 +1,227 @@
+{
+  "kind": "actual_even_Taylor_positive_real_strips_and_complete_cross_cone_bounds",
+  "complete": true,
+  "proved": true,
+  "source_sha256": "85ab478e966e4797dab04290d44a12003c0bfd30f6307ce79216b4b21e5a29d6",
+  "bits": 320,
+  "identity": {
+    "object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+    "source_sha256": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+    "dependency_sha256": {
+      "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a"
+    },
+    "affine_arithmetic": "Arb encloses c0+exact_delta*v and alpha0+exact_delta*w before all fixed base weights",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_half_width": "1/1000000000",
+    "exact_parameter_interval": [
+      "-15214546326135873881617/9007199254740992000000000",
+      "-15214528311737364399633/9007199254740992000000000"
+    ],
+    "uniform_in_the_entire_real_parameter_interval": true,
+    "parameter_arithmetic": "First form complete exact center and direction scalar polynomials; then add the single p in [-eta,eta]. No independent raw-control parameter intervals are introduced.",
+    "exact_delta_fraction_scope": "The exact_delta_fraction field names the center only; all bounds cover the separately stated whole exact_parameter_interval."
+  },
+  "actual_parameter_scope": "The actual p_infinity supplied by R101, rigorously inside the full phase parameter box.",
+  "scale": 1048576,
+  "inputs": {
+    "notes/2026-11-13-R106-full-relative-real-log-jets.json.gz": "f2b670c95c762cb3a273480a700d3414db25fa7070b8a2504346682a42b2202c",
+    "notes/2026-11-13-R106-full-relative-real-ray-jets.json.gz": "1d5258f265e49f0f6a053a8f2dbdee08a46a5993f5911e70a89edc7a4cd55f5f",
+    "notes/2026-11-13-actual-two-cone-density-normal-form.json": "59635a09f6ae38758cdf226902178b4fdcdf80f336ae1e36a99d06fdf03e149d",
+    "notes/2026-11-13-actual-fixed-label-high-density-Volterra.json": "49bdf86b4803c057fb3b3c141bbeb6687da32092496dba77fb12f69343134ad4"
+  },
+  "native_geometry_recomputed": 0,
+  "exact_parity": "H is real on the real circle, so every odd Taylor term of Hprime(x+i*y) is purely imaginary",
+  "strict": {
+    "original_full_complex_strip": {
+      "ball": "[2.7952875000000000000000000000000000000000000000000e-5 +/- 1.0e-58]",
+      "lower": "[2.7952875000000000000000000000000000000000000000000e-5 +/- 1.0e-58]",
+      "upper": "[2.7952875000000000000000000000000000000000000000000e-5 +/- 1.0e-58]"
+    },
+    "unchanged_complex_derivative_modulus": {
+      "ball": "[36.730913188714935404676620920030587193624984907635 +/- 2.79e-49]",
+      "lower": "[36.730913188714935404676620920030587193624984907635 +/- 2.79e-49]",
+      "upper": "[36.730913188714935404676620920030587193624984907635 +/- 2.79e-49]"
+    },
+    "original_real_derivative_lower": {
+      "ball": "[0.066739401929913908510541969441392456212226209475333 +/- 1.75e-52]",
+      "lower": "[0.066739401929913908510541969441392456212226209475333 +/- 1.75e-52]",
+      "upper": "[0.066739401929913908510541969441392456212226209475333 +/- 1.75e-52]"
+    },
+    "real_to_complex_ratio_exact": "25903793526422906398429851003/158456325028528675187087900672",
+    "even_Taylor_normalized_coefficients": [
+      {
+        "ball": "[1.2358998271198958466575228280243850624225164725791 +/- 3.51e-50]",
+        "lower": "[1.2358998271198958466575228280243850624225164725791 +/- 3.51e-50]",
+        "upper": "[1.2358998271198958466575228280243850624225164725791 +/- 3.51e-50]"
+      },
+      {
+        "ball": "[0.46640497657387929759895232223432499734984509319863 +/- 2.97e-51]",
+        "lower": "[0.46640497657387929759895232223432499734984509319863 +/- 2.97e-51]",
+        "upper": "[0.46640497657387929759895232223432499734984509319863 +/- 2.97e-51]"
+      },
+      {
+        "ball": "[0.39829135606201676602158527685575820553672965321025 +/- 3.54e-51]",
+        "lower": "[0.39829135606201676602158527685575820553672965321025 +/- 3.54e-51]",
+        "upper": "[0.39829135606201676602158527685575820553672965321025 +/- 3.54e-51]"
+      },
+      {
+        "ball": "[0.60839757374588875883127366151292037597628729401727 +/- 1.31e-51]",
+        "lower": "[0.60839757374588875883127366151292037597628729401727 +/- 1.31e-51]",
+        "upper": "[0.60839757374588875883127366151292037597628729401727 +/- 1.31e-51]"
+      },
+      {
+        "ball": "[1.4595004087941405957721109923622418901109728748807 +/- 4.77e-50]",
+        "lower": "[1.4595004087941405957721109923622418901109728748807 +/- 4.77e-50]",
+        "upper": "[1.4595004087941405957721109923622418901109728748807 +/- 4.77e-50]"
+      }
+    ],
+    "even_tail_start_power": 12,
+    "full_even_Taylor_loss": {
+      "ball": "[0.033369700964956954255270984720097608770984824439424 +/- 5.05e-53]",
+      "lower": "[0.033369700964956954255270984720097608770984824439424 +/- 5.05e-53]",
+      "upper": "[0.033369700964956954255270984720097608770984824439424 +/- 5.05e-53]"
+    },
+    "new_positive_real_complex_strip": {
+      "ball": "[4.5696219594865868502379620313720803810830835225111e-6 +/- 3.94e-56]",
+      "lower": "[4.5696219594865868502379620313720803810830835225111e-6 +/- 3.94e-56]",
+      "upper": "[4.5696219594865868502379620313720803810830835225111e-6 +/- 3.94e-56]"
+    },
+    "new_complex_derivative_real_lower": {
+      "ball": "[0.033369700964956954255270984721294847441241385035909 +/- 1.25e-52]",
+      "lower": "[0.033369700964956954255270984721294847441241385035909 +/- 1.25e-52]",
+      "upper": "[0.033369700964956954255270984721294847441241385035909 +/- 1.25e-52]"
+    },
+    "full_cross_and_adjoint_gain_two": {
+      "ball": "[960988220254338495.76675693478921383541543821601223 +/- 1.48e-33]",
+      "lower": "[960988220254338495.76675693478921383541543821601223 +/- 1.48e-33]",
+      "upper": "[960988220254338495.76675693478921383541543821601223 +/- 1.48e-33]"
+    },
+    "full_cross_decay": {
+      "ball": "[7.6243459155484022670282934931274430923406341243094e-8 +/- 2.8e-60]",
+      "lower": "[7.6243459155484022670282934931274430923406341243094e-8 +/- 2.8e-60]",
+      "upper": "[7.6243459155484022670282934931274430923406341243094e-8 +/- 2.8e-60]"
+    },
+    "prior_cross_error": {
+      "ball": "[95368707878309797791401012504226.790166257205907879 +/- 1.99e-19]",
+      "lower": "[95368707878309797791401012504226.790166257205907879 +/- 1.99e-19]",
+      "upper": "[95368707878309797791401012504226.790166257205907879 +/- 1.99e-19]"
+    },
+    "prior_cross_decay": {
+      "ball": "[2.1185533015067065399987099104255542567294130894746e-10 +/- 1.38e-62]",
+      "lower": "[2.1185533015067065399987099104255542567294130894746e-10 +/- 1.38e-62]",
+      "upper": "[2.1185533015067065399987099104255542567294130894746e-10 +/- 1.38e-62]"
+    },
+    "cross_improvement": {
+      "ball": "[99240246517349.799327047032821551703854554091923847 +/- 2.93e-37]",
+      "lower": "[99240246517349.799327047032821551703854554091923847 +/- 2.93e-37]",
+      "upper": "[99240246517349.799327047032821551703854554091923847 +/- 2.93e-37]"
+    },
+    "bounds_apply_to_all_relative_times_and_inverses": true
+  },
+  "actual_final_circle": {
+    "original_full_complex_strip": {
+      "ball": "0.00024414062500000000000000000000000000000000000000000",
+      "lower": "0.00024414062500000000000000000000000000000000000000000",
+      "upper": "0.00024414062500000000000000000000000000000000000000000"
+    },
+    "unchanged_complex_derivative_modulus": {
+      "ball": "[6.7941313249908497519543673506079516596512514653066 +/- 2.50e-50]",
+      "lower": "[6.7941313249908497519543673506079516596512514653066 +/- 2.50e-50]",
+      "upper": "[6.7941313249908497519543673506079516596512514653066 +/- 2.50e-50]"
+    },
+    "original_real_derivative_lower": {
+      "ball": "[0.17223414870601722731769237293510039765477111834929 +/- 1.65e-51]",
+      "lower": "[0.17223414870601722731769237293510039765477111834929 +/- 1.65e-51]",
+      "upper": "[0.17223414870601722731769237293510039765477111834929 +/- 1.65e-51]"
+    },
+    "universal_complete_even_loss": {
+      "ball": "[0.086117074352849982090846893557602698788261530096955 +/- 4.23e-52]",
+      "lower": "[0.086117074352849982090846893557602698788261530096955 +/- 4.23e-52]",
+      "upper": "[0.086117074352849982090846893557602698788261530096955 +/- 4.23e-52]"
+    },
+    "new_positive_real_complex_strip": {
+      "ball": "[2.7313831545721414529917422033118188344953239031804e-5 +/- 3.41e-55]",
+      "lower": "[2.7313831545721414529917422033118188344953239031804e-5 +/- 3.41e-55]",
+      "upper": "[2.7313831545721414529917422033118188344953239031804e-5 +/- 3.41e-55]"
+    },
+    "new_complex_derivative_real_lower": {
+      "ball": "[0.086117074353167245226845479377497698866509588252334 +/- 2.18e-52]",
+      "lower": "[0.086117074353167245226845479377497698866509588252334 +/- 2.18e-52]",
+      "upper": "[0.086117074353167245226845479377497698866509588252334 +/- 2.18e-52]"
+    },
+    "full_cross_and_adjoint_gain_two": {
+      "ball": "[402383810927.98344603189353047330586454022782018189 +/- 2.42e-40]",
+      "lower": "[402383810927.98344603189353047330586454022782018189 +/- 2.42e-40]",
+      "upper": "[402383810927.98344603189353047330586454022782018189 +/- 2.42e-40]"
+    },
+    "full_cross_decay": {
+      "ball": "[1.1760936310463880410250582823872843643604575207959e-6 +/- 3.30e-56]",
+      "lower": "[1.1760936310463880410250582823872843643604575207959e-6 +/- 3.30e-56]",
+      "upper": "[1.1760936310463880410250582823872843643604575207959e-6 +/- 3.30e-56]"
+    },
+    "prior_cross_error": {
+      "ball": "[17399343375888171569.197250472500903054773422910003 +/- 9.88e-33]",
+      "lower": "[17399343375888171569.197250472500903054773422910003 +/- 9.88e-33]",
+      "upper": "[17399343375888171569.197250472500903054773422910003 +/- 9.88e-33]"
+    },
+    "prior_cross_decay": {
+      "ball": "[3.3311536279722425508358959636892494566285371853252e-8 +/- 9.03e-59]",
+      "lower": "[3.3311536279722425508358959636892494566285371853252e-8 +/- 9.03e-59]",
+      "upper": "[3.3311536279722425508358959636892494566285371853252e-8 +/- 9.03e-59]"
+    },
+    "cross_improvement": {
+      "ball": "[43240664.518191103913691862315812652748894678961598 +/- 6.65e-44]",
+      "lower": "[43240664.518191103913691862315812652748894678961598 +/- 6.65e-44]",
+      "upper": "[43240664.518191103913691862315812652748894678961598 +/- 6.65e-44]"
+    },
+    "inverse_companion_error_paid_by_exact_E_inverse_equals_minus_E_adjoint": true
+  },
+  "original_domains_moduli_and_exact_maps_unchanged": true,
+  "real_jets_not_silently_used_as_complex_derivative_bounds": true,
+  "complete_opposite_cones_mean_rows_columns_and_adjoint_windows_retained": true,
+  "full_cross_windows": [
+    [
+      "0",
+      "2"
+    ],
+    [
+      "-2",
+      "0"
+    ]
+  ],
+  "separate_true_scattering_error_not_improved": true,
+  "complete_returned_Rstar_recomputed": false,
+  "full_feedback_inverse_proved": false,
+  "gates": [
+    {
+      "name": "strict complete complex derivative real part exceeds half its real lower bound",
+      "passed": true
+    },
+    {
+      "name": "final-circle complete complex derivative real part exceeds half its real lower bound",
+      "passed": true
+    },
+    {
+      "name": "both subdomains remain inside the unchanged original analytic strips",
+      "passed": true
+    },
+    {
+      "name": "both complete cross-and-adjoint bounds improve",
+      "passed": true
+    }
+  ],
+  "dependencies": {
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "fourfold_phase_root_fourier_fit.py": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604",
+    "fourfold_negative_collar_root_fourier_budget.py": "08866307bf0de20183db15387f16ec0f2f3a65d67bfec6e9229b27a65a902b9b",
+    "fourfold_negative_canonical_cancellation_chart.py": "650ceef0ea91bdf5f4ef86d114fb6dc412bef3a0b4b915910135357967ec0c8d",
+    "fourfold_actual_return_symmetric_density_normal_form.py": "c61cd60cb84fce467d86a985576875ca9dcccb7fc0a43538b094250270adc299"
+  },
+  "seconds": 1.2640207080039545
+}

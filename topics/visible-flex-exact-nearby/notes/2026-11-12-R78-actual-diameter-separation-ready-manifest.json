@@ -1,0 +1,29 @@
+{
+  "kind": "R78_frozen_ready_manifest",
+  "complete": true,
+  "files": [
+    {
+      "path": "results/R78-actual-diameter-and-whole-surface-phase-witness.md",
+      "bytes": 12920,
+      "sha256": "2b34593fa02c37cf6e99823b0fc20b310560bbe3e88f4bd9c4f9ddaa50bc1909"
+    },
+    {
+      "path": "scripts/fourfold_phase_diameter_and_separation.py",
+      "bytes": 21020,
+      "sha256": "9013918a1624f153b38b3c50f255e3786eac9740f36ff571889ad910b813ed2d"
+    },
+    {
+      "path": "notes/2026-11-12-actual-diameter-and-phase-separation.json.gz",
+      "bytes": 140419,
+      "sha256": "d3345dc4f48d4195a0ec003daaee41165497e7577f3287fb0c6131f64192bf5d"
+    }
+  ],
+  "scope": "Current actual approximate closed family; true point-to-whole-surface Hausdorff witness. Auxiliary rotated images are congruent and are not an exact noncongruent flex.",
+  "actual_run": {
+    "attempts": 448,
+    "diameter_leaves": 116,
+    "distance_leaves": 208,
+    "pending": 0,
+    "failed": 0
+  }
+}

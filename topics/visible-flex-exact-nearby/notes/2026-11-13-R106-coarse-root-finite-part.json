@@ -1,0 +1,226 @@
+{
+  "kind": "R106_complete_nonmean_reduced_root_finite_part_coarse_bound",
+  "complete": true,
+  "arithmetic": "exact BigInt; no new geometric samples",
+  "scope": {
+    "parameter_center": "-7789843107295549/4611686018427387904",
+    "parameter_half_width": "1/1000000000",
+    "label_strip": "1/1024",
+    "physical_theta_strip": "1/320",
+    "root_density": "same original-height reduced Dred; not grounded D and not full Fcal/mu",
+    "interval": "one actual root to the original fixed physical cut, with the R106 half-integral normalization",
+    "reference_label": "original H5/4 initial label, with true endpoint J retained",
+    "both_roots": "the same absolute estimate applies by exact radial reflection and the complete all-time J bound"
+  },
+  "bounds": {
+    "complete_F_component": {
+      "exact_upper": "25",
+      "decimal_upper_22": "25.0000000000000000000000"
+    },
+    "complete_Ftheta_component": {
+      "exact_upper": "81/10",
+      "decimal_upper_22": "8.1000000000000000000000"
+    },
+    "complete_Fr_component": {
+      "exact_upper": "250000/21",
+      "decimal_upper_22": "11904.7619047619047619047620"
+    },
+    "complete_Frtheta_component": {
+      "exact_upper": "27000/7",
+      "decimal_upper_22": "3857.1428571428571428571429"
+    },
+    "q_actual_modulus_majorant": {
+      "exact_upper": "303750000000/49",
+      "decimal_upper_22": "6198979591.8367346938775510204082"
+    },
+    "q_safe": {
+      "exact_upper": "7000000000",
+      "decimal_upper_22": "7000000000.0000000000000000000000"
+    },
+    "kstar_safe": {
+      "exact_upper": "50",
+      "decimal_upper_22": "50.0000000000000000000000"
+    },
+    "complex_s_radius": "1/2500000",
+    "local_split": "1/5000000",
+    "complex_root_ray_movement": {
+      "exact_upper": "525000000000001/468750000000000000",
+      "decimal_upper_22": "0.0011200000000000021334"
+    },
+    "Jacobian_exponent": {
+      "exact_upper": "1575000000000003/1269531250000000",
+      "decimal_upper_22": "1.2406153846153869784616"
+    },
+    "exp_four_thirds_upper": {
+      "exact_upper": "940223629049105894185151/247840257806127018907875",
+      "decimal_upper_22": "3.7936678946831777353979"
+    },
+    "complex_J": {
+      "exact_upper": "8223669/1953125",
+      "decimal_upper_22": "4.2105185280000000000000"
+    },
+    "complex_regularized_numerator": {
+      "exact_upper": "491/2500",
+      "decimal_upper_22": "0.1964000000000000000000"
+    },
+    "analytic_small_interval_remainder": {
+      "exact_upper": "3068750000000000000",
+      "decimal_upper_22": "3068750000000000000.0000000000000000000000"
+    },
+    "constant_counterterm": {
+      "exact_upper": "24550000000000000000/3",
+      "decimal_upper_22": "8183333333333333333.3333333333333333333334"
+    },
+    "quadratic_counterterm": {
+      "exact_upper": "6137500000000000000",
+      "decimal_upper_22": "6137500000000000000.0000000000000000000000"
+    },
+    "outer_real_integral": {
+      "exact_upper": "6137500000000000000/3",
+      "decimal_upper_22": "2045833333333333333.3333333333333333333334"
+    },
+    "single_root_reduced_finite_part": {
+      "exact_upper": "58306250000000000000/3",
+      "decimal_upper_22": "19435416666666666666.6666666666666666666667"
+    },
+    "safe_single_root_bound": "20000000000000000000",
+    "safe_two_roots_bound": "40000000000000000000"
+  },
+  "gates": [
+    {
+      "name": "previous actual root-density theorem complete",
+      "passed": true
+    },
+    {
+      "name": "same exact current parameter tube",
+      "passed": true
+    },
+    {
+      "name": "whole original complex collar complete",
+      "passed": true
+    },
+    {
+      "name": "same original infinite geometry",
+      "passed": true
+    },
+    {
+      "name": "nested radial input disk",
+      "passed": true
+    },
+    {
+      "name": "nested exact angular input strip",
+      "passed": true
+    },
+    {
+      "name": "true circumference radius bound",
+      "passed": true
+    },
+    {
+      "name": "true tangent component modulus bound",
+      "passed": true
+    },
+    {
+      "name": "true height component bound",
+      "passed": true
+    },
+    {
+      "name": "actual Fourier ratio below three quarters",
+      "passed": true
+    },
+    {
+      "name": "complete infinite primitive component bound",
+      "passed": true
+    },
+    {
+      "name": "complete true physical Ftheta bound",
+      "passed": true
+    },
+    {
+      "name": "true complete area squared denominator",
+      "passed": true
+    },
+    {
+      "name": "true complete a0 denominator",
+      "passed": true
+    },
+    {
+      "name": "actual complete q bound",
+      "passed": true
+    },
+    {
+      "name": "target curvature branch positive",
+      "passed": true
+    },
+    {
+      "name": "target curvature factor modulus below 81",
+      "passed": true
+    },
+    {
+      "name": "actual complete kstar bound",
+      "passed": true
+    },
+    {
+      "name": "complex square-root disk remains in same radial germ",
+      "passed": true
+    },
+    {
+      "name": "true local complex root ray stays inside smaller physical strip",
+      "passed": true
+    },
+    {
+      "name": "complete Jacobian exponent below four thirds",
+      "passed": true
+    },
+    {
+      "name": "exact exponential four-thirds bound below four",
+      "passed": true
+    },
+    {
+      "name": "actual cut outside the tiny local split",
+      "passed": true
+    },
+    {
+      "name": "previous complete real-time numerator pays realN",
+      "passed": true
+    },
+    {
+      "name": "complete single-root reduced finite part below 2e19",
+      "passed": true
+    }
+  ],
+  "not_proved": [
+    "effective R104 frequency cutoff compatible with the actual low block",
+    "signed finite Fourier reference for b-beta",
+    "S angular-divergence integral, ordinary cut fluxes, or root endpoint term in the full phase",
+    "complete returned subprincipal phase or full PDE inverse"
+  ],
+  "provenance": {
+    "source": "scripts/fourfold_subprincipal_root_finite_part_exact.mjs",
+    "source_sha256": "c21f7182c9e22ea80f71ce719a00aef90d551b148ac029ed796fe2b9e93eaa9b",
+    "proof": "results/R106-supplement-coarse-complete-root-finite-part.md",
+    "inputs": [
+      {
+        "key": "migration",
+        "path": "notes/2026-11-13-R106-whole-parameter-root-density.json",
+        "sha256": "e465844f0880356afd80829a4fc782856db7fc61e513be2669d84a61e80f8a09",
+        "json": true,
+        "utf8_characters": 14120
+      },
+      {
+        "key": "collar",
+        "path": "notes/2026-11-12-beta-step3-true-derivative-collar-h1e5-domain500.json",
+        "sha256": "b387ede87055d0a990cafca12002b8baead5a2415d2d4cef610dde99405efd08",
+        "json": true,
+        "utf8_characters": 26343
+      },
+      {
+        "key": "primitive_kernel",
+        "path": "scripts/fourfold_phase_beta_interval.py",
+        "sha256": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+        "utf8_characters": 30343
+      }
+    ],
+    "execution": "Identical pure checkedCoarseRoot/coarseRootFinitePart implementation actually executed with BigInt in V8; native CLI is a replay wrapper.",
+    "effectiveness": "A true finite whole-parameter nonmean root bound, deliberately coarse. It is not an effective R104 cutoff or a signed Fourier approximation."
+  }
+}

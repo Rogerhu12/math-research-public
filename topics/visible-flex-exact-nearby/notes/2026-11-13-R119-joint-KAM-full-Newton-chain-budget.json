@@ -1,0 +1,228 @@
+{
+  "status": "all_pass",
+  "scope": "True Gamma-selected high-width incoming and94 complete full-frequency preconditioned Newton steps, with the finite width loss explicitly retained",
+  "checks": [
+    {
+      "name": "actual_fourth_target_derivative",
+      "pass": true,
+      "evidence": "The actual new fourth target, rather than the old unretuned endpoint"
+    },
+    {
+      "name": "actual_complex_target_denominator",
+      "pass": true,
+      "evidence": "The true complex fourth-line disk remains away from d=16"
+    },
+    {
+      "name": "actual_last_quintic_inverse",
+      "pass": true,
+      "evidence": "[3.09948956150550209739313150563143082841480e-5 +/- 7.21e-48]"
+    },
+    {
+      "name": "actual_stop_length_derivative",
+      "pass": true,
+      "evidence": "The exact q=-1 stopping formula is differentiated before estimating"
+    },
+    {
+      "name": "actual_complex_stop_tube",
+      "pass": true,
+      "evidence": "The actual complex Pe stays in the original fixed tube"
+    },
+    {
+      "name": "actual_stop_length_change",
+      "pass": true,
+      "evidence": "All three actual maps are retained: target, fixed quintic inverse, log stopping length"
+    },
+    {
+      "name": "actual_extra_connector_angle",
+      "pass": true,
+      "evidence": "The true autonomous A=0 complex-time extension fits the already paid raw angular margin"
+    },
+    {
+      "name": "actual_extra_connector_growth",
+      "pass": true,
+      "evidence": "[3.86294361090786788377730539303071886151000 +/- 2.69e-42]"
+    },
+    {
+      "name": "new_complex_trace_constant",
+      "pass": true,
+      "evidence": "The entire new chart X<16 a is used on the uniform complex finite connector"
+    },
+    {
+      "name": "true_weighted_raw_width",
+      "pass": true,
+      "evidence": "104768777/400"
+    },
+    {
+      "name": "whole_high_weight_ball_is_inside_KAM",
+      "pass": true,
+      "evidence": "[79544.3186464742567534385199845892199149842 +/- 3.18e-38]"
+    },
+    {
+      "name": "actual_KAM_parameter_units",
+      "pass": true,
+      "evidence": "epsilon/kappa=muKAM*kappa/4096 is used in the actual Gamma units"
+    },
+    {
+      "name": "actual_KAM_complex_image",
+      "pass": true,
+      "evidence": "The much smaller true2^-261923 correction lies strictly inside the original complex Gamma box"
+    },
+    {
+      "name": "actual_high_weight_incoming_exponent",
+      "pass": true,
+      "evidence": "10460912843270461/250000000"
+    },
+    {
+      "name": "actual_high_weight_incoming_reaches_ball",
+      "pass": true,
+      "evidence": "[254820.421702089778582618173715296444948287 +/- 1.31e-37]"
+    },
+    {
+      "name": "actual_high_weight_incoming_derivative",
+      "pass": true,
+      "evidence": "[254820.827167197886747000151728411909297423 +/- 4.42e-37]"
+    },
+    {
+      "name": "actual_joint_feedback_contraction",
+      "pass": true,
+      "evidence": "The full true cap feedback and the actual Gamma-dependent trace map both participate"
+    },
+    {
+      "name": "actual_cap_input_domain",
+      "pass": true,
+      "evidence": "The actual high-width fB is also in the original physical cap half-ball"
+    },
+    {
+      "name": "actual_full_long_angular_slope",
+      "pass": true,
+      "evidence": "65480485625000/6128518156717239"
+    },
+    {
+      "name": "actual_full_long_positive_width",
+      "pass": true,
+      "evidence": "The exact physical cap width is below1/8, for every beta in the claimed interval"
+    },
+    {
+      "name": "actual_combined_kernel_positive",
+      "pass": true,
+      "evidence": "All M>=4 are controlled; increasing M only decreases this quantity"
+    },
+    {
+      "name": "actual_combined_kernel_integral",
+      "pass": true,
+      "evidence": "2048/63"
+    },
+    {
+      "name": "actual_combined_full_Green",
+      "pass": true,
+      "evidence": "16447/63"
+    },
+    {
+      "name": "actual_combined_nonlinear_contraction",
+      "pass": true,
+      "evidence": "The exact complete DQ module bound includes the holonomy mean root"
+    },
+    {
+      "name": "actual_full_inner_response",
+      "pass": true,
+      "evidence": "128/3"
+    },
+    {
+      "name": "actual_full_mean_response",
+      "pass": true,
+      "evidence": "The true mean output is retained separately from every nonzero Fourier mode"
+    },
+    {
+      "name": "actual_wide_incoming_total",
+      "pass": true,
+      "evidence": "Both the nonmean slope and the independent mean flux contribute"
+    },
+    {
+      "name": "actual_wide_mixed_disk",
+      "pass": true,
+      "evidence": "The Cauchy disk is a genuine two-end long-segment disk in the new actual angular norms"
+    },
+    {
+      "name": "actual_full_tail_derivative",
+      "pass": true,
+      "evidence": "Cauchy at radius norm(a) is applied to the complete Gamma-dependent quadratic trace remainder"
+    },
+    {
+      "name": "actual_full_long_self_derivative",
+      "pass": true,
+      "evidence": "The two actual trace maps and the complete long-segment self nonlinearity remain"
+    },
+    {
+      "name": "actual_composite_incoming_derivative",
+      "pass": true,
+      "evidence": "The entire incoming increment, not only g*(f*), is differentiated with the cap feedback"
+    },
+    {
+      "name": "actual_full_derivative_sum",
+      "pass": true,
+      "evidence": "The whole F derivative is bounded in its explicitly narrower physical output space"
+    },
+    {
+      "name": "actual_radial_screening_binary",
+      "pass": true,
+      "evidence": "[1310796.26342395443496607271250940591546999 +/- 1.94e-36]"
+    },
+    {
+      "name": "actual_preconditioner_width_gap",
+      "pass": true,
+      "evidence": "3177/400"
+    },
+    {
+      "name": "actual_preconditioner_binary_gain",
+      "pass": true,
+      "evidence": "[0.578376874802461076224554534382054436602494 +/- 4.63e-44]"
+    },
+    {
+      "name": "actual_all_three_initial_residuals",
+      "pass": true,
+      "evidence": "Full tail, full long self and true mixed terms are all in the actual high-width space"
+    },
+    {
+      "name": "actual_complete_Newton_identity_budget",
+      "pass": true,
+      "evidence": "The true derivative difference times the exact D0 inverse gives the full residual reduction"
+    },
+    {
+      "name": "actual_finite_chain_width",
+      "pass": true,
+      "evidence": "All94 steps remain inside the proved joint-map domain; this is not a mode cutoff"
+    },
+    {
+      "name": "actual_finite_chain_last_residual",
+      "pass": true,
+      "evidence": "A strict nonzero upper bound, not a double-underflow zero"
+    },
+    {
+      "name": "actual_total_update_radius",
+      "pass": true,
+      "evidence": "The entire correction geometric sum is below Ra/8"
+    },
+    {
+      "name": "finite_chain_not_an_infinite_inverse",
+      "pass": true,
+      "evidence": "The fixed loss is recorded explicitly; no infinite Newton convergence is claimed"
+    }
+  ],
+  "actual_beta_initial": 262144,
+  "actual_beta_final": 66624,
+  "actual_full_Newton_steps": 94,
+  "final_residual_log2_upper": -5760041760,
+  "infinite_Newton_convergence_proved": false,
+  "file_sha256": {
+    "results/R119-supplement-joint-KAM-incoming-and-actual-full-Newton-chain.md": "46dc40c62061d443f43758030e9161902f00b51df2724f3112257979fa2cba5f",
+    "scripts/fourfold_joint_KAM_full_Newton_chain_20261113.py": "4b8cf0ab9b40fa82789b6c4a2d56e2906d97a5baee391edb6764e19a71de4cc9",
+    "results/R119-supplement-actual-nonlinear-incoming-reaches-224-labels.md": "c4618e5c380a742adec7e1609ebe8ef02c673321bf6b611ce99a68acfc39dcea",
+    "results/R119-supplement-stronger-tail-joint-actual-return-KAM.md": "143a213914c048141b0c42f72120b903b15fde66fa31234a37196d4c5b6ebc54",
+    "results/R119-supplement-KAM-selected-fixed-reference-and-exact-endpoint-phases.md": "004b9210a856807beb0aeeac62538e8f269eaa1b3872e3282d7cfa728ac0f82d",
+    "results/R119-supplement-retuned-fourth-connector-and-common-bumps.md": "e22a74f54ea1122271e50d2bdcd2ae8db5bc4c28e1e36eaebc35c40f6c3c3752",
+    "results/R119-supplement-stronger-tail-raw-labels-sources-and-regular-boundary.md": "1fe5a4a7e10dfb1362a47d91eb9276ef9499bbc6f57c5c73fdb8fdd7665568ca",
+    "results/R119-supplement-balanced-connector-label-domain-224.md": "aff48a37b08cb41e6eb1ddd8c014687242f744e6cb9e638201c0781df46222d1",
+    "results/R133-supplement-actual-nonlinear-long-tail-screening-and-analytic-gain.md": "c5f3071445c23b146a58abfc69a248d25b5f02c62790d9245c2ac46741f41a1a",
+    "results/R133-supplement-universal-small-inner-periodic-cap.md": "65c04e3fdfe65b04581172b4f4f07bea8d9b795207e09b4bf516eb20c5707e54"
+  }
+}

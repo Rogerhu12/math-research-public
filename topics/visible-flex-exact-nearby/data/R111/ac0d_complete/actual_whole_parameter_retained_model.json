@@ -1,0 +1,84 @@
+{
+  "kind": "actual_complete_parameter_six_dimensional_retained_model",
+  "complete": true,
+  "source_sha256": "c2e007129da4adb3cbdb44b76b1c5457a57edfc3f4a19cb35d3a42dcb4c1bd59",
+  "bits": 256,
+  "exact_center_parameter": "-7789843107295549/4611686018427387904",
+  "exact_parameter_interval": [
+    "-15214546326135873881617/9007199254740992000000000",
+    "-15214528311737364399633/9007199254740992000000000"
+  ],
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "dimension": 6,
+  "physical_cut": "1/4",
+  "input_reports": [
+    {
+      "path": "data/native_core_20261113_ac0d/actual_even_low_paid_core.json",
+      "sha256": "5dcadc902d482f6546d53c62457bcf52029e1e1d81abbc21b8721c9ecd921c89"
+    },
+    {
+      "path": "data/R111/ac0d_complete/complete_cap_parameter_comparison.json.gz",
+      "sha256": "02b2126762e9a3aff3313637aab97d3b7d7081826170e54a4d993e9acd7d9282"
+    }
+  ],
+  "uniform_cap_relative_form_bound": {
+    "ball": "[0.0020000000000000000000000000000000000 +/- 3e-42]",
+    "lower": "[0.0020000000000000000000000000000000000 +/- 3e-42]",
+    "upper": "[0.0020000000000000000000000000000000000 +/- 1e-42]",
+    "mid_float": 0.002,
+    "radius_upper_float": 3.3735033418337674e-80
+  },
+  "complete_cap_norm_upper": {
+    "ball": "[1.1728891892580792323879441176997295 +/- 2.71e-35]",
+    "lower": "[1.1728891892580792323879441176997295 +/- 2.71e-35]",
+    "upper": "[1.1728891892580792323879441176997295 +/- 2.71e-35]",
+    "mid_float": 1.1728891892580793,
+    "radius_upper_float": 0.0
+  },
+  "previously_paid_inverse_upper": {
+    "ball": "[74.708433467141751892660917693043445 +/- 2.85e-34]",
+    "lower": "[74.708433467141751892660917693043445 +/- 2.85e-34]",
+    "upper": "[74.708433467141751892660917693043445 +/- 2.85e-34]",
+    "mid_float": 74.70843346714175,
+    "radius_upper_float": 0.0
+  },
+  "added_true_cap_parameter_fee": {
+    "ball": "[0.0023457783785161584647758882353994591 +/- 4.61e-38]",
+    "lower": "[0.0023457783785161584647758882353994591 +/- 4.61e-38]",
+    "upper": "[0.0023457783785161584647758882353994591 +/- 4.61e-38]",
+    "mid_float": 0.0023457783785161583,
+    "radius_upper_float": 0.0
+  },
+  "new_Banach_product": {
+    "ball": "[0.17524942792003408537505603334944241 +/- 1.65e-36]",
+    "lower": "[0.17524942792003408537505603334944241 +/- 1.65e-36]",
+    "upper": "[0.17524942792003408537505603334944241 +/- 1.65e-36]",
+    "mid_float": 0.1752494279200341,
+    "radius_upper_float": 0.0
+  },
+  "entire_actual_parameter_family_retained_model_certified": true,
+  "retained_model_inverse_upper": {
+    "ball": "[90.583063530022255465563087309488559 +/- 4.07e-34]",
+    "lower": "[90.583063530022255465563087309488559 +/- 4.07e-34]",
+    "upper": "[90.583063530022255465563087309488559 +/- 4.07e-34]",
+    "mid_float": 90.58306353002226,
+    "radius_upper_float": 0.0
+  },
+  "remaining_absolute_retained_error_allowance": {
+    "ball": "[0.011039591299189903968972226267575773 +/- 9.59e-38]",
+    "lower": "[0.011039591299189903968972226267575773 +/- 9.59e-38]",
+    "upper": "[0.011039591299189903968972226267575773 +/- 9.59e-38]",
+    "mid_float": 0.011039591299189903,
+    "radius_upper_float": 0.0
+  },
+  "original_cap_radius_not_paid_twice": true,
+  "grounded_paired_cap_injection_is_exact_isometry": true,
+  "paired_angular_mean_retained": true,
+  "paired_regular_trace_and_flux_retained": true,
+  "full_cap_response_in_retained_inputs": true,
+  "omitted_core_height_channels_paid": false,
+  "infinite_high_feedback_paid": false,
+  "rigorous_full_Schur_inverse": false,
+  "nonlinear_family_complete": false,
+  "scope": "Exact coefficients and the whole real parameter interval in the six-dimensional retained model. The core is the certified finite angular ODE; its omitted-channel residuals and the full infinite feedback are separate obligations. The complete positive cap response and genuine Robin/regular ports are retained."
+}

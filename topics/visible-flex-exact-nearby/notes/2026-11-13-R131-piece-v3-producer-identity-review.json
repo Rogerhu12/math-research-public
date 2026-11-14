@@ -1,0 +1,50 @@
+{
+  "kind": "R131_complete_piece_producer_metadata_correction_actual_review",
+  "mathematical_propagation_unchanged": true,
+  "original_frozen_sources_unchanged": true,
+  "complete_native_flags_still_required": true,
+  "both_original_producer_kinds_exercised": true,
+  "comparisons": [
+    {
+      "new": "notes/2026-11-13-R131-batched-piece-v3-batch-first-C0-native.json.gz",
+      "previous": "notes/2026-11-13-Codazzi-positive-weight-batched-s10-first-C0-native.json.gz",
+      "exactly_equal_fields": [
+        "tube_results",
+        "initial_actual_weighted_derivative",
+        "passed_tubes",
+        "best_certified_tube",
+        "exact_requested_interval",
+        "full_BC_candidate_sha256",
+        "full_weight_candidate_sha256"
+      ],
+      "all_equal": true,
+      "original_producer": "fourfold_codazzi_positive_weight_batched_native.py",
+      "original_source_sha256": "369cb177be97cfc39765fc8902cda7ca74bca0384c8185967dd98f337d5df2f0"
+    },
+    {
+      "new": "notes/2026-11-13-R131-batched-piece-v3-original-first-C0-native.json.gz",
+      "previous": "notes/2026-11-13-R131-positive-weight-piece-first-C0-native.json.gz",
+      "exactly_equal_fields": [
+        "tube_results",
+        "initial_actual_weighted_derivative",
+        "passed_tubes",
+        "best_certified_tube",
+        "exact_requested_interval",
+        "full_BC_candidate_sha256",
+        "full_weight_candidate_sha256"
+      ],
+      "all_equal": true,
+      "original_producer": "fourfold_codazzi_positive_weight_cubic_native.py",
+      "original_source_sha256": "d467ee2b62c32365c98526fd06a1c0752f4538483a630a62124ace472c75da5c"
+    }
+  ],
+  "source_diff": "--- fourfold_codazzi_positive_weight_batched_piece_C0.py\n+++ fourfold_codazzi_positive_weight_batched_piece_C0_v3.py\n@@ -39,10 +39,10 @@\n     checked_inputs={};checked_dependencies={}\n     for path in paths:\n         d=read_json(path)\n-        name=NATIVE_SOURCES.get(d.get('kind'))\n-        if name is None:raise ValueError('unrecognized original complete cubic-weight producer')\n-        producer_hash=sha(Path(__file__).with_name(name))\n-        producer_hashes[name]=producer_hash\n+        producer_name=NATIVE_SOURCES.get(d.get('kind'))\n+        if producer_name is None:raise ValueError('unrecognized original complete cubic-weight producer')\n+        producer_hash=sha(Path(__file__).with_name(producer_name))\n+        producer_hashes[producer_name]=producer_hash\n         if 'small_batch' in d['kind'] and (d.get('maximum_polynomials_per_angular_batch')!=8\n                 or not d.get('all_original_columnwise_operations_retained')):\n             raise ValueError('complete original small-batch contract missing')\n@@ -82,7 +82,7 @@\n             rows.append(item);cursor=hi;partition+=1\n         if cursor!=end:raise ValueError('piece endpoint is not its actual completed endpoint')\n         summaries.append(dict(path=str(path),sha256=sha(path),original_kind=d['kind'],\n-            original_producer=name,original_source_sha256=producer_hash,\n+            original_producer=producer_name,original_source_sha256=producer_hash,\n             original_partition_first=d['original_partition_first'],\n             planned_boxes=d['planned_boxes'],exact_requested_interval=d['exact_requested_interval'],\n             bits=d['bits'],angular_grid=d['angular_grid'],product_grid=d['product_grid']))\n@@ -136,12 +136,13 @@\n     results={tube:propagate(data,initial_gradient,tube) for tube in data['tubes']}\n     passed=[tube for tube,result in results.items() if result['passed']]\n     best=min(passed,key=lambda tube:upper(results[tube]['maximum_actual_C0'])) if passed else None\n-    dependencies=('fourfold_codazzi_positive_weight_cubic_C0.py',\n+    dependencies=('fourfold_codazzi_positive_weight_batched_piece_C0.py',\n+        'fourfold_codazzi_positive_weight_cubic_C0.py',\n         'fourfold_codazzi_positive_weight_piece_C0.py','fourfold_codazzi_positive_weight_batched_native.py',\n         'fourfold_codazzi_positive_weight_cubic_native.py',\n         'fourfold_codazzi_linear_degeneracy_v2.py','fourfold_codazzi_linear_degeneracy.py',\n         'fourfold_phase_two_jet_newton_source.py','fourfold_phase_beta_bulk_interval.py')\n-    out=dict(kind='R131_true_C0_continuation_from_checked_complete_cubic_weight_pieces_v2',\n+    out=dict(kind='R131_true_C0_continuation_from_checked_complete_cubic_weight_pieces_v3',\n         complete=True,continuation_certified=bool(passed),closed_surface_complete=False,\n         source_sha256=sha(__file__),bits=args.bits,\n         inputs={str(path):sha(path) for path in args.native_parts+[args.initial]},\n",
+  "sha256": {
+    "scripts/fourfold_codazzi_positive_weight_batched_piece_C0_v3.py": "ac17ab3b683337d64c327dc5df690c27f0086334ab2b83bfba7a5e7206566e70",
+    "notes/2026-11-13-R131-batched-piece-v3-batch-first-C0-native.json.gz": "ad7c592206818dd4df98e01aeb8b8dd813b54f5136f0cf6b207b515fcc0f1dc5",
+    "notes/2026-11-13-R131-batched-piece-v3-original-first-C0-native.json.gz": "48dc0404301407283134438f311795f2fe58135e98d8572c4fc9230842687834",
+    "scripts/fourfold_codazzi_positive_weight_batched_piece_C0.py": "de8bb109898f8cc39ce2f41233f78f11338fbbaec575b5266b9839107774387f",
+    "notes/2026-11-13-Codazzi-positive-weight-batched-s10-first-C0-native.json.gz": "700880488456554b7855c0f802eeb7608ac97fb72f308114910820ccb312c946",
+    "notes/2026-11-13-R131-positive-weight-piece-first-C0-native.json.gz": "32669a36185d820801a3ca52ef7396e0aaf2d8c471e0b5ce0186d481b7880dd4"
+  }
+}

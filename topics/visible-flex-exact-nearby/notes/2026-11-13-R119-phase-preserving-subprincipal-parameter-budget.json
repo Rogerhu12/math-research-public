@@ -1,0 +1,164 @@
+{
+  "passed": true,
+  "gate_count": 23,
+  "gates": [
+    {
+      "name": "full_strict_phase_integration_by_parts",
+      "passed": true,
+      "detail": "fp = reduced + d(sqrt(Q)/2-Q'/(8Q^(3/2)))"
+    },
+    {
+      "name": "exact_phase_Euler_density",
+      "passed": true,
+      "detail": "-3*sqrt(q)/16 - 1/(8*sqrt(q)) + 1/(16*q**(3/2)) + qpp/(16*q**(5/2)) - 5*qp**2/(64*q**(7/2))"
+    },
+    {
+      "name": "old_whole_cover_positive_Q",
+      "passed": true,
+      "detail": "all 2048 closed physical subintervals"
+    },
+    {
+      "name": "old_whole_cover_positive_Q_x",
+      "passed": true,
+      "detail": "all actual parameter intervals"
+    },
+    {
+      "name": "new_whole_cover_positive_Q",
+      "passed": true,
+      "detail": "all 2048 closed physical subintervals"
+    },
+    {
+      "name": "new_whole_cover_positive_Q_x",
+      "passed": true,
+      "detail": "all actual parameter intervals"
+    },
+    {
+      "name": "T1_lower",
+      "passed": true,
+      "detail": "[0.086 +/- 5.13e-4]"
+    },
+    {
+      "name": "T1_upper",
+      "passed": true,
+      "detail": "[0.086 +/- 5.13e-4]"
+    },
+    {
+      "name": "T2_lower",
+      "passed": true,
+      "detail": "[0.059 +/- 4.47e-4]"
+    },
+    {
+      "name": "T2_upper",
+      "passed": true,
+      "detail": "[0.059 +/- 4.47e-4]"
+    },
+    {
+      "name": "B1_complete_interval",
+      "passed": true,
+      "detail": "[-0.022 +/- 1.96e-4]"
+    },
+    {
+      "name": "B2_complete_interval",
+      "passed": true,
+      "detail": "[-0.009 +/- 6.08e-4]"
+    },
+    {
+      "name": "true_phase_Jacobian_determinant",
+      "passed": true,
+      "detail": "[0.0006 +/- 7.04e-5]"
+    },
+    {
+      "name": "normalized_inverse_fee",
+      "passed": true,
+      "detail": "max inverse column < 512"
+    },
+    {
+      "name": "principal_preserving_curve_slope",
+      "passed": true,
+      "detail": "[0.69 +/- 7.84e-3]"
+    },
+    {
+      "name": "subprincipal_curve_derivative",
+      "passed": true,
+      "detail": "[0.007 +/- 8.78e-4]"
+    },
+    {
+      "name": "minimum_actual_log_drop",
+      "passed": true,
+      "detail": "Delta_2 > 2+(2/3)*130-9/2 > 80; Delta_1 is larger"
+    },
+    {
+      "name": "minimum_actual_B",
+      "passed": true,
+      "detail": "sqrt(12)*Delta/eta > 240*2^(3*129/2+2) > 2^190"
+    },
+    {
+      "name": "full_phase_adjustment_range",
+      "passed": true,
+      "detail": "B>2^190 makes sqrt(B)*2^-39 strictly greater than 2^56"
+    },
+    {
+      "name": "unit_phase_parameter_size",
+      "passed": true,
+      "detail": "unit first-phase shift costs < 2^8/sqrt(B) < 2^-87"
+    },
+    {
+      "name": "new_jet_budget_through_three",
+      "passed": true,
+      "detail": "old gamma_1 radius 2^-18 plus new radius 2^-30*4^k fits old 2^-16 jets, k<=3"
+    },
+    {
+      "name": "bump_end_jets_zero",
+      "passed": true,
+      "detail": "both endpoint jets 0,1,2 vanish exactly"
+    },
+    {
+      "name": "bump_integrals_exact",
+      "passed": true,
+      "detail": "integrals 2/35 and 1/70 on the two actual supports"
+    }
+  ],
+  "coverage": {
+    "cells_per_support": 2048,
+    "Delta": "[80,infinity)",
+    "B": "(2^190,infinity)",
+    "gamma1": "[-2^-16,2^-16]",
+    "gamma2": "[-2^-30,2^-30]",
+    "method": "complete interval ranges on each closed subinterval; shared parameters enclosed, no samples"
+  },
+  "integrals": [
+    {
+      "name": "old",
+      "closed_cells": 2048,
+      "support_left": "0.250000000000000000000000000000000000000000000000000000000",
+      "support_length": "0.125000000000000000000000000000000000000000000000000000000",
+      "gamma_radius": "1.52587890625000000000000000000000000000000000000000000000e-5",
+      "T_sqrtB_dTheta": "[0.086 +/- 5.13e-4]",
+      "B_dphase_over_sqrtB": "[-0.022 +/- 1.96e-4]",
+      "ratio_B_over_T": "[-0.25 +/- 7.57e-3]",
+      "geometric_integral": "[0.7 +/- 0.0433]",
+      "main_integral": "[-0.0220 +/- 9.29e-5]"
+    },
+    {
+      "name": "new",
+      "closed_cells": 2048,
+      "support_left": "0.187500000000000000000000000000000000000000000000000000000",
+      "support_length": "0.0312500000000000000000000000000000000000000000000000000000",
+      "gamma_radius": "9.31322574615478515625000000000000000000000000000000000000e-10",
+      "T_sqrtB_dTheta": "[0.059 +/- 4.47e-4]",
+      "B_dphase_over_sqrtB": "[-0.009 +/- 6.08e-4]",
+      "ratio_B_over_T": "[-0.14 +/- 8.29e-3]",
+      "geometric_integral": "[1.8 +/- 0.0774]",
+      "main_integral": "[-0.0087 +/- 4.19e-5]"
+    }
+  ],
+  "Jacobian_determinant": "[0.0006 +/- 7.04e-5]",
+  "scope": "actual radial compact first-phase variation; no nonradial full-return inverse or new-tail chart transfer",
+  "file_sha256": {
+    "results/R119-supplement-actual-phase-preserving-subprincipal-metric-parameter.md": "7852f8b4ba2043663aee289a4f6631bbb4dc302d10c4a015e5e54149d0e3ac95",
+    "scripts/fourfold_phase_preserving_subprincipal_parameter_20261113.py": "d97afddd4328e42a71c4703773012c35d2473932084f289b5c88498346cae22c",
+    "results/R119-supplement-stronger-tail-joint-actual-return-KAM.md": "143a213914c048141b0c42f72120b903b15fde66fa31234a37196d4c5b6ebc54",
+    "results/R119-supplement-uniform-frequency-reference-Airy-Cauchy.md": "d116f9cf80740a5468d1b6addac8097891838b9f47ac28af667501b5ef6017fc",
+    "results/R119-supplement-actual-negative-band-metric-parameters.md": "3139d06c6628df7d248bd3fcd0c842837edcde840f12ba383a9a99397ffbb361"
+  }
+}

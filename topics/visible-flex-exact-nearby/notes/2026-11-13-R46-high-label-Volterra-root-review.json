@@ -1,0 +1,30 @@
+{
+  "kind": "root_complete_fixed_label_high_Volterra_review",
+  "complete": true,
+  "native_recomputed": true,
+  "whole_math_json_identical_except_seconds": true,
+  "native_sha256": "49bdf86b4803c057fb3b3c141bbeb6687da32092496dba77fb12f69343134ad4",
+  "input_and_source_sha256_checks": {
+    "notes/2026-11-13-R46-native-WKB-full-strict-fields-v2.json.gz": true,
+    "notes/2026-11-13-R46-complete-density-transport-bootstrap.json": true,
+    "notes/2026-11-13-R46-windowed-density-strong-budget.json": true,
+    "scripts/fourfold_phase_beta_bulk_interval.py": true,
+    "scripts/fourfold_phase_root_fourier_fit.py": true,
+    "scripts/fourfold_negative_collar_root_fourier_budget.py": true,
+    "scripts/fourfold_negative_canonical_cancellation_chart.py": true,
+    "scripts/fourfold_negative_root_physical_graph_operator.py": true,
+    "scripts/fourfold_strict_high_energy_triangular.py": true,
+    "scripts/fourfold_actual_label_high_density_volterra.py": true
+  },
+  "manual_checks": [
+    "exact density pullback removes actual principal transport",
+    "two independent mean rows derived before projection",
+    "rightmost D inverse gains only in actual fixed input label",
+    "complete 215 cell kappa=Fcal/mu integral, including reflected half",
+    "finite Bell density matrices retain the leading positive Jacobian quotient",
+    "all higher Sobolev constants by lower-order mild bootstrap",
+    "ordinary physical dr source, low-height drive and all three high-to-head columns",
+    "full u,p reconstruction retains physical shear"
+  ],
+  "scope": "Complete infinite interior high evolution for a prescribed complete low history. Returned feedback inverse, head closure and fixed positive angular weight are not granted."
+}

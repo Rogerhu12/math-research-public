@@ -1,0 +1,115 @@
+{
+  "kind": "exact_rational_finite_polynomial_Wiener_budget",
+  "polynomials_file": "type_fixed_step02_d5_actual_Newton128_dyadic_H.json",
+  "polynomials_sha256": "9f5449fcb628492c26b8b968080b12d12c6bc91f6e60ddb6cf941501915598d6",
+  "source_conjugacy_sha256": "89050b15a3ba4a40ec5a0d367e803c86dc9498eaae00b2a96e23212a43f2bc90",
+  "Hprime_at_zero_numerator": "447515013157449763341440",
+  "Hprime_at_zero_denominator_power_of_two": 80,
+  "polynomial_degree": 64,
+  "inverse_test_degree": 512,
+  "exp_majorant_order": 80,
+  "bounds": [
+    {
+      "width_numerator": 1,
+      "width_denominator": 128,
+      "h_Wiener_upper": {
+        "numerator": "748807164068301696",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 0.6494866832444499
+      },
+      "Hprime_Wiener_upper": {
+        "numerator": "2936260742090526145",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 2.546800220446759
+      },
+      "q_Wiener_upper": {
+        "numerator": "4345311731714375997",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.7689571357211813
+      },
+      "product_residual_Wiener_upper": {
+        "numerator": "1019610",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 8.843707016703562e-13
+      },
+      "exact_rational_Neumann_test_passed": true,
+      "Hprime_at_zero_positive": true,
+      "inverse_Hprime_Wiener_upper": {
+        "numerator": "4345311731718218861",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.768957135724514
+      },
+      "strictly_positive_on_whole_real_circle_proved": true
+    },
+    {
+      "width_numerator": 1,
+      "width_denominator": 64,
+      "h_Wiener_upper": {
+        "numerator": "763579618511463155",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 0.662299745004625
+      },
+      "Hprime_Wiener_upper": {
+        "numerator": "3161664832820851221",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 2.7423071043323093
+      },
+      "q_Wiener_upper": {
+        "numerator": "4698445054466542062",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 4.07525146828512
+      },
+      "product_residual_Wiener_upper": {
+        "numerator": "58083467",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 5.037937688551209e-11
+      },
+      "exact_rational_Neumann_test_passed": true,
+      "Hprime_at_zero_positive": true,
+      "inverse_Hprime_Wiener_upper": {
+        "numerator": "4698445054703246792",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 4.075251468490428
+      },
+      "strictly_positive_on_whole_real_circle_proved": true
+    },
+    {
+      "width_numerator": 1,
+      "width_denominator": 32,
+      "h_Wiener_upper": {
+        "numerator": "799948048825162572",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 0.6938443299294255
+      },
+      "Hprime_Wiener_upper": {
+        "numerator": "3872846658608904798",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 3.3591590087736014
+      },
+      "q_Wiener_upper": {
+        "numerator": "6036723798257484697",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 5.23602324541257
+      },
+      "product_residual_Wiener_upper": {
+        "numerator": "218304997726",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 1.8934940223917787e-07
+      },
+      "exact_rational_Neumann_test_passed": true,
+      "Hprime_at_zero_positive": true,
+      "inverse_Hprime_Wiener_upper": {
+        "numerator": "6036724941307743812",
+        "denominator_power_of_two": 60,
+        "floating_upper_display": 5.236024236850629
+      },
+      "strictly_positive_on_whole_real_circle_proved": true
+    }
+  ],
+  "proof_method": "exact integer convolution; ceil integer square roots; rational Taylor exponential majorant; Wiener Neumann series",
+  "limitations": [
+    "H is the explicitly defined dyadic polynomial, not an inferred exact conjugacy",
+    "no bound on actual map E0, parameter twist, P/Q/T/B supplied here",
+    "no actual map reflection, interpolation, ODE, or PDE scattering error paid"
+  ]
+}

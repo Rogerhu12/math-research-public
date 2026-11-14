@@ -1,0 +1,244 @@
+{
+  "schema": "visible-exact-R119-negative-band-metric-parameters-v1",
+  "scope": "The actual infinite two-parameter-per-cell target-metric family, fixed endpoint jets, true zero-label negative-band two-ray return and a nonzero quantitative rotation derivative; no nonradial return or fixed-target inverse is inferred.",
+  "inputs": {
+    "first_cell": 129,
+    "parameters_per_cell": 2,
+    "parameter_radius": "1/65536",
+    "phase_window": "2^-25 sqrt(eta_j/Delta_jk)",
+    "file_sha256": {
+      "results/R69-actual-closed-approximate-exterior-and-two-held-disks.md": "c1c33adcf81b6546b68b0f7a6c1ded7ae1c56b35dfb279c7abd1496798dad6de",
+      "results/R119-supplement-actual-speed-hodograph-and-quadratic-scalar-phase.md": "9fed57edb94a4b837389567de5c489098fd31fa272940030227baa2998f2e9cf",
+      "results/R119-supplement-actual-positive-band-two-end-dn-and-ordinary-source.md": "501f0813575c071d1586b412873ae2c43022a955c04d870f41d21c448ce38484",
+      "results/R119-supplement-actual-negative-band-metric-parameters.md": "3139d06c6628df7d248bd3fcd0c842837edcde840f12ba383a9a99397ffbb361",
+      "scripts/fourfold_negative_band_metric_parameters_20261113.py": "1772dbe4eefcd95627faf65d8fbb6f1d0c4637aab5c1aef343d23ffa4090fb39"
+    }
+  },
+  "checks": [
+    {
+      "name": "bump_full_endpoint_two_jets",
+      "pass": true,
+      "evidence": "The bump and its first two derivatives vanish at both endpoints"
+    },
+    {
+      "name": "bump_exact_integral",
+      "pass": true,
+      "evidence": "The actual time integral is 2 eta/(35 sqrt(12))"
+    },
+    {
+      "name": "bump_exact_first_derivative",
+      "pass": true,
+      "evidence": "z(1-z)<=1/4 and |1-2z|<=1 give |B'|<=12"
+    },
+    {
+      "name": "bump_exact_second_derivative",
+      "pass": true,
+      "evidence": "|1-5z(1-z)|<=1 gives |B''|<=96"
+    },
+    {
+      "name": "bump_rescaling_first_derivative",
+      "pass": true,
+      "evidence": "The support interval has length 1/8"
+    },
+    {
+      "name": "bump_rescaling_second_derivative",
+      "pass": true,
+      "evidence": "The full second derivative is retained"
+    },
+    {
+      "name": "bump_amplitude_bound",
+      "pass": true,
+      "evidence": "B=64[z(1-z)]^3 lies in [0,1]"
+    },
+    {
+      "name": "quintic_first_derivative_endpoints",
+      "pass": true,
+      "evidence": "S' is increasing on this interval because S''>0"
+    },
+    {
+      "name": "quintic_second_derivative_endpoints",
+      "pass": true,
+      "evidence": "S'' decreases because S'''=60(6x^2-6x+1)<0 on [1/4,3/8]"
+    },
+    {
+      "name": "quintic_second_derivative_positive",
+      "pass": true,
+      "evidence": "Strict lower and upper bounds hold on the complete support"
+    },
+    {
+      "name": "quintic_third_derivative_sign",
+      "pass": true,
+      "evidence": "S''' is negative and decreasing throughout the support"
+    },
+    {
+      "name": "actual_support_profile_values",
+      "pass": true,
+      "evidence": "The perturbation is strictly separated from both profile endpoint levels"
+    },
+    {
+      "name": "log_two_exact_series_upper",
+      "pass": true,
+      "evidence": "log(2)=2 sum_{n>=0} 3^(-2n-1)/(2n+1), with a geometric upper remainder"
+    },
+    {
+      "name": "log_twelve_half_lower",
+      "pass": true,
+      "evidence": "e<3 implies log(25/2)>2"
+    },
+    {
+      "name": "log_twelve_half_upper",
+      "pass": true,
+      "evidence": "The positive exponential partial sum proves log(25/2)<3"
+    },
+    {
+      "name": "log_sixtyfive_upper",
+      "pass": true,
+      "evidence": "The positive exponential partial sum proves log(65)<5"
+    },
+    {
+      "name": "all_layer_Delta_lower",
+      "pass": true,
+      "evidence": "The linear lower envelope has slope 2/3>1/2 for every j>=129"
+    },
+    {
+      "name": "all_layer_Delta_upper",
+      "pass": true,
+      "evidence": "The larger falling jump has upper envelope (3/2)j+11<3j"
+    },
+    {
+      "name": "actual_type_preservation",
+      "pass": true,
+      "evidence": "|gamma psi_t|/(-A)<=96 |gamma|/Delta"
+    },
+    {
+      "name": "actual_time_derivative_preservation",
+      "pass": true,
+      "evidence": "Delta>1 makes the actual ratio strictly smaller than 1/32"
+    },
+    {
+      "name": "reference_rotation_derivative_lower",
+      "pass": true,
+      "evidence": "sqrt(12)<4, 3^(3/2)<6 and (sqrt(12))^(3/2)<8"
+    },
+    {
+      "name": "reference_rotation_derivative_upper",
+      "pass": true,
+      "evidence": "(sqrt(12))^(5/2)>9"
+    },
+    {
+      "name": "full_parameter_lower_factor",
+      "pass": true,
+      "evidence": "(31/32)(32/33)^(3/2)>1/2"
+    },
+    {
+      "name": "full_parameter_upper_factor",
+      "pass": true,
+      "evidence": "(33/32)(32/31)^(3/2)<2"
+    },
+    {
+      "name": "actual_phase_window",
+      "pass": true,
+      "evidence": "The strict derivative bound places the closed target window in the interior image"
+    },
+    {
+      "name": "actual_squared_phase_window",
+      "pass": true,
+      "evidence": "kappa^2=2^-50 eta/Delta"
+    },
+    {
+      "name": "all_layer_phase_square_lower",
+      "pass": true,
+      "evidence": "sqrt(2)<2 and Delta<3j"
+    },
+    {
+      "name": "all_layer_phase_square_upper",
+      "pass": true,
+      "evidence": "sqrt(2)>1 and Delta>j/2 make the actual upper bound strict"
+    },
+    {
+      "name": "actual_r_coordinate_first_bump_fee",
+      "pass": true,
+      "evidence": "sqrt(12)<4 and 4 sqrt(2)<6"
+    },
+    {
+      "name": "actual_r_coordinate_second_bump_fee",
+      "pass": true,
+      "evidence": "Includes the derivative of the 1/r coordinate factor"
+    },
+    {
+      "name": "actual_log_profile_first_derivative_fee",
+      "pass": true,
+      "evidence": "The complete log derivative is below 2^8 L delta^-3/2"
+    },
+    {
+      "name": "actual_log_profile_second_derivative_fee",
+      "pass": true,
+      "evidence": "The complete log second derivative is below 2^13 L delta^-3"
+    },
+    {
+      "name": "actual_reference_first_jet_fee",
+      "pass": true,
+      "evidence": "The r^-7 term is retained"
+    },
+    {
+      "name": "actual_reference_second_jet_fee",
+      "pass": true,
+      "evidence": "w_rr=w[(log w)_r^2+(log w)_rr]"
+    },
+    {
+      "name": "actual_parameter_second_difference_fee",
+      "pass": true,
+      "evidence": "All four product-rule terms are paid before passing to the infinite flat limit"
+    },
+    {
+      "name": "actual_flat_limit_all_jets",
+      "pass": true,
+      "evidence": "Every C2 tail exponent remains positive"
+    },
+    {
+      "name": "actual_time_bump_derivative_fee",
+      "pass": true,
+      "evidence": "384 sqrt(24)<1920"
+    },
+    {
+      "name": "actual_physical_added_curvature_fee",
+      "pass": true,
+      "evidence": "The physical w/a factor is included"
+    },
+    {
+      "name": "actual_physical_curvature_relative_fee",
+      "pass": true,
+      "evidence": "The old R69 tail bound contains the extra logarithmic factor L_128>=1"
+    },
+    {
+      "name": "actual_exponential_curvature_fee",
+      "pass": true,
+      "evidence": "e^rg<=(1-rg)^-1"
+    },
+    {
+      "name": "actual_full_physical_curvature_margin",
+      "pass": true,
+      "evidence": "The bound covers every ramp, platform, seam and the actual flat limit"
+    },
+    {
+      "name": "actual_metric_source_identity",
+      "pass": true,
+      "evidence": "This is a metric-change source, not a homogeneous Jacobi direction"
+    }
+  ],
+  "all_pass": true,
+  "claims": {
+    "actual_profile_family": true,
+    "all_endpoint_two_jets_fixed": true,
+    "all_positive_reference_forms_unchanged": true,
+    "infinite_parameter_C2_continuity": true,
+    "real_zero_label_two_ray_rotation_transversality": true,
+    "complete_mean_height_output_retained": true,
+    "ordinary_metric_parameter_source_retained": true,
+    "uniform_nonlinear_label_chart": false,
+    "nonradial_rotation_number_transversality": false,
+    "complete_mixed_return_KAM": false,
+    "old_R74_critical_fourth_line_preserved": false,
+    "topic_completion": false
+  }
+}

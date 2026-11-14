@@ -1,0 +1,48 @@
+{
+  "kind": "floating_actual_cap_full_Fourier_moments_for_primal_and_complementary_spaces",
+  "complete": true,
+  "rigorous_integrals": false,
+  "source_sha256": "4d20d2a8f6d71ebaf9b61aac23770ace273ecf14912a9ea4109df58406dc80da",
+  "source_dependency_sha256": {
+    "fourfold_phase_cap_low_schur.py": "3e026d619911b3b9716064908d0312de71de7433778643e25231a997b74fc54e"
+  },
+  "primal_report_path": "notes/2026-11-12-actual-cap-low-Schur-M4.json",
+  "primal_report_sha256": "19f3478e21f21bdd15808adeb54e5a41033039615884453a581937927e940b7e",
+  "object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "physical_radial_interval": [
+    "1/4",
+    "25/8"
+  ],
+  "primitive_nodes": 512,
+  "angular_nodes": 512,
+  "radial_gauss_order": 4,
+  "max_lag": 32,
+  "max_radial_power": 6,
+  "radial_elements": 72,
+  "coordinate": "t=(r-left)/(right-left) separately on each saved FE element",
+  "moment_order": [
+    "cell",
+    "B or inverse B",
+    "11,12,22",
+    "radial power 0..6",
+    "Fourier lag"
+  ],
+  "exact_tail_input_sha256": {
+    "notes/2026-11-12-positive-family-natural-graft.json": "d56b7229439ade268b647f17a10f84ba662e02bcb9597f983d2c604fe765fa27",
+    "notes/2026-11-12-actual-exterior-robin-certificate.json": "c5645727cf5a382bb45aa002f36eafe80cdd7c17ffdc56f7bbec2e224684c958",
+    "notes/2026-11-12-common-core-exterior-parameter-interval.json": "23d1062d080cd875e69a32ba76f45080990a9d41c29094eb3e00ad01d7593af0"
+  },
+  "coefficient_calls": 5400,
+  "CPU_seconds": 23.979862419,
+  "wall_seconds": 179.60716180200325,
+  "scope": "Floating actual-geometry moments; exact infinite primitive, angular alias, quadrature and arithmetic fees remain separate.",
+  "arrays": {
+    "path": "notes/2026-11-12-actual-cap-Fourier-moment-cache.npz",
+    "sha256": "d0e88e1c27e184f15f0bc925e0ea5e5575e8ab870952419fba49436058c14041",
+    "bytes": 2650411
+  }
+}

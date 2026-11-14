@@ -1,0 +1,37 @@
+{
+  "kind": "independent_two_cell_direct_N_crosscheck_of_R55_factor_certificate",
+  "inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "reviewed_certificate_sha256": "538c3edbd89c2e322f5921ab62f08ff9f12dece2d878d19014daa2db6d866b28",
+  "factor_source_sha256": "a46b455229d801df057acd10695c8621c72f73719806b8e41e05475b1f2fe460",
+  "independent_source_sha256": "f489e86dadf7d013d5044fa3b7588b9699268f2db3923d80419a811cb077b40b",
+  "rows": [
+    {
+      "index": 0,
+      "interval": [
+        0.0,
+        0.00045259580718443065
+      ],
+      "factor_replay_exactly_matches": true,
+      "factor_lower": 0.37235144337277765,
+      "factor_N_upper": -0.3513630993203974,
+      "independent_direct_Nraw_upper": -0.4092286858100226,
+      "independent_direct_N_upper": -0.3452939996973072,
+      "independent_direct_zeta_lower": 0.8821798170383778,
+      "independent_direct_gate_passed": true
+    },
+    {
+      "index": 587,
+      "interval": [
+        0.23837921545746676,
+        0.23881882318620012
+      ],
+      "factor_replay_exactly_matches": true,
+      "factor_lower": 0.5693547278452904,
+      "factor_N_upper": -0.3542277152526637,
+      "independent_direct_Nraw_upper": -0.7625399193136492,
+      "independent_direct_N_upper": -0.5633855743747147,
+      "independent_direct_zeta_lower": 0.7613061826031026,
+      "independent_direct_gate_passed": true
+    }
+  ]
+}

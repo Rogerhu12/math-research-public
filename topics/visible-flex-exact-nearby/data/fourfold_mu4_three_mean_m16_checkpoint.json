@@ -1,0 +1,31 @@
+{
+  "status": "floating partial Newton state; not an exact isometry or closed fixed-cap solution",
+  "file": "fourfold_mu4_three_mean_m16_checkpoint.npz",
+  "bytes": 338966,
+  "sha256": "d24b96dce2afff3753c231e73014b67ba12cb38247f1994f1590c7e1c8264aaf",
+  "physical_epsilon": 0.05,
+  "mu": "4*sqrt(2)",
+  "highest_retained_angular_mode": 64,
+  "radial_points": 401,
+  "radial_half_interval": [
+    0,
+    3
+  ],
+  "actual_spline_metric_residual_sample": 0.0001452102774507983,
+  "retained_metric_coefficient_residual_including_outer_xx": 2.913060388847831e-08,
+  "outer_xx_coefficient_uses_robin_replacement": true,
+  "mean_parameters": [
+    0.627962702180312,
+    -0.002304156696820625,
+    -0.050150394773617164
+  ],
+  "evaluator": "load_series(file); make_candidate(series,1.0,order=1); evaluate_candidate(...)",
+  "limitations": [
+    "ordinary floating arithmetic",
+    "finite radial Robin endpoint",
+    "finite angular Newton equations",
+    "metric samples are not continuous bounds",
+    "no true nonlinear fixed caps",
+    "no exact visible flex proof"
+  ]
+}

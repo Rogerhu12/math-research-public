@@ -1,0 +1,22 @@
+{
+  "kind": "actual_complete_parameter_endpoint_and_full_return_KAM",
+  "source_sha256": "c39260f74d0d871c7767185c9f5429021779204647ebba358bb8f580547ca105",
+  "actual_R31_accepted": false,
+  "complete_true_center_return": false,
+  "complete_true_uniform_parameter_box": false,
+  "bits": 320,
+  "stage": "checking_complete_input",
+  "dependency_sha256": {
+    "fourfold_parameter_endpoint_spatial_v2.py": "0f652c9d397ea3e91f1c293bec09e4006e71bbef3c29bbff5fb06234ba5b32fe",
+    "fourfold_parameter_endpoint_kam.py": "434c0a5eae829b9b2e3bddd52ad894efbc3eea37d19166605bb7ebdcc369fbf7",
+    "fourfold_parameter_sharp_spatial.py": "edc7198a70c123f9c3e535ba0e1bd2f97b928f22b2946405f60a38d3176b8ea4",
+    "fourfold_forward_endpoint_bound_v3.py": "6f1e440ca3b1b877eea55d623a65fe16664d6a592c9f4ed56c6f3dda939801d0",
+    "fourfold_half_return_predictor.py": "979fca3db747e78c233ebec4086d0b87d984e11abf087e5fa963cf4aab668622",
+    "fourfold_retarget_reference_segment_package.py": "3863aae2e5259d17023d6ba3a8cfc3e55bbf8fef431803dca27ccec140e1d0b2",
+    "fourfold_spatial_derivative_defect_budget.py": "ed2a43049c290aa95c74c5580bc6da3c432c374b24eb43203319ac5fb47fe4cc",
+    "fourfold_parameter_ordered_defect.py": "c9998ab78eb93cb42e1b94b854f482d4a80840f57810f862fc17e940d0219e49"
+  },
+  "failure": "ValueError: complete same-object actual center chronological data required",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_actual_parameter_endpoint_kam.py\", line 118, in main\n    center,Wc,Mc,Ec,Jc=load_chronological(args.center,descriptor_sha,delta,'center')\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_actual_parameter_endpoint_kam.py\", line 52, in load_chronological\n    raise ValueError('complete same-object actual '+scope+' chronological data required')\nValueError: complete same-object actual center chronological data required\n",
+  "wall_seconds": 0.06944027800273034
+}

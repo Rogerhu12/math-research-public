@@ -1,0 +1,346 @@
+{
+  "kind": "frozen_R95_cut_lift_complete_outer_body_and_paid_inner_prefix",
+  "files": [
+    {
+      "path": "results/R95-quarter-cut-full-cap-lifts-and-dual-gap-contact.md",
+      "sha256": "473a37507fc1ec2db2c252c2132617daf394f7bd912a3822bc9f1d8b0a5163da",
+      "bytes": 10059
+    },
+    {
+      "path": "scripts/fourfold_phase_cut_cap_lift.py",
+      "sha256": "bc9c6d63a9c3600ae04b9426a1c82ce02e37f96217f87d3492940bf7b5e5a162",
+      "bytes": 12066
+    },
+    {
+      "path": "notes/2026-11-12-actual-quarter-cut-cap-lift.json",
+      "sha256": "a2cd3fd74dbbdedd514b2401616240a5c87bee5b98acd0f5e526e447e3bc718c",
+      "bytes": 136084
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_native_cover.py",
+      "sha256": "ab6ae83d7814cc8da8c8708931ecdbdb5865d6bba9c06e4607e330d8ec9b3d9a",
+      "bytes": 13328
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_native_cover_v2.py",
+      "sha256": "8525697b5250b19480bd7d7cd22e5dfb5e3706f0e1db9ee3ed5ab90bce68b14b",
+      "bytes": 16189
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_energy_collect.py",
+      "sha256": "e15fd40314ecd539c7e162041de70f18e7bae153e244fbc4e6df82e39107b11f",
+      "bytes": 12290
+    },
+    {
+      "path": "scripts/fourfold_phase_cap_correlated_curvature.py",
+      "sha256": "36bc53c0a2ef93db56d1979ce265dbe31283ce318b666faa2bd1dbf3c966f4fe",
+      "bytes": 2915
+    },
+    {
+      "path": "notes/2026-11-12-cap-adaptive-native-energy-and-assembly.md",
+      "sha256": "6a8979f9ad3c0407e5064b16611f6af94e0d3ff87c212a78df411e7f9694ba79",
+      "bytes": 9297
+    },
+    {
+      "path": "notes/2026-11-12-cap-native-grid256-first-quarter.json",
+      "sha256": "14861e9c690cd98ab7c22fcd75660305984df5de91c467adff19a9b2728f6f96",
+      "bytes": 25953
+    },
+    {
+      "path": "notes/2026-11-12-cap-correlated-curvature-domain.json",
+      "sha256": "0945f0cfe7ac512322cdde44db9d45582b7b8ee7e3910374f9b42360925ced56",
+      "bytes": 3712
+    },
+    {
+      "path": "notes/2026-11-12-cap-native-narrower-strip-domain.json",
+      "sha256": "6e94c21707a26298be20cd08c2182b57f69cc7d86a75c83e2d88ee55168fec42",
+      "bytes": 3102
+    },
+    {
+      "path": "data/cap_physical4_energy/native_prefix_before_narrow_strip.json.gz",
+      "sha256": "e2e1ff8f440c744047e2b6b8dd8fea61e822869c2b1a1eaee8b73b7bd0a9c8c9",
+      "bytes": 93830
+    },
+    {
+      "path": "data/cap_physical4_energy/body_native_0250_0800_narrow/element_000.json.gz",
+      "sha256": "8d653a5db31216f2bf1c07df1a644864cdf4da5510d1a46eaab27715d3cbe1b4",
+      "bytes": 133128
+    },
+    {
+      "path": "data/cap_physical4_energy/body_native_0250_0800_narrow/element_001.json.gz",
+      "sha256": "9d876f8899241f37ae883a242c5de67ded20ca6832a5929c9e7ea0f420a7c651",
+      "bytes": 64930
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0800_3000/manifest.json",
+      "sha256": "4062ceb00f454fe92f69d51466163b6d1fa99970084449a66ecde310a22012e5",
+      "bytes": 3978
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0800_3000/element_020.json.gz",
+      "sha256": "d476c789f5d31ed1a6e27ff6915b6ec07603154ef2e70c63b9d6b1648cc73f50",
+      "bytes": 146080
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0800_3000/element_021.json.gz",
+      "sha256": "fe9ca869f6b86141b6183b45bd6be82426957608a228f076f5e4607a9cf1fa70",
+      "bytes": 130194
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/manifest.json",
+      "sha256": "2ec5b8b1b9d62d1251448e5e796103b44d5e5f23c9225eaf6f588c0e1fef4afd",
+      "bytes": 43091
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_022.json.gz",
+      "sha256": "9578473b175b6deacf5f647ec5236591a57442878b75f5fe0a5ab0e32cc83773",
+      "bytes": 146967
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_023.json.gz",
+      "sha256": "da06deb7e4cf44e770c1c56cc0d85b41b5d67516892180887d8f3004237e138b",
+      "bytes": 136304
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_024.json.gz",
+      "sha256": "2576ce15d380cde1ce6d71a44e8d20dd2e1b6c920ed06cba300b5628a206c8ce",
+      "bytes": 130860
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_025.json.gz",
+      "sha256": "3e63c195921f5b1d5bd728b56e156ee20518e434b5192da0e978ceeb1cf26194",
+      "bytes": 136292
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_026.json.gz",
+      "sha256": "c1a03d9805c77e963894c89b897e21f14de6678a858325654057e300f5862225",
+      "bytes": 131031
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_027.json.gz",
+      "sha256": "4925d11fac679ac0eff0086f097b454dbd7937a303e7e63a5a4a3d9b597df99f",
+      "bytes": 136293
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_028.json.gz",
+      "sha256": "d35d00bd572200a39dcde2b8168fbc41711aaf35c9c2296a9486ddbafe0f122a",
+      "bytes": 120232
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_029.json.gz",
+      "sha256": "50b850d4a28158402b28c4452ca184e2a9596e1e065c79ad17be69d7932865a3",
+      "bytes": 131463
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_030.json.gz",
+      "sha256": "1f09d8ce3b7266af397d1b19bb40519a7bc928b60d77411830e6e95040cdc313",
+      "bytes": 136904
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_031.json.gz",
+      "sha256": "a4fbf655d8be2dd814eaec820c67f0a4300c7fe3db812b0fdf79f687d4f159b9",
+      "bytes": 136812
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_032.json.gz",
+      "sha256": "af7078eb85604f70e4b7238efd6f6b65b3cfcaee9ee45de2663966895c67567b",
+      "bytes": 125634
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_033.json.gz",
+      "sha256": "6a9d25d98ec88d7e34a40fea381bb37915e3ce9ede7eb5c9c28b1fcd44353be9",
+      "bytes": 130932
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_034.json.gz",
+      "sha256": "bac248195ff0ad954721c3418057e9de6d62797b18c13a6f8ccc0ba890116020",
+      "bytes": 120187
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_035.json.gz",
+      "sha256": "7607adc21b1619311d7078c6f74b1d935fbd5155910e2c1567225d0e02ed2d82",
+      "bytes": 130674
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_036.json.gz",
+      "sha256": "a9ab1ff81f404abdc897f4324a568ea6e6f53d043c830eec6e55f8532c749e43",
+      "bytes": 130416
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_037.json.gz",
+      "sha256": "ea70ab2c7ad5afb7a53fba860c6bf238ed3dbebb64871ed0642216b97974495a",
+      "bytes": 130026
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_038.json.gz",
+      "sha256": "315e19490eeb8310624d2a71e2fb8844fc9a4ea9f63fb65e74f149f666604951",
+      "bytes": 124755
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_039.json.gz",
+      "sha256": "dcb46e785a6075d135f21f62ff9a0a83394674763b2e7b8985d7a348dfef4669",
+      "bytes": 119304
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_040.json.gz",
+      "sha256": "1cf6f8e15f362419ea802d9714971ff39bd1344a53f07563cc96c0a2967262af",
+      "bytes": 124731
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_041.json.gz",
+      "sha256": "1fa779ea4924efa24d40abb0b6aac125c153ead70bfaa4fa9ab91ccab1bd68f4",
+      "bytes": 119518
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_042.json.gz",
+      "sha256": "76ca3bef767e339f3dd8334ba48295faaf42e6911f0b93e1572bea1d0901c195",
+      "bytes": 124328
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_043.json.gz",
+      "sha256": "fc71b6690e143bbc7aece6fbf8f82a9dbf5b90f3c7580602d0c3fe9f51bc9c94",
+      "bytes": 124540
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_044.json.gz",
+      "sha256": "bfbf32a020c00cc6a70b70c9be4aa5f792a69256117ec0a54d2fc31383d355e0",
+      "bytes": 119004
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_045.json.gz",
+      "sha256": "d158afa081839d7979cd21f62e00bad1c0cdcb01a8995e53cdf05fe0268309e7",
+      "bytes": 119059
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_046.json.gz",
+      "sha256": "a46f20f24aff0149a39efb2bf7a9444f2de4f564f8e83e846a3a289b497ef0fc",
+      "bytes": 135650
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_047.json.gz",
+      "sha256": "42a215ed7703335185cec3e6397471fda5f47476e284236dcaa6feec9bec46a2",
+      "bytes": 113973
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_048.json.gz",
+      "sha256": "1c271e921e64cbb91ce469761d0b29fcc77661c63c2a6592ab8e62d8f3563532",
+      "bytes": 130526
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_049.json.gz",
+      "sha256": "b6eaabb957a68e76a1a91c02b23b0c7c0c648ed72e09e8a4a8524003c2e25e3c",
+      "bytes": 113860
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_050.json.gz",
+      "sha256": "bb49c582dc3d39771ccc89aa9c77baffde27bd1a67f3aeff25f4f287d14daf84",
+      "bytes": 119626
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_051.json.gz",
+      "sha256": "ef2cc96c6827b4639df3a0f7e3314850b586b311afbd48b8a95e7515016eace7",
+      "bytes": 135944
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_052.json.gz",
+      "sha256": "58c3d665f691264fed0e43a0d838c6ca3508ac048240298fb390dab4ba7dee17",
+      "bytes": 114114
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_053.json.gz",
+      "sha256": "977625a8655a6db6c29023c3281bdc5ca20dcb911d9bf4dcb2b874284284092f",
+      "bytes": 130111
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_054.json.gz",
+      "sha256": "5633dee4f30970608f8634ab70ff95bdfac9128501bf554bd87f92e0c6c2d056",
+      "bytes": 114107
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_055.json.gz",
+      "sha256": "13a5fdf2124b83176e2d939868a792c7d232e8f0b6b2b8c85eb979f5550c9593",
+      "bytes": 119702
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_056.json.gz",
+      "sha256": "5682bf2dad0d03b1bc4cef6e16a7021742ad26111b9491893c3fb6e2596745ba",
+      "bytes": 125067
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_057.json.gz",
+      "sha256": "1674b7b23cd7f6b574478531a34c6e46799aa449ab531477c4fb569871525361",
+      "bytes": 119660
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_058.json.gz",
+      "sha256": "54a8e55ec8644bf8bb9493fbff79b5a4cf675344a23c8a7ce8fdec6982916172",
+      "bytes": 124881
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_059.json.gz",
+      "sha256": "3f06a8c0fb8eb08864e012f9dd448c55cfd6d9ac07b253a6b42d0a4e71a131ce",
+      "bytes": 114256
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_060.json.gz",
+      "sha256": "64ffb7a77a367453014b0870ae35971961f5ede5fba06b87d0848a5eb66f5d3e",
+      "bytes": 119468
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_061.json.gz",
+      "sha256": "06adf4ff7c0bb7fdf3e4f8ca20f68370bad2763c67e0c820705f1ec13053e843",
+      "bytes": 114130
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_062.json.gz",
+      "sha256": "897ec4f9300f2b5c5e6fa5d37adf809fd57321c52caf3471015daa14ec41c580",
+      "bytes": 114028
+    },
+    {
+      "path": "data/cap_physical4_energy/body_wiener_0900_3000_vector/element_063.json.gz",
+      "sha256": "ad8450dbe5fee542a4862592ef55a52567b9466b8f8ed6d99d8625aef25ccaff",
+      "bytes": 114175
+    }
+  ],
+  "file_count": 60,
+  "total_bytes": 6119770,
+  "complete_outer_body": {
+    "elements": [
+      20,
+      64
+    ],
+    "exact_radial_interval": [
+      "7205759403792793/9007199254740992",
+      "3"
+    ],
+    "primal_operator_error_sum": {
+      "ball": "[7.4920285098960881562177286954723425e-5 +/- 2.23e-40]",
+      "lower": "[7.4920285098960881562177286954723425e-5 +/- 2.23e-40]",
+      "upper": "[7.4920285098960881562177286954723425e-5 +/- 2.23e-40]",
+      "mid_float": 7.492028509896089e-05,
+      "radius_upper_float": 0.0
+    },
+    "dual_operator_error_sum": {
+      "ball": "[7.5749268495972606849111333885167434e-5 +/- 6.34e-41]",
+      "lower": "[7.5749268495972606849111333885167434e-5 +/- 6.34e-41]",
+      "upper": "[7.5749268495972606849111333885167434e-5 +/- 6.34e-41]",
+      "mid_float": 7.57492684959726e-05,
+      "radius_upper_float": 0.0
+    },
+    "closed_interval_count": 1018
+  },
+  "complete_inner_elements": [
+    0,
+    1
+  ],
+  "R95_scope": "Actual H^(1/2) interface r=1/4; full uncompressed exterior, regular mean and exact 34-by-10 dual trace. Full actual trial gap not yet paid.",
+  "exclusions": [
+    "live native inner manifest and incomplete elements",
+    "regenerable floating moment cache arrays",
+    "full-cap finite compression output, still awaiting inner elements 2..19"
+  ],
+  "failed_or_unused_evidence": [
+    "The correlated-curvature probe did not fix the large disk and is not used by the running cover.",
+    "The old wide-strip native prefix is reused only interval by interval with its original complete errors."
+  ]
+}

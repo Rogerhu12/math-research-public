@@ -1,0 +1,65 @@
+{
+  "kind": "independent_complete_beta_derivative_flat_cover_and_transfer",
+  "complete": true,
+  "bits": 256,
+  "source_sha256": "ee4a770044f8cf134b6fa859ccaa411df77bf14ed05ec5e18b1667afa3bdb120",
+  "arithmetic_helper_sha256": "b25427cff460952efeee10eeb70a40a704ea5e63b988da2f6b2ad604fd6802d0",
+  "original_report_sha256": "9d64d4ba9993febcc4e8bf387ea0503672ce968cb6674bdb1fab5fb70a8cbeb8",
+  "source_provenance": [
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-refined-part00.json",
+      "sha256": "e4a4308e67c054ee8769cef7e9429c1960c72442dd7112ebe63d7ccc71f8448a",
+      "source": "fourfold_phase_beta_derivative_bulk_refined.py",
+      "source_sha256": "a643f46b5231b79f005c9d714292485e9f03f5318f9061d95d39de59d10f5842",
+      "accepted_subcells": 111,
+      "failed_subcells": 0
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-refined-part02.json",
+      "sha256": "1c553509cc4d810731ddcbea14586afddd1d56f365882389a99b53b858c972f1",
+      "source": "fourfold_phase_beta_derivative_bulk_refined.py",
+      "source_sha256": "a643f46b5231b79f005c9d714292485e9f03f5318f9061d95d39de59d10f5842",
+      "accepted_subcells": 38,
+      "failed_subcells": 0
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-part01.json",
+      "sha256": "b6121595cb477b88abdd8ca89f2b9a4eddae0e4fb1bc11192b053c2ea49b5ef2",
+      "source": "fourfold_phase_beta_derivative_bulk.py",
+      "source_sha256": "28f0989aaab52e858bbe10d9e8b004f205e6e60669ec9a7c965b6c9072e97f52",
+      "accepted_subcells": 155,
+      "failed_subcells": 27
+    },
+    {
+      "path": "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-refined-last.json",
+      "sha256": "4a105da4ee9333b4929caeda13b64088a1c85b22c39def31b8d725daee24efc8",
+      "source": "fourfold_phase_beta_derivative_bulk_refined.py",
+      "source_sha256": "a643f46b5231b79f005c9d714292485e9f03f5318f9061d95d39de59d10f5842",
+      "accepted_subcells": 18,
+      "failed_subcells": 0
+    }
+  ],
+  "exact_spans": 167,
+  "leaves": 265,
+  "complete_spans_by_source": {
+    "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-refined-part00.json": 56,
+    "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-refined-part02.json": 28,
+    "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-part01.json": 81,
+    "notes/2026-11-12-beta-step3-true-derivative-bulk-h1e5-refined-last.json": 2
+  },
+  "bulk_upper": "62452383022873958206457557368274120807721140820958946717042155048871014608061/28269553036454149273332760011886696253239742350009903329945699220681916416",
+  "finite_part_collar_absolute_upper": "100147272758277164930588999904285252302643622762432559299360563408965627295979/226156424291633194186662080095093570025917938800079226639565593765455331328",
+  "beta_derivative_absolute_upper": "74970792117658603822781182356309777345551593666263016629462225474991718020059/56539106072908298546665520023773392506479484700019806659891398441363832832",
+  "beta": {
+    "lower_exact": "66960205911785051253327919637914654061631795721053777787399623483951216019011/1809251394333065553493296640760748560207343510400633813116524750123642650624",
+    "upper_exact": "67014918750705994629927249393633490794615771153333849649049713211808926047709/1809251394333065553493296640760748560207343510400633813116524750123642650624",
+    "lower_display": "[37.00989598323246048743586823771317369229574618136131902928428529890886929807 +/- 3.58e-75]",
+    "upper_display": "[37.04013657837159640125976371160118721970425352585451140964351002495922984164 +/- 1.01e-75]"
+  },
+  "odd_norm_gap_lower": "31545975414818394361884641472666916842748638143764107412612040303521824844883/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+  "beta_lattice_gap_lower": "88641853119625938480151918776919119622936057149479980331434387354655657828325/463168356949264781694283940034751631413079938662562256157830336031652518559744",
+  "delta4_exact": "-7789866024620307/4611686018427387904",
+  "delta4_symmetric_parameter_margin": "1216276553891359/1801439850948198400000",
+  "delta4_plus_minus_5e7_inside": true,
+  "limitation": "Arithmetic/coverage audit; underlying analytic box enclosures and finite-part identity have separate source reviews."
+}

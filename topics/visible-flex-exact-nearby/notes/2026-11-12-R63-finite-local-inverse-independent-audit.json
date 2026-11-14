@@ -1,0 +1,82 @@
+{
+  "kind": "independent_R63_integer_and_directed_budget_audit",
+  "proved": true,
+  "source_sha256": "6308748d20ff758b12019b79f59b75045765eec7850152274562b7ac8058b60c",
+  "budget_sha256": "c51f2ec11c380cde346dec8ea2d93e77859bc9dce9b7a415fcdbc461ed347612",
+  "working_precision": 256,
+  "finite_budgets": [
+    {
+      "polynomials": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_dyadic_H.json",
+      "polynomials_sha256": "028a95679f5c6e6ff6438b539c9c427f745f976a4dbc70b46c0bb01dd0f4fb49",
+      "integer_convolution_sha256": "839c7100e686e258548ffa4afe500d982617c658f713bd5dcc9d5e53d00eb5b4",
+      "exact_Hprime_at_zero": "216233119690224216887711/604462909807314587353088",
+      "checks": {
+        "product_error": true,
+        "q_norm": true,
+        "inverse_Hprime_bound": true,
+        "Hsecond_on_enlarged_strip": true,
+        "contraction_bound": true,
+        "perturbed_inverse_bound": true,
+        "admissible_error_is_conservative": true,
+        "exact_orientation_matches": true,
+        "Neumann_and_contraction": true
+      },
+      "independent_256bit_display": {
+        "product_error": 1.1016055093366437e-13,
+        "q_norm": 3.520124844497763,
+        "inverse_Hprime_bound": 3.520124844498151,
+        "Hsecond_on_enlarged_strip": 16.354386788931567,
+        "contraction_bound": 0.05756948325225034,
+        "perturbed_inverse_bound": 3.7351558358337256
+      },
+      "admissible_error_display": 0.00014204041677143495
+    },
+    {
+      "polynomials": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_dyadic_H.json",
+      "polynomials_sha256": "8bd6078f8c442b48bab2b15850b99e2455d616ab48e687abb22114a1f1bfe39b",
+      "integer_convolution_sha256": "6c871cf83988470d0f871ab896089dfc7430d3a41d84744bd49c4e2596ae563c",
+      "exact_Hprime_at_zero": "28341884695378347760598686075/79228162514264337593543950336",
+      "checks": {
+        "product_error": true,
+        "q_norm": true,
+        "inverse_Hprime_bound": true,
+        "Hsecond_on_enlarged_strip": true,
+        "contraction_bound": true,
+        "perturbed_inverse_bound": true,
+        "admissible_error_is_conservative": true,
+        "exact_orientation_matches": true,
+        "Neumann_and_contraction": true
+      },
+      "independent_256bit_display": {
+        "product_error": 1.2866050001585132e-13,
+        "q_norm": 3.520010321155342,
+        "inverse_Hprime_bound": 3.520010321155795,
+        "Hsecond_on_enlarged_strip": 16.356316429049354,
+        "contraction_bound": 0.057574402646343815,
+        "perturbed_inverse_bound": 3.7350538133090097
+      },
+      "admissible_error_display": 0.00014204503804858876
+    }
+  ],
+  "endpoint_factors": [
+    {
+      "gap": "1/512",
+      "proved": true,
+      "factor_display": 31.98439153842077
+    },
+    {
+      "gap": "1/256",
+      "proved": true,
+      "factor_display": 22.605366711558066
+    },
+    {
+      "gap": "1/128",
+      "proved": true,
+      "factor_display": 15.968882500417513
+    }
+  ],
+  "limitations": [
+    "This audits finite H/q inputs only, not the actual return error.",
+    "No actual KAM or isometric-family conclusion follows."
+  ]
+}

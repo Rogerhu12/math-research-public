@@ -1,0 +1,727 @@
+{
+  "execution": {
+    "implementation_blob": "7c755bb3e713e3a38124436d7d0a5a0abcb004b3",
+    "engine": "functions.exec V8",
+    "executed_on": "2026-11-14",
+    "arithmetic": "exact BigInt rationals and Laurent polynomials",
+    "claim": "new JavaScript implementation actually evaluated; not an original Python/native replay"
+  },
+  "computation": {
+    "schema": "R119-controlled-profile-full-label-exact-v1",
+    "date": "2026-11-14",
+    "computation": "new V8 JavaScript; exact BigInt rational and Laurent-polynomial gates",
+    "dependencies": {
+      "new_proof_blob": "0c8c70a954f01399d06394c1865ce64610a26ea2",
+      "phase_preserving_control_blob": "5214cfffb5d16f3aebb0105af8aab14b2b5188b1",
+      "stronger_local_map_blob": "cb2db7a4d9593e75e96344b1c2557fd1a38a0e03",
+      "stronger_full_label_blob": "c8bb47e46fcfa26fa05da0825a597529b2e43dd0",
+      "stronger_raw_source_blob": "472372b0ff0f49580013ad5a473e3f37e5e7d5a1",
+      "original_R72_blob": "a7c78793ba18724a4f0553b6ccd55259b8f4df92",
+      "two_parameter_tail_reconstruction_blob": "a76cb5bb70bd0d2e5a5a48967b16679ef8ed4170"
+    },
+    "scope": {
+      "new_profile": "j>=8193; two true downward slides and C4 compact shapes; exact unchanged endpoints",
+      "all_modes": "real high blocks retained; same Mhat, complete local nonlinear map and all internal labels",
+      "mean": "complete holonomy-one mean and independent height; weak total flux and two source components",
+      "excluded": "whole nonlinear far F, nonlinear moving-middle Schur, original same-weight full internal Green"
+    },
+    "first_layer_binary_bounds": {
+      "beta_over_h": "-1557243/256",
+      "high_negative_log2": "61087/64",
+      "green_error_log2": "-29487/8",
+      "local_radius_ratio_log2": "-5040575/256",
+      "full_nonlinear_factor_log2": "-2501469/128"
+    },
+    "gates_count": 86,
+    "all_passed": true,
+    "gates": [
+      {
+        "name": "support_after_old_bumps",
+        "passed": true,
+        "detail": {
+          "left": "3/8",
+          "relation": "lt",
+          "right": "7/16"
+        }
+      },
+      {
+        "name": "Sprime_lower_on_J",
+        "passed": true,
+        "detail": {
+          "left": "7/4",
+          "relation": "lt",
+          "right": "59535/32768"
+        }
+      },
+      {
+        "name": "Ssecond_lower_on_J",
+        "passed": true,
+        "detail": {
+          "left": "7/8",
+          "relation": "lt",
+          "right": "3825/4096"
+        }
+      },
+      {
+        "name": "Sthird_negative_left",
+        "passed": true,
+        "detail": {
+          "left": "-915/32",
+          "relation": "lt",
+          "right": "0"
+        }
+      },
+      {
+        "name": "Sthird_negative_right",
+        "passed": true,
+        "detail": {
+          "left": "-3795/128",
+          "relation": "lt",
+          "right": "0"
+        }
+      },
+      {
+        "name": "support_away_from_peak",
+        "passed": true,
+        "detail": {
+          "left": "15/32",
+          "relation": "lt",
+          "right": "1/2"
+        }
+      },
+      {
+        "name": "peak_gap",
+        "passed": true,
+        "detail": {
+          "left": "1/128",
+          "relation": "lt",
+          "right": "7665/524288"
+        }
+      },
+      {
+        "name": "shape_cannot_change_monotonicity",
+        "passed": true,
+        "detail": {
+          "left": "1/1048576",
+          "relation": "lt",
+          "right": "57351/16"
+        }
+      },
+      {
+        "name": "complex_slide_keeps_short_platform",
+        "passed": true,
+        "detail": {
+          "left": "7/8",
+          "relation": "le",
+          "right": "7/8"
+        }
+      },
+      {
+        "name": "short_generator_low_window",
+        "passed": true,
+        "detail": {
+          "left": "1/134217728",
+          "relation": "le",
+          "right": "1/134217728"
+        }
+      },
+      {
+        "name": "exponential_small_argument",
+        "passed": true,
+        "detail": {
+          "left": "1/134217728",
+          "relation": "lt",
+          "right": "1/2"
+        }
+      },
+      {
+        "name": "short_insertion_uses_full_ordered_product",
+        "passed": true,
+        "detail": {
+          "left": "1024",
+          "relation": "le",
+          "right": "1024"
+        }
+      },
+      {
+        "name": "three_platform_telescope_coefficient",
+        "passed": true,
+        "detail": {
+          "left": "4205/192",
+          "relation": "lt",
+          "right": "32"
+        }
+      },
+      {
+        "name": "complete_matrix_error_below_2pow267",
+        "passed": true,
+        "detail": {
+          "left": "118571099379011784113736688648896417641759353333357407607235394011540861334061056",
+          "relation": "lt",
+          "right": "237142198758023568227473377297792835283496928595231875152809132048206089502588928"
+        }
+      },
+      {
+        "name": "same_2pow272_error_preserved",
+        "passed": true,
+        "detail": {
+          "left": "237142198758023568227473377297792835283496928595231875152809132048206089502588928",
+          "relation": "lt",
+          "right": "7588550360256754183279148073529370729071901715047420004889892225542594864082845696"
+        }
+      },
+      {
+        "name": "relative_cone_error_preserved",
+        "passed": true,
+        "detail": {
+          "left": "1/2048",
+          "relation": "eq",
+          "right": "1/2048"
+        }
+      },
+      {
+        "name": "interior_Gauss_full_product",
+        "passed": true,
+        "detail": {
+          "left": "128/3",
+          "relation": "lt",
+          "right": "4096"
+        }
+      },
+      {
+        "name": "interior_flow_safe_prefactor",
+        "passed": true,
+        "detail": {
+          "left": "43556142965880123323311949751266331066368/3",
+          "relation": "lt",
+          "right": "1393796574908163946345982392040522594123776"
+        }
+      },
+      {
+        "name": "homogeneous_five_derivative_fee",
+        "passed": true,
+        "detail": {
+          "left": "100000",
+          "relation": "lt",
+          "right": "131072"
+        }
+      },
+      {
+        "name": "finite_contraction",
+        "passed": true,
+        "detail": {
+          "left": "1/134217728",
+          "relation": "eq",
+          "right": "1/134217728"
+        }
+      },
+      {
+        "name": "mean_compressed_inverse_relative",
+        "passed": true,
+        "detail": {
+          "left": "1/47890485652059026823698344598447161988085597568237568",
+          "relation": "eq",
+          "right": "1/47890485652059026823698344598447161988085597568237568"
+        }
+      },
+      {
+        "name": "finite_quadratic_exponent",
+        "passed": true,
+        "detail": {
+          "left": "494",
+          "relation": "lt",
+          "right": "496"
+        }
+      },
+      {
+        "name": "full_nonlinear_coefficient_margin",
+        "passed": true,
+        "detail": {
+          "left": "496",
+          "relation": "lt",
+          "right": "512"
+        }
+      },
+      {
+        "name": "correction_physical_binary_margin",
+        "passed": true,
+        "detail": {
+          "left": "236",
+          "relation": "lt",
+          "right": "240"
+        }
+      },
+      {
+        "name": "correction_angle_conversion_margin",
+        "passed": true,
+        "detail": {
+          "left": "246",
+          "relation": "lt",
+          "right": "248"
+        }
+      },
+      {
+        "name": "correction_actual_relative_ball",
+        "passed": true,
+        "detail": {
+          "left": "5/40564819207303340847894502572032",
+          "relation": "lt",
+          "right": "1/4000000"
+        }
+      },
+      {
+        "name": "correction_Cauchy_ratio_exponent",
+        "passed": true,
+        "detail": {
+          "left": "79",
+          "relation": "eq",
+          "right": "79"
+        }
+      },
+      {
+        "name": "correction_Cauchy_ratio_small",
+        "passed": true,
+        "detail": {
+          "left": "-19405921/2",
+          "relation": "lt",
+          "right": "-1"
+        }
+      },
+      {
+        "name": "physical_Ctwo_prefactor_margin",
+        "passed": true,
+        "detail": {
+          "left": "200",
+          "relation": "le",
+          "right": "200"
+        }
+      },
+      {
+        "name": "log2_integer_endpoint_for_Jplus47",
+        "passed": true,
+        "detail": {
+          "left": "14",
+          "relation": "lt",
+          "right": "8193/128"
+        }
+      },
+      {
+        "name": "log2_integer_monotonicity_for_Jplus47",
+        "passed": true,
+        "detail": {
+          "left": "384",
+          "relation": "lt",
+          "right": "16480"
+        }
+      },
+      {
+        "name": "actual_beta_over_h_binary_bound",
+        "passed": true,
+        "detail": {
+          "left": "-1557243/256",
+          "relation": "lt",
+          "right": "-6082"
+        }
+      },
+      {
+        "name": "1024_beta_paid",
+        "passed": true,
+        "detail": {
+          "left": "-1554683/256",
+          "relation": "lt",
+          "right": "0"
+        }
+      },
+      {
+        "name": "strong_radial_constant_absorbed",
+        "passed": true,
+        "detail": {
+          "left": "126000",
+          "relation": "lt",
+          "right": "131136"
+        }
+      },
+      {
+        "name": "high_cap_negative_term_binary",
+        "passed": true,
+        "detail": {
+          "left": "954",
+          "relation": "lt",
+          "right": "61087/64"
+        }
+      },
+      {
+        "name": "high_cap_positive_log",
+        "passed": true,
+        "detail": {
+          "left": "307866",
+          "relation": "lt",
+          "right": "17179869184"
+        }
+      },
+      {
+        "name": "high_cap_net_contraction",
+        "passed": true,
+        "detail": {
+          "left": "-152270531428124985630521599810549817357441044649921992607311038393952323293225407851025235404406410300395389316115760440366549529143798344477781051504885209680176214061819891091731088367032088255512493648112787169901337467584294921027286931491702587700433418798504336673153571701443788798",
+          "relation": "lt",
+          "right": "0"
+        }
+      },
+      {
+        "name": "high_frequency_derivative_gate",
+        "passed": true,
+        "detail": {
+          "left": "1248",
+          "relation": "lt",
+          "right": "9516908214257811601907599988159363584840065290620124537956939899622020205826587990689077212775400643774711832257235027522909345571487396529861315719055325605011013378863743193233193022939505515969530853007049198118833591724018432564205433218231411731277088674906521042072098232413978624"
+        }
+      },
+      {
+        "name": "high_layer_derivative_gate",
+        "passed": true,
+        "detail": {
+          "left": "39/1024",
+          "relation": "lt",
+          "right": "15/256"
+        }
+      },
+      {
+        "name": "new_low_Green_error",
+        "passed": true,
+        "detail": {
+          "left": "-29487/8",
+          "relation": "lt",
+          "right": "-3600"
+        }
+      },
+      {
+        "name": "normalized_low_error_positive_decay",
+        "passed": true,
+        "detail": {
+          "left": "0",
+          "relation": "lt",
+          "right": "15/32"
+        }
+      },
+      {
+        "name": "old_prefix_still_controls_Green",
+        "passed": true,
+        "detail": {
+          "left": "78119/3125000",
+          "relation": "lt",
+          "right": "1/32"
+        }
+      },
+      {
+        "name": "Galerkin_log_integer_endpoint",
+        "passed": true,
+        "detail": {
+          "left": "14",
+          "relation": "lt",
+          "right": "4099/256"
+        }
+      },
+      {
+        "name": "Galerkin_log_integer_monotonicity",
+        "passed": true,
+        "detail": {
+          "left": "1536",
+          "relation": "lt",
+          "right": "16396"
+        }
+      },
+      {
+        "name": "both_global_factors_radius_gate",
+        "passed": true,
+        "detail": {
+          "left": "-5040575/256",
+          "relation": "lt",
+          "right": "-19689"
+        }
+      },
+      {
+        "name": "both_global_factors_nonlinear_gate",
+        "passed": true,
+        "detail": {
+          "left": "-2501469/128",
+          "relation": "lt",
+          "right": "-19542"
+        }
+      },
+      {
+        "name": "radius_deep_layer_derivative",
+        "passed": true,
+        "detail": {
+          "left": "-63719/512",
+          "relation": "lt",
+          "right": "-124"
+        }
+      },
+      {
+        "name": "nonlinear_deep_layer_derivative",
+        "passed": true,
+        "detail": {
+          "left": "-15929/128",
+          "relation": "lt",
+          "right": "-124"
+        }
+      },
+      {
+        "name": "Ctwo_flat_exponent",
+        "passed": true,
+        "detail": {
+          "left": "0",
+          "relation": "lt",
+          "right": "32507/256"
+        }
+      },
+      {
+        "name": "reference_square_relative_deep_exponent",
+        "passed": true,
+        "detail": {
+          "left": "104",
+          "relation": "lt",
+          "right": "26747/256"
+        }
+      },
+      {
+        "name": "full_relative_sum_only_added_16_bits",
+        "passed": true,
+        "detail": {
+          "left": "16",
+          "relation": "eq",
+          "right": "16"
+        }
+      },
+      {
+        "name": "raw_extra_fee_polynomial_at_600",
+        "passed": true,
+        "detail": {
+          "left": "60300000",
+          "relation": "lt",
+          "right": "67108864"
+        }
+      },
+      {
+        "name": "raw_extra_fee_is_tiny",
+        "passed": true,
+        "detail": {
+          "left": "1/99361157907245371849534687261600163536440705095468583112899330433667260971928120725176218165033374588831214764616388685194981122823348121052434385602635592909085118465334393955216978280422300468816831948397854000057142198644227702784",
+          "relation": "lt",
+          "right": "1/1000"
+        }
+      },
+      {
+        "name": "raw_old_plus_new_cost",
+        "passed": true,
+        "detail": {
+          "left": "1019120093/32768000",
+          "relation": "lt",
+          "right": "32"
+        }
+      },
+      {
+        "name": "raw_new_allowance_dominates_exact_terms",
+        "passed": true,
+        "detail": {
+          "left": "88896",
+          "relation": "lt",
+          "right": "100000"
+        }
+      },
+      {
+        "name": "raw_new_constant_dominates_exact_terms",
+        "passed": true,
+        "detail": {
+          "left": "251328",
+          "relation": "lt",
+          "right": "300000"
+        }
+      },
+      {
+        "name": "raw_Mstar_log_greater_than_600",
+        "passed": true,
+        "detail": {
+          "left": "600",
+          "relation": "lt",
+          "right": "1969/3"
+        }
+      },
+      {
+        "name": "geometric_width_denominator",
+        "passed": true,
+        "detail": {
+          "identity": "2*(511/512)^256>1"
+        }
+      },
+      {
+        "name": "all_actual_angle_width_sum",
+        "passed": true,
+        "detail": {
+          "left": "5857793/16384",
+          "relation": "lt",
+          "right": "358"
+        }
+      },
+      {
+        "name": "raw404_actual_total",
+        "passed": true,
+        "detail": {
+          "left": "161577/400",
+          "relation": "lt",
+          "right": "404"
+        }
+      },
+      {
+        "name": "fourth_full_prefix_contraction_exponent",
+        "passed": true,
+        "detail": {
+          "left": "-193532",
+          "relation": "eq",
+          "right": "-193532"
+        }
+      },
+      {
+        "name": "mean_total_flux_constant",
+        "passed": true,
+        "detail": {
+          "left": "8192",
+          "relation": "le",
+          "right": "8192"
+        }
+      },
+      {
+        "name": "mean_height_slope_constant",
+        "passed": true,
+        "detail": {
+          "left": "4194304",
+          "relation": "eq",
+          "right": "4194304"
+        }
+      },
+      {
+        "name": "mean_direct_source_constant",
+        "passed": true,
+        "detail": {
+          "left": "384",
+          "relation": "lt",
+          "right": "8192"
+        }
+      },
+      {
+        "name": "ordinary_mean_Ctwo_positive_flat_power",
+        "passed": true,
+        "detail": {
+          "left": "0",
+          "relation": "lt",
+          "right": "19/4"
+        }
+      },
+      {
+        "name": "shape_Cauchy_domain_distance",
+        "passed": true,
+        "detail": {
+          "left": "1/2097152",
+          "relation": "eq",
+          "right": "1/2097152"
+        }
+      },
+      {
+        "name": "slide_Cauchy_domain_distance",
+        "passed": true,
+        "detail": {
+          "left": "1/16",
+          "relation": "eq",
+          "right": "1/16"
+        }
+      },
+      {
+        "name": "Gamma1_Cauchy_domain_distance",
+        "passed": true,
+        "detail": {
+          "left": "1/65536",
+          "relation": "eq",
+          "right": "1/65536"
+        }
+      },
+      {
+        "name": "Gamma2_Cauchy_domain_distance",
+        "passed": true,
+        "detail": {
+          "left": "1/1073741824",
+          "relation": "eq",
+          "right": "1/1073741824"
+        }
+      },
+      {
+        "name": "exact_total_flux_homogeneous_entry_00",
+        "passed": true
+      },
+      {
+        "name": "exact_total_flux_homogeneous_entry_01",
+        "passed": true
+      },
+      {
+        "name": "exact_total_flux_homogeneous_entry_10",
+        "passed": true
+      },
+      {
+        "name": "exact_total_flux_homogeneous_entry_11",
+        "passed": true
+      },
+      {
+        "name": "exact_weak_source_column_00",
+        "passed": true
+      },
+      {
+        "name": "exact_weak_source_column_01",
+        "passed": true
+      },
+      {
+        "name": "exact_weak_source_column_02",
+        "passed": true
+      },
+      {
+        "name": "exact_weak_source_column_10",
+        "passed": true
+      },
+      {
+        "name": "exact_weak_source_column_11",
+        "passed": true
+      },
+      {
+        "name": "exact_weak_source_column_12",
+        "passed": true
+      },
+      {
+        "name": "exact_two_trace_determinant",
+        "passed": true
+      },
+      {
+        "name": "ordinary_source_recovered_exactly",
+        "passed": true
+      },
+      {
+        "name": "mean_source_y_orientation_exact",
+        "passed": true
+      },
+      {
+        "name": "constant_platform_square_11",
+        "passed": true
+      },
+      {
+        "name": "constant_platform_square_12",
+        "passed": true
+      },
+      {
+        "name": "constant_platform_square_21",
+        "passed": true
+      },
+      {
+        "name": "constant_platform_square_22",
+        "passed": true
+      }
+    ]
+  }
+}

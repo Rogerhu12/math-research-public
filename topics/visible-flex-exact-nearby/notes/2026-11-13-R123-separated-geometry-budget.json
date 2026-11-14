@@ -1,0 +1,50 @@
+{
+  "kind": "actual_reference_separated_geometry_neighborhood",
+  "complete": true,
+  "source_sha256": "f33b55e9697ec744dc53469113e8d2a8c5c9ad07b84fe01ae04a27271297a0ed",
+  "proof_sha256": "f8d7c55d62e5ae0a0bc029281c97347b0c9cd61f973268ff7a0780a7fed953dd",
+  "input_reports": [
+    {
+      "path": "notes/2026-11-12-actual-closed-reach-certificate.json.gz",
+      "sha256": "54825ed66f3015b4d606d80e080416d6cc1831a99dd7e5a75851ef81eca6c202"
+    },
+    {
+      "path": "notes/2026-11-12-actual-diameter-and-phase-separation.json.gz",
+      "sha256": "d3345dc4f48d4195a0ec003daaee41165497e7577f3287fb0c6131f64192bf5d"
+    }
+  ],
+  "exact_parameter_interval": [
+    "-121752685431711260843/72057594037927936000000",
+    "-121680627837673332907/72057594037927936000000"
+  ],
+  "exact_budgets": {
+    "C0": "1/1000",
+    "intrinsic_C1": "1/100",
+    "updated_normal_intrinsic_Hessian": "7/10"
+  },
+  "exact_bounds": {
+    "support_lower": "1952/4125",
+    "inverse_curvature_lower": "9801/127000",
+    "diameter_upper": "511/200",
+    "reach_over_diameter_lower": "9801/324485",
+    "held_motion_over_diameter_lower": "128/2555",
+    "holding_diameter_over_diameter_lower": "386/511"
+  },
+  "gates": {
+    "actual_global_support_above_one_half": true,
+    "actual_global_curvature_below_twelve": true,
+    "actual_global_diameter_below_2553_over_1000": true,
+    "complete_surface_phase_witness_above_13_over_100": true,
+    "two_actual_flat_caps_have_diameter_above_1932_over_1000": true,
+    "immersion_margin_positive": true,
+    "support_does_not_limit_reach": true,
+    "reach_over_diameter_above_three_percent": true,
+    "visible_motion_above_five_percent": true,
+    "holding_diameter_above_twenty_percent": true
+  },
+  "passed_gate_count": 10,
+  "genuine_material_norms_required": true,
+  "updated_normal_projection_not_unpaid_old_normal": true,
+  "actual_nonlinear_correction_produced": false,
+  "exact_isometric_family_produced": false
+}

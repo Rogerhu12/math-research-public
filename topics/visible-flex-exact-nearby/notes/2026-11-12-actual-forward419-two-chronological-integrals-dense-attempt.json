@@ -1,0 +1,135 @@
+{
+  "kind": "actual_full_finite_two_chronological_integrals_and_local_flow",
+  "complete": false,
+  "source_sha256": "ed9dd59e832109de07f513656e6622dc0205facbca78bc8befd9c28131b48e42",
+  "density_certificate_sha256": "69a25068ab98d5df10ef491725d0e3cd0b262d07e47f84eafec9fe28d73c9296",
+  "density_manifest_sha256": "93e840dec6bf290a212480ab46c3e01671be6b7aceb41f4e39b4976fbe0595ac",
+  "reference_package_sha256": "bf9e219a46415dc330a089d56be73eccb7329fe0e99b8fcdc1aa43f2fe9b8c04",
+  "field_polynomial_manifest_sha256": "7cc7689a4aefb837f3ceab69479bc54a092f1d7381a44977bb6e40e06e6d9e50",
+  "identity": {
+    "reference": {
+      "retarget_descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+      "leg": "forward",
+      "segment": 419,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "exact_segment_time_rows": [
+        {
+          "denominator": "9007199254740992",
+          "kind": "rational",
+          "numerator": "4466727694628647"
+        },
+        {
+          "denominator": "562949953421312",
+          "kind": "rational",
+          "numerator": "282639970307159"
+        }
+      ],
+      "branch_sign": -1.0,
+      "target_exact_delta_fraction": "-7789843107295549/4611686018427387904",
+      "old_exact_delta_fraction": "-7789866024620307/4611686018427387904",
+      "target_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "target_root_sha256": "489268d254c2a9454ccbee32a4821d9bf577279490f76c9cc6f8d902a5e64e0b",
+      "package_sha256": "bf9e219a46415dc330a089d56be73eccb7329fe0e99b8fcdc1aa43f2fe9b8c04"
+    },
+    "field_polynomial_manifest_sha256": "7cc7689a4aefb837f3ceab69479bc54a092f1d7381a44977bb6e40e06e6d9e50",
+    "time_circle_radius": "5/4",
+    "time_circle_nodes": 64
+  },
+  "bits": 320,
+  "angular_nodes": 16384,
+  "outer_label_strip": "1/128",
+  "inner_label_strip": "1/256",
+  "independent_off_grid_checks": [
+    {
+      "time": "-2/5",
+      "label_node": 1,
+      "label_nodes": 7,
+      "label_imaginary": "1/128",
+      "full_direct_Laurent_difference": {
+        "ball": "[1.1944133433922263271457931562907879e-47 +/- 1.89e-82]",
+        "lower": "[1.1944133433922263271457931562907879e-47 +/- 1.89e-82]",
+        "upper": "[1.1944133433922263271457931562907879e-47 +/- 1.89e-82]",
+        "mid_float": 1.1944133433922264e-47,
+        "radius_upper_float": 0.0
+      },
+      "below_complete_finite_proxy_error": true
+    },
+    {
+      "time": "-2/5",
+      "label_node": 3,
+      "label_nodes": 7,
+      "label_imaginary": "1/128",
+      "full_direct_Laurent_difference": {
+        "ball": "[4.6406233366583584457289636872837873e-48 +/- 4.02e-83]",
+        "lower": "[4.6406233366583584457289636872837873e-48 +/- 4.02e-83]",
+        "upper": "[4.6406233366583584457289636872837873e-48 +/- 4.02e-83]",
+        "mid_float": 4.6406233366583583e-48,
+        "radius_upper_float": 0.0
+      },
+      "below_complete_finite_proxy_error": true
+    },
+    {
+      "time": "-2/5",
+      "label_node": 6,
+      "label_nodes": 7,
+      "label_imaginary": "1/128",
+      "full_direct_Laurent_difference": {
+        "ball": "[1.0677008923517019479276227829974569e-47 +/- 4.12e-82]",
+        "lower": "[1.0677008923517019479276227829974569e-47 +/- 4.12e-82]",
+        "upper": "[1.0677008923517019479276227829974569e-47 +/- 4.12e-82]",
+        "mid_float": 1.067700892351702e-47,
+        "radius_upper_float": 0.0
+      },
+      "below_complete_finite_proxy_error": true
+    },
+    {
+      "time": "1/3",
+      "label_node": 1,
+      "label_nodes": 7,
+      "label_imaginary": "-1/128",
+      "full_direct_Laurent_difference": {
+        "ball": "[3.9960875761575886033249350756688128e-48 +/- 3.39e-83]",
+        "lower": "[3.9960875761575886033249350756688128e-48 +/- 3.39e-83]",
+        "upper": "[3.9960875761575886033249350756688128e-48 +/- 3.39e-83]",
+        "mid_float": 3.9960875761575886e-48,
+        "radius_upper_float": 0.0
+      },
+      "below_complete_finite_proxy_error": true
+    },
+    {
+      "time": "1/3",
+      "label_node": 3,
+      "label_nodes": 7,
+      "label_imaginary": "-1/128",
+      "full_direct_Laurent_difference": {
+        "ball": "[1.8988430302072098799994960502338218e-48 +/- 2.65e-83]",
+        "lower": "[1.8988430302072098799994960502338218e-48 +/- 2.65e-83]",
+        "upper": "[1.8988430302072098799994960502338218e-48 +/- 2.65e-83]",
+        "mid_float": 1.89884303020721e-48,
+        "radius_upper_float": 0.0
+      },
+      "below_complete_finite_proxy_error": true
+    },
+    {
+      "time": "1/3",
+      "label_node": 6,
+      "label_nodes": 7,
+      "label_imaginary": "-1/128",
+      "full_direct_Laurent_difference": {
+        "ball": "[3.1313887452233348474884329505150322e-48 +/- 3.32e-83]",
+        "lower": "[3.1313887452233348474884329505150322e-48 +/- 3.32e-83]",
+        "upper": "[3.1313887452233348474884329505150322e-48 +/- 3.32e-83]",
+        "mid_float": 3.1313887452233346e-48,
+        "radius_upper_float": 0.0
+      },
+      "below_complete_finite_proxy_error": true
+    }
+  ],
+  "process_exit_code": 137,
+  "completion_observed": false,
+  "failure_scope": "Process terminated after six successful off-grid checks while retaining large full angular matrices; no integral result observed.",
+  "original_source_archive": "scripts/fourfold_reference_density_integrals_dense_attempt.py"
+}

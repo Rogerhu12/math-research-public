@@ -1,0 +1,98 @@
+{
+  "kind": "frozen_read_only_dynamic_actual_block_seed_adapters",
+  "complete": true,
+  "archive_required": [
+    {
+      "path": "scripts/fourfold_completed_block_seeds.py",
+      "sha256": "70d6c212c0f7d635d599263d31b5484860b77cc547fc77941983b2cef8b16109",
+      "bytes": 8945
+    },
+    {
+      "path": "scripts/fourfold_forward_density_cover_v8.py",
+      "sha256": "d9151dfb509b2f2df08bb01a699d8c78e9571334d3ef1da2f9219ec21ce2bca4",
+      "bytes": 24710
+    },
+    {
+      "path": "scripts/fourfold_parameter_density_cover_efficient_v4.py",
+      "sha256": "62ec86efa70ce9e2ebd1c427e524cd35bb97f99b69db93c5b0f8d337f7dfea00",
+      "bytes": 20880
+    },
+    {
+      "path": "notes/2026-11-12-dynamic-completed-block-seeds.md",
+      "sha256": "0c79ed2a72fa1e67c6d10ffa3cae9eb3cbba24ff7d7e6781192457fac4bbf70b",
+      "bytes": 2814
+    },
+    {
+      "path": "notes/2026-11-12-dynamic-block55-seed-validation.json",
+      "sha256": "06f4981a093fb842fc3514db3c6d4de17ac771a600ba08513217201f31b49d8e",
+      "bytes": 6743
+    }
+  ],
+  "files": [
+    {
+      "path": "scripts/fourfold_completed_block_seeds.py",
+      "sha256": "70d6c212c0f7d635d599263d31b5484860b77cc547fc77941983b2cef8b16109",
+      "bytes": 8945
+    },
+    {
+      "path": "scripts/fourfold_forward_density_cover_v8.py",
+      "sha256": "d9151dfb509b2f2df08bb01a699d8c78e9571334d3ef1da2f9219ec21ce2bca4",
+      "bytes": 24710
+    },
+    {
+      "path": "scripts/fourfold_parameter_density_cover_efficient_v4.py",
+      "sha256": "62ec86efa70ce9e2ebd1c427e524cd35bb97f99b69db93c5b0f8d337f7dfea00",
+      "bytes": 20880
+    },
+    {
+      "path": "notes/2026-11-12-dynamic-completed-block-seeds.md",
+      "sha256": "0c79ed2a72fa1e67c6d10ffa3cae9eb3cbba24ff7d7e6781192457fac4bbf70b",
+      "bytes": 2814
+    },
+    {
+      "path": "notes/2026-11-12-dynamic-block55-seed-validation.json",
+      "sha256": "06f4981a093fb842fc3514db3c6d4de17ac771a600ba08513217201f31b49d8e",
+      "bytes": 6743
+    }
+  ],
+  "total_files": 5,
+  "total_bytes": 64092,
+  "external_required_inputs": [
+    {
+      "path": "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_ci_density_block.py",
+      "sha256": "b66fd3a3c6c4436f9a104966298219fec89a83dd817dbf40f3831da3f9ef68ad"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/local_actual55/block_0055_0056/block-manifest.json",
+      "sha256": "62f40bd65ca8732c86f402daf6edd48a18a9951a69105d79f61444ff0e92ead1"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/local_actual55/block_0055_0056/files.json",
+      "sha256": "2b1ed3b87336342f26153861633b134073f6ae6b38cb149aa7ff474504158547"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/local_actual55/block_0055_0056/forward_0055_ef134f2a18_center.json.gz",
+      "sha256": "0340919d8f36307e752d85f1a7a48a77ec243502b608514004eb1c22e43203ac"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/local_actual55/block_0055_0056/forward_0055_ef134f2a18_uniform.json.gz",
+      "sha256": "6a278126af57ddb728f5be52074a836b02063ac07fdcf2f4785856ffe8c8cd2e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_ci_forward_blocks/local_actual55/block_0055_0056/g0/forward_0055_ef134f2a18.json.gz",
+      "sha256": "a150cde00ae934af75ef890becdb44a8682e4e5927a5785027c336536858f607"
+    },
+    {
+      "path": "scripts/fourfold_forward_density_cover_v7.py",
+      "sha256": "9e1f6fa02c17b3e462b29398aceb7e70457eddc37dfa52223b94ab663e3c0988"
+    },
+    {
+      "path": "scripts/fourfold_parameter_density_cover_efficient_v3.py",
+      "sha256": "e84c1668e383b401b71d04f073c6dfd7dac0fdb99cd5786f266c60673881f537"
+    }
+  ],
+  "only_actual_probe_segment": 55,
+  "whole_forward_leg_claimed": false,
+  "actual_R31_accepted": false,
+  "no_frozen_mathematical_source_modified": true
+}

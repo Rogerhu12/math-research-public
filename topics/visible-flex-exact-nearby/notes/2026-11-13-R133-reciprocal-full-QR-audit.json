@@ -1,0 +1,147 @@
+{
+  "kind": "reciprocal_complete_collocation_and_nonlinear_boundary_QR_test",
+  "all_original_backward_gates_passed": true,
+  "finite_linear_algorithm_only": true,
+  "source_input_sha256": "88a1e73b62a1c0157b81cf71f2dc93c912c079bd07b85acbdadbb13267a85c7b",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "modes": 8,
+  "angles": 128,
+  "full_source_projection_angles": 2048,
+  "radial_nodes": 23,
+  "complete_dimension": 392,
+  "all_nonlinear_boundary_rows_and_parameter_retained": true,
+  "tests": [
+    {
+      "storage": "memory",
+      "history": [
+        {
+          "kind": "full_boundary_row_QR_factorization",
+          "radial_nodes": 23,
+          "state_dimension": 17,
+          "parameter_dimension": 1,
+          "left_rows": 9,
+          "right_rows": 9,
+          "complete_blocks": 22,
+          "all_Fourier_couplings_retained": true,
+          "no_entry_drop": true,
+          "factor_storage": "memory",
+          "factor_bytes": 151888,
+          "end_condition_2": 34.73041288176396,
+          "minimum_local_QR_diagonal": 0.19175597887054,
+          "seconds": 0.6220048030008911
+        },
+        {
+          "kind": "full_finite_collocation_QR_solve",
+          "refinements": [
+            {
+              "iteration": 0,
+              "full_relative_residual": 4.994072287788594e-13,
+              "maximum_absolute_residual": 4.036966563604835e-13
+            }
+          ],
+          "full_relative_residual": 4.994072287788594e-13,
+          "seconds": 0.014440831997490022,
+          "all_finite_modes_and_parameter_column_retained": true,
+          "original_backward_residual_gate": 5e-08,
+          "complete": true
+        },
+        {
+          "kind": "full_finite_collocation_QR_solve",
+          "refinements": [
+            {
+              "iteration": 0,
+              "full_relative_residual": 7.444081527730986e-12,
+              "maximum_absolute_residual": 1.3715040214634655e-10
+            }
+          ],
+          "full_relative_residual": 7.444081527730986e-12,
+          "seconds": 0.008742956000787672,
+          "all_finite_modes_and_parameter_column_retained": true,
+          "original_backward_residual_gate": 5e-08,
+          "complete": true
+        }
+      ],
+      "tests": [
+        {
+          "full_QR_residual_against_original_SciPy": 4.995106010124769e-13,
+          "difference_from_independent_full_LU": 2.217968909778442e-14,
+          "full_FFT_action_against_original_SciPy": 1.7385735075591414e-16
+        },
+        {
+          "full_QR_residual_against_original_SciPy": 7.495697930156431e-12,
+          "difference_from_independent_full_LU": 1.96696013563455e-14,
+          "full_FFT_action_against_original_SciPy": 2.1655191261939078e-16
+        }
+      ]
+    },
+    {
+      "storage": "checkpoint",
+      "history": [
+        {
+          "kind": "full_checkpointed_boundary_QR_factorization",
+          "radial_nodes": 23,
+          "state_dimension": 17,
+          "parameter_dimension": 1,
+          "all_Fourier_couplings_retained": true,
+          "no_entry_drop": true,
+          "recomputation_segment_length": 6,
+          "retained_boundary_row_bytes": 5184,
+          "maximum_cached_factor_bytes": 41424,
+          "final_boundary_condition_2": 34.73041288176396,
+          "minimum_local_QR_diagonal": 0.19175597887054,
+          "seconds": 0.03996004799410002
+        },
+        {
+          "kind": "full_finite_collocation_QR_solve",
+          "refinements": [
+            {
+              "iteration": 0,
+              "full_relative_residual": 4.994072287788594e-13,
+              "maximum_absolute_residual": 4.036966563604835e-13
+            }
+          ],
+          "full_relative_residual": 4.994072287788594e-13,
+          "seconds": 0.061113622003176715,
+          "all_finite_modes_and_parameter_column_retained": true,
+          "original_backward_residual_gate": 5e-08,
+          "complete": true
+        },
+        {
+          "kind": "full_finite_collocation_QR_solve",
+          "refinements": [
+            {
+              "iteration": 0,
+              "full_relative_residual": 7.444081527730986e-12,
+              "maximum_absolute_residual": 1.3715040214634655e-10
+            }
+          ],
+          "full_relative_residual": 7.444081527730986e-12,
+          "seconds": 0.0582401120045688,
+          "all_finite_modes_and_parameter_column_retained": true,
+          "original_backward_residual_gate": 5e-08,
+          "complete": true
+        }
+      ],
+      "tests": [
+        {
+          "full_QR_residual_against_original_SciPy": 4.995106010124769e-13,
+          "difference_from_independent_full_LU": 2.217968909778442e-14,
+          "full_FFT_action_against_original_SciPy": 2.392722155533551e-16
+        },
+        {
+          "full_QR_residual_against_original_SciPy": 7.495697930156431e-12,
+          "difference_from_independent_full_LU": 1.96696013563455e-14,
+          "full_FFT_action_against_original_SciPy": 2.4288661771864533e-16
+        }
+      ]
+    }
+  ],
+  "source_sha256": "694a519960bcd0ad6a839e3edb778021e52c526ec5d3b1af44b5c2c3bef31322",
+  "dependencies": {
+    "fourfold_codazzi_reciprocal_polynomial_system.py": "27abad425627b219b5ea1de4f6935c82714511cefb980c4d24171a1d77e0c646",
+    "fourfold_codazzi_full_action_qr_collocation.py": "44246ede20c669bbbcb6e65fd94430abe42b05329d23ff6b2857f6605731c9f2",
+    "fourfold_codazzi_block_qr_collocation.py": "62a538a21334f591a227492cade1af369403dc4ed18fad184fc8604abc8bf429",
+    "fourfold_codazzi_block_qr_checkpointed.py": "7eda6f1798105a54944521b9c746cf79cb0dfd020b0a91e59fd21aeb5d0cd677"
+  },
+  "wall_seconds": 3.9894201249990147
+}

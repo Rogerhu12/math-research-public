@@ -1,0 +1,125 @@
+{
+  "kind": "independent_upstream_provenance_identity_audit_for_actual_relative_Jacobian",
+  "complete": true,
+  "proved": true,
+  "relative_Jacobian_report": "notes/2026-11-13-R106-complete-relative-real-Jacobian.json.gz",
+  "relative_Jacobian_report_sha256": "43e5d0854f0510eea5c035446a56a33ca8a80b1307dd3b2c67e66733702c370b",
+  "checks": [
+    {
+      "path": "notes/2026-11-13-R106-integrated-source-ray-refinement.json",
+      "expected_sha256": "8900f79de35d74d4c245f4308d39dd1659d9634fbccbd02627edb94ea2841e27",
+      "observed_sha256": "8900f79de35d74d4c245f4308d39dd1659d9634fbccbd02627edb94ea2841e27",
+      "role": "frozen upstream theorem input recorded in actual relative-Jacobian report",
+      "passed": true
+    },
+    {
+      "path": "notes/2026-11-13-R46-215-cell-scaled-strong-operator.json",
+      "expected_sha256": "5f30d6f64a3a1b398dc3e9be7b17e0ea9e5f8117ef97ea50654cc2980e87dc02",
+      "observed_sha256": "5f30d6f64a3a1b398dc3e9be7b17e0ea9e5f8117ef97ea50654cc2980e87dc02",
+      "role": "frozen upstream theorem input recorded in actual relative-Jacobian report",
+      "passed": true
+    },
+    {
+      "path": "scripts/fourfold_integrated_true_ray_budget_exact.mjs",
+      "expected_sha256": "8a539bf0e5eee9f398db37c9df7b6068f25badbcb10e483aff39f1a1d82809c1",
+      "observed_sha256": "8a539bf0e5eee9f398db37c9df7b6068f25badbcb10e483aff39f1a1d82809c1",
+      "role": "exact BigInt ray producer",
+      "passed": true
+    },
+    {
+      "path": "notes/2026-11-12-R106-actual-all-time-ray-tube.json",
+      "expected_sha256": "6463e62641b9187045016c63ee633816676a75baf941ea01375a6ae36f1a1863",
+      "observed_sha256": "6463e62641b9187045016c63ee633816676a75baf941ea01375a6ae36f1a1863",
+      "role": "exact ray producer input: old",
+      "passed": true
+    },
+    {
+      "path": "notes/2026-11-12-step5-integrated-parameter-source-budget.json",
+      "expected_sha256": "1157bc1b8ad6f70b9fbd65aeaee6152da842e066d22b216cd2ca87620e5f5a41",
+      "observed_sha256": "1157bc1b8ad6f70b9fbd65aeaee6152da842e066d22b216cd2ca87620e5f5a41",
+      "role": "exact ray producer input: integrated",
+      "passed": true
+    },
+    {
+      "path": "scripts/fourfold_strict_scaled_complete_R46_budget.py",
+      "expected_sha256": "bc77f02d6aed1638c397f897a261135f2e441fd3e23e40dcf03739a2b419f531",
+      "observed_sha256": "bc77f02d6aed1638c397f897a261135f2e441fd3e23e40dcf03739a2b419f531",
+      "role": "full strict scaled consumer",
+      "passed": true
+    },
+    {
+      "path": "notes/2026-11-13-R46-complete-actual-strict-operator.json",
+      "expected_sha256": "770fbb61134db79eb3ecb48710b5d65f72e1ff79b2eb3fc1015609a5da040b42",
+      "observed_sha256": "770fbb61134db79eb3ecb48710b5d65f72e1ff79b2eb3fc1015609a5da040b42",
+      "role": "full strict scaled consumer input",
+      "passed": true
+    },
+    {
+      "path": "notes/2026-11-13-R46-native-WKB-full-strict-fields-v2.json.gz",
+      "expected_sha256": "8a97d6780955b94f3f96ab7cd8c8d4e518f291cd04e0903505c03e2abe176788",
+      "observed_sha256": "8a97d6780955b94f3f96ab7cd8c8d4e518f291cd04e0903505c03e2abe176788",
+      "role": "full strict scaled consumer input",
+      "passed": true
+    },
+    {
+      "path": "notes/2026-11-13-negative-root-physical-graph-operator.json",
+      "expected_sha256": "e4b3faf5ae998607207246367a430d80a1fdac7e404d1b013e66b9c373124cb5",
+      "observed_sha256": "e4b3faf5ae998607207246367a430d80a1fdac7e404d1b013e66b9c373124cb5",
+      "role": "full strict scaled consumer input",
+      "passed": true
+    },
+    {
+      "path": "scripts/fourfold_negative_root_physical_graph_operator.py",
+      "expected_sha256": "9d3e2560be9dabc5714908ea02ab8c479cea9631a889b71ebba77358bfb1831c",
+      "observed_sha256": "9d3e2560be9dabc5714908ea02ab8c479cea9631a889b71ebba77358bfb1831c",
+      "role": "full strict scaled consumer dependency",
+      "passed": true
+    },
+    {
+      "path": "scripts/fourfold_strict_complete_R46_budget.py",
+      "expected_sha256": "359c9aef3d8022c71f1847d44e911ca9822965b90b531beec50754a4e0785a26",
+      "observed_sha256": "359c9aef3d8022c71f1847d44e911ca9822965b90b531beec50754a4e0785a26",
+      "role": "full strict scaled consumer dependency",
+      "passed": true
+    },
+    {
+      "path": "scripts/fourfold_strict_high_energy_triangular.py",
+      "expected_sha256": "c5325f6cd1eea06c3bf1db7817a243f350fab7be4441597394e61abe11d21ade",
+      "observed_sha256": "c5325f6cd1eea06c3bf1db7817a243f350fab7be4441597394e61abe11d21ade",
+      "role": "full strict scaled consumer dependency",
+      "passed": true
+    },
+    {
+      "path": "scripts/fourfold_negative_canonical_cancellation_chart.py",
+      "expected_sha256": "650ceef0ea91bdf5f4ef86d114fb6dc412bef3a0b4b915910135357967ec0c8d",
+      "observed_sha256": "650ceef0ea91bdf5f4ef86d114fb6dc412bef3a0b4b915910135357967ec0c8d",
+      "role": "full strict scaled consumer dependency",
+      "passed": true
+    },
+    {
+      "path": "scripts/fourfold_negative_collar_root_fourier_budget.py",
+      "expected_sha256": "08866307bf0de20183db15387f16ec0f2f3a65d67bfec6e9229b27a65a902b9b",
+      "observed_sha256": "08866307bf0de20183db15387f16ec0f2f3a65d67bfec6e9229b27a65a902b9b",
+      "role": "full strict scaled consumer dependency",
+      "passed": true
+    },
+    {
+      "path": "scripts/fourfold_phase_beta_bulk_interval.py",
+      "expected_sha256": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "observed_sha256": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "role": "full strict scaled consumer dependency",
+      "passed": true
+    },
+    {
+      "path": "scripts/fourfold_phase_root_fourier_fit.py",
+      "expected_sha256": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604",
+      "observed_sha256": "80171cf3b57dedc3e46a0efcd0f9c0af22366c5ab461117d8219cf548ecc7604",
+      "role": "full strict scaled consumer dependency",
+      "passed": true
+    }
+  ],
+  "checks_count": 16,
+  "all_passed": true,
+  "algorithm": "SHA256 each complete input byte string against the exact upstream digest recorded by the already executed relative-Jacobian consumer; additionally follow ray.provenance.source/source_sha256 and ray.provenance.inputs, and strict.source_sha256, strict.dependencies, strict.inputs. No mathematical input or native coefficients are changed.",
+  "scope": "Confirms the already frozen ray and strict reports are the exact proved inputs and their recorded producers/dependencies remain identical. It adds explicit provenance checks without changing or rerunning the completed 550-segment native enclosure."
+}

@@ -1,0 +1,75 @@
+{
+  "kind": "floating_finite_Codazzi_endpoint_projection",
+  "certified": false,
+  "source_sha256": "378cd555ec2589afe49d05ce7c6aec161e3a969d1c191e3b3c3c48348b7a7edf",
+  "input_state_path": "notes/2026-11-13-codazzi-to-r0239-n1024-endpoint-floating.npz",
+  "input_state_sha256": "b54cdfb48418f6794610c3b3ed6f47f496f069316fff9be5ab3550d5a2895e51",
+  "r": 0.239,
+  "input_angles": 1024,
+  "output_angles": 512,
+  "physical_frequency_factor": 4,
+  "retained_positive_index": [
+    0,
+    255
+  ],
+  "Nyquist_omitted": true,
+  "mean_retained": true,
+  "removed_coefficient_l1_by_column": [
+    5.823112225757467e-05,
+    6.882075271075632e-05,
+    6.526326666321442e-11,
+    6.7418135405492135e-12,
+    7.382688536399513e-12,
+    5.6064374674318845e-08,
+    6.134050160989922e-09,
+    6.320221909893052e-09,
+    6.638449203447488e-08,
+    6.871495881488305e-09,
+    7.498245174081014e-09,
+    1.1907968094809714e-08,
+    6.579227111878436e-08,
+    5.681775834420922e-08
+  ],
+  "sampled_projection_difference_by_column": [
+    4.2237965403479905e-05,
+    5.244117137048754e-05,
+    5.024047844415236e-11,
+    5.114827832108926e-12,
+    5.7820970233990465e-12,
+    3.9916431882058845e-08,
+    4.184524740602491e-09,
+    4.349785309720744e-09,
+    5.194447856571305e-08,
+    5.312635886767225e-09,
+    5.898004661053502e-09,
+    8.69940974812522e-09,
+    5.152646924411197e-08,
+    4.0378031598842234e-08
+  ],
+  "columns": [
+    "m",
+    "n",
+    "F0",
+    "F1",
+    "F2",
+    "X0",
+    "X1",
+    "X2",
+    "Y0",
+    "Y1",
+    "Y2",
+    "nu0",
+    "nu1",
+    "nu2"
+  ],
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "dependency_sha256": {
+    "fourfold_phase_codazzi_evolution_probe.py": "2d9e8a9dd185e13c1c506a628f36847fe6180390bca3b60014d7c1beb8a69c36"
+  },
+  "limitations": [
+    "Finite, floating projection only; the input state has unvalidated PDE errors.",
+    "Discarded channels are listed, not treated as zero for the original PDE."
+  ],
+  "output_state_path": "notes/2026-11-13-codazzi-at-r0239-projected-n512-endpoint-floating.npz",
+  "output_state_sha256": "f3da6e3220a919c69bff6ed29a9ccdbb29438b9fd5e9347341736c6ed8a77300"
+}

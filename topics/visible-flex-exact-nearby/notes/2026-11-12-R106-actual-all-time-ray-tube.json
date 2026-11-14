@@ -1,0 +1,215 @@
+{
+  "kind": "R106_all_time_true_ray_from_paid_reference_and_parameter_source",
+  "complete": true,
+  "arithmetic": "exact reduced BigInt rational inequalities; display radii added outward",
+  "proved_region": {
+    "leg": "forward",
+    "segments": 550,
+    "time_endpoints": [
+      "-pi/2",
+      "pi/2"
+    ],
+    "parameter_center": "-7789843107295549/4611686018427387904",
+    "parameter_half_width": "1/1000000000",
+    "label_strip": "1/1024",
+    "label_period": "2*pi",
+    "physical_angle": "theta; reference Y(x+2*pi)=Y(x)+pi/2"
+  },
+  "source_convention": "R80 f_p is physical-theta fixed-tau derivative, r=t(p)sin(tau); g_p=f_p(Y)/Y_x per physical tau, no extra factor 4",
+  "bounds": {
+    "center_true_integrated_defect": {
+      "exact": "409256398925551511672190910308412520603/10000000000000000000000000000000000000000000000",
+      "approximate": 4.092563989255515e-8
+    },
+    "center_source_error_for_identity_only": {
+      "exact": "18506897832109756788629437920675454487/10000000000000000000000000000000000000000000000000000000",
+      "approximate": 1.8506897832109756e-18
+    },
+    "uniform_first_parameter_integral": {
+      "exact": "44000/21",
+      "approximate": 2095.2380952380954
+    },
+    "uniform_true_integrated_defect": {
+      "exact": "448594384377436581745116009116476662932663/210000000000000000000000000000000000000000000000",
+      "approximate": 0.0000021361637351306504
+    },
+    "uniform_displacement_safe": {
+      "exact": "107/50000000",
+      "approximate": 0.00000214
+    },
+    "coordinate_outer_strip": {
+      "exact": "15/8192",
+      "approximate": 0.0018310546875
+    },
+    "coordinate_first_derivative_error": {
+      "exact": "6848/2734375",
+      "approximate": 0.0025044114285714286
+    },
+    "coordinate_second_derivative": {
+      "exact": "112197632/19140625",
+      "approximate": 5.861753835102041
+    },
+    "true_label_J_real_lower": {
+      "exact": "213831/7812500",
+      "approximate": 0.027370368
+    },
+    "true_label_J_modulus": {
+      "exact": "8223669/7812500",
+      "approximate": 1.052629632
+    },
+    "physical_image_strip": {
+      "exact": "8221101/8000000000",
+      "approximate": 0.001027637625
+    },
+    "true_second_label_derivative": {
+      "exact": "1934594494853376/1776291015625",
+      "approximate": 1089.120238652266
+    },
+    "true_angle_minus_reference": {
+      "exact": "2247/1000000000",
+      "approximate": 0.000002247
+    },
+    "true_J_minus_reference_q": {
+      "exact": "1252440778/253755859375",
+      "approximate": 0.004935613235039216
+    }
+  },
+  "gates": [
+    {
+      "name": "full original output verification",
+      "passed": true
+    },
+    {
+      "name": "all 550 true center spans",
+      "passed": true
+    },
+    {
+      "name": "all 550 finite reference spans and seams",
+      "passed": true
+    },
+    {
+      "name": "same finite reference descriptor",
+      "passed": true
+    },
+    {
+      "name": "true physical parameter source",
+      "passed": true
+    },
+    {
+      "name": "same actual affine object",
+      "passed": true
+    },
+    {
+      "name": "exact requested parameter box included",
+      "passed": true
+    },
+    {
+      "name": "exact saved center and complete center family",
+      "passed": true
+    },
+    {
+      "name": "exact complete forward endpoints",
+      "passed": true
+    },
+    {
+      "name": "exact proved reference constants",
+      "passed": true
+    },
+    {
+      "name": "whole reference image in physical parameter strip",
+      "passed": true
+    },
+    {
+      "name": "the whole physical fp envelope is strict",
+      "passed": true
+    },
+    {
+      "name": "reference working strip below paid center field strip",
+      "passed": true
+    },
+    {
+      "name": "uniform parameter displacement bound",
+      "passed": true
+    },
+    {
+      "name": "closed all-time Picard margin",
+      "passed": true
+    },
+    {
+      "name": "true coordinate image in reference strip",
+      "passed": true
+    },
+    {
+      "name": "coordinate first derivative error below .00251",
+      "passed": true
+    },
+    {
+      "name": "coordinate second derivative below 6",
+      "passed": true
+    },
+    {
+      "name": "true phase Jacobian modulus below 1.06",
+      "passed": true
+    },
+    {
+      "name": "true phase Jacobian real part above .027",
+      "passed": true
+    },
+    {
+      "name": "true physical image below 1/900",
+      "passed": true
+    },
+    {
+      "name": "physical second label derivative below 1100",
+      "passed": true
+    },
+    {
+      "name": "true angle-reference difference below 2.25e-6",
+      "passed": true
+    },
+    {
+      "name": "true Jacobian-reference difference below .005",
+      "passed": true
+    }
+  ],
+  "not_proved": [
+    "complete nonmean subprincipal phase",
+    "finite part root integral",
+    "full PDE inverse",
+    "second leg obtained without its actual composition"
+  ],
+  "provenance": {
+    "source": "scripts/fourfold_subprincipal_true_ray_budget_exact.mjs",
+    "source_sha256": "c8e2c97f9cb643b7040dd51789fe0f4fc60be006990b3a800336ffb82309fbd1",
+    "inputs": [
+      {
+        "key": "flow",
+        "path": "notes/2026-11-12-complete-flow-43301401638-arithmetic-summary.json",
+        "sha256": "f25a3692b36390b3ae8dd7699d4e0ec0c2e74561ac238b11352f1d532a8bfc52",
+        "bytes_utf8": 42198
+      },
+      {
+        "key": "q",
+        "path": "notes/2026-11-12-step5-forward-reference-derivative-complete-summary.json",
+        "sha256": "d1dd69ac94f5912c828a6e22856badcb69bf324fdc7fc9a43f05493161363dc9",
+        "bytes_utf8": 2084
+      },
+      {
+        "key": "parameter",
+        "path": "data/phase_ring_continuation/type_fixed_step02_d5_step5_fixed_tau_parameter_source_certificate.json",
+        "sha256": "08b6fb2f3be32b7d2657d756e547134dcb55a54bb67a89d5f44a7fcd2f9f6e76",
+        "bytes_utf8": 3366
+      }
+    ],
+    "reference_proof": {
+      "path": "notes/2026-11-12-step5-forward-reference-derivative-complete.md",
+      "sha256": "fe8e80dbcd97c912456908c213fa8ddec779103e9b1e3b490d573a650b483894"
+    },
+    "proof": "results/R106-supplement-actual-all-time-ray-tube.md",
+    "center_g0_index_sha256": "4174c3edde41f5c8ab12b036d4760c20ec987e475158aa2855ea08158ff7cb45",
+    "reference_descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+    "actual_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "execution": "The identical pure checkedReport/computeRayBudget implementation was evaluated with BigInt in V8; the Node CLI is a byte-verifying replay wrapper.",
+    "scope": "A new finite certificate combining three already completed continuous certificates. No density, ODE or interval leaf is recomputed or invented."
+  }
+}

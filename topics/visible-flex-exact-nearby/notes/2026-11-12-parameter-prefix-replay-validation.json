@@ -1,0 +1,28 @@
+{
+  "kind": "actual_saved_prefix_restart_validation",
+  "input_index_sha256": "91731b7458d8c71fd3d7622c84cb71cdfa8c22624a0119fcff7f5f22f8850a5a",
+  "scope": "controller input sequencing only, no new mathematical source",
+  "cases": [
+    {
+      "name": "same",
+      "actual": true
+    },
+    {
+      "name": "temporarily_shorter",
+      "actual": false
+    },
+    {
+      "name": "empty_replay",
+      "actual": false
+    },
+    {
+      "name": "complete_shorter",
+      "actual": "reject"
+    },
+    {
+      "name": "changed_overlap",
+      "actual": "reject"
+    }
+  ],
+  "all_expected_outcomes_observed": true
+}

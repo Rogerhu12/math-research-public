@@ -1,0 +1,41 @@
+{
+  "kind": "single_span_true_core_correlated_radial_Taylor_domain",
+  "complete": false,
+  "source_sha256": "e9e759de4b9995377c1a7d8281b2a6144c9cf2c578b7d09faf0b1da0330e33c9",
+  "bits": 192,
+  "common_span_index": 90,
+  "modes": 4,
+  "primitive_nodes": 512,
+  "angular_nodes": 1024,
+  "native_order": 32,
+  "native_radius": "1/64",
+  "normalized_outer_radius": "3",
+  "normalized_angular_strip": "1/16",
+  "momentum_scale": "8",
+  "dependency_sha256": {
+    "fourfold_native_series_fft.py": "bcf9d5c43f2ebc5669fcf89f785e5da0b6acac5ec901581103006c6dc04d1289",
+    "fourfold_phase_beta_affine.py": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+    "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+    "fourfold_phase_core_low_coefficients.py": "ba2f5c93fbe7d1cdc0ddd21775f54c4e5e56d542d94fb69b985a3bfe42751990",
+    "fourfold_phase_actual_positive_cap.py": "1e8418174f54bd1d22dd628ef7f7e6525ca6b43cbcf7a2307d29f9d467e1612b"
+  },
+  "scope": "Only the stated finite projected generator and exact common-span analytic extension; no cell flow, full core DN, or infinite Schur inverse.",
+  "object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "origin_inputs_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+  "affine_arithmetic": "Arb encloses c0+exact_delta*v and alpha0+exact_delta*w before all fixed base weights",
+  "exact_common_span": [
+    "1/8",
+    "2296835809958953/18014398509481984"
+  ],
+  "exact_center": "4548635623644201/36028797018963968",
+  "exact_halfwidth": "45035996273705/36028797018963968",
+  "failure": "ValueError('1+beta_theta vanishes in the paid complex rectangle')",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/math-research/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_phase_core_radial_taylor.py\", line 430, in main\n    generator = target.projected_generator(radial, args.modes,\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/math-research/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_phase_core_radial_taylor.py\", line 339, in projected_generator\n    moduli = self.coefficient_moduli_bidisk(radial, coefficient, curvature, errors, normalized_strip)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/math-research/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_phase_core_radial_taylor.py\", line 296, in coefficient_moduli_bidisk\n    Plo = complex_separation(1+bt, '1+beta_theta')\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/math-research/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_phase_actual_positive_cap.py\", line 60, in complex_separation\n    raise ValueError(name+' vanishes in the paid complex rectangle')\nValueError: 1+beta_theta vanishes in the paid complex rectangle\n",
+  "CPU_seconds": 3.020822056,
+  "wall_seconds": 3.021054269000004
+}

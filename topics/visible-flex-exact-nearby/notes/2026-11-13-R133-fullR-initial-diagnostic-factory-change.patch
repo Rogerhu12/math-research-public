@@ -1,0 +1,13 @@
+diff --git a/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_candidate_tools.py b/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_candidate_tools.py
+index a367b69b5..1631a05f8 100644
+--- a/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_candidate_tools.py
++++ b/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_candidate_tools.py
+@@ -94,7 +94,7 @@ def sampled_physical_moments(system,r,y,p,maximum_mode):
+ def diagnostic(system,result):
+     if not np.all(np.isfinite(result.sol.c)):return dict(valid=False,reason='nonfinite moving PPoly')
+     M=system.modes;al=system.alpha;N=2*system.angular_grid
+-    fine=MovingPolynomial(system.geometry,M,N,system.body,system.graft,
++    fine=type(system)(system.geometry,M,N,system.body,system.graft,
+         q_path=system.q_path,mean_boundary=system.mean_boundary)
+     fine.alpha=al;fine.all_base_cache=system.all_base_cache
+     r=np.unique(np.r_[result.x,*[result.x[:-1]+f*np.diff(result.x) for f in (.25,.5,.75)]])

@@ -1,0 +1,22 @@
+{
+  "kind": "terminated_floating_Cauchy_diagnostic",
+  "complete": false,
+  "certified": false,
+  "source_sha256": "b13ba7bca7a8b9882373d875537fe245e18777e6f9f8fc60402873bf30764096",
+  "angular_grid": 512,
+  "primitive_nodes": 512,
+  "requested_right": 0.235,
+  "last_observed_rhs_time": 0.21606987662045427,
+  "last_observed_rhs_calls": 52356,
+  "last_observed_wall_seconds": 360.39945943100065,
+  "reason": "Adaptive steps stagnated repeatedly near r=.215871 and .216068; a separate 1024-grid run to .1 had worsened angular metric error, so this unvalidated collocation run was stopped in favor of the two-field dealiased Gauss-Codazzi formulation.",
+  "scope": "This records a numerical diagnostic termination, not a mathematical nonexistence or proven characteristic barrier.",
+  "endpoint_state_available": false,
+  "termination": "tool write_stdin Ctrl-C; exit 130",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "rtol": 3e-10,
+  "atol": 3e-12,
+  "max_step": 0.00025
+}

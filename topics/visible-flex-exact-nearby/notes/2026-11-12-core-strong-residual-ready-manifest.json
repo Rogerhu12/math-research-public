@@ -1,0 +1,76 @@
+{
+  "kind": "core_strong_residual_and_exact_local_budget_ready",
+  "branch": "visible-exact-core-native-20261112-f6a2",
+  "content_head_before_manifest": "077423b57d9939caeac496084befb83eb10ed93e",
+  "files": [
+    {
+      "path": "scripts/fourfold_phase_core_weak_residual.py",
+      "sha256": "70fb0d701f9f2a15c1e527de676f62dad0172e3dd1ad1733853b7fbd20d73281",
+      "bytes": 14007,
+      "git_blob": "52deffcc8053aaf9dbb0add6f9de0dadc594b6b1"
+    },
+    {
+      "path": "scripts/fourfold_phase_core_exact_reference.py",
+      "sha256": "6a4e979cdea02ffbb8fe73071b16159120de88b3c8f360e656b335be6c05b584",
+      "bytes": 5964,
+      "git_blob": "6ddefa7a4d629df659fc91257fc883ccb57ce738"
+    },
+    {
+      "path": "scripts/fourfold_phase_core_field_polynomial.py",
+      "sha256": "1fce236cee0d9824c8de43b3bc04798eb3ed06237205f5f0eb154faba21f876f",
+      "bytes": 11360,
+      "git_blob": "1e4d7d89b10e605d00a20470ac9b1465b2ae531b"
+    },
+    {
+      "path": "notes/2026-11-12-uniform-core-composition-and-strong-cut-multipliers.md",
+      "sha256": "04871cbd7c14653a70d35f63c8d5a72c065b99ee7910ab07109eda60fc52773e",
+      "bytes": 7588,
+      "git_blob": "070be156d9ca02dd9b7eaa670248d7e8c0d37024"
+    },
+    {
+      "path": "notes/2026-11-12-core-strong-weak-residual-contract.md",
+      "sha256": "8a3e093f9c30399084b87b29c1fba05c3cf1a2a61886e72b3edb7410cfd24524",
+      "bytes": 17524,
+      "git_blob": "a0ecd7feb85359b851fd7db0a99359b03c572f6c"
+    },
+    {
+      "path": "scripts/fourfold_core_local_transfer_budget.cjs",
+      "sha256": "1761c20dea16a51e640a298c374f5d6ddd732f34076e5252a5bca2d0dfcccbe4",
+      "bytes": 7764,
+      "git_blob": "248c1c7284b934fbd2036019d03507a092dffd04"
+    },
+    {
+      "path": "notes/2026-11-12-uniform-core-local-error-exact-sum.json",
+      "sha256": "41a6804e8e3956559581c356a1ff7bd30ef9b4001c01bbc523c7f89a66e5dd48",
+      "bytes": 6918,
+      "git_blob": "d3abe5e64147e88e9bfe2f122cdf59dd241db002"
+    },
+    {
+      "path": "notes/2026-11-12-uniform-core-local-error-input-budget.md",
+      "sha256": "e30ee04e1a51603a012878785b8ad2ab9313c7c6e87cf3c45c6f2012e3d6482d",
+      "bytes": 2677,
+      "git_blob": "43d08d8709c7fb3f0ca31daccf1c4577181e0000"
+    }
+  ],
+  "proved_scope": [
+    "Correct radial parities a,c,tau,sigma even; b odd. The actual finite Cauchy reflection identity is unchanged.",
+    "The 174-span/175-leaf positive-half certificates are unaffected.",
+    "Exact continuous reference, complete coefficient-rectangle complement and strong weak-residual Gram majorant mathematics; no numeric residual package is claimed.",
+    "Exact BigInt aggregation of all 175 local error inputs actually executed, with complete rational coverage and manifest hashes.",
+    "Strong same-cut cap flux theorem uses the complete unweighted primal/dual mismatch including the Robin slot; the projection argument gives factor one. New derivative mismatch and coefficient commutator constants remain uncomputed."
+  ],
+  "actual_local_sum_upper": "0.000002294642251876562467",
+  "native_global_matrix_collector_executed": false,
+  "whole_eta_strong_cut_multiplier_executed": false,
+  "new_weak_residual_native_executed": false,
+  "native_status": "Executor disconnected again before any of these native calculations began; no numeric results were reconstructed from summaries.",
+  "next_native_commands": [
+    "python scripts/fourfold_phase_core_flow_collect.py --cover-root data/core_uniform_flow_ci/43307149760 --bits 256 --out notes/native_core_20261112/complete_uniform_core.json",
+    "python scripts/fourfold_phase_family_interface_fourier.py --half-width 1/1000000000 --bits 192 --primitive-nodes 512 --angles 2048 --keep 512 --normalized-strip 1/16 --out notes/native_core_20261112/family_quarter_cut.json"
+  ],
+  "unexecuted_scalar_product_helper": "scripts/fourfold_core_scalar_product_budget.cjs is optional replay code only; its full input-loading attempt did not complete and no scalar-product numeric certificate is claimed.",
+  "corrections": {
+    "cap_section_7": "Replaces ambiguous primal PDE residual by the full complementary gap and its unweighted angular derivative; no previous numerical result depended on this unexecuted interface.",
+    "math_delimiters": "The combination note uses repository-required dollar delimiters throughout."
+  }
+}

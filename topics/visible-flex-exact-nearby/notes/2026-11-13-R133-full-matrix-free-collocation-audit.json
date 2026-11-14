@@ -1,0 +1,91 @@
+{
+  "kind": "independent_full_matrix_free_collocation_direction_and_solve_audit",
+  "passed": true,
+  "certified": false,
+  "modes": 8,
+  "angular_grid": 128,
+  "radial_nodes": [
+    0.04,
+    0.068,
+    0.096,
+    0.124,
+    0.152,
+    0.18
+  ],
+  "amplitude": 0.65,
+  "nu": -0.023721707968258524,
+  "source_sha256": "bc23c77011d0e8a425302360dbf8e1c401e230d75c7ca754d368d8cd81f63b50",
+  "input_sha256": "4046eb7ac8da162ab9aad9fcb4991933200abdbc2c22ed6329d49bb13d72b856",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "dependencies": {
+    "fourfold_codazzi_matrix_free_collocation.py": "dfa07b7257b5ba5dff3c7580e6a8d74f2b7302691d6391a0a66c04f4f304592e",
+    "fourfold_codazzi_chunked_collocation.py": "5b96d9298014703cf41c59a2d9466e81d523673fb659a52ca6488a03ef939a73",
+    "fourfold_codazzi_compact_metric_fast_jacobian.py": "0d82b18aaed063660f7003e36061958a327d134c67490adb7b340deddfc90c17",
+    "fourfold_codazzi_compact_metric_branch_probe.py": "e1692ce4e7b1090adb0aeab7414f8df32411072283cedad3d848ca4fb18ef0a4"
+  },
+  "full_original_matrix_action_maximum_difference": 8.881784197001252e-16,
+  "central_differences": [
+    {
+      "step": 1e-05,
+      "relative_error": 5.782254446485708e-10
+    },
+    {
+      "step": 1e-06,
+      "relative_error": 1.0974321228506371e-11
+    },
+    {
+      "step": 1e-07,
+      "relative_error": 1.4987385017504673e-10
+    }
+  ],
+  "original_full_matrix_backward_relative_error": 1.569994909594125e-11,
+  "linear_history": [
+    {
+      "radial_nodes": 6,
+      "state_dimension": 17,
+      "parameter_dimension": 1,
+      "Fourier_band": 2,
+      "absolute_entry_cutoff": 0,
+      "radial_chunk": 2,
+      "nonzero_entries": 1561,
+      "maximum_omitted_entry": 0.09824494359813021,
+      "maximum_omitted_collocation_row_l1": 0.43030482336273135,
+      "maximum_full_collocation_row_l1": 4.9312676891563365,
+      "assembly_seconds": 0.16351544400095008,
+      "nonlinear_residual_unchanged": true,
+      "approximate_Newton_matrix": true
+    },
+    {
+      "kind": "complete_matrix_free_linearization",
+      "radial_nodes": 6,
+      "state_dimension": 17,
+      "preconditioner_LU_nonzeros": 3090,
+      "construction_seconds": 0.17359809199842857,
+      "full_operator_band_truncated": false,
+      "preconditioner_band": 2
+    },
+    {
+      "kind": "full_finite_collocation_GMRES",
+      "info": 0,
+      "iterations": 11,
+      "full_relative_residual": 1.569898984686153e-11,
+      "maximum_absolute_residual": 3.1535746236599493e-12,
+      "preconditioned_residual_history": [
+        10.013770202322267,
+        0.8916158714977583,
+        0.031872521695813415,
+        0.0017935270463748172,
+        0.00011064463567434483,
+        5.54748579031531e-06,
+        3.755962369224799e-07,
+        1.726888454186781e-08,
+        9.230779163888251e-10,
+        5.976211644560583e-10,
+        5.105071465453912e-11
+      ],
+      "seconds": 0.0215271830020356,
+      "all_finite_modes_and_parameter_column_retained": true
+    }
+  ],
+  "scope": "Actual target and finite nonlinear state, exact discrete Jacobian action, separate original scipy full matrix and independent nonlinear directional differences. The band-2 restriction affects only the preconditioner. No PDE or infinite-mode existence is inferred."
+}

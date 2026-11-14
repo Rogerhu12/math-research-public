@@ -1,0 +1,24 @@
+{
+  "kind": "actual_forward419_Q512_node_budget_failure_preserved",
+  "complete": false,
+  "attempt_completed": true,
+  "reason": "True field sample balls, amplified by the full retained physical Wiener weights, cost 3.6185e-19 > requested field error 1.868e-20. The main finite field polynomial was not accepted and no density/flow result is claimed.",
+  "next_actual_fix": "Increase primitive-nodes to1024; root-nodes was already1024. Preserve this failed Q512 attempt and recompute, without relabeling old input.",
+  "files": [
+    {
+      "path": "scripts/fourfold_forward_density_pipeline_419_Q512_attempt.py",
+      "sha256": "a977d79a16ea06f0683ffcd304e10234f60e6d005048ebbd7dee3c3be13e384d",
+      "bytes": 33889
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_pipeline_pilot419/index.json",
+      "sha256": "1a3a551c78bfbf46df34ed407484f2ecfb5a78692d1271b752994639106212d2",
+      "bytes": 480
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_pipeline_pilot419/forward_0419_ef134f2a18.json.gz",
+      "sha256": "c706e1016e10854ea0567ae9708e4e59c2af9ce952e179546e85c418e39c6dba",
+      "bytes": 23316
+    }
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "kind": "complete_exact_forward_density_and_ordered_flow",
+  "complete": false,
+  "source_sha256": "7d5079c0ad2f1b98d2f17440b5f0086f0da66cee08e70b6ac93e3c432baa4560",
+  "descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+  "pipeline_sources": {
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_composition_v9.py": "42185f8a6d132593e9e930ceb6496af0e591750f7219a42767e5120a3b465a7b",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_layout_v8.py": "35737ed50a54a373fb80cbc6af6a7803986b916372334e54374c653b531f5cee",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_spatial_v7.py": "45c788ab4c928059dac09f8435b8bdfd68dd37240f5d5916fc9d609403777fc1",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_optimal_time_v6.py": "72d902056a962f8222e5f84e6db31eff7a51df2e9fc7dc528cf42d871e9a25ed",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_expanded_time_v5.py": "6be6b7c02eba1eebb8c6f9cda09641af1653fb2b19dc49a36e57670fc0c64d57",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_minimal_time.py": "f2c373e1a2226224f08078fc01abb219de32c39344d2fb143947c2f5058d04b0",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_Q1024_v3.py": "97f75109f6636785a7f6718eab46b9c1e51e62ff49261ef974dfa8b45cda240e",
+    "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_pipeline_turn0_v1.py": "6fcfe5ff8c4e3ffb9c79f9a613c6bacc244b3a6b707fa78f558cd8933b16342f"
+  },
+  "reference_seams": {
+    "path": "notes/2026-11-12-step5-forward-reference-derivative-complete-summary.json",
+    "sha256": "d1dd69ac94f5912c828a6e22856badcb69bf324fdc7fc9a43f05493161363dc9",
+    "report_path": "notes/2026-11-12-step5-forward-reference-derivative-gate.json.gz",
+    "report_sha256": "87aeff7e8824c7d6301c6f33cbeea506e584004c5bee1591512a556348cbfd8c",
+    "all_549_base_and_Q_seams_exact": true
+  },
+  "label_strip": "1/256",
+  "inner_strip": "3/1024",
+  "exact_initial_time": {
+    "rational": "0",
+    "pi_coefficient": "-1/2"
+  },
+  "leaves": [
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_pipeline_pilot0/forward_0000_ef134f2a18.json.gz",
+      "sha256": "a6c8560ac4b34a53bb4636c55d4e9672c875156df95f3e975b46947bab15be15",
+      "bytes": 56591,
+      "segment": 0,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0000_r.json.gz",
+      "current_field_cover_domain_sha256": "9415569ec4a2b86a15b6764406927584ed0c866955097700ec8aa5616a46891b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0001_ef134f2a18.json.gz",
+      "sha256": "dcfc8e721de4b6c2cb928fdbabc3b8db5c1be9e3f24772a23148efe072c31750",
+      "bytes": 43450,
+      "segment": 1,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0001_r.json.gz",
+      "current_field_cover_domain_sha256": "2b5b8bcae2f07e42f93208889c1bccaede6161917978f23696c0d110c3cbfc1a"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0002_ef134f2a18.json.gz",
+      "sha256": "d333912e47a683b018c9af2c0162ec7a8f2939fadacab20895682bdf98f44208",
+      "bytes": 46219,
+      "segment": 2,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0002_r.json.gz",
+      "current_field_cover_domain_sha256": "4e261d18833de168905eeb071793f18797549499acb47e0aa56e80dac4709695"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0003_ef134f2a18.json.gz",
+      "sha256": "135ec493718b72748869ff061d9d3953a32a5284ae7dbe3fc2dbaab2566bccc5",
+      "bytes": 43072,
+      "segment": 3,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0003_r.json.gz",
+      "current_field_cover_domain_sha256": "99ab3ad3de524436c703201e7497bea5c7613ce845c45c8b4408a19f8f43d9a9"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0004_ef134f2a18.json.gz",
+      "sha256": "7681bcaeb7912425989a2c491dbf36f267b2c788b184b5a3a3d8715a581b5ba2",
+      "bytes": 41404,
+      "segment": 4,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0004_r.json.gz",
+      "current_field_cover_domain_sha256": "dbf6934bd05ecaeafdda6348c2e36ba19e549a78a9e3ade28e4992c10848c852"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0005_ef134f2a18.json.gz",
+      "sha256": "69492ad65a4f225db335c40ac4333c36d98606b9d971f5c77710afc26fc39ab7",
+      "bytes": 40417,
+      "segment": 5,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0005_r.json.gz",
+      "current_field_cover_domain_sha256": "3504e7f07e3b693c24c4ee5ea6df70e44e8bb176ac802bfff953cfc24ee083a2"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0006_ef134f2a18.json.gz",
+      "sha256": "3c0eb3357080463a25ca7de7928126e2e746485d30c0eb647e1f0b67e2580c61",
+      "bytes": 40389,
+      "segment": 6,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0006_r.json.gz",
+      "current_field_cover_domain_sha256": "b0e6703dd35af395469f81e13e81b190c60d0bf2b8a3c0acb0da7e8115fda29d"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0007_ef134f2a18.json.gz",
+      "sha256": "515f0ec85af0f20fc9c497db672b9a00a5703b00024e593d5a25add72a7b5f06",
+      "bytes": 40417,
+      "segment": 7,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0007_r.json.gz",
+      "current_field_cover_domain_sha256": "5350c3eec13fc8fc70017010de95350614a8647ec153b58212cc6ec100baffdb"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0008_ef134f2a18.json.gz",
+      "sha256": "9b3d441b4036e08cdf5c76fc8c7d2ed2edc440bd09bfde3ceac9d4c09552b132",
+      "bytes": 37378,
+      "segment": 8,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0008_r.json.gz",
+      "current_field_cover_domain_sha256": "01521f6b18629ccd3d2304c7b2ccc82236fcbf577b2d996c2c96c009c3098176"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0009_ef134f2a18.json.gz",
+      "sha256": "864d8b7d090e25639bb849aad9c93e0534b357b0bfc3684180c472a402fe4a4c",
+      "bytes": 41397,
+      "segment": 9,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0009_r.json.gz",
+      "current_field_cover_domain_sha256": "6a3c2c804be72780e9dd7232203fc957f5a3ad7371ee2a30b16deebf25f7755b"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0010_ef134f2a18.json.gz",
+      "sha256": "c2e56a940c517c74bfb39194d38a79c292283ae1ee2839bbe6bdc5a61221bb7b",
+      "bytes": 37943,
+      "segment": 10,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0010_r.json.gz",
+      "current_field_cover_domain_sha256": "d4363494003726f460008e0dbd2eabd1046bc66e313f348dd167317ff7ee655e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0011_ef134f2a18.json.gz",
+      "sha256": "5ffa37f68ae67f58e1f2015e81a8ed3dce23af212353f6861aafd60a544edda6",
+      "bytes": 39777,
+      "segment": 11,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0011_r.json.gz",
+      "current_field_cover_domain_sha256": "78a82fba666d3cd8448a8377f50d4a6d43d06b7a062d478cf5abd6b4c30e9aaf"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0012_ef134f2a18.json.gz",
+      "sha256": "1b646c36d238ee23e735d763d7313dbf04cbae81a8df2956fe85bd3869593d94",
+      "bytes": 40547,
+      "segment": 12,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0012_r.json.gz",
+      "current_field_cover_domain_sha256": "d02d6eb7862d5d6df2303b9221d8c528aa0a2912b62a902b0aeec828b0dfd819"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0013_ef134f2a18.json.gz",
+      "sha256": "9c9add9fa4591b81e3a886cbdf2426ff5fab8f46db52a2479731d95639689127",
+      "bytes": 41456,
+      "segment": 13,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0013_r.json.gz",
+      "current_field_cover_domain_sha256": "6a1dec114d34ebfb616597b89b3aa9eed54b3bc6b484672637ee2df2588dacf1"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0014_ef134f2a18.json.gz",
+      "sha256": "315fc31ddd23d332a9c13534f498d75444ec75271f00af28c83ad0b7bab06b1b",
+      "bytes": 40637,
+      "segment": 14,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0014_r.json.gz",
+      "current_field_cover_domain_sha256": "faac3b7eb1419010d4c69d23e09ab467603d96e82678b74d6a0b16182fc2a294"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0015_ef134f2a18.json.gz",
+      "sha256": "f54affc453438b11b04bd8b4ce6124f4995a48f21f6d586387c38733118b1d0e",
+      "bytes": 40802,
+      "segment": 15,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0015_r.json.gz",
+      "current_field_cover_domain_sha256": "a218515547c4c23a1250582679c0e6e2363cc694bad5b92b78b9b5734866405e"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0016_ef134f2a18.json.gz",
+      "sha256": "8d951812e57bb0970a1a9d81f7a1485fde7cb0fb143f00e52d7bfe4c58a5f451",
+      "bytes": 39701,
+      "segment": 16,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0016_r.json.gz",
+      "current_field_cover_domain_sha256": "614e795defd86474bc99dc5e76d4746e06cb0e43564903d061c1e1a7b16783e3"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0017_ef134f2a18.json.gz",
+      "sha256": "79f24defa07d354f7944d0b0cee3a06fc3c2ec108a9d1b94e5cddb5088f47cdf",
+      "bytes": 41582,
+      "segment": 17,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0017_r.json.gz",
+      "current_field_cover_domain_sha256": "79efcaf7ad75671336ae1d9419ff1cf849fdbbc7f1b8ebdcf3d81dff5ebb53f8"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0018_ef134f2a18.json.gz",
+      "sha256": "dcc7b13a63748c38c699f3e19ddd0888c24b527e9fb63ce85b174433fd97587a",
+      "bytes": 41682,
+      "segment": 18,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0018_r.json.gz",
+      "current_field_cover_domain_sha256": "e63bbecf45c2b607836f66c12e30b1fc32e71f7d03a898ccdbc6fc0530c673d7"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0019_ef134f2a18.json.gz",
+      "sha256": "20802f79ca282486b95d137a8048f9021ec27f1f3c05c61b259864780a46cb35",
+      "bytes": 39778,
+      "segment": 19,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0019_r.json.gz",
+      "current_field_cover_domain_sha256": "6b13dbfffb4559ba3c36af614731c6e60dd49d71bfef8caf08ee45fb0bc92e28"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0020_ef134f2a18.json.gz",
+      "sha256": "77ab483a0863d79a4ef757965b8aca3ac7eb236a9c79ffe7c3a318c7c1344b93",
+      "bytes": 39372,
+      "segment": 20,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0020_r.json.gz",
+      "current_field_cover_domain_sha256": "3222527bc75225fe824d78e16734f91278b91566ea5c742ae93d7f280f0d1fe8"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0021_ef134f2a18.json.gz",
+      "sha256": "caddc3220cc040d04de65507b761358699b6acb8843af6bc280ec41a9930ed82",
+      "bytes": 42789,
+      "segment": 21,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": "completed_prefix",
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0021_r.json.gz",
+      "current_field_cover_domain_sha256": "edf655480604ee8a7dbf85f22efd592f4fc259fdb1e8b69c709338a27bf8c2c2"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0022_ef134f2a18.json.gz",
+      "sha256": "8b1cd5614fcb082b92e45a9c642942faf6883de3842e0ab3cc0b777a9d1bf8a1",
+      "bytes": 38772,
+      "segment": 22,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0022_r.json.gz",
+      "current_field_cover_domain_sha256": "4992d3a99be8c120b587a615c1b1c1da008f3900c87207b1c35c59b152a2b507"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0023_ef134f2a18.json.gz",
+      "sha256": "42c7305252ab0e52615963876bec183acd2a6999d1758805c9e901e00258f5b6",
+      "bytes": 38448,
+      "segment": 23,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0023_r.json.gz",
+      "current_field_cover_domain_sha256": "1cf8c13c8ac7dd8a1d51535f9434a8dc110e511f57cb11d6949493102df490ad"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0024_ef134f2a18.json.gz",
+      "sha256": "69032174c1e49b62dccd3288701d34a202b0050ef7057611939920481d1ebae8",
+      "bytes": 39776,
+      "segment": 24,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0024_r.json.gz",
+      "current_field_cover_domain_sha256": "cda8779d42408689af455cd4d6860c00ac424ef35b30d5f486b70ae0910d6ef0"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0025_ef134f2a18.json.gz",
+      "sha256": "ddeb04608cf5c58f21dd714b6ed1ace9da947bab477c39e26b2a9a51fa785a3a",
+      "bytes": 38792,
+      "segment": 25,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0025_r.json.gz",
+      "current_field_cover_domain_sha256": "87ba7ec4fd53369b504714acffbc34754c49e3f0a7e0c32effbb95d7acb1ef69"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0026_ef134f2a18.json.gz",
+      "sha256": "cb1a632f6358a1ec75871b32dba79880ec8fae16dd15d4fe431127fe3c9939ef",
+      "bytes": 38267,
+      "segment": 26,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0026_r.json.gz",
+      "current_field_cover_domain_sha256": "5b38bb75971dd54fe3c944fa52755f4f344df8d57d76b85566fe522f2a4d86cc"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0027_ef134f2a18.json.gz",
+      "sha256": "d9c19d49728e1e8c4e3c7b924c9812cd6a35d883f44c15dbd4f547206630664f",
+      "bytes": 36817,
+      "segment": 27,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0027_r.json.gz",
+      "current_field_cover_domain_sha256": "c9a68e6f0a108b6383735932d4a9b7eb8302e3f37b4fca7948743e230da85d66"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0028_ef134f2a18.json.gz",
+      "sha256": "d5a39a75908a668d57013c71aab28c0f6bf0ea24ec68611767cda6d5835c6937",
+      "bytes": 39777,
+      "segment": 28,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0028_r.json.gz",
+      "current_field_cover_domain_sha256": "92f56f568bdcfa8fe9839ca662ff055ef58d3c9f6d4268b827d508e8aac2c9c5"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0029_ef134f2a18.json.gz",
+      "sha256": "cfba33694a5769e547d30b2e723e5ff7caf881c9ad1020e531bcff12ce992756",
+      "bytes": 38983,
+      "segment": 29,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0029_r.json.gz",
+      "current_field_cover_domain_sha256": "0392c7b4a13583ea33584d51705b10d0199c63559568fe6376163cd648b9660f"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0030_ef134f2a18.json.gz",
+      "sha256": "d7090023c1ff55176706c3c6a7f3b327b02832e3d3127b58b961f97ea7bf4619",
+      "bytes": 38338,
+      "segment": 30,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0030_r.json.gz",
+      "current_field_cover_domain_sha256": "34e766c11228c575bfceec40421ac9dffc48d0d540058049eb2c4ccc6233d889"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0031_ef134f2a18.json.gz",
+      "sha256": "d84363d7296d76a6476750f3c36ac7d4c9f8803657e5a7a1c14dce420bc13cbe",
+      "bytes": 39714,
+      "segment": 31,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0031_r.json.gz",
+      "current_field_cover_domain_sha256": "9e8ca39238da2fe668e509eba238b8f2f4001c2cf5b13b90dab6bd1a83659218"
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_forward_density_complete/forward_0032_ef134f2a18.json.gz",
+      "sha256": "f19bb73c4aa1df56dda9eb02e01a323267428bcfae4ddc924ab34f9b8a32a8f4",
+      "bytes": 38970,
+      "segment": 32,
+      "normalized_subspan": [
+        "0",
+        "1"
+      ],
+      "reused": false,
+      "current_field_cover_domain": "data/phase_ring_continuation/step5_sharp_time_domain_full/forward_0032_r.json.gz",
+      "current_field_cover_domain_sha256": "4108efcfb58086a6eb5be66b13e416e3874b83bdf0116071c5bc1297f4516ee9"
+    }
+  ],
+  "completed_segments": 33,
+  "whole_forward_leg": false,
+  "input_cover_snapshots": [
+    {
+      "path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_sharp_time_domain_forward.json.gz",
+      "sha256": "5cf017df6f91a1e5d29a6464a9c3fcf8b82586fda10f9c28fcbd14d218ca6271",
+      "completed_cases": 550
+    }
+  ],
+  "resumed_previous_controller": {
+    "path": "/workspace/scratch/f6a2c7886477/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_forward_density_cover_v5.py",
+    "sha256": "a88539c203a02d08371218ce64d5d85b4fd8e56d2f34be5f58d362bee06d981a",
+    "completed_segments": 22
+  },
+  "summary": {
+    "A": {
+      "ball": "[2.0755940536188807270745128230155809e-10 +/- 2.10e-45]",
+      "lower": "[2.0755940536188807270745128230155809e-10 +/- 2.10e-45]",
+      "upper": "[2.0755940536188807270745128230155809e-10 +/- 2.10e-45]",
+      "mid_float": 2.0755940536188807e-10,
+      "radius_upper_float": 0.0
+    },
+    "E": {
+      "ball": "[8.9780126271151883266479982192945032e-20 +/- 1.83e-55]",
+      "lower": "[8.9780126271151883266479982192945032e-20 +/- 1.83e-55]",
+      "upper": "[8.9780126271151883266479982192945032e-20 +/- 1.83e-55]",
+      "mid_float": 8.978012627115188e-20,
+      "radius_upper_float": 0.0
+    },
+    "omitted_local_J": {
+      "ball": "[7.7500888891226853400332247032104256e-21 +/- 1.49e-56]",
+      "lower": "[7.7500888891226853400332247032104256e-21 +/- 1.49e-56]",
+      "upper": "[7.7500888891226853400332247032104256e-21 +/- 1.49e-56]",
+      "mid_float": 7.750088889122685e-21,
+      "radius_upper_float": 0.0
+    },
+    "R": {
+      "ball": "0.00097656250000000000000000000000000000",
+      "lower": "0.00097656250000000000000000000000000000",
+      "upper": "0.00097656250000000000000000000000000000",
+      "mid_float": 0.0009765625,
+      "radius_upper_float": 0.0
+    },
+    "R72_smallness_passed": true,
+    "finite_first_A_inner": {
+      "ball": "[1.3041934921701701483733590856121331e-11 +/- 1.43e-46]",
+      "lower": "[1.3041934921701701483733590856121331e-11 +/- 1.43e-46]",
+      "upper": "[1.3041934921701701483733590856121331e-11 +/- 1.43e-46]",
+      "mid_float": 1.3041934921701702e-11,
+      "radius_upper_float": 0.0
+    },
+    "finite_cross_second_A_inner": {
+      "ball": "[2.8516992095444360682570181137098213e-22 +/- 2.90e-57]",
+      "lower": "[2.8516992095444360682570181137098213e-22 +/- 2.90e-57]",
+      "upper": "[2.8516992095444360682570181137098213e-22 +/- 2.90e-57]",
+      "mid_float": 2.851699209544436e-22,
+      "radius_upper_float": 0.0
+    },
+    "true_coordinate_flow_error_with_all_local_J_paid": {
+      "ball": "[9.7534922347493591611230522480833990e-20 +/- 1.29e-55]",
+      "lower": "[9.7534922347493591611230522480833990e-20 +/- 1.29e-55]",
+      "upper": "[9.7534922347493591611230522480833990e-20 +/- 1.29e-55]",
+      "mid_float": 9.753492234749359e-20,
+      "radius_upper_float": 0.0
+    }
+  },
+  "exact_final_time": {
+    "rational": "-2599825931727421/2251799813685248",
+    "pi_coefficient": "0"
+  },
+  "accumulator_path": "data/phase_ring_continuation/step5_forward_density_prefix_checks/prefix0033/ordered_accumulator.json.gz",
+  "accumulator_sha256": "d1af6189baea30f9008ae3b394738955e96056dec7fcd6aba63543b5618db815",
+  "all_listed_time_and_finite_reference_seams_exact": true,
+  "wall_seconds_this_process": 1742.8800236509996,
+  "snapshot_of_live_index": "data/phase_ring_continuation/step5_forward_density_complete/index.json",
+  "snapshot_index_sha256": "55a7f43b7743ab666b5a746e7004bcaf5e830e0c0a81ccef9843c56ea059c0a1"
+}

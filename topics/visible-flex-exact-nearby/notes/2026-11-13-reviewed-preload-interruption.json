@@ -1,0 +1,8 @@
+{
+  "kind": "reviewed_queue_preload_operational_interruption",
+  "session_id": 8083,
+  "exit_code": 130,
+  "reason": "Stopped the optional isolated-index preload after implicit partial-clone hydration reduced free disk below 4 GB. All explicit research files remain, main queue continues normally. No prepared-record or push-stage output was reached.",
+  "main_worktree_and_index_untouched": true,
+  "remote_branch_push_stage_reached": false
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "explicit_invalidation_of_nonfinite_local_flow_report",
+  "run_id": "43303783707",
+  "invalidated_report": "notes/core_remote/43303783707/flow-span90.json",
+  "invalidated_report_sha256": "fcc8f692e0c1a86a29c37dfa1c2e1664e66b2a245000ef8609acdd08a9bc65f8",
+  "mathematical_certificate_valid": false,
+  "reason": "The matrix error norm formed sqrt(sum(abs(ball)^2)); for balls containing zero the Arb representational lower endpoint could be negative, and sqrt returned nan. The report nevertheless set complete=true. Its time coefficient errors and final transfer error are nonfinite, so it proves no local transfer error.",
+  "correction": "Square each finite nonnegative absolute upper bound before summing; reject nonfinite fee records and JSON NaN. Run a new actual local-flow computation.",
+  "preserved_scope": "The separate outer-domain report of run43303238218 used the scalar accretive formula and contains finite bounds; it is not invalidated by this local norm bug."
+}

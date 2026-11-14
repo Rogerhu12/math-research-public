@@ -1,0 +1,341 @@
+{
+  "kind": "floating_homotopy_two_ended_Codazzi_candidate",
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "source_sha256": "33d2cf9d72bff21e66b0f9d67620383bdb1a417f9f7c33e9ace9489b6624ace9",
+  "modes": 12,
+  "physical_frequency_factor": 4,
+  "boundary_amplitude": 0.5318593749999999,
+  "state_order": "B sine k=1..M, C cosine k=0..M",
+  "original_target_fixed": true,
+  "initial_waist_curve_changed": true,
+  "right_boundary": "scaled old actual nonmean angular normal curvature only; NOT cap DN",
+  "certified": false,
+  "success": false,
+  "reached_boundary_amplitude": 0.5318593749999999,
+  "requested_boundary_amplitude": 1.0,
+  "attempts": [
+    {
+      "attempt": 0,
+      "boundary_amplitude": 0.0,
+      "success": true,
+      "solver_success": true,
+      "solver_status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "radial_nodes": 251,
+      "iterations": 1,
+      "max_collocation_rms_residual": 6.351660637131914e-06,
+      "boundary_residual": 1.1746726059016526e-31,
+      "sampled_C_range": [
+        -0.93568754603349,
+        -0.8933631823853911
+      ],
+      "elapsed": 3.3739908810002817
+    },
+    {
+      "attempt": 1,
+      "boundary_amplitude": 0.135,
+      "success": true,
+      "solver_success": true,
+      "solver_status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "radial_nodes": 263,
+      "iterations": 2,
+      "max_collocation_rms_residual": 9.794074541545531e-06,
+      "boundary_residual": 0.0,
+      "sampled_C_range": [
+        -1.0978263017350798,
+        -0.786323242739503
+      ],
+      "elapsed": 5.600323937998837
+    },
+    {
+      "attempt": 2,
+      "boundary_amplitude": 0.31725000000000003,
+      "success": true,
+      "solver_success": true,
+      "solver_status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "radial_nodes": 426,
+      "iterations": 2,
+      "max_collocation_rms_residual": 6.278864859461624e-06,
+      "boundary_residual": 0.0,
+      "sampled_C_range": [
+        -1.3342850166495746,
+        -0.6284476302606558
+      ],
+      "elapsed": 8.064165702999162
+    },
+    {
+      "attempt": 3,
+      "boundary_amplitude": 0.51725,
+      "success": true,
+      "solver_success": true,
+      "solver_status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "radial_nodes": 1276,
+      "iterations": 2,
+      "max_collocation_rms_residual": 5.756308329474371e-07,
+      "boundary_residual": 0.0,
+      "sampled_C_range": [
+        -1.5296229378878887,
+        -0.5023037318843555
+      ],
+      "elapsed": 16.294838351999715
+    },
+    {
+      "attempt": 4,
+      "boundary_amplitude": 0.7172499999999999,
+      "success": false,
+      "solver_success": false,
+      "solver_status": 1,
+      "message": "The maximum number of mesh nodes is exceeded.",
+      "radial_nodes": 1276,
+      "iterations": 1,
+      "max_collocation_rms_residual": 0.3201732462418918,
+      "boundary_residual": 0.020134479381529846,
+      "sampled_C_range": [
+        -1.7640421286210952,
+        -0.4990799524320668
+      ],
+      "elapsed": 18.179665827999997
+    },
+    {
+      "attempt": 5,
+      "boundary_amplitude": 0.61725,
+      "success": false,
+      "solver_success": false,
+      "solver_status": 1,
+      "message": "The maximum number of mesh nodes is exceeded.",
+      "radial_nodes": 1276,
+      "iterations": 1,
+      "max_collocation_rms_residual": 0.1355170606235077,
+      "boundary_residual": 1.1102230246251565e-16,
+      "sampled_C_range": [
+        -1.6258517815341187,
+        -0.4963413589958256
+      ],
+      "elapsed": 20.14938523299861
+    },
+    {
+      "attempt": 6,
+      "boundary_amplitude": 0.56725,
+      "success": false,
+      "solver_success": false,
+      "solver_status": 1,
+      "message": "The maximum number of mesh nodes is exceeded.",
+      "radial_nodes": 1276,
+      "iterations": 1,
+      "max_collocation_rms_residual": 0.07922492539658095,
+      "boundary_residual": 2.7755575615628914e-17,
+      "sampled_C_range": [
+        -1.703690452252325,
+        -0.3659132592381269
+      ],
+      "elapsed": 22.133011874999283
+    },
+    {
+      "attempt": 7,
+      "boundary_amplitude": 0.54225,
+      "success": false,
+      "solver_success": false,
+      "solver_status": 1,
+      "message": "The maximum number of mesh nodes is exceeded.",
+      "radial_nodes": 1276,
+      "iterations": 1,
+      "max_collocation_rms_residual": 0.01914437485165895,
+      "boundary_residual": 0.002097341602242675,
+      "sampled_C_range": [
+        -1.5844226424878545,
+        -0.5088451207737822
+      ],
+      "elapsed": 23.644917805999285
+    },
+    {
+      "attempt": 8,
+      "boundary_amplitude": 0.5297499999999999,
+      "success": true,
+      "solver_success": true,
+      "solver_status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "radial_nodes": 2551,
+      "iterations": 2,
+      "max_collocation_rms_residual": 5.793471927423139e-08,
+      "boundary_residual": 0.0,
+      "sampled_C_range": [
+        -1.5668199871214408,
+        -0.5202397382306257
+      ],
+      "elapsed": 43.65662147399962
+    },
+    {
+      "attempt": 9,
+      "boundary_amplitude": 0.5466249999999999,
+      "success": false,
+      "solver_success": false,
+      "solver_status": 1,
+      "message": "The maximum number of mesh nodes is exceeded.",
+      "radial_nodes": 2551,
+      "iterations": 1,
+      "max_collocation_rms_residual": 6008.208320874308,
+      "boundary_residual": 0.0026544479653385356,
+      "sampled_C_range": [
+        -5.308630568817981,
+        2.855359657478669
+      ],
+      "elapsed": 48.616680933999305
+    },
+    {
+      "attempt": 10,
+      "boundary_amplitude": 0.5381874999999999,
+      "success": false,
+      "solver_success": false,
+      "solver_status": 1,
+      "message": "The maximum number of mesh nodes is exceeded.",
+      "radial_nodes": 2551,
+      "iterations": 1,
+      "max_collocation_rms_residual": 0.01818849440462698,
+      "boundary_residual": 5.551115123125783e-17,
+      "sampled_C_range": [
+        -1.6023434418271074,
+        -0.4959740331071953
+      ],
+      "elapsed": 55.99590856800023
+    },
+    {
+      "attempt": 11,
+      "boundary_amplitude": 0.53396875,
+      "success": false,
+      "solver_success": false,
+      "solver_status": 1,
+      "message": "The maximum number of mesh nodes is exceeded.",
+      "radial_nodes": 2551,
+      "iterations": 1,
+      "max_collocation_rms_residual": 0.00220298608932373,
+      "boundary_residual": 0.0,
+      "sampled_C_range": [
+        -1.599349717246655,
+        -0.49992682260113624
+      ],
+      "elapsed": 61.332519690999106
+    },
+    {
+      "attempt": 12,
+      "boundary_amplitude": 0.5318593749999999,
+      "success": true,
+      "solver_success": true,
+      "solver_status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "radial_nodes": 2551,
+      "iterations": 1,
+      "max_collocation_rms_residual": 2.4883726986355596e-07,
+      "boundary_residual": 0.0,
+      "sampled_C_range": [
+        -1.5782485032127307,
+        -0.5130260431958262
+      ],
+      "elapsed": 62.52453268099998
+    },
+    {
+      "attempt": 13,
+      "boundary_amplitude": 0.53470703125,
+      "success": false,
+      "solver_success": false,
+      "solver_status": 1,
+      "message": "The maximum number of mesh nodes is exceeded.",
+      "radial_nodes": 2551,
+      "iterations": 1,
+      "max_collocation_rms_residual": 0.004792904027872965,
+      "boundary_residual": 0.0,
+      "sampled_C_range": [
+        -1.614358882615947,
+        -0.49102951973831566
+      ],
+      "elapsed": 68.58157662099984
+    }
+  ],
+  "primitive_nodes": 512,
+  "angular_grid": 256,
+  "diagnostic_angular_grid": 512,
+  "exact_center_parameter": {
+    "numerator": "-7789843107295549",
+    "denominator": "4611686018427387904"
+  },
+  "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "right": 0.25,
+  "tol": 1e-05,
+  "max_nodes": 3000,
+  "initial_radial_nodes": 251,
+  "initial_step": 0.1,
+  "minimum_step": 0.001953125,
+  "maximum_attempts": 25,
+  "guess_path": null,
+  "guess_sha256": null,
+  "candidate_path": "notes/2026-11-13-codazzi-two-end-homotopy-m12-candidate.npz.gz",
+  "candidate_sha256": "47efe29ced43242acc8b6f883a9f9605c3e074c04741dcf7d2b3f2478fc8cf29",
+  "last_failed_candidate": {
+    "path": "notes/2026-11-13-codazzi-two-end-homotopy-m12-last-failed.npz.gz",
+    "sha256": "afbf33c5c1499a5b246cc9732bc1383d4c06846779db7651dddb04ef562f805f"
+  },
+  "diagnostics": {
+    "finite_PDE_residual": 8.8200615087235e-07,
+    "A_projection_defect": 0.043548842864766346,
+    "A_theta_projection_defect": 2.567467190276502,
+    "full_sampled_B_residual": 2.663457045693347,
+    "full_sampled_C_residual": 0.0035015578172315487,
+    "C_abs_min": 0.5130260431958262,
+    "C_min": -1.5797858125130981,
+    "C_max": -0.5130260431958262
+  },
+  "initial_C_coefficients": [
+    -0.9356875460334887,
+    -0.4638113504278592,
+    -0.08517938950426075,
+    0.05599594135996063,
+    0.05264976645354807,
+    0.033788967379369136,
+    0.029865827181167016,
+    -0.01772340838920067,
+    -0.055814835438568675,
+    -0.03185832529522696,
+    -0.011305364686966763,
+    0.08121074332334195,
+    0.04999015331407792
+  ],
+  "old_initial_C_coefficients": [
+    -0.9356875460334886,
+    -0.7765264964515415,
+    -0.6061486859759262,
+    -0.4888137544990841,
+    -0.45257450912547276,
+    -0.37687252993219605,
+    -0.39636200782824116,
+    -0.3106410057019645,
+    -0.35139172456640605,
+    -0.3680035436273217,
+    -0.3900019076848258,
+    -0.3790695631216717,
+    -0.26375988100682574
+  ],
+  "initial_C_coefficient_difference_l1": 4.797974334790858,
+  "complete_mean_retained": true,
+  "whole_parameter_interval": false,
+  "whole_radial_domain": false,
+  "whole_real_angular_circle": false,
+  "dependency_sha256": {
+    "fourfold_phase_codazzi_two_end_probe.py": "510a0ebf823f35942c0b45e67fb3ec5319cfe124996d88656fcc18a52c565eb2",
+    "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+    "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937",
+    "fourfold_phase_core_low_block.py": "d3b554e05f13112679786bd11a113ab8a29442b4da8f6ea0cf73c2ebb93d37be",
+    "fourfold_phase_local_correction_probe.py": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf"
+  },
+  "rhs_calls": 498,
+  "jac_calls": 94,
+  "wall_seconds": 88.31220028899952,
+  "limitations": [
+    "Finite Fourier and floating collocation with an artificial nonmean-C outer boundary only.",
+    "This changes the initial waist curve and is not the frozen R127 exact branch.",
+    "No full tail/roundoff/continuous residual validation, true cap DN, regular-port matching or closed surface.",
+    "The retained mean is constrained at the waist by exact total tangent turning; it is not deleted."
+  ]
+}

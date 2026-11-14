@@ -1,0 +1,213 @@
+{
+  "kind": "exact_dyadic_periodic_label_correction",
+  "identity": {
+    "retarget_descriptor_sha256": "097354fecb3932473bd63deeecad7f943e9ede0e1816c821d2dbd2601ec40052",
+    "original_endpoint_path": "data/phase_ring_continuation/step5_complete_flow_ci_43301401638/actual_endpoint.json.gz",
+    "original_endpoint_sha256": "f8d958ce1af4cac5d4053d8c7569d33c049a917d84094e55944842fad4228328",
+    "original_H_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_dyadic_H.json",
+    "original_H_sha256": "0439d88f10f46d367e44a984db661ac3806a7bd052f46eca14e71594fa8eb2c2",
+    "old_exact_parameter": "-7789843107295549/4611686018427387904",
+    "exact_parameter_increment": "-7503610915091864083421307370189835928331761396892589761028645157230256948727508775433/8749002899132047697490008908470485461412677723572849745703082425639811996797503692894052708092215296",
+    "proposed_exact_parameter": "-14778404179560311559723594293965687974843152353915855357198388385296297318716291704802487117427209/8749002899132047697490008908470485461412677723572849745703082425639811996797503692894052708092215296",
+    "target_half_angle": "pi*(p*phi+q)/(r*phi+t)",
+    "exact_quadratic_target": {
+      "prefix": [
+        0,
+        1,
+        1,
+        4,
+        2,
+        1,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        8,
+        1,
+        1,
+        7,
+        3,
+        7
+      ],
+      "periodic_tail": [
+        1
+      ],
+      "exact_matrix": [
+        [
+          690433168,
+          94331801
+        ],
+        [
+          1251918455,
+          171045842
+        ]
+      ],
+      "determinant": 1,
+      "primitive_polynomial": [
+        1323907691653283951,
+        -1460270480137213085,
+        402669666587037055
+      ],
+      "discriminant": 5,
+      "all_positive_partial_quotients_at_most": 8,
+      "full_return_small_divisor_K": "5/2",
+      "half_return_angle": "pi*(p*phi+q)/(r*phi+t)",
+      "full_rotation": {
+        "ball": "[0.55150011188228709316755789744052316 +/- 2.31e-36]",
+        "lower": "[0.55150011188228709316755789744052316 +/- 2.31e-36]",
+        "upper": "[0.55150011188228709316755789744052316 +/- 2.31e-36]",
+        "mid_float": 0.5515001118822871,
+        "radius_upper_float": 1.7668693356724233e-96
+      },
+      "old_full_rotation_difference": {
+        "ball": "[2.1361271659384249852415853708535850e-12 +/- 1.81e-47]",
+        "lower": "[2.1361271659384249852415853708535850e-12 +/- 1.81e-47]",
+        "upper": "[2.1361271659384249852415853708535850e-12 +/- 1.81e-47]",
+        "mid_float": 2.136127165938425e-12,
+        "radius_upper_float": 2.5148244170664755e-96
+      },
+      "pure_rotation_bound": "abs(exp(2*pi*i*k*alpha)-1)>=1/(K*abs(k))",
+      "no_full_PDE_phase_arithmetic_transferred": true
+    },
+    "exact_new_conjugacy": "H_new(x)=H_old(x+w(x))",
+    "no_parameter_dependent_finite_reference_assumed": true
+  },
+  "positive_count": 8469,
+  "shards": [
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_00000.json.gz",
+      "sha256": "02068dadcbfeb1d8b72366180375dfec65270c3f3a207e0935e7fcbd242c7b04",
+      "bytes": 55544,
+      "first_positive_frequency": 0,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_00512.json.gz",
+      "sha256": "7f79ef063041bfc8d0cbc34b30b7d13790b6b1bc144214f445a0080fca592c14",
+      "bytes": 55939,
+      "first_positive_frequency": 512,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_01024.json.gz",
+      "sha256": "91bc7bc3d2216ffabfbd53c4c0a60790d07ac8d71dcf88d956a515b01c950be7",
+      "bytes": 55750,
+      "first_positive_frequency": 1024,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_01536.json.gz",
+      "sha256": "73caceec715c866477e1af61e7f6b045ba5f6e7737b664aed1c6bdf450f354b7",
+      "bytes": 55709,
+      "first_positive_frequency": 1536,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_02048.json.gz",
+      "sha256": "246d48cfa2353f09a333f3c36e6affd846cf21c4f499ec684dc048d57243000c",
+      "bytes": 55787,
+      "first_positive_frequency": 2048,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_02560.json.gz",
+      "sha256": "5134a9cc0ec344a9bfffd067fe3ca56dd028294de26d2e3599c5e3b272940786",
+      "bytes": 55718,
+      "first_positive_frequency": 2560,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_03072.json.gz",
+      "sha256": "7ac316c1e79f57f88b994a1ed7631dadce29494b665fac56010319fd3c672284",
+      "bytes": 55718,
+      "first_positive_frequency": 3072,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_03584.json.gz",
+      "sha256": "70a56baac0e71fe652ecc84691139aa051aea03436279e0e333a1ab5087e444b",
+      "bytes": 55693,
+      "first_positive_frequency": 3584,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_04096.json.gz",
+      "sha256": "b1dcbdc0934ed61d0a0546ee5605c7f5a2ae3c669effbee0eb558c9242ab2119",
+      "bytes": 55777,
+      "first_positive_frequency": 4096,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_04608.json.gz",
+      "sha256": "703b0a107e2730ba8b686a3dff3a8d1db9680631db745469da329e2c82d7d141",
+      "bytes": 55775,
+      "first_positive_frequency": 4608,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_05120.json.gz",
+      "sha256": "2efe22560b54303e65ac26d71baea0977863e302eb481214b42bd93284cbdf2b",
+      "bytes": 55760,
+      "first_positive_frequency": 5120,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_05632.json.gz",
+      "sha256": "130b8f427e856488a1fa0b3f3fdbab1e99995aebb00281073d7a27211b04dc9a",
+      "bytes": 55900,
+      "first_positive_frequency": 5632,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_06144.json.gz",
+      "sha256": "83c92af734c752c0237cdd247e5d05dee6f0ec9feba6f5327693fb4debe22552",
+      "bytes": 55814,
+      "first_positive_frequency": 6144,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_06656.json.gz",
+      "sha256": "1485517bc54beeaaadea942822ddae062c3ce5f7719d348eaf415b1f803fbc53",
+      "bytes": 55872,
+      "first_positive_frequency": 6656,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_07168.json.gz",
+      "sha256": "7da9528c6556af4b9998d9b412255bc5c4d7ed6761febac661f7a7d6044e1ddb",
+      "bytes": 55779,
+      "first_positive_frequency": 7168,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_07680.json.gz",
+      "sha256": "83e9716430a7bccf4887199b38e241c8d5fb190548dcebd113c3e080ab9fafa9",
+      "bytes": 56225,
+      "first_positive_frequency": 7680,
+      "count": 512
+    },
+    {
+      "path": "data/phase_ring_continuation/step5_half_prenewton_43308150283/exact_label_correction/positive_08192.json.gz",
+      "sha256": "6c89f9aa15ebdfdfb04e8242c5cc974e881eda0863f6e9b288d8fb147c912db8",
+      "bytes": 31607,
+      "first_positive_frequency": 8192,
+      "count": 277
+    }
+  ],
+  "real_negative_modes_are_conjugates": true,
+  "constant_coefficient_exactly_zero": true
+}

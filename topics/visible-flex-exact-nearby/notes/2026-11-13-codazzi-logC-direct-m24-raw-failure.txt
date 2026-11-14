@@ -1,0 +1,86 @@
+{
+  "kind": "floating_finite_log_curvature_Codazzi_BVP",
+  "coordinates": "B,W=log(-C)",
+  "modes": 24,
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "source_sha256": "e4c91e0145490c33c6bd98a8bc0ea034db7cb1c25b37a62aff1b3886eb0a6f26",
+  "boundary_amplitude": 1.0,
+  "state_order": "B sine k=1..M, W cosine k=0..M",
+  "physical_frequency_factor": 4,
+  "original_target_fixed": true,
+  "initial_waist_curve_changed": true,
+  "right_boundary": "scaled old actual nonmean C only, no cap DN, outer C mean free",
+  "certified": false,
+  "success": false,
+  "attempts": [
+    {
+      "amplitude": 1.0,
+      "success": false,
+      "status": 2,
+      "message": "A singular Jacobian encountered when solving the collocation system.",
+      "nodes": 751,
+      "iterations": 2,
+      "max_collocation_rms_residual": NaN,
+      "boundary_residual": Infinity,
+      "elapsed": 23.202087084000595
+    }
+  ],
+  "exact_center_parameter": {
+    "numerator": "-7789843107295549",
+    "denominator": "4611686018427387904"
+  },
+  "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+  "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+  "primitive_nodes": 512,
+  "angular_grid": 384,
+  "diagnostic_grid": 768,
+  "right": 0.25,
+  "tol": 1e-05,
+  "max_nodes": 3000,
+  "initialization": "old",
+  "requested_amplitudes": [
+    1.0
+  ],
+  "initial_radial_nodes": 251,
+  "guess_path": null,
+  "guess_sha256": null,
+  "candidate_path": "notes/2026-11-13-codazzi-logC-direct-m24-candidate.npz.gz",
+  "candidate_sha256": "9374c709601b1e144e39e43fd643531722b40d549c57e134da5329daa7a4c6bb",
+  "diagnostics": {
+    "finite_PDE_residual": 0.0,
+    "full_B_residual": 0.0,
+    "full_C_residual": 0.0,
+    "C_min": Infinity,
+    "C_max": -Infinity,
+    "initial_B_l1": 2.685205888550132e-12,
+    "initial_C_mean": -Infinity,
+    "initial_C_mean_gap": -Infinity,
+    "initial_total_turn": Infinity,
+    "initial_turn_number": Infinity,
+    "free_outer_C_mean": -1.4816261237585948e+32,
+    "outer_nonmean_C_boundary_gap_l1": 3.4072150960934544e+33
+  },
+  "exact_initial_mean_repair": "W_mean=-log(a_true(0)*mean(exp(W_nonmean))); then C0=-exp(W_mean+W_nonmean) has mean -1/a_true(0).",
+  "exact_initial_closure": "Integrate beta_theta=-a_true(0)*C0-1 with zero mean beta. Its pi/2-periodicity makes the tangent i exp(i theta+i beta) close by fourfold symmetry; X0=ez gives identity frame holonomy.",
+  "mean_retained": true,
+  "regular_trace": null,
+  "regular_flux": null,
+  "whole_parameter_interval": false,
+  "whole_real_angular_circle": false,
+  "whole_radial_domain": false,
+  "dependency_sha256": {
+    "fourfold_phase_codazzi_two_end_probe.py": "510a0ebf823f35942c0b45e67fb3ec5319cfe124996d88656fcc18a52c565eb2",
+    "fourfold_phase_codazzi_two_end_homotopy_probe.py": "33d2cf9d72bff21e66b0f9d67620383bdb1a417f9f7c33e9ace9489b6624ace9",
+    "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+    "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937",
+    "fourfold_phase_core_low_block.py": "d3b554e05f13112679786bd11a113ab8a29442b4da8f6ea0cf73c2ebb93d37be",
+    "fourfold_phase_local_correction_probe.py": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf"
+  },
+  "wall_seconds": 25.955874117998974,
+  "limitations": [
+    "Floating finite Fourier/radial BVP only; no unprojected PDE validation or infinite-tail bound.",
+    "The negative-C chart is exact for real finite W, but an arbitrarily small C is not excluded by the coordinate alone.",
+    "The initial waist curve changes, and only a chosen nonmean C outer boundary is imposed.",
+    "Mean/turning gaps above are sampled diagnostics. The stated exact mean repair is necessary before promoting a new initial curve."
+  ]
+}

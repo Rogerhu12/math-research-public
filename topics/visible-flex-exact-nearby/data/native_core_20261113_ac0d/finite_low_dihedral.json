@@ -1,0 +1,390 @@
+{
+  "kind": "exact_dihedral_compressions_of_saved_finite_low_candidate",
+  "complete": true,
+  "source_sha256": "ec7db94080f88695c06fff30f617a37d6bb44781eb42adfb2bfd0176ffc52f78",
+  "bits": 256,
+  "input_report": {
+    "path": "notes/2026-11-12-actual-low-feedback-paid-cap-interface-M4.json",
+    "sha256": "57d697f30eb18fc9daff787faf2d59d700f167726c74b6465821a98b22ce66e2"
+  },
+  "input_arrays": {
+    "path": "notes/2026-11-12-actual-low-feedback-paid-cap-interface-M4.npz",
+    "sha256": "aad06ad36773210c398c41b7f4b515631301d3e54f84322332d0fb49b6087837",
+    "bytes": 11512
+  },
+  "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+  "exact_delta_fraction": "-7789843107295549/4611686018427387904",
+  "modes": 4,
+  "physical_cut": "1/4",
+  "height_order": "0",
+  "full_dimension": 21,
+  "angular_even_dimension": 13,
+  "angular_odd_dimension": 8,
+  "desired_sector": "angular_even_waist_even",
+  "desired_sector_dimension": 6,
+  "full_port_order": "left -N..N, right -N..N, left regular, right regular, translation border",
+  "Hilbert_normalization": "W diagonal: height Fourier k has max(1,4|k|)^s, both regular slots and border have weight one; the Hermitian form matrix is W^-1 A W^-1.",
+  "exact_candidate_definition": "Take the Hermitian part of the saved exact dyadic bordered matrix, then average over both commuting exact involutions S and J. Restrict by the exactly normalized joint parity bases defined in the source.",
+  "hermitian_projection_change": {
+    "ball": "0",
+    "lower": "0",
+    "upper": "0",
+    "mid_float": 0.0,
+    "radius_upper_float": 0.0
+  },
+  "angular_projection_change": {
+    "ball": "[1.3852638531385673746638249387380500e-14 +/- 3.95e-49]",
+    "lower": "[1.3852638531385673746638249387380500e-14 +/- 3.95e-49]",
+    "upper": "[1.3852638531385673746638249387380500e-14 +/- 3.95e-49]",
+    "mid_float": 1.3852638531385674e-14,
+    "radius_upper_float": 0.0
+  },
+  "waist_projection_change": {
+    "ball": "[1.4974695727189561310984120005247071e-15 +/- 7.95e-51]",
+    "lower": "[1.4974695727189561310984120005247071e-15 +/- 7.95e-51]",
+    "upper": "[1.4974695727189561310984120005247071e-15 +/- 7.95e-51]",
+    "mid_float": 1.4974695727189562e-15,
+    "radius_upper_float": 0.0
+  },
+  "complete_cross_block_rounding_enclosures": [
+    {
+      "sectors": [
+        "angular_even_waist_even",
+        "angular_even_waist_odd"
+      ],
+      "exact_zero": true,
+      "arithmetic_enclosure": {
+        "ball": "[2.7355629097876247642334820646037868e-77 +/- 2.43e-112]",
+        "lower": "[2.7355629097876247642334820646037868e-77 +/- 2.43e-112]",
+        "upper": "[2.7355629097876247642334820646037868e-77 +/- 2.43e-112]",
+        "mid_float": 2.735562909787625e-77,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "sectors": [
+        "angular_even_waist_even",
+        "angular_odd_waist_even"
+      ],
+      "exact_zero": true,
+      "arithmetic_enclosure": {
+        "ball": "[3.5896925978060391356193918818657826e-78 +/- 4.36e-113]",
+        "lower": "[3.5896925978060391356193918818657826e-78 +/- 4.36e-113]",
+        "upper": "[3.5896925978060391356193918818657826e-78 +/- 4.36e-113]",
+        "mid_float": 3.5896925978060393e-78,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "sectors": [
+        "angular_even_waist_even",
+        "angular_odd_waist_odd"
+      ],
+      "exact_zero": true,
+      "arithmetic_enclosure": {
+        "ball": "[3.5896925978060391356193918818657826e-78 +/- 4.36e-113]",
+        "lower": "[3.5896925978060391356193918818657826e-78 +/- 4.36e-113]",
+        "upper": "[3.5896925978060391356193918818657826e-78 +/- 4.36e-113]",
+        "mid_float": 3.5896925978060393e-78,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "sectors": [
+        "angular_even_waist_odd",
+        "angular_odd_waist_even"
+      ],
+      "exact_zero": true,
+      "arithmetic_enclosure": {
+        "ball": "[2.4118612067107357199838004364867514e-78 +/- 2.33e-113]",
+        "lower": "[2.4118612067107357199838004364867514e-78 +/- 2.33e-113]",
+        "upper": "[2.4118612067107357199838004364867514e-78 +/- 2.33e-113]",
+        "mid_float": 2.411861206710736e-78,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "sectors": [
+        "angular_even_waist_odd",
+        "angular_odd_waist_odd"
+      ],
+      "exact_zero": true,
+      "arithmetic_enclosure": {
+        "ball": "[2.4118612067107357199838004364867514e-78 +/- 2.33e-113]",
+        "lower": "[2.4118612067107357199838004364867514e-78 +/- 2.33e-113]",
+        "upper": "[2.4118612067107357199838004364867514e-78 +/- 2.33e-113]",
+        "mid_float": 2.411861206710736e-78,
+        "radius_upper_float": 0.0
+      }
+    },
+    {
+      "sectors": [
+        "angular_odd_waist_even",
+        "angular_odd_waist_odd"
+      ],
+      "exact_zero": true,
+      "arithmetic_enclosure": {
+        "ball": "0",
+        "lower": "0",
+        "upper": "0",
+        "mid_float": 0.0,
+        "radius_upper_float": 0.0
+      }
+    }
+  ],
+  "exact_cross_blocks_zero": true,
+  "known_partial_finite_fee": {
+    "ball": "[0.00075783080249710695882708250834093592 +/- 2.46e-39]",
+    "lower": "[0.00075783080249710695882708250834093592 +/- 2.46e-39]",
+    "upper": "[0.00075783080249710695882708250834093592 +/- 2.46e-39]",
+    "mid_float": 0.000757830802497107,
+    "radius_upper_float": 0.0
+  },
+  "known_fee_scope": "Original paid cap/interface/symmetrization fees plus saved-center selection. Unpaid actual core and high-feedback errors remain excluded. Both group averages and the isometries contract errors relative to the actual symmetric target; W^-1 has norm <=1 for the allowed orders.",
+  "sectors": {
+    "angular_even_waist_even": {
+      "dimension": 6,
+      "inverse_certified": true,
+      "saved_center_selection_error": {
+        "ball": "[2.3017028126063265354743178121197817e-16 +/- 6.20e-52]",
+        "lower": "[2.3017028126063265354743178121197817e-16 +/- 6.20e-52]",
+        "upper": "[2.3017028126063265354743178121197817e-16 +/- 6.20e-52]",
+        "mid_float": 2.3017028126063266e-16,
+        "radius_upper_float": 0.0
+      },
+      "inverse_candidate_residual": {
+        "ball": "[9.6137699575498113880796089653733182e-15 +/- 3.83e-50]",
+        "lower": "[9.6137699575498113880796089653733182e-15 +/- 3.83e-50]",
+        "upper": "[9.6137699575498113880796089653733182e-15 +/- 3.83e-50]",
+        "mid_float": 9.613769957549811e-15,
+        "radius_upper_float": 0.0
+      },
+      "inverse_candidate_norm": {
+        "ball": "[63.179794308324429848826519435688799 +/- 1.94e-34]",
+        "lower": "[63.179794308324429848826519435688799 +/- 1.94e-34]",
+        "upper": "[63.179794308324429848826519435688799 +/- 1.94e-34]",
+        "mid_float": 63.17979430832443,
+        "radius_upper_float": 0.0
+      },
+      "exact_parity_block_inverse_norm_upper": {
+        "ball": "[63.179794308325037244834964987497262 +/- 2.62e-34]",
+        "lower": "[63.179794308325037244834964987497262 +/- 2.62e-34]",
+        "upper": "[63.179794308325037244834964987497262 +/- 2.62e-34]",
+        "mid_float": 63.179794308325036,
+        "radius_upper_float": 0.0
+      },
+      "angular_sign": 1,
+      "waist_sign": 1,
+      "coordinates": [
+        "paired angular mean",
+        "paired cos(4theta)",
+        "paired cos(8theta)",
+        "paired cos(12theta)",
+        "paired cos(16theta)",
+        "paired regular mean"
+      ],
+      "known_partial_fee_product": {
+        "ball": "[0.047879594222280113659865227967127439 +/- 4.27e-37]",
+        "lower": "[0.047879594222280113659865227967127439 +/- 4.27e-37]",
+        "upper": "[0.047879594222280113659865227967127439 +/- 4.27e-37]",
+        "mid_float": 0.047879594222280115,
+        "radius_upper_float": 0.0
+      },
+      "remaining_unpaid_error_allowance": {
+        "ball": "[0.015070014332925130396290896307826693 +/- 4.91e-37]",
+        "lower": "[0.015070014332925130396290896307826693 +/- 4.91e-37]",
+        "upper": "[0.015070014332925130396290896307826693 +/- 4.91e-37]",
+        "mid_float": 0.01507001433292513,
+        "radius_upper_float": 0.0
+      }
+    },
+    "angular_even_waist_odd": {
+      "dimension": 7,
+      "inverse_certified": true,
+      "saved_center_selection_error": {
+        "ball": "[6.8388908735414907813217154267454973e-17 +/- 4.95e-52]",
+        "lower": "[6.8388908735414907813217154267454973e-17 +/- 4.95e-52]",
+        "upper": "[6.8388908735414907813217154267454973e-17 +/- 4.95e-52]",
+        "mid_float": 6.838890873541491e-17,
+        "radius_upper_float": 0.0
+      },
+      "inverse_candidate_residual": {
+        "ball": "[1.3718606198244165461522307712655674e-15 +/- 1.04e-50]",
+        "lower": "[1.3718606198244165461522307712655674e-15 +/- 1.04e-50]",
+        "upper": "[1.3718606198244165461522307712655674e-15 +/- 1.04e-50]",
+        "mid_float": 1.3718606198244166e-15,
+        "radius_upper_float": 0.0
+      },
+      "inverse_candidate_norm": {
+        "ball": "[33.633717465145312626434449005462301 +/- 5.23e-35]",
+        "lower": "[33.633717465145312626434449005462301 +/- 5.23e-35]",
+        "upper": "[33.633717465145312626434449005462301 +/- 5.23e-35]",
+        "mid_float": 33.63371746514531,
+        "radius_upper_float": 0.0
+      },
+      "exact_parity_block_inverse_norm_upper": {
+        "ball": "[33.633717465145358767206937739078291 +/- 1.81e-34]",
+        "lower": "[33.633717465145358767206937739078291 +/- 1.81e-34]",
+        "upper": "[33.633717465145358767206937739078291 +/- 1.81e-34]",
+        "mid_float": 33.63371746514536,
+        "radius_upper_float": 0.0
+      },
+      "angular_sign": 1,
+      "waist_sign": -1,
+      "coordinates": [
+        "paired angular mean",
+        "paired cos(4theta)",
+        "paired cos(8theta)",
+        "paired cos(12theta)",
+        "paired cos(16theta)",
+        "paired regular mean",
+        "translation border"
+      ],
+      "known_partial_fee_product": {
+        "ball": "[0.025488667097572069284277904657257408 +/- 4.75e-37]",
+        "lower": "[0.025488667097572069284277904657257408 +/- 4.75e-37]",
+        "upper": "[0.025488667097572069284277904657257408 +/- 4.75e-37]",
+        "mid_float": 0.025488667097572068,
+        "radius_upper_float": 0.0
+      },
+      "remaining_unpaid_error_allowance": {
+        "ball": "[0.028974237947747363917712480100472901 +/- 4.51e-37]",
+        "lower": "[0.028974237947747363917712480100472901 +/- 4.51e-37]",
+        "upper": "[0.028974237947747363917712480100472901 +/- 4.51e-37]",
+        "mid_float": 0.028974237947747363,
+        "radius_upper_float": 0.0
+      }
+    },
+    "angular_odd_waist_even": {
+      "dimension": 4,
+      "inverse_certified": true,
+      "saved_center_selection_error": {
+        "ball": "[2.3380227186779122407563987809836737e-16 +/- 1.64e-51]",
+        "lower": "[2.3380227186779122407563987809836737e-16 +/- 1.64e-51]",
+        "upper": "[2.3380227186779122407563987809836737e-16 +/- 1.64e-51]",
+        "mid_float": 2.338022718677912e-16,
+        "radius_upper_float": 0.0
+      },
+      "inverse_candidate_residual": {
+        "ball": "[7.4673637189302291781752375665248096e-15 +/- 1.98e-50]",
+        "lower": "[7.4673637189302291781752375665248096e-15 +/- 1.98e-50]",
+        "upper": "[7.4673637189302291781752375665248096e-15 +/- 1.98e-50]",
+        "mid_float": 7.467363718930229e-15,
+        "radius_upper_float": 0.0
+      },
+      "inverse_candidate_norm": {
+        "ball": "[9.4373260129865296159941100223113046 +/- 3.29e-35]",
+        "lower": "[9.4373260129865296159941100223113046 +/- 3.29e-35]",
+        "upper": "[9.4373260129865296159941100223113046 +/- 3.29e-35]",
+        "mid_float": 9.43732601298653,
+        "radius_upper_float": 0.0
+      },
+      "exact_parity_block_inverse_norm_upper": {
+        "ball": "[9.4373260129866000879399831149216427 +/- 2.38e-35]",
+        "lower": "[9.4373260129866000879399831149216427 +/- 2.38e-35]",
+        "upper": "[9.4373260129866000879399831149216427 +/- 2.38e-35]",
+        "mid_float": 9.4373260129866,
+        "radius_upper_float": 0.0
+      },
+      "angular_sign": -1,
+      "waist_sign": 1,
+      "coordinates": [
+        "paired sin(4theta)",
+        "paired sin(8theta)",
+        "paired sin(12theta)",
+        "paired sin(16theta)"
+      ],
+      "known_partial_fee_product": {
+        "ball": "[0.0071518963458484579936723124671780254 +/- 1.38e-38]",
+        "lower": "[0.0071518963458484579936723124671780254 +/- 1.38e-38]",
+        "upper": "[0.0071518963458484579936723124671780254 +/- 1.38e-38]",
+        "mid_float": 0.007151896345848458,
+        "radius_upper_float": 0.0
+      },
+      "remaining_unpaid_error_allowance": {
+        "ball": "[0.10520438758689741489471208806962091 +/- 1.68e-36]",
+        "lower": "[0.10520438758689741489471208806962091 +/- 1.68e-36]",
+        "upper": "[0.10520438758689741489471208806962091 +/- 1.68e-36]",
+        "mid_float": 0.10520438758689742,
+        "radius_upper_float": 0.0
+      }
+    },
+    "angular_odd_waist_odd": {
+      "dimension": 4,
+      "inverse_certified": true,
+      "saved_center_selection_error": {
+        "ball": "[1.9834522459665745425038133649763222e-16 +/- 1.45e-51]",
+        "lower": "[1.9834522459665745425038133649763222e-16 +/- 1.45e-51]",
+        "upper": "[1.9834522459665745425038133649763222e-16 +/- 1.45e-51]",
+        "mid_float": 1.9834522459665745e-16,
+        "radius_upper_float": 0.0
+      },
+      "inverse_candidate_residual": {
+        "ball": "[1.2792185643600599278504917838393586e-15 +/- 1.59e-50]",
+        "lower": "[1.2792185643600599278504917838393586e-15 +/- 1.59e-50]",
+        "upper": "[1.2792185643600599278504917838393586e-15 +/- 1.59e-50]",
+        "mid_float": 1.2792185643600598e-15,
+        "radius_upper_float": 0.0
+      },
+      "inverse_candidate_norm": {
+        "ball": "[4.1160367616762041818813719694781052 +/- 4.04e-35]",
+        "lower": "[4.1160367616762041818813719694781052 +/- 4.04e-35]",
+        "upper": "[4.1160367616762041818813719694781052 +/- 4.04e-35]",
+        "mid_float": 4.116036761676204,
+        "radius_upper_float": 0.0
+      },
+      "exact_parity_block_inverse_norm_upper": {
+        "ball": "[4.1160367616762094471920090941488866 +/- 1.03e-36]",
+        "lower": "[4.1160367616762094471920090941488866 +/- 1.03e-36]",
+        "upper": "[4.1160367616762094471920090941488866 +/- 1.03e-36]",
+        "mid_float": 4.1160367616762095,
+        "radius_upper_float": 0.0
+      },
+      "angular_sign": -1,
+      "waist_sign": -1,
+      "coordinates": [
+        "paired sin(4theta)",
+        "paired sin(8theta)",
+        "paired sin(12theta)",
+        "paired sin(16theta)"
+      ],
+      "known_partial_fee_product": {
+        "ball": "[0.0031192594422086751867028303683452879 +/- 6.68e-39]",
+        "lower": "[0.0031192594422086751867028303683452879 +/- 6.68e-39]",
+        "upper": "[0.0031192594422086751867028303683452879 +/- 6.68e-39]",
+        "mid_float": 0.003119259442208675,
+        "radius_upper_float": 0.0
+      },
+      "remaining_unpaid_error_allowance": {
+        "ball": "[0.24219432387961056768356284861345788 +/- 3.40e-36]",
+        "lower": "[0.24219432387961056768356284861345788 +/- 3.40e-36]",
+        "upper": "[0.24219432387961056768356284861345788 +/- 3.40e-36]",
+        "mid_float": 0.24219432387961057,
+        "radius_upper_float": 0.0
+      }
+    }
+  },
+  "desired_angular_mean_retained": true,
+  "desired_symmetric_regular_mean_retained": true,
+  "translation_border_retained_in_angular_even_waist_odd_sector": true,
+  "actual_core_radial_error_paid": false,
+  "entire_eta_family_certified": false,
+  "rigorous_full_Schur_inverse": false,
+  "dependency_sha256": {
+    "fourfold_phase_low_feedback_paid_inputs.py": "4e50c307b451aa574af994ac4bfc9a5da1e057de6fdc024a2854dd58ec4e06b8",
+    "fourfold_phase_cap_energy_collect.py": "e15fd40314ecd539c7e162041de70f18e7bae153e244fbc4e6df82e39107b11f",
+    "fourfold_phase_beta_interval.py": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f"
+  },
+  "arrays": {
+    "path": "data/native_core_20261113_ac0d/finite_low_dihedral.npz",
+    "sha256": "ef0d54aa450e2610e8153989e9a99031cff03dc720c8b013569d437ab85a51b9",
+    "bytes": 5213
+  },
+  "scope": [
+    "Only the saved finite candidate is decomposed and inverted here.",
+    "R105 proves the exact actual involutions, including the positive left groundstate -Yz and right groundstate +Yz.",
+    "The desired invariant Newton problem may use the (N+2)-dimensional block only when its source, geometry, realization and nonlinear reconstruction retain the full stated symmetry.",
+    "The paired regular trace/flux and angular mean remain genuine ports; translation compatibility follows from symmetry and is not replaced by deleting a nonzero source.",
+    "The actual finite core and complete symmetric high problem remain necessary; no new numerical inverse is inferred before execution."
+  ]
+}
