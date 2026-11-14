@@ -747,3 +747,7 @@
 ### R296 附录：出生二共同商与两种实际交换尺度
 
 [完整证明](results/R296-appendix-birth-two-common-quotient-and-two-exchange-scales.md)把整个K2准确识别为双中心交叉W与两组二次A,D模唯一相反常数gauge；同一代表保三个相邻切片。对τ≤1，实际精度满足z_S(τG1+τ²G2)/5≤C_n≤6z_S(τG1+τ²G2)，由真实首事件正交、两次交换与完整仿射Schur得出。组内小方向确为τ²，权可任意不均；单高度比较尚不等于加强S1，低最大原子区域仍可能有高次特征退化。
+
+### R296 附录：出生二相邻首事件的完整ridge与组内实际精度
+
+[完整证明](results/R296-appendix-birth-two-neighbor-regression-and-physical-birth-one-ridge.md)在同一W,A,D商上准确消去相邻切片r=0,1全部仿射nuisance；组内A与交叉W在真Schur中正交。组内ridge为τ〈(I+τTαTα*)^−1F_A,F_A〉，Tα*Tα恰真实组内birth1精度且≤I，给最优系数和τ/(1+τ)至τ的准确比较。上切片对称，组仅两位时真实方差零；所得是完整残差下界，未将低事件最优系数当全回归。

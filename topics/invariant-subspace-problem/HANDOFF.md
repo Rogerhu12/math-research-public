@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `2558b082541352db593a2b76730d4519054554c6`（2026-11-14 10:07:33 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `b73e3678ae8f8fe67e6e58d8606c8e31f99724c3`（2026-11-14 10:09:37 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。`0c17ddf2`新增表列课题/规矩1、13扩范围，`ee26c0a6`仅改另题标题，均已读，ISP标准不变。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`；旧丢失R272正常预对偶与R273完整MP已重建并推送。
@@ -35,7 +35,7 @@
 - **R293：** [强位传输](results/R293-heavy-bit-transfer-of-strengthened-first-edge-sos.md)保非单位源/上分支与真实创新，负见证可传有限权；[单异常权](results/R293-appendix-one-exceptional-weight-all-births-all-heights-strengthened-s1.md)全出生/全高度严格加强c1。[全高度等价](results/R293-appendix-all-height-strengthened-s1-heavy-bit-equivalence.md)付任意κ>0的全birth首阶加强式⇔全height同κ式，亦足普通相邻；普通序不反推加强式，一般全birth有限κ仍开。
 - **R294：** [共同对角比较](results/R294-birth-one-uniform-diagonal-gram-comparison-and-common-newton-blocks.md)及其[完整来源证明](results/R294-appendix-complete-proof-of-the-normalized-covariance-input.md)付任意正权birth1全height的½A≤Γ≤A、共同A Newton及无限固定高度。原连续尾应用把旧列幂61降28、顶锚范数为4(d+2)^14√S；本稿自身不替原Γ中间项，无速率锚/graph仍开。
 - **R295：** [实际Turán余量](results/R295-birth-one-turan-remainder-law-and-all-height-strengthened-s1.md)保同源协方差/真实桥，给κ=ρ的完整SOS及原连续j⁻⁴尾统一674/81。[统一常数附录](results/R295-appendix-universal-birth-one-strengthened-s1-by-atomic-splitting.md)现用最大原子分区、无放回矩及加权扰动保真实平方，付任意正权整个birth1/全部height加强κ=1024：有限严格、无限正ℓ²非严格，含硬端/完整物理逆。无需外部协方差下界；一般birth与graph仍开。
-- **R296：** [全birth残差/真实桥](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)在乘积权切片中减全部低阶特征，从加权伴随最多升一degree证明两带；Θ_n=L_(n+2)BC_n之差恰真实创新。共同Z_n能量=C_(n+1)+δL_(n+2)⁻¹δ*，加强序等价其实际运输界；保硬顶与C²深塔。[完整二阶差](results/R296-appendix-complete-regression-second-difference-and-common-source-invariance.md)付真实创新−P_L(g_next−2g_mid+g_prev)及共同商代表不变；出生二共同商已付τ≤1时全源z_S(τG1+τ²G2)/5≤C_n≤6z_S(τG1+τ²G2)；真实创新/相邻完整逆与一般κ仍开。
+- **R296：** [全birth残差/真实桥](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)在乘积权切片中减全部低阶特征，从加权伴随最多升一degree证明两带；Θ_n=L_(n+2)BC_n之差恰真实创新。共同Z_n能量=C_(n+1)+δL_(n+2)⁻¹δ*，加强序等价其实际运输界；保硬顶与C²深塔。[完整二阶差](results/R296-appendix-complete-regression-second-difference-and-common-source-invariance.md)付真实创新−P_L(g_next−2g_mid+g_prev)及共同商代表不变；出生二共同商已付τ≤1时全源z_S(τG1+τ²G2)/5≤C_n≤6z_S(τG1+τ²G2)；相邻首两类事件的完整ridge现化组内真C1≤I；全事件创新/相邻完整逆与一般κ仍开。
 - **续接/CI：** [S2计划/实际回执](notes/2026-11-14-primitive-bridge-actions-plan-789f.md)保43575194207两列完整成功与源哈希；不重启替代展开。继续高birth真实交换尺度、弱位临界块与R150常枢轴降阶。R294新来源已补完整证明；原正常谱/商距离缺口保留；新原生入口/所有未推稿保工作树。
 
 ## 3. R150 与其他主接口
