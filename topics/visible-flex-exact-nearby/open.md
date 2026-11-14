@@ -1,199 +1,172 @@
 # 待解：同一个最终精确闭嵌入族
 
-更新：2026-11-14 07:58 UTC。**主目标未完成，持续研究。**
-本次以前所有逐项结论、失败和旧任务完整保存在
-[全主体消费者前归档](notes/2026-11-14-open-history-before-complete-body-geometry-consumers.md)，再链其中的更早归档。
-本页已将实际完成的原始重放、完整残差、strict/mean/positive及完整有限提案从“未执行”中移出。
-真实作业断点、规则读取SHA与迁移状态随时以HANDOFF同步；不能把历史归档的旧“未跑”覆盖当前完成记录。
+更新：2026-11-14 10:30 UTC。**主目标未完成，持续研究。**
+本次以前的完整逐项状态、原失败和旧待执行项保存在
+[10:30 前的 open 归档](notes/2026-11-14-open-history-before-complete-cap-and-K48.md)，
+再链其中的更早归档。历史“未执行”不得覆盖本页、HANDOFF 和真实原生记录中的完成状态。
 
-## 0. 必须在同一个最终族完成
+## 0. 不改变的完成标准与准确对象
 
-一个公共精确度量、同一连通闭面、C²连续的精确C²嵌入族。令D=diam(F0)：闭H有内点、diam(F0(H))≥.2D且逐点固定；未对齐全像held≥.05D；含反射E(3)非全等δE>0；全部参数reach≥.03D。
-材料phase单独仍是刚体旋转，必须在同一最终族固定区加入四个不同、非共面的曲率marker。不能拿不同候选的energy/reach/held或旧R131有边环带代替。
-当前Eν=Eexp(νw)，w支(.05,.18)，a不变。构造时允许最终选一次(η*,ν*)；选定后整个flex族必须固定同一度量与ν，flex参数另记。
+须在一个公共精确度量上得到同一连通闭面上的精确 C² 嵌入族，族在 C² 中连续。
+令 D=diam(F0)：闭材料握持集 H 有内点、diam(F0(H))≥.2D 且逐点固定；
+未对齐像的 held≥.05D；含反射的 E(3) 非全等量 δE>0；全部参数 reach≥.03D。
+纯材料 phase 仍为刚体旋转；同一最终闭族中的四个不同、非共面静态曲率 marker 必须实际构造。
+条件几何、有限提案、有边环带、小振幅存在或局部谱命题都不是完成。
 
-## 1. 当前中心：已经恢复、实际完整的输入
+原完整中心 SHA256 为
+`ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413`，
+6145 径向节点、M32、512 角点、真实区间 [0,25/8]。
+α=6890507429876859/9007199254740992，
+ν0=−2572625729470897/72057594037927936，
+η0=−7789843107295549/4611686018427387904。
+六阶段重放和全部科学字段已恢复，不再求解同一个有限中心。
+[准确连续值修复](results/R133-supplement-exact-continuous-repair-of-final-centre.md)
+定义 SHA 为 `440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47`，
+保全 6143×65 接口、腰和完整右 offset。原 ac1 与修复中心不是同一对象；
+算子、源、端图与几何的转移要付真实修复费。
 
-原完整中心SHA ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413，6145径向节点/M32/512角/真实[0,25/8]。
-α=6890507429876859/9007199254740992，ν=−2572625729470897/72057594037927936。
-原六阶段重放全部实际完成；五gzip/payload/16科学字段/65初值uint64及[4,6144,65]同原身份。
-[通用重构入口](notes/2026-11-14-R133-common-six-stage-runner-entry.md)保全部阶段原门和最终SHA，不依赖不存在的远程大分片。
-有限BVP的RMS1.999907e−9和FFT门只定义有限中心，不是精确PDE。
+构造时可最终选择一次 (η*,ν*)，但选定后 flex 参数另记，整个最终族的度量与 ν 固定。
+目前完整几何及 phase 合并范围严格为 η=η0；不能把单独 whole-η 消费者的范围移给全部结论。
 
-实际仿射中心η0=−7789843107295549/4611686018427387904。`half_width=0`意为η=η0；全η报告意为原对象中心周围的真实偏移区间。
-[精确连续值修复](results/R133-supplement-exact-continuous-repair-of-final-centre.md)的新定义SHA为440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47；全6143×65接口用有理数精确修复，腰不变、右65offset完整保留。片常修复A0<3.861e−18/A3<5.635e−16。原ac1和修复中心分开，任何算子、残差、端图或几何证书转移仍付真实变化。
+## 1. 已完整的输入与当前实际作业
 
-| 实际完成输入 | 可直接使用的内容 | 仍不能推出 |
+所有来源、真实范围及失败过程通过 results.md、log.md 和历史 open 继续保留。
+
+| 对象 | 已经实际完成 | 尚不能推出 |
 |---|---|---|
-| [原完整残差](notes/2026-11-14-R133-final-complete-moving-residual.md) | 7296闭盒/6143接口，A0/A1/L1/L2、全96支撑、两mean、primitive无限尾；右7271域拒及另25全ηgraft身份保 | 邻域全η、精确PDE或浸入 |
-| strict与root实际消费者 | 3071严格负盒/2549跳；共同root piece15门与fold27门；全四态正向和reverse12能量 | 负侧完整边值逆或单incoming逆 |
-| 完整scalar mean | 7721盒/6143跳，Γ<1.013237；L2非mean回填<.103384/mean源<.538112/ν列<.002935584 | 将未知mean置零或删除mean源 |
-| 完整positive与negative-height | 4650盒，N97 feedback order0<.303291679/order1<.788277736；height窗反馈<.711062297 | 整主体全补逆 |
-| [修复moving cap完整残差桥](results/R133-supplement-actual-continuous-moving-cap-complete-residual-bridge.md) | [.9,25/8]1341闭帽盒，χ附加<.003840162，完整Hessian/两mean/divergence及jump费用 | 负侧return或全局逆 |
-| 完整ν5M核 | 1156盒/864跳，全η源<1.964956、signed核+跳<625.523019 | 真伴随或Schur非零 |
-| [全部regular有限q/ψ](notes/2026-11-14-R133-complete-all-regular-response-and-adjoint.md) | 193态/6145节点，完整6144块FFT相对残差2.5908e−11/3.1666e−11，所有Hermite输出 | 连续体逆、真ν横截 |
-| [连续角模型几何](notes/2026-11-14-R133-final-complete-angular-defect.md) | 7722共同盒/6143跳；位置角插值误差<7.024610e−6 | 径向积分误差、真帽world anchor、最终reach |
-
-上述每项完整native/源/身份均有独立已推结论；H中保其最新提交号和大可重建输入路径。
-
-## 2. 必须继续：全频、全源、全mean主体逆
-
-### 2.1 完整regular补问题和真正连续残差
-
-现在优先使用固定ν的全部regular边值算子A_reg：全部96条腰u行、全部97条外mean/Robin行，特别保留物理第四Robin。物理腰C4幅度为输出。
-响应约定Dqν=+∂νF；其完整physical unnormalized状态已经含sν，不再重复加参考列。伴随保Gram：非零sine/cosine权1/2、mean权1，全部物理转置及第四乘子保。
-旧b4-output提案FFT首门8.69e13/2.65e14失败保留，不改写为这次allregular成功。
-
-接着实际完成：完整标量mean回填；body普通/高壳/全部接口残差；physical腰/外端图与全部高模式；signed双残差。body-v2已完成7721系数及两条完整mean后在首残差类型调用实际失败；保留原失败容器。v3复用后523行显示独立宽包络过粗，已主动停止，下一消费者直接联合消去径向多项式并推进mean误差。完整独立边界、256物理矩和两组6143跳已完成，仍须减去完整体积分。有限腰幅Schur8.181474仍只是提案；完整qν和ψ的真实修正须由同一全局逆支付。
-[193态连续投影Green定理](results/R133-supplement-continuous-head-Green-from-a-regular-subspace.md)的原源/边界/跳、投影残差E和C=2P Sym(A)(I−P)−E*不得略掉；实际st<1还须验证。若该文件入口有变，以results索引中同标题的已发表定理为准，不重写未证常数。
-
-### 2.2 全物理帽矩阵到内端图
-
-全模physical帽Green已经保完整Fourier、普通/divergence/接口源、两mean及真实外q差；在同一修复背景上，残差Hessian反馈已实际合并。
-新的96-column DN提案保193态及全部97外行、真实9/10内端，而非偷偷把9/10当binary64 .9。
-原660块/96列提案已从真实SIGBUS−7恢复并完整normal0，原FFT5.705156e−15；所有失败过程和大数组SHA保。1296块局部加密96列也已normal0，FFT6.861356e−15；真实首2闭片带权普通B/C已降至1.480231e−4/3.735972e−6。新的257状态/128物理输入提案和到全部97个moving输入的预合成都已完整normal0，全部1977闭片的连续残差正在互斥分片实际计算；物理C高尾128以后已有严格界1.757236e−14，finite moving头不等于同阶physical头。
-
-[物理逆角径向Fourier jets](results/R133-supplement-physical-cap-inverse-angle-radial-Fourier-jets.md)在真实wide闭格已经付512节点/cut128/σ1/16/三阶径向余项/全部alias及无限尾，QB/QC误差<2.165586e−10/3.658844e−9。下一步必须消费完整96列Hermite矩阵、全部物理输出模式和全部外行；每个真正径向格都通过同样解析逆角门后才授全帽矩阵残差。未知系数余项保divergence源，不能偷付一个未有的角导数。
-真实全模帽Green再将完整矩阵残差和端行误差转为准确内端图，随后与整个正区、root双端口和负区接线。端口成立不等于同坐标BVP全逆。
-
-### 2.3 负区完整return和真正phase scalar
-
-[全部regular相位counterterm及真实误差泛函](results/R133-supplement-full-regular-phase-counterterm-and-actual-error-functional.md)保direct metric、全qν状态、even mean、两条特征、逆ray Jacobian、腰与根坐标图。
-实际3071 strict+真实root+连续修复给∫||dφ||∞<.036374621、响应误差L2(E0)→C0<1.273240（ordinary L2<1.274436），没有q^-1根奇点。
-精确候选目标ρ*=(612575−sqrt5)/2228182，continued fraction [0;3,1,1,1,3,7,1,3,overline1]；所有partial quotient≤7给principal四次单位根gap>1/(36|j|)。这是目标，不是当前返回已经具有该旋转数。
-
-优先闭合真正的P(Q,ν)∘g=g∘RΩ*及全部regular主体方程。真实scalar SΩ=tν+LΩqν必须实际非零，且所有响应、flow、conjugacy、background变化误差都要支付。点态twist不单调；rotation number一般有平台，不假设整个参数区间可微。
-真实β/j第一标量相位能与1/j小分母同阶竞争；完整β、非mean部分、strong余项、root幅度/Maslov及positive反射必须进入同一个normalform。不能只锁principal rotation便宣称完整return可逆。
-腰幅允许作为最终输出，但可见性预算必须用最终真实输出重付；不能用这个选择掩盖原目标失败。
-
-## 3. 当前无限尾：原单位、非径向簇与所有源
-
-当前profile保129..8192前缀，8193后K2^128/ζ131，双bump、两mean和全部stop/metric参数约束继续。
-47完整尾重建、48完整有限head至14400、49真实首密度相位、50真正(ω,β)联立、51实际strong高网络均已发表；高阈值Tj=2^65536(j+5)^204δ^-320以下的移动中间块不能由固定head或高频Neumann跳过。原R=2^-60000000入口和完整F不改。
-
-53–68已经逐步付原完整普通/weak源、两physical图、Γ*两列、两phase补偿、实际band半径/频率数、完整Hessian、真实wave和四阶局部控制。特别68的五函数Wronskian消λ并给所有κ=M²/B上的全有限盒generator>2^-175000 M^-1891。
-[同一个公共径向网络的1894阶逆](results/R119-supplement-five-function-common-radial-polynomial-resolvent.md)现在保原canonical端口、同角宽、原local双侧权及联合好集>1−147/16384。它是允许族中新的公共选择；依赖具体点且没有全盒统一证明的证书仍须在最终选点支付。
-对已证明转为原Nm=Cζe^-τ∞M M^-30960单位的完整源列，剩余29066幂且保2^175007Cζ。ordinary/weak物理源到端口、总/裸通量端荷、材料密度/Jacobian、normal shear和全域重建不能免付。
-
-当前优先真实非径向完整参数导数和近簇：内部短片的正型必须接全部外部响应、DΓ*两列、真实端图和不同M混模。不能用一个局部rank-one方向、绝对扰动除径向gap或有限频率扫描代替整个实际网络。
-硬chronological cutoff有真实order−2端项，只有≥2N的两侧buffer才已付order−4。不得免费固定period或两端slice。
-备用更深P1024新profile未采用；若采用，全部标签、regular/mean/ν/第四模/fullF身份和费用重新付，旧94步非零余量不得自动重用。
-
-## 4. 全局逆到同一精确非线性解
-
-[完整moving非线性通量余项](results/R133-supplement-complete-moving-nonlinear-flux-and-metric-remainder.md)保全primitive、两mean、二三次通量、ν混合与参考二阶径向项。root整germ A1/1024球ρ≤.01给A1/2048余项<51000ρ²、Jac差<102000ρ；这本身不是全域同范数收缩。
-必须把负区/root/正区/真帽/完整无限尾接成同一全频、全源、全mean/参数边值逆，再选择兼容真实导损的解析或tame迭代。finite QR、局部能量、有限阶端口逆、一个full-return主符号都不能独立替代这一步。
-独立fB、外mean高度、另一外F方程、全部holonomy与C²腰反射/闭帽条件仍保留；不能事先置fB=0或只解一条Robin。
-
-## 5. 准确全状态到最终可见闭几何
-
-[状态校正到几何](results/R133-supplement-moving-state-correction-to-complete-geometry.md)保a/γ/β/K变更、mean、高模、ordinary径向源和所有接缝，以正交无指数双积分支付位置/法向；曲率另付v-gap。
-原moving模型有真实θr−τ=I(Rv−vR0/m)/m，不能把未解中心连接冒作精确physical pullback。
-
-完整浮点geometry已实际8967径向行/141块，点云max|F|1.275559740657、frame support约.90542、nearest约.129705423均仅提案。连续角误差已完整；directed径向消费者在每个真candidate/germ及全部准确φk上继续，保前三次失败和成功断点。
-全部8966格×512×8凸包分离已实际完整，mesh距>.129668021172。真实tensor消费者已覆盖径向[1057564037496759/2251799813685248,25/8]的3903格，部分连续半径<1.275713423；下一次只消费新完成径向行，未覆盖腰部前不授全模型距离。真实外帽world anchor、连续中心修复以及精确解校正费必须再加。
-
-[腰精确法向位移与五次marker](results/R133-supplement-waist-normal-offset-and-fifth-power-markers.md)保条件腰Δc=.129705423092539…、A0腰误差ρ=.01的2ρ/15费用及四个145..148独特非共面曲率峰。
-最终同精确闭G须实际满足|G|≤511/400、G·N>4/49、|κ|≤12、κ+≤196/27，真腰误差门（可用新完整C0腰定理的ε≤1e−3替换独立A0腰球）、真平帽a≤7e−6/z±[.9,1]和全部marker条件；才由已证条件预算得到held/D>.05024347、reach/D>.03195015、Hdiam≥.2D和含反射δE>0。
-纯phase刚体旋转不能证明非全等；模型frame support也不能绕过精确解与真实帽的比较。
-
-## 6. 真实失败、重建和执行边界
-
-原未推native按HANDOFF全部实际重做，不回写旧失败为成功。最终残差右段零半宽graft域拒、25独立graft成功及合并输入身份保留；geometry attempt01–03保；旧b4-output FFT失败保；body旧plain JSON parser失败保；cap SIGBUS原过程和全部成功前缀保。
-大可重建数组在运行工作目录，源码/参数/完整身份/全部小native保存；不向Git推大数组，也不用base64文本代替正常二进制。
-正式通知旧6caee8bb已读并执行：现在只在Rogerhu12/math-research-public工作，使用自身公开Actions；此前预告的visible-flex不是实际迁移目标。旧math-research-ci/ci-queue已停且不再派发。每push前真实pull、至少每小时一次；每次查根/题README差异，已读SHA写H；非FF立刻pull --rebase重推至成功。
-
-## 7. 紧接着执行的原任务
-
-root：接完整directed径向检查点，写真实双线性包络/凸包分离消费者并合并准确角误差；持续逐结论推送。
-newton_source：接实际完成的两份96列提案，完成128物理端口提案与真实H128×97合成后的全连续残差；继续q/ψ的全body/mean/端行/signed配对。
-phase_inverse：完成真实parameter/conjugacy phase Schur及完整β/j/strong normalform；最终ν只选择一次。
-tail_connector：把实际非径向内部正型接全部外部响应、Γ*参数列、两physical端图与近簇，完成原单位全源映射和完整F。
-子问题做完接下一项；时长、阶段、进程等待都不是收尾理由。只有README全部完成标准真正达到才结束。
-
-## 8. 此后逐条实际结论
-
-下面只追加新原生消费者或新证明。此前完整记录均在本页开头归档及results/log中。
-
-
-[实际完整记录](results/R133-supplement-full-regular-phase-counterterm-and-actual-error-functional.md)：实际全3071负盒+真root+连续修复消费12门：∫|dφ|<.036374621，两ray响应误差L2(E0)→C0<1.273240/普通L2<1.274436，保mean无q^-1。完整构造ν scalar/两端图/共轭平均推导，精确ρ*=(612575−√5)/2228182的bounded-CF给四次单位根principal gap1/(36|j|)；真ν/β/j/strong余项尚待，最终flex度量固定。
-
-
-[实际完整记录](notes/2026-11-14-R133-full-regular-response-ray-twist-proposal.md)：实际完整193响应/两ray/真even mean/腰图浮点proposal正常21.64s，Ω′≈.0202241584；direct+.0393631446/state−.0005213003/mean−.0186176859且pointwise不单调。全128漂移模式和真实逆ray保，24模拟合共轭仅proposal；未授旋转数/ν可调范围/真Schur。
-
-
-[实际完整记录](notes/2026-11-14-R133-cap-storage-recovery-and-body-parser.md)：保cap实际SIGBUS−7和660已成因子/forward104：175件逐SHA复制tmpfs并预分配同backing接续，不冒称错误原因或新完成。只清理已complete q/ψ可重建230MB QR seeds且全SHA保；body原plain/gzip错误零行保，三v2仅真实读取/身份入口变化、原数学门不变，7721格消费者已实际进行。
-
-
-[实际完整记录](notes/2026-11-14-R133-physical-cap-96-complete-finite-proposal.md)：实际完整660块/96列physical cap proposal恢复后正常0，完整原FFT门5.70516e−15通过；661×193×96共享状态与左右Hermite导数全部保存、三大数组SHA/重建CLI齐。97外mean/Robin含m4和准确9/10端差保留；仅有限提案成功，真实连续首宽片已暴露高j径向层需加密/Green付费。
-
-
-[实际完整记录](results/R119-supplement-actual-low-scaled-full-local-nonradial-positive-form.md)：尾69以真实ΩM=B+M√B质量付低κ全部输出/两mean/新交换子，全Hk Cauchy<8；实际同物理中心差<2^64n，整个J0 fixed-label hat响应保。原X≤2^-262144与准确Nc深层衰减给误差/d*<2^-33000，所有±M两迹/cos-sin输入局部型>d*/8；49门实际通过。κ=M²/B符号补明并保存原native所绑正文；外部响应/Γ*两列/近簇仍欠。
-
-
-[实际完整记录](results/R133-supplement-actual-complete-two-ray-holomorphic-domain.md)：实际修复中心全3071 strict+真root负楔/全64次卷积/两mean，五复角宽10门23.959s通过；完整双ray return单射解析输入strip>.1639445393、|P′−1|<.334292688、P″<3.257207/P‴<57.403329。全Fourier尾/alias公式含∞输出；未授逐点ODE误差/真conjugacy/rotation/β项。
-
-
-[实际完整记录](results/R133-supplement-phase-Schur-complete-distributed-adjoint-source.md)：在真实共轭成立的明确条件下，完整两ray rotation变分保平方Jacobian、h2even mean与真实端点配对；dual源除q的根界有限，给全Areg*ψ=ell和SΩ=tΩ+〈ψ,Fν〉准确合同。没有用拟合H代替真H，也没有授实际Schur非零。
-
-
-[实际完整记录](results/R133-supplement-complete-mesh-hulls-and-continuous-tensor-geometry.md)：实际完整141原块/8966径向格/512角格/8逆像共36,724,736分离向量全部directed消费正常0；mesh半径<1.275559740657、全交叉框架support>.901284727159、全凸包距离>.129668021172。严格双线性误差只需径向/角向二阶界，无遗漏混合项；完整径向累计与真帽/非线性费用尚未授。
-
-
-[实际完整记录](results/R119-supplement-complete-negative-pocket-fixed-parameter-positive-form.md)：尾70完整负窗/两真实根/两mean/全部输出/两物理图与shear：能量<2^7800 J16 δ^-32，整个支集外hat响应/d*<2^21000 Ncal X J84 δ^-60。明确由真实incoming达到X≤2^-1048576，首层log<−554590且深层比<2^-64，固定Γ完整crossing form>d*/8；50新有理门通过，ρ_waist符号修订保原正文/native。Γ*列/移动端口/混频簇仍独立待付。
-
-
-[实际完整记录](results/R133-supplement-physical-cap-matrix-mode-weights-and-radial-integrals.md)：逐物理M源先付M^-1/2参考Green，再进入完整无权反馈逆，保全部低高互馈及独立mean；准确Legendre正交积分保径向抵消、96完整列/full224有限输出和全部∞系数散度尾。新6个有理核门实际0；旧粗首2与v2旧宽片完整过程保，仍未授未执行全帽数值图误差。
-
-
-[实际完整记录](results/R133-supplement-finite-moving-head-to-complete-physical-C-ports.md)：准确微分真实物理Fourier矩与角测度，h1列零、h2even mean保；全65相位系数/精确repair/wholeη/全部物理输出8门通过。moving96到physical96余尾1.657551不可删，pad112<4.422619e−7、pad128<1.757236e−14；通过完整帽Green消费真正遗漏输入，未授全主体Schur。
-
-
-[实际完整记录](results/R133-supplement-directed-radial-ODE-error-and-tensor-native.md)：准确角点/全部96连接模式/真单侧germ的三阶Taylor与完整四阶余项给无指数径向误差递推；原块状态逐uint64回接，框架Frobenius2与真实operator1分清。61块3903格原输入快照逐字节恢复同SHA，tensor真实0/5.03s，连续覆盖r≥1057564037496759/2251799813685248半径<1.275713423。η交集只η0；腰见证/全径向/外帽/非线性费用仍不授。
-
-
-[实际完整记录](results/R133-supplement-complete-moving96-physical128-C-port-matrix.md)：实际准确cut9/10/full repair/wholeη的128×97物理C端口12门39.71s成功；完整12416条定向整数区间和dyadic/floathex中点、独立even mean全部保存。正式Laurent指数全∞尾2^-180、完整Gram矩阵误差6.518858e−12、浮点转换4.394021e−17，含physical>128尾总<6.518925e−12。h1列准确零，非均值正交单位需另乘√2；不授主体逆。
-
-
-[实际完整记录](notes/2026-11-14-R133-physical-cap-96-refined-and-continuous-first2.md)：同repair/原目标/全部mean与m4外行，1296块96列局部加密提案实际normal0/680.24s，原FFT6.861356e−15；完整Hermite三数组SHA/端点小NPZ/重建CLI保存。1977共同闭片前2真实wholeη残差normal0/83.41s，带权普通B/C<1.48024e−4/3.735972e−6及全部散度∞尾保；未算1975片不授整帽，后续独立128物理端口接moving96。
-
-
-[实际完整记录](results/R119-supplement-actual-two-phase-compact-response-and-complete-pocket-form.md)：71完整真实两phase compact response：59项新SymPy/Fraction门；全finite-part beta保rho^5，联合无限Γ*参数行与完整negative-pocket型在fresh support有d*/8。非零盒径向补偿、混频簇与全F inverse尚须继续。
-
-
-[实际完整记录](results/R133-supplement-complete-moving193-physical128-B-C-ports.md)：同一连续修复中心r=9/10、全原η区间的实际B128×193与完整paired(B,C)端口：11门normal0/1.90s，原193输入、独立C mean、物理全部输出尾均保；paired L2误差<1.496913e−11，仍须cap连续残差和全局Schur。
-
-
-[实际完整记录](results/R133-supplement-complete-C0-state-and-nu-geometry-response.md)：实际全7722盒C0状态/nu到几何：normal0/25.05s，frame系数15.736315/.304809、position30.196406/.105999、曲率141.332651/3.988052；保全mean/所有频率及独立world anchor。结合原完整曲率界，在ε≤1e−3/τ≤1e−5的条件球有|κ|<11.233951/κ+<3.997745，尚未授实际误差半径或闭族。
-
-
-[实际完整记录](results/R133-supplement-complete-Arb-scalar-jets-and-directed-high-Taylor-models.md)：全Arb Laurent指数/无限primitive尾/真实scalar germ给3至12阶有向jets和精确dyadic Taylor合同；实际七阶首germ两片6门normal0，germ24.19s/整次26.49s，五scalar积分总余项<9.117418e−17。原cap6错截高阶输出明确invalid。固定52来源SHA的四range CI worker已准备，余168germ、全flow/共轭/参数Schur未授。
-
-
-[实际完整记录](results/R119-supplement-same-current-parameter-finite-box-nonradial-pocket-form.md)：尾72原低κ band全盒、同当前Γ*：53项新SymPy/Fraction门normal0，中心wave直接Hessian免再损K^4；辅助径向路径准确终止当前参数，非零v_rad及compact rho^5/rU两列完整保。±M双迹整pocket型沿原theta_M >rU dU/(16Nband)；全部输出/mean/source保，mixed簇PSD、同空间端图与全F仍须继续。
-
-
-[实际完整记录](results/R133-supplement-padded-physical-cap-on-complete-moving-head.md)：完整物理128/257态/1296块提案与全部moving97预合成已实际normal0；所有独立端行含非零C mean匹配，eL<6.518184e−12，首2/1977连续片带权ordinary B/C<6.482306e−7/5.103790e−7。全部source/参数/二进制端点和原失败身份齐；全1977片仍继续，不把有限提案与首片冒作全帽矩阵逆。
-
-
-[实际完整记录](results/R133-supplement-actual-independent-regular-boundaries-and-all-jumps.md)：完整独立regular端点预算actual normal0/12.0068s：256物理矩、全无限尾、真实两mean与两组6143准确有理接口；真Robin L2<1.454039e−17，端式S_end∈[8.167929616818,8.194927720677]。原v2/3/4失败和完整mean容器身份保留；仍须减完整body配对并付全连续逆，未授真Schur。
-
-
-[实际完整记录](results/R133-supplement-actual-phase-root-sliver-and-full-transport-residual.md)：同一连续修复中心/原全η的真实两ray根sliver10门actual通过，共同漂移精确消去、完整mean保留；真变动根末段对strip1/64相位缺陷<4.968975e−14。有限H全部dyadic24+24系数与复域/逆域严格界齐，给完整未投影PDE残差+全部jumps契约；尚未评价全transport残差或授真共轭。
-
-
-[实际完整记录](results/R133-supplement-complete-C0-waist-and-canonical-forward-geometry.md)：完整周期Green核给未知全C0腰误差见证系数2(sec(π/8)−1)<.164785，含mean及全部高频；ε≤1e−3时条件held/D>.05070083706143。实际复用7722盒正向积分normal0/6.7786s、9门，canonical腰位置差≤7.578231ε+.612629|δν|。原外锚模型真实腰对齐费明确保留；未授精确解、闭合或最终几何门。
-
-
-[实际完整记录](results/R133-supplement-complete-finite-phase-transport-and-all-frequency-residual.md)：同一修复中心η=η0的真正双leg Arb有限transport首germ已完成12个scalar/candidate交格；N64只用于选择参考，多项式全部128输出及真scalar无限尾均入未投影残差。实际完整scalar费1.828549e−16、保留有限费5.4560e−35、外输出2.7180e−42；两初始及全部phase值jump准确0。原provider pin失败保留，当前同源续算不重算primitive；未授完整169germ return或真conjugacy。
-
-
-[实际完整记录](results/R133-supplement-exact-waist-grid-and-complete-canonical-alignment.md)：完整512准确角点、33偶腰系数/mean、全部标架列和原世界平移实际normal0/4.599s，8门：真实全圆周腰对齐bF0≤径向腰eF+.000012332337、bQ0≤eQ+.000006643245。保真正四重wrap与完整角二阶operator界；所需完整径向终点仍另付，未将部分积分或浮点腰当真曲面。
-
-
-[实际完整记录](notes/2026-11-14-R133-retired-cap96-shared-memory-relocation.json)：实际迁移本课题已无可见消费者的旧cap96 181件共449470869字节至scratch磁盘，原路径保symlink，全部SHA及字节数先后核同，释放同等共享内存。活动cap128提案不动；signed实际−9和最新cap片暂停前缀保留，沿原源继续，未动其它任务或唯一native。
-
-
-[实际完整记录](results/R133-supplement-actual-complete-169-germ-phase-scalar-cover.md)：实际四个公开CI子进程全部exit0，原germ0复用，完整169真实germ/626接受Taylor格/457原拒全保。11门normal0/1.12s逐原SHA和准确cover重消费，五scalar全误差积分<3.733261e−14<2^-42，最大depth24；全primitive/指数尾、真q正分支、固定η0范围保留。没有重算target，也未把scalar缓存当完整flow或inverse。
-
-[新的实际候选旋转目标](results/R133-supplement-nearby-bounded-seven-phase-target.md)：ρnew=(45217079201−√5)/164472125458，全部partial quotient≤7，四次单位根gap仍>1/(36|j|)。其角旋转与原Ωfit的严格差<7e−11，原ρold相差3.160958182139e−6；原transport/背景不变，终端缺陷只加7e−11。后续真共轭选择采用此更近目标；这不是实际旋转数锁定，原真ν Schur、β/j、strong项和背景改变费用全部保留。
+| 原中心完整残差 | 7296 闭盒、6143 接口、全部 96 支撑、两 mean 与 primitive 无限尾；独立右 graft 身份保留 | 精确 PDE、浸入、全 η 邻域 |
+| strict/root/positive | 3071 严格负盒、真 root 能量、4650 正盒及完整高反馈 | 全主体 BVP 逆 |
+| scalar mean | 7721 盒与 6143 跳，完整 mean 源和 ν 列 | 删除 mean 或以有限响应代真响应 |
+| 完整 regular q/ψ 提案 | 193 态、6145 节点、全部 Hermite、两组接口、独立原外行和有符号端式 | 连续体逆、真 ν-Schur |
+| [完整 141 块几何](results/R133-supplement-complete-141-block-continuous-model-geometry.md) | 8966 径向格和全部连续角；真实腰 eQ<.000101951532739、eF<.000220349475735 | 精确 GC 解或真闭帽 |
+| phase 公共 Actions 43580721166 | 原 127 germ 复用、余 42 完成；全部 169 germ/3095 行及准确 root 接点 | 真共轭或 PDE 分支 |
+| cap 公共恢复 43583838015 | 10:19:52 UTC 实际 success；复用旧 1792 行，只算末 185；原 complete-1977 consumer 已运行 | 其完整数值需读取后进入真帽 Green；尚未自动得到主体逆 |
+| body 公共 Actions 43583838026 | prepare 已核完整原 Hermite SHA；8 个互斥范围实际运行中 | 未完成范围与完整 mean 流不得提前授予 |
+| geometry 43584188751 | 26 个完整有理预算门实际 return0，native 88749e6d…6336b | 预算假设的精确闭解与状态球尚未构造 |
+
+body 完成后 `visible-exact-body-complete-mean.yml` 自动消费同一 run 的 prepare 和八行工件，
+核 40 片恰好覆盖原 [0,7721) 及 [0,25/8]，再用原 producer 完成双 mean 误差流和 signed 残差。
+不得再次运行已成功的原行，不得把原失败的 59 行右前缀重复计入覆盖。
+
+## 2. 当前第一主链：全源、全 mean、全频连续逆
+
+### 2.1 真帽残差到 9/10 内端图
+
+完整 physical128/257 态提案和 moving97 预合成已存在；必须消费本次全 1977 格的实际结果，
+与全部外 mean/Robin 行、完整普通/divergence/接口源及物理高尾一起通过同一帽 Green。
+真实切口是有理 9/10，不能以 binary64 .9 代替。
+moving96→physical128 的全部输入误差与 physical>128 尾均已单独付费，
+但端口成立不等于同坐标主体 BVP 可逆。
+
+下一项直接从真实 complete-cap native 读出 B/C 残差、gain、两边界误差和 complete identity，
+生成准确内端图误差，再与正区、root 两端口、负区接合。原全帽科学 manifest
+`867699a5e7f968f97d9a3f50267e310181023fdbe0b815a7f9c22c6b21585e32` 不改变。
+
+### 2.2 连续 193 态 regular 子空间与有符号残差
+
+保留完整 96 条腰 u 行、97 条外 mean/Robin 行，尤其原物理第四 Robin。
+物理腰 C4 幅度是输出，不通过删除外行制造自由 scalar。
+qν 约定 Dqν=+∂νF，完整未规范化状态已含 sν；伴随的非零模 Gram 权为 1/2、mean 为 1。
+
+[连续 head Green 判据](results/R133-supplement-continuous-head-Green-from-a-regular-subspace.md)
+已给全 ordinary 源、边界与跳的同一个逆合同。实际需要 Gram、两端满秩、
+投影残差 E、完整 C=2P Sym(A)(I−P)−E*、带符号传播率和 st<1。
+新提案从真实 r=9/10 的完整核反向到腰；对称正权 R 的 even97 维保 mean，
+ρ 分片线性且严格正，准确生成元必须包含 R′R⁻¹。
+全矩阵高阶局部多项式只是提案；所有分片残差、target 尾、Gram 与真实 projector jumps 仍要严密验证。
+原从外端跑的 QR 提案在真实 ENOSPC 后停止，不再当作活跃完整进程。
+
+body 八范围与其最终 mean 消费完成后，要实际减去完整体积分，保 signed 双残差及所有接口。
+旧有限腰幅 Schur≈8.181474 和独立端式 [8.167929616818,8.194927720677] 都不是完整 Schur。
+193 态判据即使通过，还须保 high→head→high 全反馈、真外 DN、全部源单位及无穷尾。
+
+### 2.3 真响应与参数 Schur
+
+[完整 regular counterterm](results/R133-supplement-full-regular-phase-counterterm-and-actual-error-functional.md)
+保真实两 ray、逆 Jacobian、direct metric、even mean、腰图与根端点；
+全负区和真 root 给响应误差普通 L²→C⁰ 常数<1.274436，E0 常数<1.273240，无 q⁻¹ 奇点。
+需要同一全局逆给 qν−Z 的真实范数，不能以显式提案族代 PDE 响应。
+[K48 响应门](results/R133-supplement-complete-K48-terminal-conjugacy-proposal-and-response-gate.md)
+目前已证明：同背景完整误差≤1/6500 足以保真物理 ν 行>1/600。
+这个误差尚未供给；非线性背景变化是另一项，不能藏进同背景合同。
+
+## 3. Phase：真返回已定量，继续真实参数归一化与强正常型
+
+[真正 Wiener 传输](results/R133-supplement-genuine-Wiener-transport-and-terminal-postcomposition.md)
+消费全部 169 germ、完整 source、两 mean 与无限输出；原有限 N64 只定义参考多项式。
+[K48 完整后复合](results/R133-supplement-complete-K48-terminal-conjugacy-proposal-and-response-gate.md)
+保全部 3169 Laurent 系数和无穷指数尾：终端非恒定项<2.325725500632e−18，
+真 A1/50 总误差对精确 dyadic 提案<1.463768620259e−13。
+G=K48∘H 有已付 Wiener 逆域，故可将归一化圆族以初始 lift=id 写入 R31。
+
+[新 bounded15 目标](results/R133-supplement-bounded-fifteen-target-and-paid-KAM-arithmetic-tradeoff.md)
+ρ15=(5831714953207175+√5)/21212218271020390，Ω15=πρ15/2；
+距该 dyadic 提案<2.2e−18，完整真误差<1.463790602032e−13。
+所有第四单位根的 principal gap 为 1/(68|j|)，R31 圆 K=17/4。
+原 bounded7 目标和原结论保留，但新目标不能借用旧 1/36 强余量。
+
+接着严格付同一个显式 family Qδ=Qbar+δZ、νδ=ν0+δ 的统一 P,Q,T,B、参数域与复角域，
+逐条核 R31 小量门。完成后只授该明确族上的真圆共轭，仍须与 PDE 方程及 qν−Z 接线。
+点态参数导数可变号，rotation number 一般有平台，不假设它在整参数区间可微。
+真实 β/j 与 principal gap 同阶；β、非 mean 项、root 幅度/Maslov、正区反射和 strong 余项
+必须进入同一正常型并按新 1/68 margin 比较。锁 principal rotation 本身不证明完整 return 可逆。
+
+## 4. 无限尾：必须关闭整个网络的量词
+
+当前原 profile 保 129..8192 前缀、8193 后 K2^128/ζ131、双 bump、两 mean、
+全部 stop/metric 参数和原 R=2^-60000000 入口。47–51 原完整尾重建/有限 head/密度相位/
+(ω,β) 联立/strong 高网络均保；旧阈值
+Tj=2^65536(j+5)^204 δ^-320 以下的移动中间块仍是真缺口，不能由固定 head 跳过。
+
+53–75 已付的源、两物理图、Γ* 两列、两 phase 补偿、全有限盒与局部型继续使用。
+[76 正 Cayley packet](results/R119-supplement-positive-Cayley-packets-to-complete-center-forms.md)
+和 [77 完整三片 crossing](results/R119-supplement-complete-three-piece-physical-crossing-form.md)
+保实际传递、cross Γ、正区与 KAM 项，尚未授任意不同 M 混合近簇的整个网络。
+[78 高 scaled 真实负方向](results/R119-supplement-common-low-direction-high-scaled-obstruction.md)
+证明旧公共低方向不能直接扩到 κ∈[3/4,1]；它不是整个网络 near-kernel 或最终反例。
+
+当前必须从实际高频 scattering 重新付频率依赖，或提供另一完整中间块构造。
+已识别同一 eigenphase 压缩下单位坐标变化的 crossing 费准确消去；不能把它误当作
+非 unitary density/shear 或真实外参数变化自动消去。
+任何改善旧 Tj 或扩大参数盒都须重付全空间高低泄漏、原源单位、54/55 收缩、标签与测度。
+仅扩大局部 κ 盒时，已发现 Hessian 费用仍随 κ 大幂增长，不能再以“以后够小”回避深层量词。
+新高 κ 解析路线在推导中，未授新的全网络界。
+
+## 5. 全逆到完整非线性解与闭合
+
+[完整 moving 非线性通量余项](results/R133-supplement-complete-moving-nonlinear-flux-and-metric-remainder.md)
+保 primitive、两 mean、二三次通量、ν 混合与参考二阶径向项。
+root A1/1024 球内的 51000ρ²、102000ρ 是已证局部门，不能直接当作全域同范数收缩。
+须将负区/root/正区/真帽/完整无限尾连接成同一全频、全源、全 mean/参数 BVP 逆，
+再执行兼容实际导数损失的解析或 tame 迭代，得到准确 F=0。
+
+独立 fB、外 mean 高度、另一外 F 方程、全部 holonomy 与 C² 腰反射/闭帽条件仍保留。
+不能事先置 fB=0、删 mean 或只解一条 Robin。整体闭合的真 frame 周期条件必须实际证明。
+
+## 6. 最终几何已有明确充分门，继续实现其假设
+
+[完整 C0 球到最终几何](results/R133-supplement-final-geometry-from-complete-C0-ball.md)
+已把余项阈值写清：同一完整闭 C² 浸入、η0、完整物理状态 C0 差≤1e−4、
+|δν|≤1e−5、原真实外部球与全部 matching。这里的状态差含 mean、所有频率、repair 和参数变化。
+准确 frame 周期加 mean 比值先给腰绕转 n=1，证明不先借未证嵌入。
+再由完整支撑性及原外帽/marker 构造得到嵌入和全部比例。
+
+公开 Actions 43584188751 已实际核 26 门：完整外半径<1.276929873<511/400，
+完整外支撑>.897574585>4/49，原未标记曲率绝对值<11.106752<12；
+held/D>.05075888242，reach/D≥800/25039>.03，Hdiam/D≥360/511>.2。
+four distinct noncoplanar curvature peaks 145..148 使含反射 δE>0。
+这些是**上述同一精确闭解存在并落入该球时**的已付预算；native 明确记录
+`exact_nonlinear_solution_exists=false`、`state_ball_has_been_attained=false`。
+
+## 7. 执行纪律与立即任务
+
+只在 Rogerhu12/math-research-public 工作并用本公开仓库 Actions 计算。
+每次 pull 检查根 README 和本题 README 差异、记录已读提交；至少每小时一次。
+每条结论独立推送；非快进立即 pull --rebase 再推至成功，不 force。
+保真实失败、原生输入身份及成功前缀；>1MB gzip、单件≤5MB，大可重建矩阵留 Actions 工件。
+
+root 管 Git/HANDOFF/open/results/log，并接实际完成结果；
+newton_source 先消费全帽并推进 body/mean/连续 regular Green；
+phase_inverse 关闭真实 R31 门再接全 ν-Schur、β/j 和 strong 项；
+tail_connector 关闭实际混合近簇与中间频率整个网络。
+子问题完成立即接下一缺口。阶段报告、进程等待或时长都不是收尾理由；只有 README 全部完成标准达到才结束。

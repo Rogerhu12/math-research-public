@@ -1,56 +1,53 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，接续时间 2026-11-14T09:12:45+00:00。**主目标未完成。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 10:30 UTC。**主目标未完成，持续研究。**
 
-## 规则与工作位置
+## 规则、位置、同步
 
-唯一工作仓库 Rogerhu12/math-research-public；只使用本仓库 Actions。新目录 `/workspace/scratch/0df957a82d09/math-research-public` 是 blob:none 部分克隆，仅先检出正文、脚本和 workflow；大数据按需只读旧检查点或在公开 Actions 重建。
-最后实际 pull --rebase 与两 README 差异检查：3725b8ecdc965280bdde65a5bf975ea1644ae1fe；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
-每次推送前 pull/rebase 并检查两个 README；至少每小时 pull；每条结论独立提交推送；非快进立即 rebase 后重推，不 force。PAT 仅瞬时命令行环境，不入文件或输出。root 管 Git/HANDOFF/open/results 索引/log，代理只写自己新文件。
+唯一工作仓库 Rogerhu12/math-research-public；计算直接用本公开仓库自己的 Actions。
+工作 checkout `/workspace/scratch/0df957a82d09/math-research-public` 为 blob:none 部分克隆。
+共享磁盘曾 ENOSPC，完整任务文件迁至 `/tmp/visible-exact-0df9-workspace`，原路径保 symlink；
+本 checkout 的 `.git/objects` 在 `/tmp/visible-exact-0df9-git-objects` 并保 symlink。
+新临时输出用上述 /tmp 路径；所有已移字节核同。旧 `/workspace/scratch/ac0d699811ad` 仅只读取原检查点，不修改旧仓库或原 native。
 
-## 目标和准确对象
+最后实际 pull --rebase 与两 README 差异检查：80592369a4f516cefb144fea055928a1348f9fbc；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
+已实际读 ee26c0a65a2e63c15f2ccfba6714181584416542 的根差异：新增 visible-flex-new-mechanism，课题数改按表；其它规则和本题目标未变。
+每次 push 前真实 pull/rebase 并读两个 README 的新增 diff，至少每小时 pull；每条结论独立推；非 FF 立即 rebase 重推到成功，不 force。
+PAT 仅瞬时命令行环境，不入文件或输出。root 管 Git/H/open/results/log，三代理只写各自新文件。
 
-同一固定精确度量、连通闭 C² 嵌入族、C² 连续；逐点固定闭握持区 H，内点非空、diam F0(H)≥.2D；δhold≥.05D、含反射的 δE>0；每时 reach≥.03D。phase 单独为刚体运动，四个不同非共面静态曲率 marker 必须在同一最终闭族实现。
-最终 candidate SHA ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；6145 nodes/M32/N512/[0,25/8]；α=6890507429876859/9007199254740992，ν=−2572625729470897/72057594037927936，η0=−7789843107295549/4611686018427387904。准确连续值修复 SHA 440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47。原中心、修复中心及各参数盒不混用。
-原完整 H 与各项已证范围保存在 [接手前检查点](notes/2026-11-14-handoff-before-0df9-takeover.md)；具体缺口以 open.md 为准。本次不删除或放宽任何完成门。
+## 对象和完成门
 
-## 已确认可接续的实际计算
+精确固定公共度量、同一连通闭 C² 嵌入族、C² 连续；闭握持 H 有内点且 diam F0(H)≥.2D，逐点固定；held≥.05D、含反射 δE>0、每时 reach≥.03D。
+纯 phase 是刚体旋转，四个不同非共面静态曲率 marker 必须在同一最终闭族实现。
+candidate SHA ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413，6145 nodes/M32/N512/[0,25/8]；α=6890507429876859/9007199254740992，ν0=−2572625729470897/72057594037927936，η0=−7789843107295549/4611686018427387904。
+准确连续修复 SHA 440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47。原中心、修复中心、显式 Z 族和真正 PDE 族不能混用。
+原完整 H 在 [接手前检查点](notes/2026-11-14-handoff-before-0df9-takeover.md)；旧逐项 open 在 [本次归档](notes/2026-11-14-open-history-before-complete-cap-and-K48.md)。当前实际缺口以 open.md 为准，不放宽任何完成门。
 
-旧 scratch `/workspace/scratch/ac0d699811ad` 仍可读；只读使用，不修改旧仓库/原始输出。旧公开 checkout HEAD 93f05834 含尚未推送的后续工作；须逐件核正文、source/native 和实际范围后恢复到本仓库。
-- 六步重构最终中心仍在 `replay-final-20261114/stage06`，含原五片及 restored-original；不用再次求解相同中心。
-- 径向 geometry 已实际完成141/141块、8966/8966格，源3347e061…未变，最后真实return0；完整tensor亦return0，源fd5fce9d…。全区间[0,25/8]/全部连续角合并范围严格η0。原gzip SHA c7685928…/84cd78f5…由108→141字节精确增量保存；实际腰eQ<.000101951532739、eF<.000220349475735，后续消费真实腰规范费用而不再等待积分。
-- phase 旧请求已正常结束127/169，原127检查点已经公开。公开Actions #43580721166用同一producer补余42；完整scalar169不等于完整transport，后者完成后须继续真conjugacy/全ν-Schur。
-- cap128 原0..768四份真实return0现已完整保存并逐有理接点去重；公开43580498603的四段768..1792数学child也真实return0，失败发生在README变更后的发布步骤，原artifact已取回逐SHA/逐行核验。仅1792..1977的185格未算。新的恢复workflow直接消费原prepare artifact与四原native，不重建矩阵或重跑成功行。
+## 完成且可直接复用
 
-## 当前分工及真正未完成项
+- 六阶段完整中心在旧 `replay-final-20261114/stage06`，五片和科学身份已恢复；不重新求解相同中心。
+- geometry 原141/141块、8966/8966格、完整 tensor 真实 return0；原源3347e061…/fd5fce9d…、完整原gzip SHA c7685928…/84cd78f5…，由108→141增量公开保存。合并范围仅η0；全腰 eQ<.000101951532739/eF<.000220349475735。
+- phase 公共 run43580721166真实 success：原127复用，新增42，完整169/3095行。46件原生小文件在 `/tmp/visible-exact-0df9-workspace/phase-complete-actions-original/run-43580721166-1`；读取时保持 source/input SHA。
+- 真 Wiener 全残差及 root 已付；K48完整3169 Laurent系数+无限尾给终端非恒定<2.326e−18，真 A1/50缺陷约1.464e−13。K48已推8dfd3f40…；新 bounded15目标已推7cb71093…。
+- ρ15=(5831714953207175+√5)/21212218271020390；第四根gap1/(68|j|)，R31圆K=17/4。原7目标保留，新目标尚未实现；β/strong不能借旧1/36 margin。
+- 同背景qν−Z的E0或普通L2≤1/6500足保真物理ν行>1/600，误差仍待真正连续逆提供；显式Qδ=Qbar+δZ不是PDE解族。
+- 完整几何充分门已推f792278…：完整闭浸入、η0、全物理C0差≤1e−4、|δν|≤1e−5与真实外部球/全matching，可付全部几何比例。真frame周期先给腰绕转1，不借未证嵌入。公共run43584188751真实26门return0，native88749e6d…6336b；这不证明精确解或该球已达到。
 
-root：完整径向几何、真实腰与外帽比较、恢复逐条结论与推送。
-phase_inverse：完整transport/terminal缺陷、真conjugacy/ν Schur、β/j与strong正常型；旧二次目标与有限拟合频率的差要准确核算，任何新目标须明确重付Diophantine常数。
-newton_source：cap128全1977连续片、完整regular body/mean/边界及signed双残差；保全97外行/独立C mean/第四Robin，不能把finite提案称全帽或全主体逆。
-tail_connector：从旧未推73–75精确正文继续低锥/真实root packet到实际incoming/output、非径向混合近簇、Γ*两列与原单位全源映射。
+## 活动作业与原失败恢复
 
-完整全补逆、真ν Schur、全非线性F=0、精确闭族及全部真实帽/marker仍未完成。条件几何预算与局部/有限逆都不是完成。子问题完成继续open下一个，达到课题README全部标准才收尾。
+cap原run43580498603 prepare重建全部原数组SHA成功；768..1792四数学child真实return0，只在README发布wrapper失败。原0..768四片也全部return0，准确接点去重已推。
+恢复run **43583838015** 于10:19:52 UTC真实success：原prepared artifact14108082775与四原native复用，只算1792..1977的185格，再消费全1977。newton_source立即读完整残差/gain并转真帽Green内端图；不要再跑成功行或下载767MB准备数组到本地。
+body run **43583838026** prepare已逐SHA重建原两完整Hermite和全部shards，八互斥范围正在补7401新行；原320有效行保。原科学manifest c214f800…d784、117files/77sources不改。
+已推 **e870d526…** 的 `visible-exact-body-complete-mean.yml` 在该run成功后自动核40片/7721行、两条完整mean误差流、全6143跳及signed残差。尚未实际结束前不授数值。
+reviewed rules fdb83fd4…与driver7f8521cb…只改执行/复用规则，原科学manifest不动；未知README变化仍需root实际读diff。
+原regular子空间QR因ENOSPC真实停止在r约1.044；新方案从真9/10到腰，保193×96完整frame、mean、正ρ及ρ′/ρ，提案和严密validator分清。
+小phase consumer的原记录保实际来源；后续同源数字都转本公开Actions执行，不重复已成169 transport。
 
-已推恢复108块径向/tensor原生记录（新稿修正范围为η0而非全η）。更近ρnew=(45217079201−√5)/164472125458已在974244d推送，Ωfit差<7e−11、principal gap仍1/(36|j|)，待真共轭实现。
+## 分工与必须继续的主缺口
 
-phase旧完整请求只到127germ且已正常返回，不再等待其自动覆盖169。原候选五片与127检查点已恢复到data/phase_transport_resume127_20261114；公开Actions即从此同源resume补余42。cap prepare亦复用该ac1，随后只重建帽矩阵数组。
+newton_source：全cap结果→内端图、body/mean/signed全残差、完整continuous regular Green、high反馈与真qν−Z；全mean/97外行/第四Robin不能删。
+phase_inverse：同一显式family全P,Q,T,B、实际R31小量和域门，再接真实PDE响应与全ν-Schur；β/j、strong正常型继续。
+tail_connector：76/77已付paired中心与完整三片crossing；78已证旧公共低方向在高scaled真实为负，不能泛化。当前追实际高频scattering以关闭旧δ^-320阈值下的移动中间块；局部正型不等于全网络混频近簇。
+root：逐结论核真实对象/源/范围、立即推送，接完整几何预算和各主链，持续维护H/open。
 
-已配置公开workflow visible-exact-cap128-continuous.yml，准备后五互斥区间补768..1977，先复用原21行；0..768仍消费旧有效前缀。源/manifest锁定、每10分钟真实推回记录，root负责跟踪实际CI及全部1977格拼接。
-
-公开phase workflow visible-exact-phase-transport-resume127.yml已配置，原worker SHA9091af47…、345input manifest0c238287…；全169完成后自动生成complete-169-cover，不能把新目标或完整scalar缓存当真共轭。
-
-主体旧左实际只请求[1,257)并已exit0，原右4000..4058后真实−9；新visible-exact-correlated-body.yml一次从两原nodal答案重建完整Hermite原SHA，八区间补7401新行。必要新输入18.57MB，完整146MB trial只留Actions artifact；不得把全行残差当全inverse。
-
-已实际阅读ee26c0a65a2e63c15f2ccfba6714181584416542的根README差异：新增visible-flex-new-mechanism目录，第1/13条课题数量改为按表列出；本题数学目标及其它规则未变，立即遵守。旧cap/body CI因旧README哈希在发布/启动时拒绝；优先恢复真实artifact已成行，再只续缺行。phase公开run43580721166已真实成功完成169 transport。
-
-新workflow visible-exact-cap128-recover-complete.yml 与 visible-exact-correlated-body-reviewed.yml已接独立reviewed rules fdb83fd4…；driver7f8521cb…只修基础设施，原科学manifest完全不动。每个已完成原artifact先核/保存后复用，规则再变仍报告并由root读diff。
-
-公开phase169已经完整：Wiener E A1/50<3.298859061709e−9、Eφ A0<5.965075704791e−8，显式Z族σphys>1/540；这只付明确中心族横截，真实qν−Z/完整Schur/R31及β强项继续。
-
-最终几何已归结为明确同对象充分门：eta0、完整物理C0差≤1e−4、|δν|≤1e−5及真实外部原球/全匹配；完整frame周期+mean比值先给腰绕转1，不借未证嵌入。所有几何比例有余量，但存在该闭解及误差球仍为主缺口。
-
-主体43583838026成功后，visible-exact-body-complete-mean.yml自动消费原八行工件和prepare，核40片7721行后运行原双mean误差consumer；无需重跑任何成功行。完整inverse仍另待证明。
-
-K48完整Laurent修正已付全部尾/源/root，真A1/50缺陷约1.464e−13；只定义精确提案和显式族，真PDE/全ν响应仍欠。小consumer原生记录保留实际来源，另接公开Actions同源复算。
-
-新ρ15=(5831714953207175+√5)/21212218271020390，第四根gap1/(68|j|)、圆K=17/4；完整缺陷<1.464e−13。旧7目标仍保留，新目标未宣称实现，R31、β/j、strong余项须继续。
+完整全频全源全mean逆、真ν-Schur、非线性F=0、完整holonomy/帽matching及同一精确闭族仍未完成。子问题完成接open下一项；时长、阶段报告或进程等待均不是停止理由。仅达到题README全部标准才收尾。
