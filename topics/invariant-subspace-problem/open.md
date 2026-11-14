@@ -163,3 +163,5 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 **固定标准＋七常数除列路线已排。** [九目标实际有理排除](notes/2026-11-14-r150-all-nine-targets-outside-fixed-standard-seven-rational-family-789f.md)由单位子式和真carry公式，将九raw modU非零升为h0t_j∉im_Q P∞，所有费用B皆失败。只提高旧标准族预算无效；继续sB调整、新除列和完整增广来源，不把固定族外推原全部A的有理像。
 
 **新秩下界已提高。** [真实第八除列](notes/2026-11-14-r150-eighth-true-divided-column-and-rational-rank-226090-789f.md)由7003/cost87给rank_Q A87≥226090；旧最小秩226089前提已排。继续目标实际Q像与全部饱和，不把31³除源当作已证恰第三Smith层。
+
+**原尾嵌入与换权接口。** [完整原模型证明](notes/2026-11-14-original-tail-star-interface-irreducibility-and-full-cost-transport-789f-next.md)给D,D*共同不可约及左/普通右/裸商的准确对角运输；flat仍L̃G̃L̃，负前缀仍用运输度量。实际祖先birth≈q且无标签截止，短段不reducing；继续同源Schur或真实标签局部化，不能免费分块/改等权。

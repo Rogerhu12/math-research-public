@@ -3,8 +3,8 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `d20ab976a44d47a249f7b5c75b4a96351a947055`（2026-11-14 19:22:27 UTC，Actions run43631737812/job132559631554实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **最新规则读取（GitHub API，非实际pull）：** `d20ab976a44d47a249f7b5c75b4a96351a947055`（2026-11-14 19:23:54 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** `a2bc4960fed90dcc722eb6201b995fb94d7129ab`（2026-11-14 19:24:08 UTC，Actions run43631886945/job132560098796实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `59731923c5a9bb33bc8b647ccc08bbf3a3e38757`（2026-11-14 19:24:38 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -39,3 +39,5 @@
 - 原射影B≥85有限商、仿射315及∞torsion u⁹⁶/length≤745保旧证明；全部其他mean秩/高本质/自然幂和普通ISP继续。Smith层的旧条件命题只按原前提使用，不预填精确秩或目标有理像。
 
 - **[第八真除列与新秩](notes/2026-11-14-r150-eighth-true-divided-column-and-rational-rank-226090-789f.md)：** 已存7003的κ8原cost87且Aκ8被31³整除，b8=Aκ8/31³为真整数列，模31在旧U外。故rank_Q A87≥226090，B≥87时≥4354(B+1)−157070+8；旧rank=226089条件路线的前提已排。未称恰第三Smith层或精确秩，目标Q像仍开。
+
+- **[原尾/star完整接口](notes/2026-11-14-original-tail-star-interface-irreducibility-and-full-cost-transport-789f-next.md)：** 全异ℓ1正权D与D*生成局部Boolean UHF，commutant标量；有限前缀不reducing。实际t_q祖先birth≈q而无已付标签截止，不能直接用统一正紧外场。R层对角准确运输左/普通右，裸项须取商最小代表；flat仍L̃G̃L̃、负图仍L̃+B̃，分块Loewner不能直接相乘。原κ局部界接graph须付这些共同项。

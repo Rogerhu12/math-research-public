@@ -139,3 +139,7 @@
 ### 第八个真实除列：原A87特征零秩至少226090
 
 [完整证明](notes/2026-11-14-r150-eighth-true-divided-column-and-rational-rank-226090-789f.md)：原已存7003来源κ8费用87，完整17式验证p³整除，故b8=Aκ8/p³是原有理像内的真整数列；其全部模31商类在旧U之外。将原226082个标准像列及八真除列合并，模31单位子式给rank_Q A87≥226090；所有B≥87同样多八个方向。旧rank=226089条件路线的前提现在严格排除；不证明精确秩、第三Smith层恰值或九目标特征零像。没有新增数值运行。
+
+### 原连续尾到star：实际不可约性及完整左右/裸项运输
+
+[完整证明](notes/2026-11-14-original-tail-star-interface-irreducibility-and-full-cost-transport-789f-next.md)从ad_W^kD及ℓ1一致多项式逼近取出每位E_i，原全异尾C*(D,D*)等于局部Boolean UHF、commutant为标量；此处只指reducing，不排普通不变子空间。实际t_q祖先birth≈q且无已付尾标签截止，原外场下界为零。正对角换权准确运输全部左/完整右可行集，裸项必须在商中取最小代表；flat=L̃G̃L̃、负图度量L̃+B̃保持，不能由分离Loewner比较免费推共同费用。有限层条件数给明确环境代价但未冒称primitive下界。
