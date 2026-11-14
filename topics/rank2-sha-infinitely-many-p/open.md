@@ -245,10 +245,11 @@ R613同C两carry交域恰Xn={A,L深n,Hunit}；整36/396全中心/half期与原χ
 
 [固定CM单位](notes/2026-11-14-fixed-cm-polynomial-unit-density.md)仅用于固定λκ有限式；[负五Katz](notes/2026-11-14-original-negative-five-katz-point.md)保完整角色/θ³尺度/固定c1坏集，裸反射仍root−，不能计数p依赖I1。[2026文献](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)未新增固定来源跨p非消失输入。
 
-### R614–616：高度二整窗、完整坏带与原 Newton 端点
+### R614–618：高度二整窗、完整坏带与精确第二半径
 
 R614完整addition保所有偶混合项和Gaussian指数，唯一例外n=s/ps分别付清。任意c′−c∈O下，U在n<L=(p²−1)/6整、L≤n<ps一次分母、ps≤n<2L至多二次；原完整G4/G1/S/T继承同界。边界pX_L=−2b^L、pU_L=b^L及G首坏4/1/6/6为实际非中央单位，不冒中央。
 R615从原H唯一二项式carry独立付C_p(CH)=C_p(H²)=CJ以及X_pk=Z_k^p=−X_k^p/(6k−1)，1≤k<s，不借sigma整性。高于该输出的分母仍保留。
 R616原H在n<ps唯一pole H_L、pH_L=−1；原留数和完整指数运输给任一原theta阶d的p g_(L+r)=b^L(6r+d)g_r（0≤r<s）。两个指定f forcing的末带准确为−c4/−4c1；首项单位不推末端非零。S/T先去首w取d6，合法r=s−1给p g_(m,p)=b^L C_X。
 R614完整无限尾已付：h≤p−1的g全整，H≤p−2有v(j−L_H)≥H+1；所有h≥p+1项在p^p。R616故得j≡L_(p−1)−p^(p−1)b^L C_X/γ^p modp^p。若原j0，则首层C_X0使实际g_p也整，准确得到L_(p−1)≡0modp^p。没有把各g_h逐项赋零，也没有推无穷命中。
-**R618/619继续：** 全addition分母/原同格成本与下一完整坏带、Newton双块；有限窗口不代最大半径、全部D/k cutoff或原中央到非空真层。
+R618已付精确第二半径：U0=U截<L、Δ=F−c′w^s−logU0起L，唯一临界a₂=Δ_ps有p²a₂=b^Lpc unit；其余全无限对数在闭R₂严格可指数化并略延拓。原U和G4/G1/S/T余项精确R₂=p^{−τ₂}、τ₂=(2p−1)/(p(p²−1))，闭R₂非Tate；全g_n≥−floor(6nτ₂)。原完整Newton的全尾为ceil((H+1)(1−(p+1)τ₂)+6τ₂)+v(H!)，有限窗更强界同时保留；同原j0 iff中央Euler解延至每个R<R₂。未去第一Gaussian的原S半径不变，Π0和全部实际预算仍在。
+**R619/622/623继续：** 下一完整坏带、两层同中央连接及原全D/k真实成本；半径因子不添全局列，未由非中央unit端点排原j同零。

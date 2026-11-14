@@ -517,3 +517,5 @@
 - 2026-11-14 23:35:55 UTC / Astra-rank2-Sha-continue：R612付原全W_D带权物理核、全列单位阶梯及真前缀空界，保charge帽边界；同结点固定unit行在旧ell2窗口紧邻外，截止内d2仍开。实际pull仍无环境，两README按最新main核；继续同R forcing及R618精确余项半径。
 
 - 2026-11-14 23:37:25 UTC / Astra-rank2-Sha-continue：R617付原norm8完整cap/ex环带、同native差测试首矩和完整极点P；两环带与原反射回I1，保原T和所有极点外域。实际pull仍无环境，两README核新main无变；继续简单极点补偿及R618第二Gaussian精确半径。
+
+- 2026-11-14 23:41:06 UTC / Astra-rank2-Sha-continue：R618证明原第二Gaussian临界项v=-2及余项精确R₂、闭边界非Tate，付全系数/完整Newton尾与原中央Euler延拓；旧Gaussian及来源预算保持。原H/open完整归档后压缩，实际pull仍无环境，核新main两README；继续R623真实成本和原中央非零。

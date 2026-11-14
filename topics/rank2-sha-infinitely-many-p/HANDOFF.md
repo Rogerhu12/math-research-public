@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：edb67de8a646f2a5662a7dcfe3012a912109e63a；2026-11-14 23:37:26 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 23:37:02 UTC仍无环境。最迟00:20再试。
+- 最近已读规则提交：ad2d576c4f5b0275ebf0f2ca152864f43ad36e12；2026-11-14 23:41:06 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 23:40:27 UTC仍无环境。最迟00:20再试。
 - 仅Rogerhu12/math-research-public/main；逐结论提交已授权，禁强推/改历史。每小时实际pull，逐次核两README，仅读差异即执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只临时终端，不入文件/回复。12:35–21:05 API历史已接回；21:39断连后非强制API追加，恢复即实际pull。
@@ -16,16 +16,16 @@
 
 ## 已发布、归档与分工
 
-R1–363、R365–560、R562–617已登记；R364仍开，R561/618/619/620及theta后续进行中。
-完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r616.md)、[open](notes/2026-11-14-open-before-r616.md)；
+R1–363、R365–560、R562–618已登记；R364仍开，R561/619/620/621/622/623进行中。
+完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r618.md)、[open](notes/2026-11-14-open-before-r618.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
 
-- theta续简单极点完整补域/原中央；R617已付原norm8全环带与同native差首矩，实际反射回I1保全部补偿。
-- literature续R619完整第二坏带/原Newton双块；R616已付全首坏带与h=p中央端点，R615系数同余独立不借sigma整性。
-- deep续截止内同R forcing/全局边界；R612已付原全W_D带权物理核和窗口紧邻固定出口，不能代旧d2。
-- root续R618全addition分母与真实成本；R614已付高度二整窗/两后段界及完整Newton高尾，h=p端点保留。
+- theta续R621简单极点完整补域/原中央；R617已付原norm8全环带与同native差首矩，实际反射回I1保全部补偿。
+- literature交R619完整第二坏带待推，续R622同原j两层连接；不把第二Gaussian添为独立中央零。
+- deep续R620截止内同R forcing/全局边界；R612已付原全W_D带权物理核和窗口紧邻固定出口，不能代旧d2。
+- root续R623真实同格成本；R618已付原第二Gaussian精确半径/全系数及完整Newton高尾，未去Gaussian原S半径保持。
 
 ## 原固定对象与不可删的支线
 
@@ -53,10 +53,9 @@ R604原S/T阶梯子式给D<s的真前缀空界/Θ(D²)接触，不计连续旗�
 R609全Wilson二次关系a⁶(Q11−3bQ44)+18ba³Q41+162bc4=5a/4，Gaussian−10a端点和原Schur保持。两中央0时右端另含162b^s e1ᵗM^-1R，不删残差认unit或把Q赋零；真高层非空未付。
 R610真实下一Ξ在全Cbar为ε∂ε+6υ∂υ，未修正B保Witt交叉项。七forcing/S/T低权除p行全付；完整j0不赋其高υ行零，来源稳定/次数未付。
 R598完整j0 iff原中央零初值Euler大盘延拓；Π0非同预算列。[普通Euler障碍](notes/2026-11-14-ordinary-euler-finite-order-obstruction.md)保小球密度，两U无有限阶呈示。
-R602全Hurwitz/无限Newton尾及开盘保正文。R606整Gaussian单位律保持完整j，规范c†消χ，K_p前5余项/第二Ξ保两位除法及H^-p log项，未排两j同零。
-R614全addition付U在n<L=(p²−1)/6整、L≤n<ps v≥−1、ps≤n<2L v≥−2，s/ps例外均付；边界pX_L=−2b^L、pU_L=b^L unit。原G同界，Newton h≤p−1整，H≤p−2完整尾≥H+1，模p^p保h=p。未认最大半径或全D收益。
-R615唯一H进位与δC_s=3给有限C_p(CH)=C_p(H²)=CJ，原留数X_pk=Z_k^p=−X_k^p/(6k−1)，1≤k<s；不借sigma整性，不越k=s分母。
-R616原H在n<ps唯一pole H_L，pH_L=−1；完整首坏带任一原theta阶d有p g_(L+r)=b^L(6r+d)g_r，r<s。原S/T取d6得pg_(m,p)=b^L C_X；完整j0迫C_X0后，第p项真实升入p^p，L_(p−1)≡0modp^p。f4/f1末带分别−c4/−4c1，首项unit不代指定非零。
+R602全Hurwitz/无限Newton尾保持。R606 Gaussian整改保完整j，c†/K_p/第二Ξ保两位除法与H^-p log；两j同零未排。
+R614完整addition给U在n<L整、L≤n<ps一次、ps≤n<2L二次；pX_L=−2b^L/pU_L=b^L。R615原有限Cartier给X_pk=Z_k^p=−X_k^p/(6k−1)，k<s，不借sigma整性。R616全首坏带p g_(L+r)=b^L(6r+d)g_r(r<s)，S/T第p项pg_p=b^L C_X；完整j0使C_X0、g_p整及L_(p−1)∈p^p。f4/f1末带−c4/−4c1不赋非零。
+R618 U0=U截<L、Δ=F−c′w^s−logU0起L，a₂=Δ_ps有p²a₂=b^Lpc unit。除该项余对数在闭R₂严格可指数化；U及原G4/G1/S/T精确R₂=p^{−τ₂},τ₂=(2p−1)/(p(p²−1))，闭R₂非Tate。全g_n≥−floor(6nτ₂)，原Newton a_h≥ceil(hη+6τ₂)、η=1−(p+1)τ₂，完整尾≥ceil((H+1)η+6τ₂)+v(H!)。原j0的中央Euler解延至每个R<R₂；Π0/预算保持，未去Gaussian的原S半径不变。
 
 ## 原全forcing与同一R
 

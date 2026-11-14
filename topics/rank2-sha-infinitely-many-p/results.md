@@ -500,3 +500,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [R617：原norm8完整环带与负五简单极点行](results/R617-original-norm8-annulus-and-negative-five-pole.md)：原R轴保同C两carry及native差测试，完整偶深核给全部cap/ex环带；真实第一矩为6Ωx²yσ⁸，两个原环带准确提取完整极点总行。同深反射消负三并以全ray单位接I1，原中央、两native全环带及极点外域均保，未把局部单位移给总行。
+
+
+- [R618：原第二Gaussian、精确余项半径与全Newton尾](results/R618-original-second-gaussian-exact-radius-and-newton-tail.md)：从高度二真实整窗除整Taylor单位，原唯一临界项a₂w^(ps)有p²a₂=b^Lpc；全部余对数在边界严格可指数化。原U及f4/f1/S/T余项精确R₂=p^{−(2p−1)/(p(p²−1))}、闭边界非Tate，给全系数/完整Newton尾和同中央Euler更大延拓盘；未去第一Gaussian的原来源半径及全部来源预算保持。
