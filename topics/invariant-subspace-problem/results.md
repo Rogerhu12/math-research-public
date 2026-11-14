@@ -863,3 +863,7 @@
 ### R297 附录：完整补空间Green的实际primitive块可有非实极点
 
 [完整有理证明](notes/2026-11-14-full-complement-green-nonreal-shift-poles-789f-next.md)取五位平方权x+(1,4,9,16,25)，先逆整个五维补空间，再取实际primitive源v=(1,−1,0,0,0)。二次型是明确N/[(x+1)(x+4)P]的三倍；五次P判别式严格负、模11 Euclid链证分子不相消。故完整Green及真实下一出生块都不是共同平移x的矩阵Stieltjes函数；正实参数下的正性及R299逐位Pick正核均不受影响。断连前未推的证明已由原完整记录恢复。
+
+### 文献接口：一个实际可逆算子使Garayev第二分支所有合格极限为零
+
+[完整自足证明](notes/2026-11-14-garayev-second-branch-forced-zero-limit-789f-next.md)取w(z)=Σ2^(−n²)zⁿ、A=M_(1/w)，有|w−1|≤7/12，A有界可逆且非标量。整函数零点积聚证明每条S*轨道尾部稠密，故w不属于任何真模型空间，且任一满足原文所需ψ·barw∈H²的ψ必零。实际取得正文Theorem3.1第二分支的式(3.6)因此不能给非零紧见证；换初始可逆φ也不改变w。显式θN=z^N与截断VN满足逼近条件而给零强极限。A自身有zH²不变，本结论排论证步骤，不声称ISP反例或论文状态；[原文续查](notes/2026-11-14-current-isp-literature-refresh-789f-next.md)保其余准确条件。
