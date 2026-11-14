@@ -108,7 +108,7 @@ $$L\int_0^L(1+k^2)\,ds\ge4\pi^2.$$
 
 $$\boxed{L\left(2L+\int_0^L(\partial_s\log h)^2ds\right)\ge4\pi^2.} \tag{8}$$
 
-例如 $h$ 恒定时 $L\ge\sqrt2\pi$。若达到等号，R84 的等号型迫相应球面 frame 曲线为单频圆、$k$ 为常值；这与 (5) 的加权零均值及正二次能量不能同时成立。因此该恒 $h$、真实零矩阵且 frame 闭合类实际满足严格 $L>\sqrt2\pi$。这里没有给统一的严格余量。
+后续 [R97](R97-zero-matrix-paths-require-nonconstant-h.md) 进一步使用完整 $C_3$ 系数与唯一的 $\omega_s=k_s/(2h)$，证明正长度完整 $M=0$ 路径必须有非恒 $h$，无需另假设 frame 闭合。因此原先从 (8) 提出的恒 $h$ 严格长度条件实际描述空类，不作为可实现例；(8) 对一般非恒 $h$ 路径保持有效。
 
 ## 5. 与第四 action 的边界
 

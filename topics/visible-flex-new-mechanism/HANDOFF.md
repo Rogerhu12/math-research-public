@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`af5d4aa7f1ca8c0f8bceb08c430f8bda203aa5f6`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`328d1d25d3b784e62776b866e46cd630fbe85c5f`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:42:44 UTC实际pull至`a0de3f9fcfb21e9db3e6863a8b48a665b9b5f0a3`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:41 UTC。
 
@@ -48,7 +48,7 @@ R89真实仿射协变/W不变，R90全部常态控制由七state至多252列张�
 
 R83真第四传递：M0倒行T−、V+；含Z0的真实基准上第四切向保P1，但基线/偶成本仍欠。R84 V只有限加法半群，frame长度L∫(1+k²)≥4π²；不授负成本或V正性。R85/R88证明pure尾4m−9、4m−8均准确端点势，M0已消；R88 consumer43636741138真I0/原DAG全0。
 
-R92一般m把第4m−7化为三个真实零端第二primitive(b0,d,J)的二次action：最高/中势移b2/u2/u1，真实I0移u0，J′=Ke/4且完整M0给末值0。actual43637739532/source09bbfd75已complete14.310s/RSS122.145MiB，15真histories、回代/坐标往返全0；action2172项/9组，完整cert decoded581665B SHA f3094ac25e631978ff129795128e8207edded409d78c8851a5f07c42c8db358d。非零density不授period/符号。R93从完整M0真证∫kh=0、∫k²=L+∫(logh)′²，故k换号且max|k|>1；闭frame另L(2L+Elogh)≥4π²。用这些真约束续端势/符号，不能任取三个primitive。
+R92一般m把第4m−7化为三个真实零端第二primitive(b0,d,J)的二次action：最高/中势移b2/u2/u1，真实I0移u0，J′=Ke/4且完整M0给末值0。actual43637739532/source09bbfd75已complete14.310s/RSS122.145MiB，15真histories、回代/坐标往返全0；action2172项/9组，完整cert decoded581665B SHA f3094ac25e631978ff129795128e8207edded409d78c8851a5f07c42c8db358d。非零density不授period/符号。R93从完整M0真证∫kh=0、∫k²=L+∫(logh)′²，故k换号且max|k|>1；闭frame另L(2L+Elogh)≥4π²。R97再证∫hkω=K2及K2=−∫(F/h)kρ，准确平方给(S²−1)E≥L、E>0/S>1，故全程恒h空类（R93已补注），不排变h桥；用真相关续端势，不能任取primitive。
 
 P0、逐s第四ruling、更高阶/收敛、完整宏观嵌入厚度仍欠；results.md/notes/git保全部证明与实际身份，H只保当前门。
 
