@@ -6,24 +6,24 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：0836c54fb75f7a65da4422f86f813ed70d2c9666；2026-11-14 22:44:55 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:36:11 UTC仍无环境。最迟23:30再试。
-- 只在Rogerhu12/math-research-public/main工作；逐结论commit/push已授权，禁强推/改已发表历史。每次pull后核根/课题README，至少每小时pull一次，仅读新差异并立刻执行。
+- 最近已读规则提交：17eedf185089d6157703a39dbb6ba006c74112e1；2026-11-14 22:47:17 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:36:11 UTC仍无环境。最迟23:30再试。
+- 仅Rogerhu12/math-research-public/main；逐结论提交已授权，禁强推/改历史。每小时实际pull，逐次核两README，仅读差异即执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
-- 令牌只终端临时环境，不入文件/提交/日志/回复。12:35–21:05断连期API历史已接回终端；21:39再次断连后用已连GitHub原子非强制追加，恢复即实际pull接回。
+- 令牌只临时终端，不入文件/回复。12:35–21:05 API历史已接回；21:39断连后非强制API追加，恢复即实际pull。
 - 非快进立刻实际pull --rebase、核两README、重推至成功，无force；断连期记真实失败并在新head重新接父。
 - 21:09只清可再取promisor缓存，全部工作/refs/未跟踪保留；pull用--no-stat。
 
 ## 已发布、归档与分工
 
-R1–363、R365–560、R562–602、R604/606已登记；R364仍开，R561/603/605/607/608/609/610进行中。
-完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r606.md)、[open](notes/2026-11-14-open-before-r600.md)；
+R1–363、R365–560、R562–604、R606已登记；R364仍开，R561/605/607/608/609/610进行中。
+完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r603.md)、[open](notes/2026-11-14-open-before-r603.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
 
 - theta续R605两真实image的原ℓ与完整余补；R601已付Q两张量、全Y/W核心和15维谱。R599原I1深度返回保持，未得中央→I1零。
 - literature续R607真实多阶饱和/混合九格；R604已付原S/T单位阶梯子式、全真前缀空区间及二次接触界，不将非连续行列式计旗标成本。
-- deep续R603：R597已付r1ν2原结点整临界支及低ell全部第二类；继续同一真实z0/z1与全两像。原深前缀右逆的定量应用作同篇增补，不重复R412。
+- deep续R608全长两支/同R真正余类；R603已付原有限两支gluing的全部五行和Qn首边界，另一支单位在允许阶，不当原余核非零。
 - root续R610原完整中央与实际整目标下一Euler/Cartier整商；R606已付共同Gaussian整单位变换和无χ的第二类，原j准确不变。
 
 ## 原固定对象与不可删的支线
@@ -46,17 +46,17 @@ R599完整R_n的负三/负五两角级数及相邻差以p4n精度回原I1；E_n=
 
 ## 同一原全格、半径与首p²目标
 
-R575七塔连S/T真维9；R584固定长塔维9+6M、无Dirac子格7+5M，全部新增缺陷保留且非有界测度。R579普通3klogD、R583惰性(0,3)已付；严格门aI+N bI<3N−6未过。R581/584条件cutoff θ<N−2（九格θ<7）没有原中央→全D/k桥。
+R575/584原九格和固定长塔维9+6M、无Dirac子格7+5M，所有缺陷保留且非有界。R579普通3klogD/R583惰性(0,3)已付，严格门未过；R581/584条件θ<N−2无原中央→全D/k桥。
 R580/588真实degree-p野域上七塔独立，任意真正含塔原P乘任意整数Gaussian准确半径S、闭S非Tate。[固定长塔增补](notes/2026-11-14-r588-fixed-long-tower-kummer-addendum.md)在p>12m+31推广，原七塔p>19不变；域投影不改整格/Smith/中央。
 
 R586七原Euler全部k准确系数/首p²共振族保正文，指定最早c4/c1未证非零，h0保相邻g_(s−2)。R587唯一pO原函数、完整Frobenius差和原Gaussian非零曲率不代指定系数。
 R589全D有限A_p统一一p整化、平方零极部/七列rank7和F^p整；k*处一p改善不付cutoff。[有限F^p边界](notes/2026-11-14-finite-frobenius-power-and-true-prefix.md)：真k≥s时其p幂已被原n<ps窗口截零。
 
-R591/592两c的KC/KH³与原ε五阶真同态保正文，第六乘法缺陷仍需相邻行。R595原两a=M(c4,c1)+R、detM=−266084/15单位，R含完整K≤N−2低卷积；中央同零仅c=−M^-1R。[addition整卷积](notes/2026-11-14-inert-addition-regular-carries.md)保RP/RB的明确单位补偿。
+R591/592两c的同参数KC/KH³及原ε五阶同态保全文，第六乘法缺陷不删；R595 a=M c+R的低K残差和[addition整卷积](notes/2026-11-14-inert-addition-regular-carries.md)的单位补偿均在。
 R596唯一R40首pole重建两c/两原a，首行同零 iff L=0、B=−hp/3；低残差保留。全Cauchy进位给全部九来源D/n<ps强化矩阵；真核不等modp核，与三块M不同。
 R600纯S/T全部D、全部余类第一层与中央Bockstein保完整低卷积、零γ及权碰撞；真实前缀Vandermonde可增一p，但D1高核早0。两原j0不赋乘积中央零，公式保正文与完整前检。
 
-R598完整原j_m=J′_m(0)准确给H_m=dE^-mΠ0U_m=−j_m e^-mcX+R_m，R_m唯一大盘Tate解且R_m(0)=j_m；j0 iff中央零初值H延拓。原d、全部尾/缩放保留；未投影U有非中央单位并独立，不排中央同零。Π0是p依赖z旋转，尚非同预算原列；R602续余项半径/下一Bockstein。
+R598原完整j0 iff准确中央零初值Euler解延拓；全部d/Π0/Newton尾/物理缩放保留。未投影U非中央单位不排中央同零，Π0尚非原同预算列。
 
 ## 原全forcing与同一修正
 
@@ -69,12 +69,14 @@ R597补齐r1ν2：原三列det−2给整分裂结点支，A/B∈w²而C∈w，�
 
 R602原F°/G全n!整、n<p整窗和每闭R<R*=p^-1/[6(p−1)]Tate；新单调完整尾M*给原第二Bockstein/全H二项式式。完整中央Euler延拓同更大开盘，未认闭边界最大或全D cutoff。
 
-[普通Euler有限阶障碍](notes/2026-11-14-ordinary-euler-finite-order-obstruction.md)：若θU=A原非零有界测度，任何有限阶τ都须τ(xf′)=ν(f)；全差商连续性/小球Mahler逼近迫ν所有球0。故R598两U不能添入R579普通有限阶格，有限Taylor/Dirac修正无效；中央Π0条件保持。
+[普通Euler障碍](notes/2026-11-14-ordinary-euler-finite-order-obstruction.md)：θU=A原非零有界测度时，有限阶τ迫τ(xf′)=ν(f)用于全部小球，矛盾；有限Taylor/Dirac修正无效，不能添两U入R579格。
 
 R604 D<s的原S/T完整阶梯子式以p^hh!整化后单位，真K_{D,D(s+1)+1}=0；最大接触在½D²+O(D)与(1+o1)D²之间。非连续raw det不等连续旗标，未给九格cutoff。
 
 R601实际Q两张量保原矩形但转测试；全Y一层/W四层负交换、中心/5坐标/真逆域已付。Y支全15维谱含S/2、两参考及四外3维块，新E2312线0；S伴随质量1/2不使投影与矩形交换，参考/外块/余补全保，无新ray。
 
-[固定CM多项式单位](notes/2026-11-14-fixed-cm-polynomial-unit-density.md)：固定非零F(barπ0)坏素数O_F(√XlogX)，保整数根分支；有限组固定R(λ,κ)的κ0分子/分母非零时可在原ray删此密度0集。只用于实际固定系数，不能套p依赖I1/Cartier。
+[固定CM单位](notes/2026-11-14-fixed-cm-polynomial-unit-density.md)：固定F(barπ0)坏处O_F(√XlogX)，有限组固定λκ有理式可在旧ray删此密度0集；不套p依赖I1/Cartier。
 
-R606任意整c改变量给J^{c′}=(c/c′)^u J，原J(0)=0故完整j准确不变。c†=−C_s/[p(p+1)]，c†−c=χ/(p+1)整；K_p=expθ^-1(Jflat C−1+C_s t^s C logH) modt^p无χ。前5规范g_h读[t^(hs−1)]K_p^(m/6)P_m C/H^(h+1)；首A1零时j/p²=−Ξ_m/(m²C_s²)，Ξ=B_m,2+mC_s(𝒜_m/p−ℒ_m)，ℒ保原H^-p的log修正。两原完整失败要求两B1及两Ξ同零，未证矛盾。
+R606完整J的整Gaussian变换为J^{c′}=(c/c′)^uJ，原完整j不变；c†=−C_s/[p(p+1)]消共同χ。特征p有限K_p读取前5余项；第二类Ξ保𝒜_m/p及原H^-p的log修正。原两j0仅迫两B1和两Ξ同零，未排实际递推解。
+
+R603限最低角恰c3：两整非垂直临界支Δ=tδ、δ0=2/κ−1。原两支值/∂Y jet的t对角1,1,t,t⁴；5≤N≤btop_(D−3)+1时原有限列真实满射到此像，全部左条件恰5条。下一t⁴边界由同R/T的−7c3−28c4+70c5+140c6给出，Qquad仍保原D+。A−−A+首2b*/(3κ−1²)t⁴单位正处允许阶；另一支未获原算术条件，全长帽/同R余类仍开。

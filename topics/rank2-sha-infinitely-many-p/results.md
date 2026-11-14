@@ -458,3 +458,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [R606：原Gaussian整单位变换与准确第二中央行](results/R606-original-gaussian-unit-gauge-and-canonical-second-central-row.md)：证明完整Newton函数的Gaussian整数改变量只乘显示解析单位，原完整导数准确不变；显式二项式规范消去共同提升χ，给特征p有限连接及前五余项。原第二类保H^-p的完整log修正和真实低系数除p，未以必要条件冒联合非零。
+
+
+- [R603：原结点两支的实际gluing与第五条角条件](results/R603-original-nodal-two-branch-gluing-and-actual-fifth-condition.md)：最低角恰三重时，原两支四jet的t对角为1,1,t,t⁴；显示有限前缀内由真实原列整实现全部像，五条左条件及同R/T的Qn首边界均付。另一临界值t⁴单位正处第一允许阶，未把第二支或新增联合目标当原物理余核。
