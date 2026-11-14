@@ -304,3 +304,7 @@ R238仅条件定理；新有理系数输入检查器待Actions，实际活动tai
 ### 2026-11-14 09:43 UTC — visible-larger R241: prove embedding and reach from complete immersion covering
 
 原空间v1真实剩889856对（仅prefix-prefix/tail）、Ktau0=1.0019578未过；R238前缀2589片与固定支持圆代数已过但全条件未齐。R241给同时嵌入/reach的完整条件证明，v2仅收紧覆盖路径并加实际前缀法向锥门，不改曲面/曲率预算。
+
+### 2026-11-14 09:44 UTC — actual large-core mainline dispatch
+
+新增题外 .github/workflows/visible-larger-public-mainline.yml 用于本题本公开仓4个独立计算：从真.99续free3、同A的空间v2、T96真零高尾/J/audit、完整scalar与材料DN耦合。θ圆warm使用实际Φc而非法线φ圆；完整BC方向检查后接真非线性outer重解，不把准备或linearD参考称实际DN接受。新增3个fullDN执行/读出/响应源和2个真尾容量client源，原Newton/正性/残差门保留。

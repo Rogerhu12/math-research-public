@@ -1,0 +1,171 @@
+name: visible-larger actual large-core mainline
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/public-mainline-request.json
+  workflow_dispatch:
+    inputs:
+      lane:
+        description: Actual numerical calculation
+        type: choice
+        default: all
+        options: [all, free3, geometry, coupling, tailzero]
+
+permissions:
+  contents: write
+
+jobs:
+  mainline:
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        lane: ${{ fromJSON(inputs.lane == 'free3' && '["free3"]' || inputs.lane == 'geometry' && '["geometry"]' || inputs.lane == 'coupling' && '["coupling"]' || inputs.lane == 'tailzero' && '["tailzero"]' || '["free3","geometry","coupling","tailzero"]') }}
+    name: Mainline ${{ matrix.lane }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    concurrency:
+      group: visible-larger-public-mainline-${{ matrix.lane }}
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/*.md
+            /topics/visible-flex-larger-amplitude/computations/
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz
+            /topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-RK24-radial4to8-closed-r1/
+            /topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json
+            /topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json
+            /topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz
+            /topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json
+            /topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0003.json.gz
+            /topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-accepted-ready-extracted.json
+            /topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1_coeff_00.npy.gz
+            /topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1_coeff_01.npy.gz
+            /topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1_coeff_02.npy.gz
+      - name: Bound maintenance and establish result paths
+        run: |
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+          mkdir -p "$RUNNER_TEMP/visible-mainline/${{ matrix.lane }}"
+          echo "VISIBLE_OUT=$RUNNER_TEMP/visible-mainline/${{ matrix.lane }}" >> "$GITHUB_ENV"
+          echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+          echo "VISIBLE_ACCEPTED=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz" >> "$GITHUB_ENV"
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24.22.1'
+      - run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+      - name: Restore pinned source bytes only from the public repository
+        if: matrix.lane != 'free3'
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PY'
+          import os
+          from pathlib import Path
+          from exact_20261114_public_resume import prepare_public_source
+          source = prepare_public_source(Path.cwd(), Path(os.environ['RUNNER_TEMP'])/'visible-mainline-source', Path(os.environ['VISIBLE_OUT']))
+          with open(os.environ['GITHUB_ENV'], 'a') as f:
+              f.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+          PY
+      - name: Continue the accepted 0.99 field with adaptive prediction steps
+        if: matrix.lane == 'free3'
+        timeout-minutes: 315
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_public_free3_adaptive.py" \
+            --accepted "$VISIBLE_ACCEPTED" --out "$VISIBLE_OUT" \
+            --work "$RUNNER_TEMP/visible-mainline-free3-qr" \
+            --duration .006 --target-end 1.05 --budget-seconds 18000
+      - name: Cover actual spatial blocks using diagonal paths and normal cones
+        if: matrix.lane == 'geometry'
+        timeout-minutes: 90
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_continuous_cover_budget_v2.py" \
+            --directory topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-RK24-radial4to8-closed-r1/closed \
+            --checkpoint topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz \
+            --source-topic "$VISIBLE_SOURCE_TOPIC" \
+            --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
+            --out "$VISIBLE_OUT/R241-cover-v2.json" --radial-stride 1 --angular-stride 1
+      - name: Solve and audit the actual T96 zero-height tail anchor
+        if: matrix.lane == 'tailzero'
+        timeout-minutes: 315
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/exact_20261114_true_tail_client.py" \
+            --source-topic "$VISIBLE_SOURCE_TOPIC" --modes 96 --quadrature 1024 \
+            --node-heap 6144 --out "$VISIBLE_OUT/zero-H-T96"
+      - name: Check the actual controlled scalar and complete physical RHS
+        if: matrix.lane == 'coupling'
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_full_dn_augmented.py" \
+            --accepted "$VISIBLE_ACCEPTED" \
+            --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
+            --out "$VISIBLE_OUT/scalar-RHS-response.json"
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PY'
+          import os
+          from pathlib import Path
+          from exact_20261114_true_tail_client import prepare_config
+          prepare_config(Path(os.environ['VISIBLE_OUT'])/'T96-config.json', modes=96, quadrature=1024)
+          PY
+      - name: Prepare the entire material-circle warm field on the real scalar neck
+        if: matrix.lane == 'coupling'
+        timeout-minutes: 30
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_full_dn_solve.py" \
+            --accepted "$VISIBLE_ACCEPTED" \
+            --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
+            --out "$VISIBLE_OUT/preparation" --work "$RUNNER_TEMP/visible-full-preparation" --prepare-only
+      - name: Check the complete material and augmented boundary derivatives
+        if: matrix.lane == 'coupling'
+        timeout-minutes: 30
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_full_dn_response.py" \
+            --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_OUT/preparation/prepared.json.gz" \
+            --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
+            --tail-client "$VISIBLE_COMPUTATIONS/exact_20261114_true_tail_client.py" \
+            --tail-config "$VISIBLE_OUT/T96-config.json" \
+            --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
+            --node-heap 6144 --out "$VISIBLE_OUT/boundary-response"
+      - name: Solve the actual full DN boundary problem with all scalar controls
+        if: matrix.lane == 'coupling'
+        timeout-minutes: 270
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_full_dn_solve.py" \
+            --accepted "$VISIBLE_ACCEPTED" --warm "$VISIBLE_OUT/preparation/prepared.json.gz" \
+            --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
+            --tail-client "$VISIBLE_COMPUTATIONS/exact_20261114_true_tail_client.py" \
+            --tail-config "$VISIBLE_OUT/T96-config.json" \
+            --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
+            --node-heap 6144 --out "$VISIBLE_OUT/full-DN" --work "$RUNNER_TEMP/visible-full-DN-qr"
+      - name: Preserve actual outcomes and failure checkpoints
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-mainline-${{ matrix.lane }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/visible-mainline/${{ matrix.lane }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Publish bounded outputs with ordinary rebase and push
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py" \
+            --results "$VISIBLE_OUT" --lane "${{ matrix.lane }}"
