@@ -45,4 +45,4 @@ request05/run43586618658/sourceb96924e0实际运行geometry(q8)+gwcompat；reque
 旧post43 geometry26件及strong90件也已按原SHA恢复到未跟踪文件，均历史非新Actions，需分manifest归档；强支旧SIGTERM143由共享磁盘资源中断，无接受更新，不重启旧支抢主线。旧strictmetric分量1e−6不等于算子1e−6；同新scalar须新适配/实算，勿重复18分钟旧baseline。
 每结论普通pull/README差异检查/commit/push；非快进立即rebase到成功。公开源78件逐原91清单匹配，只读公开仓，无private secret。临时自有transport分支只帮助大blob送达繁忙main，仍普通push，禁止force。任何分项完成继续open下一项。
 
-规则同步记录：2026-11-14T10:43:17.969532+00:00 实际pull --rebase成功；双README自6650920无变化，已读提交 66509205782abdd3b426d5ff5055851e00e5c8f3。
+规则同步记录：2026-11-14T10:45:54.085441+00:00 实际pull --rebase成功；双README自8522706无变化，已读提交 5b8efcf6bd2f1c63d9a2508d9e8ba9a3e95dc545。
