@@ -519,3 +519,7 @@ receipt-only43603364028 success/children=[]，真实receipt331dfd81c7cf148c0c58a
 ## 2026-11-14 14:33:04 UTC — exact old-curve Airy primitive and transport
 
 发布I1–21完整证明，双符号/双Airy列、原角曲线mean/primitive及full residual保；强型和实际有限根相位不预支。新九输入消费者只读实际fold9300be...付域、mean指数及J交换子。课题外新增 .github/workflows/visible-exact-actual-airy-primitive.yml，以本公开Actions运行；原flow/germ/response均不重跑。
+
+## 2026-11-14 14:33:47 UTC — repaired positive high interface theorem and consumer
+
+发布同global Z 的P1–15，把全4650 body与rootcollar按真端点反射拼接，保全七输入及普通源。新source/CI/87-file manifest只读三个原小记录，实际门为loop<1/6000、给定head根反射<1/2。课题外新增 .github/workflows/visible-exact-repaired-positive-high-root-graph.yml，仅本公开Actions执行新小算术。

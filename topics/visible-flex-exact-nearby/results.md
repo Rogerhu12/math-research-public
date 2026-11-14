@@ -197,3 +197,7 @@
 ### 2026-11-14 original primitive on actual Airy amplitudes
 
 [R133-supplement-original-primitive-on-actual-Airy-amplitudes-and-exact-mean](results/R133-supplement-original-primitive-on-actual-Airy-amplitudes-and-exact-mean.md): proved I1–21 for both signs and both Airy columns on the actual full-family fold. The finite primitive expansion has an exact old-curve mean and true L2 remainder; the complete J residual and radial commutator remain explicit. The leading/forced two-amplitude transport is constructed by convergent analytic characteristic integrals. A separate nine-input public consumer pays the actual domains and constants; true finite reflection and strong return remain open.
+
+### 2026-11-14 complete supplied-head positive high interface
+
+[R133-supplement-repaired-positive-high-root-to-regular-graph](results/R133-supplement-repaired-positive-high-root-to-regular-graph.md): proved P1–15 in the exact same repaired global Z frame. The body endpoint trace has the sharper χ/(1−χ) reflection, and the collar cross-port map has 1/2999. The resulting interface and root graph retain all seven head/source/mean/jump input columns. An 87-file public consumer checks the actual loop and root-reflection bounds from the original small success records; the full low/high Schur problem remains separate.

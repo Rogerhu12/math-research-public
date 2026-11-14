@@ -171,3 +171,7 @@ receipt-only43603364028实际成功。root逐字段比较原artifact和repo proc
 ### 2026-11-14 old-curve Airy operator algebra complete
 
 I1–21已证并接公开CI：original Iρ U(v)=WN−ΠρWN−n^-N IρU(YvN−1)，完整old mean和真实Airy profile不删；J residual/Dr交换子同域保。以t=√T真实解析特征积分构造leading/forced双幅，不是假设形式级数收敛。接下来实际原N系统双行残差、同对象positive图校正和已成negative Cauchy；brootfin与strong仍未授。
+
+### 2026-11-14 positive high root-to-regular interface
+
+已证P1–15并部署独立87-file public CI。使用原repair同一global Z、真实body端点零互补分量，把body反射压到χ/(1−χ)，与collar交叉1/2999闭合接口。所有七输入（root port、两ordinary source、body外口/head/mean/jumps、collar jump、cut双jump）保全。待新实际算术门，不重跑已成4650或collar；δ96/low-high Schur/negative仍需继续。
