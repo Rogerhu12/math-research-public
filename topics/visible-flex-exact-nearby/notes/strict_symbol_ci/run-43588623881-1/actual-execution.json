@@ -1,0 +1,29 @@
+{
+  "kind": "actual_public_complete_moving_symbol_process",
+  "command": [
+    "python3",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_subprincipal_identity.py",
+    "--out",
+    "/home/runner/work/_temp/strict-first-symbol/native.json"
+  ],
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43588623881",
+  "run_attempt": "1",
+  "workflow_commit": "24ae62409b5949d4a1095d60b243482106b3afbf",
+  "math_started": true,
+  "actual_scientific_checkout_commit": "24ae62409b5949d4a1095d60b243482106b3afbf",
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "started_utc": "2026-11-14T11:09:10.898731+00:00",
+  "runtime": {
+    "python": "3.12.14",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "native_sha256": "83b8735789ad10e2e36f9c327c1f5b24ffdc512ea6c66d449999a45baab5182d",
+  "actual_status": "pass",
+  "actual_gate_count": 10,
+  "actual_passed": 10,
+  "wrapper_returncode": 0,
+  "finished_utc": "2026-11-14T11:09:11.995634+00:00"
+}
