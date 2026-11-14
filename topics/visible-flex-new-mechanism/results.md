@@ -153,3 +153,5 @@
 - [R74：近等距下镜像法弦与速度的线性高度门](results/R74-near-isometric-mirror-and-speed-linear-height-gates.md) — 角向度量准确时，误差ε给未归一化法向模长在sqrt(1±ε)之间；固定T/a的镜像对必要reach门化为线性高度floor，准确等距时等价于这些对的法弦门。另有真实中心速度线性界及固定切向均方门。均不替代全reach，也未声称当前η>1的场满足小误差前提。
 
 - [R75：局部正weight密度的唯一IBP分解与有限word改写](results/R75-local-density-IBP-and-word-termination.md) — 在Q[x,q0,q1,…]的正weight分量，局部密度唯一分解为全导数与余型：纯q0项明确保留，最高阶m≥1才要求重复。含word的右IBP按word长度/局部jet阶有限下降；不证明真实profile上的所有word独立或全正规形完备。
+
+- [R76：真实局部第三积分的准确loop与权三控制](results/R76-local-third-exact-loops-and-weight-three-control.md) — 保非零M倒行二次项和校frame桥局部贡献，任意scalar闭路径可由真实M0/frameI loop准确实现2∫C；改变真实控制长度并重新积分frame准确隔离2t C3。给完整右尾面积公式及严格非零光滑例。未证明全部目标系数可达，也未支付完整P1/P0/ruling或有限族。

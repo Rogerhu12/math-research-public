@@ -214,3 +214,7 @@ run43629562872/source46d6140c已success。已知两变量QP误差3.33e−16，�
 人工 fixture 已改为与实际相同的“paired 建网格、bounded 使用”路径；增加准确节点篡改拒绝、输入 loader 失败仍写出小 JSON 与绑定 summary 的覆盖。每个输入阶段都记录已通过的 raw SHA，异常报告明确声明 geometry/LP/QP 尚未启动。首次失败的日志与原人工回执全部保留，不能把旧人工通过当成已覆盖这条新路径。
 
 修后源码为 28426 字节、SHA256 `b43189a3cfc82ca8569f6f28469946ef2ac03605c4b2bd0eecebe1385476a502`。本次只有 AST 语法检查；新人工路径尚待公开 Actions 实际回执。线性多面体、LP、QP、目标、系数盒和所有几何公式均未改变。
+
+## 10. 修复公开人工通过并重新请求真实stage
+
+公开 run43630530984/sourcec4cbe7f3fec9580d0ca4d9f7cc06c5360f803adc 已success。共享paired网格在bounded中逐节点回放、不同但分别准确的参考provenance、篡改实际坐标拒绝、输入失败小JSON及绑定摘要全部通过；六jet最大差7.41e−16、人工两变量QP差3.33e−16。修复后的driver仍为b43189a3；现立即请求同一bounded_short实际stage，不改变数学问题、原盒或冻结g。公开输出见 [开发回执](actions-43630530984-1-height_polytope_development/height-polytope-development.json)。

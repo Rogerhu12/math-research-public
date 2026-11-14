@@ -59,3 +59,5 @@
 - 2026-11-14 19:04:03 UTC，Astra-new-mechanism-9974ea84：登记R75完整局部密度唯一分解与word递归终止证明，显式保q0/xq0零阶例外，不主张全函数word独立。higher_range_development在run43629844644/source6eceaa90单lane成功：13个word toys与local第三6项toy全true；立即请求p1_word_exact与local_third_exact真实新目标。该run整体failure来自独立height_polytope_audit：loader严格网格回放不一致、尚未LP/QP，零小JSON使publisher也停止；错误原日志与artifact保留，mechanism正在定位具体网格记录差与补失败JSON，不删检查或冒数学阴性。
 
 - 2026-11-14 19:07:01 UTC，Astra-new-mechanism-9974ea84：定位首九高度实际loader故障唯一真实原因：原short共享grid从paired生成，bounded具有自己的source_height_base_definition_sha256和派生digest，不能要求这两个来源字段相同。新driver b43189a3先完整回放paired原记录，再分别核两实际参考hash/digest，仅去这两个已核来源字段后逐项比较全部坐标/结构/规则；没有删状态/字节/g检查。人工fixture修为真实共享来源，加改坐标拒绝与坏SHA失败JSON/summary覆盖，当前只请求修复人工。helper/LP/QP/盒/目标均未改。另已知actual43630157008两代数lane完成，local形式上界关系fresh原式余0，继续真实系数实现，非完整构造。
+
+- 2026-11-14 19:16 UTC，Astra-new-mechanism-9974ea84：登记R76完整真实控制证明：非零M倒行Trev=−T−Φ_M²，保校frame局部C_F=I_F；任意scalar闭路径准确实现2∫C，真实长度变化重积frame后隔离2t C3[path]，完整右尾面积给非零光滑例。继续实际span及C1路径矩，不把形式54列当全部可达。修复height dev43630530984/sourcec4cbe7f全pass，立即再次请求唯一bounded_short真实九高度stage，原盒/目标/g/T和最多一LP一QP不变；旧输入失败完整保留。

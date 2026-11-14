@@ -1,22 +1,29 @@
 {
-  "request": "repair-shared-short-grid-provenance-and-input-failure-checkpoint",
-  "created_at": "2026-11-14 19:07:01 UTC",
+  "request": "fixed-nine-height-actual-after-shared-grid-provenance-repair",
+  "created_at": "2026-11-14 19:16 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "height_polytope_development"
+    "height_polytope_audit"
   ],
   "source_sha256": {
     "frame_height_polytope.py": "6babe655e5d2ae48a54a4b2dad24685c433bd0d8ea902e231ffe0a64cd0afd8c",
     "frame_height_polytope_audit.py": "b43189a3cfc82ca8569f6f28469946ef2ac03605c4b2bd0eecebe1385476a502"
   },
-  "failed_actual_run": 43629844644,
-  "failed_actual_source": "6eceaa9009bf0df900c5bed4aa038cc51e34e527",
-  "failed_before_LP_QP": true,
-  "repair": "replay original paired shared grid, validate each model provenance, compare all coordinates and remaining rules",
-  "do_not_drop_original_state_or_input_checks": true,
-  "new_failure_JSON_paths_checked": true,
-  "actual_height_stage_requested": false,
-  "unchanged_height_mathematics_and_boxes": true,
-  "other_actual_run_completed": 43630157008,
+  "development_passed_run": 43630530984,
+  "development_source": "c4cbe7f3fec9580d0ca4d9f7cc06c5360f803adc",
+  "case": "bounded_short",
+  "unchanged_fixed_tangent_and_metric": true,
+  "original_height_bounds": [
+    -1,
+    1
+  ],
+  "maximum_LP": 1,
+  "maximum_distance_QP": 1,
+  "maximum_applied_proposal": 1,
+  "joint_metric_solve_requested": false,
+  "angle_refinement": [
+    384,
+    768
+  ],
   "task_complete": false
 }
