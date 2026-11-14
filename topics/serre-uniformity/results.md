@@ -220,3 +220,6 @@
 
 
 - **R748（已证明并精确计算完成）**：[原signed实CM根与六有理Hodge首系数](results/R748-original-signed-real-CM-root-and-rational-Hodge-first-jet.md)。公开run43617493590给T精确β多项式、同一原signed共轭+−+−++及六coarse首系数，原CM严格球定符号、exact square证恒等式；复用R745/R717，核心0.397秒。实际ω0首项43719/(7·41²)，完整尾证明v41(s)>3仅center与闭41⁴盘等距；没有以Abel不回零代真实高度排除。
+
+
+- **R751（精确构造公式已证明）**：[原全部周期在既有280次域的压缩](results/R751-original-period-compression-in-the-retained-degree-280-field.md)。完整finite/tame反作用与CRT给每h仅40加法周期，原3-torsion正核、逆θ及携权μ6和完整；Miller固定正ξ、原实目标−ζ相位消全部根式，保原六微分/800闭链。42列有限Hom核与全链验证明确，实际数表/核基由R754继续；不预设清分母整数或KS为p单位。
