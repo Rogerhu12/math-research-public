@@ -109,13 +109,13 @@ R295实际Turán/Catalan同源平方及最大原子分区已付全正权birth1/�
 
 [R299逐位内函数](results/R299-boolean-product-inner-kernel-and-complete-primitive-energy.md)现给同一物理Pick正核与primitive源保持Gauss分解，完整平方和保全部创建层/占据对角D_t及高次精确消去；硬端首尾确含J1u、A_Uu和三次桥。尚未把L1A_U识别为该正核的准确Schur块，不能由一般内函数收缩免费插入第一MP逆或推出κ。[实际三阶dual塔](results/R299-appendix-nonreal-coherent-norm-on-actual-three-step-dual-tower.md)另给七位K2相干范数的负整数判别式，排真实塔必实根捷径；仍不否定S1。
 
-[R300七位三弱位联合边界](results/R300-seven-site-hard-top-strict-boundary-region-with-three-simultaneous-weak-sites.md)已保全14维源、实际倒数顶测试及真cokernel Schur，精确消去全部跨块发散；固定旧4正权/弱3内部权的费极限三块直和≤743/782，故充分小共同ε有全源严格界1525/1564。阈值不宣称全权一致，不能交换退化极限；一般七位内部及更多弱位仍开。此前r至48的15点三组剖面仅数值线索，不再追加扫描。
+[R300七位边界](results/R300-seven-site-hard-top-strict-boundary-region-with-three-simultaneous-weak-sites.md)已付固定旧4权/弱3内部权的全14维充分小ε严格界1525/1564。[任意旧2s临界池推广](results/R300-appendix-arbitrary-critical-pool-three-weak-site-recursion.md)现给完整三族费用极限diag(I_U⊗Kweak,K_old,s−1⊗Rw*Rw,K_old,s−2)，无常数放大；真倒数低源kerA⁴/kerA²、旧q=3/h6项及全部交叉由容斥/核旗支付。下一步是有限a的共同缺陷；非严格边界极限与依赖内部权的阈值不代一般内部界。
 
 R286固定源全height已付；实际t_q出生随q上移，受限逆不自动保固定birth/有限支持。跨出生graph、完整e_q和N=M仍开，完整链接与范围保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
 
 R284完整零模Gram/Fischer已付同物理逆平方根能量；一般平方增长/graph识别仍开。准确公式、全部链接保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
 
-R279低占据/仿射MP已付，真硬核联合平方费仍缺；完整范围见[此前open](notes/2026-11-14-open-before-target-annihilator-789f.md)。
+R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前open](notes/2026-11-14-open-before-general-three-weak-789f.md)。
 
 [R275一位MP](results/R275-one-bit-full-primitive-schur-recursion-and-innovation.md)与R278联合Serre式均保[此前全文](notes/2026-11-14-open-before-all-height-strengthened-s1-789f.md)。高birth创新、同G1运输和graph仍缺；变化度量的迹不能消去负桥。
 

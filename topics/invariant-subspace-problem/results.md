@@ -843,3 +843,7 @@
 ### R150 附录：24次目标关系的完整基系数及原来源回放预算
 
 [实际构造与来源分析](results/R150-appendix-explicit-degree49-target-basis-coefficients-and-source-replay-bound.md)从保存的状态约化和完整向量关系形成全部1021基系数Q，最高49次、342321非零F31系数，并对1034分量逐系数核清GQ=h31T；完整压缩Q已保存。反向单位行操作可只用活跃槽回原2195来源，无需展开67860206节点树。完整无相消预算为次数≤26265、2.952×10¹¹层word工作；只是上界，不宣称实际展开已付。下一次实际相消前缀保持60秒/512MiB与checkpoint，若无下降转低次数直接lift。
+
+### R300 附录：任意临界旧池与三弱位的同常数完整递归
+
+[完整证明](results/R300-appendix-arbitrary-critical-pool-three-weak-site-recursion.md)对任意旧2s正权池保三族全部上源及真正倒数低源kerA⁴/kerA²，以四块物理Schur、加权不交容斥与真实核旗，得到diag(I_U⊗Kweak,K_old,s−1⊗Rw*Rw,K_old,s−2)的范数极限。旧高度四及更低出生q=3/h6常数项保留并准确归入两条真实首加强联合列M_t，全部交叉正交，无常数放大。有限参数两个非单位源Gram保至最后；严格旧余量可传充分小ε，非严格极限不代一般有限权界。
