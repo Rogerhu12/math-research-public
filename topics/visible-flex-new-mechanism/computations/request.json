@@ -1,32 +1,32 @@
 {
-  "request": "localized-core-preserving-accepted-exterior-and-true-subleading-tail-potential",
-  "created_at": "2026-11-14 20:17:44 UTC",
+  "request": "two-different-positive-pairs-original-complete-P1",
+  "created_at": "2026-11-14 20:23:31 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "localized_core_initial",
-    "pure_tail_subleading"
+    "multiple_pair_P1"
   ],
   "source_sha256": {
-    "frame_localized_core_initializer.py": "b6ae29f96c5e4459819bbd2894e2c5b409bf26bfaa4fc7be1c3c9733af2db7d4",
-    "literature_pure_tail_subleading_verify.py": "f6353909613f8299eab25ab9af32d44843e972d9859d73439aac0e2626f11e04"
+    "literature_multiple_pair_P1_exact.py": "a1fbe334b62cacb01b98fff9e99849e0550694f9d4926afbb2968b184a71dbe5"
   },
-  "localized_core": {
-    "accepted_reference_physical_sha256": "f198ba74dcf3644569bf1ed78eecbc48a0f21ec421205d46a6b159cb00ff0f56",
-    "B": "37/100",
-    "local_length": "81/500",
-    "core_cutoff_end": "99/500",
-    "unchanged_b_zc_and_exterior_six_jets": true,
-    "new_complete_g_not_old_refinement": true,
-    "check_only_then_single_actual_in_same_job": true,
-    "optimizer_calls": 0
-  },
-  "tail": {
-    "source_run": 43635287277,
-    "input_DAG_raw_sha256": "c39fc23a88105dbb13efd992b9971b72fb379ff2db543805b5ec0c8278c55ab5",
-    "no_forcing_recompilation": true,
-    "verify_true_first_integral_before_monic_division": true,
-    "order": 24,
-    "max_seconds": 240
-  },
+  "states": [
+    {
+      "H": "1",
+      "d": "0"
+    },
+    {
+      "H": "1",
+      "d": "1"
+    }
+  ],
+  "positive_complete_frame_weights": [
+    "1",
+    "1"
+  ],
+  "same_global_profile_and_anchor": true,
+  "fresh_original_dependencies_before_true_dimension_upper_bound": true,
+  "positive_only_after_original_both_mode_identity": true,
+  "negative_only_after_full_rank_and_nonzero_augmented_minor": true,
+  "max_seconds": 480,
+  "memory_polling_mib": 2048,
   "task_complete": false
 }
