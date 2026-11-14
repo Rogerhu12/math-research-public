@@ -21,16 +21,18 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 ## 当前两个实际阻断与并行计算
 
-### 前缀RMS域：24已定位全角一阶限制，接完整不等式投影warm
+### 前缀RMS域：26全角投影真实下降，接新增邻接query
 
-17/18/20/22均只warm实降，原BVP未接受，实际notes/原件保全。22/trustmultiline run43604874829/sourcefb32e240/job132477286177：原699/M112/T112/N2048；三行(473,0)/(480,0)/(473,11)完整梯度≤1.062e−12、rank3、原行leak≤1.400e−17。λ270/200在80步istop2，预条件normal2.60323e−5但KKT340.3776。α2^-9，同merit44.44622147747905→44.44413160763212、ratio1.0003776，原全域过；col=.007110543370/BC9.57847e−8仍非解。新warm03ca9477cbb759cdbf07117f2540aa51dbe07545985c957289d0f0a3079f4be8、新完整Rφ FD8.17330e−10/原5e−5门，112项H保留/native0。
-24/angledomain run43606770409实际success，包/完整note已保。base20+22方向重建差0，五处×N2048 complete complex差≤5.52e−13。480 first-exit=.00237428794夹接受2^-9/拒绝2^-8，四负角同集；但2^-6在475/477/479出现linear正而实际负，故保真实回溯。R263实算E=.79462908/Delta=.53502717=1.48521，不冒高精度QP。
-26/angleprojection真run43608931469/source2a251065/job132489481146在算：从最新22warm03ca9477…建同原A/λ270 LSMR200，唯一fullJac捕获端点J/P，原q.jet全Γ/Π编5×2048行B、/S一次。C对角度量Hildreth≤200sweep，β/2是算法余量；全行径向修复并保可行原射线backup，与投影方向在同阻尼模型线上选步，实测全A z/gdot/Δ及10240slack，非R265最优。原17回溯/全域/新FD保持，不native。三源operator af7966fa…、warm7d75a44a…、response90e7adde…及两接口已全文读；大B/J/Γ NPZ仅artifact，manifest/input/source/hash入Git。R262–265提供链/伴随/下降/后验工具。
+17/18/20/22均仅warm实降，BVP未接受；全部失败/梯度/原件详actual notes。24已核22方向五处×2048完整complex差≤5.52e−13；最近480一阶失域夹原接受/拒绝，但大步非线性余项不能忽略，R263 E/Delta1.48521不冒高精度QP。
+26/angleprojection run43608931469/source2a251065/job132489481146全部success；artifact14119626920 108924237B/ZIPe0c1e49b…取核。原699/M112/T112/N2048；完整B实际LSMR complex6.563e−13、adjoint2.273e−18，所有原数组身份核。三源保持，详完整actual26 note。
+λ270/200 LSMR在80步istop2，原gradient345.6423（非小预条件normal）。C度量Hildreth200sweep未收敛，74负slack经径向factor.8606834326670906修正，最终10240slack≥1.353e−16；同f线段τ1确选投影，不用6.499e−6微小backup。方向gdot−.8769409414/阻尼模型Delta.4990204300，完整gradient166834.2/零dual E190902.95，非R265最优。
+实际α2^-6，同一新模型固定权重merit44.44434208099914→44.43069444899323，drop.013647632005913124/ratio.9990257931；node/mid/两RMS全合法，rho.16604058243275。col=.007110525392946708/BC9.449358469183357e−8仍非解。新warm `notes/public-actions-43608931469-1-angleprojection/full-angle-warm/warm-001.json.gz`，SHA4e2ee245a3c931210eed8a9a67a4202397eb709b3e5aacc7271418d76d4098c1。新完整Rφ FD8.658996438962446e−10过原5e−5门，全部112 H保留（首项4.89164e−15非零），native0。不同迭代merit权重刷新不可跨模型相减。
+原五query所有角在α2^-5/2^-4已实际正，但前者左RMS481/φ0/β²−.00820413失败，后者472/481两处失败；右RMS0。更大步midpoint只存计数不造位置。amplitude接独立七query(472,473,475,477,479,480,481)同λ/投影/原17回溯/新FD，原B参数接口复用，冻结26生产者。大B/J/Γ NPZ仅artifact、manifest/input/source/hash入Git。
 
 ### Native：23初猜成功，25原Newton线搜索仍失败
 
 17首次真非零Hmax4.1760413061806626e−17，native iteration0 norm1.3414e7/chartCond1.3312e60，10trial全D/S/A拒；outer_history空，无新H/J/audit。全部112非均值H不能归零；zero cache未导worker predictor，zero checkpoint不恢复stage tangent。原linearSteps还定义far/graphs/gains/scales，不能全局改它冒只改初猜。
-19/run43602823170实际原noJ576stage全guard过，norm13414069.968482966；最坏stage11/raw0/seg7/Pi104，cut/far全112行0；saved与cold initial129248项数值相等，不重跑。
+19原noJ norm13414069.968482966，cold/saved值同，原件已封存不重跑。
 21工厂12/92 det失败且未留T，不能反填。22/v2全部576stage工厂成功、41有限rounded det0；261→262第112模−5e−324/u275.882…→0被私有veto拒，candidate=false/evaluate0。原件/notes及publisher补救已推，不重算；原native无此额外门，R264已证舍入账。
 23/zerorkprobev3 run43605912092/sourceac0fcc22/job132480432221实际success，artifact14117693541/ZIP385bfef9…已取核。完整577×224候选、原noJ一次、576stage全部guard过，norm **0.04177307820740199**（旧1.3414e7），仍远于原2e−9。最坏stage10/raw0/seg7/Pi95，res−2.1596910e−16/原scale5.1700548e−15；零线性块norm1.67490e−5另计，不能互代。cut/far112行皆浮点0；API不返回minA/minD，不伪造。native solve/J/audit尚0。
 51真下溢=47除/4乘、25负零；完整operand/result/双原scale bits保全。恢复9546负零后candidate完整binary64 SHA6b01b385de34af22094bc47fd7c8c2c2da9ac6d07bc40b5ce6362fea241218b8，原scale SHAecbfd55d…；71chunk SHA/顺序/维数核。summary aa93fb8a…，完整note public-same-RK-candidate-v3-actual23。

@@ -62,3 +62,5 @@ request26/angleprojection已接公开Actions：从最新22 warm新建唯一原�
 request25原完整solve已真实失败：run43607404925/job132484959081，iter0 norm=.04177307820740199，chartCondition8.810946110232247e59，原multiple-shooting line search failed，完整cut J/fresh audit未返回。先读取全部原试步定位，不直接接fullDN新H。
 
 actual25完整失败点已保：[原生全部试步实录](notes/2026-11-14-public-native-seeded-full-actual25.md)。十步1..1/512均stage13/raw0/seg7动量D/S/A拒，无trialNorm；同seed完整withJ基态合法，原correction图表报告8.8109e59，尚无全J/delta可辨线性缺陷。下一单次原withJ/correction捕获完整有限模型，不盲增试步、不新H。26已真实运行43608931469/job132489481146，待实际投影与新FD。
+
+request26已全success并逐实际包核：[全角投影实录](notes/2026-11-14-actual-request26-full-angle-projection-warm.md)。α2^-6、同新固定权重drop.0136476320，新warm4e2ee245…/新FD8.659e−10；仍col.007110525/BC9.449e−8/native0。5query全部实际正后限制移到左RMS472/481，接同一新warm七query完整角不等式；原真实全域回溯不变。Hildreth200未内收敛而已径向修到全行可行，非完整QP最优。

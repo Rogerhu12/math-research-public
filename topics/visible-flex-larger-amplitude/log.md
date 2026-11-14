@@ -672,3 +672,7 @@ request25终态补记：原身份验证通过，原Newton iter0 norm=.0417730782
 ### 2026-11-14 actual25：原校正十个试步同段出域
 
 完整artifact14118968502/ZIP480f69d0…已取并逐15输出SHA核，actual25 note bdb13075…全文读。原withJac基态合法且norm与23原noJ相同；随后原correction十步1..1/512全stage13/raw0/seg7 D/S/A拒，既无trialNorm也无接受更新。普通JSON失去9546负零位，全部129248实数仍同初猜；注入原字节身份另保。原Node exit0只是正常回失败，Python2，切口J/audit未返回。原chartCondition不能当严格奇异证明/定位至13；下一捕获同场全J/residual/delta检查线性缺陷，不改原方程/域/容差。26投影真run43608931469/source2a251065/job132489481146已在算。
+
+### 2026-11-14 actual26：全角可行投影扩大真实下降步
+
+run43608931469/source2a251065/job132489481146全success，artifact14119626920 108924237B/ZIPe0c1e49b…已取核。唯一88次原Jac捕获9node/9版本，完整B10,240行、actual-LSMR complex6.563e−13/adjoint2.273e−18，50文件/305数组逐字节核。Hildreth200未收敛的74负行经.8606834径向修复，全slack非负；τ1选投影，原17回溯在α2^-6实降.0136476320/ratio.9990257931、所有域过。新warm4e2ee245… 4711738B/new FD8.659e−10，col.007110525/BC9.449e−8仍未接受、native0。完整actual26 note全文读；更大step五query全正却出现RMS472/481新坏query，七query同参数后继在写。不同模型固定权重merit不可直接相减；完整model gradient166834及零dual E190903不冒QP最优。
