@@ -1,0 +1,1173 @@
+{
+  "schema": "same-g-fixed-metric-budget-curvature-row-exchange-audit-v1",
+  "status": "complete-shared-budget-actual-curvature-exchange-audit",
+  "phase": "independent-final-full-grid-and-angle-doubling",
+  "github_sha": "2f1b809c0b0abb7a26303d36940edc203815f872",
+  "github_run_id": "43645177423",
+  "artificial_inputs_only": false,
+  "configuration": {
+    "delta_min_exact": "1/100000000",
+    "initial_delta_margin_exact": "1/1000000",
+    "minimum_signed_height_exact": "1/10000",
+    "hard_ball_radius_exact": "101/100",
+    "hard_strip_half_width_exact": "38999/100000",
+    "maxiter": 80,
+    "max_physical_evaluations": 120,
+    "max_seconds": 300.0,
+    "ftol": 1e-10,
+    "box_tolerance": 0.0,
+    "height_tolerance": 1e-09,
+    "height_reconstruction_tolerance": 1e-10,
+    "signed_height_tolerance": 1e-09,
+    "shape_constraint_tolerance": 1e-09,
+    "metric_row_tolerance": 1e-09,
+    "direct_eta_tolerance": 1e-09,
+    "checkpoint_physical_evaluations": 10,
+    "checkpoint_seconds": 60.0,
+    "final_selection": "best actual maximum curvature passing all full-grid fixed-metric and physical gates",
+    "optimizer_objective": "min zeta=lambda/100; fixed metric budget, no soft objective",
+    "mirror_target_exact": "61/1000",
+    "mirror_polynomial_tolerance": 1e-12,
+    "mirror_radius_tolerance": 1e-09,
+    "normal_area_numerical_floor": 1e-10,
+    "physical_selection_ignores_only_the_auxiliary_delta_coverage": true,
+    "mirror_constraint": "z^2*|Xs cross T|^2-tau^2*(Xs cross T)_z^2 >= 0",
+    "mirror_constraint_is_necessary_for_these_sampled_pairs_only": true,
+    "no_curvature_or_all_pairs_constraint_added": false,
+    "outer_strip_half_width_exact": "39/100",
+    "strip_inner_margin_exact": "1/100000",
+    "max_exchange_rounds": 20,
+    "max_pool_rows": 12000,
+    "initial_per_radial_group": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "exchange_per_radial_group": 2,
+    "exchange_global_per_group": 32,
+    "minimum_major_iterations_before_exchange": 2,
+    "callback_metric_exchange_trigger_exact": "1/100000",
+    "value_Jacobian_replay_relative_tolerance": 5e-12,
+    "optimization_seconds_exclude_declared_initialization": true,
+    "full_grid_values_checked_at_every_trial": true,
+    "missing_row_violations_never_accepted_as_auxiliary_feasibility": true,
+    "nonlinear_pool_size_constant_inside_each_SLSQP_invocation": true,
+    "fixed_metric_budget_exact": "167/625",
+    "curvature_scale_exact": "100",
+    "curvature_lambda_min_exact": "1/100000000",
+    "curvature_initial_margin_exact": "1/1000000",
+    "curvature_target_radius_exact": "61/1000",
+    "curvature_row_tolerance": 1e-09,
+    "direct_curvature_tolerance": 1e-08,
+    "radial_Jacobian_batch_owned_rows": 16,
+    "curvature_gates_use_actual_metric_and_complete_position_two_jets": true,
+    "curvature_and_mirror_gates_are_not_a_whole_surface_reach_certificate": true
+  },
+  "elapsed_seconds": 319.220296428,
+  "prepare_elapsed_seconds": 10.264358899000001,
+  "process_total_elapsed_seconds": 329.485599751,
+  "optimization_active_seconds": 113.73285067300003,
+  "peak_rss_kib_linux": 1571880,
+  "old_failed_metric_auxiliary_delta": 0.26640845723039297,
+  "new_curvature_initialization": {
+    "source_curvature_maxima": {
+      "final_full_grid_audit": 73.35984304215299,
+      "final_doubled_angle_audit": 73.35982955083179
+    },
+    "maximum_of_both_published_angle_grids": 73.35984304215299,
+    "relative_margin_exact": "1/1000000",
+    "operation": "max_kappa + (1+max_kappa)*float(exact_margin)",
+    "proposed_lambda_evaluated": 73.35991740199603,
+    "proposed_lambda_exact_binary64": "1290561315138905/17592186044416",
+    "curvature_scale_exact": "100",
+    "old_metric_delta_is_not_used_for_lambda": true,
+    "current_full_grid_replay_must_independently_pass_this_bound": true,
+    "solver_zeta_evaluated": 0.7335991740199603,
+    "solver_zeta_exact_binary64": "3303836966755597/4503599627370496",
+    "effective_lambda_after_scaled_binary64_roundtrip": 73.35991740199603,
+    "ordinary_replayed_curvature_maximum": 73.35984304215299,
+    "old_failed_metric_delta_unchanged": 0.26640845723039297,
+    "auxiliary_is_not_a_physical_coefficient": true
+  },
+  "initial_current_constraints": {
+    "eligible_under_all_declared_sampled_constraints": true,
+    "cap_and_box": {
+      "eligible_under_declared_numerical_gate_tolerances": true,
+      "box_violation": 0.0,
+      "affine_height_evaluated": 0.14270420084310476,
+      "reconstructed_common_cap_height_evaluated": 0.14270420084310473,
+      "target_height_evaluated": 0.14270420084310476,
+      "affine_height_margin": 0.0,
+      "reconstructed_height_margin": -2.7755575615628914e-17,
+      "reconstructed_minus_affine_height_absolute": 2.7755575615628914e-17,
+      "box_tolerance": 0.0,
+      "height_tolerance": 1e-09,
+      "height_reconstruction_consistency_tolerance": 1e-10,
+      "both_height_margins_nonnegative_in_current_arithmetic": false,
+      "gate_is_not_a_continuous_height_integral_or_reach_certificate": true
+    },
+    "divided_metric_row_min": 0.0007894435143492442,
+    "metric_row_tolerance": 1e-09,
+    "divided_metric_row_pass": true,
+    "direct_max_eta": 0.2664111742382151,
+    "direct_eta_tolerance": 1e-09,
+    "independent_direct_eta_pass": true,
+    "direct_max_eta_location": {
+      "t": 0.66,
+      "theta": 3.1088677301148997,
+      "E_minus_one": 0.26620192209004045,
+      "F_over_a": 0.007466398764268525
+    },
+    "mean_squared_direct_metric_cost_diagnostic": 0.021071786257097824,
+    "minimum_signed_height": 0.02,
+    "signed_height_threshold_exact": "1/10000",
+    "signed_height_margin": 0.0199,
+    "signed_height_pass": true,
+    "hard_ball_radius_exact": "101/100",
+    "ball_radius_squared_normalized_max": 0.9906263484693526,
+    "hard_ball_pass": true,
+    "hard_strip_half_width_exact": "38999/100000",
+    "maximum_absolute_y": 0.38998999277038104,
+    "hard_strip_pass": true,
+    "unit_tangent_error_sample": 6.661338147750939e-16,
+    "first_order_normal_area_over_a_min_sample": 0.8564992779818629,
+    "finite_constraints_do_not_certify_continuous_metric_shape_embedding_or_reach": true,
+    "eligible_under_original_physical_gate_groups": true,
+    "mirror_target_exact": "61/1000",
+    "mirror_polynomial_min": 0.0003999999999999999,
+    "mirror_polynomial_tolerance": 1e-12,
+    "mirror_polynomial_pass": true,
+    "direct_mirror_radius_min_finite": 0.10167233032121407,
+    "mirror_radius_tolerance": 1e-09,
+    "independent_direct_mirror_radius_pass": true,
+    "zero_normal_z_pairs_without_finite_upper_bound_count": 2304,
+    "regular_normal_area_floor": 1e-10,
+    "nonregular_sample_count": 0,
+    "regularity_screen_pass": true,
+    "mirror_pair_screen_does_not_certify_whole_surface_reach": true,
+    "outer_strip_half_width_exact": "39/100",
+    "outer_strip_pass": true,
+    "outer_strip_absolute_margin": 1.0007229618969049e-05,
+    "inner_strip_absolute_margin": 7.2296189590481674e-09,
+    "strip_inner_margin_exact": "1/100000",
+    "physical_selection_uses_the_inner_not_only_outer_strip": true,
+    "decision_uses_every_declared_radial_angular_point_not_only_the_QP_pool": true,
+    "fixed_metric_budget_exact": "167/625",
+    "fixed_metric_budget_evaluated": 0.2672,
+    "fixed_metric_budget_pass": true,
+    "direct_eta_minus_fixed_budget": -0.0007888257617849059,
+    "physical_gate_pass_excluding_fixed_metric": true,
+    "eligible_under_fixed_metric_and_physical_gates": true,
+    "curvature_auxiliary_zeta": 0.7335991740199603,
+    "curvature_auxiliary_lambda": 73.35991740199603,
+    "curvature_scale_exact": "100",
+    "curvature_lambda_bound_pass": true,
+    "curvature_scaled_row_minima": {
+      "curvature_plus_trace": 0.6290129473147128,
+      "curvature_plus_determinant": 3.099706324924617e-07,
+      "curvature_minus_trace": 0.9285419374708674,
+      "curvature_minus_determinant": 0.18165246971180335
+    },
+    "curvature_scaled_PSD_row_pass": true,
+    "curvature_row_tolerance": 1e-09,
+    "direct_maximum_absolute_principal_curvature": 73.35984304215299,
+    "direct_max_curvature_location": {
+      "t": 0.7875,
+      "theta": 4.71238898038469,
+      "principal_curvatures": [
+        -73.35984304215299,
+        -1.212913961992019
+      ]
+    },
+    "independent_direct_curvature_pass": true,
+    "direct_curvature_minus_lambda": -7.435984304038357e-05,
+    "direct_curvature_tolerance": 1e-08,
+    "curvature_target_radius_exact": "61/1000",
+    "target_local_curvature_upper_evaluated": 16.39344262295082,
+    "target_local_curvature_pass": false,
+    "target_curvature_and_existing_sampled_gates_pass": false,
+    "old_metric_auxiliary_is_not_reused_as_curvature_auxiliary": true,
+    "no_continuous_curvature_embedding_or_whole_reach_certificate": true
+  },
+  "final_full_grid_constraints": {
+    "eligible_under_all_declared_sampled_constraints": true,
+    "cap_and_box": {
+      "eligible_under_declared_numerical_gate_tolerances": true,
+      "box_violation": 0.0,
+      "affine_height_evaluated": 0.14270420084310476,
+      "reconstructed_common_cap_height_evaluated": 0.14270420084310473,
+      "target_height_evaluated": 0.14270420084310476,
+      "affine_height_margin": 0.0,
+      "reconstructed_height_margin": -2.7755575615628914e-17,
+      "reconstructed_minus_affine_height_absolute": 2.7755575615628914e-17,
+      "box_tolerance": 0.0,
+      "height_tolerance": 1e-09,
+      "height_reconstruction_consistency_tolerance": 1e-10,
+      "both_height_margins_nonnegative_in_current_arithmetic": false,
+      "gate_is_not_a_continuous_height_integral_or_reach_certificate": true
+    },
+    "divided_metric_row_min": 0.0007894435143492442,
+    "metric_row_tolerance": 1e-09,
+    "divided_metric_row_pass": true,
+    "direct_max_eta": 0.2664111742382151,
+    "direct_eta_tolerance": 1e-09,
+    "independent_direct_eta_pass": true,
+    "direct_max_eta_location": {
+      "t": 0.66,
+      "theta": 3.1088677301148997,
+      "E_minus_one": 0.26620192209004045,
+      "F_over_a": 0.007466398764268525
+    },
+    "mean_squared_direct_metric_cost_diagnostic": 0.021071786257097824,
+    "minimum_signed_height": 0.02,
+    "signed_height_threshold_exact": "1/10000",
+    "signed_height_margin": 0.0199,
+    "signed_height_pass": true,
+    "hard_ball_radius_exact": "101/100",
+    "ball_radius_squared_normalized_max": 0.9906263484693526,
+    "hard_ball_pass": true,
+    "hard_strip_half_width_exact": "38999/100000",
+    "maximum_absolute_y": 0.38998999277038104,
+    "hard_strip_pass": true,
+    "unit_tangent_error_sample": 6.661338147750939e-16,
+    "first_order_normal_area_over_a_min_sample": 0.8564992779818629,
+    "finite_constraints_do_not_certify_continuous_metric_shape_embedding_or_reach": true,
+    "eligible_under_original_physical_gate_groups": true,
+    "mirror_target_exact": "61/1000",
+    "mirror_polynomial_min": 0.0003999999999999999,
+    "mirror_polynomial_tolerance": 1e-12,
+    "mirror_polynomial_pass": true,
+    "direct_mirror_radius_min_finite": 0.10167233032121407,
+    "mirror_radius_tolerance": 1e-09,
+    "independent_direct_mirror_radius_pass": true,
+    "zero_normal_z_pairs_without_finite_upper_bound_count": 2304,
+    "regular_normal_area_floor": 1e-10,
+    "nonregular_sample_count": 0,
+    "regularity_screen_pass": true,
+    "mirror_pair_screen_does_not_certify_whole_surface_reach": true,
+    "outer_strip_half_width_exact": "39/100",
+    "outer_strip_pass": true,
+    "outer_strip_absolute_margin": 1.0007229618969049e-05,
+    "inner_strip_absolute_margin": 7.2296189590481674e-09,
+    "strip_inner_margin_exact": "1/100000",
+    "physical_selection_uses_the_inner_not_only_outer_strip": true,
+    "decision_uses_every_declared_radial_angular_point_not_only_the_QP_pool": true,
+    "fixed_metric_budget_exact": "167/625",
+    "fixed_metric_budget_evaluated": 0.2672,
+    "fixed_metric_budget_pass": true,
+    "direct_eta_minus_fixed_budget": -0.0007888257617849059,
+    "physical_gate_pass_excluding_fixed_metric": true,
+    "eligible_under_fixed_metric_and_physical_gates": true,
+    "curvature_auxiliary_zeta": 0.7335991740199603,
+    "curvature_auxiliary_lambda": 73.35991740199603,
+    "curvature_scale_exact": "100",
+    "curvature_lambda_bound_pass": true,
+    "curvature_scaled_row_minima": {
+      "curvature_plus_trace": 0.6290129473147128,
+      "curvature_plus_determinant": 3.099706324924617e-07,
+      "curvature_minus_trace": 0.9285419374708674,
+      "curvature_minus_determinant": 0.18165246971180335
+    },
+    "curvature_scaled_PSD_row_pass": true,
+    "curvature_row_tolerance": 1e-09,
+    "direct_maximum_absolute_principal_curvature": 73.35984304215299,
+    "direct_max_curvature_location": {
+      "t": 0.7875,
+      "theta": 4.71238898038469,
+      "principal_curvatures": [
+        -73.35984304215299,
+        -1.212913961992019
+      ]
+    },
+    "independent_direct_curvature_pass": true,
+    "direct_curvature_minus_lambda": -7.435984304038357e-05,
+    "direct_curvature_tolerance": 1e-08,
+    "curvature_target_radius_exact": "61/1000",
+    "target_local_curvature_upper_evaluated": 16.39344262295082,
+    "target_local_curvature_pass": false,
+    "target_curvature_and_existing_sampled_gates_pass": false,
+    "old_metric_auxiliary_is_not_reused_as_curvature_auxiliary": true,
+    "no_continuous_curvature_embedding_or_whole_reach_certificate": true
+  },
+  "final_doubled_constraints": {
+    "eligible_under_all_declared_sampled_constraints": true,
+    "cap_and_box": {
+      "eligible_under_declared_numerical_gate_tolerances": true,
+      "box_violation": 0.0,
+      "affine_height_evaluated": 0.14270420084310476,
+      "reconstructed_common_cap_height_evaluated": 0.14270420084310473,
+      "target_height_evaluated": 0.14270420084310476,
+      "affine_height_margin": 0.0,
+      "reconstructed_height_margin": -2.7755575615628914e-17,
+      "reconstructed_minus_affine_height_absolute": 2.7755575615628914e-17,
+      "box_tolerance": 0.0,
+      "height_tolerance": 1e-09,
+      "height_reconstruction_consistency_tolerance": 1e-10,
+      "both_height_margins_nonnegative_in_current_arithmetic": false,
+      "gate_is_not_a_continuous_height_integral_or_reach_certificate": true
+    },
+    "divided_metric_row_min": 8.991855179479868e-05,
+    "metric_row_tolerance": 1e-09,
+    "divided_metric_row_pass": true,
+    "direct_max_eta": 0.26714653173907943,
+    "direct_eta_tolerance": 1e-09,
+    "independent_direct_eta_pass": true,
+    "direct_max_eta_location": {
+      "t": 0.1425,
+      "theta": 3.018874190558942,
+      "E_minus_one": -0.08499140729862553,
+      "F_over_a": -0.22059489960732928
+    },
+    "mean_squared_direct_metric_cost_diagnostic": 0.02107178629260537,
+    "minimum_signed_height": 0.02,
+    "signed_height_threshold_exact": "1/10000",
+    "signed_height_margin": 0.0199,
+    "signed_height_pass": true,
+    "hard_ball_radius_exact": "101/100",
+    "ball_radius_squared_normalized_max": 0.9906263485145193,
+    "hard_ball_pass": true,
+    "hard_strip_half_width_exact": "38999/100000",
+    "maximum_absolute_y": 0.38998999277923024,
+    "hard_strip_pass": true,
+    "unit_tangent_error_sample": 6.661338147750939e-16,
+    "first_order_normal_area_over_a_min_sample": 0.8563692920757865,
+    "finite_constraints_do_not_certify_continuous_metric_shape_embedding_or_reach": true,
+    "eligible_under_original_physical_gate_groups": true,
+    "mirror_target_exact": "61/1000",
+    "mirror_polynomial_min": 0.0003999999999999999,
+    "mirror_polynomial_tolerance": 1e-12,
+    "mirror_polynomial_pass": true,
+    "direct_mirror_radius_min_finite": 0.10167233032134533,
+    "mirror_radius_tolerance": 1e-09,
+    "independent_direct_mirror_radius_pass": true,
+    "zero_normal_z_pairs_without_finite_upper_bound_count": 4608,
+    "regular_normal_area_floor": 1e-10,
+    "nonregular_sample_count": 0,
+    "regularity_screen_pass": true,
+    "mirror_pair_screen_does_not_certify_whole_surface_reach": true,
+    "outer_strip_half_width_exact": "39/100",
+    "outer_strip_pass": true,
+    "outer_strip_absolute_margin": 1.0007220769769898e-05,
+    "inner_strip_absolute_margin": 7.220769759896939e-09,
+    "strip_inner_margin_exact": "1/100000",
+    "physical_selection_uses_the_inner_not_only_outer_strip": true,
+    "decision_uses_every_declared_radial_angular_point_not_only_the_QP_pool": true,
+    "fixed_metric_budget_exact": "167/625",
+    "fixed_metric_budget_evaluated": 0.2672,
+    "fixed_metric_budget_pass": true,
+    "direct_eta_minus_fixed_budget": -5.346826092056389e-05,
+    "physical_gate_pass_excluding_fixed_metric": true,
+    "eligible_under_fixed_metric_and_physical_gates": true,
+    "curvature_auxiliary_zeta": 0.7335991740199603,
+    "curvature_auxiliary_lambda": 73.35991740199603,
+    "curvature_scale_exact": "100",
+    "curvature_lambda_bound_pass": true,
+    "curvature_scaled_row_minima": {
+      "curvature_plus_trace": 0.6290130373806874,
+      "curvature_plus_determinant": 3.6620950184418743e-07,
+      "curvature_minus_trace": 0.927223649779465,
+      "curvature_minus_determinant": 0.18151005776664877
+    },
+    "curvature_scaled_PSD_row_pass": true,
+    "curvature_row_tolerance": 1e-09,
+    "direct_maximum_absolute_principal_curvature": 73.35982955083179,
+    "direct_max_curvature_location": {
+      "t": 0.7875,
+      "theta": 1.5707963267948966,
+      "principal_curvatures": [
+        -73.35982955083179,
+        -1.212913979587792
+      ]
+    },
+    "independent_direct_curvature_pass": true,
+    "direct_curvature_minus_lambda": -8.78511642383728e-05,
+    "direct_curvature_tolerance": 1e-08,
+    "curvature_target_radius_exact": "61/1000",
+    "target_local_curvature_upper_evaluated": 16.39344262295082,
+    "target_local_curvature_pass": false,
+    "target_curvature_and_existing_sampled_gates_pass": false,
+    "old_metric_auxiliary_is_not_reused_as_curvature_auxiliary": true,
+    "no_continuous_curvature_embedding_or_whole_reach_certificate": true
+  },
+  "selected_raw_auxiliary_zeta": 0.7335991740199603,
+  "selected_raw_auxiliary_lambda": 73.35991740199603,
+  "unchanged_complete_metric_and_height_reference": true,
+  "limitations": {
+    "all_constraints_and_curvature_diagnostics_are_sampled_only": true,
+    "fixed_metric_budget_is_not_exact_isometry": true,
+    "new_fine_or_auxiliary_failures_remain_failures": true,
+    "curvature_target_radius_exact": "61/1000",
+    "curvature_and_mirror_pairs_do_not_cover_all_surface_pairs": true,
+    "no_complete_embedding_or_whole_surface_reach_certificate": true,
+    "no_second_solve_or_parameter_step_during_final_refinement": true
+  },
+  "complete_report": {
+    "filename": "curvature-epigraph-exchange-audit.json",
+    "raw_bytes": 5220015,
+    "raw_sha256": "5b04d6a7c85870687b979bbda87bbf8bd4d429d3b36c918d83cebde59b4dcaa0"
+  },
+  "initial_state": {
+    "canonical_physical_state_sha256": "e407a21488257097f60073f7e46e19f987dc963760957040ee7254a02889beb4"
+  },
+  "final_state": {
+    "canonical_physical_state_sha256": "e407a21488257097f60073f7e46e19f987dc963760957040ee7254a02889beb4"
+  },
+  "initial_full_grid_audit": {
+    "extrema": {
+      "E_minus_one": {
+        "value": 0.26641005008168994,
+        "magnitude": 0.26641005008168994,
+        "t": 0.09,
+        "theta": 1.5707963267948966,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "F_over_a": {
+        "value": 0.26551376003734234,
+        "magnitude": 0.26551376003734234,
+        "t": 0.45,
+        "theta": 0.9981101659842572,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "metric_operator_error": {
+        "value": 0.2664111742382151,
+        "magnitude": 0.2664111742382151,
+        "t": 0.66,
+        "theta": 3.1088677301148997,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "area": {
+        "value": 0.2199999999999999,
+        "magnitude": 0.2199999999999999,
+        "t": 0.9,
+        "theta": 3.370667117914049,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "principal_curvature_absolute": {
+        "value": 73.35984304215299,
+        "magnitude": 73.35984304215299,
+        "t": 0.7875,
+        "theta": 4.71238898038469,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "curvature_discriminant": {
+        "value": 6.7893154488993e-32,
+        "magnitude": 6.7893154488993e-32,
+        "t": 0.885,
+        "theta": 0.3108867730114899,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "ball_radius_squared_normalized": {
+        "value": 0.9906263484693526,
+        "magnitude": 0.9906263484693526,
+        "t": 0.0825,
+        "theta": 0.0,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "strip_abs_normalized": {
+        "value": 1.0262894546588974,
+        "magnitude": 1.0262894546588974,
+        "t": 0.345,
+        "theta": 1.5707963267948966,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "signed_side_height_minus_core_width": {
+        "value": 0.0,
+        "magnitude": 0.0,
+        "t": 0.0,
+        "theta": 0.0,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "G_over_a_squared_minus_one": {
+        "value": 8.881784197001252e-16,
+        "magnitude": 8.881784197001252e-16,
+        "t": 0.39,
+        "theta": 4.09061543436171,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      }
+    },
+    "regions": {
+      "open_core": {
+        "metric_operator_error": {
+          "value": 0.0,
+          "magnitude": 0.0,
+          "t": 0.0,
+          "theta": 0.0,
+          "finite_count": 2304,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 12.755102040816325,
+          "magnitude": 12.755102040816325,
+          "t": 0.0,
+          "theta": 0.0,
+          "finite_count": 2304,
+          "nonfinite_count": 0
+        }
+      },
+      "entry_repair_support": {
+        "metric_operator_error": {
+          "value": 0.26641005008168994,
+          "magnitude": 0.26641005008168994,
+          "t": 0.09,
+          "theta": 1.5707963267948966,
+          "finite_count": 13056,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 35.49199040594026,
+          "magnitude": 35.49199040594026,
+          "t": 0.086625,
+          "theta": 3.141592653589793,
+          "finite_count": 13056,
+          "nonfinite_count": 0
+        }
+      },
+      "body_after_entry_before_patch": {
+        "metric_operator_error": {
+          "value": 0.2664111742382151,
+          "magnitude": 0.2664111742382151,
+          "t": 0.66,
+          "theta": 3.1088677301148997,
+          "finite_count": 37632,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 32.31836864203781,
+          "magnitude": 32.31836864203781,
+          "t": 0.198,
+          "theta": 3.3870295796514953,
+          "finite_count": 37632,
+          "nonfinite_count": 0
+        }
+      },
+      "natural_cap_patch": {
+        "metric_operator_error": {
+          "value": 0.2664102669034999,
+          "magnitude": 0.2664102669034999,
+          "t": 0.7875,
+          "theta": 4.859651136021712,
+          "finite_count": 6144,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 73.35984304215299,
+          "magnitude": 73.35984304215299,
+          "t": 0.7875,
+          "theta": 4.71238898038469,
+          "finite_count": 6144,
+          "nonfinite_count": 0
+        }
+      },
+      "open_cap": {
+        "metric_operator_error": {
+          "value": 3.0049353875957974e-08,
+          "magnitude": 3.0049353875957974e-08,
+          "t": 0.855,
+          "theta": 6.266822845442139,
+          "finite_count": 3456,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 12.565534377788214,
+          "magnitude": 12.565534377788214,
+          "t": 0.8625,
+          "theta": 0.11453723216212787,
+          "finite_count": 3456,
+          "nonfinite_count": 0
+        }
+      }
+    }
+  },
+  "final_full_grid_audit": {
+    "extrema": {
+      "E_minus_one": {
+        "value": 0.26641005008168994,
+        "magnitude": 0.26641005008168994,
+        "t": 0.09,
+        "theta": 1.5707963267948966,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "F_over_a": {
+        "value": 0.26551376003734234,
+        "magnitude": 0.26551376003734234,
+        "t": 0.45,
+        "theta": 0.9981101659842572,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "metric_operator_error": {
+        "value": 0.2664111742382151,
+        "magnitude": 0.2664111742382151,
+        "t": 0.66,
+        "theta": 3.1088677301148997,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "area": {
+        "value": 0.2199999999999999,
+        "magnitude": 0.2199999999999999,
+        "t": 0.9,
+        "theta": 3.370667117914049,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "principal_curvature_absolute": {
+        "value": 73.35984304215299,
+        "magnitude": 73.35984304215299,
+        "t": 0.7875,
+        "theta": 4.71238898038469,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "curvature_discriminant": {
+        "value": 6.7893154488993e-32,
+        "magnitude": 6.7893154488993e-32,
+        "t": 0.885,
+        "theta": 0.3108867730114899,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "ball_radius_squared_normalized": {
+        "value": 0.9906263484693526,
+        "magnitude": 0.9906263484693526,
+        "t": 0.0825,
+        "theta": 0.0,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "strip_abs_normalized": {
+        "value": 1.0262894546588974,
+        "magnitude": 1.0262894546588974,
+        "t": 0.345,
+        "theta": 1.5707963267948966,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "signed_side_height_minus_core_width": {
+        "value": 0.0,
+        "magnitude": 0.0,
+        "t": 0.0,
+        "theta": 0.0,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "G_over_a_squared_minus_one": {
+        "value": 8.881784197001252e-16,
+        "magnitude": 8.881784197001252e-16,
+        "t": 0.39,
+        "theta": 4.09061543436171,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      }
+    },
+    "regions": {
+      "open_core": {
+        "metric_operator_error": {
+          "value": 0.0,
+          "magnitude": 0.0,
+          "t": 0.0,
+          "theta": 0.0,
+          "finite_count": 2304,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 12.755102040816325,
+          "magnitude": 12.755102040816325,
+          "t": 0.0,
+          "theta": 0.0,
+          "finite_count": 2304,
+          "nonfinite_count": 0
+        }
+      },
+      "entry_repair_support": {
+        "metric_operator_error": {
+          "value": 0.26641005008168994,
+          "magnitude": 0.26641005008168994,
+          "t": 0.09,
+          "theta": 1.5707963267948966,
+          "finite_count": 13056,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 35.49199040594026,
+          "magnitude": 35.49199040594026,
+          "t": 0.086625,
+          "theta": 3.141592653589793,
+          "finite_count": 13056,
+          "nonfinite_count": 0
+        }
+      },
+      "body_after_entry_before_patch": {
+        "metric_operator_error": {
+          "value": 0.2664111742382151,
+          "magnitude": 0.2664111742382151,
+          "t": 0.66,
+          "theta": 3.1088677301148997,
+          "finite_count": 37632,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 32.31836864203781,
+          "magnitude": 32.31836864203781,
+          "t": 0.198,
+          "theta": 3.3870295796514953,
+          "finite_count": 37632,
+          "nonfinite_count": 0
+        }
+      },
+      "natural_cap_patch": {
+        "metric_operator_error": {
+          "value": 0.2664102669034999,
+          "magnitude": 0.2664102669034999,
+          "t": 0.7875,
+          "theta": 4.859651136021712,
+          "finite_count": 6144,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 73.35984304215299,
+          "magnitude": 73.35984304215299,
+          "t": 0.7875,
+          "theta": 4.71238898038469,
+          "finite_count": 6144,
+          "nonfinite_count": 0
+        }
+      },
+      "open_cap": {
+        "metric_operator_error": {
+          "value": 3.0049353875957974e-08,
+          "magnitude": 3.0049353875957974e-08,
+          "t": 0.855,
+          "theta": 6.266822845442139,
+          "finite_count": 3456,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 12.565534377788214,
+          "magnitude": 12.565534377788214,
+          "t": 0.8625,
+          "theta": 0.11453723216212787,
+          "finite_count": 3456,
+          "nonfinite_count": 0
+        }
+      }
+    }
+  },
+  "final_doubled_angle_audit": {
+    "extrema": {
+      "E_minus_one": {
+        "value": -0.26662397128931736,
+        "magnitude": 0.26662397128931736,
+        "t": 0.7875,
+        "theta": 4.867832366890434,
+        "finite_count": 122880,
+        "nonfinite_count": 0
+      },
+      "F_over_a": {
+        "value": 0.26555317018840385,
+        "magnitude": 0.26555317018840385,
+        "t": 0.45,
+        "theta": 4.147884050442774,
+        "finite_count": 122880,
+        "nonfinite_count": 0
+      },
+      "metric_operator_error": {
+        "value": 0.26714653173907943,
+        "magnitude": 0.26714653173907943,
+        "t": 0.1425,
+        "theta": 3.018874190558942,
+        "finite_count": 122880,
+        "nonfinite_count": 0
+      },
+      "area": {
+        "value": 0.2199999999999999,
+        "magnitude": 0.2199999999999999,
+        "t": 0.9,
+        "theta": 2.7325311101536225,
+        "finite_count": 122880,
+        "nonfinite_count": 0
+      },
+      "principal_curvature_absolute": {
+        "value": 73.35982955083179,
+        "magnitude": 73.35982955083179,
+        "t": 0.7875,
+        "theta": 1.5707963267948966,
+        "finite_count": 122880,
+        "nonfinite_count": 0
+      },
+      "curvature_discriminant": {
+        "value": 6.7893154488993e-32,
+        "magnitude": 6.7893154488993e-32,
+        "t": 0.885,
+        "theta": 3.918809586118518,
+        "finite_count": 122880,
+        "nonfinite_count": 0
+      },
+      "ball_radius_squared_normalized": {
+        "value": 0.9906263485145193,
+        "magnitude": 0.9906263485145193,
+        "t": 0.0825,
+        "theta": 0.0,
+        "finite_count": 122880,
+        "nonfinite_count": 0
+      },
+      "strip_abs_normalized": {
+        "value": 1.0262894546821848,
+        "magnitude": 1.0262894546821848,
+        "t": 0.345,
+        "theta": 4.71238898038469,
+        "finite_count": 122880,
+        "nonfinite_count": 0
+      },
+      "signed_side_height_minus_core_width": {
+        "value": 0.0,
+        "magnitude": 0.0,
+        "t": 0.0,
+        "theta": 0.0,
+        "finite_count": 122880,
+        "nonfinite_count": 0
+      },
+      "G_over_a_squared_minus_one": {
+        "value": 8.881784197001252e-16,
+        "magnitude": 8.881784197001252e-16,
+        "t": 0.39,
+        "theta": 4.09061543436171,
+        "finite_count": 122880,
+        "nonfinite_count": 0
+      }
+    },
+    "regions": {
+      "open_core": {
+        "metric_operator_error": {
+          "value": 0.0,
+          "magnitude": 0.0,
+          "t": 0.0,
+          "theta": 0.0,
+          "finite_count": 4608,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 12.755102040816325,
+          "magnitude": 12.755102040816325,
+          "t": 0.0,
+          "theta": 0.0,
+          "finite_count": 4608,
+          "nonfinite_count": 0
+        }
+      },
+      "entry_repair_support": {
+        "metric_operator_error": {
+          "value": 0.26661091973818574,
+          "magnitude": 0.26661091973818574,
+          "t": 0.100125,
+          "theta": 6.209554229361076,
+          "finite_count": 26112,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 35.491990358334775,
+          "magnitude": 35.491990358334775,
+          "t": 0.086625,
+          "theta": 3.141592653589793,
+          "finite_count": 26112,
+          "nonfinite_count": 0
+        }
+      },
+      "body_after_entry_before_patch": {
+        "metric_operator_error": {
+          "value": 0.26714653173907943,
+          "magnitude": 0.26714653173907943,
+          "t": 0.1425,
+          "theta": 3.018874190558942,
+          "finite_count": 75264,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 32.32083331275983,
+          "magnitude": 32.32083331275983,
+          "t": 0.198,
+          "theta": 0.253618156930426,
+          "finite_count": 75264,
+          "nonfinite_count": 0
+        }
+      },
+      "natural_cap_patch": {
+        "metric_operator_error": {
+          "value": 0.26665271391933343,
+          "magnitude": 0.26665271391933343,
+          "t": 0.7875,
+          "theta": 4.867832366890434,
+          "finite_count": 12288,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 73.35982955083179,
+          "magnitude": 73.35982955083179,
+          "t": 0.7875,
+          "theta": 1.5707963267948966,
+          "finite_count": 12288,
+          "nonfinite_count": 0
+        }
+      },
+      "open_cap": {
+        "metric_operator_error": {
+          "value": 5.828259882277853e-10,
+          "magnitude": 5.828259882277853e-10,
+          "t": 0.8475,
+          "theta": 1.153553552490002,
+          "finite_count": 6912,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 12.56982526985826,
+          "magnitude": 12.56982526985826,
+          "t": 0.846,
+          "theta": 0.3681553890925539,
+          "finite_count": 6912,
+          "nonfinite_count": 0
+        }
+      }
+    }
+  },
+  "curvature_exchange_stage": {
+    "status": "exchange-round-limit-with-missing-eleven-group-rows-recorded",
+    "error": null,
+    "budget_message": null,
+    "selected_point": "best actual maximum curvature satisfying full fixed-metric and physical gates",
+    "no_metric_parameter_or_height_reference_change": true,
+    "solver": {
+      "method": "SLSQP with eleven-group explicit row exchanges",
+      "minimize_invocation_count": 20,
+      "total_major_iterations": 40,
+      "shared_maxiter": 80,
+      "shared_max_physical_evaluations": 120,
+      "shared_optimization_seconds": 300.0,
+      "max_exchange_rounds": 20,
+      "artificial_inputs_only": false,
+      "evaluate_only": false,
+      "numpy_version": "2.3.5",
+      "scipy_version": "1.17.0",
+      "keep_feasible_not_passed_or_claimed": true,
+      "all_eligibility_tests_are_whole_grid": true,
+      "new_initial_auxiliary_zeta": 0.7335991740199603,
+      "new_initial_auxiliary_lambda": 73.35991740199603
+    },
+    "rounds": [
+      {
+        "round": 1,
+        "pool_version": 1,
+        "pool_rows": 2080,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 2,
+        "pool_version": 2,
+        "pool_rows": 2416,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 3,
+        "pool_version": 3,
+        "pool_rows": 2716,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 4,
+        "pool_version": 4,
+        "pool_rows": 3022,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 5,
+        "pool_version": 5,
+        "pool_rows": 3188,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 6,
+        "pool_version": 6,
+        "pool_rows": 3304,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 7,
+        "pool_version": 7,
+        "pool_rows": 3420,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 8,
+        "pool_version": 8,
+        "pool_rows": 3492,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 9,
+        "pool_version": 9,
+        "pool_rows": 3534,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 10,
+        "pool_version": 10,
+        "pool_rows": 3586,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 11,
+        "pool_version": 11,
+        "pool_rows": 3622,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 12,
+        "pool_version": 12,
+        "pool_rows": 3662,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 13,
+        "pool_version": 13,
+        "pool_rows": 3712,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 14,
+        "pool_version": 14,
+        "pool_rows": 3728,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 15,
+        "pool_version": 15,
+        "pool_rows": 3744,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 16,
+        "pool_version": 16,
+        "pool_rows": 3752,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 17,
+        "pool_version": 17,
+        "pool_rows": 3796,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 18,
+        "pool_version": 18,
+        "pool_rows": 3820,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 19,
+        "pool_version": 19,
+        "pool_rows": 3850,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      },
+      {
+        "round": 20,
+        "pool_version": 20,
+        "pool_rows": 3866,
+        "major_iterations": 2,
+        "exit_reason": "whole-grid-omitted-rows-exchange-request"
+      }
+    ],
+    "checkpoint": {
+      "schema": "actual-curvature-eleven-group-exchange-checkpoint-v1",
+      "objective_evaluation_sha256": "c9a29cfa5b03f9a8eeae1a0bb847905faa1561957437c50c214e3b0f156f8499",
+      "physical_geometry_evaluations": 41,
+      "epigraph_vector_evaluations": 61,
+      "auxiliary_only_changes_do_not_count_as_new_physical_geometry": true,
+      "jacobian_geometry_batches": 400,
+      "jacobian_refreshes": 40,
+      "total_elapsed_seconds": 306.56854853100003,
+      "initialization_elapsed_seconds": 192.83569785799997,
+      "optimization_elapsed_seconds": 113.73285067300003,
+      "value_geometry_seconds": 135.32252920200014,
+      "jacobian_geometry_seconds": 157.6245617190001,
+      "pool_Jacobian_including_refresh_seconds": 99.4135497640001,
+      "maximum_geometry_cache_array_bytes": 43765016,
+      "maximum_retained_selected_derivative_bytes": 54965672,
+      "maximum_returned_batch_Jacobian_bytes": 189278208,
+      "maximum_single_constraint_Jacobian_bytes": 5072192,
+      "maximum_batch_query_radial_rows": 18,
+      "maximum_same_state_batch_ordinary_jet_difference": 3.552713678800501e-15,
+      "no_full_grid_constraint_Jacobian_formed": true,
+      "full_grid_two_jet_Jacobian_was_requested": false,
+      "all_selected_points_screened_on_whole_value_grid": true,
+      "regularity_not_replaced_by_sqrt_q2_plus_epsilon": true,
+      "no_whole_surface_reach_certificate": true
+    }
+  },
+  "same_parameter_Pi_refinement": {
+    "name": "one fixed-metric curvature-exchange physical state; raw selected lambda unchanged",
+    "same_canonical_state_and_exact_coefficients": true,
+    "physical_identity_sha256": "e407a21488257097f60073f7e46e19f987dc963760957040ee7254a02889beb4",
+    "angular_nodes": [
+      384,
+      768
+    ],
+    "position_jet_differences": {
+      "X": 8.692406051282382e-09,
+      "Xs": 6.692859976107404e-06,
+      "Xt": 0.0,
+      "Xss": 0.006019770080722662,
+      "Xst": 0.0,
+      "Xtt": 0.0
+    },
+    "direct_metric_differences": {
+      "E_minus_one": 2.1119941666647435e-06,
+      "F_over_a": 1.2314407136148828e-07,
+      "metric_operator_error": 2.1072134340771598e-06
+    },
+    "center_height_difference": 0.0,
+    "center_speed_differences": {
+      "b": 0.0,
+      "b_s": 0.0,
+      "b_ss": 0.0
+    },
+    "no_parameter_step_or_reoptimization_in_this_comparison": true,
+    "finite_evaluation_differences_are_not_error_enclosures": true
+  }
+}

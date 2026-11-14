@@ -1,0 +1,148 @@
+{
+  "schema": "public-actions-original-curvature-artifact-recovery-v1",
+  "status": "complete-original-artifact-recovered-without-research-rerun",
+  "original_repository": "Rogerhu12/math-research-public",
+  "original_run_id": 43645177423,
+  "original_job_id": 132601261692,
+  "original_source_commit": "2f1b809c0b0abb7a26303d36940edc203815f872",
+  "original_artifact_id": 14133787467,
+  "original_artifact_name": "visible-new-mechanism-continuation-curvature_epigraph_exchange-43645177423-1",
+  "original_archive_sha256": "ba8737026d71a111a685eea7056614755335f95fc8c7eff5262f2dba46dbc133",
+  "original_archive_bytes": 823379,
+  "original_publication_failed": true,
+  "original_publication_failure": "publisher rejected the raw complete JSON before gzip because its diagnostic byte limit was exceeded",
+  "original_research_step_completed_successfully": true,
+  "original_job_log_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43645177423/job/132601261692",
+  "recovery_workflow_run_id": "43646786908",
+  "recovery_workflow_source_commit": "e43aebeaf3f5f4369e932915445deff57e754f8a",
+  "recovery_script_sha256": "235233f4d33b4d72432710ff0aa597fcfd85caf6ccf69e08ff84ed1eac79b42e",
+  "research_geometry_evaluated": false,
+  "optimizer_called": false,
+  "scientific_JSON_reserialized": false,
+  "token_only_from_environment": true,
+  "archive_redirects_never_receive_authorization": true,
+  "presigned_archive_URLs_not_recorded": true,
+  "files": [
+    {
+      "archive_member": "curvature-epigraph-exchange-audit-brief.json",
+      "raw_bytes": 41469,
+      "raw_sha256": "129ccab9895654b8f6a69e7c6c1f89e87966e8d6b1101f27449df8050acfdcd5",
+      "zip_compressed_bytes": 6278,
+      "zip_crc32_hex": "ee6793cd",
+      "recovered_filename": "curvature-epigraph-exchange-audit-brief.json",
+      "original_bytes_preserved": true,
+      "operational_receipt_renamed_to_avoid_current_run_collision": false,
+      "original_schema": "same-g-fixed-metric-budget-curvature-row-exchange-audit-v1",
+      "original_status": "complete-shared-budget-actual-curvature-exchange-audit"
+    },
+    {
+      "archive_member": "curvature-epigraph-exchange-audit-summary.json",
+      "raw_bytes": 266525,
+      "raw_sha256": "5c3ba73a047cb49a91dc2a8dc6b0c3b23c44cd5763f1e28fe9520ff402c93c2f",
+      "zip_compressed_bytes": 24336,
+      "zip_crc32_hex": "fc34d07e",
+      "recovered_filename": "curvature-epigraph-exchange-audit-summary.json",
+      "original_bytes_preserved": true,
+      "operational_receipt_renamed_to_avoid_current_run_collision": false,
+      "original_schema": "same-g-fixed-metric-budget-curvature-row-exchange-audit-v1",
+      "original_status": "complete-shared-budget-actual-curvature-exchange-audit"
+    },
+    {
+      "archive_member": "curvature-epigraph-exchange-audit.json",
+      "raw_bytes": 5220015,
+      "raw_sha256": "5b04d6a7c85870687b979bbda87bbf8bd4d429d3b36c918d83cebde59b4dcaa0",
+      "zip_compressed_bytes": 786852,
+      "zip_crc32_hex": "f455f6ab",
+      "recovered_filename": "curvature-epigraph-exchange-audit.json",
+      "original_bytes_preserved": true,
+      "operational_receipt_renamed_to_avoid_current_run_collision": false,
+      "original_schema": "same-g-fixed-metric-budget-curvature-row-exchange-audit-v1",
+      "original_status": "complete-shared-budget-actual-curvature-exchange-audit"
+    },
+    {
+      "archive_member": "curvature-exchange-development.json",
+      "raw_bytes": 15095,
+      "raw_sha256": "689b92d49452a71e1dd2562cd6f426b5b3ebb132d6f4e0d64e556c8f5172d81f",
+      "zip_compressed_bytes": 4603,
+      "zip_crc32_hex": "7dd976a5",
+      "recovered_filename": "curvature-exchange-development.json",
+      "original_bytes_preserved": true,
+      "operational_receipt_renamed_to_avoid_current_run_collision": false,
+      "original_schema": "ten-input-curvature-exchange-development-v1",
+      "original_status": null
+    },
+    {
+      "archive_member": "pre-research-pull.json",
+      "raw_bytes": 253,
+      "raw_sha256": "203f710bfb2c4d341912deb9d5eb026064867df332003d57b4fa56b4c0ab5f04",
+      "zip_compressed_bytes": 166,
+      "zip_crc32_hex": "ccae5cb9",
+      "recovered_filename": "original-pre-research-pull.json",
+      "original_bytes_preserved": true,
+      "operational_receipt_renamed_to_avoid_current_run_collision": true,
+      "original_schema": null,
+      "original_status": null
+    },
+    {
+      "archive_member": "publication-status.json",
+      "raw_bytes": 214,
+      "raw_sha256": "08cca14634349d4f85a8480c3c161431edc7ef093dc2c9e4817f077b1a0def12",
+      "zip_compressed_bytes": 154,
+      "zip_crc32_hex": "dea4e5a6",
+      "recovered_filename": "original-publication-status.json",
+      "original_bytes_preserved": true,
+      "operational_receipt_renamed_to_avoid_current_run_collision": true,
+      "original_schema": null,
+      "original_status": "stopped_without_publication"
+    }
+  ],
+  "original_run_metadata": {
+    "id": 43645177423,
+    "head_sha": "2f1b809c0b0abb7a26303d36940edc203815f872",
+    "run_attempt": 1,
+    "status": "completed",
+    "conclusion": "failure",
+    "html_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43645177423"
+  },
+  "original_run_metadata_response_sha256": "2fdd23872645277b58d83ab76bd2d9494815058ff20b7a5e33044c62380dddef",
+  "original_artifact_metadata": {
+    "id": 14133787467,
+    "name": "visible-new-mechanism-continuation-curvature_epigraph_exchange-43645177423-1",
+    "size_in_bytes": 823379,
+    "digest": "sha256:ba8737026d71a111a685eea7056614755335f95fc8c7eff5262f2dba46dbc133",
+    "created_at": "2026-11-14T21:59:41Z",
+    "expires_at": "2026-12-14T21:59:40Z",
+    "expired": false,
+    "workflow_run": {
+      "id": 43645177423,
+      "repository_id": 1457408986,
+      "head_repository_id": 1457408986,
+      "head_branch": "main",
+      "head_sha": "2f1b809c0b0abb7a26303d36940edc203815f872"
+    }
+  },
+  "original_artifact_metadata_response_sha256": "e41350af9cf48d4d06cb29c2aa3f6a097b3d5f504cf3a7ebf98d7eeb3fde7efd",
+  "download_redirect_hostnames": [
+    "api.github.com",
+    "productionresultssa6.blob.core.windows.net"
+  ],
+  "downloaded_archive_sha256": "ba8737026d71a111a685eea7056614755335f95fc8c7eff5262f2dba46dbc133",
+  "downloaded_archive_bytes": 823379,
+  "scientific_bindings": {
+    "full_report_raw_bytes": 5220015,
+    "full_report_raw_sha256": "5b04d6a7c85870687b979bbda87bbf8bd4d429d3b36c918d83cebde59b4dcaa0",
+    "original_full_report_status": "complete-shared-budget-actual-curvature-exchange-audit",
+    "original_development_passed": true,
+    "original_development_status_not_reinterpreted": true,
+    "original_report_and_both_summaries_bound_verbatim": true,
+    "original_two_calculation_sources_sha256": {
+      "frame_curvature_epigraph_exchange.py": "8c26353df012ca61f37149b2e2ab52acaec4ca22fde68017261c0bd68992ebf5",
+      "frame_curvature_epigraph_exchange_audit.py": "7162b7c56bb865591316b1ca576c7b0929d55619353567ccd4f3df789543802a"
+    }
+  },
+  "phase": "complete",
+  "elapsed_seconds": 1.5279899020000016,
+  "json_file_count": 6,
+  "all_original_JSON_bytes_preserved": true,
+  "original_publication_failure_not_reclassified_as_scientific_failure": true
+}
