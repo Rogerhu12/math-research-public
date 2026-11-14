@@ -27,7 +27,7 @@
 
 新父warm SHA c0d9c6d59e16ef1482f8ee60f9681d8db089b21d68e249adf1830df03be6612b；原status SHA e22fd03b8c24adbd0eeeaf0b084d18944d17e4cd1f4115075cb63d9e9a41aad7，原991791B公开为.json。128domain NPZ/822数组、38凝聚全向量、observer/42源/完整父48链及14raw190956688B已纯字节核；完整factor仍未导出不冒独审。
 
-**51请求已提交，run待回读**：仅加实际left-RMS469的完整2048行，保全部14已选query→15query30720行，B完整支撑469..483+p5073；原C仍471..482+p4059与完整outside offset。原R270动态库、600s候选/256行/200sweeps、λ270/LSMR200/C200、原17trial/两RMS/rho/merit/FD保持。只从当前49pair继续，三源及[15-query接口](notes/2026-11-14-fifteen-query-condensed-warm-interface.md)已冻；沿原唯一condensed request触发，不猜下一限制或盲串旧14。
+**51运行中：run43632815810/source bd3fc94a6092313313daf607328a9695e80c17f4**：仅加实际left-RMS469的完整2048行，保全部14已选query→15query30720行，B完整支撑469..483+p5073；原C仍471..482+p4059与完整outside offset。原R270动态库、600s候选/256行/200sweeps、λ270/LSMR200/C200、原17trial/两RMS/rho/merit/FD保持。只从当前49pair继续，三源及[15-query接口](notes/2026-11-14-fifteen-query-condensed-warm-interface.md)已冻；沿原唯一condensed request触发，不猜下一限制或盲串旧14。
 
 ### 1B. Native：先分清保存矩阵、传播与求解误差
 
@@ -43,7 +43,7 @@
 
 [actual47精确作用及new519账](notes/2026-11-14-actual47-stage43-exact-action-and-new519-attribution.md)：固定同δ519/520/r/σ，old=observed平方1.1148576429598753e43；四A精确有理RK平方6.7408926442427e49。传播差平方与负交叉项强烈相消，因此“更准确形成这个块就使旧方向有效”没有成立。原43 exact oracle直接精确累加未预缩放J/r后除原σ，和此账一致。root17原exact输出包另核全部SHA；未本地重算norm/action。
 
-**50完整参考已完成**：run43632067148/source d843fb1dcc8cb4b80e54956d98f8076a9c1398c5。[完整结论](notes/2026-11-14-actual50-complete-rational-RK-reference-and-covariant-comparison.md)给全部226×224 exact/RN、两个实际候选及三原方向。完整诱导∞误差old.015556918699475、direct-LD7.16812143047472e−6、R271-LD9.19526116149051e−6、RN3.36115669446251e−6；direct完整∞/F²优于R271，R271在特定旧43方向反而较小，不混指标。RN原σ下map差仍3.97095e21，这不是新stage residual。所有三prior action精确记录一致，21原输出完整SHA/CRC审计保范围；working实际64有效位非binary128。输入只固定47原artifact，没有新RHS/J/ODE/native。
+**50完整参考已完成**：run43632067148/source d843fb1dcc8cb4b80e54956d98f8076a9c1398c5。[完整结论](notes/2026-11-14-actual50-complete-rational-RK-reference-and-covariant-comparison.md)给全部226×224 exact/RN、两个实际候选及三原方向。完整诱导∞误差old.015556918699475、direct-LD7.16812143047472e−6、R271-LD9.19526116149051e−6、RN3.36115669446251e−6；direct完整∞/F²优于R271，R271在特定旧43方向反而较小，不混指标。RN原σ下map差仍3.97095e21，这不是新stage residual。所有三prior action精确记录一致，21原输出完整SHA/CRC审计保范围；working实际64有效位非binary128。[候选完整原件](notes/2026-11-14-actual-request50-candidate-precision-and-bytes.md)另核49数组22767392B、全部x87填充和52处descriptor/原切片。输入只固定47原artifact，没有新RHS/J/ODE/native。
 
 **52准备中，未调度**：由50实据选择直接LD作为下一实际形成方法。geometry从41每个完整原226起点取原四A并流式保新全部868 J/mean及原state/field/port身份；不重整尾或旧576长J，四A可由源/原state再现，无需为机械核验存1.4GB中间raw。exact接新868+原504块的新1372系统，原base/r/σ/cut/far/577restriction不变；新identity后一致重解和原尺度完整exact残差读回，随后仍原非线性十trial。单步结果不能冒另867步或全方向已验证。
 

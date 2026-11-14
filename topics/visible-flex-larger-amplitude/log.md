@@ -446,3 +446,7 @@ root已读两完整源和接口、取件器及独立workflow；只有本地AST/Y
 ## 2026-11-14 19:34:05 UTC /root — request51补原left-RMS469
 
 从actual49严格双SHA及完整producer续，保14旧query，只新增left469全2048角→15query30720行/完整B5073。原C4059及469/470/483完整outside offset保留，原R270/QR/600s256行200sweeps/λ270/LSMR200/C200/原17trial/FD不变。root已读三源全部diff、15接口和workflow全部变更，13 source pins/AST/YAML/6内嵌Python/11bash静态检查通过，无本地科学；新domainc6581f0b…/warmf1310edc…/FD3328eb64…。改本题共享.github workflow只为父49原件和15入口，唯一public-condensed-qp-request触发，不建重叠任务；真实run/results待回读。
+
+## 2026-11-14 19:35:51 UTC /root — actual50候选精度与完整工作数组
+
+[候选原件记录](notes/2026-11-14-actual-request50-candidate-precision-and-bytes.md)补齐实际x87 binary80/64有效位身份。全49数组22767392B/1524210元素、43工作数组7930284 padding bytes全0，52处descriptor和两226×224 full→shape/mean原切片全部匹配；仅byte核，无本地cast/RK/norm。两候选合计1.003485938s不能拆成各自时间，不冒binary128/连续DF。51已实际run43632815810/sourcebd3fc94a…，52全868 direct-LD及一致新系统源码继续并行。
