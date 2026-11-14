@@ -52,9 +52,9 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [任意高位集合统一正源能量](results/R236-appendix-uniform-high-bit-set-energy-for-normal-positive-annihilators.md)：同一原正ρ对每个有限I有泄漏≥ΣI|a_i|²/(9·2^26 A²)，阈值不依跨度/秩/放大；得完整ell2柱尾与原E正压缩、Walsh删除O(i²)逆。原N源b_iB_j仍未付，不能移作商逆。
 
-[正常见证的真实双侧源/临界图域](results/R236-appendix-true-twosided-normal-sources-and-critical-position-graph-obstruction.md)：非正σ仍有集合迹尾≥|Trσ|·||a_I||₂/(3584A)。原XA′零才允许固定H,K∈A′；非零TrρKH禁止两侧真实M^(3/2)图域费用可和，阈值不免费统一到移动因子。
+[真实双侧源/临界图域](results/R236-appendix-true-twosided-normal-sources-and-critical-position-graph-obstruction.md)保非正σ的集合迹尾及固定H,K∈A′的双侧M^(3/2)费用排除；非零迹锚、固定源阈值及移动因子预算保持归档的准确量词。
 
-[固定有限原行/完整纯尾源类已闭](results/R236-appendix-fixed-finite-rows-complete-tail-source-embedding-and-normal-closed-range.md)：真实固定首列矩阵U∈M_d(B_n)可逆，任意完整C_P右系数受同一个cb源范数下界；每层WOT/uw闭，递减交恰span(S_i)，零字符行与所有原n尾目标有统一正距离。指定双慢行显式3/23单位费及完整均值零柱锚P^(−3/2)最优；低头依赖原源仍开。
+[固定有限原行/纯尾闭像](results/R236-appendix-fixed-finite-rows-complete-tail-source-embedding-and-normal-closed-range.md)保真实首列单位逆、全C_P右源的cb下界、每层正常闭像与递减交，双慢行3/23及柱锚P^(−3/2)最优；低头依赖原源仍开。
 
 
 [R272 修复](results/R272-normal-predual-tail-repair-and-exact-positivity-obstruction.md)的非零单侧修正必失自伴；[R274](results/R274-full-commutant-basis-and-last-raw-moment-obstruction.md)保第q个raw矩−νQ_P≠0及整个A′尾基。固定行可修复，移动q/单位逆费用仍开，完整范围在既有归档。
@@ -112,7 +112,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R285 形式约束不足](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)及[无界族](results/R285-appendix-unbounded-formal-sos-costs-with-strict-zero-mode-positivity.md)：两零模块与所列旧边/仿射/粗占据界不足以给S1/S2任意统一有限常数；该族非Boolean，原c1仍开。
 
-[R288 逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保全部占据缺陷、碰撞交叉和creation三带；聚合碰撞属旧合同。[出生一S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)现已付任意正权M≥3的||T||²≤2/3，且共同Yi实际构造。一般birth两矩/物理行收缩及S1仍开。
+[R288 逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保占据/碰撞/creation全部交叉；[S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)及[S1](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)现已付M≥3全部正权birth1，分别有真实2/3收缩和次数9完整整数严格正证书。该出生的一位SOS已闭；一般birth仍开。
 
 [R286 固定源全高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源逆平方根能量和原慢尾全height/几何和。实际t_q祖先出生随q上移，固定birth塔最终无分量；受限逆后不自动保有限支持/固定birth，跨出生graph、完整e_q和N=M仍开。
 

@@ -639,3 +639,7 @@
 ### R290：混合有限头乘任意正常尾与物理头块对角见证的排除
 
 [完整证明](results/R290-mixed-finite-head-product-and-physical-block-diagonal-normal-annihilator-exclusion.md)。固定原有权q头、任意非零迹σ的头矩Hankel行列式准确为u^(q−1−K)p(u)、p(0)≠0；同一尾泛函的q个原右零式经adj及真实b1单位归到z^d理想，原范数1高幂消掉非零迹锚。因此任意混合正头×任意正常正尾均不可能；全部交换子头对角相同进一步排任意物理头块对角密度。原相容链的每次切分必须关联、非平凡尾rank≥2；没有统一相关/熵下界，一般关联正常有限秩仍开。
+
+### R288 附录：全部正权出生一 S1 的严格创新预算与完整整数证书
+
+[完整证明](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)从真实F1/F2 Schur保硬顶C2=0，把S1缺陷精确化为对角减rank1；清分母后为行和零的次数9整数矩阵。按实际支持分成3–9位七类，全部35个前导主子式的非零系数严格正；有限支持穷尽及三位严格性给任意M≥3正权的S1严格正。[精确程序](notes/2026-11-14-birth-one-s1-support-certificate-789f-next.py)与[已执行结果](notes/2026-11-14-birth-one-s1-support-certificate-789f-next.json)可重放。结合S2付该出生全部一位首边SOS；一般birth与ISP仍开。

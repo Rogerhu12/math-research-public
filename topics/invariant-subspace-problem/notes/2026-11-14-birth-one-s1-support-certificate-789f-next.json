@@ -1,0 +1,356 @@
+{
+  "claim": "Finite same-support positive-coefficient certificate for birth-one S1",
+  "arithmetic": "exact integer multivariate polynomials, python-flint",
+  "independent_complete_gram_identities": {
+    "3": true,
+    "4": true
+  },
+  "support_two_zero": true,
+  "supports": [
+    {
+      "support": 3,
+      "quotient_degree": 6,
+      "off_diagonal_terms": 18,
+      "minors": [
+        {
+          "order": 1,
+          "terms": 17,
+          "minimum_coefficient": 1,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 2,
+          "terms": 46,
+          "minimum_coefficient": 1,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        }
+      ],
+      "passed": true,
+      "seconds": 0.001
+    },
+    {
+      "support": 4,
+      "quotient_degree": 5,
+      "off_diagonal_terms": 54,
+      "minors": [
+        {
+          "order": 1,
+          "terms": 52,
+          "minimum_coefficient": 1,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 2,
+          "terms": 276,
+          "minimum_coefficient": 2,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 3,
+          "terms": 800,
+          "minimum_coefficient": 3,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        }
+      ],
+      "passed": true,
+      "seconds": 0.019
+    },
+    {
+      "support": 5,
+      "quotient_degree": 4,
+      "off_diagonal_terms": 68,
+      "minors": [
+        {
+          "order": 1,
+          "terms": 69,
+          "minimum_coefficient": 5,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 2,
+          "terms": 493,
+          "minimum_coefficient": 120,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 3,
+          "terms": 1817,
+          "minimum_coefficient": 2560,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 4,
+          "terms": 4840,
+          "minimum_coefficient": 40960,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        }
+      ],
+      "passed": true,
+      "seconds": 0.115
+    },
+    {
+      "support": 6,
+      "quotient_degree": 3,
+      "off_diagonal_terms": 56,
+      "minors": [
+        {
+          "order": 1,
+          "terms": 56,
+          "minimum_coefficient": 10,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 2,
+          "terms": 462,
+          "minimum_coefficient": 1616,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 3,
+          "terms": 2002,
+          "minimum_coefficient": 244824,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 4,
+          "terms": 6188,
+          "minimum_coefficient": 32969632,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 5,
+          "terms": 15504,
+          "minimum_coefficient": 3329932832,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        }
+      ],
+      "passed": true,
+      "seconds": 0.438
+    },
+    {
+      "support": 7,
+      "quotient_degree": 2,
+      "off_diagonal_terms": 28,
+      "minors": [
+        {
+          "order": 1,
+          "terms": 28,
+          "minimum_coefficient": 180,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 2,
+          "terms": 210,
+          "minimum_coefficient": 134100,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 3,
+          "terms": 924,
+          "minimum_coefficient": 95908320,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 4,
+          "terms": 3003,
+          "minimum_coefficient": 64306528560,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 5,
+          "terms": 8008,
+          "minimum_coefficient": 38326691021760,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 6,
+          "terms": 18564,
+          "minimum_coefficient": 17132030886726720,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        }
+      ],
+      "passed": true,
+      "seconds": 0.677
+    },
+    {
+      "support": 8,
+      "quotient_degree": 1,
+      "off_diagonal_terms": 8,
+      "minors": [
+        {
+          "order": 1,
+          "terms": 8,
+          "minimum_coefficient": 1890,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 2,
+          "terms": 36,
+          "minimum_coefficient": 4519800,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 3,
+          "terms": 120,
+          "minimum_coefficient": 10508535000,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 4,
+          "terms": 330,
+          "minimum_coefficient": 23455050120000,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 5,
+          "terms": 792,
+          "minimum_coefficient": 49079692376100000,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 6,
+          "terms": 1716,
+          "minimum_coefficient": 91288227819546000000,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 7,
+          "terms": 3432,
+          "minimum_coefficient": 127347077808266670000000,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        }
+      ],
+      "passed": true,
+      "seconds": 0.163
+    },
+    {
+      "support": 9,
+      "quotient_degree": 0,
+      "off_diagonal_terms": 1,
+      "minors": [
+        {
+          "order": 1,
+          "terms": 1,
+          "minimum_coefficient": 5040,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 2,
+          "terms": 1,
+          "minimum_coefficient": 25004700,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 3,
+          "terms": 1,
+          "minimum_coefficient": 121522842000,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 4,
+          "terms": 1,
+          "minimum_coefficient": 574195428450000,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 5,
+          "terms": 1,
+          "minimum_coefficient": 2604550463449200000,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 6,
+          "terms": 1,
+          "minimum_coefficient": 11075850845817723000000,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 7,
+          "terms": 1,
+          "minimum_coefficient": 41866716197190992940000000,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        },
+        {
+          "order": 8,
+          "terms": 1,
+          "minimum_coefficient": 118692140419036464984900000000,
+          "nonpositive_coefficients": 0,
+          "nonzero": true,
+          "bad_examples": []
+        }
+      ],
+      "passed": true,
+      "seconds": 0.158
+    }
+  ],
+  "complete_through_degree_nine": true,
+  "passed": true
+}
