@@ -503,3 +503,7 @@ root亲读process12424B SHA954d8038…、summary28522B SHA230b4ba0…和完整ac
 ## 2026-11-14 23:08:38 UTC：5966新格完整方向矩阵公开DAG部署
 
 部署final science193bb4c…/SHA47d69d78…、CIddf12f71…/4ba64469…、manifest82b6f210…/a9e1b164…、flow66995982…/2a96e078…。prepare真核原5970 profile/全部同Q/R接口及四格15门；32不交range各至多192，16并行、每job210min计算/240min外限、每10min真pull及两README差异检查/逐格native原子保存。失败/成功前缀保各原array SHA/run/attempt/artifact，复用不依赖出版complete。finish只取本run/attempt32份公开科学native/process，不重复下载大矩阵；全数组保90天artifact供实际双扫。旧112pins逐项不变。实际计算未先称成功，后续继续；只读核953257f3e33a69c48cfcffc377b93ae1952a4bb1README不变。
+
+## 2026-11-14 23:15:03 UTC：准确旧mean负区消费者部署
+
+Y1–7只消费原exactfold完整native0ceafc2b…/3180936B及process67bf926a…/36740B、radial fec8740c…和moment7662350a…。28pins原21项逐path/hash/bytes不变；无target/旧scalar-case/旧source函数调用，新的gd均值密度用途明确记录，只以min替换完整old_mean_raw_D项并重新积分负区。八其他source项、独立evenmean、所有正行/正collar/body分窗、6jets/tensors/profiles、4377原径向权逐字复制并gate；不将leading专用恒等式用到w1。science ae618221…24260B、CI7465a23e…9195B、manifest3a107f5b…11916B、worker0b56afc2…16136B、flow68e0d6fb…5313B。每128新行保存/同源恢复，45/50min前后真pull并记录时间/diff，失败完整出版；先不声称数值改进。前H9957B归档并压缩活动摘要。只读核7ddf041512e1b33920cc176b0467cb42d1cd471fREADME不变。

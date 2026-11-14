@@ -1,15 +1,15 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 23:08:38 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 23:15:03 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
-只在 Rogerhu12/math-research-public 工作；新数学只在公开仓库Actions。每条结论独推，非FF立即真pull --rebase再推直到成功，禁force。root管main/H/open/results/log；代理只交正文/blob，勿碰共享checkout。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。
+只在public仓库Rogerhu12/math-research-public；新数学只公开Actions。每条结论独推，非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交、connector。
 最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近runner真pull：22:44:51 UTC b7e434dfa289ea50505421c59a84ad77819499d6；impulse四次两README实际diff空。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：953257f3e33a69c48cfcffc377b93ae1952a4bb1；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
-最近partial checkout在 /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；当前环境不可用。此前相关AGENTS皆无。runner长算10min真pull；phase45/50min前后真pull，非FF循环；成功数学与出版失败分记。
-本次前H全文9962B在 notes/2026-11-14-handoff-before-outer-joint-KAM.md；旧H/open/results/152结论档案链完整。actual报告、manifest、native保对象/身份/参数/全部失败及逐行证明，不凭摘要重构。
+最近只读README核：7ddf041512e1b33920cc176b0467cb42d1cd471f；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+原partial checkout：/workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，当前不可用；原相关AGENTS无。runner10min真pull或phase45/50min前后pull；成功科学与出版失败分记。
+前H9957B完整在 notes/2026-11-14-handoff-before-negative-mean-consumer.md；历史档案链完整。actual/manifest/native保对象、参数、全部失败及逐行证明，不凭摘要重构。
 
 ## 同一对象和总完成门
 
@@ -21,28 +21,28 @@ geometry43584188751/26门是条件结论：同η0真闭C²解/fullC0≤1e−4/|�
 
 ## 主体、方向 Green 与全频帽：newton_source
 
-finite193 point43635487128/8门 native7fcd5bec…：负窗ν误差<.003509417445587、全L²<.007490301792401、C0<.060889190964764。真97帽源<1.379019669555e−7、mean<4.079815735966e−8、knownhigh<2.920495224265e−7；unknown χH<.003840162仍独立。详R133-supplement-actual-native-point-Hessian-same-Z-Green.md。
-原finiteL²43633074696/nativeac4441cb…和cross43637596465/nativea12fd95f…完整6391signedGram/5970接口均成功；ordinary负窗gain10488.564544，cross负窗1351427.386989仅粗upper，非反馈下界；全部旧格禁止重算，完整值见档案/actual。
-旧四格全193 F：43645186441 child0/11门，native4328b192…；4数组artifact14133504273/61752830B，全方向/degree24/原hash与过程见actual-four-full193-cached-local-matrices报告，成功数据不重算。
+finite193 point43635487128 child0/8门/native7fcd5bec…：负窗ν误差<.003509417445587、全L²<.007490301792401，未知χH<.003840162独立保。全源/真97帽/mean/knownhigh数值见actual-native-point-Hessian-same-Z-Green，非完整ν门。
+原finiteL²43633074696/nativeac4441cb…、cross43637596465/nativea12fd95f…全6391Gram/5970接口成功；负窗gain10488.564544/cross1351427.386989仅粗upper。完整数值/身份见原actual，所有旧格不重算。
+旧全193 F四格43645186441 child0/11门/native4328b192…，4数组artifact14133504273/61752830B。全方向/degree24/原hash见actual-four-full193-cached-local-matrices，禁止重算。
 同F G1–18 actual43648579604 child0/15门，native9a46d9fc…、全H/J/T arrays artifact14135471378/9996896B，报告SHA22227144…。D1–12全5970矩阵合同已证（notes/2026-11-14-R133-complete-same-F-directional-matrix-data-contract.md，SHAdeb8ad6b…）：四格逐字复用，只新增5966格canonical exact F/C、完整T/H/J/mean，32互斥组。真m_k/旧E作用同一未舍入A已核；同Q同R坐标事件保，V独立舍入/真边界另付。117pins已部署（a9e1b164…/47d69d78…），待actual/双扫，非全BVP。
-5970真接口impulse actual43649423561 child0/11门/123.372064197s，nativefbba3507…14168739B/8parts，processb55c2df0…8423B，报告R133-supplement-actual-all5970-cached-interface-impulse-gains.md（SHA53b7a815…）。101pins原97不变，6391新齐次界+两12361扫，0旧exp/Gram/target。单跳全窗<121146.604996、负窗<56766.695864，真实R跳不再乘R；同源多跳仍三角/相关界。
-完整帽P1–19（768f1f11；R133-supplement-full-frequency-moving-cap-boundary-and-Poisson-interface.md）保h1+S(HB−KB P⊥HC)h2和−m^-2Π0h2−K0P⊥HC h2，S=v·composition。有限97输入矩阵不授任意high；内L²不能控制独立cut trace。原物理对称空间/mean范围不向外扩展。
-正高双输出43639514776/11门/native54b39404…：真cut重构<.595330881947，内head→body/cut<226.101681/111.623063，独立外帽列<69.241040/34.183280；七源/mean/rootincoming齐，非全Schur。
+全5970 impulse43649423561 child0/11门/nativefbba3507…14.17MB/8parts，实际报告SHA53b7a815…。6391新齐次界+两12361扫，0旧exp/Gram/target；单跳全窗<121146.604996、负窗<56766.695864。输入已R加权，不再乘R；同源多跳不得平方相加。
+全频帽P1–19（768f1f11）真两行h1+S(HB−KB P⊥HC)h2、−m^-2Π0h2−K0P⊥HC h2及全Poisson源保；finite97矩阵仅原97输入，内L²不控独立cut。完整文件full-frequency-moving-cap-boundary-and-Poisson-interface，原反射范围不扩。
+正高43639514776 child0/11门/native54b39404…：cut重构<.595330881947、内head→body/cut<226.101681/111.623063；独立帽列、七源/mean/rootincoming完整见actual，非全Schur。
 root V1–22共同输运/正波（ec771b9a）保κr/κ、primitive、mean、非解R*；同L²输运反伴随，δ0高97交换子双向零/全δ仅HH零。非酉frame须付metric，未授cap伴随/平滑/全逆。
 
 ## Airy根、第一修正与全源：phase_inverse、root
 
-原root43616813816/forcing43624260519/negativeCauchy43621934843/seam43625828234/moment43629465215/matrix43632464994全成；全部原行/hash和Abar43635999157的6profiles/4377积分/6tensors见档案/actual，禁止重算。
+原root/forcing/Cauchy/seam/moment/matrix与Abar6profiles/4377积分/6tensors全成；run/hash/完整原行见前H和actual，严禁重算。
 C1–15/N1–12精确H^-1HD、gd/h/qv已证。actual43642808159/8门/native0ceafc2b…3180936B：6新jets/4377积分，旧profiles/tensors/矩阵/径向权/正分窗0重算；R.001负源<713579.527495。完整见actual-exact-fold-cancelled-source-budgets。
 辅助E1–12同piece：43640181602 child1，Ra1e−4/5e−4成功，.001/.002 gap失败，native6276b4b8…432808B完整保；只在原germ交认同物理，不改邻piece。
-F1–19锚定fold/直接leading（SHA63e76681…）；43646714623 child1/nativea6f6225c…，小域13门过/大域selfmap失败，原native与actual报告及前H完整保。
-C1–7根积分交已推fc53baab；v2 actual43647998272 child0/6身份门+大域14门，native84e2bd1b…20319B。旧小case/两coeff/rootanchor逐字保、旧child1/fail另保。R=3/8000，canonical27/32000；Jac>4.30857883174、μ>18.56551547693、Fb<1335.043146479/Fa<2.089387252，原9e−6内L0w1幅度<6977483.057/19107989810.304。详R133-supplement-actual-larger-anchored-auxiliary-fold-with-preserved-prefix.md（SHA34e50180…）。sourcee4720dc7…/28pin7f00e2a2…，process855730f8…46443B；两真pull5137a924…空diff。尚非全IJ/mean/strong返回。
+原anchored43646714623 child1/nativea6f6225c…：小域13门过、大域selfmap失败。F1–19/全部原数据与失败在actual及前H保留。
+根积分交C1–7（fc53baab）后，anchored v2实际43647998272 child0/6身份+14大域门/native84e2bd1b…20319B。R=3/8000，canonical27/32000，Fb<1335.043146479/Fa<2.089387252；9e−6内L0w1第二幅度粗界19107989810.304。原小case/两coeff/rootanchor逐字复用。实际报告SHA34e50180…、sourcee4720dc7…/28pin7f00e2a2…；全宽幅度sup供Taylor尾，非完整I/J/strong。
 D1–24/J1–19（443da14d，SHA2429213d…）保完整leading归一化，b1(0)=Fb。H1–12（f90bd556，SHA5db44117…）固定η0真根：F0..11→E0..10→四内蕴0..9，仅复用两aux完整误差升阶。43650466853 child1于Nyquist表示门；新点12列/native6cd2e5bf…552891B保。N1–5实际前缀/精确Nyquist合同（R133-supplement-actual-high-root-prefix-and-exact-Nyquist-consumption.md，SHAe003accb…）：逐球含零后仅消费视图置零，原点/失败不动、禁止重FFT。60pin v2（旧52不变，manifest36ed4257…/sourcec3bb77f9…）已部署。P1–25旧ρ Taylor（8c255826，SHAbb245386…）：J*=−Q*、真三角、leading8/forcing6/w1到6，完整|j|≤1536，尾付Cauchy/Wiener宽差；待新consumer。
-root Y1–14旧mean压缩/完整w1 I/J预算已证（R133-supplement-exact-old-mean-compression-and-first-correction-nonlocal-budgets.md，SHA55baa5f0…）：ΠDU(w)=ΠU(gd)，原T密度rawmean可取M0(gd)；w1用真实S密度和完整z_K词，或旧g_K预算/(4J0)，两者合法取min。全evenmean/原1079seam/fullδ/外片与最终J窗口保。仅给负源窗口，正侧走原weighted合同；待公开新source积分，CE/Cs/充分cutoff/closed逆仍缺。
+Y1–14（cdbadc21，SHA55baa5f0…）准确ΠDU(w)=ΠU(gd)，leading rawmean可取M0(gd)；w1真实S九词或旧T/(4J0)合法取min，全部mean/IJ/seams保。新28pin negative-old-mean-compression consumer（manifest3a107f5b…/sourceae618221…）已部署：只新负区rawD项和积分，旧21pins/6jets/4377权/八其他项/evenmean/全部正行逐字复用。w1/fullstrong/cutoff仍缺。
 
 ## 外返回、新简单根和闭网络：tail_connector
 
-旧open全mean逆、E/T/S完整DN四块/weak源、X1–33真实eX→D→B transfer与R1–38实际long mean商全部留原范围；其原标签/数值/证明在档案。open不授closed，σ1/16不能送需2074宽旧D0逆。
+旧open全mean、E/T/S双端DN/weak源、X1–33真实transfer、R1–38 long商均限原范围；完整数字/源在档案。open不授closed，σ1/16不能送需2074宽的旧逆。
 新固定stop候选6460b0ae：q2→−8 quintic后q−8，ell0只选一次/参数导数0，主体R/η/参数/原two bumps保；新几何/尺度/Γ门逐项付，旧三阶根特殊逆不转授。
 新根A1–28已推273a529c：完整复图/CK/真逆/Piola、V0<1、全混频K_R=2^2184，实际两mean/端口正逆2^256、ordinary/weak/原子源齐，参数费q!r_p^-q。
 新P1–32全正DN（80c21055，SHA3a2ad25d…，R119-supplement-new-simple-root-complete-positive-DN-Airy-return-and-sources.md）：root→B+真实long，mean/height gauge/EB/复型/Jacobian全保；Airy正逆L²<2，双侧4/3余项<2^6000b^(4/3)，|s|≤1，全源affine<2^512(P+B)。
