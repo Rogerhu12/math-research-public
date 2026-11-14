@@ -1,0 +1,443 @@
+{
+  "status": "passed",
+  "utc": "2026-11-14T09:52:17.377442+00:00",
+  "producer": "Exact complete two-state SymPy matrix, flint rational Bernstein coefficients, and Fraction response budgets",
+  "gate_count": 88,
+  "all_passed": true,
+  "gates": [
+    {
+      "name": "the exact derivative preserves the actual quartic constraint",
+      "passed": true
+    },
+    {
+      "name": "complete e-zero phase Wronskian including every tau term",
+      "passed": true
+    },
+    {
+      "name": "complete D2 scalar numerator is polynomial",
+      "passed": true
+    },
+    {
+      "name": "complete D1 scalar numerator is polynomial",
+      "passed": true
+    },
+    {
+      "name": "complete D0 scalar numerator is polynomial",
+      "passed": true
+    },
+    {
+      "name": "the complete two-state numerator is symmetric",
+      "passed": true
+    },
+    {
+      "name": "the whole numerator has kappa degree at most three",
+      "passed": true
+    },
+    {
+      "name": "exact first kappa zero in e-zero determinant",
+      "passed": true
+    },
+    {
+      "name": "exact second kappa zero in e-zero determinant",
+      "passed": true
+    },
+    {
+      "name": "complete zero-tau diagonal identity",
+      "passed": true
+    },
+    {
+      "name": "complete zero-tau determinant quotient identity",
+      "passed": true
+    },
+    {
+      "name": "all 5640 full-parameter determinant coefficients have the opposite sign",
+      "passed": true,
+      "minimum": "346521719707556136935480594011004988009125957469957360895190912162905639583868664967268738221961298071399493426383284280831/4436271510593303775325462694628933925498299320601306520272767328983394092489000996863959049766623324955825937538245714926358652518400000000"
+    },
+    {
+      "name": "same true complete denominator",
+      "passed": true,
+      "upper": "1283689/27487790694400"
+    },
+    {
+      "name": "unscaled determinant quotient is strictly negative",
+      "passed": true
+    },
+    {
+      "name": "complete complex p1 jet 0",
+      "passed": true,
+      "bound": "16"
+    },
+    {
+      "name": "complete complex p1 jet 1",
+      "passed": true,
+      "bound": "288"
+    },
+    {
+      "name": "complete complex p1 jet 2",
+      "passed": true,
+      "bound": "2616"
+    },
+    {
+      "name": "complete complex p1 jet 3",
+      "passed": true,
+      "bound": "51216"
+    },
+    {
+      "name": "complete complex p2 jet 0",
+      "passed": true,
+      "bound": "988223/2560"
+    },
+    {
+      "name": "complete complex p2 jet 1",
+      "passed": true,
+      "bound": "18773103/2560"
+    },
+    {
+      "name": "complete complex p2 jet 2",
+      "passed": true,
+      "bound": "423528507/5120"
+    },
+    {
+      "name": "complete complex p2 jet 3",
+      "passed": true,
+      "bound": "2232242733/1280"
+    },
+    {
+      "name": "complex F upper bound",
+      "passed": true
+    },
+    {
+      "name": "complex F lower bound",
+      "passed": true
+    },
+    {
+      "name": "complete complex phase Wronskian upper",
+      "passed": true
+    },
+    {
+      "name": "true real phase Wronskian lower",
+      "passed": true
+    },
+    {
+      "name": "complex phase Wronskian variation on the actual e disk",
+      "passed": true
+    },
+    {
+      "name": "complete complex phase denominator remains separated",
+      "passed": true
+    },
+    {
+      "name": "complete complex b1 bound",
+      "passed": true
+    },
+    {
+      "name": "complete complex b0 bound",
+      "passed": true
+    },
+    {
+      "name": "complete complex b1 derivative",
+      "passed": true
+    },
+    {
+      "name": "complete complex b0 derivative",
+      "passed": true
+    },
+    {
+      "name": "complete complex log-height derivative",
+      "passed": true,
+      "bound": "27/5"
+    },
+    {
+      "name": "complete complex log-height second derivative",
+      "passed": true,
+      "bound": "2187/25"
+    },
+    {
+      "name": "complete complex log-height third derivative",
+      "passed": true,
+      "bound": "107163/250"
+    },
+    {
+      "name": "complete D2 scalar coefficient",
+      "passed": true,
+      "bound": "32817/40"
+    },
+    {
+      "name": "complete D1 scalar coefficient",
+      "passed": true,
+      "bound": "2149515627/1600"
+    },
+    {
+      "name": "complete D0 scalar coefficient",
+      "passed": true,
+      "bound": "40830011363/64000"
+    },
+    {
+      "name": "complete complex two-state covariant jet 0",
+      "passed": true,
+      "bound": "525313/65536"
+    },
+    {
+      "name": "complete covariant matrix x derivative 0",
+      "passed": true,
+      "bound": "769/128"
+    },
+    {
+      "name": "complete complex two-state covariant jet 1",
+      "passed": true,
+      "bound": "1184644613/41943040"
+    },
+    {
+      "name": "complete covariant matrix x derivative 1",
+      "passed": true,
+      "bound": "6948847/163840"
+    },
+    {
+      "name": "complete complex two-state covariant jet 2",
+      "passed": true,
+      "bound": "2620488658457/26843545600"
+    },
+    {
+      "name": "complete covariant matrix x derivative 2",
+      "passed": true,
+      "bound": "1148789111/5242880"
+    },
+    {
+      "name": "complete complex two-state covariant jet 3",
+      "passed": true,
+      "bound": "1186605739753497/3435973836800"
+    },
+    {
+      "name": "complete covariant matrix x derivative 3",
+      "passed": true,
+      "bound": "14089392457957/13421772800"
+    },
+    {
+      "name": "complete analytic matrix coefficient bound",
+      "passed": true
+    },
+    {
+      "name": "true determinant quotient retains at most five coefficients",
+      "passed": true
+    },
+    {
+      "name": "actual unit-kappa-disk quotient cost",
+      "passed": true
+    },
+    {
+      "name": "actual finite-e quotient difference",
+      "passed": true
+    },
+    {
+      "name": "negative quotient survives finite actual e",
+      "passed": true
+    },
+    {
+      "name": "actual two zero factors retain their signs",
+      "passed": true
+    },
+    {
+      "name": "actual determinant negative margin",
+      "passed": true
+    },
+    {
+      "name": "full physical matrix has a negative eigenvalue",
+      "passed": true
+    },
+    {
+      "name": "complete differentiated scalar-product reserve",
+      "passed": true
+    },
+    {
+      "name": "full two-state local propagation generator",
+      "passed": true
+    },
+    {
+      "name": "actual local propagation bound uses norm below four",
+      "passed": true
+    },
+    {
+      "name": "the short support has a two-sided flow bound",
+      "passed": true
+    },
+    {
+      "name": "complete pulled-back matrix difference reserve",
+      "passed": true
+    },
+    {
+      "name": "negative eigenvalue persists throughout the support",
+      "passed": true
+    },
+    {
+      "name": "negative physical pairing keeps both state components",
+      "passed": true
+    },
+    {
+      "name": "true nonnegative bump integral",
+      "passed": true
+    },
+    {
+      "name": "complete physical dt and height coefficient",
+      "passed": true
+    },
+    {
+      "name": "original material factor identity",
+      "passed": true
+    },
+    {
+      "name": "actual fourfold frequency fits the obstructed interval",
+      "passed": true
+    },
+    {
+      "name": "frequency rounding loses at most one eighth",
+      "passed": true
+    },
+    {
+      "name": "actual middle lower scale follows from the original ramp",
+      "passed": true
+    },
+    {
+      "name": "physical wave-frame conversion constant",
+      "passed": true
+    },
+    {
+      "name": "direct complete local coefficient",
+      "passed": true
+    },
+    {
+      "name": "direct divided negative margin",
+      "passed": true
+    },
+    {
+      "name": "direct complete local J and delta weights",
+      "passed": true
+    },
+    {
+      "name": "complete fixed-parameter outside response bits",
+      "passed": true
+    },
+    {
+      "name": "complete fixed-parameter outside response weights",
+      "passed": true
+    },
+    {
+      "name": "both joint gamma metric columns bits",
+      "passed": true
+    },
+    {
+      "name": "both joint gamma metric columns weights",
+      "passed": true
+    },
+    {
+      "name": "all joint gamma background columns bits",
+      "passed": true
+    },
+    {
+      "name": "all joint gamma background columns weights",
+      "passed": true
+    },
+    {
+      "name": "actual first-layer complete local",
+      "passed": true,
+      "log2_upper": -1047728
+    },
+    {
+      "name": "actual deep-layer complete local",
+      "passed": true
+    },
+    {
+      "name": "actual first-layer whole-window fixed parameter",
+      "passed": true,
+      "log2_upper": -768503
+    },
+    {
+      "name": "actual deep-layer whole-window fixed parameter",
+      "passed": true
+    },
+    {
+      "name": "actual first-layer both joint metric columns",
+      "passed": true,
+      "log2_upper": -701815
+    },
+    {
+      "name": "actual deep-layer both joint metric columns",
+      "passed": true
+    },
+    {
+      "name": "actual first-layer whole joint background",
+      "passed": true,
+      "log2_upper": -1655679
+    },
+    {
+      "name": "actual deep-layer whole joint background",
+      "passed": true
+    },
+    {
+      "name": "largest complete polynomial layer ratio",
+      "passed": true
+    },
+    {
+      "name": "exact polynomial layer logarithm",
+      "passed": true
+    },
+    {
+      "name": "complete error cannot reverse the negative direction",
+      "passed": true
+    }
+  ],
+  "certificate": {
+    "name": "negative_det_over_kappa2_numerator",
+    "degrees": [
+      46,
+      1,
+      14,
+      3
+    ],
+    "coefficient_count": 5640,
+    "all_positive": true,
+    "minimum": "346521719707556136935480594011004988009125957469957360895190912162905639583868664967268738221961298071399493426383284280831/4436271510593303775325462694628933925498299320601306520272767328983394092489000996863959049766623324955825937538245714926358652518400000000",
+    "minimum_index": [
+      46,
+      1,
+      14,
+      0
+    ],
+    "lower_bound": "2^-54"
+  },
+  "non_required_probe": {
+    "name": "C22 positivity is neither asserted nor needed",
+    "degrees": [
+      23,
+      1,
+      7,
+      2
+    ],
+    "coefficient_count": 1152,
+    "all_coefficients_positive": false,
+    "minimum": "-6962860597701824264012164001487949690122977336628123736694553081/410366781371251332271917500700085833485974707652925149087478579200000000"
+  },
+  "scope": {
+    "proved": [
+      "existing common low direction has negative determinant throughout the displayed actual scaled box",
+      "finite positive e and true radial physical integral preserve a negative direction",
+      "complete actual joint negative-pocket form preserves that negative direction at an unused support"
+    ],
+    "not_claimed": [
+      "counterexample to the proved kappa<=1/4 statements",
+      "the constructed local two-trace vector is a whole-network near-kernel",
+      "a new full inverse or a nonlinear solution"
+    ]
+  },
+  "file_sha256": {
+    "results/R119-supplement-common-low-direction-high-scaled-obstruction.md": "68418631d01f14f1e7b592283aa2ffb1a3a0f39aae5c9e3f09e48c9856d7dedb",
+    "scripts/fourfold_common_low_scaled_mixed_pocket_20261114.py": "ccaba7f6ba6be2516ba27b32bfcd5a8addcf2dd84f87b65bbac1b9143d4dc449",
+    "results/R119-supplement-common-low-scaled-direction-and-complete-mixed-pocket-form.md": "0e2260050262302a94d582097a0b8e9c5b50159d5639893d102ebe7a61d06e92",
+    "results/R119-supplement-actual-two-phase-five-function-Wronskian-and-low-scaled-control.md": "97c7cf4b168f4ce546534e871c966fbf1bdd0a4ca774ecb8f82c02c76efe1b6c",
+    "results/R119-supplement-actual-low-scaled-full-local-nonradial-positive-form.md": "5d979b6d2916ec426f79b24c8cf45f8dd8170e6b0d3a4b060e933b66201eeb63",
+    "results/R119-supplement-complete-negative-pocket-fixed-parameter-positive-form.md": "8c883e951c8b3771417ea4d0c6285b7f29902d38c636f051200848e65b3335fe",
+    "results/R119-supplement-actual-two-phase-compact-response-and-complete-pocket-form.md": "867a63d7a90729bb634d6ed503e84bf3aa950a3fd895723c938aa10389191066",
+    "results/R119-supplement-actual-canonical-profile-generator-and-complete-weak-sources.md": "3b9899adaba350486def68d641e473bdd0dd2ab26075a38f1943780ed7dd4075",
+    "source": "d25ce8a0a0900c69fd16797f070403828debb5fb18af30a905c8abe59b48d44c"
+  }
+}

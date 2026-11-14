@@ -41,3 +41,5 @@
 - [R119 真实正片incoming包到完整两负窗中心型](results/R119-supplement-positive-Cayley-packets-to-complete-center-forms.md)：真实正片的低incoming包经完整双端Cayley、真实KAM角及两物理迹后满足成对中心定位门，保留全部高输出/mean/正片ordinary和weak源；两负窗正型下界已付，但任意全网近核定位与外部Schur仍未证。
 
 - [R119 负—正—负三段真实共同方向crossing](results/R119-supplement-complete-three-piece-physical-crossing-form.md)：把两负窗的低包正型补成同一真实共同profile方向的完整三段crossing，支付异窗两列Γ*响应、正片Cayley/端角导数并在两内根准确消项；三段外完整网络与任意近核定位仍未证。
+
+- [R119共同低锥方向在κ∈[3/4,1]的真实负向量](results/R119-supplement-common-low-direction-high-scaled-obstruction.md)：完整5640个有理Bernstein系数证明第73束同一低方向在κ∈[3/4,1]存在实际积分负方向；支付实际有限e、完整非径向响应及联合Γ*两列后，整个负窗crossing仍严格为负。它不满足已证全网近核条件，故只否定低方向的全频PSD外推；继续无B自然两态和真实频率分块。
