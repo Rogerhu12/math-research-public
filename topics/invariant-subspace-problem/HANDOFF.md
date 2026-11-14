@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `5a18f7cb2a664335a332075e7deaaef348b9f41f`（2026-11-14 09:29:50 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `612729752f8bb8fb6c47acdd4fd8eac5eed04009`（2026-11-14 09:33:40 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`。旧临时树不在；丢失正常预对偶修正已重建 R272，丢失两异常位完整 MP 已重建 R273（148 有理例）。
@@ -34,8 +34,8 @@
 - **R292：** [全两组/两异常位出生二首边](results/R292-appendix-main-parameter-s2-and-all-two-exceptional-birth-two-first-edges.md)现闭：主q,L≥3左右列均获完整严格系数证书，合成S2；配短侧、已证S1与旧下第二边，经真实SOS/完整物理串合并付任意Q1,Q2≥2的整个K2严格c1，含高度2端。其他birth/内部高度、更多独立权及graph仍开。
 - **R293：** [强位真实传输](results/R293-heavy-bit-transfer-of-strengthened-first-edge-sos.md)保源度量/完整上分支，S1强迫旧第二高度桥强化序，S2得含M联合必要块；严格负见证可传有限权。[单异常权全出生/全高度](results/R293-appendix-one-exceptional-weight-all-births-all-heights-strengthened-s1.md)现以显式全正三次式付真实加强S1，含硬顶/重数。[全高度传输](results/R293-appendix-all-height-strengthened-s1-heavy-bit-equivalence.md)再付任意κ>0的全birth首阶加强式⇔全高度同κ加强式；严格负见证可加有限强位回首阶。有限统一κ尚未得，普通相邻κ不反推加强式；520样本仅无候选。
 - **R294：** [共同对角比较](results/R294-birth-one-uniform-diagonal-gram-comparison-and-common-newton-blocks.md)应用Cesari–Colomboni v2 Thm1.1，给全正权birth1各合法高度½A_n≤Γ_n≤A_n、共同A相邻块及实际端点/中间A_n的常数4正块；无限正ℓ²行固定高度亦付。[原尾应用](results/R294-appendix-original-tail-coordinate-shift-and-improved-first-return-cost.md)以坐标平移把旧列幂61降28、顶锚范数降4(d+2)^14√S。仍非原Γ矩阵Newton，不付无速率锚；真实混合费用继续。
-- **R295：** [Turán余量与全高度强S1](results/R295-birth-one-turan-remainder-law-and-all-height-strengthened-s1.md)以实际等秩/邻秩对子测度差给完整混合协方差身份及平方分解，付任意有限正权birth1全height的κ=ρ=e_k²/(e_(k−1)e_(k+1))（有限严格）和真实创新能量。最大原子法在原连续平方尾j⁻⁴给统一κ=674/81，含有限头/无限固定高度及真Γ相邻算子序；不依赖外部协方差下界。任意权统一κ及高birth/graph尚未从此推出。
-- **续接/CI：** [S2执行计划](notes/2026-11-14-primitive-bridge-actions-plan-789f.md)：43575194207两列均成功并回库，右列08:49:57计算完成、1868.929秒；两主子式186005/340335项，degree82/94，负系数0/严格V项/final/exit0均齐。不再启动右列替代计算。继续任意权birth1加强S1有限κ与高birth真实残差桥；normal转R150常枢轴降阶，R294外部新协方差定理按README补全自足证明，原正常谱/商距离缺口保留。
+- **R295：** [实际Turán余量](results/R295-birth-one-turan-remainder-law-and-all-height-strengthened-s1.md)保同源协方差/真实桥，给κ=ρ的完整SOS及原连续j⁻⁴尾统一674/81。[统一常数附录](results/R295-appendix-universal-birth-one-strengthened-s1-by-atomic-splitting.md)现用最大原子分区、无放回矩及加权扰动保真实平方，付任意正权整个birth1/全部height加强κ=1024：有限严格、无限正ℓ²非严格，含硬端/完整物理逆。无需外部协方差下界；一般birth与graph仍开。
+- **续接/CI：** [S2执行计划](notes/2026-11-14-primitive-bridge-actions-plan-789f.md)：43575194207两列均成功并回库，右列08:49:57计算完成、1868.929秒；两主子式186005/340335项，degree82/94，负系数0/严格V项/final/exit0均齐。不再启动右列替代计算。继续高birth真实残差桥与实际交换层；normal转R150常枢轴降阶，R294外部新协方差定理按README补全自足证明，原正常谱/商距离缺口保留。
 
 ## 3. R150 与其他主接口
 

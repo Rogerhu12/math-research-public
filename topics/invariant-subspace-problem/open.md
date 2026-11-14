@@ -110,7 +110,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R294共同对角比较](results/R294-birth-one-uniform-diagonal-gram-comparison-and-common-newton-blocks.md)应用定长协方差v2定理，付任意正权birth1全高度½A_n≤Γ_n≤A_n及同源A的Newton块，亦付实际端点/中间A的常数4式与无限正ℓ²固定高度。单高度夹逼本身不补真实Γ中间项；所用新外部定理按README需补完整仓库证明。
 
-[R295 Turán余量](results/R295-birth-one-turan-remainder-law-and-all-height-strengthened-s1.md)完全以实际子集对子分拆证明同源协方差混合和完整平方分解，付所有有限正权birth1全height加强S1的κ=ρ（有限严格）；原连续平方尾j⁻⁴另有统一κ=674/81，含无限物理极限和真正Γ相邻序。此结论不依赖外部协方差夹逼；一般独立权统一κ、高birth及原graph仍开。
+[R295 Turán余量](results/R295-birth-one-turan-remainder-law-and-all-height-strengthened-s1.md)完全以实际子集对子分拆证明同源协方差混合和完整平方分解，付所有有限正权birth1全height加强S1的κ=ρ（有限严格）；原连续平方尾j⁻⁴另有统一κ=674/81，含无限物理极限和真正Γ相邻序。[统一常数附录](results/R295-appendix-universal-birth-one-strengthened-s1-by-atomic-splitting.md)进一步以最大原子分区与同源加权扰动付任意正权整个birth1/全height加强κ=1024，有限严格、无限正ℓ²非严格；不依赖外部协方差下界。一般高birth与原graph仍开。
 
 [R286 固定源全高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源逆平方根能量和原慢尾全height/几何和。实际t_q祖先出生随q上移，固定birth塔最终无分量；受限逆后不自动保有限支持/固定birth，跨出生graph、完整e_q和N=M仍开。
 
