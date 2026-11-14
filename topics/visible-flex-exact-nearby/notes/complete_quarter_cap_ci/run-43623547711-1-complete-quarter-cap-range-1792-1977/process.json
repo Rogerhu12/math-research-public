@@ -37,7 +37,9 @@
         "/__w/_temp/visible-exact-quarter-plan/native/complete1977-fixed-eta-quarter-plan.json.gz"
       ],
       "started_utc": "2026-11-14T17:55:32.214790+00:00",
-      "actual_returncode": null
+      "actual_returncode": 1,
+      "wall_seconds": 635.255952718,
+      "finished_utc": "2026-11-14T18:06:07.471156+00:00"
     }
   ],
   "readme_checks": [
@@ -87,6 +89,11 @@
       "time": "2026-11-14T17:55:32.212823+00:00",
       "final": false,
       "commit": "941dec5f8d7a3a10fb797acf7029726e2377aa33"
+    },
+    {
+      "time": "2026-11-14T18:05:42.468070+00:00",
+      "final": false,
+      "commit": "5b17d2ebf3b03618e9c896eb85c366e09b4d0ed2"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -138,9 +145,15 @@
     "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
     "plan": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a"
   },
-  "snapshot_utc": "2026-11-14T18:05:33.734454+00:00",
-  "wall_seconds": 605.604442353,
+  "snapshot_utc": "2026-11-14T18:06:07.619379+00:00",
+  "wall_seconds": 639.489368193,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 731,
+      "sha256": "805f0396f4864fe01becaa46bdee05a14e038a95ac50adaba8cef19e94271812"
+    },
     {
       "logical_file": "evidence/actual-plan-process.json",
       "file": "evidence/actual-plan-process.json",
@@ -156,8 +169,13 @@
     {
       "logical_file": "native/new-fixed-eta-quarter-domains-1792-1977.json.gz",
       "file": "native/new-fixed-eta-quarter-domains-1792-1977.json.gz",
-      "bytes": 3368412,
-      "sha256": "7dc640bcb5f175768f0ee06ef175965cea2bad5b61b7b559099fa8761b0161f4"
+      "bytes": 3545514,
+      "sha256": "1d940cb67a807560c016c2fdb07503ca4c0be1ffd0866bf83a988c27477c3028"
     }
-  ]
+  ],
+  "failure": {
+    "type": "RuntimeError",
+    "message": "actual_complete_quarter_cap_range returned 1"
+  },
+  "finished_utc": "2026-11-14T18:06:07.610796+00:00"
 }
