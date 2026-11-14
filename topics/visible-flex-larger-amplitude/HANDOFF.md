@@ -1,6 +1,6 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-/root，visible-larger-20261114-resume，GPT-6 Astra Pro（AI辅助）。**未完成，持续真实增幅/固定g精化/全闭检查。** 旧现场见notes/2026-11-14-handoff-public-migration-checkpoint.md及legacy-recovery-checkpoint；完成数据见同日notes。
+/root，visible-larger-public-resume-20261114，GPT-6 Astra Pro（AI辅助）。**未完成，持续真实增幅/固定g精化/全闭检查。** 旧现场见notes/2026-11-14-handoff-public-migration-checkpoint.md及legacy-recovery-checkpoint；完成数据见同日notes。
 
 ## 目标与规则
 
@@ -8,10 +8,12 @@
 每push前真实pull --rebase，非快进重拉重推；至少每小时pull，双README仅读新差异，末行记已读SHA。PAT仅瞬时CLI，不入文件；不强推。root独占Git/H/log/open，子线交文件冻结，运行用独立scratch副本。Rule12完整证明直接results，不加独审/冻结门；H<10KB，md<100KB，数据>1MB gzip/件<5MB，大派生表只存源/argv/hash。
 旧仓正式迁移d9b031786已读；新公开Rogerhu12/math-research-public根README授权/14规则已全读，题README仅迁移提示变。Rule13用本仓Actions，旧math-research-ci/五queue已停；Rule14禁明文凭证。旧仓不再写。
 
-## 真实公开发布阻塞
+## 当前公开授权与实际恢复
 
-约07:01 UTC，首次新公仓push被自动审批拒绝：用户对话直接授权原私仓，迁移README未被视为直接批准公开研究材料。**本轮无成功公开push，尚无用户新的直接公开授权。** 已commentary说明实际拒绝及来源；不换工具/旧仓绕过。继续本地研究、逐结论本地commit及只读pull；公开push/Actions/上传等待直接授权。
-五项实际任务/只读workflow已在本地准备并验SHA/argv：R225 M128短端、strong full/half/trust2/fixedsize；geometry任务不取无关私源。新driver真实prepare-only exit0/17.15s，未开J。可审阅说明 notes/2026-11-14-public-execution-preparation.md；workflow .github/workflows/visible-larger-public-actual-bvp.yml 尚未触发。恢复授权后先pull/双README，再逐结论普通push，非快进循环重拉重推。
+用户本轮直接指定 Rogerhu12/math-research-public 并明确授权 CLI commit/push main 和本仓 Actions，旧轮因仅有私仓授权产生的公开发布阻塞已解除，不再等待确认。
+本轮部分克隆至 /workspace/scratch/e959e57ee07f/math-research-public；只窄检出本题源码/必要笔记/结果，重计算只用本仓Actions。旧 B=/workspace/scratch/ffc1334c1988 仍可只读，未推结果不必一律重做。
+已原样恢复旧公开clone 43 个本地提交，末端 e4e38a4fab4cadf9039640dc3495add7eb15eb36，合入最新公开main，不重写任何已推提交；仅本题323路径及一项本题workflow，R235–R237/原RK24、RK48完整solver已恢复。所有新增文件<5MB，未发现明文凭据。旧停止/排队描述是历史，不能当当前运行状态。
+优先恢复新球核心M96从.984到.99：旧真实退出1为ENOSPC，423节点checkpoint仍在；前三Newton步接受，尚无完成解。新Actions入口准备中。原A RK48求解已成功，但16层源节点common-grid和闭组装未完成，接续原状态，不重复已成功求解。
 
 ## 环境与恢复
 
@@ -48,6 +50,6 @@ R236：λ=6/5全32核准确G≈.96/rho_min>.1661，条件球外保持证明完�
 
 ## 接续
 
-优先新球核心正Gauss匹配及完整闭合；同时消费同半步真实Newton和RK48/源分区精化。接受后立即原审计、锁g精化、全闭/全t几何，并继续增幅。完整证明直接results，数值/失败如实notes；公开发布受上述真实审批阻塞，当前只做本地commit与只读同步。
+优先新球核心正Gauss匹配及完整闭合；同时消费同半步真实Newton和RK48/源分区精化。接受后立即原审计、锁g精化、全闭/全t几何，并继续增幅。完整证明直接results，数值/失败如实notes；本轮直接公开授权已生效，逐结论普通push并使用本公开仓库Actions。
 
-规则同步记录：2026-11-14T08:27:52+00:00 实际pull --rebase成功；双README自add08fd0e2839e4d7cf095da3f7c5371f8918232无变化；已读提交 cd2c2b616b6c28fab8f3fdd89a59865f947fbf2a。
+规则同步记录：2026-11-14T17:11:11+08:00；本轮已实际pull --rebase并完整读取双README于6c3e21dee6a91ed44a251ef1a996bf6b3bb5a654，恢复提交后继续每次pull差异核对。

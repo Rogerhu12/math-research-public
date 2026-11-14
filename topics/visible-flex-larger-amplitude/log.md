@@ -264,3 +264,7 @@ v3真16读出08:37:18实际exit1/ENOSPC，写node-04712失败；完整RK48 Newto
 
 ### 2026-11-14T08:44:16+00:00 — publicreviewcheckpoint (local; public approval pending)
 已完成42项本地提交的精确SHA/路径/公开基线与范围形成可审阅快照，连同五项真实BVP workflow、输入恢复/局部实际验证和当前科学状态。此前公开push被自动审批真实拒绝，用户尚未直接授权新公开目的地；本次没有远端push、Actions或其它绕过发布。请求直接公开授权所需的具体代码、证明、数据和执行方案已全部可审阅。
+
+### 2026-11-14T17:11:11+08:00 — public-successor-recovery
+用户直接授权公开仓库；从幸存旧公开clone恢复43个未推提交和R235–R237/真实RK24、RK48结果，未重跑已完成计算。
+新增本题外workflow为旧轮已写的visible-larger-public-actual-bvp.yml，用于本题计算；当前优先M96 .99 checkpoint及RK48源分区消费者。
