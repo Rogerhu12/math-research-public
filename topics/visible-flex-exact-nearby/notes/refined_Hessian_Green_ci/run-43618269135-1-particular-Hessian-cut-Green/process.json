@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_same_Z_particular_Hessian_reweighted_Green_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43618269135",
   "run_attempt": "1",
@@ -68,6 +68,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T16:56:52.820342+00:00",
+      "before": "6c692fcee1410c82380e0328fb16b1f772bb81e7",
+      "after": "afadab246bd2ff5f20f938ab43ef1890f86b5c23",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -75,6 +83,11 @@
       "time": "2026-11-14T16:56:38.370584+00:00",
       "final": false,
       "commit": "82190f870ce346f13b844df4120078b30b8844db"
+    },
+    {
+      "time": "2026-11-14T16:56:52.164705+00:00",
+      "final": false,
+      "commit": "afadab246bd2ff5f20f938ab43ef1890f86b5c23"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -108,7 +121,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "6c692fcee1410c82380e0328fb16b1f772bb81e7",
+  "last_read_commit": "afadab246bd2ff5f20f938ab43ef1890f86b5c23",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-refined-Hessian-Green-work/science",
   "actual_input_sha256": {
     "same-z-green": "eb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18",
@@ -119,9 +132,21 @@
     "hessian-process": "0113de801ff7c0da2999bcfbf2e5e054560c2eb6dcd4278461305fc696213d5c",
     "cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba"
   },
-  "snapshot_utc": "2026-11-14T16:56:49.792620+00:00",
-  "wall_seconds": 13.769020452000007,
+  "snapshot_utc": "2026-11-14T16:56:52.871229+00:00",
+  "wall_seconds": 16.847630459,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 1040,
+      "sha256": "93daeb3b291d2d8d41322f8ab61770ade8e18a9b75dcc856329052e9d62ee8e0"
+    },
+    {
+      "logical_file": "evidence/complete-particular-Hessian-cut-and-Green-summary.json",
+      "file": "evidence/complete-particular-Hessian-cut-and-Green-summary.json",
+      "bytes": 23864,
+      "sha256": "bfe332c6364660c25fe031ff6dc0b4267f48941c2158dba9942f4335f2de658c"
+    },
     {
       "logical_file": "evidence/original-cut-process.json",
       "file": "evidence/original-cut-process.json",
@@ -146,5 +171,23 @@
       "bytes": 3993046,
       "sha256": "cd3dd5af3973053ad8d016f210123d493f25006dd8dcc11d5d64644a28c4add1"
     }
-  ]
+  ],
+  "complete_native_sha256": "cd3dd5af3973053ad8d016f210123d493f25006dd8dcc11d5d64644a28c4add1",
+  "actual_scientific_gates": 7,
+  "complete_finite193_compressed_response_error_bound_proved": true,
+  "complete_finite193_same_Z_error_L2_bounds": {
+    "whole_inner_body": {
+      "ball": "[0.31209626700897457132292061926623432665720364920238214093251080564293863499923708 +/- 3.96e-82]",
+      "lower": "[0.31209626700897457132292061926623432665720364920238214093251080564293863499923708 +/- 3.96e-82]",
+      "upper": "[0.31209626700897457132292061926623432665720364920238214093251080564293863499923708 +/- 3.96e-82]"
+    },
+    "fixed_negative_phase_window": {
+      "ball": "[0.14621814187714746511644686809031371072503502772991134233879369195399989788958122 +/- 3.53e-81]",
+      "lower": "[0.14621814187714746511644686809031371072503502772991134233879369195399989788958122 +/- 3.53e-81]",
+      "upper": "[0.14621814187714746511644686809031371072503502772991134233879369195399989788958122 +/- 3.53e-81]"
+    }
+  },
+  "complete_finite193_negative_error_upper_below_one_over200": false,
+  "new_profile_rescalings_in_this_child": 6391,
+  "finished_utc": "2026-11-14T16:56:52.528486+00:00"
 }
