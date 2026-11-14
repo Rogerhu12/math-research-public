@@ -8,7 +8,48 @@
   "workflow_commit": "6336fd5ac8b3c443b802f2dc142e74bb39de5631",
   "worker_source_sha256": "953940428d8c2ac6a1bf9a1874d9e806d8920f2787f00ba9042ce449db208267",
   "started_utc": "2026-11-14T17:10:13.390899+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_fixed_eta0_refined_physical_cap_coefficient_domains",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-fixed-eta-cap-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_fixed_eta_physical_cap_pilot.py",
+        "--out",
+        "/__w/_temp/visible-exact-fixed-eta-cap-output/native/fixed-eta0-refined-physical-cap-coefficient-pilot.json.gz",
+        "--candidate",
+        "/__w/_temp/visible-exact-fixed-eta-cap-prepared/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--proposal",
+        "/__w/_temp/visible-exact-fixed-eta-cap-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-physical128-cap-moving97-precomposition-native.json",
+        "--object",
+        "/__w/_temp/visible-exact-fixed-eta-cap-work/science/topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--repair-report",
+        "/__w/_temp/visible-exact-fixed-eta-cap-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+        "--pilot",
+        "/__w/_temp/visible-exact-fixed-eta-cap-pilot/native/known-cut-direction-complete-cap-mixed-source-pilot.json.gz",
+        "--pilot-process",
+        "/__w/_temp/visible-exact-fixed-eta-cap-pilot/process.json",
+        "--complete",
+        "/__w/_temp/visible-exact-fixed-eta-cap-complete/native/complete1977-cut-direction-and-same-Z-sources.json.gz",
+        "--complete-process",
+        "/__w/_temp/visible-exact-fixed-eta-cap-complete/process.json",
+        "--range-natives",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-0-512-43615251195-1/native/new-cut-direction-Z-cells-0000-0512.json.gz",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-512-1024-43615251195-1/native/new-cut-direction-Z-cells-0512-1024.json.gz",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-1024-1536-43615251195-1/native/new-cut-direction-Z-cells-1024-1536.json.gz",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-1536-1977-43615251195-1/native/new-cut-direction-Z-cells-1536-1977.json.gz",
+        "--range-processes",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-0-512-43615251195-1/process.json",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-512-1024-43615251195-1/process.json",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-1024-1536-43615251195-1/process.json",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-1536-1977-43615251195-1/process.json"
+      ],
+      "started_utc": "2026-11-14T17:10:17.522084+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 450.01094906300006,
+      "finished_utc": "2026-11-14T17:17:47.533601+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T17:10:14.232810+00:00",
@@ -25,9 +66,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:17:49.048142+00:00",
+      "before": "fb54fe406737149953c4f813d188deb4020ae3e7",
+      "after": "5fd146f8521021651f462f7eeaf3bcfb1aa83dda",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T17:10:17.519683+00:00",
+      "final": false,
+      "commit": "a785281d19572f51ad3e65f689052a761ba9acab"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -58,7 +113,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "fb54fe406737149953c4f813d188deb4020ae3e7",
+  "last_read_commit": "5fd146f8521021651f462f7eeaf3bcfb1aa83dda",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-fixed-eta-cap-work/science",
   "original_prepared_bundle_sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70",
   "all_original_large_array_bytes_verified": true,
@@ -81,8 +136,8 @@
     "range-process-2": "cc0e84d8e5f619cf190e243a7a00199f97b0f2f7e852f346d1ba3560185f91fa",
     "range-process-3": "3260b82c44299b12ab6a62bafc992e159201b602a8bd4096998676b8f9504449"
   },
-  "snapshot_utc": "2026-11-14T17:10:16.156872+00:00",
-  "wall_seconds": 2.7666889830000088,
+  "snapshot_utc": "2026-11-14T17:17:49.085921+00:00",
+  "wall_seconds": 455.695739938,
   "native_files": [
     {
       "logical_file": "evidence/original-complete1977-process.json",
@@ -125,6 +180,12 @@
       "file": "evidence/original-v3-pilot-process.json",
       "bytes": 16602,
       "sha256": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4"
+    },
+    {
+      "logical_file": "native/fixed-eta0-refined-physical-cap-coefficient-pilot.json.gz",
+      "file": "native/fixed-eta0-refined-physical-cap-coefficient-pilot.json.gz",
+      "bytes": 2213670,
+      "sha256": "b5a157d4005eb4aad1c536512c4ea5dcb431e90d09c4b05f324db5cf09203138"
     }
   ]
 }
