@@ -301,3 +301,7 @@ C²准确g=ds²+a²dθ²且Tz在整个连通带恒零时，混合导数迫Ts=0�
 固定控制词的第四period准确为P0+NP1+N²P2+N³P3；最高P3无桥内部依赖，P2同时含桥本地与下游history。若极限P3非零，有界桥与1/N二阶修正在充分大N无效；这不排有限N。接互反bulk的准确P3相消及二阶隐函数消元后的有效桥整函数，仍须全常态ruling。实际新profile诊断已显示原R52纯局部门稳定非零，不能只对该旧实例增加桥/第三gauge预算。
 
 冻结profile独立actual已全审：Floc≈70.59−61.36i稳定，第一k0常态纯最高ruling未过；三矩机器尺度不付第四。详notes/literature-frozen-profile-fourth-gate-actual-audit-20261114.md。不得用当前q只改外部桥或第三gauge假称能清该常态最高项；下一必须同一新profile/常态设计支付对应必要门，仍保R65无桥pure漂移与全部period/ruling区别。
+
+### R68 后找真正共同端点保持的桥控制
+
+互反bulk最高P3准确为零，但8个二阶修正已唯一被M条件占用。须在同一桥上求整个Ceff=P2−DP3 A⁻¹Mbridge，并保持真实frame/scalar端约束；函数零点和准确满射尚无，条件IFT不作已构造。新的固定k、改1/(2h)并保omega端jet的桥族可给实际可用方向，但位移须以同一新P的R45四块处理；同profile常态ruling门独立保留。
