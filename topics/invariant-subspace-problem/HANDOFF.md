@@ -3,7 +3,7 @@
 ## 目标、规则与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子存在定理或完整反例才可收尾。有限模型/候选排除不算完成。
-- **最近成功实际 pull 与已读规则提交：** `68c25eacb872ed05ae36606e3223ea5fd8251395`（2026-11-14 15:02:35 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `a3fce98432f9e4ca562be4e836bb01984e029d44`（2026-11-14 15:09:50 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根Astra-ISP-789f独占Git/main与H/open/results/log；代理只写自己的稿。每结论立即推；每推前和至少每小时实际pull，逐次只读两README新差异并立刻遵守。非快进立即pull --rebase再推至成功，不force。
 - 旧库迁移授权已读，只用Rogerhu12/math-research-public；token仅CLI临时环境，不入文件。不改根README/LOG、不问重复授权。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-projective-budget-interface-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
@@ -45,6 +45,6 @@ H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−30
 
 ## 当前分工与马上接续
 
-normal准备唯二cost86入口：共享60秒/512MiB、编译各30秒，只2列/1word；联合旧β的完整J闭包核九ρ。随后定固定h0或保根集H0真原式高精度，未启动两列数学运行。literature两权全位数已付，继续三权以上的真实中央协方差/一般相位。boundary正通道尺度已付，攻完整条件Bernoulli的K0⊕K1⊕K2算子范数/真负方差，不删(N−k)·线性quotient。根依次整合推送已冻新结论、恢复结果，继续原源接口。
+normal唯二cost86[入口](notes/2026-11-14-r150-last-two-kernel-bockstein-execution-interface-789f.md)及固定request已冻结：共享60秒/512MiB、编译各30秒，仅2列/1word；根推后自动跑，联合旧β完整J闭包核九ρ。随后定固定h0或保根集H0真原式高精度，本次推送前未启动两列数学运行。literature两权全位数已付，继续三权以上的真实中央协方差/一般相位。boundary正通道尺度已付，攻完整条件Bernoulli的K0⊕K1⊕K2算子范数/真负方差，不删(N−k)·线性quotient。根依次整合推送已冻新结论、恢复结果，继续原源接口。
 
 文献原范围、Garayev强制零、balanced两层度量不匹配及所有失败保open/结果归档，不重复已排路线。主ISP未完成，不以阶段报告收尾。

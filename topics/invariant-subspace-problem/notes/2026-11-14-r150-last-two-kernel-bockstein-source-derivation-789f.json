@@ -1,0 +1,189 @@
+{
+  "status": "source-prepared-not-run",
+  "derivations": [
+    {
+      "source": "2026-11-14-r150-high-kernel-bockstein-original-789f.cpp",
+      "sourceSHA256": "7a5cf9e83361d632d00835fc1d50140cb50d65ad3c2be98c6673f7c25b5613b2",
+      "output": "2026-11-14-r150-last-two-kernel-bockstein-original-789f.cpp",
+      "outputSHA256": "a3421393f80077ecf10d8b4ba211bf6915c0975a2d3dce34199b8b02baf60957",
+      "replacements": [
+        {
+          "from": "nt=200,WT=7,P=75",
+          "to": "nt=2,WT=1,P=76",
+          "count": 1
+        },
+        {
+          "from": "productDegree=85",
+          "to": "productDegree=86",
+          "count": 1
+        },
+        {
+          "from": "kernel&&cost>=80&&cost<=85",
+          "to": "kernel&&cost==86",
+          "count": 1
+        },
+        {
+          "from": "widths[c]=86-10",
+          "to": "widths[c]=87-10",
+          "count": 1
+        },
+        {
+          "from": "219032",
+          "to": "223399",
+          "count": 2
+        },
+        {
+          "from": "{31,nraw,nt,85}",
+          "to": "{31,nraw,nt,86}",
+          "count": 1
+        },
+        {
+          "from": "d+delta>85",
+          "to": "d+delta>86",
+          "count": 1
+        },
+        {
+          "from": "{31,85,nt,nc,total}",
+          "to": "{31,86,nt,nc,total}",
+          "count": 1
+        },
+        {
+          "from": "\\\"fixedSourceBudget\\\":85",
+          "to": "\\\"fixedSourceBudget\\\":86",
+          "count": 1
+        },
+        {
+          "from": "\\\"highKernelColumns\\\":200",
+          "to": "\\\"highKernelColumns\\\":2",
+          "count": 2
+        },
+        {
+          "from": "of costs80,81,85",
+          "to": "of cost86",
+          "count": 1
+        },
+        {
+          "from": "and200 actual kernel vectors",
+          "to": "and2 actual kernel vectors",
+          "count": 1
+        },
+        {
+          "from": "all200",
+          "to": "last-two",
+          "count": 2
+        },
+        {
+          "from": "All200",
+          "to": "The2",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "2026-11-14-r150-high-kernel-bockstein-normal-form-789f.cpp",
+      "sourceSHA256": "4e762478ecb120a449cb6c1a82ad6cf96fa220eabc49c6fb375dbcc33159ab11",
+      "output": "2026-11-14-r150-last-two-kernel-bockstein-normal-form-789f.cpp",
+      "outputSHA256": "16a22ca01b9733c980fdae3d3c54c75bcf863beb7bb2e939517124346ced46cd",
+      "replacements": [
+        {
+          "from": "B=85.",
+          "to": "B=86.",
+          "count": 1
+        },
+        {
+          "from": "ns=0;nt=200;",
+          "to": "ns=0;nt=2;",
+          "count": 1
+        },
+        {
+          "from": "readUnsigned(4)!=85||readUnsigned(4)!=200",
+          "to": "readUnsigned(4)!=86||readUnsigned(4)!=2",
+          "count": 1
+        },
+        {
+          "from": "219032",
+          "to": "223399",
+          "count": 2
+        },
+        {
+          "from": "std::array<int,86> counts",
+          "to": "std::array<int,87> counts",
+          "count": 1
+        },
+        {
+          "from": "(L.cost!=80&&L.cost!=81&&L.cost!=85)",
+          "to": "(L.cost!=86)",
+          "count": 1
+        },
+        {
+          "from": "counts[80]!=160||counts[81]!=38||counts[85]!=2",
+          "to": "counts[86]!=2",
+          "count": 1
+        },
+        {
+          "from": "right.emplace_back(5,45,mon)",
+          "to": "right.emplace_back(5,46,mon)",
+          "count": 1
+        },
+        {
+          "from": "width!=86-10",
+          "to": "width!=87-10",
+          "count": 1
+        },
+        {
+          "from": "\\\"originalRHSCost\\\":85",
+          "to": "\\\"originalRHSCost\\\":86",
+          "count": 1
+        },
+        {
+          "from": "all200",
+          "to": "last-two",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "source": "2026-11-14-r150-high-kernel-bockstein-image-789f.cpp",
+      "sourceSHA256": "e59c23e55a05ba7f576ed50ff35fc43580673781d0ae7ffa9c153c7baf9221c3",
+      "output": "2026-11-14-r150-last-two-kernel-bockstein-image-789f.cpp",
+      "outputSHA256": "2fc06104942fc60e6369a7378012b8454d9858247d7e49e324f0d1127fec22fe",
+      "replacements": [
+        {
+          "from": "nt=200,WT=7,N=85",
+          "to": "nt=2,WT=1,N=86",
+          "count": 1
+        },
+        {
+          "from": "d+96>=80&&d+96<=85",
+          "to": "d+96==86",
+          "count": 1
+        },
+        {
+          "from": "\\\"fixedOriginalSourceBudget\\\":85",
+          "to": "\\\"fixedOriginalSourceBudget\\\":86",
+          "count": 1
+        },
+        {
+          "from": "finiteB85",
+          "to": "finiteB86",
+          "count": 1
+        },
+        {
+          "from": "all200",
+          "to": "last-two",
+          "count": 5
+        },
+        {
+          "from": "All200",
+          "to": "The2",
+          "count": 1
+        },
+        {
+          "from": "ALL200",
+          "to": "LAST_TWO",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

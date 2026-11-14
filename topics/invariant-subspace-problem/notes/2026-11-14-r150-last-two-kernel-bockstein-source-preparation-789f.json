@@ -1,0 +1,85 @@
+{
+  "format": "r150-last-two-kernel-bockstein-source-preparation-v1",
+  "status": "compiled-and-syntax-checked-no-mathematics-executed",
+  "compileSecondsLimitPerProcess": 30,
+  "addressSpaceMiBLimit": 512,
+  "sources": {
+    "2026-11-14-r150-last-two-kernel-bockstein-original-789f.cpp": "a3421393f80077ecf10d8b4ba211bf6915c0975a2d3dce34199b8b02baf60957",
+    "2026-11-14-r150-last-two-kernel-bockstein-normal-form-789f.cpp": "16a22ca01b9733c980fdae3d3c54c75bcf863beb7bb2e939517124346ced46cd",
+    "2026-11-14-r150-last-two-kernel-bockstein-image-789f.cpp": "2fc06104942fc60e6369a7378012b8454d9858247d7e49e324f0d1127fec22fe",
+    "2026-11-14-r150-last-two-kernel-bockstein-torsion-789f.py": "4c9f52027de126801a8da3e27dddf2fff656048a5fabd79681c3a007e6ac5d58",
+    "2026-11-14-r150-last-two-kernel-bockstein-runner-789f.py": "d520c1f77f68bd50a50a61c61be16fb37592fcbe629e4df74bda1ef694b666eb"
+  },
+  "compilations": {
+    "original": {
+      "exitCode": 0,
+      "binary": "/tmp/isp-last-two-compile-789f/original",
+      "binarySHA256": "3aaf434adb732782749f7ceb545f931d3443a1b5b90a62e8b79d92eb8b7c944e",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O2",
+        "-std=c++17",
+        "-I",
+        "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes",
+        "/dev/shm/isp-789f-agent-incoming/normal/2026-11-14-r150-last-two-kernel-bockstein-original-789f.cpp",
+        "-o",
+        "/tmp/isp-last-two-compile-789f/original"
+      ]
+    },
+    "normal-form": {
+      "exitCode": 0,
+      "binary": "/tmp/isp-last-two-compile-789f/normal",
+      "binarySHA256": "20d0ece6b4a22b5f8f735f40cc9576552417dc385f843ba01bd20402ec60f753",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O2",
+        "-std=c++17",
+        "-I",
+        "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes",
+        "/dev/shm/isp-789f-agent-incoming/normal/2026-11-14-r150-last-two-kernel-bockstein-normal-form-789f.cpp",
+        "-o",
+        "/tmp/isp-last-two-compile-789f/normal"
+      ]
+    },
+    "image": {
+      "exitCode": 0,
+      "binary": "/tmp/isp-last-two-compile-789f/image",
+      "binarySHA256": "2e7d7fa783dd8600226d472548b2ad0ad07cbc0abfc63934fc49477a4e7780d8",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O2",
+        "-std=c++17",
+        "-I",
+        "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes",
+        "/dev/shm/isp-789f-agent-incoming/normal/2026-11-14-r150-last-two-kernel-bockstein-image-789f.cpp",
+        "-o",
+        "/tmp/isp-last-two-compile-789f/image"
+      ]
+    }
+  },
+  "pythonAST": {
+    "2026-11-14-r150-last-two-kernel-bockstein-torsion-789f.py": true,
+    "2026-11-14-r150-last-two-kernel-bockstein-runner-789f.py": true
+  }
+}
