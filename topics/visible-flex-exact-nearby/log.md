@@ -263,3 +263,7 @@ root亲核48,987B process全六窗/八项主导/7门，以及2,772B worker两次
 ### 2026-11-14 19:18:16 UTC — 独推 directed analytic matrix 完整余项定理
 
 11,462B，SHA256 `394068a9b18a47d5c1b9330f162c39b9b02a0d65db4b46ba5773c995adc6a52e`。root全文核M1–19双Schur乘法、rightgain交换费用、全nonmean J和parity限制、rank真非mean因子、U原完整operator words与末端唯一κ费用。尚无此算法实际数值声称。原三native/1328行保持，不重求target。
+
+### 2026-11-14 19:20:53 UTC — 独推 cached-quarter Hessian v2 真21门
+
+root亲核22,912B process/19,740B summary、全21门/1341行/1977交集/7844新残差与0target，7真pull最后`f52c1b2f1bb4cd1ad3fb136a70282c504ce89d08`全部README diff空。native `8d652d2515359e3ad1bf91c8ad03fbf66a646ddf0b6bdef1f0aa20d2adcbf12c`完整28,761,355B/15片。报告3974B/SHA`4ed875549d5556473d8d0815aaed8a2c3cb2eb7e87b24fa51fcaa1b21f6534ab`；16缺mid整行fallback明确保留，不宣称未知operator改善。

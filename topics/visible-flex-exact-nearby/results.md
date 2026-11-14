@@ -479,3 +479,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133 补充：全 Fourier 矩阵一次 Sobolev 转换
 
 见[有向解析矩阵余项预算](results/R133-supplement-directed-analytic-matrix-old-circle-remainders.md) M.1–M.19。双Schur指数lag代数保持完整乘子、原P/Π、rank、J；先由实际 $c_\sigma<1$ 构造full-nonmean逆，最后限制parity。对 $R_QJ\mathsf E_D$ 等完整word先合成右一阶gain，末端才付一次 $H^{-8/3}\to H^{-5/3}$ 转换；全mean和原rank符号保留。它是已证明的新预算算法，数值改善待公开Actions消费原1328 norm行，不称强小门。
+
+### R133 补充：完整 quarter 中心 Hessian 实际验收
+
+见[实际21门结果](results/R133-supplement-actual-cached-quarter-centre-residual-Hessian.md)。43628443697 child0、1059.644888s，新7844残差域/0target，1341行完整，原64缺mid quarter对应16行保合法fallback。完整同向 additive $<6.417342110712\times10^{-7}$，native `8d652d25…`；未知输入operator与全部mean/修补保持。
