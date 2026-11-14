@@ -137,3 +137,5 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 [全源正滤波](notes/2026-11-14-physical-gap-all-source-positive-filter-and-paid-negative-range-789f-next.md)与[统一幂预算](notes/2026-11-14-physical-gap-uniform-powers-and-high-spectrum-source-filter-789f-next.md)给E为L正收缩、像在共同费用负图；μ(r−Er)²+Xi(Er)²/2≤Xi(r)²。全n的Xi(E^n r)≤√2Xi(r)、总耗散≤μ(r)²；左误差仍≤√nXi(r)。可一次进入原Rrem并保左近似；固定参数幂归零与高谱过滤均不支付移动窗口的主L配对。
 
 **扩展原线性母窗口。** [完整证明](notes/2026-11-14-extended-linear-mother-window-sixteen-and-true-stable-lift-789f-next.md)对m≥10、Q≤exp(16d³)给原完整有限核到N的有界线性近恒等提升，误差exp(−7d⁴)。使用同源全部导数与两真实头幂；旧exp(−75d⁴)不迁移。继续核实际w/top和整窗两费，联合旗δ、原物理Schur角度、一次ρ⁻¹与ρ⁻²的区别仍保，未证N=M。
+
+**联合余负图的精确正耗散。** [证明](notes/2026-11-14-remaining-negative-graph-positive-filter-and-exact-dissipation-789f-next.md)用真Xi旗投影P、L伴随Q†构造J=QEQ†/(1+2δ)，像始终在原Rrem，JMJ≤2J(I−J)无δI余项。全幂完整总耗散≤μ(r)²，Xi(J^n r)²≤μ(r)²/n；把测试滤波移到实际r只付√{n[Xi(r)²+(2+√2)δμ(r)²]}。δ仍限原exp(d³/4)窗，c16不自动付旗；主L配对及温和移动谱隙继续。

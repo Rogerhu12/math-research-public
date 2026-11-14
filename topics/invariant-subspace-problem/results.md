@@ -266,3 +266,7 @@
 ### 2026-11-14：原线性完整有限核的exp(16d³)母窗口与真实稳定像提升（789f）
 
 [证明](notes/2026-11-14-extended-linear-mother-window-sixteen-and-true-stable-lift-789f-next.md)对m≥10、d=2^m、1≤Q≤exp(16d³)构造有界线性Λ_(m,Q):ker L_m∩H≤Q→N，原范数误差≤exp(−7d⁴)。利用D_(p+1)^j k=(−A_p)^j k−jb_pE_p(−A_p)^(j−1)k与真实carry交换，完整修复费用为52ηR(1+bR)H_p(R)H_(p+1)(R)；Legendre预算给每步exp(−8·16^p)，强极限属于全部指数孔域，再用已证M∩X3⊂N。旧75指数、低输出及joint-flag量词不免费扩大；实际角度和N=M继续。
+
+### 2026-11-14：保持同一联合余负图的正滤波与无误差总耗散（789f）
+
+[证明](notes/2026-11-14-remaining-negative-graph-positive-filter-and-exact-dissipation-789f-next.md)在L单位坐标中取真实M=Xi²、M正交投影P与Q=I−P。已付||Pv||≤δ||v||_M及EME≤2E(I−E)给F=QEQ*的FMF≤2D_Q；同一向量的Young交叉项准确给D_Q≤(1+2δ)F−F²，故J=F/(1+2δ)正收缩、JMJ≤2J(I−J)，完整像属于Rrem。全幂总耗散没有加性δ项；两费平滑≤μ(r)²/n，左近似保真实初始βδ=(2+√2)δ费用。L自伴可将固定测试的滤波移到实际来源支付误差，原t不需先付两费。δ应用仍限旧4d≤q≤exp(d³/4)；主左配对与移动谱速率未闭。
