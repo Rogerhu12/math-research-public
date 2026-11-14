@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R493：原二挠六sigma因式、保Y三阶几何与真深管](results/R493-original-half-torsion-six-sigma-factor-and-y-preserving-transport.md)：全部半周期相位给h=ω²T_*ρ0，实际T³=I且保Y、只变五伴随，另有保W反射U与U_*ρ0=ρ0+h。原新W′缺一独立sigma并有scalar−λ核，wholeodd27以真锚付清；五深一单位网格的正六次带权中央赋值恰5n，完整W伴随及Y移权项均保。
+
 - [R495：原十九次吹起、完整三倍来源与联合jet界](results/R495-fixed-angular-surface-and-full-triple-source-joint-image.md)：固定角曲面上真实因子严格变换满足χ=−KC≥2b、κ=C²≥2b−2；全部H1(mC)由曲线负度归纳消失。整个t^rQ H0(3C)在原同预算内，低r双行也由真列补齐，给V≤r+2κ+χ−1、N≤r+κ+χ−1联合满射；临界覆盖仅对显示几何量/真实接触，低ell和全M障碍仍保。
 
 - [R492：实际两Theta的完整三张量与中央反对称式](results/R492-complete-principal-two-theta-kernel-and-central-antisymmetry.md)：完整36维principal联合的CM7特征空间恰三维，实际H±准确为H3⊗H3与两个S/H5交叉张量。全部双单位Mellin及环带式给(∂t−∂s)F+=336bδ(1−λ)JS′；原C/Theta联合全principal为H3⊗C3+S⊗Λ+H5⊗CS，保C3非零中央及CS′=−JS′，未删混A单位条件。
