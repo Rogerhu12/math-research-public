@@ -255,4 +255,8 @@ R572全ΛB/ΛP、原五变量arith式、g5对(c,v)测试的提取和简单极点
 
 ### R579：九坐标全普通差商范数与真实饱和jet成本
 
-[R579：九坐标全普通差商范数与真实饱和jet成本](results/R579-nine-coordinate-ordinary-divided-difference-and-saturated-jet-budget.md)：实际有限阶分布的单位差商、导数和完整卷积界，连下降阶乘全部节点估值，支付同一九格所有D/k及全部普通p的3klogD+O(k+D)；无I零假设，原Dirac全保，九维严格门aI+9bI<21已可用，惰性(3,3)仍未过。 **待做：** 同一E_D,9与全部真饱和层的惰性改善，或原算术失败到真实九格的全量词cutoff桥；条件θ<6保积分额外+3，尚未证明cutoff。不把原有限M的若干低行提升成九格全来源。
+[R579：九坐标全普通差商范数与真实饱和jet成本](results/R579-nine-coordinate-ordinary-divided-difference-and-saturated-jet-budget.md)：实际有限阶分布的单位差商、导数和完整卷积界，连下降阶乘全部节点估值，支付同一九格所有D/k及全部普通p的3klogD+O(k+D)；无I零假设，原Dirac全保，九维严格门aI+9bI<21已可用，惰性(3,3)仍未过。 **待做：** 同一E_D,9与全部真饱和层的惰性改善，或原算术失败到真实九格的全量词cutoff桥；R574/579保守θ<6仍为充分条件，R581完整截断累计已改进到θ<7；两者均未证明cutoff。不把原有限M的若干低行提升成九格全来源。
+
+### R581：九格截断分母成本与大惰性素位强制非整
+
+[R581：九格截断分母成本与大惰性素位强制非整](results/R581-nine-coordinate-truncated-denominators-and-forced-large-inert-jets.md)：原短分母在p≤X的真实成本仅O(DX+k)，完整九维饱和旗标将条件cutoff阈值改进θ<7；无条件每个充分大D均有p>CDθ和真层k≥(p+1)/6非整。未证明原算术失败蕴含cutoff，不以存在的非整jet代中央非零。 **待做：** 原完整中央失败到同一九格全部D/k的实际整性或更细强制范数关系。已有非整层来自整个原整数格与全部跳跃乘积公式，不能用原M有限低行或局部pole见证覆盖。θ=7边界不在本证明范围。

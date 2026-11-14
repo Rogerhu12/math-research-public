@@ -385,3 +385,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [R579：九坐标全普通差商范数与真实饱和jet成本](results/R579-nine-coordinate-ordinary-divided-difference-and-saturated-jet-budget.md)：实际有限阶分布的单位差商、导数和完整卷积界，连下降阶乘全部节点估值，支付同一九格所有D/k及全部普通p的3klogD+O(k+D)；无I零假设，原Dirac全保，九维严格门aI+9bI<21已可用，惰性(3,3)仍未过。
+
+
+- [R581：九格截断分母成本与大惰性素位强制非整](results/R581-nine-coordinate-truncated-denominators-and-forced-large-inert-jets.md)：原短分母在p≤X的真实成本仅O(DX+k)，完整九维饱和旗标将条件cutoff阈值改进θ<7；无条件每个充分大D均有p>CDθ和真层k≥(p+1)/6非整。未证明原算术失败蕴含cutoff，不以存在的非整jet代中央非零。
