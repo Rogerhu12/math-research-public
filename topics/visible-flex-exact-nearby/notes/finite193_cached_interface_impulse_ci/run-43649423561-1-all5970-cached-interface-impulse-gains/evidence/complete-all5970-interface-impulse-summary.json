@@ -1,0 +1,101 @@
+{
+  "complete": true,
+  "failure": null,
+  "gates": [
+    {
+      "name": "same_actual_complete_finite193_Green_native_and_original_artifact_process",
+      "passed": true
+    },
+    {
+      "name": "same_repaired_centre_full_mean_true_boundaries_and_fixed_root_window",
+      "passed": true
+    },
+    {
+      "name": "all6391_continuous_cells_all5970_interfaces_and_virtual_waist_are_exact",
+      "passed": true
+    },
+    {
+      "name": "original_complete_ordinary_L2_kernel_native_and_exact_public_process",
+      "passed": true
+    },
+    {
+      "name": "all_exact_cached6391_integrals_and_all5970_interfaces_bound_to_the_same_events",
+      "passed": true
+    },
+    {
+      "name": "complete_left_response_from_true_waist_closure_all6391_cells_all5970_jumps",
+      "passed": true
+    },
+    {
+      "name": "complete_right_response_with_signed_cached_damping_and_all_real_interfaces",
+      "passed": true
+    },
+    {
+      "name": "all5970_unit_state_jump_gains_including_the_true_virtual_waist_interface",
+      "passed": true
+    },
+    {
+      "name": "whole_and_complete_negative_window_bounds_use_their_true_radial_measure",
+      "passed": true
+    },
+    {
+      "name": "all_complete_mean_weighted_jump_and_true_a_b_source_channels_retained",
+      "passed": true
+    },
+    {
+      "name": "zero_new_exponentials_Gram_target_frames_or_original_port_calculations",
+      "passed": true
+    }
+  ],
+  "actual_progress": {
+    "phase": "individual_interface_gains",
+    "interfaces": 5888,
+    "total": 5970
+  },
+  "complete_left_events": 12361,
+  "complete_right_events": 12361,
+  "complete_individual_interfaces": 5970,
+  "maximum_individual_jump_L2_gain": {
+    "whole_inner_body": {
+      "ball": "[121146.60499504847342243486719597240043198444132943815326280872424436359295425307 +/- 4.06e-75]",
+      "lower": "[121146.60499504847342243486719597240043198444132943815326280872424436359295425307 +/- 4.06e-75]",
+      "upper": "[121146.60499504847342243486719597240043198444132943815326280872424436359295425307 +/- 4.06e-75]"
+    },
+    "fixed_complete_negative_phase_window": {
+      "ball": "[56766.695863665406271913245459861106031298256471123454033782892105992395045266373 +/- 9.52e-77]",
+      "lower": "[56766.695863665406271913245459861106031298256471123454033782892105992395045266373 +/- 9.52e-77]",
+      "upper": "[56766.695863665406271913245459861106031298256471123454033782892105992395045266373 +/- 9.52e-77]"
+    }
+  },
+  "maximum_individual_jump_gain_at_exact_radius": {
+    "whole_inner_body": "2147184947341121/9007199254740992",
+    "fixed_complete_negative_phase_window": "2147184947341121/9007199254740992"
+  },
+  "new_local_homogeneous_scalar_bounds": 6391,
+  "new_matrix_or_scalar_exponentials": 0,
+  "new_Lyapunov_Gram_integrals": 0,
+  "full_matrix_directional_Green_kernel_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "native_sha256": "fbba350708fb89366272641433e9c2899c4ec04027616650b4317969105bcd37",
+  "seconds": 123.37206419700001,
+  "exact_input_sha256": {
+    "green": "fd6c1f4baa4ec86aab08d4925a0ec9565c3791cbe470b77c2e41549d8f071de6",
+    "green-process": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c",
+    "kernel": "ac4441cb98afabbbc646697434caebf464a22f702e2d0fa7d8e5910efd7ef448",
+    "kernel-process": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800"
+  },
+  "complete_native_retained": true,
+  "actual_new_homogeneous_cells_this_child": 6391,
+  "original_complete_success_reused_without_child": false,
+  "exact_inner_BVP_interval": [
+    "0",
+    "9/10"
+  ],
+  "fixed_phase_error_norm_interval": [
+    "0",
+    "2383968743003/10000000000000"
+  ],
+  "weighted_state_jump_has_no_second_input_weight": true,
+  "multiple_jump_responses_are_not_declared_orthogonal": true
+}
