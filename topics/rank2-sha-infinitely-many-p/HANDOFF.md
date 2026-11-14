@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：e88ab369d338f09f278a8a40c68fcba79ecbdd7c；2026-11-14 22:03:06 UTC API核main及两README无变。最后实际pull为21:35:50、7aa38f25e4c2faa9808db0d91364f586dbcb540f；21:39 CLI再次断连，最迟22:35重试。
+- 最近已读规则提交：db6d728f30ee2d0c9ea62c96c622d8d85d2354b2；2026-11-14 22:05:04 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:03:05 UTC仍无环境。最迟22:35再试。
 - 只在Rogerhu12/math-research-public/main工作；逐结论commit/push已授权，禁强推/改已发表历史。每次pull后核根/课题README，至少每小时pull一次，仅读新差异并立刻执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35–21:05断连期API历史已接回终端；21:39再次断连后用已连GitHub原子非强制追加，恢复即实际pull接回。
@@ -16,7 +16,7 @@
 ## 已发布、归档与分工
 
 R1–363、R365–560、R562–596已登记；R364仍开，R561/597/598/599/600进行中。
-完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r596.md)、[open](notes/2026-11-14-open-before-r585.md)；
+完整前检：[HANDOFF](notes/2026-11-14-frontier-before-prefix-compact.md)、[open](notes/2026-11-14-open-before-r585.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R551-R600.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
@@ -65,18 +65,10 @@ R585 A4={c,d,U,V unit}给N+U5=3QA，QA−βnJA为Funit的(qn−βn)(A4−A0)ℓ�
 
 R533/540/549/554完整角色/普通地点/Schwartz/周期保前检；原中央→I4/I1零桥未付。R549指定log²/log5、R565最高Frobenius线、R570/573全E6相位/degree12、8及单位商仍未排两标量同零。R587原Z*/Z的全Frobenius差、charge n非零曲率、短log下降及首整商三项均保正文；不代指定c4/c1或中央。
 
-## 全原函数格、全部素位成本与首p²目标
+## 原全格预算与首p²窗口
 
-R575七塔连S/T真维9；R584固定R4=2+6m4/R1=5+6m1真维N=9+6M，
-完整Taylor-Dirac缺陷保全部新增Iℓd，固定系数核给Nfree=7+5M独立子格。
-两者均非有界测度。R579实际全普通差商/卷积成本3klogD已付。
-R583同因子一次p共振吸收把全惰性改进为(0,3)，余高幂仅O(k)。
-同格严格门aI+N bI<3N−6仍未过；R581/584条件全层cutoff p>CDθ给θ<N−2（九格θ<7）。
-无条件每大D有大p真饱和层非整；没有原中央失败→cutoff桥，原有限M不控制全部格。
-
-R586七Euler全k的p^(L+e)L!主项与首p²窗保正文；最早h1读c4/c1、h2..4复用c1、h0读g_(s−2)。单列非整不代真φ；D1高核0。
-
-R589同一A_p=O[w,ε]/(w^s−pε,ε^p)，全原P的v(r_n)≥−Q−1_{Q+6r≥p}；pB⊂A、bar(pB)⊂平方零J、每个F^p整。七首极部rank7、一次格原像O³⊕pO⁷；c4/c1线性不可见。真前缀和k*处一p改善仅此有限窗。
+R575七塔连S/T真维9；R584固定长塔维N=9+6M、无Dirac子格7+5M，全部新增负矩/缺陷保正文，均非有界测度。R579普通3klogD、R583惰性(0,3)已付；严格门aI+N bI<3N−6未过，R581/584条件cutoff θ<N−2没有原中央→全层桥。
+R586全部Euler共振与指定c4/c1指标、R589全D的v(r_n)≥−Q−1_{Q+6r≥p}、平方零极部/七列rank7及k*处一p改善均保正文；只属同一有限窗，不认单列非整为真φ，D1高核0。
 
 ## 原 forcing 与全非线性解析限制
 
@@ -96,12 +88,14 @@ R590原q6全even42/1638保现ray；μ6C只留B⊗νflat，νflat=(f1⊗Σ−f3�
 
 R591共同K,H,C和单位分母递推保正文；c4/c1为b^(s−1)乘KC/KH³同次系数，下一共振单位不替代目标。
 
-R592 Ψ5是真全D同态：S/T/Wℓ0→0、W41→c4ε、W1h→a^(h−1)c1εh/h!；两c0只给五条v≥1−q。Ψ6缺陷ε6(ρ⊗t+t⊗ρ)，ρ读相邻g_(s−2)、t读原一次行；完整P修正保正文。Ψ杀S/T不付c零桥。
+R592 Ψ5真同态的九像与两c同零五行收益保正文；Ψ6必须保相邻g_(s−2)与原一次行的全乘法缺陷。Ψ杀S/T不付c零桥，完整高行现接R596。
 
 [原addition整卷积](notes/2026-11-14-inert-addition-regular-carries.md)：12bc4/5=RP−14cp/5、12bc1/5=RB+cp/5；两c0恰要求RP/RB为对应单位，不能删内部卷积或用首pole常数冒非零。
 
 R595原A34/A72的KC/H²完整留数/connection保正文；两a=M(c4,c1)+R，detM=−266084/15单位，R只用K≤N−2。原中央同零只迫c=−M^-1R，不迫c0。
 
-R594另造q̃（不改旧q数值）：20个C^iF^jG^l方向上9约束为M0..5=0,L4=1,a600=0,LB=2αΔ；显示τ线性右逆配原λκ整9×9逆，另删固定D594的有限素因子。原ρ/B/ρ−B同Dn的Y−W首项分别αΔ(1−βκ),2αΔ,−αΔ(1+βκ)，均v=n；B质量不设0。六网格在q支撑内准确为R_n={Zunit,Q/r/c/d深n}，其W̃_nℓ积分=β5n{2d_pαΔκn/b+p2nO}。原βn(J′S−6δJ′T)还含Funit外矩形；测试改变量仅全π4零，旧η/L3局部值不移给新q。
+R594新q̃保持旧q定义；9×20整右逆保M0..5=0,L4=1,a600=0,LB=2αΔ，只删固定D594有限素因子。原ρ/B/差的同Dn首项αΔ(1−βκ),2αΔ,−αΔ(1+βκ)，均v=n，B质量不设0。六网格准确降为R_n={Zunit,Q/r/c/d深n}，积分β5n{2d_pαΔκn/b+p2nO}；整个中央还含Funit外矩形。测试差仅全π4零，旧η/L3局部值不移新q。
 
 R596从唯一R40首pole单位行重建K≤N−1，再由qN=−hp/3得kN=2hp/5+6E/5。全部两c/两原a因此有同pole非线性公式；a34=a72=0 iff L=36AS−17AT=0、B=5AS/34+E=−hp/3，最高visible系数76024/5单位，低残差不删。真实Cauchy成本达t_n的compositions重建九来源全部D/n<ps的Mhat=p^t_n r_n modp；原W40²的高行不由J²0杀。真前缀需原整核，非任意P Bockstein或modp核提升；与三块M不混同。
+
+[有限F^p边界](notes/2026-11-14-finite-frobenius-power-and-true-prefix.md)：真前缀k≥s时F^p在原n<ps目标已0；k<s本来整。该有限幂整性不付新饱和层。

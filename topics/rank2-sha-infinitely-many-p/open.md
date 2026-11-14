@@ -270,3 +270,5 @@ R588的[任意固定长塔增补](notes/2026-11-14-r588-fixed-long-tower-kummer-
 ### R596：同一原首pole的完整重建及全部九来源前缀
 
 唯一R40极部的真实单位行给K≤N−1，原log终端qN=−hp/3再给kN=2hp/5+6E/5；两c及两原a均由同pole完整重建。原a同时0等价L=36AS−17AT=0、B=5AS/34+E=−hp/3；最高visible坐标的系数76024/5单位，消元后的低多项式须取显示单位值，未证矛盾。所有真实Cauchy compositions保进位，重建九来源全部D/n<ps的强化矩阵p^t_n r_n modp；第一窗口和S/T指定第一Bockstein均保原来源。**R600继续：** 这些非齐次实际约束下的真饱和前缀/指定Bockstein；不把坐标多项式添成线性列、不在J²0中乘原来源，也不把模p核当可提升真核。
+
+[有限Frobenius与真前缀](notes/2026-11-14-finite-frobenius-power-and-true-prefix.md)：P∈K_D,k且k≥s时，F^p的阶≥pk≥ps，在同一有限目标中已0；k<s原行本来整。因此不能仅以R589的F^p∈A改进困难前缀，R600继续用真实矩阵/非齐次约束/Bockstein。
