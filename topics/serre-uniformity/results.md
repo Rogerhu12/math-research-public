@@ -113,3 +113,5 @@
 - **R703（实际提取器与相对全尾已证明）**：[真实外积的代数jet提取器与不含未知高度赋值的相对全尾](results/R703-algebraic-jet-extractors-and-height-free-relative-tails.md)。同一原E_ij有6(g+g(Y))+8个独立代数Taylor基函数，八个混合系数严格为±2/L_a、±1/L_a²；有限代数jet逆矩阵提取真实非零线性组合，并把全部尾系数写成真实有限前缀的代数组合。纯代数可计算截断N_h使v(z)≥h≥3的全部尾严格高于前缀，消去未知高度赋值偏移；总零数≤N_h−1。一般p实际矩阵、单一首项及候选排除仍未求。
 
 - **R715（原普通端点已确定）**：[自然Tate维移强迫原普通类长度m=43](results/R715-natural-Tate-dimension-shift-and-the-forced-ordinary-endpoint.md)。R700完整实际序列的两个P自由中项给Γ自然的E_L/N_PE≅H_1(P,A)。若m≤42，整数乘积分辨率给Γ平凡k²，与原E_L=O[Γ]y的循环商矛盾；故m=43，原y确为普通S-Norm，N_SE=E_N、N_PE=(p,π)E_L。原cocycle链值之比保留C=9a_s/a_t；C/b数值及C=9ib桥仍未证。
+
+- **R712（原M2下一精度公式已证明）**：[严格Lubin–Tate坐标与完整两块约化](results/R712-actual-M2-second-digit-and-Lubin-Tate-two-block-reduction.md)。在Cp单位、Cp−3余零时，原M2单位iff D_p=6F0/p²+B³R2/18非零；原M2²≡−31104ζ²α⁻²B²r_p D_p。严格[p]Y=pY−Y^(p²)及总三阶微分保留两块，第三块/全部无穷尾严格模p³消失；18标签积分常数17/36补齐但在目标精度消失。公开run43594244072核小代数，137147实际D_p尚未求，未将单独Cp−3高精度当作M2。

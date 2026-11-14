@@ -159,3 +159,7 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 ### R715：原普通长度43与真实单位Norm已证明
 
 实际完整序列0→E→U→X^(p)→A→0在两个中项P自由，给自然R0线性同构E_L/N_PE≅H_1(P,A)。整数周期分辨率保留真实N_S/N_T：所有m≤42均得Γ平凡k²，与E_L=R0 y循环商矛盾；m43的非零N_S=−2π^42边界恰消第二线。故A=RΓ/π^43、N_SE=E_N、N_PE=(p,π)E_L，原y有普通单位Norm原像。完整链级Θ给C=9a_s/a_t，a_s/a_t必须经原互反映射求值；同调切线(ib,1)不自动是原Robert cocycle桥。C/J/b/L仍待求；高层R718与实际桥继续。见[R715](results/R715-natural-Tate-dimension-shift-and-the-forced-ordinary-endpoint.md)。
+
+### R712：原M2的完整下一位已化为两块
+
+在Cp单位、Cp−3余零的原规范下，严格LT坐标[p]Y=pY−Y^(p²)、varpi^(p²−1)=p精确成立，并保持旧S2模p相位。令d=p²−p+3、t=2p²−4p+2，F0=p³[z^d](E³R/36+E²W/12+EV/3)modp³，R2=[Y^t]R modp，则F0∈p²且D_p=6F0/p²+B³R2/18严格控制原M2是否单位。完整总D³的两块、积分常数17/36、第三块和无穷尾均已处理；公开run43594244072仅核有限有理/符号恒等式。137147的D_p未求，继续R717带完整分母/周期/角色标签和严格误差的快速原值求法，不能只提升Cp−3或把O(p²)级数当已算。见[R712](results/R712-actual-M2-second-digit-and-Lubin-Tate-two-block-reduction.md)。
