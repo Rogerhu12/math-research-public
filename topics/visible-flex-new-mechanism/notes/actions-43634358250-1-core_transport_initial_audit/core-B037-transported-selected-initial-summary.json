@@ -1,0 +1,579 @@
+{
+  "schema": "new-elliptic-core-single-transported-selected-audit-v1",
+  "status": "complete-single-new-core-initial-audit",
+  "source_files_sha256": {
+    "frame_collar_bvp.py": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+    "ellipse_frame_port.py": "4371f3d816c913b0e7a34f5568672f8f318fd3a923c83e3b28e3ec731c67689b",
+    "cosine_connector_radial_seed.py": "662292c1603a834e8295f7b36648f3c16f3b3904383c883dc8aa7faee4e40fc5",
+    "frame_collar_residual_audit.py": "58d972ec1dbbaba35d1ed1600ea14f1cd5934601cf5f7a209e95795e5099b9ee",
+    "frame_collar_enriched.py": "1b2557048c8b02b75201d151bf3ceb89d046734f93a9195bfe283c620a10f028",
+    "bent_flat_tail_port.py": "26f32a6ed77c82a2c67320ecbdf12031a3186fa5ae1a83b553ac722a7593dcfa",
+    "frame_collar_bent_tail.py": "b62725bb7e82349306dd041f59529d54f32e7bea8c5cca413b3a27b515ffe6ab",
+    "polygonal_flat_tail_port.py": "3870844de95284c570839f489a6c6be74c825cbf6631d21684ff4374cae78797",
+    "frame_collar_polygonal.py": "56a4013f78aa120bb2eaa17e430c6212f4af808fb7e87951a26164129bc0aaaa",
+    "polygonal_tail_heat_extension.py": "abb965c27ce1aa19acd74a54cf301b3ff5589182a116d69819963717d56aa699",
+    "frame_collar_polygonal_heat.py": "15dec10f4adbe5f7adce7f0a6f3abbfbfbe0fcdf14d52f1d08272cb1246a209f",
+    "polygonal_tail_saturated_heat_extension.py": "cda1570637d8b9bdc8d5891a944ee6fc2a6a2252d56141c2a6b8053b73ccfcdc",
+    "frame_collar_polygonal_saturated_heat.py": "483d0decb4cedd083ee3c9da8b499096c4aa51b3c23bb0140f8f7281f5a248fa",
+    "polygonal_tail_natural_extension.py": "da2cfa48679658573036456e1b6be234cdee7865fe9da2e6535634400fc0265f",
+    "frame_body_metric_design.py": "8e4fd2b153be450e83e2eea8997847c84e40498307769e0fc01a29cb93430865",
+    "frame_collar_natural_body_audit.py": "8185d72b866f17703c5abd5224fedfc57d197712a60ad021f246d46fd8521c3d",
+    "frame_independent_height.py": "d7c52dd824a9302d8877092c551cc567ed1477a0dc6192799d8ad42969121de6",
+    "frame_independent_height_solve.py": "a406d44946cf32e2d4a90fcf0b1711a74b5342d27e26709653a7e7058fe3e74f",
+    "frame_fixed_height_primitive.py": "16d7200ed2fe3c4f433d5f3ae787696311499264cb21172d9915efea9ae7b780",
+    "frame_fixed_height_primitive_audit.py": "824f0cda6ba87132bb2063d836f1b5d4504818899fc0b88060e4e3e854514e41",
+    "frame_core_transport.py": "ea7990328c979f02be7b83db307f5d1b94e69d0ede3e1cc34d9b37a1f357f21d",
+    "frame_core_transport_audit.py": "fbe810c9b19a2bc56b8e91391f79debd314bf56b1deec11c59a4489eb85c03c9"
+  },
+  "inputs": {
+    "selected": {
+      "path": "topics/visible-flex-new-mechanism/notes/actions-43618467921-1-independent_height_solve/frame-independent-height-bounded.json",
+      "sha256": "c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46"
+    },
+    "original_enriched_anchor": {
+      "path": "topics/visible-flex-new-mechanism/notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json",
+      "sha256": "6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3"
+    }
+  },
+  "configuration": {
+    "target_minor": "37/100",
+    "heat_order": 32,
+    "height_angular_nodes": 384,
+    "constructor_radial_nodes": 61,
+    "constructor_angular_nodes": 192,
+    "constructor_quadrature_order": 4,
+    "radial_nodes": 121,
+    "angular_nodes": 384,
+    "doubled_angular_nodes": 768,
+    "uniform_primitive_panels": 120,
+    "primitive_order": 8,
+    "query_quadrature_order": 8,
+    "target_reach": "61/1000",
+    "ball_radius": "101/100",
+    "strip_half_width": "19/50"
+  },
+  "physical_state_sha256": "784ad5b6803fe09842684102eec363925f4acc9a5a587d5db6df12e1c96d051b",
+  "old_selected_physical_state_sha256": "924e7de417ec8fbf9419942e5cf45a7eff58336972b7cac4224edaee4c4229ee",
+  "new_metric_definition_sha256": "0802fc586d9ef618a2cc4cfdad9bd197e20645bee891af207b35ac2960374c12",
+  "old_selected_metric_definition_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
+  "target_core_identity": {
+    "kind": "exact-elliptic-cylinder-v1",
+    "major": "1",
+    "minor": "37/100",
+    "half_width": "1/50",
+    "material_angle_definition": "ell(phi)=a0*theta, a0=exact ellipse perimeter/(2*pi)",
+    "position_definition": "(A*cos(phi),B*sin(phi),s)",
+    "extrusion_is_exact_for_every_real_s": true
+  },
+  "old_core_identity": {
+    "kind": "exact-elliptic-cylinder-v1",
+    "major": "1",
+    "minor": "7/25",
+    "half_width": "1/50",
+    "material_angle_definition": "ell(phi)=a0*theta, a0=exact ellipse perimeter/(2*pi)",
+    "position_definition": "(A*cos(phi),B*sin(phi),s)",
+    "extrusion_is_exact_for_every_real_s": true
+  },
+  "new_height_base_definition_sha256": "33b6f975dcbbc9fd800f87cc7673ba133137e600c385f87c72521f4757b23628",
+  "artificial_inputs_only": false,
+  "optimization_performed": false,
+  "step_applied": false,
+  "initial_audit": {
+    "sampled": {
+      "schema": "independent-height-actual-position-audit-v1",
+      "radial_nodes": 139,
+      "angular_nodes": 384,
+      "extrema": {
+        "E_minus_one": {
+          "value": 67.00643381450884,
+          "magnitude": 67.00643381450884,
+          "t": 0.105,
+          "theta": 0.0,
+          "finite_count": 53376,
+          "nonfinite_count": 0
+        },
+        "F_over_a": {
+          "value": -2.8341906094417144,
+          "magnitude": 2.8341906094417144,
+          "t": 0.255,
+          "theta": 3.46884188833873,
+          "finite_count": 53376,
+          "nonfinite_count": 0
+        },
+        "metric_operator_error": {
+          "value": 67.00643381450884,
+          "magnitude": 67.00643381450884,
+          "t": 0.105,
+          "theta": 0.0,
+          "finite_count": 53376,
+          "nonfinite_count": 0
+        },
+        "area": {
+          "value": 0.003483717420970048,
+          "magnitude": 0.003483717420970048,
+          "t": 0.4125,
+          "theta": 0.37633661996127726,
+          "finite_count": 53376,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 587789.9139698267,
+          "magnitude": 587789.9139698267,
+          "t": 0.4125,
+          "theta": 0.37633661996127726,
+          "finite_count": 53376,
+          "nonfinite_count": 0
+        },
+        "curvature_discriminant": {
+          "value": 6.7893154488993e-32,
+          "magnitude": 6.7893154488993e-32,
+          "t": 0.885,
+          "theta": 0.3108867730114899,
+          "finite_count": 53376,
+          "nonfinite_count": 0
+        },
+        "ball_radius_squared_normalized": {
+          "value": 0.9835279920081081,
+          "magnitude": 0.9835279920081081,
+          "t": 0.0375,
+          "theta": 0.0,
+          "finite_count": 53376,
+          "nonfinite_count": 0
+        },
+        "strip_abs_normalized": {
+          "value": 1.5629281657713499,
+          "magnitude": 1.5629281657713499,
+          "t": 0.1275,
+          "theta": 1.5707963267948966,
+          "finite_count": 53376,
+          "nonfinite_count": 0
+        },
+        "signed_side_height_minus_core_width": {
+          "value": -0.0648830610663388,
+          "magnitude": -0.0648830610663388,
+          "t": 0.345,
+          "theta": 3.141592653589793,
+          "finite_count": 53376,
+          "nonfinite_count": 0
+        },
+        "G_over_a_squared_minus_one": {
+          "value": -8.881784197001252e-16,
+          "magnitude": 8.881784197001252e-16,
+          "t": 0.2925,
+          "theta": 3.976078202199582,
+          "finite_count": 53376,
+          "nonfinite_count": 0
+        }
+      },
+      "objective_cost": {
+        "metric_only": 34.889186643499556,
+        "ball_strip_only": 0.04055805867559365,
+        "total": 34.92974470217515
+      },
+      "coordinate_min_sample": [
+        -1.0000000000000009,
+        -0.5939127029931127,
+        -0.0448830610663388
+      ],
+      "coordinate_max_sample": [
+        1.0000000000000009,
+        0.5939127029931129,
+        0.3852242799801727
+      ],
+      "center_height_first_last": [
+        0.02,
+        0.05574480706680411
+      ],
+      "center_speed_min_max_sample": [
+        -0.6526814845207043,
+        1.0
+      ],
+      "target_K_min_max_sample": [
+        -8.37710753031229,
+        10.942750908569318
+      ],
+      "radius_min_max_sample": [
+        0.22,
+        0.7347961969397042
+      ],
+      "position_ports": {
+        "core_position_two_jet_errors": {
+          "X": 6.494913817625764e-14,
+          "Xs": 0.0,
+          "Xt": 3.554447978966673e-16,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 1.4895204919483639e-15
+        },
+        "open_tail_position_two_jet_errors_from_one_exact_cap": {
+          "X": 9.772411236923044e-10,
+          "Xs": 1.7665700545428536e-06,
+          "Xt": 2.288792643847387e-16,
+          "Xss": 0.0022323323594426983,
+          "Xst": 9.550499576785472e-16,
+          "Xtt": 2.3757479755373554e-16
+        },
+        "single_cap_height": 0.05574480706680411,
+        "held_disk_radius": 0.22,
+        "height_not_refitted_by_radial_row": true,
+        "exact_cap_geometric_budget": {
+          "maximum_amplitude_exact": "3/16",
+          "curvature_upper_formula": "315*Amax/(128*R*(1-sqrt(3)/2))",
+          "all_cap_normal_chord_lower_formula": "128*R*(1-sqrt(3)/2)*cos(Amax)^2/(315*Amax)",
+          "height_drop_upper_formula": "Amax*R*(1-sqrt(3)/2)/2",
+          "uniform_exact_normal_chord_lower_when_selected": "3/40",
+          "uniform_exact_lower_is_strict": true,
+          "global_cap_embedding_follows_from_horizontal_strong_monotonicity": true,
+          "whole_surface_reach_not_implied": true,
+          "proof_source": "results/R44-S9-six-cap-exact-embedding-and-normal-chord.md"
+        },
+        "global_reference_center_quadrature_error_not_bounded_by_this_comparison": true,
+        "finite_Pi_and_quadrature_differences_are_not_continuous_bounds": true
+      },
+      "metric_identity_sha256": "0802fc586d9ef618a2cc4cfdad9bd197e20645bee891af207b35ac2960374c12",
+      "auxiliary_R_not_evaluated_or_used_as_a_goal": true,
+      "sampled_only": true,
+      "embedding_proved": false,
+      "whole_surface_reach_proved": false,
+      "task_complete": false
+    },
+    "core_prefix": {
+      "complete_open_core_prefix_position_two_jet_errors": {
+        "X": 6.494913817625764e-14,
+        "Xs": 0.0,
+        "Xt": 3.554447978966673e-16,
+        "Xss": 0.0,
+        "Xst": 0.0,
+        "Xtt": 1.4895204919483639e-15
+      },
+      "core_prefix_radial_nodes": 6,
+      "tail_ports_are_in_the_full_sampled_audit_and_use_one_common_h": true,
+      "all_differences_include_finite_Pi_and_fixed_primitive_error": true
+    },
+    "mirror_pairs": {
+      "schema": "transport-core-mirror-pair-sampled-necessary-screen-v1",
+      "target_reach_exact": "61/1000",
+      "normal_chord_formula": "abs(X_z)*norm(X_s cross T)/abs((X_s cross T)_z)",
+      "smallest_finite_mirror_pair_radius": {
+        "value": 6.401882450808482e-06,
+        "magnitude": 6.401882450808482e-06,
+        "t": 0.645,
+        "theta": 3.0925052683774528,
+        "finite_count": 51072,
+        "nonfinite_count": 2304
+      },
+      "finite_nonzero_normal_witness_count": 51072,
+      "sampled_witness_below_target_count": 15564,
+      "nonregular_sample_count": 0,
+      "exact_floating_zero_height_count": 0,
+      "minimum_signed_side_height": {
+        "value": -0.0448830610663388,
+        "magnitude": -0.0448830610663388,
+        "t": 0.345,
+        "theta": 3.141592653589793,
+        "finite_count": 53376,
+        "nonfinite_count": 0
+      },
+      "signed_positive_is_the_selected_upper_mirror_branch_screen": true,
+      "these_are_sampled_points_of_the_proposed_reflected_union_not_an_embedding_certificate": true,
+      "passing_these_pairs_does_not_certify_other_pairs_or_surface_reach": true
+    },
+    "R66_height": {
+      "schema": "R66-new-core-two-normal-height-gate-v1",
+      "proof_source": "results/R66-core-flat-cap-two-normal-reach-height-gate.md",
+      "assumption": "the completed reflected surface has reach at least the selected target tau",
+      "not_inferred_from_README_reach_ratio_without_a_diameter_bound": true,
+      "target_reach_exact": "61/1000",
+      "core_minor_exact": "37/100",
+      "cap_vertex_radius_exact": "137/500",
+      "gap_exact": "12/125",
+      "core_half_width_exact": "1/50",
+      "branch": "target_at_most_gap_below_twice_target",
+      "absolute_height_gap_lower_exact": {
+        "constant": "0",
+        "square_root_of": "39/15625"
+      },
+      "general_necessary_condition": "abs(h-w) >= constant + sqrt(square_root_of)",
+      "necessary_absolute_gap_evaluated": 0.049959983987187186,
+      "cap_height_evaluated": 0.05574480706680411,
+      "evaluated_absolute_gap_margin": -0.014215176920383078,
+      "standard_positive_upper_cap_branch": true,
+      "positive_h_forces_upper_branch_from_exact_L_ge_w": true,
+      "upper_cap_height_lower_evaluated_if_positive_branch_forced": 0.06995998398718718,
+      "upper_cap_height_margin_if_positive_branch_forced": -0.014215176920383078,
+      "reflected_held_disks_necessary_height_margin": -0.005255192933195887,
+      "numerical_height_primitive_and_square_root_not_interval_certified": true,
+      "no_strict_reach_certificate_or_unqualified_exclusion_is_asserted": true
+    }
+  },
+  "doubled_angle_audit": {
+    "sampled": {
+      "schema": "independent-height-actual-position-audit-v1",
+      "radial_nodes": 139,
+      "angular_nodes": 768,
+      "extrema": {
+        "E_minus_one": {
+          "value": 67.0064338147664,
+          "magnitude": 67.0064338147664,
+          "t": 0.105,
+          "theta": 0.0,
+          "finite_count": 106752,
+          "nonfinite_count": 0
+        },
+        "F_over_a": {
+          "value": -2.8341906794349523,
+          "magnitude": 2.8341906794349523,
+          "t": 0.255,
+          "theta": 3.46884188833873,
+          "finite_count": 106752,
+          "nonfinite_count": 0
+        },
+        "metric_operator_error": {
+          "value": 67.0064338147664,
+          "magnitude": 67.0064338147664,
+          "t": 0.105,
+          "theta": 0.0,
+          "finite_count": 106752,
+          "nonfinite_count": 0
+        },
+        "area": {
+          "value": 0.0034470401760878532,
+          "magnitude": 0.0034470401760878532,
+          "t": 0.4125,
+          "theta": 5.915029918087033,
+          "finite_count": 106752,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 1311544.5340856654,
+          "magnitude": 1311544.5340856654,
+          "t": 0.4125,
+          "theta": 5.915029918087033,
+          "finite_count": 106752,
+          "nonfinite_count": 0
+        },
+        "curvature_discriminant": {
+          "value": 6.7893154488993e-32,
+          "magnitude": 6.7893154488993e-32,
+          "t": 0.885,
+          "theta": 3.918809586118518,
+          "finite_count": 106752,
+          "nonfinite_count": 0
+        },
+        "ball_radius_squared_normalized": {
+          "value": 0.9835279920081201,
+          "magnitude": 0.9835279920081201,
+          "t": 0.0375,
+          "theta": 3.141592653589793,
+          "finite_count": 106752,
+          "nonfinite_count": 0
+        },
+        "strip_abs_normalized": {
+          "value": 1.5629281658221863,
+          "magnitude": 1.5629281658221863,
+          "t": 0.1275,
+          "theta": 1.5707963267948966,
+          "finite_count": 106752,
+          "nonfinite_count": 0
+        },
+        "signed_side_height_minus_core_width": {
+          "value": -0.06488306106635651,
+          "magnitude": -0.06488306106635651,
+          "t": 0.345,
+          "theta": 3.141592653589793,
+          "finite_count": 106752,
+          "nonfinite_count": 0
+        },
+        "G_over_a_squared_minus_one": {
+          "value": 8.881784197001252e-16,
+          "magnitude": 8.881784197001252e-16,
+          "t": 0.195,
+          "theta": 3.149773884458517,
+          "finite_count": 106752,
+          "nonfinite_count": 0
+        }
+      },
+      "objective_cost": {
+        "metric_only": 34.88918663972699,
+        "ball_strip_only": 0.0405580635142299,
+        "total": 34.92974470324122
+      },
+      "coordinate_min_sample": [
+        -1.0000000000000069,
+        -0.5939127030124307,
+        -0.044883061066356505
+      ],
+      "coordinate_max_sample": [
+        1.0000000000000069,
+        0.5939127030124308,
+        0.38523557183735546
+      ],
+      "center_height_first_last": [
+        0.02,
+        0.05574480706680411
+      ],
+      "center_speed_min_max_sample": [
+        -0.6526814845207043,
+        1.0
+      ],
+      "target_K_min_max_sample": [
+        -8.37710753031229,
+        10.942750908569318
+      ],
+      "radius_min_max_sample": [
+        0.22,
+        0.7347961969397042
+      ],
+      "position_ports": {
+        "core_position_two_jet_errors": {
+          "X": 8.616083543951416e-14,
+          "Xs": 0.0,
+          "Xt": 4.47545209131181e-16,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 1.4895204919483639e-15
+        },
+        "open_tail_position_two_jet_errors_from_one_exact_cap": {
+          "X": 1.0951448087804444e-11,
+          "Xs": 5.77652107831876e-08,
+          "Xt": 2.288792643847387e-16,
+          "Xss": 0.00010653652724073441,
+          "Xst": 9.566618574882216e-16,
+          "Xtt": 2.3757479755373554e-16
+        },
+        "single_cap_height": 0.05574480706680411,
+        "held_disk_radius": 0.22,
+        "height_not_refitted_by_radial_row": true,
+        "exact_cap_geometric_budget": {
+          "maximum_amplitude_exact": "3/16",
+          "curvature_upper_formula": "315*Amax/(128*R*(1-sqrt(3)/2))",
+          "all_cap_normal_chord_lower_formula": "128*R*(1-sqrt(3)/2)*cos(Amax)^2/(315*Amax)",
+          "height_drop_upper_formula": "Amax*R*(1-sqrt(3)/2)/2",
+          "uniform_exact_normal_chord_lower_when_selected": "3/40",
+          "uniform_exact_lower_is_strict": true,
+          "global_cap_embedding_follows_from_horizontal_strong_monotonicity": true,
+          "whole_surface_reach_not_implied": true,
+          "proof_source": "results/R44-S9-six-cap-exact-embedding-and-normal-chord.md"
+        },
+        "global_reference_center_quadrature_error_not_bounded_by_this_comparison": true,
+        "finite_Pi_and_quadrature_differences_are_not_continuous_bounds": true
+      },
+      "metric_identity_sha256": "0802fc586d9ef618a2cc4cfdad9bd197e20645bee891af207b35ac2960374c12",
+      "auxiliary_R_not_evaluated_or_used_as_a_goal": true,
+      "sampled_only": true,
+      "embedding_proved": false,
+      "whole_surface_reach_proved": false,
+      "task_complete": false
+    },
+    "core_prefix": {
+      "complete_open_core_prefix_position_two_jet_errors": {
+        "X": 8.616083543951416e-14,
+        "Xs": 0.0,
+        "Xt": 4.47545209131181e-16,
+        "Xss": 0.0,
+        "Xst": 0.0,
+        "Xtt": 1.4895204919483639e-15
+      },
+      "core_prefix_radial_nodes": 6,
+      "tail_ports_are_in_the_full_sampled_audit_and_use_one_common_h": true,
+      "all_differences_include_finite_Pi_and_fixed_primitive_error": true
+    },
+    "mirror_pairs": {
+      "schema": "transport-core-mirror-pair-sampled-necessary-screen-v1",
+      "target_reach_exact": "61/1000",
+      "normal_chord_formula": "abs(X_z)*norm(X_s cross T)/abs((X_s cross T)_z)",
+      "smallest_finite_mirror_pair_radius": {
+        "value": 6.4018824492218e-06,
+        "magnitude": 6.4018824492218e-06,
+        "t": 0.645,
+        "theta": 3.0925052683774528,
+        "finite_count": 102144,
+        "nonfinite_count": 4608
+      },
+      "finite_nonzero_normal_witness_count": 102144,
+      "sampled_witness_below_target_count": 31124,
+      "nonregular_sample_count": 0,
+      "exact_floating_zero_height_count": 0,
+      "minimum_signed_side_height": {
+        "value": -0.044883061066356505,
+        "magnitude": -0.044883061066356505,
+        "t": 0.345,
+        "theta": 3.141592653589793,
+        "finite_count": 106752,
+        "nonfinite_count": 0
+      },
+      "signed_positive_is_the_selected_upper_mirror_branch_screen": true,
+      "these_are_sampled_points_of_the_proposed_reflected_union_not_an_embedding_certificate": true,
+      "passing_these_pairs_does_not_certify_other_pairs_or_surface_reach": true
+    },
+    "R66_height": {
+      "schema": "R66-new-core-two-normal-height-gate-v1",
+      "proof_source": "results/R66-core-flat-cap-two-normal-reach-height-gate.md",
+      "assumption": "the completed reflected surface has reach at least the selected target tau",
+      "not_inferred_from_README_reach_ratio_without_a_diameter_bound": true,
+      "target_reach_exact": "61/1000",
+      "core_minor_exact": "37/100",
+      "cap_vertex_radius_exact": "137/500",
+      "gap_exact": "12/125",
+      "core_half_width_exact": "1/50",
+      "branch": "target_at_most_gap_below_twice_target",
+      "absolute_height_gap_lower_exact": {
+        "constant": "0",
+        "square_root_of": "39/15625"
+      },
+      "general_necessary_condition": "abs(h-w) >= constant + sqrt(square_root_of)",
+      "necessary_absolute_gap_evaluated": 0.049959983987187186,
+      "cap_height_evaluated": 0.05574480706680411,
+      "evaluated_absolute_gap_margin": -0.014215176920383078,
+      "standard_positive_upper_cap_branch": true,
+      "positive_h_forces_upper_branch_from_exact_L_ge_w": true,
+      "upper_cap_height_lower_evaluated_if_positive_branch_forced": 0.06995998398718718,
+      "upper_cap_height_margin_if_positive_branch_forced": -0.014215176920383078,
+      "reflected_held_disks_necessary_height_margin": -0.005255192933195887,
+      "numerical_height_primitive_and_square_root_not_interval_certified": true,
+      "no_strict_reach_certificate_or_unqualified_exclusion_is_asserted": true
+    }
+  },
+  "freeze_preserves_complete_state": true,
+  "sparse_complete_query_comparison": {
+    "position_two_jet_differences": {
+      "X": 2.7755575615628914e-17,
+      "Xs": 0.0,
+      "Xt": 0.0,
+      "Xss": 0.0,
+      "Xst": 0.0,
+      "Xtt": 0.0
+    },
+    "common_center_difference": 2.7755575615628914e-17,
+    "same_fixed_primitive_definition": true,
+    "query_set_does_not_define_the_physical_height": true
+  },
+  "same_parameter_Pi_refinement": {
+    "same_physical_state_sha256": "784ad5b6803fe09842684102eec363925f4acc9a5a587d5db6df12e1c96d051b",
+    "same_g_height_base_anchor_and_all_exact_coefficients": true,
+    "angular_nodes": [
+      384,
+      768
+    ],
+    "position_two_jet_differences": {
+      "X": 1.8941674302900424e-07,
+      "Xs": 6.7198429900053294e-06,
+      "Xt": 0.0,
+      "Xss": 0.006058677671576947,
+      "Xst": 0.0,
+      "Xtt": 0.0
+    },
+    "direct_metric_differences": {
+      "E_minus_one": 1.6596633351184664e-05,
+      "F_over_a": 5.769505948549636e-07,
+      "metric_operator_error": 1.6596633351184664e-05
+    },
+    "common_center_difference": 0.0,
+    "GH_Nb_fixed_prefix_partition_and_GL_rules_held_fixed": true,
+    "no_coefficient_refit_or_optimization": true,
+    "not_a_continuous_error_bound": true
+  },
+  "isometry_embedding_reach_or_containment_proved": false,
+  "full_report_bytes_sha256": "28a2bd3fd631c85f82eb772995053b7ed10984b0fbd3de682c401e6199dd0b53",
+  "full_report_filename": "core-B037-transported-selected-initial.json"
+}
