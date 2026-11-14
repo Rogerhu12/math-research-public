@@ -203,3 +203,7 @@ D1–21已证并部署19-input CI，只消费原完整germ/rootbudget，不重�
 ### 2026-11-14 relative global Riccati reference and drift frequencies
 
 [R1–20](results/R133-supplement-relative-global-Riccati-reference-and-frequency-derivatives.md)以真实正变分最小值证明：速度/逆速度/频率无关端值的逐项相对误差τ同时给p,g及M频导的O(τ)控制；完整两行frame和两频率漂移差有2048τ|M−N|界。保持新的d∂在能量方程，不把一阶差假作有界。下一消费原4650行、全区Z/mean与实际outer，付M32base+M96新增band全部项；本解析比较不自动授δ体段数值门。
+
+### 2026-11-14 actual Fourier and radial-subcell diagnostic
+
+43607383671实际7门/80target，14缓存行和8组1/4子格已全存。大行1524 low193从原.03836到4子格<.000149789959，1289<.000078025613；只固定η整格仍.03813，主改进来自新radial third-jet包络。缓存Fourier直接均值运算也恢复小行。完整cover尚未成，按原Green实际贡献扩必要行并复用所有已成jet，其他行保旧界；known high/mean/repair继续支付。见 actual-Fourier-mean-and-fixed-eta-source-diagnostic。

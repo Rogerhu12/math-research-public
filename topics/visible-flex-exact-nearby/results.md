@@ -233,3 +233,7 @@
 ### 2026-11-14 relative global positive reference
 
 [R133-supplement-relative-global-Riccati-reference-and-frequency-derivatives](results/R133-supplement-relative-global-Riccati-reference-and-frequency-derivatives.md): proved R1–20 by real coercive variational forms. A common relative error τ≤1/16 for speed, inverse speed and terminal scalar gives relative p/g error≤τ and logarithmic-frequency quotient derivative≤10τ. Complete two-row frames satisfy C−I≤3τ and the neighbouring-frequency difference obeys N||ΔR||≤2048τ|M−N| for ratio≤3. This preserves the high drift cancellation needed for a whole-body parameter transfer. The actual nonzero-delta coefficient and outer audit remains separate.
+
+### 2026-11-14 actual Fourier mean and radial subcells
+
+[R133-supplement-actual-Fourier-mean-and-fixed-eta-source-diagnostic](results/R133-supplement-actual-Fourier-mean-and-fixed-eta-source-diagnostic.md): public43607383671 completed seven gates and80 new target evaluations. Four subcells reduce row1524's available low193 bound to <.000149789959 and row1289's to <.000078025613; fixed eta on the original whole cell alone gives little improvement. Direct Fourier mean correction also repairs the former small-row interval decorrelation. The full new body/Green cover remains to be consumed.

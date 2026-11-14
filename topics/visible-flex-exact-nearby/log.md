@@ -563,3 +563,7 @@ root完整读Q1–31并核：实际窗口计数、无限low真实消元、串联
 ### 2026-11-14 15:08:00 UTC — global reference relative derivative proof
 
 新R1–20直接从正form的minimizer差w=O(τ)和频率包络导数推得O(τ)的p/g ratio频导，不引复M域或√τ损失。完整T两行和A=F^-1 M∂F逐项付，Duhamel沿log频率保M=N精确零，得到2048τ|M−N|；原d∂仍实际transport。此为解析证明立即推，无假装数值运行。旧4650native/全区Z已定位，接真实δ均值/outer系数消费。
+
+### 2026-11-14 15:10:27 UTC — actual Fourier/fixed-eta seven-gate result
+
+实际43607383671 child0，math92.289771341s、wrapper95.002834802s；nativea73382575ca2b14afb810c2ed43ae0aec9d59aef563635a19f6785b414111993，6,039,443B四原字节part。亲读原process/summary全部选行，付完整均值/repair及高支集。确有4子格大幅收紧，已命newton继续按真实Green贡献构造完整混合cover，原新jets复用。报告独立推，不把选行结果当全response。
