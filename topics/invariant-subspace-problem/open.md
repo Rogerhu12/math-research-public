@@ -146,18 +146,10 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 
 **真单新位carry及c20窗。** [证明](notes/2026-11-14-true-single-bit-carry-block-and-twenty-window-actual-sources-789f-next.md)保原N/Y的准确右上块，K E=0及Anew^zK=0使真残量短逆只付52ηR H_p²，有限截止把母窗及同一个实际顶部推到Q≤exp(20d³)。母/低投影误差exp(−3d⁴)、top误差2exp(−3d⁴)，原两费同带/全cut/d网格与固定测试配对保持；未消旗实际族只缺O(exp(20d³)/d)角度。旧联合旗δ仍限原窗，不把最高carry重复付进真幂。
 
-**η8实绩与更低初值。** [实际第二像](notes/2026-11-14-r150-eighth-admissible-second-zero-image-and-four-dimensional-current-targets-789f.md)已经完成：d8本身∈U9，所有保持当前F9模p且保持Λ2的允许修正仍排九当前p6目标。新事实是九raw生成模13维、商为4维且J=2I，U9包含于原raw模；四维是目标空间而非全来源压缩许可。run43644262244的全部37恢复/8cache已永久发布，不重原数学。下一须真实改变较低初值，保Λ2及完整carry；η8/η9进入较高位的作用、五个未消新关系和旧198第三层须分别覆盖，不能把相关第二零当成全局第二零。
+**本轮完整问题归档。** [压缩前全文](notes/2026-11-14-open-before-five-third-target-space-789f.md)保留此前η8、低初值、c26、逆芽及实际Schur的全部量词；未列的旧问题不视为关闭。
 
-**低初值第三层的准确待算族。** [新归约](notes/2026-11-14-r150-low-initial-integer-lattice-third-layer-and-five-relations-789f.md)以原recipe和canonical carry消去η3、η4−18η3的精确Λ2核，留下五个新关系7001/7002/7005/7006/7007，另须保旧198第三。五列原H5含κ9常数项，原p6已足；先做真来源和全315正分支，正证书不必等待198，负只能称五列不足。当前必要投影可用25维2-primary，实际目标为其中四维；P2ρ−ρ必须回补U9，不能沿用严格P2ρ=ρ的选择器。入口预算原RHS522、来源618。自然图外全原来源和普通ISP未排。
+**R150当前实际入口。** [五列第三结果](notes/2026-11-14-r150-five-third-rank-one-nine-current-obstructions-and-rational-rank-226092-789f.md)已完成：相关像rank1/ann=s−2、九目标全不相容；只排五列，旧198第三及完整低初值仍开。未投影五列不全在2-primary。真实cost87的b10给rank_Q A87≥226092，非精确秩/Smith值。37恢复/8cache已main，不重数学。接只读新像与原四维目标联合秩，再付旧198的局部Smith损失、同一q1和真实q2/carry；正相容仍须全315/原17。自然图外全部原整数及特征零成员资格未付。
 
-**完整Γ小相对导数路线已排。** [原物理反例](notes/2026-11-14-actual-tail-full-graph-relative-hole-commutator-obstruction-789f-next.md)给全q≥d−1的四次指数下界，真实核嵌入Gram仅exp(O(m²))。坏向量均属低孔零核，必须转向同一source-Schur消去后的实际压缩或固定测试；不能将完整Γ反例外推到已消零源，也不能再用全Γ的exp(O(d³))统一界。
+**同一实际源窗口与真实逆芽。** [c26联合carry](notes/2026-11-14-joint-positive-carry-budget-and-twenty-six-window-actual-sources-789f-next.md)给Q≤exp(26d³)母提升及实际低输出误差各exp(−d⁴)，同top保原负图/两费/固定测试。[逆芽](notes/2026-11-14-true-head-inverse-germ-twelve-half-radius-and-weighted-coefficients-789f-next.md)给ρ=exp(−25d³/2)、非线性相对误差exp(−d³/4)，真实W列权保持。ρ⁻²数值可入c26，但实际来源/固定测试比较未证明；旧联合旗δ仍限原窗。
 
-**同一原源可用窗已到c26。** [真实联合carry证明](notes/2026-11-14-joint-positive-carry-budget-and-twenty-six-window-actual-sources-789f-next.md)保N/Y正系数、跨块权、全部D交换子及短右逆，给Q≤exp(26d³)的母提升和实际低输出误差各exp(−d⁴)，同top的全窗两费和固定测试继续。当前未消联合旗实际族所需比较为O(exp(26d³)/d)；该比较尚未证明，旧δ仍限原窗。全Γ的四次指数障碍迫使下一预算保持source-Schur消核或真正固定测试约束。
-
-**原头逆芽尺度已改善，真实商角度继续。** [ρ=exp(−25d³/2)](notes/2026-11-14-true-head-inverse-germ-twelve-half-radius-and-weighted-coefficients-789f-next.md)及ψ相对线性项的exp(−d³/4)小量均已证明，保全部真实W列权。若所需实际消核source-Schur估计能够只付多项式×ρ⁻²，则可落c26窗；该估计仍开，不能以完整κ(V)或全Γ相对孔导数替代。
-
-**五列第三入口已冻结。** [接口](notes/2026-11-14-r150-five-third-interface-789f.md)/[实际入口](notes/2026-11-14-r150-five-third-actions-entry-789f.md)保六旧包50输入、原p6、五H5和所有正原17续算。共享300秒/512MiB，六编译各30秒；真实运行待回执，不重η8或九余。五列不足后接旧198第三，不能提前写完整低初值负结论。
-
-**全零源消去仍不容全源导数小界。** [实际source-Schur证明](notes/2026-11-14-actual-source-schur-relative-hole-derivative-obstruction-and-paid-test-null-family-789f-next.md)给任意q的四次指数下界；但同一真实坏族左最小者只在q层，固定低孔测试严格零，而且原μ²≤exp(O(m²))flat²已付。下一保固定物理测试/实际源或保费剥离；不能把导数反例冒充实际两费障碍。五列第三数学run43646683083已启动，回执待读。
-
-**五列第三实绩已成，198继续。** [完整实际结论](notes/2026-11-14-r150-five-third-rank-one-nine-current-obstructions-and-rational-rank-226092-789f.md)给新相关像rank1/ann=s−2、九目标全不相容，仅五列不足；未投影来源不全在2-primary。真b10=AH5_9305/p5成本87且类不在U9，原rank_Q A87≥226092，仍非精确秩。全部37恢复/8cache已main，不重算。接只读新像与旧四维目标联合秩，以及旧198的真实局部q2/Smith损失/carry；全低初值及全原整数来源未排。
+**源Schur继续保测试。** [全零源Schur导数障碍](notes/2026-11-14-actual-source-schur-relative-hole-derivative-obstruction-and-paid-test-null-family-789f-next.md)给所有q的实际四次下界，却同族真左最小者只在q层、固定低测试严格零，且μ²≤exp(O(m²))flat²已付。不能充作原两费反例；继续固定物理测试、实际源或准确保费剥离。普通ISP及N=M仍未完成。
