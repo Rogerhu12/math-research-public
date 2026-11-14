@@ -1,0 +1,37 @@
+{
+  "source_commit": "1031b194a0aa29e05065afd37317bd0955f95493",
+  "rules": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "request": {
+    "request_id": "r150-graded-ssi-annihilator-20261114T110904Z",
+    "characteristic": 31,
+    "stage": "annihilator",
+    "precondition": "constant",
+    "prebasis": "native-nf-f31",
+    "normal_forms_format": "ssi",
+    "seconds": 1800,
+    "memory_mib": 4096,
+    "reason": "All 2195 original-source and nine target normal forms are completed. Import the same exact coefficients via runtime-generated degree-first SSI, then compute the original F31[s] quotient module and annihilator. Degree-first module reductions preserve the proven vector-degree bound 45. Finite characteristic is discovery only.",
+    "module_order": "dp,c"
+  },
+  "request_sha256": "bda01fc026b70a671bbe4193db54801f5680068cecf906ed32dccf27881ee74b",
+  "code_sha256": {
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-finite-macaulay-module-789f.js": "2729994d360d47e20e5b5b102ce3904f131a2dddaabb99801c1a96116b821573",
+    "topics/invariant-subspace-problem/notes/2026-11-14-rank-one-parameter-ideal-runner-789f.js": "8c3459068531a81e6d08b554fbbc47f00352bfb86dfae8d6e89810b4e5eeae39",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-graded-pivot-profile-789f.json": "d5c1a753a3869a702a84d723a4fb7b68c778e19e2fc7d0a4e4b55fe95327a0b9",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-native-constant-prebasis-789f.cpp": "342a17d83a10859a46fe7fc753ad4bf1bde885b14263078dec07626564f0f282",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-native-prebasis-runner-789f.js": "9fbde5a5618c55bb543d88039d7d53ef06556a0e1b4b4f8155e8f057d1224bdd",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-native-prebasis-receipt-789f.json": "c4f763abdfb1b93364c36a3b92d63f7bc4a6610de99598bb128095d8e4bb8551",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-eleven-n-source-profile-789f.json": "262a7b39030d59bcf9399975cfad2dcfc19ee91824e42c8712e45bce89f7b19e",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-native-normal-form-789f.cpp": "5d9bc7b87900472b617a9845b735388efe7f2c2cbde534a0b574ffc625d1a471",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-native-normal-form-runner-789f.js": "82972153559576cd09640c5b94de24603e5bc4a5b4019782dd4b703e76b35602",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-native-normal-form-ssi-789f.py": "f2eec017c29c2fb486a3b93d98acf2e9b774c19b324713d87adc2e5b600ae8b7",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-native-normal-form-graded-ssi-789f.py": "d5a79076b731c4e6e11536df6be10c6f9be300797747179c263ee6f76e4f817b",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-module-actions-publish-789f.py": "2de3c9c47200d041a1158c37c8f5eeb54c0232f1d457b9fb2c29936782aae6c9",
+    ".github/workflows/invariant-subspace-r150-finite-module.yml": "e85da8499a8c7ef4a03d741695919d7f87aa742a8e3dd3f71031dea8d2cbd639"
+  },
+  "method": "finite-macaulay-module",
+  "scope": "Finite characteristic is discovery only; a complex-parameter conclusion requires characteristic zero original-row lift and actual denominators."
+}

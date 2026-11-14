@@ -1,0 +1,7 @@
+ring R=31,s,(dp,c);
+module A=(30*s^2+16)*gen(1)+7*s^3*gen(1034),2*s*gen(2);
+link ell="ssi:w /home/runner/work/_temp/isp-r150-native-ssi/ssi-runtime-fixture.ssi";
+write(ell,A);close(ell);
+if(nrows(A)!=1034||ncols(A)!=2){print("SSI_FIXTURE_FAILED");quit;}
+print("SSI_RUNTIME_FIXTURE_WRITTEN");
+quit;
