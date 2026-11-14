@@ -99,7 +99,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R295 Turán余量](results/R295-birth-one-turan-remainder-law-and-all-height-strengthened-s1.md)完全以实际子集对子分拆证明同源协方差混合和完整平方分解，付所有有限正权birth1全height加强S1的κ=ρ（有限严格）；原连续平方尾j⁻⁴另有统一κ=674/81，含无限物理极限和真正Γ相邻序。[统一常数附录](results/R295-appendix-universal-birth-one-strengthened-s1-by-atomic-splitting.md)进一步以最大原子分区与同源加权扰动付任意正权整个birth1/全height加强κ=1024，有限严格、无限正ℓ²非严格；不依赖外部协方差下界。一般高birth与原graph仍开。
 
-[R296全birth残差/真实桥](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)把最高degree-s特征对全部低阶特征作同源回归；乘积权伴随给真实两带，Θ_n=L_(n+2)BC_n的差恰创新。一般加强S1等价共同Z_n相对C_nG_(n−1)C_n的运输界，首边须保两项抵消；硬顶和C²深塔均保留。出生二τ/τ²方向、临界弱位的实际共同费用继续。
+[R296全birth残差/真实桥](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)把最高degree-s特征对全部低阶特征作同源回归；乘积权伴随给真实两带，Θ_n=L_(n+2)BC_n的差恰创新。一般加强S1等价共同Z_n相对C_nG_(n−1)C_n的运输界，首边须保两项抵消；硬顶和C²深塔均保留。[完整二阶差](results/R296-appendix-complete-regression-second-difference-and-common-source-invariance.md)现给真实创新−P_L(g_next−2g_mid+g_prev)，商代表改变只添高度一次项；出生二须以共同完整线性回归支付τ/τ²方向，临界弱位的实际费用继续。
 
 [R286 固定源全高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源逆平方根能量和原慢尾全height/几何和。实际t_q祖先出生随q上移，固定birth塔最终无分量；受限逆后不自动保有限支持/固定birth，跨出生graph、完整e_q和N=M仍开。
 

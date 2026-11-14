@@ -739,3 +739,7 @@
 ### R150 附录：实际原生常单位预基与可回放原行来源
 
 [完整证明与执行记录](results/R150-appendix-native-constant-prebasis-and-original-module-reduction.md)用各层常系数Gauss同时携带完整低层参数项，实际构造原F31[s]的3333条标准基，参数次数仍≤10，全部原行组合由782976次操作DAG保存。受限原生构造6.039秒；完整基已在Singular加载并核完互异单位主项。新有限模入口保来源哈希和原6188行/九目标，专用本库CI请求31/annihilator、1800秒/4GiB；尚无共同Ann或特征零成员证书。
+
+### R296 附录：完整拟合系数二阶差与共同源不变性
+
+[完整证明](results/R296-appendix-complete-regression-second-difference-and-common-source-invariance.md)在每层保全部低阶正规方程，给g_(s+m)=(F_(m+1)^low)^−1 dF_m/(m+1)；真实创新是−P_L(g_next−2g_mid+g_prev)。共同Z准确等于新切片上Φ−2q_mid+q_prev再减更低阶残差，商代表改变只添高度一次项，故二阶差严格不变。出生二成为同源完整线性回归差；保硬顶/完整逆和实际费用，没有从恒等式推统一κ。

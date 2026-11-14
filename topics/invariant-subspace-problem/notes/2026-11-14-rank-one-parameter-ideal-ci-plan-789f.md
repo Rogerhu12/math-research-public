@@ -93,3 +93,5 @@ Singular 的 `lift`/`liftstd` 采用原生成元变换矩阵语义；参照其�
 新增本库专用 `.github/workflows/invariant-subspace-r150-finite-module.yml` 与明确请求 `2026-11-14-r150-module-ci-request-789f.json`。本次只请求31/annihilator/constant+native-f31，原生60秒/512MiB，余模Singular1800秒/4096MiB；源17式/6188行/九目标和原行身份判据不变。读取预基前匹配原数据/profile/基哈希，仅允许未专门化F31[s]。源输入先上传，实际回执/有限输出回推本题并记录逐次README指纹；大基不上传。
 
 当前仅请求提交，尚待实际run号；Ann和九目标成员证书仍未得。有限特征仅发现，后续全复参数结论仍需char0原行lift及实际分母，不以素数结果替代。
+
+实际运行现已启动：[43583257344](https://github.com/Rogerhu12/math-research-public/actions/runs/43583257344)，源`934582f3f9cdba01d64cfe35b215bd05082624fe`，创建10:01:17 UTC。当前状态in_progress；未观测到余模/Ann完成标记。
