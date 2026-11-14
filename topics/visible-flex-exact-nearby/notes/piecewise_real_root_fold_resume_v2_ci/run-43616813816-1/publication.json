@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43616813816",
+  "reviewed_pull_history": [
+    {
+      "before": "7250f9f45f1287f1f62891f62173a8309a9ecc55",
+      "after": "7250f9f45f1287f1f62891f62173a8309a9ecc55",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "7250f9f45f1287f1f62891f62173a8309a9ecc55",
+      "after": "4aa0abc77d093975b60493332b4ae5657f3e3a74",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "original_sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+      "bytes": 5923431,
+      "retained_in_original_Actions_artifact": true
+    },
+    {
+      "file": "consumers/piecewise-real-root-fold-resumed-v2.stdout.log",
+      "bytes": 1096,
+      "sha256": "3404562f49520df281d899af862268b94ba7556be56af1a89860e45b4325db6f",
+      "original_sha256": "3404562f49520df281d899af862268b94ba7556be56af1a89860e45b4325db6f"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 32670,
+      "sha256": "c30eb4c5e1efebd3663528418389ececf1ba8f4450f8e667496026915e2dfb64",
+      "original_sha256": "c30eb4c5e1efebd3663528418389ececf1ba8f4450f8e667496026915e2dfb64"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 26936,
+      "sha256": "0ba987549304e5c7830d59a7af213ba1c4bc127a36a1642272908b27bd6b23fc",
+      "original_sha256": "0ba987549304e5c7830d59a7af213ba1c4bc127a36a1642272908b27bd6b23fc"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2118,
+      "sha256": "091522f86ee7559b84114963ea4c8a2b50c8f3bada454b27c4d534504b04bad5",
+      "original_sha256": "091522f86ee7559b84114963ea4c8a2b50c8f3bada454b27c4d534504b04bad5"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}

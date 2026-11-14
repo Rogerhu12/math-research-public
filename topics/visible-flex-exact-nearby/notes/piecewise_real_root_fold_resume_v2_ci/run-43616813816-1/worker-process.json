@@ -1,0 +1,45 @@
+{
+  "kind": "actual_public_piecewise_real_root_fold_resume_v2_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43616813816",
+  "run_attempt": "1",
+  "workflow_commit": "7250f9f45f1287f1f62891f62173a8309a9ecc55",
+  "worker_sha256": "d0f0311e5adf86aca6b4bb122b4f10ff2d29d4adbd3cbd929444e6e44a3f41d1",
+  "manifest_sha256": "93346b9eb5d968cfdb160c665bd6f524b108d629e81487905b67708ab6c61166",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T16:40:12.453083+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "7250f9f45f1287f1f62891f62173a8309a9ecc55",
+      "after": "7250f9f45f1287f1f62891f62173a8309a9ecc55",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "7250f9f45f1287f1f62891f62173a8309a9ecc55",
+      "after": "4aa0abc77d093975b60493332b4ae5657f3e3a74",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "original_response_shards_already_persisted_by_run43615829270": true,
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-piecewise-real-root-fold-resume-v2-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_piecewise_real_root_fold_resume_v2_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-piecewise-real-root-fold-resume-v2-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-piecewise-real-root-fold-resume-v2-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-piecewise-real-root-fold-resume-v2-CI-inputs.json",
+    "--manifest-sha",
+    "93346b9eb5d968cfdb160c665bd6f524b108d629e81487905b67708ab6c61166",
+    "--out-dir",
+    "/__w/_temp/visible-exact-piecewise-real-root-fold-resume-v2-output/consumers"
+  ],
+  "complete_original_inputs_verified": 204,
+  "actual_scientific_checkout_commit": "7250f9f45f1287f1f62891f62173a8309a9ecc55",
+  "mathematical_wall_seconds": 37.09088905599998
+}
