@@ -405,3 +405,7 @@
 ### 完整 residual-split Hessian 的实际加性界
 
 公开43621690619通过9门/2.042509057数学秒，native `85b6bbb899ab04549131fd20a7b16209056e2a51cb012bffbd7a6ae590b047c5`。同一完整 $w_0$ 的all-new四源additive $<9.333170\,10^{-7}$，比原ordinary-only $1.348922\,10^{-6}$ 更小；每份完整mean/ordinary/divergence/Green/resolvent均保。详 [实际报告](results/R133-supplement-actual-residual-derivative-split-cap-Hessian.md)。原物理帽14费与未知 $Z-w_0$ erroroperator不变。
+
+### 全实显式族的大根区 Cauchy actual
+
+公开43621934843 / 8门 / 792格 / 1.982108787数学秒，完整native `3a214897f5dc47e1a1fed3db327f54fcc0302ad6fd273ea96ecdbfcc0ca4f1e0`。同一 $|\delta|\le10^{-8}$ 显式族的全部六半径root-to-negative Cauchy窗实际通过。R1/50完整额外非单调增长积分<.034816267，$C_0<73.578101$、$C_{-1}<1514.952276$；普通源与真实seam impulses有完整合同，所有频率/mean保。详 [实际表和证据](results/R133-supplement-actual-full-real-large-root-Cauchy-energies.md)。前两失败保，0旧数学重算。

@@ -103,3 +103,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 全1977父格的固定参数 quarter 继续计算（2026-11-14）
 
 [Q1–5合同](notes/2026-11-14-R133-complete-quarter-cap-contract.md)与160pin公开DAG已根/tail独核。原64个已成quarter逐字复用，仅补7844个新固定参数quarter；plan/finish只消费原结果，8range保真9/10入口、全部257状态/完整255乘积输出、独立mean与14费。只对完整八源表示和完整cap总界择优。新域已算midpoint和whole intrinsic jets都保存，供后继Hessian零新target消费。待全部实际成功收据，不先称完整结果。
+
+### 大根区全部六半径 Cauchy actual 通过（2026-11-14）
+
+[43621934843 实际8门](results/R133-supplement-actual-full-real-large-root-Cauchy-energies.md)消费792真实共同格，半径1/1000、1/500、1/200、1/100、3/200、1/50全成。1/50的s=0/−1/原I后常数分别<73.578101/1514.952276/1561.577063；1/200更小为6.531704/10.936120/11.272695。第一行非单调权完整收费，所有mean、ordinary H^(s+1/3)与jump(H^(s+1/3),H^s)保。下一项消费真forcing/jump与positive同Sobolev窗，未授全返回或cutoff。
