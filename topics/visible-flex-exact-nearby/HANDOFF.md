@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 16:43:19 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 16:44:54 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则与同步
 
 仅 Rogerhu12/math-research-public；所有新数学代码仅公开 Actions。每结论独立推；非快进立即接新main/rebase再推至成功，不force。root管ref/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，不进文件、输出、提交或connector。
 本地最后真实pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35后终端失联，16:20重试仍失败。根规则8暂只用connector处理<100KB文本，禁二进制/大文件，先查size，新摘要≤60KB；API不冒称pull。runner长算≤10min真pull或短child前后pull；亲核43616252389于16:36:12拉到5fd683323dea40a4400fdb3437a990838762bd17，两README无差。恢复终端即回git。
-最新远端 main/两README blob 核：d28669988c093a5a06fb54a4a2a04870d5651956；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。亲读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；独立rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
+最新远端 main/两README blob 核：3d56bef31e65598088c4bcd5b58d44a22bb33a7d；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。亲读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；独立rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次压缩前H完整字节：notes/2026-11-14-handoff-before-piecewise-root-resume-v2.md，前档链保全；open/log旧档2026-11-14-{open,log}-before-closed-leading-amplitudes.md。所有完整SHA、失败、源端口与复用合同查results/manifest，禁止重算已成数学。
 
@@ -41,7 +41,7 @@ leading43612196888/22门：a0<1.004641504569、a0^-1<1.004667223723、branch^-1<
 s−1负根43613506152实际13门，native7c91e9745b997ccadd1b987b5765e5bd51006261872cd58ff52b8ccd416240b0。growth<101.103437943193，raw<4.005123341343<41/10，I后<4.226183266259<17/4；ordinary H−2/3、两jump(H−2/3,H−1)，mean/全频保；仅9e−6负窗。
 更大真实逐片根域M1–17 v1 run43615829270在首positive K sign失败；数学14.543639s、nativefeab71e2ba588e79f97f2beb821b5db29425bf7c69dceb010719ec0df6dd49cd/2717855B，全部已成负区/root前缀保。原因读取旧ball丢失原directed lower/upper，不改原结果。
 v2本提交五件：204输入含完整旧prefix/旧box_from_record；source840d7ae96c023f0f1055516cfefe62f22a8f46a3f8a0ea2974553b32760eb112，manifest93346b9eb5d968cfdb160c665bd6f524b108d629e81487905b67708ab6c61166。逐原interval/piece复用全部真实prefix后继续；旧169germ/4650行/193coeff及004/006均不重算，等真实≥.005半径门。
-forced M13–17真ray、branch V/V0积分及缝符号已独核；phase已成无奇性forced幅度F1–17草案，待发布核对，Fa/Fb完整L0v0/J换位/CE/Cs/数值cutoff继续。禁止跨原径向seam假定joint解析。word V−^-1V+=U_(S−∘X+)非平方；root(buv/η)Swap仅均值0。
+forced M13–17真ray、branch V/V0积分及缝符号已独核；无奇性forced幅度F1–18已核推（ff27cd27…）：两ray差与完整终端branch因子保，b的Fb增益2B0K0 A_-^-2/3在根有限。Fa/Fb完整L0v0/J换位/CE/Cs/数值cutoff继续。禁止跨原径向seam假定joint解析。word V−^-1V+=U_(S−∘X+)非平方；root(buv/η)Swap仅均值0。
 
 ## 无限尾、全逆与几何终点
 

@@ -55,3 +55,7 @@
 ## 2026-11-14 16:43:19 UTC — 发布全δ根接口最小消费者
 
 新source/CI/合同/17input清单/公开workflow单独提交。亲核原fullδ collar 19门和body11门、actual2 child0、3小文件SHA及同global reference；原root/body/outer/target数学0重算，只做新有向320bit七列接口算术。真实pull/check README在child前后和10min检查点进行；此前成功native允许按actual child0、exact source/input/gates复用，即使外层曾出版失败。完整native/失败及≤60KB摘要全部保留。
+
+## 2026-11-14 16:44:54 UTC — 独立推无奇性完整幅度合同
+
+亲核F6–18的全部两ray积分常数、kernel角差、G角导及两末端branch，特别Fb核带s^-1/2时三积分系数1/3、1/3、3/2；tail已独核原M13–17符号与seam重构。完整原mean/J/source保；不跨原径向seam借Cauchy，不把V/V0商界当完整幅度。下一实际forcing可直接复用原7721记录中的intrinsic_whole_third_jets，不需重跑target。

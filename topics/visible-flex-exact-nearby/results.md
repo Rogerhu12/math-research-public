@@ -325,3 +325,7 @@
 ## 2026-11-14 16:43:19 UTC — 全实参数七列正根图的完整接口合同
 
 [同一全局参考 P1–15](results/R133-supplement-full-real-delta-positive-high-root-to-regular-graph.md) 将实际43606747196全δ collar与43615531666完整body/physical outer相接：真实全局速度、根 $g=M^{-1/3}$ 和外端 $p_*=q_*/(-m_\delta(R))$ 完全相同。完整7输入、7输出行保 finitehead/mean/ordinary/所有jump；$q_c=750/749,r_c=1/749$，body补支反射为 $\chi/(1-\chi)$。17-input公开CI只消费原3个小receipt，检查loop<1/1500、rootreflection<1/2，并保存全部系数；新数值待真实执行。全real $|\delta|\le10^{-8}$，不授low/high Schur、未知PDE响应或order1外图。
+
+## 2026-11-14 16:44:54 UTC — 真正径向片上的无奇性 forced Airy 幅度范数
+
+[完整 F1–18](results/R133-supplement-nonsingular-forced-Airy-amplitude-bounds-on-real-pieces.md) 从精确 $V_\sigma/V_{\sigma,0}$ 积分给全部 $a,b$ 幅度范数。保完整末端 $V_{\sigma,0}$；同点两核差 $O(\rho^{5/2})$、两条实际ray差及其所有有向径向积分消去输出b的假 $1/\sqrt\rho$ 损失，$F_b\to b$ 的常数为有限 $2B_0K_0A_-^{-2/3}$。原径向seam逐片处理，角条带损失与analytic-sup到Wiener转换均明列。此解析定理仍须消费完整 $-\mathcal L_0(a_0,b_0)$ 的真实范数，未授数值强余项或cutoff97。
