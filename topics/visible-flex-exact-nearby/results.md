@@ -370,3 +370,7 @@
 
 [E1–12证明](results/R133-supplement-full-real-large-root-Cauchy-two-source-windows.md)经独立核对：K_r>1给q²≥ρ，θ耗散吸收全部principal缺项，原s0/s−1乘子、primitive与独立mean费用在真逐片大窗仍成立。给出完整普通源与真实跳合同和逐格积分公式。伴随16pin公开CI只消费原数据，新的数值门待实际运行，不提前转授1/50能量常数或全逆。
 
+### R133 / ordinary Hessian的实际同Z Green结果（2026-11-14）
+
+[完整实际报告](results/R133-supplement-actual-ordinary-Hessian-same-Z-Green-reweight.md)：43619605142真7门/4.125738s，native64ce5584…；moving<3.776426835e−6，完整97行gR<1.276372397e−5。仅重权6391原right profiles，负区right<.042363496191、body<.003051713268、总<.045415209484；原14physical/所有mean及其它通道保持。1/200 false，未知high与真νSchur仍须付。
+

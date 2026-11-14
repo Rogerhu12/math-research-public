@@ -111,3 +111,7 @@ root读9122B process989e72f6…、11388B summaryf6640ebc…并核SHA、job、11�
 ### 2026-11-14 17:18:10 UTC — 完整大根窗能量证明与最小新标量消费器
 
 phase独核E1–12全权/source/mean，修正M不与offdiag矩阵交换的文字，保E5准确共轭。root检查旧v2实际process字段、六part identity/真实commonrow；新source/CI/16input/50minworkflow已推，30min预算/10min真pull，只新公共细分和标量算术。原1300行/target/候选/response不重算。17:16终端pwd再次报No usable execution environment，继续规则8小文本fallback，未冒称API为pull。
+
+### 2026-11-14 17:19:42 UTC — ordinary→Green实际7门逐项亲核
+
+root读9012B process21cd9a69…与23882B summary64712cc2…并核SHA、child0、7门/全部原6391片与真正fixed区间。负区.045415209484仍未过.005；旧14physical未变，knownhigh新1.235258260e−5另保。17:11:06真pull至9696c3f1c316d848685731b219030795abbf06ef，四次README差空，H已记。

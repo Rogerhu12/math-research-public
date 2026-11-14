@@ -20,7 +20,7 @@ candidate `ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413`，�
 [同w0 Hessian实际10门](results/R133-supplement-actual-particular-w0-cap-Hessian.md)给1341local/1977交格完整方向加性<1.033484771e−5，旧HS×norm<1.372740655e−5。未知$e_Z-w_0$继续由原完整moving误差算子支付。下一项：
 
 1. [同向Hessian→cachedGreen实际7门](results/R133-supplement-actual-particular-Hessian-same-Z-Green-reweight.md)43618269135成功：新gR<4.313470180e−5，原右通道乘严格数值比率<.789998348514；负窗right<.143166428585、总<.146218141878。另外3通道保持，0新body传播/Riccati/已成帽格。1/200仍false。
-2. [ordinary-only Hessian实际11门](results/R133-supplement-actual-complete-ordinary-only-cap-Hessian.md)43618931236成功；1341原$t_B,t_C$范数复用，只新增1977交集角导积分，完整additive<1.348921723e−6。所有mean/ZCC、乘积高输出及未知feedback保，只取完整总add的min。下一项只将此新add接原right profile。
+2. [ordinary-only Hessian实际11门](results/R133-supplement-actual-complete-ordinary-only-cap-Hessian.md)43618931236成功；1341原$t_B,t_C$范数复用，只新增1977交集角导积分，完整additive<1.348921723e−6。所有mean/ZCC、乘积高输出及未知feedback保，只取完整总add的min。[新add接原Green实际7门](results/R133-supplement-actual-ordinary-Hessian-same-Z-Green-reweight.md)43619605142成功：gR<1.276372397e−5，负right<.042363496191、总<.045415209484，body保持.003051713268。原14physical/3其它通道保持，1/200仍false；继续物理dB与ordinary源分解。
 3. 看实际物理帽残差各通道与真实有向边界，按支配项继续改进，不能因某一预算下降就授响应门。
 4. 合未知high、完整有限head及low/high反馈，才得到真正$q_\nu$。
 
