@@ -1,8 +1,8 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "3a8d567051bdfa21cca5558eefe6b237988d7c94",
-  "createdUtc": "2026-11-14 21:01:48 UTC",
-  "message": "ISP: prove an all-source positive gap filter and uniform-power original fee bounds",
+  "parentCommit": "c61725631d20191bd5e02054cefa41cc1af5f245",
+  "createdUtc": "2026-11-14 21:03:51 UTC",
+  "message": "ISP: fix the original p-squared integer source lattice and its single admissible second direction",
   "rulesGitBlobs": {
     "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -14,13 +14,12 @@
     "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-git-sync-checks-789f.json",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-api-rule-checks-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-14-actual-actions-pull-43640412852-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-14-actual-actions-pull-43640412852-789f.log",
+    "topics/invariant-subspace-problem/notes/2026-11-14-actual-actions-pull-43640612459-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-14-actual-actions-pull-43640612459-789f.log",
     "topics/invariant-subspace-problem/notes/2026-11-14-executor-recovery-pull-request-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-14-handoff-before-positive-gap-powers-789f.md",
-    "topics/invariant-subspace-problem/notes/2026-11-14-open-before-positive-gap-powers-789f.md",
-    "topics/invariant-subspace-problem/notes/2026-11-14-physical-gap-all-source-positive-filter-and-paid-negative-range-789f-next.md",
-    "topics/invariant-subspace-problem/notes/2026-11-14-physical-gap-uniform-powers-and-high-spectrum-source-filter-789f-next.md",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-original-p2-integer-source-lattice-and-eighth-second-direction-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-14-handoff-before-p2-integer-lattice-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-14-open-before-p2-integer-lattice-789f.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": []
