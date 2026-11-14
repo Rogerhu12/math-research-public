@@ -511,3 +511,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133：实际完整有向矩阵余项43632464994（2026-11-14 19:44:21 UTC）
 
 [完整实际报告](results/R133-supplement-actual-directed-matrix-old-circle-sources.md)：child0、8门全过，88.696749s；1328新矩阵行/全部六径向窗，原1328moment及旧target/ray/amplitude/seam零重算。native `3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b` 7873296B在原artifact14128707026；小process `00afd54464db46f110ecff8c1968b158deedac719a363590fc366038b47fedb8` 49990B和worker `fee40be3163ba4c48a34141c9ded59fef5365e0bcf16294b8ca9248d68ca9911` 2751B已root亲核。R=1/1000完整负源<4.564909e9，原primitive/Cauchy后此组件<6.919103e8；R=1/50分别<3.453706e12、7.627176e14。8完整operator词/9第一行贡献、正collar/body真实切口、独立mean及全输出保持；主导仍RQJ T(gd)。这些是上界，不推出真实norm很大；L0w1、正侧独立mean转换、完整强return和cutoff97均仍false。root已核六case、原两次真pull至5b0e703d7fb6951eaf8a471c15b620378d999786及README空diff。下一解析幅度消费者只复用本次已成matrix native。
+
+### R133：完整解析Airy列与指数Fourier估计（2026-11-14 19:45:02 UTC）
+
+[A1–18 证明](results/R133-supplement-analytic-Airy-columns-and-complete-exponential-Fourier-bound.md)在真实复角条带直接估计全部列。完整离散权比含零输出：有限lag准确和加整条指数尾；真实负侧两ray与正侧X的逆条带为(1−j)σ。右半平面水平Volterra给精确归一化Airy branch和导数界，中央列保整个函数小argument界；central/high只按输入整数拆范数，不修改试函数或新增径向cutoff。由幅度复sup直接估H−4/3→H−5/3，原U20/U22的幅度角导需求从四阶降到两阶。root/tail全文独核，root核DLMF原归一化公式；正文SHA `3569172db9568d70fba2973660ceb790fb125432fad1d4823c3fbe422fe4d115`。所有复域、composition、指数尾与真实dr费须经公开消费者实付，尚不授return小门。

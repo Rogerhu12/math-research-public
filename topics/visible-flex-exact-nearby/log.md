@@ -299,3 +299,7 @@ root全文核S1–24的能量常数、cutoff Green符号、distribution延拓、
 ### 2026-11-14 19:44:21 UTC — 实际matrix八门结果独推
 
 root全文读9819B报告、49990B过程及2751Bworker，核全部6case和scope门、两实际pull/README空diff；原7.87MB binary留公开Actions，未经connector读取。原scalar大上界仍保，下一步逐项改进真实幅度范数。
+
+### 2026-11-14 19:45:02 UTC — 解析Airy全列定理独推
+
+root核完整lag权比、整数四fold不等式、复inverse strip、Volterra符号/47/36常数及central/high组合；tail独核通过。原blob无修订，未作任何本地新数值。
