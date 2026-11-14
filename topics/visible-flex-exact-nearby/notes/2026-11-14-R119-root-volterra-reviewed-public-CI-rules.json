@@ -1,0 +1,11 @@
+{
+  "kind": "visible_exact_public_CI_read_rules_for_root_Volterra_budget",
+  "read_commit": "9402c77c7134f88bd371e95a7babea239f179327",
+  "readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "actual_review": "Both current README files read in full by tail_connector; HANDOFF records this baseline and the ee26c0a rule diff. A later README change must be printed as an actual diff and reviewed by root before automatic publication.",
+  "authorization": "Root README authorizes terminal commits and pushes to origin/main without asking, forbids force push, requires pull/rebase and immediate retry after non-fast-forward, and requires public-repository Actions for calculations.",
+  "source_and_scope": "Only the named topic budget and its source/documents; no private repository access or opaque data download."
+}

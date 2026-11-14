@@ -59,3 +59,5 @@
 - [同显式族完整PQT/B界与实际R31合同](results/R133-supplement-complete-explicit-family-circle-KAM-inputs-and-gates.md)：证明Qδ=Qbar+δZ同族的全root/mean及混合导数P,Q,T界，用真小缺陷和参数差付更紧B；公开九步DAG锁238原输入、冻结科学快照、复用169真transport，最后首算R31全部小量/域门。门未实际通过前不授共轭存在，更不授PDE分支。
 
 - [实际显式族的完整真圆共轭存在](results/R133-supplement-actual-explicit-family-circle-conjugacy.md)：公开43586895661九个数学child全0、R31全11门真：全误差<5.856e−13而门>9.158e−12，存在实δ∞且|δ∞|<9.369e−11实现ρ15；实际PQT/B、全部root/mean/复域与finite-to-full链齐。只授明确显式族，PDE逆与β/strong仍欠。
+
+- [实际根的全输入高输出Volterra完整强界](results/R119-supplement-root-high-output-Volterra-without-low-frequency-condition-number.md)：同一全Airy算子保mean/双支/跨锥，χU的准确commutator加双buffer与dyadic行列Schur给cut2^4200 b下U高输出<2、二次余项H^s→H^(s+4/3)<2^4096 b^(4/3)，不借低频条件数；源/逆向均保，完整graph和全网络阈值仍另付。新整数预算只在公开Actions运行。

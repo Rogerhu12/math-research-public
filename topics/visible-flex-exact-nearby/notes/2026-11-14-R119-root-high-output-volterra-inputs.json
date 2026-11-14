@@ -1,0 +1,15 @@
+{
+  "kind": "R119_root_high_output_Volterra_separately_fixed_proved_inputs",
+  "source": "scripts/fourfold_root_high_output_volterra_20261114.py",
+  "source_sha256": "dcd11cb897e12b37e98a8ee3bb9e90ab9f5fa1c7e356bb6276960bd350fe1dfa",
+  "proved_input_sha256": {
+    "results/R119-supplement-root-high-output-Volterra-without-low-frequency-condition-number.md": "935b9d6a25411769eff4c9d21e780baff77dc277b7bedde52f27b0552cf425af",
+    "results/R119-supplement-actual-nonradial-full-remainder-and-high-network.md": "4da077caa66e91da72fa3410e962816fac36c14dddcc9134b74e3a0dd1fed7cc",
+    "results/R119-supplement-actual-nonradial-first-density-phase.md": "a43a5cb70d3aedee20d47dcb17d4d345422d4012628d3bdb59a806de82d82dc8",
+    "results/R119-supplement-actual-joint-analytic-root-and-relative-Airy-Cauchy.md": "6f12b6a6a79bdff8deb26e9092e46ab08463e19064912d518d50c981e592741a",
+    "results/R119-supplement-uniform-frequency-reference-Airy-Cauchy.md": "d116f9cf80740a5468d1b6addac8097891838b9f47ac28af667501b5ef6017fc",
+    "results/R119-supplement-actual-positive-DN-to-full-Airy-Cayley-and-sources.md": "6ca70b578531fd77edbc65cfe0f04f1859182c19b2e43446069c8a5ef0f5ca88"
+  },
+  "scope": "Exact arithmetic consumer only; analytic root full-input high-output proof retained; no new whole-network cutoff claim",
+  "execution": "Rogerhu12/math-research-public GitHub Actions only; no local mathematical run"
+}
