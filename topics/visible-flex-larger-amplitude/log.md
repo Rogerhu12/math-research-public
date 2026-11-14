@@ -252,3 +252,6 @@ R237完整证明直接results；实际96 binary64全转有理数，含前32舍�
 
 ### 2026-11-14T08:35:50+00:00 — rk48solve (local; public approval pending)
 原固定g/完整32H/RK48真实Newton、完整J与原audit已exit0/4114.75s，残差1.67236e−10。24→48 cut slope/second差3.55e−13/8.29e−12，完整freq40 J仍差.0671099/1.56551约旧层差的.06318倍，未机器稳定；全部响应/状态/比较/真实终态SHA核验保存。v3自动于08:31:15进入真实16读出，未完链不冒完成，原prefix仍未用新DN重解。
+
+### 2026-11-14T08:41:15+00:00 — halfinnerstepcheckpoint (local; public approval pending)
+半步r4首inner Newton步实际接受alpha=.125，merit .0137068→.0129303、col .0898437→.0795727、BC5.56e−8；第二J继续，未达prefix接受条件。7件9.75MB恢复硬链索引及新cache身份保存；iterate0002对应的新H未完整重解audit，不得套初始H标签。session28520原进程继续，停止/复现地址明确。
