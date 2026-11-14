@@ -965,3 +965,10 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - Bell分划模p恒等式及二挠奇偶性给所有c的Fp=0、F_(p+1)=6B；F_(p−1)(c)次数(p−1)/2、首项单位，故在代数闭包有根。
 - 固定超奇异/Cartier/移位单位不足以迫临界单位；实际c=s、原theta/Gaussian/全标记仍须使用，未称原Cp反例。
 - 笔记SHA7147e56aa2cd0d6cd9ca4b5ed0fc700a1230ad116a22d91f9338c69033265ac3；继续R717失败球诊断及真实CM条件，主目标OPEN。
+
+
+## 2026-11-14 21:50 Asia/Taipei · serre-public-resume-20261114
+- 新增共享.github/workflows/serre-R717-trace-diagnostics.yml，固定失败recover artifact及七原文件SHA，只做保存区间诊断与相位比较。
+- 诊断源码SHA1a0edc14b6f8af46468d27bdb3001a4a97930771667259ad1b8443bae56b14b6；全137148门槛逐项分类，全部bin/embedding半径与代表相位保留，零DFT/零格点枚举。
+- 原chirp连续复矩形球乘的包络膨胀是待核嫌疑，未预断为原因；现不增加精度或重跑完整旧计算。
+- 两README无差异，原HANDOFF存through-R721-diagnostics归档；实际M2仍未知，修复后仅复用有效输入。

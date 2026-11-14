@@ -1,0 +1,22 @@
+{
+  "result": "R717-trace-diagnostics-p137147",
+  "prime": 137147,
+  "source_run_id": "43597802237",
+  "source_artifact_name": "serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1",
+  "source_commit": "ffc69b45d58ea9aaafd1e0686fc55377701a00be",
+  "original_core_sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+  "diagnostic_source_sha256": "1a0edc14b6f8af46468d27bdb3001a4a97930771667259ad1b8443bae56b14b6",
+  "python_flint_version": "0.9.0",
+  "input_files_sha256": {
+    "R717-bins-0.json.gz": "fae9b0aadc62a36f0a5d251a17c802d698af183145cccec7f0f3b6e4352a71d8",
+    "R717-bins-1.json.gz": "eabe4b445631f071839f9cf45ec162620c0537ed1eb6e1d28d79b27d66316f6a",
+    "R717-bins-2.json.gz": "5ef6d896e45f62d7ed24be78eb70b6913a6109ac044ae74a375daca969dfeea8",
+    "R717-bins-3.json.gz": "fa90bcd9cfe7b392dbcd6ea526eb765ef819770418cbe2df1530a71a0773496b",
+    "R717-complex-embeddings.json.gz": "90f4042b56e7cd803ccb031df8563350f9fd79cd9c12f3185099321d0d0ea57c",
+    "R717-integral-trace-balls.json.gz": "3747a7fb3b8dde5accd5f98bdd8bb34433c230becd56d39cececfb5795d8005c",
+    "R717_certified_original_CM_norm.py.gz": "9524db636dc1e9d033186ec9ad9d1fc3ad00f366969db964dc48340a8915201b"
+  },
+  "purpose": "Classify every failed integer trace gate, measure exact retained dyadic radii and midpoint distances, inspect all original bin and embedding radii, and compare only retained chirp recurrence values with independent exact-residue phases. No lattice enumeration and no DFT.",
+  "mathematical_completion_claimed": false,
+  "execution_environment": "Rogerhu12/math-research-public GitHub Actions only"
+}

@@ -1,0 +1,61 @@
+name: Serre R717 retained trace diagnostics
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/serre-uniformity/notes/R717-trace-diagnostic-request.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: serre-R717-trace-diagnostic-p137147
+  cancel-in-progress: false
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout requested public source
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          sparse-checkout: |
+            README.md
+            topics/serre-uniformity/README.md
+            topics/serre-uniformity/scripts
+            topics/serre-uniformity/notes/R717-trace-diagnostic-request.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned interval arithmetic
+        run: python -m pip install python-flint==0.9.0
+      - name: Diagnose retained original balls without DFT or enumeration
+        id: diagnostic
+        continue-on-error: true
+        timeout-minutes: 35
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/R717_diagnose_retained_trace_balls.py run
+      - name: Preserve all diagnostic outputs including failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-cartier-R717-trace-diagnostics-p137147-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R717-trace-diagnostic-output
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Publish bounded diagnostic receipts
+        if: always()
+        env:
+          SERRE_ACTIONS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python topics/serre-uniformity/scripts/R717_diagnose_retained_trace_balls.py publish
+      - name: Verify completed diagnostic
+        if: always()
+        run: python topics/serre-uniformity/scripts/R717_diagnose_retained_trace_balls.py verify

@@ -4,12 +4,12 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：5727b64f3343243879cde8bac5607a46dcd48c86
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions各发布前实际pull并核两README，最近R717四片于13:10UTC前完成发布，无差异。最近GitHub集成核查：2026-11-14 13:44:03 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
+已读规则提交：2c44d138acd871c81837c3347a133d82ab8c4740
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions各发布前实际pull并核两README，最近R717四片于13:10UTC前完成发布，无差异。最近GitHub集成核查：2026-11-14 13:50:18 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
 
 仅公开Rogerhu12/math-research-public及其Actions。每结论单独推main已授权，禁强推；终端非快进立即pull --rebase重推。PAT仅CLI。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB、大中间量不入库。日志本题≤5行，改共享设施须说明。
 
-旧本地对象现不可依赖；恢复后只检出本题源码/证明/小JSON，大型gz按需读。最新压缩前交接notes/2026-11-14-public-handoff-through-R721.md保留此前完整归档链；迁移前未推结果按原记录重做，摘要不能代证书。已完成计算不得为包装重跑。
+旧本地对象现不可依赖；恢复后只检出本题源码/证明/小JSON，大型gz按需读。最新压缩前交接notes/2026-11-14-public-handoff-through-R721-diagnostics.md保留此前完整归档链；迁移前未推结果按原记录重做，摘要不能代证书。已完成计算不得为包装重跑。
 
 ## 立即执行检查点
 
@@ -42,7 +42,7 @@ R721已证全p条件等距（排版统一为$公式，数学不变）：Cp和实
 
 原P=S2S3/C0²在实圆分域，2^37·3^26·p5·P整；原Ω/6标签、两正Gauss和、完整period factor与全尾给所有整数trace，唯一整数区间和精确Teich根恢复原值。证明及完整大文件续算预算见R717与notes/R717-p137147-certified-budget-and-artifact-resume.md。
 core scripts/R717_certified_original_CM_norm.py SHA75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402；p41校准run43597163388已成功，42整数trace唯一、1274/24匹配，receipt SHAfb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6，勿重算。
-137147正式请求source ffc69b45d58ea9aaafd1e0686fc55377701a00be：384bits、tail256、cutoff360p=49372920，四片8113行=2029/2028/2028/2028、至多2并行，单recover做三个球DFT；严格解析trace误差<2^−14但仍须完整Arb唯一性。run43597802237四片全部成功：8113行、14925440项；四原bin SHA与receipt/manifest匹配。recover job132457689232于13:40:40UTC失败：三DFT完成、137148个trace全部未过唯一整数判据，未得原值。完整embedding/trace球已保存，artifact serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1；cartier正在仅恢复小诊断，禁止重枚举四片。小凭据在computations/R717-original-CM-norm-p137147-bins-i/43597802237-1/。
+137147正式请求source ffc69b45d58ea9aaafd1e0686fc55377701a00be：384bits、tail256、cutoff360p=49372920，四片8113行=2029/2028/2028/2028、至多2并行，单recover做三个球DFT；严格解析trace误差<2^−14但仍须完整Arb唯一性。run43597802237四片全部成功：8113行、14925440项；四原bin SHA与receipt/manifest匹配。recover job132457689232于13:40:40UTC失败：三DFT完成、137148个trace全部未过唯一整数判据，未得原值。完整embedding/trace球已保存，artifact serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1；已新增公开trace-diagnostic请求，逐一固定6个原gzip/原core SHA，仅诊断全区间及旧/独立chirp，零DFT/零枚举；结果待回，四片禁止重枚举。小凭据在computations/R717-original-CM-norm-p137147-bins-i/43597802237-1/。
 完整片/前缀按source参数与实际SHA复用；大bin由runner从artifact恢复，不可工具分块/编码或盲重跑。runner session固定source/request；每小时核README、发布pull后再核，结果另登记。
 
 ## O6：原p43 Robert单位/普通Norm
@@ -50,7 +50,7 @@ core scripts/R717_certified_original_CM_norm.py SHA75a81149a898e71ab33413ddd2ceb
 固定原q/s/t/Γ/Robert祖先。原776-bit q已被Gaussian5排除，非曲线/Serre反例。R591有408bit多项式、43基、different1890/index903及85整环元；α_F的Norm不能代原Robert u。
 R561原scalar-p²产物/普通类C，L=31−22iC。R613 C_r=C+34r；R619原Ct9、Cl(LF_t)_χ=k、T-Norm同构/扩张零，辅助Ct不可代C。R633完整普通单位presentation和kerNΓ自由秩一。
 R700原q-Frob本原性给X_L^(p)=O⊕RΓ；全P_n中U/X对O[P_n]自由秩86/43，但普通A为末商。R715以自然Γ线性两步Tate与E_L=R0y循环性强迫m43：较短m的H1(P,A)=k²矛盾，m43的N_S=−2π42杀第二线；N_SE=E_N、N_PE=(p,π)E_L，y真普通Norm。R718同法逐层得m_n=42n+1、d∞、普通类Norm逆极限RΓ；所有scalar普通Norm满射，全P_n Norm恒(p,π)E_L，紧纤维有限交给交Norm确为相容单位逆极限像。
-R695原Qκ=πDScs−κπDTct−11acq∈π²E iffκ=C/9，a=15i/7；所有κ域整除均成立，须实际普通输入。R704公开run43588220740原43个Γ嵌入mod1849矩阵det687，精度足够R701但原cs/cq坐标缺。R708全部已知局部Norm仍容许ηp遍F43，部分q同源仍需(q+1)/43商，不能局部替全局。
+R695/R701/R704原端点/嵌入输入与R708的43值局部Norm歧义均见归档；原cs/cq普通坐标仍缺，不能局部替全局。
 R720现以同时整提升与真实NΓX自由像完成原链桥：C=9ib=−34ib，L=31+26b，r_y=25+9b，Ω₂=ε(22+17b)。Ω₂零iff b24；实际b/J/nT/原主化坐标仍未知。必须原X_t主化/首矩或普通互反，不能代pure-p24、一次10、辅助Ct9。首矩规范已从原div/Norm重建于notes/2026-11-14-r599-first-moment-normalization-reconstruction.md：Jℓ选择无关、取F43、Jr=−2Jℓ；新证明全部普通见证为X+(t−1)E，其完整余数改变量恰I²；J是唯一固定首矩，杀全部余数时Norm改变量c≡−J/(13i)。数值/J→b仍缺，不冒称找回旧R599字节。
 
 ## 一般主目标
