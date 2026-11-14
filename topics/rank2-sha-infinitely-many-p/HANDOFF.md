@@ -6,21 +6,21 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：f96bf05bdfae54eb64fd0b9edb14218a02105481；2026-11-14 14:09:41 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：2501ebf616351245b398e6b3ef33c2e6c5546bff；2026-11-14 14:10:33 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 旧→公开仓库迁移及全部差异读取记录保本次完整归档；现只在Rogerhu12/math-research-public。规则11每次pull后核两README且至少每小时，12完整证明直接登记，13本库Actions，14公开库禁令牌。旧runner/ci-queue停用。
 - main逐条commit/push已授权；不强推、不改写已发表历史。非快进立即pull --rebase重推；当前API用expected_sha/force=false，拒绝后立即读新main、核规并重新基于新头追加。
 - 只写课题log，每轮≤5行；不动根LOG。令牌只终端临时环境，不入文件/提交/日志/回复。单文件<5MB，接口文本/Markdown<100KB，HANDOFF<10KB，open尽量<30KB；不加冻结/独审/机械复跑门槛。
 
 ## 当前发布、环境与分工
 
-R1–363、R365–518已登记；R364仍开。R513=bc671140，R512=fd3b2d1e；R516=8f9bbe4a；R517=cd948ebb，R513显示修正=795725ad；R518本次登记。R513证书CM显示换基a+bδ=(a+b)+2bω已纠正；正文/δ矩阵不变，旧提交保归档。
+R1–363、R365–519已登记；R364仍开。R513=bc671140，R512=fd3b2d1e；R516=8f9bbe4a；R517=cd948ebb，R513显示修正=795725ad；R518=7f39d76f；R519本次登记。R513证书CM显示换基a+bδ=(a+b)+2bω已纠正；正文/δ矩阵不变，旧提交保归档。
 执行环境12:35 UTC断连，14:02 UTC再确认无可用执行环境；现用连接GitHub读main、核规则和非force追加，未称实际pull。恢复后先pull --rebase/核规，再合并遗留，不能覆盖API结果。
 R501原正文/脚本/JSON精确恢复；R502明确重建脚本在公开Actions run43596695716/job132452617972成功，来源1dafbfa7，p239/D40/81行，ξ1=175、V1首行70/系数55、第三块40及全Q运输。原生JSON/全日志已推da54025b，无扫描，无跨p声称。
-root统一元数据及逐条发布；代理仅建proof/script blobs。theta的R518已登记，续R522同源carry与实际词交域；deep的R517已登记，续R521固定清极的实际边界商；literature续R519 C4八层/B0，随后R523 CH核/独立carry；root的R516已登记，续R520第三共同伴随的完整偶深核心。新证明随到随登记。
+root统一元数据及逐条发布；代理仅建proof/script blobs。theta的R518已登记，续R522同源carry与实际词交域；deep的R517已登记，续R521固定清极的实际边界商；literature的R519已登记，续R523 CH核/独立carry；root的R516已登记，续R520第三共同伴随的完整偶深核心。新证明随到随登记。
 
 ## 完整旧接口与目标桥
 
-最新完整接口归档：notes/2026-11-14-frontier-before-r518.md；它链回所有前轮HANDOFF、open-before-r496及旧规则读取记录。旧结论/支线/常数/条件均保原文，未因压缩关闭。分段索引R501–550继续，不增巨型PROOF-INDEX。旧日志见notes/2026-11-14-log-through-r494.md。
+最新完整接口归档：notes/2026-11-14-frontier-before-r519.md；它链回所有前轮HANDOFF、open-before-r496及旧规则读取记录。旧结论/支线/常数/条件均保原文，未因压缩关闭。分段索引R501–550继续，不增巨型PROOF-INDEX。旧日志见notes/2026-11-14-log-through-r494.md。
 S34/T72/U136分别桥接固定y²=x³+17/+24/+2312，rank2见R294/R398/R469；通常Selmer全Sha桥给2+corankSha≤2ordJ。一条原中央导数无穷非零即可；三曲线有限池须同一无穷p集上至少一条非零。辅助来源、有限p及子域非零不替代。
 原quartic E17:y²=x³−17x、E34/E136/E389、O4全Hilbert类迹低增广及O6真实单位Tor/评价仍开，详open与归档；高度/非p除、环境非零不代实际原类/单位条件。
 
@@ -36,7 +36,9 @@ R497原Z27/x→Y34/Tc918的六正伴随多项式完整抽S，原五深一unit网
 R506 C=(ξ1+ω²ξ3−ωx−c)/2需二覆盖；wholeS4=U，四态diag(+,+,−,−)，W/C全矩形；Y移动(κn−1)(1+3ω)C，CT=ω²x。R504 R65/C7核及三层±χ65λ³z管保各自Y权，χ65²1，RT五sigma轴未赋中央零。
 R509原(Z,V,H,x,Q1,Q2)六框架、两种五sigma正交框架及全部逆保证书。Y/W/W′/W2无Q，T/U仍混Q；真实四输入不能替代六维域。W2=R+(2+δ)x，W+ω²W′+ωW2=0。R510 rawB15满足W2=−ω²Y+2B，coreχ65λ；Y物理−κ/coreλ。原η两态完整矩形/S-new-Href/T条件行保原文，不能把raw核用于未付quarter态。
 
-R513 Q0=Q1+ωQ2、Qb=γ(5Q2−qQ0)，q=(−29−4δ)/7；Norm5/515，两者四态各χ65λ，实际7Q odd245/25235覆盖已绝对定标。其U共轭同核；交域E_rs=Q0deep r/Qbdeep s/Cdeep max(r,s)，只在等深可换C4。C=C4+CH，N(C4)=72/103、N(CH)=31/103。B0∩C4deep上的h行是原ρ反射测试差，移动量C4+κnCH，保旧W全测试，不能删CH或给C4自造core。R519正在付C4八层，R523后付CH新核。
+R513 Q0=Q1+ωQ2、Qb=γ(5Q2−qQ0)，q=(−29−4δ)/7；Norm5/515，两者四态各χ65λ，实际7Q odd245/25235覆盖已绝对定标。其U共轭同核；交域E_rs=Q0deep r/Qbdeep s/Cdeep max(r,s)，只在等深可换C4。C=C4+CH，N(C4)=72/103、N(CH)=31/103。B0∩C4deep上的h行是原ρ反射测试差，移动量C4+κnCH，保旧W全测试，不能删CH；R519已付C4八层而非一层，R523后付CH新核。
+
+R519 A=206C4是CM整行，Norm29664=288·103，保原16个W-quarter来源标准even；g8=1+N mod2N及Theta(12γ103z)绝对锚付wholeK8=I。C4/旧W/Q0/Qb全矩形；n∈8N时E_n原交域同源λ3n返回。与C正交的B1=Q0−a0C、B2=Qb−abC共同核λ2n（不拆单轴）；返回后B0三unit线为L_perp=L−103<L,C4>C4/72，测试全用L_perp+κn bL C4。隐藏反射核再表达非独立新零，全部外域仍保。
 
 R515真正二维B15/A3945平面，A=15Y−(17+14ω)B；E41554=263x−γA，wholeψ²1、εE=−χ65ψ。另K113918 β/Qpairλ²，四伴随共同χ65ψλ⁴。完整W2/L18936/E/K/Q2框架、KL=χ65ψA_N真实quarter、ν0/η全矩形及单伴随算术行已付。独立P2370与c=15barγx的unit相消Adeepn等价Eunit/Adeepn，归一A/κn后无权返回(ψλ)^n(1+χ65ψλ)同源。旧W有E/K项，Tc=T0−34E/263；不遗忘这两项。
 
