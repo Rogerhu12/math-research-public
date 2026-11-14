@@ -925,3 +925,7 @@
 ### R296 附录：原尾一致倒数交差矩与出生二整个正通道尺度
 
 [完整原尾概率与同源证明](notes/2026-11-14-original-tail-inverse-overlap-and-common-positive-channel-scale-789f-next.md)对任意固定k集I、J按j⁻⁴固定大小采样，一致给E[1/(|J\I|+1)]≤20/(k+2)、二阶矩≤400/(k+2)²。证明将最坏内集移到前k位，条件前半后比较l内/l外权比1/81的准确计数，用同一个平方身份控制两矩。由固定I一致性，任意平方可积p的共同Dirichlet能量位于2Var/k与160Var/(k+2)之间；该量准确是出生二的整个真实正Johnson通道。尚缺负方差N≤LkP；若付则给λ=2+160L及明确加强κ，而非把增长费乘未知锚。没有源条件数或逐条目代算子序。
+
+### R297 附录：完整中央分区 Hessian 与全部源相位 Ward 块
+
+[完整证明](notes/2026-11-14-central-partition-full-hessian-frame-and-phase-ward-block-789f-next.md)以全部 B_i=E_i|U 建立 BB*=(s+2)I/3，并精确给 H_ij=M_ij−M_iM⁻¹M_j=B_i*gB_j，故完整非零 Hessian 与整个真实低源 g 等价。全部 h、ell、q 的坐标交叉由同一 M 和真实换位 R_ij 显式给出，相位无遗漏等价 Jrow=A H† C+2H−Q 的联合块。逐坐标 Schur 身份及正块成立，但不能替完整 H†；自然变量下的非交换 EPD 身份亦来自真实局部算子，未作一般收缩结论。
