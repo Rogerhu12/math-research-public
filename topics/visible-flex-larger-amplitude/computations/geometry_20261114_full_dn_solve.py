@@ -317,9 +317,18 @@ def main():
         if warm_x[0] != 0 or abs(warm_x[-1] - profile.end) > 1e-12:
             raise ValueError("The warm checkpoint belongs to another complete physical interval")
         warm_curve = CubicHermiteSpline(warm_x, warm_states, warm_rhs, axis=0)
-        initial_at = warm_curve
-        mesh = original_solver.merge_mesh(mesh, warm_x)
-        guess_info = dict(kind="complete-unconverged-or-accepted-augmented-warm", sha256=sha(args.warm))
+        def saved_nodes_exactly(points):
+            points = np.asarray(points)
+            values = warm_curve(points)
+            indices = np.searchsorted(warm_x, points)
+            safe_indices = np.minimum(indices, len(warm_x) - 1)
+            saved = (indices < len(warm_x)) & (warm_x[safe_indices] == points)
+            values[saved] = warm_states[indices[saved]]
+            return values
+        initial_at = saved_nodes_exactly
+        mesh = original_solver.merge_mesh(warm_x, mesh)
+        guess_info = dict(kind="complete-unconverged-or-accepted-augmented-warm", sha256=sha(args.warm),
+                          saved_nodes_retained_exactly=True, only_new_nodes_interpolated=True)
     state = dict(scope=__doc__, phase="preparing", source_sha256=sha(__file__),
                  accepted_input_sha256=sha(args.accepted), port_sha256=sha(args.port),
                  source_repository=os.environ.get("GITHUB_REPOSITORY"), source_commit=os.environ.get("GITHUB_SHA"),
@@ -335,7 +344,7 @@ def main():
         mesh, initial, rhs, residual, additions = preflight(mesh, initial_at, flow, args.max_nodes)
         prepared = dict(scope="Full initial guess and finite-domain preflight; no BVP or true tail acceptance.",
                         M=flow.M, N=q.N, mesh=mesh.tolist(), states=initial.tolist(), rhs=rhs.tolist(),
-                        augmented_states=initial.tolist(), augmented_rhs=rhs.tolist(),
+                        state_layout="All physical rows, then constant core rows, then constant scalar-control rows.",
                         initial_collocation_max=finite_max(residual), preflight_added_nodes=additions,
                         complete_scalar_profile=scalar_spec(profile, port, initial[-1, flow.parameter_slice], sha(args.accepted)),
                         success=False, complete_closed_surface=False)
@@ -391,7 +400,7 @@ def main():
             rms = finite_max(sol.rms_residuals)
             pending = dict(scope="Actual augmented affine-inner iterate; true nonlinear tail acceptance pending.",
                            M=flow.M, N=q.N, mesh=sol.x.tolist(), states=sol.y.T.tolist(), rhs=full_rhs.tolist(),
-                           augmented_states=sol.y.T.tolist(), augmented_rhs=full_rhs.tolist(),
+                           state_layout="All physical rows, then constant core rows, then constant scalar-control rows.",
                            complete_scalar_profile=scalar_spec(profile, port, sol.y[flow.parameter_slice, -1], sha(args.accepted)),
                            success=False, inner_success=bool(sol.success), status=int(sol.status),
                            message=sol.message, collocation_rms_max=rms, boundary_residual_max=inner_bc)

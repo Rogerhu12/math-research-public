@@ -308,3 +308,7 @@ R238仅条件定理；新有理系数输入检查器待Actions，实际活动tai
 ### 2026-11-14 09:44 UTC — actual large-core mainline dispatch
 
 新增题外 .github/workflows/visible-larger-public-mainline.yml 用于本题本公开仓4个独立计算：从真.99续free3、同A的空间v2、T96真零高尾/J/audit、完整scalar与材料DN耦合。θ圆warm使用实际Φc而非法线φ圆；完整BC方向检查后接真非线性outer重解，不把准备或linearD参考称实际DN接受。新增3个fullDN执行/读出/响应源和2个真尾容量client源，原Newton/正性/残差门保留。
+
+### 2026-11-14 09:59 UTC — visible-larger: preserve complete DN warm field and resolve finite-difference truncation
+
+真实690节点完整scalar/warm通过，RHS原实现逐位相同；原BC粗FD未过门及4倍收缩证据保留，新三步/Richardson不改5e−5门或原Newton。准备数组删完全重复alias，原解压JSON按manifest可逐字重构，最大文件3710347B。共享overlay满盘后仅本轮目录转到有空间tmpfs、逐件SHA一致并保原路径，旧B未动。实际pull已读根README新课题表及Rule1/13范围措辞变化，本题README未变。
