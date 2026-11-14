@@ -1,0 +1,78 @@
+{
+  "kind": "full_real_delta_cached_outer_and_positive_public_inputs_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "python_version": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "files": {
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz": "87ed2f618bcaf77b0649abf561daea7225c9b7d667edc22afb91d86255da8f88",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-regular-Hs-Riccati-rational.json": "b62e06091e0d46198b80f0442da3627fe0ea79d23500bf823a9a96ee2f95e117",
+    "topics/visible-flex-exact-nearby/notes/exact_right_Z_endpoint_ci/run-43611611635-1/consumers/exact-right-Z-endpoint.json.gz": "8f6019cefaa96da64eadb3b19a98110dc81a0d5760a091e6fdffe538c971e606",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-M32-repair-transfer-of-cached-positive-high-rows.md": "a6c604bc4bb11522f5cc7538dc8f9ed857dfc61474e80a3c350b9310295f6dba",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-final-regular-Hs-and-Riccati-outer-graph.md": "03ddbc285ab03ee53a17ad3940d2c789695338854cf7cafdbfd38e75f3a11711",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-full-delta-physical-regular-outer-transfer.md": "1bed014f5515244ea8611ab807079bc4cb35ddd81cc3e0ac4c1f54b59372a834",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-full-delta-positive-M32-base-and-M96-difference.md": "4e37dc2bc049ec2c9cc3942a7c1986aae7c3ce3ab733049cab905f3fde840405",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-relative-global-Riccati-reference-and-frequency-derivatives.md": "0aac6b2be0b878f3632eaec8fea5d73f4dd4ba8222e5a292bedba9682d129677",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_body_CI_worker.py": "931a4866b6fc37d4978e07f6bf996b96a4be6b33c064377a468b24a1f85e1ad6",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cap128_CI_worker.py": "8116d02b3145c1c492cb136b14600c76dea9fddc7322ebc847cf379cc0602490",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_response_repair_source.py": "6e4e8f1a3f69fdc06c15a0471cedb62abce0740b4825ddf5a0d04de4b984d7ad",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_right_Z_endpoint.py": "0e8904d935d83596040fede599ca60cbe7acdf5aba5249c8ddaa4ec3167a976f",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_positive_CI.py": "23deaf88d81979962f53b00524fd7edf8d12970af7748b5432b1add66fbfbf7a",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_positive_high_Volterra.py": "0df3ae7181d5ac8808928e9b0ed4bcf225fa3f80ae5df944b2a96a5e4d3ae117",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_regular_Hs_outer.py": "876bd34cf84eb481686461984f29c98420d3c75af6733363308ef97a8ee66667",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py": "602e696db855f1aca2765bef23fd7d9190c1fdd6d4f05528b758e0a515167323",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_repaired_positive_high_Volterra.py": "8c4c734d3bf23e44aff5c8ad15ac248da52b79d05de3b4512cda42cb3cafa64d",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_repaired_regular_Hs_outer.py": "5d1e8a86aa268d4d98bc929264d706b418b88cb99518ca646d84258d3068ffbe",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_native_lossless_parts.py": "730c0ba646cdb193a5524a6a8a02910575fa75f58be970f6a2ac23c1368b250c"
+  },
+  "consumer_ranges": [],
+  "input_paths": {
+    "old_outer": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-regular-Hs-Riccati-rational.json",
+    "endpoint": "topics/visible-flex-exact-nearby/notes/exact_right_Z_endpoint_ci/run-43611611635-1/consumers/exact-right-Z-endpoint.json.gz",
+    "direction": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz"
+  },
+  "exact_real_delta_radius": "1/100000000",
+  "original_artifacts": [
+    {
+      "run_id": 43601149891,
+      "name": "visible-exact-repaired-positive-high-43601149891-1",
+      "complete_native_sha256": "eefb94952a409473fed7f9c34afc9214a3346d8c3b19ed7e0a7fc6fd06f48a68",
+      "outer_native_sha256": "75e7c0e1447306a97971ee05dcb68b8d357cb4fffa5c1a37335a6fc29a473424"
+    },
+    {
+      "run_id": 43597921732,
+      "name": "visible-exact-complete-response-repair-source-43597921732-1",
+      "complete_native_sha256": "05e0493dbe55490adec8fb6603e0ec431d1bc03f051aec86be8a78741f60f0a4",
+      "original_process_sha256": "16de872ce106e05b6add99d8406598de3cc87b94f4533a9fc3bb46294c66366a"
+    }
+  ],
+  "original_positive_rows": 4650,
+  "original_response_envelope_rows": 7721,
+  "original_positive_interfaces": 3594,
+  "large_background_degree": 32,
+  "small_difference_degree": 96,
+  "small_reaction_band": 192,
+  "complete_head_to_high_shell": 288,
+  "all_unbounded_high_indices": "|j|>=97",
+  "homogeneous_high_orders": [
+    0,
+    1
+  ],
+  "order1_right_port_independent": true,
+  "all_mean_head_and_affine_source_columns_retained": true,
+  "original_completed_mathematics_recomputed": 0,
+  "unknown_high_not_truncated": true,
+  "complete_positive_finite_head_inverse_claimed": false,
+  "complete_infinite_BVP_inverse_claimed": false,
+  "true_parameter_Schur_claimed": false
+}

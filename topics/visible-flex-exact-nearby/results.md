@@ -293,3 +293,7 @@
 ## 完整1977格截面方向与同一Z腰/截面源的接续合同
 
 [精确合同](notes/2026-11-14-R133-complete-cut-direction-and-same-Z-contract.md)及独立145输入流水线已推。旧v3的16格与6端点费用原字节复用，四互斥range只算余1961单列，保完整257/255输出；精确9/10入口不回退为binary64。汇总完整14个Green源通道，再用同一Z实际端点、完整mean和193个有符号振幅支付真实g0/gR/gH。移动误差经旧全算子与Z−w0差转移，不把旧qstar边界更名；未知高输出不删。plan与range成功native均按实际child0/来源/全输入/分片SHA复用，摘要≤60KB。待真实执行，不授全逆或νSchur。
+
+## full realδ外图与4650格正高块：最小实际验证流水线
+
+20个固定输入直接消费完整右端193证书、原17MB/4650格正区native、完整7721格repair-source、旧非线性外图与两份已证转移合同。原数组/target/端点/矩阵/非线性solve不重跑；只重付新δ物理角与全部非线性外端口预算、4650格小δ系数/新Riccati下流/双阶Volterra扫。新20input manifest保完整mean/head/jump、shell288、order1独立右口；所有未知高频保。子结果按真实成功child/source/全input/native可复用，即便后续发布失败；摘要≤60KB，失败本体全部保。工作流已推，实际数值门未预授。
