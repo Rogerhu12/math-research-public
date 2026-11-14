@@ -1,0 +1,193 @@
+{
+  "all_passed": true,
+  "complete": true,
+  "domain": "R,Z>=0,V>0",
+  "results": [
+    {
+      "case": "2-2",
+      "minors": [
+        {
+          "den_degree": 26,
+          "den_terms": 186,
+          "negative_coefficients": 0,
+          "negative_examples": [],
+          "num_degree": 26,
+          "num_terms": 186,
+          "numerator_sha256": "2676505318f217e559cb1336da00d80186998c6fbedea60a040b318f261ed0cd",
+          "passed": true,
+          "positive_v_only": true,
+          "size": 1
+        },
+        {
+          "den_degree": 33,
+          "den_terms": 287,
+          "negative_coefficients": 0,
+          "negative_examples": [],
+          "num_degree": 32,
+          "num_terms": 309,
+          "numerator_sha256": "4ac6530c12fdc0afcc4632efce8d20952e12c91b0c1bfbcdbe1c9b35f3d9a53d",
+          "passed": true,
+          "positive_v_only": true,
+          "size": 2
+        }
+      ],
+      "passed": true,
+      "substitution": {
+        "L": "2",
+        "q": "2",
+        "w": "V",
+        "z": "1+Z"
+      },
+      "target": "s2-direct"
+    },
+    {
+      "case": "2-3",
+      "minors": [
+        {
+          "den_degree": 34,
+          "den_terms": 277,
+          "negative_coefficients": 0,
+          "negative_examples": [],
+          "num_degree": 34,
+          "num_terms": 277,
+          "numerator_sha256": "e32c71a0669c16726b121fd2c81ec162205a57e580d3c45ae022170139ca3f26",
+          "passed": true,
+          "positive_v_only": true,
+          "size": 1
+        },
+        {
+          "den_degree": 41,
+          "den_terms": 398,
+          "negative_coefficients": 0,
+          "negative_examples": [],
+          "num_degree": 40,
+          "num_terms": 427,
+          "numerator_sha256": "ff10bbfb838ed5d2960622f54822ee27a9e8687f1b27d4f1fe06c790342ddfa9",
+          "passed": true,
+          "positive_v_only": true,
+          "size": 2
+        }
+      ],
+      "passed": true,
+      "substitution": {
+        "L": "3",
+        "q": "2",
+        "w": "V",
+        "z": "1+Z"
+      },
+      "target": "s2-direct"
+    },
+    {
+      "case": "3-2",
+      "minors": [
+        {
+          "den_degree": 34,
+          "den_terms": 302,
+          "negative_coefficients": 0,
+          "negative_examples": [],
+          "num_degree": 34,
+          "num_terms": 302,
+          "numerator_sha256": "5ce14b8b8c801eed1ebea088d7661300c7ee5ec4b3765fa204965517b419fa77",
+          "passed": true,
+          "positive_v_only": true,
+          "size": 1
+        },
+        {
+          "den_degree": 41,
+          "den_terms": 423,
+          "negative_coefficients": 0,
+          "negative_examples": [],
+          "num_degree": 40,
+          "num_terms": 452,
+          "numerator_sha256": "7de4231c035221c3365c104af81f26b1edf0c9ba62d99c02e73ea3089c5e21a2",
+          "passed": true,
+          "positive_v_only": true,
+          "size": 2
+        }
+      ],
+      "passed": true,
+      "substitution": {
+        "L": "2",
+        "q": "3",
+        "w": "V",
+        "z": "1+Z"
+      },
+      "target": "s2-direct"
+    },
+    {
+      "case": "2-long",
+      "minors": [
+        {
+          "den_degree": 35,
+          "den_terms": 5028,
+          "negative_coefficients": 0,
+          "negative_examples": [],
+          "num_degree": 34,
+          "num_terms": 4761,
+          "numerator_sha256": "e15b0cfd9d8c018d3647ea7460e7b4cb4188f83699b068f793459b87718fd220",
+          "passed": true,
+          "positive_v_only": true,
+          "size": 1
+        },
+        {
+          "den_degree": 43,
+          "den_terms": 8546,
+          "negative_coefficients": 0,
+          "negative_examples": [],
+          "num_degree": 41,
+          "num_terms": 8624,
+          "numerator_sha256": "59993b9a8be23897037d85972685e16900e6ae6725ade7324bc08f2333301874",
+          "passed": true,
+          "positive_v_only": true,
+          "size": 2
+        }
+      ],
+      "passed": true,
+      "substitution": {
+        "L": "R + 4",
+        "q": "2",
+        "w": "V",
+        "z": "1+Z"
+      },
+      "target": "s2-direct"
+    },
+    {
+      "case": "long-2",
+      "minors": [
+        {
+          "den_degree": 68,
+          "den_terms": 9385,
+          "negative_coefficients": 0,
+          "negative_examples": [],
+          "num_degree": 68,
+          "num_terms": 9385,
+          "numerator_sha256": "52168f81e166c383c2776dca2456fbdb21c848c0d8d8beb405ed9bb61d02bf69",
+          "passed": true,
+          "positive_v_only": true,
+          "size": 1
+        },
+        {
+          "den_degree": 82,
+          "den_terms": 15692,
+          "negative_coefficients": 0,
+          "negative_examples": [],
+          "num_degree": 81,
+          "num_terms": 16562,
+          "numerator_sha256": "77aa01bd6c18b2c1398d8c36f868e623e89509245f2a577534b9d58b0d4ad35e",
+          "passed": true,
+          "positive_v_only": true,
+          "size": 2
+        }
+      ],
+      "passed": true,
+      "substitution": {
+        "L": "2",
+        "q": "R + 4",
+        "w": "V",
+        "z": "1+Z"
+      },
+      "target": "s2-direct"
+    }
+  ],
+  "target": "s2-direct"
+}

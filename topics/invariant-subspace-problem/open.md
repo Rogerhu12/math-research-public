@@ -14,8 +14,6 @@ w(0)=0,\quad w(y)=\alpha_{v_2(y)},\quad
 $$
 A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=B(H)，没有非平凡约化子空间。**普通非零真闭不变子空间是否存在仍未知。** 找到这样的空间只排除此候选；证明它不存在才给ISP否定答案。
 
-旧接口见[归档](notes/2026-11-13-open-after-R262-rebase-before-condense-1cf8.md)及results.md。
-
 ## 共同适用边界
 
 已证闭域/共同正则器只按原范围使用：全H稠密不传未知限制/有限旗，G不扩一般慢Acal，UHF不运输未知Haar格。正常态/边界奇异态、固定次数/全部向量不同；C未必保M，全等向不代局部等向，不能删域或压缩中央耦合。所有结果仍为中间结论。
@@ -102,7 +100,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 **其他原边界接口。** 新[原连续尾birth1全高度顶桥](results/R271-appendix-original-birth-one-all-height-polynomial-first-return-anchor.md)对完整真幂逆先全逆后压K，给τ_t/(t+1)^17≤H_t^-1≤τ_t及全部旧列非交换乘积≤(h+2)^61 S_m H_(ℓ−1)；最高d无新列，D1*真实Θ锚费≤(d+2)^(61/2)√S_m，q/m一致。原正边网络/标量Newton没有外推为矩阵Newton；a≥2、Γ跨birth及无速率锚乘增长仍开。双宽商/负配对、深jet Schur、天然四块真重排等范围全保快照；两带不可免费取交，无权增长/指定回馈/pure继续。
 
 
-[两组＋一位全出生全高度](results/R239-appendix-two-weight-groups-one-exceptional-all-births-all-heights-strict-bound.md)的严格c1已闭。[R273](results/R273-two-exceptional-weights-complete-schur-recovery.md)恢复两组＋两异常位：出生一3D及2≤t≤min(q,L)的4D完整MP/单参数Schur，保两硬端；相邻矩阵序和高端其他出生仍开。[共同低阶矩/真实桥](results/R273-appendix-shared-low-moment-normal-form-and-physical-cubic-bridge.md)及[8D多项式核](results/R273-appendix-eight-dimensional-aggregate-polynomial-gram.md)保同源/完整逆与硬端；正分母不代相邻分子正性。
+[两组＋一位全出生全高度](results/R239-appendix-two-weight-groups-one-exceptional-all-births-all-heights-strict-bound.md)的严格c1已闭。[R273](results/R273-two-exceptional-weights-complete-schur-recovery.md)恢复两组＋两异常位：出生一3D及2≤t≤min(q,L)的4D完整MP/单参数Schur，保两硬端；[R292](results/R292-short-group-two-exceptional-weight-birth-two-strict-first-edge.md)已闭min(q,L)=2的相对birth2四维及整个物理K2严格首边；q,L≥3与其他出生/内部高度仍开。[共同低阶矩/真实桥](results/R273-appendix-shared-low-moment-normal-form-and-physical-cubic-bridge.md)及[8D多项式核](results/R273-appendix-eight-dimensional-aggregate-polynomial-gram.md)保同源/完整逆与硬端；正分母不代相邻分子正性。
 
 [R281 极强位全高度传输](results/R281-heavy-bit-height-transfer-and-sharp-universal-first-edge-lower-bound.md)把旧第n+1边回传至新第n边，保完整同源PSD块与有限强权阈值。全出生首边与全高度的最优普适常数相同；等权中央边迫该常数≥1，真实八位birth2首比22801/43836>1/2。一般上界1仍开；不能用强等权池压δ而省掉内部出生，真实密度只趋1/2上方。
 
@@ -110,7 +108,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R285 形式约束不足](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)及[无界族](results/R285-appendix-unbounded-formal-sos-costs-with-strict-zero-mode-positivity.md)：两零模块与所列旧边/仿射/粗占据界不足以给S1/S2任意统一有限常数；该族非Boolean，原c1仍开。
 
-[R288 逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保占据/碰撞/creation全部交叉；[S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)及[S1](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)现已付M≥3全部正权birth1，分别有真实2/3收缩和次数9完整整数严格正证书。两组＋一位的整个物理birth2也已付[严格S1](results/R288-appendix-birth-two-s1-short-sides-hard-top-and-full-physical-layer.md)，含短组/硬顶；S2主内部范围继续。该出生一的一位SOS已闭；[一般三塔式](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)保完整F3逆顺序及C²深塔，去掉上出生二阶逆，一般正性仍开。
+[R288 逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保占据/碰撞/creation全部交叉；[S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)及[S1](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)现已付M≥3全部正权birth1，分别有真实2/3收缩和次数9完整整数严格正证书。两组＋一位的整个物理birth2也已付[严格S1](results/R288-appendix-birth-two-s1-short-sides-hard-top-and-full-physical-layer.md)，含短组/硬顶；短侧S2亦闭，主内部范围继续。该出生一的一位SOS已闭；[一般三塔式](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)保完整F3逆顺序及C²深塔，去掉上出生二阶逆，一般正性仍开。
 
 [R286 固定源全高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源逆平方根能量和原慢尾全height/几何和。实际t_q祖先出生随q上移，固定birth塔最终无分量；受限逆后不自动保有限支持/固定birth，跨出生graph、完整e_q和N=M仍开。
 

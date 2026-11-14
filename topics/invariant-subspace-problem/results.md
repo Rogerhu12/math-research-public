@@ -663,3 +663,7 @@
 ### R288 附录：两普通组加一异常位的整个物理出生二严格 S1
 
 [主参数证明](results/R288-appendix-two-group-singleton-birth-two-s1-positive-certificate.md)与[短侧/硬顶/整层拼合](results/R288-appendix-birth-two-s1-short-sides-hard-top-and-full-physical-layer.md)从实际三塔式保C²深源，在q,L≥3生成两个完整正系数主子式；五个合法短侧参数区另付十个严格主子式。任意两个原组大小≥2、任意三个正权的整个物理K2均严格满足S1：实际组内串同时约化D/D*/C及完整逆，相对出生1用既证任意权S1、出生0直接付真空。N5硬顶取C2=0，全部源度量保留；S2与更高出生仍按各自范围继续。
+
+### R292：两异常位短普通组的四维与整个物理出生二严格首边
+
+[完整证明](results/R292-short-group-two-exceptional-weight-birth-two-strict-first-edge.md)保Cform=H0H1⁻¹H0和非交换混合列的真实S2，五个合法短侧参数区的十个精确主子式全部严格正。与R288的S1及旧下birth1第二边合成真实严格SOS，再沿R275合同/Schur返回，付任意两异常权、min(q,L)=2的四维首边严格c1，含新高度二硬端。组内实际约化串保全部重数，进一步付整个物理K2；q,L≥3主区间、其他出生/内部高度及原graph仍开。
