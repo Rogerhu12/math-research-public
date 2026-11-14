@@ -411,3 +411,5 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 - [R589：原p²目标的平方零极部与完整多项式Frobenius整性](results/R589-original-finite-euler-pole-algebra-and-polynomial-frobenius.md)：全部原九来源整多项式统一只需乘一p即落同一有限目标，首极部在显示平方零理想，完整F^p整。七实际首极部rank7并给一次格准确整性原像；最早c4/c1属整项而不可见，原同一饱和前缀在k=(p²−1)/6实改善一p，未给全局cutoff。
 
 - [R588：原wild Kummer圆盘上的七积分独立与全非线性半径障碍](results/R588-actual-wild-kummer-disc-and-nonlinear-primitive-radius.md)：实际degree-p域包含完整sigma与基础theta来源，边界no-pole、全部积分常数及特征六投影给七塔代数独立；任何真正含塔的原多项式乘任意整数Gaussian仍准确坏半径且闭边界非Tate。允许任意次数及依p系数，不把域投影或解析限制代原饱和格/中央。
+
+- [R590：原六支carry、唯一B来源与完整七纤维矩](results/R590-original-six-carry-branches-and-sole-b-fibre.md)：完整even42/1638和全部半特征支付六支原q，完整π4/算术行保持；μ6只留B并将同一全部mixed测试化为五变量来源的七个真实同coset矩。原Dn零质量/单位首项不移给投影源，旧P3只在完整分区抵消，八条带及全部深补项继续保留。
