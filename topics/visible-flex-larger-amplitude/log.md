@@ -129,3 +129,12 @@ R234完整证明直接登记results：保存binary Fourier二jet与原固定宽L
 
 ### 2026-11-14T14:35:15+08:00 — compactneck
 保原R225入口，去可省coast、K1=3.2/K2=7.5两C²turn接原loop/tail背景，实际采样尺寸3.915218/κ7.99426。此为标量背景设计，完整非轴D≤5G、域/球排除/全t reach未付；真实圆化和固定profile频率精化继续并行。
+
+### 2026-11-14T14:44:27+08:00 — rounding
+R235完整逐角Schur区间/barrier证明直接登记；真实84节点profile准确249接缝等式，完整32核心与同g冷M64/96/128误差2.34557e−5→1.35400e−6→1.43005e−7。真实开放前缀κ5.32068、Dproxy3.335704、核心球样本未遮挡。FFT保全部模和complex-step虚部，仅改求值算法；仍未闭合。
+
+### 2026-11-14T14:55:03+08:00 — move active work to math-research-public
+旧仓实际pull到d9b031786后只读正式迁移差异，立即停止旧仓更新；新公仓blob:none/depth1/sparse clone，完整读根README授权及14条，题README仅迁移提示改变、完成条件未变。旧未推R235用binary patch转入，33新文件逐SHA转入，既有本地margin325/RK24/geometry计算保稳定副本不停；此后普通push只到新公仓。新起点480a4313c5ebc8b5c8800c1432d9d5aef8ec5946记H。
+
+### 2026-11-14 07:36 UTC — actual public push approval rejection
+新公开仓首次push被自动审批拒绝：对话只直接授权原私仓，迁移README未被视为直接批准公开研究材料。尝试未执行/未成功；不换工具或旧仓绕过。已说明拒绝来源；本地研究、逐条本地commit与只读pull继续，公开push/Actions暂停待直接授权。旧H完整保存，新H同步真实三线现场。

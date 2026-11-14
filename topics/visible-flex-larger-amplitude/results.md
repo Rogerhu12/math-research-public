@@ -2,6 +2,8 @@
 
 ## 新增结论
 
+- [R235](results/R235-actual-curvature-control-and-fixed-metric-rounding.md)（逐角代数命题已证明，开放前缀有真实同g三档结果）：实际II对a″仿射，Schur补准确给曲率允许区间，barrier导数给点域控制；冻结原32核及84个scalar节点后M64/96/128误差2.34557e−5→1.35400e−6→1.43005e−7。角采样非连续认证，未闭合。
+
 - [R234](results/R234-fixed-finite-collar-global-metric-bound.md)（已证明，原固定有限collar全域metric界）：保存的完整binary Fourier二jet准确转Fraction；五次Bernstein及全角三角界给相对metric算子范数≤1.0013852088236555e−18，原宽度不变。只证明定义好的有限collar，不代准确无限尾存在或整面达标。
 
 - [R233](results/R233-A577-finite-tail-nonplanarity.md)（已证明，实际577节点的有限尾非平面性）：全部1154个原始/半转投影四点det以Fraction精确非零，576个径向开片各由解析恒等性排除开放平面片；原始与投影场分别覆盖，未支付投影误差/连续metric/无限尾/闭面reach。
