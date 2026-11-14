@@ -257,4 +257,5 @@ R614完整无限尾已付：h≤p−1的g全整，H≤p−2有v(j−L_H)≥H+1�
 R618已付精确第二半径：U0=U截<L、Δ=F−c′w^s−logU0起L，唯一临界a₂=Δ_ps有p²a₂=b^Lpc unit；其余全无限对数在闭R₂严格可指数化并略延拓。原U和G4/G1/S/T余项精确R₂=p^{−τ₂}、τ₂=(2p−1)/(p(p²−1))，闭R₂非Tate；全g_n≥−floor(6nτ₂)。原完整Newton的全尾为ceil((H+1)(1−(p+1)τ₂)+6τ₂)+v(H!)，有限窗更强界同时保留；同原j0 iff中央Euler解延至每个R<R₂。未去第一Gaussian的原S半径不变，Π0和全部实际预算仍在。
 R619在原整坐标付X_s=c_p及全部X_(s+ap)=0(a≥1、指标<L)，H在整个n<2L仅H_L一极；F°唯一二阶极ps有p²F_ps=b^Lpc。完整指数及原theta多项式给二阶块由sigma次数m控制，S/T准确p²g_(m,p+h)=γ_mb^Lg_(m,h)，1≤h≤p−2（末指标2L−1）。全Newton在modp^(p+1)仅保前p项及p^p b^L C_X/γ^p，必须保T_p完整值；若原j0，Σh≤p T_h∈p^(p+1)，未把块回读赋成逐项零。
 R622第二规范连接L₂=∂X+α1+pα2X^(p−1)在p^-1<r≤r+<1上以完整Neumann逆唯一解，r+>R₂^d；其原点值仍为同一j，j0 iff H₂延拓到该外盘。全第二Newton必须保W_k(α2/α1^p)，所有W_k∈1+p^(p−1)O；首差p^p b^L C_X/γ^p准确复现R619，删权新值未赋为零。裸F_ps与a₂只可连同来源同步改规范。
-**R623/624继续：** 原全D/k真实成本及两完整中央与既有低残差/Wilson关系联立；半径因子不添全局列，未由非中央unit端点排原j同零。
+R623在R₂≤R≤R+<R_E上付两Gaussian完整野域degree p²，原sigma只在对角degree p子域，旧只添E1域已不含σ。七原积分在整个p²域仍独立，含塔P乘任意两Gaussian仍准确旧S/闭非Tate。R622准确原式又给两个中央Π0U_m无论j是否0都属于对角域，域成员身份不检测原j，不能计两个新局部积分坐标。去Gaussian普通部分全素位O(k)成本已付，但不能代原九格主预算。
+**R624/625继续：** 两完整中央/低残差/Wilson真实联立及原Frobenius第二Gaussian相消；全部D/k来源门仍保，非中央unit不代原j非零。

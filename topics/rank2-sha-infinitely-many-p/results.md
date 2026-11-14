@@ -86,3 +86,6 @@
 
 
 - [R621：原六度有限极点补偿与同中央边界](results/R621-original-six-degree-finite-pole-compensation.md)：同一B_C⊗σ完整六度核与真实低矩给P1=−36bKΩ5I1+B1、P2=−12αΩ5I1+B2；全部三类真补偿、原四unit失败支、同q/CM相位保持。两个native环带消I1并接完整Bpole单位关系，未给余补赋零或替换原四unit测试。
+
+
+- [R623：第二盘外的真实两Gaussian野域与原对角来源](results/R623-original-two-gaussian-wild-field-and-diagonal-source.md)：完整两根扩张准确p²而原sigma仅占对角p域，旧只添第一根域已不含sigma；七原积分在整个外盘野域仍独立。两中央投影原函数无论j是否零已属对角域，不能算新局部积分坐标；普通余项线性成本与含塔原S边界分清，未替换原九格预算。

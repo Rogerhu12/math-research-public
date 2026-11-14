@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：aaba97c3242454c983daff2b67565f82ea69c91e；2026-11-14 23:55:34 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 23:55:34 UTC仍无环境。最迟00:20再试。
+- 最近已读规则提交：4f1f6a4795c6980e87e153d491d3f8f53b08d5d8；2026-11-14 23:59:37 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 23:59:36 UTC仍无环境。最迟00:20再试。
 - 仅Rogerhu12/math-research-public/main；逐结论提交已授权，禁强推/改历史。每小时实际pull，逐次核两README，仅读差异即执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只临时终端，不入文件/回复。12:35–21:05 API历史已接回；21:39断连后非强制API追加，恢复即实际pull。
@@ -16,8 +16,8 @@
 
 ## 已发布、归档与分工
 
-R1–363、R365–560、R562–619及R621/622已登记；R364仍开，R561/620/623/624/625/626进行中。
-完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r621.md)、[open](notes/2026-11-14-open-before-r621.md)；
+R1–363、R365–560、R562–619及R621–623已登记；R364仍开，R561/620/624/625/626进行中。
+完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r623.md)、[open](notes/2026-11-14-open-before-r623.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
@@ -25,7 +25,7 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 - theta续R626原Vdeep补域与H核同边界；R621已付P1/P2有限六度补偿，原q/四unit及全部失败支保持。
 - literature续R624原两j0与低残差/Wilson联立；R622已付两层连接，第二Gaussian不添独立中央零。
 - deep续R620截止内同R forcing/全局边界；R612已付原全W_D带权物理核和窗口紧邻固定出口，不能代旧d2。
-- root续R623两Gaussian实际野域/原成本，接R625；R618精确第二半径已付，未去Gaussian原S半径保持。
+- root续R625原Frobenius/第二Gaussian相消的真实来源；R623外盘野域/原成本边界已付。
 
 ## 原固定对象与不可删的支线
 
@@ -47,24 +47,24 @@ R617原norm8 R=(W−Y)/2保carry，全部偶深环带/实际差测试保q/λκ�
 R621保同B_C⊗σ及原F_B六度核：P1=−36bKΩ5 I1+B1，P2=−12αΩ5 I1+B2；两固定系数全rayunit，αP1−3bK P2消I1。Bk严格三域Hdeep/Vunit、Hunit/Vdeep、H/Vunit有限余项；原四unit及三失败支、全部同q的D/E/G/CM相位保持。两native全环带和完整Bpole单位联立，中央0只令T0，不赋P/Bk零。
 固定CM单位稀疏引理只用于固定λκ有限式；负五Katz仍root−、I1未获非零，不能套p依赖负矩。
 
-## 惰性全格、实际整目标与完整中央
+## 惰性全格、完整中央与真实来源
 
-R575/584全部维数/Dirac缺陷、R579/583两真实成本保全；严格门未过，R581/584条件cutoff无原中央→全D/k桥。R588含塔原P准确S半径/闭S非Tate保原p范围，域投影不改整格/Smith/中央。
-R586–596原共振/c4c1/相邻项、共同K/H/C、两a=M c+R及R40首pole、L/B非齐次条件全保；低残差不可删。R589/592旧首pole/五阶同态/第六缺陷保留。R596九来源强化矩阵是真Cauchy评价，模p核≠真核；R600保全余类/零权/碰撞，两j0不赋乘积中央零。
-R604原S/T阶梯子式给D<s的真前缀空界/Θ(D²)接触，不计连续旗标。R607同一C=⊕O p^-floor(6n/p)w^n的三元关系/无扭基保全进位，低权商k[ε,υ]/(ε⁶,υ^s)送七W到ε^hΓ、S/T到0；forcing为常数，高项不删。p>7D原整Schur保所有行/真前缀/首pole，目标元不添全局列。
-R609全Wilson二次关系a⁶(Q11−3bQ44)+18ba³Q41+162bc4=5a/4，Gaussian−10a端点和原Schur保持。两中央0时右端另含162b^s e1ᵗM^-1R，不删残差认unit或把Q赋零；真高层非空未付。
-R610真实下一Ξ在全Cbar为ε∂ε+6υ∂υ，未修正B保Witt交叉项。七forcing/S/T低权除p行全付；完整j0不赋其高υ行零，来源稳定/次数未付。
-R598完整j0 iff原中央零初值Euler大盘延拓；Π0非同预算列。[普通Euler障碍](notes/2026-11-14-ordinary-euler-finite-order-obstruction.md)保小球密度，两U无有限阶呈示。
-R602全Hurwitz/无限Newton尾保持。R606 Gaussian整改保完整j，c†/K_p/第二Ξ保两位除法与H^-p log；两j同零未排。
-R614完整addition给U在n<L整、L≤n<ps一次、ps≤n<2L二次；pX_L=−2b^L/pU_L=b^L。R615原有限Cartier给X_pk=Z_k^p=−X_k^p/(6k−1)，k<s，不借sigma整性。R616全首坏带p g_(L+r)=b^L(6r+d)g_r(r<s)，S/T第p项pg_p=b^L C_X；完整j0使C_X0、g_p整及L_(p−1)∈p^p。f4/f1末带−c4/−4c1不赋非零。
-R618 U0=U截<L、Δ=F−c′w^s−logU0起L，a₂=Δ_ps有p²a₂=b^Lpc unit。除该项余对数在闭R₂严格可指数化；U及原G4/G1/S/T精确R₂=p^{−τ₂},τ₂=(2p−1)/(p(p²−1))，闭R₂非Tate。全g_n≥−floor(6nτ₂)，原Newton a_h≥ceil(hη+6τ₂)、η=1−(p+1)τ₂，完整尾≥ceil((H+1)η+6τ₂)+v(H!)。原j0的中央Euler解延至每个R<R₂；Π0/预算保持，未去Gaussian的原S半径不变。
-R619原整坐标Cartier给X_s=c_p、X_(s+ap)=0(a≥1、指标<L)。H在n<2L仅H_L pole，F°仅ps二阶极；全theta二阶块由charge m控制，原S/T p²g_(p+h)=γb^Lg_h(1≤h≤p−2)。完整j modp^(p+1)保T_p原值；j0给Σh≤p T_h∈p^(p+1)，无新独立中央零。
-R622第二规范连接L₂=∂X+α1+pα2X^(p−1)，p^-1<r<1上Neumann逆给唯一外盘解，其原点=同原j；j0 iff H₂延至略大于R₂^d。第二Newton保完整W_k(q)∈1+p^(p−1)O，首差p^p b^L C_X/γ^p；删权值仅同余，不赋新零。
+R575/584全部九格/长塔独立及Dirac缺陷，R579普通3klogD与R583惰性(0,3)保全；严格门aI+NbI<3N−6未过。R581/584条件cutoff θ<N−2仍缺原中央→全部D/k真层；R588含塔原P任意整数Gaussian准确S半径/闭S非Tate。
+R591–596共同KC/KH³、两a=M c+R及R40首pole/L/B非齐次式保低K残差，模p核≠真核。R606 Gaussian整改保j，c†/K_p/第二Ξ保两位除法和H^-p log，未排两j同零。
+R604原S/T非连续单位子式给真前缀空界/Θ(D²)接触，不计旗标成本。R607 C=⊕p^-floor(6n/p)w^n(n<ps)三元关系/无扭基保全部进位；低权真商k[ε,υ]/(ε⁶,υ^s)送七W到ε^hΓ、S/T到0。forcing常数和高υ行分清；p>7D原Schur保全行/真前缀/首pole，不添目标列。
+R609原三二次行：a⁶(Q11−3bQ44)+18ba³Q41+162bc4=5a/4；两中央首零后右端另保162b^s e1ᵗM^-1R，不能删残差认unit或混成非空真层。R610全Cbar下一Ξ=ε∂ε+6υ∂υ，未经修正B保Witt项；S/T低权除p行高项unit不推出forcing常数，原来源稳定/同D预算未付。
+R614全addition：U在n<L整、L≤n<ps一次、ps≤n<2L二次；pX_L=−2b^L/pU_L=b^L。R615独立有限Cartier给X_pk=Z_k^p=−X_k^p/(6k−1)，k<s。R616首坏带p g_(L+r)=b^L(6r+d)g_r(r<s)，pg_(m,p)=b^L C_X；j0使g_p整、L_(p−1)∈p^p，f4/f1末带−c4/−4c1不赋非零。
+R618 U0=U截<L，a₂=[w^(ps)](F−c′w^s−logU0)，p²a₂=b^Lpc unit；U=V exp(a₂z^(p(p+1)))，V及逆在略大R₂盘Tate。原U及G4/G1/S/T精确R₂=p^−τ₂，τ₂=(2p−1)/(p(p²−1))、闭R₂非Tate。全g_n≥−floor(6nτ₂)，原Newton尾≥ceil((H+1)η+6τ₂)+v(H!)，η=1−(p+1)τ₂；有限窗更强界保持。
+R619原Cartier给X_s=c_p、X_(s+ap)=0(a≥1、指标<L)，H在n<2L仅H_L极，F°仅ps二阶极。全theta二阶块由charge m控制：p²g_(p+h)=γb^Lg_h(1≤h≤p−2)。j modp^(p+1)保T_p完整值；j0给Σh≤p T_h∈p^(p+1)。
+R598/618原j0 iff中央Euler解延至每个R<R₂。R622第二规范L₂=∂X+α1+pα2X^(p−1)在p^-1<r<1有唯一外盘解，原点仍同j；完整W_k(q)∈1+p^(p−1)O不可删。首差p^p b^LC_X/γ^p，未添独立中央零。
+R623 R₂≤R≤R+<R_E的两根域F_R(E1,E2)准确degree p²；原σ=zV E1E2只在对角degree p，旧F_R(E1)已不含σ。七原积分经真(6,6)投影/no-pole在全p²域仍独立，含塔P乘任意两Gaussian仍准确S。两中央Π0U_m无论j是否0都在对角域；普通余项O(k)成本不能代九格主预算。
 
-## 原全forcing与同一R
+## 原全forcing与同一修正
 
-原Γ/M=c*U0m13J保19角、P134/charge40、13自由行/26carry、conductor10980及两连接α/β；R537–555全部原帽/真Schur/分歧像/一般二重/t除法/S³H支线不闭。
-R577/578右逆/全核含Qn/Qquad；R593原p³ iff同R先D+S=G+再H_P(Rbd+S)∈imD短，完整两十三行、L0/L1两位与Qquad最高行全保。
-R597det−2整结点补r1ν2，C/B一阶极保全p³；同预算深前缀m=min(s,btop_(D−1)+1)保SA/S²A/carry和同R反补，第三块a(z0+z1w)不代余核。[实际Euler pivot](notes/2026-11-14-r597-actual-euler-pivot-and-third-tail-coupling.md)用同R gauge及EP清第三尾，第二块必变Ψ1−2z1°B/c1，余来源ker(π2E²)仍待实际像。
-R603最低角c3两支真实t对角1,1,t,t⁴，在显示N帽内原列满射且左条件恰5；Qn下一角/原Qquad仍在，远支单位处允许阶。R608整簇只余𝔯P/t、全T不改迹极，接触unit迫两支不能同整；原Taylor平方项严格相消。R612全C核=原帽内I_(p−78)(t,Y−1)，全列单位阶梯给真前缀空界，模p单射充要p>6(b_D+13)；t(E+40)保D+1帽边界，不能下降旧三块。原结点任何同R/T的p²[w^(2s+15)]unit，恰在ell2最后已读2s+14之后；故无2s+16真前缀，后3s+14行不计新非空层。截止内d2/全局边界仍开。
+原Γ/M=c*U0m13J、19角、P134/charge40、13自由行/26carry、conductor10980、两连接α/β及所有原帽按前检保。一般二重/t除法/S³H及R364/O4/O6不关闭。
+R577/578全部右逆/核含Qn/Qquad；R593原p³必须同R先过完整D+再落实际第二像，L0/L1两位/Qquad最高行不删。
+R597 r1ν2整临界基准det−2，深前缀m=min(s,btop_(D−1)+1)保SA/S²A/同R反补；第三块a(z0+z1w)不代余核。实际Euler pivot在ell2/c3/β0unit用同R gauge和EP清第三尾，第二块必变Ψ1−2z1°B/c1，余来源ker(π2E²)仍待像判定（详最新前检中的note）。
+R603最低角c3的两支t对角1,1,t,t⁴、原显示N帽内满射及恰五左条件保全，Qn下一角/Qquad不删。R608两支二阶极相消只余同R固定𝔯P/t，全T不改；接触unit迫两支不能同整，但完整Taylor平方项相消。
+R612全C核=原帽内I_(p−78)(t,Y−1)，模p单射充要p>6(b_D+13)，原单位阶梯给真前缀空界；t(E+40)保D+1帽边界且不降旧三块。同结点任何同R/T的p²[w^(2s+15)]unit，紧邻ell2最后已读2s+14；无2s+16真前缀，后3s+14行不计新非空层，截止内d2仍开。
+
 [2026文献](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)仍保逐p单位/高度/受限秩与随权条件，未增固定来源无穷非消失输入。
