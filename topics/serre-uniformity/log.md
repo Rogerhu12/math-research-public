@@ -972,3 +972,10 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 诊断源码SHA1a0edc14b6f8af46468d27bdb3001a4a97930771667259ad1b8443bae56b14b6；全137148门槛逐项分类，全部bin/embedding半径与代表相位保留，零DFT/零格点枚举。
 - 原chirp连续复矩形球乘的包络膨胀是待核嫌疑，未预断为原因；现不增加精度或重跑完整旧计算。
 - 两README无差异，原HANDOFF存through-R721-diagnostics归档；实际M2仍未知，修复后仅复用有效输入。
+
+
+## 2026-11-14 21:53 Asia/Taipei · serre-public-resume-20261114
+- 公开诊断run43601766596在来源归档时即报自身workflow文件缺失，尚未下载或诊断任何原数学输入。
+- 修共享serre-R717-trace-diagnostics.yml的sparse-checkout，补自身路径；请求revision2重新触发，数学诊断源码和七个原输入SHA不变。
+- 早期失败日志与artifact保留；不把continue-on-error步骤的success显示当作数学完成，仍以最终receipt/verify判断。
+- 原137147值仍未知，继续保存产物诊断及R724真实高度输入。

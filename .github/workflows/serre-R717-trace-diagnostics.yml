@@ -26,6 +26,7 @@ jobs:
           ref: ${{ github.sha }}
           fetch-depth: 1
           sparse-checkout: |
+            .github/workflows/serre-R717-trace-diagnostics.yml
             README.md
             topics/serre-uniformity/README.md
             topics/serre-uniformity/scripts
