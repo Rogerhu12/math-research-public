@@ -1,0 +1,175 @@
+{
+  "format": "r150-first-residual-image-certificate-run-v1",
+  "status": "completed",
+  "prime": 31,
+  "fixedOriginalSourceBudget": 85,
+  "graphSHA256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce",
+  "rhsNFSHA256": "5016b8e42f2ef1b36c9107b95616a190a47697b640599cb9eb98b2476be8f317",
+  "rhsReceiptSHA256": "88c48e4d8efaf33631cca764910162df6332cf5f702e857f905cfc2e57c412c6",
+  "cppSHA256": "bf1cb72363e9d70d4b240342db338128715faa4fb5354e2fbef28ff1cb1ef96f",
+  "runnerSHA256": "5966df5329a55d81c90e4c3b39590219caae5fdaf52eb2274c4432c62c1c074e",
+  "secondsLimit": 60,
+  "memoryMiBLimit": 512,
+  "outputs": {
+    "image-quotients.bin": {
+      "file": "/tmp/isp-first-padic-789f/image-certificate/solve-image-quotients.bin",
+      "bytes": 795865,
+      "sha256": "1affe414767f1820fcf0deebe728d409fddaea45636393530f710b7e0bbef284",
+      "gzipFile": "/tmp/isp-first-padic-789f/image-certificate/image-quotients.bin.gz",
+      "gzipBytes": 525203,
+      "gzipSHA256": "0e87cee3002e51ae78e0c098dba2b0ff7ae0d7140c1202c995e0fab1bc9f9732"
+    },
+    "image-remainders.bin": {
+      "file": "/tmp/isp-first-padic-789f/image-certificate/solve-image-remainders.bin",
+      "bytes": 2450,
+      "sha256": "f3efdaf748571cd830decf3e67b87d9821f1508cc794a6eecd93b5a6a1260e45",
+      "gzipFile": "/tmp/isp-first-padic-789f/image-certificate/image-remainders.bin.gz",
+      "gzipBytes": 1271,
+      "gzipSHA256": "eb7c3fb250a1b13a1e7a3d50d17a399aba056d0d8bc46258016e2a57b33ed2f9"
+    },
+    "metadata": {
+      "file": "/tmp/isp-first-padic-789f/image-certificate/solve-image-certificate.json",
+      "bytes": 1373,
+      "sha256": "1da2aea085f9550a06250288d4e3bcb2bdd3246032c7b87eee2629b63715f823"
+    }
+  },
+  "originalCorrectionTransported": false,
+  "binarySHA256": "c0f4b4e7ab74412caa348ad41a328ac36f4104582c7e62704ba7a9354f9e38fa",
+  "lastProgress": {
+    "status": "first-residual-complete-image-certificate",
+    "fullImageQuotientIdentity": true,
+    "everyRemainderIsIrreducible": true,
+    "completeRHSInImage": false,
+    "fixedOriginalIntegerColumnSpaceLiftObstructed": true,
+    "remainderNonzeroCoefficients": [
+      66,
+      64,
+      65,
+      67,
+      66,
+      64,
+      64,
+      65,
+      64
+    ],
+    "firstNonzeroCoordinates": [
+      [
+        884,
+        0,
+        17
+      ],
+      [
+        884,
+        0,
+        27
+      ],
+      [
+        884,
+        0,
+        22
+      ],
+      [
+        884,
+        0,
+        26
+      ],
+      [
+        884,
+        0,
+        8
+      ],
+      [
+        884,
+        0,
+        6
+      ],
+      [
+        884,
+        0,
+        13
+      ],
+      [
+        884,
+        0,
+        16
+      ],
+      [
+        884,
+        0,
+        2
+      ]
+    ],
+    "peakRSSKiB": 6144,
+    "elapsedSeconds": 1.20032
+  },
+  "exitCode": 0,
+  "elapsedSeconds": 1.2115957139976672,
+  "nativeStatistics": {
+    "status": "first-residual-complete-image-certificate",
+    "fullImageQuotientIdentity": true,
+    "everyRemainderIsIrreducible": true,
+    "completeRHSInImage": false,
+    "fixedOriginalIntegerColumnSpaceLiftObstructed": true,
+    "remainderNonzeroCoefficients": [
+      66,
+      64,
+      65,
+      67,
+      66,
+      64,
+      64,
+      65,
+      64
+    ],
+    "firstNonzeroCoordinates": [
+      [
+        884,
+        0,
+        17
+      ],
+      [
+        884,
+        0,
+        27
+      ],
+      [
+        884,
+        0,
+        22
+      ],
+      [
+        884,
+        0,
+        26
+      ],
+      [
+        884,
+        0,
+        8
+      ],
+      [
+        884,
+        0,
+        6
+      ],
+      [
+        884,
+        0,
+        13
+      ],
+      [
+        884,
+        0,
+        16
+      ],
+      [
+        884,
+        0,
+        2
+      ]
+    ],
+    "peakRSSKiB": 6144,
+    "elapsedSeconds": 1.20032
+  },
+  "fixedOriginalIntegerColumnSpaceLiftObstructed": true
+}

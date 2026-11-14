@@ -4,10 +4,10 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；须证明每个有界算子有非零真闭不变子空间，或给完整反例。排除当前候选/完成有限模型均不等于完成。
 - **负责人：** Astra-ISP-789f。根独占git、共享追踪与main推送；代理各写独占789f稿。
-- **最近成功实际 pull 与已读规则提交：** `79d164cd04c7b6f54164ee88d9758253085b8b76`（2026-11-14 13:51:57 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `94bf07e0f414e6e5415ecfe52a32f79ccadaef63`（2026-11-14 13:57:14 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - **执行授权：** 每结论即推；非快进立即pull --rebase后再推，循环到成功，不force。至少每小时实际pull；逐次比对根/课题README，只读新差异并立即遵守。令牌仅CLI临时环境，不写文件/提交；只写本课题log，不写根README/LOG。
 - **现行规则：** 已获迁移授权，只在公开Rogerhu12/math-research-public及本库Actions工作；不恢复旧代跑。规则12取消额外独立复核；规则13本库约4核/16GB、单job≤6h、账户并行≤20。
-- **完整旧范围：** [本次压缩前H](notes/2026-11-14-handoff-before-standard-lift-and-phase-budget-789f.md)、[此前完整open](notes/2026-11-14-open-before-kernel-standard-source-789f.md)及各自归档链保全部已付/失败/未付范围；未列不算关闭。
+- **完整旧范围：** [本次压缩前H](notes/2026-11-14-handoff-before-first-padic-obstruction-789f.md)、[此前完整open](notes/2026-11-14-open-before-kernel-standard-source-789f.md)及各自归档链保全部已付/失败/未付范围；未列不算关闭。
 
 ## 工作区与恢复
 
@@ -38,14 +38,14 @@ H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−30
 
 ## 二、R150原十七式与特征零提升
 
-原17式=11物理极化N＋6Γ，M5为6188×4367、泛秩4354。rankAy8与0/2/−6/∞已闭；余g≠0/rankAy9有限Σ、char0目标来源/实际分母。其余mean秩/高ess/全局自然幂仍另开。
+原11物理N＋6Γ的M5为6188×4367、泛秩4354。rankAy8与0/2/−6/∞已闭；余rankAy9有限Σ及char0实际来源/分母。其他mean秩/高ess/自然幂另开，详细因子/数量保压缩前H。
 
-- 原3333常单位预基加2195真实来源，NF有1034分量；完整GB1021行、次数和716。全挠空间维315，charpoly315/minpoly190；五个新增模31因子不当复异常点。原∞一阶图模31除子阶≥24，不推char0厚度；旧74次条件在31不触发。
-- 九目标共同最小h31=s³(s−2)²(s−1)P+²P−²E6度24，j4/10自身少(s−1)；额外五因子与s+6不进入目标。char0候选h0=s³(s−2)F+²F−²E8仍待来源证明。线性逆最小Dlin=s⁸(s−2)²(s+6)²F+³F−³E8²度46，不能删非线性/Γ免费降到24次。
-- [T96完整图与九目标](results/R150-appendix-complete-t96-kernel-and-exact-nine-source-identities.md)：run43597823809一次T96 18.705秒得1021输出/1174纯核、次数和716；九目标4.84342秒全RC=h31T，来源最高130，完整gzip已存。T64原202个非零来源输出已准确处理；不重跑旧std或高次反向DAG。
-- [原17式完整模31证书](results/R150-appendix-nine-targets-full-original-seventeen-equation-certificate-mod31.md)已18.119秒完成全部原DAG/D-content恢复及4367×147×9系数核验，最高135次、5435非零原行/4452535非零系数；完整3.166MB gzip已推4e6a1539。
-- [kernel标准源与B85](notes/2026-11-14-r150-kernel-standard-source-and-bounded-lift-789f.md)已6.51095秒实得最高69次，九目标最小cost=[85,85,85,84,85,85,85,85,85]，完整gzip已推81356e8a。B85余源标准54596列，加原预基为217374个char0独立原整数列/219032输出；补偿层界75/65/55/45。该最小性不免费扩到所有6188行。
-- [首轮原整数残差](notes/2026-11-14-r150-first-original-padic-residual-789f.md)已6.28131秒完成，原primitive17式模31全真，x0 cost85/最高74次；mod961卷积给r1的1874424个非零系数，完整初始源/残差/整数式gzip已保存。正在求同固定列correction，未有mod961身份。单位大子式保证Q31解若存在必整；失败只排固定列，有限成功位数不代char0，最终须有理重构及原17精确身份。
+- 原3333常预基加2195余源的NF有1034分量；完整GB1021行/次数和716，挠维315/minpoly190。九目标最小h31度24，j4/10少(s−1)；char0候选h0=s³(s−2)F+²F−²E8。原线性逆最小Dlin46次不免费降到24，模31五新增因子不当复坏点；原∞模31阶≥24不外推char0。
+- [T96完整图](results/R150-appendix-complete-t96-kernel-and-exact-nine-source-identities.md)run43597823809得1021输出/1174纯核，全RC=h31T，完整gzip已存；[原17证书](results/R150-appendix-nine-targets-full-original-seventeen-equation-certificate-mod31.md)全DAG/D-content及4367×147×9原系数核清，最高135次/完整3.166MB gzip已推4e6a1539。不重跑旧图/高次DAG。
+- [标准来源](notes/2026-11-14-r150-kernel-standard-source-and-bounded-lift-789f.md)九目标最小cost=[85,85,85,84,85,85,85,85,85]，最高69次；B85为54596标准NF列＋原预基162778列，共217374个char0独立整数列，219032输出。完整canonical gzip已推81356e8a；此标准列族不是全部原列。
+- [原首轮残差](notes/2026-11-14-r150-first-original-padic-residual-789f.md)6.28131秒，h0 mod31=25h31，原primitive模31全真，x0 cost85/最高74次；r1有1874424非零系数。完整整数式/x0/r1均保存。
+- [完整像障碍](notes/2026-11-14-r150-first-residual-fixed-source-obstruction-789f.md)轻证书1.20032秒全9 NF(r1)非零，常数项数66/64/65/67/66/64/64/65/64；原m3m6m9分量为17/27/22/26/8/6/13/16/2。全G商＋余逐项核清；单位子式严格排h0各目标在固定标准列Q像，添同标准族任意更高次数仍无效。不能排非标准来源/kernel初值或完整char0理想。
+- 现检共同24未知g修正h0+31g及余类真实torsion。下一有效来源接口须改变mod31 kernel初值/非标准列；660未选N行未自动获整数缩减。有限多位成功仍须有理重构及原17全部精确身份。已保存无效大source搬运60.050秒超时日志，不续盲升相同标准空间。
 
 ## 原文接口与持续执行
 

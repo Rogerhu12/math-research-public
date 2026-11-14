@@ -1,0 +1,32 @@
+{
+  "format": "r150-original-rhs-standard-source-run-v1",
+  "status": "failed-or-incomplete",
+  "prime": 31,
+  "fixedOriginalSourceBudget": 85,
+  "temporarySourceBudget": 181,
+  "graphSHA256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce",
+  "originalNFSHA256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+  "rhsNFSHA256": "5016b8e42f2ef1b36c9107b95616a190a47697b640599cb9eb98b2476be8f317",
+  "rhsReceiptSHA256": "88c48e4d8efaf33631cca764910162df6332cf5f702e857f905cfc2e57c412c6",
+  "cppSHA256": "a47269a0ae5c9384b6a145ad5b17cc58fbd75aae1e09e83542deb7d5c993f284",
+  "runnerSHA256": "1b2b44309011822ac87edd4c745516d198a33d66a8193af83ccb9240840ba0f7",
+  "secondsLimit": 60,
+  "memoryMiBLimit": 512,
+  "outputs": {},
+  "originalCorrectionTransported": false,
+  "binarySHA256": "32817e0c1d7f5e5e2cb959a06bd4608c906eccef42db48749ea26a46c210e6ef",
+  "lastProgress": {
+    "phase": "original-rhs-kernel-standard-source",
+    "target": 7,
+    "kernelReductions": 709292,
+    "elapsedSeconds": 54.2543
+  },
+  "exitCode": 124,
+  "elapsedSeconds": 60.050044958996295,
+  "nativeStatistics": {
+    "phase": "original-rhs-kernel-standard-source",
+    "target": 7,
+    "kernelReductions": 709292,
+    "elapsedSeconds": 54.2543
+  }
+}

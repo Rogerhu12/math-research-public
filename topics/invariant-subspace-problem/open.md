@@ -105,7 +105,7 @@ R295实际Turán/Catalan同源平方及最大原子分区已付全正权birth1/�
 
 [R297 Green–Ward附录](results/R297-appendix-physical-green-ward-cancellation-and-full-complement-schur.md)现保真顶输入T与TT*=完整硬端费，并把同源差写成−εp J_q*Cinv_11/3；两侧源度量和整个补空间的逆均不可删。完整Green恒等式已付；[真实primitive非实极点](notes/2026-11-14-full-complement-green-nonreal-shift-poles-789f-next.md)排共同平方权平移的Stieltjes捷径，统一共同正块预算仍开。
 
-[R298独立五权全源硬端](results/R298-five-independent-positive-weights-birth-two-hard-top-strengthened-s1.md)已证明M5/r2整个五维源加强费用≤743/782，严格缺陷≥(39/782)C1²。完整真实迹的−9L3⁻¹L1³项保留，十九次整数N/D的79个对称轨道给743D−782N全系数非负且非零；不是旧分组普通序或指定S3不变线。一般更大奇数硬端统一κ仍开，也未支付原graph。
+[R298独立五权全源硬端](results/R298-five-independent-positive-weights-birth-two-hard-top-strengthened-s1.md)已付整个五维源≤743/782，缺陷≥(39/782)C1²；完整真实迹及正系数证明保全文。一般更大奇硬统一κ及原graph仍开。
 
 [R299逐位内函数](results/R299-boolean-product-inner-kernel-and-complete-primitive-energy.md)现给同一物理Pick正核与primitive源保持Gauss分解，完整平方和保全部创建层/占据对角D_t及高次精确消去；硬端首尾确含J1u、A_Uu和三次桥。尚未把L1A_U识别为该正核的准确Schur块，不能由一般内函数收缩免费插入第一MP逆或推出κ。[实际三阶dual塔](results/R299-appendix-nonreal-coherent-norm-on-actual-three-step-dual-tower.md)另给七位K2相干范数的负整数判别式，排真实塔必实根捷径；仍不否定S1。
 
@@ -139,7 +139,7 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **已闭全部低本质三次层。** [总定理](results/R150-appendix-all-essential-cubic-dimensions-at-most-three-have-zero-matched-bell-values.md)：essT3≤3临界三Bell零；ess≤2仅迫T3=0，rank1/ess3为空，Cat2/3的W±/Q|T3判据保。非零Bell余点必ess4/5/6，自然幂未付。
 
-**高本质rank1原中心17式。** 原M5 6188×4367、泛秩4354；rankAy8和0/2/−6/∞已闭。[完整旧范围](notes/2026-11-14-open-before-kernel-standard-source-789f.md)保全torsion/Ann24/线性分母等。[原17式模31证书](results/R150-appendix-nine-targets-full-original-seventeen-equation-certificate-mod31.md)已全原系数核验并保存gzip；[kernel标准源](notes/2026-11-14-r150-kernel-standard-source-and-bounded-lift-789f.md)实得九目标最小共同cost85/最高69次，确定217374个char0独立原整数列及其模31逆。余有限Σ、char0 h0=s³(s−2)F+²F−²E8像包含/真实分母；[原31²残差](notes/2026-11-14-r150-first-original-padic-residual-789f.md)已实际生成且cost85，现求固定列correction；未有mod961身份，有限模成功不代特征零。其他mean秩/高ess/自然幂仍开。
+**高本质rank1原中心17式。** M5 6188×4367、泛秩4354；rankAy8及0/2/−6/∞已闭，余rankAy9有限Σ/char0来源。[完整前open](notes/2026-11-14-open-before-first-padic-obstruction-789f.md)保全部模31原17证书、Ann24/线性分母及B85标准源。[首轮真实障碍](notes/2026-11-14-r150-first-residual-fixed-source-obstruction-789f.md)九个r1均有非零完整image-NF，严格排各h0t_j在固定217374标准列Q像；添同族更高次数也无效。现检共同h0+31g及非标准kernel初值，未排全原来源/char0理想；余free坐标暂零不免费称torsion。其他mean秩/高ess/自然幂另开。
 
 [射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)已保∞并给74次K_h下因子：若有限个真实4354子式模31的齐次gcd总次数达74，即可推出char0坏点全已闭，cofactor+Bézout给原证书分母K(s)度60。该条件现于模31不成立：[∞全原来源一阶连接](results/R150-appendix-original-infinity-jet-and-mod31-determinantal-thickness.md)给∞阶≥24，配仿射315次得到齐次≥339。九目标24次Ann仍是另一个对象，char0原证书继续。其他mean秩的高ess仍另开。
 

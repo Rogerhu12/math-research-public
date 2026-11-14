@@ -1,0 +1,72 @@
+{
+  "format": "r150-original-rhs-normal-form-run-v1",
+  "status": "completed",
+  "prime": 31,
+  "weightedOutputBudget": 85,
+  "originalModelSHA256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+  "rhsSHA256": "0ed97a63ca646584e9494b757505037a696f7fef460de3da62bbdaccae851c18",
+  "rhsReceiptSHA256": "13d122e9a404be1826f7496be3f9834a5c45834a7d157b8f64fa921596f5a968",
+  "cppSHA256": "10743ae0d38e83372b8197ec859538df4bfe04a86bf068f5a6c25e783539a52f",
+  "runnerSHA256": "b237e1eadc55740050e0779bbf6aabff50e3f110f616553c09d19de686cdc320",
+  "secondsLimit": 60,
+  "memoryMiBLimit": 512,
+  "outputs": {
+    "forward.bin": {
+      "file": "/tmp/isp-first-padic-789f/rhs-normal-form/rhs-forward.bin",
+      "bytes": 2378937,
+      "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+    },
+    "backward.bin": {
+      "file": "/tmp/isp-first-padic-789f/rhs-normal-form/rhs-backward.bin",
+      "bytes": 3052119,
+      "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+    },
+    "normal-forms.bin": {
+      "file": "/tmp/isp-first-padic-789f/rhs-normal-form/rhs-normal-forms.bin",
+      "bytes": 522422,
+      "sha256": "5016b8e42f2ef1b36c9107b95616a190a47697b640599cb9eb98b2476be8f317",
+      "gzipFile": "/tmp/isp-first-padic-789f/rhs-normal-form/normal-forms.bin.gz",
+      "gzipBytes": 354426,
+      "gzipSHA256": "807e007c4b0447194203522690a80db3758c4f5cc7500be2a64c878b99edcc39"
+    },
+    "reduction.bin": {
+      "file": "/tmp/isp-first-padic-789f/rhs-normal-form/rhs-reduction.bin",
+      "bytes": 5597494,
+      "sha256": "6e1e0894d6cafa180f482129e19a387e64f401a28f566e96eefcb2b9761742be",
+      "gzipFile": "/tmp/isp-first-padic-789f/rhs-normal-form/reduction.bin.gz",
+      "gzipBytes": 3755513,
+      "gzipSHA256": "cec87792ec50e687d74ee86e57280214abd44eda70f822a9396d60931c42c286"
+    }
+  },
+  "correctionComputed": false,
+  "binarySHA256": "ef27a128cb6f0ab7267d9a59b3fc450f826ed39f2fcbbf80679420e1dad874c9",
+  "lastProgress": {
+    "status": "native-original-rhs-normal-forms-complete",
+    "sources": 0,
+    "targets": 9,
+    "components": 1034,
+    "forwardOperations": 782976,
+    "backwardOperations": 1010703,
+    "normalOperations": 1399348,
+    "originalRHSCost": 85,
+    "originalRHSNonzeroCoefficients": 1874424,
+    "peakRSSKiB": 77352,
+    "elapsedSeconds": 8.45833
+  },
+  "exitCode": 0,
+  "elapsedSeconds": 8.47882967699843,
+  "nativeStatistics": {
+    "status": "native-original-rhs-normal-forms-complete",
+    "sources": 0,
+    "targets": 9,
+    "components": 1034,
+    "forwardOperations": 782976,
+    "backwardOperations": 1010703,
+    "normalOperations": 1399348,
+    "originalRHSCost": 85,
+    "originalRHSNonzeroCoefficients": 1874424,
+    "peakRSSKiB": 77352,
+    "elapsedSeconds": 8.45833
+  },
+  "sameOriginalConstantPrebasis": true
+}
