@@ -1,0 +1,46 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-u",
+    "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+    "--candidate",
+    "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+    "--mean",
+    "/workspace/scratch/ac0d699811ad/final-mean-20261114/attempt01/native.json.gz",
+    "--response",
+    "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-nonmean.json",
+    "--adjoint",
+    "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-nonmean.json",
+    "--first",
+    "1",
+    "--count",
+    "256",
+    "--out",
+    "/workspace/scratch/ac0d699811ad/regular-head-consumers-20261114/correlated-chain-left-resume26/rows-00001-00257-native.json.gz",
+    "--resume",
+    "/workspace/scratch/ac0d699811ad/regular-head-consumers-20261114/correlated-chain-left/rows-00001-00257-native.json.gz"
+  ],
+  "cwd": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+  "source_sha256": "1651f6cf73af9f3c16061767cc5acff0c452ada183422f7efb983ec8a6d4eb07",
+  "started_utc": "2026-11-14T09:14:52.463294+00:00",
+  "state": "finished",
+  "address_space_MiB": 1792,
+  "indices": [
+    1,
+    257
+  ],
+  "original_process_returncode": -9,
+  "original_saved_indices": [
+    1,
+    27
+  ],
+  "consumed_prefix": {
+    "path": "/workspace/scratch/ac0d699811ad/regular-head-consumers-20261114/correlated-chain-left/rows-00001-00257-native.json.gz",
+    "sha256": "981895eec660c4ccaa2ed17c314ad55e1dd7d8d128ba760e52cf72b61d6e6eb6"
+  },
+  "actual_returncode": 0,
+  "wall_seconds": 1045.170233662,
+  "maximum_child_RSS_KiB": 413496,
+  "finished_utc": "2026-11-14T09:32:17.634795+00:00",
+  "saved_native_sha256": "176ac5a3a78ed48fc5e12cf54f604e554138fed28a42b3b9fcead65c79d297e8"
+}

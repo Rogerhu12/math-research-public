@@ -1,0 +1,145 @@
+{
+  "kind": "exact_original_all_regular_trial_nodal_states_v1",
+  "complete": true,
+  "scientific_trial_only_not_inverse": true,
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "original_trial_source_sha256": "fc3acf0804bcb6038bcd966799e1c760e4189173cee4ae643e0fd496653b3239",
+  "roles": {
+    "response": {
+      "original_answer_path": "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/answer-0.npy",
+      "original_bytes": 9488016,
+      "original_sha256": "5d69eabc45757f91a4739c58114310c5534ac1a84e01e54233188dfffa567b1c",
+      "case": "2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3",
+      "parts": [
+        {
+          "file": "response-answer-0-part000.bin.gz",
+          "index": 0,
+          "offset": 0,
+          "bytes": 3500000,
+          "sha256": "fa5605eab5ca5a2b97630ecf3b476966fc8c187037f03b2c84af36b9f1b086e1",
+          "compressed_bytes": 3403161,
+          "compressed_sha256": "d2ceede2e431f56d43e459da2e1b43da61905330fbea00d84ce8fb07a754de5e"
+        },
+        {
+          "file": "response-answer-0-part001.bin.gz",
+          "index": 1,
+          "offset": 3500000,
+          "bytes": 3500000,
+          "sha256": "3ffd314c27730d355e64c77c0baf2897788d19fe166a235b6e415344902c567c",
+          "compressed_bytes": 3393109,
+          "compressed_sha256": "9ef6d071e2ceb74b269ac7c6509c9f07290f8224d31514fc338528be56c07f6f"
+        },
+        {
+          "file": "response-answer-0-part002.bin.gz",
+          "index": 2,
+          "offset": 7000000,
+          "bytes": 2488016,
+          "sha256": "4316f55fb28a8a074195fc880ac45e93aedd55351cd8934a558e92e310fee224",
+          "compressed_bytes": 2401555,
+          "compressed_sha256": "e441b6c3e591c1df57cdf5593802cced27569136868e19eda946f83e027f5d65"
+        }
+      ],
+      "historical_complete_trial_source": {
+        "finite-native.json": {
+          "file": "response-finite-native.json",
+          "bytes": 72215,
+          "sha256": "fcb53b558ccd9d776cd706baba9bdd661ade7b697436c4d90319106c989a7f41",
+          "original_path": "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/native-00072.json"
+        },
+        "full.json": {
+          "file": "response-full.json",
+          "bytes": 11295,
+          "sha256": "ed42a71ddeb0420428f0313df321dc1f9b10525521d399cb1d666ae98fe410f6",
+          "original_path": "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-full.json"
+        },
+        "nonmean.json": {
+          "file": "response-nonmean.json",
+          "bytes": 11662,
+          "sha256": "e110982c46285b2e5141933813811a1c97d3c43583e3e553678b24a35dbb914f",
+          "original_path": "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-nonmean.json"
+        }
+      },
+      "original_cubic": {
+        "fingerprint": "0f343f11c1f90c6276406bf85e5bc2640ac58906480d7ae8718775559d470127",
+        "next_block": 6144,
+        "complete": true,
+        "sha256": "3484712c492440e15bfd15607b5e66aa317288bd0271710cca7cc5ec82ce9402",
+        "every_background_one_sided_trace_used": true,
+        "exact_dyadic_trial_jumps_still_payable_by_interval_consumer": true
+      },
+      "original_nodal_answer_record": {
+        "sha256": "5d69eabc45757f91a4739c58114310c5534ac1a84e01e54233188dfffa567b1c",
+        "case": "2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3",
+        "iteration": 0
+      }
+    },
+    "adjoint": {
+      "original_answer_path": "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/answer-0.npy",
+      "original_bytes": 9488016,
+      "original_sha256": "536a6777217446b193fc1b44f3eb202825c356d6aa0b393fdf4a75de756402c5",
+      "case": "d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901",
+      "parts": [
+        {
+          "file": "adjoint-answer-0-part000.bin.gz",
+          "index": 0,
+          "offset": 0,
+          "bytes": 3500000,
+          "sha256": "6efa38eaa0c481ea1cb963a6718f9fae3c53cf4beb91331b83ebc360f97bc9c2",
+          "compressed_bytes": 3378894,
+          "compressed_sha256": "f749563133ca048406cdc655d8079f1d3fb55688bf23a59927842c8ba5e3713a"
+        },
+        {
+          "file": "adjoint-answer-0-part001.bin.gz",
+          "index": 1,
+          "offset": 3500000,
+          "bytes": 3500000,
+          "sha256": "8796d2cc591d348eca47220fedc6cfe805e88ffbe2161b776c46b4ba9e437841",
+          "compressed_bytes": 3378363,
+          "compressed_sha256": "fa7a51388e5f35a4e11c6c5f8768142ac4c99fc111c93e8eae9d8f731ae5f4e2"
+        },
+        {
+          "file": "adjoint-answer-0-part002.bin.gz",
+          "index": 2,
+          "offset": 7000000,
+          "bytes": 2488016,
+          "sha256": "bf1e2f58604a2e62ad4ce3ff0147265dc2a66f523b3d82ed3698b653f0021baa",
+          "compressed_bytes": 2404457,
+          "compressed_sha256": "ff4008ec86253959fa1f321b07e9bb6105c1587d6395b8f6d81abcf3ea001c50"
+        }
+      ],
+      "historical_complete_trial_source": {
+        "finite-native.json": {
+          "file": "adjoint-finite-native.json",
+          "bytes": 81778,
+          "sha256": "4a4d860eb84cd436c5bb743031906a770e377966e3ccac4390880e266ce2d824",
+          "original_path": "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/native-00072.json"
+        },
+        "full.json": {
+          "file": "adjoint-full.json",
+          "bytes": 11262,
+          "sha256": "c509df405abd2ddb81d47a80873e152c0cc9dc3a021c4af646500b5f3f7a3e41",
+          "original_path": "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-full.json"
+        },
+        "nonmean.json": {
+          "file": "adjoint-nonmean.json",
+          "bytes": 11639,
+          "sha256": "2c7e24df5a8eeaa7a4d0bd671e0c23b2b9c3e1a161386fa67ed6ff33d5b07845",
+          "original_path": "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-nonmean.json"
+        }
+      },
+      "original_cubic": {
+        "fingerprint": "c4a35aeb12d992766d025c235bb77085b18e756035e31456e988426774f6dbf3",
+        "next_block": 6144,
+        "complete": true,
+        "sha256": "f8ff095fb61e12ffeb2c8b1f6720857e8e42f5cb7ad8cc720a0b9f8106d61f04",
+        "every_background_one_sided_trace_used": true,
+        "exact_dyadic_trial_jumps_still_payable_by_interval_consumer": true
+      },
+      "original_nodal_answer_record": {
+        "sha256": "536a6777217446b193fc1b44f3eb202825c356d6aa0b393fdf4a75de756402c5",
+        "case": "d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901",
+        "iteration": 0
+      }
+    }
+  }
+}

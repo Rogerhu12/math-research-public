@@ -5,7 +5,7 @@
 ## 规则与工作位置
 
 唯一工作仓库 Rogerhu12/math-research-public；只使用本仓库 Actions。新目录 `/workspace/scratch/0df957a82d09/math-research-public` 是 blob:none 部分克隆，仅先检出正文、脚本和 workflow；大数据按需只读旧检查点或在公开 Actions 重建。
-最后实际 pull --rebase 与两 README 差异检查：4e96acd51e2e85c5df3409399a9e895b3af57cff；根 blob 1d05db9ebc859a5fd9a8ef773ab05ef1e9de0598，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
+最后实际 pull --rebase 与两 README 差异检查：67219fa8afd05e7a30ec3a5fec6d16119c8a0644；根 blob 1d05db9ebc859a5fd9a8ef773ab05ef1e9de0598，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
 每次推送前 pull/rebase 并检查两个 README；至少每小时 pull；每条结论独立提交推送；非快进立即 rebase 后重推，不 force。PAT 仅瞬时命令行环境，不入文件或输出。root 管 Git/HANDOFF/open/results 索引/log，代理只写自己新文件。
 
 ## 目标和准确对象
@@ -38,3 +38,5 @@ phase旧完整请求只到127germ且已正常返回，不再等待其自动覆�
 已配置公开workflow visible-exact-cap128-continuous.yml，准备后五互斥区间补768..1977，先复用原21行；0..768仍消费旧有效前缀。源/manifest锁定、每10分钟真实推回记录，root负责跟踪实际CI及全部1977格拼接。
 
 公开phase workflow visible-exact-phase-transport-resume127.yml已配置，原worker SHA9091af47…、345input manifest0c238287…；全169完成后自动生成complete-169-cover，不能把新目标或完整scalar缓存当真共轭。
+
+主体旧左实际只请求[1,257)并已exit0，原右4000..4058后真实−9；新visible-exact-correlated-body.yml一次从两原nodal答案重建完整Hermite原SHA，八区间补7401新行。必要新输入18.57MB，完整146MB trial只留Actions artifact；不得把全行残差当全inverse。

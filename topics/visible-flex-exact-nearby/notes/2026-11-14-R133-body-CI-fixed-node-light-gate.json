@@ -1,0 +1,38 @@
+{
+  "kind": "actual_light_fixed_node_restore_and_two_original_piece_checks",
+  "complete": true,
+  "full_trial_reconstruction_executed": false,
+  "results": {
+    "response": {
+      "actual_model_identity_equal": true,
+      "original_answer_SHA256_restored": "5d69eabc45757f91a4739c58114310c5534ac1a84e01e54233188dfffa567b1c",
+      "nodes": 6145,
+      "checked_original_cells": [
+        {
+          "original_interval": 0,
+          "all_4_times_193_values_bitwise_equal": true
+        },
+        {
+          "original_interval": 6143,
+          "all_4_times_193_values_bitwise_equal": true
+        }
+      ]
+    },
+    "adjoint": {
+      "actual_model_identity_equal": true,
+      "original_answer_SHA256_restored": "536a6777217446b193fc1b44f3eb202825c356d6aa0b393fdf4a75de756402c5",
+      "nodes": 6145,
+      "checked_original_cells": [
+        {
+          "original_interval": 0,
+          "all_4_times_193_values_bitwise_equal": true
+        },
+        {
+          "original_interval": 6143,
+          "all_4_times_193_values_bitwise_equal": true
+        }
+      ]
+    }
+  },
+  "wall_seconds": 3.814750104000268
+}
