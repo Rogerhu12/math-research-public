@@ -267,3 +267,7 @@ A1–18保完整输入/输出/mean及真ray，可用同strip复sup替代旧C2符
 ### 64原生点实际完成，等待完整同Z Green验收（2026-11-14 20:08:45 UTC）
 
 [实际报告](results/R133-supplement-actual-missing-native-point-Hessian.md)：43635264409 child0/26门，只新64点、64点模型残差、16local；7908whole/7844旧residual/64 Taylor及1325其余local全保。完整四源比较选ordinary，additive<4.641143057402e−9，旧Taylor为5.884046519508e−7。root亲核source/native/193pin、26门、四真pull空diff。287pin同Z Green后继43635487128正在消费；本条只授w0特定源，真正有限193误差、未知high反馈和full PDE仍须分别核验。
+
+### 真实径向profile的最小实际消费者已启动（2026-11-14 20:09:43 UTC）
+
+18pin新消费者 source10e96147…/manifest831bbaa7…已推：13个仍使用的旧pins逐字不变；实际e54f…六完整tensor和1328matrix原件、7662…完整moment原件直接复用。只新六profiles与4377准确径向积分；完整两侧root/正bodycut/mean及旧替代bound全保。root核全source/CI、workerdiff/flow/清单，tail独核数学和partial prefix。每个profile先checkpoint，已成case不重算；原root大artifact只在Actions取。待实际门，不预授改善或smallness。

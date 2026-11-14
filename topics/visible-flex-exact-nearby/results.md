@@ -567,3 +567,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### 缺失64原生中点的实际Hessian证书（2026-11-14 20:08:45 UTC）
 
 [报告及原件身份](results/R133-supplement-actual-missing-native-point-Hessian.md) 已独推。43635264409 child0/26门，数学52.438333s/child60.001888s；native41156aa8…7797760B/4片，process519b7e39…24048B/summaryf388ab7d…29147B。64新点∩旧whole∩已成Taylor保同germ，原whole第三阶不变；1341行/1977交段/7908cover/mean全核。合法完整ordinary分解给physicalGreen<4.623320319864e−9及additive<4.641143057402e−9；所有旧成功仍完整保留，未知误差算子不借此改善。
+
+### 原幅度tensor复用的径向Airy profile消费者（2026-11-14 20:09:43 UTC）
+
+[R1–15证明](results/R133-supplement-radial-reference-Airy-partition-and-central-series-bounds.md) 的独立18pin五件已推；source10e96147…、CIa0706b43…、worker d33f5075…、manifest831bbaa7…、flow29d6a50b…。root审全科学/CI及workerdiff/flow，13旧pins逐项相同；tail独核entire值/导数完整尾、j/g/profile、六tensor和4377积分恢复。只有新profile与源积分被授权执行，原成功数学不重算，数值结论待actual。

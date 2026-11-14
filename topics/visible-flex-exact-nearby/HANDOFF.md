@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 20:08:45 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 20:09:43 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权与真实同步
 
 只在 Rogerhu12/math-research-public；一切新数学只在该仓库Actions。每结论独推；非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理交小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
 本地最后成功真pull为12:34 a9c7fc8c12d3e5f43b6632ed24ebef40aced5145，12:35终端失联。root最近真pull尝试：2026-11-14 20:02:36 UTC，No usable execution environment。每小时再试；非FF即时再试。规则8暂准connector<100KB文本，先查size，任何binary/gzip禁取；新摘要≤60KB。API不冒称pull，终端恢复即回git。
-最新远端 main/两README blob 核：cc8a9c9d1c5e8f2ea3b878a74abfbfc4b5019a5f；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542。rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1；driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最新远端 main/两README blob 核：16709a4e4624110299870b2428921fef50388735；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542。rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1；driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 reviewed runner长算每10min真pull；phase child45/outer50min，前后真pull/README差异核；每次真实检查及失败/native全部保。root已亲核下列actual process的真实pull及空README diff。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，objects /tmp/visible-exact-0df9-git-objects。
 此前9979B H逐字归档 notes/2026-11-14-handoff-before-point-and-exterior-actual-results.md，内有9769/9728/9928/9806等完整更早链。完整历史SHA/失败/参数和合同见results索引、相应actual报告及manifest。**已成数学不重算，不能把publication失败当math失败。**
@@ -37,7 +37,7 @@ fullδ |δ|≤1e−8 given-head正侧负一阶图43627228225：child0/18门，na
 fullδ B1–13精确ρ15/β*/δ*见归档；43598755503原11门全|j|≥97四rootgap>1/(512|j|)有效，CE/Cs及实际充分cutoff仍欠。
 原完整root43616813816：1300行/15+6×7门/native dbaaf9f7…；forcing43624260519：1328行/14门/native54a79bf8…；negativeCauchy43621934843：792行/8门/native3a214897…；firstseam43625828234：1079接口/39门/native871aa54d…，576负/503正。旧target/ray/forcing/seam禁重算；原失败完整保。
 U1–29/B1–13/M1–19已root/tail全文核推，完整I/J顺序及mean不变。旧leading43629465215/native7662350a…1328norm禁重算；matrix43632464994 child0/8门，1328新矩阵只复用oldmoment，native3c8c4f3c…7873296B/artifact14128707026，process00afd544…49990B。六R全成，R.001负源<4.564909e9、负primitive<6.919103e8；大upper不证真实norm大。root核两真pull至5b0e703d7fb6951eaf8a471c15b620378d999786，actual报告1f4fd588已推。
-A1–18全指数Fourier3569172d…/J1–13直接jets35025593…已root/tail核推a76cfc/638d24。25pin analytic43634456797：child0/10门/20.66458s，复用1328moment+1328directed，6新幅度+4377积分；nativee54f05c3…3445399B/processe0fa6ba5…51260B/workercc974d20…2996B。R.001负源<3.385779e10较旧directed更粗，R.02<7.109141e11改善；两完整upper均保。root核2真pull至c06050debf6de9add5ecad03d273342d71c116cb、空diff及10门。实际报告独推；R1–15真实Abar分central/high及中央完整正系数级数1fe11cfb…本次独推，root/tail全文核；实δ域/true A±高区prefactor不换。只新profiles/积分，原6tensor/1328表禁重算，待consumer。
+A1–18全指数Fourier3569172d…/J1–13直接jets35025593…已root/tail核推a76cfc/638d24。25pin analytic43634456797：child0/10门/20.66458s，复用1328moment+1328directed，6新幅度+4377积分；nativee54f05c3…3445399B/processe0fa6ba5…51260B/workercc974d20…2996B。R.001负源<3.385779e10较旧directed更粗，R.02<7.109141e11改善；两完整upper均保。root核2真pull至c06050debf6de9add5ecad03d273342d71c116cb、空diff及10门。实际报告独推；R1–15真实Abar分central/high及中央完整正系数级数1fe11cfb…本次独推，root/tail全文核；实δ域/true A±高区prefactor不换。18pin消费者本次推，source10e96147…/manifest831bbaa7…，13旧pin不变；仅新profiles/积分，6tensor/1328×2表禁重算，待actual。
 root D1–24两片L0w1证明cc6ab27a…已推2b56b3：外原third+严格h，内除true branch后复germ/Cauchy，同一w1无人工seam/新K4/5。G1–19本次推fca8fcdd…：root亲核原F6a–15全oldproduct及L13–17，Carathéodory先减a0根常数1，b0=ρ²B；保两forcing分量的相反分支抵消。tail独核G14–19。只旧R9e−6/σ3/256，consumer仍须全复系数和严格inverse-image门；不得realjets外插或canonical sup倒授oldproduct。phase正在原复域接实际consumer，完整L0w1/正mean/return仍欠。
 
 ## tail_connector：真实外侧与returned
@@ -49,4 +49,4 @@ X1–33真实未覆盖(129,2) eX→D→B已root全文及M/K/F/Q7/V原引用核�
 
 子问题完成立即接open下一项；不以阶段报告、等用户或时长结束停工。
 
-native-point→Green287pin后继已先推，sourcec5236ced…/manifestf5cdddf7…；279/193旧pin零改，root全文差异核、tail独核。等待真实64point成功event，原6391仅重标右通道；未预授actual。
+287pin native-point→Green由43635264409真实success触发43635487128，待actual；原279/193pins及6391/mean/14费全保。

@@ -1,0 +1,182 @@
+{
+  "kind": "radial_reference_Airy_profiles_complete_public_CI_fixed_input_manifest",
+  "public_repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-exact-nearby",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "numpy": "2.3.5",
+    "arb_precision_bits": 256
+  },
+  "purpose": "Reuse six accepted complete amplitude tensors and every1328 moment/directed row; evaluate only six true-radial-reference entire Airy profiles and complete source integrals.",
+  "input_paths": {
+    "original_norm_native": "topics/visible-flex-exact-nearby/notes/leading_old_circle_remainder_sources_ci/run-43629465215-1/consumers/leading-old-circle-remainder-sources.json.gz",
+    "original_analytic_native": "topics/visible-flex-exact-nearby/notes/analytic_Airy_old_circle_sources_ci/run-43634456797-1/consumers/analytic-Airy-old-circle-sources.json.gz",
+    "analytic_process": "topics/visible-flex-exact-nearby/notes/analytic_Airy_old_circle_sources_ci/run-43634456797-1/consumers/process.json"
+  },
+  "forcing_identity": {
+    "run_id": "43624260519",
+    "run_attempt": "1",
+    "source_sha256": "ba25934f0f6e147f293644edc93b2adf1c33d5935f86596d96355cf063c95fa6",
+    "manifest_sha256": "a7790a87932a22997e29dfa2085982ac7adbbef9fd36512918eec975dd3c5341",
+    "native_sha256": "54a79bf80df641797b28f998fe547c93d64b58ea329b675f3d62d23d4f161d47",
+    "native_bytes": 6577892,
+    "complete_original_rows": 1328
+  },
+  "first_seam_identity": {
+    "run_id": "43625828234",
+    "run_attempt": "1",
+    "native_sha256": "871aa54de8c4ee1caa47cdab39c8033bb9cd02e9d4d1f404b711ab8c28825642",
+    "native_bytes": 904977,
+    "source_sha256": "9c71989fc069bb6cc35bcb18c03f5ca73b20a33d57387b6a2be2b5a48aefe71a"
+  },
+  "external_completed_natives": [
+    {
+      "name": "root",
+      "run_id": "43616813816",
+      "run_attempt": "1",
+      "artifact": "visible-exact-piecewise-real-root-fold-resume-v2-43616813816-1",
+      "inner_path": "consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "prepared_path": "root/consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+      "bytes": 5923431
+    }
+  ],
+  "original_target_coefficient_ray_and_amplitude_solves_recomputed": 0,
+  "new_higher_radial_intrinsic_jets_required": false,
+  "source_window": "density H^-4/3 to ordinary radial L2(H^-2/3 x H^-2/3), and actual negative primitive L2 contribution",
+  "local_L0_w1_paid": false,
+  "positive_source_to_root_conversion_claimed": false,
+  "complete_strong_return_norm_or_cutoff97_inverse_claimed": false,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/analytic_Airy_old_circle_sources_ci/run-43634456797-1/consumers/analytic-Airy-old-circle-sources.json.gz",
+      "bytes": 3445399,
+      "sha256": "e54f05c3eea0e2ed9a8f7511004059b730b448adb26c9e035cc1803325080db8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/analytic_Airy_old_circle_sources_ci/run-43634456797-1/consumers/process.json",
+      "bytes": 51260,
+      "sha256": "e0fa6ba5f68e6520f0e2944052d344ff3ffe9e97dacc8e2a3022ff36e00f52ec"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/leading_old_circle_remainder_sources_ci/run-43629465215-1/consumers/leading-old-circle-remainder-sources.json.gz",
+      "sha256": "7662350ac2cf5c0838e545fb6ba4994c118b985b5a133b869b3ca5486b70563c",
+      "bytes": 4837715
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-analytic-Airy-columns-and-complete-exponential-Fourier-bound.md",
+      "sha256": "3569172db9568d70fba2973660ceb790fb125432fad1d4823c3fbe422fe4d115",
+      "bytes": 12757
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-direct-angular-matrix-jets-for-analytic-Airy-sources.md",
+      "sha256": "35025593b433132475f5b42065d9bcc01b33a501d5e932741df384eab33fbb3a",
+      "bytes": 8159
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-directed-analytic-matrix-old-circle-remainders.md",
+      "sha256": "394068a9b18a47d5c1b9330f162c39b9b02a0d65db4b46ba5773c995adc6a52e",
+      "bytes": 11462
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-old-circle-inverse-remainder-in-negative-source-window.md",
+      "sha256": "3e02303afa6f82da01ba768d4bccbbaa0c702ce63ad4582c36d131aa1a8510d9",
+      "bytes": 17618
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-piecewise-real-root-fold-and-closed-forced-Airy-transport.md",
+      "sha256": "ee319621da07bd95e30708779128f6ac88ba7af5fade2f266cf03f0ee67965af",
+      "bytes": 12114
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-radial-reference-Airy-partition-and-central-series-bounds.md",
+      "bytes": 10026,
+      "sha256": "1fe11cfbeece7fd334d24a0259c6156f6245953763664fb09fb1b596e9a4c607"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-real-root-remainder-budgets-and-radial-matrix-parts.md",
+      "sha256": "3bade0ac1358b845dbcbf16777baadc4f28437db4d31fcf1d227fdcb7db21bca",
+      "bytes": 8889
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing.py",
+      "sha256": "ba25934f0f6e147f293644edc93b2adf1c33d5935f86596d96355cf063c95fa6",
+      "bytes": 37219
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_seam_operators.py",
+      "sha256": "9c71989fc069bb6cc35bcb18c03f5ca73b20a33d57387b6a2be2b5a48aefe71a",
+      "bytes": 26022
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_analytic_Airy_old_circle_sources.py",
+      "sha256": "439a29e2f1a3273bf9901d6a6ddfae075fb88a308d9a9e2a665cf839fc3e0dc7",
+      "bytes": 31946
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_directed_matrix_old_circle_sources.py",
+      "sha256": "f3a5d7b0caad97d65464e6b79e0884e3a50085cbc6b2d9bab35e9ab1e8a66b0d",
+      "bytes": 27730
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_leading_old_circle_remainder_sources.py",
+      "sha256": "56b68983f36bb3d88e1427081ba9e60a8f6cf43dcd9578a0d925e1834292555d",
+      "bytes": 27569
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_piecewise_real_root_fold_resume_v2.py",
+      "sha256": "840d7ae96c023f0f1055516cfefe62f22a8f46a3f8a0ea2974553b32760eb112",
+      "bytes": 37715
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_radial_reference_Airy_sources_CI.py",
+      "bytes": 8672,
+      "sha256": "a0706b43c80bd230364d99d5bc421ede82f5507d82fb2a2aae809463d46ce91c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_radial_reference_Airy_sources.py",
+      "bytes": 23453,
+      "sha256": "10e961471e790286fc439ce56b5e0fff9e9b00e1a444d61396f4187fabe35414"
+    }
+  ],
+  "original_completed_norm_identity": {
+    "run_id": "43629465215",
+    "run_attempt": "1",
+    "source_sha256": "56b68983f36bb3d88e1427081ba9e60a8f6cf43dcd9578a0d925e1834292555d",
+    "manifest_sha256": "7290cbb07293c15a239ffafb0e342e6c1b7ea812106f569e88bbe4d2502180df",
+    "native_sha256": "7662350ac2cf5c0838e545fb6ba4994c118b985b5a133b869b3ca5486b70563c",
+    "native_bytes": 4837715,
+    "complete_original_rows": 1328,
+    "complete_radius_cases": 6
+  },
+  "old_completed_moment_rows_recomputed": 0,
+  "original_completed_directed_identity": {
+    "run_id": "43632464994",
+    "run_attempt": "1",
+    "source_sha256": "f3a5d7b0caad97d65464e6b79e0884e3a50085cbc6b2d9bab35e9ab1e8a66b0d",
+    "manifest_sha256": "29465d2a93165f40f42b2ea73c772374a882475fd59f44fdbce20b37ff4d402f",
+    "native_sha256": "3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b",
+    "native_bytes": 7873296,
+    "complete_original_rows": 1328,
+    "complete_radius_cases": 6,
+    "actual_mathematical_gates": 8
+  },
+  "old_completed_directed_matrix_rows_recomputed": 0,
+  "analytic_leading_strip": "3/64",
+  "no_angular_Cauchy_loss": true,
+  "separate_two_Airy_components": true,
+  "complete_infinite_Fourier_outputs_and_mean_retained": true,
+  "original_completed_analytic_identity": {
+    "run_id": "43634456797",
+    "run_attempt": "1",
+    "source_sha256": "439a29e2f1a3273bf9901d6a6ddfae075fb88a308d9a9e2a665cf839fc3e0dc7",
+    "manifest_sha256": "ee066de1b0328b6ede8b2a928680548065f6a8d1ad7d678f3ca515febf834e37",
+    "native_sha256": "e54f05c3eea0e2ed9a8f7511004059b730b448adb26c9e035cc1803325080db8",
+    "native_bytes": 3445399,
+    "complete_amplitude_tensor_cases": 6,
+    "complete_source_integral_rows": 4377,
+    "actual_mathematical_gates": 10
+  },
+  "old_completed_analytic_amplitude_cases_recomputed": 0
+}
