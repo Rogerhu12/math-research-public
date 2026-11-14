@@ -576,3 +576,7 @@
 - **R658**：[真实Cartier迹消差与Cp通道](results/R658-Cartier-trace-comparison-and-actual-Cp-channel.md)。保留completed-zeta平移相位，乘法迹和奇偶性消掉全部O处差；端项先整除p!。证明实际r2=cCp及v(M2)=−1 iff Cp·r3≠0，保留全p非消失缺口；附p47定向精确值。
 
 - **R657**：[完整普通类模与原y的精确单位Norm判据](results/R657-full-ordinary-class-module-and-exact-scalar-norm-criterion.md)。证明E_B=O[S,T]u_B、A_B=0及A_LB=RΓ/π^m（1≤m≤43），原标记s=1+iπ。端点m=43恰等价于原y是普通单位Norm_S；Hasse域Norm始终成立，不能代替该判据。m/J/C/b/λ/n/L仍未求。
+
+## 新增结论（公开仓库续研）
+
+- **R683（已证明）**：[偶权 Cartier 通道与实际 r3](results/R683-even-weight-Cartier-channel-and-actual-r3.md)。同一完整六挠归一扩到 k≡2 mod3，严格得 r3=−27cB³C_(p−3) 及 v_p(M2)=−1 iff Cp·C_(p−3)≠0；给全部原常数和全尾的适用范围。全p非消失、真实QC首项及主目标仍开放。
