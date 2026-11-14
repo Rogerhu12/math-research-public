@@ -1,6 +1,6 @@
 # 待解：同一个最终精确闭嵌入族
 
-更新：2026-11-14 06:34 UTC。**主目标未完成，持续研究。**
+更新：2026-11-14 07:07 UTC。**主目标未完成，持续研究。**
 本次以前所有逐项结论、失败和旧任务完整保存在
 [全主体消费者前归档](notes/2026-11-14-open-history-before-complete-body-geometry-consumers.md)，再链其中的更早归档。
 本页已将实际完成的原始重放、完整残差、strict/mean/positive及完整有限提案从“未执行”中移出。
@@ -51,7 +51,7 @@
 
 全模physical帽Green已经保完整Fourier、普通/divergence/接口源、两mean及真实外q差；在同一修复背景上，残差Hessian反馈已实际合并。
 新的96-column DN提案保193态及全部97外行、真实9/10内端，而非偷偷把9/10当binary64 .9。
-本地660/660 QR因子已成；matrix-RHS曾真实SIGBUS，原成功前缀104和所有文件SHA保留，正从它继续。不能把资源故障当作数学门失败，也不能将恢复中的输出提前称完整。
+原660块/96列提案已从真实SIGBUS−7恢复并完整normal0，原FFT5.705156e−15；所有失败过程和大数组SHA保。1296块局部加密96列也已normal0，FFT6.861356e−15；真实首2闭片带权普通B/C已降至1.480231e−4/3.735972e−6。新的257状态/128物理输入提案正在执行，以接完整moving96头；物理C高尾128以后已有严格界1.757236e−14，finite moving头不等于同阶physical头。
 
 [物理逆角径向Fourier jets](results/R133-supplement-physical-cap-inverse-angle-radial-Fourier-jets.md)在真实wide闭格已经付512节点/cut128/σ1/16/三阶径向余项/全部alias及无限尾，QB/QC误差<2.165586e−10/3.658844e−9。下一步必须消费完整96列Hermite矩阵、全部物理输出模式和全部外行；每个真正径向格都通过同样解析逆角门后才授全帽矩阵残差。未知系数余项保divergence源，不能偷付一个未有的角导数。
 真实全模帽Green再将完整矩阵残差和端行误差转为准确内端图，随后与整个正区、root双端口和负区接线。端口成立不等于同坐标BVP全逆。
@@ -71,7 +71,7 @@
 当前profile保129..8192前缀，8193后K2^128/ζ131，双bump、两mean和全部stop/metric参数约束继续。
 47完整尾重建、48完整有限head至14400、49真实首密度相位、50真正(ω,β)联立、51实际strong高网络均已发表；高阈值Tj=2^65536(j+5)^204δ^-320以下的移动中间块不能由固定head或高频Neumann跳过。原R=2^-60000000入口和完整F不改。
 
-53–68已经逐步付原完整普通/weak源、两physical图、Γ*两列、两phase补偿、实际band半径/频率数、完整Hessian、真实wave和四阶局部控制。特别68的五函数Wronskian消λ并给所有κ=M/sqrtB上的全有限盒generator>2^-175000 M^-1891。
+53–68已经逐步付原完整普通/weak源、两physical图、Γ*两列、两phase补偿、实际band半径/频率数、完整Hessian、真实wave和四阶局部控制。特别68的五函数Wronskian消λ并给所有κ=M²/B上的全有限盒generator>2^-175000 M^-1891。
 [同一个公共径向网络的1894阶逆](results/R119-supplement-five-function-common-radial-polynomial-resolvent.md)现在保原canonical端口、同角宽、原local双侧权及联合好集>1−147/16384。它是允许族中新的公共选择；依赖具体点且没有全盒统一证明的证书仍须在最终选点支付。
 对已证明转为原Nm=Cζe^-τ∞M M^-30960单位的完整源列，剩余29066幂且保2^175007Cζ。ordinary/weak物理源到端口、总/裸通量端荷、材料密度/Jacobian、normal shear和全域重建不能免付。
 
@@ -91,7 +91,7 @@
 原moving模型有真实θr−τ=I(Rv−vR0/m)/m，不能把未解中心连接冒作精确physical pullback。
 
 完整浮点geometry已实际8967径向行/141块，点云max|F|1.275559740657、frame support约.90542、nearest约.129705423均仅提案。连续角误差已完整；directed径向消费者在每个真candidate/germ及全部准确φk上继续，保前三次失败和成功断点。
-下一几何消费用双线性插值及每个quad的凸包分离下界，准确合并径向误差和角二阶余项；避免把nearest sample当连续距离。真实外帽world anchor、连续中心修复以及精确解校正费必须再加。
+全部8966格×512×8凸包分离已实际完整，mesh距>.129668021172。真实tensor消费者已覆盖径向[1057564037496759/2251799813685248,25/8]的3903格，部分连续半径<1.275713423；下一次只消费新完成径向行，未覆盖腰部前不授全模型距离。真实外帽world anchor、连续中心修复以及精确解校正费必须再加。
 
 [腰精确法向位移与五次marker](results/R133-supplement-waist-normal-offset-and-fifth-power-markers.md)保条件腰Δc=.129705423092539…、A0腰误差ρ=.01的2ρ/15费用及四个145..148独特非共面曲率峰。
 最终同精确闭G须实际满足|G|≤511/400、G·N>4/49、|κ|≤12、κ+≤196/27，真腰ρ=.01、真平帽a≤7e−6/z±[.9,1]和全部marker条件；才由已证条件预算得到held/D>.05024347、reach/D>.03195015、Hdiam≥.2D和含反射δE>0。
@@ -101,12 +101,12 @@
 
 原未推native按HANDOFF全部实际重做，不回写旧失败为成功。最终残差右段零半宽graft域拒、25独立graft成功及合并输入身份保留；geometry attempt01–03保；旧b4-output FFT失败保；body旧plain JSON parser失败保；cap SIGBUS原过程和全部成功前缀保。
 大可重建数组在运行工作目录，源码/参数/完整身份/全部小native保存；不向Git推大数组，也不用base64文本代替正常二进制。
-根新14已停用math-research-ci，旧本题请求未执行并已撤下；不新增ci-queue或绕道dispatch。等待课题README实际通知迁至Rogerhu12/visible-flex后再迁，用其自身Actions。每小时至少真实pull且每次查根/题README差异，读过SHA写H；非FF立刻pull --rebase重推至成功。
+正式通知旧6caee8bb已读并执行：现在只在Rogerhu12/math-research-public工作，使用自身公开Actions；此前预告的visible-flex不是实际迁移目标。旧math-research-ci/ci-queue已停且不再派发。每push前真实pull、至少每小时一次；每次查根/题README差异，已读SHA写H；非FF立刻pull --rebase重推至成功。
 
 ## 7. 紧接着执行的原任务
 
 root：接完整directed径向检查点，写真实双线性包络/凸包分离消费者并合并准确角误差；持续逐结论推送。
-newton_source：从真实断点完成96列cap proposal及全连续矩阵残差，同时完成q/ψ的全body/mean/端行/signed配对。
+newton_source：接实际完成的两份96列提案，完成128物理端口提案与真实H128×97合成后的全连续残差；继续q/ψ的全body/mean/端行/signed配对。
 phase_inverse：完成真实parameter/conjugacy phase Schur及完整β/j/strong normalform；最终ν只选择一次。
 tail_connector：把实际非径向内部正型接全部外部响应、Γ*参数列、两physical端图与近簇，完成原单位全源映射和完整F。
 子问题做完接下一项；时长、阶段、进程等待都不是收尾理由。只有README全部完成标准真正达到才结束。
@@ -138,3 +138,6 @@ tail_connector：把实际非径向内部正型接全部外部响应、Γ*参数
 
 
 [实际完整记录](results/R133-supplement-complete-mesh-hulls-and-continuous-tensor-geometry.md)：实际完整141原块/8966径向格/512角格/8逆像共36,724,736分离向量全部directed消费正常0；mesh半径<1.275559740657、全交叉框架support>.901284727159、全凸包距离>.129668021172。严格双线性误差只需径向/角向二阶界，无遗漏混合项；完整径向累计与真帽/非线性费用尚未授。
+
+
+[实际完整记录](results/R119-supplement-complete-negative-pocket-fixed-parameter-positive-form.md)：尾70完整负窗/两真实根/两mean/全部输出/两物理图与shear：能量<2^7800 J16 δ^-32，整个支集外hat响应/d*<2^21000 Ncal X J84 δ^-60。明确由真实incoming达到X≤2^-1048576，首层log<−554590且深层比<2^-64，固定Γ完整crossing form>d*/8；50新有理门通过，ρ_waist符号修订保原正文/native。Γ*列/移动端口/混频簇仍独立待付。

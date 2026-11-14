@@ -456,3 +456,6 @@
 
 
 - [实际完整记录](results/R133-supplement-complete-mesh-hulls-and-continuous-tensor-geometry.md)：实际完整141原块/8966径向格/512角格/8逆像共36,724,736分离向量全部directed消费正常0；mesh半径<1.275559740657、全交叉框架support>.901284727159、全凸包距离>.129668021172。严格双线性误差只需径向/角向二阶界，无遗漏混合项；完整径向累计与真帽/非线性费用尚未授。
+
+
+- [实际完整记录](results/R119-supplement-complete-negative-pocket-fixed-parameter-positive-form.md)：尾70完整负窗/两真实根/两mean/全部输出/两物理图与shear：能量<2^7800 J16 δ^-32，整个支集外hat响应/d*<2^21000 Ncal X J84 δ^-60。明确由真实incoming达到X≤2^-1048576，首层log<−554590且深层比<2^-64，固定Γ完整crossing form>d*/8；50新有理门通过，ρ_waist符号修订保原正文/native。Γ*列/移动端口/混频簇仍独立待付。
