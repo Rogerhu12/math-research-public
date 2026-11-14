@@ -305,15 +305,47 @@ def read_probe(path, ring):
         "quadratic_index": 7, "third_index": 12, "old_direction_recomputed": False}
 
 
+
+def verify_publication_binding(publication, *, source_run, source_commit,
+                               report_name, report_bytes, report_sha,
+                               export_record, driver_identity):
+    """Use the real terminal-publisher manifest when a compact main lost fields."""
+    if (publication.get("schema") != "visible-new-mechanism-actions-v1"
+            or publication.get("repository") != REPOSITORY
+            or str(publication.get("run_id")) != source_run
+            or publication.get("source_commit") != source_commit
+            or publication.get("lane") != "local_fourth_quotient"):
+        raise ValueError("public terminal receipt source/run/repository/lane mismatch")
+    driver = publication.get("source_files", {}).get(
+        "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py")
+    if driver != {"bytes": driver_identity["bytes"], "sha256": driver_identity["sha256"]}:
+        raise ValueError("public receipt does not bind the actual producer source")
+    def one_output(name):
+        rows = [row for row in publication.get("outputs", []) if row.get("path") == name]
+        if len(rows) != 1:
+            raise ValueError("one exact published output entry is required")
+        return rows[0]
+    main = one_output(report_name)
+    if (main.get("bytes"), main.get("sha256"), main.get("raw_bytes"), main.get("raw_sha256")) != (
+            report_bytes, report_sha, report_bytes, report_sha):
+        raise ValueError("public receipt does not bind the compact producer report bytes")
+    exported = one_output(export_record["filename"])
+    if (exported.get("bytes"), exported.get("sha256"), exported.get("raw_bytes"), exported.get("raw_sha256")) != (
+            export_record["stored_bytes"], export_record["stored_sha256"],
+            export_record["raw_bytes"], export_record["raw_sha256"]):
+        raise ValueError("public receipt and producer report disagree on the complete W export")
+    return {"source_run": source_run, "source_commit": source_commit,
+            "matched_output_paths": [report_name, export_record["filename"]],
+            "producer_source_identity": driver}
+
+
 def load_templates(args, limits, report):
     raw_report = checked_bytes(args.source_report, MAX_FILE_BYTES)
     if sha(raw_report) != args.source_report_sha256:
         raise ValueError("explicit published producer report hash mismatch")
     source_report = json.loads(raw_report)
-    if (source_report.get("schema") != local4.SCHEMA
-            or str(source_report.get("github_run_id")) != args.source_run
-            or source_report.get("github_sha") != args.source_commit):
-        raise ValueError("producer report source/run binding mismatch")
+    if source_report.get("schema") != local4.SCHEMA:
+        raise ValueError("producer report schema mismatch")
     if source_report["source_hashes"]["driver"] != identity(local4.__file__):
         raise ValueError("portable producer source changed; rebind explicitly")
     metadata = source_report.get("portable_W_expression_export")
@@ -321,6 +353,26 @@ def load_templates(args, limits, report):
         metadata = source_report.get("portable_original_expression_export")
     if not metadata:
         raise ValueError("a completed original W export is required")
+    publication_binding = None
+    if args.publication_receipt:
+        publication_raw = checked_bytes(args.publication_receipt, MAX_FILE_BYTES)
+        publication = json.loads(publication_raw)
+        publication_binding = verify_publication_binding(publication,
+            source_run=args.source_run, source_commit=args.source_commit,
+            report_name=args.source_report.name, report_bytes=len(raw_report),
+            report_sha=sha(raw_report), export_record=metadata,
+            driver_identity=source_report["source_hashes"]["driver"])
+        publication_binding.update(filename=args.publication_receipt.name,
+            bytes=len(publication_raw), sha256=sha(publication_raw))
+    observed_run = source_report.get("github_run_id")
+    observed_source = source_report.get("github_sha")
+    if observed_run is None and observed_source is None:
+        if publication_binding is None:
+            raise ValueError("compact producer report needs its real public publication receipt")
+        observed_run = publication_binding["source_run"]
+        observed_source = publication_binding["source_commit"]
+    if str(observed_run) != args.source_run or observed_source != args.source_commit:
+        raise ValueError("producer report source/run binding mismatch")
     packed = checked_bytes(args.templates, MAX_FILE_BYTES)
     if len(packed) != metadata["stored_bytes"] or sha(packed) != metadata["stored_sha256"]:
         raise ValueError("public original-expression export bytes changed")
@@ -355,6 +407,8 @@ def load_templates(args, limits, report):
             raise AssertionError("original third profile degree")
     report["template_input"] = {"producer_run": args.source_run,
         "producer_commit": args.source_commit, "producer_report_sha256": sha(raw_report),
+        "producer_completion": source_report.get("completion"),
+        "public_terminal_receipt_binding": publication_binding,
         "portable_export": metadata, "content_scope": data.get("content_scope", "W-and-local-target"),
         "used_roots": ["W"+str(j) for j in range(36)],
         "bound_W": binding, "original_36_root_hashes_matched": True,
@@ -497,6 +551,33 @@ def toy_only():
     checks["four_block_projection_keeps_only_even_total_degree"] = (
         four_block_projection(mixed) == {(2, 0): F(8), (0, 2): F(-20)})
     checks["no_m8_profile_used"] = max(a+b for value in (f,g,h) for a,b in value.terms) <= 3
+    export_toy = {"filename": "invented-W.gz", "stored_bytes": 7,
+                  "stored_sha256": sha(b"packed!"), "raw_bytes": 9,
+                  "raw_sha256": sha(b"original!")}
+    driver_toy = {"filename": "literature_local_fourth_quotient.py",
+                  "bytes": 4, "sha256": sha(b"code")}
+    publication_toy = {"schema": "visible-new-mechanism-actions-v1",
+        "repository": REPOSITORY, "run_id": "artificial-run",
+        "source_commit": "artificial-source", "lane": "local_fourth_quotient",
+        "source_files": {"topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py":
+                         {"bytes": 4, "sha256": sha(b"code")}},
+        "outputs": [{"path": "invented-main.json", "bytes": 2, "sha256": sha(b"{}"),
+                     "raw_bytes": 2, "raw_sha256": sha(b"{}")},
+                    {"path": export_toy["filename"], "bytes": 7, "sha256": export_toy["stored_sha256"],
+                     "raw_bytes": 9, "raw_sha256": export_toy["raw_sha256"]}]}
+    manifest_arguments = dict(source_run="artificial-run", source_commit="artificial-source",
+        report_name="invented-main.json", report_bytes=2, report_sha=sha(b"{}"),
+        export_record=export_toy, driver_identity=driver_toy)
+    binding = verify_publication_binding(publication_toy, **manifest_arguments)
+    checks["compact_report_uses_bound_public_manifest_source"] = (
+        binding["source_run"] == "artificial-run" and len(binding["matched_output_paths"]) == 2)
+    bad_publication = json.loads(json.dumps(publication_toy))
+    bad_publication["outputs"][0]["sha256"] = sha(b"wrong")
+    try:
+        verify_publication_binding(bad_publication, **manifest_arguments)
+        checks["incorrect_public_manifest_report_hash_rejected"] = False
+    except ValueError:
+        checks["incorrect_public_manifest_report_hash_rejected"] = True
     if not all(checks.values()):
         raise AssertionError({"new_artificial_checks": checks})
     return {"schema": SCHEMA+"-development", "completion": "complete", "all_passed": True,
@@ -510,6 +591,7 @@ def main():
     parser.add_argument("--toy-only", action="store_true")
     parser.add_argument("--templates", type=Path)
     parser.add_argument("--source-report", type=Path)
+    parser.add_argument("--publication-receipt", type=Path)
     parser.add_argument("--source-report-sha256")
     parser.add_argument("--source-run")
     parser.add_argument("--source-commit")

@@ -8,11 +8,11 @@ R110 已给一个真实方向 K=B_t1(tau_p1,t1) 的完整 pure −4 输出；R11
 
 新的有限目标是下列完整线性投影：
 
-$
+$$
 \mathcal R_8=\operatorname{span}\{\mathcal B_P(T):P\in E_8,\ T\in W\}
 \longrightarrow\mathbb Q[c,r],\qquad
 K\longmapsto K_{-4}[(c-\xi)^8](c-r).
-$
+$$
 
 E₈ 使用全部八个真实无迹矩阵算子，不再限制到旧正 bulk 的七维空间；W 使用已证明完整的 36 个真实外槽第三模板。运算保留全部 c/r 单项式和全部右原函数，不选一个有限数值节点集合。
 
@@ -35,6 +35,14 @@ W-only schema 为 visible-flex-R109-local-fourth-quotient-static-v1-original-exp
 
 若生产者在导出 W 之后因后续研究预算退出，已完成的 W 导出仍可消费；不要求后续局部第四目标完成。但生产者报告必须确实保存匹配的完整导出记录。没有这份公开导出就不运行实际消费，也不退回重编 W 的路径。
 
+### 已公开紧凑报告的伴随 receipt
+
+run 43645177423/source 2f1b809c0b0abb7a26303d36940edc203815f872 的局部生产者已完整导出 W，但其主报告因摘要长度门缩成 completion=output_limit，并未保留 github_run_id/github_sha。消费器不能跳过来源检查，也不修改该原报告。
+
+此时必须额外传 --publication-receipt 指向同目录公开 receipt.json。消费器严格核其中 repository、lane、run_id、source_commit；核 source_files 中原生产者的 bytes/SHA；核 outputs 中主报告的全部 bytes/raw_bytes/SHA，以及 W 导出的 packed/raw bytes/SHA。只有原主报告两个来源字段都缺失时，才使用这份已核终端发布记录中的来源；原字段存在而不匹配仍拒绝。
+
+本次主报告为 3982 bytes，SHA-256 19228a0aecf40416cf7ba7b8a7fa4e0180ed924a4bd04435b0e6e6e4a0b1b28a。W-only packed 7377 bytes，SHA-256 45cbdc8f38a4b5561924badaf9cd68a93a7fa71c6264d95489034703af4ee44a；raw 31750 bytes，SHA-256 615d848611aaf787bc3ae790b4b1f81fe91338301bcb57afdfd111758cf533bf。所有身份来自真实公开 receipt，生产者本身不修改。
+
 R110 输入为 notes/actions-43643100132-1-c7_transverse_tail_probe/c7-transverse-tail-probe.json：2179 bytes，SHA-256 c6c2c4c886dc5f115569ab4dd36176530efcf80ed12bb83b3d19223a7a279746；完整八项数组 SHA-256 e37a582bd52a0a7028e2794cd0d6084f050dc4a65b5905d949c00e9dcecdf850。原 t₁/tau_p1,t1 列不再评价。
 
 ## 3. 准确右锚与完整相位比例
@@ -45,12 +53,12 @@ R110 输入为 notes/actions-43643100132-1-c7_transverse_tail_probe/c7-transvers
 
 对每个原外方向 P 和原第三模板 τ，准确使用
 
-$
+$$
 K_{\rm pure}
 =2\tau(P(q,q);q,q)
 +4\tau(q;q,P(q,q))
 -4P(q,\tau(q;q,q)).
-$
+$$
 
 pure −4 输出为该完整式的 1/16，来源是
 φθ=(e⁻ⁱθq+eⁱθq̄)/2 的第四齐次相位展开。不存在另一个为结果调节的归一。
@@ -63,9 +71,9 @@ W36 使用原已证 THIRD_WEIGHTS；组合响应权 w 为两者之和。
 
 对于四次 m=8 输入，每一非零单项式必须满足
 
-$
+$$
 a+b=32+w\qquad(c^a r^b).
-$
+$$
 
 实际逐列验证这项结构，否则整个运算不发布数学结论。不同 w 的单项式支撑互不相交，因此完整投影秩是各 weight 块的准确秩之和。
 
@@ -83,10 +91,10 @@ $
 
 对一个 pure 尾单项式 cᵃrᵇ，反射倒行四块的作用为
 
-$
+$$
 2\{V(c,r)+V(-c,-r)\}
 =2(1+(-1)^{a+b})\,c^ar^b.
-$
+$$
 
 所以偶总次数乘四，奇总次数为零。对 homogeneous 32+w 列，恰是偶 w 保留、奇 w 消失。报告同时给完整 R8 右尾投影和这一四块后投影的准确秩、支撑与独立列。
 
@@ -100,7 +108,8 @@ $
 2. int_right 与双变量 J 的负号；
 3. 外槽及内槽顺序没有被错误交换；
 4. 人工有限多项式的准确秩、完整有理依赖；
-5. 混合总次数的四块投影。
+5. 混合总次数的四块投影；
+6. 人工伴随发布记录的正确来源接受，以及主报告 hash 错误时明确拒绝。
 
 人工输入次数至多三，不加载实际 W36、不调用 m=8 目标、不编译真实 forcing、不积分参考几何。当前容器不可用，本地未运行这套新检查；必须在公开 Actions 先作 py_compile 和 --toy-only，并如实保存其实际结果。
 

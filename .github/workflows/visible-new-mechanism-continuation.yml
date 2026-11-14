@@ -82,6 +82,7 @@ jobs:
             /topics/visible-flex-new-mechanism/notes/actions-43640503728-1-metric_epigraph_dense/
             /topics/visible-flex-new-mechanism/notes/actions-43642966285-1-metric_epigraph_exchange/
             /topics/visible-flex-new-mechanism/notes/actions-43643100132-1-c7_transverse_tail_probe/
+            /topics/visible-flex-new-mechanism/notes/actions-43645177423-1-local_fourth_quotient/
       - name: Prepare public output
         run: |
           git config gc.auto 0
@@ -98,6 +99,8 @@ jobs:
       - name: Actually pull main and check both README files before research
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+          VISIBLE_SYNC_LANE: ${{ matrix.lane }}
         run: |
           python - <<'PY'
           import json, os, sys
@@ -120,6 +123,44 @@ jobs:
               raise SystemExit('README changed: apply the new rules before research')
           p.git(repo,env,'checkout','--detach',source)
           print(json.dumps({'actual_pull':True,'readmes_read_commit':remote,'computation_source_restored':source}))
+          request=json.loads(Path('topics/visible-flex-new-mechanism/computations/request-continuation.json').read_text())
+          if request.get('sync_private_rules',False) and os.environ['VISIBLE_SYNC_LANE']=='full_m8_tail_response_projection':
+              from datetime import datetime, timezone
+              token=os.environ.get('MR_TOKEN','')
+              if not token: raise SystemExit('MR_TOKEN unavailable for the authorized private rule sync')
+              private=Path(os.environ['RUNNER_TEMP'])/'visible-new-mechanism-private-rule-sync'
+              penv=p.git_environment(token)
+              p.git(private.parent,penv,'clone','--filter=blob:none','--depth','1','--no-checkout','--branch','main',
+                  'https://github.com/Rogerhu12/math-research.git',str(private))
+              p.git(private,penv,'config','gc.auto','0')
+              p.git(private,penv,'config','maintenance.auto','false')
+              p.git(private,penv,'sparse-checkout','init','--no-cone')
+              p.git(private,penv,'sparse-checkout','set','--no-cone','/README.md','/QUEUE.md',
+                  '/topics/visible-flex-new-mechanism/README.md')
+              p.git(private,penv,'checkout','main')
+              pb=p.git(private,penv,'rev-parse','HEAD').stdout.strip()
+              p.git(private,penv,'pull','--rebase','--no-autostash','origin','main')
+              pa=p.git(private,penv,'rev-parse','HEAD').stdout.strip()
+              current={}
+              for path in p.READMES:
+                  value=p.git(private,penv,'rev-parse','--verify','HEAD:'+path,check=False)
+                  current[path]=value.stdout.strip() if value.returncode==0 else None
+              expected=request['private_rule_sync_expected_blobs']
+              changed=current!=expected
+              immediate=bool(p.git(private,penv,'diff','--name-only',pb,pa,'--',*p.READMES).stdout.strip())
+              rows=[line for line in (private/'QUEUE.md').read_text().splitlines()
+                  if '`topics/visible-flex-new-mechanism`' in line]
+              correct=len(rows)==1 and '进行中' in rows[0] and 'Astra-new-mechanism-9974ea84' in rows[0]
+              status={'actual_git_pull':True,'repository':'Rogerhu12/math-research',
+                  'at_utc':datetime.now(timezone.utc).isoformat(),'before':pb,'after':pa,
+                  'readme_blobs':current,'readmes_unchanged_since_recorded':not changed,
+                  'readmes_unchanged_during_this_pull':not immediate,'queue_unique_and_ongoing_for_this_session':correct,
+                  'private_contents_not_published':True}
+              p.write_json(out/'pre-research-private-pull.json',status)
+              if changed or immediate:
+                  raise SystemExit('Private README changed: read its private diff and apply it before continuing')
+              if not correct: raise SystemExit('Private QUEUE needs the authorized topic status update')
+              print(json.dumps(status))
           PY
       - name: Check new interface and run the bounded requested computation
         timeout-minutes: 30

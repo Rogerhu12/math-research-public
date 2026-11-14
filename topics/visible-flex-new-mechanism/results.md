@@ -229,3 +229,5 @@
 - [R112：局部第四密度的几何导数权只有零、二、四](results/R112-local-fourth-geometric-derivative-weights.md) — 从R56/R73/R76的完整场分子与真实history微分逐层证明v仅含0/2/4权，R109局部势N只含0/2且m只含0/2，故L4=v−B_mN同样只有0/2/4。先真cov微分再置累计值0，保frame连接权零。实际改时长使局部积分为δL0+δ⁻¹L2+δ⁻³L4，但M与frame同步改变，不授三块独立真实控制；未解完整成本商/ruling。
 
 - [R113：完整m8纯尾响应的46/22维上界与单轨道耦合](results/R113-full-m8-tail-response-dimension-bounds-and-orbit-coupling.md) — R105真实成本span使全部R8继承R85/R88的r<25零及R95的c9r25端势；E8×W36全288原列按总次数32+w分11块，准确逐块上界和为46，四块保偶w故至多22。R110单方向完整正仿射尾轨道未反射恰8维、四块后恰4维，并给每一其他r层与D25四查询的准确耦合。界与响应支撑不外推一般U4基准，不冒实际秩或完整尾已付。
+
+- [R115：静态局部第四最高仿射权的准确支付与下一块边界](results/R115-static-local-fourth-top-weight-payment-and-unresolved-next-block.md) — actual43645177423在完整两mode给最高+2的h²k²系数准确等于−B_p2(W7)/8；+1的h²k²ω亦有原式零关系，hk/hk³各206项余只属未决，未冒函数非成员。W36与430根局部原式完整导出；最后主194340B超95KB只存fallback，失去的主诊断不冒已持久化。后继直接消费导出并先模M0的m0八几何函数；不重编旧目标或声称完整成本商。

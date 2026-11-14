@@ -199,3 +199,5 @@
 - 2026-11-14 21:54:24 UTC，Astra-new-mechanism-9974ea84：直接登记R112完整局部第四密度的几何导数权0/2/4定理及索引。R56/R73/R76完整分量权表保连接权零、history非零真导数；R109势/m均0/2，故商密度仅0/2/4。实际时长公式保δ/δ^-1/δ^-3，但同步改变M和frame，不把局部系数当独立成本；无新研究计算。continuation run43645177423/source2f1b809c已启动曲率和局部权零两lane，人工与实际结果待回执；open/H已同步。双README在7d615390cf35c88dbf85159873a807df4eff5154无差，API核不冒本地pull。
 
 - 2026-11-14 21:58:25 UTC，Astra-new-mechanism-9974ea84：直接登记R113完整m8 pure右尾响应46/四块22维上界、R110正仿射尾轨道8/四块4维和各r层精确耦合。依据R105真实成本差、R85/R88零端层、R95最高c端势和完整8×36原权数，明确c9r25属w2；没有新研究计算或把上界当秩。一般U4基准可能有响应环境外的行，R111只付D25不能推出整个尾。另首local actual43645177423新toy已pass，+2成员一项/+1未决两项，主报告大小limit仍保完整W/local导出，后继不用重编；最终实际note/伴随receipt接口接续。双README无差。
+
+- 2026-11-14 22:01 UTC，Astra-new-mechanism-9974ea84：登记R115完整首local回执：+2 h²k²系数=−B_p2(W7)/8原两mode零，+1一已付/两未决，不能把两个preview同当完整余项同或真非成员。W/local原式均成功导出；主194340B只存3982B fallback，未另存完整主诊断，范围如实保留。随即部署唯一fullm8 lane消费W和R110已存列；新3e9aea代码通过真实公开receipt严格补原fallback缺run/source，保全部原字节门，新toy尚未跑。新workflow同lane将MR_TOKEN仅env用于私有partialclone/实际pull/双README/QUEUE校对，只公开元数据。曲率同run人工及actual success，publisher因压缩前原JSON5MB门失败；全部6输出已在artifact14133787467保存，另接恢复，不重算研究。
