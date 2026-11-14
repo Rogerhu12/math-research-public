@@ -512,3 +512,7 @@ request16/run43597596523/source89b0882真success：四源compile，flint0.9/160b
 
 完整R256直接登记：全部原常值行/左入口与exact chart零点双射，完整midpoint/global-p及入口core的J/JT，正阻尼模型精确解唯一并给严格下降式，显式矩形列预条件不改罚项。明确不推截停LSMR收敛、非线性真DN或曲面接受，不加独审门。
 request17/run43598917532/source4b8b2bf已于13:16:20Z实际启动，job132459290659在warm步骤；执行说明合并为单一constrained-trust-warm-interface，原三源不变。
+
+### 2026-11-14 13:21 UTC — restore same-g physical-boundary refinement with one actual live client
+
+失联未推Rφ v4重建为三独立新源：真实新M/H完整native J与原FD后，完全同一个client/worker/predictor及FrozenProfile进入原same-g fullmain；可选原QR/完整band，全部原门、真实新H与最终fresh audit不变。接受后保原cut/旧Rθ/完整谱审计，导出actual live finite-Gauss scalar sidecar并接原v4消费者；没有非零跨进程cache、没有伪造parent。三源AST/路径/冻结源SHA已核，无import或数值执行；完整CLI/SHA在same-g-physical-DN-live-client-interface。

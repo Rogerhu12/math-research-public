@@ -16,7 +16,7 @@ request10/run43590496434真失败：首线性残差/RHS=.913332499，方向max96
 
 ## 2. 定型后冻结同一材料g精化
 
-R240证明共同材料θ下g=ds²+a(s)²dθ²独立于核心c。第一次设计可调scalar；真正精化须冻结全部a(s;p*)、尾帽g、区间、参数及t范围，释放全部核心，取K0/k0/T=M，然后升频率、径向网格及积分精度。不能将不同scalar设计或不同t区间混为收敛序列。独立v4的prepare/response/full_dn与完整物理读出/尾包/闭面消费者均已准备，严格绑定首v3全部p*及同一canonical scalar SHA，尚无实际v4解。README要求等距误差随精化到机器或原求解容差，并要求每个有限场及t族C²；六jet用于曲率/reach可靠性，不新增六jet全体机器收敛门。帽中心使用固定图册，非线性角变换不得硬延到中心。
+R240证明共同材料θ下g=ds²+a(s)²dθ²独立于核心c。第一次设计可调scalar；真正精化须冻结全部a(s;p*)、尾帽g、区间、参数及t范围，释放全部核心，取K0/k0/T=M，然后升频率、径向网格及积分精度。不能将不同scalar设计或不同t区间混为收敛序列。独立v4的prepare/response/full_dn与完整物理读出/尾包/闭面消费者均已准备，严格绑定首v3全部p*及同一canonical scalar SHA，尚无实际v4解。 新Rφ v4三包装已按新身份重建：同一个真实live TailClient完成新H/J、原FD和原fullmain，保predictor、最终fresh audit及原门，实际live scalar sidecar与完整cut单独绑定；尚无真实parent可启动。见[same-g live-client接口](notes/2026-11-14-same-g-physical-DN-live-client-interface.md)。README要求等距误差随精化到机器或原求解容差，并要求每个有限场及t族C²；六jet用于曲率/reach可靠性，不新增六jet全体机器收敛门。帽中心使用固定图册，非线性角变换不得硬延到中心。
 
 旧A基准的真RK24/RK48非线性solve/J/audit、RK48真16+源节点读出、两共同网格、finitecollar和三闭mesh已经全部完成并发布，不继续列为ENOSPC中断，也不重复求解。24→48同f8二jet差7.03e−6，RK48 f8→16差.0029138，未机器稳定；原prefixcut metric平台4.77033e−8仍未重解。接缝外metric随精化下降至2.07608e−9，但不能替整闭同g频率精化。旧finitecollar全域界1.00139e−18只适用自己的H和背景。
 

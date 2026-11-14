@@ -4,9 +4,9 @@
 
 ## 授权、规矩与环境
 
-仅公开 Rogerhu12/math-research-public；已授权 commit/push main 及本仓Actions。PAT仅瞬时CLI环境，不入文件/日志/提交；不强推。根README授权及14条已读。每次push前及至少每小时实际pull --rebase，核根/本题README，变化只读diff并立即执行；非快进立即rebase/push到成功。root负责Git/H/open/log/workflow，子线交独立文件。
+仅公开 Rogerhu12/math-research-public；已授权 commit/push main 及本仓Actions。PAT仅瞬时CLI环境，不入文件/日志/提交；不强推。根README授权及14条已读。每次push前及至少每小时实际pull --rebase，核根/本题README，变化只读diff并立即执行；非快进立即rebase/push到成功。root负责Git/H/open/log/workflow。
 科学计算全部本仓Actions；本地仅源码、读取及取回结果。Rule12完整证明直接results，不设审批/独审门。H<10KB、MD<100KB、数据>1MB gzip、单Git文件<5MB；不写根LOG；禁完整克隆/gc/maintenance/大树ls-tree -l。
-12:35:50Z旧tmpfs丢失，Rule8保全期未冒实际pull；12:58恢复，新窄clone=/tmp/vl-public-20261114-1257/math-research-public；/workspace/scratch/visible-larger-1257为入口。原cwd失效，exec显式workdir；上层sync_public.py仅CLI临时env取PAT。未推Rφ v4正重建，不沿用失联SHA。
+12:35:50Z旧tmpfs丢失，Rule8保全期未冒实际pull；12:58恢复，新窄clone=/tmp/vl-public-20261114-1257/math-research-public；/workspace/scratch/visible-larger-1257为入口。原cwd失效，exec显式workdir；上层sync_public.py仅CLI临时env取PAT。未推Rφ v4已按新身份重建，不沿用失联SHA。
 
 ## 完成标准（尚未满足）
 
@@ -30,7 +30,7 @@ request10/11旧Rθ QR/band与request12实际P/方向诊断均已完整归档：�
 |14 / 43596465579|同699/新Rφ原QR小块119589.8，但全线相对.06731197/方向352.418；原回溯无接受、966invalid、新H0。未记逐trial域，不补造。artifact14114552872/publisher2d1a128。|
 |15 / 43596755251|保699旧点，原解析种子加374至1073；全原域及真J FD通过。全band相对2.936478e−6、方向1014.925，17trial全坏、最后399node/496mid；status1/max_nodes，RMS2.12563，新H0。artifact14114833371/publisher4818868。|
 
-对应本日 actual-direction-projection、actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure notes 保存全部源、SHA、原输出身份。request15 ZIP SHA83c3780de8ea9f54f4855a8751060d09c084969301c93adb4ae14a8f3216b1b3。
+对应本日 actual-direction-projection、actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure notes 保存全部源、SHA、原输出身份。request15 ZIP及全输出SHA见actual-bridge-resolution-failure。
 request15 actual局部Jac在a''=0旧峰值cell仍谱半径1.60766e5，L/R条件约1.8e12；末cell分60段后宏传播范数约2.22e23。这是实际有限谱诊断，不是严格界或连续circle特征值。R255理想circle强非正规剪切不能直接移植；盲目仅加bridge点/抬1200无据。
 
 ## 当前下一实际计算
@@ -42,7 +42,7 @@ request17/coupling112trust三独立源及完整接线已就绪（详见 constrai
 ## 尾、闭合、同g精化
 
 实际联解接受后立即自己的H尾、全角cut九jet/mean/core证书/球排除、唯一SE2、有限C²修补成本、上下尾及固定帽。完整physical含z0，不再加旧A mean；有限φ可有无限θ谱。R239连续充分定理不自动变有限DFT零接缝。v3 saved_prefix/readout/material_tail_packet/closed_assembly/after_accept已接，R252另审原Rθ、投影缺项、正确均值与完整谱。
-R240共同材料g=ds²+a(s)²dθ²独立core。首v3定型后冻结完整p*/a/尾帽/区间/t范围，释放全部core，K=k=0、T=M；v4为450/514维。原v4 prepare/response/fullDN及五消费者在库；新Rφ v4失联草稿由exact_refinement重建，尚无实际v4解。须同一live TailClient实际H/J→FD→solve，保worker predictor，不任意非零跨进程cache。
+R240共同材料g=ds²+a(s)²dθ²独立core。首v3定型后冻结完整p*/a/尾帽/区间/t范围，释放全部core，K=k=0、T=M；v4为450/514维。原v4 prepare及五消费者在库；新Rφ v4 response/fullDN/after_accept三独立源已重建、AST核并保全，见same-g-physical-DN-live-client-interface。真实新H/J→原FD→原fullmain共用live TailClient/worker predictor及同FrozenProfile，最终fresh audit和live scalar sidecar；无非零跨进程cache。未有实际parent/执行，二分预算须覆盖2*(nodes−1)+1，不能盲抄1200。
 已有full_state_continuous_cover/held_hausdorff绑定完整v3/v4、R249同definition、SE2/全mean；保原R241空间门、全活动块+完整帽盘的真像距离/D/.2门。包络仍条件；held可先于reach余对读取。显示预算N32/九相位，699–1200nodes的PLY≤4656978B，尾2305物理nodes不删。
 
 ## 新证明与严格消费者
