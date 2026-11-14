@@ -154,6 +154,38 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:01:44.123129+00:00",
+      "before": "e766a9fbb2dfbf955ef9df002bab85df4434daac",
+      "after": "7ca0537b71d5ab2aa0f83234d4584c112354136a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:01:46.328451+00:00",
+      "before": "7ca0537b71d5ab2aa0f83234d4584c112354136a",
+      "after": "53a15872f9889923d909c246824ea75a8f8fff25",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:01:49.135349+00:00",
+      "before": "53a15872f9889923d909c246824ea75a8f8fff25",
+      "after": "61782504bca24dda9adfe09fb8d0f44494bb9c54",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:01:52.176269+00:00",
+      "before": "61782504bca24dda9adfe09fb8d0f44494bb9c54",
+      "after": "3c2a75b9275b0a4c9bc8e9cc8d6d0cf7215d05ae",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -166,6 +198,11 @@
       "time": "2026-11-14T12:41:34.555260+00:00",
       "final": false,
       "commit": "ca4bf39a2281800f9b29cc4b78688e46ea61a221"
+    },
+    {
+      "time": "2026-11-14T12:51:40.949848+00:00",
+      "final": false,
+      "commit": "e99dcbe2fff5a289adb1e18d88e7b47afbe2e0bf"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -204,7 +241,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "e766a9fbb2dfbf955ef9df002bab85df4434daac",
+  "last_read_commit": "3c2a75b9275b0a4c9bc8e9cc8d6d0cf7215d05ae",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-projector-range-work/science",
   "disjoint_plan": {
     "slice_id": 9,
@@ -224,14 +261,14 @@
   "successful_new_ranges": [],
   "assigned_new_cells": 384,
   "original_slice_manifest_sha256": "6672aca04e7ec18d6e8b60513fc157b811c14009b1bae3e3019aa41016fcfbc3",
-  "snapshot_utc": "2026-11-14T12:51:37.075748+00:00",
-  "wall_seconds": 1836.3424142220001,
+  "snapshot_utc": "2026-11-14T13:01:44.161927+00:00",
+  "wall_seconds": 2443.428591381,
   "native_files": [
     {
       "logical_file": "native/validated-cells-03456-03840.json.gz",
       "file": "native/validated-cells-03456-03840.json.gz",
-      "bytes": 878623,
-      "sha256": "76ee2ea3d76cb7c37d9c42fdaa6bf80bc2fe1cd86768aae73bb66fd8eb9b2703"
+      "bytes": 1167699,
+      "sha256": "0c4e449076c2d7e75c216ca3975e12d65bef88412b3856b21078e04a6e164993"
     }
   ]
 }
