@@ -166,3 +166,6 @@
 
 
 - **R732（已证明的有限构造定理）**：[原曲线的代数周期核与有界有理函数恢复](results/R732-original-CM-period-kernel-and-bounded-rational-function-recovery.md)。原 closed periods 的完整权一正则化化为带标签 torsion 的有限代数和；准确 $K$-线性周期核等于原 Hom 空间，清分母/整数周期交配给真实微分与映射次数。有界 RR 前缀以极点度严格恢复两有理函数并在原 $c_0,c_1$ 求值；算法尚未执行函数表/β坐标，原高度数据仍缺。
+
+
+- **R734（全素数已证明）**：[每个允许素数都有其他本原单位 toric norm](results/R734-primitive-unit-toric-norm-at-every-prime.md)。对每个 $p\ge41$、$p\equiv5\pmod6$，完整六步 Legendre 递推给实际相邻零对至多两个，而 CRT 给至少三个本原相邻对，故存在 $h>1$ 真本原且 $N_h$ 单位；准确数量下界 $\lceil(K(m)-4)/2\rceil$。仍须同一标签的两个 Cartier 系数非零，未冒推全 $p$ 的 $M_2$ 单位或高度排除。
