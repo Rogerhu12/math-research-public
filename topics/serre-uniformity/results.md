@@ -244,3 +244,6 @@
 
 
 - **R759（方法已证明，工程已保存）**：[原完整整数周期格与映射次数方法](notes/R759-original-integral-period-lattice-and-map-degree-method.md)。全部1600行Hermite双包含、原双图/PD和degree正号、完整O_K格与exact LLL、明确cusp扩域/原c0下降及RR界已定。执行需R754实际成功周期；尚无整数格、次数、映射或β数值。
+
+
+- **R761（已证明）**：[原Γ/scalar普通交换项的整p可除性](results/R761-original-Gamma-scalar-ordinary-exchange-and-integral-p-division.md)。原θ极点与完整μp² phase、Γ ordinary divisor注入、A_B=0和全部43相位共同给WΓS∈43E_M；其唯一ordinary商L同时满足两个真实边界与三Norm零。未外推其他两对/顶cube，原Y坐标、ρ及J/b/σ₂仍待算。

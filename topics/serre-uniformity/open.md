@@ -349,7 +349,7 @@ $\langle[D_{0,p}],(d_0)_p\rangle=26\varepsilon b=\varepsilon(\mathcal L-31)$。
 **R753（原除法多项式一阶变分已证明）**：[完整证明](results/R753-original-division-polynomial-variation-and-three-torsion-unit.md)给原ψp≡−1、φp≡x^(p²) modp，及原H=(ψp+1)/p的全部非p指标。h1…hp=0，h_(p+1)=−1/2·binom((p−1)/2,(p+1)/3)为单位；原三挠点精确ψp(0)=−(−4)^((p²−1)/6)。导数信息留下N=(p−5)/6个x^(3mp)方向，现由下文R757补齐；原O点的临界Cartier单位仍须另外证明，不能用三挠点单位替代。
 
 
-**R756（原ordinary三Norm整格与准确cohomology已证明）**：[完整证明](results/R756-original-three-norm-ordinary-lattice-and-exact-scalar-cohomology.md)用同一Z移除全部divisor，构造ordinary U/V_i/W_ij/H及精确边界，尚未任意除p。原H¹(S,kerΓE_M)=k[T]/(N_T)，U_Y=(s−1)Y全q向量−4J·N_T+iD_T，标记class首系数19、下一系数保J；原flat仅J→J−18。实际E∩pU=pE把W_ij的ordinary可除性转成原p局部测试，三Norm本身不足；继续真实flat section/Iα与σ₂，未将模块形状认作b。
+**R756（原ordinary三Norm整格与准确cohomology已证明）**：[完整证明](results/R756-original-three-norm-ordinary-lattice-and-exact-scalar-cohomology.md)用同一Z移除全部divisor，构造ordinary U/V_i/W_ij/H及精确边界，尚未任意除p。原H¹(S,kerΓE_M)=k[T]/(N_T)，U_Y=(s−1)Y全q向量−4J·N_T+iD_T，标记class首系数19、下一系数保J；原flat仅J→J−18。实际E∩pU=pE把W_ij的ordinary可除性转成原p局部测试，三Norm本身不足；原Γ/S这一对现由下文R761解决，真实flat section/Iα与σ₂仍缺，未将模块形状认作b。
 
 
 **R757（原ψp模p²全部系数已证明）**：[完整证明](results/R757-full-original-division-polynomial-mod-p2-and-Frobenius-constant-units.md)对每个p5mod6给ψp≡pΣ_j binom(2j,j)x^(3(M−j))/[4^j(6j+1)] modp²，M=(p²−1)/6；最高Z_M极点不忽略。原形式对数/σ精确截断确定R753全部N个Frobenius方向且均为单位，常数端点推出binom(2M,M)≡−p16^M modp³。原临界T·C/T·Z³系数在此精度被抹掉，下文R760已给原σ更高精度桥；同h两Cartier单位与高度仍开。
@@ -362,3 +362,6 @@ $\langle[D_{0,p}],(d_0)_p\rangle=26\varepsilon b=\varepsilon(\mathcal L-31)$。
 
 
 **R759（完整整数周期格/次数方法已证明，实际数据待R754）**：[方法](notes/R759-original-integral-period-lattice-and-map-degree-method.md)以1600行完整HNF双包含得S=D H⁻¹Z¹²，原双图与PD确认Ω为Manin同调交配，映射degree=−aᵀΩ⁻¹b。正定整Gram、exact LLL及ζ作用均有待执行的全量核验，选12基中的短映射而不声称全局最小。原D=m(a)0及cusp工作域E=L(α,ξ)、先cusp平移再c0下降给完整RR界；代码/专用workflow已存，pending请求须填真正R754成功产物及SHA，当前未有整数格或次数数值。
+
+
+**R761（原Γ/S ordinary交换可除p已证明）**：[完整证明](results/R761-original-Gamma-scalar-ordinary-exchange-and-integral-p-division.md)保Y的真实θ极点、BΓ/BS全μp²相位以及全部ordinary divisor，Γ相位注入和A_B=0构造共同F；全部43个T相位给e∈pE_Ft+Ou，故WΓS∈43E_M。实际LΓS=−WΓS/p=(t−1)H同时πL=V_S、SL=VΓ、三Norm零。只解决Γ/S一对；ΓT/ST、π²L/S²L及原dual cochain下降仍须证明，ρ和全局Y坐标并未求值，不据此求J/b或σ₂。

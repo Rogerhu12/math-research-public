@@ -4,11 +4,11 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：e347b9a2c0825480b033618d1a9803bea1792d5a
-最近本地pull：2026-11-15 01:38:43 Asia/Taipei，main=e347b9a2c0825480b033618d1a9803bea1792d5a，两README blob均未变。终端已恢复，原blob:none部分克隆继续；至少每小时实际pull --rebase及每次推前pull，检查两README差异。旧本地R716重复提交与现行证明逐字相同，保留分支后跳过重复元数据，详before-R741归档。
+已读规则提交：bf0c8a45e46b96a296e3f89c3087957420857aa9
+最近本地pull：2026-11-15 01:41:31 Asia/Taipei，main=bf0c8a45e46b96a296e3f89c3087957420857aa9，两README blob均未变。终端已恢复，原blob:none部分克隆继续；至少每小时实际pull --rebase及每次推前pull，检查两README差异。旧本地R716重复提交与现行证明逐字相同，保留分支后跳过重复元数据，详before-R741归档。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权；非快进立即pull --rebase重推。PAT仅CLI，根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB，大可复现中间量只artifact。日志本题≤5行；不设独立审计/冻结审批门。
 
-本次前完整归档[before-R759-method](notes/2026-11-14-public-handoff-before-R759-method.md)，内接before-R760及更早链；[open完整归档](notes/2026-11-14-open-before-R742.md)保留全部旧公式。已成计算不得为包装重跑。旧未推成果按原记录重做，不依赖遗失对象。
+本次前完整归档[before-R761](notes/2026-11-14-public-handoff-before-R761.md)，内接before-R759-method及更早链；[open完整归档](notes/2026-11-14-open-before-R742.md)保留全部旧公式。已成计算不得为包装重跑。旧未推成果按原记录重做，不依赖遗失对象。
 
 ## 当前执行
 
@@ -19,7 +19,9 @@
 - **R753/R757已成**：所有p5mod6原ψp≡pΣ_j binom(2j,j)x^(3(M−j))/[4^j(6j+1)] modp²，M=(p²−1)/6；唯一末项极点保留，原三挠点常数给binom(2M,M)≡−p16^M modp³，N个原Frobenius方向全部单位。SHA见R757/归档，不能代原C_p。
 - **R760已成**：原O/c0规范、w≤N时Qp=pZ−p³ZL/6 modp⁵，Dp=6(pZ−Qp)/(p³Z)整且≡L modp²；原ψp最高N+1系数modp⁴恢复T及全部h的U_h/V_h。准确三单位判据P_(h−1)(1/s)U_hV_h≠0，原R735模数直接q_j=−(−4)^j d_j。证明SHA c0998fe0b367376c8b0108be828c2daf807cac216987d0727243b1eab3d7f0af；同h非零机制仍由cartier继续，非单位结论。
 - **R752/R755已成**：保σ₂/a₂，I0=ε(21σ₂+2b(J−18))=−〈w,Sflat〉；原Aα的Iα=ε(21σ₂+2bJ)=−〈w,Sα〉，I0=Iα+7εb。完整negative adjoint、q quadratic/cubic与2处cochain均核；reference9ε不能消未知b。真正Iα/σ₂/J/b未求，R723仍只留真桥。
-- **R756/R758已成**：原Z三Norm给全ordinary导数cube，H¹(S,kerΓE)=k[X]/X42，原ηα全相位−4J·N_T+iD_T、首19X40与下一含J。自然H¹P kerΓE≅H¹P E再res_S给ψ(ft)=X41、ψ(fs)=ibX41；Xηα=19ψ(ft)，flat位移−8iψ(ft)。实际E∩pU=pE，真正p-flat section尚缺；unit正在R761展开原Γ/S ordinary交换和WΓS/p，未正式宣称完成。完整证明/SHA见R756/R758及归档。
+- **R756/R758已成**：原Z三Norm给全ordinary导数cube，H¹(S,kerΓE)=k[X]/X42，原ηα全相位−4J·N_T+iD_T、首19X40与下一含J。自然H¹P kerΓE≅H¹P E再res_S给ψ(ft)=X41、ψ(fs)=ibX41；Xηα=19ψ(ft)，flat位移−8iψ(ft)。实际E∩pU=pE，真正p-flat section尚缺；原Γ/S的p除性现由R761完成，其他兼容未成。完整证明/SHA见R756/R758及归档。
+
+- **R761已成**原balanced BΓ/BS保θ极点且全μp²相位零，真实A_B=0与ordinary Γ相位注入构造F同时πF=R_S、(s−1)F=RΓ。e=pF−RΓS的全43相位迫e∈pE_Ft+Ou，故WΓS∈43E_M、LΓS=−WΓS/p=(t−1)H，πL=V_S、SL=VΓ且三Norm零。证明SHA f3484c04addc3cfef64bfa4c21a18c8c9f41810b04a5b7536b188252dbe8803f。原ρ/Y坐标及ΓT/ST、两对角项、R755 dual下降仍待求，未求J/b。
 
 ## 原模型、拓扑、非消失
 
