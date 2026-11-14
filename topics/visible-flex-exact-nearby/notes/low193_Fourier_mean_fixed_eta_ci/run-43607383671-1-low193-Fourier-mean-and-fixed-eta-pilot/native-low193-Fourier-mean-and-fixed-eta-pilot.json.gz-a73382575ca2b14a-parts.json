@@ -1,0 +1,52 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "snapshot-a73382575ca2b14afb810c2ed43ae0aec9d59aef563635a19f6785b414111993.json.gz",
+  "original_bytes": 6039443,
+  "original_sha256": "a73382575ca2b14afb810c2ed43ae0aec9d59aef563635a19f6785b414111993",
+  "native_kind": "actual_direct_Fourier_mean_and_fresh_fixed_eta_source_diagnostic_pilot_v1",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 14,
+  "original_source_sha256": "51a7f917aeb3849aafb44de17be709664ff19e39b92ca4ee08fbb5df1bbfda7f",
+  "candidate_sha256": null,
+  "parts": [
+    {
+      "file": "native-low193-Fourier-mean-and-fixed-eta-pilot.json.gz-a73382575ca2b14a-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "f78885eb29d615cbe1c0ec0aa5131db278efb401b08510ff6d89c3b6bf2e9e09",
+      "compressed_bytes": 2000260,
+      "compressed_sha256": "c0cbcd8fde2052fa200742c51c745f51f0ed9e0faeb0f78a537320b642d9fbb6"
+    },
+    {
+      "file": "native-low193-Fourier-mean-and-fixed-eta-pilot.json.gz-a73382575ca2b14a-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "f0b12f7cb763bf7171b22bdec91238d3fa9d119fa6a113b59a66a6ba1fc47675",
+      "compressed_bytes": 2000308,
+      "compressed_sha256": "621304b989d49d4b873eeb8346507c69bfd77c87df4f185c1981819e1eac66fb"
+    },
+    {
+      "file": "native-low193-Fourier-mean-and-fixed-eta-pilot.json.gz-a73382575ca2b14a-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 2000000,
+      "sha256": "3660d1e51aa31eb4fc39353f3987bd21ffb551944f529ba70cd2fc0a3d67c7ac",
+      "compressed_bytes": 2000465,
+      "compressed_sha256": "b7e52374bed40ede32fb59172ac95759bb3911f0d5fdfadf860493599a5e9c28"
+    },
+    {
+      "file": "native-low193-Fourier-mean-and-fixed-eta-pilot.json.gz-a73382575ca2b14a-parts-part003.bin.gz",
+      "index": 3,
+      "offset": 6000000,
+      "bytes": 39443,
+      "sha256": "252c23a6e2c15227db972d312e63d171e6f6812720eda256f88bf1f660dfbbee",
+      "compressed_bytes": 39476,
+      "compressed_sha256": "afa25fe8b40849bc571e1c86c5de0668b85c973b4b46c4cfae2454d2c9007f14"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}
