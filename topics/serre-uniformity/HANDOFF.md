@@ -4,8 +4,8 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：5b9221186b3dceaf17303230631dac394bbfb9cb
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei，两README无差异。公开Actions发布前实际pull并核规则；最近R717 direct-chirp在14:02:50UTC实际pull，无差异。最近GitHub集成核查：2026-11-14 14:43:19 UTC，两README无差异。执行环境unavailable，根规8允许仅由集成传<100KB小文本；每次读最新main/两README，以最新父提交无强推，拒绝即合并重试。终端恢复立即部分克隆/pull；至少每小时实际pull及读规则差异。原生集成核查不冒称本地pull。
+已读规则提交：317584e3956ed79b351430d4448c056de9552c23
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei，两README无差异。公开Actions发布前实际pull并核规则；最近R717 direct-chirp在14:02:50UTC实际pull，无差异。最近GitHub集成核查：2026-11-14 14:43:35 UTC，两README无差异。执行环境unavailable，根规8允许仅由集成传<100KB小文本；每次读最新main/两README，以最新父提交无强推，拒绝即合并重试。终端恢复立即部分克隆/pull；至少每小时实际pull及读规则差异。原生集成核查不冒称本地pull。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权，禁强推；终端非快进立即pull --rebase重推。PAT仅CLI，未交集成。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB、大中间量不入库。日志本题≤5行，改共享设施须说明；不设独立审计/冻结审批门。
 
 最新完整归档[本次压缩前交接](notes/2026-11-14-public-handoff-before-R729.md)，内接R724及更早归档链；原open完整公式在notes/2026-11-14-open-checkpoint-through-R721.md。旧本地对象不可依赖，未推结果须按原记录重做，摘要不代证书。已完成计算不得为包装重跑。
@@ -13,7 +13,7 @@
 ## 立即执行
 
 - R729全充分大允许p原M2非零/共同阶m1已证。R730进一步用全部嵌入Norm平均给某实际primitive h的vM2h≤5/2（p≥2^125）；同一有理jet比值/完整Hodge一次p界给16I_h(p9u)/(p9M2h)=u+pH，固定p9盘等距。仍缺整个候选p4及真实高度；h可随p变。
-- R727已推：原toric norm N_h≡−P_(h−1)(1/√−3)²，若N_h/C_(h−2)/C_(p−h−2)单位则原M2h赋值−2；一般Bruhat一次p损失+有理直线给全尾、vs>3整盘仅center。h7的N=−(47/9)²，实际137147旧C_(p−9)证书闭合这一组件。cartier继续全p实际h选择，保留primitivity/47例外。
+- R727已推：原toric norm N_h≡−P_(h−1)(1/√−3)²，若N_h/C_(h−2)/C_(p−h−2)单位则原M2h赋值−2；一般Bruhat一次p损失+有理直线给全尾、vs>3整盘仅center。h7的N=−(47/9)²，实际137147旧C_(p−9)证书闭合这一组件。cartier继续全p实际h选择，保留primitivity/47例外。notes/fixed-finite-h-primitivity-obstruction.md已证固定有限h>1会在两个允许类各无穷多p上全部非本原，须适应p或补h1。
 - R728已推原B=Res_(L+/Q)C的有限方程/全部正族分解；实际T^m=[η]、cTc=T⁻¹与Ramanujan e_n切原A，分解同源素于p。真实Néron格F_p′(b)⁻¹Zp[b]ω及其本原直和/极化/NS线丛已给。global继续原X1→C有理函数/β坐标及KS比较，未生成前不冒算高度。
 - R731已推全部原层普通NΓE_M=(p,s−1,N_T)E_B及真实q主化divZ=N_TP+Q、NΓZ=Aα。unit继续与X_t的真正交换链及J/b，数值未得；R599 §8 ep(dq)=(J/2)K0保持。
 - R707固定p41完整129盘=121排除+8CM，无有理尖点；183证明SHA账本已核，O5关闭，勿重跑R656/R709等完整链。

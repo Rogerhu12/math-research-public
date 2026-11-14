@@ -148,6 +148,10 @@ $h=7$ 时 $N_7\equiv-(47/9)^2$；
 须分别保留 $7\nmid p+1$ 与 $p\ne47$。
 实际137147的旧 $C_{p-9}=122674$ 给这一组件的完整盘结论；
 并未由此证明全 $p$ 存在可用 $h$ 或实际高度排除。
+[固定标签限制](notes/fixed-finite-h-primitivity-obstruction.md) 进一步用 CRT/Dirichlet 证明：
+任何固定有限组 $h>1$、$h\equiv1\bmod6$，在两个允许素数类各有无穷多个 $p$
+使全部 $h\mid p+1$，因而全非本原。须允许 $h$ 随 $p$ 变或保留 $h=1$ 的补充，
+不能用这条限制冒称原 Cartier 系数已零。
 
 
 [R730](results/R730-fixed-depth-original-Abel-isometry-by-all-embedding-norm.md)

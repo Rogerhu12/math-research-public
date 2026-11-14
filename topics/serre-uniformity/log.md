@@ -1061,3 +1061,9 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 每层原q residue Norm与Au'(1)=−13i给NΓE_M=(p,s−1,N_T)E_B及商k[T]/(N_T)，无外支撑遗漏。
 - 原q全局主化divZ=N_TP+Q可由普通单位精确校正NΓZ=Aα；完整torsor/两条ordinary kernel身份保留，未算J/b。
 - 核原R686/R718接口及Milne循环Hasse Norm；两README未变，无新正式计算，继续真实交换链。
+
+
+## 2026-11-14 22:43 Asia/Taipei · serre-public-resume-20261114
+- 完整短证固定有限h>1方案的本原性限制：CRT p≡−1mod∏h_i、p≡5/11mod18，Dirichlet在两类各给无穷多全部非本原标签。
+- 不否定随p选h或h1补充，不推断任何原Cartier系数零；路线边界写入note/open/HANDOFF。
+- 两README未变；继续全h实际配对、原q/β及普通Norm交换，不降低主完成标准。

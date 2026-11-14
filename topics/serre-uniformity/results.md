@@ -157,3 +157,6 @@
 
 
 - **R731（已证明）**：[全部原层的普通 Gamma Norm 与标记 q 主化](results/R731-complete-ordinary-Gamma-norms-and-marked-q-principalizations.md)。真实 $q$ 类填满 ambiguous socle，普通除子序列给 $H^1(\Gamma,\mathscr P)=0$；原 residue map 精确算得 $N_\Gamma E_{M_n}=(p,s-1,N_{T_n})E_{B_n}$。进一步在同一全局字段主化 $\operatorname{div}Z_n=N_{T_n}P_+Q_n$ 并用普通单位使 $N_\Gamma Z_n=A_\alpha$，保留全 torsor；尚未评价 $Z_n,J,b$。
+
+
+- **路线边界（已证明）**：[固定有限个本原标签不能覆盖全部允许素数](notes/fixed-finite-h-primitivity-obstruction.md)。CRT 与 Dirichlet 在两个允许素数类分别给无穷多 p，使任意预定有限组 h>1、h≡1mod6 全部整除 p+1；不否定适应 p 的选择或 h1 补充，也不声称实际 CM 系数消失。
