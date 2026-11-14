@@ -1,0 +1,103 @@
+{
+  "all_input_hashes_verified": true,
+  "artifacts": [
+    {
+      "file": "R739-cyclotomic-integer-audit.json.gz",
+      "sha256": "8921a2a723a01c5bf9e81ee131228cd83ea30b78400dd86d2f7ed617bc20e1d8"
+    }
+  ],
+  "complete": true,
+  "configuration": {
+    "arithmetic_sha256": "654a3cddd121f56569a1f4c04ac924297eaab295901cfb70ef1308a898165b54",
+    "inputs": {
+      "p41_polynomial": {
+        "path": "topics/serre-uniformity/computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-integer-polynomial.json.gz",
+        "sha256": "932899efb77482cb7712e8554376b6c6f65050620bf9a84485d610949ba0dbc7"
+      },
+      "p41_receipt": {
+        "path": "topics/serre-uniformity/computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-original-CM-norm.json",
+        "sha256": "fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6"
+      },
+      "p47_checkpoint": {
+        "path": "topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1/R739-fiber-checkpoint.json",
+        "sha256": "eb805a0fe9fdd6404a5e75cba77fdef0084ff85b94874565cfdd471841c49e5f"
+      },
+      "p47_fibers": {
+        "path": "topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1/R739-p47-h7-original-fibers.json.gz",
+        "sha256": "e01a1fda63168d8d32124199b06bf5627cb2ce68911eccaf8fb5ab3bdd0daa01"
+      },
+      "p47_receipt": {
+        "path": "topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1/R739-p47-h7-exact-N.json",
+        "sha256": "33afb0aad5f900baea0cb881a888e44815e2caad504633daed576812506fab88"
+      }
+    },
+    "new_DFTs": 0,
+    "new_fiber_enumerations": 0,
+    "new_lattice_terms": 0,
+    "p41_character_h": 37,
+    "p47_character_h": 7,
+    "result": "R739-reused-cyclotomic-valuations",
+    "workflow_sha256": "07f4a3be1f73ffb414ea62f7510ca9700ef6508704ed0165c6cd5c9e90afab78"
+  },
+  "height_or_Serre_exclusion_claimed": false,
+  "new_DFTs": 0,
+  "new_fiber_enumerations": 0,
+  "new_lattice_terms": 0,
+  "p41": {
+    "N_h_is_unit_by_R727": true,
+    "N_h_mod_p": 33,
+    "actual_h37_argument": [
+      "4982477405596578663372114927789680",
+      "6642536175125142163270051410129616"
+    ],
+    "digits": 21,
+    "h": 37,
+    "h1_value_recomputed": false,
+    "integer_polynomial_value": [
+      "1114799483959642221712312285402115",
+      "0"
+    ],
+    "modulus": "7386879101213258109624223688656841",
+    "normalized_P_leading_mod_p": 23,
+    "original_teichmuller_generator": [
+      "188342192737990671342077578945546",
+      "7178716602498407364896983477541367"
+    ],
+    "parity_assumed": false,
+    "prime": 41,
+    "same_original_tame_direction": true,
+    "teichmuller_extra_frobenius_squared_iterations": 8,
+    "twice_valuation_M2_h": -2,
+    "valuation_M2_h_as_rational": [
+      -1,
+      1
+    ],
+    "valuation_P_h": -2,
+    "valuation_P_parity": 0,
+    "valuation_exact_norm_of_integer_numerator": 20,
+    "valuation_integer_numerator": 3
+  },
+  "p47": {
+    "N_h_mod_p_to_digits": [
+      "490986333968611",
+      "0"
+    ],
+    "digits": 9,
+    "h": 7,
+    "leading_unit_mod_p": 38,
+    "modulus": "1119130473102767",
+    "parity_assumed": false,
+    "previous_v_at_least_four_preserved": true,
+    "prime": 47,
+    "same_original_generator_and_torus": true,
+    "teichmuller_extra_frobenius_squared_iterations": 3,
+    "teichmuller_generator": [
+      "1112308415063468",
+      "592402644238680"
+    ],
+    "valuation_N_h": 4,
+    "valuation_exact_norm": 8,
+    "valuation_parity": 0
+  },
+  "parity_inferred_from_mod_p_square": false
+}

@@ -1,0 +1,122 @@
+{
+  "request": {
+    "arithmetic_sha256": "654a3cddd121f56569a1f4c04ac924297eaab295901cfb70ef1308a898165b54",
+    "completed_results_must_be_reused": true,
+    "execution_environment": "public-repository-github-actions",
+    "fixed_evaluations": [
+      {
+        "h": 7,
+        "object": "original finite N_h",
+        "prime": 47
+      },
+      {
+        "h": 37,
+        "object": "original P_h=S2,h*S3,h/C0^2",
+        "prime": 41
+      }
+    ],
+    "height_or_Serre_exclusion_claimed": false,
+    "inputs": {
+      "p41_polynomial": {
+        "path": "topics/serre-uniformity/computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-integer-polynomial.json.gz",
+        "sha256": "932899efb77482cb7712e8554376b6c6f65050620bf9a84485d610949ba0dbc7"
+      },
+      "p41_receipt": {
+        "path": "topics/serre-uniformity/computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-original-CM-norm.json",
+        "sha256": "fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6"
+      },
+      "p47_checkpoint": {
+        "path": "topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1/R739-fiber-checkpoint.json",
+        "sha256": "eb805a0fe9fdd6404a5e75cba77fdef0084ff85b94874565cfdd471841c49e5f"
+      },
+      "p47_fibers": {
+        "path": "topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1/R739-p47-h7-original-fibers.json.gz",
+        "sha256": "e01a1fda63168d8d32124199b06bf5627cb2ce68911eccaf8fb5ab3bdd0daa01"
+      },
+      "p47_receipt": {
+        "path": "topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1/R739-p47-h7-exact-N.json",
+        "sha256": "33afb0aad5f900baea0cb881a888e44815e2caad504633daed576812506fab88"
+      }
+    },
+    "new_DFTs": 0,
+    "new_fiber_enumerations": 0,
+    "new_lattice_terms": 0,
+    "parity_assumed": false,
+    "precision_method": "exact cyclotomic norm bounds the selected nonnegative numerator valuation; retain the original Teichmuller generator and lift only as needed",
+    "result": "R739-reused-cyclotomic-valuations",
+    "revision": 1,
+    "workflow_sha256": "07f4a3be1f73ffb414ea62f7510ca9700ef6508704ed0165c6cd5c9e90afab78"
+  },
+  "request_sha256": "19c65240e71652e75f8fb6779c7ae75a18948b66ebaa9738f4e58f997db04aab",
+  "result": "R739-reused-cyclotomic-valuations",
+  "source_commit": "fe7dff36dda93b42650062e733ada73a0385d7d6",
+  "source_repository": "Rogerhu12/math-research-public",
+  "sources": [
+    {
+      "archive": "sources/topics/serre-uniformity/scripts/R739_reused_cyclotomic_valuations.py.gz",
+      "archive_sha256": "6fc44bfe2afc43ea368744b25a3bdd5afa42cc2e54027ee3fc57903a2999dc37",
+      "path": "topics/serre-uniformity/scripts/R739_reused_cyclotomic_valuations.py",
+      "sha256": "654a3cddd121f56569a1f4c04ac924297eaab295901cfb70ef1308a898165b54"
+    },
+    {
+      "archive": "sources/topics/serre-uniformity/notes/R739-cyclotomic-reuse-request.json.gz",
+      "archive_sha256": "bed1ff4a5262e24474cde6181098a0c4be13f8b7afe0e0de7752cbc753f9de91",
+      "path": "topics/serre-uniformity/notes/R739-cyclotomic-reuse-request.json",
+      "sha256": "19c65240e71652e75f8fb6779c7ae75a18948b66ebaa9738f4e58f997db04aab"
+    },
+    {
+      "archive": "sources/.github/workflows/serre-R739-cyclotomic-reuse.yml.gz",
+      "archive_sha256": "83ac37358953359cc01df7958813fae4c1d75933f5a18c820455fb98afb6f8ec",
+      "path": ".github/workflows/serre-R739-cyclotomic-reuse.yml",
+      "sha256": "07f4a3be1f73ffb414ea62f7510ca9700ef6508704ed0165c6cd5c9e90afab78"
+    },
+    {
+      "archive": "sources/topics/serre-uniformity/scripts/p41_public_actions_recovery.py.gz",
+      "archive_sha256": "5a3d0f17f819a646a94ab8eff6a48823db0edf0a7cdbcfd58f4a5dc25b472a2d",
+      "path": "topics/serre-uniformity/scripts/p41_public_actions_recovery.py",
+      "sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e"
+    },
+    {
+      "archive": "sources/README.md.gz",
+      "archive_sha256": "049816cbfe3110f2816d5d9f9a702f2ccbad1e2838538e60d0ddc681b96a4431",
+      "path": "README.md",
+      "sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2"
+    },
+    {
+      "archive": "sources/topics/serre-uniformity/README.md.gz",
+      "archive_sha256": "410f2f04782efdd16858f074149a398f9fa52b0d1f435eca70591466aefec7ab",
+      "path": "topics/serre-uniformity/README.md",
+      "sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8"
+    },
+    {
+      "archive": "sources/topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1/R739-fiber-checkpoint.json.gz",
+      "archive_sha256": "086d3faed92967f8983780ab54e9ab583c3882b533ef9810f27c9d81e6e99bd7",
+      "path": "topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1/R739-fiber-checkpoint.json",
+      "sha256": "eb805a0fe9fdd6404a5e75cba77fdef0084ff85b94874565cfdd471841c49e5f"
+    },
+    {
+      "archive": "sources/topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1/R739-p47-h7-exact-N.json.gz",
+      "archive_sha256": "22c894d0b9c6376409d9590285dca508b6c60deae9a17323acbf4d20ceec0096",
+      "path": "topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1/R739-p47-h7-exact-N.json",
+      "sha256": "33afb0aad5f900baea0cb881a888e44815e2caad504633daed576812506fab88"
+    },
+    {
+      "archive": "sources/topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1/R739-p47-h7-original-fibers.json.gz.gz",
+      "archive_sha256": "cdc84ac73d5dae5759b62cc374ad0a5823e2741ff7afa699c65855da6d04a721",
+      "path": "topics/serre-uniformity/computations/R739-original-finite-norm-p47-h7/43609325075-1/R739-p47-h7-original-fibers.json.gz",
+      "sha256": "e01a1fda63168d8d32124199b06bf5627cb2ce68911eccaf8fb5ab3bdd0daa01"
+    },
+    {
+      "archive": "sources/topics/serre-uniformity/computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-integer-polynomial.json.gz.gz",
+      "archive_sha256": "3bec3a2e33acbe60b3296258a90cb712024cd30620f858c7bfdc22dfbf93e917",
+      "path": "topics/serre-uniformity/computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-integer-polynomial.json.gz",
+      "sha256": "932899efb77482cb7712e8554376b6c6f65050620bf9a84485d610949ba0dbc7"
+    },
+    {
+      "archive": "sources/topics/serre-uniformity/computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-original-CM-norm.json.gz",
+      "archive_sha256": "ffaae00044d52e905b7da22d0e23aaa8019cacf452b61344822f18239f7ce125",
+      "path": "topics/serre-uniformity/computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-original-CM-norm.json",
+      "sha256": "fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "complete": true,
+  "completed_results_recomputed": false,
+  "core_receipt_sha256": "6704f8813440fbd85e91206541fdb9c1c9296f8742cb5169ee6696932ee3cf7e",
+  "execution_environment": "public-repository-github-actions",
+  "height_or_Serre_exclusion_claimed": false,
+  "p41": {
+    "N_h_is_unit_by_R727": true,
+    "N_h_mod_p": 33,
+    "actual_h37_argument": [
+      "4982477405596578663372114927789680",
+      "6642536175125142163270051410129616"
+    ],
+    "digits": 21,
+    "h": 37,
+    "h1_value_recomputed": false,
+    "integer_polynomial_value": [
+      "1114799483959642221712312285402115",
+      "0"
+    ],
+    "modulus": "7386879101213258109624223688656841",
+    "normalized_P_leading_mod_p": 23,
+    "original_teichmuller_generator": [
+      "188342192737990671342077578945546",
+      "7178716602498407364896983477541367"
+    ],
+    "parity_assumed": false,
+    "prime": 41,
+    "same_original_tame_direction": true,
+    "teichmuller_extra_frobenius_squared_iterations": 8,
+    "twice_valuation_M2_h": -2,
+    "valuation_M2_h_as_rational": [
+      -1,
+      1
+    ],
+    "valuation_P_h": -2,
+    "valuation_P_parity": 0,
+    "valuation_exact_norm_of_integer_numerator": 20,
+    "valuation_integer_numerator": 3
+  },
+  "p47": {
+    "N_h_mod_p_to_digits": [
+      "490986333968611",
+      "0"
+    ],
+    "digits": 9,
+    "h": 7,
+    "leading_unit_mod_p": 38,
+    "modulus": "1119130473102767",
+    "parity_assumed": false,
+    "previous_v_at_least_four_preserved": true,
+    "prime": 47,
+    "same_original_generator_and_torus": true,
+    "teichmuller_extra_frobenius_squared_iterations": 3,
+    "teichmuller_generator": [
+      "1112308415063468",
+      "592402644238680"
+    ],
+    "valuation_N_h": 4,
+    "valuation_exact_norm": 8,
+    "valuation_parity": 0
+  },
+  "result": "R739-reused-cyclotomic-valuations",
+  "runtime_seconds": 0.4737585160000002,
+  "source_commit": "fe7dff36dda93b42650062e733ada73a0385d7d6",
+  "status": "COMPLETED_REUSED_INPUT_EXACT_ALGEBRA"
+}
