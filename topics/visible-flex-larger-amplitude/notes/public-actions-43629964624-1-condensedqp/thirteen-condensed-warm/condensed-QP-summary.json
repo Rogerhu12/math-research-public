@@ -1,0 +1,2621 @@
+{
+  "schema": "actual-condensed-QP-compact-summary-v1",
+  "comparison": {
+    "schema": "original-C-versus-R270-condensed-full-H-v1",
+    "same_original_A_b_damping_B_c": true,
+    "original_C_candidate_retained": true,
+    "original_C_objective": 44.251404941685465,
+    "original_C_selection": {
+      "selection": "feasible-segment-minimum",
+      "original_ray_gdot": -1.2657866987969983,
+      "original_ray_model_curvature": 1.2657678661464427,
+      "original_ray_model_minimizer_factor": 1.0,
+      "original_ray_feasibility_repair": {
+        "factor": 0.00010112888735894439,
+        "repairs": [
+          {
+            "attempt": 0,
+            "rho": 9887.371424977813,
+            "R265_factor": 0.00010112888735894584,
+            "actual_factor": 0.00010112888735894439,
+            "original_slack": {
+              "size": 26624,
+              "finite_count": 26624,
+              "minimum": -73.58997895982073,
+              "maximum": 15.251996594568357,
+              "negative_count": 1986,
+              "zero_count": 0
+            }
+          }
+        ],
+        "all_rows_verified": true,
+        "final_slack": {
+          "size": 26624,
+          "finite_count": 26624,
+          "minimum": 3.5561831257524545e-17,
+          "maximum": 0.4994500600603808,
+          "negative_count": 0,
+          "zero_count": 0
+        },
+        "direction_changed": true
+      },
+      "projected_candidate_feasibility_repair": {
+        "factor": 0.0023338144775536846,
+        "repairs": [
+          {
+            "attempt": 0,
+            "rho": 427.483073362451,
+            "R265_factor": 0.002333814477553718,
+            "actual_factor": 0.0023338144775536846,
+            "original_slack": {
+              "size": 26624,
+              "finite_count": 26624,
+              "minimum": -24.965924458013635,
+              "maximum": 48.18766969721137,
+              "negative_count": 244,
+              "zero_count": 0
+            }
+          }
+        ],
+        "all_rows_verified": true,
+        "final_slack": {
+          "size": 26624,
+          "finite_count": 26624,
+          "minimum": 8.326672684688674e-16,
+          "maximum": 0.499454760017934,
+          "negative_count": 0,
+          "zero_count": 0
+        },
+        "direction_changed": true
+      },
+      "segment_first_derivative_at_backup": -0.0016722089340118114,
+      "segment_curvature": 5.65089529605327e-06,
+      "segment_parameter": 1.0,
+      "composed_direction_feasibility_repair": {
+        "factor": 1.0,
+        "repairs": [],
+        "all_rows_verified": true,
+        "final_slack": {
+          "size": 26624,
+          "finite_count": 26624,
+          "minimum": 8.326672684688674e-16,
+          "maximum": 0.499454760017934,
+          "negative_count": 0,
+          "zero_count": 0
+        },
+        "direction_changed": false
+      },
+      "backup_damped_model_decrease": 0.00012800112794628785,
+      "selected_damped_model_decrease": 0.0017973846143100722,
+      "actual_full_model_directional_derivative": -0.0018003856572044342,
+      "weighted_J_direction_squared": 2.2433475468158283e-06,
+      "actual_damping_penalty": 3.7587382419079836e-06,
+      "actual_scaled_direction_L2": 7.180542832004376e-06,
+      "original_damped_model_gradient_L2": 959438.3477862928,
+      "final_all_10240_linear_slack": {
+        "size": 26624,
+        "finite_count": 26624,
+        "minimum": 8.326672684688674e-16,
+        "maximum": 0.499454760017934,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "all_original_linear_rows_rechecked_after_every_repair_and_combination": true,
+      "complete_R265_quadratic_optimality_claimed": false,
+      "projection_multipliers_not_reused_as_model_multipliers": true,
+      "R265_zero_dual_E": 6313593.574779776,
+      "R265_zero_dual_posterior_scope": "Feasible selected vector and zero dual only; may be a loose model bound",
+      "new_scientific_gate": false
+    },
+    "selected_candidate": "R270-condensed-complete-H",
+    "full_QP_optimality_claimed": false,
+    "actual_parent_warm_sha256": "8ce98e5b325eae8188f8b4c707d1abfaa109e50a790c9abe5850ef1a52d08b75",
+    "actual_B_model_sha256": "a90001ac0cdf6019bf43eb6807e8cc577e968e0d5e8328e1b1ba2ea7cfd202cd",
+    "exact_condensation_is_a_real_arithmetic_theorem": true,
+    "computed_local_root_not_assumed_equal_to_original_H": true,
+    "candidate_absolute_monotonic_deadline": 919.394886134,
+    "local_QP_absolute_monotonic_deadline": 889.394886134,
+    "original_absolute_monotonic_deadline": 1268.560174237,
+    "conditional_recovery": {
+      "direction": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "6f846cc46901db7a22cd528ffe90d2f6787b572d67f673426a87b3d702151e0e",
+        "bytes": 1888288,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "original_A_AT_B_readback_still_required": true,
+      "only_one_final_full_chain_recovery_requested": true,
+      "outside_raw_LSMR_coordinates_not_frozen": true
+    },
+    "helper_completed": true,
+    "condensed_candidate_objective": 43.844546783272705,
+    "condensed_candidate_selection": {
+      "selection": "feasible-segment-minimum",
+      "original_ray_gdot": -1.2657866987969983,
+      "original_ray_model_curvature": 1.2657678661464427,
+      "original_ray_model_minimizer_factor": 1.0,
+      "original_ray_feasibility_repair": {
+        "factor": 0.00010112888735894439,
+        "repairs": [
+          {
+            "attempt": 0,
+            "rho": 9887.371424977813,
+            "R265_factor": 0.00010112888735894584,
+            "actual_factor": 0.00010112888735894439,
+            "original_slack": {
+              "size": 26624,
+              "finite_count": 26624,
+              "minimum": -73.58997895982073,
+              "maximum": 15.251996594568357,
+              "negative_count": 1986,
+              "zero_count": 0
+            }
+          }
+        ],
+        "all_rows_verified": true,
+        "final_slack": {
+          "size": 26624,
+          "finite_count": 26624,
+          "minimum": 3.5561831257524545e-17,
+          "maximum": 0.4994500600603808,
+          "negative_count": 0,
+          "zero_count": 0
+        },
+        "direction_changed": true
+      },
+      "projected_candidate_feasibility_repair": {
+        "factor": 0.9999999999991195,
+        "repairs": [
+          {
+            "attempt": 0,
+            "rho": 8.661668589763636e-13,
+            "R265_factor": 0.9999999999991338,
+            "actual_factor": 0.9999999999991195,
+            "original_slack": {
+              "size": 26624,
+              "finite_count": 26624,
+              "minimum": -1.421640583032513e-13,
+              "maximum": 0.6892904196717379,
+              "negative_count": 4,
+              "zero_count": 0
+            }
+          }
+        ],
+        "all_rows_verified": true,
+        "final_slack": {
+          "size": 26624,
+          "finite_count": 26624,
+          "minimum": 1.942890293094024e-15,
+          "maximum": 0.6892904196715501,
+          "negative_count": 0,
+          "zero_count": 0
+        },
+        "direction_changed": true
+      },
+      "segment_first_derivative_at_backup": -0.8084600188192144,
+      "segment_curvature": 0.7998649538401572,
+      "segment_parameter": 1.0,
+      "composed_direction_feasibility_repair": {
+        "factor": 1.0,
+        "repairs": [],
+        "all_rows_verified": true,
+        "final_slack": {
+          "size": 26624,
+          "finite_count": 26624,
+          "minimum": 1.942890293094024e-15,
+          "maximum": 0.6892904196715501,
+          "negative_count": 0,
+          "zero_count": 0
+        },
+        "direction_changed": false
+      },
+      "backup_damped_model_decrease": 0.00012800112794628785,
+      "selected_damped_model_decrease": 0.40865554302708174,
+      "actual_full_model_directional_derivative": -0.8086697931212347,
+      "weighted_J_direction_squared": 0.3412370824910173,
+      "actual_damping_penalty": 0.4587914176972886,
+      "actual_scaled_direction_L2": 0.0025086719763673404,
+      "original_damped_model_gradient_L2": 3805.5952082916815,
+      "final_all_10240_linear_slack": {
+        "size": 26624,
+        "finite_count": 26624,
+        "minimum": 1.942890293094024e-15,
+        "maximum": 0.6892904196715501,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "all_original_linear_rows_rechecked_after_every_repair_and_combination": true,
+      "complete_R265_quadratic_optimality_claimed": false,
+      "projection_multipliers_not_reused_as_model_multipliers": true,
+      "R265_zero_dual_E": 99.33165219048428,
+      "R265_zero_dual_posterior_scope": "Feasible selected vector and zero dual only; may be a loose model bound",
+      "new_scientific_gate": false
+    },
+    "condensed_candidate_original_full_direction": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "d69b43e72b6be00b632cfb925ceac6a58be5867da2c33fec2ebaf1482625d85f",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "global_selector_changed_conditional_recovery": true,
+    "conditional_optimum_not_claimed_after_global_selector_change": true,
+    "final_actual_full_model_evidence": {
+      "label": "final-selected-original-full-model",
+      "objective": 43.844546783272705,
+      "actual_gdot": -0.8086697931212347,
+      "actual_damped_model_decrease": 0.40865554302708174,
+      "all_original_linear_slack": {
+        "size": 26624,
+        "finite_count": 26624,
+        "minimum": 1.942890293094024e-15,
+        "maximum": 0.6892904196715501,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "required_direction_fields_finite": true,
+      "all_original_rows_feasible": true,
+      "actual_original_stationarity_L2": 0.00034893309016046156,
+      "actual_original_stationarity_finite": true,
+      "actual_complementarity_sum": 8.763576837099334e-10,
+      "R267_lower_bound_raw_float": 43.84454678239551,
+      "R267_quadratic_residual_term_raw_float": 8.350775130927901e-13,
+      "multipliers_nonnegative": true,
+      "posterior_nonfinite_is_not_an_extra_acceptance_gate": true,
+      "floating_point_posterior_is_not_a_validated_enclosure": true,
+      "original_A_AT_B_BT_freshly_evaluated": true,
+      "full_QP_optimality_claimed": false,
+      "direction": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "d69b43e72b6be00b632cfb925ceac6a58be5867da2c33fec2ebaf1482625d85f",
+        "bytes": 1888288,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "actual_A_direction": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "49e5985bbeed2118b7c405423d0c772fc0e515734bc6a925709990a222498359",
+        "bytes": 1888288,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "actual_B_direction": {
+        "shape": [
+          26624
+        ],
+        "dtype": "<f8",
+        "sha256": "5c6e2c212f02b20f1e4632cb10a4262aca1f2bf4232c5d9a89706961862b9b78",
+        "bytes": 212992,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "multipliers": {
+        "shape": [
+          26624
+        ],
+        "dtype": "<f8",
+        "sha256": "490b09a9599f35d6cc97ad2f1161d7749a624d9e9853e0093fab7768b6948992",
+        "bytes": 212992,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "actual_original_gradient": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "7fce3254d05e124a31b9a93d9cce78200b295563513e7a12c033021fbc872a9e",
+        "bytes": 1888288,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "actual_original_stationarity": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "84ec2c475d9b1a7c12a24cdf66adb9a462cc7bfd2552eff836e0ae7a7100a96d",
+        "bytes": 1888288,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      }
+    },
+    "R267_evidence_lower_bounds": [
+      {
+        "point": "original-C-zero-dual",
+        "lower_bound_raw_float": -6313549.323374834
+      },
+      {
+        "point": "conditional-recovery-before-original-global-selector",
+        "lower_bound_raw_float": 43.844546782395504
+      },
+      {
+        "point": "final-selected-original-full-model",
+        "lower_bound_raw_float": 43.84454678239551
+      }
+    ],
+    "best_R267_lower_bound_raw_float": 43.84454678239551,
+    "final_cross_point_gap_raw_float": 8.771934290052741e-10,
+    "final_cross_point_distance_bound_raw_float": 1.551311166310468e-07,
+    "posterior_is_not_a_validated_enclosure": true,
+    "helper_seconds_including_factor_condensation_QP_recovery": 79.46440986599998,
+    "final_actual_full_A_AT_B_BT_readback": true,
+    "full_nonlinear_trials_are_the_unchanged_downstream_engine": true,
+    "new_BVP_or_native_acceptance_claimed": false,
+    "actual_saved_result": {
+      "file": "condensed-QP-result.json.gz",
+      "sha256": "3e4bb7182c32a8d7ddd56f1c0650d04f102c5fb7cfc85501199e60a64f3e661c",
+      "bytes": 218593,
+      "array_manifest": "condensed-array-manifest.json",
+      "array_manifest_sha256": "e39db1b973a2fca4b96f5a84e83d190f5f4ab8a57e90ac039336f94346a5f172"
+    },
+    "condensed_QP_entry": {
+      "schema": "exact-constraint-thirteen-query-condensed-complete-H-warm-v1",
+      "entry_source_sha256": "7785f4eb905da4c3e80ba988c79fa8a34b0a27017e6b8abc99764d8105eccc7c",
+      "frozen_dependencies": {
+        "geometry_20261114_twelve_query_projection_warm.py": "10ed25405930f3775d8fb88f007aa50be4a53f4b3421904be959f1890ed67477",
+        "geometry_20261114_twelve_query_domain_operator.py": "6a428d2f8412659cbd318321aa992c3b4565ff41177131a9cc9d268c6fbb7b1f",
+        "geometry_20261114_fixed_support_halfspaces.py": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+        "geometry_20261114_full_metric_projection_warm.py": "8fb6411e7b876713725a80c2dbe9e322cc277001b0692ccc59e0edd59ec4e8b0",
+        "geometry_20261114_full_metric_inequality_correction.py": "d5e9432e979859ed7d5277452ac058eb93e99da1cae7f96f700f15d7359d919c",
+        "exact_20261114_regularized_block_qr.py": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722",
+        "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+        "geometry_20261114_twelve_query_qr_projection_warm.py": "4b768828f754f75d760980d596f198984e92f5ceac79832123c74e42985a5c67",
+        "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
+        "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
+        "geometry_20261114_condensed_projection_warm.py": "5d398d3d702e0fd93af3777504fc1d4e918110c7e5f0683601eac5d21c49914a",
+        "geometry_20261114_thirteen_query_domain_operator.py": "d674a64e11cfac1f57f0c24166546a55045847633935dddb8ef53df4024d3cff"
+      },
+      "actual_parent_warm_sha256": "8ce98e5b325eae8188f8b4c707d1abfaa109e50a790c9abe5850ef1a52d08b75",
+      "actual_parent_status_sha256": "70be19b675c9f558cddbfa9532777a119a7bbe0629f505368e1588842aade30d",
+      "actual_parent_schema": "exact-constraint-twelve-query-condensed-complete-H-warm-v1",
+      "initial_actual45_warm_sha256": "8ce98e5b325eae8188f8b4c707d1abfaa109e50a790c9abe5850ef1a52d08b75",
+      "initial_actual45_status_sha256": "70be19b675c9f558cddbfa9532777a119a7bbe0629f505368e1588842aade30d",
+      "query_specs": {
+        "original_entries": 13,
+        "first": {
+          "kind": "left-RMS",
+          "interval": 470,
+          "fraction": 0.17267316464601146
+        },
+        "last": {
+          "kind": "collocation-midpoint",
+          "interval": 482,
+          "fraction": 0.5
+        },
+        "complete_entries_in_result": true
+      },
+      "original_full_coordinates": 236036,
+      "complete_B_local_coordinates": 4735,
+      "selected_angle_row_count": 26624,
+      "thirteen_query_operator_source_sha256": "d674a64e11cfac1f57f0c24166546a55045847633935dddb8ef53df4024d3cff",
+      "added_query": {
+        "kind": "collocation-midpoint",
+        "interval": 482,
+        "fraction": 0.5
+      },
+      "unique_capture_intervals": [
+        470,
+        471,
+        472,
+        473,
+        475,
+        477,
+        479,
+        480,
+        481,
+        482
+      ],
+      "complete_B_physical_nodes": [
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483
+      ],
+      "complete_B_outside_C_nodes": [
+        470,
+        483
+      ],
+      "left_RMS482_not_added": true,
+      "original_twelve_query_parent_producer_preserved": true,
+      "condensation": "R270 full affine square-root elimination; g is original A-transpose b",
+      "original_lambda_and_row_and_chart_weights_unchanged": true,
+      "outside_variables_conditionally_optimized_not_frozen": true,
+      "free_core109_eliminated_with_all_pure_global_rows": true,
+      "all_three_global_controls_remain_local_unknowns": true,
+      "complete_QR_column_preconditioner": "none",
+      "baseline_C_support_nodes": [
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482
+      ],
+      "baseline_C_support_dimension": 4059,
+      "fixed_support_description_applies_only_to_baseline_C": true,
+      "actual_same_f_C_comparison_retained": true,
+      "original_seventeen_trials_and_RMS_and_boundary_checks_retained": true,
+      "original_midpoint_observer_retained": true,
+      "nonlinear_native_solved": false,
+      "full_BVP_accepted": false,
+      "local_QP_budgets": {
+        "maximum_working_rows": 256,
+        "dual_sweeps": 200,
+        "candidate_seconds": 600.0,
+        "recovery_reserve_seconds": 30.0,
+        "original_trial_reserve_seconds": 90.0
+      },
+      "local_root_raw_arrays_exported": true,
+      "every_parent_producer_subtree_preserved": true
+    }
+  },
+  "local_QP_report": {
+    "schema": "complete-R270-local-inequality-working-model-v1",
+    "scope": "Bounded optimization in the full local Schur quadratic; all outside variables recovered with their affine optimum afterward.",
+    "original_full_coordinate_count": 236036,
+    "local_coordinate_count": 4735,
+    "original_inequality_row_count": 26624,
+    "local_indices": {
+      "shape": [
+        4735
+      ],
+      "dtype": "<i8",
+      "sha256": "89b4a98d2b5819e4c3479dc5c77c74a9c519e73ab2913db783851f8ce1d807e8",
+      "bytes": 37880,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "actual_g": {
+      "shape": [
+        4735
+      ],
+      "dtype": "<f8",
+      "sha256": "aed9e6e5e354ceb1aa8ae979cbd08469281c12767ffcc36301cb233297dfc430",
+      "bytes": 37880,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "actual_center": {
+      "shape": [
+        4735
+      ],
+      "dtype": "<f8",
+      "sha256": "ac98689a4916d55f28df7626ae6acc56f5e59a951a147629f762d97971e61f92",
+      "bytes": 37880,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "original_C_local": {
+      "shape": [
+        4735
+      ],
+      "dtype": "<f8",
+      "sha256": "e7b818ae722060430d3511fe2d3a24bda8df7be535b5c0a588637feccf75a904",
+      "bytes": 37880,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "maximum_working_rows": 256,
+    "actual_working_rows": [
+      14336,
+      14347,
+      4096,
+      2048,
+      13279,
+      15327,
+      18443,
+      18486,
+      5109,
+      19412,
+      18475,
+      9140,
+      13301,
+      5087,
+      2059,
+      18432,
+      12331,
+      14390,
+      18508,
+      0,
+      17397,
+      19434,
+      19424,
+      20480,
+      22528,
+      9205,
+      8279,
+      13247,
+      15284,
+      21493,
+      21483,
+      20502,
+      9194,
+      18519,
+      19391,
+      7092,
+      14358,
+      11199,
+      10327,
+      23487,
+      21428,
+      9151,
+      20534,
+      20524,
+      9173,
+      21472,
+      24576,
+      17386,
+      22583,
+      10294,
+      23520,
+      23530,
+      11231,
+      10251,
+      18529,
+      8290,
+      19347,
+      9183,
+      6242,
+      11220,
+      25589,
+      18551,
+      16438,
+      23509,
+      8192,
+      15317,
+      11155,
+      1013,
+      3050,
+      19401,
+      19423,
+      7103,
+      23476,
+      23541,
+      21417,
+      12364,
+      8300,
+      21471,
+      21461,
+      9161,
+      9184,
+      13290,
+      21439,
+      5098,
+      17375,
+      7038,
+      7081,
+      5077,
+      20535,
+      24598,
+      15295,
+      10240,
+      14423,
+      22625,
+      22572,
+      22582,
+      10261,
+      22,
+      12288,
+      6198,
+      4150,
+      2102,
+      12375,
+      12342,
+      10359,
+      16384,
+      17343,
+      17365,
+      19370,
+      21407,
+      9086,
+      15339,
+      5088,
+      18530,
+      25568,
+      22615,
+      11188,
+      6252,
+      6285,
+      13291,
+      12332,
+      16460,
+      12386,
+      14434,
+      14380,
+      10381,
+      970,
+      25590,
+      22549,
+      23519,
+      11232,
+      9096,
+      7124,
+      3039,
+      5055,
+      18562,
+      18552,
+      11209,
+      11221,
+      13204,
+      15252,
+      16471,
+      19348,
+      22637,
+      11167,
+      15230,
+      12418,
+      6144,
+      9075,
+      9172,
+      9195,
+      2091,
+      2113,
+      991,
+      5044,
+      10371,
+      7135,
+      18453,
+      16428,
+      20589,
+      9119,
+      8246,
+      7125,
+      6264,
+      6241,
+      13280,
+      15328,
+      17376,
+      16482,
+      8344,
+      15219,
+      13171,
+      2124,
+      22647,
+      6155,
+      11112,
+      11166,
+      8311,
+      959,
+      981,
+      7016,
+      21494,
+      25557,
+      7113,
+      15240,
+      12408,
+      20599,
+      15263,
+      6165,
+      4117,
+      6263,
+      12385,
+      17353,
+      11156,
+      4183,
+      16492,
+      19315,
+      23466,
+      15208,
+      13160,
+      8323,
+      23421,
+      948,
+      6253,
+      10360,
+      8355,
+      11101,
+      2135,
+      20611,
+      24597,
+      25567,
+      4140,
+      4194,
+      21406,
+      11242,
+      8278,
+      22626,
+      7037,
+      32,
+      3040,
+      11134,
+      7136,
+      12343,
+      15305,
+      20588,
+      14467,
+      20566,
+      23432,
+      23422,
+      23444,
+      22538,
+      17342,
+      18563,
+      7146,
+      20600,
+      8301,
+      14455,
+      12419,
+      12407,
+      20610,
+      19390,
+      10208,
+      10197,
+      10218,
+      9314,
+      10185,
+      22431,
+      10164,
+      9324,
+      22507,
+      22495,
+      9216,
+      20501,
+      21558,
+      21548,
+      22441
+    ],
+    "maximum_dual_sweeps": 200,
+    "active_stop_reason": "maximum-working-row-budget",
+    "elapsed_seconds": 43.112776010000005,
+    "local_actions": {
+      "local_H_actions": 775,
+      "local_H_inverse_calls": 256
+    },
+    "original_B_actions": {
+      "B_local": 1035,
+      "BT_local": 517,
+      "rows_read": 256
+    },
+    "original_local_center_evidence": {
+      "name": "unconstrained-local-center",
+      "condensed_objective_without_constant": -0.5901970409384711,
+      "local_direction": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "sha256": "ac98689a4916d55f28df7626ae6acc56f5e59a951a147629f762d97971e61f92",
+        "bytes": 37880,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "multipliers": {
+        "shape": [
+          26624
+        ],
+        "dtype": "<f8",
+        "sha256": "cb23208fde932abc44744f972cb3ca31f965ee37a99b5ea1d447e1bdd60dd9c0",
+        "bytes": 212992,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "all_original_slack": {
+        "size": 26624,
+        "finite_count": 26624,
+        "minimum": -73.6198805524724,
+        "maximum": 15.251217985743239,
+        "negative_count": 1986,
+        "zero_count": 0
+      },
+      "maximum_relative_violation": 9887.657154507271,
+      "worst_relative_row": {
+        "row": 14336,
+        "query_index": 7,
+        "kind": "left-RMS",
+        "interval": 480,
+        "angle_index": 0
+      },
+      "worst_relative_slack": -26.15273689321134,
+      "worst_relative_c": 0.002644988239836943,
+      "local_stationarity_L2": 5.176806552361902e-13,
+      "local_stationarity_Linf": 1.1368683772161603e-13,
+      "complementarity_sum": 0.0,
+      "multipliers_nonnegative": true,
+      "full_QP_optimality_claimed": false
+    },
+    "conditional_local_zero_candidate": {
+      "name": "local-zero-with-outside-to-be-optimized",
+      "condensed_objective_without_constant": 0.0,
+      "local_direction": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "sha256": "b4f250286a6bf750b7d7edad92d399888d57ebacd4a3ba8d58dadd78b25e726d",
+        "bytes": 37880,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "multipliers": {
+        "shape": [
+          26624
+        ],
+        "dtype": "<f8",
+        "sha256": "cb23208fde932abc44744f972cb3ca31f965ee37a99b5ea1d447e1bdd60dd9c0",
+        "bytes": 212992,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "all_original_slack": {
+        "size": 26624,
+        "finite_count": 26624,
+        "minimum": 0.002644988239836943,
+        "maximum": 0.4994499887348867,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "maximum_relative_violation": 0.0,
+      "worst_relative_row": {
+        "row": 0,
+        "query_index": 0,
+        "kind": "left-RMS",
+        "interval": 470,
+        "angle_index": 0
+      },
+      "worst_relative_slack": 0.058402135695430735,
+      "worst_relative_c": 0.058402135695430735,
+      "local_stationarity_L2": 3895.620521879031,
+      "local_stationarity_Linf": 846.5806874950084,
+      "complementarity_sum": 0.0,
+      "multipliers_nonnegative": true,
+      "full_QP_optimality_claimed": false
+    },
+    "original_C_local_candidate": {
+      "name": "original-C-local-coordinates",
+      "condensed_objective_without_constant": -0.0015982768215489374,
+      "local_direction": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "sha256": "e7b818ae722060430d3511fe2d3a24bda8df7be535b5c0a588637feccf75a904",
+        "bytes": 37880,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "multipliers": {
+        "shape": [
+          26624
+        ],
+        "dtype": "<f8",
+        "sha256": "cb23208fde932abc44744f972cb3ca31f965ee37a99b5ea1d447e1bdd60dd9c0",
+        "bytes": 212992,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "all_original_slack": {
+        "size": 26624,
+        "finite_count": 26624,
+        "minimum": 8.326672684688674e-16,
+        "maximum": 0.499454760017934,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "maximum_relative_violation": 0.0,
+      "worst_relative_row": {
+        "row": 0,
+        "query_index": 0,
+        "kind": "left-RMS",
+        "interval": 470,
+        "angle_index": 0
+      },
+      "worst_relative_slack": 8.326672684688674e-16,
+      "worst_relative_c": 0.058402135695430735,
+      "local_stationarity_L2": 3901.808936015765,
+      "local_stationarity_Linf": 847.985693661047,
+      "complementarity_sum": 0.0,
+      "multipliers_nonnegative": true,
+      "full_QP_optimality_claimed": false
+    },
+    "final_selection": "same-condensed-objective-feasible-segment",
+    "segment_parameter": 1.0,
+    "segment_first_derivative": -0.7199575771730115,
+    "segment_curvature": 0.7112160507202924,
+    "final_evidence": {
+      "name": "final-condensed-feasible-segment",
+      "condensed_objective_without_constant": -0.3659478286344143,
+      "local_direction": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "sha256": "f8744c8684b012532078b49d0e276c02934f3e3bbd043a1bcada9ce87ccf39a5",
+        "bytes": 37880,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "multipliers": {
+        "shape": [
+          26624
+        ],
+        "dtype": "<f8",
+        "sha256": "4183b8c4cad4d5671abc9562bd42d7f9dbba316f40aaeebd58ca6c46b4e7da65",
+        "bytes": 212992,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "all_original_slack": {
+        "size": 26624,
+        "finite_count": 26624,
+        "minimum": 4.274358644806853e-15,
+        "maximum": 0.6892904196717377,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "maximum_relative_violation": 0.0,
+      "worst_relative_row": {
+        "row": 9151,
+        "query_index": 4,
+        "kind": "left-RMS",
+        "interval": 475,
+        "angle_index": 959
+      },
+      "worst_relative_slack": 4.274358644806853e-15,
+      "worst_relative_c": 0.16413010591430482,
+      "local_stationarity_L2": 0.00034892863113300456,
+      "local_stationarity_Linf": 7.582777504921978e-05,
+      "complementarity_sum": 8.763498929347964e-10,
+      "multipliers_nonnegative": true,
+      "full_QP_optimality_claimed": false
+    },
+    "final_local_radial_repair": {
+      "factor": 1.0,
+      "repairs": [],
+      "all_rows_verified": true,
+      "final_slack": {
+        "size": 26624,
+        "finite_count": 26624,
+        "minimum": 4.274358644806853e-15,
+        "maximum": 0.6892904196717377,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "direction_changed": false
+    },
+    "local_repair_before_affine_outside_recovery": true,
+    "final_global_radial_may_break_conditional_optimality": true,
+    "outside_variables_not_frozen": true,
+    "final_full_A_AT_B_and_nonlinear_trials_not_run_in_this_module": true,
+    "full_QP_optimality_claimed": false,
+    "floating_point_readouts_are_not_validated_enclosures": true,
+    "no_constraints_or_control_columns_removed": true
+  },
+  "last_saved_local_stage": {
+    "stage": 255,
+    "actual_working_rows": [
+      14336,
+      14347,
+      4096,
+      2048,
+      13279,
+      15327,
+      18443,
+      18486,
+      5109,
+      19412,
+      18475,
+      9140,
+      13301,
+      5087,
+      2059,
+      18432,
+      12331,
+      14390,
+      18508,
+      0,
+      17397,
+      19434,
+      19424,
+      20480,
+      22528,
+      9205,
+      8279,
+      13247,
+      15284,
+      21493,
+      21483,
+      20502,
+      9194,
+      18519,
+      19391,
+      7092,
+      14358,
+      11199,
+      10327,
+      23487,
+      21428,
+      9151,
+      20534,
+      20524,
+      9173,
+      21472,
+      24576,
+      17386,
+      22583,
+      10294,
+      23520,
+      23530,
+      11231,
+      10251,
+      18529,
+      8290,
+      19347,
+      9183,
+      6242,
+      11220,
+      25589,
+      18551,
+      16438,
+      23509,
+      8192,
+      15317,
+      11155,
+      1013,
+      3050,
+      19401,
+      19423,
+      7103,
+      23476,
+      23541,
+      21417,
+      12364,
+      8300,
+      21471,
+      21461,
+      9161,
+      9184,
+      13290,
+      21439,
+      5098,
+      17375,
+      7038,
+      7081,
+      5077,
+      20535,
+      24598,
+      15295,
+      10240,
+      14423,
+      22625,
+      22572,
+      22582,
+      10261,
+      22,
+      12288,
+      6198,
+      4150,
+      2102,
+      12375,
+      12342,
+      10359,
+      16384,
+      17343,
+      17365,
+      19370,
+      21407,
+      9086,
+      15339,
+      5088,
+      18530,
+      25568,
+      22615,
+      11188,
+      6252,
+      6285,
+      13291,
+      12332,
+      16460,
+      12386,
+      14434,
+      14380,
+      10381,
+      970,
+      25590,
+      22549,
+      23519,
+      11232,
+      9096,
+      7124,
+      3039,
+      5055,
+      18562,
+      18552,
+      11209,
+      11221,
+      13204,
+      15252,
+      16471,
+      19348,
+      22637,
+      11167,
+      15230,
+      12418,
+      6144,
+      9075,
+      9172,
+      9195,
+      2091,
+      2113,
+      991,
+      5044,
+      10371,
+      7135,
+      18453,
+      16428,
+      20589,
+      9119,
+      8246,
+      7125,
+      6264,
+      6241,
+      13280,
+      15328,
+      17376,
+      16482,
+      8344,
+      15219,
+      13171,
+      2124,
+      22647,
+      6155,
+      11112,
+      11166,
+      8311,
+      959,
+      981,
+      7016,
+      21494,
+      25557,
+      7113,
+      15240,
+      12408,
+      20599,
+      15263,
+      6165,
+      4117,
+      6263,
+      12385,
+      17353,
+      11156,
+      4183,
+      16492,
+      19315,
+      23466,
+      15208,
+      13160,
+      8323,
+      23421,
+      948,
+      6253,
+      10360,
+      8355,
+      11101,
+      2135,
+      20611,
+      24597,
+      25567,
+      4140,
+      4194,
+      21406,
+      11242,
+      8278,
+      22626,
+      7037,
+      32,
+      3040,
+      11134,
+      7136,
+      12343,
+      15305,
+      20588,
+      14467,
+      20566,
+      23432,
+      23422,
+      23444,
+      22538,
+      17342,
+      18563,
+      7146,
+      20600,
+      8301,
+      14455,
+      12419,
+      12407,
+      20610,
+      19390,
+      10208,
+      10197,
+      10218,
+      9314,
+      10185,
+      22431,
+      10164,
+      9324,
+      22507,
+      22495,
+      9216,
+      20501,
+      21558,
+      21548,
+      22441
+    ],
+    "newly_added_row": {
+      "row": 22441,
+      "query_index": 10,
+      "kind": "collocation-midpoint",
+      "interval": 475,
+      "angle_index": 1961
+    },
+    "last_dual": {
+      "sweep": 200,
+      "largest_coordinate_update": 5.772746650817805e-10,
+      "normalized_working_slack_min": -2.1297770491646162e-10,
+      "normalized_complementarity": 1.0235912750622995e-10
+    },
+    "completed_dual_sweeps": 200,
+    "dual_stop_reason": "maximum-dual-sweeps",
+    "working_Gram_asymmetry_Linf": 2.55351295663786e-15,
+    "no_Gram_symmetrization_or_ridge": true,
+    "actual_unrepaired": {
+      "name": "local-working-stage-255-unrepaired",
+      "condensed_objective_without_constant": -0.3659478294084076,
+      "local_direction": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "sha256": "912b8e7a9099f80c2913e8618217853b2a7c3e695637b06312eb3255ffb87d67",
+        "bytes": 37880,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "multipliers": {
+        "shape": [
+          26624
+        ],
+        "dtype": "<f8",
+        "sha256": "44849f592efb39e5f5e962b9cf1bb16ccdf709516c26ec6937ab84cb175a18db",
+        "bytes": 212992,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "all_original_slack": {
+        "size": 26624,
+        "finite_count": 26624,
+        "minimum": -2.1171822239818283e-08,
+        "maximum": 0.6892904387649428,
+        "negative_count": 510,
+        "zero_count": 0
+      },
+      "maximum_relative_violation": 8.956944533774364e-08,
+      "worst_relative_row": {
+        "row": 9151,
+        "query_index": 4,
+        "kind": "left-RMS",
+        "interval": 475,
+        "angle_index": 959
+      },
+      "worst_relative_slack": -1.4701042549969401e-08,
+      "worst_relative_c": 0.16413010591430482,
+      "local_stationarity_L2": 4.122739831439033e-11,
+      "local_stationarity_Linf": 8.640199666842818e-12,
+      "complementarity_sum": 1.0235976231228538e-10,
+      "multipliers_nonnegative": true,
+      "full_QP_optimality_claimed": false
+    },
+    "local_only_radial_repair": {
+      "factor": 0.9999999104305483,
+      "repairs": [
+        {
+          "attempt": 0,
+          "rho": 8.956944533774364e-08,
+          "R265_factor": 0.9999999104305626,
+          "actual_factor": 0.9999999104305483,
+          "original_slack": {
+            "size": 26624,
+            "finite_count": 26624,
+            "minimum": -2.1171822239818283e-08,
+            "maximum": 0.6892904387649428,
+            "negative_count": 510,
+            "zero_count": 0
+          }
+        }
+      ],
+      "all_rows_verified": true,
+      "final_slack": {
+        "size": 26624,
+        "finite_count": 26624,
+        "minimum": 4.274358644806853e-15,
+        "maximum": 0.6892904196717377,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "direction_changed": true
+    },
+    "actual_repaired": {
+      "name": "local-working-stage-255-repaired",
+      "condensed_objective_without_constant": -0.3659478286344143,
+      "local_direction": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "sha256": "9d1b2d0869abf6524be0e490e42d9e54fdc277ca17487fe015e4d2100a10e018",
+        "bytes": 37880,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "multipliers": {
+        "shape": [
+          26624
+        ],
+        "dtype": "<f8",
+        "sha256": "4183b8c4cad4d5671abc9562bd42d7f9dbba316f40aaeebd58ca6c46b4e7da65",
+        "bytes": 212992,
+        "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+      },
+      "all_original_slack": {
+        "size": 26624,
+        "finite_count": 26624,
+        "minimum": 4.274358644806853e-15,
+        "maximum": 0.6892904196717377,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "maximum_relative_violation": 0.0,
+      "worst_relative_row": {
+        "row": 9151,
+        "query_index": 4,
+        "kind": "left-RMS",
+        "interval": 475,
+        "angle_index": 959
+      },
+      "worst_relative_slack": 4.274358644806853e-15,
+      "worst_relative_c": 0.16413010591430482,
+      "local_stationarity_L2": 0.000348928631138267,
+      "local_stationarity_Linf": 7.582777504921978e-05,
+      "complementarity_sum": 8.763498931171554e-10,
+      "multipliers_nonnegative": true,
+      "full_QP_optimality_claimed": false
+    }
+  },
+  "condensation_report": {
+    "schema": "complete-original-H-local-support-square-root-condensation-v1",
+    "source_sha256": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
+    "frozen_factor_source_sha256": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722",
+    "status": "complete",
+    "no_new_J": true,
+    "no_new_ODE_or_boundary": true,
+    "normal_Schur_matrix_not_formed": true,
+    "exterior_variables_not_fixed_to_zero": true,
+    "full_affine_column_retained": true,
+    "pure_global_root_retained": true,
+    "no_QP_optimality_claim": true,
+    "nonlinear_accepted": false,
+    "local_hessian_is_rounded_square_root_model": true,
+    "exact_original_H_identity_claimed_only_in_exact_arithmetic": true,
+    "all_final_constraints_must_use_actual_recovered_full_vector": true,
+    "borrowed_factor_is_never_closed": true,
+    "arrays_artifact_only": true,
+    "local_H_action_calls": 775,
+    "local_H_action_rhs_columns": 775,
+    "local_H_solve_calls": 256,
+    "local_H_solve_rhs_columns": 256,
+    "local_H_action_seconds": 9.363063199000464,
+    "local_H_solve_seconds": 4.8287165489994095,
+    "local_H_solve_mandatory_residual_actions": 256,
+    "recover_calls": 1,
+    "original_complete_recovery_solves": 1,
+    "completed_reverse_fronts": 215,
+    "NumPy": "2.3.5",
+    "SciPy": "1.17.0",
+    "dimension": 236036,
+    "physical_nodes": 698,
+    "physical_block": 338,
+    "free_core": 109,
+    "scalar_controls": 3,
+    "global_border": 112,
+    "first_retained_physical_node": 470,
+    "last_retained_physical_node": 483,
+    "retained_physical_nodes": 14,
+    "local_dimension": 4735,
+    "left_exterior_physical_nodes": 469,
+    "right_exterior_physical_nodes": 215,
+    "exterior_core_dimension": 109,
+    "complete_B_support_is_callers_verified_contract": true,
+    "no_B_row_is_truncated_or_evaluated_by_this_library": true,
+    "original_gradient": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 1888288,
+      "raw_sha256": "14e671f0e221dcf6810df18365a6b4737336f6a3253812c830956f7159d219d6"
+    },
+    "original_gradient_is_callers_same_A_transpose_b_contract": true,
+    "original_g_is_not_replaced_by_a_computed_center": true,
+    "factor_column_scale": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 1888288,
+      "raw_sha256": "9b08f0931e78d526bc1402a65f8e161a89417b79fa5378d6f37e092079c07201"
+    },
+    "original_local_indices": {
+      "shape": [
+        4735
+      ],
+      "dtype": "<i8",
+      "order": "C",
+      "bytes": 37880,
+      "raw_sha256": "157c3999fc3afd77b2f40193bee04522b7f74ca6c68f8fb754e466e801d6cecb"
+    },
+    "damping": 270.0,
+    "damping_squared": 72900.0,
+    "original_factor_input_arrays": {
+      "L": {
+        "shape": [
+          698,
+          338,
+          338
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 637938496,
+        "raw_sha256": "10657620380e879680976765040161209540955ad3557ad2a8d30b6bb6b29643"
+      },
+      "R": {
+        "shape": [
+          698,
+          338,
+          338
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 637938496,
+        "raw_sha256": "1e2953d4ec8047551c0aa205c647132cef3e5deaf5172d4cc6b52486bbbab239"
+      },
+      "P": {
+        "shape": [
+          698,
+          338,
+          3
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 5662176,
+        "raw_sha256": "60f52df7d6c722723cb4cded898237aa29e0985c65b58b7bcf6dd0ae2d07dbcc"
+      },
+      "BY": {
+        "shape": [
+          112,
+          338
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 302848,
+        "raw_sha256": "39096332693b8df723ccd486d33975c2997b02c71075357e729c3d5c0f8c3124"
+      },
+      "BC": {
+        "shape": [
+          112,
+          109
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 97664,
+        "raw_sha256": "bfccfc98fa4512e6f8c97170ce8cbccc5018849cb882a97b62228deb8155417a"
+      },
+      "BP": {
+        "shape": [
+          112,
+          3
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 2688,
+        "raw_sha256": "bb270d5b01806f81489807bec2d3a07d07d3df4ecca188d9390cf4323ddbbee1"
+      },
+      "inlet": {
+        "shape": [
+          338,
+          109
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 294736,
+        "raw_sha256": "442c1192ae5bdc59ab46e4c3c50d9255f99aa61b08a5073fea214e6dcea86731"
+      },
+      "S": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 1888288,
+        "raw_sha256": "2a6a3ff75f07ac02d0a623ca916d48eee5eddadcc65249e9ff2e6457c5e1a12c"
+      },
+      "Wr": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 1888288,
+        "raw_sha256": "b5da78da6436d57b4caf4b6689d7a17259741ecb27a936045567641c983dbc12"
+      }
+    },
+    "original_factor_input_identity_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+    "original_factor_array_identities": {
+      "diagonal": {
+        "shape": [
+          698,
+          338,
+          338
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 637938496,
+        "raw_sha256": "ae0db0e8fd63cd6b0ca202231e820d5e2f46b78056ffa62836f8ccb8c3902202",
+        "file": null
+      },
+      "next-physical": {
+        "shape": [
+          697,
+          338,
+          338
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 637024544,
+        "raw_sha256": "6f118dd8aab6c296ba567ec87dcf2d08d32a379a9720517070684c8c0a379180",
+        "file": null
+      },
+      "global-border": {
+        "shape": [
+          698,
+          338,
+          112
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 211387904,
+        "raw_sha256": "5d4f70a867206c673ba4d2baea40412362583fbe9120b7760eb09b656cb102fe",
+        "file": null
+      },
+      "global-diagonal": {
+        "shape": [
+          112,
+          112
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 100352,
+        "raw_sha256": "2b528ef77c2a51e1ee93787ca273589d6ce2ba6387c90ec939397836e4684c60",
+        "file": null
+      }
+    },
+    "factor_source_sha256": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722",
+    "deadline": 919.394886134,
+    "memory_budget": {
+      "borrowed_factor_bytes": 1486451296,
+      "complete_affine_column_bytes": 1888288,
+      "reverse_front_bytes": 4266912,
+      "central_with_affine_bytes": 187753440,
+      "local_root_bytes": 179361800,
+      "QR_workspace_and_transient_copies_are_additional": true,
+      "no_dense_full_H_or_dual_Gram": true
+    },
+    "original_input_recheck_before_seconds": 0.7110294579999845,
+    "factor_byte_rechecks": 3,
+    "factor_byte_recheck_seconds": 2.46884416000006,
+    "complete_affine_construction": {
+      "equation": "R_C.T h = original_g/C; Rbar=R_C C",
+      "full_affine_identity": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 1888288,
+        "raw_sha256": "92480800ab506a2b2c87f6dd04f752ed88f7e8f234d4102602bae7778863eb05"
+      },
+      "recovered_linear_term": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 1888288,
+        "raw_sha256": "e05836877e7b0482a97fd38d2fb48b3228eaac2cde1128bafbbd2bd3ce7eaffc"
+      },
+      "original_linear_term_error": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 1888288,
+        "raw_sha256": "b690fda5540fc2886065496a5fd235fd03d71b704ebbf2f16cd4df951f722ec8"
+      },
+      "original_linear_term_error_L2": 3.793365586959313e-10,
+      "original_linear_term_error_Linf": 3.4924596548080444e-10,
+      "full_original_g_L2": 961683.2966931969,
+      "seconds": 0.18037442500002498,
+      "no_computed_center_used_to_delete_original_gradient": true,
+      "finite_factor_linear_term_readback_not_exact_original_H_certificate": true
+    },
+    "reverse_front_seconds": 2.6919648439999833,
+    "central_order": {
+      "rows": "retained physical chain, compressed right endpoint, full pure-global root",
+      "columns": "all free core first, all retained physical nodes in original order, all controls, affine",
+      "pure_global_rows": 112,
+      "pure_global_affine_kept": true,
+      "core_eliminated": 109,
+      "local_retained": 4735,
+      "no_exterior_coordinate_was_set_to_zero": true
+    },
+    "central_affine_front": {
+      "shape": [
+        4844,
+        4845
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 187753440,
+      "raw_sha256": "5684dc08c0816cdb7fcfedbf250585d61d729378bd392cf96bf9a1130f70fb44"
+    },
+    "core_elimination_seconds": 0.31710522599996693,
+    "local_QR_seconds": 3.494019465000008,
+    "local_root": {
+      "shape": [
+        4735,
+        4735
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 179361800,
+      "raw_sha256": "6a244de638736fa55c4be6d81c6b2621edfe972cff777754d510a9a03a69b620"
+    },
+    "local_affine": {
+      "shape": [
+        4735
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 37880,
+      "raw_sha256": "e1eed5a09f34385a2d081447fbe0b672107ade1d215d561f128f2f59f40069a9"
+    },
+    "local_gradient": {
+      "shape": [
+        4735
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 37880,
+      "raw_sha256": "48b496ddea27ee69805b888a7060529e83378b0681ed01443314f98803cdc753"
+    },
+    "local_center": {
+      "shape": [
+        4735
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 37880,
+      "raw_sha256": "bc4ba2091d223d5c0a93e986a6e533b8f9dd9840104a2e8a6402f6e1a4015bc4"
+    },
+    "local_root_diagonal_min_abs": 270.0000920757211,
+    "local_root_diagonal_max_abs": 1072.1347391873658,
+    "local_center_condensed_gradient_L2": 5.176806552361902e-13,
+    "local_center_condensed_gradient_Linf": 1.1368683772161603e-13,
+    "local_center_not_claimed_exact_original_H_center": true,
+    "affine_constant_components": {
+      "original_f0_is_not_supplied": true,
+      "full_affine_half_norm_squared": 0.6329047553311481,
+      "retained_local_affine_half_norm_squared": 0.5901970409384709,
+      "original_f0_minus_full_affine_half_norm_is_preserved_constant": true,
+      "absolute_constant_difference_not_required_for_model_comparisons": true,
+      "floating_constants_are_diagnostics_not_validated_bounds": true
+    },
+    "original_input_recheck_after_seconds": 0.7112564579999798,
+    "model_identity_sha256": "e0bee8c334186012558b453ab61026e64f77a1057360cb8ed7ae5dc530bf29e0",
+    "complete": true,
+    "elapsed_seconds": 10.395491102999983,
+    "maximum_RSS_kib": 3851884,
+    "completed_after_declared_deadline": false,
+    "last_local_solve": {
+      "solve_index": 256,
+      "right_hand_sides": 1,
+      "rhs": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 37880,
+        "raw_sha256": "7d6644c60dccb0247ee516823ee1598ea4d3c6e1bdecdaf008d115f70bde8aa0"
+      },
+      "candidate": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 37880,
+        "raw_sha256": "79cd45b476efb7aa723ba08e987a7d2ad2b9e731b7fea88115be648f428d718c"
+      },
+      "condensed_residual": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 37880,
+        "raw_sha256": "03a3b5be9b9bba0713e3f3a11177129eed5b6d95c672017ec5f2e0d172a52548"
+      },
+      "condensed_residual_L2": 8.412785304487163e-11,
+      "condensed_residual_Linf": 2.9103830456733704e-11,
+      "relative_condensed_residual_L2": 5.5979954326575e-16,
+      "seconds": 0.01800391500000842,
+      "crossed_deadline_for_started_solve": false,
+      "original_full_H_inverse_not_claimed": true,
+      "local_solver_diagnostic_not_scientific_gate": true
+    },
+    "last_recovery": {
+      "schema": "complete-local-condensation-original-H-recovery-v1",
+      "source_sha256": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
+      "label": "complete-local-QP-recovery",
+      "recovery_index": 0,
+      "model_identity_sha256": "e0bee8c334186012558b453ab61026e64f77a1057360cb8ed7ae5dc530bf29e0",
+      "original_gradient": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 1888288,
+        "raw_sha256": "14e671f0e221dcf6810df18365a6b4737336f6a3253812c830956f7159d219d6"
+      },
+      "local_indices": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<i8",
+        "order": "C",
+        "bytes": 37880,
+        "raw_sha256": "157c3999fc3afd77b2f40193bee04522b7f74ca6c68f8fb754e466e801d6cecb"
+      },
+      "requested_local": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 37880,
+        "raw_sha256": "7cbfd2547992da5fff68dbba311fedb10863c4608805fc9cdf4be3f7dbecbbd3"
+      },
+      "actual_full": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 1888288,
+        "raw_sha256": "9bdac81a9ac443228bef00ccb79f59e5a99aeeef0e05282e1143bda0dce7dd96"
+      },
+      "actual_local": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 37880,
+        "raw_sha256": "8a8294be08d3b435668e6425387513e7d982c406feea65b33c01d62b849f930d"
+      },
+      "actual_rhs": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 1888288,
+        "raw_sha256": "890f1032551ca24e9ca7f6b0523083fc4d1d95dd975765e4276a44e855f08697"
+      },
+      "actual_local_force": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 37880,
+        "raw_sha256": "0f4a89322f827431a7e628185d682c6aff89528cb9e959b30d3b0a67579fcae7"
+      },
+      "original_full_H_residual": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 1888288,
+        "raw_sha256": "f1d94b054271fd18215854b01b9584006ba6db7cf857e544e7b959675ec0bd2e"
+      },
+      "local_mismatch_L2": 2.4315874621066242e-17,
+      "local_mismatch_Linf": 7.755433665060374e-18,
+      "exterior_gradient_L2": 7.476561047968881e-10,
+      "exterior_gradient_Linf": 3.4924596548080444e-10,
+      "exterior_gradient_from_original_H_residual_not_local_root": true,
+      "local_rhs_embedding_error_L2": 1.302617768755255e-15,
+      "local_rhs_embedding_error_Linf": 8.881784197001252e-16,
+      "exterior_response_distance_bound_diagnostic": 1.0255913646047847e-14,
+      "exterior_energy_excess_bound_diagnostic": 3.833948223868692e-24,
+      "posterior_bounds_apply_at_actual_recovered_local_coordinates": true,
+      "floating_posterior_numbers_not_validated_enclosures": true,
+      "factor_solve_report": {
+        "schema": "complete-block-QR-H-inverse-original-readback-v1",
+        "label": "complete-local-QP-recovery",
+        "source_sha256": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722",
+        "solve_index": 1,
+        "input_identity": null,
+        "input_arrays": {
+          "L": {
+            "shape": [
+              698,
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "order": "C",
+            "bytes": 637938496,
+            "raw_sha256": "10657620380e879680976765040161209540955ad3557ad2a8d30b6bb6b29643"
+          },
+          "R": {
+            "shape": [
+              698,
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "order": "C",
+            "bytes": 637938496,
+            "raw_sha256": "1e2953d4ec8047551c0aa205c647132cef3e5deaf5172d4cc6b52486bbbab239"
+          },
+          "P": {
+            "shape": [
+              698,
+              338,
+              3
+            ],
+            "dtype": "<f8",
+            "order": "C",
+            "bytes": 5662176,
+            "raw_sha256": "60f52df7d6c722723cb4cded898237aa29e0985c65b58b7bcf6dd0ae2d07dbcc"
+          },
+          "BY": {
+            "shape": [
+              112,
+              338
+            ],
+            "dtype": "<f8",
+            "order": "C",
+            "bytes": 302848,
+            "raw_sha256": "39096332693b8df723ccd486d33975c2997b02c71075357e729c3d5c0f8c3124"
+          },
+          "BC": {
+            "shape": [
+              112,
+              109
+            ],
+            "dtype": "<f8",
+            "order": "C",
+            "bytes": 97664,
+            "raw_sha256": "bfccfc98fa4512e6f8c97170ce8cbccc5018849cb882a97b62228deb8155417a"
+          },
+          "BP": {
+            "shape": [
+              112,
+              3
+            ],
+            "dtype": "<f8",
+            "order": "C",
+            "bytes": 2688,
+            "raw_sha256": "bb270d5b01806f81489807bec2d3a07d07d3df4ecca188d9390cf4323ddbbee1"
+          },
+          "inlet": {
+            "shape": [
+              338,
+              109
+            ],
+            "dtype": "<f8",
+            "order": "C",
+            "bytes": 294736,
+            "raw_sha256": "442c1192ae5bdc59ab46e4c3c50d9255f99aa61b08a5073fea214e6dcea86731"
+          },
+          "S": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "order": "C",
+            "bytes": 1888288,
+            "raw_sha256": "2a6a3ff75f07ac02d0a623ca916d48eee5eddadcc65249e9ff2e6457c5e1a12c"
+          },
+          "Wr": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "order": "C",
+            "bytes": 1888288,
+            "raw_sha256": "b5da78da6436d57b4caf4b6689d7a17259741ecb27a936045567641c983dbc12"
+          }
+        },
+        "factor_arrays": {
+          "diagonal": {
+            "shape": [
+              698,
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "order": "C",
+            "bytes": 637938496,
+            "raw_sha256": "ae0db0e8fd63cd6b0ca202231e820d5e2f46b78056ffa62836f8ccb8c3902202",
+            "file": null
+          },
+          "next-physical": {
+            "shape": [
+              697,
+              338,
+              338
+            ],
+            "dtype": "<f8",
+            "order": "C",
+            "bytes": 637024544,
+            "raw_sha256": "6f118dd8aab6c296ba567ec87dcf2d08d32a379a9720517070684c8c0a379180",
+            "file": null
+          },
+          "global-border": {
+            "shape": [
+              698,
+              338,
+              112
+            ],
+            "dtype": "<f8",
+            "order": "C",
+            "bytes": 211387904,
+            "raw_sha256": "5d4f70a867206c673ba4d2baea40412362583fbe9120b7760eb09b656cb102fe",
+            "file": null
+          },
+          "global-diagonal": {
+            "shape": [
+              112,
+              112
+            ],
+            "dtype": "<f8",
+            "order": "C",
+            "bytes": 100352,
+            "raw_sha256": "2b528ef77c2a51e1ee93787ca273589d6ce2ba6387c90ec939397836e4684c60",
+            "file": null
+          }
+        },
+        "rhs": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "order": "C",
+          "bytes": 1888288,
+          "raw_sha256": "890f1032551ca24e9ca7f6b0523083fc4d1d95dd975765e4276a44e855f08697"
+        },
+        "candidate": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "order": "C",
+          "bytes": 1888288,
+          "raw_sha256": "9bdac81a9ac443228bef00ccb79f59e5a99aeeef0e05282e1143bda0dce7dd96"
+        },
+        "original_residual": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "order": "C",
+          "bytes": 1888288,
+          "raw_sha256": "f1d94b054271fd18215854b01b9584006ba6db7cf857e544e7b959675ec0bd2e"
+        },
+        "factor_normal_residual": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "order": "C",
+          "bytes": 1888288,
+          "raw_sha256": "fcaa78721e49b0a1216c828a12f605bb84609e8e8b25a8bfaeb429258e705561"
+        },
+        "original_residual_L2": 7.476563936298033e-10,
+        "original_residual_Linf": 3.4924596548080444e-10,
+        "rhs_L2": 961675.6061293103,
+        "original_relative_residual_L2": 7.774517611391619e-16,
+        "requested_diagnostic_relative_tolerance": 1e-08,
+        "original_residual_within_requested_tolerance": true,
+        "factor_normal_residual_L2": 9.6853001129544e-10,
+        "factor_normal_residual_Linf": 4.69299266114831e-10,
+        "factor_normal_diagnostic_finite": true,
+        "factor_H_minus_original_H_L2": 6.014480694279197e-10,
+        "factor_H_minus_original_H_Linf": 3.4924596548080444e-10,
+        "supplied_vs_frozen_original_A_action_L2": 0.0,
+        "supplied_vs_frozen_original_A_action_Linf": 0.0,
+        "supplied_vs_frozen_original_AT_action_on_same_Ax_L2": 0.0,
+        "supplied_vs_frozen_original_AT_action_on_same_Ax_Linf": 0.0,
+        "original_A_calls": 1,
+        "original_AT_calls": 1,
+        "frozen_reference_extra_A_calls": 1,
+        "frozen_reference_extra_AT_calls": 1,
+        "complete_input_hash_recheck_seconds": 0.7112212910000153,
+        "triangular_seconds": 0.24177911599997515,
+        "seconds": 1.6259194739999998,
+        "crossed_deadline_for_started_solve_and_mandatory_readback": false,
+        "maximum_RSS_kib": 3851884,
+        "finite_candidate_is_not_an_accuracy_or_acceptance_claim": true,
+        "normal_factor_residual_not_used_as_original_residual": true,
+        "nonlinear_accepted": false,
+        "QP_optimality_claimed": false
+      },
+      "arrays": {
+        "requested_local": {
+          "shape": [
+            4735
+          ],
+          "dtype": "<f8",
+          "order": "C",
+          "bytes": 37880,
+          "raw_sha256": "7cbfd2547992da5fff68dbba311fedb10863c4608805fc9cdf4be3f7dbecbbd3",
+          "name": "recovery-000-requested-local",
+          "role": "Requested local candidate, never forcibly copied over recovered full values",
+          "file": "recovery-000-requested-local.f64le"
+        },
+        "actual_full": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "order": "C",
+          "bytes": 1888288,
+          "raw_sha256": "9bdac81a9ac443228bef00ccb79f59e5a99aeeef0e05282e1143bda0dce7dd96",
+          "name": "recovery-000-actual-full",
+          "role": "Actual frozen solve_H candidate in complete original scaled-z coordinates",
+          "file": "recovery-000-actual-full.f64le"
+        },
+        "original_full_residual": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "order": "C",
+          "bytes": 1888288,
+          "raw_sha256": "f1d94b054271fd18215854b01b9584006ba6db7cf857e544e7b959675ec0bd2e",
+          "name": "recovery-000-original-H-residual",
+          "role": "Original A.T A plus lambda2 readback minus the actual complete RHS",
+          "file": "recovery-000-original-H-residual.f64le"
+        },
+        "local_mismatch": {
+          "shape": [
+            4735
+          ],
+          "dtype": "<f8",
+          "order": "C",
+          "bytes": 37880,
+          "raw_sha256": "31164c3612f39bfac80c3f2250dac138cfd4498427d42a1f5c459e60e2f10f9f",
+          "name": "recovery-000-local-mismatch",
+          "role": "Actual recovered local coordinates minus the requested vector",
+          "file": "recovery-000-local-mismatch.f64le"
+        },
+        "rhs": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "order": "C",
+          "bytes": 1888288,
+          "raw_sha256": "890f1032551ca24e9ca7f6b0523083fc4d1d95dd975765e4276a44e855f08697",
+          "name": "recovery-000-rhs",
+          "role": "Actual full RHS -g+embed(Hhat u+ghat) including its floating addition",
+          "file": "recovery-000-rhs.f64le"
+        },
+        "rhs_local_embedding_error": {
+          "shape": [
+            4735
+          ],
+          "dtype": "<f8",
+          "order": "C",
+          "bytes": 37880,
+          "raw_sha256": "ff2ed60861dcfa8213e9fb7dc08519d1e747b1d568b1a5b898aca0b908c537f6",
+          "name": "recovery-000-rhs-embedding-error",
+          "role": "Diagnostic cancellation in the saved full RHS local addition",
+          "file": "recovery-000-rhs-embedding-error.f64le"
+        }
+      },
+      "original_A_calls_in_this_recovery": 1,
+      "original_AT_calls_in_this_recovery": 1,
+      "frozen_reference_extra_A_calls": 1,
+      "frozen_reference_extra_AT_calls": 1,
+      "no_additional_complete_H_action_in_this_wrapper": true,
+      "no_local_coordinate_overwrite": true,
+      "constraints_and_merit_must_be_recomputed_on_actual_full_candidate": true,
+      "seconds": 2.479858936000028,
+      "crossed_deadline_after_started_complete_recovery": false,
+      "nonlinear_accepted": false,
+      "QP_optimality_claimed": false
+    },
+    "output_arrays": {
+      "original-g": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 1888288,
+        "raw_sha256": "14e671f0e221dcf6810df18365a6b4737336f6a3253812c830956f7159d219d6",
+        "name": "original-g",
+        "role": "Complete caller-supplied original g=A.T b",
+        "file": "original-g.f64le"
+      },
+      "local-indices": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<i8",
+        "order": "C",
+        "bytes": 37880,
+        "raw_sha256": "157c3999fc3afd77b2f40193bee04522b7f74ca6c68f8fb754e466e801d6cecb",
+        "name": "local-indices",
+        "role": "Complete original-coordinate inequality support",
+        "file": "local-indices.i64le"
+      },
+      "affine-original-linear-term-error": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 1888288,
+        "raw_sha256": "b690fda5540fc2886065496a5fd235fd03d71b704ebbf2f16cd4df951f722ec8",
+        "name": "affine-original-linear-term-error",
+        "role": "Actual (R_C C).T h minus supplied original g",
+        "file": "affine-original-linear-term-error.f64le"
+      },
+      "complete-affine-column": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 1888288,
+        "raw_sha256": "92480800ab506a2b2c87f6dd04f752ed88f7e8f234d4102602bae7778863eb05",
+        "name": "complete-affine-column",
+        "role": "Full R_C.T h=g/C solution; left and pure-global contributions retained",
+        "file": "complete-affine-column.f64le"
+      },
+      "local-root": {
+        "shape": [
+          4735,
+          4735
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 179361800,
+        "raw_sha256": "6a244de638736fa55c4be6d81c6b2621edfe972cff777754d510a9a03a69b620",
+        "name": "local-root",
+        "role": "Upper square root of the complete condensed finite model",
+        "file": "local-root.f64le"
+      },
+      "local-affine": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 37880,
+        "raw_sha256": "e1eed5a09f34385a2d081447fbe0b672107ade1d215d561f128f2f59f40069a9",
+        "name": "local-affine",
+        "role": "Affine column after all physical/core orthogonal eliminations",
+        "file": "local-affine.f64le"
+      },
+      "local-gradient": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 37880,
+        "raw_sha256": "48b496ddea27ee69805b888a7060529e83378b0681ed01443314f98803cdc753",
+        "name": "local-gradient",
+        "role": "Rhat.T hhat from the original complete g",
+        "file": "local-gradient.f64le"
+      },
+      "local-center": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 37880,
+        "raw_sha256": "bc4ba2091d223d5c0a93e986a6e533b8f9dd9840104a2e8a6402f6e1a4015bc4",
+        "name": "local-center",
+        "role": "Local finite root center; not an exact original-H assertion",
+        "file": "local-center.f64le"
+      },
+      "recovery-000-requested-local": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 37880,
+        "raw_sha256": "7cbfd2547992da5fff68dbba311fedb10863c4608805fc9cdf4be3f7dbecbbd3",
+        "name": "recovery-000-requested-local",
+        "role": "Requested local candidate, never forcibly copied over recovered full values",
+        "file": "recovery-000-requested-local.f64le"
+      },
+      "recovery-000-actual-full": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 1888288,
+        "raw_sha256": "9bdac81a9ac443228bef00ccb79f59e5a99aeeef0e05282e1143bda0dce7dd96",
+        "name": "recovery-000-actual-full",
+        "role": "Actual frozen solve_H candidate in complete original scaled-z coordinates",
+        "file": "recovery-000-actual-full.f64le"
+      },
+      "recovery-000-original-H-residual": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 1888288,
+        "raw_sha256": "f1d94b054271fd18215854b01b9584006ba6db7cf857e544e7b959675ec0bd2e",
+        "name": "recovery-000-original-H-residual",
+        "role": "Original A.T A plus lambda2 readback minus the actual complete RHS",
+        "file": "recovery-000-original-H-residual.f64le"
+      },
+      "recovery-000-local-mismatch": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 37880,
+        "raw_sha256": "31164c3612f39bfac80c3f2250dac138cfd4498427d42a1f5c459e60e2f10f9f",
+        "name": "recovery-000-local-mismatch",
+        "role": "Actual recovered local coordinates minus the requested vector",
+        "file": "recovery-000-local-mismatch.f64le"
+      },
+      "recovery-000-rhs": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 1888288,
+        "raw_sha256": "890f1032551ca24e9ca7f6b0523083fc4d1d95dd975765e4276a44e855f08697",
+        "name": "recovery-000-rhs",
+        "role": "Actual full RHS -g+embed(Hhat u+ghat) including its floating addition",
+        "file": "recovery-000-rhs.f64le"
+      },
+      "recovery-000-rhs-embedding-error": {
+        "shape": [
+          4735
+        ],
+        "dtype": "<f8",
+        "order": "C",
+        "bytes": 37880,
+        "raw_sha256": "ff2ed60861dcfa8213e9fb7dc08519d1e747b1d568b1a5b898aca0b908c537f6",
+        "name": "recovery-000-rhs-embedding-error",
+        "role": "Diagnostic cancellation in the saved full RHS local addition",
+        "file": "recovery-000-rhs-embedding-error.f64le"
+      }
+    }
+  },
+  "original_source_and_parent_entry": {
+    "schema": "exact-constraint-thirteen-query-condensed-complete-H-warm-v1",
+    "entry_source_sha256": "7785f4eb905da4c3e80ba988c79fa8a34b0a27017e6b8abc99764d8105eccc7c",
+    "frozen_dependencies": {
+      "geometry_20261114_twelve_query_projection_warm.py": "10ed25405930f3775d8fb88f007aa50be4a53f4b3421904be959f1890ed67477",
+      "geometry_20261114_twelve_query_domain_operator.py": "6a428d2f8412659cbd318321aa992c3b4565ff41177131a9cc9d268c6fbb7b1f",
+      "geometry_20261114_fixed_support_halfspaces.py": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+      "geometry_20261114_full_metric_projection_warm.py": "8fb6411e7b876713725a80c2dbe9e322cc277001b0692ccc59e0edd59ec4e8b0",
+      "geometry_20261114_full_metric_inequality_correction.py": "d5e9432e979859ed7d5277452ac058eb93e99da1cae7f96f700f15d7359d919c",
+      "exact_20261114_regularized_block_qr.py": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722",
+      "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+      "geometry_20261114_twelve_query_qr_projection_warm.py": "4b768828f754f75d760980d596f198984e92f5ceac79832123c74e42985a5c67",
+      "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
+      "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
+      "geometry_20261114_condensed_projection_warm.py": "5d398d3d702e0fd93af3777504fc1d4e918110c7e5f0683601eac5d21c49914a",
+      "geometry_20261114_thirteen_query_domain_operator.py": "d674a64e11cfac1f57f0c24166546a55045847633935dddb8ef53df4024d3cff"
+    },
+    "actual_parent_warm_sha256": "8ce98e5b325eae8188f8b4c707d1abfaa109e50a790c9abe5850ef1a52d08b75",
+    "actual_parent_status_sha256": "70be19b675c9f558cddbfa9532777a119a7bbe0629f505368e1588842aade30d",
+    "actual_parent_schema": "exact-constraint-twelve-query-condensed-complete-H-warm-v1",
+    "initial_actual45_warm_sha256": "8ce98e5b325eae8188f8b4c707d1abfaa109e50a790c9abe5850ef1a52d08b75",
+    "initial_actual45_status_sha256": "70be19b675c9f558cddbfa9532777a119a7bbe0629f505368e1588842aade30d",
+    "query_specs": {
+      "original_entries": 13,
+      "first": {
+        "kind": "left-RMS",
+        "interval": 470,
+        "fraction": 0.17267316464601146
+      },
+      "last": {
+        "kind": "collocation-midpoint",
+        "interval": 482,
+        "fraction": 0.5
+      },
+      "complete_entries_in_result": true
+    },
+    "original_full_coordinates": 236036,
+    "complete_B_local_coordinates": 4735,
+    "selected_angle_row_count": 26624,
+    "thirteen_query_operator_source_sha256": "d674a64e11cfac1f57f0c24166546a55045847633935dddb8ef53df4024d3cff",
+    "added_query": {
+      "kind": "collocation-midpoint",
+      "interval": 482,
+      "fraction": 0.5
+    },
+    "unique_capture_intervals": [
+      470,
+      471,
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481,
+      482
+    ],
+    "complete_B_physical_nodes": [
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483
+    ],
+    "complete_B_outside_C_nodes": [
+      470,
+      483
+    ],
+    "left_RMS482_not_added": true,
+    "original_twelve_query_parent_producer_preserved": true,
+    "condensation": "R270 full affine square-root elimination; g is original A-transpose b",
+    "original_lambda_and_row_and_chart_weights_unchanged": true,
+    "outside_variables_conditionally_optimized_not_frozen": true,
+    "free_core109_eliminated_with_all_pure_global_rows": true,
+    "all_three_global_controls_remain_local_unknowns": true,
+    "complete_QR_column_preconditioner": "none",
+    "baseline_C_support_nodes": [
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482
+    ],
+    "baseline_C_support_dimension": 4059,
+    "fixed_support_description_applies_only_to_baseline_C": true,
+    "actual_same_f_C_comparison_retained": true,
+    "original_seventeen_trials_and_RMS_and_boundary_checks_retained": true,
+    "original_midpoint_observer_retained": true,
+    "nonlinear_native_solved": false,
+    "full_BVP_accepted": false,
+    "local_QP_budgets": {
+      "maximum_working_rows": 256,
+      "dual_sweeps": 200,
+      "candidate_seconds": 600.0,
+      "recovery_reserve_seconds": 30.0,
+      "original_trial_reserve_seconds": 90.0
+    },
+    "local_root_raw_arrays_exported": true,
+    "every_parent_producer_subtree_preserved": true
+  },
+  "large_array_audit_separate_from_this_summary": true,
+  "condensed_QP_entry": {
+    "schema": "exact-constraint-thirteen-query-condensed-complete-H-warm-v1",
+    "entry_source_sha256": "7785f4eb905da4c3e80ba988c79fa8a34b0a27017e6b8abc99764d8105eccc7c",
+    "frozen_dependencies": {
+      "geometry_20261114_twelve_query_projection_warm.py": "10ed25405930f3775d8fb88f007aa50be4a53f4b3421904be959f1890ed67477",
+      "geometry_20261114_twelve_query_domain_operator.py": "6a428d2f8412659cbd318321aa992c3b4565ff41177131a9cc9d268c6fbb7b1f",
+      "geometry_20261114_fixed_support_halfspaces.py": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+      "geometry_20261114_full_metric_projection_warm.py": "8fb6411e7b876713725a80c2dbe9e322cc277001b0692ccc59e0edd59ec4e8b0",
+      "geometry_20261114_full_metric_inequality_correction.py": "d5e9432e979859ed7d5277452ac058eb93e99da1cae7f96f700f15d7359d919c",
+      "exact_20261114_regularized_block_qr.py": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722",
+      "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+      "geometry_20261114_twelve_query_qr_projection_warm.py": "4b768828f754f75d760980d596f198984e92f5ceac79832123c74e42985a5c67",
+      "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
+      "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
+      "geometry_20261114_condensed_projection_warm.py": "5d398d3d702e0fd93af3777504fc1d4e918110c7e5f0683601eac5d21c49914a",
+      "geometry_20261114_thirteen_query_domain_operator.py": "d674a64e11cfac1f57f0c24166546a55045847633935dddb8ef53df4024d3cff"
+    },
+    "actual_parent_warm_sha256": "8ce98e5b325eae8188f8b4c707d1abfaa109e50a790c9abe5850ef1a52d08b75",
+    "actual_parent_status_sha256": "70be19b675c9f558cddbfa9532777a119a7bbe0629f505368e1588842aade30d",
+    "actual_parent_schema": "exact-constraint-twelve-query-condensed-complete-H-warm-v1",
+    "initial_actual45_warm_sha256": "8ce98e5b325eae8188f8b4c707d1abfaa109e50a790c9abe5850ef1a52d08b75",
+    "initial_actual45_status_sha256": "70be19b675c9f558cddbfa9532777a119a7bbe0629f505368e1588842aade30d",
+    "query_specs": [
+      {
+        "kind": "left-RMS",
+        "interval": 470,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 471,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 472,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 473,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 475,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 477,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 479,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 480,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 481,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 473,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 475,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 477,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 482,
+        "fraction": 0.5
+      }
+    ],
+    "original_full_coordinates": 236036,
+    "complete_B_local_coordinates": 4735,
+    "selected_angle_row_count": 26624,
+    "thirteen_query_operator_source_sha256": "d674a64e11cfac1f57f0c24166546a55045847633935dddb8ef53df4024d3cff",
+    "added_query": {
+      "kind": "collocation-midpoint",
+      "interval": 482,
+      "fraction": 0.5
+    },
+    "unique_capture_intervals": [
+      470,
+      471,
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481,
+      482
+    ],
+    "complete_B_physical_nodes": [
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483
+    ],
+    "complete_B_outside_C_nodes": [
+      470,
+      483
+    ],
+    "left_RMS482_not_added": true,
+    "original_twelve_query_parent_producer_preserved": true,
+    "condensation": "R270 full affine square-root elimination; g is original A-transpose b",
+    "original_lambda_and_row_and_chart_weights_unchanged": true,
+    "outside_variables_conditionally_optimized_not_frozen": true,
+    "free_core109_eliminated_with_all_pure_global_rows": true,
+    "all_three_global_controls_remain_local_unknowns": true,
+    "complete_QR_column_preconditioner": "none",
+    "baseline_C_support_nodes": [
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482
+    ],
+    "baseline_C_support_dimension": 4059,
+    "fixed_support_description_applies_only_to_baseline_C": true,
+    "actual_same_f_C_comparison_retained": true,
+    "original_seventeen_trials_and_RMS_and_boundary_checks_retained": true,
+    "original_midpoint_observer_retained": true,
+    "nonlinear_native_solved": false,
+    "full_BVP_accepted": false,
+    "local_QP_budgets": {
+      "maximum_working_rows": 256,
+      "dual_sweeps": 200,
+      "candidate_seconds": 600.0,
+      "recovery_reserve_seconds": 30.0,
+      "original_trial_reserve_seconds": 90.0
+    },
+    "local_root_raw_arrays_exported": true,
+    "every_parent_producer_subtree_preserved": true
+  }
+}
