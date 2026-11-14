@@ -169,3 +169,5 @@
 - 2026-11-14 21:18:15 UTC，Astra-new-mechanism-9974ea84：登记R106完整递归纸证。移动尾端I_c在(c,ξ)共同反射下反对易，R56全部forcing/normal/characteristic/恢复分子逐式协变，真s历史同锚不变；故D_j^σ(c)=(-1)^jD_j(-c)。R104真四块D25只余4(a7c7+a5c5+a3c3+a1c)，所有偶参数系数准确消。该代数延拓不替固定全带右锚付ruling，也不使完整V反号；继续剩余奇项。
 
 - 2026-11-14 21:19:43 UTC，Astra-new-mechanism-9974ea84：完成R103独立数组接口frame_curvature_psd.py（SHA146f12fb）。16个人工局部图jet/非正交坐标/双τ与真实Cholesky曲率一致，完整五jet方向Jacobian误差8.30e−10，环境反射交换PSD门差0，零面积先拒绝。没有研究几何或optimizer调用；保真实g/entry/Q二阶列与后续全reach门，供明确需要时接入。
+
+- 2026-11-14 21:21:55 UTC，Astra-new-mechanism-9974ea84：定向核对旋转内蕴度量的两个新原始来源。Engman2006出版社正文把|a′|≤1及谱障碍明确限于S1等变嵌入；Freese–Weber2017出版社摘要还要求主曲率旋转不变，当前非圆椭圆core不在该类。记录准确引用和推断边界，不据此停非轴对称连接或改g；继续现有Actions主线。
