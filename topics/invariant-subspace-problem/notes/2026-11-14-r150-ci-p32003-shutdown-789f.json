@@ -1,0 +1,23 @@
+{
+  "format": "R150-external-runner-shutdown-v1",
+  "observed_at": "2026-11-14T07:27:26.932603+00:00",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": 43568673309,
+  "job_id": 132368030146,
+  "source_commit": "3e20bc53c4e2f4294518429b626d207519e3b53b",
+  "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43568673309/job/132368030146",
+  "characteristic": 32003,
+  "coordinates": "original",
+  "mathematical_status": "incomplete; no exact membership certificate observed",
+  "reported_exit_code": 143,
+  "cause": "unknown: job log reports a runner shutdown signal, not an identified memory failure",
+  "downstream_save_and_upload_steps": "skipped after runner shutdown",
+  "job_log_bytes": 23258,
+  "job_log_sha256": "79c98795aaf007de1c6dfe2f425927753d865893a407c1f6d231e955e2ff30d1",
+  "observed_log_lines": [
+    "2026-11-14T07:19:38.5556818Z ##[error]The runner has received a shutdown signal. This can happen when the runner service is stopped, or a manually started runner is canceled.",
+    "2026-11-14T07:19:38.5560827Z ##[error]Process completed with exit code 143.",
+    "2026-11-14T07:19:38.7017297Z Cleaning up orphan processes"
+  ],
+  "recovery": "Keep the original characteristic-zero job running; retry the failed discovery branch with exact translated coordinates, pre-computation input artifact, live output, 45-second resource records, and a 12 GiB address-space cap on Singular only."
+}

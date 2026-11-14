@@ -1,18 +1,29 @@
 name: ISP R150 exact parameter ideal
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - .github/workflows/invariant-subspace-r150-parameter-ideal.yml
-      - topics/invariant-subspace-problem/notes/2026-11-14-rank-one-parameter-ideal-runner-789f.js
   workflow_dispatch:
+    inputs:
+      characteristic:
+        description: Exact characteristic zero, discovery prime, or both
+        type: choice
+        default: both
+        options: [both, '0', '32003']
+      coordinates:
+        description: Original moments or the exact inverse-binomial coordinates
+        type: choice
+        default: original
+        options: [original, translated]
+      algorithm:
+        description: Singular standard basis method
+        type: choice
+        default: slimgb
+        options: [slimgb, std]
 
 permissions:
   contents: write
 
 concurrency:
-  group: isp-r150-parameter-ideal
+  group: isp-r150-parameter-ideal-${{ inputs.coordinates }}-${{ inputs.characteristic }}
   cancel-in-progress: false
 
 jobs:
@@ -23,9 +34,12 @@ jobs:
       fail-fast: false
       max-parallel: 2
       matrix:
-        characteristic: [0, 32003]
+        characteristic: ${{ fromJSON(inputs.characteristic == '0' && '[0]' || inputs.characteristic == '32003' && '[32003]' || '[0,32003]') }}
     env:
       ISP_CHARACTERISTIC: ${{ matrix.characteristic }}
+      ISP_COORDINATES: ${{ inputs.coordinates }}
+      ISP_ALGORITHM: ${{ inputs.algorithm }}
+      ISP_SINGULAR_MEMORY_MIB: '12288' 
       PYTHONDONTWRITEBYTECODE: "1"
     steps:
       - uses: actions/checkout@v4
@@ -46,23 +60,38 @@ jobs:
           from pathlib import Path
           out=Path(os.environ['RUNNER_TEMP'])/('isp-r150-'+os.environ['ISP_CHARACTERISTIC'])
           rules={p:hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in ['README.md','topics/invariant-subspace-problem/README.md']}
-          (out/'source.json').write_text(json.dumps({'source_commit':os.environ['GITHUB_SHA'],'rules':rules,'characteristic':int(os.environ['ISP_CHARACTERISTIC']),'scope':'Characteristic zero requires all original lift identities and actual denominators; finite characteristic is discovery only.'},indent=2)+'\n')
+          (out/'source.json').write_text(json.dumps({'source_commit':os.environ['GITHUB_SHA'],'rules':rules,'characteristic':int(os.environ['ISP_CHARACTERISTIC']),'coordinates':os.environ['ISP_COORDINATES'],'algorithm':os.environ['ISP_ALGORITHM'],'singular_memory_limit_mib':int(os.environ['ISP_SINGULAR_MEMORY_MIB']),'scope':'Characteristic zero requires all original lift identities and actual denominators; finite characteristic is discovery only.'},indent=2)+'\n')
           PY
       - name: Install Singular in this repository's runner
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y --no-install-recommends singular
           Singular --version > "$RUNNER_TEMP/isp-r150-$ISP_CHARACTERISTIC/singular-version.txt" 2>&1
+      - name: Preserve reconstructed input before the expensive computation
+        run: |
+          set -o pipefail
+          node topics/invariant-subspace-problem/notes/2026-11-14-rank-one-parameter-ideal-runner-789f.js \
+            --out "$RUNNER_TEMP/isp-r150-$ISP_CHARACTERISTIC" \
+            --characteristic "$ISP_CHARACTERISTIC" --coordinates "$ISP_COORDINATES" \
+            --algorithm "$ISP_ALGORITHM" --stage lift --generate-only \
+            2>&1 | tee "$RUNNER_TEMP/isp-r150-$ISP_CHARACTERISTIC/preflight.log"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: isp-r150-input-${{ github.run_id }}-${{ github.run_attempt }}-char${{ matrix.characteristic }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ runner.temp }}/isp-r150-${{ matrix.characteristic }}
       - name: Compute original seventeen-equation membership certificate
         id: exact
         continue-on-error: true
         timeout-minutes: 330
         run: |
+          set -o pipefail
           node topics/invariant-subspace-problem/notes/2026-11-14-rank-one-parameter-ideal-runner-789f.js \
             --out "$RUNNER_TEMP/isp-r150-$ISP_CHARACTERISTIC" \
-            --characteristic "$ISP_CHARACTERISTIC" --coordinates original \
-            --algorithm slimgb --stage lift \
-            > "$RUNNER_TEMP/isp-r150-$ISP_CHARACTERISTIC/execution.log" 2>&1
+            --characteristic "$ISP_CHARACTERISTIC" --coordinates "$ISP_COORDINATES" \
+            --algorithm "$ISP_ALGORITHM" --stage lift \
+            2>&1 | tee "$RUNNER_TEMP/isp-r150-$ISP_CHARACTERISTIC/execution.log"
       - name: Preserve outcome and bounded reproducible artifacts
         if: always()
         env:

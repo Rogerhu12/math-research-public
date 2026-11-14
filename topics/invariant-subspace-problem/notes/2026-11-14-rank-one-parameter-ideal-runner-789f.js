@@ -118,6 +118,12 @@ function singularProgram(z,opts,files){
   'print("R150_DONE_EXACT_MEMBERSHIP");',"quit;");
  return lines.join("\n")+"\n";
 }
+function singularInvocation(args){
+ const limitMiB=Number(process.env.ISP_SINGULAR_MEMORY_MIB||0);
+ if(!Number.isSafeInteger(limitMiB)||limitMiB<0)throw Error("bad Singular memory limit");
+ return limitMiB?{command:"prlimit",args:["--as="+String(limitMiB*1024*1024),"--","Singular",...args],limitMiB}:
+  {command:"Singular",args,limitMiB:0};
+}
 function singularInterfaceCheck(opts){
  const tmp=fs.mkdtempSync(path.join(os.tmpdir(),"r150-interface-")),file=path.join(tmp,"check.sing");
  fs.writeFileSync(file,[`ring R=(${opts.characteristic},s),x,dp;`,"short=0;",
@@ -129,7 +135,8 @@ function singularInterfaceCheck(opts){
   "ideal DD=imap(R,Den);",
   'if(deg(DD[1])!=1){print("INTERFACE_DENOMINATOR_FAILURE");quit;}',
   'print("R150_INTERFACE_OK");quit;'].join("\n")+"\n");
- const r=cp.spawnSync("Singular",["-q",file],{encoding:"utf8",timeout:30000,maxBuffer:1024*1024});
+ const invocation=singularInvocation(["-q",file]);
+ const r=cp.spawnSync(invocation.command,invocation.args,{encoding:"utf8",timeout:30000,maxBuffer:1024*1024});
  if(r.error||r.status!==0||!r.stdout.split(/\r?\n/).some(x=>x.trim()==="R150_INTERFACE_OK")||/^\s*\?/m.test(r.stdout))throw Error("Singular interface check failed: "+String(r.error||r.stdout+"\n"+r.stderr));
 }
 async function main(){
@@ -154,14 +161,29 @@ async function main(){
   originalCommonDenominator:z.denominator,inputSHA256:crypto.createHash("sha256").update(script).digest("hex"),
   polynomialSystemSHA256:crypto.createHash("sha256").update(JSON.stringify({equations:z.equations,targets:targets(z)},(_,v)=>typeof v==="bigint"?String(v):v)).digest("hex"),
   target:"Nine squared inverse-binomial transverse coordinates; all original 17 equations retained.",
+  singularMemoryLimitMiB:singularInvocation([]).limitMiB,
   status:o.generateOnly?"input-generated-only":"running",started:new Date().toISOString()};
  const save=()=>fs.writeFileSync(path.join(o.out,"receipt.json"),JSON.stringify(receipt,null,2)+"\n");save();
  if(o.generateOnly){log({status:receipt.status,inputBytes:Buffer.byteLength(script),coefficientChecks:z.checks,temporaryInput:scriptPath});return;}
+ log({phase:"parameter-input",polynomialSystemSHA256:receipt.polynomialSystemSHA256,
+  coefficientChecks:z.checks,coordinates:o.coordinates,characteristic:o.characteristic,
+  singularMemoryLimitMiB:receipt.singularMemoryLimitMiB});
  let detectedDone=false,exactIdentity=false,singularError=false,outputTail="";
- const child=cp.spawn("Singular",["-q",scriptPath],{stdio:["ignore","pipe","pipe"]});
+ const invocation=singularInvocation(["-q",scriptPath]);
+ const child=cp.spawn(invocation.command,invocation.args,{stdio:["ignore","pipe","pipe"]});
+ const heartbeat=setInterval(()=>{
+  let memory={};
+  try{const stat=fs.readFileSync("/proc/"+child.pid+"/status","utf8");
+   for(const key of ["VmSize","VmRSS","VmPeak","VmHWM"]){const m=stat.match(new RegExp("^"+key+":\\s+(\\d+) kB$","m"));if(m)memory[key+"KiB"]=Number(m[1]);}
+  }catch{}
+  log({phase:"singular-heartbeat",at:new Date().toISOString(),pid:child.pid,memory,
+   exactIdentityVerified:exactIdentity,completionMarker:detectedDone});
+ },45000);
  child.stdout.on("data",b=>{const s=String(b);process.stdout.write(s);outputTail=(outputTail+s).slice(-4096);const lines=outputTail.split(/\r?\n/).map(x=>x.trim());if(lines.includes("R150_DONE_EXACT_MEMBERSHIP")||lines.includes("R150_DONE_BASIS"))detectedDone=true;if(lines.includes("R150_EXACT_LIFT_IDENTITY_VERIFIED"))exactIdentity=true;if(/^\s*\?/m.test(outputTail)||lines.includes("R150_ABORT_NO_MEMBERSHIP")||lines.includes("R150_LIFT_IDENTITY_FAILED"))singularError=true;});
  child.stderr.on("data",b=>process.stderr.write(b));
- const completion=await new Promise((resolve,reject)=>{child.on("error",reject);child.on("close",(code,signal)=>resolve({code,signal}));});
+ let completion;
+ try{completion=await new Promise((resolve,reject)=>{child.on("error",reject);child.on("close",(code,signal)=>resolve({code,signal}));});}
+ finally{clearInterval(heartbeat);}
  const code=completion.code;receipt.exitSignal=completion.signal;
  receipt.exitCode=code;receipt.completionMarker=detectedDone;receipt.exactIdentityVerified=exactIdentity;receipt.singularError=singularError;receipt.finished=new Date().toISOString();
  receipt.status=code===0&&detectedDone&&!singularError&&(o.stage==="basis"||exactIdentity)?"completed":"failed-or-incomplete";
