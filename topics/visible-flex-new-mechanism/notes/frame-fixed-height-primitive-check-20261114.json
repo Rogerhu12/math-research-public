@@ -1,0 +1,32 @@
+{
+  "schema": "fixed-height-primitive-artificial-check-v1",
+  "artificial_inputs_only": true,
+  "research_geometry_evaluated": false,
+  "primitive_sparse_dense_difference": 0.0,
+  "primitive_query_order_difference": 0.0,
+  "primitive_exact_function_error": 4.440892098500626e-16,
+  "primitive_derivative_error": 1.2888801137478367e-10,
+  "full_wrapper_sparse_dense_position_two_jet_errors": {
+    "X": 0.0,
+    "Xs": 0.0,
+    "Xt": 0.0,
+    "Xss": 0.0,
+    "Xst": 0.0,
+    "Xtt": 0.0
+  },
+  "unchanged_nonposition_derivatives": {
+    "Xs": 0.0,
+    "Xt": 0.0,
+    "Xss": 0.0,
+    "Xst": 0.0,
+    "Xtt": 0.0
+  },
+  "unchanged_position_parameter_Jacobians_error": 0.0,
+  "direct_metric_shape_directional_Jacobian_error": 4.552612740636862e-09,
+  "same_physical_identity_under_evaluator_change_and_metric_freeze": true,
+  "frozen_metric_position_two_jet_replay_error": 0.0,
+  "artificial_old_new_sparse_common_height_difference": -0.01429752971534859,
+  "finite_checks_are_not_continuous_error_certificates": true,
+  "passed": true,
+  "source_sha256": "16d7200ed2fe3c4f433d5f3ae787696311499264cb21172d9915efea9ae7b780"
+}

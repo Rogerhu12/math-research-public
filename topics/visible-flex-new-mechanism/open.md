@@ -289,3 +289,5 @@ C²准确g=ds²+a²dθ²且Tz在整个连通带恒零时，混合导数迫Ts=0�
 ### 首独立高度实际设计之后
 
 新167维单250将cost降低约16倍，但fine operator .713626、κ106.010及负Xz仍失败；入口与自然patch都要修，3个u和1个height贴界，不能仅扩大旧预算。所有准确状态及新固定g已审；详notes/independent-height-bounded-actual-audit-20261114.md。先以固定物理partition修同一b0原函数，保旧四点/密网对照及新评价身份，随后在selected固定g上审成套入口新空间，重建新height基原函数与Jac。高度形状罚须用同一公共原函数；两内盘法弦必要reach门与镜合Xz正性单独报告，不把样本/局部帽证书当全闭面完成。
+
+两项只读诊断已冻结部署：fixed_height_primitive重放selected同g及固定原函数两种独立精化；frozen_profile_gate只改同R52 profile的panel quadrature并保全部尾端项。后者不重算几何或full DAG。接回执核完整来源/原始输出/同一身份后继续入口与完整range，短lane和预算都不是课题终点。

@@ -1,59 +1,51 @@
 {
-  "request": "independent-height-bounded-design-and-full-fourth-functions",
-  "created_at": "2026-11-14T16:55:33.163296+00:00",
+  "request": "frozen-height-primitive-replay-and-isolated-R52-profile-refinement",
+  "created_at": "2026-11-14T17:27:07.616664+00:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "independent_height_solve",
-    "full_fourth_evaluate"
+    "fixed_height_primitive",
+    "frozen_profile_gate"
   ],
   "new_source_sha256": {
-    "frame_independent_height.py": "d7c52dd824a9302d8877092c551cc567ed1477a0dc6192799d8ad42969121de6",
-    "frame_independent_height_solve.py": "a406d44946cf32e2d4a90fcf0b1711a74b5342d27e26709653a7e7058fe3e74f",
-    "literature_range_numeric_engine.py": "3c5e2bb2aca3912b735019ea2af5a4fd266b0671335f3a1f589e15e8b13c2f58",
-    "literature_full_fourth_evaluate.py": "287051f173f4d765d8ac4f14f9c1a72bb02dcaa3248922f8a62521d1ac05bdb4"
+    "frame_fixed_height_primitive.py": "16d7200ed2fe3c4f433d5f3ae787696311499264cb21172d9915efea9ae7b780",
+    "frame_fixed_height_primitive_audit.py": "824f0cda6ba87132bb2063d836f1b5d4504818899fc0b88060e4e3e854514e41",
+    "literature_frozen_profile_fourth_gate.py": "8f0b9f3356197bfe2c0f13a0d0ea470138690b34ec00e7f4eef7d21725ff1d31"
   },
-  "independent_height": {
-    "initial": "original c0, zero height/body controls",
-    "dimension": 167,
-    "GH": 64,
-    "height_mean_Nb": 384,
-    "radial_nodes": 61,
-    "angular_nodes": 192,
-    "max_nfev": 250,
-    "solve_seconds": 600,
-    "parameter_bounds": [
-      8,
-      1,
-      0.5
-    ],
-    "engineering_gate": 0.0001,
-    "gate_quantity": "X/Xs/Xtheta/(E-1,sqrt2 F/a); high jets separately reported",
-    "only_one_solve": true,
-    "freeze_g_before_same_state_refinement": true,
-    "fixed_final_radial_nodes": 121,
-    "fixed_final_angles": [
-      384,
-      768
-    ],
-    "independent_GH_Nb_radial_quadrature_refinements": true
+  "fixed_height_primitive": {
+    "selected_input_sha256": "c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46",
+    "anchor_input_sha256": "6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3",
+    "selected_physical_state_sha256": "924e7de417ec8fbf9419942e5cf45a7eff58336972b7cac4224edaee4c4229ee",
+    "fixed_g_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
+    "frozen_variables": 162,
+    "old_sparse_and_dense_preserved": true,
+    "physical_state_changed": false,
+    "optimizer_calls": 0,
+    "uniform_fixed_panels": 120,
+    "primitive_order": 8,
+    "independent_refined_panels": 240,
+    "independent_refined_order": 12,
+    "radial_query_nodes": 121,
+    "angular_query_nodes": 384,
+    "exact_interfaces_added_separately": true,
+    "new_evaluation_identity_only": true
   },
-  "full_fourth": {
-    "input_sha256": "feb72a8e01f9a2aa0a925f7173e0bb53e1d81224481ad3a01afbeea4c6f2d6c0",
-    "profile": "R52 numerical even spectral pair and eight signed real-cube-root packets",
-    "R53_profile_claimed": false,
-    "fit_quadrature_once": 256,
-    "geometry_nodes": [
-      32,
-      64
+  "frozen_profile_gate": {
+    "input_sha256": "a9162b82535af2efacf1ad0e7f07ff0e6aa97991417d7c5de5cbd922f2ddb15a",
+    "profile_identity_sha256": "20680dfd98d6ede4db5ee5f0ec34dd24f0b10ceabdbad6d07364508cb7dae506",
+    "nodes_per_existing_panel": [
+      256,
+      512
     ],
-    "profile_panel_nodes": [
-      64,
-      96
-    ],
-    "seconds": 1200,
-    "all_real_history_propagated": true,
-    "full_minus_four_single_P_measured_not_forced": true,
-    "one_global_w_quotient": true
+    "panels": 17,
+    "max_seconds": 120,
+    "profile_refit": false,
+    "geometry_evaluation": false,
+    "full_compilation": false,
+    "off_constraint_boundary_terms_retained": true,
+    "R65_small_exact_algebra_certificate_also_run": true,
+    "R53_profile_claimed": false
   },
+  "continuous_error_certification_claimed": false,
+  "full_fourth_gate_claimed": false,
   "task_complete": false
 }
