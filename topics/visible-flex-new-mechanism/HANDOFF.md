@@ -6,7 +6,7 @@
 
 闭连通 C2 嵌入族 Ft、时间 C2 连续、同一固定 g；固定材料开集 H 且 diamH≥.2D；不对齐的真实像集 Hausdorff 位移≥.3D；全域全时 reach≥.03D；最大相对 metric≤1e−6，且同 g/物理参数/时间加密改善；完整小网格、复现及严格存在性差距。D 是初始完整曲面直径。δE 可为0但须如实报。达标后继续 .5D 或更强存在性。
 
-- 根及本题 README 已完整读。公开仓库最后已读规则提交：`3e74aad69c376c54ec08f7e6d9c25a9e4d81f0be`；每次实际CLI pull均核根/本题README新差异。
+- 根及本题 README 已完整读。公开仓库最后已读规则提交：`a5a3110289111d5afef53a8f0f21fd2b12db14f2`；每次实际CLI pull均核根/本题README新差异。
 - 每次 pull 后只读这两 README 新差异并立即遵循，至少每小时 pull。每结论提交推送；NFF 立即 pull --rebase 并循环推送，不强推。
 - 作者指定 QUEUE 已置进行中。私有仓库15:00:47 UTC实际pull至15e36869550aac2d89306b6312bf29be599cc03c，根README差异为空；队列唯一课题行仍为本会话进行中。私有研究内容不发布。
 - 研究计算只用本公开仓库自己的 Actions。令牌仅瞬时命令行认证，不入文件。根 LOG 不写；共享 workflow 理由记本题 log。HANDOFF<10KB，其他 MD<100KB，数据>1MB压缩、单件<5MB。
@@ -22,7 +22,7 @@ CLI同步已恢复。旧R18 recovery分支/recovery-20261114保留。14:12两Git
 
 完整证明以 `results.md` 与各 R 文件为准，均不等于主课题完成：
 
-- R1–R17的条件组装、完整周期/三矩/range及精确局部核心见results索引；均未给有限闭族。旧R44/C6幅度门失败，R13的形式D−8相位机制后被真实D0恒等排除。R9准确rectifying核与R14全宽嵌入判据仍仅条件；R17旋转基点固定圆领的m≥2线性trace刚性不外推一般强分支。
+- R1–R17的条件组装、三矩/range、准确核心和旋转基点线性端口门见results索引，均未给闭有限族；各障碍不扩大到一般强分支。
 
 - R18–R22/R26/R27/R29/R34–R36给实际D0八系数、局部复相位和各类完整profile刚性。排除严格限已声明的简单有限幂/标准双根平尾等假设，不是一般有限族刚性；全零算子例外现由R37实现。完整正则性与退化范围查各正式结果。
 - R23/R24以非零link排旧ψ-warp及奇sin星核的平领封口；偶cos核framing0但厚度门已失败。R25给真实出口reach必要支持界；局部必要筛不代完整闭面。
@@ -35,9 +35,9 @@ CLI同步已恢复。旧R18 recovery分支/recovery-20261114保留。14:12两Git
 
 R31准确代数run43601439290及58源/1输出SHA全核通过，详见constant-h-exact-actual-audit；无有限n/N或真实几何计算。
 
-- R32：3<ρ<4非退化简单C根有真实C3相位及C2无穷小场；但一般h>0的同左锚自然二阶恢复出现−GVχ″，C2需逐点Gs=0。此门迫非零二次jet落入可逆L|P2核，矛盾；所有s常数profile gauge亦无效。不外推任意有限族。
+- R32：3<ρ<4的局部C3相位可给C2无穷小场，但一般h的同左锚自然C2二阶恢复被完整算子可逆性阻挡；不排任意有限族。
 
-- R33：椭圆柱（带边界）准确reach=B²/A。完整面若投影在A1/B.28椭圆且|z|≤.45，则真实相位像距/D>.328、固定rc.22开盘直径/D>.200；全族刚体像使reach归初始整面。正侧镜射给负侧但跨片单射另证。首轮度量为S5/S5/S11，移除当前平尾平均R_T三阶失配，非存在证明。
+- R33：椭圆核准确reach=B²/A；完整包络若满足给强幅度/握持预算。当前固定S5/S5/S11含负K，最小尾兼容不等于连接存在。
 
 - R34：全区弱散度与复Volterra/Cassini将C非零处任意C3高L退化归实解析；双简单非零四阶外尾完整类全排，其他外尾/零算子仍保留。
 
@@ -69,6 +69,6 @@ warped_collar43595305950实际失败且R23另以link排除该封口目标；R24�
 
 ellipse_frame43602519926（62源/8输出全SHA）fine metric1.660115/R3.51022/κsample2334.99，失败；43603136078固定分布（63源/3输出全SHA）旧峰负K纯RT与高模显著，非entry漏采。
 
-enriched43604231319源f64c2c0d/reportSHA6ff0b179...0f1e3，64源/3输出全核，sameg和暖转门通过。234变量250次平台；fine metric1.727996/R1.59925/κsample39.116、strip失败，主缺口低模/首S5。详见enriched-actual-audit，不原样重跑。ellipse_bent_tail43607072032已实跑，源14dd7dd9：准确S11尾幅1/4/宽.054，原234系数/同g、61×192/250次，系数界6→8；先旧态球审计后换尾，最终121×384/768冻结复核。新物理身份另记，尚无闭面。R30接口见notes/R30-validation-interface-20261114.md。若启metric design，log基尾须Oδ7。
+enriched43604231319源f64c2c0d/reportSHA6ff0b179...0f1e3，64源/3输出全核，sameg和暖转门通过。234变量250次平台；fine metric1.727996/R1.59925/κsample39.116、strip失败，主缺口低模/首S5。详见enriched-actual-audit，不原样重跑。ellipse_bent_tail43607072032严重失败（源14dd7dd9）：67源/5输出全核。旧态新球/strip采样.98493/.96125通过；新尾全跨度Hermite初态R333，250次后R223/metric53.93、近退化及角欠分辨。下一先修局部右lift，从原enriched234暖起，不用本坏态；新S9六弓帽独立实现中。详见bent-flat-tail-actual-audit。R30接口见notes/R30-validation-interface-20261114.md。若启metric design，log基尾须Oδ7。
 
 R37有限N实际43607428213（源6642f37d）：68源/2输出全核，6nfev得预条件残差7.68e−15；冻结三档全M≈1.1e−9、自然闭合非零且不单调。首k0长螺旋片严格给reach/D<1.14e−5，本点只能作算子研究，不能作厚度候选。详见zero-operator-instance-actual-audit；继续反转三阶range。
