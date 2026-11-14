@@ -63,3 +63,6 @@
 
 
 - [R618：原第二Gaussian、精确余项半径与全Newton尾](../results/R618-original-second-gaussian-exact-radius-and-newton-tail.md)：从高度二真实整窗除整Taylor单位，原唯一临界项a₂w^(ps)有p²a₂=b^Lpc；全部余对数在边界严格可指数化。原U及f4/f1/S/T余项精确R₂=p^{−(2p−1)/(p(p²−1))}、闭边界非Tate，给全系数/完整Newton尾和同中央Euler更大延拓盘；未去第一Gaussian的原来源半径及全部来源预算保持。
+
+
+- [R619：原Cartier稀疏行与完整第二Newton块](../results/R619-original-cartier-sparse-rows-and-second-newton-block.md)：原整坐标Cartier付X_(s+ap)稀疏消失，整个n<2L参数仅H_L一极，log仅ps二阶极；原指数/全theta多项式给p²g_(m,p+h)=γ_mb^Lg_(m,h)直到h=p−2。完整j模p^(p+1)保第p项原值；原j0使前p项之和升入p^(p+1)，块回读未添中央零。

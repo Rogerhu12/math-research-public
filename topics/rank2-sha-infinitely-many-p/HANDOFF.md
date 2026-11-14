@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：ad2d576c4f5b0275ebf0f2ca152864f43ad36e12；2026-11-14 23:41:06 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 23:40:27 UTC仍无环境。最迟00:20再试。
+- 最近已读规则提交：1177f251dc3d9455adf88b585e4c0e4bd6f7e69b；2026-11-14 23:42:02 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 23:42:01 UTC仍无环境。最迟00:20再试。
 - 仅Rogerhu12/math-research-public/main；逐结论提交已授权，禁强推/改历史。每小时实际pull，逐次核两README，仅读差异即执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只临时终端，不入文件/回复。12:35–21:05 API历史已接回；21:39断连后非强制API追加，恢复即实际pull。
@@ -16,14 +16,14 @@
 
 ## 已发布、归档与分工
 
-R1–363、R365–560、R562–618已登记；R364仍开，R561/619/620/621/622/623进行中。
+R1–363、R365–560、R562–619已登记；R364仍开，R561/620/621/622/623进行中。
 完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r618.md)、[open](notes/2026-11-14-open-before-r618.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
 
 - theta续R621简单极点完整补域/原中央；R617已付原norm8全环带与同native差首矩，实际反射回I1保全部补偿。
-- literature交R619完整第二坏带待推，续R622同原j两层连接；不把第二Gaussian添为独立中央零。
+- literature续R622同原j两层连接；R619完整第二坏带已推，第二Gaussian不添独立中央零。
 - deep续R620截止内同R forcing/全局边界；R612已付原全W_D带权物理核和窗口紧邻固定出口，不能代旧d2。
 - root续R623真实同格成本；R618已付原第二Gaussian精确半径/全系数及完整Newton高尾，未去Gaussian原S半径保持。
 
@@ -56,6 +56,7 @@ R598完整j0 iff原中央零初值Euler大盘延拓；Π0非同预算列。[普�
 R602全Hurwitz/无限Newton尾保持。R606 Gaussian整改保完整j，c†/K_p/第二Ξ保两位除法与H^-p log；两j同零未排。
 R614完整addition给U在n<L整、L≤n<ps一次、ps≤n<2L二次；pX_L=−2b^L/pU_L=b^L。R615原有限Cartier给X_pk=Z_k^p=−X_k^p/(6k−1)，k<s，不借sigma整性。R616全首坏带p g_(L+r)=b^L(6r+d)g_r(r<s)，S/T第p项pg_p=b^L C_X；完整j0使C_X0、g_p整及L_(p−1)∈p^p。f4/f1末带−c4/−4c1不赋非零。
 R618 U0=U截<L、Δ=F−c′w^s−logU0起L，a₂=Δ_ps有p²a₂=b^Lpc unit。除该项余对数在闭R₂严格可指数化；U及原G4/G1/S/T精确R₂=p^{−τ₂},τ₂=(2p−1)/(p(p²−1))，闭R₂非Tate。全g_n≥−floor(6nτ₂)，原Newton a_h≥ceil(hη+6τ₂)、η=1−(p+1)τ₂，完整尾≥ceil((H+1)η+6τ₂)+v(H!)。原j0的中央Euler解延至每个R<R₂；Π0/预算保持，未去Gaussian的原S半径不变。
+R619原整坐标Cartier给X_s=c_p、X_(s+ap)=0(a≥1、指标<L)。H在n<2L仅H_L pole，F°仅ps二阶极；全theta二阶块由charge m控制，原S/T p²g_(p+h)=γb^Lg_h(1≤h≤p−2)。完整j modp^(p+1)保T_p原值；j0给Σh≤p T_h∈p^(p+1)，无新独立中央零。
 
 ## 原全forcing与同一R
 
