@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文持续推进，不等阶段确认。**
 
 - 旧库首次全文读根及课题README（含全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：5a90e6a74180f1877ba2d77ceb97252feb6b3a5b；2026-11-14 16:30:17 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：162c0c1ca1b5f72489f77fa36f326844158caed3；2026-11-14 16:33:41 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 现仅在Rogerhu12/math-research-public工作。每次pull后及至少每小时核两README差异；有变立即执行。规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13用公开库Actions，旧runner/ci-queue停用。
 - main逐条commit/push已授权；禁强推/改写已发表历史。非快进立即pull --rebase重推；无执行环境时API用expected_sha/force=false，拒绝立即读新头核规后追加，不冒称git pull。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。仅写本课题log、每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
@@ -14,9 +14,9 @@
 
 ## 发布、正在用的文件与分工
 
-R1–363、R365–539、R541及R543已登记；R364仍开。R529=4c7d3db5，R530=7cd6a31e，R531=ac8e6b1e，R532=cc069ed8，R534=a86406a7，R535=87e0e9a1，R536=0731adf6，R538=ae4f3a4f。全部证明、脚本和原量词由results及分段索引导航。R501原证书已恢复；R502公开Actions run43596695716/job132452617972（来源1dafbfa7，p239/D40/81行）已成功，原生JSON/日志在da54025b，不需重跑。
-最新完整接口：[本轮HANDOFF](notes/2026-11-14-frontier-before-r541.md)、[本轮open](notes/2026-11-14-open-before-r541.md)、[完整旧结论索引](notes/2026-11-14-results-index-before-r531.md)；各自保前轮归档链，压缩不关闭旧支线。活文件为HANDOFF/open/results/log、PROOF-INDEX-R501-R550及各R正文。
-root统一元数据及逐条发布，代理仅建proof/script/data blobs。R532已修正唯一坐标显示式x=(K−J)/(2+ω)并发布；R534已登记并支付跨s双接触缺口。theta续R541第二态纯sigma及实际三支域；literature续f4完整Schwartz/负二分支；deep已付R537/543真实切向来源/评价核，续小余量上的forcing；root预留R542第二态degree136完整CM谱。root已付R533完整degree6核及固定负矩接口，继续其实际双unit域和原中央的比较；正确Katz对偶不直接反射m→−1−m。结论随到随推。
+R1–363、R365–539及R541–543已登记；R364仍开。全部证明、脚本和原量词由results及分段索引导航。R501原证书已恢复；R502公开Actions run43596695716/job132452617972（来源1dafbfa7，p239/D40/81行）已成功，原生JSON/日志在da54025b，不需重跑。
+最新完整接口：[本轮HANDOFF](notes/2026-11-14-frontier-before-r542.md)、[本轮open](notes/2026-11-14-open-before-r542.md)、[完整旧结论索引](notes/2026-11-14-results-index-before-r531.md)；各自保前轮归档链，压缩不关闭旧支线。活文件为HANDOFF/open/results/log、PROOF-INDEX-R501-R550及各R正文。
+root统一元数据及逐条发布，代理仅建proof/script/data blobs。R532已修正唯一坐标显示式x=(K−J)/(2+ω)并发布；R534已登记并支付跨s双接触缺口。theta续R544带ω²的H三阶来源及实际三支域；literature续f4完整Schwartz/负二分支；deep已付R537/543真实切向来源/评价核，续小余量上的forcing；root已付R542第三支degree136完整CM谱，续同cut算术投影。root已付R533完整degree6核及固定负矩接口，继续其实际双unit域和原中央的比较；正确Katz对偶不直接反射m→−1−m。结论随到随推。
 
 ## 完成桥与全部保留分支
 
@@ -35,10 +35,12 @@ R539 L=(W−Y)/2=ωbarγc+d0、M=c−bar(ωbarγ)d0，整det−8。wholeK8=¼ΣE
 
 R541已付ρ1=−G_*ρ0=R_*ρ0+ω²H_*ρ0，三矩阵仅作用(c,d0)，前四σ保持；G/H分别改M为c−barγd、2ω(c−d)，R保测试。任意L/M奇偶深原S/T返回用A_rs=P_LP_M G^ε的完整逆权/测试，非未移动第二态零。原Dn三支保持且全cut逐支转置。一层核后两原观察之差2κ(γc+d)，单位域相同、深补偿为同源log比。η=ω²Hρ0的Y边际只需[2]度136，G/R支仍[4]度544；R542继续完整谱。
 
+R542 Fη=Sη(2z)的完整23坐标有N7最小多项式(t+1)(t9−1)，D33±循环维10/8、共同18维。N7^9Fη=Fη+S(2z)，故真实Y边际Kη=−η−S；所有深度/尺度已付，非整六输入身份。原S投影−1/2，E2312投影26(1−δ)/3；四已识别rank0参考及12外谱全活，系数/质量/逆2尺度见正文，Δ新=18144。待把这些固定投影接同一实际cut，不赋参考/外谱中央零。
+
 ## 惰性：同一原格、真实三层与forcing
 
 p=6s−1>83，全Γ=O[w,ε]/(w^s−pε,ε³,w^ellε²)，原M=c*U0m13J保P134/charge40/十三自由行/两13行carry。R473/485/486固定conductor10980、22纯角/13清极及全部D/q门保留；环境Smith不代原像。
-R479–526的原低行、高尾、十三行carry、全Γ与同一M/p³修正均保完整归档及正文。R502首Bockstein的rawζ³/V1/ξ/normal仍活；R507只有ε行sp的唯一p-Smith及psa forcing，P(imJ)稳定未证。R511 ξ=(3/4)T2βmir，负镜对偶仅等价重写；R514/517全十九角和切向返回保留；R537已付多项式来源核，物理jet核仍开。R521固定边界Dc=3C∩cπ*S∞、长3c(u+4b)、forcing残数b²m(4t0−1)须杀真实jet核及余列。R524三层A=N(cE)(−qP)、B=N²(cE)(−hP)、C=N³(cE)(−SP)及同源α/β保留；二次临界只有最内F²层负度，外两层与连接未付。R526低轴方程6(1−t)δx−(1+2t)x=2t/3仅modt^s，排单/两权不排全支持。
+R479–526原低行、高尾、十三carry及同一M/p³修正保完整归档/正文。R502 rawζ³/V1/ξ仍活；R507 forcing psa及唯一ε行sp，P(imJ)稳定未证。R511负镜轴仅等价像条件。R521边界Dc长3c(u+4b)、forcing残数b²m(4t0−1)须杀真jet核及余列。R524三层A=N(cE)(−qP)、B=N²(cE)(−hP)、C=N³(cE)(−SP)及同源α/β保留，临界只最内层负度。R537/543已推进实际切向核，不能代完整原评价或所有连接。
 R537在p>max(83,8b²+4bu)准确排独立Jacobian零对，并由未局部化k[t,Y]的正规中间曲线确定全部第一积分。f0(−1/8)=0时H2切向核=kF²，否则核=〈1,F,F²〉；全十九角、原同D/charge门完整保留。角/次数保持整提升使来源返回像p饱和、秩2κ+χ或2κ+χ−2；不能推J/M物理像饱和。该门覆盖R495已存在满主阶临界候选，真jet核及forcing继续。
 
 R543真实物理核：T_J=s−r−1、T_M=s−r−14，两Gaussian行与原η镜轴把额外核两层注入O_C(2D_+−TP)、O_C(D_+−min(h,T)P)。K_+=κ+μd1²+μd2²，全角负部/常数方向已付。T>2K_+且h>K_+则J/M切向限制全部非零Smith为单位；原低ell临界仍有缺口，Clifford给额外方向≤b²/64+O(b)、单位块≥1501b²/192+O(b)。须同一实际候选/已付charge预算，不把此秩界当斜率界；真forcing与其余原列继续。

@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R542：原第三sigma支的算术投影与非齐次核心](results/R542-original-third-sigma-arithmetic-projections-and-affine-core.md)：R541第三η支的全部23坐标给N7^9Fη=Fη+S(2z)，原S投影−1/2、E2312投影26(1−δ)/3；D33两块循环10/8、共同18维，四rank0参考和12外谱全部保持。真实Y边际有完整非齐次普通核Kη=−η−S及任意深度返回，全部tame/尺度/质量已付；同cut联合运输仍开。
+
 - [R543：原切向评价核、两层小余量与单位Smith块](results/R543-actual-tangent-jet-kernel-small-remainders-and-unit-smith-block.md)：原J/M切向物理额外核被两个准确小线束控制，完整保十三行差异及原正镜轴。强窗T>2K_+、h>K_+给真实单位Smith块；满主阶低ell窗的额外方向≤b²/64+O(b)，实际单位块≥1501b²/192+O(b)。来源/候选/charge门保留，forcing与完整原中央未由秩界推出。
 
 - [R541：原八度第二态、三支sigma身份与完整域运输](results/R541-original-degree8-second-state-and-exact-sigma-transport.md)：原八度第二态准确为−G_*ρ0=R_*ρ0+ω²H_*ρ0，全部矩阵、四个原sigma及三支cut保留。任意奇偶L/M深用真实逆权/逆测试返回原S/T；一层深两观察有共同单位域，其差为显示log比。第三η支给原degree136截面，另外两支仍需degree544，不免费赋其中央零。
