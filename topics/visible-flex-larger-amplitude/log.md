@@ -654,3 +654,8 @@ run43605912092/job132480432221实际success，artifact14117693541/ZIP385bfef9…
 ### 2026-11-14 request25：完整候选进入原native solve/J/fresh audit
 
 root全文读独立launcher afa2588d…、hook22fa88aa…及CLI；原请求loop对照确认唯一initial插入可逐字删回，first call/last/predictor身份严格，全部17/19/21/22/23输入和9546负零恢复完整。只发一次原TailClient.solve(H,jacobian=True,audit=True)，原6144MB、原数值config和全部求解/审计/阈值不改。新nativeseed三名单一致，精确十件23必要输入窄checkout，无initializer/zero/probe重算。真实结果尚待Actions，完整响应后J/audit失败也不冒求解完成。
+
+
+### 2026-11-14 request24真实全角首失域与非线性余项
+
+run43606770409/job132483017505全success，artifact14119155118/ZIPc4c59d92…已取核，summary5abd72ed…。原base20+22方向逐值重建接受699态，五处×2048角完整方向complex差2.65–5.52e−13、旧坏点逐值重放0。480 first-exit=.00237428794正夹原接受/拒绝，2^-8全部4实际负角与linear负角同集；最坏余项+.00299206。2^-6的475/477/479却有6/10/2实际负而linear全正，不能以线性可行冒实际。R263 E=.79462908/Delta=.53502717比1.48521本次Actions首次真存。完整note已全文读；下一以全角不等式投影产生候选并重算原A z/gdot/merit与全部真实域，非QP最优/新BVP接受。

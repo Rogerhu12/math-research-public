@@ -51,7 +51,7 @@ R260已把原固定finiteGauss半径的真实导数、返回ap/app、角Galerkin
 每一条完成结论实际pull、检查双README差异、记录已读SHA、普通push；非快进立即rebase重试到成功，至少每小时同步。原自动publisher因README变动保留artifact并停止发布是正确行为，root读取差异后接手。手动workflow_dispatch因PAT权限403不可用，已改仓库既有push request明确选择geometry/cardinal/coupling，不重复已完成zeroH/free3。任何分项完成都继续下一项，不将阶段报告当任务结束。
 
 
-R265完整证明已登记：所有声明角行的一阶不等式模型有唯一正阻尼解，KKT/dual后验和完整Hermite B/Bᵀ均明确；只提供优化工具，不自动覆盖连续角或替代原全域/非线性门。request24真run43606770409现已全success：480首线性exit夹在接受/拒绝之间，近处四个actual负角与linear负角同集；大步475/477/479另有非线性余项失域。下一完整全角可行投影warm保原merit及全部域门，明确不冒R265最优。
+R265完整证明已登记：所有声明角行的一阶不等式模型有唯一正阻尼解，KKT/dual后验和完整Hermite B/Bᵀ均明确；只提供优化工具，不自动覆盖连续角或替代原全域/非线性门。request24真run43606770409现已全success：480首线性exit夹在接受/拒绝之间，近处四个actual负角与linear负角同集；大步475/477/479另有非线性余项失域。完整证据见[实际24全角与余项](notes/2026-11-14-actual-request24-full-angle-first-exit-and-nonlinear-remainder.md)。下一完整全角可行投影warm保原merit及全部域门，明确不冒R265最优。
 
 
 request25/nativeseed独立原完整尾求解已接推送：精确恢复23完整577×224 candidate并保全部负零，只首次同17 H赋原initial；原完整solve/J/fresh audit/容差保持，失败与接受按原客户端。入口两源已全文读/静态语法，未本地科学计算。
