@@ -202,7 +202,7 @@ R538未改P_K的E深/Kunit整条四输出返回已付，系数βn(8+20κ3n−κ6
 
 ### R533：固定负矩的实际双单位来源
 
-原U=2J/V=2K两变量核准确为a[H∧f1+6bf3∧f4]与a[H∧f4+2f1∧f3]，保任意实际两变量域及whole核心；固定负矩I−2(f4)/I−5(f1)有四条准确双unit接口。显示联合余项U推前0而K³后有单位矩，严格排除直接迭代条件矩；完整算术特征及原补域仍开。完整证明见[R533](results/R533-original-degree-six-two-variable-kernels-and-negative-moment-interface.md)。**待做：** 把这两个真实双unit积分与原S/T中央的完整补域联立，或支付原f1/f4全部算术特征及正确普通地点的比较。四条非零等价本身不赋任一端非零，U边际零也不允许删除K³纤维。
+原两degree6核和四条I−2(f4)/I−5(f1)接口、显示非可迭代纤维见[R533](results/R533-original-degree-six-two-variable-kernels-and-negative-moment-interface.md)及[完整本轮open](notes/2026-11-14-open-before-r546.md)。**待做：** 真双unit负矩与原S/T全部补域、完整算术分支的比较；不从条件矩迭代或U边际零删K³纤维。R540完成时按其真实有限角色及普通地点继续。
 
 ### R539：已接原两中央的实际混Y核
 
@@ -220,9 +220,9 @@ R533两固定负矩的第一层现有[准确递推与有限记录](notes/2026-11
 
 原八度第二态准确为−G_*ρ0=R_*ρ0+ω²H_*ρ0，全部矩阵、四个原sigma及三支cut保留。任意奇偶L/M深用真实逆权/逆测试返回原S/T；一层深两观察有共同单位域，其差为显示log比。第三η支给原degree136截面，另外两支仍需degree544，不免费赋其中央零。完整见[R541](results/R541-original-degree8-second-state-and-exact-sigma-transport.md)。**待做：** 公共深域与G/R/H三支转置补域的实际比较，及η的完整CM投影在同一cut中的作用；R/G两支、所有C/F/G隐藏条件和逆尺度必须同时保留。
 
-### R543：实际jet核已缩到两个小线束
+### R543：实际切向jet核的小余量
 
-原J/M切向物理额外核被两个准确小线束控制，完整保十三行差异及原正镜轴。强窗T>2K_+、h>K_+给真实单位Smith块；满主阶低ell窗的额外方向≤b²/64+O(b)，实际单位块≥1501b²/192+O(b)。来源/候选/charge门保留，forcing与完整原中央未由秩界推出。见[R543](results/R543-actual-tangent-jet-kernel-small-remainders-and-unit-smith-block.md)。**待做：** 原forcing在这个实际像及其余原列商中是否非零；R521残数仍须杀整个真实边界核，两个小线束不自动给该杀灭条件。原ξ/V1、同一修正d2/G2及全部低尾保持。
+两个准确线束、K_+=κ+μd1²+μd2²、T_J=s−r−1/T_M=s−r−14及Clifford界保[R543](results/R543-actual-tangent-jet-kernel-small-remainders-and-unit-smith-block.md)和[完整归档](notes/2026-11-14-open-before-r546.md)。R545的新连接另付有效极平衡和整单位块，并未改变原切向算子。**待做：** forcing对全部真实边界核及其余原列的配对，保ξ/V1、同一d2/G2及低尾。
 
 ### R542：第三支原S/E2312投影与全外谱
 
@@ -231,3 +231,7 @@ R541第三η支的全部23坐标给N7^9Fη=Fη+S(2z)，原S投影−1/2、E2312�
 ### R545：平衡后的真实物理单位块
 
 同一实际因子可取整数c平衡两边界，完整多项式连接保全部零阶/Euler项、十九角及固定两charge返回；准确有效极次数降为κ。原低ell强窗给核〈d^(2c),d^cF,F²〉、2κ+χ−2个真实单位Smith因子及全精度整Schur消元，原M十三/二十六carry保持；余下forcing与原中央未赋非零。见[R545：原角平衡连接与完整物理单位块](results/R545-angular-balanced-connection-and-full-physical-unit-block.md)。**待做：** 在同一个整Schur余矩阵上计算实际forcing/ξ、活V1及同一修正d2/G2；固定两charge须在原预算内或真实扩大。R547继续原垂直零新增charge块及两块的实际交，不由单位块大小推出完整原矩阵满秩。
+
+### R546：η的完整五伴随行已付
+
+原LH整数框架与全部半特征支付第三η支的完整CM13/19转移，三固定投影分离成S2/new/Href乘完整五伴随；质量−1/2、26(1−δ)/3、−1/(1008b)均单位。两原零中央控制任意独立五伴随测试，共同深核心与参考非零环带差全付；混合W/L及全部CM分支、参考/外谱仍保留。见[R546：第三sigma支的完整五伴随CM转移](results/R546-original-third-sigma-full-five-companion-cm-transfer.md)。**待做：** 把R544实际η测试差和唯一余域按每条CM支转置到这些行；C/F/G测试独立于Y可用，但W/L混合条件不能删或当独立伴随。完整卷积单位不允许免费穿过cut，参考未知导数和外谱仍保持。

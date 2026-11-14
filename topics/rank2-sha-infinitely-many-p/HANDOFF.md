@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根及课题README含全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：94baa78cdc3d0b2c657dea8fbe871dd0eeaef2bc；2026-11-14 16:40:25 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：8a483a1ff4e9755dc0d1d6c69de7cdccc0c3b38c；2026-11-14 16:44:27 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作。每次pull后及至少每小时比较根/课题README，有变立即读差异执行并记SHA。规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13公开Actions，旧runner/ci-queue停用。
 - main逐条commit/push已授权；禁强推及改已发表历史。非快进立即pull --rebase再推；环境断连时API用expected_sha/force=false，拒绝立即读新头核规追加，不冒称实际pull。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。仅本课题log每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
@@ -14,9 +14,9 @@
 
 ## 发布、文件和当前分工
 
-R1–363、R365–539、R541–543、R545已登记；R364仍开。root统一元数据及逐条发布，代理只建proof/script/data blobs。R502公开Actions run43596695716/job132452617972成功，完整原生JSON/日志在da54025b，原证书已恢复，不复跑。
+R1–363、R365–539、R541–543、R545–546已登记；R364仍开。root统一元数据及逐条发布，代理只建proof/script/data blobs。R502公开Actions run43596695716/job132452617972成功，完整原生JSON/日志在da54025b，原证书已恢复，不复跑。
 本次完整归档：[HANDOFF](notes/2026-11-14-frontier-before-r545.md)、[open](notes/2026-11-14-open-before-r545.md)；各保前轮链。旧完整results在[before-r531](notes/2026-11-14-results-index-before-r531.md)。压缩不关旧支线；准确常数、条件、未付接口在各R正文/open/PROOF-INDEX-R501-R550。
-literature写R540全f4/f1 Schwartz、正确负权Katz；theta写R544规范H三阶/S3及真实混Y域；deep写R547原垂直零charge块和R545实际交、继续forcing；root写R546把R542第三eta支全CM投影转到五伴随。随成随推，不等并行任务。
+literature写R540全f4/f1 Schwartz、正确负权Katz；theta写R544规范H三阶/S3及真实混Y域；deep写R547原垂直零charge块和R545实际交、继续forcing；root已付R546第三eta支完整五伴随投影，续R544同域混合测试。随成随推，不等并行任务。
 
 ## 完成桥及全部旧支线
 
@@ -37,7 +37,7 @@ J反射边界notes/2026-11-14-j-reflection-three-dimensional-cm-boundary.md给F�
 R539 L=(W−Y)/2=ωbarγc+d0，M=c−bar(ωbarγ)d0，Norm8 wholeK8=−B8、平方1、真实共两态。L保q_n，偶m时Y_m=Y−3ω(κ^-m−1)L/8、W_m=W+(16−3ω)(κ^-m−1)L/8同行回λ^mβ^n原S/6δT。Dn在m<n合法，零质量且两中央v=n−m；奇n/m=n−1为v1，补域仍须反号补偿。
 R541完整第二态ρ1=−G_*ρ0=R_*ρ0+ω²H_*ρ0，矩阵仅动c,d0。G/H改M为c−barγd、2ω(c−d)，R保测试；全Dn保持但各cut转置。任意L/M深用A_rs=P_LP_MG^ε全逆权/测试回原S/T。一层后二观察差2κ(γc+d)给共同单位域同源log比。η=ω²Hρ0的Y边际可[2]上S136；G/R支仍[4]上S544。
 R542 Fη=Sη(2z)完整23坐标：N7^9Fη=Fη+S(2z)，最小多项式(t+1)(t9−1)，D33±循环10/8，共18维。S投影−1/2，Snew投影26(1−δ)/3，Href质量−1/(1008b)；四rank0参考和12外谱全活，完整质量/尺度见正文，新增LCD18144。Y边际Kη=−η−S不代whole六输入身份。
-R546待完成：原L首三行有2，LH整、Gram不变、det为ωdetL且与13/19互素，拟把三固定投影转完整五伴随；任何混合Y/W cut保完整CM分支转置。R544规范Hhat=ω²H_*，Hhatη=−ρ0−η，原Hη=−ω(ρ0+η)不可漏ω。
+R546已付LH整数框架、全部半特征及完整CM13/19转移；三条固定投影为S2/new/Href张量五伴随，质量−1/2、26(1−δ)/3、−1/(1008b)都是整卷积单位。原S/new两中央零控制全部独立伴随测试；共同五深core为λ5/−λ5/−λ5。Href实际环带差非零但未知导数保留，混合W/L及R544测试逐CM支完整转置。R544规范Hhat=ω²H_*，Hhatη=−ρ0−η，原Hη=−ω(ρ0+η)不可漏ω。
 
 ## 惰性：同一整格、物理单位块与forcing
 
