@@ -245,3 +245,8 @@
 - R774实际run43631427773/source93056f04完成24.706959837秒：真e1、原H³至qY820全560坐标/26块/108stage，D289bits且v739(D)=0，821×7模比较通过，原模型分母2^24·3^1260。
 - 正式证明SHA9dee9b9520457945f33d0e012fb5cc927fe0e624e04a73bf07c0950f2a81199b，certaea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59及artifact14128247134全部真实来源保存；未求char0 M6坐标/原函数/β/高度。
 - 根完整核正式证明与实际小证书，H/open归档并同步index；R775仍运行，R777按R778短界推进。终端不可用，按根规矩8核最新main/两README后小文本非force继续，无本地数学运行。
+
+## 2026-11-15 03:36 Asia/Taipei · serre-public-resume-20261114
+- R776从真支持dual的ordinary限制构造global Kummer p除cochain，保负diagonal及q quadratic，原Fγ/FS给R(e)=18ibη、Iα/ε=32(1+i−18ibη)；故18b Reη=1、Iα/ε=32+17b Imη。
+- 原flat η→η+8i及9ε参考完整复现，保21σ₂+2bJ；证明SHAa4285c3e52e376f735850816514be621c75175e2b777d9ccf036dd4123cabc54。根完整读原R755及新证明，ηI/σ₂/J/b实际值仍缺、b24未排。
+- R774正式结果已单独推167165de；H/open/index同步，R779接真实p-local输入，R775公开run继续。终端不可用，按根规矩8核最新main/两README并非force小文本继续，无本地数学运行。
