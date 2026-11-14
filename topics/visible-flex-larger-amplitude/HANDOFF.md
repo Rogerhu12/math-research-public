@@ -24,7 +24,7 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 ### 前缀RMS域：request20已实降，下一三行方向待调度
 
 request17/run43598917532的3步warm仍非解，warm003 SHA5d1c452291099ad18b1a619ba3794614b04a0c620b8ed0f28887a84731ef7886；原col=.007110547307/新FD9.5171e−10。request18/run43602070499的λ270/LSMR200在80步istop2，仅α2^-16下降1.63517e−5；新warm SHA1dbdcc8fbb9dd7d4571259679a97dca5ee635fab88dece584d3a44727da477c3，新FD9.00098e−10。原回执与source全在actual18/17 notes，不重复。
-R262完整Hermite两端RHS/global p/入口chart域梯度、投影正阻尼下降及λP伴随已证并推送。request20/trustprotected真run43603477207/source2501ebf6/job132473033066全success；完整artifact14117605862/ZIP0cee357c…已取。473/index0梯度complex3.7179e−13，投影伴随2.048e−18，Bz−8.88e−16；λ270/LSMR200仍80步istop2。预条件normal2.6137e−5但未预条件projected KKT344.921，勿称方向高精度。原collocation独立complex仅free core/global p方向，内部physical为0。
+R262完整Hermite两端RHS/global p/入口chart域梯度、投影正阻尼下降及λP伴随已证并推送。request20/trustprotected真run43603477207/source2501ebf6/job132473033066全success；完整artifact14117605862/ZIP0cee357c…已取。473/index0梯度complex3.7179e−13，投影伴随2.048e−18，Bz−8.88e−16；λ270/LSMR200仍80步istop2。预条件normal2.6137e−5但未预条件projected KKT344.921，勿称方向高精度；R263已证λ²强凸后验界，供内层精度判断而非新接受门。原collocation独立complex仅free core/global p方向，内部physical为0。
 20同模型merit44.447162239996→44.446116127468，α2^-10/下降.001046112528/ratio1.0001444；原全node/mid/两RMS/rho过。col=.007110545981/BC9.59725e−8仍非解。新warm SHA0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71，新真实完整Rφ FD9.07968e−10；Hmax3.35792e−16保全部112项/native0。详细actual-request20-protected-query-and-next-domain-rows。下一从此warm一模型λ270/200，保护原已观察(473,0)/(480,0)/(473,11)三点，同左fraction.17267316464601146；22实际run43604874829/sourcefb32e240/14:26:31Z，trustmultiline job132477286177运行中。所有原域/merit/最终门保留，不只加模型数或λ。
 
 ### Native冷启动：21工厂失败，独立v2待调度
@@ -44,6 +44,6 @@ R240固定共同材料g后冻结全部p*/scalar/尾帽/区间/t，释放全core�
 
 ## 旧失败、证明和封存
 
-request10–15全QR/band/bridge失败无接受，完整原回执在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure；不盲加点/只抬1200。R238–R262完整证明与假设见results.md，无机器jet新门；R259备用小核诊断冻结未调度。旧A δhold/D≈.063<.2，RK24/48/三mesh/R241 q8全部2157568对已付；旧GW同g/raw/mean局部f8/16/48已付并封存，不重跑。43提交/geometry26/strong90/GW35已恢复，strong R6失败/raw未全迁，公开78件匹配91源；绝不读private。详见历史notes。
+request10–15全QR/band/bridge失败无接受，完整原回执在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure；不盲加点/只抬1200。R238–R263完整证明与假设见results.md，无机器jet新门；R259备用小核诊断冻结未调度。旧A δhold/D≈.063<.2，RK24/48/三mesh/R241 q8全部2157568对已付；旧GW同g/raw/mean局部f8/16/48已付并封存，不重跑。43提交/geometry26/strong90/GW35已恢复，strong R6失败/raw未全迁，公开78件匹配91源；绝不读private。详见历史notes。
 
 规则同步记录：2026-11-14T14:27:34.723359+00:00 实际pull --rebase成功；双README自5c60e970无变化，已读提交 b8766fad6b720cb47e8fd9ddae069a88732161ab。

@@ -619,3 +619,8 @@ run43603818345/job132474070289真实失败，artifact14117411488/ZIP4d546160…�
 ### 2026-11-14 共享背景完整cover/held独立接口
 
 两薄入口已写且root全文读/AST/SHA：cover fc5bbb67…实际绑定load_shared_bundle，held f9c6466c…亦真正调用同loader并比较全部position packet binding；原R241全pair/帽/marker/整族D/reach及held全部活动块/两整帽盘/原.2公式不改。原目标g表保持，新B几何的全部位置/法向/metric/曲率包络不继承旧A。尚无真实accepted父场，不执行新几何、不加fixture/审批门。request22两lane已真run43604874829/sourcefb32e240，分别job132477286177/132477286262运行中。
+
+
+### 2026-11-14 R263：受限KKT与正阻尼模型后验界
+
+完整证明直接登记results/R263并索引，原note转短链：r=P(Aᵀ(b+Az)+λ²z)、实际预条件normal=C^-1r；受限H≥λ²I给方向与gap界及最佳模型下降比例，恒等式缺陷仅zᵀr。root全文读证明、核实际20 model SHA a143788e…及官方SciPy1.17停止说明，无新数值。istop2不是迭代上限，实际20未证明高精度模型最优但真下降保留；不推域失败因截断、不加科学门、不改22主线。

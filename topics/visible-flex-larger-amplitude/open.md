@@ -18,6 +18,8 @@ R259已给备用直线缩幅的实际源圆/原有限collocation、完整112尾J
 
 实际联解接受后，立即完成以下相互依赖的内容：保存完整physical/constant状态与真实H尾；原core证书和球排除；真正cut的完整材料角谱；同一SE2及高度偏移下的六jet；明确有限C²修补对metric的影响；完整上下尾和固定帽组装。新场已经含物理z0，不加旧A mean。原背景表尚不定义连续primitive，现已给同场全部表节点的精确共享quintic背景及完整表示误差账（[说明](notes/2026-11-14-shared-background-and-representation-budget.md)）。保原帽高、同一g，完整cut Δ须重建；独立wrapper及严格新loader已冻结（[接口](notes/2026-11-14-shared-background-closed-wrapper-interface.md)），真正使用B的三导数并重建全部cut角差；旧loader拒绝新包，cover/held独立薄入口已接新loader且保原完整空间/全像公式（[接口](notes/2026-11-14-shared-background-cover-held-interfaces.md)）。原metric表不得覆写为B′，数值未执行。原φ96通常含无限θ谱，不能只投影96项便称连续接缝为零。R239是连续充分条件，仍须核其实际分支、turning number和全部高度jet输入。
 
+R263已完整证明预条件normal=C^-1r与受限KKT r的区别、λ²强凸后验方向/模型gap界及下降比例充分条件。实际20小的zᵀr不代全r；需要改进同一模型精度时可据此调LSMR停止精度，不只增maxiter，不把它加成原BVP门或打断22三行实验。
+
 ## 2. 定型后冻结同一材料g精化
 
 R240证明共同材料θ下g=ds²+a(s)²dθ²独立于核心c。第一次设计可调scalar；真正精化须冻结全部a(s;p*)、尾帽g、区间、参数及t范围，释放全部核心，取K0/k0/T=M，然后升频率、径向网格及积分精度。不能将不同scalar设计或不同t区间混为收敛序列。独立v4的prepare/response/full_dn与完整物理读出/尾包/闭面消费者均已准备，严格绑定首v3全部p*及同一canonical scalar SHA，尚无实际v4解。 新Rφ v4三包装已按新身份重建：同一个真实live TailClient完成新H/J、原FD和原fullmain，保predictor、最终fresh audit及原门，实际live scalar sidecar与完整cut单独绑定；尚无真实parent可启动。见[same-g live-client接口](notes/2026-11-14-same-g-physical-DN-live-client-interface.md)。README要求等距误差随精化到机器或原求解容差，并要求每个有限场及t族C²；六jet用于曲率/reach可靠性，不新增六jet全体机器收敛门。帽中心使用固定图册，非线性角变换不得硬延到中心。
