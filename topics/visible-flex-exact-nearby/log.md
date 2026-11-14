@@ -167,3 +167,7 @@ root逐字核P1–29及原U14–17/Q10–31，复核窗口计数、三generator�
 ### 2026-11-14 17:54:21 UTC：推送第一 Airy forcing 的 whole-jet 交集及精确前缀迁移
 
 原 run 43622131835 实际 child=1，科学耗时0.485679s（成功首格0.483707s），CI child墙时0.815111036s；首格 exact `[1091984371497/5000000000000,3935020174414971/18014398509481984]` 保留。原source `d964ae8354700fbb101b55ae332ba51ab8c1a6bafcfe2ca78e12206aae32b592` / manifest `0c836f81cd952dc1527e593c67a813de723187914582b72a578c83c21eecfee6` 的有效较宽首格仍有效，禁止重算。v3 source `e75dda60562fb51c0db637f42e5864fbe983baa481eb266eb0057ae104c1915a`，CI `6aac7163043c382d9e3085cb86fc9493c023aeb96979f106175aa39ef4e496e5`，worker `ac2692984527db79792bc5dfe0a3aabfdee08a1527ecc7aea82eff50cbccfacd`，24-pin manifest `ba8b6d30fa8716b123ffcc63368f37926e95ad8a2682bfdf0b03b017ad7d8552`。只接受完全同源同输入前缀或明确固定的这一个历史native；新失败会保存原midpoint/whole/intersected jets。root已静态逐段读差异，原数据不经connector读取二进制，计算只公开Actions。
+
+### 2026-11-14 17:58:46 UTC：独立核对并推真实平端 mean 与完整开放内部逆
+
+根全文复核 M1–30：物理缩放、真实eX位置、原Airy mean两行/方向号、完整根jump、绝对可和Green、两向块衰减、新ν行列和、Neumann域均核；另亲读原两行端架A2–4和J39/40，加入准确κ^±1/3根初值说明，未用远场n^-1/6代根迹。保非零外输入真实径向补解及全部外/源/Γ列，未授最终外闭合。H原9596B逐字归档后压缩继续；17:55非FF后本地终端重试仍No usable execution environment，按根规则8仅小文本connector接最新main、两README blob未变并已成功重试推送。

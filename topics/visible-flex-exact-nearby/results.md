@@ -409,3 +409,7 @@
 ### 全实显式族的大根区 Cauchy actual
 
 公开43621934843 / 8门 / 792格 / 1.982108787数学秒，完整native `3a214897f5dc47e1a1fed3db327f54fcc0302ad6fd273ea96ecdbfcc0ca4f1e0`。同一 $|\delta|\le10^{-8}$ 显式族的全部六半径root-to-negative Cauchy窗实际通过。R1/50完整额外非单调增长积分<.034816267，$C_0<73.578101$、$C_{-1}<1514.952276$；普通源与真实seam impulses有完整合同，所有频率/mean保。详 [实际表和证据](results/R133-supplement-actual-full-real-large-root-Cauchy-energies.md)。前两失败保，0旧数学重算。
+
+### R119：真实平均模 Green 域及全部 remaining 开放内部逆
+
+证明见 [flat mean Green domain](results/R119-supplement-flat-mean-Green-domain-and-complete-open-internal-inverse.md)（M.1–30，root/tail独核）。同一新ν权下，mean逐块核为 $2^{512}J_jJ_k\delta_{\min(j,k)}^{-4}2^{-|j-k|/2}$，全无限和给 $\|\nu R_{Z,0}\nu\|<2^{-860000}$。平端明确施加物理平均总通量趋0/平均高度有限；原真实根恢复与adjoint均值行付清canonical/physical域比较，保所有非零频密度贡献。结合原全非零逆及差 $<2^{-6000000}$ 得声明域上完整开放内部 $\|\nu R_a\nu\|<2$。实际外输入输出、mean两列、全H/D消元、ordinary/weak/Piola/Γ和端角源完整保留；外regular闭合及强标签/全C²重建仍待证。纯解析新结论，无新本地数学计算。

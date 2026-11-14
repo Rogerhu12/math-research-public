@@ -111,3 +111,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14 17:54:21 UTC：第一 forcing 保留实际失败与成功前缀，继续 v3
 
 43622131835 实际完成4个输入门和1个共同区间，随后第二格的 midpoint Taylor 对 gamma 丢失正性；这不是物理 gamma 非正的证明。原 native `ac235e9e0f9fb1880cc4adc83efc87b2653b0e02e53b0bdd70d20862a3798b0a`/8206B 及 process `a2731be212a6212e1745cdb2f33d2306b8b54156725ccdb875d1beb05019edf3`/13342B 保全。v3 只对尚未完成格把原同函数 whole derivative 和原 Taylor 外包围取交；root 已复核区间正当性、19个不变数学输入、原21-pin manifest 的逐字归档、唯一历史成功前缀的完整SHA/row identity/global bounds迁移。必须复用原1行，找不到就硬退出；仍保全部L0 one-gain项、真实radial jets、mean/I/J余项与1079 seams。公开新run成功前不声称forcing预算已完成。
+
+### 2026-11-14 17:58:46 UTC：真实平端 mean 域与完整开放内部逆已证
+
+[R119 M.1–30](results/R119-supplement-flat-mean-Green-domain-and-complete-open-internal-inverse.md) 在同一公共参数/实际背景/新ν权上完成此前未消去的 mean。真实开口是129胞元第二positive元件外真根，保外侧不完整负分量/cut128/connector/regular。物理归一两态准确满足 $H_t=\mathfrak m^{-1}P,\ P_t=0$；显式声明 $P\to0,H\to\Lambda$ 的域，不能从弱ν权自动删除奇异常通量。完整源跳量核给 $\|\nu R_{Z,0}\nu\|<2^{-860000}$。原J39/40、完整Airy根初值及真实adjoint mean行证明该域与物理平均根迹域等价；深端余幂 $8571/256$。与已成非零逆及全部mixed差合并，全部remaining开放内部 $\|\nu R_a\nu\|<2$，源仍是ν逆权，H/D重建/ordinary/weak/Γ/outer列不删。下一实质义务是真外returned方程、原强source/标签连续映射及完整物理平端正则；不据本篇宣称完整BVP/C²存在。

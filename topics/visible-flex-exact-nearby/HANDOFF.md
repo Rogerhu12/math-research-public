@@ -1,14 +1,14 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 17:54:21 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 17:58:46 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则与同步
 
 仅 Rogerhu12/math-research-public；所有新数学代码仅公开 Actions。每结论独立推；非快进立即接新main/rebase再推至成功，不force。root管ref/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
-本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，17:42重试仍失败。根规则8暂只connector <100KB文本，禁二进制/大文件；先查size，新摘要≤60KB；API不冒称pull。reviewed runner长算每10min真pull；phase独立child≤50min且前后pull。root亲核43621934843于17:36:20拉到08e74aee5894fd1e6a791bc182344f7189095a35，四次两README diff均空。终端恢复即回git。
-最新远端 main/两README blob 核：bf0cf9c9b0530837b36841f1e72206d99717b904；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
+本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，17:55重试仍失败。根规则8暂只connector <100KB文本，禁二进制/大文件；先查size，新摘要≤60KB；API不冒称pull。reviewed runner长算每10min真pull；phase独立child≤50min且前后pull。root亲核43621934843于17:36:20拉到08e74aee5894fd1e6a791bc182344f7189095a35，四次两README diff均空。终端恢复即回git。
+最新远端 main/两README blob 核：b3050da944c47491167c70ef3cb3708fb8eb925f；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
-本次9774B原H完整归档 notes/2026-11-14-handoff-before-residual-split-Hessian.md；早期H/open归档链保全。完整SHA、失败、源端口、零重算合同在各results/manifest及归档；禁止重算已成数学。
+本次原9596B H逐字归档 notes/2026-11-14-handoff-before-flat-mean-inverse.md；更早H/open归档链保全。完整SHA、失败、源端口、零重算合同在各results/manifest及归档；禁止重算已成数学。
 
 ## 同一对象与目标
 
@@ -22,8 +22,7 @@ repair定义440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47；�
 ||q*−Z||<4.572198020300e−6；须全逆||qν−Z||≤.005（或距q*≤.004995427801979700）才有ν行>1/200。
 repair/source全7721及fixed负Z源已成，原105167B exactbump摘要禁再取；旧particular/Green/小根能源和deep五盒详归档，所有原数据只复用。
 完整cut43615251195：11门，只1961新格/旧16保；native8bc061ec…，原physical<2.418183102e−6、moving<1.615491167e−5。全193/mean/未知high/六边界/14gain合同保。
-ordinary-only Hessian43618931236实际11门/114.579596s成功，nativeb1ffc217…，process989e72f6…、summaryf6640ebc…。1341原tB/tC范数复用，只新1977交集tθ；完整普通两源add<1.348921723e−6，旧1.033484771e−5；只完整总add取min，未知erroroperator不变。
-fixedηpilot43619535345实际6门/443.609966s、336新域全成，nativeb5a157d4…；16父格各1/4/16细分，1977父完整八源整组选择/六端点/14gain保。physical<1.508953388222e−6（direct旧2.418183101946e−6），dB<1.382810857749e−6。固定η单独效果小，径向四分显著；全1977四分160pin DAG已核推：plan→8互斥range→finish，仅7844新域，原64quarter逐字复用。保存已算whole+midpoint供Hessian，0额外target；43622701396仅AST未闭括号失败、0数学/0新域；根读实际日志，单字符修为source54e5ec52…/manifest6dc5bf2d…，待新actual。
+ordinary-only Hessian43618931236实际11门/114.579596s，add<1.348921723e−6；原1341 tB/tC复用，0旧math，未知erroroperator保。fixedηpilot43619535345实际6门/443.609966s/336新域，nativeb5a157d4…；16父格1/4/16全8源/6端点/14gain保，physical<1.508953388222e−6。全1977四分160pin DAG仅7844新域、原64quarter逐字复用，保存whole+midpoint供Hessian。首run43622701396仅AST失败0math，补单`)`source54e5ec52…/manifest6dc5bf2d…；新run43623547711 plan实际5门/child0，八互斥range继续，待全success。
 
 无Rθ43621690619实际9门/2.042509s/1341行+1977交集，native85b6bbb8…、process542eb034…、summarybcdc7998…。完整四源add<9.333170e−7；all-new优于local混合9.634153e−7，只有整组加性取小。raw joint原producer/repair193槽/完整mean全保；旧t/tθ/module0重算，未知input erroroperator不变。续真cut/Green及残差包络收紧。
 
@@ -48,7 +47,7 @@ directed word V−^-1V+=U_(S−∘X+)不是平方；root(buv/η)Swap仅均值0�
 
 H1–30真high：E/F内部v权<2^-9000，R损一阶；open内部Schur仅收缩，外口全闭且全列覆盖才onto-unitary；CXxX需H1。V1–24完整rootwave差及adjoint H1→L2<2^35000J40δ^-47NX，内部high消元v^-1差<2^-6000000。
 deep-low L1–28已核推94d799fc：完整真锥、两行root架/逆、W/z和K64邻胞、+u谷项均保；F=2^4096J4δ^-5，wF源→wF^-1状态Green<2^66、双Poisson<2^130。全high长程权已付，两个混合外消元内部差<2^-6000000，深余75/256。
-浅129–8192五盒P1–29已独核推：原K64/profile/Γ门与fixed-stop M4真线重付；e<2^-190有限e入口明确。全M≥4同公共点/含浅retained，W_all=2^-16W、v_all=2^-16v，原δ1073/32不变，角权全频费用<2^2200000；内部mixed差<2^-5999900。开放B1–33已独核：辅助ζ闭合+q<1圆盘逆、p255/256分数矩/Fatou真得开放内部逆；同全频公共点好集>1−96/16384，Wop²=2^-96J^-4M^-16/15D，ν=2^-432064J^-4166δ671/20。新high/low完整mixed差<2^-6000000，深余327/1280；全非零内部||νRν||<2。真实外口/mean Schur与全部源仍保，tail续平端flux=0物理mean商/全外闭合/source-label。
+浅129–8192五盒P1–29已独核推：原K64/profile/Γ门与fixed-stop M4真线重付；e<2^-190有限e入口明确。全M≥4同公共点/含浅retained，W_all=2^-16W、v_all=2^-16v，原δ1073/32不变，角权全频费用<2^2200000；内部mixed差<2^-5999900。开放B1–33已独核：辅助ζ闭合+q<1圆盘逆、p255/256分数矩/Fatou真得开放内部逆；同全频公共点好集>1−96/16384，Wop²=2^-96J^-4M^-16/15D，ν=2^-432064J^-4166δ671/20。新high/low完整mixed差<2^-6000000，深余327/1280；全非零内部||νRν||<2。M1–30真mean已根/tail独核：eX为129胞元第二positive外真根；明定物理flux→0/height有限根迹域，原两态jump核有||νRmeanν||<2^-860000。J39/40+真Airy两行初值/adjoint均值行给physical/canonical域等价，深余8571/256。故全部remaining开放内部||νRaν||<2；全mean/source/H/D重建/外return保。仍欠真外闭合、原强标签源/完整C²平端，tail继续。
 geometry43584188751/26门只条件：同η0真闭C²解、fullC0≤1e−4、|δν|≤1e−5、完整outer/matching ⇒held/D>.05075888242、reach/D≥800/25039、Hdiam/D≥360/511，marker145..148给含反射δE>0。
 **真完整无限逆、νSchur、非线性存在/状态球/holonomy与全部物理matching仍欠。** 子题完成即接open下一项，绝不以阶段报告、等待或时长结束。
 
