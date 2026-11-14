@@ -101,44 +101,17 @@ R8给准确正合列 $0\to\mathbb Q_pv_p\to\operatorname{Sel}^0(\mathbb Q,V_pE)\
 Castella实际导出类非零在本曲线等价初级有限，但归属及非零仍需独立输入；Kim/Calonge2026的前提未付。
 R37/39的反对称MW块与高度代数线性独立不排cyclotomic二次regulator或strict三次式零；不可删潜在Sha方向。
 
-### 当前已联合取得的原输入
+### 完整原类、已联合输入与仍需通过的门
 
-L/F为真实环类Cp扩张，A=kerNorm Res E，O=Zpζp，δ=τ^((p−1)/2)(τ−1)。
-完整Q非扭后，R119 Nekovář整本征定理（含p）给rankA=p−1、整个ShaA有限；MW O格秩1，Q=δ^aεw。
-**E17、E389都已证a≤1⇒原Sha[p∞]0。** 非p除、小高度、源简单或环境函数非零均未替代此门。
-E17真Euler leading Q、lengthShaA≤2a，原符号与Gauss高度给a偶、a≤(p−3)/2；a2仍允许。
-E389原弱系统leading δQ，保高层NY_n=aellP_n；R144/156的raw比较−t0aell（无h）、Zhang原始性和弱刚性给lengthShaA=2(a+1)。
-R230对原16域全部给严格L′正区间，故负扭曲rank1、整个Sha有限；删一个固定有限素数集即同时s−=1，原筛和82个CM中心不变。于是ν=s+−1=r−1+dimSha(E/Q)[p]；原完整族的单辅助类非零等价r=2且Sha[p∞]0。配对给a偶时a≥s+−2、a奇时a≥s+−1，仍允许a2。不能统一除δ，原aell单位的ell也不是Kolyvagin辅助q。
+O4所有原规范、16个域、82个CM中心、完整Hilbert类迹、carry及局部/全局区别完整保存在[O4检查点](notes/2026-11-14-open-r475-r477.md)的同名部分；下列问题均仍开放，不因压缩正文而关闭。
 
-R149–156已将Fouvry .667、16独立域、Selberg64及原full-class×tame Cornut/ST输入放在同一筛；准确高度和全部hFu迹保留。R153的−532替换及82个CM中心有完整整数/Arb证书。
-**存在某一个固定表列F*，有无穷不同ordinary/nonanomalous且split F*的p：同一原Q非扭、NQ0、hQ=o(p)、非p除、aellunit、全部源简单、0≤a≤(p−3)/2，准确lengthShaA=2(a+1)。**
-ell+1=pu、u≪p^(333/667)；所有坏集已在同一输入中删除，未相交两个未经控制的无穷集。
-实际域表、82点证书、退化映射和范数规范见R150/153/154/156。旧E17密度一split路线只给o(p²)，其o(p)路线未同保split；不得混为这组联合输入。
+R119/R149–156在同一无穷普通/nonanomalous素数集已付原Q非扭、范数零、hQ=o(p)、非p除、辅助aell单位及源简单；真实O格Q=δ^aεw，E17与E389均已证a≤1足以原Sha[p∞]为零。E17保a偶；E389保lengthShaA=2(a+1)。**仍须证明同一原类的a≤1或等价低增广项非零**，高度、非p除、源简单及环境函数非零均不能替代。
 
-R232已去掉辅助观测的饱和损失：a奇时B=RX⊕B₀⁺、NX=P_-，原Q=Δf(Δ)X且a=1+2vΔf。选真Kolyvagin型observer q并令固定负点局部非零，全部p完成的M1⁺/M2⁻非零准确等价a≤1；a1时M2⁻=f(0)red(P_-)。观察q不改原ell/Q；κδ,A(Q)不是原首项δQ；δ³局部链及同一q的真core已把两矩非零传入原单辅助类，全局非零不等于自身q处模δ非零。
+R232/R234/R237原两矩、两类observer及完整definite群环保同一个原ell与全类群迹；所有p完成上的两矩非零等价a≤1，原β(Q)=f(0)P_-仍待非零。反圆四阶/导出高度note的第二高度必须控制整个S+并匹配原λ，局部Kummer或Heisenberg平方中心零不够。
 
-R234将同一原两矩送入真实definite群环：两类q²≠1、a_q=±(q+1)的admissible observer有各自一维局部线；Zhang(4.9)逐原ell/全部类群、同一度零Hecke和单位保完整Trace。原Θ的T/T²准确是两矩，匹配族增广阶a+1，未付低项非零；不混同R232的q≡−1双线族。R237在所有pⁿ精度整恢复负regular块和原理想(f)⊂O⁺/pⁿ；对称Δ除法只给模p规范中心，β(Q)=f(0)P_-仍待非零。提高观察精度未改变这个全局条件。
+R130/R134–148的全p完成、真实Frobenius规范及SL2/PSL2轨道保原D2观察；原D2失败等价C=D/n²在指定CM点正则，须控制指定纤维而非别处极点。p不除类数、单点稠密或总迹零不迫所需类群和。R154原固定商覆盖次数ell(ell−1)，R157双反射失败同步，未增加独立测试。
 
-[Heegner四阶/导出高度note](notes/2026-11-13-original-heegner-fourth-jet-and-derived-heights.md)已准确比较Darmon张量与原λ²项：奇分支目标是四阶，第一高度在完整Selmer上零。第二高度或新Lie四次观察必须控制整个S+并与原λ比较；普通Kummer局部H¹全零、Q下降Heisenberg平方中心零，均不能替代该输入。
-
-### 原有限测试与指定 CM 极点
-
-R130保全部p完成和formalizer；Fsplit保(s²−ap s+p)(s⁻²−ap s⁻¹+p)，Finert=(p+1)²−ap²。
-D2=Σbinomj2τj在I→P/p的核δ²I；原D2(t(R)/p)非零⇒a≤1。F在p惰性时仍保完成之间的置换。
-R128/131/133跨p非零仍开；R129原可除Sha范数核保留。
-R132 61-old差分可提高a而保首jet/小高度，原p⁴ division cover维数2pu−1；这些范围边界不否定原映射，见对应完整证明。
-
-R134/137真实Coleman全迹在E17为−ap s logQ/p，在E389为s(s−ap)logQ/p的单位倍；actual SL2/PSL2两轨道与全部U迹已保。
-环境函数B在Δk(Y)中但不在Δ²k(Y)，不保证指定CM纤维的D2非零。
-令n=NB、A1=D1B、F2=D2B，R142的真实AS式给D=A1²−nA1−2nF2；n简单时
-**原D2失败iff C=D/n²在指定CM点正则**。二阶/一阶极点分别给两步非零；别处极点不够。
-R148全迹TrD=TrC0、自对偶卷积及原CM Frobenius修正均已付；p∤hF、单点稠密或总迹零不强迫所需类群和非零。
-R147变化F可保p∤hF和所需分裂，但无判别式上界；每个CM轨道仍须作完整hF/d域迹和。
-R154真实固定商Y_D使中心F有理并保源简单；Cp覆盖到固定曲线度ell(ell−1)，非u。R157原w389/Cartan反射使两方向C(t)↔C(−t)，失败同步，不能当独立测试。
-
-R271的全p类群raw Θ不落I³经完整Selmer给E389 Sha[p∞]0；R276的11/13有限证书已付。R281把新入口放到最大阶Θ1：同标签πΘell=aellΘ1，实际Kummer–Chebotarev付分裂/恰一p/aell单位，低项非零给至少(p−2)p^(r−1)真分歧商。F−2267,p11二矩4只证非空。R285已消观察q：原Θ1对某q不落J³ iff 某真实Hilbert商Q不在δ²A0；两层通常Kummer保全norm及真实Sha项。须证明此同一原类对无穷p非零，不能把高Kolyvagin节点原始性降作这两层。
-
-R296最大阶精确p类及AP几何条件已付；F−6671全88类矩(0,0,9)。R304完整conductor下降为E_cΘ1，低jet与原δ² Kummer类均恰乘e_c；e_c被p整除时有明确全局除点，原176/528标签全trace已核。仍缺指定p类不落pCl及变化q全Hilbert trace的跨p非零；q13仅容p11/17。
+R271/R281/R285最大阶真实Θ1低于I³的条件已通过完整Selmer接到Sha；R296原88类和R304 conductor完整Euler下降均付。**待做：** 指定p类不落pCl，以及变化q的全Hilbert trace在同一无穷输入上低项非零。有限p11/13/17证书和提高恢复精度都不解决这一步；高Kolyvagin节点原始性不能直接降到所需两层。
 
 ## O5. 强声称来源审计：此支线已完成
 
@@ -283,6 +256,9 @@ R477已付原二输出的完整Λ612、真实coreλ及全/单位两种整卷积�
 
 
 R475已付实际cube的J层联合必要类高轴不变；δ=r+h−ell≥3时全原β1M也不变，含ell1/2。δ0/1/2的最高尾须商原像。**待做：** R479真正M提升的两块13行首次商与同一R联立，以及完整第二Bockstein，不能直接套J层单位5/−2。
+
+
+R478已付原二倍连接新线差及完整q⊗C2进位，未投影principal比较含已知非零log2质量项。**待做：** 合法控制两连接中央观察或全部p级division补域；只新线投影零不使未投影W*零，亦不能把有理补项放入固定theta投影。
 
 ## 保持的完成标准
 
