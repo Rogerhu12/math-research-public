@@ -8,7 +8,30 @@
   "workflow_commit": "e5e4acacf2076be23c74a5f326ab01ebe0a82e7e",
   "worker_source_sha256": "50b8d6f9bf9d5488b7a8993a8c9506f06f2128a003511e69910da8c707da6bf3",
   "started_utc": "2026-11-14T18:33:49.709332+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_full_real_delta_negative_one_seven_source_positive_graph",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-full-delta-negative-one-positive-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_negative_one_positive.py",
+        "--collar-process",
+        "/__w/_temp/visible-exact-full-delta-negative-one-positive-work/science/topics/visible-flex-exact-nearby/notes/full_delta96_root_collar_ci/run-43606747196-1/consumers/process.json",
+        "--body-process",
+        "/__w/_temp/visible-exact-full-delta-negative-one-positive-work/science/topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/process.json",
+        "--body-summary",
+        "/__w/_temp/visible-exact-full-delta-negative-one-positive-work/science/topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/evidence/full-delta-complete-positive-N97-high-inverse-summary.json",
+        "--outer-summary",
+        "/__w/_temp/visible-exact-full-delta-negative-one-positive-work/science/topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/evidence/full-delta-complete-regular-Hs-outer-summary.json",
+        "--out",
+        "/__w/_temp/visible-exact-full-delta-negative-one-positive-output/native/full-real-delta-negative-one-positive-graph.json.gz"
+      ],
+      "started_utc": "2026-11-14T18:33:54.555296+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 5.00050706399999,
+      "finished_utc": "2026-11-14T18:33:59.556198+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T18:33:50.145990+00:00",
@@ -33,9 +56,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T18:33:59.981791+00:00",
+      "before": "e4cb84f323e23b1ae0b27c790122c818793fc8ac",
+      "after": "0384af50afcff061d85145ebb55c2413652dd31d",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T18:33:54.552773+00:00",
+      "final": false,
+      "commit": "0384af50afcff061d85145ebb55c2413652dd31d"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -66,7 +103,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "e4cb84f323e23b1ae0b27c790122c818793fc8ac",
+  "last_read_commit": "0384af50afcff061d85145ebb55c2413652dd31d",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-full-delta-negative-one-positive-work/science",
   "actual_original_small_input_sha256": {
     "collar-process": "f919ecd9da5d447cf8950d1b267c28c7c33c2c396b21318b64a45317646745ae",
@@ -74,7 +111,14 @@
     "body-summary": "2da26c59fcbf212fc669cd29efdc9eb27489ae5a11f8dc51bea801b733ba9ef9",
     "outer-summary": "769204e822787216c5aebd2cde30e73759fcf66d3bb1d6d1d76d2381bad6cae6"
   },
-  "snapshot_utc": "2026-11-14T18:33:50.535141+00:00",
-  "wall_seconds": 0.8264837679999957,
-  "native_files": []
+  "snapshot_utc": "2026-11-14T18:33:59.991205+00:00",
+  "wall_seconds": 10.282548649999995,
+  "native_files": [
+    {
+      "logical_file": "native/full-real-delta-negative-one-positive-graph.json.gz",
+      "file": "native/full-real-delta-negative-one-positive-graph.json.gz",
+      "bytes": 6676,
+      "sha256": "498a5f8be6d2729a1029dbc45a7c06f832c58e2d269031f7db929c2327a0c260"
+    }
+  ]
 }
