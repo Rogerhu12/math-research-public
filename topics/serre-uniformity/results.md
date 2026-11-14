@@ -247,3 +247,6 @@
 
 
 - **R761（已证明）**：[原Γ/scalar普通交换项的整p可除性](results/R761-original-Gamma-scalar-ordinary-exchange-and-integral-p-division.md)。原θ极点与完整μp² phase、Γ ordinary divisor注入、A_B=0和全部43相位共同给WΓS∈43E_M；其唯一ordinary商L同时满足两个真实边界与三Norm零。未外推其他两对/顶cube，原Y坐标、ρ及J/b/σ₂仍待算。
+
+
+- **R763（已证明）**：[保持原首矩与实标记的普通见证归一](results/R763-ordinary-torsor-normalization-with-fixed-moment-and-real-marking.md)。实际NS满射给λ=1的普通双Norm零调整，保同一Xt、ηα/J及全q相位；实Vτ覆盖允许纯虚线，清除ρ后RΓS/p为真实ordinary Γ/S共同零Norm原像。ρ不是固定首矩的不变量，T/dual下降继续。

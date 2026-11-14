@@ -243,89 +243,12 @@ Riemann–Roch 线性系统截断超过 $\deg D+2d$ 后，
 
 ### 原普通 Norm、首矩与类作用参数
 
-[R731](results/R731-complete-ordinary-Gamma-norms-and-marked-q-principalizations.md)
-现给全部原层的完整普通 $\Gamma$-Norm：
-$N_\Gamma E_{M_n}=(p,s-1,N_{T_n})E_{B_n}$，
-商为 $k[T_n]/(N_{T_n})$。
-原 $q$ 类 $44N_{S_n}c$ 非零且填满 ambiguous socle，
-故 strongly ambiguous 等于 ambiguous；
-完整普通除子/Hilbert90 序列遂消去“单位中的域 Norm”与“普通单位 Norm”的差别。
-原 residue Norm 精确恒等和 $A_n'(1)=-13i$ 给整核，未漏 $q$ 或额外乘 $p^n$。
-进一步可在原 $M_n$ 全局选取
-$\operatorname{div}Z_n=N_{T_n}P_+Q_n$、$N_\Gamma Z_n=A_\alpha$，
-全部解为普通 $\ker N_\Gamma$ torsor。
-这是准确原标记的主化及 Norm 校正存在定理；$Z_n$ 坐标、实际 $J/b$ 尚未求出。
-
-
-
-固定 $p=43$ 的776bit $q$ 已被 Gaussian5 排除，并非实际曲线或 Serre 反例。
-R715 确定原 $m=43$、普通 scalar Norm 满射、$N_PE=(p,\pi)E_L$；
-R718 给所有层 $m_n=42n+1$、$d=\infty$、普通类 Norm 逆极限
-$R_\Gamma$ 和真正相容普通单位 Norm 像。
-
-[R720](results/R720-original-C-and-b-by-the-complete-Robert-chain-comparison.md)
-用同时整提升、真实 $N_\Gamma X$ 自由像和两次原链比较给
-$C=9ib=-34ib$，故 $L=31+26b$、$r_y=25+9b$、
-$\Omega_2=\varepsilon(22+17b)$。
-最后障碍零恰 $b=24$，但实际 $b$ 未知；
-禁止代 pure-$p$ 参考24、一次10或辅助 $C_t=9$。
-
-[首矩重建](notes/2026-11-14-r599-first-moment-normalization-reconstruction.md)
-保留原 $t,P_0,P_+$ 和完整普通div/Norm，
-定义选择无关 $J_\ell\in\mathbb F_{43}$、$J_r=-2J_\ell$。
-全部见证恰 $X+(t-1)E$，完整余数改变量全像 $I^2$，
-所以 $J_\ell$ 是唯一剩余坐标。
-允许Norm改普通基单位以杀全余数时，系数
-$c\equiv-J_\ell/(13i)$。
-R185 同一原 Robert 规范给有限 flat Norm 目标
-$A_{\alpha,\mathrm{fl}}=A_\alpha-(8i/1848)u$，
-故 $J_{\mathrm{fl}}=J_\ell-18$；系数只在模43时写成 $+8i$。
-同笔记§8进一步给真实受支撑 primitive
-$e_p(d_q)|_q=(J_\ell/2)K_0$、
-$e_p(d_q-8d_0)|_q=((J_\ell-18)/2)K_0$，两者奇异项均零，
-与原 $w_q$ 配对为 $\varepsilon(J_\ell-18)$。
-原障碍却含 $e_q(d_0)$，仍须带完整规范的
-$\kappa_p$–$d_q$ / $\kappa_q$–$d_0$ 交换链。
-实际 $J_\ell$、$J_{\mathrm{fl}}$ 与原 $b$ 的准确比较及真正主化坐标仍缺。
-R704 原43嵌入矩阵及R708局部Norm歧义已处理；
-仅局部条件不能替全局普通输入。
-
-
-[R743](results/R743-original-first-moment-and-the-exact-flat-primal-secondary-slope.md)
-现给原首矩的准确primal实现：完整$H^1_S$由原Robert类和w（dual为d0,dq）生成，
-原p处dual定位单射使$\Sha^2_S(W)=0$，故存在S支持
-$\delta B=(-i\kappa_p)\cup w$。实际R189校正唯一确定p-flat规范模$\mathbf F_p w$。
-保非零$d_q-8d_0$在q的$(16,1)$及两个q局部项，完整secondary reciprocity给
-$$
-2(a_q(B)-16b_q(B))=-\varepsilon(J_\ell-18).
-$$
-因此$J_{\rm fl}=0$恰对应该p-flat primitive的q类落原w线。
-这未将p-flat条件等同ordinary Hilbert扩张所需的strict-p条件；
-原b的真实交换链/数值仍缺，R204另一个类的pure-p24不能代入。
-
-
-[R746](results/R746-original-ordinary-coefficient-as-a-strict-p-bockstein-condition.md)
-完整闭合ordinary端的双向接口：原$A_M/\pi^2$恰给
-$$
- z=b\iff \delta D_z=(-\ell_{\rm cyc}-2iz\kappa_p-2i\kappa_q)\cup w
- \text{ 有S支持且 }[D_{z,p}]=0\text{ 的primitive}.
-$$
-反向由真实semidirect构造核p全裂、q惯性p次幂、2处H1零及原genus；
-Δ的实际阶44角色给k线性、Γ稳定迫整个长二商，故不只是必要条件。
-若$D_0$取原Γ/scalar primitive，则
-$\langle[D_{0,p}],(d_0)_p\rangle=26\varepsilon b=\varepsilon(\mathcal L-31)$。
-这使用$(d_0)_p=(24,20)$，R743则以$(d_q-8d_0)_p=(0,41)$规范另一primitive。
-两个泛函线性独立；真正标记交换链尚缺，不据此断言Jflat∝b−24或任何b数值。
-
-
-[R749](results/R749-original-scalar-primitive-and-the-exact-reference-pairing.md)
-现在独立评价原scalar参考项：R561原普通u_s相位25、Fr_q²=s32，
-完整p² Kummer-zero gauge迫β^p=u的phase0；正Norm cochain的Frobenius值为26。
-乘原−2(i/1848)并只作一次quadratic restriction得$e_{c,q}=26K_0$、奇异0，
-完整exact-dual reciprocity给$\langle z_0,d_0\rangle_p=9\varepsilon$。
-最小支撑下q值唯一，扩大支撑仅模原(16,1)线，配对仍唯一；
-与R746合得原$\Omega_2=\varepsilon(22+17b)$，未从此式反推scalar值。
-实际J与b、ordinary/flat交换仍未求出。
+完整旧链存[before-R763](notes/2026-11-14-open-before-R763.md)。固定p43的776bit q已Gaussian5排除，非Serre反例；保原Γ/s/t、P0、未平均P+。
+R715给m43、普通NS E=E_N、NP E=(p,π)E_L；R718全塔m_n42n+1与相容普通Norm逆极限。R731全部层NΓE_M=(p,s−1,NT)E_B，商k[T]/NT；完整ordinary除子与原q ambiguous socle均保，不能代域Norm根。
+[R720](results/R720-original-C-and-b-by-the-complete-Robert-chain-comparison.md)的C=9ib、L=31+26b、r_y=25+9b、Ω₂=ε(22+17b)，零iff b24；实际b未知，pure-p24/一次10/Ct9禁代。
+[首矩重建](notes/2026-11-14-r599-first-moment-normalization-reconstruction.md)给原Jℓ选择无关、Jr=−2Jℓ，全部见证X+(t−1)E和余数改变量I²；Norm普通基校正c=−Jℓ/(13i)。R185准确Aflat=Aα−8i/1848 u、Jflat=J−18；原ep(dq)|q=(J/2)K0、ep(dq−8d0)|q=((J−18)/2)K0，奇异0。
+R743保正确Sha方向，原p-flat primitive满足2(aq−16bq)=−ε(J−18)，不是strict-p。R746真实ordinary判据z=b iff δDz=(−ellcyc−2izκp−2iκq)∪w有Σ支持且p类0；原〈D0p,d0〉=26εb，d0p=(24,20)，flat dual=(0,41)是另一个独立泛函。
+R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈z0,d0〉p=9ε；不反推b。R752/R755/R756/R758/R761及新R763见下，真正J/b/σ₂和ordinary-to-flat下降仍待求。
 
 
 **R736（已证明）**：同原p43/q标记，NS kerΓE_M=(π,N_T)kerΓE_N等于全部原q直接相位核。原Fr=s32给s在μp²上指数1+2p及rμ(ct)=ell(ut)，R207实一致化元保含极点双Norm相位零。故存在原divY=D_Tq、NΓY=NSY=D_TXt；Z=Xt−(t−1)Y同时NΓ/NS/NT=Aα，原直接相位rμ((s−1)Y)=−4J，flat=−4(J−18)。完整普通校正已证，真正与R720原b的T/Γ链及J/b数值仍缺。详[R736](results/R736-original-three-norm-exchange-and-minus-four-moment-phase.md)。
@@ -365,3 +288,6 @@ $\langle[D_{0,p}],(d_0)_p\rangle=26\varepsilon b=\varepsilon(\mathcal L-31)$。
 
 
 **R761（原Γ/S ordinary交换可除p已证明）**：[完整证明](results/R761-original-Gamma-scalar-ordinary-exchange-and-integral-p-division.md)保Y的真实θ极点、BΓ/BS全μp²相位以及全部ordinary divisor，Γ相位注入和A_B=0构造共同F；全部43个T相位给e∈pE_Ft+Ou，故WΓS∈43E_M。实际LΓS=−WΓS/p=(t−1)H同时πL=V_S、SL=VΓ、三Norm零。只解决Γ/S一对；ΓT/ST、π²L/S²L及原dual cochain下降仍须证明，ρ和全局Y坐标并未求值，不据此求J/b或σ₂。
+
+
+**R763（保原首矩/实标记的ordinary torsor归一已证明）**：[完整证明](results/R763-ordinary-torsor-normalization-with-fixed-moment-and-real-marking.md)在同一Xt的真实KΓS差模给λ(Vy)=1，ρ可任意改变且清零，原ηα/J及全部q相位逐代表不变。实平均与实际Vτ保全部规范并给λ=i，H0=RΓS/p ordinary、Γ/S Norm零、τH0=γH0。ρ不是原首矩或b的不变量；真实T下降/π²L、S²L及R755 dual仍须接续，未由普通见证选择求J/b。
