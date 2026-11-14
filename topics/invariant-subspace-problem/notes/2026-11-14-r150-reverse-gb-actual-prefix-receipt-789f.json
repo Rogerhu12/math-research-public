@@ -1,0 +1,60 @@
+{
+  "format": "r150-exact-reverse-prefix-run-v1",
+  "status": "prefix-only",
+  "field": 31,
+  "dagSHA256": "5852a79b67c04c3bef7a5a88a4d21bec75c6389bd3bede450b3045865c7899c7",
+  "coefficientSHA256": "f1455f556206137719b75e3687b0fc8aac43bb55ffb4ff094001c86d410315f2",
+  "gbReceiptSHA256": "18d523a451953799c280f05e251a630be1543b2aa248940cce97d17a25246969",
+  "coefficientReceiptSHA256": "423ed3cbbef13e9520b9ad26bcac961687337b059b7ab6f070d40dff2323e069",
+  "cppSHA256": "50a353564dc037d214f6d25f2edc796e28008b6a915637b53afe132668efc8ac",
+  "runnerSHA256": "104a3b4432bb7e85beaf8cdd8cd1ccc5480cec2f5fb7916408914f66a0698e7c",
+  "readerSHA256": "1b32a00c42d400527cd01d3ac14249079834a0550df17c226a2dfe51f20579b9",
+  "arithmeticSHA256": "5d9bc7b87900472b617a9845b735388efe7f2c2cbde534a0b574ffc625d1a471",
+  "secondsLimit": 60,
+  "softSeconds": 50,
+  "memoryMiBLimit": 512,
+  "outputs": {
+    "original-source-coefficients.bin": {
+      "file": "/tmp/r150-reverse-actual-prefix-789f/reverse-original-source-coefficients.bin",
+      "bytes": 610637,
+      "sha256": "53dd2e7d3ecc5908a9885283f7d06bad829f82b8728d9d42fd91dac36072e1d5"
+    },
+    "checkpoint.bin": {
+      "file": "/tmp/r150-reverse-actual-prefix-789f/reverse-checkpoint.bin",
+      "bytes": 55556458,
+      "sha256": "7a4fab536f762205d8a9dddf36a37a949d7d461091b736834180c3c446e02180"
+    },
+    "replay.json": {
+      "file": "/tmp/r150-reverse-actual-prefix-789f/reverse-replay.json",
+      "bytes": 17647,
+      "sha256": "ad52a07e3854d0c1318ac83c248fce7ead80a8c3df92e59723c64b63f3ff6efc"
+    }
+  },
+  "binarySHA256": "27ee2d33979240377ecf5f9107c6448c7867bba0b1cf9ebed6cd0b6bd3543678",
+  "lastProgress": {
+    "status": "original-source-reverse-prefix-only",
+    "completedSources": 976,
+    "maximumOriginalCoefficientDegree": 1018,
+    "maximumActualIntermediateDegree": 2862,
+    "nonzeroOriginalCoefficients": 254606,
+    "activeArithmeticRecords": 3896349,
+    "coefficientWordWork": 4213802201,
+    "peakLiveCoefficientBytes": 57168700,
+    "stopReason": "soft-time-bound",
+    "elapsedSeconds": 52.0547
+  },
+  "exitCode": 0,
+  "elapsedSeconds": 52.06896227999823,
+  "nativeStatistics": {
+    "status": "original-source-reverse-prefix-only",
+    "completedSources": 976,
+    "maximumOriginalCoefficientDegree": 1018,
+    "maximumActualIntermediateDegree": 2862,
+    "nonzeroOriginalCoefficients": 254606,
+    "activeArithmeticRecords": 3896349,
+    "coefficientWordWork": 4213802201,
+    "peakLiveCoefficientBytes": 57168700,
+    "stopReason": "soft-time-bound",
+    "elapsedSeconds": 52.0547
+  }
+}

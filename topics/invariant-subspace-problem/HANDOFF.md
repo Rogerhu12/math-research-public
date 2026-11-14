@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `fdc699f844dcf1a2cff480ba790e822950997ed2`（2026-11-14 12:03:54 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `6d9f7b15b2784fac8eba05c22a70640f5781d340`（2026-11-14 12:23:47 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。`0c17ddf2`新增表列课题/规矩1、13扩范围，`ee26c0a6`仅改另题标题，均已读，ISP标准不变。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`；旧R272/273已重建推送。历史只读副本移至`/tmp/isp-789f-old-math-research`以释放共享磁盘，全部保留。
@@ -41,7 +41,7 @@ A_U*L1L3⁻¹L1A_U≤κI，且Δ*G1=−L1A_U；倒数桥为B*L2²B≤κG1。两�
 - [全NF](results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)54.8127秒/512MiB完成2195来源/9目标、1034分量/最高45次；全原来源DAG保留。[完整GB](results/R150-appendix-complete-native-polynomial-basis-and-finite-torsion-space.md)184.148秒给1021基、最高8次、总716；全部torsion NF≤7，状态维820。
 - [全挠空间](results/R150-appendix-complete-mod31-torsion-and-affine-maximal-minor-divisor.md)2.084秒得观测秩505、W维315、CW=0/AW=WJ和九目标坐标；压缩状态/来源在notes。charpoly315/minpoly190，另五个不可约因子共60次支撑且各平方；只是模31，E8与旧点碰撞，不是复参数异常点。
 - [九目标](results/R150-appendix-nine-original-targets-exact-mod31-annihilator-degree24.md)共同最小Ann h31=s³(s−2)²(s−1)P+²P−²E6度24；j4/10少(s−1)度23。额外五因子与s+6均不进入任何目标。候选h0=s³(s−2)F+²F−²E8仅待char0证明。
-- [完整基系数](results/R150-appendix-explicit-degree49-target-basis-coefficients-and-source-replay-bound.md)已核全部1034分量GQ=h31T，Q最高49次/342321非零系数，压缩完整保存。原源无相消上界26265不是实际次数；一次实际反向前缀已完成976/2195来源、实际来源次数1018/中间2862，52.055秒保存checkpoint，未全展开，停止续跑该配置，转低次数直接lift。
+- [完整基系数](results/R150-appendix-explicit-degree49-target-basis-coefficients-and-source-replay-bound.md)已核全部1034分量GQ=h31T，Q最高49次/342321非零系数，压缩完整保存。原源无相消上界26265不是实际次数；[实际反向前缀](notes/2026-11-14-r150-actual-reverse-prefix-checkpoint-789f.md)已完成976/2195来源、实际来源次数1018/中间2862，52.055秒保存checkpoint，未全展开，停止续跑该配置，转低次数直接lift。
 - [特征零线性块](results/R150-appendix-exact-characteristic-zero-linear-divisor-and-minimal-inverse.md)精确Dlin=s⁸(s−2)²(s+6)²F+³F−³E8²度46；单位双核补给全部9阶gcd及横向逆最小分母，h0是其真因子。非线性项/Γ不可删，不能由一次线性逆免费得到24次预算。
 - [∞一阶图](results/R150-appendix-original-infinity-jet-and-mod31-determinantal-thickness.md)保原全部6188来源，常数秩4340/连接秩4，模31∞除子阶≥24、齐次总度≥339。不给char0厚度或未算高阶上界；原74次条件准则在31不触发。整个除子与目标Ann分开。
 - **运行与恢复：** CI43588728414于11:41:15 exit124，实到BEGIN_BASIS；输出在notes/r150-module-actions-789f/43588728414-1/char31，当前无远端长任务。原生完整结果另付，不重跑旧std。大NF/GB/DAG在/tmp/r150-native-nf-all-789f、/tmp/r150-native-gb-full-789f；全状态及Q有仓库压缩副本。反向前缀在/tmp/r150-reverse-actual-prefix-789f。
