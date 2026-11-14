@@ -101,3 +101,5 @@
 - **R709（已证明）**：[最后真CM4盘的原F3和全部非CM SS排除](results/R709-final-true-CM4-F3-and-complete-SS-exclusion.md)。公开run43589296050保持原R656全部F2/457函数及T3四核两双点；完整次数106 Norm、长度6秩6、R554联合半式和全54全局装配给真实F3。两个F2候选在四同标签下八差皆非零，现105/105非CM SS全排除；129盘八CM总分类由R707另完整合并。
 
 - **R708（已证明）**：[原部分Robert积的精确同源压缩与43值局部Norm纤维](results/R708-exact-isogeny-compression-and-the-43-valued-local-norm-fiber.md)。原q轨道可精确压缩为(q+1)/43个degree-q商曲线，仍不能成为一个小同源核。保持原Γ/τ标记、所有纯p输入及实际c_q/c_t和全部显示Norm的p-local共同祖先变形，令η_p遍取F43；可固定所有q局部资料。故还须真实全局普通单位条件，原C/m/L数值仍未求。
+
+- **R707（固定层完整分类已证明）**：[层41的全部129盘和八个有理CM点](results/R707-complete-level41-rational-point-classification.md)。由现存完整原证明重建19普通+110超奇异互斥覆盖，16+105整盘排除，八个CM点以精确j、原图坐标、同坏标签和简单根唯一性识别；判别式−3/−7/−11/−12/−19/−27/−28/−67，无有理尖点。129行账本绑定183份来源证明SHA，不依赖遗失R583，未重跑既成计算。O5固定p41子问题关闭，绝对Serre目标仍OPEN。

@@ -4,26 +4,26 @@
 
 证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，未达到 README 完成标准。** 固定p、条件结论、数值验证都不算完成。会话 serre-public-resume-20261114；日志 Asia/Taipei。
 
-已读规则提交：a39fc22b05d97070cab3643958542ac71ad20397
-最近实际 pull：2026-11-14 19:40:43 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
+已读规则提交：8777e7a044408b25897a0325928250413501d5ee
+最近实际 pull：2026-11-14 19:42:11 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
 
 仅在 Rogerhu12/math-research-public 工作，长计算用本仓库 Actions；旧“停用公开runner/转本地”作废。每条结论终端commit/push main已授权；推前pull，非快进立即pull --rebase循环，不force。令牌仅CLI临时环境。根代理独占tracked/git；辅助在仓库外agent-global/、agent-cartier/、agent-o6/。单Markdown<100KB，HANDOFF<10KB，open/README<30KB，数据>1MBgzip，单文件<5MB。日志只追加本题log，≤5内容行；改共享文件须在log说明。
 
-部分克隆仅检出本题源码/证明/小JSON；大型scripts/data/*.gz按需git show，避免共享盘ENOSPC。所有Git对象仍在本地。迁移前与本轮压缩前交接完整保存于 notes/2026-11-14-public-takeover-handoff.md、notes/2026-11-14-public-handoff-through-R683.md；后续压缩前交接见notes/2026-11-14-public-handoff-through-R693.md及notes/2026-11-14-public-handoff-through-R700.md；当前open旧逐条更新保全于notes/2026-11-14-open-before-public-wave02-results.md；恢复更早依赖见这些文件的归档链，不把旧摘要当缺失证书。
+部分克隆仅检出本题源码/证明/小JSON；大型scripts/data/*.gz按需git show，避免共享盘ENOSPC。所有Git对象仍在本地。迁移前与本轮压缩前交接完整保存于 notes/2026-11-14-public-takeover-handoff.md、notes/2026-11-14-public-handoff-through-R683.md；后续压缩前交接见notes/2026-11-14-public-handoff-through-R693.md及notes/2026-11-14-public-handoff-through-R700.md；当前open旧逐条更新保全于notes/2026-11-14-open-before-public-wave02-results.md及分类前notes/2026-11-14-open-before-R707-classification.md；恢复更早依赖见这些文件的归档链，不把旧摘要当缺失证书。
 
 ## 当前执行检查点
 
-- 固定p41已正式登记105/105个非CM SS整盘排除。R656排j36_02；R709公开run43589296050（源467b1613）排最后j36_06，两F2根的四同标签F3差全部非零。逐盘表已全完成，R707正合并19普通盘和八个真CM身份/唯一性。
+- R707固定层41完整分类已登记：129盘=121排除+8有理CM，无有理尖点。19普通16排除3CM、110SS105排除5CM；八CM精确身份/简单根唯一性及183来源证明SHA全部核对，不依赖遗失R583。固定p41的O5关闭，继续一般p实际高度。
 - 两真CM4原304位链、457主函数、全部F2/F3已完整公开保存。R656/R709证明含R554原z联合j/ηB消极、Hecke重复核的完整重数/平坦条件、全Norm和解析尾；原链及已成F2没有重跑。产物computations/R656-*/43587787435-1/、R709/43589296050-1/。
 - R698四片run43585949869新增5893素数；唯一零p137147（Cp80155、Cp−3=0），全证书在computations/R698-window-0/。R706已封存：合R689至200000共5992素数，唯一Cp−3零为137147；原z独立run43587480525完全同值，v(M2)≥−1/2而非−1，不能推M2本身零。此前R689的41..2000共99素数全非零仍成立。
 - 本轮理论登记：R699已登记：真实规范差降至g(Y)及固定第二类周期，完整v(z)≥3尾与有限首阶集合；实际高度jet未求；R701已登记：V_sc原标记43维p-local商唯一标量η_p=C/a、L=31−2η_p；86×44实际向量未求；R702已登记：第一极点块给pC_(p+3)=9B²、pC_(p+6)=−405B²/2全p单位；不能跨边界代原两权。R705已登记：全部允许m≤p−3的实际Abel双块公式，端点C5/C2单位给d≤(p−2)/3；全尾和KS原商保持，R616条件未移除。尚未登记草稿不计定理。
-- 后续分工：cartier R710原137147后续Abel对已发公开单作业；global R707核全部129盘后回R703实际高度jet；O6 R704已正式登记：公开run43588220740完成原43分支矩阵，det=687；R708已证全部43值局部Norm歧义；继续原c_s/c_q全局向量。root占R691/R707/R709（R706已完成），R655/656用于两CM4恢复。所有新结论即时单独commit/push；主目标仍OPEN。
+- 后续分工：cartier R711继续原Abel系数域/赋值；R710原137147后续Abel对已由公开run43589720709完成、理论稿独审通过待登记；global已核R707/R710，回R703实际高度jet；O6 R704已正式登记：公开run43588220740完成原43分支矩阵，det=687；R708已证全部43值局部Norm歧义；继续原c_s/c_q全局向量。root登记新完整结论；R655/656/707/709均已完成。所有新结论即时单独commit/push；主目标仍OPEN。
 
 ## O5：固定 p41 的真实高度与全部129盘
 
 Xns+(41)g54；V1/V2/V3维73/199/325，V4维451。R222原54全局h及s=H⁻¹h、m⁻¹mod47⁴=4074216；QC=global−800λσ。同一四坏标签0/3/28/32跨方向保持，F3靶0/0/2621472/2621472，基点2^-9；R140/141对数不冒认unit-root。
 
-19普通盘全部完成：16排除，j38/39/40仅真CM根94227/9310/13002。五有理CM SS盘各唯一真CM根。105非CM SS盘已全部排除105、无余盘，逐盘表notes/p41-SS-disk-progress.md；最后R617排j0_08、R618排j0_07。旧R583“121排除、8CM”证书丢失；R707正在按全部现存原证明重新给完整分类，不复用遗失结论。R389已按原9文件SHA恢复。
+19普通盘全部完成：16排除，j38/39/40仅真CM根94227/9310/13002。五有理CM SS盘各唯一真CM根。105非CM SS盘已全部排除105、无余盘，逐盘表notes/p41-SS-disk-progress.md；最后R617排j0_08、R618排j0_07。R707已按全部现存原证明重新给完整分类：八CM判别式−3/−7/−11/−12/−19/−27/−28/−67，各盘唯一，无有理尖点；不复用遗失R583。129盘完整账本notes/R707-all129-disk-ledger.json。R389已按原9文件SHA恢复。
 
 单位参数依R435/R436，原Norm/height保持；R620–632=j0_09/11–22；R635–654=20个j36（排02/06）；R659–665=j44_08/16/18–22；R666–681=R470余16j9两flip。R655续两个真CM4原1-bit前缀，完整高度接R554/R656，不套普通分歧公式。R470真实四数据块/两函数已封存，不重跑已完成几何。前缀和输入SHA见notes/RUN20261114-handoff-manifest.json。未推209项和R583/585/590只按真实输入恢复；请求、接口、运行中任务不算结果。
 

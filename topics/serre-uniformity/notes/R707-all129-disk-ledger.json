@@ -1,0 +1,2731 @@
+{
+  "result": "R707",
+  "curve": "X_ns^+(41)",
+  "auxiliary_prime": 47,
+  "modulus": 4879681,
+  "root_precision": 103823,
+  "common_bad_component_labels": [
+    0,
+    3,
+    28,
+    32
+  ],
+  "F2_targets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "F3_targets": [
+    0,
+    0,
+    2621472,
+    2621472
+  ],
+  "scope": "Explicit assembly of published whole-disc proofs, exact CM identities and public R709 outputs; no new arithmetic run is claimed.",
+  "not_a_proof_of_absolute_Serre_uniformity": true,
+  "cover_proofs": [
+    {
+      "result": "R102",
+      "path": "results/R102-actual-level41-makdisi-model-at47.md",
+      "proof_sha256_at_assembly": "feb1826038a7ad8f005b6f47cd7a8ee96649d1f7928d23f407637dbf0a909981"
+    },
+    {
+      "result": "R228",
+      "path": "results/R228-global-QC-polynomials-and-rational-SS-disks.md",
+      "proof_sha256_at_assembly": "c8e53064b9f1bc854490be2406314c8a1f3fe2b9eddefeee7be715f49f40e361"
+    },
+    {
+      "result": "R231",
+      "path": "results/R231-all-ordinary-reference-points-and-complete-residue-atlas.md",
+      "proof_sha256_at_assembly": "8a690c31801aa9d27b06a47fbe9bd76c6f40d527ba720f67df40c60af6bddcd2"
+    }
+  ],
+  "global_QC_proofs": [
+    {
+      "result": "R94",
+      "path": "results/R94-central-involution-and-complete-Chow-Heegner-operator.md",
+      "proof_sha256_at_assembly": "406efe1f48a76a3d3f2751b3f25fa3f4ba69eba7c2aaa529a00ab95837979cf0"
+    },
+    {
+      "result": "R121",
+      "path": "results/R121-actual-cm-logarithms-and-saturated-hecke-orbit-at47.md",
+      "proof_sha256_at_assembly": "ebc1b5a081f1da68c700156aeb53f4a027c8b9649708a95ae7357948f8236a0c"
+    },
+    {
+      "result": "R133",
+      "path": "results/R133-two-cm-points-calibrate-all-54-height-coefficients.md",
+      "proof_sha256_at_assembly": "0b368fc6402ef24e4c12f10dbd36dccec65f514838ef097be5971a5c76296266"
+    },
+    {
+      "result": "R135",
+      "path": "results/R135-complete-actual-bad-height-spectrum-at41.md",
+      "proof_sha256_at_assembly": "b412172da894b990394883329c1ca4e75c129f722057e3d7f50b6f42c0dd50ee"
+    },
+    {
+      "result": "R148",
+      "path": "results/R148-global-correspondence-section-with-diagonal-and-basepoint.md",
+      "proof_sha256_at_assembly": "11164c8032582cc960dba155a642b7bd5a42368cbeb1f631f4c06a3b9a050a25"
+    },
+    {
+      "result": "R222",
+      "path": "results/R222-complete-miller-norms-and-all54-global-heights.md",
+      "proof_sha256_at_assembly": "4cf4a32615961106a6588aa773988f861f230a3522ec4ea2af00cb2f2c14e4c1"
+    },
+    {
+      "result": "R228",
+      "path": "results/R228-global-QC-polynomials-and-rational-SS-disks.md",
+      "proof_sha256_at_assembly": "c8e53064b9f1bc854490be2406314c8a1f3fe2b9eddefeee7be715f49f40e361"
+    },
+    {
+      "result": "R304",
+      "path": "results/R304-all129-disks-and53-actual-global-polynomials.md",
+      "proof_sha256_at_assembly": "cfae26b2a2e4c3548b2bce16b004ed01c402ee0fc9973644635fd45777d3d04b"
+    }
+  ],
+  "ordinary_nonCM_F3_witness_columns": [
+    "F2_y_mod47cubed",
+    "difference_for_labels_0_3",
+    "difference_for_labels_28_32"
+  ],
+  "ordinary_nonCM_F3_witnesses": {
+    "ORD_j07": [
+      [
+        35962,
+        3150363,
+        528891
+      ],
+      [
+        279,
+        4828921,
+        2207449
+      ]
+    ],
+    "ORD_j12": [
+      [
+        69875,
+        2462612,
+        4720821
+      ],
+      [
+        15127,
+        718865,
+        2977074
+      ]
+    ],
+    "ORD_j15": [
+      [
+        73049,
+        2697565,
+        76093
+      ],
+      [
+        89143,
+        4334434,
+        1712962
+      ]
+    ],
+    "ORD_j19": [
+      [
+        34718,
+        2673219,
+        51747
+      ],
+      [
+        20625,
+        4327760,
+        1706288
+      ]
+    ],
+    "ORD_j27": [
+      [
+        20183,
+        1582443,
+        3840652
+      ],
+      [
+        78611,
+        2924246,
+        302774
+      ]
+    ],
+    "ORD_j32": [
+      [
+        75915,
+        964863,
+        3223072
+      ],
+      [
+        39733,
+        3660266,
+        1038794
+      ]
+    ],
+    "ORD_j45": [
+      [
+        87914,
+        3779364,
+        1157892
+      ],
+      [
+        80131,
+        3373519,
+        752047
+      ]
+    ],
+    "ORD_j46": [
+      [
+        84194,
+        1266180,
+        3524389
+      ],
+      [
+        54740,
+        189786,
+        2447995
+      ]
+    ]
+  },
+  "CM_points": [
+    {
+      "discriminant": -3,
+      "j": 0,
+      "disk_id": "SS_j0_10",
+      "y_mod47cubed": 0,
+      "actual_bad_component": 0,
+      "derivative_of_F2_div47_mod47": 44,
+      "identity_and_uniqueness_proofs": [
+        {
+          "result": "R321",
+          "path": "results/R321-CM12-SS-cubic-ramification-F2-and-exact-disk-roots.md",
+          "proof_sha256_at_assembly": "306320c48fbf0d10661a320dee2e9254dcc2d2a6e6f6c1a2148cf02e67984959"
+        },
+        {
+          "result": "R328",
+          "path": "results/R328-basepoint-confluent-F2-height-and-unique-CM-root.md",
+          "proof_sha256_at_assembly": "ecc9ccbb13828e129f24e9b3e09c9c01a6876366ec915b70abbb38d439f06e83"
+        }
+      ]
+    },
+    {
+      "discriminant": -7,
+      "j": -3375,
+      "disk_id": "SS_j9_19",
+      "y_mod47cubed": 57595,
+      "actual_bad_component": 28,
+      "derivative_of_F2_div47_mod47": 1,
+      "identity_and_uniqueness_proofs": [
+        {
+          "result": "R321",
+          "path": "results/R321-CM12-SS-cubic-ramification-F2-and-exact-disk-roots.md",
+          "proof_sha256_at_assembly": "306320c48fbf0d10661a320dee2e9254dcc2d2a6e6f6c1a2148cf02e67984959"
+        },
+        {
+          "result": "R323",
+          "path": "results/R323-SS-CM7-double-horizontal-F2-and-two-simple-roots.md",
+          "proof_sha256_at_assembly": "956988678d00ffad64a30ae8bd79ad8ba5f73be99a58bf006cf30b07485fe1dd"
+        },
+        {
+          "result": "R325",
+          "path": "results/R325-SS-CM7-actual-F3-and-extra-root-exclusion.md",
+          "proof_sha256_at_assembly": "57e2a56b42b684ba39f473b381ebedeaf5ee4dd2a76fc2a22df4145701d9859e"
+        }
+      ]
+    },
+    {
+      "discriminant": -11,
+      "j": -32768,
+      "disk_id": "ORD_j38",
+      "y_mod47cubed": 94227,
+      "actual_bad_component": 32,
+      "derivative_of_F2_div47_mod47": 19,
+      "identity_and_uniqueness_proofs": [
+        {
+          "result": "R237",
+          "path": "results/R237-three-ordinary-CM-anchors-and-113-global-functions.md",
+          "proof_sha256_at_assembly": "99d7053ad79de8b02ed3eb13f6dd964f9288afdbda960e24a921ead4273c4646"
+        },
+        {
+          "result": "R277",
+          "path": "results/R277-ORD_j38-canonical-F2-and-independent-CM-check.md",
+          "proof_sha256_at_assembly": "001cd56447b1fcf40564872cb42ff25c28d4cabab1fbf46b27167f5ebeb8e125"
+        },
+        {
+          "result": "R310",
+          "path": "results/R310-ordinary-CM11-horizontal-Laurent-height-and-root-exclusion.md",
+          "proof_sha256_at_assembly": "6e80410f5c25d5e7d644ceb76a7de3d72269146c01cd88d87edd5b69f55095c2"
+        }
+      ]
+    },
+    {
+      "discriminant": -12,
+      "j": 54000,
+      "disk_id": "SS_j44_02",
+      "y_mod47cubed": 96923,
+      "actual_bad_component": 3,
+      "derivative_of_F2_div47_mod47": 26,
+      "identity_and_uniqueness_proofs": [
+        {
+          "result": "R321",
+          "path": "results/R321-CM12-SS-cubic-ramification-F2-and-exact-disk-roots.md",
+          "proof_sha256_at_assembly": "306320c48fbf0d10661a320dee2e9254dcc2d2a6e6f6c1a2148cf02e67984959"
+        },
+        {
+          "result": "R324",
+          "path": "results/R324-CM12-SS-horizontal-F3-and-extra-root-exclusion.md",
+          "proof_sha256_at_assembly": "04f020e6b38f17bf93fe0a7f7480c4067ba174eecf1c6d0adcd9d1dac41f89b8"
+        }
+      ]
+    },
+    {
+      "discriminant": -19,
+      "j": -884736,
+      "disk_id": "ORD_j39",
+      "y_mod47cubed": 9310,
+      "actual_bad_component": 3,
+      "derivative_of_F2_div47_mod47": 26,
+      "identity_and_uniqueness_proofs": [
+        {
+          "result": "R237",
+          "path": "results/R237-three-ordinary-CM-anchors-and-113-global-functions.md",
+          "proof_sha256_at_assembly": "99d7053ad79de8b02ed3eb13f6dd964f9288afdbda960e24a921ead4273c4646"
+        },
+        {
+          "result": "R278",
+          "path": "results/R278-ORD_j39-canonical-F2-and-independent-CM-check.md",
+          "proof_sha256_at_assembly": "17a1de94498b793e49a9948d9c2200ad4bb37c51d0add277facd37b603d61adc",
+          "supplementary_proofs": [
+            {
+              "path": "results/R278-removable-trace-denominator-independent-audit.md",
+              "proof_sha256_at_assembly": "d2eb72a26fd15dbdb83429938fda2f8ebae8806a2681115af44e75ed713e3530"
+            }
+          ]
+        },
+        {
+          "result": "R303",
+          "path": "results/R303-ordinary-CM19-F3-height-and-extra-root-exclusion.md",
+          "proof_sha256_at_assembly": "6aa406cc7f22307d226eed9c0dce72fe7663b540002c86e3adf03884f0f1eef2"
+        }
+      ]
+    },
+    {
+      "discriminant": -27,
+      "j": -12288000,
+      "disk_id": "SS_j9_11",
+      "y_mod47cubed": 75213,
+      "actual_bad_component": 28,
+      "derivative_of_F2_div47_mod47": 18,
+      "identity_and_uniqueness_proofs": [
+        {
+          "result": "R292",
+          "path": "results/R292-actual-T3-fixed-divisor-and-basepoint-rigidification.md",
+          "proof_sha256_at_assembly": "f4392e8476bb9f84165057e9f9fa1b9a7f24fca026129ccb80b2c55c0eb88413"
+        },
+        {
+          "result": "R314",
+          "path": "results/R314-two-new-SS-CM-points-and-all53-height-anchors.md",
+          "proof_sha256_at_assembly": "ae3eda206a3ed6f1e8a1434088de170682f3128eb3651ed324471e0e53eb0633"
+        },
+        {
+          "result": "R313",
+          "path": "results/R313-SS-CM27-actual-F2-height-and-two-simple-roots.md",
+          "proof_sha256_at_assembly": "292b310a582dfbd16a51d7638c0f16fb338f09621c9881a12f3fce4704f462d5"
+        },
+        {
+          "result": "R316",
+          "path": "results/R316-CM27-SS-cubic-ramification-F3-and-extra-root-exclusion.md",
+          "proof_sha256_at_assembly": "096bd343c647aee20902866fd59a255fb746f808f6ed20ee23e03b110b076350"
+        }
+      ]
+    },
+    {
+      "discriminant": -28,
+      "j": 16581375,
+      "disk_id": "SS_j10_05",
+      "y_mod47cubed": 86022,
+      "actual_bad_component": 32,
+      "derivative_of_F2_div47_mod47": 13,
+      "identity_and_uniqueness_proofs": [
+        {
+          "result": "R314",
+          "path": "results/R314-two-new-SS-CM-points-and-all53-height-anchors.md",
+          "proof_sha256_at_assembly": "ae3eda206a3ed6f1e8a1434088de170682f3128eb3651ed324471e0e53eb0633"
+        },
+        {
+          "result": "R318",
+          "path": "results/R318-SS-CM28-actual-F2-height-and-two-simple-roots.md",
+          "proof_sha256_at_assembly": "64d8da8d5d88d61896b42ca3be62da6b0471802025413814237931d9d70d4080"
+        },
+        {
+          "result": "R319",
+          "path": "results/R319-SS-CM28-actual-F3-height-and-extra-root-exclusion.md",
+          "proof_sha256_at_assembly": "4cb061e9d564c23d205e9a88a95cfb63de7cba673bfc83fedb0a4c06188147bf"
+        }
+      ]
+    },
+    {
+      "discriminant": -67,
+      "j": -147197952000,
+      "disk_id": "ORD_j40",
+      "y_mod47cubed": 13002,
+      "actual_bad_component": 32,
+      "derivative_of_F2_div47_mod47": 2,
+      "identity_and_uniqueness_proofs": [
+        {
+          "result": "R237",
+          "path": "results/R237-three-ordinary-CM-anchors-and-113-global-functions.md",
+          "proof_sha256_at_assembly": "99d7053ad79de8b02ed3eb13f6dd964f9288afdbda960e24a921ead4273c4646"
+        },
+        {
+          "result": "R279",
+          "path": "results/R279-ORD_j40-canonical-F2-and-independent-CM-check.md",
+          "proof_sha256_at_assembly": "cbd7a105ff335d65b93739dcbd9be79330c0bc35acfb55aeec56e689de962042"
+        },
+        {
+          "result": "R309",
+          "path": "results/R309-ordinary-CM67-F3-height-and-extra-root-exclusion.md",
+          "proof_sha256_at_assembly": "94046f239f78053e5f7c597864bd02983fc2b4a0ae78abef04a87f828852cd5d"
+        }
+      ]
+    }
+  ],
+  "disks": [
+    {
+      "disk_id": "ORD_j01",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R284",
+        "path": "results/R284-ORD_j01-actual-canonical-F2-disk.md",
+        "proof_sha256_at_assembly": "f208b5117c5be8c2ce2c177d4e2a88fbcb7cfa0fea374e1777e118580d530760"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "ORD_j05",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R262",
+        "path": "results/R262-first-complete-ordinary-disk-exclusion.md",
+        "proof_sha256_at_assembly": "098e80263383fb5ab40be9e7e48411c75e9cd68f3d6695be2204d7874fda147e"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "ORD_j07",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R267",
+        "path": "results/R267-second-ordinary-disk-canonical-height-and-exact-F2-roots.md",
+        "proof_sha256_at_assembly": "ad75abf5ba5b7b106b534cae8b5efd616fd88895bf0315fc291177985958c7ad"
+      },
+      "F2_y_mod47cubed": [
+        35962,
+        279
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R291",
+        "path": "results/R291-actual-F3-height-and-ORD-j07-complete-exclusion.md",
+        "proof_sha256_at_assembly": "decf56a6df5251cf59de2ae097d0b2f32d608b84f7e2e89bda162b910ef4f3a2"
+      },
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "ORD_j11",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R268",
+        "path": "results/R268-ORD_j11-actual-canonical-F2-disk.md",
+        "proof_sha256_at_assembly": "cdc4e3eb6df05995808ca7d1fbb527f757b098bb4fa60e4c97b3ed7469dbde04"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "ORD_j12",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R269",
+        "path": "results/R269-ORD_j12-actual-canonical-F2-disk.md",
+        "proof_sha256_at_assembly": "b886c6bb9f3d0c3022db8ed781436d6214f0e8262fea71f6a175f629029a00cf"
+      },
+      "F2_y_mod47cubed": [
+        69875,
+        15127
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R296",
+        "path": "results/R296-ORD_j12-actual-F3-height-and-complete-exclusion.md",
+        "proof_sha256_at_assembly": "7a2fe989cec148df1073494cbd0821e2d37a9b91890cfaccecd5922653fc30b9"
+      },
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "ORD_j15",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R270",
+        "path": "results/R270-ORD_j15-actual-canonical-F2-disk.md",
+        "proof_sha256_at_assembly": "009ac008ef1be9ffb67d4d4d9540c39f1312ff6257c7c6660fa80015dec31603"
+      },
+      "F2_y_mod47cubed": [
+        73049,
+        89143
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R297",
+        "path": "results/R297-ORD_j15-actual-F3-height-and-complete-exclusion.md",
+        "proof_sha256_at_assembly": "ed330065b5cbfdd2fcb8ec1b2f3cd90ca00fd65b3c406d9a9749ecc23d62d318"
+      },
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "ORD_j19",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R271",
+        "path": "results/R271-ORD_j19-actual-canonical-F2-disk.md",
+        "proof_sha256_at_assembly": "fd09cff89884a6c289bba135b48c1eb516ff8663c905effb56a7624615834c6d"
+      },
+      "F2_y_mod47cubed": [
+        34718,
+        20625
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R298",
+        "path": "results/R298-ORD_j19-actual-F3-height-and-complete-exclusion.md",
+        "proof_sha256_at_assembly": "7ba3d4fd6c84f0e2ac7474e9ccfdc7d02907dc9e569ac7ad0a5180a46b0f0738"
+      },
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "ORD_j24",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R272",
+        "path": "results/R272-ORD_j24-actual-canonical-F2-disk.md",
+        "proof_sha256_at_assembly": "d2d3e608d8c84d0d9f66fee307234c17b6fc61ea2f6caabbcc28479694c87f9d"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "ORD_j27",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R273",
+        "path": "results/R273-ORD_j27-actual-canonical-F2-disk.md",
+        "proof_sha256_at_assembly": "006109e9e8f223d5cd9b91b539964f9f4f5ecc0a8c74bb3f96cc786f4cf46a69"
+      },
+      "F2_y_mod47cubed": [
+        20183,
+        78611
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R299",
+        "path": "results/R299-ORD_j27-actual-F3-height-and-complete-exclusion.md",
+        "proof_sha256_at_assembly": "0cbe8ee7b1a7a9389554c29789cbd2777c67314eb879c2b2809c77215e84c729"
+      },
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "ORD_j28",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R285",
+        "path": "results/R285-ordinary-j28-unit-frame-height-and-disk-exclusion.md",
+        "proof_sha256_at_assembly": "2c395f89b2f89193dc5a6db6f61d3d85d9b1bbd6b745e0e3e038596642c76909"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "ORD_j30",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R274",
+        "path": "results/R274-ORD_j30-actual-canonical-F2-disk.md",
+        "proof_sha256_at_assembly": "610456cd4303791bab4c41b9540e1286170885ae881a331627ff2939f21fa62a"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "ORD_j32",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R276",
+        "path": "results/R276-ORD_j32-actual-canonical-F2-disk.md",
+        "proof_sha256_at_assembly": "e316768459b4f00278bcf45baf13e892d763bfff05dbc297054f621c13ffb884"
+      },
+      "F2_y_mod47cubed": [
+        75915,
+        39733
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R300",
+        "path": "results/R300-ORD_j32-actual-F3-height-and-complete-exclusion.md",
+        "proof_sha256_at_assembly": "fee3e798bc50b53fa3cfdfb78227b08eb7e9a69b992d82873aa9e4e4aef03efd"
+      },
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "ORD_j38",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R277",
+        "path": "results/R277-ORD_j38-canonical-F2-and-independent-CM-check.md",
+        "proof_sha256_at_assembly": "001cd56447b1fcf40564872cb42ff25c28d4cabab1fbf46b27167f5ebeb8e125"
+      },
+      "F2_y_mod47cubed": [
+        62093,
+        94227
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R310",
+        "path": "results/R310-ordinary-CM11-horizontal-Laurent-height-and-root-exclusion.md",
+        "proof_sha256_at_assembly": "6e80410f5c25d5e7d644ceb76a7de3d72269146c01cd88d87edd5b69f55095c2"
+      },
+      "rational_points": 1,
+      "CM_discriminant": -11,
+      "outcome": "unique_known_CM_point",
+      "retained_y_mod47cubed": 94227
+    },
+    {
+      "disk_id": "ORD_j39",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R278",
+        "path": "results/R278-ORD_j39-canonical-F2-and-independent-CM-check.md",
+        "proof_sha256_at_assembly": "17a1de94498b793e49a9948d9c2200ad4bb37c51d0add277facd37b603d61adc",
+        "supplementary_proofs": [
+          {
+            "path": "results/R278-removable-trace-denominator-independent-audit.md",
+            "proof_sha256_at_assembly": "d2eb72a26fd15dbdb83429938fda2f8ebae8806a2681115af44e75ed713e3530"
+          }
+        ]
+      },
+      "F2_y_mod47cubed": [
+        9310,
+        85546
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R303",
+        "path": "results/R303-ordinary-CM19-F3-height-and-extra-root-exclusion.md",
+        "proof_sha256_at_assembly": "6aa406cc7f22307d226eed9c0dce72fe7663b540002c86e3adf03884f0f1eef2"
+      },
+      "rational_points": 1,
+      "CM_discriminant": -19,
+      "outcome": "unique_known_CM_point",
+      "retained_y_mod47cubed": 9310
+    },
+    {
+      "disk_id": "ORD_j40",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R279",
+        "path": "results/R279-ORD_j40-canonical-F2-and-independent-CM-check.md",
+        "proof_sha256_at_assembly": "cbd7a105ff335d65b93739dcbd9be79330c0bc35acfb55aeec56e689de962042"
+      },
+      "F2_y_mod47cubed": [
+        13002,
+        61424
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R309",
+        "path": "results/R309-ordinary-CM67-F3-height-and-extra-root-exclusion.md",
+        "proof_sha256_at_assembly": "94046f239f78053e5f7c597864bd02983fc2b4a0ae78abef04a87f828852cd5d"
+      },
+      "rational_points": 1,
+      "CM_discriminant": -67,
+      "outcome": "unique_known_CM_point",
+      "retained_y_mod47cubed": 13002
+    },
+    {
+      "disk_id": "ORD_j41",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R280",
+        "path": "results/R280-ORD_j41-actual-canonical-F2-disk.md",
+        "proof_sha256_at_assembly": "577799ec31c51432dde94dd6dc369a0f76f024f7f22cb7ca21fa63831b21745a"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "ORD_j43",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R281",
+        "path": "results/R281-ORD_j43-actual-canonical-F2-disk.md",
+        "proof_sha256_at_assembly": "30a06d2287afcb6bfca6dacebcc9ec357ccf02a1d7cd53aa6c63160a70064e10"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "ORD_j45",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R282",
+        "path": "results/R282-ORD_j45-unit-canonical-divisor-and-actual-F2-disk.md",
+        "proof_sha256_at_assembly": "279085c03954dc93f2c64cc71dfa7211a8ecf93cac5b28c87f1ab524a0d219ff"
+      },
+      "F2_y_mod47cubed": [
+        87914,
+        80131
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R308",
+        "path": "results/R308-ORD_j45-actual-F3-height-and-complete-exclusion.md",
+        "proof_sha256_at_assembly": "827a24e3d28a516d4706167f0ae771ebefb377ff9ad465c2d32b612654a6efb1"
+      },
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "ORD_j46",
+      "type": "ordinary",
+      "F2_proof": {
+        "result": "R283",
+        "path": "results/R283-ORD_j46-actual-canonical-F2-disk.md",
+        "proof_sha256_at_assembly": "73cf1777feeb47fb3ddb22ae06fc3e16c9ae4cad6f8952122f3bf70a67b45841"
+      },
+      "F2_y_mod47cubed": [
+        84194,
+        54740
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R307",
+        "path": "results/R307-ORD_j46-actual-F3-height-and-complete-exclusion.md",
+        "proof_sha256_at_assembly": "742d2384c807ea8217e6b1761da996b577fb4dee15a81006f1ce39867ebf1fa2"
+      },
+      "rational_points": 0,
+      "CM_discriminant": null,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_01",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R436",
+        "path": "results/R436-SS_j0_01-ramified-unit-parameter-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "74babde6d53bde6ce075a01a1dec63cf8e8bfba40ad5e102f53ac0abd95f24c2"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_02",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R472",
+        "path": "results/R472-SS_j0_02-ramified-unit-parameter-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "bd58fe8afada05bbd6357469683066b08be6fedefd16e4d1d28a49d5e60f7f6f"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_03",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R606",
+        "path": "results/R606-SS_j0_03-ramified-unit-parameter-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "5e6711d7d08f252a6a5ec827dc391ac4705a4d0d8b6c8d558a218d965b0ac3d8"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_04",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R607",
+        "path": "results/R607-SS_j0_04-ramified-unit-parameter-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "2409ee2513cd78dbc587ae96b126322535b32c5dd6f96450e67aa57c16a4abe8"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_05",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R609",
+        "path": "results/R609-SS_j0_05-ramified-unit-parameter-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "9c41ae38f377ca91105bc50245382d04a1a7c224cee1a1f932ef5b862551133a"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_06",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R610",
+        "path": "results/R610-SS_j0_06-ramified-unit-parameter-F2-height-and-two-candidates.md",
+        "proof_sha256_at_assembly": "73f508d30027a80aeed013f500ca839e2036c037e6dc9dc756226bc2f31907a9"
+      },
+      "F2_y_mod47cubed": [
+        8860,
+        37204
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R611",
+        "path": "results/R611-SS_j0_06-ramified-unit-parameter-F3-disk-exclusion.md",
+        "proof_sha256_at_assembly": "1dfdef9096dcbb2543addd697d88651250570f7f7e2e4a9e630bc96974107d04"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_07",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R612",
+        "path": "results/R612-SS_j0_07-ramified-unit-parameter-F2-height-and-two-candidates.md",
+        "proof_sha256_at_assembly": "e037eda3133db9cf0acf1039f1f1fb180af04ae11a24516e04a29afe6151a433"
+      },
+      "F2_y_mod47cubed": [
+        47126,
+        45023
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R618",
+        "path": "results/R618-SS_j0_07-ramified-unit-parameter-F3-disk-exclusion.md",
+        "proof_sha256_at_assembly": "6e1f888bbadb98e1d9c0153ab3ae46b8f4e51315923f80e5adc60f476c20ee08"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_08",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R617",
+        "path": "results/R617-SS_j0_08-ramified-unit-parameter-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "b0a485f2131551acad95d6c50465a1569eee56a270e1ab2d32e79423eb7814bb"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_09",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R620",
+        "path": "results/R620-SS_j0_09-public-prefix-recovery-and-complete-F2-F3-exclusion.md",
+        "proof_sha256_at_assembly": "5960eb7e9aea3c21740e7097e95650599640c95c76a03240352bc1603b0a5825"
+      },
+      "F2_y_mod47cubed": [
+        52693,
+        58193
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R620",
+        "path": "results/R620-SS_j0_09-public-prefix-recovery-and-complete-F2-F3-exclusion.md",
+        "proof_sha256_at_assembly": "5960eb7e9aea3c21740e7097e95650599640c95c76a03240352bc1603b0a5825"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_10",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R328",
+        "path": "results/R328-basepoint-confluent-F2-height-and-unique-CM-root.md",
+        "proof_sha256_at_assembly": "ecc9ccbb13828e129f24e9b3e09c9c01a6876366ec915b70abbb38d439f06e83"
+      },
+      "F2_y_mod47cubed": [
+        0
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": null,
+      "rational_points": 1,
+      "CM_discriminant": -3,
+      "outcome": "unique_known_CM_point",
+      "retained_y_mod47cubed": 0
+    },
+    {
+      "disk_id": "SS_j0_11",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R621",
+        "path": "results/R621-SS_j0_11-public-prefix-recovery-and-complete-F2-F3-exclusion.md",
+        "proof_sha256_at_assembly": "61a9ae7f8a95fcb5d3f8b9601df5a8685e245ec02f19b485cf56da43ab66e504"
+      },
+      "F2_y_mod47cubed": [
+        39152,
+        44685
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R621",
+        "path": "results/R621-SS_j0_11-public-prefix-recovery-and-complete-F2-F3-exclusion.md",
+        "proof_sha256_at_assembly": "61a9ae7f8a95fcb5d3f8b9601df5a8685e245ec02f19b485cf56da43ab66e504"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_12",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R622",
+        "path": "results/R622-SS_j0_12-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "20bb4f7dced9f849875c4f0e432d59d4a6b12fb71634fa05043be3c89ac04e47"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_13",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R623",
+        "path": "results/R623-SS_j0_13-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "f72cbf734e72536240707e965a93dc349d87e2b4d7d5d12d060ff2fae8edb193"
+      },
+      "F2_y_mod47cubed": [
+        82842,
+        26024
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R623",
+        "path": "results/R623-SS_j0_13-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "f72cbf734e72536240707e965a93dc349d87e2b4d7d5d12d060ff2fae8edb193"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_14",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R624",
+        "path": "results/R624-SS_j0_14-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "615f3e272d0243b0591bef695389a6c7b0ca205532d19e1953766ca6e5e988a1"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_15",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R625",
+        "path": "results/R625-SS_j0_15-double-residual-root-has-no-integral-lift.md",
+        "proof_sha256_at_assembly": "7d89576347910e9048c34499efb8f09f2c260288bf353838f6fccb6f825f7da5"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "double_residue_root_28_obstructed_mod47squared",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_16",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R626",
+        "path": "results/R626-SS_j0_16-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "4e145437c1cfbebbd88c23b2e492fd7f6f691d70affb2fd99a71f9f37f48c7ed"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_17",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R627",
+        "path": "results/R627-SS_j0_17-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "799ad89d4e5e1b73f5c8ddfa15a85e2a49d5366515f6822e3ca4bd95cdebb670"
+      },
+      "F2_y_mod47cubed": [
+        3439,
+        66316
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R627",
+        "path": "results/R627-SS_j0_17-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "799ad89d4e5e1b73f5c8ddfa15a85e2a49d5366515f6822e3ca4bd95cdebb670"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_18",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R628",
+        "path": "results/R628-SS_j0_18-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "b1b5099bbea57a7ac1d941dd4c43be2f53246f5ecaa25b779fbde6864b6190a0"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_19",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R629",
+        "path": "results/R629-SS_j0_19-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "646f88dd69503ddcfdfb0e739684bfcc1e8d86ba074cc5451ee9260b4e663542"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_20",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R630",
+        "path": "results/R630-SS_j0_20-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "d875868e458f23fc0857d0a90a327bca82d72f48c55bad1851aac9b910589a23"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_21",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R631",
+        "path": "results/R631-SS_j0_21-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "8a6421fb2c9d9dc2ff2c2deb044fef109c456785203b4ab1e3b12b23a3e916fc"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j0_22",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R632",
+        "path": "results/R632-SS_j0_22-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "c7f41d410e1e0484d13c9d905d12c0e18d74c67c9faeda33b802edbc6b69e129"
+      },
+      "F2_y_mod47cubed": [
+        82095,
+        467
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R632",
+        "path": "results/R632-SS_j0_22-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "c7f41d410e1e0484d13c9d905d12c0e18d74c67c9faeda33b802edbc6b69e129"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_01",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R382",
+        "path": "results/R382-first-j9-moved-center-actual-F2-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "7b3d698df182f2f2cace5db8676cb96f9473072d5d4887fb376302eeda8905ac"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_02",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R383",
+        "path": "results/R383-second-j9-moved-center-actual-F2-and-two-simple-branches.md",
+        "proof_sha256_at_assembly": "2ecb0433c0d826a0221bd56e348a8aadb5f52b9d99181ccb51fbfba4e1cffe80"
+      },
+      "F2_y_mod47cubed": [
+        55922,
+        68240
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R387",
+        "path": "results/R387-second-j9-real-F3-and-complete-same-component-exclusion.md",
+        "proof_sha256_at_assembly": "cb86b3ce17ca926517d3f583cd7dab6dc4354111d6f0066de2c3d935125e4e06"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_03",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R384",
+        "path": "results/R384-third-j9-moved-center-actual-F2-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "ac2f32aa6267a56db146a213c1c4288fa741dfdf71a1d368f61bc16f195785c4"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_04",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R385",
+        "path": "results/R385-fourth-j9-moved-center-actual-F2-and-two-simple-branches.md",
+        "proof_sha256_at_assembly": "ff405a7d0c5cd077d6226dc1db77e57dff7ae065966ce216742a636aa7ea0376"
+      },
+      "F2_y_mod47cubed": [
+        32063,
+        39679
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R389",
+        "path": "results/R389-fourth-j9-real-F3-and-complete-same-component-exclusion.md",
+        "proof_sha256_at_assembly": "b900ebcb69bb54fc1d8189683e4720e5cc6ad07161a6b1edb482e6ad3751bccb"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_05",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R666",
+        "path": "results/R666-SS_j9_05-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "8ae33da05ead3686690061501acc8abb17dae89265ed77cc7b54a53344d096ab"
+      },
+      "F2_y_mod47cubed": [
+        1318,
+        2729
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R666",
+        "path": "results/R666-SS_j9_05-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "8ae33da05ead3686690061501acc8abb17dae89265ed77cc7b54a53344d096ab"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_06",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R667",
+        "path": "results/R667-SS_j9_06-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "f0cbfc3c0e9dddfb9e9929fecf0a503a7fc5bc0c5bf477288d6951ea9ee24b90"
+      },
+      "F2_y_mod47cubed": [
+        50013,
+        16841
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R667",
+        "path": "results/R667-SS_j9_06-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "f0cbfc3c0e9dddfb9e9929fecf0a503a7fc5bc0c5bf477288d6951ea9ee24b90"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_07",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R668",
+        "path": "results/R668-SS_j9_07-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "003eda419731f4fe3aa94cf409264a74605bbf63e4e1f6143f222b150f219274"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_08",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R669",
+        "path": "results/R669-SS_j9_08-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "656812a4e9826f1f3e4a3d33847925aecbb42d6639d9e3426ca474027e95419d"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_09",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R670",
+        "path": "results/R670-SS_j9_09-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "68fcdf01441d670031205f0e30410fcbd9a19f1ea205a98c35f6bb6bea609239"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_10",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R671",
+        "path": "results/R671-SS_j9_10-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "9bd3bcefb21c40aff5b94f334b66daf38659aa08e392c76e3fa270bf7a4da554"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_11",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R313",
+        "path": "results/R313-SS-CM27-actual-F2-height-and-two-simple-roots.md",
+        "proof_sha256_at_assembly": "292b310a582dfbd16a51d7638c0f16fb338f09621c9881a12f3fce4704f462d5"
+      },
+      "F2_y_mod47cubed": [
+        75213,
+        9440
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R316",
+        "path": "results/R316-CM27-SS-cubic-ramification-F3-and-extra-root-exclusion.md",
+        "proof_sha256_at_assembly": "096bd343c647aee20902866fd59a255fb746f808f6ed20ee23e03b110b076350"
+      },
+      "rational_points": 1,
+      "CM_discriminant": -27,
+      "outcome": "unique_known_CM_point",
+      "retained_y_mod47cubed": 75213
+    },
+    {
+      "disk_id": "SS_j9_12",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R672",
+        "path": "results/R672-SS_j9_12-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "9b01e24945e1524aeb0830a7a68ef0d6bec61e31781e494f6e65c24d24885098"
+      },
+      "F2_y_mod47cubed": [
+        46775,
+        100982
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R672",
+        "path": "results/R672-SS_j9_12-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "9b01e24945e1524aeb0830a7a68ef0d6bec61e31781e494f6e65c24d24885098"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_13",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R673",
+        "path": "results/R673-SS_j9_13-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "82631a0da8448d29f808393e30c7ce749c3a2431ee1c8f9eccb093e43aeaa52e"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_14",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R674",
+        "path": "results/R674-SS_j9_14-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "a76dc8f012ee229ae607a9a65973e3d990c5db63acffec3a8dca24b6cc44f97f"
+      },
+      "F2_y_mod47cubed": [
+        39453,
+        53048
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R674",
+        "path": "results/R674-SS_j9_14-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "a76dc8f012ee229ae607a9a65973e3d990c5db63acffec3a8dca24b6cc44f97f"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_15",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R675",
+        "path": "results/R675-SS_j9_15-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "985c3920b399e86fcf3d18bb830a4b8943432a2aaf611cb93b44f6ac98b8e0e4"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_16",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R676",
+        "path": "results/R676-SS_j9_16-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "8930faa0c49fce514934c568c4360c5376504bc1d5981a8d889bc0ddf0799930"
+      },
+      "F2_y_mod47cubed": [
+        35133,
+        38295
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R676",
+        "path": "results/R676-SS_j9_16-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "8930faa0c49fce514934c568c4360c5376504bc1d5981a8d889bc0ddf0799930"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_17",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R677",
+        "path": "results/R677-SS_j9_17-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "cd6e56ddbcf6485049cc0251b0c713013db7328b79abfbb76705ba24fe4df1cb"
+      },
+      "F2_y_mod47cubed": [
+        19695,
+        15162
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R677",
+        "path": "results/R677-SS_j9_17-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "cd6e56ddbcf6485049cc0251b0c713013db7328b79abfbb76705ba24fe4df1cb"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_18",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R678",
+        "path": "results/R678-SS_j9_18-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "3a79137aebe918bbaa09c6d65f85bea905e9730cf9a43e00ad873944ab293458"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_19",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R323",
+        "path": "results/R323-SS-CM7-double-horizontal-F2-and-two-simple-roots.md",
+        "proof_sha256_at_assembly": "956988678d00ffad64a30ae8bd79ad8ba5f73be99a58bf006cf30b07485fe1dd"
+      },
+      "F2_y_mod47cubed": [
+        84793,
+        57595
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R325",
+        "path": "results/R325-SS-CM7-actual-F3-and-extra-root-exclusion.md",
+        "proof_sha256_at_assembly": "57e2a56b42b684ba39f473b381ebedeaf5ee4dd2a76fc2a22df4145701d9859e"
+      },
+      "rational_points": 1,
+      "CM_discriminant": -7,
+      "outcome": "unique_known_CM_point",
+      "retained_y_mod47cubed": 57595
+    },
+    {
+      "disk_id": "SS_j9_20",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R679",
+        "path": "results/R679-SS_j9_20-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "1a3d3b4f6612d82398a1c1b5e433aaf03cc061bc75b1060a703f7c48b9e9f1d9"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_21",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R680",
+        "path": "results/R680-SS_j9_21-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "6d09410791759df9f747f13dd16cb687135622f6390b1e8e94a8d0d5a8692131"
+      },
+      "F2_y_mod47cubed": [
+        46013,
+        18190
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R680",
+        "path": "results/R680-SS_j9_21-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "6d09410791759df9f747f13dd16cb687135622f6390b1e8e94a8d0d5a8692131"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j9_22",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R681",
+        "path": "results/R681-SS_j9_22-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "75ada84267074415a19a9e39d179f5e2a468a06de8f990a983e5ae181e319b68"
+      },
+      "F2_y_mod47cubed": [
+        44086,
+        6687
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R681",
+        "path": "results/R681-SS_j9_22-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "75ada84267074415a19a9e39d179f5e2a468a06de8f990a983e5ae181e319b68"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_01",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R329",
+        "path": "results/R329-first-non-CM-SS-principal-height-and-F2-disk.md",
+        "proof_sha256_at_assembly": "82562baea1dcf803cf1be01426d9d7221edc0594f610da856d0f4c35643d6060"
+      },
+      "F2_y_mod47cubed": [
+        39253,
+        18317
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R349",
+        "path": "results/R349-first-non-CM-SS-F3-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "4f50e6e17ef9df1e1d7436da4c98b1877b7ecf75bc6a41ba780c9ab6120e0a58"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_02",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R331",
+        "path": "results/R331-SS_j10_02-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "bd10147a0ce96b48fa367472455dcc0239918473f5a32f555e5d8885a2ecb2f1"
+      },
+      "F2_y_mod47cubed": [
+        6222
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R350",
+        "path": "results/R350-SS-j10-02-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "9984db30a35eaef0b8fb17f1bf5142f11edf6ba9ad1dbdc707379c4505398c9f"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_03",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R332",
+        "path": "results/R332-SS_j10_03-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "e71d26d2df87fabc808a81533a4cb0494fd5473893a0e888e50d243a74b95428"
+      },
+      "F2_y_mod47cubed": [
+        23906,
+        102035
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R351",
+        "path": "results/R351-SS-j10-03-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "cf759ebd95c2f6b892d19da90b04f5960df5d2a80d97530b66e411a2f94160c0"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_04",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R333",
+        "path": "results/R333-SS_j10_04-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "b5e2a5ffa38974fdbc2819ac133dd01f836cb68cada93ca9035dfdf84d1f0e27"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_05",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R318",
+        "path": "results/R318-SS-CM28-actual-F2-height-and-two-simple-roots.md",
+        "proof_sha256_at_assembly": "64d8da8d5d88d61896b42ca3be62da6b0471802025413814237931d9d70d4080"
+      },
+      "F2_y_mod47cubed": [
+        75296,
+        86022
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R319",
+        "path": "results/R319-SS-CM28-actual-F3-height-and-extra-root-exclusion.md",
+        "proof_sha256_at_assembly": "4cb061e9d564c23d205e9a88a95cfb63de7cba673bfc83fedb0a4c06188147bf"
+      },
+      "rational_points": 1,
+      "CM_discriminant": -28,
+      "outcome": "unique_known_CM_point",
+      "retained_y_mod47cubed": 86022
+    },
+    {
+      "disk_id": "SS_j10_06",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R368",
+        "path": "results/R368-CM8-collision-actual-F2-height-and-two-simple-roots.md",
+        "proof_sha256_at_assembly": "9dfe6fdd4df48f89d250e575ea926062e1cf0f3454992fd74ca318d1d816bfad"
+      },
+      "F2_y_mod47cubed": [
+        36947,
+        75637
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R369",
+        "path": "results/R369-CM8-collision-disk-actual-F3-and-complete-exclusion.md",
+        "proof_sha256_at_assembly": "80b6d4539b2987962dd653271eeb932ae272e656fba026cfb388315e1aa2653c"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_07",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R334",
+        "path": "results/R334-SS_j10_07-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "cf25551c05013f57b0c730cf30f80c60d6c5fe023c4ebfe28ee09f53b94cfa50"
+      },
+      "F2_y_mod47cubed": [
+        34472,
+        8165
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R353",
+        "path": "results/R353-SS-j10-07-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "254b694d151c373903fa2a58bcdc981b02fe7bd3c35b1abc414c81130d4b45d2"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_08",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R335",
+        "path": "results/R335-SS_j10_08-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "07a4f58ed0edb94543ce5eb21f510c146880fcfd7a2cc3c8cdcc62a7cd545236",
+        "supplementary_proofs": [
+          {
+            "path": "results/R335-eta-B-removable-quadratic-denominator-and-two-F2-roots.md",
+            "proof_sha256_at_assembly": "bbfad10bd403beceac5785e5b9abd9b3e58cd32718c2941c1b89f71ca57b4f91"
+          }
+        ]
+      },
+      "F2_y_mod47cubed": [
+        84059,
+        48120
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R354",
+        "path": "results/R354-SS-j10-08-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "3a4e9922b2bf12501f587840c1c16bdaaf35017a8fdc5d3be4c4fb172793198d"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_09",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R336",
+        "path": "results/R336-SS_j10_09-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "f8170e0b2134af82d21e9102da28cde99c6ed475ad98e0307f0c06cbcde272e1",
+        "supplementary_proofs": [
+          {
+            "path": "results/R336-removable-fixed-fraction-repair-and-independent-audit.md",
+            "proof_sha256_at_assembly": "0605f1622e01c32f472c1e5ba0562428208180ad77990dad7b09e533d023959f"
+          }
+        ]
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_10",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R337",
+        "path": "results/R337-SS_j10_10-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "e1eb30cf4b4d88d2a58fa2ab9bf24f992e465a6e2f12b358ffda6f31f94f7d9c"
+      },
+      "F2_y_mod47cubed": [
+        86490,
+        93447
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R356",
+        "path": "results/R356-SS-j10-10-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "73867fe117649c998aaf96548aa98bcc737d62afd2d6a232a7089685891dd42a"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_11",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R372",
+        "path": "results/R372-finite-flat-T2-poles-and-SS-j10-11-complete-F2-exclusion.md",
+        "proof_sha256_at_assembly": "0b4848634b219a4e9e3b6ea26b5aadc0d77a6b929b8e2435b834cadcc398a895"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_12",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R338",
+        "path": "results/R338-SS_j10_12-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "e57ed8b8931bf609226577d6d1839b11d041e97444d15c556eac71bbbfdaa8e4"
+      },
+      "F2_y_mod47cubed": [
+        33000,
+        66591
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R357",
+        "path": "results/R357-SS-j10-12-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "19c371f73b99c4f85c5c577730ac14db7133cf14a5a9e6c7e57eff86869fced4"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_13",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R339",
+        "path": "results/R339-SS_j10_13-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "8523f5903c9a25ab03bf0f25ed2b9faba844b867e1865e59b305b54215615e25"
+      },
+      "F2_y_mod47cubed": [
+        80953,
+        99057
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R358",
+        "path": "results/R358-SS-j10-13-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "a5c8a7ed57d91b0b1c3ea68a72a893aa923919edd7b5b9f3744535a4614774e2"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_14",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R340",
+        "path": "results/R340-SS_j10_14-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "c413a3c759a40b67fb09f63ff1020447e6f3c2c3667e382ac00739856def5007"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_15",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R341",
+        "path": "results/R341-SS_j10_15-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "9cb4215bc29023f6c53f398e109aacdbf1fd4628b2898f7d952d5c347945b3c5"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_16",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R342",
+        "path": "results/R342-SS_j10_16-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "41e105fb63aed979a016b667fb8ab3498fcf0b56895bae84fec4c78dd5275d49"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_17",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R343",
+        "path": "results/R343-SS_j10_17-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "74a8351f0c818ffbb92130f50f8b71c14b332f78d8b16a67be61b0778033955f"
+      },
+      "F2_y_mod47cubed": [
+        74325,
+        14781
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R362",
+        "path": "results/R362-SS-j10-17-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "efd9bd42df0b6f0478c9264233f788447ab18a71174ab5ed2b88dfe1a6ea46ff"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_18",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R370",
+        "path": "results/R370-second-CM8-collision-disk-actual-F2-and-two-roots.md",
+        "proof_sha256_at_assembly": "53479553a78f36351c528978bee3c00ac8027111681cd668429da8df64d05c70"
+      },
+      "F2_y_mod47cubed": [
+        2952,
+        82202
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R371",
+        "path": "results/R371-second-CM8-collision-disk-actual-F3-and-complete-exclusion.md",
+        "proof_sha256_at_assembly": "31de8c4d2bb9b52dc59e41f84972458f707503a3b74001cf3629e10cac1d1a67"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_19",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R344",
+        "path": "results/R344-SS_j10_19-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "2ef621a2e0982c6aaf034883ea5b2cd35cf6972aae362524778988f771a229da"
+      },
+      "F2_y_mod47cubed": [
+        77001,
+        6575
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R363",
+        "path": "results/R363-SS-j10-19-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "c06b6193535d9640b64e3eb4e7e1c7ef61c0b6062bb0e3cfb60018af18d51300"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_20",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R345",
+        "path": "results/R345-SS_j10_20-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "dd7f2b171e3a40f57854945d0a134da18275314126b958b97912a1e39a14b4db"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_21",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R346",
+        "path": "results/R346-SS_j10_21-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "be9f3a3e6b695c6a413adcbe3d9bcaf65fb6df10862c9e8748b95ce7fb9d1b06"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j10_22",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R347",
+        "path": "results/R347-SS_j10_22-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "de301a3dca2d7814aee9e2692810d88378f9d784706d561010864eb872191bb6"
+      },
+      "F2_y_mod47cubed": [
+        86167,
+        22828
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R366",
+        "path": "results/R366-SS-j10-22-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "c15b72c1de1d30dd64691b1dbbe5f304ffc2556f7de4a71b1a84daf0beb8954b"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_01",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R635",
+        "path": "results/R635-SS_j36_01-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "77a1054e5a2104958360e8c4e10f06e8c4e2ebf81d1f3064c3e7a935d1833c35"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_02",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R656",
+        "path": "results/R656-two-true-CM4-original-F2-heights-and-first-exclusion.md",
+        "proof_sha256_at_assembly": "90823522034f237569d367bb37bb5586922f2e322dde8852acdffd75fa8e1019"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_03",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R636",
+        "path": "results/R636-SS_j36_03-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "5933480d004fac499481ad589e4f255ebdf9a20134f3e457f7b9c49c715f6510"
+      },
+      "F2_y_mod47cubed": [
+        3614,
+        28196
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R636",
+        "path": "results/R636-SS_j36_03-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "5933480d004fac499481ad589e4f255ebdf9a20134f3e457f7b9c49c715f6510"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_04",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R637",
+        "path": "results/R637-SS_j36_04-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "32a188d8d9b436a4d4242549440ff9c30346d2980cb72ab11edab5aa3f047e45"
+      },
+      "F2_y_mod47cubed": [
+        71113,
+        72433
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R637",
+        "path": "results/R637-SS_j36_04-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "32a188d8d9b436a4d4242549440ff9c30346d2980cb72ab11edab5aa3f047e45"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_05",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R638",
+        "path": "results/R638-SS_j36_05-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "8f3a390d51d8308ade9f7f428e43276d0dffdf14c1738154037ed282ab2e0c35"
+      },
+      "F2_y_mod47cubed": [
+        103230,
+        75989
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R638",
+        "path": "results/R638-SS_j36_05-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "8f3a390d51d8308ade9f7f428e43276d0dffdf14c1738154037ed282ab2e0c35"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_06",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R656",
+        "path": "results/R656-two-true-CM4-original-F2-heights-and-first-exclusion.md",
+        "proof_sha256_at_assembly": "90823522034f237569d367bb37bb5586922f2e322dde8852acdffd75fa8e1019"
+      },
+      "F2_y_mod47cubed": [
+        51167,
+        59448
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R709",
+        "path": "results/R709-final-true-CM4-F3-and-complete-SS-exclusion.md",
+        "proof_sha256_at_assembly": "0d7f29a9219c09b54c90d73ab2577e0779bdf6452dd21c13b45b057ae555c2fb"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_07",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R639",
+        "path": "results/R639-SS_j36_07-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "2263ccbb64ac0ec9a2e167ea54be37084da51e49950d5a3de0f402957cd2088a"
+      },
+      "F2_y_mod47cubed": [
+        102335,
+        67998
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R639",
+        "path": "results/R639-SS_j36_07-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "2263ccbb64ac0ec9a2e167ea54be37084da51e49950d5a3de0f402957cd2088a"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_08",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R640",
+        "path": "results/R640-SS_j36_08-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "c065c964ea4c0b6124919a18f0830523f7912faa0440baf2210e434d6983537a"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_09",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R641",
+        "path": "results/R641-SS_j36_09-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "c48f2fef4c33849b31a145b1d122ce2c3dbb5fe2b919240b2ad749cd7028938b"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_10",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R642",
+        "path": "results/R642-SS_j36_10-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "50b8e5ed379d1093634ad7872ef9a2e5b9febe0bb731361f40fb2538ea9f876d"
+      },
+      "F2_y_mod47cubed": [
+        93334,
+        71387
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R642",
+        "path": "results/R642-SS_j36_10-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "50b8e5ed379d1093634ad7872ef9a2e5b9febe0bb731361f40fb2538ea9f876d"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_11",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R643",
+        "path": "results/R643-SS_j36_11-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "56d81730761d659b68ad8ad7269e1513a045e76bf8136284a198e8a4c2cbad34"
+      },
+      "F2_y_mod47cubed": [
+        34602,
+        84711
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R643",
+        "path": "results/R643-SS_j36_11-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "56d81730761d659b68ad8ad7269e1513a045e76bf8136284a198e8a4c2cbad34"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_12",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R644",
+        "path": "results/R644-SS_j36_12-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "84d7da71478be75c399121fff852cfb835ebe17dc8b7630c427c8992ac9a8ad3"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_13",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R645",
+        "path": "results/R645-SS_j36_13-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "581908aab0c7c745a0dc5c6fdc185806e21643c7e9f0c9c94393f6d533a429ae"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_14",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R646",
+        "path": "results/R646-SS_j36_14-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "95ca051efb4361a81e87d83dbd1fb92c7a1762c5c6b4e38812676cc36b1b70c2"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_15",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R647",
+        "path": "results/R647-SS_j36_15-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "e6c0eb029787215a9b4864bb625461292467ab8510ca48ebf17ffc0832d8c63d"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_16",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R648",
+        "path": "results/R648-SS_j36_16-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "3bd6475c15a7ce058101e690b59bf849490a27b564d2d54ba764ec5cd92f177a"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_17",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R649",
+        "path": "results/R649-SS_j36_17-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "5d87276990aa00f87c10a9e97904b4968e4c9ad638011f7772fdb714dd815d01"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_18",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R650",
+        "path": "results/R650-SS_j36_18-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "50ce9241a399b7ef888d97976ae0c8ccdab4ff2f465fbccc7367bea1281b0d4e"
+      },
+      "F2_y_mod47cubed": [
+        38118,
+        19358
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R650",
+        "path": "results/R650-SS_j36_18-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "50ce9241a399b7ef888d97976ae0c8ccdab4ff2f465fbccc7367bea1281b0d4e"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_19",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R651",
+        "path": "results/R651-SS_j36_19-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "965c68f751e47aae0a8a6a7ab5a52aa636d917f62498aa6c4f3ad9e7554c3cce"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_20",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R652",
+        "path": "results/R652-SS_j36_20-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "aa8f503e589bb8b31b7b377c25d9798a7d187cc2a57b37374c70eb821b8cc571"
+      },
+      "F2_y_mod47cubed": [
+        39953,
+        74553
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R652",
+        "path": "results/R652-SS_j36_20-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "aa8f503e589bb8b31b7b377c25d9798a7d187cc2a57b37374c70eb821b8cc571"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_21",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R653",
+        "path": "results/R653-SS_j36_21-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "75042b058b2eceb9df301bb32a341b8e3ac7698e6a8050a9e89ec66a27f809eb"
+      },
+      "F2_y_mod47cubed": [
+        2307,
+        64996
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R653",
+        "path": "results/R653-SS_j36_21-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "75042b058b2eceb9df301bb32a341b8e3ac7698e6a8050a9e89ec66a27f809eb"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j36_22",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R654",
+        "path": "results/R654-SS_j36_22-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "4dafe539e9789bdf631af14c00f90f763b718a1adc043231ca2912f1cccf871e"
+      },
+      "F2_y_mod47cubed": [
+        84486,
+        22082
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R654",
+        "path": "results/R654-SS_j36_22-actual-ramified-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "4dafe539e9789bdf631af14c00f90f763b718a1adc043231ca2912f1cccf871e"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_01",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R391",
+        "path": "results/R391-SS_j44_01-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "bd359b50f0588b731750a04a6c591d3977f0da73cdc62ba67ab2b2384e2f0b86"
+      },
+      "F2_y_mod47cubed": [
+        22797,
+        13681
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R395",
+        "path": "results/R395-SS-j44-01-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "334740f438a04572b26e6f8cd62d60b1af6408bd9316e6c81b64c613bc700275"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_02",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R321",
+        "path": "results/R321-CM12-SS-cubic-ramification-F2-and-exact-disk-roots.md",
+        "proof_sha256_at_assembly": "306320c48fbf0d10661a320dee2e9254dcc2d2a6e6f6c1a2148cf02e67984959"
+      },
+      "F2_y_mod47cubed": [
+        96923,
+        86091
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R324",
+        "path": "results/R324-CM12-SS-horizontal-F3-and-extra-root-exclusion.md",
+        "proof_sha256_at_assembly": "04f020e6b38f17bf93fe0a7f7480c4067ba174eecf1c6d0adcd9d1dac41f89b8"
+      },
+      "rational_points": 1,
+      "CM_discriminant": -12,
+      "outcome": "unique_known_CM_point",
+      "retained_y_mod47cubed": 96923
+    },
+    {
+      "disk_id": "SS_j44_03",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R392",
+        "path": "results/R392-SS_j44_03-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "5a4965adc3db50d0e87cd09afa6c5b5b643a63fe12ac46b0f297c0b5d04c7031"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_04",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R393",
+        "path": "results/R393-SS_j44_04-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "833583d2721d3cf1072d31e97c7a9549083d67e1b7a3d888380b3668ae0bab39"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_05",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R394",
+        "path": "results/R394-SS_j44_05-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "26c57dfda10f516f9b5bf1952c53ab1ba6dbba38c00c9d049eb0269000ed232f"
+      },
+      "F2_y_mod47cubed": [
+        46984,
+        33932
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R398",
+        "path": "results/R398-SS-j44-05-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "a8078d4a7bf02951adf234e8a6f3588b02be2088d93daa8f7544a65a564fa6db"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_06",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R400",
+        "path": "results/R400-SS_j44_06-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "285e912ef9bcd8a19ffbe89e59289f4e963eaa7238ddf4eea28272a182dcff2d"
+      },
+      "F2_y_mod47cubed": [
+        99230,
+        43277
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R404",
+        "path": "results/R404-SS-j44-06-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "001fffd1aff15a01f2dc699b9d503fe32d71ad663690860f163f8df91f9d5f6f"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_07",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R401",
+        "path": "results/R401-SS_j44_07-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "1d83b20d6aec7c189bfe5a202c8649c7a6a1adfdf19961066df495b857cc8878"
+      },
+      "F2_y_mod47cubed": [
+        22419,
+        53840
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R405",
+        "path": "results/R405-SS-j44-07-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "74c1150588d1d5a7a4d36dab60a7764de5180f281e71bd94d689e3e13640f113"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_08",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R659",
+        "path": "results/R659-SS_j44_08-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "2641ece079bc886b083936558286a1be299478247df268572a76972fd657beb3"
+      },
+      "F2_y_mod47cubed": [
+        55149,
+        83983
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R659",
+        "path": "results/R659-SS_j44_08-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "2641ece079bc886b083936558286a1be299478247df268572a76972fd657beb3"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_09",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R403",
+        "path": "results/R403-SS_j44_09-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "a2d5940058f4f2987177938edb191d24c14304612728b69b9338a057d69c19c6"
+      },
+      "F2_y_mod47cubed": [
+        73527,
+        5911
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R407",
+        "path": "results/R407-SS-j44-09-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "29d75bb3a0b7cfd833f0d3c2366d1a58f4c32bedff9d86f3643ffa8b507301ce"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_10",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R408",
+        "path": "results/R408-SS_j44_10-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "119d78873f76c4c141627d86b249d5476fdb8a6bd8943d921f462a50cb3a3817"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_11",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R409",
+        "path": "results/R409-SS_j44_11-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "232149db6452ca76e109bc9263e2b8ae9b26068a7eb5dd529fba3c8fcd4f9010"
+      },
+      "F2_y_mod47cubed": [
+        48863,
+        27352
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R422",
+        "path": "results/R422-SS-j44-11-actual-F3-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "4f3981ad340f64791b15e1c4223423df24ce968079b24ae41d96fadcd3808467"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_12",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R410",
+        "path": "results/R410-SS_j44_12-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "2ee37bcb181ab685bb1a11f1573362c88cc17b73bc532f7282a3d4b52ce7b193"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_13",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R411",
+        "path": "results/R411-SS_j44_13-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "0a47a6cdde34f201f6fab268c5fc0521c2ccdc5fc159b1aa2c6b5be0a2494e45"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_14",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R412",
+        "path": "results/R412-SS_j44_14-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "72f0c3a1d806b9fefea65b1150dfb7d0ed7b5c814be239a7c29b0f3cb5887234"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_15",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R413",
+        "path": "results/R413-SS_j44_15-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "06e819421116ac41fce0a98e392061ffb919b16aacd58d2efc0365d7942ba4ff"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_16",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R660",
+        "path": "results/R660-SS_j44_16-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "a4914b454ee1a76b4b8811126b5956fc2cd647cd6f335788b05f7b48da395376"
+      },
+      "F2_y_mod47cubed": [
+        65175,
+        52206
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R660",
+        "path": "results/R660-SS_j44_16-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "a4914b454ee1a76b4b8811126b5956fc2cd647cd6f335788b05f7b48da395376"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_17",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R415",
+        "path": "results/R415-SS_j44_17-actual-principal-F2-height-and-disk.md",
+        "proof_sha256_at_assembly": "b7a9770d72df80fd65a0988e78ceb983f0116ef74e75b82e803474235780ab5c"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_18",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R661",
+        "path": "results/R661-SS_j44_18-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "508ed766ae82ee3db6427ffd371437f6a0bb60ee100a3a1c67a3eb3c0903f2d6"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_19",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R662",
+        "path": "results/R662-SS_j44_19-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "eab6229411bd0b44b9849ae1549f960fd31441e562ff12a2f7a8d78e179bbcaa"
+      },
+      "F2_y_mod47cubed": [
+        91095,
+        52677
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R662",
+        "path": "results/R662-SS_j44_19-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "eab6229411bd0b44b9849ae1549f960fd31441e562ff12a2f7a8d78e179bbcaa"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_20",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R663",
+        "path": "results/R663-SS_j44_20-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "5a8abd94b5d5280b84ccad3cca1bce3ba445d06fc94394eb376b211a5182a472"
+      },
+      "F2_y_mod47cubed": [
+        71001,
+        29785
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R663",
+        "path": "results/R663-SS_j44_20-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "5a8abd94b5d5280b84ccad3cca1bce3ba445d06fc94394eb376b211a5182a472"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_21",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R664",
+        "path": "results/R664-SS_j44_21-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "862acb3e35a7bc77e479b015a6fc064777fb038b4bfa6f747d274ce907ae2eec"
+      },
+      "F2_y_mod47cubed": [
+        5875,
+        36604
+      ],
+      "F2_branch_status": "all_simple_branches_listed",
+      "F3_proof": {
+        "result": "R664",
+        "path": "results/R664-SS_j44_21-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "862acb3e35a7bc77e479b015a6fc064777fb038b4bfa6f747d274ce907ae2eec"
+      },
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    },
+    {
+      "disk_id": "SS_j44_22",
+      "type": "supersingular",
+      "F2_proof": {
+        "result": "R665",
+        "path": "results/R665-SS_j44_22-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+        "proof_sha256_at_assembly": "dc28902618cfc433954eec4a3f38455cb6022ce72abe9696b2ff34963a8b671c"
+      },
+      "F2_y_mod47cubed": [],
+      "F2_branch_status": "no_residue_root",
+      "F3_proof": null,
+      "rational_points": 0,
+      "outcome": "excluded_for_all_four_common_bad_components"
+    }
+  ],
+  "counts": {
+    "ordinary": 19,
+    "ordinary_excluded": 16,
+    "ordinary_CM": 3,
+    "supersingular": 110,
+    "supersingular_excluded": 105,
+    "supersingular_CM": 5,
+    "total_disks": 129,
+    "excluded_disks": 121,
+    "rational_points": 8
+  }
+}
