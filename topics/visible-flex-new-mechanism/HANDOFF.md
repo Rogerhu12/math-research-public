@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`86eb613ed6c1fae0c813b42f60103441a687ed41`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`7eb383af1ca2bb04c7eaef9c65578dbc124269d8`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有19:20:16 UTC实际pull至`7943e238737119df3b4a564b854335f4b226debc`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于20:19 UTC。
 
@@ -33,13 +33,13 @@ A1、B7/25、半宽1/50；L.9、握持rc.22、tc.036、tf.846、六帽R.274。16
 
 原一次流程保持：固定T高度四次120iter/300eval/30s→零Q准确含旧场→当前signed-z硬约束联合80iter/120eval/300s。u/v/Q盒[-8,8]、height[-1,1]；硬帽高沿用.1427042，工作基网61+结构+24入口细分×192，最后原fine×384/768同态。完整g/b0不变；uv动时不得沿用冻结T多面体。best需cap/box/当前z同时过，ball/strip仍原软目标与末门；帽高和signed-z都不替代全reach。
 
-## 4. 新B=.37：独立新设计，首真实单态正请求
+## 4. 新B=.37：首真实输运初态失败，改可控初始化
 
-工厂 `frame_core_transport.py` ea799032…严格回放上述原c0/selected后语义逐位输运234列，重建新core/seed/heat/完整g/b0；原c0永远是新anchor，selected只作初值。双侧人工43633105146已过。
+工厂 ea799032…与driver fbe810c9…人工全链已过。actual43634358250/sourcefdc99b7d，唯一selected语义系数初态，无优化/entry/Q。新physical `784ad5b6803fe09842684102eec363925f4acc9a5a587d5db6df12e1c96d051b`，新g `0802fc586d9ef618a2cc4cfdad9bd197e20645bee891af207b35ac2960374c12`，新b0 `33b6f975dcbbc9fd800f87cc7673ba133137e600c385f87c72521f4757b23628`，不能称旧g精化。
 
-新driver `frame_core_transport_audit.py` fbe810c9…完整人工IO43633746055/source26c3f2c0已过（报告fa0f29cf…）：稀/密六jet与center差0、162冻结、summary、错SHA、同态Pi都过。**本次请求唯一真实B=.37单selected初态**，没有优化、entry修复或Q。121基网+全部结构节点×384/768；固定120分区GL8、GH32/Nb384。新g/新b0不得标为旧g精化；原5个body数只作新seed的相同log系数。
+139径向×384/768同态：η67.0064338145/67.0064338148（t=.105）；minarea .0034837/.0034470；κ5.88e5/1.31e6未收敛；|y|max.593913>.38；minz−.0448831；帽高.0557448071低于新R66必要.069959984；镜像比6.40e−6<.061。球采样norm² .983528；核心jets准确，固定原函数稀/密一致，Π精化差不解释O67失败。完整报告gzip及SHA见notes/core-B037-semantic-transport-initial-actual-result-20261114.md。
 
-新R66必要门d=.096、τ.061，正帽h≥1/50+sqrt39/125≈.06996（仍非reach充分）。球1.01/strip .38是保δhold/D≥31/101的全局前提，尚未在新场验证。详notes/elliptic-core-single-initial-audit-20261114.md。
+原因方向：全段换φ/u_core后，旧近±8系数抵消不保。下一保旧物理场与b/zc/Π，仅在明确C²核心collar局部换u和a，外域六jet可准确保留；须先付新完整g和端口，再独立单态审计，不在η67初态盲加预算。仍未排新核心一般连接。
 
 ## 5. 理论当前真实边界
 
@@ -53,4 +53,4 @@ R83给真实(w,u,v)传递、M0倒行T−而V+；真词Z恒M=T0，在含Z0的R45�
 
 ## 6. 持续推进
 
-当前request：`quartic_joint_audit`修复后原一次实际 + `core_transport_initial_audit`新B唯一单态。实际发布后真正pull核两README、同步H/log/open；所有新的定理立即登记索引。子问题结束即接open，不等待用户阶段批准。原始文献及撤稿/成对等距/局部片边界见notes/literature-20261114.md；不以重复来源清单代替研究。
+当前request：`quartic_joint_audit`修复后原一次实际 + `core_transport_initial_audit`新B唯一单态。新B实际已登记；旧B实际发布后真正pull核两README、同步H/log/open；所有新的定理立即登记索引。子问题结束即接open，不等待用户阶段批准。原始文献及撤稿/成对等距/局部片边界见notes/literature-20261114.md；不以重复来源清单代替研究。
