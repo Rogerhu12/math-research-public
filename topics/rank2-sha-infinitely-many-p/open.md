@@ -194,7 +194,8 @@ R533两固定负矩的第一层现有[准确递推与有限记录](notes/2026-11
 
 ### R540：原固定负二矩的完整算术点
 
-原f4/f1的实际有限角色ξ、导子(6)、二/三处完整环面及Schwartz、Hermite/周期和全权平方已付；固定负二矩准确读取36c4·17^(3/2)Ωp I−2²的primitive Katz值。真实复反射ξ^-1ψ0³根数−1，与f1正一次的ξψ0³不同；全部普通Euler和同CM-type对偶保持，负矩非消失仍未付。见[R540：原六度完整Schwartz与负二Katz点](results/R540-original-degree-six-schwartz-full-weight-and-negative-two-katz.md)。**待做：** 同一原普通地点的ν_−值在无穷p非零，或真实非齐次/椭圆单位比较后与R533两单位域及完整S/T补域联立。不能从根数−1、正一次非零或147点首层证据推这个负点；常数c4若用单位性须另删其固定有限支撑。
+完整Schwartz、准确Katz角色/普通地点和两单位域范围见[R540](results/R540-original-degree-six-schwartz-full-weight-and-negative-two-katz.md)及[完整归档](notes/2026-11-14-open-before-r553.md)。**待做：** 同一原普通地点的ν_−值在无穷p非零，或真实非齐次/椭圆单位比较后与R533两单位域及完整S/T补域联立。不能从根数−1、正一次非零或147点首层证据推这个负点；常数c4若用单位性须另删其固定有限支撑。
+
 
 ### R547：同预算单位块与真实cube余列
 
@@ -221,3 +222,7 @@ R533两固定负矩的第一层现有[准确递推与有限记录](notes/2026-11
 ### R552：全部原列上的实际首次lifting类
 
 原纯ξ尾在全H3中的像准确为Dξ=(coker E_q/imα)/β0(kerβ̄)，同一个实际二倍修正与e+f2η单位完整保留；再用全部原列上两层的共同核取商，得到完整首Bockstein的必要且充分仿射判据。原低行高尾、活V1/f2、同一R及M的十三行与下一位carry均保持，未断指定类非零。见[R552：全三次来源的接触尾与原完整forcing](results/R552-full-third-source-contact-tail-and-actual-affine-forcing.md)。**待做：** 在同一个原有限矩阵中判上层条件(38)，并在其通过后判γcar+[3eξ]于Dξactual的指定类；只在最初接触coker非零不够，α像、β0与全部真列共同核都须支付。R555继续实际消元及原同R的下一位，不能把较小子格p因子当全M非零。
+
+### R553：两个低度theta与原四线混合余域
+
+同一六输入换元U=c+ωd、V=c−ωd将ρ0/η/h完整写成Theta⊗Sigma与Sigma⊗Theta的两个张量；整个S2中心与Theta锚付两独立核心β=−λ。真单位测试给整对偶和全部连续测试单位逆；R544余域准确为{ωU+δV unit,U³+V³ unit}，原Y/W/M、q与所有移动cut完整保留，单位见证不代原中央非零。见[R553：原Norm2双theta来源与真实四线单位域](results/R553-original-norm2-two-theta-source-and-mixed-unit-domain.md)。**待做：** 在(28)这个同一实际域及(32)完整混合测试上控制两张量的补偿，把原rho0((Phi1+Phi2)/2−Phi0)与h(Phi1−Phi2)同时接R548全谱或原中央；对偶积分只可用于独立测试，完整unit逆须保全部Y/W/q移动，不能只留n=0项。

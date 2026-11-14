@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R553：原Norm2双theta来源与真实四线单位域](results/R553-original-norm2-two-theta-source-and-mixed-unit-domain.md)：同一六输入换元U=c+ωd、V=c−ωd将ρ0/η/h完整写成Theta⊗Sigma与Sigma⊗Theta的两个张量；整个S2中心与Theta锚付两独立核心β=−λ。真单位测试给整对偶和全部连续测试单位逆；R544余域准确为{ωU+δV unit,U³+V³ unit}，原Y/W/M、q与所有移动cut完整保留，单位见证不代原中央非零。
+
 - [R552：全三次来源的接触尾与原完整forcing](results/R552-full-third-source-contact-tail-and-actual-affine-forcing.md)：原纯ξ尾在全H3中的像准确为Dξ=(coker E_q/imα)/β0(kerβ̄)，同一个实际二倍修正与e+f2η单位完整保留；再用全部原列上两层的共同核取商，得到完整首Bockstein的必要且充分仿射判据。原低行高尾、活V1/f2、同一R及M的十三行与下一位carry均保持，未断指定类非零。
 
 - [R549：原负矩的Cartier/Verschiebung完整有限行](results/R549-original-cartier-verschiebung-and-fixed-negative-moment-rows.md)：同一原第二类微分有显式ζp∈L(pO)、Dζp=−x及绝对首项−Ha^-1；原sigma的AS方程精确识别为Verschiebung。两个负矩是保ℓ²/ℓ⁵的Cartier观察，准确化成H²C Sw/H⁵Sw二项式有限行，周期降为Ω^-2/Ω^-5固定幂；非齐次系统及Ha N曲率完整保持，指定行非零仍未付。
