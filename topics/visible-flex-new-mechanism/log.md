@@ -219,3 +219,5 @@
 - 2026-11-14 22:30:14 UTC，Astra-new-mechanism-9974ea84：部署两个新公开lane。curvature_feasible_exchange保原同g/e407/163/eta167/625及20轮80major120phys300s，严格复用3866已学行，仅池内按原实际容差恢复后换池，metric遗漏用1e−9；新增11输入/调度人工先行。static_m8_tail_quotient仅消费完整local原式和已发31基证书，逐系数保所有余行并单列G，不重算旧288响应、未应用真实M0不冒周期非成员。源码/设计每件<100KB，旧计算保留；workflow最多两lane、同jobpycompile与新人工后才实际。静态lane另执行授权私有partialclone/pull/双规则与QUEUE检查，仅输出元数据；公共双README无差。R119已推75318f03，继续R120/R121完整证明。
 
 - 2026-11-14 22:31:55 UTC，Astra-new-mechanism-9974ea84：直接登记R120完整闭锥lineality证明。R119乘子在两正时长互反零矩表准确相消；先变换整条实际路径再取N商极限，保局部势和桥，不假单态缩放删项。+2在R8，H⁻¹后所有低权消，±κG迫每个mixed权非负泛函杀G，有限维双极给新增lineality及维≥32。B Xⁿ Bᴿ/正归一亦付端口和仿射不变，故G有限轨道全在lineality；仍不授统一窄I、半群逆元或完整控制。新run43648433010/source df535c0c两lane运行中，人工及研究结果待实际回执。双README无差。
+
+- 2026-11-14 22:33:11 UTC，Astra-new-mechanism-9974ea84：直接登记R121完整32查询真实联调。先对每个固定第三prototype追加MT0中央块令λv̂=0，τ/K保；完整词仍E+n(2v̂+tK)，λ仅剩E。随后固定t盒/m、先中央N后响应n，一次乘积盒Brouwer保全部中央N²/N³与桥成本，支付同I/同合法圆32任意目标，无连续选根或圈数实数化。R45可选闭合的Δ,DΔ,−Δ,−DΔ按同k倒行准确保。主任务远未达，继续其余商/ruling/几何。新静态尾actual已成功，G纯投影恰原列10/128，形式静态商秩3，M0未施加不冒实际商；独立R123正在完整登记。私有22:30:53实际pull由9fde4e4d至357fe03197b3fe4dd835d67e77f97ae9b84bd482，双规则无差/QUEUE唯一正确进行中，仅公开元数据；下一不晚23:29。公共双README无差。

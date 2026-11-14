@@ -234,12 +234,14 @@
 
 - [R114：受约束常态第四成本、八矩正锥与真实有限圈字](results/R114-constrained-static-costs-and-real-zero-matrix-words.md) — 常态m0的完整8坐标为rank-one trace零矩阵；四(h,d)×k=0/±1/±2的20整圈给正锥E8，补k±1族缺的第8方向。所有正配平静态商为零恰等于存在固定G使[L0(S)]=G(m0(S))，八个h1有理基准给可直接消费的约束商。floor整数圈+真实O1连接+八维IFT得到准确M0，倒行付T0；有限维闭性只用于成本span，真非零配平值在充分大有限N已给真非零成本。未授任意半群成本、ruling或几何完成。
 
-- [R117：静态权一只剩单G函数门与互反圈带成本控制](results/R117-static-weight-one-reduction-and-reciprocal-costs.md) — R115完整块hkF+hk³G+h²k²ωH中H已付，hk=−2p2和8基准态k0/1使R114商准确为h(k³−k)G，故只剩G是否属真权一7维响应门。k2一整圈+−1/2两整圈准确M0/frameI，成本因子15hτ(2)/2；相反k给负号。若G真非成员，真实M0连接/有限重复/倒行给非零实际商，并用紧h族与IVT保完整E(h)支付一新增查询。非成员前提待原7/8子式，不拿206项NF余充证。
+- [R117：静态权一只剩单G函数门与互反圈带成本控制](results/R117-static-weight-one-reduction-and-reciprocal-costs.md) — R115完整块hkF+hk³G+h²k²ωH中H已付，hk=−2p2和8基准态k0/1使R114商准确为h(k³−k)G，故只剩G是否属真权一7维响应门。k2一整圈+−1/2两整圈准确M0/frameI，成本因子15hτ(2)/2；相反k给负号。若G真非成员，真实M0连接/有限重复/倒行给非零实际商，并用紧h族与IVT保完整E(h)支付一新增查询。非成员前提现由R118原7/8子式支付，R121另付联合查询；不拿206项NF余充证。
 
 - [R116：完整m8纯尾秩31、四块15与真实有限查询支付](results/R116-full-m8-tail-response-rank-and-finite-query-control.md) — actual43646543691消费完整W原式与R110一列，新算287列；全部288有理多项式/257依赖给投影秩31，四块15，低degree25–30满层。C6连续光滑化把投影独立升级真实dimR8≥31，R96/R102保共同I/同合法圆和v/E基准支付31查询。四块另选15尾查询包含D25四奇行，真实桥/Brouwer/闭合同时保整个D25为零再付11行；未认基准属于响应像或完整尾已零。
 
-- [R118：G的精确有理分离与真实第四成本商非零](results/R118-static-G-exact-separation-and-nonzero-fourth-cost-quotient.md) — actual43647225907用完整两mode原式和7控制列，合法分母的模素数非零7/8子式定义真Q-Cramer分离泛函；控制秩7、加G秩8，G不属真R8。R114/R117实际正配平圈与桥成本把它升级成R8严格包含于U4，dimU4≥dimR8+1≥32；激活一个额外权一查询的真实任意支付。结束U4=R8路线；未冒31+1联合支付、完整成本锥或所有profile不可解。
+- [R118：G的精确有理分离与真实第四成本商非零](results/R118-static-G-exact-separation-and-nonzero-fourth-cost-quotient.md) — actual43647225907用完整两mode原式和7控制列，合法分母的模素数非零7/8子式定义真Q-Cramer分离泛函；控制秩7、加G秩8，G不属真R8。R114/R117实际正配平圈与桥成本把它升级成R8严格包含于U4，dimU4≥dimR8+1≥32；激活一个额外权一查询的真实任意支付。结束U4=R8路线；R121另付31+1联合支付；本结果不授完整函数控制或所有profile不可解。
 
 - [R119：正配平静态成本的线性乘子门与真实成本锥边界](results/R119-positive-static-cone-and-linear-multipliers.md) — 20态正锥E8给任意矩阵成本下包络有限次线性，Hahn–Banach推出全部正配平静态成本非负当且仅当存在固定8维μ使λL0(S)−μm0(S)≥0。无需最小值取得或像锥闭性。对全部真实MT0成本非负的λ，R102先迫其杀R8，R114使静态门必要；局部ambient extension差准确由矩阵乘子吸收。未授全部路径的充分性，几何导数权2/4及桥仍须支付，未构造非零完整正泛函。
 
 - [R120：真实第四成本闭凸锥的新增G直线方向](results/R120-G-lineality-of-the-closed-fourth-cost-cone.md) — R119乘子先在正/负整数互反零矩表准确消去；整路径R89真实缩放及R109商极限保势与桥，最高+2已付，H⁻¹正缩放后低权消而±κG保留。故所有真实成本非负泛函（含mixed权）杀G，有限维双极给R8+RG及G的有限仿射轨道都在成本闭锥lineality，维至少32。B Xⁿ Bᴿ的正归一极限付闭锥端口独立；严格限universal闭锥，不冒预定物理I、实际有限逆元或全函数控制。
+
+- [R121：中央基准补偿后的31+1真实查询联合支付](results/R121-central-baseline-correction-and-joint-fourth-query-control.md) — 先用R117中央MT0块逐个准确清掉第三prototype的λv，保τ及K不变；完整R101词仍为E+n(2v̂+tK)，其λ查询不再随n增长。先固定t盒/m，再取中央N，最后响应n，把中央完整N²/N³成本留在Q下，以一次乘积盒Brouwer付同一I/同合法C∞三矩圆的32个任意共同目标；一般r个响应方向给r+1。可接真实I→D基准和R45四块闭浸入，保全部连接成本；未认商恰一维、完整函数/ruling或目标闭面已成。
