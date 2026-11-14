@@ -205,3 +205,5 @@
 - [R100：D25的c⁸周期系数与三个真实零端历史](results/R100-pure-tail-c8-period-and-three-true-histories.md) — m8完整端势将c8 period化为p/ell/zeta的真实短action，三者ODE和零端来自同一几何/完整M0；无需T0。actual43640085842的34个差式、23真histories、原DAG/完整参数族fresh回代及R97两个primitive导数全0。31项系数变19项短式；非零形式不授周期非零/同号，所有锚和range门仍保。
 
 - [R101：有限复制支付第四字符的两号成本](results/R101-finite-replication-and-signed-fourth-character-costs.md) — 真M0第三环L的n次复制有T=nτ/V=nv；零低阶词Z准确V=E(t)+n(2v+tB_Pτ)，未知偶基准保留。固定小二阶族重复实现任意有限t且共同物理I不变；只对有限V+B_E8(W)应用R96，给同一合法C∞三矩圆与固定查询泛函，再由两号和介值匹配任意实标量。可消R98字符的一维P0+NP1查询，不解完整函数/ruling/嵌入厚度或有限等距族。
+
+- [R103：实际诱导度量下的准确局部曲率门](results/R103-actual-metric-curvature-semidefinite-gates.md) — 正则真实位置两jet给I与K=qII，双侧主曲率界准确等价qI±τK半正定，可写四条迹/行列式行；另有q⁴I−τ²K adj(I)K的两行多项式版本。完整参数导数保法向变化/固定a，独立正则门不可删；纸例说明未等距时用目标g会误判。只支付局部曲率接口，不授全reach或当前状态通过。

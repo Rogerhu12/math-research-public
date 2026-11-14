@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`542431dc5e6e2192e5302fad376afdbc8ce8267f`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`040ae46e696db1ad452db4aab81598a8b873c42b`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:42:44 UTC实际pull至`a0de3f9fcfb21e9db3e6863a8b48a665b9b5f0a3`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:41 UTC。
 
@@ -26,7 +26,7 @@ A1/B7/25/半宽1/50，L.9、握持rc.22、tc.036、tf.846、六帽R.274。167=81
 
 **当前dense状态** 028c8954574251287035d2a6c255655050778b4d59e3b05de1086719b887df73，same g/b0/163。actual43640503728/source509a1caf人工pass后唯一SLSQP，14eval/305.485s budget退出，总322.681s/RSS3101156KiB。work160×192 η.265982960，fine384/768 η.268197876/.268197874、κ73.102620/73.102607；误差峰移body s.21，κ仍patch .7875。rawδ.2659538765未抬，工作gap2.91e−5/细.002244真实失败；aux best仍初态。镜像.101055731>.061、minz.02/球norm².990537464/盒帽行容差过，但细strip.390000019476>.39（约1.95e−8，超1e−9容差），不是细网物理全过。帽重建裕−2.78e−17如实保；Π公共η差2.10e−6。raw1706835B SHA51f00f616c667bddd418371ed8230c902112dda4e7f6d33ea9b81b1ac34a396e，详notes/dense-mirror-minimax-first-actual-result-20261114.md。
 
-下一同g处理角向漏峰/strip余量与冗余约束矩阵成本；完整J282132480B，不能盲续同巨大matrix。若活跃行生成，须每次完整网格补违反/物理独立筛，保rawδ和真实状态；曲率与完整reach仍欠。
+R103已给真实I/K=qII的双PSD曲率门和完整2jet导数，正则性须另查，暂未加进optimizer。下一同g处理角向漏峰/strip余量与冗余约束矩阵成本；完整J282132480B，不能盲续同巨大matrix。若活跃行生成，须每次完整网格补违反/物理独立筛，保rawδ和真实状态；曲率与完整reach仍欠。
 
 ## 4. 新B=.37局部核心与成套leading
 
