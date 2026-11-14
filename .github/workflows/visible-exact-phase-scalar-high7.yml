@@ -1,0 +1,102 @@
+name: visible-exact complete high7 phase scalar cache
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-phase-scalar-high7.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-phase-scalar-high7
+  cancel-in-progress: false
+
+jobs:
+  actual-scalar-range:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        include:
+          - start: 1
+            stop: 43
+          - start: 43
+            stop: 85
+          - start: 85
+            stop: 127
+          - start: 127
+            stop: 169
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - name: Install terminal Git for partial checkout and publication
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+
+      - name: Read only this topic's sources and exact small inputs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json
+            /topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz
+            /topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-Arb-high-scalar-Taylor-first-germ-native.json.gz
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-phase-high7-CI-pinned-inputs.json
+            /topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Install the fixed complete numerical arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check
+          numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+          sympy==1.14.0 mpmath==1.3.0
+
+      - name: Check the exact checkpoint worker before execution
+        run: |
+          python - <<'PY'
+          import hashlib
+          from pathlib import Path
+          p=Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py')
+          expected='1d990642e6a7f4ed4098617d5e71367d180638c2583b201b45b355693798e1b6'
+          actual=hashlib.sha256(p.read_bytes()).hexdigest()
+          if actual!=expected:
+              raise SystemExit('The pinned actual high7 checkpoint worker changed')
+          print('Exact checkpoint worker identity verified:',actual)
+          PY
+
+      - name: Compute the actual disjoint range and publish every checkpoint
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-14-R133-phase-high7-CI-pinned-inputs.json
+          --manifest-sha eb25464d038f44dc87a8214662ec9275250fc414c42ca04c9763bf08f8802535
+          --germ-start ${{ matrix.start }} --germ-stop ${{ matrix.stop }}
+          --compute-minutes 310 --checkpoint-minutes 10
+          --artifact-dir ${{ runner.temp }}/visible-exact-phase-high7-${{ matrix.start }}-${{ matrix.stop }}
+
+      - name: Keep the real normal or failed native prefix and process status
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-phase-high7-${{ matrix.start }}-${{ matrix.stop }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/visible-exact-phase-high7-${{ matrix.start }}-${{ matrix.stop }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn
