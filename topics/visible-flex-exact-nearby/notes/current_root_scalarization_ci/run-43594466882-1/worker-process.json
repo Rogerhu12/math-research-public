@@ -1,0 +1,44 @@
+{
+  "kind": "actual_public_current_root_scalarization_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43594466882",
+  "run_attempt": "1",
+  "workflow_commit": "b84d9851a03b01ce4bac12cd810a906ea9424fd5",
+  "worker_sha256": "913e96f5b721d69c60209eaeed3b37156c9470980642fe0ad675bd71a2a50f63",
+  "manifest_sha256": "b1e47bdc43fdb5f9742ee8feb087f5a66dd72457439405abecb1816012b1c746",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T12:22:40.739079+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "f61ca9786a5a5b60bb9d6066686aad97cfb9faac",
+      "after": "f61ca9786a5a5b60bb9d6066686aad97cfb9faac",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "f61ca9786a5a5b60bb9d6066686aad97cfb9faac",
+      "after": "f61ca9786a5a5b60bb9d6066686aad97cfb9faac",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-current-root-scalarization-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_root_scalarization_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-current-root-scalarization-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-current-root-scalarization-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-root-scalarization-CI-inputs.json",
+    "--manifest-sha",
+    "b1e47bdc43fdb5f9742ee8feb087f5a66dd72457439405abecb1816012b1c746",
+    "--out-dir",
+    "/__w/_temp/visible-exact-current-root-scalarization-output/consumers"
+  ],
+  "complete_original_inputs_verified": 13,
+  "actual_scientific_checkout_commit": "f61ca9786a5a5b60bb9d6066686aad97cfb9faac",
+  "mathematical_wall_seconds": 0.6150629780000045
+}
