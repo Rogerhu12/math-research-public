@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`37f426b04f8597c8df3fea1bd5a872b750108aaa`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`242092cfc86d1b506b0c81f12b4e329fde5dcbee`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:02:06 UTC实际pull至`fb59f636d9b9ce20c96325dbe19a3b4c504ac21b`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:01 UTC。
 
@@ -42,7 +42,7 @@ resume actual43635770962/sourcecc8a9c9d已complete175.069s，新人工pass，qua
 
 R87 actual43635287277原右Volterra同一有理f/g真实36/37非零子式，W真维数36；R86补矩/光滑化迁移到合法C∞圆，并有明确collar类相对开稠密障碍。只排该单pair P1，**不排特殊circle、多pair、固定N的P0+NP1**。完整证据在R87及对应notes。
 
-R89真实H²/x=Hξ+d全路径协变及W不变，物理A族恰span7。R90七明确常态给全响应≤252维，基准有限Laurent族；实际helper正成本、整数整圈不可省。R91 universal层二分：b若在全响应内则七helper各一正整圈可付P1；否则存在Λ(b_Hd)=H^n>0排任何正组合。成员尚未知，不能据单pair或两个pair阴性决定，也不能冒固定特殊profile排除。新两state(1,0)/(1,1)等整圈actual43637269935/source665bd6e9运行中；72原列先fresh证明依赖上界r，再原式两mode正身份或rank-r与增广r+1真分离，480s/2GiB，不重跑单pair。
+R89真实H²/x=Hξ+d全路径协变及W不变，物理A族恰span7。R90七明确常态给全响应≤252维，基准有限Laurent族；实际helper正成本、整数整圈不可省。R91 universal层二分：b若在全响应内则七helper各一正整圈可付P1；否则存在Λ(b_Hd)=H^n>0排任何正组合。成员尚未知，不能据单pair或两个pair阴性决定，也不能冒固定特殊profile排除。两state(1,0)/(1,1)actual43637269935/source665bd6e9在480.059s资源退、仅33/72列，RSS157.754MiB；没有依赖上界/匹配/原式评价，数学未定。回执30988B SHA3f3aa0999e7f2fca1ca3772967cdce31e04ea1ef27d2914173f112ea1512d970。改总成员真实分权，最高块2/6列、最大48列，完成块各保原式证书，不原样加预算。
 
 R83真第四传递：M0倒行T−、V+；含Z0的真实基准上第四切向保P1，但基线/偶成本仍欠。R84 V只有限加法半群，frame长度L∫(1+k²)≥4π²；不授负成本或V正性。R85/R88证明pure尾4m−9、4m−8均准确端点势，M0已消；R88 consumer43636741138真I0/原DAG全0。
 
@@ -52,4 +52,4 @@ P0、逐s第四ruling、更高阶/收敛、完整宏观嵌入厚度仍欠；resu
 
 ## 6. 持续推进
 
-理论actual43635287277两lane已complete：dual准确37子式成功（R87已登记），tail完整原式资料见notes/pure-tail-first-actual-complete-20261114.md。joint_resume43635770962已完成；R88指定式consumer与局部B初态43636741138已登记。multiple_pair_P1原run43637269935继续；当前新actual43637739532/source09bbfd75为metric_epigraph与pure_tail_next_reduce。D25 consumer已complete并登记R92；metric_epigraph仍运行，读取其人工/实际门后接下一真实方向。旧四次/joint不重复。新实际发布后pull核两README并同步H/log/open；子问题接open不等阶段批准。原始来源边界见notes/literature-20261114.md，不重复清单代替研究。
+理论actual43635287277两lane已complete：dual准确37子式成功（R87已登记），tail完整原式资料见notes/pure-tail-first-actual-complete-20261114.md。joint_resume43635770962已完成；R88指定式consumer与局部B初态43636741138已登记。multiple_pair_P1原run43637269935已资源退并登记；当前新actual43637739532/source09bbfd75为metric_epigraph与pure_tail_next_reduce。D25 consumer已complete并登记R92；metric_epigraph仍运行，读取其人工/实际门后接下一真实方向。旧四次/joint不重复。新实际发布后pull核两README并同步H/log/open；子问题接open不等阶段批准。原始来源边界见notes/literature-20261114.md，不重复清单代替研究。
