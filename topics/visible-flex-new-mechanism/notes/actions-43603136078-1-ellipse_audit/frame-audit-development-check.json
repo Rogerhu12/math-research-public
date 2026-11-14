@@ -1,0 +1,36 @@
+{
+  "schema": "frame-collar-residual-audit-development-v1",
+  "passed": true,
+  "checks": [
+    {
+      "side": 1,
+      "frozen_geometry_exact_evaluation_difference": 0.0,
+      "global_maxima_agree_with_solver_summary": true,
+      "segments_cover_every_row": true,
+      "source_hashes_match": true
+    },
+    {
+      "side": -1,
+      "frozen_geometry_exact_evaluation_difference": 0.0,
+      "global_maxima_agree_with_solver_summary": true,
+      "segments_cover_every_row": true,
+      "source_hashes_match": true
+    }
+  ],
+  "rejected_mismatches": {
+    "source_hash": true,
+    "coefficient_float": true,
+    "coefficient_not_binary64": true,
+    "metric_identity": true,
+    "core_identity": true
+  },
+  "artificial_inputs_only": true,
+  "research_geometry_evaluated": false,
+  "nonlinear_optimization_performed": false,
+  "source_files_sha256": {
+    "frame_collar_bvp.py": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+    "ellipse_frame_port.py": "4371f3d816c913b0e7a34f5568672f8f318fd3a923c83e3b28e3ec731c67689b",
+    "cosine_connector_radial_seed.py": "662292c1603a834e8295f7b36648f3c16f3b3904383c883dc8aa7faee4e40fc5",
+    "frame_collar_residual_audit.py": "58d972ec1dbbaba35d1ed1600ea14f1cd5934601cf5f7a209e95795e5099b9ee"
+  }
+}
