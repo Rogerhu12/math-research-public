@@ -1,0 +1,363 @@
+{
+  "schema": "eccentric-collar-search-v1",
+  "status": "finite_search_only",
+  "metric_mode": "fixed",
+  "fixed_metric": {
+    "formula": "a'=cos(pi*S+b*sin(2*pi*S)); z'=sin(pi*S+b*sin(2*pi*S)); S=quintic smoothstep on [collar*L,(1-collar)*L]",
+    "initial_radius": 0.45,
+    "length": 2.0,
+    "collar_fraction": 0.06,
+    "beta_wiggle": 0.9,
+    "quadrature_order": 96,
+    "reference_height": 1.0503097570937538
+  },
+  "reference_meridian": {
+    "formula": "a'=cos(pi*S+b*sin(2*pi*S)); z'=sin(pi*S+b*sin(2*pi*S)); S=quintic smoothstep on [collar*L,(1-collar)*L]",
+    "initial_radius": 0.45,
+    "length": 2.0,
+    "collar_fraction": 0.06,
+    "beta_wiggle": 0.9,
+    "quadrature_order": 96,
+    "reference_height": 1.0503097570937538
+  },
+  "boundary": {
+    "upper_centre_offset": [
+      0.02,
+      0.0,
+      0.0
+    ],
+    "upper_tilt_y": 0.0,
+    "upper_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "open_collar_two_jets_exact_by_representation": true
+  },
+  "discretization": {
+    "controls": 10,
+    "modes": 4,
+    "radial_collocation": 15,
+    "angular_collocation": 24,
+    "radial_gauss_order": 3
+  },
+  "initial_seed": {
+    "radial_mode2": 0.08,
+    "radial_mode3": 0.08,
+    "resume": null
+  },
+  "solver": {
+    "method": "lm",
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "nfev": 7,
+    "njev": 6,
+    "cost": 0.005047277076135916,
+    "optimality": 1.3116147626907878e-09
+  },
+  "initial_audit": {
+    "radial_points": 65,
+    "angular_points": 64,
+    "metric_relative_operator_sample_max": 1.0336205551669222,
+    "metric_components_sample_max": [
+      1.0336205551669222,
+      0.281277902234057,
+      0.3498414611184304
+    ],
+    "metric_relative_rms": 0.24054254310962986,
+    "audit_target": "fixed reference metric",
+    "target_mean_E_range": [
+      1.0,
+      1.0
+    ],
+    "target_mean_G_range": [
+      0.2025,
+      1.0696113672046368
+    ],
+    "target_schur_min": 1.0,
+    "min_area_density_sample": 0.44999999999999996,
+    "max_principal_curvature_sample": 7.524070397020257,
+    "coordinate_min": [
+      -1.0298171463649683,
+      -0.9874201229119114,
+      -0.0015130720688916392
+    ],
+    "coordinate_max": [
+      1.1997752954305372,
+      0.9874201229119115,
+      1.0529244296811493
+    ],
+    "closed_surface": false,
+    "continuous_error_bound": false,
+    "embedding_proved": false,
+    "reach_proved": false
+  },
+  "final_audits": [
+    {
+      "radial_points": 65,
+      "angular_points": 64,
+      "metric_relative_operator_sample_max": 0.007229671417843251,
+      "metric_components_sample_max": [
+        0.007229671417843253,
+        0.0065900333065732584,
+        0.0063405913645120755
+      ],
+      "metric_relative_rms": 0.0049406894721675965,
+      "audit_target": "fixed reference metric",
+      "target_mean_E_range": [
+        1.0,
+        1.0
+      ],
+      "target_mean_G_range": [
+        0.2025,
+        1.0696113672046368
+      ],
+      "target_schur_min": 1.0,
+      "min_area_density_sample": 0.44999999999999996,
+      "max_principal_curvature_sample": 4.784717195783852,
+      "coordinate_min": [
+        -1.025832008991832,
+        -1.034203486000448,
+        -0.00014815130359986987
+      ],
+      "coordinate_max": [
+        1.0458320090176743,
+        1.034203486000448,
+        1.0504579083976529
+      ],
+      "closed_surface": false,
+      "continuous_error_bound": false,
+      "embedding_proved": false,
+      "reach_proved": false
+    },
+    {
+      "radial_points": 129,
+      "angular_points": 64,
+      "metric_relative_operator_sample_max": 0.007229671417843251,
+      "metric_components_sample_max": [
+        0.007229671417843253,
+        0.0065900333065732584,
+        0.0063405913645120755
+      ],
+      "metric_relative_rms": 0.004959798857647031,
+      "audit_target": "fixed reference metric",
+      "target_mean_E_range": [
+        1.0,
+        1.0
+      ],
+      "target_mean_G_range": [
+        0.2025,
+        1.0696113672046368
+      ],
+      "target_schur_min": 1.0,
+      "min_area_density_sample": 0.44999999999999996,
+      "max_principal_curvature_sample": 4.795467908018741,
+      "coordinate_min": [
+        -1.0258594927288298,
+        -1.034203486000448,
+        -0.00014815130359986987
+      ],
+      "coordinate_max": [
+        1.0458594927522624,
+        1.034203486000448,
+        1.0504579083976529
+      ],
+      "closed_surface": false,
+      "continuous_error_bound": false,
+      "embedding_proved": false,
+      "reach_proved": false
+    },
+    {
+      "radial_points": 257,
+      "angular_points": 64,
+      "metric_relative_operator_sample_max": 0.007229671417843251,
+      "metric_components_sample_max": [
+        0.007229671417843253,
+        0.0065938809327611,
+        0.006345032171171074
+      ],
+      "metric_relative_rms": 0.0049694387943785626,
+      "audit_target": "fixed reference metric",
+      "target_mean_E_range": [
+        1.0,
+        1.0
+      ],
+      "target_mean_G_range": [
+        0.2025,
+        1.0696113672046368
+      ],
+      "target_schur_min": 1.0,
+      "min_area_density_sample": 0.44999999999999996,
+      "max_principal_curvature_sample": 4.795467908018741,
+      "coordinate_min": [
+        -1.0259572685628038,
+        -1.034203486000448,
+        -0.00014815130359986987
+      ],
+      "coordinate_max": [
+        1.0459572685874468,
+        1.034203486000448,
+        1.0504579083976529
+      ],
+      "closed_surface": false,
+      "continuous_error_bound": false,
+      "embedding_proved": false,
+      "reach_proved": false
+    }
+  ],
+  "linear_spectrum": {
+    "smallest_12": [
+      7.487165966782963,
+      6.3311389058576335,
+      6.33113881081085,
+      6.198799904629337,
+      6.198799904287427,
+      5.077139035250083,
+      5.077139035065385,
+      4.715047470680914,
+      4.71504729249753,
+      4.353355509676355,
+      4.353152326076716,
+      3.1338066845073542
+    ],
+    "largest": 34.126872094653805,
+    "scope": "finite Jacobian at prescribed-offset clamped reference; not a continuous inverse"
+  },
+  "coefficient_shape": [
+    4,
+    9,
+    3
+  ],
+  "coefficients": [
+    -0.0009741383013144306,
+    -1.8612180204274887e-18,
+    0.00013613521849021971,
+    -0.00031728904321156644,
+    -7.134660307614334e-18,
+    -0.01851735496716001,
+    1.0454717202262935e-18,
+    -8.832866156345247e-05,
+    -1.1470057842694767e-19,
+    -0.0022265498698284068,
+    -6.2212878099935925e-18,
+    7.76843551282594e-05,
+    -1.0513008692960872e-17,
+    -0.002228135946468073,
+    -5.9920986747192805e-18,
+    -5.286549724028913e-05,
+    2.5582578096401107e-18,
+    1.1814971891441304e-06,
+    -3.4392956528424303e-18,
+    -5.287310470568769e-05,
+    2.2046394289596294e-18,
+    5.534013766360767e-07,
+    5.4868527481694105e-18,
+    -1.050674435896129e-08,
+    -1.5010988093604264e-18,
+    5.534390767998394e-07,
+    -1.9790472011934836e-18,
+    0.008507753120094863,
+    2.344408785143706e-18,
+    -0.00014225441730452985,
+    -0.00022765765027693338,
+    -2.5259096162758142e-18,
+    -0.012386693608855035,
+    4.03403030710928e-18,
+    -2.692640241647618e-05,
+    -3.0351387980372704e-18,
+    0.007269237484985033,
+    1.2988712821232365e-17,
+    -0.0001338673056321515,
+    1.1317024894697314e-17,
+    0.007270860562634013,
+    -6.208933974920605e-18,
+    -2.205475479612089e-05,
+    4.717557448513214e-18,
+    6.517612240821513e-07,
+    -9.46120795419651e-19,
+    -2.2065023764763127e-05,
+    -5.374960472447244e-18,
+    -9.067516569141145e-07,
+    -9.677889395098565e-18,
+    1.2132499031567935e-08,
+    1.5388238631230734e-17,
+    -9.067580001870567e-07,
+    -6.013487520967697e-18,
+    -0.008507753091104528,
+    1.1861439635947944e-18,
+    0.0001422544244319072,
+    -0.00022765762630558704,
+    1.1671243623106616e-18,
+    -0.01238669358794964,
+    5.0792129598199334e-18,
+    -2.692638868953343e-05,
+    4.605451458815713e-18,
+    -0.0072692374605844035,
+    -4.528087047175492e-18,
+    0.00013386730658342675,
+    -3.49912665357406e-18,
+    -0.007270860552288838,
+    4.398937060229131e-18,
+    -2.2054750379031527e-05,
+    6.798101964754784e-18,
+    6.51765569127362e-07,
+    1.171137497891018e-17,
+    -2.2065019815820056e-05,
+    3.0705890133687488e-18,
+    9.067554223426277e-07,
+    1.5163363613260768e-18,
+    -1.2132499262714269e-08,
+    -1.6398674635325526e-17,
+    9.067618392086963e-07,
+    6.5540481022033556e-18,
+    0.0009741382940063018,
+    -4.708508491948057e-18,
+    -0.00013613520958310492,
+    -0.00031728904813771664,
+    -7.079568559294876e-18,
+    -0.018517354968191835,
+    -8.180791513091975e-19,
+    -8.832866357179452e-05,
+    6.949673136919659e-18,
+    0.0022265498513323978,
+    -1.4791286257469266e-18,
+    -7.768435374546606e-05,
+    -4.778056726807945e-18,
+    0.002228135934423246,
+    -5.836345924450892e-18,
+    -5.286549840582172e-05,
+    4.636967911000623e-18,
+    1.181496562446321e-06,
+    -1.2034476169187545e-17,
+    -5.2873105350881956e-05,
+    1.8035358107442437e-18,
+    -5.534038533393187e-07,
+    2.0581390702239873e-18,
+    1.0506627204800997e-08,
+    5.3613931212637155e-18,
+    -5.534415784140982e-07,
+    -1.0394188032547098e-18
+  ],
+  "elapsed_seconds": 0.108645748001436,
+  "source_sha256": "bc5eaf19eab68a5ad6db6f9a5fe94bcfefb825bdcf6bd2c0e50e93c73fd0764e",
+  "claim": {
+    "closed_family": false,
+    "exact_isometry": false,
+    "reach_certified": false,
+    "task_complete": false,
+    "fixed_metric_refinement_demonstrated": false
+  }
+}

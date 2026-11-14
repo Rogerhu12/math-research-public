@@ -1,6 +1,6 @@
 # 新机制文献核查（2026-11-14）
 
-状态：**文献核查与候选分析；没有完成本课题**。本记录由 literature 子任务撰写，未改动根规则、课题规则或其他任务状态。下列“未找到”是检索结论，不是不存在性定理。仓库内 R520 等主张仍须按其证明和代码单独核对，不能由公开文献的历史状态判定真伪。
+状态：**文献核查与候选分析；没有完成本课题**。本记录由 literature 子任务撰写，未改动根规则、课题规则或其他任务状态。下列“未找到”是检索结论，不是不存在性定理。
 
 ## 1. 公开文献的准确边界
 
@@ -66,3 +66,101 @@ S. Kok, A. Amoozandeh Nobaveh, G. Radaelli, *Neutrally stable double-curved shel
 Zeyuan He 与 Simon D. Guest, *A new method for generalizing non-self-intersecting flexible polyhedra*, arXiv:2505.05629v1（2025-05-08）。原文 §2 的 base + crinkle / collar crinkle 给大幅度、可多自由度的无自交闭多面体；§3 第五点把光滑极限明确作为未来方向，仍没有给光滑闭曲面。<https://arxiv.org/html/2505.05629v1>。它是比反复优化轴对称扭转更不同的**离散机制来源**，但 $C^2$ 化本身正是待解部分。
 
 本题可取其 collar-crinkle 运动作为目标形变或 continuation 初值；必须同时求一个固定光滑度量，不能只把每个时刻的棱独立圆滑后宣称等距。独立圆滑通常改变各时刻度量；网格加密只会更准确地测出这个固定缺陷。若用细化多面体序列，则需检验二阶导数/曲率的一致控制与同一光滑度量极限，而不只是 Hausdorff 形状趋近。
+
+## 7. 2026-11-12 新论文：应优先使用的新局部种子
+
+Mohammad Ghomi, Hongda Qiu, Matteo Raffaelli, Yuetong Zhang, *Nonrigidity of smooth tight surfaces*, arXiv:2611.17269v1（2026-11-12）。已直接核公开全文 <https://arxiv.org/html/2611.17269v1>：Theorem 1.1 给正亏格闭曲面不可数多等距光滑嵌入；引言紧接着明确尚不知道它们是否有连续非全等族。式 (1) 使用 $X\pm\varepsilon Y$ 的相同二次度量，并以不交支撑符号选择构造不可数族。这不等于连续弯曲。
+
+其 §2 可直接提供新计算输入：由简单球面闭曲线 $B$、正速度 $v$ 构造 $\alpha'=-vB\times B'$，再取直纹带 $X(s,u)=\alpha(s)+uB'(s)$。§2.1 的两个周期积分分别控制中心线与渐近曲线闭合；Proposition 2.1 的紧支撑无穷小弯曲有显式 profile。此后需要求固定度量的**非线性**延拓，不能把一阶公式当有限弯曲。作者还公开了生成示意图的 Mathematica notebook：<https://ghomi.math.gatech.edu/MathematicaNBs/TightSurfaces.nb>。
+
+前一篇 Harrison Banks, Mohammad Ghomi, Hongda Qiu, Matteo Raffaelli, *A counterexample to Nirenberg's conjecture on closed asymptotic curves*, arXiv:2610.13848（2026），已核作者主页全文 <https://ghomi.math.gatech.edu/Papers/nirenberg.pdf>；结果为具有两个闭渐近曲线的光滑负曲率嵌入环带，非闭曲面弯曲族。两个来源全部为公开原文，不依赖其他仓库中的研究摘要。
+
+本会话据公开带方程另推导了无需小速度局部修正的闭合种子，代码在 `scripts/literature_band_seed.py`；它们尚无全闭有限等距族，不计课题完成。
+
+### 7.1 曲率函数速度：将两个周期条件降为一个标量积分
+
+**已证明（条件式的局部种子引理，本会话独立推导）。** 沿用公开原文 §2 的约定：$B(s)$ 是上半球简单闭曲线，$s$ 是球面弧长，$N=B'$, $T=-B\times N$, $N'=-B-\kappa T$。对任意正光滑函数 $V:\mathbb R\to(0,\infty)$，令 $v(s)=V(\kappa(s))$，则
+$$
+\Pi(v)=\oint\frac{\kappa'}{\sqrt{V(\kappa)}}\,ds=0,
+$$
+因为被积函数是 $H(\kappa(s))$ 的导数，其中 $H'(x)=V(x)^{-1/2}$。这个恒等式不要求小速度或局部补丁。
+
+给定整数 $q\ge2$、$0<a<1$，取
+$$
+r(\theta)=1+a\sin(q\theta),\qquad
+\psi(\theta)=\theta+\frac{2}{q}\sin(q\theta),\qquad
+B=\frac{(r\cos\psi,r\sin\psi,1)}{\sqrt{1+r^2}}.
+$$
+这条 $B$ 光滑正则且简单：相同的平面点先给相同 $r$，继而给相同 $\sin(q\theta)$；角度公式于是强迫两参数模 $2\pi$ 相等。正则性则由 $r'=0$ 时 $\psi'=1$ 得到。$q$ 重旋转对称使任何 $v=V(\kappa)$ 的 $\Lambda(v)$ 水平分量自动为零。
+
+令 $p\ge0$, $\sigma>0$，并定义
+$$
+V_0(k)=(1+k^2)^{p/2},\quad f(k)=\exp\!\left(-\frac{(k-k_0)^2}{2\sigma^2}\right),\quad
+I_j=\oint V_0(\kappa) f(\kappa)^j T_3\,ds\quad(j=0,1).
+$$
+若 $I_0<0<I_1$，则 $A=-I_0/I_1>0$ 与
+$$v=V_0(\kappa)(1+A f(\kappa))$$
+同时给 $\Lambda=0$, $\Pi=0$，且 $v\ge1$。这是精确定义；数值实现用高精度周期求积近似 $A$，随后固定 $A$，加密时不重新调参数。
+
+**启发式/数值候选。** 当前输入是 $q=3$, $a=1/3$, $p=1$, $k_0=-3$, $\sigma=1.5$。应由本公开仓库 Actions 运行：
+
+```bash
+python topics/visible-flex-new-mechanism/scripts/literature_band_seed.py \
+  --output topics/visible-flex-new-mechanism/data/literature-band-q3.json
+```
+
+脚本先在 $32768$ 点定义数值 $A$，再保持该数值在 $512,1024,2048,4096,8192$ 点依次输出三分量中心线闭合误差、渐近周期误差和局部几何诊断。用于积分原函数的 Fourier 零模移除量亦完整报告，不把移除后的周期曲线冒充无误差的原方程解。这个种子已避免极小速度，但**未证明 $\alpha$ 嵌入，也未证明任何有限弯曲**。
+
+### 7.2 一个完全显式的反射对称种子
+
+**已证明（周期闭合引理，本会话独立推导）。** 还可取
+$$
+r=1+a\cos(q\theta),\quad
+\psi=\theta+\frac bq\sin(2q\theta),\quad
+0<a<1,\quad0<b<\pi/2,
+$$
+以及 $c>0$, $\eta=2bc-1-c^2/2>0$，令
+$$
+\lambda(x)=\frac{(1-c\cos 2x)^2+\eta}{2bc},\qquad
+v=\frac{1+r^2}{r^2}\lambda(q\theta).
+$$
+$q$ 重旋转关闭 $\Lambda$ 的水平分量；由于
+$T_3ds=-r^2\psi'\,d\theta/(1+r^2)$，而
+$\langle\lambda\rangle=1$, $\langle\lambda\cos2x\rangle=-1/(2b)$，垂直分量也为零。反射 $\theta\mapsto-\theta$ 使 $\kappa,v$ 都为偶函数，故 $\Pi=0$。$\lambda>0$。平面曲线的简单性可用 $h(x)=x+b\sin2x$ 在 $(0,\pi)$ 中保持于 $(0,\pi)$ 证明；$r'=0$ 时 $\psi'=1+2b>0$，故正则。
+
+可复核参数为 $q=3$, $a=0.4$, $b=0.85$, $c=1.7$；脚本相应选项是 `--kind symmetric --q 3 --a 0.4 --b 0.85 --c 1.7`。反射和旋转对称适于先验证周期公式；若需要偏心领，须再求破对称且仍满足周期条件的输入。此引理不保证中心线及带嵌入，不保证原文 §3 的环带扩张假设。
+
+### 7.3 适合非线性延拓的固定度量输入
+
+由闭合的 $B,v$，取 $\alpha'=vT$ 与 $X(s,u)=\alpha(s)+uN(s)$，设
+$$w=v-\kappa u,\quad E=w^2+u^2,\quad
+\omega'=\frac{\kappa'}{2\sqrt v},\quad
+\xi=\frac{\sqrt v}{u}-\omega.
+$$
+$\Pi=0$ 保证 $\omega$ 周期。公开原文 Proposition 2.1 给紧支撑光滑 profile $\phi(\xi)$ 所对应的无穷小弯曲
+$$
+Y=P T+Q B,\qquad
+P=-\frac{u}{2\sqrt v}\phi'(\xi),\qquad
+Q=u\phi(\xi)-\frac{w}{2\sqrt v}\phi'(\xi).
+$$
+将支撑放在正的有限 $\xi$ 区间，且使两条支撑边界 $u=\sqrt v/(\xi+\omega)$ 严格位于带内部，便可在带边附近令 $Y=0$。对固定的小 $\varepsilon>0$，
+$$F_\pm=X\pm\varepsilon Y,\qquad
+ g_\varepsilon=dX\cdot dX+\varepsilon^2dY\cdot dY$$
+给具有相同边界 collar 和相同度量的一对候选。$g_\varepsilon$ 是之后 continuation 应保持的固定度量；$X+tY$ 在变化 $t$ 下并不保持这个度量。
+
+直接使用 $g_X$ 且把带的两条边逐点固定会被直线 ruling 的长度等号卡住：每条 ruling 的内蕴长度等于两端 Euclidean 距离，所以任何等距像仍须是同一条直线段。这个事实说明应在 $F_+$ 处计算固定 $g_\varepsilon$ 的线性化核，而非在原直纹带处误判一个可积有限方向。仍须检查该核是否只有离散 $\pm$ 支，且要找到真正的非线性连续分支。
+
+为让全带局部曲率诊断可复核，形算子在正交标架 $(X_s/\sqrt E,X_u)$ 中为
+$$
+\begin{pmatrix}
+ u(v'-\kappa'u)/E^{3/2}&-v/E\\
+ -v/E&0
+\end{pmatrix}.
+$$
+脚本用它采样两个主曲率，而没有把 $1/\max|k_i|$ 冒称 reach。全局瓶颈、自交、加帽后整个曲面的直径，均是另外待解的要求。
+
+## 8. 另两个可用公式来源的核查
+
+Jeanne N. Clelland, Thomas A. Ivey, Naghmana Tehseen, Peter J. Vassiliou, *Isometric Embedding and Darboux Integrability*, Geometriae Dedicata **203** (2019), 353–388，公开全文 <https://arxiv.org/html/1801.00241v1>。已核 §3.4 Theorem 7、式 (25)：负曲率的 Euclidean 局部可积度量是 $g=\cos^4u\,du^2+\sin^2u\,dv^2$，$0<u<\pi/2$，其 $K=-\sec^4u$；$u\to\pi/2$ 曲率发散。Theorem 8 给局部旋转/螺旋对称嵌入；§5 展示的完整有限任意函数公式采用 Minkowski 环境，不能不检查签名就移到 Euclidean $\mathbb R^3$。它可以给局部 Cauchy 求解器，不是现成闭环带/闭曲面族。
+
+Etienne Couturier, *Folded isometric deformations and banana-shaped seedpod*, Proc. R. Soc. A **472** (2016), 20150760，DOI <https://doi.org/10.1098/rspa.2015.0760>，公开全文 <https://pmc.ncbi.nlm.nih.gov/articles/PMC5014095/>。式 (2.1)–(2.3) 为 Goursat 族；§2(b) 明确允许 $W^{1,2}$ 折痕，式 (2.11)、(2.15) 给折角。静止态相切的镜面不保证整个运动保持 $C^2$；其高度平方根同 §3.3 的 profile 方程，所以不能直接双周期化得到光滑闭族。

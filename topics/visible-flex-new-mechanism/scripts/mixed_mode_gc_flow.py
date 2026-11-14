@@ -56,14 +56,15 @@ def diff_theta(values: np.ndarray) -> np.ndarray:
     return np.fft.ifft(1j * k * np.fft.fft(values, axis=-1), axis=-1).real
 
 
-def background(s: float, curvature: float) -> tuple[float, float, float]:
-    return 1 + curvature * s * s / 2, curvature * s, curvature
+def background(s: float, curvature: float, jerk: float = 0.) -> tuple[float, float, float]:
+    return (1 + curvature * s * s / 2 + jerk * s**3 / 6,
+            curvature * s + jerk * s * s / 2, curvature + jerk * s)
 
 
-def rhs(s: float, flat: np.ndarray, angles: int, curvature: float) -> np.ndarray:
+def rhs(s: float, flat: np.ndarray, angles: int, curvature: float, jerk: float = 0.) -> np.ndarray:
     q = flat.reshape(14, angles)
     m, nn = q[:2]
-    a, ap, app = background(s, curvature)
+    a, ap, app = background(s, curvature, jerk)
     if np.min(nn) <= 1e-10:
         raise FloatingPointError("GC normal form reached N=0; this branch cannot continue by division")
     ell = (m * m - a * app) / nn
@@ -78,9 +79,9 @@ def rhs(s: float, flat: np.ndarray, angles: int, curvature: float) -> np.ndarray
     return out.ravel()
 
 
-def diagnostics(s: float, q: np.ndarray, curvature: float) -> dict:
+def diagnostics(s: float, q: np.ndarray, curvature: float, jerk: float = 0.) -> dict:
     m, nn = q[:2]
-    a, ap, app = background(s, curvature)
+    a, ap, app = background(s, curvature, jerk)
     ell = (m * m - a * app) / nn
     x, e1, e2, normal = q[2:5], q[5:8], q[8:11], q[11:14]
     xt = diff_theta(x)
@@ -118,11 +119,11 @@ def run(args: argparse.Namespace) -> dict:
     ts = np.linspace(0, args.end, args.samples)
     started = time.perf_counter()
     solution = solve_ivp(
-        lambda s, y: rhs(s, y, args.angles, args.curvature),
+        lambda s, y: rhs(s, y, args.angles, args.curvature, args.jerk),
         (0, args.end), initial.ravel(), method="DOP853", t_eval=ts,
         rtol=args.rtol, atol=args.atol, max_step=args.max_step,
     )
-    records = [diagnostics(float(s), flat.reshape(14, args.angles), args.curvature)
+    records = [diagnostics(float(s), flat.reshape(14, args.angles), args.curvature, args.jerk)
                for s, flat in zip(solution.t, solution.y.T)]
     if not records:
         raise RuntimeError(solution.message)
@@ -136,9 +137,9 @@ def run(args: argparse.Namespace) -> dict:
         "closed_surface": False, "double_circular_collars": False,
         "whole_family_reach_certified": False, "task_complete": False,
         "definition": {"rho": "1+A*cos(2*phi)+B*cos(3*phi)",
-                       "metric": "ds^2+(1+k*s^2/2)^2*dtheta^2",
+                       "metric": "ds^2+(1+k*s^2/2+j*s^3/6)^2*dtheta^2",
                        "target_frozen_with_respect_to_angles": True,
-                       "A": args.amp2, "B": args.amp3, "k": args.curvature,
+                       "A": args.amp2, "B": args.amp3, "k": args.curvature, "j": args.jerk,
                        "s_interval": [0, args.end]},
         "discretization": {"angles": args.angles, "samples": args.samples,
                            "rtol": args.rtol, "atol": args.atol,
@@ -146,6 +147,7 @@ def run(args: argparse.Namespace) -> dict:
         "solver": {"success": bool(solution.success), "message": solution.message,
                    "nfev": solution.nfev, "elapsed_seconds": time.perf_counter() - started},
         "initial_center_second_derivative_exact": expected.tolist(),
+        "initial_center_third_derivative_horizontal_exact": [0., -args.jerk * args.amp2 * args.amp3 / 2],
         "initial_center_second_derivative_sample": numerical_c2.tolist(),
         "sample_initial_c2_error": float(np.max(np.abs(expected - numerical_c2))),
         "sample_max_metric": max(r["sample_relative_metric_op"] for r in records),
@@ -174,6 +176,7 @@ def main() -> None:
     parser.add_argument("--amp2", type=float, default=.25)
     parser.add_argument("--amp3", type=float, default=.2)
     parser.add_argument("--curvature", type=float, default=.6)
+    parser.add_argument("--jerk", type=float, default=0.)
     parser.add_argument("--end", type=float, default=.35)
     parser.add_argument("--samples", type=int, default=15)
     parser.add_argument("--rtol", type=float, default=2e-11)
@@ -182,8 +185,8 @@ def main() -> None:
     parser.add_argument("--out", required=True)
     parser.add_argument("--state-out")
     args = parser.parse_args()
-    if args.angles < 16 or args.end <= 0 or args.curvature <= 0:
-        parser.error("Require angles>=16, end>0, curvature>0 for this local hyperbolic experiment")
+    if args.angles < 16 or args.end == 0 or min(args.curvature, args.curvature+args.jerk*args.end) <= 0:
+        parser.error("Require angles>=16, end!=0, a''>0 throughout for this local hyperbolic experiment")
     payload = run(args)
     target = Path(args.out)
     target.parent.mkdir(parents=True, exist_ok=True)
