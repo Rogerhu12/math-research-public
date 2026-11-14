@@ -199,3 +199,5 @@
 - [R95：D25完整压缩action及最高参数端势](results/R95-compressed-D25-action-and-top-parameter-endpoint-potentials.md) — m8公开consumer43639240317七组短系数、真实I0/ODE及fresh原DAG全0；新增零端势将2172项9组压为1605项5组，const/linear完整保留。c10、c9是明确真实系数primitive的端势，M0已付，故period关于c次数≤8；未授c8及以下符号/零period，不外推一般m。
 
 - [R98：全部正长度状态P1的权零准确分离](results/R98-weight-zero-separation-of-all-positive-state-P1.md) — actual43638896281中权2成员、权1准确零，权0全16列两原式依赖降14，再由原有理Volterra评价14/15非零子式证真维数14与非成员。Q-Cramer泛函经真实权零投影归一给Λ(b_Hd)=1，任意正组合值4Σℓ>0；R96把障碍搬到同一合法C∞圆及相对开稠密类。结束同类universal多状态扩张，保特殊圆与固定N的P0+NP1。
+
+- [R99：真实第四切向越过P1字符核](results/R99-fourth-tangents-transverse-to-the-P1-character.md) — 完整相位Jacobi支付t1外槽的两列准确零；公开actual43640085842另给τ_p1t1与h-shape(k)两列的有理扩展值非零（归一mod2054146430/721224600）。只消费四个新原式×旧15行，故两真实第四方向各自不属R_*，不称二者商独立。保明确泛函扩展、基准与偶项；不授负成本或完整P0相消。
