@@ -192,3 +192,6 @@ tail_connector：把实际非径向内部正型接全部外部响应、Γ*参数
 
 
 [实际完整记录](notes/2026-11-14-R133-retired-cap96-shared-memory-relocation.json)：实际迁移本课题已无可见消费者的旧cap96 181件共449470869字节至scratch磁盘，原路径保symlink，全部SHA及字节数先后核同，释放同等共享内存。活动cap128提案不动；signed实际−9和最新cap片暂停前缀保留，沿原源继续，未动其它任务或唯一native。
+
+
+[实际完整记录](results/R133-supplement-actual-complete-169-germ-phase-scalar-cover.md)：实际四个公开CI子进程全部exit0，原germ0复用，完整169真实germ/626接受Taylor格/457原拒全保。11门normal0/1.12s逐原SHA和准确cover重消费，五scalar全误差积分<3.733261e−14<2^-42，最大depth24；全primitive/指数尾、真q正分支、固定η0范围保留。没有重算target，也未把scalar缓存当完整flow或inverse。
