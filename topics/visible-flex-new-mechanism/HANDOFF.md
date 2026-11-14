@@ -6,7 +6,7 @@
 
 闭连通C²嵌入族Ft，t在C²拓扑连续，同一固定g；固定材料H有内点且diamF0(H)≥.2D；不对齐整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，同g/物理状态/时间精化至机器或原容差。D为完整F0直径。δE可0但如实报；全网格<5MB，明确数值与准确存在差距。达标后继续.5D或更强存在。现无完整候选。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`275c1ce5049e3518a60c2c344013ee5b42db4db8`。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`445649cb290a309e44838395ed388453c6dbb153`。
 - 每次实际pull --rebase核双README；有变只读diff立刻执行，至少每小时pull。每结论立即提交推送；NFF立即rebase/核规则再推至成功，绝不强推。
 - 公开main/本仓Actions已授权。实际几何/ODE/积分/优化/完整研究编译只在本公开Actions；本地仅源码、纸面代数、人工开发核、已公开输出分析。PAT仅瞬时CLI/env，不写文件/提交/日志。
 - 私有16:54:17 UTC实际pull至`f8b14a696d8d591013e5996b24c4f5e81a26aa95`，双README无差，QUEUE唯一课题行仍本会话进行中；下一pull不晚于17:54 UTC。私有研究不公开。
@@ -56,4 +56,4 @@ R57准确operatorη，R59逐圈中心quartic，R61联合a′/b投影只给必要
 
 R64在明确可微Taylor/一侧解析类迫入口v7=−side C²(k^−2)θ/(14a0)、b6=−side C²〈k^−2〉/2；旧首片vbase0+径向五次无准确零，不排1e−6或精化。[成套入口设计](notes/elliptic-entry-paired-base-repair-design-20261114.md)用固定Taylor替换与W2/W5/W4锁u5/v8/b7，167维新空间；leading不付全部Cauchy系列。闭式椭圆U4/V7/b6及材料q7测度已公开；R2只给窄解析germ，不保证到实测峰。B=.36/.37独立core输运有纸面设计，暂不与入口修复混改。
 
-立即顺序：发布167实际审计→固定查询无关高度helper/loader/公开诊断→固定selected g入口成套audit-only→按真实数据决定完整优化与height/reach约束；文献小诊断并行。16:58按bccf读两相关公开H仍无可借完整达标族。不从私有研究补公开结果，不以任何局部门或阶段报告收尾。
+[167实际审计](notes/independent-height-bounded-actual-audit-20261114.md)已发布。立即：查询无关高度公开诊断→selected固定g入口audit-only→据数据定优化/height约束；文献小诊断并行。16:58按bccf读两相关公开H仍无可借完整达标族。不从私有研究补公开结果，不以任何局部门或阶段报告收尾。
