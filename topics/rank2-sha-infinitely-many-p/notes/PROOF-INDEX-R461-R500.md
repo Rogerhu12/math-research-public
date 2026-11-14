@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R472：同预算法向导数真像与高次数立方范围](../results/R472-same-budget-normal-derivative-image-and-high-degree-cubic-range.md)：原连续charge列在F4上完整限制给明确jet满射界，保全局奇点和原角含量。真实cube的斜次数使D=3b、最小接触全段的单独单位5条件总可由同一原格实现；同一修正的值/导数联立及全β仍待付。
+
 - [R471：原六sigma因式与完整八输入carry](../results/R471-original-six-sigma-normtwo-factor-and-complete-input-carry.md)：原101/64整组合准确化为σ⁴σ2σ8Θ4²，保全部八独立输入、真实全深与输出进位。原连接和非零单位质量log全付；Theta反卷积必须运输相加单位测试，不替未投影来源或外谱赋中央零。
 
 - [R468：第三真实中央行、三高轴Hensel与六条carry](../results/R468-third-original-central-row-three-axis-hensel-and-six-carry-interface.md)：新U136的准确角多项式、全部三权聚合及单位三轴Jacobian保真正固定参数；原完整M首位不变、首次提升仅六真实末行。ell1给实际2×2 Schur而原全首像仍可吸收Miller，三来源代数维仍二，不预支全次数预算。
