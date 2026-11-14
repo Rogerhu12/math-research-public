@@ -91,3 +91,7 @@ root完整读source/CI/合同/flow并核230vs218全部原SHA零变；tail核G5�
 ### 2026-11-14 17:03:37 UTC — 同一选定族真实首相位身份闭合
 
 独立逐字审B1–13：νδ bump在root/positive准确为0；全负区参数积分原06070fd已支付。新真实七列图补原P1–37唯一未成正区接口，保正确两次极限顺序、旧primitive/mean和swap非mean重构。b_rootfin(δ)=0，β*=−Xiδ*/4，故原四根全区间算术现可消费；原candidate历史process不改。另需数值strong/真实充分cutoff，未赋完整逆。结论单独推。
+
+### 2026-11-14 17:05:05 UTC — 亲核真实Hessian→同Z Green重权并独立推
+
+root核实际job success、9009B process37e6e68f…与23864B summarybfe332c6…，全部7门及0旧传播，原三artifactprocess身份独立保。末次真pull16:56:52至afadab246bd2ff5f20f938ab43ef1890f86b5c23，四次两README diff空。原中途actual_rescaled字段6144是每1024保存的前缀；终门/native完整profiles/worker complete_segments均为6391，未误当6144完成数。负窗.146218141878仍为上界且未过1/200，继续ordinary-only及物理dB。

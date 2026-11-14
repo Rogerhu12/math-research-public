@@ -19,8 +19,8 @@ candidate `ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413`，�
 
 [同w0 Hessian实际10门](results/R133-supplement-actual-particular-w0-cap-Hessian.md)给1341local/1977交格完整方向加性<1.033484771e−5，旧HS×norm<1.372740655e−5。未知$e_Z-w_0$继续由原完整moving误差算子支付。下一项：
 
-1. 已发230input公开Hessian→cachedGreen消费者，原218pin零变；只替换同w0桥后，用新负荷上端/旧正数值负荷下端缩放原右通道，另外3通道保。待实际结果，不重算body传播、Riccati或已成帽格。
-2. 对已知$t=Tw_0$使用原真实ordinary分解与准确$t_\theta$，争取收紧目前主导的divergence模块费；所有mean/ZCC及未知完整feedback保。
+1. [同向Hessian→cachedGreen实际7门](results/R133-supplement-actual-particular-Hessian-same-Z-Green-reweight.md)43618269135成功：新gR<4.313470180e−5，原右通道乘严格数值比率<.789998348514；负窗right<.143166428585、总<.146218141878。另外3通道保持，0新body传播/Riccati/已成帽格。1/200仍false。
+2. 156input ordinary-only公开CI已发，原152文件零变；对已知$t=Tw_0$用原完整L8直接普通两源与准确$t_\theta$，只新算角导范数，复用原1341格$t_B,t_C$范数。只比较完整总add，所有mean/ZCC及未知完整feedback保；待实际。
 3. 看实际物理帽残差各通道与真实有向边界，按支配项继续改进，不能因某一预算下降就授响应门。
 4. 合未知high、完整有限head及low/high反馈，才得到真正$q_\nu$。
 

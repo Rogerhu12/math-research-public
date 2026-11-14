@@ -358,3 +358,7 @@
 
 [独立证明B1–13](results/R133-supplement-selected-family-root-finite-part-and-actual-first-phase.md)用实际43617150971全实δ七列根图替换旧中心接口，保同一Qδ/νδ/η0、旧I/J、mean及两行重构，证明根标量有限部在全实1e−8区间为0。因此实际首标量β*=−Xiδ*/4，原43598755503/db861…全四根gap1/(512|j|)正式对应此显式选定族。strong常数、充分cutoff与完整Schur仍未付，非真PDE支或N97 fullreturn逆。
 
+### R133 / 特定Hessian与同Z有限Green的实际重权（2026-11-14）
+
+[实际报告](results/R133-supplement-actual-particular-Hessian-same-Z-Green-reweight.md)：43618269135真7门/3.855568s，nativecd3dd5af…；完整gR<4.313470180e−5，右通道仅乘安全数值比率<.789998348514。原6391连续片/所有接口、body/waist/jump全保，负窗总<.146218141878、right<.143166428585，1/200 false。没有重复任何Riccati/projector/主体源传播或旧帽/Hessian格。
+
