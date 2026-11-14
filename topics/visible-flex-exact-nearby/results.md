@@ -551,3 +551,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### 未覆盖(129,2)外桥与实际根口双端图（2026-11-14 20:04:08 UTC）
 
 [解析证明X1–33](results/R119-supplement-actual-uncovered-negative-bridge-and-complete-exterior-root-two-port.md) 已独立推送。原内部枚举明确排除该分量，本次直接消费真实quintic、TVlogQ、密度比，保两个mean和total-flux约束。strict能量<2^1024，含唯一simple根/完整图/真实物理波的正逆<2^8192；接已成三阶/非负外图得真实eX/B onto酉及强源<2^24576。root全文与原引用核、phase独核通过；只补局部ℓ定义。完整returned逆仍单独欠付。
+
+### 实际解析Airy old-circle完整消费（2026-11-14 20:05:49 UTC）
+
+[报告与六窗口证据](results/R133-supplement-actual-analytic-Airy-old-circle-source-budgets.md) 已独推。43634456797真实child0/10门/20.66458s；nativee54f05c3…3445399B，process e0fa6ba5…51260B，workercc974d20…2996B，source439a29e2…/manifestee066de1…。6新幅度及4377积分，原1328moment+1328matrix零重算。最小窗变粗、较大窗改善如实保留；root已核六组原始有向界、10门、五份旧native身份和两次真pull空diff。没有宣布CE/Cs、cutoff97或真PDE。

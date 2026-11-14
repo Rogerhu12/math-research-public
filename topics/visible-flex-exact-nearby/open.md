@@ -251,3 +251,7 @@ A1–18保完整输入/输出/mean及真ray，可用同strip复sup替代旧C2符
 ### 实际未覆盖外负段已经接到原B端（2026-11-14 20:04:08 UTC）
 
 [X1–33完整证明](results/R119-supplement-actual-uncovered-negative-bridge-and-complete-exterior-root-two-port.md) 将真实(129,2)根 eX 经 cut128/三阶C接到原B。对称主部能量给全频H⁻¹ᐟ²三态双向流<2^1024，真实根/graph/normal shear/两个mean全付，total传递及逆<2^8192。真正onto J-unitary的Möbius合成才给eX⊕B全L²酉scattering；强ordinary/weak/原子合同<2^24576。root核全文及原M/K/F/Q7/V量词，phase独核。剩余必须用真实B端matching和完整内部逆联立X33；mean自然条件及尚未拼平的μ,d界面差继续付，不由酉性假定returned可逆。
+
+### 解析Airy六窗口的实际完整源界（2026-11-14 20:05:49 UTC）
+
+[实际报告](results/R133-supplement-actual-analytic-Airy-old-circle-source-budgets.md)：公开43634456797 child0/10门，6新幅度/4377积分，原1328moment和1328directed行逐字复用。R=.001负源<3.385779e10，比旧directed界更粗；R=.02负源<7.109141e11则改善。均为完整upper，不证明实际norm大；独立mean、全指数尾、正collar/body和1079旧seams全保。下一步按真实径向Abar分区和完整中央级数改profiles，六完整tensor不重算。local L0w1/positive全mean/full return/97 cutoff继续。

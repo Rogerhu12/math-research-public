@@ -331,3 +331,5 @@ root读新科学/main及CI，核worker与原成功版差异、flow和25/20 pins�
 - 2026-11-14 20:02:37 UTC：独立推43634452052实际Taylor→Green报告，8门/child0、6391完整profile、5真pull空README diff全核。负窗上界.010057999485369仍不足；原14费/6边界/mean/knownhigh不删。原成功数学不重算，继续native-point流水线。
 
 - 2026-11-14 20:04:08 UTC：独立推X1–33真实(129,2)外桥；root亲核M/K/F/Q7/V原几何、单根量词及两个mean，phase独核。完整transfer正逆2^8192、强源2^24576、真eX/B酉不冒充returned逆；下一项实际B matching/mean自然条件/未拼平界面系数差。9979B旧H逐字归档并压缩当前checkpoint。非FF后的20:02:36实际pull仍No usable execution environment，两README未变。
+
+- 2026-11-14 20:05:49 UTC：独立推analytic run43634456797实际报告。root完整核51260B process/2996B worker、source/native/25pin身份、10门、6窗口及2次真pull空diff。R.001<3.385779e10较旧粗、R.02<7.109141e11改善均保；旧1328×2行和1079seams禁重算。H压缩旧已归档详情，继续真实Abar/中央级数与L0w1。
