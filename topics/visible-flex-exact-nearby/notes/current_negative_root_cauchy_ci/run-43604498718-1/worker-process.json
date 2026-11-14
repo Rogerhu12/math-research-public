@@ -1,0 +1,44 @@
+{
+  "kind": "actual_public_current_negative_root_cauchy_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43604498718",
+  "run_attempt": "1",
+  "workflow_commit": "af133b7fe8eeaeea82eff51364f6d601c81c03e7",
+  "worker_sha256": "d166b5ae301e21488277d57673a1825ced5da0a5905263e25d2e76099ae93333",
+  "manifest_sha256": "9cd9a83cb15756a10c97f4ca3a6a680f759ae6bc8560d0d5de6b6faeb9c4325f",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T14:22:38.170687+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "669252ad459f499c6422523945b5da7b048b1b5b",
+      "after": "669252ad459f499c6422523945b5da7b048b1b5b",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "669252ad459f499c6422523945b5da7b048b1b5b",
+      "after": "669252ad459f499c6422523945b5da7b048b1b5b",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-current-negative-root-cauchy-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_negative_root_cauchy_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-current-negative-root-cauchy-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-current-negative-root-cauchy-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-negative-root-cauchy-CI-inputs.json",
+    "--manifest-sha",
+    "9cd9a83cb15756a10c97f4ca3a6a680f759ae6bc8560d0d5de6b6faeb9c4325f",
+    "--out-dir",
+    "/__w/_temp/visible-exact-current-negative-root-cauchy-output/consumers"
+  ],
+  "complete_original_inputs_verified": 9,
+  "actual_scientific_checkout_commit": "669252ad459f499c6422523945b5da7b048b1b5b",
+  "mathematical_wall_seconds": 0.46461266400000056
+}
