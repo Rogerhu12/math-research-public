@@ -138,3 +138,6 @@ R235完整逐角Schur区间/barrier证明直接登记；真实84节点profile准
 
 ### 2026-11-14 07:36 UTC — actual public push approval rejection
 新公开仓首次push被自动审批拒绝：对话只直接授权原私仓，迁移README未被视为直接批准公开研究材料。尝试未执行/未成功；不换工具或旧仓绕过。已说明拒绝来源；本地研究、逐条本地commit与只读pull继续，公开push/Actions暂停待直接授权。旧H完整保存，新H同步真实三线现场。
+
+### 2026-11-14T07:30:55+00:00 — closedr2 (local; public approval pending)
+原A完整mean/固定宽cut/原collar/弱帽真实组装，近重复显示取点修复后r2实际exit0/64.74s。三mesh解压各3.746MB、Euler2/每边两面/零退化；Dmesh3.97745927、Hdiammesh/Dmesh=.998015，最大9phase点云距离/Dmesh=.06301463远未达幅度。三类有限空间法向弦负例0，其中moving/fixed覆盖全连续phase；不把mesh尺寸/有限点对当连续严格界。

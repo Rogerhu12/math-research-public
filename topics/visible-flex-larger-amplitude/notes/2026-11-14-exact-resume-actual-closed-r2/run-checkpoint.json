@@ -1,0 +1,82 @@
+{
+  "commands": [
+    {
+      "label": "plan",
+      "argv": [
+        "python",
+        "-u",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_closed_display_adapter.py",
+        "plan",
+        "--source-topic",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/source/topics/visible-flexible-closed-surface",
+        "--checkpoint",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz",
+        "--port",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+        "--config",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json",
+        "--complete",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/readout/complete-4.json",
+        "--out-prefix",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/output-r2/refined-A-closed"
+      ],
+      "actual_exit_code": 0,
+      "seconds": 2.1878771580013563
+    },
+    {
+      "label": "background",
+      "argv": [
+        "node",
+        "--expose-gc",
+        "--max-old-space-size=384",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_closed_background.mjs",
+        "--repo-root",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo",
+        "--source-topic",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/source/topics/visible-flexible-closed-surface",
+        "--config",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json",
+        "--plan",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/output-r2/refined-A-closed-plan.json",
+        "--out",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/output-r2/refined-A-closed-background.json"
+      ],
+      "actual_exit_code": 0,
+      "seconds": 9.680853492000097
+    },
+    {
+      "label": "render",
+      "argv": [
+        "python",
+        "-u",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_closed_display_adapter.py",
+        "render",
+        "--source-topic",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/source/topics/visible-flexible-closed-surface",
+        "--checkpoint",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz",
+        "--port",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+        "--config",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json",
+        "--complete",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/readout/complete-4.json",
+        "--out-prefix",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/output-r2/refined-A-closed",
+        "--plan",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/output-r2/refined-A-closed-plan.json",
+        "--heights",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/output-r2/refined-A-closed-background.json"
+      ],
+      "actual_exit_code": 0,
+      "seconds": 52.85888324900043
+    }
+  ],
+  "source_sha256_at_start": {
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/run_display_r2.py": "34f1c0ee9a9da13a1c9f36319465f03639ae799c3e3164b6c2c69a4c45034844",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_closed_display_adapter.py": "d2cbff19a71eca9122475432a40bb6b4f809f696b4cb43e08b307d00f1897dd8",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_refined_closed_assembly.py": "1fec55a9d9f6c2a9211e64036226496bb4e4ae42c641c842e863e8c4f34fcccc",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_refined_tail_adapter.py": "6b06db6c7c96078b9fabe403a0b3ade14f8b30b07a78b565ed299c77f840d937",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_closed_background.mjs": "be358bf780c88ebd85cdf07d9e8d2cc3b37ca20a4d8ea3a1ba69e7c40c2c4e1b"
+  }
+}

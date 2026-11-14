@@ -1,0 +1,1867 @@
+{
+  "schema": "refined-tail-finite-closed-plan-v1",
+  "finished": true,
+  "source_sha256_at_start": "d2cbff19a71eca9122475432a40bb6b4f809f696b4cb43e08b307d00f1897dd8",
+  "adapter_sha256": "6b06db6c7c96078b9fabe403a0b3ade14f8b30b07a78b565ed299c77f840d937",
+  "inputs": {
+    "checkpoint": {
+      "file": "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz",
+      "sha256": "917d859e8a73fa663db1839e354909ae4f174bad1895f8717c20705cdd702aaf"
+    },
+    "port": {
+      "file": "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+      "sha256": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100"
+    },
+    "config": {
+      "file": "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json",
+      "sha256": "3b0deaaf0cdc65a34a8e4652e0a04d96a840db354ccada71d9cba5e4cd228e23"
+    },
+    "complete": {
+      "file": "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/readout/complete-4.json",
+      "sha256": "a6719a6eaa596ea33133f9ba78a19185665458578e17706143ed551291d9dd81"
+    }
+  },
+  "source_revision": "869436630c99aa5a68afb55bd8877c826034d117",
+  "profile_fingerprint": "8a87255bf9e025190a1a98ff800859f05f95a94113045a60af9391fcace51d24",
+  "cut": 0.30000000000000004,
+  "cuff": 0.04999999999999999,
+  "tail_inner": 0.05056158669090205,
+  "prefix_end": 3.191226831699177,
+  "cut_correction_width": 0.01,
+  "upper_rings": [
+    {
+      "kind": "prefix",
+      "coordinate": 0.0
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.028493096711599795
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.05698619342319959
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.08547929013479938
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.11397238684639918
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.14246548355799898
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.17095858026959876
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.19945167698119856
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.22794477369279836
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.25643787040439814
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.28493096711599797
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.31342406382759774
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.3419171605391975
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.37041025725079735
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.3989033539623971
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.42739645067399695
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.4558895473855967
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.4843826440971965
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.5128757408087963
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.5413688375203961
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.5698619342319959
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.5983550309435957
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.6268481276551955
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.6553412243667953
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.683834321078395
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.7123274177899949
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.7408205145015947
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.7693136112131945
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.7978067079247942
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.8262998046363941
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.8547929013479939
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.8800544084501402
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.8832859980595936
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.9117790947711935
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.9402721914827933
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.968765288194393
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 0.9972583849059928
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.0064319844989327
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.0257514816175926
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.0372667097626236
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.0542445783291925
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.0827376750407922
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.111230771752392
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.1397238684639919
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.1682169651755916
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.1967100618871913
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.2252031585987913
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.253696255310391
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.2821893520219907
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.3106824487335906
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.3391755454451904
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.3610313250313768
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.36766864215679
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.3918660502950677
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.39616173886839
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.4246548355799897
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.4531479322915897
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.4816410290031894
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.510134125714789
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.538627222426389
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.5671203191379888
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.5956134158495885
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.6241065125611884
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.6525996092727882
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.6810927059843879
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.7095858026959878
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.7380788994075875
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.7665719961191872
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.7950650928307872
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.823558189542387
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.8520512862539866
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.8805443829655866
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.9090374796771863
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.937530576388786
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.966023673100386
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 1.9945167698119857
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.0230098665235854
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.051502963235185
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.0799960599467853
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.108489156658385
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.1369822533699847
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.1654753500815844
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.193968446793184
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.222461543504784
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.2452515023231907
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.2464216119417784
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.250954640216384
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.2587077629369485
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.2598778725555357
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.2794477369279837
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.292280748050012
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.3079408336395835
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.336433930351183
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.364927027062783
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.3934201237743826
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.421913220485983
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.4504063171975825
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.4788994139091822
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.507392510620782
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.5358856073323817
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.5643787040439814
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.5928718007555815
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.6213648974671813
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.6325109407420135
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.649857994178781
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.66491381623649
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.6783510908903807
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.7004468111603477
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.7068441876019804
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.732849686654824
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.73533728431358
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.7638303810251803
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.79232347773678
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.8208165744483797
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.8493096711599795
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.877802767871579
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.9062958645831793
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.934788961294779
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.963282058006379
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 2.9917751547179785
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 3.020268251429578
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 3.048761348141178
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 3.0730798793468255
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 3.077254444852778
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 3.1054827548413018
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 3.105747541564378
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 3.1342406382759775
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 3.1410157497651596
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 3.1421934347965172
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 3.1545591276257716
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 3.1557368126571292
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 3.1627337349875773
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 3.1825913768643006
+    },
+    {
+      "kind": "prefix",
+      "coordinate": 3.191226831699177,
+      "cut": true
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.29777287130974023
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2955457426194804
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.29331861392922065
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2910914852389608
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.29000000000000004
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.288864356548701
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2866372278584412
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2844100991681814
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2821829704779216
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2799558417876618
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.277728713097402
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.27550158440714223
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.27327445571688236
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2710473270266226
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2688201983363628
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.26659306964610296
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2643659409558432
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.26213881226558333
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.25991168357532357
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.25768455488506375
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.25545742619480394
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2532302975045442
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.25100316881428436
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.24877604012402454
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.24654891143376476
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.24432178274350494
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.24209465405324515
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.23986752536298533
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.23764039667272555
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.23541326798246573
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.23318613929220594
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.23095901060194612
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2287318819116863
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.22650475322142652
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2242776245311667
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.22205049584090691
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2198233671506471
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2175962384603873
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2153691097701275
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2131419810798677
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2109148523896079
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2086877236993481
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.20646059500908828
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.2042334663188285
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.20200633762856868
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.1997792089383089
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.19755208024804907
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.19532495155778928
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.19309782286752947
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.19087069417726965
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.18864356548700986
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.18641643679675005
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.18418930810649026
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.18196217941623044
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.17973505072597065
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.17750792203571084
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.17528079334545105
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.17305366465519123
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.17082653596493141
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.16859940727467163
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.16637227858441184
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.16414514989415202
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.1619180212038922
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.15969089251363242
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.15746376382337263
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.1552366351331128
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.153009506442853
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.1507823777525932
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.14855524906233342
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.1463281203720736
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.14410099168181378
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.141873862991554
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.13964673430129418
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.1374196056110344
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.13612630919864102
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.1360384608381245
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.13595061342816464
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.13586276696875185
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.1357749214598765
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.13568707690152887
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.13559923329369938
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.1355113906363784
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.13519247692077457
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.13296534823051476
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.13073821954025497
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.12851109084999518
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.12628396215973536
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.12405683346947556
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.12182970477921576
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.11960257608895596
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.11737544739869615
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.11514831870843635
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.11292119001817655
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.11069406132791673
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.10846693263765694
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.10623980394739713
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.10490287166453921
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.10487191828534527
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.10484096502443334
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.10481001188180294
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.10477905885745362
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.10474810595138492
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.10471715316359638
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.10468620049408756
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.10401267525713734
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.10178554656687752
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.09955841787661773
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.09733128918635792
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.09510416049609811
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.09287703180583831
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.09064990311557851
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.0884227744253187
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.0861956457350589
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.08402599144799291
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.08401506471542385
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.08400413799763684
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.08399321129463189
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.08398228460640896
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.08397135793296803
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.0839685170447991
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.08396043127430909
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.08394950463043212
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.0817413883545393
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.0795142596642795
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.0772871309740197
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.07506000228375989
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.07283287359350007
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.07060574490324029
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.06866300393911685
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.06865914347464741
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.06865528301202481
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.06865142255124904
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.06864756209232012
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.06864370163523803
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.06863984118000278
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.06863598072661437
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.06837861621298047
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.06615148752272068
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.06392435883246086
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.06169723014220106
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05947010145194126
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.0579412432861519
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05793987886814789
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05793851445037466
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.057937150032832216
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.057935785615520555
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.057934421198439674
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05793305678158958
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.057931692364970276
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05724297276168146
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.055015844071421655
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.0529973668907444
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.052996884576463926
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.052996402262212305
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05299591994798952
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.052995437633795585
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.052994955319630485
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05299447300549424
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05299399069138683
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05278871538116185
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.0512229657681706
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05122279525839623
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05122262474862547
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05122245423885831
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.051222283729094764
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.051222113219334814
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05122194270957847
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05122177219982574
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05056200866372996
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05056194838189605
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05056188810006259
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05056182781822958
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.050561767536397025
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.050561707254564915
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05056164697273326
+    },
+    {
+      "kind": "tail",
+      "coordinate": 0.05056158669090205
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.0505381872454478
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.05051478779999354
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.05049138835453929
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.05046798890908504
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.050444589463630785
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.050421190018176534
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.050397790572722284
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.05037439112726803
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.05035099168181378
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.05032759223635953
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.05030419279090527
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.05028079334545102
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.05025739389999677
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.05023399445454251
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.05021059500908826
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.05018719556363401
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.050163796118179754
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.050140396672725504
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.050116997227271254
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.050093597781817
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.050070198336362746
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.050046798890908496
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.05002339944545424
+    },
+    {
+      "kind": "collar",
+      "coordinate": 0.04999999999999999,
+      "cuff": true
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.048749999999999995
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.047499999999999994
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.04624999999999999
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.04499999999999999
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.04374999999999999
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.042499999999999996
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.041249999999999995
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.039999999999999994
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.03874999999999999
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.03749999999999999
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.03625
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.034999999999999996
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.033749999999999995
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.032499999999999994
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.031249999999999993
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.029999999999999995
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.028749999999999994
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.028124999999999994
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.027499999999999997
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.027083333333333327
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.026562499999999996
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.026249999999999996
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.02604166666666666
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.024999999999999994
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.023958333333333328
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.023749999999999997
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.023437499999999993
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.02291666666666666
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.022499999999999996
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.021874999999999995
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.021249999999999998
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.019999999999999997
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.018749999999999996
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.017499999999999998
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.016249999999999997
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.014999999999999998
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.013749999999999998
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.012499999999999997
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.011249999999999998
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.009999999999999998
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.008749999999999999
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.007499999999999999
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.006249999999999999
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.004999999999999999
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.0037499999999999994
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.0024999999999999996
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.0015624999999999997
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.0012499999999999998
+    },
+    {
+      "kind": "cap",
+      "coordinate": 0.0007812499999999998
+    }
+  ],
+  "background_radii": [
+    0.04999999999999999,
+    0.05002339944545424,
+    0.050046798890908496,
+    0.050070198336362746,
+    0.050093597781817,
+    0.050116997227271254,
+    0.050140396672725504,
+    0.050163796118179754,
+    0.05018719556363401,
+    0.05021059500908826,
+    0.05023399445454251,
+    0.05025739389999677,
+    0.05028079334545102,
+    0.05030419279090527,
+    0.05032759223635953,
+    0.05035099168181378,
+    0.05037439112726803,
+    0.050397790572722284,
+    0.050421190018176534,
+    0.050444589463630785,
+    0.05046798890908504,
+    0.05049138835453929,
+    0.05051478779999354,
+    0.0505381872454478,
+    0.05056158669090205,
+    0.05056164697273326,
+    0.050561707254564915,
+    0.050561767536397025,
+    0.05056182781822958,
+    0.05056188810006259,
+    0.05056194838189605,
+    0.05056200866372996,
+    0.05122177219982574,
+    0.05122194270957847,
+    0.051222113219334814,
+    0.051222283729094764,
+    0.05122245423885831,
+    0.05122262474862547,
+    0.05122279525839623,
+    0.0512229657681706,
+    0.05278871538116185,
+    0.05299399069138683,
+    0.05299447300549424,
+    0.052994955319630485,
+    0.052995437633795585,
+    0.05299591994798952,
+    0.052996402262212305,
+    0.052996884576463926,
+    0.0529973668907444,
+    0.055015844071421655,
+    0.05724297276168146,
+    0.057931692364970276,
+    0.05793305678158958,
+    0.057934421198439674,
+    0.057935785615520555,
+    0.057937150032832216,
+    0.05793851445037466,
+    0.05793987886814789,
+    0.0579412432861519,
+    0.05947010145194126,
+    0.06169723014220106,
+    0.06392435883246086,
+    0.06615148752272068,
+    0.06837861621298047,
+    0.06863598072661437,
+    0.06863984118000278,
+    0.06864370163523803,
+    0.06864756209232012,
+    0.06865142255124904,
+    0.06865528301202481,
+    0.06865914347464741,
+    0.06866300393911685,
+    0.07060574490324029,
+    0.07283287359350007,
+    0.07506000228375989,
+    0.0772871309740197,
+    0.0795142596642795,
+    0.0817413883545393,
+    0.08394950463043212,
+    0.08396043127430909,
+    0.0839685170447991,
+    0.08397135793296803,
+    0.08398228460640896,
+    0.08399321129463189,
+    0.08400413799763684,
+    0.08401506471542385,
+    0.08402599144799291,
+    0.0861956457350589,
+    0.0884227744253187,
+    0.09064990311557851,
+    0.09287703180583831,
+    0.09510416049609811,
+    0.09733128918635792,
+    0.09955841787661773,
+    0.10178554656687752,
+    0.10401267525713734,
+    0.10468620049408756,
+    0.10471715316359638,
+    0.10474810595138492,
+    0.10477905885745362,
+    0.10481001188180294,
+    0.10484096502443334,
+    0.10487191828534527,
+    0.10490287166453921,
+    0.10623980394739713,
+    0.10846693263765694,
+    0.11069406132791673,
+    0.11292119001817655,
+    0.11514831870843635,
+    0.11737544739869615,
+    0.11960257608895596,
+    0.12182970477921576,
+    0.12405683346947556,
+    0.12628396215973536,
+    0.12851109084999518,
+    0.13073821954025497,
+    0.13296534823051476,
+    0.13519247692077457,
+    0.1355113906363784,
+    0.13559923329369938,
+    0.13568707690152887,
+    0.1357749214598765,
+    0.13586276696875185,
+    0.13595061342816464,
+    0.1360384608381245,
+    0.13612630919864102,
+    0.1374196056110344,
+    0.13964673430129418,
+    0.141873862991554,
+    0.14410099168181378,
+    0.1463281203720736,
+    0.14855524906233342,
+    0.1507823777525932,
+    0.153009506442853,
+    0.1552366351331128,
+    0.15746376382337263,
+    0.15969089251363242,
+    0.1619180212038922,
+    0.16414514989415202,
+    0.16637227858441184,
+    0.16859940727467163,
+    0.17082653596493141,
+    0.17305366465519123,
+    0.17528079334545105,
+    0.17750792203571084,
+    0.17973505072597065,
+    0.18196217941623044,
+    0.18418930810649026,
+    0.18641643679675005,
+    0.18864356548700986,
+    0.19087069417726965,
+    0.19309782286752947,
+    0.19532495155778928,
+    0.19755208024804907,
+    0.1997792089383089,
+    0.20200633762856868,
+    0.2042334663188285,
+    0.20646059500908828,
+    0.2086877236993481,
+    0.2109148523896079,
+    0.2131419810798677,
+    0.2153691097701275,
+    0.2175962384603873,
+    0.2198233671506471,
+    0.22205049584090691,
+    0.2242776245311667,
+    0.22650475322142652,
+    0.2287318819116863,
+    0.23095901060194612,
+    0.23318613929220594,
+    0.23541326798246573,
+    0.23764039667272555,
+    0.23986752536298533,
+    0.24209465405324515,
+    0.24432178274350494,
+    0.24654891143376476,
+    0.24877604012402454,
+    0.25100316881428436,
+    0.2532302975045442,
+    0.25545742619480394,
+    0.25768455488506375,
+    0.25991168357532357,
+    0.26213881226558333,
+    0.2643659409558432,
+    0.26659306964610296,
+    0.2688201983363628,
+    0.2710473270266226,
+    0.27327445571688236,
+    0.27550158440714223,
+    0.277728713097402,
+    0.2799558417876618,
+    0.2821829704779216,
+    0.2844100991681814,
+    0.2866372278584412,
+    0.288864356548701,
+    0.29000000000000004,
+    0.2910914852389608,
+    0.29331861392922065,
+    0.2955457426194804,
+    0.29777287130974023,
+    0.30000000000000004
+  ],
+  "angular": 96,
+  "phase_samples": 9,
+  "phase_angles": [
+    0.0,
+    0.19634954084936207,
+    0.39269908169872414,
+    0.5890486225480862,
+    0.7853981633974483,
+    0.9817477042468103,
+    1.1780972450961724,
+    1.3744467859455345,
+    1.5707963267948966
+  ],
+  "mesh_phase_indices": [
+    0,
+    4,
+    8
+  ],
+  "vertices": 73442,
+  "faces": 146880,
+  "uncompressed_mesh_byte_bound": 3749586,
+  "fixed_cap": {
+    "theorem": "R14-arbitrarily-weak-gaussian-cap-markers",
+    "marker_k": 0.00625,
+    "markers": [
+      {
+        "index": 1,
+        "upper": true,
+        "center": [
+          0.024999999999999994,
+          0.0
+        ],
+        "radius": 0.006249999999999999,
+        "kappa": 0.00625,
+        "height": 3.051757812499999e-08
+      },
+      {
+        "index": 2,
+        "upper": true,
+        "center": [
+          0.0,
+          0.024999999999999994
+        ],
+        "radius": 0.0031249999999999993,
+        "kappa": 0.025,
+        "height": 3.051757812499999e-08
+      },
+      {
+        "index": 3,
+        "upper": true,
+        "center": [
+          -0.024999999999999994,
+          0.0
+        ],
+        "radius": 0.002083333333333333,
+        "kappa": 0.05625,
+        "height": 3.051757812499999e-08
+      },
+      {
+        "index": 4,
+        "upper": false,
+        "center": [
+          0.0,
+          0.0
+        ],
+        "radius": 0.0015624999999999997,
+        "kappa": 0.1,
+        "height": 3.051757812499999e-08
+      }
+    ],
+    "conditional": "The exact rotational metric has no isolated strict Gaussian maxima on active latitude circles. This hypothesis is not asserted for the finite approximate field."
+  },
+  "piece_labels": {
+    "0": "moving prefix, finite tail and nonzero finite collar",
+    "1": "fixed caps outside markers and common cuff",
+    "2": "fixed weak markers"
+  },
+  "phase_rule": "For all real alpha, moving F_alpha(s,theta)=R_alpha F_0(s,theta-alpha); fixed caps are unchanged. alpha=pi*t/2 on t in [0,1].",
+  "mean_rule": "Original physical Gauss6 mean primitive anchored once at s=0, full angular rule max(512,16*(3*M+1)); no independent mean resets.",
+  "exact_infinite_nonlinear_tail": false,
+  "exact_common_metric_limit": false,
+  "display_query_adapter": {
+    "source_sha256_at_start": "d2cbff19a71eca9122475432a40bb6b4f809f696b4cb43e08b307d00f1897dd8",
+    "original_assembly_sha256_at_start": "1fec55a9d9f6c2a9211e64036226496bb4e4ae42c641c842e863e8c4f34fcccc",
+    "merged_near_equal_display_requests": [
+      {
+        "values": [
+          0.031249999999999993,
+          0.031249999999999997
+        ],
+        "chosen": 0.031249999999999993,
+        "maximum_shift": 3.469446951953614e-18
+      }
+    ],
+    "physical_function_unchanged": true,
+    "definition": "Only generated display query radii within 32 binary64 eps*max(1,|endpoints|) are merged; named landmarks and endpoints take priority. No source radial node, coefficient, field or parameter is moved."
+  }
+}
