@@ -345,3 +345,7 @@
 ## 2026-11-14 16:51:33 UTC — 同Z finite193完整源Green实际完成，响应门仍未过
 
 [真实9门结果](results/R133-supplement-actual-complete-same-Z-finite193-Green.md)：43616648792为实际math非eligibility，native eb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18，7154812B全6391profiles按4片无损保。负区总<.184275419462，body<.003051713268、右端<.181223706169，1/200明确false；内段<.393327977489。完整mean/knownhigh源与未知high反馈义务保，继续同向边界收紧。
+
+## 2026-11-14 16:51:36 UTC — 真逐片根域扩到1/50并保全部seam
+
+[实际完整证书](results/R133-supplement-actual-piecewise-root-radius-one-over-fifty-and-full-seams.md)：43616813816 child0/36.750470s，15全局与6半径各7门均真；旧766行原字节复用、新534行，1300行/1079seam。完整复δ1e−8，真Jac>1.506157、μ>2.321309、实canonical|T|<.05120020790294；全J/mean保。原2/3阶seam非小，真实重构源和负Cauchy/strong仍须付；native dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212按原字节留本次artifact。

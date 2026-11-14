@@ -75,3 +75,7 @@ root与newton均核L11 determinant、四个δ幂与完整正逆架；从精确E�
 ## 2026-11-14 16:51:33 UTC — 独立核同Z全部Green通道
 
 亲读8425B process 524231ae273326d1707111af12f51a40a00501bded1b79208a61bac5ba2de156及6104B摘要6874be5a5bfe30d5c67f037d15f9e97989ee170d98d927ed577f368b6cd264f2。9门/child0、13.443183s，全部profile保；旧ports/projector/source0重算。最后真实pull4183d7d91631010e2ead9495f74a8cf7579b142d，两README无差；对应artifact process的SHA与repo各出版快照明确分开。
+
+## 2026-11-14 16:51:36 UTC — 独立验收原prefix恢复与扩大根域
+
+亲读32670B实际process SHA c30eb4c5e1efebd3663528418389ececf1ba8f4450f8e667496026915e2dfb64及worker原pull记录；完整selected R1/50、全部seam、oldcircle inverse和15+42门核对。旧native真实完成766而非旧进度705，v2只新534。原candidate/target/169germ/4650行0重算；最后实际pull4aa0abc77d093975b60493332b4ae5657f3e3a74，两README差异为空。持续付完整L0 forcing与强余项。

@@ -46,7 +46,7 @@ R31/物理Wiener43586895661/43588332723已成，$|\delta_*|<9.368259853002\cdot1
 
 leading43612196888实际22门，完整复δ1e−8/root9e−6：a0/逆/两branch逆<51/50、b0/T²<6；原seam的leading为C1。s−1负根43613506152实际13门：raw<41/10、原I后<17/4，ordinary H−2/3、jump两行(H−2/3,H−1)保；仅9e−6负窗。
 
-更大真实逐片根域v1 43615829270首positive K门失败，完整成功前缀和native feab71…保。v2 43616813816已workflow成功，按原interval/piece复用全部prefix并读取原directed lower/upper；实际selected域和全seam费用由其小process消费，旧169germ/4650行/193系数不重算。不跨原径向seam假设joint解析。
+[真实逐片R=1/50](results/R133-supplement-actual-piecewise-root-radius-one-over-fifty-and-full-seams.md)43616813816实际15全局及6半径各7门全过；复用766旧行、只新534，1300闭行/1079seam。原v1失败保，旧169germ/4650行/193系数不重算。Jac>1.506157、μ>2.321309，实canonical|T|<.05120020790294；J0@1/32<.238364。2/3阶seam A1/64和分别<.029541/370804，不能删除；新坐标域未自动扩展负Cauchy，不跨原seam假设joint解析。
 
 [无奇性forced幅度 F1–18](results/R133-supplement-nonsingular-forced-Airy-amplitude-bounds-on-real-pieces.md)已证：两真实ray之差消掉假$1/\sqrt\rho$，完整末端branch、角域损失和全部seam重构保。下一项是完整$-\mathcal L_0(a_0,b_0)$、原$J_r=-J(\eta_r\partial+L_r)J$及后继有限幅度；原7721记录已有真实intrinsic三阶jets可只读消费。然后付全volume/seam、$C_E,C_s$与实际cutoff。
 
