@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_same_w0_residual_split_Hessian_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43621690619",
   "run_attempt": "1",
@@ -60,6 +60,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:33:46.706128+00:00",
+      "before": "fea6f65e00fcb072b58acd3793f83dc1e6d91f13",
+      "after": "67774f52bafd29607782989c1866291ee20282be",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -67,6 +75,11 @@
       "time": "2026-11-14T17:33:38.642789+00:00",
       "final": false,
       "commit": "fea6f65e00fcb072b58acd3793f83dc1e6d91f13"
+    },
+    {
+      "time": "2026-11-14T17:33:46.082616+00:00",
+      "final": false,
+      "commit": "67774f52bafd29607782989c1866291ee20282be"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -99,7 +112,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "fea6f65e00fcb072b58acd3793f83dc1e6d91f13",
+  "last_read_commit": "67774f52bafd29607782989c1866291ee20282be",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-residual-split-Hessian-work/science",
   "actual_input_sha256": {
     "local": "bf42a295c892ec3bc606efaa9a94f2870609b73226f2034a9cbc172f187186bd",
@@ -109,9 +122,117 @@
     "ordinary": "b1ffc21737ba45d1ef8823af9dccc0baba8b100a1169b60c69f6a7a5d1cfda6c",
     "ordinary-process": "8bd696740f0f1d667487d349cd0ebb51fc2c8efbe9927d49584885388166ea75"
   },
-  "snapshot_utc": "2026-11-14T17:33:44.041742+00:00",
-  "wall_seconds": 8.600996221000003,
+  "snapshot_utc": "2026-11-14T17:33:46.746597+00:00",
+  "wall_seconds": 11.305851625999992,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 1314,
+      "sha256": "3a4d9036c5739ce7ff716b985419475f9e7432c66f7a70ed3bbf106c5347010f"
+    },
+    {
+      "logical_file": "evidence/complete-residual-split-cap-Hessian-summary.json",
+      "file": "evidence/complete-residual-split-cap-Hessian-summary.json",
+      "bytes": 19477,
+      "sha256": "bcdc7998f6a620230ab323fe51bdbb8f920b160d8169d946a3f6ce8299b05e7e"
+    },
+    {
+      "logical_file": "evidence/local-0223-source-diagnostic.json",
+      "file": "evidence/local-0223-source-diagnostic.json",
+      "bytes": 16253,
+      "sha256": "3f16a746bad14b9d3f630327846fbf07db56113c767108700ebea7219bf58def"
+    },
+    {
+      "logical_file": "evidence/local-0225-source-diagnostic.json",
+      "file": "evidence/local-0225-source-diagnostic.json",
+      "bytes": 16223,
+      "sha256": "2adf7f7653e5e7c0554e99b93ae9fdbfac3b7e736b59de99d4ccd47f93c0ede2"
+    },
+    {
+      "logical_file": "evidence/local-0226-source-diagnostic.json",
+      "file": "evidence/local-0226-source-diagnostic.json",
+      "bytes": 16223,
+      "sha256": "680eb04dce04901dfd98c70b53c51f9b5c7053c145d5ebbea2e70b469af27656"
+    },
+    {
+      "logical_file": "evidence/local-0228-source-diagnostic.json",
+      "file": "evidence/local-0228-source-diagnostic.json",
+      "bytes": 16253,
+      "sha256": "03c0bb95fffc50fbb80326d7a34d71478360f47fa32519ece1d02704e7877b74"
+    },
+    {
+      "logical_file": "evidence/local-0237-source-diagnostic.json",
+      "file": "evidence/local-0237-source-diagnostic.json",
+      "bytes": 16250,
+      "sha256": "2f6d6bc3f62f422e54e893ac0f6a951a805e8306c65431a3ed2bbb5a27d1a2a6"
+    },
+    {
+      "logical_file": "evidence/local-0239-source-diagnostic.json",
+      "file": "evidence/local-0239-source-diagnostic.json",
+      "bytes": 16253,
+      "sha256": "f00be27da67ceb8675a2596f5878f2469785dcb7cbb37c3d0442dd0830d6efd6"
+    },
+    {
+      "logical_file": "evidence/local-0248-source-diagnostic.json",
+      "file": "evidence/local-0248-source-diagnostic.json",
+      "bytes": 16241,
+      "sha256": "0b60c7929914f8455ff2afb931f21641f3a7f3e0ae21f9ad0bb5a6af0c4ad9d6"
+    },
+    {
+      "logical_file": "evidence/local-0259-source-diagnostic.json",
+      "file": "evidence/local-0259-source-diagnostic.json",
+      "bytes": 16253,
+      "sha256": "0efffbc2c7c40aa66c687e3f2e455c8f8561e2af3300da55d51376bbf3c8a670"
+    },
+    {
+      "logical_file": "evidence/local-0260-source-diagnostic.json",
+      "file": "evidence/local-0260-source-diagnostic.json",
+      "bytes": 16253,
+      "sha256": "585b477d023ea57b3630e840ce467c87ab4348ee56289e67490455175c8f6575"
+    },
+    {
+      "logical_file": "evidence/local-0270-source-diagnostic.json",
+      "file": "evidence/local-0270-source-diagnostic.json",
+      "bytes": 16253,
+      "sha256": "0049ec35f005c2f1dc77f51e38e79b6bde0bfd953eb2218fb17905cb4c621e2b"
+    },
+    {
+      "logical_file": "evidence/local-0272-source-diagnostic.json",
+      "file": "evidence/local-0272-source-diagnostic.json",
+      "bytes": 16253,
+      "sha256": "73884984cfd4eaa235ef195a5b1332d906c3f407d996dc33c944868ae1736f43"
+    },
+    {
+      "logical_file": "evidence/local-0284-source-diagnostic.json",
+      "file": "evidence/local-0284-source-diagnostic.json",
+      "bytes": 16253,
+      "sha256": "b1357d0aab880c09d5fbccf733ac9edeefe36f871f6e1beb3c8d580633463f15"
+    },
+    {
+      "logical_file": "evidence/local-0293-source-diagnostic.json",
+      "file": "evidence/local-0293-source-diagnostic.json",
+      "bytes": 16253,
+      "sha256": "d2db38e42b00758127c6354b371cbf4e5c483dd2c865529c35bb9081bc9d7314"
+    },
+    {
+      "logical_file": "evidence/local-0295-source-diagnostic.json",
+      "file": "evidence/local-0295-source-diagnostic.json",
+      "bytes": 16253,
+      "sha256": "e0cda7a4dcee10e3d5cb5eeb407a168008d37911019dbb7236afb6b1a12a3259"
+    },
+    {
+      "logical_file": "evidence/local-0305-source-diagnostic.json",
+      "file": "evidence/local-0305-source-diagnostic.json",
+      "bytes": 16253,
+      "sha256": "455313b68dad7a67dd83c7ce8ea0fdb2332fc86afcaa4e851c7c161eb2bf138c"
+    },
+    {
+      "logical_file": "evidence/local-0306-source-diagnostic.json",
+      "file": "evidence/local-0306-source-diagnostic.json",
+      "bytes": 16251,
+      "sha256": "f96de35ae16ee6c61ba5f23cb4ef8010093304a928e48bf1a3c496e3a2ea1e9c"
+    },
     {
       "logical_file": "evidence/original-ordinary-process.json",
       "file": "evidence/original-ordinary-process.json",
@@ -130,5 +251,16 @@
       "bytes": 2694759,
       "sha256": "85b6bbb899ab04549131fd20a7b16209056e2a51cb012bffbd7a6ae590b047c5"
     }
-  ]
+  ],
+  "complete_native_sha256": "85b6bbb899ab04549131fd20a7b16209056e2a51cb012bffbd7a6ae590b047c5",
+  "actual_scientific_gates": 9,
+  "actual_complete_local_rows": 1341,
+  "actual_complete_intersections": 1977,
+  "selected_new_decomposition_cell_count": 726,
+  "additive_same_w0_actual_moving_cap_error": {
+    "ball": "[9.3331691441023061480926548597031426860614084804906665866221251643231549243998548e-7 +/- 1.89e-87]",
+    "lower": "[9.3331691441023061480926548597031426860614084804906665866221251643231549243998548e-7 +/- 1.89e-87]",
+    "upper": "[9.3331691441023061480926548597031426860614084804906665866221251643231549243998548e-7 +/- 1.89e-87]"
+  },
+  "finished_utc": "2026-11-14T17:33:46.366762+00:00"
 }
