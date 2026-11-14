@@ -1,0 +1,115 @@
+{
+  "native_sha256": "eb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18",
+  "complete": true,
+  "gates": [
+    {
+      "name": "exact_original_complete_Green_native_and_actual_successful_process_reused",
+      "passed": true
+    },
+    {
+      "name": "actual_complete7721_same_Z_source_and_four_new_disjoint_range_union",
+      "passed": true
+    },
+    {
+      "name": "actual_complete1977_same_Z_cut_waist_mean_and_high_source_outcome",
+      "passed": true
+    },
+    {
+      "name": "same_current_repaired_operator_and_complete_continuous_direction_at_both_ends",
+      "passed": true
+    },
+    {
+      "name": "all7721_full_rows_cover_the_true_body_before_restricting_the_inner_BVP",
+      "passed": true
+    },
+    {
+      "name": "original_full_suffix_jump_and_virtual_waist_minus_closure_remain_strict",
+      "passed": true
+    },
+    {
+      "name": "all6391_continuous_ports5970_projectors_and_every_true_interface_reused",
+      "passed": true
+    },
+    {
+      "name": "unchanged_boundary_source_units_and_weight_endpoints",
+      "passed": true
+    },
+    {
+      "name": "complete_same_Z_source_and_both_boundaries_consumed_on_every_original_segment",
+      "passed": true
+    }
+  ],
+  "seconds": 13.44318266900001,
+  "input_sha256": {
+    "green": "fd6c1f4baa4ec86aab08d4925a0ec9565c3791cbe470b77c2e41549d8f071de6",
+    "green-process": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c",
+    "body-source": "365f0763d8f4c87182507c4372a3be055624607a77d818a084471b368b33d32e",
+    "body-process": "56c84147351d56b262a17ae0cbf96e18c6525083d72bd51e2f590620dc6e5168",
+    "cut-source": "8bc061ec200deb37548005297a1530d341eaa55065e70104cc5d82714aed21c5",
+    "cut-process": "55765c2954b872699fe60a8c81b62992841578233f12577f9b154a4db6873280"
+  },
+  "exact_inner_BVP_interval": [
+    "0",
+    "9/10"
+  ],
+  "fixed_phase_error_norm_interval": [
+    "0",
+    "2383968743003/10000000000000"
+  ],
+  "exact_continuous_direction_definition_sha256": "6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04",
+  "complete_finite193_compressed_response_error_bound_proved": true,
+  "actual_full_PDE_response_error_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "full_unknown_high_feedback_and_high_response_still_required": true,
+  "original_Riccati_ports_recomputed": 0,
+  "original_projector_cells_recomputed": 0,
+  "original_body_or_cap_source_cells_recomputed": 0,
+  "complete_original_profiles_and_vectors_retained_in_native": true,
+  "complete_finite193_same_Z_error_L2_bounds": {
+    "whole_inner_body": "[0.39332797748852019439219995057265743432128673609621784459558052934131126952875424 +/- 1.20e-81]",
+    "fixed_negative_phase_window": "[0.18427541946102976221254582261235011389709938790423589605273807105117176881509004 +/- 3.51e-81]"
+  },
+  "complete_finite193_same_Z_error_sup_bounds": {
+    "whole_inner_body": "[3.1972920694538600564320901957729976950189548041069149672811344973885323978805007 +/- 3.13e-80]",
+    "fixed_negative_phase_window": "[3.1972920694538600564320901957729976950189548041069149672811344973885323978805007 +/- 3.13e-80]"
+  },
+  "component_L2_triangle_bounds": {
+    "whole_inner_body": "[0.39332797792392807751266755735590276022876142897505353007608860992467326642877408 +/- 1.68e-81]",
+    "fixed_negative_phase_window": "[0.18427541946177931181694870346023198359856283098044256671267568792362068005068370 +/- 3.84e-81]"
+  },
+  "known_boundary_loads": {
+    "same_Z_left_boundary": "[1.1214830703357395378163368633113353962897915179809833280299975094275036763625724e-15 +/- 3.17e-95]",
+    "same_Z_true_right_boundary": "[5.4601002486104455443470727568569119125431318185010214503970473683768438638973261e-5 +/- 3.36e-85]"
+  },
+  "complete_component_L2_bounds": {
+    "whole_inner_body": {
+      "complete_same_Z_body_source": "[0.0065133509064121772164970870772504673824516827069443515747915844389503198253593223 +/- 4.20e-83]",
+      "original_trial_jump_nonnegative_surplus": "[4.8967279061808239203971925767046017522838818284824669422783072619157197849734793e-11 +/- 3.36e-91]",
+      "same_Z_left_boundary": "[6.0195229035954404226953092709254444815322959391446664646925393077479909175130539e-12 +/- 2.62e-92]",
+      "same_Z_true_right_boundary": "[0.38681462696252909833076679065198505780833828426373806427732768959824733467650957 +/- 2.79e-81]"
+    },
+    "fixed_negative_phase_window": {
+      "complete_same_Z_body_source": "[0.0030517132679530159944526930305332839501867134662567626943504506055907685557331855 +/- 1.58e-83]",
+      "original_trial_jump_nonnegative_surplus": "[2.2942909559301374617925058663738560077567998883949499842744736661830043602561530e-11 +/- 7.11e-92]",
+      "same_Z_left_boundary": "[2.8208487550798407315178774485889064579711107183409510667396281116304639609662883e-12 +/- 2.14e-93]",
+      "same_Z_true_right_boundary": "[0.18122370616806253750811479508025576353604865097864669441603478640854554672149000 +/- 3.09e-81]"
+    }
+  },
+  "separate_known_high_body_source_bounds": {
+    "full_body": {
+      "L2_L2_radial": "[1.9611624006097545663985239178494630184847492279634570779202154165859410856645705e-6 +/- 1.28e-86]",
+      "L2_sup": "[9.1332449354876497770581353268169146683907702843968602389537618379744121912597338e-6 +/- 3.07e-86]"
+    },
+    "inner_body": {
+      "L2_L2_radial": "[1.1552729696177228953944813436940959820725773419132475681280993389431013575145154e-6 +/- 3.30e-86]",
+      "L2_sup": "[9.1332449354876497770581353268169146683907702843968602389537618379744121912597338e-6 +/- 3.07e-86]"
+    },
+    "fixed_negative_phase_window": {
+      "L2_L2_radial": "[2.3080044708309057113678577050165207709043817433069790204056115167171081315291585e-7 +/- 4.47e-87]",
+      "L2_sup": "[1.8647050746818172245643837505505570000807770824068248675192059197009213215136285e-6 +/- 4.93e-87]"
+    }
+  },
+  "separate_known_full_high_cut_output": "[5.2316703846717826681155901892414531888402272484692580594002413665315938290403556e-5 +/- 2.64e-85]",
+  "complete_finite193_negative_error_upper_below_one_over200": false
+}
