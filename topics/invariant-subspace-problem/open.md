@@ -95,7 +95,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [实际W角度门槛](results/R271-appendix-actual-defect-angle-and-window-distortion-barrier-for-retraction-sources.md)用原零源lift付回缩左像与固定W的分离：支撑带 $[q-T,q]$、失真χ给整窗必要 $\sum\chi^{-2}/(T+1)\to0$；有界χ仍不能替实际W源。χ趋1时才有对任意固定H向量的分离。primitive源的左最小者严格在q层。回缩source和固定M图来源不可混同。
 
-**相邻尾Gram的未闭部分。** 既有出生一首末边、有限头/池和两组＋一位全出生全高度范围，以及旧松弛反例的准确量词，保[此前全文](notes/2026-11-14-open-before-R274-789f.md)与下方R273；更多权组及无限尾仍开。
+**相邻尾Gram的未闭部分。** 既有出生一首末边、有限头/池和两组＋一位全出生全高度范围，以及旧松弛反例的准确量词，保[此前全文](notes/2026-11-14-open-before-R274-789f.md)与下方R273；更多权组的高出生及跨出生仍开；原连续尾出生一全高度有限常数已由下方R295支付。
 
 **其他原边界接口。** [R294原连续尾应用](results/R294-appendix-original-tail-coordinate-shift-and-improved-first-return-cost.md)保完整真幂逆/同K，以坐标平移给cond(H_t)≤2(t+1)^4(t+2)^4、全部旧列非交换乘积≤16(h+2)^28 S_m H_(ℓ−1)；最高d无新列，D1*真实Θ锚费≤4(d+2)^14√S_m，q/m一致。原正边网络/标量Newton没有外推为矩阵Newton；a≥2、Γ跨birth及无速率锚乘增长仍开。双宽商/负配对、深jet Schur、天然四块真重排等范围全保快照；两带不可免费取交，无权增长/指定回馈/pure继续。
 
@@ -106,9 +106,11 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R285](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)只排所列有限形式约束推出S1/S2统一界的路线；例子非Boolean，一般实际正性仍开，完整无界族保归档和结果索引。
 
-[R288 逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保占据/碰撞/creation全部交叉；[S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)及[S1](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)现已付M≥3全部正权birth1，分别有真实2/3收缩和次数9完整整数严格正证书。两组＋一位的整个物理birth2也已付[严格S1](results/R288-appendix-birth-two-s1-short-sides-hard-top-and-full-physical-layer.md)，含短组/硬顶；该族S2左右列的主区间和原S2短区间均已由R292闭合。该出生一的一位SOS已闭；[一般三塔式](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)保完整F3逆顺序及C²深塔，去掉上出生二阶逆；[精度系数/S2同源式](results/R288-appendix-birth-one-precision-coefficients-and-common-source-s2-congruences.md)给低阶显式生成入口，该族S2后由R292闭合，一般birth强S1仍开；[五位局部正frame障碍](results/R288-appendix-five-site-obstruction-to-local-positive-primitive-frames.md)排局部张成⇒正Parseval捷径，未否一般泄漏或相邻序。[R293强位式](results/R293-heavy-bit-transfer-of-strengthened-first-edge-sos.md)付第二高度加强S1与S2联合必要块；[单异常权全出生/全高度](results/R293-appendix-one-exceptional-weight-all-births-all-heights-strengthened-s1.md)以全正三次式付全部真实桥费用。[全高度强传输](results/R293-appendix-all-height-strengthened-s1-heavy-bit-equivalence.md)保任意κ>0：全birth首阶加强式等价全部高度同κ加强式，亦足普通相邻κ；有限统一κ仍未得，普通相邻不反推加强式。S2和原graph各自保留缺口。
+[R288逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保占据/碰撞/creation完整交叉；任意正权birth1首阶S1/S2及两组＋一位整个birth2 S1/S2已付，完整原链接与精确范围保[本次前open](notes/2026-11-14-open-before-turan-all-height-789f.md)。[一般三塔式](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)保完整F3逆和C²深塔；[五位局部正frame障碍](results/R288-appendix-five-site-obstruction-to-local-positive-primitive-frames.md)排局部张成⇒正Parseval捷径，未否一般泄漏或相邻序。[R293全高度强传输](results/R293-appendix-all-height-strengthened-s1-heavy-bit-equivalence.md)保任意κ>0：全birth首阶加强式等价全部高度同κ加强式，亦足普通相邻κ；[单异常权全birth/全height](results/R293-appendix-one-exceptional-weight-all-births-all-heights-strengthened-s1.md)已经严格c1。全birth统一κ仍未得，普通相邻不反推加强式；S2与原graph各自缺口保留。
 
-[R294共同对角比较](results/R294-birth-one-uniform-diagonal-gram-comparison-and-common-newton-blocks.md)应用定长协方差v2定理，付任意正权birth1全高度½A_n≤Γ_n≤A_n及同源A的Newton块，亦付实际端点/中间A的常数4式与无限正ℓ²固定高度。未付原Γ中间项；单高度夹逼或特殊A的相邻条件数不补真实混合费用。
+[R294共同对角比较](results/R294-birth-one-uniform-diagonal-gram-comparison-and-common-newton-blocks.md)应用定长协方差v2定理，付任意正权birth1全高度½A_n≤Γ_n≤A_n及同源A的Newton块，亦付实际端点/中间A的常数4式与无限正ℓ²固定高度。单高度夹逼本身不补真实Γ中间项；所用新外部定理按README需补完整仓库证明。
+
+[R295 Turán余量](results/R295-birth-one-turan-remainder-law-and-all-height-strengthened-s1.md)完全以实际子集对子分拆证明同源协方差混合和完整平方分解，付所有有限正权birth1全height加强S1的κ=ρ（有限严格）；原连续平方尾j⁻⁴另有统一κ=674/81，含无限物理极限和真正Γ相邻序。此结论不依赖外部协方差夹逼；一般独立权统一κ、高birth及原graph仍开。
 
 [R286 固定源全高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源逆平方根能量和原慢尾全height/几何和。实际t_q祖先出生随q上移，固定birth塔最终无分量；受限逆后不自动保有限支持/固定birth，跨出生graph、完整e_q和N=M仍开。
 

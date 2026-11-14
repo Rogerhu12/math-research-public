@@ -117,7 +117,7 @@ $$
 先用 (1.2) 逐次估计算子范数，再用同一式把单位矩阵换回原 $H_{\ell-1}$，得到
 $$
 \boxed{\mathcal M_{h,\ell}\preceq
-8\alpha_{h-1}^{,2}\alpha_\ell
+8\alpha_{h-1}^2\alpha_\ell
 \left(\frac{\sigma_h}{\sigma_{h-1}}\right)^2
 \frac{\sigma_{\ell-1}}{\sigma_\ell}\,H_{\ell-1}.}
 \tag{4.1}
@@ -128,7 +128,7 @@ $I\preceq2\sigma_{\ell-1}H_{\ell-1}$。没有交换 $H_t$ 或把它们当作共�
 (3.1) 先给保留原 $m$ 依赖的较锐形式
 $$
 \boxed{\mathcal M_{h,\ell}\preceq
-8\alpha_{h-1}^{,2}\alpha_\ell\frac{h^2}{\ell}
+8\alpha_{h-1}^2\alpha_\ell\frac{h^2}{\ell}
 \frac{S^2}{S_{x+\ell-1}}\,H_{\ell-1}.}
 \tag{4.2}
 $$
@@ -183,7 +183,7 @@ $$
 若 $h<d$，新列仍须单独保留。由同一夹逼和 (3.1)，
 $$
 \|H_h^{-1}H_{h-1}\|^2
-\le4\alpha_{h-1}^{,2}\left(\frac{\sigma_h}{\sigma_{h-1}}\right)^2
+\le4\alpha_{h-1}^2\left(\frac{\sigma_h}{\sigma_{h-1}}\right)^2
 \le4h^{10}(h+1)^8S_m^2
 \le4(h+1)^{18}S_m^2.
 $$
