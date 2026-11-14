@@ -4,20 +4,20 @@
 
 证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，未达到 README 完成标准。** 固定p、条件结论、数值验证都不算完成。会话 serre-public-resume-20261114；日志 Asia/Taipei。
 
-已读规则提交：39f8563efa40de4598fe20ad96a7b70aecf2862f
-最近实际 pull：2026-11-14 20:12:56 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
+已读规则提交：139380ea41565c4cd87947b0bf5f2f26a58d6e4c
+最近实际 pull：2026-11-14 20:15:45 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
 
 仅在 Rogerhu12/math-research-public 工作，长计算用本仓库 Actions；旧“停用公开runner/转本地”作废。每条结论终端commit/push main已授权；推前pull，非快进立即pull --rebase循环，不force。令牌仅CLI临时环境。根代理独占tracked/git；辅助在仓库外agent-global/、agent-cartier/、agent-o6/。单Markdown<100KB，HANDOFF<10KB，open/README<30KB，数据>1MBgzip，单文件<5MB。日志只追加本题log，≤5内容行；改共享文件须在log说明。
 
-部分克隆仅检出本题源码/证明/小JSON；大型scripts/data/*.gz按需git show，避免共享盘ENOSPC。所有Git对象仍在本地。迁移前与本轮压缩前交接完整保存于 notes/2026-11-14-public-takeover-handoff.md、notes/2026-11-14-public-handoff-through-R683.md；后续压缩前交接见notes/2026-11-14-public-handoff-through-R693.md、notes/2026-11-14-public-handoff-through-R700.md及notes/2026-11-14-public-handoff-through-R707.md；当前open旧逐条更新保全于notes/2026-11-14-open-before-public-wave02-results.md及分类前notes/2026-11-14-open-before-R707-classification.md；恢复更早依赖见这些文件的归档链，不把旧摘要当缺失证书。
+部分克隆仅检出本题源码/证明/小JSON；大型scripts/data/*.gz按需git show，避免共享盘ENOSPC。所有Git对象仍在本地。迁移前与本轮压缩前交接完整保存于 notes/2026-11-14-public-takeover-handoff.md、notes/2026-11-14-public-handoff-through-R683.md；后续压缩前交接见notes/2026-11-14-public-handoff-through-R693.md、notes/2026-11-14-public-handoff-through-R700.md、notes/2026-11-14-public-handoff-through-R707.md及notes/2026-11-14-public-handoff-through-R714.md；当前open旧逐条更新保全于notes/2026-11-14-open-before-public-wave02-results.md及分类前notes/2026-11-14-open-before-R707-classification.md；恢复更早依赖见这些文件的归档链，不把旧摘要当缺失证书。
 
 ## 当前执行检查点
 
-- R707固定层41完整分类已登记：129盘=121排除+8有理CM，无有理尖点。19普通16排除3CM、110SS105排除5CM；八CM精确身份/简单根唯一性及183来源证明SHA全部核对，不依赖遗失R583。固定p41的O5关闭，继续一般p实际高度。
-- R656/R709原两CM4全部链、Norm、重复核平坦约束及R554联合消极已公开保存，未重跑已成F2；完整索引见R707及notes/p41-SS-disk-progress.md。
-- R698四片run43585949869新增5893素数；唯一零p137147（Cp80155、Cp−3=0），全证书在computations/R698-window-0/。R706已封存：合R689至200000共5992素数，唯一Cp−3零为137147；原z独立run43587480525完全同值，v(M2)≥−1/2而非−1，不能推M2本身零。此前R689的41..2000共99素数全非零仍成立。
-- 本轮理论登记：R699已登记：真实规范差降至g(Y)及固定第二类周期，完整v(z)≥3尾与有限首阶集合；实际高度jet未求；R701已登记：V_sc原标记43维p-local商唯一标量η_p=C/a、L=31−2η_p；86×44实际向量未求；R702已登记：第一极点块给pC_(p+3)=9B²、pC_(p+6)=−405B²/2全p单位；不能跨边界代原两权。R705已登记：全部允许m≤p−3的实际Abel双块公式，端点C5/C2单位给d≤(p−2)/3；全尾和KS原商保持，R616条件未移除。尚未登记草稿不计定理。
-- 后续分工：cartier R711系数域/整数赋值已证明，R712继续原M2高精度与全p深盘；R710全p理论及137147后续权对已正式登记；global的R703代数jet提取/相对全尾草稿已完成、根复核中，正独审R712并续R716去除预求γ；O6 R704已正式登记：公开run43588220740完成原43分支矩阵，det=687；R708已证全部43值局部Norm歧义；R715继续两步Tate链级及原c_s/c_q全局向量。root的R714扩大本原区域已独审登记；R655/656/707/709均已完成。所有新结论即时单独commit/push；主目标仍OPEN。
+- R707固定p41完整分类：129盘=121排除+8CM，无有理尖点；183证明SHA账本已核。R656/R709原CM4全链已恢复，O5关闭，不重跑完成计算。
+- R706合R689/R698：41..200000共5992素数，唯一Cp−3零137147；原z独立公开run43587480525已同值。R710公开run43589720709继续原数组得到后两权117309/122674、残余阶r=3；R711原系数有理直线给整数赋值，详下。
+- R699/R703真实高度结构已证明：R703的6(g+g(Y))+8维代数基、八个非零提取系数及不含未知高度赋值的相对全尾已登记；实际一般p矩阵/前缀仍缺。global独审R712，后续R716继续消去预求γ。
+- cartier继续R712原M2高精度：严格LT和两块公式草稿已成、独审中，137147实际下一位尚未计算。root的R714扩大原R616本原区域已独审登记，未覆盖全部p。
+- O6的R704原43分支矩阵公开run43588220740完成（det687）；R708证明已知局部Norm容许全部43值。unit的R715继续自然Tate链级与原全局普通单位输入，未审草稿不计定理；实际m/C/L尚未知。全部新结论单独commit/push，主目标OPEN。
 
 ## O5：固定p41已完整分类
 
@@ -37,7 +37,7 @@ R574 Bell/完成ζ、R564完整Cartier交换已恢复。R710全m平方jet未分�
 
 R598/R600/R608/R614给实际正负族均值、本原选择和部分radical区域；p≥40D是负族充分范围，未覆盖任意D。R602正号 p/D≥40+(20/3)log(1+logD) 的平均正性加本原预算可给指定秩零。R608 p59/d9971指定因子rank=dim=8、log同构；不将正秩当零像。一般BFH–GZ–Nekovar接口按其真实条件用。R714以全体可见点小半径及原射线大半径预算给扩大区域：J=2^ω((p+1)/3)−2，72δ_X X+48J/X≤1/2、√p≥1440J即给原R616非消失/秩/log；固定ω充分大p及J≤(log p)^(1−ε)、p≥exp(exp(64/ε²))均覆盖。未覆盖全部p，未消实际高度零。
 
-R593固定η、同一cclear·ctriv及新增q局部项零；even有限Ω与d无关；R690已证2处全零，R694/R696进一步证明校准点和实际候选3处全零，Ω_actual={0}；一般点Ω3仍可非零，旧数值Ω不可移植。R596线性项经真实log因子化。R616实际β=q[c1−c0]非挠iff L′(g+)L(g−)≠0，在其D-independent本原区域A(Q)⊗Q=Fβ。R634 CM校准外积消全部A高度矩阵，保持ρ/Ω和η线性项。R682补共同首阶，R690/R694/R696使原ω0和实际候选Ω均为0；真实ℓ/Λ jet及赋值仍缺，逐盘非恒零不等于统一排除。
+R593固定η、同一cclear·ctriv及新增q局部项零；even有限Ω与d无关；R690已证2处全零，R694/R696进一步证明校准点和实际候选3处全零，Ω_actual={0}；一般点Ω3仍可非零，旧数值Ω不可移植。R596线性项经真实log因子化。R616实际β=q[c1−c0]非挠iff L′(g+)L(g−)≠0，在其D-independent本原区域A(Q)⊗Q=Fβ。R634 CM校准外积消全部A高度矩阵，保持ρ/Ω和η线性项。R682补共同首阶，R690/R694/R696使原ω0和实际候选Ω均为0；R703已用代数独立基和有限jet逆矩阵严格提取−2/L_j等非零量；同一矩阵给相对真实前缀的全尾，纯代数N_h对v(z)≥h≥3有效，不依赖未知高度赋值。实际矩阵/有限前缀及候选排除仍缺，逐盘有限零数不等于统一排除。
 
 ## O6：原 p43 Robert 单位与普通 Norm
 

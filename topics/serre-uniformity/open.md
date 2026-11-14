@@ -151,3 +151,7 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 ### R714：原商非消失的扩大区域
 
 令 J=2^ω((p+1)/3)−2、2≤X≤√(p/2)、L_X=log(p/2)/log X、δ_X=(1+log₂L_X)/L_X。已证明 72δ_X X+48J/X≤1/2 且 √p≥1440J 时，同一原 β=q[c1−c0] 非挠、L′(g+)L(g−)≠0、A(Q)⊗Q=Fβ，实际 log 同构。新范围不要求 rad((p+1)/3) 小：固定 ω 的充分大 p 全部覆盖；更一般 J≤(log p)^(1−ε) 且 p≥exp(exp(64/ε²)) 也覆盖。全部 κ_p^m 相位和 R616 的原正负商保持，不以 L′ 的直接 Galois 作用代实际秩接口。J 超出此范围时本原非消失仍须证明；即使条件满足，原高度有限前缀及非中心零排除仍缺。完整证明见[R714](results/R714-global-visible-count-and-sublogarithmic-divisor-primitive-region.md)。
+
+### R703：实际非零jet提取与相对全尾已闭合
+
+在原R616非消失前提下，同一E_ij属于6(g+g(Y))+8个独立代数Taylor函数空间；八个U×I或U×I²系数严格为±2/L_a、±1/L_a²。仅由代数模型构造可逆有限jet矩阵，即可得到Σa_s[z^s]E_ij=−2/L_j≠0及真实jet赋值上界。相同逆矩阵给所有尾相对于真实有限前缀的完整下界，N_h纯代数可计算，且所有n≥N_h的系数严格高于前缀最小赋值；无需d_i、第二类周期、Y规范高度常数或L_j的赋值。h=3含完整边界，h=4含原候选，总零重数≤N_h−1、非中心≤N_h−m−2。尚未执行一般p原代数jet矩阵或求真实有限前缀；计数不等于无根，下一步继续原模型与规范前缀。详见[R703](results/R703-algebraic-jet-extractors-and-height-free-relative-tails.md)。
