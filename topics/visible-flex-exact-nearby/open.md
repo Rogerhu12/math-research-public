@@ -139,3 +139,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14 两端quarter恢复已推，等待实际消费者完成期间继续其它证明
 
 新`visible-exact-complete-quarter-cap-inlet-recovery`只新算首段1023与末段100，原641行逐字canon复用；finish等待并核原6中段真实成功artifact，每5min以内真pull/README。末100的1e−9 intrinsic包络含固定η0，非声称改变物理参数。来源以原plan+六原range、两新recovery+finish分别核，后续cached Hessian必须明确这种跨run/source组合。原旧source/manifest/flow及已成行均不改；数值改善尚未授予。
+
+### 2026-11-14 第一接缝线性分量已实算，转全I/J余项
+
+43625828234全部1079/39门已证，六窗口firstforcing/强窗jump聚合见actual report。R=.001 negative firstseam经I后<.006640943888194，R=.02为2.203048631221；此为实测预算，不可删去局部窗外seams。正raw mixed总<8.4384155779e−5，接root新s−1全正口后仍须保mean/head。phase继续full old-angle I/J finite remainder、下一幅度L0v1和独立mean，不把仅firstseam当complete strongreturn或充分cutoff。

@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 18:25:39 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 18:26:28 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则、同步
 
 仅 Rogerhu12/math-research-public；所有新数学只在其Actions。每结论独推；非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
-本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，18:21非FF后真rebase仍No usable execution environment。根规则8暂只connector<100KB文本，禁任何binary/gzip，先查size；新摘要≤60KB。API不冒称pull；reviewed runner长算每10min真pull，phase child≤50min前后pull。root亲核forcing43624260519前后真pull均865b9b70b0cd12fc5ab48fcbc6c3cd38a9738584，两README diff空。终端恢复即回git；每小时重试，nonFF立即再试。
-最新远端 main/两README blob 核：c3eedfb9fb05a265da4600fb6c108ecefd1acd72；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，18:21非FF后真rebase仍No usable execution environment。根规则8暂只connector<100KB文本，禁任何binary/gzip，先查size；新摘要≤60KB。API不冒称pull；reviewed runner长算每10min真pull，phase child≤50min前后pull。root亲核seam43625828234前后真pull均124a6b5471524e60f1ac05600741f2e58d0bcffa，两README diff空。终端恢复即回git；每小时重试，nonFF立即再试。
+最新远端 main/两README blob 核：714008ce78f77f70be21bcc58e69709c97b3228e；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次9908B H逐字归档 notes/2026-11-14-handoff-before-recovered-quarter-consumers.md；此前9829B/9596B及更早H/open归档链均保。完整历史SHA/源口/失败/零重算合同在results与manifest，禁止重算已成数学。
 
@@ -43,7 +43,7 @@ rootfold43616813816 v2实际15+6×7门/36.750470s，1300行=766旧+534新、1079
 L1–25/J1–19已root/tail核。forcing43624260519实际14门/39.161969s，1328格=原1+新1327，native54a79bf8…（6577892B只artifact），process0f4d1dd4…36229B。L0pair<268394.856050、a1<7731800.525026、b1<11178348.024174；不授N97小性。两前次失败与原首行保；真实runtime跨零arb_pow NaN由Horner有界乘法修。
 大窗negative Cauchy43621934843实际8门/792新commonrow/1.982109s，全6R成，native3a214897…process82bf0467…summary238a8515…。R1/50非单调∫S<.034816267，C−1<1514.952276、I后<1561.577063；R1/200 I后<11.272695。fullmean/ordinary/jump窗保，0旧target。
 A1–14已独核：C² symbol近Schur/远HS，真Airy全argument，j1=n−1JP U([a1r],[b1r]),j2=0，density n7/6；完整H−4/3→H−2/3×H−1 mixedjump。mean/P/J顺序不可换。
-seam新10pin/源9c71989f…/manifestffb042e4…已72b951e推；run43625828234 agent报实际child0/39门/3.120060s/1079（负576正503），native871aa54d…904977B，process d7cea34e7609cfe15aa767f37fdec293a2b2dfff8610baa11a1e13315aca0b0e（40085B，根已取待全文核/report）。只两原native，六R只聚合1328旧行。该强窗仅first seam线性分量，正侧raw源待rootframe，CE/Cs未授。
+seam新10pin/源9c71989f…/manifestffb042e4…已72b951e推；run43625828234实际child0/39门/3.120060s/1079（负576正503），native871aa54d…904977B，process d7cea34e…40085B；root亲核全门/worker，actual report已推。负mixedsum<.001410784445846，正raw<8.4384155779e−5；R1/1000/1/200/1/50的负I后分别<.006640943889/.015796407566/2.203048631221。只两原native、六R聚合1328旧行；仅firstseam强窗，正源待frame，CE/Cs未授。
 phase继续全old-angle有限I/J余项、L0v1及正侧最低必要高阶新费用；原intrinsic三阶不免费当五阶，旧成功targets/行不重跑。
 
 ## 当前 tail_connector：全mean开放逆已成，真实外闭合未成

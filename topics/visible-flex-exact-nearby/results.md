@@ -433,3 +433,7 @@
 ### R133：恢复后的完整quarter与cached Hessian接同Z Green（2026-11-14）
 
 [同Z消费合同](notes/2026-11-14-R133-quarter-Hessian-cached-Green-contract.md)保留固定physicalη0、原ν、repaired centre、完整97维w0及连续Z。完整quarter physical误差与旧physical误差仅整界比较并保配套14fees；同w0 moving界用原Hessian resolvent×选中physical界+新完整加性，再对Z−w0付原完整unknown erroroperator。原truecut97列/96odd/独立mean/knownhigh均保。仅以新完整rightload除原已认证正数load向外上界，缩放6391个原Green片段的右通道，其他三通道完整保留；用原trueweight和rational dr重积分。root全文审source/worker/flow，tail独核G1–3；270科学pins含原238与Hessian184且零改，0原target/传播重算。新actual尚未完成；其scope仍是finite193 compressed误差，1/200必须实际测，全unknownhigh/PDE/νSchur不授。
+
+### R133：1079第一Airy接缝与六窗口实际强源分量（2026-11-14）
+
+[实际完整报告](results/R133-supplement-actual-first-Airy-seams-and-six-forcing-windows.md)：公开43625828234 child0，39门/3.120059158s，1079全seam（负576、正503）与六R全成。仅复用root1300与forcing1328两native，所有原target/ray/幅度求解零重算。H−4/3密度经完整jump到H−2/3×H−1，mean/全输出/真实J保；负mixed总<.001410784445846，正raw总<.000084384155779。接真实全mean Cauchy和I后的负firstseam分量，R=.001/.002/.005/.01/.015/.02依次<.006640943888194/.007954758420372/.015796407565706/.073586382065041/.414504748220525/2.203048631221；所有jump无径向长度折扣。native871aa54de8c4ee1caa47cdab39c8033bb9cd02e9d4d1f404b711ab8c28825642，904977B，根只读40085B process与2734B worker。完整return/CE/Cs/N97仍false。
