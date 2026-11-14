@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R483：原六sigma的CM转移与三曲线完整条件行](../results/R483-original-six-sigma-cm-transfer-and-complete-three-curve-rows.md)：以norm13避开原坐标行列式，完整奇相位/六重纤维把原S/T/new投影移到旧伴随；T保必要两态平均，所有第一环带和共同伴随深度均付。实际Href环带差消未知导数后非零，原混W管随每个CM支移动，未免费赋条件零。
+
 - [R484：原混W在新lift上的共同覆盖与有限核心](../results/R484-original-mixed-axis-common-cover-and-finite-lift-core.md)：最小510整行cover付全部极化/半特征；固定无限ray细分上全中心比值阶4080，真实Theta锚定绝对core。新增V投影逐标签与全轨道交换，原Y移动测试/补管完整保留，不把4080态误认原六输入两态。
 
 - [R482：原二输出完整五十一维空间与整伴随矩提取](../results/R482-complete-two-output-companion-span-and-integral-moment-extraction.md)：全二/四挠约束准确给51维上界，六个固定有理minor达到全部六角块。实际伴随次数≤53在固定坏集外整提取整个第一测度，principal八基仅需0到42的六倍数；保真实周期/四倍尺度，不赋未投影中央零或新core。

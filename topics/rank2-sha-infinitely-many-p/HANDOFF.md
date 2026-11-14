@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：cf20df83f214a9486e9cafb31a7cfce1b6a0e885；2026-11-14 11:01:22 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：f929df4ddd6adf9da1a72c12a5527ea8c0f3d89d；2026-11-14 11:08:22 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - bc04092b规则差异已读：根1/13将“六个课题”改为上表课题，新增另课题；不影响本课题范围与完成标准。
@@ -15,8 +15,8 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–482及R484已登记，R364仍开。R235/R237丢失检查点已重做推送；迁移时未推R437/R438与全部计算都已恢复发布。完整提交逐条见课题log；最近R482=5d8ab906、R481=ae3ded29、R480=89f9134a；R484本次登记。
-当前仅在`/workspace/scratch/4fe3fb9f2a50/math-research-public`的main工作，旧库只读；废弃临时repack已清，完整提交未删。代理只写自己证明/脚本，root统一元数据/逐条push。theta续R483原T/S伴随中央；literature续R487原五伴随混管；deep续R485真实高b余核；root续R486分68类十三权整连接。
+R1–363、R365–484已登记，R364仍开。R235/R237丢失检查点已重做推送；迁移时未推R437/R438与全部计算都已恢复发布。完整提交逐条见课题log；最近R484=fa856df7、R482=5d8ab906；R483本次登记。
+当前仅在`/workspace/scratch/4fe3fb9f2a50/math-research-public`的main工作，旧库只读（overlay满后完整移/tmp/rank2-old-repo-4fe3fb9f2a50并保原路径symlink）；废弃临时repack已清，完整提交未删。代理只写自己证明/脚本，root统一元数据/逐条push。theta续R488共同A odd29核心；literature续R487原五伴随混管；deep续R485真实高b余核；root续R486分68类十三权整连接。
 
 ## 完整目标、真实来源和历史恢复
 
@@ -37,6 +37,8 @@ R480已付原F1/F2⊗Θ²的同时CM7/19全纤维及det17转置，逆为真实�
 R482已付原Φ的整个H51=ker(B2+1)∩ker(K4+1)，两个全二/四挠约束给上界51、六个固定minor达下界，角块维8/9交替。真实V伴随次数≤53给固定整左逆，principal只需0,6,…,42，恰R476八基。h_G(V)=Σc_jV^j/(j!Ω^j)保整个第一轴测度，q列另乘4^j；删明定有限pivot坏集即可。它不赋其余来源中央零，带V多项式权也不预付旧core。
 
 R484已付新增V lift的旧W真实固定cover：原前三输出各×510，N=18727200，完整Gram/半特征且新V独立。可细分旧ray模712345233600，含中心g阶4080；Θ3060质量一真实锚定K_N绝对相位，wholeK_N^4080=I。新lift有4080态全深Σr|Wpn=λn(AW^n)*Σr+n；新V的各有标签D_i与其交换。此返回不是原ρ0/ρ1两态，忘V回K_W^r(D−Π0ρ1)，不换投影次序；Y真实移动及全部补管保原式25。
+
+R483已将原S/T/new投影直接搬到旧五伴随：奇σ N13=−1,N19=+1，六输入总character1；norm13/19均与原det互素，principal N13=N7^5。CS/Cnew/CH在L两态分别给S2⊗A_i、(0,Snew⊗Λold)、(0,Href⊗Λref)，全部质量与五伴随共同core全付。T须原两态平均再作旧伴随CM19投影。三中央零控制全部独立旧伴随及第一环带；Href真实环带差为−(1+δ)n d log〈λ²〉(1+λ)/(2016b)非零。每个实际伴随CM支却将旧W管改成cY+ζ r(Z)/barα，不能直接塞入上述条件零；续R487/488。
 
 ## 当前惰性完整格与真正提升
 
