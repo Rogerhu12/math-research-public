@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **辅助根piece的完整复thirdjets契约（E1–12）**：[证明](results/R133-supplement-auxiliary-root-piece-analytic-extension-and-complete-complex-third-jets.md)。保持原scalar多项式、2549号piece两cubics和完整参数/mean/无限primitive；在原piece上以同公式及解析唯一性认同真germ。六primitive导数支付E4/A5及K/γ/β/s3；四新复域须实际Actions验证，不能借原小域成功或只凭thirdjets授fold。
+
 - **已证明（2026-11-14 20:44:49 UTC）**：[真实fold矩阵消去及leading完整old-inverse缺陷](results/R133-supplement-exact-fold-matrix-cancellation-and-leading-inverse-defect.md)，C1–15。对任意幅度精确H^-1HD=−iεQK(T)；leading gd与primitive qv的完整两分量消去独立inverse及若干radial mixed项，全程不除T，保D符号、old mean和I/J顺序。只改写同trial的源，数值费用待新消费。
 
 - **已证明／实际有向执行（2026-11-14 20:44:02 UTC）**：[原复内根第一forcing及下一局部幅度](results/R133-supplement-actual-complex-inner-root-first-Airy-forcing.md)，run43638232415 child0/14门/.414557s。原矩形同piece的65+193准确导数、全coeff预算和3个完整内域case全成；native41dc8aac…51084B。保原root/mean/二阶chain；内L0w1的第二幅度上界仍大，未授全频source、strong-return、97高逆或真PDE。

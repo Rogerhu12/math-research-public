@@ -363,3 +363,7 @@ root读新科学/main及CI，核worker与原成功版差异、flow和25/20 pins�
 - 2026-11-14 20:44:49 UTC visible-exact-astra-0df9：证明并推送C1–15真实fold的精确QK/gd/qv消去，root逐项核两分量与D commutator；保全old mean及原I/J顺序。继续新source消费与辅助复扩域。
 
 - 2026-11-14 20:49:18 UTC visible-exact-astra-0df9：安装正高两输出193pin最小消费者，原175+87清单0差；旧正参考/χ/目标0重算。题外新增 .github/workflows/visible-exact-positive-high-weighted-body-cut.yml，以公开Actions接已成bodyCross、保source/frame区别与独立帽head；继续完整高低耦合。
+
+### 2026-11-14 20:56:01 UTC — E1–12 辅助解析延拓与完整复三阶jets已独推
+
+root全文核 E1–12，tail已核原degree20/Horner/Nyquist与新完整bilinear jet公式；仅在原piece认同真germ，扩域是新数学，旧成功域不重算。证明blob da8b704e553e2d39af91e12edfd259773da7c34f，11394B，SHA cfaf9234c4fbdaf5515a299194762232a802312fd3fd2c4699e608c47c33ea64。96xxB旧H完整归档 notes/2026-11-14-handoff-before-auxiliary-root-domain.md 后整理活跃检查点；所有数值/失败/原身份留在旧H及actual。未声称新域或fold已通过；下一步57pin消费者。

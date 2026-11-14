@@ -106,3 +106,7 @@ C1–15已证明。最小窗原RQJgd项仍主导；用新gd/qv恒等式只新增
 ### 2026-11-14 20:49:18 UTC：正高body/真实cut两输出的193pin消费者已接
 
 保同global Z、全部4650正行/3594接口/七源列/mean；只新HL径向权的source-square扫、真实重建积分和cut even行。source frame与reconstruction分别取原字段。帽[.9,R]head及末端low/mean由真Poisson另接，负区root incoming仍独立；不以positive given-head当全高inverse。
+
+### 辅助复根域：已证契约，部署新的完整复thirdjets
+
+E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/γ/β/s3，见 [证明](results/R133-supplement-auxiliary-root-piece-analytic-extension-and-complete-complex-third-jets.md)。原germ唯一性只用于原piece内；新域不能改写邻piece对象。phase已交57pin六件，root审后在公开Actions跑四域，失败域与完成前缀都保留；再支付真实新fold/leading/forcing。原小域全部成功证据原样保留。
