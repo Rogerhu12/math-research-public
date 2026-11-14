@@ -1,0 +1,118 @@
+{
+  "kind": "actual_public_complete_same_F_directional_matrix_process_v1",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43654510038",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "f42ded4aac8463083fa2dc5209c16de42f0965d7",
+  "worker_source_sha256": "71b203d54afc982de4ac762a7486cd99bde7acbd9ca50d7ca9c486a283c1326b",
+  "started_utc": "2026-11-14T23:42:27.837287+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T23:42:28.295346+00:00",
+      "before": "4d9dbbf75408ae5fc1b38ae5d878c46ffdd85cc3",
+      "after": "4d9dbbf75408ae5fc1b38ae5d878c46ffdd85cc3",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:42:28.729887+00:00",
+      "before": "4d9dbbf75408ae5fc1b38ae5d878c46ffdd85cc3",
+      "after": "4d9dbbf75408ae5fc1b38ae5d878c46ffdd85cc3",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "phase": "plan",
+  "group": null,
+  "original_projector_run": 43594139132,
+  "original_same_F_pilot_run": 43648579604,
+  "original_successful_F_or_Gram_cells_recomputed": 0,
+  "original_target_or_validator_calls": 0,
+  "all_original_Q_and_R_endpoint_bytes_required": true,
+  "full_two_boundary_directional_Green_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "input_manifest_sha256": "8d334ee75c0cf78a13b31483ceb495194c73e7cbcf57c1eeec3f447da17cab19",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "original32_failure_receipt_sha256": "61b23116289a18ee6fac5d9afa9df85d2f33cf9ad0f67b87d8d5a6783a3142bc",
+  "original_failed_complete_matrix_cells": 0,
+  "original_failed_source_sha256": "47d69d780b701953561df7eff0d425745577bfbaa9b4a865d8d8cf5c2f9056c6",
+  "exact_F_object_and_patch_unchanged_by_correlation_aware_endpoint_gate": true,
+  "last_read_commit": "4d9dbbf75408ae5fc1b38ae5d878c46ffdd85cc3",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-same-F-work/science",
+  "original_success_process_sha256": "98fca8dad6990772d6a99eee4bf3a4e489bdbc36646c7c81fd90af3be9ca4736",
+  "snapshot_utc": "2026-11-14T23:42:28.766306+00:00",
+  "wall_seconds": 0.9295889189999968,
+  "native_files": [
+    {
+      "logical_file": "evidence/four-actual-original-same-F-array-availability.json",
+      "file": "evidence/four-actual-original-same-F-array-availability.json",
+      "bytes": 2038,
+      "sha256": "5136ce8039910c22a8ec94721f86972485eb256b63bf19d17eab5679565eccc1"
+    },
+    {
+      "logical_file": "evidence/original-complete-projector-process.json",
+      "file": "evidence/original-complete-projector-process.json",
+      "bytes": 4269,
+      "sha256": "16608b57571d17a427857bcfe0127186589b3f79e93d89a7e423ac48a2740af9"
+    },
+    {
+      "logical_file": "evidence/original-matrix-success-or-prefix-reuse.json",
+      "file": "evidence/original-matrix-success-or-prefix-reuse.json",
+      "bytes": 550,
+      "sha256": "fc61ebcc6a8688648483adf6fbab41eb228cca337625f3b32c786a60a68351d0"
+    },
+    {
+      "logical_file": "evidence/original-same-F-artifact-process.json",
+      "file": "evidence/original-same-F-artifact-process.json",
+      "bytes": 12567,
+      "sha256": "d1465c2d20081bf22c0909dfa1d28f62239ff91394d030f34faf375ac479330a"
+    },
+    {
+      "logical_file": "evidence/original-same-identity-process.json",
+      "file": "evidence/original-same-identity-process.json",
+      "bytes": 7212,
+      "sha256": "98fca8dad6990772d6a99eee4bf3a4e489bdbc36646c7c81fd90af3be9ca4736"
+    },
+    {
+      "logical_file": "native/complete-5970-local-projectors.json.gz",
+      "file": "native/complete-5970-local-projectors.json.gz",
+      "bytes": 3876042,
+      "sha256": "3460a4b5636bf6a3d9c160f6141ab5153fc5fc705ca79000c5f10370a978cb69"
+    },
+    {
+      "logical_file": "native/complete-exact5970-same-F-disjoint-plan.json.gz",
+      "file": "native/complete-exact5970-same-F-disjoint-plan.json.gz",
+      "bytes": 266218,
+      "sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4"
+    }
+  ]
+}
