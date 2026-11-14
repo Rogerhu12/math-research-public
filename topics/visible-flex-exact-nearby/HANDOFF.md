@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 18:21:17 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 18:21:56 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则与同步
 
 仅 Rogerhu12/math-research-public；所有新数学代码仅公开 Actions。每结论独立推；非快进立即接新main/rebase再推至成功，不force。root管ref/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
-本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，17:55重试仍失败。根规则8暂只connector <100KB文本，禁二进制/大文件；先查size，新摘要≤60KB；API不冒称pull。reviewed runner长算每10min真pull；phase独立child≤50min且前后pull。root亲核forcing43624260519前后真pull均865b9b70b0cd12fc5ab48fcbc6c3cd38a9738584，两README diff空。终端恢复即回git。
-最新远端 main/两README blob 核：0241f32e705e0f8a986c38fff61a1ab387c0b0f8；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
+本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，18:21非FF后真rebase重试仍无环境。根规则8暂只connector <100KB文本，禁二进制/大文件；先查size，新摘要≤60KB；API不冒称pull。reviewed runner长算每10min真pull；phase独立child≤50min且前后pull。root亲核forcing43624260519前后真pull均865b9b70b0cd12fc5ab48fcbc6c3cd38a9738584，两README diff空。终端恢复即回git。
+最新远端 main/两README blob 核：cd225f641a0e3a6307be9efa5966374381c86fa8；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 此前9829B H逐字归档 notes/2026-11-14-handoff-before-negative-source-interface.md；更早H/open归档链保全。全SHA/失败/源口/零重算合同在各results/manifest；禁止重算已成数学。
 

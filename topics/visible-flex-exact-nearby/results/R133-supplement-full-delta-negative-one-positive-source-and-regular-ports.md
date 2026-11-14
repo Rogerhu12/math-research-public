@@ -329,9 +329,9 @@ reference solves and all previous scalar sweeps byte-for-byte.
 This completes a quantitative consumption route for the positive
 $H^{-2/3}$ ordinary/jump sources and $H^{-1}$ raw state.
 The exact nonmean primitive satisfies
-$
+$$
  \|\mathcal I h\|_{L^2}\le{\sqrt{17}\over4}\|h\|_{H^{-1}},
-$
+$$
 because its nonzero physical Fourier frequencies are $4j$. The eighth
 output row therefore multiplies (N.15) by $\sqrt{17}/4$.
 A supplied nonmean head contributes separately at most
