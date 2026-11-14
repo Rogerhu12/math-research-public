@@ -126,3 +126,6 @@ tail_connector：把实际非径向内部正型接全部外部响应、Γ*参数
 
 
 [实际完整记录](notes/2026-11-14-R133-physical-cap-96-complete-finite-proposal.md)：实际完整660块/96列physical cap proposal恢复后正常0，完整原FFT门5.70516e−15通过；661×193×96共享状态与左右Hermite导数全部保存、三大数组SHA/重建CLI齐。97外mean/Robin含m4和准确9/10端差保留；仅有限提案成功，真实连续首宽片已暴露高j径向层需加密/Green付费。
+
+
+[实际完整记录](results/R119-supplement-actual-low-scaled-full-local-nonradial-positive-form.md)：尾69以真实ΩM=B+M√B质量付低κ全部输出/两mean/新交换子，全Hk Cauchy<8；实际同物理中心差<2^64n，整个J0 fixed-label hat响应保。原X≤2^-262144与准确Nc深层衰减给误差/d*<2^-33000，所有±M两迹/cos-sin输入局部型>d*/8；49门实际通过。κ=M²/B符号补明并保存原native所绑正文；外部响应/Γ*两列/近簇仍欠。

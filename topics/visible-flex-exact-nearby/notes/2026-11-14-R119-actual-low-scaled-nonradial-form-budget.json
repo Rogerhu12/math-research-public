@@ -1,0 +1,271 @@
+{
+  "status": "proved_new_exact_rational_budget",
+  "scope": "Actual current fixed-Gamma local Cauchy variation, full Fourier outputs and both means, all two-state and cos/sin inputs at plus/minus one M. Includes true fixed-label response on the whole local core; excludes its exterior, D_Gamma-star columns and multiband clusters.",
+  "gate_count": 49,
+  "passed": true,
+  "gates": [
+    {
+      "name": "energy_rate_all_scaled_mass",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "full_core_energy_exponent",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "full_Cauchy_after_norm_comparison",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "exact_Duhamel_bits_before_rounding",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "full_output_Duhamel_rounding",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "pointwise_actual_coefficient_budget",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "pointwise_actual_solution_difference_budget",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "direct_pairing_after_true_dt_and_center_frame",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "true_response_integrates_full_core",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "true_response_center_shear_and_low_kappa",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "rho_fifth_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "rho_fifth_M_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "rho_fifth_B_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "rho_fifth_Delta_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "direct_relative_pairing_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "direct_relative_pairing_M_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "direct_relative_pairing_B_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "direct_relative_pairing_Delta_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "response_relative_pairing_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "response_relative_pairing_M_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "response_relative_pairing_B_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "response_relative_pairing_Delta_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "original_middle_M_inverse_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "original_middle_M_inverse_delta_gain",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "B_twentieth_coefficient",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Delta_49_coefficient",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Delta_48_coefficient",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "direct_delta_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "true_Pj_h_factor",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "true_Pj_delta_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_response_delta_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "direct_complete_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "response_complete_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "both_complete_terms_fit_joint_constant",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "both_complete_J_powers_fit",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "actual_Nc8192_complete_two_global_factors",
+      "passed": true,
+      "evidence": "-5155505/256"
+    },
+    {
+      "name": "actual_Nc8192_rounding",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "actual_deep_Nc_exponent",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "actual_previous_exponent",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "exact_joining_zeta_exponent",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_two_cell_Nc_rounding",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "actual_background_smallness_for_energy",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "first_real_deep_layer_full_error_bits",
+      "passed": true,
+      "evidence": "-4236573/128"
+    },
+    {
+      "name": "first_real_layer_strict_absorption",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "actual_J_growth_each_layer",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "rational_J_growth_to_dyadic",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "true_deep_Nc_minus_all_cost",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_layer_ratio_smaller_than_two_to_minus95",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "full_Sym2_positive_margin",
+      "passed": true,
+      "evidence": null
+    }
+  ],
+  "bounds": {
+    "full_Cauchy_NMk": "<8 for k=0,1,2,3",
+    "full_output_actual_reference_difference": "<2^64 n",
+    "complete_relative_control_error": "<2^14000 Nc_sharp X J^70 delta^(-3655/128)<2^-33000",
+    "complete_local_positive_form": ">d_star/8 times full reference center wave norm squared",
+    "d_star": "2^-22000 M^50 B^-39 Delta^-103",
+    "source_convention": "total flux; no radial derivative of weak F^t; bare endpoint traces remain separate"
+  },
+  "dependency_sha256": {
+    "results/R119-supplement-actual-low-scaled-full-local-nonradial-positive-form.md": "d2efe00c0e9b68bd47f5c7eb599850d378e3cf295613a6380cf6c11457a50980",
+    "results/R119-supplement-actual-two-phase-five-function-Wronskian-and-low-scaled-control.md": "97c7cf4b168f4ce546534e871c966fbf1bdd0a4ca774ecb8f82c02c76efe1b6c",
+    "results/R119-supplement-actual-wave-packet-Cauchy-and-rank-one-profile-control.md": "3f3a5d5244f07c0812d735fc60e91f9d1bf49c22095e64c27e11d3e16b9592ec",
+    "results/R119-supplement-actual-compact-profile-label-response.md": "ce7285a1e7818098e64ce68d706e0830f2d2dbc020e531fb2bc898af702f0030",
+    "results/R119-supplement-actual-canonical-profile-generator-and-complete-weak-sources.md": "3b9899adaba350486def68d641e473bdd0dd2ab26075a38f1943780ed7dd4075",
+    "results/R119-supplement-controlled-tail-actual-joint-phase-and-remainder.md": "27325857e088e8266a322bcabe82c59a6cc1f06f225b2616c8490b553af5d45c",
+    "results/R119-supplement-actual-strict-density-complete-relative-Cauchy.md": "dcf33b5e85b2a059963760d68b68f096fb4e764ebf248cc2a3805a3225b208dd",
+    "scripts/fourfold_actual_low_scaled_nonradial_positive_form_20261114.py": "03f532c48481c57c0e816f65cbb85461ec8a37437a2cbd902865f86d80c66292"
+  }
+}
