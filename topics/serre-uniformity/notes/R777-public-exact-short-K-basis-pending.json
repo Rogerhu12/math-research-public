@@ -1,0 +1,65 @@
+{
+  "session": "serre-public-resume-20261114",
+  "job": {
+    "result": "R777-exact-short-K-basis-and-Hodge-cube-coordinates",
+    "p": 41,
+    "basis_bound_qY": 142,
+    "H3_coordinate_bound_qY": 41,
+    "budget_minutes": 80,
+    "producer_inputs_pending": true,
+    "core": "R777_exact_short_K_basis.py",
+    "core_sha256": "4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a",
+    "method": "notes/R777-exact-short-K-basis-and-Hodge-coordinates-method.md",
+    "method_sha256": "ae8b1f3dd9fff9b38ffab566cb76dc1869add914737c4c9169adeb35e546329a",
+    "proof": "results/R778-original-cusp-orbit-and-short-exact-recovery.md",
+    "R778_proof_sha256": "b23357b3fa74773c1ee45c1740b988ee9d7c96a658d5cdec99881947faf8c727",
+    "descent_proof": "results/R772-original-RR-descent-and-exact-function-recovery-certificates.md",
+    "descent_proof_sha256": "30006eca29d55c9b2e227f490e0ec9ffe128073f1c49c6dab25d3e532f4db59d",
+    "workflow": ".github/workflows/serre-p41-exact-short-K-basis.yml",
+    "retained_artifacts": {
+      "R771": {
+        "result": "R771-p41-original-quotient-RR-bases",
+        "run_id": "43628998192",
+        "source_commit": "49abc04d7867c9f56911866494692c597cf642d7",
+        "artifact_id": 14127715743,
+        "artifact_name": "serre-global-R771-p41-original-quotient-RR-bases-43628998192-1",
+        "archive_sha256": "e158bff06405576ce235745db26b6a2e35145d2b1f2d6978127b42a79e1e7c1c",
+        "manifest_sha256": "024ed12029720cc1c5d7ec0612aa484b04cdde8f763fceb852a0fdeabc2c3d74",
+        "core_sha256": "9cda269687a01c95c9c20695be771706bbddd37b1b8fedc8b9258386c3965d46",
+        "certificate_name": "p41-original-quotient-RR-basis-certificate.json",
+        "files": {
+          "p41-original-quotient-RR-basis-certificate.json": "9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f"
+        }
+      },
+      "R774": {
+        "result": "R774-original-p41-Hodge-cube",
+        "run_id": "43631427773",
+        "source_commit": "93056f04536e61ccdd486674003b4d1380a27475",
+        "artifact_id": 14128247134,
+        "artifact_name": "serre-global-R774-original-p41-Hodge-cube-43631427773-1",
+        "archive_sha256": "91d9f6d926dc2a649d5fd401b9881cc6f88f8e233724408fbce8dcba109d1f0b",
+        "manifest_sha256": "4d97bb53b106fa53958a943f9ae9e5d00870f7cf774d4617a727b3fa857ac222",
+        "core_sha256": "b7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa",
+        "certificate_name": "p41-original-Hodge-cube-certificate.json",
+        "files": {
+          "p41-original-Hodge-cube-certificate.json": "aea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59"
+        }
+      },
+      "R775": {
+        "result": "R775-p41-original-K-defined-RR-bases",
+        "run_id": "43631335355",
+        "source_commit": "00295b27a3f7367028ccee84eb867b5aeadc7540",
+        "artifact_id": null,
+        "artifact_name": null,
+        "archive_sha256": null,
+        "manifest_sha256": null,
+        "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
+        "certificate_name": "p41-original-K-defined-RR-basis-certificate.json",
+        "files": {
+          "p41-original-K-defined-RR-basis-certificate.json": null
+        }
+      }
+    },
+    "resume": null
+  }
+}

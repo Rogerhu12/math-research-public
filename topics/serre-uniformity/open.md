@@ -212,3 +212,6 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 
 
 **R779（原实Robert类的两个p局部坐标，所有b）**：[完整证明](results/R779-original-real-Robert-class-and-two-p-local-obstruction-coordinates.md)。原nR=−in+(11/2)u仅依指定cs/u；norm恒等式和τ作用给无条件Γ/S不变及τ-real。全局与局部无μ43使inflation–restriction两端H¹/H²均零，故其Kummer类唯一下降真Σ支持dR。原Ucan=−4n+(5+21i)u及full divisor Bockstein证明dR=(9b/4)dq+B_Rd0，包括b0且不假设dq在该情形ordinary。以原R185基写dR,p=B1 b1+B45 b45，严格得b=−3B1−5B45、Ω₂/ε=22−8B1+B45。b≠0时还得dR=(9b/4)(dq+ηI d0)、I0/ε=32+25B1、Iα/ε=32+3B1−8B45。实际B1/B45没有求出；所缺现在是同一cs的指定Gamma/scalar导数在p处的完整Kummer向量，精度varpi_s1938，86×2方程即可。R704全部原Gamma embeddings已给足integral坐标的精度，不供cs本身值；R780继续快速求该真实局部输入，不重跑巨大q-torsion乘积。
+
+
+**R777（准确短基与H³坐标工程已保存，未触发）**：[完整执行方法](notes/R777-exact-short-K-basis-and-Hodge-coordinates-method.md)。复用真R771 E1模表/群、真R774前两块及行尺度，等待R775真K基配方。82E1有限整数常数和、126半trace/40det奇提升、block79和每权82^w清分母给全部原M6/M12至q142；原H³坐标用694×694 Q矩阵/Dixon解14 RHS，准确AX=I后乘82^6ρ回原尺度，由已知membership及R778注入认证。core4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a；数千阶段/完整SHA清单gzip只artifact，逐行断点。pending请求路径不触发workflow，须真R775成功artifact/cert/manifest绑定后写最终-request.json；没有预称计算结果。R781接原y精确递推及全部143项关系，原函数/β/高度仍待求。
