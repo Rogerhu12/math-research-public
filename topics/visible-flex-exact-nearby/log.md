@@ -459,3 +459,7 @@ root亲读46443B process和2469B worker，核数学.2141971180000013s、child0/6
 ### 2026-11-14 22:41:36 UTC — 全5970接口impulse合同与101pin公开续算
 
 root全文读新source19054B/CI13235B/flow7040B及I1–11合同7924B；亲读原97manifest18477B，核SHAfb233679…和全部97项逐项不变，核原kernel的positive是确定有向upper。完整保原12361事件顺序、signed I2p/I2z、waist与sourcea/b，左/右输出仅在真实不交区间平方加。source12e40b3849f4c1f29b1c0da0a52825afd710ab4cb70e09b539760d6672295439，manifest75b9039039a663a5fb8aad5a7f719e5fcea9edf648096441bc0777e25240a44c；全部新算只public Actions。当前只读核611382d7bcb9e4dfef7bba8358bd6aa6009dbf20两README无变；待实际成功，继续全球方向核/closed网络。
+
+### 2026-11-14 22:43:09 UTC — 真实long屏蔽到完整Sobolev DN及帽端口独推
+
+正文16232B SHA f9ee747adc40b63bf3d9e31d9342831e9129ed2cdd2feeb6c6b9f13983e63ea9。root全文读N1–28，并亲读原D31a/b（ee26500e…23215B）、M10–19（fe1468fe…13207B）及S15–19/S28–31（fcce208a…14280B）：原全代数范围、真C_R逆、mean屏蔽与Cauchy域一致。核signed-lag双Schur、原awB两种列、全型Schur/Cayley/4comm与严格指数；不使用旧偶帽C(1)导数充全频。纯解析无本机数值；只读核5852d7d4400859e53dde789b4d63f200d0e0acce两README无变，继续两根/Γ/联合相位与closed网络。

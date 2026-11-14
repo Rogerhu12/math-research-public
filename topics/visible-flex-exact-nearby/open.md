@@ -194,3 +194,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 5970真实接口跳的方向后验费用已具合同并部署
 
 [I1–11](notes/2026-11-14-R133-cached-signed-Green-all-interface-impulse-contract.md)与101pin公开入口复用原finite193 Green和6391 L²缓存，只新左右平方扫与5970单位跳费用。signed负rate不乘积分upper来假造exp，metric/mean/sec-tan两列/虚waist均保。供新矩阵V舍入真实jump消费；多个跳作用同一source必须合法三角或完整相关界，不能免费平方相加。原两完整成功artifact只读，待actual。
+
+### 真long屏蔽已接完整DN与固定帽曲率外口，继续联合五盒
+
+[N1–28](results/R119-supplement-actual-long-screening-complete-Sobolev-DN-and-cap-facing-port.md)保完整4Z未知高度、真实C_R→f*反馈、两height/flux mean及独立帽侧Z，得到同空间返回极小差；原粗N_L不冒O(X)。帽曲率meanB_R/meanC_R/Robin仍是输出，未从共同偶帽图偷转全4Z。tail继续真实新外负分量两根、strict段、两Γ及五盒相位，再与原内部开口/强源标签联立。

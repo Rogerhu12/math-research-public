@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 22:41:36 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 22:43:09 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在 Rogerhu12/math-research-public 工作；新数学只在公开仓库Actions。每条结论独推，非FF立即真pull --rebase再推直到成功，禁force。root管main/H/open/results/log；代理只交正文/blob，勿碰共享checkout。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。
 最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近runner真pull：22:25 UTC 5137a924244d90e6d725ad5436df13296cdb57b0，两次两README实际diff空。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：611382d7bcb9e4dfef7bba8358bd6aa6009dbf20；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：5852d7d4400859e53dde789b4d63f200d0e0acce；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 最近partial checkout在 /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；当前环境不可用。此前相关AGENTS皆无。runner长算10min真pull；phase45/50min前后真pull，非FF循环；成功数学与出版失败分记。
 本次前H全文9974B在 notes/2026-11-14-handoff-before-same-F.md；旧H/open/results及原152结论入口档案链完整。actual报告/manifest/native保对象、身份、参数、全部失败及逐行证明，不凭摘要重构。
 
@@ -46,6 +46,6 @@ root Y1–14旧mean压缩/完整w1 I/J预算已证（R133-supplement-exact-old-m
 新固定stop候选6460b0ae：q2→−8 quintic后q−8，ell0只选一次/参数导数0，主体R/η/参数/原two bumps保；新几何/尺度/Γ门逐项付，旧三阶根特殊逆不转授。
 新根A1–28已推273a529c：完整复图/CK/真逆/Piola、V0<1、全混频K_R=2^2184，实际两mean/端口正逆2^256、ordinary/weak/原子源齐，参数费q!r_p^-q。
 新完整正DN P1–32已推80c21055，R119-supplement-new-simple-root-complete-positive-DN-Airy-return-and-sources.md（SHA3a2ad25d…）：新根到B整个非负区+真实long，mean自然flux/唯一高度gauge、未匹配EB/复型/buffer Jacobian齐。全Airy正逆L²<2、双侧强4/3余项<2^6000b^(4/3)，|s|≤1；low/mean/所有lag及原物理全源齐，affine<2^512(P+B)。粗N_L<2^-18只授正型存在。
-tail现接真long screening完整Schur及联合五盒相位。原完整帽common-reflection scope不能免费变all4Z；先保C_R独立外口、meanB/meanC/Robin残差和反馈，再闭网络。真正闭I−EaTa/原strong权/非线性matching未完成。
+新long N1–28已证（R119-supplement-actual-long-screening-complete-Sobolev-DN-and-cap-facing-port.md，SHAf9ee747a…）：固定C_R的完整4Z DN/真实Φ_R反馈、全mean/awB齐，返回同空间差<2^160(n0+F+e^-7L/4)<2^-8388864，|s|≤2。独立Z、meanB/C与Robin全保，未借偶帽图全4Z。tail继续外负段两根/Γ/五盒相位及closed联立；强标签/最终matching仍缺。
 
 每子问题完成即接open下一项。不得停在阶段报告、时限或“下一步建议”上。
