@@ -1,0 +1,1174 @@
+{
+  "schema": "captured-seventeen-query-original-RMS-and-collocation-midpoint-domain-v1",
+  "model_sha256": "8d265f3fd222935f8eb5135c672c9192003e6ecb0fc7e5ccab377c6ad52053ad",
+  "query_specs": [
+    {
+      "kind": "left-RMS",
+      "interval": 468,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 469,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 470,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 471,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 472,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 473,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 475,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 477,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 479,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 480,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 481,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 482,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 473,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 475,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 477,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 481,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 482,
+      "fraction": 0.5
+    }
+  ],
+  "adjoint_and_local_checks": [
+    {
+      "kind": "all-coordinates",
+      "forward_dual": 1138242.9455319731,
+      "transpose_dual": 1138242.9455319713,
+      "normwise_adjoint_error": 5.726838573267097e-19,
+      "local_forward_relative_error": 0.0,
+      "local_transpose_relative_error": 0.0,
+      "transpose_outside_declared_support_max": 0.0
+    },
+    {
+      "kind": "shared-endpoints-and-controls",
+      "forward_dual": -748706.0335001433,
+      "transpose_dual": -748706.0335001193,
+      "normwise_adjoint_error": 1.6120006105242002e-17,
+      "local_forward_relative_error": 0.0,
+      "local_transpose_relative_error": 0.0,
+      "transpose_outside_declared_support_max": 0.0
+    },
+    {
+      "kind": "controls-and-zero-support-core",
+      "forward_dual": 0.0,
+      "transpose_dual": 0.0,
+      "normwise_adjoint_error": 0.0,
+      "local_forward_relative_error": 0.0,
+      "local_transpose_relative_error": 0.0,
+      "transpose_outside_declared_support_max": 0.0
+    }
+  ],
+  "original_complex_chain_checks": [
+    {
+      "kind": "actual-supplied-scaled-direction",
+      "finite": true,
+      "scaled_direction": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "67ccffc2471094a699bfc8d459307cafdca5288d98d9df449e6bb1686b6380e0",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complex_derivative": {
+        "shape": [
+          34816
+        ],
+        "dtype": "<f8",
+        "sha256": "67a0103e5596bd5762ab4814ae2baea8170c11a5006643ecf9822c8694789c98",
+        "bytes": 278528,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "compiled_derivative": {
+        "shape": [
+          34816
+        ],
+        "dtype": "<f8",
+        "sha256": "41d41b8986612a8c190bb1ee26890f0c24622adec084bef11b898b5aa90dae05",
+        "bytes": 278528,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "maximum_absolute_error": 5.6424198646709556e-11,
+      "maximum_relative_error": 1.2011127004153625e-12,
+      "worst_row": 8192,
+      "worst_query_index": 4,
+      "worst_query_kind": "left-RMS",
+      "worst_interval": 472,
+      "worst_angle_index": 0,
+      "query_errors": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 468,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 6.054712287095754e-12,
+          "maximum_relative_error": 7.818055071467803e-13
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 469,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 5.629274824059394e-12,
+          "maximum_relative_error": 6.945219616200488e-13
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 470,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 9.724665517296671e-12,
+          "maximum_relative_error": 1.1105376982248574e-12
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 471,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 8.448353128187591e-12,
+          "maximum_relative_error": 1.4508980994897618e-12
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 472,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 5.6424198646709556e-11,
+          "maximum_relative_error": 1.458130227998467e-12
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 473,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.5599965763613e-11,
+          "maximum_relative_error": 8.484927736972439e-13
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 475,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 4.1531222905177856e-12,
+          "maximum_relative_error": 1.4830410010010294e-13
+        },
+        {
+          "query_index": 7,
+          "kind": "left-RMS",
+          "interval": 477,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.1727507853720454e-11,
+          "maximum_relative_error": 4.744279691059575e-13
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 479,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 2.4272139853565022e-11,
+          "maximum_relative_error": 5.166856799671173e-13
+        },
+        {
+          "query_index": 9,
+          "kind": "left-RMS",
+          "interval": 480,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 3.4656721936698887e-11,
+          "maximum_relative_error": 1.2608445000325491e-12
+        },
+        {
+          "query_index": 10,
+          "kind": "left-RMS",
+          "interval": 481,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 7.887024366937112e-12,
+          "maximum_relative_error": 4.328900777097987e-13
+        },
+        {
+          "query_index": 11,
+          "kind": "left-RMS",
+          "interval": 482,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 7.389644451905042e-12,
+          "maximum_relative_error": 5.789962072771228e-13
+        },
+        {
+          "query_index": 12,
+          "kind": "collocation-midpoint",
+          "interval": 473,
+          "fraction": 0.5,
+          "maximum_absolute_error": 3.0880187296133954e-11,
+          "maximum_relative_error": 6.584684501320663e-13
+        },
+        {
+          "query_index": 13,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "fraction": 0.5,
+          "maximum_absolute_error": 7.908340649009915e-12,
+          "maximum_relative_error": 2.2981341364429856e-13
+        },
+        {
+          "query_index": 14,
+          "kind": "collocation-midpoint",
+          "interval": 477,
+          "fraction": 0.5,
+          "maximum_absolute_error": 2.6723512291937368e-11,
+          "maximum_relative_error": 8.137729956554051e-13
+        },
+        {
+          "query_index": 15,
+          "kind": "collocation-midpoint",
+          "interval": 481,
+          "fraction": 0.5,
+          "maximum_absolute_error": 3.893774191965349e-12,
+          "maximum_relative_error": 1.3213168167548582e-13
+        },
+        {
+          "query_index": 16,
+          "kind": "collocation-midpoint",
+          "interval": 482,
+          "fraction": 0.5,
+          "maximum_absolute_error": 1.0253131677018246e-11,
+          "maximum_relative_error": 4.116769326300751e-13
+        }
+      ],
+      "actual_query_real_part_diagnostics": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 468,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 469,
+          "complex_real_part_vs_saved_original_query_max": 4.336808689942018e-19
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 470,
+          "complex_real_part_vs_saved_original_query_max": 2.881235509644706e-20
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 471,
+          "complex_real_part_vs_saved_original_query_max": 4.336808689942018e-19
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 472,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 473,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 475,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        },
+        {
+          "query_index": 7,
+          "kind": "left-RMS",
+          "interval": 477,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 479,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        },
+        {
+          "query_index": 9,
+          "kind": "left-RMS",
+          "interval": 480,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 10,
+          "kind": "left-RMS",
+          "interval": 481,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 11,
+          "kind": "left-RMS",
+          "interval": 482,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        },
+        {
+          "query_index": 12,
+          "kind": "collocation-midpoint",
+          "interval": 473,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 13,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "complex_real_part_vs_saved_original_query_max": 2.1030239893548176e-20
+        },
+        {
+          "query_index": 14,
+          "kind": "collocation-midpoint",
+          "interval": 477,
+          "complex_real_part_vs_saved_original_query_max": 1.926794452320102e-20
+        },
+        {
+          "query_index": 15,
+          "kind": "collocation-midpoint",
+          "interval": 481,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        },
+        {
+          "query_index": 16,
+          "kind": "collocation-midpoint",
+          "interval": 482,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        }
+      ],
+      "full_augmented_original_RHS_used": true,
+      "unique_endpoint_count": 16,
+      "midpoint_chain_is_original_collocation_formula": true,
+      "complex_chart_expand_not_used": true
+    },
+    {
+      "kind": "seeded-local-physical-core-and-controls",
+      "finite": true,
+      "scaled_direction": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "681bbeef827961349a83c1e3246abb1865e9d209df6f34fb142ae3923750826e",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complex_derivative": {
+        "shape": [
+          34816
+        ],
+        "dtype": "<f8",
+        "sha256": "3c5b4a73883cb0564cb7baf4adadd43edc255749be086dfa0b2bdd3f9e129d93",
+        "bytes": 278528,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "compiled_derivative": {
+        "shape": [
+          34816
+        ],
+        "dtype": "<f8",
+        "sha256": "5b46cdef2ffe9e9c44cfefe8a72fb5ce7f0ce04d7fbf660097e3123efcc47de8",
+        "bytes": 278528,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "maximum_absolute_error": 1.2707896530628204e-06,
+      "maximum_relative_error": 1.1456386259906037e-12,
+      "worst_row": 6144,
+      "worst_query_index": 3,
+      "worst_query_kind": "left-RMS",
+      "worst_interval": 471,
+      "worst_angle_index": 0,
+      "query_errors": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 468,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 3.4295953810214996e-07,
+          "maximum_relative_error": 6.980873959008881e-13
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 469,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 3.254390321671963e-07,
+          "maximum_relative_error": 7.32068087922375e-13
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 470,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 6.809714250266552e-07,
+          "maximum_relative_error": 1.314700920120148e-12
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 471,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.2707896530628204e-06,
+          "maximum_relative_error": 1.2797210121216508e-12
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 472,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 3.1333183869719505e-07,
+          "maximum_relative_error": 1.2461128700388276e-12
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 473,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 7.470953278243542e-08,
+          "maximum_relative_error": 3.555217588164691e-13
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 475,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 9.342329576611519e-08,
+          "maximum_relative_error": 2.760791732562363e-13
+        },
+        {
+          "query_index": 7,
+          "kind": "left-RMS",
+          "interval": 477,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.4621764421463013e-07,
+          "maximum_relative_error": 3.4707715602966723e-13
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 479,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.1007068678736687e-07,
+          "maximum_relative_error": 1.5159513055733668e-13
+        },
+        {
+          "query_index": 9,
+          "kind": "left-RMS",
+          "interval": 480,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 2.923188731074333e-07,
+          "maximum_relative_error": 1.096126633017057e-12
+        },
+        {
+          "query_index": 10,
+          "kind": "left-RMS",
+          "interval": 481,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 4.678440745919943e-08,
+          "maximum_relative_error": 1.5931335031973655e-13
+        },
+        {
+          "query_index": 11,
+          "kind": "left-RMS",
+          "interval": 482,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.2398231774568558e-07,
+          "maximum_relative_error": 5.988019424504342e-13
+        },
+        {
+          "query_index": 12,
+          "kind": "collocation-midpoint",
+          "interval": 473,
+          "fraction": 0.5,
+          "maximum_absolute_error": 7.471535354852676e-07,
+          "maximum_relative_error": 6.735717022359558e-13
+        },
+        {
+          "query_index": 13,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "fraction": 0.5,
+          "maximum_absolute_error": 2.662418410181999e-07,
+          "maximum_relative_error": 3.4778170883119043e-13
+        },
+        {
+          "query_index": 14,
+          "kind": "collocation-midpoint",
+          "interval": 477,
+          "fraction": 0.5,
+          "maximum_absolute_error": 1.1170050129294395e-07,
+          "maximum_relative_error": 2.3958808809011627e-13
+        },
+        {
+          "query_index": 15,
+          "kind": "collocation-midpoint",
+          "interval": 481,
+          "fraction": 0.5,
+          "maximum_absolute_error": 1.4805118553340435e-07,
+          "maximum_relative_error": 4.3081988586979843e-13
+        },
+        {
+          "query_index": 16,
+          "kind": "collocation-midpoint",
+          "interval": 482,
+          "fraction": 0.5,
+          "maximum_absolute_error": 1.1792872101068497e-07,
+          "maximum_relative_error": 2.474363710642054e-13
+        }
+      ],
+      "actual_query_real_part_diagnostics": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 468,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 469,
+          "complex_real_part_vs_saved_original_query_max": 4.336808689942018e-19
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 470,
+          "complex_real_part_vs_saved_original_query_max": 2.881235509644706e-20
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 471,
+          "complex_real_part_vs_saved_original_query_max": 4.336808689942018e-19
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 472,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 473,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 475,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        },
+        {
+          "query_index": 7,
+          "kind": "left-RMS",
+          "interval": 477,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 479,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        },
+        {
+          "query_index": 9,
+          "kind": "left-RMS",
+          "interval": 480,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 10,
+          "kind": "left-RMS",
+          "interval": 481,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 11,
+          "kind": "left-RMS",
+          "interval": 482,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        },
+        {
+          "query_index": 12,
+          "kind": "collocation-midpoint",
+          "interval": 473,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 13,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "complex_real_part_vs_saved_original_query_max": 2.1030239893548176e-20
+        },
+        {
+          "query_index": 14,
+          "kind": "collocation-midpoint",
+          "interval": 477,
+          "complex_real_part_vs_saved_original_query_max": 1.926794452320102e-20
+        },
+        {
+          "query_index": 15,
+          "kind": "collocation-midpoint",
+          "interval": 481,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        },
+        {
+          "query_index": 16,
+          "kind": "collocation-midpoint",
+          "interval": 482,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        }
+      ],
+      "full_augmented_original_RHS_used": true,
+      "unique_endpoint_count": 16,
+      "midpoint_chain_is_original_collocation_formula": true,
+      "complex_chart_expand_not_used": true
+    }
+  ],
+  "maximum_normwise_adjoint_error": 1.6120006105242002e-17,
+  "maximum_local_full_action_error": 0.0,
+  "maximum_original_complex_chain_relative_error": 1.2011127004153625e-12,
+  "implementation_thresholds": {
+    "adjoint_and_local": 5e-12,
+    "original_complex_chain": 5e-05
+  },
+  "implementation_check_passed": true,
+  "actual_supplied_direction_checked": true,
+  "second_complete_Jacobian_constructed": false,
+  "native_tail_called": false,
+  "new_scientific_acceptance_gate": false,
+  "scope": "twelve original left-RMS and five original collocation-midpoint queries, each full finite phi grid",
+  "seventeen_query_projection_entry": {
+    "entry_source_sha256": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b",
+    "optimizer_schema": "exact-constraint-seventeen-query-condensed-complete-H-warm-v1",
+    "parent_optimizer_schema": "exact-constraint-sixteen-query-condensed-complete-H-warm-v1",
+    "declared_initial_parent_optimizer_schema": "exact-constraint-sixteen-query-condensed-complete-H-warm-v1",
+    "declared_initial_parent_warm_sha256": "5a5b9620cec8c48e6ca60d71b2a9db28d00b7112f04bde1fa7d6d4c7245cc5ae",
+    "declared_initial_parent_status_sha256": "e644ee2adf52f8b7684c2f4360672e627f2a19135aa889cb6df4afb898b1247b",
+    "actual_resume_sha256": "5a5b9620cec8c48e6ca60d71b2a9db28d00b7112f04bde1fa7d6d4c7245cc5ae",
+    "actual_parent_status_sha256": "e644ee2adf52f8b7684c2f4360672e627f2a19135aa889cb6df4afb898b1247b",
+    "parent_sixteen_condensed_source_sha256": "b5bfc20259b2d182ac881cf9dab7062912578fb489ef17940c259082bf184815",
+    "seventeen_query_operator_source_sha256": "5bb4f214d4d2505185448a9162c0d995bdb6c37168e6d9542dfe6202e8f21a41",
+    "projection_engine_source_sha256": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+    "actual_midpoint_observer_source_sha256": "94395d54fcf58941180de23731fc2b5bb41fed8608dbda4c17903fffc862e228",
+    "fixed_support_projection_source_sha256": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+    "original_full_producer_validator_source_sha256": "10ed25405930f3775d8fb88f007aa50be4a53f4b3421904be959f1890ed67477",
+    "query_specs": [
+      {
+        "kind": "left-RMS",
+        "interval": 468,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 469,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 470,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 471,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 472,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 473,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 475,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 477,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 479,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 480,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 481,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 482,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 473,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 475,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 477,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 481,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 482,
+        "fraction": 0.5
+      }
+    ],
+    "query_interval_order": [
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481,
+      482,
+      473,
+      475,
+      477,
+      481,
+      482
+    ],
+    "unique_capture_intervals": [
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481,
+      482
+    ],
+    "selected_query_count": 17,
+    "selected_angle_row_count": 34816,
+    "physical_angles_per_query": 2048,
+    "expected_capture_node_count": 16,
+    "complete_B_physical_nodes": [
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483
+    ],
+    "expected_complete_B_local_dimension": 5411,
+    "fixed_projection_physical_nodes": [
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482
+    ],
+    "expected_fixed_projection_dimension": 4059,
+    "fixed_projection_global_p_included": true,
+    "fixed_projection_outside_raw_offset": "c+B_out*z0_out; includes complete nodes468,469,470,483",
+    "offset_required_positive": false,
+    "restricted_projection_set_required_feasible": false,
+    "full_vector_radial_repair_and_backup_retained": true,
+    "final_outside_direction_claimed_unchanged": false,
+    "left_RMS_fraction": 0.17267316464601146,
+    "collocation_midpoint_fraction": 0.5,
+    "mixed_kinds_do_not_share_one_fraction": true,
+    "added_query": {
+      "kind": "left-RMS",
+      "interval": 468,
+      "fraction": 0.17267316464601146
+    },
+    "added_query_evidence": "During actual56 from the actual53 parent, the nearest rejected alpha1/16 had all sixteen modeled grids positive, finite original nodes/midpoints and real merit decrease, but original left-RMS468 failed with beta_squared=-0.009420476255991517 at phi0",
+    "retained_original_midpoints": [
+      473,
+      475,
+      477,
+      481,
+      482
+    ],
+    "current_original_midpoints": [
+      473,
+      475,
+      477,
+      481,
+      482
+    ],
+    "all_eleven_original_left_RMS_queries_retained": true,
+    "original_left_RMS468_explicitly_added": true,
+    "original_left_RMS469_retained": true,
+    "original_midpoint481_retained": true,
+    "original_left_RMS481_separately_retained": true,
+    "original_left_RMS482_separately_retained": true,
+    "original_midpoint482_separately_retained": true,
+    "complete_B_capture_support_unchanged_from_parent": false,
+    "complete_B_capture_expanded_to_include_node468": true,
+    "retained_midpoint481_reuses_captured_endpoint481_and482": true,
+    "new_left_RMS468_full_row_keeps_outside_nodes468_and469": true,
+    "retained_left_RMS469_full_row_keeps_outside_nodes469_and470": true,
+    "existing_rows_still_keep_outside_node483": true,
+    "C_projection_correction_support_expanded": false,
+    "original_midpoint_base_is_direct_state_middle_and_problem_mid": true,
+    "original_midpoint_J_chain": ".5*(dyL+dyR)-h*(dfR-dfL)/8, complete J/P and direct scalar controls",
+    "all_endpoint_factors_from_the_same_original_A_capture": true,
+    "second_complete_Jacobian_constructed": false,
+    "independent_operator_source_without_mutating_parent_module": true,
+    "original_full_vector_radial_and_same_model_segment_retained": true,
+    "original_complete_residual_A_merit_and_all_scientific_gates_unchanged": true,
+    "original_lambda_LSMR_projection_and_seventeen_trials_unchanged": true,
+    "read_only_original_midpoint_observer_retained": true,
+    "parent_producer_subtree_preserved": true,
+    "nonlinear_native_H_solved": false,
+    "fixed_support_description_applies_only_to_baseline_C": true,
+    "condensed_global_H_alternative_declared_separately": true
+  },
+  "selected_angle_row_count": 34816,
+  "condensed_QP_entry": {
+    "schema": "exact-constraint-seventeen-query-condensed-complete-H-warm-v1",
+    "entry_source_sha256": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b",
+    "frozen_dependencies": {
+      "geometry_20261114_twelve_query_projection_warm.py": "10ed25405930f3775d8fb88f007aa50be4a53f4b3421904be959f1890ed67477",
+      "geometry_20261114_twelve_query_domain_operator.py": "6a428d2f8412659cbd318321aa992c3b4565ff41177131a9cc9d268c6fbb7b1f",
+      "geometry_20261114_fixed_support_halfspaces.py": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+      "geometry_20261114_full_metric_projection_warm.py": "8fb6411e7b876713725a80c2dbe9e322cc277001b0692ccc59e0edd59ec4e8b0",
+      "geometry_20261114_full_metric_inequality_correction.py": "d5e9432e979859ed7d5277452ac058eb93e99da1cae7f96f700f15d7359d919c",
+      "exact_20261114_regularized_block_qr.py": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722",
+      "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+      "geometry_20261114_twelve_query_qr_projection_warm.py": "4b768828f754f75d760980d596f198984e92f5ceac79832123c74e42985a5c67",
+      "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
+      "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
+      "geometry_20261114_condensed_projection_warm.py": "5d398d3d702e0fd93af3777504fc1d4e918110c7e5f0683601eac5d21c49914a",
+      "geometry_20261114_thirteen_query_domain_operator.py": "d674a64e11cfac1f57f0c24166546a55045847633935dddb8ef53df4024d3cff",
+      "geometry_20261114_thirteen_query_condensed_warm.py": "7785f4eb905da4c3e80ba988c79fa8a34b0a27017e6b8abc99764d8105eccc7c",
+      "geometry_20261114_fourteen_query_domain_operator.py": "049ab10d130c94d5b1849a2af3b0e3f4848819bb9b7af68230488c25ba778464",
+      "geometry_20261114_fourteen_query_condensed_warm.py": "331b59edadfa1fb7d5f8c64e6f0119c63a62f5e2a3df999549ef7effd932aac8",
+      "geometry_20261114_fifteen_query_domain_operator.py": "c6581f0b8fdef4c3bc48d364c6845cff9a4244b043a4d14c772ef6fd3b2503e8",
+      "geometry_20261114_fifteen_query_condensed_warm.py": "f1310edc94fb3a9c9f95b5dad98e7073c1879997b9a9bdf06c5028e91f83351e",
+      "geometry_20261114_sixteen_query_domain_operator.py": "a92efa1735832d144cb65d617beb2d9018d7822f5cc7d3846d00757abfb2db2a",
+      "geometry_20261114_sixteen_query_condensed_warm.py": "b5bfc20259b2d182ac881cf9dab7062912578fb489ef17940c259082bf184815",
+      "geometry_20261114_seventeen_query_domain_operator.py": "5bb4f214d4d2505185448a9162c0d995bdb6c37168e6d9542dfe6202e8f21a41"
+    },
+    "actual_parent_warm_sha256": "5a5b9620cec8c48e6ca60d71b2a9db28d00b7112f04bde1fa7d6d4c7245cc5ae",
+    "actual_parent_status_sha256": "e644ee2adf52f8b7684c2f4360672e627f2a19135aa889cb6df4afb898b1247b",
+    "actual_parent_schema": "exact-constraint-sixteen-query-condensed-complete-H-warm-v1",
+    "initial_actual56_warm_sha256": "5a5b9620cec8c48e6ca60d71b2a9db28d00b7112f04bde1fa7d6d4c7245cc5ae",
+    "initial_actual56_status_sha256": "e644ee2adf52f8b7684c2f4360672e627f2a19135aa889cb6df4afb898b1247b",
+    "query_specs": [
+      {
+        "kind": "left-RMS",
+        "interval": 468,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 469,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 470,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 471,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 472,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 473,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 475,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 477,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 479,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 480,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 481,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 482,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 473,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 475,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 477,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 481,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 482,
+        "fraction": 0.5
+      }
+    ],
+    "original_full_coordinates": 236036,
+    "complete_B_local_coordinates": 5411,
+    "selected_angle_row_count": 34816,
+    "seventeen_query_operator_source_sha256": "5bb4f214d4d2505185448a9162c0d995bdb6c37168e6d9542dfe6202e8f21a41",
+    "added_query": {
+      "kind": "left-RMS",
+      "interval": 468,
+      "fraction": 0.17267316464601146
+    },
+    "unique_capture_intervals": [
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481,
+      482
+    ],
+    "complete_B_physical_nodes": [
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483
+    ],
+    "complete_B_outside_C_nodes": [
+      468,
+      469,
+      470,
+      483
+    ],
+    "original_left_RMS468_explicitly_added": true,
+    "original_left_RMS469_retained": true,
+    "original_midpoint481_retained": true,
+    "original_left_RMS481_separately_retained": true,
+    "original_left_RMS482_separately_retained": true,
+    "original_midpoint482_separately_retained": true,
+    "original_sixteen_query_parent_producer_preserved": true,
+    "condensation": "R270 full affine square-root elimination; g is original A-transpose b",
+    "original_lambda_and_row_and_chart_weights_unchanged": true,
+    "outside_variables_conditionally_optimized_not_frozen": true,
+    "free_core109_eliminated_with_all_pure_global_rows": true,
+    "all_three_global_controls_remain_local_unknowns": true,
+    "complete_QR_column_preconditioner": "none",
+    "baseline_C_support_nodes": [
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482
+    ],
+    "baseline_C_support_dimension": 4059,
+    "fixed_support_description_applies_only_to_baseline_C": true,
+    "actual_same_f_C_comparison_retained": true,
+    "original_seventeen_trials_and_RMS_and_boundary_checks_retained": true,
+    "original_midpoint_observer_retained": true,
+    "nonlinear_native_solved": false,
+    "full_BVP_accepted": false,
+    "local_QP_budgets": {
+      "maximum_working_rows": 512,
+      "dual_sweeps": 200,
+      "candidate_seconds": 600.0,
+      "recovery_reserve_seconds": 30.0,
+      "original_trial_reserve_seconds": 90.0
+    },
+    "local_root_raw_arrays_exported": true,
+    "every_parent_producer_subtree_preserved": true
+  },
+  "read_only_collocation_observer_entry": {
+    "schema": "original-return-collocation-location-observer-v1",
+    "execution_wrapper_file": "geometry_20261114_seventeen_query_collocation_observer_warm.py",
+    "execution_wrapper_source_sha256": "4205f7322d67cac1c3e851fb5759612ea31288433a21b90fa55b8b8406916121",
+    "original_seventeen_query_entry_source_sha256": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b",
+    "original_optimizer_schema": "exact-constraint-seventeen-query-condensed-complete-H-warm-v1",
+    "observed_original_sources": {
+      "geometry_20261114_seventeen_query_condensed_warm.py": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b",
+      "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+      "geometry_20261114_full_angle_projection_warm.py": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152"
+    },
+    "actual_parent_warm_sha256": "5a5b9620cec8c48e6ca60d71b2a9db28d00b7112f04bde1fa7d6d4c7245cc5ae",
+    "actual_parent_status_sha256": "e644ee2adf52f8b7684c2f4360672e627f2a19135aa889cb6df4afb898b1247b",
+    "observer_source_sha256": {
+      "geometry_20261114_seventeen_query_collocation_observer_warm.py": "4205f7322d67cac1c3e851fb5759612ea31288433a21b90fa55b8b8406916121"
+    },
+    "mathematical_source_ledger_and_schema_unchanged": true,
+    "original_evaluate_called_once_per_original_request": true,
+    "original_weights_called_once_per_original_request": true,
+    "extra_RHS_calls": 0,
+    "extra_Jacobian_calls": 0,
+    "extra_profile_boundary_or_model_calls": 0,
+    "extra_trials": 0,
+    "full_physical_scope": "all intervals and all original physical components",
+    "row_order": "interval-major physical collocation, then all original right boundary rows",
+    "row_weight_scope": "the original base-state Wr returned once for this model, frozen across trials",
+    "no_trial_fmid_weight_recomputation": true,
+    "observer_exceptions_do_not_replace_original_return_or_gate": true,
+    "numerical_result_or_acceptance_claimed_by_observer": false
+  },
+  "execution_wrapper_source_sha256": "4205f7322d67cac1c3e851fb5759612ea31288433a21b90fa55b8b8406916121",
+  "mathematical_producer_source_sha256": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b"
+}
