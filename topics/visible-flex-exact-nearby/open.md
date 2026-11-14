@@ -202,3 +202,5 @@ firstsymbol有限部首跑43589646508真实失败于原scalar点区间floor，28
 R133两行Airy/腰端audit已证并接独立公开13门：current waist准确S=0，根finite symmetric cross项(buv/η)|root必须保留（只有角均值为0）。实际moving→regular两行标量化应从完整方程含mean/primitive/source出发，不借bareheight模型宣称完整returnβ。正文 results/R133-supplement-two-row-Airy-audit-and-exact-waist-normalizer.md。
 
 R119 root graph完整density空间二阶与4/3费现已付，见 results/R119-supplement-complete-root-graph-two-order-slope-budget.md；图高q可变号/为0而不除q，全部mean/实际principal/height与weak源合同保留。仍须非mean自由Airy↔strict两行转换、高输出/低到高门、完整strict及全混频网络，不能用局部graph界授新全网cutoff。
+
+43591378059原过程与四native已根核：7代数门及四真实完整193×96连续格全部return0。已证范围见 results/R133-supplement-actual-four-complete-continuous-projector-cells.md；后续5970格并集仅新增5966，全部末端jump含腰零长接口必须保，不能用四格通过外推未算格。

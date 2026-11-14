@@ -81,3 +81,5 @@
 - [R133：完整两行Airy审查和实际腰端归一化恒等式](results/R133-supplement-two-row-Airy-audit-and-exact-waist-normalizer.md)：已证明自由Airy的完整两curvature行加cross normalizer与strict首符号一致，不能只取height的−5/48；原degree5/simple-knot及准确奇偶结构给当前腰K′=b=S=0。当前非径向根另有有限对称off-diagonal (buv/η)|root，原反射类均值0但整矩阵必须保留。独立8输入manifest和13门公开audit接入；模型不替代真moving非局部根/positive反射及strong。
 
 - [R119：真实根图完整二阶及4/3斜率费用](results/R119-supplement-complete-root-graph-two-order-slope-budget.md)：已证明同一实际root graph在完整density空间的齐次差二阶<2^1024b²及4/3阶<2^700b^(4/3)，正逆均保真实principal、两mean、height恢复。准确图方程的跨支primitive取R=κ(1−c²g′²)/c，不除可变号/为零的图高；多余b由原b²n≤2^-512支付。ordinary/weak源与Γ*合同保，非mean自由Airy→strict两行转换和完整网络继续。
+
+- [R133：四个实际完整193×96连续projector格的公开证书](results/R133-supplement-actual-four-complete-continuous-projector-cells.md)：已逐原过程及native核43591378059真实五个子进程return0：7个193状态约定门、四真实闭格0/76/3300/5969全部通过，完整Gram最小奇异值>.9995；signed μν、cross、normal残差、ρ′ρ、128primitive和末端投影跳逐项保留。四份成功原native后续唯一复用；全5970、weighted边界/Green/源/high反馈继续。
