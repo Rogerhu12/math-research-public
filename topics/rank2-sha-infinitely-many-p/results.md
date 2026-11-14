@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R469：E2312全权平方、普通与惰性完整Sha桥](results/R469-e2312-full-weight-square-ordinary-inert-sha-bridges.md)：同一degree136原来源付408/136周期尺度、4608有限下降和全部Euler/通常Selmer，普通及惰性中央导数均控制整个初级Sha。精确p23证书给秩恰2及Sha[23∞]有限；固定平方常数保实际赋值，无穷非零仍开。
+
 - [R466：固定二倍来源的五条真实sextic线与新秩至少二曲线](results/R466-fixed-two-division-sources-and-new-rank-two-sextic-curve.md)：完整2/3/17局部角色、奇偶Rao向量及全权Yang平方识别五条degree136线；四线质量非零，新E2312:y²=x³+2312有两个严格独立点。101/64整组合准确抽首z6新来源，保六外谱与同ray core。
 
 - [R470：原Riemann负来源到新谱线的完整投影与单位域运输](results/R470-original-riemann-negative-source-and-explicit-new-line.md)：原A136经完整18项CM投影准确为13Snew/90；全部真实纤维、第一单位测试尺度及第二B四态保留。两原mixed项分别回±4576δ Snew⊗B/81，不从旧S/T零赋新增中央零。
