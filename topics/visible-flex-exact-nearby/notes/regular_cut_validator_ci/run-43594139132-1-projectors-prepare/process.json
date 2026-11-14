@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete_cut_projector_disjoint_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43594139132",
   "run_attempt": "1",
@@ -50,9 +50,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T12:19:35.518491+00:00",
+      "before": "6ab42353295419f5f3f2028c388d3cd745df4f86",
+      "after": "bd4b9e95f62888f309e54cc7e44efbfe48b5243a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T12:19:34.235714+00:00",
+      "final": false,
+      "commit": "bd4b9e95f62888f309e54cc7e44efbfe48b5243a"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -89,11 +103,23 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "6ab42353295419f5f3f2028c388d3cd745df4f86",
+  "last_read_commit": "bd4b9e95f62888f309e54cc7e44efbfe48b5243a",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-projector-prepare-work/science",
-  "snapshot_utc": "2026-11-14T12:19:32.430999+00:00",
-  "wall_seconds": 7.0754175150000265,
+  "snapshot_utc": "2026-11-14T12:19:35.635162+00:00",
+  "wall_seconds": 10.279590469000027,
   "native_files": [
+    {
+      "logical_file": "evidence/complete-true-weighted-boundaries-summary.json",
+      "file": "evidence/complete-true-weighted-boundaries-summary.json",
+      "bytes": 14580,
+      "sha256": "aa7ff4e587c2453b47ca1375e990689cd9645dac33aa5fb764ab1dab5914908b"
+    },
+    {
+      "logical_file": "evidence/exact-disjoint-frame-slices.json",
+      "file": "evidence/exact-disjoint-frame-slices.json",
+      "bytes": 7530,
+      "sha256": "ab88764723d6a89ddabf48b2a1bc1d1c75e779b1c1e6692f316debcc9dcf22ad"
+    },
     {
       "logical_file": "evidence/original-complete-frame-process.json",
       "file": "evidence/original-complete-frame-process.json",
@@ -148,5 +174,95 @@
       "bytes": 10598,
       "sha256": "d51f3f1aa0bf8ac7af555de349f52c9b0fecb6e5beec67a90fbe81a9a8c7424e"
     }
-  ]
+  ],
+  "prepared_frame_slices": 16,
+  "reused_actual_pilot_cells": 4,
+  "new_requested_cells": 5966,
+  "complete_weighted_boundaries_verified": true,
+  "weighted_boundary_native_sha256": "56db8a3498494bf48de14b50418010053bb6058c722c41993c894c463786dc25",
+  "full_validator_scientific_identity": {
+    "kind": "actual_complete_weighted_cut_local_projector_validation_v1",
+    "source_sha256": "998e4112f4ee79706f43b9ac550fcb15023e0899999fa8516c7cec07c3a7ff97",
+    "interval_model_source_sha256": "b30eb7299d5803856712134947f3d7899961cc3ab7597ce961b9bf0cf5205183",
+    "input_sha256": {
+      "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+      "object": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+      "proposal": "6dbc3acfcfbdd051c83344561f13102d30f20699db1e0046357d0ede1ec79639"
+    },
+    "original_exact_frame_identity": {
+      "kind": "actual_complete_repaired_cut_to_waist_weighted_polynomial_frame_proposal_v1",
+      "source_sha256": "f590064681ab8601071c7fb4007fe6227ddaa4392d635c4734ac84e73014a33d",
+      "complete_background": {
+        "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+        "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+        "q_vector_sha256": "8f2471f709d5350212c3bb12a2e180fef37cbd8ced72e7ed858d6687b5fa36d9",
+        "actual_waist_row_sha256": "c99e3f6c7fd4975ee8fd1de26fadad7f4e42c6c379a861830d6fa419046b052e",
+        "modes": 96,
+        "centre_modes": 32,
+        "exact_alpha": "6890507429876859/9007199254740992",
+        "exact_nu": "-2572625729470897/72057594037927936",
+        "angular_grid": 1024,
+        "physical_boundary_grid": 8192,
+        "state_coordinates": "physical unnormalized moving variation; h1 sine(4j phi), h2 cosine(4j phi) including its true mean",
+        "background_coordinates": "moving phi: u=alpha*U; v=1/Cref_nu+alpha*V; theta_phi=v/mean_phi(v); B=u/v; C=1/v",
+        "source_sha256": "3fe305bd6632e42a3170cac7385b90f643b56ac719febc0f96e6960b16cc0089",
+        "dependencies": {
+          "fourfold_codazzi_candidate_shards.py": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e",
+          "fourfold_codazzi_moving_polynomial_system.py": "9d5b70e81fcb6ac93a2cd802529b9a4509e278c31598c05e93ac6e1f7c4f784a",
+          "fourfold_codazzi_moving_regular_endpoint_system.py": "ee5a621f6dc3c2ac552477c71f6ba56817743428f904cd7636281ade57d7be3a",
+          "fourfold_codazzi_reciprocal_polynomial_system.py": "27abad425627b219b5ea1de4f6935c82714511cefb980c4d24171a1d77e0c646",
+          "fourfold_codazzi_compact_metric_branch_probe.py": "e1692ce4e7b1090adb0aeab7414f8df32411072283cedad3d848ca4fb18ef0a4",
+          "fourfold_codazzi_compact_metric_return_probe.py": "6b857134df75524e0fffcaa163212bfbb03c3edffee983f27cde3f9357ab9a38",
+          "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+          "fourfold_phase_codazzi_rotational_reference_probe.py": "c8495d0c1721a21a24b48c8cdce9e825a8110f4923edd01e9eb2b7fe76b2d411",
+          "fourfold_codazzi_rotational_cap_jacobi_probe.py": "2bfb4c8d7bca6ffe75d6496f8f9c3baa17ba5ee83045c6ca09dc475853d30114"
+        },
+        "Schur_complement": "fixed_nu_complete_regular_outer_rows_waist_amplitude_output",
+        "regular_complement_source_sha256": "5b441c22f859b752edcf808223bb4818e9b8d001b4e58d8516b997a156700e47",
+        "old_body_model_source_sha256": "3fe305bd6632e42a3170cac7385b90f643b56ac719febc0f96e6960b16cc0089",
+        "original_fourth_Robin_row_retained": true,
+        "parameter_source_convention": "D h = (+ partial_nu F) delta_nu + f",
+        "derived_continuous_centre_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+        "all_exact_physical_offsets_sha256": "c66b5d52c3cd6b07e96853e1065345360a88b7f2f967b6f1606c880b68e33875",
+        "repair_report_sha256": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+        "original_candidate_not_modified": true,
+        "floating_repair_evaluation_is_only_a_proposal": true
+      },
+      "input_SHA256": {
+        "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+        "object": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+        "q-vector": "8f2471f709d5350212c3bb12a2e180fef37cbd8ced72e7ed858d6687b5fa36d9",
+        "waist-row": "c99e3f6c7fd4975ee8fd1de26fadad7f4e42c6c379a861830d6fa419046b052e",
+        "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+        "cut-native": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba"
+      },
+      "exact_weight_mesh_sha256": "f94fd64f8faff800dfe67ea6689905b87acde06964d10eb667629d5c8cd25a75",
+      "exact_interval": [
+        "0",
+        "9/10"
+      ],
+      "regular_dimension": 96,
+      "state_dimension": 193,
+      "polynomial_order": 24,
+      "step_growth_target": "2",
+      "exact_regularization": "1/64",
+      "python_float_object": "IEEE binary64 proposals only",
+      "numpy_version": "2.3.5",
+      "scipy_version": "1.17.0",
+      "finite_head_only": true,
+      "complete_infinite_high_and_true_cap_fees_retained_as_unpaid_inputs": true
+    },
+    "exact_weight_mesh_sha256": "f94fd64f8faff800dfe67ea6689905b87acde06964d10eb667629d5c8cd25a75",
+    "complete_original_proposal_cells": 5970,
+    "exact_original_complete_offset_sequence_sha256": "c66b5d52c3cd6b07e96853e1065345360a88b7f2f967b6f1606c880b68e33875",
+    "exact_alpha": "6890507429876859/9007199254740992",
+    "exact_nu": "-2572625729470897/72057594037927936",
+    "parameter_offset": "0",
+    "full_state_dimension": 193,
+    "regular_dimension": 96,
+    "polynomial_degree": 24,
+    "arithmetic_bits": 256
+  },
+  "finished_utc": "2026-11-14T12:19:35.115648+00:00"
 }
