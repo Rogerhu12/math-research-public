@@ -4,11 +4,11 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `8217b74f0ad716b6112676220f33eef5bc63ce75`（2026-11-14 10:52:37 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `4cf4f5f827208291b920316bb14e561cea99cb34`（2026-11-14 10:55:26 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。`0c17ddf2`新增表列课题/规矩1、13扩范围，`ee26c0a6`仅改另题标题，均已读，ISP标准不变。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`；旧丢失R272正常预对偶与R273完整MP已重建并推送。
-- **完整旧范围：** [此前H](notes/2026-11-14-handoff-before-five-weight-hard-top-789f.md)与[open归档](notes/2026-11-14-open-before-five-weight-hard-top-789f.md)保完整范围；未列接口不算关闭。
+- **完整旧范围：** [此前H](notes/2026-11-14-handoff-before-boolean-inner-energy-789f.md)与[open归档](notes/2026-11-14-open-before-boolean-inner-energy-789f.md)保完整范围；未列接口不算关闭。
 
 ## 模型及不可越过的范围
 
@@ -37,6 +37,7 @@
 - **R296：** [全birth残差/真实桥](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)保全部低阶回归、两带及共同Z，真实创新=−P_L完整拟合二阶差；商代表不变、硬顶与C²深塔均保。出生二τ≤1全源精度在z_S(τG1+τ²G2)/5与6倍之间；相邻首事件ridge恰组内真C1≤I，全事件仿射Gram≤(1+4τ)低事件且最优修正Schur写全。共同物理创新/相邻完整逆及一般κ仍开。
 - **R297：** [任意临界池弱位](results/R297-weak-bit-critical-pool-cancellation-and-first-edge-transfer.md)保全部物理源和对偶sl2硬端身份，消a^−1危险块；新首标准化费用→diag(0,旧低birth首费用)，U列O(a²)。严格反例经h−1个有限正弱位传到奇数硬端；[同常数等价](results/R297-appendix-weak-bit-hard-top-universal-strengthened-equivalence.md)现付全部有限正权/出生/高度加强κ⇔仅M=2r+1首边同κ。[硬端消逆](results/R297-appendix-odd-hard-top-innovation-and-dual-lowering-cancellation.md)付Δ*C1^−1=−L1A_U，统一目标化A_U*L1L3^−1L1A_U≤κI，A=Σbi^−1Ei；倒数权等价B*L2²B≤κG1、物理正交跨块和无顶逆式均已写全；两自然未投影提升在N5真源上发散、投影费<1/3，不能删投影；统一界与graph仍开。
 - **R298：** [独立五权完整硬端](results/R298-five-independent-positive-weights-birth-two-hard-top-strengthened-s1.md)以真实低源迹和全部79整数对称轨道付M5/r2整个五维源费用≤743/782，缺陷≥(39/782)C1²。保第一MP逆、顶层压缩逆和负项；一般奇数硬端统一κ及原graph仍开。
+- **R299：** [逐位内函数/完整能量](results/R299-boolean-product-inner-kernel-and-complete-primitive-energy.md)付同一物理Pick正核、源保持Gauss分解及全birth平方和，硬端首尾含J1u和A_Uu；尚未把L1A_U识别为真实Schur块，统一κ继续。
 - **续接/CI：** S2旧运行43575194207两列成功，不重复展开。继续一般硬端真实投影预算、出生二共同创新与R150原生正常形；原正常谱/商距离缺口保留。
 
 ## 3. R150 与其他主接口

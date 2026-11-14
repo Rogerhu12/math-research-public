@@ -87,7 +87,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 **其他原边界接口。** [R294原连续尾应用](results/R294-appendix-original-tail-coordinate-shift-and-improved-first-return-cost.md)保完整真幂逆/同K，以坐标平移给cond(H_t)≤2(t+1)^4(t+2)^4、全部旧列非交换乘积≤16(h+2)^28 S_m H_(ℓ−1)；最高d无新列，D1*真实Θ锚费≤4(d+2)^14√S_m，q/m一致。a≥2、Γ跨birth及无速率锚乘增长仍开。双宽商/负配对、深jet Schur、天然四块真重排等范围全保快照；两带不可免费取交，无权增长/指定回馈/pure继续。
 
 
-[两组＋一位全出生全高度](results/R239-appendix-two-weight-groups-one-exceptional-all-births-all-heights-strict-bound.md)的严格c1已闭。[R273](results/R273-two-exceptional-weights-complete-schur-recovery.md)恢复两组＋两异常位：出生一3D及2≤t≤min(q,L)的4D完整MP/单参数Schur，保两硬端；[R292全参数续稿](results/R292-appendix-main-parameter-s2-and-all-two-exceptional-birth-two-first-edges.md)现闭Q1,Q2≥2的四维及整个物理K2严格首边；其他出生/内部高度仍开。[共同低阶矩/真实桥](results/R273-appendix-shared-low-moment-normal-form-and-physical-cubic-bridge.md)及[8D多项式核](results/R273-appendix-eight-dimensional-aggregate-polynomial-gram.md)保同源/完整逆与硬端；正分母不代相邻分子正性。
+[两组＋一位全出生全高度](results/R239-appendix-two-weight-groups-one-exceptional-all-births-all-heights-strict-bound.md)严格c1已闭。[R273](results/R273-two-exceptional-weights-complete-schur-recovery.md)保两异常位完整MP/单参数Schur与硬端；[R292](results/R292-appendix-main-parameter-s2-and-all-two-exceptional-birth-two-first-edges.md)已闭Q1,Q2≥2整个物理K2严格首边。共同低矩、8D核及全部旧范围保[本次前open](notes/2026-11-14-open-before-boolean-inner-energy-789f.md)；其余birth/高度、相邻分子和graph仍开。
 
 [R281强位传输](results/R281-heavy-bit-height-transfer-and-sharp-universal-first-edge-lower-bound.md)与[R283惰性配对](results/R283-exact-singlet-padding-and-half-density-universality.md)已保完整逆，付全height/首边最优普适常数相同且≥1，以及任意薄半密度带的全有限问题嵌入。旧精确数值/量词保[本次前open](notes/2026-11-14-open-before-general-residual-regression-789f.md)；一般c1与大出生费用仍不能由强池/稀释省去。
 
@@ -104,6 +104,8 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 [R297临界弱位](results/R297-weak-bit-critical-pool-cancellation-and-first-edge-transfer.md)以真实对偶sl2和跨出生身份消尽a⁻¹危险块，完整标准化费用→diag(0,旧低首费用)。[同常数硬端归约](results/R297-appendix-weak-bit-hard-top-universal-strengthened-equivalence.md)将全部有限正权/出生/高度加强κ等价于M=2r+1首边；严格反例逐次取有限正弱位，非严格极限不替有限权界。[硬端消逆](results/R297-appendix-odd-hard-top-innovation-and-dual-lowering-cancellation.md)给Δ*C1⁻¹=−L1A_U及单一目标A_U*L1L3⁻¹L1A_U≤κI。[倒数桥平方](results/R297-appendix-reciprocal-bridge-square-and-physical-projection-target.md)又等价B*L2²B≤κG1或L1(P_Ve*eP_V)L1≤κL3+9L1³。[两自然提升障碍](results/R297-appendix-unprojected-lift-obstruction-with-bounded-physical-fee.md)给五位真源未投影费~t⁴/3、t⁴/12而投影费<1/3；真正压缩逆、L2平方和物理投影均不能删。完整全部来源保[本次前open](notes/2026-11-14-open-before-five-weight-hard-top-789f.md)。
 
 [R298独立五权全源硬端](results/R298-five-independent-positive-weights-birth-two-hard-top-strengthened-s1.md)已证明M5/r2整个五维源加强费用≤743/782，严格缺陷≥(39/782)C1²。完整真实迹的−9L3⁻¹L1³项保留，十九次整数N/D的79个对称轨道给743D−782N全系数非负且非零；不是旧分组普通序或指定S3不变线。一般更大奇数硬端统一κ仍开，也未支付原graph。
+
+[R299逐位内函数](results/R299-boolean-product-inner-kernel-and-complete-primitive-energy.md)现给同一物理Pick正核与primitive源保持Gauss分解，完整平方和保全部创建层/占据对角D_t及高次精确消去；硬端首尾确含J1u、A_Uu和三次桥。尚未把L1A_U识别为该正核的准确Schur块，不能由一般内函数收缩免费插入第一MP逆或推出κ。
 
 [R286 固定源全高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源逆平方根能量和原慢尾全height/几何和。实际t_q祖先出生随q上移，固定birth塔最终无分量；受限逆后不自动保有限支持/固定birth，跨出生graph、完整e_q和N=M仍开。
 
