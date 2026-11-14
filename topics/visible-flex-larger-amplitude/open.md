@@ -119,3 +119,10 @@ request42并行两条：前缀从真实40继续冻结QR入口active32；native�
 
 
 [原1372方向的原十试步组件](notes/2026-11-14-native-rawcell0-step-original-trial-replay-interface.md) 已发表（py f944c877…、hook347ce7ed…），只供显式来源30a467e8…的原step方向；不派actual42坏方向、不冒新G producer。完整28/41绑定、307552原delta及577限制逐bits对应、完整H/far/graphs/σ保持，原十alpha与evaluate(false)/guard/严格norm下降原体不变。首接受保全state后STOP，不冒后续native/J/audit。新G需独立来源/schema接口，仅读原系统和保存方向，不重形成G/J。
+
+
+### actual43节点G：一次改善后原缺陷仍大
+
+[完整失败记录](notes/2026-11-14-actual-request43-node-gauge-direction-failed.md) 已发表：同原矩阵e929e642…，全307552行exact为7.0998783037e21→3.2580669778e21→3.7694419386e21，保1、最坏旧43/step11/Pi112。实际G保869形成块/503原块/原边界σ；longdouble64有效位，形成cast与均衡损失分账。真正LU RHS无下溢零，辅助2^-2048 RHS下溢从未用于solve。未独审大阵，不据此判矩阵奇异或唯一误差层；不派坏δ或重同修正，继续原RK逐级表示分析。
+
+43中的42摘要step有continue-on-error，表面success但publication无文件，先前“已提取”撤回。只读v2将始终保存逐件SHA/phase/异常，首因待实际小回执；不重42科学。R270完整QP继续。

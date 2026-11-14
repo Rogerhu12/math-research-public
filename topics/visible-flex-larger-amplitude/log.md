@@ -348,3 +348,10 @@ R271全文12528B/f6aabf31…已读并直接入results及索引。任意完整A_i
 旧step试步Python27617B/f944c877…、hook55163B/347ce7ed…及接口13260B/c8e27a3b…已全静态读并发表；hook为失联前最后Node/纯string验证字节，Python最终schema小改仅静态、未冒新运行。绑定28/41原件及30a467e8 producer/fulldelta/577restriction所有字节与负零；缓存原baseline .04177307820740199、不重复withJac。原trial loop/evaluate(false)/guards/严格原σ下降body603924d1…保持，首接受完整state STOP，全部拒绝保存失败stage，后续Newton/J/audit未执行。
 
 说明纠正：公共dn.tail.solve是未改arrow wrapper（283de191…），三插入在内部solveQ；过去认为旧generic公共toString必然改变的推测不成立。本组件明确内部反向去三插入恢复原源码身份、不伪造toString。仅组件保存，不派actual42坏δ；新G试步将独立schema/source，不实例化G重形成矩阵。
+
+
+### 2026-11-14 18:28 UTC：actual43保存G方向仍失败
+
+公开run43626121246/source5c6f45fc/job132542216129/art14126695571/430132210B/ZIP2fd2f070…已发布。亲读summary/形成/均衡/LU/三轮exact/初次恢复和真RHS小报告；每次原1372全307552行、68841584乘积位置，范数7.09987830368630829e21→3.25806697778557413e21→3.76944193857401563e21，最佳旧43/step11/Pi112、δ10ed4f19…；result.gz cf6e0034…。LU0、原尺度仍坏。完整10279B失败note保全部身份/见证/ledger/精度账和未做大阵审计范围，无新ODE/J/trial/native。继续原RK逐级有限变分分析，不据理想连续换元替原离散。
+
+更正42摘要进度：43的该step表面success（continue-on-error）但publication和目录无文件，撤回“已提取/七SHA已过”推断，具体首因未知。v2独立84623638…将始终输出小failure/phase/逐件身份，不重42科学，不冒失败成功。原G计算与该缺失独立。
