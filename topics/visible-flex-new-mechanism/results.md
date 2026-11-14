@@ -247,3 +247,5 @@
 - [R121：中央基准补偿后的31+1真实查询联合支付](results/R121-central-baseline-correction-and-joint-fourth-query-control.md) — 先用R117中央MT0块逐个准确清掉第三prototype的λv，保τ及K不变；完整R101词仍为E+n(2v̂+tK)，其λ查询不再随n增长。先固定t盒/m，再取中央N，最后响应n，把中央完整N²/N³成本留在Q下，以一次乘积盒Brouwer付同一I/同合法C∞三矩圆的32个任意共同目标；一般r个响应方向给r+1。可接真实I→D基准和R45四块闭浸入，保全部连接成本；未认商恰一维、完整函数/ruling或目标闭面已成。
 
 - [R123：静态纯尾的三维分权系数商与G的准确投影遗漏](results/R123-static-pure-tail-three-dimensional-graded-quotient-and-G-blindness.md) — actual43648433010消费完整197个pure几何原根，154非零/254分权目标，全有理分解差零；模31维响应的分权系数商为3维（w−1一、w0二），均在旧45行内，四块偶商2维。完整G纯m8九项恰原列10/128，说明此投影不忠实检测完整成本商。2.596s/RSS116.625MiB，新7toy过，完整证书保存；未施加真实M0、未认未分权或可达秩。下一真实规范化须连同−Σa_i(m2)Fi补项，不能将∫m0当0；原L2/L4仍欠。
+
+- [R122：G的有限仿射轨道商与真实多查询支付](results/R122-affine-G-orbit-and-real-joint-query-control.md) — 真平移幂零且降权，首次NˢG∈R8的s恰轨道商维数，s个平移G给Vandermonde基。真实互反族经先缩放后平移给2NκH K_Gz+2NR_H(z)+E_H(z)，低权余项对H≥1统一有界，桥只在H固定后有界；先H、后N、最后R121响应n的乘积Brouwer付r+s个同I/同合法圆查询。s仍未知，最小下一门只检NG；若U4=R8+orbitG才授整函数控制，当前未证。所有连接与N²/N³历史保，不以闭锥代实际词。

@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`0c08b43a0a23c13b47bc1bcf01a60bf8ddf71a88`。每次真正pull --rebase后立刻核双README，有变只读差异即执行并记SHA；至少每小时pull。每个有意义结论立即commit/push，NFF立刻pull/rebase核规则再推至成功，绝不force。根README blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后已读规则提交：`d625bb293e07541b4bf717524e14a45392be03aa`。每次真正pull --rebase后立刻核双README，有变只读差异即执行并记SHA；至少每小时pull。每个有意义结论立即commit/push，NFF立刻pull/rebase核规则再推至成功，绝不force。根README blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有22:30:53 UTC在公开Actions实际partial clone/pull至`357fe03197b3fe4dd835d67e77f97ae9b84bd482`，双规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**。仅公开元数据；下一私有pull不晚23:29 UTC。回执在actions-43648433010-1-static_m8_tail_quotient。
 
@@ -22,7 +22,7 @@ H<10KB，MD<100KB，open尽量<30KB；数据>1MB gzip/单件<5MB。明确stage�
 
 当前最佳物理态 **e407a21488257097f60073f7e46e19f987dc963760957040ee7254a02889beb4**，来自43642966285/source d891604e。384/768 η .266411174/.267146532、κ73.359843/73.359830；fine strip.389989992779，镜像.1016723303，minq.8563692921，球范数².9906263485，minz.02，盒0。内门.38999余7.22e−9，外门.39余1.00072e−5。帽重建余−2.78e−17在1e−9tol内而非严格非负。旧rawδ.26640845723两网失败不抬；同态η差2.11e−6不是连续证书。曲率峰patch s=.7875，metric入口t=.1425。
 
-曲率新actual **43645177423/source2f1b809c**：固定ηbar167/625=.2672、ζ=λ/100、真实I完整二jet与法向导数，160×384全值、16径向+0/L≤18批Jac。新人工方向导差1.424e−10。20轮全2major，40major/41物理/61aux，池2080→3866；优化113.733s/总329.486s，RSS1571880KiB，普通/分批jet差3.55e−15。最后仍e407、λ73.359917402，无曲率改善；.061目标要求κ≤16.39344262未达。原raw5220015B在publisher压缩前5MB门失败；**43646786908仅恢复六原文件成功**，完整gz与SHA见notes/curvature-epigraph-first-actual-and-recovery-20261114.md。不得复算来代替已成输出。
+旧曲率actual **43645177423/source2f1b809c**：固定ηbar167/625、ζ=λ/100、真实I完整二jet/法向导数，160×384全值、16径向+0/L≤18批Jac。新人工差1.424e−10；20轮全2major、40major/41phys/61aux，池2080→3866，优化113.733s/总329.486s/RSS1571880KiB。最后仍e407、λ73.359917402，无κ改善；.061目标κ≤16.39344未达。原raw5220015B因压缩前5MB门发布失败，**43646786908仅恢复六原字节成功**；全部SHA/细表见notes/curvature-epigraph-first-actual-and-recovery-20261114.md，不复算旧几何。
 
 只读诊断 **43647629532/source6fcdcdb2** 成功：20次交换时当前池也仍违反（首124/末216行），末24遗漏仅metric_minus；最低κ39.2818的η1.1700失败，后期κ53.6252/η.267206645仍失败。只有初点满足固定metric+物理门。旧触发metric tol1e−5与实际1e−9不同。**新策略复用learned3866池，从合格e407出发，仅池内按原实际tol恢复可行后才换池；池内违约让同次SLSQP继续，出口也严格查遗漏。** 原20round/80major/120phys/300优化秒不变；不单纯加轮数，不放宽门。
 
@@ -53,7 +53,7 @@ R110完整K尾D25=−153664c7/75；R111四平移/保桥基准/Brouwer已付整�
 
 ## 6. 持续推进
 
-1. R119已付静态非负锥的八矩乘子充要门：正配平成本非负恰∃μ使λL0−μm0≥0。对完整真实路径只必要，λ须杀R8；ambient extension差由矩阵乘子吸收，尚无非零完整正泛函。R120现证所有真实成本非负泛函杀G，R8+RG及其有限仿射轨道在universal闭锥lineality；维≥32。它不授预定窄I、有限半群逆元或全函数控制。R121已先中央修正每个第三prototype的λv，再固定t盒/m→N→n，以乘积Brouwer付32查询，保全部N²/N³成本；未知其余商继续。
+1. R119给静态八矩乘子充要门，对完整路径只必要；R120 universal闭锥lineality含R8+G仿射轨道，维≥32，不授窄I/有限逆元。R121先中央清prototype λv，再t盒/m→N→n乘积Brouwer付真实32查询。R122升级到A=R8+orbitG的r+s查询：先有限H压低权、后N、最后响应n，完整N²/N³保；s未知。下一最小门NG∈R8？若成员则s=1停止链，否则继续；未证U4=A/完整period。
 2. static_m8_tail_quotient actual43648433010/source df535c0c成功：197原根/154非零/254分权目标，R123分权系数尾商秩3（w−1一、w0二；未分权/真实成本秩未认），G九项尾=原列10/128、余0；2.596s/RSS116.625MiB，新7toy全过。完整证书318551B→47339B。M0几何约束未应用，不冒真实周期商；下一做L0−Σa(m0)Fi，并完整输出−Σa(m2)Fi；真正L2/L4仍欠，不能置∫m0=0。
 3. 已部署curvature_feasible_exchange（库ed77abc3/driver60a3bd66），同g/e407/learned3866，原预算/门不变，先新调度及11输入人工再actual；旧源码不改。
 4. continuation最多两lane；所有输入有SHA/run/source绑定，publisher真实pull核规则、gzip后<5MB、NFF循环。本run22:30:53私有actual pull双规则无差/QUEUE正确，按23:29期限续查。
