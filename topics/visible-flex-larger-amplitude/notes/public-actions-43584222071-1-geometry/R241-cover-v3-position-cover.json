@@ -1,0 +1,117 @@
+{
+  "schema": "finite-closed-active-position-cover-v1",
+  "finished": true,
+  "writer_source_sha256": "3ba8a0d02266d2b057862c0741dc0a6f65c1276514adab8e403852d69a55809c",
+  "producer_source_sha256": "3362fc35c09b98a8feb10706f2b126c9bc45e7d45a4294c928b4b72e59d2c7a1",
+  "closed_bundle_sha256": {
+    "plan": "3d4a7103e11b253ccaeda1e5d89fa5dd12a019c71f0fcf5f5db751dd3d3144a2",
+    "assembly": "ba049bb2966f7b380c494b663488d1197650a696a6c9de7c8b5e42043e190288",
+    "phase0_mesh": "bc6f2f9bbb678bbf1a6337fd78d7c11f490cc61201313de9adf99691c176152c"
+  },
+  "active_parameter_cover_complete": true,
+  "enclosure_definition": "For every actual unmarked active point in block i, |F(p)-stored_center_i| <= enclosures[i], including center-coordinate error.",
+  "active_centers": 63840,
+  "chunks": [
+    {
+      "file": "R241-cover-v3-position-cover-centers-000.npz",
+      "first": 0,
+      "count": 15000,
+      "bytes": 156582,
+      "sha256": "e0e72903f430fa299392c34e55bccc631c752ec5acd740ab9ca612d994ef2175"
+    },
+    {
+      "file": "R241-cover-v3-position-cover-centers-001.npz",
+      "first": 15000,
+      "count": 15000,
+      "bytes": 187367,
+      "sha256": "881c76994ad6e409ea400db46494ac22cbda769db738665059eabea5b7a98f09"
+    },
+    {
+      "file": "R241-cover-v3-position-cover-centers-002.npz",
+      "first": 30000,
+      "count": 15000,
+      "bytes": 185218,
+      "sha256": "ad1fcfc206c9b8fe87e672baf83489006998a4707be234f610cfe263fe200dae"
+    },
+    {
+      "file": "R241-cover-v3-position-cover-centers-003.npz",
+      "first": 45000,
+      "count": 15000,
+      "bytes": 168822,
+      "sha256": "4140740d30231bad68b1b174c4df1eef76639bcacd19d8a1f1ad878af501bc16"
+    },
+    {
+      "file": "R241-cover-v3-position-cover-centers-004.npz",
+      "first": 60000,
+      "count": 3840,
+      "bytes": 34382,
+      "sha256": "5b0d8fb8c03a3a014c651ba20ae9701bc3952062d9161b9de84538e5162c1f82"
+    }
+  ],
+  "marked_diameter_upper": 3.980751407764145,
+  "diameter_scope": "Upper bound for the entire marked closed family for every phase, conditional on the producer envelopes.",
+  "witness_position_error": 1e-12,
+  "distance_evaluation_error": 1e-12,
+  "supplied_envelopes": {
+    "curvature": 8.35,
+    "relative_metric_operator": 1e-06,
+    "tail_abs_slope": 0.4,
+    "evaluation_position_error": 1e-12,
+    "reference_radius_lipschitz": 1.0,
+    "evaluation_normal_angle_error": 1e-10
+  },
+  "supplied_envelopes_contain_saved_samples": true,
+  "family": {
+    "rule": "F_alpha(active)=R_about_axis(alpha)*F_0(active at shifted material angle); fixed cap graphs unchanged",
+    "rotation_axis_xy": [
+      0.0,
+      0.0
+    ],
+    "phase_interval": [
+      0.0,
+      1.5707963267948966
+    ]
+  },
+  "unmarked_caps": [
+    {
+      "center": [
+        0.0,
+        0.0,
+        -1.9841517966937512
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "radius": 0.04999999999999999,
+      "marker_height_upper": 3.051757812499999e-08,
+      "marker_height_bound_rule": "Sum of absolute peak heights; valid even if supports overlap.",
+      "marker_supports_strictly_inside_circle": true
+    },
+    {
+      "center": [
+        0.0,
+        0.0,
+        1.9841517966937512
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "radius": 0.04999999999999999,
+      "marker_height_upper": 9.155273437499996e-08,
+      "marker_height_bound_rule": "Sum of absolute peak heights; valid even if supports overlap.",
+      "marker_supports_strictly_inside_circle": true
+    }
+  ],
+  "geometric_hypotheses": [
+    "The full active parameter cover is the one constructed by the producer, not only a tested subset.",
+    "The supplied center enclosures and whole-family diameter bound hold for the actual finite map.",
+    "Each fixed cap is the stated closed disk plus a graph displacement of at most its marker_height_upper.",
+    "All cap marker supports lie strictly inside their disk and their maps are fixed for the entire phase interval."
+  ],
+  "numerical_position_cover_only": true,
+  "task_completed": false
+}
