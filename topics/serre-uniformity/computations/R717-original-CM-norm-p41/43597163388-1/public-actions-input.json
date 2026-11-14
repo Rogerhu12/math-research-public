@@ -1,0 +1,85 @@
+{
+  "result": "R717-original-CM-norm-p41",
+  "source_commit": "ae827621e6632ad70227e1523247c0331edf9d8f",
+  "source_repository": "Rogerhu12/math-research-public",
+  "execution_environment": "public-repository-github-actions",
+  "request": {
+    "result": "R717-original-CM-norm-p41",
+    "prime": 41,
+    "shard_count": 1,
+    "prec_bits": 320,
+    "tail_bits": 220,
+    "cutoff_multiple": 300,
+    "checkpoint_rows": 50,
+    "expect_p2_product": 1274,
+    "timeout_seconds": 1200,
+    "arithmetic_sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+    "algorithm": "R717-original-CM-norm-integral-traces",
+    "execution_environment": "Rogerhu12/math-research-public GitHub Actions only",
+    "python_flint_version": "0.9.0",
+    "purpose": "Calibrate the new certified complex trace recovery against the already completed original p41 torsion computation: p^2 S2 S3 = 1274 modulo 41^2. This does not rerun the original torsion orbit.",
+    "resume_policy": "Reuse compatible complete receipts; otherwise resume the latest compatible row checkpoint. Reject an incompatible complete result under the same result name.",
+    "mathematical_scope": "Finite exact original CM norm. No uniform nonvanishing, height exclusion, or Serre completion is claimed."
+  },
+  "request_sha256": "874b3578c0a737e0f3260152d86c78aa745bd872b4138c3ff01c6bb99a488eb1",
+  "arithmetic_sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+  "wrapper_sha256": "fd64dd30dd91edf559f17d300241969ad4241f8263e4823ed1a07bd3b4f3dec6",
+  "publisher_sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+  "workflow_sha256": "e2a072ef16deaf0813644c23f5f452a016b526966d3bdb242eb50b521d9246aa",
+  "root_readme_sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "sources": [
+    {
+      "repository_path": "topics/serre-uniformity/scripts/R717_certified_original_CM_norm.py",
+      "bytes": 22160,
+      "sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+      "archive_file": "sources/topics/serre-uniformity/scripts/R717_certified_original_CM_norm.py.gz",
+      "archive_sha256": "9524db636dc1e9d033186ec9ad9d1fc3ad00f366969db964dc48340a8915201b"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/scripts/R717_public_original_cm_norm.py",
+      "bytes": 18768,
+      "sha256": "fd64dd30dd91edf559f17d300241969ad4241f8263e4823ed1a07bd3b4f3dec6",
+      "archive_file": "sources/topics/serre-uniformity/scripts/R717_public_original_cm_norm.py.gz",
+      "archive_sha256": "848ce1b5c989234b2e068302bbc1a989c7298049fe1eab136651b08429659512"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/scripts/p41_public_actions_recovery.py",
+      "bytes": 10548,
+      "sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+      "archive_file": "sources/topics/serre-uniformity/scripts/p41_public_actions_recovery.py.gz",
+      "archive_sha256": "5a3d0f17f819a646a94ab8eff6a48823db0edf0a7cdbcfd58f4a5dc25b472a2d"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/notes/R717-public-original-CM-norm-request.json",
+      "bytes": 1011,
+      "sha256": "874b3578c0a737e0f3260152d86c78aa745bd872b4138c3ff01c6bb99a488eb1",
+      "archive_file": "sources/topics/serre-uniformity/notes/R717-public-original-CM-norm-request.json.gz",
+      "archive_sha256": "6506286a7126e92772635479befa14bdb2c7464c3a6b2ff42ce168afa9341473"
+    },
+    {
+      "repository_path": ".github/workflows/serre-certified-original-CM-norm.yml",
+      "bytes": 2389,
+      "sha256": "e2a072ef16deaf0813644c23f5f452a016b526966d3bdb242eb50b521d9246aa",
+      "archive_file": "sources/.github/workflows/serre-certified-original-CM-norm.yml.gz",
+      "archive_sha256": "41e607a24eab969f7e6eb6d2f544eedea2e894f134a8d873239b4402a7a055a2"
+    },
+    {
+      "repository_path": "README.md",
+      "bytes": 8842,
+      "sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "archive_file": "sources/README.md.gz",
+      "archive_sha256": "049816cbfe3110f2816d5d9f9a702f2ccbad1e2838538e60d0ddc681b96a4431"
+    },
+    {
+      "repository_path": "topics/serre-uniformity/README.md",
+      "bytes": 3430,
+      "sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+      "archive_file": "sources/topics/serre-uniformity/README.md.gz",
+      "archive_sha256": "410f2f04782efdd16858f074149a398f9fa52b0d1f435eca70591466aefec7ab"
+    }
+  ],
+  "prepared_at_utc": "2026-11-14T12:55:30.202820+00:00",
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43597163388",
+  "mathematical_completion_claimed": false
+}

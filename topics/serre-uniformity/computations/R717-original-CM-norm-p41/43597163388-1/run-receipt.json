@@ -1,0 +1,43 @@
+{
+  "result": "R717-original-CM-norm-p41",
+  "phase": "all",
+  "shard_index": 0,
+  "complete": true,
+  "started_at_utc": "2026-11-14T12:55:30.196526+00:00",
+  "workflow_run_id": "43597163388",
+  "workflow_attempt": "1",
+  "execution_environment": "public-repository-github-actions",
+  "arithmetic_sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+  "mathematical_completion_claimed": false,
+  "source_commit": "ae827621e6632ad70227e1523247c0331edf9d8f",
+  "process_exit_code": 0,
+  "core_receipt": "R717-exact-original-CM-norm.json",
+  "core_receipt_sha256": "fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6",
+  "padic_result": {
+    "P_exactly_zero": false,
+    "padic_digits": 6,
+    "modulus": "4750104241",
+    "teichmueller_lift": [
+      "2301917824",
+      "739383780"
+    ],
+    "integer_polynomial_value": [
+      "2027173373",
+      "0"
+    ],
+    "valuation_integer_numerator": 3,
+    "valuation_P": -2,
+    "valuation_M2": -1,
+    "normalized_P_leading_mod_p": 37,
+    "normalized_M2_square_over_zeta2_mod_p": 24,
+    "p2_S2S3_mod_p2": 1274,
+    "C0_square_mod_p2": 153,
+    "alpha_mod_p2": 681,
+    "actual_M2_unit": false,
+    "height_or_Serre_exclusion_claimed": false
+  },
+  "all_rows_covered": true,
+  "all_trace_roundings_unique": true,
+  "reused_or_resumed_inputs": [],
+  "finished_at_utc": "2026-11-14T12:55:30.317856+00:00"
+}
