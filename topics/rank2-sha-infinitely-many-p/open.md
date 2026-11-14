@@ -212,9 +212,9 @@ R538未改P_K的E深/Kunit整条四输出返回已付，系数βn(8+20κ3n−κ6
 
 R533两固定负矩的第一层现有[准确递推与有限记录](notes/2026-11-14-degree6-negative-moment-first-layer.md)。**待做：** 指定AS/ABS对角的无穷非零或完整算术比较；有限147点及p61的首层零都不决定实际负矩非零。
 
-### R537：切向呈示的来源核与评价核已准确分开
+### R537：原切向来源核
 
-在p>8b²+4bu的原预算内，交数严格排除独立Jacobian零对；全部十九角使切向H2多项式核准确为kF²或〈1,F,F²〉。原角/次数保持提升给来源返回像p饱和及准确秩，所有同D/charge门不变；J/M物理评价后的核与像仍须另付。见[R537](results/R537-actual-tangent-kernel-inseparable-degree-and-source-saturation.md)。**待做：** 同一自由商来源上的真实J/M jet核、完整残数转置及R524两个连接；已知来源秩不代评价秩，p饱和不通过任意评价自动保持。
+完整条件和旧接口保[本次归档](notes/2026-11-14-open-before-r545.md)及[R537](results/R537-actual-tangent-kernel-inseparable-degree-and-source-saturation.md)。来源核/饱和已付；其物理问题由R543、R545逐步推进，原全部同D/charge、十九角和forcing条件不删除。
 
 ### R541：真正第二态与三支实际补域
 
@@ -227,3 +227,7 @@ R533两固定负矩的第一层现有[准确递推与有限记录](notes/2026-11
 ### R542：第三支原S/E2312投影与全外谱
 
 R541第三η支的全部23坐标给N7^9Fη=Fη+S(2z)，原S投影−1/2、E2312投影26(1−δ)/3；D33两块循环10/8、共同18维，四rank0参考和12外谱全部保持。真实Y边际有完整非齐次普通核Kη=−η−S及任意深度返回，全部tame/尺度/质量已付；同cut联合运输仍开。见[R542](results/R542-original-third-sigma-arithmetic-projections-and-affine-core.md)。**待做：** 按R541三支真实域执行这些CM投影；保四参考的未知中央与十二外谱、[2]逆尺度log质量、[4]的G/R两支。边际核心不得提升为整六输入几何身份。
+
+### R545：平衡后的真实物理单位块
+
+同一实际因子可取整数c平衡两边界，完整多项式连接保全部零阶/Euler项、十九角及固定两charge返回；准确有效极次数降为κ。原低ell强窗给核〈d^(2c),d^cF,F²〉、2κ+χ−2个真实单位Smith因子及全精度整Schur消元，原M十三/二十六carry保持；余下forcing与原中央未赋非零。见[R545：原角平衡连接与完整物理单位块](results/R545-angular-balanced-connection-and-full-physical-unit-block.md)。**待做：** 在同一个整Schur余矩阵上计算实际forcing/ξ、活V1及同一修正d2/G2；固定两charge须在原预算内或真实扩大。R547继续原垂直零新增charge块及两块的实际交，不由单位块大小推出完整原矩阵满秩。

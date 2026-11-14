@@ -106,3 +106,5 @@
 
 - [R542：原第三sigma支的算术投影与非齐次核心](../results/R542-original-third-sigma-arithmetic-projections-and-affine-core.md)：R541第三η支的全部23坐标给N7^9Fη=Fη+S(2z)，原S投影−1/2、E2312投影26(1−δ)/3；D33两块循环10/8、共同18维，四rank0参考和12外谱全部保持。真实Y边际有完整非齐次普通核Kη=−η−S及任意深度返回，全部tame/尺度/质量已付；同cut联合运输仍开。
 
+
+- [R545：原角平衡连接与完整物理单位块](../results/R545-angular-balanced-connection-and-full-physical-unit-block.md)：同一实际因子可取整数c平衡两边界，完整多项式连接保全部零阶/Euler项、十九角及固定两charge返回；准确有效极次数降为κ。原低ell强窗给核〈d^(2c),d^cF,F²〉、2κ+χ−2个真实单位Smith因子及全精度整Schur消元，原M十三/二十六carry保持；余下forcing与原中央未赋非零。
