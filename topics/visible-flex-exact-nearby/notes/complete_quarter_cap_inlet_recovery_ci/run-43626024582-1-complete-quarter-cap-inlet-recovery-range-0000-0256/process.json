@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete_fixed_eta_quarter_cap_inlet_recovery_process_v2",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43626024582",
   "run_attempt": "1",
@@ -94,6 +94,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T18:44:30.333638+00:00",
+      "before": "572d2d7bdc96e301ec6ab44647ae7d2df1111ce6",
+      "after": "c216015a7fb876431b66a9ce63111b2799cc5b73",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -111,6 +119,11 @@
       "time": "2026-11-14T18:42:05.333003+00:00",
       "final": false,
       "commit": "8c32a67455609417f9e426221a1268f791db151a"
+    },
+    {
+      "time": "2026-11-14T18:44:29.438124+00:00",
+      "final": false,
+      "commit": "c216015a7fb876431b66a9ce63111b2799cc5b73"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -151,7 +164,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "572d2d7bdc96e301ec6ab44647ae7d2df1111ce6",
+  "last_read_commit": "c216015a7fb876431b66a9ce63111b2799cc5b73",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-inlet-range-work/science",
   "actual_plan_native_sha256": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a",
   "original_prepared_bundle_sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70",
@@ -166,9 +179,15 @@
     "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
     "plan": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a"
   },
-  "snapshot_utc": "2026-11-14T18:44:26.927064+00:00",
-  "wall_seconds": 1359.6038462079998,
+  "snapshot_utc": "2026-11-14T18:44:30.819706+00:00",
+  "wall_seconds": 1363.496488074,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 916,
+      "sha256": "9d4d58478c713ed4c7e651eddbf8abc1f6a98b3a243b3718444013c991304c13"
+    },
     {
       "logical_file": "evidence/actual-original-plan-process.json",
       "file": "evidence/actual-original-plan-process.json",
@@ -180,6 +199,12 @@
       "file": "evidence/actual-original-successful-prefix-failure-process.json",
       "bytes": 7042,
       "sha256": "de61d36a18dbfd7f18df3bbd5106bc08b3257e8b74cbdfa05fbac087fcfae080"
+    },
+    {
+      "logical_file": "evidence/complete-quarter-cap-range-summary.json",
+      "file": "evidence/complete-quarter-cap-range-summary.json",
+      "bytes": 2148,
+      "sha256": "eb8598964b0065c0b58a260f0efe1256b43b304dbfc523b480f24c3d86b54f7f"
     },
     {
       "logical_file": "evidence/original-prepared-manifest.json",
@@ -194,5 +219,10 @@
       "sha256": "02cfd7c9945180adcdb208f0e6101b3c9da37c0deca8b012160c89ea7148ccb8",
       "parts": 3
     }
-  ]
+  ],
+  "complete_native_sha256": "02cfd7c9945180adcdb208f0e6101b3c9da37c0deca8b012160c89ea7148ccb8",
+  "actual_scientific_gates": 5,
+  "actual_new_domains_in_this_child": 1023,
+  "actual_completed_new_domains": 1024,
+  "finished_utc": "2026-11-14T18:44:29.975792+00:00"
 }
