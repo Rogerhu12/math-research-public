@@ -2,6 +2,7 @@
 """Restore completed R655 chains and compute original CM4 heights in public Actions."""
 import argparse
 import datetime as dt
+import hashlib
 import os
 from pathlib import Path
 import shutil
@@ -26,8 +27,20 @@ def prepare(item,base):
     assert receipt['result']=='R655' and receipt['complete'] and receipt['exit_code']==0
     assert not receipt['F2_F3_height_computed'] and not receipt['disk_exclusion_claimed']
     assert disk in receipt['disk_ids'] and receipt['source_commit']==initial['source_commit']==item['prior_source']
+    log_binding=None
     for row in receipt['files']:
-        assert sha(prior/row['file'])==row['sha256'] and (prior/row['file']).stat().st_size==row['bytes']
+        path=prior/row['file'];raw=path.read_bytes()
+        if row['file']=='public-actions-run.log':
+            # R655 sealed its receipt before its final success print. Bind the
+            # recorded prefix AND the exact observed trailer, not an arbitrary
+            # changed file. Every mathematical input keeps its complete SHA.
+            assert hashlib.sha256(raw[:row['bytes']]).hexdigest()==row['sha256']
+            assert raw[row['bytes']:]==b'SAVED R655 complete True\n'
+            log_binding={'file':row['file'],'sealed_prefix_bytes':row['bytes'],
+                'sealed_prefix_sha256':row['sha256'],'actual_bytes':len(raw),
+                'actual_sha256':sha(path),'exact_trailer':'SAVED R655 complete True\\n'}
+        else:
+            assert sha(path)==row['sha256'] and len(raw)==row['bytes'],row['file']
     selected=['p41_true_CM4_two_based_points47.json.gz','chain/'+disk+'_multiply47.json.gz',
         'chain/'+disk+'_Abel47.json.gz',disk+'_actual_second_kind_integrals47.json.gz',
         disk+'_principal_expression47.json.gz','p41_'+disk+'_principal_transports47.tar.gz']
@@ -53,6 +66,7 @@ def prepare(item,base):
     save(out/'public-actions-input.json',{'result':item['result'],'disk_id':disk,'request_item':item,
         'source_commit':source,'request_sha256':sha(REQUEST),'prior_receipt_sha256':sha(prior/'run-receipt.json'),
         'prior_input_sha256':sha(prior/'public-actions-input.json'),'original_chain_bits_restored':304,
+        'original_driver_log_prefix_and_exact_trailer':log_binding,
         'clearing_result':'R554','joint_Laurent_certificate_sha256':sha(rc),'joint_Laurent_audit_sha256':sha(ra),
         'root_readme_sha256':sha(REPO/'README.md'),'topic_readme_sha256':sha(TOPIC/'README.md'),
         'original_chain_or_terminal_or_principal_repeated':False,'actual_T2_degree':3,
