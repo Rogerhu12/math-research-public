@@ -25,7 +25,7 @@
 - **[η8实绩](notes/2026-11-14-r150-eighth-admissible-second-zero-image-and-four-dimensional-current-targets-789f.md)：** run43644262244/job132598400950，源05d80c9b、数据0ab29a88；数学68.417425751秒，新q/H5 cost88，232133原整数输出坐标p5整除零失败。d8本身∈U9，相关Krylov rank0。九目标在保持当前F9模p及Λ2的全部允许修正下仍阻；没有正证书，空真验证不得冒称正结论。
 - 九raw列秩9、生成模13维且ann=(s−1)(s−2)^3；模U9后列秩和生成模均4、ann=s−2，故U9包含于原raw模。四维是实际目标商，非来源覆盖许可。η8全部37恢复16174596B=18binary+19text、8cache，逐清单对齐零缺项；artifact14132489956且全部原字节已main。
 - **[低初值第三归约](notes/2026-11-14-r150-low-initial-integer-lattice-third-layer-and-five-relations-789f.md)：** 三位允许核依次η1…7、再η8、再η9；原recipe连canonical carry给η3及η4−18η3在Λ2内精确F9核。新第三仅7001/7002/7005/7006/7007五列，完整必要族仍另保旧198第三；相关第二零不代全局第二零。
-- 五列完整9×5 C/H5公式已冻，含κ9常数补偿；模仍p6，不用p7。拟标签9301/9302/9305/9306/9307，复用六旧artifact/50精确输入，不重η8 VQ或九原余。先求全315及原17正证书，五列不足只称五列不足，再接旧198。必要2-primary商25维；正时回补P2ρ−ρ∈U9，负时复合投影。原RHS≤522/来源≤618，共享300秒/512MiB，六编译各30秒。入口正在冻结，尚未运行。
+- **[五列连续入口已冻结](notes/2026-11-14-r150-five-third-interface-789f.md)：** 标签9301/9302/9305/9306/9307，六旧artifact/50精确输入；7文件[manifest](notes/2026-11-14-r150-five-third-frozen-manifest-789f.json) SHA08b42dc8f825d8007026648ccf978957a888345013cf190743567887dd7d973f。同模p6、H5含κ9常数补偿，必要2-primary商25维；每个正目标必须全315回补U9及原17乘回。原RHS≤522/来源≤618，共享300秒/512MiB、六编译各30秒。源码审读已补齐两个stdout范围字段；本地AST/编译未运行，CI将实际执行。workflow invariant-subspace-r150-five-third.yml在本次实际push后dispatch一次，待读真实回执。五列不足只称不足，随后旧198第三；不重旧η8 VQ或九原余。
 
 ## 实际边界：同一原源与已付预算
 
