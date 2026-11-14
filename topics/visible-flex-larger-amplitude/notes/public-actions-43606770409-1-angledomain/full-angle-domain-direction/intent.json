@@ -1,0 +1,138 @@
+{
+  "schema": "actual22-five-query-full-physical-angle-direction-probe-v1",
+  "scope": "Replay request22's saved direction at five full original angular grids.\n\nThis is a local read-only diagnostic, not a new optimization or acceptance\ngate.  It retains the actual base20 warm, complete exact-coordinate\ndirection, original nonlinear nodal RHS, Hermite query and N2048 physical\nangle grid.  No LSMR, full collocation solve or native tail is run.  The\ncomplete scalar/core direction is lifted before differentiating the two\nactual endpoint RHS values.  Every previously tried alpha is reconstructed\nfrom the original coordinates and gets fresh endpoint RHS values.\n",
+  "phase": "identities-verified",
+  "finished": false,
+  "original_public_run": "43604874829",
+  "original_job": "132477286177",
+  "original_source_commit": "fb32e240ba4bb4dee5c07cd5e78cb92a56c57d65",
+  "inputs": {
+    "accepted": {
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
+      "sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff"
+    },
+    "prepared": {
+      "path": "/home/runner/work/_temp/visible-mainline/angledomain/preparation112/prepared.json.gz",
+      "sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714"
+    },
+    "tail_anchor": {
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz",
+      "sha256": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51"
+    },
+    "tail_config": {
+      "path": "/home/runner/work/_temp/visible-mainline/angledomain/T112-config.json",
+      "sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+    },
+    "base_warm": {
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43603477207-1-trustprotected/protected-warm/warm-001.json.gz",
+      "sha256": "0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71"
+    },
+    "direction": {
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-trustmultiline/multiline-warm/direction-00.json.gz",
+      "sha256": "9a5916d9419df61ade98d89a917ef6778ac1d75b42977ce3ed110ec123a58873",
+      "bytes": 4655423
+    },
+    "model": {
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-trustmultiline/multiline-warm/model-000.json",
+      "sha256": "a5120beeac90342fdfd0f1596caa6b0549bb19bb459c5ec6b9ed5c9e6c85083d",
+      "bytes": 46158
+    },
+    "rows": {
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-trustmultiline/multiline-warm/domain-rows.json",
+      "sha256": "07b14e3485d3579609cd3b98eb35cac468d601fdb201ecb5715b9dc9efb138cb",
+      "bytes": 83333
+    },
+    "intent": {
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-trustmultiline/multiline-warm/optimization-intent.json",
+      "sha256": "0064381b8948eb0defd264df78843410ffa55f3168eafc0635f4c53de4fa1c00",
+      "bytes": 18746
+    },
+    "status": {
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-trustmultiline/multiline-warm/driver-status.json",
+      "sha256": "15b30aa9e6e1d88bd6caf9f7ee007db15e4654e845cf03ba575159cb4ab7b870",
+      "bytes": 71124
+    },
+    "new_warm": {
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-trustmultiline/multiline-warm/warm-001.json.gz",
+      "sha256": "03ca9477cbb759cdbf07117f2540aa51dbe07545985c957289d0f0a3079f4be8",
+      "bytes": 4705605
+    },
+    "operator_check": {
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-trustmultiline/multiline-warm/model-000-operator-check.json",
+      "sha256": "2fe6c87ef41766ce161d4f5c5741b6f139651904e6e83abb382c5690ccf36327",
+      "bytes": 1268
+    }
+  },
+  "source_sha256": "794788a17db22189b80d65b7def84f3515ca587ea59ffce96fe8887a071665e8",
+  "consumed_source_sha256": {
+    "geometry_20261114_multiline_tangent_warm.py": "84318d97b5ce05282890710f71ffe0794896c2e88c498e8618a41625884aa359",
+    "geometry_20261114_protected_tangent_warm.py": "b126ba6a203cbf97c4c9658abe70e9bf38ad259b2eab89bfed4c6e03f4d97fad",
+    "geometry_20261114_hermite_domain_constraints.py": "d9e004c827add0074c2e6dd6c854763c7157e5049cd5360c1f85ad440462f4ce",
+    "geometry_20261114_constrained_trust_warm.py": "5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2",
+    "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+    "geometry_20261114_full_dn_solve.py": "c6a1f4d8025508ee49fe9324b3401440a2de88329d0b78ef0d0814860c2d3162",
+    "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+    "geometry_20261114_separated_qr_bvp.py": "c76bde190ff67a9e148d230c8e5e7d7a7899324c055e67faac6679b8fba10e39",
+    "geometry_20261114_physical_test_boundary.py": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681",
+    "geometry_20261114_full_dn_boundary.py": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2",
+    "geometry_20261114_lifted_modes_profile.py": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+    "geometry_20261114_r225_free_core_bvp.py": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08",
+    "geometry_20261114_full_dn_prefix_controls.py": "7bb30855e5f0f5111ef55bbf9fafad8f6f0e8cdc26243780eda5b96600a3255a"
+  },
+  "model_recomputed": false,
+  "new_LSMR_called": false,
+  "new_full_J_constructed": false,
+  "full_BVP_or_native_tail_called": false,
+  "new_warm_created": false,
+  "new_acceptance_gate": false,
+  "original_beta_squared_not_square_root": true,
+  "physical_grid_size": 2048,
+  "physical_phi_rule": "2*pi*index/2048; original q.jet rotating-frame derivatives",
+  "intervals": [
+    473,
+    475,
+    477,
+    479,
+    480
+  ],
+  "fraction": 0.17267316464601146,
+  "local_node_indices": [
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481
+  ],
+  "complete_global_core_and_control_direction_retained": true,
+  "inlet_chart_direction_retained": true,
+  "interior_query_explicit_core_RHS_is_original_zero": true,
+  "scaled_direction_divided_by_chart_scale_exactly_once": true,
+  "complete_saved_accepted_step_states_reconstructed_exactly": true,
+  "coordinate_scale_float64le_sha256": "2a6a3ff75f07ac02d0a623ca916d48eee5eddadcc65249e9ff2e6457c5e1a12c",
+  "actual_coefficient_direction_float64le_sha256": "eeecb1d8ab620e81c42d5065435af45941c60497b825da38f4e70185b4a6ab81",
+  "original_all_node_midpoint_RMS_rho_acceptance_not_rerun_or_replaced": true,
+  "only_selected_five_radial_queries_on_original_2048_angle_grid": true,
+  "continuous_angular_domain_certificate": false,
+  "R263_fixed_model_posterior": {
+    "source": "Actual22 pinned model scalar diagnostics; no new LSMR or Jacobian",
+    "damping": 270.0,
+    "projected_unpreconditioned_KKT_norm": 340.3776142312528,
+    "preconditioned_normal_residual": 2.6032267432266403e-05,
+    "Delta_definition": "-b.T@Az-0.5*(||Az||^2+lambda^2||z||^2)",
+    "Delta": 0.535027165933812,
+    "E_definition": "||P g||^2/(2 lambda^2)",
+    "E": 0.7946290827829872,
+    "E_over_Delta": 1.4852125898992021,
+    "direction_error_upper_bound": 0.004669103075874524,
+    "fixed_damped_model_posterior_only": true,
+    "nonlinear_BVP_residual_or_acceptance_bound": false,
+    "new_scientific_gate": false,
+    "original_LSMR_recomputed": false
+  },
+  "query_artifacts": [],
+  "query_summaries": []
+}
