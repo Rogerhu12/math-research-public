@@ -1,0 +1,52 @@
+{
+  "complete": true,
+  "failure": null,
+  "gates": [
+    {
+      "name": "same_actual_complete_finite193_Green_native_and_original_artifact_process",
+      "passed": true
+    },
+    {
+      "name": "same_repaired_centre_full_mean_true_boundaries_and_fixed_root_window",
+      "passed": true
+    },
+    {
+      "name": "all6391_continuous_cells_all5970_interfaces_and_virtual_waist_are_exact",
+      "passed": true
+    },
+    {
+      "name": "public_kernel_identity_zero_signed_generator",
+      "passed": true
+    },
+    {
+      "name": "public_kernel_identity_positive_upper_shear",
+      "passed": true
+    },
+    {
+      "name": "public_kernel_identity_negative_lower_shear",
+      "passed": true
+    },
+    {
+      "name": "complete_source_support_orthogonal_backward_kernel_cover",
+      "passed": true
+    },
+    {
+      "name": "complete_forward_past_future_disjoint_kernel_cover_with_all_interfaces",
+      "passed": true
+    },
+    {
+      "name": "all_complete_ordinary_L2_and_C0_operator_bounds_finite",
+      "passed": true
+    }
+  ],
+  "native_sha256": "ac4441cb98afabbbc646697434caebf464a22f702e2d0fa7d8e5910efd7ef448",
+  "actual_progress": {
+    "phase": "new_kernel_forward",
+    "events": 12288,
+    "total": 12361,
+    "continuous_cells": 6354
+  },
+  "backward_events": 12361,
+  "forward_events": 12361,
+  "actual_new_four_by_four_integrals": 6391
+}
