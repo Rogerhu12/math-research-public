@@ -202,3 +202,6 @@
 
 
 - **R746（已证明）**：[原ordinary类作用参数的strict-p Bockstein双向判据](results/R746-original-ordinary-coefficient-as-a-strict-p-bockstein-condition.md)。完整原Hilbert长二商与受支撑cochain双向对应，保τ固定生成元、2/−i、p全裂、q惯性p次幂和Δ/Γ满像，得z=b iff原D_z可strict-p为零；准确$d_0$泛函为$26\varepsilon b$。R743的flat局部泛函独立，J/b真交换与数值仍未知。
+
+
+- **R747（已证明）**：[原toric period乘积的全局实平方根](results/R747-global-real-square-root-of-original-toric-period-product.md)。精确level6 ray field、完整p惯性和系数域交给M2∈A(∛4)，奇次数平方下降及原复共轭相位给$T_h=\alpha nM_{2,h}/[144(1-\zeta^2)]\in F_0$、$T_h^2=2N_hP_h$；原signed共轭及整分母2^18·3^13·p²保持。未任选根或假定单位，实际T/高度仍须求。

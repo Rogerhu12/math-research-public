@@ -44,3 +44,8 @@
 - R746完整证明原ordinary A/π²与strict-p Bockstein的双向条件，含真实Δ/Γ生成元、τ规范、全局支持及所有相对ramification检查。
 - 得<D0,p,d0>=26εb，明确与R743 flat primitive/泛函不同，未宣称J/b比例或实际b数值。证明SHA8efa65f42f78fc5af7a86e28e168f02ccf805a02fb8fb60df24ac3ddefaabc19。
 - HANDOFF/open/index同步；R744非快进均立即pull/rebase重推至成功、两README未变。无新数学计算或共享设施修改，继续原Γ/S交换和Hodge输入。
+
+## 2026-11-15 00:29 Asia/Taipei · serre-public-resume-20261114
+- R747闭合原全局实平方根T_h∈F0、T_h²=2N_hP_h，保正α/原tame相位、全部signed Galois共轭和整分母；完整ray conductor、p惯性及字段交逐项证明。
+- 证明SHA881d619bf17a376d5819a4fcbf44637a55860e276bc0ea86a640062498856016；未据平方存在宣称单位或高度排除，R748将接原有符号值实际提取。
+- HANDOFF完整归档后压缩，open/index同步；R746已完成非快进循环重推且两README未变。无新数学计算或共享设施修改。

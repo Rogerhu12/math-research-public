@@ -141,6 +141,18 @@ R739公开run43610788824只复用原五SHA输入：p47/h7原N赋值4、首单位
 R706的5992素数完整窗口仅137147的Cp−3为零；R722已闭合其原M2单位，
 两非中心scalar根深度7/2非Qp，完整p4等距；仍非高度排除。
 
+[R747](results/R747-global-real-square-root-of-original-toric-period-product.md)
+进一步闭合原全局字段和符号：精确$K_6=K(\alpha)$、$\alpha=\sqrt[3]4>0$，
+完整p惯性核及$\mathbf Q(\zeta_n)\cap K_{6p}=K$给$M_{2,h}\in\mathbf Q(\zeta_n,\alpha)$。
+原平方在系数域且三次扩张次数为奇数，故$\alpha M_{2,h}\in\mathbf Q(\zeta_n)$，
+并有同一原有符号值
+$$
+ T_h=\frac{\alpha nM_{2,h}}{144(1-\zeta^2)}\in F_0,\qquad
+ T_h^2=2N_hP_h,\qquad 2^{18}3^{13}p^2T_h\in\mathcal O_{F_0}.
+$$
+全部T_h由同一真实Galois轨道运输，不能各自任选平方根；原p赋值等于M2赋值。
+此接口不使同h两个Cartier系数或T_h自动单位；实际signed T数值另续。
+
 [R744](results/R744-original-depth-four-Abel-root-polynomials.md)
 进一步给同一$\eta\le1$原组件在整个$p^4$闭盘的完整因子：
 $Q_h(u)=I_h(V=pu)/(E_1pu)=p^\mu U_h(u)W_h(u)$，
