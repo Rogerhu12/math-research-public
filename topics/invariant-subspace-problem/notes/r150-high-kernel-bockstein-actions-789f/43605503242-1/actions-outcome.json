@@ -1,0 +1,27 @@
+{
+  "run_id": "43605503242",
+  "run_attempt": "1",
+  "source_commit": "f5c3bd58ab7a558e401b40140d94432b3fd72390",
+  "step_outcome": "success",
+  "pipeline_status": "completed",
+  "complete": true,
+  "finite_budget_verified": false,
+  "infinite_quotient_necessary_test": {
+    "infiniteImageRank": 2,
+    "augmentedRank": 6,
+    "targetCompatibility": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "allNineTargetsPassInfiniteNecessaryTest": false
+  },
+  "mathematical_elapsed_seconds": 71.67845824600002,
+  "root_will_publish_actual_results": true
+}

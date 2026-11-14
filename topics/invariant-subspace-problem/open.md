@@ -1,7 +1,7 @@
 # 未解决的问题
 
 
-**首低通道：** [共同Schur](notes/2026-11-14-first-low-johnson-channel-common-schur-and-original-tail-linear-budget-789f-next.md)已付条件线性协方差，条件均值仍缺。[原无限尾严格证书](notes/2026-11-14-original-infinite-tail-birth-two-arithmetic-obstruction-789f-next.md)迫辅助算术系数>289/100，常数2路线关闭；加强S1/graph未反驳，转明确损失或真源平方。
+**首低通道：** [共同Schur](notes/2026-11-14-first-low-johnson-channel-common-schur-and-original-tail-linear-budget-789f-next.md)已付条件线性协方差，条件均值仍缺。[原无限尾严格证书](notes/2026-11-14-original-infinite-tail-birth-two-arithmetic-obstruction-789f-next.md)迫辅助算术系数>289/100，常数2路线关闭；加强S1/graph未反驳，转损失/真源平方。
 
 ## 主目标与完成标准
 
@@ -22,6 +22,8 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 已证闭域/共同正则器只按原范围使用：全H稠密不传未知限制/有限旗，G不扩一般慢Acal，UHF不运输未知Haar格。正常态/边界奇异态、固定次数/全部向量不同；C未必保M，全等向不代局部等向，不能删域或压缩中央耦合。所有结果仍为中间结论。
 
 所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-R273-moments-789f.md)及其中各轮归档；未列条目不算关闭。
+
+**原来源新障碍：** [完整B85 mod961不可解](notes/2026-11-14-r150-complete-b85-bockstein-obstruction-789f.md)已含全部初值核自由；下一步为已知β任意移位/共同g、余两cost86及31饱和，不能退回固定补空间重复提升。
 
 ## 当前接口一：原 Haar 慢符号的正常湮灭者
 

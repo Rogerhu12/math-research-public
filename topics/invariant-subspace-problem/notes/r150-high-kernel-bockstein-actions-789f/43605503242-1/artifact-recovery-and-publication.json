@@ -1,0 +1,182 @@
+{
+  "run_id": 43605503242,
+  "run_attempt": 1,
+  "job_id": 132479150667,
+  "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43605503242",
+  "source_commit": "f5c3bd58ab7a558e401b40140d94432b3fd72390",
+  "conclusion": "success",
+  "finished_at": "2026-11-14T14:35:28Z",
+  "artifacts": [
+    {
+      "id": 14118177614,
+      "name": "isp-r150-high-kernel-bockstein-results-43605503242-1",
+      "size_in_bytes": 40104,
+      "digest": "sha256:f4725995334a891fda736ee94b8bb80ad1d1d020bd5f71ff7973ea13aa8be982",
+      "expires_at": "2026-12-14T14:35:19Z"
+    },
+    {
+      "id": 14118112895,
+      "name": "isp-r150-high-kernel-bockstein-recovery-43605503242-1",
+      "size_in_bytes": 160817149,
+      "digest": "sha256:c11741ca8956e2dda9bb4e1c915d21411c5bda37a8294e5bebafaacb8312a52b",
+      "expires_at": "2026-12-14T14:35:20Z"
+    }
+  ],
+  "all_downloaded_recovery_files_match_manifest": true,
+  "verified_recovery_files": [
+    {
+      "file": "recovery/image/image-image-certificate.json",
+      "bytes": 3612,
+      "sha256": "e3ca7fcbf287b8f8ac49facb15ab516846614fbf2251a73eb231fb5fef0a616a"
+    },
+    {
+      "file": "recovery/image/image-image-quotients.bin",
+      "bytes": 16649150,
+      "sha256": "0bd81e4ae045daef1e224922ff0cceabd81436dc1680af29595ba2e169865338"
+    },
+    {
+      "file": "recovery/image/image-image-remainders.bin",
+      "bytes": 2520,
+      "sha256": "1f33a90bb81566e900dd2fc56d5cba50a853d73e3f927b288c0e19936b29d9de"
+    },
+    {
+      "file": "recovery/normal/beta-backward.bin",
+      "bytes": 3052119,
+      "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+    },
+    {
+      "file": "recovery/normal/beta-forward.bin",
+      "bytes": 2378937,
+      "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+    },
+    {
+      "file": "recovery/normal/beta-normal-forms.bin",
+      "bytes": 10865128,
+      "sha256": "c1b0e2e79a52e312acb9a9b89a03c031a5d6bbd5afc34c862ff7c2ff35479b2b"
+    },
+    {
+      "file": "recovery/normal/beta-reduction.bin",
+      "bytes": 113614260,
+      "sha256": "85105ff9a84a81c05b88ee09d1f3a8de4bd9a1e7faf5657889c74e95f4f441ae"
+    },
+    {
+      "file": "recovery/original/kernel-bockstein-original-rhs.bin",
+      "bytes": 43853298,
+      "sha256": "78780cc4900a2a44c56029eaa67f793e433ceddeadfda20be56eae35a7e74587"
+    },
+    {
+      "file": "recovery/original/kernel-original-bockstein.json",
+      "bytes": 7435,
+      "sha256": "730ee02d91e53cbfc1463fbfb366ee35edaa908775af30f97dedef8cae1749e9"
+    },
+    {
+      "file": "recovery/original/kernel-original-kernels.bin",
+      "bytes": 48275717,
+      "sha256": "ec067d86ce7c838697369d1f6a986c823de8564823d85b6684fe7a2926127a88"
+    },
+    {
+      "file": "recovery/state-input.bin",
+      "bytes": 1470456,
+      "sha256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf"
+    }
+  ],
+  "published_small_files": [
+    {
+      "file": "actions-console.log",
+      "bytes": 78508,
+      "sha256": "0058061862e5c0c045a60be777a2c1a5bc65496fe6e92faa9cc256d8a2a7dab2"
+    },
+    {
+      "file": "actions-outcome.json",
+      "bytes": 632,
+      "sha256": "e06557514bb29147148957786b4f112e77a10be699d3304888122d1c51b612bb"
+    },
+    {
+      "file": "actions-source.json",
+      "bytes": 3274,
+      "sha256": "52a95fd18a4ed6d313f5decca6e1b965420381fec330256e75f498cb500064ea"
+    },
+    {
+      "file": "all200-torsion-columns.bin.gz",
+      "bytes": 2034,
+      "sha256": "fdbdf1e630b1fe2cb794add4b13946d0c55021222691798d45c35fdbaefdb3e5"
+    },
+    {
+      "file": "bockstein-pipeline-receipt.json",
+      "bytes": 51536,
+      "sha256": "75b650acff1fa1924bca1b1db578a86272606a5b99ae7519b61a36add9fabb7e"
+    },
+    {
+      "file": "compile-image.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "compile-normal.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "compile-original.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "compiler-version.txt",
+      "bytes": 239,
+      "sha256": "ac55452791ddd9d6e55f5e1f3dbcd5ee40f34b0b55ae18baade542748b008022"
+    },
+    {
+      "file": "complete-infinite-quotient-system.bin.gz",
+      "bytes": 5830,
+      "sha256": "4a412dec33139ca7f41beb90a9a037e08ff9f2023a47f9e482f7c75ac3794449"
+    },
+    {
+      "file": "high-kernel-infinite-quotient-result.json",
+      "bytes": 64985,
+      "sha256": "5f0f138acc98ddc24312300638f4c27a50ee999a01cf7e9dd8c3eb7984661b7b"
+    },
+    {
+      "file": "image-bockstein-metadata.json",
+      "bytes": 3612,
+      "sha256": "e3ca7fcbf287b8f8ac49facb15ab516846614fbf2251a73eb231fb5fef0a616a"
+    },
+    {
+      "file": "image.log",
+      "bytes": 36367,
+      "sha256": "e6c0dc05d579778f4e932338502721f94bbfcb1537cdab441b03b788c76c7692"
+    },
+    {
+      "file": "infinite-test.log",
+      "bytes": 585,
+      "sha256": "bfab9a83dd460677e79028e83af4c1f805fdfd8149523596480223e6f91cb026"
+    },
+    {
+      "file": "normal.log",
+      "bytes": 38213,
+      "sha256": "f4694168e6d0af56e11ad213fcb165abcdfee91154cbf18cba068a19c1147c82"
+    },
+    {
+      "file": "original-bockstein-metadata.json",
+      "bytes": 7435,
+      "sha256": "730ee02d91e53cbfc1463fbfb366ee35edaa908775af30f97dedef8cae1749e9"
+    },
+    {
+      "file": "original.log",
+      "bytes": 2971,
+      "sha256": "35bbac72139b3133bc07d5e1e7cb4f185f2b4f91f67d7dd6a6de0609cd87f641"
+    },
+    {
+      "file": "python-flint-version.txt",
+      "bytes": 380,
+      "sha256": "75b3369568896a677b66bf08790962c38fc74ce00578f3e902572f3551d5c269"
+    },
+    {
+      "file": "recovery-manifest.json",
+      "bytes": 2089,
+      "sha256": "e495325e43ffe7176c081982cb11c74265ee36ac0482c7235e017c896f522147"
+    }
+  ],
+  "finite_budget_verified": false,
+  "finite_budget_obstruction_proved_by_failed_necessary_condition": true
+}
