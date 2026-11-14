@@ -1,0 +1,115 @@
+name: ISP R150 completed five-third target-space exact postprocessing
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: isp-r150-five-third-target-space-789f
+  cancel-in-progress: false
+
+jobs:
+  target-space:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/invariant-subspace-problem/README.md
+            /topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-target-space-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-actions-publish-789f.py
+            /topics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43646683083-1/complete-five-third__complete-five-third-image-receipt.json
+            /topics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43646683083-1/genuine-five-h5-original__genuine-five-h5-original-original-product.json
+            /topics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43646683083-1/certificates/complete-five-third__complete-five-third-image.bin.gz.gz
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Freeze the actual completed matrices and both rules
+        run: |
+          python3 - <<'PYCODE'
+          import ast,hashlib,json,os
+          from pathlib import Path
+          out=Path(os.environ['RUNNER_TEMP'])/'isp-five-third-target-space'
+          (out/'results').mkdir(parents=True,exist_ok=True)
+          (out/'recovery').mkdir(exist_ok=True)
+          with open(os.environ['GITHUB_ENV'],'a') as f:
+              f.write('ISP_FIVE_SPACE_OUT='+str(out)+'\n')
+          rules={'README.md':'8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2','topics/invariant-subspace-problem/README.md':'40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929'}
+          actual={p:hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in rules}
+          if actual!=rules: raise ValueError('README changed; root must read the actual diff')
+          script=Path('topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-target-space-789f.py')
+          if hashlib.sha256(script.read_bytes()).hexdigest()!='1b9d954f26f4523d7c9c65aebf9c4686e54dbe9ae82169365a85aa47a77b38ef': raise ValueError('Frozen small matrix script changed')
+          publisher=Path('topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-actions-publish-789f.py')
+          if hashlib.sha256(publisher.read_bytes()).hexdigest()!='aeb4f3e8045229588042d3b41e2974828a0376a2420df7bb6839f1621ee1caf1': raise ValueError('Existing lossless publisher changed')
+          ast.parse(script.read_text(),filename=str(script))
+          (out/'results/actions-source.json').write_text(json.dumps({'source_commit':os.environ['GITHUB_SHA'],'run_id':os.environ['GITHUB_RUN_ID'],'rules_sha256':actual,'readOnlyCompletedNativeData':True,'sourceRun':43646683083,'sourceDataCommit':'ca194ccead4869f8548748a3fd792963e49d63b0','mathematicalSecondsLimit':20,'memoryMiBLimit':512},indent=2)+'\n')
+          PYCODE
+      - name: Read the completed finite matrices and compute exact ranks
+        id: exact
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          timeout --kill-after=5s 20s prlimit --as=536870912 --core=0 -- \
+            python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-target-space-789f.py \
+            --data-dir topics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43646683083-1 \
+            --out "$ISP_FIVE_SPACE_OUT/recovery" \
+            2>&1 | tee "$ISP_FIVE_SPACE_OUT/results/actions-console.log"
+      - name: Retain the actual small-matrix outcome
+        if: always() && env.ISP_FIVE_SPACE_OUT != ''
+        env:
+          ISP_EXACT_OUTCOME: ${{ steps.exact.outcome }}
+        run: |
+          python3 - <<'PYCODE'
+          import json,os,shutil
+          from pathlib import Path
+          out=Path(os.environ['ISP_FIVE_SPACE_OUT'])
+          p=out/'recovery/five-third-target-space-receipt.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          if p.exists(): shutil.copyfile(p,out/'results/five-third-target-space-receipt.json')
+          complete=os.environ.get('ISP_EXACT_OUTCOME')=='success' and r.get('status')=='completed' and r.get('noNativeMathematicsRecomputed') is True and r.get('allNineRawFull315DecompositionsVerified') is True and r.get('allFiveProjectedFull315SourceRelationsVerified') is True
+          (out/'results/actions-outcome.json').write_text(json.dumps({'complete':complete,'native_step_outcome':os.environ.get('ISP_EXACT_OUTCOME'),'status':r.get('status','not-started'),'sourceRun':43646683083,'noOriginalProductsRerun':True,'remainingTargetQuotientDimension':r.get('remainingTargetQuotientDimension'),'rankU9ActualCost87Columns':r.get('rankU9ActualCost87Columns')},indent=2)+'\n')
+          PYCODE
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_FIVE_SPACE_OUT != ''
+        with:
+          name: isp-r150-five-third-target-space-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_FIVE_SPACE_OUT }}
+      - name: Preserve and publish the actual result with immediate rebase retries
+        if: always() && env.ISP_FIVE_SPACE_OUT != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-actions-publish-789f.py \
+            --checkout "$GITHUB_WORKSPACE" --results "$ISP_FIVE_SPACE_OUT/results" \
+            --recovery "$ISP_FIVE_SPACE_OUT/recovery" --work "$RUNNER_TEMP/isp-five-target-space-publish"
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_FIVE_SPACE_OUT != ''
+        with:
+          name: isp-r150-five-third-target-space-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ env.ISP_FIVE_SPACE_OUT }}/results/publication
+      - name: Require actual exact completion
+        if: always() && env.ISP_FIVE_SPACE_OUT != ''
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['ISP_FIVE_SPACE_OUT'])/'results/actions-outcome.json'
+          if not p.exists() or json.loads(p.read_text()).get('complete') is not True:
+              raise SystemExit('Small matrix computation incomplete; actual output retained')
+          PYCODE
