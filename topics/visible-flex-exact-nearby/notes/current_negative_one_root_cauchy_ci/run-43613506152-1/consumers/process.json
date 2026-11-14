@@ -1,0 +1,243 @@
+{
+  "kind": "actual_public_complete_negative_one_root_Cauchy_execution",
+  "complete": true,
+  "failure": null,
+  "public_repository": "Rogerhu12/math-research-public",
+  "run_id": "43613506152",
+  "run_attempt": "1",
+  "workflow_event_commit": "681d53f9212634d02b368d46ab542114b67b5381",
+  "actual_scientific_checkout_commit": "bd26144de9d95099725264586586f7b956644d0b",
+  "source_sha256": "0e9228a1609ea80ed652841907a68c9fbc63cfced8549c7088f60f5fd96f9d3c",
+  "manifest_sha256": "7e955e222cbec6985a5c154213ec94f36786ae95e5036325cf35dbdb39fdc41c",
+  "original_completed_computations_recomputed": 0,
+  "positive_source_window_milliscale_domain_and_numerical_strong_cutoff_not_claimed": true,
+  "actual_returncode": 0,
+  "verified_input_files": 11,
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-current-negative-one-root-cauchy-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_negative_one_root_cauchy_budget.py",
+    "--root-germ",
+    "/__w/_temp/visible-exact-current-negative-one-root-cauchy-science/topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+    "--root-budget",
+    "/__w/_temp/visible-exact-current-negative-one-root-cauchy-science/topics/visible-flex-exact-nearby/notes/current_root_scalarization_ci/run-43594466882-1/consumers/complete-moving-root-scalarization.json.gz",
+    "--out",
+    "/__w/_temp/visible-exact-current-negative-one-root-cauchy-output/consumers/current-negative-one-root-cauchy.json.gz"
+  ],
+  "mathematical_source_sha256": "c8b1eef6c5aa3ecadac83ce9ca8351aa0d2e39aac59e25b7f10f84e8d2b645b2",
+  "mathematical_wall_seconds": 0.21443437599999982,
+  "native_sha256": "7c91e9745b997ccadd1b987b5765e5bd51006261872cd58ff52b8ccd416240b0",
+  "native_bytes": 4428,
+  "mathematical_complete": true,
+  "mathematical_failure": null,
+  "mathematical_gates": [
+    {
+      "name": "the two complete actual native identities and all original family coordinates remain",
+      "passed": true
+    },
+    {
+      "name": "the entire real negative root interval and every actual real family parameter stay in the same piece",
+      "passed": true
+    },
+    {
+      "name": "the true intrinsic real slope and complete characteristic coefficient satisfy the regular weight hypotheses",
+      "passed": true
+    },
+    {
+      "name": "complete full-family physical angular coefficient norms through two meet the declared strict bounds",
+      "passed": true
+    },
+    {
+      "name": "the regular raw reconstruction and exact physical frequency-lag bounds are uniform at the root",
+      "passed": true
+    },
+    {
+      "name": "the complete local reaction and first angular derivatives are finite",
+      "passed": true
+    },
+    {
+      "name": "the new diagonal and cross multiplier costs are paid on the declared negative-one window",
+      "passed": true
+    },
+    {
+      "name": "the four-thirds logarithmic lag loss and full drift energy are paid",
+      "passed": true
+    },
+    {
+      "name": "the exact old primitive maps Hminus1 to L2 and its ordered products are paid",
+      "passed": true
+    },
+    {
+      "name": "the genuine independent even mean remains in the new weighted energy",
+      "passed": true
+    },
+    {
+      "name": "the complete negative-one energy growth is below112",
+      "passed": true
+    },
+    {
+      "name": "the full negative-one Cauchy and complete ordinary-source bounds close",
+      "passed": true
+    },
+    {
+      "name": "the original primitive after genuine propagation has the paid L2 output factor",
+      "passed": true
+    }
+  ],
+  "bounds": {
+    "Krho_lower": {
+      "ball": "[59.7438043724363609693052169670517057449999989966841511474405 +/- 3.80e-59]",
+      "lower": "[59.7438043724363609693052169670517057449999989966841511474405 +/- 3.80e-59]",
+      "upper": "[59.7438043724363609693052169670517057449999989966841511474405 +/- 3.80e-59]"
+    },
+    "Krho_upper": {
+      "ball": "[60.4643937103068395993711349358017062550000010033158488525595 +/- 3.80e-59]",
+      "lower": "[60.4643937103068395993711349358017062550000010033158488525595 +/- 3.80e-59]",
+      "upper": "[60.4643937103068395993711349358017062550000010033158488525595 +/- 3.80e-59]"
+    },
+    "q_squared_upper": {
+      "ball": "[0.000544179543392761556394340214422215356295000009029842639673035 +/- 1.59e-64]",
+      "lower": "[0.000544179543392761556394340214422215356295000009029842639673035 +/- 1.59e-64]",
+      "upper": "[0.000544179543392761556394340214422215356295000009029842639673035 +/- 1.59e-64]"
+    },
+    "gamma": {
+      "ball": "1.11965838633477687835693359375000000000000000000000000000000",
+      "lower": "1.11965838633477687835693359375000000000000000000000000000000",
+      "upper": "1.11965838633477687835693359375000000000000000000000000000000"
+    },
+    "beta": {
+      "ball": "0.210551435360684990882873535156250000000000000000000000000000",
+      "lower": "0.210551435360684990882873535156250000000000000000000000000000",
+      "upper": "0.210551435360684990882873535156250000000000000000000000000000"
+    },
+    "eta": {
+      "ball": "[1.25380137588923917121450835256004738768394515811181889128093 +/- 4.93e-61]",
+      "lower": "[1.25380137588923917121450835256004738768394515811181889128093 +/- 4.93e-61]",
+      "upper": "[1.25380137588923917121450835256004738768394515811181889128093 +/- 4.93e-61]"
+    },
+    "w_upper": {
+      "ball": "[1.00027205276534281544169581330369937992932363855612716616184 +/- 3.82e-60]",
+      "lower": "[1.00027205276534281544169581330369937992932363855612716616184 +/- 3.82e-60]",
+      "upper": "[1.00027205276534281544169581330369937992932363855612716616184 +/- 3.82e-60]"
+    },
+    "theta_inverse_upper": {
+      "ball": "[3.52542148736538216497370805562275193655007054378396740315495 +/- 1.96e-60]",
+      "lower": "[3.52542148736538216497370805562275193655007054378396740315495 +/- 1.96e-60]",
+      "upper": "[3.52542148736538216497370805562275193655007054378396740315495 +/- 1.96e-60]"
+    },
+    "L11": {
+      "ball": "[0.461587440654595204945921677005833308663444803046343578456000 +/- 4.30e-61]",
+      "lower": "[0.461587440654595204945921677005833308663444803046343578456000 +/- 4.30e-61]",
+      "upper": "[0.461587440654595204945921677005833308663444803046343578456000 +/- 4.30e-61]"
+    },
+    "L22": {
+      "ball": "[0.295209773524369670717082460770708897729009451081038089556327 +/- 1.87e-61]",
+      "lower": "[0.295209773524369670717082460770708897729009451081038089556327 +/- 1.87e-61]",
+      "upper": "[0.295209773524369670717082460770708897729009451081038089556327 +/- 1.87e-61]"
+    },
+    "ell": {
+      "ball": "[0.475011073880645668791530218302372054780950156843295202508000 +/- 1.13e-63]",
+      "lower": "[0.475011073880645668791530218302372054780950156843295202508000 +/- 1.13e-63]",
+      "upper": "[0.475011073880645668791530218302372054780950156843295202508000 +/- 1.13e-63]"
+    },
+    "L11_phi": {
+      "ball": "[2.08188844601026413573164286751075333651257261928873461208968 +/- 1.76e-60]",
+      "lower": "[2.08188844601026413573164286751075333651257261928873461208968 +/- 1.76e-60]",
+      "upper": "[2.08188844601026413573164286751075333651257261928873461208968 +/- 1.76e-60]"
+    },
+    "L22_phi": {
+      "ball": "[0.697028937358778359980691800221467633579415662265007053430928 +/- 3.21e-61]",
+      "lower": "[0.697028937358778359980691800221467633579415662265007053430928 +/- 3.21e-61]",
+      "upper": "[0.697028937358778359980691800221467633579415662265007053430928 +/- 3.21e-61]"
+    },
+    "ell_phi": {
+      "ball": "[2.71480817710857161073999911216924552310127262007918813314184 +/- 1.12e-60]",
+      "lower": "[2.71480817710857161073999911216924552310127262007918813314184 +/- 1.12e-60]",
+      "upper": "[2.71480817710857161073999911216924552310127262007918813314184 +/- 1.12e-60]"
+    },
+    "local_diagonal_growth": {
+      "ball": "[35.3571459754800737137533880550876317648444253568112333353293 +/- 3.82e-59]",
+      "lower": "[35.3571459754800737137533880550876317648444253568112333353293 +/- 3.82e-59]",
+      "upper": "[35.3571459754800737137533880550876317648444253568112333353293 +/- 3.82e-59]"
+    },
+    "local_cross_growth": {
+      "ball": "[13.0603922277510642750223772236692199381984116091605574552088 +/- 4.09e-59]",
+      "lower": "[13.0603922277510642750223772236692199381984116091605574552088 +/- 4.09e-59]",
+      "upper": "[13.0603922277510642750223772236692199381984116091605574552088 +/- 4.09e-59]"
+    },
+    "local_growth": {
+      "ball": "[48.4175382032311379887757652787568517030428369659717907905381 +/- 2.72e-60]",
+      "lower": "[48.4175382032311379887757652787568517030428369659717907905381 +/- 2.72e-60]",
+      "upper": "[48.4175382032311379887757652787568517030428369659717907905381 +/- 2.72e-60]"
+    },
+    "drift_phi": {
+      "ball": "[0.0839235858643987234743142668660105515981135635318454170030818 +/- 1.08e-62]",
+      "lower": "[0.0839235858643987234743142668660105515981135635318454170030818 +/- 1.08e-62]",
+      "upper": "[0.0839235858643987234743142668660105515981135635318454170030818 +/- 1.08e-62]"
+    },
+    "drift_phiphi": {
+      "ball": "[0.694729345842260623928083666933055242522997070388435416380152 +/- 3.59e-61]",
+      "lower": "[0.694729345842260623928083666933055242522997070388435416380152 +/- 3.59e-61]",
+      "upper": "[0.694729345842260623928083666933055242522997070388435416380152 +/- 3.59e-61]"
+    },
+    "drift_growth": {
+      "ball": "[10.4240008823543239937691295840872158640805319007030004869447 +/- 4.64e-59]",
+      "lower": "[10.4240008823543239937691295840872158640805319007030004869447 +/- 4.64e-59]",
+      "upper": "[10.4240008823543239937691295840872158640805319007030004869447 +/- 4.64e-59]"
+    },
+    "primitive_Hminus1_to_L2": {
+      "ball": "[1.03077640640441513745535246399351925628679980634340510859966 +/- 1.61e-60]",
+      "lower": "[1.03077640640441513745535246399351925628679980634340510859966 +/- 1.61e-60]",
+      "upper": "[1.03077640640441513745535246399351925628679980634340510859966 +/- 1.61e-60]"
+    },
+    "primitive_growth": {
+      "ball": "[30.5454349914554037021536535188099388940866232012569925933623 +/- 4.61e-59]",
+      "lower": "[30.5454349914554037021536535188099388940866232012569925933623 +/- 4.61e-59]",
+      "upper": "[30.5454349914554037021536535188099388940866232012569925933623 +/- 4.61e-59]"
+    },
+    "genuine_mean_rank_growth": {
+      "ball": "[11.7164638661513688827002247543440156573319441069565014375612 +/- 6.27e-60]",
+      "lower": "[11.7164638661513688827002247543440156573319441069565014375612 +/- 6.27e-60]",
+      "upper": "[11.7164638661513688827002247543440156573319441069565014375612 +/- 6.27e-60]"
+    },
+    "total_growth": {
+      "ball": "[101.103437943192234567398773135998022118541936174888285308406 +/- 2.91e-58]",
+      "lower": "[101.103437943192234567398773135998022118541936174888285308406 +/- 2.91e-58]",
+      "upper": "[101.103437943192234567398773135998022118541936174888285308406 +/- 2.91e-58]"
+    },
+    "energy_exponential": {
+      "ball": "[1.00100850820274177675900395062361521508751448581387679686347 +/- 5.94e-61]",
+      "lower": "[1.00100850820274177675900395062361521508751448581387679686347 +/- 5.94e-61]",
+      "upper": "[1.00100850820274177675900395062361521508751448581387679686347 +/- 5.94e-61]"
+    },
+    "actual_raw_state_factor": {
+      "ball": "[4.00512334134212007605533216185504316872076342522107523205206 +/- 4.34e-61]",
+      "lower": "[4.00512334134212007605533216185504316872076342522107523205206 +/- 4.34e-61]",
+      "upper": "[4.00512334134212007605533216185504316872076342522107523205206 +/- 4.34e-61]"
+    },
+    "old_primitive_after_propagation_factor": {
+      "ball": "[4.22618326625810206356694510237342895077587920600796094525860 +/- 5.88e-61]",
+      "lower": "[4.22618326625810206356694510237342895077587920600796094525860 +/- 5.88e-61]",
+      "upper": "[4.22618326625810206356694510237342895077587920600796094525860 +/- 5.88e-61]"
+    }
+  },
+  "exact_real_parameter_radius": "1/100000000",
+  "exact_negative_radial_length": "9/1000000",
+  "exact_root_state_norm": "sqrt(||h1(root)||_Hminus2/3^2+||h2(root)||_Hminus1^2)",
+  "ordinary_source_norm": "L2_rho(Hminus2/3 x Hminus2/3), normalized circle, complete even mean",
+  "sharper_anisotropic_source_norm": "L2_rho(Hminus2/3 x Hminus1)",
+  "output_norm": "sup_0<=rho<=9e-6 complete pair Hminus1",
+  "propagation_direction": "from rho=0 root to increasing rho on the negative side",
+  "root_state_factor": "41/10",
+  "ordinary_source_factor_inside_bracket": "3/1000",
+  "affine_seam_factor_inside_bracket": "1",
+  "affine_seam_input_norm": "sum sqrt(||j1||_Hminus2/3^2+||j2||_Hminus1^2)",
+  "propagated_old_primitive_output_factor": "17/4",
+  "only_the_stated_negative_one_Sobolev_window_proved": true,
+  "all_full_frequency_states_sources_and_independent_even_mean_retained": true,
+  "full_delta96_and_quadratic_band192_paid": true,
+  "positive_source_Sobolev_window_transferred": false,
+  "milliscale_radial_domain_certified": false,
+  "prescribed_affine_seam_source_contract_retained": true,
+  "root_reflection_finite_constant_strong_return_or_nonlinear_existence_claimed": false
+}

@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43613506152",
+  "reviewed_pull_history": [
+    {
+      "before": "22c287f92647a48d9dee8dee32e8e580ddffd9cc",
+      "after": "bd26144de9d95099725264586586f7b956644d0b",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "bd26144de9d95099725264586586f7b956644d0b",
+      "after": "bd26144de9d95099725264586586f7b956644d0b",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/current-negative-one-root-cauchy.json.gz",
+      "bytes": 4428,
+      "sha256": "7c91e9745b997ccadd1b987b5765e5bd51006261872cd58ff52b8ccd416240b0",
+      "original_sha256": "7c91e9745b997ccadd1b987b5765e5bd51006261872cd58ff52b8ccd416240b0"
+    },
+    {
+      "file": "consumers/current-negative-one-root-cauchy.stdout.log",
+      "bytes": 7709,
+      "sha256": "72a00e8f707505d9388312da2ad19e3a9d655dc7f9b37e87f465439e03d04f26",
+      "original_sha256": "72a00e8f707505d9388312da2ad19e3a9d655dc7f9b37e87f465439e03d04f26"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 13239,
+      "sha256": "4e5fee926a13334224efd854d527de7390cf273d7840eafbe4f92735066d6486",
+      "original_sha256": "4e5fee926a13334224efd854d527de7390cf273d7840eafbe4f92735066d6486"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 12063,
+      "sha256": "f3309d3035682b37eab157f51a54ef0cc751b7f790671d48eb8406c6a2c21312",
+      "original_sha256": "f3309d3035682b37eab157f51a54ef0cc751b7f790671d48eb8406c6a2c21312"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2033,
+      "sha256": "c4cf74a9190d063414a81229bee63feb6687ced6b0615fe0698ab3f7386e1aec",
+      "original_sha256": "c4cf74a9190d063414a81229bee63feb6687ced6b0615fe0698ab3f7386e1aec"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}
