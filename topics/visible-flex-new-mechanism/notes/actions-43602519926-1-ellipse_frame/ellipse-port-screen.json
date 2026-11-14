@@ -1,0 +1,112 @@
+{
+  "schema": "continuous-core-port-necessary-screen-v1",
+  "physical_identity_sha256": "caaf925860078f5a8fd654e25b69c2cccb417a5cc9795deb76a2c9887b85c4fb",
+  "input_source": {
+    "physical_identity": {
+      "kind": "exact-elliptic-cylinder-v1",
+      "major": "1",
+      "minor": "7/25",
+      "half_width": "1/50",
+      "material_angle_definition": "ell(phi)=a0*theta, a0=exact ellipse perimeter/(2*pi)",
+      "position_definition": "(A*cos(phi),B*sin(phi),s)",
+      "extrusion_is_exact_for_every_real_s": true
+    }
+  },
+  "provider": {
+    "provider": "exact-ellipse-interval-port-v1",
+    "angular_cells": 1024,
+    "physical_identity": {
+      "kind": "exact-elliptic-cylinder-v1",
+      "major": "1",
+      "minor": "7/25",
+      "half_width": "1/50",
+      "material_angle_definition": "ell(phi)=a0*theta, a0=exact ellipse perimeter/(2*pi)",
+      "position_definition": "(A*cos(phi),B*sin(phi),s)",
+      "extrusion_is_exact_for_every_real_s": true
+    },
+    "period_enclosure": {
+      "lower": "4.3461672981607840668898473223270001463375781945550",
+      "upper": "4.3462044090295052812901254949441551549968513270056"
+    },
+    "material_angle_is_interval_arclength_not_float_inverse": true,
+    "boundary_projection_lies_in_domain": true,
+    "outward_horizontal_velocity_identically_zero": true,
+    "fold": 2
+  },
+  "diameter_lower_enclosure": {
+    "lower": "2",
+    "upper": "2"
+  },
+  "necessary_reach_from_topic_ratio_enclosure": {
+    "lower": "0.06",
+    "upper": "0.06"
+  },
+  "support_tau_kind": "necessary-from-diameter-lower",
+  "chord_height_screen": {
+    "length": "9/10",
+    "cut_radius": "11/50",
+    "tail_material_phase": "0",
+    "sides": [
+      {
+        "side": -1,
+        "strict_horizontal_failure_cells": [],
+        "strict_horizontal_failure_cell_count": 0,
+        "necessary_outer_height_interval": {
+          "lower": "-0.45",
+          "upper": "0.42903158709023158464363310830411253092169384862330"
+        },
+        "necessary_outer_interval_empty": false,
+        "fixed_circle_port_and_length_excluded": false,
+        "sufficient_height_interval_for_all_chord_inequalities": {
+          "lower": "-0.45",
+          "upper": "0.42899432360376396669629131830986361514833691404537"
+        },
+        "sufficient_interval_unresolved_is_not_exclusion": false,
+        "maximum_horizontal_chord_squared_enclosure": {
+          "lower": "0.60837063379522776769174745299762181705877964398525",
+          "upper": "0.60840409737159848367827733836853019163519489904877"
+        },
+        "continuous_all_material_angles_covered": true,
+        "a_surface_connector_has_not_been_constructed": true
+      },
+      {
+        "side": 1,
+        "strict_horizontal_failure_cells": [],
+        "strict_horizontal_failure_cell_count": 0,
+        "necessary_outer_height_interval": {
+          "lower": "-0.42903158709023158464363310830411253092169384862330",
+          "upper": "0.45"
+        },
+        "necessary_outer_interval_empty": false,
+        "fixed_circle_port_and_length_excluded": false,
+        "sufficient_height_interval_for_all_chord_inequalities": {
+          "lower": "-0.42899432360376396669629131830986361514833691404537",
+          "upper": "0.45"
+        },
+        "sufficient_interval_unresolved_is_not_exclusion": false,
+        "maximum_horizontal_chord_squared_enclosure": {
+          "lower": "0.60837063379522776769174745299762181705877964398525",
+          "upper": "0.60840409737159848367827733836853019163519489904877"
+        },
+        "continuous_all_material_angles_covered": true,
+        "a_surface_connector_has_not_been_constructed": true
+      }
+    ],
+    "any_side_strictly_excluded": false
+  },
+  "directional_turn_screen": {
+    "continuous_all_material_angles_and_directions_passed": true,
+    "proof": "boundary lies in K and every outward velocity is vertical; g((e.V)_+)=0 identically",
+    "strict_violation": false,
+    "checked_direction_cells": 0,
+    "assumes_exact_unit_speed_material_geodesics_of_target_metric": true,
+    "approximate_R28_material_curves_are_not_automatically_geodesics": true,
+    "projection_envelope_is_still_a_required_future_connector_assumption": true
+  },
+  "planned_tau_failure_is_not_unconditional_topic_exclusion": false,
+  "passing_necessary_screens_does_not_construct_a_connector": true,
+  "complete_surface_embedded": false,
+  "reach_lower_certified": false,
+  "task_complete": false,
+  "source_sha256": "d6e77a04094cb26113477209b414d62081ea885d3e79609e10c72ea867d36feb"
+}

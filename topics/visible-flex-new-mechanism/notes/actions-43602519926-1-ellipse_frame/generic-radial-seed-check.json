@@ -1,0 +1,88 @@
+{
+  "schema": "generic-radial-seed-development-check-v2",
+  "passed": true,
+  "artificial_parameters_only": true,
+  "no_research_candidate_evaluated": true,
+  "parameter_jacobian_relative_errors": {
+    "physical_order_0": 7.321343531219572e-11,
+    "physical_order_1": 3.357374736715016e-11,
+    "physical_order_2": 8.722154100089209e-11,
+    "normalized_order_0": 7.321343531219572e-11,
+    "normalized_order_1": 7.607032103999342e-11,
+    "normalized_order_2": 5.834058011394809e-11
+  },
+  "endpoint_error": 0.0,
+  "join_radial_2_3_jet_error": 0.0,
+  "middle_K": -3.6153179666502755,
+  "middle_integral_K_dA_over_2pi": -0.30000000000000004,
+  "same_exact_a0_finer_evaluation_preserves_identity": true,
+  "different_physical_length_changes_identity": true,
+  "exact_rational_string_parameters_supported": true,
+  "tail_order_change_changes_metric_identity": true,
+  "S11_preserves_mu_nu_of_same_design": true,
+  "S11_exact_integral": "1/2",
+  "S11_exact_endpoint_jets_0_through_5": {
+    "left": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "right": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "S11_exact_left_leading_power": 6,
+  "S11_exact_left_leading_coefficient": "462",
+  "S11_primitive_symmetry_error": 5.551115123125783e-17,
+  "definition": {
+    "schema": "negative-K-open-port-radial-metric-v2",
+    "a0_source": {
+      "kind": "literal_exact_a0",
+      "exact_value": "3152519739159347/4503599627370496",
+      "not_an_unstated_arclength_integral": true
+    },
+    "length": "8106479329266893/9007199254740992",
+    "cut_radius": "7926335344172073/36028797018963968",
+    "negative_curvature_drop": "3/10",
+    "core_fraction": "1/25",
+    "flat_fraction": "3/50",
+    "active_fractions": [
+      "1/4",
+      "7/20",
+      "2/5"
+    ],
+    "tail_smoothstep_order": 11,
+    "transition_orders": [
+      5,
+      5,
+      11
+    ],
+    "slope_definition": "d=-a_s: 0 -> mu -> nu -> 1 by the listed normalized smoothsteps",
+    "S5_definition": "10*x^3-15*x^4+6*x^5",
+    "S11_definition": "462*x^6-1980*x^7+3465*x^8-3080*x^9+1386*x^10-252*x^11",
+    "each_transition_integral_on_unit_interval": "1/2",
+    "nu_definition": "(((a0-rc)/L-flat_fraction)/active_fraction-A*gap-C)/(A+B)",
+    "mu_definition": "nu+gap; A=(f1+f2)/2,B=(f2+f3)/2,C=f3/2",
+    "whole_radius_positive_by_monotonicity": true,
+    "core_and_tail_are_open_exact_metric_regions": true,
+    "middle_integrated_Gaussian_curvature": "-2*pi*negative_curvature_drop",
+    "changing_any_parameter_is_metric_design_not_fixed_g_refinement": true,
+    "numerical_evaluation": {
+      "a0": 0.7,
+      "mu": 0.6495198902606312,
+      "nu": 0.3495198902606311,
+      "maximum_abs_a_prime": 1.0,
+      "active_mean_slope": 0.525925925925926
+    },
+    "a_surface_realizing_this_metric_has_not_been_constructed": true,
+    "definition_sha256": "5dc329f49fefc00e2691c00dbbd418126ac6a1d78fcaa9850cd78d3dd0c7c6c8"
+  }
+}

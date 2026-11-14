@@ -1,0 +1,132 @@
+{
+  "schema": "continuous-port-screen-development-v1",
+  "passed": true,
+  "artificial_circle_only": true,
+  "research_candidate_evaluated": false,
+  "passing_chord_case": {
+    "length": "1/2",
+    "cut_radius": "4/5",
+    "tail_material_phase": "0",
+    "sides": [
+      {
+        "side": -1,
+        "strict_horizontal_failure_cells": [],
+        "strict_horizontal_failure_cell_count": 0,
+        "necessary_outer_height_interval": {
+          "lower": "-0.56032914580102332841320489738476068875127994613964",
+          "upper": "0.36032914580102332841320489738476068875127994613964"
+        },
+        "necessary_outer_interval_empty": false,
+        "fixed_circle_port_and_length_excluded": false,
+        "sufficient_height_interval_for_all_chord_inequalities": {
+          "lower": "-0.50887565923225599830229194433644389751255947064792",
+          "upper": "0.30887565923225599830229194433644389751255947064792"
+        },
+        "sufficient_interval_unresolved_is_not_exclusion": false,
+        "maximum_horizontal_chord_squared_enclosure": {
+          "lower": "0.038097077526100206571351993091951643966207075478808",
+          "upper": "0.082820695287388070220952151350696128846224701337982"
+        },
+        "continuous_all_material_angles_covered": true,
+        "a_surface_connector_has_not_been_constructed": true
+      },
+      {
+        "side": 1,
+        "strict_horizontal_failure_cells": [],
+        "strict_horizontal_failure_cell_count": 0,
+        "necessary_outer_height_interval": {
+          "lower": "-0.36032914580102332841320489738476068875127994613964",
+          "upper": "0.56032914580102332841320489738476068875127994613964"
+        },
+        "necessary_outer_interval_empty": false,
+        "fixed_circle_port_and_length_excluded": false,
+        "sufficient_height_interval_for_all_chord_inequalities": {
+          "lower": "-0.30887565923225599830229194433644389751255947064792",
+          "upper": "0.50887565923225599830229194433644389751255947064792"
+        },
+        "sufficient_interval_unresolved_is_not_exclusion": false,
+        "maximum_horizontal_chord_squared_enclosure": {
+          "lower": "0.038097077526100206571351993091951643966207075478808",
+          "upper": "0.082820695287388070220952151350696128846224701337982"
+        },
+        "continuous_all_material_angles_covered": true,
+        "a_surface_connector_has_not_been_constructed": true
+      }
+    ],
+    "any_side_strictly_excluded": false
+  },
+  "failing_chord_case": {
+    "length": "1/20",
+    "cut_radius": "4/5",
+    "tail_material_phase": "0",
+    "sides": [
+      {
+        "side": -1,
+        "strict_horizontal_failure_cells": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "strict_horizontal_failure_cell_count": 64,
+        "necessary_outer_height_interval": {
+          "lower": "-Infinity",
+          "upper": "Infinity"
+        },
+        "necessary_outer_interval_empty": false,
+        "fixed_circle_port_and_length_excluded": true,
+        "sufficient_height_interval_for_all_chord_inequalities": null,
+        "sufficient_interval_unresolved_is_not_exclusion": false,
+        "maximum_horizontal_chord_squared_enclosure": {
+          "lower": "0.038097077526100206571351993091951643966207075478808",
+          "upper": "0.082820695287388070220952151350696128846224701337982"
+        },
+        "continuous_all_material_angles_covered": true,
+        "a_surface_connector_has_not_been_constructed": true
+      },
+      {
+        "side": 1,
+        "strict_horizontal_failure_cells": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "strict_horizontal_failure_cell_count": 64,
+        "necessary_outer_height_interval": {
+          "lower": "-Infinity",
+          "upper": "Infinity"
+        },
+        "necessary_outer_interval_empty": false,
+        "fixed_circle_port_and_length_excluded": true,
+        "sufficient_height_interval_for_all_chord_inequalities": null,
+        "sufficient_interval_unresolved_is_not_exclusion": false,
+        "maximum_horizontal_chord_squared_enclosure": {
+          "lower": "0.038097077526100206571351993091951643966207075478808",
+          "upper": "0.082820695287388070220952151350696128846224701337982"
+        },
+        "continuous_all_material_angles_covered": true,
+        "a_surface_connector_has_not_been_constructed": true
+      }
+    ],
+    "any_side_strictly_excluded": true
+  },
+  "exact_vertical_support_case": {
+    "continuous_all_material_angles_and_directions_passed": true,
+    "proof": "boundary lies in K and every outward velocity is vertical; g((e.V)_+)=0 identically",
+    "strict_violation": false,
+    "checked_direction_cells": 0,
+    "assumes_exact_unit_speed_material_geodesics_of_target_metric": true,
+    "approximate_R28_material_curves_are_not_automatically_geodesics": true,
+    "projection_envelope_is_still_a_required_future_connector_assumption": true
+  },
+  "source_sha256": "d6e77a04094cb26113477209b414d62081ea885d3e79609e10c72ea867d36feb"
+}

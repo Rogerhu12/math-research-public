@@ -1,0 +1,837 @@
+{
+  "schema": "orthonormal-frame-collar-design-v1",
+  "status": "finite_frame_collar_candidate",
+  "definition": {
+    "major": "1",
+    "minor": ".28",
+    "half_width": ".02",
+    "side": 1,
+    "length": ".9",
+    "cut_radius": ".22",
+    "core_fraction": "1/25",
+    "flat_fraction": "3/50",
+    "negative_curvature_drop": ".3",
+    "radial_free": 4,
+    "angular_modes": 5,
+    "mode": "fixed",
+    "metric_free": 3,
+    "frozen_metric_from": null,
+    "radial_nodes": 29,
+    "angular_nodes": 96,
+    "quadrature_order": 4,
+    "audit_radial_nodes": 121,
+    "audit_angular_nodes": 384,
+    "height_limit": 0.45,
+    "shape_weight": 2.0,
+    "field_bound": 3.0,
+    "metric_log_bound": 0.5,
+    "max_nfev": 200,
+    "checkpoint_every": 10,
+    "checkpoint_seconds": 60.0,
+    "check_only": false,
+    "out": "/home/runner/work/_temp/visible-new-mechanism/ellipse_frame/frame-ellipse-positive-fixed.json"
+  },
+  "port_identity": {
+    "core_identity_sha256": "caaf925860078f5a8fd654e25b69c2cccb417a5cc9795deb76a2c9887b85c4fb",
+    "side": 1,
+    "physical_s_definition": "side*(half_width+t)",
+    "fold": 2
+  },
+  "port_identity_sha256": "bf2811f3fa53879dc99951cb6b0e0e126c9ddeded34a9c49e56a2a3c27999226",
+  "core_physical_identity": {
+    "kind": "exact-elliptic-cylinder-v1",
+    "major": "1",
+    "minor": "7/25",
+    "half_width": "1/50",
+    "material_angle_definition": "ell(phi)=a0*theta, a0=exact ellipse perimeter/(2*pi)",
+    "position_definition": "(A*cos(phi),B*sin(phi),s)",
+    "extrusion_is_exact_for_every_real_s": true
+  },
+  "core_physical_identity_sha256": "caaf925860078f5a8fd654e25b69c2cccb417a5cc9795deb76a2c9887b85c4fb",
+  "fold": 2,
+  "tail_beta_multiple_of_pi": -1,
+  "ellipse_opposite_half_reflection": {
+    "position": "(x,y,z) -> (x,y,-z)",
+    "scalar_fields": "u -> u, v -> -v, beta -> -beta",
+    "accurate_cylinder_and_C2_ports_match": true,
+    "cross_half_injectivity_or_reach_proved": false
+  },
+  "field_unknown_count": 64,
+  "metric_design_unknown_count": 0,
+  "core_port_is_extended_exactly_through_open_buffer": true,
+  "active_interval": [
+    0.036000000000000004,
+    0.846
+  ],
+  "open_core_length": 0.036000000000000004,
+  "open_flat_tail_length": 0.05400000000000005,
+  "frame_parameterization": "T=(-sin(theta+u),cos(theta+u),v)/sqrt(1+v^2); V=cos(beta)*N0+sin(beta)*(T cross N0)",
+  "field_basis": "clamped degree-five B splines with first/last three coefficients omitted; sin/cos(fold*k*theta)",
+  "base_blending": "degree-nine Hermite with third/fourth radial jets zero, plus compact necessary ellipse Cauchy leading terms",
+  "entry_cauchy_seed": {
+    "enabled": true,
+    "a_prime_cubic_coefficient_numerical": -763.9549691972056,
+    "first_seed_segment_length": 0.20249999999999999,
+    "compact_entry_length": 0.050624999999999996,
+    "beta_cubic_definition": "side*c3/psi_theta_at_core",
+    "u_quartic_definition": "c3*psi_thetatheta_at_core/(4*a0*psi_theta_at_core^2)",
+    "full_Cauchy_solution_or_series_not_proved": true,
+    "free_fields_still_match_exact_position_two_jet_not_all_higher_Cauchy_orders": true
+  },
+  "exact_field_coefficients": [
+    "-3551128964204035/144115188075855872",
+    "2301920113848027/144115188075855872",
+    "-1005059363739149/36028797018963968",
+    "-5611656055992563/144115188075855872",
+    "-3068611203941729/72057594037927936",
+    "8912509228403971/576460752303423488",
+    "-4754775049198411/18014398509481984",
+    "-5883935180075655/36028797018963968",
+    "-3667106260417081/36028797018963968",
+    "-1314118964364537/18014398509481984",
+    "6651619309292453/18014398509481984",
+    "4976283578087405/144115188075855872",
+    "-8740697177673827/1152921504606846976",
+    "-6665452504989287/2305843009213693952",
+    "1025428428336301/288230376151711744",
+    "1452560509625585/2251799813685248",
+    "-170467631898397/2251799813685248",
+    "-2630647073429351/144115188075855872",
+    "7056801323572457/2305843009213693952",
+    "-6922019080666257/4611686018427387904",
+    "-6695906891895683/1152921504606846976",
+    "-7055825916556751/288230376151711744",
+    "-5550718485501669/144115188075855872",
+    "-349095600787533/9007199254740992",
+    "-4503552187239403/144115188075855872",
+    "-8552164247650997/144115188075855872",
+    "-2662973631331849/36028797018963968",
+    "-3681999665396527/144115188075855872",
+    "6449644081848725/2305843009213693952",
+    "1734298371051077/144115188075855872",
+    "597765539767217/4503599627370496",
+    "4610280136576335/36028797018963968",
+    "664324403841887/18014398509481984",
+    "5204906598886425/1152921504606846976",
+    "-8940219059634087/2305843009213693952",
+    "4943622922987353/18014398509481984",
+    "7702390703443181/576460752303423488",
+    "-6241601552757961/288230376151711744",
+    "-3091648955302277/1152921504606846976",
+    "4504118146691843/1152921504606846976",
+    "-1404245208997995/2251799813685248",
+    "-6754949823670297/36028797018963968",
+    "-8580984468655365/72057594037927936",
+    "-6695843974715381/72057594037927936",
+    "-1125499839247849/18014398509481984",
+    "-6545824541445133/144115188075855872",
+    "2290170654122057/1125899906842624",
+    "1141176656214749/4503599627370496",
+    "-2779188332421537/9007199254740992",
+    "-1113143307278219/18014398509481984",
+    "4747136109714497/576460752303423488",
+    "8171169293702581/288230376151711744",
+    "-3301111092486131/1125899906842624",
+    "-4668374166108953/4503599627370496",
+    "8697336135691467/36028797018963968",
+    "7777597223818599/144115188075855872",
+    "-4542871622226781/576460752303423488",
+    "-3062282811804455/144115188075855872",
+    "-72491764130689/35184372088832",
+    "3834748577325525/2251799813685248",
+    "-6952972013947463/288230376151711744",
+    "-5440106810006171/288230376151711744",
+    "1305839831269975/288230376151711744",
+    "177794546984525/18014398509481984"
+  ],
+  "field_coefficients_binary64": [
+    -0.02464090712170377,
+    0.015972779445261508,
+    -0.027896001168457835,
+    -0.038938685997750876,
+    -0.04258553515298537,
+    0.015460738988372308,
+    -0.26394303682666437,
+    -0.16331200780804897,
+    -0.10178264510155247,
+    -0.07294825656670373,
+    0.3692390454108881,
+    0.034529903784104345,
+    -0.007581346295257504,
+    -0.002890679234603333,
+    0.0035576695351379646,
+    0.6450664489790303,
+    -0.07570283595477045,
+    -0.018253780941150315,
+    0.0030603997303263364,
+    -0.001500973625048894,
+    -0.005807773439163169,
+    -0.024479813719713136,
+    -0.038515846661352694,
+    -0.03875739737896711,
+    -0.031249670817963558,
+    -0.05934256036323885,
+    -0.07391236598685705,
+    -0.025549005032408416,
+    0.0027970872501194657,
+    0.012034112394442555,
+    0.1327306131154098,
+    0.12796097893997646,
+    0.03687741244828219,
+    0.00451453683367744,
+    -0.0038772019707806363,
+    0.2744261997082638,
+    0.0133615179744084,
+    -0.021654905482525053,
+    -0.002681578011121015,
+    0.003906699743819744,
+    -0.6236101452996556,
+    -0.18748752061066012,
+    -0.11908508163815064,
+    -0.092923501875333,
+    -0.06247779178724372,
+    -0.04542078200667996,
+    2.0340801524217307,
+    0.2533921197788722,
+    -0.3085518876423984,
+    -0.061791866472383716,
+    0.00823496845317895,
+    0.028349438399933386,
+    -2.931975633378886,
+    -1.036587297355885,
+    0.24139957076872628,
+    0.05396792196340066,
+    -0.007880626051425638,
+    -0.02124885553486982,
+    -2.0603398562198265,
+    1.7029704656781441,
+    -0.024122967560808808,
+    -0.01887416199027801,
+    0.004530542022339237,
+    0.009869579985750943
+  ],
+  "metric_model": {
+    "seed": {
+      "schema": "negative-K-open-port-radial-metric-v2",
+      "a0_source": {
+        "kind": "frozen_core_perimeter",
+        "physical_identity_sha256": "caaf925860078f5a8fd654e25b69c2cccb417a5cc9795deb76a2c9887b85c4fb",
+        "physical_identity": {
+          "kind": "exact-elliptic-cylinder-v1",
+          "major": "1",
+          "minor": "7/25",
+          "half_width": "1/50",
+          "material_angle_definition": "ell(phi)=a0*theta, a0=exact ellipse perimeter/(2*pi)",
+          "position_definition": "(A*cos(phi),B*sin(phi),s)",
+          "extrusion_is_exact_for_every_real_s": true
+        },
+        "exact_definition": "perimeter of the frozen core curve divided by 2*pi"
+      },
+      "length": "9/10",
+      "cut_radius": "11/50",
+      "negative_curvature_drop": "3/10",
+      "core_fraction": "1/25",
+      "flat_fraction": "3/50",
+      "active_fractions": [
+        "1/4",
+        "7/20",
+        "2/5"
+      ],
+      "tail_smoothstep_order": 11,
+      "transition_orders": [
+        5,
+        5,
+        11
+      ],
+      "slope_definition": "d=-a_s: 0 -> mu -> nu -> 1 by the listed normalized smoothsteps",
+      "S5_definition": "10*x^3-15*x^4+6*x^5",
+      "S11_definition": "462*x^6-1980*x^7+3465*x^8-3080*x^9+1386*x^10-252*x^11",
+      "each_transition_integral_on_unit_interval": "1/2",
+      "nu_definition": "(((a0-rc)/L-flat_fraction)/active_fraction-A*gap-C)/(A+B)",
+      "mu_definition": "nu+gap; A=(f1+f2)/2,B=(f2+f3)/2,C=f3/2",
+      "whole_radius_positive_by_monotonicity": true,
+      "core_and_tail_are_open_exact_metric_regions": true,
+      "middle_integrated_Gaussian_curvature": "-2*pi*negative_curvature_drop",
+      "changing_any_parameter_is_metric_design_not_fixed_g_refinement": true,
+      "numerical_evaluation": {
+        "a0": 0.6917169621957359,
+        "mu": 0.634370301226769,
+        "nu": 0.334370301226769,
+        "maximum_abs_a_prime": 1.0,
+        "active_mean_slope": 0.5156999533280691
+      },
+      "a_surface_realizing_this_metric_has_not_been_constructed": true,
+      "definition_sha256": "ce41cbe5b74f4c20862ecb9042c714d6507259eea602a8590c5beab11234152f"
+    },
+    "mathematical_definition": {
+      "seed_definition_sha256": "ce41cbe5b74f4c20862ecb9042c714d6507259eea602a8590c5beab11234152f",
+      "positive_radius_definition": "a_seed(t)*exp(sum(c_j*B_j(t)))",
+      "log_basis_degree": 5,
+      "log_basis_free_count": 0,
+      "log_basis_interval": "[core_fraction*L,(1-flat_fraction)*L]",
+      "log_basis_endpoint_weight": "16*x^2*(1-x)^2; x is normalized active coordinate",
+      "log_basis_coefficients_exact": []
+    },
+    "mathematical_definition_sha256": "f8b81d3a177457f084cbf04379bb9979036f98ce2a8d7e2fbf04fccaadbdf870",
+    "metric_is_being_designed": false,
+    "a0_is_exact_core_perimeter_not_frozen_float": true
+  },
+  "frozen_metric_source": null,
+  "angular_derivative_method": "analytic",
+  "strong_core_angular_functions_projected_to_free_modes": false,
+  "initial_collocation_audit": {
+    "radial_nodes": 29,
+    "angular_nodes": 96,
+    "radial_center_quadrature_order": 4,
+    "integrability_residual_max_sample": 3.0945544372368885,
+    "metric_relative_operator_error_max_sample": 1.5118939032156389,
+    "E_error_max_sample": 1.3989393391102531,
+    "F_over_a_max_sample": 0.7966932110759278,
+    "G_over_a_squared_error_max_sample": 4.440892098500626e-16,
+    "minimum_area_sample": 0.06876324119404728,
+    "principal_curvature_absolute_max_sample": 264.8172219562578,
+    "induced_Gauss_curvature_min_sample": -7.081037330574798,
+    "induced_Gauss_curvature_max_sample": 490.74574062231665,
+    "shape_operator_discriminant_min_before_roundoff_clip": 5.897505746007983e-32,
+    "radial_metric_min_sample": 0.22,
+    "radial_metric_max_sample": 0.6917169621957359,
+    "target_Gauss_curvature_min_sample": -3.6526262010084913,
+    "target_Gauss_curvature_max_sample": 12.746376208520813,
+    "target_frame_unit_error_max": 4.440892098500626e-16,
+    "target_frame_orthogonality_max": 1.1102230246251565e-16,
+    "target_T_angle_mean_max": 1.3019546233762608e-16,
+    "primitive_identity_error_max_sample": 0.00134348907170323,
+    "metric_bound_from_sampled_R_not_continuous": 33.35032162563554,
+    "metric_bound_is_not_a_continuous_certificate": true,
+    "position_abs_max_sample": [
+      0.9999146813959267,
+      0.4422609387140503,
+      0.5178232367534
+    ],
+    "position_min_sample": [
+      -0.9999146813959267,
+      -0.4422609387140502,
+      0.02
+    ],
+    "position_max_sample": [
+      0.9999146813959267,
+      0.4422609387140503,
+      0.5178232367534
+    ],
+    "signed_side_height_minus_core_width_min_sample": 0.0,
+    "signed_side_height_margin_is_only_sampled": true,
+    "height_limit": 0.45,
+    "height_positive_violation_sample": 0.06782323675340002,
+    "center_height_first_last": [
+      0.02,
+      0.5178232367534
+    ],
+    "ellipse_projection_envelope": {
+      "normalized_ellipse_radius_squared_max_sample": 2.494830840717257,
+      "positive_violation_sample": 1.494830840717257,
+      "ellipse_major": 1.0,
+      "ellipse_minor": 0.28
+    },
+    "position_two_jet_endpoint_errors": {
+      "core": {
+        "X": 8.531860407334779e-05,
+        "Xs": 0.0,
+        "Xt": 3.554447978966673e-16,
+        "Xss": 0.0,
+        "Xst": 0.0,
+        "Xtt": 1.9860273225978185e-15
+      },
+      "tail": {
+        "X": 1.7554167342883506e-16,
+        "Xs": 7.547618311826205e-16,
+        "Xt": 0.0,
+        "Xss": 0.0,
+        "Xst": 0.0,
+        "Xtt": 0.0
+      }
+    },
+    "continuous_metric_bound_proved": false,
+    "continuous_shape_bound_proved": false,
+    "embedding_proved": false,
+    "whole_surface_reach_proved": false,
+    "task_complete": false
+  },
+  "collocation_audit": {
+    "radial_nodes": 29,
+    "angular_nodes": 96,
+    "radial_center_quadrature_order": 4,
+    "integrability_residual_max_sample": 3.4858349602763443,
+    "metric_relative_operator_error_max_sample": 1.63452956997196,
+    "E_error_max_sample": 1.63452956997196,
+    "F_over_a_max_sample": 0.6976994306454031,
+    "G_over_a_squared_error_max_sample": 6.661338147750939e-16,
+    "minimum_area_sample": 0.07578247513416363,
+    "principal_curvature_absolute_max_sample": 743.2403688578147,
+    "induced_Gauss_curvature_min_sample": -140.93386773417333,
+    "induced_Gauss_curvature_max_sample": 652.8398676582643,
+    "shape_operator_discriminant_min_before_roundoff_clip": 5.897505746007983e-32,
+    "radial_metric_min_sample": 0.22,
+    "radial_metric_max_sample": 0.6917169621957359,
+    "target_Gauss_curvature_min_sample": -3.6526262010084913,
+    "target_Gauss_curvature_max_sample": 12.746376208520813,
+    "target_frame_unit_error_max": 6.661338147750939e-16,
+    "target_frame_orthogonality_max": 1.3075139386996282e-16,
+    "target_T_angle_mean_max": 1.7756548456613315e-16,
+    "primitive_identity_error_max_sample": 0.0016543662518557596,
+    "metric_bound_from_sampled_R_not_continuous": 40.93257621893042,
+    "metric_bound_is_not_a_continuous_certificate": true,
+    "position_abs_max_sample": [
+      0.9999146813959267,
+      0.3384659231137994,
+      0.44731015020393294
+    ],
+    "position_min_sample": [
+      -0.9999146813959267,
+      -0.3384659231137993,
+      0.02
+    ],
+    "position_max_sample": [
+      0.9999146813959267,
+      0.3384659231137994,
+      0.44731015020393294
+    ],
+    "signed_side_height_minus_core_width_min_sample": 0.0,
+    "signed_side_height_margin_is_only_sampled": true,
+    "height_limit": 0.45,
+    "height_positive_violation_sample": 0.0,
+    "center_height_first_last": [
+      0.02,
+      0.1953680014655268
+    ],
+    "ellipse_projection_envelope": {
+      "normalized_ellipse_radius_squared_max_sample": 1.461214044761178,
+      "positive_violation_sample": 0.4612140447611781,
+      "ellipse_major": 1.0,
+      "ellipse_minor": 0.28
+    },
+    "position_two_jet_endpoint_errors": {
+      "core": {
+        "X": 8.531860407334779e-05,
+        "Xs": 0.0,
+        "Xt": 3.554447978966673e-16,
+        "Xss": 0.0,
+        "Xst": 0.0,
+        "Xtt": 1.9860273225978185e-15
+      },
+      "tail": {
+        "X": 1.7554167342883506e-16,
+        "Xs": 7.547618311826205e-16,
+        "Xt": 0.0,
+        "Xss": 0.0,
+        "Xst": 0.0,
+        "Xtt": 0.0
+      }
+    },
+    "continuous_metric_bound_proved": false,
+    "continuous_shape_bound_proved": false,
+    "embedding_proved": false,
+    "whole_surface_reach_proved": false,
+    "task_complete": false
+  },
+  "source_files_sha256": {
+    "frame_collar_bvp.py": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+    "ellipse_frame_port.py": "4371f3d816c913b0e7a34f5568672f8f318fd3a923c83e3b28e3ec731c67689b",
+    "cosine_connector_radial_seed.py": "662292c1603a834e8295f7b36648f3c16f3b3904383c883dc8aa7faee4e40fc5"
+  },
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_sha": "c5ea8acbd4a12381a924ab11843b919b1ec34599",
+  "github_run_id": "43602519926",
+  "evaluations_seen": 124,
+  "history": [
+    {
+      "evaluation": 1,
+      "selected_cost": 0.5763066689105508,
+      "R_max_sample": 3.0945544372368885,
+      "metric_error_sample": 1.5118939032156389,
+      "area_min_sample": 0.06876324119404728,
+      "height_violation_sample": 0.06782323675340002,
+      "ellipse_projection": {
+        "normalized_ellipse_radius_squared_max_sample": 2.494830840717257,
+        "positive_violation_sample": 1.494830840717257,
+        "ellipse_major": 1.0,
+        "ellipse_minor": 0.28
+      },
+      "seconds": 0.05642754299999808
+    },
+    {
+      "evaluation": 10,
+      "selected_cost": 0.15881732663585924,
+      "R_max_sample": 2.1820299721794756,
+      "metric_error_sample": 1.9599962817696102,
+      "area_min_sample": 0.08803470392106842,
+      "height_violation_sample": 0.07417695190219836,
+      "ellipse_projection": {
+        "normalized_ellipse_radius_squared_max_sample": 1.4623219465608426,
+        "positive_violation_sample": 0.4623219465608426,
+        "ellipse_major": 1.0,
+        "ellipse_minor": 0.28
+      },
+      "seconds": 0.4723358739999952
+    },
+    {
+      "evaluation": 20,
+      "selected_cost": 0.15877501648341996,
+      "R_max_sample": 2.219968076928314,
+      "metric_error_sample": 1.9749236524212206,
+      "area_min_sample": 0.10611676125572259,
+      "height_violation_sample": 0.07200088872054539,
+      "ellipse_projection": {
+        "normalized_ellipse_radius_squared_max_sample": 1.4617995363942569,
+        "positive_violation_sample": 0.46179953639425686,
+        "ellipse_major": 1.0,
+        "ellipse_minor": 0.28
+      },
+      "seconds": 0.9217315180000014
+    },
+    {
+      "evaluation": 30,
+      "selected_cost": 0.15874096482719646,
+      "R_max_sample": 2.2556307196683316,
+      "metric_error_sample": 1.9774825250348553,
+      "area_min_sample": 0.12056258797642824,
+      "height_violation_sample": 0.07059855375911,
+      "ellipse_projection": {
+        "normalized_ellipse_radius_squared_max_sample": 1.4607758025373128,
+        "positive_violation_sample": 0.46077580253731276,
+        "ellipse_major": 1.0,
+        "ellipse_minor": 0.28
+      },
+      "seconds": 1.3780537519999996
+    },
+    {
+      "evaluation": 40,
+      "selected_cost": 0.1585911895293031,
+      "R_max_sample": 2.3206932939592755,
+      "metric_error_sample": 1.9818040906218921,
+      "area_min_sample": 0.08143810543632576,
+      "height_violation_sample": 0.0694637541364514,
+      "ellipse_projection": {
+        "normalized_ellipse_radius_squared_max_sample": 1.4586869904533553,
+        "positive_violation_sample": 0.45868699045335526,
+        "ellipse_major": 1.0,
+        "ellipse_minor": 0.28
+      },
+      "seconds": 1.8242401879999903
+    },
+    {
+      "evaluation": 50,
+      "selected_cost": 0.15727426475046963,
+      "R_max_sample": 2.559452127099692,
+      "metric_error_sample": 1.9799220062450384,
+      "area_min_sample": 0.03949850202611731,
+      "height_violation_sample": 0.06400744527568597,
+      "ellipse_projection": {
+        "normalized_ellipse_radius_squared_max_sample": 1.4527346178041256,
+        "positive_violation_sample": 0.4527346178041256,
+        "ellipse_major": 1.0,
+        "ellipse_minor": 0.28
+      },
+      "seconds": 2.283936620999995
+    },
+    {
+      "evaluation": 60,
+      "selected_cost": 0.14839745920413022,
+      "R_max_sample": 3.1842587986766047,
+      "metric_error_sample": 1.9378393166246797,
+      "area_min_sample": 0.09581957585115002,
+      "height_violation_sample": 0.03167093174880481,
+      "ellipse_projection": {
+        "normalized_ellipse_radius_squared_max_sample": 1.4399318051140906,
+        "positive_violation_sample": 0.4399318051140906,
+        "ellipse_major": 1.0,
+        "ellipse_minor": 0.28
+      },
+      "seconds": 2.733709136999991
+    },
+    {
+      "evaluation": 70,
+      "selected_cost": 0.14584232229430927,
+      "R_max_sample": 3.2979069374231758,
+      "metric_error_sample": 1.7710373904524652,
+      "area_min_sample": 0.057422043632500225,
+      "height_violation_sample": 0.010427916073467935,
+      "ellipse_projection": {
+        "normalized_ellipse_radius_squared_max_sample": 1.4492745036431713,
+        "positive_violation_sample": 0.44927450364317134,
+        "ellipse_major": 1.0,
+        "ellipse_minor": 0.28
+      },
+      "seconds": 3.185284164999999
+    },
+    {
+      "evaluation": 80,
+      "selected_cost": 0.14529755833703356,
+      "R_max_sample": 3.449823636109964,
+      "metric_error_sample": 1.6654100479329323,
+      "area_min_sample": 0.09018946910947326,
+      "height_violation_sample": 0.0,
+      "ellipse_projection": {
+        "normalized_ellipse_radius_squared_max_sample": 1.45829449970486,
+        "positive_violation_sample": 0.4582944997048599,
+        "ellipse_major": 1.0,
+        "ellipse_minor": 0.28
+      },
+      "seconds": 3.6379436439999893
+    },
+    {
+      "evaluation": 90,
+      "selected_cost": 0.14526612209311446,
+      "R_max_sample": 3.47978008016224,
+      "metric_error_sample": 1.6398145110755689,
+      "area_min_sample": 0.0779305333345369,
+      "height_violation_sample": 0.0,
+      "ellipse_projection": {
+        "normalized_ellipse_radius_squared_max_sample": 1.4607151322587906,
+        "positive_violation_sample": 0.46071513225879057,
+        "ellipse_major": 1.0,
+        "ellipse_minor": 0.28
+      },
+      "seconds": 4.099224702000001
+    },
+    {
+      "evaluation": 100,
+      "selected_cost": 0.14526512998999175,
+      "R_max_sample": 3.4849456596353106,
+      "metric_error_sample": 1.6352910244601029,
+      "area_min_sample": 0.07608116958960401,
+      "height_violation_sample": 0.0,
+      "ellipse_projection": {
+        "normalized_ellipse_radius_squared_max_sample": 1.461143146367623,
+        "positive_violation_sample": 0.461143146367623,
+        "ellipse_major": 1.0,
+        "ellipse_minor": 0.28
+      },
+      "seconds": 4.543881115999994
+    },
+    {
+      "evaluation": 110,
+      "selected_cost": 0.14526510800791698,
+      "R_max_sample": 3.4857182477110524,
+      "metric_error_sample": 1.6346289747829696,
+      "area_min_sample": 0.0758212704132231,
+      "height_violation_sample": 0.0,
+      "ellipse_projection": {
+        "normalized_ellipse_radius_squared_max_sample": 1.461204825214793,
+        "positive_violation_sample": 0.4612048252147929,
+        "ellipse_major": 1.0,
+        "ellipse_minor": 0.28
+      },
+      "seconds": 4.990265670999989
+    },
+    {
+      "evaluation": 120,
+      "selected_cost": 0.14526510757264643,
+      "R_max_sample": 3.4858270913549694,
+      "metric_error_sample": 1.6345362663808984,
+      "area_min_sample": 0.07578508673378195,
+      "height_violation_sample": 0.0,
+      "ellipse_projection": {
+        "normalized_ellipse_radius_squared_max_sample": 1.4612134240600059,
+        "positive_violation_sample": 0.46121342406000587,
+        "ellipse_major": 1.0,
+        "ellipse_minor": 0.28
+      },
+      "seconds": 5.440927700999993
+    }
+  ],
+  "elapsed_seconds": 5.5806897289999995,
+  "parameter_change_during_design_is_not_fixed_g_refinement": false,
+  "continuous_metric_certificate": false,
+  "embedding_proved": false,
+  "whole_surface_reach_proved": false,
+  "closed_surface_constructed": false,
+  "task_complete": false,
+  "fixed_parameter_audit": {
+    "radial_nodes": 121,
+    "angular_nodes": 384,
+    "radial_center_quadrature_order": 8,
+    "integrability_residual_max_sample": 3.510219687787656,
+    "metric_relative_operator_error_max_sample": 1.660115016778469,
+    "E_error_max_sample": 1.660115016778469,
+    "F_over_a_max_sample": 0.6991417373313719,
+    "G_over_a_squared_error_max_sample": 8.881784197001252e-16,
+    "minimum_area_sample": 0.04268161941145181,
+    "principal_curvature_absolute_max_sample": 2334.5845920672755,
+    "induced_Gauss_curvature_min_sample": -320.8520527737256,
+    "induced_Gauss_curvature_max_sample": 1164.6499184808815,
+    "shape_operator_discriminant_min_before_roundoff_clip": 5.04927121508914e-32,
+    "radial_metric_min_sample": 0.22,
+    "radial_metric_max_sample": 0.6917169621957359,
+    "target_Gauss_curvature_min_sample": -3.6513296151084425,
+    "target_Gauss_curvature_max_sample": 13.159089521120128,
+    "target_frame_unit_error_max": 6.661338147750939e-16,
+    "target_frame_orthogonality_max": 1.8388068845354155e-16,
+    "target_T_angle_mean_max": 1.8525303495021836e-16,
+    "primitive_identity_error_max_sample": 9.4858076948888e-10,
+    "metric_bound_from_sampled_R_not_continuous": 41.430114044569336,
+    "metric_bound_is_not_a_continuous_certificate": true,
+    "position_abs_max_sample": [
+      0.9999999999858231,
+      0.33851891070189183,
+      0.4484061942807922
+    ],
+    "position_min_sample": [
+      -0.9999999999858231,
+      -0.33851891070189166,
+      0.02
+    ],
+    "position_max_sample": [
+      0.9999999999858231,
+      0.33851891070189183,
+      0.4484061942807922
+    ],
+    "signed_side_height_minus_core_width_min_sample": 0.0,
+    "signed_side_height_margin_is_only_sampled": true,
+    "height_limit": 0.45,
+    "height_positive_violation_sample": 0.0,
+    "center_height_first_last": [
+      0.02,
+      0.1953680645769404
+    ],
+    "ellipse_projection_envelope": {
+      "normalized_ellipse_radius_squared_max_sample": 1.4616715931479005,
+      "positive_violation_sample": 0.4616715931479005,
+      "ellipse_major": 1.0,
+      "ellipse_minor": 0.28
+    },
+    "position_two_jet_endpoint_errors": {
+      "core": {
+        "X": 1.4176881891355652e-11,
+        "Xs": 0.0,
+        "Xt": 3.554447978966673e-16,
+        "Xss": 0.0,
+        "Xst": 0.0,
+        "Xtt": 2.7465400791133423e-15
+      },
+      "tail": {
+        "X": 2.1677797545656835e-16,
+        "Xs": 1.0308751076504247e-15,
+        "Xt": 0.0,
+        "Xss": 0.0,
+        "Xst": 0.0,
+        "Xtt": 0.0
+      }
+    },
+    "continuous_metric_bound_proved": false,
+    "continuous_shape_bound_proved": false,
+    "embedding_proved": false,
+    "whole_surface_reach_proved": false,
+    "task_complete": false
+  },
+  "fixed_parameter_double_angle_audit": {
+    "radial_nodes": 121,
+    "angular_nodes": 768,
+    "radial_center_quadrature_order": 8,
+    "integrability_residual_max_sample": 3.510219687787656,
+    "metric_relative_operator_error_max_sample": 1.660115016780661,
+    "E_error_max_sample": 1.660115016780661,
+    "F_over_a_max_sample": 0.6991509630672835,
+    "G_over_a_squared_error_max_sample": 8.881784197001252e-16,
+    "minimum_area_sample": 0.0426816194122616,
+    "principal_curvature_absolute_max_sample": 2334.9925839446328,
+    "induced_Gauss_curvature_min_sample": -320.8520527862341,
+    "induced_Gauss_curvature_max_sample": 1165.888787898742,
+    "shape_operator_discriminant_min_before_roundoff_clip": 5.04927121508914e-32,
+    "radial_metric_min_sample": 0.22,
+    "radial_metric_max_sample": 0.6917169621957359,
+    "target_Gauss_curvature_min_sample": -3.6513296151084425,
+    "target_Gauss_curvature_max_sample": 13.159089521120128,
+    "target_frame_unit_error_max": 6.661338147750939e-16,
+    "target_frame_orthogonality_max": 2.056765402522892e-16,
+    "target_T_angle_mean_max": 2.927866475603093e-16,
+    "primitive_identity_error_max_sample": 4.625454026846506e-13,
+    "metric_bound_from_sampled_R_not_continuous": 41.430114044569336,
+    "metric_bound_is_not_a_continuous_certificate": true,
+    "position_abs_max_sample": [
+      1.000000000000008,
+      0.3385189107018919,
+      0.4484061942807922
+    ],
+    "position_min_sample": [
+      -1.000000000000008,
+      -0.3385189107018919,
+      0.02
+    ],
+    "position_max_sample": [
+      1.000000000000008,
+      0.3385189107018919,
+      0.4484061942807922
+    ],
+    "signed_side_height_minus_core_width_min_sample": 0.0,
+    "signed_side_height_margin_is_only_sampled": true,
+    "height_limit": 0.45,
+    "height_positive_violation_sample": 0.0,
+    "center_height_first_last": [
+      0.02,
+      0.1953680645769404
+    ],
+    "ellipse_projection_envelope": {
+      "normalized_ellipse_radius_squared_max_sample": 1.461671593147901,
+      "positive_violation_sample": 0.46167159314790096,
+      "ellipse_major": 1.0,
+      "ellipse_minor": 0.28
+    },
+    "position_two_jet_endpoint_errors": {
+      "core": {
+        "X": 8.740734912882104e-14,
+        "Xs": 0.0,
+        "Xt": 3.775166431889533e-16,
+        "Xss": 0.0,
+        "Xst": 0.0,
+        "Xtt": 2.7465400791133423e-15
+      },
+      "tail": {
+        "X": 2.1138016631127878e-16,
+        "Xs": 9.564476294310814e-16,
+        "Xt": 0.0,
+        "Xss": 0.0,
+        "Xst": 0.0,
+        "Xtt": 0.0
+      }
+    },
+    "continuous_metric_bound_proved": false,
+    "continuous_shape_bound_proved": false,
+    "embedding_proved": false,
+    "whole_surface_reach_proved": false,
+    "task_complete": false
+  },
+  "angle_refinement_same_radial_position_difference_max": 1.4185430607961186e-11,
+  "primitive_gauss_crosscheck": {
+    "radial_positions": [
+      0.0,
+      0.3681,
+      0.9
+    ],
+    "angles": [
+      0.0,
+      0.71,
+      2.13,
+      3.77,
+      5.41
+    ],
+    "gauss_cells": 24,
+    "gauss_order": 8,
+    "uniform_spectral_nodes": 384,
+    "primitive_finite_point_difference_max": 3.2653104969604625e-08,
+    "gauss_full_angle_T_integral_max": 6.006575222054093e-16,
+    "fixed_physical_fields": true,
+    "continuous_error_bound_proved": false
+  },
+  "interval_certification_not_replaced_by_finite_refinement": true,
+  "solver": {
+    "success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "status": 2,
+    "nfev": 123,
+    "njev": 123,
+    "cost": 0.14526510756666813,
+    "selected_cost": 0.14526510756666813,
+    "optimality": 7.638817363974911e-07,
+    "termination_success_is_not_geometric_feasibility": true
+  }
+}
