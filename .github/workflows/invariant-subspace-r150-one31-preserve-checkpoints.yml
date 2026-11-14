@@ -1,0 +1,124 @@
+name: ISP preserve actual one31h0 stage caches and terminal receipts
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/invariant-subspace-problem/notes/2026-11-14-r150-one31-preservation-request-789f.json
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: isp-one31-preservation-789f
+  cancel-in-progress: false
+jobs:
+  preserve:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+            .github/workflows
+      - name: Bind the read rules and the original successful run
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,os
+          from pathlib import Path
+          n=Path('topics/invariant-subspace-problem/notes')
+          request=json.loads((n/'2026-11-14-r150-one31-preservation-request-789f.json').read_text())
+          assert request['original_run_id']==43626632693
+          assert request['mathematics_recomputed'] is False
+          rules={p:hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in ['README.md','topics/invariant-subspace-problem/README.md']}
+          if rules!=request['rules_sha256']:
+              raise SystemExit('Rules changed; root must inspect the actual README difference')
+          helper=n/'2026-11-14-r150-one31-h0-actions-publish-789f.py'
+          assert hashlib.sha256(helper.read_bytes()).hexdigest()=='b8f3ca0bc3965c6754fad671254220dd4a4fa3ab65154280769efbd8d65b3098'
+          out=Path(os.environ['RUNNER_TEMP'])/'isp-one31-preservation-results'
+          out.mkdir(parents=True)
+          (out/'actions-source.json').write_text(json.dumps({'source_commit':os.environ['GITHUB_SHA'],'run_id':os.environ['GITHUB_RUN_ID'],'rules_sha256':rules,'request':request,'mathematicsRecomputed':False},indent=2)+'\n')
+          with open(os.environ['GITHUB_ENV'],'a') as f:f.write('ISP_PRESERVE_RESULTS='+str(out)+'\n')
+          PY
+      - uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-one31-h0-recovery-43626632693-1
+          run-id: 43626632693
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-original-one31-recovery
+      - uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-one31-h0-publication-43626632693-1
+          run-id: 43626632693
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-original-one31-publication
+      - name: Copy exact four caches and all original terminal publication records
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,os,shutil
+          from pathlib import Path
+          temp=Path(os.environ['RUNNER_TEMP'])
+          src=temp/'isp-original-one31-recovery'
+          pub=temp/'isp-original-one31-publication'
+          out=Path(os.environ['ISP_PRESERVE_RESULTS'])
+          original=Path('topics/invariant-subspace-problem/notes/r150-one31-h0-actions-789f/43626632693-1')
+          manifest=json.loads((original/'recovery-manifest.json').read_text())
+          expected={x['file']:x for x in manifest['files'] if x['file'].startswith('stage-cache/')}
+          assert len(expected)==4
+          records=[]
+          for name,item in sorted(expected.items()):
+              p=src/name
+              body=p.read_bytes()
+              assert len(body)==item['bytes'] and hashlib.sha256(body).hexdigest()==item['sha256'],name
+              dest=out/name
+              dest.parent.mkdir(parents=True,exist_ok=True)
+              shutil.copyfile(p,dest)
+              records.append({'originalRecoveryFile':name,'savedFile':name,'bytes':len(body),'sha256':item['sha256']})
+          receipt=json.loads((pub/'publication-receipt.json').read_text())
+          assert receipt['status']=='pushed'
+          assert receipt['publishedCommit']=='e003517c08704e4ef855b14b0fbd34f6406097a0'
+          assert receipt['source_commit']=='1ec6d143ed4e6cfc2bb982213f7dd7cb1e7b4dfc'
+          assert receipt['sharedResearchIndicesEdited'] is False
+          assert receipt['forcePushUsed'] is False
+          assert all(x['rulesDiffer'] is False and x['exitCode']==0 for x in receipt['pulls'])
+          for p in sorted(pub.rglob('*')):
+              if not p.is_file():continue
+              assert not p.is_symlink()
+              relative=Path('original-publication')/p.relative_to(pub)
+              dest=out/relative
+              dest.parent.mkdir(parents=True,exist_ok=True)
+              shutil.copyfile(p,dest)
+              body=p.read_bytes()
+              records.append({'originalPublicationFile':str(p.relative_to(pub)),'savedFile':str(relative),'bytes':len(body),'sha256':hashlib.sha256(body).hexdigest()})
+          result={'format':'r150-one31-original-cache-preservation-v1','status':'completed','original_run_id':43626632693,'original_recovery_artifact':14127065361,'original_publication_artifact':14125984717,'recoveryFilesPreviouslySaved':21,'actualCacheFilesNowPreserved':4,'all25RecoveryFilesNowDurablyCovered':True,'mathematicsRecomputed':False,'originalPublishedCommit':receipt['publishedCommit'],'originalRulesReads':receipt['pulls'],'files':records}
+          (out/'preservation-receipt.json').write_text(json.dumps(result,indent=2)+'\n')
+          print(json.dumps({'status':'completed','cacheFiles':4,'totalCopiedFiles':len(records),'copiedBytes':sum(x['bytes'] for x in records),'mathematicsRecomputed':False}))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_PRESERVE_RESULTS != ''
+        with:
+          name: isp-one31-preservation-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ env.ISP_PRESERVE_RESULTS }}
+          retention-days: 30
+          if-no-files-found: error
+      - name: Publish only this preservation run directory after actual pull
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-one31-h0-actions-publish-789f.py \
+            --checkout "$GITHUB_WORKSPACE" \
+            --results "$ISP_PRESERVE_RESULTS" \
+            --work "$RUNNER_TEMP/isp-one31-preservation-publication"
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_PRESERVE_RESULTS != ''
+        with:
+          name: isp-one31-preservation-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ env.ISP_PRESERVE_RESULTS }}/publication
+          retention-days: 30
+          if-no-files-found: warn
