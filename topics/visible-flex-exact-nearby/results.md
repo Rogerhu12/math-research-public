@@ -353,3 +353,8 @@
 ## 2026-11-14 16:55:40 UTC — 同方向Hessian与已成Green的准确重权合同
 
 [完整G1–8](notes/2026-11-14-R133-particular-Hessian-cached-Green-contract.md)只替换同w0桥、保原未知输入误差operator，重算完整97/mean/high负荷。旧6391正Green右通道乘新负荷上端/旧已选正数值load下端；分母不是实际defect下界，另3通道和全部界面/真实dr/固定phase cut保。230input公开CI已发，原218pin不变；新数值待actual，有限193之外义务仍在。
+
+### R133 / 选定显式族的真实根有限部及首相位（2026-11-14）
+
+[独立证明B1–13](results/R133-supplement-selected-family-root-finite-part-and-actual-first-phase.md)用实际43617150971全实δ七列根图替换旧中心接口，保同一Qδ/νδ/η0、旧I/J、mean及两行重构，证明根标量有限部在全实1e−8区间为0。因此实际首标量β*=−Xiδ*/4，原43598755503/db861…全四根gap1/(512|j|)正式对应此显式选定族。strong常数、充分cutoff与完整Schur仍未付，非真PDE支或N97 fullreturn逆。
+

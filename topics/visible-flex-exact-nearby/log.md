@@ -87,3 +87,7 @@ root完整读source/CI/合同/flow并核230vs218全部原SHA零变；tail核G5�
 ### 2026-11-14 17:02:48 UTC — 同一w0的ordinary-only Hessian最小新计算
 
 逐字审源、合同、worker与workflow，原152文件在新156清单中SHA全部相同，tail独立数学审核通过。直接使用完整原L8的−e tθ+Zt，以普通两源积分，原9360中tB/tC格范数全复用；仅在1977真Hermite交集新增tθ Legendre积分。只比较两份完整总add，不混 ordinary/divergence 分解，未知方向仍用原完整erroroperator。新CI已推、待实际门；未预报数值成功。H原9840字节完整归档后压缩，全部历史失败/原字节索引保。
+
+### 2026-11-14 17:03:37 UTC — 同一选定族真实首相位身份闭合
+
+独立逐字审B1–13：νδ bump在root/positive准确为0；全负区参数积分原06070fd已支付。新真实七列图补原P1–37唯一未成正区接口，保正确两次极限顺序、旧primitive/mean和swap非mean重构。b_rootfin(δ)=0，β*=−Xiδ*/4，故原四根全区间算术现可消费；原candidate历史process不改。另需数值strong/真实充分cutoff，未赋完整逆。结论单独推。

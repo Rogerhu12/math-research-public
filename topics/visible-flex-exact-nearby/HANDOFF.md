@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 17:02:48 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 17:03:37 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则与同步
 
 仅 Rogerhu12/math-research-public；所有新数学代码仅公开 Actions。每结论独立推；非快进立即接新main/rebase再推至成功，不force。root管ref/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
 本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，16:20重试失败。根规则8暂只connector <100KB文本，禁二进制/大文件；先查size，新摘要≤60KB；API不冒称pull。runner长算每10min真pull、短child前后pull。root亲核43617150971于16:44:18拉到ada07519b8addf6a07ac45ab12fd2f15b86f7657，两README无差。终端恢复即回git。
-最新远端 main/两README blob 核：2bcdbd40f0e926e6445aa1fec30f581546c1c8e0；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
+最新远端 main/两README blob 核：4f9171499984ce3c06e535b6299c58509b1f4049；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次H原9840B完整归档 notes/2026-11-14-handoff-before-ordinary-only-Hessian.md；此前归档链保全。open原档 notes/2026-11-14-open-before-actual-full-delta-root-graph.md。完整SHA/失败/源端口/零重算合同在各results和manifest；禁止重算已成数学。
 
@@ -35,7 +35,7 @@ fullδ96 collar43606747196实际19门，qc750/749，EH<131.016385，完整band19
 fullδ outer/body43615531666实际25+11门：完整实|δ|≤1e−8，4650行/3594接口/7721envelope；χ0<.303291625133、χ1<.788277869833，原coef/target/endpoint/solve0重算。H1/6完整外图已付，H7/6未付，order1独立右口。
 七列givenhead rootgraph43617150971实际10门/.001856572s，native4e128cf91ce4e136d8574575704f1ebabf925953039eeb9219b00113436be2e9。loop<.000581202629、reflection<.438072896309<1/2；root普通Fc<.012942656067、Fb<.181398217425。7×7全源/mean/outer/两cutjump保，非完整Schur。
 R31/physicalstrip43586895661/43588332723已成，|δ*|<9.368259853002e−11；ρ15=(5831714953207175+√5)/21212218271020390。Xi/δ43591721337/43597209022给−Xiδ*/4∈(18.478324305027005,18.478338742519616)。43598755503原11门全|n|≥97四根gap>1/(512|n|)，须对应真实有限部。
-P1–37 actualparametrix给wrongbranch一阶抵消、density n7/6和强类H−4/3→L2；δ0/givenhead b_rootfin=0。43608838195/25门rootfloor>1/25、J:L2→H1/3<7/2。phase已提交fullδ B1–13身份扩展小blob，root待审推；CE/Cs/实际充分cutoff仍未付，不能授N97 fullreturn逆。
+P1–37 actualparametrix给wrongbranch一阶抵消、density n7/6和强类H−4/3→L2；δ0/givenhead b_rootfin=0。43608838195/25门rootfloor>1/25、J:L2→H1/3<7/2。fullδ B1–13已独核推：同一νδ显式族的b_rootfin(δ)=0，β*=−Xiδ*/4确认为实际首标量，故原db861…全|j|≥97四根gap合法应用。CE/Cs/实际充分cutoff仍未付，不能授N97 fullreturn逆。
 leading43612196888/22门：a0<1.004641504569、branchinv<1.004667221675、b0/T²<5.287642787676，全复δ1e−8/9e−6域，C1seam保。
 s−1负根43613506152实际13门：growth<101.103437943193、raw<4.005123341343、I后<4.226183266259；全频mean/ordinary H−2/3/两jump(H−2/3,H−1)保，仅9e−6。
 

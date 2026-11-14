@@ -36,13 +36,13 @@ $
 
 [全δ七列正根图](results/R133-supplement-actual-full-real-delta-positive-high-root-to-regular-graph.md)43617150971实际10门：与43606747196全δ collar使用完全同一global参考；loop<.000581202629<1/1500，rootreflection<.438072896309<1/2。7×7普通源/head/mean/全部jump合同完整，只有新接口算术，旧数学0重算。它对显式实$\delta_*$有效，但head仍需由全问题求解。
 
-接续为：把这份真正全δ根图代入已成root parametrix，完成同一$\delta_*$的根有限部；再与实际强余项、负返回、全head及尾网络联立。不能把“给定head”图称为full Schur。
+[完整选定族B1–13](results/R133-supplement-selected-family-root-finite-part-and-actual-first-phase.md)已将这份真正全δ根图代入原parametrix：同一显式$Q_\delta=Q_0+\delta Z,\nu_\delta=\nu_0+\delta$的根有限部严格为0；root±1/50与正区intrinsic bump准确0保证同对象。接续为实际强余项、负返回、全head及尾网络联立。不能把“给定head”图称为full Schur。
 
 ## 4. 根相位、真实逐片大窗和数值强余项
 
-R31/物理Wiener43586895661/43588332723已成，$|\delta_*|<9.368259853002\cdot10^{-11}$。Xi/δ43591721337、43597209022给$-\Xi_{\delta_*}/4\in(18.478324305027005,18.478338742519616)$。43598755503实际11门给全区间所有$|n|\ge97$四根gap>$1/(512|n|)$；还须真实完整β及有用强返回。
+R31/物理Wiener43586895661/43588332723已成，$|\delta_*|<9.368259853002\cdot10^{-11}$。Xi/δ43591721337、43597209022给$-\Xi_{\delta_*}/4\in(18.478324305027005,18.478338742519616)$。43598755503实际11门给原精确输入区间所有$|j|\ge97$四根gap>$1/(512|j|)$。B1–13现证明同一显式选定族的真实首标量$\beta_*=-\mathfrak X(\delta_*)/4$落在该输入区间，故算术门已合法对应；仍须有用强返回及完整耦合逆。
 
-[根parametrix P1–37](results/R133-supplement-actual-moving-root-parametrix-and-scalar-finite-part.md)保Id−SI准确一阶消除、density输入归一$n^{7/6}$及全列HS的$H^{-4/3}\to L^2$强类。原δ0/givenhead的$b_{\rm root}^{\rm fin}=0$，全δ实例化正在接上一节实际新图。有限强类不自动给数值$C_E,C_s$或cutoff97。
+[根parametrix P1–37](results/R133-supplement-actual-moving-root-parametrix-and-scalar-finite-part.md)保Id−SI准确一阶消除、density输入归一$n^{7/6}$及全列HS的$H^{-4/3}\to L^2$强类。现已用上一节真实全δ七列图延伸到整个实$|\delta|\le10^{-8}$，得到$b_{\rm root}^{\rm fin}(\delta)=0$；完整primitive、旧mean和swap非mean重构保持。非mean正规化只定性，有限强类不自动给数值$C_E,C_s$或cutoff97。
 
 leading43612196888实际22门，完整复δ1e−8/root9e−6：a0/逆/两branch逆<51/50、b0/T²<6；原seam的leading为C1。s−1负根43613506152实际13门：raw<41/10、原I后<17/4，ordinary H−2/3、jump两行(H−2/3,H−1)保；仅9e−6负窗。
 
