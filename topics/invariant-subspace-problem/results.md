@@ -221,3 +221,8 @@
 ### 同源boson未来的真实双投影与C_m−1正耗散预算
 
 [完整证明](notes/2026-11-14-bosonic-future-actual-bare-full-projections-and-ordered-source-contractions-789f-next.md)保creation右侧的(N0+1)_j逆及真实源压缩，给bosonic真最小右链的M_B、M_B≤B≤G⁻¹。投向真实bare/完整右核得到合法链，源准确为B⁻¹M_Bt、GM_Bt；它们在同一M_B度量下正有序收缩，投影差平方=<Mt,(B⁻¹−G)Mt>保完整E_ret。root再用旧t_p=−A v_p，得逐切口<M_Bt,t>≤<(H_A−I)v,v>，总费锐化至(C_m−1)||f||²（p≥s+1）。算子序T*M_BT≤(C_m−1)Ψ直接接已经选定的原good-top，双投影及差均≤4n(C_m−1)/K，无另选窗。原flat支付γt项；同源(I−γ)t的左配对仍须控制，不宣称L收缩或N=M。
+
+
+### F9完整第一像只需一条新真实关系；低位自由另保层级
+
+[完整模论与来源证明](notes/2026-11-14-r150-ninth-augmented-single-first-relation-and-initial-scope-789f.md)给ker F9_bar=原1834核⊕九条(sI−J9)关系。原1834第一像在U7，前七关系像在U8，第八关系直接复用实际K4_7003，其完整第一像D3已在U9；故完整第一像（所有primary/任意次数）仅由第九关系生成。K5=(s−2)κ9−Σp^(4−e_i)κ_i a_i−p4z9，须新原modp6取AK5/p5，并与九当前余同束。正向仍逐列原17式；第一像负仅保当前F9来源前两位。相关第二像归约η8、αη9两方向，旧198第三像未付，不把层级混同全初值或char0。

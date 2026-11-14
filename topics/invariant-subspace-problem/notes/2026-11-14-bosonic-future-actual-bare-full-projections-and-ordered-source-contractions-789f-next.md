@@ -411,7 +411,7 @@ D_b^{(n)}=\sum_{p=b}^{b+d}\Psi_p
 \end{aligned}
 \tag{6.1}
 \]
-第一项由原 flat 费与 (5.6) 支付。在上述同一未改源的原good-top上，其绝对值至多 (4arepsilon_msqrt{n(C_m-1)}|f|/K_{m win})。
+第一项由原 flat 费与 (5.6) 支付。在上述同一未改源的原good-top上，其绝对值至多 \(4\varepsilon_m\sqrt{n(C_m-1)}\|f\|/K_{\rm win}\)。
 第二项仍是同一个原源的真实左配对，不能删除。
 
 本稿完成的是：将已付 bosonic 未来预算转成真正可行的两种物理右测试、
