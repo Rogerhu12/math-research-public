@@ -4,13 +4,13 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`faac7c0b82e84e1759dd53e628cb1a420e66a326`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`05d80c9b4e12d47275e724fe4e992e9cb0d199b6`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有21:30:00 UTC实际pull至`7c0afa98cea4f65d821cd2f6acb123ee9e6df113`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于22:29 UTC。
 
 真实几何、ODE/积分、优化与完整研究符号编译仅用本公开仓库GitHub Actions。本地只纸面代数、小人工开发、源码/公开输出解析；不伪造Actions环境。PAT仅瞬时CLI/env，绝不文件/提交/日志。根规则12：不以冻结、独立复核、逐字归档、重复清单或重跑作机械前置；完整证明直接登记结果/索引。
 
-H<10KB，MD<100KB，open尽量<30KB；数据>1MB gzip、单件<5MB。只明确stage本会话文件，不git add .，不写根LOG。public `/tmp/visible-new-9974-public-restored-1845`，private `/tmp/visible-new-9974-private-restored-1848`；workspace同名symlink。helper `research_sync.py`只amend自己未发布提交；--pull-only会留下H更新。代理修改tracked文件前协调，别把未完修订带入rebase；只终端git推。
+H<10KB，MD<100KB，open尽量<30KB；数据>1MB gzip/单件<5MB。只明确stage，不git add .或写根LOG。**21:39 UTC本地executor再次不可用**，已推结果安全；新源码由代理保留。根8准许仅GitHub集成时传每件<100KB文本，现用此例外存源码/小workflow，不传大数据或PAT；非force条件更新并核最新main/双README，真实pull与计算在公开Actions。恢复terminal后回到partial clone/pull/rebase；旧/tmp和scratch路径不能假定仍存在。
 
 ## 2. 完成门
 
@@ -22,13 +22,13 @@ A1/B7/25/半宽1/50，L.9、握持rc.22、tc.036、tf.846、六帽R.274。167=81
 
 完整固定g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**。新B分支仍用原162态f198ba74dcf3644569bf1ed78eecbc48a0f21ec421205d46a6b159cb00ff0f56，不换当前163态。旧quartic到z0故joint0；resume43635770962拒warm/退f198仅joint一次，80iter后81a154d3细η.8882/κ354/镜像.01571。minimax43637739532唯一54trial/304.967s budget退出，物理门全过而δ门仅初点过，原final仍81a；未改旧run接受事实。
 
-5d保存trial的七输入只读actual43639240317（193.203s/无优化）已付原工作回放六标量差0，fine160×768 η.368054494/κ87.570207，漏峰s=.7875；镜像.102711906、物理三网过/旧δ失败。来源详notes/metric-epigraph-saved-trial-first-fine-result-20261114.md。
+旧5d/81a的失败与输入历史见notes/metric-epigraph-saved-trial-first-fine-result-20261114.md，不重跑。
 
 dense actual43640503728/source509a1caf的028c同g/b0/163，细η.268197874/κ73.102607；细strip.390000019476及rawδ失败，原报告与notes保。
 
 **当前exchange物理态** e407a21488257097f60073f7e46e19f987dc963760957040ee7254a02889beb4，actual43642966285/source d891604e。新人工pass；6轮/12major/13物理/19epi/12Jac因轮数上限退出，末仍16遗漏行，不是收敛。总127.514s、初始化96.095/优化15.623s、RSS3224932KiB，池1440→2152/J2.823MB但全几何Jac瞬时大。384/768 η.266411174/.267146532、κ73.359843/73.359830，曲率略恶化；fine strip.389989992779新内门过，外门余1.00072e−5，镜像.1016723303、其余物理全过。rawδ.26640845723两网仍失败（fine缺.000738075）不抬，辅助best另0eeec190。共同帽重建余−2.78e−17在tol但非严格非负；Π公共η差2.11e−6。raw2111864B SHA c7b6b195cab755b425ccce41bf738ba05a30b65d329ed9b14b93f5211866d78e；全部身份/细表见notes/full-grid-exchange-first-actual-result-20261114.md。
 
-R103已给真实I/K=qII的双PSD曲率门和完整2jet导数，正则性须另查；独立frame_curvature_psd.py新人工16图jet/Jac检查已pass（误差8.30e−10），尚未接研究optimizer。下一同g处理角向漏峰/strip余量与冗余约束矩阵成本；完整J282132480B，不能盲续同巨大matrix。若活跃行生成，须每次完整网格补违反/物理独立筛，保rawδ和真实状态；曲率与完整reach仍欠。
+R103给实际I的双PSD/完整二jet参数导数，独立正则门不可删；helper人工16图jet已pass，尚未用于研究optimizer。曲率与全点对reach仍欠；新分批λ接口正在接入。
 
 ## 4. 新B=.37备选与GC接口
 
