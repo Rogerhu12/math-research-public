@@ -17,3 +17,5 @@
 - [R133共同径向残差与准确mean误差流](results/R133-supplement-correlated-radial-body-residual-and-mean-error-flow.md)：恢复共同径向多项式相关抵消及两条mean误差ODE，保实际五片0/477/1000/6000/7719的原native和失败记录；这是原ac1算子下的方法与已算片，全部7721片及向连续修复中心的转移仍待。
 
 - [R133完整physical残差到moving头的换图](results/R133-supplement-complete-physical-residual-to-moving-head-change.md)：恢复完整S(R)=v·R∘Θ的L2同构、真96×128矩阵与10项原native门；完整高输出和独立mean保留，全η范围以原证明为准。此换图不替代完整帽残差或全主体逆。
+
+- [R133局部上三角帽Hessian的完整源系数](results/R133-supplement-local-triangular-cap-Hessian-and-trial-source.md)：恢复1341真实帽片在η0的上三角Hessian源系数及8项原native门；全mean/ordinary/divergence保留。系数定理本身尚未消费全部trial，也不授完整帽逆。
