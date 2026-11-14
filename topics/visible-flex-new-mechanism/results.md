@@ -283,3 +283,5 @@
 - [R136：完整加速度系数超出全部响应及G轨道](results/R136-acceleration-coefficient-beyond-response-and-G-orbit.md) — 五族314个完整状态系数与648根导出；J=权−2的[h⁻⁴]Abar_hh属真实U，41控真上界配42原有理子式证明J∉R8+整个OrbG。因此该子空间不等于完整U；新1只增加真实span，不自动增加lineality或有符号查询。仅合R135已有U≥152。其余9同权目标未决，不用NF非零充当非成员。
 
 - [R139：第五次G平移分离与188个真实联合查询](results/R139-fifth-G-translation-separation-and-188-query-control.md) — 真权−4的50列经10原依赖成40维，原40/41子式证明N⁵G∉R8，6≤s≤10。同一Π8核总维至少151，故R8≥182、R8+OrbG/lineality/实际联合查询≥188；再合R136得真实U≥189，额外J不算双向查询。只派下一N⁶G，不重编已付权块。
+
+- [R138：任意profile的G pure身份与完整商的pure零代表](results/R138-general-pure-G-identity-and-affine-orbit-kernel.md) — 398项完整原差sound归零，G[-4]=B_p2(W1)[-4]/128；完整相位和同右锚保持。整个G仿射轨道的一般pure像属于响应像，完整商可取pure恒零代表，维至少6；R136已证仍非整个U。只1新pure、0mixed/profile/tail；下一仅新J一条一般原差，不再跑G或m8。

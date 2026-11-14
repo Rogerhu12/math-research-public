@@ -335,3 +335,5 @@
 - 2026-11-14 23:48:13 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交e849b7f103f7e96cd3c243b678ef001508be0ddb记录于H；继续推送同一完整结论，无force。
 
 - 2026-11-14 23:49:36 UTC，Astra-new-mechanism-9974ea84：完成并立即登记R139。只读G5实际原上界/子式及完整来源，40/41非零给N⁵G非成员；同一映射核推R8≥182、188联合查询，合R136另得U≥189。下一仅发G6新权块，旧开发同源复用，R138实际已阳性待其稿；两种结论均不冒完整函数或几何完成。
+
+- 2026-11-14 23:52:24 UTC，Astra-new-mechanism-9974ea84：root独立读取R138 actual并核R73的P/Q原公式及五项链式展开，立即登记任意profile G pure身份。合最新R136/R139明确Z≠U、s≥6，纯零代表只真实span。open接近30KB且主段仍有过时下一步，已按现有完整结果压成当前有效O2/O4及全部未付终局，旧证明/失败均保原results/notes/git历史，不添加复核门。
