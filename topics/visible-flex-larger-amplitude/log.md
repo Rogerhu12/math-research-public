@@ -574,3 +574,8 @@ run43602070499/job132468788403已成功出版1e490cda；两artifact取回并核S
 ### 2026-11-14 R262完整证明及独立域梯度接口
 
 完整证明直接写入results/R262并索引：β²全梯度、两端实际RHS/global p Hermite链、入口exact chart拉回；投影正阻尼唯一方向/精确下降，[A P C^-1;λP C^-1]伴随及冗余核范围全保。root全文读证明与独立geometry_20261114_hermite_domain_constraints.py，AST及SHA通过，无本地数值；接口源SHA d9e004c827add0074c2e6dd6c854763c7157e5049cd5360c1f85ad440462f4ce。实际18支持接一个新方向模型；原最终科学门不增加/不删除。
+
+
+### 2026-11-14 request19实际定位内部stage残差
+
+run43602823170/job132471064124全部success，publisher e84c1d79，artifact14117255967/ZIP edc1a588…实际取回。全部129248项保存状态与原cold initial数值相等；原无J576stage全guard过/70.779s，norm13414069.968482966，最坏stage11/rawCell0/rawSegment7/Pi104；cut/far全部112残差0。完整回执及哈希见actual-cold-tail-no-J-stage-replay；无新尾接受。root全文读same-native-RK-zero-stage-initializer源/说明，源码SHA aad7ca6ebddf91dee6b38a454543bc16a5308f5474428fb1add09763c0c56288；只供私有初猜，原far/graphs/gains/scales不改，尚未执行。下一候选原noJ探针有实际依据。
