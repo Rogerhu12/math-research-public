@@ -10,6 +10,14 @@
 
 每个 runner 使用原规则指定的本公开仓 Actions 资源，设置原 Python/NumPy/SciPy/Node 版本。单次平台任务限制为六小时；数值步骤留出末尾上传检查点的时间。若平台截断，必须消费真实检查点和退出状态继续任务，不把平台时长视作本题终止条件。
 
+## 待公开研究提交的具体范围
+
+拟以普通 `main` 分支推送发布当前公开基线之上的本课题提交，以及上述本题 workflow。逐项清单见 [local-review-snapshot.json](2026-11-14-public-execution-validation/local-review-snapshot.json)：快照记录42条已保存的本地结论/准备/失败记录提交、每条路径和SHA，基线是实际08:27:52 UTC pull/rebase后的 `cd2c2b616b6c28fab8f3fdd89a59865f947fbf2a`；根README和题README自上一已读提交均无变化。快照本身与本段说明由后续单独文档提交保存。
+
+主要内容包括 R235–R237 的完整有限证明；原A固定g/完整H的RK24与RK48真实重解和全部J审计；原A完整有限闭族网格与误差读数；新全核心球控制、同g冷重放、实际接受的M96两端BVP及新材料角物理C²读出；原强线真实Newton过程、外部终止和恢复包。源码与必要小数据一起保存，未完成计算保持明确状态。
+
+课题仍未达到README完成标准。新大核心已有约.96的准确核心见证和实际开放前缀，完整非轴尾闭合、固定区域和全t几何尚待完成。原A整闭幅度约.063D。RK48完整求解已成功，但后续十六分点读出曾实际ENOSPC；强线r4只取得首inner Newton接受，均没有被记成本题完成。
+
 ## 输入与凭证处理
 
 `root_20261114_public_prepare.py` 恢复原 pinned revision 的 91 个输入文件，每件核 SHA。能在当前公开树找到完全相同字节时直接使用；其余从原私仓的准确 revision 读取。12 件输入属于未迁移私题，使用已有 `MR_TOKEN` Actions secret；不把原私题源码目录、私有历史或凭证复制到输出 artifact。

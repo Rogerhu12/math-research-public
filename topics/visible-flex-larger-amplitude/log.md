@@ -261,3 +261,6 @@ R237完整证明直接results；实际96 binary64全转有理数，含前32舍�
 
 ### 2026-11-14T08:43:28+00:00 — rk48readoutenospc (local; public approval pending)
 v3真16读出08:37:18实际exit1/ENOSPC，写node-04712失败；完整RK48 Newton/J/audit包无损。4713个存在文件/123242580 bytes只作文件统计，不冒完整节点；压缩完整性与partial SHA另留scratch。磁盘字节不足而非inode，保真实intent/terminal/stderr与恢复动作，仅清自有可重建副本后同g续算。
+
+### 2026-11-14T08:44:16+00:00 — publicreviewcheckpoint (local; public approval pending)
+已完成42项本地提交的精确SHA/路径/公开基线与范围形成可审阅快照，连同五项真实BVP workflow、输入恢复/局部实际验证和当前科学状态。此前公开push被自动审批真实拒绝，用户尚未直接授权新公开目的地；本次没有远端push、Actions或其它绕过发布。请求直接公开授权所需的具体代码、证明、数据和执行方案已全部可审阅。
