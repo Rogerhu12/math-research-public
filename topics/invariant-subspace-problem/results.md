@@ -131,3 +131,7 @@
 ### 原连续尾宽窗的显式相位费用：25 exp(80 Q²/x)
 
 [完整定量证明](notes/2026-11-14-original-continuous-tail-wide-window-exponential-phase-budget-789f-next.md)对原b_i=(x+i)⁻²、偶2≤Q≤x给整个中央源Φ≤25exp(80Q²/x)。新对称多项式变换保σ∈[ρ^−1/2,ρ^1/2]及双向δ范数≤√S_sym/2；均值归一密度P≤ρ_z≤1/P，实际同列权给S_sym=Q(Ew E1/w−1)≤Q(ρ−1)²/(4ρ)。原幂权推出logΘ≤20Q²/x，完整硬Schur与物理缩放均准确。Q≤√x/4可取25e⁵；继续原moving-source与全graph费用，不将局部相位界直接相乘。
+
+### 九个原h0目标：固定标准加七常数除列的全部预算有理像均排除
+
+[固定单位列族判据](notes/2026-11-14-r150-seven-fixed-unit-family-and-all-budget-obstruction-789f.md)与[实际九目标应用](notes/2026-11-14-r150-all-nine-targets-outside-fixed-standard-seven-rational-family-789f.md)证明：P∞由原所有标准来源单项式和七个真实常数除列组成，模31单射，任何有限有理表示自动31整。实际Z的模31³代表carry只给Aη；九raw modU均非零，故九h0目标均不在P∞有理像，增加任何预算无效。新β允许sB调整，两个相容目标不与此冲突；完整原有理像及进一步饱和仍开。H完整归档后重排当前接续，全部旧条件保留。
