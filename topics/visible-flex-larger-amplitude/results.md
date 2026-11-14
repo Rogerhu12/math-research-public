@@ -465,3 +465,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R249. 共享节点入口反射规范形与同一度量代价](results/R249-shared-node-inlet-parity-normal-form.md)：首节点三块投影严格给出反射C²，仅改变首单元，完整切口九jet/材料均值/实际尾H/共同SE2保持；有理Hermite、Fourier及材料角链式法则给连续修补差，明确operator与条件曲率费用。v3/v4独立接口不改变原accepted，数值费用及全局几何仍待实际消费。
 
 - [R250. 完整单调材料换角的非均值方块投影可逆](results/R250-material-angle-square-projection-invertibility.md)：以行列式积分展开及有限Cauchy–Binet自含证明连续P和偶数N>4M精确DFT的det P>0；完整core正密度、对称逆图与常数列正交均明确。不给可用条件数、全DN可逆或材料谱尾消失结论。
+
+- [R251. 直接相对算子度量的四正性证书](results/R251-direct-relative-operator-metric-certificate.md)：完整有限场在原φ坐标下用两个Loewner矩阵的首主元与行列式直接证明operator<η，不损三分量到算子常数；同一a²的上下包络付非多项式段，完整Bernstein/全角Taylor与精确次数带宽账闭合。K=M时行列式带宽8M，DFT须N>16M；没有新的数值通过声明。

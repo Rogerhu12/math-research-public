@@ -412,3 +412,7 @@ T112实际13件已bot归档；详记七件strict缓存SHA、全部跨job源/配�
 ### 2026-11-14 11:44 UTC — complete frozen-metric physical consumers and full-state spatial interface
 
 四个独立v4消费者绑定冻结首v3完整scalar/p*身份、真实接受场及其自身尾，沿用原读出/全mean/单SE2/完整cut九jet算法；不悄改入口。独立full_state_continuous_cover按实际v3/v4与R249同一definition直接读完整中心/子点/法向，恢复记录SE2，原R241空间及直径/marker门逐字保留。静态AST/源接口检查通过，尚无新数值，所有连续包络仍外部条件；原held旧A定位待新packet适配。
+
+### 2026-11-14 11:48 UTC — R251 direct relative-operator metric certificate
+
+完整R251直接登记：以原φ坐标中两Loewner矩阵的首元/行列式四正性等价证明operator<η，避免把分量界当算子界；同一a²上下包络付非多项式scalar而不换g。给自含Bernstein/全角Taylor证书及次数账，五次物理/六次scalar径向至20，K=M行列式带宽8M、DFT须N>16M。只有条件证明，无新数值通过；实际coupling112的完整线性系统正按已确认大残差改稳定求解后端。
