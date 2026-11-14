@@ -93,3 +93,5 @@
 - [R585：原四单位算术行、完整F切集纠正与双S2两支](../results/R585-original-four-unit-row-and-exact-fibre-cut-correction.md)：原native/五线余域合成四unit，完整F whole核与全π4中性精确给八条带纠正；双S2将同一qℓ变为不交D/D−支，保所有混合cut、逆权及真实六矩。未附q的c/d深项完整简单极点级数已付，原全算术非零仍待全部补偿。
 
 - [R587：惰性最小极点原函数与原Gaussian准确p曲率](../results/R587-inert-minimal-log-primitive-and-exact-gaussian-p-curvature.md)：唯一type1的L(pO)第一类原函数与R356正则参数相差明确Frobenius项；原Gaussian连接全局曲率及z5p单位首项精确非零，短log下降与特征零首整商保全部修正。未以较高曲率首项替代两指定c4/c1或中央非零。
+
+- [R589：原p²目标的平方零极部与完整多项式Frobenius整性](../results/R589-original-finite-euler-pole-algebra-and-polynomial-frobenius.md)：全部原九来源整多项式统一只需乘一p即落同一有限目标，首极部在显示平方零理想，完整F^p整。七实际首极部rank7并给一次格准确整性原像；最早c4/c1属整项而不可见，原同一饱和前缀在k=(p²−1)/6实改善一p，未给全局cutoff。
