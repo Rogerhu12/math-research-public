@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_fixed_eta0_refined_physical_cap_pilot_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43619535345",
   "run_attempt": "1",
@@ -74,6 +74,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:17:51.538391+00:00",
+      "before": "5fd146f8521021651f462f7eeaf3bcfb1aa83dda",
+      "after": "90e615fd55d98fcad7e96ea7a0657ede109dd09b",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -81,6 +89,11 @@
       "time": "2026-11-14T17:10:17.519683+00:00",
       "final": false,
       "commit": "a785281d19572f51ad3e65f689052a761ba9acab"
+    },
+    {
+      "time": "2026-11-14T17:17:51.010993+00:00",
+      "final": false,
+      "commit": "90e615fd55d98fcad7e96ea7a0657ede109dd09b"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -113,7 +126,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "5fd146f8521021651f462f7eeaf3bcfb1aa83dda",
+  "last_read_commit": "90e615fd55d98fcad7e96ea7a0657ede109dd09b",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-fixed-eta-cap-work/science",
   "original_prepared_bundle_sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70",
   "all_original_large_array_bytes_verified": true,
@@ -136,9 +149,21 @@
     "range-process-2": "cc0e84d8e5f619cf190e243a7a00199f97b0f2f7e852f346d1ba3560185f91fa",
     "range-process-3": "3260b82c44299b12ab6a62bafc992e159201b602a8bd4096998676b8f9504449"
   },
-  "snapshot_utc": "2026-11-14T17:17:49.085921+00:00",
-  "wall_seconds": 455.695739938,
+  "snapshot_utc": "2026-11-14T17:17:51.581619+00:00",
+  "wall_seconds": 458.191437542,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 964,
+      "sha256": "e3b8959953e2e670534c1bcf86406741243535f643012217bbc9eb26ba564187"
+    },
+    {
+      "logical_file": "evidence/fixed-eta0-physical-cap-pilot-summary.json",
+      "file": "evidence/fixed-eta0-physical-cap-pilot-summary.json",
+      "bytes": 34252,
+      "sha256": "3bb0abaf36152e39bd5d6f113b2f6c7001c66660f1af7bcb68b11ba26b2e6dbe"
+    },
     {
       "logical_file": "evidence/original-complete1977-process.json",
       "file": "evidence/original-complete1977-process.json",
@@ -182,10 +207,122 @@
       "sha256": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4"
     },
     {
+      "logical_file": "evidence/selected-parent-0861-diagnostic.json",
+      "file": "evidence/selected-parent-0861-diagnostic.json",
+      "bytes": 22615,
+      "sha256": "a3a317fa67db8dd21ff43aac1c61950979d5525deb39758536360d0ec8f84b6e"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0862-diagnostic.json",
+      "file": "evidence/selected-parent-0862-diagnostic.json",
+      "bytes": 22615,
+      "sha256": "8ee545299564c769411eaec0c27aaab693dc115796f2e11c65e35654f193f09e"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0873-diagnostic.json",
+      "file": "evidence/selected-parent-0873-diagnostic.json",
+      "bytes": 22798,
+      "sha256": "ac3dfe0b29f356756cfcbf3da617e8a6b4eb6e9a05a71b084e90ee81bff5dfb6"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0875-diagnostic.json",
+      "file": "evidence/selected-parent-0875-diagnostic.json",
+      "bytes": 22726,
+      "sha256": "8b6132cd805b9bd2184245c6f193c5eca3aa608da799c4fddb54c9a39f76b0a8"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0884-diagnostic.json",
+      "file": "evidence/selected-parent-0884-diagnostic.json",
+      "bytes": 22798,
+      "sha256": "7cc7354d3d5113dee42cf68c2d4aef333fc9ef987ad8500f7b6e9fcc94fba226"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0895-diagnostic.json",
+      "file": "evidence/selected-parent-0895-diagnostic.json",
+      "bytes": 22727,
+      "sha256": "36d98cb693cf0137348e12449f7a0f287232cc5ef58b58494d5bfbb8ce034089"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0896-diagnostic.json",
+      "file": "evidence/selected-parent-0896-diagnostic.json",
+      "bytes": 22798,
+      "sha256": "abdb78abc5b271ec90c61397cc0e17912962c1b2fd9865f996c53afaacb58d0a"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0906-diagnostic.json",
+      "file": "evidence/selected-parent-0906-diagnostic.json",
+      "bytes": 22800,
+      "sha256": "9d04dd0f7d6bb1d29bc08421132adf0bc98deda1d60fb6ebe82b94136724f79f"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0908-diagnostic.json",
+      "file": "evidence/selected-parent-0908-diagnostic.json",
+      "bytes": 22743,
+      "sha256": "fc0c36ad8eeb2c61bb93e22703773b5b1181b4da7cc6591068c806b06fe13e95"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0920-diagnostic.json",
+      "file": "evidence/selected-parent-0920-diagnostic.json",
+      "bytes": 22806,
+      "sha256": "2aec061ef491e07d3d8894ad71a107b929ee7d25b8da2d2f14f3148bbe199437"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0929-diagnostic.json",
+      "file": "evidence/selected-parent-0929-diagnostic.json",
+      "bytes": 22803,
+      "sha256": "764e7034aac8d8c1bd48fc9baf8f59747c7a3b60a348abdafc5b4e88d9de374c"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0931-diagnostic.json",
+      "file": "evidence/selected-parent-0931-diagnostic.json",
+      "bytes": 22742,
+      "sha256": "028eefeb9566fc7ccbcbe83aebbae747885232db7fbb3fc9f65c129202151356"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0941-diagnostic.json",
+      "file": "evidence/selected-parent-0941-diagnostic.json",
+      "bytes": 22807,
+      "sha256": "5169d7bbe301cdb75fe8cff0a10a17ba3a22aea0494871253e08d47944e97cea"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0942-diagnostic.json",
+      "file": "evidence/selected-parent-0942-diagnostic.json",
+      "bytes": 22799,
+      "sha256": "04831805e67818c6354ff7fdcc85dc8495113edd2dc60429f82bdee8b227cabb"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0952-diagnostic.json",
+      "file": "evidence/selected-parent-0952-diagnostic.json",
+      "bytes": 22746,
+      "sha256": "de5128d603135938bd876d29570dd53b635329f17026202928bb06af9afe1257"
+    },
+    {
+      "logical_file": "evidence/selected-parent-1021-diagnostic.json",
+      "file": "evidence/selected-parent-1021-diagnostic.json",
+      "bytes": 22815,
+      "sha256": "cf96a43ca2c14b3261a531237ce10e5a2223e4c0e89102542f7ca8f29081c546"
+    },
+    {
       "logical_file": "native/fixed-eta0-refined-physical-cap-coefficient-pilot.json.gz",
       "file": "native/fixed-eta0-refined-physical-cap-coefficient-pilot.json.gz",
       "bytes": 2213670,
       "sha256": "b5a157d4005eb4aad1c536512c4ea5dcb431e90d09c4b05f324db5cf09203138"
     }
-  ]
+  ],
+  "complete_native_sha256": "b5a157d4005eb4aad1c536512c4ea5dcb431e90d09c4b05f324db5cf09203138",
+  "actual_scientific_gates": 6,
+  "actual_complete_new_domains": 336,
+  "actual_complete_parent_cells": 1977,
+  "actual_new_domains_in_this_child": 336,
+  "selected_complete_physical_cap_error": {
+    "ball": "[1.5089533882212308098107131220040767187303950927309735222053450893190182746918729e-6 +/- 2.83e-86]",
+    "lower": "[1.5089533882212308098107131220040767187303950927309735222053450893190182746918729e-6 +/- 2.83e-86]",
+    "upper": "[1.5089533882212308098107131220040767187303950927309735222053450893190182746918729e-6 +/- 2.83e-86]"
+  },
+  "original_direct_coupled_baseline_physical_cap_error": {
+    "ball": "[2.4181831019450283401089846851299485806144511586865273208728330569035005240747760e-6 +/- 2.81e-86]",
+    "lower": "[2.4181831019450283401089846851299485806144511586865273208728330569035005240747760e-6 +/- 2.81e-86]",
+    "upper": "[2.4181831019450283401089846851299485806144511586865273208728330569035005240747760e-6 +/- 2.81e-86]"
+  },
+  "finished_utc": "2026-11-14T17:17:51.246624+00:00"
 }
