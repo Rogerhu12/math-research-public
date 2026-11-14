@@ -132,3 +132,6 @@ tail_connector：把实际非径向内部正型接全部外部响应、Γ*参数
 
 
 [实际完整记录](results/R133-supplement-actual-complete-two-ray-holomorphic-domain.md)：实际修复中心全3071 strict+真root负楔/全64次卷积/两mean，五复角宽10门23.959s通过；完整双ray return单射解析输入strip>.1639445393、|P′−1|<.334292688、P″<3.257207/P‴<57.403329。全Fourier尾/alias公式含∞输出；未授逐点ODE误差/真conjugacy/rotation/β项。
+
+
+[实际完整记录](results/R133-supplement-phase-Schur-complete-distributed-adjoint-source.md)：在真实共轭成立的明确条件下，完整两ray rotation变分保平方Jacobian、h2even mean与真实端点配对；dual源除q的根界有限，给全Areg*ψ=ell和SΩ=tΩ+〈ψ,Fν〉准确合同。没有用拟合H代替真H，也没有授实际Schur非零。
