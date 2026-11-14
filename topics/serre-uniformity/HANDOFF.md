@@ -4,53 +4,53 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：af133b7fe8eeaeea82eff51364f6d601c81c03e7
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions各发布前实际pull并核两README，最近R717 direct-chirp发布于14:02:50UTC实际pull后核查，无差异。最近GitHub集成核查：2026-11-14 14:22:17 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
+已读规则提交：1beaf2a34ac412180313da1737280c02290a64dc
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei，两README无差异。公开Actions发布前实际pull并核规则；最近R717 direct-chirp在14:02:50UTC实际pull，无差异。最近GitHub集成核查：2026-11-14 14:32:14 UTC，两README无差异。执行环境unavailable，根规8允许仅由集成传<100KB小文本；每次读最新main/两README，以最新父提交无强推，拒绝即合并重试。终端恢复立即部分克隆/pull；至少每小时实际pull及读规则差异。原生集成核查不冒称本地pull。
+仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权，禁强推；终端非快进立即pull --rebase重推。PAT仅CLI，未交集成。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB、大中间量不入库。日志本题≤5行，改共享设施须说明；不设独立审计/冻结审批门。
 
-仅公开Rogerhu12/math-research-public及其Actions。每结论单独推main已授权，禁强推；终端非快进立即pull --rebase重推。PAT仅CLI。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB、大中间量不入库。日志本题≤5行，改共享设施须说明。
+最新完整归档[本次压缩前交接](notes/2026-11-14-public-handoff-before-R729.md)，内接R724及更早归档链；原open完整公式在notes/2026-11-14-open-checkpoint-through-R721.md。旧本地对象不可依赖，未推结果须按原记录重做，摘要不代证书。已完成计算不得为包装重跑。
 
-旧本地对象现不可依赖；恢复后只检出本题源码/证明/小JSON，大型gz按需读。最新压缩前交接notes/2026-11-14-public-handoff-before-R724.md保留此前完整归档链；迁移前未推结果按原记录重做，摘要不能代证书。已完成计算不得为包装重跑。
+## 立即执行
 
-## 立即执行检查点
+- R729已证明全部充分大p≡2,5mod9原完整M2非零、共同Abel阶m1；单嵌入h=vM2满足5+2h<g(9+115log2/logp)，大p h≤5g−3，深度5g+2仅center。下一步利用全部嵌入范数平均改善固定深度，仍缺候选p4及真实高度。
+- R727其他primitive h的原toric norm/两个CM系数/全尾稿已完成待根提交；h7给实际137147另一组件vM2,7=−2、vs>3整盘仅center。cartier继续全p实际h选择，不把有限窗口外推。
+- R728原Weil restriction、本原投影、Néron格稿已完成待根提交；global继续生成原X1→C具体有理函数和β坐标，不停在抽象同源。
+- R599首矩note §8已推669252ad459f499c6422523945b5da7b048b1b5b；unit继续真实κp–dq/κq–d0交换链及J/b，实际数值未知。
+- R707固定p41完整129盘=121排除+8CM，无有理尖点；183证明SHA账本已核，O5关闭，勿重跑R656/R709等完整链。
+- R706已成41..200000共5992素数窗口；唯一Cp−3零137147，Cp80155，后两权117309/122674。R722原137147M2单位已认证，不再待算。
 
-- R707固定p41已完整：129盘=121排除+8CM，无有理尖点；183证明SHA账本已核，O5关闭。R656/R709的原CM4链已恢复，勿重跑。
-- R706/R689/R698：41..200000的5992素数，唯一Cp−3零137147；独立原z公开run43587480525同值。R710原数组后两权117309/122674，M8赋值−7、残余阶r3；R711全部jet整数赋值。
-- R726已去掉原本原非消失的约数限制：所有充分大p≡2,5mod9原L′·L非零、β给rank/log基。R724实际高度仍缺；global继续原模型与真实q/β，不以算法或有限零数代排零。
-- R722原137147完整M2单位已由run43602664971认证；全trace唯一、vM2=0、归一平方53970，原p4深盘等距且仅中心Qp零；勿重算已成格点/trace。实际高度仍缺。
-- R719原137147非消失已公开证明：run43597653737完整945171点/132178 norm行，小圈2769全核；严格B<106516214032/10^12<1/2，故原R616指定L′·L非零、β生成A(Q)⊗Q及log同构。实际高度仍缺。
-- R715原m43、R718全层m_n=42n+1和d∞、R720原C=9ib链桥均已推；unit继续原X_t主化/首矩或真实普通互反求b，禁止代pure-p参考24。最新R720提交e66994cbc4e3820ba667c0f4a67717d4f0cb4400。
+## O4：原商、全本原非消失和模型
 
-## O4：真实全局商与变化导子
+R317剩余p>37、p2/5mod9、a³+db³1、p|b，D/bc无上界；R604支撑下界不能倒用。R575实际正商Ψθκ4、层108p²、根号负；相反κ4⁻¹不能给原商秩零。R587变化层108p²D²；R597的X1/c1与Xd/c0不同，even Hom为零。
+R616原β=q[c1−c0]非挠iff指定原L′(g+)L(g−)非零；成立即A(Q)⊗Q=Fβ、rank=dim及log同构。R726现对全部充分大允许p去掉ω/radical限制：B_p Gaussian权和→0，固定o乘法秩/有限域注入/素理想计数≤C_AH^1/2，大阶Rankin，全signed-ray/κp^m/无穷尾保留；原误差o1/o(logp)。同证明适用任意固定正Gaussian常数。有限阈值以下、D上界、高度仍缺。
+R719实际137147原非消失已闭合：run43597653737，945171点/132178norm行/2769独立点，B<106516214032/10^12<1/2；证书2d97169250b80abf8d4bf9d72ee7a65c5ff9ac609afdd9c9b3ffc1d65639ca3f。勿重跑。
+R725显式原正CM分量：E27:Y²=X³+16，w=∏t([a]P)，r0=(w−w_s)/2，b=r0⁶，L=K(b)次数(p+1)/6；正κ4恰C:y²=x³+b（逆向256b），v_Lb1/typeII最小模型。核resultant、λ(a)=aκ(a)r0/a(r0)及正微分方向完整；原q/β、NS/Picard/KS运输仍缺。
 
-R317剩余p>37、p≡2,5mod9、a³+db³=1、p|b，D/bc无上界；R604 even支撑D≥13、s(D)奇时≥65。R575实际正商Ψθκ4、层108p²、根号负；相反κ4⁻¹正平均不可给原商秩零。R587变化扭曲层108p²D²、根号(−1)^(s(D)+1)；R597的X1/c1与Xd/c0不同，even Hom为零，不能运输c0零像。
-R616原β=q[c1−c0]非挠iff原L′(g+)L(g−)非零，成立即A(Q)⊗Q=Fβ且log同构。R726现给全部充分大允许p原本原非消失：B_p Gaussian权和→0；固定o小高度乘法秩/有限域注入/素理想赋值计数≤C_AH^1/2，大阶Rankin与全尾控制不依赖ω。保留κ_p^m和signed-ray，E1≤e^-x(logp+2)给原两误差o(1)/o(logp)，接R616真实轨道/rank/log。R714锐界及R719实际137147继续有效；有限阈值以下分类、一般高度与D上界仍缺。
+## O4：完整Abel与实际高度
 
-## O4：实际Abel与高度
+R729原weight5/7 full/primitive四均值→π/√3：完整signed核F_r、非unit full支持|β|≥p/2、R726(c/2)控制primitive误差；原有限CM和Galois逐族传递给同一θ的M2非零。原D·P整、所有复嵌入<2^115p9给上界；不声称Cp、Cp−3或M2单位。无Cp前提的完整整Tate给vs>h+4线性占优，p^(h+5)闭盘等距；原KS标量保留。结合R726/R682得m1，只知高度外积s²整除，不知恰二阶。
+R710原整Tate/最高非零端点与R711有理直线使全部h1 jet整数赋值；原137147 M8−7、M5≥−3，R722 M2单位使两个非center scalar根vs7/2、非Qp，p4盘等距。5992已成窗口候选Qp深盘scalar非回零闭合；不是有理点或高度排除。R721条件深盘仍有效。
+Cp全p单位仍缺；notes/critical-sigma-jet-parameter-boundary.md说明仅超奇异/Cartier/移位不能迫原临界单位，改变Gaussian参数有根；未给原固定CM参数反例。
 
-R705全阶原范数给Abel阶≤(p−2)/3。R722现证明137147完整M2单位，结合Cp80155与R710/R711全整Tate得原v(s)>7/2仅中心、p4闭盘准确等距。其两非中心scalar根为Eisenstein二次，vs=7/2、不在Qp；5992已成窗口的候选Qp深盘scalar非回零闭合。实际KS保留，Abel不是高度。R721全p条件定理及有限h版本继续有效。
-Cp全p单位仍缺；critical-sigma-jet-parameter-boundary.md证明改Gaussian参数c可保持Fp=0、F_(p+1)=6B单位而临界F_(p−1)有根；原固定c=s额外CM约束必须使用，未给原Cp反例。
+R575原正商、R593/R596原η/χ/刚性化/tensor/截面不变。R690/R694/R696实际坏靶Ω={0}。R634外积消A高度矩阵仍保Y项/常数。R703/R716有限代数jet提取和完整相对尾已证，后者免预求γ；零数界不能代共同无根。
+R724规范求值接口：Y splitting在Λ中含因子2/常数精确抵消；完整adelic Hecke/GL2型使原η轨道给MW基，ell=yᵗL⁻ᵗHL⁻¹eη，不反演H。universal-extension提升用Δ=logIZ−r(logQ)校正，经同一Poincaré纤维群对数求原λp/d_i及全部非p项。第二类周期/刚性化/形式全尾保留。(724.33)有限Bézout排根条件尚未实际通过；模型/高度jets未生成，亦未证明全p证书存在。
 
-R575原正商、R593/R596原η/χ/刚性化/tensor/截面全部保持；R690/R694/R696给实际坏靶Ω={0}。R634外积消A高度矩阵仍保Y项/常数；R682共同首阶，R703/R716有限代数jet提取和全相对尾已证，后者免预求γ。一般p实际模型/关系矩阵/规范前缀仍缺。
-R724现闭合规范求值接口：Y splitting在Λ中含因子2精确抵消；完整adelic Hecke/GL2型使原η轨道给MW基，ell=yᵗL⁻ᵗHL⁻¹eη而不反演H。代数universal-extension提升经Δ=logI Z−r(logQ)校正，用同一Poincaré纤维群对数求原λp/d_i及全部非p项；形式全尾明确。实际模型/高度jet未生成，(724.33)有限Bézout排根条件未实过。137147原R616前提已由R719闭合，不能据此称高度排零。
+## R717/R722：原137147精确M2已完成
 
-R725原正CM椭圆分量现显式：E27:Y²=X³+16、w=∏t([a]P)、r0=(w−w_s)/2，b=r0⁶，L=K(b)次数(p+1)/6。正κ4恰C:y²=x³+b（逆向256b），v_L b1/typeII最小模型，核resultant及λ(a)=aκ(a)r0/a(r0)完整给出。原J_X→A→C、β坐标、NS/Picard与KS尺度仍未生成，继续这些实际接口。
+原P=S2S3/C0²∈F实圆分域，D=2^37·3^26·p5使DP整；原Ω/六标签/Gauss/周期/全尾及精确Teich恢复。p41校准run43597163388完成42 trace及1274/24，勿重跑。
+137147旧run43597802237/source ffc69b45d58ea9aaafd1e0686fc55377701a00be四bin有效：384bits/tail256/cutoff360p，8113行14925440项。旧chirp递推矩形膨胀失败；诊断run43602040433 bins半径<2^−368、chirp3509到1/4。R717 §10及notes/R717-independent-chirp-recovery.md保存完整失败和等相位修复证明。
+成功run43602664971/source f63e0498a9d599342ee5af0f66f3a425edfd9fd2复用全部四bin，生产前缀/参数/旧源逐字核，零格点重算。core SHA c437d880dcea112f4e5b3f7d44cdfd37ad221b7f41a4d14d1359f11f010aa835。137148 trace全唯一，最大实半径597851749·2^−82；精确p6分子赋值5，P≡105522、M2²/ζ²≡53970、vM2=0。
+core receipt41940fcf1fde383e723c1b5c0265f23b04ed441cb86d8f1e946223ec721b1c2c；run receipt1e1db4e86616b955ec478ef1309f91bac3d78ab99ec8fa2fbd4b8e225aac6b49；manifest b9fb211fbdbab138a17d76cfe0bb219403bc95b891122a4ce4e7e9962161e09f。
+小凭据computations/R717-original-CM-norm-p137147-direct-chirps/43602664971-1/；大artifact同名加run后缀，不经集成分块、不重跑。R712下一位D137147未展开，但不再阻碍原M2单位结论。
 
-## R717/R722 原精确范数：目标已闭合
+## O6：原p43普通Norm、首矩与真实交换
 
-原P=S2S3/C0²在实圆分域，D=2^37·3^26·p^5使DP整；完整原Ω/6标签、Gauss/周期及全尾给所有整数trace，精确Teich恢复原值。p41校准run43597163388完成42 trace、1274/24匹配；勿重跑。
-137147原四bin来自run43597802237/source ffc69b45d58ea9aaafd1e0686fc55377701a00be：384bits、tail256、cutoff360p=49372920，8113行14925440项全部有效。旧recover因递推chirp的矩形球膨胀失败；诊断run43602040433明确bins半径<2^−368、chirp3509项达1/4，完整说明见R717 §10及notes/R717-independent-chirp-recovery.md。
-修复run43602664971/source f63e0498a9d599342ee5af0f66f3a425edfd9fd2全成功，零格点重算；core SHA c437d880dcea112f4e5b3f7d44cdfd37ad221b7f41a4d14d1359f11f010aa835。固定旧四bin/source/参数/生产前缀逐字相等，只独立算精确相位。137148 trace全唯一，最大实半径597851749·2^−82，精确p^6分子赋值5，原P≡105522单位，原M2²/ζ²≡53970、vM2=0。
-R722登记目标证书与原完整桥：core receipt SHA41940fcf1fde383e723c1b5c0265f23b04ed441cb86d8f1e946223ec721b1c2c；run receipt1e1db4e86616b955ec478ef1309f91bac3d78ab99ec8fa2fbd4b8e225aac6b49；manifest b9fb211fbdbab138a17d76cfe0bb219403bc95b891122a4ce4e7e9962161e09f。
-小凭据computations/R717-original-CM-norm-p137147-direct-chirps/43602664971-1/；完整artifact serre-cartier-R717-original-CM-norm-p137147-direct-chirps-43602664971-1。大bin/整数多项式不经工具分块，不重跑完成计算。R712下一位公式可兼容但不再是判断此M2单位的缺口。
-
-## O6：原p43 Robert单位/普通Norm
-
-固定原q/s/t/Γ/Robert祖先。原776-bit q已被Gaussian5排除，非曲线/Serre反例。R591有408bit多项式、43基、different1890/index903及85整环元；α_F的Norm不能代原Robert u。
-R561原scalar-p²产物/普通类C，L=31−22iC。R613 C_r=C+34r；R619原Ct9、Cl(LF_t)_χ=k、T-Norm同构/扩张零，辅助Ct不可代C。R633完整普通单位presentation和kerNΓ自由秩一。
-R700原q-Frob本原性给X_L^(p)=O⊕RΓ；全P_n中U/X对O[P_n]自由秩86/43，但普通A为末商。R715以自然Γ线性两步Tate与E_L=R0y循环性强迫m43：较短m的H1(P,A)=k²矛盾，m43的N_S=−2π42杀第二线；N_SE=E_N、N_PE=(p,π)E_L，y真普通Norm。R718同法逐层得m_n=42n+1、d∞、普通类Norm逆极限RΓ；所有scalar普通Norm满射，全P_n Norm恒(p,π)E_L，紧纤维有限交给交Norm确为相容单位逆极限像。
-R695/R701/R704原端点/嵌入输入与R708的43值局部Norm歧义均见归档；原cs/cq普通坐标仍缺，不能局部替全局。
-R720现以同时整提升与真实NΓX自由像完成原链桥：C=9ib=−34ib，L=31+26b，r_y=25+9b，Ω₂=ε(22+17b)。Ω₂零iff b24；实际b/J/nT/原主化坐标仍未知。必须原X_t主化/首矩或普通互反，不能代pure-p24、一次10、辅助Ct9。首矩规范已从原div/Norm重建于notes/2026-11-14-r599-first-moment-normalization-reconstruction.md：Jℓ选择无关、取F43、Jr=−2Jℓ；新证明全部普通见证为X+(t−1)E，其完整余数改变量恰I²；J是唯一固定首矩，杀全部余数时Norm改变量c≡−J/(13i)。已核R185同一未平均Robert/主化类，有限flat原Norm为Aα−(8i/1848)u，对应J_flat=Jℓ−18；新§8用原R191正Norm链、实际−i与二次restriction得ep(dq)|q=(Jℓ/2)K0、ep(dq−8d0)|q=((Jℓ−18)/2)K0，奇异零，与原w配对ε(Jℓ−18)。尚缺κp–dq/κq–d0交换链及数值/J→b，不冒称找回旧R599字节。
+固定原776bitq/s/t/Γ/Robert祖先；q已Gaussian5排除，非Serre反例。R591完整小域整环资料不代原Robert u。R561原scalar-p²普通C，L=31−22iC；R619辅助Ct9不可代C；R633完整普通单位presentation。
+R715两步Tate迫原m43，较短m的H1(P,A)=k²矛盾；N_SE=E_N，N_PE=(p,π)E_L，y真普通Norm。R718全层m_n42n+1/d∞/普通类Norm逆极限RΓ；相容普通单位Norm像已证。R695/R701/R704输入及R708局部43值歧义见归档，不可局部代全局。
+R720原整提升链桥C=9ib=−34ib，L=31+26b，r_y=25+9b，Ω₂=ε(22+17b)，零iff b24；实际b/J/nT未知，禁止代pure-p24/一次10/Ct9。
+首矩重建note：Jℓ∈F43、选择无关，Jr=−2Jℓ；全部普通见证X+(t−1)E，完整余数改变量恰I²，J为唯一固定首矩。杀全部余数Norm改变量c≡−J/(13i)。R185同一未平均Robert/主化类，flat原Norm=Aα−(8i/1848)u，Jflat=J−18。
+新§8实际R191正Norm链、−i和二次restriction给ep(dq)|q=(J/2)K0，ep(dq−8d0)|q=((J−18)/2)K0、奇异零，与原w配对ε(J−18)。已校d0给28K0；仍缺真正κp–dq与κq–d0交换链及J→b，未冒称旧R599字节恢复。
 
 ## 一般主目标
 
-p>37完整非分裂Cartan正规化子仍未排；已核Furio–Lombardo v2(2025)及2026论文，未发现公认解。R4 Runge尖点轨道数等无穷位数，需要新全局信息。O3需对真实异常族统一找q<p²/4、ε(q)=−1、a_q(E)≠0；固定窗口可被满像曲线实现，导子依赖Chebotarev不够。新核固定素数反圆分/固定参数化横向Heegner/Dirichlet素数幂结果均未覆盖原变化p本原投影；详见notes/2026-11-14-primitive-nonvanishing-literature-scope.md。持续做open下一真实缺口，不降低完成标准。
+p>37完整非分裂Cartan正规化子仍未排。已核Furio–Lombardo v2(2025)及2026相关论文，未发现公认解。R4 Runge尖点轨道数等无穷位数；O3需真实异常族统一q<p²/4、ε(q)−1、a_q≠0，固定窗口可被满像族实现，导子Chebotarev不够。新核文献范围见notes/2026-11-14-primitive-nonvanishing-literature-scope.md。继续open真正缺口，不降低完成标准。

@@ -142,3 +142,6 @@
 
 
 - **R725（原正CM模型已证明）**：[实际椭圆系数、最小分裂域与p处微分格](results/R725-original-CM-elliptic-model-and-splitting-field.md)。固定E27的标量挠点积w与原六阶投影r0=(w−w_s)/2给b=r0^6；v_p r0=1/(p+1)严格，L=K(b)次数(p+1)/6。原正κ4恰C:y²=x³+b，核多项式resultant、p-Eisenstein定义式、typeII最小模型和具体同源cocycle全部给出；保留真实微分逆尺度。尚未生成原q→C、β坐标、KS比例及实际高度首项。
+
+
+- **R729（已证明）**：[原完整 Abel 的全充分大非消失与有效赋值界](results/R729-uniform-full-Abel-nonvanishing-and-valuation-bound.md)。原 weight5/7 的 full/primitive 四均值均趋于 $\pi/\sqrt3$；有限 CM 和的原 Galois 传递给指定 $M_2\ne0$。由原整分母/全复嵌入范数得 $5+2v_p(M_2)<g(9+115\log2/\log p)$，大 $p$ 时 $\le5g-3$；无 $C_p$ 单位假设的完整 Tate 级数给深度 $5g+2$ 盘的等距。结合 R726 固定共同阶 $m=1$，仍未排原高度或整个候选 $p^4$ 盘。
