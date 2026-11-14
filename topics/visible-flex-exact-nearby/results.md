@@ -417,3 +417,7 @@
 ### R133：真实第一 Airy seam 的完整负阶源窗
 
 [完整seam算子证明](results/R133-supplement-complete-real-Airy-seam-operator-in-negative-source-window.md)，SHA256 `16467e1459f92971a1440cee84c3e2ee5ab4fedc1ba48cca127105dc6ecb3841`。全部高输入 $|j|\ge97$ 的符号可依j任意变化，两阶角导数预算仍以完整Schur+远频HS得到源 $H^{-4/3}$ 到 $H^{-5/3}$ 的明确范数公式；不以有限频fit/列正交代全算子。真实Airy中心/振荡/正侧实argument均有C²常数，再接原完整J给首state jump $H^{-2/3}\times H^{-1}$，包括mean、parity和真实投影顺序。root重推矩阵权、composition adjoint与Airy两行符号，tail独核通过。实际累计与其它ordinary/I/J/高阶seam/endpoint列仍未完成。
+
+### R133：半径1/50完整第一 Airy forcing 的公开实际证书
+
+[完整实际报告](results/R133-supplement-actual-complete-first-Airy-forcing-on-large-root-window.md)，run43624260519，14门全部通过，原1格＋1327新格＝1328无缝共同区间。native `54a79bf80df641797b28f998fe547c93d64b58ea329b675f3d62d23d4f161d47`/6577892B，main process `0f4d1dd4b33bf80c40e5ef65a169e0012bfd4f47746a8b7fbe7134557af5b145`/36229B。完整degree-zero one-gain算子和真实径向J jets均入账；同 $|\delta|\le10^{-8}$、fixedη0、νδ族。实际sup pair <268394.856049072、a1<7731800.525026、b1<11178348.024174。Horner真实runtimeprobe和原失败保全，0旧目标重算；全strong norm、cutoff97 inverse和PDE branch flags仍false。

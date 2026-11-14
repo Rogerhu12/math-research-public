@@ -127,3 +127,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14 18:05:07 UTC：完整第一 Airy seam 算子费已解析支付，待真实1079格累计
 
 [R133 A.1–14](results/R133-supplement-complete-real-Airy-seam-operator-in-negative-source-window.md) 由 root/tail 独核：两导symbol的近频Schur与远频全矩阵Hilbert–Schmidt给 $H^{-4/3}\to H^{-5/3}$，含全部low/mean输出；真实circle map以adjoint链式法则付 $H^{-5/3}$，不假设列正交。Airy用真实中心区与两实phase分解，覆盖小argument、保Ai′的 $1/(4n)$ 项。密度 $n^{7/6}$ 与首修正 $n^{-1}$ 精确相消后，原顺序 $JP$ 和已付 $J:H^{-5/3}\to H^{-2/3}$ 给完整jump列。正侧只授raw混合窗，须继续付positive weighted port；负侧须实际消费1079真seam与六R Cauchy列，尚非全CE/Cs或N97 inverse。
+
+### 2026-11-14 18:10:33 UTC：全1328格第一 forcing 实际完成，继续完整seam与余项
+
+公开 [43624260519](https://github.com/Rogerhu12/math-research-public/actions/runs/43624260519) child0/14门/39.161968501s；原1格逐字复用、新1327格，原1300根行/1079seams/6 intrinsic parts不重算。[实际报告](results/R133-supplement-actual-complete-first-Airy-forcing-on-large-root-window.md) 记录全域/strip/identity/native/process与两历史失败。完整 $L_0v_0$ pair <268394.856049072，首幅度 $a_1<7731800.525026,\ b_1<11178348.024174$；这些只是有限完整上界，未证N97 correction小性。下一消费者仅复用这次native和原root native，按六半径聚合已成forcing rows并消费1079真实seam；全I/J/mean/后阶幅度jump/强return范数仍欠。

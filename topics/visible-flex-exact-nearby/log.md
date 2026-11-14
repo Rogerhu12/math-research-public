@@ -183,3 +183,7 @@ source `ba25934f0f6e147f293644edc93b2adf1c33d5935f86596d96355cf063c95fa6`，CI `
 ### 2026-11-14 18:05:07 UTC：独立推送完整负阶 Airy seam 合同
 
 root完整读A1–14并核Schur+HS常数、反函数导数/adjoint Frobenius矩阵、Airy能量5/(36t²)、Ai′真实1/(4n)项、n7/6×n−1和原J负阶入口；亲查piecewise source保存J_Hminus5over3_to_Hminus2over3，不从analytic strip范数擅自推Sobolev逆。tail另行逐常数独核通过。1079格consumer只从已有root/forcing/Cauchy原bytes继续，尚未伪造累计数值。
+
+### 2026-11-14 18:10:33 UTC：根独读实际第一 forcing 14门并推结论
+
+根核36229B实际process全部14门、1328 exact cover、1/1327复用计数、真实原幂NaN/Horner probe、L0/两forced幅度/原mean-jump fees和全部scope false；报告8099B SHA edb1872d23000e2f3f51fddfb8ef26329fbc0c867a3cbf9f675e83924799a936。完成子题后立即接六R聚合/1079seam和positive负源窗，未停在阶段报告。四分区首range的精确9/10延拓guard失败另由独立恢复处理，保原1格及7活段。
