@@ -1,0 +1,172 @@
+name: visible-exact complete signed finite-head Green and distributed sources
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-complete-cut-green.yml']
+  workflow_run:
+    workflows: ['visible-exact complete 5970 continuous projector cells']
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      phase:
+        description: Run new algebra gates or consume an actual completed full projector run
+        type: choice
+        options: [algebra, complete]
+        default: algebra
+      projector_run:
+        description: Actual successful complete 5970 projector run, required for complete
+        type: string
+        default: '43594139132'
+      projector_attempt:
+        description: Original complete projector artifact attempt
+        type: string
+        default: '1'
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-complete-cut-Green
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  GREEN_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-signed-Green-CI-pinned-inputs.json
+  GREEN_MANIFEST_SHA: da3e142168cb2a92d08548efe71ed4505e2e82d82cda965b128582e1acb22764
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+  REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+
+jobs:
+  actual-signed-Green:
+    if: >-
+      github.repository == 'Rogerhu12/math-research-public' &&
+      (github.event_name != 'workflow_run' ||
+       (github.event.workflow_run.conclusion == 'success' &&
+        github.event.workflow_run.head_repository.full_name == 'Rogerhu12/math-research-public'))
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 70
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the separately pinned scientific closure
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-signed-Green-CI-pinned-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Hydrate and verify the immutable source closure and original successful gates
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$GREEN_MANIFEST" --manifest-sha "$GREEN_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/regular_cut_green_ci/
+      - name: Install the pinned directed arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Select exact actual process inputs and container-visible paths
+        id: paths
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_PHASE: ${{ inputs.phase }}
+          DISPATCH_RUN: ${{ inputs.projector_run }}
+          DISPATCH_ATTEMPT: ${{ inputs.projector_attempt }}
+          COMPLETED_RUN: ${{ github.event.workflow_run.id }}
+          COMPLETED_ATTEMPT: ${{ github.event.workflow_run.run_attempt }}
+        run: |
+          python - <<'PY_PATHS'
+          import os,pathlib,re
+          event=os.environ['EVENT_NAME']
+          phase='complete' if event=='workflow_run' else (os.environ.get('EVENT_PHASE') or 'algebra')
+          if phase not in ('algebra','complete'):raise ValueError('unknown actual signed Green phase')
+          run=(os.environ.get('COMPLETED_RUN') if event=='workflow_run' else os.environ.get('DISPATCH_RUN')) or '0'
+          attempt=(os.environ.get('COMPLETED_ATTEMPT') if event=='workflow_run' else os.environ.get('DISPATCH_ATTEMPT')) or '1'
+          if not re.fullmatch(r'[0-9]+',run) or not re.fullmatch(r'[1-9][0-9]*',attempt):
+              raise ValueError('only exact decimal original run and attempt identifiers are accepted')
+          if phase=='complete' and int(run)<=0:raise ValueError('complete requires the actual original projector run')
+          if phase=='algebra':run='0'
+          root=pathlib.Path(os.environ['RUNNER_TEMP'])
+          values=dict(phase=phase,source_run=run,source_attempt=attempt,
+              output=str(root/'visible-exact-complete-Green-output'),
+              projectors=str(root/'visible-exact-complete-Green-original-projectors'),
+              body=str(root/'visible-exact-complete-Green-original-body'))
+          with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
+              for key,value in values.items():stream.write(f'{key}={value}\n')
+          print(dict(phase=phase,original_projector_run=run,original_projector_attempt=attempt))
+          PY_PATHS
+      - name: Receive only the actual complete local projector result and true weighted boundaries
+        if: ${{ steps.paths.outputs.phase == 'complete' }}
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: ${{ steps.paths.outputs.source_run }}
+          name: visible-exact-complete-5970-projectors-${{ steps.paths.outputs.source_run }}-${{ steps.paths.outputs.source_attempt }}
+          path: ${{ steps.paths.outputs.projectors }}
+      - name: Receive the actual complete original body and both mean flows
+        if: ${{ steps.paths.outputs.phase == 'complete' }}
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43586413510
+          name: visible-exact-body-complete-mean-43586413510-1
+          path: ${{ steps.paths.outputs.body }}
+      - name: Run only new signed ports or their complete source consumer with real ten minute checkpoints
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          ACTUAL_PHASE: ${{ steps.paths.outputs.phase }}
+          ORIGINAL_PROJECTOR_RUN: ${{ steps.paths.outputs.source_run }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cut_Green_CI_finish.py
+          --manifest "$GREEN_MANIFEST" --manifest-sha "$GREEN_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --phase "$ACTUAL_PHASE" --projector-run "$ORIGINAL_PROJECTOR_RUN"
+          --projector-artifact "$RUNNER_TEMP/visible-exact-complete-Green-original-projectors"
+          --body-artifact "$RUNNER_TEMP/visible-exact-complete-Green-original-body"
+          --work "$RUNNER_TEMP/visible-exact-complete-Green-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-complete-Green-output"
+          --compute-minutes 50 --checkpoint-minutes 10
+      - name: Require actual nonempty process evidence before preserving it
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.paths.outputs.output }}
+        run: |
+          python - <<'PY_INVENTORY'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          files=sorted(p for p in root.rglob('*') if p.is_file()) if root.exists() else []
+          if not files or not any(p.stat().st_size for p in files):
+              raise RuntimeError('no actual nonempty process output exists')
+          records=[dict(path=str(p.relative_to(root)),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files]
+          (root/'artifact-inventory.json').write_text(json.dumps(records,indent=2)+'\n')
+          print(dict(actual_files=len(files),nonempty_output_verified=True))
+          PY_INVENTORY
+      - name: Preserve the original actual outcome and every failed prefix
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-cut-Green-${{ steps.paths.outputs.phase }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: error
