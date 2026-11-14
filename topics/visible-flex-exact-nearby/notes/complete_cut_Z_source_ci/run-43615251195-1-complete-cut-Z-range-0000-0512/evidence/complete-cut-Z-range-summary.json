@@ -1,0 +1,94 @@
+{
+  "phase": "range",
+  "native_sha256": "c2d5549f71c99e0409d799bfa7e385eba7c76335fccf524c29cfe9b5098f21c1",
+  "complete": true,
+  "gates": [
+    {
+      "name": "actual_successful_v3_eleven_gates_exact_true_inlet_and_original_inputs",
+      "passed": true
+    },
+    {
+      "name": "same_full_continuous_Z_and_whole_body_angular_offset_enclosure",
+      "passed": true
+    },
+    {
+      "name": "all_sixteen_completed_one_column_cells_reused_without_new_evaluations",
+      "passed": true
+    },
+    {
+      "name": "all_original1977_closed_cells_and_both_true_endpoint_ports_retained",
+      "passed": true
+    },
+    {
+      "name": "exact_completed_plan_and_requested_disjoint_remaining_cell_range",
+      "passed": true
+    },
+    {
+      "name": "all_original_full_array_bytes_reused_without_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "same257_by97_trial_and_original_dyadic_first_node_with_true_rational_inlet",
+      "passed": true
+    },
+    {
+      "name": "same_complete1977_joint_coefficient_partition_with_no_shifted_or_missing_cell",
+      "passed": true
+    },
+    {
+      "name": "all_requested_new_one_column_cells_completed_without_repeating_the_original_sixteen",
+      "passed": true
+    }
+  ],
+  "seconds": 699.0247694100001,
+  "common_input_sha256": {
+    "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "proposal": "b9819522aceed06b73628d84b8bb80dbcc5b734971c6b3c20544e9876c23d78a",
+    "object": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+    "inlet": "119dedb2e62f23553b81dea9eb787d8298c1224eebc2cc38790ec50274df0ca7",
+    "q-vector": "8f2471f709d5350212c3bb12a2e180fef37cbd8ced72e7ed858d6687b5fa36d9",
+    "q-native": "2f2469091ae6893b56f869fc7753ed015cf9d7ebf2171ccd8c5a580dd770d4d2",
+    "hessian": "cf055cac05569701ebcb0df95fb064c94cec8c18bb28121292a3836b3862be26",
+    "cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba",
+    "direction": "87ed2f618bcaf77b0649abf561daea7225c9b7d667edc22afb91d86255da8f88",
+    "cap": "69f55939742b26988690e54b7f5636eb591a351063b93187feeb38c1f6611ebe",
+    "cap-process": "b4cc859b9a1987da485cb4d7bc76aab00c2f009d9552bccbd1916d4a9d37f5fd",
+    "cap-cut": "36f498e3b0addbb46290c12fae6b63af7673db20ba230e22dd83809d18427104",
+    "cap-cut-process": "aa43c90bd4b2d8fe3a820fba7d0cf5e40d67d2952248cf0c33ebe0ec0c76bd7e",
+    "boundary": "b1adeea522b31efa2fc83a6436bc3fe52dbd04630c17d5436927b5872b05e263",
+    "boundary-process": "d81f87fb08dde8d1a8501cf4ac2dc71b71f08c542fc39870c0ac8cb0f13f57c7",
+    "pilot": "f36831b1f5cc354548686c7d3e5f3fdfb10a456899d25f57d1be1b4cefccbe5c",
+    "pilot-process": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4"
+  },
+  "exact_continuous_direction_definition_sha256": "6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04",
+  "reused_original_one_column_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    17,
+    18,
+    21,
+    22
+  ],
+  "new_one_column_cells_executed_in_this_child": 496,
+  "completed_new_range_cells": 496,
+  "complete_all_one_column_cells_computed": false,
+  "full_original_native_retained": true,
+  "complete_finite193_response_error_proved": false,
+  "complete_infinite_inverse_proved": false,
+  "unknown_high_input_feedback_still_required": true,
+  "range": [
+    0,
+    512
+  ]
+}
