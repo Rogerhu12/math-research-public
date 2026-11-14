@@ -89,3 +89,5 @@
 - [R42：准确尾原函数、共同高度与评价误差](results/R42-exact-tail-primitive-and-common-height-error.md) — 显式Q0/Q1/Q2评价同一准确Π；单h由同一前缀积分锚定。当前同h比较消掉共同高度误差，球与跨片认证必须另证h区间。
 
 - [R43：弓形角点的解析Gauss符号门](results/R43-cap-corner-analytic-Gauss-sign-obstruction.md) — 桥侧K>0时单侧联合解析延拓不容尾IIθθ奇阶换号；S11五阶被排，S9偶四阶避此窄门。不是一般C2障碍。
+
+- [R44：S9六弓平帽的准确嵌入和全帽点对](results/R44-S9-six-cap-exact-embedding-and-normal-chord.md) — 二重/反射幅度3/16与1/8，有限六片准确平度量、C5及内rc盘固定；投影强单调给全帽跨片法弦>3/40。无开放平角区间，未给连接存在。
