@@ -253,3 +253,7 @@ run43602519926的62源/8输出长度与SHA全部匹配，四开发检查通过�
 ## 2026-11-14 14:18 UTC — 同g暖扩空间与充分disk-strip预算
 
 R33新增完整单位圆盘投影加|y|≤.33、|z|≤.45的充分条件，同一核心仍给δhold/D>.305及固定盘>.200；仅是条件预算，未宣称失败候选已满足。归档独立enriched运行器和人工检查：旧J4准确有理插结到J9，保旧θ列并加phi1..3与u_core，共234变量。未改旧四基模块、完整g及开放端口；准确插结和binary64舍入身份分开，先实际同网格暖回放才优化。source独立审空间/Jac，root全文核；人工两侧Jac4.02e−9/5.57e−9。共享workflow/publisher只新增ellipse_enriched lane，单35分钟上限，61×192/250次，最终同参数两细网格和分布；request只此一lane，denseJac静态估167.3MiB，真实RSS另记。新目标含五个shape分量，与旧cost不可直接比。研究评价仅公开Actions。
+
+## 2026-11-14 14:24 UTC — R37 真实零算子正向构造
+
+恒k/h/d球面圈的真实矩阵密度为w[(k²−1)A+kB]^T，按各自真周期走0/±a三圈且a²=(9+√33)/8准确抵消。四(h,d)的8方向det=63/2048非零；变h的两个k_s异号支撑匹配任意ω端值且不改frame。每圈随参数准确回frame，所以全部连接成本及导数独立N；Klein八边对所有参数严格消∫h²T。8维IFT给充分大有限N的准确零M，而非仅N趋∞的小残差。root/source全文核通过，另付三总矩才给双collar二阶range，明确不借退化B自动推出三矩。共享workflow新增zero_operator_exact短lane复核准确代数，无几何ODE/优化/N选择；现有enriched实际run43604231319继续，不重复触发。最新公开larger-amplitude/exact-nearby HANDOFF仍无可移用完整大幅度解。

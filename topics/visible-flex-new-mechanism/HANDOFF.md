@@ -1,12 +1,12 @@
 # 交接：大振幅新机制
 
-**未完成；尚无满足全部指标的闭曲面族。** 会话 `Astra-new-mechanism-9974ea84`，2026-11-14。主线：准确椭圆柱核心、含负K的固定径向度量、R28正交frame求完整圆领；旧cos候选已因厚度门失败退出。文献在真实D0八系数及未排除正则性范围继续。不得以局部结果收尾。
+**未完成；尚无满足全部指标的闭曲面族。** 会话 `Astra-new-mechanism-9974ea84`，2026-11-14。主线：准确椭圆柱核心、含负K的固定径向度量、R28正交frame求完整圆领；旧cos候选已因厚度门失败退出。文献R37已真实实现全零八系数分支，继续完整二阶circle与高阶/有限化。不得以局部结果收尾。
 
 ## 完成门与规则
 
 闭连通 C2 嵌入族 Ft、时间 C2 连续、同一固定 g；固定材料开集 H 且 diamH≥.2D；不对齐的真实像集 Hausdorff 位移≥.3D；全域全时 reach≥.03D；最大相对 metric≤1e−6，且同 g/物理参数/时间加密改善；完整小网格、复现及严格存在性差距。D 是初始完整曲面直径。δE 可为0但须如实报。达标后继续 .5D 或更强存在性。
 
-- 根及本题 README 已完整读。公开仓库最后已读规则提交：`a9970ea037bca46ce178a87a35ce6279dfd3e4ef`；每次实际CLI pull均核根/本题README新差异。
+- 根及本题 README 已完整读。公开仓库最后已读规则提交：`13c67fdb97a5945437ac1c7349556001c63e0a14`；每次实际CLI pull均核根/本题README新差异。
 - 每次 pull 后只读这两 README 新差异并立即遵循，至少每小时 pull。每结论提交推送；NFF 立即 pull --rebase 并循环推送，不强推。
 - 作者指定 QUEUE 已置进行中。私有仓库14:14:20 UTC实际pull至94a2611e4760da10f909a28d51ac067fadcb1117，根README差异为空；队列唯一课题行仍为本会话进行中。私有研究内容不发布。
 - 研究计算只用本公开仓库自己的 Actions。令牌仅瞬时命令行认证，不入文件。根 LOG 不写；共享 workflow 理由记本题 log。HANDOFF<10KB，其他 MD<100KB，数据>1MB压缩、单件<5MB。
@@ -39,7 +39,7 @@ CLI同步正常。旧R18 recovery分支和recovery-20261114保留。14:12 overla
 
 - R31：h=1的准确矩式、非对称高频球面微扰使detM~3Dε³/4096>0；非负平滑frame连接+Klein八边严格消空间位移。按先n后N得真实有限C∞闭正则曲线/浸入带实现R26负根比值与Kjet≠0、满秩B。未证嵌入/reach/全尾/有限族。
 
-R31的公开准确代数run43601439290已成功且全部58源/1输出哈希核对一致：中央矩det、−32detB、四个三角平均与Klein八边均准确通过；没有计算有限n/N或真实几何。详见literature-constant-h-exact-actual-audit。
+R31准确代数run43601439290及58源/1输出SHA全核通过，详见constant-h-exact-actual-audit；无有限n/N或真实几何计算。
 
 - R32：3<ρ<4非退化简单C根有真实C3相位及C2无穷小场；但一般h>0的同左锚自然二阶恢复出现−GVχ″，C2需逐点Gs=0。此门迫非零二次jet落入可逆L|P2核，矛盾；所有s常数profile gauge亦无效。不外推任意有限族。
 
@@ -50,6 +50,8 @@ R31的公开准确代数run43601439290已成功且全部58源/1输出哈希核�
 - R35：简单C根处既定前三阶有限幂渐近m>3的全部弱外尾，仅有一个复幅相；W/C′=−2(m−2)²/(3m−5)。含非整数，复指数Re m>3也自动实。双简单有限幂外尾完整类由R34全排，未将任意C3外端冒称幂型。
 
 - R36：二重C根的标准前三阶指数jet迫λ=−3w0/(2c)、唯一实C∞前因子及公共复幅相；两二重外根使C内部同号，正性链禁止双端回零。任意flat尾自动标准仍未证明。
+
+- R37：真实0/±a整圈抵消，四状态八维修正det63/2048，变h准确控制ω，Klein闭合与IFT给有限N准确零周期算子。R21例外已实现于C∞周期浸入带；另付三矩可解二阶range，高阶/有限族/嵌入/reach均未付。准确代数lane已请求。
 
 ## 最新实际计算
 
@@ -63,4 +65,4 @@ R31的公开准确代数run43601439290已成功且全部58源/1输出哈希核�
 
 warped_collar43595305950实际失败且R23另以link排除该封口目标；R24排除旧sin核，已试cos点全因厚度门失败。当前转准确椭圆柱和R28固定负K度量；入口/尾端先去已知表示失配，再公开Actions试算。文献续解仅限R32/R34未排类别。主README全部门通过前不收尾。
 
-ellipse_frame实际43602519926：连续端口inner非空/全方向门通过；123nfev ftol但fine metric1.660115、R3.51022、κsample2334.99、ellipse radius²1.46167，未可行，R33包络前提不成立。62源/8输出SHA全核。详见ellipse-frame-fixed-pilot-actual-audit；分布run43603136078同网格六摘要差0，63源/3输出SHA全核：R峰负K段t.4275纯RT，κ峰.4575，metric峰尾t.7275；不是entry主峰，mean及k12+显著。现发布ellipse_enriched：同g/旧源码，J4→J9准确插结加φ1..3/u_core，共234变量，61×192/250次；先核舍入暖转再优化。R33已补disk+strip .33条件预算>.305；未宣称连续包含。启metric design前须把log基尾Oδ5升Oδ7。R30接口见notes/R30-validation-interface-20261114.md。
+ellipse_frame实际43602519926：连续端口inner非空/全方向门通过；123nfev ftol但fine metric1.660115、R3.51022、κsample2334.99、ellipse radius²1.46167，未可行，R33包络前提不成立。62源/8输出SHA全核。详见ellipse-frame-fixed-pilot-actual-audit；分布run43603136078同网格六摘要差0，63源/3输出SHA全核：R峰负K段t.4275纯RT，κ峰.4575，metric峰尾t.7275；不是entry主峰，mean及k12+显著。公开run43604231319（源f64c2c0daa077f9e13aa12f0475e3eeb069a191c）正在运行ellipse_enriched：同g/旧源码，J4→J9准确插结加φ1..3/u_core，共234变量，61×192/250次；先核舍入暖转再优化。R33已补disk+strip .33条件预算>.305；未宣称连续包含。启metric design前须把log基尾Oδ5升Oδ7。R30接口见notes/R30-validation-interface-20261114.md。

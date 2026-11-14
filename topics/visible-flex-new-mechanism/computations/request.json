@@ -1,31 +1,18 @@
 {
-  "request": "same-g-ellipse-frame-warm-radial-and-material-angle-enrichment",
-  "created_at": "2026-11-14T14:18:44.968084+00:00",
+  "request": "exact-algebra-certificate-for-real-closed-zero-period-operator",
+  "created_at": "2026-11-14T14:24:55.687133+00:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "ellipse_enriched"
+    "zero_operator_exact"
   ],
-  "input": "notes/actions-43602519926-1-ellipse_frame/frame-ellipse-positive-fixed.json",
-  "input_sha256": "735f8e68c5c83e1e3b7ac95c6cda921b7f7d3dbf0945d26883c6d5723b5a7806",
-  "fixed_metric_mathematical_definition_sha256": "f8b81d3a177457f084cbf04379bb9979036f98ce2a8d7e2fbf04fccaadbdf870",
-  "radial_free": 9,
-  "theta_modes": 5,
-  "phi_modes": 3,
-  "u_core_direction": true,
-  "unknowns": 234,
-  "collocation": [
-    61,
-    192
+  "checks": [
+    "rational eight-dimensional rank determinant",
+    "Q(sqrt(33)) complete-circle balance",
+    "projective eigenline independence"
   ],
-  "max_nfev": 250,
-  "field_bound": 6,
-  "envelope": "disk-strip",
-  "strip_half_width_exact": "33/100",
-  "warm_field_exact_before_rounding_only": true,
-  "warm_same_grid_check_required": true,
-  "physical_parameters_changed": false,
-  "metric_changed": false,
-  "shape_objective_changed": true,
-  "new_cost_not_directly_comparable_to_old_cost": true,
+  "geometric_ode_performed": false,
+  "finite_repetition_count_selected": false,
+  "optimization_performed": false,
+  "enriched_run_already_running_independently": 43604231319,
   "task_complete": false
 }
