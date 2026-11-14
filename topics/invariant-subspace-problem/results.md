@@ -651,3 +651,7 @@
 ### R288 附录：一般出生 S1 的真实三塔与完整 Schur 消元
 
 [完整证明](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)把二次creation准确分到三个实际正交核旗塔，保C²的第四阶正项与非primitive完整F3源，含上出生硬顶。S1缺陷等于H0²−PF2P−M2²+2N+Y*Γ4Y/4，任意共同非正交源的全部度量同时给出；去掉上二阶逆而未宣称一般正性。出生一准确回到已证式，下出生第二边仅给正项N的上界，不能误作目标下界。
+
+### R273 附录：两异常位四维首边的共同低阶矩与真实桥
+
+[完整证明](results/R273-appendix-shared-low-moment-normal-form-and-physical-cubic-bridge.md)把全部合法高度的完整MP同源化到真实两组计数矩，并保首末硬约束；首边仅用0–4阶矩。旧两组加一位的三次桥与S1/S2物理度量明确写出，同一剪切使首Gram成为对角加秩一。q=L=2的严格c1给出准确R239来源，其他短边不以旧常数16冒充1；一般四维相邻正性仍开。

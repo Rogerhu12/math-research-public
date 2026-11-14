@@ -22,7 +22,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 已证闭域/共同正则器只按原范围使用：全H稠密不传未知限制/有限旗，G不扩一般慢Acal，UHF不运输未知Haar格。正常态/边界奇异态、固定次数/全部向量不同；C未必保M，全等向不代局部等向，不能删域或压缩中央耦合。所有结果仍为中间结论。
 
-并行压缩前的H/open全文、准确范围与全部旧链分别保[1cf全文](notes/2026-11-13-handoff-open-before-nonreduced-closure-2220.md)及[0c全文](notes/2026-11-13-handoff-open-before-single-block-jets-and-complete-tail-metric-0c.md)。本页未列出的旧缺口并未关闭。本轮压缩前全部接口、量词及原链接另保[本次全文](open-archive-2026-11-13-2353-0c.md)（a054cd5268c3d855733bd17a70f6a693219668ec）；仅压缩重复已付背景，不改变未闭状态。
+所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-R273-moments-789f.md)及其中各轮归档；未列条目不算关闭。
 
 ## 当前接口一：原 Haar 慢符号的正常湮灭者
 
@@ -104,7 +104,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 **其他原边界接口。** 新[原连续尾birth1全高度顶桥](results/R271-appendix-original-birth-one-all-height-polynomial-first-return-anchor.md)对完整真幂逆先全逆后压K，给τ_t/(t+1)^17≤H_t^-1≤τ_t及全部旧列非交换乘积≤(h+2)^61 S_m H_(ℓ−1)；最高d无新列，D1*真实Θ锚费≤(d+2)^(61/2)√S_m，q/m一致。原正边网络/标量Newton没有外推为矩阵Newton；a≥2、Γ跨birth及无速率锚乘增长仍开。双宽商/负配对、深jet Schur、天然四块真重排等范围全保快照；两带不可免费取交，无权增长/指定回馈/pure继续。
 
 
-[两组＋一位全出生全高度](results/R239-appendix-two-weight-groups-one-exceptional-all-births-all-heights-strict-bound.md)的严格c1已闭。[R273](results/R273-two-exceptional-weights-complete-schur-recovery.md)恢复两组＋两异常位：出生一3D及2≤t≤min(q,L)的4D完整MP/单参数Schur，保两硬端；相邻矩阵序和高端其他出生仍开。证明细节/148例核对见正文，不能由消元前标量序跳到同源矩阵序。
+[两组＋一位全出生全高度](results/R239-appendix-two-weight-groups-one-exceptional-all-births-all-heights-strict-bound.md)的严格c1已闭。[R273](results/R273-two-exceptional-weights-complete-schur-recovery.md)恢复两组＋两异常位：出生一3D及2≤t≤min(q,L)的4D完整MP/单参数Schur，保两硬端；相邻矩阵序和高端其他出生仍开。[共同低阶矩/真实桥](results/R273-appendix-shared-low-moment-normal-form-and-physical-cubic-bridge.md)保0–4阶实际矩、同一源与硬端；不能由消元前标量序跳到矩阵序。
 
 [R281 极强位全高度传输](results/R281-heavy-bit-height-transfer-and-sharp-universal-first-edge-lower-bound.md)把旧第n+1边回传至新第n边，保完整同源PSD块与有限强权阈值。全出生首边与全高度的最优普适常数相同；等权中央边迫该常数≥1，真实八位birth2首比22801/43836>1/2。一般上界1仍开；不能用强等权池压δ而省掉内部出生，真实密度只趋1/2上方。
 
