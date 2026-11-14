@@ -439,3 +439,7 @@ M32 repair转授A10的连续参数现明确为M≥4，含全部实际非零模�
 ## 2026-11-14 13:40:12 UTC：精确repair同一global根collar合同与公开预算接续
 
 完整C1–21及新producer/CI逐项核，原germ397f9/repair6ee8/rootbudget10ff6三原件全复用，16固定输入不再跑旧germ/response/target。新mean定义新global Riccati，真pR另核，完整193head↔high、普通源与两端trace均保。新增16输入wrapper机械复用已成功真实pull/README/nonFF循环；新数值只在公开Actions执行，待原过程后授具体常数。
+
+## 2026-11-14 13:42:55 UTC：完整repair外graph与4650正high转授接公开运行
+
+逐式读outer/body/CI/修订contract/101manifest/workflow；原proof已绑正确M≥4版本a6c604bc...。真实全物理C变化64Cauchy、完整65right-offset、Hs/Hilbert/mean/独立affine列和新global mean速率均保；只恢复四旧binary parts并新增两order scalar sweeps。ReviewedRules.snapshot已亲核>5MB按2MB原字节分片，原complete rows全保。新算术只在公开Actions；待实际结果后授修复背景新逆。

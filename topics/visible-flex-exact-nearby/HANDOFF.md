@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 13:40:12 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 13:42:55 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：ef720c3c15dadcf6340d053dcffbd68a4e6357a2；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：6d1c3afe70c9033a447750c211254550e6db36a7；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -55,3 +55,5 @@ M32 repair→旧完整正high解析转授已证，见results/R133-supplement-exa
 尾中间块新增真实三compact控制曲线：原finite-e residual Wronskian给第三相位核A g2>2^-85；准确保持两phase且径向Γ不动，r0=2^-1000ρ^13、ρ=2^-40J^-2，真实θ导数>2^-2590J^-40，无B/δ半径损失。只授第三系数，有限κ散射余项/混频PSD继续；见exact-third-phase-kernel-and-local-two-phase-curve。
 
 M32 repair同一新global reference正根collar的C1–21全mean/head/high/ordinary源/两trace合同已审证并接visible-exact-repaired-global-root-collar.yml；16固定输入，只新消费3原native。新34高余项/1e−6 headloop/源1/12000等为待实际门，不复制原62/25数值；全δ96根相位仍另付。
+
+完整repair正区/外graph消费者已接visible-exact-repaired-positive-high.yml；101输入保旧4650系数四parts原字节，先新outer25门再两order scalar比较/全行膨胀，不重算旧intrinsic。>5MB原件由已有publisher精确2MB分片，完整UTF8摘要另存；新数值待实际原过程。
