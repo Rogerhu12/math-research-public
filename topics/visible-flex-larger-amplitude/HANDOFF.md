@@ -33,14 +33,14 @@ seeded_zero_tail_client原7件严格bundle校验已泛化：只对同M/N、全�
 R239连续均值唯一/单SE2六jet是条件定理，有限DFT不自动满足。physical已含z0，不再加旧A mean；φ有限频可含无限θ谱。材料包必须读取真实完整scalar schema及全p*/supports；新场要自己的实际最终H尾。large_core_saved_prefix/closed_assembly已支持完整mean、单SE2、全角cut0/1/2jet修补；v3 dispatch由geometry接续。core witness也随SE2变，G≈.96不能直接冒新像距离。
 R240：材料g=ds²+a(s)²dθ²与core c无关。设计定型后冻结完整a(s;p*)/尾帽g/区间/t范围，释放全部core，K0/k0/T=M，增广4M+2（左3M+2/右M）同g精化。先按原design维数/p*/支持重建scalar，再升field modes；新H实际重算不padding旧H。Ntail>8M，帽中心固定图册。尚无新完整DN接受场。独立same_metric_profile/prepare/response/full_dn四入口已备：v4永久嵌套原v3完整p*及canonical SHA，K=k=0、450/514维，真parent及final-audit/config逐字绑定；尚未运行，命令见same-metric-refinement-executable-interface note。
 
-## 已付工具、旧A与GW剩项
+## 已完成旧基准及当前几何工具
 
-A仅旧小幅闭组装：Dcloud3.9774592667、像点云比.06301463338，三mesh各<5MB/Euler2/每边2面/零退化。RK24/RK48真solve/J/audit与RK48真16+源节点/共同网格/collar/闭面已完成。默认RR f8→16二jet差.0029138，旧prefixcut metric平台4.77033e−8，未机器稳定；finitecollar1.00139e−18只原H/背景。
-R241旧A完整空间预算由run43586618658/q8真全付：33712父对/2157568子对全过，uncovered=0，77.565s；D+=3.980751407764145、K8.35、Kτ=.9994116104及标记门过，停止可选加密。连续包络仍输入，interval certificate=false。整面held包给δhold/D+≥.05388898465、H/D+≥.996873，未达.2，不移植新场。q8-complete note保存全证据。
-R248已证有限C²相位强连续（无需C³）、准确反射三parity、全t metric/κ归约；未标记reach可一次空间证据，marked仍付R24/R11，真实held帽扰动仅损A。现inlet parity未付，geometry另做独立规范形。
-R238/R242给含反射非全等及精确warped+角解析无平片条件；R243真9246小段有理见证只付共享C²四角规范形，原renderer/全接缝/δE仍未齐。R246旧.984的415片连续三分量<1e−6及浸入，直接operator只<2e−6，不付新field或R241算子门。
-旧post43 GW35件已按SHA保全。R245及真gwcompat/gwvelocity说明二jet差非最后求值舍入、Q替换更坏。request09/run43588929803真stage28成功：49原RK calls/六已有节点，旧A/B/C rawSHA、mean、g完全重现；96×1024局部metric f8→16→48为1.18359e−8→1.25944e−9→1.62003e−10，κmax同7.6462465。二jet差仍敏感但不是额外机器门；封存旧A局部GW分支，不扩全场/Q。详见actual-stage28-original-RK48-local-refinement note；原450二jet差.0017739032174071579复现。
-旧Aκ8.3455143峰在prefix，旧tail≈8非新尾必要界；Gauss样点仅约3.965尺度。真W/D/K窗口及单次尾帽高度见tail-curvature-and-diameter-design-window；G/旧Dproxy不冒整面门。
+旧A不足幅度：Dcloud3.9774592667、真实像点云比.06301463338；RK24/RK48真solve/J/audit、源节点/共同网格/collar/三闭mesh已付，不重算。R241的run43586618658/q8已付33712父对/2157568子对，uncovered0、D+3.9807514078、K8.35、Ktau.99941161，标记门过；连续包络仍输入，interval certificate=false。held覆盖比≥.05388898465、H比≥.996873仍<.2；全套不移植新场。
+旧GW35件已保全。R245+真实gwcompat/gwvelocity排除最后求值舍入解释，Q替换更坏。run43588929803/stage28真49RK/六已有点重现旧A/B/C rawSHA/mean/g；96×1024局部metric f8→16→48为1.18359e−8→1.25944e−9→1.62003e−10，κmax同7.6462465。旧A诊断封存；不追额外机器六jet门，不扩全场/Q。见actual-stage28-original-RK48-local-refinement note。
+R248已证有限C²相位强连续（无需C³）、准确反射三parity、全t metric/κ归约；未标记reach可一次空间证据，marked仍付R24/R11，真实held帽扰动仅损A。当前inlet parity未付，geometry另做通用共享节点规范形。
+R250证明完整正密度对称换角的连续P及偶数N>4M精确DFT非mean方块det>0；不给条件数或全DN可逆，不能把数值小奇异值直接称精确投影丢维。
+R238/R242为含反射非全等及精确warped角解析无平片条件；R243真9246片只付共享C²规范形，不自动付全seam/δE；R246旧.984三分量<1e−6、直接operator仅<2e−6。新场均须自己的输入。
+旧Aκ8.3455143峰在prefix、tail≈8非新尾必要界；Gauss样点仅约3.965尺度。W/D/K窗口、一次尾帽高度和G不等于整面witness，见tail-curvature-and-diameter-design-window note。
 
 ## 保全及接续
 

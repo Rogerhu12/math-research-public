@@ -461,3 +461,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R247. 仿射coast初猜的Hermite中点消去](results/R247-affine-coast-hermite-midpoint-blindness.md)：证明固定有限Frenet投影在缩放coast上的RHS为常向量，Hermite偏差为h·t(1−t)(1−2t)(f−u)，中点恰零而原RMS两点系数为±sqrt(3/7)/7；区分域预检盲点与仍非零的collocation残差，未截频圆相容性不能移植有限投影。
 
 - [R248. 有限C²相位族与完整几何归约](results/R248-finite-C2-phase-family-and-global-reductions.md)：只需有限基面C²和准确两阶接缝即得C²强连续族；明确中央反射parity，全相位metric/operator与曲率上确界恒等；未标记面reach可一次空间检查，固定标记须统一余量。真实held仍对完整像，固定帽扰动仅损A；含反射δE正性需标记识别条件。
+
+- [R250. 完整单调材料换角的非均值方块投影可逆](results/R250-material-angle-square-projection-invertibility.md)：以行列式积分展开及有限Cauchy–Binet自含证明连续P和偶数N>4M精确DFT的det P>0；完整core正密度、对称逆图与常数列正交均明确。不给可用条件数、全DN可逆或材料谱尾消失结论。

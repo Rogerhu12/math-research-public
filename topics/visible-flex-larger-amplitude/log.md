@@ -400,3 +400,7 @@ R240的四个独立入口已接：只接受真实完整parent/final-audit/config
 ### 2026-11-14 11:34 UTC — bind complete T112 evidence and observe actual M112 mainline run
 
 T112实际13件已bot归档；详记七件strict缓存SHA、全部跨job源/配置/ready/capacity同一性、真实J差及trace condition3.85639e20，不以零残差冒非零尾稳定。request10已实际启动run43590496434/sourceeef66c97，直接原fullDN；接下来看真实QR/linear residual/Newton接受，而非准备或代理。
+
+### 2026-11-14 11:37 UTC — R250 exact invertibility of the material-angle projection block
+
+完整R250直接登记：对完整正密度、对称单调材料换角，连续非均值方块与偶数N>4M精确均匀DFT方块均det>0；给自含行列式展开/Fubini和有限Cauchy–Binet证明。条件数、浮点逆图误差、完整DN/QR及高材料谱仍须实际核；不据此改变求解源或验收门。真实coupling112已进入full solve，继续读原QR/回溯结果。
