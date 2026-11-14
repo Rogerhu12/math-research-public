@@ -8,7 +8,28 @@
   "workflow_commit": "5e1bb582fbeba3c55dfeda86c622aeb70e4164f8",
   "worker_source_sha256": "05b098966f69458dc1a371d7c42990cb0e7cebfb201665c6cc1cc0a47dbced89",
   "started_utc": "2026-11-14T14:34:36.112612+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_same_reference_positive_high_root_to_regular_interface_arithmetic",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-positive-high-root-graph-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_repaired_positive_high_root_graph.py",
+        "--out",
+        "/__w/_temp/visible-exact-positive-high-root-graph-output/native/repaired-positive-high-root-to-regular-graph.json.gz",
+        "--collar-process",
+        "/__w/_temp/visible-exact-positive-high-root-graph-work/science/topics/visible-flex-exact-nearby/notes/repaired_global_root_collar_ci/run-43600926806-1/consumers/process.json",
+        "--body-process",
+        "/__w/_temp/visible-exact-positive-high-root-graph-work/science/topics/visible-flex-exact-nearby/notes/repaired_positive_ci/run-43601149891-1-exact-M32-repaired-positive/process.json",
+        "--body-summary",
+        "/__w/_temp/visible-exact-positive-high-root-graph-work/science/topics/visible-flex-exact-nearby/notes/repaired_positive_ci/run-43601149891-1-exact-M32-repaired-positive/evidence/repaired-complete-positive-N97-high-inverse-summary.json"
+      ],
+      "started_utc": "2026-11-14T14:34:38.427488+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 5.000504056000004,
+      "finished_utc": "2026-11-14T14:34:43.428370+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T14:34:36.750341+00:00",
@@ -25,9 +46,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T14:34:43.756406+00:00",
+      "before": "2269ca85090e7e165692f813e4400e3c959a273f",
+      "after": "f1ed86df8d17ed7d3be1b2df19b9114dc532f477",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T14:34:38.425178+00:00",
+      "final": false,
+      "commit": "f1ed86df8d17ed7d3be1b2df19b9114dc532f477"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -62,15 +97,15 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "2269ca85090e7e165692f813e4400e3c959a273f",
+  "last_read_commit": "f1ed86df8d17ed7d3be1b2df19b9114dc532f477",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-positive-high-root-graph-work/science",
   "actual_scientific_input_sha256": {
     "collar-process": "7ac4224cf5260137e98e941b9816baf06058025ef0c1963b47098f2f4a1ae25c",
     "body-process": "459745352095624995f1a4c0864eb1e6dec7de5eff87c54ec1f2e3fce5ea99f1",
     "body-summary": "fde40b46beb474e10a92e6f6b92bc93beecb91da33eefc073a72dbc60964a9a5"
   },
-  "snapshot_utc": "2026-11-14T14:34:37.064163+00:00",
-  "wall_seconds": 0.9520869190000028,
+  "snapshot_utc": "2026-11-14T14:34:43.766546+00:00",
+  "wall_seconds": 7.654470916000001,
   "native_files": [
     {
       "logical_file": "evidence/original-body-process.json",
@@ -89,6 +124,12 @@
       "file": "evidence/original-collar-process.json",
       "bytes": 12540,
       "sha256": "7ac4224cf5260137e98e941b9816baf06058025ef0c1963b47098f2f4a1ae25c"
+    },
+    {
+      "logical_file": "native/repaired-positive-high-root-to-regular-graph.json.gz",
+      "file": "native/repaired-positive-high-root-to-regular-graph.json.gz",
+      "bytes": 3626,
+      "sha256": "2425a0338b958be5d7fb48c955b5a5ce59348f05f1832ab50a81d6cf7dbbc501"
     }
   ]
 }
