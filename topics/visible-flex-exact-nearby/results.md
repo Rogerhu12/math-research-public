@@ -498,3 +498,6 @@
 
 
 - [实际完整记录](results/R133-supplement-actual-phase-root-sliver-and-full-transport-residual.md)：同一连续修复中心/原全η的真实两ray根sliver10门actual通过，共同漂移精确消去、完整mean保留；真变动根末段对strip1/64相位缺陷<4.968975e−14。有限H全部dyadic24+24系数与复域/逆域严格界齐，给完整未投影PDE残差+全部jumps契约；尚未评价全transport残差或授真共轭。
+
+
+- [实际完整记录](results/R133-supplement-complete-C0-waist-and-canonical-forward-geometry.md)：完整周期Green核给未知全C0腰误差见证系数2(sec(π/8)−1)<.164785，含mean及全部高频；ε≤1e−3时条件held/D>.05070083706143。实际复用7722盒正向积分normal0/6.7786s、9门，canonical腰位置差≤7.578231ε+.612629|δν|。原外锚模型真实腰对齐费明确保留；未授精确解、闭合或最终几何门。

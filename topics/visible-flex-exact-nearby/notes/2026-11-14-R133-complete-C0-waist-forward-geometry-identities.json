@@ -1,0 +1,29 @@
+{
+  "kind": "actual_complete_C0_waist_and_forward_geometry_identity_record",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "source_sha256": "71f8f22e16340a9da950460d0cb5808f2c183d4310f2f0c884fb3a326a55f1de",
+  "native_sha256": "86a3e4c75a1eac47a668f53830d3fc6b40b4d5453b8e32b8b7fb8d27951c72a8",
+  "actual_normal_returncode": 0,
+  "reported_calculation_seconds": 6.778645413000049,
+  "actual_complete_cells": 7722,
+  "actual_gates": 9,
+  "inputs": {
+    "notes/2026-11-14-R133-complete-C0-state-nu-geometry-response-native.json.gz": "00efc0322a9aa82cd1f234899599ed3fbaff87edd35b8c9ac1331b229b276a55",
+    "notes/2026-11-13-R133-waist-outward-tube-and-fifth-marker-rational.json": "2404a832efd9079b8f82c8c251904b6b776f02d7ebd131559b065b881a2e8b24"
+  },
+  "files": {
+    "scripts/fourfold_codazzi_C0_waist_and_forward_geometry.py": {
+      "sha256": "71f8f22e16340a9da950460d0cb5808f2c183d4310f2f0c884fb3a326a55f1de",
+      "bytes": 7070
+    },
+    "results/R133-supplement-complete-C0-waist-and-canonical-forward-geometry.md": {
+      "sha256": "3483726b6b70110af920986130247ab99bd7e389f4e2b40e754663d684525cf9",
+      "bytes": 12172
+    },
+    "notes/2026-11-14-R133-complete-C0-waist-forward-geometry-native.json.gz": {
+      "sha256": "86a3e4c75a1eac47a668f53830d3fc6b40b4d5453b8e32b8b7fb8d27951c72a8",
+      "bytes": 1338115
+    }
+  },
+  "scope": "conditional full C0 waist witness and canonical waist forward model; original outer model waist alignment and exact GC existence remain separate"
+}
