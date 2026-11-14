@@ -1,0 +1,419 @@
+{
+  "format": "r150-h25-original-mod961-pipeline-v1",
+  "status": "completed",
+  "prime": 31,
+  "targetModulus": 961,
+  "targetMultiplier": "H0=(s-2)*h0",
+  "oldNFImageGraphOrBocksteinRecomputed": false,
+  "characteristicZeroIdentityAsserted": false,
+  "sharedMathematicalSecondsLimit": 300,
+  "perChildAddressSpaceMiBLimit": 512,
+  "perCompilationSecondsLimit": 30,
+  "deadlineRule": "Input validation/decompression and separately bounded compilation precede the mathematical timer. Packed VQ plus canonical source recovery plus full original17 transport and multiplication share one deadline. Each child receives the actual remaining time with10-second forced-kill grace. Actual partial VQ arrays are saved every100 rows and at a caught termination boundary. Final lossless compression/manifests are bookkeeping outside the mathematical timer.",
+  "originalT96Artifact": {
+    "run": 43597823809,
+    "artifact": 14114364261
+  },
+  "inputs": {
+    "graph": {
+      "file": "/home/runner/work/_temp/isp-r150-h25-original-mod961-input/isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+      "bytes": 101365853,
+      "sha256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce"
+    },
+    "model": {
+      "file": "/home/runner/work/_temp/isp-r150-h25-original-mod961-input/repo-original-model/native-normal-form-input.txt",
+      "bytes": 128145,
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+    },
+    "originalNF": {
+      "file": "/home/runner/work/_temp/isp-r150-h25-original-mod961-input/isp-r150-native-nf/nf-normal-forms.bin",
+      "bytes": 32916190,
+      "sha256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840"
+    },
+    "normalTrace": {
+      "file": "/home/runner/work/_temp/isp-r150-h25-original-mod961-input/isp-r150-native-nf/nf-reduction.bin",
+      "bytes": 101244784,
+      "sha256": "e977b75f618f30d00fd4edca3bdcadba1e5553a956bf4d781ee45df0d15c1e8b"
+    },
+    "forward": {
+      "file": "/home/runner/work/_temp/isp-r150-h25-original-mod961-input/isp-r150-native-nf/nf-forward.bin",
+      "bytes": 2378937,
+      "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+    },
+    "backward": {
+      "file": "/home/runner/work/_temp/isp-r150-h25-original-mod961-input/isp-r150-native-nf/nf-backward.bin",
+      "bytes": 3052119,
+      "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+    },
+    "rhs": {
+      "file": "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/inputs/rhs.bin",
+      "bytes": 542640,
+      "sha256": "581ce943262ba4dea66e9562889ec8cdd62e3808e34a8aeff33afb966c84bdf4",
+      "compressedOrigin": {
+        "file": "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-h25-image-and-vq-prefix-789f/combined-rhs-normal-forms.bin.gz",
+        "bytes": 367844,
+        "sha256": "cbd65bde482a7f99fa0b124dd8282f6fbfbace93c6385d9ead5329cf8a2be77a"
+      }
+    },
+    "quotients": {
+      "file": "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/inputs/quotients.bin",
+      "bytes": 806105,
+      "sha256": "c3dc4656e8cf56b579913002c4b210775420eeb7870d68993f135965b075a99c",
+      "compressedOrigin": {
+        "file": "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-h25-image-and-vq-prefix-789f/image-image-quotients.bin.gz",
+        "bytes": 531708,
+        "sha256": "82f3e30df674d8321133644b8b1facf9ec6b8f18f3e11e4d4082863c8afd4c4c"
+      }
+    },
+    "remainders": {
+      "file": "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/inputs/remainders.bin",
+      "bytes": 110,
+      "sha256": "09bc43a84b590f93e885b57ead50f48a4047b2a5498c664d1e4a7a835193dd6a",
+      "compressedOrigin": {
+        "file": "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-h25-image-and-vq-prefix-789f/image-image-remainders.bin.gz",
+        "bytes": 63,
+        "sha256": "07229b1eb004a60f7f1eb6da0f56f1a8c7a376bc7ef0f97cd83ced36174bd0a4"
+      }
+    },
+    "kernels": {
+      "file": "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/inputs/kernels.bin",
+      "bytes": 626592,
+      "sha256": "5cf08a41a81647dab8522c84e64de2ea442103063f6d870a820d5dd18bb226c7",
+      "compressedOrigin": {
+        "file": "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-h25-selected-inputs-789f/cost85-selected-original-kernels.bin.gz",
+        "bytes": 360649,
+        "sha256": "723ee19280f1543896007b81ec9c1a2acd62143e1311c5ac1b68f1215885c226"
+      }
+    },
+    "betaTrace": {
+      "file": "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/inputs/betaTrace.bin",
+      "bytes": 1258828,
+      "sha256": "a489146317d14a3225c864e4b945c5c405b72ebbd03b1e2cbff8ff8dd71b8932",
+      "compressedOrigin": {
+        "file": "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-h25-selected-inputs-789f/cost85-selected-normal-reduction.bin.gz",
+        "bytes": 843214,
+        "sha256": "49c9c9ee115584b4fa9f4d5aba12bd9bebadf1555a7cc6bdfb7da39fe4e68bd4"
+      }
+    },
+    "initial": {
+      "file": "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/inputs/initial.bin",
+      "bytes": 2121242,
+      "sha256": "265b0b420afd925d72eb1ab2e2e329fe6232644d740a78aede67866da3545c96",
+      "compressedOrigin": {
+        "file": "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-first-padic-residual-789f/initial-standard-source.bin.gz",
+        "bytes": 1366936,
+        "sha256": "1ef3cda9c6f1e6332fa0d77db4e517066f24b9717c68b72290dcb4373cff6bc6"
+      }
+    },
+    "firstTrace": {
+      "file": "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/inputs/firstTrace.bin",
+      "bytes": 5597494,
+      "sha256": "6e1e0894d6cafa180f482129e19a387e64f401a28f566e96eefcb2b9761742be",
+      "compressedOrigin": {
+        "file": "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-first-residual-image-obstruction-789f/rhs-normal-form/reduction.bin.gz",
+        "bytes": 3755513,
+        "sha256": "cec87792ec50e687d74ee86e57280214abd44eda70f822a9396d60931c42c286"
+      }
+    },
+    "integerModel": {
+      "file": "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-first-padic-residual-789f/original-integer-mod961.txt",
+      "bytes": 16152,
+      "sha256": "71630a822927659a58a7b9df4cdcdb5385b9ea71be9f246097bbbfd1fdc9a5f8"
+    }
+  },
+  "sources": {
+    "2026-11-14-r150-packed-image-source-checkpoint-789f.cpp": "f2f896fee674c88590115c59f35fbcf5ee294e2a45779f8b93979cdcf209aaab",
+    "2026-11-14-r150-h25-original-seventeen-mod961-789f.cpp": "1e7c872ecb311aa09b0f35d157acbd0106d97a0288a03bbb40cf729ac3d5c71a",
+    "2026-11-14-r150-h25-mod961-runner-789f.py": "23590199283b86775ed0f33f3a17b1d7aa15730e7866c14b58baacd4c6600a1e",
+    "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+  },
+  "compilations": {
+    "source": {
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O2",
+        "-std=c++17",
+        "-I",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/2026-11-14-r150-packed-image-source-checkpoint-789f.cpp",
+        "-o",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/bin/source"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 4.707747787999999,
+      "binarySHA256": "2500beecc59e196661b84aea25f0eb105fa3d19495635c948e457fd382874e88"
+    },
+    "original": {
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O2",
+        "-std=c++17",
+        "-I",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/2026-11-14-r150-h25-original-seventeen-mod961-789f.cpp",
+        "-o",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/bin/original"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 1.8445969010000027,
+      "binarySHA256": "0df9a62b8c1006fc4c6a634942a7552af5119243f208396e5d1e4b61c2bd03ed"
+    }
+  },
+  "stages": {
+    "source": {
+      "status": "completed",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "300.000s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/bin/source",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-input/isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-input/isp-r150-native-nf/nf-normal-forms.bin",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/inputs/rhs.bin",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/inputs/quotients.bin",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/inputs/remainders.bin",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/source/source",
+        "5a95203b8b83072253133f7dc72aa7f9907cbe7fa0deda662200fc3167501c33"
+      ],
+      "remainingSecondsAtStart": 299.999663976,
+      "lastProgress": {
+        "status": "packed-image-source-convolution-complete",
+        "fullNormalFormDecompositionIdentity": true,
+        "standardKernelNormalForm": true,
+        "completeRHSInImage": true,
+        "originalSeventeenEquationTransported": false,
+        "targetStandardSourceCosts": [
+          86,
+          86,
+          86,
+          86,
+          86,
+          86,
+          86,
+          86,
+          86
+        ],
+        "sourceMonomialProducts": 93312851,
+        "kernelReductions": 1075666,
+        "peakRSSKiB": 112216,
+        "elapsedSeconds": 48.7029
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 48.716446205,
+      "nativeStatistics": {
+        "status": "packed-image-source-convolution-complete",
+        "fullNormalFormDecompositionIdentity": true,
+        "standardKernelNormalForm": true,
+        "completeRHSInImage": true,
+        "originalSeventeenEquationTransported": false,
+        "targetStandardSourceCosts": [
+          86,
+          86,
+          86,
+          86,
+          86,
+          86,
+          86,
+          86,
+          86
+        ],
+        "sourceMonomialProducts": 93312851,
+        "kernelReductions": 1075666,
+        "peakRSSKiB": 112216,
+        "elapsedSeconds": 48.7029
+      }
+    },
+    "original": {
+      "status": "completed",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "251.281s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/bin/original",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/source/source-standard-coefficients.bin",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-input/repo-original-model/native-normal-form-input.txt",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-input/isp-r150-native-nf/nf-reduction.bin",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-input/isp-r150-native-nf/nf-forward.bin",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-input/isp-r150-native-nf/nf-backward.bin",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-first-padic-residual-789f/original-integer-mod961.txt",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/inputs/initial.bin",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/inputs/kernels.bin",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/inputs/firstTrace.bin",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/inputs/betaTrace.bin",
+        "/home/runner/work/_temp/isp-r150-h25-original-mod961-output/recovery/original/h25"
+      ],
+      "remainingSecondsAtStart": 251.281329464,
+      "lastProgress": {
+        "status": "h25-full-original-seventeen-mod961-complete",
+        "prime": 31,
+        "modulus": 961,
+        "fullOriginalSeventeenEquationIdentityMod961": true,
+        "fullOriginalMacaulayIdentityMod961": true,
+        "originalRowScaleTransportVerified": true,
+        "allWeightedBoundsVerified": true,
+        "actualNormalSourceCost": 86,
+        "actualCorrectionSourceCost": 86,
+        "actualFullSourceCost": 86,
+        "maximumFullCoefficientDegree": 75,
+        "characteristicZeroIdentityAsserted": false,
+        "elapsedSeconds": 4.98082
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 4.992080431000005,
+      "nativeStatistics": {
+        "status": "h25-full-original-seventeen-mod961-complete",
+        "prime": 31,
+        "modulus": 961,
+        "fullOriginalSeventeenEquationIdentityMod961": true,
+        "fullOriginalMacaulayIdentityMod961": true,
+        "originalRowScaleTransportVerified": true,
+        "allWeightedBoundsVerified": true,
+        "actualNormalSourceCost": 86,
+        "actualCorrectionSourceCost": 86,
+        "actualFullSourceCost": 86,
+        "maximumFullCoefficientDegree": 75,
+        "characteristicZeroIdentityAsserted": false,
+        "elapsedSeconds": 4.98082
+      }
+    }
+  },
+  "sourceCheckpointBinding": {
+    "sha256": "5a95203b8b83072253133f7dc72aa7f9907cbe7fa0deda662200fc3167501c33",
+    "fields": {
+      "graph": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce",
+      "originalNF": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+      "rhs": "581ce943262ba4dea66e9562889ec8cdd62e3808e34a8aeff33afb966c84bdf4",
+      "quotients": "c3dc4656e8cf56b579913002c4b210775420eeb7870d68993f135965b075a99c",
+      "remainders": "09bc43a84b590f93e885b57ead50f48a4047b2a5498c664d1e4a7a835193dd6a",
+      "sourceCode": "f2f896fee674c88590115c59f35fbcf5ee294e2a45779f8b93979cdcf209aaab"
+    }
+  },
+  "mathematicalElapsedSeconds": 53.711879712,
+  "original2195NormalSourceIdentity": {
+    "format": "r150-packed-nine-image-source-convolution-checkpoint-v2",
+    "status": "completed",
+    "field": 31,
+    "inputParameterBound": 86,
+    "provedTemporarySourceCost": 182,
+    "sourceRows": 2195,
+    "imageRows": 1021,
+    "kernelRows": 1174,
+    "fullNormalFormDecompositionIdentity": true,
+    "standardKernelNormalForm": true,
+    "completeRHSInImage": true,
+    "allStandardSourceCostsWithinInputBound": true,
+    "originalSeventeenEquationTransported": false,
+    "maximumCoefficientDegree": 70,
+    "nonzeroSources": 1797,
+    "nonzeroCoefficients": 483218,
+    "sourceMonomialProducts": 93312851,
+    "kernelReductions": 1075666,
+    "independentVerificationProducts": 20923249,
+    "targetStandardSourceCosts": [
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86
+    ],
+    "remainderNonzeroCoefficients": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sourceIdentity": "The complete actual T96 image row source V is paired with its saved monic G quotient. All9 RHS are packed during VQ convolution. The complete actual zero-output kernel gives canonical minimum-cost sources. Every original2195 R row is then used for the independent full R*C+savedRemainder=RHS identity. This is not yet the original6188-row transport.",
+    "elapsedSeconds": 48.7029
+  },
+  "originalSeventeenConclusion": {
+    "format": "r150-h25-full-original-seventeen-mod961-v1",
+    "status": "completed",
+    "prime": 31,
+    "modulus": 961,
+    "originalEquations": 17,
+    "originalRawRows": 6188,
+    "originalComponents": 4367,
+    "targetMultiplier": "H0=(s-2)*h0",
+    "targetMultiplierDegree": 25,
+    "provedSourceCostBound": 182,
+    "actualNormalSourceCost": 86,
+    "actualCorrectionSourceCost": 86,
+    "actualFullSourceCost": 86,
+    "maximumCorrectionCoefficientDegree": 75,
+    "maximumFullCoefficientDegree": 75,
+    "fullOriginalSeventeenEquationIdentityMod961": true,
+    "fullOriginalMacaulayIdentityMod961": true,
+    "originalRowScaleTransportVerified": true,
+    "allWeightedBoundsVerified": true,
+    "characteristicZeroIdentityAsserted": false,
+    "integerOutputCoordinatesPerTarget": 642631,
+    "nonzeroCorrectionCoefficients": 1926713,
+    "nonzeroFullCoefficients": 2318600,
+    "nonzeroFullRawRows": 5506,
+    "normalSourceOperations": 25305683,
+    "firstResidualTraceOperations": 1399348,
+    "selectedOriginalBetaTraceOperations": 314699,
+    "selectedBetaTraceOperations": 314699,
+    "backwardPrebasisOperations": 1010703,
+    "forwardPrebasisOperations": 782976,
+    "integerMonomialProducts": 1273129,
+    "targetSourceCosts": [
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86
+    ],
+    "correctionSourceCosts": [
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86
+    ],
+    "sourceIdentity": "C is transported by the actual original traces Jv-HC and the complete original prebasis DAG. The final primitive source is (s-2)(x0+c1*kappa2275+c2*kappa2276)+31*z, with the existing canonical original kernel digits lifted as integers before arithmetic modulo961. Original rational-equation coefficients are explicitly D/content_i times primitive coefficients modulo961. All6188 original rows and every original output coefficient are multiplied back modulo961. No characteristic-zero claim is made.",
+    "elapsedSeconds": 4.98073
+  },
+  "recoveryFiles": 15,
+  "recoveryBytes": 29699100,
+  "losslessCertificateFiles": 5
+}

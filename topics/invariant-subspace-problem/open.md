@@ -1,7 +1,7 @@
 # 未解决的问题
 
 
-**首低通道：** [原尾birth2全height](notes/2026-11-14-original-tail-birth-two-uniform-strengthened-all-height-bound-789f-next.md)现给显式有限Λ及N≤(Λ/2)kP。辅助常数2的有理反例仍保；[高方差全birth区](notes/2026-11-14-joint-birth-variance-common-slice-gram-and-strengthened-two-bound-789f-next.md)现付V≥2²⁰s²时真实κ2；原尾k≥2²³s²适用。实际短旗s≈k≈q不在该区，原graph相对预算仍开。
+**首低通道：** [原尾birth2全height](notes/2026-11-14-original-tail-birth-two-uniform-strengthened-all-height-bound-789f-next.md)现给显式有限Λ及N≤(Λ/2)kP。辅助常数2的有理反例仍保；[高方差全birth区](notes/2026-11-14-joint-birth-variance-common-slice-gram-and-strengthened-two-bound-789f-next.md)现付V≥2²⁰s²时真实κ2；原尾k≥2²³s²适用。实际短旗s≈k≈q不在该区，原graph仍开。
 
 ## 主目标与完成标准
 
@@ -144,7 +144,7 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **已闭全部低本质三次层。** [总定理](results/R150-appendix-all-essential-cubic-dimensions-at-most-three-have-zero-matched-bell-values.md)：essT3≤3临界三Bell零；ess≤2仅迫T3=0，rank1/ess3为空，Cat2/3的W±/Q|T3判据保。非零Bell余点必ess4/5/6，自然幂未付。
 
-**高本质rank1原中心17式。** 原6188×4367泛秩4354，rankAy8及0/2/−6/∞已闭，余rankAy9有限Σ/char0来源。[完整1834核Bockstein](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)实算后像仍二维，九个h0目标分别无任意次数31整数mod961来源；含31分母Q解未排。[共同primary修正](notes/2026-11-14-r150-known-bockstein-module-primary-correction-789f.md)给保根集H0=(s−2)h0的原mod961来源≤182构造性存在，正展开真原系数。其他mean秩/高ess/自然幂仍开；旧精确证书保[前全文](notes/2026-11-14-open-before-conditioned-gram-789f.md)。
+**高本质rank1原中心17式。** 原6188×4367泛秩4354，rankAy8及0/2/−6/∞已闭，余rankAy9有限Σ/char0来源。[完整1834核Bockstein](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)实算后像仍二维，九个h0目标分别无任意次数31整数mod961来源；含31分母Q解未排。[共同primary修正](notes/2026-11-14-r150-known-bockstein-module-primary-correction-789f.md)的保根集H0=(s−2)h0现有[完整原17模961证书](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)，九源实际cost86；下一位与31饱和仍开。其他mean秩/高ess/自然幂仍开；旧精确证书保[前全文](notes/2026-11-14-open-before-conditioned-gram-789f.md)。
 
 [射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)的74次充分条件于模31不成立：全原∞连接给阶≥24，仿射315使齐次总度≥339。它与九目标Ann24不同；char0来源/分母及其他mean秩高ess继续，全部旧条件保本次前open。
 

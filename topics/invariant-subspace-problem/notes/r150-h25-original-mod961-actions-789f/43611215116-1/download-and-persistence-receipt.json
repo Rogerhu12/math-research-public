@@ -1,0 +1,28 @@
+{
+  "run": 43611215116,
+  "attempt": 1,
+  "job": 132496453939,
+  "sourceCommit": "5aa9c384a4c1684ca048a97042eb3420a0874ae0",
+  "runURL": "https://github.com/Rogerhu12/math-research-public/actions/runs/43611215116",
+  "completedAt": "2026-11-14T15:39:19Z",
+  "conclusion": "success",
+  "mathematicalElapsedSeconds": 53.711879712,
+  "all15DownloadedRecoveryFilesSHA256Verified": true,
+  "all5CertificateGzipStreamsAndRawSHA256Verified": true,
+  "recoveryOriginalBytes": 29699100,
+  "recoveryArtifact": {
+    "id": 14120452116,
+    "name": "isp-r150-h25-original-mod961-recovery-43611215116-1",
+    "zipBytes": 18954937,
+    "digest": "sha256:4f0fbfe45e47e8f437e47cb64e26f05a6554ecc2f1931f4039217da48de036ad",
+    "expiresAt": "2026-12-14T15:39:16Z"
+  },
+  "resultsArtifact": {
+    "id": 14119948189,
+    "name": "isp-r150-h25-original-mod961-results-43611215116-1",
+    "zipBytes": 11165858,
+    "digest": "sha256:dcaa98109686db8400848ee11d527cd2d90b96e2a55ebc018815c3b722449fd5",
+    "expiresAt": "2026-12-14T15:39:15Z"
+  },
+  "persistence": "All five actual source/checkpoint/correction streams are saved under certificates. Recovery inputs are the previously published input gzip files listed by exact source and SHA in the pipeline receipt. All native identities and manifests are preserved here."
+}

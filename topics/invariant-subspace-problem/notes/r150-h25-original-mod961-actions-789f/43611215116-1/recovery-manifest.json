@@ -1,0 +1,81 @@
+{
+  "format": "r150-h25-mod961-complete-recovery-v1",
+  "pipelineStatus": "completed",
+  "files": [
+    {
+      "file": "recovery/inputs/betaTrace.bin",
+      "bytes": 1258828,
+      "sha256": "a489146317d14a3225c864e4b945c5c405b72ebbd03b1e2cbff8ff8dd71b8932"
+    },
+    {
+      "file": "recovery/inputs/firstTrace.bin",
+      "bytes": 5597494,
+      "sha256": "6e1e0894d6cafa180f482129e19a387e64f401a28f566e96eefcb2b9761742be"
+    },
+    {
+      "file": "recovery/inputs/initial.bin",
+      "bytes": 2121242,
+      "sha256": "265b0b420afd925d72eb1ab2e2e329fe6232644d740a78aede67866da3545c96"
+    },
+    {
+      "file": "recovery/inputs/kernels.bin",
+      "bytes": 626592,
+      "sha256": "5cf08a41a81647dab8522c84e64de2ea442103063f6d870a820d5dd18bb226c7"
+    },
+    {
+      "file": "recovery/inputs/quotients.bin",
+      "bytes": 806105,
+      "sha256": "c3dc4656e8cf56b579913002c4b210775420eeb7870d68993f135965b075a99c"
+    },
+    {
+      "file": "recovery/inputs/remainders.bin",
+      "bytes": 110,
+      "sha256": "09bc43a84b590f93e885b57ead50f48a4047b2a5498c664d1e4a7a835193dd6a"
+    },
+    {
+      "file": "recovery/inputs/rhs.bin",
+      "bytes": 542640,
+      "sha256": "581ce943262ba4dea66e9562889ec8cdd62e3808e34a8aeff33afb966c84bdf4"
+    },
+    {
+      "file": "recovery/original/h25-original-correction-mod31.bin",
+      "bytes": 2195283,
+      "sha256": "669b5a2a060ca69cb24c19a8955d01c3555d6803d3995649f63cb9c9f21958c1"
+    },
+    {
+      "file": "recovery/original/h25-original-seventeen-mod961.json",
+      "bytes": 1683,
+      "sha256": "0c527d7b1bddcab78f4e45938ce246fd6a337fcd678b2291eaf7de1622945c71"
+    },
+    {
+      "file": "recovery/original/h25-original-seventeen-source-mod961.bin",
+      "bytes": 4891710,
+      "sha256": "c132986d4d6f52d98cf3687678e5f78b0d85965586b54ab2a1e1c36bb317de32"
+    },
+    {
+      "file": "recovery/original/h25-primitive-source-mod961.bin",
+      "bytes": 4891710,
+      "sha256": "6ff5083ce8567c5a333acb8e26bba9e3bb64a53c5dda8d693c1411b163566e32"
+    },
+    {
+      "file": "recovery/source/source-source-certificate.json",
+      "bytes": 1090,
+      "sha256": "c0ae03ea85666eb468665d99c8096b334443909dd2aa2c33038eeb6cd45917cf"
+    },
+    {
+      "file": "recovery/source/source-standard-coefficients.bin",
+      "bytes": 560545,
+      "sha256": "9f73f0bb9265720b90d0876f6c82cedc281db6710bdd95e28f98186c8e683cd9"
+    },
+    {
+      "file": "recovery/source/source-vq-checkpoint.bin",
+      "bytes": 6203736,
+      "sha256": "c50a8858b54fbf8642bb48eac5442ef8cc35064952960fb0199b183af537e4ef"
+    },
+    {
+      "file": "recovery/source/source-vq-checkpoint.json",
+      "bytes": 332,
+      "sha256": "8af23dbdd1ed0c91293597056e444a9cf922d6e6260b41cc45863472f3beb9a7"
+    }
+  ]
+}
