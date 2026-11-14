@@ -572,3 +572,10 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 ## 2026-11-14 21:20 UTC：actual59完整QR与两份同原矩阵精确行账审计
 
 [正式QR全文](notes/2026-11-14-actual59-original576-QR-and-two-exact-readbacks.md)14819B/d32119d7…已读；summary21207B/274e62d1…与detail170985B/d9dba02c…（原1035979B/f8ebe2d3…）完整保存/CRC核。1183文件、1170阵、577因子及全部常数464891392B、两份各129248行完整integer ledger、原28全部J/input与57五件、两最坏J行operand字节全部PASS，无本地科学。新576缺陷9.686175843…e−11与57限制在同矩阵.041773078…真实可比；formed gradient24888563.660…不隐藏、不当认证。61继续真实selected上的fresh576完整循环，59一次接受不是课题完成。
+
+
+## 2026-11-14 21:23 UTC：actual60完整1/64步与最近left-RMS467拒绝
+
+[正式全文](notes/2026-11-14-actual-request60-left-RMS467-limits-seventeen-query-continuation.md)23804B/b0b17220…已读并核原status关键三trial。alpha1/64固定本轮merit43.92644933127726→43.91793532799495、col.007109591304982551/BC4.4217061600063744e−8。最近1/32全部17网格/node/mid合法且merit降，仅原left467 β²−.006303834965005084/phi0；1/16同处。λ270/512末尾仅舍入级slack修复，不以literal预算盲抬。62独立18源只增left467全角，B5749/36864，C4059outside完整，全部原门保。
+
+三审计prefix76863B/295b2eca…、col73094B/668847a9…、14raw5802B/bac1810d…保存；154domain/994NPY、88凝聚38完整阵、17observer/48sources/父58及245864112B原raw全核，fullfactor/wholecolraw未导出不冒审。新FD7.009663695797188e−10仍zeroanchor仿射，非新Hnative。根按公开Git核父warm4783279B/bc7cadbc…及statusgzip200445B/3f8d0d34…解压1577692B/5b419af7…；实际完整artifact已核且只删重复ZIP。

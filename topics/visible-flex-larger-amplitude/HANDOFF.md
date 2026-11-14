@@ -16,16 +16,15 @@ Accepted notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz SHA b4
 Frozen scalar .99/Connector/coast/bridge64Gauss7.5/cutr.3/end2.271004035438285/3controls. Current M112/T112/N2048/699nodes/453states=338physical+112core+3p;236036free,first3corefixed. Finite-Gauss derivatives remain original.
 True zeroT112 anchor e788a28d…/config01930f3b… complete. Cache ONLY sevenidentities/exactH0/auditFalse FIRST request; newH/finalaudit realworker. NoT96 substitute/zeroH; freshW eachmodel, no cross-model merit subtraction.
 
-## Prefix: actual58 audited; actual60 finished, reading results
+## Prefix: actual60 fully audited;62 adds only nearest missing left467
 
-58 run43638348140/source ba8bc4f4acd547fd5219826da4f6e35f859bca56/job132580074075/art14130714261; ZIP465122089B SHA288f67d35684d7d4cb73ff869dd90bd29aa9b559b0a1ecf295524eac0b374570. Warm/FD/publication success. Full note: notes/2026-11-14-actual-request58-quarter-step-existing-domain-limit.md; prefix/col/root14raw audits archived.
-17query34816rows/B468..483+p=5411/C4059 completeoutside.58 alpha1/4 accepted merit44.08450062286488->43.925384505081816,col.00710961172228531/BC4.4918924725999154e-8/bothRMSvalid. Nearest1/2 fails already-modeled mids473/475/481;linear rows positive. FD7.108999873259166e-10 still zero-anchor affine J, not newHnative.
-Maxcol interval461/radial1/component1/row155819,W199.07511842631416 nonzero. Allprefix/observer/14raw audits published;fullfactor/wholecolraw not exported. Stored row155819 original b=-1.4154122374775011/Az=.00026246452261009833 proves final model itself changes it little; no missing/zero-weight row. Exact formulas and original-byte receipt saved; no local action.
-CURRENT PARENT notes/public-actions-43638348140-1-condensedqp/seventeen-condensed-warm/:
-- warm-001.json.gz 4775328B SHA3911b6425a15273e29eb610917aea806f25bd07009de86e416f8e85cc91e7864
-- original driver-status.json1276068B SHA64140c9f8c2a175456135dcfd18842c06091da6a93758b854627a22fd12a7763; public gzip163444B, decompress ORIGINAL bytes, no JSON reserialization.
-- schema exact-constraint-seventeen-query-condensed-complete-H-warm-v1.
-60 complete: same frozen17 own-schema entry, one fresh model at real58 pair. Run43640358327/source da346d172715761d7da23da84c92d97a92b438de/job132586430139; warm/FD/publication success. Artifact14131812988/465825094B/SHA92a30dc94db8d841338adae5f29aa12e4e4baa43c115e7b1994546151fa2da7e, downloading; actual numerics being read. Lambda270/LSMR200/C200/512working/dual200/600s candidate/90s trial/30s recovery/1200s total/original17trials/all gates+FD unchanged. No18th query from distant alpha1 mid480. Source only supports --iterations1; no blind loop. If future warm>=5MB use explicit artifact transport, never silently skip then assume public parent. Earlier56/all histories fully audited/published; no rerun.
+60 run43640358327/source da346d172715761d7da23da84c92d97a92b438de/job132586430139; warm/FD/publish success. Artifact14131812988/465825094B/ZIP92a30dc94db8d841338adae5f29aa12e4e4baa43c115e7b1994546151fa2da7e. Full=/tmp/visible-larger-actions-1848/actions-debug/visible-followup-condensedqp-43640358327-1; duplicateZIP removed. Fullnote 2026-11-14-actual-request60-left-RMS467-limits-seventeen-query-continuation.md,23804B/b0b17220….
+Same17 own-schema/34816rows/B468..483+p5411/C4059. Alpha1/64 accepted merit43.92644933127726->43.91793532799495,col.007109591304982551/BC4.4217061600063744e-8;both original698RMS/rho/allnodes valid. Nearest1/32 (also1/16) all17queries/node/mid good and merit decreases, ONLY left-RMS467 invalid: beta2=-.006303834965005084/phi0. Distant1/8 midpoint480 is not nearest cause. Final linear min1.942890293094024e-16,localrepair~1; do not raise512 merely from stoplabel.
+Fullprefix154NPZ994NPY/88condensed38complete/48sources+parent58 PASS295b2eca…;17colJSON/1W/0errors PASS668847a9…;14raw245864112B PASSbac1810d…. Fullchainfactor and wholecolraw unexported, no independent file audit. Maxcol still461/radial1/row155819,W199.06505212461812 nonzero;FD7.009663695797188e-10 remains affine zeroanchor, not newHnative.
+CURRENT PARENT notes/public-actions-43640358327-1-condensedqp/seventeen-condensed-warm/:
+- warm-001.json.gz4783279B SHAbc7cadbc17f17832785ace32b011136fd43c04147d450d557730de0f05d40a23;
+- original driver-status.json1577692B SHA5b419af7340777328184d7699cf1a4de539cd608c889f6e4f81fe549b253a922;publicgzip200445B SHA3f8d0d342cdda5c38a6c0a9cb325fb37b909bb9e44fa689acb5a6b4723867c5b;transparent decompress,neverreserialize.
+62 implementing18 independent sources: add onlyleft4672048angles->36864/B467..483+p5749;C4059 keeps outside467/468/469/470/483. Preserve lambda270/LSMR200/C200/512working/dual200/600s candidate/90s trial/30s recovery/1200s total/17trials/allgates/FD. Onlyiterations1. No62run. If warm>=5MB use explicit artifact transport; no silent skip/assumed public parent. All previous results fully archived;58 original b/Az row note/receipt published35e578c, no localaction or unique lambda cause.
 
 ## Native: actual59 first full step accepted;61 fresh complete continuation
 
@@ -47,4 +46,4 @@ Closure retains all physical/z0/material cutangle mean ninejets/coreball exclusi
 Freeze scalar p*/g/interval/t/caps; release allcore K=k=0,T=M,same-g v4 dim450/514; same live TailClient newH/J->FD->fullmain->fresh audit.699bisected1397 needs actual maxbudget>1200.
 R248strongC2/R241allpairs reach/R238/254/258reflection/R251operator await realfield.16fixtures/oldsmall cases done; held allblocks/twocaps/fullD independentofreach. R259 backup notrun;R238-273 results.md. Numerical evidence not rigorous existence.
 
-规则同步记录：2026-11-14 21:20:39 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 089fc6bc981e2857e6ee00a9bb0c7e270037c45a。
+规则同步记录：2026-11-14 21:23:09 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 63274122293c0a225b4281aecb862fc8b6600ebc。

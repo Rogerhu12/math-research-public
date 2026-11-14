@@ -1,0 +1,1953 @@
+{
+  "schema": "actual60-prefix-raw-byte-readback-v1",
+  "scientific_evaluations": 0,
+  "new_matrix_actions_norms_or_extrema": false,
+  "counts": {
+    "domain_files": 154,
+    "domain_arrays": 994,
+    "condensed_files": 88,
+    "condensed_arrays": 88,
+    "complete_array_references": 42,
+    "unique_complete_arrays": 38,
+    "observer_reports": 11,
+    "observer_files": 10,
+    "observer_arrays": 30
+  },
+  "B_model_sha256": "e66553c9c84d1a769abc7fb1dfd2ef96c273f74eec7601a1fc91e2a1fed1ef7a",
+  "capture": {
+    "original_jacobian_calls": 88,
+    "captured_original_calls": [
+      {
+        "call_number": 0,
+        "original_jacobian_call_number": 59,
+        "source_line": 192,
+        "stations": {
+          "shape": [
+            17
+          ],
+          "dtype": "<f8",
+          "sha256": "b703cb57a114dc4795fb14aca4ce96c482f3c6da2557063522556f332ef61747",
+          "bytes": 136,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "station_count": 17,
+        "first_station": 1.1544868994920756,
+        "last_station": 1.2192847689889539,
+        "selected_intervals": [
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          475,
+          477,
+          479
+        ],
+        "original_return_value_unchanged": true
+      },
+      {
+        "call_number": 1,
+        "original_jacobian_call_number": 61,
+        "source_line": 192,
+        "stations": {
+          "shape": [
+            17
+          ],
+          "dtype": "<f8",
+          "sha256": "96e1a3e7fb4cbe1a0fca536e5d7d82148d56808de9ece6c1a73a25693d1952fa",
+          "bytes": 136,
+          "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+        },
+        "station_count": 17,
+        "first_station": 1.2192847689889539,
+        "last_station": 1.2990359929851116,
+        "selected_intervals": [
+          480,
+          481,
+          482
+        ],
+        "original_return_value_unchanged": true
+      }
+    ],
+    "unique_endpoint_nodes": 16,
+    "stored_endpoint_variants": 16,
+    "variants_per_node": {
+      "468": 1,
+      "469": 1,
+      "470": 1,
+      "471": 1,
+      "472": 1,
+      "473": 1,
+      "474": 1,
+      "475": 1,
+      "476": 1,
+      "477": 1,
+      "478": 1,
+      "479": 1,
+      "480": 1,
+      "481": 1,
+      "482": 1,
+      "483": 1
+    }
+  },
+  "all_B_Gamma_Pi_full_hashes_reassembled": true,
+  "all_beta_chunks_reassembled": true,
+  "all_condensed_complete_array_identities_reassembled": true,
+  "all_observer_original_bytes_and_flags_checked": true,
+  "source_count": 48,
+  "sources": {
+    "geometry_20261114_seventeen_query_condensed_warm.py": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b",
+    "geometry_20261114_seventeen_query_domain_operator.py": "5bb4f214d4d2505185448a9162c0d995bdb6c37168e6d9542dfe6202e8f21a41",
+    "geometry_20261114_sixteen_query_condensed_warm.py": "b5bfc20259b2d182ac881cf9dab7062912578fb489ef17940c259082bf184815",
+    "geometry_20261114_sixteen_query_domain_operator.py": "a92efa1735832d144cb65d617beb2d9018d7822f5cc7d3846d00757abfb2db2a",
+    "geometry_20261114_fifteen_query_condensed_warm.py": "f1310edc94fb3a9c9f95b5dad98e7073c1879997b9a9bdf06c5028e91f83351e",
+    "geometry_20261114_fifteen_query_domain_operator.py": "c6581f0b8fdef4c3bc48d364c6845cff9a4244b043a4d14c772ef6fd3b2503e8",
+    "geometry_20261114_fourteen_query_condensed_warm.py": "331b59edadfa1fb7d5f8c64e6f0119c63a62f5e2a3df999549ef7effd932aac8",
+    "geometry_20261114_fourteen_query_domain_operator.py": "049ab10d130c94d5b1849a2af3b0e3f4848819bb9b7af68230488c25ba778464",
+    "geometry_20261114_thirteen_query_condensed_warm.py": "7785f4eb905da4c3e80ba988c79fa8a34b0a27017e6b8abc99764d8105eccc7c",
+    "geometry_20261114_thirteen_query_domain_operator.py": "d674a64e11cfac1f57f0c24166546a55045847633935dddb8ef53df4024d3cff",
+    "geometry_20261114_condensed_projection_warm.py": "5d398d3d702e0fd93af3777504fc1d4e918110c7e5f0683601eac5d21c49914a",
+    "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
+    "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
+    "geometry_20261114_twelve_query_qr_projection_warm.py": "4b768828f754f75d760980d596f198984e92f5ceac79832123c74e42985a5c67",
+    "exact_20261114_regularized_block_qr.py": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722",
+    "geometry_20261114_full_metric_projection_warm.py": "8fb6411e7b876713725a80c2dbe9e322cc277001b0692ccc59e0edd59ec4e8b0",
+    "geometry_20261114_full_metric_inequality_correction.py": "d5e9432e979859ed7d5277452ac058eb93e99da1cae7f96f700f15d7359d919c",
+    "geometry_20261114_twelve_query_projection_warm.py": "10ed25405930f3775d8fb88f007aa50be4a53f4b3421904be959f1890ed67477",
+    "geometry_20261114_twelve_query_domain_operator.py": "6a428d2f8412659cbd318321aa992c3b4565ff41177131a9cc9d268c6fbb7b1f",
+    "geometry_20261114_fixed_support_halfspaces.py": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+    "geometry_20261114_eleven_query_projection_warm.py": "6aed0dda5515945c73413884fb98d1719eb23fc40ff6b7388805f6108816c298",
+    "geometry_20261114_eleven_query_domain_operator.py": "55358acb92bac869ba2ca1daf2da7772d57be31ccd1fcfd9f7324af80f8ea20b",
+    "geometry_20261114_ten_query_projection_warm.py": "90e22ebbd0089970a77986f1be9352a1ec1581346a2fe2ef25478720136f6941",
+    "geometry_20261114_ten_query_domain_operator.py": "5c9b145862a4f12cbbc5334e1b96e540458a58908c4889b966979995700d5dbd",
+    "geometry_20261114_mixed_query_projection_warm.py": "d74d7a1c86cb131d262025cffa079a1a01a1ed7e5128ea339744c61cf4cfeac6",
+    "geometry_20261114_mixed_query_domain_operator.py": "34115f81cf5a09c3d07a6b79f408459fb014ca580ad0a992f8a639ff937ba854",
+    "geometry_20261114_observed_seven_projection_warm.py": "94395d54fcf58941180de23731fc2b5bb41fed8608dbda4c17903fffc862e228",
+    "geometry_20261114_seven_query_projection_warm.py": "f6598a5e4738f6c2c310eccc9fd791b68c3731ad3fc3adfd83414450d95c8394",
+    "geometry_20261114_full_angle_projection_warm.py": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+    "geometry_20261114_full_angle_domain_operator.py": "af7966fa1417d9cae3481238397314037c656492ff8005cfc6ba2b4cdb3082f7",
+    "geometry_20261114_full_angle_domain_direction_probe.py": "794788a17db22189b80d65b7def84f3515ca587ea59ffce96fe8887a071665e8",
+    "geometry_20261114_multiline_tangent_warm.py": "84318d97b5ce05282890710f71ffe0794896c2e88c498e8618a41625884aa359",
+    "geometry_20261114_protected_tangent_warm.py": "b126ba6a203cbf97c4c9658abe70e9bf38ad259b2eab89bfed4c6e03f4d97fad",
+    "geometry_20261114_hermite_domain_constraints.py": "d9e004c827add0074c2e6dd6c854763c7157e5049cd5360c1f85ad440462f4ce",
+    "geometry_20261114_constrained_trust_warm.py": "5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2",
+    "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+    "geometry_20261114_full_dn_solve.py": "c6a1f4d8025508ee49fe9324b3401440a2de88329d0b78ef0d0814860c2d3162",
+    "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+    "geometry_20261114_separated_qr_bvp.py": "c76bde190ff67a9e148d230c8e5e7d7a7899324c055e67faac6679b8fba10e39",
+    "geometry_20261114_physical_test_boundary.py": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681",
+    "geometry_20261114_full_dn_boundary.py": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2",
+    "geometry_20261114_lifted_modes_profile.py": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+    "geometry_20261114_r225_free_core_bvp.py": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08",
+    "geometry_20261114_fft_frenet.py": "973898fcea1e8706d0ff9f87bbe72cde3576bc0055149af0a2e2058b144ac401",
+    "geometry_20261114_constrained_trust_response.py": "7eafda68979356aa0d39ed8110c47077ccbde23a3caa0c58f8b3fddf94bc9f78",
+    "geometry_20261114_physical_test_response.py": "83ce387778fb90209e841fc841a81ed3d99e15181d6e86210ec1244fde017e79",
+    "geometry_20261114_full_dn_response.py": "38d21971b3b0d462f8cf1b8f0a1cd174a28db3dcba450e89d0d0baecc5e26e74",
+    "geometry_20261114_seventeen_query_condensed_response.py": "f85fefd928e5ff7945e10082419e197b1b8c5cf3c4d00c1cdcd270380470bbbb"
+  },
+  "warm_sha256": "bc7cadbc17f17832785ace32b011136fd43c04147d450d557730de0f05d40a23",
+  "status_sha256": "5b419af7340777328184d7699cf1a4de539cd608c889f6e4f81fe549b253a922",
+  "FD_sha256": "392a3d46563301de1d27ec8aca8072be051ed923bc5fb03797e737317253c53b",
+  "current_status_and_FD_producer_equal_warm": true,
+  "parent_reference": {
+    "expected_sha256": "3911b6425a15273e29eb610917aea806f25bd07009de86e416f8e85cc91e7864",
+    "full_parent_file_independently_loaded": true,
+    "sha256": "3911b6425a15273e29eb610917aea806f25bd07009de86e416f8e85cc91e7864",
+    "status_sha256": "64140c9f8c2a175456135dcfd18842c06091da6a93758b854627a22fd12a7763",
+    "entire_parent_producer_equal": true,
+    "parent_status_identity_matches_parent_warm": true,
+    "original_parent_numeric_JSON_bytes_equal_B_base": {
+      "mesh": {
+        "shape": [
+          699
+        ],
+        "sha256": "7cef3604718c2d21dc4f0c866d29a08dc05b1596b49e4ea81a415cf9a9dc68bb",
+        "exact": true
+      },
+      "states": {
+        "shape": [
+          699,
+          453
+        ],
+        "sha256": "33e5e40b9fc395feb6d506590c606f043b78e8a7e41d98a3f9a8557f41ca6939",
+        "exact": true
+      },
+      "rhs": {
+        "shape": [
+          699,
+          453
+        ],
+        "sha256": "b499251a521b69e8beab3facb3a286929c11076bfd6275765662cfac0a5c3da7",
+        "exact": true
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "seventeen-condensed-warm/domain-operator/base-and-local-layout.npz",
+      "bytes": 3786642,
+      "sha256": "2ccf2a7fa6bd5243e262fe3110d34b285ef47ff1779223c485c57da3c276eea6",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/original-collocation-midpoint-inputs.npz",
+      "bytes": 14734,
+      "sha256": "f447a4a7745e398eeaec137709dd77281f2a9ab687405cbd72d8d65df8e3473f",
+      "arrays": 3,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-00-left-RMS-interval-00468-rows-00000-00256.npz",
+      "bytes": 2011397,
+      "sha256": "4e1295774f5a2077317b498ed7bad59b39ba795919d91982a08f03045f128b21",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-00-left-RMS-interval-00468-rows-00256-00512.npz",
+      "bytes": 2006257,
+      "sha256": "9f709e87cce363b10e7ee3d0d00188682c19e66d7dcd5101bc5ed96546943a13",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-00-left-RMS-interval-00468-rows-00512-00768.npz",
+      "bytes": 2006125,
+      "sha256": "d94f7dc7e81c4d126735392ac30176c44275cbdde1c63700e02858f9a7caaec2",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-00-left-RMS-interval-00468-rows-00768-01024.npz",
+      "bytes": 2011491,
+      "sha256": "027040e309eae1a378ca358889802a4b8bec019b0c028bd38c4db27e05a916f9",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-00-left-RMS-interval-00468-rows-01024-01280.npz",
+      "bytes": 2011398,
+      "sha256": "176b9b59b30b7eadb9439d31088f8dd91b9df764c4f972cb113ccf45e05638e2",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-00-left-RMS-interval-00468-rows-01280-01536.npz",
+      "bytes": 2006257,
+      "sha256": "7ba83f71c5bd9ac4b4826e5ed2254467143ab42c340138bf4bfe755f8b541340",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-00-left-RMS-interval-00468-rows-01536-01792.npz",
+      "bytes": 2006125,
+      "sha256": "06a44432fd09e5862ad6bff1f66fdf335dc3a4e5ae6e914af6502b5639b4f3fb",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-00-left-RMS-interval-00468-rows-01792-02048.npz",
+      "bytes": 2011492,
+      "sha256": "da0114133f8beb8027ff5233cd1ea017232b28169925fccddb771f6373cec975",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-01-left-RMS-interval-00469-rows-00000-00256.npz",
+      "bytes": 2011937,
+      "sha256": "209575d3b442186bbfebeb2abae711797714ea5082c4060a44618a772cb45a0e",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-01-left-RMS-interval-00469-rows-00256-00512.npz",
+      "bytes": 2005852,
+      "sha256": "e534f857642ef36d5e37077707d0c3ef2cf71d40e901689ddfc835012d3153da",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-01-left-RMS-interval-00469-rows-00512-00768.npz",
+      "bytes": 2005704,
+      "sha256": "5f6524e8737462f58f1c75c59d8b40c00f60d967d2051708d509aa1049a4567c",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-01-left-RMS-interval-00469-rows-00768-01024.npz",
+      "bytes": 2012050,
+      "sha256": "e0fc955c040eb2022e576435bacb7bde93d8d01a5eece2566079a2d440631356",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-01-left-RMS-interval-00469-rows-01024-01280.npz",
+      "bytes": 2011938,
+      "sha256": "76fdfca737c2bbf55814f828800f9e46d958f26af4c01685abd79135aea45b90",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-01-left-RMS-interval-00469-rows-01280-01536.npz",
+      "bytes": 2005852,
+      "sha256": "4c5ad2c52fc2ce13acb50f2a4c9caa5c517143d537b351acf1a1820f9ef7b928",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-01-left-RMS-interval-00469-rows-01536-01792.npz",
+      "bytes": 2005704,
+      "sha256": "c30464c6a17e744c536f9918c31584e446b6fb149469701a4077ad1c74604fd5",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-01-left-RMS-interval-00469-rows-01792-02048.npz",
+      "bytes": 2012050,
+      "sha256": "666093f459314b5f2945824780fcba760b284677bf37538cfab0be5786d56938",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-02-left-RMS-interval-00470-rows-00000-00256.npz",
+      "bytes": 2012418,
+      "sha256": "a3c11ca75d885b8cfc40164b2532293910f55ae76e359183bdeab134fa19e47b",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-02-left-RMS-interval-00470-rows-00256-00512.npz",
+      "bytes": 2005558,
+      "sha256": "f7bc90767c3847be2ce438dc9c5d4c953e0fa7c77895a5ae96998103fe690fc5",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-02-left-RMS-interval-00470-rows-00512-00768.npz",
+      "bytes": 2005430,
+      "sha256": "8cc74d97838819e8da8169780db49e5665eca12254233350943e9588ea316b86",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-02-left-RMS-interval-00470-rows-00768-01024.npz",
+      "bytes": 2012695,
+      "sha256": "afc953e8c3a0764786b87f401e928ce78e4a0940c8cc12106c42f13c65084fda",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-02-left-RMS-interval-00470-rows-01024-01280.npz",
+      "bytes": 2012419,
+      "sha256": "05016d3f26bf55d349bfd6d7daed0b22bce3cfb63838923b43c2d945a78bbe8a",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-02-left-RMS-interval-00470-rows-01280-01536.npz",
+      "bytes": 2005558,
+      "sha256": "779a845ca10e4aee6c478c53293dd4ee7607763d3667a169cc406de28f2e4d42",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-02-left-RMS-interval-00470-rows-01536-01792.npz",
+      "bytes": 2005430,
+      "sha256": "845a20c534cb913216db4c2072306acfff4927d681bf314050109a9389b739f2",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-02-left-RMS-interval-00470-rows-01792-02048.npz",
+      "bytes": 2012697,
+      "sha256": "99da10c212ebd4605a3f5e17b5697649119c114852186fa9c3d47903587eb5e5",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-03-left-RMS-interval-00471-rows-00000-00256.npz",
+      "bytes": 2013227,
+      "sha256": "31c93e4f2ee90354bea3d8aed8be64b01b297482c7627f105207f56a455bbdb7",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-03-left-RMS-interval-00471-rows-00256-00512.npz",
+      "bytes": 2005274,
+      "sha256": "fb5c9be4b78534a12368841ffa03b90de5396973b1171ef9c353ec680b1836d4",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-03-left-RMS-interval-00471-rows-00512-00768.npz",
+      "bytes": 2005141,
+      "sha256": "75ed468f9255f9f01f0b98bdaa985ff5f16a97ff8844f217d452511235142663",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-03-left-RMS-interval-00471-rows-00768-01024.npz",
+      "bytes": 2013545,
+      "sha256": "c209e3535366a4b9af5db9c90831bb4c955a18e3d11040ed4ca7d4093a76380d",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-03-left-RMS-interval-00471-rows-01024-01280.npz",
+      "bytes": 2013228,
+      "sha256": "2fa830a4673689f1d00a9ed4d04dc6e7bd5daa5e6490648049568a4f379793ec",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-03-left-RMS-interval-00471-rows-01280-01536.npz",
+      "bytes": 2005274,
+      "sha256": "60debb5c071e1851050dd7ea46d7960414247479a0a154d1678c72cee010dd59",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-03-left-RMS-interval-00471-rows-01536-01792.npz",
+      "bytes": 2005141,
+      "sha256": "464f45cf1605d6596dffa7c0b56defacdd14184dda413bcf47c352cff442d868",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-03-left-RMS-interval-00471-rows-01792-02048.npz",
+      "bytes": 2013547,
+      "sha256": "863a68f3a770fde9659d82a1b2b6cf46e4a1d8c0619f8a7817db420c0e9e2553",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-04-left-RMS-interval-00472-rows-00000-00256.npz",
+      "bytes": 2013854,
+      "sha256": "72718b2939f6a1b3e91b1b728eef42de37576b2752409c25ba14ed0f9f358c71",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-04-left-RMS-interval-00472-rows-00256-00512.npz",
+      "bytes": 2005344,
+      "sha256": "82b6ca7c31f80464dfa5d9524a082eb92c78ec8bf3e6b65aedc3a52bef4e8984",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-04-left-RMS-interval-00472-rows-00512-00768.npz",
+      "bytes": 2004990,
+      "sha256": "b4f6fa5439004649e0830bc25b1c2e4b933344af0396d9d1984f6b7d7ae5ffa5",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-04-left-RMS-interval-00472-rows-00768-01024.npz",
+      "bytes": 2014116,
+      "sha256": "6acabcd25a94bdb5b4b0d4fb3333911f967cb2ab7985dbfbef67a7ffe0e96a09",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-04-left-RMS-interval-00472-rows-01024-01280.npz",
+      "bytes": 2013855,
+      "sha256": "51d355000c60b49604485bf2cddf5b245977aa0715fd13000d6f6445c0ef2968",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-04-left-RMS-interval-00472-rows-01280-01536.npz",
+      "bytes": 2005344,
+      "sha256": "1dff17b39e854f4022537425fba43280c0cb0674a7cc18667c1771ba2265edcb",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-04-left-RMS-interval-00472-rows-01536-01792.npz",
+      "bytes": 2004990,
+      "sha256": "501dfb78eea6c50f762d5c28dfb39f56feb9f00eb9799b419fcf579635672bc3",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-04-left-RMS-interval-00472-rows-01792-02048.npz",
+      "bytes": 2014117,
+      "sha256": "d5db473a404a320306e181e01484c55f4b6b5ebae5a349d8a5262164731f03e4",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-05-left-RMS-interval-00473-rows-00000-00256.npz",
+      "bytes": 2014307,
+      "sha256": "d28d74637c8f0584d0b577fedb1bfe53cbf365e806517fb31b896f5555e7e781",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-05-left-RMS-interval-00473-rows-00256-00512.npz",
+      "bytes": 2005394,
+      "sha256": "47784db6c294ab3fd7ca25d084e4d682b83497f486ed16f9f8cd9e294aa60790",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-05-left-RMS-interval-00473-rows-00512-00768.npz",
+      "bytes": 2005313,
+      "sha256": "b57d2cd2823338008536fd0845055221e1c6c389f60be3449b22fd0fab571096",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-05-left-RMS-interval-00473-rows-00768-01024.npz",
+      "bytes": 2014550,
+      "sha256": "4d955fa605c30368a16507b28020ef30c2480b5614a445a0e4f44dfeeb29866e",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-05-left-RMS-interval-00473-rows-01024-01280.npz",
+      "bytes": 2014308,
+      "sha256": "6270b3a95f50b83ed4478c85d136ba274f12a78e8ed90a666063b8665734398c",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-05-left-RMS-interval-00473-rows-01280-01536.npz",
+      "bytes": 2005394,
+      "sha256": "caf01135f16c759b1ce0d216d725255911a2affb9547d1ff1730db3b3220d635",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-05-left-RMS-interval-00473-rows-01536-01792.npz",
+      "bytes": 2005313,
+      "sha256": "85cd7a41821710421d2dd0b6cea6a4219d0f720ece3270a540266670f08f996b",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-05-left-RMS-interval-00473-rows-01792-02048.npz",
+      "bytes": 2014551,
+      "sha256": "c0d9b200b4af63fcab120d63176336951365ff13145086f652348c466e69b629",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-06-left-RMS-interval-00475-rows-00000-00256.npz",
+      "bytes": 2014378,
+      "sha256": "30a4cfacbaff209f3958dec7e867a352d4c9a6da24098e96cfedc1582ca9eff4",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-06-left-RMS-interval-00475-rows-00256-00512.npz",
+      "bytes": 2005162,
+      "sha256": "c96d727edc55d691cd06a5e3a373c564dd846c0b2d87f1c208e8ecbfa7a6afd1",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-06-left-RMS-interval-00475-rows-00512-00768.npz",
+      "bytes": 2004969,
+      "sha256": "7c7d342a304629b7a8ea87a6edf7db7b83e7604c7aa617cbc610be98893e9928",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-06-left-RMS-interval-00475-rows-00768-01024.npz",
+      "bytes": 2014682,
+      "sha256": "df0e29e5a72260ff2a70abca53e43134a479f2d27eb5838a1acd238935160af1",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-06-left-RMS-interval-00475-rows-01024-01280.npz",
+      "bytes": 2014379,
+      "sha256": "a4091b18dce2af54a28bbec7b0c5fc7c9b5cc1911b33ac946d8c8ab23fa9af36",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-06-left-RMS-interval-00475-rows-01280-01536.npz",
+      "bytes": 2005162,
+      "sha256": "cc05dca8d1ca850886eda1c5125b2861a0d283a8c9ba8117b16bc7a78cd62f52",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-06-left-RMS-interval-00475-rows-01536-01792.npz",
+      "bytes": 2004969,
+      "sha256": "0ac067a83ca72c56a05f0a70fbfc11ceb9a8d6aa01d8bbdba422a1d4f6370c69",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-06-left-RMS-interval-00475-rows-01792-02048.npz",
+      "bytes": 2014682,
+      "sha256": "47d833334f73d0083685e1d9921a0e8ea30a9218c2f9f1cdc656c7b03bcebbbf",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-07-left-RMS-interval-00477-rows-00000-00256.npz",
+      "bytes": 2014451,
+      "sha256": "82cd1ff237799035b473ff6dd8844538ba32205d8ee54afd2140acb869b54d7b",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-07-left-RMS-interval-00477-rows-00256-00512.npz",
+      "bytes": 2005478,
+      "sha256": "5830b585f06328b3cd2914ae397b61f84569a9a47021afd1ca0f1e8506528935",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-07-left-RMS-interval-00477-rows-00512-00768.npz",
+      "bytes": 2005385,
+      "sha256": "e52939516186b6bc1c360dbf2def74de9d4ad83692e4deed26d4528b1d7155bc",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-07-left-RMS-interval-00477-rows-00768-01024.npz",
+      "bytes": 2014627,
+      "sha256": "bc49d4d0d129dbfc468fbd4d9c4c4d8bc703a41f4bf35c034eebc438bad0a3e3",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-07-left-RMS-interval-00477-rows-01024-01280.npz",
+      "bytes": 2014452,
+      "sha256": "df1c75ccf7fa2d7cd31750d9937db78583db90a6139eebdac7b1973f623a944c",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-07-left-RMS-interval-00477-rows-01280-01536.npz",
+      "bytes": 2005478,
+      "sha256": "681be007c9488bf87fb68e6859b06aca183aeeda066e698d35193b83cc700004",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-07-left-RMS-interval-00477-rows-01536-01792.npz",
+      "bytes": 2005385,
+      "sha256": "b971c948aa4d725d87f10f649fe09b53b088e6031c9876093ce4e04d1d9cb6d4",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-07-left-RMS-interval-00477-rows-01792-02048.npz",
+      "bytes": 2014629,
+      "sha256": "4045c8ca67c296dd2214e48e003291057beacb190d0fb4c7a755a3be1dbcb0bc",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-08-left-RMS-interval-00479-rows-00000-00256.npz",
+      "bytes": 2013955,
+      "sha256": "af408f054a15b5c6ce411a57a03e4866f8a4f77c76813022296276545d32f0cd",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-08-left-RMS-interval-00479-rows-00256-00512.npz",
+      "bytes": 2005612,
+      "sha256": "ceeaa761cdbc39b6b098711a02003b5a9d80513d3370eea5e20129c0d264dd4a",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-08-left-RMS-interval-00479-rows-00512-00768.npz",
+      "bytes": 2005308,
+      "sha256": "83a5ecd75260e438132f99dfe2e3ffa856b5c67cf452836d3f6aaed91b61a279",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-08-left-RMS-interval-00479-rows-00768-01024.npz",
+      "bytes": 2014210,
+      "sha256": "6cd419870a46316fec2be7cc4e02dd633785b6ef96ca33a547981a649e6370fc",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-08-left-RMS-interval-00479-rows-01024-01280.npz",
+      "bytes": 2013956,
+      "sha256": "e21f63381ab3da790bacd9cfa99b7ad32ce079233386e51f2551a5b4c3f6990c",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-08-left-RMS-interval-00479-rows-01280-01536.npz",
+      "bytes": 2005612,
+      "sha256": "896923f5594b7f74009de43d192dc72ad7f408eef71e3d2c899964c5e504faa1",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-08-left-RMS-interval-00479-rows-01536-01792.npz",
+      "bytes": 2005308,
+      "sha256": "d5deb16865ead1d1658acd6b66f0bdd060e5543374a0fcaba7243cd04cd798a0",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-08-left-RMS-interval-00479-rows-01792-02048.npz",
+      "bytes": 2014211,
+      "sha256": "d0af708769f9b64343fb84a3c57d76a813cfce14344b0558d987a1b7cb8772b1",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-09-left-RMS-interval-00480-rows-00000-00256.npz",
+      "bytes": 2013705,
+      "sha256": "e5b23040227d4eb4e3bdfb1328619b6ae6359418ea23a1b08209b081831a3fc6",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-09-left-RMS-interval-00480-rows-00256-00512.npz",
+      "bytes": 2006253,
+      "sha256": "fae4a8be98ad602f79f39b1cf3021e660b396098f5f0477777de99957ce2336a",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-09-left-RMS-interval-00480-rows-00512-00768.npz",
+      "bytes": 2005942,
+      "sha256": "6ddcb4756a3b0b1deaefec636366c93e64abb2abe4ad067320be54f3ccd66419",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-09-left-RMS-interval-00480-rows-00768-01024.npz",
+      "bytes": 2013971,
+      "sha256": "4ae1b571ad6710ccf8ced3f0c007ef10fa991a721ea7e15e40da85cb86115461",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-09-left-RMS-interval-00480-rows-01024-01280.npz",
+      "bytes": 2013706,
+      "sha256": "1af24b13f4d3e898da101d0c3966e963d0428a9ffca7ae2a95860a093ff4d3ca",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-09-left-RMS-interval-00480-rows-01280-01536.npz",
+      "bytes": 2006253,
+      "sha256": "92d51d241f985cb1ec908cd92d1c4a84bc2cbfef0e3d2cc6b25f198c9842bb3a",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-09-left-RMS-interval-00480-rows-01536-01792.npz",
+      "bytes": 2005942,
+      "sha256": "888da70d9bb1b29ff0ff83817a775df35e4fc13af862893e5485d00a99b284d1",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-09-left-RMS-interval-00480-rows-01792-02048.npz",
+      "bytes": 2013975,
+      "sha256": "d0191a3ace5a6d06840d89333db29f4295a3bc1292569f964f5da43982251db2",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-10-left-RMS-interval-00481-rows-00000-00256.npz",
+      "bytes": 2012751,
+      "sha256": "6c4b511c8789a36c54aaacda43a3375594dd89a0ce2e2e8834e8cb4c26d3d3d1",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-10-left-RMS-interval-00481-rows-00256-00512.npz",
+      "bytes": 2006270,
+      "sha256": "d9b211c0848674bc192e3919517795be987651cc39f4c2d1adafafc5dcb1ed9e",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-10-left-RMS-interval-00481-rows-00512-00768.npz",
+      "bytes": 2006036,
+      "sha256": "4e47861ea245b7865e34f899e9d59858d8773ada9b0d4ba0aa2bcc658f6d18f8",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-10-left-RMS-interval-00481-rows-00768-01024.npz",
+      "bytes": 2013129,
+      "sha256": "54190ef63f9014ad7e78a6395e26bce3661d8e60de2f008035bc53461b4428fa",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-10-left-RMS-interval-00481-rows-01024-01280.npz",
+      "bytes": 2012752,
+      "sha256": "c8382415c97b53f1703eb99bf070ce0c90d6394d7f7d1044952cd48d1b439c96",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-10-left-RMS-interval-00481-rows-01280-01536.npz",
+      "bytes": 2006270,
+      "sha256": "aaadc4c1f24e40ec62a03c42dc432159472915f360b352ada94d944ef84e30b2",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-10-left-RMS-interval-00481-rows-01536-01792.npz",
+      "bytes": 2006036,
+      "sha256": "2fc4b8a0435666b819bef238e032ade04e3fcbd89e4f1e33c4bcd8d7c4115175",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-10-left-RMS-interval-00481-rows-01792-02048.npz",
+      "bytes": 2013128,
+      "sha256": "40d3a5423dfaeb13e7ead51ad7f8afb76d62e1cf364ffc0ed0ba1c142ff70677",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-11-left-RMS-interval-00482-rows-00000-00256.npz",
+      "bytes": 2011637,
+      "sha256": "a662f349bdd62140614f243f17a7dc6cd0f675ff6c60ee6dea6f6706d5020991",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-11-left-RMS-interval-00482-rows-00256-00512.npz",
+      "bytes": 2006679,
+      "sha256": "220700c1ca37ba55cd816ea9bf18abd6d33919c8851ea1aaa6f02c51be2ac170",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-11-left-RMS-interval-00482-rows-00512-00768.npz",
+      "bytes": 2006475,
+      "sha256": "e7f268c6e1e80ef74e1cf2f45e295d1bd558f79320afd13d56d56e08b8b1e7fa",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-11-left-RMS-interval-00482-rows-00768-01024.npz",
+      "bytes": 2011977,
+      "sha256": "138f9dcb0305e39ff3afc21bab8a127d634dce825052192cc703425df15f6afc",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-11-left-RMS-interval-00482-rows-01024-01280.npz",
+      "bytes": 2011638,
+      "sha256": "d0f3de0ad552d8f74dc0ee1129e94d0c86e074986cec6d146f25a365b61cd4db",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-11-left-RMS-interval-00482-rows-01280-01536.npz",
+      "bytes": 2006679,
+      "sha256": "bfc6ea581cd1936861cf6f2610f6866ff00089b9fa2291fd7c35e9a8ddba35d0",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-11-left-RMS-interval-00482-rows-01536-01792.npz",
+      "bytes": 2006475,
+      "sha256": "63df02d815f86cc42fbc480628b55249395f920c7637a6f79ecb0f4aa3fe09bf",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-11-left-RMS-interval-00482-rows-01792-02048.npz",
+      "bytes": 2011980,
+      "sha256": "9c488ca83cdfc29f886e1f95689f49e12aff3682d75e98e6f770bed1f7076577",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00473-rows-00000-00256.npz",
+      "bytes": 2014248,
+      "sha256": "19f6553ce71b3cec20fe734c55800f83592b59143e6b5aa7c619fd2e0e4b15a8",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00473-rows-00256-00512.npz",
+      "bytes": 2004307,
+      "sha256": "0192d04cbbb3883524413535b7990c4da8ea35142339a04b079e43b526567e2f",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00473-rows-00512-00768.npz",
+      "bytes": 2004050,
+      "sha256": "da6fe6e6a342e636b460cd7e2072efd0099a62c1d621655f7cd44cfc1b2a0e06",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00473-rows-00768-01024.npz",
+      "bytes": 2014683,
+      "sha256": "9b61253f9f8a5d9d195aa9b91b8993881166a7156652511e1f61c9576853574a",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00473-rows-01024-01280.npz",
+      "bytes": 2014249,
+      "sha256": "ee409bde6fa0ed499cf63c760a3c4b68156a2bbbd8d081f61e3d17f8fa51f3b0",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00473-rows-01280-01536.npz",
+      "bytes": 2004307,
+      "sha256": "9c63264e7c6beb9f4be8bf0c0e79bcab54efc3f0c8b5cab3868abf69a9259b2b",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00473-rows-01536-01792.npz",
+      "bytes": 2004050,
+      "sha256": "6880dd6ab78ffd038bba38013e24c926c8facf8dadcc29043bc2a6f9912a6b96",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-12-collocation-midpoint-interval-00473-rows-01792-02048.npz",
+      "bytes": 2014684,
+      "sha256": "81c78a3fccd8b6cd8ef5d4f7f977f3f5b77d65ec41d2f6ca4886f68a5e1f0e02",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00475-rows-00000-00256.npz",
+      "bytes": 2013753,
+      "sha256": "c421d4d4cbc2154159b90accf2dff4ed801935258c22747fdc36f55ec8154059",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00475-rows-00256-00512.npz",
+      "bytes": 2004312,
+      "sha256": "5db91e0c9cb5a31dd5a8c7abd9b1d3dc5fb263a7d515dac411819a63755d5600",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00475-rows-00512-00768.npz",
+      "bytes": 2004026,
+      "sha256": "ae124ce218fd1b50cd7e2e49b2e203b047e0cb2bbc27791445020f3caade152b",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00475-rows-00768-01024.npz",
+      "bytes": 2014183,
+      "sha256": "ad50e8ae37ec9cc0a6e6e871e1e03df95a3d18922c5fcf6de292582aff1fd099",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00475-rows-01024-01280.npz",
+      "bytes": 2013754,
+      "sha256": "9dba9be49f301e73cae3a87b209519a6f0a5bde65bd92b2214d7203e520d0637",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00475-rows-01280-01536.npz",
+      "bytes": 2004312,
+      "sha256": "1b6a657ee945c5bda60840b3d35031c4ce78211b165c9df5f231ef27118c13bd",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00475-rows-01536-01792.npz",
+      "bytes": 2004026,
+      "sha256": "322ca3159c7ee94a64e00fea46e6a4e5817fed6752263ccfa8e21eb65a65e61b",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-13-collocation-midpoint-interval-00475-rows-01792-02048.npz",
+      "bytes": 2014185,
+      "sha256": "72273e749aa4df9b7b79b220fe89eb2826aa91b71a0ceaf58606468adea79818",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00477-rows-00000-00256.npz",
+      "bytes": 2013087,
+      "sha256": "25f0bf0b09a264818bc0141f5c517c90924d85fd0bf5db74b55ae7da2043c2fd",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00477-rows-00256-00512.npz",
+      "bytes": 2004603,
+      "sha256": "ae24bc69d90b8e16b1d7a416689c344b07444970092f11ccc50ea2e735d189fb",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00477-rows-00512-00768.npz",
+      "bytes": 2004342,
+      "sha256": "b54fec97b46d82e5a06b4c945e99bfbaaf49513eda07080058d97be8b3a13b60",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00477-rows-00768-01024.npz",
+      "bytes": 2013506,
+      "sha256": "afb3aaf6c9b19162623c551c475d37561de1b6f089b8c3588e37930c0b003beb",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00477-rows-01024-01280.npz",
+      "bytes": 2013088,
+      "sha256": "e0208132552d2145e0f3f2e029d6f74370894a87422a3e2774f7c1d0b3c04b7f",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00477-rows-01280-01536.npz",
+      "bytes": 2004603,
+      "sha256": "554b694c648d7db40b67df072960d4553721d851f68f2576d89343cb7cbf9dae",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00477-rows-01536-01792.npz",
+      "bytes": 2004342,
+      "sha256": "ffaad228c7a1ca0ec0a59a399e6766686d77b9fd6e60b561d2b661bfb86746b7",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-14-collocation-midpoint-interval-00477-rows-01792-02048.npz",
+      "bytes": 2013506,
+      "sha256": "cd4f17e1384665a7ca8d76ff22f64bfefa6363d97a0db82a28ed733e8fee7334",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00481-rows-00000-00256.npz",
+      "bytes": 2010354,
+      "sha256": "4ea487fa08ee71fb5d4c91f7f51c2eed2533d50ac3b9078265e3a84906b8aab5",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00481-rows-00256-00512.npz",
+      "bytes": 2005660,
+      "sha256": "05df370923248de7932ad6a7cc498f1fbc48d93296237f6021610c4887688a50",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00481-rows-00512-00768.npz",
+      "bytes": 2005466,
+      "sha256": "b72a1424735f543791efec190b3124098d45daebbc6e1bc0d559ba329d2263f4",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00481-rows-00768-01024.npz",
+      "bytes": 2010819,
+      "sha256": "9b7cde4abb4f306f81de4a0616ff8dab3c7799b8d323b114abfb22bc18093b44",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00481-rows-01024-01280.npz",
+      "bytes": 2010355,
+      "sha256": "7753ebef96aa8a850f4d083897554801fd7ea04385fcd49c22806ef9b907a875",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00481-rows-01280-01536.npz",
+      "bytes": 2005660,
+      "sha256": "68dbe49cb9ea3690290e54c7e6a70f41653143c4e0a306b02ad7159be882f616",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00481-rows-01536-01792.npz",
+      "bytes": 2005466,
+      "sha256": "588e3e253191cc095ab4d9a99db1f7201e90d5149726699e10337971d3ba06de",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-15-collocation-midpoint-interval-00481-rows-01792-02048.npz",
+      "bytes": 2010819,
+      "sha256": "f3cda8f3302d7cbd9fa73f05c76caeaec406f543a778ec2e08f8795afb5f47df",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00482-rows-00000-00256.npz",
+      "bytes": 2008616,
+      "sha256": "d3c5e95895f5e535729294e412e6a55a708d36f40f9608f28461cd6d67c78311",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00482-rows-00256-00512.npz",
+      "bytes": 2005870,
+      "sha256": "2a59e18d103baae5bd471aafce308987905a6f70554a0a48c0e4189a67091c22",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00482-rows-00512-00768.npz",
+      "bytes": 2005470,
+      "sha256": "bea372549a4f164ac9ac3e7f281b3b49f217c49ce2d463f9d99f848c7a5f85c5",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00482-rows-00768-01024.npz",
+      "bytes": 2008945,
+      "sha256": "07dd8f0cb6d275f5ba72bcb7e688560dc3b2f5ff57e279b9141630eb641c4e38",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00482-rows-01024-01280.npz",
+      "bytes": 2008617,
+      "sha256": "bc94cb848c2352efc4c3bbc8ae9377c32c007ec9116dbecd093f82adbe8194f1",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00482-rows-01280-01536.npz",
+      "bytes": 2005870,
+      "sha256": "792c7c6686a47bf948d4f9b1ade6488d5aae48abe8b2fbcef7c537665c438356",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00482-rows-01536-01792.npz",
+      "bytes": 2005470,
+      "sha256": "967d9a400ac8ef3b7849c8731230021bd3db11e7405030358758f27b086ef31e",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/query-16-collocation-midpoint-interval-00482-rows-01792-02048.npz",
+      "bytes": 2008945,
+      "sha256": "62cf32423516e9db9f8c16f0d0295129fd70439ac203e852720849409998db60",
+      "arrays": 7,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00468-variant-00.npz",
+      "bytes": 885882,
+      "sha256": "48e357c63eae1f9cd8ed5c814d673dce7dcc8b1a94d08649cffb119f3d5629a6",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00469-variant-01.npz",
+      "bytes": 885930,
+      "sha256": "b2e0bf9fc28a5cc1387a836f5e1b814c341731fd4190cbeda26ac1768711f06e",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00470-variant-02.npz",
+      "bytes": 886171,
+      "sha256": "995a6b99033847dc85f4d56d9d90c85ed7d131c7b91c1fb8d7887067f2e582d7",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00471-variant-03.npz",
+      "bytes": 886352,
+      "sha256": "8966a0cbbdfa17eee6d0fd7965d9211a00f868b4bcecd3ff8c833669d78ec8b3",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00472-variant-04.npz",
+      "bytes": 886396,
+      "sha256": "0f2df0a82c287286816bae042562e2b72e0f0fc23aeb6974d7c6aa06de102b15",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00473-variant-05.npz",
+      "bytes": 886819,
+      "sha256": "a5373207c5f325b9e761f8ac941c5f0cbf319572b94d2b52ecf95724ba5262df",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00474-variant-06.npz",
+      "bytes": 886718,
+      "sha256": "5c95829cdcdd335a2722bd5183b91222ccd909b5bac16c2c891fec15d5268b38",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00475-variant-07.npz",
+      "bytes": 886861,
+      "sha256": "101e9d249bdc50485d4bb716fb36edb1f3487b98b7bedd6d9e743b2aac3cca58",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00476-variant-08.npz",
+      "bytes": 886702,
+      "sha256": "975267ae56ce3904e7a4c12bf424a3105c574719eefcecbf0589de41e847701d",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00477-variant-09.npz",
+      "bytes": 886736,
+      "sha256": "9e60e5af0c1eec37cf7401e998a7e96ff02a128345b91ba3fc29f02389d3600a",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00478-variant-10.npz",
+      "bytes": 886785,
+      "sha256": "18c9a4fc8ae8df9515453c8c7912b8a64e1e7d08d2d5c806d380fcf70d801424",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00479-variant-11.npz",
+      "bytes": 886790,
+      "sha256": "d54c9647ad7e71ad5fa865dd0a508ee69df9c714b2276ea8b6f0f68851d36f05",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00480-variant-12.npz",
+      "bytes": 886834,
+      "sha256": "020a10a18bfb8e73036ad463c5e2d47c1fac6277e8b336fa4dca09dac6232a77",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00481-variant-13.npz",
+      "bytes": 886719,
+      "sha256": "ebb74359c04125f03c56b3d0125b95df599d531f320bd71741524bc9fbcee767",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00482-variant-14.npz",
+      "bytes": 886754,
+      "sha256": "3d88c42f0b771fe195895b9d30eba56a4d0ae3f664a556d19f0a98ce5e9e85e6",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/domain-operator/endpoint-00483-variant-15.npz",
+      "bytes": 886806,
+      "sha256": "cdcdc22afc6d6393da84716540e679cc7f8ac877198f0e83721fb0643166628b",
+      "arrays": 2,
+      "kind": "domain"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0001-part-0000.npz",
+      "bytes": 1824810,
+      "sha256": "987160bc275bda48ba36260a759cdf4811d43c6fd4a87ccc003fd52d87c67fd1",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0002-part-0000.npz",
+      "bytes": 1828760,
+      "sha256": "d2856710007dafe28cb071bd39651744834fa911e61ef311b4c8c3b4e766062e",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0003-part-0000.npz",
+      "bytes": 88836,
+      "sha256": "22bfa51865c90904b0b39c5b1b418c44ebd521845c061bb6a8e8d3d45b0b0e09",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0004-part-0000.npz",
+      "bytes": 1827788,
+      "sha256": "e11605dcd008edbfa73ead130be7108b84c9f2c1e27533020f5fd0ab9629b7ed",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0005-part-0000.npz",
+      "bytes": 1829798,
+      "sha256": "cfe7e4f60c32b0a91082d886585ee69eee23a89bbab48a6d8b0039a54e1fe0b0",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0006-part-0000.npz",
+      "bytes": 1829229,
+      "sha256": "469e1f4cb2c35a1b5a92bbe7f5874145cf4b3b512636d6a9578ae131f31be5c3",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0007-part-0000.npz",
+      "bytes": 41791,
+      "sha256": "2e01c5513bcff9e6c6b262f4ecd8581882228a2e313dbc6db22914a78d45e792",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0008-part-0000.npz",
+      "bytes": 4786,
+      "sha256": "eba04e22ae1f891e4fc51c1ea22a27e840e46eb9078865da77df05fe7ccc2a2e",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0009-part-0000.npz",
+      "bytes": 17965,
+      "sha256": "792365541065dea2de22bdab80ec2ff1f1abf808f553d5af9580754ad1cdab8e",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0010-part-0000.npz",
+      "bytes": 88364,
+      "sha256": "e65472699d40d51e98e10c4611b2ae2a89df89988fc5bc6197c41db555ce5bd2",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0011-part-0000.npz",
+      "bytes": 41764,
+      "sha256": "f61e8e1662226bec28caf4f8754d970e845e6c56831de86154e7a81283b67676",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0012-part-0000.npz",
+      "bytes": 5379,
+      "sha256": "520e75881c6677e3db34fb52ab949dd491c7597d384a0e882ce766b3d983fb75",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0013-part-0000.npz",
+      "bytes": 88218,
+      "sha256": "9a6f87c2e2f0b8184152a87343d007216d64730e0c6f732cb29acd266a7b7182",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0014-part-0000.npz",
+      "bytes": 11291,
+      "sha256": "f48afb5c4349545c04eb8aa99ce44f5172ea0454cf8a60e98a88066b13dacb74",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0015-part-0000.npz",
+      "bytes": 41794,
+      "sha256": "61c7c310829deef2f2d4183d425079b63f8dce729bab0a5f47a20a6af4ae3b2f",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0016-part-0000.npz",
+      "bytes": 88369,
+      "sha256": "222a5c872842c3798c3bf4d60385d1c80bd19cc23aaba3eddb208676a4efe65b",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0017-part-0000.npz",
+      "bytes": 17957,
+      "sha256": "8ebc927e9be67e2ef8b4e0398ddb8840b505d952dae5b825c5ef974c55c6169c",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0018-part-0000.npz",
+      "bytes": 1448,
+      "sha256": "67631866308d5c254fbb9ab7a2ef4da4a7d62839eb748ccf67e37a28a7556610",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0019-part-0000.npz",
+      "bytes": 3215,
+      "sha256": "8c7a79af44d2e8b6fe8cb1519b2abce0d4967a50968b52f236ad805d1929698c",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0020-part-0000.npz",
+      "bytes": 259380,
+      "sha256": "155f92abfb176925264187e3a087815bb6c617b35d979cd672e7604f98aad0ea",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0020-part-0001.npz",
+      "bytes": 259359,
+      "sha256": "2ce8442efdd4c65ce979716fd6f1b9b2381ab8b05f73ab1697b2f1a42dca09ca",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0020-part-0002.npz",
+      "bytes": 259322,
+      "sha256": "578493f0db197dc6272b3b3a01ecd50875abb3ff9e33004a8dd03fd94c476d7d",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0020-part-0003.npz",
+      "bytes": 259271,
+      "sha256": "5b7b07af4f0faad9120ec8777e11df16d3eea1473692ec86eb448ea4e174a6de",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0020-part-0004.npz",
+      "bytes": 259347,
+      "sha256": "338d300ef78a18f157c3dd971f721e8b4be123e0d468ede1f2bf288c5f1c8006",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0020-part-0005.npz",
+      "bytes": 259278,
+      "sha256": "c5587ac9096cb6a4d18af5d02ee5c82bb12059ddbbbf0736a1ba0a0e9138386c",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0020-part-0006.npz",
+      "bytes": 259270,
+      "sha256": "c704dc4e8a752815d5536b4979c67d8894a3fb4ff6481b9fc13c24834e966220",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0020-part-0007.npz",
+      "bytes": 259296,
+      "sha256": "3c77fb1b5ff5eb0b54ac0f873d04dcc313d8f388c05eb83088d2b8a51276ecbf",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0020-part-0008.npz",
+      "bytes": 259380,
+      "sha256": "c892dd755a1a78d1cb9078822583011d355996eb855de61461a305482777cfe4",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0020-part-0009.npz",
+      "bytes": 259406,
+      "sha256": "4a3739643347930e74cbaf62726b273f3c4d5b80e2f87c4844add9a15efe56b2",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0020-part-0010.npz",
+      "bytes": 172935,
+      "sha256": "5d4a231dc9ff2a23aec8b0a53ec79b8b5f58543ae0409635e097a0cbdc665356",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0021-part-0000.npz",
+      "bytes": 2020748,
+      "sha256": "d0b80bf29125049f0724fc78fe5c55976ac1d64b89f4fea17bf1e3f853c0c478",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0021-part-0001.npz",
+      "bytes": 2021991,
+      "sha256": "9652a0a0e63aa1b61bef28ceb13f78ae65f1a2bf4f5f70af8dc0ee9ec2847939",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0021-part-0002.npz",
+      "bytes": 2021440,
+      "sha256": "bb5111a8043a9d0d98f43da6bd6026bc6d077ebe6977fb058bd216548930b895",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0021-part-0003.npz",
+      "bytes": 2021163,
+      "sha256": "8367b77decefa39c8355035014f4b24e31299b315d41a8244fa920876a4aaf6d",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0021-part-0004.npz",
+      "bytes": 2020824,
+      "sha256": "7d029cefd03ac94a3921bddebd7a2bb1dbbc9b08b7d5af43654bdab5eb8037c3",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0021-part-0005.npz",
+      "bytes": 2020732,
+      "sha256": "71f96f65685d34b56bdb8409df71b66eb2f7e6602422a4803b1cc4d5adb936f2",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0021-part-0006.npz",
+      "bytes": 2021599,
+      "sha256": "b06f4ca58d3de3968addd1e083d5563f891f64e9f587a2ebb79f2dfd1bf02a2a",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0021-part-0007.npz",
+      "bytes": 2022307,
+      "sha256": "7b4479563f4172493b07c06c7f152610973a18180a15fbb1193eb5ecb8958147",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0021-part-0008.npz",
+      "bytes": 2020484,
+      "sha256": "dd013b227688475bf7eb24cc2799eefc8381d2f506d964bc98cec69474f52a47",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0021-part-0009.npz",
+      "bytes": 2020541,
+      "sha256": "55702e4a7760f5b1bdb374da4439aec51b830542d50806e1f0f3d1880ec146a4",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0021-part-0010.npz",
+      "bytes": 1346958,
+      "sha256": "f41e7dd62d171e249adac961cba72957a9e598d0e17402d5a9419f267159984e",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0022-part-0000.npz",
+      "bytes": 256192,
+      "sha256": "56245b630fd11b8cb41b8bcbe5eac540eb9e67895122a78b120a7566476e005b",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0022-part-0001.npz",
+      "bytes": 256324,
+      "sha256": "4e091eb1efcba67c784f5a0cf6d05c5548d011c3ae0938167472bfc98c7a1ccf",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0022-part-0002.npz",
+      "bytes": 256440,
+      "sha256": "466e0f6789a6b1e0a4bf8efb03471c8f29af328d5ced2a48193ade079261045c",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0022-part-0003.npz",
+      "bytes": 256379,
+      "sha256": "bf71303324f22c65fd5ac9b89ad033689635b1fbf9654a2543ac32b59ac787a8",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0022-part-0004.npz",
+      "bytes": 256468,
+      "sha256": "82fc525bc048521122897a30c79b93c4311d32624238e95c8b84fea69b60a098",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0022-part-0005.npz",
+      "bytes": 256559,
+      "sha256": "64ccb63f1d9331d83b137ccbe0f68024cf2283f5da484b00f81b8c99559706a4",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0022-part-0006.npz",
+      "bytes": 256576,
+      "sha256": "5343ce2221a51e58cb78f5f3458b99d7f8a317d3d5ac55613c3c5f870e277085",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0022-part-0007.npz",
+      "bytes": 256395,
+      "sha256": "af99fb536b84ba40b2b5cf2a734a099ee0559dc05c32c24d624d0aea3e4c9fff",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0022-part-0008.npz",
+      "bytes": 256339,
+      "sha256": "23a482fcad2436d7b7ca1c237dcd09ad07bbb2d1543e71921bf50d62381ab5e1",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0022-part-0009.npz",
+      "bytes": 256359,
+      "sha256": "f24ce25bd5bf8b666cb89f5f7c7d7c5639298b4d7e6244edb40fd65f9e06d245",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0022-part-0010.npz",
+      "bytes": 171013,
+      "sha256": "84fd8fc58e5f99f579994710d98cadf90d9a08062fafd22843a96ac2fc49242c",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0023-part-0000.npz",
+      "bytes": 2021296,
+      "sha256": "229508b6ba73518d5d1aadde218a6020d1244633b8f8cf3af4ba8e78d47a3c1b",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0023-part-0001.npz",
+      "bytes": 2021254,
+      "sha256": "b9d93d19d28a02a328eba9189b5a58443915c3942a39b0f137796bfc33fdd861",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0023-part-0002.npz",
+      "bytes": 2021341,
+      "sha256": "ed44636706476e913f30f589c7fde8ccb2482f96a6e497e5ec49291c5f67ddc6",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0023-part-0003.npz",
+      "bytes": 2020407,
+      "sha256": "254b9f2bc443b5f6b19f2bcbfb53635798f0f6c5fbbac8ea9b4984b40f753879",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0023-part-0004.npz",
+      "bytes": 2020424,
+      "sha256": "9a72c9339a919ea93ea46e8eb8f4c4e7ac0b83edd9769535b6d24d7c922e349f",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0023-part-0005.npz",
+      "bytes": 2020778,
+      "sha256": "90901ace6bc78ddb2814f6fa369cf6e9828aea0113e387211c3724e6bc9a103b",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0023-part-0006.npz",
+      "bytes": 2021094,
+      "sha256": "fd6480f78f16bca574c8624ae587cf6e65b4ba6f3da794d1aa3d0f63164eb387",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0023-part-0007.npz",
+      "bytes": 2021218,
+      "sha256": "7e5ffb8703ad97fd5e91d56789e605300897e647a6dd19e49c26d1a235fbc08f",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0023-part-0008.npz",
+      "bytes": 2021615,
+      "sha256": "f2573be3761eb0f6e8996bc68bd805ef70d7bbd2d1a2b549541900b9a803cd32",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0023-part-0009.npz",
+      "bytes": 2021985,
+      "sha256": "afba244e7c29234f31fb1d53f488011e444179cef65ac1ba68f8486af0bcd0d4",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0023-part-0010.npz",
+      "bytes": 1347497,
+      "sha256": "60e6e5f6581a5fbe0c3e23ca3c00dfe4654f787ccfbc3a70df6db46c51fb03b0",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0024-part-0000.npz",
+      "bytes": 1298600,
+      "sha256": "950a86db6c28d895e97598c8160945c1c9b60e4012bf63e5d1f7debe50686fa6",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0024-part-0001.npz",
+      "bytes": 1311083,
+      "sha256": "e57f7d1fdc2d28ef4f0f421e2f215d7de19b0421d61d79176a920caf840b7bf0",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0024-part-0002.npz",
+      "bytes": 1344628,
+      "sha256": "9286c799f1a6a707c45d4b859fd391e4fb663b05faa7b41fded9ae3c9d7805e0",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0024-part-0003.npz",
+      "bytes": 1290009,
+      "sha256": "c54852124075484e41f82d4af52cee4f464a040354e608c2e5f648b91b9a1673",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0024-part-0004.npz",
+      "bytes": 1214068,
+      "sha256": "197f1ccdb3e9fdfd6733b1793d29fc1de07033ced79e40ec5c72f73d68ea0920",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0024-part-0005.npz",
+      "bytes": 1179124,
+      "sha256": "73a7905e84f53c9ee4f35804a68e585d57120eeb7ebf8faecad7190753164268",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0024-part-0006.npz",
+      "bytes": 1343165,
+      "sha256": "5ee077e22dfb1970ae901834a4904ec1155547d04d0a83d8b5bfba3aefb35c3f",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0024-part-0007.npz",
+      "bytes": 1320421,
+      "sha256": "618e3ef84f1c0b98da2e18193b57007f2e49cebb20bbdfe7528a5df2ce6f1550",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0024-part-0008.npz",
+      "bytes": 1302215,
+      "sha256": "1b8400d7995703095f4ba93232f03528fd3c8b21a5a1c650df90fdf462e94e85",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0024-part-0009.npz",
+      "bytes": 1255618,
+      "sha256": "4dc139d8a561a1caaa22048accb8ac0dc4b35c2573940912122f89f4668d3d18",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0024-part-0010.npz",
+      "bytes": 890009,
+      "sha256": "102546621cb55f340e4784497d502df105eb674254d37eccf48aa7954c0042b3",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0025-part-0000.npz",
+      "bytes": 1511740,
+      "sha256": "ec1ca94da573f9fd7389474558535a471196ec303ed7e3950213c034b510be4a",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0026-part-0000.npz",
+      "bytes": 3935,
+      "sha256": "c093027f454de1116056341f3c04e883cb8ee53051d228b2319ff30e9e48f2e9",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0027-part-0000.npz",
+      "bytes": 1827290,
+      "sha256": "d1ecd3c47e548162e03d69d30623392acbb549749e68af96437f156633db3274",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0028-part-0000.npz",
+      "bytes": 102808,
+      "sha256": "a6b78880c5c7692a0fa74492e30a2262933c21fc98b647bde70e6f015198ab63",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0029-part-0000.npz",
+      "bytes": 88438,
+      "sha256": "bc8e1bcd2facdc65da861322892b812cc25426400c5cd4ac7f742491a7368b01",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0030-part-0000.npz",
+      "bytes": 477511,
+      "sha256": "aa14efb4874008c88976a89c5018c90c7b30b63f0713284cf2421607cace5844",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0031-part-0000.npz",
+      "bytes": 452984,
+      "sha256": "9ec2bdad929b704cbeed62e1168facdc2d7d0feb642070ff345977d3154944b6",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0032-part-0000.npz",
+      "bytes": 1829183,
+      "sha256": "71590636bc7b2ac43eeb75f91ee0b6c2e2e45be266d3aba2ef9241bb16ecf59d",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0033-part-0000.npz",
+      "bytes": 1827184,
+      "sha256": "8b8b4506825e5706f759f239ef2808fb1586b173846b0e5b080813f3ab15d558",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0034-part-0000.npz",
+      "bytes": 102777,
+      "sha256": "41576fa277cfcdea33d7a69e1bd9208e4783ca15fb7904d3671b28568bc66478",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0035-part-0000.npz",
+      "bytes": 88768,
+      "sha256": "4d693f52a20f1e0ba670224756a3329367fea0f3eb4568e6f22956623080dc97",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0036-part-0000.npz",
+      "bytes": 945392,
+      "sha256": "713effcae40e6f85e556a69a624cb30575473d88bb631c57d63616e050759e7a",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0037-part-0000.npz",
+      "bytes": 923456,
+      "sha256": "17d9f9bda705ab40fd79039a1f560b4be615d9cccc6651d80ff225fde7336330",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/condensed-arrays/array-0038-part-0000.npz",
+      "bytes": 4794,
+      "sha256": "7ce19bfcf16ca58ac4a60de3c80ed931a441c9799d9cfc2c3a77027594abcad3",
+      "arrays": 1,
+      "kind": "condensed"
+    },
+    {
+      "file": "seventeen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00473.npz",
+      "bytes": 9575,
+      "sha256": "939f0ce959a9c09fb157c191cf0b3e0ed9b51d1824b337e7ed543264de9c9098",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "seventeen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00475.npz",
+      "bytes": 9594,
+      "sha256": "07475ae5904e749c334ad540eacb95c6f1041ce5b887cb03f93dfb632897d012",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "seventeen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00477.npz",
+      "bytes": 9640,
+      "sha256": "6421bd74996eabedcc8c24023c38e353adb9ee3231371838771b3fed81d843b5",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "seventeen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00480.npz",
+      "bytes": 9630,
+      "sha256": "44006046965ed7f37d874d3f118dab4907ec44486b71742c5761ad291dc85150",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "seventeen-condensed-warm/midpoint-observer/evaluate-0002-midpoint-00484.npz",
+      "bytes": 9683,
+      "sha256": "3acbd8e86ac9bdf087b468b7a68357a29dfb5a3a9e3013e702735f1bad325b44",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "seventeen-condensed-warm/midpoint-observer/evaluate-0003-midpoint-00473.npz",
+      "bytes": 9547,
+      "sha256": "8d1c60b400b5ddbfe46d4a4c8f6839c6cf3da855253567648fe02b23cbae4681",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "seventeen-condensed-warm/midpoint-observer/evaluate-0003-midpoint-00480.npz",
+      "bytes": 9604,
+      "sha256": "36f366180ba367fcd3d97a44aa1bfaac710960cb625323fb7997872e819a52d7",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "seventeen-condensed-warm/midpoint-observer/evaluate-0003-midpoint-00484.npz",
+      "bytes": 9612,
+      "sha256": "5a224d069c1226b0e69b8ea26e0e02b77c222810d01f45b7aabdc0fc4779e626",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "seventeen-condensed-warm/midpoint-observer/evaluate-0004-midpoint-00480.npz",
+      "bytes": 9568,
+      "sha256": "3ff82cab4fed5ead36d433967d4149c76fd486e9397daacde5cbb26a57961b85",
+      "arrays": 3,
+      "kind": "observer"
+    },
+    {
+      "file": "seventeen-condensed-warm/midpoint-observer/evaluate-0005-midpoint-00480.npz",
+      "bytes": 9603,
+      "sha256": "9cbf289b25f87fc2d9d20b91952fba782e2320e4de57b4bcba233c884ec8ca0a",
+      "arrays": 3,
+      "kind": "observer"
+    }
+  ],
+  "scope_exclusion": "Raw condensed-root arrays and non-exported full factor are outside this NPZ audit scope."
+}
