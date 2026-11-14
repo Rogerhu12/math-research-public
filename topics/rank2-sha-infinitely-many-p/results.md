@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R530：p除分级连接、全目标整共轭与混权第二精度](results/R530-divided-graded-connection-full-integral-gauge-and-mixed-second-precision.md)：真实来源和完整目标两端均支付Fermat商整性，同一p²左右提升得到完整混权配对；全部Gaussian交换子/进位与原单位高尾保留。可统一移位使来源可逆，并在固定精度用有界整数替代；只对声明的B或conductor·B矩阵，不免费扩大原A来源。
+
 - [R529：原J/K小核、任意层S返回及真实W补偿](results/R529-original-low-j-k-core-and-complete-st-carry.md)：半整J/K的whole6及E的odd9绝对β核、Kunit六次逆和四个T固定输出完整支付；任意J深返回原S，同一网格中央v5n且质量整条0，无新ray或大p门。旧W不在所保四输出，两个真实补偿全列；同域W−6δY差v5n+3。
 
 - [R525：原多权Wronskian零估计与临界支持发散下界](results/R525-original-multiweight-wronskian-and-growing-kernel-support.md)：原有限低轴的对数变量有任意X次数的resultant零估计，真实多权Wronskian最高项由权Vandermonde支付。完整M首核满足显示支持数门，二次临界至少常数N^(1/3)个非零权，低第三块至少((17/147)^(1/6)−o(1))p^(1/6)；原后两块/同一修正全保，未排更多权核。
