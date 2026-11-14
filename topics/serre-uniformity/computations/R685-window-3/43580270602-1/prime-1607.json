@@ -1,0 +1,4324 @@
+{
+  "prime": 1607,
+  "modulus": 2582449,
+  "exact_reductions": [
+    {
+      "k": 1607,
+      "m": 1606,
+      "p_times_diagonal_mod_p2": [
+        0,
+        1486475,
+        0
+      ],
+      "r_coefficient_after_exact_division": 925,
+      "Ck_mod_p": 341,
+      "all_inverse_sigma_blocks": [
+        {
+          "inverse_sigma_power": 0,
+          "p_times_diagonal": [
+            2339792,
+            125346,
+            393715
+          ]
+        },
+        {
+          "inverse_sigma_power": 6,
+          "p_times_diagonal": [
+            2151773,
+            1430230,
+            573699
+          ]
+        },
+        {
+          "inverse_sigma_power": 12,
+          "p_times_diagonal": [
+            2359076,
+            1769307,
+            1780556
+          ]
+        },
+        {
+          "inverse_sigma_power": 18,
+          "p_times_diagonal": [
+            1206857,
+            2540667,
+            1799840
+          ]
+        },
+        {
+          "inverse_sigma_power": 24,
+          "p_times_diagonal": [
+            241050,
+            1263102,
+            77136
+          ]
+        },
+        {
+          "inverse_sigma_power": 30,
+          "p_times_diagonal": [
+            390501,
+            1046157,
+            133381
+          ]
+        },
+        {
+          "inverse_sigma_power": 36,
+          "p_times_diagonal": [
+            1499331,
+            1553969,
+            2442640
+          ]
+        },
+        {
+          "inverse_sigma_power": 42,
+          "p_times_diagonal": [
+            2384788,
+            912776,
+            1677708
+          ]
+        },
+        {
+          "inverse_sigma_power": 48,
+          "p_times_diagonal": [
+            1161861,
+            1282386,
+            523882
+          ]
+        },
+        {
+          "inverse_sigma_power": 54,
+          "p_times_diagonal": [
+            1897867,
+            1803054,
+            1623070
+          ]
+        },
+        {
+          "inverse_sigma_power": 60,
+          "p_times_diagonal": [
+            1504152,
+            241050,
+            1653603
+          ]
+        },
+        {
+          "inverse_sigma_power": 66,
+          "p_times_diagonal": [
+            1230962,
+            1856085,
+            372824
+          ]
+        },
+        {
+          "inverse_sigma_power": 72,
+          "p_times_diagonal": [
+            77136,
+            1369164,
+            514240
+          ]
+        },
+        {
+          "inverse_sigma_power": 78,
+          "p_times_diagonal": [
+            2539060,
+            885457,
+            1488082
+          ]
+        },
+        {
+          "inverse_sigma_power": 84,
+          "p_times_diagonal": [
+            1177931,
+            1084725,
+            14463
+          ]
+        },
+        {
+          "inverse_sigma_power": 90,
+          "p_times_diagonal": [
+            2394430,
+            1661638,
+            1740381
+          ]
+        },
+        {
+          "inverse_sigma_power": 96,
+          "p_times_diagonal": [
+            2090707,
+            2241765,
+            2458710
+          ]
+        },
+        {
+          "inverse_sigma_power": 102,
+          "p_times_diagonal": [
+            551201,
+            462816,
+            385680
+          ]
+        },
+        {
+          "inverse_sigma_power": 108,
+          "p_times_diagonal": [
+            33747,
+            1888225,
+            753683
+          ]
+        },
+        {
+          "inverse_sigma_power": 114,
+          "p_times_diagonal": [
+            2441033,
+            2294796,
+            136595
+          ]
+        },
+        {
+          "inverse_sigma_power": 120,
+          "p_times_diagonal": [
+            73922,
+            634765,
+            1844836
+          ]
+        },
+        {
+          "inverse_sigma_power": 126,
+          "p_times_diagonal": [
+            1767700,
+            1811089,
+            395322
+          ]
+        },
+        {
+          "inverse_sigma_power": 132,
+          "p_times_diagonal": [
+            186412,
+            721543,
+            216945
+          ]
+        },
+        {
+          "inverse_sigma_power": 138,
+          "p_times_diagonal": [
+            2040890,
+            67494,
+            2077851
+          ]
+        },
+        {
+          "inverse_sigma_power": 144,
+          "p_times_diagonal": [
+            809928,
+            2405679,
+            790644
+          ]
+        },
+        {
+          "inverse_sigma_power": 150,
+          "p_times_diagonal": [
+            1002768,
+            517454,
+            2302831
+          ]
+        },
+        {
+          "inverse_sigma_power": 156,
+          "p_times_diagonal": [
+            2547095,
+            861352,
+            1621463
+          ]
+        },
+        {
+          "inverse_sigma_power": 162,
+          "p_times_diagonal": [
+            175163,
+            875815,
+            1902688
+          ]
+        },
+        {
+          "inverse_sigma_power": 168,
+          "p_times_diagonal": [
+            2323722,
+            477279,
+            2439426
+          ]
+        },
+        {
+          "inverse_sigma_power": 174,
+          "p_times_diagonal": [
+            604232,
+            2232123,
+            1764486
+          ]
+        },
+        {
+          "inverse_sigma_power": 180,
+          "p_times_diagonal": [
+            1462370,
+            1881797,
+            610660
+          ]
+        },
+        {
+          "inverse_sigma_power": 186,
+          "p_times_diagonal": [
+            1071869,
+            713508,
+            226587
+          ]
+        },
+        {
+          "inverse_sigma_power": 192,
+          "p_times_diagonal": [
+            1200429,
+            2098742,
+            247478
+          ]
+        },
+        {
+          "inverse_sigma_power": 198,
+          "p_times_diagonal": [
+            729578,
+            1896260,
+            1243818
+          ]
+        },
+        {
+          "inverse_sigma_power": 204,
+          "p_times_diagonal": [
+            1529864,
+            2191948,
+            421034
+          ]
+        },
+        {
+          "inverse_sigma_power": 210,
+          "p_times_diagonal": [
+            2278726,
+            345505,
+            1369164
+          ]
+        },
+        {
+          "inverse_sigma_power": 216,
+          "p_times_diagonal": [
+            332649,
+            181591,
+            2019999
+          ]
+        },
+        {
+          "inverse_sigma_power": 222,
+          "p_times_diagonal": [
+            2481208,
+            173556,
+            170342
+          ]
+        },
+        {
+          "inverse_sigma_power": 228,
+          "p_times_diagonal": [
+            73922,
+            1457549,
+            896706
+          ]
+        },
+        {
+          "inverse_sigma_power": 234,
+          "p_times_diagonal": [
+            1897867,
+            51424,
+            511026
+          ]
+        },
+        {
+          "inverse_sigma_power": 240,
+          "p_times_diagonal": [
+            9642,
+            1059013,
+            432283
+          ]
+        },
+        {
+          "inverse_sigma_power": 246,
+          "p_times_diagonal": [
+            268369,
+            1330596,
+            1330596
+          ]
+        },
+        {
+          "inverse_sigma_power": 252,
+          "p_times_diagonal": [
+            271583,
+            1423802,
+            1817517
+          ]
+        },
+        {
+          "inverse_sigma_power": 258,
+          "p_times_diagonal": [
+            1581288,
+            91599,
+            146237
+          ]
+        },
+        {
+          "inverse_sigma_power": 264,
+          "p_times_diagonal": [
+            2008750,
+            1756451,
+            1745202
+          ]
+        },
+        {
+          "inverse_sigma_power": 270,
+          "p_times_diagonal": [
+            1515401,
+            1930007,
+            2436212
+          ]
+        },
+        {
+          "inverse_sigma_power": 276,
+          "p_times_diagonal": [
+            1271137,
+            1820731,
+            2254621
+          ]
+        },
+        {
+          "inverse_sigma_power": 282,
+          "p_times_diagonal": [
+            1545934,
+            1778949,
+            1301670
+          ]
+        },
+        {
+          "inverse_sigma_power": 288,
+          "p_times_diagonal": [
+            1610214,
+            314972,
+            321400
+          ]
+        },
+        {
+          "inverse_sigma_power": 294,
+          "p_times_diagonal": [
+            110883,
+            533524,
+            1462370
+          ]
+        },
+        {
+          "inverse_sigma_power": 300,
+          "p_times_diagonal": [
+            1725918,
+            959379,
+            636372
+          ]
+        },
+        {
+          "inverse_sigma_power": 306,
+          "p_times_diagonal": [
+            2093921,
+            1108830,
+            2384788
+          ]
+        },
+        {
+          "inverse_sigma_power": 312,
+          "p_times_diagonal": [
+            368003,
+            665298,
+            1439872
+          ]
+        },
+        {
+          "inverse_sigma_power": 318,
+          "p_times_diagonal": [
+            1343452,
+            1202036,
+            1632712
+          ]
+        },
+        {
+          "inverse_sigma_power": 324,
+          "p_times_diagonal": [
+            1275958,
+            1733953,
+            596197
+          ]
+        },
+        {
+          "inverse_sigma_power": 330,
+          "p_times_diagonal": [
+            1574860,
+            1211678,
+            2299617
+          ]
+        },
+        {
+          "inverse_sigma_power": 336,
+          "p_times_diagonal": [
+            907955,
+            1605393,
+            2281940
+          ]
+        },
+        {
+          "inverse_sigma_power": 342,
+          "p_times_diagonal": [
+            483707,
+            1001161,
+            1780556
+          ]
+        },
+        {
+          "inverse_sigma_power": 348,
+          "p_times_diagonal": [
+            581734,
+            2379967,
+            1100795
+          ]
+        },
+        {
+          "inverse_sigma_power": 354,
+          "p_times_diagonal": [
+            1878583,
+            811535,
+            1634319
+          ]
+        },
+        {
+          "inverse_sigma_power": 360,
+          "p_times_diagonal": [
+            1756451,
+            2183913,
+            1041336
+          ]
+        },
+        {
+          "inverse_sigma_power": 366,
+          "p_times_diagonal": [
+            170342,
+            2461924,
+            1179538
+          ]
+        },
+        {
+          "inverse_sigma_power": 372,
+          "p_times_diagonal": [
+            313365,
+            2453889,
+            1354701
+          ]
+        },
+        {
+          "inverse_sigma_power": 378,
+          "p_times_diagonal": [
+            1057406,
+            819570,
+            980270
+          ]
+        },
+        {
+          "inverse_sigma_power": 384,
+          "p_times_diagonal": [
+            2084279,
+            433890,
+            237836
+          ]
+        },
+        {
+          "inverse_sigma_power": 390,
+          "p_times_diagonal": [
+            1594144,
+            2421749,
+            498170
+          ]
+        },
+        {
+          "inverse_sigma_power": 396,
+          "p_times_diagonal": [
+            1987859,
+            538345,
+            2127668
+          ]
+        },
+        {
+          "inverse_sigma_power": 402,
+          "p_times_diagonal": [
+            1920365,
+            952951,
+            798679
+          ]
+        },
+        {
+          "inverse_sigma_power": 408,
+          "p_times_diagonal": [
+            2206411,
+            758504,
+            858138
+          ]
+        },
+        {
+          "inverse_sigma_power": 414,
+          "p_times_diagonal": [
+            2211232,
+            1875369,
+            1219713
+          ]
+        },
+        {
+          "inverse_sigma_power": 420,
+          "p_times_diagonal": [
+            1838408,
+            1840015,
+            2100349
+          ]
+        },
+        {
+          "inverse_sigma_power": 426,
+          "p_times_diagonal": [
+            1367557,
+            83564,
+            546380
+          ]
+        },
+        {
+          "inverse_sigma_power": 432,
+          "p_times_diagonal": [
+            300509,
+            924025,
+            1907509
+          ]
+        },
+        {
+          "inverse_sigma_power": 438,
+          "p_times_diagonal": [
+            2187127,
+            2275512,
+            2076244
+          ]
+        },
+        {
+          "inverse_sigma_power": 444,
+          "p_times_diagonal": [
+            266762,
+            1118472,
+            2016785
+          ]
+        },
+        {
+          "inverse_sigma_power": 450,
+          "p_times_diagonal": [
+            2502099,
+            1881797,
+            573699
+          ]
+        },
+        {
+          "inverse_sigma_power": 456,
+          "p_times_diagonal": [
+            2455496,
+            404964,
+            2392823
+          ]
+        },
+        {
+          "inverse_sigma_power": 462,
+          "p_times_diagonal": [
+            1404518,
+            2432998,
+            1920365
+          ]
+        },
+        {
+          "inverse_sigma_power": 468,
+          "p_times_diagonal": [
+            1218106,
+            2381574,
+            715115
+          ]
+        },
+        {
+          "inverse_sigma_power": 474,
+          "p_times_diagonal": [
+            956165,
+            2092314,
+            1594144
+          ]
+        },
+        {
+          "inverse_sigma_power": 480,
+          "p_times_diagonal": [
+            2056960,
+            475672,
+            655656
+          ]
+        },
+        {
+          "inverse_sigma_power": 486,
+          "p_times_diagonal": [
+            38568,
+            1562004,
+            1555576
+          ]
+        },
+        {
+          "inverse_sigma_power": 492,
+          "p_times_diagonal": [
+            2230516,
+            1766093,
+            2095528
+          ]
+        },
+        {
+          "inverse_sigma_power": 498,
+          "p_times_diagonal": [
+            2415321,
+            626730,
+            1790198
+          ]
+        },
+        {
+          "inverse_sigma_power": 504,
+          "p_times_diagonal": [
+            2437819,
+            981877,
+            985091
+          ]
+        },
+        {
+          "inverse_sigma_power": 510,
+          "p_times_diagonal": [
+            2489243,
+            1550755,
+            109276
+          ]
+        },
+        {
+          "inverse_sigma_power": 516,
+          "p_times_diagonal": [
+            1566825,
+            792251,
+            273190
+          ]
+        },
+        {
+          "inverse_sigma_power": 522,
+          "p_times_diagonal": [
+            1425409,
+            2267477,
+            2037676
+          ]
+        },
+        {
+          "inverse_sigma_power": 528,
+          "p_times_diagonal": [
+            2444247,
+            883850,
+            887064
+          ]
+        },
+        {
+          "inverse_sigma_power": 534,
+          "p_times_diagonal": [
+            671726,
+            707080,
+            642800
+          ]
+        },
+        {
+          "inverse_sigma_power": 540,
+          "p_times_diagonal": [
+            1568432,
+            1547541,
+            795465
+          ]
+        },
+        {
+          "inverse_sigma_power": 546,
+          "p_times_diagonal": [
+            1521829,
+            1292028,
+            1304884
+          ]
+        },
+        {
+          "inverse_sigma_power": 552,
+          "p_times_diagonal": [
+            2355862,
+            993126,
+            294081
+          ]
+        },
+        {
+          "inverse_sigma_power": 558,
+          "p_times_diagonal": [
+            77136,
+            1197215,
+            81957
+          ]
+        },
+        {
+          "inverse_sigma_power": 564,
+          "p_times_diagonal": [
+            607446,
+            196054,
+            1481654
+          ]
+        },
+        {
+          "inverse_sigma_power": 570,
+          "p_times_diagonal": [
+            2522990,
+            448353,
+            228194
+          ]
+        },
+        {
+          "inverse_sigma_power": 576,
+          "p_times_diagonal": [
+            646014,
+            663691,
+            1179538
+          ]
+        },
+        {
+          "inverse_sigma_power": 582,
+          "p_times_diagonal": [
+            1944470,
+            629944,
+            2558344
+          ]
+        },
+        {
+          "inverse_sigma_power": 588,
+          "p_times_diagonal": [
+            2572807,
+            147844,
+            91599
+          ]
+        },
+        {
+          "inverse_sigma_power": 594,
+          "p_times_diagonal": [
+            461209,
+            2010357,
+            1578074
+          ]
+        },
+        {
+          "inverse_sigma_power": 600,
+          "p_times_diagonal": [
+            882243,
+            282832,
+            2410500
+          ]
+        },
+        {
+          "inverse_sigma_power": 606,
+          "p_times_diagonal": [
+            766539,
+            1118472,
+            1754844
+          ]
+        },
+        {
+          "inverse_sigma_power": 612,
+          "p_times_diagonal": [
+            1243818,
+            2224088,
+            1560397
+          ]
+        },
+        {
+          "inverse_sigma_power": 618,
+          "p_times_diagonal": [
+            2216053,
+            1635926,
+            1717883
+          ]
+        },
+        {
+          "inverse_sigma_power": 624,
+          "p_times_diagonal": [
+            278011,
+            781002,
+            1812696
+          ]
+        },
+        {
+          "inverse_sigma_power": 630,
+          "p_times_diagonal": [
+            1149005,
+            821177,
+            233015
+          ]
+        },
+        {
+          "inverse_sigma_power": 636,
+          "p_times_diagonal": [
+            631551,
+            2302831,
+            1264709
+          ]
+        },
+        {
+          "inverse_sigma_power": 642,
+          "p_times_diagonal": [
+            544773,
+            1325775,
+            480493
+          ]
+        },
+        {
+          "inverse_sigma_power": 648,
+          "p_times_diagonal": [
+            466030,
+            1345059,
+            302116
+          ]
+        },
+        {
+          "inverse_sigma_power": 654,
+          "p_times_diagonal": [
+            2158201,
+            1615035,
+            17677
+          ]
+        },
+        {
+          "inverse_sigma_power": 660,
+          "p_times_diagonal": [
+            2024820,
+            2341399,
+            2368718
+          ]
+        },
+        {
+          "inverse_sigma_power": 666,
+          "p_times_diagonal": [
+            1041336,
+            538345,
+            2098742
+          ]
+        },
+        {
+          "inverse_sigma_power": 672,
+          "p_times_diagonal": [
+            2391216,
+            1311312,
+            2023213
+          ]
+        },
+        {
+          "inverse_sigma_power": 678,
+          "p_times_diagonal": [
+            2323722,
+            2516562,
+            1391662
+          ]
+        },
+        {
+          "inverse_sigma_power": 684,
+          "p_times_diagonal": [
+            2037676,
+            252299,
+            2145345
+          ]
+        },
+        {
+          "inverse_sigma_power": 690,
+          "p_times_diagonal": [
+            2331757,
+            1595751,
+            104455
+          ]
+        },
+        {
+          "inverse_sigma_power": 696,
+          "p_times_diagonal": [
+            1856085,
+            856531,
+            1182752
+          ]
+        },
+        {
+          "inverse_sigma_power": 702,
+          "p_times_diagonal": [
+            1920365,
+            1921972,
+            163914
+          ]
+        },
+        {
+          "inverse_sigma_power": 708,
+          "p_times_diagonal": [
+            297295,
+            1505759,
+            1452728
+          ]
+        },
+        {
+          "inverse_sigma_power": 714,
+          "p_times_diagonal": [
+            570485,
+            2219267,
+            188019
+          ]
+        },
+        {
+          "inverse_sigma_power": 720,
+          "p_times_diagonal": [
+            2513348,
+            1015624,
+            1373985
+          ]
+        },
+        {
+          "inverse_sigma_power": 726,
+          "p_times_diagonal": [
+            1942863,
+            2510134,
+            1886618
+          ]
+        },
+        {
+          "inverse_sigma_power": 732,
+          "p_times_diagonal": [
+            2097135,
+            134988,
+            846889
+          ]
+        },
+        {
+          "inverse_sigma_power": 738,
+          "p_times_diagonal": [
+            2445854,
+            1134542,
+            1161861
+          ]
+        },
+        {
+          "inverse_sigma_power": 744,
+          "p_times_diagonal": [
+            260334,
+            1872155,
+            1049371
+          ]
+        },
+        {
+          "inverse_sigma_power": 750,
+          "p_times_diagonal": [
+            1063834,
+            2220874,
+            1136149
+          ]
+        },
+        {
+          "inverse_sigma_power": 756,
+          "p_times_diagonal": [
+            1547541,
+            1860906,
+            30533
+          ]
+        },
+        {
+          "inverse_sigma_power": 762,
+          "p_times_diagonal": [
+            356754,
+            456388,
+            549594
+          ]
+        },
+        {
+          "inverse_sigma_power": 768,
+          "p_times_diagonal": [
+            2302831,
+            932060,
+            2130882
+          ]
+        },
+        {
+          "inverse_sigma_power": 774,
+          "p_times_diagonal": [
+            498170,
+            136595,
+            491742
+          ]
+        },
+        {
+          "inverse_sigma_power": 780,
+          "p_times_diagonal": [
+            819570,
+            435497,
+            602625
+          ]
+        },
+        {
+          "inverse_sigma_power": 786,
+          "p_times_diagonal": [
+            2299617,
+            1608607,
+            2466745
+          ]
+        },
+        {
+          "inverse_sigma_power": 792,
+          "p_times_diagonal": [
+            1422195,
+            2529418,
+            1452728
+          ]
+        },
+        {
+          "inverse_sigma_power": 798,
+          "p_times_diagonal": [
+            1592537,
+            295688,
+            800286
+          ]
+        },
+        {
+          "inverse_sigma_power": 804,
+          "p_times_diagonal": [
+            286046,
+            466030,
+            1298456
+          ]
+        },
+        {
+          "inverse_sigma_power": 810,
+          "p_times_diagonal": [
+            895099,
+            2222481,
+            170342
+          ]
+        },
+        {
+          "inverse_sigma_power": 816,
+          "p_times_diagonal": [
+            294081,
+            663691,
+            1410946
+          ]
+        },
+        {
+          "inverse_sigma_power": 822,
+          "p_times_diagonal": [
+            278011,
+            1966968,
+            1269530
+          ]
+        },
+        {
+          "inverse_sigma_power": 828,
+          "p_times_diagonal": [
+            1222927,
+            1348273,
+            956165
+          ]
+        },
+        {
+          "inverse_sigma_power": 834,
+          "p_times_diagonal": [
+            234622,
+            702259,
+            2270691
+          ]
+        },
+        {
+          "inverse_sigma_power": 840,
+          "p_times_diagonal": [
+            1947684,
+            449960,
+            1327382
+          ]
+        },
+        {
+          "inverse_sigma_power": 846,
+          "p_times_diagonal": [
+            1022052,
+            1407732,
+            1941256
+          ]
+        },
+        {
+          "inverse_sigma_power": 852,
+          "p_times_diagonal": [
+            62673,
+            1097581,
+            1976610
+          ]
+        },
+        {
+          "inverse_sigma_power": 858,
+          "p_times_diagonal": [
+            599411,
+            811535,
+            2244979
+          ]
+        },
+        {
+          "inverse_sigma_power": 864,
+          "p_times_diagonal": [
+            944916,
+            2447461,
+            670119
+          ]
+        },
+        {
+          "inverse_sigma_power": 870,
+          "p_times_diagonal": [
+            519061,
+            2542274,
+            368003
+          ]
+        },
+        {
+          "inverse_sigma_power": 876,
+          "p_times_diagonal": [
+            1825552,
+            2100349,
+            895099
+          ]
+        },
+        {
+          "inverse_sigma_power": 882,
+          "p_times_diagonal": [
+            1137756,
+            2008750,
+            1497724
+          ]
+        },
+        {
+          "inverse_sigma_power": 888,
+          "p_times_diagonal": [
+            1216499,
+            2542274,
+            629944
+          ]
+        },
+        {
+          "inverse_sigma_power": 894,
+          "p_times_diagonal": [
+            1023659,
+            188019,
+            613874
+          ]
+        },
+        {
+          "inverse_sigma_power": 900,
+          "p_times_diagonal": [
+            1949291,
+            57852,
+            1234176
+          ]
+        },
+        {
+          "inverse_sigma_power": 906,
+          "p_times_diagonal": [
+            2567986,
+            1481654,
+            104455
+          ]
+        },
+        {
+          "inverse_sigma_power": 912,
+          "p_times_diagonal": [
+            2338185,
+            763325,
+            1648782
+          ]
+        },
+        {
+          "inverse_sigma_power": 918,
+          "p_times_diagonal": [
+            1684136,
+            959379,
+            269976
+          ]
+        },
+        {
+          "inverse_sigma_power": 924,
+          "p_times_diagonal": [
+            949737,
+            1732346,
+            1049371
+          ]
+        },
+        {
+          "inverse_sigma_power": 930,
+          "p_times_diagonal": [
+            903134,
+            740827,
+            1923579
+          ]
+        },
+        {
+          "inverse_sigma_power": 936,
+          "p_times_diagonal": [
+            261941,
+            1369164,
+            1470405
+          ]
+        },
+        {
+          "inverse_sigma_power": 942,
+          "p_times_diagonal": [
+            605839,
+            342291,
+            1587716
+          ]
+        },
+        {
+          "inverse_sigma_power": 948,
+          "p_times_diagonal": [
+            1417374,
+            2334971,
+            114097
+          ]
+        },
+        {
+          "inverse_sigma_power": 954,
+          "p_times_diagonal": [
+            1656817,
+            2236944,
+            2547095
+          ]
+        },
+        {
+          "inverse_sigma_power": 960,
+          "p_times_diagonal": [
+            2227302,
+            752076,
+            86778
+          ]
+        },
+        {
+          "inverse_sigma_power": 966,
+          "p_times_diagonal": [
+            147844,
+            1602179,
+            271583
+          ]
+        },
+        {
+          "inverse_sigma_power": 972,
+          "p_times_diagonal": [
+            928846,
+            2548702,
+            2257835
+          ]
+        },
+        {
+          "inverse_sigma_power": 978,
+          "p_times_diagonal": [
+            85171,
+            605839,
+            250692
+          ]
+        },
+        {
+          "inverse_sigma_power": 984,
+          "p_times_diagonal": [
+            310151,
+            2432998,
+            750469
+          ]
+        },
+        {
+          "inverse_sigma_power": 990,
+          "p_times_diagonal": [
+            1541113,
+            1325775,
+            430676
+          ]
+        },
+        {
+          "inverse_sigma_power": 996,
+          "p_times_diagonal": [
+            952951,
+            1782163,
+            171949
+          ]
+        },
+        {
+          "inverse_sigma_power": 1002,
+          "p_times_diagonal": [
+            1598965,
+            2307652,
+            1112044
+          ]
+        },
+        {
+          "inverse_sigma_power": 1008,
+          "p_times_diagonal": [
+            1893046,
+            610660,
+            609053
+          ]
+        },
+        {
+          "inverse_sigma_power": 1014,
+          "p_times_diagonal": [
+            1025266,
+            817963,
+            1258281
+          ]
+        },
+        {
+          "inverse_sigma_power": 1020,
+          "p_times_diagonal": [
+            384073,
+            584948,
+            1907509
+          ]
+        },
+        {
+          "inverse_sigma_power": 1026,
+          "p_times_diagonal": [
+            1725918,
+            472458,
+            668512
+          ]
+        },
+        {
+          "inverse_sigma_power": 1032,
+          "p_times_diagonal": [
+            2331757,
+            353540,
+            1269530
+          ]
+        },
+        {
+          "inverse_sigma_power": 1038,
+          "p_times_diagonal": [
+            1158647,
+            938488,
+            1523436
+          ]
+        },
+        {
+          "inverse_sigma_power": 1044,
+          "p_times_diagonal": [
+            813142,
+            147844,
+            94813
+          ]
+        },
+        {
+          "inverse_sigma_power": 1050,
+          "p_times_diagonal": [
+            1978217,
+            2505313,
+            1968575
+          ]
+        },
+        {
+          "inverse_sigma_power": 1056,
+          "p_times_diagonal": [
+            474065,
+            216945,
+            1587716
+          ]
+        },
+        {
+          "inverse_sigma_power": 1062,
+          "p_times_diagonal": [
+            2516562,
+            1359522,
+            2484422
+          ]
+        },
+        {
+          "inverse_sigma_power": 1068,
+          "p_times_diagonal": [
+            2249800,
+            347112,
+            1520222
+          ]
+        },
+        {
+          "inverse_sigma_power": 1074,
+          "p_times_diagonal": [
+            2479601,
+            1009196,
+            385680
+          ]
+        },
+        {
+          "inverse_sigma_power": 1080,
+          "p_times_diagonal": [
+            1889832,
+            1131328,
+            1587716
+          ]
+        },
+        {
+          "inverse_sigma_power": 1086,
+          "p_times_diagonal": [
+            1950898,
+            784216,
+            1979824
+          ]
+        },
+        {
+          "inverse_sigma_power": 1092,
+          "p_times_diagonal": [
+            2036069,
+            1841622,
+            181591
+          ]
+        },
+        {
+          "inverse_sigma_power": 1098,
+          "p_times_diagonal": [
+            2442640,
+            1118472,
+            1033301
+          ]
+        },
+        {
+          "inverse_sigma_power": 1104,
+          "p_times_diagonal": [
+            2280333,
+            711901,
+            335863
+          ]
+        },
+        {
+          "inverse_sigma_power": 1110,
+          "p_times_diagonal": [
+            231408,
+            1026873,
+            446746
+          ]
+        },
+        {
+          "inverse_sigma_power": 1116,
+          "p_times_diagonal": [
+            1615035,
+            2179092,
+            152665
+          ]
+        },
+        {
+          "inverse_sigma_power": 1122,
+          "p_times_diagonal": [
+            1075083,
+            1674494,
+            925632
+          ]
+        },
+        {
+          "inverse_sigma_power": 1128,
+          "p_times_diagonal": [
+            952951,
+            347112,
+            20891
+          ]
+        },
+        {
+          "inverse_sigma_power": 1134,
+          "p_times_diagonal": [
+            1958933,
+            1658424,
+            212124
+          ]
+        },
+        {
+          "inverse_sigma_power": 1140,
+          "p_times_diagonal": [
+            1531471,
+            2551916,
+            1695385
+          ]
+        },
+        {
+          "inverse_sigma_power": 1146,
+          "p_times_diagonal": [
+            1071869,
+            1484868,
+            1795019
+          ]
+        },
+        {
+          "inverse_sigma_power": 1152,
+          "p_times_diagonal": [
+            1214892,
+            1733953,
+            1928400
+          ]
+        },
+        {
+          "inverse_sigma_power": 1158,
+          "p_times_diagonal": [
+            499777,
+            2471566,
+            449960
+          ]
+        },
+        {
+          "inverse_sigma_power": 1164,
+          "p_times_diagonal": [
+            114097,
+            617088,
+            2309259
+          ]
+        },
+        {
+          "inverse_sigma_power": 1170,
+          "p_times_diagonal": [
+            601018,
+            1185966,
+            797072
+          ]
+        },
+        {
+          "inverse_sigma_power": 1176,
+          "p_times_diagonal": [
+            2522990,
+            53031,
+            1179538
+          ]
+        },
+        {
+          "inverse_sigma_power": 1182,
+          "p_times_diagonal": [
+            766539,
+            766539,
+            2007143
+          ]
+        },
+        {
+          "inverse_sigma_power": 1188,
+          "p_times_diagonal": [
+            2564772,
+            2479601,
+            758504
+          ]
+        },
+        {
+          "inverse_sigma_power": 1194,
+          "p_times_diagonal": [
+            2428177,
+            970628,
+            1295242
+          ]
+        },
+        {
+          "inverse_sigma_power": 1200,
+          "p_times_diagonal": [
+            366396,
+            996340,
+            2291582
+          ]
+        },
+        {
+          "inverse_sigma_power": 1206,
+          "p_times_diagonal": [
+            919204,
+            960986,
+            1942863
+          ]
+        },
+        {
+          "inverse_sigma_power": 1212,
+          "p_times_diagonal": [
+            2460317,
+            2543881,
+            2309259
+          ]
+        },
+        {
+          "inverse_sigma_power": 1218,
+          "p_times_diagonal": [
+            183198,
+            1010803,
+            2074637
+          ]
+        },
+        {
+          "inverse_sigma_power": 1224,
+          "p_times_diagonal": [
+            866173,
+            515847,
+            2198376
+          ]
+        },
+        {
+          "inverse_sigma_power": 1230,
+          "p_times_diagonal": [
+            1820731,
+            1184359,
+            1566825
+          ]
+        },
+        {
+          "inverse_sigma_power": 1236,
+          "p_times_diagonal": [
+            522275,
+            1827159,
+            1402911
+          ]
+        },
+        {
+          "inverse_sigma_power": 1242,
+          "p_times_diagonal": [
+            440318,
+            2386395,
+            658870
+          ]
+        },
+        {
+          "inverse_sigma_power": 1248,
+          "p_times_diagonal": [
+            2460317,
+            491742,
+            1713062
+          ]
+        },
+        {
+          "inverse_sigma_power": 1254,
+          "p_times_diagonal": [
+            1320954,
+            490135,
+            2212839
+          ]
+        },
+        {
+          "inverse_sigma_power": 1260,
+          "p_times_diagonal": [
+            2352648,
+            1115258,
+            597804
+          ]
+        },
+        {
+          "inverse_sigma_power": 1266,
+          "p_times_diagonal": [
+            523882,
+            1512187,
+            2574414
+          ]
+        },
+        {
+          "inverse_sigma_power": 1272,
+          "p_times_diagonal": [
+            1904295,
+            2375146,
+            1018838
+          ]
+        },
+        {
+          "inverse_sigma_power": 1278,
+          "p_times_diagonal": [
+            2179092,
+            1333810,
+            597804
+          ]
+        },
+        {
+          "inverse_sigma_power": 1284,
+          "p_times_diagonal": [
+            257120,
+            2036069,
+            429069
+          ]
+        },
+        {
+          "inverse_sigma_power": 1290,
+          "p_times_diagonal": [
+            758504,
+            1386841,
+            1153826
+          ]
+        },
+        {
+          "inverse_sigma_power": 1296,
+          "p_times_diagonal": [
+            2082672,
+            1605393,
+            1065441
+          ]
+        },
+        {
+          "inverse_sigma_power": 1302,
+          "p_times_diagonal": [
+            1700206,
+            539952,
+            1306491
+          ]
+        },
+        {
+          "inverse_sigma_power": 1308,
+          "p_times_diagonal": [
+            2415321,
+            1719490,
+            1253460
+          ]
+        },
+        {
+          "inverse_sigma_power": 1314,
+          "p_times_diagonal": [
+            907955,
+            1926793,
+            2535846
+          ]
+        },
+        {
+          "inverse_sigma_power": 1320,
+          "p_times_diagonal": [
+            2420142,
+            2118026,
+            856531
+          ]
+        },
+        {
+          "inverse_sigma_power": 1326,
+          "p_times_diagonal": [
+            1539506,
+            2293189,
+            2547095
+          ]
+        },
+        {
+          "inverse_sigma_power": 1332,
+          "p_times_diagonal": [
+            1955719,
+            641193,
+            877422
+          ]
+        },
+        {
+          "inverse_sigma_power": 1338,
+          "p_times_diagonal": [
+            2420142,
+            1356308,
+            1071869
+          ]
+        },
+        {
+          "inverse_sigma_power": 1344,
+          "p_times_diagonal": [
+            829212,
+            713508,
+            363182
+          ]
+        },
+        {
+          "inverse_sigma_power": 1350,
+          "p_times_diagonal": [
+            2539060,
+            451567,
+            22498
+          ]
+        },
+        {
+          "inverse_sigma_power": 1356,
+          "p_times_diagonal": [
+            395322,
+            1182752,
+            1859299
+          ]
+        },
+        {
+          "inverse_sigma_power": 1362,
+          "p_times_diagonal": [
+            2244979,
+            1833587,
+            1140970
+          ]
+        },
+        {
+          "inverse_sigma_power": 1368,
+          "p_times_diagonal": [
+            1436658,
+            286046,
+            2293189
+          ]
+        },
+        {
+          "inverse_sigma_power": 1374,
+          "p_times_diagonal": [
+            1655210,
+            1491296,
+            2264263
+          ]
+        },
+        {
+          "inverse_sigma_power": 1380,
+          "p_times_diagonal": [
+            2383181,
+            2235337,
+            997947
+          ]
+        },
+        {
+          "inverse_sigma_power": 1386,
+          "p_times_diagonal": [
+            1517008,
+            1893046,
+            1605393
+          ]
+        },
+        {
+          "inverse_sigma_power": 1392,
+          "p_times_diagonal": [
+            1039729,
+            400143,
+            2347827
+          ]
+        },
+        {
+          "inverse_sigma_power": 1398,
+          "p_times_diagonal": [
+            2187127,
+            621909,
+            1300063
+          ]
+        },
+        {
+          "inverse_sigma_power": 1404,
+          "p_times_diagonal": [
+            1087939,
+            2257835,
+            2082672
+          ]
+        },
+        {
+          "inverse_sigma_power": 1410,
+          "p_times_diagonal": [
+            1420588,
+            457995,
+            327828
+          ]
+        },
+        {
+          "inverse_sigma_power": 1416,
+          "p_times_diagonal": [
+            1949291,
+            1690564,
+            229801
+          ]
+        },
+        {
+          "inverse_sigma_power": 1422,
+          "p_times_diagonal": [
+            2119633,
+            745648,
+            684582
+          ]
+        },
+        {
+          "inverse_sigma_power": 1428,
+          "p_times_diagonal": [
+            957772,
+            764932,
+            2289975
+          ]
+        },
+        {
+          "inverse_sigma_power": 1434,
+          "p_times_diagonal": [
+            1067048,
+            731185,
+            932060
+          ]
+        },
+        {
+          "inverse_sigma_power": 1440,
+          "p_times_diagonal": [
+            421034,
+            244264,
+            78743
+          ]
+        },
+        {
+          "inverse_sigma_power": 1446,
+          "p_times_diagonal": [
+            2251407,
+            1157040,
+            1071869
+          ]
+        },
+        {
+          "inverse_sigma_power": 1452,
+          "p_times_diagonal": [
+            134988,
+            80350,
+            1410946
+          ]
+        },
+        {
+          "inverse_sigma_power": 1458,
+          "p_times_diagonal": [
+            964200,
+            1550755,
+            1626284
+          ]
+        },
+        {
+          "inverse_sigma_power": 1464,
+          "p_times_diagonal": [
+            2167843,
+            944916,
+            2384788
+          ]
+        },
+        {
+          "inverse_sigma_power": 1470,
+          "p_times_diagonal": [
+            2275512,
+            1778949,
+            1725918
+          ]
+        },
+        {
+          "inverse_sigma_power": 1476,
+          "p_times_diagonal": [
+            1825552,
+            2257835,
+            326221
+          ]
+        },
+        {
+          "inverse_sigma_power": 1482,
+          "p_times_diagonal": [
+            835640,
+            1328989,
+            2101956
+          ]
+        },
+        {
+          "inverse_sigma_power": 1488,
+          "p_times_diagonal": [
+            1483261,
+            1605393,
+            2354255
+          ]
+        },
+        {
+          "inverse_sigma_power": 1494,
+          "p_times_diagonal": [
+            1615035,
+            2050532,
+            1354701
+          ]
+        },
+        {
+          "inverse_sigma_power": 1500,
+          "p_times_diagonal": [
+            343898,
+            654049,
+            1328989
+          ]
+        },
+        {
+          "inverse_sigma_power": 1506,
+          "p_times_diagonal": [
+            1126507,
+            81957,
+            1033301
+          ]
+        },
+        {
+          "inverse_sigma_power": 1512,
+          "p_times_diagonal": [
+            1823945,
+            2098742,
+            581734
+          ]
+        },
+        {
+          "inverse_sigma_power": 1518,
+          "p_times_diagonal": [
+            1634319,
+            1777342,
+            99634
+          ]
+        },
+        {
+          "inverse_sigma_power": 1524,
+          "p_times_diagonal": [
+            1435051,
+            1140970,
+            581734
+          ]
+        },
+        {
+          "inverse_sigma_power": 1530,
+          "p_times_diagonal": [
+            1312919,
+            96420,
+            1909116
+          ]
+        },
+        {
+          "inverse_sigma_power": 1536,
+          "p_times_diagonal": [
+            1563611,
+            592983,
+            2265870
+          ]
+        },
+        {
+          "inverse_sigma_power": 1542,
+          "p_times_diagonal": [
+            200875,
+            766539,
+            20891
+          ]
+        },
+        {
+          "inverse_sigma_power": 1548,
+          "p_times_diagonal": [
+            772967,
+            414606,
+            2127668
+          ]
+        },
+        {
+          "inverse_sigma_power": 1554,
+          "p_times_diagonal": [
+            764932,
+            2241765,
+            2492457
+          ]
+        },
+        {
+          "inverse_sigma_power": 1560,
+          "p_times_diagonal": [
+            1562004,
+            205696,
+            1031694
+          ]
+        },
+        {
+          "inverse_sigma_power": 1566,
+          "p_times_diagonal": [
+            2553523,
+            1303277,
+            1237390
+          ]
+        },
+        {
+          "inverse_sigma_power": 1572,
+          "p_times_diagonal": [
+            2073030,
+            1613428,
+            1660031
+          ]
+        },
+        {
+          "inverse_sigma_power": 1578,
+          "p_times_diagonal": [
+            1762879,
+            1134542,
+            192840
+          ]
+        },
+        {
+          "inverse_sigma_power": 1584,
+          "p_times_diagonal": [
+            1611821,
+            192840,
+            2211232
+          ]
+        },
+        {
+          "inverse_sigma_power": 1590,
+          "p_times_diagonal": [
+            499777,
+            1709848,
+            416213
+          ]
+        },
+        {
+          "inverse_sigma_power": 1596,
+          "p_times_diagonal": [
+            1364343,
+            457995,
+            1647175
+          ]
+        },
+        {
+          "inverse_sigma_power": 1602,
+          "p_times_diagonal": [
+            2048925,
+            345505,
+            2434605
+          ]
+        }
+      ]
+    },
+    {
+      "k": 1604,
+      "m": 1603,
+      "p_times_diagonal_mod_p2": [
+        845282,
+        1925186,
+        0
+      ],
+      "r_coefficient_after_exact_division": 1198,
+      "Ck_mod_p": 688,
+      "all_inverse_sigma_blocks": [
+        {
+          "inverse_sigma_power": 0,
+          "p_times_diagonal": [
+            843675,
+            372824,
+            1962147
+          ]
+        },
+        {
+          "inverse_sigma_power": 6,
+          "p_times_diagonal": [
+            1481654,
+            2156594,
+            851710
+          ]
+        },
+        {
+          "inverse_sigma_power": 12,
+          "p_times_diagonal": [
+            1190787,
+            1283993,
+            567271
+          ]
+        },
+        {
+          "inverse_sigma_power": 18,
+          "p_times_diagonal": [
+            737613,
+            1619856,
+            1579681
+          ]
+        },
+        {
+          "inverse_sigma_power": 24,
+          "p_times_diagonal": [
+            1385234,
+            1976610,
+            1083118
+          ]
+        },
+        {
+          "inverse_sigma_power": 30,
+          "p_times_diagonal": [
+            1587716,
+            1030087,
+            1764486
+          ]
+        },
+        {
+          "inverse_sigma_power": 36,
+          "p_times_diagonal": [
+            144630,
+            988305,
+            1451121
+          ]
+        },
+        {
+          "inverse_sigma_power": 42,
+          "p_times_diagonal": [
+            2122847,
+            846889,
+            2405679
+          ]
+        },
+        {
+          "inverse_sigma_power": 48,
+          "p_times_diagonal": [
+            859745,
+            716722,
+            1010803
+          ]
+        },
+        {
+          "inverse_sigma_power": 54,
+          "p_times_diagonal": [
+            543166,
+            1851264,
+            2516562
+          ]
+        },
+        {
+          "inverse_sigma_power": 60,
+          "p_times_diagonal": [
+            152665,
+            1465584,
+            1637533
+          ]
+        },
+        {
+          "inverse_sigma_power": 66,
+          "p_times_diagonal": [
+            1632712,
+            2124454,
+            515847
+          ]
+        },
+        {
+          "inverse_sigma_power": 72,
+          "p_times_diagonal": [
+            1087939,
+            1123293,
+            716722
+          ]
+        },
+        {
+          "inverse_sigma_power": 78,
+          "p_times_diagonal": [
+            700652,
+            2040890,
+            1100795
+          ]
+        },
+        {
+          "inverse_sigma_power": 84,
+          "p_times_diagonal": [
+            858138,
+            1827159,
+            1934828
+          ]
+        },
+        {
+          "inverse_sigma_power": 90,
+          "p_times_diagonal": [
+            2151773,
+            2019999,
+            2508527
+          ]
+        },
+        {
+          "inverse_sigma_power": 96,
+          "p_times_diagonal": [
+            2061781,
+            692617,
+            2005536
+          ]
+        },
+        {
+          "inverse_sigma_power": 102,
+          "p_times_diagonal": [
+            2548702,
+            2463531,
+            483707
+          ]
+        },
+        {
+          "inverse_sigma_power": 108,
+          "p_times_diagonal": [
+            1398090,
+            1607000,
+            1607
+          ]
+        },
+        {
+          "inverse_sigma_power": 114,
+          "p_times_diagonal": [
+            179984,
+            295688,
+            48210
+          ]
+        },
+        {
+          "inverse_sigma_power": 120,
+          "p_times_diagonal": [
+            445139,
+            213731,
+            478886
+          ]
+        },
+        {
+          "inverse_sigma_power": 126,
+          "p_times_diagonal": [
+            670119,
+            1227748,
+            2539060
+          ]
+        },
+        {
+          "inverse_sigma_power": 132,
+          "p_times_diagonal": [
+            1912330,
+            628337,
+            1238997
+          ]
+        },
+        {
+          "inverse_sigma_power": 138,
+          "p_times_diagonal": [
+            1449514,
+            2056960,
+            313365
+          ]
+        },
+        {
+          "inverse_sigma_power": 144,
+          "p_times_diagonal": [
+            2101956,
+            681368,
+            228194
+          ]
+        },
+        {
+          "inverse_sigma_power": 150,
+          "p_times_diagonal": [
+            2363897,
+            1470405,
+            488528
+          ]
+        },
+        {
+          "inverse_sigma_power": 156,
+          "p_times_diagonal": [
+            46603,
+            758504,
+            1171503
+          ]
+        },
+        {
+          "inverse_sigma_power": 162,
+          "p_times_diagonal": [
+            535131,
+            1558790,
+            798679
+          ]
+        },
+        {
+          "inverse_sigma_power": 168,
+          "p_times_diagonal": [
+            2343006,
+            2543881,
+            2336578
+          ]
+        },
+        {
+          "inverse_sigma_power": 174,
+          "p_times_diagonal": [
+            2097135,
+            719936,
+            20891
+          ]
+        },
+        {
+          "inverse_sigma_power": 180,
+          "p_times_diagonal": [
+            1367557,
+            1038122,
+            335863
+          ]
+        },
+        {
+          "inverse_sigma_power": 186,
+          "p_times_diagonal": [
+            2434605,
+            1455942,
+            766539
+          ]
+        },
+        {
+          "inverse_sigma_power": 192,
+          "p_times_diagonal": [
+            964200,
+            2217660,
+            1099188
+          ]
+        },
+        {
+          "inverse_sigma_power": 198,
+          "p_times_diagonal": [
+            686189,
+            832426,
+            1619856
+          ]
+        },
+        {
+          "inverse_sigma_power": 204,
+          "p_times_diagonal": [
+            1380413,
+            1210071,
+            1475226
+          ]
+        },
+        {
+          "inverse_sigma_power": 210,
+          "p_times_diagonal": [
+            2477994,
+            1377199,
+            43389
+          ]
+        },
+        {
+          "inverse_sigma_power": 216,
+          "p_times_diagonal": [
+            499777,
+            1402911,
+            1831980
+          ]
+        },
+        {
+          "inverse_sigma_power": 222,
+          "p_times_diagonal": [
+            1714669,
+            1541113,
+            2378360
+          ]
+        },
+        {
+          "inverse_sigma_power": 228,
+          "p_times_diagonal": [
+            1002768,
+            975449,
+            1306491
+          ]
+        },
+        {
+          "inverse_sigma_power": 234,
+          "p_times_diagonal": [
+            2315687,
+            1047764,
+            2034462
+          ]
+        },
+        {
+          "inverse_sigma_power": 240,
+          "p_times_diagonal": [
+            912776,
+            1533078,
+            2267477
+          ]
+        },
+        {
+          "inverse_sigma_power": 246,
+          "p_times_diagonal": [
+            1330596,
+            1836801,
+            2392823
+          ]
+        },
+        {
+          "inverse_sigma_power": 252,
+          "p_times_diagonal": [
+            1806268,
+            184805,
+            740827
+          ]
+        },
+        {
+          "inverse_sigma_power": 258,
+          "p_times_diagonal": [
+            155879,
+            191233,
+            825998
+          ]
+        },
+        {
+          "inverse_sigma_power": 264,
+          "p_times_diagonal": [
+            2275512,
+            146237,
+            2100349
+          ]
+        },
+        {
+          "inverse_sigma_power": 270,
+          "p_times_diagonal": [
+            143023,
+            313365,
+            1166682
+          ]
+        },
+        {
+          "inverse_sigma_power": 276,
+          "p_times_diagonal": [
+            488528,
+            2452282,
+            779395
+          ]
+        },
+        {
+          "inverse_sigma_power": 282,
+          "p_times_diagonal": [
+            1873762,
+            1973396,
+            2539060
+          ]
+        },
+        {
+          "inverse_sigma_power": 288,
+          "p_times_diagonal": [
+            1214892,
+            1023659,
+            2444247
+          ]
+        },
+        {
+          "inverse_sigma_power": 294,
+          "p_times_diagonal": [
+            268369,
+            1595751,
+            128560
+          ]
+        },
+        {
+          "inverse_sigma_power": 300,
+          "p_times_diagonal": [
+            1081511,
+            171949,
+            2399251
+          ]
+        },
+        {
+          "inverse_sigma_power": 306,
+          "p_times_diagonal": [
+            2293189,
+            1118472,
+            891885
+          ]
+        },
+        {
+          "inverse_sigma_power": 312,
+          "p_times_diagonal": [
+            454781,
+            278011,
+            1971789
+          ]
+        },
+        {
+          "inverse_sigma_power": 318,
+          "p_times_diagonal": [
+            559236,
+            740827,
+            2423356
+          ]
+        },
+        {
+          "inverse_sigma_power": 324,
+          "p_times_diagonal": [
+            1427016,
+            991519,
+            392108
+          ]
+        },
+        {
+          "inverse_sigma_power": 330,
+          "p_times_diagonal": [
+            1324168,
+            2285154,
+            1777342
+          ]
+        },
+        {
+          "inverse_sigma_power": 336,
+          "p_times_diagonal": [
+            535131,
+            694224,
+            2092314
+          ]
+        },
+        {
+          "inverse_sigma_power": 342,
+          "p_times_diagonal": [
+            695831,
+            996340,
+            805107
+          ]
+        },
+        {
+          "inverse_sigma_power": 348,
+          "p_times_diagonal": [
+            670119,
+            829212,
+            705473
+          ]
+        },
+        {
+          "inverse_sigma_power": 354,
+          "p_times_diagonal": [
+            2328543,
+            1823945,
+            2553523
+          ]
+        },
+        {
+          "inverse_sigma_power": 360,
+          "p_times_diagonal": [
+            1968575,
+            2368718,
+            347112
+          ]
+        },
+        {
+          "inverse_sigma_power": 366,
+          "p_times_diagonal": [
+            160700,
+            306937,
+            2371932
+          ]
+        },
+        {
+          "inverse_sigma_power": 372,
+          "p_times_diagonal": [
+            2468352,
+            1971789,
+            543166
+          ]
+        },
+        {
+          "inverse_sigma_power": 378,
+          "p_times_diagonal": [
+            1565218,
+            247478,
+            49817
+          ]
+        },
+        {
+          "inverse_sigma_power": 384,
+          "p_times_diagonal": [
+            515847,
+            1626284,
+            1939649
+          ]
+        },
+        {
+          "inverse_sigma_power": 390,
+          "p_times_diagonal": [
+            1444693,
+            1666459,
+            24105
+          ]
+        },
+        {
+          "inverse_sigma_power": 396,
+          "p_times_diagonal": [
+            457995,
+            2019999,
+            2241765
+          ]
+        },
+        {
+          "inverse_sigma_power": 402,
+          "p_times_diagonal": [
+            1920365,
+            226587,
+            1883404
+          ]
+        },
+        {
+          "inverse_sigma_power": 408,
+          "p_times_diagonal": [
+            2563165,
+            255513,
+            1488082
+          ]
+        },
+        {
+          "inverse_sigma_power": 414,
+          "p_times_diagonal": [
+            948130,
+            1738774,
+            28926
+          ]
+        },
+        {
+          "inverse_sigma_power": 420,
+          "p_times_diagonal": [
+            655656,
+            2024820,
+            612267
+          ]
+        },
+        {
+          "inverse_sigma_power": 426,
+          "p_times_diagonal": [
+            1920365,
+            110883,
+            1222927
+          ]
+        },
+        {
+          "inverse_sigma_power": 432,
+          "p_times_diagonal": [
+            2148559,
+            1097581,
+            1362736
+          ]
+        },
+        {
+          "inverse_sigma_power": 438,
+          "p_times_diagonal": [
+            1385234,
+            1560397,
+            274797
+          ]
+        },
+        {
+          "inverse_sigma_power": 444,
+          "p_times_diagonal": [
+            2529418,
+            1203643,
+            1046157
+          ]
+        },
+        {
+          "inverse_sigma_power": 450,
+          "p_times_diagonal": [
+            1851264,
+            2476387,
+            1410946
+          ]
+        },
+        {
+          "inverse_sigma_power": 456,
+          "p_times_diagonal": [
+            2259442,
+            2558344,
+            149451
+          ]
+        },
+        {
+          "inverse_sigma_power": 462,
+          "p_times_diagonal": [
+            184805,
+            2113205,
+            2150166
+          ]
+        },
+        {
+          "inverse_sigma_power": 468,
+          "p_times_diagonal": [
+            1611821,
+            1062227,
+            329435
+          ]
+        },
+        {
+          "inverse_sigma_power": 474,
+          "p_times_diagonal": [
+            486921,
+            2288368,
+            1931614
+          ]
+        },
+        {
+          "inverse_sigma_power": 480,
+          "p_times_diagonal": [
+            102848,
+            1067048,
+            1844836
+          ]
+        },
+        {
+          "inverse_sigma_power": 486,
+          "p_times_diagonal": [
+            580127,
+            443532,
+            1333810
+          ]
+        },
+        {
+          "inverse_sigma_power": 492,
+          "p_times_diagonal": [
+            441925,
+            2397644,
+            671726
+          ]
+        },
+        {
+          "inverse_sigma_power": 498,
+          "p_times_diagonal": [
+            1264709,
+            1708241,
+            1857692
+          ]
+        },
+        {
+          "inverse_sigma_power": 504,
+          "p_times_diagonal": [
+            266762,
+            1152219,
+            750469
+          ]
+        },
+        {
+          "inverse_sigma_power": 510,
+          "p_times_diagonal": [
+            1104009,
+            308544,
+            1113651
+          ]
+        },
+        {
+          "inverse_sigma_power": 516,
+          "p_times_diagonal": [
+            808321,
+            952951,
+            817963
+          ]
+        },
+        {
+          "inverse_sigma_power": 522,
+          "p_times_diagonal": [
+            1729132,
+            2208018,
+            1128114
+          ]
+        },
+        {
+          "inverse_sigma_power": 528,
+          "p_times_diagonal": [
+            1235783,
+            1758058,
+            1844836
+          ]
+        },
+        {
+          "inverse_sigma_power": 534,
+          "p_times_diagonal": [
+            2018392,
+            2019999,
+            2535846
+          ]
+        },
+        {
+          "inverse_sigma_power": 540,
+          "p_times_diagonal": [
+            2182306,
+            1226141,
+            2175878
+          ]
+        },
+        {
+          "inverse_sigma_power": 546,
+          "p_times_diagonal": [
+            941702,
+            1095974,
+            2576021
+          ]
+        },
+        {
+          "inverse_sigma_power": 552,
+          "p_times_diagonal": [
+            708687,
+            2071423,
+            110883
+          ]
+        },
+        {
+          "inverse_sigma_power": 558,
+          "p_times_diagonal": [
+            609053,
+            2281940,
+            1059013
+          ]
+        },
+        {
+          "inverse_sigma_power": 564,
+          "p_times_diagonal": [
+            1004375,
+            1923579,
+            2355862
+          ]
+        },
+        {
+          "inverse_sigma_power": 570,
+          "p_times_diagonal": [
+            488528,
+            2432998,
+            1986252
+          ]
+        },
+        {
+          "inverse_sigma_power": 576,
+          "p_times_diagonal": [
+            2262656,
+            1427016,
+            1680922
+          ]
+        },
+        {
+          "inverse_sigma_power": 582,
+          "p_times_diagonal": [
+            560843,
+            1553969,
+            1451121
+          ]
+        },
+        {
+          "inverse_sigma_power": 588,
+          "p_times_diagonal": [
+            742434,
+            772967,
+            1750023
+          ]
+        },
+        {
+          "inverse_sigma_power": 594,
+          "p_times_diagonal": [
+            208910,
+            877422,
+            1038122
+          ]
+        },
+        {
+          "inverse_sigma_power": 600,
+          "p_times_diagonal": [
+            1380413,
+            1607,
+            141416
+          ]
+        },
+        {
+          "inverse_sigma_power": 606,
+          "p_times_diagonal": [
+            1023659,
+            1320954,
+            1359522
+          ]
+        },
+        {
+          "inverse_sigma_power": 612,
+          "p_times_diagonal": [
+            1693778,
+            1399697,
+            2241765
+          ]
+        },
+        {
+          "inverse_sigma_power": 618,
+          "p_times_diagonal": [
+            1391662,
+            1230962,
+            88385
+          ]
+        },
+        {
+          "inverse_sigma_power": 624,
+          "p_times_diagonal": [
+            932060,
+            829212,
+            631551
+          ]
+        },
+        {
+          "inverse_sigma_power": 630,
+          "p_times_diagonal": [
+            1639140,
+            239443,
+            1267923
+          ]
+        },
+        {
+          "inverse_sigma_power": 636,
+          "p_times_diagonal": [
+            231408,
+            99634,
+            440318
+          ]
+        },
+        {
+          "inverse_sigma_power": 642,
+          "p_times_diagonal": [
+            1382020,
+            1316133,
+            2397644
+          ]
+        },
+        {
+          "inverse_sigma_power": 648,
+          "p_times_diagonal": [
+            2142131,
+            350326,
+            814749
+          ]
+        },
+        {
+          "inverse_sigma_power": 654,
+          "p_times_diagonal": [
+            239443,
+            1264709,
+            1026873
+          ]
+        },
+        {
+          "inverse_sigma_power": 660,
+          "p_times_diagonal": [
+            1733953,
+            2182306,
+            2416928
+          ]
+        },
+        {
+          "inverse_sigma_power": 666,
+          "p_times_diagonal": [
+            1094367,
+            1930007,
+            2328543
+          ]
+        },
+        {
+          "inverse_sigma_power": 672,
+          "p_times_diagonal": [
+            2339792,
+            91599,
+            596197
+          ]
+        },
+        {
+          "inverse_sigma_power": 678,
+          "p_times_diagonal": [
+            40175,
+            1120079,
+            1067048
+          ]
+        },
+        {
+          "inverse_sigma_power": 684,
+          "p_times_diagonal": [
+            1700206,
+            1930007,
+            1288814
+          ]
+        },
+        {
+          "inverse_sigma_power": 690,
+          "p_times_diagonal": [
+            327828,
+            903134,
+            768146
+          ]
+        },
+        {
+          "inverse_sigma_power": 696,
+          "p_times_diagonal": [
+            371217,
+            1785377,
+            2460317
+          ]
+        },
+        {
+          "inverse_sigma_power": 702,
+          "p_times_diagonal": [
+            134988,
+            2336578,
+            1508973
+          ]
+        },
+        {
+          "inverse_sigma_power": 708,
+          "p_times_diagonal": [
+            1496117,
+            1391662,
+            114097
+          ]
+        },
+        {
+          "inverse_sigma_power": 714,
+          "p_times_diagonal": [
+            1147398,
+            1028480,
+            1897867
+          ]
+        },
+        {
+          "inverse_sigma_power": 720,
+          "p_times_diagonal": [
+            882243,
+            54638,
+            1709848
+          ]
+        },
+        {
+          "inverse_sigma_power": 726,
+          "p_times_diagonal": [
+            647621,
+            260334,
+            1288814
+          ]
+        },
+        {
+          "inverse_sigma_power": 732,
+          "p_times_diagonal": [
+            883850,
+            822784,
+            1735560
+          ]
+        },
+        {
+          "inverse_sigma_power": 738,
+          "p_times_diagonal": [
+            1364343,
+            716722,
+            1576467
+          ]
+        },
+        {
+          "inverse_sigma_power": 744,
+          "p_times_diagonal": [
+            1888225,
+            977056,
+            1870548
+          ]
+        },
+        {
+          "inverse_sigma_power": 750,
+          "p_times_diagonal": [
+            1870548,
+            2084279,
+            2069816
+          ]
+        },
+        {
+          "inverse_sigma_power": 756,
+          "p_times_diagonal": [
+            44996,
+            1447907,
+            2095528
+          ]
+        },
+        {
+          "inverse_sigma_power": 762,
+          "p_times_diagonal": [
+            956165,
+            1727525,
+            1121686
+          ]
+        },
+        {
+          "inverse_sigma_power": 768,
+          "p_times_diagonal": [
+            91599,
+            472458,
+            2463531
+          ]
+        },
+        {
+          "inverse_sigma_power": 774,
+          "p_times_diagonal": [
+            2098742,
+            1531471,
+            162307
+          ]
+        },
+        {
+          "inverse_sigma_power": 780,
+          "p_times_diagonal": [
+            618695,
+            676547,
+            2261049
+          ]
+        },
+        {
+          "inverse_sigma_power": 786,
+          "p_times_diagonal": [
+            623516,
+            1325775,
+            46603
+          ]
+        },
+        {
+          "inverse_sigma_power": 792,
+          "p_times_diagonal": [
+            2032855,
+            1004375,
+            192840
+          ]
+        },
+        {
+          "inverse_sigma_power": 798,
+          "p_times_diagonal": [
+            1113651,
+            1018838,
+            316579
+          ]
+        },
+        {
+          "inverse_sigma_power": 804,
+          "p_times_diagonal": [
+            2248193,
+            1367557,
+            1523436
+          ]
+        },
+        {
+          "inverse_sigma_power": 810,
+          "p_times_diagonal": [
+            414606,
+            1248639,
+            817963
+          ]
+        },
+        {
+          "inverse_sigma_power": 816,
+          "p_times_diagonal": [
+            1102402,
+            1346666,
+            380859
+          ]
+        },
+        {
+          "inverse_sigma_power": 822,
+          "p_times_diagonal": [
+            380859,
+            379252,
+            761718
+          ]
+        },
+        {
+          "inverse_sigma_power": 828,
+          "p_times_diagonal": [
+            1055799,
+            2561558,
+            2354255
+          ]
+        },
+        {
+          "inverse_sigma_power": 834,
+          "p_times_diagonal": [
+            837247,
+            2428177,
+            1398090
+          ]
+        },
+        {
+          "inverse_sigma_power": 840,
+          "p_times_diagonal": [
+            2318901,
+            2243372,
+            65887
+          ]
+        },
+        {
+          "inverse_sigma_power": 846,
+          "p_times_diagonal": [
+            994733,
+            2220874,
+            366396
+          ]
+        },
+        {
+          "inverse_sigma_power": 852,
+          "p_times_diagonal": [
+            2045711,
+            242657,
+            143023
+          ]
+        },
+        {
+          "inverse_sigma_power": 858,
+          "p_times_diagonal": [
+            752076,
+            676547,
+            1354701
+          ]
+        },
+        {
+          "inverse_sigma_power": 864,
+          "p_times_diagonal": [
+            565664,
+            727971,
+            2130882
+          ]
+        },
+        {
+          "inverse_sigma_power": 870,
+          "p_times_diagonal": [
+            395322,
+            1489689,
+            2074637
+          ]
+        },
+        {
+          "inverse_sigma_power": 876,
+          "p_times_diagonal": [
+            2347827,
+            1202036,
+            1132935
+          ]
+        },
+        {
+          "inverse_sigma_power": 882,
+          "p_times_diagonal": [
+            69101,
+            2285154,
+            692617
+          ]
+        },
+        {
+          "inverse_sigma_power": 888,
+          "p_times_diagonal": [
+            1537899,
+            1965361,
+            1245425
+          ]
+        },
+        {
+          "inverse_sigma_power": 894,
+          "p_times_diagonal": [
+            808321,
+            737613,
+            649228
+          ]
+        },
+        {
+          "inverse_sigma_power": 900,
+          "p_times_diagonal": [
+            626730,
+            2481208,
+            1758058
+          ]
+        },
+        {
+          "inverse_sigma_power": 906,
+          "p_times_diagonal": [
+            1303277,
+            1139363,
+            599411
+          ]
+        },
+        {
+          "inverse_sigma_power": 912,
+          "p_times_diagonal": [
+            2278726,
+            411392,
+            453174
+          ]
+        },
+        {
+          "inverse_sigma_power": 918,
+          "p_times_diagonal": [
+            9642,
+            2024820,
+            2304438
+          ]
+        },
+        {
+          "inverse_sigma_power": 924,
+          "p_times_diagonal": [
+            2296403,
+            1822338,
+            546380
+          ]
+        },
+        {
+          "inverse_sigma_power": 930,
+          "p_times_diagonal": [
+            1581288,
+            1245425,
+            2118026
+          ]
+        },
+        {
+          "inverse_sigma_power": 936,
+          "p_times_diagonal": [
+            991519,
+            1443086,
+            1370771
+          ]
+        },
+        {
+          "inverse_sigma_power": 942,
+          "p_times_diagonal": [
+            2026427,
+            854924,
+            2306045
+          ]
+        },
+        {
+          "inverse_sigma_power": 948,
+          "p_times_diagonal": [
+            114097,
+            2090707,
+            2482815
+          ]
+        },
+        {
+          "inverse_sigma_power": 954,
+          "p_times_diagonal": [
+            1171503,
+            461209,
+            1367557
+          ]
+        },
+        {
+          "inverse_sigma_power": 960,
+          "p_times_diagonal": [
+            1684136,
+            110883,
+            1950898
+          ]
+        },
+        {
+          "inverse_sigma_power": 966,
+          "p_times_diagonal": [
+            1328989,
+            123739,
+            862959
+          ]
+        },
+        {
+          "inverse_sigma_power": 972,
+          "p_times_diagonal": [
+            1157040,
+            273190,
+            2073030
+          ]
+        },
+        {
+          "inverse_sigma_power": 978,
+          "p_times_diagonal": [
+            414606,
+            567271,
+            86778
+          ]
+        },
+        {
+          "inverse_sigma_power": 984,
+          "p_times_diagonal": [
+            1756451,
+            1126507,
+            1769307
+          ]
+        },
+        {
+          "inverse_sigma_power": 990,
+          "p_times_diagonal": [
+            2389609,
+            461209,
+            287653
+          ]
+        },
+        {
+          "inverse_sigma_power": 996,
+          "p_times_diagonal": [
+            893492,
+            1518615,
+            2343006
+          ]
+        },
+        {
+          "inverse_sigma_power": 1002,
+          "p_times_diagonal": [
+            247478,
+            1203643,
+            1666459
+          ]
+        },
+        {
+          "inverse_sigma_power": 1008,
+          "p_times_diagonal": [
+            1171503,
+            1203643,
+            1399697
+          ]
+        },
+        {
+          "inverse_sigma_power": 1014,
+          "p_times_diagonal": [
+            1790198,
+            2039283,
+            753683
+          ]
+        },
+        {
+          "inverse_sigma_power": 1020,
+          "p_times_diagonal": [
+            901527,
+            390501,
+            1592537
+          ]
+        },
+        {
+          "inverse_sigma_power": 1026,
+          "p_times_diagonal": [
+            2121240,
+            1425409,
+            1436658
+          ]
+        },
+        {
+          "inverse_sigma_power": 1032,
+          "p_times_diagonal": [
+            1573253,
+            2375146,
+            147844
+          ]
+        },
+        {
+          "inverse_sigma_power": 1038,
+          "p_times_diagonal": [
+            1245425,
+            838854,
+            1415767
+          ]
+        },
+        {
+          "inverse_sigma_power": 1044,
+          "p_times_diagonal": [
+            2397644,
+            2352648,
+            1650389
+          ]
+        },
+        {
+          "inverse_sigma_power": 1050,
+          "p_times_diagonal": [
+            1169896,
+            1393269,
+            1637533
+          ]
+        },
+        {
+          "inverse_sigma_power": 1056,
+          "p_times_diagonal": [
+            2432998,
+            1179538,
+            718329
+          ]
+        },
+        {
+          "inverse_sigma_power": 1062,
+          "p_times_diagonal": [
+            851710,
+            2089100,
+            1415767
+          ]
+        },
+        {
+          "inverse_sigma_power": 1068,
+          "p_times_diagonal": [
+            1525043,
+            792251,
+            359968
+          ]
+        },
+        {
+          "inverse_sigma_power": 1074,
+          "p_times_diagonal": [
+            1640747,
+            1979824,
+            2079458
+          ]
+        },
+        {
+          "inverse_sigma_power": 1080,
+          "p_times_diagonal": [
+            1592537,
+            1631105,
+            649228
+          ]
+        },
+        {
+          "inverse_sigma_power": 1086,
+          "p_times_diagonal": [
+            1417374,
+            133381,
+            1780556
+          ]
+        },
+        {
+          "inverse_sigma_power": 1092,
+          "p_times_diagonal": [
+            1753237,
+            1041336,
+            1320954
+          ]
+        },
+        {
+          "inverse_sigma_power": 1098,
+          "p_times_diagonal": [
+            752076,
+            1335417,
+            162307
+          ]
+        },
+        {
+          "inverse_sigma_power": 1104,
+          "p_times_diagonal": [
+            1912330,
+            2309259,
+            527096
+          ]
+        },
+        {
+          "inverse_sigma_power": 1110,
+          "p_times_diagonal": [
+            2415321,
+            2416928,
+            750469
+          ]
+        },
+        {
+          "inverse_sigma_power": 1116,
+          "p_times_diagonal": [
+            297295,
+            1129721,
+            967414
+          ]
+        },
+        {
+          "inverse_sigma_power": 1122,
+          "p_times_diagonal": [
+            1504152,
+            846889,
+            1060620
+          ]
+        },
+        {
+          "inverse_sigma_power": 1128,
+          "p_times_diagonal": [
+            1076690,
+            1873762,
+            769753
+          ]
+        },
+        {
+          "inverse_sigma_power": 1134,
+          "p_times_diagonal": [
+            1886618,
+            1152219,
+            2318901
+          ]
+        },
+        {
+          "inverse_sigma_power": 1140,
+          "p_times_diagonal": [
+            626730,
+            1208464,
+            2355862
+          ]
+        },
+        {
+          "inverse_sigma_power": 1146,
+          "p_times_diagonal": [
+            242657,
+            1553969,
+            1115258
+          ]
+        },
+        {
+          "inverse_sigma_power": 1152,
+          "p_times_diagonal": [
+            1812696,
+            2222481,
+            1206857
+          ]
+        },
+        {
+          "inverse_sigma_power": 1158,
+          "p_times_diagonal": [
+            1092760,
+            1550755,
+            2249800
+          ]
+        },
+        {
+          "inverse_sigma_power": 1164,
+          "p_times_diagonal": [
+            1566825,
+            650835,
+            2362290
+          ]
+        },
+        {
+          "inverse_sigma_power": 1170,
+          "p_times_diagonal": [
+            83564,
+            1279172,
+            247478
+          ]
+        },
+        {
+          "inverse_sigma_power": 1176,
+          "p_times_diagonal": [
+            525489,
+            875815,
+            2514955
+          ]
+        },
+        {
+          "inverse_sigma_power": 1182,
+          "p_times_diagonal": [
+            781002,
+            980270,
+            2465138
+          ]
+        },
+        {
+          "inverse_sigma_power": 1188,
+          "p_times_diagonal": [
+            2074637,
+            755290,
+            1229355
+          ]
+        },
+        {
+          "inverse_sigma_power": 1194,
+          "p_times_diagonal": [
+            0,
+            139809,
+            2159808
+          ]
+        },
+        {
+          "inverse_sigma_power": 1200,
+          "p_times_diagonal": [
+            1222927,
+            2134096,
+            1955719
+          ]
+        },
+        {
+          "inverse_sigma_power": 1206,
+          "p_times_diagonal": [
+            1165075,
+            1607000,
+            972235
+          ]
+        },
+        {
+          "inverse_sigma_power": 1212,
+          "p_times_diagonal": [
+            48210,
+            1997501,
+            1472012
+          ]
+        },
+        {
+          "inverse_sigma_power": 1218,
+          "p_times_diagonal": [
+            634765,
+            1116865,
+            1386841
+          ]
+        },
+        {
+          "inverse_sigma_power": 1224,
+          "p_times_diagonal": [
+            2204804,
+            941702,
+            2256228
+          ]
+        },
+        {
+          "inverse_sigma_power": 1230,
+          "p_times_diagonal": [
+            763325,
+            1984645,
+            2407286
+          ]
+        },
+        {
+          "inverse_sigma_power": 1236,
+          "p_times_diagonal": [
+            101241,
+            1778949,
+            237836
+          ]
+        },
+        {
+          "inverse_sigma_power": 1242,
+          "p_times_diagonal": [
+            1674494,
+            141416,
+            223373
+          ]
+        },
+        {
+          "inverse_sigma_power": 1248,
+          "p_times_diagonal": [
+            1790198,
+            674940,
+            409785
+          ]
+        },
+        {
+          "inverse_sigma_power": 1254,
+          "p_times_diagonal": [
+            1211678,
+            866173,
+            109276
+          ]
+        },
+        {
+          "inverse_sigma_power": 1260,
+          "p_times_diagonal": [
+            756897,
+            36961,
+            2000715
+          ]
+        },
+        {
+          "inverse_sigma_power": 1266,
+          "p_times_diagonal": [
+            2527811,
+            556022,
+            24105
+          ]
+        },
+        {
+          "inverse_sigma_power": 1272,
+          "p_times_diagonal": [
+            1438265,
+            657263,
+            2286761
+          ]
+        },
+        {
+          "inverse_sigma_power": 1278,
+          "p_times_diagonal": [
+            433890,
+            2392823,
+            1391662
+          ]
+        },
+        {
+          "inverse_sigma_power": 1284,
+          "p_times_diagonal": [
+            716722,
+            2126061,
+            1918758
+          ]
+        },
+        {
+          "inverse_sigma_power": 1290,
+          "p_times_diagonal": [
+            1121686,
+            928846,
+            1475226
+          ]
+        },
+        {
+          "inverse_sigma_power": 1296,
+          "p_times_diagonal": [
+            723150,
+            1054192,
+            2109991
+          ]
+        },
+        {
+          "inverse_sigma_power": 1302,
+          "p_times_diagonal": [
+            258727,
+            1293635,
+            562450
+          ]
+        },
+        {
+          "inverse_sigma_power": 1308,
+          "p_times_diagonal": [
+            1970182,
+            228194,
+            2032855
+          ]
+        },
+        {
+          "inverse_sigma_power": 1314,
+          "p_times_diagonal": [
+            2347827,
+            843675,
+            422641
+          ]
+        },
+        {
+          "inverse_sigma_power": 1320,
+          "p_times_diagonal": [
+            930453,
+            2468352,
+            2175878
+          ]
+        },
+        {
+          "inverse_sigma_power": 1326,
+          "p_times_diagonal": [
+            120525,
+            2050532,
+            1028480
+          ]
+        },
+        {
+          "inverse_sigma_power": 1332,
+          "p_times_diagonal": [
+            1346666,
+            1015624,
+            1439872
+          ]
+        },
+        {
+          "inverse_sigma_power": 1338,
+          "p_times_diagonal": [
+            2534239,
+            199268,
+            157486
+          ]
+        },
+        {
+          "inverse_sigma_power": 1344,
+          "p_times_diagonal": [
+            644407,
+            1319347,
+            260334
+          ]
+        },
+        {
+          "inverse_sigma_power": 1350,
+          "p_times_diagonal": [
+            234622,
+            835640,
+            2561558
+          ]
+        },
+        {
+          "inverse_sigma_power": 1356,
+          "p_times_diagonal": [
+            204089,
+            2371932,
+            2188734
+          ]
+        },
+        {
+          "inverse_sigma_power": 1362,
+          "p_times_diagonal": [
+            1904295,
+            2455496,
+            613874
+          ]
+        },
+        {
+          "inverse_sigma_power": 1368,
+          "p_times_diagonal": [
+            2513348,
+            298902,
+            1531471
+          ]
+        },
+        {
+          "inverse_sigma_power": 1374,
+          "p_times_diagonal": [
+            1562004,
+            774574,
+            131774
+          ]
+        },
+        {
+          "inverse_sigma_power": 1380,
+          "p_times_diagonal": [
+            1214892,
+            374431,
+            2513348
+          ]
+        },
+        {
+          "inverse_sigma_power": 1386,
+          "p_times_diagonal": [
+            2388002,
+            2428177,
+            141416
+          ]
+        },
+        {
+          "inverse_sigma_power": 1392,
+          "p_times_diagonal": [
+            1194001,
+            1116865,
+            2450675
+          ]
+        },
+        {
+          "inverse_sigma_power": 1398,
+          "p_times_diagonal": [
+            1200429,
+            1997501,
+            2111598
+          ]
+        },
+        {
+          "inverse_sigma_power": 1404,
+          "p_times_diagonal": [
+            1598965,
+            557629,
+            837247
+          ]
+        },
+        {
+          "inverse_sigma_power": 1410,
+          "p_times_diagonal": [
+            1357915,
+            1144184,
+            2312473
+          ]
+        },
+        {
+          "inverse_sigma_power": 1416,
+          "p_times_diagonal": [
+            660477,
+            1536292,
+            694224
+          ]
+        },
+        {
+          "inverse_sigma_power": 1422,
+          "p_times_diagonal": [
+            404964,
+            2391216,
+            1552362
+          ]
+        },
+        {
+          "inverse_sigma_power": 1428,
+          "p_times_diagonal": [
+            2383181,
+            681368,
+            1566825
+          ]
+        },
+        {
+          "inverse_sigma_power": 1434,
+          "p_times_diagonal": [
+            89992,
+            432283,
+            2299617
+          ]
+        },
+        {
+          "inverse_sigma_power": 1440,
+          "p_times_diagonal": [
+            1780556,
+            859745,
+            2343006
+          ]
+        },
+        {
+          "inverse_sigma_power": 1446,
+          "p_times_diagonal": [
+            1854478,
+            557629,
+            388894
+          ]
+        },
+        {
+          "inverse_sigma_power": 1452,
+          "p_times_diagonal": [
+            977056,
+            739220,
+            1621463
+          ]
+        },
+        {
+          "inverse_sigma_power": 1458,
+          "p_times_diagonal": [
+            2169450,
+            1171503,
+            1836801
+          ]
+        },
+        {
+          "inverse_sigma_power": 1464,
+          "p_times_diagonal": [
+            1480047,
+            207303,
+            2408893
+          ]
+        },
+        {
+          "inverse_sigma_power": 1470,
+          "p_times_diagonal": [
+            1055799,
+            400143,
+            1488082
+          ]
+        },
+        {
+          "inverse_sigma_power": 1476,
+          "p_times_diagonal": [
+            199268,
+            702259,
+            2108384
+          ]
+        },
+        {
+          "inverse_sigma_power": 1482,
+          "p_times_diagonal": [
+            991519,
+            1743595,
+            1041336
+          ]
+        },
+        {
+          "inverse_sigma_power": 1488,
+          "p_times_diagonal": [
+            1243818,
+            467637,
+            768146
+          ]
+        },
+        {
+          "inverse_sigma_power": 1494,
+          "p_times_diagonal": [
+            1981431,
+            1446300,
+            438711
+          ]
+        },
+        {
+          "inverse_sigma_power": 1500,
+          "p_times_diagonal": [
+            694224,
+            268369,
+            1084725
+          ]
+        },
+        {
+          "inverse_sigma_power": 1506,
+          "p_times_diagonal": [
+            1528257,
+            1502545,
+            1719490
+          ]
+        },
+        {
+          "inverse_sigma_power": 1512,
+          "p_times_diagonal": [
+            1597358,
+            1910723,
+            716722
+          ]
+        },
+        {
+          "inverse_sigma_power": 1518,
+          "p_times_diagonal": [
+            2580842,
+            269976,
+            572092
+          ]
+        },
+        {
+          "inverse_sigma_power": 1524,
+          "p_times_diagonal": [
+            1102402,
+            973842,
+            342291
+          ]
+        },
+        {
+          "inverse_sigma_power": 1530,
+          "p_times_diagonal": [
+            1963754,
+            2577628,
+            2556737
+          ]
+        },
+        {
+          "inverse_sigma_power": 1536,
+          "p_times_diagonal": [
+            207303,
+            1942863,
+            2545488
+          ]
+        },
+        {
+          "inverse_sigma_power": 1542,
+          "p_times_diagonal": [
+            1288814,
+            1788591,
+            1083118
+          ]
+        },
+        {
+          "inverse_sigma_power": 1548,
+          "p_times_diagonal": [
+            2502099,
+            1031694,
+            2426570
+          ]
+        },
+        {
+          "inverse_sigma_power": 1554,
+          "p_times_diagonal": [
+            2355862,
+            681368,
+            2452282
+          ]
+        },
+        {
+          "inverse_sigma_power": 1560,
+          "p_times_diagonal": [
+            314972,
+            1267923,
+            75529
+          ]
+        },
+        {
+          "inverse_sigma_power": 1566,
+          "p_times_diagonal": [
+            2058567,
+            351933,
+            2323722
+          ]
+        },
+        {
+          "inverse_sigma_power": 1572,
+          "p_times_diagonal": [
+            89992,
+            1579681,
+            377645
+          ]
+        },
+        {
+          "inverse_sigma_power": 1578,
+          "p_times_diagonal": [
+            1891439,
+            898313,
+            2278726
+          ]
+        },
+        {
+          "inverse_sigma_power": 1584,
+          "p_times_diagonal": [
+            1483261,
+            1076690,
+            1216499
+          ]
+        },
+        {
+          "inverse_sigma_power": 1590,
+          "p_times_diagonal": [
+            1798233,
+            1645568,
+            1457549
+          ]
+        },
+        {
+          "inverse_sigma_power": 1596,
+          "p_times_diagonal": [
+            858138,
+            2230516,
+            2543881
+          ]
+        },
+        {
+          "inverse_sigma_power": 1602,
+          "p_times_diagonal": [
+            602625,
+            1791805,
+            366396
+          ]
+        }
+      ]
+    }
+  ],
+  "method": "ordinary derivatives mod p^2; factorial unit parts; full sigma; trace then divide p",
+  "highest_derivative": 3213,
+  "runtime_seconds": 23.320562268000003,
+  "source_sha256": "ad6650677310144eae4840ca82b5042a65802be6bae2e8890ef598133a514bdc"
+}

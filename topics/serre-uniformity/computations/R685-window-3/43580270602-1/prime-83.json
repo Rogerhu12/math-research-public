@@ -1,0 +1,260 @@
+{
+  "prime": 83,
+  "modulus": 6889,
+  "exact_reductions": [
+    {
+      "k": 83,
+      "m": 82,
+      "p_times_diagonal_mod_p2": [
+        0,
+        166,
+        0
+      ],
+      "r_coefficient_after_exact_division": 2,
+      "Ck_mod_p": 82,
+      "all_inverse_sigma_blocks": [
+        {
+          "inverse_sigma_power": 0,
+          "p_times_diagonal": [
+            2739,
+            2407,
+            1660
+          ]
+        },
+        {
+          "inverse_sigma_power": 6,
+          "p_times_diagonal": [
+            6059,
+            5976,
+            6474
+          ]
+        },
+        {
+          "inverse_sigma_power": 12,
+          "p_times_diagonal": [
+            5810,
+            5478,
+            3486
+          ]
+        },
+        {
+          "inverse_sigma_power": 18,
+          "p_times_diagonal": [
+            3237,
+            2988,
+            1826
+          ]
+        },
+        {
+          "inverse_sigma_power": 24,
+          "p_times_diagonal": [
+            1577,
+            3237,
+            1245
+          ]
+        },
+        {
+          "inverse_sigma_power": 30,
+          "p_times_diagonal": [
+            5644,
+            4399,
+            913
+          ]
+        },
+        {
+          "inverse_sigma_power": 36,
+          "p_times_diagonal": [
+            4897,
+            3569,
+            4399
+          ]
+        },
+        {
+          "inverse_sigma_power": 42,
+          "p_times_diagonal": [
+            1245,
+            3071,
+            6806
+          ]
+        },
+        {
+          "inverse_sigma_power": 48,
+          "p_times_diagonal": [
+            6806,
+            3403,
+            5893
+          ]
+        },
+        {
+          "inverse_sigma_power": 54,
+          "p_times_diagonal": [
+            1162,
+            5229,
+            4731
+          ]
+        },
+        {
+          "inverse_sigma_power": 60,
+          "p_times_diagonal": [
+            2573,
+            4980,
+            2324
+          ]
+        },
+        {
+          "inverse_sigma_power": 66,
+          "p_times_diagonal": [
+            2822,
+            6806,
+            6640
+          ]
+        },
+        {
+          "inverse_sigma_power": 72,
+          "p_times_diagonal": [
+            3652,
+            3735,
+            1826
+          ]
+        },
+        {
+          "inverse_sigma_power": 78,
+          "p_times_diagonal": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "k": 80,
+      "m": 79,
+      "p_times_diagonal_mod_p2": [
+        2241,
+        3320,
+        0
+      ],
+      "r_coefficient_after_exact_division": 40,
+      "Ck_mod_p": 34,
+      "all_inverse_sigma_blocks": [
+        {
+          "inverse_sigma_power": 0,
+          "p_times_diagonal": [
+            581,
+            2739,
+            747
+          ]
+        },
+        {
+          "inverse_sigma_power": 6,
+          "p_times_diagonal": [
+            249,
+            1245,
+            6059
+          ]
+        },
+        {
+          "inverse_sigma_power": 12,
+          "p_times_diagonal": [
+            3320,
+            3486,
+            664
+          ]
+        },
+        {
+          "inverse_sigma_power": 18,
+          "p_times_diagonal": [
+            3818,
+            6723,
+            1328
+          ]
+        },
+        {
+          "inverse_sigma_power": 24,
+          "p_times_diagonal": [
+            1660,
+            2739,
+            6142
+          ]
+        },
+        {
+          "inverse_sigma_power": 30,
+          "p_times_diagonal": [
+            5478,
+            4731,
+            4814
+          ]
+        },
+        {
+          "inverse_sigma_power": 36,
+          "p_times_diagonal": [
+            4316,
+            2988,
+            4150
+          ]
+        },
+        {
+          "inverse_sigma_power": 42,
+          "p_times_diagonal": [
+            5727,
+            1660,
+            5312
+          ]
+        },
+        {
+          "inverse_sigma_power": 48,
+          "p_times_diagonal": [
+            1992,
+            3237,
+            3486
+          ]
+        },
+        {
+          "inverse_sigma_power": 54,
+          "p_times_diagonal": [
+            4316,
+            2656,
+            1494
+          ]
+        },
+        {
+          "inverse_sigma_power": 60,
+          "p_times_diagonal": [
+            2490,
+            996,
+            747
+          ]
+        },
+        {
+          "inverse_sigma_power": 66,
+          "p_times_diagonal": [
+            4897,
+            1328,
+            2241
+          ]
+        },
+        {
+          "inverse_sigma_power": 72,
+          "p_times_diagonal": [
+            4731,
+            3237,
+            4150
+          ]
+        },
+        {
+          "inverse_sigma_power": 78,
+          "p_times_diagonal": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "method": "ordinary derivatives mod p^2; factorial unit parts; full sigma; trace then divide p",
+  "highest_derivative": 165,
+  "runtime_seconds": 0.058752378000001215,
+  "source_sha256": "ad6650677310144eae4840ca82b5042a65802be6bae2e8890ef598133a514bdc"
+}
