@@ -1,0 +1,56 @@
+{
+  "kind": "actual_public_exact_fold_cancelled_sources_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43642808159",
+  "run_attempt": "1",
+  "workflow_commit": "657e9b12edb7ab5bb81ea231ad837990ef788bce",
+  "worker_sha256": "e6600b85cdc8df815ef51e0b4c6a18165e756dd0d51e4b0c76c1cc8cc9f2e45f",
+  "manifest_sha256": "c7c772e582a3d9197ab20e9df1c8efb1ad4ff0c881ea597c6e720e44fe85012d",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T21:26:51.599762+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "657e9b12edb7ab5bb81ea231ad837990ef788bce",
+      "after": "657e9b12edb7ab5bb81ea231ad837990ef788bce",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "657e9b12edb7ab5bb81ea231ad837990ef788bce",
+      "after": "cc813fa7521098fdeba86b8bf8c0fe7d8c96bba0",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "all_original_target_coefficient_ray_and_amplitude_solves_recomputed": 0,
+  "original_artifact_receipts": [
+    {
+      "name": "root",
+      "run_id": "43616813816",
+      "path": "root/consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+      "bytes": 5923431
+    }
+  ],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-exact-fold-cancelled-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_fold_cancelled_sources_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-exact-fold-cancelled-sources-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-exact-fold-cancelled-sources-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-exact-fold-cancelled-sources-CI-inputs.json",
+    "--manifest-sha",
+    "c7c772e582a3d9197ab20e9df1c8efb1ad4ff0c881ea597c6e720e44fe85012d",
+    "--out-dir",
+    "/__w/_temp/visible-exact-exact-fold-cancelled-sources-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-exact-fold-cancelled-sources-science/originals"
+  ],
+  "complete_original_inputs_verified": 21,
+  "actual_scientific_checkout_commit": "657e9b12edb7ab5bb81ea231ad837990ef788bce",
+  "mathematical_wall_seconds": 15.193982181000003
+}
