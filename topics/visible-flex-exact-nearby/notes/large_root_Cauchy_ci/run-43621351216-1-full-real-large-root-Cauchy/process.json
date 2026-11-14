@@ -8,7 +8,30 @@
   "workflow_commit": "b8c8e65cc73db21a903c601c607fe72e2f804059",
   "worker_source_sha256": "d491f1c6d1e6f1788f92ca8f47ddcf2b977ca5cf5dbffe879650cbbe7a8554db",
   "started_utc": "2026-11-14T17:30:00.994368+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_full_real_large_root_Cauchy_scalar_consumer",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-large-Cauchy-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_large_root_Cauchy_budget.py",
+        "--root-native",
+        "/__w/_temp/visible-exact-large-Cauchy-root/consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+        "--root-process",
+        "/__w/_temp/visible-exact-large-Cauchy-root/consumers/process.json",
+        "--shared",
+        "/__w/_temp/visible-exact-large-Cauchy-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-original-root-window-intrinsic-third-jet-parts.json",
+        "--body-artifacts",
+        "/__w/_temp/visible-exact-large-Cauchy-body",
+        "--out",
+        "/__w/_temp/visible-exact-large-Cauchy-output/native/full-real-large-root-Cauchy-two-windows.json.gz"
+      ],
+      "started_utc": "2026-11-14T17:30:07.206418+00:00",
+      "actual_returncode": 1,
+      "wall_seconds": 5.000675811999997,
+      "finished_utc": "2026-11-14T17:30:12.207486+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T17:30:05.325015+00:00",
@@ -27,7 +50,13 @@
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T17:30:07.204348+00:00",
+      "final": false,
+      "commit": "38789a2c658397a9d950d4232a6f794714ac0af6"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -72,14 +101,31 @@
     "visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03322-03578.json.gz": "b288b713d0c20872b29f0f976fef2c0bb5e76b58864c522f3917c57746f57e03",
     "visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03578-03834.json.gz": "7d1fe0bff8c858375d58a1e563597c6db3bb765b1c0c849b2a1c3def1ba016ac"
   },
-  "snapshot_utc": "2026-11-14T17:30:05.658122+00:00",
-  "wall_seconds": 4.6643672559999985,
+  "snapshot_utc": "2026-11-14T17:30:12.209681+00:00",
+  "wall_seconds": 11.21592187400001,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-Cauchy-outcome.json",
+      "file": "evidence/actual-latest-Cauchy-outcome.json",
+      "bytes": 869,
+      "sha256": "a710f64b615fe20c28c4403b9b5781b51c49b8f627fb8a349bafd7e89f7d3ba7"
+    },
     {
       "logical_file": "evidence/original-piecewise-root-child-process.json",
       "file": "evidence/original-piecewise-root-child-process.json",
       "bytes": 32670,
       "sha256": "c30eb4c5e1efebd3663528418389ececf1ba8f4450f8e667496026915e2dfb64"
+    },
+    {
+      "logical_file": "native/full-real-large-root-Cauchy-two-windows.json.gz",
+      "file": "native/full-real-large-root-Cauchy-two-windows.json.gz",
+      "bytes": 1230,
+      "sha256": "8ac080899915ced52d6002aa471d1aa4ca2f482df111078640b3bdbac9dd2db2"
     }
-  ]
+  ],
+  "failure": {
+    "type": "RuntimeError",
+    "message": "actual_full_real_large_root_Cauchy_scalar_consumer returned 1"
+  },
+  "finished_utc": "2026-11-14T17:30:12.208636+00:00"
 }
