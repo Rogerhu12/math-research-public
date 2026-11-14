@@ -699,3 +699,7 @@
 ### R288 附录：完整一孔精度的显式系数与S2同源合同
 
 [完整证明](results/R288-appendix-birth-one-precision-coefficients-and-common-source-s2-congruences.md)在既有一孔完整Schur上给生成函数及D_n/η_n统一系数展开，C3完整保正rr*项与真实硬顶。两普通组加一位的P1–P3直接由同一源压缩取得，准确变换原S2/左右强列及交换Schur，未改变逆的次序或实际度量。两种替代右列生成器仅做一次45秒/768MiB剖面，均未产生主子式；完整回执已保存。旧协方差/正边不重计，新Catalan展开和具体逐边失败只界定方法范围。
+
+### R292 附录：主参数完整S2与两异常权整个物理出生二首边
+
+[完整证明](results/R292-appendix-main-parameter-s2-and-all-two-exceptional-birth-two-first-edges.md)读取原Actions右列两项实际严格正证书（186005/340335分子项、次数82/94），与已证左列按准确平方恒等式合成严格S2。配全部短区、整个旧S1及旧下第二边，通过原R275可逆合同/SOS和全部组内正交串，得任意两普通组各≥2、任意两异常正权的整个K2严格首边常数一；原四维/八维源及高度2硬端均保留。源哈希/回执/最终事件齐全；其他出生/内部高度及graph没有由此关闭。

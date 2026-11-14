@@ -105,3 +105,7 @@ Z^*C_{\rm form}^{-1}Z\preceq D_{\rm low},\qquad
 Z=K^*\Lambda_2\Lambda_3^{-1}\Lambda_2,
 $$
 或直接控制两列之和。本稿不把左列单独称为 S2，也不据此宣称主参数区加入第二异常位后的四维首边已经完成。已证短普通组的完整 S2 和四维首边仍由 [R292](R292-short-group-two-exceptional-weight-birth-two-strict-first-edge.md) 保持。
+
+## 后继完整 S2
+
+本次右列随后已取得完整证书；[主参数S2及整个两异常权出生二首边续稿](R292-appendix-main-parameter-s2-and-all-two-exceptional-birth-two-first-edges.md)合并两个强列和短区，完成所述首边全参数范围。本附录作为单独左列证明继续保留。

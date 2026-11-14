@@ -53,3 +53,9 @@ topics/invariant-subspace-problem/notes/primitive-bridge-actions-789f/<run_id>-<
 ## 左列实际完成
 
 job132387801844的`s2-left`已成功，实际计算26.984秒；[回执](primitive-bridge-actions-789f/43575194207-1/s2-left/receipt.json)有两个完整严格主子式及唯一最终all_passed事件。右job132387802020仍计算。左列已整理为[R292附录](../results/R292-appendix-main-parameter-strict-left-s2-column.md)，未将单列等同完整S2。
+
+## 两列最终完成及数学合成（2026-11-14 09时段核读）
+
+实际run43575194207的右列job132387802020于08:50:05成功结束，计算于08:49:57完成、耗时1868.929秒。回库receipt与calculation.jsonl给两项完整passed主子式（分子186005/340335项、degree82/94、负系数0、严格V项）、同目标唯一all_passed终事件与exit0。主生成器及源提交与先前左列相同。
+
+[完整右列/S2及首边证明](../results/R292-appendix-main-parameter-s2-and-all-two-exceptional-birth-two-first-edges.md)保同源度量和全部非交换交叉，与先前S1/旧下第二边和短侧合并，关闭两个普通组各至少两位加两个任意异常权的整个物理出生二首边。两个替代本地入口的超时仅为历史计算剖面，不再继续或重启；本次CI两目标均已完成，无剩余任务。
