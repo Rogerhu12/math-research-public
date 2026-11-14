@@ -1,0 +1,133 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "snapshot-1f3e5fa630f39a667a96102f103ac8977d00e580f698a83904f361c5a05c6f3c.json.gz",
+  "original_bytes": 25507783,
+  "original_sha256": "1f3e5fa630f39a667a96102f103ac8977d00e580f698a83904f361c5a05c6f3c",
+  "native_kind": "actual_full_real_delta_complete_positive_N97_high_inverse_v1",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 0,
+  "original_source_sha256": "0df3ae7181d5ac8808928e9b0ed4bcf225fa3f80ae5df944b2a96a5e4d3ae117",
+  "candidate_sha256": null,
+  "parts": [
+    {
+      "file": "native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "7fed6abf740c51d6cad803d734a12dfa1ffad16e8e1b8d0ee1ec7c644f21644e",
+      "compressed_bytes": 1950382,
+      "compressed_sha256": "29ffdceeff0c76ab958e84fd74506bafb07a60e2f178ddb880f50dbe25189b1c"
+    },
+    {
+      "file": "native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "a7c6f631ffe919646be272ae4b47368f0ad03a2690ecf1887b5969f452dd820a",
+      "compressed_bytes": 1942995,
+      "compressed_sha256": "04a4b04ccbe536783dddd37dd833fdf5623dab720b64a15432f3761d5b4b92dc"
+    },
+    {
+      "file": "native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 2000000,
+      "sha256": "8682a419fcc1ce8e60a80b5ef4e1459d6703f14d4126f9f326522f11d021588e",
+      "compressed_bytes": 1957508,
+      "compressed_sha256": "45a7970b370f0db0c3f1e6bd398a3dda61e5b31a594843b30550ac1e7e4be41d"
+    },
+    {
+      "file": "native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part003.bin.gz",
+      "index": 3,
+      "offset": 6000000,
+      "bytes": 2000000,
+      "sha256": "30125ee16d054b94801f16390b146c55ab11bff5c1d0399411775d346da3807f",
+      "compressed_bytes": 1947192,
+      "compressed_sha256": "65f2753cd0a59d903f29520c3cad919d0b07658e90efab1bb27a1fbdb6fdc258"
+    },
+    {
+      "file": "native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part004.bin.gz",
+      "index": 4,
+      "offset": 8000000,
+      "bytes": 2000000,
+      "sha256": "ad6a1f7ee7246a05ebf12e6f0f4a9de32718596384d4de3e2d59257ce0d8e8c9",
+      "compressed_bytes": 1958541,
+      "compressed_sha256": "289daa745077005479ee1d5e2a025de70f7f9f6603ea55da085b5a03991d770e"
+    },
+    {
+      "file": "native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part005.bin.gz",
+      "index": 5,
+      "offset": 10000000,
+      "bytes": 2000000,
+      "sha256": "3f8557a19e436d568f8a865d6e50c81e8a503da6b506c5ef224d8495dd1b595e",
+      "compressed_bytes": 1965294,
+      "compressed_sha256": "737f041a4d3e85506ba180d188ec940958b6f0397694f4265b373c69f8e6b9bc"
+    },
+    {
+      "file": "native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part006.bin.gz",
+      "index": 6,
+      "offset": 12000000,
+      "bytes": 2000000,
+      "sha256": "08369d01142932fa08d03481d615b7fae3a0afc5747da94d73d6b1b9e2e66d3f",
+      "compressed_bytes": 1973101,
+      "compressed_sha256": "dc746368d68fa83b0a73d2a201f1657951eea22badda2ed834629df09c6cf3e6"
+    },
+    {
+      "file": "native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part007.bin.gz",
+      "index": 7,
+      "offset": 14000000,
+      "bytes": 2000000,
+      "sha256": "902852b0176e85cead1ba5cbd25b9545b175cd0ca6f4e32292d8c2c997a9f7c1",
+      "compressed_bytes": 1966242,
+      "compressed_sha256": "68d3d37ed07b5da7c2152a1ba1276cc8b478e2f63186985229e02145b077ca66"
+    },
+    {
+      "file": "native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part008.bin.gz",
+      "index": 8,
+      "offset": 16000000,
+      "bytes": 2000000,
+      "sha256": "e6a4a6fee10f6151711deccc7b5f2c8b50459aefc64572f5f143ee1f9520db3e",
+      "compressed_bytes": 1904549,
+      "compressed_sha256": "49e156dac95cb7d83c9b550e127fe6c9f5908132fae6cc366144ab6c08898006"
+    },
+    {
+      "file": "native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part009.bin.gz",
+      "index": 9,
+      "offset": 18000000,
+      "bytes": 2000000,
+      "sha256": "0305608356742ef6e0719d35c57f4090d3e9f919dfc9aac6093f7d412719af7f",
+      "compressed_bytes": 1916409,
+      "compressed_sha256": "167ef3b72d2ffde736aa8f80d7291595a85e55195cac71cad3369b89d32762ea"
+    },
+    {
+      "file": "native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part010.bin.gz",
+      "index": 10,
+      "offset": 20000000,
+      "bytes": 2000000,
+      "sha256": "03a6099aa1c94ef48c5afe3fa9bf5f2a31a391c20b9a536700c5255e4e66e552",
+      "compressed_bytes": 1905000,
+      "compressed_sha256": "3f01244217179906a6d72ad79b5bfb47a2590fd08089d44c05cbd920307a67f7"
+    },
+    {
+      "file": "native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part011.bin.gz",
+      "index": 11,
+      "offset": 22000000,
+      "bytes": 2000000,
+      "sha256": "0d173d9c85d91c8fe9f17e47d156eb2586b9df04d3ff2461e0c051da7c861829",
+      "compressed_bytes": 1917716,
+      "compressed_sha256": "6ab32449559227533336ac0bbeb542db81ff77e2825b484d5f71da2d06094f2a"
+    },
+    {
+      "file": "native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part012.bin.gz",
+      "index": 12,
+      "offset": 24000000,
+      "bytes": 1507783,
+      "sha256": "0a12b0cccc436d3a6bd8fbbc48c13037788fb9a4bda359e417a1ae73e688faed",
+      "compressed_bytes": 1447672,
+      "compressed_sha256": "4a8f09d4ea4ff3c62352a059f69f37017089b00da8cc853dd8b13c227a679819"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}
