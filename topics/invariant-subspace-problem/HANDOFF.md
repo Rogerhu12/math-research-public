@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** 36af85b56b396b5976930547fd2c237f68bf3658（2026-11-14 22:42:27 UTC，Actions run43649428377实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43649428377-1.json。
+- **最近成功实际 pull 与已读规则提交：** 69c682c6a88ebf3afd482f8e34bc7abbd7d2fadb（2026-11-14 22:45:27 UTC，Actions run43649696738实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43649696738-1.json。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -23,7 +23,7 @@
 - [低初值归约](notes/2026-11-14-r150-low-initial-integer-lattice-third-layer-and-five-relations-789f.md)的η3、η4−18η3有Λ2内精确F9零核，只余五关系。[五列实绩](notes/2026-11-14-r150-five-third-rank-one-nine-current-obstructions-and-rational-rank-226092-789f.md)run43646683083，数据ca194cce，数学73.661900632秒、成本[86,87,87,88,87]、原p5整除全过；25维相关商秩1/ann=s−2、基9305，九目标均阻，只否定五列。真cost87的b10不在U9，故B≥87时rank_Q A_B≥4354(B+1)−157070+10；非精确秩/Smith值。37恢复31819615B/18binary/19text/8cache全保，不重数学。
 - [首高核精确消去](notes/2026-11-14-r150-first-high-kernel-exact-seventh-source-and-197-reduction-789f.md)：原recipe κ7=22Khat1−31q1+31³c，v=(κ7/22,−31²e7/22)在Λ2且F9v=T9v=0；旧198只余K2…K198共197，另保已成五列。不除(s−2)。
 - [双倍jet损失](notes/2026-11-14-r150-third-bockstein-double-jet-smith-loss-and-local-source-789f.md)：先以真char0像及p饱和排free，t^(2d)方程决定前d项第三类；真核选择差由完整第一像模U9消去，q1整数lift同步carry。当前s=2只做10→5项，G剥573常主元为461×448，保13自由条件与原6188乘回。197新像尚未执行；局部正必须全局q1/q2/CRT、全315及原17，不套旧618费用。
-- **小矩阵原字节已救回main：** run43648025236原数学0.156204983秒；原数据在notes/r150-five-third-actions-789f/43648025236-1，救回run43649083239/job132613296295发布adea54ef。原失败准确是git add拒稀疏范围外结果目录，已用精确路径--sparse修复；两原ZIP SHA全核、没有新数学、原run/source未改。实际原五列秩5，合U9秩10、费用87子族也10；合旧目标空间13，剩余商3维、基2/3/4、J=2I。完整回执已读，下一写其逐坐标证明并继续197。
+- **[真实V10及余三维目标](notes/2026-11-14-r150-five-third-true-ten-dimensional-invariant-space-and-three-target-quotient-789f.md)：** 原run43648025236数学0.156204983秒；救回run43649083239发布adea54ef，原稀疏git add失败已修，无新数学。原五列秩5、合U9秩10且全部属于已核不变U9+P2d9305，等维给真V10=U9+d9305不变；不能说五列自身不变或各列纯2。κ10=H5_9305真cost87/e10=5；(Q/V10)_2维24，旧目标余3维、基2/3/4、J=2I，全九坐标已保存。两张真实/投影基表不同，真实J10需从已成315矩阵运输；未假设F10第一像零。下一197只做新数学，正分支保全原式。
 
 ## 实际边界：同一原源与已付预算
 
