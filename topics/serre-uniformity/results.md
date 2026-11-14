@@ -596,3 +596,5 @@
 - **R686（已证明）**：[原纯p全塔的普通类群准确增长律](results/R686-all-p-power-layers-and-exact-ordinary-class-growth-law.md)。同一Robert祖先逐层精确Norm、socle给完整整单位格，原q的Fr²=[−q]及Norm折叠保持−13i导数；全塔A_Mn=RΓ/π^min(d,42n+1)。若原m<43则以后永久稳定；实际d/m/C/J/b/L仍未计算。
 
 - **R690（已证明）**：[实际2处局部高度恒零](results/R690-actual-two-adic-height-vanishes-via-full-level-cover.md)。完整水平在2处的三条普通分量由实际H6循环等度；每条超奇异椭圆尾上的C3平移与准确Std型迫真实商恒定，全部分量次数为零。完整Picard修正和原截面下降给λ2,h≡0，Ω只剩3处；未求Ω3或p处Λ。
+
+- **R692（已证明）**：[实际固定三次射线角色和三点theta公式](results/R692-fixed-cubic-ray-character-and-three-point-theta-interface.md)。实际τ属于导子6、判别式−108的三阶环类群；三格点权完整保留并消去2处非单位项，得到原Ck的准确三点theta导数/周期公式。固定三次τ不能替换未扭曲族；三点theta接口已证，模p单位仍未证。

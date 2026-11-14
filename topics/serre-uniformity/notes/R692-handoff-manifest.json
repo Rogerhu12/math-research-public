@@ -1,0 +1,18 @@
+{
+  "result": "R692",
+  "status": "proved_analytic_identity",
+  "claim": "实际τ属于导子6、判别式−108的三阶环类群；三格点权完整保留并消去2处非单位项，得到原Ck的准确三点theta导数/周期公式。",
+  "boundary": "固定三次τ不能替换未扭曲族；三点theta接口已证，模p单位仍未证。",
+  "files": [
+    {
+      "file": "results/R692-fixed-cubic-ray-character-and-three-point-theta-interface.md",
+      "bytes": 11526,
+      "sha256": "762fdca310ff755ed2f69cb8f1355480e08727dfcc864e50adfbc33c40d4a718"
+    },
+    {
+      "file": "scripts/R692_theta_normalization_diagnostic.py",
+      "bytes": 1631,
+      "sha256": "2995ddd5dd59c3f3f5ee9d0f90380949dad946ed599450ee14e4244956573c76"
+    }
+  ]
+}
