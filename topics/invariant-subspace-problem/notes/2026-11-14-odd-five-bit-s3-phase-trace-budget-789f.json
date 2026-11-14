@@ -1,0 +1,39 @@
+{
+  "status": "exact-positive-coefficient-certificate",
+  "scope": "Complete two-dimensional S3-invariant lower primitive block for old weights (r,r^-1,1,1,1); not other S3 types or arbitrary weights.",
+  "source_sha256": "2b73c4726e113a69e30609e2fbd456d4674e0ccf92b5faa69fb09cc12dc6a68b",
+  "substitution": "x=r^2>0, v=x+x^-1-2>=0",
+  "denominator_factorization": "3*(v+5)*(v+6)^2*(3*v+10)^3",
+  "denominator_ascending": [
+    540000,
+    774000,
+    456000,
+    141240,
+    24246,
+    2187,
+    81
+  ],
+  "one_minus_trace_numerator_ascending": [
+    180000,
+    258000,
+    140800,
+    39560,
+    6338,
+    593,
+    27
+  ],
+  "four_times_three_quarters_margin_numerator_ascending": [
+    180000,
+    258000,
+    107200,
+    17000,
+    1106,
+    185,
+    27
+  ],
+  "exact_original_trace_identity_verified": true,
+  "strict_trace_upper_bound": "3/4",
+  "physical_positive_operator_upper_bound": "K < (3/4) I on the stated two-dimensional physical block",
+  "finite_weak_bit_corollary": "For each fixed r>0, all sufficiently small a>0 give phase <=7/8 on the entire three-dimensional S3-invariant primitive source of (r,r^-1,1,1,1,a); threshold may depend on r.",
+  "general_phase_bound_proved": false
+}

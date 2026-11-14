@@ -111,7 +111,7 @@ R295实际Turán/Catalan同源平方及最大原子分区已付全正权birth1/�
 
 [R300七位边界](results/R300-seven-site-hard-top-strict-boundary-region-with-three-simultaneous-weak-sites.md)已付固定旧4权/弱3内部权的全14维充分小ε严格界1525/1564。[任意旧2s临界池推广](results/R300-appendix-arbitrary-critical-pool-three-weak-site-recursion.md)现给完整三族费用极限diag(I_U⊗Kweak,K_old,s−1⊗Rw*Rw,K_old,s−2)，无常数放大；真倒数低源kerA⁴/kerA²、旧q=3/h6项及全部交叉由容斥/核旗支付。[有限a完整铅笔](notes/2026-11-14-finite-weak-bit-common-defect-pencil-and-coefficient-obstruction-789f-next.md)现精确等价硬端界，P0保旧首缺陷；P1逐系数正对每个固定κ均被实际四权族排除，[指定首Schur行](notes/2026-11-14-critical-even-pool-first-schur-sos-row-789f-next.md)给半线平方恒等式；相位界/完整最高缺陷联合块未付，不作循环归纳。
 
-[临界完整共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)已付完整层F=dd*、Q=e*e交换，补集连接T自伴可逆且T²=F⁻¹Q，真实V压缩给G/L/4G+R共同矩和Tv=σp⁻¹D²v。压缩后矩不假称交换；共同谱本身不足相位界，仍须真实V源旗、较低同符号birth全部Schur与完整半线SOS。 [奇→偶弱位极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)已证全源diag(0,Q*G⁻¹Q+Z*L2⁻¹Z)；全部偶相位统一κ单独推出所有奇硬/加强高度同κ，无尺寸循环。该统一相位界尚未证明，不声称反向等价。
+[临界完整共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)已付完整层F=dd*、Q=e*e交换，补集连接T自伴可逆且T²=F⁻¹Q，真实V压缩给G/L/4G+R共同矩和Tv=σp⁻¹D²v。压缩后矩不假称交换；共同谱本身不足相位界，仍须真实V源旗、较低同符号birth全部Schur与完整半线SOS。 [奇→偶弱位极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)已证全源diag(0,Q*G⁻¹Q+Z*L2⁻¹Z)；全部偶相位统一κ单独推出所有奇硬/加强高度同κ，无尺寸循环。该统一相位界尚未证明，不声称反向等价。[固定S3块](notes/2026-11-14-odd-five-bit-s3-phase-trace-budget-789f.md)现付(r,r⁻¹,1,1,1)全二维K<3/4 I及固定r加充分小弱位的全三维7/8界；其它表示型/一般权和r统一阈值未付。
 
 R286固定源全height已付；实际t_q出生随q上移，受限逆不自动保固定birth/有限支持。跨出生graph、完整e_q和N=M仍开，完整链接与范围保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
 

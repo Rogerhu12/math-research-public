@@ -1,0 +1,21 @@
+{
+  "status": "exact_diagnostic_only",
+  "seconds_of_completed_rational_coordinate_calculation": 1.7764359779976076,
+  "parameter": "x=r^2, weights=(r,r^-1,1,1,1)",
+  "trace": "2*(27*x**12 + 473*x**11 + 2766*x**10 + 9133*x**9 + 20997*x**8 + 34762*x**7 + 43684*x**6 + 34762*x**5 + 20997*x**4 + 9133*x**3 + 2766*x**2 + 473*x + 27)/(3*(x**2 + 3*x + 1)*(x**2 + 4*x + 1)**2*(3*x**2 + 4*x + 3)**3)",
+  "determinant": "(x**8 + 15*x**7 + 80*x**6 + 29*x**5 + 350*x**4 + 29*x**3 + 80*x**2 + 15*x + 1)/(3*(x**2 + 3*x + 1)*(x**2 + 4*x + 1)**2*(3*x**2 + 4*x + 3))",
+  "trace_limit": "2/3",
+  "determinant_limit": "1/9",
+  "both_eigenvalue_limits": "1/3",
+  "general_phase_bound_proved": false,
+  "earlier_profile": {
+    "time_limit_seconds": 45,
+    "address_space_mib": 768,
+    "core_limit": 0,
+    "exit_code": 124,
+    "last_completed_stage": "full lower 3x3 Grams and upper invariant Gamma_1=1",
+    "stage_seconds": 42.561599719003425,
+    "phase_result_obtained": false,
+    "change_for_completed_calculation": "Remove sqrt(3) using the fixed deweighted source and rational x=r^2 coordinates; keep the physical metric and full inverses."
+  }
+}
