@@ -644,3 +644,8 @@ trustmultiline job132477286177数值warm/新FD/两artifact实际success，只有
 ### 2026-11-14 request23完整初猜原noJ成功与request24全角诊断
 
 run43605912092/job132480432221实际success，artifact14117693541/ZIP385bfef9…已取核。完整577×224候选恢复9546负零后binary64 SHA6b01b385…匹配；51内部真下溢/71主要chunk完整保全。原evaluate(false)一次全部576stage guard过，norm从1.3414e7降至.0417730782074，最坏stage10/Pi95；线性块norm1.67490e−5独立，原2e−9未达。原solve/J/fresh audit尚未运行；下一仅注入该完整candidate进入同17 H原solve，所有门不改。完整actual23 note已读。前缀全角probe794788a1…已全文读及AST，request24只复用20base+22真实方向在5处N2048全角重放，不新增LSMR/native/warm或接受门；三处lane名单同步检查，原输入精确重建受核。
+
+
+### 2026-11-14 R265完整角域不等式模型及dual后验
+
+完整证明直接登记results/R265，root全文读；SHA4ad89a54…，19139B。严格可行0/强凸给唯一解，stationarity Hz+g−Bᵀμ=0与正确下降负乘子项、完整dual后验和显式可行缩放证明齐备；局部Hermite全链B/Bᵀ、原旋转jet欧氏转置和尺度明确。未设置θ/算法/科学门，也不将五处N2048当全连续域。request24实际run43606770409/sourceae319f75/job132483017505已启动；双README在每次实际rebase后均无变，非快进已即时重推成功。

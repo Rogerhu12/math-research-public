@@ -494,3 +494,6 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 
 
 - [R264. 原native初猜的下溢契约与完整舍入误差账](results/R264-native-underflow-seed-contract-and-rounding-ledger.md)（已证明，条件有限算术/代数定理）：完整H/cut/远端/模式与原门保持时，内部有限乘除自然舍入零可保留为待验初猜；给精确局部传输缺陷、含图舍入的全部项与跨节点累积式，区分原far浮点零/实数缺陷及真正非线性flow。实际22只命中新初猜器保护，未进入native；局部损失身份不冒总误差界，不额外设通过门。
+
+
+- [R265. 完整角域线性不等式的正阻尼模型与后验误差](results/R265-full-angle-linear-inequality-damped-model.md)（已证明，有限实模型条件定理）：全声明角行Bz≥−(1−θ)β严格可行、正阻尼唯一解，正确KKT符号给非零方向严格下降；给完整stationarity/互补误差的dual下界、模型gap和方向后验及显式径向可行修复。完整Hermite两端RHS/p/入口chart的B/Bᵀ及旋转Fourier jet欧氏转置明确，无隐式1/N；浮点诊断不冒严格认证，五处N2048不代连续角/全部原域，未选择θ或QP算法，非新BVP门。

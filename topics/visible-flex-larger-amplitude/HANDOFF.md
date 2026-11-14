@@ -23,10 +23,10 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 ### 前缀RMS域：22三行实降后，24同模型全角方向诊断
 
-17原三步warm、18λ270/80次istop2仅α2^-16、20单点保护α2^-10均未BVP接受，完整真实源/回执在actual17/18/20 notes。R262完整Hermite域梯度/两端RHS/p/入口chart链和λP伴随已证；R263区分原r与C^-1r并给λ²强凸后验界，非新接受门。
+17原三步warm、18λ270/80次istop2仅α2^-16、20单点保护α2^-10均未BVP接受，完整真实源/回执在actual17/18/20 notes。R262完整Hermite域梯度/两端RHS/p/入口chart链和λP伴随已证；R263给原KKT/预条件区别与后验；R265给完整角行不等式/KKT/dual gap及B/Bᵀ，未选θ/算法，非新门。
 22/trustmultiline实际run43604874829/sourcefb32e240/job132477286177：原699/fullM112/T112/N2048；三条(473,0)/(480,0)/(473,11)、左fraction.17267316464601146均实梯度≤1.062e−12，归一SVD rank3，原行leak≤1.400e−17。λ270/上限200仍80次istop2，预条件normal2.60323e−5但projected KKT340.3776；不能冒内层高精度。
 同模型merit44.44622147747905→44.44413160763212，α2^-9、下降.00208986984693、ratio1.0003776，原全域通过。原col=.007110543370039259/BC9.578466474387895e−8仍非解；新warm SHA03ca9477cbb759cdbf07117f2540aa51dbe07545985c957289d0f0a3079f4be8，新真实完整Rφ FD8.17330e−10/原5e−5门；全112项Hmax9.1434e−16保留/native0。原件已取补出版，完整artifact14117443482/ZIP01f26518…；note actual-request22-multiline-tangent-and-angular-domain-limit。
-三个被保护点在所有trial自身β均正且略增；α2^-8仅480/index11 β−.016338，2^-7仅480的phi3.0740975 β−.05954；2^-6是473/475/477/479/480五处左RMS，≥2^-4另有原mid坏点。不能只追第四角点。独立全角方向probe已冻结794788a1…并全文读，request24/angledomain已接推送请求，锁同模型base20 warm0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71和22真实保存direction/model；在5处原N2048输出全部β/Dβ、线性first-exit和已试α整角margin，复用完整局部链不新解LSMR/BVP/native；据真结果再定全角约束/域余量恢复。
+三个被保护点在所有trial自身β均正且略增；α2^-8仅480/index11 β−.016338，2^-7仅480的phi3.0740975 β−.05954；2^-6是473/475/477/479/480五处左RMS，≥2^-4另有原mid坏点。不能只追第四角点。独立全角方向probe已冻结794788a1…并全文读，request24/angledomain真run43606770409/sourceae319f75/job132483017505，锁同模型base20 warm0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71和22真实保存direction/model；在5处原N2048输出全部β/Dβ、线性first-exit和已试α整角margin，复用完整局部链不新解LSMR/BVP/native；据真结果再定全角约束/域余量恢复。
 
 ### Native初猜：23原无J成功，下一原完整solve/J/fresh audit
 
@@ -47,6 +47,6 @@ R240固定共同材料g后冻结全部p*/scalar/尾帽/区间/t，释放全core�
 
 ## 旧失败、证明和封存
 
-request10–15全QR/band/bridge失败无接受，完整原回执在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure；不盲加点/只抬1200。R238–R264完整证明与假设见results.md，无机器jet新门；R259备用小核诊断冻结未调度。旧A幅度.063<.2；RK24/48/三mesh/2157568空间对与旧GW f8/16/48已付封存，不重跑。43提交/geometry26/strong90/GW35已恢复，strong R6失败/raw未全迁；历史见notes，绝不读private。
+request10–15全QR/band/bridge失败无接受，完整原回执在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure；不盲加点/只抬1200。R238–R265完整证明与假设见results.md，无机器jet新门；R259备用小核诊断冻结未调度。旧A幅度.063<.2；RK24/48/三mesh/2157568空间对与旧GW f8/16/48已付封存，不重跑。43提交/geometry26/strong90/GW35已恢复，strong R6失败/raw未全迁；历史见notes，绝不读private。
 
 规则同步记录：2026-11-14T14:48:14.901300+00:00 实际pull --rebase成功；双README自82eed78b无变化，已读提交 6492178fe56098759247ff5b6e5b74ace279a6eb。

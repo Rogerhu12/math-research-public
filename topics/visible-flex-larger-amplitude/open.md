@@ -49,3 +49,6 @@ R260已把原固定finiteGauss半径的真实导数、返回ap/app、角Galerkin
 完成数值标准后须明确无限尾、精确等距极限或其他仍欠严格证明之处；不要另加README没有要求的审批/独审门。未推的旧R179–224依赖若实际必要，按幸存源重做，不用排队记录补结论。已恢复的43提交、R235–237及真RK24/RK48不重复。
 
 每一条完成结论实际pull、检查双README差异、记录已读SHA、普通push；非快进立即rebase重试到成功，至少每小时同步。原自动publisher因README变动保留artifact并停止发布是正确行为，root读取差异后接手。手动workflow_dispatch因PAT权限403不可用，已改仓库既有push request明确选择geometry/cardinal/coupling，不重复已完成zeroH/free3。任何分项完成都继续下一项，不将阶段报告当任务结束。
+
+
+R265完整证明已登记：所有声明角行的一阶不等式模型有唯一正阻尼解，KKT/dual后验和完整Hermite B/Bᵀ均明确；只提供优化工具，不自动覆盖连续角或替代原全域/非线性门。request24真run43606770409正在读取同22模型的全部角，依据实际一阶限制与余项选择后续，尚未选择θ或新QP策略。
