@@ -1,0 +1,56 @@
+{
+  "result": "R672",
+  "disk_id": "SS_j9_12",
+  "status": "proved_entire_disk_excluded",
+  "run_id": 43583417198,
+  "source_commit": "ea891031abff2448eee151117afc0ce9f1486579",
+  "files": [
+    {
+      "file": "computations/R672/43583417198-1/run-receipt.json",
+      "bytes": 8554,
+      "sha256": "85938b74f0a3b3df88d81a7344c9a367c623896608d281cd25f17ecc9af77dac"
+    },
+    {
+      "file": "computations/R672/43583417198-1/public-actions-input.json",
+      "bytes": 1020,
+      "sha256": "5f731916d202507025d354a7a2d1e47702f8307efe3dcb2eb7176668fc0cdbc8"
+    },
+    {
+      "file": "computations/R672/43583417198-1/f2/SS_j9_12_actual_canonical_F2_polynomial47.json.gz",
+      "bytes": 32901,
+      "sha256": "d3246ebf2cee2fd22696374b0f0364cba04a747319d7abb6225ce035350e02ec"
+    },
+    {
+      "file": "computations/R672/43583417198-1/f2/SS_j9_12-principal-F2-independent-audit.json",
+      "bytes": 12156,
+      "sha256": "b80b99984ca87cab920ada50bf03591c66c0faccf353e08c2ab4f268ee3a26c9"
+    },
+    {
+      "file": "computations/R672/43583417198-1/f2/p41_SS_j9_12_principal_transports47.tar.gz",
+      "bytes": 1783248,
+      "sha256": "236079c2dfdfb4793ca2d6b62cb2fdc8fa866b38099262d3cc4bb235adb7f79a"
+    },
+    {
+      "file": "computations/R672/43583417198-1/f3/SS_j9_12_actual_canonical_F3_polynomial47.json.gz",
+      "bytes": 33596,
+      "sha256": "ea7bea2f0aa66ea2e951db8895eb4a5044bfd1ce272799a1afe12a1e882d5158"
+    },
+    {
+      "file": "computations/R672/43583417198-1/f3/SS_j9_12-principal-F3-independent-audit.json",
+      "bytes": 7835,
+      "sha256": "95540ef40b37d6c82cce200be27e3d5a506caa9bd8457b26aadc61f09a86232f"
+    },
+    {
+      "file": "results/R672-SS_j9_12-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+      "bytes": 6655,
+      "sha256": "9b01e24945e1524aeb0830a7a68ef0d6bec61e31781e494f6e65c24d24885098"
+    }
+  ],
+  "derived_based_inputs_preserved_in_original_artifact": [
+    {
+      "file": "p41_j9_remaining16_moved_based_points_block0247.json.gz",
+      "bytes": 2487719,
+      "sha256": "b3d0133fa0399170ba496ad02c382f12fcf39f8d13177f74a3974bb29711a623"
+    }
+  ]
+}
