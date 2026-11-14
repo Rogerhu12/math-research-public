@@ -107,3 +107,7 @@ root读9122B process989e72f6…、11388B summaryf6640ebc…并核SHA、job、11�
 ### 2026-11-14 17:09:56 UTC — 新ordinary additive接入旧Green的最小消费者
 
 逐行差分已审source/CI/flow，原230input在238清单零变；同向Hessian来源改为真实成功43618931236/b1ffc217…，其余数学与原已审G1–8完全相同。原完整14physical费用、unknown erroroperator及3非right通道保持；只新cut算术与6391旧right profile重权。原body/Riccati/projector/physical cells不重算，不消费尚在跑的fixedηpilot。
+
+### 2026-11-14 17:18:10 UTC — 完整大根窗能量证明与最小新标量消费器
+
+phase独核E1–12全权/source/mean，修正M不与offdiag矩阵交换的文字，保E5准确共轭。root检查旧v2实际process字段、六part identity/真实commonrow；新source/CI/16input/50minworkflow已推，30min预算/10min真pull，只新公共细分和标量算术。原1300行/target/候选/response不重算。17:16终端pwd再次报No usable execution environment，继续规则8小文本fallback，未冒称API为pull。

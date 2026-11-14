@@ -366,3 +366,7 @@
 
 [实际11门报告](results/R133-supplement-actual-complete-ordinary-only-cap-Hessian.md)：43618931236数学114.579596s，b1ffc217…；完整ordinary B<4.099766064e−8、C<3.706278030e−8，完整同w0add<1.348921723e−6。旧1341格tB/tC范数零重算，只新1977交集tθ，原完整未知feedback保持。该add须再经真cut及全频响应，非主目标完成。
 
+### R133 / 大实根窗完整两种Cauchy源窗口的解析延伸（2026-11-14）
+
+[E1–12证明](results/R133-supplement-full-real-large-root-Cauchy-two-source-windows.md)经独立核对：K_r>1给q²≥ρ，θ耗散吸收全部principal缺项，原s0/s−1乘子、primitive与独立mean费用在真逐片大窗仍成立。给出完整普通源与真实跳合同和逐格积分公式。伴随16pin公开CI只消费原数据，新的数值门待实际运行，不提前转授1/50能量常数或全逆。
+

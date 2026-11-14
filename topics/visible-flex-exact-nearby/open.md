@@ -75,3 +75,7 @@ geometry43584188751实际26门只条件充分：同一η0闭C²真解、full物�
 ## 7. 持续执行
 
 root负责全δ根图/科学核对/发布；newton负责同Z全源/真帽边界/Green/响应；phase负责完整root/强余项；tail负责实际外消元/原最终权。每结论独立推；非快进立即接新main/rebase至成功，不force。每次真实pull核两README差异并记H；终端失联按根规则8仅用<100KB文本，二进制只由公开Actions处理。已成数学立即复用；子题完即接下一项，阶段报告、等待和时长均不构成停止理由。
+
+### 2026-11-14 大根窗Cauchy新门
+
+[完整实根E1–12](results/R133-supplement-full-real-large-root-Cauchy-two-source-windows.md)给原正则Fourier能量的全窗延伸：只需真实K_r>1与ηopt≤13/10，完整s=0、−1/普通源/mean/实际跳逐格积分。16input公开消费者已推，复用同一1300行native及六原whole-jet parts；尚未授实际数值通过或CE/cutoff。原root宽度和νδ零compact support同对象保持。

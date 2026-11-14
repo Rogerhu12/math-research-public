@@ -1,0 +1,226 @@
+{
+  "kind": "fixed_original_intrinsic_third_jet_parts_for_real_root_radius_one_over_fifty_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "original_body_run": 43583838026,
+  "original_body_attempt": 1,
+  "numerical_execution": "public_repository_Actions_only",
+  "original_locator": {
+    "path": "notes/complete_Z_source_v2_ci/run-43613560173-1-complete-Z-sources-plan/evidence/original-input-audit/complete-original-row-cover.json",
+    "sha256": "311f25471c289aacda1be41dacb984a9f786bc1e23718fac81af6ef07634fca1",
+    "bytes": 23555
+  },
+  "original_source": {
+    "path": "scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+    "sha256": "1651f6cf73af9f3c16061767cc5acff0c452ada183422f7efb983ec8a6d4eb07"
+  },
+  "original_row_identity": {
+    "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "original_inputs": {
+      "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+      "/workspace/scratch/ac0d699811ad/final-mean-20261114/attempt01/native.json.gz": "e233ece0f264eb73f93dfe5b43c5d45b4d5d6db06da2418b9c20fb545a01889b",
+      "notes/2026-11-14-R133-final-waist-mean-adjoint-column-rational.json": "63986d47452a34f0b52a70ebfa40aad7630eba2e0f47ec39274ac6e83f0b5b56",
+      "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-nonmean.json": "e110982c46285b2e5141933813811a1c97d3c43583e3e553678b24a35dbb914f",
+      "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-nonmean.json": "2c7e24df5a8eeaa7a4d0bd671e0c23b2b9c3e1a161386fa67ed6ff33d5b07845"
+    },
+    "full_trials": {
+      "response": {
+        "path": "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-full.json",
+        "sha256": "ed42a71ddeb0420428f0313df321dc1f9b10525521d399cb1d666ae98fe410f6",
+        "metadata": {
+          "kind": "actual_final_full_finite_head_trial_v1",
+          "role": "response_full",
+          "coordinates": "physical unnormalized moving variation; h1 sine(4j phi), h2 cosine(4j phi) including its true mean",
+          "background_candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+          "background_exact_alpha": "6890507429876859/9007199254740992",
+          "background_exact_nu": "-2572625729470897/72057594037927936",
+          "modes": 96,
+          "physical_frequency_factor": 4,
+          "exact_interval": [
+            "0",
+            "25/8"
+          ],
+          "mathematical_certificate": false,
+          "full_BVP_inverse_proved": false,
+          "Galerkin_head_only": true,
+          "finite_head_mean_was_not_removed_from_the_solve": true,
+          "exact_zero_mean_projection_for_separate_scalar_completion": false,
+          "full_operator_output_support": 160,
+          "no_original_background_mode_was_discarded": true,
+          "Schur_complement": "full_regular_waist_amplitude_output",
+          "scalar_output": "physical waist C4 amplitude",
+          "original_fourth_Robin_row_retained": true,
+          "regular_complement_source_sha256": "5b441c22f859b752edcf808223bb4818e9b8d001b4e58d8516b997a156700e47",
+          "case_identity": "2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3",
+          "original_full_state_preserved": true
+        }
+      },
+      "adjoint": {
+        "path": "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-full.json",
+        "sha256": "c509df405abd2ddb81d47a80873e152c0cc9dc3a021c4af646500b5f3f7a3e41",
+        "metadata": {
+          "kind": "actual_final_full_finite_head_trial_v1",
+          "role": "adjoint_full",
+          "coordinates": "physical unnormalized moving variation; h1 sine(4j phi), h2 cosine(4j phi) including its true mean",
+          "background_candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+          "background_exact_alpha": "6890507429876859/9007199254740992",
+          "background_exact_nu": "-2572625729470897/72057594037927936",
+          "modes": 96,
+          "physical_frequency_factor": 4,
+          "exact_interval": [
+            "0",
+            "25/8"
+          ],
+          "mathematical_certificate": false,
+          "full_BVP_inverse_proved": false,
+          "Galerkin_head_only": true,
+          "finite_head_mean_was_not_removed_from_the_solve": true,
+          "exact_zero_mean_projection_for_separate_scalar_completion": false,
+          "full_operator_output_support": 160,
+          "no_original_background_mode_was_discarded": true,
+          "Schur_complement": "full_regular_waist_amplitude_output",
+          "scalar_output": "physical waist C4 amplitude",
+          "original_fourth_Robin_row_retained": true,
+          "regular_complement_source_sha256": "5b441c22f859b752edcf808223bb4818e9b8d001b4e58d8516b997a156700e47",
+          "case_identity": "d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901",
+          "original_full_state_preserved": true
+        }
+      }
+    },
+    "dependencies": {
+      "fourfold_codazzi_correlated_radial_Fourier.py": "18de4ef746eed069a9a92ba783d54e2f394887866d60cbb286502b9c55cb17c5",
+      "fourfold_codazzi_mean_completed_head_body_residual_v3.py": "9674f5f6b9d4ad95d7d87fb22b2ec4c8fc3cad136b78afed677343c2510bb6df",
+      "fourfold_codazzi_nu_full_adjoint_kernel.py": "09807e405455b58c043a5ff26b7ff5e4e1569a96c81ecd860125552bfba95a3b",
+      "fourfold_codazzi_full_body_graft_target_jets.py": "0a7b76a9820a9670ad40bbeb50e49d2e9a3f3a65e0e2d8f81ee361babba85d95",
+      "fourfold_codazzi_reciprocal_continuous_residual_v3.py": "34e3d8db08c7eaf6ad38899705cadacaee65f687a78f64f508a6e0b944f41500"
+    },
+    "exact_alpha": "6890507429876859/9007199254740992",
+    "exact_nu": "-2572625729470897/72057594037927936",
+    "original_parameter_half_width": "1/1000000000",
+    "radial_subdivisions": 1,
+    "total_common_cells": 7721,
+    "complete_finite_grid": 512,
+    "analytic_width": "1/2048",
+    "source_sha256": "1651f6cf73af9f3c16061767cc5acff0c452ada183422f7efb983ec8a6d4eb07"
+  },
+  "parts": [
+    {
+      "artifact": "visible-exact-body-rows-2133-3066-43583838026-1",
+      "inner_path": "native/rows-02389-02645.json.gz",
+      "sha256": "846a2cbb93477eb545661c93dec4acf80517f6ff634dada2993d2af3055e5c8d",
+      "common_row_indices": [
+        2389,
+        2645
+      ],
+      "rows": 256,
+      "exact_interval": [
+        "484840647384105/2251799813685248",
+        "4097337410984783/18014398509481984"
+      ]
+    },
+    {
+      "artifact": "visible-exact-body-rows-2133-3066-43583838026-1",
+      "inner_path": "native/rows-02645-02901.json.gz",
+      "sha256": "c7b0e333d4f9f113e148cc3f712e9c468be09cc6f443b0fb0d08f93bc2f7995a",
+      "common_row_indices": [
+        2645,
+        2901
+      ],
+      "rows": 256,
+      "exact_interval": [
+        "4097337410984783/18014398509481984",
+        "4234947399598881/18014398509481984"
+      ]
+    },
+    {
+      "artifact": "visible-exact-body-rows-2133-3066-43583838026-1",
+      "inner_path": "native/rows-02901-03066.json.gz",
+      "sha256": "47478cc195c394afd6a396faeb2c473fcde534812823c90391c84f0b678e4d8f",
+      "common_row_indices": [
+        2901,
+        3066
+      ],
+      "rows": 165,
+      "exact_interval": [
+        "4234947399598881/18014398509481984",
+        "4290616894992767/18014398509481984"
+      ]
+    },
+    {
+      "artifact": "visible-exact-body-rows-3066-4000-43583838026-1",
+      "inner_path": "native/rows-03066-03322.json.gz",
+      "sha256": "ada966331fcabf90da9f17597cdd0c4e0a56cfaf6233787e69c2587b104a8a21",
+      "common_row_indices": [
+        3066,
+        3322
+      ],
+      "rows": 256,
+      "exact_interval": [
+        "4290616894992767/18014398509481984",
+        "4405787072963543/18014398509481984"
+      ]
+    },
+    {
+      "artifact": "visible-exact-body-rows-3066-4000-43583838026-1",
+      "inner_path": "native/rows-03322-03578.json.gz",
+      "sha256": "b288b713d0c20872b29f0f976fef2c0bb5e76b58864c522f3917c57746f57e03",
+      "common_row_indices": [
+        3322,
+        3578
+      ],
+      "rows": 256,
+      "exact_interval": [
+        "4405787072963543/18014398509481984",
+        "2319001964374917/9007199254740992"
+      ]
+    },
+    {
+      "artifact": "visible-exact-body-rows-3066-4000-43583838026-1",
+      "inner_path": "native/rows-03578-03834.json.gz",
+      "sha256": "7d1fe0bff8c858375d58a1e563597c6db3bb765b1c0c849b2a1c3def1ba016ac",
+      "common_row_indices": [
+        3578,
+        3834
+      ],
+      "rows": 256,
+      "exact_interval": [
+        "2319001964374917/9007199254740992",
+        "4862011097715397/18014398509481984"
+      ]
+    }
+  ],
+  "record_keys": {
+    "rows": "rows",
+    "interval": "interval",
+    "common_row": "common_row",
+    "intrinsic_whole_derivatives": "intrinsic_whole_third_jets",
+    "intrinsic_midpoint_derivatives": "intrinsic_midpoint_jets",
+    "piece_identity": "pieces",
+    "scalar_germ": "actual_scalar_germ"
+  },
+  "derivatives": {
+    "normalization": "ordinary radial derivatives, not divided by factorial",
+    "families": [
+      "gamma",
+      "beta",
+      "K",
+      "s"
+    ],
+    "suffixes": [
+      "",
+      "1",
+      "2",
+      "3"
+    ],
+    "additional_scalar": "a"
+  },
+  "consumption_rules": [
+    "Verify all six original compressed file SHA256 values before reading; record their actual byte counts.",
+    "Retain each original common-row identity and exact rational interval; common-refine against actual root rows and candidate/response polynomial pieces.",
+    "Never infer a common-row number from a candidate piece number.",
+    "Read only existing whole and midpoint jets; do not rerun target mathematics.",
+    "Use directed lower/upper record endpoints when available; do not substitute rounded display balls.",
+    "Original eta enclosure contains fixed eta0. Intrinsic scalar jets are independent of the explicit Q0+delta Z variation.",
+    "All original input records and failed prefixes remain unchanged; semantic selected-jet output is a new derived record."
+  ]
+}
