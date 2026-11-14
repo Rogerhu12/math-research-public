@@ -1,0 +1,67 @@
+name: Serre p137147 original primitive average
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R719-public-p137147-primitive-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: serre-R719-p137147-primitive
+  cancel-in-progress: false
+
+jobs:
+  certify_original_primitive_average:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/serre-p137147-primitive-average.yml
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R719_public_primitive_average.py
+            /topics/serre-uniformity/scripts/run_r719_p137147_primitive_certificate.py
+            /topics/serre-uniformity/scripts/r719_visible_order_histogram.cpp
+            /topics/serre-uniformity/scripts/p41_public_actions_recovery.py
+            /topics/serre-uniformity/notes/R719-public-p137147-primitive-request.json
+            /topics/serre-uniformity/notes/R719-p137147-original-primitive-visible-enumeration-method.md
+            /topics/serre-uniformity/results/R714-global-visible-count-and-sublogarithmic-divisor-primitive-region.md
+            /topics/serre-uniformity/results/R616-original-CM-point-difference-and-explicit-height-basis.md
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned certified ball arithmetic
+        run: python -m pip install python-flint==0.9.0
+      - name: Enumerate original orders and certify the complete average
+        continue-on-error: true
+        timeout-minutes: 50
+        run: python topics/serre-uniformity/scripts/R719_public_primitive_average.py compute
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-cartier-R719-p137147-primitive-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-cartier/R719-p137147-primitive
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Preserve complete or failed original outputs
+        if: always()
+        continue-on-error: true
+        env:
+          SERRE_ACTIONS_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/R719_public_primitive_average.py publish
+      - name: Require the strict original common error bound B below one half
+        if: always()
+        run: python topics/serre-uniformity/scripts/R719_public_primitive_average.py verify

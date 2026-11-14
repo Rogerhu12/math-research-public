@@ -910,3 +910,10 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 新解析算法恢复原41²S2S3≡1274 mod41²、(41M2)²/ζ²≡24 mod41，与保留历史证书完全一致；原挠点轨道未重跑。
 - 完整receipt SHA fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6；持久化小receipt/input/log逐字SHA与17文件manifest匹配，四完整算术产物SHA在两receipt一致。
 - 校准完成即复用，继续137147分片原值及R719非消失证书；该校准不给一般一致性或实际高度排除。
+
+
+## 2026-11-14 21:00 Asia/Taipei · serre-public-resume-20261114
+- R719完整原相位signed-ray界、六真实squarefree orders、有限整圈枚举及packing全尾已根/global全文核验；方法先存notes，尚无数值非消失结论。
+- 新增共享.github/workflows/serre-p137147-primitive-average.yml和公开请求，p137147、范数≤25p完整枚举、范数≤10000独立direct-power全点比对、Arb256。
+- 原C++/Python源SHA分别6c5dfd7bb8fa8ba671fa666bf7d661d45f312d7272b53bbc235cfbb9b3cf0cfc和b98ffb650342269475e1052cca6f7a5335b89f7d0c339d2ca3dc4f86ca04fb77；成功门仅严格B<1/2及完整来源/输出校验。
+- 全部完整或失败产物由本公开Actions保存；成功后按R616原点差/秩/log接口登记，不称候选或Serre一致性排除。

@@ -4,8 +4,8 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：e7f3ee8ade8394676e3024ceb67fe2b3f05734fe
-最近实际pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。最近GitHub集成核查：2026-11-14 12:59:45 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
+已读规则提交：d98666b6735e45d02439072ab8a6ca38d2bf8328
+最近实际pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。最近GitHub集成核查：2026-11-14 13:01:22 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
 
 仅Rogerhu12/math-research-public；旧私库与“停公开runner”均作废。每条结论单独commit/push main已授权；终端推前pull，非快进立即pull --rebase并重推至成功。PAT只CLI，不写文件/提交。根独占tracked/git，辅助仅scratch或恢复小文本blob。单Markdown<100KB，HANDOFF<10KB，open/README<30KB；数据>1MBgzip、单文件<5MB；日志仅本题，≤5内容行，改共享workflow须说明。
 
@@ -17,7 +17,7 @@
 - R706/R689/R698：41..200000的5992素数，唯一Cp−3零137147；独立原z公开run43587480525同值。R710原数组后两权117309/122674，M8赋值−7、残余阶r3；R711全部jet整数赋值。
 - R703/R716真实高度的代数提取与相对全尾已证明；实际一般p模型、有限矩阵及规范前缀仍缺。global继续实际输入，不把有限零数当无根。
 - R717新解析算法公开run43597163388已校准成功：128行/3712项、42整数trace唯一，原p²S2S3=1274 mod41²、归一平方24、vM2=−1完全吻合；继续137147。这不重跑旧挠点轨道。见下运行规范。
-- R719原137147可见点有限枚举+全尾条件及源码已独审；B<1/2尚待公开运行。global准备wrapper/request/workflow，先notes存方法，证书成功后单独登记结果。
+- R719原137147可见点枚举+完整尾界已全文核验，现提交公开Actions请求R719-p137147-primitive；25p全圈、10000小圈独立检查、Arb256，仅严格B<1/2才成功。方法存notes/R719-p137147-original-primitive-visible-enumeration-method.md；结果待回，成功后单独登记。
 - R715原m43、R718全层m_n=42n+1和d∞、R720原C=9ib链桥均已推；unit继续原X_t主化/首矩或真实普通互反求b，禁止代pure-p参考24。最新R720提交e66994cbc4e3820ba667c0f4a67717d4f0cb4400。
 
 ## O5：固定p41完成范围
