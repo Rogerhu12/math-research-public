@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact, ellipse_frame, ellipse_audit, ellipse_enriched, zero_operator_exact, ellipse_bent_tail, zero_operator_instance, third_order_exact, fourth_order_exact, fourth_sos_exact, ellipse_saturated_heat, overlap_fourth_exact, range_numerator_exact, full_range_compile, natural_body_initial, single_P_instance, independent_height_solve, full_fourth_evaluate, fixed_height_primitive, frozen_profile_gate, entry_paired_audit, recovery_development]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact, ellipse_frame, ellipse_audit, ellipse_enriched, zero_operator_exact, ellipse_bent_tail, zero_operator_instance, third_order_exact, fourth_order_exact, fourth_sos_exact, ellipse_saturated_heat, overlap_fourth_exact, range_numerator_exact, full_range_compile, natural_body_initial, single_P_instance, independent_height_solve, full_fourth_evaluate, fixed_height_primitive, frozen_profile_gate, entry_paired_audit, recovery_development, short_entry_development, short_entry_audit]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact', 'ellipse_frame', 'ellipse_audit', 'ellipse_enriched', 'zero_operator_exact', 'ellipse_bent_tail', 'zero_operator_instance', 'third_order_exact', 'fourth_order_exact', 'fourth_sos_exact', 'ellipse_saturated_heat', 'overlap_fourth_exact', 'range_numerator_exact', 'full_range_compile', 'natural_body_initial', 'single_P_instance', 'independent_height_solve', 'full_fourth_evaluate', 'fixed_height_primitive', 'frozen_profile_gate', 'entry_paired_audit', 'recovery_development'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact', 'ellipse_frame', 'ellipse_audit', 'ellipse_enriched', 'zero_operator_exact', 'ellipse_bent_tail', 'zero_operator_instance', 'third_order_exact', 'fourth_order_exact', 'fourth_sos_exact', 'ellipse_saturated_heat', 'overlap_fourth_exact', 'range_numerator_exact', 'full_range_compile', 'natural_body_initial', 'single_P_instance', 'independent_height_solve', 'full_fourth_evaluate', 'fixed_height_primitive', 'frozen_profile_gate', 'entry_paired_audit', 'recovery_development', 'short_entry_development', 'short_entry_audit'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -92,6 +92,7 @@ jobs:
             /topics/visible-flex-new-mechanism/notes/actions-43617085278-1-single_P_instance/
             /topics/visible-flex-new-mechanism/notes/actions-43618467921-1-independent_height_solve/
             /topics/visible-flex-new-mechanism/notes/actions-43618467921-1-full_fourth_evaluate/
+            /topics/visible-flex-new-mechanism/notes/actions-43622984979-1-entry_paired_audit/
       - name: Prepare bounded public output directory
         run: |
           git config gc.auto 0
@@ -926,6 +927,56 @@ jobs:
             --check-only --out "$VISIBLE_NEW_OUT/height-feasible-initializer-development-check.json"
           python -u "$VISIBLE_NEW_SCRIPTS/frame_entry_bounded_height.py" \
             --check-only --out "$VISIBLE_NEW_OUT/bounded-entry-height-development-check.json"
+      - name: Bind reviewed sources for short paired and bounded entry audits
+        if: matrix.lane == 'short_entry_development' || matrix.lane == 'short_entry_audit'
+        env:
+          VISIBLE_SHORT_LANE: ${{ matrix.lane }}
+        run: |
+          python - <<'PYHASH'
+          import hashlib, json, os
+          from pathlib import Path
+          root = Path(os.environ['VISIBLE_NEW_SCRIPTS'])
+          expected = {
+              'frame_entry_short_bounded_audit.py': 'b16e1df72225e1c68f7b83b028a3910233a773d3fd437d220191868d2559cc63',
+              'frame_height_feasible_initializer.py': 'fa379eb61996dfd0646e8ce99f5de88f51c105f13d1e5bea8cba0906525ed6a2',
+              'frame_entry_bounded_height.py': 'deac1dbb3410fc426bd1cbb84c126062a5ff61e2aa19c6fcdf1bbd9d0727b612',
+          }
+          for name, sha in expected.items():
+              if hashlib.sha256((root/name).read_bytes()).hexdigest() != sha:
+                  raise SystemExit('Reviewed short-entry source hash mismatch: '+name)
+          report = {
+              'schema': 'short-entry-reviewed-source-binding-v1',
+              'source_commit': os.environ['GITHUB_SHA'],
+              'source_sha256': expected,
+              'lane': os.environ['VISIBLE_SHORT_LANE'],
+              'source_check_does_not_evaluate_research_geometry': True,
+          }
+          (Path(os.environ['VISIBLE_NEW_OUT'])/'short-entry-source-binding.json').write_text(
+              json.dumps(report, indent=2, sort_keys=True)+'\n')
+          PYHASH
+      - name: Check the complete short-entry audit using artificial inputs
+        if: matrix.lane == 'short_entry_development'
+        timeout-minutes: 10
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/frame_entry_short_bounded_audit.py" \
+            --check-only --out "$VISIBLE_NEW_OUT/short-entry-development-check.json"
+      - name: Audit one short paired field and one bounded field with at most one height step each
+        if: matrix.lane == 'short_entry_audit'
+        timeout-minutes: 44
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/frame_entry_short_bounded_audit.py" \
+            --input "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43618467921-1-independent_height_solve/frame-independent-height-bounded.json" \
+            --anchor-input "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json" \
+            --prior-entry-audit "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43622984979-1-entry_paired_audit/frame-entry-paired-repair-initial-audit.json" \
+            --expected-input-sha256 c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46 \
+            --expected-anchor-sha256 6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3 \
+            --expected-prior-sha256 f12f9d8fcf90f3548b3e1e12d717f7c87932f901317ec43ca3040f7785129cdf \
+            --entry-length 81/1000 --entry-mean-nodes 1024 \
+            --radial-nodes 121 --angular-nodes 384 --collar-subdivisions 24 \
+            --uniform-panels 120 --primitive-order 8 --refined-primitive-order 12 \
+            --height-column 4 --height-bound 1 --tau 61/1000 \
+            --height-margin 1/1000 --minimum-signed-height 0 \
+            --out "$VISIBLE_NEW_OUT/frame-entry-short-bounded-initial-audit.json"
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:
