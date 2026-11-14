@@ -169,3 +169,7 @@ python topics/visible-flex-new-mechanism/scripts/frame_height_quartic.py \
 截至写入，仅做本地静态语法检查和纸面代数核查；所有人工数值检查及今后实际阶段仍由公开仓库 Actions 执行。是否启用实际阶段，等待当前九高度可行 LP/QP 的真实报告，不重跑原大维数 250 次求解。
 
 API 依照当前已使用的 [SciPy SLSQP 官方说明](https://docs.scipy.org/doc/scipy/reference/optimize.minimize-slsqp.html)；运行时 NumPy/SciPy 版本和源码 SHA 随报告记录，不以文档版本代替实际运行身份。
+
+## 8. 公开人工已通过
+
+run43631537869/source4e60f25c3c145f715c5bde6f8ed7bf76b393cdc9的height_quartic_development成功。梯度方向差8.62e−12、Hessian方向差2.67e−11，factored/Horner差≤1.34e−15；已知正支解差6.75e−7且直接metriccost4.16e−13，非凸Hessian见证−.88，逐圈零极小/S、完整门/失败保初态均通过。没有真实高度优化。九高度实际初值已由43630874689取得，下一driver将调用一次本阶段并完整几何重建。

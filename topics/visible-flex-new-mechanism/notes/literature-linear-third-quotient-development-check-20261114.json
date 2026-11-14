@@ -1,0 +1,74 @@
+{
+  "C3_modulus": "all Area and all cubic-velocity coefficient profiles; geometric reachability uses the separate R76/R77 theorem, never a numeric span test",
+  "P0_satisfied": false,
+  "R71_modulus": "original exact cubic diagonal commutators, not their pure-fourth response images",
+  "all_fourth_phase_channels_paid": false,
+  "artificial_checks": {
+    "all_pivots_reduced_after_unmatched_row": true,
+    "deliberately_missing_geometry_coefficient_retained": true,
+    "h_plus_minus_exact_moments": {
+      "integral_dk": "-2",
+      "integral_h_dk": "-4",
+      "integral_inverse_h_dk": "-4",
+      "omega_increment": "-2"
+    },
+    "omega_contact_chain_rule_retained": true,
+    "profile_or_geometry_evaluated": false,
+    "research_compiler_called": false,
+    "three_moment_positive_relation_from_original_expressions": true
+  },
+  "completion": "toy_only",
+  "decomposition_identity": "C_s = Ds(P_acc+P_h) + Area*(k_s*h_ss-h_s*k_ss) + Cubic + k_s*R",
+  "dependencies": {
+    "exact": {
+      "bytes": 33718,
+      "filename": "literature_pure_bulk_exact_membership.py",
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    },
+    "formal_compiler": {
+      "bytes": 33169,
+      "filename": "literature_range_profile_algebra.py",
+      "git_blob_sha1": "01c7424af3a96f2c2a0f0cb0c782b2037ff3ec74",
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    "local": {
+      "bytes": 30635,
+      "filename": "literature_local_third_bridge_decompose.py",
+      "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+    },
+    "word": {
+      "bytes": 32310,
+      "filename": "literature_pure_bulk_word_normal_form.py",
+      "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+    }
+  },
+  "elapsed_seconds": 0.0029584660005639307,
+  "finite_isometric_family_certified": false,
+  "full_trilinear_identity_certified": false,
+  "geometry_relation": "h>0; omega_s=k_s/(2h); one compact physical xi interval and a common right collar",
+  "github": {
+    "GITHUB_REPOSITORY": null,
+    "GITHUB_RUN_ATTEMPT": null,
+    "GITHUB_RUN_ID": null,
+    "GITHUB_SHA": null
+  },
+  "negative_result_scope": "a nonzero rewritten coefficient does not prove actual functional nonmembership",
+  "normal_form_complete": false,
+  "peak_resident_mib_linux": 15.25,
+  "phase": "finished",
+  "potential_endpoint_scope": "constant endpoint germs remove P_acc; h=1 at both endpoints removes anchored P_h; otherwise retain its exact jump",
+  "profile_or_geometry_values_evaluated": false,
+  "resource_limits": {
+    "max_IBP_calls": 300000,
+    "max_coefficient_nodes": 600000,
+    "max_memory_mib": 2048,
+    "max_profile_atoms": 80000,
+    "max_rational_bits": 8192,
+    "max_seconds": 240,
+    "max_terms": 100000
+  },
+  "schema": "visible-flex-linear-third-diagonal-quotient-v1",
+  "scope": "diagonal cubic tau(q)=T(q;q,q), not unsymmetrized full T or all phase channels",
+  "source_sha256": "0627875fe06950c9e7c360baaf0429451697a460e2cf10aa6b3434c501363bd2",
+  "true_bridge_constructed": false
+}

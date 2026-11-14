@@ -71,3 +71,5 @@
 - 2026-11-14 19:19:47 UTC，Astra-new-mechanism-9974ea84：发布固定T九高度准确四次目标e4105426及解析梯度/Hessian，全部原多面体/盒保持；逐圈三次驻点和S给必要放松数值估计，非严格下界，当前仅height_quartic_development人工。另发布C1完整一形式商producer0627875f与设计，已有小人工检查通过；直接在公开linear_third_exact编译完整residual_k，分别模真实28交换子与R77的C3+28，不先假定只剩三个可设moments。两lane并行，实际163联合driver继续实施，未重跑旧250。
 
 - 2026-11-14 19:21:39 UTC，Astra-new-mechanism-9974ea84：登记R78完整相位P1极化证明：真实histories先微分再置传入值0，保T外槽；P1=L(F,D)+Q(D,D)给四实函数/两复模式等价。−4普适零不代表−2已付，明确rank-one quartic核例；多pair先求和，同一组真实控制同时代四门。C1actual/四次dev已推source4e60f25c，继续colored编译与实际联合driver。私有19:20:16真实pull至7943e238，双README无差、QUEUE唯一进行中；下一不晚于20:19。H按10KB规则压缩并完整保留旧稿。
+
+- 2026-11-14 19:25:33 UTC，Astra-new-mechanism-9974ea84：记录C1实际43631537869/source4e60f25c完成1.125s。完整95系数两商各81zero/14余、三矩或三profile扩展都未成；14项只有低次k/ω、h^-1/h^0、一层尾，故不盲加normalizer。fresh关系L+=−τ(p1,p2)/12使R模R71为A+B/h，下一接闭C1空间/接触closure与端点势。同期四次height人工全pass（grad8.62e−12/Hess2.67e−11），真实新driver正实施。H整体压缩为最新真实输入与操作，不取消旧失败或完成缺口；旧完整细节保notes和git历史。
