@@ -1,0 +1,85 @@
+{
+  "kind": "actual_public_full_real_large_root_Cauchy_process_v1",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43621934843",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "c7cbb9b564b5a3558baf15e73bec5d7ef7e87ba5",
+  "worker_source_sha256": "d491f1c6d1e6f1788f92ca8f47ddcf2b977ca5cf5dbffe879650cbbe7a8554db",
+  "started_utc": "2026-11-14T17:36:11.295335+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T17:36:11.595873+00:00",
+      "before": "c7cbb9b564b5a3558baf15e73bec5d7ef7e87ba5",
+      "after": "c7cbb9b564b5a3558baf15e73bec5d7ef7e87ba5",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:36:11.839419+00:00",
+      "before": "c7cbb9b564b5a3558baf15e73bec5d7ef7e87ba5",
+      "after": "c7cbb9b564b5a3558baf15e73bec5d7ef7e87ba5",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_root_run": 43616813816,
+  "original_intrinsic_parts_run": 43583838026,
+  "original_target_candidate_response_and_angular_coefficients_recomputed": 0,
+  "full_low_high_Schur_inverse_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "actual_PDE_branch_proved": false,
+  "input_manifest_sha256": "cc907dc35cd1d71703910ee6cc8fda7bb90f677867f43b0752d0719d899d4846",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "c7cbb9b564b5a3558baf15e73bec5d7ef7e87ba5",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-large-Cauchy-work/science",
+  "actual_original_input_sha256": {
+    "root-native": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+    "root-process": "c30eb4c5e1efebd3663528418389ececf1ba8f4450f8e667496026915e2dfb64",
+    "shared": "517de329d0cee3466523e9eaaa2747a79ab3da2c771d4ec2984b38784a9b33ee",
+    "visible-exact-body-rows-2133-3066-43583838026-1/native/rows-02389-02645.json.gz": "846a2cbb93477eb545661c93dec4acf80517f6ff634dada2993d2af3055e5c8d",
+    "visible-exact-body-rows-2133-3066-43583838026-1/native/rows-02645-02901.json.gz": "c7b0e333d4f9f113e148cc3f712e9c468be09cc6f443b0fb0d08f93bc2f7995a",
+    "visible-exact-body-rows-2133-3066-43583838026-1/native/rows-02901-03066.json.gz": "47478cc195c394afd6a396faeb2c473fcde534812823c90391c84f0b678e4d8f",
+    "visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03066-03322.json.gz": "ada966331fcabf90da9f17597cdd0c4e0a56cfaf6233787e69c2587b104a8a21",
+    "visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03322-03578.json.gz": "b288b713d0c20872b29f0f976fef2c0bb5e76b58864c522f3917c57746f57e03",
+    "visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03578-03834.json.gz": "7d1fe0bff8c858375d58a1e563597c6db3bb765b1c0c849b2a1c3def1ba016ac"
+  },
+  "snapshot_utc": "2026-11-14T17:36:11.847115+00:00",
+  "wall_seconds": 0.552335755999998,
+  "native_files": [
+    {
+      "logical_file": "evidence/original-piecewise-root-child-process.json",
+      "file": "evidence/original-piecewise-root-child-process.json",
+      "bytes": 32670,
+      "sha256": "c30eb4c5e1efebd3663528418389ececf1ba8f4450f8e667496026915e2dfb64"
+    }
+  ]
+}
