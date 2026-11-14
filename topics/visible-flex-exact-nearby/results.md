@@ -97,3 +97,5 @@
 - [R133实际完整true-weighted切口与腰端](results/R133-supplement-actual-complete-true-weighted-cut-and-waist-boundaries.md)：公开43594139132 prepare实际十门全过；完整193×96 Gram及97低行/mean给L0<1016.779086、D0<1016.778594、LR<4.076853888、DL<.003613121034，腰0−及最终sec/tan跳保留。全区间Green、未知high、独立源和真响应仍待。
 
 - [R133有向返回word与实际root首系数合同](results/R133-supplement-directed-return-word-and-root-first-coefficient-contract.md)：完整density反同态准确给V−^-1V+=U_(S−∘X+)，固定4j与有向有限部符号；实际root图另保b_root^fin及finite cross gauge，当前−Xi/4不冒充完整β。失联后正文重建身份明确，完整root连接/strong和真PDE转移仍待。
+
+- [R133完整首符号有限部的显式参数转移](results/R133-supplement-first-symbol-finite-part-parameter-transfer-contract.md)：已证逐格∂δXi全Wiener界及完整复根四系数Cauchy有限部导数界；compact bump在根准确消失，保固定root、两减项、193方向/独立mean及D第二项无η因子。给Xi(δ*)−Xi(0)的可消费条件界，实际数值与真root/完整β/PDE转移仍另付。
