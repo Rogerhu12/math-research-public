@@ -4,9 +4,9 @@
 
 ## 1. 从真实大核打通物理cut和完整闭合
 
-.99自由93核的M96/N1024真BVP已有完整接受结果，材料C²两档误差5.77368e−7、完整核G≈.96000098/rho>.16385011989。后续公开run43582043166真接受.996和.9975，但物理metric升至4.60534e−6/8.08662e−6，不能视为已达标前缀；.997875的真实Newton因病态化、回溯失败及网格上限未接受。保全两接受点和失败checkpoint，不仅提高网格上限继续原分支。
+.99自由93核的M96/N1024真BVP已有完整接受结果，材料C²两档三归一化分量误差5.77368e−7（非算子范数）、完整核G≈.96000098/rho>.16385011989。后续公开run43582043166真接受.996和.9975，但物理metric升至4.60534e−6/8.08662e−6，不能视为已达标前缀；.997875的真实Newton因病态化、回溯失败及网格上限未接受。保全两接受点和失败checkpoint，不仅提高网格上限继续原分支。
 
-当前使用较好的.99初场，加完整AngleConnector/coast/finitebridge和3个内支scalar控制到原r=.3物理cut。690节点完整θ圆warm的节点/中点域通过，但后来真实RMS两Lobatto点失败，残差.00711也还不是解。全部96个材料H与全部core换角导数进入389维增广BVP；固定前3核，其他93核加3scalar配96条真非均值tail-DN边界。三步/Richardson FD已在run43584222071真实通过；原Newton/BC/正性门不改。首690节点inner真实reduced condition7.153e17、linear相对残差.57657，未接受任何更新；SciPy随后插值到878节点RMS NaN。R244证明圆段控制的连续设计核，已接独立prefix3支撑。run43585737152实际在RMS域预检就停止：696节点331坏点，1027节点846坏点，全在圆形warm段；未到新QR或tail。request06/run43587375529已真完成：M96两N各25/26坏，M112/128/160所查48点全过；纯增N不治。现选M112/T112/N2048原方程，原96场只作初猜，base_prefix_M96与field/tail112分开。request08并行新112真zero/fullJ，amplitude做全mesh域/FD前置再原QR；不复用96包，不采用未完整实现的analytic lift。R247证明coast Hermite偏差中点恰消失而原RMS点有±sqrt(3/7)/7系数；只说明域预检结构盲点，collocation残差仍非零。
+当前使用较好的.99初场，加完整AngleConnector/coast/finitebridge和3个内支scalar控制到原r=.3物理cut。690节点完整θ圆warm的节点/中点域通过，但后来真实RMS两Lobatto点失败，残差.00711也还不是解。全部96个材料H与全部core换角导数进入389维增广BVP；固定前3核，其他93核加3scalar配96条真非均值tail-DN边界。三步/Richardson FD已在run43584222071真实通过；原Newton/BC/正性门不改。首690节点inner真实reduced condition7.153e17、linear相对残差.57657，未接受任何更新；SciPy随后插值到878节点RMS NaN。R244证明圆段控制的连续设计核，已接独立prefix3支撑。run43585737152实际在RMS域预检就停止：696节点331坏点，1027节点846坏点，全在圆形warm段；未到新QR或tail。request06/run43587375529已真完成：M96两N各25/26坏，M112/128/160所查48点全过；纯增N不治。现选M112/T112/N2048原方程，原96场只作初猜，base_prefix_M96与field/tail112分开。request08/run43588155190的M112准备已真success：699节点全节点/中点/两RMS域过，完整453行FD Richardson9.51769e−10<原5e−5；初残差.007110595仍非解。新112真zero/fullJ仍运行，完成后直接复用prepared/FD进原真DN/QR；不复用96包，不做ready代理QR，不采用未完整实现的analytic lift。R247证明coast Hermite偏差中点恰消失而原RMS点有±sqrt(3/7)/7系数；只说明域预检结构盲点，collocation残差仍非零。
 
 原g的T96/N1024零H完整variational/J/audit已经真成功，805.484s、原resid0、metric9.992e−16。完整响应经严格来源/配置核对可只复用相同零H首响应；任何新H和最终audit仍原真worker。零态J独立Actions诊断已完成：Darboux二阶相对差1.32053e−12，mean/跨模0、height I；ready与真shooting最大相对差.011685，仍不能替代真J或证明导数精化收敛。首联解失败前准确复用零响应1次，没有任何新非零H尾请求。
 
@@ -14,7 +14,7 @@
 
 ## 2. 定型后冻结同一材料g精化
 
-R240证明共同材料θ下g=ds²+a(s)²dθ²独立于核心c。第一次设计可调scalar；真正精化须冻结全部a(s;p*)、尾帽g、区间、参数及t范围，释放全部核心，取K0/k0/T=M，然后升频率、径向网格及积分精度。不能将不同scalar设计或不同t区间混为收敛序列。帽中心使用固定图册，非线性角变换不得硬延到中心。
+R240证明共同材料θ下g=ds²+a(s)²dθ²独立于核心c。第一次设计可调scalar；真正精化须冻结全部a(s;p*)、尾帽g、区间、参数及t范围，释放全部核心，取K0/k0/T=M，然后升频率、径向网格及积分精度。不能将不同scalar设计或不同t区间混为收敛序列。README要求等距误差随精化到机器或原求解容差，并要求每个有限场及t族C²；六jet用于曲率/reach可靠性，不新增六jet全体机器收敛门。帽中心使用固定图册，非线性角变换不得硬延到中心。
 
 旧A基准的真RK24/RK48非线性solve/J/audit、RK48真16+源节点读出、两共同网格、finitecollar和三闭mesh已经全部完成并发布，不继续列为ENOSPC中断，也不重复求解。24→48同f8二jet差7.03e−6，RK48 f8→16差.0029138，未机器稳定；原prefixcut metric平台4.77033e−8仍未重解。接缝外metric随精化下降至2.07608e−9，但不能替整闭同g频率精化。旧finitecollar全域界1.00139e−18只适用自己的H和背景。
 
