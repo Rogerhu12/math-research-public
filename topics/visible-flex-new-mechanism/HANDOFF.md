@@ -4,7 +4,7 @@
 
 ## 1. 授权、规则与环境
 
-根/本题README已全文读。公开仓库最后已读规则提交：`66a6e77c938912c349f77d9765da8754d401263a`。每次实际pull --rebase后立刻比两README；有变只读差异执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核README、重推至成功，绝不force。私有19:20:16 UTC实际pull至`7943e238737119df3b4a564b854335f4b226debc`，双规则路径无差，本题私有README不存在；QUEUE唯一行本会话进行中；下一私有pull不晚于20:19 UTC。
+根/本题README已全文读。公开仓库最后已读规则提交：`fc04ef7d115d2f4369e956c67f985e0c0fd90534`。每次实际pull --rebase后立刻比两README；有变只读差异执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核README、重推至成功，绝不force。私有19:20:16 UTC实际pull至`7943e238737119df3b4a564b854335f4b226debc`，双规则路径无差，本题私有README不存在；QUEUE唯一行本会话进行中；下一私有pull不晚于20:19 UTC。
 
 真实几何、ODE/积分、优化与完整研究符号编译只用本公开仓库GitHub Actions。本地仅纸面代数、小人工开发、源码/公开输出解析；不伪造Actions环境。PAT仅瞬时CLI/env，绝不文件/提交/日志。根规则12：不把冻结、独立复核、逐字归档或重复清单设为推进前置；完整证明直接登记results并同步索引。
 
