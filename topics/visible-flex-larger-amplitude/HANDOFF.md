@@ -21,22 +21,21 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 ## 当前两个实际阻断与并行计算
 
-### 前缀：27七query真实下降，下一记录原坏中点
+### 前缀：29真实下降并定位原中点，接两种完整方向
 
-17–26完整失败/下降已保本日actual notes，不重跑。26五query实际全角正后，较大步左RMS472/481失败，27据此新增两处；26引擎7d75a44a…/operator af7966fa…冻结不改。
-27/sevenprojection run43610469627/sourceb92d4b20/job132494273063全success，artifact14119758437/143121398B/ZIPd610b3d9…已取核；完整actual27 note4fc673d6…。同699/M112/T112/N2048；七query(472,473,475,477,479,480,481)完整14336行，68文件/421数组逐核，actual-LSMR B complex6.549e−13/adjoint7.371e−18。唯一88次原Jac/11node，B大阵仅artifact，manifest/source/hash进Git。
-λ270/200 LSMR80步istop2；C-Hildreth200未收敛，100负slack经factor.8216634644079532修成全非负(min1.700e−16)，同f线段τ1选投影。原gdot−.8236822441/模型Delta.4848515638；完整gradient210708/零dual E304512不冒QP最优；R267可用同模型raw完整gradient346.2107作另一证据点，未实际算新比例。
-原17trial在α1/16接受，同一固定权重merit44.43133020235467→44.380293912301596，drop.05103629005307653/ratio1.002883586；node/mid/两RMS/rho全过。col.007110456794261092/BC8.962976439976726e−8仍非解，native0。新warm `notes/public-actions-43610469627-1-sevenprojection/seven-angle-warm/warm-001.json.gz` SHA f73dfc81b6247363e449be16f142e552f857ec38846f8bff0954f0ca76b55422；新完整Rφ FD7.819442926433809e−10过原5e−5，全部112 H保留（首项1.9911248007634974e−14非零）。各轮权重刷新，merit不可跨模型相减。
-最近拒绝1/8只有1坏midpoint、七query全角已正；1/4有3坏mid，位置均未存，不造因果/不盲加第八左RMS。29/observedseven真实run43612331803/sourcef4896bba/job132499878558在算，源94395d54…/FD211e7c70…/接口全文读：从f73…保同七query/λ/200sweep/17回溯/所有域与新FD，仅读原evaluate返回middle/fm记录坏indices/stations/full N2048 β²及原NPZ/哈希；不重算wholeflow/J、不改finite/vector/merit/判据，诊断异常只记录。
-
-完整H helper d5e9432e…/接口full-metric-inequality-correction已全文读并冻结，未执行：完整H仅C预条件、≤32工作行/34全局基/1200 H动作，全行修复/真实原梯度/R267多点下界。后续独立入口从29新warm并保原C后备/observer/全部原门，不冒QP最优。
+17–27完整失败/下降在本日actual notes，不重跑。26五query正后真实左RMS472/481失败，27据此加成七query，原26引擎7d75a44a…/B af7966fa…冻结。27 α1/16真实drop.05103629，但更大步mid位置未存；29只读观察真实新试步补齐。
+29/observedseven run43612331803/sourcef4896bba/job132499878558全success；artifact14120947020/143428136B/ZIP8c3af8d4…已取核，完整actual29 note27a84755…。同699/M112/T112/N2048；七left-RMS(472,473,475,477,479,480,481)×2048，完整B14336×236036/local3721；68文件/421数组/18源hash及父producer核。原88 Jac捕获11node，actual-LSMR B complex6.202e−13/adjoint1.428e−17，大阵仅artifact。
+λ270/200 LSMR80步istop2；C-Hildreth200未收敛，118负slack经.7538402992径向修成全正(min1.249e−16)，同f线段τ1。gdot−.7367477675/模型Delta.4609612920，完整gradient275926/零dual E522190不冒QP最优。R267可用同模型raw完整gradient345.4571给另一证据点，29未算新比例。
+实际α1/64全部原node/mid/两RMS/rho过，同一固定权重merit44.382936021255084→44.37120458393527，drop.011731437319816962/ratio1.0217222253。col.007110441077777405/BC8.857150198345718e−8仍非解，native0。新warm `notes/public-actions-43612331803-1-observedseven/observed-seven-warm/warm-001.json.gz` SHA f2e999e7c61d28683dc09adf387e0867b2dd36d271ebe0433fafbec68466fbd9；status a24ebbe3d39d64d7676754c67fc56589652bf6fcd31c93c7eca97e1641bebde4。新完整Rφ FD9.265212545800078e−10过原5e−5，112 H保留（首项2.3206841035345475e−14）。不同模型权重刷新，merit不可跨轮相减。
+最近拒绝1/32仅原midpoint473，s1.2018391887397941，finite middle/非finite RHS、β²10角负/min−.1615288168在index22；七RMS全角正。1/8、1/4还坏mid477，其他更大步坏点详原件。9条observer finite/vector字节未变；16 NPZ/48原数组核，无附加异常；未重算wholeflow/J。
+下一同29父场并行：完整H helper d5e9432e…/full-metric-inequality-correction接口已全文读冻结，完整H仅C预条件，≤32工作行/34全局基/1200 H动作、全原梯度/R267多点下界，原C方向作同f后备；另做九query=七原left-RMS+真正mid473/477各全2048。中点基点/站点必须直接state.middle/problem.mid字节，完整原两端J/P/入口core/global p链，已有11node捕获可复用。两支均保29只读observer、原17trial/全部域与新FD，无QP最优或native接受冒称。
 
 ### Native：23初猜成功，25原Newton线搜索仍失败
 
 17/19冷启动失败、21/22工厂提前拒均已保。原linearSteps同时定义far/graphs/gains/scales，禁全局改它冒只改初猜；保全部112 H/原native门，R264下溢账不代接受。
 23/zerorkprobev3 run43605912092/sourceac0fcc22/job132480432221实际success，artifact14117693541/ZIP385bfef9…已核。完整577×224 candidate原noJ一次、576stage全guard过，norm **.04177307820740199**，仍大于原2e−9；cut/far112行浮点0，无solve/J/audit。原最坏stage/尺度与零线性块残差另列actual23，不互代；noJ未给minA/minD。
 23全部51真下溢/9546负零/原尺度已保，完整candidate bits SHA6b01b385de34af22094bc47fd7c8c2c2da9ac6d07bc40b5ce6362fea241218b8，71chunk逐核；完整身份见public-same-RK-candidate-v3-actual23 note及28硬绑定，勿用JSON零冒原bit。
-25/nativeseed run43607404925/source4d384dc5/job132484959081已真实失败：原iteration0 norm=.04177307820740199、minA=.9999999999759498/minD=.9999999999999858，chartCondition8.810946110232247e59，原multiple-shooting line search failed；完整cut J/audit未返回。单次原TailClient.solve，同17 H仅注入23完整candidate，原方法/graphs/gains/far/scale/容差不改；源afa2588d…/hook22fa88aa…。artifact14118968502/ZIP480f69d0…已取核，十trial 1..1/512全stage13/raw0/seg7 D/S/A拒，无trialNorm；actual25已保。28/nativecorrection真实run43611175099/source6bd52b44/job132496373274在算，源0b49f142…/hookb20aee4d…全文读；同seed仅原首次withJac+correction，完整J/r/delta/原σ所有行缺陷、每stage摘要与max图矩阵保存后计划STOP，0trial不冒native接受。大二进制仅large-arrays artifact，manifest/hash进Git；按R266解释。
+25/nativeseed run43607404925/source4d384dc5/job132484959081已真实失败：原iteration0 norm=.04177307820740199、minA=.9999999999759498/minD=.9999999999999858，chartCondition8.810946110232247e59，原multiple-shooting line search failed；完整cut J/audit未返回。单次原TailClient.solve，同17 H仅注入23完整candidate，原方法/graphs/gains/far/scale/容差不改；源afa2588d…/hook22fa88aa…。artifact14118968502/ZIP480f69d0…已取核，十trial 1..1/512全stage13/raw0/seg7 D/S/A拒，无trialNorm；actual25已保。28/nativecorrection真实run43611175099/source6bd52b44/job132496373274捕获步骤success、完整产物取核中，源0b49f142…/hookb20aee4d…全文读；同seed仅原首次withJac+correction，完整J/r/delta/原σ所有行缺陷、每stage摘要与max图矩阵保存后计划STOP，0trial不冒native接受。大二进制仅large-arrays artifact，manifest/hash进Git；按R266解释。
 
 ## 之后的完整闭合与同g精化
 

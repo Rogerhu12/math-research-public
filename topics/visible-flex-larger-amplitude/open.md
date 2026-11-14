@@ -78,3 +78,5 @@ request27已全success，见[真实七query续步](notes/2026-11-14-actual-reque
 request29/observedseven已接推送，从实际27 f73dfc81…继续同一七query算法；原evaluate返回的坏middle/fm新增只读位置/原完整角余量与NPZ字节记录，所有原数值判据不变。没有盲加中点约束，须据实际新返回决定后续。新完整FD另行实算；详[同七query中点观察接口](notes/2026-11-14-observed-seven-query-warm-interface.md)。
 
 完整H候选生成helper已冻结，见[完整H修正接口](notes/2026-11-14-full-metric-inequality-correction-interface.md)。原全A/全局变量与全行B保持，近似H逆仅生成≤34维基，实际AV构子空间Gram，最多32工作行且完整原残差/互补/R267多点下界均重算。硬H≤1200，明确总时间及原trial余量，非完整QP最优；尚未实际执行。后续从29真实新warm接独立入口，保原C投影作同模型后备及29只读中点诊断，原最终判据不变。
+
+request29已全success，见[真实中点定位与下降](notes/2026-11-14-actual-request29-observed-seven-query-warm.md)。新warm f2e999e7…，α2^-6实降.0117314373、新FD9.265e−10；仍col.0071104411/BC8.857e−8/native0。最近拒绝2^-5为原midpoint473（s1.2018391887397941）β²10角负/min−.1615288168，七left-RMS全部2048角正；更大2^-3/2^-2还有mid477。原observer不改flags/vector字节，16 NPZ/48数组核完。下一从同新warm并行完整H同七query与九query（七原RMS+原mid473/477）候选，必须按原middle/mid字节与完整原J/P链，保全部原门。
