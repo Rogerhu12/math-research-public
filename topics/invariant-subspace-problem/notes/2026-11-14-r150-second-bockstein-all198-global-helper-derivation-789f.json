@@ -1,0 +1,109 @@
+{
+  "format": "r150-all198-global-continuation-exact-source-derivation-v1",
+  "derivations": [
+    {
+      "source": "2026-11-14-r150-second-bockstein-common-789f.hpp",
+      "sourceSHA256": "dbf1e7170d2f7d8738f24a841d646f4f624a1813fdfe78a42345738296d3e117",
+      "derived": "2026-11-14-r150-second-bockstein-all198-global-common-789f.hpp",
+      "derivedSHA256": "52be084cbb2b7ea63bb4dcedfc972fc9cb1cab9fad7a62285b738778ed47f59e",
+      "replacements": [
+        {
+          "old": "// Shared exact readers for the four-column second-Bockstein continuation.",
+          "new": "// Exact global continuation readers: nine combinations of up to202 real directions."
+        },
+        {
+          "old": "f.count<1||f.count>9",
+          "new": "f.count<1||f.count>202"
+        }
+      ]
+    },
+    {
+      "source": "2026-11-14-r150-second-bockstein-image-mixture-789f.cpp",
+      "sourceSHA256": "904221f89d2a1751be04483f1ce923f7d4d61d01970d520a5b1183924e3e417f",
+      "derived": "2026-11-14-r150-second-bockstein-all198-global-image-mixture-789f.cpp",
+      "derivedSHA256": "5eef9a7d3e37b834fe6e8bd72dce0dca83e6d13e214d85ecd418f0cab9f0d56d",
+      "replacements": [
+        {
+          "old": "2026-11-14-r150-second-bockstein-common-789f.hpp",
+          "new": "2026-11-14-r150-second-bockstein-all198-global-common-789f.hpp"
+        }
+      ]
+    },
+    {
+      "source": "2026-11-14-r150-second-bockstein-original-transport-789f.cpp",
+      "sourceSHA256": "2e1648175c24583c869292d529dd035d07c7bc8a341b40f710fb341b7cc60439",
+      "derived": "2026-11-14-r150-second-bockstein-all198-global-original-transport-789f.cpp",
+      "derivedSHA256": "944fa6dc149ac728d0b6747db7283e35cae14cb6a93689b58f13d69fbfcc93da",
+      "replacements": [
+        {
+          "old": "2026-11-14-r150-second-bockstein-common-789f.hpp",
+          "new": "2026-11-14-r150-second-bockstein-all198-global-common-789f.hpp"
+        }
+      ]
+    },
+    {
+      "source": "2026-11-14-r150-second-bockstein-normal-form-789f.cpp",
+      "sourceSHA256": "01820327f2d8fe8c3ef45d6a944d2babafa5f69f48bb4c4035fc4b17d1f8ae1a",
+      "derived": "2026-11-14-r150-second-bockstein-all198-global-normal-form-789f.cpp",
+      "derivedSHA256": "5bd10c7e2eb9b82ad55833dcf030974aa97fd57d5b591d0b2c40e4b7541d05a0",
+      "replacements": [
+        {
+          "old": "// Exact F31 normal forms of the four actual second Bockstein original RHS.",
+          "new": "// Exact F31 normal forms of nine actual selected global second-Bockstein RHS."
+        },
+        {
+          "old": "nt!=4||originalComponents!=4367",
+          "new": "nt!=9||originalComponents!=4367"
+        },
+        {
+          "old": "actualLabels[i]!=4001+i",
+          "new": "actualLabels[i]!=2+i"
+        },
+        {
+          "old": "four-second-bockstein-original-normal-forms-complete",
+          "new": "nine-selected-global-second-normal-forms-complete"
+        }
+      ]
+    },
+    {
+      "source": "2026-11-14-r150-second-bockstein-original-combination-789f.cpp",
+      "sourceSHA256": "3b2280e873e329731cbc7ce0d72c915e20b2e54fd9a4c749bc13cc8af93358c2",
+      "derived": "2026-11-14-r150-second-bockstein-all198-global-original-combination-789f.cpp",
+      "derivedSHA256": "353933a95ab56606cf9178e855df9e959e27bbf10c685012aa3450c78f85aa3e",
+      "replacements": [
+        {
+          "old": "2026-11-14-r150-second-bockstein-common-789f.hpp",
+          "new": "2026-11-14-r150-second-bockstein-all198-global-common-789f.hpp"
+        },
+        {
+          "old": "count=0,modulus=0,bound=0;",
+          "new": "count=0,modulus=0,bound=0,coefficientBytes=2;"
+        },
+        {
+          "old": "f.count<1||f.count>9",
+          "new": "f.count<1||f.count>202"
+        },
+        {
+          "old": "f.in=std::make_unique<std::ifstream>(f.path,std::ios::binary);auto &in=*f.in;if(sb::tag(in)!=\"R150PS31\"||sb::get(in,4)!=31)throw std::runtime_error(\"primitive source format\");f.modulus=sb::get(in,4);if(f.modulus!=31&&f.modulus!=961&&f.modulus!=29791)throw std::runtime_error(\"primitive input modulus\");if(sb::get(in,4)!=6188||sb::get(in,4)!=uint64_t(f.count))throw std::runtime_error(\"primitive source dimensions\");f.bound=sb::get(in,4);for(auto a:f.labels)if(sb::get(in,2)!=uint64_t(a))throw std::runtime_error(\"primitive source labels\");",
+          "new": "f.in=std::make_unique<std::ifstream>(f.path,std::ios::binary);auto &in=*f.in;auto tag=sb::tag(in);if(sb::get(in,4)!=31)throw std::runtime_error(\"primitive source prime\");\n  if(tag==\"R150KK31\"){f.modulus=31;f.coefficientBytes=1;if(sb::get(in,4)!=6188||sb::get(in,4)!=uint64_t(f.count)||f.count!=200)throw std::runtime_error(\"same original200 kernel dimensions\");f.bound=sb::get(in,4);if(f.bound!=85)throw std::runtime_error(\"same original200 kernel bound\");for(int j=0;j<f.count;j++){sb::get(in,4);int head=sb::get(in,2),cost=sb::get(in,2),source=sb::get(in,4),raw=sb::get(in,4);if(head!=f.labels[j]||cost!=(j<160?80:j<198?81:85)||source<1||source>2195||raw<1||raw>6188)throw std::runtime_error(\"same original200 integer source labels\");}}\n  else{if(tag!=\"R150PS31\")throw std::runtime_error(\"primitive source format\");f.modulus=sb::get(in,4);if(f.modulus!=31&&f.modulus!=961&&f.modulus!=29791)throw std::runtime_error(\"primitive input modulus\");if(sb::get(in,4)!=6188||sb::get(in,4)!=uint64_t(f.count))throw std::runtime_error(\"primitive source dimensions\");f.bound=sb::get(in,4);for(auto a:f.labels)if(sb::get(in,2)!=uint64_t(a))throw std::runtime_error(\"primitive source labels\");}"
+        },
+        {
+          "old": "last=sb::get(in,2);if(last>=f.modulus)",
+          "new": "last=sb::get(in,f.coefficientBytes);if(last>=f.modulus)"
+        }
+      ]
+    }
+  ],
+  "originalProductCheckpointAddition": {
+    "beforeSHA256": "ba024305c66d0bc0daabac81b2bc7c482b9949fde4752f5e5ff77e774a723c39",
+    "afterSHA256": "353933a95ab56606cf9178e855df9e959e27bbf10c685012aa3450c78f85aa3e",
+    "sameArithmetic": true,
+    "savedActualState": [
+      "all original polynomial product coefficients",
+      "both partial actual source streams",
+      "next original raw row",
+      "actual degree/cost/count statistics",
+      "input SHA binding"
+    ]
+  }
+}

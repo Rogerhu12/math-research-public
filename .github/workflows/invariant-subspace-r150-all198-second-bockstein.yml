@@ -1,0 +1,136 @@
+name: ISP R150 complete second primary image and original mod29791
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/invariant-subspace-problem/notes/2026-11-14-r150-all198-second-bockstein-ci-request-789f.json
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: isp-r150-all198-second-bockstein-789f
+  cancel-in-progress: false
+
+jobs:
+  complete-primary-and-original:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+            .github/workflows
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Record exact request, rules and actual source
+        run: |
+          python3 - <<'PYCODE'
+          import hashlib,json,os
+          from pathlib import Path
+          notes=Path('topics/invariant-subspace-problem/notes')
+          rp=notes/'2026-11-14-r150-all198-second-bockstein-ci-request-789f.json'
+          request=json.loads(rp.read_text())
+          expected={'new_kernel_directions':198,'previous_relation_directions':4,'exact_low_kernel_directions':1632,'actual_targets':9,'original_raw_rows':6188,'integer_modulus':29791,'target_multiplier':'H0=(s-2)*h0','local_quotient_dimension':143,'local_free_checks':104,'local_torsion_dimension':39,'second_target_quotient_dimension':37,'shared_mathematical_seconds':300,'per_child_memory_mib':512,'per_compilation_seconds':30,'t96_run_id':43597823809,'t96_artifact_id':14114364261,'old200_run_id':43605503242,'old200_artifact_id':14118112895,'continue_local_compatibility_to_full_original_seventeen':True,'characteristic_zero_identity_asserted':False}
+          if any(request.get(k)!=v for k,v in expected.items()):raise SystemExit('Bounded complete-primary request changed')
+          rules={name:hashlib.sha256(Path(name).read_bytes()).hexdigest() for name in request['rules_sha256']}
+          if rules!=request['rules_sha256']:raise SystemExit('README changed: root must read and apply the new rules before this request runs')
+          sources={name:hashlib.sha256((notes/name).read_bytes()).hexdigest() for name in request['new_source_sha256']}
+          if sources!=request['new_source_sha256']:raise SystemExit('Frozen source or input changed')
+          manifest=notes/request['source_manifest_file']
+          if hashlib.sha256(manifest.read_bytes()).hexdigest()!=request['source_manifest_sha256']:raise SystemExit('Frozen manifest changed')
+          out=Path(os.environ['RUNNER_TEMP'])/'isp-r150-all198-second-bockstein-output'
+          (out/'results').mkdir(parents=True,exist_ok=True)
+          result={'source_commit':os.environ['GITHUB_SHA'],'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],'rules_sha256':rules,'request':request,'request_sha256':hashlib.sha256(rp.read_bytes()).hexdigest(),'workflow_sha256':hashlib.sha256(Path('.github/workflows/invariant-subspace-r150-all198-second-bockstein.yml').read_bytes()).hexdigest()}
+          (out/'results'/'actions-source.json').write_text(json.dumps(result,indent=2)+'\n')
+          with open(os.environ['GITHUB_ENV'],'a') as f:f.write('ISP_ALL198_OUT='+str(out)+'\n')
+          print(json.dumps(expected))
+          PYCODE
+      - name: Restore the complete original T96 graph and source DAGs
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-t96-graph-recovery-43597823809-1
+          run-id: 43597823809
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-all198-t96-input
+      - name: Restore the old 200 original kernels and their completed first images
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-high-kernel-bockstein-recovery-43605503242-1
+          run-id: 43605503242
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-all198-old200-input
+      - name: Install the fixed arithmetic dependency and record compiler
+        run: |
+          python3 -m pip install python-flint==0.9.0
+          python3 -m pip show python-flint > "$ISP_ALL198_OUT/results/python-flint-version.txt"
+          g++ --version > "$ISP_ALL198_OUT/results/compiler-version.txt"
+      - name: Execute the single shared 300-second continuation
+        id: exact
+        continue-on-error: true
+        timeout-minutes: 12
+        run: |
+          set -o pipefail
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-all198-second-bockstein-jet-runner-789f.py \
+            --notes-root topics/invariant-subspace-problem/notes \
+            --t96-recovery "$RUNNER_TEMP/isp-r150-all198-t96-input" \
+            --old200-recovery "$RUNNER_TEMP/isp-r150-all198-old200-input" \
+            --four-recovery topics/invariant-subspace-problem/notes \
+            --h25-recovery topics/invariant-subspace-problem/notes \
+            --second-recovery topics/invariant-subspace-problem/notes \
+            --out "$ISP_ALL198_OUT" \
+            --math-seconds 300 --memory-mib 512 --compile-seconds 30 \
+            2>&1 | tee "$ISP_ALL198_OUT/results/actions-console.log"
+      - name: Record the actual mathematical outcome and scope
+        if: always() && env.ISP_ALL198_OUT != ''
+        env:
+          ISP_EXACT_STEP_OUTCOME: ${{ steps.exact.outcome }}
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          out=Path(os.environ['ISP_ALL198_OUT'])/'results'
+          p=out/'all198-second-bockstein-jet-pipeline-receipt.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          outcome=r.get('outcome')
+          coverage=all(r.get(k) is True for k in ['relevantPrimaryImageComplete','all198Coverage','old4Coverage','low1632Coverage'])
+          full=outcome=='full-original-mod29791-certificate' and r.get('fullOriginalMod29791IdentityVerified') is True and r.get('finite_budget_verified') is True and coverage
+          obstruction=outcome=='complete-second-primary-obstruction' and coverage and r.get('numberOfGloballyObstructedTargets',0)>0
+          complete=os.environ.get('ISP_EXACT_STEP_OUTCOME')=='success' and r.get('status')=='completed' and (full or obstruction)
+          result={'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],'source_commit':os.environ['GITHUB_SHA'],'step_outcome':os.environ.get('ISP_EXACT_STEP_OUTCOME'),'pipeline_status':r.get('status','not-started'),'outcome':outcome,'complete':complete,'full_original_mod29791_identity_verified':full,'complete_relevant_second_primary_obstruction':obstruction and complete,'other_primary_second_images_claimed':False,'characteristic_zero_identity_asserted':False,'mathematical_elapsed_seconds':r.get('mathematicalElapsedSeconds'),'individual_target_conclusions_must_be_read_from_actual_receipt':True,'root_will_publish_actual_results':True}
+          (out/'actions-outcome.json').write_text(json.dumps(result,indent=2)+'\n')
+          print(json.dumps(result))
+          PYCODE
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_ALL198_OUT != ''
+        with:
+          name: isp-r150-all198-second-bockstein-results-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_ALL198_OUT }}/results
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_ALL198_OUT != ''
+        with:
+          name: isp-r150-all198-second-bockstein-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          compression-level: 1
+          if-no-files-found: warn
+          path: ${{ env.ISP_ALL198_OUT }}/recovery
+      - name: Require a completed scoped mathematical outcome
+        if: always() && env.ISP_ALL198_OUT != ''
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          r=json.loads((Path(os.environ['ISP_ALL198_OUT'])/'results'/'actions-outcome.json').read_text())
+          if r.get('complete') is not True:raise SystemExit('Complete-primary continuation incomplete; actual recovery and partial checkpoints are retained')
+          PYCODE

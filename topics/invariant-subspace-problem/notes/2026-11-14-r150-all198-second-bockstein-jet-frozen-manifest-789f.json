@@ -1,0 +1,127 @@
+{
+  "format": "r150-all198-second-bockstein-jet-frozen-sources-v1",
+  "status": "prepared-no-mathematics-executed",
+  "sourceDirectory": "/dev/shm/isp-789f-agent-incoming/normal",
+  "runner": "2026-11-14-r150-all198-second-bockstein-jet-runner-789f.py",
+  "receipt": "results/all198-second-bockstein-jet-pipeline-receipt.json",
+  "mathSeconds": 300,
+  "perProcessMiB": 512,
+  "perCompileSeconds": 30,
+  "allNineBoundedCompilationsPassed": true,
+  "compilationSeconds": 36.4690919719942,
+  "new198MathematicsExecuted": false,
+  "files": [
+    {
+      "file": "2026-11-14-r150-second-bockstein-jet-common-789f.hpp",
+      "bytes": 4961,
+      "sha256": "68abd4cb4a4a72bb52729562a05a9a13395a2e7647239620ad9ba7a1ba52bfaa"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-jet-vq-789f.cpp",
+      "bytes": 6578,
+      "sha256": "c86663523440656edb89242e53623d3af605dacb918d388a864760d1f6fff295"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-jet-original-transport-789f.cpp",
+      "bytes": 9161,
+      "sha256": "46c9dbc6182d809358e978ebe84f106f89c8d6fc78fe8a8e55c620fc60f9eaee"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-jet-original-product-789f.cpp",
+      "bytes": 9054,
+      "sha256": "87bd31457107aebbae81af1eb032249f37af8d6f0d3565e18ed59fa2864c97b3"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-jet-local-normal-789f.cpp",
+      "bytes": 13380,
+      "sha256": "58fb4274b004205c5a07299a475138b2c0dcae1389b3f5ea2b8e678982d23e88"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-all198-global-common-789f.hpp",
+      "bytes": 10927,
+      "sha256": "52be084cbb2b7ea63bb4dcedfc972fc9cb1cab9fad7a62285b738778ed47f59e"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-all198-global-image-mixture-789f.cpp",
+      "bytes": 6817,
+      "sha256": "5eef9a7d3e37b834fe6e8bd72dce0dca83e6d13e214d85ecd418f0cab9f0d56d"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-all198-global-original-transport-789f.cpp",
+      "bytes": 8744,
+      "sha256": "944fa6dc149ac728d0b6747db7283e35cae14cb6a93689b58f13d69fbfcc93da"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-all198-global-normal-form-789f.cpp",
+      "bytes": 13972,
+      "sha256": "5bd10c7e2eb9b82ad55833dcf030974aa97fd57d5b591d0b2c40e4b7541d05a0"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-all198-global-original-combination-789f.cpp",
+      "bytes": 13314,
+      "sha256": "353933a95ab56606cf9178e855df9e959e27bbf10c685012aa3450c78f85aa3e"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-all198-global-helper-derivation-789f.json",
+      "bytes": 6191,
+      "sha256": "44d257ca3050c4836ab3dd8c447f2ebca8e84de2865790ccb9331ac48066286d"
+    },
+    {
+      "file": "2026-11-14-r150-all198-second-bockstein-jet-test-789f.py",
+      "bytes": 9797,
+      "sha256": "8ef0f45e276ec7298aed0a37701cf48fc8f8c5868b22ba77e8e0eeade9314619"
+    },
+    {
+      "file": "2026-11-14-r150-all198-second-bockstein-global-check-789f.py",
+      "bytes": 7880,
+      "sha256": "06153a71816aae49e1d00efae6180b4fa5a3c28f9aa147f315be72ade0c53f0a"
+    },
+    {
+      "file": "2026-11-14-r150-all198-second-bockstein-jet-runner-789f.py",
+      "bytes": 28818,
+      "sha256": "e04f69421ecdc5b3a05395ab67cf7d4038b2c15c181ec447d394046a41bb7e90"
+    },
+    {
+      "file": "2026-11-14-r150-all198-second-bockstein-jet-interface-789f.md",
+      "bytes": 8665,
+      "sha256": "ae2f034e2f033e69b401c8e3c8cda2d477dbb27171301ceadb01850c8da54562"
+    },
+    {
+      "file": "r150-all198-second-bockstein-jet-preparation-789f/prepare-receipt.json",
+      "bytes": 17823,
+      "sha256": "9ad7b40bffdcfbaeab14dcdb8bc822271e4b1cbbdee1cdc6edbe9842ce187e63"
+    }
+  ],
+  "alreadyPublishedDependencies": [
+    {
+      "file": "2026-11-14-r150-second-bockstein-common-789f.hpp",
+      "bytes": 10915,
+      "sha256": "dbf1e7170d2f7d8738f24a841d646f4f624a1813fdfe78a42345738296d3e117"
+    },
+    {
+      "file": "2026-11-14-r150-second-bockstein-source-checkpoint-789f.cpp",
+      "bytes": 21872,
+      "sha256": "dbaabefa84d5828dc110abd80c78096cd274c1540e241811d29ac5433d9f2c65"
+    },
+    {
+      "file": "2026-11-14-r150-four-second-bockstein-runner-789f.py",
+      "bytes": 24511,
+      "sha256": "9fc1d9e6f64f520365bddea2d0d3387a32d42123f38efcf36f8798c9f36e6cba"
+    },
+    {
+      "file": "2026-11-14-r150-f31-bitplane-789f.hpp",
+      "bytes": 3030,
+      "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+    },
+    {
+      "file": "2026-11-14-r150-torsion-characteristic-789f.py",
+      "bytes": 5002,
+      "sha256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+    }
+  ],
+  "successOutcomes": {
+    "complete-second-primary-obstruction": "Relevant1/2-primary image complete; only the individually listed obstructed labels are globally ruled out. Full315 primary image not claimed.",
+    "full-original-mod29791-certificate": "All original17 equations and all6188 source rows multiply back to allnine H0 targets modulo29791; actual weighted bounds and row-unit transport verified."
+  },
+  "localPositiveIsTerminal": false
+}
