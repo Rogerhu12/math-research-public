@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete_cut_direction_and_same_Z_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43615251195",
   "run_attempt": "1",
@@ -100,6 +100,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T16:37:40.747325+00:00",
+      "before": "56e4bf477f8838052506329628a071a3d726ac08",
+      "after": "f190408ad9549d3556b1158b07e0f4a5e27d57a8",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -107,6 +115,11 @@
       "time": "2026-11-14T16:37:33.086024+00:00",
       "final": false,
       "commit": "56e4bf477f8838052506329628a071a3d726ac08"
+    },
+    {
+      "time": "2026-11-14T16:37:40.402572+00:00",
+      "final": false,
+      "commit": "f190408ad9549d3556b1158b07e0f4a5e27d57a8"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -143,7 +156,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "56e4bf477f8838052506329628a071a3d726ac08",
+  "last_read_commit": "f190408ad9549d3556b1158b07e0f4a5e27d57a8",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-full-cut-Z-work/science",
   "actual_common_input_sha256": {
     "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
@@ -166,9 +179,15 @@
     "pilot-process": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4"
   },
   "actual_plan_native_sha256": "d8e0f9260b3dd0b1ba0fbd83891c54d4118f41e11e2a6e65783581ea31daf798",
-  "snapshot_utc": "2026-11-14T16:37:38.386044+00:00",
-  "wall_seconds": 8.749480446999996,
+  "snapshot_utc": "2026-11-14T16:37:40.782910+00:00",
+  "wall_seconds": 11.146346735999998,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 1517,
+      "sha256": "458992cbd570a2e3b0950b260af42823c007dde7327d7cbd5f26ba57f5caa33e"
+    },
     {
       "logical_file": "evidence/actual-range-0000-0512-process.json",
       "file": "evidence/actual-range-0000-0512-process.json",
@@ -200,6 +219,12 @@
       "sha256": "aa9e65dee66eeacb8cd67f466ce3af106eb0cd4f77a51ded3746d32bdfbe0fc3"
     },
     {
+      "logical_file": "evidence/complete-cut-Z-finish-summary.json",
+      "file": "evidence/complete-cut-Z-finish-summary.json",
+      "bytes": 7362,
+      "sha256": "04718e923e8939ea342846b49edc7078f566704bf45189e3145c3f40c980d6e4"
+    },
+    {
       "logical_file": "evidence/original-boundary-artifact-process.json",
       "file": "evidence/original-boundary-artifact-process.json",
       "bytes": 12587,
@@ -229,5 +254,38 @@
       "bytes": 1077659,
       "sha256": "8bc061ec200deb37548005297a1530d341eaa55065e70104cc5d82714aed21c5"
     }
-  ]
+  ],
+  "complete_native_sha256": "8bc061ec200deb37548005297a1530d341eaa55065e70104cc5d82714aed21c5",
+  "actual_scientific_gates": 11,
+  "actual_new_one_column_cells_in_this_child": 0,
+  "complete_all_one_column_cells_computed": true,
+  "actual_new_summary_bytes": 7362,
+  "complete_same_Z_source_bounds": {
+    "left_waist_96_row_source_L2": {
+      "ball": "[1.1214830703357395378163368633113353962897915179809833280299975094275036763625724e-15 +/- 3.16e-95]",
+      "lower": "[1.1214830703357395378163368633113353962897915179809833280299975094275036763625724e-15 +/- 3.16e-95]",
+      "upper": "[1.1214830703357395378163368633113353962897915179809833280299975094275036763625724e-15 +/- 3.16e-95]"
+    },
+    "true_cut_96_odd_rows_L2": {
+      "ball": "[5.2156383071519349119708889943349421591045459091474048823475061191748187963550737e-5 +/- 3.73e-85]",
+      "lower": "[5.2156383071519349119708889943349421591045459091474048823475061191748187963550737e-5 +/- 3.73e-85]",
+      "upper": "[5.2156383071519349119708889943349421591045459091474048823475061191748187963550737e-5 +/- 3.73e-85]"
+    },
+    "true_cut_independent_mean_absolute": {
+      "ball": "[1.6154911865575583812273733744906917130387978517845327843050861993316610404659743e-5 +/- 3.89e-85]",
+      "lower": "[1.6154911865575583812273733744906917130387978517845327843050861993316610404659743e-5 +/- 3.89e-85]",
+      "upper": "[1.6154911865575583812273733744906917130387978517845327843050861993316610404659743e-5 +/- 3.89e-85]"
+    },
+    "true_cut_complete97_rows_L2": {
+      "ball": "[5.4601002486104455443470727568569119125431318185010214503970473683768438638973261e-5 +/- 3.35e-85]",
+      "lower": "[5.4601002486104455443470727568569119125431318185010214503970473683768438638973261e-5 +/- 3.35e-85]",
+      "upper": "[5.4601002486104455443470727568569119125431318185010214503970473683768438638973261e-5 +/- 3.35e-85]"
+    },
+    "true_cut_known_full_high_output": {
+      "ball": "[5.2316703846717826681155901892414531888402272484692580594002413665315938290403556e-5 +/- 2.64e-85]",
+      "lower": "[5.2316703846717826681155901892414531888402272484692580594002413665315938290403556e-5 +/- 2.64e-85]",
+      "upper": "[5.2316703846717826681155901892414531888402272484692580594002413665315938290403556e-5 +/- 2.64e-85]"
+    }
+  },
+  "finished_utc": "2026-11-14T16:37:40.492216+00:00"
 }
