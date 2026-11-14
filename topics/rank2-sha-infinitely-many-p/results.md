@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R455：纯伴随正次数原S提取与保斜轴完整中央](results/R455-original-pure-companion-test-and-slope-core-arithmetic-return.md)：六条正Tc矩完整张成六维来源，固定无常数degree36测试精确抽S；真Tc单位修正后仍保持Vres核心，原零确传全部深slab。全法向五阶只含六个正sigma矩，删显示固定有限坏集后同D_n每正n值v5n，余项准确为同slab内Z外域。
+
 - [R454：奇degree33绝对核心与原残余斜轴深运输](results/R454-original-odd33-core-and-exact-residual-slope-transport.md)：固定mod11细分付全33维Heisenberg标量，两原sigma联合锚给实际χ²=1；同一D+来源的Z−33H及Z−33c轴均有绝对scalar core。全部独立深度、环带与原X测试剪切完整保留，无权负五矩和内部补域未预付。
 
 - [R453：一次整返回与完整两来源次数二连接](results/R453-single-integral-return-and-degree-two-two-source-connection.md)：原T/V计算格包含全部原T列，固定p饱和乘子一次返回原格；十二类连接均有一角余量，反复k次成本D+2k+36，原P134/U0及首次提升完整运输。全量词门槛仍aI+2bI<3，不预付新中央零或相对p²类。

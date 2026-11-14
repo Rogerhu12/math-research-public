@@ -208,7 +208,7 @@ R451真D+来源L+=L0+(L1−LR)/2保原principal中央，Γ+的U scalar core使JS
 
 R452用真实Uunit矩阵的整可逆微扰给指定测试完整抽回S/两参考；新logc质量修正保留，同D_n首五阶仍unit。一次A核将它送入Ψ0第一层carry，同测试全域=λJS′、内部斜管v5n。**待做：** 这个完整carry的真实补域；更细U−280X=9(Z−33H)轴需新完整核心，不能提前当径向U条件。
 
-R454的固定mod11细分付全odd33实际scalar与两sigma绝对锚χ²=1，原Vres=Z−33H、Tc=Z−33c两轴principal core完整返回并保Y，所有矩形/环带合法。**待做：** 以正Tc测试精确抽S后处理同一深slab的Z外域；原X6归一剪切不删，无权负五矩未付。更多仅保Y的core不能自动控制其余principal算术导数。
+R454/455已付固定mod11细分、全odd33实际χ²=1及Vres/Tc两核心。纯Tc六个正矩的degree36固定测试完整抽S，真Tcunit修正后仍保Vres；原JS′零确传{Vresdeep n,Tcunit}完整行。删R455显示固定有限坏集，内部D_n同测试每n≥1为v5n。**待做：** 同一来源/同一测试的唯一准确余域Z∉p^n，其中Z=(33Y+Tc)/34；须用混合Y的原Z/c或W操作及真实算术关系控制。完整六维Y行不可仅由更多保Y core与一条JS零消掉。
 
 R425/428/434的两完整中央Hensel参数、原高轴换参及四行Schur，R440的H38最大来源与三核边界，R444/449的真K2/C2及carry精确序列，R453的完整T/V格一次返回和次数二连接，全部显示常数与原未付条件见[截至R453的open检查点](notes/2026-11-14-open-through-r453.md)。当前惰性核心仍是原相对J的p²类及G2=C2(J)/Hbar：相对Smith≤p时所有修正吸收；来源饱和不代物理像，原双中央未向全量词jet传播，aI+2bI<3未付。
 
