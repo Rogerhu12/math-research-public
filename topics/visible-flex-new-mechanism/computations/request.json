@@ -1,36 +1,59 @@
 {
-  "request": "R45-single-P-zero-period-independent-frozen-control-instance",
-  "created_at": "2026-11-14T16:42:25.559228+00:00",
+  "request": "independent-height-bounded-design-and-full-fourth-functions",
+  "created_at": "2026-11-14T16:55:33.163296+00:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "single_P_instance"
+    "independent_height_solve",
+    "full_fourth_evaluate"
   ],
-  "source_sha256": "93951271bc9207bcf3a2b027f993a41e0ffcde3c380b17112c39554945fd5053",
-  "turns": 16384,
-  "quadrature_n": 64,
-  "frame_n": 96,
-  "validation_multipliers": [
-    1,
-    2,
-    4
-  ],
-  "max_nfev": 32,
-  "design_seconds": 300,
-  "initial_parameters": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "target": "single M_P=0 with endpoint D, then natural P/P/Prev/Prev; not old Klein eight-block residual",
-  "no_old_optimized_parameters_or_output_reused": true,
-  "refit_during_validation": false,
-  "force_endpoint_or_omega_reset": false,
-  "exact_fourth_range_requires_further_profile_and_whole_function_conditions": true,
-  "operator_experiment_only_not_a_thickness_candidate": true,
+  "new_source_sha256": {
+    "frame_independent_height.py": "d7c52dd824a9302d8877092c551cc567ed1477a0dc6192799d8ad42969121de6",
+    "frame_independent_height_solve.py": "a406d44946cf32e2d4a90fcf0b1711a74b5342d27e26709653a7e7058fe3e74f",
+    "literature_range_numeric_engine.py": "3c5e2bb2aca3912b735019ea2af5a4fd266b0671335f3a1f589e15e8b13c2f58",
+    "literature_full_fourth_evaluate.py": "287051f173f4d765d8ac4f14f9c1a72bb02dcaa3248922f8a62521d1ac05bdb4"
+  },
+  "independent_height": {
+    "initial": "original c0, zero height/body controls",
+    "dimension": 167,
+    "GH": 64,
+    "height_mean_Nb": 384,
+    "radial_nodes": 61,
+    "angular_nodes": 192,
+    "max_nfev": 250,
+    "solve_seconds": 600,
+    "parameter_bounds": [
+      8,
+      1,
+      0.5
+    ],
+    "engineering_gate": 0.0001,
+    "gate_quantity": "X/Xs/Xtheta/(E-1,sqrt2 F/a); high jets separately reported",
+    "only_one_solve": true,
+    "freeze_g_before_same_state_refinement": true,
+    "fixed_final_radial_nodes": 121,
+    "fixed_final_angles": [
+      384,
+      768
+    ],
+    "independent_GH_Nb_radial_quadrature_refinements": true
+  },
+  "full_fourth": {
+    "input_sha256": "feb72a8e01f9a2aa0a925f7173e0bb53e1d81224481ad3a01afbeea4c6f2d6c0",
+    "profile": "R52 numerical even spectral pair and eight signed real-cube-root packets",
+    "R53_profile_claimed": false,
+    "fit_quadrature_once": 256,
+    "geometry_nodes": [
+      32,
+      64
+    ],
+    "profile_panel_nodes": [
+      64,
+      96
+    ],
+    "seconds": 1200,
+    "all_real_history_propagated": true,
+    "full_minus_four_single_P_measured_not_forced": true,
+    "one_global_w_quotient": true
+  },
   "task_complete": false
 }

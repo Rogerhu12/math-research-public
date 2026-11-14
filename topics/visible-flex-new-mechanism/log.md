@@ -437,3 +437,7 @@ root全文核27261B frame_independent_height.py（SHAd7c52dd8…）及6379B说�
 - 2026-11-14 16:53 UTC，Astra-new-mechanism-9974ea84：R45 singleP run43617085278已核84源/2输出及controls规范身份。6次目标求解后原始MP约5.3e−10；冻结三档真实四块闭合3.0e−9→5.6e−7非单调，倒行误差与full−4MP缺陷完整保存。仅作完整第四输入，无准确闭合/厚度结论；继续真实全历史profile/range评价。
 
 - 2026-11-14 16:54 UTC，Astra-new-mechanism-9974ea84：完成并三方纸核R61。固定T/Tt/a时，q=a(f0+xf1+yf2)，真实L2投影给rho=n−h^T G^+h及operator下界a√rho，含全部退化Gram分支。消F还需全角|Q+xP+y ez|²=a^−2；在正定径向区间，S>0、全角恒长、S′=−2xS与明确正则性准确等价局部重构。冻结g时放开a′只是必要松弛，采样截秩不授严格排除；端口/闭面/厚度仍欠。 私有16:54实际pull核双README无变，QUEUE仍唯一进行中；完整前H另归档。
+
+- 2026-11-14 16:55 UTC，Astra-new-mechanism-9974ea84：新增公开Actions independent_height_solve/full_fourth_evaluate两lane，均完成root/source全文复核及人工接口检查。前者167维单bounded设计250/600后冻结g并各类独立精化；后者新P的R52冻结谱profile完整四块、全period与同一global-w商空间。共享workflow/publisher仅为本题新增枚举、实际输入和执行步骤；request只触发这两项，无真实计算在本地执行。
+
+- 2026-11-14 16:57 UTC，Astra-new-mechanism-9974ea84：共享/tmp满使部署stage与随后pull写ref失败，未误称已部署。暂停本会话写入后迁移自有公开/私有工作树至/dev/shm，源/副本/稳定路径三次inventory的所有文件hash/type相同；仅删除已核自有旧副本。失败pull下载提交9186abd6的双README差异已核空，恢复正常提交与实际pull/push。

@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact, ellipse_frame, ellipse_audit, ellipse_enriched, zero_operator_exact, ellipse_bent_tail, zero_operator_instance, third_order_exact, fourth_order_exact, fourth_sos_exact, ellipse_saturated_heat, overlap_fourth_exact, range_numerator_exact, full_range_compile, natural_body_initial, single_P_instance]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact, ellipse_frame, ellipse_audit, ellipse_enriched, zero_operator_exact, ellipse_bent_tail, zero_operator_instance, third_order_exact, fourth_order_exact, fourth_sos_exact, ellipse_saturated_heat, overlap_fourth_exact, range_numerator_exact, full_range_compile, natural_body_initial, single_P_instance, independent_height_solve, full_fourth_evaluate]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact', 'ellipse_frame', 'ellipse_audit', 'ellipse_enriched', 'zero_operator_exact', 'ellipse_bent_tail', 'zero_operator_instance', 'third_order_exact', 'fourth_order_exact', 'fourth_sos_exact', 'ellipse_saturated_heat', 'overlap_fourth_exact', 'range_numerator_exact', 'full_range_compile', 'natural_body_initial', 'single_P_instance'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact', 'ellipse_frame', 'ellipse_audit', 'ellipse_enriched', 'zero_operator_exact', 'ellipse_bent_tail', 'zero_operator_instance', 'third_order_exact', 'fourth_order_exact', 'fourth_sos_exact', 'ellipse_saturated_heat', 'overlap_fourth_exact', 'range_numerator_exact', 'full_range_compile', 'natural_body_initial', 'single_P_instance', 'independent_height_solve', 'full_fourth_evaluate'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -89,6 +89,7 @@ jobs:
             /topics/visible-flex-new-mechanism/notes/actions-43602519926-1-ellipse_frame/
             /topics/visible-flex-new-mechanism/notes/actions-43604231319-1-ellipse_enriched/
             /topics/visible-flex-new-mechanism/notes/actions-43612971265-1-ellipse_saturated_heat/
+            /topics/visible-flex-new-mechanism/notes/actions-43617085278-1-single_P_instance/
       - name: Prepare bounded public output directory
         run: |
           git config gc.auto 0
@@ -798,6 +799,40 @@ jobs:
             --turns 16384 --quadrature-n 64 --frame-n 96 \
             --validation-multipliers 1 2 4 --max-nfev 32 --design-seconds 300 \
             --out "$VISIBLE_NEW_OUT/single-P-frozen-instance.json"
+      - name: Solve one bounded independent-height direct metric design and freeze g
+        if: matrix.lane == 'independent_height_solve'
+        timeout-minutes: 35
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/frame_independent_height_solve.py" \
+            --check-only --out "$VISIBLE_NEW_OUT/independent-height-full-driver-development-check.json"
+          python - <<'PYHASH'
+          import hashlib, os
+          from pathlib import Path
+          source = Path(os.environ['GITHUB_WORKSPACE']) / 'topics/visible-flex-new-mechanism/notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json'
+          if hashlib.sha256(source.read_bytes()).hexdigest() != '6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3':
+              raise SystemExit('Original c0 input SHA mismatch')
+          PYHASH
+          python -u "$VISIBLE_NEW_SCRIPTS/frame_independent_height_solve.py" \
+            --input "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json" \
+            --height-free 9 --metric-free 5 --heat-order 64 --height-angular-nodes 384 \
+            --radial-nodes 61 --angular-nodes 192 --quadrature-order 4 \
+            --uv-bound 8 --height-bound 1 --body-bound .5 \
+            --max-nfev 250 --max-seconds 600 --checkpoint-every 10 --checkpoint-seconds 60 \
+            --evaluation-tolerance 1e-4 --initial-cost-max 1 \
+            --audit-radial-nodes 121 --audit-angular-nodes 384 \
+            --audit-quadrature-order 8 --refined-quadrature-order 12 \
+            --out "$VISIBLE_NEW_OUT/frame-independent-height-bounded.json"
+      - name: Evaluate the full fourth functions on one frozen P and profile
+        if: matrix.lane == 'full_fourth_evaluate'
+        timeout-minutes: 30
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_full_fourth_evaluate.py" \
+            --toy-only --out "$VISIBLE_NEW_OUT/full-fourth-evaluation-development-check.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_full_fourth_evaluate.py" \
+            --geometry "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43617085278-1-single_P_instance/single-P-frozen-instance.json" \
+            --geometry-sha256 feb72a8e01f9a2aa0a925f7173e0bb53e1d81224481ad3a01afbeea4c6f2d6c0 \
+            --geometry-nodes 32 64 --profile-nodes 64 96 --profile-fit-n 256 \
+            --max-seconds 1200 --progress --out "$VISIBLE_NEW_OUT/full-fourth-function-evaluation.json"
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:

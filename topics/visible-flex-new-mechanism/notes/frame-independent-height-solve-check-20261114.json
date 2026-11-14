@@ -1,0 +1,61 @@
+{
+  "schema": "independent-height-full-driver-development-v1",
+  "passed": true,
+  "artificial_inputs_only": true,
+  "research_geometry_evaluated": false,
+  "artificial_small_bounded_solve_max_nfev": 2,
+  "artificial_engineering_thresholds_relaxed_only_to_exercise_the_solve_branch": true,
+  "both_passed_gate_and_rejected_gate_paths_exercised": true,
+  "wall_budget_exception_preserves_state_and_completes_audits": true,
+  "same_run_problem_function_as_actual_main": true,
+  "complete_reports_JSON_roundtrip": true,
+  "full_final_distribution_and_all_refinement_call_signatures_exercised": true,
+  "canonical_selected_state_hash_checked": true,
+  "same_g_freeze_replay_errors": {
+    "X": 0.0,
+    "Xs": 0.0,
+    "Xt": 0.0,
+    "Xss": 0.0,
+    "Xst": 0.0,
+    "Xtt": 0.0
+  },
+  "artificial_solver": {
+    "attempted": true,
+    "method": "bounded scipy least_squares TRF with analytic Jacobian",
+    "max_nfev": 2,
+    "wall_budget_seconds": 90.0,
+    "no_unconstrained_linear_prediction_step_used": true,
+    "success": false,
+    "status": 0,
+    "message": "The maximum number of function evaluations is exceeded.",
+    "nfev": 2,
+    "optimality": 0.8959554376449589,
+    "wall_budget_reached": false
+  },
+  "rejected_gate_solver": {
+    "attempted": false,
+    "reason": "initial engineering gate failed; diagnostics only"
+  },
+  "separate_GH_Nb_radial_comparisons_not_continuous_bounds": true,
+  "passed_does_not_mean_research_initial_gates_or_feasibility_pass": true,
+  "source_files_sha256": {
+    "frame_collar_bvp.py": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+    "ellipse_frame_port.py": "4371f3d816c913b0e7a34f5568672f8f318fd3a923c83e3b28e3ec731c67689b",
+    "cosine_connector_radial_seed.py": "662292c1603a834e8295f7b36648f3c16f3b3904383c883dc8aa7faee4e40fc5",
+    "frame_collar_residual_audit.py": "58d972ec1dbbaba35d1ed1600ea14f1cd5934601cf5f7a209e95795e5099b9ee",
+    "frame_collar_enriched.py": "1b2557048c8b02b75201d151bf3ceb89d046734f93a9195bfe283c620a10f028",
+    "bent_flat_tail_port.py": "26f32a6ed77c82a2c67320ecbdf12031a3186fa5ae1a83b553ac722a7593dcfa",
+    "frame_collar_bent_tail.py": "b62725bb7e82349306dd041f59529d54f32e7bea8c5cca413b3a27b515ffe6ab",
+    "polygonal_flat_tail_port.py": "3870844de95284c570839f489a6c6be74c825cbf6631d21684ff4374cae78797",
+    "frame_collar_polygonal.py": "56a4013f78aa120bb2eaa17e430c6212f4af808fb7e87951a26164129bc0aaaa",
+    "polygonal_tail_heat_extension.py": "abb965c27ce1aa19acd74a54cf301b3ff5589182a116d69819963717d56aa699",
+    "frame_collar_polygonal_heat.py": "15dec10f4adbe5f7adce7f0a6f3abbfbfbe0fcdf14d52f1d08272cb1246a209f",
+    "polygonal_tail_saturated_heat_extension.py": "cda1570637d8b9bdc8d5891a944ee6fc2a6a2252d56141c2a6b8053b73ccfcdc",
+    "frame_collar_polygonal_saturated_heat.py": "483d0decb4cedd083ee3c9da8b499096c4aa51b3c23bb0140f8f7281f5a248fa",
+    "polygonal_tail_natural_extension.py": "da2cfa48679658573036456e1b6be234cdee7865fe9da2e6535634400fc0265f",
+    "frame_body_metric_design.py": "8e4fd2b153be450e83e2eea8997847c84e40498307769e0fc01a29cb93430865",
+    "frame_collar_natural_body_audit.py": "8185d72b866f17703c5abd5224fedfc57d197712a60ad021f246d46fd8521c3d",
+    "frame_independent_height.py": "d7c52dd824a9302d8877092c551cc567ed1477a0dc6192799d8ad42969121de6",
+    "frame_independent_height_solve.py": "a406d44946cf32e2d4a90fcf0b1711a74b5342d27e26709653a7e7058fe3e74f"
+  }
+}
