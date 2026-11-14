@@ -168,3 +168,7 @@ python topics/visible-flex-new-mechanism/scripts/literature_local_third_bridge_d
 
 没有改变任何已冻 producer，没有重新积分旧失败 profile，也没有把旧长圈算子实验提升为主课题的厚度候选。
 
+
+## 7. 公开开发实际通过
+
+run43629844644/source6eceaa90的higher_range_development已成功，六项人工势/速度/原函数检查全true，未调用研究compiler。该run整体失败来自另一个height loader；本lane通过。现在请求local_third_exact，含真正局部密度、准确profile witness及纯响应形式上界检查，未宣称形式列可达。

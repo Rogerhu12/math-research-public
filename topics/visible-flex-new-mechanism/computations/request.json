@@ -1,28 +1,23 @@
 {
-  "request": "one-real-nine-height-stage-and-new-exact-range-development",
-  "created_at": "2026-11-14 19:00:51 UTC",
+  "request": "actual-nested-word-target-and-local-third-bridge-decomposition",
+  "created_at": "2026-11-14 19:04:03 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "height_polytope_audit",
-    "higher_range_development"
+    "p1_word_exact",
+    "local_third_exact"
   ],
-  "height_development_run": 43629562872,
-  "height_development_source": "46d6140c760b58a111c15ef8aef1ca808e713275",
-  "height_development_passed": true,
-  "actual_height_case": "bounded_short",
-  "actual_height_original_box": [
-    "-1",
-    "1"
-  ],
-  "actual_height_max_LP_calls": 1,
-  "actual_height_max_distance_QP_calls": 1,
-  "joint_metric_solver_requested": false,
-  "higher_range_development_only": true,
-  "word_actual_compilation_requested": false,
-  "local_third_actual_compilation_requested": false,
-  "new_source_sha256": {
-    "literature_pure_bulk_word_normal_form.py": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65",
-    "literature_local_third_bridge_decompose.py": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
-  },
+  "development_run": 43629844644,
+  "development_source": "6eceaa9009bf0df900c5bed4aa038cc51e34e527",
+  "development_lane": "higher_range_development",
+  "development_lane_passed": true,
+  "whole_parent_workflow_conclusion": "failure_due_to_separate_height_input_replay",
+  "word_checks_passed": 13,
+  "local_third_toy_checks_passed": 6,
+  "height_actual_not_repeated_in_this_request": true,
+  "word_target_is_original_pure_bulk_and_28_actual_responses": true,
+  "local_third_reachable_columns_claimed": false,
+  "local_third_exact_profile_witness_only_in_Actions": true,
+  "limits_seconds_per_lane": 240,
+  "limits_RSS_polling_mib_per_lane": 2048,
   "task_complete": false
 }

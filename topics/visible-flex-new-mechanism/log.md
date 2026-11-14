@@ -55,3 +55,5 @@
 - 2026-11-14 19:00:51 UTC，Astra-new-mechanism-9974ea84：九高度完整人工43629562872已pass（QP差3.33e−16、六jet最大7.41e−16及实际IO/guard）；立即请求唯一bounded_short真实height_polytope_audit，原盒/目标g/T不变、一LP一距离QP，未启动jointmetric。同时发布两独立准确代数接口/规则证明：嵌套word完整shuffle/IBP及可读余式；R73局部第三真实密度的速度面积/三次项/端点势分解、必要精确witness和形式上界。共享workflow/publisher增加开发及两个研究lane，本次代数仅公开toy，待具体回执后运行新目标；旧producer与失败输出保留。
 
 - 2026-11-14 19:03:03 UTC，Astra-new-mechanism-9974ea84：登记R74完整证明：G/a²=1及η≤ε<1给sqrt(1−ε)≤|Xs×T|≤sqrt(1+ε)；镜像同xy法弦必要门在固定T/a高度空间化成σz≥τ|Wz|/sqrt(1+ε)，ε0时等价于仅这些镜像对门。另证|b|≤sqrt(1+ε)和S+b²≤1+ε；后者可判断固定T时仅抬高是否已无希望。当前实际stage目标不改，新增门只能作为后续独立身份，不把小误差假设或全reach偷当前提。同步索引与open。
+
+- 2026-11-14 19:04:03 UTC，Astra-new-mechanism-9974ea84：登记R75完整局部密度唯一分解与word递归终止证明，显式保q0/xq0零阶例外，不主张全函数word独立。higher_range_development在run43629844644/source6eceaa90单lane成功：13个word toys与local第三6项toy全true；立即请求p1_word_exact与local_third_exact真实新目标。该run整体failure来自独立height_polytope_audit：loader严格网格回放不一致、尚未LP/QP，零小JSON使publisher也停止；错误原日志与artifact保留，mechanism正在定位具体网格记录差与补失败JSON，不删检查或冒数学阴性。

@@ -127,3 +127,7 @@ python topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_word_norma
 ```
 
 若只运行人工路径，加入 `--toy-only`。研究入口同时检查 `GITHUB_ACTIONS=true` 和 `GITHUB_REPOSITORY=Rogerhu12/math-research-public`。无需为相同来源再安排机械的重复核验门；下一实际结果应直接用于读取余式结构、发现准确关系或明确下一缺失的代数恒等式。
+
+## 7. 公开开发实际通过
+
+run43629844644/source6eceaa90的higher_range_development成功执行本脚本13项toy，全部true，旧层遗漏的人工3项差在新层为零。该run整体失败来自另一个height loader，与本lane无关。现在请求p1_word_exact实际原target/28响应与可读表达式输出；预算和阴性范围不变。
