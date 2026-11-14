@@ -1,0 +1,323 @@
+{
+  "schema": "space-star-frozen-two-mode-refinement-v1",
+  "definition": {
+    "a": ".65",
+    "b": ".12",
+    "height": ".30",
+    "mixes": ".187,.20,valley-zero",
+    "widths": ".005,.01",
+    "nodes": 32768,
+    "planar_report": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json",
+    "out": "/home/runner/work/_temp/visible-new-mechanism/space_refine/space-star-frozen-refine-N32768.json"
+  },
+  "planar_source_sha256": "ba03fc43af2c86ee61b7ca1a9fa541f9287222ef8bd4dcb155c35332c9def405",
+  "fixed_physical_candidates": true,
+  "optimization_performed": false,
+  "method": "per-cell lambda0/(1-w*abs(q_ell)); exact rational coefficients",
+  "original_screen_run": "43591099281",
+  "refinements": [
+    {
+      "mix_specification": ".187",
+      "exact_mix": {
+        "numerator": "187",
+        "denominator": "1000"
+      },
+      "height_coefficients_exact_rational": [
+        {
+          "numerator": "3",
+          "denominator": "10"
+        },
+        {
+          "numerator": "561",
+          "denominator": "10000"
+        }
+      ],
+      "width": ".005",
+      "continuous_certificate": {
+        "nodes": 32768,
+        "unresolved_frame_cells": 0,
+        "exact_height_coefficients_used": true,
+        "whole_core_immersion_and_angular_closure_certified": true,
+        "J_lower": "0.90653840017876934107679569891091136368280942261647",
+        "kappa_positive_lower": "0.82048467769399274771530821170589856000317205169795",
+        "central_height_absolute_upper": "0.31854652361462358688157022672163034275177170123999",
+        "perimeter": {
+          "lower": "11.475137407516154305833846159345580230836715474951",
+          "upper": "11.499205195870148870168037688465980714837406775737"
+        },
+        "a0_exact_enclosure": {
+          "lower": "1.8263248410649129151819657059154471826690936533795",
+          "upper": "1.8301553485507407013828885524470294578911650023536"
+        },
+        "whole_width_principal_curvature_upper": "9.8016692723140162902269543650338733144650507882593",
+        "principal_curvature_max_lower_from_resolved_cells": "8.6960643882819191203991776239119560605114031982877",
+        "necessary_reach_over_D_upper_from_curvature_lower": "0.036630757851802492442822367092078375992585504315585",
+        "projection_padding_upper": "0.005",
+        "core_diameter_upper": "3.2150896424987931073549652836120311969501450657862",
+        "conditional_witness_distance_lower": "1.0788372380993565357661810744228260322629461121945",
+        "conditional_witness_over_core_D_lower": "0.33555432602522264317060033480840122209523980176343",
+        "conditional_witness_ratio_at_least_03": true,
+        "local_curvature_ceiling_sufficient_for_003_Dcore_budget": true,
+        "full_transition_and_caps_share_projection_height_budget_proved": false,
+        "embedding_proved": false,
+        "reach_lower_proved": false,
+        "task_complete": false
+      },
+      "elapsed_seconds": 127.962753629
+    },
+    {
+      "mix_specification": ".187",
+      "exact_mix": {
+        "numerator": "187",
+        "denominator": "1000"
+      },
+      "height_coefficients_exact_rational": [
+        {
+          "numerator": "3",
+          "denominator": "10"
+        },
+        {
+          "numerator": "561",
+          "denominator": "10000"
+        }
+      ],
+      "width": ".01",
+      "continuous_certificate": {
+        "nodes": 32768,
+        "unresolved_frame_cells": 0,
+        "exact_height_coefficients_used": true,
+        "whole_core_immersion_and_angular_closure_certified": true,
+        "J_lower": "0.81307680035753868215359139782182272736561884523295",
+        "kappa_positive_lower": "0.82048467769399274771530821170589856000317205169795",
+        "central_height_absolute_upper": "0.31854652361462358688157022672163034275177170123999",
+        "perimeter": {
+          "lower": "11.475137407516154305833846159345580230836715474951",
+          "upper": "11.499205195870148870168037688465980714837406775737"
+        },
+        "a0_exact_enclosure": {
+          "lower": "1.8263248410649129151819657059154471826690936533795",
+          "upper": "1.8301553485507407013828885524470294578911650023536"
+        },
+        "whole_width_principal_curvature_upper": "10.256782689360392207029467868628947992250228296298",
+        "principal_curvature_max_lower_from_resolved_cells": "8.8487871825039480664250842762396495392451421320596",
+        "necessary_reach_over_D_upper_from_curvature_lower": "0.035998541076981746311020413316322461622976092757002",
+        "projection_padding_upper": "0.01",
+        "core_diameter_upper": "3.2269070658338262712044747233755760783006200025489",
+        "conditional_witness_distance_lower": "1.0738372380993565357661810744228260322629461121945",
+        "conditional_witness_over_core_D_lower": "0.33277600383011934102483570145269016700018165774402",
+        "conditional_witness_ratio_at_least_03": true,
+        "local_curvature_ceiling_sufficient_for_003_Dcore_budget": true,
+        "full_transition_and_caps_share_projection_height_budget_proved": false,
+        "embedding_proved": false,
+        "reach_lower_proved": false,
+        "task_complete": false
+      },
+      "elapsed_seconds": 255.167466417
+    },
+    {
+      "mix_specification": ".20",
+      "exact_mix": {
+        "numerator": "1",
+        "denominator": "5"
+      },
+      "height_coefficients_exact_rational": [
+        {
+          "numerator": "3",
+          "denominator": "10"
+        },
+        {
+          "numerator": "3",
+          "denominator": "50"
+        }
+      ],
+      "width": ".005",
+      "continuous_certificate": {
+        "nodes": 32768,
+        "unresolved_frame_cells": 0,
+        "exact_height_coefficients_used": true,
+        "whole_core_immersion_and_angular_closure_certified": true,
+        "J_lower": "0.87379146802818303385751285480955353434997453965990",
+        "kappa_positive_lower": "0.83005553088300626849271307031724545946162813555810",
+        "central_height_absolute_upper": "0.32086418152261964757072317976117299237926614457152",
+        "perimeter": {
+          "lower": "11.477085679241123771885147691401772276794943884686",
+          "upper": "11.501308912424744429681912196235696096172178339809"
+        },
+        "a0_exact_enclosure": {
+          "lower": "1.8266349181404279793124361277691853653312681330836",
+          "upper": "1.8304901654392688357845194756728779949455367109652"
+        },
+        "whole_width_principal_curvature_upper": "10.884509077032219805855185953422527578743521736669",
+        "principal_curvature_max_lower_from_resolved_cells": "9.4699807265197934601212737958999330110232822646689",
+        "necessary_reach_over_D_upper_from_curvature_lower": "0.033637178160118840557631587540832992027069748585547",
+        "projection_padding_upper": "0.005",
+        "core_diameter_upper": "3.2160257860794915879549501121178962854226407924840",
+        "conditional_witness_distance_lower": "1.0788372380993565357661810744228260322629461121945",
+        "conditional_witness_over_core_D_lower": "0.33545665049362590960531373409964290915335766512045",
+        "conditional_witness_ratio_at_least_03": true,
+        "local_curvature_ceiling_sufficient_for_003_Dcore_budget": false,
+        "full_transition_and_caps_share_projection_height_budget_proved": false,
+        "embedding_proved": false,
+        "reach_lower_proved": false,
+        "task_complete": false
+      },
+      "elapsed_seconds": 383.346145127
+    },
+    {
+      "mix_specification": ".20",
+      "exact_mix": {
+        "numerator": "1",
+        "denominator": "5"
+      },
+      "height_coefficients_exact_rational": [
+        {
+          "numerator": "3",
+          "denominator": "10"
+        },
+        {
+          "numerator": "3",
+          "denominator": "50"
+        }
+      ],
+      "width": ".01",
+      "continuous_certificate": {
+        "nodes": 32768,
+        "unresolved_frame_cells": 0,
+        "exact_height_coefficients_used": true,
+        "whole_core_immersion_and_angular_closure_certified": true,
+        "J_lower": "0.74758293605636606771502570961910706869994907931980",
+        "kappa_positive_lower": "0.83005553088300626849271307031724545946162813555810",
+        "central_height_absolute_upper": "0.32086418152261964757072317976117299237926614457152",
+        "perimeter": {
+          "lower": "11.477085679241123771885147691401772276794943884686",
+          "upper": "11.501308912424744429681912196235696096172178339809"
+        },
+        "a0_exact_enclosure": {
+          "lower": "1.8266349181404279793124361277691853653312681330836",
+          "upper": "1.8304901654392688357845194756728779949455367109652"
+        },
+        "whole_width_principal_curvature_upper": "11.454103461029508334059166257819774542560746464123",
+        "principal_curvature_max_lower_from_resolved_cells": "9.6248858639350758420186095020654354929355762810295",
+        "necessary_reach_over_D_upper_from_curvature_lower": "0.033095813641223108534948915675101279680646517200936",
+        "projection_padding_upper": "0.01",
+        "core_diameter_upper": "3.2278541425023820859565883349865413812358694870357",
+        "conditional_witness_distance_lower": "1.0738372380993565357661810744228260322629461121945",
+        "conditional_witness_over_core_D_lower": "0.33267836484918372277573042893385075383671279125025",
+        "conditional_witness_ratio_at_least_03": true,
+        "local_curvature_ceiling_sufficient_for_003_Dcore_budget": false,
+        "full_transition_and_caps_share_projection_height_budget_proved": false,
+        "embedding_proved": false,
+        "reach_lower_proved": false,
+        "task_complete": false
+      },
+      "elapsed_seconds": 511.27428105099995
+    },
+    {
+      "mix_specification": "valley-zero",
+      "exact_mix": {
+        "numerator": "835",
+        "denominator": "4208"
+      },
+      "height_coefficients_exact_rational": [
+        {
+          "numerator": "3",
+          "denominator": "10"
+        },
+        {
+          "numerator": "501",
+          "denominator": "8416"
+        }
+      ],
+      "width": ".005",
+      "continuous_certificate": {
+        "nodes": 32768,
+        "unresolved_frame_cells": 0,
+        "exact_height_coefficients_used": true,
+        "whole_core_immersion_and_angular_closure_certified": true,
+        "J_lower": "0.87774385375161952244499397579679599515377349288384",
+        "kappa_positive_lower": "0.82891466045521969733377751297746652870928759108195",
+        "central_height_absolute_upper": "0.32057965037200283667597724541510400263709912670141",
+        "perimeter": {
+          "lower": "11.476809125845474500095040144837622838489254538911",
+          "upper": "11.501013575670583689194828126507206892999128349470"
+        },
+        "a0_exact_enclosure": {
+          "lower": "1.8265909033004815490455388384426200729227671284923",
+          "upper": "1.8304431611349674380492713247931222833424144775291"
+        },
+        "whole_width_principal_curvature_upper": "10.734325000099491124754357409596527449299676768366",
+        "principal_curvature_max_lower_from_resolved_cells": "9.3624507715525823176336891743832051937127122884853",
+        "necessary_reach_over_D_upper_from_curvature_lower": "0.034023509083617178644745910402460827416248261025859",
+        "projection_padding_upper": "0.005",
+        "core_diameter_upper": "3.2159105137543872559608263987254297761997568263615",
+        "conditional_witness_distance_lower": "1.0788372380993565357661810744228260322629461121945",
+        "conditional_witness_over_core_D_lower": "0.33546867472996853341728078353273493532728109962874",
+        "conditional_witness_ratio_at_least_03": true,
+        "local_curvature_ceiling_sufficient_for_003_Dcore_budget": false,
+        "full_transition_and_caps_share_projection_height_budget_proved": false,
+        "embedding_proved": false,
+        "reach_lower_proved": false,
+        "task_complete": false
+      },
+      "elapsed_seconds": 638.9010320230001
+    },
+    {
+      "mix_specification": "valley-zero",
+      "exact_mix": {
+        "numerator": "835",
+        "denominator": "4208"
+      },
+      "height_coefficients_exact_rational": [
+        {
+          "numerator": "3",
+          "denominator": "10"
+        },
+        {
+          "numerator": "501",
+          "denominator": "8416"
+        }
+      ],
+      "width": ".01",
+      "continuous_certificate": {
+        "nodes": 32768,
+        "unresolved_frame_cells": 0,
+        "exact_height_coefficients_used": true,
+        "whole_core_immersion_and_angular_closure_certified": true,
+        "J_lower": "0.75548770750323904488998795159359199030754698576769",
+        "kappa_positive_lower": "0.82891466045521969733377751297746652870928759108195",
+        "central_height_absolute_upper": "0.32057965037200283667597724541510400263709912670141",
+        "perimeter": {
+          "lower": "11.476809125845474500095040144837622838489254538911",
+          "upper": "11.501013575670583689194828126507206892999128349470"
+        },
+        "a0_exact_enclosure": {
+          "lower": "1.8265909033004815490455388384426200729227671284923",
+          "upper": "1.8304431611349674380492713247931222833424144775291"
+        },
+        "whole_width_principal_curvature_upper": "11.287364021796183070557496253198235460453001694890",
+        "principal_curvature_max_lower_from_resolved_cells": "9.5169873920997461227729916891714783299007047194746",
+        "necessary_reach_over_D_upper_from_curvature_lower": "0.033471036132218440275876183404255516003867532915466",
+        "projection_padding_upper": "0.01",
+        "core_diameter_upper": "3.2277375295664235407337181943455359374942836010839",
+        "conditional_witness_distance_lower": "1.0738372380993565357661810744228260322629461121945",
+        "conditional_witness_over_core_D_lower": "0.33269038398038617919603166606342837471557387359379",
+        "conditional_witness_ratio_at_least_03": true,
+        "local_curvature_ceiling_sufficient_for_003_Dcore_budget": false,
+        "full_transition_and_caps_share_projection_height_budget_proved": false,
+        "embedding_proved": false,
+        "reach_lower_proved": false,
+        "task_complete": false
+      },
+      "elapsed_seconds": 766.963475763
+    }
+  ],
+  "task_complete": false,
+  "source_sha256": {
+    "space_star_frozen_refine.py": "65d30ce47e928c605418e275f253a56664744757699dcedfbbaa2f266665b255",
+    "space_star_lift_design.py": "9d058926f9dff6b07fb766e5938eb536f237cb5fcc12fe63c3f8fee3a067bb67",
+    "space_star_flat_core.py": "33fb72c8c1206a2bef257a4067f65100ae87fd4b71ebf63cdc36597b98b558a4",
+    "star_core_geometry.py": "664d20735a5bcb0aa14d9da320bcefea1b571012cb4ba4fe5e80e7f0c50d03a9",
+    "folded_reference_geometry.py": "e912d3ece31e36a76de10cb1a1f40b8d4cd2079a7c8626c0ae85d0083c0de8ab"
+  },
+  "elapsed_seconds": 766.963478398
+}
