@@ -95,3 +95,5 @@
 - [R45：真实倒行四块与三阶周期相消](results/R45-reversal-four-block-third-period-cancellation.md) — 单P零M由8D IFT实现，P/P/Prev/Prev准确闭合；完整二阶锚给两三阶period函数恒0，每s ruling另付。
 
 - [R46：八平移packet的完整三阶固定度量圆](results/R46-eight-packet-complete-third-order-circle.md) — 配平packet使二阶恢复局部化；规范第三ruling对平移次数≤6，七阶有限差分的八立方幅度准确消两ruling。联合R45给真实周期浸入带完整三阶，误差Oε4；四阶/收敛/宏观几何未付。
+
+- [R47：四阶完整 range 与第三阶 gauge 的准确作用](results/R47-fourth-order-range-and-third-gauge.md) — 固定 R46 的二阶解时，第三阶全部 profile gauge 不改变三条四阶周期函数；沿母线只能改三列 w 的常系数跨度。交叉矩的三密度严格线性独立，Gram 右逆使分离 f/g 的六矩准确可调，故三周期恒零与三 ruling 属于 span(w) 是完整必要充分条件。尚未证明本构造实际支付这些条件，改变二阶解不在排除范围。

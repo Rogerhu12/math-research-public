@@ -323,3 +323,7 @@ R38两步只需连通角区间；在|θ|<asin(rc/rf)的新尾全部平，右Herm
 ## 2026-11-14 15:18 UTC — R46准确代数公开复核部署
 
 R42至R46已各自commit/push，每次pull核README无差。共享workflow/publisher新增third_order_exact五分钟lane，仅以固定SymPy1.14.0核三有理恒等式及七阶整数差分，request只此lane，无几何ODE/优化。完整三阶仍不满足有限族或宏观条件；H压缩保现状，下一S9六帽局部lift求解器开发继续。
+
+## 2026-11-14 15:25 UTC — R47 完整四阶条件与公开来源复核
+
+固定 R46 的二阶解时，第三阶全部 profile gauge 不改变三条四阶周期函数；沿母线只能改三列 w 的常系数跨度。交叉矩的三密度严格线性独立，Gram 右逆使分离 f/g 的六矩准确可调，故三周期恒零与三 ruling 属于 span(w) 是完整必要充分条件。尚未证明本构造实际支付这些条件，改变二阶解不在排除范围。 root/source 全文核三相位分离、周期 gauge 不变、伴随密度和准确右逆。只作推导，无新几何本地计算。15:24 UTC 再读公开 larger-amplitude 与 exact-nearby 的最新 HANDOFF：前者仍在 prefix 不等式投影和 native 失败修复，后者仍欠真响应/全 return/非线性全 matching；均无可直接移用的完整大振幅族。各题的局部成功不转授本题完成门。R46 准确代数公开 run43609471754 已报告 workflow 成功，源与输出逐件审计仍待做，未把运行状态当数学通过。
