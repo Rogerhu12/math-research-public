@@ -3,8 +3,8 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** 26651d51d39b03d4e0025fbec79a7209fff3f13d（2026-11-14 20:41:28 UTC，Actions run43638788604实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43638788604-1.json。
-- **最新规则读取（GitHub API，非实际pull）：** `55fcc7a36000478da472181db7d0e82a8193e4c6`（2026-11-14 20:40:53 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** b08ecdc37fb070980c5615186081f18b1a24f69c（2026-11-14 20:43:33 UTC，Actions run43638972832实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43638972832-1.json。
+- **最新规则读取（GitHub API，非实际pull）：** `5ba4eceb196f6c899aae45921b3802014a0e09c6`（2026-11-14 20:43:00 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -35,7 +35,7 @@
 - [八常数固定族](notes/2026-11-14-r150-eight-constant-unit-family-seven-all-budget-obstructions-789f.md)：全部旧标准单项式＋b1…b8常数列模31单射。七目标2/3/4/5/7/8/10的Q/U8 raw非零，故全预算有理像排除；6/9未排、未证成员。若该族真有char0正解，b8系数须含p²，原源恰需一层31分母。[第九真除列](notes/2026-11-14-r150-ninth-true-divided-column-and-rational-rank-226091-789f.md)为κ9=K4_7004、b9=Aκ9/p⁴，cost87且modp在U8外；U9真不变九维，rank_Q A87≥226091，B≥87加9。精确秩/Smith恰层及原全部有理像继续。
 - 旧pair run43632271378已付j6/9原AZ=31h0 mod31⁴/cost87；41结果/22恢复含5cache完整保存，本轮直接复用，不重算。
 - [相关第二核范围](notes/2026-11-14-r150-seven-augmented-second-kernel-and-primary-completeness-789f.md)与旧pair精确c/J8及全部来源保本次完整H；旧1834、七φ、1/2全部初值的已付层保持原范围，其它primary/更高初值不自动付清。
-- **[九目标全原式已成](notes/2026-11-14-r150-all-nine-original31squaredh0-mod31five-and-complete-related-second-789f.md)：** run43634830833/job132569235728，源20aa140b/数据6b525504；AX=31²h0 mod31⁵九列全部cost87，七新列每目标232133输出、两复用列227766输出失败0。七K4费用[86,87,88,87,87,88,87]，完整相关δ2秩1/幂1，基7004；七正解仅常数[30,19,30,15,27,14,17]，未用P。数学144.661655691秒。98结果47543037B、64恢复70634253B（28二进制/36文本含14cache）全入 notes/r150-augmented-seven-second-actions-789f/43634830833-1/，artifact14130166013。仅分母≤2的有限modp3来源，非char0/非必要两层。[F9全第一像归约](notes/2026-11-14-r150-ninth-augmented-single-first-relation-and-initial-scope-789f.md)已证只剩第9关系；旧1842方向全已落U9，第8复用K4_7003。[本轮入口](notes/2026-11-14-r150-ninth-first-interface-789f.md)已冻结：四artifact43输入，只新增z9/VQ及原modp6十列，共享300s/512MiB，正列全17继续；待实际执行。负仅保当前F9前两位，低位相关第二/第三像未付。
+- **[九目标全原式已成](notes/2026-11-14-r150-all-nine-original31squaredh0-mod31five-and-complete-related-second-789f.md)：** run43634830833/job132569235728，源20aa140b/数据6b525504；AX=31²h0 mod31⁵九列全部cost87，七新列每目标232133输出、两复用列227766输出失败0。七K4费用[86,87,88,87,87,88,87]，完整相关δ2秩1/幂1，基7004；七正解仅常数[30,19,30,15,27,14,17]，未用P。数学144.661655691秒。98结果47543037B、64恢复70634253B（28二进制/36文本含14cache）全入 notes/r150-augmented-seven-second-actions-789f/43634830833-1/，artifact14130166013。仅分母≤2的有限modp3来源，非char0/非必要两层。[F9全第一像归约](notes/2026-11-14-r150-ninth-augmented-single-first-relation-and-initial-scope-789f.md)已证只剩第9关系；旧1842方向全已落U9，第8复用K4_7003。[本轮入口](notes/2026-11-14-r150-ninth-first-interface-789f.md)已冻结：四artifact43输入，只新增z9/VQ及原modp6十列，共享300s/512MiB，正列全17继续；run43638830039/job132581549932已启动，源eaa240d9，哈希/AST已过，数学待回执。负仅保当前F9前两位，低位相关第二/第三像未付。
 - 原射影B≥85有限商、仿射315及∞torsion u⁹⁶/length≤745继续保旧证明；其余mean秩/高本质/自然幂、同一相容全链与普通ISP全部仍开。子问题完成接open，不在阶段报告或时长处结束。
 
 - **[实际左域/Z逆](notes/2026-11-14-actual-left-partial-zero-mode-gram-and-source-resolvent-budget-789f-next.md)：** 准确像压缩Gram与同源两逆已付，固定测试逆后高birth保留。[全未来预算](notes/2026-11-14-actual-low-test-full-image-inverse-bosonic-future-budget-789f-next.md)给完整boson右链总费≤C_m²k0(2+logd)²||f||²；双投影稿已用t=−Av锐化至C_m−1。原物理短旗/E_ret保留，全部公式见本次H快照。
