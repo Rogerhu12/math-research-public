@@ -1,0 +1,1358 @@
+{
+  "schema": "frozen-period-derivative-audit-v1",
+  "optimization_performed": false,
+  "task_complete": false,
+  "source_sha256": "57aa06a652c9a760323639b4dc3801f2a394337dbdf22d38a87181e0a9c0de9a",
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_sha": "74942576333fbc4001e16bb58021b41f958fcfaf",
+  "github_run_id": "43593758483",
+  "input_sha256": {
+    "closed": "fcea183b082c193d87d7ac7d9ee0784e7db0330196a6a38f44b6bed073974230",
+    "quartic": "9fac6c8ab7b43e2fc6f07d93ae3a5f409ce1a03f8fd47481299238733891d188"
+  },
+  "rows": [
+    {
+      "kind": "closed",
+      "q": 3,
+      "side": null,
+      "parameters_frozen": true,
+      "optimization_performed": false,
+      "original_solver": {
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 400,
+        "optimality": 0.004983167326296512,
+        "initial_residual_l2": 2.8408590847614565,
+        "final_residual_l2": 0.014607400162627095,
+        "elapsed_seconds": 14.707179769000007
+      },
+      "residual_norms": {
+        "primary": 0.014603959209261662,
+        "concentration": 0.00031704088906516593,
+        "regularity": 0.0
+      },
+      "active_counts": {
+        "concentration": 9,
+        "regularity": 0
+      },
+      "minimum_absolute_concentration_threshold_gap": 3.370024930227089e-07,
+      "probes": [
+        {
+          "column_step_floor": 2e-05,
+          "independent_direction_step": 2.0000000000000003e-06,
+          "smooth_block_checks": {
+            "period": {
+              "absolute_difference": 1.4529990761553343e-09,
+              "observed_norm": 4.670086965650901,
+              "relative_difference": 3.111289119115623e-10
+            },
+            "log_speed": {
+              "absolute_difference": 1.5855898407776499e-09,
+              "observed_norm": 6.305285995369035,
+              "relative_difference": 2.514699320446683e-10
+            },
+            "regularity_gap": {
+              "absolute_difference": 3.303983127721983e-08,
+              "observed_norm": 90.75574255915642,
+              "relative_difference": 3.640522389608988e-10
+            }
+          },
+          "original_residual_block_checks": {
+            "primary": {
+              "absolute_difference": 1.4529990761553343e-09,
+              "observed_norm": 4.670086965650901,
+              "relative_difference": 3.111289119115623e-10
+            },
+            "concentration": {
+              "absolute_difference": 1.8646894458244327,
+              "observed_norm": 26.294548482757445,
+              "relative_difference": 0.07091543888069407
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "current_branch_chain_rule_checks": {
+            "primary": {
+              "absolute_difference": 1.4529990761553343e-09,
+              "observed_norm": 4.670086965650901,
+              "relative_difference": 3.111289119115623e-10
+            },
+            "concentration": {
+              "absolute_difference": 9.485864837469316,
+              "observed_norm": 26.294548482757445,
+              "relative_difference": 0.36075404921630955
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "coordinate_probe_active_switch_counts": {
+            "concentration": 69,
+            "regularity": 0
+          },
+          "directional_probe_active_switch_counts": {
+            "concentration": 3,
+            "regularity": 0
+          }
+        },
+        {
+          "column_step_floor": 2e-06,
+          "independent_direction_step": 2e-07,
+          "smooth_block_checks": {
+            "period": {
+              "absolute_difference": 2.7497988486511497e-08,
+              "observed_norm": 4.670086945473102,
+              "relative_difference": 5.888110608554381e-09
+            },
+            "log_speed": {
+              "absolute_difference": 5.374656559469952e-09,
+              "observed_norm": 6.3052859964125485,
+              "relative_difference": 8.524048810042738e-10
+            },
+            "regularity_gap": {
+              "absolute_difference": 1.1023194281586417e-07,
+              "observed_norm": 90.75574259182794,
+              "relative_difference": 1.2146001968341554e-09
+            }
+          },
+          "original_residual_block_checks": {
+            "primary": {
+              "absolute_difference": 2.7497988486511497e-08,
+              "observed_norm": 4.670086945473102,
+              "relative_difference": 5.888110608554381e-09
+            },
+            "concentration": {
+              "absolute_difference": 8.91333019494279,
+              "observed_norm": 31.886015828917824,
+              "relative_difference": 0.2795372818845301
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "current_branch_chain_rule_checks": {
+            "primary": {
+              "absolute_difference": 2.7497988486511497e-08,
+              "observed_norm": 4.670086945473102,
+              "relative_difference": 5.888110608554381e-09
+            },
+            "concentration": {
+              "absolute_difference": 9.77541654501356e-09,
+              "observed_norm": 31.886015828917824,
+              "relative_difference": 3.0657378449107187e-10
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "coordinate_probe_active_switch_counts": {
+            "concentration": 42,
+            "regularity": 0
+          },
+          "directional_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0
+          }
+        },
+        {
+          "column_step_floor": 2e-07,
+          "independent_direction_step": 2e-08,
+          "smooth_block_checks": {
+            "period": {
+              "absolute_difference": 4.646099387703606e-07,
+              "observed_norm": 4.670086567305213,
+              "relative_difference": 9.948636541837278e-08
+            },
+            "log_speed": {
+              "absolute_difference": 4.883658666210727e-08,
+              "observed_norm": 6.305285985408645,
+              "relative_difference": 7.745340461181663e-09
+            },
+            "regularity_gap": {
+              "absolute_difference": 8.601132353016914e-07,
+              "observed_norm": 90.75574272776483,
+              "relative_difference": 9.477232067635955e-09
+            }
+          },
+          "original_residual_block_checks": {
+            "primary": {
+              "absolute_difference": 4.646099387703606e-07,
+              "observed_norm": 4.670086567305213,
+              "relative_difference": 9.948636541837278e-08
+            },
+            "concentration": {
+              "absolute_difference": 0.0022984942917640356,
+              "observed_norm": 31.886015645925482,
+              "relative_difference": 7.208471316351957e-05
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "current_branch_chain_rule_checks": {
+            "primary": {
+              "absolute_difference": 4.646099387703606e-07,
+              "observed_norm": 4.670086567305213,
+              "relative_difference": 9.948636541837278e-08
+            },
+            "concentration": {
+              "absolute_difference": 2.0035636712097569e-07,
+              "observed_norm": 31.886015645925482,
+              "relative_difference": 6.283518434721022e-09
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "coordinate_probe_active_switch_counts": {
+            "concentration": 3,
+            "regularity": 0
+          },
+          "directional_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0
+          }
+        }
+      ]
+    },
+    {
+      "kind": "closed",
+      "q": 2,
+      "side": null,
+      "parameters_frozen": true,
+      "optimization_performed": false,
+      "original_solver": {
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 400,
+        "optimality": 0.009991435380238807,
+        "initial_residual_l2": 2.8376883666415256,
+        "final_residual_l2": 0.032447022503535324,
+        "elapsed_seconds": 12.91413288199999
+      },
+      "residual_norms": {
+        "primary": 0.03243900173237568,
+        "concentration": 0.0007214124699863196,
+        "regularity": 0.0
+      },
+      "active_counts": {
+        "concentration": 6,
+        "regularity": 0
+      },
+      "minimum_absolute_concentration_threshold_gap": 2.947911891593158e-06,
+      "probes": [
+        {
+          "column_step_floor": 2e-05,
+          "independent_direction_step": 2.0000000000000003e-06,
+          "smooth_block_checks": {
+            "period": {
+              "absolute_difference": 1.1522575763555078e-08,
+              "observed_norm": 2.573945076278432,
+              "relative_difference": 4.476620682293316e-09
+            },
+            "log_speed": {
+              "absolute_difference": 1.623842100443811e-09,
+              "observed_norm": 6.153553630403426,
+              "relative_difference": 2.638868852008936e-10
+            },
+            "regularity_gap": {
+              "absolute_difference": 2.024835331712344e-08,
+              "observed_norm": 79.34694437245062,
+              "relative_difference": 2.551875623852467e-10
+            }
+          },
+          "original_residual_block_checks": {
+            "primary": {
+              "absolute_difference": 1.1522575763555078e-08,
+              "observed_norm": 2.573945076278432,
+              "relative_difference": 4.476620682293316e-09
+            },
+            "concentration": {
+              "absolute_difference": 6.6616282406045615,
+              "observed_norm": 19.185402676100743,
+              "relative_difference": 0.3472237905594211
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "current_branch_chain_rule_checks": {
+            "primary": {
+              "absolute_difference": 1.1522575763555078e-08,
+              "observed_norm": 2.573945076278432,
+              "relative_difference": 4.476620682293316e-09
+            },
+            "concentration": {
+              "absolute_difference": 5.869296415644865e-09,
+              "observed_norm": 19.185402676100743,
+              "relative_difference": 3.059251095603142e-10
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "coordinate_probe_active_switch_counts": {
+            "concentration": 28,
+            "regularity": 0
+          },
+          "directional_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0
+          }
+        },
+        {
+          "column_step_floor": 2e-06,
+          "independent_direction_step": 2e-07,
+          "smooth_block_checks": {
+            "period": {
+              "absolute_difference": 3.908358055341333e-08,
+              "observed_norm": 2.573945092419658,
+              "relative_difference": 1.5184310134864803e-08
+            },
+            "log_speed": {
+              "absolute_difference": 3.871860796288481e-09,
+              "observed_norm": 6.153553630031889,
+              "relative_difference": 6.292072888407436e-10
+            },
+            "regularity_gap": {
+              "absolute_difference": 9.807416986074162e-08,
+              "observed_norm": 79.34694441246603,
+              "relative_difference": 1.2360169706211572e-09
+            }
+          },
+          "original_residual_block_checks": {
+            "primary": {
+              "absolute_difference": 3.908358055341333e-08,
+              "observed_norm": 2.573945092419658,
+              "relative_difference": 1.5184310134864803e-08
+            },
+            "concentration": {
+              "absolute_difference": 0.03685463722137128,
+              "observed_norm": 19.185402679399786,
+              "relative_difference": 0.001920972826957848
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "current_branch_chain_rule_checks": {
+            "primary": {
+              "absolute_difference": 3.908358055341333e-08,
+              "observed_norm": 2.573945092419658,
+              "relative_difference": 1.5184310134864803e-08
+            },
+            "concentration": {
+              "absolute_difference": 4.493623829201302e-09,
+              "observed_norm": 19.185402679399786,
+              "relative_difference": 2.3422098062222606e-10
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "coordinate_probe_active_switch_counts": {
+            "concentration": 2,
+            "regularity": 0
+          },
+          "directional_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0
+          }
+        },
+        {
+          "column_step_floor": 2e-07,
+          "independent_direction_step": 2e-08,
+          "smooth_block_checks": {
+            "period": {
+              "absolute_difference": 2.0995607589924646e-06,
+              "observed_norm": 2.5739433628425434,
+              "relative_difference": 8.15698118809346e-07
+            },
+            "log_speed": {
+              "absolute_difference": 3.750468002664108e-08,
+              "observed_norm": 6.1535536276350955,
+              "relative_difference": 6.094800223761875e-09
+            },
+            "regularity_gap": {
+              "absolute_difference": 8.252101647210385e-07,
+              "observed_norm": 79.34694460246543,
+              "relative_difference": 1.040002446036716e-08
+            }
+          },
+          "original_residual_block_checks": {
+            "primary": {
+              "absolute_difference": 2.0995607589924646e-06,
+              "observed_norm": 2.5739433628425434,
+              "relative_difference": 8.15698118809346e-07
+            },
+            "concentration": {
+              "absolute_difference": 1.0188328006811399e-07,
+              "observed_norm": 19.18540267043455,
+              "relative_difference": 5.310458259243111e-09
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "current_branch_chain_rule_checks": {
+            "primary": {
+              "absolute_difference": 2.0995607589924646e-06,
+              "observed_norm": 2.5739433628425434,
+              "relative_difference": 8.15698118809346e-07
+            },
+            "concentration": {
+              "absolute_difference": 1.0188328006811399e-07,
+              "observed_norm": 19.18540267043455,
+              "relative_difference": 5.310458259243111e-09
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "coordinate_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0
+          },
+          "directional_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0
+          }
+        }
+      ]
+    },
+    {
+      "kind": "closed",
+      "q": 4,
+      "side": null,
+      "parameters_frozen": true,
+      "optimization_performed": false,
+      "original_solver": {
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 400,
+        "optimality": 1.5216594069211494e-07,
+        "initial_residual_l2": 2.8846757293087997,
+        "final_residual_l2": 0.010420240706988854,
+        "elapsed_seconds": 14.712487385000003
+      },
+      "residual_norms": {
+        "primary": 0.01042024070698885,
+        "concentration": 0.0,
+        "regularity": 0.0
+      },
+      "active_counts": {
+        "concentration": 0,
+        "regularity": 0
+      },
+      "minimum_absolute_concentration_threshold_gap": 0.04759900451022436,
+      "probes": [
+        {
+          "column_step_floor": 2e-05,
+          "independent_direction_step": 2.0000000000000003e-06,
+          "smooth_block_checks": {
+            "period": {
+              "absolute_difference": 3.234084923011924e-09,
+              "observed_norm": 6.105779004650158,
+              "relative_difference": 5.296760528916698e-10
+            },
+            "log_speed": {
+              "absolute_difference": 1.4155969163790866e-09,
+              "observed_norm": 6.20680528396012,
+              "relative_difference": 2.2807174570746241e-10
+            },
+            "regularity_gap": {
+              "absolute_difference": 2.700002072805775e-08,
+              "observed_norm": 115.14797147301402,
+              "relative_difference": 2.3448108014986135e-10
+            }
+          },
+          "original_residual_block_checks": {
+            "primary": {
+              "absolute_difference": 3.234084923011924e-09,
+              "observed_norm": 6.105779004650158,
+              "relative_difference": 5.296760528916698e-10
+            },
+            "concentration": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "current_branch_chain_rule_checks": {
+            "primary": {
+              "absolute_difference": 3.234084923011924e-09,
+              "observed_norm": 6.105779004650158,
+              "relative_difference": 5.296760528916698e-10
+            },
+            "concentration": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "coordinate_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0
+          },
+          "directional_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0
+          }
+        },
+        {
+          "column_step_floor": 2e-06,
+          "independent_direction_step": 2e-07,
+          "smooth_block_checks": {
+            "period": {
+              "absolute_difference": 1.0857637480299593e-08,
+              "observed_norm": 6.105778994286502,
+              "relative_difference": 1.7782558933855375e-09
+            },
+            "log_speed": {
+              "absolute_difference": 3.8770931634499515e-09,
+              "observed_norm": 6.206805282988446,
+              "relative_difference": 6.246519725818131e-10
+            },
+            "regularity_gap": {
+              "absolute_difference": 1.1359695910734822e-07,
+              "observed_norm": 115.14797145997423,
+              "relative_difference": 9.865302676811363e-10
+            }
+          },
+          "original_residual_block_checks": {
+            "primary": {
+              "absolute_difference": 1.0857637480299593e-08,
+              "observed_norm": 6.105778994286502,
+              "relative_difference": 1.7782558933855375e-09
+            },
+            "concentration": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "current_branch_chain_rule_checks": {
+            "primary": {
+              "absolute_difference": 1.0857637480299593e-08,
+              "observed_norm": 6.105778994286502,
+              "relative_difference": 1.7782558933855375e-09
+            },
+            "concentration": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "coordinate_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0
+          },
+          "directional_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0
+          }
+        },
+        {
+          "column_step_floor": 2e-07,
+          "independent_direction_step": 2e-08,
+          "smooth_block_checks": {
+            "period": {
+              "absolute_difference": 7.767485042296989e-09,
+              "observed_norm": 6.105778996526124,
+              "relative_difference": 1.272152995828426e-09
+            },
+            "log_speed": {
+              "absolute_difference": 3.439519083760467e-08,
+              "observed_norm": 6.206805281243067,
+              "relative_difference": 5.541528899182121e-09
+            },
+            "regularity_gap": {
+              "absolute_difference": 1.204290026263062e-06,
+              "observed_norm": 115.14797158455303,
+              "relative_difference": 1.0458629967083295e-08
+            }
+          },
+          "original_residual_block_checks": {
+            "primary": {
+              "absolute_difference": 7.767485042296989e-09,
+              "observed_norm": 6.105778996526124,
+              "relative_difference": 1.272152995828426e-09
+            },
+            "concentration": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "current_branch_chain_rule_checks": {
+            "primary": {
+              "absolute_difference": 7.767485042296989e-09,
+              "observed_norm": 6.105778996526124,
+              "relative_difference": 1.272152995828426e-09
+            },
+            "concentration": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "coordinate_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0
+          },
+          "directional_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0
+          }
+        }
+      ]
+    },
+    {
+      "kind": "quartic",
+      "q": 3,
+      "side": "positive",
+      "parameters_frozen": true,
+      "optimization_performed": false,
+      "original_solver": {
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 150,
+        "optimality": 262.2012660231122,
+        "jacobian_method": "central absolute coordinate differences",
+        "jacobian_step": 2e-05,
+        "jacobian_coordinate_step": "2e-5 * max(1, abs(x[j]))",
+        "final_jacobian_direction_check": {
+          "column_step_floor": 2e-05,
+          "directional_step": 2e-06,
+          "relative_difference": 0.022743924694249868
+        },
+        "initial_residual_l2": 1.2032637113358406,
+        "final_residual_l2": 0.9740594134921495,
+        "elapsed_seconds": 5.428061149999991
+      },
+      "residual_norms": {
+        "primary": 0.9725546251888898,
+        "concentration": 0.05400634769337159,
+        "regularity": 0.0,
+        "leading_gap": 0.0035435076129107434,
+        "global_regularity_gap": 0.0
+      },
+      "active_counts": {
+        "concentration": 12,
+        "regularity": 0,
+        "leading_gap": 1,
+        "global_regularity_gap": 0
+      },
+      "minimum_absolute_concentration_threshold_gap": 0.00143741643751083,
+      "probes": [
+        {
+          "column_step_floor": 2e-05,
+          "independent_direction_step": 2.0000000000000003e-06,
+          "smooth_block_checks": {
+            "period": {
+              "absolute_difference": 2.1710823115807372e-07,
+              "observed_norm": 254.1109390424113,
+              "relative_difference": 8.543836482452186e-10
+            },
+            "log_speed": {
+              "absolute_difference": 8.810166022760813e-10,
+              "observed_norm": 4.780314632888984,
+              "relative_difference": 1.843009655085483e-10
+            },
+            "regularity_gap": {
+              "absolute_difference": 2.499506814584258e-08,
+              "observed_norm": 68.83840061743116,
+              "relative_difference": 3.630977466305829e-10
+            },
+            "shape": {
+              "absolute_difference": 1.861009770923774e-08,
+              "observed_norm": 19.27275885486851,
+              "relative_difference": 9.656166950138862e-10
+            },
+            "leading_gap": {
+              "absolute_difference": 5.0519702199380845e-08,
+              "observed_norm": 6988.585302774187,
+              "relative_difference": 7.228888252866651e-12
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 1.0130385419415688e-09,
+              "observed_norm": 2.9083088279868714,
+              "relative_difference": 3.4832564279041614e-10
+            }
+          },
+          "original_residual_block_checks": {
+            "primary": {
+              "absolute_difference": 1.861009770923774e-08,
+              "observed_norm": 19.27275885486851,
+              "relative_difference": 9.656166950138862e-10
+            },
+            "concentration": {
+              "absolute_difference": 3.4026488200248648e-09,
+              "observed_norm": 19.709094899799247,
+              "relative_difference": 1.72643585985246e-10
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "leading_gap": {
+              "absolute_difference": 814.8873526124662,
+              "observed_norm": 35828.77997543472,
+              "relative_difference": 0.022743932480290347
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "current_branch_chain_rule_checks": {
+            "primary": {
+              "absolute_difference": 1.861009770923774e-08,
+              "observed_norm": 19.27275885486851,
+              "relative_difference": 9.656166950138862e-10
+            },
+            "concentration": {
+              "absolute_difference": 3.4026470640120437e-09,
+              "observed_norm": 19.709094899799247,
+              "relative_difference": 1.7264349688867256e-10
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "leading_gap": {
+              "absolute_difference": 34057.07305281234,
+              "observed_norm": 35828.77997543472,
+              "relative_difference": 0.9505507325720519
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "coordinate_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0,
+            "leading_gap": 16,
+            "global_regularity_gap": 0
+          },
+          "directional_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0,
+            "leading_gap": 1,
+            "global_regularity_gap": 0
+          }
+        },
+        {
+          "column_step_floor": 2e-06,
+          "independent_direction_step": 2e-07,
+          "smooth_block_checks": {
+            "period": {
+              "absolute_difference": 1.4670963500001066e-07,
+              "observed_norm": 254.11093923503725,
+              "relative_difference": 5.773448220751848e-10
+            },
+            "log_speed": {
+              "absolute_difference": 4.4568020701486585e-09,
+              "observed_norm": 4.780314632928502,
+              "relative_difference": 9.323240021584825e-10
+            },
+            "regularity_gap": {
+              "absolute_difference": 8.280499046159825e-08,
+              "observed_norm": 68.83840064105877,
+              "relative_difference": 1.202889516468648e-09
+            },
+            "shape": {
+              "absolute_difference": 2.8390779212406803e-07,
+              "observed_norm": 19.272758619303886,
+              "relative_difference": 1.4731040726038135e-08
+            },
+            "leading_gap": {
+              "absolute_difference": 0.00012766031522915,
+              "observed_norm": 6988.585424761876,
+              "relative_difference": 1.8266974998520504e-08
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 6.151538389786992e-09,
+              "observed_norm": 2.9083088337600316,
+              "relative_difference": 2.115159957697451e-09
+            }
+          },
+          "original_residual_block_checks": {
+            "primary": {
+              "absolute_difference": 2.8390779212406803e-07,
+              "observed_norm": 19.272758619303886,
+              "relative_difference": 1.4731040726038135e-08
+            },
+            "concentration": {
+              "absolute_difference": 1.5572081952474664e-08,
+              "observed_norm": 19.70909489626869,
+              "relative_difference": 7.900962491901522e-10
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "leading_gap": {
+              "absolute_difference": 8146.226252657521,
+              "observed_norm": 43801.693242947425,
+              "relative_difference": 0.18597971104619698
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "current_branch_chain_rule_checks": {
+            "primary": {
+              "absolute_difference": 2.8390779212406803e-07,
+              "observed_norm": 19.272758619303886,
+              "relative_difference": 1.4731040726038135e-08
+            },
+            "concentration": {
+              "absolute_difference": 1.5572081952474664e-08,
+              "observed_norm": 19.70909489626869,
+              "relative_difference": 7.900962491901522e-10
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "leading_gap": {
+              "absolute_difference": 26084.15972806819,
+              "observed_norm": 43801.693242947425,
+              "relative_difference": 0.5955057395473642
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "coordinate_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0,
+            "leading_gap": 16,
+            "global_regularity_gap": 0
+          },
+          "directional_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0,
+            "leading_gap": 1,
+            "global_regularity_gap": 0
+          }
+        },
+        {
+          "column_step_floor": 2e-07,
+          "independent_direction_step": 2e-08,
+          "smooth_block_checks": {
+            "period": {
+              "absolute_difference": 3.5828863806285173e-06,
+              "observed_norm": 254.110937147107,
+              "relative_difference": 1.4099693704070493e-08
+            },
+            "log_speed": {
+              "absolute_difference": 3.7250968744057044e-08,
+              "observed_norm": 4.780314625571519,
+              "relative_difference": 7.792576778270832e-09
+            },
+            "regularity_gap": {
+              "absolute_difference": 8.888136846824568e-07,
+              "observed_norm": 68.83840066132322,
+              "relative_difference": 1.2911596959599844e-08
+            },
+            "shape": {
+              "absolute_difference": 5.634678047124995e-06,
+              "observed_norm": 19.272754147123642,
+              "relative_difference": 2.9236496268832137e-07
+            },
+            "leading_gap": {
+              "absolute_difference": 0.0024007054707908537,
+              "observed_norm": 6988.587609615987,
+              "relative_difference": 3.4351797600527883e-07
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 1.1528117127568294e-08,
+              "observed_norm": 2.9083088382009237,
+              "relative_difference": 3.963855893206848e-09
+            }
+          },
+          "original_residual_block_checks": {
+            "primary": {
+              "absolute_difference": 5.634678047124995e-06,
+              "observed_norm": 19.272754147123642,
+              "relative_difference": 2.9236496268832137e-07
+            },
+            "concentration": {
+              "absolute_difference": 9.413717379479248e-08,
+              "observed_norm": 19.70909485699481,
+              "relative_difference": 4.776331661998316e-09
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "leading_gap": {
+              "absolute_difference": 27760.815574386244,
+              "observed_norm": 69885.87609615987,
+              "relative_difference": 0.3972307013249514
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "current_branch_chain_rule_checks": {
+            "primary": {
+              "absolute_difference": 5.634678047124995e-06,
+              "observed_norm": 19.272754147123642,
+              "relative_difference": 2.9236496268832137e-07
+            },
+            "concentration": {
+              "absolute_difference": 9.413717379479248e-08,
+              "observed_norm": 19.70909485699481,
+              "relative_difference": 4.776331661998316e-09
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "leading_gap": {
+              "absolute_difference": 0.024007054715184495,
+              "observed_norm": 69885.87609615987,
+              "relative_difference": 3.435179761093908e-07
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "coordinate_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0,
+            "leading_gap": 14,
+            "global_regularity_gap": 0
+          },
+          "directional_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0,
+            "leading_gap": 0,
+            "global_regularity_gap": 0
+          }
+        }
+      ]
+    },
+    {
+      "kind": "quartic",
+      "q": 3,
+      "side": "negative",
+      "parameters_frozen": true,
+      "optimization_performed": false,
+      "original_solver": {
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 150,
+        "optimality": 0.12282382507826102,
+        "jacobian_method": "central absolute coordinate differences",
+        "jacobian_step": 2e-05,
+        "jacobian_coordinate_step": "2e-5 * max(1, abs(x[j]))",
+        "final_jacobian_direction_check": {
+          "column_step_floor": 2e-05,
+          "directional_step": 2e-06,
+          "relative_difference": 0.0007814718796966344
+        },
+        "initial_residual_l2": 1.2025597932960033,
+        "final_residual_l2": 0.11337025261164985,
+        "elapsed_seconds": 6.074407242000007
+      },
+      "residual_norms": {
+        "primary": 0.11320572403419238,
+        "concentration": 0.006105589498451925,
+        "regularity": 0.0,
+        "leading_gap": 0.0,
+        "global_regularity_gap": 0.0
+      },
+      "active_counts": {
+        "concentration": 12,
+        "regularity": 0,
+        "leading_gap": 0,
+        "global_regularity_gap": 0
+      },
+      "minimum_absolute_concentration_threshold_gap": 2.3463515254174006e-05,
+      "probes": [
+        {
+          "column_step_floor": 2e-05,
+          "independent_direction_step": 2.0000000000000003e-06,
+          "smooth_block_checks": {
+            "period": {
+              "absolute_difference": 4.504437181261272e-08,
+              "observed_norm": 173.6085588233065,
+              "relative_difference": 2.5945939599934993e-10
+            },
+            "log_speed": {
+              "absolute_difference": 1.0137584943048844e-09,
+              "observed_norm": 4.803598867414513,
+              "relative_difference": 2.1104145501860554e-10
+            },
+            "regularity_gap": {
+              "absolute_difference": 2.0524054010344522e-08,
+              "observed_norm": 69.45911675864009,
+              "relative_difference": 2.954839475091873e-10
+            },
+            "shape": {
+              "absolute_difference": 1.957801619099762e-08,
+              "observed_norm": 39.486241987004455,
+              "relative_difference": 4.958186752094832e-10
+            },
+            "leading_gap": {
+              "absolute_difference": 2.387962013017386e-06,
+              "observed_norm": 6482.969670670967,
+              "relative_difference": 3.6834385078501216e-10
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 1.0647172032918206e-10,
+              "observed_norm": 1.9951135090678915,
+              "relative_difference": 5.336624700562786e-11
+            }
+          },
+          "original_residual_block_checks": {
+            "primary": {
+              "absolute_difference": 1.957801619099762e-08,
+              "observed_norm": 39.486241987004455,
+              "relative_difference": 4.958186752094832e-10
+            },
+            "concentration": {
+              "absolute_difference": 0.034543642035640205,
+              "observed_norm": 19.86879405623457,
+              "relative_difference": 0.0017385877541370388
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "leading_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "current_branch_chain_rule_checks": {
+            "primary": {
+              "absolute_difference": 1.957801619099762e-08,
+              "observed_norm": 39.486241987004455,
+              "relative_difference": 4.958186752094832e-10
+            },
+            "concentration": {
+              "absolute_difference": 3.6489692647640608e-09,
+              "observed_norm": 19.86879405623457,
+              "relative_difference": 1.8365328335662434e-10
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "leading_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "coordinate_probe_active_switch_counts": {
+            "concentration": 6,
+            "regularity": 0,
+            "leading_gap": 0,
+            "global_regularity_gap": 0
+          },
+          "directional_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0,
+            "leading_gap": 0,
+            "global_regularity_gap": 0
+          }
+        },
+        {
+          "column_step_floor": 2e-06,
+          "independent_direction_step": 2e-07,
+          "smooth_block_checks": {
+            "period": {
+              "absolute_difference": 1.276291334571164e-07,
+              "observed_norm": 173.60855887981626,
+              "relative_difference": 7.35154616112389e-10
+            },
+            "log_speed": {
+              "absolute_difference": 4.77358741351514e-09,
+              "observed_norm": 4.803598867196775,
+              "relative_difference": 9.937522981182755e-10
+            },
+            "regularity_gap": {
+              "absolute_difference": 1.1358987485660746e-07,
+              "observed_norm": 69.45911679882876,
+              "relative_difference": 1.6353486783540968e-09
+            },
+            "shape": {
+              "absolute_difference": 1.80793991789762e-07,
+              "observed_norm": 39.486241886967,
+              "relative_difference": 4.5786578603074316e-09
+            },
+            "leading_gap": {
+              "absolute_difference": 4.719158005173085e-05,
+              "observed_norm": 6482.969636181224,
+              "relative_difference": 7.279315298402189e-09
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 4.2232972674582925e-10,
+              "observed_norm": 1.9951135099560702,
+              "relative_difference": 2.1168205449880816e-10
+            }
+          },
+          "original_residual_block_checks": {
+            "primary": {
+              "absolute_difference": 1.80793991789762e-07,
+              "observed_norm": 39.486241886967,
+              "relative_difference": 4.5786578603074316e-09
+            },
+            "concentration": {
+              "absolute_difference": 1.9306270496651622e-08,
+              "observed_norm": 19.86879405682229,
+              "relative_difference": 9.716880874318835e-10
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "leading_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "current_branch_chain_rule_checks": {
+            "primary": {
+              "absolute_difference": 1.80793991789762e-07,
+              "observed_norm": 39.486241886967,
+              "relative_difference": 4.5786578603074316e-09
+            },
+            "concentration": {
+              "absolute_difference": 1.9306270496651622e-08,
+              "observed_norm": 19.86879405682229,
+              "relative_difference": 9.716880874318835e-10
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "leading_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "coordinate_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0,
+            "leading_gap": 0,
+            "global_regularity_gap": 0
+          },
+          "directional_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0,
+            "leading_gap": 0,
+            "global_regularity_gap": 0
+          }
+        },
+        {
+          "column_step_floor": 2e-07,
+          "independent_direction_step": 2e-08,
+          "smooth_block_checks": {
+            "period": {
+              "absolute_difference": 7.407760544087246e-07,
+              "observed_norm": 173.6085595725182,
+              "relative_difference": 4.266932783917801e-09
+            },
+            "log_speed": {
+              "absolute_difference": 5.287956619435977e-08,
+              "observed_norm": 4.8035988508531995,
+              "relative_difference": 1.1008322683932584e-08
+            },
+            "regularity_gap": {
+              "absolute_difference": 9.255200978665283e-07,
+              "observed_norm": 69.45911685632854,
+              "relative_difference": 1.3324674135735179e-08
+            },
+            "shape": {
+              "absolute_difference": 1.328725902335648e-06,
+              "observed_norm": 39.486241338687186,
+              "relative_difference": 3.365035154748473e-08
+            },
+            "leading_gap": {
+              "absolute_difference": 0.00037597978007397614,
+              "observed_norm": 6482.969399712601,
+              "relative_difference": 5.799499533202236e-08
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 5.845125405912199e-08,
+              "observed_norm": 1.995113452224473,
+              "relative_difference": 2.929720813317716e-08
+            }
+          },
+          "original_residual_block_checks": {
+            "primary": {
+              "absolute_difference": 1.328725902335648e-06,
+              "observed_norm": 39.486241338687186,
+              "relative_difference": 3.365035154748473e-08
+            },
+            "concentration": {
+              "absolute_difference": 2.2288895886199034e-07,
+              "observed_norm": 19.868793920984007,
+              "relative_difference": 1.121804170642642e-08
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "leading_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "current_branch_chain_rule_checks": {
+            "primary": {
+              "absolute_difference": 1.328725902335648e-06,
+              "observed_norm": 39.486241338687186,
+              "relative_difference": 3.365035154748473e-08
+            },
+            "concentration": {
+              "absolute_difference": 2.2288895859557288e-07,
+              "observed_norm": 19.868793920984007,
+              "relative_difference": 1.1218041693017583e-08
+            },
+            "regularity": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "leading_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            },
+            "global_regularity_gap": {
+              "absolute_difference": 0.0,
+              "observed_norm": 0.0,
+              "relative_difference": 0.0
+            }
+          },
+          "coordinate_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0,
+            "leading_gap": 0,
+            "global_regularity_gap": 0
+          },
+          "directional_probe_active_switch_counts": {
+            "concentration": 0,
+            "regularity": 0,
+            "leading_gap": 0,
+            "global_regularity_gap": 0
+          }
+        }
+      ]
+    }
+  ]
+}
