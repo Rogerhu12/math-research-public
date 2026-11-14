@@ -1,6 +1,6 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 12:24 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 12:26 UTC。**主目标未完成，持续研究。**
 
 ## 规则、位置、同步
 
@@ -8,7 +8,7 @@
 blob:none checkout `/workspace/scratch/0df957a82d09/math-research-public` 指向 `/tmp/visible-exact-0df9-workspace/math-research-public`；objects指向 `/tmp/visible-exact-0df9-git-objects`。ENOSPC已逐字节同迁；新临时输出用同/tmp工作根。
 旧 `/workspace/scratch/ac0d699811ad` 只读，不能修改其repo/native/进程；新的数学不在本地运行。
 
-最后实际 pull --rebase 与两 README 差异检查：ff1381ee8c307a21bceac0c1d8b76655b9583fa1；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
+最后实际 pull --rebase 与两 README 差异检查：93264fd5daa2b4ffe894bdc32156edccc1af20d9；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
 已亲读ee26c0a65a2e63c15f2ccfba6714181584416542根差异：新增visible-flex-new-mechanism，课题数改按表，其余规则和题目标未变。
 每次push前实际pull/rebase并读两个README的新增diff，至少每小时pull；每条结论独立推；非FF立即rebase重推至成功，不force。
 PAT只在瞬时CLI/env，不落文件/输出/提交。root独占Git/H/open/results/log；三代理交付新文件后冻结，避免manifest失配。
@@ -42,7 +42,7 @@ PAT只在瞬时CLI/env，不落文件/输出/提交。root独占Git/H/open/resul
 同背景||qν−Z||普通L2或E0≤1/200足保真物理ν行>1/200；实际响应误差及背景变化仍需全逆。
 mean-v1失败43588192611/native fa68d99a…e31bb和前5门保；v2公开43589465579真实10/10门return0、数学2.022430132s，native bd69c985ddaa…37baad99。7721格两mean全复用且union增费：||q_star−Z||<4.572198020300e−6，真qν−q_star充分余量0.004995427801979700。原包body-mean-norm-complete-actual/，固定物理η0；ac1→repair/高反馈/全源仍欠。
 完整moving strict首符号/root两减项保primitive、两mean、真R0和全<u²>；43588623881真实10/10门return0，native83b87357…5182d。真density ray共轭首均值准确不变，half-density角二导均值0，strict scalar不重算ray。
-firstsymbol43589646508真实return1/native5167e64f…e1d；2838严格积分及两步真root已成功，不重算。原包first-symbol-finite-part-original-run-43589646508/。v2已推9111a12e，manifestd2f3d184…/source851a86d3…/driver5597510e…，原233输入SHA不变；续剩余两germ，必要新midpoint真jets但保原全格六阶尾，最终总宽1e−3不放宽。仅δ=0 Xi有限部；真实两行root/positive匹配、完整β/j、δ*转移及strong仍欠。
+firstsymbol原失败43589646508/native5167e64f…e1d及2838积分/2 root步均保；v2 43591721337真实return0、六门全过，完整3146行（248新midpoint/2 root jets），native cd9ffed6d8c9…c9bab202，原包first-symbol-resume-v2-actions-original/run-43591721337-1/。完整Xi有限部在(−73.913337474666793,−73.913314715519692)，宽<2.275915e−5；−Xi/4在(18.478328678879919,18.478334368666702)。仅η0/δ=0；完整β及root/positive/δ*转移/strong仍欠。
 
 ## 连续有限逆与完整源
 
