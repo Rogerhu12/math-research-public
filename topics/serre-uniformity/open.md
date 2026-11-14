@@ -96,7 +96,7 @@ R657实际混合普通类模A_LB=RΓ/π^m，1≤m≤43，m≥2时s=1+iπ modπ²
 
 所有支线都服务于O1；主要完成标准始终是全部非CM E/Q的绝对常数或完整无界反例族。
 
-- **R686 已证全塔增长律**：同一原q与Robert标记下，A_Mn=RΓ/π^min(d,42n+1)，存在唯一d∈正整数∪{∞}。R715现排除原m<43，故d≥43；一般高层端点正沿自然Tate维移复核。实际d及C/J/b/L仍待求。
+- **R686 已证全塔增长律**：同一原q与Robert标记下，A_Mn=RΓ/π^min(d,42n+1)，存在唯一d∈正整数∪{∞}。R718现以每层自然Tate维移严格证明m_n=42n+1、d=∞、普通类Norm逆极限RΓ；所有scalar普通Norm满射，所有向L的全P_n普通Norm恰(p,π)E_L。C/J/b/L仍待求。
 
 R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=πDScs−κπDTct−11acq∈π²E iff κ=C/9，a=15i/7；测试表达式消去未知y，不需m=43。43个iF43值中恰一项通过，但实际通过值未求。所有κ都通过域整除，故该替代不能解决普通单位缺口；C=−34ib仍未证。
 
@@ -158,8 +158,12 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 
 ### R715：原普通长度43与真实单位Norm已证明
 
-实际完整序列0→E→U→X^(p)→A→0在两个中项P自由，给自然R0线性同构E_L/N_PE≅H_1(P,A)。整数周期分辨率保留真实N_S/N_T：所有m≤42均得Γ平凡k²，与E_L=R0 y循环商矛盾；m43的非零N_S=−2π^42边界恰消第二线。故A=RΓ/π^43、N_SE=E_N、N_PE=(p,π)E_L，原y有普通单位Norm原像。完整链级Θ给C=9a_s/a_t，a_s/a_t必须经原互反映射求值；同调切线(ib,1)不自动是原Robert cocycle桥。C/J/b/L仍待求；高层R718与实际桥继续。见[R715](results/R715-natural-Tate-dimension-shift-and-the-forced-ordinary-endpoint.md)。
+实际完整序列0→E→U→X^(p)→A→0在两个中项P自由，给自然R0线性同构E_L/N_PE≅H_1(P,A)。整数周期分辨率保留真实N_S/N_T：所有m≤42均得Γ平凡k²，与E_L=R0 y循环商矛盾；m43的非零N_S=−2π^42边界恰消第二线。故A=RΓ/π^43、N_SE=E_N、N_PE=(p,π)E_L，原y有普通单位Norm原像。完整链级Θ给C=9a_s/a_t，a_s/a_t必须经原互反映射求值；同调切线(ib,1)不自动是原Robert cocycle桥。C/J/b/L仍待求；高层长度已由R718闭合，实际桥继续。见[R715](results/R715-natural-Tate-dimension-shift-and-the-forced-ordinary-endpoint.md)。
 
 ### R712：原M2的完整下一位已化为两块
 
 在Cp单位、Cp−3余零的原规范下，严格LT坐标[p]Y=pY−Y^(p²)、varpi^(p²−1)=p精确成立，并保持旧S2模p相位。令d=p²−p+3、t=2p²−4p+2，F0=p³[z^d](E³R/36+E²W/12+EV/3)modp³，R2=[Y^t]R modp，则F0∈p²且D_p=6F0/p²+B³R2/18严格控制原M2是否单位。完整总D³的两块、积分常数17/36、第三块和无穷尾均已处理；公开run43594244072仅核有限有理/符号恒等式。137147的D_p未求，继续R717带完整分母/周期/角色标签和严格误差的快速原值求法，不能只提升Cp−3或把O(p²)级数当已算。见[R712](results/R712-actual-M2-second-digit-and-Lubin-Tate-two-block-reduction.md)。
+
+### R718：全层普通长度和相容Norm已闭合
+
+对每个n≥1，真实阶43^n的两Norm均有π赋值≥42n，scalar恰42n；不要求pA_n=0，整数乘积分辨率仍把任何m_n≤42n化成Γ平凡k²，与原循环E_L矛盾。故m_n=42n+1、R686的d=∞，普通类Norm逆极限为RΓ。每层scalar普通单位Norm满射，全P_n普通Norm均为(p,π)E_L；紧纤维有限交性质还证明全层交Norm就是真正相容单位逆极限向E_L的像。此结论只涉及原固定p43塔，尚未求原C/J/b/L或普通Norm原像坐标，继续原Robert链级桥和实际互反求值。见[R718](results/R718-all-ordinary-class-lengths-and-exact-universal-unit-norms.md)。
