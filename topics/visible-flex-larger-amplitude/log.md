@@ -341,3 +341,10 @@ R271全文12528B/f6aabf31…已读并直接入results及索引。任意完整A_i
 正式note13580B/SHA14194f3d…全文读并推。actual42由40父双SHA及冻结QR入口续32工作行：α1原固定Wr merit44.28521851182767→44.27560683679009/drop.009611675037582756，原全域过，col.007110297531831894/BC7.934223734010612e−8/新FD7.171478513023801e−10。H与C同f明确比较，最终完整stationarity992702.538/R267 gap.538185927不隐去；没有QP最优、fullBVP或native接受。
 
 该轮仅connector小报告和必要原片段；两份000/032逆L2分别7.001149895483071e−10/1.2879118613795623e−10，同vector原A/AT差0，不冒全部33或大阵字节核。旧helper实际stop/未修复slack/内部radial待43刚完成的只读摘要发布；外层factor1不冒无内部修复。新warm3dd623e9…/status26272c6c…固定，跨轮weights不混减。43编译/摘要/28与41取入已成功，原G全求解进行中。
+
+
+### 2026-11-14 18:23 UTC：原step方向的十试步组件完整保存
+
+旧step试步Python27617B/f944c877…、hook55163B/347ce7ed…及接口13260B/c8e27a3b…已全静态读并发表；hook为失联前最后Node/纯string验证字节，Python最终schema小改仅静态、未冒新运行。绑定28/41原件及30a467e8 producer/fulldelta/577restriction所有字节与负零；缓存原baseline .04177307820740199、不重复withJac。原trial loop/evaluate(false)/guards/严格原σ下降body603924d1…保持，首接受完整state STOP，全部拒绝保存失败stage，后续Newton/J/audit未执行。
+
+说明纠正：公共dn.tail.solve是未改arrow wrapper（283de191…），三插入在内部solveQ；过去认为旧generic公共toString必然改变的推测不成立。本组件明确内部反向去三插入恢复原源码身份、不伪造toString。仅组件保存，不派actual42坏δ；新G试步将独立schema/source，不实例化G重形成矩阵。
