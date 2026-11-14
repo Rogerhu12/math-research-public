@@ -4,9 +4,9 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、有限数值均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：93e45782f4682fdb1b79b7c395063e4466b5c207
-最近已确认本地pull：2026-11-15约01:56 Asia/Taipei，main=b202f09796ede72bb57cbb1d770dafd3987f987c，两README未变。随后终端transport断连且environment unavailable；R762两次非快进后失联，远端404确认未推。按根规矩8以GitHub小文本API继续，每次取最新main/核两README、expected_sha且force=false；不把API核对称实际pull。终端恢复先保留本地旧R762分支，再pull/rebase并处理已重建重复，不能重推旧元数据。
-远端规则核对：2026-11-14 18:32:59 UTC，main=93e45782f4682fdb1b79b7c395063e4466b5c207，两README blob均未变；本次为终端不可用期间的API核对。
+已读规则提交：55c59fb213ead3e349e6484eda8b98837dcfb5f7
+最近已确认本地pull：2026-11-15约01:56 Asia/Taipei，main=b202f09796ede72bb57cbb1d770dafd3987f987c，两README未变。随后终端transport断连且environment unavailable（18:34 UTC再次只读pwd仍同错误）；R762两次非快进后失联，远端404确认未推。按根规矩8以GitHub小文本API继续，每次取最新main/核两README、expected_sha且force=false；不把API核对称实际pull。终端恢复先保留本地旧R762分支，再pull/rebase并处理已重建重复，不能重推旧元数据。
+远端规则核对：2026-11-14 18:43:18 UTC，main=55c59fb213ead3e349e6484eda8b98837dcfb5f7，两README blob均未变；本次为终端不可用期间的API核对。
 
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权。终端可用时每推前且至少每小时实际pull --rebase，非快进立即循环重拉再推；PAT只CLI、不入文件。根独占commit/ref，代理只稿/blob。Markdown<100KB、H<10KB、open<30KB，>1MB数据gzip、文件<5MB，大可复现表只artifact。日志本题≤5行，不设冻结/独立审查审批门。
 最新完整旧H/open分别存[before-R759-actual](notes/2026-11-14-public-handoff-before-R759-actual.md)、[before-R759-actual](notes/2026-11-14-open-before-R759-actual.md)，内接R766/R762等完整归档。完成计算不重跑；未推稿按记录重建。
@@ -29,7 +29,7 @@ R752/R755：原二阶σ₂完整保留，Iα=ε(21σ₂+2bJ)=−〈w,Sα〉，I0
 R756/R758 ordinary cube及自然H¹(S,kerΓE)=k[X]/X42：ηα首19X40，下一含J；ψft=X41、ψfs=ibX41、Xηα=19ψft，flat移−8iψft。E∩pU=pE不让三Norm自动可除p。
 R761真实WΓS∈43EM，L=−W/43=XH，πL=VS、SL=VΓ；两对角π²L/S²L不能置零。R763双Norm零torsor的λ=1/实λ=i可清ρ，保同一Xt、η/J及全phase；ρ不是J/b不变量。
 **R766已推dba4e901**：DT的X=T−1 Taylor前c0..c40均43倍，单一Y40向下给原Y0且NTY0=21Aα；H=RΓS/43∈X40EM、L∈X41EM且三Norm全零，实平均保全部性质。d41真实q socle非主化，阻同法再剥；完整证明SHA24abf2bcc5dc766406df336dc56e097da7181161628f4f65cf27a4e381853c18。
-**R768进行中**：原dual Kummer限制可能有非零ideal-class socle λe_q，κ(Xt)为真实提升；须保此项及两对角项再下降，不先认eα属于普通单位。
+**R768已证明**：真supported dual Kummer类eα的full divisor image唯一λ_id e_q，κ(Xt)是真非ordinary提升；ordinary companion保πe=−2iU、Se=2U、Xe=−λhX、NT e=−λU，β_P(U)=−ft/9≠0。真T-Hilbert90/full divisor/transfer给bλ=0；b≠0时λ0，类Norm A_(M^T)→A_L及ordinary capitulation图使NS:H¹(T,EM)→H¹(T,EN)同构，Bockstein再令真Eα|G_(M^T)与dq成为ordinary单位类，保q-local0、实标记和原两Norm/两边界。b0保例外，b24尚未排除。证明SHAf30bd5ba4dda652b689ec9534219b518f29a839647f701fcae08979f22afa56f；后继R773纯S格与真q配对。
 
 ## 主目标与真实高度缺口
 

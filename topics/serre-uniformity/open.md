@@ -220,3 +220,6 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 
 
 **R767（原商低权RR构造与严格短前缀已证明）**：[完整证明](results/R767-original-quotient-low-weight-RR-basis-and-cusp-order-bound.md)原level82权二维146由全level权一Eisenstein积/原126项平均张成，无权二L值例外；其正常生成给H0(6L)维1506，四层椭圆主部再补8成M12维1514。准确div_W(t²Δ)=2(t)0及原cusp常数−1/6912给真实RR基。实际d1206时kernel308/rank2720；原R745早期minor给e≤19，P处极点完整扣除后2847行、基至2846、原h前缀8557足够。当前是证明/待运行工程，具体有限minor/基recipe/函数尚未完成。
+
+
+**R768（真dual Kummer socle与ordinary纯S下降已证明）**：[完整证明](results/R768-original-supported-dual-Kummer-class-and-ordinary-companion.md)全Σ/q二次gauge/2处extension核对后，真实eα在full Kummer群中有唯一λ_id e_q，保κ(Xt)和完整三方向方程；β_P(U)=−ft/9≠0。实际T-Hilbert90与原transfer给bλ_id=0，b≠0时再用到较小EN的真实Norm及ordinary capitulation图，令真eα和dq下降为V=M^T的ordinary单位类，保原q-local0与全部Norm/导数。b=0不能外推，b24虽满足下降但仍未排除；继续R773原纯S格与真实regularized配对，未称J/b/σ₂数值已得。

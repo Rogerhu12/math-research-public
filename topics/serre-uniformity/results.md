@@ -268,3 +268,6 @@
 
 
 - **R767（已证明）**：[原商低权Riemann–Roch基及真实尖点阶界](results/R767-original-quotient-low-weight-RR-basis-and-cusp-order-bound.md)。原level82权二146维、正常生成与8个椭圆主部给权十二1514维；除以真实t²Δ即L(2(t)0)基。R745原minor给e≤19，完整零极点计数把恢复降至2847行、基前缀2846和Hodge8557；具体基/函数由公开计算继续，未预填数值秩。
+
+
+- **R768（已证明）**：[原supported dual Kummer类及ordinary companion](results/R768-original-supported-dual-Kummer-class-and-ordinary-companion.md)。完整理想类项λ_id e_q、真实κ(Xt)提升及三方向/Norm保留，原Bockstein β_P(U)=−ft/9非零。T-Hilbert90和完整transfer给bλ_id=0；b≠0时真实到EN的Norm同构进一步把原dual下降为M^T普通单位类，保q-local0。b24尚未排除，原配对与J/b/σ₂继续。
