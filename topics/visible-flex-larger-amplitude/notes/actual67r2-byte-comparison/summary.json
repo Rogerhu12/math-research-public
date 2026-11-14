@@ -1,0 +1,65 @@
+{
+  "schema": "actual66-67-same-base-model-byte-comparison-v2",
+  "no_scientific_modules_imported": true,
+  "no_norm_matrix_action_or_Fraction_computed": true,
+  "actual66_verified_baseline_receipt_reused": {
+    "file": "verified66-baseline.json.gz",
+    "bytes": 54606,
+    "sha256": "74cb59651a3908ba2dea664775ff76fde2bcb9f7e268579d4c80c366f5bca6aa"
+  },
+  "original_byte_reader_source": {
+    "file": "exact_20261114_compare_actual66_67_model_bytes.py",
+    "bytes": 19142,
+    "sha256": "28292fe1611efa18373f7a9419e3ee3a22867e6ac6de5ffd197e0a57948dc072"
+  },
+  "new_scientific_acceptance_gate": false,
+  "completed": true,
+  "detail": {
+    "file": "complete-byte-detail.json.gz",
+    "bytes": 160429,
+    "sha256": "be6993f3e2b71c8d45c8980914f0f3db75fcd93cec3a7d4f67355b324bdad1b7"
+  },
+  "B_file_count": 181,
+  "B_array_count": 1168,
+  "all_verified_B_payloads_equal": true,
+  "all_original_b_g_c_payloads_equal": true,
+  "all_scientific_binding_records_equal": true,
+  "all_original_full_A_input_records_equal": true,
+  "B_base_identity_equal": true,
+  "B_query_specs_equal": true,
+  "metadata_B_model_SHA": {
+    "baseline": "e6928853c2a125212dc4909a3b2fefada07e7320d23ee0d4817634afec89d511",
+    "changed": "e6928853c2a125212dc4909a3b2fefada07e7320d23ee0d4817634afec89d511",
+    "equal": true,
+    "metadata_difference_not_by_itself_a_scientific_array_difference": true
+  },
+  "expected_changed_C": {
+    "baseline": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "2289c3e807976f929f3fd5a80d0f7a7a69ff5b736443032c2449eda52b6616e2",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "changed": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "20b051d5189ff01597e39cea347a6afe6918281fff8051a12e32e81204f98ab0",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "equal": false,
+    "C_and_roots_expected_rebuilt_under_new_damping": true
+  },
+  "changed_condensed_root_raw_array_count": 14,
+  "original_complete_A_and_QR_factor_payloads_not_exported": true,
+  "invocation_source": {
+    "file": "run_saved_baseline_comparison.py",
+    "bytes": 3144,
+    "sha256": "9f4693e9adc54fb2c13fee9e57a6267153344bbe83ff94b9fa9a551466d8934d"
+  }
+}
