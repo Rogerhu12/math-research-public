@@ -1,8 +1,22 @@
 {
-  "request": "2026-11-14-first-preserved-R379-tails",
+  "request": "2026-11-14-preserved-R379-tails-batch02",
   "results": [
+    "R660",
+    "R667",
+    "R661",
+    "R668",
+    "R662",
+    "R669",
+    "R663",
+    "R670",
+    "R664",
+    "R671",
+    "R665",
+    "R672"
+  ],
+  "already_completed": [
     "R659",
     "R666"
   ],
-  "scope": "Push-triggered continuation of existing original artifacts; no repetition of completed chains or stages."
+  "scope": "Continue only original artifacts verified present; the completed 304-bit chains and prior stages are restored without repetition."
 }
