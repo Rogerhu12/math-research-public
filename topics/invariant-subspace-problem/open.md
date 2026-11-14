@@ -1,7 +1,7 @@
 # 未解决的问题
 
 
-**首低通道：** [共同Schur](notes/2026-11-14-first-low-johnson-channel-common-schur-and-original-tail-linear-budget-789f-next.md)已付条件线性协方差，条件均值仍缺。[原无限尾严格证书](notes/2026-11-14-original-infinite-tail-birth-two-arithmetic-obstruction-789f-next.md)迫辅助算术系数>289/100，常数2路线关闭；加强S1/graph未反驳，转损失/真源平方。
+**首低通道：** [原尾正通道尺度](notes/2026-11-14-original-tail-inverse-overlap-and-common-positive-channel-scale-789f-next.md)已付全p的1/k尺度；尚缺同源负方差N≤LkP。原无限尾辅助常数2已由严格有理源排除，须容明确损失；加强S1/graph未反驳。
 
 ## 主目标与完成标准
 
@@ -144,7 +144,7 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **已闭全部低本质三次层。** [总定理](results/R150-appendix-all-essential-cubic-dimensions-at-most-three-have-zero-matched-bell-values.md)：essT3≤3临界三Bell零；ess≤2仅迫T3=0，rank1/ess3为空，Cat2/3的W±/Q|T3判据保。非零Bell余点必ess4/5/6，自然幂未付。
 
-**高本质rank1原中心17式。** M5 6188×4367、泛秩4354；rankAy8及0/2/−6/∞已闭，余rankAy9有限Σ/char0来源。[完整前open](notes/2026-11-14-open-before-first-padic-obstruction-789f.md)保全部模31原17证书、Ann24/线性分母及B85标准源。[首轮真实障碍](notes/2026-11-14-r150-first-residual-fixed-source-obstruction-789f.md)九个r1均有非零完整image-NF，严格排各h0t_j在固定217374标准列Q像；添同族更高次数也无效。[余类实算](notes/2026-11-14-r150-first-residual-torsion-scalar-obstruction-789f.md)已核各最小(s−1)(s−2)，25坐标dual排固定初值的任意次数h0+31g。[exact Koszul](notes/2026-11-14-r150-exact-koszul-compression-and-bockstein-1152-789f.md)已保cost消去660未选N行并lift972低K；有限β只余200高K的1152移位待算。未排全原来源或char0理想。其他mean秩/高ess/自然幂另开。
+**高本质rank1原中心17式。** M5原6188×4367泛秩4354；rankAy8及0/2/−6/∞已闭，余rankAy9有限Σ/char0来源。当前[完整B85障碍](notes/2026-11-14-r150-complete-b85-bockstein-obstruction-789f.md)含全部71824核自由，九目标均无模961来源；[两β闭包/唯一g](notes/2026-11-14-r150-known-bockstein-module-primary-correction-789f.md)给共同s=2修正及保根集25次H0的模961来源≤182构造性存在，尚未原系数展开。只补余两cost86核后再定固定h0路线；更高成本、31分母Q解及其他mean秩/高ess/自然幂仍开。全部旧固定标准族失败/原17/Ann24证书保[前全文](notes/2026-11-14-open-before-two-weight-all-size-theorem-789f.md)。
 
 [射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)的74次充分条件于模31不成立：全原∞连接给阶≥24，仿射315使齐次总度≥339。它与九目标Ann24不同；char0来源/分母及其他mean秩高ess继续，全部旧条件保本次前open。
 
