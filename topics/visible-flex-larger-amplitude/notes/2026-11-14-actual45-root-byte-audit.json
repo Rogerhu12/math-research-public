@@ -1,0 +1,155 @@
+{
+  "scope": "Byte-only verification of all14 actual local-root, affine and recovery files. No scientific arithmetic or independent factor audit.",
+  "time": "2026-11-14T18:52:42.913374+00:00",
+  "run": 43627827085,
+  "artifact": 14126039433,
+  "zip_bytes": 319064633,
+  "zip_sha256": "a08478e30648b6f08f2d2d8716a891d8d128913f15d6b616505e6c99d253f876",
+  "root_arrays_verified": [
+    {
+      "name": "original-g",
+      "file": "original-g.f64le",
+      "bytes": 1888288,
+      "raw_sha256": "c5613a2959f0c325576bb66740e9d4fd5aa5559e14582cc86e966f0e6f3fc64f",
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8"
+    },
+    {
+      "name": "local-indices",
+      "file": "local-indices.i64le",
+      "bytes": 35176,
+      "raw_sha256": "f749ee3101cbfdc48f3505db8bf863c0ed97898442f3cd650d5125b660f3e37d",
+      "shape": [
+        4397
+      ],
+      "dtype": "<i8"
+    },
+    {
+      "name": "affine-original-linear-term-error",
+      "file": "affine-original-linear-term-error.f64le",
+      "bytes": 1888288,
+      "raw_sha256": "760af11716c122b2c22d74a92d5b702bae469b5f1ed907f9c3aa4410c24b1499",
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8"
+    },
+    {
+      "name": "complete-affine-column",
+      "file": "complete-affine-column.f64le",
+      "bytes": 1888288,
+      "raw_sha256": "84fcca7174c4aa9d8b854800209c5d4fbe6f3ffe1855e8cf4c375aab9125da08",
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8"
+    },
+    {
+      "name": "local-root",
+      "file": "local-root.f64le",
+      "bytes": 154668872,
+      "raw_sha256": "9f1bd271e057f47558ff141d7bd5551560456abfbb2bf1c53474505cfc41fbe3",
+      "shape": [
+        4397,
+        4397
+      ],
+      "dtype": "<f8"
+    },
+    {
+      "name": "local-affine",
+      "file": "local-affine.f64le",
+      "bytes": 35176,
+      "raw_sha256": "2763a2e74fb2d3a32807e0b7064631622d73671d0abc12f6f3c5cbf5e98aee19",
+      "shape": [
+        4397
+      ],
+      "dtype": "<f8"
+    },
+    {
+      "name": "local-gradient",
+      "file": "local-gradient.f64le",
+      "bytes": 35176,
+      "raw_sha256": "9db15f5a6a77d4083bed472b251b2146c29de861d468fa69b6f2cc55d773d65d",
+      "shape": [
+        4397
+      ],
+      "dtype": "<f8"
+    },
+    {
+      "name": "local-center",
+      "file": "local-center.f64le",
+      "bytes": 35176,
+      "raw_sha256": "77ff93e6732768e027d9ddfaa1e68ea284925950cf81bfb0f0f12c28b3bbb39c",
+      "shape": [
+        4397
+      ],
+      "dtype": "<f8"
+    },
+    {
+      "name": "recovery-000-requested-local",
+      "file": "recovery-000-requested-local.f64le",
+      "bytes": 35176,
+      "raw_sha256": "06ffd5930d28b9bc6d06623058ddbcf15c6843b5cf74b6abcd68e4d6d990596b",
+      "shape": [
+        4397
+      ],
+      "dtype": "<f8"
+    },
+    {
+      "name": "recovery-000-actual-full",
+      "file": "recovery-000-actual-full.f64le",
+      "bytes": 1888288,
+      "raw_sha256": "10457ef01ca79cb4c685c8ab157cf15c5985fffd48fcb00209bfd906b2c8d518",
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8"
+    },
+    {
+      "name": "recovery-000-original-H-residual",
+      "file": "recovery-000-original-H-residual.f64le",
+      "bytes": 1888288,
+      "raw_sha256": "14810f378fc23e2ee50accd8fe443678b76547760ea79c6011c9b34cfd64d6d8",
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8"
+    },
+    {
+      "name": "recovery-000-local-mismatch",
+      "file": "recovery-000-local-mismatch.f64le",
+      "bytes": 35176,
+      "raw_sha256": "b78160bb1a1478b9f43dc74a6ef6e87cbbf656871e9586844d04953ab83a870b",
+      "shape": [
+        4397
+      ],
+      "dtype": "<f8"
+    },
+    {
+      "name": "recovery-000-rhs",
+      "file": "recovery-000-rhs.f64le",
+      "bytes": 1888288,
+      "raw_sha256": "f5aa330bad68a493489606aa4da09598da8c9b2b6e6d4ce6fa28b5b31332b104",
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8"
+    },
+    {
+      "name": "recovery-000-rhs-embedding-error",
+      "file": "recovery-000-rhs-embedding-error.f64le",
+      "bytes": 35176,
+      "raw_sha256": "2c150bc6a472bfbcb6d257a8f0c609abe50fdcb8421c31e7c0144104bbb8488a",
+      "shape": [
+        4397
+      ],
+      "dtype": "<f8"
+    }
+  ],
+  "root_array_count": 14,
+  "root_array_bytes": 166244832,
+  "factor_arrays_exported": false,
+  "no_local_RHS_ODE_J_norm_optimization": true
+}

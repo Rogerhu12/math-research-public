@@ -391,3 +391,10 @@ v3独立20153B/f80608b3…全文读并AST核，保原v1 PIN七件；明确标量
 ### 2026-11-14 18:49 UTC：actual46补全42内部工作行与缩放
 
 公开43628475946/job132549570796/source e19cc023… v3真实completed，34482B摘要SHA350b9a95…、七原SHA全匹配，完整选定metadata7098B只artifact。42实际止于32工作行/34basis/33H、123.9119s；末未修复全stationarity1.11086e−8但1668负slack/min−30.72964418，内部radial .007891269496944752后才全可行；修复后r992702非QR逆错误证据。完整6968B结论note已保存，未独审全部42大阵，无科学重算。45实际完整凝聚/恢复/QP已执行且同f胜C，真实trial/新warm正在读取。
+
+
+### 2026-11-14 18:56 UTC：actual45完整QP及真实mid482限制
+
+完整actual45 note16485B/44949a49…保存：R270真216front/256局部逆/一次原H恢复，完整同f43.8582164<C44.2768871，最终24576 slack全非负、原stationarity2.83518e−6、raw gap2.84e−14非严格包络；局部/全局radial均仅浮点级缩短。原H恢复残差5.83373e−10、local mismatch2.40613e−17，不冒factor未导出全审。原试步α1/32固定merit真降.0259467265；最近1/4、1/8、1/16仅mid482拒且既有12query全正，故下一只加mid482完整2048角/全node483依赖。
+
+新warm8ce98e5b…/status70be19b6…/实际FD7.0915952e−10；col仍.007110255989/BC7.68628e−8，非BVP/native。唯一ZIP实际核319064633B/a08478e3…，111B NPZ708数组/58condensedNPZ38全数组/observer与38源核完；另14root raw166244832B全核，两小audit随note存。无本地科学计算；新13query独立源由amplitude续写，47原native4A探针/精确三action并行接入。H压缩去旧重复，原结论全在历史和notes。
