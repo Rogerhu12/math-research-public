@@ -443,3 +443,5 @@ root全文核27261B frame_independent_height.py（SHAd7c52dd8…）及6379B说�
 - 2026-11-14 16:57 UTC，Astra-new-mechanism-9974ea84：共享/tmp满使部署stage与随后pull写ref失败，未误称已部署。暂停本会话写入后迁移自有公开/私有工作树至/dev/shm，源/副本/稳定路径三次inventory的所有文件hash/type相同；仅删除已核自有旧副本。失败pull下载提交9186abd6的双README差异已核空，恢复正常提交与实际pull/push。
 
 - 2026-11-14 17:00 UTC，Astra-new-mechanism-9974ea84：R62完整证明经root/source交叉核并发布。固定h,d=hω−k时，完整二阶常态算子Rk=(k²−1)A+kB，故k与−1/k给准确相反方向，±1两整圈即可零bulk；四(h,d)的八圈仍有八维满秩方向，保真实桥的有限N IFT。完整第四RHS准确为−Rk(W,W)+2Rk(φ,U)+Jk(f,φ)，明确保Yd及第三mixed恢复；无桥±1等时段仅逆掉全部history系统，尚余T(J++J−)。真实桥可耦合大历史，不能从低阶成本O1推高阶O1；未支付第四range或厚度。 新数值输入保持不变；两lane run43618467921/sourcebccf1787已实际启动。16:58按此提交读larger-amplitude/exact-nearby公开H，仍无完整可借用达标族。部署push非快进已立即rebase/双README空差并重推成功。
+
+- 2026-11-14 17:01 UTC，Astra-new-mechanism-9974ea84：完成R63直接位置的C²分类。C²准确g=ds²+a²dθ²且Tz在整个连通带恒零时，混合导数迫Ts=0及a′=−νk0(θ)。非恒定k0只能给同一非圆直柱；恒定k0=m∈Z非零给固定中心m重圆及a′²/m²+z′²=1，嵌入截面时|m|=1。零速度与换号均保留，无高阶Taylor假设；非圆到圆的准确连接必须某处Tz非零。当前72个空间角场列保留，不排一般非水平/近似解。 不改变正在实际运行的167维首轮；没有将采样Tz小改称准确恒零。

@@ -127,3 +127,5 @@
 - [R61：径向斜率和中心速度联合投影与局部重构](results/R61-joint-radius-slope-center-projection-and-local-reconstruction.md) — 固定T/Tt/a时，q=a(f0+xf1+yf2)，真实L2投影给rho=n−h^T G^+h及operator下界a√rho，含全部退化Gram分支。消F还需全角|Q+xP+y ez|²=a^−2；在正定径向区间，S>0、全角恒长、S′=−2xS与明确正则性准确等价局部重构。冻结g时放开a′只是必要松弛，采样截秩不授严格排除；端口/闭面/厚度仍欠。
 
 - [R62：互反常态、逆历史与完整第四局部漂移](results/R62-reciprocal-constant-states-and-fourth-local-drift.md) — 固定h,d=hω−k时，完整二阶常态算子Rk=(k²−1)A+kB，故k与−1/k给准确相反方向，±1两整圈即可零bulk；四(h,d)的八圈仍有八维满秩方向，保真实桥的有限N IFT。完整第四RHS准确为−Rk(W,W)+2Rk(φ,U)+Jk(f,φ)，明确保Yd及第三mixed恢复；无桥±1等时段仅逆掉全部history系统，尚余T(J++J−)。真实桥可耦合大历史，不能从低阶成本O1推高阶O1；未支付第四range或厚度。
+
+- [R63：水平角切向的准确C²条带分类](results/R63-horizontal-angular-tangent-C2-strip-classification.md) — C²准确g=ds²+a²dθ²且Tz在整个连通带恒零时，混合导数迫Ts=0及a′=−νk0(θ)。非恒定k0只能给同一非圆直柱；恒定k0=m∈Z非零给固定中心m重圆及a′²/m²+z′²=1，嵌入截面时|m|=1。零速度与换号均保留，无高阶Taylor假设；非圆到圆的准确连接必须某处Tz非零。当前72个空间角场列保留，不排一般非水平/近似解。
