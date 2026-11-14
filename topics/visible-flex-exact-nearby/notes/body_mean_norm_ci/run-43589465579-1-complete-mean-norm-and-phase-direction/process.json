@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete_mean_norm_and_phase_direction_consumer_process_v2",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43589465579",
   "run_attempt": "1",
@@ -46,9 +46,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:20:15.719604+00:00",
+      "before": "389caef03f9f55d8c88bb7df8509b6c7c199e6bf",
+      "after": "3e857be62e431a4ead4b322b67cf9a79f99b77df",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T11:20:15.482239+00:00",
+      "final": false,
+      "commit": "3e857be62e431a4ead4b322b67cf9a79f99b77df"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -78,11 +92,17 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "389caef03f9f55d8c88bb7df8509b6c7c199e6bf",
+  "last_read_commit": "3e857be62e431a4ead4b322b67cf9a79f99b77df",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-body-mean-norm-work/science",
-  "snapshot_utc": "2026-11-14T11:20:14.054629+00:00",
-  "wall_seconds": 6.497938540999996,
+  "snapshot_utc": "2026-11-14T11:20:15.729347+00:00",
+  "wall_seconds": 8.172657657999999,
   "native_files": [
+    {
+      "logical_file": "evidence/complete-mean-norm-summary.json",
+      "file": "evidence/complete-mean-norm-summary.json",
+      "bytes": 38435,
+      "sha256": "9a3d38dd53309dbd883174a86224e1ca04fe12b952f7384f48e369424b9b08b0"
+    },
     {
       "logical_file": "evidence/original-complete-body-process.json",
       "file": "evidence/original-complete-body-process.json",
@@ -95,5 +115,9 @@
       "bytes": 9881,
       "sha256": "bd69c985ddaad53152867538980cb59ca28f4c6d27e27b30a6f9dd7137baad99"
     }
-  ]
+  ],
+  "complete_native_sha256": "bd69c985ddaad53152867538980cb59ca28f4c6d27e27b30a6f9dd7137baad99",
+  "exact_mean_completion_to_explicit_phase_direction_bound_paid": true,
+  "actual_gates": 10,
+  "finished_utc": "2026-11-14T11:20:15.485380+00:00"
 }
