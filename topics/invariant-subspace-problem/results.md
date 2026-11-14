@@ -107,3 +107,7 @@
 ### R297 附录：有限次数Bernoulli共同度量与完整Schur预算
 
 [完整系数空间证明](notes/2026-11-14-bounded-degree-bernoulli-comparison-and-common-schur-phase-budget-789f.md)在次数≤k的平方自由多项式空间中证明降次移位||Aδ||≤√k||δ||，与逐位方差对角共同给Bernoulli p_i(t)对参考t的维数无关双边范数比较。实际ρ上下界与任意正积分权相乘后得显式αK0≤Kz≤βK0；完整同一nuisance空间取infimum使Schur继承比较，未错误比较单独回归项。满足真实等权H0=L0=B,Q0=2B,C0=0的模型于是有κ=(2Θ²+3Θ)²。固定k中央区对任意Q统一，且|zi−1|≤η/k、kS和D有界时常数连k也无关；更高物理来源的具体识别继续。原31h0四缓存与原发布记录另已完整补存，无数学重跑。
+
+### R297 附录：主池缺额的全部出生真实特征与完整硬回归
+
+[完整来源识别](notes/2026-11-14-deficient-main-pool-all-birth-feature-grams-and-full-hard-regression-789f-next.md)对主池q0=Q−2d、外部Q实际位，精确给低源ker∂³∩P_(d+1)、硬源ker∂∩P_d，维数分别C(Q,d+1)−C(Q,d−2)、C(Q,d)−C(Q,d−1)。逐subset物理系数和Beta积分保共同系数c=(q0+1)Z_F/∏zi；ψ=∂φ−2φ的完整硬Gram回归给R=C*M⁻¹C、真中层MP Gram G=(B−R)/4。顶层D²/2真实逆由补集容斥直接证明，给带反射φ(1−X)的L；所有端点可积和完整原次序J=HG⁻¹L−2G−R均已付。等权H0=L0=2G0/R0=0，q0=0保原整个偶段而非辅助扩展。高出生的实际共同Schur现在可接已成次数比较，尚不把d0的全外场界直接外推。
