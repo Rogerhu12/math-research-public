@@ -1,0 +1,459 @@
+{
+  "scope": "Strict original raw restore and original nonlinear prefix attempt at the genuinely audited current H; resource-stopped, not final solver rejection or acceptance.",
+  "actual_start": "2026-11-14T09:40:45.660838+00:00",
+  "actual_finish": "2026-11-14T09:52:14.918292+00:00",
+  "actual_wait4_exit": -15,
+  "outer_exit": 143,
+  "wall_seconds": 689.2689766879994,
+  "peak_rss_kib": 437888,
+  "source": {
+    "file": "computations/strong_20261114_current_H_actual_restart.py",
+    "sha256": "525960f92f82deb157e8256096416b49ad9f5d1f692b4d671dd6abbd36e3b7c2"
+  },
+  "explicit_stop_reason": "Shared filesystem bavail reached0; exact_closure reported actual ENOSPC while writing its completed result package. Stop only own supervisor via own stop file to release J/QR.",
+  "new_prefix_accepted": false,
+  "new_inner_update_accepted": false,
+  "original_backtracking_exhausted": false,
+  "new_outer_linearization_at_complete_current_H": true,
+  "same_physical_target_as_r4": true,
+  "execution_settings": {
+    "radial_workers": 1,
+    "collocation_batch_size": 6,
+    "radial_batch_size": 24,
+    "point_cache_limit": 4,
+    "prefix_cache_MiB": 64,
+    "production_angular": 1280
+  },
+  "original_complete_matrix_bytes": 460075656,
+  "original_complete_factor_bytes": 851514112,
+  "all_retained_native_files": "/workspace/scratch/ffc1334c1988/strong-work/margin325-half-r6-recovery/index.json",
+  "events": [
+    {
+      "event": "same_H_tail_recovery_guard_passed",
+      "file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/new/loop-margin325-half-r4-iter6-Haudit-r1-response_0001.json.gz",
+      "sha256": "68a0151dfa495bb92a4282c01b40aa3014b120054b2b7fa198698b8294907519",
+      "prior_status": null,
+      "prior_iteration": null,
+      "physical_and_numerical_tail_parameters_identical": true,
+      "complete_states_and_raw_states_preserved": true,
+      "complete_H_must_equal_first_live_request": true,
+      "warm_only": true,
+      "prior_state_not_accepted": false,
+      "prior_tail_audited": true,
+      "does_not_accept_prefix": true,
+      "original_nonlinear_full_jacobian_and_final_audit_required": true,
+      "complete_first_H_bitwise_equal": true
+    },
+    {
+      "event": "exact_audited_tail_dispatch",
+      "kind": "saved-exact-audited-H",
+      "call": 1,
+      "audit": false,
+      "packet": "new/loop-margin325-half-actual-r6-tail-response_0001.json.gz",
+      "exact_saved_H": true,
+      "live_client_started": false
+    },
+    {
+      "event": "prefix_cache_identity",
+      "seconds": 4.264338439999847,
+      "identity_sha256": "d7b2573e96036449682890cff9d77ee571d7da1a16c84edd830ae301638b1c80",
+      "directory": "/workspace/scratch/ffc1334c1988/strong-work/loop-margin325-half-actual-r6-prefix-cache/d7b2573e96036449682890cff9d77ee571d7da1a16c84edd830ae301638b1c80",
+      "existing_total_bytes": 0,
+      "budget_bytes": 67108864,
+      "original_all_mathematical_gates_unchanged": true
+    },
+    {
+      "event": "actual_iterate_checkpoint_saved",
+      "phase": "newton-entry",
+      "call": 1,
+      "iteration": 0,
+      "file": "new/loop-margin325-half-actual-r6-iterate-0001.json.gz",
+      "sha256": "a0f713fc40e35f7c04f32402d2551cd04d9527f0da578b585736652632c116a8",
+      "nodes": 2590,
+      "solver_success": false,
+      "physical_surface": false,
+      "unique_immutable_manifest": true,
+      "complete_piece_readback_passed": true,
+      "actual_coupled_acceptance_pending": true
+    },
+    {
+      "event": "newton_iteration",
+      "call": 1,
+      "iteration": 0,
+      "nodes": 2590,
+      "factors": 0,
+      "updates": 0,
+      "collocation_scaled_max": 0.05636162731588159,
+      "boundary_max": 2.3805600785076209e-07,
+      "before_gc_memory": {
+        "peak_rss_kib": 204148,
+        "rss_kib": 170496
+      },
+      "collected_unreachable_objects": 149,
+      "peak_rss_kib": 204148,
+      "rss_kib": 170496
+    },
+    {
+      "event": "disk_jacobian_complete",
+      "elapsed_seconds": 580.6101728370013,
+      "phase": "assembling-original-pointwise-state-and-parameter-Jacobian",
+      "stored_matrix_bytes": 460075656,
+      "prefix": {
+        "pid": 5,
+        "PPid": 4,
+        "VmHWM": 437888,
+        "VmRSS": 394996,
+        "Threads": 2
+      },
+      "direct_owned_children": [],
+      "prefix_user_seconds": 377.399831,
+      "prefix_system_seconds": 11.468319,
+      "prefix_peak_rss_kib": 437888
+    },
+    {
+      "event": "disk_factor_complete",
+      "elapsed_seconds": 588.3180443540004,
+      "phase": "factorizing-disk-block-jacobian",
+      "seconds": 7.7069454779993976,
+      "complete_matrix_infinity_norm": 1648724.9262565935,
+      "factor_storage_bytes": 851514112,
+      "stored_matrix_bytes": 460075656,
+      "prefix": {
+        "pid": 5,
+        "PPid": 4,
+        "VmHWM": 437888,
+        "VmRSS": 398712,
+        "Threads": 2
+      },
+      "direct_owned_children": [],
+      "prefix_user_seconds": 382.365079,
+      "prefix_system_seconds": 13.818756,
+      "prefix_peak_rss_kib": 437888
+    },
+    {
+      "event": "disk_linear_solve_checked",
+      "elapsed_seconds": 592.1373025030007,
+      "phase": "solving-disk-QR-and-streaming-backward-check",
+      "rhs_count": 1,
+      "checks": [
+        {
+          "column": 0,
+          "residual_infinity": 1.8104635739335105e-16,
+          "rhs_infinity": 0.00010377088689600411,
+          "solution_infinity": 1055495.3172695513,
+          "numerical_normwise_backward_error": 1.040363906124056e-28
+        }
+      ],
+      "worst_numerical_backward_error": 1.040363906124056e-28,
+      "tolerance": 5e-11,
+      "passed": true,
+      "seconds": 3.8183777869999176,
+      "prefix": {
+        "pid": 5,
+        "PPid": 4,
+        "VmHWM": 437888,
+        "VmRSS": 399088,
+        "Threads": 2
+      },
+      "direct_owned_children": [],
+      "prefix_user_seconds": 383.269456,
+      "prefix_system_seconds": 15.49733,
+      "prefix_peak_rss_kib": 437888
+    },
+    {
+      "event": "newton_merit",
+      "iteration": 0,
+      "merit": 0.7684861058720499,
+      "step_max": 1055495.3172695513,
+      "peak_rss_kib": 437888,
+      "rss_kib": 399092
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 0,
+      "alpha": 1.0,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 437888,
+        "rss_kib": 399124
+      },
+      "collected_unreachable_objects": 135,
+      "peak_rss_kib": 437888,
+      "rss_kib": 399124
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 0,
+      "alpha": 0.5,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 437888,
+        "rss_kib": 399124
+      },
+      "collected_unreachable_objects": 82,
+      "peak_rss_kib": 437888,
+      "rss_kib": 399124
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 0,
+      "alpha": 0.25,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 437888,
+        "rss_kib": 399124
+      },
+      "collected_unreachable_objects": 50,
+      "peak_rss_kib": 437888,
+      "rss_kib": 399124
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 0,
+      "alpha": 0.125,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 437888,
+        "rss_kib": 399128
+      },
+      "collected_unreachable_objects": 50,
+      "peak_rss_kib": 437888,
+      "rss_kib": 399128
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 0,
+      "alpha": 0.0625,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 437888,
+        "rss_kib": 399128
+      },
+      "collected_unreachable_objects": 50,
+      "peak_rss_kib": 437888,
+      "rss_kib": 399128
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 0,
+      "alpha": 0.03125,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 437888,
+        "rss_kib": 399128
+      },
+      "collected_unreachable_objects": 50,
+      "peak_rss_kib": 437888,
+      "rss_kib": 399128
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 0,
+      "alpha": 0.015625,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 437888,
+        "rss_kib": 399128
+      },
+      "collected_unreachable_objects": 50,
+      "peak_rss_kib": 437888,
+      "rss_kib": 399128
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 0,
+      "alpha": 0.0078125,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 437888,
+        "rss_kib": 399128
+      },
+      "collected_unreachable_objects": 50,
+      "peak_rss_kib": 437888,
+      "rss_kib": 301708
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 0,
+      "alpha": 0.00390625,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 437888,
+        "rss_kib": 321444
+      },
+      "collected_unreachable_objects": 50,
+      "peak_rss_kib": 437888,
+      "rss_kib": 321444
+    },
+    {
+      "event": "disk_linear_solve_checked",
+      "elapsed_seconds": 661.5975267719987,
+      "phase": "solving-disk-QR-and-streaming-backward-check",
+      "rhs_count": 1,
+      "checks": [
+        {
+          "column": 0,
+          "residual_infinity": 2.0048306361531787e-16,
+          "rhs_infinity": 0.00010357921643800111,
+          "solution_infinity": 1037199.0484513231,
+          "numerical_normwise_backward_error": 1.1723772347027304e-28
+        }
+      ],
+      "worst_numerical_backward_error": 1.1723772347027304e-28,
+      "tolerance": 5e-11,
+      "passed": true,
+      "seconds": 3.8288903959983145,
+      "prefix": {
+        "pid": 5,
+        "PPid": 4,
+        "VmHWM": 437888,
+        "VmRSS": 320508,
+        "Threads": 2
+      },
+      "direct_owned_children": [],
+      "prefix_user_seconds": 445.492888,
+      "prefix_system_seconds": 20.511946000000002,
+      "prefix_peak_rss_kib": 437888
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 0,
+      "alpha": 0.001953125,
+      "status": "evaluated",
+      "merit": 0.7991701804486844,
+      "old_merit": 0.7684861058720499,
+      "armijo": false,
+      "before_gc_memory": {
+        "peak_rss_kib": 437888,
+        "rss_kib": 320508
+      },
+      "collected_unreachable_objects": 50,
+      "peak_rss_kib": 437888,
+      "rss_kib": 320508
+    },
+    {
+      "event": "explicit_stop_file_received",
+      "file": "/workspace/scratch/ffc1334c1988/strong-work/loop-margin325-half-actual-r6.stop",
+      "owned_child_pid": 5,
+      "utc": "2026-11-14T09:52:14.417451+00:00"
+    },
+    {
+      "event": "durable_child_exit",
+      "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+      "task_prefix": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/new/loop-margin325-half-actual-r6",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "computations/strong_20261114_page_bounded_entry.py",
+        "--arena-write-chunk-MiB",
+        "32",
+        "--arena-page-record",
+        "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/new/loop-margin325-half-actual-r6-page-advice.json",
+        "--radial-workers",
+        "1",
+        "--parallel-run-record",
+        "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/new/loop-margin325-half-actual-r6-parallel.json",
+        "--target-entry",
+        "computations/strong_20261114_current_H_actual_restart.py",
+        "--actual-reference",
+        "notes/2026-11-13-strong-q126-m32-fixed-view-r1.json.gz",
+        "--actual-reference-raw",
+        "notes/2026-11-13-strong-q126-m32-fixed-view-r1-raw-collocation.json.gz",
+        "--actual-reference-tail",
+        "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0003.json.gz",
+        "--target-core",
+        "0.13100362326365164",
+        "-0.009756552462686113",
+        "-0.0006807511230293014",
+        "--frozen-reference-ready",
+        "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+        "--frozen-calibration-ledger",
+        "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--source-topic",
+        "/workspace/scratch/ffc1334c1988/source-dependencies/topics/visible-flexible-closed-surface",
+        "--port",
+        "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+        "--tail-config",
+        "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json",
+        "--out-prefix",
+        "new/loop-margin325-half-actual-r6",
+        "--radial-batch-size",
+        "24",
+        "--collocation-batch-size",
+        "6",
+        "--point-cache-limit",
+        "4",
+        "--node-heap",
+        "768",
+        "--node-young-semi-space",
+        "16",
+        "--max-nodes",
+        "6000",
+        "--stage-cache-directory",
+        "/workspace/scratch/ffc1334c1988/strong-work/full-tangent-stage-cache",
+        "--prefix-cache-directory",
+        "/workspace/scratch/ffc1334c1988/strong-work/loop-margin325-half-actual-r6-prefix-cache",
+        "--prefix-cache-budget-MiB",
+        "64",
+        "--disk-temporary-parent",
+        "/workspace/scratch/ffc1334c1988/strong-work",
+        "--response-data",
+        "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-14-strong-resume-thirteen-control-response-r1.json",
+        "--neutral-control-step",
+        "loop_curvature=-0.047418056928727685",
+        "--neutral-control-step",
+        "loop_radius=-0.005469073052230063",
+        "--neutral-control-step",
+        "loop_speed=9.189888687505218e-05",
+        "--neutral-control-step",
+        "terminal_peak_fraction=-0.015000000010230226",
+        "--neutral-control-step",
+        "vu=-0.003914359176663998",
+        "--neutral-control-step",
+        "descending_turn_curvature=-0.07974671874183538",
+        "--neutral-control-step",
+        "start_acceleration=-0.075",
+        "--neutral-control-step",
+        "initial_speed_frontload=0.06244426044418421",
+        "--neutral-control-step",
+        "vd=-0.0019023395651308168",
+        "--neutral-control-step",
+        "descending_sync_curvature=0.25",
+        "--tail-warm-checkpoint",
+        "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/new/loop-margin325-half-r4-iter6-Haudit-r1-response_0001.json.gz",
+        "--initial-audited-tail-packet",
+        "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/new/loop-margin325-half-r4-iter6-Haudit-r1-response_0001.json.gz",
+        "--initial-audited-tail-ready",
+        "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/new/loop-margin325-half-r4-iter6-Haudit-r1-ready.json",
+        "--release-tail-worker-between-responses",
+        "--resume-actual-iterate",
+        "/workspace/scratch/ffc1334c1988/strong-work/r4-immutable-iterate-recovery/loop-margin325-half-actual-r4-iterate-0006/loop-margin325-half-actual-r4-iterate-0006.json.gz",
+        "--resume-tail-config",
+        "/workspace/scratch/ffc1334c1988/strong-work/r4-immutable-iterate-recovery/loop-margin325-half-actual-r4-iterate-0006/loop-margin325-half-actual-r4-config.json"
+      ],
+      "started_utc": "2026-11-14T09:40:45.660838+00:00",
+      "finished_utc": "2026-11-14T09:52:14.918292+00:00",
+      "wall_seconds": 689.2689766879994,
+      "exitcode": -15,
+      "termination_signal": 15,
+      "wait4_observed": true,
+      "wait_status": 15,
+      "peak_rss_kib": 437888,
+      "user_seconds": 465.977771,
+      "system_seconds": 23.244366,
+      "resource_wrapper_sha256": "f8e30202f9f92dfb5911da2487c0ecc293eed4a189e98301be58af13aa1c0fcb",
+      "received_supervisor_signals": [
+        {
+          "signal": 15,
+          "utc": "2026-11-14T09:52:14.417121+00:00",
+          "target_owned_child": 5,
+          "forwarded": true
+        }
+      ],
+      "owned_child_pid": 5,
+      "supervisor_pid": 4,
+      "supervisor_pid_namespace": "pid:[4026532387]",
+      "automatic_restarts": 0
+    }
+  ]
+}

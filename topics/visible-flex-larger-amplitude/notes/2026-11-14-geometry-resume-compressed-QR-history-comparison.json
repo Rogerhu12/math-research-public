@@ -1,0 +1,42 @@
+{
+  "scope": "Compare every original/compressed stored array and actual Newton solution.",
+  "all_stored_arrays_bitwise_equal": true,
+  "stored_array_checks": {
+    "0/L": true,
+    "0/R": true,
+    "0/LU": true,
+    "0/piv": true,
+    "0/T": true,
+    "1/L": true,
+    "1/R": true,
+    "1/LU": true,
+    "1/piv": true,
+    "1/T": true
+  },
+  "complete_newton_solution_bitwise_equal": true,
+  "original_vs_compressed_max": 0.0,
+  "compressed_residual_max": 8.604228440844963e-16,
+  "compressed_vs_direct_max": 6.493503651450183e-15,
+  "rhs_max": 0.19412449900621737,
+  "uncompressed_bytes": 5387116,
+  "compressed_bytes": 5195438,
+  "ratio": 0.9644191808752587,
+  "M": 96,
+  "N": 1024,
+  "n": 290,
+  "stations": [
+    0.9882857142857143,
+    0.9891428571428571,
+    0.99
+  ],
+  "source_hashes": {
+    "geometry_20261114_separated_qr_bvp.py": "c76bde190ff67a9e148d230c8e5e7d7a7899324c055e67faac6679b8fba10e39",
+    "geometry_20261114_separated_qr_compressed.py": "d6c68f0bc46b8c3a5e2c4bfca4dc2a6d6464551b13009cab452c99606c91e1eb",
+    "geometry_20261114_compressed_qr_compare.py": "45e53caa20f19dee0f4b9048bff9a5c4f2e2758647a8376fa187fc81c3fad96b"
+  },
+  "input_hashes": {
+    "geometry-work/scaled-sphere-M96-continue099-r1-actual-newton-checkpoint.json.gz": "e57dd148f64ce9e576227c478e0786e17d842726b84e9a251b0a6d3ba413ff39",
+    "geometry-work/scaled-sphere-M96-continue099-r1-profile.json": "edb00ceec0e3a559fc5d4bea21bfdbdf867d606d79ce7a31bf44b81c3361b32a",
+    "geometry-work/scaled-sphere-M96-continue099-r1-projector.json.gz": "5f8e8912032890052795c391320f83f524cbdaf817a1cbeaf8fa959554777d3c"
+  }
+}

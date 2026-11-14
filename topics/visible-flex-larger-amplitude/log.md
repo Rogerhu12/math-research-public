@@ -356,3 +356,7 @@ R244完整证明圆段紧支scalar方向在非均值DN设计系统的核；不�
 ### 2026-11-14 10:42 UTC — R245, actual q4 progress and explicit RMS-domain failure
 
 R245完整证明Hermite P=Q+ES、C²锐界、共享速度积分及完整角函数端点兼容；精确结论直接进入results。旧post43 GW35件按原SHA保存为历史材料，其f8→16二jet仍差.00177390，不冒本轮Actions或收敛。request05只跑同旧A q8空间覆盖和原节点GW相容性短诊断；q4已真剩328父对。新prefix3完整DN run43585737152在RMS域预检失败（696/331坏、1027/846坏），未到QR/tail/接受，坏点在圆warm段；主线接同核同a的频谱/角积分诊断，不盲放宽网格门。
+
+### 2026-11-14 10:48 UTC — R246 and exact post43 history preservation
+
+原geometry26件及strong90件逐SHA保存，完整证明R246明确旧.984三归一化metric分量<1e−6、直接operator<2e−6及连续浸入；旧1080s本地计算不冒本轮Actions。旧strong真H审计与R6磁盘SIGTERM失败分开保留，不复活旧分支。request05/q8实际uncovered=0、GW真实重现二jet差且有理shadow同值；request06只做同96核/同a的M/N域诊断，不重复BVP/tail。

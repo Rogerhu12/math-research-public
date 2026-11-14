@@ -1,0 +1,73 @@
+{
+  "scope": "Actual algebraic reproduction of seven original rejected complete physical trial blocks. Angular filtering is diagnostic only; no accepted new state, no numerical mode truncation in the production BVP.",
+  "source": {
+    "file": "computations/strong_20261114_captured_domain_spectrum.py",
+    "sha256": "71037a59f82a2d8d2dec51021d9b6a7a1e489806f15d919171bb87a0d0131f8c"
+  },
+  "files": [
+    {
+      "file": "diagnostic.json.gz",
+      "sha256": "43560fbda72f028ebc8955191d79c6bdd444cec843460dd9ae2af53583d6060c",
+      "bytes": 14223
+    },
+    {
+      "file": "loop-margin325-half-actual-r4-domain-0001.npz",
+      "sha256": "88f2d8f5edf9b19c2a20c01fab0560d95888e8bbdad804c46f0290f0734573bb",
+      "bytes": 25164
+    },
+    {
+      "file": "loop-margin325-half-actual-r4-domain-0005.npz",
+      "sha256": "ae879d036b1bcd3596db85986beff0cc30eca7db72907f980fe2d72481f946d2",
+      "bytes": 25176
+    },
+    {
+      "file": "loop-margin325-half-actual-r4-domain-0009.npz",
+      "sha256": "b40d077c07689dc86dcc0e8a8bbdce21efabde8b4cd368d76674f9174316ce14",
+      "bytes": 25207
+    },
+    {
+      "file": "loop-margin325-half-actual-r4-domain-0021.npz",
+      "sha256": "0c5b911fb55921cd54e03190aa92acbf3a65b11a431a0d840b8138baf406d96c",
+      "bytes": 25155
+    },
+    {
+      "file": "loop-margin325-half-actual-r4-domain-0023.npz",
+      "sha256": "d3c98e517699143ccd8cf5371c975ec86006a42be9785110b5d8a1d6ab0e72df",
+      "bytes": 25064
+    },
+    {
+      "file": "loop-margin325-half-actual-r4-domain-0035.npz",
+      "sha256": "b4131e2f7633b7dc09f835db6c65c6e1c1c8c50868a4dae54a89fe8e19ec84ec",
+      "bytes": 25154
+    },
+    {
+      "file": "loop-margin325-half-actual-r4-domain-0040.npz",
+      "sha256": "4f3ec656553ed1e3c17990ceba23d1a231e903f48287c1b7f53da8d842e2812c",
+      "bytes": 25143
+    },
+    {
+      "file": "actual-plan.json",
+      "sha256": "3075d7e729d90d8521e4cc72df2cc85d87b289c7dc2c52cc98f5d88827e353f5",
+      "bytes": 4220
+    },
+    {
+      "file": "actual-exit.json",
+      "sha256": "cbcbf4105281af94512e07cc2714a9f4b6c7bdeabc95c2288a534e3b64b95f76",
+      "bytes": 367
+    },
+    {
+      "file": "actual.log",
+      "sha256": "9e01a2ddc44ed06993b04a1d4d05c21e39dc7a21976c9a7a87fce42866d7cc38",
+      "bytes": 4409
+    },
+    {
+      "file": "portable-plan.json",
+      "sha256": "4b135077e96a94fb4aff32f707de9596d0fc5feb47975c864bea17337de90475",
+      "bytes": 3709
+    }
+  ],
+  "original_complete_domain_inputs_archived": true,
+  "BVP_Jacobians": 0,
+  "tail_workers": 0,
+  "new_prefix_accepted": false
+}

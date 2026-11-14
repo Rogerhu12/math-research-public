@@ -1,0 +1,135 @@
+{
+  "scope": "Input and arithmetic-side conditions for the completed finite-field continuous metric enclosure.",
+  "checks": [
+    {
+      "check": "complete 415 interval result",
+      "passed": true
+    },
+    {
+      "check": "input SHA exact",
+      "passed": true
+    },
+    {
+      "check": "second jets SHA exact",
+      "passed": true
+    },
+    {
+      "check": "executed source SHA exact",
+      "passed": true
+    },
+    {
+      "check": "every scalar knot is an exact binary64 mesh node",
+      "passed": true
+    },
+    {
+      "check": "nodes and second jet dimensions",
+      "passed": true
+    },
+    {
+      "check": "all six inequalities in every interval strictly positive",
+      "passed": true
+    },
+    {
+      "check": "every saved floating bound finite",
+      "passed": true
+    },
+    {
+      "check": "positive material density and scalar",
+      "passed": true
+    },
+    {
+      "check": "exact alternating Machin rational upper smaller than 355/113",
+      "passed": true
+    }
+  ],
+  "all_checks": true,
+  "machin_formula": "pi=16 arctan(1/5)-4 arctan(1/239)",
+  "pi_upper_rational": "5277328977275528/1679825970703125",
+  "angle_cover_radius_upper": "355/(113*1024)",
+  "normalized_Gram_determinant_lower": "499999/500000",
+  "minimum_positive_polynomial_margin": 1.8962168920738398e-08,
+  "worst_interval": {
+    "interval": 414,
+    "s_left": 0.983,
+    "s_right": 0.984,
+    "minimum_margin": 1.8962168920738398e-08,
+    "margins": {
+      "E_plus": {
+        "lower": 9.887161126948135e-07,
+        "bernstein_control": 8,
+        "angle_index": 221,
+        "sample_interval": [
+          9.933933874527109e-07,
+          9.93393392689245e-07
+        ],
+        "derivative_abs_upper": 7.056580891263154e-07,
+        "second_derivative_upper": 0.000533837360471839,
+        "coefficient_interval_width": 1.3701178975187677e-14
+      },
+      "E_minus": {
+        "lower": 9.889211226667828e-07,
+        "bernstein_control": 8,
+        "angle_index": 228,
+        "sample_interval": [
+          9.928952862257797e-07,
+          9.928952923990102e-07
+        ],
+        "derivative_abs_upper": 4.764794889934453e-07,
+        "second_derivative_upper": 0.000533837360471839,
+        "coefficient_interval_width": 1.3701178975187677e-14
+      },
+      "F_plus": {
+        "lower": 1.821640024015656e-07,
+        "bernstein_control": 9,
+        "angle_index": 511,
+        "sample_interval": [
+          1.90876094231602e-07,
+          1.9087609485658914e-07
+        ],
+        "derivative_abs_upper": 2.011374673140626e-07,
+        "second_derivative_upper": 0.001720075327017076,
+        "coefficient_interval_width": 1.3064927327906112e-14
+      },
+      "F_minus": {
+        "lower": 1.821640026606418e-07,
+        "bernstein_control": 9,
+        "angle_index": 1,
+        "sample_interval": [
+          1.908760944906661e-07,
+          1.908760945976824e-07
+        ],
+        "derivative_abs_upper": 2.011374673086699e-07,
+        "second_derivative_upper": 0.0017200753270180218,
+        "coefficient_interval_width": 1.3064927327897365e-14
+      },
+      "G_plus": {
+        "lower": 1.90831814149614e-08,
+        "bernstein_control": 10,
+        "angle_index": 507,
+        "sample_interval": [
+          3.5140105973066354e-08,
+          3.5140126957345406e-08
+        ],
+        "derivative_abs_upper": 1.615005358825112e-07,
+        "second_derivative_upper": 0.00330658788264683,
+        "coefficient_interval_width": 7.867982873303728e-14
+      },
+      "G_minus": {
+        "lower": 1.8962168920738398e-08,
+        "bernstein_control": 10,
+        "angle_index": 509,
+        "sample_interval": [
+          3.5154888142949446e-08,
+          3.515490934488886e-08
+        ],
+        "derivative_abs_upper": 2.062703165837377e-07,
+        "second_derivative_upper": 0.003306256975293364,
+        "coefficient_interval_width": 7.867915292319424e-14
+      }
+    }
+  },
+  "numpy_version": "2.3.5",
+  "longdouble_info": "Machine parameters for float128\n---------------------------------------------------------------\nprecision =  18   resolution = 1e-18\nmachep =    -63   eps =        1.084202172485504434e-19\nnegep =     -64   epsneg =     5.42101086242752217e-20\nminexp = -16382   tiny =       3.3621031431120935063e-4932\nmaxexp =  16384   max =        1.189731495357231765e+4932\nnexp =       15   min =        -max\nsmallest_normal = 3.3621031431120935063e-4932   smallest_subnormal = 4e-4951\n---------------------------------------------------------------\n",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "report_sha256": "93c3b3eba3405bd777b4ca16416f73c0eb57756546b81e3c5e590e176dc48dc2"
+}

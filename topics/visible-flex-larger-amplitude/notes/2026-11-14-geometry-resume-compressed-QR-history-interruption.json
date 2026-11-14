@@ -1,0 +1,42 @@
+{
+  "scope": "Explicit coordinated resource pause of the unfinished .99 BVP; no mathematical failure or accepted solution.",
+  "observed_exec_session": 70061,
+  "observed_exec_exit_code": 130,
+  "observed_control_C_sent": true,
+  "reason": "Shared disk dropped below 0.7GiB while strong R6 needed its first complete J/QR; release this task own 1.1GiB factor after preserving full iterate.",
+  "wait4_resource_record_exists": false,
+  "last_heartbeat": {
+    "task_prefix": "geometry-scaled-sphere-M96-continue099-r2",
+    "utc": "2026-11-14T09:45:45.232939+00:00",
+    "elapsed_seconds": 1926.1189989310005,
+    "status": "running-wait4-not-returned",
+    "resource_wrapper_sha256": "f8e30202f9f92dfb5911da2487c0ecc293eed4a189e98301be58af13aa1c0fcb",
+    "own_process": {
+      "owned_child_pid_in_supervisor_namespace": 6,
+      "State": "R (running)",
+      "PPid": "5",
+      "VmHWM": "334788 kB",
+      "VmRSS": "237064 kB",
+      "Threads": "1"
+    },
+    "received_signals": []
+  },
+  "log_sha256": "c400c7e5cec3c9fdd7310c45b838fe571da3355fdbd27fa8f2a889d90cd151ac",
+  "log_unchanged_for_seconds": 77.21048140525818,
+  "checkpoint": "/workspace/scratch/ffc1334c1988/geometry-work/scaled-sphere-M96-continue099-r2-actual-newton-checkpoint.json.gz",
+  "checkpoint_sha256": "c3443d8933aac33f6539e8cfa4a68e45910c437ddef182862533e611f1058859",
+  "last_accepted_collocation_max": 2.867244939680502e-08,
+  "last_accepted_boundary_max": 1.6940658945086007e-21,
+  "actual_accepted_steps_in_r2": [
+    0.0625,
+    0.25,
+    0.25
+  ],
+  "peak_RSS_observed_in_log_kib": 334788,
+  "final_wait4_peak_unknown": true,
+  "frozen_factor_recomputed_on_restart": true,
+  "released_directories": [
+    "/workspace/scratch/ffc1334c1988/geometry-work/scaled-sphere-M96-continue099-r2-qr-blocks/separated-qr-e2oltwfs"
+  ],
+  "released_file_bytes": 1097234067
+}

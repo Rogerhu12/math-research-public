@@ -1,0 +1,39 @@
+{
+  "scope": "Reproduce the actual failed explicit full-curve initial fields without a nonlinear solve or full tail call.",
+  "argv": [
+    "${PYTHON}",
+    "-u",
+    "${RUNTIME_TOPIC}/computations/geometry_20261114_full_tail_warm_probe.py",
+    "--input",
+    "${RUNTIME_TOPIC}/notes/2026-11-14-geometry-resume-scaled-sphere-M96-normal-BVP-r1.json.gz",
+    "--second-jets",
+    "${RUNTIME_TOPIC}/notes/2026-11-14-geometry-resume-M96-continuous-metric-second-jets.json.gz",
+    "--port",
+    "${RUNTIME_TOPIC}/computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+    "--damping-lengths",
+    ".15",
+    ".25",
+    ".4",
+    ".6",
+    "--angular",
+    "1024",
+    "--projection-angular",
+    "2048",
+    "--radial",
+    "41",
+    "--K",
+    "2.2",
+    "--out",
+    "${OUT_DIR}/scaled-sphere-M96-full-tail-warm-r1.json.gz"
+  ],
+  "actual_completed_exec_session": 43364,
+  "actual_exitcode": 0,
+  "source_sha256": "595b70fcdb219eb810ebff5723a41964f7d1d7082d0956085b4101539cbed8ac",
+  "input_sha256": {
+    "geometry-work/scaled-sphere-M96-normal-BVP-r1.json.gz": "3ac8c8efa20670342021487a197443f6e1b2ad60f35c7bf2864f355a06424b69",
+    "geometry-work/scaled-sphere-M96-finite-second-jets-r1.json.gz": "ea653c839655b88cb0fabf50566f8cece44057c2bf81a4cc06fffdb5d380c9f9",
+    "math-research-public/topics/visible-flex-larger-amplitude/computations/alternative-neck-provider-smallcut30-port32-r2048.json": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100"
+  },
+  "full_data_sha256": "972ea3fee4228b1a0b11b08f563daeb0bfa74be8156581cc4bd8b48a53f902db",
+  "no_new_accepted_field": true
+}

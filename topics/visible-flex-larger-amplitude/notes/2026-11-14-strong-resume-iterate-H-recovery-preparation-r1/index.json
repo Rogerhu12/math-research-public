@@ -1,0 +1,44 @@
+{
+  "scope": "Actual prepare-only read of all 32 physical H coefficients from original complete saved raw y. No Node, nonlinear tail, prefix solve, or new accepted state.",
+  "source": {
+    "file": "computations/strong_20261114_audit_iterate_H.py",
+    "sha256": "f6f8cc288cdd0d9448de56d7de052effd82b6ba085cea5bbd47b3aef9306b41c"
+  },
+  "files": [
+    {
+      "file": "r4-iter4-Haudit-prepare-r1-summary.json",
+      "sha256": "1d11b55eece95dd16ba319e1a11f07471cff9e1568d3b4044c6eea92632b7d6b",
+      "bytes": 4319
+    },
+    {
+      "file": "r4-iter4-Haudit-prepare-r1-config.json",
+      "sha256": "0e127df61d8667b897aea355b1d8e67b7f8fca55f2aa22254f7e74b53fad2ba6",
+      "bytes": 2664
+    },
+    {
+      "file": "r4-iter4-Haudit-prepare-r1-exit.json",
+      "sha256": "e0b5215a57757ffb70b72c59a37ea0c4941194cf7211041b7624dd3ee748e6a3",
+      "bytes": 1780
+    },
+    {
+      "file": "r4-iter4-Haudit-prepare-r1.log",
+      "sha256": "98d99dcd5e094bfff6558d126ef71e99c1a594a79a7017cb9625b7c850518ee5",
+      "bytes": 160
+    },
+    {
+      "file": "r4-iter4-Haudit-prepare-command.json",
+      "sha256": "182c2e0e4a1c64c124c6345c3f440728896f932bcf48ee661f2efe13b474e136",
+      "bytes": 1469
+    },
+    {
+      "file": "loop-margin325-half-r4-iter4-recovery-plan.json",
+      "sha256": "18f23a3c644cccdca9e80371a93dbc15b8827bd18a5ce2af0045642daf4ffba1",
+      "bytes": 6723
+    }
+  ],
+  "raw_iterate_recovery_index": "/workspace/scratch/ffc1334c1988/strong-work/r4-third-inner-step-recovery/index.json",
+  "large_raw_iterate_chunks_not_duplicated_here": true,
+  "original_r4_plan": "/workspace/scratch/ffc1334c1988/strong-work/loop-margin325-half-actual-r4-plan.json",
+  "actual_H_audit_not_executed": true,
+  "restoration_not_executed": true
+}
