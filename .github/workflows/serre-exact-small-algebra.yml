@@ -1,0 +1,58 @@
+name: Serre exact tame constant and derivation algebra
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R712-public-exact-algebra-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  exact_algebra:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/serre-exact-small-algebra.yml
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/*.py
+            /topics/serre-uniformity/notes/R712-public-exact-algebra-request.json
+            /topics/serre-uniformity/computations/R712-exact-small-algebra/**
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned exact symbolic algebra
+        run: python -m pip install sympy==1.14.0
+      - name: Verify the complete tame constant and total third derivation
+        continue-on-error: true
+        timeout-minutes: 3
+        run: python topics/serre-uniformity/scripts/R712_public_exact_algebra.py compute
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-exact-algebra-R712-exact-small-algebra-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-exact-algebra/R712-exact-small-algebra
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Publish actual exact algebra outputs
+        if: always()
+        continue-on-error: true
+        env:
+          SERRE_ACTIONS_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/R712_public_exact_algebra.py publish
+      - name: Require the complete exact certificate
+        if: always()
+        run: python topics/serre-uniformity/scripts/R712_public_exact_algebra.py verify
