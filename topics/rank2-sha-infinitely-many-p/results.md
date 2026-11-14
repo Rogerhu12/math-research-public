@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R447：两条原参考交域与固定十八次测试](results/R447-original-two-reference-intersection-and-fixed-degree18-tests.md)：K1四维principal格与原S/H3/H5格的交域准确二维；固定degree18整测试分别抽回H3−840bS、H5−672bS，原K0两行均为−1008bJS。矩阵det1、周期和真实rank0质量全保，未知参考导数未删。
+
 - [R448：保独立伴随的真实反射与joint principal carry](results/R448-original-retained-companion-reflection-and-joint-principal-carry.md)：完整物理三张量格付KAΦ=RYΦ且U固定，任意h(X,U)行与原输入反射均准确；联合carry整逆无精度损失。原非零域是同一第二输出条件下W/V两管，完整Γ(h_n)及第三补域仍须原算术控制。
 
 - [R446：真实三态四挠闭包与同层完整carry消元](results/R446-original-three-state-quarter-closure-and-one-layer-full-carry.md)：全特征零四挠关系付第三整残余态及两个实际核心的D8作用；三个同层单位carry经显示单位组合完整返回K0，任意W测试全保，不留奇奇余项。新E/V中央与独立U斜管仍待控制，未赋附加深域零。

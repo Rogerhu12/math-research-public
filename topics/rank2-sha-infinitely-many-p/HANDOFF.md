@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：ea1d24750b888027f08cf7dac2c49dda2adc68c3；2026-11-14 07:32:23 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：d3b46744f17963a3425d0cd7a42f5f9498035b10；2026-11-14 07:32:59 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。02776e4cd9e08c608f6c806bd1095b3d86453eb4持续执行规则、41bd74e09ab69b38abb61d66c4339a12f0fb7de5日志规则已读；只写课题log，每轮≤5行，不写/归档根LOG。
@@ -14,9 +14,9 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–446及R448已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
+R1–363、R365–448已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
 当前路径`/workspace/scratch/4fe3fb9f2a50/math-research-public`，main部分/稀疏克隆，仅检出本课题。迁入快照含旧R1–436；旧库未推R437、R438及两批完整计算已搬入并发布，旧路径只读历史。
-新库R437推480a4313c5eb、R438推76936693f5a0、R439推f7fa9bee053b9、R440推877b1b8e8ad8、R441推6419030dca0d。R443已推cc318df5e1ea、R442已推c4e6b08b575c；R445已推ccd9400debad；R444已推322f2a888bd1、R446已推b7841bc1e3a6，R448在本次登记；R447完整稿待紧接登记，R449/R450正在写。theta续原参考测试及两管；literature付R450保U的原S/参考抽回；deep付R449相对首提升与carry精确序列。R444原Padé未闭合笔记保留，其新完整首像吸收结果已登记。
+新库R437推480a4313c5eb、R438推76936693f5a0、R439推f7fa9bee053b9、R440推877b1b8e8ad8、R441推6419030dca0d。R443已推cc318df5e1ea、R442已推c4e6b08b575c；R445已推ccd9400debad；R444已推322f2a888bd1、R446已推b7841bc1e3a6，R448已推d3b46744f179；R447在本次登记，R449完整稿待接登记、R450正在写。theta续原参考测试及两管；literature付R450保U的原S/参考抽回；deep付R449相对首提升与carry精确序列。R444原Padé未闭合笔记保留，其新完整首像吸收结果已登记。
 
 ## 固定对象、完整标准与可恢复检查点
 
@@ -39,6 +39,8 @@ R445保原sigma三输入，A=Q+26c、U=Q−280c；Q=(140A+13U)/153，c=(A−U)/3
 R448将同一Φ放进完整S34⊗S18⊗S85680：Φi(y,v,u)=σ(y−v−280u)σ(y+v−8u)Ai(y+9u,v−17u)，全部交叉项零。由wholeKW与RY交换，严格Ψi=RYΦi，U固定；任意principal h(X,U)行都相同。联合一层carry为Bi(h)=λΓi(h)+ηλ²Γ1−i(h(X,κU))=λΓi|Uunit；两行整逆由(I−λ²S_U²)^−1给出，常数U用1−λ²unit、零常数部靠κ一致收敛。只在测试函数范数中断收敛，不冒称测度范数收敛。
 
 同一原非零域D_n={Xunit,Wdeep n,U−280Xdeep n}，反射是同一h_n条件下Vdeep n；h_n=1_Xunit·1_(U−280Xdeep n)X6有S_Uh_n=0，因此Bi(h_n)=λΓi(h_n)。但ΓΦ0(h_n)尚未由JS′控制，且W/V两管在Yunit不交，第三完整补域仍保。R447已给原rank0参考两条固定degree18测试；R450正给U整除degree6的原S抽回，须保真原来源、未知参考导数和所有补域。
+
+R447给K1 principal四格与原〈S,H3,H5〉的准确二维交域。固定degree18整测试h3/h5分别抽H3−840bS、H5−672bS；在G18上均积1512b，故K0两行均−1008bJS。两个rank0参考质量1−λunit，导数未知；实际E/V/O行及全部周期不删。相应完整测试矩阵det1，无新坏p。
 
 R436辅助U72全四谱及真实四质量∓1/(12096b)、原尺度log在归档；不认作T倍数或新增rank2对象。
 
