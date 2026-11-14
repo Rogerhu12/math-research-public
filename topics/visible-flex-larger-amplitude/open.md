@@ -136,3 +136,8 @@ request44只读工作已接独立receipts workflow：v2摘要84623638…保错�
 [R270凝聚库接口](notes/2026-11-14-complete-local-QP-condensation-library-interface.md)和[独立warm接口](notes/2026-11-14-complete-condensed-QP-warm-interface.md)已完整保存。原g及完整pure-global仿射列随正交消元保留；全部24576约束和外部physical/109core最优响应保留。局部可行修复后一次原H恢复，实际完整A/AT/B/Bᵀ、同f原C比较与原17非线性试步/新FD照旧；完整QP最优和BVP均未预断。600s候选、256工作行、200sweeps是新算法明确预算，无科学门变化。
 
 使用独立visible-larger-public-condensed-qp.yml和public-condensed-qp-request.json，避免与既有旧followup同路径碰撞；父42双SHA3dd623e9…/26272c6c…硬绑。全部根/逆/方向数组只保artifact，Git小manifest与原读回保身份。源码静态读毕，Actions先编译再实际执行。44已取原四级field；其42摘要七SHA均吻合但206693B超过输出界，仅错误回执有效，目标内部数值待v3只读摘取，不重科学。
+
+
+[R272原RK传播误差拆分与零参考恒等式](results/R272-native-RK-reference-and-propagation-error-split.md) 已完整证明登记：给定四个原有限A后，保存J的传播误差与local-A误差/有限RK截断严格分开；冻结零参考A²及RK4模平方、完整频率平衡H和级间输运式已证。实际四级随x/非零state改变，不直接用参考判实际谱或唯一失败层。44的原geometry显示w随级变化，2/3级geometry同而stateSHA异，下一只重放原old43/step11四级RHS-J并比较有限数组精确action，先不扩868步。45实际run43627827085已启动。
+
+[新G方向的原十试步组件](notes/2026-11-14-native-gauge-original-trial-replay-interface.md) 两源和接口全部保存；直接消费已保存G producer的完整原Q/Pi方向、1373→577限制及原cached基态，保原十alpha/guard/严格下降/首接受STOP。组件不实例化G或重新形成矩阵，未执行actual43坏δ。

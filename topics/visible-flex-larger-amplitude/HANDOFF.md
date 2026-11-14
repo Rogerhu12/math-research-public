@@ -22,7 +22,7 @@ prepare112 SHA0f94dd88…；真T112零锚已完整求解/audit/resid0，anchor e
 40全部B/H/inverse/父链已审；factor未导出、col无argmax，见actual40 note。
 42 run43623850723/source34abbdf26804307a61fa4d18139c969c1cf9c445/prefix job132535274004/art14125192919，512553339B/ZIP5a608eb40ae9f51b992111450e2a8ecdffa9fe96857813cabab2cc0563b193b5。α1固定Wr merit44.28521851182767→44.27560683679009/drop.00961167504，H同f优于C；col.00711029753183/BC7.9342e−8/新FD7.17148e−10，原node/mid/两RMS域全过仍非BVP/native。
 42父路径notes/public-actions-43623850723-1-twelvequeryqr/twelve-query-qr-warm/；warm-001.json.gz SHA3dd623e90edb97ff113bebddd09445d64b916626a8fb1821fd35e69beabdc317，driver-status.json SHA26272c6ca8e1a5ba1db2bb96cc749dca74cddc025bcd1a5a9864f149d4a16d04。原入口4b768828…/FD721f6337…/QR596356c0…；33逆仅首末小报告亲读，大阵未全审。详细note已发表2026-11-14-actual-request42-complete-QR-32-row-warm.md；内部stop/未修复/KKT/radial待只读v2摘要，不能从33calls猜stop。
-R270完整4397局部QP证明已发布；保外部physical/109core仿射响应、原g/pureglobal。45独立visible-larger-public-condensed-qp.yml/public-condensed-qp-request.json接父42双SHA；库84792d91…/QP ea93b88d…/warm5d398d3d…/FD461b0d48…。全部24576行、同f C比较、原17trial/FD；600s候选/256工作行/200sweeps，仅预算非科学门；root/array大阵只artifact。未有实际45数值。
+R270完整4397局部QP证明已发布；保外部physical/109core仿射响应、原g/pureglobal。45独立visible-larger-public-condensed-qp.yml/public-condensed-qp-request.json接父42双SHA；库84792d91…/QP ea93b88d…/warm5d398d3d…/FD461b0d48…。全部24576行、同f C比较、原17trial/FD；600s候选/256工作行/200sweeps，仅预算非科学门；root/array大阵只artifact。45 run43627827085/job132547603012已编译/核源，流程进行中。
 
 ## native实际28/41/42/43与原报告44
 
@@ -34,7 +34,7 @@ R270完整4397局部QP证明已发布；保外部physical/109core仿射响应、
 原1372 adapter fde0e039…/consumer30a467e8…/fetch41 32840361…冻结，保原504 J/完整cut/far/H/σ/577restriction；GITHUB_TOKEN仅fetch steps。
 43 run43626121246/source5c6f45fc/job132542216129/art14126695571完成，430132210B/ZIP2fd2f070…；完整结论见2026-11-14-actual-request43-node-gauge-direction-failed.md。system24a51a4e…/driver16fca40e…保869形成J+503原J/全边界/原σ。原1372全部307552 exact：7.09987830368630829e21→3.25806697778557413e21→3.76944193857401563e21，保1，最坏new519=旧43/step11/Pi112。LU0/157.807s/RSS1599696KiB不代准确；64sig longdouble形成、真实dyadic RHS另账。result.gz cf6e00345697ed8bd4a114c2d79f8625e49626d2263e83f42e7dc60e3020013e，bestδ10ed4f19…/限制62939e70…。仅小文本核，未全审大阵，0ODE/J/trial/native；geometry沿R271分析原RK逐级完整变分，不重坏求解。
 44 run43627297724/source d07eeb32…实际只读完成。42七原SHA全吻合，但summary v2到206693B超传输界，保明确failed_stage=summary-transport-size，未取得内部stop/radial；v3改只摘目标字段。stage43-step11-fields.json 26214B/d7d00de3…已取原41四field geometry/guards/stateSHA，不重科学。具体首因不再冒成功。
-旧step十trial组件已发表c3e7f43e…（py f944c877…/hook347ce7ed…）；新G trial三blob未合入：py10b3689a…/hook6d40cc9c…/接口c69f77ea…。只读原系统与G/方向、禁实例化G重形成。42/43坏δ不派trial，后继仍原十alpha/noJ/guards/严格原σ下降，首接受全state STOP。
+原step十trial组件c3e7f43e…已发表；新G trial也已保存（py10b3689a…/hook6d40cc9c…/接口c69f77ea…），只读原系统和保存G/方向，不重形成；42/43坏δ不派。原十alpha/noJ/guard/严格原σ下降，首接受全state STOP。R272完整误差拆分/冻结零参考RK4/频率平衡坐标已证登记；真实四局部J探针在实现。
 缓存路径与已审后释放记录见actual40/41 note；原artifact全保，勿重科学取缓存。
 
 ## 真正闭合、同g精化与全族：后续必须完成
@@ -44,6 +44,6 @@ R270完整4397局部QP证明已发布；保外部physical/109core仿射响应、
 shared-quintic B规范形/closed assembly/new loader/cover/held已读冻结，全部shared节点、帽高marker和完整cut保；原A.height/w/E目标g不覆写B′。新cover付R241全pair，held读全活动块/两帽盘/全D，可独立于reach完成状态。
 冻结全部scalar p*/g/尾帽/区间/t，释放全core K=k=0/T=M，同g v4维450/514；同live TailClient/predictor/FrozenProfile依次新H/J→FD→fullmain→fresh audit，scalar硬绑。699二分1397，不能抄max1200。
 R248强C²/相位全t、R241完整空间对/法锥嵌入reach、R238/254/258同场标记链含反射。R251实际四Loewner/operator仍待新场；request16仅解析接口，不重跑fixtures。无六/九jet机器门；显示N32/九相位网格<5MB、真实2305尾节点保。
-旧A幅度.063<.2，RK24/48/三mesh/2157568pairs/GW已封存；43旧commit恢复链和strongR6失败见notes，未全迁raw禁private。R238–271见results.md；R271离散RK逐级协变已完整证明登记；R259备用未调度。
+旧A幅度.063<.2，RK24/48/三mesh/2157568pairs/GW已封存；43旧commit恢复链和strongR6失败见notes，未全迁raw禁private。R238–272见results.md；R259备用未调度。
 
-规则同步记录：2026-11-14 18:39 UTC 按Rule8核公开main及双README（非本地pull）；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 bb98acead80b97854c683a5583e6f373f36853b4。
+规则同步记录：2026-11-14 18:41 UTC 按Rule8核公开main及双README（非本地pull）；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 0ab8784edce45f7dc7fcf150dd84a2a4051bdaa3。

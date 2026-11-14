@@ -367,3 +367,10 @@ R271全文12528B/f6aabf31…已读并直接入results及索引。任意完整A_i
 发布四个冻结科学源与两个接口：凝聚库84792d91…保完整原g/pure-global/全部外部条件响应；QP ea93b88d…保4397坐标和24576行；warm5d398d3d…保原C同f、完整A/AT/B/Bᵀ与原17trial；FD461b0d48…消费实际新warm。候选600s/恢复预留30s/试步90s/256工作行/200sweeps，科学门不变。父为actual42 warm3dd623e9…及status26272c6c…；本地未数值或AST，公开Actions先编译。publisher新增condensed-root/condensed-arrays artifact-only。
 
 旧public-followup工作流原已存在，故新用visible-larger-public-condensed-qp.yml及独立request避免误替旧定义/双触发。44 run43627297724已经发布原四field26214B/d7d00de3…；42七原SHA全对，但目标摘要206693B超90KB，v2明确completedFalse，不冒取回内部stop/radial。下次只读v3摘指定字段即可，不重科学或取41。终端仍不可用，Rule8小文本fallback及双README核保留；API不冒真pull。
+
+
+### 2026-11-14 18:41 UTC：R272与独立G试步组件
+
+R272完整代数直接登记results/index：原四个有限局部A给精确RK action，Jhat−Jstar只隔离已给A之后的传播误差；完整226扩展保mean两行。冻结零参考A²=−γ²(7m²−16)I、RK4模平方1−ξ⁶/72+ξ⁸/576及频率平衡H/全部跨级换算逐项证明。实际变w/非零state不在冻结参考假设，未据此诊断唯一因果。44原fields取回后已安排只原old43/step11四级localJ探针；当前无新科学结果。
+
+新G原十试步py39181B/10b3689a…、hook62615B/6d40cc9c…和接口13977B/c69f77ea…已静态读差异后保存，完整bind原28/41/G形成文件/方向/负零/577限制，原trial body603924d1…保持；不重形成G，不执行42/43坏δ。45 run43627827085/job132547603012编译/源PIN已过，独立凝聚warm流程进行中，尚无数值回执或新BVP接受。
