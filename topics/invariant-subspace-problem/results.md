@@ -91,3 +91,7 @@
 ### R297 附录：近端内峰的完整联合光滑角点
 
 [完整双参数证明](notes/2026-11-14-balanced-star-near-end-interior-smooth-corner-uniform-bound-789f-next.md)冻结真实峰score，以u=√t、r=1/(t√M)连续参数化，正实qi的同二阶矩积分延拓与完整端点恒等均已付。固定Kθ及显式两维旋转保源基导数；真实密度Gaussian尾、移动积分边界和所有均值消零使三归一Gram有统一C¹⁸界、角点一致正定。保原HG⁻¹L，u¹²r⁴J为联合光滑；已成Gaussian轴与内峰轴的点态有界仅迫零jet，双Taylor积分除去全部极点，给原相位距角点秩m−1投影O(u+r)。故任意维/组大小/趋零方差及任意相对退化速度下，充分小u,r有真实Φ≤2。倒数权给另一端；未以逐轴常数或未经支付紧性代联合预算。
+
+### R297 附录：大第二亮方向真端峰的联合衰减
+
+[完整双参数证明](notes/2026-11-14-balanced-star-large-second-bright-endpoint-corner-uniform-decay-789f-next.md)对真左端R=Σqi(1−zi)>0，取u²=R/(Qχ)、v²=Qχ/R²，准确R=(u²v²)⁻¹及S/R=ζ²/u²+χu²。保Kθ全源、指数尾及全部条件噪声，三归一Gram在角点统一正定；原u⁸v⁴J由有限乘积式具有一致C¹⁶混合导数。已成Gaussian轴只给有界，严格端峰轴给J=O(v²)；真实整数序列与正比例连续性迫全部u<8/v<6 jet为零。双Taylor严格得整个Φ≤Cv⁴≤C′(S/R²)²，常数不依组数或方差下界。结合已经付清的S/R有界分支，远端峰完整覆盖；其余窗口和内峰按各自实际阈值接合，未扩大到无界外场。
