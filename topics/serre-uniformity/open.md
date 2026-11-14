@@ -134,8 +134,12 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 
 ### R705：实际高阶Abel已经接通
 
-对全部p≥41、p≡5mod6，原c1平坦M_m的真实范数已推广至m≡2mod3、2≤m≤p−3，严格匹配下降权对C_(p+2−m)与C_(p−m−1)。端点单位使原Abel共同首阶d≤(p−2)/3，并给w=(a−1)/λ³原始前缀v(d_j)≥2−3j/(p+1)及端点等号。仍须实际首项、KS比较常数赋值、超过端点的完整控制及实际高度jet；R616 L′·L条件保留。p137147的M2和M5仅不能达到最小赋值，并未证其为零；R710拟用原z已完成证书取下一对实际权，公开执行不重解ODE。详见[R705](results/R705-actual-higher-Abel-blocks-and-uniform-order-bound.md)。
+对全部p≥41、p≡5mod6，原c1平坦M_m的真实范数已推广至m≡2mod3、2≤m≤p−3，严格匹配下降权对C_(p+2−m)与C_(p−m−1)。端点单位使原Abel共同首阶d≤(p−2)/3，并给w=(a−1)/λ³原始前缀v(d_j)≥2−3j/(p+1)及端点等号。超过端点的完整控制已由R710解决，仍须实际首项、KS比较常数赋值及实际高度jet；R616 L′·L条件保留。p137147的M2和M5仅不能达到最小赋值，并未证其为零；R710已在公开run43589720709从原z完成证书取下一对实际权，未重解ODE。详见[R705](results/R705-actual-higher-Abel-blocks-and-uniform-order-bound.md)。
 
 ### R708：局部Norm条件不能选择原C
 
 原部分q-Robert积有精确degree-q同源分布，但需(q+1)/43个真实商曲线，不能冒认为43项或一个小核。更强地，保持原Γ与τ、纯p祖先和真实c_q/c_t的共同祖先局部变形，使R701的η_p取遍F43，所有q局部输入亦可固定。继续只解这些局部/域Norm不会决定C；必须求原c_s/c_q全局坐标、真正普通单位Norm见证或原X_t主化/首矩。详见[R708](results/R708-exact-isogeny-compression-and-the-43-valued-local-norm-fiber.md)；不赋C、m、L数值。
+
+### R710：完整原Abel深盘的精确剩余零数
+
+全允许jet的平方已严格下降到未分歧域，半整数格补齐完整Tate级数边界；原粗换参全尾保留。原CM权对确定约化最低次数r，在v(a−1)>3开盘内原标量Abel零总重数恰r。137147的后两权由公开原证书精确提取得到r=3、M8赋值−7，最多两个非中心零；仍须这些实际零的进一步精度/位置及完整高度jet，进入R682归一外积时R616非消失前提保留。详见[R710](results/R710-unramified-squared-jets-and-complete-coarse-Abel-reduction.md)。
