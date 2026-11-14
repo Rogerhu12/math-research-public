@@ -8,7 +8,38 @@
   "workflow_commit": "f42ded4aac8463083fa2dc5209c16de42f0965d7",
   "worker_source_sha256": "71b203d54afc982de4ac762a7486cd99bde7acbd9ca50d7ca9c486a283c1326b",
   "started_utc": "2026-11-14T23:43:26.252807+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "new_missing_canonical_same_F_matrices_and_complete_directional_Grams",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-complete-same-F-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_same_F_directional_matrices_v2.py",
+        "--phase",
+        "range",
+        "--bits",
+        "256",
+        "--out",
+        "/__w/_temp/visible-exact-complete-same-F-output/native/complete-same-F-range-03.json.gz",
+        "--plan",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/native/complete-exact5970-same-F-disjoint-plan.json.gz",
+        "--group",
+        "3",
+        "--reference-artifact",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/reference",
+        "--frame-slice",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/frames",
+        "--arrays",
+        "/__w/_temp/visible-exact-complete-same-F-output/matrices",
+        "--profile",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/native/complete-5970-local-projectors.json.gz",
+        "--profile-process",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/evidence/original-complete-projector-process.json"
+      ],
+      "started_utc": "2026-11-14T23:44:00.512211+00:00",
+      "actual_returncode": null
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T23:43:27.645553+00:00",
@@ -113,9 +144,55 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:54:04.059809+00:00",
+      "before": "59fd1a592ddbfde4686d12384f4e581cb6ef7662",
+      "after": "2c38ad4a24edbd02d49695b89120573c0d1fe4ad",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:54:06.518291+00:00",
+      "before": "2c38ad4a24edbd02d49695b89120573c0d1fe4ad",
+      "after": "5779c2ba4ef0fca53d6e54eb090c49a94e0d3a65",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:54:08.858290+00:00",
+      "before": "5779c2ba4ef0fca53d6e54eb090c49a94e0d3a65",
+      "after": "357d2340dfc9974b4c60be0789b03edac4cb73c8",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:54:11.169251+00:00",
+      "before": "357d2340dfc9974b4c60be0789b03edac4cb73c8",
+      "after": "245fc4783d585e4db3614ad4782d254691c58df8",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:54:14.425683+00:00",
+      "before": "245fc4783d585e4db3614ad4782d254691c58df8",
+      "after": "f6e24527e9eec26617445b9451414a3c86b6cc97",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T23:44:00.510044+00:00",
+      "final": false,
+      "commit": "3989ebd5f5748f5db926378525fcf07aaa94a19f"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -154,7 +231,7 @@
   "original_failed_complete_matrix_cells": 0,
   "original_failed_source_sha256": "47d69d780b701953561df7eff0d425745577bfbaa9b4a865d8d8cf5c2f9056c6",
   "exact_F_object_and_patch_unchanged_by_correlation_aware_endpoint_gate": true,
-  "last_read_commit": "59fd1a592ddbfde4686d12384f4e581cb6ef7662",
+  "last_read_commit": "f6e24527e9eec26617445b9451414a3c86b6cc97",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-same-F-work/science",
   "exact_plan_native_sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4",
   "exact_requested_group": {
@@ -360,8 +437,8 @@
     "slice_id": 1
   },
   "original_empty_failed_range_native_sha256": "c86210e5f09e67f6551992a41fd0feeb0d876e3319deb531e100c2369957d4e3",
-  "snapshot_utc": "2026-11-14T23:43:28.779136+00:00",
-  "wall_seconds": 2.5268047140000007,
+  "snapshot_utc": "2026-11-14T23:54:04.087264+00:00",
+  "wall_seconds": 637.834941622,
   "native_files": [
     {
       "logical_file": "evidence/original-empty-range-outcome.json",
@@ -374,6 +451,12 @@
       "file": "evidence/original-empty-range-process.json",
       "bytes": 10163,
       "sha256": "6c3c695360e2ce197a745386b52fadd4ed2d035c3dcb8ac5ae0548d32abea9bf"
+    },
+    {
+      "logical_file": "native/complete-same-F-range-03.json.gz",
+      "file": "native/complete-same-F-range-03.json.gz",
+      "bytes": 172685,
+      "sha256": "a68ea051b1357085e13c0e9cb22d2a8933ef27b1b0bb2d0b3d74c3cea235daa4"
     }
   ]
 }
