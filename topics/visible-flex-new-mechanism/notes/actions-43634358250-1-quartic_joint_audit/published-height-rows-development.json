@@ -1,0 +1,52 @@
+{
+  "schema": "published-height-row-roundoff-replay-artificial-check-v1",
+  "passed": true,
+  "artificial_array_inputs_only": true,
+  "research_geometry_evaluated": false,
+  "optimizer_calls": 0,
+  "one_ulp_replay_accepted_without_changing_original_constraints": true,
+  "objective_X_uses_the_explicit_fresh_evaluation": true,
+  "published_constraint_sha256": "96ea8926b474571cae2774f01f749c3ee9cf1594137a66215a848e79e00e3f81",
+  "fresh_array_replay_sha256": "e0ed91debe539646f562dc90f37a68d7c3e5984727c7bc9b25c34df3bd634b4b",
+  "replay": {
+    "schema": "published-height-rows-fresh-array-replay-v1",
+    "published_numerical_definition_sha256": "96ea8926b474571cae2774f01f749c3ee9cf1594137a66215a848e79e00e3f81",
+    "fresh_numerical_definition_sha256": "b0112b73097618f89f2ce7981c74da7c714e664fc4d9005d96277bd3b30d1d63",
+    "published_input_X_sha256": "91b676350a4f184f796c035869b5aed4f5162a9194f6e7c1331d61797bfd9ef0",
+    "fresh_input_X_sha256": "4edcd7deab17fabd2d652953067081c29ed01690d6b274c9354d094c39698759",
+    "common_input_I_sha256": "d01f9c914592c92ca2b5206364d95fdd61ff9d5fecbac598b8842b369980ddc6",
+    "fresh_reference_X_sha256": "4edcd7deab17fabd2d652953067081c29ed01690d6b274c9354d094c39698759",
+    "fresh_reference_base_sha256": "50ff32045dacc35578c7686940544bd97030b1cc87393657e3f54f1ce6d22a57",
+    "same_mathematical_provenance_coefficients_grid_I_bounds_and_row_A": true,
+    "published_A_b_cap_intercept_target_and_definition_hash_retained_bitwise": true,
+    "fresh_X_bytes_equal_to_the_published_source_hash": false,
+    "fresh_X_bitwise_equality_is_not_required_after_same_model_validation": true,
+    "floating_row_b_max_difference": 2.220446049250313e-16,
+    "floating_cap_scalar_differences": {
+      "cap_intercept": 1.1102230246251565e-16,
+      "cap_target": 0.0
+    },
+    "original_witness_bound_max_difference": 2.220446049250313e-16,
+    "fresh_argmax_or_kind_changes_within_original_witness_tolerance": 0,
+    "replay_tolerance_definition": "64*binary64_epsilon*max(1,R,abs(cap intercept),abs(cap target),max(abs(base)),max(abs(G@c)),max(abs(old b)),max(abs(fresh b)))",
+    "binary64_epsilon": 2.220446049250313e-16,
+    "scale_evaluated": 2.0,
+    "replay_tolerance_evaluated": 2.842170943040401e-14,
+    "tolerance_is_only_for_floating_replay_not_for_optimization_feasibility": true,
+    "not_a_proven_roundoff_quadrature_or_continuous_error_bound": true,
+    "particular_CPU_kernel_or_reduction_cause_not_asserted": true,
+    "current_objective_arrays_are_separate_from_published_constraint_identity": true
+  },
+  "rejected_inputs": {
+    "non_roundoff_row_change": true,
+    "changed_sample_node": true,
+    "changed_reference_coefficient": true,
+    "changed_mathematical_provenance": true
+  },
+  "source_files_sha256": {
+    "frame_published_height_rows.py": "6b59b7650604bb8031ba0214ff31e22e37e8214d40233f53a3cdf6b0a316f3d2",
+    "frame_height_polytope.py": "6babe655e5d2ae48a54a4b2dad24685c433bd0d8ea902e231ffe0a64cd0afd8c",
+    "frame_height_polytope_audit.py": "b43189a3cfc82ca8569f6f28469946ef2ac03605c4b2bd0eecebe1385476a502",
+    "frame_height_quartic.py": "e41054263108f2070f846be77920059c210b11f3286fe88046a7d90c217dd45f"
+  }
+}
