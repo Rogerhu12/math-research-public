@@ -29,5 +29,13 @@
   "old_nf_or_graph_rebuild_requested": false,
   "finite_budget_verified": false,
   "results_destination": "topics/invariant-subspace-problem/notes/r150-high-kernel-bockstein-actions-789f/RUN_ID-ATTEMPT",
-  "root_will_publish_actual_results": true
+  "root_will_publish_actual_results": true,
+  "trigger": "push of this fixed request file, following the existing authorized public-repository Actions workflow",
+  "prior_dispatch_attempt": {
+    "source_commit": "1beaf2a34ac412180313da1737280c02290a64dc",
+    "workflow_id": 418359895,
+    "http_status": 403,
+    "reason": "Resource not accessible by personal access token",
+    "mathematical_execution_started": false
+  }
 }

@@ -1,7 +1,10 @@
 name: ISP R150 all200 high-kernel Bockstein
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - topics/invariant-subspace-problem/notes/2026-11-14-r150-high-kernel-bockstein-ci-request-789f.json
 
 permissions:
   contents: read
