@@ -839,3 +839,7 @@
 ### R150 附录：原线性块的特征零46次确定因子及最小横向逆
 
 [完整有理证明](results/R150-appendix-exact-characteristic-zero-linear-divisor-and-minimal-inverse.md)由原数据构造对称Nlin，实际双核u=(1,s,…,s¹⁰)、u′的首两行Plücker坐标为1，故多项式单位合同把全部9阶子式理想化为单一9×9主块行列式。整多项式Bareiss精确得Dlin=s⁸(s−2)²(s+6)²F+³F−³E8²，度46。原全复秩定理在每根仅降一秩，故adj无共同因子，横向逆最小分母也恰Dlin。候选h0是其24次真因子，不能以线性逆免费支付原非线性17式。
+
+### R150 附录：24次目标关系的完整基系数及原来源回放预算
+
+[实际构造与来源分析](results/R150-appendix-explicit-degree49-target-basis-coefficients-and-source-replay-bound.md)从保存的状态约化和完整向量关系形成全部1021基系数Q，最高49次、342321非零F31系数，并对1034分量逐系数核清GQ=h31T；完整压缩Q已保存。反向单位行操作可只用活跃槽回原2195来源，无需展开67860206节点树。完整无相消预算为次数≤26265、2.952×10¹¹层word工作；只是上界，不宣称实际展开已付。下一次实际相消前缀保持60秒/512MiB与checkpoint，若无下降转低次数直接lift。

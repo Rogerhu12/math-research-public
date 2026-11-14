@@ -1,0 +1,35 @@
+{
+  "format": "r150-target-gb-coefficients-run-v1",
+  "status": "completed",
+  "field": 31,
+  "stateSHA256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf",
+  "normalOperationsSHA256": "fcee9b064e96197307ef7655b4ccad15c628852792f3a103dbd88befe7c524c7",
+  "basisSHA256": "0b397a7fe10f27d9c8ec9453e654ce52c0d1499187e1cc6cb2228d3676159960",
+  "annReceiptSHA256": "1bf9203391ac472cacba9186b5789d757322e773a503682514a8ce5f040d8b18",
+  "cppSHA256": "5011a0600c650925c08ff64b98cecf4521a64881cb2a191a4847a5dd9f793dd4",
+  "runnerSHA256": "70c714f172353ec76065dd81476bc7e5ffdab0ca79eda54bdfe2331006ab3710",
+  "secondsLimit": 60,
+  "memoryMiBLimit": 512,
+  "outputs": {
+    "gb-coefficients.bin": {
+      "file": "/tmp/r150-target-gb-coefficients-789f/target-gb-coefficients.bin",
+      "bytes": 385449,
+      "sha256": "f1455f556206137719b75e3687b0fc8aac43bb55ffb4ff094001c86d410315f2"
+    },
+    "gb-coefficients.json": {
+      "file": "/tmp/r150-target-gb-coefficients-789f/target-gb-coefficients.json",
+      "bytes": 428,
+      "sha256": "f2b458965ab69cc46e7cbde334326d77a1d23673a3f52987c98e9b25c5ff4066"
+    }
+  },
+  "binarySHA256": "2ca2ed4899aa33c44574f9b5e2026ad1b73be6596daa3a7d8a42b7467180bd4c",
+  "exitCode": 0,
+  "elapsedSeconds": 0.7936676509998506,
+  "nativeStatistics": {
+    "status": "all-nine-gb-coefficients-complete",
+    "maximumCoefficientDegree": 49,
+    "nonzeroCoefficients": 342321,
+    "fullPolynomialIdentity": true,
+    "elapsedSeconds": 0.785498
+  }
+}
