@@ -222,3 +222,8 @@ run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布
 ## 2026-11-14 22:54:02 UTC：actual64完整正式结论与66最小缺项
 
 [正式note](notes/2026-11-14-actual-request64-nineteen-query-nearest-midpoint485.md)1c6a250d及原readoutf9be0a6b/primary05a26a38全文/关键原值已读，15文件与11父子事实PASS。实际1/32下降.006302954188917909，col.00710921522417158/BC3.1875470774840915e−8/FD7.082003137747323e−10；最近1/16唯一mid485失效，更远1/8虽node/mid有效却目标增加，全部RMS执行范围分开。66只增mid485，明确连续6763局部支持含零列484，原C4059/所有门保。新pair3b25ea84/037fb9ee原字节保全。65已推949d7056并实际run43650386882；64完整byte读取run43649956424 job success、细范围后读。
+
+
+## 2026-11-14 22:58:26 UTC：65初次SHA抄录失败，立即唯一字节修复重调
+
+[完整失败与重调范围](notes/2026-11-14-actual65-input-digest-typo-and-exact-retry.md)。run43650386882前置全通过，analyze 0.186秒在原binding FILE_PINS核前止；未执行原evaluate/J/QR或新科学。一个SHA漏a而仅63hex，真实原ZIP未变。source10ae→5033全文仅增该一个字节；12个原pin完整SHA核全同，原方法/门不变。partial artifact14135389448/36445B/080b7627已实际下载保全，request65 revision2换唯一source pin和前次失败来源后立即触发。

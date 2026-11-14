@@ -70,7 +70,7 @@ FILE_PINS = {
     WARM+"/condensed-QP-summary.json":
         "f5036998a69fb391b5634514bc19d5ff149c238d8bfb6e2b494abcb1164fdb53",
     WARM+"/condensed-live-model-binding.json":
-        "eae92727675563991a9da5e9bb7a6eece945434c1686e558d00b9aeb59d1c65",
+        "eae92727675563991a9da5e9bb7a6aeece945434c1686e558d00b9aeb59d1c65",
     WARM+"/condensed-array-manifest.json":
         "f65df44ab8866f3e4ab7809e9232dd19a719f5f5bc5ad4c24ee9d427e37339fe",
     WARM+"/optimization-intent.json":
