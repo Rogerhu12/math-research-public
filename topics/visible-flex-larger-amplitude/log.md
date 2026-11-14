@@ -332,3 +332,7 @@ run43582043166真T96/N1024/576stage完整variational/J/audit已exit0，805.484s�
 ### 2026-11-14 10:12 UTC — targeted push-triggered complete DN and geometry continuation
 
 题外mainline workflow增加读取既有公开request的精确lane选择；PAT手动dispatch权限403，使用正常已有push触发geometry/cardinal/coupling三lane。完整DN复用已真完成的严格零H首响应，新增原J代数读取消费及只读trace报告；新H与最终audit仍原worker。v3同一pair遍历末导出完整活动position cover（每chunk原数组预算<1MB），接真实像Hausdorff见证，不重算已完free3/zeroH。纠正上两条手填UTC标题为真实提交时间。
+
+### 2026-11-14 10:13 UTC — actual free3 continuation accepted 0.9975 before nonlinear failure
+
+run43582043166新增.996/.9975原BVP接受点，物理metric4.60534e−6/8.08662e−6未达目标；.997875真Newton688节点/RMS1.03996e−5且reduced condition5.995e7，不只初猜失败。完整62件原样归档，两个接受点及最终失败都保留，不盲加mesh门。主完整DN仍用较好.99+已备690节点warm。
