@@ -221,3 +221,5 @@
 - [R109：完整第四成本模可调响应的局部密度约简](results/R109-local-density-of-the-complete-fourth-quotient.md) — R77/R79原式给逐点n−N′∈W的真实局部势，完整composition消去累计二、三历史，保常势N(0)且仅由总矩阵0消其端项。准确V=∫(v−B_mN)−∫B_mH−(1/6)∫B_A[A,m]，后两项属R8；v须先真s微分再置累计值0。将U4/R8化为真实局部积分商，未证密度商零、完整第四/ruling或半群取负。
 
 - [R108：D25的c⁷周期与完整五历史二次action](results/R108-c7-complete-five-history-quadratic-action.md) — actual43642966285十新原式差全0，零端势Phi7=(64/5)p²B1+8p²J0移去两低history，保五真实零端坐标p/ell/zeta/mu/nu及准确ODE。完整96项14组含常数/线性/二次项，文内完整系数表；23旧history与3154项参数族保留，不重编旧forcing/34式。0.142s/RSS42.234MiB；未由此判符号或非零真实period。
+
+- [R110：c⁷真实非零第四方向与带成本的四块支付](results/R110-nonzero-a7-direction-and-real-four-block-compensation.md) — actual43643100132完整八项右尾给K=B_t1(τ_p1t1)的D25=κc7，pure−4准确κ=−153664/75，完整phase保三项及1/16。固定同一尾泛函/共同I，R101有限复制保v/E与M0 I→D连接的全部成本，可使单块a7=0；R104/R106闭合四块使D25仅余c5/c3/c1。未付其他尾层或完整第四/ruling；实际0.00805s，不是几何求解。

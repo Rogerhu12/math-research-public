@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`621fb8ee4416452fd61c6a9791b24997d40e4610`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`e59f7a5bc15f01f7dc123bde252212a8794e1879`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有21:30:00 UTC实际pull至`7c0afa98cea4f65d821cd2f6acb123ee9e6df113`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于22:29 UTC。
 
@@ -32,9 +32,9 @@ R103已给真实I/K=qII的双PSD曲率门和完整2jet导数，正则性须另�
 
 ## 4. 新B=.37备选与GC接口
 
-新B分支仍取原f198162态；旧全段抄系数actual43634358250细η67/退化失败，已改χ=1−S11局部替a/T且保外域。新g **211c1b193eeb38b50933083821b3d32ed8e7bbf6bd627aab64630dd8a6c22a5e**，不同于旧g。成套U4/V7/B6 leading actual43638423274（245.363s，人工pass，无优化）给物理 **8d9d505cacada07562d819792d8e1398638e89b680812d9702bde34a4439803a**、b0df1a2139；170×768 η1.174996/κ263.3758，仍失败。支撑外六jet与gjet准确保，帽高不变；外域镜像.01425979/strip.393509失败不受入口修复影响。完整身份/输出见notes/localized-core-leading-repair-actual-result-20261114.md。
+新B=.37仍取原f198162态，独立g **211c1b193eeb38b50933083821b3d32ed8e7bbf6bd627aab64630dd8a6c22a5e**。全段抄系数失败后χ=1−S11局部修复，leading actual43638423274给物理8d9d505cacada07562d819792d8e1398638e89b680812d9702bde34a4439803a/b0df1a2139；fineη1.174996/κ263.3758，外域镜像.01425979/strip.393509仍失败且不受entry局部修复影响，帽高/外域六jet保。详notes/localized-core-leading-repair-actual-result-20261114.md。
 
-准确局部CK/周期GW/二jet-Hermite/共同高度积分接口已纸证，见notes/analytic-GC-prefix-and-finite-collar-interface-20261114.md；未付可用前缀长度或外连接，a″<0径向特征非实不能冒稳定双曲推进。当前优先旧g全场，GC与新B保留备选。
+准确CK/周期GW/二jet-Hermite/共同积分接口见notes/analytic-GC-prefix-and-finite-collar-interface-20261114.md；未付可用长度或外连接，a″<0不能冒稳定双曲推进。当前优先旧g全场，此支保留备选。
 
 ## 5. 理论当前真实边界
 
@@ -52,10 +52,10 @@ R93/97真驱动给∫kh=0、K2=L+Elogh、K2=−∫(F/h)kρ及(S²−1)E≥L，�
 
 完整第四ruling、先前双collar、更高阶/收敛、闭嵌入与宏观厚度仍欠。
 
-R107真实A_Hd(c)=H⁻⁷A(Hc+d)，a8=0后a7正仿射不变，四块保4a7(B)；不是同号/消R8。c7原式及真实B_t1(τ_p1t1)探针正在推进。
+R107给a8=0后a7正仿射不变。R110 actual43643100132完整8项探针给K=B_t1(τ_p1t1)的D25=κc7，κ=−153664/75≠0（pure−4已除16）。固定尾查询/同I，R101保v/E及M0 I→D连接成本准确付a7，再四块使D25次数≤5；非其他尾层/完整V/ruling。
 
 ## 6. 持续推进
 
-exchange已登记，mechanism正接R103曲率λ新阶段：同g/e407，固定eta_bar167/625，lambda初值取两网κ加裕量，scale100；11组全值筛、16径向行+0/L完整二jet批导，20轮共享80major/120phys/300优化秒，最终.061目标另算。c7 actual43642966285十新差式全0、五history96项14组、0.142s/RSS42.234，R108已登记；单方向probe43643100132给κ=−153664/75非零，R110/R111保基准与奇项控制正写。literature编局部L4=v−B_mN；旧query/forcing不无目的重跑。
+exchange已登记，mechanism正接R103曲率λ新阶段：同g/e407，固定eta_bar167/625，lambda初值取两网κ加裕量，scale100；11组全值筛、16径向行+0/L完整二jet批导，20轮共享80major/120phys/300优化秒，最终.061目标另算。c7 actual43642966285十新差式全0、五history96项14组、0.142s/RSS42.234，R108已登记；单方向probe43643100132给κ=−153664/75非零，R110已登记，R111四奇项共同支付待登记。literature编局部L4=v−B_mN；旧query/forcing不无目的重跑。
 
 已完成run和完整历史在results.md/notes/git，不重跑旧quartic或已定全state P1。新计算仍只公开Actions。每个实际结果及时pull核两README、更新H/log/open并推，子题完成即接open不等阶段批准。原始来源边界见notes/literature-20261114.md；新增内蕴旋转文献的等变/主曲率假设边界见notes/intrinsic-rotation-literature-scope-20261114.md。

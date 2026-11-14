@@ -185,3 +185,5 @@
 - 2026-11-14 21:35:07 UTC，Astra-new-mechanism-9974ea84：登记exchange actual43642966285/source d891604e；新e407同g/b0/163在384/768内strip与全部物理门过，eta .266411/.267147仍远失败，κ略增73.35983。rawδ.266408457不抬，fine缺.000738075。六轮12major/13物理后轮数限，末16遗漏，不是收敛；优化仅15.623s但初始化96.095s/总127.514s、RSS3224932KiB。原raw2111864B SHA c7b6b195已压存。继续曲率λ/固定eta167/625的新目标、完整实际I二jet分批，不把局部门作全reach。
 
 - 2026-11-14 21:35:53 UTC，Astra-new-mechanism-9974ea84：登记R108与actual43642966285完整五historyc7 action。Phi7真零端、mu/nu ODE/常芽trace/逆式/完整c7/反射共十新差式全0；96项14组完整局部常数与线性均保，不由二次名义断正负。全部旧23history/3154参数族保，forcing与34旧式不重跑，0.141771324s/RSS42.234MiB。完整cert raw723127B SHA661ecc435ec80e23f75c1e566d00d0d1e025e21feaf3d57083f6d18a2d8110f7。继续已非零的真实方向及有限基准支付。
+
+- 2026-11-14 21:37:15 UTC，Astra-new-mechanism-9974ea84：登记R110及actual43643100132唯一新方向原式。完整右尾8项给pure−4 D25(K)=−153664c7/75，准确非零而非模素数号；611op/0.00805s/RSS25.113MiB。固定同一a7尾泛函和共同I，真实有限复制保E/v、同germ桥和I→D基准全部成本，以介值准确付a7，R104四块闭合后D25仅余c5/c3/c1。完整报告2179B SHA c6c2c4c886dc5f115569ab4dd36176530efcf80ed12bb83b3d19223a7a279746；其他tail/mixed/ruling及目标闭面未付。
