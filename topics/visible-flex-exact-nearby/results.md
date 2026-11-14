@@ -23,3 +23,5 @@
 - [R133真实moving切口的全部低行与高输出](results/R133-supplement-complete-moving-cut-rows-and-regular-subspace-inlet.md)：恢复真moving切口低97行及整个高输出的11门原native；独立C mean仍非零且必须连同真实帽误差支付，193×96 QR只作有限提案，未授连续主体子空间或全逆。
 
 - [R133完整帽trial的实际Hessian修正费](results/R133-supplement-actual-complete-cap-trial-Hessian-error.md)：恢复全部1341系数片/1977交片/97输入的原实际Hessian消费者；η0上EH<3.320733114e−5，moving误差≤1.003854965 εcap+3.333534423e−5。完整physical εcap仍须实际付清，旧三个−9及保存前缀保留。
+
+- [R133分片regular投影的全部jump-Green合同](results/R133-supplement-piecewise-regular-projectors-and-complete-jump-Green.md)：恢复193态分片正交投影Green条件定理：保完整状态jump的两向界面方程、projector gap、所有源/两端/mean及单侧sup。δ<1及st<1仍须后续真实计算，finite QR未被当作连续逆。
