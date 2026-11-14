@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R441：原第六矩中央行与每个固定同深域非零](../results/R441-original-sixth-moment-row-and-uniform-same-depth-nonvanishing.md)：完整X6行与原J′S相差显示单位；残余双深+cunit的首五阶单位及全尾界给每正偶深赋值5n。原Σ表示固定m=0后每四倍隐藏同深赋值7n，内部/外部补域准确区分，未据子域非零判主中央。
+
 - [R440：原单位商最大来源子格与三个核边界](../results/R440-original-unit-quotient-maximal-source-and-three-boundary-kernels.md)：H38的可乘来源准确为S倍数且p饱和，允许SQ入核的增加量恰是原像与三个指定边界之交、长度至多m+2；实际剪切及满射范围Smith型已付，不把单位乘子赋给整个C2。
 
 - [R439：原残余伴随两态核心与真实同深比较](../results/R439-original-residual-companion-two-state-core-and-exact-depth-comparison.md)：固定mod7细分及R370真锚付全7280绝对平方；原L二挠不变下降1820，显式E4平均给两态完整Q核心。偶深全返回及隐藏同深比例保真实内部补集、独立sigma和移动中心。
