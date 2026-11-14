@@ -147,3 +147,7 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 ### R711：实际整数赋值与例外二次因子的剩余输入
 
 同一原有理CM点/正商微分及完整有理换参给所有M_m/M_(p−3)∈Qp，非零端点使原jet赋值全为整数；原P经一个端点单位归一后为Zp整Tate级数。137147已有v(M2)≥0、v(M5)≥−3、v(M8)=−7，实际深盘余因子v²+Av+B0满足A、B0均在pZp、v(B0)=1+v(M2)。若能证明原M2单位，就得到Eisenstein余根赋值7/2并隔离实际v(a−1)≥4盘；当前单位未求，不能把Cp−3的单独高精度值当原M2。继续原完整Kronecker/Cartier求值桥接和真实高度，R616条件仅在归一外积使用时保留。详见[R711](results/R711-rational-CM-Abel-line-and-integral-jet-valuations.md)。
+
+### R714：原商非消失的扩大区域
+
+令 J=2^ω((p+1)/3)−2、2≤X≤√(p/2)、L_X=log(p/2)/log X、δ_X=(1+log₂L_X)/L_X。已证明 72δ_X X+48J/X≤1/2 且 √p≥1440J 时，同一原 β=q[c1−c0] 非挠、L′(g+)L(g−)≠0、A(Q)⊗Q=Fβ，实际 log 同构。新范围不要求 rad((p+1)/3) 小：固定 ω 的充分大 p 全部覆盖；更一般 J≤(log p)^(1−ε) 且 p≥exp(exp(64/ε²)) 也覆盖。全部 κ_p^m 相位和 R616 的原正负商保持，不以 L′ 的直接 Galois 作用代实际秩接口。J 超出此范围时本原非消失仍须证明；即使条件满足，原高度有限前缀及非中心零排除仍缺。完整证明见[R714](results/R714-global-visible-count-and-sublogarithmic-divisor-primitive-region.md)。

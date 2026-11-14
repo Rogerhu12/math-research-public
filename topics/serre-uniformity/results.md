@@ -107,3 +107,5 @@
 - **R710（全p定理及公开精确提取已证明）**：[全部平方jet的未分歧下降和完整粗Abel约化](results/R710-unramified-squared-jets-and-complete-coarse-Abel-reduction.md)。全允许m的M_m²在固定未分歧域，半整数赋值补齐唯一边界项；P=p^−2 I、V=z_f³/p³为整Tate级数，约化最低次数r由原CM下降权对精确给出，v(a−1)>3盘零总重数恰r。公开run43589720709只复用原z证书得到137147的后两权117309/122674，M8赋值−7、r=3、非中心零至多2；不证明这些零点或实际高度已排除。
 
 - **R711（下降与条件判据已证明）**：[原有理CM的Abel系数直线与整数jet赋值](results/R711-rational-CM-Abel-line-and-integral-jet-valuations.md)。实际正商在Q上、p在实系数域全分裂，原完整z_f³↔a−1在Q上，所有阶共用KS常数；故M_m/M_(p−3)∈Qp，端点迫使所有jet整数赋值，并结合R710得原值在固定未分歧域。P/b_*∈Zp⟨V⟩；137147余零精确为v(v²+Av+B0)，A、B0均在pZp、v(B0)=1+v(M2)。若实际M2单位，两非零根v(a−1)=7/2；此单位及真实高度未证。
+
+- **R714（扩大原本原非消失区域，已证明）**：[全体可见格点计数及次对数约数区域](results/R714-global-visible-count-and-sublogarithmic-divisor-primitive-region.md)。小半径按所有可见点合计、以 o≥log(p/2)/log X 控制 1/φ(o)，大半径保留全部原射线及其带符号整数倍；显式预算 Q≤1/2、√p≥1440J 给原 L′(g+)L(g−) 非零、A(Q)⊗Q=Fβ 及真实 log 同构。覆盖固定 ω((p+1)/3) 的全部充分大 p，以及 J≤(log p)^(1−ε)、p≥exp(exp(64/ε²))；未覆盖全部 p，亦不排除高度零点。
