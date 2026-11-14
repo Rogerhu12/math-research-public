@@ -319,3 +319,7 @@ root核小process/summary/完整26门、16行diagnostic、五整套分解与所�
 ### 2026-11-14 19:52:32 UTC — Taylor到Green279pin独推
 
 root已核source/CI差异、完整flow及全部旧pins；tail独核数学无改。connector没有dispatch入口，终端仍失联，故已授权新flow的首次push直接消费既成43633412397/1。root将manifest事件来源元数据改为实际成功event或明确核验run，并相应更新flow摘要；数学source/CI/合同未改。
+
+### 2026-11-14 19:52:36 UTC — 解析Airy五件消费者独推
+
+root读新科学/main及CI，核worker与原成功版差异、flow和25/20 pins；tail数学独核通过。首次运行前修复tensor嵌套序列化和partial幅度重复计算，数学公式不动。公开Actions自动启动，原五native SHA/字节和所有失败证据保留。

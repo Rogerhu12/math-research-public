@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 19:52:32 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 19:52:36 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权与真实同步
 
 只在 Rogerhu12/math-research-public；一切新数学只在该仓库Actions。每结论独推；非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理交小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
 本地最后成功真pull为12:34 a9c7fc8c12d3e5f43b6632ed24ebef40aced5145，12:35终端失联。root最近真pull尝试：2026-11-14 19:44:20 UTC，No usable execution environment。每小时再试；非FF即时再试。规则8暂准connector<100KB文本，先查size，任何binary/gzip禁取；新摘要≤60KB。API不冒称pull，终端恢复即回git。
-最新远端 main/两README blob 核：9b2f8c54c8ce12f714516acfd5aa66f9d18aff6f；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542。rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1；driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最新远端 main/两README blob 核：37a2ef6067dabbb810a2bbf56a94c046795f0d92；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542。rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1；driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 reviewed runner长算每10min真pull；phase child45/outer50min，前后真pull/README差异核；每次真实检查及失败/native全部保。root已亲核下列actual process的真实pull及空README diff。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，objects /tmp/visible-exact-0df9-git-objects。
 此前9769B H逐字归档 notes/2026-11-14-handoff-before-kernel-and-Taylor-actual-results.md，内有9728/9928/9806等全部更早链。完整历史SHA/失败/参数和合同见results索引、相应actual报告及manifest。**已成数学不重算，不能把publication失败当math失败。**
@@ -37,7 +37,7 @@ fullδ |δ|≤1e−8 given-head正侧负一阶图43627228225：child0/18门，na
 fullδ B1–13精确ρ15/β*/δ*见归档；43598755503原11门全|j|≥97四rootgap>1/(512|j|)有效，CE/Cs及实际充分cutoff仍欠。
 原完整root43616813816：1300行/15+6×7门/native dbaaf9f7…；forcing43624260519：1328行/14门/native54a79bf8…；negativeCauchy43621934843：792行/8门/native3a214897…；firstseam43625828234：1079接口/39门/native871aa54d…，576负/503正。旧target/ray/forcing/seam禁重算；原失败完整保。
 U1–29/B1–13/M1–19已root/tail全文核推，完整I/J顺序及mean不变。旧leading43629465215：1328 norm/native7662350a…4837715B，R.001负源<1.524430e18仍保。matrix43632464994：20pin/child0/8门/88.696749s，1328新矩阵行只复用原moment；native3c8c4f3c…7873296B在artifact14128707026，process00afd544…49990B/workerfee40be3…2751B。六R完整，R.001负源<4.564909e9、负primitive<6.919103e8；大上界不证真实norm大。root核两真pull至5b0e703d7fb6951eaf8a471c15b620378d999786、空diff；actual报告1f4fd588已推。
-A1–18解析Airy/全指数Fourier3569172d…及J1–13直接2×2角jets35025593…已独推a76cfc/638d24，root/tail全文核。原3/64条带、非交换Hinv/HD及a/b分量，完整output/mean，无额外Cauchy损。25pin消费者source439a29e2…/manifestee066de1…最终版待推；0旧matrix/target，已补recursive tensor及每case幅度checkpoint/恢复。
+A1–18解析Airy/全指数Fourier3569172d…及J1–13直接2×2角jets35025593…已独推a76cfc/638d24，root/tail全文核。原3/64条带、非交换Hinv/HD及a/b分量，完整output/mean，无额外Cauchy损。25pin消费者source439a29e2…/manifestee066de1…本次推，旧20pin零改；只新6case解析幅度/全指数尾和源积分，0旧matrix/target。root/tail核全文数学，root核recursive tensor及每case幅度先checkpoint/恢复，待actual。
 root D1–24两片L0w1证明cc6ab27a…已推2b56b3：外原third+严格h，内除真leadingbranch后复germ/Cauchy，同一w1无人工seam/新K4/5。phase正接实际完整oldproduct Wg与inverse-image gate；canonical-only sup不可转授。原closedleading43612196888 native1c00bf9f…/22门外|T|≤81/4000000、|ImX|≤1/128，原germ9e−6附近无seam。所有域/数值费用、正全mean与完整return继续。
 
 ## tail_connector：真实外侧与returned

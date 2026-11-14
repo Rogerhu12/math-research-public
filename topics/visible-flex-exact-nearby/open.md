@@ -231,3 +231,7 @@ A1–18保完整输入/输出/mean及真ray，可用同strip复sup替代旧C2符
 ### Taylor实际改善后：接同Z Green并只补真正缺点（2026-11-14 19:51:06 UTC）
 
 43633412397完整26门成功，additive降至5.884046519508e−7仍较宽。279pin Green后继仅消费新完整Hessian，保物理14项/未知operator/全97+mean+knownhigh。newton接64个原未保存的真实point-only值；旧7908 whole/7844原残差/Taylor64派生残差全保，不重复。
+
+### 已启动原matrix之后的25pin解析幅度消费（2026-11-14 19:52:36 UTC）
+
+只新付同原两分量幅度、完整指数尾和六窗源积分，已成1328matrix rows不得重做。接actual以后继续真正L0w1根内复域/严格外片、正侧独立mean及完整return；不以单个源组件变小授完整cutoff97逆。

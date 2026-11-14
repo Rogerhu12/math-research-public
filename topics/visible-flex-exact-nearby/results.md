@@ -531,3 +531,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133：实际Taylor Hessian到同Z Green的279pin后继（2026-11-14 19:52:32 UTC）
 
 [合同](notes/2026-11-14-R133-Taylor-Hessian-cached-Green-contract.md)及五件已推。root/tail比较新source与原成功270pin消费者：真实cut转换、14项完整物理费、原unknown误差operator差、independent mean/odd96/完整97/knownhigh及6391右通道正性重标定公式均保持；只换完整Taylor输入身份和元数据。279pin完整继承原270及Taylor189各pin零改。source `0412a33c1c99e91ea749269af63372b39c9b1cc8182c790f5a9681e64d29dca7`，最终manifest `1546435f370d1e8433544a02a9d2b166ee357e31a4fff02a0a3fb4a80b9ce89a`。原Taylor已完成，新增push入口准确读43633412397/1，仍必核真实成功process/child0/native科学身份；未重跑Taylor。仅新界消费，实际结果待核。
+
+### R133：25pin解析Airy源消费者（2026-11-14 19:52:36 UTC）
+
+已推 A1–18/J1–13 的实际消费者：同原3/64条带、真实逆phase宽、2×2非交换Hinv/HD角jets和独立a/b分量，完整指数Fourier尾包括mean；六个原径向窗/正侧真实collar-body切口、全部原M18–19来源、负源primitive转换保持。旧20pin逐项零改，原43632464994 native `3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b` 的1328矩阵行逐字复制，0旧coefficient/ray/target/forcing计算。最终source `439a29e2f1a3273bf9901d6a6ddfae075fb88a308d9a9e2a665cf839fc3e0dc7`，manifest `ee066de1b0328b6ede8b2a928680548065f6a8d1ad7d678f3ca515febf834e37`。root/tail核数学；root指出partialcase幅度恢复缺口后已修复，完整数值tensor独立序列化、每case成功幅度立即checkpoint，恢复只decode，原积分prefix仍保。真实数值与改进尚待公开run。
