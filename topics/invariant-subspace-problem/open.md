@@ -25,7 +25,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 **原式来源与31饱和：** [完整相关第二像](notes/2026-11-14-r150-complete-second-primary-image-seven-and-global-source-789f.md)连W维7；[H0原17模31³成本87](notes/2026-11-14-r150-h25-projector-free-original-seventeen-mod29791-cost87-789f.md)已成。新[原h0单31分母完整来源](notes/2026-11-14-r150-original-h0-full-original-one31-denominator-cost87-789f.md)也已全17乘回：AZ=31h0T模31³，九费用87/87/86/87/87/87/87/87/87。因此原h0模31²的31分母指数恰1；整数任何次数障碍仍真。七除源给rank_Q A87≥226089；继续完整31饱和及特征零像归属，不由有限模身份代char0。原143/104、投影189、∞预算及全部旧数据保H/快照。
 
-**star当前解析接口：** 固定正有界zi下，已付[抛物漂移窗](notes/2026-11-14-balanced-star-large-total-curvature-gaussian-window-contraction-789f-next.md)的|D|≤Λ√S、[有界S任意漂移](notes/2026-11-14-balanced-star-bounded-spread-endpoint-decay-and-unrestricted-drift-789f-next.md)、[固定η整个内峰类](notes/2026-11-14-balanced-star-dimension-free-interior-total-curvature-bound-789f-next.md)的统一有限κ。D=Σqi(zi−1)、S=Σqi(zi−1)²；内峰以真实总曲率M给Φ≤1+CM⁻¹/²，小M接中央。均允许任意Q/组数、single及方差趋零。继续S→∞的远端峰与t0→0/1近端内峰匹配、无界外场及一般出生；点态负指数≤3不代回归。
+**star当前解析接口：** 固定正有界权下，[抛物漂移窗](notes/2026-11-14-balanced-star-large-total-curvature-gaussian-window-contraction-789f-next.md)、[有界S全漂移](notes/2026-11-14-balanced-star-bounded-spread-endpoint-decay-and-unrestricted-drift-789f-next.md)、[固定η整个内峰](notes/2026-11-14-balanced-star-dimension-free-interior-total-curvature-bound-789f-next.md)均已付任意维统一κ。新[端峰S/R≤K0](notes/2026-11-14-balanced-star-bounded-second-bright-endpoint-uniform-decay-789f.md)付Φ≤C/R²；R为实际端点漂移。大S/R端峰、近端内峰角点待登记并接合；无界外场及一般出生仍开。
 
 ## 当前接口一：原 Haar 慢符号的正常湮灭者
 

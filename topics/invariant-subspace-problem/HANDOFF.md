@@ -3,8 +3,8 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `d137596261b12bce719069d08d5ff1f0fcbeb59a`（2026-11-14 18:29:01 UTC，Actions run43626824430/job132544481428实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **最新规则读取（GitHub API，非实际pull）：** `5303e4b3d8554caf8731e462794052cfd03f02a9`（2026-11-14 18:34:30 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** `59f862f0efe9c2e00f3b062412603add2b65bb66`（2026-11-14 18:34:44 UTC，Actions run43627371114/job132546178039实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `8c32a67455609417f9e426221a1268f791db151a`（2026-11-14 18:43:02 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -17,15 +17,13 @@
 
 ## Boolean 相位与原尾
 
-全部旧公式/证明/限制保[本次前完整H](notes/2026-11-14-handoff-before-total-curvature-789f.md)及其递归入口。一般全正权/全birth统一κ仍开；两权、六位三对、主spin及空硬源块已成，一般有硬源多边形未闭。
+全部旧公式、数据和适用边界保[最近完整H](notes/2026-11-14-handoff-before-endpoint-corner-789f.md)及递归入口。一般全正权/全birth统一κ仍开；两权、六位三对、主spin和空硬源已成。原尾birth2全height、高方差V≥2²⁰s²（原尾k≥2²³s²）已付；短旗s≈k≈q仍缺。
 
-- 原尾birth2全height已成；全birth高方差V≥2²⁰s²有κ<2、原尾k≥2²³s²适用，短旗s≈k≈q仍缺。spin–Jacobi保A_j/j/高spin指数，三spin先取同ABC系数再Schur。
-- 真star q0=Q=Σqi，h/g/ell=c(H/G/L)，q=c(4G+yy*)，J=HG⁻¹L−2G−yy*，目标J*L⁻¹J≤κH。保全部噪声、均值/total、同源逆与左右顺序。score逆/Woodbury已付，不代相位；单侧回归/任意非线性来源反例、cofactor及生成元的边界均保快照。
-- [完整高斯三尺度](notes/2026-11-14-balanced-star-gaussian-transition-full-phase-bound-789f-next.md)给整个源谱{Λb,Λd^(m−2),0}；[七阶真实矩](notes/2026-11-14-half-gaussian-bright-phase-sharp-one-bound-789f-next.md)给有限参数Λb,Λd<1并有紧集gap。[任意组数临界收缩](notes/2026-11-14-balanced-star-dimension-free-transition-contraction-789f-next.md)已去最小组限制。
-- **[大总曲率与整个抛物漂移窗口](notes/2026-11-14-balanced-star-large-total-curvature-gaussian-window-contraction-789f-next.md)：** zi∈[a,b]固定正区间，S=Σqi(zi−1)²大、|D=Σqi(zi−1)|≤Λ√S时，任意Q/m/qi有真实Φ≤1−γ；新Kθ共同预条件支付χ→0，误差O((Qχ)⁻¹/⁴)。接下条小S区，整个|D|≤Λ√S均有统一有限κ(a,b,Λ)，不假方差下界。
-- [中央显式有限Q预算](notes/2026-11-14-balanced-star-finite-central-degenerate-window-uniform-phase-bound-789f-next.md)保同一I+11*度量；新[有界S全漂移定理](notes/2026-11-14-balanced-star-bounded-spread-endpoint-decay-and-unrestricted-drift-789f-next.md)去掉总漂移限制：zi∈[a,b]、Σqi(zi−1)²≤S0时全部Q/组数有统一有限κ(a,b,S0)。右端R=Σqi(1−1/zi)→∞，同一完整源真相位≤C/R；危险上右块由准确压缩恒等消去。反端倒数运输，余下中央接显式预算；未声称κ与S0无关。
-- **[总曲率内峰统一界](notes/2026-11-14-balanced-star-dimension-free-interior-total-curvature-bound-789f-next.md)：** 固定zi∈[a,b]及真实峰t0∈[η,1−η]，M=Σqi[(zi−1)/(1+t0(zi−1))]²大时整个Φ≤1+CM⁻¹/²≤2，任意Q/m/qi、允许M/Q→0；全相位距秩m−1投影O(M⁻¹/²)。同源Kθ、完整C逆与双超平面都已付。M小时D/S有界接中央，故整个固定η内峰类有统一有限κ；t0→0/1联合尺度仍开。[旧严格宏观端峰](notes/2026-11-14-balanced-star-strict-endpoint-full-phase-decay-789f-next.md)全源O(Q⁻²)仍保原量词。
-- [实际逆符号障碍](notes/2026-11-14-balanced-star-actual-precision-matrix-sign-obstruction-789f.md)和[逆行和真实反例](notes/2026-11-14-balanced-star-inverse-row-sum-sufficient-condition-and-actual-obstruction-789f-next.md)排免费逐项符号路线，不否相位。完整曲率仅点态负指数≤3；均值列移动且幅度未界，不能跳过积分/完整回归。
+实际star q0=Q=Σqi，h/g/ell=c(H/G/L)，q=c(4G+yy*)，J=HG⁻¹L−2G−yy*；目标J*L⁻¹J≤κH，始终保完整噪声/硬源/同源逆/原乘法顺序。score或单侧回归不能替代相位，非线性源反例和逆符号/逆行和障碍各保原范围；点态曲率负指数≤3不等于积分秩3。
+
+固定正权区间[a,b]内已成：①[全抛物漂移窗](notes/2026-11-14-balanced-star-large-total-curvature-gaussian-window-contraction-789f-next.md)，|D|≤Λ√S，大S严格收缩、小S接显式中央预算；②[有界S全漂移](notes/2026-11-14-balanced-star-bounded-spread-endpoint-decay-and-unrestricted-drift-789f-next.md)，无D限制；③[固定η整个内峰](notes/2026-11-14-balanced-star-dimension-free-interior-total-curvature-bound-789f-next.md)，大总曲率M给Φ≤1+CM⁻¹/²，小M接中央。三者均任意Q/m/qi、允许方差趋零。
+
+新[有限第二亮方向端峰](notes/2026-11-14-balanced-star-bounded-second-bright-endpoint-uniform-decay-789f.md)：真左R=−D>0且S/R≤K0，整个Φ≤C/R²；倒数右端同谱。以κ=S/R吸收大向量，三真实Gram共同正谱；εJ有统一C²界，旧固定profile真实整数序列只识别两个零jet，再Taylor支付统一误差。未把旧常数外推。大S/R端峰和近端内峰角点稿已成待登记；全有界正权接合后仍不代无界外场或全部出生。
 
 ## R150 原十七式与第二提升
 
