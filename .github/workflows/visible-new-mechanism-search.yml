@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -181,6 +181,12 @@ jobs:
           python -u "$VISIBLE_NEW_SCRIPTS/literature_band_second_order.py" \
             --theta-n 768 --xi-n 96 \
             --output "$VISIBLE_NEW_OUT/second-order-N768-x96.json"
+      - name: Screen exact closed band seeds for curvature and physical support width
+        if: matrix.lane == 'band_geometry'
+        timeout-minutes: 25
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_band_geometry_scan.py" \
+            --top 4 --out "$VISIBLE_NEW_OUT/band-geometry-scan.json"
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:

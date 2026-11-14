@@ -205,7 +205,11 @@ def quadratic_period(coefficients, first, second, xi, integrate_right):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--kind", choices=["curvature", "symmetric"], default="curvature")
     parser.add_argument("--q", type=int, default=3)
+    parser.add_argument("--a", type=float)
+    parser.add_argument("--b", type=float, default=.85)
+    parser.add_argument("--c", type=float, default=1.7)
     parser.add_argument("--power", type=float, default=1)
     parser.add_argument("--center", type=float, default=-3)
     parser.add_argument("--sigma", type=float, default=1.5)
@@ -221,9 +225,7 @@ def main():
     parameters, amplitude, reference = kernel.build_reference(args)
     f, g, moment_data = profile_circle(reference["profile_left"], reference["profile_right"], args.profile_count)
     # Freeze the common field normalization on a reference grid, not the tested grid.
-    rd = seed.spherical_data(args.q, parameters.a, "curvature", .85, 2048)
-    rv, rvp = seed.speed_data(parameters, rd, amplitude)
-    rom = kernel.omega(rd["kappa"], parameters, amplitude)
+    rd, rv, rvp, rom = kernel.sample_geometry(parameters, amplitude, 2048)
     rxi, _, _, _, _ = xi_operators(128, reference["profile_left"], reference["profile_right"])
     ru = np.sqrt(rv)[:, None] / (rxi[None, :] + rom[:, None])
     raw = field_pair(rd, rv, rvp, rom, ru, reference, f, g, 1)
@@ -231,9 +233,7 @@ def main():
     common_scale = reference["sampled_reference_diameter"] / maximum
     del raw
     moment_data["common_field_scale"] = common_scale
-    d = seed.spherical_data(args.q, parameters.a, "curvature", .85, args.theta_n)
-    v, vp = seed.speed_data(parameters, d, amplitude)
-    om = kernel.omega(d["kappa"], parameters, amplitude)
+    d, v, vp, om = kernel.sample_geometry(parameters, amplitude, args.theta_n)
     xi, weights, D, integrate_right, endpoint = xi_operators(args.xi_n, reference["profile_left"], reference["profile_right"])
     u = np.sqrt(v)[:, None] / (xi[None, :] + om[:, None])
     pair = field_pair(d, v, vp, om, u, reference, f, g, common_scale)

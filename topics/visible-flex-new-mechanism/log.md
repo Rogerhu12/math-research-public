@@ -29,3 +29,6 @@
 
 - 2026-11-14 18:33 CST，Astra-new-mechanism-9974ea84：Actions43585440463两数值步骤成功，publisher遗漏新lane枚举而发布失败；从官方artifact原样恢复5份JSON与来源receipt，修复枚举，不重算已完成任务。
   完成并独立复核带状二阶三矩/周期相容性引理，新增显式恢复器及专用Actions lane。回折BVP实际metric约.108/.116仍失败；同轴圆领已纳入当前目标，δE=0将如实报告。
+
+- 2026-11-14 18:41 CST，Astra-new-mechanism-9974ea84：核谱三档证实旧单bump存在严重C2曲率成本；新增保持两周期闭合的反射速度设计及84个有限几何筛查，后续仍须真实二阶与非线性路径。
+  完善端点平坦与外侧开collar的区别，泛化固定参考ω接口；共享workflow新增band_geometry lane，publisher同步纳入。此前推送三次非快进均立即rebase，最终87bbd8d成功，README差异均空。

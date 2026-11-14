@@ -9,7 +9,7 @@
 ## 规则与同步
 
 - 已完整读公开根 README 和本课题 README，校对 `visible-flexible-closed-surface/README.md` 的 $D,H,\delta_{\rm hold},\delta_E$ 定义。
-- 公开仓库最后已读规则提交：`24297d8e61dbcf04fe4fc3e6174f7fde2b023821`；该次实际 `git pull --rebase origin main` 成功，随后两 README diff 为空。
+- 公开仓库最后已读规则提交：`f3e7ac55f896c7dea85d9816a8a8a8c4d3de0d76`；该次实际 `git pull --rebase origin main` 成功，随后两 README diff 为空。
 - 作者指定的 QUEUE 领取已执行成功。研究与计算在本公开仓库；公开笔记只使用公开来源和独立推导。
 - 每次 pull 后比较这两个公开 README，变更仅读差异并照办；至少每小时 pull。每条结论立即提交并在推前 pull；非快进拒绝即 rebase 重试，不强推。
 - 令牌仅瞬时命令行认证，不入文件；数值大数组/网格不读入对话。根 LOG 不写；结果单文件、Markdown 小于100KB，数据大于1MB压缩且单件小于5MB。
@@ -46,10 +46,11 @@ Actions的文献q=3种子使用同一闭合权重和物理带宽。参考带的�
 1. R1 的组装已完成；正在做非零偏心环带的实际求解。两端位置与平均中心必须来自同一嵌入，不能独立置中。
 2. 推导并实现允许 $m=1$ 空间模及末端 $SE(3)$ 位姿的环带等距方程，检查偏心出口是否被首阶相容性锁死；若锁死，转向有限分支/非轴对称种子，不继续堆无效同轴变量。
 3. 可计算新机制与大偏心核心的闭合比较；完整空间曲面/时间族才进入最终指标与网格生成。
-4. 本题公开 workflow `.github/workflows/visible-new-mechanism-search.yml` 已实际运行 `43584472315`：seeds job成功并推回 `notes/actions-43584472315-1-seeds/`，偏心续接仍运行。文献带状种子的闭合残差随固定参数精化到约`1e-14`；它仍不是闭曲面连续族。继续固定问题的核谱积分加密和真实回折BVP。
+4. 本题公开 workflow `.github/workflows/visible-new-mechanism-search.yml` 的 `43584472315` 两lane均已成功。偏心e=.05/.1/.2/.3/.45的真实metric依次`.00139/.00346/.01899/.02459/.03789`，不通过；角平均E几乎触及上限4。文献种子闭合残差随固定参数精化到约`1e-14`；仍不是闭曲面连续族。
 5. 同时继续 `core_to_tail_bvp.py` 一侧实际连接及有符号Frenet版单位切向BVP。
 6. 有符号图、中央非圆锁定及8个core-tail实际BVP已保存；最细原一侧设计metric约`.015232`。Actions `43585440463` 的核谱三档与两回折BVP均实际完成；回折metric为`.108487/.116044`，仍失败。publisher忘记新增lane枚举导致发布失败，已从官方artifact原样恢复到对应 `notes/actions-43585440463-1-*/`，补来源receipt并修复枚举，未重复数值计算。
 7. `notes/literature-second-order-moments-20261114.md` 证明三矩保持和完整线性化range条件；三矩仅解决逐ruling积分，剩余逐闭ξ叶的周期函数仍须归零。已实现显式二阶恢复器，下一Actions固定profile设计做384×64、768×96两档诊断；投影减均值保留原障碍，绝不冒充精确解。
+8. 核谱加密显示旧单bump在ε=1e-5已有主曲率半径/中心线D样本仅`.00114767`，远不足厚度；详见 `notes/literature-kernel-actions-43585440463.md`。新增反射闭合种子的84个有限几何设计筛查，先控制曲率和最窄物理特征带，再进二阶校正；尚未获得新的可弯构造。
 
 ## 工作文件
 

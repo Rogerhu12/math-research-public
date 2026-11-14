@@ -11,7 +11,9 @@ $$w=v-\kappa u,\qquad E=w^2+u^2,\qquad
 X_s=wT-uB,\quad X_u=N.$$
 假设 $\alpha$ 周期，以及 $\oint\kappa_s/\sqrt v\,ds=0$。选周期原函数 $\omega_s=\kappa_s/(2h)$，取渐近坐标
 $$\xi=\frac h u-\omega,\qquad u(s,\xi)=\frac h{\xi+\omega}.$$
-本文只在正 $u$ 活动条带 $\xi\in[\ell,r]$ 工作，要求 $\ell+\omega(s)>0$。所有 profile 属于 $C_c^\infty((\ell,r))$，故其任意阶导数在两个 collar 都为零。
+本文只在正 $u$ 活动条带 $\xi\in[\ell,r]$ 工作，要求 $\ell+\omega(s)>0$。所有 profile 在 $[\ell,r]$ 光滑且两端的所有阶 jet 为零；也允许更强的 $C_c^\infty((\ell,r))$ 情形。按零延拓到稍大的几何工作区间后，profile 在这个更大区间的外侧 collar 恒零。
+
+**理论与代码的支撑区别。** `kernel.profile` 使用 $\exp(1-1/(1-z^2))$（$|z|<1$，外为零），其支撑闭包恰为 $[\ell,r]$，严格说不属于 $C_c^\infty((\ell,r))$。它在活动条带内没有靠近端点的恒零开集，但端点所有 jet 都为零；在完整原 band 中的活动条带外仍有恒零开 collar。以下分部积分只用端点 jet 为零，线性化恢复也可按零延拓。因此数值固定活动边界 jet 与完整 band 固定外侧 collar 相容，不把二者写成同一句假设。
 
 对 profile $\phi$，公开公式给
 $$Y_\phi=P T+Q B,\qquad
@@ -48,7 +50,7 @@ $$\boxed{\mathcal E_s(\phi)=\frac h4J_2^*
  +\left(\frac{h\omega^2}{4}-\frac{\kappa\omega}{2}
  +\frac{\kappa^2+1}{4h}\right)J_0.}$$
 
-**完整的分部积分。** 因 $\phi$ 在两端 collar 恒为零，所有下列端项都为零。由 $du=-h z^{-2}d\xi$，需要三个积分。
+**完整的分部积分。** 因 $\phi$ 的所有端点 jet 为零，所有下列端项都为零。由 $du=-h z^{-2}d\xi$，需要三个积分。
 
 首先，
 $$\int\frac{A_\phi^2}{z^2}
@@ -107,7 +109,7 @@ $$\phi_t=\cos t\,f+\sin t\,g,\qquad0\le t\le\pi$$
 
 以下将一个给定光滑对称张量写成
 $$H=H_E\,ds^2+2H_F\,ds\,du+H_G\,du^2,$$
-并假设 $H$ 在条带的两个 collar 恒为零。求周期的 $Z=pT+\rho N+qB$，也要求它在两个 collar 恒为零。所有下标 $s$ 在未注明时表示固定 $u$ 的偏导数。
+并假设 $H$ 在活动条带两端所有 jet 为零，外延为零。求周期的 $Z=pT+\rho N+qB$，也要求其两端所有 jet 为零；将它在更大几何工作区间外延为零后，即固定完整 band 的外侧 collar。若采用更强的活动边界内侧开 collar 恒零假设，下面构造也保持这一更强性质。所有下标 $s$ 在未注明时表示固定 $u$ 的偏导数。
 
 由标架方程，
 $$Z_s=(p_s-\kappa\rho)T+(\kappa p+\rho_s+q)N+(q_s-\rho)B,
@@ -117,7 +119,7 @@ $$2\rho_u=H_G,$$
 $$wp_u-uq_u+\kappa p+q=H_F-\rho_s=:\mathcal A,$$
 $$wp_s-uq_s=\frac{H_E}{2}+(w\kappa-u)\rho=: \mathcal B.$$
 
-第一式与下侧 collar 的 $\rho=0$ 唯一确定 $\rho$。它在上侧 collar 也为零，当且仅当
+第一式与下侧端点的 $\rho=0$ 唯一确定 $\rho$。它在上侧端点也为零，当且仅当
 $$\boxed{\int_{h/(r+\omega)}^{h/(\ell+\omega)}H_G(s,u)\,du=0
 \quad\text{对每个 }s.}\tag{C1}$$
 对 §1 的二阶 $H$，引理 1 和三矩路径正好保证 (C1)。
@@ -138,11 +140,11 @@ $$\boxed{\left.\partial_s\right|_\xi W=\mathcal S(s,\xi),\qquad
 W=\frac\zeta{u^2},\quad
 \mathcal S=\frac{\mathcal B+c_*\mathcal A}{u^2}.}$$
 
-**引理 2（已证明）。** 在以上正条带及 collar 假设下，周期固定 collar 的 $L_XZ=H$ 有光滑解，当且仅当 (C1) 成立并且
+**引理 2（已证明）。** 在以上正条带及端点平坦假设下，周期、两端平坦且可零延拓的 $L_XZ=H$ 有光滑解，当且仅当 (C1) 成立并且
 $$\boxed{\mathcal P_H(\xi):=\oint\mathcal S(s,\xi)\,ds=0
 \quad\text{对每个 }\xi\in[\ell,r].}\tag{C2}$$
 
-必要性已经由逐步等价变换得到。反过来，(C1) 给两侧 collar 为零的光滑周期 $\rho$；于是 $\mathcal A,\mathcal B,\mathcal S$ 也在两侧 collar 为零。(C2) 允许对每条闭 $\xi$ 叶取 $\mathcal S$ 的周期原函数 $W$；例如规定它的 $s$ 平均值为零。这样 $W$ 在两侧 collar 为零，且对 $\xi$ 光滑。用上面的公式恢复 $\zeta,\eta,p,q$，得到周期光滑且固定 collar 的 $Z$。不存在漏掉的空间位置单值差：$Z$ 已在周期标架中显式给成一个向量场。
+必要性已经由逐步等价变换得到。反过来，(C1) 给两端平坦的光滑周期 $\rho$；于是 $\mathcal A,\mathcal B,\mathcal S$ 也在两端平坦。(C2) 允许对每条闭 $\xi$ 叶取 $\mathcal S$ 的周期原函数 $W$；例如规定它的 $s$ 平均值为零。这样 $W$ 在两端的各阶 $\xi$ 导数为零，且对 $\xi$ 光滑。用上面的公式恢复 $\zeta,\eta,p,q$，得到周期光滑且两端平坦的 $Z$，它可在活动条带外零延拓。不存在漏掉的空间位置单值差：$Z$ 已在周期标架中显式给成一个向量场。
 
 因此“保持三个矩”仅处理 (C1)；(C2) 是剩下的一个函数值周期障碍，必须实际求零。不能因为 (C1) 已简化为三条等式就把整个二阶问题当成三条等式。
 

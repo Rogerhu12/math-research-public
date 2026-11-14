@@ -126,3 +126,17 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python topics/visible-flex-new-mechanis
 旧绝对角差退化诊断可用 `--design-objective absolute --controls 10 --radial-order 3 --max-nfev 100` 重放；此选项刻意关闭障碍项，仅保留旧诊断目标。旧无限放大诊断使用 `--design-objective relative --design-ceiling 1e300 --controls 12 --radial-order 4 --max-nfev 400`。旧诊断的源码哈希与当前脚本不同，但对应目标作为显式选项保留；不将浮点迭代轨迹的逐位一致作为保证。
 
 非圆种子试验入口为 `--seed-kind curvature --seed2 .35 --seed3 .25 --seed-asymmetry .3 --controls 14 --modes 6 --radial-order 8 --angles 32 --offset .02 --metric-mode angular-design --max-nfev 350`。上述小运行是实现及设计筛查；需要更大计算时可直接把同一命令放进公开仓库自己的 GitHub Actions。
+
+## 6. 已完成的公开 Actions 大偏心续接
+
+公开 Actions run `43584472315` 的 eccentric lane 已实际完成五步续接，结果在 `actions-43584472315-1-eccentric/`，总表为该目录的 `continuation-summary.json`。本段直接读取已归档结果，没有重新计算。
+
+| 规定偏心 | 细采样相对度量误差 | 实际主曲率采样最大值 |
+|---:|---:|---:|
+| .05 | .00138789 | 28.26 |
+| .10 | .00345960 | 19.07 |
+| .20 | .01899308 | 11.05 |
+| .30 | .02458745 | 3.277 |
+| .45 | .03788769 | 3.385 |
+
+大偏心场的曲率比原 $e=.02$ 最佳场平缓，但角不变目标的误差显著增加；$\bar E$ 基本触及设计上界 $4$。这是真实的自由度量设计续接，**不是**同一 $g$ 的精化。没有任何一行同时满足等距门及几何门，不能因最后两行曲率较小就称得到偏心 bearing。

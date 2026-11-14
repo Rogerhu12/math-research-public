@@ -82,16 +82,50 @@ def bending_fields(data, v, vs, om, u, left, right, count, scale=1):
     return np.stack(values, axis=-1), np.stack(ds, axis=-1), np.stack(du, axis=-1)
 
 
+def initialize_omega(parameters, amplitude):
+    """Freeze a periodic omega representation for a non-curvature speed."""
+    if parameters.kind == "curvature":
+        return
+    d = seed.spherical_data(parameters.q, parameters.a, parameters.kind, parameters.b, parameters.reference_n)
+    v, _ = seed.speed_data(parameters, d, amplitude)
+    derivative = d["kappa_theta"] / (2 * np.sqrt(v))
+    values = seed.periodic_primitive(derivative[:, None])[:, 0]
+    coeff = np.fft.fft(values) / len(values)
+    frequencies = np.fft.fftfreq(len(values), 1 / len(values))
+    mask = np.abs(coeff) > 1e-14
+    parameters.omega_coefficients = coeff[mask]
+    parameters.omega_frequencies = frequencies[mask]
+    parameters.omega_period_residual = float(2 * np.pi * np.mean(derivative))
+    parameters.omega_discarded_coefficient_bound = float(np.sum(np.abs(coeff[~mask])))
+
+
+def sample_geometry(parameters, amplitude, n):
+    d = seed.spherical_data(parameters.q, parameters.a, parameters.kind, parameters.b, n)
+    v, vp = seed.speed_data(parameters, d, amplitude)
+    if parameters.kind == "curvature":
+        om = omega(d["kappa"], parameters, amplitude)
+    else:
+        om = np.real(np.exp(1j * d["theta"][:, None] * parameters.omega_frequencies[None, :])
+                     @ parameters.omega_coefficients)
+    return d, v, vp, om
+
+
 def build_reference(args):
-    parameters = SimpleNamespace(kind="curvature", q=args.q, a=1 / args.q, b=.85,
+    parameters = SimpleNamespace(kind=getattr(args, "kind", "curvature"), q=args.q,
+                                 a=getattr(args, "a", None) or 1 / args.q,
+                                 b=getattr(args, "b", .85), c=getattr(args, "c", 1.7),
                                  power=args.power, center=args.center, sigma=args.sigma,
                                  reference_n=32768)
+    if parameters.q < 2 or not 0 < parameters.a < 1:
+        raise ValueError("Require q >= 2 and 0 < a < 1")
+    if parameters.kind == "symmetric" and not (0 < parameters.b < np.pi / 2 and parameters.c > 0
+                                                and 2 * parameters.b * parameters.c - 1 - parameters.c**2 / 2 > 0):
+        raise ValueError("Invalid positive symmetric-speed parameters")
     amplitude, integrals = seed.closing_amplitude(parameters)
-    d = seed.spherical_data(args.q, parameters.a, "curvature", .85, 2048)
-    v, vp = seed.speed_data(parameters, d, amplitude)
+    initialize_omega(parameters, amplitude)
+    d, v, vp, om = sample_geometry(parameters, amplitude, 2048)
     alpha = seed.periodic_primitive(v[:, None] * d["raw"])
     diameter = seed.sampled_diameter(alpha)
-    om = omega(d["kappa"], parameters, amplitude)
     left = 1.1 * float(np.max(np.sqrt(v) / args.delta - om))
     right = left + max(left, 1)
     z, _ = leg.leggauss(128)
@@ -100,12 +134,16 @@ def build_reference(args):
     Y, _, _ = bending_fields(d, v, vp / d["sphere_speed"], om, u, left, right, 1)
     raw_max = float(np.max(np.linalg.norm(Y[:, :, 0], axis=1)))
     scale = diameter / raw_max
-    omega_error = float(np.max(np.abs(om - omega(d["kappa"], parameters, amplitude, order=384))))
+    omega_error = (float(np.max(np.abs(om - omega(d["kappa"], parameters, amplitude, order=384))))
+                   if parameters.kind == "curvature" else None)
     return parameters, amplitude, dict(reference_integrals=integrals, amplitude=amplitude,
                                       sampled_reference_diameter=diameter, profile_left=left,
                                       profile_right=right, field_scale=scale,
                                       raw_field_sampled_max=raw_max,
-                                      omega_quadrature_192_vs_384_error=omega_error)
+                                      omega_quadrature_192_vs_384_error=omega_error,
+                                      omega_method=("curvature primitive" if parameters.kind == "curvature" else "fixed-reference Fourier primitive"),
+                                      omega_reference_period_residual=getattr(parameters, "omega_period_residual", None),
+                                      omega_discarded_coefficient_bound=getattr(parameters, "omega_discarded_coefficient_bound", None))
 
 
 def basis(data, y, xi_halfwidth, modes, degree, xi_s, xi_u):
@@ -176,9 +214,7 @@ def differential_geometry(data, Fs, Fu, u, xi_s, xi_u, y, yw, xi_halfwidth):
 
 
 def evaluate(args, parameters, amplitude, reference, epsilon):
-    d = seed.spherical_data(args.q, parameters.a, "curvature", .85, args.theta_n)
-    v, vp = seed.speed_data(parameters, d, amplitude)
-    om = omega(d["kappa"], parameters, amplitude)
+    d, v, vp, om = sample_geometry(parameters, amplitude, args.theta_n)
     y, yw = leg.leggauss(args.u_n)
     xi_halfwidth = (reference["profile_right"] - reference["profile_left"]) / 2
     xi = (reference["profile_right"] + reference["profile_left"]) / 2 + xi_halfwidth * y
@@ -274,7 +310,11 @@ def evaluate(args, parameters, amplitude, reference, epsilon):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument("--kind", choices=["curvature", "symmetric"], default="curvature")
     p.add_argument("--q", type=int, default=3)
+    p.add_argument("--a", type=float)
+    p.add_argument("--b", type=float, default=.85)
+    p.add_argument("--c", type=float, default=1.7)
     p.add_argument("--power", type=float, default=1)
     p.add_argument("--center", type=float, default=-3)
     p.add_argument("--sigma", type=float, default=1.5)
