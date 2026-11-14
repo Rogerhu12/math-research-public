@@ -9,7 +9,7 @@
 ## 规则与同步
 
 - 已完整读公开根 README 和本课题 README，校对 `visible-flexible-closed-surface/README.md` 的 $D,H,\delta_{\rm hold},\delta_E$ 定义。
-- 公开仓库最后已读规则提交：`7b9ff6b0100f4222a8b373a5d0bc52d5d4ae4cdf`；该次实际 `git pull --rebase origin main` 成功，随后两 README diff 为空。
+- 公开仓库最后已读规则提交：`878e04ee5653700a53dae5c63a38086afd93d2df`；该次实际 `git pull --rebase origin main` 成功，随后两 README diff 为空。
 - 作者指定的 QUEUE 领取已执行成功。研究与计算在本公开仓库；公开笔记只使用公开来源和独立推导。
 - 每次 pull 后比较这两个公开 README，变更仅读差异并照办；至少每小时 pull。每条结论立即提交并在推前 pull；非快进拒绝即 rebase 重试，不强推。
 - 令牌仅瞬时命令行认证，不入文件；数值大数组/网格不读入对话。根 LOG 不写；结果单文件、Markdown 小于100KB，数据大于1MB压缩且单件小于5MB。
@@ -42,7 +42,8 @@
 1. R1 的组装已完成；正在做非零偏心环带的实际求解。两端位置与平均中心必须来自同一嵌入，不能独立置中。
 2. 推导并实现允许 $m=1$ 空间模及末端 $SE(3)$ 位姿的环带等距方程，检查偏心出口是否被首阶相容性锁死；若锁死，转向有限分支/非轴对称种子，不继续堆无效同轴变量。
 3. 可计算新机制与大偏心核心的闭合比较；完整空间曲面/时间族才进入最终指标与网格生成。
-4. 数值实验需要长时间时，在本公开仓库新增本题自己的 GitHub Actions；不使用私有 ci-queue 或旧代跑仓库。
+4. 本题公开 workflow `.github/workflows/visible-new-mechanism-search.yml` 已实现；本次提交更新 `computations/request.json` 触发。两lane：真实e=.05→.45偏心续接；公开文献带状种子+有限线性核谱+固定j=.8六次GC精化。结果只保存本题 `notes/actions-<run>-<attempt>-<lane>/`，未取得实际Actions回执前不称运行成功。
+5. 同时继续 `core_to_tail_bvp.py` 一侧实际连接及有符号Frenet版单位切向BVP。
 
 ## 工作文件
 

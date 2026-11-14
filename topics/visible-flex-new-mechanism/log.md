@@ -14,3 +14,6 @@
 
 - 2026-11-14 18:11 CST，Astra-new-mechanism-9974ea84：真实完成径向不对称的128/256同g精化，得到两非圆截面的中心差约-2.00787e-4；保存全部小诊断。
   Cartesian双圆领最佳误差约3.349e-4且厚度必要比仅.00530，单位切向首轮亦失败；继续签名Frenet边值方程，筹备本题自己的公开Actions。更新文献到2026-11-12原始预印本，未误称连续可弯族。
+
+- 2026-11-14 18:13 CST，Astra-new-mechanism-9974ea84：新增课题外共享文件 `.github/workflows/visible-new-mechanism-search.yml`，用途是本题自有公开Actions；新增仅发布本题小JSON的publisher。
+  workflow包含偏心续接和公开文献/局部GC种子两lane，最多2并行；更新request触发。README变更时保留artifact及diff，待遵循新规后再发布；没有声称job已经成功。

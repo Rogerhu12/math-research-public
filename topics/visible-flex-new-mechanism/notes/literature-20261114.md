@@ -164,3 +164,21 @@ $$
 Jeanne N. Clelland, Thomas A. Ivey, Naghmana Tehseen, Peter J. Vassiliou, *Isometric Embedding and Darboux Integrability*, Geometriae Dedicata **203** (2019), 353–388，公开全文 <https://arxiv.org/html/1801.00241v1>。已核 §3.4 Theorem 7、式 (25)：负曲率的 Euclidean 局部可积度量是 $g=\cos^4u\,du^2+\sin^2u\,dv^2$，$0<u<\pi/2$，其 $K=-\sec^4u$；$u\to\pi/2$ 曲率发散。Theorem 8 给局部旋转/螺旋对称嵌入；§5 展示的完整有限任意函数公式采用 Minkowski 环境，不能不检查签名就移到 Euclidean $\mathbb R^3$。它可以给局部 Cauchy 求解器，不是现成闭环带/闭曲面族。
 
 Etienne Couturier, *Folded isometric deformations and banana-shaped seedpod*, Proc. R. Soc. A **472** (2016), 20150760，DOI <https://doi.org/10.1098/rspa.2015.0760>，公开全文 <https://pmc.ncbi.nlm.nih.gov/articles/PMC5014095/>。式 (2.1)–(2.3) 为 Goursat 族；§2(b) 明确允许 $W^{1,2}$ 折痕，式 (2.11)、(2.15) 给折角。静止态相切的镜面不保证整个运动保持 $C^2$；其高度平方根同 §3.3 的 profile 方程，所以不能直接双周期化得到光滑闭族。
+
+## 9. 固定 $g_\varepsilon$ 的核计算输入
+
+**启发式计算方案，尚无谱结论。** `scripts/literature_band_kernel.py` 在 $F_+=X+\varepsilon Y$ 处建立保持 $g_\varepsilon$ 的线性化等距算子。不同 $\varepsilon$ 是不同的固定度量问题，绝不把比较这些输入当作同度量运动。它在局部标架 $(T,N,B)$ 中用一般向量场
+$$Z=pT+rN+qB$$
+和精确导数
+$$Z_s=(p_s-\kappa r)T+(\kappa p+r_s+q)N+(q_s-r)B,\qquad
+Z_u=p_uT+r_uN+q_uB.$$
+对 $dF_+\cdot dZ+dZ\cdot dF_+$ 的三个分量按 $g_\varepsilon$ 正交标架归一，并用面积 $L^2$ 质量矩阵正交化列。试函数是 Fourier $\theta$ 模式乘 $(1-z^2)^3$ Legendre $z$ 模式，其中 $z$ 是 $\xi$ 支撑区间的仿射坐标；计算域只取 $Y_0$ 的同一渐近条带。两条 $\xi$ 边界的值及前两阶导数固定。还加入四个由 §7.3 任意 profile 产生的精确 $X$ 无穷小弯曲，使 $\varepsilon=0$ 必有可核验的零模基线。这个支撑限制必不可少：若允许全带，则在 $Y_0$ 支撑以外放置的旧无穷小弯曲仍在 $F_+$ 上精确存在，不能用那些无关零模判断活动块自身能否继续弯曲。
+
+```bash
+OPENBLAS_NUM_THREADS=4 python topics/visible-flex-new-mechanism/scripts/literature_band_kernel.py \
+  --output topics/visible-flex-new-mechanism/data/literature-band-kernel-q3.json
+```
+
+默认求 $\varepsilon=0,0.005,0.01$ 的有限试空间谱。若非零 $\varepsilon$ 有小奇异值，下一步需要固定这个 $g_\varepsilon$、加密试空间、求非线性校正并检验连续分支。若谱在给定试空间内抬升，也不能据此断言一般光滑核不存在。此工具不检查全闭曲面、不证明嵌入性或 reach。
+
+补充原始文献：Hussein Nassar, *Isometric deformations of surfaces of translation*, arXiv:2310.08505v1（2023-10-12），公开全文 <https://arxiv.org/pdf/2310.08505>。Theorem 4（预印本 pp.10–11）是正交平面 translation 曲面的有限弯曲，允许分片及折痕，并含限制切向落在两平面交线的假设；证明后 p.11 明确说一般不保持 closure（中心对称等情形例外），所以“保持 periodicity”也不等于位置周期。其光滑双闭特例还会遇到 §3.2 的共同切向及浸入退化问题。

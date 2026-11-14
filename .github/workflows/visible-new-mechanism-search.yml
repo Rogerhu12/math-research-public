@@ -1,0 +1,134 @@
+name: visible-new-mechanism public design search
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request.json
+  workflow_dispatch:
+    inputs:
+      lane:
+        description: Public numerical lane
+        type: choice
+        default: all
+        options: [all, eccentric, seeds]
+
+permissions:
+  contents: write
+
+jobs:
+  search:
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        lane: ${{ fromJSON(inputs.lane == 'eccentric' && '["eccentric"]' || inputs.lane == 'seeds' && '["seeds"]' || '["eccentric","seeds"]') }}
+    name: Search ${{ matrix.lane }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    concurrency:
+      group: visible-new-mechanism-${{ matrix.lane }}
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/visible-new-mechanism-search.yml
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/scripts/
+            /topics/visible-flex-new-mechanism/computations/request.json
+            /topics/visible-flex-new-mechanism/notes/eccentric-search-design-002-curvature-seed.json
+      - name: Prepare bounded public output directory
+        run: |
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+          mkdir -p "$RUNNER_TEMP/visible-new-mechanism/${{ matrix.lane }}"
+          echo "VISIBLE_NEW_OUT=$RUNNER_TEMP/visible-new-mechanism/${{ matrix.lane }}" >> "$GITHUB_ENV"
+          echo "VISIBLE_NEW_SCRIPTS=$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/scripts" >> "$GITHUB_ENV"
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Install pinned numerical dependencies
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+      - name: Continue bounded eccentric designs without claiming fixed metric refinement
+        if: matrix.lane == 'eccentric'
+        timeout-minutes: 40
+        run: |
+          python - <<'PY'
+          import json, os, subprocess, sys
+          from pathlib import Path
+          output = Path(os.environ['VISIBLE_NEW_OUT'])
+          script = Path(os.environ['VISIBLE_NEW_SCRIPTS']) / 'eccentric_collar_search.py'
+          previous = Path('topics/visible-flex-new-mechanism/notes/eccentric-search-design-002-curvature-seed.json')
+          records = []
+          for index, offset in enumerate([.05, .1, .2, .3, .45], 1):
+              target = output / f'design-{index:02d}-offset-{offset:.2f}.json'
+              command = [sys.executable, '-u', str(script), '--metric-mode', 'angular-design',
+                         '--controls', '14', '--modes', '6', '--radial-order', '10',
+                         '--angles', '48', '--offset', str(offset), '--max-nfev', '250',
+                         '--design-floor', '.1', '--design-ceiling', '4', '--barrier-weight', '10',
+                         '--seed-kind', 'curvature', '--seed2', '.35', '--seed3', '.25',
+                         '--seed-asymmetry', '.3', '--resume', str(previous),
+                         '--audit-radials', '65', '257', '1025', '--out', str(target)]
+              completed = subprocess.run(command)
+              record = {'offset': offset, 'returncode': completed.returncode, 'output': target.name,
+                        'command': command, 'design_search': True, 'fixed_metric_refinement': False}
+              if target.exists():
+                  data = json.loads(target.read_text())
+                  record['final_audit'] = data['final_audits'][-1]
+                  previous = target
+              records.append(record)
+              (output / 'continuation-summary.json').write_text(json.dumps({
+                  'source_commit': os.environ['GITHUB_SHA'], 'controls': 14, 'modes': 6,
+                  'design_search': True, 'task_complete': False, 'steps': records}, indent=2) + '\n')
+              if completed.returncode:
+                  raise SystemExit(completed.returncode)
+          PY
+      - name: Compute public literature seed and fixed metric mixed-mode comparisons
+        if: matrix.lane == 'seeds'
+        timeout-minutes: 30
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_band_seed.py" \
+            --q 3 --output "$VISIBLE_NEW_OUT/literature-band-q3.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_band_kernel.py" \
+            --output "$VISIBLE_NEW_OUT/literature-band-kernel-q3.json"
+          for angular_points in 64 128 256; do
+            for side in plus minus; do
+              end_value=.35
+              if [ "$side" = minus ]; then end_value=-.35; fi
+              python -u "$VISIBLE_NEW_SCRIPTS/mixed_mode_gc_flow.py" \
+                --angles "$angular_points" --amp2 .25 --amp3 .2 \
+                --curvature .6 --jerk .8 --end "$end_value" --samples 15 \
+                --rtol 2e-11 --atol 2e-13 --max-step .005 \
+                --out "$VISIBLE_NEW_OUT/mixed-gc-j08-N${angular_points}-${side}.json"
+            done
+          done
+      - name: Publish small diagnostics after rebase and README checks
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/publish_actions.py" \
+            --results "$VISIBLE_NEW_OUT" --lane "${{ matrix.lane }}"
+      - name: Preserve results and publication receipts even after a rule change
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-new-mechanism-${{ matrix.lane }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/visible-new-mechanism/${{ matrix.lane }}/
+          compression-level: 6
+          retention-days: 30
+          if-no-files-found: warn
