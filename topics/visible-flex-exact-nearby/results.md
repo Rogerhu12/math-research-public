@@ -125,3 +125,7 @@
 ### R119 补充：完整固定标量正常形及斜率尺度高网络
 
 **已证明。** [完整Z1–41](results/R119-supplement-fixed-scalar-normal-form-and-slope-unit-high-network.md)保signed-density换元和mean有限秩、真实polar/跨锥、原固定β、全部有序两阶/cohom费以及两行真预条件。两强窗余项<2^20000λ^(4/3)，新阈值Tnew=2^65664 J²δ^-9给无层权ℓ1/2/∞完整高反馈及低到高<2^-1024；所有mean/源/外口保留，移动mixed middle和最终层权继续。
+
+### R133 补充：完整已知响应的真实腰/cap边界源
+
+**已证明。** [实际边界结果](results/R133-supplement-actual-complete-known-response-boundary-sources.md)由43599771405真实10门给出：全96腰源<8.922944e−16，真97切口源<.000203975908607，独立完整high源<.000195001650779。准确0+和9/10左迹、完整mean与正交规范、径向权取消和homogeneous真cap均保，未知反馈与全响应误差继续。
