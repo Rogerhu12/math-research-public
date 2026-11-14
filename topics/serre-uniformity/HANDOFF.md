@@ -4,8 +4,8 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：81e5e4a2e637ee60659d369921525425ab13aa24
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions各发布前实际pull并核两README，最近R717四片于13:10UTC前完成发布，无差异。最近GitHub集成核查：2026-11-14 13:41:16 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
+已读规则提交：c04f67b114b8dae9b15cbf09f035a8e6c39e9f25
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions各发布前实际pull并核两README，最近R717四片于13:10UTC前完成发布，无差异。最近GitHub集成核查：2026-11-14 13:43:16 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
 
 仅公开Rogerhu12/math-research-public及其Actions。每结论单独推main已授权，禁强推；终端非快进立即pull --rebase重推。PAT仅CLI。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB、大中间量不入库。日志本题≤5行，改共享设施须说明。
 
@@ -16,7 +16,7 @@
 - R707固定p41已完整：129盘=121排除+8CM，无有理尖点；183证明SHA账本已核，O5关闭。R656/R709的原CM4链已恢复，勿重跑。
 - R706/R689/R698：41..200000的5992素数，唯一Cp−3零137147；独立原z公开run43587480525同值。R710原数组后两权117309/122674，M8赋值−7、残余阶r3；R711全部jet整数赋值。
 - R703/R716真实高度的代数提取与相对全尾已证明；实际一般p模型、有限矩阵及规范前缀仍缺。global继续实际输入，不把有限零数当无根。
-- R717新解析p41校准已成功；137147四片成功、recover进行中。完整source/规范/凭据见下；已成计算勿重跑。
+- R717新解析p41校准已成功；137147四片成功；recover整数trace认证失败，正在复用失败产物诊断。完整source/规范/凭据见下；已成计算勿重跑。
 - R719原137147非消失已公开证明：run43597653737完整945171点/132178 norm行，小圈2769全核；严格B<106516214032/10^12<1/2，故原R616指定L′·L非零、β生成A(Q)⊗Q及log同构。实际高度仍缺。
 - R715原m43、R718全层m_n=42n+1和d∞、R720原C=9ib链桥均已推；unit继续原X_t主化/首矩或真实普通互反求b，禁止代pure-p参考24。最新R720提交e66994cbc4e3820ba667c0f4a67717d4f0cb4400。
 
@@ -40,7 +40,7 @@ R721已证全p条件等距（排版统一为$公式，数学不变）：Cp和实
 
 原P=S2S3/C0²在实圆分域，2^37·3^26·p5·P整；原Ω/6标签、两正Gauss和、完整period factor与全尾给所有整数trace，唯一整数区间和精确Teich根恢复原值。证明及完整大文件续算预算见R717与notes/R717-p137147-certified-budget-and-artifact-resume.md。
 core scripts/R717_certified_original_CM_norm.py SHA75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402；p41校准run43597163388已成功，42整数trace唯一、1274/24匹配，receipt SHAfb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6，勿重算。
-137147正式请求source ffc69b45d58ea9aaafd1e0686fc55377701a00be：384bits、tail256、cutoff360p=49372920，四片8113行=2029/2028/2028/2028、至多2并行，单recover做三个球DFT；严格解析trace误差<2^−14但仍须完整Arb唯一性。run43597802237四片全部成功：8113行、14925440项；四原bin SHA与receipt/manifest匹配。recover job132457689232自13:10UTC运行，正在认证137148整数trace，尚无137147值；单位/高赋值/精确零均据实返回。小凭据在computations/R717-original-CM-norm-p137147-bins-i/43597802237-1/。
+137147正式请求source ffc69b45d58ea9aaafd1e0686fc55377701a00be：384bits、tail256、cutoff360p=49372920，四片8113行=2029/2028/2028/2028、至多2并行，单recover做三个球DFT；严格解析trace误差<2^−14但仍须完整Arb唯一性。run43597802237四片全部成功：8113行、14925440项；四原bin SHA与receipt/manifest匹配。recover job132457689232于13:40:40UTC失败：三DFT完成、137148个trace全部未过唯一整数判据，未得原值。完整embedding/trace球已保存，artifact serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1；cartier正在仅恢复小诊断，禁止重枚举四片。小凭据在computations/R717-original-CM-norm-p137147-bins-i/43597802237-1/。
 完整片/前缀按source参数与实际SHA复用；大bin由runner从artifact恢复，不可工具分块/编码或盲重跑。runner session固定source/request；每小时核README、发布pull后再核，结果另登记。
 
 ## O6：原p43 Robert单位/普通Norm
@@ -49,7 +49,7 @@ core scripts/R717_certified_original_CM_norm.py SHA75a81149a898e71ab33413ddd2ceb
 R561原scalar-p²产物/普通类C，L=31−22iC。R613 C_r=C+34r；R619原Ct9、Cl(LF_t)_χ=k、T-Norm同构/扩张零，辅助Ct不可代C。R633完整普通单位presentation和kerNΓ自由秩一。
 R700原q-Frob本原性给X_L^(p)=O⊕RΓ；全P_n中U/X对O[P_n]自由秩86/43，但普通A为末商。R715以自然Γ线性两步Tate与E_L=R0y循环性强迫m43：较短m的H1(P,A)=k²矛盾，m43的N_S=−2π42杀第二线；N_SE=E_N、N_PE=(p,π)E_L，y真普通Norm。R718同法逐层得m_n=42n+1、d∞、普通类Norm逆极限RΓ；所有scalar普通Norm满射，全P_n Norm恒(p,π)E_L，紧纤维有限交给交Norm确为相容单位逆极限像。
 R695原Qκ=πDScs−κπDTct−11acq∈π²E iffκ=C/9，a=15i/7；所有κ域整除均成立，须实际普通输入。R704公开run43588220740原43个Γ嵌入mod1849矩阵det687，精度足够R701但原cs/cq坐标缺。R708全部已知局部Norm仍容许ηp遍F43，部分q同源仍需(q+1)/43商，不能局部替全局。
-R720现以同时整提升与真实NΓX自由像完成原链桥：C=9ib=−34ib，L=31+26b，r_y=25+9b，Ω₂=ε(22+17b)。Ω₂零iff b24；实际b/J/nT/原主化坐标仍未知。必须原X_t主化/首矩或普通互反，不能代pure-p24、一次10、辅助Ct9。首矩规范已从原div/Norm重建于notes/2026-11-14-r599-first-moment-normalization-reconstruction.md：Jℓ选择无关、取F43、Jr=−2Jℓ；数值和J→b系数仍缺，不冒称找回旧R599字节。
+R720现以同时整提升与真实NΓX自由像完成原链桥：C=9ib=−34ib，L=31+26b，r_y=25+9b，Ω₂=ε(22+17b)。Ω₂零iff b24；实际b/J/nT/原主化坐标仍未知。必须原X_t主化/首矩或普通互反，不能代pure-p24、一次10、辅助Ct9。首矩规范已从原div/Norm重建于notes/2026-11-14-r599-first-moment-normalization-reconstruction.md：Jℓ选择无关、取F43、Jr=−2Jℓ；新证明全部普通见证为X+(t−1)E，其完整余数改变量恰I²；J是唯一固定首矩，杀全部余数时Norm改变量c≡−J/(13i)。数值/J→b仍缺，不冒称找回旧R599字节。
 
 ## 一般主目标
 

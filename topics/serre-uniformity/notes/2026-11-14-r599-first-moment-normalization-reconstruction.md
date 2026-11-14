@@ -53,6 +53,27 @@ $E_{F_t}=\mathcal O[T]u_t$, with $N_Tu_t=u$ and
 $E_F=\mathcal O u$, so this difference can be removed
 by an ordinary unit without changing the divisor.
 
+More explicitly, let $E_q(F_t)$ denote the genuine q-S-unit group,
+completed and projected in this same character. The ordinary divisor
+sequence on the finite set of q primes is
+
+$$
+0\longrightarrow E_{F_t}\longrightarrow E_q(F_t)
+\longrightarrow \mathcal O[T]\,P_+P_0
+\longrightarrow A_{F_t}\longrightarrow0.
+$$
+
+It remains exact: $\mathcal O$ is flat over $\mathbf Z$, the
+prime-to-$p$ character projector is an integral direct summand,
+and these unit and finite-support divisor modules are finitely
+generated. Equivalently their $p$-adic completions give the same
+exact finite-support sequence. The last term is zero by R619.
+No $\mu_p$ term is hidden in the unit lattice: $F_t$ has absolute
+degree $88p$, which is not divisible by $p-1=42$.
+Thus the argument takes place in the complete ordinary q-S-unit
+lattice and supplies an actual completed principalization, rather
+than a point in a semilocal product.
+
 ## 2. A definition that includes the q-unit part at the pole
 
 At the fixed completion $(F_t)_{P_0}=K_q$, define
@@ -166,13 +187,171 @@ $$
 Changing the positive generator to $t^a$ would multiply
 the first moment by $a^{-1}$; no such change is made.
 
-## 5. What is still required
+## 5. The full residue image of ordinary norm-zero corrections
+
+Let $\mathcal W$ be the set of all solutions of (J.1).
+For two such solutions, their difference has zero full divisor
+and zero norm, hence is an element of
+$\ker(N_T:E_{F_t}\to E_F)$.
+Conversely adding any element of this kernel preserves both
+equations in (J.1). Under the actual integral basis $u_t$,
+
+$$
+N_T(h(t)u_t)=h(1)u\qquad(h\in\mathcal O[T]).
+$$
+
+Since $u$ is torsion free and primitive, its norm kernel is
+exactly the augmentation ideal. Therefore, as a torsor under
+the actual completed ordinary unit lattice,
+
+$$
+\boxed{\mathcal W=X+(t-1)E_{F_t}.}
+\tag{J.8}
+$$
+
+This equality proves both inclusions integrally before reducing
+any residue coordinate.
+
+Put
+
+$$
+R=k[Z]/(Z^{43}-1)=k[Z-1]/(Z-1)^{43},
+\qquad I=(Z-1).
+$$
+
+Use the coefficient convention
+
+$$
+\mathscr A_X(Z)=\sum_{j=0}^{42}L_jZ^{-j},
+\qquad
+\rho(e)=\sum_{j=0}^{42}\ell(t^je)Z^{-j}
+\quad(e\in E_{F_t}).
+\tag{J.9}
+$$
+
+Negative powers are taken in $R$. This convention is equivariant:
+reindexing the finite sum gives $\rho(te)=Z\rho(e)$.
+Equation (J.3) gives $\mathscr A_X\in I$, and
+
+$$
+\mathscr A_X'(1)=-J_\ell.
+$$
+
+For the actual generator $u_t$, R619 equations (619.6)-(619.8)
+and the original R198 evaluation state
+
+$$
+A_u(Z):=\rho(u_t),\qquad
+A_u(1)=0,\qquad A_u'(1)=-13i\ne0.
+\tag{J.10}
+$$
+
+Thus $A_u=(Z-1)v$ for a unit $v\in R$.
+For an arbitrary integral ordinary correction
+$e=(t-1)h(t)u_t$, its actual residue vector is
+
+$$
+\rho(e)=(Z-1)\overline h(Z)A_u(Z),
+$$
+
+where $\overline h$ is reduction modulo $p$.
+The reduction map $\mathcal O[T]\to R$ is surjective;
+every polynomial in $R$ is the reduction of coefficients
+of an element of the genuine completed ordinary unit lattice.
+The residue group is finite and killed by $p$, so the continuous
+residue map factors through this reduction. It follows that
+
+$$
+\boxed{\rho\bigl((t-1)E_{F_t}\bigr)=I^2.}
+\tag{J.11}
+$$
+
+For clarity, the reverse inclusion is constructive: given
+$(Z-1)^2g(Z)\in I^2$, choose $\overline h=g v^{-1}$,
+lift its $43$ coefficients to $\mathcal O$, and use the
+ordinary norm-zero unit $(t-1)h(t)u_t$.
+No dimension count or local replacement of the unit lattice
+is used.
+
+Combining (J.8) and (J.11) gives the exact full image
+
+$$
+\boxed{
+\{\mathscr A_{X'}:X'\in\mathcal W\}
+=\mathscr A_X+I^2,\qquad
+\mathscr A_X\bmod I^2=-J_\ell(Z-1).
+}
+\tag{J.12}
+$$
+
+Hence $J_\ell$ is the complete remaining coordinate after fixing
+the original divisor and norm. The higher $41$ residue coordinates
+can all be changed by actual ordinary norm-zero units.
+In particular there exists a witness in $\mathcal W$ whose
+whole residue vector is exactly $-J_\ell(Z-1)$.
+Its only possibly nonzero coefficients are $L_0=J_\ell$ and
+$L_{42}=-J_\ell$. This is an existence statement, not an
+evaluation or a coordinate construction of that witness.
+
+## 6. Exact zero test and the base-unit norm correction
+
+The complete image calculation proves
+
+$$
+\boxed{
+J_\ell=0
+\iff
+\text{some }X\in\mathcal W\text{ has }L_j=0
+\text{ for every }0\le j\le42.
+}
+\tag{J.13}
+$$
+
+Equivalently, all the indicated normalized local-unit residue
+classes are $43$rd powers, while the full ordinary divisor and
+exact norm in (J.1) remain fixed. This asserts only the residue
+conditions displayed in (J.2); it does not silently add a local
+norm condition on the removed uniformizer.
+
+If the exact norm is allowed to change by an ordinary base unit,
+a correction $e=h(t)u_t$ always kills the whole normalized residue
+vector: $(A_u)=I$ and $\mathscr A_X\in I$ imply that
+
+$$
+\overline h(Z)A_u(Z)=-\mathscr A_X(Z)
+$$
+
+has a solution in $R$. Lift it to $\mathcal O[T]$ and write
+$c=h(1)\in\mathcal O$. Then
+
+$$
+\operatorname{div}(X+e)=P_+P_0,\qquad
+N_T(X+e)=A_\alpha+c u.
+$$
+
+Differentiation at $Z=1$, with the signs in (J.9)-(J.10), yields
+
+$$
+\boxed{c\bmod p=-\frac{J_\ell}{13i}.}
+\tag{J.14}
+$$
+
+Every residue-killing ordinary correction has this same
+augmentation modulo $p$. Indeed
+$\operatorname{Ann}_R(A_u)=I^{42}=kN_T$, and the augmentation
+of $N_T$ is $43=0$ in $k$. Conversely the solution above always
+lifts to an ordinary correction, so (J.14) is the exact required
+mod-$p$ base-unit norm change. Since $J_\ell\in\mathbf F_{43}$,
+the displayed coefficient belongs to $i\mathbf F_{43}$.
+
+## 7. What is still required
 
 The quantity (J.4) is fixed by the actual field,
 ordinary divisor, norm, prime label, and residue
-convention. Its value has not been computed. The
-principalization existence proof does not supply
-its coordinates or its q residues.
+convention. Its value has not been computed. Equations (J.11)-(J.14)
+identify the entire ordinary residue ambiguity, but the
+principalization existence proof does not supply a numerical
+first moment or a principalization's coordinates.
 
 R720 proves the original ordinary bridge
 $C=9ib$ and

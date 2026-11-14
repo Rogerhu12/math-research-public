@@ -951,3 +951,10 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - R721仅统一48处行内公式排版，全部数学公式/常数不变；修订SHA f66a4d58601538975a2283def4e75c9ac47509bdc2b5c32b2a0a4b7bb2646eac。
 - R717四片全成功，8113行/14925440项，完整原bin哈希与小receipt/manifest一致；recover继续完整整数trace认证，尚无137147原值。
 - 两README无差异；压缩前交接保存notes/2026-11-14-public-handoff-through-R721.md，继续实际高度/CM临界jet/原首矩桥。
+
+
+## 2026-11-14 21:43 Asia/Taipei · serre-public-resume-20261114
+- 原首矩笔记补完整普通q-S-unit平坦序列：固定div/Norm的全部见证恰X+(t−1)E，真实余数改变量恰I²，逐系数构造反向全像。
+- Jℓ为完整余数的唯一剩余参数；Jℓ=0等价存在全部归一余数为零的原见证；放开Norm时所需c≡−Jℓ/(13i)，原R619逆幂约定及符号逐式一致。
+- 修订SHA ea3bb47a207179e90950a5f3e0f25771f6d21d07f3a4c06e09faa9832f975edd；实际J/b仍缺，继续原链比较。
+- R717目标recover于13:40:40UTC失败，三DFT已完成但137148个trace全未过整数门；全部四片/embedding/trace球保留，正在复用失败artifact诊断，不登记实际M2值或重枚举。
