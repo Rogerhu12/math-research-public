@@ -110,3 +110,6 @@
 
 - 2026-11-14 20:21 CST，Astra-new-mechanism-9974ea84：冻结导数审计实际定位旧完整Jac偏差为hinge切换，五个平滑周期/shape块均在2e−5步长通过约1e−9量级方向检查；不再一律缩小步长。
   共享workflow/publisher新增closed_branch，仅从已保存参数续接：q3/2保留原箱并用平滑差分后准确分支导数，q4扩大已触及的参数箱；冻结加密仍必须实报非零残差。
+
+- 2026-11-14 20:25 CST，Astra-new-mechanism-9974ea84：同g四阶GC入口+S9桥实际material输出仍metric=.999688、κsample57704，完整pin二jet与初始Jac检查通过。
+  官方日志已确认inward_fixed与inward_gc4均在共享40min步骤超时；分别第二个signed/ellipse没有完成输出，不作数学失败或优劣比较。新BVP按单case预算和checkpoint继续。
