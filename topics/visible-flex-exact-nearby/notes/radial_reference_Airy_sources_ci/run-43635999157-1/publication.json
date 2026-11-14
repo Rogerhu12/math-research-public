@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43635999157",
+  "reviewed_pull_history": [
+    {
+      "before": "2b5de38c629076b1cf3c7bc445b283fe5726b102",
+      "after": "2b5de38c629076b1cf3c7bc445b283fe5726b102",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "2b5de38c629076b1cf3c7bc445b283fe5726b102",
+      "after": "56677b0f11922e67de47343dec9a9ba634040787",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/process.json",
+      "bytes": 53604,
+      "sha256": "54f24e5d4750a3607acfaa1e1b11e7ea58eb390a8270d07c5e78b7f77943b15d",
+      "original_sha256": "54f24e5d4750a3607acfaa1e1b11e7ea58eb390a8270d07c5e78b7f77943b15d"
+    },
+    {
+      "file": "consumers/radial-reference-Airy-sources.json.gz",
+      "bytes": 3434233,
+      "sha256": "fec8740c26064b973c61828a960c3e5c7e864b83542222c155b9e56474c39853",
+      "original_sha256": "fec8740c26064b973c61828a960c3e5c7e864b83542222c155b9e56474c39853"
+    },
+    {
+      "file": "consumers/radial-reference-Airy-sources.stdout.log",
+      "bytes": 160,
+      "sha256": "9cd3439dc4870003f9b1c097e48097e1b0773556e3f1fe99fbebe5b1e6908c64",
+      "original_sha256": "9cd3439dc4870003f9b1c097e48097e1b0773556e3f1fe99fbebe5b1e6908c64"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 42930,
+      "sha256": "51dc1cf177e6c62ebcea23f0949fd84848ff555395f65c74215e65df63c34b28",
+      "original_sha256": "51dc1cf177e6c62ebcea23f0949fd84848ff555395f65c74215e65df63c34b28"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2472,
+      "sha256": "d027062143f1cce021eb7477cd82dd67feb5cc116a8dc61c9a4089f30f5b372b",
+      "original_sha256": "d027062143f1cce021eb7477cd82dd67feb5cc116a8dc61c9a4089f30f5b372b"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}

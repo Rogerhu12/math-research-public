@@ -1,0 +1,56 @@
+{
+  "kind": "actual_public_radial_reference_Airy_sources_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43635999157",
+  "run_attempt": "1",
+  "workflow_commit": "2b5de38c629076b1cf3c7bc445b283fe5726b102",
+  "worker_sha256": "d33f507572c5b7a5cc3acc91552f84ac224c52cfb74e3aed6080324c3c8cc3a5",
+  "manifest_sha256": "831bbaa726f36b1bb9e0b69fec67e55031b54ef341dfa77b6a7d5cf549f9bae2",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T20:10:19.623578+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "2b5de38c629076b1cf3c7bc445b283fe5726b102",
+      "after": "2b5de38c629076b1cf3c7bc445b283fe5726b102",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "2b5de38c629076b1cf3c7bc445b283fe5726b102",
+      "after": "56677b0f11922e67de47343dec9a9ba634040787",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "all_original_target_coefficient_ray_and_amplitude_solves_recomputed": 0,
+  "original_artifact_receipts": [
+    {
+      "name": "root",
+      "run_id": "43616813816",
+      "path": "root/consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+      "bytes": 5923431
+    }
+  ],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-radial-reference-Airy-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_radial_reference_Airy_sources_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-radial-reference-Airy-sources-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-radial-reference-Airy-sources-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-radial-reference-Airy-sources-CI-inputs.json",
+    "--manifest-sha",
+    "831bbaa726f36b1bb9e0b69fec67e55031b54ef341dfa77b6a7d5cf549f9bae2",
+    "--out-dir",
+    "/__w/_temp/visible-exact-radial-reference-Airy-sources-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-radial-reference-Airy-sources-science/originals"
+  ],
+  "complete_original_inputs_verified": 18,
+  "actual_scientific_checkout_commit": "2b5de38c629076b1cf3c7bc445b283fe5726b102",
+  "mathematical_wall_seconds": 14.942760840999995
+}
