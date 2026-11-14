@@ -1,0 +1,23 @@
+{
+  "scope": "Actual full-DN attempt with explicit nonaxisymmetric-prefix controls.\n\nThe original equations, complete modes, tail client, Newton, line search,\nRMS and BC tolerances are retained.  Only the separately serialized scalar\ndesign supports change.  The domain preflight includes the two actual\nLobatto RMS queries, and the unchanged QR factor exposes its small matrix,\nnear-null vectors and linear residual locations before any acceptance.\n",
+  "source_sha256": "7bb30855e5f0f5111ef55bbf9fafad8f6f0e8cdc26243780eda5b96600a3255a",
+  "original_sources_sha256": {
+    "geometry_20261114_full_dn_solve.py": "c6a1f4d8025508ee49fe9324b3401440a2de88329d0b78ef0d0814860c2d3162",
+    "geometry_20261114_prefix_controls_profile.py": "f019e6b33c8e1776d5cca87c22efadd0f999766b894be855efb53ad10b4d6a24",
+    "geometry_20261114_full_scalar_profile.py": "8ff23e31a58d0f8b087929d69ac8d6f9b6f2777615e50eef5ebe40ed7b6bed6b",
+    "geometry_20261114_separated_qr_bvp.py": "c76bde190ff67a9e148d230c8e5e7d7a7899324c055e67faac6679b8fba10e39",
+    "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+    "geometry_20261114_full_dn_boundary.py": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2"
+  },
+  "control_schema": "complete-prefix-controls-scalar-profile-v2",
+  "control_scheme": "three-nonaxisymmetric-prefix-intervals-v1",
+  "warm_sha256": "c7641c5f72b4afaddc259fc2cca36b0d554b6d62372d22f3334dd375308145a0",
+  "original_saved_warm_nodes_retained_exactly": true,
+  "new_nodes_may_sample_original_analytic_zero_control_seed": true,
+  "unchanged_acceptance": {
+    "collocation_RMS": 1e-06,
+    "boundary_residual": 1e-11,
+    "complete_original_Newton_and_line_search": true
+  },
+  "new_acceptance_claim": false
+}
