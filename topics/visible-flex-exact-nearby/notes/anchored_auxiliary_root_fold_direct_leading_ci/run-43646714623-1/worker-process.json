@@ -1,0 +1,50 @@
+{
+  "kind": "actual_public_anchored_auxiliary_root_fold_direct_leading_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43646714623",
+  "run_attempt": "1",
+  "workflow_commit": "a750721aa49fa4c9cb31c74f1c888cf6284d6186",
+  "worker_sha256": "46edf8cb0b8c8e30eb1f838759faac4d017f0e43ca667bbd84c17e417876e2f8",
+  "manifest_sha256": "1f5de8e5f2a877bad414ec50d50b47ca8ac816a05ef1e90303e3dc79edecbdb9",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T22:11:21.101285+00:00",
+  "complete": false,
+  "readme_checks": [
+    {
+      "before": "a750721aa49fa4c9cb31c74f1c888cf6284d6186",
+      "after": "a750721aa49fa4c9cb31c74f1c888cf6284d6186",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "a750721aa49fa4c9cb31c74f1c888cf6284d6186",
+      "after": "a750721aa49fa4c9cb31c74f1c888cf6284d6186",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 1,
+  "final_topic_complete": false,
+  "original_targets_primitives_cubics_and_completed_domain_jets_recomputed": 0,
+  "auxiliary_extension_only": true,
+  "physical_background_identity_outside_original_piece_claimed": false,
+  "original_artifact_receipts": [],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-anchored-auxiliary-root-fold-direct-leading-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-anchored-auxiliary-root-fold-direct-leading-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-anchored-auxiliary-root-fold-direct-leading-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-anchored-auxiliary-root-fold-direct-leading-CI-inputs.json",
+    "--manifest-sha",
+    "1f5de8e5f2a877bad414ec50d50b47ca8ac816a05ef1e90303e3dc79edecbdb9",
+    "--out-dir",
+    "/__w/_temp/visible-exact-anchored-auxiliary-root-fold-direct-leading-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-anchored-auxiliary-root-fold-direct-leading-science/originals"
+  ],
+  "complete_original_inputs_verified": 20,
+  "actual_scientific_checkout_commit": "a750721aa49fa4c9cb31c74f1c888cf6284d6186",
+  "mathematical_wall_seconds": 0.36418746299999327
+}
