@@ -161,3 +161,7 @@
 ### 实际有限193维完整连续逆
 
 [run43601964129的有符号Green证书](results/R133-supplement-actual-complete-finite193-signed-Green-inverse.md)：完整suffix/jump/0−waist门全部严格，finite193修复中心及真low97 cut映射可逆。全部四个普通源profile/mean保；旧body负窗粗界.794760128029尚未通过响应目标，未授无限逆或Schur。
+
+### 完整端口已知源的新消费入口
+
+[已知repair与真边界的严格消费合同](notes/2026-11-14-R133-cached-Green-known-source-contract.md)保留同一repair算子、全mean/weak source身份、两独立实际边界负荷与原high输出范数。新第五通道在原全部ports上运行，原四列直接复用；待实际run，不授完整PDE响应。

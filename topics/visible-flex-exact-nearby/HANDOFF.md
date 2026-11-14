@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 14:02:37 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 14:04:12 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：cad02acc3069a246dd5ccee3e2b23b0346ef2a05；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：8f9bbe4ac5158718e080fbc21523f0122a1b3e3a；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -50,7 +50,7 @@ geometry43584188751实际26门仅条件充分：同一精确闭C²解η0、全C0
 完整周期外帽B,C真匹配可由径向唯一性付frame/位置周期及腰C²镜像；97线性行不替代非线性全matching。
 newton继续边界/repairδ正high/Green及真qν−Z；phase继续真root/β/strong；tail继续scalar高网及移动mixed middle；root逐条审证即推并接全逆/非线性。子问题完接open下一项，不因阶段结果、时长或等待停止。
 
-M32 repair→旧完整正high解析转授已证，见results/R133-supplement-exact-M32-repair-transfer-of-cached-positive-high-rows.md；newton推进4650行scalar inflation/sweeps与外graph，phase推进同一新global reference正collar，actual δ96宽带另付。
+已部署cached Green已知源consumer（91输入）：复用43601964129全部ports/四原源，仅新repair第五通道和真g0/gR点态叠加；run由新workflow查真实complete artifact自动接。finite193已知误差仍与未知high/full qν分开；特定低193/cut方向收紧同步推进。
 
 尾中间块新增真实三compact控制曲线：原finite-e residual Wronskian给第三相位核A g2>2^-85；准确保持两phase且径向Γ不动，r0=2^-1000ρ^13、ρ=2^-40J^-2，真实θ导数>2^-2590J^-40，无B/δ半径损失。只授第三系数，有限κ散射余项/混频PSD继续；见exact-third-phase-kernel-and-local-two-phase-curve。
 

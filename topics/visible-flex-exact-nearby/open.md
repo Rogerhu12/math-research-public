@@ -123,3 +123,7 @@ run43594139132 的16分段与最终消费全部成功，全部5970格/anchor/jum
 ### 同一repair有限193维连续Green逆实际完成
 
 [完整实际逆](results/R133-supplement-actual-complete-finite193-signed-Green-inverse.md) run43601964129十门全成；6391连续ports/5970接口与最后0−腰闭合全付。四源粗界body负窗约.79476，仍未过.0049954目标。下一消费repair+真边界，并保低193实际源/真cut向量方向收紧；未知high反馈、全qν−Z/Schur另付。
+
+### 原Green复用的真实已知源消费已部署
+
+[新源合同](notes/2026-11-14-R133-cached-Green-known-source-contract.md) 与91输入manifest/两源/workflow已发布。只新执行repair第五分布通道，加真g0/gR于旧完整列后逐格积分；无新Riccati/投影/mean/cap重算。预期粗界未足，实际结果必须原样记账，再做特定low193/cut方向新消费。

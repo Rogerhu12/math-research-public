@@ -471,3 +471,7 @@ T7后的物理M说明现明确C2=(β(Ξ)−β(0))/√B，因此物理第一相�
 ## 2026-11-14 14:02:37 UTC — 有限193维有符号Green逆十门真实全成
 
 亲读完整process/summary并核SHA。run43601964129新child0，6391连续ports及5970接口（含最后0−）全部通过；suffix最小>.91939978、waist>.41826899976。18.34MB原native以10无损parts保全，七原代数门不重算。独立发布真正finite193逆；同步明确旧body粗负窗.794760128029、右单位3319.054557912，不能称响应或全Schur已完成。
+
+## 2026-11-14 14:04:12 UTC — 部署既成Green端口的新已知源消费
+
+完整审完newton五个冻结文本（合同/source/wrapper/91输入manifest/workflow），原blob发布。真实Green43601964129已成功，push选择其完整artifact；代数-only run不能替代。新执行仅已知repair第五通道与原四源+真边界点态组合；原ports/Riccati/mean/cap/投影不重跑，原18.34MBnative只在Actions内。成功相同六输入hash可直接复用。
