@@ -1,0 +1,43 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "snapshot-3d00b805eb79489f23b8e7fcc44115aea3bc0305dd9ed7ba9ca986838175c881.json.gz",
+  "original_bytes": 5683587,
+  "original_sha256": "3d00b805eb79489f23b8e7fcc44115aea3bc0305dd9ed7ba9ca986838175c881",
+  "native_kind": "actual_complete_fixed_eta_quarter_cap_range_v1",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 1024,
+  "original_source_sha256": "54e5ec52033bb109618fde1c840730b4b589280382b2da196d3ea748af4490de",
+  "candidate_sha256": null,
+  "parts": [
+    {
+      "file": "native-new-fixed-eta-quarter-domains-1536-1792.json.gz-3d00b805eb79489f-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "1030ea2bd31d4a90d788d29fae6b2b598b34f3591304305c95d11f71a31b3537",
+      "compressed_bytes": 1991409,
+      "compressed_sha256": "df1ffb6f2ff268f6c5ed6b8e4dcdcc3580af0b42b8a558060293b04e0ebdd1ba"
+    },
+    {
+      "file": "native-new-fixed-eta-quarter-domains-1536-1792.json.gz-3d00b805eb79489f-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "e5565359a0e37a68624304e47369445dc700ce47d0be3453faad886f6fe6a0d7",
+      "compressed_bytes": 1991564,
+      "compressed_sha256": "7598480f7e7974f8e5456a9a88e05fd8b5cc578562413f43b1937115c2599184"
+    },
+    {
+      "file": "native-new-fixed-eta-quarter-domains-1536-1792.json.gz-3d00b805eb79489f-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 1683587,
+      "sha256": "c7eafbc6d1507c01d32f6334aab607ed62c93e8f587c7df5f04ee74c969e5ea2",
+      "compressed_bytes": 1676138,
+      "compressed_sha256": "4cc831296d9c5979187b032857115143f1ba1f270af1f1943cf89c2235fbd8e2"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}
