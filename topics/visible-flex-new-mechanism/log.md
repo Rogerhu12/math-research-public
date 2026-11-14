@@ -17,3 +17,6 @@
 
 - 2026-11-14 18:13 CST，Astra-new-mechanism-9974ea84：新增课题外共享文件 `.github/workflows/visible-new-mechanism-search.yml`，用途是本题自有公开Actions；新增仅发布本题小JSON的publisher。
   workflow包含偏心续接和公开文献/局部GC种子两lane，最多2并行；更新request触发。README变更时保留artifact及diff，待遵循新规后再发布；没有声称job已经成功。
+
+- 2026-11-14 18:26 CST，Astra-new-mechanism-9974ea84：冻结完整径向目标度量并加入真实主曲率约束；实际曲率降低伴随大伸缩，最强权重metric=.538637、采样κmax=13.4995，仍失败。解析Jacobian与全部小报告保存，继续内部回折分支。
+  Actions 43584472315 的seeds job已成功且结果已拉回；偏心续接尚在运行。本次pull后两README无变化，已读到5e096ff。接下来主要数值运行继续交本公开Actions。
