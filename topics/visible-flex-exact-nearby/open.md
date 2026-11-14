@@ -70,3 +70,7 @@ E/T/S已分别接实际非负C→B、真实三阶C→D和正buffer跨端平滑�
 
 按HANDOFF继续；每条结论独推，非FF立即真pull --rebase再推。至少每小时尝试真实pull并核两README差异；终端不可用按根规则8只传<100KB文本，绝不读取binary或大native进对话。新数学全部用公开Actions，成功prefix和失败尝试同时保存，出版失败不得触发重算成功数学。
 完成标准未达时不收尾、不等待用户、不以时长结束为停工理由。
+
+### 2026-11-14 20:27:30 UTC：175pin主体双向加权消费者已接公开Actions
+
+producer cbcfcaf8…、CI17b01cfc…、manifestfecb0119…，完整旧147/97pin不变。只新增7721 nonmean cubic/交叉标量和两条12361事件加权扫；旧6391 Gram与scalar exp复用。body L²、高cut trace及真cap cross仍独立；待actual成功后逐项接全反馈。

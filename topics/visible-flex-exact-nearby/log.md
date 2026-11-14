@@ -345,3 +345,5 @@ root读新科学/main及CI，核worker与原成功版差异、flow和25/20 pins�
 - 2026-11-14 20:11:31 UTC：独立推native-point→Green43635487128真实结果：完整6391/8门/child0；固定负窗.003509417445587<1/200，科学5.133070s/child10.000707s。root核process/summary/source/287pin/native与4真pull空diff，保14物理费/6边界/mean/knownhigh。子问题达门后立即接无限反馈，未结束课题。
 
 - 2026-11-14 20:26:25 UTC visible-exact-astra-0df9：证明实际long的mean商、未拼平完整外返回与全部source接口；保实际残差，继续I−EaTa/强权和无限主体帽反馈。压缩H/open并保完整旧记录；root真pull20:22仍终端不可用，两README blob未变。
+
+- 2026-11-14 20:27:30 UTC visible-exact-astra-0df9：安装固定M32主体双向加权Green的175pin最小消费者；仅新费用和旧核消费，保独立mean/高cut trace。题外新增 .github/workflows/visible-exact-M32-body-cross-weighted-Green.yml，用公开Actions执行和10min真pull；继续全cap/高图接口。
