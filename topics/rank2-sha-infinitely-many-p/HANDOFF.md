@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：43bf8d63d53618be4006d2ec32e8c0c67dfaa396；2026-11-14 18:47:24 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：e4c1104f8091514136d7409add2d41167ad27590；2026-11-14 18:51:41 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推及改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；18:00:10 UTC实际git pull --rebase重试仍报无可用执行环境，随后API核main/两README无变。最迟19:00重试；恢复后先实际pull --rebase核规再接API历史。
@@ -66,3 +66,5 @@ R563：µ−=KH PCh留整个S24²，AH=diag(−1,X)、AK=diag(−1,−X)，D12²
 [一般二重接触](notes/2026-11-14-deep-general-double-contact-and-actual-high-axis-tail-port.md)：r=ell、局部FYY单位的原首核可有二次Hensel因子，判别式H<2T给几何δ=floor(H/2)及原k二次扭曲；不是全局cube。原三高轴源端三角unit，是否读到完整余核尾类仍未付，无实际候选命中。
 
 R564：D14、V=(-ω²,−ω,2,0,−2ω,−2ω)、K42=(-ω²,−ω,2,0,−3+3ω,3)两两正交，whole三β核保PC原二态。负strip=Vdeep/K42unit；其整个J−=βF−(κ)，原E/G/Y/W全部移动，F0含常数log质量、F1含真实log一阶，两者同为p阶可相消，尾p²。正strip仍开，规范K42非R563六度K。
+
+[新文献假设核对](notes/2026-11-14-deep-bertrand-and-new-rank-two-heegner-hypotheses.md)：Bertrand单点非零不付rank2行列式；2611.09192的Thm3.5先假设Sha有限、H5已假设c2非零，derived-Heegner身份不提供本题缺失非零。仅核显示假设，未复核全文证明。

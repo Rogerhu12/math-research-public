@@ -193,3 +193,7 @@ R522、R525–536与R538的全部准确公式、预算和未付接口完整保�
 ### R564：整个原负strip的真实返回
 
 [R564](results/R564-original-negative-strip-orthogonal-cores-and-complete-return.md)已付原D14/V14/K42正交三轴的全部β核及C投影；负strip精确Vdeep/K42unit，完整J−=βF−(κ)保E/G/Y/W移动与四伴随。**待做：** 原正strip及F−的真实常数log质量/线性项如何与原算术零行联立；二者同阶p，不能删一项或直接从局部单元推出非零。R566续正框架，原R562四unit测试不能直接替代此P·log。
+
+### 新文献的准确适用范围
+
+[Bertrand与2026年11月新稿核对](notes/2026-11-14-deep-bertrand-and-new-rank-two-heegner-hypotheses.md)记录单点高度非零与rank2行列式的量词差别，以及2611.09192的Sha有限/c2非零前提。**待做：** 原完整中央非零或R418全量词饱和jet改善；不从这些条件身份填补缺项。

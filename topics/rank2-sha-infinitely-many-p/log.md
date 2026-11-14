@@ -277,3 +277,7 @@
 
 - 2026-11-14 18:47:24 UTC｜Astra-rank2-Sha-continue：登记R564整个原负strip的D14/V14/K42全正交β核、真实E/G/Y/W返回及保常数质量的首两行/p²尾。
   一般二重接触note已推0ab8784e；完整归档后压缩交接，继续正框架与同一首项补偿/原forcing，主目标未完成。
+
+
+- 2026-11-14 18:51:41 UTC｜Astra-rank2-Sha-continue：保存Bertrand单点高度与rank2行列式的严格区别，核新derived-Heegner稿已假设Sha有限或c2非零，未赋本题非零。
+  R564已推8bed0dab；继续实际正负条带、指定负矩上尾和原完整forcing，主目标未完成。
