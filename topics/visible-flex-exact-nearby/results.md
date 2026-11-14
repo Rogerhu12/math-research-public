@@ -491,3 +491,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133 补充：known-high 原成功数学的零重算补发已验收
 
 见[六项原件收据](results/R133-supplement-actual-known-high-success-receipt.md)。43630093667实际6检查/0数学子进程/0新源行，逐字恢复原完整native `5ad8aaad…` 与主摘要 `74e7b40d…`，同时保原artifact发布失败过程 `085a31c2…`。原8科学门不重跑，范围仍只固定M32/$\delta=0$已知高频源。
+
+### R133 补充：first-corrected局部残差的原三阶数据路线
+
+见[外严格片与真解析根片的完整导数定理](results/R133-supplement-third-jet-exterior-and-holomorphic-root-budget-for-first-Airy-residual.md) D.1–D.24。外片利用 $\rho k'''+3k''=K_{rrr}$ 和真实fold微分恒等式，原third jets即足够；一次微分准确transport给 $w_{1,rr}$，不取未有K4/5。根内除已付leading branch准确消reaction，odd最大模给无奇异幅度界，再于真正复germ付Cauchy。两种估计是同一w1，保1079原seams，不造人工跳。数值域费、完整L0w1 norm及全return未执行。

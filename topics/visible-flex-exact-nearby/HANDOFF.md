@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 19:30:31 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 19:30:35 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则、同步
 
 仅 Rogerhu12/math-research-public；所有新数学只在其Actions。每结论独推；非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
 本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，19:05非FF后再次真pull --rebase仍No usable execution environment。根规则8暂只connector<100KB文本，禁任何binary/gzip，先查size；新摘要≤60KB。API不冒称pull；reviewed runner长算每10min真pull，phase child≤50min前后pull。root亲核knownhigh43628921664真pull至964fa923c5204baabecadac3e014d64a4c9bd4e9；该4次、quarter8range/finish和负窗所有README diff均空。终端恢复即回git；每小时重试，nonFF立即再试。
-最新远端 main/两README blob 核：291dea47663af4644cd5ba9e6c442952197f5a95；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最新远端 main/两README blob 核：cc63139fb3fae12f99ee332bae4a41ac0dddb3ee；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 此前9928B H逐字归档 notes/2026-11-14-handoff-before-three-actual-consumer-results.md；全部更早H/open归档链保。历史SHA/失败/源口/零重算合同见results/manifest/H归档，禁止重算已成数学。
 
@@ -38,7 +38,7 @@ fullδ B1–13原proof/精确ρ15/β*及δ*见归档；43598755503原11门全|j|
 
 root/forcing/Cauchy/seams全部实际证书及完整失败历史见相应results/旧H归档：rootfold43616813816（1300行/15+6×7门/native dbaaf9f7…）；forcing43624260519（1328行/14门/39.161969s/native54a79bf8…），真R1/50域成立，不授97小门。negativeCauchy43621934843（792行/8门/native3a214897…）完整6R/mean/普通及jump窗保。
 seams43625828234真child0/39门/3.120060s/1079接口（576负/503正），native871aa54d…/processd7cea34e…40085B；A1–14完整symbol/真Airy/JP-U顺序已核，负mixedsum<.001410784445846、正raw<8.4384155779e−5。仅firstseam强窗；全return/正全mean转换另付，旧target/forcing/seam全部零重算。
-U1–29 proof3e02303a…/B1–13 proof3bade0ac…已root/tail核；SV符号、J/J*负窗、全部mean正确。15pin leading source56b68983…/manifest7290cbb0…实际43629465215 child0/7门/52.329910s/1328行×6R；native7662350a…4837715B/processf888e47e…48987B/worker5938996a…2772B，root已亲核六case/8项/原两pull至46d6140c760b58a111c15ef8aef1ca808e713275，README diff空。R.001负源<1.524430e18、负primitive组件<2.310602e17，主导RQ J ED；它们是大上界，不能推出真实norm大或97失败。exact径向常部已消。actual报告独推；M1–19预算394068a9…已推；20pin消费者本次推sourcef3a5d7b0…/manifest29465d2a…，旧15pin零改，只读7662350a…原1328 norm行。root/tail核full nonmean J、rank右gain/完整word一次κ、parity最后限制；待actual。root正写L0w1两片法：外段只原third jets，根内付原复germ，不加高target。完整return仍未成。
+U1–29 proof3e02303a…/B1–13 proof3bade0ac…已root/tail核；SV符号、J/J*负窗、全部mean正确。15pin leading source56b68983…/manifest7290cbb0…实际43629465215 child0/7门/52.329910s/1328行×6R；native7662350a…4837715B/processf888e47e…48987B/worker5938996a…2772B，root已亲核六case/8项/原两pull至46d6140c760b58a111c15ef8aef1ca808e713275，README diff空。R.001负源<1.524430e18、负primitive组件<2.310602e17，主导RQ J ED；它们是大上界，不能推出真实norm大或97失败。exact径向常部已消。actual报告独推；M1–19预算394068a9…已推；20pin消费者本次推sourcef3a5d7b0…/manifest29465d2a…，旧15pin零改，只读7662350a…原1328 norm行。root/tail核full nonmean J、rank右gain/完整word一次κ、parity最后限制；待actual。root/phase已核D1–24两片L0w1定理本次推：外段原third jets+严格h，根内除真leading branch的复germ/Cauchy；同一w1无人工seams，不需新K4/5。所有域/数值费用待consumer，原old product的完整sup须实付。完整return仍未成。
 
 ## 当前 tail_connector：全mean开放逆已成，真实外闭合未成
 

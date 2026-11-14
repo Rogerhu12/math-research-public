@@ -199,3 +199,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14：完整 directed matrix 消费者已部署
 
 20pin/source `f3a5d7b0…`/manifest `29465d2a…`；旧15项逐字不变，原已成1328 moment行/native `7662350a…`只读。新预算保原全mean/全部投影/六窗/正collar-body分割，新的矩阵和积分prefix独立保存。原3大native全部复用，禁止重算旧norm或target。数值改善待真实child/gates。
+
+### 2026-11-14：L0w1 不需重求高阶 intrinsic target
+
+[D.1–D.24](results/R133-supplement-third-jet-exterior-and-holomorphic-root-budget-for-first-Airy-residual.md) 已root/phase逐式核。消费者应复用原third jets与小复root-germ，严格检查内外覆盖/正角宽/old product完整sup；外段仅付严格h的商因子，根内使用真leading branch归一后的解析积分。没有把canonical的sup转授更大old product，也没有跨原cubic seam做Cauchy。继续实际域/完整source预算。
