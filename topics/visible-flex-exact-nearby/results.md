@@ -523,3 +523,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133：实际完整有限193维普通L²逆核（2026-11-14 19:50:14 UTC）
 
 [实际报告](results/R133-supplement-actual-finite193-ordinary-L2-Green-kernel.md)：公开43633074696 child0/9门，185.005037s，6391新Gram及6391全cell核，原6391port/5970接口/virtual waist/独立mean和所有真实边界列不变。普通全[0,.9]L²体源→负窗L²<10488.564543774、→全内L²<22386.327560863、C0<181981.908212897；这些统一算子上界与特定ν源误差证书不同。native `ac4441cb98afabbbc646697434caebf464a22f702e2d0fa7d8e5910efd7ef448` 18075636B/10片，process `7689ee4fb3a99cdaa47c7cdb5262b0419a16964a99a1dcf12cbc97df6a68a3c8` 8121B、summary `fd88f3dd72c3983ca011d1a66520f91db0c7108118611c3a5b99f97f195fe9be` 20010B均root亲核。全部9门及4次真实pull至feb5a20e5e99b58515667500f7d5ce4fb61a8b82、README空diff已核。未知high BVP、真实cap无限cross-block、完整Schur及δ/非线性转移仍未付。
+
+### R133：实际64个同germ Taylor缺点及完整Hessian（2026-11-14 19:51:06 UTC）
+
+[实际报告](results/R133-supplement-actual-missing-midpoint-Taylor-Hessian.md)：43633412397 child0/26门，40.001434s（native32.561317s）；64派生中点、64新残差、16local更新，0target，原7844及1325未受影响行逐字保。真实诊断16fallback原预算占selected数值majorant约.99988877662；按完整四源比较后选tight-split，additive<5.884046519508e−7（原6.417342110712e−7），物理Hessian源<5.861450832307e−7，原resolvent不变。native `f85bddc8c1ac7e30a6790818fb52596c88e193fff9312cd4f2bfe20b07549759` 7538124B/4片；process `2fbb9f43f25d99e8bedccc0ddcde1993c8d15f45385121411928bcba5104c23e` 26846B、summary `3b04068d298d303d4ebc58f6003fc5a3b326ad8905a9c5f0ee3b4d812e4526df` 29251B均root亲核。26门/4真pull至365e1c40c0ff0357a8915fda4c3ec5427842c0e1、README空diff保。尚未执行本次同Z Green转换，未声称响应1/200；继续只补真正缺失的原生点，不重算已有whole域。

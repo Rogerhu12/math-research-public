@@ -227,3 +227,7 @@ A1–18保完整输入/输出/mean及真ray，可用同strip复sup替代旧C2符
 ### 已得到G_L，继续真实low/high Schur（2026-11-14 19:50:14 UTC）
 
 43633074696给同一repaired M32中心的完整有限193普通L²体源逆。下一步必须配真正高频BVP逆及双向body/cap耦合；内区M32的97..160有限相互作用不能转授到真实帽DN的无限cross-block。
+
+### Taylor实际改善后：接同Z Green并只补真正缺点（2026-11-14 19:51:06 UTC）
+
+43633412397完整26门成功，additive降至5.884046519508e−7仍较宽。279pin Green后继仅消费新完整Hessian，保物理14项/未知operator/全97+mean+knownhigh。newton接64个原未保存的真实point-only值；旧7908 whole/7844原残差/Taylor64派生残差全保，不重复。
