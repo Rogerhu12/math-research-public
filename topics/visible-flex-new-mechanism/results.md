@@ -39,3 +39,5 @@
 - [R17：旋转参考的线性平端相容性与固定圆领零 trace](results/R17-revolution-linear-flat-port-compatibility.md) — 已证明单调平端的高角模 Robin 条件、零 trace 唯一性和有限阶二jet；未弯 R128 小幅方向不能提供该参考所需的高角模 trace。只限旋转基点线性问题，不排除强非旋转有限分支。
 
 - [R18：四阶简单根外尾的真实解析存在与唯一相位](results/R18-analytic-fourth-order-outer-germs.md) — 已用非共振 Fuchs/Euler 解析收缩证明每个非零复首项对应唯一解析外尾，仅公共幅相自由；不是全区 profile 或实际曲面族。
+
+- [R19：C4 外尾相位唯一性与非负 D 的正 C 分支排除](results/R19-C4-outer-tail-rigidity-and-D-sign.md) — 已将解析外尾唯一性推广到任意非零四阶首项的 C4 输入，并用不除 L 的积分恒等式排除 C>0、D≥0 的双端归零。不是一般曲面刚性定理。
