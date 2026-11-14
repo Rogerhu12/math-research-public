@@ -1,0 +1,119 @@
+{
+  "schema": "deterministic-initial-GH-evaluation-selection-v1",
+  "rule": "32/64 first jets <= limit selects 32; otherwise compare 64/128 and select 64 if passed; otherwise no optimization",
+  "first_jet_limit_exact": "1/10000",
+  "comparisons": [
+    {
+      "GH_orders": [
+        32,
+        64
+      ],
+      "all_full_physical_identities_and_exact_coefficients_equal": true,
+      "identity_bundle_sha256": "9bb46da7fa09d6d1a24357f046cf442d00c991d849f684cb9c26d78b2d29c8cf",
+      "radial_nodes": 61,
+      "angular_nodes": 192,
+      "radial_center_quadrature_order": 4,
+      "only_GH_evaluation_order_changed": true,
+      "objective_costs_at_the_same_fixed_coefficients_and_grid": [
+        0.08642400129047988,
+        0.08642400039514114
+      ],
+      "patch_scalar_jet_max_differences": {
+        "value": 5.7491199800807635e-08,
+        "s": 1.0775144148933435e-05,
+        "ss": 0.00676906922467424,
+        "theta": 6.043698212332416e-06,
+        "st": 0.003946775901233934,
+        "ss_theta": 1.5103476738640893
+      },
+      "whole_grid_position_jet_and_R_differences": {
+        "X": 2.3084701709372963e-10,
+        "Xs": 1.4304277333033048e-07,
+        "Xt": 4.672325344189388e-09,
+        "Xss": 4.5814291954101254e-05,
+        "Xst": 2.31315045542589e-06,
+        "Xtt": 1.0229485863989896e-06,
+        "R": 4.502647096962444e-06
+      },
+      "patch_rows": [
+        {
+          "t": 0.746,
+          "delta": 0.09999999999999998,
+          "first_scalar_jet_difference": 0.0,
+          "ss_scalar_difference": 0.0,
+          "R_difference": 0.0
+        },
+        {
+          "t": 0.7571111111111111,
+          "delta": 0.0888888888888889,
+          "first_scalar_jet_difference": 7.0091349582135365e-06,
+          "ss_scalar_difference": 0.002878181752180353,
+          "R_difference": 3.307290582029971e-06
+        },
+        {
+          "t": 0.7682222222222223,
+          "delta": 0.07777777777777772,
+          "first_scalar_jet_difference": 1.0775144148933435e-05,
+          "ss_scalar_difference": 0.00676906922467424,
+          "R_difference": 4.502647096962444e-06
+        },
+        {
+          "t": 0.7793333333333333,
+          "delta": 0.06666666666666665,
+          "first_scalar_jet_difference": 9.347775400847524e-06,
+          "ss_scalar_difference": 0.006022733467546004,
+          "R_difference": 3.817554039912018e-06
+        },
+        {
+          "t": 0.7904444444444444,
+          "delta": 0.05555555555555558,
+          "first_scalar_jet_difference": 1.4942827100128397e-06,
+          "ss_scalar_difference": 0.00037305483078853285,
+          "R_difference": 7.111186715947619e-07
+        },
+        {
+          "t": 0.8015555555555556,
+          "delta": 0.0444444444444444,
+          "first_scalar_jet_difference": 1.000984464205601e-07,
+          "ss_scalar_difference": 2.6769839195139866e-05,
+          "R_difference": 9.503455295624175e-08
+        },
+        {
+          "t": 0.8126666666666666,
+          "delta": 0.033333333333333326,
+          "first_scalar_jet_difference": 4.586605983902814e-09,
+          "ss_scalar_difference": 1.036563503475918e-06,
+          "R_difference": 4.738128552614434e-09
+        },
+        {
+          "t": 0.8237777777777778,
+          "delta": 0.022222222222222143,
+          "first_scalar_jet_difference": 1.0477174683387602e-11,
+          "ss_scalar_difference": 9.314476301369723e-09,
+          "R_difference": 4.524277672246028e-12
+        },
+        {
+          "t": 0.8348888888888889,
+          "delta": 0.011111111111111072,
+          "first_scalar_jet_difference": 2.1316282072803006e-14,
+          "ss_scalar_difference": 4.547473508864641e-12,
+          "R_difference": 6.724085362889825e-15
+        },
+        {
+          "t": 0.846,
+          "delta": 0.0,
+          "first_scalar_jet_difference": 0.0,
+          "ss_scalar_difference": 0.0,
+          "R_difference": 0.0
+        }
+      ],
+      "differences_are_not_continuous_error_bounds": true,
+      "GH_cost_difference_is_not_optimization_improvement": true
+    }
+  ],
+  "selected_order_for_optimization": 32,
+  "order_for_saved_diagnostics": 32,
+  "heat_evaluation_accepted": true,
+  "all_comparisons_hold_exact_model_space_metric_anchor_heat_and_coefficients_fixed": true,
+  "second_jet_differences_saved_without_claiming_a_curvature_certificate": true
+}
