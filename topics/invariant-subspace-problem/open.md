@@ -106,6 +106,8 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R285 形式约束不足](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)及[无界族](results/R285-appendix-unbounded-formal-sos-costs-with-strict-zero-mode-positivity.md)证明：仅两条零模正块、旧普通相邻边、所列仿射/粗占据界，连S1/S2的任意统一有限常数都不能推出。该族不是Boolean模型，原c1未被否定；后续必须利用完整逐坐标creation/硬核或全出生顶端结构。
 
+[R286 固定源全部高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源f的Ran X^(1/2)及能量；原慢尾固定出生/固定偏移块统一为C(m+1)^s[Λ/(m+1)]^j/(j!)²，原完整幂去阶乘后仍有几何尾和。实际流t_q的祖先出生随q增大，固定birth塔在q>d+s−2后无分量；原受限逆后的源不自动保有限支持/固定birth，所以跨出生graph、完整e_q和N=M保持开放。
+
 [R284 实际零模共同Gram](results/R284-cross-birth-zero-occupation-grams-and-exact-schur-lower-bound.md)给Q及R=(2I−C1)B*L3−3Q的准确零模交叉，二阶费用增加真正高birth桥及R Y3†R*。有限全正权p≥2压缩严格正；[Fischer/局部附录](results/R284-appendix-fischer-remainder-and-local-inverse-square-root-control.md)付2/(M−1+2s)余量和固定物理F不损外尾的局部界。J*e_I确在X^(1/2)像中，未付完整X^-1域、一般首边平方增长或原graph测试识别；保全部实际交叉，不能仅凭这些正块推S1/S2。
 
 [R279 全高度仿射 MP 比较](results/R279-bosonic-affine-primitive-gram-transfer-and-low-occupation-bounds.md)给 X_n≥I+(n/r)(X_r−I)，全有限合法范围/无限正 ℓ² 行均成立。全部低占据相邻常数改善，首边 sδ≤1/(2√2) 已得 c1；原慢尾范围 s≤(m+1)/(6√2)，未覆盖一般巨出生。真硬核 Γ2=2I+4L*L+M*M 的联合 M 能量仍缺平方下界；[共同 annihilator 反例](notes/2026-11-14-common-annihilator-affine-sharpness-789f-next.md)说明仅 Euler/全坐标不变性不足，反例不是 Boolean。

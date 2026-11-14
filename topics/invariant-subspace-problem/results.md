@@ -811,3 +811,7 @@
 ### R285：两个真实型零模正块不足以控制更强首边 SOS
 
 [完整点例](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)及[全参数无界族](results/R285-appendix-unbounded-formal-sos-costs-with-strict-zero-mode-positivity.md)。x≥4的明确一维数据保旧三条普通边比1/2、相关仿射界、两零模块严格正及粗占据界，却使S1相对费用x(x−4)²/16、S2费用(x+4)²/64+1/2无界。因而所列有限形式后果不足，不能只靠Schur/Cauchy–Schwarz自动付创新；未实现全硬核/Serre/顶端系统，所以不是实际Boolean反例，原相邻常数一和ISP仍开。
+
+### R286：固定有限源的真实ℓ¹零模逆能量与全部高度统一界
+
+[完整证明](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)。两个固定正权锚给全部附加尾位一致coherent界，真实ℓ1 creation像绝对合成后经同一完整右逆返回原有限源，准确落入逆平方根形式域。原慢尾固定源块同时控制全部高度及指数加权和，原未除阶乘幂另付几何和。实际测试流的谱旗显示其祖先出生随窗口上移，固定出生塔最终无分量；这使已证固定源估计与尚未支付的原graph跨出生费用明确分开，N=M及普通ISP仍开。

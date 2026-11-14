@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `d4af39c68f6ca37b7d968db7e22fcb8ae165d2e7`（2026-11-14 07:06:57 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `ab795771de7ed3e2caf18c05dd7114be92ad78fe`（2026-11-14 07:15:34 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`。旧临时树不在；丢失正常预对偶修正已重建 R272，丢失两异常位完整 MP 已重建 R273（148 有理例）。
@@ -35,14 +35,14 @@
 - **R281：** 全出生首边与全部高度最优普适常数相同，有限强权可回传严格违反；等权中央边迫C≥1，八位(4,4,1,1,1,1,1,1)首比22801/43836>1/2，未证上界1。
 - **R283：** 真实惰性反对称对把全部真MP/Γ精确嵌到任薄1/2<sδ<1/2+ε且δ任小的带内，出生费用不能删；该带已含一般常数难题。
 - **R284（已推）：** 两个真实跨birth零模Gram把Q/Δ接到联合M能量，Γ2≥4Γ1−2I+Γ2 B_s B_s*Γ2+R Y3†R*；有限正权p≥2零模压缩严格正。另Fischer余量2/(M−1+2s)及局部物理F/单I的无外尾coercivity已付，J*e_I仅得Ran X^(1/2)和逆平方根能量。完整首边平方下界、S1/S2及原graph识别仍开。
-- **R285（本提交）：** 明确标量正数据及x≥4参数族满足旧普通边、仿射界、两个R284严格零模块和粗占据界，却使两条更强S1/S2费用无界。只排该有限形式推理，不是Boolean反例。续逐坐标真实creation/Gauss系统。
-- **R286（完整稿待提交）：** `notes/2026-11-14-fixed-source-l1-zero-mode-inverse-energy-789f-next.md`，双锚coherent常数+真ℓ1 creation和给固定有限源的逆平方根能量；已追加原慢尾全height统一/原幂几何和，实际t_p祖先高birth与固定birth谱旗不交，范围段最后在补。
+- **R285（已推e7cca4f）：** 明确标量正数据及x≥4参数族满足旧普通边、仿射界、两个R284严格零模块和粗占据界，却使两条更强S1/S2费用无界。只排该有限形式推理，不是Boolean反例。续逐坐标真实creation/Gauss系统。
+- **R286（本提交）：** [完整证明](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)。双锚coherent常数与真实ℓ1 creation合成付固定有限源逆平方根能量，原慢尾全部height统一且原幂几何和已付。实际t_q只含祖先birth≥q−d+i+2；q>d+s−2时固定birth s塔分量为零，所以不能据此删除跨birth graph费用或推出N=M。
 - **R287（完整稿待提交）：** `notes/2026-11-14-normal-moving-phase-two-sided-continuation-789f.md`，双边移动角色及任意可和闭单位盘逐位参数，纯次数Fourier投影保分母范数，B≤b·2^(4m),b<770/64时真空比仍指数消失。根正读完整carry预算，未排一般见证。
 - **代理后续：** boundary 转R273真实两异常位4D相邻序，literature 续S2逐物理坐标；normal回实际固定秩ν_m全链；R271 已闭任意 birth1 首/末边、两组＋一位等，不重复成新缺口。
 
 ## 3. R150 与其他主接口
 
-R150 的 Cat1/2/3 且 essT3=3 临界与全部 rankAy8 自然点已分类；余 g≠0、rankAy9 的有限 Σ 未清。原17式未平移参数域 slimgb/lift 脚本已保存，特征0须验证原 I*C=T 及实际分母；32003仅发现。旧代跑停止后曾改本环境；现按迁移新规准备本库自有 Actions。官方 Singular 4.4.0 静态包已装入 `/tmp/isp-789f-singular-runtime/singular-4.4.0`；本地特征0在06:46:36于BEGIN_BASIS后异常结束，旧版未记录信号，exitCode=null且无证书；原回执已保存，不能定因。另32003探索会话80876，输出 `/tmp/isp-789f-r150-p32003`，Singular进程限1GiB；32003本地亦因1GiB内存上限明确失败，无证书。新自有工作流 `.github/workflows/invariant-subspace-r150-parameter-ideal.yml` 随本次push启动特征0/32003，输出在notes/r150-actions-789f及artifact；330分钟计算/350分钟整job，原身份和分母判据不变。日志已记可能数小时的计算需求。入口 `notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md`，逐目标 gcd 分母覆盖有证明；不得用 GB 分母代原 lift 分母。
+R150 的 Cat1/2/3 且 essT3=3 临界与全部 rankAy8 自然点已分类；余 g≠0、rankAy9 的有限 Σ 未清。原17式未平移参数域 slimgb/lift 脚本已保存，特征0须验证原 I*C=T 及实际分母；32003仅发现。旧代跑停止后曾改本环境；现已启动本库自有 Actions。官方 Singular 4.4.0 静态包已装入 `/tmp/isp-789f-singular-runtime/singular-4.4.0`；本地特征0在06:46:36于BEGIN_BASIS后异常结束，旧版未记录信号，exitCode=null且无证书；原回执已保存，不能定因。本地32003因1GiB内存上限明确失败，无证书，回执已保存。新自有工作流 `.github/workflows/invariant-subspace-r150-parameter-ideal.yml` 运行43568673309的特征0/32003仍在计算，输出在notes/r150-actions-789f及artifact；330分钟计算/350分钟整job，原身份和分母判据不变。日志已记可能数小时的计算需求。入口 `notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md`，逐目标 gcd 分母覆盖有证明；不得用 GB 分母代原 lift 分母。
 
 R176有界部分谱、R147实奇次/负正辅助、R236已排原指定慢二次全核与全部旧行/种子、R268–270快辅助/共振/不交乘积仅在原范围；一般慢Bell、自然幂/实际逆、双无界及共同自然域仍按 open。R12/R14指定紧夹积/硬截断失败不排所有外部紧交织。
 
