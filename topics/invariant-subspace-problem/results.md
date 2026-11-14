@@ -262,3 +262,7 @@
 ### 2026-11-14：原p²目标的精确整数来源格及唯一相关η8方向（789f）
 
 [证明](notes/2026-11-14-r150-original-p2-integer-source-lattice-and-eighth-second-direction-789f.md)用原1834来源基中κ8bar、κ9bar的多项式独立性严格得到p²自然运输整数当且仅当c8∈pD[s]、c9∈p²D[s]。保持当前F9 modp初值时，允许第二核恰kerA⊕η1…8，η9被整数格排除；既有完整相关第二像只剩η8。真实C=[28,3,24,3,25,2,23,8,0]使新H5不含κ9补偿，只需原p6即可继续同一p²h0目标。raw新primary必须先实读；正列全315/原17继续，旧198第三/更低初值与图外来源仍未排。
+
+### 2026-11-14：原线性完整有限核的exp(16d³)母窗口与真实稳定像提升（789f）
+
+[证明](notes/2026-11-14-extended-linear-mother-window-sixteen-and-true-stable-lift-789f-next.md)对m≥10、d=2^m、1≤Q≤exp(16d³)构造有界线性Λ_(m,Q):ker L_m∩H≤Q→N，原范数误差≤exp(−7d⁴)。利用D_(p+1)^j k=(−A_p)^j k−jb_pE_p(−A_p)^(j−1)k与真实carry交换，完整修复费用为52ηR(1+bR)H_p(R)H_(p+1)(R)；Legendre预算给每步exp(−8·16^p)，强极限属于全部指数孔域，再用已证M∩X3⊂N。旧75指数、低输出及joint-flag量词不免费扩大；实际角度和N=M继续。

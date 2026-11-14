@@ -69,46 +69,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 [实际W角度门槛](results/R271-appendix-actual-defect-angle-and-window-distortion-barrier-for-retraction-sources.md)用原零源lift付回缩左像与固定W的分离：支撑带 $[q-T,q]$、失真χ给整窗必要 $\sum\chi^{-2}/(T+1)\to0$；有界χ仍不能替实际W源。χ趋1时才有对任意固定H向量的分离。primitive源的左最小者严格在q层。回缩source和固定M图来源不可混同。
 
-**相邻尾Gram的未闭部分。** 既有出生一首末边、有限头/池和两组＋一位全出生全高度范围，以及旧松弛反例的准确量词，保[此前全文](notes/2026-11-14-open-before-R274-789f.md)与下方R273；更多权组的高出生及跨出生仍开；原连续尾出生一全高度有限常数已由下方R295支付。
-
-**其他原边界接口。** [R294原连续尾应用](results/R294-appendix-original-tail-coordinate-shift-and-improved-first-return-cost.md)保完整真幂逆/同K，以坐标平移给cond(H_t)≤2(t+1)^4(t+2)^4、全部旧列非交换乘积≤16(h+2)^28 S_m H_(ℓ−1)；最高d无新列，D1*真实Θ锚费≤4(d+2)^14√S_m，q/m一致。a≥2、Γ跨birth及无速率锚乘增长仍开。双宽商/负配对、深jet Schur、天然四块真重排等范围全保快照；两带不可免费取交，无权增长/指定回馈/pure继续。
-
-
-[两组＋一位全出生全高度](results/R239-appendix-two-weight-groups-one-exceptional-all-births-all-heights-strict-bound.md)严格c1已闭。[R273](results/R273-two-exceptional-weights-complete-schur-recovery.md)保两异常位完整MP/单参数Schur与硬端；[R292](results/R292-appendix-main-parameter-s2-and-all-two-exceptional-birth-two-first-edges.md)已闭Q1,Q2≥2整个物理K2严格首边。共同低矩、8D核及全部旧范围保[本次前open](notes/2026-11-14-open-before-boolean-inner-energy-789f.md)；其余birth/高度、相邻分子和graph仍开。
-
-[R281强位传输](results/R281-heavy-bit-height-transfer-and-sharp-universal-first-edge-lower-bound.md)与[R283惰性配对](results/R283-exact-singlet-padding-and-half-density-universality.md)已保完整逆，付全height/首边最优普适常数相同且≥1，以及任意薄半密度带的全有限问题嵌入。旧精确数值/量词保[本次前open](notes/2026-11-14-open-before-general-residual-regression-789f.md)；一般c1与大出生费用仍不能由强池/稀释省去。
-
-R285形式族反例非Boolean；原实际正性仍开，完整入口保上述快照。
-
-[R288逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)及低birth S1/S2已闭范围保[本次前open](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)；完整三塔保F3逆/C²深能量，局部正frame反例不反一般序。[R293全高度](results/R293-appendix-all-height-strengthened-s1-heavy-bit-equivalence.md)保全birth首阶加强κ⇔全部height同κ，单异常权全birth全height已闭。一般κ、S2和原graph各自缺口仍开。
-
-[R294共同对角比较](results/R294-birth-one-uniform-diagonal-gram-comparison-and-common-newton-blocks.md)付全正权birth1的½A≤Γ≤A、共同A Newton与无限固定高度，其新来源的[完整仓库证明](results/R294-appendix-complete-proof-of-the-normalized-covariance-input.md)已补齐；夹逼本身不支付原Γ中间项。
-
-R295实际Turán/Catalan同源平方及最大原子分区已付全正权birth1/全height加强κ1024，原连续尾κ674/81；有限严格、无限固定height非严格。一般高birth及graph仍开；完整证明入口保[此前open](notes/2026-11-14-open-before-joint-recursion-789f.md)。
-
-[R296全birth残差/真实桥](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)保真实共同Z、低阶Schur、硬端与深塔；出生二全部原尾height及高方差全birth已付，全部旧常数/商不变/两最高Johnson通道保[本次前全文](notes/2026-11-14-open-before-matrix-curvature-obstruction-789f.md)。任意权高birth、短height与跨birth graph仍开。
-
-[R297弱位归约](results/R297-appendix-weak-bit-hard-top-universal-strengthened-equivalence.md)保完整跨出生/a⁻¹抵消，全部正权/出生/高度加强κ⇔奇数硬端首边同κ。真费A_U*L1L3⁻¹L1A_U，倒数桥B*L2²B≤κG1；两个未投影提升真五位发散而投影费<1/3。不能删压缩逆、桥平方或投影；非严格极限不代有限权界。全部证明见[索引](results.md)和[此前全文](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
-
-[R297 Green–Ward](results/R297-appendix-physical-green-ward-cancellation-and-full-complement-schur.md)保完整补空间逆及两侧真度量；真实非实极点已排Stieltjes捷径。共同相位正块预算仍开，旧公式/证书保[本次前全文](notes/2026-11-14-open-before-matrix-curvature-obstruction-789f.md)。
-
-[R298独立五权全源硬端](results/R298-five-independent-positive-weights-birth-two-hard-top-strengthened-s1.md)已付整个五维源≤743/782，缺陷≥(39/782)C1²；完整真实迹及正系数证明保全文。一般更大奇硬统一κ及原graph仍开。
-
-[R299逐位内函数](results/R299-boolean-product-inner-kernel-and-complete-primitive-energy.md)已付同一物理Pick正核、完整primitive能量/占据对角/高阶消去；L1A_U是否为准确Schur源仍未付。真实三阶dual塔的非实根排必实根捷径，不否S1；原完整式与附录入口保本次前open。
-
-[R300临界池](results/R300-appendix-arbitrary-critical-pool-three-weak-site-recursion.md)保三弱位全部三族与旧完整费用，无常数放大；原七位充分小ε严格界已付。有限a铅笔的P1逐系数正已被真实四权族排除，完整最高缺陷与相位仍须共同处理；所有旧证明/范围保[本次前全文](notes/2026-11-14-open-before-matrix-curvature-obstruction-789f.md)。
-
-[倒数全谱](notes/2026-11-14-even-phase-reciprocal-transfer-adjoint-and-logarithmic-cubic-cancellation-789f-next.md)保真实传输与整源三阶消失；[完整Hessian](notes/2026-11-14-central-partition-full-hessian-frame-and-phase-ward-block-789f-next.md)给Jrow=A H† C+2H−Q，不以逐坐标正性替共同逆。[任意两权全位数](notes/2026-11-14-two-weight-all-size-complete-even-phase-bound-789f-next.md)全源Φ≤1；[六位三对全权](notes/2026-11-14-three-pairs-all-weight-complete-even-phase-bound-789f-next.md)现付完整9维及等号3/5/9维。旧精确范围保[前全文](notes/2026-11-14-open-before-conditioned-gram-789f.md)；[空硬源完整分类](notes/2026-11-14-empty-hard-source-spin-blocks-complete-classification-789f.md)与主spin定理已付全部V非零/U零块；余max q≤Σq/2的真实硬源区及共同局部半径。
-
-R286固定源全height已付；实际t_q出生随q上移，受限逆不自动保固定birth/有限支持。跨出生graph、完整e_q和N=M仍开，完整链接与范围保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
-
-R284一般平方增长/graph识别仍开，零模Gram/Fischer已付范围保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
-
-R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前open](notes/2026-11-14-open-before-general-three-weak-789f.md)。
-
-[R275一位MP](results/R275-one-bit-full-primitive-schur-recursion-and-innovation.md)与R278联合Serre式均保[此前全文](notes/2026-11-14-open-before-all-height-strengthened-s1-789f.md)。高birth创新、同G1运输和graph仍缺；变化度量的迹不能消去负桥。
-
-**其余已付的原头、完整图和共同费用接口。** 两物理头/两下降真 MP、同未来负图、全尾近共同前缀、逐列立方根对数头预算、统一左核图/低头反馈、完整接合正 Gram、Boolean 两带/Γ 收缩、固定低行四次费用、D2 三次权顶锚、全深度宽源带及增长模型核幂的准确公式、常数和每条原稿链接，保 [压缩前全文](notes/2026-11-14-open-before-R279-789f.md)。它们均保同一未来/同源/真正负图及原累计费，仍不支付固定测试局部 Gram O(Keff)、ordinary 右费、pure 深段与高 birth D1*/Γ 合并；不能把裸/完整 Schur 或坐标截断互换。
+**相邻尾、Boolean联合Gram与逐位原接口。** R273、R275、R278–R300及完整高birth/跨birth/硬端、共同逆、pure深段和原同源graph的全部已付范围、常数、反例限制与未闭条目保[本次完整快照](notes/2026-11-14-open-before-mother-window-sixteen-789f.md)。未列条目保持原状态：一般多权高birth/全部height加强比较、真实硬源共同局部半径、普通右费及完整实际来源角度仍开；已闭两权全位数、六位三对全权、出生一全height、原连续尾birth2及高方差范围不重开。
 
 **主池缺额的全部出生真实源：** [完整物理特征公式](notes/2026-11-14-deficient-main-pool-all-birth-feature-grams-and-full-hard-regression-789f-next.md)对q0=Q−2d≥0，识别低E_d=ker∂³∩P_(d+1)、硬U_d=ker∂∩P_d；同一ρ与w=[T(1−T)]⁻d，ψ=∂φ−2φ，R=C*M⁻¹C、G=(B−R)/4，原J=HG⁻¹L−2G−R。逐subset/Beta、完整硬Schur、真实顶MP及等权H0=L0=2G0/R0=0均付。d0回star；q0=0是原完整偶段。接有限次数共同度量支付中央区，外场/多尺度/原graph费用继续。
 
@@ -174,3 +135,5 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 [移动真实头核投影](notes/2026-11-14-moving-true-head-bosonic-projections-and-inverse-gram-strong-limit-789f-next.md)把完整boson核放入同一Fock空间，以真carry和右逆成本sqrt(h_d C_m/S)证明P_(m+1)^B≤P_m^B+δ_mI、δ_m≤exp(−79·16^m)，并识别强极限P_M。物理i_mH_m⁻¹i_m*强趋P_M；反向速率及像属于N未付。
 
 [全源正滤波](notes/2026-11-14-physical-gap-all-source-positive-filter-and-paid-negative-range-789f-next.md)与[统一幂预算](notes/2026-11-14-physical-gap-uniform-powers-and-high-spectrum-source-filter-789f-next.md)给E为L正收缩、像在共同费用负图；μ(r−Er)²+Xi(Er)²/2≤Xi(r)²。全n的Xi(E^n r)≤√2Xi(r)、总耗散≤μ(r)²；左误差仍≤√nXi(r)。可一次进入原Rrem并保左近似；固定参数幂归零与高谱过滤均不支付移动窗口的主L配对。
+
+**扩展原线性母窗口。** [完整证明](notes/2026-11-14-extended-linear-mother-window-sixteen-and-true-stable-lift-789f-next.md)对m≥10、Q≤exp(16d³)给原完整有限核到N的有界线性近恒等提升，误差exp(−7d⁴)。使用同源全部导数与两真实头幂；旧exp(−75d⁴)不迁移。继续核实际w/top和整窗两费，联合旗δ、原物理Schur角度、一次ρ⁻¹与ρ⁻²的区别仍保，未证N=M。
