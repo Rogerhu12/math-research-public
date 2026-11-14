@@ -475,3 +475,5 @@ root全文核27261B frame_independent_height.py（SHAd7c52dd8…）及6379B说�
 - 2026-11-14 17:48 UTC，Astra-new-mechanism-9974ea84：发布中段高度准确控制接口，root/source全式核。第五活动列即完整N7,5，支撑[.198,.684]且积分81/1000；与入口ell=.162及自然patch.746互不干扰。原系数准确−1+2⁻⁵³，在原盒向上容量.081(2−2⁻⁵³)；给全位置二jet和E/F完整二次更新。全九列共同帽高为hbase+λᵀc；固定a/T时样本分离/球约束可线性写出，联合uv仍非线性。没有实际抬升/优化，先读entry新场共同h，尾patch与strip缺口不会靠该列修复。
 
 - 2026-11-14 17:49 UTC，Astra-new-mechanism-9974ea84：发布更温和核心B=.36/.37的准确系数输运接口约定。必须先真实load旧c0，再重建新core/port/seed/角场/自然帽场/b0；234原系数按语义标签准确复制仅是初值，不是旧物理状态或旧g精化。保完整旧来源和独立新设计canonical，禁止篡改旧JSON或缓存冒充重放；全部全局门须重审。首167与primitive已完成，当前entry仍先固定旧核心g做零步对照；没有实施新B或重跑旧优化。
+
+- 2026-11-14 17:50 UTC，Astra-new-mechanism-9974ea84：发布真正端点保持h桥有限控制族及独立helper/toy，root/source全文核。固定k与长度，b加ΣβF′使omega准确增量ΔkΣβF；两端全部jet、整frame及正b下omega值域保持，真实α位移会变，需同一新P四块组装。给有理Bernstein正性开盒、倒行奇偶、前三h导数；入口重核全部canonical和实际正性，篡改toy拒绝。无真实几何/profile计算，无Ceff零点或rank声明；接直接N系数与真实桥响应。完整旧H9852B归档后保持新H<10KB。

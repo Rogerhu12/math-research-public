@@ -313,3 +313,5 @@ entry_paired_audit已部署：固定选中g/162数值，入口ell=.162新场，�
 中段高度方向和全局线性h约束已具备准确接口，详notes/entry-free-middle-height-control-20261114.md。entry实际h到达后核单列容量，若采取height-feasible初值须保存新的准确参数身份、公共原函数及全部实际E/F/曲率/球范围；不能将高度可达当等距/厚度可行。
 
 核心B=.36/.37独立输运方案已明确，详notes/elliptic-core-design-coefficient-transport-20261114.md。它可能改善核心曲率和R66点对高度门，但完整strip更紧，所有角场/seed/g/固定b0均换身份；当前先读entry固定旧g结果，再决定是否实行这一新设计，不把更圆核心单项纸面优势当完整可行。
+
+真正保持端状态的h桥控制已经落地，见notes/literature-endpoint-preserving-h-bridge-controls-20261114.md。下一同一新R62八bulk/桥/profile计算完整Ceff方向，直接N系数传播保桥和下游历史，且重核canonical/正性/实际闭合。若以已失败旧q诊断响应，显式只作算子探针；不能用桥补偿绕过某常态本身的纯最高ruling门。
