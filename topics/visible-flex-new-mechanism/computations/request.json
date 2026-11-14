@@ -1,6 +1,6 @@
 {
-  "request": "natural-cap-two-fixed-initial-fields-body-and-direct-metric-diagnostics",
-  "created_at": "2026-11-14T16:34:59.348147+00:00",
+  "request": "natural-cap-two-fixed-initial-fields-after-distribution-API-fix",
+  "created_at": "2026-11-14T16:40:42.750680+00:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "natural_body_initial"
@@ -11,7 +11,7 @@
   "new_sources_sha256": {
     "frame_body_metric_design.py": "8e4fd2b153be450e83e2eea8997847c84e40498307769e0fc01a29cb93430865",
     "polygonal_tail_natural_extension.py": "da2cfa48679658573036456e1b6be234cdee7865fe9da2e6535634400fc0265f",
-    "frame_collar_natural_body_audit.py": "3b2c0792cf629f1fb08fd1d8a0b7fe31095cd6c9058fa6e128ba498952a3998d"
+    "frame_collar_natural_body_audit.py": "8185d72b866f17703c5abd5224fedfc57d197712a60ad021f246d46fd8521c3d"
   },
   "metric_free": 5,
   "metric_controls_all_zero_in_each_initial_case": true,
@@ -28,5 +28,8 @@
   "nonlinear_optimization_performed": false,
   "direct_metric_and_old_R_costs_separate": true,
   "fixed_model_GH_and_Pi_refinement_separate": true,
-  "task_complete": false
+  "task_complete": false,
+  "retry_of_run": 43616419217,
+  "retry_reason": "distribution expected radial and theta arrays; shared adapter now exercised by artificial checks",
+  "same_physical_model_and_coefficients_as_failed_attempt": true
 }

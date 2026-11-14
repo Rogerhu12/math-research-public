@@ -415,3 +415,7 @@ root全文核三新源码、12KB数学说明及三人工输出全部来源SHA；
 ## 2026-11-14 16:38 UTC — R59 分离中心速度限制与T/a本身缺口
 
 固定T/Tt/a/a′时，真实径向切向U=W+bez、平均W=0；角均方直接metric目标准确为J(b)=b⁴/2+Ab²+2Bb+C/2，全部候选最小点由三次式b³+Ab+B=0及区间边界给出。F投影残量N−M²/D、E均值S≤1与b²=1−S给独立必要门，最大operator误差≥√min_R J；退化D0、ε近似的扩大b区间和离散三次项均保留。没有将逐圈根拼成合法C2中心或评价实际候选。 root与source全文独核完整多项式、Cauchy-Schwarz/均值界、Frobenius因子、最小分支及全局高度耦合。新initial公开run43616419217/source2641fce0运行中，旧冻结源不改；诊断是否加入后续solve由真实结果决定。
+
+## 2026-11-14 16:40 UTC — natural/body部分真实结果全核及具体接口修复
+
+run43616419217/source2641fce0三人工过，原c0粗审与directJac已存，但fine distribution误把grid传作radial导致TypeError；83源/4输出全SHA核，只有1个partial case，无fine/c1证据。direct成本.07675，5body预测.04059/步max.1336；239列预测.00433却步max66082.7/rank212，不能作可行下降。新适配器传实际坐标数组，人工两侧真实跑同API且R摘要差0，全Jac继续过；旧13源/物理g/系数不变。只重跑这条已定位的接口故障，完整audit保存错误、真实scope及修复SHA。

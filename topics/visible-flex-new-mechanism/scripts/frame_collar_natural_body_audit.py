@@ -231,6 +231,15 @@ def metric_direction_diagnostic(problem,state,grid,data):
         'zero_metric_jacobian_on_the_complete_tail_patch':bool(np.all(JR[grid.radial>=problem.support_start]==0))}
 
 
+
+def residual_distribution_for_grid(problem,state,grid,quadrature_order=8):
+    """Adapt the frozen distribution API, which expects two coordinate arrays."""
+    result=distribution(problem,state,grid.radial,grid.theta,
+                        quadrature_order=quadrature_order)
+    result['active_shape_budget']=problem.shape_definition()
+    return result
+
+
 def direct_metric_summary(problem,grid,data):
     """Actual X_s metric error; the mathematical construction has X_theta=aT."""
     E=np.sum(data['Xs']**2,axis=-1)
@@ -377,6 +386,8 @@ def developer_check():
         variant=problem.evaluation_variant(32,state)
         comparison=compare_heat_evaluation(problem,state,variant)
         audited=current_audit(problem,state,problem.grid,data,3)
+        distributed=residual_distribution_for_grid(problem,state,problem.grid,3)
+        distribution_R_difference=abs(distributed['summary']['integrability_residual_max_sample']-audited['integrability_residual_max_sample'])
         core_refinement=[]
         for n in [24,48,96]:
             theta=np.arange(n)*2*np.pi/n;grid=problem.grid_for(np.array([0.]),theta)
@@ -395,6 +406,9 @@ def developer_check():
             'independent_objective_cost_difference':abs(float(residual@residual/2)-cost_from_geometry(problem,problem.grid,data)),
             'zero_controls_exact_seed_evaluation':metric_zero,'zero_control_original_c0_prefix_errors':prefix_errors,
             'metric_family_freeze_geometry_replay_max_error':frozen_error,
+            'residual_distribution_API_real_grid_exercised':True,
+            'residual_distribution_R_summary_difference':distribution_R_difference,
+            'residual_distribution_grid_shape':[distributed['grid']['radial_nodes'],distributed['grid']['angular_nodes']],
             'frozen_metric_mathematical_hash_unchanged':frozen.metric_model(state[:problem.field_count])['mathematical_definition_sha256']==frozen_definition['mathematical_definition_sha256'],
             'body_metric_jacobian_zero_on_patch':all(np.all(jac_tail[key][patch]==0) for key in ['jac_a','jac_as','jac_ass','jac_K']),
             'GH_comparison':comparison,'endpoint_position_two_jets':audited['position_two_jet_endpoint_errors'],
@@ -409,6 +423,7 @@ def developer_check():
         and row['independent_objective_cost_difference']<1e-10 and row['zero_controls_exact_seed_evaluation']
         and max(row['zero_control_original_c0_prefix_errors'].values())<1e-10
         and row['metric_family_freeze_geometry_replay_max_error']<1e-10 and row['frozen_metric_mathematical_hash_unchanged']
+        and row['residual_distribution_API_real_grid_exercised'] and row['residual_distribution_R_summary_difference']<1e-12
         and row['body_metric_jacobian_zero_on_patch'] and row['tail_R_max']<1e-10
         and max(v for part in row['tail_target_scalar_jets'].values() for v in part.values())<1e-10
         and row['core_Pi_refinement'][-1]['X_error']<1e-8
@@ -534,8 +549,7 @@ def main():
         fine_grid=problem.grid_for(fine_r,fine_theta);fine=problem.geometry(state,fine_grid,quadrature_order=8)
         record['fixed_state_fine_audit']=current_audit(problem,state,fine_grid,fine,8)
         record['fixed_state_fine_direct_metric_summary']=direct_metric_summary(problem,fine_grid,fine)
-        record['residual_distribution']=distribution(problem,state,fine_grid,8)
-        record['residual_distribution']['active_shape_budget']=problem.shape_definition()
+        record['residual_distribution']=residual_distribution_for_grid(problem,state,fine_grid,8)
         record['fine_same_model_GH_comparison']=compare_heat_evaluation(problem,state,variant,
             fine_r,fine_theta,quadrature_order=8)
         atomic_save(args.out,answer)

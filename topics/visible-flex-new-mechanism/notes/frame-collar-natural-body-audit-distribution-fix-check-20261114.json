@@ -1,0 +1,540 @@
+{
+  "schema": "natural-cap-body-metric-frame-development-v1",
+  "passed": true,
+  "checks": [
+    {
+      "side": 1,
+      "field_unknowns": 22,
+      "metric_unknowns": 3,
+      "full_frame_position_metric_and_shape_Jacobian_relative_error": 2.9997130026418444e-09,
+      "direct_actual_metric_and_shape_full_Jacobian_relative_error": 6.862612117660085e-09,
+      "direct_actual_metric_and_shape_body_columns_Jacobian_relative_error": 4.800892235860896e-09,
+      "direct_metric_independent_cost_difference": 5.551115123125783e-17,
+      "direct_actual_metric_summary": {
+        "schema": "actual-position-direct-metric-objective-v1",
+        "residual_definition": "(E-1, sqrt(2)*F/a), E=|X_s|^2, F/a=X_s dot T",
+        "normalization": "each component divided by sqrt(number of sampled parameter points)",
+        "exact_mathematical_G_equals_a_squared": true,
+        "operator_error_formula": "(abs(E-1)+sqrt((E-1)^2+4*(F/a)^2))/2",
+        "operator_relative_metric_error_max_sample": 0.8730113435736192,
+        "operator_error_argmax_sample": {
+          "t": 0.7005,
+          "theta": 1.5707963267948966
+        },
+        "E_minus_one_abs_max_sample": 0.8730113435736192,
+        "F_over_a_abs_max_sample": 0.15700290818807255,
+        "metric_only_cost": 0.04669258030751206,
+        "same_ball_strip_shape_cost": 0.2712186413606271,
+        "direct_metric_plus_same_shape_cost": 0.3179112216681392,
+        "old_R_plus_same_shape_cost_for_separate_comparison": 0.31793351884742493,
+        "R_equal_zero_is_sufficient_but_not_required_by_this_direct_metric_objective": true,
+        "finite_parameter_auxiliary_beta_restriction_not_imposed_by_metric_equations": true,
+        "sampled_only_not_a_continuous_metric_certificate": true
+      },
+      "independent_objective_cost_difference": 0.0,
+      "zero_controls_exact_seed_evaluation": true,
+      "zero_control_original_c0_prefix_errors": {
+        "X": 0.0,
+        "Xs": 0.0,
+        "Xt": 0.0,
+        "Xss": 0.0,
+        "Xst": 0.0,
+        "Xtt": 0.0,
+        "R": 0.0
+      },
+      "metric_family_freeze_geometry_replay_max_error": 0.0,
+      "residual_distribution_API_real_grid_exercised": true,
+      "residual_distribution_R_summary_difference": 0.0,
+      "residual_distribution_grid_shape": [
+        9,
+        24
+      ],
+      "frozen_metric_mathematical_hash_unchanged": true,
+      "body_metric_jacobian_zero_on_patch": true,
+      "GH_comparison": {
+        "GH_orders": [
+          16,
+          32
+        ],
+        "all_full_physical_identities_and_exact_coefficients_equal": true,
+        "identity_bundle_sha256": "f3d6433d06305f82f73b0fbd6d05cd07d307fc865f296c2ef2dce7857215e738",
+        "radial_nodes": 9,
+        "angular_nodes": 24,
+        "radial_center_quadrature_order": 3,
+        "only_GH_evaluation_order_changed": true,
+        "objective_costs_at_the_same_fixed_coefficients_and_grid": [
+          0.31793351884742493,
+          0.317934891292053
+        ],
+        "patch_scalar_jet_max_differences": {
+          "value": 9.060971959545805e-07,
+          "s": 0.001128773324197363,
+          "ss": 0.274055566867645,
+          "theta": 0.0003359540883911827,
+          "st": 0.011588592441004408,
+          "ss_theta": 95.31612056225049
+        },
+        "whole_grid_position_jet_and_R_differences": {
+          "X": 1.6538940941864442e-07,
+          "Xs": 6.587767959435779e-05,
+          "Xt": 3.1951853530550173e-07,
+          "Xss": 0.015628994757403578,
+          "Xst": 0.0003989347435329326,
+          "Xtt": 0.00011554679843052629,
+          "R": 6.702297192878737e-05
+        },
+        "patch_rows": [
+          {
+            "t": 0.934,
+            "delta": 0.09999999999999998,
+            "first_scalar_jet_difference": 0.0,
+            "ss_scalar_difference": 0.0,
+            "R_difference": 0.0
+          },
+          {
+            "t": 0.9673333333333334,
+            "delta": 0.06666666666666665,
+            "first_scalar_jet_difference": 0.001128773324197363,
+            "ss_scalar_difference": 0.274055566867645,
+            "R_difference": 6.702297192878737e-05
+          },
+          {
+            "t": 1.0006666666666666,
+            "delta": 0.03333333333333344,
+            "first_scalar_jet_difference": 1.0436096431476471e-14,
+            "ss_scalar_difference": 9.521272659185342e-13,
+            "R_difference": 3.8045456020772465e-16
+          },
+          {
+            "t": 1.034,
+            "delta": 0.0,
+            "first_scalar_jet_difference": 0.0,
+            "ss_scalar_difference": 0.0,
+            "R_difference": 0.0
+          }
+        ],
+        "differences_are_not_continuous_error_bounds": true,
+        "GH_cost_difference_is_not_optimization_improvement": true
+      },
+      "endpoint_position_two_jets": {
+        "core": {
+          "X": 1.6693244404564211e-06,
+          "Xs": 0.0,
+          "Xt": 4.335559509131367e-16,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 4.47545209131181e-16
+        },
+        "tail": {
+          "X": 1.457167719820518e-16,
+          "Xs": 6.863365126944042e-16,
+          "Xt": 0.0,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 0.0
+        }
+      },
+      "tail_target_scalar_jets": {
+        "u": {
+          "value": 0.0,
+          "s": 0.0,
+          "ss": 0.0,
+          "theta": 0.0,
+          "st": 0.0,
+          "ss_theta": 0.0
+        },
+        "v": {
+          "value": 0.0,
+          "s": 0.0,
+          "ss": 0.0,
+          "theta": 0.0,
+          "st": 0.0,
+          "ss_theta": 0.0
+        },
+        "beta": {
+          "value": 0.0,
+          "s": 0.0,
+          "ss": 0.0,
+          "theta": 0.0,
+          "st": 0.0,
+          "ss_theta": 0.0
+        }
+      },
+      "tail_R_max": 1.6410337382425186e-16,
+      "core_Pi_refinement": [
+        {
+          "angular_nodes": 24,
+          "X_error": 1.6693244404564211e-06
+        },
+        {
+          "angular_nodes": 48,
+          "X_error": 3.6584624219859855e-11
+        },
+        {
+          "angular_nodes": 96,
+          "X_error": 2.7018723498128807e-14
+        }
+      ],
+      "metric_direction_diagnostic": {
+        "schema": "read-only-body-metric-linear-direction-v1",
+        "field_coefficients_held_fixed": true,
+        "metric_control_count": 3,
+        "normal_matrix": [
+          [
+            0.627332384333764,
+            0.17407926509323385,
+            -0.11030377932324757
+          ],
+          [
+            0.17407926509323385,
+            0.23060326851087828,
+            0.22179114507166675
+          ],
+          [
+            -0.11030377932324757,
+            0.22179114507166675,
+            0.4380644413943811
+          ]
+        ],
+        "objective_gradient": [
+          0.019448445705112238,
+          0.03065158418791511,
+          -0.018797563390146863
+        ],
+        "singular_values": [
+          0.8349951747509557,
+          0.7610403343171789,
+          0.14000272113084292
+        ],
+        "rank": 3,
+        "unconstrained_linear_step_not_applied": [
+          0.41480624864146753,
+          -1.1456550374545378,
+          0.7274007493100574
+        ],
+        "sampled_current_cost": 0.31793351884742493,
+        "predicted_linear_cost_not_a_nonlinear_evaluation": 0.2975724354868258,
+        "R_T_angular_means": [
+          {
+            "t": 0.0,
+            "mean": 6.123234038817455e-17
+          },
+          {
+            "t": 0.2335,
+            "mean": 0.5529222451571745
+          },
+          {
+            "t": 0.467,
+            "mean": 0.033267621533622296
+          },
+          {
+            "t": 0.7005,
+            "mean": -0.6056582541570986
+          },
+          {
+            "t": 0.934,
+            "mean": -0.023087171081917813
+          },
+          {
+            "t": 0.9673333333333334,
+            "mean": -0.0005312118183576987
+          },
+          {
+            "t": 1.0006666666666666,
+            "mean": 0.006120045404294244
+          },
+          {
+            "t": 1.034,
+            "mean": 3.965220415985539e-17
+          },
+          {
+            "t": 1.1,
+            "mean": 0.0
+          }
+        ],
+        "metric_step_was_not_applied": true,
+        "no_optimization_or_new_metric_feasibility_claim": true,
+        "mean_R_T_derivative_with_respect_to_metric_controls": "-jac_a_s; field frame held fixed",
+        "zero_metric_jacobian_on_the_complete_tail_patch": true
+      }
+    },
+    {
+      "side": -1,
+      "field_unknowns": 22,
+      "metric_unknowns": 3,
+      "full_frame_position_metric_and_shape_Jacobian_relative_error": 4.1967876041505206e-09,
+      "direct_actual_metric_and_shape_full_Jacobian_relative_error": 8.538297524824128e-09,
+      "direct_actual_metric_and_shape_body_columns_Jacobian_relative_error": 4.15888974988541e-09,
+      "direct_metric_independent_cost_difference": 0.0,
+      "direct_actual_metric_summary": {
+        "schema": "actual-position-direct-metric-objective-v1",
+        "residual_definition": "(E-1, sqrt(2)*F/a), E=|X_s|^2, F/a=X_s dot T",
+        "normalization": "each component divided by sqrt(number of sampled parameter points)",
+        "exact_mathematical_G_equals_a_squared": true,
+        "operator_error_formula": "(abs(E-1)+sqrt((E-1)^2+4*(F/a)^2))/2",
+        "operator_relative_metric_error_max_sample": 0.8752263169625167,
+        "operator_error_argmax_sample": {
+          "t": 0.7005,
+          "theta": 1.5707963267948966
+        },
+        "E_minus_one_abs_max_sample": 0.8752263169625167,
+        "F_over_a_abs_max_sample": 0.1611962643060709,
+        "metric_only_cost": 0.04654873235384795,
+        "same_ball_strip_shape_cost": 0.27007633423255906,
+        "direct_metric_plus_same_shape_cost": 0.316625066586407,
+        "old_R_plus_same_shape_cost_for_separate_comparison": 0.31654876847346197,
+        "R_equal_zero_is_sufficient_but_not_required_by_this_direct_metric_objective": true,
+        "finite_parameter_auxiliary_beta_restriction_not_imposed_by_metric_equations": true,
+        "sampled_only_not_a_continuous_metric_certificate": true
+      },
+      "independent_objective_cost_difference": 0.0,
+      "zero_controls_exact_seed_evaluation": true,
+      "zero_control_original_c0_prefix_errors": {
+        "X": 0.0,
+        "Xs": 0.0,
+        "Xt": 0.0,
+        "Xss": 0.0,
+        "Xst": 0.0,
+        "Xtt": 0.0,
+        "R": 0.0
+      },
+      "metric_family_freeze_geometry_replay_max_error": 0.0,
+      "residual_distribution_API_real_grid_exercised": true,
+      "residual_distribution_R_summary_difference": 0.0,
+      "residual_distribution_grid_shape": [
+        9,
+        24
+      ],
+      "frozen_metric_mathematical_hash_unchanged": true,
+      "body_metric_jacobian_zero_on_patch": true,
+      "GH_comparison": {
+        "GH_orders": [
+          16,
+          32
+        ],
+        "all_full_physical_identities_and_exact_coefficients_equal": true,
+        "identity_bundle_sha256": "1146c32cb5a2d21fcf953f6f7742fa7c127f91b7a5ccc0212234dd9dca5483a9",
+        "radial_nodes": 9,
+        "angular_nodes": 24,
+        "radial_center_quadrature_order": 3,
+        "only_GH_evaluation_order_changed": true,
+        "objective_costs_at_the_same_fixed_coefficients_and_grid": [
+          0.31654876847346197,
+          0.31655014149905597
+        ],
+        "patch_scalar_jet_max_differences": {
+          "value": 9.060971959545805e-07,
+          "s": 0.001128773324197363,
+          "ss": 0.2740555668676308,
+          "theta": 0.0003359540883911827,
+          "st": 0.011588592441000856,
+          "ss_theta": 95.31612056225049
+        },
+        "whole_grid_position_jet_and_R_differences": {
+          "X": 1.6538926941135914e-07,
+          "Xs": 6.587773470356476e-05,
+          "Xt": 3.195188479239025e-07,
+          "Xss": 0.015629029914851097,
+          "Xst": 0.00039893512927611087,
+          "Xtt": 0.00011554691119193608,
+          "R": 6.704998080926241e-05
+        },
+        "patch_rows": [
+          {
+            "t": 0.934,
+            "delta": 0.09999999999999998,
+            "first_scalar_jet_difference": 0.0,
+            "ss_scalar_difference": 0.0,
+            "R_difference": 0.0
+          },
+          {
+            "t": 0.9673333333333334,
+            "delta": 0.06666666666666665,
+            "first_scalar_jet_difference": 0.001128773324197363,
+            "ss_scalar_difference": 0.2740555668676308,
+            "R_difference": 6.704998080926241e-05
+          },
+          {
+            "t": 1.0006666666666666,
+            "delta": 0.03333333333333344,
+            "first_scalar_jet_difference": 1.0436096431476471e-14,
+            "ss_scalar_difference": 9.521272659185342e-13,
+            "R_difference": 3.852336164941852e-16
+          },
+          {
+            "t": 1.034,
+            "delta": 0.0,
+            "first_scalar_jet_difference": 0.0,
+            "ss_scalar_difference": 0.0,
+            "R_difference": 0.0
+          }
+        ],
+        "differences_are_not_continuous_error_bounds": true,
+        "GH_cost_difference_is_not_optimization_improvement": true
+      },
+      "endpoint_position_two_jets": {
+        "core": {
+          "X": 1.6693244404564211e-06,
+          "Xs": 0.0,
+          "Xt": 4.335559509131367e-16,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 4.47545209131181e-16
+        },
+        "tail": {
+          "X": 1.457167719820518e-16,
+          "Xs": 6.863365126944042e-16,
+          "Xt": 0.0,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 0.0
+        }
+      },
+      "tail_target_scalar_jets": {
+        "u": {
+          "value": 0.0,
+          "s": 0.0,
+          "ss": 0.0,
+          "theta": 0.0,
+          "st": 0.0,
+          "ss_theta": 0.0
+        },
+        "v": {
+          "value": 0.0,
+          "s": 0.0,
+          "ss": 0.0,
+          "theta": 0.0,
+          "st": 0.0,
+          "ss_theta": 0.0
+        },
+        "beta": {
+          "value": 0.0,
+          "s": 0.0,
+          "ss": 0.0,
+          "theta": 0.0,
+          "st": 0.0,
+          "ss_theta": 0.0
+        }
+      },
+      "tail_R_max": 1.6410337382425186e-16,
+      "core_Pi_refinement": [
+        {
+          "angular_nodes": 24,
+          "X_error": 1.6693244404564211e-06
+        },
+        {
+          "angular_nodes": 48,
+          "X_error": 3.6584624219859855e-11
+        },
+        {
+          "angular_nodes": 96,
+          "X_error": 2.7018723498128807e-14
+        }
+      ],
+      "metric_direction_diagnostic": {
+        "schema": "read-only-body-metric-linear-direction-v1",
+        "field_coefficients_held_fixed": true,
+        "metric_control_count": 3,
+        "normal_matrix": [
+          [
+            0.6269849723871328,
+            0.17362986626394444,
+            -0.11052169976268175
+          ],
+          [
+            0.17362986626394444,
+            0.22996311677838233,
+            0.22146362458733898
+          ],
+          [
+            -0.11052169976268175,
+            0.22146362458733898,
+            0.43785347994094664
+          ]
+        ],
+        "objective_gradient": [
+          0.01830096071207288,
+          0.02981224324526605,
+          -0.018792656980007042
+        ],
+        "singular_values": [
+          0.8346989317352616,
+          0.7606261664083267,
+          0.13973939115885753
+        ],
+        "rank": 3,
+        "unconstrained_linear_step_not_applied": [
+          0.4130619313530818,
+          -1.1371775302017288,
+          0.7223613283165337
+        ],
+        "sampled_current_cost": 0.31654876847346197,
+        "predicted_linear_cost_not_a_nonlinear_evaluation": 0.29659003266108497,
+        "R_T_angular_means": [
+          {
+            "t": 0.0,
+            "mean": 6.123234038817455e-17
+          },
+          {
+            "t": 0.2335,
+            "mean": 0.5503617549533074
+          },
+          {
+            "t": 0.467,
+            "mean": 0.028659835747539098
+          },
+          {
+            "t": 0.7005,
+            "mean": -0.6053289177590483
+          },
+          {
+            "t": 0.934,
+            "mean": -0.0230867296161624
+          },
+          {
+            "t": 0.9673333333333334,
+            "mean": -0.0005285245850621037
+          },
+          {
+            "t": 1.0006666666666666,
+            "mean": 0.00612001439652433
+          },
+          {
+            "t": 1.034,
+            "mean": 3.965220415985539e-17
+          },
+          {
+            "t": 1.1,
+            "mean": 0.0
+          }
+        ],
+        "metric_step_was_not_applied": true,
+        "no_optimization_or_new_metric_feasibility_claim": true,
+        "mean_R_T_derivative_with_respect_to_metric_controls": "-jac_a_s; field frame held fixed",
+        "zero_metric_jacobian_on_the_complete_tail_patch": true
+      }
+    }
+  ],
+  "artificial_inputs_only": true,
+  "research_geometry_evaluated": false,
+  "optimization_performed": false,
+  "passed_does_not_certify_heat_accuracy_isometry_embedding_or_reach": true,
+  "source_files_sha256": {
+    "frame_collar_bvp.py": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+    "ellipse_frame_port.py": "4371f3d816c913b0e7a34f5568672f8f318fd3a923c83e3b28e3ec731c67689b",
+    "cosine_connector_radial_seed.py": "662292c1603a834e8295f7b36648f3c16f3b3904383c883dc8aa7faee4e40fc5",
+    "frame_collar_residual_audit.py": "58d972ec1dbbaba35d1ed1600ea14f1cd5934601cf5f7a209e95795e5099b9ee",
+    "frame_collar_enriched.py": "1b2557048c8b02b75201d151bf3ceb89d046734f93a9195bfe283c620a10f028",
+    "bent_flat_tail_port.py": "26f32a6ed77c82a2c67320ecbdf12031a3186fa5ae1a83b553ac722a7593dcfa",
+    "frame_collar_bent_tail.py": "b62725bb7e82349306dd041f59529d54f32e7bea8c5cca413b3a27b515ffe6ab",
+    "polygonal_flat_tail_port.py": "3870844de95284c570839f489a6c6be74c825cbf6631d21684ff4374cae78797",
+    "frame_collar_polygonal.py": "56a4013f78aa120bb2eaa17e430c6212f4af808fb7e87951a26164129bc0aaaa",
+    "polygonal_tail_heat_extension.py": "abb965c27ce1aa19acd74a54cf301b3ff5589182a116d69819963717d56aa699",
+    "frame_collar_polygonal_heat.py": "15dec10f4adbe5f7adce7f0a6f3abbfbfbe0fcdf14d52f1d08272cb1246a209f",
+    "polygonal_tail_saturated_heat_extension.py": "cda1570637d8b9bdc8d5891a944ee6fc2a6a2252d56141c2a6b8053b73ccfcdc",
+    "frame_collar_polygonal_saturated_heat.py": "483d0decb4cedd083ee3c9da8b499096c4aa51b3c23bb0140f8f7281f5a248fa",
+    "polygonal_tail_natural_extension.py": "da2cfa48679658573036456e1b6be234cdee7865fe9da2e6535634400fc0265f",
+    "frame_body_metric_design.py": "8e4fd2b153be450e83e2eea8997847c84e40498307769e0fc01a29cb93430865",
+    "frame_collar_natural_body_audit.py": "8185d72b866f17703c5abd5224fedfc57d197712a60ad021f246d46fd8521c3d"
+  }
+}
