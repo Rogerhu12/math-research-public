@@ -1,0 +1,515 @@
+{
+  "P0_satisfied": false,
+  "actual_sizes": {
+    "coefficient_DAG_nodes": 29402,
+    "history_states": 275,
+    "profile_atoms": 1016
+  },
+  "baseline_bridge_constructed": false,
+  "compiler_records": [
+    {
+      "B_terms": 6,
+      "J_terms": 6,
+      "P_terms": 6,
+      "R_terms": 27,
+      "eta0_terms": 15,
+      "field_component_terms": [
+        30,
+        18,
+        36
+      ],
+      "mode": "local_third_B",
+      "order": 2,
+      "period_rhs_sha256": "6a9ef0996ff803bdc8627e4dad191d029b1747812354e30947277e16ce8b3bc0",
+      "recovered": true,
+      "ruling_integrand_sha256": "310a640db7358e4dcea58a42202f3afbd9fc00a3b1c5cd8dede50ecced3bc510",
+      "ruling_integrand_terms": 6,
+      "state_count": 27
+    },
+    {
+      "B_terms": 72,
+      "J_terms": 72,
+      "P_terms": 75,
+      "R_terms": 318,
+      "eta0_terms": 182,
+      "mode": "local_third_C",
+      "order": 3,
+      "period_rhs_sha256": "6dca278f597d4caaec08ec2d0f36238c6d69b976e7f63a86b16da6bb881ef1fa",
+      "recovered": false,
+      "ruling_integrand_sha256": "ce785f9a5da6621715b1acb3eebfcf05743c74e9809e6fa9bdcc2e484441af0a",
+      "ruling_integrand_terms": 75
+    }
+  ],
+  "completion": "complete",
+  "cubic_velocity_exactly_zero": false,
+  "decomposition": {
+    "area": {
+      "geometry_terms": 22,
+      "sha256": "8e4e5979cfb3357d2f99d81c4c8224ef47be251160a3861e639d5a80b26107b2",
+      "total_profile_terms": 94
+    },
+    "contact_closure": {
+      "geometry_terms": 34,
+      "sha256": "5a4e413045054680b28da78a9ec0f5ab3763f28a3fd1a28223165e56e723f27d",
+      "total_profile_terms": 189
+    },
+    "cubic": {
+      "geometry_terms": 60,
+      "sha256": "87003c995cd4366a735289f20439b63f647e2fc8d24e9140b71a29a7ddbc8106",
+      "total_profile_terms": 223
+    },
+    "h_shape_obstruction": {
+      "geometry_terms": 45,
+      "sha256": "fa34a7e3a983936a95d14b5edffbeabca26d041957605a5608d4da77e400967f",
+      "total_profile_terms": 250
+    },
+    "local": {
+      "geometry_terms": 316,
+      "sha256": "2d574bbc67ca65f74e59dd35210f2ec90ac03d050d520edbc03c262eb3552acb",
+      "total_profile_terms": 1506
+    },
+    "potential": {
+      "geometry_terms": 162,
+      "sha256": "ee82c9895be8ed3db47edc3e9860516fbd2f3ed347ba1110273dc7451622e9fe",
+      "total_profile_terms": 917
+    },
+    "potential_acc": {
+      "geometry_terms": 93,
+      "sha256": "48c4ffc7f34c9b999e13b80df9931486b74e9deea1c2f2854d8202448f084d41",
+      "total_profile_terms": 432
+    },
+    "potential_h": {
+      "geometry_terms": 69,
+      "sha256": "74ceed5a4884f4d537010af9f0f04a23a6394a289533fa5861f8f31d2c61e78b",
+      "total_profile_terms": 485
+    },
+    "remainder": {
+      "geometry_terms": 199,
+      "sha256": "d26fc61700c44075138fbe6d7a41efb4ceb69dcc43016d21897ade2664f35199",
+      "total_profile_terms": 1151
+    },
+    "residual_k": {
+      "geometry_terms": 95,
+      "sha256": "a10fac3d3c950c509c77afff487dd7bd59eaf347ecfca5585bd7b556241a9b4f",
+      "total_profile_terms": 740
+    }
+  },
+  "dependencies": {
+    "formal_compiler": {
+      "bytes": 33169,
+      "filename": "literature_range_profile_algebra.py",
+      "git_blob_sha1": "01c7424af3a96f2c2a0f0cb0c782b2037ff3ec74",
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    "membership": {
+      "bytes": 33718,
+      "git_blob": "f1b4f5fc69dd14c72fbbd02fd7e5347b0345657a",
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    }
+  },
+  "elapsed_seconds": 2.8999146170000074,
+  "endpoint_potential_identity_verified": false,
+  "expanded_coefficient_nodes": 2791,
+  "finite_isometric_family_certified": false,
+  "full_fourth_range_satisfied": false,
+  "geometry_relation": "omega_s=k_s/(2h), h>0",
+  "github": {
+    "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_RUN_ID": "43630157008",
+    "GITHUB_SHA": "f3381b7556368457aaa5d855c141eeef48fa04e4"
+  },
+  "h_primitive_anchor": "P_h(h=1,k,omega)=0; constant-germ acceleration potential vanishes",
+  "local_density_columns_proved_reachable": false,
+  "operator_witnesses": {
+    "contact_closure": {
+      "h": 1,
+      "k": 0,
+      "no_span_fitting_from_values": true,
+      "omega": 1,
+      "physical_z_positive": true,
+      "profile": "(xi-1)^8*(2-xi)^8 on [1,2], zero outside; common right endpoint r=3",
+      "regularity": "C7 compact profile; density in the required finite Cj topology gives a smooth compact nonzero witness as well",
+      "status": "exact_nonzero_piecewise_polynomial_witness",
+      "value": [
+        "1076643469472966248796804123469219303",
+        "4639675011741110809809258035491671712590725120"
+      ],
+      "xi": [
+        5,
+        4
+      ]
+    },
+    "cubic_velocity": {
+      "h_s^0*k_s^3": {
+        "h": 1,
+        "k": 0,
+        "no_span_fitting_from_values": true,
+        "omega": 1,
+        "physical_z_positive": true,
+        "profile": "(xi-1)^8*(2-xi)^8 on [1,2], zero outside; common right endpoint r=3",
+        "regularity": "C7 compact profile; density in the required finite Cj topology gives a smooth compact nonzero witness as well",
+        "status": "exact_nonzero_piecewise_polynomial_witness",
+        "value": [
+          "-5924664143743739355094523751",
+          "7774421119858319363768623113048791449600"
+        ],
+        "xi": [
+          5,
+          4
+        ]
+      },
+      "h_s^1*k_s^2": {
+        "h": 1,
+        "k": 0,
+        "no_span_fitting_from_values": true,
+        "omega": 1,
+        "physical_z_positive": true,
+        "profile": "(xi-1)^8*(2-xi)^8 on [1,2], zero outside; common right endpoint r=3",
+        "regularity": "C7 compact profile; density in the required finite Cj topology gives a smooth compact nonzero witness as well",
+        "status": "exact_nonzero_piecewise_polynomial_witness",
+        "value": [
+          "94359381591388817684179622259",
+          "16621176187283303467367401138242243788800"
+        ],
+        "xi": [
+          5,
+          4
+        ]
+      },
+      "h_s^2*k_s^1": {
+        "h": 1,
+        "k": 0,
+        "no_span_fitting_from_values": true,
+        "omega": 1,
+        "physical_z_positive": true,
+        "profile": "(xi-1)^8*(2-xi)^8 on [1,2], zero outside; common right endpoint r=3",
+        "regularity": "C7 compact profile; density in the required finite Cj topology gives a smooth compact nonzero witness as well",
+        "status": "exact_nonzero_piecewise_polynomial_witness",
+        "value": [
+          "-322301596065524007918871640275233",
+          "45309326286534285252043535502848356568268800"
+        ],
+        "xi": [
+          5,
+          4
+        ]
+      },
+      "h_s^3*k_s^0": {
+        "h": 1,
+        "k": 0,
+        "no_span_fitting_from_values": true,
+        "omega": 1,
+        "physical_z_positive": true,
+        "profile": "(xi-1)^8*(2-xi)^8 on [1,2], zero outside; common right endpoint r=3",
+        "regularity": "C7 compact profile; density in the required finite Cj topology gives a smooth compact nonzero witness as well",
+        "status": "exact_nonzero_piecewise_polynomial_witness",
+        "value": [
+          "-3913123755122146513930383021033",
+          "120503527357803950138413658252256267468800"
+        ],
+        "xi": [
+          5,
+          4
+        ]
+      }
+    },
+    "h_shape_obstruction": {
+      "h": 1,
+      "k": 0,
+      "no_span_fitting_from_values": true,
+      "omega": 1,
+      "physical_z_positive": true,
+      "profile": "(xi-1)^8*(2-xi)^8 on [1,2], zero outside; common right endpoint r=3",
+      "regularity": "C7 compact profile; density in the required finite Cj topology gives a smooth compact nonzero witness as well",
+      "status": "exact_nonzero_piecewise_polynomial_witness",
+      "value": [
+        "-481581462739534271164269433513020987",
+        "4034500010209661573747180900427540619644108800"
+      ],
+      "xi": [
+        5,
+        4
+      ]
+    },
+    "velocity_area": {
+      "h": 1,
+      "k": 0,
+      "no_span_fitting_from_values": true,
+      "omega": 1,
+      "physical_z_positive": true,
+      "profile": "(xi-1)^8*(2-xi)^8 on [1,2], zero outside; common right endpoint r=3",
+      "regularity": "C7 compact profile; density in the required finite Cj topology gives a smooth compact nonzero witness as well",
+      "status": "exact_nonzero_piecewise_polynomial_witness",
+      "value": [
+        "-190329414322954242284718986979063",
+        "45309326286534285252043535502848356568268800"
+      ],
+      "xi": [
+        5,
+        4
+      ]
+    }
+  },
+  "ordinary_complex_bilinear_products": true,
+  "phase": "finished",
+  "pure_upper_span": {
+    "formal_local_columns_are_not_a_reachability_certificate": true,
+    "fresh_original_residual_terms": 0,
+    "local_density_profile_representative_rank": 26,
+    "negative_is_not_functional_nonmembership": true,
+    "relation": [
+      {
+        "coefficient": [
+          1,
+          12
+        ],
+        "column": {
+          "kind": "R71_reachable_commutator",
+          "pair": [
+            "p0",
+            "s0"
+          ]
+        }
+      },
+      {
+        "coefficient": [
+          -1,
+          32
+        ],
+        "column": {
+          "kind": "R71_reachable_commutator",
+          "pair": [
+            "r0",
+            "r1"
+          ]
+        }
+      },
+      {
+        "coefficient": [
+          -1,
+          96
+        ],
+        "column": {
+          "kind": "R71_reachable_commutator",
+          "pair": [
+            "r0",
+            "t1"
+          ]
+        }
+      },
+      {
+        "coefficient": [
+          1,
+          24
+        ],
+        "column": {
+          "kind": "R71_reachable_commutator",
+          "pair": [
+            "r1",
+            "s1"
+          ]
+        }
+      },
+      {
+        "coefficient": [
+          3,
+          16
+        ],
+        "column": {
+          "kind": "R71_reachable_commutator",
+          "pair": [
+            "s0",
+            "s1"
+          ]
+        }
+      },
+      {
+        "coefficient": [
+          -16,
+          3
+        ],
+        "column": {
+          "geometry_monomial": [
+            -5,
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "geometry_variable_order": [
+            "h",
+            "k",
+            "omega",
+            "h_s",
+            "k_s",
+            "h_ss",
+            "k_ss",
+            "log_h"
+          ],
+          "kind": "formal_local_density_only"
+        }
+      },
+      {
+        "coefficient": [
+          8,
+          3
+        ],
+        "column": {
+          "geometry_monomial": [
+            -4,
+            1,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          "geometry_variable_order": [
+            "h",
+            "k",
+            "omega",
+            "h_s",
+            "k_s",
+            "h_ss",
+            "k_ss",
+            "log_h"
+          ],
+          "kind": "formal_local_density_only"
+        }
+      },
+      {
+        "coefficient": [
+          -4,
+          1
+        ],
+        "column": {
+          "geometry_monomial": [
+            -1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "geometry_variable_order": [
+            "h",
+            "k",
+            "omega",
+            "h_s",
+            "k_s",
+            "h_ss",
+            "k_ss",
+            "log_h"
+          ],
+          "kind": "formal_local_density_only"
+        }
+      },
+      {
+        "coefficient": [
+          -2,
+          1
+        ],
+        "column": {
+          "geometry_monomial": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "geometry_variable_order": [
+            "h",
+            "k",
+            "omega",
+            "h_s",
+            "k_s",
+            "h_ss",
+            "k_ss",
+            "log_h"
+          ],
+          "kind": "formal_local_density_only"
+        }
+      },
+      {
+        "coefficient": [
+          -4,
+          1
+        ],
+        "column": {
+          "geometry_monomial": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "geometry_variable_order": [
+            "h",
+            "k",
+            "omega",
+            "h_s",
+            "k_s",
+            "h_ss",
+            "k_ss",
+            "log_h"
+          ],
+          "kind": "formal_local_density_only"
+        }
+      }
+    ],
+    "remainder_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "remainder_terms": 0,
+    "response_columns": 54,
+    "total_response_representative_rank": 46,
+    "verified_whole_function_identity_in_formal_upper_span": true
+  },
+  "raw_local": {
+    "geometry_terms": 316,
+    "sha256": "2b787ba4c40421922205154562c19edf97c95e358d3fa6c3306134f017bd195f",
+    "total_profile_terms": 3503
+  },
+  "research_profile_witness_scope": "fixed exact polynomial counterexamples only; no profile fitting",
+  "resource_limits": {
+    "IBP_calls": 300000,
+    "RSS_polling_mib": 2048,
+    "coefficient_nodes": 600000,
+    "profile_atoms": 80000,
+    "rational_span_bits": 8192,
+    "seconds": 240,
+    "terms": 100000
+  },
+  "right_IBP_statistics": {
+    "cycle_fallbacks": 0,
+    "first_level_shuffle_rewrites": 39,
+    "power_shuffle_rewrites": 4,
+    "primitive_calls": 729,
+    "unique_high_jet_rewrites": 452,
+    "weight_zero_not_rewritten": 0
+  },
+  "right_anchor": "I(F)=integral_r^xi F; every left tail retained",
+  "schema": "visible-flex-local-third-bridge-exact-decomposition-v1",
+  "source_sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0",
+  "target": "R73 C_s(q;q,q)=local third RHS after full actual derivatives and then zero history values",
+  "toy_checks": {
+    "exact_piecewise_right_primitive": true,
+    "manual_base_potential_reconstructed": true,
+    "manual_cubic_velocity": true,
+    "manual_symmetric_acceleration_potential": true,
+    "manual_velocity_area": true,
+    "no_research_compiler_called": true
+  },
+  "velocity_area_exactly_zero": false
+}
