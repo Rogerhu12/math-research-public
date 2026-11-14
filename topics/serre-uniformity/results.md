@@ -93,3 +93,5 @@
 - **R706（精确有限结论及实际例外已证明）**：[至200000的5992素数完整窗口和原sigma零](results/R706-exact-window-through-200000-and-original-sigma-zero.md)。全部Cp非零，Cp−3仅在真实剩余p137147为零；原z独立公开Actions确认Cp=80155、Cp−3=0。因此该p的v(M2)≥−1/2，原全p最低赋值−1命题不成立；其余5991素数v(M2)=−1。非M2本身为零、非高度结论、非Serre反例。
 
 - **R704（已证明并公开精确计算）**：[原Γ标记的全部43个p处嵌入](results/R704-actual-original-Gamma-p-split-embedding-matrix.md)。原R191实根与R305普通整基给模43²完整43×43矩阵，1849原乘法行及全部幂等元验证，det=687=q²¹；误差varpi_s^3784足够R701的1938精度。原c_s/c_q坐标、86×44单位矩阵及C/m/L仍未求。
+
+- **R656（已证明）**：[两个真正CM4粗盘的原F2高度和第104个排除](results/R656-two-true-CM4-original-F2-heights-and-first-exclusion.md)。复用原完整304位链、457主函数、全106典范Norm及108积分常数；保留T2双点/长度4整约束和R554联合j/ηB消极。j36_02约化2+8y+3y²无根，非CM SS累计104/105；j36_06仍有两简单Hensel分支51167/59448，待R709同分量F3。
