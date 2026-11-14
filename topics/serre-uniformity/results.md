@@ -229,3 +229,6 @@
 
 
 - **R753（已证明）**：[原除法多项式变分与三挠点单位](results/R753-original-division-polynomial-variation-and-three-torsion-unit.md)。原ψp≡−1、φp≡x^(p²) modp与准确微分给全部非p指标，首h_(p+1)为Lucas单位；原三挠点值−(−4)^((p²−1)/6)完整。恰余N个Frobenius方向，不把它们视为实际自由参数或把三挠点单位代原C_p。
+
+
+- **R756（已证明）**：[原三Norm普通单位整格与准确scalar上同调](results/R756-original-three-norm-ordinary-lattice-and-exact-scalar-cohomology.md)。同一Z给全ordinary导数cube；实际Tate连接精确H¹(S,kerΓE)=k[T]/(N_T)，原(s−1)Y完整相位−4J·N_T+iD_T、归一首系数19，保全部42个非基准点的极点修正。E∩pU=pE给真正p可除性判据，实际测试与J/b/σ₂仍开。

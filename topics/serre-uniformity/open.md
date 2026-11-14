@@ -360,3 +360,6 @@ cert SHA7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be，
 
 
 **R753（原除法多项式一阶变分已证明）**：[完整证明](results/R753-original-division-polynomial-variation-and-three-torsion-unit.md)给原ψp≡−1、φp≡x^(p²) modp，及原H=(ψp+1)/p的全部非p指标。h1…hp=0，h_(p+1)=−1/2·binom((p−1)/2,(p+1)/3)为单位；原三挠点精确ψp(0)=−(−4)^((p²−1)/6)。导数信息仅余N=(p−5)/6个x^(3mp)方向；R757将从原σ乘法恒等式求它们，仍须另接O点的临界Cartier系数，不能把此三挠点单位代C_p。
+
+
+**R756（原ordinary三Norm整格与准确cohomology已证明）**：[完整证明](results/R756-original-three-norm-ordinary-lattice-and-exact-scalar-cohomology.md)用同一Z移除全部divisor，构造ordinary U/V_i/W_ij/H及精确边界，尚未任意除p。原H¹(S,kerΓE_M)=k[T]/(N_T)，U_Y=(s−1)Y全q向量−4J·N_T+iD_T，标记class首系数19、下一系数保J；原flat仅J→J−18。实际E∩pU=pE把W_ij的ordinary可除性转成原p局部测试，三Norm本身不足；继续真实flat section/Iα与σ₂，未将模块形状认作b。
