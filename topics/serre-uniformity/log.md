@@ -279,3 +279,8 @@
 - R780原ordinary T transfer=0、H¹(T,E_M)=k及unit Herbrand1确定完整NT像，EV商k保原y；指定n/u均有X42深度/三Norm零的实际ordinary原像，第三Norm与原X41深度对η自动。
 - 证明SHA7d85e0522d2b7c091d8c38c3701c0672f28f504dac714f72c23529f8a4a6f870；不替原primitive/J相位，R783继续真实cs的p局部输入。H/open完整归档压缩并同步index，open旧公式定界统一$/$$。
 - R775仍公开run43631335355；R781独立Laurent只用已成R774可并行，根已核280整域打包和递推缓存，尚无实际输出。终端仍不可用，按根规矩8核main/两README后小文本非force继续。
+
+## 2026-11-15 04:04 Asia/Taipei · serre-public-resume-20261114
+- R782原F=xσ6/G=−xyσ6的全部D6m商用真实零除子/稳定子排极点；第五阶导数准确给Σc_m t6m/(6m)!=(x³−4)²σ12，c1/c2为所有允许p单位。
+- 真critical总阶N−1有限K矩阵及原同h/Legendre/primitive接口全保，未推高阶常数单位或把对角筛与K交换；非零仍开。最终$/$$版SHAfa289d58fa1bbd2273e4d88d5dc5b30e325be57e0943cd4b51394981ae331b92，根逐式核第五阶代数及c2。
+- R780已单独推0cc1d068；H/open/index同步，R781公开独立Laurent包装推进。终端仍不可用，按根规矩8核main/两README后小文本非force；未新增本地数学计算。

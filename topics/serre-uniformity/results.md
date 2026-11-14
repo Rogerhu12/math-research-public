@@ -307,3 +307,5 @@
 - **R781（已证明）**：[原切向下降与无逆Laurent关系](results/R781-original-tangent-descent-and-inverse-free-Laurent-relations.md)。真实行列式−1元给v=ξ^-10u下M+20/L的整数Chebyshev下降；原H³首项κ换参后逐阶只乘域元素、除3n+1，无代数κ逆。全部143条原关系准确化为2860行/3028未知，保rank2720/kernel308与最终全代回；λb整基及完整普通分母界支持实际断点计算。原函数/β/高度尚未输出。
 
 - **R780（已证明，b≠0）**：[完整普通T范数像与自动深T条件](results/R780-exact-ordinary-T-norm-image-and-automatic-deep-T-condition.md)。真实ordinary transfer和unit Herbrand商给NT E_M=O[Γ,S]cs+O[S]us、EV商k由原y生成；指定ku⊕kn全部在xzX42(E_M/p)，显式ordinary原像三Norm严格零。因此第三Norm及原xzX41深度均不限制剩余η，不替原primitive/J相位，实际cs局部两坐标继续。
+
+- **R782（已证明）**：[原六次sigma截面的完整Hirota平方加法核](results/R782-original-sigma-six-Hirota-square-addition-kernel.md)。原F/G全部六倍阶双导数为c_mFG，完整生成函数是W²=(x³−4)²σ12；c1=−5184和c2=2^12·3^9·79均为允许p单位。准确critical N−1矩阵保同h和原Legendre/primitive接口，但与该筛选的兼容性及共同非零仍开，未把完整加法恒等式当高度排根。

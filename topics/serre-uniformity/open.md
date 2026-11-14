@@ -198,4 +198,6 @@ R736/R756/R758/R761/R763/R766保真实ordinary共同primitive、全q phase、两
 
 R753/R757原ψp模p²、R760最高N+1除法数据modp⁴和c0规范完整保留；Frobenius方向单位不强迫两Cartier。R765原截断残差单位B位于总指标N+1，与所需N−1不同。
 
-[R770同一本原标签](results/R770-same-primitive-label-square-and-finite-bilinear-pairing.md)保原h=6a+1及完整平方(p²M2h/ζ)²=(1296αsB⁵P6a UhVh)²；Legendre有限平均与Möbius primitive筛给准确双线性配对。非零足够但尚未证，不选任意signed平方根。R782正在完成原两个六次sigma截面的精确加法恒等式；即使同h三单位成立，也不能替代真正高度排正秩有理点。
+[R770同一本原标签](results/R770-same-primitive-label-square-and-finite-bilinear-pairing.md)保原h=6a+1及完整平方(p²M2h/ζ)²=(1296αsB⁵P6a UhVh)²；Legendre有限平均与Möbius primitive筛给准确双线性配对。非零足够但尚未证，不选任意signed平方根。即使同h三单位成立，也不能替代真正高度排正秩有理点。
+
+[R782原完整双线性加法](results/R782-original-sigma-six-Hirota-square-addition-kernel.md)已证明：固定F=xσ6、G=−xyσ6的全部六倍阶Hirota导数是c_mFG，常数由同一原W=(x³−4)σ6的平方生成，Σc_m t6m/(6m)!=W²；原第五阶式D5F·G=−120W²。FG零除子5[O]+2[Q+]+2[Q−]+Σ[T2]与稳定子6/3/2严格排掉商的全部极点，不靠数值猜恒等式。c1=−5184、c2=2^12·3^9·79对全部允许p≥41单位，未外推高c_m。真正critical总阶N−1上，K_li=[T6l](1+T)^(6i+4)(1−T)^(6(N−1−i)+1)满足ΣK_li f_i g_(N−1−i)=k_l[ v^(N−1−l)]fg；低阶约化全部合法。该矩阵混合标签，不自动与原primitive/Legendre对角筛交换，也尚未给N+1→N−1的可逆下降或共同非零。后继继续这个原有限矩阵；不扩有限素数窗、不把三同源degree18误当原degree6自作用。
