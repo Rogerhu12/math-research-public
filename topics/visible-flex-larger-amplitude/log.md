@@ -579,3 +579,8 @@ run43602070499/job132468788403已成功出版1e490cda；两artifact取回并核S
 ### 2026-11-14 request19实际定位内部stage残差
 
 run43602823170/job132471064124全部success，publisher e84c1d79，artifact14117255967/ZIP edc1a588…实际取回。全部129248项保存状态与原cold initial数值相等；原无J576stage全guard过/70.779s，norm13414069.968482966，最坏stage11/rawCell0/rawSegment7/Pi104；cut/far全部112残差0。完整回执及哈希见actual-cold-tail-no-J-stage-replay；无新尾接受。root全文读same-native-RK-zero-stage-initializer源/说明，源码SHA aad7ca6ebddf91dee6b38a454543bc16a5308f5474428fb1add09763c0c56288；只供私有初猜，原far/graphs/gains/scales不改，尚未执行。下一候选原noJ探针有实际依据。
+
+
+### 2026-11-14 request20：实际限制查询的投影方向
+
+独立protected_tangent_warm/response源已全文读、AST/完整SHA核对；原三源及R262源未改。公开trustprotected lane从18实际warm SHA1dbdcc8f…出发，先同进程完整Hermite/原nodal RHS域梯度实核，再原完整A/JT及投影伴随，1模型/λ270/LSMR200、原17trial/全部RMS/rho/真实merit。实际方向z=P C^-1v与λP罚项、KKT/乘子/原线性残差及全trial保全。新FD执行原冻结源体与新producer账；无native或新接受声明。当前只有静态核对，Actions待实际回执。

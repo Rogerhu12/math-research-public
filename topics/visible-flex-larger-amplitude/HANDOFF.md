@@ -41,7 +41,7 @@ full_state_continuous_cover/held_hausdorff已绑定全v3/v4、R249、SE2/完整m
 ## 已证结果与消费者
 
 完整证明/假设/依赖见results.md，不以摘要替代。R248有限C²全相位强连续/metric/κ及未标记reach归约；R249入口共享jet投影保cut/mean/H，实际修补费用待付。R250/253材料P可逆与病态相容；R252完整φ有限边界不是旧Rθ等价预条件。R255精确circle剪切不冒有限φ谱；R256 exact chart/J/JT及正阻尼下降，实际截停另核。R257非圆core严格单位速入口不能纯有限θ；换表示须付全部成本。
-R260已证返回ap/app与真实a导数偏差、完整角/径向强迫及同g operator/二阶费用；有限Gauss非恒等不推实际超限，共享节点C²仍成立。R262已完整证明真实Hermite域梯度/全p/入口chain、切空间正阻尼下降与λP伴随；独立域接口已全文读/AST核，未数值；从18实际新warm接1模型源准备中。
+R260已证返回ap/app与真实a导数偏差、完整角/径向强迫及同g operator/二阶费用；有限Gauss非恒等不推实际超限，共享节点C²仍成立。R262已完整证明真实Hermite域梯度/全p/入口chain、切空间正阻尼下降与λP伴随；独立域接口及protected warm/FD已全文读/AST核；request20/trustprotected已发，从18真warm接原λ270/LSMR200的一模型，先实核完整域行，再原全域/merit及新FD，native0。
 R251四Loewner给原operator门；strict cell/fullprefix/scalar exporter已重建。request16/run43597596523仅四源compile、三解析例/series成功；实际完整scalar/prefix未核，不重跑例子。R246仅旧.984三分量证书，不能移植.99或冒operator≤1e−6。
 R254完整z0/共享Hermite逐cell非平面消费者已compile，新场未跑。R258本场全FFT/sharednode尾、内collar/全角cut修补及四角次数≤15证明完整，dtype/SE2/marker消费者已冻结未执行；新背景C²规范形源已冻结待接真parent，不继承旧renderer未付包络。全部闭面/含反射δE/真实像变仍待同场输入。
 
