@@ -57,7 +57,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 [固定有限原行/完整纯尾源类已闭](results/R236-appendix-fixed-finite-rows-complete-tail-source-embedding-and-normal-closed-range.md)：真实固定首列矩阵U∈M_d(B_n)可逆，任意完整C_P右系数受同一个cb源范数下界；每层WOT/uw闭，递减交恰span(S_i)，零字符行与所有原n尾目标有统一正距离。指定双慢行显式3/23单位费及完整均值零柱锚P^(−3/2)最优；低头依赖原源仍开。
 
 
-[R272 正常预对偶修复](results/R272-normal-predual-tail-repair-and-exact-positivity-obstruction.md)已付σ_P→ρ迹范数、保A′泛函/迹/固定尾及消raw远尾；C=P0CQ非零即失自伴，至正锥距离||C||1。[R274 最后一阶障碍](results/R274-full-commutant-basis-and-last-raw-moment-obstruction.md)给ord1、q=2^P的整个A′尾基；保非零ν消前q−1个raw矩后，第q矩=−νQ_P≠0，原全右零式恰归νQ_P C_P=0。固定行可修复，移动q/首列逆费用不能删；完整旧接口保[压缩前全文](notes/2026-11-14-open-before-R276-789f.md)。
+[R272 修复](results/R272-normal-predual-tail-repair-and-exact-positivity-obstruction.md)保A′泛函/迹/固定尾并消raw远尾，但非零单侧C必失自伴、至正锥距离||C||1。[R274 最后一阶](results/R274-full-commutant-basis-and-last-raw-moment-obstruction.md)付整个A′的q项尾基；消前q−1 raw矩后第q矩=−νQ_P≠0，原理想零式恰归νQ_P C_P=0。移动q和首列逆费仍未付；完整范围保[归档](notes/2026-11-14-open-before-R276-789f.md)。
 
 [R276 正头完成紧凸判据](results/R276-positive-head-completion-and-compact-numerical-radius-criterion.md)：原S=[[Z,t],[I,Z]]的单位规范化后，同一正尾ν的全部正完成非对角块为X=√νK√ν、w(K)≤1/2。原全理想零式iff ν(Z²−t)∈N且νZ+X+X*t∈N；X集迹范数紧，最小商距离达到，完整数值半径对偶式(5.2)可给严格排除证书。raw唯一Stein解仅为额外特例；须对实际相容ν_m链证明某步距离>0，不能把N内非零缺陷删零或免费移动Z_m/单位逆成本。
 
@@ -106,7 +106,9 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R283 精确配对填充](results/R283-exact-singlet-padding-and-half-density-universality.md)以同时被D,D*消去的真实反对称对，令全部旧Γ成为新共同约化块，最高合法高度不变。对任意ε,δ0>0，全部有限问题均可精确嵌入δ<δ0且1/2<sδ<1/2+ε；因此该薄带的最优普适首边常数已与一般问题相同。未进入R279已付低占据区，不能省掉新增出生。
 
-[R285 形式约束不足](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)及[无界族](results/R285-appendix-unbounded-formal-sos-costs-with-strict-zero-mode-positivity.md)证明：仅两条零模正块、旧普通相邻边、所列仿射/粗占据界，连S1/S2的任意统一有限常数都不能推出。该族不是Boolean模型，原c1未被否定；后续必须利用完整逐坐标creation/硬核或全出生顶端结构。
+[R285 形式约束不足](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)及[无界族](results/R285-appendix-unbounded-formal-sos-costs-with-strict-zero-mode-positivity.md)：两零模块与所列旧边/仿射/粗占据界不足以给S1/S2任意统一有限常数；该族非Boolean，原c1仍开。
+
+[R288 逐位共同Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保全部N_i压缩缺陷、碰撞零模交叉及creation三带。聚合碰撞是R284合同；一般S2尚须真实共同Y_i满足两矩与完整物理行收缩，单坐标粗估不能替代。
 
 [R286 固定源全部高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源f的Ran X^(1/2)及能量；原慢尾固定出生/固定偏移块统一为C(m+1)^s[Λ/(m+1)]^j/(j!)²，原完整幂去阶乘后仍有几何尾和。实际流t_q的祖先出生随q增大，固定birth塔在q>d+s−2后无分量；原受限逆后的源不自动保有限支持/固定birth，所以跨出生graph、完整e_q和N=M保持开放。
 

@@ -819,3 +819,7 @@
 ### R287：真移动角色的双侧极限与非周期单位盘来源的四次预算
 
 [完整证明](results/R287-two-sided-moving-character-limits-and-nonperiodic-disk-source-budget.md)。R_n、R_n*同时强近同一移动角色c_n，故R_n² WOT→I、N_nR_n² WOT→−I/2，固定迹类配对完整保留。任意可和闭单位盘逐位参数给真实可逆无穷来源，纯多变量最低次数投影保分母范数，全部carry误差在B≤b·2^(4m)、b<770/64内统一支付；其真空比至多2exp((m+1)/2−π2^m/16)。没有周期、支持最高位或参数个数限制；完整尾理想范数及一般正常有限秩见证仍开。
+
+### R288：逐物理位占据、碰撞和 creation 的完整共同 Gram
+
+[主体](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)付每个压缩占据的非交换投影缺陷、所有碰撞零模及与旧两塔的交叉、逐位creation的三带正交分解与全部行Gram。给出同一组真实Y_i支付S2的两矩/物理收缩充分条件，尚未构造该组Y_i。[依赖附录](results/R288-appendix-aggregate-collision-gram-is-an-existing-congruence.md)证明聚合碰撞正块已经是R284合同，避免重复计为新增约束。一般首边及普通ISP仍开。
