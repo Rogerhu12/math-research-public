@@ -8,7 +8,36 @@
   "workflow_commit": "4f9171499984ce3c06e535b6299c58509b1f4049",
   "worker_source_sha256": "d6189c9b6663a99a91746b7f4f00e5b4fddba55ecb9291250693e8a275f3673f",
   "started_utc": "2026-11-14T17:04:04.164520+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_complete_same_w0_ordinary_only_cap_Hessian",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-ordinary-Hessian-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ordinary_only_cap_Hessian.py",
+        "--out",
+        "/__w/_temp/visible-exact-ordinary-Hessian-output/native/complete-same-w0-ordinary-only-cap-Hessian.json.gz",
+        "--proposal",
+        "/__w/_temp/visible-exact-ordinary-Hessian-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-physical128-cap-moving97-precomposition-native.json",
+        "--pilot",
+        "/__w/_temp/visible-exact-ordinary-Hessian-pilot/native/known-cut-direction-complete-cap-mixed-source-pilot.json.gz",
+        "--pilot-process",
+        "/__w/_temp/visible-exact-ordinary-Hessian-pilot/process.json",
+        "--local",
+        "/__w/_temp/visible-exact-ordinary-Hessian-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-local-cap-Hessian-source-native.json.gz",
+        "--old-hessian",
+        "/__w/_temp/visible-exact-ordinary-Hessian-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-cap-trial-local-Hessian-native.json.gz",
+        "--previous",
+        "/__w/_temp/visible-exact-ordinary-Hessian-previous/native/complete-same-w0-particular-cap-Hessian.json.gz",
+        "--previous-process",
+        "/__w/_temp/visible-exact-ordinary-Hessian-previous/process.json"
+      ],
+      "started_utc": "2026-11-14T17:04:09.366796+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 120.003394661,
+      "finished_utc": "2026-11-14T17:06:09.370609+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T17:04:05.977488+00:00",
@@ -25,9 +54,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:06:10.564890+00:00",
+      "before": "a4bc68ab24bd6e49f374907c703a2dcb09ce3765",
+      "after": "aaa8233e2565e8aa0bd84295f99478886e9c76be",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T17:04:09.364484+00:00",
+      "final": false,
+      "commit": "fcdf26ab0365a9434d8c09e12d7df7268ccfbb1c"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -58,7 +101,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "a4bc68ab24bd6e49f374907c703a2dcb09ce3765",
+  "last_read_commit": "aaa8233e2565e8aa0bd84295f99478886e9c76be",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-ordinary-Hessian-work/science",
   "original_prepared_bundle_sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70",
   "all_original_large_array_bytes_verified": true,
@@ -72,8 +115,8 @@
     "previous": "9360555293def4b1803da05c5c432a8f737ed4f3d62ea2b84c89e7e236ff7650",
     "previous-process": "0113de801ff7c0da2999bcfbf2e5e054560c2eb6dcd4278461305fc696213d5c"
   },
-  "snapshot_utc": "2026-11-14T17:04:07.855569+00:00",
-  "wall_seconds": 3.691622185,
+  "snapshot_utc": "2026-11-14T17:06:10.607587+00:00",
+  "wall_seconds": 126.443643116,
   "native_files": [
     {
       "logical_file": "evidence/original-particular-Hessian-process.json",
@@ -92,6 +135,12 @@
       "file": "evidence/original-successful-v3-pilot-process.json",
       "bytes": 16602,
       "sha256": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4"
+    },
+    {
+      "logical_file": "native/complete-same-w0-ordinary-only-cap-Hessian.json.gz",
+      "file": "native/complete-same-w0-ordinary-only-cap-Hessian.json.gz",
+      "bytes": 1010976,
+      "sha256": "b1ffc21737ba45d1ef8823af9dccc0baba8b100a1169b60c69f6a7a5d1cfda6c"
     }
   ]
 }
