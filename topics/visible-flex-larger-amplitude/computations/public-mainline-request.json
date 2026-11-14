@@ -1,14 +1,19 @@
 {
-  "request": "20261114-public-large-core-mainline-38",
+  "request": "20261114-public-large-core-mainline-39",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "nativesplitprobe"
+    "twelvequery",
+    "nativesplitband"
   ],
-  "scope": "Consume byte-pinned actual28 and unchanged complete actual23 seed/history/source/config. Split only original no-cusp stages43 and58 twelve RK steps into two six-step windows while retaining original profile, h, per-path x arithmetic and every RK abscissa. Execute four short with-J windows and four separate no-J windows; retain full226 intermediate state including means, four complete224-by224 shape Jacobians, mean tangents, raw input/output bytes, original minA/minD and schedule ledgers. Apply original port scaling once and compare original exit coordinates and means against saved actual28 bytes. Do not recompute old long Jacobians or the other574 blocks. Save explicit prospective578-stage/579-node mapping, preserving old-node sigma and declaring parent sigma for each new node. Planned diagnostic STOP before Newton, correction, trial, endpoint Jacobian or audit; no native/BVP acceptance or new scientific gate.",
+  "scope": "Two independent continuations. Prefix: consume actual37 full warm/status with exact paired SHAs, preserve all eleven grids and add actual left-RMS470. Complete B has24576 rows on236036 coordinates including node470; restrict only the C-projection correction to prior nodes471..482 plus original p, retaining complete B_out*z0_out affine offsets even when negative. Preserve original whole-vector radial/ray backup/same-f selection, lambda270/LSMR200/200sweeps/17actual trials, every original nonlinear domain gate and fresh complete Rphi FD. Native: consume actual28 plus actual38 completed four short Jacobians, whose actual exit and mean bytes match28, to construct explicit578-stage/579-node virtual system with574 original plus4 short blocks, original cut/far/H/old-node sigmas and declared inserted parent sigma. Perform bounded dyadic equilibration and exact residual refinement on this new representation; retain full579 direction and separately identified577 restriction. Old long-J residual is diagnostic only, never a veto. No original native solve/trial/new J here, no new BVP/closed-surface acceptance. Block-QR component is published as unexecuted supporting implementation, not run by these two lanes.",
   "source_sha256": {
-    "geometry_20261114_native_same_schedule_split_probe.py": "911b8d8a872ec5ba2d1ae45cb83011e4d7b2d1302c1693bded34fc0a8f6c09ae",
-    "geometry_20261114_native_same_schedule_split_probe_hook.mjs": "34d1bb4f31514425e123e978ccffbc5e2d36bf314a98f53505353743a01c8898",
-    "geometry_20261114_native_same_schedule_windows.mjs": "2973c14460de920ba2cc873ef9bcc137bdd264b70799ba9734122f3c610b946f",
-    "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859"
-  }
+    "geometry_20261114_twelve_query_domain_operator.py": "6a428d2f8412659cbd318321aa992c3b4565ff41177131a9cc9d268c6fbb7b1f",
+    "geometry_20261114_fixed_support_halfspaces.py": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+    "geometry_20261114_twelve_query_projection_warm.py": "10ed25405930f3775d8fb88f007aa50be4a53f4b3421904be959f1890ed67477",
+    "geometry_20261114_twelve_query_projection_response.py": "1989a8a9925c6e606d39451b1625b49de7b33d048061e69668162895642d4783",
+    "geometry_20261114_native_split_captured_system.py": "e88e69da3bf5dfea792515f544bfb03ca9e00f907bf5904c2f856e203d4ea451",
+    "geometry_20261114_native_split_equilibrated_correction.py": "d56da0ed2cb210bbc7921f9cb79df5923e9b93b441e7a9a0aa2681e373ec66de",
+    "exact_20261114_regularized_block_qr.py": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722"
+  },
+  "actual_split_result_sha256": "80a2c7ec5ad45679869b94e3b6a55e9b4504b822f6c2f972269b1b9b25f644d9"
 }

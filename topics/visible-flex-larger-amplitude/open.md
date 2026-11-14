@@ -26,9 +26,9 @@
 
 30最佳R267浮点下界表达式43.11565368239749来自原raw LSMR零乘子证据点，非后续H改善；跨点给C的gap表达式.7894044861，没有严格舍入包络。不同轮会刷新原权重，不能把不同轮merit相减。R262/263/265/267是有限优化工具，不新增原BVP门。
 
-[actual37十一query](notes/2026-11-14-actual-request37-eleven-query-warm-and-RMS470.md) 全字节核验已完成，新warm/status为当前父。新增mid475在较近档有效，实际限制移到470。下一十二query保完整RMS470和同次原nodal J/P，但把局部投影可改节点固定在既有471–482+p；外部raw LSMR方向通过完整B_out z0_out进入affine offset。之后全向量radial仍会缩放外部，必须如实记录。保原λ270/LSMR200/17trial/全域/FD，无性能或QP收敛预断。原engine仅单模型iterations=1，不盲串旧十一query。
+[actual37十一query](notes/2026-11-14-actual-request37-eleven-query-warm-and-RMS470.md) 全字节核验已完成，新warm/status为当前父。新增mid475在较近档有效，实际限制移到470。[request39十二query接口](notes/2026-11-14-twelve-query-fixed-support-RMS470-interface.md) 已接完整RMS470和同次原nodal J/P，但把局部投影可改节点固定在既有471–482+p；外部raw LSMR方向通过完整B_out z0_out进入affine offset。之后全向量radial仍会缩放外部，必须如实记录。保原λ270/LSMR200/17trial/全域/FD，无性能或QP收敛预断。原engine仅单模型iterations=1，不盲串旧十一query。
 
-独立完整正则block-QR组件已静态完成，正在薄接同次完整模型；原A/AT读回和C同f比较保留，纯global余行与全部正则行不删。尚未运行，不把内解精度变成新BVP门。
+[完整正则block-QR组件](notes/2026-11-14-complete-regularized-block-qr-interface.md)已静态完成，正在薄接同次完整模型；原A/AT读回和C同f比较保留，纯global余行与全部正则行不删。尚未运行，不把内解精度变成新BVP门。
 
 ### 1B. Native：修复保存完整系统的原尺度线性缺陷
 
@@ -40,7 +40,7 @@
 
 [原band接口](notes/2026-11-14-native-captured-band-correction-interface.md) 直接消费同保存A，原σ显式行列尺度、129248维/kl112/ku335带主元分解，恢复后回原方程读取全部旧/新缺陷，并在Actions对原/新最坏行算精确有理见证。31/33只在输入发布失败，没有科学执行，事实分别见 [31](notes/2026-11-14-actual-request31-artifact-publication-failure.md)、[33](notes/2026-11-14-actual-request33-read-only-publication-order.md)。[34实际带状重解](notes/2026-11-14-actual-request34-native-band-exact-defect.md) 完成同原矩阵LU，info0而新原σ浮点缺陷仍4.1558709373255425e30；同stage43/Pi110精确原数组值5.2938027944720597e30给严格full-model下界。此巨大δ暂不派trial；下一同J幂二行列均衡及精确原误差修正，保原尺度/方程与每次实际改善。
 
-[actual36幂二均衡](notes/2026-11-14-actual-request36-native-equilibration-failed-direction.md) 实际完成但方向失败：同28 A，所有形成/恢复无损，行列max已在[1,2)，初全行exact原σnorm3.727905535e31，第一次修正反增4.510783064e31，停保初解。两次完整129248行/35数组/3checkpoint/原operand全字节核；无新J/native/trial，不盲加同种修正或派坏δ。下一38在原43/58同profile、原12步/各自原x/h顺序分6+6，实际保存4短块J及全中间state/原输出/mean对照；request38已接[实际短块probe入口](notes/2026-11-14-native-same-schedule-split-probe-interface.md)，原28 PIN输入，4短J+4独立noJ窗口，逐schedule/完整mean/原出口对照，计划STOP不做Newton/trial/audit；其余574原J/原σ/far/H不动。扩展578stage系统仍待真实新J，不先宣称改善。
+[actual36幂二均衡](notes/2026-11-14-actual-request36-native-equilibration-failed-direction.md) 实际完成但方向失败：同28 A，所有形成/恢复无损，行列max已在[1,2)，初全行exact原σnorm3.727905535e31，第一次修正反增4.510783064e31，停保初解。两次完整129248行/35数组/3checkpoint/原operand全字节核；无新J/native/trial，不盲加同种修正或派坏δ。下一38在原43/58同profile、原12步/各自原x/h顺序分6+6，实际保存4短块J及全中间state/原输出/mean对照；request38已接[实际短块probe入口](notes/2026-11-14-native-same-schedule-split-probe-interface.md)，原28 PIN输入，4短J+4独立noJ窗口，逐schedule/完整mean/原出口对照，计划STOP不做Newton/trial/audit；其余574原J/原σ/far/H不动。[actual38](notes/2026-11-14-actual-request38-native-short-blocks.md) 已实际完成：两段原出口/检查量/mean逐bit保持，4短J全finite；完整系统改善仍未证。request39/nativesplitband接[新578段消费者](notes/2026-11-14-native-split-equilibrated-interface.md)，保574旧块和4真实短块、全部原边界/旧节点σ，显式新节点σ；全行exact择新系统方向并保577 restriction，旧long-J缺陷仅诊断不作门。原完整nonlinear trial仍待真实方向。
 
 [原十试步重放接口](notes/2026-11-14-native-band-trial-replay-interface.md) 已备，明确缓存28真实基态非新withJac；原十档alpha、完整evaluate/guard/严格下降原样且不重复J。接受一步也仅保存全state后STOP，不冒native/J/audit。当前不调度34坏δ。[全行exact dyadic接口](notes/2026-11-14-native-allrows-exact-dyadic-residual-interface.md) 用于原保存系统读回/误差修正，不新增README门。
 

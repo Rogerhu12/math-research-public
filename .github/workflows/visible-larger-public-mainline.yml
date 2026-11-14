@@ -11,7 +11,7 @@ on:
         description: Actual numerical calculation
         type: choice
         default: all
-        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck, coupling112trust, trustresume, coldtailprobe, trustprotected, zerorkprobe, trustmultiline, zerorkprobev2, zerorkprobev3, angledomain, nativeseed, angleprojection, sevenprojection, nativecorrection, observedseven, fullhprojection, nativeband, mixedquery, tenquery, nativeequilibrated, elevenquery, nativesplitprobe]
+        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck, coupling112trust, trustresume, coldtailprobe, trustprotected, zerorkprobe, trustmultiline, zerorkprobev2, zerorkprobev3, angledomain, nativeseed, angleprojection, sevenprojection, nativecorrection, observedseven, fullhprojection, nativeband, mixedquery, tenquery, nativeequilibrated, elevenquery, nativesplitprobe, twelvequery, nativesplitband]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           python - <<'PYLANES'
           import json, os
           from pathlib import Path
-          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed', 'angleprojection', 'sevenprojection', 'nativecorrection', 'observedseven', 'fullhprojection', 'nativeband', 'mixedquery', 'tenquery', 'nativeequilibrated', 'elevenquery', 'nativesplitprobe'}
+          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed', 'angleprojection', 'sevenprojection', 'nativecorrection', 'observedseven', 'fullhprojection', 'nativeband', 'mixedquery', 'tenquery', 'nativeequilibrated', 'elevenquery', 'nativesplitprobe', 'twelvequery', 'nativesplitband'}
           if os.environ['EVENT_NAME'] == 'workflow_dispatch':
               selected = os.environ['DISPATCH_LANE'] or 'all'
               lanes = ['free3', 'geometry', 'coupling', 'tailzero', 'cardinal'] if selected == 'all' else [selected]
@@ -107,6 +107,9 @@ jobs:
             /topics/visible-flex-larger-amplitude/notes/public-actions-43614990381-1-mixedquery/mixed-query-warm/driver-status.json
             /topics/visible-flex-larger-amplitude/notes/public-actions-43616658549-1-tenquery/ten-query-warm/warm-001.json.gz
             /topics/visible-flex-larger-amplitude/notes/public-actions-43616658549-1-tenquery/ten-query-warm/driver-status.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43618014985-1-elevenquery/eleven-query-warm/warm-001.json.gz
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43618014985-1-elevenquery/eleven-query-warm/driver-status.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43619564953-1-nativesplitprobe/native-same-schedule-split-probe/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43603818345-1-zerorkprobe/same-RK-candidate-native-probe/summary.json
             /topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-zerorkprobev2/same-RK-candidate-native-probe-v2/summary.json
             /topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-zerorkprobev2/same-RK-candidate-native-probe-v2/initializer-v2-construction-045-000.json.gz
@@ -161,7 +164,7 @@ jobs:
         with:
           python-version: '3.12.14'
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
-        if: matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'trustresume' && matrix.lane != 'trustprotected' && matrix.lane != 'trustmultiline' && matrix.lane != 'angledomain' && matrix.lane != 'angleprojection' && matrix.lane != 'sevenprojection' && matrix.lane != 'observedseven' && matrix.lane != 'fullhprojection' && matrix.lane != 'nativeband' && matrix.lane != 'mixedquery' && matrix.lane != 'tenquery' && matrix.lane != 'nativeequilibrated' && matrix.lane != 'elevenquery'
+        if: matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'trustresume' && matrix.lane != 'trustprotected' && matrix.lane != 'trustmultiline' && matrix.lane != 'angledomain' && matrix.lane != 'angleprojection' && matrix.lane != 'sevenprojection' && matrix.lane != 'observedseven' && matrix.lane != 'fullhprojection' && matrix.lane != 'nativeband' && matrix.lane != 'mixedquery' && matrix.lane != 'tenquery' && matrix.lane != 'nativeequilibrated' && matrix.lane != 'elevenquery' && matrix.lane != 'twelvequery' && matrix.lane != 'nativesplitband'
         with:
           node-version: '24.22.1'
       - run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
@@ -180,7 +183,7 @@ jobs:
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_operator_interface_check.py" \
             --out "$VISIBLE_OUT/operator-interface.json"
       - name: Fetch the byte-pinned actual28 public artifact into independent storage
-        if: matrix.lane == 'nativeband' || matrix.lane == 'nativeequilibrated' || matrix.lane == 'nativesplitprobe'
+        if: matrix.lane == 'nativeband' || matrix.lane == 'nativeequilibrated' || matrix.lane == 'nativesplitprobe' || matrix.lane == 'nativesplitband'
         timeout-minutes: 15
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -209,8 +212,18 @@ jobs:
             --capture-result-sha256 ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7 \
             --equilibration-passes 3 --refinement-steps 3 --exact-workers 2 \
             --out "$VISIBLE_OUT/captured-native-equilibrated-band-correction"
+      - name: Solve the explicit same-schedule 578-stage native representation
+        if: matrix.lane == 'nativesplitband'
+        timeout-minutes: 45
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_native_split_equilibrated_correction.py" \
+            --capture-directory "$RUNNER_TEMP/actual28-pinned-input-${{ github.run_id }}-${{ github.run_attempt }}/native-correction-capture" \
+            --split-directory "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43619564953-1-nativesplitprobe/native-same-schedule-split-probe" \
+            --split-result-sha256 80a2c7ec5ad45679869b94e3b6a55e9b4504b822f6c2f972269b1b9b25f644d9 \
+            --equilibration-passes 3 --refinement-steps 3 --exact-workers 2 \
+            --out "$VISIBLE_OUT/native-split-equilibrated-correction"
       - name: Restore pinned source bytes only from the public repository
-        if: matrix.lane != 'free3' && matrix.lane != 'gwcompat' && matrix.lane != 'circleprobe' && matrix.lane != 'gwvelocity' && matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'nativeband' && matrix.lane != 'nativeequilibrated'
+        if: matrix.lane != 'free3' && matrix.lane != 'gwcompat' && matrix.lane != 'circleprobe' && matrix.lane != 'gwvelocity' && matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'nativeband' && matrix.lane != 'nativeequilibrated' && matrix.lane != 'nativesplitband'
         run: |
           PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PY'
           import os
@@ -384,7 +397,7 @@ jobs:
             --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
             --node-heap 6144 --out "$VISIBLE_OUT/boundary112-response"
       - name: Restore the actual completed M112 preparation and full boundary response
-        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge' || matrix.lane == 'coupling112trust' || matrix.lane == 'trustresume' || matrix.lane == 'trustprotected' || matrix.lane == 'trustmultiline' || matrix.lane == 'angledomain' || matrix.lane == 'angleprojection' || matrix.lane == 'sevenprojection' || matrix.lane == 'observedseven' || matrix.lane == 'fullhprojection' || matrix.lane == 'mixedquery' || matrix.lane == 'tenquery' || matrix.lane == 'elevenquery'
+        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge' || matrix.lane == 'coupling112trust' || matrix.lane == 'trustresume' || matrix.lane == 'trustprotected' || matrix.lane == 'trustmultiline' || matrix.lane == 'angledomain' || matrix.lane == 'angleprojection' || matrix.lane == 'sevenprojection' || matrix.lane == 'observedseven' || matrix.lane == 'fullhprojection' || matrix.lane == 'mixedquery' || matrix.lane == 'tenquery' || matrix.lane == 'elevenquery' || matrix.lane == 'twelvequery'
         run: |
           export PREPARED112="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112"
           python - <<'PY112'
@@ -821,6 +834,45 @@ jobs:
         run: |
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_eleven_query_projection_response.py" \
             --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_ELEVEN_WARM" \
+            --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
+            --tail-config "$VISIBLE_OUT/T112-config.json" --out "$VISIBLE_OUT/physical-response" --angles 4096
+      - name: Continue actual37 with twelve query grids and fixed local correction support
+        if: matrix.lane == 'twelvequery'
+        timeout-minutes: 30
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_twelve_query_projection_warm.py" \
+            --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_OUT/preparation112/prepared.json.gz" \
+            --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
+            --tail-config "$VISIBLE_OUT/T112-config.json" \
+            --resume "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43618014985-1-elevenquery/eleven-query-warm/warm-001.json.gz" \
+            --expected-resume-sha dd83748341c8d6172096fc644361018be7b29d856de621a0b333104d20aafdb8 \
+            --parent-status "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43618014985-1-elevenquery/eleven-query-warm/driver-status.json" \
+            --expected-parent-status-sha 37e70ad5a3c9ef828d93bcbf371b3a107e3890026731d7944d98e370987d29e0 \
+            --out "$VISIBLE_OUT/twelve-query-warm" --iterations 1 --lsmr-iterations 200 \
+            --damping 270 --projection-sweeps 200 --line-search-steps 17 \
+            --budget-seconds 1200 --jac-workers 2 --angles 4096
+          python - <<'PYTWELVE'
+          import hashlib, json, os
+          from pathlib import Path
+          directory = Path(os.environ['VISIBLE_OUT'])/'twelve-query-warm'
+          status = json.loads((directory/'driver-status.json').read_text())
+          if not status.get('optimization_progress') or status.get('accepted_warm_steps') != 1:
+              raise ValueError('One actual decreased complete original warm is required')
+          name = status['latest_warm_file']
+          if Path(name).name != name:
+              raise ValueError('Keep the actual warm in its declared output directory')
+          path = directory/name
+          if hashlib.sha256(path.read_bytes()).hexdigest() != status['latest_warm_sha256']:
+              raise ValueError('The actual twelve-query fixed-support warm identity changed')
+          with open(os.environ['GITHUB_ENV'], 'a') as stream:
+              stream.write('VISIBLE_TWELVE_WARM='+str(path)+'\n')
+          PYTWELVE
+      - name: Recheck the original complete Rphi derivatives on the actual twelve-query fixed-support warm
+        if: matrix.lane == 'twelvequery'
+        timeout-minutes: 25
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_twelve_query_projection_response.py" \
+            --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_TWELVE_WARM" \
             --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
             --tail-config "$VISIBLE_OUT/T112-config.json" --out "$VISIBLE_OUT/physical-response" --angles 4096
       - name: Preserve the actual warm and derivative receipt before the native tail solve

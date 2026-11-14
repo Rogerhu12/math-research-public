@@ -1,0 +1,62 @@
+{
+  "schema": "actual38-byte-identity-and-static-contract-audit-v1",
+  "actual_public_run": "43619564953",
+  "result_sha256": "80a2c7ec5ad45679869b94e3b6a55e9b4504b822f6c2f972269b1b9b25f644d9",
+  "summary_sha256": "4a3628fda8b1e2338b7f2f03d8b348373d8314d108e014d8b2390bce610a609e",
+  "checks": {
+    "actual38_complete_small_inventory": {
+      "files": 62,
+      "bytes": 2878882,
+      "all_sha256_match": true
+    },
+    "three_actual_producer_source_files_match": true,
+    "actual38_all_binary_arrays": {
+      "arrays": 23,
+      "bytes": 1649848,
+      "shape_sha_and_finite_classification_match": true,
+      "max_record_operand_bits_match": true,
+      "maximum_not_recomputed": true
+    },
+    "actual28_complete_raw_arrays_rehashed": {
+      "arrays": 29,
+      "chunks": 116,
+      "bytes": 238972680,
+      "all_sha256_match": true,
+      "full_J_sha256": "394ca2cc7c28ead3ffb963502ad24df86126c32f6e4eef10079495a753320a19"
+    },
+    "selected_original_references_and_outputs_match": {
+      "stages": [
+        43,
+        58
+      ],
+      "reference_arrays_per_stage": 4,
+      "complete_inputs226_match": true,
+      "both_original_coordinate_branch_outputs_match_actual28_bytes": true
+    },
+    "all_actual_window_and_schedule_records": {
+      "windows": 8,
+      "recorded_steps": 48,
+      "stored_number_words": 288,
+      "number_hex_and_step_order_match": true,
+      "both_stages_have_identical_recorded_same_branch_schedule": true,
+      "withJac_versus_noJ_x_word_differences_at_steps": [
+        5,
+        7,
+        10
+      ],
+      "rhs_not_reexecuted": true,
+      "full_state_and_full_tangent_bits_match": true
+    },
+    "declared578_binding_static_compatibility": {
+      "same_complete_original_input_map": true,
+      "same_live_identity": true,
+      "layout_oldToNew_cells_match": true,
+      "all579_sigma_words_match_declared_parent_rule": true,
+      "adapter_not_imported_or_numerically_run": true,
+      "source_adapter_sha256": "e88e69da3bf5dfea792515f544bfb03ca9e00f907bf5904c2f856e203d4ea451",
+      "runtime_assembly_not_claimed": true
+    }
+  },
+  "no_RHS_J_norm_dot_or_linear_solve_recomputed": true,
+  "guard_mean_combination_and_maximum_are_original_producer_readouts_not_locally_recomputed": true
+}

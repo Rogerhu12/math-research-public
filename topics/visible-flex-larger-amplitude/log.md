@@ -245,3 +245,12 @@ run43616658549/source65fdfd019d/job132513122964 success，actual35 note16351B/06
 38/nativesplitprobe只在原43/58分6+6，launcher911b8d8a…/hook34d1bb4f…/window2973c144…及完整接口已读。原public28整包PIN、25/23所有seed/history/source/config不变；4with-J短窗口及4独立noJ窗口保原每步x/h/profile/全226含mean/一次出口port。每短块即存全J、mean tangent/输入输出/schedule，原出口对stored28；不重整576J、不Newton/trial/endpoint/audit，计划STOP明确。Node/公开source restore保留，无prepare112；三lane名单/源/YAML/内嵌Python静态核后仅公开Actions。
 
 /tmp空间不足，已逐2530文件共327578552B原SHA核后把本clone objects移/workspace/scratch/visible-larger-git-objects-20261114并保原symlink，HEAD/origin/status不变，无gc。30/32全核大阵本地副本及已验证ZIP冗余清理，GitHub artifact未动；35/37父原数组保留供继承核验。
+
+
+### 2026-11-14 actual38保原状态出口，request39双线续算
+
+38/run43619564953/sourceceb4cd61/job132521953211 success，artifact14123093790/2551573B/ZIP46780a79…全取核；result80a2c7ec…、summary4a3628fd…。原43/58各12步保时序分6+6，4短J+4独立noJ真实完成，probe3.976s/launcher28.75053s。两个withJac出口/原minA/minD/mean与28逐bit同；本次独立noJ出口/mean亦同，非普遍时序等价。四J50176项全finite，但仍有1e14..1e21条目，不据此声称全系统改善；整J/Newton/trial/audit全0。详细原bytes/时序审计在actual38 note。
+
+39双lane：twelvequery从actual37双SHA继续，完整B新增RMS470共24576行/4397局部列，固定C投影可改471–482+p仅4059，完整B_out z0_out保留，negative effective offset不否决；原全向量radial/备份/同f/17trial/全域/FD原样。四源6a428d2f…/0c5573ea…/10ed2540…/1989a8a9…及完整接口全文读核，父37两件Git原bytes核。
+
+另一nativesplitband用真实38result及原28PIN，adaptere88e69da…/consumerd56da0ed…和接口全文读；574旧+4新虚拟J，578段/579node/129696行，新far索引动态，只复用原exact深度无关整数核。所有原cut/far/H/旧σ保持，新增parentσ明示；一次LU/最多3exact修正，旧577 restriction单独schema与来源，旧long e仅诊断不作门；不在此派原trial。独立完整正则QR源596356c0…/接口13c71ed4…也全文读发布，完整338链/112border/pureglobal/λ一次，所有解回原A/AT读回；尚未运行，新薄入口准备中。
