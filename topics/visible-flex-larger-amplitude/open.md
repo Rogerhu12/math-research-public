@@ -25,7 +25,7 @@
 
 [actual49完整14-query](notes/2026-11-14-actual-request49-fourteen-query-and-left-RMS469-limit.md)接受α1/16，最近仅left469拒，已据此派51，原件/完整audit保留。
 
-**当前父actual56完成**：run43636630003/source b8a19c16fc1363ffa1a66f39b9403e0dfa93e169；[完整实际结论](notes/2026-11-14-actual-request56-left468-and-collocation-location.md)。16query/32768行/B5073，512工作行末slack−7.66609e−14，最终全slack非负，完整原H恢复relative1.0766691e−15；浮点KKT/rawgap非认证。
+**前一父actual56完成**：run43636630003/source b8a19c16fc1363ffa1a66f39b9403e0dfa93e169；[完整实际结论](notes/2026-11-14-actual-request56-left468-and-collocation-location.md)。16query/32768行/B5073，512工作行末slack−7.66609e−14，最终全slack非负，完整原H恢复relative1.0766691e−15；浮点KKT/rawgap非认证。
 
 实际alpha1/32接受，本轮merit44.10538196200878→44.084143195501056，col.007109940451957601/BC5.989189850450424e−8/FD6.957649122839063e−10。最近1/16及1/8/1/4全部16真实网格、nodes/mids合法且merit降，仅原left-RMS468拒；最近β²−.009420476255991517/phi0。不能凭literal max512再抬预算。
 
@@ -33,7 +33,9 @@
 
 145domain936NPY/88凝聚38全向量/17colJSON/46源/父53与FD链、14raw217496448B全byte核，三个audit已推。当前父warm5a5b9620cec8c48e6ca60d71b2a9db28d00b7112f04bde1fa7d6d4c7245cc5ae；原status e644ee2adf52f8b7684c2f4360672e627f2a19135aa889cb6df4afb898b1247b，1350695B/publicgzip169659B，须透明解压核SHA。原零锚FD仍非新H native。
 
-**58运行中：run43638348140/source ba8bc4f4acd547fd5219826da4f6e35f859bca56/job132580074075**：仅加left-RMS468全2048角→34816，B完整468..483+p/5411；C4059保外部468/469/470/483 offset。保512/dual200/600s/1200s/λ270/全部原门+新FD/只读colobserver，四新seventeen源冻结接线。[actual53](notes/2026-11-14-actual-request53-working512-and-midpoint481-limit.md)、51及更早完整存证不重跑。
+**58已完成：run43638348140/source ba8bc4f4acd547fd5219826da4f6e35f859bca56/job132580074075**：仅加left-RMS468全2048角→34816，B完整468..483+p/5411；C4059保外部468/469/470/483 offset。保512/dual200/600s/1200s/λ270/全部原门+新FD/只读colobserver，四新seventeen源冻结接线。[actual53](notes/2026-11-14-actual-request53-working512-and-midpoint481-limit.md)、51及更早完整存证不重跑。
+
+**最新58/下一60**：实际alpha1/4接受，本轮固定merit44.08450062286488→43.925384505081816，col.00710961172228531/BC4.4918924725999154e−8/FD7.108999873259166e−10。最近1/2失败的mid473/475/481均已建模，不能据较远alpha1的mid480盲加第18查询。60将从真实58 warm3911b642…/原status64140c9f…（1276068B，gzip163444B）沿17 own-schema重线性化单个完整模型，保原λ/512/全部门。最新完整note与独立审计正在登记，实际新父完整SHA见H。
 
 ### 1B. Native：先分清保存矩阵、传播与求解误差
 
@@ -55,11 +57,13 @@
 
 **55已真实完成并全拒**：[完整原十试步结论与byte审计](notes/2026-11-14-actual55-original-ten-trial-rejection.md)，run43636504089/source6b7e9846ab9062614618856d4d6772c847a303c2。10个fresh noJ、0新baseline/J：九D/S/A拒、一个stage23内部momentum Newton失败；最小1/512仍stage28/raw0/seg5拒。没有完整trial norm或selected状态，不能宣称十个范数都不降。
 
-**57运行中：run43637356027/source adbdf144b14ae7adc71df09948a5c05f8a30e8b8/job132576978446**：同实际54完整1372目标，R273原σ坐标显式eta=1、完整cut/stage/far与每node罚项/纯常数保，全部因子artifact。实际完整方向SHA生成后进入[独立原trial](notes/2026-11-14-native-damped-chain-original-trial-interface.md)，1373→577字节限制、cut/far不投影、原十alpha/noJ/guards/strictnorm保。不重复868块/旧坏方向，不以L2或exact线性范数增加gate；原接受后仍须fullnative/fresh audit。[selected后继合同](notes/2026-11-14-R273-selected-state-original-native-continuation-contract.md)保实际bits/负零、softcut/far不投影、真新withJ；一次方向替换非完整R273迭代。
+**57实际完成，原十norm全同**：[完整原试探](notes/2026-11-14-actual57-original-ten-trial-no-decrease.md)与[完整QR/exact行账](notes/2026-11-14-actual57-damped-chain-QR-and-original-exact-readback.md)及两组独立byte审计已保存。R273 eta1在54新1372矩阵上全部307552行exact最大4.062019449255373658…e−9；1373因子/1106785792B/全部常数与行账已完整审。原十noJ均完整返回、0guard，却十个norm bits全同base .04177307820740199；selected=null/native=false。577δ非零，不可由norm相同推所有trial state/r不变或唯一原因。
+
+**59源码编写中，尚未运行**：用同actual28原576完整J/r/σ/H/cut/far直接R273 η1，独立target/schema及完整129248行exact；同时计算57实际577限制δ在该原576目标的完整exact，均不是trial gate。原十loop/guard/strictnorm和cached28单次保，新增只读真实trial全state及返回r/cut/end/max定位，无额外RHS/J，不重复57。只取28和57五件实际方向文件，不再取41/54大包。未来若接受仍需真实新状态继续完整native/fresh audit。
 
 原step与G的十trial组件已完成：直接消费正确producer的保存方向，保原十alpha/完整evaluate(false)/原guard/原σ严格下降，首接受保全state后STOP。它们不重形成G/J，当前未派43坏方向，也不冒native完成。
 
-[R273完整原σ块链平方根阻尼LS](results/R273-complete-native-damped-square-root-chain.md)已证明：保全部cut/stage/far、每nodeηI、carry与纯常数能量，不形成normal matrix；也给严格L2下降不推出原∞下降的精确反例。独立完整源码与接口已保存，root已全文读；57已真实开始，实际报告待回读。55已全拒，57首次取原σ坐标的[eta=1](notes/2026-11-14-native-damped-eta-one-trial-contract.md)，保持全部cut/far/模式与原试探；不把L2模型下降当原∞下降。
+[R273完整原σ块链平方根阻尼LS](results/R273-complete-native-damped-square-root-chain.md)已证明：保全部cut/stage/far、每nodeηI、carry与纯常数能量，不形成normal matrix；也给严格L2下降不推出原∞下降的精确反例。独立完整源码与接口已保存，root已全文读；57实际线性与原试探已完成，范围分开记录。55已全拒，57首次取原σ坐标的[eta=1](notes/2026-11-14-native-damped-eta-one-trial-contract.md)，保持全部cut/far/模式与原试探；不把L2模型下降当原∞下降。
 
 [当前原576迭代接R273的源码可行性](notes/2026-11-14-current-native576-R273-synchronous-interface-feasibility.md)已明确：可只接原with-J/tol后的cor调用，使用本次完整ev/J/r/cut/far/σ，原十trial/fresh audit不变；动态QR类可用但当前1372 main/context身份不可改标签。同步桥或显式两阶段需独立源，尚未实现或选作下一算法，57真实回执优先。
 
