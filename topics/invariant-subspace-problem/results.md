@@ -687,3 +687,7 @@
 ### R291 附录：正最大谱压缩、完整尾理想距离与无carry损失的非纯质量
 
 [完整证明](results/R291-appendix-positive-spectral-compression-and-full-tail-quotient-cost.md)从同一正密度的最大尾谱压缩取得正头矩阵H，部分迹正性给Re H01≥(1−ε)/2−r。真实二次消元多项式有固定常数项锚，得ε≥[128(1+m)]⁻²，实际链liminf m_j√ε_(j+1)≥1/16；m是同一完整尾理想距离，原单位/右源归属保留。任意秩正常态适用，仍无m上界或熵矛盾。[多谱方法边界](notes/2026-11-14-normal-multispectral-unit-anchor-boundary-789f.md)给正秩一近真空例，阻止仅凭正性/有限秩将通用头列消元升级为单位锚，未称该例是湮灭者。
+
+### R293 附录：单异常正权的全部出生、全部高度严格加强S1
+
+[完整证明](results/R293-appendix-one-exceptional-weight-all-births-all-heights-strengthened-s1.md)先由完整两通道MP精确求出生一固定线的全部G_j和真实三次桥，再把任意高度加强缺陷约为显式三次多项式，四个系数对全部n,k≥1严格正。硬顶直接取下一精度零，等权池的共同正交Lefschetz串保d/d*/三次桥及所有重数，遂付整个物理全出生全高度。新增真实桥费用而非重计既有普通相邻序；一般多独立权仍开。

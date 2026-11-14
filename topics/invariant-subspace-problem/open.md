@@ -81,13 +81,13 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 **真正测试端点。** [同f端点截断](notes/2026-11-14-fixed-test-endpoint-truncation-and-small-two-fee-source-kernel-2220.md)保q_end−k_end，准确µ(t−s)²+||Y_f||²=Δ、Xi(s)²≤2||Y_f||²、Δ≤4n/K；不交窗混合Gram不是纯两费Gram。新[同余商测试族运输](notes/2026-11-14-fixed-physical-test-family-in-the-common-wide-quotient-boundary-2220.md)用ρ̂=max(ρ,Keff^-1/4)固定同一个M3/精确M2头/联合两旗映射，同时处理实际r和所有f∈T_n。测试左像与P_b f之差算子范数≤√n[2/√K+√2a′+√2Keff^-1/8]→0，测试两费≤4n/Keff、与rhat处于全部相同约束；测试修正λ至多O_n(Keff^3/16)，与原flat配对仍小。主<Lrhat,Shat f>准确保留<w,f>，其趋零/所需局部Gram及λ(Shat f)仍开。
 
-**已付的原头运输与角度接口。** [完整左右运输](results/R239-appendix-full-right-fee-transport-and-model-kernel-source-flag.md)保同g/全部primitive/物理旗、ρ≤e^−d⁴/20，µ/Xi比较只用于真负图闭交。[退化头完整源流](results/R239-appendix-degenerate-head-full-source-flow-and-model-window-family.md)保全部四短旗、同w及一次运输，不能独立运输不同窗。[同未来双投影角](results/R239-appendix-future-band-projection-angle-and-complete-common-cost-negative-graph.md)保完整负图/非闭值域逆域，固定高谱阈只付指定窗预算；低C完整左Schur、普通右费、逐孔相容和免费阈值趋零仍未付。原三度量/首行/各孔权、全部常数与公式保[本次全文](notes/2026-11-14-open-before-R277-789f.md)，裸低与完整右旗仍不同。
+**原头运输与角度。** 完整左右费、全部四短旗、同w/同g、同未来负图和非闭值域逆域均保[本次完整快照](notes/2026-11-14-open-before-all-height-strengthened-s1-789f.md)。固定高谱阈只付指定窗；低C完整左Schur、普通右费、逐孔相容仍缺，裸低与完整右旗不能互换。
 
 [R277 原零源商一孔行分类](results/R277-original-source-quotient-one-hole-rows-and-complete-leakage.md)：实际连续尾全部c∈ℓ1的κ_c能保kerℬ（甚至仅保模任意K≤d−2前缀）iff c=λb；非比例有同一真MP塔的完整d−1源头泄漏。压缩交换子模零源为零不够，合法负前缀正规方程本身亦不能消此泄漏；C=Σb³E的未压缩graph小范数不能直接下降。须实际构造带修复作用并付跨birth真MP/高返回，或利用未知实际W源另有约束；未据合法环境反例否定N=M。
 
 **真幂、两道桥及失败捷径。** [准确底项与两桥](results/R271-appendix-exact-power-floor-and-two-filtered-primitive-bridges.md)保α²=真幂底项+||Gcal†ζ||²。原19/10、P_K伴随q³及单ζSchur全稿见快照：raw首桥可巨大而同源完整链便宜，不能作pure/实际W反例；自由中段与真实flat来源仍保原限制。
 
-**原头逐列低泄漏。** [完整新界](results/R271-appendix-columnwise-low-height-leakage-and-sharp-cubic-log-common-cost.md)以同源真幂底项付λ/ψ/真正c−a，列界e^(134j⁴)；kfast用268得δ²≤50(k−1)/(3m³)，kwide用134得δ²≤3logm/(67m)，可直接代入M3负前缀。H~d^.75大旗及真正pure低对角范围见主稿/快照；高对角、实际测试端点仍开。
+**原头逐列低泄漏。** [完整界](results/R271-appendix-columnwise-low-height-leakage-and-sharp-cubic-log-common-cost.md)保同源真幂底项及λ/ψ/真c−a、列界e^(134j⁴)和完整M3负前缀；kfast/kwide参数及H~d^.75纯低对角细节保上述快照。高对角和实际测试端点仍开。
 
 **实际裸首头pure。** [准确高域Schur与深段局部化](results/R271-appendix-pure-return-from-actual-bare-first-head-and-depth-localization.md)固定f=−e0*a，pure=−(I−PkerSH)Hf，不改低链；前K段费用平方≤2(K−2)SΦ²，K≤2零。原good-top的H~d^.75低深度指数付清；源F_h且K≥h时深尾准确为e0*I G†ζ深jet，非整ψ支持。全actual pure的e^(25d⁴/2)粗界仍不足；真实深段加权尾及端点继续。 [有限失败路线](notes/2026-11-14-finite-first-jet-gram-square-shortcut-fails-kernel-2220.md)以完整有理两投影证13<pure/||σ||²<14，否普适Kpure≤Mker²；头η/孔窗非原参数且σ不保窄ζ来源，不能作实际反例。
 
@@ -106,7 +106,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R285](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)只排所列有限形式约束推出S1/S2统一界的路线；例子非Boolean，一般实际正性仍开，完整无界族保归档和结果索引。
 
-[R288 逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保占据/碰撞/creation全部交叉；[S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)及[S1](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)现已付M≥3全部正权birth1，分别有真实2/3收缩和次数9完整整数严格正证书。两组＋一位的整个物理birth2也已付[严格S1](results/R288-appendix-birth-two-s1-short-sides-hard-top-and-full-physical-layer.md)，含短组/硬顶；短侧S2亦闭，主内部[严格左列](results/R292-appendix-main-parameter-strict-left-s2-column.md)亦已闭，右列继续。该出生一的一位SOS已闭；[一般三塔式](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)保完整F3逆顺序及C²深塔，去掉上出生二阶逆，一般正性仍开。[R293](results/R293-heavy-bit-transfer-of-strengthened-first-edge-sos.md)现付强位S1的第二高度桥强化必要式与S2联合必要块，完整上分支不可删；未获一般正性或实际负见证。
+[R288 逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保占据/碰撞/creation全部交叉；[S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)及[S1](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)现已付M≥3全部正权birth1，分别有真实2/3收缩和次数9完整整数严格正证书。两组＋一位的整个物理birth2也已付[严格S1](results/R288-appendix-birth-two-s1-short-sides-hard-top-and-full-physical-layer.md)，含短组/硬顶；短侧S2亦闭，主内部[严格左列](results/R292-appendix-main-parameter-strict-left-s2-column.md)亦已闭，右列继续。该出生一的一位SOS已闭；[一般三塔式](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)保完整F3逆顺序及C²深塔，去掉上出生二阶逆，一般正性仍开。[R293强位式](results/R293-heavy-bit-transfer-of-strengthened-first-edge-sos.md)付第二高度加强S1与S2联合必要块；[单异常权全出生/全高度](results/R293-appendix-one-exceptional-weight-all-births-all-heights-strengthened-s1.md)以全正三次式付全部真实桥费用。一般独立权加强式与S2仍开。
 
 [R286 固定源全高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源逆平方根能量和原慢尾全height/几何和。实际t_q祖先出生随q上移，固定birth塔最终无分量；受限逆后不自动保有限支持/固定birth，跨出生graph、完整e_q和N=M仍开。
 
