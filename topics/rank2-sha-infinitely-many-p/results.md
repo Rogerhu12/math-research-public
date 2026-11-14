@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R502：低ell完整首Bockstein与真行剩余配对](results/R502-full-low-ell-bockstein-and-actual-geometric-residue.md)：原同预算因子化基准的整个首Bockstein保Gaussian/t-w carry及活着的V1项；raw ζ³一般不零，不能先在3C截断。经完整Q单位和真实低行消元后，真左行剩余准确含第一carry、实际ξ极配对、法向/C混合及低行高尾，原M相对投影与第三精度全部保持。
+
 - [R501：whole CM交换四态及完全相同的五伴随](results/R501-whole-cm-exchange-and-identical-five-companion-rows.md)：真实𝔇=Rω,Y·ω⁻¹N19N7⁻²的完整ratio−33及原S2锚给未投影六变量身份：固定u/h、交换v/z。所有3159/−662格中心保留，新线/Href伴随确为原同一Λ的负号；固定norm931全部CM纤维与普通V′两深准确相接，实际来源群96，混合域仍按各真实操作转置。
 
 - [R499：新四态全Y多项式、D33身份与整个十七维正块](results/R499-four-state-z-full-y-polynomial-and-d33-identity.md)：原周期锚支付两类四挠范数绝对符号，完整带权纤维给显式degree21多项式及全部23坐标Z_Y=D33v_Y。新线/Href系数为−52/3与(1+δ)/(2016b)，全部八维D负块完整反号；v±Z的CM7循环维数9/8，两轨道合张满整个17维正块，保其余12外谱及尚须另证的联合伴随身份。
