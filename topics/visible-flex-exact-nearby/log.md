@@ -539,3 +539,7 @@ phase自审、root及tail逐式核：DT=QXφ、DX=−QT Tφ、η²K=Q²T ⇒ μ=
 ## 2026-11-14 23:36:49 UTC — 同一F0准确端点消去/32空失败实证
 
 v2 run43652855824精确复用d893成功plan，32组均首格child1、完成格0、range gates空，finish skipped。newton全读32 process/outcome并绑定native；root核全32 receipts/manifest以及原group31实际过程，绝未把失败当完成。E1–4 root/tail逐式核：Δ=SRT SL^-1−F0(1)使用同一个exact F0，故端点先消去再核trueinverse；原Δ整球、逆/模型/全Gram费用不改，1e−35门不放宽、原未消宽球保diagnostic。独立推修正说明SHA1f691d7f…及receipts61b23116…，后续新source只补5966缺格/旧4和plan0重算。root已核runner23:26:26 441b9909ac3d43845606f47fabb8c719a665e406两README diff空；bbfe913bb24672612527bcca226fdd607eb9f4a4只读blob核亦未变。
+
+## 2026-11-14 23:37:05 UTC — 全5970矩阵v3实际接续部署
+
+新source_v2/CI_v3/223pin manifest/workflow四件独推；root已逐diff核science、CI及flow，原122pins逐项未改，额外32失败native只公开Actions读取。prepare逐SHA读32原process/outcome/native，核真实child1/0格/唯一失败，绝不迁移为成功；原d893 plan强制精确复用，源plan_run显式拒绝重算。新端点先准确消共享F0，Δ整球和全部canonical/mean/cross费用原保。sciencee2cedf88…、CIcf9ddfa7…、manifest624bf260…；旧v1/v2路径不触发，后续同source成功前缀严格恢复。部署不授完成/全Green。470b73aac2468353bea3cf897a60a91529d23274两README只读核未变，runner实际pull逐组另存。

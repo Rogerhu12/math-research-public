@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 23:36:49 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 23:37:05 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在public仓库Rogerhu12/math-research-public；新数学只公开Actions。每条结论独推，非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交、connector。
 最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近已核runner真pull：23:26:26 UTC 441b9909ac3d43845606f47fabb8c719a665e406；matrix-range31五次两README实际diff空；全32 receipts保各自pull记录。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：bbfe913bb24672612527bcca226fdd607eb9f4a4；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：470b73aac2468353bea3cf897a60a91529d23274；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout：/workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，当前不可用；原相关AGENTS无。runner10min真pull或phase45/50min前后pull；成功科学与出版失败分记。
 前H9778B完整在 notes/2026-11-14-handoff-before-principal-mu-correction.md；历史档案链完整。actual/manifest/native保对象、参数、全部失败及逐行证明，不凭摘要重构。
 
@@ -24,7 +24,7 @@ geometry43584188751/26门是条件结论：同η0真闭C²解/fullC0≤1e−4/|�
 finite193 point43635487128 child0/8门/native7fcd5bec…：负窗ν误差<.003509417445587、全L²<.007490301792401，未知χH<.003840162独立保。全源/真97帽/mean/knownhigh数值见actual-native-point-Hessian-same-Z-Green，非完整ν门。
 原finiteL²43633074696/nativeac4441cb…、cross43637596465/nativea12fd95f…全6391Gram/5970接口成功；负窗gain10488.564544/cross1351427.386989仅粗upper。完整数值/身份见原actual，所有旧格不重算。
 旧全193 F四格43645186441 child0/11门/native4328b192…，4数组artifact14133504273/61752830B。全方向/degree24/原hash见actual-four-full193-cached-local-matrices，禁止重算。
-同F原四格43648579604 child0/15门、native9a46d9fc…/arrays artifact14135471378，SHA22227144…；D1–12全5970合同deb8ad6b…原Q/R/A及误差不改。plan43651733856 child0/7门/native d893f609…266218B，Path+str出版失败原保。v2 run43652855824精确复用plan；32range首格均child1/0完成，卡共享F0区间依赖的端点门，完整32 process/outcome/native receipt61b23116…全保。E1–4（SHA1f691d7f…）先准确消同一F0，再核SRT(SLinv SL−I)，1e−35不放宽、Δ整球仍付所有模型/逆/Gram费，原未消球留诊断。待223pin v3/缺5966格及双扫，V独立舍入/真BR另付，非全BVP。
+同F原四格43648579604 child0/15门、native9a46d9fc…/arrays artifact14135471378，SHA22227144…；D1–12全5970合同deb8ad6b…原Q/R/A及误差不改。plan43651733856 child0/7门/native d893f609…266218B，Path+str出版失败原保。v2 run43652855824精确复用plan；32range首格均child1/0完成，卡共享F0区间依赖的端点门，完整32 process/outcome/native receipt61b23116…全保。E1–4（SHA1f691d7f…）先准确消同一F0，再核SRT(SLinv SL−I)，1e−35不放宽、Δ整球仍付所有模型/逆/Gram费，原未消球留诊断。223pin v3已部署（旧122逐项不变；sciencee2cedf88…/manifest624bf260…），待5966缺格actual及双扫；V独立舍入/真BR另付，非全BVP。
 全5970 impulse43649423561 child0/11门/nativefbba3507…14.17MB/8parts，实际报告SHA53b7a815…。6391新齐次界+两12361扫，0旧exp/Gram/target；单跳全窗<121146.604996、负窗<56766.695864。输入已R加权，不再乘R；同源多跳不得平方相加。
 全频帽P1–19（768f1f11）真两行h1+S(HB−KB P⊥HC)h2、−m^-2Π0h2−K0P⊥HC h2及全Poisson源保；finite97矩阵仅原97输入，内L²不控独立cut。完整文件full-frequency-moving-cap-boundary-and-Poisson-interface，原反射范围不扩。
 正高43639514776 child0/11门/native54b39404…：cut重构<.595330881947、内head→body/cut<226.101681/111.623063；独立帽列、七源/mean/rootincoming完整见actual，非全Schur。
