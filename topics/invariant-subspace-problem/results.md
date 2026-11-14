@@ -743,3 +743,7 @@
 ### R296 附录：完整拟合系数二阶差与共同源不变性
 
 [完整证明](results/R296-appendix-complete-regression-second-difference-and-common-source-invariance.md)在每层保全部低阶正规方程，给g_(s+m)=(F_(m+1)^low)^−1 dF_m/(m+1)；真实创新是−P_L(g_next−2g_mid+g_prev)。共同Z准确等于新切片上Φ−2q_mid+q_prev再减更低阶残差，商代表改变只添高度一次项，故二阶差严格不变。出生二成为同源完整线性回归差；保硬顶/完整逆和实际费用，没有从恒等式推统一κ。
+
+### R296 附录：出生二共同商与两种实际交换尺度
+
+[完整证明](results/R296-appendix-birth-two-common-quotient-and-two-exchange-scales.md)把整个K2准确识别为双中心交叉W与两组二次A,D模唯一相反常数gauge；同一代表保三个相邻切片。对τ≤1，实际精度满足z_S(τG1+τ²G2)/5≤C_n≤6z_S(τG1+τ²G2)，由真实首事件正交、两次交换与完整仿射Schur得出。组内小方向确为τ²，权可任意不均；单高度比较尚不等于加强S1，低最大原子区域仍可能有高次特征退化。
