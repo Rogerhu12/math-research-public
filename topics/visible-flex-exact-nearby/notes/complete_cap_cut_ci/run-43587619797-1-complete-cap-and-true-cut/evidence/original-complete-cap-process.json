@@ -1,0 +1,377 @@
+{
+  "kind": "actual_public_physical128_cap_CI_process",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43583838015",
+  "run_attempt": "1",
+  "mode": "recover_artifacts_then_complete_original_cap",
+  "requested_cells": [
+    0,
+    1977
+  ],
+  "workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73",
+  "worker_source_sha256": "8116d02b3145c1c492cb136b14600c76dea9fddc7322ebc847cf379cc0602490",
+  "started_utc": "2026-11-14T10:09:43.593935+00:00",
+  "children": [
+    {
+      "label": "complete_original_continuous_cells",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-cap128-recovery-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_cap_matrix_residual_packed_v5.py",
+        "--candidate",
+        "/__w/_temp/visible-exact-cap128-original-bundle/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--proposal",
+        "/__w/_temp/visible-exact-cap128-recovery-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-physical128-cap-moving97-precomposition-native.json",
+        "--first",
+        "1792",
+        "--count",
+        "185",
+        "--out",
+        "/__w/_temp/visible-exact-cap128-recovered-complete/native.json.gz"
+      ],
+      "started_utc": "2026-11-14T10:09:59.693785+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 545.0158003390001,
+      "finished_utc": "2026-11-14T10:19:04.807725+00:00"
+    },
+    {
+      "label": "assemble_all_original_1977_cap_cells_and_true_boundary",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-cap128-recovery-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_cap_matrix_residual_packed_v5.py",
+        "--candidate",
+        "/__w/_temp/visible-exact-cap128-original-bundle/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--proposal",
+        "/__w/_temp/visible-exact-cap128-recovery-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-physical128-cap-moving97-precomposition-native.json",
+        "--first",
+        "0",
+        "--count",
+        "1977",
+        "--parts",
+        "/__w/_temp/visible-exact-cap128-recovery-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-0-256-v3-native.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovery-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-256-512-v3-native.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovery-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-512-513-v4-native.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovery-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-513-768-packed-v5-native.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovered-complete/native/cells-0768-1024.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovered-complete/native/cells-1024-1280.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovered-complete/native/cells-1280-1536.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovered-complete/native/cells-1536-1792.json.gz",
+        "/__w/_temp/visible-exact-cap128-recovered-complete/native/cells-1792-1977.json.gz",
+        "--out",
+        "/__w/_temp/visible-exact-cap128-recovered-complete/native/complete-cap-native.json.gz"
+      ],
+      "started_utc": "2026-11-14T10:19:12.511166+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 25.001108720999923,
+      "finished_utc": "2026-11-14T10:19:37.512918+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T10:09:45.930623+00:00",
+      "before": "15c93a255aaf45c6bad9a7559d182e53b5dcd413",
+      "after": "cd2d723e7014303d195adf71087413336449ee0a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:09:47.652733+00:00",
+      "before": "cd2d723e7014303d195adf71087413336449ee0a",
+      "after": "cd2d723e7014303d195adf71087413336449ee0a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:09:50.260882+00:00",
+      "before": "cd2d723e7014303d195adf71087413336449ee0a",
+      "after": "5902f31297055ef44451af7a26a0a81bcde03c59",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:09:52.917802+00:00",
+      "before": "5902f31297055ef44451af7a26a0a81bcde03c59",
+      "after": "43e96f309af216b9761e3bc7517e8bc23dd1e7a4",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:09:56.278687+00:00",
+      "before": "43e96f309af216b9761e3bc7517e8bc23dd1e7a4",
+      "after": "4dc3c32031213b296a4b968e51c81cd210fe3090",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:19:10.234092+00:00",
+      "before": "4dc3c32031213b296a4b968e51c81cd210fe3090",
+      "after": "e75ea5b9945a77f8945091646fe8a2c6dae6c390",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:19:38.538197+00:00",
+      "before": "e75ea5b9945a77f8945091646fe8a2c6dae6c390",
+      "after": "a8dd71c07c511b69e359666dd0688574867ee90e",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:19:43.445436+00:00",
+      "before": "a8dd71c07c511b69e359666dd0688574867ee90e",
+      "after": "eb46dcad41d9eb07cdd9a45fdcaf5d7e401484fb",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T10:09:49.810657+00:00",
+      "final": false,
+      "commit": "5902f31297055ef44451af7a26a0a81bcde03c59"
+    },
+    {
+      "time": "2026-11-14T10:09:52.405952+00:00",
+      "final": false,
+      "commit": "43e96f309af216b9761e3bc7517e8bc23dd1e7a4"
+    },
+    {
+      "time": "2026-11-14T10:09:55.795034+00:00",
+      "final": false,
+      "commit": "4dc3c32031213b296a4b968e51c81cd210fe3090"
+    },
+    {
+      "time": "2026-11-14T10:09:58.460183+00:00",
+      "final": false,
+      "commit": "d4c53407b6c91e68714eec919cd1c07e8424764a"
+    },
+    {
+      "time": "2026-11-14T10:19:12.417158+00:00",
+      "final": false,
+      "commit": "5c59303444a195ab567611fc6fe276b8bd469afb"
+    },
+    {
+      "time": "2026-11-14T10:19:42.407223+00:00",
+      "final": false,
+      "commit": "eb46dcad41d9eb07cdd9a45fdcaf5d7e401484fb"
+    },
+    {
+      "time": "2026-11-14T10:19:45.885064+00:00",
+      "final": true,
+      "commit": "41b8aee3e28edc8957f132e028dd7af3596c45e4"
+    }
+  ],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_failed_run": 43580498603,
+  "input_manifest_sha256": "867699a5e7f968f97d9a3f50267e310181023fdbe0b815a7f9c22c6b21585e32",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "eb46dcad41d9eb07cdd9a45fdcaf5d7e401484fb",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-cap128-recovery-work/science",
+  "original_artifact_outcomes": [
+    {
+      "artifact": "visible-exact-cap128-cells-1024-1280-43580498603-1",
+      "original_native_sha256": "8633c6aec45a1fc3c3b90a0ac9d8b2eabfe171a3682c8b86903223e42adf4eb7",
+      "indices": [
+        1024,
+        1280
+      ],
+      "actual_rows": 256,
+      "selected_cells_complete": true,
+      "actual_child_returncodes": [
+        0
+      ]
+    },
+    {
+      "artifact": "visible-exact-cap128-cells-1280-1536-43580498603-1",
+      "original_native_sha256": "55cdc364f8022ae8db62785bb4b4a870b00201c34873f51a00a187683f476ef8",
+      "indices": [
+        1280,
+        1536
+      ],
+      "actual_rows": 256,
+      "selected_cells_complete": true,
+      "actual_child_returncodes": [
+        0
+      ]
+    },
+    {
+      "artifact": "visible-exact-cap128-cells-1536-1792-43580498603-1",
+      "original_native_sha256": "c4f1f178c079d42d1c891352530485a0ae5c667335b9558c46abceb38244950e",
+      "indices": [
+        1536,
+        1792
+      ],
+      "actual_rows": 256,
+      "selected_cells_complete": true,
+      "actual_child_returncodes": [
+        0
+      ]
+    },
+    {
+      "artifact": "visible-exact-cap128-cells-768-1024-43580498603-1",
+      "original_native_sha256": "8eddcb6bb66708908402297c2320c601e3dbf65d0251265a8f50614ef32a0665",
+      "indices": [
+        768,
+        1024
+      ],
+      "actual_rows": 256,
+      "selected_cells_complete": true,
+      "actual_child_returncodes": [
+        0
+      ]
+    }
+  ],
+  "completed_ranges_reused_without_execution": [
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      1280
+    ],
+    [
+      1280,
+      1536
+    ],
+    [
+      1536,
+      1792
+    ]
+  ],
+  "snapshot_utc": "2026-11-14T10:19:44.315215+00:00",
+  "wall_seconds": 600.721838932,
+  "native_files": [
+    {
+      "logical_file": "evidence/complete-cap-summary.json",
+      "file": "evidence/complete-cap-summary.json",
+      "bytes": 24383,
+      "sha256": "a9c9d1b881a45feca1b0355982abe9564eb19043c8c576b5c8ad176791ca886a"
+    },
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-1024-1280-43580498603-1/process.json",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-1024-1280-43580498603-1/process.json",
+      "bytes": 3312,
+      "sha256": "edfaf4eaa7b073c7bb89d8584c24a319c296251fca7db1be71001272ca7f626c"
+    },
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-1024-1280-43580498603-1/producer.stdout.log.gz",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-1024-1280-43580498603-1/producer.stdout.log.gz",
+      "bytes": 22866,
+      "sha256": "bfa55e07a21eff6aba250fe45127935132f12e53ca17b78ea83b148ab8be7131"
+    },
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-1280-1536-43580498603-1/process.json",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-1280-1536-43580498603-1/process.json",
+      "bytes": 3314,
+      "sha256": "9a990e7294302d809ed83d112f0ca20a3a6a3952b7e63f3ec413f5410951d0b0"
+    },
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-1280-1536-43580498603-1/producer.stdout.log.gz",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-1280-1536-43580498603-1/producer.stdout.log.gz",
+      "bytes": 22258,
+      "sha256": "700e471716408865748bfd6f9d764dd77b38f10df00430703bd035b4d943fef2"
+    },
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-1536-1792-43580498603-1/process.json",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-1536-1792-43580498603-1/process.json",
+      "bytes": 3521,
+      "sha256": "a22b6d83eeec79c7e89dffe1c0c24f92c2fa1d04b82ab690dcb9242090830579"
+    },
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-1536-1792-43580498603-1/producer.stdout.log.gz",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-1536-1792-43580498603-1/producer.stdout.log.gz",
+      "bytes": 21756,
+      "sha256": "ff6d90ddaef38771857881acb9f037625c1753871a431b939c9ea50b9150b5f3"
+    },
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-768-1024-43580498603-1/process.json",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-768-1024-43580498603-1/process.json",
+      "bytes": 3717,
+      "sha256": "1d7ff427e652c4de1c6db15aea2feede0302e3e6278cf6061df8772e1a08fd5d"
+    },
+    {
+      "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-768-1024-43580498603-1/producer.stdout.log.gz",
+      "file": "evidence/original-artifacts/visible-exact-cap128-cells-768-1024-43580498603-1/producer.stdout.log.gz",
+      "bytes": 21654,
+      "sha256": "09ae3f31fe1d88d37f20c84d4febb54ddc6ee563d07edfab507bcacc03ebbe88"
+    },
+    {
+      "logical_file": "native/cells-0768-1024.json.gz",
+      "file": "native/cells-0768-1024.json.gz",
+      "bytes": 1439069,
+      "sha256": "8eddcb6bb66708908402297c2320c601e3dbf65d0251265a8f50614ef32a0665"
+    },
+    {
+      "logical_file": "native/cells-1024-1280.json.gz",
+      "file": "native/cells-1024-1280.json.gz",
+      "bytes": 1440796,
+      "sha256": "8633c6aec45a1fc3c3b90a0ac9d8b2eabfe171a3682c8b86903223e42adf4eb7"
+    },
+    {
+      "logical_file": "native/cells-1280-1536.json.gz",
+      "file": "native/cells-1280-1536.json.gz",
+      "bytes": 1443260,
+      "sha256": "55cdc364f8022ae8db62785bb4b4a870b00201c34873f51a00a187683f476ef8"
+    },
+    {
+      "logical_file": "native/cells-1536-1792.json.gz",
+      "file": "native/cells-1536-1792.json.gz",
+      "bytes": 1447868,
+      "sha256": "c4f1f178c079d42d1c891352530485a0ae5c667335b9558c46abceb38244950e"
+    },
+    {
+      "logical_file": "native/cells-1792-1977.json.gz",
+      "file": "native/cells-1792-1977.json.gz",
+      "bytes": 1046338,
+      "sha256": "549fde4f5bf11ecd276e34773de1698fb3e3c386aff2bcf535e66e6ae1e9e865"
+    },
+    {
+      "logical_file": "native/complete-cap-native.json.gz",
+      "lossless_manifest": "native-complete-cap-native.json.gz-69f55939742b2698-parts.json",
+      "bytes": 11171672,
+      "sha256": "69f55939742b26988690e54b7f5636eb591a351063b93187feeb38c1f6611ebe",
+      "parts": 6
+    }
+  ],
+  "completed_cells": 1977,
+  "native_sha256": "549fde4f5bf11ecd276e34773de1698fb3e3c386aff2bcf535e66e6ae1e9e865",
+  "whole_cap_complete": false,
+  "independent_mean_and_infinite_tails_retained": true,
+  "whole_original_cap_complete": true,
+  "complete_native_sha256": "69f55939742b26988690e54b7f5636eb591a351063b93187feeb38c1f6611ebe",
+  "complete_actual_cap_graph_error": {
+    "ball": "[0.00011278288644647993574958147355797422 +/- 3.75e-39]",
+    "lower": "[0.00011278288644647993574958147355797422 +/- 3.75e-39]",
+    "upper": "[0.00011278288644647993574958147355797422 +/- 3.75e-39]",
+    "mid_float": 0.00011278288644647993,
+    "radius_upper_float": 0.0
+  },
+  "finished_utc": "2026-11-14T10:19:42.977710+00:00"
+}
