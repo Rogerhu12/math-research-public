@@ -129,3 +129,5 @@
 - [R62：互反常态、逆历史与完整第四局部漂移](results/R62-reciprocal-constant-states-and-fourth-local-drift.md) — 固定h,d=hω−k时，完整二阶常态算子Rk=(k²−1)A+kB，故k与−1/k给准确相反方向，±1两整圈即可零bulk；四(h,d)的八圈仍有八维满秩方向，保真实桥的有限N IFT。完整第四RHS准确为−Rk(W,W)+2Rk(φ,U)+Jk(f,φ)，明确保Yd及第三mixed恢复；无桥±1等时段仅逆掉全部history系统，尚余T(J++J−)。真实桥可耦合大历史，不能从低阶成本O1推高阶O1；未支付第四range或厚度。
 
 - [R63：水平角切向的准确C²条带分类](results/R63-horizontal-angular-tangent-C2-strip-classification.md) — C²准确g=ds²+a²dθ²且Tz在整个连通带恒零时，混合导数迫Ts=0及a′=−νk0(θ)。非恒定k0只能给同一非圆直柱；恒定k0=m∈Z非零给固定中心m重圆及a′²/m²+z′²=1，嵌入截面时|m|=1。零速度与换号均保留，无高阶Taylor假设；非圆到圆的准确连接必须某处Tz非零。当前72个空间角场列保留，不排一般非水平/近似解。
+
+- [R64：凸柱入口必要七阶切向、六阶中心与有限类限制](results/R64-convex-core-entry-seventh-tangent-and-sixth-center-jets.md) — 对C²接凸平面柱且另有明确可微Taylor余项的准确E/F/G解，a′=−Cx³迫X4=CN/(4k)、z7=−side C²/(14k²)，从而u4=C(k^−1)θ/(4a0)、v7=−side C²(k^−2)θ/(14a0)、b6=−side C²〈k^−2〉/2。当前首片v基场0加五次径向多项式不能含必要非零v7，因此该明确有限类无准确零；无给定容差下界，不排精化极限。给局部v7及条件b6基场修正，尚未评价原c0的b6，也未付全部Cauchy系列。
