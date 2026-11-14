@@ -1,0 +1,324 @@
+{
+  "status": "passed",
+  "producer": "new exact SymPy full-state identities and Fraction budgets",
+  "utc": "2026-11-14T09:18:49.034024+00:00",
+  "gate_count": 69,
+  "all_passed": true,
+  "gates": [
+    {
+      "name": "complete unshifted first physical state",
+      "passed": true
+    },
+    {
+      "name": "complete unshifted second physical state",
+      "passed": true
+    },
+    {
+      "name": "lower-right transport retains the mean-output column",
+      "passed": true
+    },
+    {
+      "name": "lower-left complete coefficient derivative retained",
+      "passed": true
+    },
+    {
+      "name": "the complete moving frequency-weight derivative cancels",
+      "passed": true
+    },
+    {
+      "name": "weight power for a nonzero lag is at most quadratic",
+      "passed": true
+    },
+    {
+      "name": "a single one-derivative denominator covers both transport factors",
+      "passed": true
+    },
+    {
+      "name": "all output Sobolev lag powers are at most six",
+      "passed": true
+    },
+    {
+      "name": "exponential Wiener width pays all six lag powers",
+      "passed": true
+    },
+    {
+      "name": "all four blocks and means fit the displayed strong constant",
+      "passed": true
+    },
+    {
+      "name": "lower-left coefficient is exactly zero at a true root",
+      "passed": true
+    },
+    {
+      "name": "mean frequency weight equals one",
+      "passed": true
+    },
+    {
+      "name": "actual target density window closes at top H4",
+      "passed": true
+    },
+    {
+      "name": "actual target density window closes at bottom",
+      "passed": true
+    },
+    {
+      "name": "strict conversion retains current analytic and shear fees",
+      "passed": true
+    },
+    {
+      "name": "strict full physical Cauchy bits",
+      "passed": true
+    },
+    {
+      "name": "strict full physical Cauchy J power",
+      "passed": true
+    },
+    {
+      "name": "strict full physical Cauchy delta power",
+      "passed": true
+    },
+    {
+      "name": "strict full strong difference bits",
+      "passed": true
+    },
+    {
+      "name": "strict full strong difference J power",
+      "passed": true
+    },
+    {
+      "name": "strict full strong difference delta power",
+      "passed": true
+    },
+    {
+      "name": "exact root alpha ratio including both true density factors",
+      "passed": true
+    },
+    {
+      "name": "root mean retains the sqrt-b height and inverse flux scales",
+      "passed": true
+    },
+    {
+      "name": "nonzero-root balance ratio is bounded by b to two thirds",
+      "passed": true
+    },
+    {
+      "name": "root endpoint angular and multiplier fees",
+      "passed": true
+    },
+    {
+      "name": "root endpoint strong variation fees",
+      "passed": true
+    },
+    {
+      "name": "strict root cut parameter derivative fits frame fee",
+      "passed": true
+    },
+    {
+      "name": "root graph frame strong losses fit displayed constant",
+      "passed": true
+    },
+    {
+      "name": "genuine graph principal remains bounded with its complete remainder",
+      "passed": true
+    },
+    {
+      "name": "full root physical Cauchy bits",
+      "passed": true
+    },
+    {
+      "name": "full root physical Cauchy b power",
+      "passed": true
+    },
+    {
+      "name": "actual core absolute difference bits",
+      "passed": true
+    },
+    {
+      "name": "full root core-variation product bits",
+      "passed": true
+    },
+    {
+      "name": "complete root graph-variation b powers fit safe fourth",
+      "passed": true
+    },
+    {
+      "name": "root endpoint physical-normalization variations fit safe fourth",
+      "passed": true
+    },
+    {
+      "name": "center wave transformation uses at most B three quarters",
+      "passed": true
+    },
+    {
+      "name": "center radial B conversion bits",
+      "passed": true
+    },
+    {
+      "name": "complete physical Cauchy exponent",
+      "passed": true
+    },
+    {
+      "name": "complete physical Cauchy J power",
+      "passed": true
+    },
+    {
+      "name": "complete physical Cauchy bits",
+      "passed": true
+    },
+    {
+      "name": "strict-difference complete exponent",
+      "passed": true
+    },
+    {
+      "name": "root-difference complete exponent",
+      "passed": true
+    },
+    {
+      "name": "strict-difference complete J power",
+      "passed": true
+    },
+    {
+      "name": "root-difference complete J power",
+      "passed": true
+    },
+    {
+      "name": "strict-difference complete bits",
+      "passed": true
+    },
+    {
+      "name": "root-difference complete bits including n factor",
+      "passed": true
+    },
+    {
+      "name": "actual physical root relative graph smallness",
+      "passed": true,
+      "log2_upper": "-2063291/2"
+    },
+    {
+      "name": "actual complete root potential smallness",
+      "passed": true
+    },
+    {
+      "name": "actual whole strict relative propagator smallness",
+      "passed": true
+    },
+    {
+      "name": "actual first-layer geometry used",
+      "passed": true
+    },
+    {
+      "name": "physical input packet has a true factor-two buffer",
+      "passed": true
+    },
+    {
+      "name": "complete H5 input fee is B to five halves",
+      "passed": true
+    },
+    {
+      "name": "packet B conversion integer fee",
+      "passed": true
+    },
+    {
+      "name": "packet absorption complete delta exponent",
+      "passed": true
+    },
+    {
+      "name": "packet absorption complete J exponent",
+      "passed": true
+    },
+    {
+      "name": "packet complete unrounded bits",
+      "passed": true
+    },
+    {
+      "name": "actual complete reference-inverse absorption",
+      "passed": true,
+      "log2_upper": -490626
+    },
+    {
+      "name": "physical packet to true localization bits",
+      "passed": true
+    },
+    {
+      "name": "physical packet to true localization J power",
+      "passed": true
+    },
+    {
+      "name": "physical packet to true localization delta power",
+      "passed": true
+    },
+    {
+      "name": "actual first-layer complete packet localization",
+      "passed": true,
+      "log2_upper": -165870
+    },
+    {
+      "name": "whole packet J layer ratio",
+      "passed": true
+    },
+    {
+      "name": "whole packet J layer bit",
+      "passed": true
+    },
+    {
+      "name": "complete packet deep-layer decay",
+      "passed": true
+    },
+    {
+      "name": "complete root graph deep-layer decay",
+      "passed": true
+    },
+    {
+      "name": "same supplied incoming is inside actual small ball",
+      "passed": true
+    },
+    {
+      "name": "complete physical weak first source weight",
+      "passed": true
+    },
+    {
+      "name": "complete physical weak second source weight",
+      "passed": true
+    },
+    {
+      "name": "constant physical height still gives exact zero source-free generator",
+      "passed": true
+    }
+  ],
+  "new_bounds": {
+    "complete_physical_generator_difference": "2^48 n (1+sqrt(Q)), H^(s+1) -> H^s, |s|<=4",
+    "complete_physical_root_center_Cauchy": "2^8000 J^14 delta^-24, both directions and both means",
+    "complete_strong_difference": "2^12000 J^22 delta^-40 Ncal X, H5 -> H4",
+    "actual_physical_input_packet": "both traces, 4<=|m|<=sqrt(B)/4, full mean retained",
+    "actual_center_high_tail": "2^20100 J^39 delta^-68 Ncal X times center low norm",
+    "true_localization_first_layer_log2": "-165870",
+    "true_absorption_first_layer_log2": "-490626"
+  },
+  "scope": {
+    "actual": [
+      "same current Gamma-star and original physical root cuts",
+      "full high output, cross-cone and both mean evolution",
+      "physical low Cauchy packets satisfy the previously stated complete center localization",
+      "physical strict ordinary/weak source state and actual root source normalization retained"
+    ],
+    "not_granted": [
+      "bare pullback has small norm on the same Sobolev space",
+      "every actual whole-network near-kernel belongs to this physical packet subspace",
+      "generic physical L2 weak sources acquire unproved root graph traces",
+      "the original-label source inverse or nonlinear outer F is solved"
+    ]
+  },
+  "file_sha256": {
+    "results/R119-supplement-actual-physical-root-packets-and-center-localization.md": "980e1844a1875c58db86874b24c021c3cc4384d8fb8737c00d93cfd8866ac1bc",
+    "results/R119-supplement-complete-low-cone-and-explicit-exterior-crossing-form.md": "9d4e4e9b45591f2549c8648e46cf81431453a482f89dcd60eb64e8e9bef89ca7",
+    "results/R119-supplement-common-low-scaled-direction-and-complete-mixed-pocket-form.md": "0e2260050262302a94d582097a0b8e9c5b50159d5639893d102ebe7a61d06e92",
+    "results/R119-supplement-actual-strict-density-complete-relative-Cauchy.md": "dcf33b5e85b2a059963760d68b68f096fb4e764ebf248cc2a3805a3225b208dd",
+    "results/R119-supplement-actual-joint-analytic-root-and-relative-Airy-Cauchy.md": "6f12b6a6a79bdff8deb26e9092e46ab08463e19064912d518d50c981e592741a",
+    "results/R119-supplement-actual-root-graph-to-fixed-radial-two-port.md": "87f7886c8fc9566c351687a8a6e10d4fa67400ef2482811ec78531d16cfcfe0d",
+    "results/R119-supplement-controlled-tail-actual-joint-phase-and-remainder.md": "27325857e088e8266a322bcabe82c59a6cc1f06f225b2616c8490b553af5d45c",
+    "results/R119-supplement-complete-negative-pocket-fixed-parameter-positive-form.md": "8c883e951c8b3771417ea4d0c6285b7f29902d38c636f051200848e65b3335fe",
+    "results/R119-supplement-actual-canonical-profile-generator-and-complete-weak-sources.md": "3b9899adaba350486def68d641e473bdd0dd2ab26075a38f1943780ed7dd4075",
+    "results/R133-supplement-fixed-stop-D0-complete-sources-and-incoming.md": "7c2c9b0d5070427078d7fcc2384ad2d5b98e0f59c71c3a9e9dff5bebf5d7284f",
+    "source": "684e0c036348b3e95658d1ac33fb5dcb46347777fad626f63ad25a80e1eeb230"
+  }
+}
