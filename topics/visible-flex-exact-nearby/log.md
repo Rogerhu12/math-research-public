@@ -547,3 +547,7 @@ v2 run43652855824精确复用d893成功plan，32组均首格child1、完成格0�
 ## 2026-11-14 23:37:51 UTC — 新外F1–39完整强散射/实际首密度相位
 
 完整解析稿SHAb283b1dd68e53e13f58c53b682cf2541a46e8f6c468ea957d4404b1fb153861c独立推。root全读F并对照原strict S9–25、strict高输出S21–29、负word W4–44与密度B7–18：真长<2/少64seams、完整势差和reference condition、真mean矩阵、两强基础窗及正逆adjoint分别付。phase另核Vw导数/新根真实域/FP5/48/Γ沿Theta导；无旧短4δ或quartic入口偷用。Λo2^2048、fullCauchy2^32768、两strong窗2^12000，完整βrad+1<2^1024。F36仅修单$为双显示定界；所有源/mean/低模/两Γ响应保，closed仍待真实帽/全反馈。3fb6fa564c6d255d5e313439f68c172fdbf0279b两README只读核未变。
+
+## 2026-11-14 23:41:37 UTC — 全矩阵prepare生命周期的最小修复
+
+run43654145060/job132628852951真实prepare失败，root独读完整52412B UTF8 log（SHAe14360b5341ff115945937843074ac8a6d70e2d81f2b6ca0675745fb9c6c78ea）：reviewed_CI_resume:157 check_inputs在science_copy前执行，新增32收据校验误读尚未建的science路径，FileNotFound；0数学child/0新格。旧v3/失败artifact14137236849原保。v4只import REPO和check_inputs四处读源改成已逐pin核过的REPO；后续immutable science/科学sourcee2/合同1f69/32receipt61b全部不改。225pins中旧223逐项相同，root全diff核；CI71b203d5…/manifest8d334ee7…独立推。cfa8e8de7ad0e0a108bf5df478c98431a2e3d7ec两README只读核未变。
