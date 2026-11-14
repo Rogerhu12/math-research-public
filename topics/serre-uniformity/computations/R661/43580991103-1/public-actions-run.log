@@ -1,0 +1,25 @@
+START R661 based_points
+Actual V2 and V3 reconstructed exactly from published model and the GP checkpoint.
+Actual model and derivation verified; maxRSS MiB=116.44
+PASS actual selected SS based points ['SS_j44_18'] SHA 23fb9824370f8d26f0282c798fe7aa82956418153e6d3f7ac0ac11a8fa8122fe
+COMPLETE R661 based_points
+START R661 actual_F2
+PASS actual_chain d181c225330545026d74588a4697c07589352d864068dfbe1919e63035978a07
+PASS actual_terminal_and_nu 47e90b7c1c8d481632a06d6d4e150b63e3190c1a7b0bc6bea498a533478ad264
+PASS actual_integer_principal 7768016d67cc9bc0870a0e655743ea21d338efdd94b6fc9383b6d55bc19d1821
+PASS actual_T2_support 84df0fe3c650c58cf922a73ba89bb41bb752ec6eea92b2c6c9a930fc9dd1fc7f
+PASS actual_T2_norm f32d06605175608eace185439a69a604df7692197de2683540e3d13941965f8f
+Traceback (most recent call last):
+  File "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_rebuild_shifted_SS_F2_clearing_frame47.py", line 86, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_rebuild_shifted_SS_F2_clearing_frame47.py", line 79, in main
+    run('actual_full_F2_norm','p41_SS_F2_full_canonical_norm_clearing_frame47.py',common+['--derivative',derivative]+['--canonical-algebra',canonical,'--canonical-unit-certificate',canonical_certificate,'--ss-support',support,'--t2-norm',t2norm,'--cache-dir',W/'fixed-jets','--output',fullnorm],fullnorm)
+  File "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_rebuild_shifted_SS_F2_clearing_frame47.py", line 54, in run
+    with log.open('w') as stream:subprocess.run(command,env=env,stdout=stream,stderr=subprocess.STDOUT,check=True)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '-u', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_SS_F2_full_canonical_norm_clearing_frame47.py', '--script-dir', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts', '--based-points', '/home/runner/work/_temp/R661-SS_j44_18-fknrfwzg/f2/R661_SS_j44_18_based_points47.json.gz', '--second-kind-certificate', '/home/runner/work/_temp/R661-SS_j44_18-fknrfwzg/f2/SS_j44_18_actual_second_kind_integrals47.json.gz', '--multiplication', '/home/runner/work/_temp/R661-SS_j44_18-fknrfwzg/f2/chain/SS_j44_18_multiply47.json.gz', '--transport-directory', '/home/runner/work/_temp/R661-SS_j44_18-fknrfwzg/f2/SS-principal-transports/SS_j44_18', '--principal-expression', '/home/runner/work/_temp/R661-SS_j44_18-fknrfwzg/f2/SS_j44_18_principal_expression47.json.gz', '--derivative', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_serre_clearing_126_disks47.json.gz', '--canonical-algebra', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_canonical_SS_robust47_raw.json.gz', '--canonical-unit-certificate', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_canonical_SS_robust47_certificate.json.gz', '--ss-support', '/home/runner/work/_temp/R661-SS_j44_18-fknrfwzg/f2/SS_j44_18_actual_T2_support47.json.gz', '--t2-norm', '/home/runner/work/_temp/R661-SS_j44_18-fknrfwzg/f2/SS_j44_18_actual_T2_principal_norm47.json.gz', '--cache-dir', '/home/runner/work/_temp/R661-SS_j44_18-fknrfwzg/f2/fixed-jets', '--output', '/home/runner/work/_temp/R661-SS_j44_18-fknrfwzg/f2/SS_j44_18_actual_F2_first_variable_norm47.json.gz']' returned non-zero exit status 1.
+INCOMPLETE R661 CalledProcessError: Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '-u', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_rebuild_shifted_SS_F2_clearing_frame47.py', '--script-dir', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts', '--work-dir', '/home/runner/work/_temp/R661-SS_j44_18-fknrfwzg/f2', '--disk-id', 'SS_j44_18', '--result-id', 'R661', '--canonical', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_canonical_SS_robust47_raw.json.gz', '--canonical-certificate', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_canonical_SS_robust47_certificate.json.gz', '--derivative', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_serre_clearing_126_disks47.json.gz', '--based-points', '/home/runner/work/_temp/R661-SS_j44_18-fknrfwzg/R661_SS_j44_18_based_points47.json.gz', '--rebuild-chain']' returned non-zero exit status 1.
+SAVED R661 complete False files 15
