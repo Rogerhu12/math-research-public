@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_positive_high_weighted_body_cut_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43639514776",
   "run_attempt": "1",
@@ -60,6 +60,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T20:51:04.052810+00:00",
+      "before": "29e2aa699c783e7cdc362b5b58d107ad47a4fe76",
+      "after": "a62b45b24db9925f136b288481b257ab4fea8839",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -67,6 +75,11 @@
       "time": "2026-11-14T20:50:24.208808+00:00",
       "final": false,
       "commit": "d95cff5c28ce1a26559492c0fb563588f73015fd"
+    },
+    {
+      "time": "2026-11-14T20:51:03.081418+00:00",
+      "final": false,
+      "commit": "a62b45b24db9925f136b288481b257ab4fea8839"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -92,7 +105,7 @@
   "original_M32_body_cross_run": "43637596465",
   "original_4650_target_or_Riccati_rows_recomputed": 0,
   "original_cap_residual_finite_Green_or_negative_return_recomputed": 0,
-  "complete_positive_given_head_body_and_cut_trace_ports_proved": false,
+  "complete_positive_given_head_body_and_cut_trace_ports_proved": true,
   "input_manifest_sha256": "c15abff3016946b717f1d9479290fd89b9ce81fb6d707d74f41ff3e9f3cf4066",
   "package_versions": {
     "numpy": "2.3.5",
@@ -106,7 +119,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "29e2aa699c783e7cdc362b5b58d107ad47a4fe76",
+  "last_read_commit": "a62b45b24db9925f136b288481b257ab4fea8839",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-positive-weighted-work/science",
   "actual_input_sha256": {
     "body": "eefb94952a409473fed7f9c34afc9214a3346d8c3b19ed7e0a7fc6fd06f48a68",
@@ -116,9 +129,21 @@
     "graph-summary": "243dc3551c00de4acbe8d8a7d8ba24b62ad16b3e2384ebebad422c4d282754d3",
     "graph-process": "20945c0a64a2204b65e80f960f818c155c0bef3067f0ebcaab2f2df6cfc35328"
   },
-  "snapshot_utc": "2026-11-14T20:51:00.487847+00:00",
-  "wall_seconds": 41.48264295600001,
+  "snapshot_utc": "2026-11-14T20:51:04.105765+00:00",
+  "wall_seconds": 45.100560357999996,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-positive-port-outcome.json",
+      "file": "evidence/actual-latest-positive-port-outcome.json",
+      "bytes": 1716,
+      "sha256": "63ee2d7c5ee1b5c69dc10cffd65f184bb41abbad9bb2985ff3b94220f8a40be0"
+    },
+    {
+      "logical_file": "evidence/complete-positive-high-weighted-body-cut-summary.json",
+      "file": "evidence/complete-positive-high-weighted-body-cut-summary.json",
+      "bytes": 35088,
+      "sha256": "8fdca559e91e67f11e864ddb4fab02c48a383f6be292070e3ff9a538e5f941d5"
+    },
     {
       "logical_file": "evidence/original-body-cross-math-receipt.json",
       "file": "evidence/original-body-cross-math-receipt.json",
@@ -155,5 +180,77 @@
       "bytes": 3715980,
       "sha256": "54b3940463e8efca02c136fdb2fc5bd2a0ff8a7f57b604db86ba67cec620e6b2"
     }
-  ]
+  ],
+  "complete_native_sha256": "54b3940463e8efca02c136fdb2fc5bd2a0ff8a7f57b604db86ba67cec620e6b2",
+  "actual_scientific_gates": 11,
+  "complete_positive_weighted_head_source_columns_proved": true,
+  "true_cut_high_even_reconstruction_upper": {
+    "ball": "[0.59533088194608008787092740562546352989054295519070075775371097899633235427144079 +/- 1.55e-81]",
+    "lower": "[0.59533088194608008787092740562546352989054295519070075775371097899633235427144079 +/- 1.55e-81]",
+    "upper": "[0.59533088194608008787092740562546352989054295519070075775371097899633235427144079 +/- 1.55e-81]"
+  },
+  "weighted_head_combined_inner_output_columns": {
+    "root_outgoing_unstable_Z": {
+      "complete_inner_head_L2": {
+        "ball": "[187.49751721990359897091426171028170083345700837626483762281903249604719391558243 +/- 4.62e-78]",
+        "lower": "[187.49751721990359897091426171028170083345700837626483762281903249604719391558243 +/- 4.62e-78]",
+        "upper": "[187.49751721990359897091426171028170083345700837626483762281903249604719391558243 +/- 4.62e-78]"
+      },
+      "outer_cap_head_L2": {
+        "ball": "[57.418958638360206581379820339988823885192750764522093759401003682639867792061583 +/- 1.65e-79]",
+        "lower": "[57.418958638360206581379820339988823885192750764522093759401003682639867792061583 +/- 1.65e-79]",
+        "upper": "[57.418958638360206581379820339988823885192750764522093759401003682639867792061583 +/- 1.65e-79]"
+      }
+    },
+    "collar_Z_sup": {
+      "complete_inner_head_L2": {
+        "ball": "[187.49751721990359897091426171028170083345700837626483762281903249604719391558243 +/- 4.62e-78]",
+        "lower": "[187.49751721990359897091426171028170083345700837626483762281903249604719391558243 +/- 4.62e-78]",
+        "upper": "[187.49751721990359897091426171028170083345700837626483762281903249604719391558243 +/- 4.62e-78]"
+      },
+      "outer_cap_head_L2": {
+        "ball": "[57.418958638360206581379820339988823885192750764522093759401003682639867792061583 +/- 1.65e-79]",
+        "lower": "[57.418958638360206581379820339988823885192750764522093759401003682639867792061583 +/- 1.65e-79]",
+        "upper": "[57.418958638360206581379820339988823885192750764522093759401003682639867792061583 +/- 1.65e-79]"
+      }
+    },
+    "body_Z_sup": {
+      "complete_inner_head_L2": {
+        "ball": "[187.49751721990359897091426171028170083345700837626483762281903249604719391558243 +/- 4.62e-78]",
+        "lower": "[187.49751721990359897091426171028170083345700837626483762281903249604719391558243 +/- 4.62e-78]",
+        "upper": "[187.49751721990359897091426171028170083345700837626483762281903249604719391558243 +/- 4.62e-78]"
+      },
+      "outer_cap_head_L2": {
+        "ball": "[57.418958638360206581379820339988823885192750764522093759401003682639867792061583 +/- 1.65e-79]",
+        "lower": "[57.418958638360206581379820339988823885192750764522093759401003682639867792061583 +/- 1.65e-79]",
+        "upper": "[57.418958638360206581379820339988823885192750764522093759401003682639867792061583 +/- 1.65e-79]"
+      }
+    },
+    "positive_inner_body_L2": {
+      "complete_inner_head_L2": {
+        "ball": "[226.10168082361300963733399980862960470019368951350299002925371519279360386207444 +/- 4.18e-79]",
+        "lower": "[226.10168082361300963733399980862960470019368951350299002925371519279360386207444 +/- 4.18e-79]",
+        "upper": "[226.10168082361300963733399980862960470019368951350299002925371519279360386207444 +/- 4.18e-79]"
+      },
+      "outer_cap_head_L2": {
+        "ball": "[69.241039837601703444432375532828643538769741018568995901496566439136022415224761 +/- 1.27e-79]",
+        "lower": "[69.241039837601703444432375532828643538769741018568995901496566439136022415224761 +/- 1.27e-79]",
+        "upper": "[69.241039837601703444432375532828643538769741018568995901496566439136022415224761 +/- 1.27e-79]"
+      }
+    },
+    "true_cut_high_even_L2": {
+      "complete_inner_head_L2": {
+        "ball": "[111.62306228922554787741220207900856167173727094819866473177061903338738460359075 +/- 2.48e-78]",
+        "lower": "[111.62306228922554787741220207900856167173727094819866473177061903338738460359075 +/- 2.48e-78]",
+        "upper": "[111.62306228922554787741220207900856167173727094819866473177061903338738460359075 +/- 2.48e-78]"
+      },
+      "outer_cap_head_L2": {
+        "ball": "[34.183279286600475613471817099099911786799546187196643156542223832892289043527768 +/- 3.41e-79]",
+        "lower": "[34.183279286600475613471817099099911786799546187196643156542223832892289043527768 +/- 3.41e-79]",
+        "upper": "[34.183279286600475613471817099099911786799546187196643156542223832892289043527768 +/- 3.41e-79]"
+      }
+    }
+  },
+  "original_complete_success_reused_without_child": false,
+  "finished_utc": "2026-11-14T20:51:03.604159+00:00"
 }
