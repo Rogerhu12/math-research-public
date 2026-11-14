@@ -1,0 +1,92 @@
+{
+  "format": "r150-native-graded-module-gb-v1",
+  "field": 31,
+  "moduleOrder": "dp,c",
+  "fullSourceCount": 2195,
+  "targetCount": 9,
+  "components": 1034,
+  "maximumDegree": 45,
+  "inputSHA256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+  "mappingSHA256": "cf2d53f8da539a1538e492fbca77464999a217878e4f3de0a5a057025507ed64",
+  "nfReceiptSHA256": "d6882ec5b3b99be56cadd5920216b1367ee85511f74a8c09f2fb0ff0d930c5c3",
+  "cppSHA256": "9d2e321f03020257babbcdfe90e37d195d0bb3d88ee4abd44d9c810ab47d49f7",
+  "arithmeticSHA256": "5d9bc7b87900472b617a9845b735388efe7f2c2cbde534a0b574ffc625d1a471",
+  "runnerSHA256": "a201b115a989b8dc3f340d502c208497b51450ac74f315885c10f1c97bb2cfa8",
+  "runtimeFixture": {
+    "header": [
+      "98 15 541 33554560 10256",
+      "15 -6 0 31 1 1 s 2 9 1 1 3 0 0 0 "
+    ],
+    "fixtureSHA256": "6370d838ff36b5dd03ea7a9b724f7db6a1e56368c34ea98c3574d9f67c9a4610",
+    "fixtureModuleTokens": [
+      10,
+      1034,
+      2,
+      3,
+      7,
+      1034,
+      3,
+      30,
+      1,
+      2,
+      16,
+      1,
+      0,
+      1,
+      2,
+      2,
+      1
+    ],
+    "runtimeExecutable": "/tmp/isp-789f-singular-runtime/singular-4.4.0/bin/Singular",
+    "sourceReference": "https://github.com/Singular/Singular/blob/Release-4-4-0/Singular/links/ssiLink.cc",
+    "fixtureStatus": "exact-current-runtime-payload-verified"
+  },
+  "secondsLimit": 360,
+  "softSeconds": 330,
+  "memoryMiBLimit": 512,
+  "maximumSourcesRequested": 0,
+  "status": "completed",
+  "outputs": {
+    "operations.bin": {
+      "file": "/tmp/r150-native-gb-full-789f/gb-operations.bin",
+      "bytes": 746635069,
+      "sha256": "5852a79b67c04c3bef7a5a88a4d21bec75c6389bd3bede450b3045865c7899c7"
+    },
+    "basis.ssi": {
+      "file": "/tmp/r150-native-gb-full-789f/gb-basis.ssi",
+      "bytes": 9496185,
+      "sha256": "0b397a7fe10f27d9c8ec9453e654ce52c0d1499187e1cc6cb2228d3676159960"
+    },
+    "basis-metadata.json": {
+      "file": "/tmp/r150-native-gb-full-789f/gb-basis-metadata.json",
+      "bytes": 89572,
+      "sha256": "8281d0b1d61f8bbf8440e5cd88adc2c912af50abdaa4cf05958abc9edb13c16a"
+    }
+  },
+  "binarySHA256": "5e3e0439fd46927000eba4ac9df502e35ab27f8f62aca862e973213738977cdd",
+  "lastProgress": {
+    "status": "native-univariate-gb-complete",
+    "processedSources": 2195,
+    "fullSourceCount": 2195,
+    "basisRows": 1021,
+    "maximumInputDegree": 45,
+    "maximumBasisDegree": 8,
+    "reductions": 67860206,
+    "swaps": 11986,
+    "elapsedSeconds": 184.148
+  },
+  "exitCode": 0,
+  "elapsedSeconds": 184.26606149600048,
+  "nativeStatistics": {
+    "status": "native-univariate-gb-complete",
+    "processedSources": 2195,
+    "fullSourceCount": 2195,
+    "basisRows": 1021,
+    "maximumInputDegree": 45,
+    "maximumBasisDegree": 8,
+    "reductions": 67860206,
+    "swaps": 11986,
+    "elapsedSeconds": 184.148
+  },
+  "sourceIdentity": "Input nodes 1..2195 are the original numbered normal-form sources. Each arithmetic node is previous-current minus coefficient*s^exponent*saved-basis. Swaps and stores are recorded. Final records give the constant normalization of each distinct-leading-component row. No parameter polynomial is inverted. Only status=completed spans all original 2195 sources."
+}

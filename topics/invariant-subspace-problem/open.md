@@ -101,7 +101,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R296全birth残差/真实桥](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)将加强S1准确化为共同Z的运输界，保全低阶Schur、硬端和C²深塔。其各附录（见[索引](results.md)）已付完整拟合负二阶差/商不变，出生二τ≤1的全源精度夹逼z_S(τG1+τ²G2)/5至6倍、相邻首事件真实ridge及三切片Λ_high≤4τΛ_low的完整最优修正。共同物理二阶差与混合逆仍须支付，低原子面可退化；独立层界不能替代。
 
-[R297弱位归约](results/R297-appendix-weak-bit-hard-top-universal-strengthened-equivalence.md)保任意临界池的完整来源/a⁻¹抵消，全部有限正权/出生/高度加强κ⇔奇数硬端首边同κ；严格反例依次取有限正弱位，非严格极限不代有限权界。[硬端消逆](results/R297-appendix-odd-hard-top-innovation-and-dual-lowering-cancellation.md)给Δ*C1⁻¹=−L1A_U，统一目标A_U*L1L3⁻¹L1A_U≤κI；倒数权等价B*L2²B≤κG1。真五位上两个未投影提升发散而投影费<1/3，不能删压缩逆、桥平方或物理投影。全部同源式与方法边界见[索引](results.md)及[此前全文](notes/2026-11-14-open-before-graded-module-789f.md)。
+[R297弱位归约](results/R297-appendix-weak-bit-hard-top-universal-strengthened-equivalence.md)保完整跨出生/a⁻¹抵消，全部正权/出生/高度加强κ⇔奇数硬端首边同κ。真费A_U*L1L3⁻¹L1A_U，倒数桥B*L2²B≤κG1；两个未投影提升真五位发散而投影费<1/3。不能删压缩逆、桥平方或投影；非严格极限不代有限权界。全部证明见[索引](results.md)和[此前全文](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
 
 [R298独立五权全源硬端](results/R298-five-independent-positive-weights-birth-two-hard-top-strengthened-s1.md)已证明M5/r2整个五维源加强费用≤743/782，严格缺陷≥(39/782)C1²。完整真实迹的−9L3⁻¹L1³项保留，十九次整数N/D的79个对称轨道给743D−782N全系数非负且非零；不是旧分组普通序或指定S3不变线。一般更大奇数硬端统一κ仍开，也未支付原graph。
 
@@ -135,7 +135,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 **已闭全部低本质三次层。** [总定理](results/R150-appendix-all-essential-cubic-dimensions-at-most-three-have-zero-matched-bell-values.md)：essT3≤3临界三Bell零；ess≤2仅迫T3=0，rank1/ess3为空，Cat2/3的W±/Q|T3判据保。非零Bell余点必ess4/5/6，自然幂未付。
 
-**高本质rank1原中心17式。** [泛参数分类](results/R150-appendix-rank-one-mean-generic-complete-critical-classification-and-finite-exception-set.md)付原M5泛秩4354；P±/E8和0、2、−6、∞已按原17式闭，现只余g≠0、rankAy9有限Σ及char0 I*C=T/实际分母。全部振幅/H,V秩、旧失败与完整来源保[此前open](notes/2026-11-14-open-before-five-weight-hard-top-789f.md)。3333常单位枢轴全参数可逆；[来源压缩](results/R150-appendix-eleven-extra-n-sources-and-exact-polynomial-module-compression.md)付F31[s]全部N=预基+11原行，只需2195来源；[原163方核](results/R150-appendix-original-163-square-core-and-projective-chart-degree.md)所选齐次子式度8770，参数因子未算。[原生全正常形](results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)现以54.8127秒/512MiB完成2195来源及九目标、完整1034分量/45次参数和全部可回放操作。旧43583257344超时停原行reduce；该阶段现已完成，同一NF经[SSI](notes/2026-11-14-r150-native-normal-form-ssi-789f.md)在4.575秒全载，根原式入口联调亦成功。[次数优先证明](results/R150-appendix-parameter-degree-preserving-univariate-module-basis.md)付商模(dp,c)全部消元向量deg≤45、完整原模及流式终止；新序全载4.132秒。31/gradedSSI/Ann运行43588728414已启动，1800秒/4GiB；std/Ann/特征零仍开。
+**高本质rank1原中心17式。** [泛参数分类](results/R150-appendix-rank-one-mean-generic-complete-critical-classification-and-finite-exception-set.md)给原M5秩4354；全部rankAy8、0/2/−6/∞已闭，余g≠0、rankAy9有限Σ和char0 I*C=T/实际分母。旧完整范围保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。3333常单位预基与11条额外N给完整2195来源；原163方核/齐次度8770与74次射影gcd准则已证。[全正常形](results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)在54.8127秒完成1034分量/最高45次，保全部原DAG。[完整原生GB](results/R150-appendix-complete-native-polynomial-basis-and-finite-torsion-space.md)现以184.148秒/512MiB处理全部2195来源，得到1021行、最高8次、总行次数716；不是函数域行空间替代。全部torsion正常形次数≤7，对应820维标准单项式空间中最高层泄漏C A^k全零的最大不变子空间。其维数给仿射最大子式gcd次数，但尚未计算；九目标Ann与特征零仍开。远端唯一43588728414仍为31/gradedSSI/Ann、1800秒/4GiB，其自身std结果尚未观察到。
 
 [射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)已保∞并给74次K_h下因子：若有限个真实4354子式模31的齐次gcd总次数达74，即可推出char0坏点全已闭，cofactor+Bézout给原证书分母K(s)度60。该条件尚未计算；单个非零子式、九目标Ann、所选枢轴分母或有限点扫描均不替它。其他mean秩的高ess仍另开。
 
