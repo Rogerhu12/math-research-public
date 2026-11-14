@@ -309,3 +309,7 @@
 ## 更大真实逐片根域与闭式forced Airy传输
 
 [完整M.1–17合同](results/R133-supplement-piecewise-real-root-fold-and-closed-forced-Airy-transport.md)给真实旧角characteristics、Abel形式A、分片fold/Jacobian/μ与旧圆完整J；完整参数族193槽及mean保留。forced两branch严格沿旧ray积分，原seam一般有非零[a_r],[b_r]，完整重构j1=JPΣn^-k U_n([a_kr],[b_kr])不能塞进volume L2。新199input消费者只读原169scalar germs/4650positive行/完整原NPZ；核半径.001至.02的真实闭格、全部seam和负Sobolev J，至少.005通过才complete。原004/006仅原字节恢复。未预授任何数值域、next amplitude、CE/Cs或97 cutoff。
+
+## full realδ外图及全部正高块：实际25+11门通过
+
+[完整实际报告](results/R133-supplement-actual-full-real-delta-outer-and-positive-high.md)：43615531666两个child0，原4650/7721只读。固定物理角无限尾dC<3.950514e−20；完整Robin H1/6<2.522949e−6；实际外reflection<2.210049e−5、p*∈(1/8,1/5)。全部4650行/3594接口给χ0<.303291625133、χ1<.788277869833；order0含真外反馈，order1保独立右port。全realδ1e−8、完整mean/head/jump/unknownhigh保。新native outer5ab1d1b85cb71556b051fd53f5579cb30260ebdda6a844df9a4b377508e057fc、body1f3e5fa630f39a667a96102f103ac8977d00e580f698a83904f361c5a05c6f3c。继续新collar七列正根图与δ*真实rootstrong。

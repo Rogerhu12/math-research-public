@@ -39,3 +39,5 @@
 - 2026-11-14 16:26:38 UTC：推同Z Green5件/218input，核旧97/新143/新145 closure完全保原identity；两DAG真实finish就绪后自动消费，全mean/ports/projector跳保，失败prefix和≤60KB summary保。
 
 - 2026-11-14 16:28:53 UTC：推真实逐片rootfold与closed forced Airy6件；全文核M.1–17及新科学源，保有向radial分片、完整mean和非零seam，199input原计算不重跑。只在公开Actions试真实域，随后接next幅度/实际strong。
+
+- 2026-11-14 16:30:48 UTC：全文核43615531666小process及两summary全部25+11门，独立发布全实δ外/正高证书；本体25.5MB留原13分片，无connector二进制。核runner16:27:32真pull至12b06502f2e4d522ca5dc16d6064267859b3a0a1，两README无差。
