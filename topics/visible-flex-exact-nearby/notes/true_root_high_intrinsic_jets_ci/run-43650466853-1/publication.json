@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 1,
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43650466853",
+  "reviewed_pull_history": [
+    {
+      "before": "e3aa052a53471e292f42a0b227567640d41f106f",
+      "after": "7e66b837168d42793134751d430ab98aac5787b4",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "7e66b837168d42793134751d430ab98aac5787b4",
+      "after": "7e66b837168d42793134751d430ab98aac5787b4",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/process.json",
+      "bytes": 6196,
+      "sha256": "0cc5b063dbaf8138fb6b5df97b6a578831bf4f98cb99de7bf4967a24a829dc01",
+      "original_sha256": "0cc5b063dbaf8138fb6b5df97b6a578831bf4f98cb99de7bf4967a24a829dc01"
+    },
+    {
+      "file": "consumers/true-root-high-intrinsic-jets.json.gz",
+      "bytes": 552891,
+      "sha256": "6cd2e5bf334aa056b8ff401d246965d3f2d5109e481440186cc527477a1a60dd",
+      "original_sha256": "6cd2e5bf334aa056b8ff401d246965d3f2d5109e481440186cc527477a1a60dd"
+    },
+    {
+      "file": "consumers/true-root-high-intrinsic-jets.stdout.log",
+      "bytes": 1326,
+      "sha256": "ed0abcff9c7244ad9f5deff4f302053e9459db0283f3a64413a8e6ffddb854e0",
+      "original_sha256": "ed0abcff9c7244ad9f5deff4f302053e9459db0283f3a64413a8e6ffddb854e0"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 5626,
+      "sha256": "2896e4b11b56ee8102dce0ad070a6ac021f2b90ea0c74912f8ff991660343d94",
+      "original_sha256": "2896e4b11b56ee8102dce0ad070a6ac021f2b90ea0c74912f8ff991660343d94"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2390,
+      "sha256": "431c08080c2e3da9962ebc704c89c035bca4f15ac04460b4db9165dee6cb53a9",
+      "original_sha256": "431c08080c2e3da9962ebc704c89c035bca4f15ac04460b4db9165dee6cb53a9"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}

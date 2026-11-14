@@ -1,0 +1,51 @@
+{
+  "kind": "actual_public_true_root_high_intrinsic_jets_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43650466853",
+  "run_attempt": "1",
+  "workflow_commit": "74f0e1e365102d93bbb5a531572cece8099335ec",
+  "worker_sha256": "13a8cec238916645510e6ad62ad6873e3d5c9a99630d5100d56148d88ff84f79",
+  "manifest_sha256": "568633a69fbe761fb5247f1fa665c6efdf49536d81f52c83fc44298f4b8c6ea8",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T22:54:31.329354+00:00",
+  "complete": false,
+  "readme_checks": [
+    {
+      "before": "e3aa052a53471e292f42a0b227567640d41f106f",
+      "after": "7e66b837168d42793134751d430ab98aac5787b4",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "7e66b837168d42793134751d430ab98aac5787b4",
+      "after": "7e66b837168d42793134751d430ab98aac5787b4",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 1,
+  "final_topic_complete": false,
+  "original_completed_auxiliary_domains_recomputed": 0,
+  "original_infinite_tail_evaluations_recomputed": 0,
+  "new_true_root_high_order_point_evaluation_requested": true,
+  "physical_background_identity_outside_original_piece_claimed": false,
+  "original_artifact_receipts": [],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-true-root-high-intrinsic-jets-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_high_intrinsic_jets_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-true-root-high-intrinsic-jets-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-true-root-high-intrinsic-jets-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-true-root-high-intrinsic-jets-CI-inputs.json",
+    "--manifest-sha",
+    "568633a69fbe761fb5247f1fa665c6efdf49536d81f52c83fc44298f4b8c6ea8",
+    "--out-dir",
+    "/__w/_temp/visible-exact-true-root-high-intrinsic-jets-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-true-root-high-intrinsic-jets-science/originals"
+  ],
+  "complete_original_inputs_verified": 52,
+  "actual_scientific_checkout_commit": "7e66b837168d42793134751d430ab98aac5787b4",
+  "mathematical_wall_seconds": 3.272826828999996
+}

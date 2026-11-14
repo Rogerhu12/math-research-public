@@ -1,0 +1,11 @@
+{"complete": false, "proved": false, "failure": {"type": "ValueError", "message": "new true-root gate failed: the complete finite Nyquist column is exactly zero"}, "new_finite_root_evaluations": 1, "reused_finite_root_evaluations": 0, "accepted_energy_orders": 0, "native_sha256": "6cd2e5bf334aa056b8ff401d246965d3f2d5109e481440186cc527477a1a60dd", "seconds": 1.6865137630000007}
+Traceback (most recent call last):
+  File "/__w/_temp/visible-exact-true-root-high-intrinsic-jets-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_high_intrinsic_jets.py", line 422, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "/__w/_temp/visible-exact-true-root-high-intrinsic-jets-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_high_intrinsic_jets.py", line 284, in main
+    gate("the complete finite Nyquist column is exactly zero",
+  File "/__w/_temp/visible-exact-true-root-high-intrinsic-jets-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_root_high_intrinsic_jets.py", line 178, in gate
+    if not okay:raise ValueError("new true-root gate failed: "+name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: new true-root gate failed: the complete finite Nyquist column is exactly zero
