@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R538：未移动E深测试与实际镜管消去](results/R538-unmodified-e-depth-return-and-actual-mirror-pipes.md)：原七正矩在整个四输出上准确收缩为(−1,0,0,20,0,0,8)/27倍原source，未改测试附E深即乘β^n(8+20κ^(3n)−κ^(6n))/27。与真实J混Y核同域合用，并完整配对原N分量两条镜管；A5深/近相消及旧W移动仍须控制。
+
 - [R536：整纤维质量消去与不变三分支carry](results/R536-exact-fibre-mass-compensation-and-invariant-cubic-carry.md)：原七行十列实际λ/κ矩阵有显示整右逆，有限坏集外同一carry返回原π4且原网格质量/logx严格为零、三中央仍v=n。三不交分支平均得到T不变测试，并经原h的W核准确运输；移动Y项及整个补域保留。
 
 - [R535：原三sigma完整Hesse五项与真实混合核](results/R535-original-hesse-tensor-and-complete-mixed-kernel.md)：Norm3 Fourier框架中的全theta型恰五项，原相位与系数完整确定；E深/Kunit/R3deep条件下的五输出核压成四项，给原网格全部高阶中央表达。旧W含E，须保完整五项来源和真实log/单位域，未以七个低矩取代。

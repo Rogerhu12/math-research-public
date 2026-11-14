@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文持续推进，不等阶段确认。**
 
 - 旧库首次全文读根及课题README（含全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：6bd52b446241be53e8842d4db5a24f9c2069e6e5；2026-11-14 15:37:28 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：6383a4a51b1a6560b4eeedd1bb0c7e578d4dfd32；2026-11-14 15:55:18 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 现仅在Rogerhu12/math-research-public工作。每次pull后及至少每小时核两README差异；有变立即执行。规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13用公开库Actions，旧runner/ci-queue停用。
 - main逐条commit/push已授权；禁强推/改写已发表历史。非快进立即pull --rebase重推；无执行环境时API用expected_sha/force=false，拒绝立即读新头核规后追加，不冒称git pull。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。仅写本课题log、每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
@@ -14,9 +14,9 @@
 
 ## 发布、正在用的文件与分工
 
-R1–363、R365–532及R534–536已登记；R364仍开，R533预留但尚无完整结论。R529=4c7d3db5，R530=7cd6a31e，R531=ac8e6b1e，R532=cc069ed8，R534=a86406a7，R535=87e0e9a1，R536本次登记。全部证明、脚本和原量词由results及分段索引导航。R501原证书已恢复；R502公开Actions run43596695716/job132452617972（来源1dafbfa7，p239/D40/81行）已成功，原生JSON/日志在da54025b，不需重跑。
-最新完整接口：[R536登记前HANDOFF](notes/2026-11-14-frontier-at-r536.md)、[完整open](notes/2026-11-14-open-before-r531.md)、[完整旧结论索引](notes/2026-11-14-results-index-before-r531.md)；各自保前轮归档链。压缩不关闭旧支线。活文件为HANDOFF/open/results/log、PROOF-INDEX-R501-R550及各R正文。
-root统一元数据及逐条发布，代理仅建proof/script/data blobs。R532已修正唯一坐标显示式x=(K−J)/(2+ω)并发布；R534已登记并支付跨s双接触缺口。theta续R539实际混Y权/完整补域（R536零质量纤维补偿已付）；literature续R538真实混Y积分核（R535 Hesse全来源已付）；deep续R537原三层α/β及forcing。root续同源联合/真核；R533尚未形成完整新结论。结论随到随推。
+R1–363、R365–532及R534–536及R538已登记；R364仍开，R533预留但尚无完整结论。R529=4c7d3db5，R530=7cd6a31e，R531=ac8e6b1e，R532=cc069ed8，R534=a86406a7，R535=87e0e9a1，R536=0731adf6，R538本次登记。全部证明、脚本和原量词由results及分段索引导航。R501原证书已恢复；R502公开Actions run43596695716/job132452617972（来源1dafbfa7，p239/D40/81行）已成功，原生JSON/日志在da54025b，不需重跑。
+最新完整接口：[R538之前HANDOFF](notes/2026-11-14-frontier-before-r538.md)、[完整open](notes/2026-11-14-open-before-r531.md)、[完整旧结论索引](notes/2026-11-14-results-index-before-r531.md)；各自保前轮归档链。压缩不关闭旧支线。活文件为HANDOFF/open/results/log、PROOF-INDEX-R501-R550及各R正文。
+root统一元数据及逐条发布，代理仅建proof/script/data blobs。R532已修正唯一坐标显示式x=(K−J)/(2+ω)并发布；R534已登记并支付跨s双接触缺口。theta续R539实际混Y权/完整补域（R536零质量纤维补偿已付）；literature续原A5/J近相消与混Y（R538同域收缩已付）；deep续R537原三层α/β及forcing。root以R533继续degree6完整双变量source及固定负矩，正确Katz对偶不直接反射m→−1−m。结论随到随推。
 
 ## 完成桥与全部保留分支
 
@@ -31,9 +31,9 @@ R490/492参考差、R493–510所有原五伴随/词像格及R503固定B0未消�
 R522–529全部正测试、真实carry、移权及单位逆保最新完整归档/各正文。H0共同六次测试与R529 J/K小核保零质量，R527测试却有非零七项质量；两者不能混用。R528 D14三轨道差的π3推前全0而D_n v5n，隐藏补偿仍在。R529任意J深Kunit返回(J,Y,ξ2,d0)，原D_n质量0/中央v5n，旧W含K/E，须保Kdeep1的P0和Kunit的P0−P_K两补偿；同域W−6δY差v5n+3。各完整系数、固定坏集/大p门、真实逆域与原六条件均不删除。
 R531两套纯伴随C/F和D/E wholeβ，Γn={Ddeep,Eunit}；逐E逆保π4=(Y,W,W′,G)及native Y/W，原D_n中央/质量v=n，完整系数和log见正文。C=H0/δ与旧反射C不同，G未被赋新核心；真实纤维补域仍在。
 R532原(J,A5,K,E,B2,C30)全框架、whole核心和J/A5准确秩二张量已付；Kunit逆保四输出，原D_n六条件及旧W全部六项保正文，x=(K−J)/(2+ω)已修正。两个边际0不代联合0。
-R535原(R,Q,Z) Norm3 Fourier完整块=−ω²G，G=BBP+BPB+PBB−3QQQ−3bPPP；P=σ³、Q=xwpσ³、B=−yσ³，全S3空间/µ6五型及对角恒零支付整个身份。E=(2+ω)Z/3，原R3=J+K、K−J=(2+ω)x。真实E深/Kunit整逆保(R,Q,x,ξ2,d0)，四项核准确含E次数0/6/3/1及各D_j=1+λκj，原D_n全部高阶/单位条件均保。原Y不含E可用四项；旧W有非零Z系数(−5+δ)/3，只能用完整五项，不截七个低矩。未从有限来源表达删去中央补域。
-
-R536 Q=−C6/8+C²P4(F,G)+C4P2(F,G)+C5P1(F,G)，十自由系数由实际六质量行+中央首项行求定。A(τ)=A++τA0的固定B0/B1满足A+B0=−I、A+B1+A0B0=I、A0B1=0；(B0+τB1)/(τ−1)整，完整λκ矩阵用7×7模p恒等逆支付。正文D_*固定有限坏集须删。sameΓ/π4返回βn原source，D_n质量/logx整条0，三中央及两差v=n。T三分支Γn,j两两不交，合{C,Funit,F³−C³deep n}，平均测试T不变且旧W核保持；T D_n在h的Wdeep管中央v=n。Wcore后真实Y→Y+(κn−1)(37−3δ)W/72，全部单位/原输入条件及补域保留，不能当原Y。
+R535三Norm3 Fourier全Hesse G=BBP+BPB+PBB−3QQQ−3bPPP，P=σ³/Q=xσ³/B=−yσ³。原E深/Kunit四项核及原D_n全高阶准确；Y不含E可用，旧W的Z系数(−5+δ)/3非零，必须保完整五项，不能只留低矩。
+R536 Q=−C6/8+C²P4+C4P2+C5P1的十系数，由原六质量行+中央首项行用完整λκ的7×7整逆支付。固定右逆与D_*有限坏集见正文，必须保留。sameΓ/π4回βn原source，D_n质量/logx整条0，三中央及两差v=n。三不交carry合{C,Funit,F³−C³deep}，平均测试T不变、旧W核保持；T D_n为h的非零Wdeep管。Wcore后Y→Y+(κn−1)(37−3δ)W/72，单位/原输入/补域全保。
+R538整个Π=(J,A5,B2,C30)七正矩=(−1,0,0,20,0,0,8)ρ/27；未改P_K附Edeep n/Kunit准确回βn P(κ3n)ρ，P(t)=(8+20t−t²)/27 unit。可再附B2/C30深及真实Jdeep r，原S控制Y_r=2(−1+4ω)J/(3κr)+2A5的完整同行。余域只剩A5deep、J/κr+Kdeep未控制。原N=Q1⊗Q1⊗Q1分量在K反射(R,x)→(−ax,−R/a)下不变，测试仅EK5贡献为奇，原±镜管全积分相消、各v5n。只消此分量；旧W→W−2(1/3−δ)K，全部E/log及余补项仍保。
 
 ## 惰性：同一原格、真实三层与forcing
 
