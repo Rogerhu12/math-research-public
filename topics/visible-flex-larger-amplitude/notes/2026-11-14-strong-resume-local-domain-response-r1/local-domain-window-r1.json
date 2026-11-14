@@ -1,0 +1,106 @@
+{
+  "scope": "Extract the failed physical-s window from an already completed full response.\n\nNo new flow, derivative, nonlinear solve, or LP is run. Point-response arrays\nretain all 32 modes and 1280 angles. Candidate per-radius minima were saved by\nthe original complete readout. Control contributions below are evaluated at\nthe baseline window witness, not claimed to be nonlinear candidate derivatives.\n",
+  "source_sha256": "e3e18af92684bfc16a1687e86574bad66f279b1b5a6436d8bbd730029e2d3354",
+  "input_report": {
+    "file": "/workspace/scratch/ffc1334c1988/strong-work/local-domain-response-r1.json",
+    "sha256": "db00bfce09dc4577f66baf37fc193d65fb6d21a158d9972260d6df52f4189654"
+  },
+  "input_points": {
+    "file": "/workspace/scratch/ffc1334c1988/strong-work/local-domain-response-r1-point-responses.npz.gz",
+    "sha256": "ce5029c0cd8dc028a88f77f40e27c2401cb8a1b8084a709b6da59d002b8275c5"
+  },
+  "physical_window": [
+    1.59,
+    2.01
+  ],
+  "baseline": {
+    "physical_s": 1.59451763,
+    "reference_s": 1.59451763,
+    "material_tau": 0.4950981142114643,
+    "psi": 1.5707963267948966,
+    "row": 7,
+    "angle_index": 320,
+    "gap": 0.009670535459470941,
+    "radial_points": 22,
+    "complete_control_derivatives": {
+      "actual_q1": 0.027050435533637618,
+      "actual_q4": -1.0772360236527279,
+      "actual_c6": 16.766549590097046,
+      "loop_curvature": 0.000693161079886225,
+      "loop_radius": 0.022912265037478008,
+      "loop_speed": -0.0828989522694279,
+      "terminal_peak_fraction": -5.135300518155361e-07,
+      "vu": 0.07721289134843268,
+      "descending_turn_curvature": -0.0005977313358052072,
+      "start_acceleration": -0.0012609990185374897,
+      "initial_speed_frontload": -0.002753477799444237,
+      "vd": -0.685253504802974,
+      "descending_sync_curvature": 4.167081718575716e-05
+    }
+  },
+  "candidates": [
+    {
+      "factor": 1.0,
+      "physical_s": 1.6002708709699451,
+      "reference_s": 1.5892857142857142,
+      "material_tau": 0.4934504572341922,
+      "row": 6,
+      "radial_points": 23,
+      "minimum_actual_warm_gap": 0.012185687041931015,
+      "ap": -0.9761953208697384,
+      "q_lat_min": 0.9883810079116694,
+      "full_angular_minimum_retained": true,
+      "nonlinear_solution": false,
+      "linear_predicted_minimum_on_baseline_window": 0.01145319819098997,
+      "linear_global_error_bound_observed": 0.005240845521502207,
+      "contributions_at_baseline_window_witness": {
+        "actual_q1": 0.0002707004833426982,
+        "actual_q4": 0.0010772360236527279,
+        "actual_c6": -0.0011978315790376812,
+        "loop_curvature": -6.573670309364675e-05,
+        "loop_radius": -0.000250617702564048,
+        "loop_speed": -1.5236642873337009e-05,
+        "terminal_peak_fraction": 1.540590156497314e-08,
+        "vu": -0.0006044779796129953,
+        "descending_turn_curvature": 9.533422543927882e-05,
+        "start_acceleration": 0.00018914985278062346,
+        "initial_speed_frontload": -0.0003438777696715503,
+        "vd": 0.0026071697086625153,
+        "descending_sync_curvature": 2.083540859287858e-05
+      },
+      "predicted_gap_at_baseline_window_witness": 0.01145319819098997
+    },
+    {
+      "factor": 0.5,
+      "physical_s": 1.5949653136652797,
+      "reference_s": 1.5892857142857142,
+      "material_tau": 0.4934504572341922,
+      "row": 6,
+      "radial_points": 23,
+      "minimum_actual_warm_gap": 0.010782855897374932,
+      "ap": -0.9780976604348691,
+      "q_lat_min": 0.988880516332244,
+      "full_angular_minimum_retained": true,
+      "nonlinear_solution": false,
+      "linear_predicted_minimum_on_baseline_window": 0.010561866825230455,
+      "linear_global_error_bound_observed": 0.0015881473087994893,
+      "contributions_at_baseline_window_witness": {
+        "actual_q1": 0.0001353502416713491,
+        "actual_q4": 0.0005386180118263639,
+        "actual_c6": -0.0005989157895188406,
+        "loop_curvature": -3.2868351546823374e-05,
+        "loop_radius": -0.000125308851282024,
+        "loop_speed": -7.6183214366685045e-06,
+        "terminal_peak_fraction": 7.70295078248657e-09,
+        "vu": -0.00030223898980649764,
+        "descending_turn_curvature": 4.766711271963941e-05,
+        "start_acceleration": 9.457492639031173e-05,
+        "initial_speed_frontload": -0.00017193888483577516,
+        "vd": 0.0013035848543312576,
+        "descending_sync_curvature": 1.041770429643929e-05
+      },
+      "predicted_gap_at_baseline_window_witness": 0.010561866825230455
+    }
+  ],
+  "new_nonlinear_solution": false
+}

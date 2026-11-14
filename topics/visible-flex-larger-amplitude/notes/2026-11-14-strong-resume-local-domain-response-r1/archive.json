@@ -1,0 +1,55 @@
+{
+  "status": "Completed original full 13-direction/33-radius/1280-angle diagnostic and saved-array window extraction.",
+  "original_point_response_array_not_archived": true,
+  "point_array": {
+    "file": "/workspace/scratch/ffc1334c1988/strong-work/local-domain-response-r1-point-responses.npz.gz",
+    "sha256": "ce5029c0cd8dc028a88f77f40e27c2401cb8a1b8084a709b6da59d002b8275c5",
+    "bytes": 3468078,
+    "shape": [
+      33,
+      1280,
+      13
+    ]
+  },
+  "reason": "Regenerable 3.47MB intermediate, source/complete directions/arguments/hash retained; local original remains in strong-work.",
+  "followup_r2_status": "Received SIGKILL (-9), cause not established; no result used from r2.",
+  "original_r1_source_recovered_byte_exact": true,
+  "r1_source_sha256": "d9dfbfe2c74c4a8bcf0cd9b2eee5728131bb7fdef13f764c88ad03ce6a18d4b0",
+  "files": [
+    {
+      "file": "notes/2026-11-14-strong-resume-local-domain-response-r1/local-domain-response-r1-exit.json",
+      "sha256": "f069fd18c6c06578387bfb905ef5ce206f97bfcd6012df5a5091d53bdbf16704",
+      "bytes": 80
+    },
+    {
+      "file": "notes/2026-11-14-strong-resume-local-domain-response-r1/local-domain-response-r1.json",
+      "sha256": "db00bfce09dc4577f66baf37fc193d65fb6d21a158d9972260d6df52f4189654",
+      "bytes": 152016
+    },
+    {
+      "file": "notes/2026-11-14-strong-resume-local-domain-response-r1/local-domain-response-r2-exit.json",
+      "sha256": "65e4383a07a65674c717fc8c486444d8484fdf1b3c6e9fc85993998e3f47917f",
+      "bytes": 82
+    },
+    {
+      "file": "notes/2026-11-14-strong-resume-local-domain-response-r1/local-domain-window-r1.json",
+      "sha256": "1b71f77848cd711c3cc889488483b3ba6babd95387973f6cf380d6358a765699",
+      "bytes": 4542
+    },
+    {
+      "file": "notes/2026-11-14-strong-resume-local-domain-response-r1/loop-margin325-actual-r3-plan.json",
+      "sha256": "7df69fc5089bbd63e27a67328f28a331f46361c434f5699e58b978dd3b70b238",
+      "bytes": 6213
+    },
+    {
+      "file": "notes/2026-11-14-strong-resume-local-domain-response-r1/reproduce-plan.json",
+      "sha256": "32569d69284633fee2ed03ae12a0a8f5271c251e9687a6b087ac69bf112a3695",
+      "bytes": 1907
+    },
+    {
+      "file": "notes/2026-11-14-strong-resume-local-domain-response-r1/window-reproduce-plan.json",
+      "sha256": "bd178ee9bed31a5240719d39c510dd78d287210af04c672bc2771d4ef66d955e",
+      "bytes": 250
+    }
+  ]
+}

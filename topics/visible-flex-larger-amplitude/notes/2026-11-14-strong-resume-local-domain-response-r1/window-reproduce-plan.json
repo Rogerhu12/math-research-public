@@ -1,0 +1,11 @@
+{
+  "cwd": "${RUNTIME_TOPIC}",
+  "command": [
+    "${PYTHON}",
+    "computations/strong_20261114_local_domain_window.py",
+    "--report",
+    "${OUT_DIR}/local-domain-response-r1.json",
+    "--out",
+    "${OUT_DIR}/local-domain-window-r1.json"
+  ]
+}

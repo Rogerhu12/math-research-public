@@ -21,7 +21,7 @@ B=/workspace/scratch/ffc1334c1988；R=B/math-research-public；T=R/topics/visibl
 唯一接受A仍M32/35参数/2590节点/1280角：RMS9.9224e−8、BC9.234e−13，完整mean metric6.733e−8、κ8.34551434。全核G=.2506381129；连续prefix D≥3.9767551573，幅度远未达标。
 13方向r3完整响应exit0/1505.47s，8列全半/后向门全过；7必要gz/13.65MB已推旧仓并随迁移。终端fraction相对差1.53035e−4近原2e−4门，增FD宽待真验证不松门。LP full/half/trust2/fixedsize/margin325均只是warm。
 全步margin325 r3完整新H尾576stage norm5214→.039257→2.0993e−9→2.3418915e−10<2e−9，H/J/snapshot已回，首请求audit=false。前缀三步alpha1/16、1/2048、1/512；collocation .236564→.227507→.227342→.226956，BC7.5173e−6，未接受。session66087在07:17后工具Ctrl-C130，supervisor无最终wait4；33恢复件hardlink/hash在B/strong-work/margin325-full-r3-recovery，不能伪造正常退出。
-**半步session98199于07:19:51启动**，日志strong-work/loop-margin325-half-actual-r1.log。由A将全部13方向精确缩半，原35参数/1280/门不变。真r3完整tail仅作初猜；原identity/全部Float64 bits通过，predictor成功，首norm .6172073。stop-file supervisor只控制自己持有子进程并保wait4。详见notes/2026-11-14-strong-resume-margin325-full-stall-and-half.{md,json}。
+半步session98199于07:19:51启动，日志strong-work/loop-margin325-half-actual-r1.log；07:38:45在首J第195/216批被SIGKILL，真实wait4 −9/峰498652KiB、外层137，无Newton试步，不算数学失败。27恢复件在strong-work/margin325-half-r1-recovery。由A将全部13方向精确缩半，原35参数/1280/门不变。真r3完整tail仅作初猜；原identity/全部Float64 bits通过，predictor成功，首norm .6172073。stop-file supervisor只控制自己持有子进程并保wait4。详见margin325-full-stall-and-half与half-prefix-sigkill笔记。**新session1828于07:42:39对本轮半步完整H做原full audit**，随后用原exact-audited-H/release-worker入口释放闲置Node、续同半步，不因外部终止缩步。
 旧snapshot8字段仅sourceSha256因多9诊断MJS改变，原源/physics/raw/layout同；新稳定树snapshot可正常复用。原Flow完整复现4失败块，障碍为s≈1.53–2.05的a′=−.976195下降，非loopκ峰。全13方向33×1280角局部暖场probe：A/全步/半步gap .0091446/.0107798/.0100150，坍塌发生于Newton试点；正在补精确失败区间。频5–8诊断不授权删模。
 接受序列driver：真接受→原fixed-view/fullmean→同g M40/1536+原比较→13响应；A prepare exit0/27SHA，无新M40解。四public实际计划在strong-work/publish-public-actual-start，未触发。全部已交源冻结。
 
@@ -38,10 +38,10 @@ B=/workspace/scratch/ffc1334c1988；R=B/math-research-public；T=R/topics/visibl
 R225准确32核G≈.8、Dcore2.690196、rho_min.305098。原入口同g M64/96/128 metric5.731e−5→1.984e−6→3.8304e−8，急turn高频增长，未闭合。R235实际II Schur/barrier完整证明已本地commit；84节点冻结profile/249有理接缝，同g冷M64/96/128 metric2.34557e−5→1.35400e−6→1.43005e−7，κ5.32068/Dproxy3.33570。
 扩到.9875另锁g，M128/192 metric7.84422e−6→1.08441e−7，Dproxy3.44732。双barrier真M192到.9955、κ7.16784/Dproxy3.45877；下一试点高129..192二jet×8.97而域正。9件已交包见geometry-work/migration-package-manifest.json。
 放开核4..M保前三的M48零端BVP失败；截断M192非低M真解。原生M128到.9945，151完整seed已保。新affine B(y−yref)=0、157nodes/386state全M128 BVP，完全同值int32 sparse省762.9MB；首J完但无Newton接受，adaptive到169后194.17s被SIGKILL−9，实峰2603436KiB。169完整checkpoint已保，geometry查实际资源/矩阵副本，不降门或称数学失败。
-root新λ=6/5缩全部32非恒定支持系数：准确rho_min=.16611758>0、G≈.96、coreκ6.01983；标量profile同而rho0/g全新。冷M64域失败；M96/128/192同新g metric4.93143e−5→6.77047e−6→1.34628e−7，Dproxy3.41324。**G=.96球被前缀遮挡**，最小样点距离.86910539，不能据核心当全闭见证。root-work/scaled-core-r1-*待归档，小球及球域barrier尚须实际求解。
+root新λ=6/5缩全部32非恒定支持系数：准确rho_min=.16611758>0、G≈.96、coreκ6.01983；标量profile同而rho0/g全新。冷M64域失败；M96/128/192同新g metric4.93143e−5→6.77047e−6→1.34628e−7，Dproxy3.41324。**G=.96球被前缀遮挡**，最小样点距离.86910539，不能据核心当全闭见证。R236与紧凑数据已本地归档。**root球barrier session65184**从core按全λ6/5核/M128/1536/K7/固定γ4实际设计新g，日志root-work/sphere-control-r2.log；当前未完。全部实际投影jet/polar见证正确使用，连续角及闭面仍未证。
 
 ## 接续
 
 持续半步/局部域响应、RK48/径向/全闭、M128 BVP内存修复；接受后立即原审计、锁g精化、全t几何并继续增幅。完整证明直接results，数值/失败如实notes；prepare不是科学成功。当前逐条本地commit，公开发布受上述真实审批阻塞，等待直接公开授权，不绕过。
 
-规则同步记录：2026-11-14T14:55:03+08:00 已读旧仓迁移差异d9b031786；全读新根README授权/14条，题README仅迁移提示改变；已读提交 480a4313c5ebc8b5c8800c1432d9d5aef8ec5946。
+规则同步记录：2026-11-14T07:41:42+00:00 实际只读pull --rebase成功；双README自480a4313c5ebc8b5c8800c1432d9d5aef8ec5946无变化；已读提交 add08fd0e2839e4d7cf095da3f7c5371f8918232。
