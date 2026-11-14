@@ -53,4 +53,4 @@ boundary_core继续有限a共同缺陷；normal_annihilator转有次数约束的
 
 ## 计算同步
 
-- **最近 CI pull 与规则核对：** 新来源图任务尚未运行；每次自动pull后比对两README，变化即保留输出并交当前根处理；成功核对的提交号写此行。
+- **最近 CI pull 与规则核对：** `6215cffc3912d3e6d1adca6739f8de2ec5cba482`（2026-11-14 12:39:54 UTC，实际 pull/rebase 成功，两 README 与任务源哈希一致）；R150 来源图运行 43595280823-1，真实结果见本次回执。

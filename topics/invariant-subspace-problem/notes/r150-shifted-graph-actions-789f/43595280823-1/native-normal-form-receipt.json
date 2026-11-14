@@ -1,0 +1,93 @@
+{
+  "format": "r150-native-normal-forms-v1",
+  "options": {
+    "out": "/home/runner/work/_temp/isp-r150-native-nf",
+    "seconds": 120,
+    "memoryMiB": 512,
+    "binary": "/home/runner/work/_temp/isp-r150-native-nf/native-normal-form",
+    "all": true,
+    "indices": null,
+    "targets": true,
+    "basisMode": "rref",
+    "generateOnly": false
+  },
+  "inputFile": "/home/runner/work/_temp/isp-r150-native-nf/normal-form-input.txt",
+  "sourceDataSHA256": "de719cecbe03b5255c202e5833ce647d550d51d99218fe0659d4f42eff018dc5",
+  "originalFixedDChecks": 3927,
+  "originalCommonDenominator": "23366320238786911411830138211362846399922176000",
+  "constantRowContents": [
+    "6191736422400",
+    "12383472844800",
+    "6191736422400",
+    "6191736422400",
+    "3095868211200",
+    "6191736422400",
+    "6191736422400",
+    "6191736422400",
+    "3095868211200",
+    "30958682112000",
+    "3095868211200",
+    "48372940800",
+    "48372940800",
+    "6191736422400",
+    "193491763200",
+    "154793410560",
+    "773967052800"
+  ],
+  "profileSHA256": "d5c1a753a3869a702a84d723a4fb7b68c778e19e2fc7d0a4e4b55fe95327a0b9",
+  "extraSourceProfileSHA256": "262a7b39030d59bcf9399975cfad2dcfc19ee91824e42c8712e45bce89f7b19e",
+  "inputSHA256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+  "inputBytes": 128145,
+  "sourceCount": 2195,
+  "targetCount": 9,
+  "allSources": true,
+  "cppSHA256": "5d9bc7b87900472b617a9845b735388efe7f2c2cbde534a0b574ffc625d1a471",
+  "runnerSHA256": "82972153559576cd09640c5b94de24603e5bc4a5b4019782dd4b703e76b35602",
+  "field": 31,
+  "components": 1034,
+  "status": "completed",
+  "started": "2026-11-14T12:31:58.184Z",
+  "binarySHA256": "0695d09f30899b3c8e01ea3208ec17b8ed2154163e921d18a694e3c685761f26",
+  "exitCode": 0,
+  "signal": null,
+  "finished": "2026-11-14T12:32:23.877Z",
+  "nativeStatistics": {
+    "status": "native-normal-forms-complete",
+    "sources": 2195,
+    "targets": 9,
+    "components": 1034,
+    "forwardOperations": 782976,
+    "backwardOperations": 1010703,
+    "normalOperations": 25305683,
+    "elapsedSeconds": 23.0293
+  },
+  "outputs": {
+    "forward.bin": {
+      "file": "/home/runner/work/_temp/isp-r150-native-nf/nf-forward.bin",
+      "bytes": 2378937,
+      "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+    },
+    "backward.bin": {
+      "file": "/home/runner/work/_temp/isp-r150-native-nf/nf-backward.bin",
+      "bytes": 3052119,
+      "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+    },
+    "reduction.bin": {
+      "file": "/home/runner/work/_temp/isp-r150-native-nf/nf-reduction.bin",
+      "bytes": 101244784,
+      "sha256": "e977b75f618f30d00fd4edca3bdcadba1e5553a956bf4d781ee45df0d15c1e8b"
+    },
+    "normal-forms.bin": {
+      "file": "/home/runner/work/_temp/isp-r150-native-nf/nf-normal-forms.bin",
+      "bytes": 32916190,
+      "sha256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840"
+    },
+    "normal-forms.sing": {
+      "file": "/home/runner/work/_temp/isp-r150-native-nf/nf-normal-forms.sing",
+      "bytes": 198349509,
+      "sha256": "a0c8833d4b25765f1aeb928ab203a456abcf6680a8fc0fdad152ee3706ed4007"
+    }
+  },
+  "sourceIdentity": "For each source or target, NF=raw-sum coefficient*s^exponent*RREFBasis[basis]. RREFBasis is obtained from the original unit prebasis by the recorded backward operations. The original unit prebasis has the unchanged R150PB31 source DAG.",
+  "storage": "Large generated matrices and traces are temporary runtime outputs. Publish only bounded compressed certificates or hashes with reproducible inputs."
+}
