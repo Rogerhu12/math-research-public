@@ -452,3 +452,7 @@ request12仅banddirection，入口0149e7f1…消费真band run的完整step/rhs/
 ### 2026-11-14 12:18 UTC — R252 complete physical-angle DN test and exact projection defects
 
 完整R252直接登记，全部原物理/core/scalar导数与增广配平、真实/仿射尾区别、有限差恒等式、正确均值及连续一致性证明均已写全。有限新测试不是原残差的等价预条件化，未改求解源；实际banddirection run43593855655/source8a764c65已success，artifact14113836291正在取回，接着按真方向/投影证据决定修改。
+
+### 2026-11-14 12:20 UTC — actual saved-direction projection diagnosis and next complete physical test
+
+公开run43593855655/source8a764c65真success，41.907s，artifact14113836291六件已完整取回并由81338496归档。实际P约1.14e17且小矩阵均衡不治；实际方向完整θ L2=4942、1..112仅7.10，到2^-40仍坏mid，无Taylor/新接受步。完整事实与输入输出SHA已写actual-direction-projection-and-physical-test-next note。依据实际高谱开始R252新φ有限边界全Jac/FD/真联解；原Rθ/缺项/均值/高谱继续如实审计，不只改容差或回溯次数。

@@ -19,13 +19,13 @@ run43582043166/free3的.996/.9975虽BVP接受却metric失败，.997875 Newton失
 
 ## 当前M112/T112主线
 
-run43587375529真circleprobe：M96增N不治域失败，M112/128/160所查48点全过；据此选最小112，代表点并非全域证书。真实细节见circle-probe-actual-and-M112-next note。
+真circleprobe选最小112；M96增N不治域失败，112/128/160代表点过不代全域证书，细节见circle-probe note。
 M112/T112/N2048是原有限Frenet方程，M96仅初猜且来源身份保留。v3共453=338物理+112core+3p，左341/右112；前三core固定、4..112释放。所有原非线性门留存，不用analytic lift或ready代理QR；request11仅换原线性矩阵解法。
 request08/run43588155190 prepare112真success：699节点全部node/mid/两RMS域过，min beta²=.005082723249；col=.007110595仍初猜。prepared SHA0f94dd88…（4220043B）；scalar原RHS0，完整453行FD Richardson9.51769e−10<原5e−5，参考明确为ready非真DN。精确SHA和输入见M112-complete-preflight-and-BC-response note/workflow。
 同run tailzero112真SUCCESS/artifact14111343237：1351.741789s、resid/fullD0、全338×112 J/577×224states/raw/audit；strict源码/config/capacity同prepare。response SHA6b4ff3e5…，J-second相对1.524e−12、ready差.035157884、chart condition3.856e20均保留，不冒稳定。完整七件身份见actual-T112-zero-anchor-and-J-audit note。
 request10/run43590496434/sourceeef66c97真failure，artifact14112675738已取回22件、bot归档小包。实际QR699/453首线性残差.006494337572/RHS=.913332499，最坏interval697/z110，方向max9658；17回溯全非finite、无接受步，随后966点invalid。core/p/左BC仍近roundoff，rightBC1.996e−7；小方块几十方向在浮点噪声，不能称仅3控制核。零锚strict复用一次、整个anchor/J同原实际，新H worker请求0。详见actual-M112-first-QR-failure-and-banded-next及zero-cache-boundary两note。
 request11/run43592195185/source4f0af15c真failure：完整带LU info0、共享指针、13.274s、RSS5717864KiB；原残差/RHS降至3.27382357e−4但方向max5832.77，normwise backward2.13e−18不代相对残差。一次校正变差未采用。17trial全非finite，α=2^-16仍52坏node/122mid/112右BC；无接受步，966插值再invalid。真零锚复用1、新H request0。26件artifact14113206288已取回，publisher漏lane已修，25件限额内补归档。详见actual-complete-band-LU-result-and-direction-next note。
-request12/run43593855655/source8a764c65，banddirection已真SUCCESS，artifact14113836291正在取回。入口SHA0149e7f1…，真step/rhs/699warm/anchor/旧Uend逐SHA绑定，原ODE方向complex/BC实Jac；α至2^-40仅诊断，完整P/Qs/Qr/Qc/Qp/rightBC/θ谱，不重建全Jac/尾、不改原门。尚无新接受场；闭包+R249复用complete4链已接。
+request12/run43593855655/source8a764c65真SUCCESS，artifact14113836291六件已取回且81338496归档。实际P cond1.14478e17，均衡1.50380e17；真方向全θ L2=4942/保留112仅7.10，比例.0014376。α到2^-40仍坏mid697，无完整finite/Taylor；独立Jd残差8.9888e−5 vs带矩阵2.3279e−6。未新Jac/尾/接受步。决定据R252实施明确新φ测试，同时记旧Rθ/缺项/均值/全角谱，源码在写；详见actual-direction-projection-and-physical-test-next note。
 
 ## 尾、接缝、同g身份
 
