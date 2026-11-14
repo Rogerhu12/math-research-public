@@ -203,3 +203,5 @@
 - [R99：真实第四切向越过P1字符核](results/R99-fourth-tangents-transverse-to-the-P1-character.md) — 完整相位Jacobi支付t1外槽的两列准确零；公开actual43640085842另给τ_p1t1与h-shape(k)两列的有理扩展值非零（归一mod2054146430/721224600）。只消费四个新原式×旧15行，故两真实第四方向各自不属R_*，不称二者商独立。保明确泛函扩展、基准与偶项；不授负成本或完整P0相消。
 
 - [R100：D25的c⁸周期系数与三个真实零端历史](results/R100-pure-tail-c8-period-and-three-true-histories.md) — m8完整端势将c8 period化为p/ell/zeta的真实短action，三者ODE和零端来自同一几何/完整M0；无需T0。actual43640085842的34个差式、23真histories、原DAG/完整参数族fresh回代及R97两个primitive导数全0。31项系数变19项短式；非零形式不授周期非零/同号，所有锚和range门仍保。
+
+- [R101：有限复制支付第四字符的两号成本](results/R101-finite-replication-and-signed-fourth-character-costs.md) — 真M0第三环L的n次复制有T=nτ/V=nv；零低阶词Z准确V=E(t)+n(2v+tB_Pτ)，未知偶基准保留。固定小二阶族重复实现任意有限t且共同物理I不变；只对有限V+B_E8(W)应用R96，给同一合法C∞三矩圆与固定查询泛函，再由两号和介值匹配任意实标量。可消R98字符的一维P0+NP1查询，不解完整函数/ruling/嵌入厚度或有限等距族。
