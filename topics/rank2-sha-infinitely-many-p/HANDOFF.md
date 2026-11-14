@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：41dd5ae2d62b196f58523c93c381be75f6a20faa；2026-11-14 07:33:59 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：b226192b43d3d676725ec9561adaec5a1f549f13；2026-11-14 07:41:09 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。02776e4cd9e08c608f6c806bd1095b3d86453eb4持续执行规则、41bd74e09ab69b38abb61d66c4339a12f0fb7de5日志规则已读；只写课题log，每轮≤5行，不写/归档根LOG。
@@ -14,9 +14,9 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–449已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
+R1–363、R365–450已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
 当前路径`/workspace/scratch/4fe3fb9f2a50/math-research-public`，main部分/稀疏克隆，仅检出本课题。迁入快照含旧R1–436；旧库未推R437、R438及两批完整计算已搬入并发布，旧路径只读历史。
-新库R437推480a4313c5eb、R438推76936693f5a0、R439推f7fa9bee053b9、R440推877b1b8e8ad8、R441推6419030dca0d。R443已推cc318df5e1ea、R442已推c4e6b08b575c；R445已推ccd9400debad；R444已推322f2a888bd1、R446已推b7841bc1e3a6，R448已推d3b46744f179；R447已推0574420e8ec8；R449在本次登记，R450正在写。theta续原参考测试及两管；literature付R450保U的原S/参考抽回；deep付R449相对首提升与carry精确序列。R444原Padé未闭合笔记保留，其新完整首像吸收结果已登记。
+新库R437推480a4313c5eb、R438推76936693f5a0、R439推f7fa9bee053b9、R440推877b1b8e8ad8、R441推6419030dca0d。R443已推cc318df5e1ea、R442已推c4e6b08b575c；R445已推ccd9400debad；R444已推322f2a888bd1、R446已推b7841bc1e3a6，R448已推d3b46744f179；R447已推0574420e8ec8；R449已推f32cf015bf32；R450在本次登记，R451完整稿待紧接登记、R452正在写。theta续D+原中央与两管；literature付R452真实Uunit来源抽回；deep续真正相对p²缺陷和原连接。R444原Padé未闭合笔记保留，其新完整首像吸收结果已登记。
 
 ## 固定对象、完整标准与可恢复检查点
 
@@ -44,15 +44,17 @@ R447给K1 principal四格与原〈S,H3,H5〉的准确二维交域。固定degree
 
 R436辅助U72全四谱及真实四质量∓1/(12096b)、原尺度log在归档；不认作T倍数或新增rank2对象。
 
+R450付Φ0的七条总degree6矩T_j=∫(X/Ω)^(6−j)(U/Ω)^j，j1..6准确张成全Y型零六维格；det新增因子4357/501843101759被现有p≡7mod64排除。由U整除的固定hS/h3/h5完整抽回原S/H3/H5，所有周期保留。hS在U=280X的值为单位倍X6；原D_n全部法向五阶已付，logc项整条消去，非log系数αS=−480763982085139011763/107052528108059628480为当前ray单位，所以每正偶n仍v5n。原JS′=C_S,n+Coutside，不删补域。
+
+RhS把每个U^j系数除以1−λ²κ^(2j)，仍整、与hS相差p²。完整同来源两层carry在规范A/κ²上用RhS准确返回λ²JS′；R445运输的内部斜管值仍v5n，原Q/c均unit、v(A)=2，完整carry补域继续保。R451真D+原行和U环带稿已落盘；固定j1..6三态列均不含精确S，勿再试仅固定j的degree6原抽回。
+
 ## 当前惰性原矩阵与其余开放线
 
-R425/428/434将两完整中央化为唯一真实Hensel解并恢复固定全局t高轴：u*=2a/99+3χ/176、v*=−26a/315+321χ/1120 modp，全部modp³含实际Miller常数/q_p(2)。ℓ1方阵det=A0+u*A1；换参高尾只乘单位，Δ=0的η不添H项，但H仍进中央第二/第三位。R438小K惰性三权、对角全部cross/carry及T=S(B38+54N)的消元严格等价原两标量，不添独立零条件。
+R425/428/434两完整中央的唯一真实Hensel参数、Miller常数/q_p(2)、高轴u/v和全部三位基准见notes/2026-11-14-frontier-through-r449.md。原t→w高尾在完整中央保留，ℓ1 Schur/carry不删第三位；R438三权cross行严格等价原两标量。R440最大可乘H38来源域、真实三边界及单位剪切亦全保，不把局部单位当全C2作用。
 
-R440付H38=T/S最大可乘域S W_(D−1,J)（J≤15,p饱和），真实角因子全保；只有n≡11mod12整块无损。新增核商=imM∩kerw，三边界长度≤m+2，H单位剪切19a/17；J满射时S乘后L−29单位/28p/14自由行，无新p²，未自动保整个imM/C2。R444笔记将同一τ写为固定三层Padé相邻子式比，实际Schur因子D/(D+U*E)；未证指定p约化非零，角导数的真实V极须加D+3清除，不是同方阵闭合。
+R444/449的同预算矩阵J=(JA,JB)、M=(JA,pJB)始终保两条13行、P134/U0和真首次提升。令C=cokerJbar、H=im(B→C)、G=cokerJAbar，则0→H→C→G→0，δA=πβJ；原K2red=kerδA，真正可见G2=C2(J)/Hbar。d2的H投影=βJ，在K2red(J)上等于相对d2投G2。全部p²A0修正通过G2；相对J全Smith≤p时修正全吸收，即使γ>0与真carry P2并存。原Smith为L−26−γ单位、26+γ−h个p、h个p²。要有新机制须相对J已有p²且C2未被carry覆盖，原两中央基准不变；纯forcing扩张不能越过该界。
 
-R444令γ=L−26−rank Mbar，完整实际p²A0修正经G=I13/imMbar→C2。γ=0时存在同一原来源基变换I+p²C吸收全修正，所有真P2/λ2的Miller转置权逐项零；包括ℓ1 carry掉秩线的真一维P2和14维C2，不是空核理由。仍保原两中央/第三位基准，后续必须有真正γ>0或直接控制完整η；不能只展开同一forcing。
-
-R449对同一J=(JA,JB)、M=(JA,pJB)保两条13行，令C=cokerJbar、H=im(B→C)、G=cokerJAbar；0→H→C→G→0，δA=πβJ。原K2red=kerδA，G2=C2(J)/Hbar；原d2的H投影=βJ，在K2red(J)上等于相对d2投G2。因此相对J全Smith≤p时全部Miller修正仍吸收，即使γ>0与carry真P2并存；原Smith为L−26−γ单位、26+γ−h个p、h个p²。真可见机制须相对J已有p²且其C2未被carry覆盖，完整中央基准仍保。
+R444先行Padé笔记未完成：τ为固定原三层相邻子式比、Schur=D/(D+U*E)；指定p约化非零仍开，角导数V极须D+3清除，不是同方阵闭合。
 
 两批本地计算全部完成，notes/2026-11-14-local-critical-computations-complete.md及两个同前缀输出目录均已发布。新增687加旧436成D2–10/J0–4完整1123窗，p3623十二窗也全满秩（一窗重合）；仅有限原M的26p、13自由C2/P2=0证书，无长计算在跑，不扩大扫描。
 

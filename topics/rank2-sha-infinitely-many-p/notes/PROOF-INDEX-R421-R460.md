@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R450：第六阶伴随矩满秩与含U的原算术抽回](../results/R450-original-sixth-companion-moments-and-exact-arithmetic-extraction.md)：六条正U次数矩在现有ray整满秩，固定U整除测试完整抽回S及两真rank0参考；全法向五阶给同D_n值v5n。有限整逆测试将原JS′准确写成保U的同来源两层carry，内部非零斜管与完整补域均保留。
+
 - [R449：相对第二余核与完整carry精确序列](../results/R449-relative-second-cokernel-and-complete-carry-exact-sequences.md)：同一J/M的真第二核、可见修正及d2经两条13行的真实像精确比较；G2=C2(J)/Hbar，原第三核由相对d2投影读取。相对Smith≤p时即使首像缺口与carry核并存仍全吸收，原p²因子数和来源均准确区分。
 
 - [R447：两条原参考交域与固定十八次测试](../results/R447-original-two-reference-intersection-and-fixed-degree18-tests.md)：K1四维principal格与原S/H3/H5格的交域准确二维；固定degree18整测试分别抽回H3−840bS、H5−672bS，原K0两行均为−1008bJS。矩阵det1、周期和真实rank0质量全保，未知参考导数未删。
