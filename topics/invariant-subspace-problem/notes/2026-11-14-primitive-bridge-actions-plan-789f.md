@@ -45,3 +45,7 @@ topics/invariant-subspace-problem/notes/primitive-bridge-actions-789f/<run_id>-<
 仓库中的发布回执记录最后一次 `ready_to_push` 和全部同步检查；推送成功后，最终 artifact 中的同名回执另记 `published` 与实际提交号，避免为自包含提交号制造循环提交。结果是否数学成功始终以独立 `receipt.json` 的完整事件判据为准。
 
 主研究会话继续依根 README 至少每小时拉取和核对新规。计算本身保持触发提交的固定源码；若规则期间变化，自动写回的指纹检查不会绕过它。
+
+## 实际启动记录
+
+源提交`73eb10623d1b4301431aab5586c4f1394642e3ee`的push已启动运行[43575194207](https://github.com/Rogerhu12/math-research-public/actions/runs/43575194207)，创建时间2026-11-14 08:18:31 UTC。当前记录为in_progress；尚未读取到完整双目标证书，不提前登记主参数区正性。

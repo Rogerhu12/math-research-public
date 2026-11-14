@@ -12,7 +12,7 @@ $$
 w(0)=0,\quad w(y)=\alpha_{v_2(y)},\quad
 \alpha_j=\exp\!\left(-\frac{280}{3}16^j+90\,8^j-300\,2^j+\frac{850}{3}\right).
 $$
-A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=B(H)，没有非平凡约化子空间。**普通非零真闭不变子空间是否存在仍未知。** 找到这样的空间只排除此候选；证明它不存在才给ISP否定答案。
+A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=B(H)，没有非平凡约化子空间。**普通非零真闭不变子空间是否存在仍未知。** 排除此候选不算完成ISP。
 
 ## 共同适用边界
 
@@ -61,7 +61,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 **余正常接口。** 固定正常矩仅c0/o(m^(k/2))；carry×聚合费须趋零，非UHF强单位不付未知限制。真ann迫q_m↓0；旧周期滤波、平方选择器、张量、热球、纠缠及原预算保归档。
 
-[R289](results/R289-finite-rank-tail-entropy-density-and-compatible-arbitrarily-slow-rank-two-chains.md)付有限秩原态S(ν_m)=o(m)；其低秩字符串例现被[R291](results/R291-normal-moment-module-independence-and-exponential-support-rank-growth.md)排除。R291从真实零式得q个头矩在C(z)上独立，任意M位切分operator-Schmidt秩≥2^M，正连续块/远尾rank≥ceil(2^(M/2))。[有限矩距离/谱质量](results/R291-appendix-fixed-head-finite-moment-distance-and-spectral-mass.md)现给每cut共同Γ>0及谱尾≥Γ²/4，但保实际σmin(H)、U⁻¹及全部来源费；跨层统一预算仍缺，不能据此推出熵密度矛盾。
+[R289](results/R289-finite-rank-tail-entropy-density-and-compatible-arbitrarily-slow-rank-two-chains.md)付有限秩原态S(ν_m)=o(m)；其低秩字符串例现被[R291](results/R291-normal-moment-module-independence-and-exponential-support-rank-growth.md)排除。R291从真实零式得q个头矩在C(z)上独立，任意M位切分operator-Schmidt秩≥2^M，正连续块/远尾rank≥ceil(2^(M/2))。[有限矩距离/谱质量](results/R291-appendix-fixed-head-finite-moment-distance-and-spectral-mass.md)现给每cut共同Γ>0及谱尾≥Γ²/4，但保实际σmin(H)、U⁻¹及全部来源费；[固定D归一化矩](results/R291-appendix-normalized-tail-moments-and-explicit-spectral-mass.md)已给明确正常阈值与carry公式；仍保U⁻¹/真实进位损失，不能推出熵矛盾。
 
 [R287 非周期来源](results/R287-two-sided-moving-character-limits-and-nonperiodic-disk-source-budget.md)付R_n/伴随的同角色强近似、R_n²→I且N_nR_n²→−I/2仅WOT。全部单位盘逐位平方积在Σ|1−z_j|≤b·2^(4m)、b<770/64内真空比指数趋零；全部κ_m、超预算及非此族仍开。
 

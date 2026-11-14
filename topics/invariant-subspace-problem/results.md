@@ -671,3 +671,7 @@
 ### R291 附录：固定头的有限原矩距离证书与真实谱尾质量
 
 [完整证明](results/R291-appendix-fixed-head-finite-moment-distance-and-spectral-mass.md)把低算子Schmidt秩k<q化为deg P≤qk+q−1的真实多项式零式，原换基U和伴随矩阵给Trρ(pF)=Tr(ρ−σ)P(T)cF。Mahler系数界及可逆有限原幂矩阵给对所有此类σ共同的显式Γ>0；真实谱截断遂给尾/头谱质量≥Γ²/4。原有限秩相容链另有ν_m逆平方根至少sqrt((ceil(2^(m/2))−1)/δ_m)。没有隐藏U⁻¹、有限矩最小奇异值、正常阈值或原幂范数比，跨层一致性及一般见证仍开。
+
+### R291 附录：固定次数的真实归一化尾矩与显式非纯谱质量
+
+[完整证明](results/R291-appendix-normalized-tail-moments-and-explicit-spectral-mass.md)用原归一化二进制幂和Cayley右测试，得到明确三角Kronecker极限及非二幂首主块逆界7^L；carry误差和正常迹距离给固定D的一致δ阈值。原矩最小奇异值遂至少||N_j^(qD)||/(2·7^L)，所有进位因子用η的准确整数指数写出。q=2时尾非纯质量至少[η_j³η_(j+1)/(62720(1+||Z_j||))]²；真实商费用保留，极小下界不加强旧δ速率，也不与熵o(m)矛盾。
