@@ -307,3 +307,5 @@ C²准确g=ds²+a²dθ²且Tz在整个连通带恒零时，混合导数迫Ts=0�
 互反bulk最高P3准确为零，但8个二阶修正已唯一被M条件占用。须在同一桥上求整个Ceff=P2−DP3 A⁻¹Mbridge，并保持真实frame/scalar端约束；函数零点和准确满射尚无，条件IFT不作已构造。新的固定k、改1/(2h)并保omega端jet的桥族可给实际可用方向，但位移须以同一新P的R45四块处理；同profile常态ruling门独立保留。
 
 entry_paired_audit已部署：固定选中g/162数值，入口ell=.162新场，完整端口/五独立精化/原始对照，零优化。接实际后分辨leading截断/支持区与body/patch缺口，不能因人工Jacobian通过就重复求解。后续中段B7有明确帽高线性自由度，须先核准确支持/容量和新入口真实h，再决定height-feasible初始化或线性约束。
+
+固定原函数实际审计已完成，详notes/fixed-height-primitive-actual-audit-20261114.md。后续所有真实h/球/镜合门均用查询无关原函数；原稀疏h误差已隔离，不把新稀疏上升当几何抬高。接entry run43622984979的新场零步输出，再判断中段高度控制及入口支持/首项是否足够。

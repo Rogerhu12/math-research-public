@@ -6,7 +6,7 @@
 
 闭连通C²嵌入族Ft，t在C²拓扑连续，同一固定g；固定材料H有内点且diamF0(H)≥.2D；不对齐整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，并同g/物理状态/时间精化。D为完整F0直径；δE可0但如实报；完整网格<5MB，明确数值与准确存在差距。达标后继续.5D或更强存在。现无合格完整候选。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`0e2fb1544b63567a327e5bbe67ed135bb5eeb6d6`。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`d87eea597af17abadb7c2b4f46f5d14f3c8ef4cc`。
 - 每次实际pull --rebase核双README，变则只读diff立即执行；至少每小时pull。每结论立即提交推送；NFF立即rebase、核规则、再推至成功，不强推。
 - 本公开main/Actions已授权。实际几何/ODE/积分/优化/完整研究编译只在本公开Actions；本地仅纸面代数、人工开发核、源码/已公开输出分析。PAT仅瞬时CLI/env，不写文件/提交/日志。
 - 私有17:41:10 UTC实际pull至`6a16feab8e6c164b260239abede559e93e44aa3d`；根README无差，本题私有README仍不存在，公开题规则由公开pull核。QUEUE唯一行仍本会话进行中；下一pull不晚于18:41 UTC。私有研究不公开。
@@ -30,9 +30,9 @@ R60用原c0准确角平均固定b0，加9个两端O3速度基/同一z积分，15
 
 **高度评价缺陷已隔离：**旧四点[0,tc,tf,L]GL8算h=.00738175828，密121层GL8为.05223073559；查询列表改变长区间积分划分。同h尾对照会消共同前缀误差，不能认证帽高。dense GL8→12 X差4.52e−13只是数值精化。新helper仅替固定b0原函数：固定准确结构knots+120panel前缀/查询局部积分，保物理身份及所有当前参数Jac；原9个高度基积分本来已查询无关。
 
-**run43621210198/source64d69df6a828219d3879c363fc7d239a7bdea928已完成fixed_height_primitive。** job132527134119。helper16d7200e/auditor824f0cda已全文/人工全main核；钉selected和原c0字节，strict loader完整重放并固定g；保旧/新四点与密网，分别GL8→12、120→240panel。零优化，源/旧输出不改。实际主454636B SHA919b2d9a...已核3输出/同92来源映射；新稀密h差2.78e−17，h=.05223073558726739，GL/partition仅X约5.3e−13、其余5jet/metric0。细几何失败未改善；source独占完整审计稿。
+**固定高度原函数实际审计已发布**：[完整来源与精化](notes/fixed-height-primitive-actual-audit-20261114.md)。run43621210198/source64d69df6，92源/3输出和严格167→162回放均核，物理canonical/g/系数未变。主454636B SHA919b2d9a…；新稀密h差2.78e−17，共同h=.05223073558726739。GL8→12、133→253panel仅X约5.5e−13，其余5jet/metric0；原metric/κ/负z/低h失败未改善。helper人工Jac差分仅末位微差，未说字节相同或区间认证。
 
-入口repair/audit-only已root/source全文及22源人工全main核并部署entry_paired_audit；core8f09d96a/auditor7c2329f4均冻结。固定当前g和162原selected数值，不裁剪/不优化、不改B。支持ell=81/500=.162，plateau .054；扣原c0低Taylor，u/v/height自由项加W2/W5/W4锁u5/v8/b7，与必要v7/b6成套。高度加权基的共同原函数和Jac一起变，不能沿用“参数Jac不变”。入口外t≥.198所有位置导数不变，X仅同一竖直常移，故不会假称修复尾patch。新物理场身份明确变化。
+入口audit-only run43622984979/sourceac8ca043已运行；root/source全文及22源人工全main核，lane entry_paired_audit。core8f09d96a/auditor7c2329f4均冻结。固定当前g和162原selected数值，不裁剪/不优化、不改B。支持ell=81/500=.162，plateau .054；扣原c0低Taylor，u/v/height自由项加W2/W5/W4锁u5/v8/b7，与必要v7/b6成套。高度加权基的共同原函数和Jac一起变，不能沿用“参数Jac不变”。入口外t≥.198所有位置导数不变，X仅同一竖直常移，故不会假称修复尾patch。新物理场身份明确变化。
 
 R64首片五次v不能含准确v7只排特定解析有限类，不授1e−6下界。R63水平Tz恒0非圆只能直柱，空间v必须保留。R57/R59/R61的直接metric/中心/投影门都是必要或条件重构，不能由逐圈点拼成闭面。
 
@@ -54,4 +54,4 @@ R62互反±1逆history但余Jpair，真实桥有N²作用。R65双因子/Gronwal
 
 ## 6. 立即行动
 
-接height实际回执全来源/状态/共同原函数审计→全文读/部署selected固定g入口audit-only→依据真实metric/κ/高度设计下一有界问题。发布R68及已读core输运纸稿，继续真实桥控制/新profile必要门。私有18:41前pull/规则核/保持进行中。16:58曾读两相关公开H，均无可借完整达标族；私有研究不用于公开。任何局部门或阶段结果都不是本题收尾。
+接entry实际回执核同g/新场身份及metric/κ/高度，设计下一有界问题。发布已读中段高度/core输运纸稿，继续真实桥控制/新profile必要门。私有18:41前pull/规则核/保持进行中。16:58曾读两相关公开H，均无可借完整达标族；私有研究不用于公开。任何局部门或阶段结果都不是本题收尾。
