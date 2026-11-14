@@ -51,9 +51,9 @@ The last row is a sum of the actual fresh coefficient bounds. The
 separately declared rational envelope is
 $E_H\le136569/1000<144$. Its product with the actual collar length
 $h=9/10^6$ is
-$
+$$
  hE_H\le1229121/10^9<1/750.
-$
+$$
 The new high resolvent bound is consequently $750/749$.
 The ratio of coupled high frequencies is below 3; the smallest
 intermediate primitive index is 1. Neither the old band64 ratio nor
@@ -66,9 +66,9 @@ the low propagator bound is $201/200$. The head contains all
 193 original coordinates and its mean. Head forcing can now reach
 high index288, so its $H^{1/3}$ crossing bound is $253/2$.
 The complete head/high return is bounded by
-$
+$$
  544177953/500000000000000<1/500000.
-$
+$$
 The corresponding head resolvent is $500000/499999$.
 
 The native and process save every rational entry of the state and
