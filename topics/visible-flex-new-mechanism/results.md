@@ -267,3 +267,5 @@
 - [R132：完整纯尾导数成本与真实新增商至多七维](results/R132-complete-pure-derivative-costs-and-finite-tail-quotient-bound.md) — actual43652134080/source6e2f99ce完成1901个新pure根、885个新N响应和全部矩阵补项，完整packet差零；raw系数商24/even13。真实IBP不改profile次数，配R85/R88尾端势和R130真实span，真实成本投影落45维H，模31维响应先≤14；逐权再得只有w−1/0/1可增≤1/5/1，故实际新商≤7，偶≤5。完整gz1.09MB保全部原式，14.668s/RSS315.223MiB；未认上界取得、成本符号或mixed支付，直接接完整packet水平IBP。
 
 - [R134：完整第四成本的加速度层只由已发v4决定](results/R134-acceleration-layer-from-complete-local-v4.md) — m2及原N2=Pacc都是速度二次，故B_m2N2只进入速度四次，八矩规范化也不改变加速度层。R129的三Abar和两H完整两mode系数只须已发v4原根与真实X/Y状态微分；R130使这些状态值及独立Laurent/log系数都属真实U4。下一仅消费五族并检新权−2块，不重编N响应/forcing；Q2/Q4的完整N贡献仍保，不授新方向双向可达或ruling。
+
+- [R133：完整m8纯尾像恰31维，既有四块的整个幂尾周期准确为零](results/R133-complete-m8-pure-cost-range-and-exact-tail-payment.md) — actual43653293263对已发完整packet作真水平IBP，519个Q2及490个L4正规系数全属31维响应T，全部P/A/R原差零，真实r<25项自然消失。R124+R130严格给Π8(U4)=T，偶像15、额外商0。R116既有同一四块C已付15尾查询，现C∈U4且反射像在evenT，查询同构立即给整Π8V_C(c,r)≡0，无新Brouwer或几何计算。1.613s/RSS83.125MiB，完整证书483512B；不推广通用pure、mixed、ruling或闭嵌入。

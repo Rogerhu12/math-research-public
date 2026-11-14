@@ -50,7 +50,7 @@ R116完整m8响应288=287新+1复用，true pure像T秩31/偶15。R123静态raw�
 
 R132 actual43652134080/source6e2f99ce完整计算1901新pure v根、885新N响应及18Δ2，所有P=A·旧列+R准确差零。raw商24/even13，完整degree≤33结合端势/逐权先给真实商≤7/even5；后继IBP已确定实际商为零。完整gz1089774B/68a764d0，main20157415、receipt192a945b。
 
-**IBP actual43653293263/source2f0add61已complete**：源2347633b保全部P/A/R边界恒等式，Q2=519、L4=490共1009正规packet，全部余项准确0（含148加速度二次、168area、174速度四次）。全部原P实际min_r25/maxdegree33，无裁剪；4387非零原系数、45行。1.612911694s/RSS83.125MiB，0 profile/0 response formula，6toy全过。由R124/R129/R130严格Π8(U4)=T，真实pure秩31/偶15、额外商0，不能外推完整mixed。证书483512B/a62173b3（raw4472950B/3e0b01e2），main15625B/3711ccef、receipt28ecf527；R133正文由tail_cost紧接登记。
+**IBP actual43653293263/source2f0add61已complete**：源2347633b保全部P/A/R边界恒等式，Q2=519、L4=490共1009正规packet，全部余项准确0（含148加速度二次、168area、174速度四次）。全部原P实际min_r25/maxdegree33，无裁剪；4387非零原系数、45行。1.612911694s/RSS83.125MiB，0 profile/0 response formula，6toy全过。由R124/R129/R130严格Π8(U4)=T，真实pure秩31/偶15、额外商0，不能外推完整mixed。证书483512B/a62173b3（raw4472950B/3e0b01e2），main15625B/3711ccef、receipt28ecf527；R133已登记；R116同一四块C原15尾查询为0，现C∈U4且像为evenT，查询在此同构，故整个Π8V_C(c,r)≡0，保全部桥/基准，无新求根。
 
 当前并行两项仅固定70几何run43653520539/sourceaa93b657与N⁴G新request。R134已登记：三Abar/两H完整两mode只须已发v4和真实状态微分，N2只进入四次速度块；R130授这些系数在真实U4。literature准备最小五族原DAG消费，首测权−2的R8+RN³G，不编N/Q4或旧响应。
 
