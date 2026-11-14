@@ -311,3 +311,5 @@ entry_paired_audit已部署：固定选中g/162数值，入口ell=.162新场，�
 固定原函数实际审计已完成，详notes/fixed-height-primitive-actual-audit-20261114.md。后续所有真实h/球/镜合门均用查询无关原函数；原稀疏h误差已隔离，不把新稀疏上升当几何抬高。接entry run43622984979的新场零步输出，再判断中段高度控制及入口支持/首项是否足够。
 
 中段高度方向和全局线性h约束已具备准确接口，详notes/entry-free-middle-height-control-20261114.md。entry实际h到达后核单列容量，若采取height-feasible初值须保存新的准确参数身份、公共原函数及全部实际E/F/曲率/球范围；不能将高度可达当等距/厚度可行。
+
+核心B=.36/.37独立输运方案已明确，详notes/elliptic-core-design-coefficient-transport-20261114.md。它可能改善核心曲率和R66点对高度门，但完整strip更紧，所有角场/seed/g/固定b0均换身份；当前先读entry固定旧g结果，再决定是否实行这一新设计，不把更圆核心单项纸面优势当完整可行。
