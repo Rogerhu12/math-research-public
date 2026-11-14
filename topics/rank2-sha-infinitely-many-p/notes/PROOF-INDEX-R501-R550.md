@@ -78,3 +78,5 @@
 
 
 - [R531：两套纯伴随框架、真实carry与原Y/W权](../results/R531-hidden-two-frame-native-central-carry.md)：C/F与D/E完整核及逐E次数unit逆返回整个(Y,W,W′,G)，原观察权不移动；固定q5=0使原五深网格的中央、质量及两差准确v=n。所有log项与有限质量多项式完整保留，实际纤维补域仍须控制。
+
+- [R532：原J/A5全框架与准确秩二来源](../results/R532-original-j-a5-full-frame-and-rank-two-source.md)：原六轴正交框架及所有whole核心付清，实际J/A5推前准确分解成两个原整张量，混合矩与原Y系数全显式；J、A5两个边际虽零，联合秩为二。Kunit逆及六域小管完整保留，旧W六项不被消去。

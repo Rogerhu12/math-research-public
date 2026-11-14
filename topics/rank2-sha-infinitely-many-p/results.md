@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R532：原J/A5全框架与准确秩二来源](results/R532-original-j-a5-full-frame-and-rank-two-source.md)：原六轴正交框架及所有whole核心付清，实际J/A5推前准确分解成两个原整张量，混合矩与原Y系数全显式；J、A5两个边际虽零，联合秩为二。Kunit逆及六域小管完整保留，旧W六项不被消去。
+
 - [R531：两套纯伴随框架、真实carry与原Y/W权](results/R531-hidden-two-frame-native-central-carry.md)：C/F与D/E完整核及逐E次数unit逆返回整个(Y,W,W′,G)，原观察权不移动；固定q5=0使原五深网格的中央、质量及两差准确v=n。所有log项与有限质量多项式完整保留，实际纤维补域仍须控制。
 
 - [R530：p除分级连接、全目标整共轭与混权第二精度](results/R530-divided-graded-connection-full-integral-gauge-and-mixed-second-precision.md)：真实来源和完整目标两端均支付Fermat商整性，同一p²左右提升得到完整混权配对；全部Gaussian交换子/进位与原单位高尾保留。可统一移位使来源可逆，并在固定精度用有界整数替代；只对声明的B或conductor·B矩阵，不免费扩大原A来源。

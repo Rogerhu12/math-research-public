@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文持续推进，不等阶段确认。**
 
 - 旧库首次全文读根及课题README（含全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：ed42f6c2bf3406f9c745491d7a50bd1289c71f22；2026-11-14 15:26:46 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：4052a323236ef779ca606f6d85a5456c93f8fa09；2026-11-14 15:27:24 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 现仅在Rogerhu12/math-research-public工作。每次pull后及至少每小时核两README差异；有变立即执行。规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13用公开库Actions，旧runner/ci-queue停用。
 - main逐条commit/push已授权；禁强推/改写已发表历史。非快进立即pull --rebase重推；无执行环境时API用expected_sha/force=false，拒绝立即读新头核规后追加，不冒称git pull。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。仅写本课题log、每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
@@ -14,9 +14,9 @@
 
 ## 发布、正在用的文件与分工
 
-R1–363、R365–531已登记；R364仍开。R529=4c7d3db5，R530=7cd6a31e，R531本次登记。全部证明、脚本和原量词由results及分段索引导航。R501原证书已恢复；R502公开Actions run43596695716/job132452617972（来源1dafbfa7，p239/D40/81行）已成功，原生JSON/日志在da54025b，不需重跑。
+R1–363、R365–532已登记；R364仍开。R529=4c7d3db5，R530=7cd6a31e，R531=ac8e6b1e，R532本次登记。全部证明、脚本和原量词由results及分段索引导航。R501原证书已恢复；R502公开Actions run43596695716/job132452617972（来源1dafbfa7，p239/D40/81行）已成功，原生JSON/日志在da54025b，不需重跑。
 最新完整接口：[R531之前HANDOFF](notes/2026-11-14-frontier-before-r531.md)、[完整open](notes/2026-11-14-open-before-r531.md)、[完整旧结论索引](notes/2026-11-14-results-index-before-r531.md)；各自保前轮归档链。压缩不关闭旧支线。活文件为HANDOFF/open/results/log、PROOF-INDEX-R501-R550及各R正文。
-root统一元数据及逐条发布，代理仅建proof/script/data blobs。R532完整稿已读，仅显示式修正x=(K−J)/(2+ω)后发布；R534完整稿已交，支付跨s双接触缺口后发布。theta续原Y/W不动的真实carry/纤维补偿；literature续R535三Norm3轴Hesse全来源与原Kunit/R3deep核；deep续原三层α/β及forcing。root续同源联合/真核；R533尚未形成完整新结论。结论随到随推。
+root统一元数据及逐条发布，代理仅建proof/script/data blobs。R532已修正唯一坐标显示式x=(K−J)/(2+ω)并发布；R534完整稿已交，支付跨s双接触缺口后发布。theta续原Y/W不动的真实carry/纤维补偿；literature续R535三Norm3轴Hesse全来源与原Kunit/R3deep核；deep续原三层α/β及forcing。root续同源联合/真核；R533尚未形成完整新结论。结论随到随推。
 
 ## 完成桥与全部保留分支
 
@@ -33,6 +33,8 @@ R523/527 CH/B wholeβ、A/B真实carry、H0/B六次逆保四输出；Y/W′/E0�
 R528三个Norm14轴T循环wholeβ及6/12/18正测试；unit三轨道平均保(Y,W,W′)，D_n仅两支活。全I1/I7/I13及log矩、T5/T11/T17质量保留；与R522差的π3推前全0，真实同域混行全0而D_n v5n，隐藏纤维必须补偿。
 R529 J=C−x、K=C−ω²x正交Norm3/2，2J/2K whole6 β；E=H0−2(1−ω)K/3 Norm1，3E odd9 β，无新ray。Kunit六次逆保Πfix=(J,Y,ξ2,d0)，任意J深carry归一返回βr原S。原五深/xunit网格质量0、中央v5n，无新大p门；真实像J/κr+Kdeep及全部伴随条件保留。旧W有K/E项；完整T行保Kdeep1的P0及Kunit的P0−P_K两补偿。同域W−6δY差v5n+3。
 R531新C=H0/δ（非旧反射C）、F=D+C、D=D1、E=D+14C、G=13H1+(3−2ω)F，Norm为1/13/14/182/936；C/F/D/E wholeβ，未声称G新核。Γn={C,Funit,Ddeep n}={Ddeep n,Eunit}，Q=−C6/8+3C²F4/(8·11·13³)，在D/E展开q5=0。逐E次数unit逆Qhat_n准确返回整个π4=(Y,W,W′,G)，标量βn，原Y/W不移动。D_n⊂Γn，全部三中央/质量及两归一差赋值n；完整I1log/常数log和五项质量均保。Z_n=1ΓQhatρ−βnρ的π4推前0，D_n非π4事件，剩余真实纤维补偿尚须控制。
+
+R532完整框架(J,A5,K,E,B2,C30) Gram=(3/2,5,3/2,1,2,30)，whole标量(β,χ65λ,β,β,β,χ65λ)，全ρ/h矩形保留。U=2J、V=3A5的真实二维源为−9f4⊗g2/28−27δf1⊗g5/28，准确秩二，边际各0；Y=(−1+4ω)U/3+2V/3。Kunit逆保(J,A5,B2,C30)，原D_n为A5/B2/C30/Edeep、Kunit、J+Kdeep，x=(K−J)/(2+ω)。旧W六项系数及实际域/移权全保；不能以二维边际零替代完整S/T条件。
 
 ## 惰性：同一原格、真实三层与forcing
 
