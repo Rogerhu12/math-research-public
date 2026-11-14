@@ -1,0 +1,247 @@
+{
+  "status": "passed",
+  "checks": 328,
+  "frames": [
+    {
+      "p": 17,
+      "s": 3,
+      "L": 48,
+      "maxN": 50,
+      "hurwitz_modulus_exponent": 3,
+      "fibers": [
+        {
+          "b": 1,
+          "bL": "1",
+          "forcing": {
+            "c4": "16",
+            "c1": "3"
+          },
+          "rows": [
+            {
+              "r": 0,
+              "index": 48,
+              "pX": "15",
+              "pY": "14",
+              "pF": "1",
+              "low": {
+                "sigma6": "1",
+                "f4": "1",
+                "f1": "1"
+              },
+              "actual_gaussian_residues": {
+                "sigma6": "6",
+                "f4": "4",
+                "f1": "1"
+              }
+            },
+            {
+              "r": 1,
+              "index": 49,
+              "pX": "14",
+              "pY": "13",
+              "pF": "1",
+              "low": {
+                "sigma6": "1",
+                "f4": "13",
+                "f1": "6"
+              },
+              "actual_gaussian_residues": {
+                "sigma6": "12",
+                "f4": "11",
+                "f1": "8"
+              }
+            },
+            {
+              "r": 2,
+              "index": 50,
+              "pX": "14",
+              "pY": "5",
+              "pF": "11",
+              "low": {
+                "sigma6": "6",
+                "f4": "16",
+                "f1": "3"
+              },
+              "actual_gaussian_residues": {
+                "sigma6": "6",
+                "f4": "1",
+                "f1": "5"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "p": 23,
+      "s": 4,
+      "L": 88,
+      "maxN": 91,
+      "hurwitz_modulus_exponent": 4,
+      "fibers": [
+        {
+          "b": 1,
+          "bL": "1",
+          "forcing": {
+            "c4": "6",
+            "c1": "12"
+          },
+          "rows": [
+            {
+              "r": 0,
+              "index": 88,
+              "pX": "21",
+              "pY": "20",
+              "pF": "1",
+              "low": {
+                "sigma6": "1",
+                "f4": "1",
+                "f1": "1"
+              },
+              "actual_gaussian_residues": {
+                "sigma6": "6",
+                "f4": "4",
+                "f1": "1"
+              }
+            },
+            {
+              "r": 1,
+              "index": 89,
+              "pX": "6",
+              "pY": "14",
+              "pF": "2",
+              "low": {
+                "sigma6": "2",
+                "f4": "15",
+                "f1": "12"
+              },
+              "actual_gaussian_residues": {
+                "sigma6": "1",
+                "f4": "12",
+                "f1": "15"
+              }
+            },
+            {
+              "r": 2,
+              "index": 90,
+              "pX": "15",
+              "pY": "13",
+              "pF": "3",
+              "low": {
+                "sigma6": "15",
+                "f4": "8",
+                "f1": "13"
+              },
+              "actual_gaussian_residues": {
+                "sigma6": "17",
+                "f4": "13",
+                "f1": "8"
+              }
+            },
+            {
+              "r": 3,
+              "index": 91,
+              "pX": "14",
+              "pY": "10",
+              "pF": "15",
+              "low": {
+                "sigma6": "17",
+                "f4": "6",
+                "f1": "12"
+              },
+              "actual_gaussian_residues": {
+                "sigma6": "17",
+                "f4": "17",
+                "f1": "21"
+              }
+            }
+          ]
+        },
+        {
+          "b": 17,
+          "bL": "1",
+          "forcing": {
+            "c4": "15",
+            "c1": "7"
+          },
+          "rows": [
+            {
+              "r": 0,
+              "index": 88,
+              "pX": "21",
+              "pY": "20",
+              "pF": "1",
+              "low": {
+                "sigma6": "1",
+                "f4": "1",
+                "f1": "1"
+              },
+              "actual_gaussian_residues": {
+                "sigma6": "6",
+                "f4": "4",
+                "f1": "1"
+              }
+            },
+            {
+              "r": 1,
+              "index": 89,
+              "pX": "10",
+              "pY": "8",
+              "pF": "11",
+              "low": {
+                "sigma6": "11",
+                "f4": "2",
+                "f1": "20"
+              },
+              "actual_gaussian_residues": {
+                "sigma6": "17",
+                "f4": "20",
+                "f1": "2"
+              }
+            },
+            {
+              "r": 2,
+              "index": 90,
+              "pX": "11",
+              "pY": "8",
+              "pF": "16",
+              "low": {
+                "sigma6": "11",
+                "f4": "12",
+                "f1": "8"
+              },
+              "actual_gaussian_residues": {
+                "sigma6": "14",
+                "f4": "8",
+                "f1": "12"
+              }
+            },
+            {
+              "r": 3,
+              "index": 91,
+              "pX": "12",
+              "pY": "2",
+              "pF": "3",
+              "low": {
+                "sigma6": "8",
+                "f4": "15",
+                "f1": "7"
+              },
+              "actual_gaussian_residues": {
+                "sigma6": "8",
+                "f4": "8",
+                "f1": "18"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actual_hurwitz_recurrence_used_before_unscaling": true,
+  "no_gaussian_endpoint_beyond_r_less_than_s": true,
+  "original_ST_factor_w_kept": true,
+  "Newton_endpoint_uses_original_first_central_coefficient": true,
+  "no_nonvanishing_of_designated_forcings_claimed": true,
+  "main_target_complete": false
+}

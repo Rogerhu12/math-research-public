@@ -51,3 +51,6 @@
 
 
 - [R614：原完整addition的高度二整窗与Newton全尾](../results/R614-original-addition-integrality-window-and-complete-newton-tail.md)：完整二变量sigma式及全部偶二项式例外给原Gaussian后余项在n<L全整，继而付n<ps一次/n<2L二次分母界和首边界绝对单位。原S/T前p−1个Newton余项全整，有限更强尾与无限Hurwitz尾接合；模p^p保实际h=p端点，不以非中央首坏项代主目标。
+
+
+- [R616：原完整首坏带与第p个Newton中央回读](../results/R616-original-first-bad-band-and-pth-newton-endpoint.md)：原H唯一pole和同一留数变分给整条高度二坏带，完整log到指数运输保来源原点阶数。S/T第p个实际中央项回读首C_X，完整j0时尾再升一阶；两个f forcing的末带准确保−c4/−4c1，非中央首项单位不代指定非零。
