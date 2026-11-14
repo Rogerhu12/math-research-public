@@ -1,0 +1,130 @@
+{
+  "phase": "plan",
+  "kind": "actual_complete_fixed_eta_quarter_cap_plan_v1",
+  "complete": true,
+  "gates": [
+    {
+      "name": "actual_successful_full1977_same_Z_result_and_original_fixed_direction",
+      "passed": true
+    },
+    {
+      "name": "all1977_original_direct_rows_received_once_as_coupled_eight_channel_representations",
+      "passed": true
+    },
+    {
+      "name": "actual_complete336_fixed_eta_domains_and_original_sixteen_parents",
+      "passed": true
+    },
+    {
+      "name": "all64_original_quarter_domains_reused_exactly_with_all_scalar_and_Fourier_data",
+      "passed": true
+    },
+    {
+      "name": "eight_disjoint_ranges_cover_all7844_new_domains_without_any_completed_domain",
+      "passed": true
+    }
+  ],
+  "source_sha256": "54e5ec52033bb109618fde1c840730b4b589280382b2da196d3ea748af4490de",
+  "native_sha256": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a",
+  "input_sha256": {
+    "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "proposal": "b9819522aceed06b73628d84b8bb80dbcc5b734971c6b3c20544e9876c23d78a",
+    "object": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+    "pilot": "f36831b1f5cc354548686c7d3e5f3fdfb10a456899d25f57d1be1b4cefccbe5c",
+    "pilot-process": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4",
+    "complete": "8bc061ec200deb37548005297a1530d341eaa55065e70104cc5d82714aed21c5",
+    "complete-process": "55765c2954b872699fe60a8c81b62992841578233f12577f9b154a4db6873280",
+    "fixed-pilot": "b5a157d4005eb4aad1c536512c4ea5dcb431e90d09c4b05f324db5cf09203138",
+    "fixed-process": "c0c4af7273f703cfb6c0b10394dd0821a21ad7e3015cda14ba006c878094fb6f",
+    "range-native-0": "c2d5549f71c99e0409d799bfa7e385eba7c76335fccf524c29cfe9b5098f21c1",
+    "range-native-1": "024d0b283dd423c0ebc4fd28f88706badc7c7a0a44d45621a003e96662d5e322",
+    "range-native-2": "ed3ec1a046a10403b6f5aee4daf4b9eea27ca1f10c0ad186c00ed0713427e078",
+    "range-native-3": "b36f89c07e4ab35ad4b4f837be216f382e792950667c23df48f3c730189279d6",
+    "range-process-0": "e9ca50d59b35063d403c5bcd69a474c27ee28ac678255fc19652f28510df205f",
+    "range-process-1": "388664c84e94d4a21439a289301c910180b234260289b7323974c21d7f4d9d51",
+    "range-process-2": "cc0e84d8e5f619cf190e243a7a00199f97b0f2f7e852f346d1ba3560185f91fa",
+    "range-process-3": "3260b82c44299b12ab6a62bafc992e159201b602a8bd4096998676b8f9504449"
+  },
+  "seconds": 0.9223262849999969,
+  "complete_original_native_retained": true,
+  "original_completed_domains_recomputed": 0,
+  "original_complete_native_reused": false,
+  "actual_new_domains_in_this_child": 0,
+  "complete_finite193_response_error_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "complete_original_parent_cells": 1977,
+  "reused_original_quarter_domains": 64,
+  "requested_new_quarter_domains": 7844,
+  "total_complete_quarter_domains": 7908,
+  "exact_continuous_direction_definition_sha256": "6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04",
+  "direction_sha256": "f77f64367593908c9dd3ba8ac318090275a3b59aa43542620858aadce7b0cbd0",
+  "assignments": [
+    {
+      "first": 0,
+      "end": 256,
+      "new_parents": 256,
+      "new_domains": 1024,
+      "reused_parents": 0
+    },
+    {
+      "first": 256,
+      "end": 512,
+      "new_parents": 256,
+      "new_domains": 1024,
+      "reused_parents": 0
+    },
+    {
+      "first": 512,
+      "end": 768,
+      "new_parents": 256,
+      "new_domains": 1024,
+      "reused_parents": 0
+    },
+    {
+      "first": 768,
+      "end": 1024,
+      "new_parents": 240,
+      "new_domains": 960,
+      "reused_parents": 16
+    },
+    {
+      "first": 1024,
+      "end": 1280,
+      "new_parents": 256,
+      "new_domains": 1024,
+      "reused_parents": 0
+    },
+    {
+      "first": 1280,
+      "end": 1536,
+      "new_parents": 256,
+      "new_domains": 1024,
+      "reused_parents": 0
+    },
+    {
+      "first": 1536,
+      "end": 1792,
+      "new_parents": 256,
+      "new_domains": 1024,
+      "reused_parents": 0
+    },
+    {
+      "first": 1792,
+      "end": 1977,
+      "new_parents": 185,
+      "new_domains": 740,
+      "reused_parents": 0
+    }
+  ],
+  "original_pilot_complete_physical_cap_error": {
+    "ball": "[1.5089533882212308098107131220040767187303950927309735222053450893190182746918729e-6 +/- 2.83e-86]",
+    "lower": "[1.5089533882212308098107131220040767187303950927309735222053450893190182746918729e-6 +/- 2.83e-86]",
+    "upper": "[1.5089533882212308098107131220040767187303950927309735222053450893190182746918729e-6 +/- 2.83e-86]"
+  },
+  "original_direct_coupled_baseline_physical_cap_error": {
+    "ball": "[2.4181831019450283401089846851299485806144511586865273208728330569035005240747760e-6 +/- 2.81e-86]",
+    "lower": "[2.4181831019450283401089846851299485806144511586865273208728330569035005240747760e-6 +/- 2.81e-86]",
+    "upper": "[2.4181831019450283401089846851299485806144511586865273208728330569035005240747760e-6 +/- 2.81e-86]"
+  }
+}
