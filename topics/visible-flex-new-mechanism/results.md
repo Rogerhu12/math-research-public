@@ -45,3 +45,5 @@
 - [R20：实际几何 D 恒零与八系数限制](results/R20-geometric-D-zero-identity.md) — 已证明全 profile 坐标上的点态恒等式及仿射不变性；R13 固定 D=−8 不可几何实现。结合 R19 严格排除内部 C 不变号的简单端根四阶分支，未排除其他机制。
 
 - [R21：D=0、C恒零的有限光滑 profile 刚性](results/R21-zero-C-profile-rigidity.md) — 已对全局 C3、有限分片 C4、双端 q/q′零证明：非零解只能落在全部八个几何系数同时零的算子分支。保留零算子例外，不外推内部变号 C。
+
+- [R22：D=0 变号根处真实的局部 C4 相位开启](results/R22-D0-sign-changing-local-phase.md) — 显式八坐标满足 D0，实解析基底及 x^(9/2) 非线性复分支均由收缩证明；没有闭曲线几何实现、全区外尾匹配或有限等距族。
