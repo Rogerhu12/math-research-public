@@ -47,4 +47,4 @@ R238/R242为含反射非全等及精确warped角解析无平片条件；R243真9
 request05—09全成功；10真实coupling112失败待诊断。准备/pending非接受；v4 same_metric_saved_prefix已接物理API。closed wrapper已修public_asset两条绝对路径；R249精确入口构造已付，其实际metric/κ与全局几何仍待新接受场。
 旧geometry26件/strong90件/GW35件均逐SHA保全，各recovery-manifest是历史身份，不冒本轮Actions。strong旧H审计确完成，但R6磁盘SIGTERM143无接受步、raw分块未全迁，外部只读索引在manifest；不复活旧支。公开源78件匹配原91清单，只从公开仓取，无private secret。临时自有transport分支只助大blob普通推送，main繁忙则持续rebase重推，无force。
 
-规则同步记录：2026-11-14T11:37:39.793565+00:00 实际pull --rebase成功；双README自e41c478无变化，已读提交 d928acf6fc2ab7d4c3b6d5e0417a1db90fee9435。
+规则同步记录：2026-11-14T11:42:33.959712+00:00 实际pull --rebase成功；双README自d928acf无变化，已读提交 ed0ac16e7275e39641bdba84db320661d7b479b8。
