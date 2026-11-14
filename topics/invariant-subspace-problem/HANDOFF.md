@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `30f369199ac29b60b57b50342950a1c09c9b8f51`（2026-11-14 17:35:04 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `b3dbbd686a52c49f312ad768d5fe413104cc951f`（2026-11-14 17:39:44 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -43,7 +43,7 @@
 - 该run已继续实际九组合全局来源cost85、原17可除961、全部505观察与315投影差核验；最后右端bound277、完整像余零；第二次VQ用186.260599秒完成，最终九标准来源cost276，数组SHA4d3164ee…23b17。**后继原17乘回已全部完成，见下一条。** 最后transport仅5.236秒超时且无内部checkpoint，必须从已成标准来源开始，不声称从日志row1000续。
 - run结果95份/完整恢复86份（170166891B）/生成流34份已无损入 notes/r150-all198-second-bockstein-actions-789f/43619888599-1/，132保存文件116922577B全核SHA；local /dev/shm/isp-789f-all198-43619888599。root-preservation-manifest逐文件映到真实数据，不是hash-only。
 - **[H0完整原17模29791已成](notes/2026-11-14-r150-h25-full-original-seventeen-mod29791-cost276-789f.md)：** 同冻结码先复用14缓存，60.12581782秒内原运输完成cost276、原乘积到4963真数组；随后同编译程序/绑定续3.852931076秒，全6188/17/4367九目标每列1057496输出系数全核，失败0。全部成本276、maxdegree265、5506非零行、11745006非零系数。完整两原流各23720800B，SHA3ec2b158…98bdc及c8ed2e4c…43537；新增50文件125192096B/全94恢复及8最终文件保 notes/r150-all198-second-bockstein-actions-789f/original17-continuation-789f/。原Actions95结果仍保。此是模31³，不称char0或饱和稳定。
-- **后继低成本：** 保存的完整315数据显示本次组合去P仍相等；正准备固定右端87的四段120秒任务，只新恢复最后原像，复用198/全部旧K2/所选九源和NF/Q/trace，不重算已成VQ。待实际低费用乘回后才降低已证成本。
+- **后继低成本：** 保存的完整315数据显示本次组合去P仍相等；[四段120秒入口已冻结](notes/2026-11-14-r150-second-lift-projector-free-interface-789f.md)，固定右端87；4新文件/7原依赖全SHA锁定、准备仅编译已过。根即执行最后原像，复用198/旧K2/九源/NF/Q/trace。理论源界183，实际低费用须原乘回，未预称87。
 
 - 射影/∞仍保：B≥85有限商为H⁰(C(B))，315仿射外另有∞torsion，u⁹⁶T∞=0/length≤745。实际来源直接付费；char0原式、31饱和、rankAy9余有限Σ及主ISP仍开。
 
