@@ -179,3 +179,5 @@
 - [R87：完整P1准确分离、真实控制维数与光滑圆障碍](results/R87-exact-complete-P1-separation-and-smooth-moment-circles.md) — actual43635287277原式有理评价给36/37非零子式，真正Q泛函杀完整控制空间而不杀目标，W真实维数恰36。R86补矩/光滑化给合法C∞三矩圆，明确collar类中此障碍相对开稠密。只排单互反pair的P1单独匹配；特殊circle、多pair、固定N的P0+NP1抵消及其他机制仍未排。
 
 - [R88：pure第四下一幂尾的准确端点势](results/R88-pure-fourth-subleading-tail-is-an-endpoint-potential.md) — 保真实正交规范局部项和最低第一积分，第4m−8密度准确为Ds[α b0²b1+β b0u1]，M0与常端芽已使端差0，无须T0。看似b′²的能量由第三局部项抵消；未消4m−7及后阶，未证V符号或零成本环。
+
+- [R89：完整仿射协变、正长度多pair与七维物理族](results/R89-affine-covariance-and-positive-multiple-pair-P1.md) — 真实H²空间相似与x=Hξ+d保全场/全部历史/两mode，T与P1只作profile共轭；跨scalar基点W不变。合法k±1常态A(H,d)恰span7而非8，正p2半空间禁止有符号冒用。多pair独立桥与正整圈权给准确联合P1，连接只添P0；提出(1,0),(1,1)等长新目标，未声称可解。

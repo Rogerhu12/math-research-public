@@ -6,26 +6,26 @@
 
 沿R57，当前角向度量准确为G=a²。令U=Xs、单位T=Xθ/a，并写
 
-$$e=|U|^2-1,qquad f=Ucdot T,qquad
-eta=rac{|e|+sqrt{e^2+4f^2}}2.$$
+$$e=|U|^2-1,\qquad f=U\cdot T,\qquad
+\eta=\frac{|e|+\sqrt{e^2+4f^2}}2.$$
 
 引入单一辅助变量δ，且明确限制δ>0。则
 
-$$etaledeltaquadLongleftrightarrowquad
-c_-:=delta-e-rac{f^2}{delta}ge0,qquad
-c_+:=delta+e-rac{f^2}{delta}ge0.$$
+$$\eta\le\delta\quad\Longleftrightarrow\quad
+c_-:=\delta-e-\frac{f^2}{\delta}\ge0,\qquad
+c_+:=\delta+e-\frac{f^2}{\delta}\ge0.$$
 
 证明：两式等价δ²−δ|e|−f²≥0。δ>0时，其非负根恰为η。**δ=0不能直接使用除法或仅用两个未除法多项式约束；后一形式在δ=0漏掉e=0条件。** 本次数值变量下界明确为10^−8，只作一轮峰值改进；不是存在零误差的宣称。
 
 对任何物理参数列p，准确Jacobian为
 
-$$D_pe=2Ucdot D_pU,qquad
-D_pf=Tcdot D_pU+Ucdot D_pT,$$
+$$D_pe=2U\cdot D_pU,\qquad
+D_pf=T\cdot D_pU+U\cdot D_pT,$$
 
-$$D_pc_mp=mp D_pe-rac{2f}{delta}D_pf,qquad
-partial_delta c_mp=1+rac{f^2}{delta^2}.$$
+$$D_pc_\mp=\mp D_pe-\frac{2f}{\delta}D_pf,\qquad
+\partial_\delta c_\mp=1+\frac{f^2}{\delta^2}.$$
 
-不对绝对值或最大值作差分，不增加任意平滑偏差。每个当前真实网点都保两行；两个mode不能用不同δ。试探δ很小时这些商可能变大，异常/预算要保存已取得的合格点，不能用clip改变真实公式。
+不对绝对值或最大值作差分，不增加任意平滑偏差。每个当前真实网点都保两行；全部网点及两类约束共同使用同一δ。试探δ很小时这些商可能变大，异常/预算要保存已取得的合格点，不能用clip改变真实公式。
 
 候选选择还要独立计算原始η，要求maxη≤δ+明示数值容差；不能只依赖SQP给出的约束余差。辅助δ不属于曲面物理参数，物理state仍为163维，固定g、b0、参数hash与同态精化不得把δ混入几何定义。
 

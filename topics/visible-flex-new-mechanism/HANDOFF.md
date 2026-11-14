@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`6b7e9846ab9062614618856d4d6772c847a303c2`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`6d9517def89e64f758d4d523af2efb30bb68524e`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:02:06 UTC实际pull至`fb59f636d9b9ce20c96325dbe19a3b4c504ac21b`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:01 UTC。
 
@@ -18,12 +18,7 @@ H<10KB，MD<100KB，open尽量<30KB；数据>1MB gzip、单件<5MB。只明确st
 
 ## 3. 旧B固定g：已接受状态和待续一次联合
 
-A1、B7/25、半宽1/50；L.9、握持rc.22、tc.036、tf.846、六帽R.274。167=81u+72v+9height+5body；冻结g后162，单Q后163。永久原c0不得被selected替换。四份当前真实输入（路径均在本题notes）：
-
-- 原c0 `actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json`，SHA `6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3`。
-- 原selected `actions-43618467921-1-independent_height_solve/frame-independent-height-bounded.json`，SHA `c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46`。
-- short `actions-43627111925-1-short_entry_audit/frame-entry-short-bounded-initial-audit.json.gz`，decoded SHA `9d64a1ea03745405bd72fce6078eace92e02f3987be6ae079b75f0b71f69502c`。
-- accepted height `actions-43630874689-1-height_polytope_audit/height-polytope-bounded-audit.json.gz`，decoded SHA `f457282f0a21cd27802748066537caa4cf90c687c63c73d62b0391ce2435d1a3`。
+A1、B7/25、半宽1/50；L.9、握持rc.22、tc.036、tf.846、六帽R.274。167=81u+72v+9height+5body；冻结g后162，单Q后163。永久原c0不得被selected替换。四份原始真实输入（selected、永久enriched c0、short bounded、accepted height）的完整notes路径和decoded SHA统一见notes/joint-resume-after-contacting-quartic-20261114.md §7；第五为已跑quartic完整report。不把selected/accepted当c0。新实际resume为第六输入，身份见下。
 
 完整固定g SHA `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。当前已接受物理态 `f198ba74dcf3644569bf1ed78eecbc48a0f21ec421205d46a6b159cb00ff0f56`：height actual43630874689以一LP松弛0、一QP2iter真实应用一次九高度步；h.1427042008431、minz.01425708、ballnorm².98754057通过采样门，uv/T/g未变。但η1.388247、metriccost.03158755、κ149.42、镜像法弦.01425979<.061、strip .393509>.38，仍失败。384→768同态η1.388247397，非连续包围。旧长/短入口失败详各notes，不重复旧250预算。
 
@@ -41,7 +36,7 @@ resume actual43635770962/sourcecc8a9c9d已complete175.069s，新人工pass，qua
 
 139径向×384/768同态：η67.0064338145/67.0064338148（t=.105）；minarea .0034837/.0034470；κ5.88e5/1.31e6未收敛；|y|max.593913>.38；minz−.0448831；帽高.0557448071低于新R66必要.069959984；镜像比6.40e−6<.061。球采样norm² .983528；核心jets准确，固定原函数稀/密一致，Π精化差不解释O67失败。完整报告gzip及SHA见notes/core-B037-semantic-transport-initial-actual-result-20261114.md。
 
-原因方向：全段换φ/u_core后，旧近±8系数抵消不保。下一保旧物理场与b/zc/Π，仅在明确C²核心collar局部换u和a，外域六jet可准确保留；须先付新完整g和端口，再独立单态审计，不在η67初态盲加预算。仍未排新核心一般连接。
+原因方向：全段换φ/u_core后，旧近±8系数抵消不保。局部driver b6ae29f9已请求：以f198整场为源，χ=1−S11在tc=.036到.198过渡，T*=Rz(χΔu)T、a*=a+χΔa0，b/zc/Π完全保；外域六jet准确恢复、a*>0、完整新g与端口分别记。先同job新人工后唯一新初态，无优化，不在η67态盲加预算。仍未排新核心一般连接。
 
 ## 5. 理论当前真实边界
 
@@ -49,7 +44,7 @@ R37/R45给真实零二阶桥与浸入四块闭合，R52为完整三阶圆，非�
 
 完整phase v2 actual43633746055/source26c3f2c0完成122.312s：152→36原模板，116依赖fresh，a与log(a)两分量原式全消，有理余1374当时仅未产身份。**R87新actual43635287277/sourcef3102464已给实际函数非成员证书**：27.987s，原右Volterra直接评价同一有理f/g，192实行36列；p2147483647，36子式1164198643、37子式174204184均非零，真正Q泛函Λb mod1188606345。报告106444B SHA `cb813ad35ad00a8c4f63d514055e6a9d249aeced3bf5e64a16d9e494debb69e7`。W真实维数恰36，不再盲加该单pair同类控制。
 
-R86左三bump准确补三复矩且保全部右锚查询；R87结合C6光滑化给合法C∞三矩circle仍不匹配，并在明确可缩小collar类相对开稠密。**只排单pair的P1单独匹配，不排特殊circle、多pair，亦不排固定N时P0+NP1抵消。** 下一literature推一般(h,d)多pair协变/正长度联合，repo_sources推真实第四成本。
+R86左三bump准确补三复矩且保全部右锚查询；R87结合C6光滑化给合法C∞三矩circle仍不匹配，并在明确可缩小collar类相对开稠密。**只排单pair的P1单独匹配，不排特殊circle、多pair，亦不排固定N时P0+NP1抵消。** R89已证真实H²/x=Hξ+d完整协变、W不变及A(H,d)实际span7；多个pair须正长度，连接只添P0。下一两state(1,0)/(1,1)等整圈联合，不重跑单pair；repo_sources续第四第25阶。
 
 R83完整(w,u,v)传递：M0倒行T−而V+；真词Z恒M=T0，在含Z0的R45实际基准上ΔP0=4(E(t)−E(0)+λtK)，保P1但基线/偶成本未付。R84成本只成有限加法半群，frame环L∫(1+k²)≥4π²；未证V正性/未排正长度V0。R85/R88证明pure幂尾4m−9及4m−8皆准确端点势，M0+常端芽已消；须保正交第三局部项才不造假能量。tail actual43635287277完整1.961s，14真histories、四条exactzero；23–27完整DAG保notes，展开文本因体积省略非零。后阶须分析真实ODE与端差，不能以density项数立period正性。准确第二density/正交规范见notes/pure-tail-second-density-and-orthogonal-gauge-20261114.md。
 
@@ -57,4 +52,4 @@ R83完整(w,u,v)传递：M0倒行T−而V+；真词Z恒M=T0，在含Z0的R45实�
 
 ## 6. 持续推进
 
-理论actual43635287277两lane已complete：dual准确37子式成功（R87已登记），tail完整原式资料见notes/pure-tail-first-actual-complete-20261114.md。joint_resume43635770962已完成；当前正接R88指定式DAG消费核与局部B单初态，旧四次/joint不重复。mechanism随后接accepted旧场的局部核心B输运。新实际发布后pull核两README并同步H/log/open；子问题接open不等阶段批准。原始来源边界见notes/literature-20261114.md，不重复清单代替研究。
+理论actual43635287277两lane已complete：dual准确37子式成功（R87已登记），tail完整原式资料见notes/pure-tail-first-actual-complete-20261114.md。joint_resume43635770962已完成；当前request为R88指定式DAG消费核pure_tail_subleading与局部B单初态localized_core_initial，旧四次/joint不重复。mechanism随后接accepted旧场的局部核心B输运。新实际发布后pull核两README并同步H/log/open；子问题接open不等阶段批准。原始来源边界见notes/literature-20261114.md，不重复清单代替研究。
