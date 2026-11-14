@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R445：保原sigma输入的三坐标核心与四态carry](../results/R445-original-sigma-retained-three-coordinate-core-and-four-state-carry.md)：原非零张量锚付整个7956平方与85680绝对二挠平方，四态保全部c/Q移动测试；完整carry及忘U返回均准确。A两层缩放将已知非零管送入同一原来源的真单位carry，值仍v5n，内部斜管补域未删。
+
 - [R442：原外部carry单位矩阵与全部中央补域](../results/R442-original-external-carry-matrix-and-complete-boundary-equations.md)：两条真单位carry的完整principal行经单位矩阵返回原中央，来源级奇奇余项与W/V深管差均保留；偶层carry有完整标量返回。R441之外的一单位支、环带、不相消双单位支及W外域全部列明，规范A/κ与原A测试不混用。
 
 - [R443：原四挠第二残余态的完整张量与中央返回](../results/R443-original-residual-quarter-source-and-complete-central-return.md)：特征零完整偶偶/奇奇张量秩18，principal块秩4且原S不在其饱和来源格；真实两边际、X6中央及非零质量完整区分。总Q在K1/K1R间互换，完整principal行相同，附深管不免费消反射余项。
