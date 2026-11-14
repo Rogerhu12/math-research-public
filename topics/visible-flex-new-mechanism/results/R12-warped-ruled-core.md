@@ -4,6 +4,8 @@
 
 日期：2026-11-14。当前文件给出独立新构造的完整证明，使用公开 R44 的球面导线机制，见本题 [R6](R6-nonplanar-halfturn-phase-assembly.md)。原 R44 核心幅度限制见 [R11](R11-ruled-core-amplitude-limits.md)；这里改变导线，通常仅保留三重旋转对称，不能套用 R11 对**完整六重对称像集**的幅度上界。
 
+**后续拓扑限制：**[R23](R23-warped-core-linking-obstruction.md) 已证本文正则Jordan投影核心的framing为+3，不能经嵌入annulus接到开放平圆领。本文准确闭合、局部度量及几何计算保留；原圆领封口目标已被排除。
+
 ## 1. 两个角变量与准确闭合
 
 用 $\phi\in\mathbb R/(2\pi\mathbb Z)$ 表示构造角，$u,v\in\mathbb R$ 是固定参数，$b>0$ 是整体比例。设

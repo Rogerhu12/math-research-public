@@ -47,3 +47,5 @@
 - [R21：D=0、C恒零的有限光滑 profile 刚性](results/R21-zero-C-profile-rigidity.md) — 已对全局 C3、有限分片 C4、双端 q/q′零证明：非零解只能落在全部八个几何系数同时零的算子分支。保留零算子例外，不外推内部变号 C。
 
 - [R22：D=0 变号根处真实的局部 C4 相位开启](results/R22-D0-sign-changing-local-phase.md) — 显式八坐标满足 D0，实解析基底及 x^(9/2) 非线性复分支均由收缩证明；没有闭曲线几何实现、全区外尾匹配或有限等距族。
+
+- [R23：ψ-warp 准确核心的非零 linking 封口障碍](results/R23-warped-core-linking-obstruction.md) — 已证正则Jordan投影下framing为+3，禁止同一嵌入annulus接开放平圆领；两个已认证基线适用。没有否定核心本身或其他零framing机制。
