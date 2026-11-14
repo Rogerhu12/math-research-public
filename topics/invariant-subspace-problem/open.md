@@ -161,3 +161,5 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 **固定原测试的联合反变换列已付。** [Euler/完整零源反馈](notes/2026-11-14-fixed-physical-head-euler-feedback-and-inverse-gauge-joint-column-budget-789f-next.md)给同一f_a的完整两列平方和≤a!S_m^a/W_a²；真实恢复b=K_a*c′+G_U*b′共同项仍开，不能由变换后小量声称原列小。全q≥a/2^m>a，不拓旧δ窗、不删高返回/余负图。
 
 **真V10已付及下一24维相关商。** [原五列等维不变扩张](notes/2026-11-14-r150-five-third-true-ten-dimensional-invariant-space-and-three-target-quotient-789f.md)给V10=U9+d9305；真实κ10成本87/e10=5，当前目标模V10余3维/J=2I，九坐标全保。197第三可进(Q/V10)_2的24维商，不能假设F10第一像；正仍真实全局/全部原式。
+
+**197局部正的原来源费用已付。** [两投影765路线](notes/2026-11-14-r150-197-third-positive-two-projectors-original-cost765-789f.md)给deg≤4、真P度≤196、三次原校正85→181/377→473/669→765，当前V10版最终十常数及κ10原项。下一跑真实197/24维必要系统，所有相容目标必须全局恢复、宽次数trace及原p6十七式；完整计算仍待执行。
