@@ -117,3 +117,5 @@
 - **R712（原M2下一精度公式已证明）**：[严格Lubin–Tate坐标与完整两块约化](results/R712-actual-M2-second-digit-and-Lubin-Tate-two-block-reduction.md)。在Cp单位、Cp−3余零时，原M2单位iff D_p=6F0/p²+B³R2/18非零；原M2²≡−31104ζ²α⁻²B²r_p D_p。严格[p]Y=pY−Y^(p²)及总三阶微分保留两块，第三块/全部无穷尾严格模p³消失；18标签积分常数17/36补齐但在目标精度消失。公开run43594244072核小代数，137147实际D_p尚未求，未将单独Cp−3高精度当作M2。
 
 - **R718（原全塔普通长度与Norm已确定）**：[每层普通类群端点及相容单位Norm](results/R718-all-ordinary-class-lengths-and-exact-universal-unit-norms.md)。对实际P_n=C_(43^n)²，真实p^n-Norm的π赋值至少42n、scalar恰42n；自然Tate与原循环单位格逐层强迫m_n=42n+1，无需假定pA_n=0。R686参数d=∞、普通类Norm逆极限RΓ；每层N_Sn E=E_Nn、N_Pn E=(p,π)E_L，全层交Norm亦为真正Norm相容单位逆极限的像。固定p塔结论不提供Serre反例，C/b数值仍待求。
+
+- **R716（免预求极部修正的真实提取器，已证明）**：[仅以实际曲率构造jet提取与相对全尾](results/R716-curvature-only-jet-extraction-without-gamma.md)。取单极点第二类代表，全部极部修正落已知H0(Ω((M−1)Q))；在允许关系的6h+8函数族中，D4/shuffle独立性严格保住四个顶层混合系数±L_a^−2。公共ODE有限行核给全部精确关系、列基及真实非零jet提取；R703的相对全尾继续成立，不再需要具体γ及其整性证书。原模型/曲率/第二类代表与实际矩阵仍需计算。

@@ -167,3 +167,7 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 ### R718：全层普通长度和相容Norm已闭合
 
 对每个n≥1，真实阶43^n的两Norm均有π赋值≥42n，scalar恰42n；不要求pA_n=0，整数乘积分辨率仍把任何m_n≤42n化成Γ平凡k²，与原循环E_L矛盾。故m_n=42n+1、R686的d=∞，普通类Norm逆极限为RΓ。每层scalar普通单位Norm满射，全P_n普通Norm均为(p,π)E_L；紧纤维有限交性质还证明全层交Norm就是真正相容单位逆极限向E_L的像。此结论只涉及原固定p43塔，尚未求原C/J/b/L或普通Norm原像坐标，继续原Robert链级桥和实际互反求值。见[R718](results/R718-all-ordinary-class-lengths-and-exact-universal-unit-norms.md)。
+
+### R716：免预求γ的实际曲率提取器
+
+已将R703的极部修正γ也从预先求值输入中去除：单极点Q、最大η极阶M给已知R=H0(Ω((M−1)Q))，全部修正及规范全纯差都进入其一次积分空间。6h+8标记族不冒认全独立，公共ODE的有限indicial行核给所有完整关系；D4模全Hodge四次张量及原NS独立性保证四个顶层混合列不可被关系改变，有限代数jet行严格提取−1/L_j²等。仅用原曲率/第二类代表/有限极点空间及整盘界即可给全部相对尾，不需γ的值或整性界；原一般p矩阵和真实有限前缀仍未算，零数上界不代全p无根。见[R716](results/R716-curvature-only-jet-extraction-without-gamma.md)。
