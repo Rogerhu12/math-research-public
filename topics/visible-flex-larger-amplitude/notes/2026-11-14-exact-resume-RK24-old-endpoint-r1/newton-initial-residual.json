@@ -1,0 +1,43 @@
+{
+  "solver_finished": false,
+  "config_sha256": "0641054a5b0dbb19271444807d6641f7b2e71f010cab0052582c79692043636e",
+  "request_sha256": "5a73eab0c2fcb6dddb3ccca572aa2b63ae6a6636f5f168b00e0da07a9602864c",
+  "original_tolerance": 2e-09,
+  "observed_iterations": [
+    {
+      "time": "2026-11-14T06:58:59.713Z",
+      "event": "iteration",
+      "call": 1,
+      "elapsed_ms": 457428,
+      "iteration": 0,
+      "norm": 0.03500040514935115,
+      "minA": 0.8635103053038138,
+      "minD": 0.9999284957603453
+    },
+    {
+      "time": "2026-11-14T06:59:01.355Z",
+      "event": "iteration",
+      "call": 1,
+      "elapsed_ms": 459069,
+      "iteration": 0,
+      "norm": 0.03500040514935115,
+      "minA": 0.8635103053038138,
+      "minD": 0.9999284957603453,
+      "chartCondition": 909642.4607036781,
+      "phase": "correction"
+    },
+    {
+      "time": "2026-11-14T07:01:09.773Z",
+      "event": "iteration",
+      "call": 1,
+      "elapsed_ms": 587488,
+      "iteration": 1,
+      "norm": 7.703098286927356e-09,
+      "phase": "accepted-trial-recovery-only",
+      "acceptedFromIteration": 0,
+      "acceptedTrial": 0,
+      "acceptedStep": 1
+    }
+  ],
+  "scope": "First residual observation only; convergence is not inferred."
+}
