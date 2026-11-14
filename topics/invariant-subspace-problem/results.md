@@ -953,3 +953,7 @@
 ### R296 附录：三切片共同商与全部出生的高方差统一加强常数二
 
 [完整证明](notes/2026-11-14-joint-birth-variance-common-slice-gram-and-strengthened-two-bound-789f-next.md)固定一个中心Bernoulli product，在k−1/k/k+1同一E≤s上给Gram误差ε≤128s/√V。全部真实低阶回归同时位于同一商，V≥2²⁰s²时完整桥B_n≤(4698/2401)C_nΓ_(n−1)C_n<2C_nΓ_(n−1)C_n；非交换步骤只平方同一合同后的算子。原连续尾k≥2²³s²适用并有真实Γ条件数界。准确核对原短旗s=p−r≈q、k≈q，故该区仍不覆盖原moving-birth短抬高，未把s替成头长d。
+
+### R297 附录：任意多权与任意spin的主组边界相位常数一
+
+[完整自足证明](notes/2026-11-14-arbitrarily-many-weight-dominant-spin-phase-bound-789f-next.md)处理j0=1+Σ其余j的全部实际组模块，位数、组数、spin及独立正权均任意，原primitive多重性全保。差多项式给唯一低源和空硬源；完整第一MP/顶逆准确化为同一正log凹密度的三个Beta积分h/g/ell=3π⁻¹(B/C/A)。同均值截断指数方差支配及全正幂级数自足证明AB≤4C²，故真实Φ≤1；有效权不全相同时严格。含非零硬源的spin三角区仍开。
