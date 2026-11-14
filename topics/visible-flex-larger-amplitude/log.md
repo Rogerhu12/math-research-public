@@ -555,3 +555,7 @@ bot发布只因并发main CAS拒绝被漏分类而终止；已补明确cannot-lo
 ### 2026-11-14 13:55 UTC — R260 separates the actual scalar and finite-field error mechanisms
 
 完整R260直接登记：原Frenet角速度ap/a及实际保持的半径、目标角metric累计缺陷；实际角投影/径向插值强迫和直接operator界，app/真实导数二阶偏差及1β放大；共享节点C²来源无关。原48/64部分求积真导、实际binary moment账及线性相位非恒等性完整证明，不推当前误差超限。root全文读及十个源SHA核对；没有新科学数值或原门/数学源改动。
+
+### 2026-11-14 13:58 UTC — identify the true cold-start path without rounding away its input
+
+真实17的zero import明示未导入server predictor，首非零H走原tail.initial；原ready stage graphs用256步、实际state/J为RK12，归一化scales与H同时缩小，不能把1.34e7直接叫位置幅度。实际最坏stage/模式仍待无J原evaluate定位，未预断全部根因。MaterialTrace常数列已为零，保存的非mean扰动确实传到原H，不能阈值归零；完整源路径说明已保全。request18实际run43602070499的warm-only继续。
