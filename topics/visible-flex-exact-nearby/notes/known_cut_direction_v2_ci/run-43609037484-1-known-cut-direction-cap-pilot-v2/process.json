@@ -8,7 +8,54 @@
   "workflow_commit": "10d717b69fb8ffe862cde3e9c03d0517508e5628",
   "worker_source_sha256": "7ac3d9f34a3735b5ed8a0d88487ad115124dc30957a50cb74679d8e2d1129a5e",
   "started_utc": "2026-11-14T15:14:47.154065+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_new_one_column_cap_sources_for_the_full_known_even_cut_direction",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-known-cut-direction-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_known_cut_direction_cap_pilot_v2.py",
+        "--count",
+        "16",
+        "--out",
+        "/__w/_temp/visible-exact-known-cut-direction-output/native/known-cut-direction-complete-cap-mixed-source-pilot.json.gz",
+        "--candidate",
+        "/__w/_temp/visible-exact-known-cut-original-prepared/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--proposal",
+        "/__w/_temp/visible-exact-known-cut-direction-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-physical128-cap-moving97-precomposition-native.json",
+        "--object",
+        "/__w/_temp/visible-exact-known-cut-direction-work/science/topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--repair-report",
+        "/__w/_temp/visible-exact-known-cut-direction-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+        "--inlet",
+        "/__w/_temp/visible-exact-known-cut-direction-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-repaired-moving96-physical128-C-matrix-native.json.gz",
+        "--q-vector",
+        "/__w/_temp/visible-exact-known-cut-direction-work/science/topics/visible-flex-exact-nearby/notes/2026-11-13-R133-regular-r25over8-q256-floating.json",
+        "--q-native",
+        "/__w/_temp/visible-exact-known-cut-direction-work/science/topics/visible-flex-exact-nearby/notes/2026-11-13-R133-regular-r25over8-q256-long-ports-native.json.gz",
+        "--hessian",
+        "/__w/_temp/visible-exact-known-cut-direction-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-cap-trial-local-Hessian-native.json.gz",
+        "--cut",
+        "/__w/_temp/visible-exact-known-cut-direction-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-moving-cap-cut-boundary-v2-native.json.gz",
+        "--cap",
+        "/__w/_temp/visible-exact-known-cut-original-cap/native/complete-cap-native.json.gz",
+        "--cap-process",
+        "/__w/_temp/visible-exact-known-cut-original-cap/process.json",
+        "--cap-cut",
+        "/__w/_temp/visible-exact-known-cut-original-capcut/native/complete-cap-and-true-moving-cut-native.json.gz",
+        "--cap-cut-process",
+        "/__w/_temp/visible-exact-known-cut-original-capcut/process.json",
+        "--boundary",
+        "/__w/_temp/visible-exact-known-cut-original-boundary/native/known-waist-and-true-cap-sources.json.gz",
+        "--boundary-process",
+        "/__w/_temp/visible-exact-known-cut-original-boundary/process.json"
+      ],
+      "started_utc": "2026-11-14T15:14:50.774425+00:00",
+      "actual_returncode": 1,
+      "wall_seconds": 5.000556915000004,
+      "finished_utc": "2026-11-14T15:14:55.775477+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T15:14:47.965199+00:00",
@@ -27,7 +74,13 @@
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T15:14:50.771424+00:00",
+      "final": false,
+      "commit": "9ed0ef7da3b4789586f46cc2b5341f061daf7775"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -117,8 +170,8 @@
     "boundary-process": "d81f87fb08dde8d1a8501cf4ac2dc71b71f08c542fc39870c0ac8cb0f13f57c7"
   },
   "requested_new_one_column_cells": 16,
-  "snapshot_utc": "2026-11-14T15:14:49.455513+00:00",
-  "wall_seconds": 2.302130187000003,
+  "snapshot_utc": "2026-11-14T15:14:55.778478+00:00",
+  "wall_seconds": 8.62508950099999,
   "native_files": [
     {
       "logical_file": "evidence/original-boundary-artifact-process.json",
@@ -155,6 +208,17 @@
       "file": "evidence/original-v1-zero-cell-failure-receipt.json",
       "bytes": 1118,
       "sha256": "57f6d7cf524377ba4e190231b353aaa0a3c45a30e9ad5301aee264a8efb10066"
+    },
+    {
+      "logical_file": "native/known-cut-direction-complete-cap-mixed-source-pilot.json.gz",
+      "file": "native/known-cut-direction-complete-cap-mixed-source-pilot.json.gz",
+      "bytes": 1282,
+      "sha256": "9f8ed802456a6098e2b7ba03cb1f31f7dbcec62be426bd3d7c3d4ee0f14d42a4"
     }
-  ]
+  ],
+  "failure": {
+    "type": "RuntimeError",
+    "message": "actual_new_one_column_cap_sources_for_the_full_known_even_cut_direction returned 1"
+  },
+  "finished_utc": "2026-11-14T15:14:55.776169+00:00"
 }
