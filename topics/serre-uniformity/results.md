@@ -259,3 +259,6 @@
 
 
 - **R765（已证明）**：[原sigma首次受阻系数与Cartier单位残差](results/R765-first-obstructed-sigma-coefficient-and-Cartier-unit-residual.md)。原截断二次ODE首残差准确为B=3h_N，原下一项的一p极点恰好抵消；完整有序卷积和指标错位均保。排除把低阶T当完整Fp解，尚未证明同h两Cartier/Norm共同单位。
+
+
+- **R766（已证明）**：[原T下降与四十层普通交换](results/R766-original-T-descent-and-the-forty-step-ordinary-exchange.md)。原任意d的双Norm/含极点phase推广与DT完整Taylor给同一Xt见证，RΓS/43在(t−1)^40普通格且三Norm全零，L在(t−1)^41；实标记/η/J不变。下一原divisor确由非零q socle阻断；dual两对角项与实际Kummer class仍保留。
