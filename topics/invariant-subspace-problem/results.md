@@ -755,3 +755,7 @@
 ### R296 附录：从首事件接回全部仿射回归
 
 [完整证明](results/R296-appendix-birth-two-full-regression-control-from-low-events.md)对同一出生二商的三个相邻切片均付Λ_high≤4τΛ_low，故全仿射Gram在低事件Gram与其(1+4τ)倍之间。以真实低事件度量定范，高事件评价T满足‖T‖≤2√τ，完整最优修正为−(I+T*T)^−1T*g，残差新增费恰〈(I+TT*)^−1g,g〉。中间源修正费≤16τ³G1+24τ³G2；全部nuisance及硬端保留，三个物理度量的二阶差仍开。
+
+### R297：任意临界正权池的弱位抵消与首边传输
+
+[完整证明](results/R297-weak-bit-critical-pool-cancellation-and-first-edge-transfer.md)对旧M=2s的任意正权保U=K_s、V=K_(s−1)及全部源度量。真实对偶升降给A_U=−L2B与δ3*L2=−Z2A_V，按[A,C]=0消掉跨出生a^−1项；标准化新硬顶费用在等距源中范数趋于diag(0,L1[Λ2+δ2Z3^−1δ2*]L1)。U小精度方向费为O(a²)，旧V严格界或反例可传到充分小的有限正弱位；全部中间权和统一κ未付。
