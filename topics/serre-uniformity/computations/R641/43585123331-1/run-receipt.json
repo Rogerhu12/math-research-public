@@ -1,0 +1,173 @@
+{
+  "result": "R641",
+  "disk_id": "SS_j36_09",
+  "complete": true,
+  "exit_code": 0,
+  "error": null,
+  "stages": [
+    {
+      "stage": "F2_finite_flat_poles",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_rebuild_ramified_SS_F2_unit_parameter47.py",
+        "--script-dir",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts",
+        "--work-dir",
+        "/home/runner/work/_temp/serre-p41-ramified-tail/R641/work/f2",
+        "--disk-id",
+        "SS_j36_09",
+        "--result-id",
+        "R641",
+        "--canonical",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_canonical_SS_robust47_raw.json.gz",
+        "--canonical-certificate",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_canonical_SS_robust47_certificate.json.gz",
+        "--derivative",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_serre_clearing_126_disks47.json.gz",
+        "--ramified-j-certificate",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_ramified_j_regular_height_derivative47.json.gz",
+        "--ramified-j-audit",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_ramified_j_regular_height_derivative47_independent.json",
+        "--based-points",
+        "/home/runner/work/_temp/serre-p41-ramified-tail/R641/work/f2/R641_SS_j36_09_based_points47.json.gz",
+        "--rebuild-chain",
+        "--resume-stages"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "F2_files": [
+    {
+      "file": "R641_SS_j36_09_based_points47.json.gz",
+      "bytes": 108236,
+      "sha256": "753c3681a7aaf214adcebaaa34f4aac7c13ecd744689d42482662375a913c5ec"
+    },
+    {
+      "file": "SS_j36_09-principal-F2-independent-audit.json",
+      "bytes": 7356,
+      "sha256": "bdfa6899f36fd99a7e72bd6157dcac8f9a5723c0defd668ba6b0f768fca1caa6"
+    },
+    {
+      "file": "SS_j36_09_actual_F2_first_variable_norm47.json.gz",
+      "bytes": 282904,
+      "sha256": "98aa48b12a454fe83831128ff01bc0facf0e5d56c8c955cfe0b9f4784ed4289f"
+    },
+    {
+      "file": "SS_j36_09_actual_F2_first_variable_norm47_finite_checkpoint.json.gz",
+      "bytes": 93740,
+      "sha256": "92b20efb0f586fdcd026b71b0c35e43bafd75b98a00e92b87cc99f22797aaf6b"
+    },
+    {
+      "file": "SS_j36_09_actual_F2_first_variable_norm47_full106_checkpoint.json.gz",
+      "bytes": 188716,
+      "sha256": "91e8734883fdb5c6867dd46fcb761ef11653ea13669e39903ff9d92d2edf786f"
+    },
+    {
+      "file": "SS_j36_09_actual_T2_principal_norm47.json.gz",
+      "bytes": 17392,
+      "sha256": "d40776fb209b90822d7964b2b842bba902c1c6856786e42c30cf42d04647cf13"
+    },
+    {
+      "file": "SS_j36_09_actual_T2_support47.json.gz",
+      "bytes": 41375,
+      "sha256": "aef3e44454c7d889a5c486d5cd74d0f00299bff55397c12bbf34c8dff2e1c51a"
+    },
+    {
+      "file": "SS_j36_09_actual_canonical_F2_height47.json.gz",
+      "bytes": 68724,
+      "sha256": "f1d1dcb19e82e8c603c5b924849c0775c53493af95327cf812982a3c08ceedb3"
+    },
+    {
+      "file": "SS_j36_09_actual_canonical_F2_polynomial47.json.gz",
+      "bytes": 33118,
+      "sha256": "9e1cbff5fee1e22ccd2fc2ce5d8eaf5d44ce4f29eac3dcc8d88aaf563f292075"
+    },
+    {
+      "file": "SS_j36_09_actual_second_kind_integrals47.json.gz",
+      "bytes": 595155,
+      "sha256": "72dcca86f5b09f209ebbfd934621447952e4aebe4d9adb49ade0fd395248cbaa"
+    },
+    {
+      "file": "SS_j36_09_principal_expression47.json.gz",
+      "bytes": 38688,
+      "sha256": "49857997ef7c089faed1910922dacbcc6707b9c24cc5606d0f0ca2ba444a0f68"
+    },
+    {
+      "file": "actual_F2_center.log",
+      "bytes": 755,
+      "sha256": "3a6549ae611431104f8dcfe975d87b0a42da83dfa1c68c9cbe38a33b574bf1d7"
+    },
+    {
+      "file": "actual_F2_polynomial.log",
+      "bytes": 539,
+      "sha256": "a1d9622bd1bafacf39e35ad38665ea7f16f55b2d9aea829442d8430718dca0a8"
+    },
+    {
+      "file": "actual_T2_norm.log",
+      "bytes": 270,
+      "sha256": "f18e072f6469ea40203aa5439842c7a3315421eb9013174b62849ba056a7d20b"
+    },
+    {
+      "file": "actual_T2_support.log",
+      "bytes": 730,
+      "sha256": "0d5cfd7dfdace2a3fbd18ad7a2c018c4911870c63cb9e6f7d32883031e40174e"
+    },
+    {
+      "file": "actual_chain.log",
+      "bytes": 38001,
+      "sha256": "c2dfbfef62fd4ab95b1243e1eabfa6134188278a411e102496507b5f33336485"
+    },
+    {
+      "file": "actual_full_F2_norm.log",
+      "bytes": 463,
+      "sha256": "11e96e7d64446e140f359835e0a57c00d2cac4e8b228e567e978bf7689cb31e7"
+    },
+    {
+      "file": "actual_integer_principal.log",
+      "bytes": 178,
+      "sha256": "189f6c4ef78443d9b513a50a9d2d3126d6fc87e910a56d1d918c2615e951a418"
+    },
+    {
+      "file": "actual_terminal_and_nu.log",
+      "bytes": 446,
+      "sha256": "8b37f4b6c399d91c79fa3ec7991c8cf7766134bbe4e1b9fc0b832b4490cc9784"
+    },
+    {
+      "file": "chain/SS_j36_09_Abel47.json.gz",
+      "bytes": 442816,
+      "sha256": "97853e85a5bef2d338216e08d6b64cfeaa5597849f8889f0b63a1a6b74e48061"
+    },
+    {
+      "file": "chain/SS_j36_09_multiply47.json.gz",
+      "bytes": 376549,
+      "sha256": "7250bcce913a6329214a54da7b255bbf7271922d448131babc06acffef53550c"
+    },
+    {
+      "file": "independent_audit.log",
+      "bytes": 148,
+      "sha256": "d5f9bc2988a00dd2b93af57045b71f80e75fe0dc5f7083a9f92c34febdb244b7"
+    },
+    {
+      "file": "p41_SS_j36_09_principal_transports47.tar.gz",
+      "bytes": 1777964,
+      "sha256": "4aeb9d68e5bf4a90d6a13c271a7206d22e7150bf86c302248b6ff9a0ca070996"
+    },
+    {
+      "file": "rebuild_checkpoint47.json",
+      "bytes": 18033,
+      "sha256": "1decd456edbbc6301cf703fdc763b9890190690850e4ad5a9bad8246962f211b"
+    }
+  ],
+  "F3_files": [],
+  "source_commit": "f70377b91012fae2d5d6773d6cadbcf5a1c2e04f",
+  "execution_environment": "public-repository-github-actions",
+  "original_chain_repeated": false,
+  "prior_run": 43580991103,
+  "workflow_run_id": "43585123331",
+  "elapsed_seconds": 14.842,
+  "finished_at_utc": "2026-11-14T10:25:20.333241+00:00",
+  "F2_residual_roots": [],
+  "F2_entire_disk_excluded": true,
+  "F2_entire_disk_excluded_after_exact_lifting": true
+}
