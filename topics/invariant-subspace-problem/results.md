@@ -1037,3 +1037,7 @@
 ### R297 附录：真实完整矩阵曲率为负，固定端点幂也不能统一修复
 
 [完整解析族](notes/2026-11-14-balanced-star-actual-matrix-curvature-counterexample-789f-next.md)取两个互逆异常权和R个单位权；S_R对称使整个contrast源分成真实reducing的2维块与R−1维池块。Q5、权(6,1/6,1,1,1)的完整逆后中心曲率块恰diag(490/17,−25/74)，另两维正，不是压后逆假例。全R族沿同一来源的相对曲率趋−4(R−2)，故无维数一致K≥−CM；根追加完整微分式证明任意固定端点指数c也不能统一补齐N-log凹。只排把此密度直接送入要求正曲率的matrixBL路线，原J与ISP均未否。
+
+### R297 附录：完整实际曲率的三列负部与条件均值曲线
+
+[精确结构证明](notes/2026-11-14-balanced-star-curvature-three-column-defect-and-mean-curve-789f-next.md)保同一完整contrast源及Lorentz环境逆，法向Schur项准确为正。全部曲率化为对角压缩加明确二阶块；对角负部秩至多一，二阶负部秩至多二，显式给K=PSD−WW*、W至多三列。移动二列恰u=−E*p/(1−t)与−u′，对角坏位置只可能最小或最大权。源曲线随t移动且相对幅度无统一界，不能由此推积分后有限缺陷或原H/G/L全局相位；后续保真实均值与总数共同Schur。

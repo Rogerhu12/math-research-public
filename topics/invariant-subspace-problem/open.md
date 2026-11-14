@@ -25,6 +25,8 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 **原式来源与完整第二提升：** [1834核β](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)排任意次数31整数h0来源；[保根集H0原17式mod961](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)九源cost86。[真实r2](notes/2026-11-14-r150-h25-second-original-residual-obstruction-789f.md)排固定X mod31全部mod29791提升；[四真实δ2](notes/2026-11-14-r150-four-genuine-second-bockstein-insufficiency-789f.md)连β像维数6仍逐目标失败。余198接[真实两Taylor环143/39/37商](notes/2026-11-14-r150-two-taylor-ring-complete-quotient-789f.md)，104自由检验/P次数189/原carry全保；完整第二像及31饱和继续；1632低方向真提升已付，不排Q31分母或称char0。有限预算/∞条件与全部细节保[本次前全文](notes/2026-11-14-open-before-cofactor-kernel-789f.md)。
 
+**实际曲率剩余结构：** [完整三列分解](notes/2026-11-14-balanced-star-curvature-three-column-defect-and-mean-curve-789f-next.md)保完整逆/法向Schur，给K/F=E*Dcurv E+[u,−u′]R2[u,−u′]*，点态负指数≤3；移动二列恰真实均值曲线，固定对角坏位只可能最小/最大权。点态不代积分、实际总数回归与J共同预算仍开。
+
 ## 当前接口一：原 Haar 慢符号的正常湮灭者
 
 原定义、全部已排范围和未付预算保[压缩前完整接口](notes/2026-11-14-open-before-balanced-star-789f.md)。S_N=Σ(j+1)⁻²N_j、S_Y=Σ(j+1)⁻²N_j(I+N_j)⁻¹在全H单射稠密；未知不变限制/有限放大子商上仍开。强主理想失败等价存在正有限秩Haar正常态ρ使φρ(SAcal)=0，不能免费降秩一或以WOT/SOT代ultraweak。

@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `f7f1597c807af7bb41c801b6828023899fe61320`（2026-11-14 17:03:55 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `44d46e403a46329a41031ed23c31d2b6d295aba2`（2026-11-14 17:11:10 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -33,6 +33,8 @@
 
 - [实际矩阵曲率也失败](notes/2026-11-14-balanced-star-actual-matrix-curvature-counterexample-789f-next.md)：Q5权(6,1/6,1,1,1)的整个4维源含真reducing块，中心曲率diag(490/17,−25/74)。一般R池的相对负曲率趋−4(R−2)，故固定a^c端点补偿也不统一；只关闭该曲率充分路线，原J未否。
 
+- [曲率点态三列](notes/2026-11-14-balanced-star-curvature-three-column-defect-and-mean-curve-789f-next.md)：完整Lorentz逆与法向Schur准确给对角压缩＋[u,−u′]R2[u,−u′]*；对角负部≤1、二阶负部≤2，故全曲率负指数≤3。u=−E*p/(1−t)来自真实条件均值，列随t移动且幅度不统一，不能据此跳过积分/全G回归。
+
 ## R150 原十七式与第二提升
 
 原11N＋6Γ、M5的6188来源/4367输出、泛秩4354。rankAy8和0/2/−6/∞已闭；rankAy9余有限Σ/char0来源。h0=s³(s−2)F+²F−²E8度24、mod31=25h31；Dlin46不免费降24。原多项式、指标、权成本及所有其它高ess/mean层保open/旧证书。
@@ -49,4 +51,4 @@
 
 ## 当前分工与继续
 
-normal接余198真实第二像，已成两Taylor环8jet忠实143→39→37商，正实现198同源VQ，复用四列及旧图；正结果接原6188/17模29791全乘回。boundary追star共同回归余项/端点抵消（一般N-log凹及固定幂补偿已排）；literature追真实cofactor jets到同源Schur，不能以一般Agler猜想或entry正性代矩阵预算。根逐结论立即整合推送、逐pull检查README并保持H最新，不在阶段结果停。
+normal接余198真实第二像，已成两Taylor环8jet忠实143→39→37商，正实现198同源VQ，复用四列及旧图；正结果接原6188/17模29791全乘回。boundary保均值曲线/总数共同Schur，曲率点态负部≤3但无积分统一界；literature已冻结固定内点峰形的完整相位极限，根接整合，端峰/过渡仍开。根逐结论立即整合推送、逐pull检查README并保持H最新，不在阶段结果停。
