@@ -344,3 +344,7 @@ run43582043166新增.996/.9975原BVP接受点，物理metric4.60534e−6/8.08662
 ### 2026-11-14 10:24 UTC — actual zero-J algebra and first complete-DN failure
 
 run43584222071独立消费真实zeroJ：Darboux二阶相对差1.32053e−12，mean/跨模0、height I，ready与真shooting最大相对差.011685须保留。严格缓存命中1次，原worker只有初始化，无任何新H请求或重复零求解。实际完整DN首inner条件数7.153e17/linear相对残差.57657，零接受步后SciPy插值RMS NaN，未接受；新控制布局及原RMS实际点域检查分别修复，不改数学门。
+
+### 2026-11-14 10:26 UTC — actual q2 spatial progress and whole-surface held witness
+
+v3真消除31764个原失败parent pairs，余1948仍全prefix-prefix；同场完整cover给δhold/D+≥.05388898465、H/D+≥.996873，未达幅度。题外mainline workflow仅将geometry角细分2改4和输出stem另存；request03只触发geometry，不重解BVP、tail或已完cardinal/zero。全部原面/封套/规则保留。

@@ -143,10 +143,10 @@ jobs:
             --checkpoint topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz \
             --source-topic "$VISIBLE_SOURCE_TOPIC" \
             --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
-            --out "$VISIBLE_OUT/R241-cover-v3.json" --radial-stride 1 --angular-stride 1 --prefix-angular-subdivision 2
+            --out "$VISIBLE_OUT/R241-cover-v3-q4.json" --radial-stride 1 --angular-stride 1 --prefix-angular-subdivision 4
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_held_hausdorff_cover.py" \
             --directory topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-RK24-radial4to8-closed-r1/closed \
-            --cover "$VISIBLE_OUT/R241-cover-v3-position-cover.json" --out "$VISIBLE_OUT/held-Hausdorff-cover.json"
+            --cover "$VISIBLE_OUT/R241-cover-v3-q4-position-cover.json" --out "$VISIBLE_OUT/held-Hausdorff-cover.json"
       - name: Solve and audit the actual T96 zero-height tail anchor
         if: matrix.lane == 'tailzero'
         timeout-minutes: 315
