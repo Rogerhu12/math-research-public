@@ -1,0 +1,93 @@
+{
+  "kind": "actual_full_family_moving_analytic_principal_fold_public_CI_input_manifest",
+  "public_repository": "Rogerhu12/math-research-public",
+  "scientific_inputs_selected_by_exact_hash": true,
+  "input_preparation": "Only immutable completed public native hashes and fetched text identities; no local mathematics was executed.",
+  "actual_root_budget_run": "43594466882",
+  "actual_root_budget_scientific_checkout": "f61ca9786a5a5b60bb9d6066686aad97cfb9faac",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0"
+  },
+  "input_paths": {
+    "root_germ": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+    "root_budget": "topics/visible-flex-exact-nearby/notes/current_root_scalarization_ci/run-43594466882-1/consumers/complete-moving-root-scalarization.json.gz"
+  },
+  "mathematical_parameters": {
+    "bits": 256,
+    "intrinsic_parameter": "eta_0",
+    "complex_direction_radius": "1/100000000",
+    "original_root_piece": 2549,
+    "base_degree": 32,
+    "direction_degree": 96,
+    "complete_delta_operator_band": 192,
+    "original_moving_width": "1/1024",
+    "enlarged_moving_coefficient_width": "1/64",
+    "fold_radial_radius": "9/1000000",
+    "flow_output_moving_width": "3/256",
+    "inverse_canonical_radial_radius": "81/4000000",
+    "inverse_canonical_angular_width": "1/128",
+    "new_moving_J_width": "1/128",
+    "inner_canonical_angular_width_for_J_image": "1/256",
+    "new_J_neumann_gate": "4/5",
+    "actual_inverse_fixed_point": "rho_new=-tau/lambda+(T+lambda*rho)/lambda; phi_new=chi-(X-phi)",
+    "full_old_curve_primitive_mean_and_source_retained": true
+  },
+  "expected_native": "current-moving-principal-fold.json.gz",
+  "no_original_scalar_germ_transport_or_response_recomputed": true,
+  "old_sources_included_for_provenance_only": true,
+  "new_child_has_no_local_scientific_module_imports": true,
+  "root_reflection_finite_constant_strong_return_and_nonlinear_branch_not_claimed": true,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+      "sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864",
+      "bytes": 7851
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/current_root_scalarization_ci/run-43594466882-1/consumers/complete-moving-root-scalarization.json.gz",
+      "sha256": "10ff6db82cece6c72ae8a6726c07c188922cf6b307f5af5f50a691ade0abb33f",
+      "bytes": 30595
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/current_root_scalarization_ci/run-43594466882-1/consumers/process.json",
+      "sha256": "9f1d18061f1b406f028916adc33484b4deea826a8e4175fd28b0fdb5b690342d",
+      "bytes": 4120
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-moving-analytic-principal-fold.md",
+      "sha256": "c191e654a5fe2d48098195f8d6a7d2909161f0254efc047f761481194bcd224b",
+      "bytes": 13563
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-moving-root-scalarization.md",
+      "sha256": "0645cf460507ea587056b6969b01dc532b6623179db5598e2bffe4f53a8275af",
+      "bytes": 15539
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-scalar-root-operator-and-one-gain-radial-remainder.md",
+      "sha256": "66bde1b99a6b6f51e3dadae608f53ad2e7e92d84160b582636f2ca4c7f0eae00",
+      "bytes": 12221
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_moving_principal_fold_budget.py",
+      "sha256": "2c680f47bc5209bd78f0643d7d425485bc597f05ad96c932109d93f2b26b2ab6",
+      "bytes": 18302
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_moving_principal_fold_CI.py",
+      "sha256": "383a1d9cfeabdb08151d3e2e7eae980a2f998294f3c857fd7c13b86adf127991",
+      "bytes": 5025
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_root_scalarization_budget.py",
+      "sha256": "4a3ee217b21cabda6ae3dea052f27ff82f03b4218294145dc2f812891688e03e",
+      "bytes": 19473
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_turning_complex_germ.py",
+      "sha256": "a3ad50b828c69d3e6f1e9254c1f266535171741ee2cd675d1569ef8f0fac0491",
+      "bytes": 13009
+    }
+  ]
+}

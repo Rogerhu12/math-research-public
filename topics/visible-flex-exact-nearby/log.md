@@ -459,3 +459,7 @@ T7后的物理M说明现明确C2=(β(Ξ)−β(0))/√B，因此物理第一相�
 ## 2026-11-14 13:52:13 UTC：精确repair全4650正区高模转授实际完成
 
 43601149891主体子进程0/新数学10.703320795秒，8门、两阶、4650闭行、3594原接口全成。native eefb94952a409473fed7f9c34afc9214a3346d8c3b19ed7e0a7fc6fd06f48a68以9件无损保存。χ0<.303291579403、χ1<.788277735610分别带真外/独立右high；完整ordinary源、两端raw迹、head及mean字段保。新global reference与已成rootcollar准确一致，独立结果即推，继续全Green/高低反馈/负返回。
+
+## 2026-11-14 14:00:41 UTC — 实际全δ解析principal fold及新公开域预算
+
+逐项审完F1–23/source/CI；修正F17逆固定点符号后的原四blob与新worker/workflow独立发布。完整M32+δM96系数保，复域新宽度1/64→1/128、反解矩形与旧primitive方向全部明确。只消费既成397f9…/10ff6…两native，10固定输入139698B；新数学仅本公开Actions。暂不把未运行门、实际root b_fin、strong或PDE存在记成完成。共享终端仍不可用，沿根8接最新main校README并lease发布。

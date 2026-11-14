@@ -111,3 +111,7 @@ root管branch/H/open/results/log并逐条审证即推；newton推进源/正high�
 [同一新global reference的repair正根collar](results/R133-supplement-exact-repair-global-positive-root-collar.md)解析合同已成并接独立公开CI。三个实际原native复用，新核完整M32/band64系数、修复mean与真pR、全193head↔high/ordinary源/两端trace及角regularity；[实际43600926806的23门](results/R133-supplement-actual-exact-repair-positive-root-collar.md)现已全成：EH<32.041315545130，headloop<1e−6；source/port→全态1/12000、1/100，两端trace1/36、9/2。仅δ=0，不授band192或根reflection相位。
 
 repair正主体/外graph现已接[公开101输入合同](notes/2026-11-14-R133-repaired-positive-CI-contract.md)：原四parts逐字恢复4650闭行，真物理角cap变化与65right-offset重付完整Hs/Hilbert/mean/affine外列，再新算两个order的scalar比较与全行source/head膨胀。先成功outer可独立复用；超过5MB的完整native按既有原字节分片规则保存，未删任何行。实际43601149891的[外图25门](results/R133-supplement-actual-exact-repair-complete-regular-outer-graph.md)和[主体8门/4650闭行](results/R133-supplement-actual-exact-repair-whole-positive-N97-inverse.md)均已完成：χ0<.303291579403含真新外反射，χ1<.788277735610保右high独立；source/head/mean/3594接口全保。同一参考可接已成repair正根collar，δ96/全低head及负返回继续。
+
+### 当前实际 principal fold 的新消费
+
+已证明并部署 [完整实际解析折叠](results/R133-supplement-actual-moving-analytic-principal-fold.md) 与10输入公开consumer。两特征foot流给真实坐标、复逆矩形、局部切向项T²整除和旧角两幅矩阵；全δ96/band192保。待实际预算run，随后付旧闭曲线primitive/mean/source的两幅展开、root两行matching、实际brootfin及strong，不能把域门当根散射。

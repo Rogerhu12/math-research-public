@@ -149,3 +149,7 @@
 ### R133 补充：精确repair背景上的实际4650正区高模逆
 
 **已证明。** [完整实际结果](results/R133-supplement-actual-exact-repair-whole-positive-N97-inverse.md)由43601149891两order/8门给所有|j|≥97的完整高逆：χ0<.303291579403含本次真外，χ1<.788277735610保独立右high。4650闭行、3594原接口和全部source/head/mean列保；新16.91MB原件9件无损保存，已与新repair root参考一致，仍不授全低head/负返回/δ96或Schur。
+
+### 实际全参数解析主部折叠
+
+[主部折叠证明及公开消费入口](results/R133-supplement-actual-moving-analytic-principal-fold.md)：从完整原germ/root-budget构造两真实analytic foot流，精确得到μ(∂T²+T∂X²)及非零Jacobian的可消费门，实际inverse固定点径向余项取加号；旧角primitive/mean保在原闭曲线。10原输入只扩宽有限带envelope，不重跑旧germ/response。数值门待公开Actions；未宣称root有限部或strong。
