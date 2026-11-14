@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "number_of_exact_checks": 17,
+  "checks": [
+    "full high-axis exponential including the quadratic term",
+    "first Euler identity in the exact three-block target",
+    "second Euler identity in the exact three-block target",
+    "first contact tail with the exact discarded p multiple",
+    "second contact tail with the exact discarded p multiple",
+    "only the paid boundary tail remains under the weaker original kernel condition",
+    "fixed mod-p2 second obstruction retains the first-lift parameter",
+    "the first-lift change is exactly beta_1 of a first-kernel source",
+    "the genuine second spectral target quotients this exact beta_1 image",
+    "all twenty-six physical boundary rows are retained with their exact exponent",
+    "target Euler preserves the actual boundary and its second falling power kills it",
+    "original second obstruction has the correct precision for boundary exponent 0",
+    "original second obstruction has the correct precision for boundary exponent 1",
+    "the entire second high-axis variation reads only H below s-13",
+    "the weaker original-kernel contact remainder stays in the paid boundary under H",
+    "the original complete next digit remains an aggregate",
+    "the exact central high-axis pairing is isolated without setting either digit to zero"
+  ],
+  "fixed_second_target": "coker(M mod p)",
+  "second_target_when_only_first_kernel_is_fixed": "coker(M mod p) / beta_1(ker(M mod p))",
+  "true_high_axis_variation": "-m13_bar H (0, a_p^-1 shift_s W0, shift_s W1)",
+  "source": "the entire integral canonical conductor of R335, with relative Euler n and original charge n+40",
+  "contact_constraint": "W1 is the Euler value of the same original P; the two contact tails are not independent inputs",
+  "central_constraint": "[w^s](H*S_low) = a_p*c1/p - c2_low mod p",
+  "scope": "Fixed symbolic identities and one composite-length truncated algebra; no target-prime scan. Uniform maps and precision are proved in R338."
+}

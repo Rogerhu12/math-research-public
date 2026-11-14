@@ -1,0 +1,43 @@
+{
+  "result": "R608",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "New result from the current research, with complete newly executed strict certificate. No old-byte recovery claim.",
+  "source_proof_sha256": "adb3abddb6708e8702438f8a9bcbe289becb13e9e20335dc4802bdad49ef0651",
+  "root_review": "Root read the entire proof and exact coefficient/interval program, inspected both executed certificates and hashes, and checked cubic reciprocity against the primary source and the gamma/E1 formulas against NIST. Independently checked same-character phase cancellation, Ramanujan kernel, uniform tail, improved mean constants and primitive budgets. No numerical computation was repeated for packaging; scope excludes an original rational candidate, rank-zero inference, or absolute completion.",
+  "files": [
+    {
+      "file": "results/R608-actual-primitive-ring-class-trace-and-effective-mean.md",
+      "bytes": 19831,
+      "sha256": "f82b780dd8ead4f84d6fd7a28e2bda75981c0b03184bf76c0a5782a2345c876c"
+    },
+    {
+      "file": "scripts/R608_primitive_trace_certificate.py",
+      "bytes": 7958,
+      "sha256": "97b290b920f90a09ceada3db33113eb1c380ee1ffd4c81547c4a306c0fa187b6"
+    },
+    {
+      "file": "notes/R608-p59-d0_169-coefficients.json",
+      "bytes": 17373,
+      "sha256": "b3769b8212962063271716d03dc4ba90eaf43e0f1442e131a0e928adc79a2f2a"
+    },
+    {
+      "file": "notes/R608-p59-d0_169-interval-certificate.json",
+      "bytes": 1337,
+      "sha256": "7a47d6b1322145297c5eb954772b3b5d96498f6ad3af010803d358237da88ce3"
+    },
+    {
+      "file": "notes/R608-agent-primitive-trace-manifest.json",
+      "bytes": 4086,
+      "sha256": "2094981127c975bd13dd606b28fa681c0b46ea56bb41640699671b960a605ad9"
+    },
+    {
+      "file": "notes/2026-11-14-handoff-before-primitive-trace-publication.md",
+      "bytes": 9601,
+      "sha256": "68c37109f495b185b02b20faf6c7b35e104dd1340b834a349c10c7e1d61fce67"
+    }
+  ],
+  "actual_new_interval_certificate_executed": true,
+  "mathematics_repeated_for_packaging": false,
+  "specified_primitive_factor_rank_and_dimension": 8,
+  "universal_primitive_nonvanishing_proved": false
+}

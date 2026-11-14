@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact sparse multivariate BigInt polynomials",
+  "checks": 12,
+  "scaling": "The verifier computes 36 times the complete original normalized Gamma.",
+  "coverage": [
+    "2+1+1",
+    "3+1",
+    "2+2",
+    "4"
+  ],
+  "execution": "Executed in code mode; no terminal or Python run is claimed."
+}

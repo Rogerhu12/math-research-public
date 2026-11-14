@@ -1,0 +1,60 @@
+{
+  "CM7_actual_canonical_dj_value": [
+    [
+      [
+        2865069,
+        0
+      ]
+    ]
+  ],
+  "CM7_canonical_weight2_value": [
+    [
+      [
+        143613,
+        0
+      ]
+    ]
+  ],
+  "CM7_necklace_index_1based": 412,
+  "CM7_weight2_to_dj_scale": [
+    -1,
+    170100
+  ],
+  "T2_diagonal_polynomial_ascending": [
+    0,
+    0,
+    -58046625,
+    16478,
+    -1
+  ],
+  "T2_norm_factor_coordinate_rational": [
+    7,
+    2
+  ],
+  "T2_vertical_polynomial_ascending": [
+    0,
+    0,
+    -16584750,
+    1
+  ],
+  "auxiliary_prime": 47,
+  "canonical_source_over_CM7_dj_value": 2314740,
+  "divisor_local_orders": {
+    "P_minus7": 4,
+    "b": 4
+  },
+  "global_sigma_F2_coordinate": 4622835,
+  "global_sigma_F2_coordinate_800th_power": 4776552,
+  "input_sha256": {
+    "p41_cm12_scales47_certificate.json": "c08fff1218d20868b39b16532b21fdf066e36f62b940bb756afb0d252f6c0d86",
+    "p41_cm7_q2_support47_verified.json.gz": "a6c1733d5f852556e62d9ca901412fb6a786529ddae0726ef5d9eab07f24aa74",
+    "p41_cusp_divisors47_certificate.json.gz": "ae902f25e6d3674b6d474a70ee12a925c0934c198eff94581cfd5dbba30023fb"
+  },
+  "level": 41,
+  "log_of_coordinate_only": 3608895,
+  "log_of_coordinate_only_800th_power": 3224529,
+  "norm_frame": "(j+3375)^(-4) tensor (j^(-4))^(-1), in Norm_(P_minus7-b) O(D_F(P_minus7)); fixed R110 canonical divisor",
+  "precision": 4,
+  "source_sha256": "35b4fdf90f41cd498384a20ca9eb76be0ec6e616e3149fd8f351dac4b6d9eef4",
+  "status": "actual CM7 canonical differential and normalized global F2 section coordinates PASS; the norm-frame Poincare height remains separate"
+}

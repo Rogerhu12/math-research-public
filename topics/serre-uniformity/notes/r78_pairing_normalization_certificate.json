@@ -1,0 +1,189 @@
+{
+  "determinant": 36,
+  "euler_7_factor": 38,
+  "lambda_q_inverse": 38,
+  "lambda_q_second_order": 17,
+  "lambda_r": 28,
+  "lambda_r_inverse": 20,
+  "matrix": [
+    [
+      0,
+      6
+    ],
+    [
+      37,
+      0
+    ]
+  ],
+  "matrix_order": [
+    859,
+    49019
+  ],
+  "p": 43,
+  "p_local_corrections_computed": false,
+  "pairing_convention": "Miller 2004 Proposition 8: (-1)^p f_P(Q)/f_Q(P)",
+  "pairings": [
+    {
+      "base_log_table_sha256": "9619ef6d5db83421a808e52df8c21f8cf8264289ab2e03dea71cde86b38659b1",
+      "base_projection": [
+        15,
+        15
+      ],
+      "f_P_at_iP": [
+        574,
+        249
+      ],
+      "f_iP_at_P": [
+        249,
+        574
+      ],
+      "i_p_point": [
+        [
+          650,
+          0
+        ],
+        [
+          0,
+          268
+        ]
+      ],
+      "k_s": 40,
+      "p_point": [
+        [
+          209,
+          0
+        ],
+        [
+          268,
+          0
+        ]
+      ],
+      "s": 859,
+      "weil_direct": [
+        510,
+        324
+      ],
+      "weil_shifted": [
+        510,
+        324
+      ],
+      "zeta_s": [
+        97,
+        829
+      ]
+    },
+    {
+      "base_log_table_sha256": "eb1107954809bee9edfe7dbc9f41148b2f4b585220ebb7af6a714b996e23f7dc",
+      "base_projection": [
+        0,
+        0
+      ],
+      "f_P_at_iP": [
+        19524,
+        22407
+      ],
+      "f_iP_at_P": [
+        22407,
+        19524
+      ],
+      "i_p_point": [
+        [
+          37483,
+          0
+        ],
+        [
+          0,
+          29305
+        ]
+      ],
+      "k_s": 29,
+      "p_point": [
+        [
+          11536,
+          0
+        ],
+        [
+          29305,
+          0
+        ]
+      ],
+      "s": 49019,
+      "weil_direct": [
+        40963,
+        2385
+      ],
+      "weil_shifted": [
+        40963,
+        2385
+      ],
+      "zeta_s": [
+        19416,
+        40301
+      ]
+    }
+  ],
+  "q": 49019,
+  "q_unramified_K_real_coordinate": 8,
+  "q_unramified_Q_coordinate": 4,
+  "r": 859,
+  "r73_certificate_sha256": "a8b6401171701f8c7ed173e8019f9ff63bf1d86cddc54cdea118982f0992d6df",
+  "r73_line_count": 860,
+  "r73_unweighted_sum": [
+    0,
+    0
+  ],
+  "r73_weight_counts": [
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20
+  ],
+  "r73_weighted_sum": [
+    31,
+    12
+  ],
+  "raw_kappa_r_at_q": [
+    17,
+    26
+  ],
+  "reverse_entry_source": "global reciprocity; not a separately evaluated derivative"
+}

@@ -1,0 +1,38 @@
+{
+  "result": "R275",
+  "proof_sha256": "0c6b594297e1811580662b065ae117193b3c7922defabb58e5435e32919cae46",
+  "review_kind": "Independent full proof reading and primary-source verification by root",
+  "checks": [
+    "Full GL2(F3) image from actual S3 quotient and rational-isogeny exclusion",
+    "Faithful characteristic-zero lift and the complete SL2(F3) trace table",
+    "Langlands all-place equivalence, irreducibility and cuspidality over the imaginary quadratic field",
+    "Different p exponents in the two conductors and uniform wild 2/3 bounds",
+    "Complete small-prime Euler polynomials from the same S3 kernel and actual integer traces",
+    "Wu product form rather than minimum of separate estimates",
+    "Complex nonzero residue, bad factors, compactly supported Mellin shift",
+    "Uniform constants only; no effectiveness or upper bound on variable c asserted"
+  ],
+  "primary_sources_read": [
+    {
+      "url": "https://arxiv.org/pdf/1702.01985",
+      "location": "Theorem1.1"
+    },
+    {
+      "url": "https://wstein.org/edu/2004/24g/flt.pdf",
+      "location": "printed pages541-542, faithful lift after Theorem5.1"
+    },
+    {
+      "url": "https://publications.ias.edu/sites/default/files/base-change-for-gl2_rpl_2.pdf",
+      "location": "Section3, equivalence of all-place and almost-all-place matching, tetrahedral construction and Theorem3.3"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1812.04391",
+      "location": "v5 Theorem1.1,Remark1.3,Siegel uses in4.1.2 and6.3"
+    }
+  ],
+  "exact_alpha": "5/512",
+  "exact_beta": "5/2048",
+  "resulting_exponent": "25/507",
+  "external_theorems_reproved": false,
+  "absolute_Serre_uniformity_complete": false
+}

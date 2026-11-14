@@ -1,0 +1,32 @@
+{
+  "result": "R633",
+  "files": [
+    {
+      "file": "R633-complete-ordinary-unit-lattice-in-the-anti-pq-layer.md",
+      "bytes": 12005,
+      "sha256": "d118fc490200abc3912ec8c6962bae3b0ee8c4d64a6f5f13e7d420f2c3f1c4e2"
+    }
+  ],
+  "proof_inputs": [
+    "R198",
+    "R210",
+    "R561",
+    "R613",
+    "R619"
+  ],
+  "new_computation": "none; complete integral proof using retained actual identities",
+  "proved": [
+    "ker N_Gamma E_N=R_Gamma[T] c_t, free of rank one",
+    "N_Gamma E_N=p O[T]u_t+O u",
+    "complete ordinary unit presentation with real Robert correction",
+    "H1/H2_Gamma=k[T]/(N_T)",
+    "N_T E_N=(p,gamma-1) E_L"
+  ],
+  "open": [
+    "original J",
+    "original scalar C",
+    "ordinary b/lambda/n",
+    "original L",
+    "full LB class module length"
+  ]
+}

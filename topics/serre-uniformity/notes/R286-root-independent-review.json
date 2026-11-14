@@ -1,0 +1,19 @@
+{
+  "result": "R286",
+  "review_kind": "Full proof and both sources read; all four target coordinates and full principal norm rerun from retained real inputs",
+  "outputs": [
+    {
+      "file": "ORD_j07_actual_T3_support47.json.gz",
+      "sha256": "a629f04511e2b0cf37689e38e3cdbc899cd7b89b921298f65e7c0116390ac136",
+      "independent_reexecution_identical_bytes": true
+    },
+    {
+      "file": "ORD_j07_actual_T3_principal_norm47.json.gz",
+      "sha256": "4876d596c4a8e47fe31520f858c122d8b6b8a9428ca8fd44451c90b62e8038a6",
+      "independent_reexecution_identical_bytes": true
+    }
+  ],
+  "source_manifest_sha256": "20c9202a3526ebe3b307b8a4289559e53df603aa861ff6a529b89f8232be09b2",
+  "whole_F3_height_computed": false,
+  "remaining": "Fixed diagonal pullback, fixed norms, canonical section and second-variable connection"
+}

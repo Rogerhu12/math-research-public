@@ -1,0 +1,140 @@
+{
+  "result": "R310",
+  "disk_id": "ORD_j38",
+  "standard_library_only": true,
+  "input_sha256": {
+    "agent-qc/p41_CM11_actual_T3_local_branches47.json.gz": "1a564601a778e620151b3a379b544d27a9194e8b50834c0a55a5d8f508afb516",
+    "agent-qc/ORD_j38_actual_CM_Laurent_F3_polynomial47.json.gz": "7b998675b6c78632880ab0fb5d8c1db7a1840fdc7e4dad92056890a95f13fde8",
+    "agent-qc/ORD_j39_actual_F3_CM_anchored_connections47.json.gz": "46898030f3d0a0650783db06394b4f5a3aad773d351cb03f509dc9bbf1c7b257",
+    "agent-qc/p41_three_ordinary_CM_anchors_and_113_global_functions47.json.gz": "a9c40049ce3eab329ed22ff27edcb39e929491bacf35c11887b348c0609bdb6a",
+    "root-recovery/ORD_j38_actual_canonical_F2_polynomial47.json.gz": "5e9bcb3b839ad7917a2810bfee1d32bef7e79ae9ea435cf5a6a5b02c5daf0441",
+    "root-recovery/ORD_j38-CM-F2-independent-audit.json": "0b5aa5ac002aedc2bbb21af8e51d8af71d17e3cba1e7c7fcb6a31992673d27c1",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_CM11_T3_local_branches47.py": "029e27e4c45a00bf6bf0ca10ad2920b1a44a7f202372a9d7fa899748b71853b1",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_CM11_F3_Laurent_polynomial47.py": "7955414ca997ca95ee31f37d05f37f75485c1db5dd17c0d2bf75f457b0ec4d36",
+    "math-research/topics/serre-uniformity/scripts/data/p41_hecke47_full_saved.json.gz": "84709d6422ffa59f7423a980f882d68de75487d689667c6f21d0af6831e08c0f",
+    "math-research/topics/serre-uniformity/scripts/data/p41_global_qc_polynomials47_complete.json.gz": "4ea4c9d706b3b8e6f671af4b020db6ff6e47b1c871c45654ca31e5e81d4e6e79",
+    "math-research/topics/serre-uniformity/scripts/data/p41_second_kind_connection47.json.gz": "9788da4bb748b98ebfb87014248b0791bba1caa71dc664aa3f2ba83c9ef76945",
+    "math-research/topics/serre-uniformity/scripts/data/p41_eta_calibration47_complete.json.gz": "9fc33dea6a134961a1a5e4dc1677c57dec65d9aca265d8e46b4470ecff18261f"
+  },
+  "actual_branch_kernel_j_and_pullback_checks": [
+    {
+      "branch": 0,
+      "all5_kernel_equations_and_j_composition": true,
+      "pullback_factor_recomputed": true
+    },
+    {
+      "branch": 1,
+      "all5_kernel_equations_and_j_composition": true,
+      "pullback_factor_recomputed": true
+    },
+    {
+      "branch": 2,
+      "all5_kernel_equations_and_j_composition": true,
+      "pullback_factor_recomputed": true
+    },
+    {
+      "branch": 3,
+      "all5_kernel_equations_and_j_composition": true,
+      "pullback_factor_recomputed": true
+    }
+  ],
+  "all4x73_actual_Hecke_trace_coefficients_independently_verified": true,
+  "both_actual_horizontal_full73_CM_points_verified": true,
+  "horizontal_slopes_mod47four": [
+    [
+      489323,
+      0
+    ],
+    [
+      2763796,
+      0
+    ]
+  ],
+  "horizontal_Laurent_residues_mod47four": [
+    [
+      1640978,
+      0
+    ],
+    [
+      3238704,
+      0
+    ]
+  ],
+  "residue_sum": [
+    1,
+    0
+  ],
+  "all_branch_numerators_denominators_and_Laurent_divisions_recomputed": true,
+  "all54_actual_nu_and_moving_gradient_coefficients_recomputed": true,
+  "all_self_regular_fixed_and_j_dlog_pieces_recomputed": true,
+  "no_nonunit_47_division": true,
+  "local_differential_coefficients_mod47cubed": [
+    12102,
+    76234,
+    37637
+  ],
+  "known_CM_global_value": 2685486,
+  "known_CM_scaled_height": 64014,
+  "known_CM_actual_height": 1866558,
+  "height_in_w": [
+    1866558,
+    568794,
+    1245876,
+    2907044
+  ],
+  "height_in_original_y": [
+    1415734,
+    2852900,
+    2699398,
+    2907044
+  ],
+  "global_polynomial": [
+    1101445,
+    1826514,
+    3119484,
+    271707,
+    0
+  ],
+  "QC_polynomial": [
+    600237,
+    3197222,
+    420086,
+    2244344,
+    0
+  ],
+  "candidate_checks": [
+    {
+      "y_mod47cubed": 62093,
+      "QC_F3_value_mod47four": 53063,
+      "differences_in_component_order": [
+        53063,
+        53063,
+        2311272,
+        2311272
+      ]
+    },
+    {
+      "y_mod47cubed": 94227,
+      "QC_F3_value_mod47four": 2621472,
+      "differences_in_component_order": [
+        2621472,
+        2621472,
+        0,
+        0
+      ]
+    }
+  ],
+  "remaining_same_component_pairs": [
+    {
+      "y_mod47cubed": 94227,
+      "bad_component_label": 28
+    },
+    {
+      "y_mod47cubed": 94227,
+      "bad_component_label": 32
+    }
+  ],
+  "extra_F2_root_excluded_for_all_four_components": true,
+  "scope": "Independent exact arithmetic from saved genuine branch jets and actual RR coefficients; does not rerun original torsion calculation or RR rank construction. CM height is a reciprocity input.",
+  "source_sha256": "086c6402c221cd7caedfc8ad086ca11db1d0b25c7116e1ad75350d1122dd2f75"
+}

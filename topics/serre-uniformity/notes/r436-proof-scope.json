@@ -1,0 +1,512 @@
+{
+  "result": "R436",
+  "disk_id": "SS_j0_01",
+  "files": [
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/R436-SS_j0_01-ramified-unit-parameter-F2-height-and-disk.md",
+      "target": "results/R436-SS_j0_01-ramified-unit-parameter-F2-height-and-disk.md",
+      "bytes": 10849,
+      "sha256": "74babde6d53bde6ce075a01a1dec63cf8e8bfba40ad5e102f53ac0abd95f24c2"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_selected_ramified_SS_T2_support47.py",
+      "target": "scripts/p41_selected_ramified_SS_T2_support47.py",
+      "bytes": 12742,
+      "sha256": "017007eb9bb409810eb45930d91099d5a9f16ee149550db06bbda8afe24096b4"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_SS_F2_full_canonical_norm_ramified_unit_parameter47.py",
+      "target": "scripts/p41_SS_F2_full_canonical_norm_ramified_unit_parameter47.py",
+      "bytes": 26477,
+      "sha256": "86827b1dff1327279e82329c12a47e442ee6fec39821d749104e4605a1abe5a9"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_selected_SS_F2_connection_ramified_unit_parameter47.py",
+      "target": "scripts/p41_selected_SS_F2_connection_ramified_unit_parameter47.py",
+      "bytes": 26294,
+      "sha256": "e57b828142433f57035df9db7c748d99e2fd5f18379689fae6e40efd17308ce7"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_selected_SS_F2_polynomial_ramified_unit_parameter47.py",
+      "target": "scripts/p41_selected_SS_F2_polynomial_ramified_unit_parameter47.py",
+      "bytes": 31600,
+      "sha256": "ead1b0786481df743feada15c7a0b8769d72f301597610e34648eb37f4dcd881"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/verify_selected_SS_F2_ramified_unit_parameter47.py",
+      "target": "scripts/verify_selected_SS_F2_ramified_unit_parameter47.py",
+      "bytes": 24595,
+      "sha256": "6d3fd435b79f7cdfb2313b18238e898e8815bceebe44178f1592401df767a1d6"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_rebuild_ramified_SS_F2_unit_parameter47.py",
+      "target": "scripts/p41_rebuild_ramified_SS_F2_unit_parameter47.py",
+      "bytes": 8167,
+      "sha256": "5e32a34376ed8c1dbec398ca9146071fccb0eeda20efdc10ceb543a916da1455"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/R436_SS_j0_01_based_points47.json.gz",
+      "target": "scripts/data/R436_SS_j0_01_based_points47.json.gz",
+      "bytes": 108253,
+      "sha256": "c4344a4351bb0b2afc10e3db935c079cccb70341176936b7fef70ec5ee1efdf3"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/R436_SS_work/SS_j0_01_multiply47.json.gz",
+      "target": "scripts/data/SS_j0_01_multiply47.json.gz",
+      "bytes": 377520,
+      "sha256": "31bb27df60b7f3d8b0e0e6977bf01a361d716de2f8036ea310160d26284d7315"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/R436_SS_work/SS_j0_01_Abel47.json.gz",
+      "target": "scripts/data/SS_j0_01_Abel47.json.gz",
+      "bytes": 443004,
+      "sha256": "6d5208bcbed009e8466b22021bb38fab29980495a694d9beecfec70be43d0077"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j0_01_actual_second_kind_integrals47.json.gz",
+      "target": "scripts/data/SS_j0_01_actual_second_kind_integrals47.json.gz",
+      "bytes": 594985,
+      "sha256": "097f9366da5e496bf1c07356ad82c7c53980628e1e7d998f5448207702080fc4"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j0_01_principal_expression47.json.gz",
+      "target": "scripts/data/SS_j0_01_principal_expression47.json.gz",
+      "bytes": 38684,
+      "sha256": "4b626dff9d4cf20d0f7150862154276d3f0070b9d045413568aaef7bdd882b80"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j0_01_actual_T2_support47.json.gz",
+      "target": "scripts/data/SS_j0_01_actual_T2_support47.json.gz",
+      "bytes": 36787,
+      "sha256": "33a67d31dd4a3e6d1c7a1930135d4dda5dac4be5e8b91a9d8f453027505468dd"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j0_01_actual_T2_principal_norm47.json.gz",
+      "target": "scripts/data/SS_j0_01_actual_T2_principal_norm47.json.gz",
+      "bytes": 23733,
+      "sha256": "313f0b18dc5ffdd5abfdd88e9854ba13a1836a0c31439a9e51fe122cd798a075"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j0_01_actual_F2_first_variable_norm47.json.gz",
+      "target": "scripts/data/SS_j0_01_actual_F2_first_variable_norm47.json.gz",
+      "bytes": 283091,
+      "sha256": "3dad257ac204dcb818db892e6857c5e4ac76d31adc839a7d042e62470b991d6d"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j0_01_actual_canonical_F2_height47.json.gz",
+      "target": "scripts/data/SS_j0_01_actual_canonical_F2_height47.json.gz",
+      "bytes": 57057,
+      "sha256": "85d749c3745c4d6ad88be330b982b21d26f9f08a59c9ef1caaaca7ec9175e9fe"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j0_01_actual_canonical_F2_polynomial47.json.gz",
+      "target": "scripts/data/SS_j0_01_actual_canonical_F2_polynomial47.json.gz",
+      "bytes": 33211,
+      "sha256": "c04563e42488481bdbcec2634742974f34f8838c93e80791261a0924a981d9f0"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j0_01-principal-F2-independent-audit.json",
+      "target": "scripts/data/SS_j0_01-principal-F2-independent-audit.json",
+      "bytes": 6688,
+      "sha256": "791f6ceb6d24b666238a58761346b265b47fe4b271c0a92ed454e2afd0f490e8"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_serre_clearing_126_disks47.json.gz",
+      "target": "scripts/data/p41_serre_clearing_126_disks47.json.gz",
+      "bytes": 204629,
+      "sha256": "c045e16ee1b725e669d3035c83b7a6b89fe97ac32ce502206793ca73e1e212cc"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_serre_clearing_126_disks47_independent.json",
+      "target": "scripts/data/p41_serre_clearing_126_disks47_independent.json",
+      "bytes": 1488,
+      "sha256": "131752b60bd87d0f0484458378a31612c23007843152969b2041c3e9bae905e2"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_ramified_j_regular_height_derivative47.json.gz",
+      "target": "scripts/data/p41_ramified_j_regular_height_derivative47.json.gz",
+      "bytes": 133206,
+      "sha256": "20cb6a58eaff8bee894036db6c459f86821130585a1eecf31a45f46fb8802025"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_ramified_j_regular_height_derivative47_independent.json",
+      "target": "scripts/data/p41_ramified_j_regular_height_derivative47_independent.json",
+      "bytes": 20203,
+      "sha256": "4dda9f6195d321f8544000252fb5444dc77eada6ecf704c69ddf955197f34cde"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_canonical_SS_robust47_raw.json.gz",
+      "target": "scripts/data/p41_canonical_SS_robust47_raw.json.gz",
+      "bytes": 1137714,
+      "sha256": "8786d7067ec711dc71ae1c4ee2df4be8207d9ef3160f41dcec28dbf08c443cba"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_canonical_SS_robust47_certificate.json.gz",
+      "target": "scripts/data/p41_canonical_SS_robust47_certificate.json.gz",
+      "bytes": 9007,
+      "sha256": "bfb1b246bf2ec2520448e4f421cebf19677ebe81324f6e3ba15bac67dd9a25d9"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/R436_SS_j0_01_canonical18_clearingframe_pipeline_checkpoint47.json",
+      "target": "scripts/data/R436_SS_j0_01_canonical18_clearingframe_pipeline_checkpoint47.json",
+      "bytes": 14718,
+      "sha256": "c40bb39203e5846a8eb63247914de9b1fd428574ddb4f2530d12ea8c224681a6"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_SS_j0_01_principal_transports47.tar.gz",
+      "target": "scripts/data/p41_SS_j0_01_principal_transports47.tar.gz",
+      "bytes": 1776170,
+      "sha256": "a2c1dd5b2e2b4f5c45aed4c20f62ed364bde4a23db51a5f2611f675958bfaaef"
+    }
+  ],
+  "existing_prior_result_inputs": [
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_SS_Hecke_graph47.json.gz",
+      "target": "scripts/data/p41_SS_Hecke_graph47.json.gz",
+      "bytes": 887542,
+      "sha256": "9e459c56f5d0b98e355fe7e090527e2bb76fbd65cc920567d716940e3d416e2f",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_SS_second_kind_rhs47.json.gz",
+      "target": "scripts/data/p41_SS_second_kind_rhs47.json.gz",
+      "bytes": 1063664,
+      "sha256": "55ddc99c63f36d3c0789bc00e5d6c8cd5d7f1f6164bf0e1397eaef2858887d86",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_abel_coordinates_and_tiny47_complete.json.gz",
+      "target": "scripts/data/p41_abel_coordinates_and_tiny47_complete.json.gz",
+      "bytes": 234371,
+      "sha256": "0b66b6f3432c79743ff03a27018d56f0dde9fd67dd11e70f859ac2bf6097c266",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_abel_tangents47_checkpoint.json.gz",
+      "target": "scripts/data/p41_abel_tangents47_checkpoint.json.gz",
+      "bytes": 892056,
+      "sha256": "34374a7eb86c63e0d9dbf65f1bb1828513db74a7756a1d0e7f6747588b33bf8e",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_all129_second_kind_tiny47_complete.json.gz",
+      "target": "scripts/data/p41_all129_second_kind_tiny47_complete.json.gz",
+      "bytes": 750800,
+      "sha256": "bdd06433d1403fcd11a6e1251a5ef2562c8acdfcb4b7ee377adc1d322e217405",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_all129_tiny_Abel47_complete.json.gz",
+      "target": "scripts/data/p41_all129_tiny_Abel47_complete.json.gz",
+      "bytes": 266325,
+      "sha256": "e45cde9a1f8dcd657f1cd8f7f1cbc4b2734cbba4fd637281694f2048a36ca934",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_all19_based_points47.json.gz",
+      "target": "scripts/data/p41_all19_based_points47.json.gz",
+      "bytes": 2077409,
+      "sha256": "19f90754a0f83c163f8cbab8ba15fd2fb745bd819f8ea7bc3d4962d164c7e9a4",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_canonical_avoid_all12947_certificate.json.gz",
+      "target": "scripts/data/p41_canonical_avoid_all12947_certificate.json.gz",
+      "bytes": 9044,
+      "sha256": "7b17edf95f3654adb41a46b2a7e901e10ff006110c80b272c01dea06c3daae2a",
+      "already_main": false
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_canonical_avoid_all12947_raw.json.gz",
+      "target": "scripts/data/p41_canonical_avoid_all12947_raw.json.gz",
+      "bytes": 1137624,
+      "sha256": "272f8ef13c9abfc55baac69b561af58eb3a391c117deed5430da756d9e7fd98b",
+      "already_main": false
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_cleared_serre_derivative47_complete.json.gz",
+      "target": "scripts/data/p41_cleared_serre_derivative47_complete.json.gz",
+      "bytes": 259263,
+      "sha256": "88816b754573f49231cd7d25424ac268068d82fa017b7e8515798a8f88f12e4a",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_cm12_scales47_certificate.json",
+      "target": "scripts/data/p41_cm12_scales47_certificate.json",
+      "bytes": 1683,
+      "sha256": "c08fff1218d20868b39b16532b21fdf066e36f62b940bb756afb0d252f6c0d86",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_cm3_logjets47_checkpoint.json.gz",
+      "target": "scripts/data/p41_cm3_logjets47_checkpoint.json.gz",
+      "bytes": 13607,
+      "sha256": "a9a15507f62dbb2373e0c3bee8aa1b3a1e7fd54197cbe692aa33d58b0551e7ea",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_cm4_divisor47_certificate.json",
+      "target": "scripts/data/p41_cm4_divisor47_certificate.json",
+      "bytes": 152098,
+      "sha256": "f98b13cbc7afb3ed5d8b2f9249fbe815198b478b23559c319c5ba56b6bd83540",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_cm_quadratic_jets47_raw.json.gz",
+      "target": "scripts/data/p41_cm_quadratic_jets47_raw.json.gz",
+      "bytes": 283344,
+      "sha256": "a4ec4c7bd3e034ec32aaada36d3ca313bb9911a4bfd5f23b8aaa0582419f6c46",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_cusp_divisors47_certificate.json.gz",
+      "target": "scripts/data/p41_cusp_divisors47_certificate.json.gz",
+      "bytes": 781404,
+      "sha256": "ae902f25e6d3674b6d474a70ee12a925c0934c198eff94581cfd5dbba30023fb",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_elliptic_coarse_atlas47_verified.json.gz",
+      "target": "scripts/data/p41_elliptic_coarse_atlas47_verified.json.gz",
+      "bytes": 69060,
+      "sha256": "e83898f62eabf8321fe1e751242ac8747a53362c165f1ae0e3e62e958a833d41",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_eta_calibration47_complete.json.gz",
+      "target": "scripts/data/p41_eta_calibration47_complete.json.gz",
+      "bytes": 6611,
+      "sha256": "9fc33dea6a134961a1a5e4dc1677c57dec65d9aca265d8e46b4470ecff18261f",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_evaluation_jets47_checkpoint.json.gz",
+      "target": "scripts/data/p41_evaluation_jets47_checkpoint.json.gz",
+      "bytes": 479567,
+      "sha256": "a4ff695e00a7dc7d662f3db0d675549852bc7f3490b5c34d3a18dd98a7528b5d",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_global_qc_polynomials47_complete.json.gz",
+      "target": "scripts/data/p41_global_qc_polynomials47_complete.json.gz",
+      "bytes": 119790,
+      "sha256": "4ea4c9d706b3b8e6f671af4b020db6ff6e47b1c871c45654ca31e5e81d4e6e79",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_group47_checkpoint.json.gz",
+      "target": "scripts/data/p41_group47_checkpoint.json.gz",
+      "bytes": 258695,
+      "sha256": "4f982a4801332f9eff196ff9e9f866883b01014579896c20e65d044530b8b655",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_hecke3_abel_bases_checkpoint.json.gz",
+      "target": "scripts/data/p41_hecke3_abel_bases_checkpoint.json.gz",
+      "bytes": 160316,
+      "sha256": "2c0c16acee560af04582de86e345fe3ded57c8c0d5f8c5f56b2631aaf00e3a8d",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_hecke47_compact.json.gz",
+      "target": "scripts/data/p41_hecke47_compact.json.gz",
+      "bytes": 172168,
+      "sha256": "fc47c5a88596e57d21461acd08a9a865808b54b579ecc5dd06d9819512fc49b8",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_hecke47_full_saved.json.gz",
+      "target": "scripts/data/p41_hecke47_full_saved.json.gz",
+      "bytes": 3501769,
+      "sha256": "84709d6422ffa59f7423a980f882d68de75487d689667c6f21d0af6831e08c0f",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_local47_torsion_certificate.json",
+      "target": "scripts/data/p41_local47_torsion_certificate.json",
+      "bytes": 8238,
+      "sha256": "6384cdce4d6c885f3d2cf706eda2d9af0a8a85d103da42ec6535977aaddc2253",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_makdisi47_certificate.json.gz",
+      "target": "scripts/data/p41_makdisi47_certificate.json.gz",
+      "bytes": 521301,
+      "sha256": "c6ea2f89f4f64eec78039c5b14b6835295b045ea24ae26f885c4047b21e96222",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_miller_unit_atlas47.py",
+      "target": "scripts/p41_miller_unit_atlas47.py",
+      "bytes": 18770,
+      "sha256": "b953b3122a5c70bdf85b562311ed8da545063badea93b7fb27597107708bd641",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_ordinary_B_fibre47.py",
+      "target": "scripts/p41_ordinary_B_fibre47.py",
+      "bytes": 23094,
+      "sha256": "1f592831b333f26b4399f9f4308d5d03d5cb48e57bf12f2340a259e464b87168",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_ordinary_t2_principal_norm47.py",
+      "target": "scripts/p41_ordinary_t2_principal_norm47.py",
+      "bytes": 9152,
+      "sha256": "a6bb2b0e384b325c216a17d8c3c93869bfb9dbd852a2d1a607c833205e278208",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_projective_jet_frames47.py",
+      "target": "scripts/p41_projective_jet_frames47.py",
+      "bytes": 14012,
+      "sha256": "885a69c486dca625f924d2208edf0331e5d5d23c78269df1cc73afcf0af31fa0",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_rational_SS_residue_atlas47_complete.json.gz",
+      "target": "scripts/data/p41_rational_SS_residue_atlas47_complete.json.gz",
+      "bytes": 2077773,
+      "sha256": "f2f4f96ba74676d6b02989a540b434f6b29c2e8a8b4c5d3f7837291851eff0f3",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_rational_SS_second_kind_integrals47_complete.json.gz",
+      "target": "scripts/data/p41_rational_SS_second_kind_integrals47_complete.json.gz",
+      "bytes": 463181,
+      "sha256": "c8b5e8d292b89dadf5cfa5f1b7bafadff6848cda61ddfe207c5009f2ed6a401d",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_second_kind_connection47.json.gz",
+      "target": "scripts/data/p41_second_kind_connection47.json.gz",
+      "bytes": 519915,
+      "sha256": "9788da4bb748b98ebfb87014248b0791bba1caa71dc664aa3f2ba83c9ef76945",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_second_kind_move_poles47.json.gz",
+      "target": "scripts/data/p41_second_kind_move_poles47.json.gz",
+      "bytes": 423485,
+      "sha256": "1914d14beaf7817b09e0a80a9d1788814736432304e22259e2ab58cf7316f496",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_source_cubic47_full_saved.json.gz",
+      "target": "scripts/data/p41_source_cubic47_full_saved.json.gz",
+      "bytes": 1863915,
+      "sha256": "2eda1b699c8e556ab4d161868cb7152106520dd30a84008b2972e21e9a9312f4",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_three_ordinary_CM_anchors_and_113_global_functions47.json.gz",
+      "target": "scripts/data/p41_three_ordinary_CM_anchors_and_113_global_functions47.json.gz",
+      "bytes": 213881,
+      "sha256": "a9c40049ce3eab329ed22ff27edcb39e929491bacf35c11887b348c0609bdb6a",
+      "already_main": true
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_dag_level_transport47.py",
+      "target": "scripts/p41_dag_level_transport47.py",
+      "bytes": 13887,
+      "sha256": "4a7f50d6d88f38535c0e3ef6fb0813c78e4342f67f153167bacecaf1173c701a"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_coprime_kernel_dag47.py",
+      "target": "scripts/p41_coprime_kernel_dag47.py",
+      "bytes": 20827,
+      "sha256": "36d43aab48d14b9b39d6caf54f3bdc96f3829723b50c943c882103f7f014608e"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_supersingular_atlas47.py",
+      "target": "scripts/p41_supersingular_atlas47.py",
+      "bytes": 17902,
+      "sha256": "23b799e48bc7c0ac9618a25d36a3808f2a3253c023cfc0bf51e9f06ce2ec3e05"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_kernel_level_bridge47.py",
+      "target": "scripts/p41_kernel_level_bridge47.py",
+      "bytes": 7325,
+      "sha256": "d541c21e522307950f58288d45af881bbd3ebcf2825bbebc03ebafab15bcb853"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_native_r2_linear47.py",
+      "target": "scripts/p41_native_r2_linear47.py",
+      "bytes": 3365,
+      "sha256": "18a25842e7db48f533b7d8d3304338ba404d9777319e8485dc2dd91a928ed7d8"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_serre_clearing_126_disks47.py",
+      "target": "scripts/p41_serre_clearing_126_disks47.py",
+      "bytes": 5810,
+      "sha256": "fbb3381fa1cce0bd7ae4df91423ef7021967493cad1b45b2265b29fa839608a0"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/verify_serre_clearing_126_disks47.py",
+      "target": "scripts/verify_serre_clearing_126_disks47.py",
+      "bytes": 5196,
+      "sha256": "a68824d3f6bfb445943d5c98184e6c99974f3a0bc4de5480c4b522bfbc13b6fe"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_ramified_j_regular_height_derivative47.py",
+      "target": "scripts/p41_ramified_j_regular_height_derivative47.py",
+      "bytes": 6804,
+      "sha256": "f6f869d76e639d19bd242be3a289ae456713e1bc2f42b1cb80b042682a2f40d9"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/root-recovery/verify_ramified_j_regular_height_derivative47.py",
+      "target": "scripts/verify_ramified_j_regular_height_derivative47.py",
+      "bytes": 5685,
+      "sha256": "55466c33336aafdfd4ccd34e92c75b2131fdd403d280942484affa1cda52c8cb"
+    }
+  ],
+  "shared_actual_SS_engines_from_R329": [
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_SS_Abel_multiply47.py",
+      "target": "scripts/p41_SS_Abel_multiply47.py",
+      "bytes": 7254,
+      "sha256": "ad8ea0d0b6b7bf796fa37297d15a9a4ca18f6472c4701f19eb0d886a5dbf9a3d"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_SS_Abel_with_transports47.py",
+      "target": "scripts/p41_SS_Abel_with_transports47.py",
+      "bytes": 11649,
+      "sha256": "754d36c59a19a6c9c04cb779084d3b2a7f0ceedffefdffc2c32ce6f226ced613"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_SS_second_kind_from_principal47.py",
+      "target": "scripts/p41_SS_second_kind_from_principal47.py",
+      "bytes": 17495,
+      "sha256": "cdafcc136ae0384d382246794ba61c1968eb6fc322b0bd5b861c3c08e88ee4ba"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_SS_T2_support47.py",
+      "target": "scripts/p41_selected_SS_T2_support47.py",
+      "bytes": 6401,
+      "sha256": "660ea2e63d3a083dbf659ecf3cb9b1f37a39d5967c00e890a3dbf27f85a83cec"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/verify_selected_SS_F2_principal47.py",
+      "target": "scripts/verify_selected_SS_F2_principal47.py",
+      "bytes": 13499,
+      "sha256": "5a71ee59bb17b3c14d490574f2ef0ecf13be2775d0871faef16b163ff0f33456"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_rebuild_selected_SS_F2_disk47.py",
+      "target": "scripts/p41_rebuild_selected_SS_F2_disk47.py",
+      "bytes": 6785,
+      "sha256": "f44c80b3dab816ab3491226c33debb491b855fdaceb4edb7dbb271c795f9cc2a"
+    }
+  ],
+  "actual_F2_math_complete": true,
+  "independent_arithmetic_audit_complete": true,
+  "archive_459_files_bytewise_match": true,
+  "entire_disk_excluded_for_all_four_bad_components": true,
+  "remaining_simple_F2_candidates": [],
+  "actual_source_parameter": "original_R228_z",
+  "base_parameter": "j_minus_jb",
+  "ramified_joint_j_correction": "R435 integral delta/K identity",
+  "no_duplicate_long_chain_execution_claimed": true,
+  "main_goal_OPEN": true,
+  "proof_sha256": "74babde6d53bde6ce075a01a1dec63cf8e8bfba40ad5e102f53ac0abd95f24c2"
+}

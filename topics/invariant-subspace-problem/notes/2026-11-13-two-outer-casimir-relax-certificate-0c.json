@@ -1,0 +1,38 @@
+{
+  "scope": "nonactual relaxation; not a counterexample to the actual product-weight conjecture",
+  "parameters": {
+    "n": "25",
+    "m": "30",
+    "D": "20",
+    "t": "78000",
+    "z": "1001/1000",
+    "R": "118388611390607/80000000000000",
+    "mu": "4775831499538263/200000000000",
+    "w": "1/40000"
+  },
+  "all_first_outer_steps": "positive norms, both positive phase denominators, both scalar families, both shear signs, mu interval, all three-point Casimirs, finite-width curvature caps: PASS",
+  "all_global_means": "all 57 endpoints and mean bounds, all 55 strict concavity inequalities, all five local slopes: PASS",
+  "center_outer_constraints": {
+    "Em": 3.1227078169991165,
+    "Ep": 4.521844281743037
+  },
+  "quartic_coefficient_signs": [
+    "+",
+    "-",
+    "+",
+    "+",
+    "+"
+  ],
+  "exact_quartic_value": "-25365430648767440701338909395372000264973483217359755936270685575870234438971858079127780048697788566938202317733168636614416318138876669010246716258306342416801008599100713983974391231156569723391518061388929198386256881050667934406631318138173418828879399199085329673461485057239/6913260531636167122672396763281234111148923722974905049008745777603143999591633721655702141244094924142499295011071304157998526968369400599494064510507366640656510247125293664829440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "approx_quartic_value": -3669098.037415376,
+  "first_left_failure": {
+    "n": 23,
+    "upper_defect": -0.341540783165617
+  },
+  "first_right_failure": {
+    "n": 27,
+    "next_lower_ratio": 0.7019404590467776,
+    "present_lower_ratio": 2.5136271952871807,
+    "upper_defect": -0.07498337901832396
+  }
+}

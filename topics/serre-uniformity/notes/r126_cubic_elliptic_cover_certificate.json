@@ -1,0 +1,210 @@
+{
+  "field_discriminant": -324,
+  "field_polynomial_ascending": [
+    -4,
+    -3,
+    0,
+    1
+  ],
+  "integral_basis": [
+    "1",
+    "r",
+    "r^2"
+  ],
+  "known_lifted_points": [
+    {
+      "a": [
+        2,
+        2,
+        1
+      ],
+      "b": [
+        1,
+        2,
+        1
+      ],
+      "x": 1,
+      "y": 2
+    },
+    {
+      "a": [
+        8,
+        9,
+        4
+      ],
+      "b": [
+        1,
+        4,
+        1
+      ],
+      "x": -1,
+      "y": 12
+    }
+  ],
+  "limitation": "No elliptic rank bound or exhaustive rational point claim",
+  "norm_identity_seven_values": [
+    [
+      0,
+      19
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      387
+    ],
+    [
+      3,
+      5392
+    ],
+    [
+      4,
+      32179
+    ],
+    [
+      5,
+      124884
+    ],
+    [
+      6,
+      373699
+    ]
+  ],
+  "norm_quadratic_degree_bound": 6,
+  "prime_generators": {
+    "norm2": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        -2,
+        1,
+        0
+      ]
+    ],
+    "norm3": [
+      3,
+      1,
+      -1
+    ]
+  },
+  "primitive_dyadic_cases": [
+    [
+      1,
+      0,
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      0,
+      1,
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      1,
+      1,
+      [
+        0,
+        1,
+        0
+      ]
+    ]
+  ],
+  "product_sextic_ascending": [
+    19,
+    -72,
+    84,
+    -10,
+    -36,
+    12,
+    7
+  ],
+  "quadratic_ascending": [
+    [
+      -1,
+      1,
+      1
+    ],
+    [
+      -2,
+      -3,
+      -2
+    ],
+    [
+      3,
+      3,
+      1
+    ]
+  ],
+  "quartic_ascending": [
+    [
+      -3,
+      5,
+      -1
+    ],
+    [
+      6,
+      -17,
+      6
+    ],
+    [
+      3,
+      18,
+      -9
+    ],
+    [
+      -6,
+      -1,
+      2
+    ],
+    [
+      -3,
+      -5,
+      3
+    ]
+  ],
+  "resultant": [
+    19521,
+    23652,
+    10773
+  ],
+  "resultant_norm": 1224440064,
+  "squares_mod2": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ]
+  ],
+  "unit": [
+    -7,
+    1,
+    1
+  ]
+}

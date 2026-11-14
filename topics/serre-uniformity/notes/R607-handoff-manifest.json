@@ -1,0 +1,130 @@
+{
+  "result": "R607",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "Necessary reconstruction of lost unpublished SS_j0_04; new R607 identifier because old per-disk mapping was unavailable.",
+  "source_proof_sha256": "2409ee2513cd78dbc587ae96b126322535b32c5dd6f96450e67aa57c16a4abe8",
+  "root_review": "Root read all actual saved audit fields and polynomial/tail data. Original prepare-only geometry and all nine stages actually executed after loss, including 304-bit chain. Independent audit checks 457 sections,455 divisor relations,1365 Weierstrass relations,460 complete norms,108 integral matches, tangent compensation and actual global polynomial. Deterministic archive was compared byte-for-byte with all459 original files; no packaging rerun of sealed math.",
+  "files": [
+    {
+      "file": "results/R607-SS_j0_04-ramified-unit-parameter-F2-height-and-disk.md",
+      "bytes": 7602,
+      "sha256": "2409ee2513cd78dbc587ae96b126322535b32c5dd6f96450e67aa57c16a4abe8"
+    },
+    {
+      "file": "scripts/data/R607_SS_j0_04_based_points47.json.gz",
+      "bytes": 108121,
+      "sha256": "de4d21ae925793c96d1f670005bde00f43141b273d0b69916dd85eea7d426bd6"
+    },
+    {
+      "file": "scripts/data/SS_j0_04_actual_F2_first_variable_norm47.json.gz",
+      "bytes": 283293,
+      "sha256": "644223c9881b84a2ddd5fab2980445bb935a6cadc993c86b8de3fb557d972426"
+    },
+    {
+      "file": "scripts/data/SS_j0_04_actual_F2_first_variable_norm47_finite_checkpoint.json.gz",
+      "bytes": 94033,
+      "sha256": "2b07e55795480e4e5fef5d5406364cb9bc81898758a9b4a73f75cbd716b58676"
+    },
+    {
+      "file": "scripts/data/SS_j0_04_actual_F2_first_variable_norm47_full106_checkpoint.json.gz",
+      "bytes": 188837,
+      "sha256": "8d0ebb205dad7abaa7189b6f8525e8832de498d15c1ccb5960e3526db47d92b3"
+    },
+    {
+      "file": "scripts/data/SS_j0_04_actual_T2_principal_norm47.json.gz",
+      "bytes": 23702,
+      "sha256": "22ca80a55c0b6423b74f3cbda77f82f9403834bdd8c77f8a59e1efd30925f078"
+    },
+    {
+      "file": "scripts/data/SS_j0_04_actual_T2_support47.json.gz",
+      "bytes": 37267,
+      "sha256": "ffc5215bb95209976441a1e8e15961b05189353547d2b0fa6ef77c7cece157b1"
+    },
+    {
+      "file": "scripts/data/SS_j0_04_actual_canonical_F2_height47.json.gz",
+      "bytes": 57053,
+      "sha256": "97502df256a116ca05f93008826f46d56f16a00d06a2634c4e3a0e654433a1b4"
+    },
+    {
+      "file": "scripts/data/SS_j0_04_actual_canonical_F2_polynomial47.json.gz",
+      "bytes": 35324,
+      "sha256": "078496b66edd7a921f63f2e38a979f1cf0233c4554bb3f324b89ad307ff38fe8"
+    },
+    {
+      "file": "scripts/data/SS_j0_04_actual_second_kind_integrals47.json.gz",
+      "bytes": 595141,
+      "sha256": "38a4b8886c13aba0f7c0773b3417fe9557761b32f24540ac621ba105476bef82"
+    },
+    {
+      "file": "scripts/data/SS_j0_04_principal_expression47.json.gz",
+      "bytes": 38708,
+      "sha256": "6c1372f358bc57109ba8e4314d0570f7efdb75bed18f4b897fbad188adc01a5b"
+    },
+    {
+      "file": "scripts/data/SS_j0_04-principal-F2-independent-audit.json",
+      "bytes": 7128,
+      "sha256": "5c568f44b30f487676de2e114f50faba938036ed9989b8a36c0a51d9804c5e50"
+    },
+    {
+      "file": "scripts/data/p41_SS_j0_04_principal_transports47.tar.gz",
+      "bytes": 1775615,
+      "sha256": "1d597842a7d4999fb8be57652cdebc5fa93f59196c25c1ace6f28083b7a187fd"
+    },
+    {
+      "file": "scripts/data/SS_j0_04_multiply47.json.gz",
+      "bytes": 377415,
+      "sha256": "dcf4fdb28a641d58a58ae7988b887ef8e1396c33e99cfbcc5421b7ba3a0e1278"
+    },
+    {
+      "file": "scripts/data/SS_j0_04_Abel47.json.gz",
+      "bytes": 442700,
+      "sha256": "c876317a56ff1a309de16e9292482740ed2e0e2dbaff588941fcefc763b3fa00"
+    },
+    {
+      "file": "scripts/data/R607_SS_j0_04_canonical18_clearingframe_pipeline_checkpoint47.json",
+      "bytes": 17802,
+      "sha256": "c67314d7e3af611ff39415a1520f104775ed54f8ddac12f0bb8ccadc1f50770e"
+    }
+  ],
+  "actual_executed_stages": [
+    {
+      "stage": "actual_chain",
+      "source_sha256": "754d36c59a19a6c9c04cb779084d3b2a7f0ceedffefdffc2c32ce6f226ced613"
+    },
+    {
+      "stage": "actual_terminal_and_nu",
+      "source_sha256": "cdafcc136ae0384d382246794ba61c1968eb6fc322b0bd5b861c3c08e88ee4ba"
+    },
+    {
+      "stage": "actual_integer_principal",
+      "source_sha256": "83010dc05acadf5d9c37ffdce3a219114883e672ed5a65573bd8e42a15d7a52a"
+    },
+    {
+      "stage": "actual_T2_support",
+      "source_sha256": "017007eb9bb409810eb45930d91099d5a9f16ee149550db06bbda8afe24096b4"
+    },
+    {
+      "stage": "actual_T2_norm",
+      "source_sha256": "e97baee02cc79f747137d0b5b393ec4c1ccfbb38bd8b267aebd7238f3eec8270"
+    },
+    {
+      "stage": "actual_full_F2_norm",
+      "source_sha256": "86827b1dff1327279e82329c12a47e442ee6fec39821d749104e4605a1abe5a9"
+    },
+    {
+      "stage": "actual_F2_center",
+      "source_sha256": "e57b828142433f57035df9db7c748d99e2fd5f18379689fae6e40efd17308ce7"
+    },
+    {
+      "stage": "actual_F2_polynomial",
+      "source_sha256": "ead1b0786481df743feada15c7a0b8769d72f301597610e34648eb37f4dcd881"
+    },
+    {
+      "stage": "independent_audit",
+      "source_sha256": "6d3fd435b79f7cdfb2313b18238e898e8815bceebe44178f1592401df767a1d6"
+    }
+  ],
+  "all_nine_stages_executed": true,
+  "archive_members": 459,
+  "archive_bytes_compared_with_originals": true
+}

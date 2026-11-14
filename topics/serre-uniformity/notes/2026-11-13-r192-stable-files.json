@@ -1,0 +1,85 @@
+{
+  "result": "R192",
+  "files": [
+    {
+      "source": "/workspace/scratch/64b49fd2bdbb/math-research/topics/serre-uniformity/results/R192-actual-t3-cm36-divisors-and-principal-transport.md",
+      "target": "results/R192-actual-t3-cm36-divisors-and-principal-transport.md",
+      "bytes": 11222,
+      "sha256": "5368ead710f8caeaf7f9815aec8f3c5bec365a2b806d7d6a10c7aa47e5f9ae6b",
+      "status": "complete R192 actual geometry and principal transport; no height value claimed",
+      "original_source_sha256": "fb55f4dedb307f2475ebc0a7a5a4e96acebcbe2df03d150e6a2efcfbd988de59",
+      "root_update": "explicit restoration from saved complete40-point data; no GP rerun required"
+    },
+    {
+      "source": "/tmp/p41_cm36_hecke47.py",
+      "target": "scripts/p41_cm36_hecke47.py",
+      "bytes": 9069,
+      "sha256": "51479d1351de327e4c691cf04c2618e0d83b5fb10248c0a4ec5cff96d458f557",
+      "status": "complete R192 actual geometry and principal transport; no height value claimed"
+    },
+    {
+      "source": "/tmp/p41_cm36_hecke47.gp",
+      "target": "scripts/p41_cm36_hecke47.gp",
+      "bytes": 4017,
+      "sha256": "d33d164a455aef1efddc3a209d5ea9a12f570c2fb76128d1ba9a6c2c029e08ff",
+      "status": "complete R192 actual geometry and principal transport; no height value claimed"
+    },
+    {
+      "source": "/tmp/p41_cm36_hecke47_corrected.gp",
+      "target": "scripts/p41_cm36_hecke47_corrected.gp",
+      "bytes": 4162,
+      "sha256": "40814f9091483b76e85e1e195906b73e228cf9dcfc5749546774e38920b095de",
+      "status": "complete R192 actual geometry and principal transport; no height value claimed"
+    },
+    {
+      "source": "/tmp/p41_cm36_finish47.py",
+      "target": "scripts/p41_cm36_finish47.py",
+      "bytes": 5491,
+      "sha256": "3b38366f6544b86ecab0eee4079f8309d64a226d008a9897f4e01ab6bc992f3a",
+      "status": "complete R192 actual geometry and principal transport; no height value claimed"
+    },
+    {
+      "source": "/tmp/verify_p41_cm36_exact.py",
+      "target": "scripts/verify_p41_cm36_exact.py",
+      "bytes": 2396,
+      "sha256": "d7a4a943687190af9a6062d472edf0c33b3dee9a9e96fcb2b1ce4a8f099d9e02",
+      "status": "complete R192 actual geometry and principal transport; no height value claimed"
+    },
+    {
+      "source": "/tmp/p41_cm36_divisor47.py",
+      "target": "scripts/p41_cm36_divisor47.py",
+      "bytes": 7401,
+      "sha256": "b7e491bf2c6c5beb1bcc337b20ee91a1feea0d556c9cc5d76029e1df389cc308",
+      "status": "complete R192 actual geometry and principal transport; no height value claimed"
+    },
+    {
+      "source": "/tmp/compact_p41_cm36_divisor47.py",
+      "target": "scripts/compact_p41_cm36_divisor47.py",
+      "bytes": 1480,
+      "sha256": "bbb2807f1b93afa47f60455df3c0e1936a4ab37913b6d1e0d4ee2d042b730b35",
+      "status": "complete R192 actual geometry and principal transport; no height value claimed"
+    },
+    {
+      "source": "/tmp/p41_cm36_hecke47_raw.json.gz",
+      "target": "scripts/data/p41_cm36_hecke47_raw.json.gz",
+      "bytes": 31941,
+      "sha256": "3ea9d90b3889ef835fc0254673b9358841ee597d37e2a38622906356ed4bd495",
+      "status": "complete R192 actual geometry and principal transport; no height value claimed"
+    },
+    {
+      "source": "/tmp/p41_cm36_divisor47_compact.json.gz",
+      "target": "scripts/data/p41_cm36_divisor47_compact.json.gz",
+      "bytes": 124793,
+      "sha256": "98a3bac64ed758d73dcb5e784213719c11d5f1f546bf17b8d6a20baa3e97762f",
+      "status": "complete R192 actual geometry and principal transport; no height value claimed"
+    }
+  ],
+  "reconstructible_intermediate": {
+    "path": "/tmp/p41_cm36_divisor47_checkpoint.json.gz",
+    "bytes": 449754,
+    "sha256": "eb769dd490ede7fa4a8e5fdf99ec50f69afc859072e80b6143186f992858f302",
+    "commit": false
+  },
+  "separate_branch_records": "contained losslessly in the31941-byte combined actual point data; original source SHA retained",
+  "original_agent_manifest_sha256": "1ff5024d83365a6ff7dae1d488578da94f4b7adfa663b62b8ff1f182ad0cdc99"
+}

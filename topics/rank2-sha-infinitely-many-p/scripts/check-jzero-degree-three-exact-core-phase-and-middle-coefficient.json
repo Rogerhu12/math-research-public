@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "check_count": 41,
+  "checks": [
+    "actual Q lift has exact order three",
+    "actual R lift has exact order three",
+    "actual Q lift is symmetric, not merely projective",
+    "actual R lift is symmetric, not merely projective",
+    "the actual commutator is omega, with the paid sign",
+    "B is the unique U_Q eigenline one",
+    "C-delta beta A is the omega line",
+    "C+delta beta A is the omega-squared line",
+    "the actual R translation sends B to the positive commutator line",
+    "CM residue (1,0): Q covariance is exact",
+    "CM residue (1,0): R covariance has the correct direction",
+    "CM residue (1,0): eta is a sixth root",
+    "CM residue (1,0): pi eta is exactly one modulo three",
+    "CM residue (1,1): Q covariance is exact",
+    "CM residue (1,1): R covariance has the correct direction",
+    "CM residue (1,1): eta is a sixth root",
+    "CM residue (1,1): pi eta is exactly one modulo three",
+    "CM residue (1,2): Q covariance is exact",
+    "CM residue (1,2): R covariance has the correct direction",
+    "CM residue (1,2): eta is a sixth root",
+    "CM residue (1,2): pi eta is exactly one modulo three",
+    "CM residue (-1,0): Q covariance is exact",
+    "CM residue (-1,0): R covariance has the correct direction",
+    "CM residue (-1,0): eta is a sixth root",
+    "CM residue (-1,0): pi eta is exactly one modulo three",
+    "CM residue (-1,1): Q covariance is exact",
+    "CM residue (-1,1): R covariance has the correct direction",
+    "CM residue (-1,1): eta is a sixth root",
+    "CM residue (-1,1): pi eta is exactly one modulo three",
+    "CM residue (-1,2): Q covariance is exact",
+    "CM residue (-1,2): R covariance has the correct direction",
+    "CM residue (-1,2): eta is a sixth root",
+    "CM residue (-1,2): pi eta is exactly one modulo three",
+    "the six unit-root residues are distinct",
+    "reference Q coordinates are on the curve",
+    "reference nonkernel 3-torsion coordinates are on the curve",
+    "the reference 3-division roots are all in the CM field",
+    "the actual original p13 C coefficient has the complete phase",
+    "the same actual kernel gives the correct middle Cartier coefficient",
+    "the middle coefficient equals the complete three-torsion phase",
+    "actual u-coordinate sigma-cubic diagonal is the same unit"
+  ],
+  "Q_lift": [
+    [
+      "-1/2",
+      "0",
+      "3*beta/2"
+    ],
+    [
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "-1/(2*beta)",
+      "0",
+      "-1/2"
+    ]
+  ],
+  "R_lift": [
+    [
+      "1/2",
+      "-a/2",
+      "-beta*delta/2"
+    ],
+    [
+      "-1/a",
+      "0",
+      "-beta*delta/a"
+    ],
+    [
+      "1/(2*beta*delta)",
+      "a/(2*beta*delta)",
+      "-1/2"
+    ]
+  ],
+  "all_CM_residue_classes": [
+    {
+      "pi_mod3": [
+        1,
+        0
+      ],
+      "shear": 0,
+      "eta_sign": 1,
+      "eta_omega_exponent": 0
+    },
+    {
+      "pi_mod3": [
+        1,
+        1
+      ],
+      "shear": 2,
+      "eta_sign": 1,
+      "eta_omega_exponent": 1
+    },
+    {
+      "pi_mod3": [
+        1,
+        2
+      ],
+      "shear": 1,
+      "eta_sign": 1,
+      "eta_omega_exponent": 2
+    },
+    {
+      "pi_mod3": [
+        2,
+        0
+      ],
+      "shear": 0,
+      "eta_sign": -1,
+      "eta_omega_exponent": 0
+    },
+    {
+      "pi_mod3": [
+        2,
+        1
+      ],
+      "shear": 1,
+      "eta_sign": -1,
+      "eta_omega_exponent": 2
+    },
+    {
+      "pi_mod3": [
+        2,
+        2
+      ],
+      "shear": 2,
+      "eta_sign": -1,
+      "eta_omega_exponent": 1
+    }
+  ],
+  "exact_core": {
+    "A=sigma^3": "eta_p",
+    "B=x sigma^3": "epsilon^3",
+    "C=y sigma^3": "eta_p",
+    "eta_p": "the unique unit in mu_6 with pi*eta_p=1 mod 3",
+    "reference": "eta_p=psi_(1/4)(mathfrak p)/psi_b(mathfrak p)",
+    "residue": "eta_p=(4b)^((p-1)/6) mod mathfrak p"
+  },
+  "actual_p13": {
+    "eta": 9,
+    "C_coefficient": 10,
+    "middle": 9,
+    "lambda_residue": 8,
+    "C_unit_mass_residue": 7
+  },
+  "scope": "Full original low-source core and all ordinary unit masses. No claim that the target S central derivative is nonzero."
+}

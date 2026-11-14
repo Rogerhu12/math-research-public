@@ -1,0 +1,50 @@
+{
+  "all_pass": true,
+  "atoms": {
+    "a": 1,
+    "b": 2,
+    "s": 0,
+    "t": 1
+  },
+  "base_y": [
+    3,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "base_H": [
+    "5/2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2"
+  ],
+  "full_critical_value_and_gradient_zero": true,
+  "full_hessian_symmetric": true,
+  "normal_coordinates_zero_based": [
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "normal_hessian_determinant": "303585610067241304236083502254927529643651828029100647699997417226868935884800000/335448104013873705753780895760213",
+  "determinant_mod103": 91,
+  "scope": "Exact finite nondegeneracy certificate; the complete rational critical graph then identifies the localized full gradient ideal with that graph ideal. No global Jacobian or operator-inverse conclusion is asserted."
+}

@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact BigInt in Z[i,sqrt(2)]",
+  "target_prime_scan": false,
+  "checks": {
+    "Qplus0_A_equals_minus_kappa_S68_over80": true,
+    "Q0plus_kappa_B_equals_minus_S289_over320": true,
+    "reverse_Q0plus_kappa_S68_equals_minus80A": true,
+    "reverse_Qplus0_S289_equals_minus320kappaB": true,
+    "Qplus0_S4913_equals_minus_kappa_S19652": true,
+    "Q0minus_kappa_CB_equals_exact_R": true
+  },
+  "Q68": [
+    "1",
+    "20",
+    "0",
+    "-176",
+    "480",
+    "-1344",
+    "2048",
+    "-1280",
+    "256"
+  ],
+  "Q289": [
+    "1",
+    "0",
+    "-18",
+    "16",
+    "1"
+  ],
+  "Q4913": [
+    "1",
+    "-7",
+    "21",
+    "-5",
+    "-2"
+  ],
+  "Q19652": [
+    "1",
+    "-76",
+    "608",
+    "-1456",
+    "3296",
+    "-4928",
+    "3584",
+    "-1280",
+    "256"
+  ],
+  "constants": {
+    "u1": "-kappa/80",
+    "u2": "-kappa^-1/320",
+    "u1_times_u2": "1/25600"
+  },
+  "R_for_kappa_Q0minus_CB": [
+    "19509103/28114944000",
+    "10318337/702873600",
+    "777767/27525120",
+    "721667/86016000",
+    "55879/275251200"
+  ],
+  "note": "Q4913's actual lambda^3 identity is proved independently by the CM norm-five trace certificate."
+}

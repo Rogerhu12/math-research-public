@@ -1,0 +1,71 @@
+{
+  "complete": true,
+  "input_sha256": {
+    "ORD_j12": {
+      "ORD_j12_actual_T3_principal_norm47.json.gz": "b106e594922759d6b9d8a98902ad3bfd36f059332a748fd2eb68ff78e9b0e3f9",
+      "ORD_j12_actual_T3_support47.json.gz": "8733edbf7d6f4cdd02c39041c50becc1bef8c020bf7ab0641229549c3b4f6520",
+      "ORD_j12_actual_principal_function47.json.gz": "6424490f83572432bc22a92b2c16282a83fb2b50409757718567b4d16fc11970",
+      "transport_manifest47.json": "24872f0d07c3ad5d5aeded2645c4dba7937ca462c2743cccb8a2e40186702fdf"
+    },
+    "ORD_j15": {
+      "ORD_j15_actual_T3_principal_norm47.json.gz": "b27666fced652a504e46d916944ac029c4c9d53b0ec5d007815562e390529edf",
+      "ORD_j15_actual_T3_support47.json.gz": "22e9c989163e7b2febb0bfd03b703ae185f292401a0e0e68915a61c554b689a1",
+      "ORD_j15_actual_principal_function47.json.gz": "97b1b2253b7b415b3333f5d664a3ba2368691f982e30bbafb00dd82f8b479cbf",
+      "transport_manifest47.json": "66e0a983846d500f91d7abb3e890801e5b550bdf57f6fd9ae43014cfbb68aeaf"
+    },
+    "ORD_j19": {
+      "ORD_j19_actual_T3_principal_norm47.json.gz": "d87189dccec53d06c607a945bc0cf08459cd86f39f7f1c672580118cd99e8aa5",
+      "ORD_j19_actual_T3_support47.json.gz": "905f92e1909210e86e98f2660b3cd31bcccb6dc22cf259d48a1c87a2087fe1df",
+      "ORD_j19_actual_principal_function47.json.gz": "16c5d7a63f813a85b08b9a2cb02bb115524f708a7d99a312fbe2263de546f580",
+      "transport_manifest47.json": "5be45190b1e62882659b6c520232642a6741989e44c4dad9749d488af86d8753"
+    },
+    "ORD_j27": {
+      "ORD_j27_actual_T3_principal_norm47.json.gz": "36c46cb24ecfa0b3351dbf1bc87ae2e7addcedf742a48d268d4b42f56ca41d03",
+      "ORD_j27_actual_T3_support47.json.gz": "b3f85259767c43c8a370bd037da4f7c6c3272bd8e0ca9b6de24bcaf5ed18480b",
+      "ORD_j27_actual_principal_function47.json.gz": "ae8ba46982c462ab79df67f2254c47f029cc586a414dd9cbb923b2d880d7e842",
+      "transport_manifest47.json": "8d582a22dc306e63f850b2dea66c7dbe2fdb86aced1f3234de26469c81cd953c"
+    },
+    "ORD_j32": {
+      "ORD_j32_actual_T3_principal_norm47.json.gz": "43f8e32cc993b56709d8f234190baad5af9e71072522d94f8f475df93a871555",
+      "ORD_j32_actual_T3_support47.json.gz": "0fbd1094cae5aadfd087db5cd6f90b46b0db632f7395668ad2cf3b4dbc5917e0",
+      "ORD_j32_actual_principal_function47.json.gz": "520df55d573d449130b6431815e241fc2d9270bdbd97bed58ddb5a9f887508fa",
+      "transport_manifest47.json": "a81bd11c16a98644a25df3cf6baf7cbed43b2a2b07d9fdc5483a8218d698db13"
+    }
+  },
+  "results": {
+    "ORD_j12": {
+      "all_four_flat_integer_Phi_products_recomputed": true,
+      "log": 488095,
+      "norm": 300875,
+      "unit_logarithms_recomputed": 1840
+    },
+    "ORD_j15": {
+      "all_four_flat_integer_Phi_products_recomputed": true,
+      "log": 2947323,
+      "norm": 4396806,
+      "unit_logarithms_recomputed": 1840
+    },
+    "ORD_j19": {
+      "all_four_flat_integer_Phi_products_recomputed": true,
+      "log": 2506275,
+      "norm": 2151974,
+      "unit_logarithms_recomputed": 1840
+    },
+    "ORD_j27": {
+      "all_four_flat_integer_Phi_products_recomputed": true,
+      "log": 154865,
+      "norm": 2388997,
+      "unit_logarithms_recomputed": 1840
+    },
+    "ORD_j32": {
+      "all455_numerators_re_evaluated_from_exact_coefficients": true,
+      "all5_fixed_factors_re_evaluated": true,
+      "full_integer_Phi_expression_recomputed_in_quartic_algebra": true,
+      "log": 3154875,
+      "norm": 4168707,
+      "norm_via_independent_unit_pivot_elimination": true
+    }
+  },
+  "scope": "Arithmetic and exact retained numerator checks; no group-chain or torsion-table rerun, no local-height or common-root claim",
+  "source_sha256": "6c0ed6fcd20b0acc24549d94359794314454b8d4d0011da5e402028cfebf7978"
+}

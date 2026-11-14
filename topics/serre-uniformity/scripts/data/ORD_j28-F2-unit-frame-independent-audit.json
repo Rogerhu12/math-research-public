@@ -1,0 +1,169 @@
+{
+  "disk_id": "ORD_j28",
+  "input_sha256": {
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_ordinary_F2_unit_frame_connection47.py": "6ee85388bfa35a143b2f282dc423c62525c736ddf8d79d6644c95d59ba19aa94",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_ordinary_F2_unit_frame_polynomial47.py": "14bdf4c9553e6f2f7a6f967afbcd578a8914e12759bcc73f62565aeec1cd0baf",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_ordinary_F2_connection47.py": "4ef5e267a5d730e9bb0c102eba708ff8dca5221a8b339258cf89464170fa9917",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_ordinary_F2_local_polynomial47.py": "229bcedac9b0ded228bce0ccf69eda671cbca408a443736479a7385068e40988",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ORD_j28_actual_canonical_F2_height47.json.gz": "e17df1ef33cc04a4007e63f2b5a278192411fb859366947054d2b24fdf02e553",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ORD_j28_actual_canonical_F2_polynomial47.json.gz": "55f5b529c1e1f1ec6abbb74ddee5cd5a76a995358cd80c7d88b3210198d5d434",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ORD_j28_actual_F2_first_variable_norm47.json.gz": "c124242598543ceabb8e678b1112480fad014ba1b7f0d9dbcaabf6abbdd2f500",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-abel-with-transports/ORD_j28_Abel47.json.gz": "8091780ef50adff0b7cd8073134310032098bb9971d842e79f4ac1ff014c7815",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-abel-with-transports/ORD_j28_multiply47.json.gz": "5fadeeb01c90e429e7e5dea0d2424d37823f45b2622d8b1723057a48f02f579e",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-second-kind/ORD_j28_second_kind_complete47.json.gz": "3a454db2b42a9d86f942b3e56da9499f3700ed8efb208629f82028a04e409894",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-F2-norms/ORD_j28_actual_principal_function47.json.gz": "87376936e7c6c3a161e975b3555f48602e58d1814a265710b827224fe351900c",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-F2-norms/ORD_j28_actual_T2_support47.json.gz": "dc005ff0eaffc8f04c02e526a1b9eaa5317323c8e43137bc616e421f49be5f21",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-F2-norms/ORD_j28_actual_T2_principal_norm47.json.gz": "5d9a73de4288737a257469861ebc9bba57d12f3dd5704ad22e95f5e2b3443855",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_all19_based_points47.json.gz": "19f90754a0f83c163f8cbab8ba15fd2fb745bd819f8ea7bc3d4962d164c7e9a4",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_ordinary_F2_unit_frame_norm47.py": "5154de54a45f42ce209812f5ba84c594e354ef6c8e397ca96d057ae01933d52b",
+    "math-research/topics/serre-uniformity/scripts/data/p41_ordinary_rational_atlas47.json.gz": "f4690eaa185a2122caad0dd63f939bf7554ca9cd4ef34a721be1d254b519d56a",
+    "math-research/topics/serre-uniformity/scripts/data/p41_cusp_divisors47_certificate.json.gz": "ae902f25e6d3674b6d474a70ee12a925c0934c198eff94581cfd5dbba30023fb",
+    "math-research/topics/serre-uniformity/scripts/data/p41_eta_calibration47_complete.json.gz": "9fc33dea6a134961a1a5e4dc1677c57dec65d9aca265d8e46b4470ecff18261f",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-norm-cache/p41_ORD_j28_F2_fixed_chart2_jets27.json.gz": "3c8493eaf9b6e391bb322d989970b4d9b3a6ee7788ca7332fbac552d202a9952"
+  },
+  "all19_nested_input_hash_edges_checked": [
+    [
+      "center",
+      "second"
+    ],
+    [
+      "center",
+      "principal"
+    ],
+    [
+      "center",
+      "T2_support"
+    ],
+    [
+      "center",
+      "full_norm"
+    ],
+    [
+      "polynomial",
+      "center"
+    ],
+    [
+      "polynomial",
+      "Abel"
+    ],
+    [
+      "polynomial",
+      "multiply"
+    ],
+    [
+      "Abel",
+      "multiply"
+    ],
+    [
+      "second",
+      "Abel"
+    ],
+    [
+      "second",
+      "multiply"
+    ],
+    [
+      "second",
+      "based"
+    ],
+    [
+      "principal",
+      "second"
+    ],
+    [
+      "T2_norm",
+      "principal"
+    ],
+    [
+      "T2_norm",
+      "T2_support"
+    ],
+    [
+      "full_norm",
+      "T2_norm"
+    ],
+    [
+      "full_norm",
+      "principal"
+    ],
+    [
+      "full_norm",
+      "second"
+    ],
+    [
+      "full_norm",
+      "multiply"
+    ],
+    [
+      "full_norm",
+      "based"
+    ]
+  ],
+  "based_point_and_terminal_point_hashes_match": true,
+  "fixed_norm_j_tangent_and_sigma_values_match_independently": true,
+  "mixed_frame_C_residues_recomputed_from_actual_quadratic_basis": true,
+  "all73_Hv_coordinates_match_published_R231_tangent": true,
+  "Hv_scale_matches_independent_physical_g1_over_dj": true,
+  "nonunit_fc_Weierstrass": [
+    [
+      3193650,
+      0
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "exact_final_fc_exponent_zero": true,
+  "eta_B_removable_numerator_denominator_recomputed_from_fixed_Norm_jets": true,
+  "eta_B_all_unit_Toeplitz_and_omitted_low_equations_independently_verified": true,
+  "eta_B_first_three_tail_error_valuation_bounds": [
+    6,
+    5,
+    4
+  ],
+  "eta_B_actual_differential_recomputed_with_same_Hv_coordinate": true,
+  "all_local_differential_pieces_and_integrated_height_coefficients_recomputed": true,
+  "actual_g1_over_dj_base_center": [
+    3413944,
+    2039
+  ],
+  "canonical_sigma": 3205754,
+  "canonical_sigma_log": 1822096,
+  "signed_actual_scale": 21113421681728164076758160383370947105909472013138012462421148345826995695660466565589785072,
+  "second_divisor_tiny": 4730362,
+  "full_first_norm_log": 2819671,
+  "actual_center_height": 2298958,
+  "local_polynomial": [
+    2298958,
+    2239362,
+    4418,
+    3114690
+  ],
+  "global_polynomial": [
+    4357558,
+    3444442,
+    2182539,
+    923362,
+    2907044
+  ],
+  "QC_polynomial": [
+    4830895,
+    2797769,
+    3527820,
+    2688353,
+    2907044
+  ],
+  "QC_div47_reduction": [
+    43,
+    25,
+    1,
+    0,
+    0
+  ],
+  "residual_roots": [],
+  "residual_discriminant": 30,
+  "simple_single_F2_root_candidates_to_available_precision": [],
+  "scope": "Independent exact scalar arithmetic and input identity checks, plus source-diff review recorded separately; no duplicate RR, T2 or group-chain reexecution.",
+  "source_sha256": "510baefaa68facb917bc1046abe8937fadf7ed9474caa86aebb440ff430d84b9"
+}

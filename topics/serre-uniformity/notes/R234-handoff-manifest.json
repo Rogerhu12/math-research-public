@@ -1,0 +1,354 @@
+{
+  "result": "R234",
+  "complete_within_stated_scope": true,
+  "files": [
+    {
+      "file": "R234-actual-SS-Hecke-graph-and-Abel-right-hand-sides.md",
+      "bytes": 9015,
+      "sha256": "d479cf02e733756ae5433ebe897effd27b76797c6e999357562d2ee18dd1d139"
+    },
+    {
+      "file": "p41_SS_Hecke_graph47.py",
+      "bytes": 8627,
+      "sha256": "9232a12a18afb5833ab9081a747c6a25b1cbbbc2ecb8b29b535c777185828e0b"
+    },
+    {
+      "file": "p41_SS_Hecke_graph47.json.gz",
+      "bytes": 887542,
+      "sha256": "9e459c56f5d0b98e355fe7e090527e2bb76fbd65cc920567d716940e3d416e2f"
+    },
+    {
+      "file": "p41_SS_Abel_Hecke_rhs47.py",
+      "bytes": 12370,
+      "sha256": "5631c38d530e751d060ac9eb5788c1c9e3d05bf3fe026b71d00f51050bc59bb1"
+    },
+    {
+      "file": "p41_SS_Abel_Hecke_rhs47.json.gz",
+      "bytes": 2090029,
+      "sha256": "d1de4cd4bce3da2a8f635bafe5fb96f429695960f496da64308948c2a8e085a6"
+    },
+    {
+      "file": "p41_SS_rhs_commutation47.py",
+      "bytes": 1379,
+      "sha256": "ec5c8519574da42b9eec42923c4a7c52281d2de03ac29761dc62914d16e3b298"
+    },
+    {
+      "file": "p41_SS_rhs_commutation47.json",
+      "bytes": 360,
+      "sha256": "12ab731d6f354eb97a4c30c0698814f30792b350123705e5c3e2affb7db8121b"
+    },
+    {
+      "file": "p41_SS_Hecke_spectral_precheck47.py",
+      "bytes": 1876,
+      "sha256": "097f04c29115dead1cd5f20ee079615620b3bc0d674361cd90e53e4be8086ac8"
+    },
+    {
+      "file": "p41_SS_Hecke_spectral_precheck47.json",
+      "bytes": 1575,
+      "sha256": "556ad15c958ce82ecdd8e57af7a6f4d0e487b5f8f4d3e0ebfd660c4b459d8a5a"
+    },
+    {
+      "file": "p41_all129_tiny_Abel47.py",
+      "bytes": 4045,
+      "sha256": "b0ddaf0f4a0a442986efa910f3b82def513d6cff6296ea87997bb10727a6539e"
+    },
+    {
+      "file": "p41_all129_tiny_Abel47_complete.json.gz",
+      "bytes": 266325,
+      "sha256": "e45cde9a1f8dcd657f1cd8f7f1cbc4b2734cbba4fd637281694f2048a36ca934"
+    },
+    {
+      "file": "ss-abel-work/chart-000.json.gz",
+      "bytes": 284224,
+      "sha256": "d5da28972184465b7912aef6fd99d16ccda89a338192310fd1f459d82ddfe232"
+    },
+    {
+      "file": "ss-abel-work/chart-001.json.gz",
+      "bytes": 284831,
+      "sha256": "2fc6395d4a95c6d295b6b52c5e4d6bb0fbdca30fb4065c88fe2eac9a3af01063"
+    },
+    {
+      "file": "ss-abel-work/chart-002.json.gz",
+      "bytes": 284877,
+      "sha256": "f3b29890544bdd645f8f046ee9e070f9884c78b0391d9274f10ea06a51cf45dc"
+    },
+    {
+      "file": "ss-abel-work/chart-003.json.gz",
+      "bytes": 284450,
+      "sha256": "70252a5dd8ec082a378c0f6b609b31d52ef2b2241618d59e7cf23d5a67f96939"
+    },
+    {
+      "file": "ss-abel-work/chart-004.json.gz",
+      "bytes": 78413,
+      "sha256": "bbb4a3cf0674bf4962a90199d01fe7af1efa320496279954f02f5942f4ce6510"
+    },
+    {
+      "file": "ss-abel-work/chart-005.json.gz",
+      "bytes": 5927,
+      "sha256": "4eceb075da90843f1feb36050835e62b00459838382952ffb4e78618c6c4e437"
+    },
+    {
+      "file": "ss-abel-work/chart-006.json.gz",
+      "bytes": 229942,
+      "sha256": "083c1a5206a9b8d90d5c5bd95ee8d363e8b47af8820e748f56c8abb515fad643"
+    },
+    {
+      "file": "ss-abel-work/chart-007.json.gz",
+      "bytes": 276115,
+      "sha256": "49306f5f3769961347776851ba3d96a70d740dc2b3db6ee8750ae68c98a53e02"
+    },
+    {
+      "file": "ss-abel-work/chart-008.json.gz",
+      "bytes": 285042,
+      "sha256": "0bfb5d8fef07d91f02b3f4a998233f9bb0b0c947125f7b86aa190d5087a11588"
+    },
+    {
+      "file": "ss-abel-work/chart-009.json.gz",
+      "bytes": 284831,
+      "sha256": "5fdaa9893f059207b96a7873e7e3ed9a871981caaebd27a415cf420b7b880975"
+    },
+    {
+      "file": "ss-abel-work/chart-010.json.gz",
+      "bytes": 284844,
+      "sha256": "f4ea070bd71091e02f003936a0486411676e956de85e02ed84ef2a02761944a9"
+    },
+    {
+      "file": "ss-abel-work/chart-011.json.gz",
+      "bytes": 285320,
+      "sha256": "eb2894718ec65865fd05bd0ebdcb3175e8c081d238b2c0cf62929762e66e86b1"
+    },
+    {
+      "file": "ss-abel-work/chart-012.json.gz",
+      "bytes": 285254,
+      "sha256": "737a89ab03c0ae4935975903702ddd3f41e8850f0a7f5f4d53d82d1e752118a4"
+    },
+    {
+      "file": "ss-abel-work/chart-013.json.gz",
+      "bytes": 285253,
+      "sha256": "e4003e88be9e5a2f865fc371ccd13593412b9096f468dbcbaf693805592f77b8"
+    },
+    {
+      "file": "ss-abel-work/chart-014.json.gz",
+      "bytes": 284914,
+      "sha256": "3a757446b8f49e7714608f1bea81541863e21d376fda3df6ce40434494d197f5"
+    },
+    {
+      "file": "ss-abel-work/chart-015.json.gz",
+      "bytes": 284962,
+      "sha256": "b159b247b2af6c3ac67515ce62e1ef0cee0617bd90e1060078eea99fc6410688"
+    },
+    {
+      "file": "ss-abel-work/chart-016.json.gz",
+      "bytes": 284836,
+      "sha256": "e33eaf4a165192fc9867e00d1475c66c31093a4fc3c4c28d61a1c3dcaa1adac4"
+    },
+    {
+      "file": "ss-abel-work/chart-017.json.gz",
+      "bytes": 284793,
+      "sha256": "b6af6a4e91c4d821b8e2f1148c4da0e9181d81ff8093ece65a1d478cc44adf91"
+    },
+    {
+      "file": "ss-abel-work/chart-018.json.gz",
+      "bytes": 223782,
+      "sha256": "56ba15884366ffe81f24a1ef0116144878cce566ecc324f443a513394113aca6"
+    },
+    {
+      "file": "ss-abel-work/chart-019.json.gz",
+      "bytes": 10315,
+      "sha256": "5a35a5d19199b08bcb221302aa22286f0a6e60dec5ef6012d6daf0e412237420"
+    },
+    {
+      "file": "ss-abel-work/chart-020.json.gz",
+      "bytes": 283916,
+      "sha256": "23c8099ed9ce9203af01073ed407980599a068f3cb82415995ccb7fe8ac4b08f"
+    },
+    {
+      "file": "ss-abel-work/chart-021.json.gz",
+      "bytes": 284963,
+      "sha256": "3e1231afc7aeea911a42927b9f4905715de459523559d20fd02a11fb15f896b1"
+    },
+    {
+      "file": "ss-abel-work/chart-022.json.gz",
+      "bytes": 284857,
+      "sha256": "c381e128f3540dce94ac2d932881715a3dfa70fa0be64690ca0eea1d8805bf47"
+    },
+    {
+      "file": "ss-abel-work/chart-023.json.gz",
+      "bytes": 285289,
+      "sha256": "8bf9f2dd0f95f5d2f1b191f930ef57859d7b6b270395209b2c9e1fd1833458a2"
+    },
+    {
+      "file": "ss-abel-work/chart-024.json.gz",
+      "bytes": 284724,
+      "sha256": "943b6bc76a93c7d3349ee46402c7fa9b705ff2ca8963d1adc24757b5c5e93f75"
+    },
+    {
+      "file": "ss-abel-work/chart-025.json.gz",
+      "bytes": 285221,
+      "sha256": "d435c8341f25f32db0381feaa446e184b1fa4d2da2b4bf4fb93765db783aed9c"
+    },
+    {
+      "file": "ss-abel-work/chart-026.json.gz",
+      "bytes": 284246,
+      "sha256": "bf799b3ad90f8f528832e9be4325841498f69c1b0093b8fdac4c1e9ec7ea4637"
+    },
+    {
+      "file": "ss-abel-work/chart-027.json.gz",
+      "bytes": 285072,
+      "sha256": "4d2bb18c20758911f7c88f30b3d0a58e7c0ba299fd866e1e42b644e215831941"
+    },
+    {
+      "file": "ss-abel-work/chart-028.json.gz",
+      "bytes": 284702,
+      "sha256": "48f2637fadc2186c84260889d8b9ca63e281d1db10a6af56c88146cb99bf8277"
+    },
+    {
+      "file": "ss-abel-work/chart-029.json.gz",
+      "bytes": 285458,
+      "sha256": "c5f9c637cb91c6b94c217de0d98e8c6db377ee018e4a91f1882cbe6083415ed6"
+    },
+    {
+      "file": "ss-abel-work/chart-030.json.gz",
+      "bytes": 285037,
+      "sha256": "fa52f2b885e15e66fa3b4fb8c0e06c94c2bd0dfd7e66961020535aca737e9105"
+    },
+    {
+      "file": "ss-abel-work/chart-031.json.gz",
+      "bytes": 284707,
+      "sha256": "0551183faf3dff8703385c397d21b1f0c83f8bb973449c513288db5aa1e247d6"
+    },
+    {
+      "file": "ss-abel-work/chart-032.json.gz",
+      "bytes": 232773,
+      "sha256": "e74fde4a51ccf47232f2dfeb54d01ea333207e6c5a6b81e2b202dec20129b913"
+    },
+    {
+      "file": "ss-abel-work/chart-033.json.gz",
+      "bytes": 284253,
+      "sha256": "3be18507d74095c7dd1d7f1d2731c47b9a62eba0080556ac4f5151bddf94013a"
+    },
+    {
+      "file": "ss-abel-work/chart-034.json.gz",
+      "bytes": 284905,
+      "sha256": "bb18a42f54faae173d2cd27c68ba6a72d5527b667b0a11bf5834569bd3de3ad7"
+    },
+    {
+      "file": "ss-abel-work/chart-035.json.gz",
+      "bytes": 284741,
+      "sha256": "cc6346093bb50ece2b743d79d8500585e8229b87e7e8e7b900b6efcc8690a425"
+    },
+    {
+      "file": "ss-abel-work/chart-036.json.gz",
+      "bytes": 284850,
+      "sha256": "6a498f9a1a069c7a929525a7588eafe7881f42684a23dd67d8b0f463a6177d09"
+    },
+    {
+      "file": "ss-abel-work/chart-037.json.gz",
+      "bytes": 284995,
+      "sha256": "8322110398c9bce9a70ee7a4a0586346ff5f027132c121a3f5ea85ab5affb8cb"
+    },
+    {
+      "file": "ss-abel-work/chart-038.json.gz",
+      "bytes": 284979,
+      "sha256": "0f7081c79d50ce22de4e4c5d938e9c7f990e038db694ec98dd2e99f238c0c16f"
+    },
+    {
+      "file": "ss-abel-work/chart-039.json.gz",
+      "bytes": 74508,
+      "sha256": "986434230c8bb411552c89b1a409724fbf57db72ea807b18e23a36175354f97b"
+    },
+    {
+      "file": "ss-abel-work/chart-040.json.gz",
+      "bytes": 90823,
+      "sha256": "0479ceba28d8569b9eae3665484ff52724af4fd88b26c156c577945dc3f65e8b"
+    },
+    {
+      "file": "ss-abel-work/chart-041.json.gz",
+      "bytes": 285345,
+      "sha256": "43e6159432402a81e24b09eff75a7c911d9a60bd0065819765a0d685017db6f1"
+    },
+    {
+      "file": "ss-abel-work/chart-042.json.gz",
+      "bytes": 285355,
+      "sha256": "c6bf46add9310bb20ca4c1c2a88e6c11d46b0ba79e306bc596f00d5fb2675cda"
+    },
+    {
+      "file": "ss-abel-work/chart-043.json.gz",
+      "bytes": 285474,
+      "sha256": "ff82e60f79742f10d6443d8a46509e522087455d1e5fe8a7e90554a68b1dd78d"
+    },
+    {
+      "file": "ss-abel-work/chart-044.json.gz",
+      "bytes": 285403,
+      "sha256": "143063ce80fde424cc87b6070879563a6a3264ee3815b586de5f1e6cf565de60"
+    },
+    {
+      "file": "ss-abel-work/chart-045.json.gz",
+      "bytes": 285187,
+      "sha256": "b4c2db151a0a5d9e195615409f35aa23dd5f168928fb17e3a1aa0334c9b3d851"
+    },
+    {
+      "file": "ss-abel-work/chart-046.json.gz",
+      "bytes": 285383,
+      "sha256": "ad3568672baab80ff7aee378ca5633e89a0f20e17d2886442a62ab1720a5e744"
+    },
+    {
+      "file": "ss-abel-work/chart-047.json.gz",
+      "bytes": 285282,
+      "sha256": "6dfacab2052e269cf04c4ca41112e354a9861ac7375beb9c8cebe30525475359"
+    },
+    {
+      "file": "ss-abel-work/chart-048.json.gz",
+      "bytes": 285350,
+      "sha256": "7cd843c66963861d03c8c541d712f5c7b04e80051b425944bb36136909bfb2bc"
+    },
+    {
+      "file": "ss-abel-work/chart-049.json.gz",
+      "bytes": 285233,
+      "sha256": "6b5fced2f930b7f7394d067b3cc6ea743bb9b0da72ef15dc561891dcf13aba4f"
+    },
+    {
+      "file": "ss-abel-work/chart-050.json.gz",
+      "bytes": 285402,
+      "sha256": "20a7dd0fc50804fccbf5622ef5a44398ee57f0b8ef4597a1effab2c556e6287a"
+    },
+    {
+      "file": "ss-abel-work/chart-051.json.gz",
+      "bytes": 285395,
+      "sha256": "a5d0b33b2fa6f9b12e4d263587dbbb37e05e3cf956abd57f36d38a5ca5cd1e3b"
+    },
+    {
+      "file": "ss-abel-work/chart-052.json.gz",
+      "bytes": 285443,
+      "sha256": "9e1afba064852e2073ba5a068fddd97370d55d29e90954d0878dcbb50a7ce62c"
+    },
+    {
+      "file": "ss-abel-work/chart-053.json.gz",
+      "bytes": 223821,
+      "sha256": "43d75aa9dfe33ae6d17fe15ca9d8b9db8f50d8ba38dffb1aaa0725ea2246823e"
+    },
+    {
+      "file": "ss-abel-work/chart-054.json.gz",
+      "bytes": 11013,
+      "sha256": "234374d6ceceb7c15baae7bbe0120c1a0d2614d671ce2fc63fc84649a631f800"
+    }
+  ],
+  "executed_results": {
+    "actual_geometric_SS_vertices": 3154,
+    "constant_actual_isogeny_branches": 49,
+    "complete_target_73coordinate_checks": 22078,
+    "complete_SS_Hecke_rhs_mod47cubed": true,
+    "R2_rhs_commutation_equations_verified": 170316,
+    "all129_rational_disk_tiny_integrals": true,
+    "true_CM_anchors": 3,
+    "rational_center_corrections": 110
+  },
+  "commands": [
+    "python p41_SS_Hecke_graph47.py --script-dir TOPIC/scripts --output p41_SS_Hecke_graph47.json.gz",
+    "python p41_SS_Abel_Hecke_rhs47.py --script-dir TOPIC/scripts --graph p41_SS_Hecke_graph47.json.gz --lie-tiny p41_abel_coordinates_and_tiny47_complete.json.gz --rational-atlas p41_rational_SS_residue_atlas47_complete.json.gz --polynomials p41_global_qc_polynomials47_complete.json.gz --work-dir ss-abel-work --output p41_SS_Abel_Hecke_rhs47.json.gz",
+    "python p41_SS_rhs_commutation47.py --graph p41_SS_Hecke_graph47.json.gz --rhs p41_SS_Abel_Hecke_rhs47.json.gz --output p41_SS_rhs_commutation47.json",
+    "python p41_SS_Hecke_spectral_precheck47.py --full-certificate TOPIC/scripts/data/p41_full_chow_heegner_certificate.json.gz --output p41_SS_Hecke_spectral_precheck47.json",
+    "python p41_all129_tiny_Abel47.py --script-dir TOPIC/scripts --SS-tiny p41_abel_coordinates_and_tiny47_complete.json.gz --ordinary-atlas p41_ordinary_rational_atlas47.json.gz --output p41_all129_tiny_Abel47_complete.json.gz"
+  ],
+  "remaining": "Actual Sylvester solve handled separately byroot R235; ordinary19 large Abel constants, local QC sections and common roots are not declared complete"
+}

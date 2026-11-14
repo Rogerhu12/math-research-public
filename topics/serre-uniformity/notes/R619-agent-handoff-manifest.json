@@ -1,0 +1,46 @@
+{
+  "result": "R619",
+  "status": "complete proof and small arithmetic certificate",
+  "files": [
+    {
+      "file": "R619-ordinary-anti-p-class-group-and-actual-artin-nine.md",
+      "bytes": 19065,
+      "sha256": "9ef8552899df7133a2b9930d020805bb351c77db589034a31db922f199fb8f37"
+    },
+    {
+      "file": "verify_r619_anti_class_artin.py",
+      "bytes": 2935,
+      "sha256": "0d5609a3203a3ebe1204a682c316354bd595a37b12ce6e68cae54844f537c68b"
+    },
+    {
+      "file": "r619_anti_class_artin_certificate.json",
+      "bytes": 937,
+      "sha256": "b95f3f10aae917795ce0be4e41e4597f2e8983c31f1a164d527fa6437e7c370e"
+    }
+  ],
+  "published_inputs": [
+    "R163",
+    "R168",
+    "R171",
+    "R198",
+    "R207",
+    "R210",
+    "R561",
+    "R613"
+  ],
+  "proved": [
+    "Cl(LF_t)_chi=k with Gamma and T trivial",
+    "Norm_T on ordinary class groups is an isomorphism and extension is zero",
+    "the specified auxiliary anti-p Hilbert-90 class has coefficient C_t=9"
+  ],
+  "not_computed": [
+    "original scalar C",
+    "original J",
+    "ordinary b/lambda/n",
+    "original L"
+  ],
+  "old_full_layer_length_43_used": false,
+  "old_full_mixed_unit_lattice_used": false,
+  "large_Robert_computation_repeated": false,
+  "math_check_seconds_below_one": true
+}

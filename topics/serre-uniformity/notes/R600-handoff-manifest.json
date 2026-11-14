@@ -1,0 +1,19 @@
+{
+  "result": "R600",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "Reconstructed after loss of the old workspace and functions memory; no old-byte equality is claimed unless separately evidenced.",
+  "source_proof_sha256": "d6af15862a7498b69750a884e24f278e6de87fa136d0b92f89e917dd43a708a9",
+  "root_review": "Root previously read the entire recovered proof and independently checked the orbit argument, primitive fraction, rational bounds and exact scope. Only self-contained individual bound 4sqrt(3sqrt(3)pD) is used; no lost 6.1sqrt(p) assertion. R587/R598 and the complete general-level Heegner-rank interface are already published. No duplicate numerical rerun.",
+  "files": [
+    {
+      "file": "results/R600-actual-primitive-orbit-selection.md",
+      "bytes": 10893,
+      "sha256": "d6af15862a7498b69750a884e24f278e6de87fa136d0b92f89e917dd43a708a9"
+    },
+    {
+      "file": "notes/R600-reconstruction-rational-certificate.json",
+      "bytes": 334,
+      "sha256": "f7787d5a0a3973b28edf96c0a1310739a31e6613c71eccdf44ac65fca1d8a83f"
+    }
+  ]
+}

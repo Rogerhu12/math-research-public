@@ -1,0 +1,523 @@
+{
+  "result": "R470",
+  "disk_ids": [
+    "SS_j9_05",
+    "SS_j9_06",
+    "SS_j9_07",
+    "SS_j9_08",
+    "SS_j9_09",
+    "SS_j9_10",
+    "SS_j9_12",
+    "SS_j9_13",
+    "SS_j9_14",
+    "SS_j9_15",
+    "SS_j9_16",
+    "SS_j9_17",
+    "SS_j9_18",
+    "SS_j9_20",
+    "SS_j9_21",
+    "SS_j9_22"
+  ],
+  "scope": "Sixteen additional actual two-flip moves and32 real initial V2 SLP records, with independent bounded-integer geometry audits; no304-bit chain, Norm, height or QC exclusion claimed.",
+  "files": [
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/R470-sixteen-additional-j9-real-initial-moves-and-exact-SLP-interfaces.md",
+      "target": "results/R470-sixteen-additional-j9-real-initial-moves-and-exact-SLP-interfaces.md",
+      "bytes": 8551,
+      "sha256": "e7c24cf97296d1f4cdbe0f66103f4fdd7c6f7f8116d6f532a09a806dff317217"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_additional_evaluation_moving_points47.py",
+      "target": "scripts/p41_j9_additional_evaluation_moving_points47.py",
+      "bytes": 12534,
+      "sha256": "aa1194179d6af2b8c596696715d757a566b550fd435cc02712eecb0b94e2f7c2"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/verify_j9_additional_initial_moving_flips47.py",
+      "target": "scripts/verify_j9_additional_initial_moving_flips47.py",
+      "bytes": 10087,
+      "sha256": "41b7e7f43d2a40f6ebf462f661ddb2dada03ca604ed4285759acc578f0229529"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_extended_Abel_multiply47.py",
+      "target": "scripts/p41_j9_extended_Abel_multiply47.py",
+      "bytes": 3023,
+      "sha256": "bca7723bca4f1c8ba3c019b4669f42a70d4e8a707676aeb4a9bd239226cfd37a"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_extended_Abel_with_transports47.py",
+      "target": "scripts/p41_j9_extended_Abel_with_transports47.py",
+      "bytes": 15207,
+      "sha256": "388365c218b3f7286ba5430413c67e173cb53eeb9dd43b76a35b0e3d8816e6c8"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_prepare_remaining_j9_moving_interfaces47.py",
+      "target": "scripts/p41_prepare_remaining_j9_moving_interfaces47.py",
+      "bytes": 7940,
+      "sha256": "ab4a927079d3b5c85db863657634018942fcc145c9282cf2b234e4c70f9f3653"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/R470-source-diff-against-frozen-R399.patch",
+      "target": "notes/R470-source-diff-against-frozen-R399.patch",
+      "bytes": 6449,
+      "sha256": "2ca7e218a122c3df4811c7c5def66691956a1dfeab890ce7cd2efc9bfb89f640"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_remaining16_moving_input_bundle47.json",
+      "target": "scripts/data/p41_j9_remaining16_moving_input_bundle47.json",
+      "bytes": 35428,
+      "sha256": "94a250577f4cc2a837487614898a1dd5d69625b84e207b1fa8e4740956d9c94f"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_remaining16_moved_based_points_block0147.json.gz",
+      "target": "scripts/data/p41_j9_remaining16_moved_based_points_block0147.json.gz",
+      "bytes": 2486047,
+      "sha256": "920e4a6ba10b8d69d334a6458eeb5d94aa47e4fd5d0d3931f84ffc7e21daa756"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_remaining16_moving_independent_audit_block0147.json",
+      "target": "scripts/data/p41_j9_remaining16_moving_independent_audit_block0147.json",
+      "bytes": 4967,
+      "sha256": "48ca9eb1fded28fa745b415c939a6f4eb6bf200bc5fb66cacb5d8563906ad1dd"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_remaining16_moved_based_points_block0247.json.gz",
+      "target": "scripts/data/p41_j9_remaining16_moved_based_points_block0247.json.gz",
+      "bytes": 2487719,
+      "sha256": "b3d0133fa0399170ba496ad02c382f12fcf39f8d13177f74a3974bb29711a623"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_remaining16_moving_independent_audit_block0247.json",
+      "target": "scripts/data/p41_j9_remaining16_moving_independent_audit_block0247.json",
+      "bytes": 4969,
+      "sha256": "bcd9a2e4e6bbc2e0bf62faf3ca06c484881278830769386403ba6c971f30c880"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_remaining16_moved_based_points_block0347.json.gz",
+      "target": "scripts/data/p41_j9_remaining16_moved_based_points_block0347.json.gz",
+      "bytes": 2486326,
+      "sha256": "ec64542dbccc28878532e8f1839ad0b61e356b5f3e236e05125639bb466fd89d"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_remaining16_moving_independent_audit_block0347.json",
+      "target": "scripts/data/p41_j9_remaining16_moving_independent_audit_block0347.json",
+      "bytes": 4967,
+      "sha256": "e2ee37b75b6e9ab2de6d8f7ce4f208045d9bc3bd83b696b259d4a9f2c9f2db10"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_remaining16_moved_based_points_block0447.json.gz",
+      "target": "scripts/data/p41_j9_remaining16_moved_based_points_block0447.json.gz",
+      "bytes": 2485424,
+      "sha256": "79736fcb5f2281fca66338d461243d45576a806015df3d51af7b712efe478bc6"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_remaining16_moving_independent_audit_block0447.json",
+      "target": "scripts/data/p41_j9_remaining16_moving_independent_audit_block0447.json",
+      "bytes": 4968,
+      "sha256": "2f01139ed6cd7c7279f31b7534b824c4594638daf70a8cc6e13afeab3261eed6"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_remaining16_moving_two_flip_independent_audit47.json",
+      "target": "scripts/data/p41_j9_remaining16_moving_two_flip_independent_audit47.json",
+      "bytes": 14352,
+      "sha256": "711970e5080999c4a59f9770b9c816bb44b071e33d1f4b80c3d4a0b07c240cff"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "target": "scripts/data/p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "bytes": 83160,
+      "sha256": "27a33e62c0be391eeaafae29220254a4d56854d56519cdbe71c7ddfaa596bec5"
+    }
+  ],
+  "existing_prior_result_inputs": [
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_all19_based_points47.json.gz",
+      "target": "scripts/data/p41_all19_based_points47.json.gz",
+      "bytes": 2077409,
+      "sha256": "19f90754a0f83c163f8cbab8ba15fd2fb745bd819f8ea7bc3d4962d164c7e9a4"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_cm4_divisor47_certificate.json",
+      "target": "scripts/data/p41_cm4_divisor47_certificate.json",
+      "bytes": 152098,
+      "sha256": "f98b13cbc7afb3ed5d8b2f9249fbe815198b478b23559c319c5ba56b6bd83540"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_cm_quadratic_jets47_raw.json.gz",
+      "target": "scripts/data/p41_cm_quadratic_jets47_raw.json.gz",
+      "bytes": 283344,
+      "sha256": "a4ec4c7bd3e034ec32aaada36d3ca313bb9911a4bfd5f23b8aaa0582419f6c46"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_cusp_divisors47_certificate.json.gz",
+      "target": "scripts/data/p41_cusp_divisors47_certificate.json.gz",
+      "bytes": 781404,
+      "sha256": "ae902f25e6d3674b6d474a70ee12a925c0934c198eff94581cfd5dbba30023fb"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_evaluation_jets47_checkpoint.json.gz",
+      "target": "scripts/data/p41_evaluation_jets47_checkpoint.json.gz",
+      "bytes": 479567,
+      "sha256": "a4ff695e00a7dc7d662f3db0d675549852bc7f3490b5c34d3a18dd98a7528b5d"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_group47_checkpoint.json.gz",
+      "target": "scripts/data/p41_group47_checkpoint.json.gz",
+      "bytes": 258695,
+      "sha256": "4f982a4801332f9eff196ff9e9f866883b01014579896c20e65d044530b8b655"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_hecke3_abel_bases_checkpoint.json.gz",
+      "target": "scripts/data/p41_hecke3_abel_bases_checkpoint.json.gz",
+      "bytes": 160316,
+      "sha256": "2c0c16acee560af04582de86e345fe3ded57c8c0d5f8c5f56b2631aaf00e3a8d"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_makdisi47_certificate.json.gz",
+      "target": "scripts/data/p41_makdisi47_certificate.json.gz",
+      "bytes": 521301,
+      "sha256": "c6ea2f89f4f64eec78039c5b14b6835295b045ea24ae26f885c4047b21e96222"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_rational_SS_residue_atlas47_complete.json.gz",
+      "target": "scripts/data/p41_rational_SS_residue_atlas47_complete.json.gz",
+      "bytes": 2077773,
+      "sha256": "f2f4f96ba74676d6b02989a540b434f6b29c2e8a8b4c5d3f7837291851eff0f3"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_SS_evaluation_collision_moving_points47.py",
+      "target": "scripts/p41_SS_evaluation_collision_moving_points47.py",
+      "bytes": 12324,
+      "sha256": "f2673bf4da653c39347f9642754fb52522aed0536cf013725479d8f1a28cc91f"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_actual_differentials47.py",
+      "target": "scripts/p41_actual_differentials47.py",
+      "bytes": 10919,
+      "sha256": "3ba8420e465a0529049d4397e44353e81a0d4c6035097687398e040dfce5cd31"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_formal47_multiply.py",
+      "target": "scripts/p41_formal47_multiply.py",
+      "bytes": 7591,
+      "sha256": "1240234738b005edc954dd2eea60669889f5dcef809e7a12cb4cd95c66139924"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_group_operations47.py",
+      "target": "scripts/p41_group_operations47.py",
+      "bytes": 9680,
+      "sha256": "e1669248d9e0c0ade8f88ecaf56f03e4a37936036507648c0c0bdfa8ecbe5641"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_moved_SS_Abel_multiply47.py",
+      "target": "scripts/p41_moved_SS_Abel_multiply47.py",
+      "bytes": 3018,
+      "sha256": "066d2d17c25f53521b2b77cc0b62be9e7c5bbcfc94d80dacec31e4e3aaa7cdaa"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_moved_SS_Abel_with_transports47.py",
+      "target": "scripts/p41_moved_SS_Abel_with_transports47.py",
+      "bytes": 15196,
+      "sha256": "6e2d1ccfa7569bf4e56dbad0387ee329ca41b3c715ee3bcc913d88af4dfe7300"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_native_r2_linear47.py",
+      "target": "scripts/p41_native_r2_linear47.py",
+      "bytes": 3365,
+      "sha256": "18a25842e7db48f533b7d8d3304338ba404d9777319e8485dc2dd91a928ed7d8"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_ordinary_Abel_multiply47.py",
+      "target": "scripts/p41_ordinary_Abel_multiply47.py",
+      "bytes": 16833,
+      "sha256": "cd424e39bfa3386c6de74bf7320f2ffce1d37dd121e74d82fd730a30827d6545"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_projective_jet_frames47.py",
+      "target": "scripts/p41_projective_jet_frames47.py",
+      "bytes": 14012,
+      "sha256": "885a69c486dca625f924d2208edf0331e5d5d23c78269df1cc73afcf0af31fa0"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_r2_matrix.py",
+      "target": "scripts/p41_r2_matrix.py",
+      "bytes": 5539,
+      "sha256": "6d2a9501a17e36f6ea88b8f5c357a945369b2cdf5431b5bd0b3ad9be17d50cd8"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/verify_SS_initial_moving_flips47.py",
+      "target": "scripts/verify_SS_initial_moving_flips47.py",
+      "bytes": 9669,
+      "sha256": "20aa88ad9cb1e5a43ff5cd080c4944d71aec73c7babac03896b364ca0ff9436a"
+    }
+  ],
+  "embedded_archive_inputs": [
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block01/run_manifest47.json",
+      "sha256": "0379a5ba5904a41f96d210fd5e2d458d91ecbe443785eb13c24abf95a1c4d57c",
+      "bytes": 4302
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block01/SS_j9_05/function_SS_j9_05_initial_moving_first.json.gz",
+      "sha256": "872a68fbc6d422fdf9ad03408527d12b1f1c49a3b44c18939d002a1e181960c0",
+      "bytes": 2462
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block01/SS_j9_05/function_SS_j9_05_initial_moving_second.json.gz",
+      "sha256": "de87ef24b83c03f3c5a75dd5db7a0c319fb648c4eae4df20920f70aa3726c93b",
+      "bytes": 2526
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block01/SS_j9_06/function_SS_j9_06_initial_moving_first.json.gz",
+      "sha256": "9b0791435825a2f1cfce6fb8c69e209eb6139d64cd142b591454bea04a64a170",
+      "bytes": 2464
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block01/SS_j9_06/function_SS_j9_06_initial_moving_second.json.gz",
+      "sha256": "7a9a5108a1b6bd7ffae7839a14c06921390a7dd8e7825a7d10c617513d33d193",
+      "bytes": 2541
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block01/SS_j9_07/function_SS_j9_07_initial_moving_first.json.gz",
+      "sha256": "bd2d66b80a6d0abea11641910f42daaab47cc7af39d90053fbb31f74b73ab9a0",
+      "bytes": 2465
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block01/SS_j9_07/function_SS_j9_07_initial_moving_second.json.gz",
+      "sha256": "47ccb12acac45d8b4e726012e53bf2752ac8a3a31b26abdbc0bb91bfd216eb32",
+      "bytes": 2531
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block01/SS_j9_08/function_SS_j9_08_initial_moving_first.json.gz",
+      "sha256": "e99703ca78648a14f80e141abc16553bed07763b4a5a95e9360561e148c94278",
+      "bytes": 2474
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block01/SS_j9_08/function_SS_j9_08_initial_moving_second.json.gz",
+      "sha256": "0355791dbde352deecc6b9d329b3351301e98b2e0c02ea466017f3630a3fc3f8",
+      "bytes": 2546
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block02/run_manifest47.json",
+      "sha256": "e233dde53b68af11d54dbd6088e3e652da46e526589eea3a8fd8564340ca09c6",
+      "bytes": 4302
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block02/SS_j9_09/function_SS_j9_09_initial_moving_first.json.gz",
+      "sha256": "16a81662ccf6d4680ec408f4ead4305fd47eb75cefe2485bd6da5996684a1f5e",
+      "bytes": 2455
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block02/SS_j9_09/function_SS_j9_09_initial_moving_second.json.gz",
+      "sha256": "574a8303cb8418726373c46dd3ab9adf95be42247d2e5a3229f2324fa1cdedcc",
+      "bytes": 2534
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block02/SS_j9_10/function_SS_j9_10_initial_moving_first.json.gz",
+      "sha256": "eed4a8cf81e9fdfa6fae96ded245792ca4a03401d2835e2c1deeb5497e3d6c36",
+      "bytes": 2468
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block02/SS_j9_10/function_SS_j9_10_initial_moving_second.json.gz",
+      "sha256": "d02d01921d866220f661cd524b5944905ea5e7062c758cfb8b09210847d41d83",
+      "bytes": 2522
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block02/SS_j9_12/function_SS_j9_12_initial_moving_first.json.gz",
+      "sha256": "815c16ad67e70a194b39b208883536c0ecb80c1e2acb267e84cf5901e8df3b65",
+      "bytes": 2469
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block02/SS_j9_12/function_SS_j9_12_initial_moving_second.json.gz",
+      "sha256": "d5fc3fa5c841d44400adc5ddc51d7de4b7dc7e9b67ba23ee074da55d52f602e6",
+      "bytes": 2527
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block02/SS_j9_13/function_SS_j9_13_initial_moving_first.json.gz",
+      "sha256": "f88d5891f9a0cd90fabcd81023246d3f771af786d9f88778a9b082db832e5e51",
+      "bytes": 2455
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block02/SS_j9_13/function_SS_j9_13_initial_moving_second.json.gz",
+      "sha256": "8fe3e14e60afc5b93de8865e5437a9dfe37e9058cc3a9200525bee83c518375d",
+      "bytes": 2541
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block03/run_manifest47.json",
+      "sha256": "b506d47ca029c18765d9fdeb73faecf5ddd4d1c0f18e3b07418b7bebcd4d61bc",
+      "bytes": 4302
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block03/SS_j9_14/function_SS_j9_14_initial_moving_first.json.gz",
+      "sha256": "d41d82a4ff95e2e6af38d5d6c32c57f9dfe6dee73503457e4e2fc267516b0573",
+      "bytes": 2466
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block03/SS_j9_14/function_SS_j9_14_initial_moving_second.json.gz",
+      "sha256": "cfeaec9a65ee52262e52dba88ab175546dfad31c3a3863861567b5209de287c8",
+      "bytes": 2534
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block03/SS_j9_15/function_SS_j9_15_initial_moving_first.json.gz",
+      "sha256": "bc0f44b599cca4ddbe6eec56ccd182856d8daba0128966359b6e43ee19092174",
+      "bytes": 2452
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block03/SS_j9_15/function_SS_j9_15_initial_moving_second.json.gz",
+      "sha256": "24cfd8a7eeae6ffed992feaf60a5846fabd42e078bfc41e0d33182722ba11c7b",
+      "bytes": 2528
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block03/SS_j9_16/function_SS_j9_16_initial_moving_first.json.gz",
+      "sha256": "742de2da1c506bd368d7878428de5fb6ca86d7be5c5dc48a5dde8df2f036145d",
+      "bytes": 2474
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block03/SS_j9_16/function_SS_j9_16_initial_moving_second.json.gz",
+      "sha256": "559807c01c12b77004c76588df59a956ec7ca2f3cb9299d03c7ee2b373554c9a",
+      "bytes": 2521
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block03/SS_j9_17/function_SS_j9_17_initial_moving_first.json.gz",
+      "sha256": "74754c1dcb8e2e3a6b5d1683d20bcaa835903492ad5c8a770493b34ffe16b7b6",
+      "bytes": 2470
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block03/SS_j9_17/function_SS_j9_17_initial_moving_second.json.gz",
+      "sha256": "7b6f8ff52ce391f9384bcb614481acae8ea0f8006a29f7edfdac3d94c5c30e2d",
+      "bytes": 2516
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block04/run_manifest47.json",
+      "sha256": "5a28da2d99a7431806a9044b88156c9f79bbbf7369b49b8936b1f816f9fea9e2",
+      "bytes": 4302
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block04/SS_j9_18/function_SS_j9_18_initial_moving_first.json.gz",
+      "sha256": "a89fad0bea0a758e3a714d0c88cbb171f6884825cc21b6e8acf15e01ff96c717",
+      "bytes": 2455
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block04/SS_j9_18/function_SS_j9_18_initial_moving_second.json.gz",
+      "sha256": "f61fa878e1b3a87db1bf2ee85e49b5cc133794f1efc8cff38e3f78b81f92b1aa",
+      "bytes": 2539
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block04/SS_j9_20/function_SS_j9_20_initial_moving_first.json.gz",
+      "sha256": "e165aece151ea206cee0cb35291f62c8d55c6f396d93a89a8dd1f77ac0069fda",
+      "bytes": 2453
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block04/SS_j9_20/function_SS_j9_20_initial_moving_second.json.gz",
+      "sha256": "d2027fd732b21bb91477d140a3e7f2542ef7b08d3cb45f897a03a88501dff3dd",
+      "bytes": 2543
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block04/SS_j9_21/function_SS_j9_21_initial_moving_first.json.gz",
+      "sha256": "b27150450c75920d42ea813e31941eeecfc18aa39462f462e06f658ab2c74b9e",
+      "bytes": 2472
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block04/SS_j9_21/function_SS_j9_21_initial_moving_second.json.gz",
+      "sha256": "b358faec088e8934218632a3d386e176569f4c4d1dceb925ebeebd2128671d78",
+      "bytes": 2526
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block04/SS_j9_22/function_SS_j9_22_initial_moving_first.json.gz",
+      "sha256": "ca8a01ac3adf4d46cd0651a8c0f7d2b20a3103d389679e8869747a64b1d5f083",
+      "bytes": 2470
+    },
+    {
+      "archive": "p41_j9_remaining16_initial_transport_records47.tar.gz",
+      "member": "R470-block04/SS_j9_22/function_SS_j9_22_initial_moving_second.json.gz",
+      "sha256": "067e9f9e31f747ca73f131a871e72b9c4d06e699dcfb7886efda0505f5bc5772",
+      "bytes": 2547
+    }
+  ],
+  "all16_real_initial_moves_and_independent_audits_complete": true,
+  "all32_actual_initial_V2_records_complete": true,
+  "all_complete_chains_or_Norms_claimed": false,
+  "local_heights_or_exclusions_claimed": false,
+  "unchanged_R399_four_source_hashes": {
+    "p41_SS_evaluation_collision_moving_points47.py": "f2673bf4da653c39347f9642754fb52522aed0536cf013725479d8f1a28cc91f",
+    "verify_SS_initial_moving_flips47.py": "20aa88ad9cb1e5a43ff5cd080c4944d71aec73c7babac03896b364ca0ff9436a",
+    "p41_moved_SS_Abel_multiply47.py": "066d2d17c25f53521b2b77cc0b62be9e7c5bbcfc94d80dacec31e4e3aaa7cdaa",
+    "p41_moved_SS_Abel_with_transports47.py": "6e2d1ccfa7569bf4e56dbad0387ee329ca41b3c715ee3bcc913d88af4dfe7300"
+  },
+  "actual_rebuild_entry_executed_for_all_four_blocks": true,
+  "publication_dependencies": [
+    "R399"
+  ],
+  "future_F2_result_assignment": {
+    "SS_j9_05": "R438",
+    "SS_j9_06": "R439",
+    "SS_j9_07": "R440",
+    "SS_j9_08": "R441",
+    "SS_j9_09": "R442",
+    "SS_j9_10": "R443",
+    "SS_j9_12": "R444",
+    "SS_j9_13": "R445",
+    "SS_j9_14": "R446",
+    "SS_j9_15": "R447",
+    "SS_j9_16": "R448",
+    "SS_j9_17": "R449",
+    "SS_j9_18": "R450",
+    "SS_j9_20": "R451",
+    "SS_j9_21": "R452",
+    "SS_j9_22": "R453"
+  },
+  "future_F3_result_assignment": {
+    "SS_j9_05": "R454",
+    "SS_j9_06": "R455",
+    "SS_j9_07": "R456",
+    "SS_j9_08": "R457",
+    "SS_j9_09": "R458",
+    "SS_j9_10": "R459",
+    "SS_j9_12": "R460",
+    "SS_j9_13": "R461",
+    "SS_j9_14": "R462",
+    "SS_j9_15": "R463",
+    "SS_j9_16": "R464",
+    "SS_j9_17": "R465",
+    "SS_j9_18": "R466",
+    "SS_j9_20": "R467",
+    "SS_j9_21": "R468",
+    "SS_j9_22": "R469"
+  },
+  "sealing_source_sha256": "6f7e665f933aeea720a401be2134359c16f47e7e22861850cc009b50609f72f1"
+}

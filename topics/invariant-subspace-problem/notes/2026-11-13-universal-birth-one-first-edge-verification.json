@@ -1,0 +1,318 @@
+{
+  "root": {
+    "start": "2026-11-13 18:14:27 UTC",
+    "end": "2026-11-13 18:14:37 UTC",
+    "result": {
+      "all_pass": true,
+      "smallSupports": "0,1,2 vanish; support3 is e2^2 e3 A C2^2 A",
+      "summaries": [
+        {
+          "support": 4,
+          "independentCovarianceConstruction": true,
+          "stats": [
+            {
+              "order": 1,
+              "terms": 52,
+              "min": "1",
+              "max": "24"
+            },
+            {
+              "order": 2,
+              "terms": 298,
+              "min": "1",
+              "max": "2308"
+            },
+            {
+              "order": 3,
+              "terms": 832,
+              "min": "2",
+              "max": "229928"
+            }
+          ]
+        },
+        {
+          "support": 5,
+          "independentCovarianceConstruction": true,
+          "stats": [
+            {
+              "order": 1,
+              "terms": 107,
+              "min": "5",
+              "max": "156"
+            },
+            {
+              "order": 2,
+              "terms": 916,
+              "min": "24",
+              "max": "142596"
+            },
+            {
+              "order": 3,
+              "terms": 3636,
+              "min": "108",
+              "max": "206266188"
+            },
+            {
+              "order": 4,
+              "terms": 9996,
+              "min": "324",
+              "max": "270885257760"
+            }
+          ]
+        },
+        {
+          "support": 6,
+          "independentCovarianceConstruction": true,
+          "stats": [
+            {
+              "order": 1,
+              "terms": 120,
+              "min": "12",
+              "max": "330"
+            },
+            {
+              "order": 2,
+              "terms": 1275,
+              "min": "135",
+              "max": "1798448"
+            },
+            {
+              "order": 3,
+              "terms": 6170,
+              "min": "1350",
+              "max": "13847521032"
+            },
+            {
+              "order": 4,
+              "terms": 20325,
+              "min": "10125",
+              "max": "78933076940784"
+            },
+            {
+              "order": 5,
+              "terms": 53094,
+              "min": "263250",
+              "max": "484440628861514140"
+            }
+          ]
+        }
+      ],
+      "large": [
+        {
+          "alpha": [
+            4,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "positiveEdges": 0
+        },
+        {
+          "alpha": [
+            3,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "positiveEdges": 1
+        },
+        {
+          "alpha": [
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "positiveEdges": 0
+        },
+        {
+          "alpha": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "positiveEdges": 0
+        },
+        {
+          "alpha": [
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "positiveEdges": 0
+        },
+        {
+          "alpha": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "positiveEdges": 0
+        },
+        {
+          "alpha": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "positiveEdges": 0
+        }
+      ],
+      "coefficientDegree": 10,
+      "monomialBase": 32,
+      "maximumIntermediateExponent": 20,
+      "conclusion": "For every finite positive physical row with N>=4, C3<C2^2 on a-perp, equivalently Gamma1 Gamma2^-1 Gamma1<Gamma0 on the complete birth-one primitive space. No higher-birth conclusion."
+    }
+  },
+  "allLargeSupportOffDiagonalValues": [
+    {
+      "partition": [
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "offValues": [
+        "-28",
+        "0"
+      ]
+    },
+    {
+      "partition": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "offValues": [
+        "-104",
+        "-59",
+        "-34",
+        "70"
+      ]
+    },
+    {
+      "partition": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "offValues": [
+        "-140",
+        "-30"
+      ]
+    },
+    {
+      "partition": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "offValues": [
+        "-132",
+        "-94",
+        "-84"
+      ]
+    },
+    {
+      "partition": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "offValues": [
+        "-250",
+        "-196",
+        "-60"
+      ]
+    },
+    {
+      "partition": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "offValues": [
+        "-420"
+      ]
+    },
+    {
+      "partition": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "offValues": [
+        "-840"
+      ]
+    }
+  ],
+  "independentBoundaryPassed": true,
+  "terminalWrapperRun": false,
+  "wrapperSyntaxChecked": true
+}

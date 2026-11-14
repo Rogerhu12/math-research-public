@@ -1,0 +1,331 @@
+{
+  "status": "PASS",
+  "number_of_checks": 38,
+  "checks": [
+    "p=3, n=1, e=0: exact central product",
+    "p=3, n=1, e=0: all p-primary Smith factors",
+    "p=3, n=1, e=1: exact central product",
+    "p=3, n=1, e=1: all p-primary Smith factors",
+    "p=3, n=1, e=2: exact central product",
+    "p=3, n=1, e=2: all p-primary Smith factors",
+    "p=3, n=2, e=0: exact central product",
+    "p=3, n=2, e=0: all p-primary Smith factors",
+    "p=3, n=2, e=1: exact central product",
+    "p=3, n=2, e=1: all p-primary Smith factors",
+    "p=3, n=2, e=2: exact central product",
+    "p=3, n=2, e=2: all p-primary Smith factors",
+    "p=3, n=3, e=0: exact central product",
+    "p=3, n=3, e=0: all p-primary Smith factors",
+    "p=3, n=3, e=1: exact central product",
+    "p=3, n=3, e=1: all p-primary Smith factors",
+    "p=3, n=3, e=2: exact central product",
+    "p=3, n=3, e=2: all p-primary Smith factors",
+    "p=5, n=1, e=0: exact central product",
+    "p=5, n=1, e=0: all p-primary Smith factors",
+    "p=5, n=1, e=1: exact central product",
+    "p=5, n=1, e=1: all p-primary Smith factors",
+    "p=5, n=1, e=2: exact central product",
+    "p=5, n=1, e=2: all p-primary Smith factors",
+    "p=5, n=2, e=0: exact central product",
+    "p=5, n=2, e=0: all p-primary Smith factors",
+    "p=5, n=2, e=1: exact central product",
+    "p=5, n=2, e=1: all p-primary Smith factors",
+    "p=5, n=2, e=2: exact central product",
+    "p=5, n=2, e=2: all p-primary Smith factors",
+    "p=5, n=3, e=0: exact central product",
+    "p=5, n=3, e=0: all p-primary Smith factors",
+    "p=5, n=3, e=1: exact central product",
+    "p=5, n=3, e=1: all p-primary Smith factors",
+    "p=5, n=3, e=2: exact central product",
+    "p=5, n=3, e=2: all p-primary Smith factors",
+    "E17 over F5: trace -4",
+    "Both p=13 embeddings: e=0 for lambda=-2+i"
+  ],
+  "group_ring_cases": [
+    {
+      "p": 3,
+      "n": 1,
+      "e": 0,
+      "dimension": 1,
+      "smith_exponents": [
+        0
+      ]
+    },
+    {
+      "p": 3,
+      "n": 1,
+      "e": 1,
+      "dimension": 1,
+      "smith_exponents": [
+        1
+      ]
+    },
+    {
+      "p": 3,
+      "n": 1,
+      "e": 2,
+      "dimension": 1,
+      "smith_exponents": [
+        2
+      ]
+    },
+    {
+      "p": 3,
+      "n": 2,
+      "e": 0,
+      "dimension": 3,
+      "smith_exponents": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "p": 3,
+      "n": 2,
+      "e": 1,
+      "dimension": 3,
+      "smith_exponents": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "p": 3,
+      "n": 2,
+      "e": 2,
+      "dimension": 3,
+      "smith_exponents": [
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "p": 3,
+      "n": 3,
+      "e": 0,
+      "dimension": 9,
+      "smith_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "p": 3,
+      "n": 3,
+      "e": 1,
+      "dimension": 9,
+      "smith_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3
+      ]
+    },
+    {
+      "p": 3,
+      "n": 3,
+      "e": 2,
+      "dimension": 9,
+      "smith_exponents": [
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "p": 5,
+      "n": 1,
+      "e": 0,
+      "dimension": 1,
+      "smith_exponents": [
+        0
+      ]
+    },
+    {
+      "p": 5,
+      "n": 1,
+      "e": 1,
+      "dimension": 1,
+      "smith_exponents": [
+        1
+      ]
+    },
+    {
+      "p": 5,
+      "n": 1,
+      "e": 2,
+      "dimension": 1,
+      "smith_exponents": [
+        2
+      ]
+    },
+    {
+      "p": 5,
+      "n": 2,
+      "e": 0,
+      "dimension": 5,
+      "smith_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "p": 5,
+      "n": 2,
+      "e": 1,
+      "dimension": 5,
+      "smith_exponents": [
+        0,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "p": 5,
+      "n": 2,
+      "e": 2,
+      "dimension": 5,
+      "smith_exponents": [
+        1,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "p": 5,
+      "n": 3,
+      "e": 0,
+      "dimension": 25,
+      "smith_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "p": 5,
+      "n": 3,
+      "e": 1,
+      "dimension": 25,
+      "smith_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "p": 5,
+      "n": 3,
+      "e": 2,
+      "dimension": 25,
+      "smith_exponents": [
+        0,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "point_count_5": 10,
+  "p13_i_roots": [
+    70,
+    99
+  ],
+  "p13_fermat_residues": [
+    27,
+    157
+  ]
+}

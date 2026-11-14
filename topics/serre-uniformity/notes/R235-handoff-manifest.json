@@ -1,0 +1,101 @@
+{
+  "result": "R235",
+  "complete_within_stated_scope": true,
+  "files": [
+    {
+      "file": "R235-complete-SS-Abel-constants-from-joint-Hecke-equations.md",
+      "bytes": 7766,
+      "sha256": "810caac10826be6ef3cf60d95a8d01f2a6bc798de438668c41c3dedf808b3a2e"
+    },
+    {
+      "file": "p41_SS_sylvester47.py",
+      "bytes": 12478,
+      "sha256": "f297bae427748926bba12e02997341958b36ac8ee70e278a0f96072980dc7a17"
+    },
+    {
+      "file": "p41_SS_Abel_constants47_complete.json.gz",
+      "bytes": 1008309,
+      "sha256": "ca0ddbda9e8e3a3cc7efc6497c00bf9b9d5c21590ca23a239a8c5adb6dee73a4"
+    },
+    {
+      "file": "SS_sylvester47/nullvector.json",
+      "bytes": 25066,
+      "sha256": "b313ba2c8a57bedb76586c0904693b88ebc0e146cced51b46b0c432c27a9b067"
+    },
+    {
+      "file": "SS_sylvester47_joint/inverse_manifest.json",
+      "bytes": 61802,
+      "sha256": "589699362d8aeab454dca49e04e5eae8996e94f478bdc1a2943e6f9015e580e2"
+    },
+    {
+      "file": "SS_sylvester47_joint/P_A_inverse_rows_0000.bin.gz",
+      "bytes": 855592,
+      "sha256": "d40032eca0b170eb6d9238c6a240786e673e5df8cbff520081221e261bdf704c"
+    },
+    {
+      "file": "SS_sylvester47_joint/P_A_inverse_rows_0384.bin.gz",
+      "bytes": 861999,
+      "sha256": "9cc51533b77b3232299834a4a7aba16ceefdd56f1b1b03b3a039f7950b500821"
+    },
+    {
+      "file": "SS_sylvester47_joint/P_A_inverse_rows_0768.bin.gz",
+      "bytes": 861592,
+      "sha256": "ceb4f8cdae6b3ac613147a288c779806b574ebc04755091237bc21e93a66bb88"
+    },
+    {
+      "file": "SS_sylvester47_joint/P_A_inverse_rows_1152.bin.gz",
+      "bytes": 861538,
+      "sha256": "947f8ad4d11c4c223d8118c2c0f8a1d78c0dba76fb3fcf055e25025a165b1b97"
+    },
+    {
+      "file": "SS_sylvester47_joint/P_A_inverse_rows_1536.bin.gz",
+      "bytes": 861264,
+      "sha256": "5c255793529771ed85688a64341de006649c278634e9a46bbf375c683dad7720"
+    },
+    {
+      "file": "SS_sylvester47_joint/P_A_inverse_rows_1920.bin.gz",
+      "bytes": 858935,
+      "sha256": "68ec3db42dee3e5f6f09558b9ec798cd968d088807e88fa47bed69b098a1946a"
+    },
+    {
+      "file": "SS_sylvester47_joint/P_A_inverse_rows_2304.bin.gz",
+      "bytes": 861080,
+      "sha256": "1c236459e6aac52e5a4000b50712c03857e1c421db0a01e1ce1c6f30cf4ab443"
+    },
+    {
+      "file": "SS_sylvester47_joint/P_A_inverse_rows_2688.bin.gz",
+      "bytes": 861757,
+      "sha256": "67de9b14439600dbed0e88278822ef18b83f1dca6c324511ddaab04f32f646da"
+    },
+    {
+      "file": "SS_sylvester47_joint/P_A_inverse_rows_3072.bin.gz",
+      "bytes": 184341,
+      "sha256": "230e5f26591f1eba6bd12234168583535817562a5a852d7b4f5bd4946ee00b9f"
+    }
+  ],
+  "inputs_sha256": {
+    "p41_SS_Hecke_graph47.json.gz": "9e459c56f5d0b98e355fe7e090527e2bb76fbd65cc920567d716940e3d416e2f",
+    "p41_SS_Abel_Hecke_rhs47.json.gz": "d1de4cd4bce3da2a8f635bafe5fb96f429695960f496da64308948c2a8e085a6",
+    "p41_jacobi_cm_certificate.json": "f472bf8d7389cd8face0998431517c74af2e56a10dbc290dda31fde2b2ea7224"
+  },
+  "executed_results": {
+    "actual_geometric_SS_Abel_constants": 3154,
+    "actual_rational_SS_Abel_constants": 110,
+    "cyclic_coordinates_per_point": 54,
+    "precision": 3,
+    "modulus": 103823,
+    "both_original_Hecke_equations_verified": true,
+    "original_P_A_rank_mod47": 3153,
+    "original_P_A_nullity_mod47": 1,
+    "joint_constraint_rank_mod47": 54,
+    "det_11I_minus_M2_mod47": 27,
+    "det_9I_minus_M3_mod47": 34,
+    "independent_CM_anchors": 3,
+    "CM_anchors_used_to_solve": false
+  },
+  "commands": [
+    "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python scripts/p41_SS_sylvester47.py --graph scripts/data/p41_SS_Hecke_graph47.json.gz --fields scripts/data/p41_jacobi_cm_certificate.json --rhs scripts/data/p41_SS_Abel_Hecke_rhs47.json.gz --combination 2 --kernel scripts/data/SS_sylvester47/nullvector.json --regularize-vertex 0 --cache-dir scripts/data/SS_sylvester47_joint --output scripts/data/p41_SS_Abel_constants47_complete.json.gz"
+  ],
+  "dependencies": "numpy and python-flint 0.9.0",
+  "remaining": "ordinary large Abel constants, actual local QC heights, common roots and all-p main goal"
+}

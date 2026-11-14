@@ -1,0 +1,346 @@
+{
+  "status": "PASS",
+  "exact_checks": 46,
+  "checks": [
+    "actual_source_H1",
+    "actual_source_H3",
+    "actual_source_H5",
+    "complete_common_angular_factor",
+    "uniform_normalization_pencil_resultant",
+    "true_graded_ranks_2_3_4",
+    "unique_quartic_relation",
+    "actual_implicit_relation",
+    "actual_conductor_conic_0",
+    "actual_conductor_conic_1",
+    "actual_conductor_conic_2",
+    "conic_quartic_and_rational_inverse",
+    "primitive_normalized_conductor_coefficient",
+    "complete_degree_two_conductor_dimension",
+    "full_original_cubic_representative_0",
+    "full_original_cubic_representative_1",
+    "full_original_cubic_representative_2",
+    "full_original_cubic_representative_3",
+    "full_original_cubic_representative_4",
+    "uniform_original_representative_denominator",
+    "actual_node_preimages",
+    "actual_node_tangent_determinant",
+    "node_is_singular",
+    "actual_tacnode_common_image",
+    "actual_tacnode_first_coordinate",
+    "actual_tacnode_common_tangent",
+    "actual_tacnode_distinct_quadratic_terms",
+    "tacnode_discriminant_and_nonzero_velocity",
+    "tacnode_denominator_only_two_three",
+    "actual_dyadic_coordinate_from_elliptic_doubling",
+    "actual_dyadic_fiber_over_one",
+    "actual_dyadic_derivative",
+    "actual_normalized_conductor_algebraic_identity",
+    "actual_full_dyadic_theta_product",
+    "actual_degree_and_origin_order",
+    "full_first_scaled_sigma_carry",
+    "full_first_q2_block",
+    "full_second_q2_block",
+    "full_third_q2_block",
+    "paid_charge_two_target_unit_inverse",
+    "paid_charge_two_source_exponent",
+    "actual_fixed_inverse_radial_five_jet",
+    "actual_fifth_contact_is_nonzero",
+    "weighted_source_translation_budget",
+    "unit_Schur_terminal_orders",
+    "true_source_rank_and_remaining_Schur_rank"
+  ],
+  "source_scale": "X=7*b*H1, Y=H3, Z=H5; carrier rho=Theta17*(1+8*t)",
+  "parameter_polynomials": [
+    "16*t**4 - 12*t**3 + 3*t**2 - 7*t",
+    "256*t**4 + 1472*t**3 - 1200*t**2 + 200*t + 1",
+    "-128*t**4 - 832*t**3 + 1968*t**2 - 280*t + 1"
+  ],
+  "implicit_quartic": "1327104*X**4 - 221184*X**3*Y - 442368*X**3*Z - 41472*X**2*Y**2 - 76032*X**2*Y*Z - 20736*X**2*Z**2 - 96*X*Y**3 - 288*X*Y**2*Z + 288*X*Y*Z**2 + 96*X*Z**3 + 7*Y**4 - 4*Y**3*Z - 9*Y**2*Z**2 + 2*Y*Z**3 + 4*Z**4",
+  "quartic_monomials": [
+    [
+      0,
+      0,
+      4
+    ],
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      2,
+      2
+    ],
+    [
+      0,
+      3,
+      1
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      1,
+      0,
+      3
+    ],
+    [
+      1,
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      3,
+      0
+    ],
+    [
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      0
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      3,
+      1,
+      0
+    ],
+    [
+      4,
+      0,
+      0
+    ]
+  ],
+  "implicit_quartic_coefficients": [
+    4,
+    2,
+    -9,
+    -4,
+    7,
+    96,
+    288,
+    -288,
+    -96,
+    -20736,
+    -76032,
+    -41472,
+    -442368,
+    -221184,
+    1327104
+  ],
+  "conductor_polynomial": "64*t**6 + 256*t**5 + 64*t**4 - 424*t**3 + 41*t**2 - t",
+  "conductor_polynomial_ascending": [
+    "0",
+    "-1",
+    "41",
+    "-424",
+    "64",
+    "256",
+    "64"
+  ],
+  "conductor_conics": [
+    "-4*X**2/27 + 7*X*Y/162 + X*Z/18 - Y**2/2592 + Y*Z/7776 + Z**2/3888",
+    "-X**2/27 + X*Y/162 + X*Z/108 + Y**2/10368 + Y*Z/31104 - Z**2/7776",
+    "2*X**2/27 + 7*X*Y/648 + X*Z/216 + Y**2/6912 - Y*Z/15552 - 5*Z**2/62208"
+  ],
+  "conic_relation_scalar": "1/(2^14*3^8)",
+  "normalization_pencil_resultant": "25389989167104",
+  "cubic_representative_monomials": [
+    [
+      0,
+      0,
+      3
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      3,
+      0
+    ],
+    [
+      1,
+      0,
+      2
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      3,
+      0,
+      0
+    ]
+  ],
+  "full_conductor_degree_one_product_representatives": [
+    [
+      "13/78732",
+      "703/2834352",
+      "-701/5668704",
+      "-547/1889568",
+      "901/59049",
+      "871/19683",
+      "1408/59049",
+      "4136/19683",
+      "2092/19683",
+      "-1472/2187"
+    ],
+    [
+      "0",
+      "-1/5668704",
+      "1/22674816",
+      "1/7558272",
+      "-2/59049",
+      "-1/157464",
+      "29/472392",
+      "-160/19683",
+      "-125/19683",
+      "16/729"
+    ],
+    [
+      "0",
+      "-5/45349632",
+      "-1/11337408",
+      "1/5038848",
+      "19/944784",
+      "1/314928",
+      "-1/472392",
+      "-28/19683",
+      "-20/19683",
+      "8/2187"
+    ],
+    [
+      "-1/10077696",
+      "-1/22674816",
+      "7/90699264",
+      "1/15116544",
+      "37/3779136",
+      "23/2519424",
+      "17/7558272",
+      "-4/19683",
+      "-11/78732",
+      "1/2187"
+    ],
+    [
+      "-1/13436928",
+      "-65/725594112",
+      "17/181398528",
+      "17/241864704",
+      "73/15116544",
+      "29/2519424",
+      "73/15116544",
+      "19/629856",
+      "5/629856",
+      "0"
+    ]
+  ],
+  "representative_denominator_lcm": "725594112",
+  "node": {
+    "point": [
+      0,
+      1,
+      1
+    ],
+    "normalization_parameters": [
+      0,
+      1
+    ],
+    "tangent_vectors": [
+      [
+        "-7",
+        "-480"
+      ],
+      [
+        "1/27",
+        "-32/9"
+      ]
+    ],
+    "tangent_determinant": "128/3",
+    "conductor_orders": [
+      1,
+      1
+    ]
+  },
+  "tacnode": {
+    "point": [
+      -1,
+      24,
+      -24
+    ],
+    "normalization_parameter_polynomial": "8*t**2 + 20*t - 1",
+    "first_coordinate_derivative": "-4*t/27 - 19/54",
+    "quadratic_branch_coefficients": "1024*t/3 + 2432/3",
+    "conductor_orders": [
+      2,
+      2
+    ]
+  },
+  "dyadic_parameter": "64*t*(1 - t)**3/(8*t + 1)**3",
+  "actual_theta_conductor": "sigma(z)^4*sigma(4z)^2*Theta(z)^8*Theta(2z)^2/16",
+  "actual_theta_degree": 68,
+  "actual_origin_order_in_z": 6,
+  "paid_source_degree": 2,
+  "paid_origin_order_in_w": 1,
+  "maximum_q2_Smith_boundary_length": 2,
+  "original_first_kernel": {
+    "value_and_first_Euler_truncation": "s-1",
+    "second_Euler_truncation": "max(ell-1,0)"
+  },
+  "inverse_radial_low_coefficients_b1": [
+    "1",
+    "154/15",
+    "207598/2475",
+    "74793772/111375",
+    "2270761219726/422668125",
+    "39511246126891196/919303171875"
+  ],
+  "fixed_fifth_contact_coefficient_b1": "39511246126891196/919303171875",
+  "no_target_prime_scan": true
+}

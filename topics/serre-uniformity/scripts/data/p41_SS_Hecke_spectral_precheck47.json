@@ -1,0 +1,82 @@
+{
+  "fields": [
+    {
+      "field": 1,
+      "degree": 2,
+      "det_T47_plus_shift_mod47": {
+        "-48": 40,
+        "0": 39,
+        "48": 40
+      }
+    },
+    {
+      "field": 2,
+      "degree": 3,
+      "det_T47_plus_shift_mod47": {
+        "-48": 40,
+        "0": 15,
+        "48": 37
+      }
+    },
+    {
+      "field": 3,
+      "degree": 3,
+      "det_T47_plus_shift_mod47": {
+        "-48": 13,
+        "0": 29,
+        "48": 27
+      }
+    },
+    {
+      "field": 4,
+      "degree": 4,
+      "det_T47_plus_shift_mod47": {
+        "-48": 5,
+        "0": 22,
+        "48": 22
+      }
+    },
+    {
+      "field": 5,
+      "degree": 4,
+      "det_T47_plus_shift_mod47": {
+        "-48": 22,
+        "0": 22,
+        "48": 5
+      }
+    },
+    {
+      "field": 6,
+      "degree": 8,
+      "det_T47_plus_shift_mod47": {
+        "-48": 4,
+        "0": 21,
+        "48": 4
+      }
+    },
+    {
+      "field": 7,
+      "degree": 12,
+      "det_T47_plus_shift_mod47": {
+        "-48": 21,
+        "0": 38,
+        "48": 14
+      }
+    },
+    {
+      "field": 8,
+      "degree": 18,
+      "det_T47_plus_shift_mod47": {
+        "-48": 29,
+        "0": 1,
+        "48": 39
+      }
+    }
+  ],
+  "all24_norms_nonzero_mod47": true,
+  "status": "Actual norms are units; invertibility of a chosen SS Sylvester combination is a separate computation",
+  "input_sha256": {
+    "p41_full_chow_heegner_certificate.json.gz": "45135cad660ae0b8a8b34de45c9d25aa448b78e4c369c8db616e02cbff453643"
+  },
+  "source_sha256": "097f04c29115dead1cd5f20ee079615620b3bc0d674361cd90e53e4be8086ac8"
+}

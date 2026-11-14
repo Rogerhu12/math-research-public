@@ -1,0 +1,27 @@
+{
+  "result": "R267",
+  "actual_portable_repository_only_rebuild_passed": true,
+  "wrapper_sha256": "2737a0376062778216c1c200a87fc0d44bd52df264491ffef93533b45363090a",
+  "comparisons": [
+    {
+      "file": "ORD_j07_actual_F2_first_variable_norm47.json.gz",
+      "original_sha256": "a05b2297a18b8f74f69570be8ec853bcc6064ae2ed862d71e47a6daad6d1ea41",
+      "rebuilt_sha256": "a05b2297a18b8f74f69570be8ec853bcc6064ae2ed862d71e47a6daad6d1ea41",
+      "all_fields_except_paths_runtime_equal": true
+    },
+    {
+      "file": "ORD_j07_actual_canonical_F2_height47.json.gz",
+      "original_sha256": "cfd54f630d943d1fec6239b6f6f2d6638ef015965cdb3028703f011d90f2c136",
+      "rebuilt_sha256": "5f22afd66cf960c947d018314780f7be8c80a5f7b012af45fb64827910c8ebeb",
+      "all_fields_except_paths_runtime_equal": true
+    },
+    {
+      "file": "ORD_j07_actual_canonical_F2_polynomial47.json.gz",
+      "original_sha256": "c5804c476458091a29eea1f0e640a960f957b36d8b9cad28586abe9f6135fa87",
+      "rebuilt_sha256": "5215c10a1df942671bd70dae2d3ba66711421527d624928a7a4c503d9fb55ea8",
+      "all_fields_except_paths_runtime_equal": true
+    }
+  ],
+  "description": "Complete archive restoration and all three actual executors ran in a separate work directory. The staged script/data tree consisted solely of the published repository and the frozen files queued in R267. All mathematical fields match exactly; only path/runtime and the dependent center byte hash change.",
+  "all_dependency_hashes_equal_after_only_the_rebuilt_center_metadata_hash_substitution": true
+}

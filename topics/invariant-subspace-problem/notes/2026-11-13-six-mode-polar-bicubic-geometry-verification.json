@@ -1,0 +1,70 @@
+{
+  "all_pass": true,
+  "exact_kernel_factorization": true,
+  "bicubic_coefficient_matrix": [
+    [
+      0,
+      0,
+      -5,
+      1
+    ],
+    [
+      0,
+      22,
+      -3,
+      1
+    ],
+    [
+      -5,
+      -3,
+      -3,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0
+    ]
+  ],
+  "bicubic_matrix_determinant": 70,
+  "exact_discriminant_factorization": "disc_z q(z,t)=t^2 E(t)",
+  "E_coefficients_ascending": [
+    9600,
+    -25472,
+    -3392,
+    15936,
+    -2888,
+    -936,
+    153,
+    50,
+    5
+  ],
+  "E_derivative_resultant_mod103": 18,
+  "E_at_zero": 9600,
+  "E_at_minus_one": 13900,
+  "pure_cube_test_P_coefficients_ascending": [
+    25,
+    -36,
+    -18,
+    24,
+    6
+  ],
+  "pure_cube_test_Q_coefficients_ascending": [
+    -125,
+    -225,
+    -495,
+    -540,
+    -297,
+    -54,
+    -27
+  ],
+  "pure_cube_test_resultant": 3364920160656890625,
+  "infinity_binary_cubic_coefficients_ascending": [
+    1,
+    1,
+    0,
+    0
+  ],
+  "scope": "The accompanying elementary argument proves that the only singular points of the original (3,3) bicubic are the diagonal points (0,0) and (infinity,infinity), and no physical polar binary cubic is a nonzero pure cube. Together with det C=70 these facts support the complete three-distinct-point critical-support classification."
+}

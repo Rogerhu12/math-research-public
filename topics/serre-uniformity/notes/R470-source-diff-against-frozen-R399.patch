@@ -1,0 +1,106 @@
+--- R399/p41_SS_evaluation_collision_moving_points47.py
++++ R470/p41_j9_additional_evaluation_moving_points47.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""Move selected j9 based divisors off the unchanged 820 point evaluation fibre.
++"""R470: move the additional sixteen non-CM j9 based divisors on the unchanged model.
+ 
+ The first flip evaluates its one removable quotient by actual V2 jets.  The
+ second flip is the published unit flip.  Both complete V2 principal sections
+@@ -41,6 +41,7 @@
+         ap.add_argument('--'+n, type=Path, required=True)
+     ap.add_argument('--disk', action='append', required=True)
+     args = ap.parse_args()
++    assert args.disk and len(args.disk)==len(set(args.disk))
+     sys.path.insert(0, str(args.script_dir.resolve()))
+     import numpy as np
+     import p41_r2_matrix as r
+@@ -77,7 +78,7 @@
+     WW = r.mul(M['W'], r.inverse_values(a.f))
+     records = []
+     for disk in args.disk:
+-        assert disk in ['SS_j9_01', 'SS_j9_02', 'SS_j9_03', 'SS_j9_04']
++        assert disk in ['SS_j9_05', 'SS_j9_06', 'SS_j9_07', 'SS_j9_08', 'SS_j9_09', 'SS_j9_10', 'SS_j9_12', 'SS_j9_13', 'SS_j9_14', 'SS_j9_15', 'SS_j9_16', 'SS_j9_17', 'SS_j9_18', 'SS_j9_20', 'SS_j9_21', 'SS_j9_22']
+         rec = next(z for z in atlas['SS_disk_records'] if z['disk_id'] == disk)
+         chart = atlas['charts'][rec['chart_0based']]
+         P = r.from_json([chart['W_coefficients_0to3'][0][rec['chart_row_0based']]])
+@@ -205,7 +206,7 @@
+                   'moved_divisor_disjoint_from_all820_evaluation_rows_mod47': True,
+                   'initial_moving_transport': transport}
+         records.append(record)
+-        result = {'result': 'R399', 'level': 41, 'auxiliary_prime': 47, 'precision': 4,
++        result = {'result': 'R470', 'level': 41, 'auxiliary_prime': 47, 'precision': 4,
+                   'complete_selected_SS_actual_based_points': len(records) == len(args.disk),
+                   'selected_disks': args.disk, 'completed_disks': [v['disk_id'] for v in records],
+                   'f_b_coefficients': common['f_b_coefficients'], 'f_b_derivative_at_b': common['f_b_derivative_at_b'],
+--- R399/verify_SS_initial_moving_flips47.py
++++ R470/verify_j9_additional_initial_moving_flips47.py
+@@ -41,7 +41,7 @@
+     raw = read(args.based_points)
+     common = read(args.common_based_points)
+     atlas = read(args.SS_atlas)
+-    assert raw['complete_selected_SS_actual_based_points'] and raw['result'] == 'R399'
++    assert raw['complete_selected_SS_actual_based_points'] and raw['result'] == 'R470'
+     for path in [args.common_based_points, args.SS_atlas]:
+         assert raw['input_sha256'][path.name] == sha(path)
+     for name, h in a.inputs.items():
+@@ -74,6 +74,8 @@
+         assert r.equal(r.mm(K, A), r.mm(M['A2'], r.conjugate(K)))
+         assert r.equal(r.mm(A, r.conjugate(A)), r.eye(73))
+ 
++    assert raw['selected_disks']==[z['disk_id'] for z in raw['records']]
++    assert set(raw['selected_disks']).issubset(['SS_j9_05', 'SS_j9_06', 'SS_j9_07', 'SS_j9_08', 'SS_j9_09', 'SS_j9_10', 'SS_j9_12', 'SS_j9_13', 'SS_j9_14', 'SS_j9_15', 'SS_j9_16', 'SS_j9_17', 'SS_j9_18', 'SS_j9_20', 'SS_j9_21', 'SS_j9_22'])
+     for rec in raw['records']:
+         disk = rec['disk_id']
+         tr = rec['initial_moving_transport']
+@@ -160,7 +162,8 @@
+                         'all108_family_values_of_f_h_are_units': True,
+                         'no_nonunit_or47_division': True})
+         print('PASS independent integer moving flips', disk, flush=True)
+-    out = {'result': 'R399', 'all_four_initial_moving_transports_independently_replayed': True,
++    out = {'result': 'R470', 'all_selected_initial_moving_transports_independently_replayed': True,
++           'selected_disk_ids':[x['disk_id'] for x in results], 'selected_disk_count':len(results),
+            'records': results, 'input_sha256': dict(a.inputs, **{str(p): sha(p) for p in [args.based_points, args.common_based_points, args.SS_atlas]}),
+            'source_sha256': sha(__file__), 'arithmetic': 'Original bounded integer matrix multiplication; no exact-float BLAS installed.',
+            'scope': 'Both actual initial flips and their full global basis/jet/divisor/scale certificates. No second 304-bit scalar chain, Norm evaluation, or local height claimed.'}
+--- R399/p41_moved_SS_Abel_multiply47.py
++++ R470/p41_j9_extended_Abel_multiply47.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""Use proven moved representatives with the unchanged actual scalar/formal engines."""
++"""Use the R470 additional-j9 moved representatives with unchanged scalar/formal engines."""
+ import argparse
+ from pathlib import Path
+ import sys
+@@ -31,7 +31,7 @@
+     a = ActualModel(args.script_dir)
+     a.linear_manifest = linear
+     points = read(args.based_points)
+-    assert points['result'] == 'R399' and points['complete_selected_SS_actual_based_points']
++    assert points['result'] == 'R470' and points['complete_selected_SS_actual_based_points']
+     assert points['unchanged_original820_V2_V3_bases_and_P2_P3_normalizations']
+     assert len(set(args.disk)) == len(args.disk) and set(args.disk).issubset(points['selected_disks'])
+     assert points['input_sha256'][args.SS_atlas.name] == sha(args.SS_atlas)
+--- R399/p41_moved_SS_Abel_with_transports47.py
++++ R470/p41_j9_extended_Abel_with_transports47.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""Retain both true initial moving flips and every actual scalar/formal function.
++"""R470 additional-j9 transport entry: retain both moves and every actual later function.
+ 
+ For AddFlip, div(F/f0^3)=D_P+D_Q+D_R, where D_T=E_T-div(f0).
+ The actual F in the published V3 basis is retained, without evaluation-only
+@@ -42,11 +42,11 @@
+     import p41_r2_matrix as r
+     import p41_group_operations47 as group
+     import p41_formal47_multiply as multiply
+-    import p41_moved_SS_Abel_multiply47 as runner
++    import p41_j9_extended_Abel_multiply47 as runner
+     from p41_projective_jet_frames47 import matrix_digest
+     from p41_cm4_divisor47 import kernel
+     based = read(args.based_points)
+-    assert based['complete_selected_SS_actual_based_points'] and based['result']=='R399'
++    assert based['complete_selected_SS_actual_based_points'] and based['result']=='R470'
+     requested=[passthrough[i+1] for i,x in enumerate(passthrough) if x=='--disk']
+     assert requested and set(requested).issubset(based['selected_disks'])
+     based_index = {p['disk_id']: p for p in based['records']}

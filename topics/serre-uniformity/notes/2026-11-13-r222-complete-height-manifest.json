@@ -1,0 +1,85 @@
+{
+  "files": {
+    "notes/2026-11-13-r222-cm-difference-crosscheck.json": {
+      "bytes": 540,
+      "sha256": "365ad75b3b0512649a2399f81d30172b730e098afe7ee157f93ddb1eb1768827"
+    },
+    "results/R222-complete-miller-norms-and-all54-global-heights.md": {
+      "bytes": 16672,
+      "sha256": "4cf4a32615961106a6588aa773988f861f230a3522ec4ea2af00cb2f2c14e4c1"
+    },
+    "scripts/data/p41_Miller_unit_atlas_047.json.gz": {
+      "bytes": 87547,
+      "sha256": "69e51b74f0c3f3e16a79ec20d50046cc2ac36b6dc4c1be927d21b76ddf950361"
+    },
+    "scripts/data/p41_Miller_unit_atlas_1047.json.gz": {
+      "bytes": 87337,
+      "sha256": "90cbe9e9f84550c0154b9ee6e5ddf92a77f3d4f33c64c4563c01e6b1544e2ada"
+    },
+    "scripts/data/p41_Miller_unit_atlas_3647.json.gz": {
+      "bytes": 86102,
+      "sha256": "d7e4c8fcda83fb8848f7737955ddda8060f42e3ea16217352125fe8a0767cae8"
+    },
+    "scripts/data/p41_Miller_unit_atlas_4447.json.gz": {
+      "bytes": 90408,
+      "sha256": "d7296dbffd90ad51bf04901b33d54fe6aac0c992f02b9a850b10d2318f6e4722"
+    },
+    "scripts/data/p41_Miller_unit_atlas_947.json.gz": {
+      "bytes": 90482,
+      "sha256": "652e667208ffe8a54c100c52a0ffe2ade693f41b90028c2c1af3fd7e7d21caa6"
+    },
+    "scripts/data/p41_Miller_unit_atlas_CM347.json.gz": {
+      "bytes": 5575,
+      "sha256": "36d9d8552e3fbc4268e23ddab3dc1911b5f9436ec952a9c4513f289b33561e2b"
+    },
+    "scripts/data/p41_Miller_unit_atlas_CM447.json.gz": {
+      "bytes": 7008,
+      "sha256": "ab8e0dbbef5e27c867d0e97e1e9c7723cdaef569a28ad0edae01281761d98d0d"
+    },
+    "scripts/data/p41_all_CM_Miller_norms47.json.gz": {
+      "bytes": 562619,
+      "sha256": "22827f5d6d6c3222fa5b3c373288ee28c0189949d4b4d88bea3e9bc8463c311d"
+    },
+    "scripts/data/p41_all_global_heights_and_coefficients47.json.gz": {
+      "bytes": 9989,
+      "sha256": "6cf663e9ca9c0f9b6fb3850f4bfb61769641c65086471f45faa7905e92020894"
+    },
+    "scripts/data/p41_projective_jet_frames47_verified.json.gz": {
+      "bytes": 5146,
+      "sha256": "7d4b7c01bb6b154c510624c753243263d85a84b4d9e30b5c38f055f8ae6af62b"
+    },
+    "scripts/p41_all_cm_miller_norm47.py": {
+      "bytes": 9166,
+      "sha256": "9a9af4342b691feda7505770ce73f014f97cce5e881e1127b80e584c25051e5d"
+    },
+    "scripts/p41_all_global_heights47.py": {
+      "bytes": 11905,
+      "sha256": "1e849c893a27f11fa872d13bc36a030aeffc4294799310ce32cdfec704e476dc"
+    },
+    "scripts/p41_miller_unit_atlas47.py": {
+      "bytes": 18770,
+      "sha256": "b953b3122a5c70bdf85b562311ed8da545063badea93b7fb27597107708bd641"
+    },
+    "scripts/p41_projective_jet_frames47.py": {
+      "bytes": 14012,
+      "sha256": "885a69c486dca625f924d2208edf0331e5d5d23c78269df1cc73afcf0af31fa0"
+    },
+    "scripts/p41_projective_jet_frames_checks47.py": {
+      "bytes": 4618,
+      "sha256": "9167c8109652b8fd8894e2b1e164a73530d9843f04e0758eacc457912f16a983"
+    }
+  },
+  "result": "R222",
+  "scope": {
+    "CM_target_nodes": 3282,
+    "Miller_steps_per_point": 454,
+    "QC_common_roots_complete": false,
+    "atlas_points": 4100,
+    "height_matrix_determinant_mod47": 18,
+    "height_rows": 54,
+    "main_uniformity_complete": false,
+    "precision": 4,
+    "trace_coefficients": 54
+  },
+  "state": "proved and fully executed"
+}

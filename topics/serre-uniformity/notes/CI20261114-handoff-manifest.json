@@ -1,0 +1,95 @@
+{
+  "result": "CI20261114",
+  "kind": "authorized public runner requests under README rule 14",
+  "read_rule_commit": "fc5f0dc251e5f2f9c3f3e9a42dafcd4544f45912",
+  "files": [
+    {
+      "file": "scripts/p41_ci_recover_ramified_ss47.py",
+      "bytes": 9458,
+      "sha256": "899b43115fbe76eb01c3e0bc5ac8c24b8abd1eb8b5b82861d9cfbba595d9ca5f"
+    }
+  ],
+  "queue_requests": [
+    {
+      "result": "R620",
+      "disk_id": "SS_j0_09",
+      "request": "ci-queue/serre-uniformity--j0-09-R620.json",
+      "sha256": "406d75bc69ae69929d67a9718c4e412e5251e1b88153533e38f9312edbd6c579"
+    },
+    {
+      "result": "R621",
+      "disk_id": "SS_j0_11",
+      "request": "ci-queue/serre-uniformity--j0-11-R621.json",
+      "sha256": "455851291e61af3e9f8c0232eab5b3d7bff5ffff2b2165d3b0afd815ff045192"
+    },
+    {
+      "result": "R622",
+      "disk_id": "SS_j0_12",
+      "request": "ci-queue/serre-uniformity--j0-12-R622.json",
+      "sha256": "0dc0bb4d62d160c37d7cf5beb1895c3ddc33a94569d34f4e3132905860b5706b"
+    },
+    {
+      "result": "R623",
+      "disk_id": "SS_j0_13",
+      "request": "ci-queue/serre-uniformity--j0-13-R623.json",
+      "sha256": "5815bcd7ae295abdd4ef74eb67d4d6bdab124293260b994b4eabf8fe8c3852a0"
+    },
+    {
+      "result": "R624",
+      "disk_id": "SS_j0_14",
+      "request": "ci-queue/serre-uniformity--j0-14-R624.json",
+      "sha256": "671a2de75019d70af3ca9292cb1307705906b94c75aadb667c2f4f1120d7dbde"
+    },
+    {
+      "result": "R625",
+      "disk_id": "SS_j0_15",
+      "request": "ci-queue/serre-uniformity--j0-15-R625.json",
+      "sha256": "e0960b30146119c1de91c7bcdcfa312d94ef23d36823798323561f0f5bf53177"
+    },
+    {
+      "result": "R626",
+      "disk_id": "SS_j0_16",
+      "request": "ci-queue/serre-uniformity--j0-16-R626.json",
+      "sha256": "c5bb561dbcd21da8aafb95131a74b9ec8ee0e5dbb6a26a4a33e4ccaa57606597"
+    },
+    {
+      "result": "R627",
+      "disk_id": "SS_j0_17",
+      "request": "ci-queue/serre-uniformity--j0-17-R627.json",
+      "sha256": "5564576afc5eb60ffaa84dcd78057e4d373461e75e5a236bf205c6118130f0cd"
+    },
+    {
+      "result": "R628",
+      "disk_id": "SS_j0_18",
+      "request": "ci-queue/serre-uniformity--j0-18-R628.json",
+      "sha256": "78d4ed4d9303c2c4e5240c01c2b9e06b5b07770cecd8fbac6dba0c2cf8f7a0ac"
+    },
+    {
+      "result": "R629",
+      "disk_id": "SS_j0_19",
+      "request": "ci-queue/serre-uniformity--j0-19-R629.json",
+      "sha256": "3959a197b7b5d097d148c0bebc7220165207fa25a30f459552bc8b1bca0589c3"
+    },
+    {
+      "result": "R630",
+      "disk_id": "SS_j0_20",
+      "request": "ci-queue/serre-uniformity--j0-20-R630.json",
+      "sha256": "badb7df680671629125cf65a0457754dfd220dd64fde4ac52299d37721682d7a"
+    },
+    {
+      "result": "R631",
+      "disk_id": "SS_j0_21",
+      "request": "ci-queue/serre-uniformity--j0-21-R631.json",
+      "sha256": "8c970ca65bafd299c6eeada436433aff39e539c3ebe25a9fa42fb19c58052fb9"
+    },
+    {
+      "result": "R632",
+      "disk_id": "SS_j0_22",
+      "request": "ci-queue/serre-uniformity--j0-22-R632.json",
+      "sha256": "46484208e32adf66348d188077fd46f2147a5426ed0f4714eddfdecdc2fa50c2"
+    }
+  ],
+  "mathematical_conclusions_claimed_before_return": false,
+  "runtime_work_location": "RUNNER_TEMP; only selected outputs and principal archives are returned",
+  "no_token_in_request_or_source": true
+}

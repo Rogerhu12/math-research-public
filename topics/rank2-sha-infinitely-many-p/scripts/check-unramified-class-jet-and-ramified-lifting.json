@@ -1,0 +1,583 @@
+{
+  "result": "R281",
+  "all_passed": true,
+  "check_count": 28,
+  "checks": [
+    "actual_R276_eigenline_input",
+    "same_actual_Hecke_T2_eigenvalue",
+    "same_actual_Hecke_T3_eigenvalue",
+    "same_actual_Hecke_T5_eigenvalue",
+    "D_fundamental_and_legal_local_conditions",
+    "all_reduced_forms_class_number_11",
+    "norm3_class_is_not_principal",
+    "class_generator_principal_relation",
+    "389_orientation_ideal_relation",
+    "actual_maximal_order_embedding",
+    "actual_N_matrix",
+    "both_original_389_orientations",
+    "orientation_eigenvalues_match_ideals",
+    "all_norm3_isogeny_ideals",
+    "orientation_2_all_class_labels_distinct",
+    "orientation_2_class_action_returns_exactly",
+    "orientation_2_all_embeddings_and_level_orientations",
+    "orientation_2_full_actual_coefficients",
+    "orientation_2_nonzero_second_jet",
+    "orientation_189_all_class_labels_distinct",
+    "orientation_189_class_action_returns_exactly",
+    "orientation_189_all_embeddings_and_level_orientations",
+    "orientation_189_full_actual_coefficients",
+    "orientation_189_nonzero_second_jet",
+    "exact_conjugate_389_transport",
+    "actual_negative_observer_functional_equation",
+    "torsion_is_zero_from_two_good_reductions",
+    "R276_D_minus1307_class_norm_is_genuinely_fourth_order"
+  ],
+  "base_certificate": "check-actual-heegner-theta-p11-p13-and-p-class.json",
+  "D": -2267,
+  "p": 11,
+  "q": 13,
+  "class_number": 11,
+  "reduced_forms": [
+    [
+      1,
+      1,
+      567
+    ],
+    [
+      3,
+      -1,
+      189
+    ],
+    [
+      3,
+      1,
+      189
+    ],
+    [
+      7,
+      -1,
+      81
+    ],
+    [
+      7,
+      1,
+      81
+    ],
+    [
+      9,
+      -1,
+      63
+    ],
+    [
+      9,
+      1,
+      63
+    ],
+    [
+      21,
+      -13,
+      29
+    ],
+    [
+      21,
+      -1,
+      27
+    ],
+    [
+      21,
+      1,
+      27
+    ],
+    [
+      21,
+      13,
+      29
+    ]
+  ],
+  "eta_polynomial": [
+    567,
+    -1,
+    1
+  ],
+  "norm3_principal_relation": {
+    "alpha": [
+      324,
+      11
+    ],
+    "norm": 177147
+  },
+  "norm3_times389_relation": {
+    "alpha": [
+      24,
+      1
+    ],
+    "norm": 1167
+  },
+  "both_orientations": [
+    {
+      "origin": 2,
+      "states": [
+        {
+          "j": 0,
+          "embedding": [
+            -10,
+            -11,
+            4,
+            17
+          ],
+          "point": 2,
+          "value": 4,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            -1
+          ]
+        },
+        {
+          "j": 1,
+          "embedding": [
+            -2,
+            -11,
+            -6,
+            11
+          ],
+          "point": 45,
+          "value": 7,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            -1
+          ]
+        },
+        {
+          "j": 2,
+          "embedding": [
+            -8,
+            -17,
+            6,
+            11
+          ],
+          "point": 354,
+          "value": 5,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            -1
+          ]
+        },
+        {
+          "j": 3,
+          "embedding": [
+            -6,
+            -7,
+            -4,
+            17
+          ],
+          "point": 250,
+          "value": 7,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "j": 4,
+          "embedding": [
+            11,
+            3,
+            -10,
+            -11
+          ],
+          "point": 297,
+          "value": 4,
+          "norm3_step": [
+            0,
+            1,
+            0,
+            -1
+          ]
+        },
+        {
+          "j": 5,
+          "embedding": [
+            -5,
+            11,
+            4,
+            7
+          ],
+          "point": 268,
+          "value": 5,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "j": 6,
+          "embedding": [
+            2,
+            17,
+            -6,
+            3
+          ],
+          "point": 108,
+          "value": 4,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "j": 7,
+          "embedding": [
+            5,
+            17,
+            0,
+            -9
+          ],
+          "point": 158,
+          "value": 5,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "j": 8,
+          "embedding": [
+            -4,
+            11,
+            6,
+            3
+          ],
+          "point": 23,
+          "value": 5,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "j": 9,
+          "embedding": [
+            -1,
+            15,
+            -4,
+            7
+          ],
+          "point": 244,
+          "value": 4,
+          "norm3_step": [
+            0,
+            1,
+            0,
+            -1
+          ]
+        },
+        {
+          "j": 10,
+          "embedding": [
+            1,
+            -7,
+            10,
+            -11
+          ],
+          "point": 385,
+          "value": 5,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "theta_coefficients": [
+        4,
+        7,
+        5,
+        7,
+        4,
+        5,
+        4,
+        5,
+        5,
+        4,
+        5
+      ],
+      "all_binomial_moments": [
+        0,
+        0,
+        4,
+        4,
+        1,
+        0,
+        3,
+        8,
+        2,
+        10,
+        5
+      ]
+    },
+    {
+      "origin": 189,
+      "states": [
+        {
+          "j": 0,
+          "embedding": [
+            -10,
+            -11,
+            4,
+            17
+          ],
+          "point": 189,
+          "value": 4,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            -1
+          ]
+        },
+        {
+          "j": 1,
+          "embedding": [
+            -2,
+            -11,
+            -6,
+            11
+          ],
+          "point": 28,
+          "value": 6,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            -1
+          ]
+        },
+        {
+          "j": 2,
+          "embedding": [
+            -8,
+            -17,
+            6,
+            11
+          ],
+          "point": 216,
+          "value": 4,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            -1
+          ]
+        },
+        {
+          "j": 3,
+          "embedding": [
+            -6,
+            -7,
+            -4,
+            17
+          ],
+          "point": 137,
+          "value": 7,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "j": 4,
+          "embedding": [
+            11,
+            3,
+            -10,
+            -11
+          ],
+          "point": 94,
+          "value": 6,
+          "norm3_step": [
+            0,
+            1,
+            0,
+            -1
+          ]
+        },
+        {
+          "j": 5,
+          "embedding": [
+            -5,
+            11,
+            4,
+            7
+          ],
+          "point": 15,
+          "value": 7,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "j": 6,
+          "embedding": [
+            2,
+            17,
+            -6,
+            3
+          ],
+          "point": 171,
+          "value": 6,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "j": 7,
+          "embedding": [
+            5,
+            17,
+            0,
+            -9
+          ],
+          "point": 53,
+          "value": 6,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "j": 8,
+          "embedding": [
+            -4,
+            11,
+            6,
+            3
+          ],
+          "point": 109,
+          "value": 7,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "j": 9,
+          "embedding": [
+            -1,
+            15,
+            -4,
+            7
+          ],
+          "point": 344,
+          "value": 6,
+          "norm3_step": [
+            0,
+            1,
+            0,
+            -1
+          ]
+        },
+        {
+          "j": 10,
+          "embedding": [
+            1,
+            -7,
+            10,
+            -11
+          ],
+          "point": 179,
+          "value": 7,
+          "norm3_step": [
+            1,
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "theta_coefficients": [
+        4,
+        6,
+        4,
+        7,
+        6,
+        7,
+        6,
+        6,
+        7,
+        6,
+        7
+      ],
+      "all_binomial_moments": [
+        0,
+        0,
+        7,
+        0,
+        10,
+        1,
+        7,
+        7,
+        2,
+        10,
+        7
+      ]
+    }
+  ],
+  "R276_class_norm": {
+    "D": -1307,
+    "coefficients": [
+      4,
+      10,
+      7,
+      7,
+      10,
+      4,
+      10,
+      7,
+      1,
+      7,
+      10
+    ],
+    "all_binomial_moments": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      6,
+      3,
+      4,
+      8,
+      8,
+      10
+    ]
+  }
+}

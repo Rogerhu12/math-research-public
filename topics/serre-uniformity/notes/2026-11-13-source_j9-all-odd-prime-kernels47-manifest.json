@@ -1,0 +1,221 @@
+{
+  "curve": "source_j9",
+  "precision": 4,
+  "prime_list": [
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    37,
+    43,
+    53,
+    59,
+    61,
+    67,
+    71,
+    73,
+    79,
+    83,
+    89
+  ],
+  "total_kernel_count": 894,
+  "all_odd_basis_primes_complete": true,
+  "degree_two_reused_separately": true,
+  "files": [
+    {
+      "ell": 3,
+      "path": "scripts/data/p41_prime3_source_j9_kernels47.json.gz",
+      "bytes": 810,
+      "sha256": "cdaed572fb582a5dbe3997ad569b39d05ccdac82513c286994876d20b6e11095",
+      "field_degree": 2,
+      "kernel_count": 4,
+      "twist": false
+    },
+    {
+      "ell": 5,
+      "path": "scripts/data/p41_prime5_source_j9_kernels47.json.gz",
+      "bytes": 1041,
+      "sha256": "a9bbb3925d5de07fb085f491e6fac6ade5c4806ce52de0605b4587ca90f942e9",
+      "field_degree": 4,
+      "kernel_count": 6,
+      "twist": true
+    },
+    {
+      "ell": 7,
+      "path": "scripts/data/p41_prime7_source_j9_kernels47.json.gz",
+      "bytes": 1243,
+      "sha256": "09698e992732ffd5cf5a0ac3ef151b7276565e4046db94ec4ee6dcd1199d5eb1",
+      "field_degree": 6,
+      "kernel_count": 8,
+      "twist": false
+    },
+    {
+      "ell": 11,
+      "path": "scripts/data/p41_prime11_source_j9_kernels47.json.gz",
+      "bytes": 1799,
+      "sha256": "e3f00430a8c0f0d50c68b0fe70612753beae5ee6001dadfcd3eb9382740991d6",
+      "field_degree": 10,
+      "kernel_count": 12,
+      "twist": true
+    },
+    {
+      "ell": 13,
+      "path": "scripts/data/p41_prime13_source_j9_kernels47.json.gz",
+      "bytes": 1859,
+      "sha256": "6fd6c7416d595a7f242563dc259299f46ff9e126615518deb6dd55396265e73e",
+      "field_degree": 4,
+      "kernel_count": 14,
+      "twist": true
+    },
+    {
+      "ell": 17,
+      "path": "scripts/data/p41_prime17_source_j9_kernels47.json.gz",
+      "bytes": 2427,
+      "sha256": "759bee9945087de83656ef5a92607aa84ac0b62d56840e8cce936c6b5352ea54",
+      "field_degree": 4,
+      "kernel_count": 18,
+      "twist": true
+    },
+    {
+      "ell": 19,
+      "path": "scripts/data/p41_prime19_source_j9_kernels47.json.gz",
+      "bytes": 3178,
+      "sha256": "706239f7c05fd45d7deec46fa4778dcadf7165fc7015426eb02d73be90a7c7d5",
+      "field_degree": 18,
+      "kernel_count": 20,
+      "twist": true
+    },
+    {
+      "ell": 23,
+      "path": "scripts/data/p41_prime23_source_j9_kernels47.json.gz",
+      "bytes": 3563,
+      "sha256": "e287d57757f3b585dab98b6c98d7f66c8253e2ea92621aa76b89574c80e27c49",
+      "field_degree": 2,
+      "kernel_count": 24,
+      "twist": true
+    },
+    {
+      "ell": 29,
+      "path": "scripts/data/p41_prime29_source_j9_kernels47.json.gz",
+      "bytes": 5655,
+      "sha256": "f2ced340fd66a55e315bf163051ade9a2358e6465ec496d3105767103be18e87",
+      "field_degree": 28,
+      "kernel_count": 30,
+      "twist": true
+    },
+    {
+      "ell": 31,
+      "path": "scripts/data/p41_prime31_source_j9_kernels47.json.gz",
+      "bytes": 5779,
+      "sha256": "66c3e89e0ece92f32f2fd0dc2baa24c5c48ea3044c9a5945d1edaf5a1a9d14f1",
+      "field_degree": 10,
+      "kernel_count": 32,
+      "twist": true
+    },
+    {
+      "ell": 37,
+      "path": "scripts/data/p41_prime37_source_j9_kernels47.json.gz",
+      "bytes": 7372,
+      "sha256": "b13aec1efb5efaac35e75ed180ea29eee4df2f95382ccca070b0d494cac1b9c7",
+      "field_degree": 6,
+      "kernel_count": 38,
+      "twist": true
+    },
+    {
+      "ell": 43,
+      "path": "scripts/data/p41_prime43_source_j9_kernels47.json.gz",
+      "bytes": 9816,
+      "sha256": "3aa6caa9a8974e4e2fd835625876774512320098b0d1cbad08898b5c41ba7e7f",
+      "field_degree": 14,
+      "kernel_count": 44,
+      "twist": true
+    },
+    {
+      "ell": 53,
+      "path": "scripts/data/p41_prime53_source_j9_kernels47.json.gz",
+      "bytes": 14034,
+      "sha256": "bcf63af9184ebc93a8d857340a31b221f2e2a3d635c9b21025c96f4bc8694e00",
+      "field_degree": 26,
+      "kernel_count": 54,
+      "twist": true
+    },
+    {
+      "ell": 59,
+      "path": "scripts/data/p41_prime59_source_j9_kernels47.json.gz",
+      "bytes": 17567,
+      "sha256": "465e9fd57312ec660ef48c933fe87bfadd28eeb7f61fe1ad3f4d22f5393de8ed",
+      "field_degree": 58,
+      "kernel_count": 60,
+      "twist": false
+    },
+    {
+      "ell": 61,
+      "path": "scripts/data/p41_prime61_source_j9_kernels47.json.gz",
+      "bytes": 17281,
+      "sha256": "334cb007436118c3c849dbdc7d9af615120508c2d0c33e1776636cbdd277b52b",
+      "field_degree": 6,
+      "kernel_count": 62,
+      "twist": true
+    },
+    {
+      "ell": 67,
+      "path": "scripts/data/p41_prime67_source_j9_kernels47.json.gz",
+      "bytes": 22289,
+      "sha256": "17368df87fb6b05a742778114b180f127e2061c9eb81a9776d160b3fdbe68195",
+      "field_degree": 66,
+      "kernel_count": 68,
+      "twist": true
+    },
+    {
+      "ell": 71,
+      "path": "scripts/data/p41_prime71_source_j9_kernels47.json.gz",
+      "bytes": 24027,
+      "sha256": "9b39d430da23390221974f5a83f4e3d9220a2aed5e59d2c4feda7fae7edbf84d",
+      "field_degree": 70,
+      "kernel_count": 72,
+      "twist": false
+    },
+    {
+      "ell": 73,
+      "path": "scripts/data/p41_prime73_source_j9_kernels47.json.gz",
+      "bytes": 25790,
+      "sha256": "5f6ccd3d7457458a92d05d856dc69d85f4bd6f3754c287b74a7a5a9bcb6f32c6",
+      "field_degree": 72,
+      "kernel_count": 74,
+      "twist": true
+    },
+    {
+      "ell": 79,
+      "path": "scripts/data/p41_prime79_source_j9_kernels47.json.gz",
+      "bytes": 29329,
+      "sha256": "80918b0c15bda5f8b0f663c3a6f18fc8467b74c50b60363d47c7902f2cc23468",
+      "field_degree": 78,
+      "kernel_count": 80,
+      "twist": false
+    },
+    {
+      "ell": 83,
+      "path": "scripts/data/p41_prime83_source_j9_kernels47.json.gz",
+      "bytes": 32422,
+      "sha256": "0ec31ae8f7b3e5c0cc35069ef5f668aa7c4f5e5fca8edcd634806b81b877dba0",
+      "field_degree": 82,
+      "kernel_count": 84,
+      "twist": false
+    },
+    {
+      "ell": 89,
+      "path": "scripts/data/p41_prime89_source_j9_kernels47.json.gz",
+      "bytes": 35912,
+      "sha256": "c22b1873442b7aadb5667f2ffecd274096b69c777295e577d97a0101d0f3361e",
+      "field_degree": 44,
+      "kernel_count": 90,
+      "twist": true
+    }
+  ]
+}

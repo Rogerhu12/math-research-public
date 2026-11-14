@@ -1,0 +1,65 @@
+{
+  "result": "R595",
+  "status": "Complete mathematics previously reviewed and independently checked; post-loss reconstruction saved with new hashes",
+  "parent_review": {
+    "mathematics_passed_before_loss": true,
+    "independent_269_actual_average_passed": true,
+    "restored_prose_requires_read_against_approved_message": true
+  },
+  "files": [
+    {
+      "filename": "R595-actual-c1-CM-coefficient-criterion.md",
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/R595-actual-c1-CM-coefficient-criterion.md",
+      "kind": "proof",
+      "sha256": "5f5f7253010dc94b1050b4ceef189e811b973bcf2cc772f9309a24c73e0a67cc",
+      "bytes": 15869,
+      "suggested_topic_directory": "notes"
+    },
+    {
+      "filename": "R595_actual_c1_CM_coefficients.recovered.json",
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/R595_actual_c1_CM_coefficients.recovered.json",
+      "kind": "historical_certificate",
+      "sha256": "63ddd30a930111684ec8595b8bb0f2d0bcb0b147543d0270b8d5f96972eb2501",
+      "bytes": 4610,
+      "suggested_topic_directory": "scripts/data"
+    },
+    {
+      "filename": "R595-exact-H2-kernel.recovered.js",
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/R595-exact-H2-kernel.recovered.js",
+      "kind": "recovered_original_core",
+      "sha256": "e6493b783db681f11ba53ea200d678f76be89d1ca1781171a7419a7df7704261",
+      "bytes": 4409,
+      "suggested_topic_directory": "scripts"
+    },
+    {
+      "filename": "R595-r3-direct-coefficient-replay.js",
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/R595-r3-direct-coefficient-replay.js",
+      "kind": "new_unexecuted_replay",
+      "sha256": "4ded8ed7ae835351c3e04ee195eecd52f2d444d83337ae03552aa83c84ef9621",
+      "bytes": 2332,
+      "suggested_topic_directory": "scripts"
+    },
+    {
+      "filename": "R595-recovery-receipt.json",
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/R595-recovery-receipt.json",
+      "kind": "recovery_receipt",
+      "sha256": "574c5e27d2d3ec1818161ea7b7175dd54f05da863b0dac79bafa3d763816f9be",
+      "bytes": 1487,
+      "suggested_topic_directory": "notes"
+    }
+  ],
+  "prior_sources": {
+    "R580_kernel": "7df27842692876834a223c8d83f407594edb67756f132d31df410719d13034e5",
+    "R580_proof": "df7ed3413fa688f91bf51551b9be45cf2374f470af97d7e73a3fe4badb311dba",
+    "R588_proof": "f8b111259e5280435784f5e58edf9c402aa4c0264938d45bcc4e543093fc2013",
+    "R592_proof": "e8e766d81c1b965919e6df403bba57fb6ca1f890e05d05059d300b7d6c23aca0"
+  },
+  "limitations": {
+    "old_full_Node_wrapper_lost": true,
+    "no_claim_new_replay_executed": true,
+    "no_old_math_rerun": true,
+    "no_full_p269_classification": true,
+    "p269_is_8_mod9": true
+  },
+  "filesystem_written": true
+}

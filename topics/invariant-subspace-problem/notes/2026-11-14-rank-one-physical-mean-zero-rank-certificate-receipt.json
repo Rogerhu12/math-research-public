@@ -1,0 +1,66 @@
+{
+  "scope": "Nonzero physical mean y=v(0)=e0; full original 17 equations after the exact highest-equation elimination.",
+  "branch": "zero",
+  "degree": 5,
+  "projectionRows": 170,
+  "projectionColumns": 135,
+  "independentIntegerKernelVectors": 7,
+  "identityCount": 1190,
+  "projectionRankUpperBound": 128,
+  "free": [
+    8,
+    26,
+    130,
+    131,
+    132,
+    133,
+    134
+  ],
+  "kernelSHA256": "039af344dfc85b2d77ad597cdf0cdfdac4f387875b7250ce363466f8a1adf5a5",
+  "kernelJSONBytes": 179138,
+  "largeMacaulay": {
+    "field": 7,
+    "D": 5,
+    "rows": 6188,
+    "columns": 4367,
+    "rank": 4340,
+    "ops": 6184171,
+    "lowerDegreePivotCounts": [
+      3,
+      62,
+      282,
+      996,
+      2997
+    ],
+    "coordinateLinearMembership": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "coordinateSquareMembership": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "characteristicZeroRank": 4340,
+  "normalSquareCount": 9,
+  "normalQuadraticIdealTruncationDimension": 4212,
+  "conclusion": "The complete critical zero set is M=m0*e0^2+m1*(e0*e1+e1*e0), and T3=0."
+}

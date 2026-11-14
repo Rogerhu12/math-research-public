@@ -1,0 +1,59 @@
+{
+  "root": {
+    "start": "2026-11-13 18:01:02 UTC",
+    "end": "2026-11-13 18:02:28 UTC",
+    "result": {
+      "all_pass": true,
+      "localAndTargetAndLeftRankPass": true,
+      "rationalIdentityCount": 1260,
+      "rationalCoefficientIdentities": 4032,
+      "localChecks": [
+        {
+          "name": "zero",
+          "algebraDimension": 1,
+          "extraFunctionals": 3,
+          "allOriginalLocalIdentitiesExact": true
+        },
+        {
+          "name": "infinity",
+          "algebraDimension": 1,
+          "extraFunctionals": 3,
+          "allOriginalLocalIdentitiesExact": true
+        },
+        {
+          "name": "double",
+          "algebraDimension": 6,
+          "extraFunctionals": 18,
+          "allOriginalLocalIdentitiesExact": true
+        },
+        {
+          "name": "simple",
+          "algebraDimension": 8,
+          "extraFunctionals": 8,
+          "allOriginalLocalIdentitiesExact": true
+        }
+      ],
+      "leftRank": 85,
+      "leftRankPrime": 103,
+      "leftMinorDeterminant": 47,
+      "imageMinor": {
+        "rankAtLeast": 2918,
+        "prime": 103,
+        "determinant": 35,
+        "rebuiltFromOriginalIntegerGradient": true
+      },
+      "exactBellCurveAndTwoNodeVanishing": true,
+      "conclusion": "Over Q, the homogeneous degree-ten Jacobian image is exactly the kernel of the 85 rational functionals. All three coefficients of q_integer^5 belong to that image.",
+      "scope": "Finite characteristic-zero ideal membership for the stated quartic and Bell quadratic. Operator consequences require the separately proved Schur lift and actual Bell inverse bridge."
+    }
+  },
+  "independentNormal": {
+    "exactLocalAndLeftRankAndTargetPassed": true,
+    "imageMinorAlreadyIndependentlyVerified35": true
+  },
+  "independentKernel": {
+    "finiteJetCoverageAndRationalAlgebraAndRankProofReviewed": true
+  },
+  "cliSyntaxChecked": true,
+  "terminalWrapperRun": false
+}

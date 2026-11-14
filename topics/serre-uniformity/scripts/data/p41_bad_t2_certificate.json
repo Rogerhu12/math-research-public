@@ -1,0 +1,352 @@
+{
+  "p": 41,
+  "field_relation": "s^2=-7",
+  "labels": [
+    0,
+    3,
+    28,
+    32
+  ],
+  "weights": [
+    3,
+    1,
+    1,
+    1
+  ],
+  "curves": [
+    {
+      "j": 0,
+      "A": [
+        0,
+        0
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "hasse_coefficient": 0,
+      "branches": [
+        {
+          "kernel_x": [
+            21,
+            5
+          ],
+          "quotient_A": [
+            28,
+            7
+          ],
+          "quotient_B": [
+            22,
+            0
+          ],
+          "quotient_j": 3
+        },
+        {
+          "kernel_x": [
+            21,
+            36
+          ],
+          "quotient_A": [
+            28,
+            34
+          ],
+          "quotient_B": [
+            22,
+            0
+          ],
+          "quotient_j": 3
+        },
+        {
+          "kernel_x": [
+            40,
+            0
+          ],
+          "quotient_A": [
+            26,
+            0
+          ],
+          "quotient_B": [
+            22,
+            0
+          ],
+          "quotient_j": 3
+        }
+      ]
+    },
+    {
+      "j": 3,
+      "A": [
+        3,
+        0
+      ],
+      "B": [
+        2,
+        0
+      ],
+      "hasse_coefficient": 0,
+      "branches": [
+        {
+          "kernel_x": [
+            14,
+            0
+          ],
+          "quotient_A": [
+            0,
+            0
+          ],
+          "quotient_B": [
+            17,
+            0
+          ],
+          "quotient_j": 0
+        },
+        {
+          "kernel_x": [
+            34,
+            11
+          ],
+          "quotient_A": [
+            27,
+            14
+          ],
+          "quotient_B": [
+            37,
+            11
+          ],
+          "quotient_j": 32
+        },
+        {
+          "kernel_x": [
+            34,
+            30
+          ],
+          "quotient_A": [
+            27,
+            27
+          ],
+          "quotient_B": [
+            37,
+            30
+          ],
+          "quotient_j": 32
+        }
+      ]
+    },
+    {
+      "j": 28,
+      "A": [
+        6,
+        0
+      ],
+      "B": [
+        16,
+        0
+      ],
+      "hasse_coefficient": 0,
+      "branches": [
+        {
+          "kernel_x": [
+            24,
+            20
+          ],
+          "quotient_A": [
+            3,
+            32
+          ],
+          "quotient_B": [
+            31,
+            40
+          ],
+          "quotient_j": 28,
+          "differential": [
+            21,
+            21
+          ],
+          "normalized_q": [
+            35,
+            35
+          ],
+          "zeta": [
+            30,
+            31
+          ],
+          "zeta_order": 21,
+          "character_trace": -1
+        },
+        {
+          "kernel_x": [
+            24,
+            21
+          ],
+          "quotient_A": [
+            3,
+            9
+          ],
+          "quotient_B": [
+            31,
+            1
+          ],
+          "quotient_j": 28,
+          "differential": [
+            21,
+            20
+          ],
+          "normalized_q": [
+            35,
+            6
+          ],
+          "zeta": [
+            30,
+            10
+          ],
+          "zeta_order": 21,
+          "character_trace": -1
+        },
+        {
+          "kernel_x": [
+            34,
+            0
+          ],
+          "quotient_A": [
+            20,
+            0
+          ],
+          "quotient_B": [
+            10,
+            0
+          ],
+          "quotient_j": 32
+        }
+      ]
+    },
+    {
+      "j": 32,
+      "A": [
+        31,
+        0
+      ],
+      "B": [
+        7,
+        0
+      ],
+      "hasse_coefficient": 0,
+      "branches": [
+        {
+          "kernel_x": [
+            5,
+            0
+          ],
+          "quotient_A": [
+            34,
+            0
+          ],
+          "quotient_B": [
+            28,
+            0
+          ],
+          "quotient_j": 28
+        },
+        {
+          "kernel_x": [
+            18,
+            14
+          ],
+          "quotient_A": [
+            16,
+            25
+          ],
+          "quotient_B": [
+            12,
+            8
+          ],
+          "quotient_j": 3
+        },
+        {
+          "kernel_x": [
+            18,
+            27
+          ],
+          "quotient_A": [
+            16,
+            16
+          ],
+          "quotient_B": [
+            12,
+            33
+          ],
+          "quotient_j": 3
+        }
+      ]
+    }
+  ],
+  "T2_path_matrix": [
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      2,
+      1,
+      0
+    ]
+  ],
+  "q": [
+    "1/10",
+    "3/10",
+    "3/10",
+    "3/10"
+  ],
+  "halfedge_lengths": [
+    "1/140",
+    "1/420",
+    "1/420",
+    "1/420"
+  ],
+  "tau_T2": [
+    0,
+    0,
+    -2,
+    0
+  ],
+  "tau_F": [
+    24,
+    80,
+    26,
+    80
+  ],
+  "Q_F": [
+    "-9/560",
+    "-43/1680",
+    "13/336",
+    "-43/1680"
+  ],
+  "Xi_F": [
+    "117/2",
+    "117/2",
+    "117/2",
+    "117/2"
+  ],
+  "b_F": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "F": "27*T2+4",
+  "scope": "finite field and rational arithmetic inputs; actual geometric identification is proved in R134"
+}

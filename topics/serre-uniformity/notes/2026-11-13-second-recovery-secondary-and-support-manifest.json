@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "results/R198-p-squared-robert-norm-and-a-secondary-contribution.md",
+      "bytes": 9980,
+      "sha256": "59c43233e834db8982475cc4fbcdadb184e9c76f73b1d4dad1a5a9a76621b963",
+      "import_sha256": "75086c2a12f2e29ce3920106cbad12a38444823febc5e53ba29dfe0c62c2c0a2"
+    },
+    {
+      "path": "scripts/verify_r198_p_squared_robert_norm.js",
+      "bytes": 18027,
+      "sha256": "32231801316063c6bca2053c490c1fd55762ed19b5a406411d7e85a8319edd34"
+    },
+    {
+      "path": "notes/r198_p_squared_robert_certificate.json",
+      "bytes": 8829,
+      "sha256": "e1666e118c7f10d991cf4aa0107ebbe8b68683cd7c9b3e08a587aab390e86d00"
+    },
+    {
+      "path": "results/R201-s-class-vanishing-and-the-canonical-norm-residue.md",
+      "bytes": 9364,
+      "sha256": "60481ce1ba7c72200cb6b7e5d99ab35f778edc83e87e1c6ad6cfced14ca449b3",
+      "import_sha256": "ff727a322204d00cc70c331920d3e9faf8456cca9ddd315c8f4b6b4614641f78"
+    },
+    {
+      "path": "scripts/verify_r201_norm_target_gauge.js",
+      "bytes": 18027,
+      "sha256": "5112e1c258f17268311a933f9c3cf8fbbc458d6b2a19d52c55ea53b90b8e34fe"
+    },
+    {
+      "path": "notes/r201_norm_target_gauge_certificate.json",
+      "bytes": 14828,
+      "sha256": "a6aac3835547270c22e108229e6ed76eaf14a96bc0956171cd0012ac949f7ee8"
+    },
+    {
+      "path": "results/R204-primal-secondary-frobenius-and-full-euler-inverse.md",
+      "bytes": 11080,
+      "sha256": "5b192d2753a110fba980980961a76a343d72cc864f3ff58297e9c1edc88b8015",
+      "import_sha256": "d9b9c446eecba6ac7d048f7661ef2940b003cafaaa16f4e483b15bc26a83130e"
+    },
+    {
+      "path": "scripts/verify_r204_primal_secondary_frobenius.js",
+      "bytes": 18027,
+      "sha256": "c393980bb58af9d8aaefee33ae4b2c697f334f06ec55a3ef2c453f23be51a808"
+    },
+    {
+      "path": "notes/r204_primal_secondary_frobenius_certificate.json",
+      "bytes": 18311,
+      "sha256": "b8d513edf6abe3b3ad665671f8708f892d8ea26a16c4003450f276bbc341c2ea"
+    },
+    {
+      "path": "results/R199-gaussian-cm-hecke-cycles-and-unramified-support.md",
+      "bytes": 8511,
+      "sha256": "d32bda1d1d1a7d5d2b67fc5b9f093f28d4a9b065d1494a525454cddca72368d6"
+    },
+    {
+      "path": "scripts/verify_p41_cm_hecke_cycles.py",
+      "bytes": 4296,
+      "sha256": "7620dbbbbcd0660cf29774ee6f3c117177aee86de2a79b7c9dac8d1879351b87"
+    },
+    {
+      "path": "scripts/data/p41_cm_hecke_cycles_verified.json",
+      "bytes": 9732,
+      "sha256": "e9e89a29995a534e175bfb2fb3bab4267f95f4e032bc4e6aa0c6b53d607e45e0"
+    },
+    {
+      "path": "results/R200-second-obstruction-reference-cancellation-and-one-supported-norm-slope.md",
+      "bytes": 16076,
+      "sha256": "6bc766d8d08cd28943ff3c304ad7881ae99c2ca4ab47811cf78cea1ab6e2b6d6"
+    },
+    {
+      "path": "notes/2026-11-13-r193-quasi-canonical-even-degree-audit.md",
+      "bytes": 5880,
+      "sha256": "9c7d4bfb35db060a0060d8056b0057665350da9b24de24bad6e1e998a68ba9fe"
+    },
+    {
+      "path": "notes/2026-11-13-r200-norm-support-artin-correction-and-residue.md",
+      "bytes": 8614,
+      "sha256": "6f652ba8fd6c9ca71de803bc79b7da165038a8549ea0da8aa41c90ce8d56b804"
+    }
+  ],
+  "status": "All proofs and auxiliary notes read completely by root; actual agent reruns preserved; R197 independently reassembled by root with identical certificate; R204 independent Artin and descent audit passed.",
+  "root_review_utc": "2026-11-12T22:35:30.503961+00:00"
+}

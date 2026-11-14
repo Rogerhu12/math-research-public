@@ -1,0 +1,207 @@
+{
+  "heights": {
+    "determinant_E_mod_3125": 1725,
+    "determinant_J_mod_3125": 2025,
+    "idele_log_at_5": "Tr_K5_Q5 log_5; log_5(5)=0",
+    "matrix_E": [
+      [
+        275,
+        270
+      ],
+      [
+        270,
+        10
+      ]
+    ],
+    "matrix_J": [
+      [
+        425,
+        1710
+      ],
+      [
+        1710,
+        10
+      ]
+    ],
+    "normalization": "Coleman-Gross; local formal value -2 Tr log sigma",
+    "points": {
+      "P2": {
+        "height_mod_3125": 10,
+        "log_norm_denominator_over_norm_t": 2705,
+        "multiplier": 66,
+        "norm_denominator_mod_3125": 1675,
+        "trace_t_squared": 2800
+      },
+      "PH": {
+        "height_mod_3125": 275,
+        "log_norm_denominator_over_norm_t": 1225,
+        "multiplier": 66,
+        "norm_denominator_mod_3125": 425,
+        "trace_t_squared": 2275
+      },
+      "PH_multiplier_132": {
+        "height_mod_3125": 275,
+        "log_norm_denominator_over_norm_t": 1775,
+        "multiplier": 132,
+        "norm_denominator_mod_3125": 2325,
+        "trace_t_squared": 2850
+      },
+      "PH_plus_P2": {
+        "height_mod_3125": 825,
+        "log_norm_denominator_over_norm_t": 2950,
+        "multiplier": 66,
+        "norm_denominator_mod_3125": 650,
+        "trace_t_squared": 2975
+      }
+    },
+    "precision": 5,
+    "prime": 5,
+    "splitting": "span(U*omega - 2*omega)"
+  },
+  "isogeny": {
+    "de_rham_pullback": [
+      [
+        [
+          "3/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "-2"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "3/2",
+          "1/2"
+        ]
+      ]
+    ],
+    "differential_scale": [
+      "3/2",
+      "-1/2"
+    ],
+    "kernel_x": [
+      "3/2",
+      "3/2"
+    ],
+    "kernel_y_squared": [
+      "8",
+      "-8"
+    ],
+    "phi_degree": 9,
+    "phi_polarization_multiplier": 3,
+    "rm_D_matrix": [
+      [
+        "-3",
+        "3/2"
+      ],
+      [
+        "-4",
+        "3"
+      ]
+    ],
+    "rm_differentials": [
+      [
+        -2,
+        -1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "rm_point_matrix": [
+      [
+        -1,
+        -2
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "rm_points": [
+      {
+        "coefficients": [
+          -1,
+          -1
+        ],
+        "coordinates": [
+          [
+            "13/6",
+            "5/6"
+          ],
+          [
+            "0",
+            "8/9"
+          ]
+        ]
+      },
+      {
+        "coefficients": [
+          -2,
+          1
+        ],
+        "coordinates": [
+          [
+            "31/6",
+            "5/2"
+          ],
+          [
+            "6",
+            "64/9"
+          ]
+        ]
+      }
+    ]
+  },
+  "local_models": {
+    "common_multiplier": 66,
+    "discriminant": [
+      "-55296",
+      "55296"
+    ],
+    "points_reduction_mod_w": [
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "twice_points_reduction_mod_2": [
+      [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "scope": [
+    "explicit rational RM and (3,3) isogeny",
+    "actual global heights for a specified isotropic splitting",
+    "no complete rational-point or quadratic-Chabauty classification"
+  ]
+}

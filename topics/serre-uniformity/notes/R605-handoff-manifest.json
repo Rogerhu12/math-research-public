@@ -1,0 +1,43 @@
+{
+  "result": "R605",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "New research result, not a reconstruction of an old conclusion.",
+  "source_proof_sha256": "1039cca476c74144b74f0948f8a85c169293bd51014baf6412f36078a133e69b",
+  "root_review": "Root read the entire new proof and both exact sources. Verified the rational total second derivative, the extraction index n=q+p-2, the pa(p+1)(2p+e) coordinate term and its valuation, the pE truncation needed in every product, and all formal-residue exponents and integral cutoffs. Read the executed integer identity and single p41 r2 certificates. The original torsion orbit and old K1 computation were not repeated. The publication-only source change is the input data lookup; arithmetic is unchanged.",
+  "files": [
+    {
+      "file": "results/R605-middle-CM-block-as-one-characteristic-p-coefficient.md",
+      "bytes": 11270,
+      "sha256": "6d12fca1ede4a9e74a108aa311d9533470a815f1cf55ef26f45366a16db79bcf"
+    },
+    {
+      "file": "scripts/verify_R605_total_second_derivative.py",
+      "bytes": 2712,
+      "sha256": "644940f43f991316d0efba92aab8e3da749cf43440e816cc02293102215d7be5"
+    },
+    {
+      "file": "notes/R605_total_second_derivative_certificate.json",
+      "bytes": 675,
+      "sha256": "a8bbcf12477ea9eee3438db5f12ee06f4b4adcd62b66a4e08a4fedc6645fa226"
+    },
+    {
+      "file": "scripts/R605_r2_coefficient.py",
+      "bytes": 2785,
+      "sha256": "806f10c6a3e57784b666403f0514cdde80705e4aa24f1837466884489525a801"
+    },
+    {
+      "file": "notes/R605_r2_prime41.json",
+      "bytes": 1255,
+      "sha256": "8a9344e387fa490e2a4463f15dbfc5fd8b5954cb88934e8793b1feee9a315bb7"
+    },
+    {
+      "file": "notes/R605-agent-frozen-manifest.json",
+      "bytes": 3267,
+      "sha256": "d63542ec3a844e527af4b107eb2d1445d1ee3635394ff0cfafdcd69e090b20ee"
+    }
+  ],
+  "original_integer_checker_sha256": "c6d5aefb3fe60eb3f8a1551d7d61c7d29edf9b29cc3fc3a641c78c463954dac9",
+  "portability_change": "Only input lookup points into scripts/data; no arithmetic change or rerun.",
+  "new_r2_prime41_actually_executed": true,
+  "uniform_nonvanishing_proved": false
+}

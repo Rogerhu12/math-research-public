@@ -1,0 +1,51 @@
+{
+  "p": 43,
+  "r": 11,
+  "a_equals_68_kappa": 19,
+  "original_first_row_mod_p_squared": [
+    899,
+    1683
+  ],
+  "original_gauged_second_row_mod_p": [
+    22,
+    2
+  ],
+  "T1_mod_p_squared": [
+    340,
+    565
+  ],
+  "T2_minus_c_T1_mod_p": [
+    33,
+    24
+  ],
+  "total_log_row": [
+    30,
+    17
+  ],
+  "fixed_log_row": [
+    29,
+    23
+  ],
+  "remaining_log_row": [
+    1,
+    37
+  ],
+  "c_minus_ell_mod_p": 11,
+  "frobenius_parameter_switch_difference_valuations": [
+    1,
+    1
+  ],
+  "determinant_one_column_B_minus_20_A": {
+    "first_divided_by_p": 8,
+    "T1_divided_by_p": 27,
+    "log_total": 19,
+    "log_fixed": 2,
+    "log_remaining": 17,
+    "gauged_second_row": 35,
+    "second_row_after_subtracting_a_times_divided_first": 12,
+    "value_if_remaining_log_omitted_from_divided_first": 25
+  },
+  "identities_verified": true,
+  "actual_integral_reference_and_its_two_rows_verified": true,
+  "scope": "One already used original p43 example; B-20A is a determinant-one column change. Only this one changed first entry vanishes modulo p. No simultaneous original first-row vanishing or infinite-prime nonvanishing is asserted."
+}

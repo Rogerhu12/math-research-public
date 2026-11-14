@@ -1,0 +1,11 @@
+{
+  "date_utc": "2026-11-13",
+  "execution": "Exact JavaScript BigInt polynomial arithmetic executed in functions code mode; no filesystem runtime or Python execution claimed.",
+  "checks": {
+    "8R1=4Q+8g0": "PASS",
+    "8R2=4Q-8g0": "PASS",
+    "8g1=r(8R1)+8L1": "PASS",
+    "8g2=s(8R2)+8L2": "PASS"
+  },
+  "scope": "The four exact polynomial identities used to reduce the original complete mean vector. The geometric contradiction and highest-equation cases are proved in the accompanying manuscript."
+}

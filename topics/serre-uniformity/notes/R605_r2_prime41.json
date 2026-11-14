@@ -1,0 +1,75 @@
+{
+  "result": "R605",
+  "prime": 41,
+  "n": 1640,
+  "M": 273,
+  "r2": 24,
+  "B": 11,
+  "K1_predicted": 12,
+  "historical_K1": 12,
+  "historical_K1_recomputed": false,
+  "new_coefficient_algorithm": "direct integer binomial; Q*Z=A*C; sparse Z(w^p)",
+  "cancelled_denominator_indices": [
+    34,
+    75,
+    116,
+    157,
+    198,
+    239
+  ],
+  "summands": [
+    {
+      "j": 0,
+      "Q_index": 273,
+      "Q": 30,
+      "Z": 1,
+      "summand": 30
+    },
+    {
+      "j": 1,
+      "Q_index": 232,
+      "Q": 35,
+      "Z": 3,
+      "summand": 23
+    },
+    {
+      "j": 2,
+      "Q_index": 191,
+      "Q": 23,
+      "Z": 2,
+      "summand": 5
+    },
+    {
+      "j": 3,
+      "Q_index": 150,
+      "Q": 12,
+      "Z": 22,
+      "summand": 18
+    },
+    {
+      "j": 4,
+      "Q_index": 109,
+      "Q": 36,
+      "Z": 38,
+      "summand": 15
+    },
+    {
+      "j": 5,
+      "Q_index": 68,
+      "Q": 39,
+      "Z": 17,
+      "summand": 7
+    },
+    {
+      "j": 6,
+      "Q_index": 27,
+      "Q": 17,
+      "Z": 27,
+      "summand": 8
+    }
+  ],
+  "exact_integer_max_accumulated_dot": 67909,
+  "coefficient_vectors_sha256": "22e57150d7f8c837e0501dd6c97adb11808cde3af51deab391d69c0b53edaf70",
+  "new_torsion_orbit_run": false,
+  "prime_grid_run": false
+}

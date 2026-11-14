@@ -1,0 +1,28 @@
+{
+  "all_pass": true,
+  "sections": [
+    {
+      "sign": "plus",
+      "all_pass": true,
+      "isotropic_matrix_entries": 9,
+      "projected_curve_coefficients": 18,
+      "conic_coefficients": 5,
+      "conic_determinant": 163840000,
+      "quadratic_parameter_determinant": -160,
+      "cubic_discriminant": "3488/125",
+      "matched_candidate_coefficients": 6
+    },
+    {
+      "sign": "minus",
+      "all_pass": true,
+      "isotropic_matrix_entries": 9,
+      "projected_curve_coefficients": 18,
+      "conic_coefficients": 5,
+      "conic_determinant": 163840000,
+      "quadratic_parameter_determinant": 160,
+      "cubic_discriminant": "153684864/125",
+      "matched_candidate_coefficients": 6
+    }
+  ],
+  "scope": "Exact displayed finite identities. The full section theorem follows from the accompanying proof. No classification of all critical points or global Jacobian membership is claimed."
+}

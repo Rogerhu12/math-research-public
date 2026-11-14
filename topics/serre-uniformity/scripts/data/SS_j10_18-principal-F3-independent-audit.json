@@ -1,0 +1,194 @@
+{
+  "result": "R371",
+  "disk_id": "SS_j10_18",
+  "input_sha256": {
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j10_18_actual_canonical_F3_height47.json.gz": "e41facbf20b7eecb029c462874722c21368d759ee6599f05585bc69499c47864",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j10_18_actual_canonical_F3_polynomial47.json.gz": "9d2cab84918ce0d486105633b3f3e633135ea39f42b9ccdf9e5b68bb30279990",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j10_18_actual_F3_first_variable_norm47.json.gz": "a8c7e6445aa984ac644f9d5fac15cb7377bf3e161f68bcf34151233ab9ec7a77",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j10_18_actual_T3_support47.json.gz": "d19750e880b03cebfb6ac919be464e9f636bb1316b3d61b786f3fe9dfe569d3c",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j10_18_actual_T3_principal_norm47.json.gz": "b10c2de60033601170398b2353beef7ce107a9f956798ed2ce6c0baf31304b39",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j10_18_principal_expression47.json.gz": "5fd23aab626f7c21a725e19b3e6f9e4de8c894692c4510b864ddfac5151ee5c5",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j10_18_actual_second_kind_integrals47.json.gz": "4b71a5a76db928353114d72ecc57cbc382edeff4b5b5109df29c6140a5c0acf3",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j10_18_actual_F2_joint_first_variable_norm47.json.gz": "f3c5c1b28dd3a0ec4a6404c28177d5da771a00c0c65aaa71a44077a7b59c0fe2",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j10_18_actual_canonical_F2_polynomial47.json.gz": "0b1f7a899be8e0b8a1cddb750d828357a7c9ab1f616475a2159cba717d249e71",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j10_18-principal-F2-independent-audit.json": "6b6232d33e9f7c60ab865fab86f4b51a2f244c9a80e67a3240fbfde0be6f4bc6",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/verify_selected_SS_F2_principal47.py": "5a71ee59bb17b3c14d490574f2ef0ecf13be2775d0871faef16b163ff0f33456",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_SS_F3_connection47.py": "f35ba286717bde6faf7b5f2d8ea22f0d445ae00a2f0b6077a760e61bd1da8441",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_SS_F3_local_polynomial_all_unit_fractions47.py": "50ae22bd8020cd5b630a52298e78c69430e1094441429d25cda7f335d78f5abd",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_global_qc_polynomials47_complete.json.gz": "4ea4c9d706b3b8e6f671af4b020db6ff6e47b1c871c45654ca31e5e81d4e6e79",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/R370_SS_transports/SS_j10_18/transport_manifest47.json": "105d6dcb88d45ffdcd70276e60265cc48f25e7abbce692219ebe7f8b2c42feba",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/verify_selected_SS_F2_all_unit_fractions47.py": "34b943053d826178f2279732504ce79891861e8e724c863d5e6dfebe531b5068"
+  },
+  "source_sha256": "bc8ec02997b8319da269e999b4b86c841a418c89e0f9b2ac361e0e63129295bd",
+  "nested_input_hash_edges_checked": [
+    [
+      "center",
+      "second_kind"
+    ],
+    [
+      "center",
+      "principal"
+    ],
+    [
+      "center",
+      "t3_support"
+    ],
+    [
+      "center",
+      "full_norm"
+    ],
+    [
+      "polynomial",
+      "center"
+    ],
+    [
+      "polynomial",
+      "f2_polynomial"
+    ],
+    [
+      "polynomial",
+      "f2_audit"
+    ],
+    [
+      "t3_norm",
+      "principal"
+    ],
+    [
+      "t3_norm",
+      "second_kind"
+    ],
+    [
+      "t3_norm",
+      "t3_support"
+    ],
+    [
+      "full_norm",
+      "t3_norm"
+    ],
+    [
+      "full_norm",
+      "f2_norm"
+    ],
+    [
+      "full_norm",
+      "principal"
+    ],
+    [
+      "full_norm",
+      "second_kind"
+    ],
+    [
+      "f2_audit",
+      "f2_polynomial"
+    ]
+  ],
+  "actual_T3_four_kernel_roots_and_raw_det3_verified": true,
+  "T3_actual_saved_Weierstrass_relations_replayed": 1820,
+  "fixed31_actual_saved_Weierstrass_relations_replayed": 14105,
+  "actual_T3_norm": 4113820,
+  "actual_T3_norm_log": 4795081,
+  "fixed31_weighted_norm": 493836,
+  "fixed31_weighted_norm_log": 2144328,
+  "same_true_Phi_canonical106_and_P_b_tangents_reused_by_hash_identity": true,
+  "canonical_sigma_with_base_factor_2power_minus9": 3593644,
+  "canonical_sigma_log": 4348581,
+  "second_divisor_tiny": 3542860,
+  "full_first_norm_log": 1194552,
+  "actual_center_height": 2620062,
+  "j_z_tangent_change_cancels_in_actual_height": true,
+  "all_actual_tiny_integrals_independently_reassembled": {
+    "B": 4312203,
+    "C": 556386,
+    "D_minus20b": 3508832,
+    "K_g1_minus106b": 4688673,
+    "T3C": 3840605,
+    "Z0fix_minus8b": 2130839,
+    "Z12_minus22b": 875469,
+    "c11_minus_b": 587500,
+    "v_minus_b": 922140
+  },
+  "actual_local_polynomial": [
+    2620062,
+    2525874,
+    901272,
+    207646
+  ],
+  "global_F3_independently_reassembled_from_all54_coordinates_and_published_direction": [
+    4731396,
+    140201,
+    539466,
+    1634660,
+    3426159
+  ],
+  "QC_F3": [
+    2064945,
+    4508616,
+    1714654,
+    1427014,
+    3426159
+  ],
+  "actual_same_component_root_tests": [
+    {
+      "F2_y_mod47cubed": 2952,
+      "F3_QC_value_mod47four": 2281521,
+      "same_bad_component_tests": [
+        {
+          "bad_component_label": 0,
+          "QC_F3_minus_target_mod47four": 2281521,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 3,
+          "QC_F3_minus_target_mod47four": 2281521,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 28,
+          "QC_F3_minus_target_mod47four": 4539730,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 32,
+          "QC_F3_minus_target_mod47four": 4539730,
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "F2_y_mod47cubed": 82202,
+      "F3_QC_value_mod47four": 4276577,
+      "same_bad_component_tests": [
+        {
+          "bad_component_label": 0,
+          "QC_F3_minus_target_mod47four": 4276577,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 3,
+          "QC_F3_minus_target_mod47four": 4276577,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 28,
+          "QC_F3_minus_target_mod47four": 1655105,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 32,
+          "QC_F3_minus_target_mod47four": 1655105,
+          "excluded": true
+        }
+      ]
+    }
+  ],
+  "remaining_pairs": [],
+  "entire_disk_excluded": true,
+  "eta_B_fraction_cross_audit": {
+    "replacement": false
+  },
+  "fixed_fraction_cross_audit": {
+    "replacements": [],
+    "scope": "No replacement present."
+  },
+  "scope": "Independent exact replay of actual saved principal factors and unit Norms, same-function checks, tiny integration, normalized fiber and height, all54 global quadratic assembly, and all four same-component candidate tests; no second RR or torsion execution."
+}

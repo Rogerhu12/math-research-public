@@ -1,0 +1,709 @@
+{
+  "result": "R271",
+  "check_count": 67,
+  "all_passed": true,
+  "checks": [
+    "quadratic_evaluation_determinant_rank_0",
+    "quadratic_evaluation_determinant_rank_1",
+    "quadratic_evaluation_determinant_rank_2",
+    "quadratic_evaluation_determinant_rank_3",
+    "quadratic_evaluation_determinant_rank_4",
+    "quadratic_evaluation_determinant_rank_5",
+    "quadratic_evaluation_determinant_rank_6",
+    "all_p_and_p_squared_class_labels_quotient_0_0",
+    "all_p_and_p_squared_class_labels_quotient_0_1",
+    "all_p_and_p_squared_class_labels_quotient_0_2",
+    "all_p_and_p_squared_class_labels_quotient_0_3",
+    "all_p_and_p_squared_class_labels_quotient_0_4",
+    "all_p_and_p_squared_class_labels_quotient_0_5",
+    "all_p_and_p_squared_class_labels_quotient_0_6",
+    "all_p_and_p_squared_class_labels_quotient_1_0",
+    "all_p_and_p_squared_class_labels_quotient_1_1",
+    "all_p_and_p_squared_class_labels_quotient_1_2",
+    "all_p_and_p_squared_class_labels_quotient_1_3",
+    "all_p_and_p_squared_class_labels_quotient_1_4",
+    "all_p_and_p_squared_class_labels_quotient_1_5",
+    "all_p_and_p_squared_class_labels_quotient_1_6",
+    "all_p_and_p_squared_class_labels_quotient_2_0",
+    "all_p_and_p_squared_class_labels_quotient_2_1",
+    "all_p_and_p_squared_class_labels_quotient_2_2",
+    "all_p_and_p_squared_class_labels_quotient_2_3",
+    "all_p_and_p_squared_class_labels_quotient_2_4",
+    "all_p_and_p_squared_class_labels_quotient_2_5",
+    "all_p_and_p_squared_class_labels_quotient_2_6",
+    "all_p_and_p_squared_class_labels_quotient_3_0",
+    "all_p_and_p_squared_class_labels_quotient_3_1",
+    "all_p_and_p_squared_class_labels_quotient_3_2",
+    "all_p_and_p_squared_class_labels_quotient_3_3",
+    "all_p_and_p_squared_class_labels_quotient_3_4",
+    "all_p_and_p_squared_class_labels_quotient_3_5",
+    "all_p_and_p_squared_class_labels_quotient_3_6",
+    "all_p_and_p_squared_class_labels_quotient_4_0",
+    "all_p_and_p_squared_class_labels_quotient_4_1",
+    "all_p_and_p_squared_class_labels_quotient_4_2",
+    "all_p_and_p_squared_class_labels_quotient_4_3",
+    "all_p_and_p_squared_class_labels_quotient_4_4",
+    "all_p_and_p_squared_class_labels_quotient_4_5",
+    "all_p_and_p_squared_class_labels_quotient_4_6",
+    "all_p_and_p_squared_class_labels_quotient_5_0",
+    "all_p_and_p_squared_class_labels_quotient_5_1",
+    "all_p_and_p_squared_class_labels_quotient_5_2",
+    "all_p_and_p_squared_class_labels_quotient_5_3",
+    "all_p_and_p_squared_class_labels_quotient_5_4",
+    "all_p_and_p_squared_class_labels_quotient_5_5",
+    "all_p_and_p_squared_class_labels_quotient_5_6",
+    "all_p_and_p_squared_class_labels_quotient_6_0",
+    "all_p_and_p_squared_class_labels_quotient_6_1",
+    "all_p_and_p_squared_class_labels_quotient_6_2",
+    "all_p_and_p_squared_class_labels_quotient_6_3",
+    "all_p_and_p_squared_class_labels_quotient_6_4",
+    "all_p_and_p_squared_class_labels_quotient_6_5",
+    "all_p_and_p_squared_class_labels_quotient_6_6",
+    "six_actual_quotients_recover_all_six_quadratic_entries",
+    "p_class_norm_is_top_augmentation_monomial",
+    "norm_source_has_exact_degree_p_plus_one",
+    "actual_pushforward_keeps_second_moment",
+    "second_pushforward_after_norm_is_zero",
+    "norm_embedding_remains_injective_when_p_divides_class_number",
+    "nonsplit_cyclic_p_squared_has_no_ramified_degree_p_quotient",
+    "unramified_direction_square_hidden_by_one_quotient",
+    "same_source_detected_by_another_ramified_quotient",
+    "unipotent_observation_has_order_p",
+    "unipotent_observation_keeps_both_nontrivial_extensions"
+  ],
+  "quadratic_evaluation_determinants": [
+    {
+      "class_p_rank": 0,
+      "size": 1,
+      "determinant": "1"
+    },
+    {
+      "class_p_rank": 1,
+      "size": 3,
+      "determinant": "4"
+    },
+    {
+      "class_p_rank": 2,
+      "size": 6,
+      "determinant": "32"
+    },
+    {
+      "class_p_rank": 3,
+      "size": 10,
+      "determinant": "512"
+    },
+    {
+      "class_p_rank": 4,
+      "size": 15,
+      "determinant": "16384"
+    },
+    {
+      "class_p_rank": 5,
+      "size": 21,
+      "determinant": "1048576"
+    },
+    {
+      "class_p_rank": 6,
+      "size": 28,
+      "determinant": "134217728"
+    }
+  ],
+  "full_class_example": {
+    "p": 7,
+    "group_orders": [
+      7,
+      7,
+      49
+    ],
+    "raw_nonzero_label_count": 28,
+    "constant": 0,
+    "linear_moments": [
+      6,
+      0,
+      6
+    ],
+    "quadratic_moments": [
+      [
+        3,
+        1,
+        5
+      ],
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        5,
+        4,
+        2
+      ]
+    ],
+    "recovered_quadratic_moments": [
+      [
+        3,
+        1,
+        5
+      ],
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        5,
+        4,
+        2
+      ]
+    ],
+    "all_ramified_quotient_moments": [
+      {
+        "b": [
+          0,
+          0
+        ],
+        "moments": [
+          0,
+          6,
+          2
+        ]
+      },
+      {
+        "b": [
+          0,
+          1
+        ],
+        "moments": [
+          0,
+          5,
+          5
+        ]
+      },
+      {
+        "b": [
+          0,
+          2
+        ],
+        "moments": [
+          0,
+          4,
+          3
+        ]
+      },
+      {
+        "b": [
+          0,
+          3
+        ],
+        "moments": [
+          0,
+          3,
+          3
+        ]
+      },
+      {
+        "b": [
+          0,
+          4
+        ],
+        "moments": [
+          0,
+          2,
+          5
+        ]
+      },
+      {
+        "b": [
+          0,
+          5
+        ],
+        "moments": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "b": [
+          0,
+          6
+        ],
+        "moments": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "b": [
+          1,
+          0
+        ],
+        "moments": [
+          0,
+          6,
+          1
+        ]
+      },
+      {
+        "b": [
+          1,
+          1
+        ],
+        "moments": [
+          0,
+          5,
+          1
+        ]
+      },
+      {
+        "b": [
+          1,
+          2
+        ],
+        "moments": [
+          0,
+          4,
+          3
+        ]
+      },
+      {
+        "b": [
+          1,
+          3
+        ],
+        "moments": [
+          0,
+          3,
+          0
+        ]
+      },
+      {
+        "b": [
+          1,
+          4
+        ],
+        "moments": [
+          0,
+          2,
+          6
+        ]
+      },
+      {
+        "b": [
+          1,
+          5
+        ],
+        "moments": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "b": [
+          1,
+          6
+        ],
+        "moments": [
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "b": [
+          2,
+          0
+        ],
+        "moments": [
+          0,
+          6,
+          3
+        ]
+      },
+      {
+        "b": [
+          2,
+          1
+        ],
+        "moments": [
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "b": [
+          2,
+          2
+        ],
+        "moments": [
+          0,
+          4,
+          6
+        ]
+      },
+      {
+        "b": [
+          2,
+          3
+        ],
+        "moments": [
+          0,
+          3,
+          0
+        ]
+      },
+      {
+        "b": [
+          2,
+          4
+        ],
+        "moments": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "b": [
+          2,
+          5
+        ],
+        "moments": [
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "b": [
+          2,
+          6
+        ],
+        "moments": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "b": [
+          3,
+          0
+        ],
+        "moments": [
+          0,
+          6,
+          1
+        ]
+      },
+      {
+        "b": [
+          3,
+          1
+        ],
+        "moments": [
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "b": [
+          3,
+          2
+        ],
+        "moments": [
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "b": [
+          3,
+          3
+        ],
+        "moments": [
+          0,
+          3,
+          3
+        ]
+      },
+      {
+        "b": [
+          3,
+          4
+        ],
+        "moments": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "b": [
+          3,
+          5
+        ],
+        "moments": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "b": [
+          3,
+          6
+        ],
+        "moments": [
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "b": [
+          4,
+          0
+        ],
+        "moments": [
+          0,
+          6,
+          2
+        ]
+      },
+      {
+        "b": [
+          4,
+          1
+        ],
+        "moments": [
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "b": [
+          4,
+          2
+        ],
+        "moments": [
+          0,
+          4,
+          0
+        ]
+      },
+      {
+        "b": [
+          4,
+          3
+        ],
+        "moments": [
+          0,
+          3,
+          2
+        ]
+      },
+      {
+        "b": [
+          4,
+          4
+        ],
+        "moments": [
+          0,
+          2,
+          6
+        ]
+      },
+      {
+        "b": [
+          4,
+          5
+        ],
+        "moments": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "b": [
+          4,
+          6
+        ],
+        "moments": [
+          0,
+          0,
+          6
+        ]
+      },
+      {
+        "b": [
+          5,
+          0
+        ],
+        "moments": [
+          0,
+          6,
+          6
+        ]
+      },
+      {
+        "b": [
+          5,
+          1
+        ],
+        "moments": [
+          0,
+          5,
+          1
+        ]
+      },
+      {
+        "b": [
+          5,
+          2
+        ],
+        "moments": [
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "b": [
+          5,
+          3
+        ],
+        "moments": [
+          0,
+          3,
+          4
+        ]
+      },
+      {
+        "b": [
+          5,
+          4
+        ],
+        "moments": [
+          0,
+          2,
+          5
+        ]
+      },
+      {
+        "b": [
+          5,
+          5
+        ],
+        "moments": [
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "b": [
+          5,
+          6
+        ],
+        "moments": [
+          0,
+          0,
+          6
+        ]
+      },
+      {
+        "b": [
+          6,
+          0
+        ],
+        "moments": [
+          0,
+          6,
+          6
+        ]
+      },
+      {
+        "b": [
+          6,
+          1
+        ],
+        "moments": [
+          0,
+          5,
+          5
+        ]
+      },
+      {
+        "b": [
+          6,
+          2
+        ],
+        "moments": [
+          0,
+          4,
+          6
+        ]
+      },
+      {
+        "b": [
+          6,
+          3
+        ],
+        "moments": [
+          0,
+          3,
+          2
+        ]
+      },
+      {
+        "b": [
+          6,
+          4
+        ],
+        "moments": [
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "b": [
+          6,
+          5
+        ],
+        "moments": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "b": [
+          6,
+          6
+        ],
+        "moments": [
+          0,
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  "norm_shift_example": {
+    "source": "(t-1)^2",
+    "class_group": "C_7",
+    "norm_source": "(s-1)^6*(t-1)^2",
+    "exact_total_degree": 8,
+    "true_quotient_second_moment": 1,
+    "wrong_norm_then_pushforward": 0
+  }
+}

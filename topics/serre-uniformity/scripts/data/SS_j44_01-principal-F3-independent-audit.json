@@ -1,0 +1,236 @@
+{
+  "result": "R395",
+  "disk_id": "SS_j44_01",
+  "input_sha256": {
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/shifted-F3-production/SS_j44_01/SS_j44_01_actual_canonical_F3_height47.json.gz": "bba86a7d6b0665569b4770ba0fb6bbc7c2119be59f19503a1a021ed45f2f2789",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/shifted-F3-production/SS_j44_01/SS_j44_01_actual_canonical_F3_polynomial47.json.gz": "6bc61d45d4bf12daad40114322b605da0469d6f7e380dea1a0e606ab2ebde3e2",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/shifted-F3-production/SS_j44_01/SS_j44_01_actual_F3_first_variable_norm47.json.gz": "b3b80a940642a889ac1d19e0b103f21968bbdaf74d9a06f721776354ec338622",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/shifted-F3-production/SS_j44_01/SS_j44_01_actual_T3_support47.json.gz": "97d83a97222fb7589dccfc6e78ff93cc84126a3ee1e271c78d8887c1f11873fe",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/shifted-F3-production/SS_j44_01/SS_j44_01_actual_T3_principal_norm47.json.gz": "e05ecab458bfa6e8a2b5efb548101d092fb56c0a516b26819f34d1649a03f90c",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j44_01_principal_expression47.json.gz": "85150a9f90ed4005023d7213e89dd47f0f7b35ce74732cc09ccac630a917dd10",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j44_01_actual_second_kind_integrals47.json.gz": "431397f90bbf77d2656f46a7f06aac3802e6ac3569ed146c1bb9a4d07a27487e",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j44_01_actual_F2_first_variable_norm47.json.gz": "25edd59a613c9a27420a50f4517ea976d00aea4680d2ea2bba40959965962102",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j44_01_actual_canonical_F2_polynomial47.json.gz": "f73dc92f164285741ae04c9b75ba3fee74380f703d52ee3829f761a6599e528d",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j44_01-principal-F2-independent-audit.json": "938d4fa124b5885b5f498f3828fd6f45639dd7621fcafea01ce1d906189f5915",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/verify_selected_SS_F2_principal47.py": "5a71ee59bb17b3c14d490574f2ef0ecf13be2775d0871faef16b163ff0f33456",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_SS_F3_connection_explicit_derivative47.py": "8668334088df043852382441f4249feeecc790f12ca62596780cdb8eba0a1576",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_SS_F3_local_polynomial_all_unit_fractions_derivative47.py": "6251271f1192ff43f345d832ae6de4e7d26adc53692663ce3aee86a0aae28cff",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_serre_clearing_nonelliptic_disks47.json.gz": "3c07ff74f610140eac3f7198b5d56d54f04e78c9db192507a6817f67f4f237dd",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_global_qc_polynomials47_complete.json.gz": "4ea4c9d706b3b8e6f671af4b020db6ff6e47b1c871c45654ca31e5e81d4e6e79",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/R391_SS_transports/SS_j44_01/transport_manifest47.json": "a487787aea9f863508a5bd77be3c4df37e9ed32be78eff034dfed41767c2993d",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/verify_selected_SS_F2_all_unit_fractions47.py": "34b943053d826178f2279732504ce79891861e8e724c863d5e6dfebe531b5068"
+  },
+  "source_sha256": "53b54d3c7eed43c0d819f08d877a1a0b4380803fb26cebd9048a9635f2aebb98",
+  "nested_input_hash_edges_checked": [
+    [
+      "center",
+      "second_kind"
+    ],
+    [
+      "center",
+      "principal"
+    ],
+    [
+      "center",
+      "t3_support"
+    ],
+    [
+      "center",
+      "full_norm"
+    ],
+    [
+      "polynomial",
+      "center"
+    ],
+    [
+      "polynomial",
+      "f2_polynomial"
+    ],
+    [
+      "polynomial",
+      "f2_audit"
+    ],
+    [
+      "t3_norm",
+      "principal"
+    ],
+    [
+      "t3_norm",
+      "second_kind"
+    ],
+    [
+      "t3_norm",
+      "t3_support"
+    ],
+    [
+      "full_norm",
+      "t3_norm"
+    ],
+    [
+      "full_norm",
+      "f2_norm"
+    ],
+    [
+      "full_norm",
+      "principal"
+    ],
+    [
+      "full_norm",
+      "second_kind"
+    ],
+    [
+      "f2_audit",
+      "f2_polynomial"
+    ],
+    [
+      "center",
+      "derivative"
+    ],
+    [
+      "polynomial",
+      "derivative"
+    ]
+  ],
+  "actual_T3_four_kernel_roots_and_raw_det3_verified": true,
+  "T3_actual_saved_Weierstrass_relations_replayed": 1820,
+  "fixed31_actual_saved_Weierstrass_relations_replayed": 14105,
+  "actual_T3_norm": 2862030,
+  "actual_T3_norm_log": 4111748,
+  "fixed31_weighted_norm": 4766472,
+  "fixed31_weighted_norm_log": 1319666,
+  "same_true_Phi_canonical106_and_P_b_tangents_reused_by_hash_identity": true,
+  "canonical_sigma_with_base_factor_2power_minus9": 4551906,
+  "canonical_sigma_log": 1832671,
+  "second_divisor_tiny": 3243141,
+  "full_first_norm_log": 4500109,
+  "actual_center_height": 444761,
+  "j_z_tangent_change_cancels_in_actual_height": true,
+  "all_actual_tiny_integrals_independently_reassembled": {
+    "B": 1614685,
+    "C": 2649625,
+    "D_minus20b": 564658,
+    "K_g1_minus106b": 2653808,
+    "T3C": 4035796,
+    "Z0fix_minus8b": 387280,
+    "Z12_minus22b": 127135,
+    "c11_minus_b": 474230,
+    "v_minus_b": 3230122
+  },
+  "actual_local_polynomial": [
+    444761,
+    3295311,
+    2003563,
+    1868814
+  ],
+  "global_F3_independently_reassembled_from_all54_coordinates_and_published_direction": [
+    3282292,
+    169059,
+    4651355,
+    1360744,
+    2284106
+  ],
+  "QC_F3": [
+    3690205,
+    3827680,
+    2336323,
+    4371611,
+    2284106
+  ],
+  "actual_same_component_root_tests": [
+    {
+      "F2_y_mod47cubed": 22797,
+      "F3_QC_value_mod47four": 200173,
+      "same_bad_component_tests": [
+        {
+          "bad_component_label": 0,
+          "QC_F3_minus_target_mod47four": 200173,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 3,
+          "QC_F3_minus_target_mod47four": 200173,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 28,
+          "QC_F3_minus_target_mod47four": 2458382,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 32,
+          "QC_F3_minus_target_mod47four": 2458382,
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "F2_y_mod47cubed": 13681,
+      "F3_QC_value_mod47four": 3085550,
+      "same_bad_component_tests": [
+        {
+          "bad_component_label": 0,
+          "QC_F3_minus_target_mod47four": 3085550,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 3,
+          "QC_F3_minus_target_mod47four": 3085550,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 28,
+          "QC_F3_minus_target_mod47four": 464078,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 32,
+          "QC_F3_minus_target_mod47four": 464078,
+          "excluded": true
+        }
+      ]
+    }
+  ],
+  "remaining_pairs": [],
+  "entire_disk_excluded": true,
+  "eta_B_fraction_cross_audit": {
+    "replacement": false
+  },
+  "fixed_fraction_cross_audit": {
+    "replacements": [
+      {
+        "connection": "Z0fix_minus8b",
+        "all820_exact_integer_cross_products_checked": true,
+        "evaluation_cross_values_sha256": "e6805f24d283f07c98316cac7fdc74f3375c6cdd14f57185dbba10d175d394be",
+        "old_unit_rows": 819,
+        "pole_plus_center_rank_mod47": 9,
+        "unit_minor_columns_0based": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "new_denominator_at_center_mod47four": [
+          4795699,
+          0
+        ],
+        "true_support_vanishing_mod47four": true,
+        "Frobenius_sections_exact": true,
+        "faithful_degree_bound": 378
+      }
+    ],
+    "faithful_model_input_sha256": {
+      "p41_makdisi47_certificate.json.gz": "c6ea2f89f4f64eec78039c5b14b6835295b045ea24ae26f885c4047b21e96222",
+      "p41_cusp_divisors47_certificate.json.gz": "ae902f25e6d3674b6d474a70ee12a925c0934c198eff94581cfd5dbba30023fb",
+      "p41_cm4_divisor47_certificate.json": "f98b13cbc7afb3ed5d8b2f9249fbe815198b478b23559c319c5ba56b6bd83540",
+      "p41_group47_checkpoint.json.gz": "4f982a4801332f9eff196ff9e9f866883b01014579896c20e65d044530b8b655"
+    },
+    "atlas_sha256": "f2f4f96ba74676d6b02989a540b434f6b29c2e8a8b4c5d3f7837291851eff0f3",
+    "scope": "Independent Python-integer evaluations of all820 cross identities and source unit/support/rationality checks on the published faithfully reconstructed section model; not a second RR or chain execution."
+  },
+  "scope": "Independent exact replay of actual saved principal factors and unit Norms, same-function checks, tiny integration, normalized fiber and height, all54 global quadratic assembly, and all four same-component candidate tests; no second RR or torsion execution."
+}

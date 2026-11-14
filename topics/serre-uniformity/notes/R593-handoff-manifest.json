@@ -1,0 +1,16 @@
+{
+  "result": "R593",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "Reconstructed after loss of the old workspace and functions memory; no old-byte equality is claimed unless separately evidenced.",
+  "source_proof_sha256": "22eed112cc84cb89ea102301b3e5f9c774998359fadb589db38b61703e28ad4a",
+  "root_review": "Root read the complete v1 and the complete v2 diff. Checked the actual quotient, fixed rational CM basepoint, weighted degree trace, invariant Picard descent, AJ autoduality sign and factor2, full mu3 norm without symmetrizing away Pic0, uniform rigidified trivialization, and the local support. Root independently opened the current Besser–Müller–Srinivasan paper and checked Lemma7.1, Theorem7.2 proof and Remark7.4; the nonconstancy argument is proved using Chern-class separation rather than an inapplicable quotation.",
+  "files": [
+    {
+      "file": "results/R593-actual-quotient-height-and-uniform-bad-place-support.md",
+      "bytes": 17069,
+      "sha256": "22eed112cc84cb89ea102301b3e5f9c774998359fadb589db38b61703e28ad4a"
+    }
+  ],
+  "primary_source_checked": "https://arxiv.org/pdf/2112.03873; Lemma 7.1 and Theorem 7.2 proof, current 76-page text read 2026-11-14",
+  "normalization_boundary": "Uses newly defined c_clear,c_triv and s_h,d; the lost literal N/M and old numerical Omega values are not claimed restored."
+}

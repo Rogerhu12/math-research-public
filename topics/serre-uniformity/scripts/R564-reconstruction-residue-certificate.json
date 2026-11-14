@@ -1,0 +1,25 @@
+{
+  "status": "exact-algebraic-identities",
+  "field": "QQ[r]/(r^3-4)",
+  "sampling": false,
+  "rows": [
+    {
+      "kernel": "minus",
+      "reduced_beta_residue": "-r/72",
+      "expected": "-r/72",
+      "difference": "0",
+      "denominator_remainder": "5184*r**2 - 2592*r - 10368",
+      "denominator_inverse": "-r**2/10368 - r/7776 - 1/3888",
+      "inverse_check": "0"
+    },
+    {
+      "kernel": "plus",
+      "reduced_beta_residue": "-r**2/144",
+      "expected": "-r**2/144",
+      "difference": "0",
+      "denominator_remainder": "5184*r**2 - 2592*r - 10368",
+      "denominator_inverse": "-r**2/10368 - r/7776 - 1/3888",
+      "inverse_check": "0"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "check_count": 85,
+  "checks": [
+    "normalized torsion Miller ratio has inverse under negation",
+    "actual three-torsion Miller differential",
+    "three-torsion quasilog constant",
+    "complete original three-torsion constant",
+    "full nonhomogeneous division-log identity",
+    "origin reference mass is n*A_n",
+    "trace of full division-log source is zero",
+    "four actual R317 orbit labels",
+    "torsion reduction on original E17 orbit 0",
+    "Miller intermediate point nonzero orbit 0 step 1",
+    "complete Miller divisor closes orbit 0",
+    "torsion reduction on original E17 orbit 1",
+    "Miller intermediate point nonzero orbit 1 step 1",
+    "Miller intermediate point nonzero orbit 1 step 2",
+    "Miller intermediate point nonzero orbit 1 step 3",
+    "Miller intermediate point nonzero orbit 1 step 4",
+    "Miller intermediate point nonzero orbit 1 step 5",
+    "Miller intermediate point nonzero orbit 1 step 6",
+    "Miller intermediate point nonzero orbit 1 step 7",
+    "Miller intermediate point nonzero orbit 1 step 8",
+    "Miller intermediate point nonzero orbit 1 step 9",
+    "Miller intermediate point nonzero orbit 1 step 10",
+    "Miller intermediate point nonzero orbit 1 step 11",
+    "Miller intermediate point nonzero orbit 1 step 12",
+    "Miller intermediate point nonzero orbit 1 step 13",
+    "Miller intermediate point nonzero orbit 1 step 14",
+    "Miller intermediate point nonzero orbit 1 step 15",
+    "Miller intermediate point nonzero orbit 1 step 16",
+    "Miller intermediate point nonzero orbit 1 step 17",
+    "Miller intermediate point nonzero orbit 1 step 18",
+    "complete Miller divisor closes orbit 1",
+    "torsion reduction on original E17 orbit 2",
+    "Miller intermediate point nonzero orbit 2 step 1",
+    "Miller intermediate point nonzero orbit 2 step 2",
+    "Miller intermediate point nonzero orbit 2 step 3",
+    "Miller intermediate point nonzero orbit 2 step 4",
+    "Miller intermediate point nonzero orbit 2 step 5",
+    "Miller intermediate point nonzero orbit 2 step 6",
+    "Miller intermediate point nonzero orbit 2 step 7",
+    "Miller intermediate point nonzero orbit 2 step 8",
+    "Miller intermediate point nonzero orbit 2 step 9",
+    "Miller intermediate point nonzero orbit 2 step 10",
+    "Miller intermediate point nonzero orbit 2 step 11",
+    "Miller intermediate point nonzero orbit 2 step 12",
+    "Miller intermediate point nonzero orbit 2 step 13",
+    "Miller intermediate point nonzero orbit 2 step 14",
+    "Miller intermediate point nonzero orbit 2 step 15",
+    "Miller intermediate point nonzero orbit 2 step 16",
+    "Miller intermediate point nonzero orbit 2 step 17",
+    "Miller intermediate point nonzero orbit 2 step 18",
+    "Miller intermediate point nonzero orbit 2 step 19",
+    "Miller intermediate point nonzero orbit 2 step 20",
+    "Miller intermediate point nonzero orbit 2 step 21",
+    "Miller intermediate point nonzero orbit 2 step 22",
+    "Miller intermediate point nonzero orbit 2 step 23",
+    "Miller intermediate point nonzero orbit 2 step 24",
+    "Miller intermediate point nonzero orbit 2 step 25",
+    "Miller intermediate point nonzero orbit 2 step 26",
+    "Miller intermediate point nonzero orbit 2 step 27",
+    "Miller intermediate point nonzero orbit 2 step 28",
+    "complete Miller divisor closes orbit 2",
+    "torsion reduction on original E17 orbit 3",
+    "Miller intermediate point nonzero orbit 3 step 1",
+    "Miller intermediate point nonzero orbit 3 step 2",
+    "Miller intermediate point nonzero orbit 3 step 3",
+    "Miller intermediate point nonzero orbit 3 step 4",
+    "Miller intermediate point nonzero orbit 3 step 5",
+    "Miller intermediate point nonzero orbit 3 step 6",
+    "Miller intermediate point nonzero orbit 3 step 7",
+    "Miller intermediate point nonzero orbit 3 step 8",
+    "Miller intermediate point nonzero orbit 3 step 9",
+    "Miller intermediate point nonzero orbit 3 step 10",
+    "Miller intermediate point nonzero orbit 3 step 11",
+    "Miller intermediate point nonzero orbit 3 step 12",
+    "Miller intermediate point nonzero orbit 3 step 13",
+    "Miller intermediate point nonzero orbit 3 step 14",
+    "Miller intermediate point nonzero orbit 3 step 15",
+    "Miller intermediate point nonzero orbit 3 step 16",
+    "Miller intermediate point nonzero orbit 3 step 17",
+    "Miller intermediate point nonzero orbit 3 step 18",
+    "complete Miller divisor closes orbit 3",
+    "all four actual c_T values",
+    "all four original residue-weighted constants",
+    "complete torsion-limit constant c_infinity",
+    "independent Miller constant matches complete Cartier-square trace"
+  ],
+  "torsion_function": "f_T(O)=1, div f_T=(p+1)(T)-(p+1)(-T)",
+  "actual_norm": "Norm_[-p] f_T=f_T exactly; no residual constant",
+  "torsion_dlog": "dlog f_T=(p+1)(xi_T-2*c_T*dz)",
+  "constant_algorithm": "c_T=-h_r/r; h_r is the actual Miller slope sum",
+  "p59": {
+    "c_T_in_order_r50_r57_r32_r16": [
+      [
+        0,
+        23
+      ],
+      [
+        55,
+        0
+      ],
+      [
+        26,
+        0
+      ],
+      [
+        0,
+        41
+      ]
+    ],
+    "original_weighted_constant_terms": [
+      [
+        32,
+        0
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        51,
+        0
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "c_infinity": [
+      43,
+      0
+    ],
+    "trace_constant": [
+      16,
+      0
+    ]
+  },
+  "translated_sigma": "F_n(T+exp(w))/F_n(T)=s_T(nw)/s_T(w)^(n^2); s_T(0)=1",
+  "division_log_source": "R_n=sum_a rho_a D_z log(psi_n(z-P_a)/psi_n(z+P_a))",
+  "full_identity": "R_n=n*g_n(nz)-n^2*g+n*A_n",
+  "exact_normalized_central": "(J_(H R_n)-n*A_n*J_H)/(n^2*J_H)=-J_S/J_H+n^-1*J_(H*g_n(nz))/J_H",
+  "error_bound": "n=(-p)^k implies last full Tate-algebra term belongs to p^(5k+1) Z_p< u >",
+  "retained_scope": "normalized translated sigma evaluations are not declared algebraic; global principal functions do not remove the weighted original Mellin kernel or establish infinite-prime nonvanishing"
+}

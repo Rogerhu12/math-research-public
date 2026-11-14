@@ -1,0 +1,180 @@
+{
+  "result": "R408",
+  "disk_id": "SS_j44_10",
+  "input_sha256": {
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_selected_SS_F2_connection_clearing_frame47.py": "48e0cf5bfed1c15fd8dd6ba77357c4856dca0a2078b68dfb2b3aeeecd5bf9baf",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_SS_F2_full_canonical_norm_clearing_frame47.py": "62646051ee41a09e0902e341c699f2e2c64bdd9694b8a87f8517a14fe5227a47",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_selected_SS_F2_polynomial_clearing_frame47.py": "ff555f78524ce8a2ea70b388abecc2052920fc2b0b8ffb7a8803c720cc70df56",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_serre_clearing_nonelliptic_disks47.json.gz": "3c07ff74f610140eac3f7198b5d56d54f04e78c9db192507a6817f67f4f237dd",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j44_10_actual_canonical_F2_height47.json.gz": "2c21dae57b0af414cfd1af368ef1cadf13e0626c2ce7a00ace3899a05f9037ed",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j44_10_actual_canonical_F2_polynomial47.json.gz": "341bb090bc84a8bd36b97e95ee2e7d00095ed9bc68ae4c80919d16d184389195",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j44_10_actual_F2_first_variable_norm47.json.gz": "2bde02b5c8e9fe9040e7c09c9991235d966a57e0cc232da1606d96a257861e29",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j44_10_actual_T2_support47.json.gz": "e1eb812319f73213b774b46c4afc77e372f4a86cb5d26b3bef8023f428cbde30",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j44_10_actual_T2_principal_norm47.json.gz": "ff822666df85b5d5ca00c7777598116e1e33c50c7b805a5b76286a9c4c2fd442",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j44_10_principal_expression47.json.gz": "62ae7eb0c4354516cc36c96b1c2a1174cef2dbeefedbec3e5ce7e47d6ad3dfb9",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j44_10_actual_second_kind_integrals47.json.gz": "14d3f01ad3c10bca641c6528f373408ad4944e178c61fa9e8a5d379171b0071d",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/R408_SS_work/SS_j44_10_Abel47.json.gz": "62655b20d24215cbaed9b25222f2898e11974cfe7fe3127ba792effec06a9d63",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/R408_SS_work/SS_j44_10_multiply47.json.gz": "cf678a526a5e66e73fbe0d6605d71d1995b5187333d9e8cfe5198c9cf55d820f",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/R408_SS_j44_10_based_points47.json.gz": "d6048e2cf63b574c40c8ecb67e3fc4a79048f67c0115b65743eccb182696c435",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_three_ordinary_CM_anchors_and_113_global_functions47.json.gz": "a9c40049ce3eab329ed22ff27edcb39e929491bacf35c11887b348c0609bdb6a",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_rational_SS_second_kind_integrals47_complete.json.gz": "c8b5e8d292b89dadf5cfa5f1b7bafadff6848cda61ddfe207c5009f2ed6a401d",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/R408_SS_transports/SS_j44_10/transport_manifest47.json": "017770f0475063ae50ab4a7a13eed8f09931c5e13811d0623d95dd8d58e2fc6e"
+  },
+  "source_sha256": "2d363261d7dcb5ec7788bad56769095c356d372c6c11efe3c0cc70770eb8f856",
+  "same_actual_clearing_frame_in_Norm_center_polynomial_verified": true,
+  "checked_nested_hash_edges": [
+    [
+      "center",
+      "second"
+    ],
+    [
+      "center",
+      "principal"
+    ],
+    [
+      "center",
+      "T2_support"
+    ],
+    [
+      "center",
+      "full_norm"
+    ],
+    [
+      "polynomial",
+      "center"
+    ],
+    [
+      "polynomial",
+      "Abel"
+    ],
+    [
+      "polynomial",
+      "multiply"
+    ],
+    [
+      "Abel",
+      "multiply"
+    ],
+    [
+      "second",
+      "Abel"
+    ],
+    [
+      "second",
+      "multiply"
+    ],
+    [
+      "second",
+      "based"
+    ],
+    [
+      "principal",
+      "second"
+    ],
+    [
+      "T2_norm",
+      "principal"
+    ],
+    [
+      "T2_norm",
+      "T2_support"
+    ],
+    [
+      "full_norm",
+      "T2_norm"
+    ],
+    [
+      "full_norm",
+      "principal"
+    ],
+    [
+      "full_norm",
+      "second"
+    ],
+    [
+      "full_norm",
+      "multiply"
+    ],
+    [
+      "full_norm",
+      "based"
+    ],
+    [
+      "full_norm",
+      "clearing"
+    ],
+    [
+      "center",
+      "clearing"
+    ],
+    [
+      "polynomial",
+      "clearing"
+    ]
+  ],
+  "all457_actual_principal_function_hashes_verified": true,
+  "all455_integer_divisor_SLP_relations_replayed": true,
+  "exact_final_f0_exponent_zero_and_total_weight_zero": true,
+  "T2_saved_Weierstrass_relations_independently_replayed": 1365,
+  "all460_full106_norm_values_recombined_by_exact_integer_exponents": true,
+  "all108_actual_integrals_match_independent_SS_Hecke_solutions": true,
+  "all54_principal_norm_derivatives_plus_terminal_tiny_equal_m_times_original_nu": true,
+  "all_actual_family1_integrals_independently_reassembled": {
+    "B": 1303357,
+    "C": 1272008,
+    "D_minus20b": 1654447,
+    "K_g1_minus106b": 3935686,
+    "T2C": 1804048,
+    "Z8_minus20b": 3577687,
+    "c7_minus_b": 385682,
+    "u_minus_b": 2593883
+  },
+  "actual_j_to_z_tangent_change_cancels_in_height": true,
+  "actual_g1_over_dj_base_center": [
+    433965,
+    2923801
+  ],
+  "canonical_sigma": 2832181,
+  "canonical_sigma_log": 2674723,
+  "signed_actual_scale": 21113421681728164076758160383370947105909472013138012462421148345826995695660466565589785072,
+  "second_divisor_tiny": 1468985,
+  "full_first_norm_log": 4134966,
+  "actual_center_height": 4162085,
+  "local_polynomial": [
+    4162085,
+    1898424,
+    3390815,
+    3737628
+  ],
+  "global_polynomial": [
+    3203191,
+    4412924,
+    3446275,
+    1676631,
+    4360566
+  ],
+  "QC_polynomial": [
+    1477633,
+    3254515,
+    3896911,
+    2818684,
+    4360566
+  ],
+  "QC_div47_reduction": [
+    43,
+    14,
+    5,
+    0,
+    0
+  ],
+  "residual_roots": [],
+  "simple_single_F2_root_candidates_to_available_precision": [],
+  "fixed_fraction_cross_audit": {
+    "replacements": [],
+    "scope": "No replacement present."
+  },
+  "eta_B_fraction_cross_audit": {
+    "replacement": false
+  },
+  "scope": "Independent exact saved-section DAG/Weierstrass/unit Norm arithmetic, 108 independent Hecke matches, actual tangent and tiny integration scalars, and simple Hensel roots; no duplicate RR, torsion or long group-chain execution."
+}

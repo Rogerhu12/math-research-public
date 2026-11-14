@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "check_count": 29,
+  "checks": [
+    "actual eigenfunction 0",
+    "actual eigenfunction 1",
+    "actual eigenfunction 2",
+    "actual eigenfunction 3",
+    "actual eigenfunction 4",
+    "full eigenmatrix including constants",
+    "identity layer",
+    "all exact trace compositions",
+    "exact determinant",
+    "exact characteristic polynomial",
+    "actual three-torsion y-difference",
+    "actual six-torsion x-pair sum",
+    "actual six-torsion y-pair difference sum",
+    "six-torsion inverse normalization",
+    "complete actual six-torsion dlog",
+    "complete three-point dlog mass",
+    "complete CM-phase simple pole sum",
+    "complete original source eigen-column 0",
+    "complete original source eigen-column 1",
+    "complete original source eigen-column 2",
+    "original full U source",
+    "all original polynomial line bundles",
+    "exact rank-one Cartier-square image",
+    "original S nonzero Cartier-square row",
+    "p23 exact original U/X coefficient",
+    "p23 exact original U/(X-8b) coefficient",
+    "p23 both actual first divided rows nonzero",
+    "p23 actual common period coefficient",
+    "p23 actual central units"
+  ],
+  "basis": [
+    "1",
+    "1/X",
+    "1/(X - 8*b)",
+    "(X - 8*b)**(-2)",
+    "(X - 8*b)**(-3)"
+  ],
+  "trace_matrix_columns": [
+    [
+      "n",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(n**2 - n)/(4*b)",
+      "n**2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(1 - n)/(12*b)",
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "(5*n - 5)/(432*b**2)",
+      "0",
+      "(5*n - 5)/(36*b)",
+      "n",
+      "0"
+    ],
+    [
+      "(n - 31)*(n - 1)/(20736*b**3)",
+      "0",
+      "(n - 1)*(19*n - 31)/(1728*b**2)",
+      "5*n*(n - 1)/(24*b)",
+      "n**2"
+    ]
+  ],
+  "eigenfunctions": [
+    "1",
+    "1/(4*b) + 1/X",
+    "1/(X - 8*b) + 1/(12*b)",
+    "432*b**2/(X - 8*b)**2 + 60*b/(X - 8*b) + 1",
+    "20736*b**3/(X - 8*b)**3 + 4320*b**2/(X - 8*b)**2 + 228*b/(X - 8*b) + 1"
+  ],
+  "eigenvalues": [
+    "n",
+    "n^2",
+    "1",
+    "n",
+    "n^2"
+  ],
+  "original_sources_eigen_columns": [
+    [
+      "-1/(224*b)",
+      "-1/224",
+      "-3/112",
+      "1/(224*b)",
+      "3/(896*b)"
+    ],
+    [
+      "3/2",
+      "-b/2",
+      "-9*b",
+      "3/2",
+      "-9/8"
+    ],
+    [
+      "0",
+      "b/4",
+      "9*b",
+      "-3/2",
+      "27/16"
+    ]
+  ],
+  "modp_image": "span{1/(X-8b)+1/(12b)}; original S coefficient -3/112",
+  "complete_observer": "J_(T_U T)(u)/J_U(u)=sum_j M_ji(n) J_(U*basis_j)(u)/J_U(u)",
+  "p23": {
+    "U_over_X_coefficient_z24": "-10343098809781711/857800125",
+    "U_over_Xminus8b_coefficient_z24": "-33503806082698781/9435801375",
+    "coefficients_modp": [
+      7,
+      5
+    ],
+    "actual_common_period_factor": 18,
+    "central_divided_rows_modp": [
+      11,
+      21
+    ],
+    "consequence": "No scalar intertwining on this actual five-dimensional space at p=23"
+  },
+  "scope": "Actual fixed E[6] source closure and full original Newton transport; no claim that the original central functional commutes with this frame-dependent trace or that its target is nonzero for infinitely many primes."
+}

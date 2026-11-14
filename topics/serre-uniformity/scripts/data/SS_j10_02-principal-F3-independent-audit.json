@@ -1,0 +1,160 @@
+{
+  "result": "R350",
+  "disk_id": "SS_j10_02",
+  "input_sha256": {
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS-F3-production/SS_j10_02/SS_j10_02_actual_canonical_F3_height47.json.gz": "7a1fe1042291bfe655262009586eb58957211aec20470954840c277d4ec5ec0f",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS-F3-production/SS_j10_02/SS_j10_02_actual_canonical_F3_polynomial47.json.gz": "4276216c700557fcb1ab6fe6f42adff21b19abd4393839cf9e979736eaa6af63",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS-F3-production/SS_j10_02/SS_j10_02_actual_F3_first_variable_norm47.json.gz": "6216c47c60c6e0066c9975d6a7b24c336d521e5c927a7a7d5b0dcb213093df03",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS-F3-production/SS_j10_02/SS_j10_02_actual_T3_support47.json.gz": "99d98015960d4e891c42451b15c06cac0ee9a896b4bc0fa61fb555ac7a6f38cf",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS-F3-production/SS_j10_02/SS_j10_02_actual_T3_principal_norm47.json.gz": "afb1167980662cfc6aed0ec1521f4af6f8b0f8dd8072d72340360f2e3ae0b16e",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_02_principal_expression47.json.gz": "69de006c36ba3df76b9c6c2a0267d21eafda756d0e031e32800a8ac5472df7ad",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_02_actual_second_kind_integrals47.json.gz": "6ca57c8a0c0d49a9258d61147e5e41813632e36fac753b833a3c30377e8ce49d",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_02_actual_F2_first_variable_norm47.json.gz": "fccd3e9be513d9af696be4c56c8bc78de941fbe00ebadc7a654e0baba4e98bd2",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_02_actual_canonical_F2_polynomial47.json.gz": "67d373fe2d62a85ec7cd93aac5168689e215b00efbc0ac608ec5fe2392a4bdda",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_02-principal-F2-independent-audit.json": "3a5db84692470867894246aae51a9e82af92687a2ceeb7dd978d788dcd1e6885",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/verify_selected_SS_F2_principal47.py": "5a71ee59bb17b3c14d490574f2ef0ecf13be2775d0871faef16b163ff0f33456",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_SS_F3_connection47.py": "f35ba286717bde6faf7b5f2d8ea22f0d445ae00a2f0b6077a760e61bd1da8441",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_SS_F3_local_polynomial47.py": "17d3d23f26f47ad05ca73105c83138c62cfbdf8bba6ad698b2517bce4af4cd20",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_global_qc_polynomials47_complete.json.gz": "4ea4c9d706b3b8e6f671af4b020db6ff6e47b1c871c45654ca31e5e81d4e6e79",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/R331_SS_transports/SS_j10_02/transport_manifest47.json": "6ea8fdfaecd80402e68b41267a7a2ddf5a74ece78dea5e23b6fe5b66c4893feb"
+  },
+  "source_sha256": "0d960a74b10da8061a921c290eb6a02f36ce455832467664d5f2a1082f9851dd",
+  "nested_input_hash_edges_checked": [
+    [
+      "center",
+      "second_kind"
+    ],
+    [
+      "center",
+      "principal"
+    ],
+    [
+      "center",
+      "t3_support"
+    ],
+    [
+      "center",
+      "full_norm"
+    ],
+    [
+      "polynomial",
+      "center"
+    ],
+    [
+      "polynomial",
+      "f2_polynomial"
+    ],
+    [
+      "polynomial",
+      "f2_audit"
+    ],
+    [
+      "t3_norm",
+      "principal"
+    ],
+    [
+      "t3_norm",
+      "second_kind"
+    ],
+    [
+      "t3_norm",
+      "t3_support"
+    ],
+    [
+      "full_norm",
+      "t3_norm"
+    ],
+    [
+      "full_norm",
+      "f2_norm"
+    ],
+    [
+      "full_norm",
+      "principal"
+    ],
+    [
+      "full_norm",
+      "second_kind"
+    ],
+    [
+      "f2_audit",
+      "f2_polynomial"
+    ]
+  ],
+  "actual_T3_four_kernel_roots_and_raw_det3_verified": true,
+  "T3_actual_saved_Weierstrass_relations_replayed": 1820,
+  "fixed31_actual_saved_Weierstrass_relations_replayed": 14105,
+  "actual_T3_norm": 4341115,
+  "actual_T3_norm_log": 1468891,
+  "fixed31_weighted_norm": 2846122,
+  "fixed31_weighted_norm_log": 2354888,
+  "same_true_Phi_canonical106_and_P_b_tangents_reused_by_hash_identity": true,
+  "canonical_sigma_with_base_factor_2power_minus9": 194091,
+  "canonical_sigma_log": 4616058,
+  "second_divisor_tiny": 577066,
+  "full_first_norm_log": 3482700,
+  "actual_center_height": 1424993,
+  "j_z_tangent_change_cancels_in_actual_height": true,
+  "all_actual_tiny_integrals_independently_reassembled": {
+    "B": 2310285,
+    "C": 3521522,
+    "D_minus20b": 2816992,
+    "K_g1_minus106b": 2646664,
+    "T3C": 4822764,
+    "Z0fix_minus8b": 1335176,
+    "Z12_minus22b": 3652323,
+    "c11_minus_b": 2927771,
+    "v_minus_b": 3406184
+  },
+  "actual_local_polynomial": [
+    1424993,
+    4344586,
+    673745,
+    2907044
+  ],
+  "global_F3_independently_reassembled_from_all54_coordinates_and_published_direction": [
+    4274274,
+    3305369,
+    4784741,
+    1548509,
+    1868814
+  ],
+  "QC_F3": [
+    1245547,
+    1969441,
+    2553651,
+    3521146,
+    1868814
+  ],
+  "actual_same_component_root_tests": [
+    {
+      "F2_y_mod47cubed": 6222,
+      "F3_QC_value_mod47four": 1391012,
+      "same_bad_component_tests": [
+        {
+          "bad_component_label": 0,
+          "QC_F3_minus_target_mod47four": 1391012,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 3,
+          "QC_F3_minus_target_mod47four": 1391012,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 28,
+          "QC_F3_minus_target_mod47four": 3649221,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 32,
+          "QC_F3_minus_target_mod47four": 3649221,
+          "excluded": true
+        }
+      ]
+    }
+  ],
+  "remaining_pairs": [],
+  "entire_disk_excluded": true,
+  "scope": "Independent exact standard-library replay of actual saved principal factors and unit Norms, same-function checks, tiny integration, normalized fiber and height, all54 global quadratic assembly, and all four same-component candidate tests; no second RR or torsion execution."
+}

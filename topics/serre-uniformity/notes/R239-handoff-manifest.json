@@ -1,0 +1,24 @@
+{
+  "result": "R239",
+  "files": [
+    {
+      "file": "results/R239-short-real-unit-target-and-exact-gauge.md",
+      "bytes": 10932,
+      "sha256": "d88d060584d63907aebcde71d37d04e5d59ac3d6ab2d62d7f0cc03bbb721fa78",
+      "source_sha256": "1ec9932eec9bcb6a69524368dc4bef1d594b2f182e797a099a7bbeba65023124"
+    },
+    {
+      "file": "scripts/verify_o6_short_norm_targets.py",
+      "bytes": 6833,
+      "sha256": "cabf5436807b768e8615ae2726c1a506b6bf147dae10b17a0d21f425ded2a36b",
+      "source_sha256": "cabf5436807b768e8615ae2726c1a506b6bf147dae10b17a0d21f425ded2a36b"
+    },
+    {
+      "file": "notes/o6_short_norm_targets_certificate.json",
+      "bytes": 79587,
+      "sha256": "6c1d059f34de43afabad401d9924029229131f82da00e51098c437d81bca86a5",
+      "source_sha256": "6c1d059f34de43afabad401d9924029229131f82da00e51098c437d81bca86a5"
+    }
+  ],
+  "source_math_unchanged": "Only missing LaTeX spacing backslashes were repaired in proof text; mathematical data and executable source unchanged"
+}

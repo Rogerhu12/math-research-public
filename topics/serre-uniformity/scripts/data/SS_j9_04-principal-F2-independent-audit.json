@@ -1,0 +1,359 @@
+{
+  "result": "R385",
+  "disk_id": "SS_j9_04",
+  "input_sha256": {
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_selected_SS_F2_connection_clearing_frame47.py": "48e0cf5bfed1c15fd8dd6ba77357c4856dca0a2078b68dfb2b3aeeecd5bf9baf",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_moved_SS_F2_full_canonical_norm_clearing_frame47.py": "09ce45ae867d5726e85167ecc4f73132c530c8e58bec215a8aa735753234dd9e",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_selected_SS_F2_polynomial_clearing_frame47.py": "ff555f78524ce8a2ea70b388abecc2052920fc2b0b8ffb7a8803c720cc70df56",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_serre_clearing_nonelliptic_disks47.json.gz": "3c07ff74f610140eac3f7198b5d56d54f04e78c9db192507a6817f67f4f237dd",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j9_04_actual_canonical_F2_height47.json.gz": "7bb3aeaeefc4110c5759f6a7135a60db7542d2c124600047f580c9bbe29e917c",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j9_04_actual_canonical_F2_polynomial47.json.gz": "b7b1e4837607948dbbce1af5208276916c69700226dea572fd1db0cc7107247e",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j9_04_actual_F2_first_variable_norm47.json.gz": "d895ab2343008db4e2259bb7214228444a16a91f015a5013836283c2a7aaba4b",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j9_04_actual_T2_support47.json.gz": "3d0b05460df908cee8ffb73083a47749f623d665fc124ae4f245d5af1d9cd9fb",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_moving_two_flip_independent_audit47.json": "43e369f3e13ad1a71677d14d1c6e5a2729912f8f002864664c541d8b1f46a410",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j9_04_actual_T2_principal_norm47.json.gz": "abe4b6787a00d983ba27c9f75708e4a36f07d487472b28ae5e458763d98aff0e",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j9_04_principal_expression47.json.gz": "68d13dfcf1bd4a0d17362748486f7c91068cb33731103d8cac87e852766a5795",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS_j9_04_actual_second_kind_integrals47.json.gz": "4d51258feb1f800420e97207037558c05642055220f331a6154891f6ffd81475",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/R385_moved_SS_work/SS_j9_04_Abel47.json.gz": "efe9a153ce653315f40e7dca6e6d1371fa4e72b9218f5d078fe99c83d4d2dfab",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/R385_moved_SS_work/SS_j9_04_multiply47.json.gz": "b7b43a7d794304b7e0be887fe06cdcd019275c9fff3514855f60d11b2b47e2b0",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_j9_first_four_moved_based_points47.json.gz": "713085821205177fc246dc6ec4d2d726380949036fc135ee4608af7a2ea8147b",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_three_ordinary_CM_anchors_and_113_global_functions47.json.gz": "a9c40049ce3eab329ed22ff27edcb39e929491bacf35c11887b348c0609bdb6a",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_rational_SS_second_kind_integrals47_complete.json.gz": "c8b5e8d292b89dadf5cfa5f1b7bafadff6848cda61ddfe207c5009f2ed6a401d",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/R385_moved_SS_transports/SS_j9_04/transport_manifest47.json": "8c2d54b123df23cb440a602c37e7b0ac5c225152df51f5df7eedeee5089fcd11"
+  },
+  "source_sha256": "a0f74bbf2e466d798d1f2313a6cbbd205e93ed320ffb553e4907231716e073bd",
+  "same_actual_clearing_frame_in_Norm_center_polynomial_verified": true,
+  "checked_nested_hash_edges": [
+    [
+      "center",
+      "second"
+    ],
+    [
+      "center",
+      "principal"
+    ],
+    [
+      "center",
+      "T2_support"
+    ],
+    [
+      "center",
+      "full_norm"
+    ],
+    [
+      "polynomial",
+      "center"
+    ],
+    [
+      "polynomial",
+      "Abel"
+    ],
+    [
+      "polynomial",
+      "multiply"
+    ],
+    [
+      "Abel",
+      "multiply"
+    ],
+    [
+      "second",
+      "Abel"
+    ],
+    [
+      "second",
+      "multiply"
+    ],
+    [
+      "second",
+      "based"
+    ],
+    [
+      "principal",
+      "second"
+    ],
+    [
+      "T2_norm",
+      "principal"
+    ],
+    [
+      "T2_norm",
+      "T2_support"
+    ],
+    [
+      "full_norm",
+      "T2_norm"
+    ],
+    [
+      "full_norm",
+      "principal"
+    ],
+    [
+      "full_norm",
+      "second"
+    ],
+    [
+      "full_norm",
+      "multiply"
+    ],
+    [
+      "full_norm",
+      "based"
+    ],
+    [
+      "full_norm",
+      "clearing"
+    ],
+    [
+      "center",
+      "clearing"
+    ],
+    [
+      "polynomial",
+      "clearing"
+    ]
+  ],
+  "all459_actual_principal_function_hashes_verified": true,
+  "all457_integer_divisor_SLP_relations_replayed": true,
+  "all_three_V2_functions_bound_to_two_actual_moves_and_initial_negative": true,
+  "initial_moving_f_exponent": 21113421681728164076758160383370947105909472013138012462421148345826995695660466565589785072,
+  "initial_moving_h_exponent": -21113421681728164076758160383370947105909472013138012462421148345826995695660466565589785072,
+  "exact_final_f0_exponent_zero_and_total_weight_zero": true,
+  "T2_saved_Weierstrass_relations_independently_replayed": 1371,
+  "all462_full106_norm_values_recombined_by_exact_integer_exponents": true,
+  "fixed_and_collision_Weierstrass_replay": {
+    "all24_points": [
+      {
+        "label": "P_minus3",
+        "C_order": -1,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "P_minus12",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "P_minus7",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_16",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_34",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_54",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_76",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_122",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_175",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_209",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_239",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_247",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_290",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_365",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_440",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_480",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_525",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_610",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_647",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_679",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_689",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_735",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "Z_minus8_762",
+        "C_order": 0,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      },
+      {
+        "label": "SS_j9_04",
+        "C_order": 1,
+        "all457_actual_Weierstrass_relations": true,
+        "three_V2_move_and_negative_nodes_checked": true
+      }
+    ],
+    "actual_Weierstrass_relation_count": 10968,
+    "all_six_complete73_ideals_bound": true,
+    "all24_actual_chart_to_j_units_independently_checked": true
+  },
+  "all108_actual_integrals_match_independent_SS_Hecke_solutions": true,
+  "all54_principal_norm_derivatives_plus_terminal_tiny_equal_m_times_original_nu": true,
+  "all_actual_family1_integrals_independently_reassembled": {
+    "B": 1740316,
+    "C": 2103861,
+    "D_minus20b": 3199102,
+    "K_g1_minus106b": 2452601,
+    "T2C": 619084,
+    "Z8_minus20b": 469765,
+    "c7_minus_b": 2437138,
+    "u_minus_b": 2835181
+  },
+  "actual_j_to_z_tangent_change_cancels_in_height": true,
+  "actual_g1_over_dj_base_center": [
+    433965,
+    3196049
+  ],
+  "canonical_sigma": 1904068,
+  "canonical_sigma_log": 933561,
+  "signed_actual_scale": 21113421681728164076758160383370947105909472013138012462421148345826995695660466565589785072,
+  "second_divisor_tiny": 3493980,
+  "full_first_norm_log": 2725436,
+  "actual_center_height": 3456850,
+  "local_polynomial": [
+    3456850,
+    4536064,
+    64061,
+    1142053
+  ],
+  "global_polynomial": [
+    221511,
+    103635,
+    1248696,
+    4464389,
+    3010867
+  ],
+  "QC_polynomial": [
+    1520638,
+    1735099,
+    3676387,
+    3322336,
+    3010867
+  ],
+  "QC_div47_reduction": [
+    18,
+    22,
+    13,
+    0,
+    0
+  ],
+  "residual_roots": [
+    9,
+    11
+  ],
+  "simple_single_F2_root_candidates_to_available_precision": [
+    {
+      "y_mod47cubed": 32063,
+      "z_mod47four": 1506961,
+      "y_base47_digits": [
+        9,
+        24,
+        14
+      ],
+      "derivative_mod47": 21
+    },
+    {
+      "y_mod47cubed": 39679,
+      "z_mod47four": 1864913,
+      "y_base47_digits": [
+        11,
+        45,
+        17
+      ],
+      "derivative_mod47": 26
+    }
+  ],
+  "fixed_fraction_cross_audit": {
+    "replacements": [],
+    "scope": "No replacement present."
+  },
+  "eta_B_fraction_cross_audit": {
+    "replacement": false
+  },
+  "scope": "Independent exact saved-section DAG with two actual initial moving flips, all3 V2 functions, 1371 T2 and10968 fixed-point Weierstrass relations, unit Norm arithmetic, 108 independent Hecke matches, actual tangent and tiny integration scalars, and simple Hensel roots; no duplicate RR, torsion or long group-chain execution."
+}

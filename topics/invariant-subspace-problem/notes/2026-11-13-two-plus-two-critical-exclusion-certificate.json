@@ -1,0 +1,206 @@
+{
+  "all_pass": true,
+  "gradient_reconstruction": true,
+  "three_local_identities": true,
+  "mu_zero_exclusion_identities": true,
+  "rational_compatibility": {
+    "N": [
+      -4,
+      -6,
+      0,
+      1
+    ],
+    "L": [
+      0,
+      1,
+      1
+    ],
+    "Q": [
+      32,
+      144,
+      204,
+      52,
+      -90,
+      -45,
+      10,
+      6
+    ],
+    "J": [
+      -64,
+      -288,
+      -424,
+      -148,
+      158,
+      114,
+      -3,
+      -14,
+      -2
+    ],
+    "prime": 103,
+    "full_degrees": [
+      7,
+      8
+    ],
+    "bezout_u": [
+      93,
+      90,
+      11,
+      92,
+      76,
+      4,
+      23,
+      59
+    ],
+    "bezout_v": [
+      32,
+      33,
+      86,
+      69,
+      24,
+      52,
+      74
+    ],
+    "bezout_sum": [
+      1
+    ]
+  },
+  "original_special_cross_determinants": [
+    {
+      "points": [
+        0,
+        2
+      ],
+      "matrix": [
+        [
+          48,
+          80
+        ],
+        [
+          -208,
+          -304
+        ]
+      ],
+      "det": 2048
+    },
+    {
+      "points": [
+        0,
+        -6
+      ],
+      "matrix": [
+        [
+          14256,
+          -10800
+        ],
+        [
+          21168,
+          -14256
+        ]
+      ],
+      "det": 25380864
+    },
+    {
+      "points": [
+        0,
+        "infty"
+      ],
+      "matrix": [
+        [
+          -1,
+          5
+        ],
+        [
+          -1,
+          5
+        ]
+      ],
+      "det": 0
+    },
+    {
+      "points": [
+        2,
+        -6
+      ],
+      "matrix": [
+        [
+          110592,
+          -68608
+        ],
+        [
+          84992,
+          -47872
+        ]
+      ],
+      "det": 536870912
+    },
+    {
+      "points": [
+        2,
+        "infty"
+      ],
+      "matrix": [
+        [
+          -3,
+          35
+        ],
+        [
+          -1,
+          25
+        ]
+      ],
+      "det": -40
+    },
+    {
+      "points": [
+        -6,
+        "infty"
+      ],
+      "matrix": [
+        [
+          5,
+          155
+        ],
+        [
+          -1,
+          -55
+        ]
+      ],
+      "det": -120
+    }
+  ],
+  "original_polar_coefficients_ascending": {
+    "at_zero": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      -1
+    ],
+    "first_jet_zero": [
+      0,
+      0,
+      0,
+      -32,
+      5,
+      -1
+    ],
+    "at_infinity": [
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "first_jet_infinity": [
+      5,
+      5,
+      5,
+      0,
+      0,
+      0
+    ]
+  },
+  "scope": "All full-H-rank outer-mean nonsecant essential-three complete cubic critical points with two double physical support points are excluded. The 2+1+1 and four-distinct base-free cases remain open."
+}

@@ -1,0 +1,36 @@
+{
+  "result": "R589",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "Reconstructed after loss of the old workspace and functions memory; no old-byte equality is claimed unless separately evidenced.",
+  "source_proof_sha256": "349098473308f9cc7645730fd164a31781ef0d620471aedb6b019be011d0d820",
+  "root_review": "Root reviewed the complete recovered proof, all CM-coordinate and Cartier precision arguments, both finite-product tails, and the actual R588 norm/anti-linear normalization. The proof is used with R574, R586, and R588 now published. Historical sample residues are not represented as newly rerun computations. The reconstructed replay remains unexecuted.",
+  "files": [
+    {
+      "file": "results/R589-specified-type-three-coefficient-and-actual-CM-unit-criterion.md",
+      "bytes": 12969,
+      "sha256": "349098473308f9cc7645730fd164a31781ef0d620471aedb6b019be011d0d820"
+    },
+    {
+      "file": "notes/R589_actual_CM_coefficient_records.recovered.json",
+      "bytes": 1733,
+      "sha256": "016adbf381fc929e35c5a2da75d3a7cc12b3d0657f44fe6e0eb15991acc4dd59"
+    },
+    {
+      "file": "scripts/R589-rprime-direct-coefficient-replay.js",
+      "bytes": 2063,
+      "sha256": "327eba942f97af3caed7175eea861d876bed659aac34ad0726ab081c293608f5"
+    },
+    {
+      "file": "notes/R589-agent-recovery-manifest.json",
+      "bytes": 2013,
+      "sha256": "36ac27fd0855ddf7ae84a315b1f2e0bc7754f76204649b5963e78dff087ec829"
+    }
+  ],
+  "dependencies_now_published": [
+    "R574",
+    "R586",
+    "R588"
+  ],
+  "replay_executed": false,
+  "uniform_nonvanishing_proved": false
+}

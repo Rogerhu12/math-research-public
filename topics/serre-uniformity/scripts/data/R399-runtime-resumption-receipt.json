@@ -1,0 +1,29 @@
+{
+  "result": "R399",
+  "disk_id": "SS_j9_01",
+  "original_runtime_session": 71313,
+  "observed_original_exit_code": 137,
+  "observed_original_runtime_message": "Killed",
+  "termination_cause_not_determined": true,
+  "last_periodic_progress_report_bits": 245,
+  "last_periodic_progress_report_checkpoint_sha256": "93d8333aa4035395853408b2ddc1f9a0f14f14b3a178c56f7bcc021e77a7c38d",
+  "actual_restored_saved_bits": 248,
+  "recovery_session": 58243,
+  "recovered_old_principal_functions_exact_equal_on_resume": true,
+  "final_bits": 304,
+  "final_scalar_operations": 454,
+  "final_Abel_sha256": "44f4ccd403596381fa7ceae7972de2935780d67e8516a80d16536dee4394b05e",
+  "final_multiply_sha256": "adcb7ef528f7596ab422418a46895cfe54495ffce48194243eb967afa6ecc0a4",
+  "final_manifest_sha256": "d66ce36ea1a4f3242d2517ba1b6bd0c312ca48e5633f5211f686d68991ba2be2",
+  "complete_principal_archive": {
+    "basename": "p41_SS_j9_01_principal_transports47.tar.gz",
+    "bytes": 1779806,
+    "sha256": "61fcaaac0fbc5ce616922f294299116b63226dad50e53b36f48484f4c28370dd",
+    "file_count": 461,
+    "function_count": 459
+  },
+  "source_log": "agent-qc/R382_SS_j9_01_actual_moved_chain47.log",
+  "source_log_sha256": "77511663b8fb34272525febcc085e56acf7126c0c79c2bb6b6b677c63fdf8c3b",
+  "prefix_recomputation_claim": false,
+  "scope": "Runtime recovery provenance only; all mathematical evidence is in original and final immutable coordinates, functions and independently verified identities."
+}

@@ -1,0 +1,183 @@
+{
+  "result": "R343",
+  "disk_id": "SS_j10_17",
+  "arithmetic_parent_source_sha256": "5a71ee59bb17b3c14d490574f2ef0ecf13be2775d0871faef16b163ff0f33456",
+  "input_sha256": {
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_SS_F2_connection47.py": "11d8407e802dcd717f5c629561df512cd2d6c06838e660fc5853ea4d2007998f",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_SS_F2_local_polynomial47.py": "b7c57dd609a1722e9165b1f34190693edbcf904651451a8daa4d8427dad363c3",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_17_actual_canonical_F2_height47.json.gz": "5c36165a6fb3279e3f8da95a56c74038871018e8b1f1edf3c0fcda327a46ef99",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_17_actual_canonical_F2_polynomial47.json.gz": "9c50073beb9c648cabbc90a04ea8607d69be9cf51c035788c77e1b7a5fef120e",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_17_actual_F2_first_variable_norm47.json.gz": "ae98deaa4a2c6c55cdaaa772065e1654adc2375c6530cbd63dfe0301239cbe9c",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_17_actual_T2_support47.json.gz": "9119eb313bf73f3594996f76dfe226bc6cb516d2fafc9d49d3493ad57d3c8d25",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_17_actual_T2_principal_norm47.json.gz": "4288464e6621bc8ad3f40517e5793ba602af8ce949f603a37d31347a63b5e488",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_17_principal_expression47.json.gz": "2911977eca457b071ea729e48b7eadd8550cf9d3f314399bb755684df36e5dd4",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_17_actual_second_kind_integrals47.json.gz": "e9d91ed9a63034dd60570be830da28654df28d5d011c1e9d19e8041cf18f159e",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/R343_SS_work/SS_j10_17_Abel47.json.gz": "52bdb9b4077635728715b218a6016ecf6b18ba5d6204d2c6413bd0732d103c24",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/R343_SS_work/SS_j10_17_multiply47.json.gz": "49b8aac7f83de4811929ffec7296e78c7d0debbf7ee19ebc0e0a5c34e693b020",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/R343_SS_j10_17_based_points47.json.gz": "5d2fadccf20a1fa891eecabf64bfaf3ef021c7203cc8c45e15ed1227485ecbee",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_three_ordinary_CM_anchors_and_113_global_functions47.json.gz": "a9c40049ce3eab329ed22ff27edcb39e929491bacf35c11887b348c0609bdb6a",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_rational_SS_second_kind_integrals47_complete.json.gz": "c8b5e8d292b89dadf5cfa5f1b7bafadff6848cda61ddfe207c5009f2ed6a401d",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/R343_SS_transports/SS_j10_17/transport_manifest47.json": "74b4db75e2cb687b6cffd05e9f55bfd0b7dbbab58f2bac5df78a2d8bf83ef9f3"
+  },
+  "source_sha256": "833373ec357ed4e9a7d1cbb0c508dbbff30f04bc9640951cd3090f042b42b345",
+  "checked_nested_hash_edges": [
+    [
+      "center",
+      "second"
+    ],
+    [
+      "center",
+      "principal"
+    ],
+    [
+      "center",
+      "T2_support"
+    ],
+    [
+      "center",
+      "full_norm"
+    ],
+    [
+      "polynomial",
+      "center"
+    ],
+    [
+      "polynomial",
+      "Abel"
+    ],
+    [
+      "polynomial",
+      "multiply"
+    ],
+    [
+      "Abel",
+      "multiply"
+    ],
+    [
+      "second",
+      "Abel"
+    ],
+    [
+      "second",
+      "multiply"
+    ],
+    [
+      "second",
+      "based"
+    ],
+    [
+      "principal",
+      "second"
+    ],
+    [
+      "T2_norm",
+      "principal"
+    ],
+    [
+      "T2_norm",
+      "T2_support"
+    ],
+    [
+      "full_norm",
+      "T2_norm"
+    ],
+    [
+      "full_norm",
+      "principal"
+    ],
+    [
+      "full_norm",
+      "second"
+    ],
+    [
+      "full_norm",
+      "multiply"
+    ],
+    [
+      "full_norm",
+      "based"
+    ]
+  ],
+  "all457_actual_principal_function_hashes_verified": true,
+  "all455_integer_divisor_SLP_relations_replayed": true,
+  "exact_final_f0_exponent_zero_and_total_weight_zero": true,
+  "T2_saved_Weierstrass_relations_independently_replayed": 1365,
+  "all460_full106_norm_values_recombined_by_exact_integer_exponents": true,
+  "all108_actual_integrals_match_independent_SS_Hecke_solutions": true,
+  "all54_principal_norm_derivatives_plus_terminal_tiny_equal_m_times_original_nu": true,
+  "all_actual_family1_integrals_independently_reassembled": {
+    "B": 3709334,
+    "C": 2684875,
+    "D_minus20b": 2206838,
+    "K_g1_minus106b": 4390505,
+    "T2C": 516342,
+    "Z8_minus20b": 4279538,
+    "c7_minus_b": 3446134,
+    "u_minus_b": 3321208
+  },
+  "actual_j_to_z_tangent_change_cancels_in_height": true,
+  "actual_g1_over_dj_base_center": [
+    2971134,
+    4615034
+  ],
+  "canonical_sigma": 2846557,
+  "canonical_sigma_log": 2451708,
+  "signed_actual_scale": 21113421681728164076758160383370947105909472013138012462421148345826995695660466565589785072,
+  "second_divisor_tiny": 497871,
+  "full_first_norm_log": 4862056,
+  "actual_center_height": 3179550,
+  "local_polynomial": [
+    3179550,
+    1716299,
+    446218,
+    3426159
+  ],
+  "global_polynomial": [
+    516483,
+    3387854,
+    1742055,
+    3156661,
+    3945274
+  ],
+  "QC_polynomial": [
+    4069965,
+    1539015,
+    984368,
+    4610183,
+    3945274
+  ],
+  "QC_div47_reduction": [
+    21,
+    33,
+    29,
+    0,
+    0
+  ],
+  "residual_roots": [
+    18,
+    23
+  ],
+  "simple_single_F2_root_candidates_to_available_precision": [
+    {
+      "y_mod47cubed": 74325,
+      "z_mod47four": 3493275,
+      "y_base47_digits": [
+        18,
+        30,
+        33
+      ],
+      "derivative_mod47": 43
+    },
+    {
+      "y_mod47cubed": 14781,
+      "z_mod47four": 694707,
+      "y_base47_digits": [
+        23,
+        32,
+        6
+      ],
+      "derivative_mod47": 4
+    }
+  ],
+  "scope": "Independent standard-library exact saved-section DAG/Weierstrass/unit Norm arithmetic, 108 independent Hecke matches, actual tangent and tiny integration scalars, and simple Hensel roots; no duplicate RR, torsion or long group-chain execution."
+}

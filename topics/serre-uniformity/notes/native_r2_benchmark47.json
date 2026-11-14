@@ -1,0 +1,27 @@
+{
+  "complete_actual_AddFlip_comparison": true,
+  "entire_point_coordinates_and_Frobenius_matrices_equal": true,
+  "input_checkpoint_sha256": "cc031404cafdfd15efa43b7b2cfc471c34952b416a7dd43ca9947200c4aadda8",
+  "native_manifest": {
+    "compile_command": [
+      "c++",
+      "-O3",
+      "-std=c++17",
+      "-shared",
+      "-fPIC",
+      "-march=native",
+      "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_r2_mod47_native.cpp",
+      "-o",
+      "/workspace/scratch/76d0eb5f3db8/agent-qc/native-build/p41_r2_mod47_14d1cb3b9b286ac6.so"
+    ],
+    "compiled_binary_sha256": "a8d7c97af813393a00828194a91d99d91408e4c0c823b18bdc2fbc6d841e96f8",
+    "compiler": "c++ (Debian 14.2.0-19) 14.2.0",
+    "cpp_source_sha256": "14d1cb3b9b286ac6e7c41668d20328428c6f1790443889d7fba431e63ba88b49",
+    "method": "exact native integer Gaussian elimination in F47[i]/(i^2+1)",
+    "wrapper_source_sha256": "18a25842e7db48f533b7d8d3304338ba404d9777319e8485dc2dd91a928ed7d8"
+  },
+  "native_seconds": 0.6906226740011334,
+  "original_seconds": 5.280791852999755,
+  "output_point_sha256": "aa7c12369eed6f7fda444832641a00356ad615f28e1d9527d37c168c95dc0681",
+  "same_operation_witness_and_PRNG_state": true
+}

@@ -1,0 +1,10 @@
+{
+  "original_run_source": "rebuild_r380_scalar_robert.py",
+  "original_run_sha256": "46d87c4a352d6242740fdff68ef622242e8e4297445da9690c11d48d39b724d0",
+  "portable_verifier": "verify_r561_scalar_robert.py",
+  "portable_sha256": "6c0b26f3917232a65782c519473e1eed0752cc4fddf97bc323c17751054d3fa6",
+  "arithmetic_function_AST_identical": true,
+  "arithmetic_AST_sha256": "9d0e57069fa5b866e45f9da85a3d1a27b38e913fbe55889f49b7e1e9a0d88f58",
+  "differences": "CLI input/output paths and optional comparison to the already generated certificate; arithmetic is unchanged.",
+  "full_math_repeated_after_IO_patch": false
+}

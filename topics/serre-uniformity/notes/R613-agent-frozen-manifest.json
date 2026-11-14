@@ -1,0 +1,81 @@
+{
+  "result": "R613",
+  "status": "FROZEN_FOR_ROOT_REVIEW",
+  "conclusions": [
+    "For H_r=<t s^r>, the actual ordinary class defined by the mixed Robert/Hilbert90 procedure is C_r=C+34r.",
+    "C belongs to i F_43 and C_{-r}=-conjugate(C_r).",
+    "For all 42 nonzero r in F_43, the full ordinary Cl(L)_chi-minus line capitulates in L B^{H_r}."
+  ],
+  "critical_global_inputs": [
+    "The same actual p^2 ancestor unit has the R198 anti and R561 scalar units as its two norms.",
+    "Exact p and q distributions give N_S u_r=u, N_S c_r=c_q, N_Gamma c_r=(1-s^11)u_r for every r.",
+    "Full Hilbert90 divisor descent uses vanishing of p-prime chi-minus divisors; every outside-support term remains.",
+    "The positive original genus Artin character gives C_r=-(i/32)ell(h_r)."
+  ],
+  "actual_small_check": {
+    "status": "PASS",
+    "R198_weighted_D_log": [
+      0,
+      13
+    ],
+    "scalar_direct_phase": 25,
+    "mixed_phase_coefficient": [
+      0,
+      34
+    ],
+    "ordinary_class_coefficient": [
+      34,
+      0
+    ],
+    "all_symbolic_nonzero_cases_checked": 1806,
+    "large_Robert_evaluations_repeated": false
+  },
+  "files": [
+    {
+      "file": "R613-mixed-p-capitulation-and-the-exact-34-boundary.md",
+      "bytes": 17992,
+      "sha256": "14ea61861ffda28b2c52b8396c0ba966778459b9e74e1afdb14f21fd2dc71ba9"
+    },
+    {
+      "file": "verify_r613_mixed_p_boundary.py",
+      "bytes": 4612,
+      "sha256": "a64eab8df5fe6838daaa0cd3b573ec3b23e3e866b3e3fbfb82c663335979eb8e"
+    },
+    {
+      "file": "r613_mixed_p_boundary_certificate.json",
+      "bytes": 13735,
+      "sha256": "acbcff4cf534a2ff8d331ec21151bd04aeb0d3e52a3f9ef0556ccc822e708e03"
+    }
+  ],
+  "dependencies": [
+    {
+      "file": "R561-restored-scalar-norm-cocycle-and-ordinary-artin-class.md",
+      "bytes": 21007,
+      "sha256": "bcebc228dc1c9f65039dd5f9e4c1c49c80057ab297335d72423ee72e716e655c"
+    },
+    {
+      "file": "r380_scalar_recovery_certificate.json",
+      "bytes": 1177555,
+      "sha256": "a6fd98bd55145e3ce91f4f79d2b9790d65cd740ece7229f07b288272c9783890"
+    },
+    {
+      "file": "r198_p_squared_robert_certificate.json",
+      "bytes": 8829,
+      "sha256": "e1666e118c7f10d991cf4aa0107ebbe8b68683cd7c9b3e08a587aab390e86d00"
+    },
+    {
+      "file": "R210-ordinary-class-units-and-ray-residue.md",
+      "bytes": 16666,
+      "sha256": "94049e3edaef3c46361ad1369a485e81b871328571c51fcb3642bb70e10b75d9"
+    }
+  ],
+  "open_flags": {
+    "original_scalar_C_computed": false,
+    "original_L_computed": false,
+    "ordinary_b_lambda_n_computed": false,
+    "old_C_minus34ib_bridge_restored": false,
+    "Serre_uniformity_complete": false
+  },
+  "R599_reserved_for": "actual marked ordinary Norm first moment",
+  "publication_owner": "root only"
+}

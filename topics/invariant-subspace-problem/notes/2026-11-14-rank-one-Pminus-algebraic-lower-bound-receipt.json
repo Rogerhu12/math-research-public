@@ -1,0 +1,51 @@
+{
+  "format": "rank-one-algebraic-mean-modular-lower-bound-v1",
+  "family": "Pminus",
+  "thetaEquals": "5*s",
+  "minimalPolynomialThetaAscending": [
+    21600,
+    4320,
+    135,
+    1
+  ],
+  "irreducibilityPrime": 11,
+  "irreducibilityResidues": [
+    7,
+    8,
+    10,
+    8,
+    8,
+    5,
+    5,
+    3,
+    5,
+    6,
+    1
+  ],
+  "reductionPrime": 17,
+  "sourceResidue": 4,
+  "thetaResidue": 3,
+  "derivativeResidue": 6,
+  "commonDeterminantResidue": 9,
+  "integerSystemSHA256": "f3bafe36269a9ca4aece5d18c63023c789046b5faf500fd4551d3d6fdd0cd9a7",
+  "rowNormalization": "Each evaluated primitive row is multiplied by its stored scale. Thus every row is the fixed det(J3) multiple of the original polynomial, after the unimodular moment translation.",
+  "macaulay": {
+    "field": 17,
+    "D": 5,
+    "rowsProcessed": 5643,
+    "totalRows": 6188,
+    "columns": 4367,
+    "rankLowerBound": 4352,
+    "targetReached": true,
+    "ops": 6083089,
+    "lowerDegreePivotCounts": [
+      4,
+      64,
+      284,
+      999,
+      3001
+    ]
+  },
+  "characteristicZeroProjectionRankUpperBound": 140,
+  "characteristicZeroMacaulayRank": 4352
+}

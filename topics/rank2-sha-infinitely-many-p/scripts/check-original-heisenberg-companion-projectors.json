@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact BigInt in Z[i,sqrt(2)], degree-17 quotient of two quadrics",
+  "target_prime_scan": false,
+  "checks": {
+    "M4_identity": true,
+    "N4_identity": true,
+    "MN_equals_iNM": true,
+    "actual_tauB_pure_dyadic": true,
+    "actual_B_pure_dyadic": true,
+    "actual_A_pure_dyadic": true,
+    "actual_CA_pure_dyadic": true,
+    "CB_two_blocks_sum_exact": true,
+    "CB_other_two_blocks_zero": true,
+    "CB_both_blocks_nonzero": true,
+    "Pminus_all_exact_coefficients": true,
+    "Pplus_all_exact_coefficients": true,
+    "converted_minus_identity": true,
+    "converted_plus_identity": true,
+    "M2_B_is_actual_tauB": true
+  },
+  "variable": "t=4q",
+  "P_B": [
+    "-2261/81920",
+    "953/102400",
+    "-2887/192000",
+    "1501/22400",
+    "-49/600",
+    "101/2310",
+    "-4/455"
+  ],
+  "P_minus": [
+    "-2261/163840",
+    "18649/6758400",
+    "-24157/4224000",
+    "-692257/1478400",
+    "39049/147840",
+    "7016189/1848000",
+    "-13951679/1716000",
+    "298820917/48048000",
+    "-80295779/48048000"
+  ],
+  "P_plus": [
+    "-2261/163840",
+    "44249/6758400",
+    "-13119/1408000",
+    "791323/1478400",
+    "-255613/739200",
+    "-6935389/1848000",
+    "97556153/12012000",
+    "-298820917/48048000",
+    "80295779/48048000"
+  ],
+  "first_G_constants": {
+    "minus": "-2261/81920",
+    "plus": "-2261/81920",
+    "total": "-2261/40960"
+  },
+  "tame_i_minus_exponents_mod16": [
+    2,
+    6,
+    10,
+    14
+  ],
+  "tame_i_plus_exponents_mod16": [
+    0,
+    4,
+    8,
+    12
+  ],
+  "note": "Character labels use the actual finite theta decomposition; no central nonvanishing is asserted."
+}

@@ -1,0 +1,35 @@
+{
+  "result": "R267",
+  "disk_id": "ORD_j07",
+  "source_polynomial_sha256": "c5804c476458091a29eea1f0e640a960f957b36d8b9cad28586abe9f6135fa87",
+  "QC_divided_by47_coefficients_mod47cubed": [
+    53855,
+    34951,
+    4669,
+    52076,
+    44180
+  ],
+  "root_lifts": [
+    {
+      "residual_root": 7,
+      "unit_derivative_mod47": 19,
+      "y_mod47_47sq_47cube": [
+        7,
+        618,
+        35962
+      ]
+    },
+    {
+      "residual_root": 44,
+      "unit_derivative_mod47": 28,
+      "y_mod47_47sq_47cube": [
+        44,
+        279,
+        279
+      ]
+    }
+  ],
+  "exactly_two_simple_F2_roots_in_Z47": true,
+  "all53_common_roots_determined": false,
+  "proof": "R262 tail estimates give an integral restricted series after division by47. Its reduction is 40+30y+16y^2 with precisely the two simple roots 7,44, so each lifts uniquely by Hensel. Mod47^3 the displayed degree4 polynomial is exact."
+}

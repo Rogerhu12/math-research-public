@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "checks": {
+    "actual_s_q_relation": true,
+    "actual_t_squared": true,
+    "same_geometric_one_tenth": true,
+    "actual_carrier_linear": true,
+    "actual_radial_initial_log": true,
+    "actual_carry_decomposition": true,
+    "geometric_boundary_Wilson_reduction": true,
+    "Z_second_derivative_q_second": true,
+    "Z_second_derivative_q_first": true,
+    "actual_Y_first_to_second_derivative": true,
+    "complete_characteristic_zero_p_correction": true,
+    "Darboux_B_zero_order_reverse_polynomial": true,
+    "complete_E_q_polynomial_operator": true,
+    "complete_E_unshifted_Mellin_ordering": true,
+    "B_first_negative_central_weight": true,
+    "C_second_negative_central_weight": true,
+    "next_possible_negative_weight": true,
+    "first_carry_absorbed_by_one_derivative": true,
+    "second_Cartier_direction_derivative": true,
+    "Darboux_first_resonant_integral_carry": true,
+    "Darboux_second_resonant_integral_carry": true,
+    "falling_factorial_central_derivative_1": true,
+    "falling_factorial_central_derivative_2": true,
+    "falling_factorial_central_derivative_3": true,
+    "falling_factorial_central_derivative_4": true,
+    "falling_factorial_central_derivative_5": true,
+    "actual_inhomogeneous_next_digit": true,
+    "fourth_weight_original_geometric_carry": true,
+    "first_band_contains_both_carries": true
+  },
+  "source_definitions": {
+    "Y": "q^(1/4)*U=q^(-p/4)*(log(F_rad)-L0-a0*H/p)",
+    "B_p": "F*z^3*Y",
+    "C_p": "F*z^4*D_z(Y)",
+    "D_p": "F*z^3*A_Darboux(Y)",
+    "E_p": "F*z^5*K*A_Darboux(Y)",
+    "F": "S8^17=theta^68*t^17",
+    "gaussian": "exp(-c*z^(p+1)), c=68*c0, alpha=p*c"
+  },
+  "same_geometry": {
+    "h": "z/q^(1/4)",
+    "nu": "(1-q/4)^(1/4)",
+    "h_minus_nu_linear": "1/10",
+    "h_3r_minus_1_mod_p": "1/(6*kappa)",
+    "alpha_mod_p": "68*kappa"
+  },
+  "actual_first_negative_layer": {
+    "window": "z exponent <7*p, equivalently positive w exponent <7*r-1",
+    "p_Y": "(337/20)*z^(3*p)+(alpha/10)*z^(4*p+1)",
+    "p_B_hat": "F_hat*((337/20)*w^(3*r)+(alpha/10)*w^(4*r))",
+    "p_C_hat": "F_hat*(alpha/10)*w^(4*r)",
+    "p_D_hat": "F_hat*((337/20)*f*w^(3*r)+(alpha/10)*(f+g/z)*w^(4*r))",
+    "p_E_hat": "0",
+    "second_horizontal_order_w": 17,
+    "second_horizontal_leading": "1/(69*a_star*h0)"
+  },
+  "radial_initial_log": "331/60",
+  "carry_decomposition": "337/20=34/3+331/60",
+  "B_prime_mod_p3": "(p/alpha)*b_r-(p^2/alpha^2)*b_2r+2*p^2*(337/20)/alpha^3",
+  "C_prime_mod_p4": "(p/alpha)*c_r-(p^2/alpha^2)*c_2r+2*p^3*c_3r/alpha^3-3*p^3/(5*alpha^3)",
+  "falling_factorial_derivatives": [
+    "1",
+    "-1",
+    "2",
+    "-6",
+    "24"
+  ],
+  "central_raw_moments": {
+    "B": "[q^(N-1)] theta^68*t^17*U*h^(2-4*N)*nu^(-3)",
+    "C": "[q^(N-1)] theta^68*t^17*(U+4*q*U_prime)*h^(3-4*N)",
+    "D": "[q^(N-1)] theta^68*V_p*h^(2-4*N)*nu^(-3)",
+    "E": "(4/a_star)*[q^(N-2)]theta^68*W_p*h^(4-4*N)*nu^(-1)",
+    "N": "r*p^n; all n>=0"
+  },
+  "reversed_P8_coefficients": [
+    "2231529755/70587",
+    "-274649816/2277",
+    "47275788/253",
+    "-31517192/209",
+    "743330/11",
+    "-182040/11",
+    "6068/3",
+    "-296/3",
+    "1"
+  ],
+  "reversed_A8_coefficients": [
+    "-18443593425075/4294967296",
+    "38873419988235/2147483648",
+    "-67351754727173/2147483648",
+    "61762229127375/2147483648",
+    "-443895314554125/29662117888",
+    "122613573291325/27917287424",
+    "-1453654847931/2147483648",
+    "493313525001/10737418240",
+    "-3711565741/4294967296"
+  ],
+  "Tate_norm": "Each complete Gaussian-normalized source has norm <=rho^4 at rho=p^(-1/(2*p)).",
+  "scope": "Actual central functions and full original depth criterion for these four explicit sources; no implication from the three original curve zeros is assumed."
+}

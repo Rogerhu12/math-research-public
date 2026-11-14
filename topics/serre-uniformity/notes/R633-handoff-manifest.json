@@ -1,0 +1,26 @@
+{
+  "result": "R633",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "New complete integral theorem closing the mixed ordinary-unit rank and saturation gap.",
+  "source_proof_sha256": "d118fc490200abc3912ec8c6962bae3b0ee8c4d64a6f5f13e7d420f2c3f1c4e2",
+  "root_review": "Root read the complete integral proof: the norm kernel is torsion-free of rank p over the actual cyclotomic DVR; the original primitive norm unit forces c_q outside pi M, so the k[T] socle and unit determinant prove the full integral isomorphism. Read both inclusions of the ordinary unit norm lattice, the complete relation module, exact balanced group-ring identity, both actions and both cohomology consequences. All new conclusions follow directly from the retained actual identities; no new arithmetic calculation or sealed replay is required.",
+  "files": [
+    {
+      "file": "results/R633-complete-ordinary-unit-lattice-in-the-anti-pq-layer.md",
+      "bytes": 12005,
+      "sha256": "d118fc490200abc3912ec8c6962bae3b0ee8c4d64a6f5f13e7d420f2c3f1c4e2"
+    },
+    {
+      "file": "notes/R633-agent-handoff-manifest.json",
+      "bytes": 784,
+      "sha256": "77bdcc8019af9949e7c7939ab0d2e33f7d7022ee57659bbe7c3c682318d8c389"
+    }
+  ],
+  "new_mathematical_computation": "none",
+  "mixed_character_nonvanishing_assumed": false,
+  "actual_Robert_correction_retained": true,
+  "ordinary_unit_lattice_complete": true,
+  "original_first_moment_J_computed": false,
+  "original_scalar_C_computed": false,
+  "full_LB_length_43_proved": false
+}

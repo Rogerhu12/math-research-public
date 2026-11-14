@@ -1,0 +1,73 @@
+{
+  "result": "R592",
+  "status": "full proof reconstructed from the reviewed argument and current available dependencies; new bytes",
+  "files": [
+    {
+      "path": "R592-actual-integral-CM-jet-lattice-and-complete-tail.recovered.md",
+      "bytes": 20781,
+      "sha256": "8cd06cf657c52d95b620e7fe675c96429a23b531e83c1d593e47567de3f58f46"
+    }
+  ],
+  "published_inputs": [
+    {
+      "path": "topics/serre-uniformity/results/R378-actual-cm-disc-parameter-and-uniform-integral-tail.md",
+      "bytes": 17593,
+      "sha256": "eb50a4ead10255604301e0a09fd0bb1d6757691bfc93bbd6ffbc22a36dea6bef",
+      "status": "current published source read during recovery; corrected scope retained"
+    },
+    {
+      "path": "topics/serre-uniformity/results/R434-primitive-cartan-trace-and-scalar-invariant-cm-logarithm.md",
+      "bytes": 18747,
+      "sha256": "bb14ac524fad0bde8c4d29345bc7cf0b972d32c23383bf26e16216d964e3c30c",
+      "status": "current published source read during recovery; corrected scope retained"
+    },
+    {
+      "path": "topics/serre-uniformity/results/R575-correct-actual-sixfold-CM-deck-and-cubic-twist.md",
+      "bytes": 16250,
+      "sha256": "d56ce2cff22017014a031cb81dac5be35b7e6dc0fe13aec1904cf9aa1540fbcd",
+      "status": "current published source read during recovery; corrected scope retained"
+    }
+  ],
+  "external_primary_source": {
+    "author": "Anthony Kling",
+    "title": "Comparison of integral structures on the space of modular forms of full level N",
+    "url": "https://arxiv.org/pdf/2310.18869",
+    "precise_input": "Lemma 2.1 and Proposition A.17, all-cusp integral q-expansion principle, including bad full level",
+    "opened_and_checked_during_recovery": true
+  },
+  "historical_unrecovered": {
+    "proof": {
+      "bytes": 16247,
+      "sha256": "e8e766d81c1b965919e6df403bba57fb6ca1f890e05d05059d300b7d6c23aca0"
+    },
+    "checker": {
+      "bytes": 9313,
+      "sha256": "a4e08e3d549cf3dccb0ff9330e8edd558b377a9a915b06d7ed49323fc2913634"
+    },
+    "certificate": {
+      "bytes": 3638,
+      "sha256": "c1f955c12cd075528cb9d6256b44a9b3d0023851816a8a60081b45809528e67d"
+    },
+    "manifest_sha256": "423b51ec5e13c255338d465c31098635638c2291c92c732613d9000f4d87cee4"
+  },
+  "self_contained_new_proof_sections": {
+    "2": "all finite p-group and actual tame cusp integrality",
+    "4": "actual full-level marking on scaled fine CM disc",
+    "5": "absolute Hodge/GM/flat coefficients including all factorial denominators",
+    "6-8": "two selection rules and full primitive tail inequalities",
+    "9": "conditional same-channel twist application; no zero image supplied"
+  },
+  "validation": {
+    "previous_mathematics_parent_reviewed": true,
+    "numerical_replay_in_recovery": false,
+    "old_checker_claimed_recovered": false,
+    "new_finite_prime_grid": false
+  },
+  "scope": {
+    "actual_global_rank_zero": false,
+    "unconditional_candidate_exclusion": false,
+    "Neron_cotangent_identified_from_cusp": false,
+    "R588_needed_for_jet_bound": false,
+    "R588_needed_to_verify_specific_M0_M2_value": true
+  }
+}

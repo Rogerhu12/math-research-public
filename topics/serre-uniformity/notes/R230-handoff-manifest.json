@@ -1,0 +1,30 @@
+{
+  "result": "R230",
+  "complete_within_stated_scope": true,
+  "files": [
+    {
+      "file": "R230-cyclic-Lie-coordinates-and-all-SS-tiny-integrals.md",
+      "bytes": 6645,
+      "sha256": "4b6f06fa07ff8db43199b9c43af6179bafd20496b2ae0e13781dfcb089defd25"
+    },
+    {
+      "file": "p41_abel_coordinates_and_tiny47.py",
+      "bytes": 12899,
+      "sha256": "b794119c9baebfd9ac2434b210bdc9f5c2cbeb1dbe73cc1ef7bddff0351f66ee"
+    },
+    {
+      "file": "p41_abel_coordinates_and_tiny47_complete.json.gz",
+      "bytes": 234371,
+      "sha256": "0b66b6f3432c79743ff03a27018d56f0dde9fd67dd11e70f859ac2bf6097c266"
+    }
+  ],
+  "command": "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python p41_abel_coordinates_and_tiny47.py --script-dir TOPIC/scripts --atlas p41_rational_SS_residue_atlas47_complete.json.gz --polynomials p41_global_qc_polynomials47_complete.json.gz --output p41_abel_coordinates_and_tiny47_complete.json.gz",
+  "actual_results": {
+    "two_sided_unit_Lie_transform": true,
+    "SS_disks_tiny_integrals": 110,
+    "canonical_differentials_per_disk": 54,
+    "CM3_independent_physical_KS_jet_match": true,
+    "true_CM_center_constants": 3
+  },
+  "remaining": "107 SS and19 ordinary center constants, actual local QC functions and complete common roots"
+}

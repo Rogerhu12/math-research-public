@@ -1,0 +1,11 @@
+{
+  "date_utc": "2026-11-14",
+  "execution": "JavaScript BigInt exact polynomial expansion and quadratic remainder reduction executed in functions code mode.",
+  "checks": {
+    "plus H0-C0": "PASS",
+    "minus C0-H0": "PASS",
+    "plus C1-3H1": "PASS",
+    "Cplus0 at r=y=0": "PASS"
+  },
+  "scope": "Exact identities from the original central cubic and original second-gradient tensor, followed by the algebraic contradiction in the proof. No finite-field lifting and no post-outage Python run are claimed."
+}

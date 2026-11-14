@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact BigInt, two retained-degree modular Bezout identities and original-K exceptional polars",
+  "prime": "103",
+  "certificates": [
+    {
+      "name": "plus",
+      "P": [
+        -8,
+        32,
+        -25,
+        5
+      ],
+      "U": [
+        10,
+        64,
+        93,
+        8,
+        75,
+        43,
+        39,
+        56
+      ],
+      "V": [
+        48,
+        80,
+        47
+      ],
+      "identity": "U P + V E8 = 1 mod 103",
+      "retained_degrees": [
+        3,
+        8
+      ]
+    },
+    {
+      "name": "minus",
+      "P": [
+        864,
+        864,
+        135,
+        5
+      ],
+      "U": [
+        42,
+        33,
+        59,
+        61,
+        54,
+        92,
+        11,
+        38
+      ],
+      "V": [
+        77,
+        64,
+        65
+      ],
+      "identity": "U P + V E8 = 1 mod 103",
+      "retained_degrees": [
+        3,
+        8
+      ]
+    }
+  ],
+  "E8": [
+    "9600",
+    "-25472",
+    "-3392",
+    "15936",
+    "-2888",
+    "-936",
+    "153",
+    "50",
+    "5"
+  ],
+  "exceptional_checks": {
+    "p5_at_zero_order": 1,
+    "p5_linear_coefficient": "-4000",
+    "pminus1_at_infinity_order": 1,
+    "pminus1_z4_coefficient": "5",
+    "p0": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "5",
+      "-1"
+    ],
+    "pinfinity": [
+      "-1",
+      "-1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "date": "2026-11-14 UTC",
+  "execution": "Actually executed in functions.exec JavaScript code mode; no terminal or Python execution claimed"
+}

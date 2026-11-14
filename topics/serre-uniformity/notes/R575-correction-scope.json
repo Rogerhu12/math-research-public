@@ -1,0 +1,55 @@
+{
+  "result": "R575",
+  "originals_preserved": [
+    {
+      "result": "R348",
+      "original_file": "notes/R348-original-before-R575.md",
+      "original_sha256": "b61a2567be0fe8236370983aecefb08c376c613efadc24768e82012244628df7",
+      "corrected_file": "results/R348-actual-sixfold-cm-quotient-and-uniform-positive-first-moment.md",
+      "corrected_sha256": "8f05a8e2e474631995a5ef5aaf194bcdea77f37285577f0719822f01446d6e27",
+      "correction": "实际六层的甲板作用应为 δζ*ω=ζω，正 CM 型的真实家族为 Ψθκ4，根号−1且中心值恒零。原 §§1、5、8 将 Ψθκ4^-1 放入该实际曲线并推出秩零商的结论撤回。§7 的正平均仅保留为相反扭向家族自身的解析结论。"
+    },
+    {
+      "result": "R374",
+      "original_file": "notes/R374-original-before-R575.md",
+      "original_sha256": "ae374d1ceb45afb28e6ad61fd43bdd99fac7640551cb17107e4b3578141b40f2",
+      "corrected_file": "results/R374-inertia-unit-torsion-vanishing-and-zero-rational-image.md",
+      "corrected_sha256": "f5ace8545d2dd744f1830da0d548870f999c154afee082852ee36794c0f0a1df",
+      "correction": "R348 所称实际秩零商的出现性已被纠正，故本文从该前提推出实际 B(Q)=0、全部实际有理点像零的应用撤回。指定 CM 表示的局部无扭论证按其原假设保留；κ4 两方向在 p 均平凡，不能据此恢复缺失的全局秩零前提。"
+    },
+    {
+      "result": "R376",
+      "original_file": "notes/R376-original-before-R575.md",
+      "original_sha256": "f0164f5916171f72e90b288d5714faa4ebc6f0e60b1c55247660ebf170663fa7",
+      "corrected_file": "results/R376-actual-cm-drinfeld-point-and-component-contraction.md",
+      "corrected_sha256": "dbdc7b1ea8eb3ac8ddea94106425ef9490e73521212d14c4788ba791cee72186",
+      "correction": "本文指定模型之间的局部约化点及分量收缩论证按其实际局部表示假设保留。R348 的实际 CM 秩零商及随后实际有理点零像不再是可用前提，不能把本地分量收缩升级为全局排除。"
+    },
+    {
+      "result": "R378",
+      "original_file": "notes/R378-original-before-R575.md",
+      "original_sha256": "81b42e3caae5103fa56fc20374676aa6aaddd31b9dc232e2b417bdce85b049d3",
+      "corrected_file": "results/R378-actual-cm-disc-parameter-and-uniform-integral-tail.md",
+      "corrected_sha256": "eb50a4ead10255604301e0a09fd0bb1d6757691bfc93bbd6ffbc22a36dea6bef",
+      "correction": "实际参数与局部 Taylor 整性、尾项估计按文中假设保留。R348 的实际秩零商出现性及由此取得的有理点零像撤回，因而本文局部估计不能再以该全局零像为已证输入。"
+    },
+    {
+      "result": "R381",
+      "original_file": "notes/R381-original-before-R575.md",
+      "original_sha256": "89b67dcca74273fdc044efc1bf95ff40bd962cedebac77ec5afb7e68564ac5e0",
+      "corrected_file": "results/R381-actual-sixfold-nonselftwist-pairs-and-central-value-obstruction.md",
+      "corrected_sha256": "a75d780139121f20decd34d27c97bf86e04bc5941d696d0e9ae7d70153fc40ac",
+      "correction": "R575 将自扭 CM 部分的实际角色改为 Ψθκ4，其中心值恒零。本文非自扭块 V_f⊗Indκ4 的独立分类、导子和根号计算不因 κ4 与 κ4^-1 互换而改变；原文对 R348 所列相反扭向 A_gθ 的实际出现性及秩零商应用撤回。此处未新增任何算术秩断言。"
+    },
+    {
+      "result": "R390",
+      "original_file": "notes/R390-original-before-R575.md",
+      "original_sha256": "d8c7eeaaa8b42628302cd376ee6e405f62d771f05e998e4f8055c7f8800a2e92",
+      "corrected_file": "results/R390-cm-coordinate-inertia-weight-one-channel-and-cartier-unit.md",
+      "corrected_sha256": "7c583743210f044c48bb76b1ad99f2edb2229f0c8cd2676e4ad027a479c97502",
+      "correction": "有限 p 型、BT 整比较与固定曲线 Cartier 计算按原指定表示保留。R348 的 κ4^-1 家族实际出现性被纠正，故本文不能继续将其称为已实现的实际秩零商，亦不能使用由此得到的实际有理点零像。实际 p 进首项与全局应用仍须另证。"
+    }
+  ],
+  "scope": "Only the specified sixfold CM occurrence/rank-zero application is corrected; no arithmetic rank assertion and no effect on finite p41 QC calculations.",
+  "review": "Root and two independent research agents checked the two deck calculations, full Gauss CM embedding, Tate cocycle and changed local Gauss sum."
+}

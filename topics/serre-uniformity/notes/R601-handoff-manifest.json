@@ -1,0 +1,38 @@
+{
+  "result": "R601",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "All three proof/source/certificate files exactly match their separately recorded pre-loss SHA256 and byte counts. Historical agent manifest is retained with its original then-current filesystem status; the recovery receipt records actual restoration.",
+  "source_proof_sha256": "2e45313ba11d3fd30efe6764eee79a46778013412d58d52b738fa7286d3322b4",
+  "root_review": "Root previously reviewed the complete proof, Cartier indices, q precision, all residues and W-prime signs, exact polynomial identity, K0 pole/oddness argument, and K2 omega truncation. The three exact UTF-8 files were reconstructed from surviving tool text and independently matched their pre-loss SHA256 and byte counts. The published R595 transcription correction does not change this proof or its actual kernel input. No arithmetic was repeated for packaging.",
+  "files": [
+    {
+      "file": "results/R601-c1-first-and-third-block-Cartier-cancellations.md",
+      "bytes": 12401,
+      "sha256": "2e45313ba11d3fd30efe6764eee79a46778013412d58d52b738fa7286d3322b4"
+    },
+    {
+      "file": "scripts/verify_R601_Cartier_cancellations.js",
+      "bytes": 2644,
+      "sha256": "0c1de2f256a0697be7beb78a5ddf67c8a6a9b07be9980e9b9ab3d723d627c856"
+    },
+    {
+      "file": "notes/R601_exact_Cartier_algebra_certificate.json",
+      "bytes": 666,
+      "sha256": "c48da7fb2a20a67f7fd3b34cfd0eda84bbbef1be62a4cb38a6c44a604e7c3647"
+    },
+    {
+      "file": "notes/R601-agent-prior-manifest.json",
+      "bytes": 1703,
+      "sha256": "06244eae98cb9b339d5e5c7dfc3b67d612ac32ecc206f3b1cd64ae82ade45240"
+    },
+    {
+      "file": "notes/R601-recovery-receipt.json",
+      "bytes": 1219,
+      "sha256": "60b7d3db81c96d4eba379291d3f84a46cff04674d67609571ebf4003a6142833"
+    }
+  ],
+  "mathematics_repeated_for_packaging": false,
+  "K0_zero": true,
+  "K2_zero": true,
+  "uniform_K1_nonvanishing": false
+}

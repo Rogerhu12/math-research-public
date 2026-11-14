@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "path": "results/R207-gaussian-trace-model-of-the-actual-ray-extension.md",
+      "bytes": 9723,
+      "sha256": "1c59332a412523a78dd4d358a7a3e10073fc33fa39c12ee84a7f5cf4b4c06ca1"
+    },
+    {
+      "path": "scripts/verify_r207_gaussian_trace_degree43.js",
+      "bytes": 10113,
+      "sha256": "7cdf01e0281c329850d72ae457dedaf12a2b7d61a0e5dd45a4f4336cd148dbd0"
+    },
+    {
+      "path": "notes/r207_gaussian_trace_degree43_certificate.json",
+      "bytes": 662331,
+      "sha256": "6aacf93b024707c70faf41d00cbc5858db1dee0e8b763ea293a7cea73d61c8a0"
+    }
+  ],
+  "status": "Root read the full proof and implementation, checked scope and normalization, and accepted the stated result.",
+  "independent_execution": "Root rebuilt the first two modular rows in C++ and re-executed the complete Node verification, including all CRT rows, exact bounds and Eisenstein checks; identical mathematical certificate SHA."
+}

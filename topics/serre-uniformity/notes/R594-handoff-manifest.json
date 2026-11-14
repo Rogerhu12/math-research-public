@@ -1,0 +1,24 @@
+{
+  "result": "R594",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "Reconstructed after loss of the old workspace and functions memory; no old-byte equality is claimed unless separately evidenced.",
+  "source_proof_sha256": "7f02fe708589966f5c87115d550de8915e45bf042a09990b91477b93d2cf9cd3",
+  "root_review": "Root rewrote the complete all-prime proof: Lucas low-digit cases, the unique denominator cancellation, Wilson constants, finite 2-torsion pole cancellation, equality with the same actual rational q, completed-zeta identity, exact truncation boundary and Lagrange formula. The preserved 45-term p269 record was transferred from the already published R589 data and only its terminal integer sum and elementary parameters were checked; no historical coefficient engine was repeated. The p=8 mod9 scope and valuation >=1/2 remain explicit.",
+  "files": [
+    {
+      "file": "results/R594-formal-log-decomposition-and-wide-prime-c0-obstruction.md",
+      "bytes": 11080,
+      "sha256": "7f02fe708589966f5c87115d550de8915e45bf042a09990b91477b93d2cf9cd3"
+    },
+    {
+      "file": "notes/R594-recovery-certificate.json",
+      "bytes": 1678,
+      "sha256": "e4d887f90df9b9705f4846f8eae31c897bb7e01f7345156a1b94d98cceccce07"
+    }
+  ],
+  "historical_p269_record_preserved_in_R589": true,
+  "all_prime_formal_proof_reconstructed": true,
+  "full_coefficient_engine_reexecuted": false,
+  "recovery_arithmetic_only": "45-term sum and elementary p269 scalar parameters",
+  "actual_R317_all_prime_nonvanishing_proved": false
+}

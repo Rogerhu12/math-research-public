@@ -1,0 +1,59 @@
+{
+  "scope": "Fixed exact pair aggregation; no target-prime scan.",
+  "sigma_coefficients_after_removing_b_powers": {
+    "1": "1",
+    "7": "1/210",
+    "13": "-1/1801800"
+  },
+  "all_pair_collisions": {
+    "total_2": [
+      [
+        1,
+        1
+      ]
+    ],
+    "total_8": [
+      [
+        1,
+        7
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "total_14": [
+      [
+        1,
+        13
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        13,
+        1
+      ]
+    ]
+  },
+  "pair_weights": {
+    "1,1": "1",
+    "7,1": "-14",
+    "7,7": "7",
+    "13,1": "-65"
+  },
+  "theta_coefficients_after_removing_b_powers": [
+    "1",
+    "-2/15",
+    "4/17325"
+  ],
+  "theta12_independent_x_sigma_identity": "4/17325",
+  "last_denominator_factorization": "3^2*5^2*7*11",
+  "prime_11_inert": true,
+  "grid": "five unweighted inputs share one depth; each Theta pair shares one depth",
+  "chosen_m": "ceil(((p-7)/6)/2)",
+  "number_of_independent_depths": "1+m",
+  "coefficient": "(p-1)*(p-3)!*I_{-(p-2)}*Omega^(p-2)*product(q_h^(6*k_h)*theta_(6*k_h))",
+  "scope_of_nonvanishing": "Some point in every sufficiently deep full Cartesian grid; no assertion for every point."
+}

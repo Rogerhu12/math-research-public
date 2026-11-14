@@ -1,0 +1,97 @@
+{
+  "all_pass": true,
+  "prime": 103,
+  "inverse_integer_scale": 3200,
+  "line_direction": [
+    1,
+    2,
+    3,
+    5,
+    7
+  ],
+  "line_offset": [
+    11,
+    13,
+    17,
+    19,
+    23
+  ],
+  "omitted_zero_based_rows": [
+    [
+      10,
+      11
+    ],
+    [
+      8,
+      9
+    ]
+  ],
+  "degree_bound": 10,
+  "specialized_minor_coefficients_ascending": [
+    [
+      19,
+      7,
+      14,
+      49,
+      29,
+      1,
+      73,
+      82,
+      13,
+      3,
+      6
+    ],
+    [
+      42,
+      7,
+      4,
+      95,
+      4,
+      67,
+      42,
+      96,
+      65,
+      28,
+      52
+    ]
+  ],
+  "bezout_u": [
+    40,
+    72,
+    11,
+    44,
+    58,
+    7,
+    0,
+    97,
+    87,
+    86
+  ],
+  "bezout_v": [
+    4,
+    68,
+    34,
+    36,
+    85,
+    15,
+    7,
+    73,
+    97,
+    101
+  ],
+  "bezout_sum": [
+    1
+  ],
+  "explicit_quartic_coefficients_ascending": [
+    0,
+    -6,
+    11,
+    -6,
+    1
+  ],
+  "explicit_minor_values": [
+    68,
+    56
+  ],
+  "scope": "Two original homogeneous maximal minors are coprime over C, so the quartic-support quadric locus in P4 has dimension at most two. The explicit support {0,1,2,3} has no projected quadratic relation. No classification of the entire exceptional locus or global Jacobian membership is claimed."
+}

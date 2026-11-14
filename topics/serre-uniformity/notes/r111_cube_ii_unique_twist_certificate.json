@@ -1,0 +1,153 @@
+{
+  "schema": "R111-cube-II-unique-twist-v1",
+  "residue_table": [
+    {
+      "a_mod_24": 1,
+      "a_mod_3_symbol": 1,
+      "minus_two_over_a": 1,
+      "six_over_a": 1,
+      "unique_d": 1
+    },
+    {
+      "a_mod_24": 5,
+      "a_mod_3_symbol": -1,
+      "minus_two_over_a": -1,
+      "six_over_a": 1,
+      "unique_d": -1
+    },
+    {
+      "a_mod_24": 7,
+      "a_mod_3_symbol": 1,
+      "minus_two_over_a": -1,
+      "six_over_a": -1,
+      "unique_d": -2
+    },
+    {
+      "a_mod_24": 11,
+      "a_mod_3_symbol": -1,
+      "minus_two_over_a": 1,
+      "six_over_a": -1,
+      "unique_d": 2
+    },
+    {
+      "a_mod_24": 13,
+      "a_mod_3_symbol": 1,
+      "minus_two_over_a": -1,
+      "six_over_a": -1,
+      "unique_d": -2
+    },
+    {
+      "a_mod_24": 17,
+      "a_mod_3_symbol": -1,
+      "minus_two_over_a": 1,
+      "six_over_a": -1,
+      "unique_d": 2
+    },
+    {
+      "a_mod_24": 19,
+      "a_mod_3_symbol": 1,
+      "minus_two_over_a": 1,
+      "six_over_a": 1,
+      "unique_d": 1
+    },
+    {
+      "a_mod_24": 23,
+      "a_mod_3_symbol": -1,
+      "minus_two_over_a": -1,
+      "six_over_a": 1,
+      "unique_d": -1
+    }
+  ],
+  "exact_pari": {
+    "local_models": [
+      {
+        "H": -1,
+        "conductor_exponent": 0,
+        "pari_kodaira_code": 1,
+        "minimal_discriminant_valuation": 0,
+        "change_u_r_s_t_valuations": [
+          14,
+          12,
+          6,
+          26
+        ],
+        "minimal_a1_a2_a3_a4_a6_valuations": [
+          8,
+          0,
+          0,
+          1,
+          1
+        ],
+        "good_reduction_trace_over_F2": -2,
+        "H_plus_16_delta_a4_a6_lower_bounds": [
+          24,
+          8
+        ]
+      },
+      {
+        "H": 7,
+        "conductor_exponent": 0,
+        "pari_kodaira_code": 1,
+        "minimal_discriminant_valuation": 0,
+        "change_u_r_s_t_valuations": [
+          14,
+          12,
+          6,
+          26
+        ],
+        "minimal_a1_a2_a3_a4_a6_valuations": [
+          8,
+          0,
+          0,
+          1,
+          1
+        ],
+        "good_reduction_trace_over_F2": -2,
+        "H_plus_16_delta_a4_a6_lower_bounds": [
+          24,
+          8
+        ]
+      }
+    ],
+    "pari_version_used": [
+      2,
+      19,
+      0
+    ],
+    "scaled_five_division_polynomial": "y^12 + 80*y^11 + (-620*z + 1900)*y^10 + (-16000*z + 16000)*y^9 + (105000*z - 210000)*y^8 + (7200000*z - 14400000)*y^7 + (141000000*z - 267000000)*y^6 + (1616000000*z - 2864000000)*y^5 + (12100000000*z - 20375000000)*y^4 + (56000000000*z - 98000000000)*y^3 + (137500000000*z - 237500000000)*y^2 + (-375000000000*z + 650000000000)",
+    "x_field": {
+      "polynomial": "y^24 - 20*y^22 + 170*y^20 - 780*y^18 + 2015*y^16 - 2688*y^14 + 870*y^12 + 2220*y^10 - 2595*y^8 + 260*y^6 + 1048*y^4 - 600*y^2 + 100",
+      "discriminant": 93492089436304834560000000000000000000000,
+      "primes_over_2_e_f": [
+        [
+          8,
+          1
+        ],
+        [
+          8,
+          2
+        ]
+      ]
+    },
+    "point_field": {
+      "polynomial": "x^48 - 160*x^40 + 480*x^38 - 440*x^36 - 2560*x^34 + 4480*x^32 - 38720*x^30 - 129344*x^28 - 258560*x^26 - 557440*x^24 + 128000*x^22 + 1738240*x^20 + 1802752*x^18 + 1894400*x^16 + 797440*x^14 - 1487680*x^12 - 1617920*x^10 - 192512*x^8 + 320000*x^6 + 140800*x^4 + 25600*x^2 + 1600",
+      "discriminant": 961057911621382174094852442970196337957484741263360000000000000000000000000000000000000000000000,
+      "primes_over_2_e_f": [
+        [
+          16,
+          1
+        ],
+        [
+          16,
+          2
+        ]
+      ]
+    },
+    "local_square_tests_2_minus2_minus1_5": [
+      1,
+      0,
+      0,
+      0
+    ]
+  }
+}

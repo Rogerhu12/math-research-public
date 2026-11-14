@@ -1,0 +1,69 @@
+{
+  "result": "PASS",
+  "checks": {
+    "eight_value_polynomial": true,
+    "quartic_discriminant": true,
+    "eight_value_discriminant": true,
+    "two_quadratic_factors": true,
+    "B_squared": true,
+    "A_times_B": true,
+    "u_inverse": true,
+    "v_inverse": true,
+    "quartic_root_u": true,
+    "quartic_root_minus_u_inverse": true,
+    "quartic_root_v": true,
+    "quartic_root_minus_v_inverse": true,
+    "u_recovers_a": true,
+    "tau_u_is_minus_v_inverse": true,
+    "tau_squared_A": true,
+    "actual_duplication_in_r": true,
+    "quarter_diagonal_plus_i": true,
+    "monic_beta_eisenstein_identity": true,
+    "beta_prime_norm": true,
+    "eisenstein_constant": true,
+    "five_s_unit_valuation_rank": true
+  },
+  "quartic": "t**4 + 4*I*t**3 + 2*t**2 - 4*I*t + 1",
+  "eight_value_polynomial": "t**8 + 20*t**6 - 26*t**4 + 20*t**2 + 1",
+  "quartic_discriminant": "-65536",
+  "eight_value_discriminant": "18446744073709551616",
+  "beta_eisenstein_polynomial": "y**8 + 12*y**6 - 20*I*y**6 - 10*y**4 + 28*I*y**4 - 20*y**2 - 12*I*y**2 + 1 + 4*I",
+  "s_unit_valuation_matrix": [
+    [
+      "2",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "-1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "1"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "-1"
+    ]
+  ],
+  "proof_scope": "Exact identities only. Multiplicative independence and ramification separation are proved in R256."
+}

@@ -1,0 +1,205 @@
+{
+  "source": "R162 actual P,Q,W; parameter s=u^4",
+  "calibration": {
+    "D": 4,
+    "p": 19,
+    "rawSaturatedValues": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -2
+    ],
+    "matchedExistingRecord": true
+  },
+  "results": [
+    {
+      "D": 4,
+      "p": 43,
+      "r": 11,
+      "k": 14,
+      "N": 3,
+      "sourceDimension": 15,
+      "CColumnIndex": 2,
+      "smithJBelowN": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "smithWithoutCBelowN": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "imageLengthJ": 40,
+      "imageLengthWithoutC": 39,
+      "aN": 1,
+      "witness": {
+        "modulus": 79507,
+        "C_coefficient": 43,
+        "terms": [
+          {
+            "A": 0,
+            "C": 1,
+            "coefficient": 43
+          },
+          {
+            "A": 2,
+            "C": 0,
+            "coefficient": 946
+          },
+          {
+            "A": 1,
+            "C": 1,
+            "coefficient": -28836
+          },
+          {
+            "A": 0,
+            "C": 2,
+            "coefficient": 1057
+          },
+          {
+            "A": 3,
+            "C": 0,
+            "coefficient": -19191
+          },
+          {
+            "A": 2,
+            "C": 1,
+            "coefficient": -6801
+          },
+          {
+            "A": 1,
+            "C": 2,
+            "coefficient": -24896
+          },
+          {
+            "A": 0,
+            "C": 3,
+            "coefficient": 32115
+          },
+          {
+            "A": 4,
+            "C": 0,
+            "coefficient": 23103
+          },
+          {
+            "A": 3,
+            "C": 1,
+            "coefficient": -18044
+          },
+          {
+            "A": 2,
+            "C": 2,
+            "coefficient": 852
+          },
+          {
+            "A": 1,
+            "C": 3,
+            "coefficient": 1169
+          },
+          {
+            "A": 0,
+            "C": 4,
+            "coefficient": 969
+          }
+        ],
+        "allNormalizedPrefixResidues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "primitive": true
+      }
+    },
+    {
+      "D": 4,
+      "p": 43,
+      "r": 11,
+      "k": 15,
+      "N": 3,
+      "sourceDimension": 15,
+      "CColumnIndex": 2,
+      "smithJBelowN": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "smithWithoutCBelowN": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "imageLengthJ": 43,
+      "imageLengthWithoutC": 40,
+      "aN": 3
+    }
+  ],
+  "scope": "This tests the original matrix and degree condition only. It does not assume or certify simultaneous complete central vanishing."
+}

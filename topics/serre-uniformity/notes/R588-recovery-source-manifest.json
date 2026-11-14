@@ -1,0 +1,78 @@
+{
+  "result": "R588",
+  "status": "complete normalization proof reconstructed from actual vectors and primary sources; new bytes",
+  "files": [
+    {
+      "path": "R588-actual-toric-norm-and-CM-normalization.recovered.md",
+      "bytes": 21249,
+      "sha256": "cc962812e88731a5db077f3d2d304c0e0908862fce37e41a70145569bae99dc2"
+    },
+    {
+      "path": "verify_R588_exact_normalization_reconstructed.py",
+      "bytes": 2792,
+      "sha256": "a1006a9fcb104831971cac2b441b069d1d991e4f279b5a82019427ff0ce2cb28"
+    },
+    {
+      "path": "R588_exact_normalization_certificate.recovered.json",
+      "bytes": 1415,
+      "sha256": "3d798b222ef657e9e2f13ac878dc0fc93600358e9c4e808c09e51f63ece6b248"
+    }
+  ],
+  "normalization": {
+    "raw_trace_used": false,
+    "actual_projection": "A_T=Tr_T/(p+1)",
+    "explicit_Ntheta": "G(e0,Tr_T e0)=(p+1)G(A_Te0,A_Te0)",
+    "original_lost_symbol_definition_claimed_verified": false,
+    "new_definition_derived_from_actual_vectors": true,
+    "classical_degeneracy": "diag((6p)^-1,1)",
+    "finite_right_translate": "pi(diag(6p,1))",
+    "adelic_CM_value": "y^(m+1)*delta_2^m F/(6p)"
+  },
+  "dependencies": [
+    {
+      "id": "R434",
+      "sections": "1-4 only",
+      "role": "actual finite-type lattice; R575 corrected global scope"
+    },
+    {
+      "id": "R575",
+      "role": "actual positive CM direction and transported full marking"
+    },
+    {
+      "id": "R586",
+      "role": "actual S6/c0 and six-torsion characters",
+      "recovered_proof_sha256": "dff55f7488b38f9725d322ebd5ad3d0addfe4da879d0ecf30c27f1d3e235c4d1"
+    },
+    {
+      "id": "R592",
+      "role": "consistent flat notation; the specific period comparison is also proved independently in Section7"
+    }
+  ],
+  "primary_sources": [
+    {
+      "url": "https://www.math.ntu.edu.tw/~mlhsieh/research/VBDP.pdf",
+      "used": "Section1.1 measures; Proposition2.1 global bilinear identity; Proposition3.3 archimedean norm",
+      "ordinary_later_results_used": false
+    },
+    {
+      "url": "https://msp.org/ant/2017/11-2/ant-v11-n2-p01-p.pdf",
+      "used": "Section5B4 depth-zero compact induction (preprint5.2.4)"
+    },
+    {
+      "url": "https://arxiv.org/pdf/math/0610163",
+      "used": "Theorem1.17 precise diagonal Kronecker coefficient"
+    }
+  ],
+  "validation": {
+    "new_exact_small_certificate_executed": true,
+    "old_torsion_orbit_repeated": false,
+    "full_analytic_proof_replaced_by_numeric_match": false,
+    "original_bytes_recovered": false
+  },
+  "scope": {
+    "actual_M0_M2_norms": true,
+    "uniform_nonvanishing": false,
+    "rank_zero_quotient": false,
+    "global_candidate_exclusion": false
+  }
+}

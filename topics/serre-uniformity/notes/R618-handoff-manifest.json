@@ -1,0 +1,73 @@
+{
+  "result": "R618",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "Reconstructed after loss of the old workspace and functions memory; no old-byte equality is claimed unless separately evidenced.",
+  "source_proof_sha256": "a812cca726552b88339e43d5cc563b8dfa7076cc69a92de2654e2c0f9134c260",
+  "root_review": "Root wrote and executed all six actual F3 stages on the same recovered R612 chain, read the full resulting proof and arithmetic outputs, and checked the exact four original targets, two nonsquare discriminants, eight candidate differences, unit-parameter regularization and full-disk tail. Existing R611 engines are unchanged. No long chain or sealed computation was repeated for publication.",
+  "files": [
+    {
+      "file": "results/R618-SS_j0_07-ramified-unit-parameter-F3-disk-exclusion.md",
+      "bytes": 17084,
+      "sha256": "6e1f888bbadb98e1d9c0153ab3ae46b8f4e51315923f80e5adc60f476c20ee08"
+    },
+    {
+      "file": "scripts/data/SS_j0_07_actual_T3_support47.json.gz",
+      "bytes": 50585,
+      "sha256": "53ee8f7832f012871fc9cd7ff708013e02e06737ef9c7537e29b15d94468fc6e"
+    },
+    {
+      "file": "scripts/data/SS_j0_07_actual_T3_principal_norm47.json.gz",
+      "bytes": 27800,
+      "sha256": "5dfce35fe89f2b88f97206cc64d91f610962cc69caa108049b5cf5c03f458db9"
+    },
+    {
+      "file": "scripts/data/SS_j0_07_actual_F3_first_variable_norm47.json.gz",
+      "bytes": 223303,
+      "sha256": "7e336bd29bcb3afa0336a140113f50d8ad79a832b4736596cc9a91bf121aa1ba"
+    },
+    {
+      "file": "scripts/data/SS_j0_07_actual_canonical_F3_height47.json.gz",
+      "bytes": 69999,
+      "sha256": "f84ab02f2c610d04cba364840f69673670332d2e6dc91534643a5fa455b37657"
+    },
+    {
+      "file": "scripts/data/SS_j0_07_actual_canonical_F3_polynomial47.json.gz",
+      "bytes": 33925,
+      "sha256": "c2360bb7589788c64f0098ece690a8e2b220b729c2a1d13dd18625e95dcadcea"
+    },
+    {
+      "file": "scripts/data/SS_j0_07-principal-F3-independent-audit.json",
+      "bytes": 8060,
+      "sha256": "8e8ce7508dcd093db73424afbb518512cfd35d92ccb1b2b2ad8f740b710ce0a3"
+    },
+    {
+      "file": "notes/R618-F3_checkpoint47.json",
+      "bytes": 15412,
+      "sha256": "0ad2205a84ed6fabd47a987b01d9d2e1a97c9b51fcd2dfbb0549329ae55aa5e5"
+    },
+    {
+      "file": "notes/R618-R618_SS_j0_07_F3_completion47.json",
+      "bytes": 15716,
+      "sha256": "fc11edd7ba6594d5fecc218932836d0b6ebedbef8ce17b43fc588b5f3e0837ad"
+    },
+    {
+      "file": "notes/R618-agent-complete-manifest.json",
+      "bytes": 36602,
+      "sha256": "b30edeb0fa213b6d903f84f88100604703bf65fac3932562c55cb59a28c98f37"
+    }
+  ],
+  "all_six_F3_stages_actually_executed": true,
+  "long_chain_repeated": false,
+  "whole_disk_excluded": true,
+  "same_bad_component_labels": [
+    0,
+    3,
+    28,
+    32
+  ],
+  "residual_F3_discriminants": [
+    10,
+    33
+  ],
+  "mathematics_repeated_for_packaging": false
+}

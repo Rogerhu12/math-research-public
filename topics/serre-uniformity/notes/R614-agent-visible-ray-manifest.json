@@ -1,0 +1,51 @@
+{
+  "result": "R614",
+  "state": "new complete proof and executed integer certificate; root review/publication pending",
+  "files": [
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-global/R614-actual-primitive-visible-ray-radical-bound.md",
+      "bytes": 17638,
+      "sha256": "208fa15626a3f294b257e27ef315b0692d4cc5331ff8730181133faf729cb8fe"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-global/R614_radical_mean_certificate.py",
+      "bytes": 5584,
+      "sha256": "1c959522d2d7b79b67a954ad1bf5501b7a27f84f226c2e7cdd12f2ad096dfc1d"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-global/R614-radical-mean-certificate.json",
+      "bytes": 2462,
+      "sha256": "baf00e86acd5ef5024407644dbb6f2b027979e9fda807a87f1dbae39090afba6"
+    }
+  ],
+  "dependencies": [
+    "R608 same actual primitive ring-class character identity, full-family lower bound and actual rank interface",
+    "R602 actual positive-root full-family mean and rank-zero interface",
+    "R593(593R.4)-(593R.5) rational CM c0,d and actual Abel basepoint",
+    "R597(597.8),(597.17) same-Y twist and same c0 Abel map"
+  ],
+  "new_math": [
+    "Exact visible-ray formulas for primitive minus full odd-character averages, retaining the actual kappa4*kappa_d0^(-1) base character",
+    "Odd/even quotient-order radius bounds H_o=(sqrt(3)*p/2)^(1/o) or (p/2)^(2/o), with common H=(p/2)^(2/rad(M))",
+    "Index-p lattice visible-point bound 4+6T^2/p and order-specific rigorous primitive error for E1 and exp separately",
+    "Negative-root sufficient conditions H>=480 L^2 J, sqrt(p/D)>=720 L^2 J give primitive mean>4046/4125 and same actual primitive rank=dimension/log isomorphism",
+    "Positive-root sufficient conditions H>=192 L^2 J, sqrt(p/D)>=1440 L^2 J give primitive central mean>1/(2L), same actual specified factor rank zero; R602 domain verified automatically",
+    "A complete Lucas N+1 primality and rational-inequality certificate for p=15*2^73-1, negative d0=169 and positive d0=65"
+  ],
+  "not_claimed": [
+    "Infinitely many primes of any specified p+1 shape",
+    "Original rational candidate existence for either example",
+    "Local M0/M2 coefficient unit at the example prime",
+    "Negative-root rational point zero-image",
+    "All-radical or all-D primitive nonvanishing",
+    "Absolute Serre uniformity completion"
+  ],
+  "executed_command": "python3 R614_radical_mean_certificate.py",
+  "probable_prime_used_as_certificate": false,
+  "external_new_theorem_needed": false,
+  "proof_sources": "All new ray, lattice, trace and Lucas claims proved in full. Analytic/global interfaces cited to already audited project results.",
+  "summary_index": "R614 gives actual primitive minus full mean via visible Eisenstein rays; odd/even order radius and lattice counts yield computable radical error for both kernels, explicit same-factor rank/log or rank-zero regions, and a strict Lucas/integer example.",
+  "summary_log": "Proved radical-dependent primitive selection for both root signs without losing true d0 cubic character. Signed multiples are summed before visible-ray bounds. Added full primality/parameter certificate; no original point or local unit inferred.",
+  "summary_handoff": "R614 frozen in agent-global with proof, source and integer output. Root owns review/push. c0,d is Q-rational and Abel-origin by R593(593R.4)-(593R.5), compatible with R597 same-Y twist; positive rank-zero conclusion supplies R603 global input only.",
+  "summary_open": "For remaining radical/conductor ranges, bound the actual signed new ray sum more sharply; combine certified positive-root primitive rank zero with the same c0 local coefficient test. Negative-root route still needs genuine quadratic-height control."
+}

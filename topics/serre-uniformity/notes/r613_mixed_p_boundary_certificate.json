@@ -1,0 +1,770 @@
+{
+  "status": "PASS",
+  "p": 43,
+  "coefficient_field": "F_43[i], i^2=-1, i not in F_43",
+  "r198_uncompressed_sha256": "e1666e118c7f10d991cf4aa0107ebbe8b68683cd7c9b3e08a587aab390e86d00",
+  "r561_scalar_uncompressed_sha256": "a6fd98bd55145e3ce91f4f79d2b9790d65cd740ece7229f07b288272c9783890",
+  "recomputed_44_row_raw_base": [
+    0,
+    0
+  ],
+  "recomputed_44_row_D_T_power_log": [
+    0,
+    13
+  ],
+  "mu_index_from_power_log_factor": 41,
+  "scalar_mu_index": 25,
+  "D_T_u_t_direct_mu_index": [
+    0,
+    17
+  ],
+  "u_r_phase_coefficient": [
+    0,
+    34
+  ],
+  "C_r_minus_C_coefficient": [
+    34,
+    0
+  ],
+  "family": [
+    {
+      "r": 0,
+      "H_r_vector_in_S_T": [
+        0,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        0
+      ],
+      "C_r_minus_C": [
+        0,
+        0
+      ],
+      "real_part_for_every_possible_C": 0,
+      "all_43_possible_C_values_nonzero": false
+    },
+    {
+      "r": 1,
+      "H_r_vector_in_S_T": [
+        1,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        34
+      ],
+      "C_r_minus_C": [
+        34,
+        0
+      ],
+      "real_part_for_every_possible_C": 34,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 2,
+      "H_r_vector_in_S_T": [
+        2,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        25
+      ],
+      "C_r_minus_C": [
+        25,
+        0
+      ],
+      "real_part_for_every_possible_C": 25,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 3,
+      "H_r_vector_in_S_T": [
+        3,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        16
+      ],
+      "C_r_minus_C": [
+        16,
+        0
+      ],
+      "real_part_for_every_possible_C": 16,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 4,
+      "H_r_vector_in_S_T": [
+        4,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        7
+      ],
+      "C_r_minus_C": [
+        7,
+        0
+      ],
+      "real_part_for_every_possible_C": 7,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 5,
+      "H_r_vector_in_S_T": [
+        5,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        41
+      ],
+      "C_r_minus_C": [
+        41,
+        0
+      ],
+      "real_part_for_every_possible_C": 41,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 6,
+      "H_r_vector_in_S_T": [
+        6,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        32
+      ],
+      "C_r_minus_C": [
+        32,
+        0
+      ],
+      "real_part_for_every_possible_C": 32,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 7,
+      "H_r_vector_in_S_T": [
+        7,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        23
+      ],
+      "C_r_minus_C": [
+        23,
+        0
+      ],
+      "real_part_for_every_possible_C": 23,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 8,
+      "H_r_vector_in_S_T": [
+        8,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        14
+      ],
+      "C_r_minus_C": [
+        14,
+        0
+      ],
+      "real_part_for_every_possible_C": 14,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 9,
+      "H_r_vector_in_S_T": [
+        9,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        5
+      ],
+      "C_r_minus_C": [
+        5,
+        0
+      ],
+      "real_part_for_every_possible_C": 5,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 10,
+      "H_r_vector_in_S_T": [
+        10,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        39
+      ],
+      "C_r_minus_C": [
+        39,
+        0
+      ],
+      "real_part_for_every_possible_C": 39,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 11,
+      "H_r_vector_in_S_T": [
+        11,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        30
+      ],
+      "C_r_minus_C": [
+        30,
+        0
+      ],
+      "real_part_for_every_possible_C": 30,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 12,
+      "H_r_vector_in_S_T": [
+        12,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        21
+      ],
+      "C_r_minus_C": [
+        21,
+        0
+      ],
+      "real_part_for_every_possible_C": 21,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 13,
+      "H_r_vector_in_S_T": [
+        13,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        12
+      ],
+      "C_r_minus_C": [
+        12,
+        0
+      ],
+      "real_part_for_every_possible_C": 12,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 14,
+      "H_r_vector_in_S_T": [
+        14,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        3
+      ],
+      "C_r_minus_C": [
+        3,
+        0
+      ],
+      "real_part_for_every_possible_C": 3,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 15,
+      "H_r_vector_in_S_T": [
+        15,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        37
+      ],
+      "C_r_minus_C": [
+        37,
+        0
+      ],
+      "real_part_for_every_possible_C": 37,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 16,
+      "H_r_vector_in_S_T": [
+        16,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        28
+      ],
+      "C_r_minus_C": [
+        28,
+        0
+      ],
+      "real_part_for_every_possible_C": 28,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 17,
+      "H_r_vector_in_S_T": [
+        17,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        19
+      ],
+      "C_r_minus_C": [
+        19,
+        0
+      ],
+      "real_part_for_every_possible_C": 19,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 18,
+      "H_r_vector_in_S_T": [
+        18,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        10
+      ],
+      "C_r_minus_C": [
+        10,
+        0
+      ],
+      "real_part_for_every_possible_C": 10,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 19,
+      "H_r_vector_in_S_T": [
+        19,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        1
+      ],
+      "C_r_minus_C": [
+        1,
+        0
+      ],
+      "real_part_for_every_possible_C": 1,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 20,
+      "H_r_vector_in_S_T": [
+        20,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        35
+      ],
+      "C_r_minus_C": [
+        35,
+        0
+      ],
+      "real_part_for_every_possible_C": 35,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 21,
+      "H_r_vector_in_S_T": [
+        21,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        26
+      ],
+      "C_r_minus_C": [
+        26,
+        0
+      ],
+      "real_part_for_every_possible_C": 26,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 22,
+      "H_r_vector_in_S_T": [
+        22,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        17
+      ],
+      "C_r_minus_C": [
+        17,
+        0
+      ],
+      "real_part_for_every_possible_C": 17,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 23,
+      "H_r_vector_in_S_T": [
+        23,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        8
+      ],
+      "C_r_minus_C": [
+        8,
+        0
+      ],
+      "real_part_for_every_possible_C": 8,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 24,
+      "H_r_vector_in_S_T": [
+        24,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        42
+      ],
+      "C_r_minus_C": [
+        42,
+        0
+      ],
+      "real_part_for_every_possible_C": 42,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 25,
+      "H_r_vector_in_S_T": [
+        25,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        33
+      ],
+      "C_r_minus_C": [
+        33,
+        0
+      ],
+      "real_part_for_every_possible_C": 33,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 26,
+      "H_r_vector_in_S_T": [
+        26,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        24
+      ],
+      "C_r_minus_C": [
+        24,
+        0
+      ],
+      "real_part_for_every_possible_C": 24,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 27,
+      "H_r_vector_in_S_T": [
+        27,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        15
+      ],
+      "C_r_minus_C": [
+        15,
+        0
+      ],
+      "real_part_for_every_possible_C": 15,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 28,
+      "H_r_vector_in_S_T": [
+        28,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        6
+      ],
+      "C_r_minus_C": [
+        6,
+        0
+      ],
+      "real_part_for_every_possible_C": 6,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 29,
+      "H_r_vector_in_S_T": [
+        29,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        40
+      ],
+      "C_r_minus_C": [
+        40,
+        0
+      ],
+      "real_part_for_every_possible_C": 40,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 30,
+      "H_r_vector_in_S_T": [
+        30,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        31
+      ],
+      "C_r_minus_C": [
+        31,
+        0
+      ],
+      "real_part_for_every_possible_C": 31,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 31,
+      "H_r_vector_in_S_T": [
+        31,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        22
+      ],
+      "C_r_minus_C": [
+        22,
+        0
+      ],
+      "real_part_for_every_possible_C": 22,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 32,
+      "H_r_vector_in_S_T": [
+        32,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        13
+      ],
+      "C_r_minus_C": [
+        13,
+        0
+      ],
+      "real_part_for_every_possible_C": 13,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 33,
+      "H_r_vector_in_S_T": [
+        33,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        4
+      ],
+      "C_r_minus_C": [
+        4,
+        0
+      ],
+      "real_part_for_every_possible_C": 4,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 34,
+      "H_r_vector_in_S_T": [
+        34,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        38
+      ],
+      "C_r_minus_C": [
+        38,
+        0
+      ],
+      "real_part_for_every_possible_C": 38,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 35,
+      "H_r_vector_in_S_T": [
+        35,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        29
+      ],
+      "C_r_minus_C": [
+        29,
+        0
+      ],
+      "real_part_for_every_possible_C": 29,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 36,
+      "H_r_vector_in_S_T": [
+        36,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        20
+      ],
+      "C_r_minus_C": [
+        20,
+        0
+      ],
+      "real_part_for_every_possible_C": 20,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 37,
+      "H_r_vector_in_S_T": [
+        37,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        11
+      ],
+      "C_r_minus_C": [
+        11,
+        0
+      ],
+      "real_part_for_every_possible_C": 11,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 38,
+      "H_r_vector_in_S_T": [
+        38,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        2
+      ],
+      "C_r_minus_C": [
+        2,
+        0
+      ],
+      "real_part_for_every_possible_C": 2,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 39,
+      "H_r_vector_in_S_T": [
+        39,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        36
+      ],
+      "C_r_minus_C": [
+        36,
+        0
+      ],
+      "real_part_for_every_possible_C": 36,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 40,
+      "H_r_vector_in_S_T": [
+        40,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        27
+      ],
+      "C_r_minus_C": [
+        27,
+        0
+      ],
+      "real_part_for_every_possible_C": 27,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 41,
+      "H_r_vector_in_S_T": [
+        41,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        18
+      ],
+      "C_r_minus_C": [
+        18,
+        0
+      ],
+      "real_part_for_every_possible_C": 18,
+      "all_43_possible_C_values_nonzero": true
+    },
+    {
+      "r": 42,
+      "H_r_vector_in_S_T": [
+        42,
+        1
+      ],
+      "direct_mu_p_phase_u_r": [
+        25,
+        9
+      ],
+      "C_r_minus_C": [
+        9,
+        0
+      ],
+      "real_part_for_every_possible_C": 9,
+      "all_43_possible_C_values_nonzero": true
+    }
+  ],
+  "nonzero_classes_checked_for_every_symbolic_C": 1806,
+  "ordinary_capitulation_extensions_proved": 42,
+  "large_Robert_evaluations_repeated": false,
+  "C_is_symbolic_in_iFp": true,
+  "original_scalar_C_computed": false,
+  "original_b_lambda_n_computed": false,
+  "original_L_computed": false,
+  "old_34_bridge_to_b_restored": false
+}

@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact BigInt polynomial identities; original K finite/infinite Taylor contacts",
+  "checks": 14,
+  "identities": [
+    "n3 order2 complete tensor",
+    "n3 order1 complete twice tensor",
+    "n4 order3 complete tensor",
+    "n4 order2 complete twice tensor",
+    "n3 shifted physical cube",
+    "n4 shifted tangent cube",
+    "generic p0 leading",
+    "generic p1 leading",
+    "generic p2 Taylor leading",
+    "generic top coefficient",
+    "original contact and nonzero top 0",
+    "original contact and nonzero top 2",
+    "original contact and nonzero top -6",
+    "original contact and nonzero top infinity"
+  ],
+  "contacts": [
+    {
+      "point": "0",
+      "orders": [
+        4,
+        3,
+        2
+      ],
+      "coefficients": [
+        "5",
+        "-32",
+        "54"
+      ],
+      "top_multiplier": "-234752"
+    },
+    {
+      "point": "2",
+      "orders": [
+        3,
+        2,
+        1
+      ],
+      "coefficients": [
+        "16",
+        "-16",
+        "-16"
+      ],
+      "top_multiplier": "32768"
+    },
+    {
+      "point": "-6",
+      "orders": [
+        3,
+        2,
+        1
+      ],
+      "coefficients": [
+        "-144",
+        "144",
+        "144"
+      ],
+      "top_multiplier": "-23887872"
+    },
+    {
+      "point": "infinity",
+      "orders": [
+        4,
+        3,
+        2
+      ],
+      "coefficients": [
+        "-1",
+        "5",
+        "-8"
+      ],
+      "top_multiplier": "980"
+    }
+  ],
+  "date": "2026-11-14 UTC",
+  "execution": "Actually executed in functions.exec JavaScript code mode; no terminal or Python execution claimed",
+  "scope": "All four exact local tensor expansions, two cube completions, and original K Taylor contact coefficients"
+}

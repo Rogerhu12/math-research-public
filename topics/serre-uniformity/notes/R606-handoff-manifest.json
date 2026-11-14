@@ -1,0 +1,131 @@
+{
+  "result": "R606",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "Necessary recomputation of missing unpublished SS_j0_03 after actual workspace loss; old result-number mapping was not recoverable, so R606 is a new recovery identifier.",
+  "source_proof_sha256": "5e6711d7d08f252a6a5ec827dc391ac4705a4d0d8b6c8d558a218d965b0ac3d8",
+  "root_review": "Necessary post-loss reconstruction actually ran the original prepare-only geometry, the complete 304-bit chain, all postprocessing stages, and the saved-section independent integer audit once. All457 section hashes,455 divisor relations,1365 Weierstrass relations,460 full106 norms,108 independent integral matches, both fixed fraction replacements, tangent rescaling, actual54-dimensional global assembly and analytic tails were checked. Archive members were compared byte for byte; no duplicate old mathematical run was used as a packaging gate.",
+  "files": [
+    {
+      "file": "results/R606-SS_j0_03-ramified-unit-parameter-F2-height-and-disk.md",
+      "bytes": 10014,
+      "sha256": "5e6711d7d08f252a6a5ec827dc391ac4705a4d0d8b6c8d558a218d965b0ac3d8"
+    },
+    {
+      "file": "scripts/data/R606_SS_j0_03_based_points47.json.gz",
+      "bytes": 108374,
+      "sha256": "d35a001ff8ae9416d63c30238b6772985592acb2ead1438c32812f098f8f85b4"
+    },
+    {
+      "file": "scripts/data/SS_j0_03-principal-F2-independent-audit.json",
+      "bytes": 9341,
+      "sha256": "35049b25a011476e4c603dfaf1e0385608790340d2778d8a2d9ec12e7e64517e"
+    },
+    {
+      "file": "scripts/data/SS_j0_03_actual_F2_first_variable_norm47.json.gz",
+      "bytes": 282982,
+      "sha256": "27344e75f94c1c309ef94a8c4af1de056c9dd4e9b7217f03edf170e1554ba887"
+    },
+    {
+      "file": "scripts/data/SS_j0_03_actual_F2_first_variable_norm47_finite_checkpoint.json.gz",
+      "bytes": 93780,
+      "sha256": "295707c8ee969adf1538d3bdb944b50285f4778ebf419fc21912740505facdaf"
+    },
+    {
+      "file": "scripts/data/SS_j0_03_actual_F2_first_variable_norm47_full106_checkpoint.json.gz",
+      "bytes": 188765,
+      "sha256": "25833b8fbb240c4912d21b555bdd6949ff8362e7729710e7b487f9834f443b23"
+    },
+    {
+      "file": "scripts/data/SS_j0_03_actual_T2_principal_norm47.json.gz",
+      "bytes": 23614,
+      "sha256": "89d5586cf2dfbb3699079e35747226a307986bdf90050b55fdc0a5d3b2c8f460"
+    },
+    {
+      "file": "scripts/data/SS_j0_03_actual_T2_support47.json.gz",
+      "bytes": 36792,
+      "sha256": "e2117c6fec8692b3def1d10394897fa9aef2caa3eece41f0ce84f5e5db841f14"
+    },
+    {
+      "file": "scripts/data/SS_j0_03_actual_canonical_F2_height47.json.gz",
+      "bytes": 57178,
+      "sha256": "6b863e239a1c4768b5dfbd4ca751ee2e533077b72c900ed94f17d5009f329180"
+    },
+    {
+      "file": "scripts/data/SS_j0_03_actual_canonical_F2_polynomial47.json.gz",
+      "bytes": 65049,
+      "sha256": "9c06afd88d0ec289cdb7c248a629ca3c5f2b2e47b0ed1202315e060bb28965ee"
+    },
+    {
+      "file": "scripts/data/SS_j0_03_actual_second_kind_integrals47.json.gz",
+      "bytes": 594835,
+      "sha256": "61b2861b4387db5f1a502b27ecdf72b47beb3afb2d7185c44f8a402b93038a80"
+    },
+    {
+      "file": "scripts/data/SS_j0_03_principal_expression47.json.gz",
+      "bytes": 38634,
+      "sha256": "d9cdee654daa8325663ef24e6cc220fb18ccf71efaa76e5f5877f6b6ba0c9b2d"
+    },
+    {
+      "file": "scripts/data/p41_SS_j0_03_principal_transports47.tar.gz",
+      "bytes": 1778086,
+      "sha256": "1c1464e82008d0287bed45cc676a1b699ae0ba5bdbfaafd7ca76cd364dda9a74"
+    },
+    {
+      "file": "scripts/data/SS_j0_03_multiply47.json.gz",
+      "bytes": 377281,
+      "sha256": "856fdbef7ab21d4f3f2f13dc21ae9cb4c40ff8cc965b4464aa72650383a4f625"
+    },
+    {
+      "file": "scripts/data/SS_j0_03_Abel47.json.gz",
+      "bytes": 442945,
+      "sha256": "57f7e501b9d1e392bd6939df007956637b4b67625a8d9d3f1a383fee677e0b18"
+    },
+    {
+      "file": "scripts/data/R606_SS_j0_03_canonical18_clearingframe_pipeline_checkpoint47.json",
+      "bytes": 17802,
+      "sha256": "8db62efbe02adfb270e505204eef08cd88e3f7269363f6c1f43daeee9b94e36f"
+    }
+  ],
+  "actual_executed_stages": [
+    {
+      "stage": "actual_chain",
+      "source_sha256": "754d36c59a19a6c9c04cb779084d3b2a7f0ceedffefdffc2c32ce6f226ced613"
+    },
+    {
+      "stage": "actual_terminal_and_nu",
+      "source_sha256": "cdafcc136ae0384d382246794ba61c1968eb6fc322b0bd5b861c3c08e88ee4ba"
+    },
+    {
+      "stage": "actual_integer_principal",
+      "source_sha256": "83010dc05acadf5d9c37ffdce3a219114883e672ed5a65573bd8e42a15d7a52a"
+    },
+    {
+      "stage": "actual_T2_support",
+      "source_sha256": "017007eb9bb409810eb45930d91099d5a9f16ee149550db06bbda8afe24096b4"
+    },
+    {
+      "stage": "actual_T2_norm",
+      "source_sha256": "e97baee02cc79f747137d0b5b393ec4c1ccfbb38bd8b267aebd7238f3eec8270"
+    },
+    {
+      "stage": "actual_full_F2_norm",
+      "source_sha256": "86827b1dff1327279e82329c12a47e442ee6fec39821d749104e4605a1abe5a9"
+    },
+    {
+      "stage": "actual_F2_center",
+      "source_sha256": "e57b828142433f57035df9db7c748d99e2fd5f18379689fae6e40efd17308ce7"
+    },
+    {
+      "stage": "actual_F2_polynomial",
+      "source_sha256": "ead1b0786481df743feada15c7a0b8769d72f301597610e34648eb37f4dcd881"
+    },
+    {
+      "stage": "independent_audit",
+      "source_sha256": "6d3fd435b79f7cdfb2313b18238e898e8815bceebe44178f1592401df767a1d6"
+    }
+  ],
+  "all_nine_stages_executed": true,
+  "archive_members": 459,
+  "archive_bytes_compared_with_originals": true,
+  "old_input_and_source_hashes": "Bound recursively by the based-point, center, polynomial, independent-audit and pipeline-checkpoint artifacts included here."
+}

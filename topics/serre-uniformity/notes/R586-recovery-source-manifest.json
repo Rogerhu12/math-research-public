@@ -1,0 +1,58 @@
+{
+  "result": "R586",
+  "status": "required actual marking, finite kernel and low-coefficient theorem restored; new proof/source bytes",
+  "files": [
+    {
+      "path": "R586-actual-c0-marking-and-six-torsion-kernel.recovered.md",
+      "bytes": 10180,
+      "sha256": "dff55f7488b38f9725d322ebd5ad3d0addfe4da879d0ecf30c27f1d3e235c4d1"
+    },
+    {
+      "path": "verify_R586_six_torsion_kernels_reconstructed.py",
+      "bytes": 3729,
+      "sha256": "0d8414a04ff59999dd3c62cc0c2cbc13e744f12155d8802a219374226fcbe7ff"
+    },
+    {
+      "path": "R586_six_torsion_kernel_certificate.recovered.json",
+      "bytes": 1936,
+      "sha256": "6e997245d81fe78f13cb64c76cd669bf3439935bc235921830ace34169f17a2b"
+    }
+  ],
+  "actual_recovery_run": {
+    "program": "verify_R586_six_torsion_kernels_reconstructed.py",
+    "arithmetic": "Python Fraction in Q[a,zeta]/(a^3-4,zeta^2+zeta+1)",
+    "full_identities": [
+      "Q coordinates on E",
+      "three X^3 denominator",
+      "entire c0 H0/C0 rational function",
+      "entire c1 comparison rational function",
+      "weighted completed-zeta sum"
+    ],
+    "passed": true,
+    "old_p_adic_torsion_orbit_repeated": false
+  },
+  "dependencies": [
+    {
+      "id": "R575",
+      "scope": "actual positive CM direction and full-level marking"
+    },
+    {
+      "id": "R348",
+      "scope": "only H6 graph/diagonal C3 geometry and untwisted theta Fourier support, subject to R575 correction"
+    },
+    {
+      "id": "R574",
+      "scope": "completed zeta algebraic normalization and e_Q^p=D^(p-2)x(Q)",
+      "restored_proof_sha256": "e447fd6ece1f9caff43c17f0425389c70fce6e4e94292fe7deeb3489da01d9dd"
+    }
+  ],
+  "unrestored_original_extras": [
+    "old higher-precision p41 orbit/source bytes; not claimed recreated"
+  ],
+  "scope": {
+    "actual_M0_norm_identity": false,
+    "rank_zero_quotient": false,
+    "global_candidate_exclusion": false,
+    "old_R586_bytes_reproduced": false
+  }
+}

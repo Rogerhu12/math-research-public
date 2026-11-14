@@ -1,0 +1,363 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact rational traces over Q(i) and eigenvectors over Q(sqrt2)",
+  "target_prime_scan": false,
+  "checks": {
+    "linear_inverse_1": true,
+    "linear_inverse_2": true,
+    "linear_inverse_3": true,
+    "linear_inverse_4": true,
+    "linear_inverse_5": true,
+    "entire_octic_trace_matrix": true,
+    "extra_fiber_at_five": true,
+    "normalized_trace_fourth_power_minus_identity": true,
+    "primitive_eigen_1_row_0": true,
+    "primitive_eigen_1_row_1": true,
+    "primitive_eigen_1_row_2": true,
+    "primitive_eigen_1_row_3": true,
+    "primitive_eigen_3_row_0": true,
+    "primitive_eigen_3_row_1": true,
+    "primitive_eigen_3_row_2": true,
+    "primitive_eigen_3_row_3": true,
+    "primitive_eigen_5_row_0": true,
+    "primitive_eigen_5_row_1": true,
+    "primitive_eigen_5_row_2": true,
+    "primitive_eigen_5_row_3": true,
+    "primitive_eigen_7_row_0": true,
+    "primitive_eigen_7_row_1": true,
+    "primitive_eigen_7_row_2": true,
+    "primitive_eigen_7_row_3": true,
+    "octic_eigenbasis_determinant": true,
+    "actual_A_eigen_decomposition_0": true,
+    "actual_A_eigen_decomposition_1": true,
+    "actual_A_eigen_decomposition_2": true,
+    "actual_A_eigen_decomposition_3": true,
+    "all_four_A_sources_nonzero": true,
+    "actual_Bplus_eigen_decomposition_0": true,
+    "actual_Bplus_eigen_decomposition_1": true,
+    "actual_Bplus_eigen_decomposition_2": true,
+    "actual_Bplus_eigen_decomposition_3": true,
+    "all_four_Bplus_sources_nonzero": true,
+    "two_actual_CM_top_coefficient_rows_invertible": true,
+    "all_seven_regularized_sources_have_degree_at_most_six": true,
+    "complete_regularized_seven_dimensional_basis": true,
+    "actual_CM_coefficients_forced_by_regularization": true,
+    "actual_full_CB_polynomial_recovered": true,
+    "full_CB_mass_equals_minus_twice_beta": true,
+    "full_CA_mass_equals_minus_twice_beta": true
+  },
+  "trace_real_times64": [
+    [
+      -62,
+      -4,
+      -18,
+      -16
+    ],
+    [
+      232,
+      58,
+      44,
+      54
+    ],
+    [
+      -318,
+      -136,
+      -154,
+      -140
+    ],
+    [
+      44,
+      42,
+      56,
+      158
+    ]
+  ],
+  "trace_imag_times64": [
+    [
+      -21,
+      43,
+      31,
+      7
+    ],
+    [
+      331,
+      39,
+      -73,
+      -53
+    ],
+    [
+      -59,
+      -83,
+      33,
+      65
+    ],
+    [
+      -43,
+      1,
+      -7,
+      -51
+    ]
+  ],
+  "eigen_polynomials": [
+    [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "-5",
+        "2"
+      ],
+      [
+        "11",
+        "-4"
+      ],
+      [
+        "-15",
+        "10"
+      ]
+    ],
+    [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "63/17",
+        "-70/17"
+      ],
+      [
+        "-77/17",
+        "44/17"
+      ],
+      [
+        "5/17",
+        "2/17"
+      ]
+    ],
+    [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "-5",
+        "-2"
+      ],
+      [
+        "11",
+        "4"
+      ],
+      [
+        "-15",
+        "-10"
+      ]
+    ],
+    [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "63/17",
+        "70/17"
+      ],
+      [
+        "-77/17",
+        "-44/17"
+      ],
+      [
+        "5/17",
+        "-2/17"
+      ]
+    ]
+  ],
+  "eigen_basis_determinant": [
+    "32768/17",
+    "0"
+  ],
+  "CA_coefficients": [
+    [
+      "-39797/14784000",
+      "-8177/4224000"
+    ],
+    [
+      "-2091/448000",
+      "-2669/1971200"
+    ],
+    [
+      "-39797/14784000",
+      "8177/4224000"
+    ],
+    [
+      "-2091/448000",
+      "2669/1971200"
+    ]
+  ],
+  "CBplus_coefficients": [
+    [
+      "224494093/56229888000",
+      "4237163/1363148800"
+    ],
+    [
+      "-6031447/3748659200",
+      "-202405417/62977474560"
+    ],
+    [
+      "224494093/56229888000",
+      "-4237163/1363148800"
+    ],
+    [
+      "-6031447/3748659200",
+      "202405417/62977474560"
+    ]
+  ],
+  "regularized_octic_matrix": [
+    [
+      "-13/4",
+      "-5/4",
+      "3/4",
+      "11/4"
+    ],
+    [
+      "-80",
+      "-38",
+      "-36",
+      "-10"
+    ],
+    [
+      "359",
+      "155",
+      "151",
+      "-37"
+    ],
+    [
+      "-424",
+      "-168",
+      "-200",
+      "312"
+    ],
+    [
+      "164",
+      "164",
+      "164",
+      "-604"
+    ],
+    [
+      "-96",
+      "-256",
+      "-160",
+      "448"
+    ],
+    [
+      "80",
+      "144",
+      "80",
+      "-112"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "regularized_quartic_matrix": [
+    [
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "432/5",
+      "-416",
+      "272"
+    ],
+    [
+      "-1456/5",
+      "1440",
+      "-2320"
+    ],
+    [
+      "896/5",
+      "-3328",
+      "5760"
+    ],
+    [
+      "128/5",
+      "6400",
+      "-7808"
+    ],
+    [
+      "768/5",
+      "-6656",
+      "6400"
+    ],
+    [
+      "-768/5",
+      "2560",
+      "-2304"
+    ],
+    [
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "CM_correction_octic": [
+    [
+      "1/16",
+      "1/16",
+      "1/16",
+      "1/16"
+    ],
+    [
+      "7/32",
+      "5/32",
+      "3/32",
+      "1/32"
+    ]
+  ],
+  "CM_correction_quartic": [
+    [
+      "-1/10",
+      "0",
+      "-1/2"
+    ],
+    [
+      "-1/4",
+      "1",
+      "-5/4"
+    ]
+  ],
+  "complete_basis_determinant": "4398046511104/5",
+  "regularized_octic_masses": [
+    [
+      "-60",
+      "44"
+    ],
+    [
+      "-356/17",
+      "252/17"
+    ],
+    [
+      "-60",
+      "-44"
+    ],
+    [
+      "-356/17",
+      "-252/17"
+    ]
+  ]
+}

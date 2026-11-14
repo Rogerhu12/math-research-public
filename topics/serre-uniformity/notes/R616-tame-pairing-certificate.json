@@ -1,0 +1,140 @@
+{
+  "status": "PASS",
+  "scope": "constant-size exact finite H6 tensor and rational constants only",
+  "field": "QQ[zeta]/(zeta^2+zeta+1)",
+  "C": [
+    [
+      [
+        "-1",
+        "0"
+      ],
+      [
+        "-1",
+        "0"
+      ]
+    ],
+    [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ]
+  ],
+  "S": [
+    [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ]
+  ],
+  "G": [
+    [
+      [
+        "2",
+        "0"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "2",
+        "0"
+      ]
+    ]
+  ],
+  "invariant_tensor": [
+    [
+      "2",
+      "0"
+    ],
+    [
+      "-1",
+      "0"
+    ],
+    [
+      "-1",
+      "0"
+    ],
+    [
+      "2",
+      "0"
+    ]
+  ],
+  "opposite_character_projections": [
+    [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "-1",
+        "-1"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "-1",
+        "-1"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ]
+  ],
+  "squared_norms": [
+    "18",
+    "9",
+    "9"
+  ],
+  "mutual_inner_product": "0",
+  "positive_primitive_mean_lower": "6481/12300",
+  "negative_primitive_mean_lower": "649/250",
+  "not_tested_or_claimed": [
+    "no prime or L-value scan",
+    "no numerical Gross-Zagier constant",
+    "no p-adic height or regulator unit"
+  ]
+}

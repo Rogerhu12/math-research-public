@@ -1,0 +1,25 @@
+{
+  "result": "R603",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "Reconstructed after loss of the old workspace and functions memory; no old-byte equality is claimed unless separately evidenced.",
+  "source_proof_sha256": "ae2bf4b6ce2b5911d8a0ed53cb456329f9907c75c41a7a94d71f5d3af5c93134",
+  "root_review": "Root reconstructed and reviewed the entire actual quotient/basepoint proof using R593/R597/R592/R589 and corrected marked-disk inputs R376/R378. Independent QC review passed on the cited pre-clarification bytes; root then added only the explicitly suggested full-germ KS equality from R592(592.26). Checked actual rational basepoint, same twisted quotient, nonzero scaling rather than unit scaling, true marked Drinfeld disk, infinite-tail estimate and exact distinction from unconditional all-p exclusion.",
+  "files": [
+    {
+      "file": "results/R603-actual-rank-zero-and-c0-unit-exclusion.md",
+      "bytes": 11529,
+      "sha256": "ae2bf4b6ce2b5911d8a0ed53cb456329f9907c75c41a7a94d71f5d3af5c93134"
+    },
+    {
+      "file": "notes/R603-independent-interface-review.md",
+      "bytes": 5403,
+      "sha256": "f25cf042b88dde43fb63cbc38f196e67baca43d1714df8b71fd7ca2a357c5a72"
+    }
+  ],
+  "independent_review_preclarification_proof_sha256": "1293d1ffdae5efb989190b25dfe7bcc17f2333eb8a2a37ad1ed5b5baac6b3c02",
+  "post_review_change": "Inserted the exact KS(omega_flat^2)=dz full-germ identity explicitly requested by the independent reviewer; no theorem hypothesis or conclusion changed.",
+  "actual_marked_candidate_required": true,
+  "specified_factor_rank_zero_required": true,
+  "actual_rprime_nonzero_required": true,
+  "mathematics_repeated_for_packaging": false
+}

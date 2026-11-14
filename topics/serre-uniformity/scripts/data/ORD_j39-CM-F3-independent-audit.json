@@ -1,0 +1,128 @@
+{
+  "disk_id": "ORD_j39",
+  "input_sha256": {
+    "agent-qc/ORD_j39_actual_F3_CM_anchored_connections47.json.gz": "46898030f3d0a0650783db06394b4f5a3aad773d351cb03f509dc9bbf1c7b257",
+    "agent-qc/ORD_j39_actual_CM_anchored_F3_polynomial47.json.gz": "c95b1f0c1573962519a4d9149a24cbfd5b19161143510b206d2c9f89238904e2",
+    "agent-qc/ordinary-F3-norms/ORD_j39_actual_T3_support47.json.gz": "238bcef700e22fdde61279cd62f6b76fceb4617681df681d63ce6fba532ab288",
+    "root-recovery/ORD_j39_actual_canonical_F2_polynomial47.json.gz": "290189aa45fe1358cccbbb089ea003fa337a3c255fb8dfddc8bf2370f67252de",
+    "root-recovery/ORD_j39-CM-F2-independent-audit.json": "b06b54987053b9f6448b743d714b135dc1d71c88609fea5746328deb5e0547e5",
+    "agent-qc/p41_three_ordinary_CM_anchors_and_113_global_functions47.json.gz": "a9c40049ce3eab329ed22ff27edcb39e929491bacf35c11887b348c0609bdb6a",
+    "agent-qc/p41_T3_fixed_divisor47.json.gz": "b4bd8548c2844a93dc8eea958b4b577bcaac53a3f56370f568bdee3e82ea512f",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_CM_ordinary_F3_anchored_connection47.py": "05cfc2d129e8eedd7d7fd137edd2ca2ecf24f50384c43c1974fa5605b4dcc950",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_CM_ordinary_F3_anchored_polynomial47.py": "984973259e2ac8a779882cda0079fd6297c5d5f2263e3220ee23874903501a48",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_ordinary_rational_atlas47.json.gz": "f4690eaa185a2122caad0dd63f939bf7554ca9cd4ef34a721be1d254b519d56a",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_global_qc_polynomials47_complete.json.gz": "4ea4c9d706b3b8e6f671af4b020db6ff6e47b1c871c45654ca31e5e81d4e6e79"
+  },
+  "irreducible_quartic_kernel_verified_by_Frobenius_and_gcd": true,
+  "actual_four_target_span_separation_independently_reduced_mod47": {
+    "P": {
+      "rank": 5,
+      "pivot_columns_0based": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "b": {
+      "rank": 5,
+      "pivot_columns_0based": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "new_T3_denominator_all_pole_constraints_and_center_unit_verified": true,
+  "all73_true_CM_coordinate_transport_independently_verified": true,
+  "CM_global_pairing_recomputed_from_actual54_coordinates": 4469512,
+  "CM_scaled_height": 4469512,
+  "CM_height_after_exact_division_by800": 1518288,
+  "local_height_polynomial": [
+    1988288,
+    3604665,
+    3792853,
+    726761
+  ],
+  "local_derivative": [
+    76695,
+    12270,
+    45141
+  ],
+  "global_polynomial": [
+    166944,
+    1912524,
+    2641494,
+    2789967,
+    622938
+  ],
+  "QC_polynomial": [
+    312550,
+    2071995,
+    3520676,
+    2063206,
+    622938
+  ],
+  "F2_candidate_checks": [
+    {
+      "y_mod47cubed": 9310,
+      "QC_F3_value_mod47four": 0,
+      "component_tests": [
+        {
+          "label": 0,
+          "difference_mod47four": 0
+        },
+        {
+          "label": 3,
+          "difference_mod47four": 0
+        },
+        {
+          "label": 28,
+          "difference_mod47four": 2258209
+        },
+        {
+          "label": 32,
+          "difference_mod47four": 2258209
+        }
+      ]
+    },
+    {
+      "y_mod47cubed": 85546,
+      "QC_F3_value_mod47four": 3781150,
+      "component_tests": [
+        {
+          "label": 0,
+          "difference_mod47four": 3781150
+        },
+        {
+          "label": 3,
+          "difference_mod47four": 3781150
+        },
+        {
+          "label": 28,
+          "difference_mod47four": 1159678
+        },
+        {
+          "label": 32,
+          "difference_mod47four": 1159678
+        }
+      ]
+    }
+  ],
+  "remaining_same_component_pairs": [
+    {
+      "y_mod47cubed": 9310,
+      "bad_component_label": 0
+    },
+    {
+      "y_mod47cubed": 9310,
+      "bad_component_label": 3
+    }
+  ],
+  "extra_F2_root_excluded_in_all_four_components": true,
+  "known_CM_height_is_an_input_not_an_independent_local_Norm_check": true,
+  "source_sha256": "0fe9b3ee5b9465786bd2e3166240a4d19380cfa6789060e9dd22adff17a2d1d6"
+}

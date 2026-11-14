@@ -1,0 +1,69 @@
+{
+  "disk_id": "ORD_j30",
+  "scope": "Frozen actual Abel,108 deRham endpoint,457 principal functions,exact flattened expression and actual T2 support/norm inputs; no new height or disk exclusion claim.",
+  "files": [
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-abel-with-transports/ORD_j30_Abel47.json.gz",
+      "target": "scripts/data/ORD_j30_Abel47.json.gz",
+      "bytes": 442882,
+      "sha256": "106add8adec91a589f3052bbd1f99fef6f85838fd250353736d92261c846ec7d"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-abel-with-transports/ORD_j30_multiply47.json.gz",
+      "target": "scripts/data/ORD_j30_multiply47.json.gz",
+      "bytes": 377366,
+      "sha256": "741c8fc2b6ddfe0c9e4ab5fb14851749c23039c8338c974ae864d55c49f8a507"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-second-kind/ORD_j30_second_kind_complete47.json.gz",
+      "target": "scripts/data/ORD_j30_second_kind_complete47.json.gz",
+      "bytes": 595184,
+      "sha256": "2a6f1d092474f8a84bf9c95ad5645d5bef7270436607083d9fcb720efe7ad20a"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_ORD_j30_principal_transports47.tar.gz",
+      "target": "scripts/data/p41_ORD_j30_principal_transports47.tar.gz",
+      "bytes": 1777775,
+      "sha256": "6ddce576b9d2a75844a428893c98a1fbc638c0c43ef97e022f4afcb9a17e36fa"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-F2-norms/ORD_j30_actual_principal_function47.json.gz",
+      "target": "scripts/data/ORD_j30_actual_principal_function47.json.gz",
+      "bytes": 38707,
+      "sha256": "c284346acdbc0111017e8c27d8fd61e09469529fa3cb9eb62638366f1e5553e4"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-F2-norms/ORD_j30_actual_T2_support47.json.gz",
+      "target": "scripts/data/ORD_j30_actual_T2_support47.json.gz",
+      "bytes": 60232,
+      "sha256": "c70fb95a6b45ed84ef8bc9312166a2073d349462246638b6ac47e803a0f1c0b4"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-F2-norms/ORD_j30_actual_T2_principal_norm47.json.gz",
+      "target": "scripts/data/ORD_j30_actual_T2_principal_norm47.json.gz",
+      "bytes": 23713,
+      "sha256": "20aca406965f2d6f95c4730a9b21d29d5baa9cfe311c050b5165bb7222c7964d"
+    }
+  ],
+  "missing_executor_dependencies_in_current_repository_tree": [],
+  "common_based_points_sha256": "19f90754a0f83c163f8cbab8ba15fd2fb745bd819f8ea7bc3d4962d164c7e9a4",
+  "common_based_points_already_identical_in_current_repository_tree": true,
+  "publication_status_boundary": "Read-only comparison to current repository files; parent owns git and confirms which queued files have reached remote main.",
+  "archive_contract": {
+    "files": 459,
+    "actual_principal_functions": 457,
+    "phase_counts": {
+      "scalar_multiplication": 454,
+      "formal_extraction": 2,
+      "initial_negative": 1
+    },
+    "all_members_byte_equal_to_original": true,
+    "archive_prefix": "ordinary-principal-transports/",
+    "archive_mtime_uid_gid": 0,
+    "each_archive_below_5MB": true
+  },
+  "all_input_hash_edges_verified": true,
+  "checked_input_edges_count": 10,
+  "mathematical_reexecution": false,
+  "packager_source_sha256": "105d40d2cd4f15820e7e8b2f2201d5d135e2effe33a220983475654b1a72252f"
+}

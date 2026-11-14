@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "number_of_exact_checks": 17,
+  "checks": [
+    "the integral even-derivative recurrence keeps its exact degree and leading factorial",
+    "the original differential gives A_1, not an independent residue input",
+    "the original differential gives A_2, not an independent residue input",
+    "the original differential gives A_3, not an independent residue input",
+    "all displayed derivative polynomials have the required unit constant",
+    "the first actual odd derivative polynomial",
+    "the actual low coefficient residue minor is a unit power of b",
+    "the entire residue numerator remains below the proved degree bound",
+    "the original reciprocal lift differs from B_p by the exact p multiple",
+    "the finite polynomial has the full exact differential identity",
+    "the value excluding minus one is the proved beta product",
+    "the actual reciprocal characteristic-zero numerator retains mass one and full degree",
+    "the full invariant infinity pole is canceled by the exact dY term",
+    "the finite polar interpolant gives every actual residue",
+    "the Frobenius residue factor keeps the Y branch",
+    "the maximum infinity pole stays below two p",
+    "the actual tame phase removes all possible negative Cartier exponents in the window"
+  ],
+  "A1": "7*xi**2/8 + 1",
+  "A2": "4199*xi**5/256 + 1703*xi**4/128 + 13*xi**3/8 + 5*xi/14 + 1",
+  "A3": "17678835*xi**8/32768 + 863075*xi**7/1024 + 691619*xi**6/1792 + 92625*xi**5/1792 + 6441*xi**4/5824 + 435*xi**2/5096 + 11*xi/14 + 1",
+  "original_reciprocal_polynomial": "Btilde=sum binom((p-1)/2,j) N/(N-3j) xi^j, N=(3p-1)/2",
+  "off_origin_residue": "-6*(Y/b)*xi^(-K)*sum q_n*b^n*xi^(K-n)*A_n(xi)",
+  "exact_unit_minor": "b^(K(K+1)/2)",
+  "uniform_window": "1 <= K <= s-1, p=6s-1",
+  "full_cartier_identity": "C(omega_q)=h_q^(1/p)*dlog(r)+eta(phi^-1(-6*(1+xi)^(-n0)*xi^(-K)*P_q))",
+  "scope": "Primitive statement is for the actual off-origin residue operator. Its identification with an original C_2(M) subquotient remains to be proved. No target-prime scan."
+}

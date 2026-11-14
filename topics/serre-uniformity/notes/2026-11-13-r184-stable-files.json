@@ -1,0 +1,186 @@
+{
+  "result": "R184",
+  "status": "Both CM chains, common369 chain and actual F2 inputs complete; full final-height addendum separately recorded",
+  "files": [
+    {
+      "source": "/workspace/scratch/64b49fd2bdbb/math-research/topics/serre-uniformity/results/R184-complete-cm-miller-functions-and-f2-height-inputs.md",
+      "target": "results/R184-complete-cm-miller-functions-and-f2-height-inputs.md",
+      "bytes": 13825,
+      "sha256": "a866e3590b91998d49a3dd739ca2e9ea9f707798b768e9ca1cce37888d3e7312",
+      "status": "complete CM12 proof at precision4",
+      "original_source_sha256": "9539c63e0c4aafe2cd6035f0eb083287b9fedde9b0c059d6de361c93196db504",
+      "root_update": "CM7 completion and complete common-chain/two-F2 proof addendum link"
+    },
+    {
+      "source": "/workspace/scratch/64b49fd2bdbb/math-research/topics/serre-uniformity/notes/2026-11-13-qc-complete-cm12-and-window-norms-recovery.md",
+      "target": "notes/2026-11-13-qc-complete-cm12-and-window-norms-recovery.md",
+      "bytes": 6131,
+      "sha256": "8d1db43fb003ee9df1aada08f52e94537a301e58b4f1f5b74877b85ceb3940d7",
+      "status": "complete recovery and exact scope",
+      "original_source_sha256": "5be38bc7a501d2060e3ae698a6a1195399dfd54475e667894e14f5805f1f4e36",
+      "root_update": "common369 completed; original282 input retained and continuation command explicit"
+    },
+    {
+      "source": "/tmp/p41_cm12_slp47_complete.json.gz",
+      "target": "scripts/data/p41_cm12_slp47_saved.json.gz",
+      "bytes": 1534780,
+      "sha256": "5e505ebeb3b12f2f443766177c335a9ffc91e23206d9074e7dbe27f67f45f9c2",
+      "status": "complete304bits454steps; replace current saved"
+    },
+    {
+      "source": "/tmp/p41_cm12_endpoint47_certificate.json.gz",
+      "target": "scripts/data/p41_cm12_endpoint47_certificate.json.gz",
+      "bytes": 5481,
+      "sha256": "b38bbf73147d658430175830f695fae8e9039191ea4b9541a807649d7ecf6555",
+      "status": "complete actual g0"
+    },
+    {
+      "source": "/tmp/p41_cm12_newS_endpoint47_certificate.json.gz",
+      "target": "scripts/data/p41_cm12_newS_endpoint47_certificate.json.gz",
+      "bytes": 5700,
+      "sha256": "cc48055e15df93542044018819b159cf702fc3d802968caeedafceaade4f50cf",
+      "status": "complete actual gS"
+    },
+    {
+      "source": "/tmp/p41_cm12_miller_prepared47_complete.json.gz",
+      "target": "scripts/data/p41_cm12_miller_prepared47_complete.json.gz",
+      "bytes": 106810,
+      "sha256": "55a37916b30c39915e177739e3978538f3da0c99770ba3cae481095a61ac65b6",
+      "status": "complete26 CM discs"
+    },
+    {
+      "source": "/tmp/p41_cm12_canonical_low_prepared47_complete.json.gz",
+      "target": "scripts/data/p41_cm12_canonical_low_prepared47_complete.json.gz",
+      "bytes": 31546,
+      "sha256": "a1e1bd130cfa8237c1878dad79aac7c3650626e457fa593d0dfd7b0e4e3eaf6a",
+      "status": "complete4 canonical discs"
+    },
+    {
+      "source": "/tmp/p41_cm12_canonical_high47_complete.json.gz",
+      "target": "scripts/data/p41_cm12_canonical_high47_complete.json.gz",
+      "bytes": 51415,
+      "sha256": "f1a6f09f4021f34057ccb65db743feb8f0a99cb18c40101f0b730e6da9202fd3",
+      "status": "complete high102 algebra"
+    },
+    {
+      "source": "/tmp/p41_cm12_f2_leading_norm47_certificate.json.gz",
+      "target": "scripts/data/p41_cm12_f2_leading_norm47_certificate.json.gz",
+      "bytes": 1762,
+      "sha256": "42694e558a8ee17bffc162ee9924e3f8ecbce682ad0b4e195999e9ee621335bd",
+      "status": "complete collision norm"
+    },
+    {
+      "source": "/tmp/p41_cm12_newS_norm_first47_certificate.json.gz",
+      "target": "scripts/data/p41_cm12_newS_norm_first47_certificate.json.gz",
+      "bytes": 28154,
+      "sha256": "79059532deda8dd1d46755b0c4cd76645782b1365fa98a2f381ff8fc90a22cff",
+      "status": "complete actual fCS on first family/all54 cubic jets"
+    },
+    {
+      "source": "/tmp/p41_cm12_translation_formal_height47_certificate.json.gz",
+      "target": "scripts/data/p41_cm12_translation_formal_height47_certificate.json.gz",
+      "bytes": 7252,
+      "sha256": "ca8117ed4607f30795fc7b3b5ec7626a01e4e0460dd7780838750318f44968f3",
+      "status": "complete specified formal fibre value"
+    },
+    {
+      "source": "/tmp/p41_translation_window47_precomputation.json.gz",
+      "target": "scripts/data/p41_translation_window47_precomputation.json.gz",
+      "bytes": 2125761,
+      "sha256": "7634c29ce0d34aa807bad3ec92bf5ac09ac5021e431122ccd047ac3fa4d0f4bd",
+      "status": "complete17 actual cached nodes for main-chain recovery"
+    },
+    {
+      "source": "/tmp/p41_translation_window47_17_fixed.json.gz",
+      "target": "scripts/data/p41_translation_window47_17_fixed.json.gz",
+      "bytes": 186211,
+      "sha256": "48cedbf1659cee24e219491dc55dbf53f2aa8d665dcbe46dc9319f65f2337dcf",
+      "status": "fixed prefix bound to norm certificate"
+    },
+    {
+      "source": "/tmp/p41_translation_window_norms47_17_fixed.json.gz",
+      "target": "scripts/data/p41_translation_window_norms47_17_fixed.json.gz",
+      "bytes": 7091,
+      "sha256": "6b0995064cdfc2cf7d01c63fc977b659777d25989af16488754f7ec686b5ec47",
+      "status": "complete norm/jet computation only for17prefix"
+    },
+    {
+      "source": "/tmp/p41_translation_window47_complete.json.gz",
+      "target": "scripts/data/p41_translation_window47_saved.json.gz",
+      "bytes": 1117830,
+      "sha256": "d8c81ce88340383955eb48965ef51b218fca39f65e39d663de4767b27e8fbdbf",
+      "status": "complete369; exponent exactly m; zero reduction dimension1; original282 input separately fixed"
+    },
+    {
+      "source": "/tmp/p41_cm7_slp47_295_fixed.json.gz",
+      "target": "scripts/data/p41_cm7_slp47_295_fixed.json.gz",
+      "bytes": 1502911,
+      "sha256": "924a49022c0ecb2b01cb9aafe705f67faa41e358affeb7bef56d7f7e748a8bf8",
+      "status": "fixed incomplete295bits440steps; historical recovery snapshot, superseded by complete saved"
+    },
+    {
+      "source": "/tmp/p41_miller_actual_endpoint47.py",
+      "target": "scripts/p41_miller_actual_endpoint47.py",
+      "bytes": 8787,
+      "sha256": "baef3c11c144263229291df1836a355278255caeeacacf3dee13f1462b1f3640",
+      "status": "actual source, tested in indicated completed task or continued chain"
+    },
+    {
+      "source": "/tmp/p41_cm_f2_leading_norm47.py",
+      "target": "scripts/p41_cm_f2_leading_norm47.py",
+      "bytes": 7651,
+      "sha256": "845a7876600c4dce557d59de7fd92c238f276c62703842635f70db9a0343689f",
+      "status": "actual source, tested in indicated completed task or continued chain"
+    },
+    {
+      "source": "/tmp/p41_cm_newS_norm_first47.py",
+      "target": "scripts/p41_cm_newS_norm_first47.py",
+      "bytes": 8379,
+      "sha256": "cb88996f776843d916674f838429af5cf7ce970479eb71b560853451d733b448",
+      "status": "actual source, tested in indicated completed task or continued chain"
+    },
+    {
+      "source": "/tmp/p41_cm_translation_formal_height47.py",
+      "target": "scripts/p41_cm_translation_formal_height47.py",
+      "bytes": 9729,
+      "sha256": "335eaa51e9cc17391d5ac50ff0f9eeddd171676c224461d09f94451f3de6ddaa",
+      "status": "actual source, tested in indicated completed task or continued chain"
+    },
+    {
+      "source": "/tmp/p41_translation_window_norms47.py",
+      "target": "scripts/p41_translation_window_norms47.py",
+      "bytes": 18470,
+      "sha256": "51f0fd51a658fc06e74838e7aae308638823f9fb9fcee657dfe9e3c37b98ec39",
+      "status": "actual source, tested in indicated completed task or continued chain"
+    },
+    {
+      "source": "/tmp/p41_cm12_slp47_finish.py",
+      "target": "scripts/p41_cm12_slp47_finish.py",
+      "bytes": 7824,
+      "sha256": "6f89e82088ab2c99732093ed72f1ea63c8ddfc953d31ee51eaa28e7e814dff40",
+      "status": "actual source, tested in indicated completed task or continued chain"
+    },
+    {
+      "source": "/tmp/p41_cm7_slp47_complete.json.gz",
+      "target": "scripts/data/p41_cm7_slp47_saved.json.gz",
+      "bytes": 1540051,
+      "sha256": "e0c0f13d9b3170d3956e0c9725d34ee300ffb22ce9542b7118e6f86539a0f024",
+      "status": "complete304bits454steps; supersedes295fixed"
+    },
+    {
+      "source": "/tmp/p41_cm7_newS_endpoint47_certificate.json.gz",
+      "target": "scripts/data/p41_cm7_newS_endpoint47_certificate.json.gz",
+      "bytes": 5694,
+      "sha256": "fd5232deac4c69e227bf67e2c63dcbf83b9ee6c34ea0f0593425e3701403ec5e",
+      "status": "complete actual CM7 gS"
+    }
+  ],
+  "existing_helpers_not_repeated": [
+    "scripts/p41_cm_miller_prepared47.py",
+    "scripts/p41_cm_canonical_high47.py",
+    "scripts/p41_poincare_formal47.py",
+    "scripts/p41_cm_endpoint_transport47.py",
+    "scripts/p41_weierstrass_unit47.py",
+    "scripts/p41_translation_window_slp47.py"
+  ]
+}

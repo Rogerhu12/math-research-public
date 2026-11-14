@@ -1,0 +1,22 @@
+{
+  "all_pass": true,
+  "original_polar_factor_identities": true,
+  "exact_conic_normal_form": true,
+  "exact_pole_value_identity": true,
+  "branches": [
+    {
+      "branch": "plus",
+      "chi": "-121333*s**2/1372 + 163241*s/1715 - 58229/1715",
+      "denominator": 6860,
+      "integer_resultant": "5930013732223926800",
+      "resultant_mod103": 66
+    },
+    {
+      "branch": "minus",
+      "chi": "1790821*s**2/8788 + 1550101*s/845 + 24961543/10985",
+      "denominator": 43940,
+      "integer_resultant": "12326789196383727288230800",
+      "resultant_mod103": 91
+    }
+  ]
+}

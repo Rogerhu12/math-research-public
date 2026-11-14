@@ -1,0 +1,29 @@
+{
+  "result": "R586",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "Reconstructed after loss of the old workspace and functions memory; no old-byte equality is claimed unless separately evidenced.",
+  "source_proof_sha256": "dff55f7488b38f9725d322ebd5ad3d0addfe4da879d0ecf30c27f1d3e235c4d1",
+  "root_review": "Root read the full marked six-torsion proof and exact certificate, checked period labels, tame reflection, both rational kernels, weighted completed-zeta trace and the low Cartier coefficient. Actual small six-dimensional Fraction reconstruction executed by QC; no old p41 torsion orbit replay. R574/R592 already published; no rank or actual M0 norm inferred here.",
+  "files": [
+    {
+      "file": "results/R586-actual-c0-marking-and-six-torsion-kernel.md",
+      "bytes": 10180,
+      "sha256": "dff55f7488b38f9725d322ebd5ad3d0addfe4da879d0ecf30c27f1d3e235c4d1"
+    },
+    {
+      "file": "scripts/verify_R586_six_torsion_kernels_reconstructed.py",
+      "bytes": 3729,
+      "sha256": "0d8414a04ff59999dd3c62cc0c2cbc13e744f12155d8802a219374226fcbe7ff"
+    },
+    {
+      "file": "scripts/R586_six_torsion_kernel_certificate.recovered.json",
+      "bytes": 1936,
+      "sha256": "6e997245d81fe78f13cb64c76cd669bf3439935bc235921830ace34169f17a2b"
+    },
+    {
+      "file": "notes/R586-recovery-source-manifest.json",
+      "bytes": 1939,
+      "sha256": "d5a19747705ba1956c0086e4f2872deea27b40a75933fb90f698018475c519e9"
+    }
+  ]
+}

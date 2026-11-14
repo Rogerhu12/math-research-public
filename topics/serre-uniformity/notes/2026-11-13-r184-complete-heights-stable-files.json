@@ -1,0 +1,74 @@
+{
+  "result": "R184 complete common-chain and two F2 addendum",
+  "status": "all listed arithmetic complete; remaining52 calibration rows and QC roots open",
+  "files": [
+    {
+      "source": "/tmp/2026-11-13-r184-complete-common-chain-and-two-f2-heights.md",
+      "target": "notes/2026-11-13-r184-complete-common-chain-and-two-f2-heights.md",
+      "bytes": 9253,
+      "sha256": "c575a3a923a9a648ae410318b141c75979941927a51cf297a2c6cdddcfc3eac6",
+      "status": "complete R184 proof addendum; both actual F2 heights"
+    },
+    {
+      "source": "/tmp/p41_translation_window_finish47.py",
+      "target": "scripts/p41_translation_window_finish47.py",
+      "bytes": 9601,
+      "sha256": "be057f0438c426e851f2d74ad02db3758be99637853c17d80fb0af2103e6ad24",
+      "status": "low-residency continuation with exact original DAG/RNG and explicit provenance"
+    },
+    {
+      "source": "/tmp/p41_translation_window47_282_fixed.json.gz",
+      "target": "scripts/data/p41_translation_window47_282_fixed.json.gz",
+      "bytes": 885479,
+      "sha256": "9bd3fd1add574a9d3041fedb6827b16e0f7dd74970ca6ab707a171e2df022992",
+      "status": "immutable exact input bound by continuation"
+    },
+    {
+      "source": "/tmp/p41_translation_window47_complete.json.gz",
+      "target": "scripts/data/p41_translation_window47_saved.json.gz",
+      "bytes": 1117830,
+      "sha256": "d8c81ce88340383955eb48965ef51b218fca39f65e39d663de4767b27e8fbdbf",
+      "status": "complete369 nodes, replace current saved"
+    },
+    {
+      "source": "/tmp/p41_common_original_endpoint47_certificate.json.gz",
+      "target": "scripts/data/p41_common_original_endpoint47_certificate.json.gz",
+      "bytes": 5639,
+      "sha256": "a4cca8d8964f4667d24f5abce5c03d34f19515127a3cd8e13ef3483ca20c7b77",
+      "status": "complete73-dimensional actual endpoint isomorphism"
+    },
+    {
+      "source": "/tmp/p41_translation_window_norms47_complete.json.gz",
+      "target": "scripts/data/p41_translation_window_norms47_complete.json.gz",
+      "bytes": 51199,
+      "sha256": "2e08ea16403d3554a2562256d9bacf5b3e7fe36518fa70cec3a95643e02268ff",
+      "status": "complete two actual fD norms and54cubic coefficients"
+    },
+    {
+      "source": "/tmp/p41_cm_f2_complete_height47.py",
+      "target": "scripts/p41_cm_f2_complete_height47.py",
+      "bytes": 7623,
+      "sha256": "e8e9729156497255be328585a35da1da52fae773117d5c69395398780aab8f71",
+      "status": "complete actual assembly with exact source/frame checks"
+    },
+    {
+      "source": "/tmp/p41_cm12_f2_complete_height47_certificate.json.gz",
+      "target": "scripts/data/p41_cm12_f2_complete_height47_certificate.json.gz",
+      "bytes": 1573,
+      "sha256": "a590b0c7ea0d1aa6cfcee0510573686b704c1e0b68ea8b10b28926852183aa65",
+      "status": "actual F2 QC-section height difference2015736"
+    },
+    {
+      "source": "/tmp/p41_cm7_f2_complete_height47_certificate.json.gz",
+      "target": "scripts/data/p41_cm7_f2_complete_height47_certificate.json.gz",
+      "bytes": 1568,
+      "sha256": "cc893e1afe639d54751807915e0f104b891713ed1691c6e15added1baf30000d",
+      "status": "actual F2 QC-section height difference4073772"
+    }
+  ],
+  "reused_published_helpers": [
+    "scripts/p41_translation_window_slp47.py",
+    "scripts/p41_miller_actual_endpoint47.py",
+    "scripts/p41_translation_window_norms47.py"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "result": "R231",
+  "complete_within_stated_scope": true,
+  "files": [
+    {
+      "file": "R231-all-ordinary-reference-points-and-complete-residue-atlas.md",
+      "bytes": 8476,
+      "sha256": "8a690c31801aa9d27b06a47fbe9bd76c6f40d527ba720f67df40c60af6bddcd2"
+    },
+    {
+      "file": "p41_ordinary_residue_points47.py",
+      "bytes": 9976,
+      "sha256": "9392d61e218a1fb17e0163f9e8bf8208fc8d56e140df2c6ff1202d52f172e2a3"
+    },
+    {
+      "file": "p41_ordinary_point_lifts47.py",
+      "bytes": 8470,
+      "sha256": "b07d98b9980457eeb12b2f9f80e374c08123b5ea72dd30042cc10e5967e4c6e1"
+    },
+    {
+      "file": "p41_ordinary_rational_atlas47.py",
+      "bytes": 4697,
+      "sha256": "e19c0b236a1ad0cd2c699e740c51d97123ad8d23a97094cd9f09eff3d8890f49"
+    },
+    {
+      "file": "p41_ordinary_reference_calibration47.py",
+      "bytes": 1804,
+      "sha256": "a1186efc07dc908ea153358e8f1854e54b6aa471b6ec9076d8b17fed4cf68b78"
+    },
+    {
+      "file": "p41_ordinary_residue_points47.json.gz",
+      "bytes": 39940,
+      "sha256": "836b4e4a1d4b3d22ba0b230397f670827dc167d4fc9380976dfe2b1698f18315"
+    },
+    {
+      "file": "p41_ordinary_point_lifts47.json.gz",
+      "bytes": 289716,
+      "sha256": "20db88a1556b30a908758792770c699267f81e80477f448b5715f928df54cf07"
+    },
+    {
+      "file": "p41_ordinary_rational_atlas47.json.gz",
+      "bytes": 365689,
+      "sha256": "f4690eaa185a2122caad0dd63f939bf7554ca9cd4ef34a721be1d254b519d56a"
+    },
+    {
+      "file": "p41_ordinary_reference_calibration47.json",
+      "bytes": 2727,
+      "sha256": "dba2e15cbb052b8049d906798d95053cf3a8500efb62180492cd8a23d787fe86"
+    }
+  ],
+  "actual_results": {
+    "ordinary_F47_points": 19,
+    "ordinary_Q47_centers_mod47four": 19,
+    "all_ordinary_cubic_projective_jets": true,
+    "combined_with_R228_rational_disks": 129,
+    "quadratic_multiplication_identities": 51319,
+    "independent_R102_reference_values": 73,
+    "correct_half_field_trace_factor": "20/k"
+  },
+  "remaining": "all missing large Abel constants, true local QC height functions, common roots and the all-p main goal",
+  "commands": [
+    "python p41_ordinary_residue_points47.py --script-dir TOPIC/scripts --output p41_ordinary_residue_points47.json.gz",
+    "python p41_ordinary_point_lifts47.py --script-dir TOPIC/scripts --residue-input p41_ordinary_residue_points47.json.gz --output p41_ordinary_point_lifts47.json.gz",
+    "OPENBLAS_NUM_THREADS=1 python p41_ordinary_rational_atlas47.py --script-dir TOPIC/scripts --lifts p41_ordinary_point_lifts47.json.gz --output p41_ordinary_rational_atlas47.json.gz",
+    "python p41_ordinary_reference_calibration47.py --script-dir TOPIC/scripts --output p41_ordinary_reference_calibration47.json"
+  ]
+}

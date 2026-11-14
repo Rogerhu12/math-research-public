@@ -1,0 +1,33 @@
+{
+  "result": "R614",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "New visible-ray theorem and newly executed exact certificate; no lost-byte identity claim.",
+  "source_proof_sha256": "208fa15626a3f294b257e27ef315b0692d4cc5331ff8730181133faf729cb8fe",
+  "root_review": "Root read the complete proof, full exact certificate program and executed rational/Lucas output. Independently checked the precise same-character averages, visible-primary decomposition, nonzero trace length argument, index-p lattice count with visible zero row, both Stieltjes error integrals and every sufficient-condition constant. The Lucas order proof uses all prime divisors of p+1 and proves primality rather than probable primality. No original candidate or local unit is inferred. No computation was repeated for packaging.",
+  "files": [
+    {
+      "file": "results/R614-actual-primitive-visible-ray-radical-bound.md",
+      "bytes": 17905,
+      "sha256": "92e091c95b9aa9d591c055b84183a3c7fcbc6adcbfcdd6d86e6613099fbb3443"
+    },
+    {
+      "file": "scripts/R614_radical_mean_certificate.py",
+      "bytes": 5584,
+      "sha256": "1c959522d2d7b79b67a954ad1bf5501b7a27f84f226c2e7cdd12f2ad096dfc1d"
+    },
+    {
+      "file": "notes/R614-radical-mean-certificate.json",
+      "bytes": 2462,
+      "sha256": "baf00e86acd5ef5024407644dbb6f2b027979e9fda807a87f1dbae39090afba6"
+    },
+    {
+      "file": "notes/R614-agent-visible-ray-manifest.json",
+      "bytes": 3752,
+      "sha256": "9d2a7b800ab2f8b0369ecb6706eb044fa5aec0d4408f63b80f77df030f820860"
+    }
+  ],
+  "all_p_primitive_error_bounds_proved": true,
+  "universal_nonvanishing_proved": false,
+  "large_prime_certificate": "141670994486089356410879",
+  "mathematics_repeated_for_packaging": false
+}

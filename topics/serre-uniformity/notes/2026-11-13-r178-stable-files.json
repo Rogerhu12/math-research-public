@@ -1,0 +1,76 @@
+{
+  "result": "R178",
+  "status": "complete actual common3Db short point/SLP and initial transport norms; 304-bit common chain and full heights remain",
+  "files": [
+    {
+      "source": "/tmp/R178-actual-common-translation-divisor-and-initial-transport.md",
+      "target": "results/R178-actual-common-translation-divisor-and-initial-transport.md",
+      "bytes": 18078,
+      "sha256": "f19d1454ef3eab31f2e48a0ce01730b7e9ca2453b9bf1a7c28f3ad8dba95134a",
+      "status": "complete proof,24-step actual point, and two initial transport norms; final full height not claimed"
+    },
+    {
+      "source": "/tmp/p41_translation_points47.py",
+      "target": "scripts/p41_translation_points47.py",
+      "bytes": 8925,
+      "sha256": "4022f46b0885415d2c21222f27f0fc6495948b48e3a92b484c24b7dfb7e99bc9",
+      "status": "completed and exact"
+    },
+    {
+      "source": "/tmp/p41_translation_points47_checkpoint.json.gz",
+      "target": "scripts/data/p41_translation_points47_checkpoint.json.gz",
+      "bytes": 231003,
+      "sha256": "55279f5bd497c34abc1047b105cdf4c480ff3bf062ad42d7488b485a90422002",
+      "status": "complete actual B8 and Ub point certificate"
+    },
+    {
+      "source": "/tmp/p41_translation_build47.py",
+      "target": "scripts/p41_translation_build47.py",
+      "bytes": 13786,
+      "sha256": "d61260cd44a0e038563ff78938dbbb0c5375097cc76bbb521c95075c72e60294",
+      "status": "original frozen arithmetic driver"
+    },
+    {
+      "source": "/tmp/p41_translation_build47_finish.py",
+      "target": "scripts/p41_translation_build47_finish.py",
+      "bytes": 14696,
+      "sha256": "2dc78692f263b353cf626976b73e112d52299771f6bbd7a7804dc3e296c44ff3",
+      "status": "complete exact low-memory recovery through24"
+    },
+    {
+      "source": "/tmp/p41_translation_build47_complete.json.gz",
+      "target": "scripts/data/p41_translation_build47_complete.json.gz",
+      "bytes": 775018,
+      "sha256": "80126f2679fe969fbe1c83dd6ecbc0ff4490871310b5d4304945232308b95f33",
+      "status": "complete24-step SLP and true3Db point"
+    },
+    {
+      "source": "/tmp/p41_translation_initial_norms47.py",
+      "target": "scripts/p41_translation_initial_norms47.py",
+      "bytes": 9602,
+      "sha256": "11c193f412699156246da436ce89566dce7c0120362cc487066cbafb4dec937e",
+      "status": "complete, uses only published compact/data inputs"
+    },
+    {
+      "source": "/tmp/p41_translation_initial_norms47_final.json.gz",
+      "target": "scripts/data/p41_translation_initial_norms47_checkpoint.json.gz",
+      "bytes": 3046,
+      "sha256": "ebd03003cf89a92bc58585a1458bd0a260c50e269bec594ea8fe1a89aacec315",
+      "status": "complete two initial hD norms, all24 steps checked"
+    },
+    {
+      "source": "/tmp/p41_translation_slp47.py",
+      "target": "scripts/p41_translation_slp47.py",
+      "bytes": 9021,
+      "sha256": "a08c4849c1ce8e69678513cfa2ab2639d5a7cfc046be369f521a00245f9887fa",
+      "status": "syntax checked full common-chain driver; not yet run, no completed chain claimed"
+    },
+    {
+      "source": "/tmp/p41_cm7_slp47_finish.py",
+      "target": "scripts/p41_cm7_slp47_finish.py",
+      "bytes": 9380,
+      "sha256": "0e9b640f58efe798c3001c1e30e90498e11f05c85f40ac0bd496fc48e199ad6f",
+      "status": "actual recovery from120/180 running; source and arithmetic frozen"
+    }
+  ]
+}

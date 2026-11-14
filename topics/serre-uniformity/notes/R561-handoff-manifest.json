@@ -1,0 +1,59 @@
+{
+  "result": "R561",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "Reconstructed after loss of the old workspace and functions memory; no old-byte equality is claimed unless separately evidenced.",
+  "source_proof_sha256": "bcebc228dc1c9f65039dd5f9e4c1c49c80057ab297335d72423ee72e716e655c",
+  "root_review": "Root read the complete 21KB restored proof, checked its actual R210 ordinary class-group input, the original R311/R322 norm and Galois labeling, both direct-root/power-log conversions, the complete outside-support divisor and reciprocity argument, and the new scalar and independent normalization certificates. The large arithmetic was necessarily reconstructed once after loss, with all 44 exact norms and the high projection independently obtained. The claim is L=31-22iC with C rigorously defined, not an evaluated C or L. The data gzip was compared byte-for-byte after decompression; no mathematics was rerun for packaging.",
+  "files": [
+    {
+      "file": "results/R561-restored-scalar-norm-cocycle-and-ordinary-artin-class.md",
+      "bytes": 21223,
+      "sha256": "4770cb4b296dd0b6e901205dfce7c7d690b75a83506d14aedaa3d3f7dab3981d"
+    },
+    {
+      "file": "scripts/verify_r561_scalar_robert.py",
+      "bytes": 15260,
+      "sha256": "6c0b26f3917232a65782c519473e1eed0752cc4fddf97bc323c17751054d3fa6"
+    },
+    {
+      "file": "notes/r380_scalar_recovery_certificate.json.gz",
+      "bytes": 530118,
+      "sha256": "966f51539c1e343d23ddfa2811ce8d458deee2081ff43c024679e8a4ccc0441b"
+    },
+    {
+      "file": "scripts/verify_r561_normalization.py",
+      "bytes": 4643,
+      "sha256": "bce81630d66c7c7bab4ec2a0b14a1e1bf815df63d6ad0c186aab14a6f2a92b0c"
+    },
+    {
+      "file": "notes/r561_normalization_certificate.json",
+      "bytes": 7229,
+      "sha256": "fc7c87111d0824670dd694155087770257908887c09486d2394b36d0b06aa395"
+    },
+    {
+      "file": "notes/r561_portability_patch_audit.json",
+      "bytes": 614,
+      "sha256": "4126f102cc2917c17db68836a3695b9544d212649085758b1788e4e557f72c24"
+    },
+    {
+      "file": "scripts/rebuild_r380_scalar_robert.py",
+      "bytes": 14807,
+      "sha256": "46d87c4a352d6242740fdff68ef622242e8e4297445da9690c11d48d39b724d0"
+    },
+    {
+      "file": "notes/R561-agent-recovery-manifest.json",
+      "bytes": 4454,
+      "sha256": "eb15deb61f3ec0ba61dc0178fe3435274800a3aa62bbf96fe64df01638615682"
+    }
+  ],
+  "decompressed_scalar_data_bytes": 1177555,
+  "decompressed_scalar_data_sha256": "a6fd98bd55145e3ce91f4f79d2b9790d65cd740ece7229f07b288272c9783890",
+  "all_44_norm_ratios": 1,
+  "high_projection_logs": [
+    9,
+    0
+  ],
+  "actual_C_computed": false,
+  "actual_L_computed": false,
+  "lost_34_bridge_used": false
+}

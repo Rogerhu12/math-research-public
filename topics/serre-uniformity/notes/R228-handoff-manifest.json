@@ -1,0 +1,48 @@
+{
+  "result": "R228",
+  "complete_within_stated_scope": true,
+  "files": [
+    {
+      "file": "R228-global-QC-polynomials-and-rational-SS-disks.md",
+      "bytes": 9140,
+      "sha256": "c8e53064b9f1bc854490be2406314c8a1f3fe2b9eddefeee7be715f49f40e361"
+    },
+    {
+      "file": "p41_global_qc_polynomials47.py",
+      "bytes": 11447,
+      "sha256": "6f73b2ca452bbeb438425fdf57d36550822d40b4ab3addf166dc0f6405f65128"
+    },
+    {
+      "file": "p41_global_qc_polynomials47_complete.json.gz",
+      "bytes": 119790,
+      "sha256": "4ea4c9d706b3b8e6f671af4b020db6ff6e47b1c871c45654ca31e5e81d4e6e79"
+    },
+    {
+      "file": "p41_rational_residue_atlas47.py",
+      "bytes": 8400,
+      "sha256": "378a38c64ea8f1f8adf4dafc27eaae1a754cf1fec7e9f27fb546bad1d86d3ecd"
+    },
+    {
+      "file": "p41_rational_SS_residue_atlas47_complete.json.gz",
+      "bytes": 2077773,
+      "sha256": "f2f4f96ba74676d6b02989a540b434f6b29c2e8a8b4c5d3f7837291851eff0f3"
+    }
+  ],
+  "commands": [
+    "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python p41_global_qc_polynomials47.py --script-dir TOPIC/scripts --heights p41_all_global_heights_and_coefficients47.json.gz --output p41_global_qc_polynomials47_complete.json.gz",
+    "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python p41_rational_residue_atlas47.py --script-dir TOPIC/scripts --output p41_rational_SS_residue_atlas47_complete.json.gz"
+  ],
+  "executed_results": {
+    "global_QC_polynomials": 53,
+    "R133_matrix_equations": 54,
+    "R144_matrix_equations": 54,
+    "independent_R184_height_matches": [
+      2015736,
+      4073772
+    ],
+    "rational_SS_coarse_disks": 110,
+    "geometric_SS_coarse_points": 3154,
+    "rational_centers_and_integral_projective_jets": true
+  },
+  "remaining": "19 ordinary point coordinates, actual local QC section functions on all129 disks, their common roots, and uniformity main target are not declared complete"
+}

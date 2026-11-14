@@ -1,0 +1,49 @@
+{
+  "all_pass": true,
+  "uniform": {
+    "exact_constant_rank": 6,
+    "exact_projector_rank": 4,
+    "exact_augmented_determinant_factor": "-48/1835913475",
+    "exact_augmented_determinant_identity": true,
+    "chosen_mean_cubic_zero": true,
+    "chosen_three_by_three_head_minor_nonzero": true,
+    "chosen_mean_hankel_determinant_nonzero": true,
+    "chosen_point_satisfies_all_four_head_equations": true,
+    "smooth_mean_cubic_quartic_matrix_rank_mod103": 15
+  },
+  "local": {
+    "parameter_cubic_irreducible_mod103": true,
+    "fourteen_block_determinant_mod103cubed": [
+      58,
+      89,
+      73
+    ],
+    "fourteen_block_norm_mod103": 97,
+    "reduced_normal_cubic_mod103cubed": [
+      6,
+      102,
+      18
+    ],
+    "reduced_normal_cubic_norm_mod103": 68,
+    "q_indices_zero_based": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "beta": "y3 - 5*y2 + 32/5*y1 - 8/5*y0",
+    "fourteen_eliminated_gradient_jets_verified": true,
+    "scope": "Only nonzero exact local quantities are inferred from this reduction; no exact Hessian rank is claimed."
+  },
+  "scope": "The exact uniform identity constructs an irreducible two-dimensional critical graph. The two nonzero local quantities support the ordinary local-algebra proof J^3 subset I subset J and radical(I)=J near the three specified algebraic points. No global Jacobian power certificate or new actual operator inverse is claimed."
+}

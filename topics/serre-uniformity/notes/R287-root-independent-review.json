@@ -1,0 +1,23 @@
+{
+  "result": "R287",
+  "proof_sha256": "3f561cb8b6fccba866193f9d5714ca41177d82d90f8816f0c779fc1f21f23934",
+  "review_kind": "Independent complete proof reading and direct primary-source verification",
+  "primary_source": {
+    "url": "https://www.numdam.org/article/BSMF_1974__102__241_0.pdf",
+    "location": "printed268,Theorem3.3.3 andCorollaire3.3.6(1)"
+  },
+  "checks": [
+    "Actual common Galois3-torsion field has tame cyclic inertia of order lcm(e1,e2)at most12",
+    "Strict absolute e<p-1 holds for p>13",
+    "Both given finite flat p-kernels exist and the specified generic isomorphism and its inverse uniquely extend",
+    "Uniqueness preserves semilinear descent; inertia acts linearly on the geometric special fiber",
+    "Lie(E[p])=Lie(E)in characteristicp, so the same one-dimensional inertia character is recovered",
+    "Minimal short models have discriminant valuation between0and11; common-uniformizer scaling yields equality, not just a congruence",
+    "The finite auxiliary characteristic-zero inertia traces are determined by the tame orders",
+    "For actual d,delta=2m rules out the reversed cubic Kummer class",
+    "The p contribution in both conductors is p squared; exact exponent is517/507",
+    "The new support exclusion andc9 finite bound do not yield an upper bound on variablec"
+  ],
+  "external_theorem_reproved": false,
+  "main_goal_complete": false
+}

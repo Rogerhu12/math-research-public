@@ -1,0 +1,24 @@
+{
+  "result": "R605",
+  "input_R595_data_sha256": "63ddd30a930111684ec8595b8bb0f2d0bcb0b147543d0270b8d5f96972eb2501",
+  "relation": "y^2=x^3-1; Dx=2y; Dy=3x^2; DE=-x",
+  "R": "x^2*(x^6+34*x^3-8)/Delta",
+  "W": "y*x^4*(x^3+8)/Delta",
+  "V": "(635*x^6-136*x^3+176)/(12*Delta)",
+  "identity": "H2/C0=D^2(E^2*R/4+E*W/2+V)",
+  "complete_integer_remainders": {
+    "E^2": [
+      0
+    ],
+    "E*y": [
+      0
+    ],
+    "constant": [
+      0
+    ]
+  },
+  "R595_595_10_last_factor_is_Delta_not_Delta_prime": true,
+  "arithmetic": "Python integers only; exact full polynomial cross multiplication",
+  "new_identity_actually_executed": true,
+  "old_torsion_orbits_repeated": false
+}

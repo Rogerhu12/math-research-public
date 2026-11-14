@@ -1,0 +1,77 @@
+{
+  "result": "R605",
+  "scope": "Exact actual c1 middle block K1=-B^2*r2/4; complete rational identity and single new p41 coefficient test; no universal nonvanishing claim",
+  "files": [
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R605-middle-CM-block-as-one-characteristic-p-coefficient.md",
+      "basename": "R605-middle-CM-block-as-one-characteristic-p-coefficient.md",
+      "bytes": 11206,
+      "sha256": "1039cca476c74144b74f0948f8a85c169293bd51014baf6412f36078a133e69b"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/verify_R605_total_second_derivative.py",
+      "basename": "verify_R605_total_second_derivative.py",
+      "bytes": 2705,
+      "sha256": "c6d5aefb3fe60eb3f8a1551d7d61c7d29edf9b29cc3fc3a641c78c463954dac9"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R605_total_second_derivative_certificate.json",
+      "basename": "R605_total_second_derivative_certificate.json",
+      "bytes": 675,
+      "sha256": "a8bbcf12477ea9eee3438db5f12ee06f4b4adcd62b66a4e08a4fedc6645fa226"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R605_r2_coefficient.py",
+      "basename": "R605_r2_coefficient.py",
+      "bytes": 2785,
+      "sha256": "806f10c6a3e57784b666403f0514cdde80705e4aa24f1837466884489525a801"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R605_r2_prime41.json",
+      "basename": "R605_r2_prime41.json",
+      "bytes": 1255,
+      "sha256": "8a9344e387fa490e2a4463f15dbfc5fd8b5954cb88934e8793b1feee9a315bb7"
+    }
+  ],
+  "prior_inputs": [
+    {
+      "basename": "R595-actual-c1-CM-coefficient-criterion.md",
+      "bytes": 15869,
+      "sha256": "5f5f7253010dc94b1050b4ceef189e811b973bcf2cc772f9309a24c73e0a67cc"
+    },
+    {
+      "basename": "R595_actual_c1_CM_coefficients.recovered.json",
+      "bytes": 4610,
+      "sha256": "63ddd30a930111684ec8595b8bb0f2d0bcb0b147543d0270b8d5f96972eb2501"
+    },
+    {
+      "basename": "R595-recovery-erratum-595-10.md",
+      "bytes": 1866,
+      "sha256": "85695dc5aaeb7633179cc91b5a1fbcf58ae5bf6bbe7fbb32e393a236f2ce157d"
+    },
+    {
+      "basename": "R601-c1-first-and-third-block-Cartier-cancellations.md",
+      "bytes": 12401,
+      "sha256": "2e45313ba11d3fd30efe6764eee79a46778013412d58d52b738fa7286d3322b4"
+    },
+    {
+      "basename": "R589-specified-type-three-coefficient-and-actual-CM-unit-criterion.recovered.md",
+      "bytes": 12969,
+      "sha256": "349098473308f9cc7645730fd164a31781ef0d620471aedb6b019be011d0d820"
+    },
+    {
+      "basename": "R588-actual-toric-norm-and-CM-normalization.recovered.md",
+      "bytes": 21249,
+      "sha256": "cc962812e88731a5db077f3d2d304c0e0908862fce37e41a70145569bae99dc2"
+    }
+  ],
+  "execution": {
+    "complete_integer_identity": "actually executed; all three full polynomial remainders zero",
+    "new_r2_p41": "actually executed; r2=24, predicted K1=12 matches historical K1",
+    "old_torsion_orbit_rerun": false,
+    "old_K1_computation_rerun": false,
+    "prime_grid_run": false
+  },
+  "normalization": "actual R595 chi6 c1 family and R588 average Cartan; not c0 R0 or fixed high-weight family",
+  "publication_note": "Correct R595(595.10) using its explicit recovery erratum; this proof uses the correct full identity."
+}

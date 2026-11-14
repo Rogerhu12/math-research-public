@@ -1,0 +1,134 @@
+# R335 — SS_j10_08 的实际主函数、规范 F2 高度与整盘判定
+
+## 1. 结论及精度
+
+在 $X_{ns}^{+}(41)$ 的真正 $\mathbf Q_{47}$ 圆盘 **SS_j10_08** 上，取原 R228 射影参数 $z$、$y=z/47$，以及 $Q=47^4=4879681$。本次从该中心重新执行完整 304 位群链、保留全部主函数，实际计算规范截面 $\sigma_{F_2}$，其中 $F_2=27T_2+4$。本方向留下 2 个简单候选；本条只完成真实 F2 高度与整盘函数，完整排除由后续同一坏分量的 F3 条件处理。
+
+按 $y$ 的升次序，三个完整整盘多项式模 $Q$ 为：
+
+| 对象 | 系数 |
+|---|---|
+| 规范局部高度 $\lambda_{\sigma_{F_2}}$ | `[3268991, 1040345, 810703, 4672035]` |
+| 真实全局项 $G_{F_2}$ | `[4040402, 1881316, 3462725, 2747996, 1142053]` |
+| $\rho_{F_2}=G_{F_2}-800\lambda_{\sigma_{F_2}}$ | `[4356618, 4030767, 3897898, 2955642, 1142053]` |
+| $\rho_{F_2}/47\bmod47$ | `[10, 33, 26, 0, 0]` |
+
+| 剩余根 | y mod 47³ | z mod 47⁴ | 导数 mod 47 |
+|---:|---:|---:|---:|
+| 23 | 84059 | 3950773 | 7 |
+| 39 | 48120 | 2261640 | 40 |
+
+这些根的导数均为单位，所以每一剩余根恰有一个完整 47-adic 根；表中给出已确定的前三位。更高阶未保存系数模 47⁴ 全零，不影响本精度。四个坏分量在 F2 方向均取目标零；筛选其他方向时仍须保持同一分量。
+
+本条是一个有限层真实圆盘的结论，不构成全部 129 盘或绝对 Serre 统一性的完成。所用一般连接与范数公式详见 [R329](R329-first-non-CM-SS-principal-height-and-F2-disk.md)；以下列出本盘实际执行的独立数据与验证。
+
+## 2. 真实 level 中心与几何 T2 支撑
+
+源点的参考纤维为 10，原行号（零基）为 573，Hecke 图顶点为 1397。物理模型 $(A,B)$ 在 $\mathbf Z/Q[i]$ 中为 `[[2105617, 0], [1928636, 0]]`，粗 $j=3449387$。源点全部 73 坐标逐项匹配原 SS atlas，且满足半线性 Frobenius；相同粗 $j$ 的其他项链点没有被当作同一点。
+
+真正的三条 2-isogeny 分支为：
+
+| 分支（零基） | 参考纤维 | 项链标签（一基） | 图顶点（零基） |
+|---:|---:|---:|---:|
+| 0 | 44 | 811 | 2474 |
+| 1 | 9 | 313 | 656 |
+| 2 | 10 | 709 | 1714 |
+
+全部 146 个射影剩余坐标与原 level Hecke 图一致，Frobenius 置换为 `[0, 1, 2]`，三目标均与源点分离。支撑由真实 isogeny 和原物理/椭圆粗图求得，后续微分迹使用正确的 $1/2$ 规范。共享支撑程序保留其最初 R329 组件标签；真正的源盘字段、完整坐标、文件名和本条 manifest 均指向 SS_j10_08，未改写已冻结输出。
+
+## 3. 全部主函数与实际 Norm
+
+固定 $C=P-b$，仍取已经验证的 $L=K_X+D$，其次数 126，$V_1,V_2,V_3$ 维数为 73、199、325。新 based point 的秩 125 colon、维数 74 候选空间和实际一点条件均执行；初始除子满足
+
+$$D_P=C+\operatorname{div}(f_b/f_0).$$
+
+实际整数乘数为
+
+$$m=21113421681728164076758160383370947105909472013138012462421148345826995695660466565589785072,\qquad m\equiv9\pmod{47}.$$
+
+本盘完整执行 454 次 AddFlip，达到 304 位终点，保存初始负点、454 个群运算和两个终点提取函数，共 457 个实际主函数。每一步保存完整截面系数、固定 $f_0^d$ 分母和准确整数标量。对三次 AddFlip，准确递推是
+
+$$\operatorname{div}(F/f_0^3)=D_P+D_Q+D_R,\qquad f_R=(F/f_0^3)/(f_Pf_Q).$$
+
+秩 145 终点运输与全部 $820\times73$ 主理想等式得到原 family1 的实际微小除子 $A_1(t)$，$t\in47R_2^{54}$。保留真实 $v_1/f_0$ 因子后，
+
+$$\Phi_C=f_{\rm final}^{-1}(v_1/f_0)(F_{\rm terminal}/G_{\rm terminal}),\qquad
+\operatorname{div}(\Phi_C)=mC-A_1(t).$$
+
+独立标准库程序重放所有 455 个整数主链关系；展平后的 $f_0$ 指数及总线束权准确等于零。全部 54 个 Abel 常数模 $47^3$ 与独立 SS 解相同，全部 54 个原第二类积分模 $47^3$ 与 R247 相同，并逐项验证 $m\int_C\nu=\int_{A_1(t)}\nu+d\log\operatorname{Norm}_{A_2(t)}\Phi_C$。
+
+第二除子实际为
+
+$$D_{F_2}(P)=27T_2(P)+81u-27Z_{-8}-54c_7+4P+4b+4K_{g_1},$$
+
+其次数为零。三目标上全部 $3\times455$ 个 Weierstrass 除法与完整初始/负点/最终/family1 理想均验证，所得 $T_2$ Norm 为 3636884，其对数为 958095。R282 同一精确生成器的 candidate18 典范代数（模 47 因子次数与重数 [[8, 1], [12, 1], [26, 1], [60, 1]]，完整商维数 106）避开全部 129 中心；全部 460 截面的真实代数 Norm 给出 4725631，对数 421966。24 个固定或碰撞点在真正 $j$ 切向的加权对数为 3954862。因而
+
+$$\log\Phi_C[D_{F_2}(P)]
+=27(958095)+4(421966)+3954862
+=2233205\pmod Q.$$
+
+独立审计分别重算前向除子 DAG、准确整数幂乘积、全部 460 个完整典范 Norm 因子的组合和固定部分的加权和。碰撞处保留 $z^{\pm m}$ 与切向单位，未把同盘非单位当作单位取对数。
+
+所选典范代数另已验证避开全部 820 个评价点，完整二/三次商及次数 106 的伴随矩阵行列式均有独立证书。若原候选在某个中间截面上出现非单位，本条保留原长链并改用上述典范除子；没有移除单位断言。所有 460 个截面在本条所选除子上重新通过单位检验。典范除子的变更按 R282 的 Weil 互反恒等式与规范纤维一同处理；本条的 Norm、切向和中心积分始终使用同一个实际典范截面。
+
+## 4. 规范纤维与中心高度
+
+由同一原 $\nu$ 类、有限极留数和完整尖点域条件实际解出相容第三类连接；非逐点有理支撑只在完整 Frobenius 稳定集合上使用已求实部总和。所有校准和微小积分点上的分母单位性均实算。对同一 family1 参数求得
+
+$$\int_{A_1(t)}\eta_{D_{F_2}(P)}=1485341.$$
+
+Norm 和连接引擎独立给出相同切向 $(a_b,a_P)=[433965, 3278862]$。规范纤维为 $\sigma=(a_b/a_P)^4=3578268$，$\log\sigma=3965719$，因此
+
+$$\lambda_{\sigma_{F_2}}(P)=3965719+m^{-1}(1485341+2233205)=3268991\pmod Q.$$
+
+另外直接换到原 $z$ 切向：若 $\alpha=dz/dj$，Norm 对数减少 $4m\log\alpha$，纤维对数增加 $4\log\alpha$，总高度严格不变。全 54 参数、每一 tiny 的系数、全部连接和规范纤维均保存于输出。
+
+## 5. 原图上的整个解析盘
+
+移动两极点连接使用 $g_C(z)=g_C(0)+\int_0^z\nu$；colon 秩 124，在 820 个忠实行核验，三阶系统实际验证 5328 条等式。真实 $T_2$ 迹对 819 个公共源点的三阶系数全部成立，各分支可用点数为 `[820, 820, 819]`，且在维数 451 的实际 $V_4$ 中重建。
+
+使用相容对称连接的完整导数式
+
+$$d\lambda_{\sigma_{F_2}}=54T_2\eta_C(P)+8\operatorname{reg}_j\eta_C(P)\,dj
++162\eta_{u-b}-27\eta_{Z_{-8}-20b}-54\eta_{c_7-b}
++\frac{64}{3}\eta_{D-20b}-2\eta_B+\frac83\frac{dj}{j}+2\frac{dj}{j-1728}.$$
+
+同图正规项 $8r_z-4j''/j'$ 完整保留。移动 RR 逆矩阵和代数分母为整，唯一非整输入来自原正规 $\nu$ 的一次原函数；故 $z^n$ 高度系数赋值至少为 $-\lfloor\log_{47}n\rfloor-v_{47}(n)$。对全部 $n\ge4$，
+
+$$n-\lfloor\log_{47}n\rfloor-v_{47}(n)\ge4.$$
+
+所以本条高度的 $y^3$ 截断在整个 $\mathbf Z_{47}$ 上模 $Q$ 成立。全局项由同盘实际 54 个 Abel 中心、同图 tiny 和原二次/线性形式装配；其线性与二次系数的 47 整除性保证弃去项也为零。独立审计重算 $G-800\lambda$、全部 47 剩余值及所有简单根的两次 Hensel 提升，得到第 1 节的判定。
+
+### 固定连接的辅助分母
+
+本盘的新固定连接分式与原中心数据逐项绑定。对每个需要替换的分母，用真实有限极点的条件选择 Frobenius 固定的新分母，并验证其在源点为单位；由旧好点插值新分子，再以全部 820 个不同剩余点的交乘恒等式证明两分式相同。独立审计用 Python 整数复数对重算这些交乘、极点条件、单位子式与 Frobenius。这是整的辅助重表示，没有除以 47 或非单位，也未改中心高度、几何支撑或尾界。V2/W 的交乘属于次数 378 的 3L；若需替换 η_B 的 V3/V2 分式，交乘属于次数 630 的 5L，其 20 个真实 CM 极点及源处 fc 单位另行核验。一般证明见 R336 与 R335 的固定分式补充。实际记录为：
+
+- `{"connection":"eta_B","replacement":true,"all820_exact_integer_degree5L_cross_products_checked":true,"evaluation_cross_values_sha256":"014e1a7c352788fc9930546760ecb006270a14ebb3fad636df374298c68a697e","old_unit_rows":820,"actual20_CM4_plus_source_rank_mod47":21,"unit_minor_columns_0based":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],"source_fc_value_mod47four":[1,0],"new_denominator_at_source_mod47four":[3225252,0],"all20_CM4_new_denominator_values_zero_mod47four":true,"Frobenius_sections_exact":true,"faithful_degree_bound":630,"eta_certificate_sha256":"9fc33dea6a134961a1a5e4dc1677c57dec65d9aca265d8e46b4470ecff18261f","atlas_sha256":"f2f4f96ba74676d6b02989a540b434f6b29c2e8a8b4c5d3f7837291851eff0f3"}`
+
+## 6. 独立验证范围与恢复
+
+独立算术审计从保存的截面和整数指数重算除子 DAG、Weierstrass 除法、Norm 组合、108 个独立积分匹配、tiny、切向换元、规范纤维和根。RR、41 挠点和长群链由原精确引擎实际执行；独审未声称再次运行这些部分。原 R329 主函数、Norm 和根的审计算术保持不变；新增分式审计只复用已发布忠实截面模型，全部交乘通过独立 Python 整数求值核验。它不声称重跑 RR 或长链。
+
+归档含恰好 459 个文件，大小 1795785 字节；已解包逐文件比对原始字节。主要 SHA-256 为：
+
+| 文件 | SHA-256 |
+|---|---|
+| `SS_j10_08_actual_canonical_F2_height47.json.gz` | `fa48e921c665367eca046a3ba64d7726b5c97d30f1af350b21c60c9774367930` |
+| `SS_j10_08_actual_canonical_F2_polynomial_all_unit_fractions47.json.gz` | `3f366b8817c8e69b72a4703836eb180bba6be30388c751265996f6025641752a` |
+| `SS_j10_08-principal-F2-all-unit-fractions-independent-audit.json` | `ae224fc4ec261b6f6017a8c7099a977ad4ddd9ab9519e33e8b83cdb4cb025d27` |
+| `p41_SS_j10_08_principal_transports47.tar.gz` | `9746b14343c68584c9a8174210b1374bfcf6498e76e52f2229a28de406ed17eb` |
+
+逐文件大小、SHA 和既有依赖见 `R335-handoff-manifest.json`。恢复命令：
+
+```bash
+OPENBLAS_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 \
+python topics/serre-uniformity/scripts/p41_rebuild_SS_F2_with_canonical47.py \
+  --script-dir topics/serre-uniformity/scripts \
+  --disk-id SS_j10_08 --result-id R335 \
+  --canonical topics/serre-uniformity/scripts/data/p41_canonical_SS_robust47_raw.json.gz \
+  --canonical-certificate topics/serre-uniformity/scripts/data/p41_canonical_SS_robust47_certificate.json.gz \
+  --polynomial-engine p41_selected_SS_F2_local_polynomial_all_unit_fractions47.py --audit-engine verify_selected_SS_F2_all_unit_fractions47.py \
+  --work-dir /absolute/path/to/new-R335-rebuild
+```
+
+默认复用真实群链并重算终点、主函数表达式、真实 T2 支撑、所有 Norm、连接、整盘和独审；`--rebuild-chain` 再执行 304 位链。各核心阶段和独审本次均已实际运行；便携入口仅做语法及路径检查，没有冒称第二次长链执行。

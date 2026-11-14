@@ -1,0 +1,165 @@
+{
+  "disk_id": "ORD_j19",
+  "input_sha256": {
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_generic_ordinary_F2_connection47.py": "c55a5722d08c759caa6dfaeda3cfeca467e01dfbe973507b44d4b34aef62a298",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_generic_ordinary_F2_local_polynomial47.py": "204d53270cf4fd82e1affd45f6dd40cf4d0e48641f45f6879bc1881c93400c0e",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_ordinary_F2_connection47.py": "4ef5e267a5d730e9bb0c102eba708ff8dca5221a8b339258cf89464170fa9917",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_ordinary_F2_local_polynomial47.py": "229bcedac9b0ded228bce0ccf69eda671cbca408a443736479a7385068e40988",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/ORD_j19_actual_canonical_F2_height47.json.gz": "a1426536b5f2f9fb5fb21ae4e6a5d81883fbee634659c4c6c36b83a740ca55da",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/ORD_j19_actual_canonical_F2_polynomial47.json.gz": "555157620f3c83f0aae2199202e8f2f06fce7069ce88df0f63b05746dcaf61a1",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/ORD_j19_actual_F2_first_variable_norm47.json.gz": "1c6f0b770ddc976d61941f331263892cd5b84135b6315d9544ea2f86e03dc50c",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-abel-with-transports/ORD_j19_Abel47.json.gz": "e8c6a02f980ec2751b07c71b400dd269a5cf626cd9392ac30108fd7d98b92356",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-abel-with-transports/ORD_j19_multiply47.json.gz": "27762a428950b66690f29d329604f25a7baa6ba73d69510e042c32979c73bfba",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-second-kind/ORD_j19_second_kind_complete47.json.gz": "b1301736137eca79003ef9a6d42087e0c702aa50e4258ff099a9dd100c21ae27",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-F2-norms/ORD_j19_actual_principal_function47.json.gz": "16c5d7a63f813a85b08b9a2cb02bb115524f708a7d99a312fbe2263de546f580",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-F2-norms/ORD_j19_actual_T2_support47.json.gz": "a98a2006b91999b613a302055d5f159d39ecd4016cd9f2b3982af01611d7e637",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-F2-norms/ORD_j19_actual_T2_principal_norm47.json.gz": "efd7c3bc83b8a36b5327e6ae1db62bb9d0899301efd5e8bfb1a7aece7b1751be",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_all19_based_points47.json.gz": "19f90754a0f83c163f8cbab8ba15fd2fb745bd819f8ea7bc3d4962d164c7e9a4"
+  },
+  "all19_nested_input_hash_edges_checked": [
+    [
+      "center",
+      "second"
+    ],
+    [
+      "center",
+      "principal"
+    ],
+    [
+      "center",
+      "T2_support"
+    ],
+    [
+      "center",
+      "full_norm"
+    ],
+    [
+      "polynomial",
+      "center"
+    ],
+    [
+      "polynomial",
+      "Abel"
+    ],
+    [
+      "polynomial",
+      "multiply"
+    ],
+    [
+      "Abel",
+      "multiply"
+    ],
+    [
+      "second",
+      "Abel"
+    ],
+    [
+      "second",
+      "multiply"
+    ],
+    [
+      "second",
+      "based"
+    ],
+    [
+      "principal",
+      "second"
+    ],
+    [
+      "T2_norm",
+      "principal"
+    ],
+    [
+      "T2_norm",
+      "T2_support"
+    ],
+    [
+      "full_norm",
+      "T2_norm"
+    ],
+    [
+      "full_norm",
+      "principal"
+    ],
+    [
+      "full_norm",
+      "second"
+    ],
+    [
+      "full_norm",
+      "multiply"
+    ],
+    [
+      "full_norm",
+      "based"
+    ]
+  ],
+  "based_point_and_terminal_point_hashes_match": true,
+  "fixed_norm_j_tangent_and_sigma_values_match_independently": true,
+  "actual_g1_over_dj_base_center": [
+    3413944,
+    4496064
+  ],
+  "canonical_sigma": 3773036,
+  "canonical_sigma_log": 1127436,
+  "signed_actual_scale": 21113421681728164076758160383370947105909472013138012462421148345826995695660466565589785072,
+  "second_divisor_tiny": 4629547,
+  "full_first_norm_log": 2295104,
+  "actual_center_height": 326979,
+  "local_polynomial": [
+    326979,
+    1645423,
+    3304664,
+    1245876
+  ],
+  "global_polynomial": [
+    3179315,
+    4445448,
+    2257363,
+    1526419,
+    4568212
+  ],
+  "QC_polynomial": [
+    219208,
+    741237,
+    3313265,
+    280543,
+    4568212
+  ],
+  "QC_div47_reduction": [
+    11,
+    26,
+    42,
+    0,
+    0
+  ],
+  "residual_roots": [
+    32,
+    39
+  ],
+  "residual_discriminant": 3,
+  "simple_single_F2_root_candidates_to_available_precision": [
+    {
+      "y_mod47cubed": 34718,
+      "z_mod47four": 1631746,
+      "y_base47_digits": [
+        32,
+        33,
+        15
+      ],
+      "derivative_mod47": 35
+    },
+    {
+      "y_mod47cubed": 20625,
+      "z_mod47four": 969375,
+      "y_base47_digits": [
+        39,
+        15,
+        9
+      ],
+      "derivative_mod47": 12
+    }
+  ],
+  "scope": "Independent exact scalar arithmetic and input identity checks, plus source-diff review recorded separately; no duplicate RR, T2 or group-chain reexecution.",
+  "source_sha256": "2ad9d16939b6f150ba8118afca5182671be03ba1a42f90deae40937dcb308a26"
+}

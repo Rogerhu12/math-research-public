@@ -1,0 +1,104 @@
+# R1–R100 结论索引
+
+完整保留原逐条摘要和证明链接。较新结论见 [主索引](results.md)。
+
+- [R1：模型分离与尾部障碍](results/R1-model-separation-and-tail-obstructions.md)（已证明，中间结论）：可分解模型的约化子空间、有限坐标支撑扰动保留尾部、有限因子标准表示中显式构造因子外不变投影。排除把 README 中两个 2026 年结果直接提升为完整 ISP 反例的路线。
+- [R2：预解式半空间的内部障碍](results/R2-resolvent-halfspace-obstruction.md)（已证明，中间结论）：可选几乎不变半空间 $E$，使其内部没有任何非零原算子不变线性子空间；任意小秩一扰动对应的尾部投影仍强趋零，固定保留一向量则有正缺陷下界。
+- [R3：循环核心与有界逼近障碍](results/R3-cyclic-density-and-bounded-approximation.md)（已证明，中间结论）：显式稠密循环核心不决定完备化；给误差放大下界，并自含重证严格循环及 Baire 障碍，经典归属 Embry。
+- [R4：紧拟仿射拉回失败的显式模型](results/R4-compact-quasiaffinity-pullback-obstruction.md)（已证明，中间结论）：矩映射 $X:L^2[0,1]\to\ell^2$ 为 Hilbert–Schmidt 拟仿射，$BX=XM_{t/2}$，但每个真闭后移不变子空间的拉回都为零。
+- [R5：有限阶预解式的单参数判据](results/R5-finite-order-rank-one-test.md)（已证明的条件性中间结论）：增长阶 $\rho<m$ 且前 $m-1$ 个矩消失时，一个拟幂零秩一扰动迫使全部矩为零；显式紧加权移位给出阶数恰为 $m$ 的尖锐边界。
+- [R6：一般观察模型的直接拉回障碍](results/R6-observation-model-no-pullback.md)（已证明，中间结论）：$\|T\|<1$、$T^*$ 有循环向量时，标准标量观察映射的像向量对后移循环当且仅当原循环子空间无限维；无特征值情形所有真闭模型子空间都拉回零，属于 Virot 型经典结构的自含推论。
+- [R7：弱投影支撑与不变图判据](results/R7-weak-projection-support-and-graph-criterion.md)（已证明的条件性中间结论）：弱极限正算子的支撑不变、固定双锚点充分、定量 Riccati 图判据；完整反例说明非标量弱极限或任意小秩一缺陷都不足够。
+- [R8：具体二生成元拟幂零族](results/R8-two-generator-quasinilpotent-model.md)（已证明，中间结论）：对原模型系数直接证明 $S+\lambda V$ 的高斯幂衰减、单射、稠密值域、非紧性及无支集型不变子空间；标量 $A$ 的不变子空间可提升到 $S,V$ 共同不变子空间。
+- [R9：径向 odometer 闭式与幂零近似](results/R9-radial-odometer-and-nilpotent-approximants.md)（已证明，中间结论）：归一化常数闭式、连续径向单零点权、精确幂零张量近似及 dyadic 幂公式；自然极限退化，且 $W^*(A)=B(H)$，但普通不变格仍未解决。
+- [R10：遍历支集投影的标量极限障碍](results/R10-ergodic-support-projection-obstruction.md)（已证明，中间结论）：任何正的遍历加权复合算子，其缺陷趋零的支集型投影都只有标量 WOT 聚点；不局限于某组特定二进截断。
+- [R11：每个非零有限柱函数都循环](results/R11-cyclic-cylinder-core-for-odometer.md)（已证明，中间结论）：对径向 odometer 及其每个尾算子，有限链插值误差抵消逆系数增长，先证明常函数循环，再用多项式 Krylov 行列式证明每个非零柱函数循环；没有推广到任意非零 $L^2$ 向量。
+- [R12：归一化幂与无紧交换子](results/R12-normalized-powers-and-compact-commutant.md)（已证明，中间结论）：归一化 dyadic 幂弱趋 $I/2$，却在每个非零向量上保持严格范数缺口；因此算子及其任意非零闭不变限制的交换子均不含非零紧算子，且每个限制的各阶幂都有稠密值域。
+- [R13：全部归一化幂的二进位聚点分类](results/R13-all-normalized-powers-and-binary-cluster-set.md)（已证明，中间结论）：精确幂范数与无进位乘法；所有非零 WOT 聚点为 $2^{-q}F_r$，任意非零固定向量的归一化幂像只有二进位数趋无穷时才强收敛，且极限为零。
+- [R14：全部指数的极小像非紧性](results/R14-backward-minimal-images-all-exponents.md)（已证明，中间结论）：对任意非零目标、任意非退化相对误差，最小范数预像的像在所有整数指数下均无强收敛子列；给统一正距离、变化目标/误差稳健性及 dyadic 精确弱极限。
+- [R15：秩一谱收缩与临界零型](results/R15-rank-one-spectral-collapse-and-zero-type.md)（已证明，中间结论）：无零圆盘给全部矩定量界；扩展 R5 到临界零型；快衰减模型上有界秩一扰动的谱半径趋零当且仅当各矩趋零，并给非零极限的充分条件与反例。
+- [R16：无限乘积非柱向量循环](results/R16-cyclic-infinite-product-vectors.md)（已证明，中间结论）：所有收敛归一化无限乘积及任意有限前缀修饰，都对每个尾算子及其伴随循环；明确给出柱逼近任意慢、以及只有平方可和条件的无限复相位例子。
+- [R17：有限维锚点修改的精确代价](results/R17-finite-dimensional-anchor-surgery.md)（已证明，中间结论）：近不变投影删去有限维空间后的 WOT 极限是 Schur 补，缺陷有精确极限；标量极限下代价与标量无关，单射弱极限下保持缺陷趋零要求已有对应不变性。
+- [R18：移动锚点与紧差刚性](results/R18-moving-anchors-and-compact-differences.md)（已证明，中间结论）：近不变投影极限满足归一化幂的二次夹乘公式；两个此类极限若相差紧算子便相等，排除一致有限秩逼近或 Schatten 控制的移动修改；相关近交换谱投影弱趋零。
+- [R19：极小向量端点与任意标量归一化](results/R19-minimal-vector-endpoints-and-renormalization.md)（已证明，中间结论）：任意误差序列的极小像经标量归一化后，非零强极限只能来自误差趋零，且是原目标的标量倍；该端点单位预像和残差均弱零；另一端点的自然 dyadic 配对不消失。
+- [R20：正交换半群与整个正交换子的紧支配障碍](results/R20-positive-commutant-semigroup-and-domination.md)（已证明，中间结论）：以归一化幂构造非零正强连续交换半群；每个交换子的高位反向角趋零，从而任意正交换子都不支配非零正紧算子。
+- [R21：长块 Cantor 指示函数循环](results/R21-cyclic-cantor-block-indicators.md)（已证明，中间结论）：增长长块各自禁止全零、删除概率可和的正测度支集，其指示函数对所有尾算子及伴随循环；支集无非空柱集，严格超出逐位乘积类。
+- [R22：一般复块乘积的循环性](results/R22-cyclic-general-block-products.md)（已证明，中间结论）：给首非零坐标的倍数间距和系数增长判据；特别覆盖所有收敛的单位模块相位乘积，允许真实块内关联，仍未处理任意向量。
+- [R23：强*单位多项式与非支集块投影](results/R23-strong-star-polynomials-and-tail-block-projections.md)（已证明，中间结论）：无常数项收缩多项式强*趋于恒等；实际不变投影满足全部固定有限位的尾协方差；构造通过这些必要条件但仍有进位缺陷的非支集投影。
+- [R24：复对称矩与精确有限阶匹配](results/R24-complex-symmetric-moments-and-escape.md)（已证明，中间结论）：交换子为复对称交换代数；平方矩匹配等价于一般矩消失；单一高位向量精确匹配越来越多阶，首个失败矩及范数逃逸均显式，两个非零弱极限不传递矩消失。
+- [R25：二进位矩阵单位的精确误差](results/R25-exact-binary-matrix-unit-error.md)（已证明，中间结论）：每个归一化幂与相应位提升乘积的范数距离，恰由指数最低连续一串1的末端权比给出，改进逐因子误差和并给实际不变投影的定量必要条件。
+- [R26：两个乘积之和与乘积类矩唯一性](results/R26-two-product-sums-and-moment-uniqueness.md)（已证明，中间结论）：超快相对局部比率下所有非零两乘积之和循环，含持续Schmidt秩二例子；R16类内全部平方矩相等只可能为整体正负号。
+- [R27：全部有限柱矩匹配及精确最小范数](results/R27-finite-prefix-moment-classification.md)（已证明，中间结论）：前2^m个平方矩与1相同的深度m柱函数恰有2^(2^m)个，由有限循环的谱符号分类；除正负1外的最小范数由最高位解唯一取得并趋于无穷，不能直接推广到近似矩匹配。
+- [R28：有理换因子与唯一临界参数](results/R28-rational-factor-replacement.md)（已证明，中间结论）：相对局部比率可和的R16向量有精确交换子实现；前缀首阶不同则所有组合循环，相同时至多一个临界值，明确归约到一个交换子的稠密值域。
+- [R29：全部归一化矩一致逼近仍不传递](results/R29-uniform-approximate-moments-and-spectral-collapse.md)（已证明，中间结论）：单位Walsh和与1正交且弱零，全部归一化平方矩却一致逼近1；由此产生非零双弱极限、统一小矩及所有有界参数上的秩一谱收缩，极限扰动仍非拟幂零。
+- [R30：纤维压缩及进位误差不能免费缩小](results/R30-fiber-compressions-and-carry-obstruction.md)（已证明，中间结论）：首末无限尾纤维满足精确压缩约束；一个具有本模型多项特殊性质的拟幂零companion仍有显式不变半空间，并真实饱和一阶理想项缺陷。
+- [R31：生成的C*代数与本质范数](results/R31-generated-uhf-algebra.md)（已证明，中间结论）：C*(I,A)恰为具体二进UHF代数，所有元素本质范数等于范数，与紧算子交零；给极快近交换但不可能精确交换的反对称酉算子。
+- [R32：圆作用、唯一系数与除法障碍](results/R32-gauge-action-and-formal-coefficients.md)（已证明，中间结论）：解析范数闭包有等距圆作用和唯一形式系数，Fejér和按范数收敛、无零因子、有限阶商为截断幂级数代数；明确首阶一元素仍不可在该代数内除以A。
+- [R33：整个第一Walsh chaos的精确矩唯一性](results/R33-first-walsh-chaos-moment-uniqueness.md)（已证明，中间结论）：常数加任意平方可和一级Walsh级数中，全部平方矩相同只剩整体正负号，故非零矩消失对不能两端都在此闭子空间；不声称该类每个非零向量都循环。
+- [R34：循环向量间的闭模映射](results/R34-closed-cyclic-module-maps.md)（已证明，中间结论）：单边保留循环向量并消去另一非零向量不可能；任意两个循环向量间的多项式模映射可闭、单射、稠密值域，线性组合循环空间等于其明确闭值域。
+- [R35：全空间中的范数不增矩唯一性](results/R35-minimum-norm-moment-uniqueness.md)（已证明，中间结论）：以任意C-实有限柱函数为目标，整个L²空间中范数不增的完全平方矩匹配只能为整体正负号；逐步证明高位影响导致超快一致逼近。
+- [R36：任意有界商与临界乘积的真实除法障碍](results/R36-bounded-division-and-critical-multipliers.md)（已证明，中间结论）：系数界扩展到整个B(H)的左右商；原多项式尾临界算子的值域不包含于Ran A，但是否稠密仍未知；在Σδ_j/a_j有限时完成临界向量循环性。
+- [R37：不可和有序尾的所有两乘积和循环](results/R37-ordered-product-sums-and-empty-spectrum.md)（已证明，中间结论）：平方可和但单边尾差不可和时，构造单射稠密的有界拟幂零反向交换子，证明所有线性组合循环；正向闭映射的定义域、强图极限和空谱均明确。
+- [R38：相对交换子及强极限超出C*代数](results/R38-relative-commutant-and-strong-multipliers.md)（已证明，中间结论）：UHF内部的全部A交换子恰为解析范数闭包；R37的明确强极限在整个UHF之外，因此完整交换子严格更大，仍未产生核或真闭值域。
+- [R39：交换半群的循环像、单射稠密与空谱生成元](results/R39-semigroup-factorization-and-empty-generator-spectrum.md)（已证明，中间结论）：用可逆范数因子与R16产品分解补齐R20半群性质；参数不可和时每个正时刻拟幂零，生成元的全部预解式有严格定义。
+- [R40：全部连续向量对的矩分离](results/R40-continuous-moment-convolution.md)（已证明，中间结论）：近整周期幂的放大矩极限是整数点值的显式卷积，排除任意两个非零连续函数的全部矩消失，不限制连续模速度，也不误称任意连续向量循环。
+- [R41：第一阶与有限秩二阶Walsh类的矩分离](results/R41-first-versus-finite-rank-second-chaos.md)（已证明，中间结论）：有限测试、有理残差及特征向量反证迫使假想配对的系数绝对可和，再由R40排除；允许任意有限秩和任意慢初始尾。
+- [R42：递归有限阶Walsh导数类的矩分离](results/R42-recursive-finite-walsh-derivatives.md)（已证明，中间结论）：从常数阶归纳，将R41扩展到精确定义的递归有限维导数类，覆盖独立线性级数的多仿射多项式；没有覆盖全部有限chaos。
+- [R43：原临界对数的全正系数及核迹缺口](results/R43-positive-critical-multiplier-and-trace-gap.md)（已证明，中间结论）：所有A幂系数严格正、格正序支配A；核不含连续或单相位正向量，若整数局部L²迹存在则全零，但零迹不迫使向量零。
+- [R44：实际Schur项不可有界除法与核正则性门槛](results/R44-critical-schur-division-and-kernel-regularity.md)（已证明，中间结论）：统一系数余项证明Z²不能被N1有界整除；kerD包含于Ran A足以结束候选但未证；各幂值域的交稠密且全零迹，整个空间的连续平滑交换子只能为零。
+- [R45：同一 Rademacher 级数的多项式矩分离](results/R45-polynomial-rademacher-moment-separation.md)（已证明，中间结论）：严格证明双变量系数内部项全非零，用高位有限微分公式排除同一级数的非零多项式零矩对；覆盖无限秩导数的平方。
+- [R46：两个任意标量级数的多项式矩分离](results/R46-two-scalar-polynomial-moment-separation.md)（已证明，中间结论）：按总次数归纳，两个固定测试排除二参数残差的全部小非零分支；任意两个平方可和标量级数的有限多项式（含有限前缀系数）之间不存在非零全矩消失对。
+- [R47：指数多项式矩分离与原临界核的排除类](results/R47-exponential-polynomial-moments-and-critical-kernel.md)（已证明，中间结论）：以指数多项式微分复杂度归纳，处理任意两个标量 Rademacher 级数；原临界核与全部该类（含非连续向量）仅交于零。
+- [R48：差异界、可测换权与双向增长的路线边界](results/R48-discrepancy-and-measurable-coboundary-obstructions.md)（已证明，中间结论及来源核查）：给 odometer 统一 O(log N/N) 差异界；任何有限非零可测乘法换权均不能使拟幂零权的对数可积，且每个非零全逆像向量都不满足双向 Beurling 控制。
+- [R49：临界值域与全部有限阶幂值域互不包含](results/R49-incomparable-critical-and-power-ranges.md)（已证明，中间结论）：对每个 m≥1，任意 B(H) 中均不存在 A^m=LB；用完整形式逆组合的主项和统一余项证明，结合 R36 得实际值域双向不包含，仍不决定闭包。
+- [R50：实际临界核不含任何非零有限 Walsh 阶向量](results/R50-no-finite-walsh-chaos-in-critical-kernel.md)（已证明，中间结论）：保留真实进位的范数误差，利用全尾升降阶交换关系及定量向下递推，排除全部有限 chaos，包括无限秩系数，无需整数迹存在。
+- [R51：核尾质量与闭不变子空间交织的平滑障碍](results/R51-kernel-tail-roughness-and-intertwiner-smoothing.md)（已证明，中间结论）：潜在核向量每个固定阶高位位置矩均发散；任何闭 A 不变空间上的非零有界交织都不能统一映入任意无穷增长的次数或固定阶位置权域。
+- [R52：全局高阶尾下界与阶乘权域排除](results/R52-global-chaos-factorial-kernel-exclusion.md)（已证明，中间结论）：核的全局高阶尾不得快于 exp(−(3/2)d log d−O(d))；排除阶乘指数 s>3/2 的全部权域，覆盖非连续且含任意高阶的向量。
+- [R53：原临界核的全等向性与偶奇 Walsh 图](results/R53-critical-kernel-isotropy-and-parity-graph.md)（已证明，中间结论）：实际尾乘法交换子归一化后强趋 −I，故核在复对称型下全等向、包含于 L 的闭值域；其偶/奇次数各占一半范数，形成两个闭子空间间酉图。
+- [R54：柱乘子局部化的真实交换子缺陷](results/R54-localized-commutator-defect.md)（已证明，中间结论）：柱乘子与尾交换子的额外项在核对上精确抵消目标配对，任意有界总变差的重选权均不能消去；若全部柱局部化真的成立，则遍历性会迫核为零。
+- [R55：局部有限 Walsh 阶的柱卷积矩分离](results/R55-locally-finite-chaos-column-separation.md)（已证明，中间结论）：逐位局部有限支撑、两个零柱均值极限乘积为零时，无非零全矩消失对；给出每个整数都无局部 L² 迹的明确二阶例，仍在新分离范围内。
+- [R56：有限乘积和与全部有限阶广义核分离](results/R56-critical-kernel-finite-products-and-generalized-kernels.md)（已证明，中间结论）：任意有限个不同 R16 收敛乘积及任意有限前缀的张成空间，与每个 kerD^r 仅交于零；用真实高位公式、有限矩恢复和有限维广义核阶梯，不限制尾速度或相对次序。
+- [R57：多变量指数多项式与全部广义核分离](results/R57-multivariate-exponential-generalized-kernel-separation.md)（已证明，中间结论）：任意有限多个复平方可和 Rademacher 级数的有限多变量指数多项式，不含非零有限阶广义核向量；有限矩阵取商消去任意慢的平移误差，允许评价映射有核。
+- [R58：假设核的平方零闭模映射及谱二择](results/R58-critical-kernel-square-zero-module-maps.md)（已证明，条件结构工具）：全等向核产生定义域上的平方零闭模映射，其谱为全平面或有界零谱，且沿核平移保持循环性；R60 随后排除了原候选的非零核前提。
+- [R59：局部有限形式单位分类与任意次数 L² 矩分离](results/R59-locally-finite-walsh-moment-separation.md)（已证明，中间结论）：同类形式单位只能涉及有限多个位；任意两个逐位局部有限 Walsh 支撑的 L² 向量无非零全矩消失对，删除有限次数、均值收敛及迹假设。
+- [R60：原临界乘子单射、稠密值域与临界向量循环](results/R60-critical-multiplier-injective-dense-and-cyclic.md)（已证明，中间结论）：自含加权多项式估计、严格负常数证书及保留实际进位的双尺度 Duhamel 控制，排除整个 L² 中的原临界核；全部正整数幂单射稠密，原临界向量循环。一般 ISP 仍未解决。
+- [R61：复幂次渐近尾与两乘积的全部线性组合循环](results/R61-complex-power-asymptotic-product-cyclicity.md)（已证明，中间结论）：有界复底参数之差为 c(j+2)^−p(1+o(1))、c≠0、1<p≤12/5 时，允许真实解析单位前因子及任意有限前缀，临界乘子单射稠密；对应两个不同 R16 乘积的全部非平凡组合循环，指数范围附连续参数严格证书。
+- [R62：有限矩阵放大与全部非零二元解析芽](results/R62-analytic-germs-matrix-amplification.md)（已证明，中间结论）：原 L 及 R61 全部对数均满足每个非零收敛 F(A,L) 单射稠密；有限矩阵头的幂零次数仍是 m+o(m)，自含解析因式分解和伴随矩阵完成推广。所有这类循环向量像仍循环；解析芽像稠密但第一纲，保留任意交换子的缺口。
+- [R63：有限方向及可和横向扰动的多变量矩分离](results/R63-finite-direction-polynomial-moment-separation.md)（已证明，中间结论）：两端各自由有限组不交坐标级数的任意多变量多项式构成，允许双方无限 Walsh 行及平方根可和横向误差；稳定尾跨度的 Zariski 稠密引理处理全部评价关系，仍保留一般方向与无限秩缺口。
+- [R64：非渐近尾的移动归一化与平均相位缺陷](results/R64-nonasymptotic-critical-tail-criteria.md)（已证明，中间结论）：允许持续旋转的对数复幂、任意小角摆动、正密度完整符号翻转及稀疏大幅异常；实际临界乘子及全部非零二元芽单射稠密，对应两乘积全部非平凡组合循环。
+- [R65：闭商的全平面连续谱与全部参数除法障碍](results/R65-closed-critical-quotients-spectrum-and-core.md)（已证明，中间结论）：所有λ、m≥1均无(L−λA)B=A^m，首阶抵消单列；A^−1L与L^−1A全部点均为连续谱，最小/最大闭图由R23的明确同步逼近相等。
+- [R66：全部解析芽之商的图核心与闭包分式演算](results/R66-analytic-ratio-graph-cores-and-closed-calculus.md)（已证明，中间结论）：共同因子、亚纯gcd可去与Bézout结合强近似单位，证明全部芽商的最大图等于最小闭包且C-自伴；闭包后的加乘逆组成忠实分式演算。约化中间同调为零，原(A,L)未约化商非零，给严格定义域包含。
+- [R67：独立次主尾的简单临界组合](results/R67-independent-subleading-critical-combinations.md)（已证明，中间结论）：共同幂次主尾之外允许各自独立 o(j^−p) 余项；正支配与核上 BW 搬运证明简单临界有限乘积组合循环，并给实际二阶矩阵的超主尺度增长反例。
+- [R68：全部芽分式的有界性与完整谱三分](results/R68-meromorphic-germ-boundedness-and-spectra.md)（已证明，中间结论）：对原 A,L，最大闭芽商有界当且仅当分式全纯，任意 B(H) 有界实现也被迫属于解析芽像；混合高位系数和低位小圆证明完整，非恒定分式的谱恰为单点连续谱、空谱或全平面连续谱。
+- [R69：高阶临界组合与实际 Gevrey 幂界](results/R69-higher-critical-combinations-and-gevrey-bounds.md)（已证明，中间结论）：低总次数真实消失给伴随矩阵路径次数；另证正主算子的阶乘幂界，以有效横向尾的负 BW 条件处理双重取消，覆盖 p<q≤12/5、q<2p−1 及更慢旋转对数尾的三乘积组合。
+- [R70：复尾、零位与非连续高位的忠实除法](results/R70-complex-sparse-tail-meromorphic-calculus.md)（已证明，中间结论）：固定阶高位乘积条件即给形式忠实性和全部真实值域包含的解析可除判据；完整验证R61/R64，扩展全部芽商谱三分，并给极端稀疏/超小尾的准确边界。
+- [R71：多尺度 Newton 权与超快横向尾](results/R71-newton-weights-and-ultrafast-transverse-tails.md)（已证明，中间结论）：不同实际幂权按解析单项式相加，处理更高主矩取消的有效横向主导；另以真正低位近似证明超快独立尾下全部有限阶临界组合循环。
+- [R72：抛物线模式的二次多项式矩分离](results/R72-parabolic-two-mode-quadratic-moment-separation.md)（已证明，中间结论）：完整逐系数排除同一(t_j,t_j²)模式的全部非零二次配对，含所有退化分支；实际曲率吸收及抽象纯张量反例另存笔记，未把其当作全矩消失对。
+- [R73：强交换子的边界商与左右独立](results/R73-strong-commutant-boundary-quotient.md)（已证明，中间结论）：从真实柱压缩构造分裂C*商，固定UHF而杀R37强交换子Y；Y的幂对整个UHF左右线性独立，给收缩解析回缩及任意B(H)因子的边界理想除法障碍。
+- [R74：任意幂次的实际 Gevrey 界与最小型](results/R74-all-power-gevrey-by-exact-norms.md)（已证明，中间结论）：精确W_n与双对数低位截断去掉横向指数p<4上限；任意p>1的O(j^−p)或o(j^−p)实际复尾分别给有限型或最小型，低位对数4/3量级亦证明尖锐。
+- [R75：Newton 主面与临界最小型](results/R75-newton-principal-face-and-minimal-type.md)（已证明，中间结论）：伴随矩阵的加权阶乘路径界给定量小型BW条件；首次非零主矩阶r时，独立o(j^{−[1+r(p−1)]})复尾足够，覆盖任意相位超多项式尾的全部有限组合。
+- [R76：共同二维模式的任意次数多项式矩分离](results/R76-arbitrary-binary-mode-polynomial-moment-separation.md)（已证明，中间结论）：同时用多个真实高位提取最高极化式；有限射影零线、复扇区与明确尾重排迫有限方向加可和误差，覆盖任意方向变化和有限前缀系数，抛物线模式另给直接证明。
+- [R77：临界二尺度的真实联合尾归约](results/R77-critical-two-scale-joint-tail-reduction.md)（已证明的条件工具）：L_p^r+cL_q、q=1+r(p−1)的头理想仍只有m+o(m)阶；统一实际Gevrey界去掉时间指数上限。平方情形给Gaussian变分上界和均值抵消点的严格三阶收缩，全区间负BW条件仍待证明。
+- [R78：任意有限模式多项式的全部矩分离](results/R78-arbitrary-finite-mode-polynomial-moment-separation.md)（已证明，中间结论）：两端任意不同有限多个复Rademacher级数、任意次数及有限前缀系数。共同平移商和低总次数归纳提供每个方向的非零联合导数矩，有限覆盖与逐因子相对误差迫有效系数绝对可和；不推广到一般无限秩有限chaos。
+- [R79：实临界联合尾的精确指数率](results/R79-real-critical-joint-tail-exact-rate.md)（已证明，中间结论）：Gaussian 乘积向量的局部正投影与远区 Gram 指数间隔给完整变分极限，统一于紧时间区间；实 c≥0 时负实时间轮廓处处为正，严格排除该方向的负 BW，未把它误作核结论。
+- [R80：强交换子的全部混合解析芽](results/R80-strong-multiplier-mixed-analytic-kernels.md)（已证明，中间结论）：R37 全部实有序参数的非零 F(A,Y) 均单射稠密。真实半群参考轨道有二阶整延拓，半圆盘调和测度排除超二阶衰减，Weierstrass 关系与 A 的四阶幂范数形成矛盾；特别 Y−λA 的核全部为零。
+- [R81：连续外部系数与真正无限秩矩分离](results/R81-continuous-external-coefficient-moment-separation.md)（已证明，中间结论）：有限模式多项式可带任意连续外部位系数；条件评价、共同平移商和有限覆盖证明两端配对分离，给非连续三阶、非局部有限、任何有限模式多项式都无法表示的明确无限秩例。
+- [R82：临界平方组合的复参数外部区域](results/R82-complex-critical-square-exterior-region.md)（已证明，中间结论）：q=2p−1≤12/5 时，保留 Gaussian 线性相位项并完成平方，得到 |c|>C₀(q)+C₁(p,q)sin²(arg(c)/2) 区域内 L_p²+cL_q 单射稠密；正实阈值更优，真实有限截断与负 BW 均有严格余量，中间参数尚未覆盖。
+- [R83：两个幂尾的三变量忠实除法与轴商谱](results/R83-two-power-germ-division-and-closed-quotient.md)（已证明，中间结论）：任意1<p<q的真实值域包含恰为三变量芽可除，允许任意B(H)因子且不预设一般分母单射；已认证指数下L_q^−1L_p^r的预解集为空，未知临界点谱与实际核精确对应，非临界时全为连续谱。
+- [R84：有限chaos的ℓ²高位合成与全数组控制](results/R84-l2-high-bit-synthesis-finite-chaos.md)（已证明，中间结论）：任意固定次数输入和固定阶高位系数均有位置无关合成界；排序telescoping保留有限chaos输入，实际误差O(η_m)，零矩强制整个高位数组ℓ²小，给分散第一chaos端点的最高阶纯尾界。
+- [R85：复强交换子的尾、图核心与精确轴除法](results/R85-complex-strong-tails-graphs-axis-division.md)（已证明，中间结论）：完整覆盖R37同虚部复参数，搬运R80及边界商；Z_N强*趋I，每个A不变限制上Y稠密；全部混合芽商自然图核心等于最大图，单项式实际值域包含恰按芽的两轴可除判定。
+- [R86：任意收敛乘积加权的连续对](results/R86-product-weighted-continuous-moment-separation.md)（已证明，中间结论）：两端各自任意R16乘积乘连续函数仍有全矩分离；有限零因子完整吸收，近周期卷积除去前缀标量后固定整数比率稳定，额外N²放大仍被实际误差吸收，允许任意慢尾和任意复平方可和线性指数。
+- [R87：全部有限模式指数多项式的矩分离](results/R87-finite-mode-exponential-polynomial-moment-separation.md)（已证明，中间结论）：任意不同有限复模式、任意指数多项式和有限前缀系数均分离；平移模尾评价忠实、暴露方向谱提取和相对误差归纳迫有效系数绝对可和，再由R86闭合。
+- [R88：全次数Riesz基、有界乘法与完整交换子强闭包](results/R88-riesz-basis-bounded-multipliers-strong-closure.md)（已证明，中间结论）：实际归一化幂产生近恒等Riesz变换；纯/实际有界乘法双向线性对应，完整交换子等于多项式SOT/WOT闭包；有限矩阵判据、第一chaos的ℓ1充要条件及非ℓ1二次循环例均有明确证明。
+- [R89：第一chaos零矩的双指数稀疏必要条件](results/R89-first-chaos-tail-order-statistics.md)（已证明，中间结论）：全部有限头插值和高位数组恢复模型近核，任意2q+1个非零尾系数的Boolean创建块左界迫尾顺序统计量双指数小；为R91提供必要条件，未单凭重排稀疏推全空间循环。
+- [R90：强交换子的圆盘缩放边界与全部芽商除法](results/R90-strong-multiplier-radial-boundaries-and-division.md)（已证明，中间结论）：真实高位酉共轭实现固定UHF、Y映为cY的全部圆盘缩放；任意B(H)混合芽范围包含恰为解析可除，固定A幂差商恢复参数解析性，闭商谱完整三分；附最小Gaussian型及正齐次自伴区间谱。
+- [R91：第一chaos与任意有限chaos的完整矩分离](results/R91-first-chaos-all-finite-chaos-separation.md)（已证明，中间结论）：任意复平方可和一级端点对任意无限秩有限次数端点均分离；保留至多2q个异常高位、按数量控制条件范数，再以实际近周期卷积和最高阶差分关闭R89剩余分支。
+- [R92：有限Walsh次数中的有界乘法与连续代表](results/R92-bounded-finite-chaos-multipliers-and-continuity.md)（已证明，中间结论）：固定有限次数内，有界函数、连续代表、纯有界乘法和实际有界乘法完全等价，实际乘子必在范数代数；维数无关范数比较及原点非零时的循环性成立，明确引用已核读的经典c0多项式逼近定理。
+- [R93：Pouzet横截定理与定量创建左逆](results/R93-pouzet-transversals-quantitative-creation.md)（已证明，中间结论）：准确引用既有有限横截定理，以固定不交匹配得到有限块全列秩，再用块外次数幂零逆及有限多项式证书给位置无关的幂次左界。
+- [R94：一般有限chaos零矩的尾匹配必要条件](results/R94-general-chaos-tail-matching-necessity.md)（已证明，中间结论）：完整低头模型近核及最高创建下降递推，迫超小阈值以上的最高阶纯尾超图有固定大小顶点覆盖；不把逐系数小误当总平方和小。
+- [R95：临界第一chaos精确有界除法](results/R95-critical-first-chaos-exact-bounded-division.md)（已证明，中间结论）：Δ(a_j/α_j)∈ℓ²恰为实际乘子可由任意B(H)除A，此时首个非零A幂后的商在范数代数中可逆；前缀ℓ²合成、Abel边界及实际商列给完整充要条件和全部幂值域分类。
+- [R96：高阶残余质量反例与影响量剥离](results/R96-high-chaos-residual-mass-peeling.md)（已证明，中间结论）：同一星块核的全部阈值图都空，但删K点的最优残余平方和精确为尾Σr^−2；另给有限对数预算下的小质量或低影响量二择一。
+- [R97：Fischer乘积与低影响量创建下界](results/R97-fischer-collision-influence-creation.md)（已证明，中间结论）：自含正规排序和平方和证明经典Fischer下界，显式扣除平方零投影的重复指标损失，得到任意p、q的Λ=2q binom(p+q−2,p−1)下界及无限ℓ²/附加Hilbert系数版本。
+- [R98：实际条件化头恢复与尾平方和覆盖](results/R98-conditioned-head-recovery-and-hs-tail-cover.md)（已证明，中间结论）：任意有限高位集条件化的完整近核有明确2^s代价；顶阶固定系数保留使测试端不坍缩，影响剥离和下降递推迫删O(16^m)点后最高纯尾总范数≤e^−a16m。
+- [R99：二阶对任意有限chaos的完整分离](results/R99-quadratic-finite-window-separation.md)（已证明，中间结论）：有限Toeplitz×尾次数递推精确支付每层头窗口损失，单位变换只留零号共同二次核，分层阈值处理线性污染；初等标量卷积下界收尾。
+- [R100：固定头窗口的真实尾向量卷积](results/R100-fixed-window-vector-convolution.md)（已证明，中间结论）：近周期有限链配合全部高尾ℓ²测试，直接恢复固定窗口完整向量卷积；无需全头插值，真实误差、任意删位、最高系数均值锚和头单位变换全部明确。

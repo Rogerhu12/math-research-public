@@ -1,0 +1,66 @@
+{
+  "result": "R616",
+  "state": "new complete proof and executed constant-size exact certificate; root mathematical review/publication pending",
+  "files": [
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-global/R616-original-CM-point-difference-and-explicit-height-basis-v2.md",
+      "bytes": 23228,
+      "sha256": "702bacc4f1f796ab1e3d72814be93587faf91905a4aa97ed9cca489fcf68e3cf"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-global/R616_tame_pairing_certificate.py",
+      "bytes": 4009,
+      "sha256": "e4d733c71bfe21c984f7616f5379a3f050fb5ce8edafea1462a51bab43a1f66b"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-global/R616-tame-pairing-certificate.json",
+      "bytes": 1658,
+      "sha256": "c03376bb156b2086af349a3f2157ae6e6c431d0995480d789dd2d3e224b69ebd"
+    }
+  ],
+  "dependencies": [
+    "R575 actual positive CM deck, untwisting and root signs",
+    "R593/R596/R597 same rational c0/c1, quotient, height and basepoint",
+    "R434/R588 actual finite types and local vector support",
+    "R348 section 7 only independent opposite-family central mean",
+    "R600/R608/R614 primitive orbit, full means and visible-ray bounds",
+    "general-level-Heegner-rank-interface: arbitrary level rank and log theorem"
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1408.1733",
+      "location": "Cai-Shu-Tian section 2.3, general equation (2.4), PDF p.18 (printed p.17), including all hypotheses"
+    },
+    {
+      "url": "https://faculty.bicmr.pku.edu.cn/~yxy/preprints/erratum-GZSC.pdf",
+      "location": "Yuan-Zhang-Zhang 2026-06-28 erratum PDF pp.1-2, entries 2 and 5 and footnote distinguishing base-change and Rankin-Selberg epsilon conventions"
+    },
+    {
+      "url": "https://msp.org/ant/2017/11-2/ant-v11-n2-p01-p.pdf",
+      "location": "File-Martin-Pitale section 5B4; actual depth-zero use already in R588 section 5.4"
+    }
+  ],
+  "new_math": [
+    "Same original rational CM point difference beta=q1[c1-c0] is non-torsion exactly when Lprime(actual g+,1)*L(opposite g-,1) is nonzero",
+    "Canonical X4 c=(v1,u=1/cuberoot4) has cubic toric character kappa4; the nontrivial character kills the Hodge-versus-c0 basepoint difference",
+    "Actual H6 invariant tensor has both opposite C3 projections nonzero, including actual odd-valuation compact-induction support at 3; general GZ applied bilinearly to non-pure tensor",
+    "All finite root conditions checked in BC convention after epsilon_RS=eta(-1)*epsilon_BC; no mixing of the two conventions",
+    "Original-family primitive ray bound retains kappa_p^m phase, giving D-independent simultaneous nonvanishing when H>=480J and sqrt(p)>=1440J, or J0, or p+1=6ell with p>=1225",
+    "Under the criterion beta generates the actual F-rank-one rational module; same unchanged height written in explicit CM Hecke-image matrix basis"
+  ],
+  "not_claimed": [
+    "All-p simultaneous nonvanishing",
+    "Opposite family appears as quotient of original curve",
+    "p-unit logarithm, regulator, height matrix or quadratic-height coefficient",
+    "Automatic transportation to Xd/c0",
+    "Absolute Serre uniformity completion"
+  ],
+  "executed_command": "python R616_tame_pairing_certificate.py",
+  "execution_scope": "constant-size QQ(zeta3) 2x2/4x4 exact identities and rational constants, 0.14 seconds; no new local long computation",
+  "readme_rule_commit": "fc5f0dc251e5f2f9c3f3e9a42dafcd4544f45912 (root reported new CI requirement; followed)",
+  "summary_index": "R616 identifies the original actual CM point difference beta with the nontrivial cubic Heegner component, proves its exact Lprime(g+)L(g-) non-torsion criterion and D-independent primitive sufficient regions, and supplies a fixed CM basis for the same global height.",
+  "summary_log": "Proved actual c1 cubic toric orbit and local H6 vector nonzero, with corrected BC/RS epsilon conversion. General twofold GZ gives beta non-torsion iff actual derivative times independent opposite central value is nonzero. Primitive ray estimates give simultaneous sufficient regions; exact finite tensor certificate PASS.",
+  "summary_handoff": "R616 proof/source/JSON frozen in agent-global, root owns review and publication. The original actual rank-one module is F beta in the stated regions; all height data stay on original X1 and retain eta term and the same splitting.",
+  "summary_open": "Need all-p same-factor nonvanishing or another genuine global constraint; compute/bound the fixed CM height matrix and actual c1 quadratic-height expansion, not merely Abel coefficient units. General D transport remains subject to R597.",
+  "revision": "v2: corrected (616.40) to the original R593(593R.28)/R596(596.24) rho=Q+2ell-lambda_p, keeping the same Omega. Frozen v1 retained and superseded."
+}

@@ -1,0 +1,65 @@
+{
+  "p": 43,
+  "r": 11,
+  "theta_degree": 21,
+  "original_polynomial_degrees": [
+    16,
+    16
+  ],
+  "maximum_s_degree": 37,
+  "maximum_laurent_pole_order": 37,
+  "only_excluded_Laurent_integration_exponent": -1,
+  "gauge_coefficient_valuation": -1,
+  "two_weights": [
+    {
+      "n": 11,
+      "weight": 44,
+      "rows": [
+        {
+          "source": "A2",
+          "row_mod_p": 39,
+          "row_mod_p_squared": 899,
+          "primitive_min_valuation": 0,
+          "primitive_terms": 46,
+          "cartier_coefficient_dlog_x_mod_p": 2,
+          "all_exact_rational_identities": true
+        },
+        {
+          "source": "B",
+          "row_mod_p": 6,
+          "row_mod_p_squared": 1683,
+          "primitive_min_valuation": 0,
+          "primitive_terms": 46,
+          "cartier_coefficient_dlog_x_mod_p": 40,
+          "all_exact_rational_identities": true
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "weight": 88,
+      "rows": [
+        {
+          "source": "A2",
+          "row_mod_p": 22,
+          "row_mod_p_squared": 882,
+          "primitive_min_valuation": 0,
+          "primitive_terms": 57,
+          "cartier_coefficient_dlog_x_mod_p": 32,
+          "all_exact_rational_identities": true
+        },
+        {
+          "source": "B",
+          "row_mod_p": 2,
+          "row_mod_p_squared": 1206,
+          "primitive_min_valuation": 0,
+          "primitive_terms": 57,
+          "cartier_coefficient_dlog_x_mod_p": 42,
+          "all_exact_rational_identities": true
+        }
+      ]
+    }
+  ],
+  "scope": "Exact original theta gauge and Faber / integral Laurent decomposition. No assertion of simultaneous complete central vanishing or infinite-prime nonvanishing."
+}
+

@@ -1,0 +1,115 @@
+{
+  "T2_trace_scale": "1/2",
+  "actual_T2_trace_rows_independently_checked": 819,
+  "actual_canonical_F2_height": 4213785,
+  "actual_norm_element_height": 2731264,
+  "all_eight_scalar_tiny_integrals": {
+    "B": 2918700,
+    "C": 674262,
+    "D_minus20b": 96867,
+    "K_g1_minus106b": 2188696,
+    "T2C": 1899975,
+    "Z8_minus20b": 183817,
+    "c7_minus_b": 3495672,
+    "u_minus_b": 4358404
+  },
+  "complete_actual_stored_fraction_and_arithmetic_audit": true,
+  "complete_cusp_orbits_0based": [
+    [
+      0,
+      14,
+      15,
+      3,
+      2,
+      19,
+      5,
+      4,
+      16,
+      17
+    ],
+    [
+      11,
+      9,
+      13,
+      1,
+      7,
+      8,
+      10,
+      6,
+      18,
+      12
+    ]
+  ],
+  "family2_canonical_evaluation_rank": 54,
+  "five_actual_fractions_and_full_colon_spaces": {
+    "C": {
+      "all54_actual_family2_calibration_values_verified": true,
+      "all_actual_finite_and_full_cusp_residues_verified": true,
+      "finite_simple_pole_count": 2,
+      "full_RR_dimension": 75,
+      "full_RR_numerator_membership_verified": true,
+      "full_allowed_pole_degree_including_cusps": 22,
+      "good_rows": 820,
+      "independent_colon_rank_history": [
+        124
+      ],
+      "line_bundle_degree": 128
+    },
+    "D_minus20b": {
+      "all54_actual_family2_calibration_values_verified": true,
+      "all_actual_finite_and_full_cusp_residues_verified": true,
+      "finite_simple_pole_count": 1,
+      "full_RR_dimension": 74,
+      "full_RR_numerator_membership_verified": true,
+      "full_allowed_pole_degree_including_cusps": 21,
+      "good_rows": 820,
+      "independent_colon_rank_history": [
+        125
+      ],
+      "line_bundle_degree": 127
+    },
+    "Z8_minus20b": {
+      "all54_actual_family2_calibration_values_verified": true,
+      "all_actual_finite_and_full_cusp_residues_verified": true,
+      "finite_simple_pole_count": 21,
+      "full_RR_dimension": 94,
+      "full_RR_numerator_membership_verified": true,
+      "full_allowed_pole_degree_including_cusps": 41,
+      "good_rows": 820,
+      "independent_colon_rank_history": [
+        105
+      ],
+      "line_bundle_degree": 147
+    },
+    "c7_minus_b": {
+      "all54_actual_family2_calibration_values_verified": true,
+      "all_actual_finite_and_full_cusp_residues_verified": true,
+      "finite_simple_pole_count": 2,
+      "full_RR_dimension": 75,
+      "full_RR_numerator_membership_verified": true,
+      "full_allowed_pole_degree_including_cusps": 22,
+      "good_rows": 817,
+      "independent_colon_rank_history": [
+        124
+      ],
+      "line_bundle_degree": 128
+    },
+    "u_minus_b": {
+      "all54_actual_family2_calibration_values_verified": true,
+      "all_actual_finite_and_full_cusp_residues_verified": true,
+      "finite_simple_pole_count": 2,
+      "full_RR_dimension": 75,
+      "full_RR_numerator_membership_verified": true,
+      "full_allowed_pole_degree_including_cusps": 22,
+      "good_rows": 819,
+      "independent_colon_rank_history": [
+        124
+      ],
+      "line_bundle_degree": 128
+    }
+  },
+  "input_certificate_sha256": "afd046cbad7657edf0dc13950b5bdad3031ad59872174a492d1228ae1dd4eded",
+  "result": "R259 independent audit",
+  "second_divisor_tiny": 4160581,
+  "source_sha256": "ce5ee0dc741205606b1937b5244a5a553afff27ad2cda658f2039189c8312b65"
+}

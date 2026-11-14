@@ -1,0 +1,123 @@
+{
+  "result": "R586 restored exact six-torsion kernels",
+  "field_basis": [
+    "1",
+    "a",
+    "a^2",
+    "zeta",
+    "a*zeta",
+    "a^2*zeta"
+  ],
+  "relations": [
+    "a^3=4",
+    "zeta^2+zeta+1=0"
+  ],
+  "sqrt3_removed": true,
+  "Q_labels": "a mod3=delta*zeta^i; a mod2=zeta^j; Q=T3_delta_i+T2_j",
+  "chi0": "delta*zeta^(-i-j)",
+  "chi6": "delta*zeta^(j-i)",
+  "three_X_cubes_polynomial": [
+    -64,
+    48,
+    -228,
+    1
+  ],
+  "H0_over_C0_numerator_in_x": "x*(7*x^6+4*x^3+16)",
+  "Hminus_over_C0_numerator_in_x": "x^2*(x^6+34*x^3-8)",
+  "common_denominator_in_x": "x^9-228*x^6+48*x^3-64",
+  "sum_chi0_e_over_sqrt3": [
+    "0",
+    "6",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "records": [
+    {
+      "r": 0,
+      "X": [
+        "2",
+        "1",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "y_over_sqrt3": [
+        "-3",
+        "-2",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "X_cubed": [
+        "76",
+        "48",
+        "30",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "r": 1,
+      "X": [
+        "0",
+        "1",
+        "-1",
+        "2",
+        "0",
+        "-1"
+      ],
+      "y_over_sqrt3": [
+        "-3",
+        "2",
+        "0",
+        "0",
+        "2",
+        "-1"
+      ],
+      "X_cubed": [
+        "76",
+        "-48",
+        "0",
+        "0",
+        "-48",
+        "30"
+      ]
+    },
+    {
+      "r": 2,
+      "X": [
+        "-2",
+        "1",
+        "0",
+        "-2",
+        "0",
+        "1"
+      ],
+      "y_over_sqrt3": [
+        "-3",
+        "0",
+        "1",
+        "0",
+        "-2",
+        "1"
+      ],
+      "X_cubed": [
+        "76",
+        "0",
+        "-30",
+        "0",
+        "48",
+        "-30"
+      ]
+    }
+  ],
+  "all_exact_assertions_passed": true,
+  "recovery_run": true,
+  "p_adic_orbit_repeated": false,
+  "source_sha256": "0d8414a04ff59999dd3c62cc0c2cbc13e744f12155d8802a219374226fcbe7ff"
+}

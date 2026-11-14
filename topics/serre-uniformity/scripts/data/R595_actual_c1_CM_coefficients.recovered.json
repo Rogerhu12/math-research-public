@@ -1,0 +1,311 @@
+{
+  "result": "R595",
+  "recovery": {
+    "date": "2026-11-14",
+    "reason": "Old executor scratch and functions.store lost",
+    "origin": "Surviving mathematical messages and detailed execution checkpoints",
+    "old_math_rerun": false,
+    "old_long_wrapper_recovered": false
+  },
+  "kernel": {
+    "formula": "H2/C0=(A0+E*y*A1+E^2*A2)/(2*Delta^3)",
+    "Delta_coefficients_ascending": [
+      -64,
+      0,
+      0,
+      48,
+      0,
+      0,
+      -228,
+      0,
+      0,
+      1
+    ],
+    "A0_nonzero": [
+      [
+        1,
+        65536
+      ],
+      [
+        4,
+        -114688
+      ],
+      [
+        7,
+        -2621440
+      ],
+      [
+        10,
+        7734272
+      ],
+      [
+        13,
+        -3765760
+      ],
+      [
+        16,
+        -3004864
+      ],
+      [
+        19,
+        1306400
+      ],
+      [
+        22,
+        394964
+      ],
+      [
+        25,
+        5579
+      ],
+      [
+        28,
+        1
+      ]
+    ],
+    "A1_nonzero": [
+      [
+        2,
+        -1245184
+      ],
+      [
+        5,
+        -212992
+      ],
+      [
+        8,
+        27398144
+      ],
+      [
+        11,
+        -30714880
+      ],
+      [
+        14,
+        -8815360
+      ],
+      [
+        17,
+        3062336
+      ],
+      [
+        20,
+        949808
+      ],
+      [
+        23,
+        12188
+      ],
+      [
+        26,
+        2
+      ]
+    ],
+    "A2_nonzero": [
+      [
+        0,
+        131072
+      ],
+      [
+        3,
+        -5210112
+      ],
+      [
+        6,
+        -4177920
+      ],
+      [
+        9,
+        58945536
+      ],
+      [
+        12,
+        -38088192
+      ],
+      [
+        15,
+        -8685696
+      ],
+      [
+        18,
+        1300224
+      ],
+      [
+        21,
+        561408
+      ],
+      [
+        24,
+        6648
+      ],
+      [
+        27,
+        1
+      ]
+    ],
+    "highest_E2_integer_identity": {
+      "degree": 27,
+      "coefficients_checked": 28,
+      "differences": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "historically_executed": true,
+      "repeated_in_recovery": false
+    }
+  },
+  "records": [
+    {
+      "p": 41,
+      "B": 11,
+      "alpha": 25,
+      "K_terms": [
+        0,
+        12,
+        0
+      ],
+      "r3": 26,
+      "p_squared_S2S3_modp": 3,
+      "pM2_squared_over_zeta_squared_modp": 24
+    },
+    {
+      "p": 47,
+      "B": 10,
+      "alpha": 18,
+      "K_terms": [
+        0,
+        2,
+        0
+      ],
+      "r3": 20,
+      "p_squared_S2S3_modp": 23,
+      "pM2_squared_over_zeta_squared_modp": 43
+    },
+    {
+      "p": 269,
+      "B": 49,
+      "alpha": 231,
+      "K_terms": [
+        0,
+        66,
+        0
+      ],
+      "r3": 160,
+      "p_squared_S2S3_modp": 150,
+      "pM2_squared_over_zeta_squared_modp": 124
+    }
+  ],
+  "complete_average41": {
+    "scaled_coefficients_mod_p3": [
+      0,
+      66051,
+      63509
+    ],
+    "prior_actual_R580_product_mod_p2": 1274,
+    "old_orbit_repeated": false
+  },
+  "root_independent269": {
+    "status": "PASS reported by parent before environment loss",
+    "I_mod269": 37,
+    "coordinate": "P_av=P_star+37*w^12060",
+    "binary_power_exponent": -72628,
+    "modulus": 72361,
+    "middle_numerator": 17754,
+    "K0": 0,
+    "K1": 66,
+    "K2": 0,
+    "B": 49,
+    "c_p_mod269": 268,
+    "used_other_paths_Frobenius_shortcut": false,
+    "retained_actual_CM_coordinate": true
+  },
+  "r3_269": {
+    "n": 71288,
+    "M": 11881,
+    "n_modp": 3,
+    "raw_sum_modp": 211,
+    "result": 160,
+    "summands": [
+      173,
+      30,
+      72,
+      252,
+      134,
+      80,
+      24,
+      55,
+      174,
+      140,
+      268,
+      242,
+      158,
+      51,
+      59,
+      92,
+      80,
+      137,
+      84,
+      76,
+      74,
+      122,
+      256,
+      232,
+      102,
+      20,
+      183,
+      118,
+      131,
+      135,
+      266,
+      166,
+      117,
+      133,
+      268,
+      212,
+      148,
+      163,
+      43,
+      106,
+      100,
+      72,
+      87,
+      187,
+      38
+    ],
+    "largest_integer_dot": 853412768,
+    "method": "Direct BigInt binomial; three quotient equations QZ=F; sparse Z(w^p)^4 convolution"
+  },
+  "scope": {
+    "all_prime_nonvanishing": false,
+    "p269_in_R317_remaining_classes": false,
+    "complete_p269_classification": false,
+    "c0_c1_same_coarse_disk": false
+  },
+  "parent_review_passed": true
+}

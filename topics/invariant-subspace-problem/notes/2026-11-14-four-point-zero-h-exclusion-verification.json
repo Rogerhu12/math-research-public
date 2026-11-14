@@ -1,0 +1,10 @@
+{
+  "date_utc": "2026-11-14",
+  "execution": "Exact JavaScript BigInt polynomial arithmetic executed in functions code mode.",
+  "checks": {
+    "Dplus-Dminus=2(z^2+4z-4)": "PASS",
+    "Dplus+Dminus=8(c^3rs-r^2+s^2)": "PASS",
+    "rEplus-sEminus=2z(z-2)+4(r^2-s^2)L": "PASS"
+  },
+  "scope": "Original highest and second-gradient quadratic remainders in the h=0, Z!=0 branch. No numerical approximation, finite-field lifting, or disconnected Python execution is claimed."
+}

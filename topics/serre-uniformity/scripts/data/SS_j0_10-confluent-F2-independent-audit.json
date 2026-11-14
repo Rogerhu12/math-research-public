@@ -1,0 +1,65 @@
+{
+  "result": "R328",
+  "disk_id": "SS_j0_10",
+  "standard_library_only": true,
+  "independent_confluent_double_pole_and_residue_conditions": true,
+  "all54_nu_and_calibration_recomputed": true,
+  "original_V2_V3_polynomial_basis_and_source_jets_recomputed": true,
+  "actual_T2_faithful_global_V4_identities_recomputed": 2451,
+  "all_Laurent_pieces_recomputed_and_total_residue_zero": true,
+  "local_differential_coefficients_mod47cubed": [
+    2485,
+    13428,
+    92640
+  ],
+  "height_coefficients": [
+    0,
+    116795,
+    192183,
+    103823
+  ],
+  "global_coefficients": [
+    0,
+    2162188,
+    3797271,
+    278334,
+    2387929
+  ],
+  "QC_coefficients": [
+    0,
+    1440127,
+    1320982,
+    174511,
+    2387929
+  ],
+  "QC_div47_reduction": [
+    0,
+    44,
+    0,
+    0,
+    0
+  ],
+  "only_simple_root_y_mod47cubed": 0,
+  "derivative_mod47": 44,
+  "scope": "Recomputes actual integer algebra from published monomial bases and saved true confluent coefficients; core RR ranks and source j homogeneous-invariant construction remain separately checked in the generating core.",
+  "input_sha256": {
+    "root-recovery/SS_j0_10_actual_confluent_C_connection47.json.gz": "3d0154b86432bca42db73fb620a9140b970faaaf81d491c703dfd1b33c3b4756",
+    "root-recovery/SS_j0_10_actual_confluent_F2_polynomial47.json.gz": "154fcb325dac4359efe578001fe76c56d3d86146e1f3c10da79872b7345619c7",
+    "root-recovery/SS_j9_11_actual_F2_connections47.json.gz": "77cae7c0a75f523489413516d15b65ae06f2323ac8663e1d7fc9093572f9d5ef",
+    "agent-qc/p41_basic_three_SS_CM_anchors47.json.gz": "c539c82adb415c8236dfae89471dd0b06a00d6a72b7154e4708fa94a5e7fe384",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_basepoint_confluent_connection47.py": "c3315660eab3af8dff2b34ff6ff1af319c88402b2b46bfdc7f5bf8c160c16fb4",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_basepoint_F2_polynomial47.py": "5831e0d1870225643e9080ab17182a8c0ef0f1d46562c3980792522a56c0e6c1",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/verify_CM7_F2_Laurent47.py": "91bd426b4b441d3601770308cc550ba067ed7170c9f9b581a4238e2c4db98544",
+    "math-research/topics/serre-uniformity/scripts/data/p41_makdisi47_certificate.json.gz": "c6ea2f89f4f64eec78039c5b14b6835295b045ea24ae26f885c4047b21e96222",
+    "math-research/topics/serre-uniformity/scripts/data/p41_cusp_divisors47_certificate.json.gz": "ae902f25e6d3674b6d474a70ee12a925c0934c198eff94581cfd5dbba30023fb",
+    "math-research/topics/serre-uniformity/scripts/data/p41_group47_checkpoint.json.gz": "4f982a4801332f9eff196ff9e9f866883b01014579896c20e65d044530b8b655",
+    "math-research/topics/serre-uniformity/scripts/data/p41_second_kind_connection47.json.gz": "9788da4bb748b98ebfb87014248b0791bba1caa71dc664aa3f2ba83c9ef76945",
+    "math-research/topics/serre-uniformity/scripts/data/p41_eta_calibration47_complete.json.gz": "9fc33dea6a134961a1a5e4dc1677c57dec65d9aca265d8e46b4470ecff18261f",
+    "math-research/topics/serre-uniformity/scripts/data/p41_hecke47_full_saved.json.gz": "84709d6422ffa59f7423a980f882d68de75487d689667c6f21d0af6831e08c0f",
+    "math-research/topics/serre-uniformity/scripts/data/p41_global_qc_polynomials47_complete.json.gz": "4ea4c9d706b3b8e6f671af4b020db6ff6e47b1c871c45654ca31e5e81d4e6e79",
+    "math-research/topics/serre-uniformity/scripts/data/p41_cm3_makdisi47_certificate.json": "309ead3544d9c672dfbb51b0bea7a03b6811887140102efeb56743a122416ad5",
+    "math-research/topics/serre-uniformity/scripts/data/p41_hecke3_abel_bases_checkpoint.json.gz": "2c0c16acee560af04582de86e345fe3ded57c8c0d5f8c5f56b2631aaf00e3a8d",
+    "math-research/topics/serre-uniformity/scripts/data/p41_three_ordinary_CM_anchors_and_113_global_functions47.json.gz": "a9c40049ce3eab329ed22ff27edcb39e929491bacf35c11887b348c0609bdb6a"
+  },
+  "source_sha256": "233426935dcff5a2c646cd968ddc8a8ec9be4194ad0676ca8fb5849faf49a4c0"
+}

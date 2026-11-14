@@ -1,0 +1,55 @@
+{
+  "Phi_14_coefficients": [
+    1,
+    -1,
+    1,
+    -1,
+    1,
+    -1,
+    1
+  ],
+  "Phi_14_irreducible": true,
+  "coefficient_prime": 12547,
+  "cubic_root": 6217,
+  "field_generator": [
+    1,
+    2
+  ],
+  "p": 41,
+  "psi_root": 1692,
+  "quadratic_parameter": 38,
+  "rows": [
+    {
+      "a": 34,
+      "b": 34,
+      "nonzero": true,
+      "old_S": 0,
+      "old_opposite": 4541,
+      "p(p+1)*B_theta_theta_eta_inverse_mod_Phi14": [
+        4064,
+        6166,
+        5603,
+        4642,
+        2097,
+        9928
+      ]
+    },
+    {
+      "a": 34,
+      "b": 1,
+      "nonzero": true,
+      "old_S": 0,
+      "old_opposite": 4541,
+      "p(p+1)*B_theta_theta_eta_inverse_mod_Phi14": [
+        1254,
+        4743,
+        10979,
+        5508,
+        11823,
+        10937
+      ]
+    }
+  ],
+  "scope": "Reuse of the prior individual Fourier zero; not a paired-zero example or an exceptional-prime search.",
+  "theta_generator_image": "T mod Phi_14"
+}

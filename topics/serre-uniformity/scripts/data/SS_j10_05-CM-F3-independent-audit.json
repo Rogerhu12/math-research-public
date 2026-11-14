@@ -1,0 +1,132 @@
+{
+  "result": "R319",
+  "disk_id": "SS_j10_05",
+  "input_sha256": {
+    "root-recovery/SS_j10_05_actual_F3_connections47.json.gz": "2b00e16ce2d1030671c4940918c7fbba7bc2bb4affe7d2782d728d4210ba22d5",
+    "root-recovery/SS_j10_05_actual_CM_anchored_F3_polynomial47.json.gz": "3f16c69833cda269fdb08824680d77766cc0ffd66e2cd55a341369ba89fba35f",
+    "root-recovery/SS_j10_05_actual_T3_support47.json.gz": "e49e6386af34509466f3f5edd96d6428fc14051386d63a02a79b276c17b85952",
+    "root-recovery/SS_j10_05_actual_CM_anchored_F2_polynomial47.json.gz": "6d6da9af2e2b50f54b61c384889843a391988f51a30ca248bd797efc394334ef",
+    "root-recovery/SS_j10_05-CM-F2-independent-audit.json": "9e7f3742f7109d93ebd56fe98bccddb391ebedb9f15d314b3548eeab0facc1cf",
+    "agent-qc/p41_CM28_SS_anchor47.json.gz": "f24d44993f7e6642ddb1e3cbdea5b5a0d40527068c37d28aa0614cc375dc935f",
+    "agent-qc/p41_T3_fixed_divisor47.json.gz": "b4bd8548c2844a93dc8eea958b4b577bcaac53a3f56370f568bdee3e82ea512f",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_CM28_SS_F3_connections47.py": "8966227d57867db9e0dfa35dca409c3d11d7a658b59196a6ab9a900f2a264dc0",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/p41_CM28_SS_F3_polynomial47.py": "a8837e9633b330a54ab847bff3cc91b5f5f053ed99e46065e7994cc84225f164",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_rational_SS_residue_atlas47_complete.json.gz": "f2f4f96ba74676d6b02989a540b434f6b29c2e8a8b4c5d3f7837291851eff0f3",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_global_qc_polynomials47_complete.json.gz": "4ea4c9d706b3b8e6f671af4b020db6ff6e47b1c871c45654ca31e5e81d4e6e79",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_SS_Hecke_graph47.json.gz": "9e459c56f5d0b98e355fe7e090527e2bb76fbd65cc920567d716940e3d416e2f",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_rational_SS_second_kind_integrals47_complete.json.gz": "c8b5e8d292b89dadf5cfa5f1b7bafadff6848cda61ddfe207c5009f2ed6a401d",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_three_ordinary_CM_anchors_and_113_global_functions47.json.gz": "a9c40049ce3eab329ed22ff27edcb39e929491bacf35c11887b348c0609bdb6a"
+  },
+  "actual_SS_graph_T3_support_and_original54_nu_verified": true,
+  "actual_four_target_span_separation_independently_reduced_mod47": {
+    "P": {
+      "rank": 5,
+      "pivot_columns_0based": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "b": {
+      "rank": 5,
+      "pivot_columns_0based": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "new_T3_denominator_all_pole_constraints_and_center_unit_verified": true,
+  "all73_true_CM_coordinate_transport_independently_verified": true,
+  "CM_global_pairing_recomputed_from_actual54_coordinates": 1145249,
+  "CM_scaled_height": 3403458,
+  "CM_height_after_exact_division_by800": 2334302,
+  "local_height_polynomial": [
+    4268399,
+    3195953,
+    4095486,
+    4568212
+  ],
+  "local_derivative": [
+    67999,
+    1499,
+    32374
+  ],
+  "global_polynomial": [
+    1611630,
+    4759408,
+    3502910,
+    309260,
+    103823
+  ],
+  "QC_polynomial": [
+    2669130,
+    70171,
+    1380061,
+    620729,
+    103823
+  ],
+  "F2_candidate_checks": [
+    {
+      "y_mod47cubed": 75296,
+      "QC_F3_value_mod47four": 3222508,
+      "component_tests": [
+        {
+          "label": 0,
+          "difference_mod47four": 3222508
+        },
+        {
+          "label": 3,
+          "difference_mod47four": 3222508
+        },
+        {
+          "label": 28,
+          "difference_mod47four": 601036
+        },
+        {
+          "label": 32,
+          "difference_mod47four": 601036
+        }
+      ]
+    },
+    {
+      "y_mod47cubed": 86022,
+      "QC_F3_value_mod47four": 2621472,
+      "component_tests": [
+        {
+          "label": 0,
+          "difference_mod47four": 2621472
+        },
+        {
+          "label": 3,
+          "difference_mod47four": 2621472
+        },
+        {
+          "label": 28,
+          "difference_mod47four": 0
+        },
+        {
+          "label": 32,
+          "difference_mod47four": 0
+        }
+      ]
+    }
+  ],
+  "remaining_same_component_pairs": [
+    {
+      "y_mod47cubed": 86022,
+      "bad_component_label": 28
+    },
+    {
+      "y_mod47cubed": 86022,
+      "bad_component_label": 32
+    }
+  ],
+  "extra_F2_root_excluded_in_all_four_components": true,
+  "known_CM_height_is_an_input_not_an_independent_local_Norm_check": true,
+  "source_sha256": "1bf262aaad94bb85ac12c44c406cbdb43909c0dde0fd44d6affb45e59c7ab0fb"
+}

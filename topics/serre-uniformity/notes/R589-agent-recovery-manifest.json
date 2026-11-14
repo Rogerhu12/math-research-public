@@ -1,0 +1,57 @@
+{
+  "result": "R589",
+  "status": "reconstructed proof and preserved records; exact original bytes lost",
+  "files": [
+    {
+      "path": "R589-specified-type-three-coefficient-and-actual-CM-unit-criterion.recovered.md",
+      "bytes": 12969,
+      "sha256": "349098473308f9cc7645730fd164a31781ef0d620471aedb6b019be011d0d820"
+    },
+    {
+      "path": "R589_actual_CM_coefficient_records.recovered.json",
+      "bytes": 1733,
+      "sha256": "016adbf381fc929e35c5a2da75d3a7cc12b3d0657f44fe6e0eb15991acc4dd59"
+    },
+    {
+      "path": "R589-rprime-direct-coefficient-replay.js",
+      "bytes": 2063,
+      "sha256": "327eba942f97af3caed7175eea861d876bed659aac34ad0726ab081c293608f5"
+    }
+  ],
+  "prior_original_proof": {
+    "bytes": 14002,
+    "sha256": "e764ec1056e5225032c6cc589f684a69527a7808fb42c7d6eced465462ad0f5c"
+  },
+  "validation": {
+    "mathematics_previously_parent_reviewed": true,
+    "old_torsion_orbits_repeated": false,
+    "new_replay_executed": false,
+    "new_replay_status": "readable reconstruction of the proved finite coefficient algorithm; no run claimed"
+  },
+  "dependencies": [
+    {
+      "id": "R574",
+      "role": "completed zeta and e_Q^p=D^(p-2)x; restored independently"
+    },
+    {
+      "id": "R586",
+      "role": "actual S6/c0 marking, H0=C0R0 and exact weighted completed-zeta sum; restoration still required"
+    },
+    {
+      "id": "R588",
+      "role": "actual toric norm, anti-linear identification and Ntheta normalization; restoration still required"
+    }
+  ],
+  "self_contained_sections": {
+    "2": "full reduced CM multiplication law over W(Fp^2)",
+    "3": "actual p-torsion completed-zeta identification",
+    "4": "Cartier truncation through every positive exponent <5p^2",
+    "5-6": "specified low coefficient and complete finite-product tail bounds"
+  },
+  "scope": {
+    "actual_finite_product_congruence": true,
+    "M0_conclusion_requires_R588": true,
+    "uniform_nonvanishing": false,
+    "global_rank_zero_or_candidate_exclusion": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "result": "R595",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "Reconstructed after loss of the old workspace and functions memory; no old-byte equality is claimed unless separately evidenced.",
+  "source_proof_sha256": "5f5f7253010dc94b1050b4ceef189e811b973bcf2cc772f9309a24c73e0a67cc",
+  "root_review": "Root reviewed the entire recovered proof, actual H2 kernel, CM coordinate and all S2/S3 tail bounds, toric normalization, and retained historical arithmetic. The displayed derivative identity had a confirmed transcription error: the final Delta-prime was replaced by Delta. The original trace constructor is unaffected; the lost old identity-checker line is not claimed to survive. The new complete symbolic check and its saved output directly establish the corrected identity. Only the verifier input lookup was changed for the repository layout, with no repeat of the old arithmetic.",
+  "files": [
+    {
+      "file": "results/R595-actual-c1-CM-coefficient-criterion.md",
+      "bytes": 16437,
+      "sha256": "3237af8a6af4f605b5159d13df1ad3a849ba8bf1c418e2bba6bd35d1c9e5223b"
+    },
+    {
+      "file": "scripts/data/R595_actual_c1_CM_coefficients.recovered.json",
+      "bytes": 4610,
+      "sha256": "63ddd30a930111684ec8595b8bb0f2d0bcb0b147543d0270b8d5f96972eb2501"
+    },
+    {
+      "file": "scripts/R595-exact-H2-kernel.recovered.js",
+      "bytes": 4409,
+      "sha256": "e6493b783db681f11ba53ea200d678f76be89d1ca1781171a7419a7df7704261"
+    },
+    {
+      "file": "scripts/R595-r3-direct-coefficient-replay.js",
+      "bytes": 2332,
+      "sha256": "4ded8ed7ae835351c3e04ee195eecd52f2d444d83337ae03552aa83c84ef9621"
+    },
+    {
+      "file": "notes/R595-recovery-receipt.json",
+      "bytes": 1487,
+      "sha256": "574c5e27d2d3ec1818161ea7b7175dd54f05da863b0dac79bafa3d763816f9be"
+    },
+    {
+      "file": "notes/R595-agent-recovery-manifest.json",
+      "bytes": 2735,
+      "sha256": "2197fa11e56ae9939a0218296e2bfddb81d1942fc48e1d0d43a273ad40eccb2b"
+    },
+    {
+      "file": "notes/R595-recovery-erratum-595-10.md",
+      "bytes": 1866,
+      "sha256": "85695dc5aaeb7633179cc91b5a1fbcf58ae5bf6bbe7fbb32e393a236f2ce157d"
+    },
+    {
+      "file": "scripts/R605_rational_kernel_reduction.py",
+      "bytes": 3022,
+      "sha256": "6b0c5fa6a562d654cc9a64cb166f76531f139039879854832a830005e2638558"
+    },
+    {
+      "file": "notes/R605_rational_kernel_reduction.json",
+      "bytes": 2849,
+      "sha256": "702be8ed8987d53122a8dba3937b597ce0b997a2dde2947324276b2bd18fbb88"
+    }
+  ],
+  "corrected_recovered_display": "(595.10) final Delta-prime -> Delta",
+  "historical_torsion_orbits_repeated": false,
+  "new_r3_replay_executed": false,
+  "erratum_check_original_source_sha256": "3f341e1f29e06773569a3dafa11339309ee527720982b1634c1ef56dfb5c92fa",
+  "erratum_check_portability_change": "input lookup only: sibling data directory; no arithmetic change or rerun"
+}

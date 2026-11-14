@@ -1,0 +1,17 @@
+{
+  "result": "R265",
+  "review": "root independently read all four frozen executors and the entire proof; all29 manifest hashes checked",
+  "manifest_sha256": "8a7cfb356a582bf07d076bab4f85195e4bac36e8d42534a044e113975ad5fef6",
+  "independent_full_split_norm_run": {
+    "disk_id": "ORD_j38",
+    "source_sha256": "e97baee02cc79f747137d0b5b393ec4c1ccfbb38bd8b267aebd7238f3eec8270",
+    "output_sha256": "37999840a3fa799f4fccb524f194c3cdbf4004ca6512f09126d3012bb3829950",
+    "equals_frozen_certificate_byte_for_byte": true,
+    "full_norm": 2370349,
+    "full_log_norm": 4811296
+  },
+  "reused_previously_published_identical_files": [
+    "scripts/data/ORD_j05_actual_T2_support47.json.gz"
+  ],
+  "all19_torsion_field_generations_independently_rerun": false
+}

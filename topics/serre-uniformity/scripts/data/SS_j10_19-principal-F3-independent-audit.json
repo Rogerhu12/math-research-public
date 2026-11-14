@@ -1,0 +1,242 @@
+{
+  "result": "R363",
+  "disk_id": "SS_j10_19",
+  "input_sha256": {
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS-F3-production/SS_j10_19/SS_j10_19_actual_canonical_F3_height47.json.gz": "30872781da8df4184517f1defcf4259a3844182967ea158e8626904f485045f4",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS-F3-production/SS_j10_19/SS_j10_19_actual_canonical_F3_polynomial47.json.gz": "e2efd691ef27588d8f831e55b00991229af6b440a89be06df68c346697a1a63e",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS-F3-production/SS_j10_19/SS_j10_19_actual_F3_first_variable_norm47.json.gz": "2825c525cfe62b8d912993eccb041d536767a425c05e15d8017aea57880800aa",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS-F3-production/SS_j10_19/SS_j10_19_actual_T3_support47.json.gz": "53b764841eebdd0540327f8ba84ca665296b3cd88a467dc79fde7ca90ece0291",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/SS-F3-production/SS_j10_19/SS_j10_19_actual_T3_principal_norm47.json.gz": "365c14eb68cd7e3aae1ad5a219cf7f17f65be7e888f8cfb422e83027f633ecfb",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_19_principal_expression47.json.gz": "eb631ff7248a50a8e8c6d03ee5582e3afd0f2a681a53b97e182daced7a50483c",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_19_actual_second_kind_integrals47.json.gz": "02b8a2478800dfa57b42512a7f97addcfea755265169dd3a6600c225b7fd842c",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_19_actual_F2_first_variable_norm47.json.gz": "d0a4d8f8b76a1754d63e48eea0d0ce5b28d5e80feecdabbdf3b6b672f08d0ae2",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_19_actual_canonical_F2_polynomial47.json.gz": "94b2d961f44dd30ed4653ec581b2edc67274d788a0314ce74ef9e0fc95d5f734",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_19-principal-F2-independent-audit.json": "279e215770445ea1402c43926146f590622d888cc63bafc2ad6600b48c430995",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/verify_selected_SS_F2_principal47.py": "5a71ee59bb17b3c14d490574f2ef0ecf13be2775d0871faef16b163ff0f33456",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_SS_F3_connection47.py": "f35ba286717bde6faf7b5f2d8ea22f0d445ae00a2f0b6077a760e61bd1da8441",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_SS_F3_local_polynomial_all_unit_fractions47.py": "50ae22bd8020cd5b630a52298e78c69430e1094441429d25cda7f335d78f5abd",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_global_qc_polynomials47_complete.json.gz": "4ea4c9d706b3b8e6f671af4b020db6ff6e47b1c871c45654ca31e5e81d4e6e79",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/R344_SS_transports/SS_j10_19/transport_manifest47.json": "502706e9b383521d1790bac68907775aa5dabafe77c17fdd2a1ec825d31c93e3",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/verify_selected_SS_F2_all_unit_fractions47.py": "34b943053d826178f2279732504ce79891861e8e724c863d5e6dfebe531b5068"
+  },
+  "source_sha256": "bc8ec02997b8319da269e999b4b86c841a418c89e0f9b2ac361e0e63129295bd",
+  "nested_input_hash_edges_checked": [
+    [
+      "center",
+      "second_kind"
+    ],
+    [
+      "center",
+      "principal"
+    ],
+    [
+      "center",
+      "t3_support"
+    ],
+    [
+      "center",
+      "full_norm"
+    ],
+    [
+      "polynomial",
+      "center"
+    ],
+    [
+      "polynomial",
+      "f2_polynomial"
+    ],
+    [
+      "polynomial",
+      "f2_audit"
+    ],
+    [
+      "t3_norm",
+      "principal"
+    ],
+    [
+      "t3_norm",
+      "second_kind"
+    ],
+    [
+      "t3_norm",
+      "t3_support"
+    ],
+    [
+      "full_norm",
+      "t3_norm"
+    ],
+    [
+      "full_norm",
+      "f2_norm"
+    ],
+    [
+      "full_norm",
+      "principal"
+    ],
+    [
+      "full_norm",
+      "second_kind"
+    ],
+    [
+      "f2_audit",
+      "f2_polynomial"
+    ]
+  ],
+  "actual_T3_four_kernel_roots_and_raw_det3_verified": true,
+  "T3_actual_saved_Weierstrass_relations_replayed": 1820,
+  "fixed31_actual_saved_Weierstrass_relations_replayed": 14105,
+  "actual_T3_norm": 2224058,
+  "actual_T3_norm_log": 2538329,
+  "fixed31_weighted_norm": 4209148,
+  "fixed31_weighted_norm_log": 688315,
+  "same_true_Phi_canonical106_and_P_b_tangents_reused_by_hash_identity": true,
+  "canonical_sigma_with_base_factor_2power_minus9": 2193037,
+  "canonical_sigma_log": 521747,
+  "second_divisor_tiny": 3095420,
+  "full_first_norm_log": 3928166,
+  "actual_center_height": 1111926,
+  "j_z_tangent_change_cancels_in_actual_height": true,
+  "all_actual_tiny_integrals_independently_reassembled": {
+    "B": 537116,
+    "C": 4713113,
+    "D_minus20b": 4314788,
+    "K_g1_minus106b": 1822989,
+    "T3C": 3460375,
+    "Z0fix_minus8b": 1279199,
+    "Z12_minus22b": 2523806,
+    "c11_minus_b": 3473206,
+    "v_minus_b": 1210814
+  },
+  "actual_local_polynomial": [
+    1111926,
+    3856021,
+    1844515,
+    0
+  ],
+  "global_F3_independently_reassembled_from_all54_coordinates_and_published_direction": [
+    2881335,
+    2947323,
+    4079083,
+    1484448,
+    1453522
+  ],
+  "QC_F3": [
+    1442477,
+    2088915,
+    2130745,
+    1484448,
+    1453522
+  ],
+  "actual_same_component_root_tests": [
+    {
+      "F2_y_mod47cubed": 77001,
+      "F3_QC_value_mod47four": 264704,
+      "same_bad_component_tests": [
+        {
+          "bad_component_label": 0,
+          "QC_F3_minus_target_mod47four": 264704,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 3,
+          "QC_F3_minus_target_mod47four": 264704,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 28,
+          "QC_F3_minus_target_mod47four": 2522913,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 32,
+          "QC_F3_minus_target_mod47four": 2522913,
+          "excluded": true
+        }
+      ]
+    },
+    {
+      "F2_y_mod47cubed": 6575,
+      "F3_QC_value_mod47four": 1166728,
+      "same_bad_component_tests": [
+        {
+          "bad_component_label": 0,
+          "QC_F3_minus_target_mod47four": 1166728,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 3,
+          "QC_F3_minus_target_mod47four": 1166728,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 28,
+          "QC_F3_minus_target_mod47four": 3424937,
+          "excluded": true
+        },
+        {
+          "bad_component_label": 32,
+          "QC_F3_minus_target_mod47four": 3424937,
+          "excluded": true
+        }
+      ]
+    }
+  ],
+  "remaining_pairs": [],
+  "entire_disk_excluded": true,
+  "eta_B_fraction_cross_audit": {
+    "replacement": false
+  },
+  "fixed_fraction_cross_audit": {
+    "replacements": [
+      {
+        "connection": "Z12_minus22b",
+        "all820_exact_integer_cross_products_checked": true,
+        "evaluation_cross_values_sha256": "eb94620fa3b2776c7a9286ece42f781415e563b0e2a39e1973fae5425978e4e9",
+        "old_unit_rows": 820,
+        "pole_plus_center_rank_mod47": 24,
+        "unit_minor_columns_0based": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "new_denominator_at_center_mod47four": [
+          3640189,
+          0
+        ],
+        "true_support_vanishing_mod47four": true,
+        "Frobenius_sections_exact": true,
+        "faithful_degree_bound": 378
+      }
+    ],
+    "faithful_model_input_sha256": {
+      "p41_makdisi47_certificate.json.gz": "c6ea2f89f4f64eec78039c5b14b6835295b045ea24ae26f885c4047b21e96222",
+      "p41_cusp_divisors47_certificate.json.gz": "ae902f25e6d3674b6d474a70ee12a925c0934c198eff94581cfd5dbba30023fb",
+      "p41_cm4_divisor47_certificate.json": "f98b13cbc7afb3ed5d8b2f9249fbe815198b478b23559c319c5ba56b6bd83540",
+      "p41_group47_checkpoint.json.gz": "4f982a4801332f9eff196ff9e9f866883b01014579896c20e65d044530b8b655"
+    },
+    "atlas_sha256": "f2f4f96ba74676d6b02989a540b434f6b29c2e8a8b4c5d3f7837291851eff0f3",
+    "scope": "Independent Python-integer evaluations of all820 cross identities and source unit/support/rationality checks on the published faithfully reconstructed section model; not a second RR or chain execution."
+  },
+  "scope": "Independent exact replay of actual saved principal factors and unit Norms, same-function checks, tiny integration, normalized fiber and height, all54 global quadratic assembly, and all four same-component candidate tests; no second RR or torsion execution."
+}

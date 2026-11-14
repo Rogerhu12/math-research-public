@@ -1,0 +1,34 @@
+{
+  "result": "R613",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "New mixed-p theorem derived from the fully restored actual R561 and published R198; original unknown values remain explicitly uncomputed.",
+  "source_proof_sha256": "14ea61861ffda28b2c52b8396c0ba966778459b9e74e1afdb14f21fd2dc71ba9",
+  "root_review": "Root read the entire proof, original R198 norm relations and the actual R561 complete-divisor/class-field normalization, then the full small verification program and its executed certificate. Checked conversion of power logs to direct root indices, the same Robert ancestor for both mixed norms, all outside divisor support, ordinary rather than S-class descent, and C_r=C+34r. The original scalar C and b/L remain symbolic; no old 34 bridge to b is asserted. No large Robert computation was repeated.",
+  "files": [
+    {
+      "file": "results/R613-mixed-p-capitulation-and-the-exact-34-boundary.md",
+      "bytes": 17992,
+      "sha256": "14ea61861ffda28b2c52b8396c0ba966778459b9e74e1afdb14f21fd2dc71ba9"
+    },
+    {
+      "file": "scripts/verify_r613_mixed_p_boundary.py",
+      "bytes": 4612,
+      "sha256": "a64eab8df5fe6838daaa0cd3b573ec3b23e3e866b3e3fbfb82c663335979eb8e"
+    },
+    {
+      "file": "notes/r613_mixed_p_boundary_certificate.json",
+      "bytes": 13735,
+      "sha256": "acbcff4cf534a2ff8d331ec21151bd04aeb0d3e52a3f9ef0556ccc822e708e03"
+    },
+    {
+      "file": "notes/R613-agent-frozen-manifest.json",
+      "bytes": 2762,
+      "sha256": "ec293c11b280bd5ea47ca54225180cf1b508e28e004b8493e92ece46036e7eb7"
+    }
+  ],
+  "ordinary_capitulation_extensions": 42,
+  "small_boundary_check_actual_symbolic_cases": 1806,
+  "original_scalar_C_computed": false,
+  "original_L_computed": false,
+  "mathematics_repeated_for_packaging": false
+}

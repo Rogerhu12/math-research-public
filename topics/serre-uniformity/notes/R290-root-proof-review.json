@@ -1,0 +1,19 @@
+{
+  "result": "R290",
+  "proof_sha256": "513c254961f9166a88bb4cdd2642e245cd8584dc2cc79e2b13113b91fc7c902c",
+  "primary_source": {
+    "url": "https://webusers.imj-prg.fr/~patrick.polo/SGA3/origExp7A.pdf",
+    "location": "VIIA4.3-4.3.3, printed269-271",
+    "checked": "Arbitrary characteristicp base, flat commutative group functoriality, VF=FV=p and finite locally free Cartier duality"
+  },
+  "direct_proof_checks": [
+    "Same Raynaud finite flat isomorphism over O_L, then base change to the full nonreduced O_L/p",
+    "Lie ofE[p] equals LieE in characteristicp, so functorial V determines the zero Hasse condition",
+    "Both explicit affine Cech charts cover E; y/x has unit Serre residue",
+    "Relative Frobenius on H1 yields the stated Hasse coefficient without perfectness or takingp-th roots",
+    "All multinomial coefficients and the simple Hasse zero atj0",
+    "Good short model scaling u, v_L(A)>=e, exact rational integral rounding for m1/2",
+    "Same primitive integer parameter: p|b,w and the accurate valuation of t-2",
+    "The height lower bound does not imply a variable conductor upper bound; Norm/L remains open"
+  ]
+}

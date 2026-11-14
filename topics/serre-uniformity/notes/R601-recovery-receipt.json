@@ -1,0 +1,30 @@
+{
+  "result": "R601",
+  "event": "2026-11-14 environment replaced and both old scratch and functions.store lost",
+  "reconstruction": "Exact proof, source, and certificate reconstructed verbatim from visible conversation tool-call text; Python hashlib independently matched all three pre-loss SHA256 and byte counts",
+  "prior_manifest_sha256": "06244eae98cb9b339d5e5c7dfc3b67d612ac32ecc206f3b1cd64ae82ade45240",
+  "current_directory": "/workspace/scratch/76d0eb5f3db8/agent-qc",
+  "filesystem_written": true,
+  "math_rerun": false,
+  "node_wrapper_executed_after_recovery": false,
+  "files": [
+    {
+      "filename": "R601-c1-first-and-third-block-Cartier-cancellations.md",
+      "kind": "proof",
+      "sha256": "2e45313ba11d3fd30efe6764eee79a46778013412d58d52b738fa7286d3322b4",
+      "bytes": 12401
+    },
+    {
+      "filename": "verify_R601_Cartier_cancellations.js",
+      "kind": "source",
+      "sha256": "0c1de2f256a0697be7beb78a5ddf67c8a6a9b07be9980e9b9ab3d723d627c856",
+      "bytes": 2644
+    },
+    {
+      "filename": "R601_exact_Cartier_algebra_certificate.json",
+      "kind": "data",
+      "sha256": "c48da7fb2a20a67f7fd3b34cfd0eda84bbbef1be62a4cb38a6c44a604e7c3647",
+      "bytes": 666
+    }
+  ]
+}

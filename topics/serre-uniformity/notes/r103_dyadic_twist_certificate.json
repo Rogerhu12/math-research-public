@@ -1,0 +1,129 @@
+{
+  "schema": "R103-dyadic-twist-v1",
+  "fields": [
+    {
+      "d": 1,
+      "polynomial": "x^16 + 2688*x^14 - 503136*x^12 - 184757760*x^10 - 51018336*x^8 - 1008938612736*x^6 + 1785233613312*x^4 + 650717652052224",
+      "discriminant": 981442558066553631277056,
+      "e_over_Q2": 8,
+      "f_over_F2": 2,
+      "rnfequation_k": 0,
+      "reference_conductor": 0
+    },
+    {
+      "d": 2,
+      "polynomial": "x^16 + 5376*x^14 - 2012544*x^12 - 1478062080*x^10 - 816293376*x^8 - 32286035607552*x^6 + 114254951251968*x^4 + 166583718925369344",
+      "discriminant": 981442558066553631277056,
+      "e_over_Q2": 8,
+      "f_over_F2": 2,
+      "rnfequation_k": 0,
+      "reference_conductor": 0
+    }
+  ],
+  "models": [
+    {
+      "d": 1,
+      "H": 2,
+      "conductor_exponent": 0,
+      "pari_kodaira_code": 1,
+      "minimal_discriminant_valuation": 0,
+      "change_u_r_s_t_valuations": [
+        6,
+        4,
+        2,
+        10
+      ],
+      "minimal_a1_a2_a3_a4_a6_valuations": [
+        4,
+        0,
+        0,
+        0,
+        2
+      ],
+      "H_plus_8_delta_a4_a6_lower_bounds": [
+        8,
+        0
+      ]
+    },
+    {
+      "d": 1,
+      "H": 6,
+      "conductor_exponent": 4,
+      "pari_kodaira_code": -2,
+      "minimal_discriminant_valuation": 12,
+      "change_u_r_s_t_valuations": [
+        5,
+        4,
+        2,
+        10
+      ],
+      "minimal_a1_a2_a3_a4_a6_valuations": [
+        5,
+        2,
+        3,
+        4,
+        5
+      ],
+      "H_plus_8_delta_a4_a6_lower_bounds": [
+        12,
+        6
+      ]
+    },
+    {
+      "d": 2,
+      "H": 2,
+      "conductor_exponent": 4,
+      "pari_kodaira_code": -2,
+      "minimal_discriminant_valuation": 12,
+      "change_u_r_s_t_valuations": [
+        5,
+        4,
+        2,
+        10
+      ],
+      "minimal_a1_a2_a3_a4_a6_valuations": [
+        5,
+        3,
+        3,
+        6,
+        5
+      ],
+      "H_plus_8_delta_a4_a6_lower_bounds": [
+        12,
+        6
+      ]
+    },
+    {
+      "d": 2,
+      "H": 6,
+      "conductor_exponent": 0,
+      "pari_kodaira_code": 1,
+      "minimal_discriminant_valuation": 0,
+      "change_u_r_s_t_valuations": [
+        6,
+        4,
+        2,
+        10
+      ],
+      "minimal_a1_a2_a3_a4_a6_valuations": [
+        4,
+        1,
+        0,
+        2,
+        0
+      ],
+      "H_plus_8_delta_a4_a6_lower_bounds": [
+        8,
+        0
+      ]
+    }
+  ],
+  "pari_version_used": [
+    2,
+    19,
+    0
+  ],
+  "base_polynomial": "y^8 + 32*y^7 + 328*y^6 + 1152*y^5 - 54*y^4 - 6048*y^3 - 1944*y^2 + 729",
+  "base_discriminant": 3869835264,
+  "base_rnfequation_k": 0
+}

@@ -1,0 +1,183 @@
+{
+  "result": "R332",
+  "disk_id": "SS_j10_03",
+  "arithmetic_parent_source_sha256": "5a71ee59bb17b3c14d490574f2ef0ecf13be2775d0871faef16b163ff0f33456",
+  "input_sha256": {
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_SS_F2_connection47.py": "11d8407e802dcd717f5c629561df512cd2d6c06838e660fc5853ea4d2007998f",
+    "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_SS_F2_local_polynomial47.py": "b7c57dd609a1722e9165b1f34190693edbcf904651451a8daa4d8427dad363c3",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_03_actual_canonical_F2_height47.json.gz": "869ef38bbf50607ab8adadf6adfa3cb6e6fcea9ad4db98151e336d65f1c720df",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_03_actual_canonical_F2_polynomial47.json.gz": "106d4380dfdc3650cb69ac8f2f8e722a51a8eebfbc100459bc16938bda319918",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_03_actual_F2_first_variable_norm47.json.gz": "a3e44f129fef75e56fa5838a36ab99ed9749c6e60f0e17d9236ad72919ec0e8d",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_03_actual_T2_support47.json.gz": "596844acbd3899848105439211b15ccb21966a00adb3cb0b4829820c5f0527a0",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_03_actual_T2_principal_norm47.json.gz": "6f9f4a8ea47bda5fe186c63c80cf6920b71e796bac86d16a26d4fc83ba91a958",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_03_principal_expression47.json.gz": "219b19efc7d0d8068eda16debb9690fe80591e2a7619c6e5254b2ad175215b6d",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/SS_j10_03_actual_second_kind_integrals47.json.gz": "d2ebbf052739a246899492c5a3231abec9245f861d3992f9a2ee7906cd4688fc",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/R332_SS_work/SS_j10_03_Abel47.json.gz": "e5b4484aa16fe527d4eb5b1ac84e40e4a2db57e572d6af41c4d8cdcd764687be",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/R332_SS_work/SS_j10_03_multiply47.json.gz": "015133a1f516f5adb8c593e748aa3ae1f3e1e16f30a5296689c9a61aec763e8d",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/R332_SS_j10_03_based_points47.json.gz": "09fb4d6c0bab64d8391af1da8947899b9dc3bbb7c947e12c2137025cf3deac76",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_three_ordinary_CM_anchors_and_113_global_functions47.json.gz": "a9c40049ce3eab329ed22ff27edcb39e929491bacf35c11887b348c0609bdb6a",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_rational_SS_second_kind_integrals47_complete.json.gz": "c8b5e8d292b89dadf5cfa5f1b7bafadff6848cda61ddfe207c5009f2ed6a401d",
+    "/workspace/scratch/76d0eb5f3db8/root-recovery/R332_SS_transports/SS_j10_03/transport_manifest47.json": "35100e6f690f49b3d4185a5980e1fc8d4bc6ba1b51de0bf50e0e0b1b61f9544a"
+  },
+  "source_sha256": "833373ec357ed4e9a7d1cbb0c508dbbff30f04bc9640951cd3090f042b42b345",
+  "checked_nested_hash_edges": [
+    [
+      "center",
+      "second"
+    ],
+    [
+      "center",
+      "principal"
+    ],
+    [
+      "center",
+      "T2_support"
+    ],
+    [
+      "center",
+      "full_norm"
+    ],
+    [
+      "polynomial",
+      "center"
+    ],
+    [
+      "polynomial",
+      "Abel"
+    ],
+    [
+      "polynomial",
+      "multiply"
+    ],
+    [
+      "Abel",
+      "multiply"
+    ],
+    [
+      "second",
+      "Abel"
+    ],
+    [
+      "second",
+      "multiply"
+    ],
+    [
+      "second",
+      "based"
+    ],
+    [
+      "principal",
+      "second"
+    ],
+    [
+      "T2_norm",
+      "principal"
+    ],
+    [
+      "T2_norm",
+      "T2_support"
+    ],
+    [
+      "full_norm",
+      "T2_norm"
+    ],
+    [
+      "full_norm",
+      "principal"
+    ],
+    [
+      "full_norm",
+      "second"
+    ],
+    [
+      "full_norm",
+      "multiply"
+    ],
+    [
+      "full_norm",
+      "based"
+    ]
+  ],
+  "all457_actual_principal_function_hashes_verified": true,
+  "all455_integer_divisor_SLP_relations_replayed": true,
+  "exact_final_f0_exponent_zero_and_total_weight_zero": true,
+  "T2_saved_Weierstrass_relations_independently_replayed": 1365,
+  "all460_full106_norm_values_recombined_by_exact_integer_exponents": true,
+  "all108_actual_integrals_match_independent_SS_Hecke_solutions": true,
+  "all54_principal_norm_derivatives_plus_terminal_tiny_equal_m_times_original_nu": true,
+  "all_actual_family1_integrals_independently_reassembled": {
+    "B": 2572357,
+    "C": 4689942,
+    "D_minus20b": 1179888,
+    "K_g1_minus106b": 1637527,
+    "T2C": 1335270,
+    "Z8_minus20b": 809293,
+    "c7_minus_b": 3264009,
+    "u_minus_b": 2887821
+  },
+  "actual_j_to_z_tangent_change_cancels_in_height": true,
+  "actual_g1_over_dj_base_center": [
+    2971134,
+    3464683
+  ],
+  "canonical_sigma": 1720392,
+  "canonical_sigma_log": 4733511,
+  "signed_actual_scale": 21113421681728164076758160383370947105909472013138012462421148345826995695660466565589785072,
+  "second_divisor_tiny": 4143144,
+  "full_first_norm_log": 538620,
+  "actual_center_height": 771646,
+  "local_polynomial": [
+    771646,
+    1158926,
+    90569,
+    3426159
+  ],
+  "global_polynomial": [
+    2998083,
+    3850851,
+    3463900,
+    510279,
+    2076460
+  ],
+  "QC_polynomial": [
+    521089,
+    3849441,
+    4203915,
+    1963801,
+    2076460
+  ],
+  "QC_div47_reduction": [
+    42,
+    29,
+    4,
+    0,
+    0
+  ],
+  "residual_roots": [
+    30,
+    45
+  ],
+  "simple_single_F2_root_candidates_to_available_precision": [
+    {
+      "y_mod47cubed": 23906,
+      "z_mod47four": 1123582,
+      "y_base47_digits": [
+        30,
+        38,
+        10
+      ],
+      "derivative_mod47": 34
+    },
+    {
+      "y_mod47cubed": 102035,
+      "z_mod47four": 4795645,
+      "y_base47_digits": [
+        45,
+        8,
+        46
+      ],
+      "derivative_mod47": 13
+    }
+  ],
+  "scope": "Independent standard-library exact saved-section DAG/Weierstrass/unit Norm arithmetic, 108 independent Hecke matches, actual tangent and tiny integration scalars, and simple Hensel roots; no duplicate RR, torsion or long group-chain execution."
+}

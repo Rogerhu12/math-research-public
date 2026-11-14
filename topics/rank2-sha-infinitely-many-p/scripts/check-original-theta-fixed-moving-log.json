@@ -1,0 +1,42 @@
+{
+  "p": 43,
+  "r": 11,
+  "kappa": 30,
+  "actual_connection_free_constant": 13,
+  "minus_68_kappa": 24,
+  "original_first_row": [
+    39,
+    6
+  ],
+  "original_second_row": [
+    22,
+    2
+  ],
+  "fixed_s_minus_one_log_row": [
+    29,
+    23
+  ],
+  "moving_log_row": [
+    1,
+    37
+  ],
+  "polynomial_connection_second_row": [
+    26,
+    13
+  ],
+  "same_gauge_second_row_without_log_forcing": [
+    33,
+    24
+  ],
+  "minor_original": 32,
+  "minor_polynomial_connection": 7,
+  "minor_fixed_log": 35,
+  "minor_moving_log": 18,
+  "weighted_fixed_log_contribution": 23,
+  "weighted_moving_log_contribution": 2,
+  "minor_if_moving_term_discarded": 30,
+  "r207_bare_trace_unit": 21,
+  "exact_original_gamma_connection_identity": true,
+  "fixed_moving_decomposition_verified": true,
+  "scope": "One existing original p43 calibration. It refutes unconditional removal of the moving log term; the original first row is nonzero, so it does not settle a conditional identity after first-row vanishing or prove infinite-prime nonvanishing."
+}

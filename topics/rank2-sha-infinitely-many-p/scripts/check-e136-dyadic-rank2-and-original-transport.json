@@ -1,0 +1,309 @@
+{
+  "theorem": "R239",
+  "status": "PASS",
+  "ring": "Z[zeta_16], zeta_16^8=-1",
+  "curve": {
+    "ainvs": [
+      0,
+      0,
+      0,
+      -136,
+      0
+    ],
+    "rank": 2,
+    "points": [
+      [
+        -8,
+        24
+      ],
+      [
+        "49/4",
+        "105/8"
+      ]
+    ],
+    "dual_ainvs": [
+      0,
+      0,
+      0,
+      34,
+      0
+    ]
+  },
+  "dyadic_character": {
+    "eta_i": "1",
+    "eta_g_star": "-i"
+  },
+  "dyadic_vector": [
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "-1",
+      "1",
+      "-1",
+      "1",
+      "0",
+      "-1",
+      "1",
+      "-1"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "-1",
+      "1",
+      "-1",
+      "0",
+      "1",
+      "-1",
+      "1"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "-1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "-1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "-1",
+      "1",
+      "-1",
+      "0",
+      "1",
+      "-1",
+      "1"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "-1",
+      "1",
+      "-1",
+      "1",
+      "0",
+      "-1",
+      "1",
+      "-1"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "t": [
+    "-1",
+    "1",
+    "-1",
+    "1",
+    "0",
+    "-1",
+    "1",
+    "-1"
+  ],
+  "joint_kernel": {
+    "rank_mod_97": 15,
+    "zeta_mod_97": 8,
+    "pivot_columns": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "quartic_residues": [
+    {
+      "u_parity": 0,
+      "v_parity": 1,
+      "residue": 12
+    },
+    {
+      "u_parity": 1,
+      "v_parity": 0,
+      "residue": 2
+    },
+    {
+      "u_parity": 1,
+      "v_parity": 1,
+      "residue": 14
+    }
+  ],
+  "rank_certificate": {
+    "alpha_E": [
+      1,
+      -2,
+      17,
+      -34
+    ],
+    "alpha_dual": [
+      1,
+      2,
+      17,
+      34
+    ]
+  },
+  "raw_theta": {
+    "L": 68,
+    "period": 4624,
+    "phase_mod_289": 236,
+    "discriminant_module": 4624,
+    "quadratic_denominator": 9248
+  },
+  "transport": "(Z X + zeta Z^-1 X + zeta Z X^-1 + Z^-1 X^-1)/(1+zeta)",
+  "section": {
+    "degree": 272,
+    "theta_origin": "A17(4z)",
+    "P": "(4-i) Omega_0/16",
+    "Q": "-i P"
+  },
+  "checks": {
+    "tan_half_angle_exact": true,
+    "t_is_real": true,
+    "t_minimal_polynomial": true,
+    "original_I_eigenvalue_one": true,
+    "original_G_eigenvalue_i": true,
+    "old_vector_I_one": true,
+    "old_vector_G_one": true,
+    "vector_even": true,
+    "vector_half_period_antiperiodic": true,
+    "X8_new_sign_minus": true,
+    "Z8_new_sign_minus": true,
+    "X8_old_sign_plus": true,
+    "Z8_old_sign_plus": true,
+    "dyadic_norm_four_times": true,
+    "weyl_commutator": true,
+    "four_actual_Weyl_terms": true,
+    "auxiliary_zeta_exact_order_16": true,
+    "joint_invariant_line_unique": true,
+    "E136_point": true,
+    "dual_point": true,
+    "isogeny_image": true,
+    "d2_quartic_obstruction_01": true,
+    "d2_quartic_obstruction_10": true,
+    "d2_quartic_obstruction_11": true,
+    "two_exact_dim2_Kummer_images": true,
+    "lambda_four_one": true,
+    "lambda_two_squared_one": true,
+    "phase_division_by_sixteen": true,
+    "phase_previous_e34": true,
+    "CRT_dyadic_step": true,
+    "three_actual_rows_triangular": true,
+    "translation_Weil_pairing": true,
+    "fixed_order_16_transport_points": true
+  }
+}

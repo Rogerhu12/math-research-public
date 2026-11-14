@@ -1,0 +1,122 @@
+{
+  "scope": "Exact two-fiber counterexample to a CM7 scalar eigenline; no target-prime scan.",
+  "prime": 1009,
+  "delta": 260,
+  "gamma7": 637,
+  "gamma7_bar": 377,
+  "source": "A=sigma^136*x^2*Q(x^3), b=1; Q is the actual R414 polynomial.",
+  "Q_coefficients_ascending": [
+    507,
+    414,
+    471,
+    74,
+    255,
+    556,
+    640,
+    133,
+    616,
+    620,
+    693,
+    997,
+    400,
+    95,
+    560,
+    521,
+    72,
+    747,
+    397,
+    9,
+    565,
+    1
+  ],
+  "fibers": [
+    {
+      "target_x": 1,
+      "fiber_polynomial_ascending": [
+        70,
+        815,
+        0,
+        963,
+        843,
+        0,
+        858,
+        1
+      ],
+      "q_inverse_ascending": [
+        533,
+        0,
+        860,
+        516,
+        0,
+        294,
+        840
+      ],
+      "qbar_inverse_ascending": [
+        18,
+        112,
+        378,
+        123,
+        28,
+        599,
+        152
+      ],
+      "fiber_derivative_inverse_ascending": [
+        458,
+        187,
+        696,
+        177,
+        335,
+        437,
+        476
+      ],
+      "trace": 655,
+      "source_value": 262,
+      "trace_divided_by_source": 507
+    },
+    {
+      "target_x": 3,
+      "fiber_polynomial_ascending": [
+        210,
+        815,
+        0,
+        871,
+        843,
+        0,
+        556,
+        1
+      ],
+      "q_inverse_ascending": [
+        533,
+        0,
+        562,
+        516,
+        0,
+        882,
+        840
+      ],
+      "qbar_inverse_ascending": [
+        225,
+        503,
+        692,
+        578,
+        378,
+        173,
+        228
+      ],
+      "fiber_derivative_inverse_ascending": [
+        715,
+        913,
+        5,
+        503,
+        864,
+        454,
+        34
+      ],
+      "trace": 403,
+      "source_value": 7,
+      "trace_divided_by_source": 490
+    }
+  ],
+  "ratio_difference": 17,
+  "interpretation": "The characteristic-zero actual source A is not a CM7 eigenvector."
+}

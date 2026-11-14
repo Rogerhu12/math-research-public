@@ -1,0 +1,47 @@
+{
+  "disk_id": "ORD_j39",
+  "scope": "Only additional flat principal expression and actual T2 norm; unchanged CM chains are already sealed in R256 and T2 support in R265",
+  "files": [
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-F2-norms/ORD_j39_actual_principal_function47.json.gz",
+      "target": "scripts/data/ORD_j39_actual_principal_function47.json.gz",
+      "bytes": 38676,
+      "sha256": "42624df5830f5a08ee09c542c12f77b9f39df988cb402bd8baad6130031bd92e"
+    },
+    {
+      "source": "/workspace/scratch/76d0eb5f3db8/agent-qc/ordinary-F2-norms/ORD_j39_actual_T2_principal_norm47.json.gz",
+      "target": "scripts/data/ORD_j39_actual_T2_principal_norm47.json.gz",
+      "bytes": 20402,
+      "sha256": "7093c39be17207f51c468187871aa5c11bd631517f42b3dde482a76f3491be44"
+    }
+  ],
+  "already_sealed_dependencies": [
+    {
+      "basename": "p41_ORD_j39_principal_transports47.tar.gz",
+      "sha256": "489135f5281beece1569f0d4dfe2e6937f3ae41c21bf4217208bcb5a85d73b24",
+      "present_identical_in_current_repository_tree": true
+    },
+    {
+      "basename": "ORD_j39_second_kind_complete47.json.gz",
+      "sha256": "d4406fd65e127ee926de94b979ae93eb64b8fa5cdd96e696e1e3c1ab09594330",
+      "present_identical_in_current_repository_tree": true
+    },
+    {
+      "basename": "ORD_j39_actual_T2_support47.json.gz",
+      "sha256": "9a1f19b59ae1e9330277661930872f591b34c07f1862ee7afbeacf0ca8be9f5c",
+      "present_identical_in_current_repository_tree": true
+    },
+    {
+      "basename": "ORD_j39_Abel47.json.gz",
+      "sha256": "3c549bf091d0d1d2e7b5f1fbe526eb5c1dffd20c7f88d62610dc2f32d0e891d3",
+      "present_identical_in_current_repository_tree": true
+    },
+    {
+      "basename": "ORD_j39_multiply47.json.gz",
+      "sha256": "29ecbe6fd5aa5226d559bab7b6772d3f0d0538b12cc3e277fa1d041a69e03252",
+      "present_identical_in_current_repository_tree": true
+    }
+  ],
+  "all_hash_edges_to_original_R256_archive_checked": true,
+  "mathematical_reexecution": false
+}

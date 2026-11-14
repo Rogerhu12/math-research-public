@@ -1,0 +1,31 @@
+{
+  "result": "R588",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "Reconstructed after loss of the old workspace and functions memory; no old-byte equality is claimed unless separately evidenced.",
+  "source_proof_sha256": "cc962812e88731a5db077f3d2d304c0e0908862fce37e41a70145569bae99dc2",
+  "root_review": "Root read the full new normalization proof and all small exact certificate values; independently opened and checked Hsieh Section1.1/Propositions2.1,3.3, FMP Section5B4 and Bannai-Kobayashi Theorem1.17. Checked finite/classical degeneracy inversion, both p+1 factors, unit/odd-valuation cosets at3, Hermitian conjugation in Waldspurger, global CM volume, exact CRT signs, GM-to-Maass period conversion and actual anti-linear marking. Only a typographic comma in an exponent and a dependency clarification are changed at publication. No old torsion orbit rerun.",
+  "files": [
+    {
+      "file": "results/R588-actual-toric-norm-and-CM-normalization.md",
+      "bytes": 21357,
+      "sha256": "13ae1923288b356a55536758835b82aeefdede9b89f8453b8d1b20d4bcf09c7e"
+    },
+    {
+      "file": "scripts/verify_R588_exact_normalization_reconstructed.py",
+      "bytes": 2792,
+      "sha256": "a1006a9fcb104831971cac2b441b069d1d991e4f279b5a82019427ff0ce2cb28"
+    },
+    {
+      "file": "scripts/R588_exact_normalization_certificate.recovered.json",
+      "bytes": 1415,
+      "sha256": "3d798b222ef657e9e2f13ac878dc0fc93600358e9c4e808c09e51f63ece6b248"
+    },
+    {
+      "file": "notes/R588-recovery-source-manifest.json",
+      "bytes": 2652,
+      "sha256": "198319126cde8574ecced6e11cdd741e7a513c70b5a74a03a24c996fccf48e18"
+    }
+  ],
+  "explicit_new_finite_norm": "Ntheta=G(e0,Tr_T e0)=(p+1)G(A_Te0,A_Te0)",
+  "original_lost_Ntheta_definition_claimed_identical": false
+}

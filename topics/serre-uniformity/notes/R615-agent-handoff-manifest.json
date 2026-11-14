@@ -1,0 +1,112 @@
+{
+  "result": "R615",
+  "status": "proved in the stated fixed-six-torsion scope",
+  "files": [
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R615-full-six-torsion-Kronecker-traces-and-integral-Cp.md",
+      "target": "results/R615-full-six-torsion-Kronecker-traces-and-integral-Cp.md",
+      "basename": "R615-full-six-torsion-Kronecker-traces-and-integral-Cp.md",
+      "bytes": 14758,
+      "sha256": "1ba2330fd27af8fee8a9ac88f8ce57979185c43f21ac89473785aafda04eddd7"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R615_full_six_torsion_kronecker.py",
+      "target": "scripts/R615_full_six_torsion_kronecker.py",
+      "basename": "R615_full_six_torsion_kronecker.py",
+      "bytes": 4613,
+      "sha256": "0dae7b9a0b69cb26a9a5b4455d7a43b06396b0238ddab3fa293d03beb80cdc23"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R615_full_kronecker_k5.json",
+      "target": "scripts/data/R615_full_kronecker_k5.json",
+      "basename": "R615_full_kronecker_k5.json",
+      "bytes": 1224,
+      "sha256": "785d22cde7c34265dd1fd0b61882369e84c452c464af9dc15d25e63f7c4e6dc8"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R615_full_kronecker_k11.json",
+      "target": "scripts/data/R615_full_kronecker_k11.json",
+      "basename": "R615_full_kronecker_k11.json",
+      "bytes": 1499,
+      "sha256": "dbe05e9558b6ea71e98b2be6a243ccbb132388efdefb13c97a594234b582b0c0"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R615_full_kronecker_k41.json",
+      "target": "scripts/data/R615_full_kronecker_k41.json",
+      "basename": "R615_full_kronecker_k41.json",
+      "bytes": 5585,
+      "sha256": "eaed13ff79e40bebb2e94fea19fe6a1e9ab0a96376a96da7525c9711705e715c"
+    }
+  ],
+  "prior_inputs": [
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/results/R574-completed-zeta-Cartier-input.md",
+      "target": "results/R574-completed-zeta-Cartier-input.md",
+      "basename": "R574-completed-zeta-Cartier-input.md",
+      "bytes": 8860,
+      "sha256": "6d4fb8bde9faeed42de9e9dd48c840eb79cb0edcf35761418cc45b2b6a237f42"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/results/R564-two-rational-kernels-Cartier-exchange.md",
+      "target": "results/R564-two-rational-kernels-Cartier-exchange.md",
+      "basename": "R564-two-rational-kernels-Cartier-exchange.md",
+      "bytes": 5464,
+      "sha256": "7d6f7e3ae1e037bf8b82b10116af9f4e732d0ccc27093f0b63d9841c68958592"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/results/R586-actual-c0-marking-and-six-torsion-kernel.md",
+      "target": "results/R586-actual-c0-marking-and-six-torsion-kernel.md",
+      "basename": "R586-actual-c0-marking-and-six-torsion-kernel.md",
+      "bytes": 10180,
+      "sha256": "dff55f7488b38f9725d322ebd5ad3d0addfe4da879d0ecf30c27f1d3e235c4d1"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/results/R605-middle-CM-block-as-one-characteristic-p-coefficient.md",
+      "target": "results/R605-middle-CM-block-as-one-characteristic-p-coefficient.md",
+      "basename": "R605-middle-CM-block-as-one-characteristic-p-coefficient.md",
+      "bytes": 11270,
+      "sha256": "6d12fca1ede4a9e74a108aa311d9533470a815f1cf55ef26f45366a16db79bcf"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/notes/R605_r2_prime41.json",
+      "target": "notes/R605_r2_prime41.json",
+      "basename": "R605_r2_prime41.json",
+      "bytes": 1255,
+      "sha256": "8a9344e387fa490e2a4463f15dbfc5fd8b5954cb88934e8793b1feee9a315bb7"
+    }
+  ],
+  "new_theorems": [
+    "Complete inverse-sigma Kronecker diagonal in Q[r]/(r^3-4)",
+    "Exact fixed-family Hecke central L normalization with all factorial and period factors",
+    "C_p in Z_(p) for every prime p>=5, p=5 mod6, with a finite integral p-defect formula"
+  ],
+  "actual_short_computations": {
+    "C5": "9/2",
+    "C11": "972/7",
+    "C41": "574168637166800435427012363416613708/12258649578393708893528125",
+    "runtime_seconds": [
+      0.008947,
+      0.089474,
+      1.552226
+    ],
+    "C41_mod41": 28,
+    "c41_mod41": 36,
+    "published_actual_r2_mod41": 24
+  },
+  "scope_boundaries": {
+    "all_p_r2_equals_c_Cp_proved": false,
+    "all_p_Cp_nonzero_proved": false,
+    "actual_Cartan_jet_replaced_by_fixed_curve_value": false,
+    "new_global_candidate_exclusion": false,
+    "prime_grid_run": false,
+    "old_p_torsion_orbits_repeated": false,
+    "new_local_long_calculation_launched": false
+  },
+  "remaining_bridge": "Finite residues agree after c*B^(-a)*a!/Cplus; the difference may still have a sole O pole of order at most a-2.",
+  "primary_source": {
+    "url": "https://arxiv.org/pdf/math/0610163",
+    "locator": "Theorem 1.17",
+    "used_scope": "Complex Kronecker generating identity only; no ordinary p-adic interpolation assertion"
+  },
+  "execution_note": "All three specified short exact-rational computations were actually executed before this manifest. No mathematics was rerun for packaging."
+}

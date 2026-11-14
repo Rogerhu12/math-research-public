@@ -1,0 +1,36 @@
+{
+  "result": "CI2026111403",
+  "kind": "authorized continuation of the two actual R552 prefixes",
+  "files": [
+    {
+      "file": "scripts/p41_ci_continue_true_CM4_chains47.py",
+      "bytes": 9308,
+      "sha256": "7684fcee0c9f01695f34ccc8f851c50a7beeccad0e51b904a9fe81dcb3c4ae62"
+    },
+    {
+      "file": "notes/2026-11-14-handoff-before-public-runner-wait.md",
+      "bytes": 9660,
+      "sha256": "0e4792c9f3eec6f3dca5ef401b719fa65e0e117da3fc03e01e58820bdac794b2"
+    }
+  ],
+  "queue_requests": [
+    {
+      "result": "R655",
+      "disk_ids": [
+        "SS_j36_06",
+        "SS_j36_02"
+      ],
+      "request": "ci-queue/serre-uniformity--true-CM4-pair-R655.json",
+      "sha256": "9615faba7507c8992cd008e9c74cc685b5314a1e6dcfd9185d3133a4f660a9f8"
+    }
+  ],
+  "initial_geometry_or_initial_flips_repeated": false,
+  "F2_F3_height_or_disk_exclusion_claimed": false,
+  "manual_workflow_dispatch": {
+    "status": "denied",
+    "http_status": 403,
+    "reason": "Resource not accessible by personal access token; no Actions workflow_dispatch permission",
+    "response": "leave submitted queue requests for the configured scheduled claim; continue research"
+  },
+  "public_runner_math_status": "submitted, not yet claimed or completed at registration"
+}

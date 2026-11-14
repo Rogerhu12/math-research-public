@@ -1,0 +1,127 @@
+{
+  "finite_field": {
+    "C_affine_points_mod5": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "C_points_at_infinity_mod5": 0,
+    "E_cardinality": 140,
+    "inert_prime": 5,
+    "residue_field_size": 125
+  },
+  "five_adic": {
+    "P_log": {
+      "logarithm_mod125": [
+        20,
+        22,
+        24
+      ],
+      "t_div_5_mod125": [
+        60,
+        116,
+        47
+      ],
+      "t_valuation": 1
+    },
+    "all_projective_steps_primitive_mod5": true,
+    "annihilator_pivot": 1,
+    "curve_a4": [
+      -7779,
+      -120,
+      1668
+    ],
+    "curve_a6": [
+      156958,
+      -49320,
+      -10092
+    ],
+    "known_disc_derivatives_mod5": {
+      "-1": [
+        3,
+        1
+      ],
+      "1": [
+        2,
+        2
+      ]
+    },
+    "projective_steps_checked": 20,
+    "rational_points": [
+      [
+        -1,
+        -12
+      ],
+      [
+        -1,
+        12
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "x0_annihilator_derivatives_mod125": [
+      4,
+      75
+    ],
+    "x0_annihilators_mod125": [
+      15,
+      85
+    ],
+    "x0_log": {
+      "logarithm_mod125": [
+        55,
+        16,
+        27
+      ],
+      "t_div_5_mod125": [
+        40,
+        73,
+        6
+      ],
+      "t_valuation": 1
+    },
+    "x0_obstruction_mod25": 10,
+    "x0_square_root_mod125": [
+      105,
+      57,
+      102
+    ]
+  },
+  "formal_log_remainder_before_division_valuation_at_least": 4,
+  "independent_working_precision": 8,
+  "logic": [
+    "all six C(F5) residue discs, including both signs",
+    "the global rank-one logarithm line, no subgroup-index assumption",
+    "x=0 disc excluded modulo25; x=1,-1 discs have a unique zero"
+  ],
+  "precision_loss_from_division_by_140": 1,
+  "scope": "complete rational-point classification of the fixed genus-two twist",
+  "working_precision": 4
+}

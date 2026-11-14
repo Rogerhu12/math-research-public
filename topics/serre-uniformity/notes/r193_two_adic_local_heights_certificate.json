@@ -1,0 +1,3662 @@
+{
+  "result": "R193",
+  "level": 41,
+  "auxiliary_prime": 47,
+  "precision": 4,
+  "modulus": 4879681,
+  "tangent_parameters": {
+    "Z_minus4": "j-1728",
+    "cusps": "q41"
+  },
+  "formula": "I2(T_n)=sum_nonGaussian(v2(c^2+d^2)*w)/4+20*rho(n)*v2(n)-120*rho(n)",
+  "formula_status": "geometric normalization is proved separately; enumeration alone is not a proof",
+  "normalization": {
+    "full_CM_marking_units": 4,
+    "effective_wild_stabilizer": 2,
+    "normalized_fine_length": "L/2",
+    "coarse_length": "L",
+    "canonical_self_per_point": -6,
+    "number_of_canonical_points": 20,
+    "coarse_pairs": [
+      [
+        3,
+        14
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        24
+      ],
+      [
+        13,
+        19
+      ],
+      [
+        17,
+        29
+      ],
+      [
+        22,
+        28
+      ],
+      [
+        26,
+        30
+      ],
+      [
+        27,
+        38
+      ],
+      [
+        34,
+        35
+      ]
+    ],
+    "ordered_pair_contact_total": 40,
+    "canonical_trace_self": -80
+  },
+  "audit": {
+    "basis_rows": 54,
+    "distinct_norm_degrees": 55,
+    "total_quaternions_in_54_rows": 56616,
+    "non_gaussian_quaternions_in_54_rows": 56460,
+    "matrix_weight_checks": "every quaternion",
+    "doubling": [
+      {
+        "n": 1,
+        "twice": 2,
+        "bijection_size": 24,
+        "weighted_layer": 40,
+        "intersection_increment": 40
+      },
+      {
+        "n": 2,
+        "twice": 4,
+        "bijection_size": 24,
+        "weighted_layer": 40,
+        "intersection_increment": 40
+      },
+      {
+        "n": 3,
+        "twice": 6,
+        "bijection_size": 96,
+        "weighted_layer": 0,
+        "intersection_increment": 0
+      },
+      {
+        "n": 5,
+        "twice": 10,
+        "bijection_size": 144,
+        "weighted_layer": 80,
+        "intersection_increment": 80
+      },
+      {
+        "n": 7,
+        "twice": 14,
+        "bijection_size": 192,
+        "weighted_layer": 16,
+        "intersection_increment": 16
+      },
+      {
+        "n": 11,
+        "twice": 22,
+        "bijection_size": 288,
+        "weighted_layer": 48,
+        "intersection_increment": 48
+      },
+      {
+        "n": 13,
+        "twice": 26,
+        "bijection_size": 336,
+        "weighted_layer": 96,
+        "intersection_increment": 96
+      },
+      {
+        "n": 15,
+        "twice": 30,
+        "bijection_size": 576,
+        "weighted_layer": 32,
+        "intersection_increment": 32
+      },
+      {
+        "n": 17,
+        "twice": 34,
+        "bijection_size": 432,
+        "weighted_layer": 128,
+        "intersection_increment": 128
+      },
+      {
+        "n": 19,
+        "twice": 38,
+        "bijection_size": 480,
+        "weighted_layer": 80,
+        "intersection_increment": 80
+      },
+      {
+        "n": 21,
+        "twice": 42,
+        "bijection_size": 768,
+        "weighted_layer": 80,
+        "intersection_increment": 80
+      },
+      {
+        "n": 23,
+        "twice": 46,
+        "bijection_size": 576,
+        "weighted_layer": 32,
+        "intersection_increment": 32
+      },
+      {
+        "n": 29,
+        "twice": 58,
+        "bijection_size": 720,
+        "weighted_layer": 160,
+        "intersection_increment": 160
+      },
+      {
+        "n": 31,
+        "twice": 62,
+        "bijection_size": 768,
+        "weighted_layer": 128,
+        "intersection_increment": 128
+      },
+      {
+        "n": 33,
+        "twice": 66,
+        "bijection_size": 1152,
+        "weighted_layer": 144,
+        "intersection_increment": 144
+      },
+      {
+        "n": 35,
+        "twice": 70,
+        "bijection_size": 1152,
+        "weighted_layer": 112,
+        "intersection_increment": 112
+      },
+      {
+        "n": 37,
+        "twice": 74,
+        "bijection_size": 912,
+        "weighted_layer": 224,
+        "intersection_increment": 224
+      },
+      {
+        "n": 39,
+        "twice": 78,
+        "bijection_size": 1344,
+        "weighted_layer": 160,
+        "intersection_increment": 160
+      },
+      {
+        "n": 43,
+        "twice": 86,
+        "bijection_size": 1056,
+        "weighted_layer": 80,
+        "intersection_increment": 80
+      }
+    ]
+  },
+  "norm_records": [
+    {
+      "n": 1,
+      "quaternions": 24,
+      "non_gaussian": 20,
+      "gaussian_markings": 4,
+      "rho": 1,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 2,
+          "weight": 20,
+          "count": 4
+        }
+      ],
+      "weighted_non_gaussian_length": 160,
+      "weighted_all_mass": 160,
+      "layer_mass": 40,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 40,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": -120,
+      "I2": -80
+    },
+    {
+      "n": 2,
+      "quaternions": 24,
+      "non_gaussian": 20,
+      "gaussian_markings": 4,
+      "rho": 1,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 3,
+          "weight": 20,
+          "count": 4
+        }
+      ],
+      "weighted_non_gaussian_length": 240,
+      "weighted_all_mass": 160,
+      "layer_mass": 40,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 60,
+      "ramified_degree_correction": 20,
+      "j_tangent_diagonal_correction": -120,
+      "I2": -40
+    },
+    {
+      "n": 3,
+      "quaternions": 96,
+      "non_gaussian": 96,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 16
+        }
+      ],
+      "weighted_non_gaussian_length": 0,
+      "weighted_all_mass": 0,
+      "layer_mass": 0,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 0,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 0
+    },
+    {
+      "n": 4,
+      "quaternions": 24,
+      "non_gaussian": 20,
+      "gaussian_markings": 4,
+      "rho": 1,
+      "depth_weight_histogram": [
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 4,
+          "weight": 20,
+          "count": 4
+        }
+      ],
+      "weighted_non_gaussian_length": 320,
+      "weighted_all_mass": 160,
+      "layer_mass": 40,
+      "valuation_of_degree": 2,
+      "raw_proper_coefficient": 80,
+      "ramified_degree_correction": 40,
+      "j_tangent_diagonal_correction": -120,
+      "I2": 0
+    },
+    {
+      "n": 5,
+      "quaternions": 144,
+      "non_gaussian": 136,
+      "gaussian_markings": 8,
+      "rho": 2,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 96
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 2,
+          "weight": 20,
+          "count": 8
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 16
+        }
+      ],
+      "weighted_non_gaussian_length": 320,
+      "weighted_all_mass": 320,
+      "layer_mass": 80,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 80,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": -240,
+      "I2": -160
+    },
+    {
+      "n": 6,
+      "quaternions": 96,
+      "non_gaussian": 96,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 16
+        }
+      ],
+      "weighted_non_gaussian_length": 0,
+      "weighted_all_mass": 0,
+      "layer_mass": 0,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 0,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 0
+    },
+    {
+      "n": 7,
+      "quaternions": 192,
+      "non_gaussian": 192,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 64,
+      "weighted_all_mass": 64,
+      "layer_mass": 16,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 16,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 16
+    },
+    {
+      "n": 10,
+      "quaternions": 144,
+      "non_gaussian": 136,
+      "gaussian_markings": 8,
+      "rho": 2,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 96
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 3,
+          "weight": 20,
+          "count": 8
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 16
+        }
+      ],
+      "weighted_non_gaussian_length": 480,
+      "weighted_all_mass": 320,
+      "layer_mass": 80,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 120,
+      "ramified_degree_correction": 40,
+      "j_tangent_diagonal_correction": -240,
+      "I2": -80
+    },
+    {
+      "n": 11,
+      "quaternions": 288,
+      "non_gaussian": 288,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 192
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 48
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 48
+        }
+      ],
+      "weighted_non_gaussian_length": 192,
+      "weighted_all_mass": 192,
+      "layer_mass": 48,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 48,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 48
+    },
+    {
+      "n": 13,
+      "quaternions": 336,
+      "non_gaussian": 328,
+      "gaussian_markings": 8,
+      "rho": 2,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 160
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 48
+        },
+        {
+          "depth": 2,
+          "weight": 20,
+          "count": 8
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 384,
+      "weighted_all_mass": 384,
+      "layer_mass": 96,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 96,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": -240,
+      "I2": -144
+    },
+    {
+      "n": 14,
+      "quaternions": 192,
+      "non_gaussian": 192,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 128,
+      "weighted_all_mass": 64,
+      "layer_mass": 16,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 32,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 32
+    },
+    {
+      "n": 15,
+      "quaternions": 576,
+      "non_gaussian": 576,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 320
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 224,
+      "weighted_all_mass": 128,
+      "layer_mass": 32,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 56,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 56
+    },
+    {
+      "n": 17,
+      "quaternions": 432,
+      "non_gaussian": 424,
+      "gaussian_markings": 8,
+      "rho": 2,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 160
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 128
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 2,
+          "weight": 20,
+          "count": 8
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 6,
+          "weight": 0,
+          "count": 16
+        }
+      ],
+      "weighted_non_gaussian_length": 640,
+      "weighted_all_mass": 512,
+      "layer_mass": 128,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 160,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": -240,
+      "I2": -80
+    },
+    {
+      "n": 19,
+      "quaternions": 480,
+      "non_gaussian": 480,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 256
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 48
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 48
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 416,
+      "weighted_all_mass": 320,
+      "layer_mass": 80,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 104,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 104
+    },
+    {
+      "n": 21,
+      "quaternions": 768,
+      "non_gaussian": 768,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 320
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 192
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 5,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 6,
+          "weight": 0,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 608,
+      "weighted_all_mass": 320,
+      "layer_mass": 80,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 152,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 152
+    },
+    {
+      "n": 22,
+      "quaternions": 288,
+      "non_gaussian": 288,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 192
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 48
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 48
+        }
+      ],
+      "weighted_non_gaussian_length": 384,
+      "weighted_all_mass": 192,
+      "layer_mass": 48,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 96,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 96
+    },
+    {
+      "n": 23,
+      "quaternions": 576,
+      "non_gaussian": 576,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 384
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 64
+        }
+      ],
+      "weighted_non_gaussian_length": 320,
+      "weighted_all_mass": 128,
+      "layer_mass": 32,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 80,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 80
+    },
+    {
+      "n": 26,
+      "quaternions": 336,
+      "non_gaussian": 328,
+      "gaussian_markings": 8,
+      "rho": 2,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 160
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 48
+        },
+        {
+          "depth": 3,
+          "weight": 20,
+          "count": 8
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 6,
+          "weight": 0,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 608,
+      "weighted_all_mass": 384,
+      "layer_mass": 96,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 152,
+      "ramified_degree_correction": 40,
+      "j_tangent_diagonal_correction": -240,
+      "I2": -48
+    },
+    {
+      "n": 29,
+      "quaternions": 720,
+      "non_gaussian": 712,
+      "gaussian_markings": 8,
+      "rho": 2,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 224
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 256
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 80
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 2,
+          "weight": 20,
+          "count": 8
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 80
+        },
+        {
+          "depth": 6,
+          "weight": 1,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 832,
+      "weighted_all_mass": 640,
+      "layer_mass": 160,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 208,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": -240,
+      "I2": -32
+    },
+    {
+      "n": 30,
+      "quaternions": 576,
+      "non_gaussian": 576,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 320
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 352,
+      "weighted_all_mass": 128,
+      "layer_mass": 32,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 88,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 88
+    },
+    {
+      "n": 31,
+      "quaternions": 768,
+      "non_gaussian": 768,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 256
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 256
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 128
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 128
+        }
+      ],
+      "weighted_non_gaussian_length": 896,
+      "weighted_all_mass": 512,
+      "layer_mass": 128,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 224,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 224
+    },
+    {
+      "n": 33,
+      "quaternions": 1152,
+      "non_gaussian": 1152,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 448
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 320
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 128
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 96
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 48
+        },
+        {
+          "depth": 6,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 7,
+          "weight": 0,
+          "count": 16
+        }
+      ],
+      "weighted_non_gaussian_length": 1152,
+      "weighted_all_mass": 576,
+      "layer_mass": 144,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 288,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 288
+    },
+    {
+      "n": 34,
+      "quaternions": 432,
+      "non_gaussian": 424,
+      "gaussian_markings": 8,
+      "rho": 2,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 160
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 128
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 3,
+          "weight": 20,
+          "count": 8
+        },
+        {
+          "depth": 5,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 6,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 7,
+          "weight": 0,
+          "count": 16
+        }
+      ],
+      "weighted_non_gaussian_length": 992,
+      "weighted_all_mass": 512,
+      "layer_mass": 128,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 248,
+      "ramified_degree_correction": 40,
+      "j_tangent_diagonal_correction": -240,
+      "I2": 48
+    },
+    {
+      "n": 35,
+      "quaternions": 1152,
+      "non_gaussian": 1152,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 512
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 256
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 96
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 96
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 96
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 96
+        }
+      ],
+      "weighted_non_gaussian_length": 736,
+      "weighted_all_mass": 448,
+      "layer_mass": 112,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 184,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 184
+    },
+    {
+      "n": 37,
+      "quaternions": 912,
+      "non_gaussian": 904,
+      "gaussian_markings": 8,
+      "rho": 2,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 224
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 384
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 48
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 96
+        },
+        {
+          "depth": 2,
+          "weight": 20,
+          "count": 8
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 5,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 7,
+          "weight": 0,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 1312,
+      "weighted_all_mass": 896,
+      "layer_mass": 224,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 328,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": -240,
+      "I2": 88
+    },
+    {
+      "n": 38,
+      "quaternions": 480,
+      "non_gaussian": 480,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 256
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 48
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 48
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 736,
+      "weighted_all_mass": 320,
+      "layer_mass": 80,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 184,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 184
+    },
+    {
+      "n": 39,
+      "quaternions": 1344,
+      "non_gaussian": 1344,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 512
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 384
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 96
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 128
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 96
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 128
+        }
+      ],
+      "weighted_non_gaussian_length": 1024,
+      "weighted_all_mass": 640,
+      "layer_mass": 160,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 256,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 256
+    },
+    {
+      "n": 42,
+      "quaternions": 768,
+      "non_gaussian": 768,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 320
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 192
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 5,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 6,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 7,
+          "weight": 0,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 928,
+      "weighted_all_mass": 320,
+      "layer_mass": 80,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 232,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 232
+    },
+    {
+      "n": 43,
+      "quaternions": 1056,
+      "non_gaussian": 1056,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 448
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 256
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 144
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 144
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 416,
+      "weighted_all_mass": 320,
+      "layer_mass": 80,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 104,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 104
+    },
+    {
+      "n": 46,
+      "quaternions": 576,
+      "non_gaussian": 576,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 384
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 64
+        }
+      ],
+      "weighted_non_gaussian_length": 448,
+      "weighted_all_mass": 128,
+      "layer_mass": 32,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 112,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 112
+    },
+    {
+      "n": 51,
+      "quaternions": 1728,
+      "non_gaussian": 1728,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 512
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 640
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 192
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 96
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 192
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 96
+        }
+      ],
+      "weighted_non_gaussian_length": 1120,
+      "weighted_all_mass": 832,
+      "layer_mass": 208,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 280,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 280
+    },
+    {
+      "n": 53,
+      "quaternions": 1296,
+      "non_gaussian": 1288,
+      "gaussian_markings": 8,
+      "rho": 2,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 672
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 192
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 80
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 128
+        },
+        {
+          "depth": 2,
+          "weight": 20,
+          "count": 8
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 5,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 6,
+          "weight": 0,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 1344,
+      "weighted_all_mass": 768,
+      "layer_mass": 192,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 336,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": -240,
+      "I2": 96
+    },
+    {
+      "n": 55,
+      "quaternions": 1728,
+      "non_gaussian": 1728,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 320
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 832
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 256
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 256
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 992,
+      "weighted_all_mass": 896,
+      "layer_mass": 224,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 248,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 248
+    },
+    {
+      "n": 57,
+      "quaternions": 1920,
+      "non_gaussian": 1920,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 704
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 576
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 160
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 160
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 96
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 5,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 6,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 7,
+          "weight": 0,
+          "count": 48
+        }
+      ],
+      "weighted_non_gaussian_length": 1600,
+      "weighted_all_mass": 896,
+      "layer_mass": 224,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 400,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 400
+    },
+    {
+      "n": 58,
+      "quaternions": 720,
+      "non_gaussian": 712,
+      "gaussian_markings": 8,
+      "rho": 2,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 224
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 256
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 80
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 3,
+          "weight": 20,
+          "count": 8
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 80
+        },
+        {
+          "depth": 7,
+          "weight": 1,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 1312,
+      "weighted_all_mass": 640,
+      "layer_mass": 160,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 328,
+      "ramified_degree_correction": 40,
+      "j_tangent_diagonal_correction": -240,
+      "I2": 128
+    },
+    {
+      "n": 59,
+      "quaternions": 1440,
+      "non_gaussian": 1440,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 832
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 128
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 112
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 128
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 112
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 128
+        }
+      ],
+      "weighted_non_gaussian_length": 768,
+      "weighted_all_mass": 384,
+      "layer_mass": 96,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 192,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 192
+    },
+    {
+      "n": 61,
+      "quaternions": 1488,
+      "non_gaussian": 1480,
+      "gaussian_markings": 8,
+      "rho": 2,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 416
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 576
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 144
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 96
+        },
+        {
+          "depth": 2,
+          "weight": 20,
+          "count": 8
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 112
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 5,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 6,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 7,
+          "weight": 1,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 1600,
+      "weighted_all_mass": 1088,
+      "layer_mass": 272,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 400,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": -240,
+      "I2": 160
+    },
+    {
+      "n": 62,
+      "quaternions": 768,
+      "non_gaussian": 768,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 256
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 256
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 128
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 128
+        }
+      ],
+      "weighted_non_gaussian_length": 1408,
+      "weighted_all_mass": 512,
+      "layer_mass": 128,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 352,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 352
+    },
+    {
+      "n": 65,
+      "quaternions": 2016,
+      "non_gaussian": 2000,
+      "gaussian_markings": 16,
+      "rho": 4,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 960
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 384
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 288
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 2,
+          "weight": 20,
+          "count": 16
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 160
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 96
+        },
+        {
+          "depth": 6,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 8,
+          "weight": 0,
+          "count": 16
+        }
+      ],
+      "weighted_non_gaussian_length": 1216,
+      "weighted_all_mass": 1088,
+      "layer_mass": 272,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 304,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": -480,
+      "I2": -176
+    },
+    {
+      "n": 66,
+      "quaternions": 1152,
+      "non_gaussian": 1152,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 448
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 320
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 128
+        },
+        {
+          "depth": 5,
+          "weight": 1,
+          "count": 96
+        },
+        {
+          "depth": 6,
+          "weight": 0,
+          "count": 48
+        },
+        {
+          "depth": 7,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 8,
+          "weight": 0,
+          "count": 16
+        }
+      ],
+      "weighted_non_gaussian_length": 1728,
+      "weighted_all_mass": 576,
+      "layer_mass": 144,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 432,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 432
+    },
+    {
+      "n": 67,
+      "quaternions": 1632,
+      "non_gaussian": 1632,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 384
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 704
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 80
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 192
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 80
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 192
+        }
+      ],
+      "weighted_non_gaussian_length": 1664,
+      "weighted_all_mass": 1088,
+      "layer_mass": 272,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 416,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 416
+    },
+    {
+      "n": 69,
+      "quaternions": 2304,
+      "non_gaussian": 2304,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 704
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 832
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 192
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 192
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 96
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 96
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 5,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 6,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 7,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 8,
+          "weight": 0,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 2112,
+      "weighted_all_mass": 1216,
+      "layer_mass": 304,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 528,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 528
+    },
+    {
+      "n": 70,
+      "quaternions": 1152,
+      "non_gaussian": 1152,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 512
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 256
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 96
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 96
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 96
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 96
+        }
+      ],
+      "weighted_non_gaussian_length": 1184,
+      "weighted_all_mass": 448,
+      "layer_mass": 112,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 296,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 296
+    },
+    {
+      "n": 71,
+      "quaternions": 1728,
+      "non_gaussian": 1728,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 320
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 832
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 128
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 160
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 128
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 160
+        }
+      ],
+      "weighted_non_gaussian_length": 1632,
+      "weighted_all_mass": 1152,
+      "layer_mass": 288,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 408,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 408
+    },
+    {
+      "n": 73,
+      "quaternions": 1776,
+      "non_gaussian": 1768,
+      "gaussian_markings": 8,
+      "rho": 2,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 288
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 896
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 96
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 192
+        },
+        {
+          "depth": 2,
+          "weight": 20,
+          "count": 8
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 128
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 5,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 7,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 8,
+          "weight": 0,
+          "count": 16
+        }
+      ],
+      "weighted_non_gaussian_length": 2432,
+      "weighted_all_mass": 1600,
+      "layer_mass": 400,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 608,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": -240,
+      "I2": 368
+    },
+    {
+      "n": 74,
+      "quaternions": 912,
+      "non_gaussian": 904,
+      "gaussian_markings": 8,
+      "rho": 2,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 224
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 384
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 48
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 96
+        },
+        {
+          "depth": 3,
+          "weight": 20,
+          "count": 8
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 16
+        },
+        {
+          "depth": 5,
+          "weight": 1,
+          "count": 64
+        },
+        {
+          "depth": 6,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 8,
+          "weight": 0,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 2048,
+      "weighted_all_mass": 896,
+      "layer_mass": 224,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 512,
+      "ramified_degree_correction": 40,
+      "j_tangent_diagonal_correction": -240,
+      "I2": 312
+    },
+    {
+      "n": 77,
+      "quaternions": 2304,
+      "non_gaussian": 2304,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 704
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 832
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 224
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 160
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 128
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 96
+        },
+        {
+          "depth": 6,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 7,
+          "weight": 0,
+          "count": 32
+        },
+        {
+          "depth": 8,
+          "weight": 1,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 1920,
+      "weighted_all_mass": 1152,
+      "layer_mass": 288,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 480,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 480
+    },
+    {
+      "n": 78,
+      "quaternions": 1344,
+      "non_gaussian": 1344,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 512
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 384
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 96
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 128
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 96
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 128
+        }
+      ],
+      "weighted_non_gaussian_length": 1664,
+      "weighted_all_mass": 640,
+      "layer_mass": 160,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 416,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 416
+    },
+    {
+      "n": 79,
+      "quaternions": 1920,
+      "non_gaussian": 1920,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 576
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 704
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 160
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 160
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 160
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 160
+        }
+      ],
+      "weighted_non_gaussian_length": 1504,
+      "weighted_all_mass": 1024,
+      "layer_mass": 256,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 376,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 376
+    },
+    {
+      "n": 83,
+      "quaternions": 2016,
+      "non_gaussian": 2016,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 960
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 384
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 144
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 192
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 144
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 192
+        }
+      ],
+      "weighted_non_gaussian_length": 1344,
+      "weighted_all_mass": 768,
+      "layer_mass": 192,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 336,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 336
+    },
+    {
+      "n": 85,
+      "quaternions": 2592,
+      "non_gaussian": 2576,
+      "gaussian_markings": 16,
+      "rho": 4,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 1024
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 704
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 224
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 192
+        },
+        {
+          "depth": 2,
+          "weight": 20,
+          "count": 16
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 96
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 128
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 5,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 6,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 7,
+          "weight": 1,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 2624,
+      "weighted_all_mass": 1728,
+      "layer_mass": 432,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 656,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": -480,
+      "I2": 176
+    },
+    {
+      "n": 86,
+      "quaternions": 1056,
+      "non_gaussian": 1056,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 448
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 256
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 144
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 4,
+          "weight": 0,
+          "count": 144
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 32
+        }
+      ],
+      "weighted_non_gaussian_length": 736,
+      "weighted_all_mass": 320,
+      "layer_mass": 80,
+      "valuation_of_degree": 1,
+      "raw_proper_coefficient": 184,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 184
+    },
+    {
+      "n": 87,
+      "quaternions": 2880,
+      "non_gaussian": 2880,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 1408
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 512
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 288
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 192
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 288
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 192
+        }
+      ],
+      "weighted_non_gaussian_length": 1472,
+      "weighted_all_mass": 896,
+      "layer_mass": 224,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 368,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 368
+    },
+    {
+      "n": 89,
+      "quaternions": 2160,
+      "non_gaussian": 2152,
+      "gaussian_markings": 8,
+      "rho": 2,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 544
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 896
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 160
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 192
+        },
+        {
+          "depth": 2,
+          "weight": 20,
+          "count": 8
+        },
+        {
+          "depth": 4,
+          "weight": 1,
+          "count": 160
+        },
+        {
+          "depth": 5,
+          "weight": 0,
+          "count": 48
+        },
+        {
+          "depth": 5,
+          "weight": 1,
+          "count": 32
+        },
+        {
+          "depth": 6,
+          "weight": 0,
+          "count": 64
+        },
+        {
+          "depth": 8,
+          "weight": 0,
+          "count": 48
+        }
+      ],
+      "weighted_non_gaussian_length": 2400,
+      "weighted_all_mass": 1600,
+      "layer_mass": 400,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 600,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": -240,
+      "I2": 360
+    },
+    {
+      "n": 91,
+      "quaternions": 2688,
+      "non_gaussian": 2688,
+      "gaussian_markings": 0,
+      "rho": 0,
+      "depth_weight_histogram": [
+        {
+          "depth": 1,
+          "weight": 0,
+          "count": 768
+        },
+        {
+          "depth": 1,
+          "weight": 1,
+          "count": 1024
+        },
+        {
+          "depth": 2,
+          "weight": 0,
+          "count": 352
+        },
+        {
+          "depth": 2,
+          "weight": 1,
+          "count": 96
+        },
+        {
+          "depth": 3,
+          "weight": 0,
+          "count": 352
+        },
+        {
+          "depth": 3,
+          "weight": 1,
+          "count": 96
+        }
+      ],
+      "weighted_non_gaussian_length": 1504,
+      "weighted_all_mass": 1216,
+      "layer_mass": 304,
+      "valuation_of_degree": 0,
+      "raw_proper_coefficient": 376,
+      "ramified_degree_correction": 0,
+      "j_tangent_diagonal_correction": 0,
+      "I2": 376
+    }
+  ],
+  "rows": [
+    {
+      "correspondence": {
+        "effective_degree": 1,
+        "index": 1,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 1,
+      "I2": -80,
+      "formula_terms": {
+        "norm_degree": 1,
+        "ordinary_Hecke_coefficient": -80,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 3,
+        "index": 2,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 1,
+      "I2": -40,
+      "formula_terms": {
+        "norm_degree": 2,
+        "ordinary_Hecke_coefficient": -40,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 4,
+        "index": 3,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 0,
+      "formula_terms": {
+        "norm_degree": 3,
+        "ordinary_Hecke_coefficient": 0,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 6,
+        "index": 5,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": -160,
+      "formula_terms": {
+        "norm_degree": 5,
+        "ordinary_Hecke_coefficient": -160,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 12,
+        "index": 6,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 0,
+      "formula_terms": {
+        "norm_degree": 6,
+        "ordinary_Hecke_coefficient": 0,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 8,
+        "index": 7,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 16,
+      "formula_terms": {
+        "norm_degree": 7,
+        "ordinary_Hecke_coefficient": 16,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 18,
+        "index": 10,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": -80,
+      "formula_terms": {
+        "norm_degree": 10,
+        "ordinary_Hecke_coefficient": -80,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 12,
+        "index": 11,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 48,
+      "formula_terms": {
+        "norm_degree": 11,
+        "ordinary_Hecke_coefficient": 48,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 14,
+        "index": 13,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": -144,
+      "formula_terms": {
+        "norm_degree": 13,
+        "ordinary_Hecke_coefficient": -144,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 24,
+        "index": 14,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 32,
+      "formula_terms": {
+        "norm_degree": 14,
+        "ordinary_Hecke_coefficient": 32,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 24,
+        "index": 15,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 56,
+      "formula_terms": {
+        "norm_degree": 15,
+        "ordinary_Hecke_coefficient": 56,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 18,
+        "index": 17,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": -80,
+      "formula_terms": {
+        "norm_degree": 17,
+        "ordinary_Hecke_coefficient": -80,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 20,
+        "index": 19,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 104,
+      "formula_terms": {
+        "norm_degree": 19,
+        "ordinary_Hecke_coefficient": 104,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 32,
+        "index": 21,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 152,
+      "formula_terms": {
+        "norm_degree": 21,
+        "ordinary_Hecke_coefficient": 152,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 36,
+        "index": 22,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 96,
+      "formula_terms": {
+        "norm_degree": 22,
+        "ordinary_Hecke_coefficient": 96,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 24,
+        "index": 23,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 80,
+      "formula_terms": {
+        "norm_degree": 23,
+        "ordinary_Hecke_coefficient": 80,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 42,
+        "index": 26,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": -48,
+      "formula_terms": {
+        "norm_degree": 26,
+        "ordinary_Hecke_coefficient": -48,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 30,
+        "index": 29,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": -32,
+      "formula_terms": {
+        "norm_degree": 29,
+        "ordinary_Hecke_coefficient": -32,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 72,
+        "index": 30,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 88,
+      "formula_terms": {
+        "norm_degree": 30,
+        "ordinary_Hecke_coefficient": 88,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 32,
+        "index": 31,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 224,
+      "formula_terms": {
+        "norm_degree": 31,
+        "ordinary_Hecke_coefficient": 224,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 48,
+        "index": 33,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 288,
+      "formula_terms": {
+        "norm_degree": 33,
+        "ordinary_Hecke_coefficient": 288,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 54,
+        "index": 34,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 48,
+      "formula_terms": {
+        "norm_degree": 34,
+        "ordinary_Hecke_coefficient": 48,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 48,
+        "index": 35,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 184,
+      "formula_terms": {
+        "norm_degree": 35,
+        "ordinary_Hecke_coefficient": 184,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 38,
+        "index": 37,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 88,
+      "formula_terms": {
+        "norm_degree": 37,
+        "ordinary_Hecke_coefficient": 88,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 60,
+        "index": 38,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 184,
+      "formula_terms": {
+        "norm_degree": 38,
+        "ordinary_Hecke_coefficient": 184,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 56,
+        "index": 39,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 256,
+      "formula_terms": {
+        "norm_degree": 39,
+        "ordinary_Hecke_coefficient": 256,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 96,
+        "index": 42,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 232,
+      "formula_terms": {
+        "norm_degree": 42,
+        "ordinary_Hecke_coefficient": 232,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 72,
+        "index": 46,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 112,
+      "formula_terms": {
+        "norm_degree": 46,
+        "ordinary_Hecke_coefficient": 112,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 6,
+        "expression": "T2 composed T2 minus3 diagonal",
+        "index": 4,
+        "kind": "cyclic4"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 80,
+      "formula_terms": {
+        "norm_degree": 4,
+        "ordinary_Hecke_coefficient": 0,
+        "subtract_diagonal": -80
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 72,
+        "index": 51,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 280,
+      "formula_terms": {
+        "norm_degree": 51,
+        "ordinary_Hecke_coefficient": 280,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 54,
+        "index": 53,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 96,
+      "formula_terms": {
+        "norm_degree": 53,
+        "ordinary_Hecke_coefficient": 96,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 72,
+        "index": 55,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 248,
+      "formula_terms": {
+        "norm_degree": 55,
+        "ordinary_Hecke_coefficient": 248,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 80,
+        "index": 57,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 400,
+      "formula_terms": {
+        "norm_degree": 57,
+        "ordinary_Hecke_coefficient": 400,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 90,
+        "index": 58,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 128,
+      "formula_terms": {
+        "norm_degree": 58,
+        "ordinary_Hecke_coefficient": 128,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 60,
+        "index": 59,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 192,
+      "formula_terms": {
+        "norm_degree": 59,
+        "ordinary_Hecke_coefficient": 192,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 62,
+        "index": 61,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 160,
+      "formula_terms": {
+        "norm_degree": 61,
+        "ordinary_Hecke_coefficient": 160,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 96,
+        "index": 62,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 352,
+      "formula_terms": {
+        "norm_degree": 62,
+        "ordinary_Hecke_coefficient": 352,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 84,
+        "index": 65,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 4,
+      "I2": -176,
+      "formula_terms": {
+        "norm_degree": 65,
+        "ordinary_Hecke_coefficient": -176,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 144,
+        "index": 66,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 432,
+      "formula_terms": {
+        "norm_degree": 66,
+        "ordinary_Hecke_coefficient": 432,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 68,
+        "index": 67,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 416,
+      "formula_terms": {
+        "norm_degree": 67,
+        "ordinary_Hecke_coefficient": 416,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 96,
+        "index": 69,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 528,
+      "formula_terms": {
+        "norm_degree": 69,
+        "ordinary_Hecke_coefficient": 528,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 144,
+        "index": 70,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 296,
+      "formula_terms": {
+        "norm_degree": 70,
+        "ordinary_Hecke_coefficient": 296,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 72,
+        "index": 71,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 408,
+      "formula_terms": {
+        "norm_degree": 71,
+        "ordinary_Hecke_coefficient": 408,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 74,
+        "index": 73,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 368,
+      "formula_terms": {
+        "norm_degree": 73,
+        "ordinary_Hecke_coefficient": 368,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 114,
+        "index": 74,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 312,
+      "formula_terms": {
+        "norm_degree": 74,
+        "ordinary_Hecke_coefficient": 312,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 96,
+        "index": 77,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 480,
+      "formula_terms": {
+        "norm_degree": 77,
+        "ordinary_Hecke_coefficient": 480,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 168,
+        "index": 78,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 416,
+      "formula_terms": {
+        "norm_degree": 78,
+        "ordinary_Hecke_coefficient": 416,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 80,
+        "index": 79,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 376,
+      "formula_terms": {
+        "norm_degree": 79,
+        "ordinary_Hecke_coefficient": 376,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 84,
+        "index": 83,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 336,
+      "formula_terms": {
+        "norm_degree": 83,
+        "ordinary_Hecke_coefficient": 336,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 108,
+        "index": 85,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 4,
+      "I2": 176,
+      "formula_terms": {
+        "norm_degree": 85,
+        "ordinary_Hecke_coefficient": 176,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 132,
+        "index": 86,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 184,
+      "formula_terms": {
+        "norm_degree": 86,
+        "ordinary_Hecke_coefficient": 184,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 120,
+        "index": 87,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 368,
+      "formula_terms": {
+        "norm_degree": 87,
+        "ordinary_Hecke_coefficient": 368,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 90,
+        "index": 89,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 360,
+      "formula_terms": {
+        "norm_degree": 89,
+        "ordinary_Hecke_coefficient": 360,
+        "subtract_diagonal": 0
+      }
+    },
+    {
+      "correspondence": {
+        "effective_degree": 112,
+        "index": 91,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 376,
+      "formula_terms": {
+        "norm_degree": 91,
+        "ordinary_Hecke_coefficient": 376,
+        "subtract_diagonal": 0
+      }
+    }
+  ],
+  "generating_source_sha256": "a4123f3696524e38bc9a824c7159002d73306ea87b05508987324d8f75722ae6",
+  "input_sha256": {
+    "R190_odd_certificate": "b2bdf1471fefc76dd6d05523af8929b66ef770b479534378c414b657d8420b54"
+  }
+}

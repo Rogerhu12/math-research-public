@@ -1,0 +1,439 @@
+{
+  "curve": {
+    "I_B": [
+      369,
+      -36,
+      -54
+    ],
+    "J_B": [
+      5238,
+      -5022,
+      1134
+    ],
+    "generator_norms": [
+      -1,
+      1,
+      2,
+      2,
+      3
+    ],
+    "generators": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        -7,
+        1,
+        1
+      ],
+      [
+        -2,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        3,
+        1,
+        -1
+      ]
+    ],
+    "quartic_map_degree": 4,
+    "quartic_point_images": [
+      {
+        "X": [
+          "7",
+          "-12",
+          "4"
+        ],
+        "Y": [
+          "0",
+          "0",
+          "0"
+        ],
+        "quartic_x": 1
+      },
+      {
+        "X": [
+          "19",
+          "-108",
+          "181/4"
+        ],
+        "Y": [
+          "2907/2",
+          "14625/8",
+          "-1134"
+        ],
+        "quartic_x": -1
+      }
+    ],
+    "root_differences": [
+      {
+        "i": 1,
+        "j": 0,
+        "norm": -432,
+        "value": [
+          -75,
+          -12,
+          21
+        ]
+      },
+      {
+        "i": 2,
+        "j": 0,
+        "norm": -27,
+        "value": [
+          -171,
+          12,
+          30
+        ]
+      },
+      {
+        "i": 2,
+        "j": 1,
+        "norm": 1296,
+        "value": [
+          -96,
+          24,
+          9
+        ]
+      }
+    ],
+    "roots": [
+      [
+        82,
+        0,
+        -17
+      ],
+      [
+        7,
+        -12,
+        4
+      ],
+      [
+        -89,
+        12,
+        13
+      ]
+    ]
+  },
+  "descent": {
+    "counts": [
+      [
+        "real",
+        512
+      ],
+      [
+        "P0_2",
+        64
+      ],
+      [
+        "P1_2",
+        8
+      ],
+      [
+        "P3_3",
+        8
+      ]
+    ],
+    "gaussian_unit_basis": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "local_generators": {
+      "P0_2": [
+        2,
+        4,
+        1,
+        4,
+        2
+      ],
+      "P1_2": [
+        0,
+        5,
+        2,
+        15,
+        4
+      ],
+      "P3_3": [
+        2,
+        0,
+        2,
+        2,
+        1
+      ]
+    },
+    "local_images": {
+      "P0_2": [
+        0,
+        4,
+        16,
+        20,
+        32,
+        36,
+        48,
+        52
+      ],
+      "P1_2": [
+        0,
+        1,
+        16,
+        17,
+        34,
+        35,
+        50,
+        51,
+        68,
+        69,
+        84,
+        85,
+        102,
+        103,
+        118,
+        119
+      ],
+      "P3_3": [
+        0,
+        3,
+        4,
+        7
+      ]
+    },
+    "local_witnesses": {
+      "P0_2": [
+        {
+          "index": 1,
+          "kind": "torsion",
+          "pair_code": 48,
+          "three_classes": [
+            0,
+            6,
+            6
+          ]
+        },
+        {
+          "index": 2,
+          "kind": "torsion",
+          "pair_code": 52,
+          "three_classes": [
+            4,
+            6,
+            2
+          ]
+        },
+        {
+          "kind": "point",
+          "pair_code": 32,
+          "three_classes": [
+            0,
+            4,
+            4
+          ],
+          "x_denominator": 4,
+          "x_numerator": [
+            1,
+            0,
+            -1
+          ]
+        }
+      ],
+      "P1_2": [
+        {
+          "index": 1,
+          "kind": "torsion",
+          "pair_code": 16,
+          "three_classes": [
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 2,
+          "kind": "torsion",
+          "pair_code": 17,
+          "three_classes": [
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "kind": "point",
+          "pair_code": 50,
+          "three_classes": [
+            2,
+            3,
+            1
+          ],
+          "x_denominator": 1,
+          "x_numerator": [
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "kind": "point",
+          "pair_code": 102,
+          "three_classes": [
+            6,
+            6,
+            0
+          ],
+          "x_denominator": 1,
+          "x_numerator": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "P3_3": [
+        {
+          "index": 1,
+          "kind": "torsion",
+          "pair_code": 4,
+          "three_classes": [
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "index": 2,
+          "kind": "torsion",
+          "pair_code": 7,
+          "three_classes": [
+            3,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    "precision": {
+      "digits": 48,
+      "max_v2": 4,
+      "max_v_pi": 6
+    },
+    "rank_upper_bound": 1,
+    "selmer_dimension": 3,
+    "selmer_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        18
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        17,
+        16
+      ],
+      [
+        19,
+        0
+      ],
+      [
+        19,
+        18
+      ]
+    ]
+  },
+  "independent_precision": 24,
+  "real_place": {
+    "generator_sign_bits": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "root_interval": [
+      "2195823/1000000",
+      "137239/62500"
+    ],
+    "root_order": [
+      2,
+      3,
+      1
+    ]
+  },
+  "scope": [
+    "complete local Kummer images, not a bounded search assertion",
+    "exact rank one, no assertion of Mordell-Weil saturation",
+    "no complete rational-x point classification"
+  ],
+  "torsion_and_rank": {
+    "non_torsion_point": {
+      "X": [
+        "19",
+        "-108",
+        "181/4"
+      ],
+      "Y": [
+        "2907/2",
+        "14625/8",
+        "-1134"
+      ]
+    },
+    "point_is_not_claimed_to_generate_the_full_free_group": true,
+    "rank": 1,
+    "reductions": [
+      {
+        "cardinality": 8,
+        "prime": 7,
+        "r": 3,
+        "roots": [
+          6,
+          0,
+          1
+        ]
+      },
+      {
+        "cardinality": 16,
+        "prime": 11,
+        "r": 8,
+        "roots": [
+          6,
+          2,
+          3
+        ]
+      }
+    ],
+    "torsion_structure": [
+      2,
+      2
+    ]
+  }
+}

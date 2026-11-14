@@ -1,0 +1,66 @@
+{
+  "scope": "Nonzero physical mean y=v(infinity)=e5; full original 17 equations after the exact highest-equation elimination.",
+  "branch": "infinity",
+  "degree": 5,
+  "projectionRows": 170,
+  "projectionColumns": 135,
+  "independentIntegerKernelVectors": 7,
+  "identityCount": 1190,
+  "projectionRankUpperBound": 128,
+  "free": [
+    8,
+    26,
+    98,
+    125,
+    132,
+    133,
+    134
+  ],
+  "kernelSHA256": "a7eacfb2929c88d7b160d71ccf52d6c8a958be6c0a1a0312a82b7f09e8f8334d",
+  "kernelJSONBytes": 84154,
+  "largeMacaulay": {
+    "field": 7,
+    "D": 5,
+    "rows": 6188,
+    "columns": 4367,
+    "rank": 4340,
+    "ops": 6750105,
+    "lowerDegreePivotCounts": [
+      3,
+      62,
+      282,
+      996,
+      2997
+    ],
+    "coordinateLinearMembership": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "coordinateSquareMembership": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ]
+  },
+  "characteristicZeroRank": 4340,
+  "normalSquareCount": 9,
+  "normalQuadraticIdealTruncationDimension": 4212,
+  "conclusion": "The complete critical zero set is M=m9*(e4*e5+e5*e4)+m10*e5^2, and T3=0."
+}

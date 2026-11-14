@@ -1,0 +1,682 @@
+{
+  "result": "R611",
+  "disk_id": "SS_j0_06",
+  "status": "proved; actual six-stage F3 calculation and independent arithmetic audit complete",
+  "scope": "Actual ramified-unit-parameter F3 excludes both R610 F2 candidates in all four identical bad components; no general uniformity claim",
+  "files": [
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611-SS_j0_06-ramified-unit-parameter-F3-disk-exclusion.md",
+      "basename": "R611-SS_j0_06-ramified-unit-parameter-F3-disk-exclusion.md",
+      "bytes": 16413,
+      "sha256": "1dfdef9096dcbb2543addd697d88651250570f7f7e2e4a9e630bc96974107d04",
+      "target": "results/R611-SS_j0_06-ramified-unit-parameter-F3-disk-exclusion.md"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_ramified_SS_T3_support47.py",
+      "basename": "p41_selected_ramified_SS_T3_support47.py",
+      "bytes": 13029,
+      "sha256": "40579ad965aaf6c3da8560b55cdda342fc1ae36b9ced8e26b75ee977c656e212",
+      "target": "scripts/p41_selected_ramified_SS_T3_support47.py"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_SS_F3_fixed_norm_ramified_unit_parameter47.py",
+      "basename": "p41_SS_F3_fixed_norm_ramified_unit_parameter47.py",
+      "bytes": 10276,
+      "sha256": "2d70ad55dc6f1d7785915ec21d8c2a9e5a575b6dde5514388b558beb7f0f70e9",
+      "target": "scripts/p41_SS_F3_fixed_norm_ramified_unit_parameter47.py"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_SS_F3_connection_ramified_unit_parameter47.py",
+      "basename": "p41_selected_SS_F3_connection_ramified_unit_parameter47.py",
+      "bytes": 28456,
+      "sha256": "f567e19bede976333c9a9632c3467e2abaa33370ee99da07da95b4088cdd2116",
+      "target": "scripts/p41_selected_SS_F3_connection_ramified_unit_parameter47.py"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_selected_SS_F3_polynomial_ramified_unit_parameter47.py",
+      "basename": "p41_selected_SS_F3_polynomial_ramified_unit_parameter47.py",
+      "bytes": 33066,
+      "sha256": "9ae2b8cd69dcf73d081ccc207c302ee1d9f13f97281dd1f6d9c3b3d2a3a27a34",
+      "target": "scripts/p41_selected_SS_F3_polynomial_ramified_unit_parameter47.py"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/verify_selected_SS_F3_ramified_unit_parameter47.py",
+      "basename": "verify_selected_SS_F3_ramified_unit_parameter47.py",
+      "bytes": 14947,
+      "sha256": "ab00eb61fb348ddae06759b40d72f10a1ccc52443a04c7974f06f543f9323aad",
+      "target": "scripts/verify_selected_SS_F3_ramified_unit_parameter47.py"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_rebuild_ramified_SS_F3_unit_parameter47.py",
+      "basename": "p41_rebuild_ramified_SS_F3_unit_parameter47.py",
+      "bytes": 6548,
+      "sha256": "9e4995edfeb014778377ccdf5fbd5ba53132b133893c2a66394d33027f0cd7f8",
+      "target": "scripts/p41_rebuild_ramified_SS_F3_unit_parameter47.py"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/p41_restore_published_ramified_SS_F2_inputs47.py",
+      "basename": "p41_restore_published_ramified_SS_F2_inputs47.py",
+      "bytes": 3796,
+      "sha256": "3f63eacd74ed0f2047156a145cf21dbbda132fdd8f9c754ba09e49240361fdcd",
+      "target": "scripts/p41_restore_published_ramified_SS_F2_inputs47.py"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611-source-recovery-map.json",
+      "basename": "R611-source-recovery-map.json",
+      "bytes": 1741,
+      "sha256": "81404898612b5ef7ef99d3c0b584eef292eb7363834414d2609fc82d8021bdc3",
+      "target": "notes/R611-source-recovery-map.json"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/SS_j0_06_actual_T3_support47.json.gz",
+      "basename": "SS_j0_06_actual_T3_support47.json.gz",
+      "bytes": 50556,
+      "sha256": "a5ec04a4b20ca9f752e037c1673559643a5c4fcc7ef7c876c170450d23d6b028",
+      "target": "scripts/data/SS_j0_06_actual_T3_support47.json.gz"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/SS_j0_06_actual_T3_principal_norm47.json.gz",
+      "basename": "SS_j0_06_actual_T3_principal_norm47.json.gz",
+      "bytes": 27881,
+      "sha256": "76d06527d633bb274169e698685b9b9a0fd611282b2388165c649914cdfe2591",
+      "target": "scripts/data/SS_j0_06_actual_T3_principal_norm47.json.gz"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/SS_j0_06_actual_F3_first_variable_norm47.json.gz",
+      "basename": "SS_j0_06_actual_F3_first_variable_norm47.json.gz",
+      "bytes": 223345,
+      "sha256": "e4bec71065a2d4943f105187bdb54f96ea9a8668cf7d21c569b9f2e3a834e36d",
+      "target": "scripts/data/SS_j0_06_actual_F3_first_variable_norm47.json.gz"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/SS_j0_06_actual_canonical_F3_height47.json.gz",
+      "basename": "SS_j0_06_actual_canonical_F3_height47.json.gz",
+      "bytes": 70032,
+      "sha256": "6e365a05d3c941b3275bd065ce7bdfed4e057b299a70bfab4152ca7df6a64c6c",
+      "target": "scripts/data/SS_j0_06_actual_canonical_F3_height47.json.gz"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/SS_j0_06_actual_canonical_F3_polynomial47.json.gz",
+      "basename": "SS_j0_06_actual_canonical_F3_polynomial47.json.gz",
+      "bytes": 33920,
+      "sha256": "ed7dd57e43d8dce7153978687af22c38a0fc804c1b5953bf42da1b9c5d94b1eb",
+      "target": "scripts/data/SS_j0_06_actual_canonical_F3_polynomial47.json.gz"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/SS_j0_06-principal-F3-independent-audit.json",
+      "basename": "SS_j0_06-principal-F3-independent-audit.json",
+      "bytes": 8131,
+      "sha256": "2b3558030b571b684fdfc21ace81fa0bb215016572bbba67be8d27edc7d2d79b",
+      "target": "scripts/data/SS_j0_06-principal-F3-independent-audit.json"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/F3_checkpoint47.json",
+      "basename": "F3_checkpoint47.json",
+      "bytes": 15250,
+      "sha256": "b544859e5c7544573a8c731349577fa84724dd864129400ee1ead2b03a85b320",
+      "target": "notes/R611-F3_checkpoint47.json"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/R611_SS_j0_06_F3_completion47.json",
+      "basename": "R611_SS_j0_06_F3_completion47.json",
+      "bytes": 15554,
+      "sha256": "dd3c9ac4476068be630620cd08d522c89f871a5ae60a1e11afa5501464f4217c",
+      "target": "notes/R611-R611_SS_j0_06_F3_completion47.json"
+    }
+  ],
+  "prior_inputs": [
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/ORD_j38_second_kind_complete47.json.gz",
+      "basename": "ORD_j38_second_kind_complete47.json.gz",
+      "bytes": 595145,
+      "sha256": "204f017f43795152288204c67042a3cf7c226b7ba7008f86ae77e306d8506829",
+      "target": "scripts/data/ORD_j38_second_kind_complete47.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/root-recovery/R610_SS_j0_06_rebuild/R610_SS_j0_06_based_points47.json.gz",
+      "basename": "R610_SS_j0_06_based_points47.json.gz",
+      "bytes": 108210,
+      "sha256": "2bca46da4be0fdb7f70897db09821b68157f363f95cc9c687fe599988b01040b",
+      "target": "scripts/data/R610_SS_j0_06_based_points47.json.gz",
+      "availability": "R610_existing_actual_input_pending_separate_publication"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/root-recovery/R610_SS_j0_06_rebuild/SS_j0_06-principal-F2-independent-audit.json",
+      "basename": "SS_j0_06-principal-F2-independent-audit.json",
+      "bytes": 7489,
+      "sha256": "79f65769d4f2085461b371738d4f2f7db8648b6573331b896460c14cbe9306e2",
+      "target": "scripts/data/SS_j0_06-principal-F2-independent-audit.json",
+      "availability": "R610_existing_actual_input_pending_separate_publication"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/root-recovery/R610_SS_j0_06_rebuild/chain/SS_j0_06_Abel47.json.gz",
+      "basename": "SS_j0_06_Abel47.json.gz",
+      "bytes": 442798,
+      "sha256": "7545f2da56f621cc533e85c835497c9ddde344705bf5c6d8c823b89db5546723",
+      "target": "scripts/data/SS_j0_06_Abel47.json.gz",
+      "availability": "R610_existing_actual_input_pending_separate_publication"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/root-recovery/R610_SS_j0_06_rebuild/SS_j0_06_actual_F2_first_variable_norm47.json.gz",
+      "basename": "SS_j0_06_actual_F2_first_variable_norm47.json.gz",
+      "bytes": 283282,
+      "sha256": "07bc5881f7273d6f2b0d7bc8c16e94c84acea8fbbac40f176c9672a37c56dcf6",
+      "target": "scripts/data/SS_j0_06_actual_F2_first_variable_norm47.json.gz",
+      "availability": "R610_existing_actual_input_pending_separate_publication"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/root-recovery/R610_SS_j0_06_rebuild/SS_j0_06_actual_canonical_F2_polynomial47.json.gz",
+      "basename": "SS_j0_06_actual_canonical_F2_polynomial47.json.gz",
+      "bytes": 33276,
+      "sha256": "b9b9010a56db6180f0c1b50aeaeb4a9e86e56984fa890ce8c85c79b1f0d41c7d",
+      "target": "scripts/data/SS_j0_06_actual_canonical_F2_polynomial47.json.gz",
+      "availability": "R610_existing_actual_input_pending_separate_publication"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/root-recovery/R610_SS_j0_06_rebuild/SS_j0_06_actual_second_kind_integrals47.json.gz",
+      "basename": "SS_j0_06_actual_second_kind_integrals47.json.gz",
+      "bytes": 595206,
+      "sha256": "481a04d59bf439384822f0bc528fb9d88e148defa2a9849299803e56e3237fd8",
+      "target": "scripts/data/SS_j0_06_actual_second_kind_integrals47.json.gz",
+      "availability": "R610_existing_actual_input_pending_separate_publication"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/root-recovery/R610_SS_j0_06_rebuild/chain/SS_j0_06_multiply47.json.gz",
+      "basename": "SS_j0_06_multiply47.json.gz",
+      "bytes": 377066,
+      "sha256": "15cf7b84947cf158da83a75074af76ec21dfa0499efd88030cc7316aaa6ce671",
+      "target": "scripts/data/SS_j0_06_multiply47.json.gz",
+      "availability": "R610_existing_actual_input_pending_separate_publication"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/root-recovery/R610_SS_j0_06_rebuild/SS_j0_06_principal_expression47.json.gz",
+      "basename": "SS_j0_06_principal_expression47.json.gz",
+      "bytes": 38686,
+      "sha256": "3e105e52bfbf7af019a516b1c44f00a4142654fc2e5e2f6a1f6951b015281eec",
+      "target": "scripts/data/SS_j0_06_principal_expression47.json.gz",
+      "availability": "R610_existing_actual_input_pending_separate_publication"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_SS_Hecke_graph47.json.gz",
+      "basename": "p41_SS_Hecke_graph47.json.gz",
+      "bytes": 887542,
+      "sha256": "9e459c56f5d0b98e355fe7e090527e2bb76fbd65cc920567d716940e3d416e2f",
+      "target": "scripts/data/p41_SS_Hecke_graph47.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/root-recovery/R610_SS_j0_06_rebuild/p41_SS_j0_06_principal_transports47.tar.gz",
+      "basename": "p41_SS_j0_06_principal_transports47.tar.gz",
+      "bytes": 1776850,
+      "sha256": "1b368d8df5e3e28138d6bf3405760e7a809cb7dea7786c419a82cb44adef9d11",
+      "target": "scripts/data/p41_SS_j0_06_principal_transports47.tar.gz",
+      "availability": "R610_existing_actual_input_pending_separate_publication"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/root-recovery/R610_SS_j0_06_rebuild/SS-principal-transports/SS_j0_06/transport_manifest47.json",
+      "basename": "transport_manifest47.json",
+      "bytes": 95393,
+      "sha256": "7a483a8cc87ed57ce0505dde84087cc8a923610efa9b5c065df47dc414abdadc",
+      "target": "scripts/data/p41_SS_j0_06_principal_transports47.tar.gz::SS-principal-transports/SS_j0_06/transport_manifest47.json",
+      "availability": "R610_existing_actual_input_pending_separate_publication"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/root-recovery/R610_SS_j0_06_rebuild/recovery-inputs/p41_SS_second_kind_rhs47.json.gz",
+      "basename": "p41_SS_second_kind_rhs47.json.gz",
+      "bytes": 1063664,
+      "sha256": "55ddc99c63f36d3c0789bc00e5d6c8cd5d7f1f6164bf0e1397eaef2858887d86",
+      "target": "scripts/data/p41_SS_second_kind_rhs47.json.gz",
+      "availability": "R610_existing_actual_input_pending_separate_publication"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_T3_fixed_divisor47.json.gz",
+      "basename": "p41_T3_fixed_divisor47.json.gz",
+      "bytes": 40643,
+      "sha256": "b4bd8548c2844a93dc8eea958b4b577bcaac53a3f56370f568bdee3e82ea512f",
+      "target": "scripts/data/p41_T3_fixed_divisor47.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_abel_coordinates_and_tiny47_complete.json.gz",
+      "basename": "p41_abel_coordinates_and_tiny47_complete.json.gz",
+      "bytes": 234371,
+      "sha256": "0b66b6f3432c79743ff03a27018d56f0dde9fd67dd11e70f859ac2bf6097c266",
+      "target": "scripts/data/p41_abel_coordinates_and_tiny47_complete.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_all129_second_kind_tiny47_complete.json.gz",
+      "basename": "p41_all129_second_kind_tiny47_complete.json.gz",
+      "bytes": 750800,
+      "sha256": "bdd06433d1403fcd11a6e1251a5ef2562c8acdfcb4b7ee377adc1d322e217405",
+      "target": "scripts/data/p41_all129_second_kind_tiny47_complete.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_all129_tiny_Abel47_complete.json.gz",
+      "basename": "p41_all129_tiny_Abel47_complete.json.gz",
+      "bytes": 266325,
+      "sha256": "e45cde9a1f8dcd657f1cd8f7f1cbc4b2734cbba4fd637281694f2048a36ca934",
+      "target": "scripts/data/p41_all129_tiny_Abel47_complete.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_canonical_SS_robust47_raw.json.gz",
+      "basename": "p41_canonical_SS_robust47_raw.json.gz",
+      "bytes": 1137714,
+      "sha256": "8786d7067ec711dc71ae1c4ee2df4be8207d9ef3160f41dcec28dbf08c443cba",
+      "target": "scripts/data/p41_canonical_SS_robust47_raw.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_cm12_scales47_certificate.json",
+      "basename": "p41_cm12_scales47_certificate.json",
+      "bytes": 1683,
+      "sha256": "c08fff1218d20868b39b16532b21fdf066e36f62b940bb756afb0d252f6c0d86",
+      "target": "scripts/data/p41_cm12_scales47_certificate.json",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_cm3_makdisi47_certificate.json",
+      "basename": "p41_cm3_makdisi47_certificate.json",
+      "bytes": 37536,
+      "sha256": "309ead3544d9c672dfbb51b0bea7a03b6811887140102efeb56743a122416ad5",
+      "target": "scripts/data/p41_cm3_makdisi47_certificate.json",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_cm4_divisor47_certificate.json",
+      "basename": "p41_cm4_divisor47_certificate.json",
+      "bytes": 152098,
+      "sha256": "f98b13cbc7afb3ed5d8b2f9249fbe815198b478b23559c319c5ba56b6bd83540",
+      "target": "scripts/data/p41_cm4_divisor47_certificate.json",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_cm_quadratic_jets47_raw.json.gz",
+      "basename": "p41_cm_quadratic_jets47_raw.json.gz",
+      "bytes": 283344,
+      "sha256": "a4ec4c7bd3e034ec32aaada36d3ca313bb9911a4bfd5f23b8aaa0582419f6c46",
+      "target": "scripts/data/p41_cm_quadratic_jets47_raw.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_cusp_divisors47_certificate.json.gz",
+      "basename": "p41_cusp_divisors47_certificate.json.gz",
+      "bytes": 781404,
+      "sha256": "ae902f25e6d3674b6d474a70ee12a925c0934c198eff94581cfd5dbba30023fb",
+      "target": "scripts/data/p41_cusp_divisors47_certificate.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_elliptic_coarse_atlas47_verified.json.gz",
+      "basename": "p41_elliptic_coarse_atlas47_verified.json.gz",
+      "bytes": 69060,
+      "sha256": "e83898f62eabf8321fe1e751242ac8747a53362c165f1ae0e3e62e958a833d41",
+      "target": "scripts/data/p41_elliptic_coarse_atlas47_verified.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_eta_calibration47_complete.json.gz",
+      "basename": "p41_eta_calibration47_complete.json.gz",
+      "bytes": 6611,
+      "sha256": "9fc33dea6a134961a1a5e4dc1677c57dec65d9aca265d8e46b4470ecff18261f",
+      "target": "scripts/data/p41_eta_calibration47_complete.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_evaluation_jets47_checkpoint.json.gz",
+      "basename": "p41_evaluation_jets47_checkpoint.json.gz",
+      "bytes": 479567,
+      "sha256": "a4ff695e00a7dc7d662f3db0d675549852bc7f3490b5c34d3a18dd98a7528b5d",
+      "target": "scripts/data/p41_evaluation_jets47_checkpoint.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_global_qc_polynomials47_complete.json.gz",
+      "basename": "p41_global_qc_polynomials47_complete.json.gz",
+      "bytes": 119790,
+      "sha256": "4ea4c9d706b3b8e6f671af4b020db6ff6e47b1c871c45654ca31e5e81d4e6e79",
+      "target": "scripts/data/p41_global_qc_polynomials47_complete.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_group47_checkpoint.json.gz",
+      "basename": "p41_group47_checkpoint.json.gz",
+      "bytes": 258695,
+      "sha256": "4f982a4801332f9eff196ff9e9f866883b01014579896c20e65d044530b8b655",
+      "target": "scripts/data/p41_group47_checkpoint.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_hecke3_abel_bases_checkpoint.json.gz",
+      "basename": "p41_hecke3_abel_bases_checkpoint.json.gz",
+      "bytes": 160316,
+      "sha256": "2c0c16acee560af04582de86e345fe3ded57c8c0d5f8c5f56b2631aaf00e3a8d",
+      "target": "scripts/data/p41_hecke3_abel_bases_checkpoint.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_hecke47_compact.json.gz",
+      "basename": "p41_hecke47_compact.json.gz",
+      "bytes": 172168,
+      "sha256": "fc47c5a88596e57d21461acd08a9a865808b54b579ecc5dd06d9819512fc49b8",
+      "target": "scripts/data/p41_hecke47_compact.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_hecke47_full_saved.json.gz",
+      "basename": "p41_hecke47_full_saved.json.gz",
+      "bytes": 3501769,
+      "sha256": "84709d6422ffa59f7423a980f882d68de75487d689667c6f21d0af6831e08c0f",
+      "target": "scripts/data/p41_hecke47_full_saved.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_local47_torsion_certificate.json",
+      "basename": "p41_local47_torsion_certificate.json",
+      "bytes": 8238,
+      "sha256": "6384cdce4d6c885f3d2cf706eda2d9af0a8a85d103da42ec6535977aaddc2253",
+      "target": "scripts/data/p41_local47_torsion_certificate.json",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_makdisi47_certificate.json.gz",
+      "basename": "p41_makdisi47_certificate.json.gz",
+      "bytes": 521301,
+      "sha256": "c6ea2f89f4f64eec78039c5b14b6835295b045ea24ae26f885c4047b21e96222",
+      "target": "scripts/data/p41_makdisi47_certificate.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_ramified_j_regular_height_derivative47.json.gz",
+      "basename": "p41_ramified_j_regular_height_derivative47.json.gz",
+      "bytes": 133206,
+      "sha256": "20cb6a58eaff8bee894036db6c459f86821130585a1eecf31a45f46fb8802025",
+      "target": "scripts/data/p41_ramified_j_regular_height_derivative47.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_ramified_j_regular_height_derivative47_independent.json",
+      "basename": "p41_ramified_j_regular_height_derivative47_independent.json",
+      "bytes": 20203,
+      "sha256": "4dda9f6195d321f8544000252fb5444dc77eada6ecf704c69ddf955197f34cde",
+      "target": "scripts/data/p41_ramified_j_regular_height_derivative47_independent.json",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_rational_SS_residue_atlas47_complete.json.gz",
+      "basename": "p41_rational_SS_residue_atlas47_complete.json.gz",
+      "bytes": 2077773,
+      "sha256": "f2f4f96ba74676d6b02989a540b434f6b29c2e8a8b4c5d3f7837291851eff0f3",
+      "target": "scripts/data/p41_rational_SS_residue_atlas47_complete.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/root-recovery/R610_SS_j0_06_rebuild/recovery-inputs/p41_rational_SS_second_kind_integrals47_complete.json.gz",
+      "basename": "p41_rational_SS_second_kind_integrals47_complete.json.gz",
+      "bytes": 463181,
+      "sha256": "c8b5e8d292b89dadf5cfa5f1b7bafadff6848cda61ddfe207c5009f2ed6a401d",
+      "target": "scripts/data/p41_rational_SS_second_kind_integrals47_complete.json.gz",
+      "availability": "R610_existing_actual_input_pending_separate_publication"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_second_kind_connection47.json.gz",
+      "basename": "p41_second_kind_connection47.json.gz",
+      "bytes": 519915,
+      "sha256": "9788da4bb748b98ebfb87014248b0791bba1caa71dc664aa3f2ba83c9ef76945",
+      "target": "scripts/data/p41_second_kind_connection47.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_second_kind_move_poles47.json.gz",
+      "basename": "p41_second_kind_move_poles47.json.gz",
+      "bytes": 423485,
+      "sha256": "1914d14beaf7817b09e0a80a9d1788814736432304e22259e2ab58cf7316f496",
+      "target": "scripts/data/p41_second_kind_move_poles47.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_serre_clearing_126_disks47.json.gz",
+      "basename": "p41_serre_clearing_126_disks47.json.gz",
+      "bytes": 204629,
+      "sha256": "c045e16ee1b725e669d3035c83b7a6b89fe97ac32ce502206793ca73e1e212cc",
+      "target": "scripts/data/p41_serre_clearing_126_disks47.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_source_cubic47_full_saved.json.gz",
+      "basename": "p41_source_cubic47_full_saved.json.gz",
+      "bytes": 1863915,
+      "sha256": "2eda1b699c8e556ab4d161868cb7152106520dd30a84008b2972e21e9a9312f4",
+      "target": "scripts/data/p41_source_cubic47_full_saved.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_three_ordinary_CM_anchors_and_113_global_functions47.json.gz",
+      "basename": "p41_three_ordinary_CM_anchors_and_113_global_functions47.json.gz",
+      "bytes": 213881,
+      "sha256": "a9c40049ce3eab329ed22ff27edcb39e929491bacf35c11887b348c0609bdb6a",
+      "target": "scripts/data/p41_three_ordinary_CM_anchors_and_113_global_functions47.json.gz",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_miller_unit_atlas47.py",
+      "basename": "p41_miller_unit_atlas47.py",
+      "bytes": 18770,
+      "sha256": "b953b3122a5c70bdf85b562311ed8da545063badea93b7fb27597107708bd641",
+      "target": "scripts/p41_miller_unit_atlas47.py",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_ordinary_B_fibre47.py",
+      "basename": "p41_ordinary_B_fibre47.py",
+      "bytes": 23094,
+      "sha256": "1f592831b333f26b4399f9f4308d5d03d5cb48e57bf12f2340a259e464b87168",
+      "target": "scripts/p41_ordinary_B_fibre47.py",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_ordinary_t2_etale_norm47.py",
+      "basename": "p41_ordinary_t2_etale_norm47.py",
+      "bytes": 12572,
+      "sha256": "e97baee02cc79f747137d0b5b393ec4c1ccfbb38bd8b267aebd7238f3eec8270",
+      "target": "scripts/p41_ordinary_t2_etale_norm47.py",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/p41_projective_jet_frames47.py",
+      "basename": "p41_projective_jet_frames47.py",
+      "bytes": 14012,
+      "sha256": "885a69c486dca625f924d2208edf0331e5d5d23c78269df1cc73afcf0af31fa0",
+      "target": "scripts/p41_projective_jet_frames47.py",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/verify_selected_SS_F2_all_unit_fractions47.py",
+      "basename": "verify_selected_SS_F2_all_unit_fractions47.py",
+      "bytes": 21225,
+      "sha256": "34b943053d826178f2279732504ce79891861e8e724c863d5e6dfebe531b5068",
+      "target": "scripts/verify_selected_SS_F2_all_unit_fractions47.py",
+      "availability": "existing_repository_input"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/verify_selected_SS_F2_principal47.py",
+      "basename": "verify_selected_SS_F2_principal47.py",
+      "bytes": 13499,
+      "sha256": "5a71ee59bb17b3c14d490574f2ef0ecf13be2775d0871faef16b163ff0f33456",
+      "target": "scripts/verify_selected_SS_F2_principal47.py",
+      "availability": "existing_repository_input"
+    }
+  ],
+  "regenerable_or_embedded_not_submitted": [
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/T3-jets/SS_j0_06_T3_chart0_jets27.json.gz",
+      "basename": "SS_j0_06_T3_chart0_jets27.json.gz",
+      "bytes": 533740,
+      "sha256": "808aea8fc62bb46bd7880330035da04104a1dc161f6f3a4894d2fad60619ed28",
+      "regeneration": "Six-stage R611 runner regenerates this file from listed immutable inputs.",
+      "reason_not_published": "Regenerable high-order jet cache"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/fixed-jets/SS_j0_06_F3_fixed_chart0_jets27.json.gz",
+      "basename": "SS_j0_06_F3_fixed_chart0_jets27.json.gz",
+      "bytes": 2125488,
+      "sha256": "5734ad45ac5651a4aa39e483261b51a47db25011bd5a8b84f9bdb73414536196",
+      "regeneration": "Six-stage R611 runner regenerates this file from listed immutable inputs.",
+      "reason_not_published": "Regenerable high-order jet cache"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/fixed-jets/SS_j0_06_F3_fixed_chart1_jets27.json.gz",
+      "basename": "SS_j0_06_F3_fixed_chart1_jets27.json.gz",
+      "bytes": 1860506,
+      "sha256": "93f74b66bc2afe92efec5718d8f7d6ff378e2617c23de8f6e5282feb7bf68e7f",
+      "regeneration": "Six-stage R611 runner regenerates this file from listed immutable inputs.",
+      "reason_not_published": "Regenerable high-order jet cache"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/fixed-jets/SS_j0_06_F3_fixed_chart2_jets27.json.gz",
+      "basename": "SS_j0_06_F3_fixed_chart2_jets27.json.gz",
+      "bytes": 136311,
+      "sha256": "ea5852c4728600010cadc8c19a75732c9a6ab5e66403a72be82af0c4d77924b4",
+      "regeneration": "Six-stage R611 runner regenerates this file from listed immutable inputs.",
+      "reason_not_published": "Regenerable high-order jet cache"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/center/C_connection47.json.gz",
+      "basename": "C_connection47.json.gz",
+      "bytes": 4416,
+      "sha256": "94781ec331c48ea990784dc034f762bde8a4bb2553a3f51c81eea8e67dcc86b9",
+      "regeneration": "Six-stage R611 runner regenerates this file from listed immutable inputs.",
+      "reason_not_published": "Exact subcertificate also embedded in final center or polynomial JSON"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/center/D_minus20b_connection47.json.gz",
+      "basename": "D_minus20b_connection47.json.gz",
+      "bytes": 3688,
+      "sha256": "40b3386d43ba5c207d97c2d208a757c579007a70407ae127140aebe35cb8053f",
+      "regeneration": "Six-stage R611 runner regenerates this file from listed immutable inputs.",
+      "reason_not_published": "Exact subcertificate also embedded in final center or polynomial JSON"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/center/T3C_connection47.json.gz",
+      "basename": "T3C_connection47.json.gz",
+      "bytes": 2600,
+      "sha256": "79d3a07fedb50900179d2de17d1ef5a8273a147b3fa66cb5b10bf54646cda960",
+      "regeneration": "Six-stage R611 runner regenerates this file from listed immutable inputs.",
+      "reason_not_published": "Exact subcertificate also embedded in final center or polynomial JSON"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/center/Z0fix_minus8b_connection47.json.gz",
+      "basename": "Z0fix_minus8b_connection47.json.gz",
+      "bytes": 8745,
+      "sha256": "9a5774e58e9f627a2f057def17a3d92aef37b635697f1362dc6c784e73cb9433",
+      "regeneration": "Six-stage R611 runner regenerates this file from listed immutable inputs.",
+      "reason_not_published": "Exact subcertificate also embedded in final center or polynomial JSON"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/center/Z12_minus22b_connection47.json.gz",
+      "basename": "Z12_minus22b_connection47.json.gz",
+      "bytes": 18991,
+      "sha256": "9b7ba42156d6b2b81a037e041e98f8566e6e3e25abfcd25b4bdb63ad462f8178",
+      "regeneration": "Six-stage R611 runner regenerates this file from listed immutable inputs.",
+      "reason_not_published": "Exact subcertificate also embedded in final center or polynomial JSON"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/center/c11_minus_b_connection47.json.gz",
+      "basename": "c11_minus_b_connection47.json.gz",
+      "bytes": 4392,
+      "sha256": "9a00d55d862bf998d0ec5f042c6dbc7f847a8913b44a876e6252d276f2871891",
+      "regeneration": "Six-stage R611 runner regenerates this file from listed immutable inputs.",
+      "reason_not_published": "Exact subcertificate also embedded in final center or polynomial JSON"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/center/v_minus_b_connection47.json.gz",
+      "basename": "v_minus_b_connection47.json.gz",
+      "bytes": 4401,
+      "sha256": "7ef5108bf10ee10ccdf24ea28811eee12544662537551ecd9cec1539697ba106",
+      "regeneration": "Six-stage R611 runner regenerates this file from listed immutable inputs.",
+      "reason_not_published": "Exact subcertificate also embedded in final center or polynomial JSON"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R611_SS_j0_06/poly/actual_C_moving_connection47.json.gz",
+      "basename": "actual_C_moving_connection47.json.gz",
+      "bytes": 13000,
+      "sha256": "e18cf911fb9b180282a606e5d46ea4349f0bb2e4adc5000c9b1efc597f5fcb7b",
+      "regeneration": "Six-stage R611 runner regenerates this file from listed immutable inputs.",
+      "reason_not_published": "Exact subcertificate also embedded in final center or polynomial JSON"
+    }
+  ],
+  "execution": {
+    "all_six_mathematical_stages_actually_executed": true,
+    "support_and_T3_norm_computed_before_runner_then_reused_by_hash": true,
+    "four_later_stages_and_independent_audit_executed_in_runner": true,
+    "long_chain_reexecuted": false,
+    "old_unpublished_results_used_as_completed_inputs": false,
+    "file_restore_utility": "Syntax compiled only; actual mathematics used the existing R610 directory. Archive layout checked: 459 regular members with the exact two expected manifests.",
+    "mathematical_sources_frozen_after_actual_execution": true
+  },
+  "mathematical_changes": [
+    "Actual source physical A-parameter on reference j0, all73 source and full det3 transport preserved",
+    "P tangent original R228 z; b tangent j-jb; same Phi and canonical106 norm bound by exact input hashes",
+    "F3 regular scalar is half of R435: (5/3)dlog(delta)-2dlog(K), no nonunit jprime inverse",
+    "All original moving RR, actual T3 traces, V4, diagonal residues and precise tail assertions preserved"
+  ],
+  "results": {
+    "lambda": [
+      4395158,
+      3236984,
+      4725051,
+      726761
+    ],
+    "global_F3": [
+      2927959,
+      4678991,
+      3972393,
+      4172801,
+      3737628
+    ],
+    "QC_F3": [
+      171879,
+      1322721,
+      804687,
+      3446040,
+      3737628
+    ],
+    "bad_labels": [
+      0,
+      3,
+      28,
+      32
+    ],
+    "targets": [
+      0,
+      0,
+      2621472,
+      2621472
+    ],
+    "F2_y_candidates": [
+      8860,
+      37204
+    ],
+    "same_component_differences": [
+      [
+        2999869,
+        2999869,
+        378397,
+        378397
+      ],
+      [
+        2294493,
+        2294493,
+        4552702,
+        4552702
+      ]
+    ],
+    "remaining_pairs": [],
+    "entire_disk_excluded": true
+  },
+  "audit_scope": "Independent exact replay of actual saved principal factors and unit Norms, same-function checks, tiny integration, normalized fiber and height, all54 global quadratic assembly, and all four same-component candidate tests; no second RR or torsion execution.",
+  "publication_dependency": "Publish after R610; do not duplicate its 457-function archive. Current prior availability describes local actual inputs, not a claim of completed push."
+}

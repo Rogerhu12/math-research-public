@@ -1,0 +1,22 @@
+{
+  "result": "R289",
+  "proof_sha256": "33d364c281378aa27cd6a7f88000a75e80e51d125a591d9b178086c724bf56f2",
+  "review": "Complete mathematical proof read; exact cited primary table and proposition checked",
+  "primary_source": {
+    "url": "https://arxiv.org/pdf/1607.01218",
+    "version": "v5, 1 June 2022",
+    "location": "printed30-31, Proposition6 and Table5 C3,i through C3,iv",
+    "verification": "The four necessary minimal-invariant rows and mod4 unit conditions agree exactly; e3 satisfies all stated hypotheses."
+  },
+  "direct_checks": [
+    "Common quadratic twist d and explicit good A16 model over e1 or e3",
+    "Faithful finite inertia, supersingularity and v2(c4)>=4 over good ring",
+    "Denominator2 gives v2j2 and is excluded",
+    "All q>=5 twisting supports are excluded using the same actual modp representation, including Raynaud atp",
+    "Good-reduction discriminant divisibility forces D odd",
+    "All four dyadic cases and unit c6 conditions",
+    "The explicit rational3-isogeny restores the same modp congruence after twistminus3",
+    "Twisting simultaneously byb gives G_a and preserves actual congruence",
+    "No variable conductor upper bound or absolute completion claimed"
+  ]
+}

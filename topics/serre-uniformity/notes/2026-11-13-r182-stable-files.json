@@ -1,0 +1,21 @@
+{
+  "result": "R182",
+  "verification": "root standard-library --check PASS on2026-11-12 18:54UTC",
+  "files": [
+    {
+      "path": "results/R182-primitive-mellin-mobius-operators-and-real-order-twelve-kernels.md",
+      "bytes": 13657,
+      "sha256": "ada3ad0e60ed125a1930df4ad80faeb6441cc7295a879c9d17c8ba40949fceb0"
+    },
+    {
+      "path": "scripts/verify_r182_mobius_and_order12_blocks.py",
+      "bytes": 7570,
+      "sha256": "60d355a55ca98629d49358dce8027081ca75c6e242fa6769a89b157f51ac903f"
+    },
+    {
+      "path": "scripts/data/r182_mobius_order12_block_certificate.json",
+      "bytes": 2461,
+      "sha256": "822dd77772f927d1420f65c57dc3558b5ac68970f132f0dcc6e6ddd32787dd81"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "utc": "2026-11-12T22:47:35.277298+00:00",
+  "status": "This historical partial checkpoint is superseded by the complete R207 polynomial and certificate; actual Norm witness and L remain unknown.",
+  "files": [
+    {
+      "path": "scripts/eta_degree43_bound.py",
+      "bytes": 2288,
+      "sha256": "191aa5eed23a17ae3c126e449e8e225f40d48c3d682901c0bae360284e1fc299"
+    },
+    {
+      "path": "scripts/eta_degree43_modular.cpp",
+      "bytes": 4126,
+      "sha256": "f7b9da517b20fd995ec696695262882dab50a3bbd0ceafd804a9b6cbb2fd3097"
+    },
+    {
+      "path": "notes/eta_degree43_root_bound.json",
+      "bytes": 18394,
+      "sha256": "579a7d389b245ae5b40a23f8cdc3a85c38d793077c24a059269f944c4384ad98"
+    }
+  ],
+  "portable_bound_source_change": {
+    "original_sha256": "4ef9f93c0bbe4c71f8868bd6e51caa547966f22746d57a21031d84d2da961559",
+    "change": "Input defaults to the preserved repository checkpoint; an explicit output path replaces the lost temporary-directory dependency."
+  },
+  "completed_result": "results/R207-gaussian-trace-model-of-the-actual-ray-extension.md"
+}

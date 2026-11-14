@@ -1,0 +1,49 @@
+{
+  "result": "R390",
+  "file": "/workspace/scratch/76d0eb5f3db8/agent-global/R390-cm-coordinate-inertia-weight-one-channel-and-cartier-unit.md",
+  "sha256": "d8c7eeaaa8b42628302cd376ee6e405f62d771f05e998e4f8055c7f8800a2e92",
+  "bytes": 23860,
+  "type": "pure proof",
+  "dependencies": [
+    "R348",
+    "R374",
+    "R378"
+  ],
+  "proven_scope": [
+    "For every actual CM factor and every isogenous integral lattice, cotangent coordinate weights are the negatives of the finite Tate twist and are 1 modulo 6",
+    "The specified primitive theta_-1 factor has a one-dimensional formal coordinate of weight 1; its actual R378 G-series is nonzero and divisible by p",
+    "Exact full Fourier congruence g_theta_-1 modulo p = Theta^(p-2) h4 modulo p for fixed rational weight-four level-108 CM h4, including all bad Euler coefficients",
+    "Explicit H6-invariant fixed tame weight-four section has a unit simple zero at the a=1 CM branch",
+    "Explicit Cartier binomial unit and rigorously integral finite logarithm comparison identify the z^(p-1) Laurent coefficient of the fixed E0"
+  ],
+  "not_proven": [
+    "Nonzero central value for the specified theta_-1 factor",
+    "v_p(b1)=1 for the actual p-level quotient map or any uniform upper bound on its common valuation",
+    "Integral identification of the tame section or Cartier coefficient with the actual quotient jet",
+    "Absolute Serre uniformity"
+  ],
+  "primary_sources": [
+    {
+      "url": "https://www.math.purdue.edu/~tongliu/teaching/598/p-divisible.pdf",
+      "locations": "Tate1967 Section2.2 Proposition1; Section4.2 Theorem4 and Corollaries1-2, printed pp180-181",
+      "retrieval": "turn482view0; turn483view0"
+    },
+    {
+      "url": "https://wstein.org/papers/bib/Serre-Tate-Good_Reduction_of_Abelian_Varieties.pdf",
+      "locations": "Serre-Tate1968 Section7 Theorems10-11, used with the same normalization already proved in R374"
+    },
+    {
+      "url": "https://dlmf.nist.gov/20.5",
+      "locations": "Jacobi product identities; combined with explicit matrices and E4/Delta identities in Section6"
+    },
+    {
+      "url": "https://dlmf.nist.gov/20.7",
+      "locations": "Jacobi theta identities and modular transformations; retrieval turn484view1"
+    },
+    {
+      "url": "https://dlmf.nist.gov/23.15",
+      "locations": "Eta and modular normalization; retrieval turn484view0"
+    }
+  ],
+  "essential_data_files": []
+}

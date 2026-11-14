@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "check_count": 37,
+  "checks": [
+    "r=5: actual character has norm weight one",
+    "r=5: dual type is (r,1-r)",
+    "r=5: self-dual involution fixes the character",
+    "r=5: auxiliary (5) smoothing is thirty",
+    "r=5: actual crystalline Frobenius",
+    "r=5: Euler denominator is at the same prime",
+    "r=5: normalized reciprocal Euler is a unit formula",
+    "r=5: local comparison period exponent",
+    "r=6: actual character has norm weight one",
+    "r=6: dual type is (r,1-r)",
+    "r=6: self-dual involution fixes the character",
+    "r=6: auxiliary (5) smoothing is thirty",
+    "r=6: actual crystalline Frobenius",
+    "r=6: Euler denominator is at the same prime",
+    "r=6: normalized reciprocal Euler is a unit formula",
+    "r=6: local comparison period exponent",
+    "Theta negative-six square constant",
+    "Theta normalized Soulé log constant",
+    "sigma negative-five primitive Soulé log constant",
+    "sigma full modulus adds the exact Euler at two",
+    "sigma primitive Soulé class uses one forty-fifth",
+    "sigma full-modulus Soulé log constant",
+    "actual common-frame sigma measure scaling",
+    "power 11/-1: full bad local order 3",
+    "power 11/-1: full bad local order 2",
+    "power 11/-1: full bad local order 2",
+    "power 11/-1: full bad local order 4",
+    "power 11: archimedean epsilon ratio is minus one",
+    "power 9/-3: full bad local order 3",
+    "power 9/-3: full bad local order 2",
+    "power 9/-3: full bad local order 2",
+    "power 9/-3: full bad local order 4",
+    "power 9: archimedean epsilon ratio is minus one",
+    "all negative-Theta reflected powers have the same bad type",
+    "all negative-sigma reflected powers have the same bad type",
+    "negative Theta family has archimedean minus sign",
+    "negative sigma family has archimedean minus sign"
+  ],
+  "theta_character": "psi0^-5*barpsi0^6; V=psi0^6*barpsi0^-5",
+  "sigma_character": "psi0^-4*barpsi0^5; V=psi0^5*barpsi0^-4",
+  "theta_log": "-1280*(1-omega)*Omega0^12*(1-pi0^5/barpi0^6)/(1-barpi0^5/pi0^6)*I_Theta,-6^2",
+  "sigma_primitive_log": "-(8/3)*omega*(1-omega)*Omega0^10*(1-pi0^4/barpi0^5)/(1-barpi0^4/pi0^5)*I_sigma0,-5^2",
+  "sigma_full_modulus_log": "(3/2) times the primitive log",
+  "valuations": [
+    "v(log z6)=6+2v(I_Theta,-6)",
+    "v(log z5_prim)=5+2v(I_sigma0,-5)"
+  ],
+  "bad_local_comparison": [
+    "theta0^11 agrees with theta0^-1 at 2 and 3",
+    "theta0^9 agrees with theta0^-3 at 2 and 3"
+  ],
+  "complex_centers": [
+    "L(psi0^11,6)=0",
+    "L(psi0^9,5)=0"
+  ],
+  "unconditional_growing_weight": "h=(p-1)/6: I_Theta,-6h and I_sigma,1-6h are units; their weights depend on p",
+  "scope": "Exact reciprocity and root signs do not assert fixed-weight local nonvanishing or the main rank-two Sha goal."
+}

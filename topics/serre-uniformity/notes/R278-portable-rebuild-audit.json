@@ -1,0 +1,27 @@
+{
+  "result": "R278",
+  "actual_archive_and_all_three_executors_rebuilt_in_separate_directory": true,
+  "wrapper_sha256": "ef702a36a67c60ab17f8536afc9b13b968681235389982d49c4c268386e15f66",
+  "comparisons": [
+    {
+      "file": "ORD_j39_actual_F2_first_variable_norm47.json.gz",
+      "original_sha256": "1e827da643030a393ee348bebabe6d189d98dc8caf3f50f80733ad03dcfb6831",
+      "rebuilt_sha256": "1e827da643030a393ee348bebabe6d189d98dc8caf3f50f80733ad03dcfb6831",
+      "all_mathematical_fields_equal": true
+    },
+    {
+      "file": "ORD_j39_actual_canonical_F2_height47.json.gz",
+      "original_sha256": "1de3907e452f16fb15bfb3c65c99a278109caca5f3dd790508d2f123feda051b",
+      "rebuilt_sha256": "a37d790fd96e7f86dad0b3458396c6202128077f31b561c03b99810121bb9a8e",
+      "all_mathematical_fields_equal": true
+    },
+    {
+      "file": "ORD_j39_actual_canonical_F2_polynomial47.json.gz",
+      "original_sha256": "290189aa45fe1358cccbbb089ea003fa337a3c255fb8dfddc8bf2370f67252de",
+      "rebuilt_sha256": "fc90433f18d8f65ccb3274e29a9e6f4b2f540a9fde6c3a9bfa50267a9f54514a",
+      "all_mathematical_fields_equal": true
+    }
+  ],
+  "all_dependency_hashes_equal_after_only_the_rebuilt_center_metadata_hash_substitution": true,
+  "scope": "The staged script and data tree consists only of published repository files plus the frozen R278 files. Only path metadata, runtime and the dependent center byte hash differ."
+}

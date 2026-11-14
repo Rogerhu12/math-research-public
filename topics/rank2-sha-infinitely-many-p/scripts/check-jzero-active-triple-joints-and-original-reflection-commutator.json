@@ -1,0 +1,460 @@
+{
+  "status": "PASS",
+  "checks": [
+    "ternary F is unitary with original delta normalization",
+    "mu6 phases are exact sixth roots",
+    "exact fixed-phase enumeration has thirteen normals on twelve triples",
+    "actual output ignores its selected auxiliary on (1, 2, 3):[(Fraction(1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(1, 1)), (Fraction(-1, 1), Fraction(0, 1))]",
+    "actual output ignores its selected auxiliary on (1, 2, 3):[(Fraction(1, 1), Fraction(0, 1)), (Fraction(-1, 1), Fraction(-1, 1)), (Fraction(1, 1), Fraction(0, 1))]",
+    "actual output ignores its selected auxiliary on (1, 2, 5):[(Fraction(1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(-1, 1)), (Fraction(0, 1), Fraction(1, 1))]",
+    "actual output ignores its selected auxiliary on (1, 2, 6):[(Fraction(1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(1, 1)), (Fraction(-1, 1), Fraction(-1, 1))]",
+    "actual output ignores its selected auxiliary on (1, 3, 5):[(Fraction(1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(-1, 1)), (Fraction(-1, 1), Fraction(0, 1))]",
+    "actual output ignores its selected auxiliary on (1, 3, 6):[(Fraction(1, 1), Fraction(0, 1)), (Fraction(-1, 1), Fraction(-1, 1)), (Fraction(-1, 1), Fraction(0, 1))]",
+    "actual output ignores its selected auxiliary on (1, 4, 5):[(Fraction(1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(1, 1)), (Fraction(0, 1), Fraction(-1, 1))]",
+    "actual output ignores its selected auxiliary on (1, 4, 6):[(Fraction(1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(1, 1)), (Fraction(1, 1), Fraction(1, 1))]",
+    "actual output ignores its selected auxiliary on (1, 5, 6):[(Fraction(1, 1), Fraction(0, 1)), (Fraction(-1, 1), Fraction(-1, 1)), (Fraction(0, 1), Fraction(1, 1))]",
+    "actual output ignores its selected auxiliary on (2, 3, 5):[(Fraction(1, 1), Fraction(0, 1)), (Fraction(-1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(1, 1))]",
+    "actual output ignores its selected auxiliary on (2, 3, 6):[(Fraction(1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(0, 1)), (Fraction(-1, 1), Fraction(-1, 1))]",
+    "actual output ignores its selected auxiliary on (3, 5, 6):[(Fraction(1, 1), Fraction(0, 1)), (Fraction(-1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(0, 1))]",
+    "actual output ignores its selected auxiliary on (4, 5, 6):[(Fraction(1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(-1, 1)), (Fraction(-1, 1), Fraction(-1, 1))]",
+    "three disjoint original triple partitions",
+    "actual degree-three C cubic input weight",
+    "the original C total mass is minus one",
+    "mu6 type separation isolates AAA and ACC",
+    "tensor core implications pay the sixth-root phase",
+    "explicit possible nonunit ring-mass primes",
+    "both overlapping normals preserve the actual full output",
+    "norms and overlap are exact",
+    "actual auxiliary rotations have order three",
+    "the overlap generates the exact nonintegral two-dimensional trace",
+    "normalized trace five-thirds is not integral",
+    "the actual six-sigma sixth jet has nonzero projection commutator",
+    "both projections still fix the actual one-dimensional output",
+    "all thirty-six actual phase terms give the same original commutator"
+  ],
+  "original_six_scales": [
+    "1",
+    "2",
+    "delta",
+    "2delta",
+    "gamma",
+    "gammabar"
+  ],
+  "exact_unit_relations": [
+    {
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "scales": [
+        "1",
+        "2",
+        "delta"
+      ],
+      "relation": [
+        "1",
+        "(0)+(1)*omega",
+        "-1"
+      ],
+      "auxiliary_row": [
+        "(-1/3)+(-2/3)*omega",
+        "(-1/3)+(1/3)*omega",
+        "(1/3)+(2/3)*omega"
+      ],
+      "actual_output_in_transformed_coordinates": [
+        "(0)+(-1)*omega",
+        "0",
+        "(1)+(3)*omega"
+      ]
+    },
+    {
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "scales": [
+        "1",
+        "2",
+        "delta"
+      ],
+      "relation": [
+        "1",
+        "(-1)+(-1)*omega",
+        "1"
+      ],
+      "auxiliary_row": [
+        "(-1/3)+(-2/3)*omega",
+        "(2/3)+(1/3)*omega",
+        "(-1/3)+(-2/3)*omega"
+      ],
+      "actual_output_in_transformed_coordinates": [
+        "(2)+(3)*omega",
+        "0",
+        "(-1)+(-1)*omega"
+      ]
+    },
+    {
+      "indices": [
+        1,
+        2,
+        5
+      ],
+      "scales": [
+        "1",
+        "2",
+        "gamma"
+      ],
+      "relation": [
+        "1",
+        "(0)+(-1)*omega",
+        "(0)+(1)*omega"
+      ],
+      "auxiliary_row": [
+        "(-1/3)+(-2/3)*omega",
+        "(1/3)+(-1/3)*omega",
+        "(-1/3)+(1/3)*omega"
+      ],
+      "actual_output_in_transformed_coordinates": [
+        "(0)+(3)*omega",
+        "0",
+        "(1)+(-1)*omega"
+      ]
+    },
+    {
+      "indices": [
+        1,
+        2,
+        6
+      ],
+      "scales": [
+        "1",
+        "2",
+        "gammabar"
+      ],
+      "relation": [
+        "1",
+        "(1)+(1)*omega",
+        "(-1)+(-1)*omega"
+      ],
+      "auxiliary_row": [
+        "(-1/3)+(-2/3)*omega",
+        "(-2/3)+(-1/3)*omega",
+        "(2/3)+(1/3)*omega"
+      ],
+      "actual_output_in_transformed_coordinates": [
+        "(-2)+(-1)*omega",
+        "0",
+        "(3)+(3)*omega"
+      ]
+    },
+    {
+      "indices": [
+        1,
+        3,
+        5
+      ],
+      "scales": [
+        "1",
+        "delta",
+        "gamma"
+      ],
+      "relation": [
+        "1",
+        "(0)+(-1)*omega",
+        "-1"
+      ],
+      "auxiliary_row": [
+        "(-1/3)+(-2/3)*omega",
+        "(1/3)+(-1/3)*omega",
+        "(1/3)+(2/3)*omega"
+      ],
+      "actual_output_in_transformed_coordinates": [
+        "-2",
+        "0",
+        "(3)+(2)*omega"
+      ]
+    },
+    {
+      "indices": [
+        1,
+        3,
+        6
+      ],
+      "scales": [
+        "1",
+        "delta",
+        "gammabar"
+      ],
+      "relation": [
+        "1",
+        "(-1)+(-1)*omega",
+        "-1"
+      ],
+      "auxiliary_row": [
+        "(-1/3)+(-2/3)*omega",
+        "(2/3)+(1/3)*omega",
+        "(1/3)+(2/3)*omega"
+      ],
+      "actual_output_in_transformed_coordinates": [
+        "(-1)+(2)*omega",
+        "0",
+        "2"
+      ]
+    },
+    {
+      "indices": [
+        1,
+        4,
+        5
+      ],
+      "scales": [
+        "1",
+        "2delta",
+        "gamma"
+      ],
+      "relation": [
+        "1",
+        "(1)+(1)*omega",
+        "(0)+(-1)*omega"
+      ],
+      "auxiliary_row": [
+        "(-1/3)+(-2/3)*omega",
+        "(-2/3)+(-1/3)*omega",
+        "(1/3)+(-1/3)*omega"
+      ],
+      "actual_output_in_transformed_coordinates": [
+        "(2)+(-1)*omega",
+        "0",
+        "(-1)+(3)*omega"
+      ]
+    },
+    {
+      "indices": [
+        1,
+        4,
+        6
+      ],
+      "scales": [
+        "1",
+        "2delta",
+        "gammabar"
+      ],
+      "relation": [
+        "1",
+        "(0)+(1)*omega",
+        "(1)+(1)*omega"
+      ],
+      "auxiliary_row": [
+        "(-1/3)+(-2/3)*omega",
+        "(-1/3)+(1/3)*omega",
+        "(-2/3)+(-1/3)*omega"
+      ],
+      "actual_output_in_transformed_coordinates": [
+        "(4)+(3)*omega",
+        "0",
+        "(-3)+(-1)*omega"
+      ]
+    },
+    {
+      "indices": [
+        1,
+        5,
+        6
+      ],
+      "scales": [
+        "1",
+        "gamma",
+        "gammabar"
+      ],
+      "relation": [
+        "1",
+        "(-1)+(-1)*omega",
+        "(0)+(1)*omega"
+      ],
+      "auxiliary_row": [
+        "(-1/3)+(-2/3)*omega",
+        "(2/3)+(1/3)*omega",
+        "(-1/3)+(1/3)*omega"
+      ],
+      "actual_output_in_transformed_coordinates": [
+        "(2)+(4)*omega",
+        "0",
+        "(-1)+(-2)*omega"
+      ]
+    },
+    {
+      "indices": [
+        2,
+        3,
+        5
+      ],
+      "scales": [
+        "2",
+        "delta",
+        "gamma"
+      ],
+      "relation": [
+        "1",
+        "-1",
+        "(0)+(1)*omega"
+      ],
+      "auxiliary_row": [
+        "(-1/3)+(-2/3)*omega",
+        "(1/3)+(2/3)*omega",
+        "(-1/3)+(1/3)*omega"
+      ],
+      "actual_output_in_transformed_coordinates": [
+        "(1)+(4)*omega",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "indices": [
+        2,
+        3,
+        6
+      ],
+      "scales": [
+        "2",
+        "delta",
+        "gammabar"
+      ],
+      "relation": [
+        "1",
+        "1",
+        "(-1)+(-1)*omega"
+      ],
+      "auxiliary_row": [
+        "(-1/3)+(-2/3)*omega",
+        "(-1/3)+(-2/3)*omega",
+        "(2/3)+(1/3)*omega"
+      ],
+      "actual_output_in_transformed_coordinates": [
+        "-1",
+        "0",
+        "(3)+(4)*omega"
+      ]
+    },
+    {
+      "indices": [
+        3,
+        5,
+        6
+      ],
+      "scales": [
+        "delta",
+        "gamma",
+        "gammabar"
+      ],
+      "relation": [
+        "1",
+        "-1",
+        "1"
+      ],
+      "auxiliary_row": [
+        "(-1/3)+(-2/3)*omega",
+        "(1/3)+(2/3)*omega",
+        "(-1/3)+(-2/3)*omega"
+      ],
+      "actual_output_in_transformed_coordinates": [
+        "1",
+        "0",
+        "-4"
+      ]
+    },
+    {
+      "indices": [
+        4,
+        5,
+        6
+      ],
+      "scales": [
+        "2delta",
+        "gamma",
+        "gammabar"
+      ],
+      "relation": [
+        "1",
+        "(0)+(-1)*omega",
+        "(-1)+(-1)*omega"
+      ],
+      "auxiliary_row": [
+        "(-1/3)+(-2/3)*omega",
+        "(1/3)+(-1/3)*omega",
+        "(2/3)+(1/3)*omega"
+      ],
+      "actual_output_in_transformed_coordinates": [
+        "-5",
+        "0",
+        "-1"
+      ]
+    }
+  ],
+  "disjoint_partitions": [
+    [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        5,
+        6
+      ]
+    ],
+    [
+      [
+        1,
+        4,
+        5
+      ],
+      [
+        2,
+        3,
+        6
+      ]
+    ],
+    [
+      [
+        1,
+        4,
+        6
+      ],
+      [
+        2,
+        3,
+        5
+      ]
+    ]
+  ],
+  "rho2": "rho2=-[delta^-1]_*nu_C, C=y*sigma^3; mass one",
+  "complete_core": "rho2|p=lambda_C[kappa]rho2; (barpi*lambda_C)^6=1; lambda_C=-nu_C(p)",
+  "ring_mass": "lambda_C^n*(1-lambda_C); never zero, unit outside p=3n^2+3n+1",
+  "active_joint": "mu6_aux average of (Y,L_r)_*eta6 = nu_S tensor rho2",
+  "two_disjoint_joints": "nu_S tensor rho2 tensor rho2; no assumption of joint independence for overlaps",
+  "overlap_normals": [
+    [
+      "1",
+      "(-1)+(-1)*omega",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "0",
+      "0",
+      "(1)+(1)*omega",
+      "(0)+(-1)*omega",
+      "0"
+    ]
+  ],
+  "overlap_normalized_trace": "5/3",
+  "actual_sixth_jet_commutator": "(-96214/2187)+(105848/2187)*omega",
+  "scope": "An infinite reflection group does not supply a bounded Haar average or erase the actual nonzero source commutator."
+}

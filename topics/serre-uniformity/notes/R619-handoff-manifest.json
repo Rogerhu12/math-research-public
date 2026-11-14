@@ -1,0 +1,41 @@
+{
+  "result": "R619",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "New complete ordinary anti-p class-group theorem and actual Hilbert–90 coefficient, based on preserved published inputs.",
+  "source_proof_sha256": "9ef8552899df7133a2b9930d020805bb351c77db589034a31db922f199fb8f37",
+  "root_review": "Root read the complete ordinary-unit and class-group proof, the actual 44-row arithmetic checker and its executed certificate, and Milne VIII Theorem 3.1. Checked the integral cyclic-module saturation, local norm index, both ambiguous-class exact sequences, and the genuine mod-p genus map forcing length one; read the same-ancestor Hilbert–90 descent and the sign and normalization of the actual coefficient nine. No full mixed-unit lattice or original scalar C is assumed, and no large Robert computation was repeated.",
+  "files": [
+    {
+      "file": "results/R619-ordinary-anti-p-class-group-and-actual-artin-nine.md",
+      "bytes": 19065,
+      "sha256": "9ef8552899df7133a2b9930d020805bb351c77db589034a31db922f199fb8f37"
+    },
+    {
+      "file": "scripts/verify_r619_anti_class_artin.py",
+      "bytes": 2935,
+      "sha256": "0d5609a3203a3ebe1204a682c316354bd595a37b12ce6e68cae54844f537c68b"
+    },
+    {
+      "file": "notes/r619_anti_class_artin_certificate.json",
+      "bytes": 937,
+      "sha256": "b95f3f10aae917795ce0be4e41e4597f2e8983c31f1a164d527fa6437e7c370e"
+    },
+    {
+      "file": "notes/R619-agent-handoff-manifest.json",
+      "bytes": 1264,
+      "sha256": "7d2c05d8fcb01826f57e1ba2f80952708a1537e54e81968bd20bcf817bf0e054"
+    },
+    {
+      "file": "notes/2026-11-14-handoff-before-R619-and-CM-basis.md",
+      "bytes": 9691,
+      "sha256": "d1c62a8b55b5468dd3220304a6075c3985886522569c5be6ee113c9691943643"
+    }
+  ],
+  "ordinary_class_group_length": 1,
+  "actual_auxiliary_C_t": 9,
+  "original_scalar_C_computed": false,
+  "original_first_moment_J_computed": false,
+  "old_full_layer_length_43_used": false,
+  "old_full_mixed_unit_lattice_used": false,
+  "mathematics_repeated_for_packaging": false
+}

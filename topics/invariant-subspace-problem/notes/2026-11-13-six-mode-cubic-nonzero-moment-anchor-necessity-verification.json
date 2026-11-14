@@ -1,0 +1,84 @@
+{
+  "all_pass": true,
+  "planes": [
+    {
+      "name": "plus",
+      "all_pass": true,
+      "exact_reduced_gradient_zeros": 17,
+      "exact_third_moment_gradient_zeros": 16,
+      "exact_value_zero": true,
+      "exact_conic_times_linear_tensor_checks": 27,
+      "parameter_monic_polynomial_mod103": [
+        97,
+        11,
+        96,
+        1
+      ],
+      "parameter_discriminant_mod103": 26,
+      "linear_coefficient_matrix_mod103": [
+        [
+          91,
+          80,
+          20
+        ],
+        [
+          13,
+          6,
+          89
+        ],
+        [
+          54,
+          85,
+          76
+        ]
+      ],
+      "linear_coefficient_determinant_mod103": 33,
+      "bell_e0_coefficient_vector_mod103": [
+        51,
+        72,
+        18
+      ],
+      "conic_determinant": 163840000
+    },
+    {
+      "name": "minus",
+      "all_pass": true,
+      "exact_reduced_gradient_zeros": 17,
+      "exact_third_moment_gradient_zeros": 16,
+      "exact_value_zero": true,
+      "exact_conic_times_linear_tensor_checks": 27,
+      "parameter_monic_polynomial_mod103": [
+        24,
+        38,
+        36,
+        1
+      ],
+      "parameter_discriminant_mod103": 67,
+      "linear_coefficient_matrix_mod103": [
+        [
+          22,
+          96,
+          66
+        ],
+        [
+          59,
+          47,
+          98
+        ],
+        [
+          21,
+          39,
+          17
+        ]
+      ],
+      "linear_coefficient_determinant_mod103": 61,
+      "bell_e0_coefficient_vector_mod103": [
+        16,
+        23,
+        48
+      ],
+      "conic_determinant": 163840000
+    }
+  ],
+  "scope": "Six exact complete critical points. Their ordinary third moments are nonzero and force both original conic conditions on any direction whose matching Bell power belongs to the global Jacobian ideal. This is a necessary condition, not a global membership or cyclicity theorem."
+}

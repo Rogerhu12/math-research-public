@@ -1,0 +1,56 @@
+{
+  "actual_execution_utc": "2026-11-12 22:18 UTC",
+  "files": [
+    {
+      "path": "notes/verify_r193_two_adic_local_heights.mjs",
+      "bytes": 7448,
+      "sha256": "a4123f3696524e38bc9a824c7159002d73306ea87b05508987324d8f75722ae6"
+    },
+    {
+      "path": "notes/r193_two_adic_local_heights_certificate.json",
+      "bytes": 76348,
+      "sha256": "1f38dac125dbb9fb5bcdcb490feb64754639b8d8d47937c8e51b672a72cfd698"
+    },
+    {
+      "path": "results/R193-two-adic-local-heights.md",
+      "bytes": 9488,
+      "sha256": "b0e9250ce4e40e5e4e61a4d1861df61b9f2107ec54aa6f3e162392ef95a7b935"
+    },
+    {
+      "path": "notes/verify_r195_level41_local_heights.mjs",
+      "bytes": 5152,
+      "sha256": "255d1cdcd83a0bc8cf82d5c9ea00a0df7a31f5e251b6161b0c7d44d98849d645"
+    },
+    {
+      "path": "notes/r195_non47_local_heights_certificate.json",
+      "bytes": 66610,
+      "sha256": "5d77f52d05dcc5945c3bf9258de0252046ed6871850bcf6da17db2465a7eaad3"
+    },
+    {
+      "path": "results/R195-level41-and-complete-non47-local-heights.md",
+      "bytes": 7300,
+      "sha256": "0d8b389566b23418afaba4359c9efc80772fa2da864b20c0c4aca8acc9a34c4e"
+    },
+    {
+      "path": "scripts/p41_cm4_miller_norm47.py",
+      "bytes": 15997,
+      "sha256": "a286000cf2110878124f09af0995612adb0d35fe03ef07069f48a7e9d8600beb"
+    },
+    {
+      "path": "scripts/data/p41_cm4_miller_norm47_complete.json.gz",
+      "bytes": 3538,
+      "sha256": "c274f7c8ca6cca0ea549943b38aae8353dfebe9276a096d8c86f4230495ffb77"
+    },
+    {
+      "path": "scripts/p41_cusp_miller_norm47.py",
+      "bytes": 11615,
+      "sha256": "08c75f9ccb58a3b9b8f8acbb9df90d0e6550197b0affa13841a2c2182783a62c"
+    },
+    {
+      "path": "scripts/data/p41_cusp_miller_norm47_complete.json.gz",
+      "bytes": 5033,
+      "sha256": "5c2d28ece0c3c3d3015dc5bfe68bf663b7aa7d698e2ba03dd01a61538b3381eb"
+    }
+  ],
+  "scope": "R193/R195 complete non47 vector; CM4/cusp complete B Miller factors; other global inputs continue"
+}

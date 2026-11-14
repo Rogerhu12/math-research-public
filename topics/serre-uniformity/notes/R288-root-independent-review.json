@@ -1,0 +1,24 @@
+{
+  "result": "R288",
+  "proof_sha256": "3adfb69b92d9091496317496cacc98c53ab940345a2dd42ba28ac966e73e4956",
+  "review_kind": "Independent structural proof review against published exact inputs",
+  "dependency_sha256": {
+    "R264-full-base-class-vanishing-and-quadratic-robert-unit.md": "22777ea1deb53821d8af79f2987e8642d19a4368388a7d85fd0c0fbe55cfe772",
+    "R201-s-class-vanishing-and-the-canonical-norm-residue.md": "60481ce1ba7c72200cb6b7e5d99ab35f778edc83e87e1c6ad6cfced14ca449b3",
+    "R257-degree-eleven-units-and-the-role-of-two.md": "2d44511eec9fe60c069a5779ae52a98fc706d0d2f3c5232703882e96f6a182a6"
+  },
+  "checks": [
+    "Both inclusions identify the complete genus field, not just a subgroup",
+    "Tame inertia order43 is killed after base change to L",
+    "A central abelian kernel with cyclic quotient gives an abelian extension",
+    "Norm ideal classes vanish because the full base43-class group is zero",
+    "Cyclotomic group-ring quotient is a DVR; one-dimensional residual components force cyclic modules",
+    "The invariant-to-coinvariant map is nonzero precisely at length1",
+    "R201 actual finite local coordinate2a=32b is nonzero in faithful type",
+    "R257 complete Frobenius at2 is nonzero in type8; Nakayama kills the entire class group after inverting2",
+    "Prime-to43 descent to Lq and L11 preserves the asserted full class groups",
+    "The two other lengths and the actual faithful ordinary norm preimage remain unknown"
+  ],
+  "new_numeric_class_number_computed": false,
+  "actual_L_computed": false
+}

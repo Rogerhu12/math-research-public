@@ -1,0 +1,274 @@
+# R274：固定原头多源修复的完整交换子基与最后一阶障碍
+
+日期：2026-11-14。作者：Astra-ISP-789f / normal_annihilator；AI-assisted，GPT-6 Astra Pro。
+
+状态：以下为完整实际算子恒等式及其证明。继续已推送 [R272](R272-normal-predual-tail-repair-and-exact-positivity-obstruction.md) 的正常预对偶修复，准确处理“同时消去越来越多的 $S$ 幂，然后借头幂零性迫正尾边缘为零”的路线。结论明确识别不能免费补上的最后一阶；不排除一般正常见证，也不解决普通 ISP。
+
+## 1. 原对象与完整交换子的实际有限基
+
+取固定原符号 $S\in\mathcal A=\overline{\mathbb C[I,A]}^{\|\cdot\|}$，假设
+$$
+c_0(S)=0,\qquad c_1(S)\ne0.
+\tag{1.1}
+$$
+两个指定慢符号 $S_N,S_Y$ 都满足这个条件。
+对固定正常泛函，[R237 的同范数强逼近](R237-appendix-asymptotically-contractive-principal-ideal-approximation.md) §§4–6 允许把 $S\mathcal A$ 的右零式升级为 $S\mathcal A' $ 的右零式；下文直接在后者上写恒等式。固定 $P\ge1$，置
+$$
+q=2^P,\qquad H=K_P\otimes H_P,
+\qquad A^q=d_P I_{K_P}\otimes\widehat N_P,
+\qquad d_P>0.
+$$
+记
+$$
+\mathcal B_P=\overline{\mathbb C[I,\widehat N_P]}^{\|\cdot\|},
+\qquad\mathcal C_P=\{\widehat N_P\}'\subset B(H_P).
+$$
+本节所有物理头权都保留。
+令 $V_r u=\varepsilon_r\otimes u$，$0\le r<q$；原实际首列有
+$$
+A^rV_0=W_rV_r,\qquad W_r>0,
+\qquad W_0=1.
+\tag{1.2}
+$$
+
+**命题 1.1。** 每个 $F\in\mathcal A'$ 唯一写成
+$$
+F=\sum_{j=0}^{q-1}S^j(I_{K_P}\otimes G_j),
+\qquad G_j\in\mathcal C_P.
+\tag{1.3}
+$$
+这是整个实际交换子的分解，不仅是范数代数 $\mathcal A$ 的形式分解。
+对固定 $P,S$，系数抽取是有界正常线性映射；不声称其费用对 $P$ 一致。
+
+**证明。** 先用 $A$ 代替 $S$。
+$F$ 与 $A^q$ 交换，所以每个块 $V_r^*FV_s$ 属于 $\mathcal C_P$。
+令 $G_r=W_r^{-1}V_r^*FV_0$，并定义
+$F_0=\sum_{r<q}A^r(I\otimes G_r)$。
+原递推保证 $I\otimes\mathcal C_P\subset\mathcal A'$，故 $F_0\in\mathcal A'$；
+(1.2) 给 $F_0V_0=FV_0$。
+对每个 $j<q$，交换性再次给
+$$
+F_0V_j=W_j^{-1}F_0A^jV_0
+=W_j^{-1}A^jF_0V_0
+=W_j^{-1}A^jFV_0=FV_j.
+$$
+有限个 $V_jH_P$ 正交张成 $H$，所以 $F_0=F$；首列同时给唯一性。
+
+现在考虑 $S^0,S^1,\ldots,S^{q-1}$ 的实际首列矩阵
+$$
+U_{rj}=V_r^*S^jV_0\in\mathcal B_P,
+\qquad0\le r,j<q.
+\tag{1.4}
+$$
+[R124 的准确余数分解](R124-dyadic-residue-factorization-and-order-one-kernels.md)及常数字符 $\chi_P$ 给
+$$
+\chi_P(U_{rj})=W_r c_r(S^j).
+$$
+由 (1.1)，这个标量矩阵是下三角矩阵，对角为
+$W_jc_1(S)^j\ne0$。
+$\mathcal B_P$ 是由拟幂零元生成的交换幺 Banach 代数，其唯一字符为 $\chi_P$。
+因此 $\det U$ 是原 $\mathcal B_P$ 中的单位，伴随矩阵公式给
+$U^{-1}\in M_q(\mathcal B_P)$。
+对 $F\in\mathcal A'$，以 $U^{-1}$ 乘其实际首列得到
+$G_j\in\mathcal C_P$；相应右端与 $F$ 都与 $A$ 交换且首列相同，前段论证给相等。
+所有压缩和固定有界乘法都正常，得到所述连续性。$\square$
+
+特别，物理头上的常数字符约化把 $S$ 送到一个幂零阶准确为 $q$ 的矩阵。
+因此不存在系数在 $\mathcal B_P$ 中、次数小于 $q$ 的首一多项式将该实际矩阵消去：否则对系数施 $\chi_P$ 就给这个 $q$ 阶幂零 Jordan 型矩阵一个低次首一消去式。
+实际进位不能把这个次数自动改成纯平方零头的 $P+1$。
+
+## 2. 特征多项式的常数项正是原相位乘积
+
+把 $S$ 看作 $M_q(\mathcal B_P)$ 中的真实物理块矩阵，写
+$$
+h_P(\lambda)
+=\det(\lambda I_q-S)
+=\lambda^q+c_{q-1}\lambda^{q-1}+\cdots+c_1\lambda+c_0,
+\qquad c_j\in\mathcal B_P.
+\tag{2.1}
+$$
+块系数所在代数交换，因此通常的伴随矩阵多项式证明在此给出准确的 Cayley–Hamilton 身份
+$$
+S^q+\sum_{j=0}^{q-1}S^j(I\otimes c_j)=0.
+\tag{2.2}
+$$
+
+[R253](R253-positive-tail-partial-traces-and-dyadic-phase-product-elimination.md)定义原 dyadic 相位乘积
+$$
+\prod_{\zeta^q=1}\gamma_\zeta(S)=I_{K_P}\otimes Q_P.
+\tag{2.3}
+$$
+这里每个 $\gamma_\zeta$ 是原物理相位酉共轭，$\gamma_\zeta(A)=\zeta A$。
+有准确身份
+$$
+\boxed{\det S=Q_P,\qquad c_0=(-1)^qQ_P.}
+\tag{2.4}
+$$
+在本题 $P\ge1$，$q$ 为偶数，故 $c_0=Q_P$。
+
+**证明。** 先取 $S=p(A)$ 为多项式。
+把真实块矩阵中尾参数 $\widehat N_P$ 暂记为交换变量 $t$。
+$A$ 的加权循环矩阵的特征多项式是 $\lambda^q-d_Pt$。
+对任意非零标量 $t$，它具有不同的特征值 $\zeta z$，其中 $z^q=d_Pt$。
+因此
+$$
+\det p(A(t))=\prod_{\zeta^q=1}p(\zeta z).
+$$
+右边同时是 $\prod_\zeta p(\zeta A(t))$ 的标量值；两边均是 $t$ 的多项式。
+对所有非零标量 $t$ 的相等给出多项式恒等式，再代回真正的 $\widehat N_P$。
+对一般 $S\in\mathcal A$，取多项式在原算子范数中逼近 $S$。
+有限块压缩、有限行列式以及固定有限个相位因子的乘积均范数连续，所以等式取极限后成立。
+常数项公式即得。$\square$
+
+若 $S$ 在原 $H$ 上稠密像，则每个 $\gamma_\zeta(S)$ 也稠密像，有限个稠密像有界算子的乘积仍稠密像。
+由 (2.3)，得到
+$$
+\overline{Q_PH_P}=H_P.
+\tag{2.5}
+$$
+两个指定慢符号满足这个已经证明的全空间条件。
+此处只运输同一全空间的酉相位和有限乘积，不运输到未知不变限制。
+
+## 3. raw 低阶零式下的准确算子值矩递推
+
+令 $\sigma\in\mathcal S_1(H)$，不假设 $\sigma$ 正或自伴。
+记其真实尾边缘和各阶矩为
+$$
+\nu=\operatorname{Tr}_{K_P}\sigma,
+\qquad B_j=\operatorname{Tr}_{K_P}(\sigma S^j)
+\in\mathcal S_1(H_P),\qquad B_0=\nu.
+$$
+假设同时消去了前 $q-1$ 条完整 raw 尾源：
+$$
+\operatorname{Tr}\bigl(\sigma S^j(I\otimes G)\bigr)=0
+\quad\bigl(G\in B(H_P),\ 1\le j\le q-1\bigr).
+\tag{3.1}
+$$
+这等价于 $B_1=\cdots=B_{q-1}=0$。
+把 (2.2) 右乘 $S^k$，与 $\sigma$ 相乘后作部分迹，得到
+$$
+\boxed{B_{k+q}+\sum_{j=0}^{q-1}B_{k+j}c_j=0
+\qquad(k\ge0).}
+\tag{3.2}
+$$
+所有 $c_j$ 均保持在右侧；没有假设 $\nu$ 或 $B_j$ 与它们交换。
+特别
+$$
+\boxed{B_q=-\nu c_0=(-1)^{q+1}\nu Q_P.}
+\tag{3.3}
+$$
+继续递推可得
+$B_{q+1}=\nu c_0c_{q-1}$，并且每个 $j\ge q$ 都有
+$$
+B_j=\nu c_0d_j,\qquad d_j\in\mathcal B_P.
+\tag{3.4}
+$$
+
+全部矩可合成一个准确生成函数。
+令
+$$
+g_P(z)=I+c_{q-1}z+\cdots+c_1z^{q-1}+c_0z^q.
+$$
+在足够小的 $|z|$ 上，$g_P(z)$ 可逆，且矩级数在迹范数中收敛；由 (3.2)，
+$$
+\boxed{
+\operatorname{Tr}_{K_P}\bigl(\sigma(I-zS)^{-1}\bigr)
+=\nu-\nu c_0z^qg_P(z)^{-1}.}
+\tag{3.5}
+$$
+证明也可直接比较系数：左边乘右侧的 $g_P(z)$，只留下
+$\nu(I+c_{q-1}z+\cdots+c_1z^{q-1})$。
+
+## 4. 缺失的最后一阶不能补成 raw 零式
+
+设 (2.5) 成立，且 $\nu\ne0$。
+若 $\nu Q_P=0$，有界算子 $\nu$ 就在稠密集合 $Q_PH_P$ 上为零，从而 $\nu=0$，矛盾。
+因此
+$$
+\boxed{B_q\ne0.}
+\tag{4.1}
+$$
+更定量地，由迹类与有界算子的标准对偶范数，
+$$
+\boxed{
+\sup_{\|G\|\le1}
+\left|\operatorname{Tr}\bigl(\sigma S^q(I\otimes G)\bigr)\right|
+=\|\nu Q_P\|_1>0.}
+\tag{4.2}
+$$
+这个等式的 $G$ 遍历全部 $B(H_P)$，不一定属于 $\mathcal C_P$。
+
+于是，在同一固定真实 $P$ 头上，不存在任何迹类 $\sigma$（即使允许非正）同时满足：
+
+- 非零尾边缘 $\operatorname{Tr}_{K_P}\sigma=\nu$；
+- 对每个 $1\le j\le q$、每个 raw 尾 $G\in B(H_P)$，$S^j$ 的右源零式。
+
+这不是估计常数不足：第 $q$ 条的准确余额就是 $(-1)^{q+1}\nu Q_P$。
+特别，增加一条 raw 方程同时仍固定同一非零尾边缘，在这个次数处本身不相容。
+
+## 5. 保原完整交换子泛函后，高阶约束恰回到旧正尾消元
+
+在 (3.1) 前提下，有精确等价
+$$
+\boxed{
+\operatorname{Tr}(\sigma SF)=0\ (F\in\mathcal A')
+\quad\Longleftrightarrow\quad
+\operatorname{Tr}(\nu Q_PG)=0\ (G\in\mathcal C_P).
+}
+\tag{5.1}
+$$
+
+**证明。** 用命题 1.1 写
+$F=\sum_{j=0}^{q-1}S^j(I\otimes G_j)$。
+则
+$$
+\operatorname{Tr}(\sigma SF)
+=\sum_{j=0}^{q-1}\operatorname{Tr}(B_{j+1}G_j)
+=(-1)^{q+1}\operatorname{Tr}(\nu Q_PG_{q-1}).
+$$
+原分解中的每个 $G_{q-1}\in\mathcal C_P$ 都可独立取值，故等价成立。$\square$
+
+因此，多源 raw 消去后，保留的原完整交换子零式并不把 (4.2) 的上确界限制为零：它只使非零正常泛函 $\nu Q_P$ 湮灭 $\mathcal C_P$。
+由 (3.4)，对全部更高 $S$ 幂加上原尾交换子右测试也没有额外强度，仍正好是同一个右条件。
+
+若 $\rho\ge0$ 本来满足原完整湮灭条件，R253 的相位乘积已经直接给出同一个正部分迹
+$\nu=\operatorname{Tr}_{K_P}\rho\ge0$ 的右条件。
+不能把这个早已证明的正尾消元再当成 R272 额外提供的排除结论。
+
+## 6. R272 恰可消去前 q−1 阶，但不提供移动费用
+
+对固定 $P$ 选行
+$$
+S,S^2,\ldots,S^{q-1}.
+$$
+它们满足 R272 的固定行假设。
+在物理正输出行 $1,\ldots,q-1$ 上，其首列字符矩阵为下三角，非零对角仍为
+$W_jc_1(S)^j$，所以原尾左逆确实存在。
+
+取 R272 的 $n=P$，并取该处条件期望为恒等，就得到正常投影修复，
+准确保持原 $P$ 尾边缘并给出 (3.1)。
+若输入本来湮灭 $S\mathcal A'$，则其所有选行也满足前提，R272 保持同一个原 $\mathcal A'$ 泛函。
+式 (3.3) 随后自动给出修复的非零第 $q$ 阶余额。
+
+这里 $P$ 改变时，行数、真实首列单位及其逆都改变。
+R272 的迹范数收敛定理要求先固定这些数据，再把额外截尾位置送往无穷；
+不能把本节移动的 $q=2^P$ 直接代入并继续声称同一个误差趋零。
+全部 $W_j$ 与 $c_1(S)^j$ 都留在逆费用中。
+
+也可反向说明该非正提升的精确范围：给定任意 $\nu\in\mathcal S_1(H_P)$，从
+$\rho_0=|\varepsilon_0\rangle\langle\varepsilon_0|\otimes\nu$ 出发使用同一固定投影，得到满足 (3.1) 的迹类 $\sigma$ 且尾边缘为 $\nu$。
+由 (5.1)，它满足原 $S\mathcal A'$ 零式，当且仅当 $\nu Q_P$ 湮灭 $\mathcal C_P$。
+即使 $\nu\ge0$，这一提升一般也不正；R272 已准确刻画其单侧头块修正及正性损失。
+
+## 7. 当前结论与仍须推进的真实接口
+
+本稿完成了以下核对：
+
+1. 在真实 $P$ 头上，$1,S,\ldots,S^{2^P-1}$ 是整个原交换子相对于真实尾交换子的有限基；
+2. raw 消去前 $2^P-1$ 幂后，最后一阶准确为非零 $\nu Q_P$，并有 (4.2) 的精确对偶范数；
+3. 原全部交换子右零式准确等价于旧正尾条件 $\nu Q_P\mathcal C_P=0$，没有自动升级为 raw 零式；
+4. 在保持非零尾边缘时再加最后一条 raw 方程不相容，且移动头时不能免费使用固定行修复的收敛估计。
+
+这关闭了上述具体“差一阶可由多源修复免费补足”的捷径。
+仍然需要控制同一正尾密度对原 $Q_P$ 理想的非零正常配对，或者寻找真正新增的低头协同源与正性机制。
+没有证明 $\nu Q_P=0$，没有把 $\nu Q_P$ 的非零当成正常正见证存在的证明，普通 ISP 的状态不变。

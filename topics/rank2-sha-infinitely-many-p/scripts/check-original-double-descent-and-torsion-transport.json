@@ -1,0 +1,37 @@
+{
+  "p": 43,
+  "alpha": 19,
+  "c_minus_mu": 9,
+  "ell_plus_minus_mu": 20,
+  "first_rows_mod_p_squared": {
+    "A": 899,
+    "B": 1683,
+    "D": 930,
+    "U": 712
+  },
+  "gauged_second_rows_mod_p": {
+    "A": 22,
+    "B": 2,
+    "D": 42,
+    "U": 30
+  },
+  "symmetric_reference_second_rows_mod_p": {
+    "A": 20,
+    "B": 26,
+    "D": 15,
+    "U": 36
+  },
+  "dual_log_rows_mod_p": {
+    "A": 38,
+    "B": 12,
+    "D": 22,
+    "U": 41
+  },
+  "original_B_minus_20_A_u": 8,
+  "original_B_minus_20_A_K": 12,
+  "actual_symmetric_reference_B_trace_constant": 24,
+  "verified": true,
+  "scope": "Only the previously used original p43 calibration; B-20A has one divisible first entry and K=12. No simultaneous original first-row vanishing, complete central vanishing, or infinite-prime claim.",
+  "actual_frobenius_polynomial_identity_verified": true,
+  "actual_reflection_and_dyadic_vector_verified": true
+}

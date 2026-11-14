@@ -1,0 +1,36 @@
+{
+  "result": "R616",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "New same-original-CM-point Gross–Zagier theorem and fixed-height basis; v2 corrects the rho sign before publication.",
+  "source_proof_sha256": "702bacc4f1f796ab1e3d72814be93587faf91905a4aa97ed9cca489fcf68e3cf",
+  "root_review": "Root read the complete proof and exact finite tensor certificate, the primary Cai–Shu–Tian general Gross–Zagier formula and the June 2026 YZZ erratum. Checked the actual cubic CM point and descent direction, the coupled H6 local vector, the base-change versus Rankin–Selberg root convention, both primitive averages with the retained kappa_p phase, and the fixed height basis. Corrected equation 616.40 to the existing R593/R596 rho=Q+2ell-lambda_p so the same Omega is retained. No original candidate, p-unit height matrix, or all-p nonvanishing is inferred; no sealed calculation was repeated.",
+  "files": [
+    {
+      "file": "results/R616-original-CM-point-difference-and-explicit-height-basis.md",
+      "bytes": 23464,
+      "sha256": "dc3a7c47345858da059ae196d7739774a4840750e5e9457c45923721c289f241"
+    },
+    {
+      "file": "scripts/R616_tame_pairing_certificate.py",
+      "bytes": 4009,
+      "sha256": "e4d733c71bfe21c984f7616f5379a3f050fb5ce8edafea1462a51bab43a1f66b"
+    },
+    {
+      "file": "notes/R616-tame-pairing-certificate.json",
+      "bytes": 1658,
+      "sha256": "c03376bb156b2086af349a3f2157ae6e6c431d0995480d789dd2d3e224b69ebd"
+    },
+    {
+      "file": "notes/R616-agent-CM-point-manifest.json",
+      "bytes": 4800,
+      "sha256": "94694ff62ca50cceaaf0c97d11302f2c67dfcc9e024789de444455e21936578a"
+    }
+  ],
+  "original_rho_sign": "Q + 2 ell - lambda_p",
+  "same_Omega_preserved": true,
+  "original_CM_point_difference_used": true,
+  "opposite_family_only_as_GZ_factor": true,
+  "all_p_nonvanishing_proved": false,
+  "height_matrix_p_unit_proved": false,
+  "mathematics_repeated_for_packaging": false
+}

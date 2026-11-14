@@ -1,0 +1,181 @@
+{
+  "all_pass": true,
+  "exact_q_diagonal_coefficients": [
+    0,
+    0,
+    12,
+    -4,
+    -1,
+    0,
+    0
+  ],
+  "generic_finite_point_orders": [
+    2,
+    1,
+    0
+  ],
+  "generic_leading_coefficients": [
+    "-q(s,s)",
+    "2q(s,s)",
+    "-2q(s,s)"
+  ],
+  "exceptional_points": [
+    {
+      "point": 0,
+      "orders": [
+        4,
+        3,
+        2
+      ],
+      "leading_coefficients": [
+        5,
+        -32,
+        108
+      ],
+      "exact_local_polar_coefficients": [
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          -32,
+          5,
+          -1
+        ],
+        [
+          0,
+          0,
+          108,
+          -8,
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "point": 2,
+      "orders": [
+        3,
+        2,
+        1
+      ],
+      "leading_coefficients": [
+        16,
+        -16,
+        -32
+      ],
+      "exact_local_polar_coefficients": [
+        [
+          0,
+          0,
+          0,
+          16,
+          5,
+          -3
+        ],
+        [
+          0,
+          0,
+          -16,
+          16,
+          15,
+          -1
+        ],
+        [
+          0,
+          -32,
+          -84,
+          -24,
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "point": -6,
+      "orders": [
+        3,
+        2,
+        1
+      ],
+      "leading_coefficients": [
+        -144,
+        144,
+        288
+      ],
+      "exact_local_polar_coefficients": [
+        [
+          0,
+          0,
+          0,
+          -144,
+          5,
+          5
+        ],
+        [
+          0,
+          0,
+          144,
+          112,
+          -25,
+          -1
+        ],
+        [
+          0,
+          288,
+          -468,
+          40,
+          10,
+          0
+        ]
+      ]
+    },
+    {
+      "point": "infinity",
+      "orders": [
+        4,
+        3,
+        2
+      ],
+      "leading_coefficients": [
+        -1,
+        5,
+        -16
+      ],
+      "exact_local_polar_coefficients": [
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          5,
+          5
+        ],
+        [
+          0,
+          0,
+          -16,
+          -8,
+          -64,
+          0
+        ]
+      ]
+    }
+  ],
+  "scope": "Exact original-kernel contact data. The accompanying valuation argument excludes all nonreduced length-three common jet supports with a nonsecant mean; no numerical or finite-field zero test is used."
+}

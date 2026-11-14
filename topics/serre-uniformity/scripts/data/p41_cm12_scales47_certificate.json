@@ -1,0 +1,89 @@
+{
+  "auxiliary_prime": 47,
+  "beta_target_in_A_at_zero": [
+    1,
+    12
+  ],
+  "beta_target_in_j_at_zero": [
+    -1,
+    1425600
+  ],
+  "beta_target_over_beta_source": [
+    1,
+    2
+  ],
+  "canonical_dj_value_ratio": [
+    [
+      [
+        1525119,
+        0
+      ]
+    ]
+  ],
+  "canonical_source_coarse_weight2_value": [
+    [
+      [
+        4001519,
+        0
+      ]
+    ]
+  ],
+  "canonical_source_dj_value": [
+    [
+      [
+        3204218,
+        0
+      ]
+    ]
+  ],
+  "canonical_source_sha256": "ae902f25e6d3674b6d474a70ee12a925c0934c198eff94581cfd5dbba30023fb",
+  "canonical_target_dj_value": [
+    [
+      [
+        2742476,
+        0
+      ]
+    ]
+  ],
+  "canonical_target_weight2_value": [
+    [
+      [
+        4706496,
+        0
+      ]
+    ]
+  ],
+  "coarse_source_parameter_leading_in_target_j": [
+    -1,
+    1676676672000000
+  ],
+  "coarse_source_parameter_leading_mod47": 27,
+  "coarse_source_parameter_leading_mod47four": 4198396,
+  "level": 41,
+  "precision": 4,
+  "source_coarse_weight2_to_dj_factor": [
+    1,
+    4608
+  ],
+  "source_discriminant_numerator_in_r_cubed": [
+    -4,
+    15,
+    -12,
+    -4
+  ],
+  "source_sha256": {
+    "p41_cm12_scales47.py": "036f738070b0e2d6281b0395ea921fb7efef343fe07eb749ec0ff5c38b127c05"
+  },
+  "status": "exact integer KS identities and both fixed canonical differential unit values PASS; relies on the separately completed all73-jet independent certificate",
+  "target_KS_numerator_times_r_squared": [
+    -288,
+    -72
+  ],
+  "target_discriminant_numerator_in_r_cubed": [
+    256,
+    -384,
+    -240,
+    -32
+  ],
+  "verified_CM12_source_sha256": "47992bed13c8eca61511973f5c3cdbbe1f53d1af7221e15a86e0f129d638aa62"
+}

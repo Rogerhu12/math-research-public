@@ -1,0 +1,77 @@
+{
+  "result": "R313",
+  "disk_id": "SS_j9_11",
+  "all73_actual_CM_coordinates": true,
+  "actual54_center_nu_equal_R247": true,
+  "all_three_actual_T2_targets_and_pole_constraints": true,
+  "all54_actual_CM_Abel_coordinates": true,
+  "same_global_polynomial_as_R237": true,
+  "exact_CM_reciprocity_height_and_800_scale": true,
+  "CM_y_mod47cubed": 75213,
+  "local_polynomial": [
+    330739,
+    4651590,
+    457263,
+    830584
+  ],
+  "global_polynomial": [
+    2155279,
+    4320428,
+    4833997,
+    236363,
+    207646
+  ],
+  "QC_polynomial": [
+    1066853,
+    1365350,
+    119991,
+    4285460,
+    207646
+  ],
+  "QC_div47_reduction": [
+    45,
+    4,
+    15,
+    0,
+    0
+  ],
+  "residual_roots": [
+    13,
+    40
+  ],
+  "simple_single_F2_root_candidates_to_available_precision": [
+    {
+      "y_mod47cubed": 75213,
+      "z_mod47four": 3535011,
+      "y_base47_digits": [
+        13,
+        2,
+        34
+      ],
+      "derivative_mod47": 18
+    },
+    {
+      "y_mod47cubed": 9440,
+      "z_mod47four": 443680,
+      "y_base47_digits": [
+        40,
+        12,
+        4
+      ],
+      "derivative_mod47": 29
+    }
+  ],
+  "scope": "Independent exact arithmetic and actual saved point checks; no duplicated moving RR rank or Hecke interpolation computation.",
+  "input_sha256": {
+    "root-recovery/SS_j9_11_actual_F2_connections47.json.gz": "77cae7c0a75f523489413516d15b65ae06f2323ac8663e1d7fc9093572f9d5ef",
+    "root-recovery/SS_j9_11_actual_CM_anchored_F2_polynomial47.json.gz": "7d6fbb00c2f06693a56d3dd88f670764f3a22d7a842d65d7bec067396e9d1a32",
+    "agent-qc/p41_CM27_SS_anchor47.json.gz": "9d04cffbf3d99866dd78a2a6345fb37b404fbef72039738315c899bceaeac756",
+    "root-recovery/p41_CM27_SS_F2_connections47.py": "15257260086afcf028f304283303efa73c896b4ecb0cf75be365e61d0f1bfab0",
+    "root-recovery/p41_CM27_SS_F2_polynomial47.py": "f58e84f51eca7c0c63d11f05ef9cd02365bcb8d861eb9deec3da96028d1853a0",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_rational_SS_residue_atlas47_complete.json.gz": "f2f4f96ba74676d6b02989a540b434f6b29c2e8a8b4c5d3f7837291851eff0f3",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_rational_SS_second_kind_integrals47_complete.json.gz": "c8b5e8d292b89dadf5cfa5f1b7bafadff6848cda61ddfe207c5009f2ed6a401d",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_hecke47_full_saved.json.gz": "84709d6422ffa59f7423a980f882d68de75487d689667c6f21d0af6831e08c0f",
+    "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/p41_three_ordinary_CM_anchors_and_113_global_functions47.json.gz": "a9c40049ce3eab329ed22ff27edcb39e929491bacf35c11887b348c0609bdb6a"
+  },
+  "source_sha256": "6d9deac02fda5af01be4e933d146e2eea1f9b0aea541bd4d039d669c193f2120"
+}

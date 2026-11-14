@@ -1,0 +1,24 @@
+{
+  "result": "R564",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "Reconstructed after loss of the old workspace and functions memory; no old-byte equality is claimed unless separately evidenced.",
+  "source_proof_sha256": "7d6f7e3ae1e037bf8b82b10116af9f4e732d0ccc27093f0b63d9841c68958592",
+  "root_review": "Root checked the mixed six-torsion parameterization, separability, explicit residue denominators and exact certificate, Frobenius inverse-power factors, and the mu3-invariant weight argument eliminating the possible global holomorphic difference. No duplicate prime scan or algebraic replay was needed.",
+  "files": [
+    {
+      "file": "results/R564-two-rational-kernels-Cartier-exchange.md",
+      "bytes": 5464,
+      "sha256": "7d6f7e3ae1e037bf8b82b10116af9f4e732d0ccc27093f0b63d9841c68958592"
+    },
+    {
+      "file": "scripts/R564-reconstruction-residue-certificate.py",
+      "bytes": 1609,
+      "sha256": "3ea76ed0d184498ec799903e634a0acc80f41a1bcfcacbef122c7b02a745974e"
+    },
+    {
+      "file": "scripts/R564-reconstruction-residue-certificate.json",
+      "bytes": 675,
+      "sha256": "dfdd58832199cfe0630c4b05131a8a6dcc774186241cca9653fc2a988f044399"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "result": "R601",
+  "status": "complete; parent mathematics review passed; exact UTF-8 contents frozen in functions store; filesystem not written because environment unavailable",
+  "scope": "K0=K2=0 for all p>=41,p=5mod6; K=K1 criterion; no uniform nonvanishing",
+  "review": {
+    "parent": "/root",
+    "passed": true,
+    "checks": "q precision below5p; Cartier j1/j2 indices; residues and Wprime sign; exact short polynomial; K0 derivation/pole/oddness; K2 omega truncation",
+    "mathematics_rerun_for_packaging": false
+  },
+  "files": [
+    {
+      "filename": "R601-c1-first-and-third-block-Cartier-cancellations.md",
+      "kind": "proof",
+      "sha256": "2e45313ba11d3fd30efe6764eee79a46778013412d58d52b738fa7286d3322b4",
+      "bytes": 12401
+    },
+    {
+      "filename": "verify_R601_Cartier_cancellations.js",
+      "kind": "source",
+      "sha256": "0c1de2f256a0697be7beb78a5ddf67c8a6a9b07be9980e9b9ab3d723d627c856",
+      "bytes": 2644
+    },
+    {
+      "filename": "R601_exact_Cartier_algebra_certificate.json",
+      "kind": "data",
+      "sha256": "c48da7fb2a20a67f7fd3b34cfd0eda84bbbef1be62a4cb38a6c44a604e7c3647",
+      "bytes": 666
+    }
+  ],
+  "dependencies": [
+    "R564 full Cartier exchanges",
+    "R574 (574.12),(574.13)",
+    "R580 actual finite tame kernel",
+    "R595 exact H2 kernel, CM coordinate and complete tails",
+    "R588 actual toric normalization"
+  ],
+  "execution": {
+    "universal_integer_checker": "actually executed in functions JavaScript; all identities PASS",
+    "portable_node_wrapper": "packaging only; not executed in unavailable executor",
+    "new_prime_grid": false,
+    "old_torsion_orbit_rerun": false
+  },
+  "filesystem_written": false
+}

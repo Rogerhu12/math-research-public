@@ -1,0 +1,25 @@
+{
+  "status": "finite exact modular computation; not an infinitude proof",
+  "prime_range": "11 <= p <= 10000, p prime, p = 5 mod 6",
+  "count": 615,
+  "common_good_count": 614,
+  "S34_zeros": [
+    17,
+    29
+  ],
+  "T72_zeros": [
+    113,
+    3623
+  ],
+  "joint_zeros": [],
+  "csv_sha256": "4d18bcb262d9e25862e4786988de655276c18cc641c5ade6feac4a676aaebbf3",
+  "csv_bytes": 8566,
+  "regenerate": "g++ -O3 -std=c++17 scripts/check-r409-joint-first-diagonal.cpp -o /tmp/r409; /tmp/r409 10000 > /tmp/r409.csv",
+  "exact_polynomial_cross_checks": [
+    11,
+    17,
+    23,
+    29,
+    41
+  ]
+}

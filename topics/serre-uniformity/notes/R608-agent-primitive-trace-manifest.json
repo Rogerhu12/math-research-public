@@ -1,0 +1,68 @@
+{
+  "result": "R608",
+  "state": "new fully written proof and executed strict certificate; scratch only, root owns publication",
+  "original_bytes_claimed": false,
+  "files": [
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-global/R608-actual-primitive-ring-class-trace-and-effective-mean.md",
+      "bytes": 19441,
+      "sha256": "adb3abddb6708e8702438f8a9bcbe289becb13e9e20335dc4802bdad49ef0651"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-global/R608_primitive_trace_certificate.py",
+      "bytes": 7958,
+      "sha256": "97b290b920f90a09ceada3db33113eb1c380ee1ffd4c81547c4a306c0fa187b6"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-global/R608-p59-d0_169-coefficients.json",
+      "bytes": 17373,
+      "sha256": "b3769b8212962063271716d03dc4ba90eaf43e0f1442e131a0e928adc79a2f2a"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-global/R608-p59-d0_169-interval-certificate.json",
+      "bytes": 1337,
+      "sha256": "7a47d6b1322145297c5eb954772b3b5d96498f6ad3af010803d358237da88ce3"
+    }
+  ],
+  "mathematical_inputs": [
+    "R587 actual even conductor/root",
+    "R598 exact E1 AFE, full-family two-ray and Poisson identities, A_K(X)<=X",
+    "R600 actual primitive Galois orbit and elementary numerical constants",
+    "general-level-Heegner-rank-interface"
+  ],
+  "primary_urls": [
+    {
+      "url": "https://www.math.canterbury.ac.nz/~j.booher/expos/cubic_rec_promys.pdf",
+      "location": "Theorem 4; proof pp.5-6; primary sign converted using -1 cube"
+    },
+    {
+      "url": "https://dlmf.nist.gov/5.9.E15",
+      "location": "Binet psi integral used to prove signed gamma remainder"
+    },
+    {
+      "url": "https://dlmf.nist.gov/6.6.E2",
+      "location": "E1 convergent power series; finite alternating remainder proved in text"
+    }
+  ],
+  "actual_new_results": [
+    "For actual m, kappa_p^(-m) exactly cancels primitive cubic phase, identifying the same actual family with all primitive characters of the order-p ring class group of size (p+1)/3",
+    "Exact rational Ramanujan kernel mu(o)/phi(o) and integer Fourier traces, with full tail <=4 exp(-tX)/(t sqrt(X))",
+    "p=59,d0=169,d=9971 actual primitive mean strictly in (10.8523310797,10.8523310816), yielding rank=dimension=8 and p-adic log isomorphism for that actual factor",
+    "Full negative-root mean >4989/2750 for p>=40D; logarithmic primitive budget and explicit 6ell^2/balanced 6ell1ell2 sufficient regions",
+    "Explicit norm7 primitive-support direction at p59 disproves reusing p^2/4 bound for all Mobius directions"
+  ],
+  "not_claimed": [
+    "Original rational candidate exists for p59,d9971",
+    "Rank zero or rational zero-image in the negative-root factor",
+    "Universal primitive nonvanishing",
+    "Actual quadratic-height first-coefficient unit",
+    "Transport of original c1 point to second-cover c0 without R597",
+    "Completion of absolute Serre uniformity"
+  ],
+  "executed_command": "python3 R608_primitive_trace_certificate.py --p 59 --d0 169",
+  "certificate_runtime_seconds": 6.125,
+  "summary_index": "R608 actual primitive ring-class phase cancellation; exact integral trace and uniform finite tail; p59/d9971 rank8/log-isomorphism certificate; full-family threshold 40D and logarithmic primitive selection. General primitive/QC gaps remain OPEN.",
+  "summary_log": "Proved exact same-family primitive character reindexing via cubic reciprocity, supplied integer/interval certificate outside prior mean region, and improved uniform full-family mean threshold. No original candidate or QC zero claim.",
+  "summary_open": "Use R608 exact primitive trace or logarithmic budget to select the same actual theta_-1 negative-root factor; remaining task is general primitive positivity and the genuine corrected quadratic-height relation/local control.",
+  "summary_handoff": "R608 proof+source+two certificate files frozen with new hashes. Root to read/publish each result. Next research: effective signed contribution of short new primitive directions; do not carry over full-family p^2/4 bound."
+}

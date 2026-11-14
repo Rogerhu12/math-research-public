@@ -1,0 +1,116 @@
+# 无穷正预解式发布前检查点
+
+2026-11-12 23:50 UTC。R236高位反射已main，全部7路径回执如下；源初版e46d、加强版2f512以及发布格式版aaf662的区别均已记录。R230原完整源819f45c1ccfde4c6d8a162ca3d3b833a78d8bf6a仅将误写的11-13日期校正为实际11-12。
+
+```json
+{
+  "commit": "3a909a5791098b62260c49936cb39bb0fc3e0dfe",
+  "paths": [
+    {
+      "path": "topics/invariant-subspace-problem/HANDOFF.md",
+      "sha": "af09c1ec762a67bd5a20c830f50749da9160e092",
+      "actual": "af09c1ec762a67bd5a20c830f50749da9160e092",
+      "ok": true
+    },
+    {
+      "path": "topics/invariant-subspace-problem/open.md",
+      "sha": "005c87dd6431e019138e858abd6135ff5f9c4d3d",
+      "actual": "005c87dd6431e019138e858abd6135ff5f9c4d3d",
+      "ok": true
+    },
+    {
+      "path": "topics/invariant-subspace-problem/results.md",
+      "sha": "e24ab766f5ec803ab8e75c2e0e52142625616577",
+      "actual": "e24ab766f5ec803ab8e75c2e0e52142625616577",
+      "ok": true
+    },
+    {
+      "path": "topics/invariant-subspace-problem/log.md",
+      "sha": "15c2938637d30d3731cedc57ad0eb06a52e3c66c",
+      "actual": "15c2938637d30d3731cedc57ad0eb06a52e3c66c",
+      "ok": true
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-12-fixed-multiple-high-bit-reflections-all-finite-range-closures-central-next.md",
+      "sha": "aaf662a1e29bfc403a193256b306bcf525b15b3a",
+      "actual": "aaf662a1e29bfc403a193256b306bcf525b15b3a",
+      "ok": true
+    },
+    {
+      "path": "topics/invariant-subspace-problem/results/R236-appendix-all-finite-range-closures-by-high-bit-reflections.md",
+      "sha": "4f2b710f142f3e27bb479e7016a21df12a7d2d78",
+      "actual": "4f2b710f142f3e27bb479e7016a21df12a7d2d78",
+      "ok": true
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-12-handoff-before-all-finite-range-closures-0c.md",
+      "sha": "27d9880b758f3d15a5986adddbdda5396645fc78",
+      "actual": "27d9880b758f3d15a5986adddbdda5396645fc78",
+      "ok": true
+    }
+  ],
+  "all_verified": true
+}
+```
+
+---
+
+# 交接
+
+## 目标、负责人和规则检查点
+
+- **目标未完成：** 必须完整解决可分无穷维复 Hilbert 普通 ISP。Haar 候选 A 的普通不变格、边界 N=M、一般正常湮灭者、规范危险核均未知；全部当前成果只算中间结论，不降 README 标准，不以阶段报告或时长收尾。
+- **负责人及分工：** Astra-ISP-1cf8c51d负责，0c继续贡献。1cf已用R213–229、R240–255，R250–259仍预留；0c用R230–239。新增编号先登记，各自独占git/index，不动另一工作树未发布文件。
+- **规则读取检查点（1cf恢复后）：** 4a9768cc89d9c6a14c9970c91be328700728a17e；实际 `git pull --rebase origin main`：2026-11-12T23:07:59.182910+00:00；根/题 README 差异空，逐次继续检查，至少每小时一次。
+- **0c 实际pull/后备：** 最后确认2026-11-12 22:58:27 UTC，读63aa2751892f99380668f4d22c0a8255a5e59ea7；23:18同步失联未确认。23:48 API核c88236b5c8b11a3ba75ff4ac46acd8ddb82369a1两README未变，不算pull，恢复立即补。
+- **已读规则blob：** 根 f787a306d90892d8dec765dc59747d60ba39f055；题 6bd7bd3f74d69473916a3160eafab4b2ab2ad5cd。每次实际pull均比较两README，有变只读差异立即照做并记SHA；至少每小时pull。
+- **API规则检查点：** aee3367980eeddbcf7773c928ffc3da7317506f3（2026-11-12 23:43:42 UTC），两README blob未变；23:18终端再失联，依根§8后备，API不算pull，恢复即实际pull。
+- **发布：** 完整结论单独推；终端可用用git，拒推即pull --rebase。仅失联用根§8小文本；API不算pull。令牌仅命令行，不写文件/config/提交；不force、不写根LOG；Markdown<100KB、H<10KB，合并最新main。
+
+## 恢复记录与模型
+
+工作树：1cf /tmp/isp-1cf8c51d-math-research；0c /workspace/scratch/0c0170654df7/math-research-stable。旧未推稿已重建。[本次旧H](notes/2026-11-13-handoff-before-exact-tail-range-1cf8.md)保存完整原文，[早期回执](notes/2026-11-13-handoff-before-R253-1cf8.md)保存历轮故障/SHA/备份；R1–100与R101–200索引各自归档。勿重放旧载荷覆盖main。
+
+H=L²(Z₂,μ)，Af(y)=w(y)f(y−1)，α₀=d₀=e⁻²⁰。N_j=A^(2^j)/d_j=E_j+η_jE_j*N_(j+1)，N_j²=η_jN_(j+1)，η_j≤e^(−770·16^j)。Y_j=N_j(I+N_j)⁻¹，V_j=I−2Y_j，V_J1=χ_J。Haar E_j=e₁₀/参考Ω₊；边界E_j=e₀₁/孔真空。C f(y)=overline(f(−1−y))，A′交换且共同C对称，R88给有界多项式SOT逼近。
+UHF不运输未知Haar子空间；全H单射稠密不下传未知限制/子商。点态危险平方须a_*=0；全等向不蕴含局部等向；C未必保M，压缩不得删中央耦合；边界/奇异见证不冒充Haar正常见证。
+
+## 1. 原 Haar 正常湮灭者
+
+S_N=Σ(j+1)⁻²N_j、S_Y=Σ(j+1)⁻²Y_j全H单射稠密已证；普遍强主理想及未知限制像仍开。失败有正有限秩正常见证，不自动降秩一。R228/R229及9维例已排抽象纯化；R242最小秩的窄矩阵像/垂直商图已付，普通域稠密不是图稠密。
+**R255最优次数端点：** 正交换基的非负张量及逐层切片给r=√3纯乘法收缩；真实carry/最小闭域给E_√3(ρ)<∞的唯一真空分解并排正湮灭者。实际高位张量表明r<√3无统一乘法常数；极化/闭图给某个H_r正秩一态无H真空因子，但非湮灭者。严格强于R230旧端点，且一般正常性仍无此矩。
+R235只排保函数非负锥且正迹；R237排Walsh对角、有限带、entrywise-ℓ¹及可实现乘积基对角/有限头块，均不扩任意正常态。
+R248给真实kerS+矩向量；D不交换，非零原A′不能全域撤D。保无限无阻尼位的纯核违反正常c₀，未解决实际正常性。
+**R250/A：** 同一稀疏D右正则化可数闭M_f；C对称Hδ满足A+Hδ=HδA−、S+Hδ=HδS−=0，可任意近φ(I)P_I，迫kerS+含小闭图L及C对称幂等Q。图未证A+不变；本质范数等于范数，非正Gram/原交换子。模型随逼近改变。
+**R250B/C：** Dom(D_perp⁻¹L)={0}，L有下界/闭像非紧；L*D_perp⁻¹有限Walsh图已稠密于整个直和。第一矩迫近投影误差≥cφ(I)(aΣ−6a_I)/B_I。真实Y行Z=2δ₀R₀*/a₀是S12的全阶逆D正则右逆；L=−ZS11+L_rough，后者落kerS12且逆D域零。固定位1残差迫其下界c·3⁻σ/[8max(1,||S22||)]；剩余图仍未排。
+**R253：** 非零S的相位乘积P_m=∏γζ(S)=I_head⊗Q_m∈S Acal，Q_m非零且保形式首阶；无需奇块可逆。正部分迹τ_m仍湮灭Q_mB_m，距λ真空态≤2√(λδ_m)。理想测试范数1≥q₀≥q₁≥…>0，迫δ_m≥λq_m²/4及q_m→0。慢符号q_m非消失仍开；部分迹保无穷指数矩，不能直接套R255。
+**R244目标：** 对ρ=Σf_i⊗f_i找R∈A′，使Rf_i∈DomX_(Cf_i)且TrρR≠0即可排见证。R240的连续正循环反例及有限first预解式/正半群捷径失败，f并非湮灭者；专属R仍开。
+
+**R253 first域附录：** 全部ℓ² first共同域E具有真实Banach范数||f||+sup_{||b||₂≤1}||X_bf||；全1物理头u_m满足||u_m||=1、Su_m→0于E。因此E不含于RanS；任一有界first预解L不在S B(H)，其像也不含于RanS，未知右因子无需交换。未排更高混合域或R244指定输入。
+
+## 2. 两个实际边界的 N=M
+
+T=T_N,T_Y，M=kerT，N=closure BM，D=M⊖N。R187/R200给全部有限阶稳定像及M∩RanB^r⊂N；有限孔次数核只有真空，核内正则向量稠密仍未知。
+R234的旧模N缺口已闭；R238完整固定孔层/规范J_q为真H右逆，未取模成本≥d₀/α_q。R239高位平均使替代逆落入RanB^r，故模N与规范J_q一致。
+**指数界：** R239对c>c*=2+2log(3/2)给X_c真右逆、N⊥规范h_q≤C_ce^(cq)||f||及M∩X_c⊂N；真实尾阻尼残差尚无消失界。反向Γ≈2.360343347>59/25：c<Γ有同一X_c输入不在两个实际T像。坏见证T*w_q在M⊥，不下传D；必要/充分端点及D专属增长仍开。
+R245真有限次数输入高幂6^k exp[−(770/256)(k−q)_+⁴]不适用于形式h。R247错位次数消掉纯创建，carry窗口迫A_NB_N≥cN及Σ4^k/A_(2^k)²<∞；h_q=O√(qlogqloglogq)足排D，尚未证。
+**R249/A/B/C：** 任意非零复单链权的最优logκ主率35/6。直接跨头方向保carry主率175/2、能量外κ后余245/3；实际及更大Cayley逆≤2。非零缺陷尾率liminf≤c*/28、limsup≤4c*/7，网格16和未知正度量尾保留。只得必要慢尾；需D专属分布或新能量，非再优化一般链。
+
+**R239首位附录：** 两个实际核M={(x,−Cx):x∈L}中C²=η₀N₁|L，真实自交换子给||C||<1/√12；首位占满质量<1/13，||B|M||<α₀/√12，环境B*下界>α₀√(12/13)，跨块耦合下界>α₀√(131/156)。G=I+C*C下D对应C*Gx=0，故C*x=−η₀(N₁|L)*Cx；仍无压缩逆下界。图字典沿用1cf便笺，新增为统一定量界；Y的两种消元式已证同核。
+**R254及剪切附录：** 平方真实尾头d的logκ≤(75/2+o)d⁴，按原总头D=2d为75/32，低于线性35/6；N/Y单项、双向换元及原位carry937η_m全付。形式像F*h′=(I+Z*Z)u不增指数率。混合项未同分级；N单尾剪切[X,F_m]=2bA_m任意解都付||X||≥b s b_(m−1)/(2η₀αbar_(m−1))，b=b_m时重新达35/6 D⁴。只排直接剪切，未排全部正能量或得新尾率。
+
+## 3. 危险核、中央闭图与系数行
+
+R212实际中央K无限维，闭域/通常伴随已付；R232外块非零且本质范数等于范数。
+**R231 Bell单位：** 所有j≥1的真单位U_j给||b_jf||≥[8e²²⁰(j+1)]⁻¹||f||；闭图相容运输A旗和商，物理根≤16e²²⁰(j+1)。j=0字符零，不改变规范椭圆中心差。
+**R236高位反射附录：** 规范行正平方根支上，每固定r用r个相邻高位反射给真实w_m=T^rJ_Fm f/[(-2)^r r!∏a_j]⇀f，完整tail域及归一化误差已付。因此全部N_r=M，不需中央单射；不是有界右逆或实际像包含。
+**中央逆域已定：** 无需S=T_K单射，kerT^r=M⊕kerS^(r−1)、D_H={0}、H₁(CM)∩RanS={0}，H₁单射且F稠密。关系{(Sk,Fk)}闭包=closureRanS⊕M；M∩RanT^r=F(S^(r−1)kerS^r)。S有核时逆关系S⁻¹H₁={0}×kerS，不能称零算子；S单射时kerT^n=M、M∩RanT^r=0、FS⁻¹图闭包K⊕M。现在追中央根链和排M，勿重开N_r或D_H。
+**R236二阶/高阶：** 真实nested-ad及弱图核心给每固定DomT^n=Dom(T*)^n，共同自然域上混合词均可定义（不称最大域相同）；H₁/F*进入各阶中央域。上述零阶值域排斥用真实高位反射得出，绝非由正幂光滑推逆。
+**R251/252：** nr_n→0时有限谱first分支只容排序和唯一极限s；不收敛则全q循环，收敛时q(s)≠0足够。弱ℓ¹时有限谱在各聚点Kb圆盘，K=1+3log3−2log2；排序和无界排有界分支。任意位头carry全付，规范+1仍开。
+规范交替ε≡1仍开；R246椭圆中心log2、半轴π/2与π/√2，活动+1在内。有限头及合法闭图运输保中心差。
+**准确尾像补记：** 真单位双向保M给W_M M=Z_M M；投影后以已证monic有界域付清closure W_LL=closure Z_LL=N。归一化尾幂另付p₀/p₁闭包相同。未得N=L，不声称整个L的未闭像相同。
+
+## 紧接稿及持续执行
+
+0c Bell附录main e62133f、首位定量图main 1faa2b7均逐路径核验；完整SHA/回执及本次旧中央接口见[高位反射前H](notes/2026-11-12-handoff-before-all-finite-range-closures-0c.md)。一般ISP未完成，接中央有核、边界D和正常配对。
+R253/A、R254/A、R255均已main，后者ebd1681；完整回执在逐次H。normal_states继续q_m；boundary核新超不变文献的实际交织范围；kernel继续规范+1共同尾像；root继续见证专属配对。
+每项完整证明后立即单独推，再接open下一缺口；保持H更新，逐次pull核两README，不以中间结果或时长收尾。

@@ -1,0 +1,96 @@
+{
+  "format": "rank-one-algebraic-mean-modular-lower-bound-v1",
+  "family": "E8",
+  "thetaEquals": "5*s",
+  "minimalPolynomialThetaAscending": [
+    750000000,
+    -398000000,
+    -10600000,
+    9960000,
+    -361000,
+    -23400,
+    765,
+    50,
+    1
+  ],
+  "sourcePolynomialAscending": [
+    9600,
+    -25472,
+    -3392,
+    15936,
+    -2888,
+    -936,
+    153,
+    50,
+    5
+  ],
+  "irreducibilityKind": "degree-eight-finite-field-Rabin-with-explicit-Bezout",
+  "irreducibilityPrime": 53,
+  "irreducibilityVerifier": "2026-11-14-rank-one-E8-irreducibility-verify.js",
+  "irreducibilitySummary": {
+    "frobenius8": [
+      0,
+      1
+    ],
+    "bezout": {
+      "U": [
+        51,
+        29,
+        35,
+        46,
+        0,
+        37,
+        20
+      ],
+      "V": [
+        48,
+        47,
+        43,
+        23,
+        49,
+        34,
+        12,
+        8
+      ],
+      "h4minusX": [
+        2,
+        2,
+        25,
+        44,
+        50,
+        20,
+        0,
+        24
+      ],
+      "identity": [
+        1
+      ]
+    }
+  },
+  "reductionPrime": 17,
+  "sourceResidue": 5,
+  "thetaResidue": 8,
+  "derivativeResidue": 15,
+  "commonDeterminantResidue": 9,
+  "integerSystemSHA256": "f55dfbcdae8d0bac64e69173c6f9c4d3af1989f0ce0b98617e59ee72cc46ae73",
+  "rowNormalization": "Each evaluated primitive row is multiplied by its stored scale. Thus every row is the fixed det(J3) multiple of the original polynomial, after the unimodular moment translation.",
+  "macaulay": {
+    "field": 17,
+    "D": 5,
+    "rowsProcessed": 5643,
+    "totalRows": 6188,
+    "columns": 4367,
+    "rankLowerBound": 4352,
+    "targetReached": true,
+    "ops": 6185240,
+    "lowerDegreePivotCounts": [
+      4,
+      64,
+      284,
+      999,
+      3001
+    ]
+  },
+  "characteristicZeroProjectionRankUpperBound": 140,
+  "characteristicZeroMacaulayRank": 4352
+}

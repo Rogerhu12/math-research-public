@@ -1,0 +1,73 @@
+{
+  "status": "exact-prime-and-radical-criterion-PASS",
+  "p": 141670994486089356410879,
+  "p_plus_one_factorization": {
+    "2": 73,
+    "3": 1,
+    "5": 1
+  },
+  "lucas": {
+    "P": 7,
+    "Q": -1,
+    "discriminant": 53,
+    "gcd_2QD_p": 1,
+    "U_pplus1_mod_p": 0,
+    "U_quotient_residues": {
+      "2": 32474318418204000764314,
+      "3": 5499712679302342699383,
+      "5": 82997583978335411958271
+    },
+    "quotient_gcds": {
+      "2": 1,
+      "3": 1,
+      "5": 1
+    }
+  },
+  "actual_family_parameters": {
+    "m": 2,
+    "d0": 169,
+    "d": 3391943344696507779827534864473679486857154396329,
+    "D": 13,
+    "d_mod9": 1,
+    "sD": 0,
+    "M": 47223664828696452136960,
+    "radical_M": 10,
+    "extra_squarefree_orders": 2
+  },
+  "log_bound": {
+    "exp_13over5_Taylor_terms_0_to_12": "1574494311135836401/116943750000000000",
+    "strict_margin_above_13": "54225561135836401/116943750000000000",
+    "L_upper": "18/5"
+  },
+  "radical_conditions": {
+    "H_required_upper": "62208/5",
+    "sqrt_p_over_D_required_upper": "93312/5",
+    "p_over_2_minus_H_upper_to_R_over_2": "440858650412699765874619339/6250",
+    "p_over_D_minus_second_upper_squared": "3541774862152120717590503/325"
+  },
+  "primitive_mean_strict_lower_bound": "4046/4125",
+  "actual_primitive_factor_rank_and_dimension": 18889465931478580854784,
+  "p_adic_log_isomorphism": "follows through the proved general-level rank interface",
+  "positive_root_family": {
+    "m": 2,
+    "d0": 65,
+    "d": 1304593594114041453779821101720645956483520921665,
+    "D": 65,
+    "d_mod9": 8,
+    "sD": 1,
+    "radical_M": 10,
+    "extra_squarefree_orders": 2,
+    "exp_21over5_Taylor_terms_0_to_12": "4582710958721501/68750000000000",
+    "strict_Taylor_margin_above_65": "113960958721501/68750000000000",
+    "L_upper": "26/5",
+    "H_required_upper": "259584/25",
+    "sqrt_p_over_D_required_upper": "389376/5",
+    "p_over_2_minus_H_upper_to_R_over_2": "1381148479794425642523288075527/19531250",
+    "p_over_D_minus_second_upper_squared": "708354972428475804352507/325",
+    "primitive_mean_strict_lower_bound": "1/(2*(1+log(65)))",
+    "actual_primitive_factor_dimension": 18889465931478580854784,
+    "actual_primitive_factor_rational_rank": 0
+  },
+  "scope": "same actual primitive families, negative and positive root; no original rational candidate existence or local CM coefficient unit claimed",
+  "script_sha256": "1c959522d2d7b79b67a954ad1bf5501b7a27f84f226c2e7cdd12f2ad096dfc1d"
+}

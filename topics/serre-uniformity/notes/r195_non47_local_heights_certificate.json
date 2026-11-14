@@ -1,0 +1,4254 @@
+{
+  "result": "R195",
+  "level": 41,
+  "auxiliary_prime": 47,
+  "precision": 4,
+  "modulus": 4879681,
+  "tangent_parameters": {
+    "Z_minus4": "j-1728",
+    "cusps": "q41"
+  },
+  "formula": "I41(T_n)=-40*rho(n); C4=T4-T1 has I41=0",
+  "geometric_inputs": {
+    "semistable_base_ramification_index": 840,
+    "ordinary_components": 2,
+    "CM_degree_per_component": 10,
+    "cusp_degree_per_component": 10,
+    "vertical_correction_for_B": 0,
+    "Serre_Tate_fine_map": "q_ST=w^41",
+    "coarse_parameter": "z=w+w^-1-2",
+    "j_tangent_valuation_per_CM_point": 2,
+    "trace_self": -40
+  },
+  "exact_polynomial": {
+    "meaning": "C41(z+2)-2, where C_m(w+w^-1)=w^m+w^-m",
+    "coefficients": [
+      "0",
+      "1681",
+      "235340",
+      "13155506",
+      "392785822",
+      "7266537707",
+      "91162018506",
+      "823964398035",
+      "5602957906638",
+      "29607787369391",
+      "124664367871120",
+      "426611180961560",
+      "1205640294021800",
+      "2850875587556164",
+      "5701751175112328",
+      "9732299419588284",
+      "14284503986815062",
+      "18142083940473675",
+      "20042683210428060",
+      "19344182870946570",
+      "16368154736954790",
+      "12176310231149295",
+      "7980245606038650",
+      "4614663763491915",
+      "2356424049442680",
+      "1062795336585372",
+      "423194523165216",
+      "148606043249840",
+      "45932777004496",
+      "12462704468552",
+      "2957251907792",
+      "610685811736",
+      "109051037810",
+      "16700823273",
+      "2170080636",
+      "235878330",
+      "21040790",
+      "1499575",
+      "82082",
+      "3239",
+      "82",
+      "1"
+    ],
+    "linear_coefficient": 1681
+  },
+  "logarithms": {
+    "two": 2363771,
+    "forty_one": 1315812
+  },
+  "rows": [
+    {
+      "correspondence": {
+        "effective_degree": 1,
+        "index": 1,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 1,
+      "I2": -80,
+      "I41": -40,
+      "known_odd_correction_mod47four": 1976585,
+      "non47_coefficients": [
+        [
+          2,
+          -80
+        ],
+        [
+          3,
+          -76
+        ],
+        [
+          41,
+          -40
+        ]
+      ],
+      "non47_correction_mod47four": 4226475,
+      "gaussian_transport_checks": [
+        {
+          "a": -1,
+          "b": 0,
+          "necklace_factor": 1
+        },
+        {
+          "a": 0,
+          "b": -1,
+          "necklace_factor": 1
+        },
+        {
+          "a": 0,
+          "b": 1,
+          "necklace_factor": 1
+        },
+        {
+          "a": 1,
+          "b": 0,
+          "necklace_factor": 1
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 3,
+        "index": 2,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 1,
+      "I2": -40,
+      "I41": -40,
+      "known_odd_correction_mod47four": 2633410,
+      "non47_coefficients": [
+        [
+          2,
+          -40
+        ],
+        [
+          3,
+          -64
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          41,
+          -40
+        ]
+      ],
+      "non47_correction_mod47four": 1840520,
+      "gaussian_transport_checks": [
+        {
+          "a": -1,
+          "b": -1,
+          "necklace_factor": 40
+        },
+        {
+          "a": -1,
+          "b": 1,
+          "necklace_factor": 40
+        },
+        {
+          "a": 1,
+          "b": -1,
+          "necklace_factor": 40
+        },
+        {
+          "a": 1,
+          "b": 1,
+          "necklace_factor": 40
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 4,
+        "index": 3,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 0,
+      "I41": 0,
+      "known_odd_correction_mod47four": 3638646,
+      "non47_coefficients": [
+        [
+          3,
+          44
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          11,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 3638646,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 6,
+        "index": 5,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": -160,
+      "I41": -80,
+      "known_odd_correction_mod47four": 4813317,
+      "non47_coefficients": [
+        [
+          2,
+          -160
+        ],
+        [
+          3,
+          -136
+        ],
+        [
+          5,
+          40
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          19,
+          4
+        ],
+        [
+          41,
+          -80
+        ]
+      ],
+      "non47_correction_mod47four": 4433416,
+      "gaussian_transport_checks": [
+        {
+          "a": -2,
+          "b": -1,
+          "necklace_factor": 10
+        },
+        {
+          "a": -2,
+          "b": 1,
+          "necklace_factor": 37
+        },
+        {
+          "a": -1,
+          "b": -2,
+          "necklace_factor": 37
+        },
+        {
+          "a": -1,
+          "b": 2,
+          "necklace_factor": 10
+        },
+        {
+          "a": 1,
+          "b": -2,
+          "necklace_factor": 10
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "necklace_factor": 37
+        },
+        {
+          "a": 2,
+          "b": -1,
+          "necklace_factor": 37
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "necklace_factor": 10
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 12,
+        "index": 6,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 0,
+      "I41": 0,
+      "known_odd_correction_mod47four": 1444780,
+      "non47_coefficients": [
+        [
+          3,
+          56
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          19,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 1444780,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 8,
+        "index": 7,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 16,
+      "I41": 0,
+      "known_odd_correction_mod47four": 1824963,
+      "non47_coefficients": [
+        [
+          2,
+          16
+        ],
+        [
+          3,
+          36
+        ],
+        [
+          7,
+          40
+        ],
+        [
+          19,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 607851,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 18,
+        "index": 10,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": -80,
+      "I41": -80,
+      "known_odd_correction_mod47four": 940846,
+      "non47_coefficients": [
+        [
+          2,
+          -80
+        ],
+        [
+          3,
+          -88
+        ],
+        [
+          5,
+          40
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          41,
+          -80
+        ]
+      ],
+      "non47_correction_mod47four": 4234747,
+      "gaussian_transport_checks": [
+        {
+          "a": -3,
+          "b": -1,
+          "necklace_factor": 4
+        },
+        {
+          "a": -3,
+          "b": 1,
+          "necklace_factor": 31
+        },
+        {
+          "a": -1,
+          "b": -3,
+          "necklace_factor": 31
+        },
+        {
+          "a": -1,
+          "b": 3,
+          "necklace_factor": 4
+        },
+        {
+          "a": 1,
+          "b": -3,
+          "necklace_factor": 4
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "necklace_factor": 31
+        },
+        {
+          "a": 3,
+          "b": -1,
+          "necklace_factor": 31
+        },
+        {
+          "a": 3,
+          "b": 1,
+          "necklace_factor": 4
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 12,
+        "index": 11,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 48,
+      "I41": 0,
+      "known_odd_correction_mod47four": 1225948,
+      "non47_coefficients": [
+        [
+          2,
+          48
+        ],
+        [
+          3,
+          24
+        ],
+        [
+          7,
+          24
+        ],
+        [
+          11,
+          40
+        ],
+        [
+          19,
+          12
+        ],
+        [
+          31,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 2454293,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 14,
+        "index": 13,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": -144,
+      "I41": -80,
+      "known_odd_correction_mod47four": 1585404,
+      "non47_coefficients": [
+        [
+          2,
+          -144
+        ],
+        [
+          3,
+          -76
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          13,
+          40
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          41,
+          -80
+        ]
+      ],
+      "non47_correction_mod47four": 4868072,
+      "gaussian_transport_checks": [
+        {
+          "a": -3,
+          "b": -2,
+          "necklace_factor": 20
+        },
+        {
+          "a": -3,
+          "b": 2,
+          "necklace_factor": 39
+        },
+        {
+          "a": -2,
+          "b": -3,
+          "necklace_factor": 39
+        },
+        {
+          "a": -2,
+          "b": 3,
+          "necklace_factor": 20
+        },
+        {
+          "a": 2,
+          "b": -3,
+          "necklace_factor": 20
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "necklace_factor": 39
+        },
+        {
+          "a": 3,
+          "b": -2,
+          "necklace_factor": 39
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "necklace_factor": 20
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 24,
+        "index": 14,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 32,
+      "I41": 0,
+      "known_odd_correction_mod47four": 1751455,
+      "non47_coefficients": [
+        [
+          2,
+          32
+        ],
+        [
+          3,
+          72
+        ],
+        [
+          7,
+          44
+        ],
+        [
+          11,
+          16
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          43,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 4196912,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 24,
+        "index": 15,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 56,
+      "I41": 0,
+      "known_odd_correction_mod47four": 4020380,
+      "non47_coefficients": [
+        [
+          2,
+          56
+        ],
+        [
+          3,
+          104
+        ],
+        [
+          7,
+          40
+        ],
+        [
+          11,
+          28
+        ],
+        [
+          31,
+          8
+        ],
+        [
+          43,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 4640169,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 18,
+        "index": 17,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": -80,
+      "I41": -80,
+      "known_odd_correction_mod47four": 3139929,
+      "non47_coefficients": [
+        [
+          2,
+          -80
+        ],
+        [
+          3,
+          -96
+        ],
+        [
+          7,
+          32
+        ],
+        [
+          17,
+          40
+        ],
+        [
+          19,
+          4
+        ],
+        [
+          41,
+          -80
+        ],
+        [
+          67,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 1554149,
+      "gaussian_transport_checks": [
+        {
+          "a": -4,
+          "b": -1,
+          "necklace_factor": 33
+        },
+        {
+          "a": -4,
+          "b": 1,
+          "necklace_factor": 5
+        },
+        {
+          "a": -1,
+          "b": -4,
+          "necklace_factor": 5
+        },
+        {
+          "a": -1,
+          "b": 4,
+          "necklace_factor": 33
+        },
+        {
+          "a": 1,
+          "b": -4,
+          "necklace_factor": 33
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "necklace_factor": 5
+        },
+        {
+          "a": 4,
+          "b": -1,
+          "necklace_factor": 5
+        },
+        {
+          "a": 4,
+          "b": 1,
+          "necklace_factor": 33
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 20,
+        "index": 19,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 104,
+      "I41": 0,
+      "known_odd_correction_mod47four": 2182633,
+      "non47_coefficients": [
+        [
+          2,
+          104
+        ],
+        [
+          3,
+          68
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          19,
+          40
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          59,
+          8
+        ],
+        [
+          67,
+          4
+        ],
+        [
+          71,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 4030767,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 32,
+        "index": 21,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 152,
+      "I41": 0,
+      "known_odd_correction_mod47four": 4436706,
+      "non47_coefficients": [
+        [
+          2,
+          152
+        ],
+        [
+          3,
+          32
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          11,
+          24
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          31,
+          8
+        ],
+        [
+          79,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 2633504,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 36,
+        "index": 22,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 96,
+      "I41": 0,
+      "known_odd_correction_mod47four": 2958603,
+      "non47_coefficients": [
+        [
+          2,
+          96
+        ],
+        [
+          3,
+          56
+        ],
+        [
+          7,
+          56
+        ],
+        [
+          11,
+          40
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          23,
+          16
+        ],
+        [
+          31,
+          16
+        ],
+        [
+          59,
+          8
+        ],
+        [
+          79,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 535612,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 24,
+        "index": 23,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 80,
+      "I41": 0,
+      "known_odd_correction_mod47four": 2901827,
+      "non47_coefficients": [
+        [
+          2,
+          80
+        ],
+        [
+          3,
+          48
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          11,
+          28
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          23,
+          40
+        ],
+        [
+          67,
+          12
+        ]
+      ],
+      "non47_correction_mod47four": 1695948,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 42,
+        "index": 26,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": -48,
+      "I41": -80,
+      "known_odd_correction_mod47four": 4656666,
+      "non47_coefficients": [
+        [
+          2,
+          -48
+        ],
+        [
+          3,
+          48
+        ],
+        [
+          7,
+          32
+        ],
+        [
+          11,
+          24
+        ],
+        [
+          13,
+          40
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          23,
+          16
+        ],
+        [
+          41,
+          -80
+        ],
+        [
+          67,
+          8
+        ],
+        [
+          79,
+          12
+        ]
+      ],
+      "non47_correction_mod47four": 636662,
+      "gaussian_transport_checks": [
+        {
+          "a": -5,
+          "b": -1,
+          "necklace_factor": 2
+        },
+        {
+          "a": -5,
+          "b": 1,
+          "necklace_factor": 21
+        },
+        {
+          "a": -1,
+          "b": -5,
+          "necklace_factor": 21
+        },
+        {
+          "a": -1,
+          "b": 5,
+          "necklace_factor": 2
+        },
+        {
+          "a": 1,
+          "b": -5,
+          "necklace_factor": 2
+        },
+        {
+          "a": 1,
+          "b": 5,
+          "necklace_factor": 21
+        },
+        {
+          "a": 5,
+          "b": -1,
+          "necklace_factor": 21
+        },
+        {
+          "a": 5,
+          "b": 1,
+          "necklace_factor": 2
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 30,
+        "index": 29,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": -32,
+      "I41": -80,
+      "known_odd_correction_mod47four": 990431,
+      "non47_coefficients": [
+        [
+          2,
+          -32
+        ],
+        [
+          3,
+          -56
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          11,
+          24
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          29,
+          40
+        ],
+        [
+          31,
+          16
+        ],
+        [
+          41,
+          -80
+        ],
+        [
+          67,
+          4
+        ],
+        [
+          71,
+          8
+        ],
+        [
+          79,
+          8
+        ],
+        [
+          103,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 632996,
+      "gaussian_transport_checks": [
+        {
+          "a": -5,
+          "b": -2,
+          "necklace_factor": 32
+        },
+        {
+          "a": -5,
+          "b": 2,
+          "necklace_factor": 9
+        },
+        {
+          "a": -2,
+          "b": -5,
+          "necklace_factor": 9
+        },
+        {
+          "a": -2,
+          "b": 5,
+          "necklace_factor": 32
+        },
+        {
+          "a": 2,
+          "b": -5,
+          "necklace_factor": 32
+        },
+        {
+          "a": 2,
+          "b": 5,
+          "necklace_factor": 9
+        },
+        {
+          "a": 5,
+          "b": -2,
+          "necklace_factor": 9
+        },
+        {
+          "a": 5,
+          "b": 2,
+          "necklace_factor": 32
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 72,
+        "index": 30,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 88,
+      "I41": 0,
+      "known_odd_correction_mod47four": 3116993,
+      "non47_coefficients": [
+        [
+          2,
+          88
+        ],
+        [
+          3,
+          152
+        ],
+        [
+          7,
+          88
+        ],
+        [
+          11,
+          48
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          31,
+          24
+        ],
+        [
+          43,
+          16
+        ],
+        [
+          71,
+          4
+        ],
+        [
+          103,
+          8
+        ],
+        [
+          107,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 1302558,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 32,
+        "index": 31,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 224,
+      "I41": 0,
+      "known_odd_correction_mod47four": 1292312,
+      "non47_coefficients": [
+        [
+          2,
+          224
+        ],
+        [
+          3,
+          120
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          11,
+          44
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          31,
+          40
+        ],
+        [
+          59,
+          16
+        ],
+        [
+          79,
+          8
+        ],
+        [
+          107,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 3771468,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 48,
+        "index": 33,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 288,
+      "I41": 0,
+      "known_odd_correction_mod47four": 951515,
+      "non47_coefficients": [
+        [
+          2,
+          288
+        ],
+        [
+          3,
+          24
+        ],
+        [
+          7,
+          48
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          31,
+          8
+        ],
+        [
+          43,
+          8
+        ],
+        [
+          71,
+          8
+        ],
+        [
+          103,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 3441904,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 54,
+        "index": 34,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 48,
+      "I41": -80,
+      "known_odd_correction_mod47four": 1836525,
+      "non47_coefficients": [
+        [
+          2,
+          48
+        ],
+        [
+          3,
+          56
+        ],
+        [
+          7,
+          72
+        ],
+        [
+          11,
+          32
+        ],
+        [
+          17,
+          40
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          41,
+          -80
+        ],
+        [
+          67,
+          8
+        ],
+        [
+          83,
+          8
+        ],
+        [
+          107,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 273211,
+      "gaussian_transport_checks": [
+        {
+          "a": -5,
+          "b": -3,
+          "necklace_factor": 36
+        },
+        {
+          "a": -5,
+          "b": 3,
+          "necklace_factor": 8
+        },
+        {
+          "a": -3,
+          "b": -5,
+          "necklace_factor": 8
+        },
+        {
+          "a": -3,
+          "b": 5,
+          "necklace_factor": 36
+        },
+        {
+          "a": 3,
+          "b": -5,
+          "necklace_factor": 36
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "necklace_factor": 8
+        },
+        {
+          "a": 5,
+          "b": -3,
+          "necklace_factor": 8
+        },
+        {
+          "a": 5,
+          "b": 3,
+          "necklace_factor": 36
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 48,
+        "index": 35,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 184,
+      "I41": 0,
+      "known_odd_correction_mod47four": 3703553,
+      "non47_coefficients": [
+        [
+          2,
+          184
+        ],
+        [
+          3,
+          216
+        ],
+        [
+          7,
+          80
+        ],
+        [
+          19,
+          28
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          31,
+          8
+        ],
+        [
+          43,
+          8
+        ],
+        [
+          67,
+          8
+        ],
+        [
+          79,
+          8
+        ],
+        [
+          127,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 4345808,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 38,
+        "index": 37,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 88,
+      "I41": -80,
+      "known_odd_correction_mod47four": 4364937,
+      "non47_coefficients": [
+        [
+          2,
+          88
+        ],
+        [
+          3,
+          -20
+        ],
+        [
+          7,
+          56
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          31,
+          8
+        ],
+        [
+          37,
+          40
+        ],
+        [
+          41,
+          -80
+        ],
+        [
+          59,
+          8
+        ],
+        [
+          67,
+          4
+        ],
+        [
+          83,
+          16
+        ],
+        [
+          131,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 4638524,
+      "gaussian_transport_checks": [
+        {
+          "a": -6,
+          "b": -1,
+          "necklace_factor": 25
+        },
+        {
+          "a": -6,
+          "b": 1,
+          "necklace_factor": 23
+        },
+        {
+          "a": -1,
+          "b": -6,
+          "necklace_factor": 23
+        },
+        {
+          "a": -1,
+          "b": 6,
+          "necklace_factor": 25
+        },
+        {
+          "a": 1,
+          "b": -6,
+          "necklace_factor": 25
+        },
+        {
+          "a": 1,
+          "b": 6,
+          "necklace_factor": 23
+        },
+        {
+          "a": 6,
+          "b": -1,
+          "necklace_factor": 23
+        },
+        {
+          "a": 6,
+          "b": 1,
+          "necklace_factor": 25
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 60,
+        "index": 38,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 184,
+      "I41": 0,
+      "known_odd_correction_mod47four": 3077419,
+      "non47_coefficients": [
+        [
+          2,
+          184
+        ],
+        [
+          3,
+          200
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          19,
+          40
+        ],
+        [
+          23,
+          16
+        ],
+        [
+          43,
+          8
+        ],
+        [
+          59,
+          16
+        ],
+        [
+          67,
+          8
+        ],
+        [
+          71,
+          20
+        ],
+        [
+          79,
+          8
+        ],
+        [
+          139,
+          8
+        ],
+        [
+          151,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 3719674,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 56,
+        "index": 39,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 256,
+      "I41": 0,
+      "known_odd_correction_mod47four": 254599,
+      "non47_coefficients": [
+        [
+          2,
+          256
+        ],
+        [
+          3,
+          152
+        ],
+        [
+          7,
+          88
+        ],
+        [
+          11,
+          16
+        ],
+        [
+          19,
+          40
+        ],
+        [
+          59,
+          8
+        ],
+        [
+          103,
+          8
+        ],
+        [
+          127,
+          8
+        ],
+        [
+          139,
+          8
+        ],
+        [
+          151,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 299531,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 96,
+        "index": 42,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 232,
+      "I41": 0,
+      "known_odd_correction_mod47four": 652454,
+      "non47_coefficients": [
+        [
+          2,
+          232
+        ],
+        [
+          3,
+          64
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          11,
+          48
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          23,
+          32
+        ],
+        [
+          31,
+          40
+        ],
+        [
+          59,
+          8
+        ],
+        [
+          79,
+          16
+        ],
+        [
+          83,
+          16
+        ],
+        [
+          103,
+          16
+        ],
+        [
+          139,
+          8
+        ],
+        [
+          167,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 2523054,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 72,
+        "index": 46,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 112,
+      "I41": 0,
+      "known_odd_correction_mod47four": 1965258,
+      "non47_coefficients": [
+        [
+          2,
+          112
+        ],
+        [
+          3,
+          184
+        ],
+        [
+          7,
+          64
+        ],
+        [
+          11,
+          56
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          23,
+          40
+        ],
+        [
+          31,
+          24
+        ],
+        [
+          67,
+          24
+        ],
+        [
+          71,
+          8
+        ],
+        [
+          83,
+          8
+        ],
+        [
+          131,
+          8
+        ],
+        [
+          179,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 3204836,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 6,
+        "expression": "T2 composed T2 minus3 diagonal",
+        "index": 4,
+        "kind": "cyclic4"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 80,
+      "I41": 0,
+      "known_odd_correction_mod47four": 164077,
+      "non47_coefficients": [
+        [
+          2,
+          80
+        ],
+        [
+          3,
+          28
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          11,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 3837879,
+      "gaussian_transport_checks": [
+        {
+          "a": -2,
+          "b": 0,
+          "necklace_factor": 1
+        },
+        {
+          "a": 0,
+          "b": -2,
+          "necklace_factor": 1
+        },
+        {
+          "a": 0,
+          "b": 2,
+          "necklace_factor": 1
+        },
+        {
+          "a": 2,
+          "b": 0,
+          "necklace_factor": 1
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 72,
+        "index": 51,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 280,
+      "I41": 0,
+      "known_odd_correction_mod47four": 3066891,
+      "non47_coefficients": [
+        [
+          2,
+          280
+        ],
+        [
+          3,
+          144
+        ],
+        [
+          7,
+          96
+        ],
+        [
+          11,
+          32
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          59,
+          16
+        ],
+        [
+          79,
+          16
+        ],
+        [
+          103,
+          8
+        ],
+        [
+          107,
+          8
+        ],
+        [
+          139,
+          16
+        ],
+        [
+          167,
+          8
+        ],
+        [
+          179,
+          12
+        ],
+        [
+          199,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 1286155,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 54,
+        "index": 53,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 96,
+      "I41": -80,
+      "known_odd_correction_mod47four": 4762181,
+      "non47_coefficients": [
+        [
+          2,
+          96
+        ],
+        [
+          3,
+          -24
+        ],
+        [
+          7,
+          64
+        ],
+        [
+          11,
+          16
+        ],
+        [
+          23,
+          16
+        ],
+        [
+          31,
+          8
+        ],
+        [
+          41,
+          -80
+        ],
+        [
+          53,
+          40
+        ],
+        [
+          59,
+          8
+        ],
+        [
+          103,
+          8
+        ],
+        [
+          127,
+          16
+        ],
+        [
+          151,
+          8
+        ],
+        [
+          167,
+          8
+        ],
+        [
+          211,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 4427212,
+      "gaussian_transport_checks": [
+        {
+          "a": -7,
+          "b": -2,
+          "necklace_factor": 36
+        },
+        {
+          "a": -7,
+          "b": 2,
+          "necklace_factor": 8
+        },
+        {
+          "a": -2,
+          "b": -7,
+          "necklace_factor": 8
+        },
+        {
+          "a": -2,
+          "b": 7,
+          "necklace_factor": 36
+        },
+        {
+          "a": 2,
+          "b": -7,
+          "necklace_factor": 36
+        },
+        {
+          "a": 2,
+          "b": 7,
+          "necklace_factor": 8
+        },
+        {
+          "a": 7,
+          "b": -2,
+          "necklace_factor": 8
+        },
+        {
+          "a": 7,
+          "b": 2,
+          "necklace_factor": 36
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 72,
+        "index": 55,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 248,
+      "I41": 0,
+      "known_odd_correction_mod47four": 3052133,
+      "non47_coefficients": [
+        [
+          2,
+          248
+        ],
+        [
+          3,
+          152
+        ],
+        [
+          7,
+          120
+        ],
+        [
+          11,
+          84
+        ],
+        [
+          19,
+          44
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          83,
+          8
+        ],
+        [
+          103,
+          8
+        ],
+        [
+          131,
+          8
+        ],
+        [
+          211,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 3705621,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 80,
+        "index": 57,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 400,
+      "I41": 0,
+      "known_odd_correction_mod47four": 547127,
+      "non47_coefficients": [
+        [
+          2,
+          400
+        ],
+        [
+          3,
+          64
+        ],
+        [
+          7,
+          80
+        ],
+        [
+          11,
+          64
+        ],
+        [
+          23,
+          16
+        ],
+        [
+          31,
+          16
+        ],
+        [
+          43,
+          16
+        ],
+        [
+          83,
+          16
+        ],
+        [
+          127,
+          8
+        ],
+        [
+          131,
+          8
+        ],
+        [
+          139,
+          8
+        ],
+        [
+          163,
+          16
+        ],
+        [
+          167,
+          8
+        ],
+        [
+          179,
+          4
+        ],
+        [
+          191,
+          8
+        ],
+        [
+          227,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 4277094,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 90,
+        "index": 58,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 128,
+      "I41": -80,
+      "known_odd_correction_mod47four": 125255,
+      "non47_coefficients": [
+        [
+          2,
+          128
+        ],
+        [
+          3,
+          96
+        ],
+        [
+          7,
+          80
+        ],
+        [
+          11,
+          72
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          23,
+          16
+        ],
+        [
+          29,
+          40
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          41,
+          -80
+        ],
+        [
+          43,
+          16
+        ],
+        [
+          67,
+          8
+        ],
+        [
+          71,
+          16
+        ],
+        [
+          79,
+          16
+        ],
+        [
+          83,
+          8
+        ],
+        [
+          103,
+          16
+        ],
+        [
+          131,
+          8
+        ],
+        [
+          151,
+          4
+        ],
+        [
+          227,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 2235743,
+      "gaussian_transport_checks": [
+        {
+          "a": -7,
+          "b": -3,
+          "necklace_factor": 32
+        },
+        {
+          "a": -7,
+          "b": 3,
+          "necklace_factor": 9
+        },
+        {
+          "a": -3,
+          "b": -7,
+          "necklace_factor": 9
+        },
+        {
+          "a": -3,
+          "b": 7,
+          "necklace_factor": 32
+        },
+        {
+          "a": 3,
+          "b": -7,
+          "necklace_factor": 32
+        },
+        {
+          "a": 3,
+          "b": 7,
+          "necklace_factor": 9
+        },
+        {
+          "a": 7,
+          "b": -3,
+          "necklace_factor": 9
+        },
+        {
+          "a": 7,
+          "b": 3,
+          "necklace_factor": 32
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 60,
+        "index": 59,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 192,
+      "I41": 0,
+      "known_odd_correction_mod47four": 3294089,
+      "non47_coefficients": [
+        [
+          2,
+          192
+        ],
+        [
+          3,
+          128
+        ],
+        [
+          7,
+          96
+        ],
+        [
+          11,
+          44
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          43,
+          8
+        ],
+        [
+          59,
+          40
+        ],
+        [
+          67,
+          12
+        ],
+        [
+          83,
+          8
+        ],
+        [
+          127,
+          8
+        ],
+        [
+          139,
+          8
+        ],
+        [
+          191,
+          8
+        ],
+        [
+          199,
+          8
+        ],
+        [
+          211,
+          12
+        ],
+        [
+          223,
+          8
+        ],
+        [
+          227,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 3327788,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 62,
+        "index": 61,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 160,
+      "I41": -80,
+      "known_odd_correction_mod47four": 4077673,
+      "non47_coefficients": [
+        [
+          2,
+          160
+        ],
+        [
+          3,
+          40
+        ],
+        [
+          7,
+          32
+        ],
+        [
+          11,
+          40
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          31,
+          16
+        ],
+        [
+          41,
+          -80
+        ],
+        [
+          43,
+          16
+        ],
+        [
+          61,
+          40
+        ],
+        [
+          71,
+          8
+        ],
+        [
+          107,
+          8
+        ],
+        [
+          127,
+          8
+        ],
+        [
+          199,
+          8
+        ],
+        [
+          239,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 3753937,
+      "gaussian_transport_checks": [
+        {
+          "a": -6,
+          "b": -5,
+          "necklace_factor": 25
+        },
+        {
+          "a": -6,
+          "b": 5,
+          "necklace_factor": 23
+        },
+        {
+          "a": -5,
+          "b": -6,
+          "necklace_factor": 23
+        },
+        {
+          "a": -5,
+          "b": 6,
+          "necklace_factor": 25
+        },
+        {
+          "a": 5,
+          "b": -6,
+          "necklace_factor": 25
+        },
+        {
+          "a": 5,
+          "b": 6,
+          "necklace_factor": 23
+        },
+        {
+          "a": 6,
+          "b": -5,
+          "necklace_factor": 23
+        },
+        {
+          "a": 6,
+          "b": 5,
+          "necklace_factor": 25
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 96,
+        "index": 62,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 352,
+      "I41": 0,
+      "known_odd_correction_mod47four": 3736500,
+      "non47_coefficients": [
+        [
+          2,
+          352
+        ],
+        [
+          3,
+          336
+        ],
+        [
+          7,
+          80
+        ],
+        [
+          11,
+          64
+        ],
+        [
+          23,
+          16
+        ],
+        [
+          31,
+          40
+        ],
+        [
+          59,
+          32
+        ],
+        [
+          79,
+          28
+        ],
+        [
+          103,
+          16
+        ],
+        [
+          107,
+          16
+        ],
+        [
+          131,
+          8
+        ],
+        [
+          139,
+          8
+        ],
+        [
+          163,
+          16
+        ],
+        [
+          167,
+          4
+        ],
+        [
+          199,
+          4
+        ],
+        [
+          211,
+          8
+        ],
+        [
+          239,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 1358441,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 84,
+        "index": 65,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 4,
+      "I2": -176,
+      "I41": -160,
+      "known_odd_correction_mod47four": 1432137,
+      "non47_coefficients": [
+        [
+          2,
+          -176
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          80
+        ],
+        [
+          7,
+          72
+        ],
+        [
+          11,
+          48
+        ],
+        [
+          13,
+          80
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          23,
+          40
+        ],
+        [
+          31,
+          24
+        ],
+        [
+          41,
+          -160
+        ],
+        [
+          103,
+          8
+        ],
+        [
+          107,
+          8
+        ],
+        [
+          163,
+          8
+        ],
+        [
+          179,
+          4
+        ],
+        [
+          199,
+          8
+        ],
+        [
+          211,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 4357370,
+      "gaussian_transport_checks": [
+        {
+          "a": -8,
+          "b": -1,
+          "necklace_factor": 2
+        },
+        {
+          "a": -8,
+          "b": 1,
+          "necklace_factor": 21
+        },
+        {
+          "a": -7,
+          "b": -4,
+          "necklace_factor": 8
+        },
+        {
+          "a": -7,
+          "b": 4,
+          "necklace_factor": 36
+        },
+        {
+          "a": -4,
+          "b": -7,
+          "necklace_factor": 36
+        },
+        {
+          "a": -4,
+          "b": 7,
+          "necklace_factor": 8
+        },
+        {
+          "a": -1,
+          "b": -8,
+          "necklace_factor": 21
+        },
+        {
+          "a": -1,
+          "b": 8,
+          "necklace_factor": 2
+        },
+        {
+          "a": 1,
+          "b": -8,
+          "necklace_factor": 2
+        },
+        {
+          "a": 1,
+          "b": 8,
+          "necklace_factor": 21
+        },
+        {
+          "a": 4,
+          "b": -7,
+          "necklace_factor": 8
+        },
+        {
+          "a": 4,
+          "b": 7,
+          "necklace_factor": 36
+        },
+        {
+          "a": 7,
+          "b": -4,
+          "necklace_factor": 36
+        },
+        {
+          "a": 7,
+          "b": 4,
+          "necklace_factor": 8
+        },
+        {
+          "a": 8,
+          "b": -1,
+          "necklace_factor": 21
+        },
+        {
+          "a": 8,
+          "b": 1,
+          "necklace_factor": 2
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 144,
+        "index": 66,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 432,
+      "I41": 0,
+      "known_odd_correction_mod47four": 575233,
+      "non47_coefficients": [
+        [
+          2,
+          432
+        ],
+        [
+          3,
+          48
+        ],
+        [
+          7,
+          128
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          19,
+          96
+        ],
+        [
+          23,
+          64
+        ],
+        [
+          31,
+          40
+        ],
+        [
+          43,
+          16
+        ],
+        [
+          67,
+          8
+        ],
+        [
+          71,
+          16
+        ],
+        [
+          79,
+          16
+        ],
+        [
+          83,
+          8
+        ],
+        [
+          103,
+          16
+        ],
+        [
+          107,
+          8
+        ],
+        [
+          127,
+          8
+        ],
+        [
+          151,
+          8
+        ],
+        [
+          163,
+          8
+        ],
+        [
+          191,
+          8
+        ],
+        [
+          227,
+          8
+        ],
+        [
+          239,
+          12
+        ],
+        [
+          251,
+          8
+        ],
+        [
+          263,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 1870976,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 68,
+        "index": 67,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 416,
+      "I41": 0,
+      "known_odd_correction_mod47four": 1397075,
+      "non47_coefficients": [
+        [
+          2,
+          416
+        ],
+        [
+          3,
+          232
+        ],
+        [
+          7,
+          80
+        ],
+        [
+          11,
+          28
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          23,
+          16
+        ],
+        [
+          43,
+          16
+        ],
+        [
+          67,
+          40
+        ],
+        [
+          71,
+          8
+        ],
+        [
+          131,
+          8
+        ],
+        [
+          251,
+          8
+        ],
+        [
+          263,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 3909930,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 96,
+        "index": 69,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 528,
+      "I41": 0,
+      "known_odd_correction_mod47four": 2324150,
+      "non47_coefficients": [
+        [
+          2,
+          528
+        ],
+        [
+          3,
+          48
+        ],
+        [
+          7,
+          40
+        ],
+        [
+          11,
+          84
+        ],
+        [
+          19,
+          40
+        ],
+        [
+          43,
+          24
+        ],
+        [
+          67,
+          8
+        ],
+        [
+          79,
+          8
+        ],
+        [
+          83,
+          8
+        ],
+        [
+          127,
+          8
+        ],
+        [
+          131,
+          16
+        ],
+        [
+          139,
+          8
+        ],
+        [
+          151,
+          16
+        ],
+        [
+          223,
+          8
+        ],
+        [
+          227,
+          4
+        ],
+        [
+          239,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 1196902,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 144,
+        "index": 70,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 296,
+      "I41": 0,
+      "known_odd_correction_mod47four": 967730,
+      "non47_coefficients": [
+        [
+          2,
+          296
+        ],
+        [
+          3,
+          528
+        ],
+        [
+          7,
+          96
+        ],
+        [
+          11,
+          72
+        ],
+        [
+          19,
+          80
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          31,
+          16
+        ],
+        [
+          43,
+          48
+        ],
+        [
+          67,
+          16
+        ],
+        [
+          79,
+          16
+        ],
+        [
+          127,
+          24
+        ],
+        [
+          131,
+          8
+        ],
+        [
+          163,
+          8
+        ],
+        [
+          167,
+          8
+        ],
+        [
+          199,
+          4
+        ],
+        [
+          251,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 2849563,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 72,
+        "index": 71,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 408,
+      "I41": 0,
+      "known_odd_correction_mod47four": 1099095,
+      "non47_coefficients": [
+        [
+          2,
+          408
+        ],
+        [
+          3,
+          128
+        ],
+        [
+          7,
+          112
+        ],
+        [
+          11,
+          68
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          67,
+          8
+        ],
+        [
+          71,
+          40
+        ],
+        [
+          103,
+          8
+        ],
+        [
+          127,
+          8
+        ],
+        [
+          131,
+          8
+        ],
+        [
+          139,
+          16
+        ],
+        [
+          211,
+          8
+        ],
+        [
+          239,
+          8
+        ],
+        [
+          271,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 4220506,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 74,
+        "index": 73,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 368,
+      "I41": -80,
+      "known_odd_correction_mod47four": 1762923,
+      "non47_coefficients": [
+        [
+          2,
+          368
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          7,
+          48
+        ],
+        [
+          11,
+          32
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          23,
+          16
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          41,
+          -80
+        ],
+        [
+          59,
+          8
+        ],
+        [
+          67,
+          12
+        ],
+        [
+          71,
+          24
+        ],
+        [
+          73,
+          40
+        ],
+        [
+          139,
+          8
+        ],
+        [
+          167,
+          16
+        ],
+        [
+          179,
+          8
+        ],
+        [
+          211,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 255774,
+      "gaussian_transport_checks": [
+        {
+          "a": -8,
+          "b": -3,
+          "necklace_factor": 16
+        },
+        {
+          "a": -8,
+          "b": 3,
+          "necklace_factor": 18
+        },
+        {
+          "a": -3,
+          "b": -8,
+          "necklace_factor": 18
+        },
+        {
+          "a": -3,
+          "b": 8,
+          "necklace_factor": 16
+        },
+        {
+          "a": 3,
+          "b": -8,
+          "necklace_factor": 16
+        },
+        {
+          "a": 3,
+          "b": 8,
+          "necklace_factor": 18
+        },
+        {
+          "a": 8,
+          "b": -3,
+          "necklace_factor": 18
+        },
+        {
+          "a": 8,
+          "b": 3,
+          "necklace_factor": 16
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 114,
+        "index": 74,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 312,
+      "I41": -80,
+      "known_odd_correction_mod47four": 4120255,
+      "non47_coefficients": [
+        [
+          2,
+          312
+        ],
+        [
+          3,
+          256
+        ],
+        [
+          7,
+          128
+        ],
+        [
+          11,
+          64
+        ],
+        [
+          19,
+          32
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          31,
+          40
+        ],
+        [
+          37,
+          40
+        ],
+        [
+          41,
+          -80
+        ],
+        [
+          59,
+          16
+        ],
+        [
+          67,
+          8
+        ],
+        [
+          71,
+          12
+        ],
+        [
+          83,
+          32
+        ],
+        [
+          103,
+          8
+        ],
+        [
+          131,
+          16
+        ],
+        [
+          139,
+          8
+        ],
+        [
+          283,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 1993317,
+      "gaussian_transport_checks": [
+        {
+          "a": -7,
+          "b": -5,
+          "necklace_factor": 18
+        },
+        {
+          "a": -7,
+          "b": 5,
+          "necklace_factor": 16
+        },
+        {
+          "a": -5,
+          "b": -7,
+          "necklace_factor": 16
+        },
+        {
+          "a": -5,
+          "b": 7,
+          "necklace_factor": 18
+        },
+        {
+          "a": 5,
+          "b": -7,
+          "necklace_factor": 18
+        },
+        {
+          "a": 5,
+          "b": 7,
+          "necklace_factor": 16
+        },
+        {
+          "a": 7,
+          "b": -5,
+          "necklace_factor": 16
+        },
+        {
+          "a": 7,
+          "b": 5,
+          "necklace_factor": 18
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 96,
+        "index": 77,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 480,
+      "I41": 0,
+      "known_odd_correction_mod47four": 780388,
+      "non47_coefficients": [
+        [
+          2,
+          480
+        ],
+        [
+          3,
+          296
+        ],
+        [
+          7,
+          24
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          23,
+          32
+        ],
+        [
+          31,
+          24
+        ],
+        [
+          43,
+          32
+        ],
+        [
+          59,
+          16
+        ],
+        [
+          67,
+          24
+        ],
+        [
+          127,
+          8
+        ],
+        [
+          163,
+          16
+        ],
+        [
+          223,
+          16
+        ],
+        [
+          227,
+          4
+        ],
+        [
+          263,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 3304476,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 168,
+        "index": 78,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 416,
+      "I41": 0,
+      "known_odd_correction_mod47four": 2464210,
+      "non47_coefficients": [
+        [
+          2,
+          416
+        ],
+        [
+          3,
+          264
+        ],
+        [
+          7,
+          192
+        ],
+        [
+          11,
+          56
+        ],
+        [
+          19,
+          88
+        ],
+        [
+          31,
+          24
+        ],
+        [
+          43,
+          16
+        ],
+        [
+          59,
+          32
+        ],
+        [
+          67,
+          8
+        ],
+        [
+          71,
+          8
+        ],
+        [
+          83,
+          8
+        ],
+        [
+          103,
+          16
+        ],
+        [
+          127,
+          16
+        ],
+        [
+          131,
+          8
+        ],
+        [
+          139,
+          16
+        ],
+        [
+          151,
+          16
+        ],
+        [
+          163,
+          8
+        ],
+        [
+          191,
+          4
+        ],
+        [
+          199,
+          8
+        ],
+        [
+          223,
+          8
+        ],
+        [
+          239,
+          8
+        ],
+        [
+          263,
+          4
+        ],
+        [
+          283,
+          8
+        ],
+        [
+          311,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 97384,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 80,
+        "index": 79,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 376,
+      "I41": 0,
+      "known_odd_correction_mod47four": 1723490,
+      "non47_coefficients": [
+        [
+          2,
+          376
+        ],
+        [
+          3,
+          284
+        ],
+        [
+          7,
+          40
+        ],
+        [
+          11,
+          16
+        ],
+        [
+          19,
+          32
+        ],
+        [
+          23,
+          16
+        ],
+        [
+          31,
+          16
+        ],
+        [
+          43,
+          16
+        ],
+        [
+          59,
+          8
+        ],
+        [
+          71,
+          16
+        ],
+        [
+          79,
+          40
+        ],
+        [
+          83,
+          8
+        ],
+        [
+          163,
+          8
+        ],
+        [
+          191,
+          16
+        ],
+        [
+          251,
+          16
+        ],
+        [
+          311,
+          8
+        ]
+      ],
+      "non47_correction_mod47four": 2399444,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 84,
+        "index": 83,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 336,
+      "I41": 0,
+      "known_odd_correction_mod47four": 1454650,
+      "non47_coefficients": [
+        [
+          2,
+          336
+        ],
+        [
+          3,
+          280
+        ],
+        [
+          7,
+          40
+        ],
+        [
+          11,
+          88
+        ],
+        [
+          19,
+          56
+        ],
+        [
+          31,
+          24
+        ],
+        [
+          43,
+          16
+        ],
+        [
+          67,
+          8
+        ],
+        [
+          79,
+          8
+        ],
+        [
+          83,
+          40
+        ],
+        [
+          103,
+          8
+        ],
+        [
+          139,
+          8
+        ],
+        [
+          211,
+          4
+        ],
+        [
+          223,
+          8
+        ],
+        [
+          331,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 293703,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 108,
+        "index": 85,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 4,
+      "I2": 176,
+      "I41": -160,
+      "known_odd_correction_mod47four": 2635196,
+      "non47_coefficients": [
+        [
+          2,
+          176
+        ],
+        [
+          3,
+          40
+        ],
+        [
+          5,
+          80
+        ],
+        [
+          7,
+          144
+        ],
+        [
+          11,
+          40
+        ],
+        [
+          17,
+          80
+        ],
+        [
+          19,
+          52
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          41,
+          -160
+        ],
+        [
+          59,
+          24
+        ],
+        [
+          67,
+          24
+        ],
+        [
+          71,
+          8
+        ],
+        [
+          83,
+          8
+        ],
+        [
+          107,
+          8
+        ],
+        [
+          167,
+          8
+        ],
+        [
+          223,
+          8
+        ],
+        [
+          227,
+          8
+        ],
+        [
+          251,
+          8
+        ],
+        [
+          331,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 3182370,
+      "gaussian_transport_checks": [
+        {
+          "a": -9,
+          "b": -2,
+          "necklace_factor": 9
+        },
+        {
+          "a": -9,
+          "b": 2,
+          "necklace_factor": 32
+        },
+        {
+          "a": -7,
+          "b": -6,
+          "necklace_factor": 2
+        },
+        {
+          "a": -7,
+          "b": 6,
+          "necklace_factor": 21
+        },
+        {
+          "a": -6,
+          "b": -7,
+          "necklace_factor": 21
+        },
+        {
+          "a": -6,
+          "b": 7,
+          "necklace_factor": 2
+        },
+        {
+          "a": -2,
+          "b": -9,
+          "necklace_factor": 32
+        },
+        {
+          "a": -2,
+          "b": 9,
+          "necklace_factor": 9
+        },
+        {
+          "a": 2,
+          "b": -9,
+          "necklace_factor": 9
+        },
+        {
+          "a": 2,
+          "b": 9,
+          "necklace_factor": 32
+        },
+        {
+          "a": 6,
+          "b": -7,
+          "necklace_factor": 2
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "necklace_factor": 21
+        },
+        {
+          "a": 7,
+          "b": -6,
+          "necklace_factor": 21
+        },
+        {
+          "a": 7,
+          "b": 6,
+          "necklace_factor": 2
+        },
+        {
+          "a": 9,
+          "b": -2,
+          "necklace_factor": 32
+        },
+        {
+          "a": 9,
+          "b": 2,
+          "necklace_factor": 9
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 132,
+        "index": 86,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 184,
+      "I41": 0,
+      "known_odd_correction_mod47four": 3491066,
+      "non47_coefficients": [
+        [
+          2,
+          184
+        ],
+        [
+          3,
+          496
+        ],
+        [
+          7,
+          108
+        ],
+        [
+          11,
+          112
+        ],
+        [
+          19,
+          48
+        ],
+        [
+          23,
+          56
+        ],
+        [
+          31,
+          56
+        ],
+        [
+          43,
+          40
+        ],
+        [
+          67,
+          16
+        ],
+        [
+          83,
+          24
+        ],
+        [
+          107,
+          32
+        ],
+        [
+          163,
+          8
+        ],
+        [
+          167,
+          16
+        ],
+        [
+          263,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 4133321,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 120,
+        "index": 87,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 368,
+      "I41": 0,
+      "known_odd_correction_mod47four": 4751089,
+      "non47_coefficients": [
+        [
+          2,
+          368
+        ],
+        [
+          3,
+          176
+        ],
+        [
+          7,
+          136
+        ],
+        [
+          11,
+          64
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          23,
+          48
+        ],
+        [
+          31,
+          24
+        ],
+        [
+          59,
+          16
+        ],
+        [
+          67,
+          16
+        ],
+        [
+          71,
+          16
+        ],
+        [
+          79,
+          16
+        ],
+        [
+          83,
+          16
+        ],
+        [
+          151,
+          8
+        ],
+        [
+          179,
+          12
+        ],
+        [
+          227,
+          4
+        ],
+        [
+          251,
+          8
+        ],
+        [
+          283,
+          16
+        ],
+        [
+          311,
+          8
+        ],
+        [
+          347,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 1155918,
+      "gaussian_transport_checks": []
+    },
+    {
+      "correspondence": {
+        "effective_degree": 90,
+        "index": 89,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 2,
+      "I2": 360,
+      "I41": -80,
+      "known_odd_correction_mod47four": 3304006,
+      "non47_coefficients": [
+        [
+          2,
+          360
+        ],
+        [
+          3,
+          128
+        ],
+        [
+          7,
+          72
+        ],
+        [
+          11,
+          36
+        ],
+        [
+          19,
+          40
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          31,
+          40
+        ],
+        [
+          41,
+          -80
+        ],
+        [
+          43,
+          8
+        ],
+        [
+          67,
+          12
+        ],
+        [
+          71,
+          16
+        ],
+        [
+          79,
+          24
+        ],
+        [
+          89,
+          40
+        ],
+        [
+          127,
+          8
+        ],
+        [
+          163,
+          8
+        ],
+        [
+          271,
+          16
+        ],
+        [
+          311,
+          8
+        ],
+        [
+          331,
+          12
+        ],
+        [
+          347,
+          4
+        ]
+      ],
+      "non47_correction_mod47four": 2405413,
+      "gaussian_transport_checks": [
+        {
+          "a": -8,
+          "b": -5,
+          "necklace_factor": 9
+        },
+        {
+          "a": -8,
+          "b": 5,
+          "necklace_factor": 32
+        },
+        {
+          "a": -5,
+          "b": -8,
+          "necklace_factor": 32
+        },
+        {
+          "a": -5,
+          "b": 8,
+          "necklace_factor": 9
+        },
+        {
+          "a": 5,
+          "b": -8,
+          "necklace_factor": 9
+        },
+        {
+          "a": 5,
+          "b": 8,
+          "necklace_factor": 32
+        },
+        {
+          "a": 8,
+          "b": -5,
+          "necklace_factor": 32
+        },
+        {
+          "a": 8,
+          "b": 5,
+          "necklace_factor": 9
+        }
+      ]
+    },
+    {
+      "correspondence": {
+        "effective_degree": 112,
+        "index": 91,
+        "kind": "Hecke"
+      },
+      "CM_return_multiplicity": 0,
+      "I2": 376,
+      "I41": 0,
+      "known_odd_correction_mod47four": 786874,
+      "non47_coefficients": [
+        [
+          2,
+          376
+        ],
+        [
+          3,
+          424
+        ],
+        [
+          7,
+          88
+        ],
+        [
+          11,
+          40
+        ],
+        [
+          19,
+          40
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          43,
+          16
+        ],
+        [
+          71,
+          24
+        ],
+        [
+          83,
+          8
+        ],
+        [
+          103,
+          8
+        ],
+        [
+          107,
+          8
+        ],
+        [
+          131,
+          8
+        ],
+        [
+          167,
+          8
+        ],
+        [
+          179,
+          16
+        ],
+        [
+          191,
+          8
+        ],
+        [
+          239,
+          16
+        ]
+      ],
+      "non47_correction_mod47four": 1462828,
+      "gaussian_transport_checks": []
+    }
+  ],
+  "height_equation": "h(B,S_iB)=lambda47(e_i)-non47_correction_i",
+  "scope": "non47 local coefficients only; geometric identifications are proved separately; enumeration does not prove the global theorem",
+  "generating_source_sha256": "255d1cdcd83a0bc8cf82d5c9ea00a0df7a31f5e251b6161b0c7d44d98849d645",
+  "input_sha256": {
+    "R190_odd_certificate": "b2bdf1471fefc76dd6d05523af8929b66ef770b479534378c414b657d8420b54",
+    "R193_two_certificate": "1f38dac125dbb9fb5bcdcb490feb64754639b8d8d47937c8e51b672a72cfd698"
+  }
+}

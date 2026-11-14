@@ -1,0 +1,225 @@
+{
+  "assertions": "all exact identities and finite group checks passed",
+  "discriminant": -528958107648,
+  "elliptic_coefficients": [
+    [
+      "-21/2",
+      "-27/2"
+    ],
+    [
+      "-10",
+      "28"
+    ]
+  ],
+  "group": {
+    "SL2_order": 648,
+    "curves": [
+      {
+        "cusp_lengths": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "e2": 2,
+        "e3": 0,
+        "genus": 2,
+        "index": 54,
+        "order": 12
+      },
+      {
+        "cusp_lengths": [
+          9,
+          9,
+          9
+        ],
+        "e2": 7,
+        "e3": 0,
+        "genus": 0,
+        "index": 27,
+        "order": 24
+      }
+    ],
+    "fixed_lifts_over_normalizer_elliptic_points": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  },
+  "independent_points": [
+    [
+      [
+        "7/2",
+        "-1/2"
+      ],
+      [
+        "-4",
+        "4"
+      ]
+    ],
+    [
+      [
+        "1/2",
+        "1/2"
+      ],
+      [
+        "4",
+        "2"
+      ]
+    ]
+  ],
+  "integral_fibers": [
+    {
+      "F": 1,
+      "S": 3511,
+      "square": false,
+      "uv": [
+        -3,
+        -2
+      ]
+    },
+    {
+      "F": 1,
+      "S": 4,
+      "square": true,
+      "uv": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "F": 1,
+      "S": 19,
+      "square": false,
+      "uv": [
+        0,
+        1
+      ]
+    },
+    {
+      "F": 1,
+      "S": 7,
+      "square": false,
+      "uv": [
+        1,
+        0
+      ]
+    },
+    {
+      "F": 1,
+      "S": 2608,
+      "square": false,
+      "uv": [
+        1,
+        3
+      ]
+    },
+    {
+      "F": 1,
+      "S": 67,
+      "square": false,
+      "uv": [
+        2,
+        -1
+      ]
+    },
+    {
+      "F": 3,
+      "S": 63,
+      "square": false,
+      "uv": [
+        -1,
+        -2
+      ]
+    },
+    {
+      "F": 3,
+      "S": 144,
+      "square": true,
+      "uv": [
+        -1,
+        1
+      ]
+    },
+    {
+      "F": 3,
+      "S": 387,
+      "square": false,
+      "uv": [
+        2,
+        1
+      ]
+    }
+  ],
+  "mod5_irreducibility_checks": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      1
+    ]
+  ],
+  "rank_statement": "rank E0(K) >= 2 and rank Jac(C)(Q) >= 2; no upper bound",
+  "rational_point_classification": "NOT CLAIMED",
+  "reductions": [
+    {
+      "fivefold_images": [
+        null,
+        [
+          2,
+          0
+        ]
+      ],
+      "mod_two_row": [
+        0,
+        1
+      ],
+      "order": 10,
+      "q": 7,
+      "w": 2
+    },
+    {
+      "fivefold_images": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "mod_two_row": [
+        1,
+        1
+      ],
+      "order": 10,
+      "q": 7,
+      "w": 5
+    },
+    {
+      "order": 15,
+      "q": 13,
+      "w": 6
+    },
+    {
+      "order": 22,
+      "q": 19,
+      "w": 4
+    }
+  ],
+  "resultants": [
+    243,
+    243,
+    -243
+  ]
+}

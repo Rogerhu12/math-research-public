@@ -1,0 +1,67 @@
+{
+  "status": "All proofs and auxiliary notes read completely by root; actual agent reruns preserved; R197 independently reassembled by root with identical certificate; R204 independent Artin and descent audit passed.",
+  "files": [
+    {
+      "target": "scripts/p41_actual_differentials47.py",
+      "bytes": 10919,
+      "sha256": "3ba8420e465a0529049d4397e44353e81a0d4c6035097687398e040dfce5cd31",
+      "source_manifest": "R194_R203_recovery_manifest.json"
+    },
+    {
+      "target": "scripts/p41_eta_calibration47.py",
+      "bytes": 6336,
+      "sha256": "a748f10c4c33a40f5ca0491a814da201cf80da9d501b6bef2bace3c664887b97",
+      "source_manifest": "R194_R203_recovery_manifest.json"
+    },
+    {
+      "target": "scripts/data/p41_eta_calibration47_complete.json.gz",
+      "bytes": 6611,
+      "sha256": "9fc33dea6a134961a1a5e4dc1677c57dec65d9aca265d8e46b4470ecff18261f",
+      "source_manifest": "R194_R203_recovery_manifest.json"
+    },
+    {
+      "target": "results/R194-actual-third-kind-differential-and-poincare-calibration.md",
+      "bytes": 9036,
+      "sha256": "47e1e10dceca85c006a5705fccd914f63ba4a624eb9ceff632cec9d85597045c",
+      "source_manifest": "R194_R203_recovery_manifest.json",
+      "import_sha256": "68a464fa012799bb417cd2d655d20c81e13a9e79d204d7228784e5c9a55a80f8"
+    },
+    {
+      "target": "results/R203-actual-hecke-normalization-and-local-trace-interface.md",
+      "bytes": 7183,
+      "sha256": "64e35f94abf08cb83b111f095289b905ca7903f994f99ebfcd7aaa653722983b",
+      "source_manifest": "R194_R203_recovery_manifest.json"
+    },
+    {
+      "target": "scripts/p41_eta_hecke_tiny47.py",
+      "bytes": 11418,
+      "sha256": "dad3aa6baf9fd91fa036407464a2c8c1752a466f4352752a6787f3f662712ab3",
+      "source_manifest": "R197_recovery_manifest.json"
+    },
+    {
+      "target": "scripts/data/p41_eta_hecke_tiny47_complete.json.gz",
+      "bytes": 21379,
+      "sha256": "be7d5f86b7c4b686e61f720fabc4b3f04a7db5a92c6907ccf8cb42ff8011358e",
+      "source_manifest": "R197_recovery_manifest.json"
+    },
+    {
+      "target": "scripts/p41_first_three_heights47.py",
+      "bytes": 5291,
+      "sha256": "29c4d182312361d6ed3c064242d44ef3f73e244c599ee73c37fb07d039e830e1",
+      "source_manifest": "R197_recovery_manifest.json"
+    },
+    {
+      "target": "scripts/data/p41_first_three_heights47_complete.json.gz",
+      "bytes": 1254,
+      "sha256": "7c8da4e5275bb69d35ee36e904c798ab04e07b7775820ccf524a7bca84995392",
+      "source_manifest": "R197_recovery_manifest.json"
+    },
+    {
+      "target": "results/R197-first-three-actual-global-hecke-heights.md",
+      "bytes": 7880,
+      "sha256": "85afc5f68d5acee9cb0dc91b6dfc82b89a26525920125ee11fa39b84018cf1a5",
+      "source_manifest": "R197_recovery_manifest.json"
+    }
+  ],
+  "root_review_utc": "2026-11-12T22:35:30.504771+00:00"
+}

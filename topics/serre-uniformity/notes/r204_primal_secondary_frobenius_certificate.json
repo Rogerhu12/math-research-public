@@ -1,0 +1,636 @@
+{
+  "p": 43,
+  "q": "225196170077769188459647075003723446506290334538374935594311805764766375462943717166814768844511612408106442292450018627544384538312646994045716899229168141998348680872046002490066651342968053955905931120521143569132718008762168959999",
+  "P": [
+    [
+      "33394750146194790765649469472547837490514177130010076735425672980662522876805868899390592419053375548932128552789686243150087769116503251190650595159188257014108013083444404325005912475712135747189340120575975548627405291819588145651",
+      "0"
+    ],
+    [
+      "105971524503702502636043672316158349322260423550444493541426170484048156845678348646136672377218582504925670036420293139811724274157084436675916559592132515967995427027925989770126145341144538088870896345775311962514323576412778247819",
+      "0"
+    ]
+  ],
+  "Q_real": [
+    [
+      "79205847885131901513927649515699326043169439192146842054221770827666436216660091377902580457166044914272205154348100397256084302060789604626474192144810847536341358351879117203603264962865326827434480635945229364530987197686053501532",
+      "0"
+    ],
+    [
+      "61318745458070519072635717613411420877718465121461892695206675978895304802838378783881634472011826164232402351061935782819398951677510892353973281488988706954961447586471804024639511036346659165302809020074133290831420889668950134248",
+      "0"
+    ]
+  ],
+  "T5_beta": [
+    [
+      "86291403028910370254696240820419847173480035482419545965936738077897347913499799040490439864223551022413921838431937199548181365124151796656651129490019461915862691550402143452853690489954847576071760692411189691063906119246183055588",
+      "96547855693631285808122101394007678495621085040783164733672907087768220204304348461086474674237052661666625807929066368182182238922314747555310676043015736351125742974045967614319564392364113397509729594639968649346199697151023697024"
+    ],
+    [
+      "181863554244364268189922975972964448629523451556198003499219493461048940530988161741456066738163549680733380970824528509785412282990606321614464384125248443628546060007132395338341584963718380473046946373002822001917758243518469142919",
+      "92333544427987456623551408137472343880890767252597272267119193859114689485910800267886206081788681699940578569751735873047433961247878085927379196816535453316756790822821460844075169347144665285175223183203385001105269613859723381822"
+    ]
+  ],
+  "zeta_Weil": [
+    "33192256431478777534772693342490161012373414464785401361122186710744426145385242337610237454110224901337816657644112419076529202192170583323034154623583921171355558078026293450555526527706963402223792490590954972636538127057395769163",
+    "171023583398532679386711239941267784062765623696689858645290077011642199651646324646676955701988625242095153878295365334133068324314695282660741691934130921957519553782994262401615031914521307989634726996409007549972082490092007345950"
+  ],
+  "CM_log_beta": [
+    22,
+    11
+  ],
+  "anti_p_step": 21,
+  "tame_correction": 11,
+  "expected": {
+    "status": "PASS",
+    "auxiliaries": 2,
+    "denominator_evaluations": 158928,
+    "all_88_weighted_norm_symbols_equal": true,
+    "Weil_pairing_verified": true,
+    "all_three_beta44_closures": "[5]",
+    "results": [
+      {
+        "auxiliary": "beta",
+        "raw_base": [
+          31,
+          6
+        ],
+        "raw_D": [
+          10,
+          6
+        ],
+        "Euler_correction": [
+          5,
+          19
+        ],
+        "corrected_D": [
+          0,
+          38
+        ],
+        "positive_Qq": [
+          24,
+          0
+        ]
+      },
+      {
+        "auxiliary": "bar_beta",
+        "raw_base": [
+          31,
+          37
+        ],
+        "raw_D": [
+          33,
+          6
+        ],
+        "Euler_correction": [
+          38,
+          19
+        ],
+        "corrected_D": [
+          0,
+          38
+        ],
+        "positive_Qq": [
+          24,
+          0
+        ]
+      }
+    ],
+    "positive_primal_secondary_Frobenius": 24,
+    "actual_L_computed": false,
+    "rows": [
+      [
+        {
+          "index": 0,
+          "base_denominator_log": 0,
+          "norm_denominator_log": 0,
+          "derivative_denominator_log": 36
+        },
+        {
+          "index": 1,
+          "base_denominator_log": 40,
+          "norm_denominator_log": 40,
+          "derivative_denominator_log": 30
+        },
+        {
+          "index": 2,
+          "base_denominator_log": 7,
+          "norm_denominator_log": 7,
+          "derivative_denominator_log": 16
+        },
+        {
+          "index": 3,
+          "base_denominator_log": 7,
+          "norm_denominator_log": 7,
+          "derivative_denominator_log": 25
+        },
+        {
+          "index": 4,
+          "base_denominator_log": 41,
+          "norm_denominator_log": 41,
+          "derivative_denominator_log": 14
+        },
+        {
+          "index": 5,
+          "base_denominator_log": 11,
+          "norm_denominator_log": 11,
+          "derivative_denominator_log": 3
+        },
+        {
+          "index": 6,
+          "base_denominator_log": 22,
+          "norm_denominator_log": 22,
+          "derivative_denominator_log": 6
+        },
+        {
+          "index": 7,
+          "base_denominator_log": 38,
+          "norm_denominator_log": 38,
+          "derivative_denominator_log": 42
+        },
+        {
+          "index": 8,
+          "base_denominator_log": 37,
+          "norm_denominator_log": 37,
+          "derivative_denominator_log": 8
+        },
+        {
+          "index": 9,
+          "base_denominator_log": 36,
+          "norm_denominator_log": 36,
+          "derivative_denominator_log": 32
+        },
+        {
+          "index": 10,
+          "base_denominator_log": 20,
+          "norm_denominator_log": 20,
+          "derivative_denominator_log": 2
+        },
+        {
+          "index": 11,
+          "base_denominator_log": 14,
+          "norm_denominator_log": 14,
+          "derivative_denominator_log": 40
+        },
+        {
+          "index": 12,
+          "base_denominator_log": 28,
+          "norm_denominator_log": 28,
+          "derivative_denominator_log": 13
+        },
+        {
+          "index": 13,
+          "base_denominator_log": 41,
+          "norm_denominator_log": 41,
+          "derivative_denominator_log": 25
+        },
+        {
+          "index": 14,
+          "base_denominator_log": 30,
+          "norm_denominator_log": 30,
+          "derivative_denominator_log": 9
+        },
+        {
+          "index": 15,
+          "base_denominator_log": 11,
+          "norm_denominator_log": 11,
+          "derivative_denominator_log": 24
+        },
+        {
+          "index": 16,
+          "base_denominator_log": 30,
+          "norm_denominator_log": 30,
+          "derivative_denominator_log": 42
+        },
+        {
+          "index": 17,
+          "base_denominator_log": 20,
+          "norm_denominator_log": 20,
+          "derivative_denominator_log": 21
+        },
+        {
+          "index": 18,
+          "base_denominator_log": 13,
+          "norm_denominator_log": 13,
+          "derivative_denominator_log": 0
+        },
+        {
+          "index": 19,
+          "base_denominator_log": 24,
+          "norm_denominator_log": 24,
+          "derivative_denominator_log": 37
+        },
+        {
+          "index": 20,
+          "base_denominator_log": 7,
+          "norm_denominator_log": 7,
+          "derivative_denominator_log": 9
+        },
+        {
+          "index": 21,
+          "base_denominator_log": 0,
+          "norm_denominator_log": 0,
+          "derivative_denominator_log": 36
+        },
+        {
+          "index": 22,
+          "base_denominator_log": 28,
+          "norm_denominator_log": 28,
+          "derivative_denominator_log": 6
+        },
+        {
+          "index": 23,
+          "base_denominator_log": 42,
+          "norm_denominator_log": 42,
+          "derivative_denominator_log": 38
+        },
+        {
+          "index": 24,
+          "base_denominator_log": 17,
+          "norm_denominator_log": 17,
+          "derivative_denominator_log": 5
+        },
+        {
+          "index": 25,
+          "base_denominator_log": 29,
+          "norm_denominator_log": 29,
+          "derivative_denominator_log": 42
+        },
+        {
+          "index": 26,
+          "base_denominator_log": 13,
+          "norm_denominator_log": 13,
+          "derivative_denominator_log": 10
+        },
+        {
+          "index": 27,
+          "base_denominator_log": 16,
+          "norm_denominator_log": 16,
+          "derivative_denominator_log": 1
+        },
+        {
+          "index": 28,
+          "base_denominator_log": 24,
+          "norm_denominator_log": 24,
+          "derivative_denominator_log": 16
+        },
+        {
+          "index": 29,
+          "base_denominator_log": 28,
+          "norm_denominator_log": 28,
+          "derivative_denominator_log": 3
+        },
+        {
+          "index": 30,
+          "base_denominator_log": 30,
+          "norm_denominator_log": 30,
+          "derivative_denominator_log": 4
+        },
+        {
+          "index": 31,
+          "base_denominator_log": 20,
+          "norm_denominator_log": 20,
+          "derivative_denominator_log": 39
+        },
+        {
+          "index": 32,
+          "base_denominator_log": 31,
+          "norm_denominator_log": 31,
+          "derivative_denominator_log": 29
+        },
+        {
+          "index": 33,
+          "base_denominator_log": 26,
+          "norm_denominator_log": 26,
+          "derivative_denominator_log": 40
+        },
+        {
+          "index": 34,
+          "base_denominator_log": 6,
+          "norm_denominator_log": 6,
+          "derivative_denominator_log": 30
+        },
+        {
+          "index": 35,
+          "base_denominator_log": 10,
+          "norm_denominator_log": 10,
+          "derivative_denominator_log": 18
+        },
+        {
+          "index": 36,
+          "base_denominator_log": 4,
+          "norm_denominator_log": 4,
+          "derivative_denominator_log": 20
+        },
+        {
+          "index": 37,
+          "base_denominator_log": 12,
+          "norm_denominator_log": 12,
+          "derivative_denominator_log": 41
+        },
+        {
+          "index": 38,
+          "base_denominator_log": 28,
+          "norm_denominator_log": 28,
+          "derivative_denominator_log": 23
+        },
+        {
+          "index": 39,
+          "base_denominator_log": 42,
+          "norm_denominator_log": 42,
+          "derivative_denominator_log": 35
+        },
+        {
+          "index": 40,
+          "base_denominator_log": 17,
+          "norm_denominator_log": 17,
+          "derivative_denominator_log": 38
+        },
+        {
+          "index": 41,
+          "base_denominator_log": 3,
+          "norm_denominator_log": 3,
+          "derivative_denominator_log": 12
+        },
+        {
+          "index": 42,
+          "base_denominator_log": 31,
+          "norm_denominator_log": 31,
+          "derivative_denominator_log": 11
+        },
+        {
+          "index": 43,
+          "base_denominator_log": 15,
+          "norm_denominator_log": 15,
+          "derivative_denominator_log": 35
+        }
+      ],
+      [
+        {
+          "index": 0,
+          "base_denominator_log": 40,
+          "norm_denominator_log": 40,
+          "derivative_denominator_log": 16
+        },
+        {
+          "index": 1,
+          "base_denominator_log": 0,
+          "norm_denominator_log": 0,
+          "derivative_denominator_log": 35
+        },
+        {
+          "index": 2,
+          "base_denominator_log": 15,
+          "norm_denominator_log": 15,
+          "derivative_denominator_log": 36
+        },
+        {
+          "index": 3,
+          "base_denominator_log": 8,
+          "norm_denominator_log": 8,
+          "derivative_denominator_log": 2
+        },
+        {
+          "index": 4,
+          "base_denominator_log": 8,
+          "norm_denominator_log": 8,
+          "derivative_denominator_log": 0
+        },
+        {
+          "index": 5,
+          "base_denominator_log": 10,
+          "norm_denominator_log": 10,
+          "derivative_denominator_log": 11
+        },
+        {
+          "index": 6,
+          "base_denominator_log": 31,
+          "norm_denominator_log": 31,
+          "derivative_denominator_log": 34
+        },
+        {
+          "index": 7,
+          "base_denominator_log": 19,
+          "norm_denominator_log": 19,
+          "derivative_denominator_log": 25
+        },
+        {
+          "index": 8,
+          "base_denominator_log": 25,
+          "norm_denominator_log": 25,
+          "derivative_denominator_log": 14
+        },
+        {
+          "index": 9,
+          "base_denominator_log": 30,
+          "norm_denominator_log": 30,
+          "derivative_denominator_log": 31
+        },
+        {
+          "index": 10,
+          "base_denominator_log": 35,
+          "norm_denominator_log": 35,
+          "derivative_denominator_log": 16
+        },
+        {
+          "index": 11,
+          "base_denominator_log": 29,
+          "norm_denominator_log": 29,
+          "derivative_denominator_log": 40
+        },
+        {
+          "index": 12,
+          "base_denominator_log": 16,
+          "norm_denominator_log": 16,
+          "derivative_denominator_log": 7
+        },
+        {
+          "index": 13,
+          "base_denominator_log": 32,
+          "norm_denominator_log": 32,
+          "derivative_denominator_log": 5
+        },
+        {
+          "index": 14,
+          "base_denominator_log": 10,
+          "norm_denominator_log": 10,
+          "derivative_denominator_log": 42
+        },
+        {
+          "index": 15,
+          "base_denominator_log": 22,
+          "norm_denominator_log": 22,
+          "derivative_denominator_log": 30
+        },
+        {
+          "index": 16,
+          "base_denominator_log": 31,
+          "norm_denominator_log": 31,
+          "derivative_denominator_log": 15
+        },
+        {
+          "index": 17,
+          "base_denominator_log": 22,
+          "norm_denominator_log": 22,
+          "derivative_denominator_log": 37
+        },
+        {
+          "index": 18,
+          "base_denominator_log": 29,
+          "norm_denominator_log": 29,
+          "derivative_denominator_log": 31
+        },
+        {
+          "index": 19,
+          "base_denominator_log": 21,
+          "norm_denominator_log": 21,
+          "derivative_denominator_log": 11
+        },
+        {
+          "index": 20,
+          "base_denominator_log": 9,
+          "norm_denominator_log": 9,
+          "derivative_denominator_log": 4
+        },
+        {
+          "index": 21,
+          "base_denominator_log": 8,
+          "norm_denominator_log": 8,
+          "derivative_denominator_log": 37
+        },
+        {
+          "index": 22,
+          "base_denominator_log": 0,
+          "norm_denominator_log": 0,
+          "derivative_denominator_log": 35
+        },
+        {
+          "index": 23,
+          "base_denominator_log": 32,
+          "norm_denominator_log": 32,
+          "derivative_denominator_log": 40
+        },
+        {
+          "index": 24,
+          "base_denominator_log": 5,
+          "norm_denominator_log": 5,
+          "derivative_denominator_log": 1
+        },
+        {
+          "index": 25,
+          "base_denominator_log": 1,
+          "norm_denominator_log": 1,
+          "derivative_denominator_log": 39
+        },
+        {
+          "index": 26,
+          "base_denominator_log": 27,
+          "norm_denominator_log": 27,
+          "derivative_denominator_log": 13
+        },
+        {
+          "index": 27,
+          "base_denominator_log": 21,
+          "norm_denominator_log": 21,
+          "derivative_denominator_log": 4
+        },
+        {
+          "index": 28,
+          "base_denominator_log": 6,
+          "norm_denominator_log": 6,
+          "derivative_denominator_log": 35
+        },
+        {
+          "index": 29,
+          "base_denominator_log": 9,
+          "norm_denominator_log": 9,
+          "derivative_denominator_log": 23
+        },
+        {
+          "index": 30,
+          "base_denominator_log": 32,
+          "norm_denominator_log": 32,
+          "derivative_denominator_log": 12
+        },
+        {
+          "index": 31,
+          "base_denominator_log": 22,
+          "norm_denominator_log": 22,
+          "derivative_denominator_log": 12
+        },
+        {
+          "index": 32,
+          "base_denominator_log": 29,
+          "norm_denominator_log": 29,
+          "derivative_denominator_log": 27
+        },
+        {
+          "index": 33,
+          "base_denominator_log": 17,
+          "norm_denominator_log": 17,
+          "derivative_denominator_log": 40
+        },
+        {
+          "index": 34,
+          "base_denominator_log": 42,
+          "norm_denominator_log": 42,
+          "derivative_denominator_log": 37
+        },
+        {
+          "index": 35,
+          "base_denominator_log": 13,
+          "norm_denominator_log": 13,
+          "derivative_denominator_log": 37
+        },
+        {
+          "index": 36,
+          "base_denominator_log": 36,
+          "norm_denominator_log": 36,
+          "derivative_denominator_log": 21
+        },
+        {
+          "index": 37,
+          "base_denominator_log": 23,
+          "norm_denominator_log": 23,
+          "derivative_denominator_log": 39
+        },
+        {
+          "index": 38,
+          "base_denominator_log": 26,
+          "norm_denominator_log": 26,
+          "derivative_denominator_log": 40
+        },
+        {
+          "index": 39,
+          "base_denominator_log": 32,
+          "norm_denominator_log": 32,
+          "derivative_denominator_log": 41
+        },
+        {
+          "index": 40,
+          "base_denominator_log": 5,
+          "norm_denominator_log": 5,
+          "derivative_denominator_log": 16
+        },
+        {
+          "index": 41,
+          "base_denominator_log": 1,
+          "norm_denominator_log": 1,
+          "derivative_denominator_log": 3
+        },
+        {
+          "index": 42,
+          "base_denominator_log": 28,
+          "norm_denominator_log": 28,
+          "derivative_denominator_log": 12
+        },
+        {
+          "index": 43,
+          "base_denominator_log": 17,
+          "norm_denominator_log": 17,
+          "derivative_denominator_log": 1
+        }
+      ]
+    ]
+  }
+}

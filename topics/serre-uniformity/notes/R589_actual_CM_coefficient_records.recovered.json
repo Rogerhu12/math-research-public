@@ -1,0 +1,98 @@
+{
+  "result": "R589",
+  "recovery": true,
+  "old_proof_sha256": "e764ec1056e5225032c6cc589f684a69527a7808fb42c7d6eced465462ad0f5c",
+  "mathematics_previously_parent_reviewed": true,
+  "old_math_repeated_in_recovery": false,
+  "records": [
+    {
+      "p": 41,
+      "rprime": 33,
+      "S0S1_modp": 14
+    },
+    {
+      "p": 47,
+      "rprime": 23,
+      "S0S1_modp": 41
+    },
+    {
+      "p": 53,
+      "rprime": 12,
+      "S0S1_modp": 11
+    },
+    {
+      "p": 59,
+      "rprime": 14,
+      "S0S1_modp": 27
+    }
+  ],
+  "later_separate_results": {
+    "R594_p269": {
+      "rprime": 0,
+      "B": 49,
+      "n": 71824,
+      "M": 11970,
+      "scope": "p=8 mod9; not a counterexample restricted to R317 remaining classes",
+      "independent_summands": [
+        167,
+        58,
+        152,
+        209,
+        32,
+        211,
+        12,
+        109,
+        22,
+        144,
+        44,
+        61,
+        17,
+        234,
+        17,
+        55,
+        149,
+        106,
+        128,
+        259,
+        21,
+        119,
+        221,
+        225,
+        89,
+        3,
+        84,
+        170,
+        218,
+        151,
+        55,
+        9,
+        232,
+        39,
+        117,
+        77,
+        224,
+        219,
+        33,
+        261,
+        10,
+        215,
+        110,
+        235,
+        57
+      ],
+      "largest_integer_dot": 859805104
+    },
+    "p383": {
+      "rprime": 85,
+      "n": 145924,
+      "M": 24320,
+      "scope": "algorithm example only; D5 support already separately excluded"
+    }
+  },
+  "scope": {
+    "all_prime_nonvanishing": false,
+    "M0_unramified_value_field_assumed": false,
+    "vanishing_residue_safe_bound": "v_p(M0)>=1/2",
+    "rank_zero_image_supplied": false
+  }
+}

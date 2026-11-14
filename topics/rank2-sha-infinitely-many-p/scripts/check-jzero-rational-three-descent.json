@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "number_of_checks": 15,
+  "checks": [
+    "actual phi lands on E minus 27D",
+    "actual dual lands back on E D",
+    "phi invariant differential multiplier is one",
+    "dual invariant differential multiplier is three",
+    "full cubic Kummer identity on the dual image",
+    "norm of the cubic Kummer root equals the dual x coordinate",
+    "explicit inverse from a cube lies on the actual source",
+    "the inverse root is exactly u plus v times sqrt D",
+    "the line product Kummer homomorphism identity",
+    "the real quadratic prime generator has norm two",
+    "the real fundamental unit has norm minus one",
+    "the original P Kummer class has the asserted prime exponents",
+    "the original Q Kummer class is the fundamental unit",
+    "original point (-2, 3) has exact isogeny image (15, 54)",
+    "original point (-1, 4) has exact isogeny image (67, 548)"
+  ],
+  "actual_point_images": [
+    {
+      "point": [
+        -2,
+        3
+      ],
+      "image": [
+        15,
+        54
+      ]
+    },
+    {
+      "point": [
+        -1,
+        4
+      ],
+      "image": [
+        67,
+        548
+      ]
+    }
+  ],
+  "quadratic_discriminants": [
+    17,
+    -51
+  ],
+  "class_numbers_proved_in_text": [
+    1,
+    2
+  ]
+}

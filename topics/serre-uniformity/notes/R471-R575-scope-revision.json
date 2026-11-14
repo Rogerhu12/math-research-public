@@ -1,0 +1,97 @@
+{
+  "result": "R471",
+  "revision": "R575",
+  "proof_mapping": {
+    "result": "R471",
+    "original_file": "notes/R471-original-before-R575.md",
+    "corrected_file": "results/R471-primitive-cm-orbit-nonvanishing-criterion-and-zero-image.md",
+    "corrected_sha256": "09da5dfe2f09affb6346f9d9e64ef17d9709a9eabb7e8d13cb440f833198cbf2"
+  },
+  "original_sha256": "235f7de4df7f1721336f5d19987339022be544a18e704f63e48b445ef7a7e346",
+  "summaries": {
+    "index": "相反扭向独立 CM 家族的本原轨道非消失判据；满足 C√p δ(p)<B 时抽象 B_-(Q)=0，无实际 Zp 零像推论。",
+    "log": "R471 保留原始 Galois 轨道、显式中心值上界、平均分离判据与所列素数范围；删除实际商 q_- 的存在和 q_-(P-c1)=0 应用。",
+    "handoff": "R471 的平均判据只服务 κ4^-1 独立族。R575 后实际 κ4 族中心值恒零，不能移用该全局结论。",
+    "open": "指定独立本原轨道在其余 p 的非消失仍 OPEN；实际模曲线需要另一全局零像来源。"
+  },
+  "dependency_original_hash_mapping": {
+    "b61a2567be0fe8236370983aecefb08c376c613efadc24768e82012244628df7": {
+      "result": "R348",
+      "original_file": "notes/R348-original-before-R575.md",
+      "corrected_file": "results/R348-actual-sixfold-cm-quotient-and-uniform-positive-first-moment.md",
+      "corrected_sha256": "8f05a8e2e474631995a5ef5aaf194bcdea77f37285577f0719822f01446d6e27"
+    },
+    "ae374d1ceb45afb28e6ad61fd43bdd99fac7640551cb17107e4b3578141b40f2": {
+      "result": "R374",
+      "original_file": "notes/R374-original-before-R575.md",
+      "corrected_file": "results/R374-inertia-unit-torsion-vanishing-and-zero-rational-image.md",
+      "corrected_sha256": "f5ace8545d2dd744f1830da0d548870f999c154afee082852ee36794c0f0a1df"
+    },
+    "f0164f5916171f72e90b288d5714faa4ebc6f0e60b1c55247660ebf170663fa7": {
+      "result": "R376",
+      "original_file": "notes/R376-original-before-R575.md",
+      "corrected_file": "results/R376-actual-cm-drinfeld-point-and-component-contraction.md",
+      "corrected_sha256": "dbdc7b1ea8eb3ac8ddea94106425ef9490e73521212d14c4788ba791cee72186"
+    },
+    "81b42e3caae5103fa56fc20374676aa6aaddd31b9dc232e2b417bdce85b049d3": {
+      "result": "R378",
+      "original_file": "notes/R378-original-before-R575.md",
+      "corrected_file": "results/R378-actual-cm-disc-parameter-and-uniform-integral-tail.md",
+      "corrected_sha256": "eb50a4ead10255604301e0a09fd0bb1d6757691bfc93bbd6ffbc22a36dea6bef"
+    },
+    "89b67dcca74273fdc044efc1bf95ff40bd962cedebac77ec5afb7e68564ac5e0": {
+      "result": "R381",
+      "original_file": "notes/R381-original-before-R575.md",
+      "corrected_file": "results/R381-actual-sixfold-nonselftwist-pairs-and-central-value-obstruction.md",
+      "corrected_sha256": "a75d780139121f20decd34d27c97bf86e04bc5941d696d0e9ae7d70153fc40ac"
+    },
+    "d8c7eeaaa8b42628302cd376ee6e405f62d771f05e998e4f8055c7f8800a2e92": {
+      "result": "R390",
+      "original_file": "notes/R390-original-before-R575.md",
+      "corrected_file": "results/R390-cm-coordinate-inertia-weight-one-channel-and-cartier-unit.md",
+      "corrected_sha256": "7c583743210f044c48bb76b1ad99f2edb2229f0c8cd2676e4ad027a479c97502"
+    },
+    "6f154e0a12bfe6af6f1de32ceebd1c63c91933f2a143803d36dd8d81d67b5071": {
+      "result": "R434",
+      "original_file": "notes/R434-original-before-R575.md",
+      "corrected_file": "results/R434-primitive-cartan-trace-and-scalar-invariant-cm-logarithm.md",
+      "corrected_sha256": "bb14ac524fad0bde8c4d29345bc7cf0b972d32c23383bf26e16216d964e3c30c"
+    },
+    "235f7de4df7f1721336f5d19987339022be544a18e704f63e48b445ef7a7e346": {
+      "result": "R471",
+      "original_file": "notes/R471-original-before-R575.md",
+      "corrected_file": "results/R471-primitive-cm-orbit-nonvanishing-criterion-and-zero-image.md",
+      "corrected_sha256": "09da5dfe2f09affb6346f9d9e64ef17d9709a9eabb7e8d13cb440f833198cbf2"
+    },
+    "a31908286781071682c2d0a58c5869c966908592499c28721b46c91ce0685496": {
+      "result": "R553",
+      "original_file": "notes/R553-original-before-R575.md",
+      "corrected_file": "results/R553-high-character-laurent-formula-and-fixed-curve-unit-counterexample.md",
+      "corrected_sha256": "3fa4da0db2a05d56e8c040901ef7e11a7f702bdb490c6870136db4159c139d18"
+    },
+    "7f698c32cadf7898bb733d36d7ea3f529574c553db5acd9b064ef94b9475f0cc": {
+      "result": "R560",
+      "original_file": "notes/R560-original-before-R575.md",
+      "corrected_file": "results/R560-actual-cm-tame-function-and-integral-nonvanishing-criterion.md",
+      "corrected_sha256": "f0a12d68b77effe1c4e652a96da9f666c19dfcd20ff926f014425b8baed3282e"
+    },
+    "b093b528ec19fcc0d4fbf445774456ee3552e2816f5d3a2c9b32886d62f7d4eb": {
+      "result": "R564",
+      "original_file": "notes/R564-original-before-R575.md",
+      "corrected_file": "results/R564-actual-six-torsion-cartier-exchange.md",
+      "corrected_sha256": "3582bf1ccebfd7ebe65be48b494bfa464edd7a927997af13886c0e1cdb7630d4"
+    },
+    "efce54bd607fe937957bfbcad1fab4823b1da1470c4cb6ed31c949abc4600365": {
+      "result": "R566",
+      "original_file": "notes/R566-original-before-R575.md",
+      "corrected_file": "results/R566-uniform-low-five-actual-cm-nonvanishing.md",
+      "corrected_sha256": "92b7e8ad70748ef83e043611aa9b13a7aeb8474e3ca5171cc12c7b8d6c098119"
+    },
+    "5825b63f6cd426e1484c6a38efbbe7659f01f1c29bdc8001c36099ebe1c55a0b": {
+      "result": "R569",
+      "original_file": "notes/R569-original-before-R575.md",
+      "corrected_file": "results/R569-uniform-low-eleven-actual-cm-nonvanishing.md",
+      "corrected_sha256": "adca3f0570b31a19e8180b9a190d6912cf4220f9ece4b43c454936329fd93b60"
+    }
+  }
+}

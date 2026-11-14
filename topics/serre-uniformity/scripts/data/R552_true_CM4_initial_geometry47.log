@@ -1,0 +1,8 @@
+Actual V2 and V3 reconstructed exactly from published model and the GP checkpoint.
+Actual model and derivation verified; maxRSS MiB=99.15
+ACTUAL_POINT_VALUES {'disk_id': 'SS_j36_06', 'original_chart_0based': 6, 'original_chart_row_0based': 0, 'chosen_reference': {'kind': 'true_elliptic_coarse_point', 'original_necklace_label_1based': 5, 'reference_key': 'CM4', 'row_0based': 0}, 'original_frame_kind': 'fc', 'frame_equals_original_fc': True, 'actual_fc_value': [[[1, 0]]], 'actual_fb_value': [[[2296449, 0]]], 'fc_unit': True, 'fb_unit': True}
+ACTUAL_POINT_VALUES {'disk_id': 'SS_j36_02', 'original_chart_0based': 6, 'original_chart_row_0based': 1, 'chosen_reference': {'kind': 'true_elliptic_coarse_point', 'original_necklace_label_1based': 614, 'reference_key': 'CM4', 'row_0based': 15}, 'original_frame_kind': 'fc', 'frame_equals_original_fc': True, 'actual_fc_value': [[[1, 0]]], 'actual_fb_value': [[[2025424, 0]]], 'fc_unit': True, 'fb_unit': True}
+PASS actual selected SS based points ['SS_j36_06', 'SS_j36_02'] SHA 484a021cd52017d90382c859d5eee08d35e41b254c3c664561b1139e8fb8f130
+PASS actual original-fc complete V2 based geometry SS_j36_06 fb(P) [[[2296449, 0]]] rank1 / dim73; original820 disjoint
+PASS actual original-fc complete V2 based geometry SS_j36_02 fb(P) [[[2025424, 0]]] rank1 / dim73; original820 disjoint
+PASS R552 1760e8c6fc3147202a8963d642a05d04b85893e96c21c547fa9dc69777d8cc82

@@ -1,0 +1,94 @@
+{
+  "all_pass": true,
+  "base_y": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "base_H": [
+    "1",
+    "0",
+    "0",
+    "8/5",
+    "8",
+    "744/25",
+    "2504/25",
+    "40392/125",
+    "127784/125",
+    "2002216/625",
+    "6245128/625"
+  ],
+  "uniform_y_hessian_degree": 2,
+  "schur_minor_degree_bound": 10,
+  "exact_triangular_interpolation_nodes": 66,
+  "exact_zero_five_minors": 198,
+  "eliminated_variables_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "morse_block_determinant": "3805003927356748734464498045779998038493021110701280098673149936429823199296706799284894513695032923389952/3998853016065045663759480664255774021148681640625",
+  "morse_block_det_mod103": 81,
+  "full_gradient_cubic_checks": 68,
+  "eliminated_and_parameter_gradients_vanish_through_degree3": true,
+  "remaining_two_cubics_equal_quartic_gradient": true,
+  "transverse_quartic_primitive_integer_coefficients": [
+    "80089315112901522304606309485186268892032979378425799841840990995707367487588610670555277707449834912720415264043003709773",
+    "-240439331501027470651384508576179260676939186394607964719196046226609189528380161044338433866285150857983346780546330283940",
+    "179639587127940176181546060577668383065857464776310991655249483119186344507917946083310903269145925557739835472081675237550",
+    "-47491580359540027668124616260650509369485728339011280963877497690140893997551628802237417796023793624398550330469866882500",
+    "3469397246217060264421317930827310294315755005552128188814556675220569961535254260990408318731558954084744534292000328125"
+  ],
+  "transverse_quartic_scale": "1/226722465818683885567115051731546839134344266381112607064902237120890994440538231897157086652817470583053792647879145750836",
+  "transverse_quartic_mod103": [
+    90,
+    27,
+    54,
+    83,
+    62
+  ],
+  "quartic_gradient_sylvester_mod103": 71,
+  "pure_cube_obstruction_coefficients_mod103": [
+    [
+      93,
+      95,
+      3,
+      0
+    ],
+    [
+      0,
+      16,
+      0,
+      1
+    ]
+  ],
+  "pure_cube_resultant_mod103": 101,
+  "candidate": {
+    "monic_cubic_mod103": [
+      35,
+      5,
+      76,
+      1
+    ],
+    "candidate_linear_coefficient_mod103": [
+      40,
+      94,
+      2
+    ],
+    "candidate_denominator_norm_mod103": 37,
+    "candidate_linear_norm_mod103": 57
+  },
+  "scope": "Exact local data, including all seventeen gradients and the three-parameter Hessian identity. The accompanying local-algebra proof yields Br^5 membership for every r and Br^3 nonmembership for each of the three original first directions. No global cyclicity is claimed."
+}

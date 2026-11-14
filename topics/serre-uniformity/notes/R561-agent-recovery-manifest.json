@@ -1,0 +1,127 @@
+{
+  "result": "R561",
+  "status": "FROZEN_FOR_ROOT_REVIEW",
+  "original_bytes_lost": true,
+  "old_summary_used_as_computation_evidence": false,
+  "restored_conclusion": "The actual scalar Robert cocycle defines an ordinary capitulation class C with L=31-22iC in the original marked normalization.",
+  "scalar_finite_computation": {
+    "all_44_exact_norm_ratios": "1",
+    "high_projection_logs": [
+      9,
+      0
+    ],
+    "q_Frobenius_translation": 16,
+    "scalar_S_translation": 1,
+    "Kq_Frobenius_S_exponent": 32,
+    "tame_beta_correction": -22,
+    "PS_closure": 5,
+    "Q_closure": 1639,
+    "seconds": 712.597,
+    "psi11_evaluations": 3696
+  },
+  "independent_check": "degree-43 Rabin irreducibility, original Weil embedding, all 43 normalization rows; no repeated large Robert computation",
+  "unrestored_inputs_not_used": [
+    "R570 full ordinary class module",
+    "R577 full ordinary unit lattice and boundary 34",
+    "R573 C=-34ib bridge"
+  ],
+  "open_flags": {
+    "actual_q_Robert_product_computed": false,
+    "actual_global_y_z_coordinates_computed": false,
+    "actual_C_computed": false,
+    "actual_b_lambda_n_computed": false,
+    "actual_L_computed": false,
+    "original_Serre_uniformity_complete": false
+  },
+  "files": [
+    {
+      "file": "R561-restored-scalar-norm-cocycle-and-ordinary-artin-class.md",
+      "bytes": 21007,
+      "sha256": "bcebc228dc1c9f65039dd5f9e4c1c49c80057ab297335d72423ee72e716e655c"
+    },
+    {
+      "file": "verify_r561_scalar_robert.py",
+      "bytes": 15260,
+      "sha256": "6c0b26f3917232a65782c519473e1eed0752cc4fddf97bc323c17751054d3fa6"
+    },
+    {
+      "file": "r380_scalar_recovery_certificate.json",
+      "bytes": 1177555,
+      "sha256": "a6fd98bd55145e3ce91f4f79d2b9790d65cd740ece7229f07b288272c9783890"
+    },
+    {
+      "file": "verify_r561_normalization.py",
+      "bytes": 4643,
+      "sha256": "bce81630d66c7c7bab4ec2a0b14a1e1bf815df63d6ad0c186aab14a6f2a92b0c"
+    },
+    {
+      "file": "r561_normalization_certificate.json",
+      "bytes": 7229,
+      "sha256": "fc7c87111d0824670dd694155087770257908887c09486d2394b36d0b06aa395"
+    },
+    {
+      "file": "r561_portability_patch_audit.json",
+      "bytes": 614,
+      "sha256": "4126f102cc2917c17db68836a3695b9544d212649085758b1788e4e557f72c24"
+    },
+    {
+      "file": "rebuild_r380_scalar_robert.py",
+      "bytes": 14807,
+      "sha256": "46d87c4a352d6242740fdff68ef622242e8e4297445da9690c11d48d39b724d0"
+    }
+  ],
+  "published_proof_dependencies": [
+    {
+      "file": "R168-tate-frobenius-sunit-slopes-and-weil-squareclasses.md",
+      "bytes": 20239,
+      "sha256": "adfee6a23d9a953fcb490b8a9e82fd534aa972d44d3f9554dec2385427210390"
+    },
+    {
+      "file": "R171-principal-norm-selflocal-tate-slope.md",
+      "bytes": 20864,
+      "sha256": "909329166c5ac0a2113130ef38880d3ed312d7a1b410f816ea2f18ed4fe40d5c"
+    },
+    {
+      "file": "R198-p-squared-robert-norm-and-a-secondary-contribution.md",
+      "bytes": 9980,
+      "sha256": "59c43233e834db8982475cc4fbcdadb184e9c76f73b1d4dad1a5a9a76621b963"
+    },
+    {
+      "file": "R201-s-class-vanishing-and-the-canonical-norm-residue.md",
+      "bytes": 9364,
+      "sha256": "60481ce1ba7c72200cb6b7e5d99ab35f778edc83e87e1c6ad6cfced14ca449b3"
+    },
+    {
+      "file": "R207-gaussian-trace-model-of-the-actual-ray-extension.md",
+      "bytes": 9723,
+      "sha256": "1c59332a412523a78dd4d358a7a3e10073fc33fa39c12ee84a7f5cf4b4c06ca1"
+    },
+    {
+      "file": "R210-ordinary-class-units-and-ray-residue.md",
+      "bytes": 16666,
+      "sha256": "94049e3edaef3c46361ad1369a485e81b871328571c51fcb3642bb70e10b75d9"
+    },
+    {
+      "file": "R219-single-real-norm-target-and-galois-labels.md",
+      "bytes": 13814,
+      "sha256": "c528f880fa3482713e5c61212d44e9cef1b83c74d31a58032d9c71e226f0c343"
+    },
+    {
+      "file": "R311-fixed-robert-product-and-a-real-upper-norm-radical.md",
+      "bytes": 14189,
+      "sha256": "9bd230d19ebb75e32bbd71a16fb938933e5a13271a55d9db3ec913032ac9c9e2"
+    },
+    {
+      "file": "R322-exact-galois-recurrence-and-a-single-fixed-q-phase.md",
+      "bytes": 9171,
+      "sha256": "1b41ecafa301380cd8ff0e4376307ec691c1437de2ed46e5d12704fde3ff5726"
+    }
+  ],
+  "numerical_input": {
+    "file": "r198_p_squared_robert_certificate.json",
+    "bytes": 8829,
+    "sha256": "e1666e118c7f10d991cf4aa0107ebbe8b68683cd7c9b3e08a587aab390e86d00"
+  },
+  "runtime": "python-flint 0.9.0",
+  "publication_owner": "root only"
+}
