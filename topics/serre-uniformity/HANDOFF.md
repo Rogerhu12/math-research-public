@@ -4,12 +4,12 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、有限数值均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：6bed37d9abf37bc0b1e2d5467ba8686124065a02
+已读规则提交：ed5b1d6e8b52c9fa1a6b719e5d3e0a66d35eaa4e
 最近已确认本地pull：2026-11-15约01:56 Asia/Taipei，main=b202f09796ede72bb57cbb1d770dafd3987f987c，两README未变。18:34/18:56/19:56 UTC终端重试均environment unavailable。按根规矩8小文本API继续，核main/两README后expected_sha、force=false；API不是实际pull。终端恢复先保留旧未推R762分支，再pull/rebase；远端v2已重建，不能重推旧元数据。
-远端规则核对：2026-11-14 19:56:21 UTC，main=6bed37d9abf37bc0b1e2d5467ba8686124065a02，两README blob均未变；本次为终端不可用期间的API核对。
+远端规则核对：2026-11-14 20:03:21 UTC，main=ed5b1d6e8b52c9fa1a6b719e5d3e0a66d35eaa4e，两README blob均未变；本次为终端不可用期间的API核对。
 
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权。终端可用时每推前且至少每小时实际pull --rebase，非快进立即循环重拉再推；PAT只CLI、不入文件。根独占commit/ref，代理只稿/blob。Markdown<100KB、H<10KB、open<30KB，>1MB数据gzip、文件<5MB，大可复现表只artifact。日志本题≤5行，不设冻结/独立审查审批门。
-最新完整旧H/open分别存[before-R781](notes/2026-11-14-public-handoff-before-R781.md)、[before-R781](notes/2026-11-14-open-before-R781.md)，内接R777/R779/R774及全部较早归档。旧run/source/artifact/阶段SHA均在正式结果和此链；已成数学不重跑。
+最新完整旧H/open分别存[before-R780](notes/2026-11-14-public-handoff-before-R780.md)、[before-R780](notes/2026-11-14-open-before-R780.md)，内接R777/R779/R774及全部较早归档。旧run/source/artifact/阶段SHA均在正式结果和此链；已成数学不重跑。
 
 ## 当前实际计算与直接续点
 
@@ -18,19 +18,15 @@
 - R777按原R775配方准确生成qY0..142基：82E1整数有限常数和、全部126半trace/40det、block79无进位低乘、每权82^w尺度。H³只读R774前两块及14个原行尺度，694×694 Q矩阵/Dixon解14 RHS，准确AX=I后原坐标82^6ρX；原membership与R778注入给全球等式。不把模核/坐标冒作y。数千stage清单gzip仅artifact、小cert存SHA；逐原行断点。根/代理已读全源码/方法与原schema，官方flint0.9接口已核，未本地运行数学。
 - **R774已成/167165de**：run43631427773/source93056f04536e61ccdd486674003b4d1380a27475，24.706959837秒；真e1、H³至qY820全560坐标/26块/108stage，D289bits且v739(D)=0，原模型分母2^24·3^1260。certaea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59、artifact14128247134；完整原尺度和输入SHA见结果。旧manifest位置失败在core前，已修，数学未重算。
 - **R778已证/742daa96，排版dde6a7d9**：20cusps的原norm n±和Galois m^-1作用给单L轨道，仍保M/L40完整坐标。原L系数A/B只须143个Laurent项−e..142−e准确零，便A=yB全球；kernel308/rank2720。基q142、h426+e，实际e1只Q427，旧R745800足够。M2/M6/M12完整40坐标前缀13/41/82注入。最终$/$$版SHA b23357b3fa74773c1ee45c1740b988ee9d7c96a658d5cdec99881947faf8c727，R777绑定此版。
-- **R781本次已证**：原g=[[-1,40],[0,1]]=−diag(1,−1)T^-40给σ−1(a_n)=ξ^(20n)a_n；v=ξ^-10u使同一原系数入M+=L(ξ+ξ^-1)，degree20/L、280/Q，整数Chebyshev转换无1/2。原H³=Σκ_jv^j、κ=κ1非零，v=κw后R0=1、(R−wR′)^3=Ã(R²−c*w²)²，Ãn=κ_(n+1)κ^(n−1)、c*=246^6bκ4，Rn=残差/(3n+1)，无需κ逆。全部143行清为246³κ^(n+2)A_n+Σκ^jR_(n−j+1)B_j=0，2860×3028 L、rank2720/kernel308；任意非零候选准确全代回才是原y。证明SHA152c723da76b5c899b433db640fb6ac69082b46543f3d6bfa85d1cead7d78de0。λb整基/primitive向量×ρ及明确整数分母界保留；global正在实现实际递推/核，未预称数值。
+- **R781已证/6bed37d9**：原g=−diag(1,−1)T^-40给v=ξ^-10u下M+=L(ξ+ξ^-1)，20/L、280/Q，整数Chebyshev无1/2。原H³首κ非零，v=κw后R0=1、(R−wR′)^3=Ã(R²−c*w²)²，Ãn=κ_(n+1)κ^(n−1)、c*=246^6bκ4，Rn=残差/(3n+1)，无需κ逆。全部143原行化2860×3028 L，rank2720/kernel308；准确全代回才认证y。证明SHA152c723da76b5c899b433db640fb6ac69082b46543f3d6bfa85d1cead7d78de0。global正包装独立Laurent core：只用已成R774可立即与R775并行；λb整基、primitive280向量×ρ及逐阶状态，根已核打包和缓存，尚无实际结果。
 
 ## 已完成原p41输入，不重复
 
-R735/R738/R745原模型、拓扑及六Hodge800全部完成，具体坐标/所有SHA见正式结果和归档。保b=r0⁶、L/K度7、M/L40、αs、CRT6逆相位、ζ²一次、微分246、c1=4424、c0[2876,2822,2823]，不得重新挑目标或相位。
+R735/R738/R745原模型/拓扑/六Hodge800、R754全部period/Hom核及800×6闭链、R759完整Z格rank12/O_K6与选index4 degree1206均已完成；非全局minimum。保b=r0⁶、L/K7、M/L40、αs/CRT6逆相位/ζ²一次/246、c1=4424/c0[2876,2822,2823]，所有run/artifact/stage SHA见正式结果及归档。
 
-R754run43620862489给原完整period/Hom核及800×6闭链全核；R759run43625474728给完整Z格rank12/O_K6、原Ω/正定/ζ/exact LLL，选index4、degree1206非全局minimum。artifact14125735974/14125233728，原微分坐标全保，SHA见正式结果。
+R762 v2/bbb8fd2e保原μ3商Y genus127、t degree820、u=Q³及原x/h恢复；R764全部十九树边/20cusps/c0标签准确零，完整整数格fP=f0/全部cuspsO。R767 M2正常生成/八椭圆主部给M6/M12维694/1514；Dstar=t²Δ、div2(t)0、cusp−1/6912。R769完整空栈385事件证明无非零degree≤693，故≥696；此有界项关闭，不扩可选SVP。
 
-R762 v2/bbb8fd2e原μ3商Y genus127、deg t820、qY=Q³及原x/h恢复均保；旧未推稿不可覆盖。R764run43626804312全部cusp/c0标签和十九树边period准确为零，完整整数格fP=f0、全部cusps送O，artifact14127135207。
-
-R767原M2维146正常生成，八个椭圆主部给M12维1514，Dstar=t²Δ的div=2(t)0/cusp常数−1/6912。R769run43628341694完整385事件/空栈/唯一零叶，无非零degree≤693；R764使degree为3倍故≥696，非minimum或排所有特殊小除子，此有界项关闭。
-
-R771/6e1b3ab9实际run43628998192，301.12633604秒，M2/M6/M12=146/694/1514、模739原minor550/206/140，普通乘积维146/418/690/962/1234/1506；artifact14127715743，85旧stage/recipe直接复用，尚非K基或准确长表。R772/b63e636b原GL2半线性trace给K基，cusp仍M，零平移使y∈L(Y)；全核308/rank2720，原M78微分恒等式为备用全局验证，优先R778短界。实际函数/β/高度仍缺。
+R771/6e1b3ab9 run43628998192，301.126s，M2/M6/M12=146/694/1514，minor550/206/140 mod739；artifact14127715743、85完成stage直接复用。R772 det半线性trace给K定义基，零平移使y∈L(Y)，cusp仍M；kernel308/rank2720。原M78微分恒等式界10660仅备用，优先R778短界。实际函数/β/高度仍缺。
 
 ## 原ordinary最新结论
 
@@ -44,7 +40,9 @@ R773/a668c4a1给无条件rμ(cs)=9；b≠0时完整EV的原us/cs/y格与二维so
 
 R776/4756ddd2（b≠0）真实global Kummer除法cochain减diagonal Hy，原q quadratic/f=s32给Iα/ε=32(1+i−18ibη)。所以18b Reη=1、Iα/ε=32+17b Imη=21σ₂+2bJ；flat η→η+8i复现7εb及原参考，ηI/σ₂/J/b未求。
 
-**R779/86b22789（所有b）**：指定nR=−in+(11/2)u无条件Γ/S不变且τ-real；全局和局部无μ43使H¹/H²下降项均零，唯一下降真Σ支持dR。Ucan=−4n+(5+21i)u、full-divisor Bockstein给dR=(9b/4)dq+B_Rd0，b0也适用。原dR,p=B1 b1+B45 b45满足b=−3B1−5B45、Ω₂/ε=22−8B1+B45。b≠0时dR=(9b/4)(dq+ηI d0)，I0/ε=32+25B1、Iα/ε=32+3B1−8B45。实际两B未求；原cs指定导数向量+已知u需86×2方程、varpi_s1938。R704原43Gamma embeddings对integral field坐标精度已够，但不提供cs值，不混multiplicative tensor。R780接快速原cs输入，不枚举巨大q-torsion。
+**R779/86b22789（所有b）**：指定nR=−in+(11/2)u无条件Γ/S不变且τ-real；全局和局部无μ43使H¹/H²下降项均零，唯一下降真Σ支持dR。Ucan=−4n+(5+21i)u、full-divisor Bockstein给dR=(9b/4)dq+B_Rd0，b0也适用。原dR,p=B1 b1+B45 b45满足b=−3B1−5B45、Ω₂/ε=22−8B1+B45。b≠0时dR=(9b/4)(dq+ηI d0)，I0/ε=32+25B1、Iα/ε=32+3B1−8B45。实际两B未求；原cs指定导数向量+已知u需86×2方程、varpi_s1938。R704原43Gamma embeddings对integral field坐标精度已够，但不提供cs值，不混multiplicative tensor。R783接快速原cs输入，不枚举巨大q-torsion。
+
+**R780本次已证（b≠0）**：完整ordinary T norm像NT E_M=O[Γ,S]cs+O[S]us，EV商恰k、原y为生成元；用真实类transfer=0、H¹(T,E_M)=k及unit Herbrand1，不混field norms。原n/u均在xzX42(E_M/p)，给实际Ln/Lu∈X42E_M且三Norm严格0；因此R766的xzX41深度及第三Norm条件对整个ku⊕kn自动，不能定η，不替原primitive/J相位。证明SHA7d85e0522d2b7c091d8c38c3701c0672f28f504dac714f72c23529f8a4a6f870；实际cs局部值/B1/B45仍缺。
 
 ## 全p sigma与真正高度缺口
 

@@ -305,3 +305,5 @@
 - **R777（运行前工程，未触发）**：[准确短K基与原H³坐标方法](notes/R777-exact-short-K-basis-and-Hodge-coordinates-method.md)。按真R775配方生成char0 q142、82^weight整数尺度，原H³只读R774 q0..41并用694阶有理系统/14 RHS准确解；完整40坐标、原相位和143项后续验证均保。pending输入请求存非触发路径，R775真实成功后填绑定再运行；core4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a，未预称实际基表/坐标/函数。
 
 - **R781（已证明）**：[原切向下降与无逆Laurent关系](results/R781-original-tangent-descent-and-inverse-free-Laurent-relations.md)。真实行列式−1元给v=ξ^-10u下M+20/L的整数Chebyshev下降；原H³首项κ换参后逐阶只乘域元素、除3n+1，无代数κ逆。全部143条原关系准确化为2860行/3028未知，保rank2720/kernel308与最终全代回；λb整基及完整普通分母界支持实际断点计算。原函数/β/高度尚未输出。
+
+- **R780（已证明，b≠0）**：[完整普通T范数像与自动深T条件](results/R780-exact-ordinary-T-norm-image-and-automatic-deep-T-condition.md)。真实ordinary transfer和unit Herbrand商给NT E_M=O[Γ,S]cs+O[S]us、EV商k由原y生成；指定ku⊕kn全部在xzX42(E_M/p)，显式ordinary原像三Norm严格零。因此第三Norm及原xzX41深度均不限制剩余η，不替原primitive/J相位，实际cs局部两坐标继续。
