@@ -15,3 +15,5 @@
 - 2026-11-14 18:11:56 UTC，Astra-new-mechanism-9974ea84：部署recovery_development唯一lane，先核三份已全文审源码SHA，再运行Gamma Node证书壳、已过人工height helper、尚未完成人工回执的bounded-height check-only。所有输入均为小人工数组/人工几何载体或自由代数，不评价研究候选、不施步；bounded静态核不冒passed。共享workflow仅增该10分钟步骤/枚举，publisher加人工诊断标签；原entry run43622984979继续，不取消或重复。标准publisher执行真实pull --rebase核双README，保全部输出。首次API树准备因H将超10KB主动中止、没有更新ref；已压缩重复摘要后重新提交。
 
 - 2026-11-14 18:18:54 UTC，Astra-new-mechanism-9974ea84：发布R71真实第三holonomy与完整P1公式。root/source全文核，root另重读R45并补I→I倒行frame/中心线/同k标量端口；对称词及整体M0倒行准确实现双线性矩算子的第三交换子，无渐近余项。给r0/r1严格非零例，未声称响应全函数满射或P1/P0/完整族已解。公开entry实际失败与recovery开发pass已读，H同步记录并归档此前全文；实际审计单独成稿。继续新入口真实审计和P1匹配。
+
+- 2026-11-14 18:19:55 UTC，Astra-new-mechanism-9974ea84：发布entry_paired_audit run43622984979完整实际审计。94源按准确提交逐路径Git blob继承/变更字节SHA绑定，3原输出/完整canonical/162 binary64与分数/5 frozen metric/234 c0逐项核；source独立核，root核原JSON和审计全文。ell=.162初态失败：121×768 η79.34144628、κ226.7835、h=.387753718，总cost55.14953；61×192曲率样本更高295.24，绝非上界收敛。入口外五导数逐位不改，只共同升高.3355229824；strip与尾误差不变。五同态评价精化及Π高jet差完整保留，必要高度筛转正不算reach。下一唯一ell=.081与同ell bounded，两新场各至多一次B7实际提案，禁止原样加旧250预算。真实Actions pull至f6d1ee57，双README无差；API写入仍非本地pull。

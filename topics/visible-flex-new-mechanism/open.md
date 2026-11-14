@@ -331,3 +331,7 @@ recovery_development已部署：Gamma Node IO、height helper和bounded参考全
 ### O4 的 R71 更新：真实第三控制已可精确实施
 
 [R71](results/R71-third-holonomy-commutators-and-complete-fourth-P1.md) 给内部M0桥的第三T进入全部phase第四P1的准确式，并用同端I的对称词与真实倒行准确实现2t[P(f,Qgh)−Q(f,Pgh)]；八矩基至多28个方向。r0/r1的对角为−2t/3∫q''³，对任何非零右零collar q不恒零。下一求固定局部drift、基准桥T与这些真实可达响应的**整个函数**匹配；不以有限采样rank代替函数满射，不忽略控制改变P0。ruling、有限等距族、高阶收敛及完整宏观几何仍未付。
+
+### O2 的入口真实审计更新：ell=.162 失败，转短入口和有界参考
+
+[完整审计](notes/frame-entry-paired-repair-actual-audit-20261114.md) 已核run43622984979的全部源/原输出/旧162系数/完整g/c0；表示改变得到新场，不是同场精化。121×768 η79.3414、κ样本226.7835，61×192另有295.24，cost55.14953，入口速度最高7.576。入口外所有五导数未改善，strip及尾patch缺陷继续。下一只试ell=.081 paired与同ell bounded，先同态评价，再各至多一次保明确阈值与系数盒的B7提案，实际重新构建几何；不以大帽高、局部首项或稀疏近零替代完整度量/嵌入/reach。
