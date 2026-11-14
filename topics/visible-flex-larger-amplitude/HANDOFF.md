@@ -14,7 +14,7 @@
 
 ## 原输入与唯一接受源
 
-仅大核开放前缀 notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz 接受，SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff。M96/N1024、423nodes，RMS5.45704e−7/BC3.47e−18；材料C²三分量5.77368e−7非operator，κ6.30138、rho>.16385011989、G≈.96000098。它不是闭面；.996/.9975虽BVP接受但metric4.605e−6/8.087e−6失败，.997875失败，勿重跑旧分支。
+仅大核开放前缀 notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz 接受，SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff。M96/N1024、423nodes，RMS5.45704e−7/BC3.47e−18；材料C²三分量5.77368e−7非operator，κ6.30138、rho>.16385011989、G≈.96000098。非闭面；.996/.9975 metric4.605e−6/8.087e−6失败，.997875 BVP失败，勿重跑。
 scalar .99接AngleConnector/coast/finitebridge至r=.3，end2.271004035438285；3控制支撑prefix。现M112/T112/N2048，96仅初猜。v3维453=338physical+112core+3p、left341/right112，前3core固定；finiteGauss返回ap/app不冒字面导数。
 request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初col=.00711059507774449非解，SHA0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714。原完整FD9.51769e−10。
 真T112零锚已付1351.74s：338×112 J、577×224states/full audit、resid0；J-second1.524e−12、ready差.035157884。bundle6b4ff3e5…/anchor e788a28d…/config01930f3b…全SHA由原源/notes硬绑定。严格七件cache仅同源/config/ready/capacity/rawState、exact H=0且audit=False首请求；新H/最终audit真worker，T96不替112，非零跨进程不冒同predictor。
@@ -28,7 +28,7 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 λ270/200 LSMR80步istop2；C-Hildreth200未收敛，118负slack经.7538402992径向修成全正(min1.249e−16)，同f线段τ1。gdot−.7367477675/模型Delta.4609612920，完整gradient275926/零dual E522190不冒QP最优。R267可用同模型raw完整gradient345.4571给另一证据点，29未算新比例。
 实际α1/64全部原node/mid/两RMS/rho过，同一固定权重merit44.382936021255084→44.37120458393527，drop.011731437319816962/ratio1.0217222253。col.007110441077777405/BC8.857150198345718e−8仍非解，native0。新warm `notes/public-actions-43612331803-1-observedseven/observed-seven-warm/warm-001.json.gz` SHA f2e999e7c61d28683dc09adf387e0867b2dd36d271ebe0433fafbec68466fbd9；status a24ebbe3d39d64d7676754c67fc56589652bf6fcd31c93c7eca97e1641bebde4。新完整Rφ FD9.265212545800078e−10过原5e−5，112 H保留（首项2.3206841035345475e−14）。不同模型权重刷新，merit不可跨轮相减。
 最近拒绝1/32仅原midpoint473，s1.2018391887397941，finite middle/非finite RHS、β²10角负/min−.1615288168在index22；七RMS全角正。1/8、1/4还坏mid477，其他更大步坏点详原件。9条observer finite/vector字节未变；16 NPZ/48原数组核，无附加异常；未重算wholeflow/J。
-30/fullhprojection已实际运行43614132961/source8ed43e0b/job132505423542；同29父warm/status，原C方向作同f后备。helper d5e9432e…/warm8fb6411e…/FDa24f2e52…，全H仅C预条件，≤32工作行/34全局基/1200 H动作，重读原梯度/R267证据。总1200s/H600s/留trial180s。另一支九query=七原left-RMS+actual mid473/477各2048；state.middle/problem.mid原字节、完整两端J/P及core/p链，复用11node捕获。均保原observer/17trial/全部域与新FD，无native或QP最优冒称。
+30/fullhprojection已实际运行43614132961/source8ed43e0b/job132505423542；同29父warm/status，原C方向作同f后备。helper d5e9432e…/warm8fb6411e…/FDa24f2e52…，全H仅C预条件，≤32工作行/34全局基/1200 H动作，重读原梯度/R267证据。总1200s/H600s/留trial180s。32/mixedquery已接推送：七原left-RMS+actual mid473/477各2048，源34115f81…/warmd74d7a1c…/FD5c871d96…。state.middle/problem.mid原字节，完整J/P/core/p，复用11node。均保原observer/17trial/域与新FD，非native/QP最优。
 
 ### Native：28完整原线性缺陷已保，接同矩阵带pivot重解
 

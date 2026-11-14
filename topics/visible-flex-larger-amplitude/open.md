@@ -87,3 +87,6 @@ request30/fullhprojection已接推送：actual29 warm/status双SHA锁定，同�
 
 
 request31/nativeband已接推送，见[保存全系统带状重解接口](notes/2026-11-14-native-captured-band-correction-interface.md)。仅消费actual28全J/r/原δ/σ/边界，原σ缩放后pivot band解，保原最坏行精确rational、全部新旧缺陷与新最坏行精确见证；不重复J/native/旧trial，不报非线性接受。输入完整artifact独立下载硬核，只复制小回执，所有大阵仅artifact。30完整H比较实际run43614132961仍在跑，另九query接actual29同父场。
+
+
+request32/mixedquery已接推送，见[九query原中点接口](notes/2026-11-14-nine-query-original-midpoint-projection-interface.md)。同actual29父场，保七原left-RMS全角块，加真实mid473/477各2048；直接原middle/mid与完整J/P链，复用同11node无第二全J。原C方向算法、17原试步/全部原域/observer/新FD保持；与30完整H分支独立比较，不预设大步或接受。

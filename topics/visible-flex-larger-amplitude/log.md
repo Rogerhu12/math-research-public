@@ -721,3 +721,8 @@ run43611175099/source6bd52b44/job132496373274诊断全success；artifact14120548
 ### 2026-11-14 request31：同一保存原native系统的带主元重解
 
 源b39e9dd9…/下载器523ba20e…与接口已静态核、完整输入硬锁28；仅复用原全J/r/δ/σ/边界，按cut→stage→far组129248维带阵kl112/ku335，用原σ显式行列尺度和dgbtrf/dgbtrs。先保原最坏行exact binary-rational，再重解回原方程全行读回并核新最坏行；形成/恢复舍入单列，不冒精确缩放或native接受。无新J/ODE/seed/H/非线性trial。公开artifact14120548264完整235561097B/ZIP0ff8e6f5…在Actions以只读token取到独立RUNNER_TEMP，完整元数据/ZIP/chunk核后只复制小回执，避免重复大包；新大阵仅artifact。30实际run43614132961/source8ed43e0b/job132505423542进行中。
+
+
+### 2026-11-14 request32：同actual29父场的九种原查询网格
+
+三源34115f81…/d74d7a1c…/5c871d96…及接口全文读/AST与字节核；原七RMS块原样复用，新增actual29真实失效mid473/477各2048角，共18432行、同全236036坐标/local3721和11node捕获。基点直接原middle/mid，完整Γ(.5I±hJ/8)及h(ΓPL−ΓPR)/8+Π，/S一次，9 typed query不与7 capture interval混。所有导出/complex-chain/试步各带kind；保原C Hildreth/同f方向选择/17原试步/全域门/observer，随后新完整FD。不同于30完整H比较，两者都来自actual29并独立执行；无native/BVP接受。三lane名单、准备/父场/FD路径/YAML均核，不本地科学运行。
