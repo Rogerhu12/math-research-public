@@ -247,11 +247,12 @@ R572全ΛB/ΛP、原五变量arith式、g5对(c,v)测试的提取和简单极点
 
 ### R574：九坐标实际惰性成本
 
-[R574：真实九坐标惰性全jet包络与积分分母成本](results/R574-nine-coordinate-inert-envelope-and-primitive-denominator-cost.md)：七个V的真实短分母段在任意原混合乘积中损失至多Γp(6k,min(D,k))；与原高度二Gauss合并，对全部D/k和同一饱和前缀给惰性3klogk+3klogmin(D,k)+O(k+D)。新增成本保留，严格门/条件cutoff均未当实际改善。 **待做：** 原算术条件下同一九格的惰性严格增益；R579已支付普通全饱和3klogD，门为aI+9bI<21，当前(3,3)未过。条件性全jet cutoff须实际支付，原M的有限低行不自动扩大到这九个坐标。
+[R574：真实九坐标惰性全jet包络与积分分母成本](results/R574-nine-coordinate-inert-envelope-and-primitive-denominator-cost.md)：七个V的真实短分母段在任意原混合乘积中损失至多Γp(6k,min(D,k))；与原高度二Gauss合并，对全部D/k和同一饱和前缀给惰性3klogk+3klogmin(D,k)+O(k+D)。新增成本保留，严格门/条件cutoff均未当实际改善。 **待做：** 原算术条件下同一九格的惰性严格增益；R579已支付普通全饱和3klogD，门为aI+9bI<21，R583已将当前上界改为(0,3)，仍未过。条件性全jet cutoff须实际支付，原M的有限低行不自动扩大到这九个坐标。
 
 ### R576：原两单sigma完整深补项与三线单位余域
 
-[R576：原两单sigma完整深补项与三线单位余域](results/R576-original-single-sigma-complements-and-three-line-domain.md)：两个完整正交框架支付同一qℓ的所有c/d深补项与双参数首层，原log质量/第七矩均保；全算术分区只余c,d,u全unit的真实三线混合行，保完整两低度张量和四输入伴随，未由局部单位赋中央非零。 **待做：** 同一真实三线余域的全部qℓ及其Rc转置与Nn、Cc/Cd/In的比较；先支付Udeep/Vdeep并域，再保剩余五线域。完整总行共同深项为−In，首层−3λ4K1；不得将β^-n独立n当新的消失关系。
+原Cc/Cd所有n,m、两个完整ββ框架、常数log与第七矩首层及原三线域保[完整前检](notes/2026-11-14-open-before-r583.md)/正文；R582已续付U/V深项。**待做：** 同一个原qℓ的剩余五线行与N、四单深/共同深补偿，β^-n独立n不赋新的消失式。
+
 
 ### R579：九坐标全普通差商范数与真实饱和jet成本
 
@@ -265,3 +266,7 @@ R579完整C^r差商/导数/卷积、下降阶乘所有节点及最高阶乘消�
 ### R582：原Norm2深补项、真实二态与五线算术余域
 
 [R582：原Norm2深补项、真实二态与五线算术余域](results/R582-original-normtwo-deep-complements-and-five-line-domain.md)：全12/84核心与168平方核支付同一qℓ的U/V整个深补项，所有深度保min(n,m)奇偶状态；原S2质量/正确−96六矩与全log首层均在原总行中，五线余域保所有混合cut，未给新态中央赋零。 **待做：** 原N+U5和四单深/−3Icd的真实全arith比较；U5的Rc像只换U+ω²V为U+ωV，可核六线交域和native udeep差支。新S2的t0边界不自动趋零，m1状态必须为1，首层K1系数−9λ4。
+
+### R583：九格原积分共振吸收与真实惰性主包络
+
+[R583：九格原积分共振吸收与真实惰性主包络](results/R583-nine-coordinate-inert-resonance-absorption-and-sharp-envelope.md)：一次p共振分母在同一原因子的六阶Gauss余量内先吸收，未吸收项至少耗2p²次数、所有高幂成本O(k)；同九格全部D/k/真饱和前缀无条件惰性界实降(0,3)。固定Euler基保两个原forcing，未假设分子或中央消失。 **待做：** 真全来源的进一步Gaussian改善，保持aI=0须bI<7/3；或原算术失败→九格完整cutoff。首共振原分子[z^(p−1)]f4、[z^(p−4)]f1并非普通I4/I1，不能凭两个forcing或吸收删掉原mixed条件。

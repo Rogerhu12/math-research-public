@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：cacb137e28d691404a926cc6a375af3a11218bfd；2026-11-14 20:33:50 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：1febbad795f157ac2580d41592e54cadf42440d7；2026-11-14 20:34:33 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推/改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 根规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；文件<5MB、MD/接口单文件<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；19:48:33 UTC实际git pull --rebase重试仍无可用执行环境，随即API核main/两README无变。最迟20:48重试；恢复后先实际pull --rebase核规再接API历史。
@@ -14,13 +14,13 @@
 
 ## 发布、归档、当前分工
 
-R1–363、R365–560、R562–579、R581–582已登记；R364仍开，R561/580/583/584/585进行中。
-完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r582.md)、[open](notes/2026-11-14-open-before-r582.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
+R1–363、R365–560、R562–579、R581–583已登记；R364仍开，R561/580/584/585/586进行中。
+完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r583.md)、[open](notes/2026-11-14-open-before-r583.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
 R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b保持，不复跑。
 root统一元数据/ref，代理只建proof/script/data blobs，结论随成随推。
 
-- theta续R585真实五线域与Rc/naitve补支的同测试比较；R582完整U/V深二态及五线总行已付。
-- literature续R583实际惰性分母/全来源增益；R579全普通九格差商与饱和jet成本已付，不预支算术桥或cutoff。
+- theta续R585真实五线域与Rc/native补支的同测试比较；R582完整U/V深二态及五线总行已付。
+- literature续R586实际同charge forcing/首共振与原算术；R583已将九格惰性包络实降(0,3)，普通全格R579已付。
 - deep续R580实际全双jet forcing/d2及七塔惰性连接；R577/578真整临界基准/全低边界消元已付，R561实际非零仍开。
 - root续R584任意固定长度真实原函数塔、全Dirac jets及同格成本；保原arith桥未付，R581不把cutoff当实际成立。
 
@@ -42,7 +42,7 @@ R490–558旧五伴随/词格/四态/角型/外谱、三环带及全部未付补
 ## 原全条带与当前首行
 
 D=D14=D4+c+(2+3ω)d0，D4=(1,ω²,−2ω,0)，C=(ξ1−ξ3+x)/δ，F=D+C，E=F+13C，G=13H1+(3−2ω)F。D12=F−c与D14不同。µ0=PCρ0、ηC=PCη、µh=ηC+µ0/2；R1是u反射，R1µ0=µ0+ηC。
-R560–572全部整框架/whole核心、三态/两条带、五sigma消元与原测试比较保[完整前检](notes/2026-11-14-frontier-before-r582.md)及各正文。R567原局部残差Nn=β^(n+1)(χF+(κ)+F−(κ))/(bΩ6)，C0/p+λ²C1含真实log质量；d20ab976纠正保持，局部非零不排中央同时零。R569卷积单位/四unit G与qℓ尚非同一测试；条件总质量零不使测度零。R572完整C来源ΛB/ΛP、简单极点单位及g5提取只对指定(c,v)测试，所有混Y/W和q carry保留。
+R560–572全部整框架/whole核心、三态/两条带、五sigma消元与原测试比较保[完整前检](notes/2026-11-14-frontier-before-r583.md)及各正文。R567原局部残差Nn=β^(n+1)(χF+(κ)+F−(κ))/(bΩ6)，C0/p+λ²C1含真实log质量；d20ab976纠正保持，局部非零不排中央同时零。R569卷积单位/四unit G与qℓ尚非同一测试；条件总质量零不使测度零。R572完整C来源ΛB/ΛP、简单极点单位及g5提取只对指定(c,v)测试，所有混Y/W和q carry保留。
 
 R571整个cd深In,m=βnλ2m H(κ^min(n,m),κ^(m−n)+)/(bΩ6)，H=st²K1+s²t²O；K1=12(p−1)Ω²∫E*,A*unit P_D/A*ν4，完整cut/κ^-n不删。
 
@@ -59,17 +59,18 @@ R533/554/540/549完整负矩接口、全部Schwartz/周期/普通地点保前检
 R575七原函数在K=C(z,x,y,ζ,σ)上代数独立；V4,r=z^(2−r)U4,r、V1,r=z^(5−r)U1,r与S/T成同w阶1/3真九坐标。真实C^r分布ρ=Σβnκ^-rn[κn]*(1unit t^-rµf−Iδ0)有全部p^m Dirac几何和；正幂导数使塔core为βκ^-2/βκ^-5，仅原I4/I1两缺陷未由tame消去。I零也不使κn小球增长p^(rn)变成有界测度。完整定义保正文/前检，原中央→I零桥未付。
 
 
-R574同一九格E_D,9的全惰性包络：短分母段给Γp(6k,min(D,k))，合高度二Gauss为3klogk+3klogmin(D,k)+O(k+D)，全部D/k/真前缀同时成立。当前(aI,bI)=(3,3)不进已付严格门aI+9bI<21；原有限M未扩到九格。原保守cutoffθ<6仍正确，R581新累计将条件门改进θ<7。
+R574初始同九格全惰性(3,3)及原短段Γ保持正文；R583现已实际改进，不能再把初界当当前最强。R579全部普通p的真实C^r差商/导数/lattice-path卷积、全节点下降阶乘和最高阶乘约去给Λp(6k,5min(D,k))，全普通3klogD+O(k+D)无I零假设。b17列/行p≠17单位运输，九格严格门aI+9bI<21已付。
 
 
-R579：全部好普通p（非仅ray）原degree6核βp=ξ(p)/barπ单位；正则化真实C^r差商范数≤1，正幂导数及完整lattice-path卷积保持单位界。下降阶乘的全部节点差商估值给同一九格真前缀log||φDk||p≤Λp(6k,5min(D,k))logp，Λ=Σa min(R,floor n/p^a)。最高(6k)!在真前缀准确约去，全球普通3klogD+O(k+D)，无I零假设；b17全部列/行是p≠17单位运输。当前门aI+9bI<21已成同格接口，未付任何惰性cutoff。
+R581截断Γ实际O(DX+k)及完整N_D~D9旗标支付θ<7条件cutoff门；无条件每充分大D有好惰性p>CDθ、原整数P的真饱和层k≥(p+1)/6非整，0≤θ<7。没有原中央失败→cutoff桥；不是具体非零中央证书。
 
-R581：实际截断Σp≤X Γp(n,K)logp=O(KX+n)，九格若p>CDθ全层整则惰性≤3θklogD+O(k+D^(θ+1))。完整N_D~D9旗标的所有跳跃累计支付加项，严格阈值θ<7。无条件反读：每个固定C>0、0≤θ<7及每个充分大D，都有好惰性p>CDθ、真饱和层k≥(p+1)/6与原整数P使v_p([w^k]P(G))<0；没有具体p/非零中央证书。原arith失败→cutoff尚未付，所有低层/同格量词不省。
+R583：保每因子n=6j的Gauss slack6；短段一次p共振n−h=mp,h≤4,n<2p²时floor((n−6)c_p)+1≤floor(nc_p)。其余一次分母次数至少2p²，高p幂全保，整个九格全D/k界floor(6kc_p)+floor(6k/(2p²))+Σa≥2 min(min(D,k),floor(6k/p^a))；全球惰性实际(0,3)，未假设分子整除。真实固定Euler基W4,h=z^h∫z^(1−h)f4、W1,h=z^h∫z^(4−h)f1，(θ−h)W=z^R fℓ，整基det1/1/288；原首共振分子非普通I。现保持aI0仍需bI<7/3，未付改善或arith桥。
+
 
 ## 惰性完整 forcing
 
 p=6s−1>83，Γ=O[w,ε]/(w^s−pε,ε³,w^ell ε²)；原M=c*U0m13J保P134/charge40、十三自由行/两13carry、conductor10980、22纯角/13清极及全部D/q/整性门。R479–555所有十九角、低行/高尾、预算及α/β接口完整保[前一交接](notes/2026-11-14-frontier-before-r570.md)，均未关闭。
-R552/555、一般二重/t除法、S³/H真子核尾带及完整六尾剪切保[完整前检](notes/2026-11-14-frontier-before-r582.md)和对应notes。ell≥3仅在真相对尾像吸收时首剪切成立；ell1/2保2/1真实Bcarry。低ell最近二支r≤ν≤2，T=s−13−r,U=ν−r∈{0,1}；H<2T−U给disc H−U、δ=floor((H−U)/2)+2U，U1保外支交数2。高接触不赋全局新列；原同R/d2与真实命中均开。固定三块平均收益门>3MDlogD，17/36/68非中央Stokes不相消不代中央。
+R552/555、一般二重/t除法、S³/H真子核尾带及完整六尾剪切保[完整前检](notes/2026-11-14-frontier-before-r583.md)和对应notes。ell≥3仅在真相对尾像吸收时首剪切成立；ell1/2保2/1真实Bcarry。低ell最近二支r≤ν≤2，T=s−13−r,U=ν−r∈{0,1}；H<2T−U给disc H−U、δ=floor((H−U)/2)+2U，U1保外支交数2。高接触不赋全局新列；原同R/d2与真实命中均开。固定三块平均收益门>3MDlogD，17/36/68非中央Stokes不相消不代中央。
 
 
 R577/578：低ell1/2、Pbar∈kerJ、r=ν≤2的同预算Euler临界真整提升及全部JA三法向jet已付。首forcing=(πA/p,π(aBξ+S A),aπell S(Bη0))。用原n0/1/2列整消低r边界，核精确为W_D^(r)加r2时≤4条Qn、ell1时再Qquad；不只计维数。完整首forcing iff余下两条长度s−13−r的G_P落同一Dψ像。固定Rbd只由carry α/β给出；所有解临界支pp(v)=pp(α/(aB))、次临界值pp=−½pp(α²/(a²B))，不代d2非零。R577完整p³的二次高尾、同一个R/26carry/原U0全保；r1ν2外支不套用。

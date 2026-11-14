@@ -77,3 +77,6 @@
 
 
 - [R582：原Norm2深补项、真实二态与五线算术余域](../results/R582-original-normtwo-deep-complements-and-five-line-domain.md)：全12/84核心与168平方核支付同一qℓ的U/V整个深补项，所有深度保min(n,m)奇偶状态；原S2质量/正确−96六矩与全log首层均在原总行中，五线余域保所有混合cut，未给新态中央赋零。
+
+
+- [R583：九格原积分共振吸收与真实惰性主包络](../results/R583-nine-coordinate-inert-resonance-absorption-and-sharp-envelope.md)：一次p共振分母在同一原因子的六阶Gauss余量内先吸收，未吸收项至少耗2p²次数、所有高幂成本O(k)；同九格全部D/k/真饱和前缀无条件惰性界实降(0,3)。固定Euler基保两个原forcing，未假设分子或中央消失。
