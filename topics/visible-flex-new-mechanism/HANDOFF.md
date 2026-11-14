@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`a9fb43df97436549dae845a14afbefeca6b223d7`。每次真正pull --rebase后立刻核双README，有变只读差异即执行并记SHA；至少每小时pull。每个有意义结论立即commit/push，NFF立刻pull/rebase核规则再推至成功，绝不force。根README blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后已读规则提交：`3f4a12245977194ec7997a84c49289b4e92fe733`。每次真正pull --rebase后立刻核双README，有变只读差异即执行并记SHA；至少每小时pull。每个有意义结论立即commit/push，NFF立刻pull/rebase核规则再推至成功，绝不force。根README blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有22:02:43 UTC在公开Actions实际partial clone/pull至`7b57afc0a2b3910fca1c21b601ba7b18d1ccc2ae`，双规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**。仅公开元数据；下一私有pull不晚23:01 UTC。回执在actions-43645929555-1-full_m8_tail_response_projection。
 
@@ -53,8 +53,8 @@ R110完整K尾D25=−153664c7/75；R111四平移/保桥基准/Brouwer已付整�
 
 ## 6. 持续推进
 
-1. R119已付静态非负锥的八矩乘子充要门：正配平成本非负恰∃μ使λL0−μm0≥0。对完整真实路径只必要，λ须杀R8；ambient extension差由矩阵乘子吸收，尚无非零完整正泛函。继续R120真实成本闭锥与R121中央补偿联调，未完成不提前报结论。
-2. 已部署static_m8_tail_quotient（ea95f138），只消费local430根与R116完整尾证书，检查G及全部静态系数投影，不重算288列；真实M0约束尚未应用，不冒实际商维数。公开py_compile→7toy→actual，240s/1024MiB，完整残差gz。
+1. R119已付静态非负锥的八矩乘子充要门：正配平成本非负恰∃μ使λL0−μm0≥0。对完整真实路径只必要，λ须杀R8；ambient extension差由矩阵乘子吸收，尚无非零完整正泛函。R120现证所有真实成本非负泛函杀G，R8+RG及其有限仿射轨道在universal闭锥lineality；维≥32。它不授预定窄I、有限半群逆元或全函数控制。接R121中央补偿联调。
+2. 已部署run43648433010/source df535c0c的static_m8_tail_quotient（ea95f138），只消费local430根与R116完整尾证书，检查G及全部静态系数投影，不重算288列；真实M0约束尚未应用，不冒实际商维数。公开py_compile→7toy→actual，240s/1024MiB，完整残差gz。
 3. 已部署curvature_feasible_exchange（库ed77abc3/driver60a3bd66），同g/e407/learned3866，原预算/门不变，先新调度及11输入人工再actual；旧源码不改。
 4. continuation最多两lane；所有输入有SHA/run/source绑定，publisher真实pull核规则、gzip后<5MB、NFF循环。新static lane同job再次私有actual pull/QUEUE核对；完成回执到前仍以22:02/23:01期限记账。
 5. 子题结束接open下一个，不因预算、设施或阶段报告收尾。

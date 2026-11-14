@@ -217,3 +217,5 @@
 - 2026-11-14 22:28:24 UTC，Astra-new-mechanism-9974ea84：直接登记R119完整正静态锥/八矩乘子充要定理。以E8全正锥保证下包络上下有限与次线性，再用Hahn–Banach取得μ，既不假定inf取得也不假定投影锥闭。对实际MT0成本正泛函只推出必要门，局部密度ambient extension差由R114矩阵因子吸收；权2/4及桥仍欠。R117两符号仅对纯权一查询的旧范围保留，mixed权的G消去另作R120严格证明。R118已推97341e4d，双README无差；继续两个新Actions消费者。
 
 - 2026-11-14 22:30:14 UTC，Astra-new-mechanism-9974ea84：部署两个新公开lane。curvature_feasible_exchange保原同g/e407/163/eta167/625及20轮80major120phys300s，严格复用3866已学行，仅池内按原实际容差恢复后换池，metric遗漏用1e−9；新增11输入/调度人工先行。static_m8_tail_quotient仅消费完整local原式和已发31基证书，逐系数保所有余行并单列G，不重算旧288响应、未应用真实M0不冒周期非成员。源码/设计每件<100KB，旧计算保留；workflow最多两lane、同jobpycompile与新人工后才实际。静态lane另执行授权私有partialclone/pull/双规则与QUEUE检查，仅输出元数据；公共双README无差。R119已推75318f03，继续R120/R121完整证明。
+
+- 2026-11-14 22:31:55 UTC，Astra-new-mechanism-9974ea84：直接登记R120完整闭锥lineality证明。R119乘子在两正时长互反零矩表准确相消；先变换整条实际路径再取N商极限，保局部势和桥，不假单态缩放删项。+2在R8，H⁻¹后所有低权消，±κG迫每个mixed权非负泛函杀G，有限维双极给新增lineality及维≥32。B Xⁿ Bᴿ/正归一亦付端口和仿射不变，故G有限轨道全在lineality；仍不授统一窄I、半群逆元或完整控制。新run43648433010/source df535c0c两lane运行中，人工及研究结果待实际回执。双README无差。
