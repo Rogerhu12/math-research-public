@@ -74,3 +74,6 @@
 
 
 - [R581：九格截断分母成本与大惰性素位强制非整](../results/R581-nine-coordinate-truncated-denominators-and-forced-large-inert-jets.md)：原短分母在p≤X的真实成本仅O(DX+k)，完整九维饱和旗标将条件cutoff阈值改进θ<7；无条件每个充分大D均有p>CDθ和真层k≥(p+1)/6非整。未证明原算术失败蕴含cutoff，不以存在的非整jet代中央非零。
+
+
+- [R582：原Norm2深补项、真实二态与五线算术余域](../results/R582-original-normtwo-deep-complements-and-five-line-domain.md)：全12/84核心与168平方核支付同一qℓ的U/V整个深补项，所有深度保min(n,m)奇偶状态；原S2质量/正确−96六矩与全log首层均在原总行中，五线余域保所有混合cut，未给新态中央赋零。
