@@ -59,3 +59,5 @@
 - [R27：D0方程在L简单零点的C3续解唯一性](results/R27-simple-L-zero-C3-phase-rigidity.md) — 不预设接点四阶导数，先由无log发散强制相容式，再用全负Euler谱无权收缩证明全部共享C3 jet的续解自动解析；实支不能在简单L零点启新相位。高阶/全平退化尚待处理。
 
 - [R28：正交切向框架重构及固定度量误差界](results/R28-orthonormal-frame-reconstruction-and-metric-bound.md) — 准确单位正交场的三分量积分性给周期位置；全角残差ε使最大相对度量误差≤2e+e²（e=πε/2），e<1保证浸入。另给真实曲率上界、零framing标量lift及两侧高阶接口要求；非线性连接器存在、嵌入与reach仍未支付。
+
+- [R29：实际D0方程的C4相位刚性及双外尾排除](results/R29-C4-profile-phase-rigidity-and-two-tail-obstruction.md) — C非零处任意单侧C4续解不能从实三阶jet开复相位，涵盖任意阶/全平L退化。配合两简单非零四阶外尾及C至多四次，完整有限分片C4类必恒相位，与第一复总矩矛盾。仅C3且q4无有限极限、其他外尾/机制仍开放。

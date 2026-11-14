@@ -6,7 +6,7 @@
 
 闭连通 C2 嵌入族 Ft、时间 C2 连续、同一固定 g；固定材料开集 H 且 diamH≥.2D；不对齐的真实像集 Hausdorff 位移≥.3D；全域全时 reach≥.03D；最大相对 metric≤1e−6，且同 g/物理参数/时间加密改善；完整小网格、复现及严格存在性差距。D 是初始完整曲面直径。δE 可为0但须如实报。达标后继续 .5D 或更强存在性。
 
-- 根及本题 README 已完整读。公开仓库最后已读规则提交：`124107a85661e0f5815448db5ba3528945e0f059`；环境恢复后于12:58 UTC前已实际CLI pull，根/本题README相对最后已读版本差异为空。
+- 根及本题 README 已完整读。公开仓库最后已读规则提交：`1ebbf4d53ce24dadfd6075de384351c490dd2917`；环境恢复后于12:58 UTC前已实际CLI pull，根/本题README相对最后已读版本差异为空。
 - 每次 pull 后只读这两 README 新差异并立即遵循，至少每小时 pull。每结论提交推送；NFF 立即 pull --rebase 并循环推送，不强推。
 - 作者指定 QUEUE 已置进行中。私有仓库于12:58 UTC前已恢复实际CLI pull，根规则diff空；队列唯一匹配行仍为本会话进行中。私有研究内容不发布。
 - 研究计算只用本公开仓库自己的 Actions。令牌仅瞬时命令行认证，不入文件。根 LOG 不写；共享 workflow 理由记本题 log。HANDOFF<10KB，其他 MD<100KB，数据>1MB压缩、单件<5MB。
@@ -50,6 +50,8 @@
 
 - R28：单位正交frame的三分量积分性R给准确周期重构；e=π||R||∞/2时最大相对metric≤2e+e²，e<1只给浸入。Rs及框架一阶场可界真实主曲率；完整连接器存在仍未证。负K径向种子、真实双侧端口和γ5高阶需求已推导。
 
+- R29：实际八系数L保二次，C非零处所有单侧C4实三jet续解皆实解析，含任意高阶/全平L；两简单四阶外尾保护至多两个内C根，故完整有限分片C4类恒相位，与第一复总矩矛盾。停止该完整类的参数拟合；仅C3的q4无极限、退化/全平外尾及零算子另查。
+
 ## 最新实际计算
 
 共享 `.github/workflows/visible-new-mechanism-search.yml`，最多2并行、每job≤50min；publisher只写本题小输出，receipt含输入SHA，每次rebase核README。成功状态不等于数学通过。
@@ -65,4 +67,4 @@
 
 旧失败输入均有原始输出及actual-audit notes，勿原样重跑。ellipse_cont/ellipse_phi仅接受圆t0，最小非圆步metric约.001258/.000621；inward_fixed/gc4的metric约1且曲率巨大，官方日志确认共享40min超时造成第二表示无完整输出，不是数学排除。旧Cartesian偏心/core-tail、R44 ruled-tail和文献bump/Newton均未通过完整metric/周期；局部二jet或缩ε不补全它们。
 
-warped_collar43595305950在150nfev内实际失败，fine metric=.9999665/κsample70270；R23独立以link排除已认证基线平圆领目标。R24同样排除当前sin星核。新cos首轮因严格曲率必要界被否决，下一步以尖谷q_ell零消元及出口转向空间设计新的准确零framing核心，再重新支付连续局部/全宽单射/双侧连接/完整reach。文献只在D0及实际几何可实现范围研究变号、退化或零算子例外。保持本文件与open/log/notes最新；主README全部门通过前不收尾。
+warped_collar43595305950在150nfev内实际失败，fine metric=.9999665/κsample70270；R23独立以link排除已认证基线平圆领目标。R24同样排除当前sin星核。新cos首轮因严格曲率必要界被否决，下一步以尖谷q_ell零消元及出口转向空间设计新的准确零framing核心，再重新支付连续局部/全宽单射/双侧连接/完整reach。文献只在D0及真实可实现范围研究R29未覆盖的正则性/外尾、局部物理根门和零算子例外。保持本文件与open/log/notes最新；主README全部门通过前不收尾。
