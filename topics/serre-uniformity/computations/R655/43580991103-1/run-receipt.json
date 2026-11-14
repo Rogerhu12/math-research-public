@@ -1,0 +1,1661 @@
+{
+  "result": "R655",
+  "exit_code": 0,
+  "complete": true,
+  "error": null,
+  "disk_ids": [
+    "SS_j36_06",
+    "SS_j36_02"
+  ],
+  "initial_bits_each": 1,
+  "initial_geometry_repeated": false,
+  "work_directory": "/home/runner/work/_temp/R655-true-CM4-cw2n8mww",
+  "execution_environment": "public-repository-github-actions",
+  "source_commit": "c52ae41986e6f8d0714f897c2c62e1761da73c33",
+  "runner_workflow_commit": "c52ae41986e6f8d0714f897c2c62e1761da73c33",
+  "driver_sha256": "950b8674d57e0e71c4d53b4ad5afd0d03baaceaaef7d7138b0e892a92c828aae",
+  "input_archive_sha256": "8d225fffe59932732aa9dce86cfa036aaa490d5e53e3da8e6d41fc7754be0d3e",
+  "elapsed_seconds": 364.082,
+  "stages": [
+    {
+      "stage": "continue_both_original_chains",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_SS_Abel_with_transports47.py",
+        "--script-dir",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts",
+        "--SS-atlas",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_rational_SS_residue_atlas47_complete.json.gz",
+        "--common-based-points",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_all19_based_points47.json.gz",
+        "--based-points",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_true_CM4_two_based_points47.json.gz",
+        "--workdir",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/work",
+        "--transport-dir",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/transports",
+        "--disk",
+        "SS_j36_06",
+        "--disk",
+        "SS_j36_02",
+        "--max-bits",
+        "304",
+        "--tiny",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_all129_tiny_Abel47_complete.json.gz"
+      ],
+      "source_sha256": "754d36c59a19a6c9c04cb779084d3b2a7f0ceedffefdffc2c32ce6f226ced613",
+      "exit_code": 0,
+      "log": "continue_both_original_chains.log",
+      "outputs": [
+        {
+          "file": "CM4-initial-prefix/work/SS_j36_06_Abel47.json.gz",
+          "sha256": "d1f222f872fd8c04db8bfa9ba8cc4f09cd683d54364e848de49b881c34aaf30c",
+          "bytes": 442780
+        },
+        {
+          "file": "CM4-initial-prefix/work/SS_j36_02_Abel47.json.gz",
+          "sha256": "b6f68ce77aef1f556aa6090537394426068b868ae4f5dc235c1f0dcb2cc7a057",
+          "bytes": 442906
+        }
+      ]
+    },
+    {
+      "stage": "SS_j36_06_actual_terminal_and_nu",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_SS_second_kind_from_principal47.py",
+        "--script-dir",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts",
+        "--based-points",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_true_CM4_two_based_points47.json.gz",
+        "--second-kind",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_second_kind_connection47.json.gz",
+        "--Abel",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/work/SS_j36_06_Abel47.json.gz",
+        "--multiplication",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/work/SS_j36_06_multiply47.json.gz",
+        "--transport-directory",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/transports/SS_j36_06",
+        "--build-dir",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/native-terminal-SS_j36_06",
+        "--output",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/SS_j36_06_actual_second_kind_integrals47.json.gz"
+      ],
+      "source_sha256": "cdafcc136ae0384d382246794ba61c1968eb6fc322b0bd5b861c3c08e88ee4ba",
+      "exit_code": 0,
+      "log": "SS_j36_06_actual_terminal_and_nu.log",
+      "outputs": [
+        {
+          "file": "SS_j36_06_actual_second_kind_integrals47.json.gz",
+          "sha256": "081a09e15a0103d394220184a3e9974dfd2227d80d41348d0262b62d8f8d4ee0",
+          "bytes": 594852
+        }
+      ]
+    },
+    {
+      "stage": "SS_j36_06_actual_integer_principal",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_principal_chain_flatten47.py",
+        "--transport-directory",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/transports/SS_j36_06",
+        "--second-kind-certificate",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/SS_j36_06_actual_second_kind_integrals47.json.gz",
+        "--bases",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_hecke3_abel_bases_checkpoint.json.gz",
+        "--output",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/SS_j36_06_principal_expression47.json.gz"
+      ],
+      "source_sha256": "83010dc05acadf5d9c37ffdce3a219114883e672ed5a65573bd8e42a15d7a52a",
+      "exit_code": 0,
+      "log": "SS_j36_06_actual_integer_principal.log",
+      "outputs": [
+        {
+          "file": "SS_j36_06_principal_expression47.json.gz",
+          "sha256": "6e49758f674c5cd6138d922a11414f0735435c21bd169bdea7f895ba342ac9f2",
+          "bytes": 38687
+        }
+      ]
+    },
+    {
+      "stage": "SS_j36_02_actual_terminal_and_nu",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_SS_second_kind_from_principal47.py",
+        "--script-dir",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts",
+        "--based-points",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_true_CM4_two_based_points47.json.gz",
+        "--second-kind",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_second_kind_connection47.json.gz",
+        "--Abel",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/work/SS_j36_02_Abel47.json.gz",
+        "--multiplication",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/work/SS_j36_02_multiply47.json.gz",
+        "--transport-directory",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/transports/SS_j36_02",
+        "--build-dir",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/native-terminal-SS_j36_02",
+        "--output",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/SS_j36_02_actual_second_kind_integrals47.json.gz"
+      ],
+      "source_sha256": "cdafcc136ae0384d382246794ba61c1968eb6fc322b0bd5b861c3c08e88ee4ba",
+      "exit_code": 0,
+      "log": "SS_j36_02_actual_terminal_and_nu.log",
+      "outputs": [
+        {
+          "file": "SS_j36_02_actual_second_kind_integrals47.json.gz",
+          "sha256": "5c1db42857902d437a801c61cfec22ef5ffcad6d40bdbd524cb74a188b179173",
+          "bytes": 595126
+        }
+      ]
+    },
+    {
+      "stage": "SS_j36_02_actual_integer_principal",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_principal_chain_flatten47.py",
+        "--transport-directory",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/transports/SS_j36_02",
+        "--second-kind-certificate",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/SS_j36_02_actual_second_kind_integrals47.json.gz",
+        "--bases",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_hecke3_abel_bases_checkpoint.json.gz",
+        "--output",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/SS_j36_02_principal_expression47.json.gz"
+      ],
+      "source_sha256": "83010dc05acadf5d9c37ffdce3a219114883e672ed5a65573bd8e42a15d7a52a",
+      "exit_code": 0,
+      "log": "SS_j36_02_actual_integer_principal.log",
+      "outputs": [
+        {
+          "file": "SS_j36_02_principal_expression47.json.gz",
+          "sha256": "7e51ad1bdf0e720b85f4d19975553bd4b1baa25791557c354c59fb23373f3a2f",
+          "bytes": 38652
+        }
+      ]
+    }
+  ],
+  "chain_states": {
+    "SS_j36_06": {
+      "bits_done": 304,
+      "target_bits": 304,
+      "point_sha256": "6f09f8b403ffba8ee66aebc548d176a804ef85d4dbcfa51042873197198f235e",
+      "zero_test_mod47": {
+        "dimension": 1,
+        "kernel": [
+          [
+            [
+              4,
+              15
+            ]
+          ],
+          [
+            [
+              42,
+              29
+            ]
+          ],
+          [
+            [
+              8,
+              5
+            ]
+          ],
+          [
+            [
+              10,
+              41
+            ]
+          ],
+          [
+            [
+              0,
+              37
+            ]
+          ],
+          [
+            [
+              2,
+              46
+            ]
+          ],
+          [
+            [
+              44,
+              6
+            ]
+          ],
+          [
+            [
+              32,
+              3
+            ]
+          ],
+          [
+            [
+              12,
+              16
+            ]
+          ],
+          [
+            [
+              21,
+              37
+            ]
+          ],
+          [
+            [
+              0,
+              40
+            ]
+          ],
+          [
+            [
+              31,
+              34
+            ]
+          ],
+          [
+            [
+              26,
+              11
+            ]
+          ],
+          [
+            [
+              28,
+              25
+            ]
+          ],
+          [
+            [
+              41,
+              43
+            ]
+          ],
+          [
+            [
+              17,
+              0
+            ]
+          ],
+          [
+            [
+              1,
+              29
+            ]
+          ],
+          [
+            [
+              4,
+              36
+            ]
+          ],
+          [
+            [
+              38,
+              24
+            ]
+          ],
+          [
+            [
+              2,
+              12
+            ]
+          ],
+          [
+            [
+              41,
+              1
+            ]
+          ],
+          [
+            [
+              41,
+              14
+            ]
+          ],
+          [
+            [
+              42,
+              29
+            ]
+          ],
+          [
+            [
+              27,
+              32
+            ]
+          ],
+          [
+            [
+              17,
+              10
+            ]
+          ],
+          [
+            [
+              27,
+              28
+            ]
+          ],
+          [
+            [
+              32,
+              22
+            ]
+          ],
+          [
+            [
+              21,
+              6
+            ]
+          ],
+          [
+            [
+              36,
+              37
+            ]
+          ],
+          [
+            [
+              18,
+              31
+            ]
+          ],
+          [
+            [
+              15,
+              34
+            ]
+          ],
+          [
+            [
+              15,
+              42
+            ]
+          ],
+          [
+            [
+              19,
+              26
+            ]
+          ],
+          [
+            [
+              29,
+              42
+            ]
+          ],
+          [
+            [
+              46,
+              8
+            ]
+          ],
+          [
+            [
+              13,
+              24
+            ]
+          ],
+          [
+            [
+              33,
+              12
+            ]
+          ],
+          [
+            [
+              12,
+              36
+            ]
+          ],
+          [
+            [
+              42,
+              4
+            ]
+          ],
+          [
+            [
+              11,
+              43
+            ]
+          ],
+          [
+            [
+              8,
+              41
+            ]
+          ],
+          [
+            [
+              30,
+              2
+            ]
+          ],
+          [
+            [
+              46,
+              31
+            ]
+          ],
+          [
+            [
+              4,
+              30
+            ]
+          ],
+          [
+            [
+              12,
+              20
+            ]
+          ],
+          [
+            [
+              20,
+              8
+            ]
+          ],
+          [
+            [
+              8,
+              4
+            ]
+          ],
+          [
+            [
+              10,
+              24
+            ]
+          ],
+          [
+            [
+              31,
+              6
+            ]
+          ],
+          [
+            [
+              45,
+              38
+            ]
+          ],
+          [
+            [
+              5,
+              28
+            ]
+          ],
+          [
+            [
+              25,
+              27
+            ]
+          ],
+          [
+            [
+              46,
+              35
+            ]
+          ],
+          [
+            [
+              45,
+              25
+            ]
+          ],
+          [
+            [
+              18,
+              36
+            ]
+          ],
+          [
+            [
+              18,
+              32
+            ]
+          ],
+          [
+            [
+              7,
+              19
+            ]
+          ],
+          [
+            [
+              5,
+              26
+            ]
+          ],
+          [
+            [
+              32,
+              13
+            ]
+          ],
+          [
+            [
+              36,
+              12
+            ]
+          ],
+          [
+            [
+              43,
+              14
+            ]
+          ],
+          [
+            [
+              1,
+              16
+            ]
+          ],
+          [
+            [
+              23,
+              30
+            ]
+          ],
+          [
+            [
+              7,
+              40
+            ]
+          ],
+          [
+            [
+              41,
+              45
+            ]
+          ],
+          [
+            [
+              46,
+              2
+            ]
+          ],
+          [
+            [
+              2,
+              8
+            ]
+          ],
+          [
+            [
+              1,
+              13
+            ]
+          ],
+          [
+            [
+              30,
+              14
+            ]
+          ],
+          [
+            [
+              31,
+              36
+            ]
+          ],
+          [
+            [
+              40,
+              24
+            ]
+          ],
+          [
+            [
+              18,
+              46
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ]
+          ]
+        ],
+        "point_pivot_rows_1based": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ],
+        "rank_columns_1based": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72
+        ],
+        "rank_rows_1based": [
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          105,
+          104,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145
+        ],
+        "test_section_1based": 1
+      }
+    },
+    "SS_j36_02": {
+      "bits_done": 304,
+      "target_bits": 304,
+      "point_sha256": "b2d06fd73bba74ddcd0a9faeca5243024a71fdfb59f1bca8f7ed3ed4b88fa4b1",
+      "zero_test_mod47": {
+        "dimension": 1,
+        "kernel": [
+          [
+            [
+              44,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              20
+            ]
+          ],
+          [
+            [
+              12,
+              23
+            ]
+          ],
+          [
+            [
+              35,
+              23
+            ]
+          ],
+          [
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            [
+              22,
+              4
+            ]
+          ],
+          [
+            [
+              42,
+              19
+            ]
+          ],
+          [
+            [
+              39,
+              26
+            ]
+          ],
+          [
+            [
+              19,
+              10
+            ]
+          ],
+          [
+            [
+              28,
+              10
+            ]
+          ],
+          [
+            [
+              23,
+              40
+            ]
+          ],
+          [
+            [
+              24,
+              40
+            ]
+          ],
+          [
+            [
+              5,
+              19
+            ]
+          ],
+          [
+            [
+              8,
+              26
+            ]
+          ],
+          [
+            [
+              25,
+              4
+            ]
+          ],
+          [
+            [
+              29,
+              6
+            ]
+          ],
+          [
+            [
+              2,
+              21
+            ]
+          ],
+          [
+            [
+              45,
+              21
+            ]
+          ],
+          [
+            [
+              0,
+              22
+            ]
+          ],
+          [
+            [
+              18,
+              6
+            ]
+          ],
+          [
+            [
+              37,
+              15
+            ]
+          ],
+          [
+            [
+              28,
+              41
+            ]
+          ],
+          [
+            [
+              0,
+              27
+            ]
+          ],
+          [
+            [
+              6,
+              41
+            ]
+          ],
+          [
+            [
+              26,
+              19
+            ]
+          ],
+          [
+            [
+              16,
+              43
+            ]
+          ],
+          [
+            [
+              42,
+              43
+            ]
+          ],
+          [
+            [
+              33,
+              34
+            ]
+          ],
+          [
+            [
+              3,
+              21
+            ]
+          ],
+          [
+            [
+              37,
+              11
+            ]
+          ],
+          [
+            [
+              7,
+              39
+            ]
+          ],
+          [
+            [
+              24,
+              11
+            ]
+          ],
+          [
+            [
+              19,
+              3
+            ]
+          ],
+          [
+            [
+              7,
+              46
+            ]
+          ],
+          [
+            [
+              25,
+              19
+            ]
+          ],
+          [
+            [
+              46,
+              46
+            ]
+          ],
+          [
+            [
+              39,
+              12
+            ]
+          ],
+          [
+            [
+              34,
+              0
+            ]
+          ],
+          [
+            [
+              5,
+              3
+            ]
+          ],
+          [
+            [
+              11,
+              14
+            ]
+          ],
+          [
+            [
+              39,
+              16
+            ]
+          ],
+          [
+            [
+              36,
+              21
+            ]
+          ],
+          [
+            [
+              45,
+              46
+            ]
+          ],
+          [
+            [
+              32,
+              46
+            ]
+          ],
+          [
+            [
+              45,
+              37
+            ]
+          ],
+          [
+            [
+              9,
+              37
+            ]
+          ],
+          [
+            [
+              26,
+              5
+            ]
+          ],
+          [
+            [
+              42,
+              3
+            ]
+          ],
+          [
+            [
+              34,
+              23
+            ]
+          ],
+          [
+            [
+              44,
+              41
+            ]
+          ],
+          [
+            [
+              19,
+              40
+            ]
+          ],
+          [
+            [
+              33,
+              12
+            ]
+          ],
+          [
+            [
+              11,
+              1
+            ]
+          ],
+          [
+            [
+              27,
+              24
+            ]
+          ],
+          [
+            [
+              25,
+              16
+            ]
+          ],
+          [
+            [
+              24,
+              1
+            ]
+          ],
+          [
+            [
+              3,
+              43
+            ]
+          ],
+          [
+            [
+              0,
+              30
+            ]
+          ],
+          [
+            [
+              36,
+              42
+            ]
+          ],
+          [
+            [
+              10,
+              24
+            ]
+          ],
+          [
+            [
+              11,
+              3
+            ]
+          ],
+          [
+            [
+              36,
+              39
+            ]
+          ],
+          [
+            [
+              31,
+              37
+            ]
+          ],
+          [
+            [
+              12,
+              36
+            ]
+          ],
+          [
+            [
+              40,
+              30
+            ]
+          ],
+          [
+            [
+              24,
+              22
+            ]
+          ],
+          [
+            [
+              0,
+              9
+            ]
+          ],
+          [
+            [
+              0,
+              38
+            ]
+          ],
+          [
+            [
+              33,
+              9
+            ]
+          ],
+          [
+            [
+              12,
+              45
+            ]
+          ],
+          [
+            [
+              19,
+              19
+            ]
+          ],
+          [
+            [
+              28,
+              8
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ]
+          ]
+        ],
+        "point_pivot_rows_1based": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ],
+        "rank_columns_1based": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72
+        ],
+        "rank_rows_1based": [
+          75,
+          74,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145
+        ],
+        "test_section_1based": 1
+      }
+    }
+  },
+  "principal_archives": [
+    {
+      "disk_id": "SS_j36_06",
+      "members": 459,
+      "bytes": 1779997,
+      "sha256": "5f5f18166ef0cb1ab982d2aead5ff5da573b9a760f790459360b98631d44bd8e"
+    },
+    {
+      "disk_id": "SS_j36_02",
+      "members": 459,
+      "bytes": 1780846,
+      "sha256": "749ec7727366bf13e535ac643b85a1dd06b0ed39b527b3e01e97415ce065d712"
+    }
+  ],
+  "python": "3.12.16 (main, Oct 26 2026, 02:48:44) [GCC 15.2.0]",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "sympy": "1.14.0",
+    "python-flint": "0.8.0",
+    "mpmath": "1.3.0"
+  },
+  "finished_at_utc": "2026-11-14T09:38:52.450702+00:00",
+  "F2_F3_height_computed": false,
+  "disk_exclusion_claimed": false,
+  "files": [
+    {
+      "file": "SS_j36_02_actual_integer_principal.log",
+      "bytes": 178,
+      "sha256": "5377a5d3a0ff294f62885ee9ad718d8ea59ca5a84af2744edd0acb0dcd61716c"
+    },
+    {
+      "file": "SS_j36_02_actual_second_kind_integrals47.json.gz",
+      "bytes": 595126,
+      "sha256": "5c1db42857902d437a801c61cfec22ef5ffcad6d40bdbd524cb74a188b179173"
+    },
+    {
+      "file": "SS_j36_02_actual_terminal_and_nu.log",
+      "bytes": 446,
+      "sha256": "9dff1d54ad28a700a4cfc1760b6cd27da9fdd6611e5e54856b65aa39f517d0fd"
+    },
+    {
+      "file": "SS_j36_02_principal_expression47.json.gz",
+      "bytes": 38652,
+      "sha256": "7e51ad1bdf0e720b85f4d19975553bd4b1baa25791557c354c59fb23373f3a2f"
+    },
+    {
+      "file": "SS_j36_06_actual_integer_principal.log",
+      "bytes": 178,
+      "sha256": "46e662bb7a745fc44e238c94e0b2e68c6ea4438d22f1086a91a5b59396795f89"
+    },
+    {
+      "file": "SS_j36_06_actual_second_kind_integrals47.json.gz",
+      "bytes": 594852,
+      "sha256": "081a09e15a0103d394220184a3e9974dfd2227d80d41348d0262b62d8f8d4ee0"
+    },
+    {
+      "file": "SS_j36_06_actual_terminal_and_nu.log",
+      "bytes": 446,
+      "sha256": "90cd264fb9a8622b9bea7be09d5cd9572a8ea4b6d1a8261158e0074d21ee50aa"
+    },
+    {
+      "file": "SS_j36_06_principal_expression47.json.gz",
+      "bytes": 38687,
+      "sha256": "6e49758f674c5cd6138d922a11414f0735435c21bd169bdea7f895ba342ac9f2"
+    },
+    {
+      "file": "chain/SS_j36_02_Abel47.json.gz",
+      "bytes": 442906,
+      "sha256": "b6f68ce77aef1f556aa6090537394426068b868ae4f5dc235c1f0dcb2cc7a057"
+    },
+    {
+      "file": "chain/SS_j36_02_multiply47.json.gz",
+      "bytes": 376768,
+      "sha256": "01a261d24820a9a0f9b3dc060f211aa7088e23da28d993f35f7da412b5345158"
+    },
+    {
+      "file": "chain/SS_j36_06_Abel47.json.gz",
+      "bytes": 442780,
+      "sha256": "d1f222f872fd8c04db8bfa9ba8cc4f09cd683d54364e848de49b881c34aaf30c"
+    },
+    {
+      "file": "chain/SS_j36_06_multiply47.json.gz",
+      "bytes": 376392,
+      "sha256": "33654add5228d54fdc739bbc50ebaa352e57e6b72925bbf3416dd67649158098"
+    },
+    {
+      "file": "checkpoint.json",
+      "bytes": 8219,
+      "sha256": "7ea780a796c5eaa0fa52b1cbe76a4c06cae64880ac67dcc2a224948a730d9f9b"
+    },
+    {
+      "file": "continue_both_original_chains.log",
+      "bytes": 75804,
+      "sha256": "df7e1044720d216ede1ba8928213a30de260c2d1d55e1b90cab4b52ca6d89fa4"
+    },
+    {
+      "file": "original-prefix-manifest.json",
+      "bytes": 1398,
+      "sha256": "f82d7df4544f71ee98cd73de35010e8cc3525cb5f24bb0a01ceb51159f7ee777"
+    },
+    {
+      "file": "p41_SS_j36_02_principal_transports47.tar.gz",
+      "bytes": 1780846,
+      "sha256": "749ec7727366bf13e535ac643b85a1dd06b0ed39b527b3e01e97415ce065d712"
+    },
+    {
+      "file": "p41_SS_j36_06_principal_transports47.tar.gz",
+      "bytes": 1779997,
+      "sha256": "5f5f18166ef0cb1ab982d2aead5ff5da573b9a760f790459360b98631d44bd8e"
+    },
+    {
+      "file": "p41_true_CM4_two_based_points47.json.gz",
+      "bytes": 214718,
+      "sha256": "484a021cd52017d90382c859d5eee08d35e41b254c3c664561b1139e8fb8f130"
+    },
+    {
+      "file": "public-actions-input.json",
+      "bytes": 1499,
+      "sha256": "8d560b27fabdcd45ce3c0aa593561058df2e3ff5eca4fae8494f72a716641a34"
+    },
+    {
+      "file": "public-actions-run.log",
+      "bytes": 457,
+      "sha256": "fbc149a05ee3984a9c660fac8377c3468d8a55a3817263e0ab50c9415b191cfa"
+    }
+  ],
+  "files_over_repository_cap": [],
+  "workflow_run_id": "43580991103",
+  "workflow_attempt": "1",
+  "process_exit_code": 0
+}

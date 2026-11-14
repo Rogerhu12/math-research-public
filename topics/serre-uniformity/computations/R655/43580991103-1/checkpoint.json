@@ -1,0 +1,168 @@
+{
+  "result": "R655",
+  "stages": [
+    {
+      "stage": "continue_both_original_chains",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_SS_Abel_with_transports47.py",
+        "--script-dir",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts",
+        "--SS-atlas",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_rational_SS_residue_atlas47_complete.json.gz",
+        "--common-based-points",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_all19_based_points47.json.gz",
+        "--based-points",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_true_CM4_two_based_points47.json.gz",
+        "--workdir",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/work",
+        "--transport-dir",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/transports",
+        "--disk",
+        "SS_j36_06",
+        "--disk",
+        "SS_j36_02",
+        "--max-bits",
+        "304",
+        "--tiny",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_all129_tiny_Abel47_complete.json.gz"
+      ],
+      "source_sha256": "754d36c59a19a6c9c04cb779084d3b2a7f0ceedffefdffc2c32ce6f226ced613",
+      "exit_code": 0,
+      "log": "continue_both_original_chains.log",
+      "outputs": [
+        {
+          "file": "CM4-initial-prefix/work/SS_j36_06_Abel47.json.gz",
+          "sha256": "d1f222f872fd8c04db8bfa9ba8cc4f09cd683d54364e848de49b881c34aaf30c",
+          "bytes": 442780
+        },
+        {
+          "file": "CM4-initial-prefix/work/SS_j36_02_Abel47.json.gz",
+          "sha256": "b6f68ce77aef1f556aa6090537394426068b868ae4f5dc235c1f0dcb2cc7a057",
+          "bytes": 442906
+        }
+      ]
+    },
+    {
+      "stage": "SS_j36_06_actual_terminal_and_nu",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_SS_second_kind_from_principal47.py",
+        "--script-dir",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts",
+        "--based-points",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_true_CM4_two_based_points47.json.gz",
+        "--second-kind",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_second_kind_connection47.json.gz",
+        "--Abel",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/work/SS_j36_06_Abel47.json.gz",
+        "--multiplication",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/work/SS_j36_06_multiply47.json.gz",
+        "--transport-directory",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/transports/SS_j36_06",
+        "--build-dir",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/native-terminal-SS_j36_06",
+        "--output",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/SS_j36_06_actual_second_kind_integrals47.json.gz"
+      ],
+      "source_sha256": "cdafcc136ae0384d382246794ba61c1968eb6fc322b0bd5b861c3c08e88ee4ba",
+      "exit_code": 0,
+      "log": "SS_j36_06_actual_terminal_and_nu.log",
+      "outputs": [
+        {
+          "file": "SS_j36_06_actual_second_kind_integrals47.json.gz",
+          "sha256": "081a09e15a0103d394220184a3e9974dfd2227d80d41348d0262b62d8f8d4ee0",
+          "bytes": 594852
+        }
+      ]
+    },
+    {
+      "stage": "SS_j36_06_actual_integer_principal",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_principal_chain_flatten47.py",
+        "--transport-directory",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/transports/SS_j36_06",
+        "--second-kind-certificate",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/SS_j36_06_actual_second_kind_integrals47.json.gz",
+        "--bases",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_hecke3_abel_bases_checkpoint.json.gz",
+        "--output",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/SS_j36_06_principal_expression47.json.gz"
+      ],
+      "source_sha256": "83010dc05acadf5d9c37ffdce3a219114883e672ed5a65573bd8e42a15d7a52a",
+      "exit_code": 0,
+      "log": "SS_j36_06_actual_integer_principal.log",
+      "outputs": [
+        {
+          "file": "SS_j36_06_principal_expression47.json.gz",
+          "sha256": "6e49758f674c5cd6138d922a11414f0735435c21bd169bdea7f895ba342ac9f2",
+          "bytes": 38687
+        }
+      ]
+    },
+    {
+      "stage": "SS_j36_02_actual_terminal_and_nu",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_SS_second_kind_from_principal47.py",
+        "--script-dir",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts",
+        "--based-points",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_true_CM4_two_based_points47.json.gz",
+        "--second-kind",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_second_kind_connection47.json.gz",
+        "--Abel",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/work/SS_j36_02_Abel47.json.gz",
+        "--multiplication",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/work/SS_j36_02_multiply47.json.gz",
+        "--transport-directory",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/transports/SS_j36_02",
+        "--build-dir",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/native-terminal-SS_j36_02",
+        "--output",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/SS_j36_02_actual_second_kind_integrals47.json.gz"
+      ],
+      "source_sha256": "cdafcc136ae0384d382246794ba61c1968eb6fc322b0bd5b861c3c08e88ee4ba",
+      "exit_code": 0,
+      "log": "SS_j36_02_actual_terminal_and_nu.log",
+      "outputs": [
+        {
+          "file": "SS_j36_02_actual_second_kind_integrals47.json.gz",
+          "sha256": "5c1db42857902d437a801c61cfec22ef5ffcad6d40bdbd524cb74a188b179173",
+          "bytes": 595126
+        }
+      ]
+    },
+    {
+      "stage": "SS_j36_02_actual_integer_principal",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_principal_chain_flatten47.py",
+        "--transport-directory",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/CM4-initial-prefix/transports/SS_j36_02",
+        "--second-kind-certificate",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/SS_j36_02_actual_second_kind_integrals47.json.gz",
+        "--bases",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_hecke3_abel_bases_checkpoint.json.gz",
+        "--output",
+        "/home/runner/work/_temp/R655-true-CM4-cw2n8mww/SS_j36_02_principal_expression47.json.gz"
+      ],
+      "source_sha256": "83010dc05acadf5d9c37ffdce3a219114883e672ed5a65573bd8e42a15d7a52a",
+      "exit_code": 0,
+      "log": "SS_j36_02_actual_integer_principal.log",
+      "outputs": [
+        {
+          "file": "SS_j36_02_principal_expression47.json.gz",
+          "sha256": "7e51ad1bdf0e720b85f4d19975553bd4b1baa25791557c354c59fb23373f3a2f",
+          "bytes": 38652
+        }
+      ]
+    }
+  ]
+}
