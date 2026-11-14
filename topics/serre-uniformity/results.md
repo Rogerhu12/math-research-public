@@ -580,3 +580,4 @@
 ## 新增结论（公开仓库续研）
 
 - **R683（已证明）**：[偶权 Cartier 通道与实际 r3](results/R683-even-weight-Cartier-channel-and-actual-r3.md)。同一完整六挠归一扩到 k≡2 mod3，严格得 r3=−27cB³C_(p−3) 及 v_p(M2)=−1 iff Cp·C_(p−3)≠0；给全部原常数和全尾的适用范围。全p非消失、真实QC首项及主目标仍开放。
+- **R682（已证明，保留R616前提）**：[真实CM归一Abel共同首阶与去因子QC展开](results/R682-common-CM-Abel-order-and-saturated-QC-jets.md)。补出AST共轭交下降；每个 t_i²−t_j² 都具有同一非零首阶m，且 m≤2(g(X)−dimA)+1。给任意m的真实外积首项及全尾判据，不假设m=1或p单位，不新增候选排除。
