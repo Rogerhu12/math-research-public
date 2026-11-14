@@ -321,3 +321,7 @@
 ## 2026-11-14 16:41:12 UTC — 同一w0帽Hessian实际完成
 
 [实际验收](results/R133-supplement-actual-particular-w0-cap-Hessian.md)：公开43616252389实际10门，1341局部格/1977 Hermite交格，数学82.080329s、child0；native `9360555293def4b1803da05c5c432a8f737ed4f3d62ea2b84c89e7e236ff7650`。完整四源/mean给特定方向加性<1.033484771e−5，旧HS×||w0||<1.372740655e−5；只收紧已知方向，未知eZ−w0仍由原完整moving误差算子付费，不授完整cut或PDE响应。
+
+## 2026-11-14 16:43:19 UTC — 全实参数七列正根图的完整接口合同
+
+[同一全局参考 P1–15](results/R133-supplement-full-real-delta-positive-high-root-to-regular-graph.md) 将实际43606747196全δ collar与43615531666完整body/physical outer相接：真实全局速度、根 $g=M^{-1/3}$ 和外端 $p_*=q_*/(-m_\delta(R))$ 完全相同。完整7输入、7输出行保 finitehead/mean/ordinary/所有jump；$q_c=750/749,r_c=1/749$，body补支反射为 $\chi/(1-\chi)$。17-input公开CI只消费原3个小receipt，检查loop<1/1500、rootreflection<1/2，并保存全部系数；新数值待真实执行。全real $|\delta|\le10^{-8}$，不授low/high Schur、未知PDE响应或order1外图。

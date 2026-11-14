@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 16:41:12 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 16:43:19 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则与同步
 
 仅 Rogerhu12/math-research-public；所有新数学代码仅公开 Actions。每结论独立推；非快进立即接新main/rebase再推至成功，不force。root管ref/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，不进文件、输出、提交或connector。
 本地最后真实pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35后终端失联，16:20重试仍失败。根规则8暂只用connector处理<100KB文本，禁二进制/大文件，先查size，新摘要≤60KB；API不冒称pull。runner长算≤10min真pull或短child前后pull；亲核43616252389于16:36:12拉到5fd683323dea40a4400fdb3437a990838762bd17，两README无差。恢复终端即回git。
-最新远端 main/两README blob 核：7b46d3607015dcc6e25b675f4cf03f5648ddfce1；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。亲读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；独立rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
+最新远端 main/两README blob 核：d28669988c093a5a06fb54a4a2a04870d5651956；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。亲读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；独立rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次压缩前H完整字节：notes/2026-11-14-handoff-before-piecewise-root-resume-v2.md，前档链保全；open/log旧档2026-11-14-{open,log}-before-closed-leading-amplitudes.md。所有完整SHA、失败、源端口与复用合同查results/manifest，禁止重算已成数学。
 
@@ -31,7 +31,7 @@ exactbump43610523058/10门：14原格/40子格，旧80jets复用，nativec37a…
 fullδ96 collar43606747196实际19门：band192/ratio<3/primitive中间1/shell288保，qc750/749，EH<131.016385，角0..4全。Riccati相对R1–20频导已证，禁Nτ粗差。
 右端v2 43611611635实际14门；native8f6019cefaa96da64eadb3b19a98110dc81a0d5760a091e6fdffe538c971e606，193+mean/6strip/角0..4；v1缺013数学前失败保，013原字节补公。
 fullδ outer/body43615531666实际25+11门成功，outer5ab1d1…/body1f3e5f…；完整实|δ|≤1e−8含δ*，χ0<.303291625133、χ1<.788277869833，4650行/3594接口、7721 envelope全部保，原coef/target/endpoint/solve0重算。p*∈(.1428571428570,.171097772394)。H1/6外图完整非线性已付，H7/6未付；order1独立右port。
-root正构建全δ七列givenhead根图：新源blob e89b11814aa1c2071226ac0bae6dddb88168f19b，qc750/749、rc1/749、body真χ。rootstable、collar/bodyordinary、head+mean+outer+jump、collarjump、cut两jump共7列，待Actions实际门。旧43605513540/.436007718096仅δ0，不可直接授δ*。
+全δ七列givenhead根图P1–15及17input公开CI已推：source65222466f862c85538d78bd822f0b9793ede2dfc1b6058c69d8c97074c93f7c1，manifestb5931183c48fb92fbf4dcfb696bf582be52741323b5f051bbdff57922a7302d8。qc750/749、rc1/749、body实际χ；rootstable、collar/bodyordinary、head+mean+outer+jump、collarjump、cut两jump共7列，待实际loop<1/1500与rootreflection<1/2。只3小receipt算新接口，旧数学0重算。旧43605513540/.436007718096仅δ0。
 
 ## 相位、实际强余项
 
