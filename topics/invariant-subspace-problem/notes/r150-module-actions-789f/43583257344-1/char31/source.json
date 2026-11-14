@@ -1,0 +1,29 @@
+{
+  "source_commit": "934582f3f9cdba01d64cfe35b215bd05082624fe",
+  "rules": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "request": {
+    "request_id": "r150-native-f31-annihilator-20261114T100026Z",
+    "characteristic": 31,
+    "stage": "annihilator",
+    "precondition": "constant",
+    "prebasis": "native-f31",
+    "seconds": 1800,
+    "memory_mib": 4096,
+    "reason": "Use the completed constant-unit original-row prebasis, then the fixed original finite Macaulay parameter module. Finite characteristic is discovery only."
+  },
+  "request_sha256": "292f127833aaf6c8f27e572320277fd4a0a80edb33cc8c20822465d01d42c51b",
+  "code_sha256": {
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-finite-macaulay-module-789f.js": "d93cfcc719745e3d63c2a7963c357ac93ba1f9e04228ecfdb95e28c2d5308789",
+    "topics/invariant-subspace-problem/notes/2026-11-14-rank-one-parameter-ideal-runner-789f.js": "8c3459068531a81e6d08b554fbbc47f00352bfb86dfae8d6e89810b4e5eeae39",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-graded-pivot-profile-789f.json": "d5c1a753a3869a702a84d723a4fb7b68c778e19e2fc7d0a4e4b55fe95327a0b9",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-native-constant-prebasis-789f.cpp": "342a17d83a10859a46fe7fc753ad4bf1bde885b14263078dec07626564f0f282",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-native-prebasis-runner-789f.js": "9fbde5a5618c55bb543d88039d7d53ef06556a0e1b4b4f8155e8f057d1224bdd",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-module-actions-publish-789f.py": "2de3c9c47200d041a1158c37c8f5eeb54c0232f1d457b9fb2c29936782aae6c9",
+    ".github/workflows/invariant-subspace-r150-finite-module.yml": "d35a3098b798fb8a637dd588d1c58aa1d5115a597f9098bf8450d6428ad146ac"
+  },
+  "method": "finite-macaulay-module",
+  "scope": "Finite characteristic is discovery only; a complex-parameter conclusion requires characteristic zero original-row lift and actual denominators."
+}

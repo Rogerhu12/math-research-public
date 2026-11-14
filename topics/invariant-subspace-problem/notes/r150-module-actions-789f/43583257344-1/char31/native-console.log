@@ -1,0 +1,9 @@
+{"phase":"integer-reconstruction","sample":0,"bound":10}
+{"phase":"integer-reconstruction","sample":5,"bound":10}
+{"phase":"integer-reconstruction","sample":10,"bound":10}
+{"phase":"native-constant-prebasis","mDegree":2,"augmentedColumns":187,"phasePivots":11,"totalPivots":11,"operations":11,"elapsedSeconds":0.00119215}
+{"phase":"native-constant-prebasis","mDegree":3,"augmentedColumns":1012,"phasePivots":121,"totalPivots":132,"operations":952,"elapsedSeconds":0.00634094}
+{"phase":"native-constant-prebasis","mDegree":4,"augmentedColumns":4147,"phasePivots":671,"totalPivots":803,"operations":39010,"elapsedSeconds":0.126}
+{"phase":"native-constant-prebasis","mDegree":5,"augmentedColumns":14014,"phasePivots":2530,"totalPivots":3333,"operations":782976,"elapsedSeconds":3.12537}
+{"status":"native-prebasis-complete","field":31,"parameterDegreeAtMost":10,"pivots":3333,"operations":782976,"nonzeroScalarCoefficients":11947979,"elapsedSeconds":3.12725}
+{"status":"completed","nativeStatistics":{"status":"native-prebasis-complete","field":31,"parameterDegreeAtMost":10,"pivots":3333,"operations":782976,"nonzeroScalarCoefficients":11947979,"elapsedSeconds":3.12725},"outputs":{"basis":{"file":"/home/runner/work/_temp/isp-r150-native/basis.sing","bytes":95273924,"sha256":"59c5bd267dc1ecc340ce26c82ed49a696b3442d9453386552d6d9240a618488a"},"sourceOperations":{"file":"/home/runner/work/_temp/isp-r150-native/source-operations.bin","bytes":2378937,"sha256":"66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e","compressedFile":"/home/runner/work/_temp/isp-r150-native/source-operations.bin.gz","compressedBytes":1650863}}}

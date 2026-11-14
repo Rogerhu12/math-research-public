@@ -1,0 +1,43 @@
+Singular for x86_64-Linux version 4.4.1 (44105, 64 bit) Dec  6 2025 11:10:58
+with
+	GMP(6.3.0),NTL(11.5.1),FLINT(3.4.0),
+	omalloc,static readline(8),Plural,vspace(2),DBM,
+	dynamic modules,OM_NDEBUG,SING_NDEBUG,
+	CC:OPTIMIZE,GenericAdd,TableMult,no invTable,
+	eigenvalues,Gauss-Manin system,random=1794650490
+built-in modules: {}
+AC_CONFIGURE_ARGS =  '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=${prefix}/include' '--mandir=${prefix}/share/man' '--infodir=${prefix}/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-option-checking' '--disable-silent-rules' '--libdir=${prefix}/lib/x86_64-linux-gnu' '--runstatedir=/run' '--disable-maintainer-mode' '--disable-dependency-tracking' '--libexecdir=/usr/libexec/x86_64-linux-gnu' '--htmldir=/usr/share/doc/singular/html' '--with-libparse' '--enable-streamio' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -Werror=implicit-function-declaration -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -march=x86-64-v3 -fdebug-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=/usr/src/singular-1:4.4.1-p5+ds-1build1' 'LDFLAGS=-Wl,-Bsymbolic-functions -Wl,--package-metadata={%22type%22:%22deb%22%2C%22os%22:%22ubuntu%22%2C%22name%22:%22singular%22%2C%22version%22:%221:4.4.1-p5+ds-1build1%22%2C%22architecture%22:%22amd64%22%2C%22architectureVariant%22:%22amd64v3%22} -flto=auto -ffat-lto-objects -Wl,-z,relro -Wl,-z,now -march=x86-64-v3' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=3' 'CXXFLAGS=-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -march=x86-64-v3 -fdebug-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=/usr/src/singular-1:4.4.1-p5+ds-1build1' 'PYTHON=/usr/bin/python3' --enable-omalloc  OMALLOC_LIBS='/build/singular-o0ehYn/singular-4.4.1-p5+ds/omalloc/libsingular-omalloc.la' OMALLOC_INCLUDES='-I/build/singular-o0ehYn/singular-4.4.1-p5+ds'  --with-Singular RESOURCES_LIBS='/build/singular-o0ehYn/singular-4.4.1-p5+ds/resources/libsingular-resources.la' RESOURCES_INCLUDES='-I/build/singular-o0ehYn/singular-4.4.1-p5+ds ' FACTORY_LIBS='/build/singular-o0ehYn/singular-4.4.1-p5+ds/factory/libsingular-factory.la' FACTORY_INCLUDES='-I/build/singular-o0ehYn/singular-4.4.1-p5+ds -I/build/singular-o0ehYn/singular-4.4.1-p5+ds/factory -I/build/singular-o0ehYn/singular-4.4.1-p5+ds/factory/include',
+CC = gcc,FLAGS :  -g -O2 -Werror=implicit-function-declaration -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -march=x86-64-v3 -fdebug-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=/usr/src/singular-1:4.4.1-p5+ds-1build1 -pipe -fno-common -O3 -Wno-unused-function -Wno-trigraphs -Wno-unused-parameter -Wunknown-pragmas -Wno-unused-variable -fomit-frame-pointer -fwrapv -fvisibility=default -finline-functions -fno-exceptions -fconserve-space -funroll-loops -pthread -pthread,
+CXX = g++,FLAGS :  -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -march=x86-64-v3 -fdebug-prefix-map=/build/singular-o0ehYn/singular-4.4.1-p5+ds=/usr/src/singular-1:4.4.1-p5+ds-1build1 -pipe -fno-common -O3 -Wno-unused-function -Wno-trigraphs -Wno-unused-parameter -Wunknown-pragmas -Wno-unused-variable -fomit-frame-pointer -fwrapv -fvisibility=default -finline-functions -fno-exceptions -fno-threadsafe-statics -fno-enforce-eh-specs -fconserve-space -funroll-loops -fno-rtti -fno-delete-null-pointer-checks -pthread,
+DEFS : ,CPPFLAGS : -Wdate-time -D_FORTIFY_SOURCE=3,
+LDFLAGS : -Wl,-Bsymbolic-functions -Wl,--package-metadata={%22type%22:%22deb%22%2C%22os%22:%22ubuntu%22%2C%22name%22:%22singular%22%2C%22version%22:%221:4.4.1-p5+ds-1build1%22%2C%22architecture%22:%22amd64%22%2C%22architectureVariant%22:%22amd64v3%22} -flto=auto -ffat-lto-objects -Wl,-z,relro -Wl,-z,now -march=x86-64-v3 -pipe -fno-common -g -O3 -Wno-unused-function -Wno-trigraphs -Wno-unused-parameter -Wunknown-pragmas -Wno-unused-variable -fomit-frame-pointer -fwrapv -fvisibility=default -finline-functions -fno-exceptions -fno-threadsafe-statics -fno-enforce-eh-specs -fconserve-space -funroll-loops  -rdynamic -Wl,-undefined,dynamic_lookup,LIBS : -lreadline -lncurses  -lgmp -lrt  -lpthread (ver: 15.2.0)
+argv[0]   :	Singular
+SearchPath:	/usr/bin/../share/singular/LIB:/usr/bin/../share/singular/factory:/usr/lib/x86_64-linux-gnu/singular/MOD:/usr/bin
+Singular  :	/usr/bin/Singular
+BinDir    :	/usr/bin
+ProcDir   :	/usr/lib/x86_64-linux-gnu/singular/MOD
+RootDir   :	/usr/bin/..
+DataDir   :	/usr/bin/../share
+DefaultDir:	/usr
+InfoFile  :	
+IdxFile   :	
+HtmlDir   :	
+ManualUrl :	https://www.singular.uni-kl.de/Manual/
+ExDir     :	
+Path      :	/usr/bin:/usr/lib/x86_64-linux-gnu/singular/MOD:/opt/hostedtoolcache/node/22.23.4/x64/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/sbin:/bin:/usr/games:/usr/local/games
+emacs     :	
+xemacs    :	
+SingularEmacs:	/usr/bin/Singular
+EmacsLoad :	
+EmacsDir  :	
+SingularXterm:	/usr/bin/Singular
+xterm     :	
+EmacsDir  :	
+Available HelpBrowsers: dummy, emacs, 
+Current HelpBrowser: dummy 
+                     SINGULAR                                 /  Development
+ A Computer Algebra System for Polynomial Computations       /   version 4.4.1
+                                                           0<
+ by: W. Decker, G.-M. Greuel, G. Pfister, H. Schoenemann     \   Jan 2025
+FB Mathematik der Universitaet, D-67653 Kaiserslautern        \  Debian 1:4.4.1-p5+ds-1build1
+Auf Wiedersehen.
