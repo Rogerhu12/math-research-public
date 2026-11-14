@@ -135,3 +135,6 @@ tail_connector：把实际非径向内部正型接全部外部响应、Γ*参数
 
 
 [实际完整记录](results/R133-supplement-phase-Schur-complete-distributed-adjoint-source.md)：在真实共轭成立的明确条件下，完整两ray rotation变分保平方Jacobian、h2even mean与真实端点配对；dual源除q的根界有限，给全Areg*ψ=ell和SΩ=tΩ+〈ψ,Fν〉准确合同。没有用拟合H代替真H，也没有授实际Schur非零。
+
+
+[实际完整记录](results/R133-supplement-complete-mesh-hulls-and-continuous-tensor-geometry.md)：实际完整141原块/8966径向格/512角格/8逆像共36,724,736分离向量全部directed消费正常0；mesh半径<1.275559740657、全交叉框架support>.901284727159、全凸包距离>.129668021172。严格双线性误差只需径向/角向二阶界，无遗漏混合项；完整径向累计与真帽/非线性费用尚未授。
