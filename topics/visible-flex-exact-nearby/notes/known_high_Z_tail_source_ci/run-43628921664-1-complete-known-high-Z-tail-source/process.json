@@ -112,6 +112,11 @@
       "time": "2026-11-14T18:52:37.931315+00:00",
       "final": false,
       "commit": "b487efae88c185ac8f4b1f934dcf38aa5565dea1"
+    },
+    {
+      "time": "2026-11-14T18:53:42.283379+00:00",
+      "final": false,
+      "commit": "c69a672f4a51e48d47a4a3b183208eb623d67d19"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -160,9 +165,21 @@
     "response": "ed42a71ddeb0420428f0313df321dc1f9b10525521d399cb1d666ae98fe410f6",
     "direction": "87ed2f618bcaf77b0649abf561daea7225c9b7d667edc22afb91d86255da8f88"
   },
-  "snapshot_utc": "2026-11-14T18:53:39.528651+00:00",
-  "wall_seconds": 69.370924359,
+  "snapshot_utc": "2026-11-14T18:53:43.852063+00:00",
+  "wall_seconds": 73.69433774600002,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 1159,
+      "sha256": "0233a619c7e0334300b46c0e684aae4b9bc3cf6d49b80bf80135adcba4d04e04"
+    },
+    {
+      "logical_file": "evidence/complete-known-high-Z-tail-source-summary.json",
+      "file": "evidence/complete-known-high-Z-tail-source-summary.json",
+      "bytes": 14387,
+      "sha256": "74e7b40d0eb4c79bf511a501467e73d80116d46990d1ab8e5b43f66f4fcd1b35"
+    },
     {
       "logical_file": "evidence/original-input-audit/complete-original-row-cover.json",
       "file": "evidence/original-input-audit/complete-original-row-cover.json",
@@ -290,5 +307,10 @@
       "sha256": "5ad8aaada967f4626a33e978b1c81adf640ee1abaf0876f54ffd22d6dbd107fd",
       "parts": 4
     }
-  ]
+  ],
+  "failure": {
+    "type": "ValueError",
+    "message": "small source evidence exceeds60000 bytes; preserve full native instead"
+  },
+  "finished_utc": "2026-11-14T18:53:43.356651+00:00"
 }

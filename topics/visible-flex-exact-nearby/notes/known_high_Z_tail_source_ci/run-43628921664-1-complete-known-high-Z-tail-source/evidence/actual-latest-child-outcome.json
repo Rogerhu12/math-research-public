@@ -1,0 +1,42 @@
+{
+  "native_sha256": "5ad8aaada967f4626a33e978b1c81adf640ee1abaf0876f54ffd22d6dbd107fd",
+  "complete": true,
+  "failure": null,
+  "gates": [
+    {
+      "name": "exact_original_manifest_cubics_and_two_successful_artifact_receipts",
+      "passed": true
+    },
+    {
+      "name": "complete_repaired_M32_centre_and_all_original_source_rows",
+      "passed": true
+    },
+    {
+      "name": "same_complete_continuous_Z_and_global_all193_offset_bounds",
+      "passed": true
+    },
+    {
+      "name": "original_complete_mixed_cover_preserves_all_low_and_mean_equations",
+      "passed": true
+    },
+    {
+      "name": "all_forty_original_parts_and7721_rows_match_both_completed_native_receipts",
+      "passed": true
+    },
+    {
+      "name": "complete_closed_scalar_cover_is_exactly_zero_to25over8",
+      "passed": true
+    },
+    {
+      "name": "exact_physical193_cubics_and_M32_background_with_shared6144_pieces",
+      "passed": true
+    },
+    {
+      "name": "all7721_exact_tail_source_rows_completed_once",
+      "passed": true
+    }
+  ],
+  "actual_complete_rows": 7721,
+  "actual_new_tail_source_rows": 7721,
+  "actual_reused_tail_source_rows": 0
+}
