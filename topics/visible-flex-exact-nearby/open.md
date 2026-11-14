@@ -195,3 +195,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14：有限193 same-Z负窗已收紧至0.010656，仍欠小门
 
 [43630194680实际结果](results/R133-supplement-actual-quarter-Hessian-same-Z-Green.md) 八门全通过，但有限压缩误差 $0.010656243445033$ 尚大于0.005，完整未知high更未加入。优先核16缺mid fallback行的全局贡献，只补有必要的原缺mid缓存Taylor；并行从原6391正ports求真正L²体源统一核常数，保边界和low/high反馈，不重算propagators。
+
+### 2026-11-14：完整 directed matrix 消费者已部署
+
+20pin/source `f3a5d7b0…`/manifest `29465d2a…`；旧15项逐字不变，原已成1328 moment行/native `7662350a…`只读。新预算保原全mean/全部投影/六窗/正collar-body分割，新的矩阵和积分prefix独立保存。原3大native全部复用，禁止重算旧norm或target。数值改善待真实child/gates。
