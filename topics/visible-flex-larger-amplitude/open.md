@@ -163,3 +163,5 @@ request46接v3 f80608b3…显式目标标量读者，仅原42七件SHA及原prod
 - **actual47完整捕获已核**：[原步捕获结论](notes/2026-11-14-actual-request47-original-step-capture.md)；原/新完整shortJ与mean逐位相同，21数组/27小件全字节核。此步复现差为零映射；四原局部A现首次完整保存，旧41未存A的限制仍保留。
 
 - **actual48与49的实据**：[完整13-query结果](notes/2026-11-14-actual-request48-thirteen-query-and-left-RMS482-limit.md)。原α1/256才通过，全13 grid/mid/node在最近五档已正，但完整left-RMS482拒；49仅加该不同query，局部仍4735，保mid482/原C/17trial/FD。父warm df6543c9…与原status00c9e73f…，公开status须解gzip核原bytes。完整NPZ/producer与root14raw字节审已归档。
+
+- **actual47原new519精确归因已完成**：[完整原账](notes/2026-11-14-actual47-stage43-exact-action-and-new519-attribution.md)。同δ/r/σ，old=observed平方1.1148576429598753e43，四A有理RK平方6.7408926442427e49；传播差平方与负交叉项强烈相消，替换该块不能让旧43方向有效。50仅用保存四A比较完整224列参考与R271表示，再论一致重解/原trial；本题仍未完成。

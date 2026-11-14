@@ -44,7 +44,7 @@ FD7.169252867462084e−10/报告a17da0a01f40a6656d2dfbbbddd83f7b0be09aebaca5cf91
 原step/newG十trial组件均已发表；保原十alpha/noJ/guard/严格norm下降/首接受全state STOP，不重形成G/J，不冒native完成。
 44原41四field小包26214B/SHA d7d00de365b2118e1346e8f8630d5bad408957da91fdf51f38496f73b0e0c5f2显示变w，2/3级geometry同但state不同。R271原RK协变、R272误差拆分/冻结参考/频率平衡完整证明已登记，不拿连续G′重RK冒原有限映射。
 **47实际完成**：run43630351235/sourcec9c466f468d49e3f4699d0e0247109e83047bdb5/job132555346727/art14127582983；3530956B/ZIP02973eefffbd82f57dcee02776f2ed7a28c41fe750f73ec7930ff07d2f9fa400。1原步/4RHS-J；四field全state/geometry/root与41同，最终226/shortJ/mean逐位同，复现差为零映射。capture resultda9715ef…；27小文件+21数组2453424B全审，root另17exact输出包全SHA核。捕获note/audit已推；旧41没保存4A仍不冒旧A字节审。
-同δ519/520/r/σ精确账：old=observed平方1.1148576429598753e43；新4A有理RK为6.7408926442427e49，传播项有巨大相消，不能说修传播就令旧δ有效。完整exact note即补；无全native/newton/trial。**50准备**：仅已有47四A，R271全级离散协变/频率平衡完整单步J，与全部224列精确有理参考比较；这是新矩阵身份，未来仍需一致重解和原nonlinear门。geometry/exact分别实现候选/参考，全部计算仍Actions。
+同δ519/520/r/σ精确账：old=observed平方1.1148576429598753e43；新4A有理RK为6.7408926442427e49，传播项有巨大相消，不能说修传播就令旧δ有效。详2026-11-14-actual47-stage43-exact-action-and-new519-attribution.md（原全部平方/交叉项已存）；无全native/newton/trial。**50准备**：仅已有47四A，R271全级离散协变/频率平衡完整单步J，与全部224列精确有理参考比较；这是新矩阵身份，未来仍需一致重解和原nonlinear门。geometry/exact分别实现候选/参考，全部计算仍Actions。
 
 ## 必须继续完成的闭场与同g全族工作
 
@@ -54,4 +54,4 @@ FD7.169252867462084e−10/报告a17da0a01f40a6656d2dfbbbddd83f7b0be09aebaca5cf91
 R248强C²全相位、R241全部空间对/法锥嵌入reach、R238/254/258含反射同场标记，R251四Loewner实际operator都待真新场；16仅解析接口不重fixtures。held读所有活动块/两帽盘/全D，可独立于reach进度。无六/九jet机器门；九相位/N32显示网格<5MB但真2305尾节点保。
 旧小幅A幅度.063、RK24/48/三mesh/2157568pair/GW已封存；旧43提交恢复链/strongR6失败见notes，禁private取未迁raw。R238–272见results.md；R259备用未调度。
 
-规则同步记录：2026-11-14 19:15:26 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 eede4f5da3be28f830205dd2b392a2e01f96296a。
+规则同步记录：2026-11-14 19:15:56 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 9be541c2ef54cd0f3798bbceec848e4e3210a6a8。
