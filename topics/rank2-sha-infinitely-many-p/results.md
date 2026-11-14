@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R509：同一五sigma双纯Y框架与原S/T共同四输入](results/R509-original-five-sigma-two-y-frames-and-common-st-source.md)：完整Z/V/H与Z/J/K框架保两残余伴随，odd符号真实关联、even核心绝对定标；两个Q共同核λ²后合法压为四输入。旧Y/W/W′/W2/R均在该空间，四态和第一轴CM/算术条件完整下降；T/U仍混隐藏Q，只保六维真实运输，原B0补域未删。
+
 - [R507：完整原Γ的唯一Euler共振与实际forcing转置](results/R507-original-euler-resonance-and-actual-forcing-transpose.md)：原P=B N(6N−1)在全部三块整目标准确成立，唯一p因子是原ε行sp，Gaussian共振在下一精度恢复；实际ξ由同一因子代数forcing整商及保极帽有限P*逆计算。完整U0/13与非交换连接运输保留；这只是目标算子Smith，未假定原J/M像稳定或中央非零。
 
 - [R504：原两条十八度轴、六十五度整核及完整矩形](results/R504-original-two-axis65-core-and-complete-rectangles.md)：原半系数R方向在整个S260上以odd65绝对锚付核−χ65P260，全部十六中心给原四态准确符号；与C完整双深矩形、两相反返回的真实三层管及所有Y移动全付。运输回原五sigma给新的65度scalar方向，保原独立自由sigma和全部伴随，未删除混管补域。
