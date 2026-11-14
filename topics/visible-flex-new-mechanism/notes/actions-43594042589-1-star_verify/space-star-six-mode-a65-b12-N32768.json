@@ -1,0 +1,122 @@
+{
+  "schema": "space-star-frozen-multimode-verification-v1",
+  "status": "frozen_exact_parameters_continuous_certificate_attempt",
+  "source_report": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-new-mechanism/notes/actions-43592270686-1-star_lift/space-star-lift-design-a65-b12.json",
+  "source_report_sha256": "29636ae0e9a99877b830cd14ee44f58b5bcc778a1e7181279abb2c1029b7bd64",
+  "source_candidate_initial_lift_label": ".10",
+  "source_trial_selection_request": "selected",
+  "source_solver_success_preserved": false,
+  "source_dense_frozen_audit": {
+    "angles": 3072,
+    "J_min_sample": 0.5562781869040921,
+    "curvature_min_sample": 0.5326337962928704,
+    "lambda0_max_sample": 4.744897279179809,
+    "whole_width_principal_curvature_max_sample": 4.90092039992767,
+    "height_sample_max": 0.7652239422530368,
+    "height_interpolation_remainder_upper_formula": 8.168112015835969e-06,
+    "height_continuous_bound_before_roundoff_validation": 0.7652321103650527,
+    "regularization_used": false,
+    "continuous_curvature_certificate": false
+  },
+  "frozen_physical_identity": {
+    "a": "13/20",
+    "b": "3/25",
+    "half_width": "1/50",
+    "height_coefficients": [
+      {
+        "numerator": "703341982277781",
+        "denominator": "1000000000000000"
+      },
+      {
+        "numerator": "28916704008939244657627",
+        "denominator": "305315600000000000000000"
+      },
+      {
+        "numerator": "-162782691106621883915977",
+        "denominator": "4579734000000000000000000"
+      },
+      {
+        "numerator": "-20851344192044513",
+        "denominator": "5000000000000000000"
+      },
+      {
+        "numerator": "69676657806350033",
+        "denominator": "10000000000000000000"
+      },
+      {
+        "numerator": "25725058207240721",
+        "denominator": "10000000000000000000"
+      }
+    ]
+  },
+  "frozen_physical_identity_sha256": "4d4fad07376bbeb3bab7d4ad2a6c1ea05cc25a675e3855cbac0dac5ea1c9f41d",
+  "exact_tip_and_valley_constraints_rechecked": true,
+  "optimization_performed": false,
+  "automatic_coefficient_reselection_or_refitting_performed": false,
+  "planar_report_sha256": "ba03fc43af2c86ee61b7ca1a9fa541f9287222ef8bd4dcb155c35332c9def405",
+  "continuous_certificate": {
+    "nodes": 32768,
+    "exact_height_coefficients_used": true,
+    "fixed_physical_parameters": true,
+    "optimization_performed": false,
+    "invariant_calculation_frame": "common proper polar rotation of physical derivatives",
+    "unresolved_frame_cells": 0,
+    "cells_without_positive_J_certificate": 0,
+    "whole_core_immersion_and_angular_closure_certified": true,
+    "J_lower": "0.39591964097931865151922818461317066579398398147364",
+    "kappa_positive_lower": "0.52362921787197792105109009304914621189852899456320",
+    "q_ell_absolute_upper": "30.204017951034067424038590769341466710300800926318",
+    "central_principal_curvature_upper": "5.8829264875145516558101816830058452263503656240195",
+    "whole_width_principal_curvature_upper": "7.8810571203383483743097763484335878881833411116250",
+    "principal_curvature_max_lower_from_resolved_cells": "4.4247774949657048365422919255259426954791437714626",
+    "necessary_reach_over_D_upper_from_curvature_lower": "0.071990835524105124442321433164709037513615144014614",
+    "worst_J_cell_index": 27583,
+    "worst_curvature_upper_cell_index": 27798,
+    "height_vertex_max_upper": "0.76522394225303680903459451383813030666558585946291",
+    "height_vertex_max_lower": "0.76522394225303680903459451383813030666558585916029",
+    "height_second_derivative_absolute_bound_exact": {
+      "numerator": "14903675108410956090760449",
+      "denominator": "954111250000000000000000"
+    },
+    "height_chord_remainder_upper": "7.1790047014183344766829915241604278031941125568245E-8",
+    "height_vertex_plus_remainder_upper": "0.76522401404308382321793928066804554826986389140404",
+    "height_whole_cell_interval_upper": "0.76586516076190991100669333812134048630101553121867",
+    "central_height_absolute_upper": "0.76522401404308382321793928066804554826986389140404",
+    "height_budget_for_conditional_amplitude": "0.76534490873496152625745869125958912289229486632735",
+    "height_budget_margin_lower": "0.00012089469187770303951941059154357462243097492331",
+    "perimeter": {
+      "lower": "14.683872235306699637774785642414893152320099302034",
+      "upper": "14.720383683546246693566649486771651365462248066993"
+    },
+    "a0_exact_enclosure": {
+      "lower": "2.3370108499788997378190655918772432577053067938630",
+      "upper": "2.3428218274456675316248188985584647055550077706299"
+    },
+    "projection_padding_upper": "0.02",
+    "core_diameter_upper": "3.5460170375073400528185723623697894096855180166997",
+    "conditional_witness_distance_lower": "1.0638372380993565357661810744228260322629461121945",
+    "conditional_witness_over_core_D_lower": "0.30000905998104766675697900974152471143223796272685",
+    "conditional_witness_ratio_at_least_03": true,
+    "local_curvature_ceiling_sufficient_for_003_Dcore_budget": true,
+    "full_transition_and_caps_share_projection_height_budget_proved": false,
+    "embedding_proved": false,
+    "reach_lower_proved": false,
+    "task_complete": false
+  },
+  "normal_chord_samples": {
+    "points": 1152,
+    "minimum_normal_chord_radius_sample": 0.21232649795960498,
+    "reach_lower_bound": false,
+    "continuous_or_roundoff_certified": false
+  },
+  "source_files_sha256": {
+    "space_star_frozen_lift_verify.py": "ac054b97be8c5a6b6f386c055383faaad6b98fb2b72fb05318a6c09c1cbeb9e5",
+    "space_star_lift_design.py": "9d058926f9dff6b07fb766e5938eb536f237cb5fcc12fe63c3f8fee3a067bb67",
+    "space_star_flat_core.py": "33fb72c8c1206a2bef257a4067f65100ae87fd4b71ebf63cdc36597b98b558a4",
+    "star_core_geometry.py": "664d20735a5bcb0aa14d9da320bcefea1b571012cb4ba4fe5e80e7f0c50d03a9",
+    "folded_reference_geometry.py": "e912d3ece31e36a76de10cb1a1f40b8d4cd2079a7c8626c0ae85d0083c0de8ab"
+  },
+  "task_complete": false,
+  "elapsed_seconds": 111.088888482,
+  "verifier_source_sha256": "ac054b97be8c5a6b6f386c055383faaad6b98fb2b72fb05318a6c09c1cbeb9e5"
+}
