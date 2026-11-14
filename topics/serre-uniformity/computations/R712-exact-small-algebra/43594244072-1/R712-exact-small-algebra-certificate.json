@@ -1,0 +1,29 @@
+{
+  "result": "R712 exact tame constant and total third derivation",
+  "field": "Q[r]/(r^3-4)",
+  "field_basis": [
+    "1",
+    "r",
+    "r^2"
+  ],
+  "weighted_Bell3_without_beta": [
+    "-2/3",
+    "1/9",
+    "1/3"
+  ],
+  "all_eighteen_labels_factor": 6,
+  "H_v2_at_zero_over_C0": "-1/36",
+  "H_zv_at_zero_over_C0": "0",
+  "L2_constant_over_C0": "17/36",
+  "extra_U3_term": "17*E/216",
+  "total_third_derivation_shift_0": "r**3 - 3*r**2 + 2*r",
+  "total_third_derivation_shift_1_without_p": "e**2*r + 3*e*r**2 - 4*e*r + 3*r**3 - 9*r**2 + 6*r",
+  "total_third_derivation_shift_2_without_p2": "7*e**2*r + 12*e*r**2 - 16*e*r + 6*r**3 - 18*r**2 + 12*r",
+  "A0_mod_p": 6,
+  "A1_over_p_mod_p": -2,
+  "A2_over_p_mod_p": 1,
+  "Q1_r0_mod_p": 6,
+  "all_exact_assertions_passed": true,
+  "actual_M2_or_Delta_at_137147_evaluated": false,
+  "source_sha256": "f9b9c1e401831e025122757ac3ebd4317362bcf462745f273e4bbaba377bc70b"
+}
