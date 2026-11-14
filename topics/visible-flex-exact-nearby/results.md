@@ -277,3 +277,7 @@
 ### R133：完整实δ物理外图的同伦转移合同
 
 见 [fullδ固定物理角外图转移](results/R133-supplement-full-delta-physical-regular-outer-transfer.md)。真实mean与无限physical尾通过准确同伦收费，再实际重付原所有nonlinear/Sobolev/outer端口门。新producer已写，拟数值门待公开执行；未知校正不限制为96模。
+
+### R119：完整 root 波差与真正高消去后的内部差
+
+见 [root-wave 与高 Schur 差](results/R119-supplement-complete-root-wave-network-and-high-Schur-difference.md)。完整mean使strict重付δ^-8，两buffer/root frame给δ^-47全一阶差；真实高Poisson与本层T后内部v^-1差<2^-6000000，深浅规范皆保。另付root谱门后与Q7共同好集交。未覆盖外输入仍收原source，真实low和浅prefix必须继续消元。
