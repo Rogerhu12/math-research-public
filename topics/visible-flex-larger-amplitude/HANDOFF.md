@@ -59,4 +59,4 @@ R255：精确circle/coast强非正规传播，不冒有限φ Jac。R256：exact�
 旧A幅度.0630146<.2；真RK24/48、三mesh、R241 q8全部2157568子对uncovered0已付（连续包络仍条件）。旧GW六节点同raw/mean/g，metric f8/16/48降1.18e−8/1.26e−9/1.62e−10、κ7.646；两旧支封存，不追额外机器六jet门。
 43恢复提交、geometry26/strong90/GW35保全；strong R6失败无接受、raw未全迁，公开源78件匹配原91清单，不读private。重建源均用新身份。
 
-规则同步记录：2026-11-14T13:22:16.641634+00:00 实际pull --rebase成功；双README自a4aa243c无变化，已读提交 22ea9da6450c69d954477ce71b456ab604d49b24。
+规则同步记录：2026-11-14T13:32:35.443055+00:00 实际pull --rebase成功；双README自22ea9da6无变化，已读提交 3e1bb1e94e225ae33c88f4f2d3bf4ebcb9cb4f29。
