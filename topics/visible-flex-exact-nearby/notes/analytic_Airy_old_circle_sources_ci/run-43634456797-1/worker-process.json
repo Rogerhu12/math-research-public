@@ -1,0 +1,70 @@
+{
+  "kind": "actual_public_analytic_Airy_old_circle_sources_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43634456797",
+  "run_attempt": "1",
+  "workflow_commit": "86eb613ed6c1fae0c813b42f60103441a687ed41",
+  "worker_sha256": "5fe4890d5abe3ec0a1bfbde7da9b400d7831394d4e66927f076bc63868ef00ab",
+  "manifest_sha256": "ee066de1b0328b6ede8b2a928680548065f6a8d1ad7d678f3ca515febf834e37",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T19:53:15.272708+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "1a0504e2c18bfb39640e2b288776376603202322",
+      "after": "1a0504e2c18bfb39640e2b288776376603202322",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "1a0504e2c18bfb39640e2b288776376603202322",
+      "after": "c06050debf6de9add5ecad03d273342d71c116cb",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "all_original_target_coefficient_ray_and_amplitude_solves_recomputed": 0,
+  "original_artifact_receipts": [
+    {
+      "name": "root",
+      "run_id": "43616813816",
+      "path": "root/consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+      "bytes": 5923431
+    },
+    {
+      "name": "forcing",
+      "run_id": "43624260519",
+      "path": "forcing/consumers/actual-first-Airy-forcing.json.gz",
+      "sha256": "54a79bf80df641797b28f998fe547c93d64b58ea329b675f3d62d23d4f161d47",
+      "bytes": 6577892
+    },
+    {
+      "name": "directed",
+      "run_id": "43632464994",
+      "path": "directed/consumers/directed-matrix-old-circle-sources.json.gz",
+      "sha256": "3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b",
+      "bytes": 7873296
+    }
+  ],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-analytic-Airy-old-circle-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_analytic_Airy_old_circle_sources_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-analytic-Airy-old-circle-sources-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-analytic-Airy-old-circle-sources-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-analytic-Airy-old-circle-sources-CI-inputs.json",
+    "--manifest-sha",
+    "ee066de1b0328b6ede8b2a928680548065f6a8d1ad7d678f3ca515febf834e37",
+    "--out-dir",
+    "/__w/_temp/visible-exact-analytic-Airy-old-circle-sources-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-analytic-Airy-old-circle-sources-science/originals"
+  ],
+  "complete_original_inputs_verified": 25,
+  "actual_scientific_checkout_commit": "1a0504e2c18bfb39640e2b288776376603202322",
+  "mathematical_wall_seconds": 21.00948508500001
+}
