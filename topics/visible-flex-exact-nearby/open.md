@@ -103,3 +103,5 @@ root管branch/H/open/results/log并逐条审证即推；newton推进源/正high�
 完成子问题立即接下一项；阶段结果、等待进程或时长都不是停止理由。
 
 已补[完整ordered scalar根算子](results/R133-supplement-ordered-scalar-root-operator-and-one-gain-radial-remainder.md)：AC的角一阶项准确消去，真实局部径向系数ηr/η−4b〈S〉+5dφ之外的系数有完整一阶增益；所有投影、独立mean及弱source flux保留。此为实际fold/根连接的完整输入，不授倾斜坐标中的非局部Egorov或strong。
+
+[M32 repair转授合同](results/R133-supplement-exact-M32-repair-transfer-of-cached-positive-high-rows.md)已证：完整旧4650闭行逐字段膨胀、真实mean速率与新同一global Riccati参考、所有源/head/jump及独立外端源均保；只新算scalar sweeps和实际repair/root/外graph门，不重算旧intrinsic格。其M32带宽前提不扩给M96的δ方向，数值逆常数须待新consumer通过。

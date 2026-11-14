@@ -117,3 +117,7 @@
 ### R133 补充：实际有序标量根算子与增益径向余项
 
 **已证明。** [O1–20完整算子恒等式](results/R133-supplement-ordered-scalar-root-operator-and-one-gain-radial-remainder.md)从全两行/mean方程得到D0²+η²K∂²−TD0+V，AC无角一阶项；T的非增益部分准确为ηr/η−4b〈S〉+5dφ，剩余R−1有真实一阶角增益。保完整有限秩投影、primitive、弱源与重建，未把实际type-change连接当成Airy模型已完成。
+
+### R133 补充：完整旧正区高模行的M32精确repair转授
+
+**已证明（解析合同）。** [完整合同](results/R133-supplement-exact-M32-repair-transfer-of-cached-positive-high-rows.md)保4650旧闭行和全部mean、原source/界面身份，明确六个repair范数、反应/非局部/mean行膨胀、新a与完整global Riccati、scalar下比较/Volterra及全193head源。root与外graph须独立转授；不复制旧χ数值，不把M96参数尾塞进M32分母。

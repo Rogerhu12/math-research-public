@@ -415,3 +415,7 @@
 ## 2026-11-14 13:26:25 UTC：全已知响应腰/cut边界源接公开计算
 
 已逐式核完整B1–11和producer/driver/workflow，全部123manifest输入中原117逐SHA不变。真腰0+、精确9/10左迹、96+97全部槽和mean、cap真低误差及独立high源全部保；B_R(Rh)=B_true h消去额外ρ。Fν紧支撑使外cap确为homogeneous，内准解不必继续传播旧外trial残差；未知high输入仍独立。五小文本已接公开workflow，新数学待真实执行，不宣称门已过。
+
+## 2026-11-14 13:28:21 UTC：M32精确repair到完整旧正high行的解析转授已证
+
+审证A1–23逐字段变化、主部mean、新全域Riccati/reference pR、完整source/head/mean与跳；原4650格及intrinsic输入全复用，只需新scalar sweeps与实际root/外graph门。独立结果已写；新数值消费者由newton/phase分别推进，当前不授旧χ为新χ，也不授M96带宽。
