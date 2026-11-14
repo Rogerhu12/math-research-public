@@ -36,3 +36,6 @@
 
 
 - [R611：原三sigma反射、同深负五返回与全carry转置](../results/R611-original-three-sigma-reflection-and-same-depth-negative-five.md)：同一全来源的精确负反射将原矩形送进三域外，完整原测试的负三首行在同深消去，负五和全中央系数在整个原ray为单位。原π4不保反射，故保F/G、七余类及两补偿的完整转置；真实三/四域外积分联立回I1，未赋余补非零或消失。
+
+
+- [R610：原第二Euler导子与两算术来源的真实除p行](../results/R610-original-second-euler-derivation-and-arithmetic-divided-rows.md)：在同一无扭整目标内先除p再约化，下一Euler位成为全目标导子，未经Fermat修正的商保完整Witt乘积缺陷。七原forcing和S/T六个低权整除商全式付清，常数读原中央首行而高项仍unit；保来源稳定性、真前缀和完整第二中央的未付界限。
