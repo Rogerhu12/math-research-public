@@ -297,3 +297,6 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 
 
 **R754（原p41周期及完整Hom核已精确完成）**：[正式证书证明](results/R754-certified-original-p41-periods-and-Hom-kernel.md)绑定实际run43620862489/sourceb36d2c58，核心2183.258616秒。原40加法周期/819边，完整4800×42准确rank36、K核6；全部800×6原闭链第二代回通过，六清分母位长336/628/917/1210/1502/1791，不称p单位或完整整数格。cert SHAda4ef0eeac285da5cf32ad1372155dbb9d03917c18044b81b8236fac6e51107c，完整坐标artifact14125735974。R759正式request已填真run/source/manifest及closed-period SHA，本次触发完整整格/degree；实际函数/β/高度仍开。
+
+
+**R765（原sigma首个受阻系数已证明）**：[完整证明](results/R765-first-obstructed-sigma-coefficient-and-Cartier-unit-residual.md)原低阶T_N满足Q(T_N)=B w^N+O(w^(N+1))，B=3h_N为同一个原Cartier单位。完整二阶导数/指标错位及两相邻总指标的非零二次卷积已展开；原下一项p t_(N+1)≡−6B，其贡献准确消残差，故不存在同低阶的完整Fp方程解。该卷积尚未运输成同一本原h的U_hV_h并保Legendre范数，不能将其当原临界两单位；继续同h非零与真实高度。

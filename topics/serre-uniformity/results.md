@@ -256,3 +256,6 @@
 
 
 - **R754（已证明并精确计算完成）**：[原p41全部周期与完整Hom核](results/R754-certified-original-p41-periods-and-Hom-kernel.md)。公开run43620862489在同一原目标/微分/800闭链上给40加法周期、819边及完整4800×42秩36/K核6；六方向全部800闭链与整数清分母逐一通过。完整阶段坐标/artifact/SHA均保存，真实R759请求接全整数格和次数，未冒称映射/β或高度完成。
+
+
+- **R765（已证明）**：[原sigma首次受阻系数与Cartier单位残差](results/R765-first-obstructed-sigma-coefficient-and-Cartier-unit-residual.md)。原截断二次ODE首残差准确为B=3h_N，原下一项的一p极点恰好抵消；完整有序卷积和指标错位均保。排除把低阶T当完整Fp解，尚未证明同h两Cartier/Norm共同单位。

@@ -155,3 +155,8 @@
 - R754实际run43620862489/sourceb36d2c58成功：40原加法周期/819边、完整4800×42 rank36/K核6，全部800×6原闭链与实际整数清分母通过，2183.258616秒。
 - cert SHAda4ef0eeac285da5cf32ad1372155dbb9d03917c18044b81b8236fac6e51107c，完整artifact14125735974/ZIP26339734B及全部stage SHA已读保存；原模型/拓扑/旧L值未重算。
 - 正式R759 request已填真R754 manifest/cert/closed-period/source，SHAbec5f5a0da04cfe153a57330092e783bf9e8008f08b498ddd88c85eafe590dc2，触发现有公开workflow。R762已推bbb8fd2e，HANDOFF/open/index同步；终端仍不可用，小文本非force继续。
+
+## 2026-11-15 02:15 Asia/Taipei · serre-public-resume-20261114
+- R765原sigma截断Q(T_N)首残差为B=3h_N≠0，原p t_(N+1)=−6B准确消残差；二阶导数边界、完整卷积与全部分母已证，未冒称同h三单位。
+- 证明SHAd0afc6dace9ca2ec6de7d810ed46e70d943de47606dcb17a6a65d6cbde50b206，blob091e9ea9376e45ddb382742f232f84751dc4f0a6；原R698/R574规范已回读，HANDOFF/open/index同步。
+- R754实际证书及R759真请求已推4728e6868e2509556e5c60e138fd97c9b4120d8e；R759 run43625474728已success，正在读实际degree并接R764。终端仍unavailable，仅小文本API非force；无本地数学运行。
