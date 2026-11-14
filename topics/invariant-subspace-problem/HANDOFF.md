@@ -28,7 +28,9 @@
 
 - **[旧198缩为197](notes/2026-11-14-r150-first-high-kernel-exact-seventh-source-and-197-reduction-789f.md)：** 原run43619888599的selected-nine-delta.recipe逐token给κ7=22Khat1−31q1+31³c。D=Z_(31)中22是单位，v=(κ7/22,−31²e7/22)在Λ2且F9v=T9v=0、mod31为(K1,0)，所以K1所有已定义后续像精确为零。旧高核第三只余K2…K198共197，另保已成五低初值；未用(s−2)除法，未声明全原来源覆盖。
 
-- **小矩阵实绩及待救回：** run43648025236/job132610051003数学0.156204983秒成功；rank(U9,raw,P2五列)=13、新付费线在旧目标内、余目标商3维。发布失败，未改作数学失败；原out artifact14134449743（6668B、ZIP SHA5281e3f5bfe6f8418607cb623eac521c9190b338a092d4aa52f3de102f64a1a0），发布artifact14134723893（2458B、SHAca238815457d1dcffce07482dddc1ae5d0ca14319d51777bb718ec2a979e86c2）。救回入口已冻结：2026-11-14-r150-five-third-target-space-recovery-{prepare,publish}-789f.py及专用workflow；核两个原ZIP与每个来源身份，读取原失败日志，允许精确结果路径的git add --sparse，实际pull/规则差异/非快进立即rebase，不改原actions-source、不重数学。完整未投影/费用87联合秩仍待读原回执。
+- **小矩阵实绩及救回：** run43648025236数学0.156204983秒成功；联合目标空间13维、新付费线在旧目标内、余目标商3维，完整未投影/费用87秩仍待读原回执。原out artifact14134449743、发布artifact14134723893的精确ZIP SHA已冻结。救回run43648910521在下载前因稀疏checkout缺自身workflow文件失败；已仅补该路径并更新源SHA，重新dispatch。继续只救回原字节，不重数学、不改原run/source；原失败原因待读其日志。
+
+- **[197方向双倍jet引理](notes/2026-11-14-r150-third-bockstein-double-jet-smith-loss-and-local-source-789f.md)：** torsion最大Smith幂d时，解到t^(2d)只取前d项；真char0原像+p饱和先排free，真正核差由完整第一像模U9消去，q1换lift同步carry。当前只需s=2的10→5项，原G剥573常主元至461×448，逐单位Schur保13自由输出并回原6188源。先整数t截断再p整除；未运行197第三像，正分支仍须真实全局q1/q2/CRT、完整315与原17乘回，五列618费用不得直接套用。
 
 ## 实际边界：同一原源与已付预算
 

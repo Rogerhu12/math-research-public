@@ -26,6 +26,7 @@ jobs:
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
+            /.github/workflows/invariant-subspace-r150-five-third-target-space-recovery.yml
             /README.md
             /topics/invariant-subspace-problem/README.md
             /topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-target-space-recovery-prepare-789f.py
