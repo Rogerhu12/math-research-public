@@ -1,0 +1,153 @@
+name: visible-exact fixed eta physical cap coefficient pilot
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-fixed-eta-physical-cap-pilot.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-fixed-eta-physical-cap-pilot
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  HESSIAN_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-fixed-eta-physical-cap-pilot-CI-inputs.json
+  HESSIAN_MANIFEST_SHA: 0e0c95425c53d9fa0d3287f656b9ac478483ff03b159a5412048b39e04f5ffad
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+  REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+
+jobs:
+  particular:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 100
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out exact sources and reviewed rules
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-fixed-eta-physical-cap-pilot-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Hydrate unchanged inputs and recover only owned actual prefixes
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$HESSIAN_MANIFEST" --manifest-sha "$HESSIAN_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/fixed_eta_physical_cap_pilot_ci/
+      - name: Parse new sources before any new mathematics
+        run: |
+          python - <<'PY_AST'
+          import ast,pathlib
+          root=pathlib.Path('topics/visible-flex-exact-nearby/scripts')
+          for name in ('fourfold_codazzi_fixed_eta_physical_cap_pilot.py','fourfold_codazzi_fixed_eta_physical_cap_pilot_CI.py'):
+              ast.parse((root/name).read_text(),filename=name)
+          print('New fixed-eta physical coefficient pilot sources passed AST parsing; mathematics has not run.')
+          PY_AST
+      - name: Install the pinned directed arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Set actual container-visible artifact paths
+        id: paths
+        run: |
+          printf 'prepared=%s\n' "$RUNNER_TEMP/visible-exact-fixed-eta-cap-prepared" >> "$GITHUB_OUTPUT"
+          printf 'pilot=%s\n' "$RUNNER_TEMP/visible-exact-fixed-eta-cap-pilot" >> "$GITHUB_OUTPUT"
+          printf 'complete=%s\n' "$RUNNER_TEMP/visible-exact-fixed-eta-cap-complete" >> "$GITHUB_OUTPUT"
+          printf 'ranges=%s\n' "$RUNNER_TEMP/visible-exact-fixed-eta-cap-ranges" >> "$GITHUB_OUTPUT"
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-fixed-eta-cap-output" >> "$GITHUB_OUTPUT"
+      - name: Receive unchanged complete original cap arrays
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43580498603
+          name: visible-exact-cap128-prepared-43580498603-1
+          path: ${{ steps.paths.outputs.prepared }}
+      - name: Receive the actual successful original fixed complete w0
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43610982446
+          name: visible-exact-known-cut-direction-cap-pilot-v3-43610982446-1
+          path: ${{ steps.paths.outputs.pilot }}
+      - name: Receive the exact complete1977 source receipts and all true boundary loads
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43615251195
+          name: visible-exact-complete-cut-Z-finish-43615251195-1
+          path: ${{ steps.paths.outputs.complete }}
+      - name: Receive all four original direct one-column ranges without recomputing a cell
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43615251195
+          pattern: visible-exact-complete-cut-Z-range-*-43615251195-1
+          merge-multiple: false
+          path: ${{ steps.paths.outputs.ranges }}
+      - name: Run only the336 new coefficient domains with true ten-minute checkpoints
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_fixed_eta_physical_cap_pilot_CI.py
+          --manifest "$HESSIAN_MANIFEST" --manifest-sha "$HESSIAN_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --prepared "$RUNNER_TEMP/visible-exact-fixed-eta-cap-prepared"
+          --pilot-artifact "$RUNNER_TEMP/visible-exact-fixed-eta-cap-pilot"
+          --complete-artifact "$RUNNER_TEMP/visible-exact-fixed-eta-cap-complete"
+          --range-artifacts "$RUNNER_TEMP/visible-exact-fixed-eta-cap-ranges"
+          --work "$RUNNER_TEMP/visible-exact-fixed-eta-cap-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-fixed-eta-cap-output"
+          --compute-minutes 75 --checkpoint-minutes 10
+      - name: Require nonempty actual evidence and a small inventory
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.paths.outputs.output }}
+        run: |
+          python - <<'PY_INVENTORY'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          files=sorted(p for p in root.rglob('*') if p.is_file()) if root.exists() else []
+          if not files or not any(p.stat().st_size for p in files):
+              raise RuntimeError('no actual nonempty process evidence exists')
+          entries=[dict(path=str(p.relative_to(root)),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files]
+          data=(json.dumps(entries,indent=2)+'\n').encode()
+          if len(data)>60000:raise RuntimeError('inventory exceeded60000 bytes; retain every original evidence file')
+          (root/'artifact-inventory.json').write_bytes(data)
+          print(dict(actual_files=len(files),actual_inventory_bytes=len(data)))
+          PY_INVENTORY
+      - name: Preserve the full native and every actual failed prefix
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-fixed-eta-physical-cap-pilot-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: error

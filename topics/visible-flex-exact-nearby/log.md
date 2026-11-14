@@ -95,3 +95,7 @@ root完整读source/CI/合同/flow并核230vs218全部原SHA零变；tail核G5�
 ### 2026-11-14 17:05:05 UTC — 亲核真实Hessian→同Z Green重权并独立推
 
 root核实际job success、9009B process37e6e68f…与23864B summarybfe332c6…，全部7门及0旧传播，原三artifactprocess身份独立保。末次真pull16:56:52至afadab246bd2ff5f20f938ab43ef1890f86b5c23，四次两README diff空。原中途actual_rescaled字段6144是每1024保存的前缀；终门/native完整profiles/worker complete_segments均为6391，未误当6144完成数。负窗.146218141878仍为上界且未过1/200，继续ordinary-only及物理dB。
+
+### 2026-11-14 17:09:11 UTC — 固定η0物理帽336新域pilot已核推
+
+独立读source/contract/CI/flow，原152输入在156pin清单中零变。原1977 direct one-column来自四range加16pilot，14完整gain与六端点负荷均复用；仅最大16个dB父格的新fixedη0 whole/quarter/sixteenth域重建严格系数，336请求保存前缀。不同Fourier/Taylor模型的八源整组择一，最后比较完整总误差，禁止逐分项min混模型。真实9/10首Hermite外推、mean与无限余项保，待公开实际结果。
