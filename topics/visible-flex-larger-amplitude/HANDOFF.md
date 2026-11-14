@@ -43,4 +43,4 @@ R241完整参数块门同时排自交/瓶颈，给reach。v2真实D+=3.980751407
 逐结论普通push并保持本H最新；取回包有失败仍保原日志。request02/run43584222071三lane均已完成、产物已原bot发布。request03/q4仅geometry已推9fa090d6；request04仅coupling使用full_dn_prefix_controls.py：3支撑(.05,.30)/(.35,.60)/(.65,.90)乘原prefix_end，v2完整序列化supports/poly/p*/源SHA，绝不旧supports解释新p。保原690点、补原RMS两Lobatto点；仅新增p0点重采原analytic seed。原QR+完整SVD/近核/分块linear残差实际记录；原门不变。真接受后自动prefix_controls_readout及large_core_closed_assembly all，用新场自身H尾/完整mean/单SE2/全角patch；原G不能越过配准直接当新幅度。新真实coupled field后做完整六jet/实际角谱/C²闭组装/大幅见证/全t覆盖；设计定型才固定同g精化。任何分项完成继续open下一项。
 原publisher缺identity已修；遇README变动正确退出保artifact，由root读差异后归档。公开源仅78实际消费件，逐件匹配原91清单SHA（12未迁移MD+1未用client排除），只取公开repo，无私仓secret。临时传输分支仅上传本题大blob帮助繁忙main普通rebase推送，成功主线含全部数据，禁止force。
 
-规则同步记录：2026-11-14T10:27:19.819042+00:00 实际pull --rebase成功；双README自3725b8e无变化，已读提交 7cb71093f8adc954aafeafb1ae40f18f91abd4c5。
+规则同步记录：2026-11-14T10:32:00.368795+00:00 实际pull --rebase成功；双README自8059236无变化，已读提交 684873d6719d1b965c81c18634ed8ab2554da505。
