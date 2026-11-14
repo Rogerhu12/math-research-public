@@ -217,3 +217,6 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 
 
 **R764（全部原尖点像和c0平移已精确完成）**：[正式结果](results/R764-certified-original-cusp-images-and-base-translation.md)公开run43626804312/source6d685485、0.440895936秒，十九原树边精确K周期及完整20×12标签均过；每个完整整数格基的cusp计数(20,0,0)，实际degree余数(1,0,0)，c0平移泛函全0并满足ζ不变。因此所选d1206及全格均fP=f0、全部cusps送O。cert f23a1e1ee3059d5608edffc3e53d739fce6bb553c9449e04330b267e4b7c588a，完整artifact14127135207。实际函数/β/高度继续。
+
+
+**R767（原商低权RR构造与严格短前缀已证明）**：[完整证明](results/R767-original-quotient-low-weight-RR-basis-and-cusp-order-bound.md)原level82权二维146由全level权一Eisenstein积/原126项平均张成，无权二L值例外；其正常生成给H0(6L)维1506，四层椭圆主部再补8成M12维1514。准确div_W(t²Δ)=2(t)0及原cusp常数−1/6912给真实RR基。实际d1206时kernel308/rank2720；原R745早期minor给e≤19，P处极点完整扣除后2847行、基至2846、原h前缀8557足够。当前是证明/待运行工程，具体有限minor/基recipe/函数尚未完成。

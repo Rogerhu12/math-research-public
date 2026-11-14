@@ -265,3 +265,6 @@
 
 
 - **R764（已证明并精确计算完成）**：[原全部尖点像与基点平移](results/R764-certified-original-cusp-images-and-base-translation.md)。公开run43626804312完整十九树边/20×12标签与degree模3均通过，十二整数格基全部cusps及c0均映O，原全格平移泛函全0；所选degree1206的fP即原f0。核心0.441秒，原函数/β/高度尚待恢复。
+
+
+- **R767（已证明）**：[原商低权Riemann–Roch基及真实尖点阶界](results/R767-original-quotient-low-weight-RR-basis-and-cusp-order-bound.md)。原level82权二146维、正常生成与8个椭圆主部给权十二1514维；除以真实t²Δ即L(2(t)0)基。R745原minor给e≤19，完整零极点计数把恢复降至2847行、基前缀2846和Hodge8557；具体基/函数由公开计算继续，未预填数值秩。
