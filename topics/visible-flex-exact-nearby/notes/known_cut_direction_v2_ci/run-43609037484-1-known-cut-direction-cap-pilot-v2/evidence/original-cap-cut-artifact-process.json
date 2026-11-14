@@ -1,0 +1,131 @@
+{
+  "kind": "actual_public_complete_cap_and_true_cut_consumer_process",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43587619797",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "b93d5f84bbdc053a4fd61df48c185c4b9af77867",
+  "worker_source_sha256": "699a7047fda254752d7d1ad41e5fae2c91851517fa43481af67c7b63572a4e61",
+  "started_utc": "2026-11-14T10:57:13.200472+00:00",
+  "children": [
+    {
+      "label": "actual_complete_cap_Hessian_low_high_mean_and_full_Gram_consumer",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-complete-cap-cut-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_cap_cut_consumer.py",
+        "--cap",
+        "/__w/_temp/visible-exact-original-complete-cap/native/complete-cap-native.json.gz",
+        "--actual-process",
+        "/__w/_temp/visible-exact-original-complete-cap/process.json",
+        "--hessian",
+        "/__w/_temp/visible-exact-complete-cap-cut-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-cap-trial-local-Hessian-native.json.gz",
+        "--cut",
+        "/__w/_temp/visible-exact-complete-cap-cut-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-moving-cap-cut-boundary-v2-native.json.gz",
+        "--out",
+        "/__w/_temp/visible-exact-complete-cap-cut/native/complete-cap-and-true-moving-cut-native.json.gz"
+      ],
+      "started_utc": "2026-11-14T10:57:14.503707+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 5.000542109999969,
+      "finished_utc": "2026-11-14T10:57:19.504515+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T10:57:14.491973+00:00",
+      "before": "41e440a2f2796f8cfdd353a901667d03a74b1d66",
+      "after": "384dbfa949b30e77fb6722bf3150a32473b2f808",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:57:20.309280+00:00",
+      "before": "384dbfa949b30e77fb6722bf3150a32473b2f808",
+      "after": "d8a778fcf4edabfc198f81cb99c74279892194a6",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:57:22.150946+00:00",
+      "before": "d8a778fcf4edabfc198f81cb99c74279892194a6",
+      "after": "b0ce34db8b6726b673985362d219c113d120347a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T10:57:21.760834+00:00",
+      "final": false,
+      "commit": "b0ce34db8b6726b673985362d219c113d120347a"
+    },
+    {
+      "time": "2026-11-14T10:57:23.531066+00:00",
+      "final": true,
+      "commit": "dd4dc245a8b4c60a02afefffb80633a8052882e7"
+    }
+  ],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_completed_cap_run": 43583838015,
+  "original_complete_cap_rows_recomputed": 0,
+  "physical_parameter_half_width": "1/1000000000",
+  "actual_moving_parameter_offset": "0",
+  "continuous_BVP_inverse_proved": false,
+  "input_manifest_sha256": "7191a7db5b48501128249c59d777e4617eebd13f5e24ddd6f455801d0dbc8970",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "b0ce34db8b6726b673985362d219c113d120347a",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-cap-cut-work/science",
+  "snapshot_utc": "2026-11-14T10:57:22.161562+00:00",
+  "wall_seconds": 8.961787657999992,
+  "native_files": [
+    {
+      "logical_file": "evidence/complete-cap-and-cut-summary.json",
+      "file": "evidence/complete-cap-and-cut-summary.json",
+      "bytes": 10368,
+      "sha256": "6938b79b6ab3e7574c81f72232da06f8b79cc1a46c3364f4491679824d644de6"
+    },
+    {
+      "logical_file": "evidence/original-complete-cap-process.json",
+      "file": "evidence/original-complete-cap-process.json",
+      "bytes": 15346,
+      "sha256": "b4cc859b9a1987da485cb4d7bc76aab00c2f009d9552bccbd1916d4a9d37f5fd"
+    },
+    {
+      "logical_file": "native/complete-cap-and-true-moving-cut-native.json.gz",
+      "file": "native/complete-cap-and-true-moving-cut-native.json.gz",
+      "bytes": 2854,
+      "sha256": "36f498e3b0addbb46290c12fae6b63af7673db20ba230e22dd83809d18427104"
+    }
+  ],
+  "complete_native_sha256": "36f498e3b0addbb46290c12fae6b63af7673db20ba230e22dd83809d18427104",
+  "true_complete_cap_and_cut_boundary_budget_paid": true,
+  "actual_gates": 14,
+  "true_parameter_Schur_nonzero_proved": false,
+  "finished_utc": "2026-11-14T10:57:21.763892+00:00"
+}
