@@ -139,7 +139,7 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **已闭全部低本质三次层。** [总定理](results/R150-appendix-all-essential-cubic-dimensions-at-most-three-have-zero-matched-bell-values.md)：essT3≤3临界三Bell零；ess≤2仅迫T3=0，rank1/ess3为空，Cat2/3的W±/Q|T3判据保。非零Bell余点必ess4/5/6，自然幂未付。
 
-**高本质rank1原中心17式。** 原M5为6188×4367、泛秩4354；rankAy8与0/2/−6/∞已闭，余g≠0/rankAy9有限Σ、char0 I*C=T及真实分母。完整原NF/GB/全torsion315、九目标Ann24、GQ=hT及失败前缀保[此前全文](notes/2026-11-14-open-before-common-spectrum-789f.md)。[固定T96图](notes/2026-11-14-r150-reweighted-graph-projection-789f.md)保T64实际202个非零来源主元输出，输出次数和716认证全投影；九目标来源≤146−δ、常预基补偿≤136，单次本库计算待实际回执。候选h0=s³(s−2)F+²F−²E8仍需char0原证书；线性逆最小分母46次Dlin不可删非线性/Γ降成h0；旧std与高次数反向DAG不重跑。
+**高本质rank1原中心17式。** 原M5为6188×4367、泛秩4354；rankAy8与0/2/−6/∞已闭，余g≠0/rankAy9有限Σ、char0 I*C=T及真实分母。完整原NF/GB/全torsion315、九目标Ann24、GQ=hT及失败前缀保[此前全文](notes/2026-11-14-open-before-common-spectrum-789f.md)。[固定T96图](notes/2026-11-14-r150-reweighted-graph-projection-789f.md)保T64实际202个非零来源主元输出，输出次数和716认证全投影；九目标来源≤146−δ、常预基补偿≤136，单次本库计算待实际回执。[原17式恢复接口](notes/2026-11-14-r150-original-seventeen-t96-source-recovery-789f.md)已付全DAG/正规化运输与136次界，已编译但数学未运行。候选h0=s³(s−2)F+²F−²E8仍需char0原证书；线性逆最小分母46次Dlin不可删非线性/Γ降成h0；旧std与高次数反向DAG不重跑。
 
 [射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)已保∞并给74次K_h下因子：若有限个真实4354子式模31的齐次gcd总次数达74，即可推出char0坏点全已闭，cofactor+Bézout给原证书分母K(s)度60。该条件现于模31不成立：[∞全原来源一阶连接](results/R150-appendix-original-infinity-jet-and-mod31-determinantal-thickness.md)给∞阶≥24，配仿射315次得到齐次≥339。九目标24次Ann仍是另一个对象，char0原证书继续。其他mean秩的高ess仍另开。
 

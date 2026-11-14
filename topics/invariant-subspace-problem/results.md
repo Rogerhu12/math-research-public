@@ -875,3 +875,7 @@
 ### R297 附录：临界偶数池的完整共同谱和真实源相位矩
 
 [完整物理证明](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)在旧2s位完整H_(s−1)层证明F=dd*与Q=e*e严格交换。连接S=e_middle d_middle†经补集成为自伴可逆T=p⁻¹D T0 D，T与F交换且T²=F⁻¹Q；同一primitive源V准确给G=P F⁻¹P、L=P T²P、4G+R=P F T²P及H0的共同矩表示。真实源还满足Tv=σp⁻¹D²v和PTP严格定号。一般共同谱矩不足候选相位界，不能删实际V约束或同符号低birth的Schur；有限弱位硬端界尚未由此证明。
+
+### R150 附录：T96正常形证书回原十七式的完整有界接口
+
+[完整来源算法](notes/2026-11-14-r150-original-seventeen-t96-source-recovery-789f.md)保原11物理N与6Γ、6188原行和九目标，准确给β=h31J−HC，再将25305683正常形记录、1010703后向与782976前向操作逆序运输至原行，最后恢复D/content比例。真实系数界136、完整乘积界146均已证明；C++已编译、runner已解析，准备核4367×147×9全部原系数。当前尚未取得T96系数或运行回代，不能称原17式或char0恒等式已成；超5MB完整gzip按有序分片和整体哈希保存。

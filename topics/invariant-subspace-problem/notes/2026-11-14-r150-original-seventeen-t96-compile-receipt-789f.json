@@ -1,0 +1,32 @@
+{
+  "format": "r150-original-seventeen-t96-compile-v1",
+  "status": "compiled-and-parsed",
+  "mathematicalExecution": false,
+  "compileOptions": [
+    "-O2",
+    "-std=c++17"
+  ],
+  "compileLimits": {
+    "seconds": 30,
+    "memoryMiB": 512
+  },
+  "files": [
+    {
+      "file": "2026-11-14-r150-original-seventeen-t96-lift-789f.cpp",
+      "bytes": 15131,
+      "sha256": "96153b31e07ec509c72fa9d06d0ef37ab80b7b13f4dd44dccb1d55ef2f5cd531"
+    },
+    {
+      "file": "2026-11-14-r150-original-seventeen-t96-lift-runner-789f.py",
+      "bytes": 11516,
+      "sha256": "e01b291617cf7c53e24a16119da6d5edb4d82953d850e7a5882d23df4ea164c3"
+    },
+    {
+      "file": "2026-11-14-r150-original-seventeen-t96-source-recovery-789f.md",
+      "bytes": 8138,
+      "sha256": "068ed1e07e2ac6fb771577c8bea5659dc16e5f146a12cfb1047399ca4159c6b8"
+    }
+  ],
+  "binarySHA256": "14d2b31712d3f6d4798097ca58d73938ed0c14ff823414ad16c67380618402f9",
+  "runnerUpdate": "Complete over-limit gzip is preserved in ordered 4,000,000-byte parts and aggregate/per-part SHA256 manifest; CI native- input names accepted."
+}
