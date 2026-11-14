@@ -1,0 +1,157 @@
+{
+  "kind": "actual_correlated_body_polynomial_method_and_selected_rows",
+  "complete_full_body": false,
+  "complete_mean_error_flow": false,
+  "complete_inverse": false,
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "original_operator_not_relabelled_as_continuous_repair": true,
+  "actual_completed_rows": [
+    {
+      "common_row": 0,
+      "file": "notes/2026-11-14-R133-correlated-body-row0000-native.json.gz",
+      "sha256": "feb3bbf9294dc995b88f5dc7c1e2ba866d3bd8c22dc84834dda7591cc9f644f0",
+      "selected_indices": [
+        0,
+        1
+      ],
+      "mathematical_rows": 1,
+      "whole_parameter_half_width": "1/1000000000"
+    },
+    {
+      "common_row": 477,
+      "file": "notes/2026-11-14-R133-correlated-body-row0477-native.json.gz",
+      "sha256": "a4a128522a6d964fd9bc9aeb86010d2781134c6fe053d702f5b9fde98d6567b5",
+      "selected_indices": [
+        477,
+        478
+      ],
+      "mathematical_rows": 1,
+      "whole_parameter_half_width": "1/1000000000"
+    },
+    {
+      "common_row": 1000,
+      "file": "notes/2026-11-14-R133-correlated-body-row1000-native.json.gz",
+      "sha256": "5b32775d73fade0145418f69468efd5867894d6523a84fda9da32d0e593af2ec",
+      "selected_indices": [
+        1000,
+        1001
+      ],
+      "mathematical_rows": 1,
+      "whole_parameter_half_width": "1/1000000000"
+    },
+    {
+      "common_row": 6000,
+      "file": "notes/2026-11-14-R133-correlated-body-row6000-native.json.gz",
+      "sha256": "084def0062d835d1c05a557f1384f947bd7ed0b14eef0b02b01832b8723eec6b",
+      "selected_indices": [
+        6000,
+        6001
+      ],
+      "mathematical_rows": 1,
+      "whole_parameter_half_width": "1/1000000000"
+    },
+    {
+      "common_row": 7719,
+      "file": "notes/2026-11-14-R133-correlated-body-row7719-native.json.gz",
+      "sha256": "48b821e306e91046fbaeed8434a7b5c56db2ffde56f2084e944b25959deabd1f",
+      "selected_indices": [
+        7719,
+        7720
+      ],
+      "mathematical_rows": 1,
+      "whole_parameter_half_width": "1/1000000000"
+    }
+  ],
+  "total_original_cells": 7721,
+  "actual_active_chains": [
+    {
+      "session": 7317,
+      "work": "/workspace/scratch/ac0d699811ad/regular-head-consumers-20261114/correlated-chain-left",
+      "requested_indices": [
+        0,
+        4000
+      ]
+    },
+    {
+      "session": 51576,
+      "work": "/workspace/scratch/ac0d699811ad/regular-head-consumers-20261114/correlated-chain-right-v2",
+      "requested_indices": [
+        4000,
+        7721
+      ]
+    }
+  ],
+  "chain_skips_all_five_actual_successful_rows": true,
+  "actual_process_path_typo_before_right_restart": {
+    "kind": "actual_correlated_chain_command_path_typo",
+    "actual_tool_exit_code": 1,
+    "exception": "FileNotFoundError",
+    "stage": "initial exact input identity check before any child or mathematical row",
+    "native_created": false,
+    "correct_response_path": "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-nonmean.json",
+    "math_source_changed": false
+  },
+  "inputs_and_commands": "The actual successful per-row process JSONs bind all full input paths and exact command arguments. The published common six-stage runner restores ac1; full all-regular q/psi trial reconstruction is in the earlier published complete-response/adjoint record.",
+  "files": {
+    "notes/2026-11-14-R133-correlated-body-row0000-native.json.gz": {
+      "sha256": "feb3bbf9294dc995b88f5dc7c1e2ba866d3bd8c22dc84834dda7591cc9f644f0",
+      "bytes": 8201
+    },
+    "notes/2026-11-14-R133-correlated-body-row0477-native.json.gz": {
+      "sha256": "a4a128522a6d964fd9bc9aeb86010d2781134c6fe053d702f5b9fde98d6567b5",
+      "bytes": 8217
+    },
+    "notes/2026-11-14-R133-correlated-body-row0477-process.json": {
+      "sha256": "18d64720714ef39808862c20a3b08bd5bac105941f54d4763af1b0b0c8f9a508",
+      "bytes": 1356
+    },
+    "notes/2026-11-14-R133-correlated-body-row1000-native.json.gz": {
+      "sha256": "5b32775d73fade0145418f69468efd5867894d6523a84fda9da32d0e593af2ec",
+      "bytes": 8159
+    },
+    "notes/2026-11-14-R133-correlated-body-row1000-process.json": {
+      "sha256": "e4cfb272be2a883b7bf75c65ad24e08eadd668c3fab29fae93022b06ef535e75",
+      "bytes": 1358
+    },
+    "notes/2026-11-14-R133-correlated-body-row6000-native.json.gz": {
+      "sha256": "084def0062d835d1c05a557f1384f947bd7ed0b14eef0b02b01832b8723eec6b",
+      "bytes": 8153
+    },
+    "notes/2026-11-14-R133-correlated-body-row6000-process.json": {
+      "sha256": "c2e94403a993a57dcdc12641182d7a4e883be09811bf066c5b87510e286704a0",
+      "bytes": 1358
+    },
+    "notes/2026-11-14-R133-correlated-body-row7719-native.json.gz": {
+      "sha256": "48b821e306e91046fbaeed8434a7b5c56db2ffde56f2084e944b25959deabd1f",
+      "bytes": 8078
+    },
+    "notes/2026-11-14-R133-correlated-body-row7719-process.json": {
+      "sha256": "c469a1cbb4e0c7b611f9b745bf63e2e148d97091190cb9eb3f6d3ad173a836b9",
+      "bytes": 1358
+    },
+    "notes/2026-11-14-R133-correlated-body-row477-profile-failure.json": {
+      "sha256": "453ab9bd34931aab2c0ded8325ad3b53d1242454529c90b5d311c4e6db38dfd9",
+      "bytes": 719
+    },
+    "scripts/fourfold_codazzi_correlated_radial_Fourier.py": {
+      "sha256": "18de4ef746eed069a9a92ba783d54e2f394887866d60cbb286502b9c55cb17c5",
+      "bytes": 10940
+    },
+    "scripts/fourfold_codazzi_correlated_head_residual_rows.py": {
+      "sha256": "1651f6cf73af9f3c16061767cc5acff0c452ada183422f7efb983ec8a6d4eb07",
+      "bytes": 13043
+    },
+    "scripts/fourfold_codazzi_correlated_mean_error_consumer.py": {
+      "sha256": "8d151648278cc122e27383ff3e5de88fe6695b983d11a57d27e74f6325ce6cbb",
+      "bytes": 10587
+    },
+    "scripts/fourfold_codazzi_correlated_body_chain.py": {
+      "sha256": "5fe305d2464ea48a26b8ef177df97e7c9a570765d610e207e995283f65e0b663",
+      "bytes": 6275
+    },
+    "results/R133-supplement-correlated-radial-body-residual-and-mean-error-flow.md": {
+      "sha256": "8d97d6dc3683b5f78e53c8898e55b9602e67974960a867c95d5f7c73742ecf9a",
+      "bytes": 8225
+    }
+  }
+}

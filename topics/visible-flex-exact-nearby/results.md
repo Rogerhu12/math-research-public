@@ -13,3 +13,5 @@
 - [R119完整低锥与显式外块crossing费用](results/R119-supplement-complete-low-cone-and-explicit-exterior-crossing-form.md)：恢复第74束同一方向的完整低锥/外块负项估计；重新执行76准确门，保全H4范数和Young交叉费及明确高频定位门。尚须证明整个网络近核满足该定位条件。
 
 - [R119真实物理root两迹与中心定位](results/R119-supplement-actual-physical-root-packets-and-center-localization.md)：恢复第75束真实physical两迹、全部角图/normal shear/mean的有序Duhamel H5→H4比较；重新执行69准确门，低Cauchy输入包的无限输出满足中心定位。完整网络近核属于该输入子空间仍待；原加号澄清前正文保留。
+
+- [R133共同径向残差与准确mean误差流](results/R133-supplement-correlated-radial-body-residual-and-mean-error-flow.md)：恢复共同径向多项式相关抵消及两条mean误差ODE，保实际五片0/477/1000/6000/7719的原native和失败记录；这是原ac1算子下的方法与已算片，全部7721片及向连续修复中心的转移仍待。

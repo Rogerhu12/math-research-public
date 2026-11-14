@@ -1,0 +1,30 @@
+{
+  "command": [
+    "python3",
+    "-u",
+    "scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+    "--candidate",
+    "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+    "--mean",
+    "/workspace/scratch/ac0d699811ad/final-mean-20261114/attempt01/native.json.gz",
+    "--response",
+    "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-nonmean.json",
+    "--adjoint",
+    "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-nonmean.json",
+    "--first",
+    "7719",
+    "--count",
+    "1",
+    "--out",
+    "/workspace/scratch/ac0d699811ad/regular-head-consumers-20261114/correlated-v1-row7719-bounded-native.json.gz"
+  ],
+  "cwd": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+  "source_sha256": "1651f6cf73af9f3c16061767cc5acff0c452ada183422f7efb983ec8a6d4eb07",
+  "started_utc": "2026-11-14T08:07:36.328294+00:00",
+  "state": "finished",
+  "address_space_MiB": 1792,
+  "actual_returncode": 0,
+  "wall_seconds": 11.248669487998995,
+  "maximum_child_RSS_KiB": 404756,
+  "finished_utc": "2026-11-14T08:07:47.577007+00:00"
+}
