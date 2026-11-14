@@ -1,0 +1,164 @@
+{
+  "kind": "actual_public_cached_full193_matrix_pilot_process_v1",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43645186441",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "7d615390cf35c88dbf85159873a807df4eff5154",
+  "worker_source_sha256": "dcdf2ae60435d942cc3139920214d9b071b7b54c60b79a97b6616df250dcfed9",
+  "started_utc": "2026-11-14T21:54:18.418507+00:00",
+  "children": [
+    {
+      "label": "new_complete193_by193_local_polynomials_from_four_exact_cached_rows",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-cached-full193-matrix-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_full193_matrix_pilot.py",
+        "--summary-dir",
+        "/__w/_temp/visible-exact-cached-full193-matrix-work/science/topics/visible-flex-exact-nearby/notes/regular_cut_validator_ci/run-43591378059-1-complete-projector-four-cell-pilot/evidence",
+        "--arrays",
+        "/__w/_temp/visible-exact-cached-full193-matrix-output/matrices",
+        "--out",
+        "/__w/_temp/visible-exact-cached-full193-matrix-output/native/complete-four-cached-full193-matrix-polynomials.json.gz",
+        "--degree",
+        "24",
+        "--bits",
+        "256"
+      ],
+      "started_utc": "2026-11-14T21:54:20.996873+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 165.00496372499998,
+      "finished_utc": "2026-11-14T21:57:06.002451+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T21:54:18.730981+00:00",
+      "before": "7d615390cf35c88dbf85159873a807df4eff5154",
+      "after": "7d615390cf35c88dbf85159873a807df4eff5154",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T21:54:19.035015+00:00",
+      "before": "7d615390cf35c88dbf85159873a807df4eff5154",
+      "after": "7d615390cf35c88dbf85159873a807df4eff5154",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T21:57:07.162550+00:00",
+      "before": "7d615390cf35c88dbf85159873a807df4eff5154",
+      "after": "65960193d61ee81885c8e102f2189429f7014efa",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T21:57:09.200517+00:00",
+      "before": "65960193d61ee81885c8e102f2189429f7014efa",
+      "after": "8ab16ca804845b340d537c5067ae1f679a5e8325",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T21:54:20.994920+00:00",
+      "final": false,
+      "commit": "e2d46e1e715eeb08a740fa1a4a7f45ff27e5529e"
+    },
+    {
+      "time": "2026-11-14T21:57:08.829956+00:00",
+      "final": false,
+      "commit": "8ab16ca804845b340d537c5067ae1f679a5e8325"
+    }
+  ],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_projector_pilot_run": 43591378059,
+  "original_all_projector_run": 43594139132,
+  "original_successful_projector_or_target_cells_recomputed": 0,
+  "original_Q_anchors_not_used_as_full_matrix_propagators": true,
+  "requested_original_indices": [
+    0,
+    76,
+    3300,
+    5969
+  ],
+  "full5970_matrix_cover_claimed": false,
+  "directional_full_BVP_inverse_bound_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "input_manifest_sha256": "e15a4e56df96b96bdd8f2bd8628f6985518b140978912fa3d45aad7e6c265936",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "8ab16ca804845b340d537c5067ae1f679a5e8325",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-cached-full193-matrix-work/science",
+  "actual_original_summary_sha256": {
+    "0": "1fa04778469adb063456274d279f0bd3cbd6546bad005309d2e88b27d44e4d64",
+    "76": "d70ac90cce4c58733ad92966a0a07dc9b8e954c5a410a6d1bfea08b18f12c98e",
+    "3300": "7cf30d14cf26c62573c66666843dabea9ceebfc874a7eb0654a1265e7c510037",
+    "5969": "8669aa0ec4610eae56fe787d38c4fcf4c34c23134a3fc7f4060cb353feb5d251"
+  },
+  "snapshot_utc": "2026-11-14T21:57:09.226102+00:00",
+  "wall_seconds": 170.80815682,
+  "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-full193-matrix-outcome.json",
+      "file": "evidence/actual-latest-full193-matrix-outcome.json",
+      "bytes": 18653,
+      "sha256": "aa9eafe1bb347fe24119c3d2edee6a1e8e2aba230e4c95c715f94e0c9538b39e"
+    },
+    {
+      "logical_file": "evidence/complete-cached-full193-matrix-pilot-summary.json",
+      "file": "evidence/complete-cached-full193-matrix-pilot-summary.json",
+      "bytes": 20275,
+      "sha256": "e595e2457d765e61052370032f7095643e0715f8d07fe4eeeabf8a087d912727"
+    },
+    {
+      "logical_file": "evidence/complete-matrix-array-origin-inventory.json",
+      "file": "evidence/complete-matrix-array-origin-inventory.json",
+      "bytes": 8604,
+      "sha256": "a9314ab0b6a69a694fcb45b14d45c7466ef01ef177e8b1dff0efa47402332290"
+    },
+    {
+      "logical_file": "native/complete-four-cached-full193-matrix-polynomials.json.gz",
+      "file": "native/complete-four-cached-full193-matrix-polynomials.json.gz",
+      "bytes": 29342,
+      "sha256": "4328b19228049235aded13355585a6d9093a3621daa8d2018f84bc169437d317"
+    }
+  ],
+  "complete_native_sha256": "4328b19228049235aded13355585a6d9093a3621daa8d2018f84bc169437d317",
+  "actual_scientific_gates": 11,
+  "actual_complete_local_matrix_cells": 4,
+  "true_full193_local_matrix_polynomials_certified": true,
+  "actual_new_matrix_cells_this_child": 4,
+  "original_complete_success_reused_without_child": false,
+  "all_full_matrix_arrays_have_preserved_exact_origin_receipts": true,
+  "large_matrix_arrays_only_in_public_Actions_artifacts": true,
+  "finished_utc": "2026-11-14T21:57:08.888060+00:00"
+}
