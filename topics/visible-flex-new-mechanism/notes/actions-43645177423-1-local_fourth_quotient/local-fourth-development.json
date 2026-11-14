@@ -1,0 +1,92 @@
+{
+  "P0_or_ruling_paid": false,
+  "all_derivative_weights_computed": false,
+  "all_geometry_coefficients_independently_realizable": false,
+  "complete_U4_equals_R8_proved": false,
+  "completed_blocks": [],
+  "completion": "toy_passed",
+  "elapsed_seconds": 0.009039659999984906,
+  "finite_isometric_family_constructed": false,
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_run_id": "43645177423",
+  "github_sha": "2f1b809c0b0abb7a26303d36940edc203815f872",
+  "limits": {
+    "coefficient_nodes": 400000,
+    "compressed_export_bytes": 3500000,
+    "expression_terms": 100000,
+    "memory_polling_mib": 1024,
+    "profile_atoms": 100000,
+    "rational_bits_during_elimination": 8192,
+    "report_bytes": 95000,
+    "rewrite_calls": 1000000,
+    "seconds": 300,
+    "total_published_bytes": 4800000
+  },
+  "peak_rss_mib": 27.8984375,
+  "phase": "small_artificial_checks",
+  "schema": "visible-flex-R109-local-fourth-quotient-static-v1",
+  "scope": "derivative-weight-zero projection of R109 full-phase local density modulo complete R8",
+  "source_hashes": {
+    "colored": {
+      "bytes": 15738,
+      "filename": "literature_colored_profile_algebra.py",
+      "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+    },
+    "driver": {
+      "bytes": 38857,
+      "filename": "literature_local_fourth_quotient.py",
+      "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+    },
+    "dual_receipt_reader": {
+      "bytes": 19492,
+      "filename": "literature_full_phase_rational_dual.py",
+      "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+    },
+    "endpoint": {
+      "bytes": 21532,
+      "filename": "literature_closed_c1_endpoint.py",
+      "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+    },
+    "exact": {
+      "bytes": 33718,
+      "filename": "literature_pure_bulk_exact_membership.py",
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    },
+    "formal": {
+      "bytes": 33169,
+      "filename": "literature_range_profile_algebra.py",
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    "local": {
+      "bytes": 30635,
+      "filename": "literature_local_third_bridge_decompose.py",
+      "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+    },
+    "scaling_interfaces": {
+      "bytes": 37293,
+      "filename": "literature_total_P1_scaling_blocks.py",
+      "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+    },
+    "v2_producer": {
+      "bytes": 35368,
+      "filename": "literature_full_phase_bridge_exact.py",
+      "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+    },
+    "words": {
+      "bytes": 32310,
+      "filename": "literature_pure_bulk_word_normal_form.py",
+      "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+    }
+  },
+  "toy": {
+    "P_s_and_B_s_keep_zero_value_history_derivatives": true,
+    "R109_minus_one_sixth_identity": true,
+    "artificial_horizontal_potential": true,
+    "artificial_portable_original_DAG_round_trip": true,
+    "genuine_local_fourth_target_compiled": false,
+    "positive_jet_and_static_cases": true,
+    "profile_or_geometry_evaluated": false,
+    "published_pointwise_matrix_trace_zero": true,
+    "true_cov_before_zero_history": true
+  }
+}

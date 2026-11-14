@@ -1,0 +1,124 @@
+{
+  "U4_quotient_nonzero_proved": false,
+  "github_sha": "2f1b809c0b0abb7a26303d36940edc203815f872",
+  "negative_scope": "nonzero representatives are not functional nonmembership; a local coefficient alone does not prove a nonzero constrained path integral",
+  "outcome": "coefficientwise_membership_verified",
+  "paid_geometry_coefficients": [
+    {
+      "coefficients": [
+        [
+          0,
+          "-1/8"
+        ]
+      ],
+      "fresh_original_zero_sha256": {
+        "-2": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "-4": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "geometry_key": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "original_modes_sha256": {
+        "-2": "cb83a13d1fac60e160322c85e4bd3f8b93763c12eb9026772a5df5d78300cba3",
+        "-4": "1f4fb9ac096074749042f00f4a9bdd05ff3f2545d18c86789185bb221f6d31d6"
+      },
+      "remainder_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "remainder_terms": 0,
+      "representative_terms": 101
+    }
+  ],
+  "portable_input": {
+    "contains_original_expression_not_only_hashes": true,
+    "content_scope": "W-and-local-static-density",
+    "filename": "local-fourth-quotient-original-expressions.json.gz",
+    "profile_atom_count": 3319,
+    "raw_bytes": 3518194,
+    "raw_sha256": "d74e87790a00a246e01438c54575c3190389e3adbdefed0cec233b6ec9a664d1",
+    "root_count": 430,
+    "stored_bytes": 657195,
+    "stored_sha256": "ea8ba97319ef3fa43ff8cacc7f98b106b13280aef4641b969f5f820194aebace"
+  },
+  "representative_rank": 2,
+  "response_columns": [
+    {
+      "column": 0,
+      "quadratic_index": 2,
+      "quadratic_name": "p2",
+      "third_index": 7,
+      "third_original_sha256": "586788dc0fcf4aec7cc329277836c89e82ddb46a5739d71dfcd154cdece83a56",
+      "v2_original_third_index": 7
+    },
+    {
+      "column": 1,
+      "quadratic_index": 2,
+      "quadratic_name": "p2",
+      "third_index": 17,
+      "third_original_sha256": "8f396b3daf3f7fa44288893f8c80a7f466a06e5c94277238331c256c6cb04345",
+      "v2_original_third_index": 17
+    }
+  ],
+  "schema": "visible-flex-R109-local-fourth-quotient-static-v1-block",
+  "source_hashes": {
+    "colored": {
+      "bytes": 15738,
+      "filename": "literature_colored_profile_algebra.py",
+      "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+    },
+    "driver": {
+      "bytes": 38857,
+      "filename": "literature_local_fourth_quotient.py",
+      "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+    },
+    "dual_receipt_reader": {
+      "bytes": 19492,
+      "filename": "literature_full_phase_rational_dual.py",
+      "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+    },
+    "endpoint": {
+      "bytes": 21532,
+      "filename": "literature_closed_c1_endpoint.py",
+      "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+    },
+    "exact": {
+      "bytes": 33718,
+      "filename": "literature_pure_bulk_exact_membership.py",
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    },
+    "formal": {
+      "bytes": 33169,
+      "filename": "literature_range_profile_algebra.py",
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    "local": {
+      "bytes": 30635,
+      "filename": "literature_local_third_bridge_decompose.py",
+      "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+    },
+    "scaling_interfaces": {
+      "bytes": 37293,
+      "filename": "literature_total_P1_scaling_blocks.py",
+      "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+    },
+    "v2_producer": {
+      "bytes": 35368,
+      "filename": "literature_full_phase_bridge_exact.py",
+      "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+    },
+    "words": {
+      "bytes": 32310,
+      "filename": "literature_pure_bulk_word_normal_form.py",
+      "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+    }
+  },
+  "true_response_dimension_upper_bound": 2,
+  "unresolved_geometry_coefficients": [],
+  "verified_original_response_dependencies": [],
+  "weight": 2
+}

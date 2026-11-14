@@ -1,0 +1,109 @@
+{
+  "coefficient_checkpoint": {
+    "solved": 1,
+    "unresolved": 2,
+    "weight": 1
+  },
+  "completed_blocks": [
+    {
+      "bytes": 4329,
+      "filename": "local-fourth-quotient-weight-+2.json",
+      "outcome": "coefficientwise_membership_verified",
+      "paid": 1,
+      "response_upper_bound": 2,
+      "sha256": "874c683855c9aef86a45602fc06cc3357fc5cff8bd7eeac64ecdae5150decd81",
+      "unresolved": 0,
+      "weight": 2
+    },
+    {
+      "bytes": 13499,
+      "filename": "local-fourth-quotient-weight-+1.json",
+      "outcome": "coefficientwise_identity_not_found",
+      "paid": 1,
+      "response_upper_bound": 7,
+      "sha256": "57d8a80b8344f42cd8594e7d117d29098991d1c392d3101264195eeb1a8533c4",
+      "unresolved": 2,
+      "weight": 1
+    }
+  ],
+  "completion": "output_limit",
+  "full_report_bytes": 194340,
+  "full_report_sha256": "84e68b1ff3cda4236cee2bbc4a7a995c19c5bc939c93e7d218c6aa6202cfda8d",
+  "new_mathematical_conclusion": false,
+  "phase": "R8_static_local_weight_1",
+  "portable_W_expression_export": {
+    "contains_original_expression_not_only_hashes": true,
+    "content_scope": "W-only",
+    "filename": "local-fourth-quotient-W-original-expressions.json.gz",
+    "profile_atom_count": 170,
+    "raw_bytes": 31750,
+    "raw_sha256": "615d848611aaf787bc3ae790b4b1f81fe91338301bcb57afdfd111758cf533bf",
+    "root_count": 36,
+    "stored_bytes": 7377,
+    "stored_sha256": "45cbdc8f38a4b5561924badaf9cd68a93a7fa71c6264d95489034703af4ee44a"
+  },
+  "portable_original_expression_export": {
+    "contains_original_expression_not_only_hashes": true,
+    "content_scope": "W-and-local-static-density",
+    "filename": "local-fourth-quotient-original-expressions.json.gz",
+    "profile_atom_count": 3319,
+    "raw_bytes": 3518194,
+    "raw_sha256": "d74e87790a00a246e01438c54575c3190389e3adbdefed0cec233b6ec9a664d1",
+    "root_count": 430,
+    "stored_bytes": 657195,
+    "stored_sha256": "ea8ba97319ef3fa43ff8cacc7f98b106b13280aef4641b969f5f820194aebace"
+  },
+  "schema": "visible-flex-R109-local-fourth-quotient-static-v1",
+  "source_hashes": {
+    "colored": {
+      "bytes": 15738,
+      "filename": "literature_colored_profile_algebra.py",
+      "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+    },
+    "driver": {
+      "bytes": 38857,
+      "filename": "literature_local_fourth_quotient.py",
+      "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+    },
+    "dual_receipt_reader": {
+      "bytes": 19492,
+      "filename": "literature_full_phase_rational_dual.py",
+      "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+    },
+    "endpoint": {
+      "bytes": 21532,
+      "filename": "literature_closed_c1_endpoint.py",
+      "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+    },
+    "exact": {
+      "bytes": 33718,
+      "filename": "literature_pure_bulk_exact_membership.py",
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    },
+    "formal": {
+      "bytes": 33169,
+      "filename": "literature_range_profile_algebra.py",
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    "local": {
+      "bytes": 30635,
+      "filename": "literature_local_third_bridge_decompose.py",
+      "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+    },
+    "scaling_interfaces": {
+      "bytes": 37293,
+      "filename": "literature_total_P1_scaling_blocks.py",
+      "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+    },
+    "v2_producer": {
+      "bytes": 35368,
+      "filename": "literature_full_phase_bridge_exact.py",
+      "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+    },
+    "words": {
+      "bytes": 32310,
+      "filename": "literature_pure_bulk_word_normal_form.py",
+      "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+    }
+  }
+}
