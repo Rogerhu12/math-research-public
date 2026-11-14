@@ -1,0 +1,144 @@
+{
+  "kind": "actual_phase_scalar_high7_CI_first_run_entry_failure",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": 43572460867,
+  "source_commit": "ae7114e0b8ed8cc1c9be46e16bb10f500d231485",
+  "all_four_jobs_observed": true,
+  "numerical_children_started": 0,
+  "first_germ_unchanged": true,
+  "explanation": "Worker.__init__ assigned a string to self.run, masking the run() method. All four jobs failed before check_inputs or any mathematical child. The host runner.temp path also differed from the container RUNNER_TEMP path used by upload-artifact, so no artifact was uploaded.",
+  "jobs": [
+    {
+      "id": 132379582651,
+      "name": "actual-scalar-range (43, 85)",
+      "status": "completed",
+      "conclusion": "failure",
+      "process": {
+        "kind": "actual_high7_scalar_cache_CI_process",
+        "complete": false,
+        "repository": "Rogerhu12/math-research-public",
+        "run_id": "43572460867",
+        "run_attempt": "1",
+        "workflow_commit": "ae7114e0b8ed8cc1c9be46e16bb10f500d231485",
+        "worker_source_sha256": "1d990642e6a7f4ed4098617d5e71367d180638c2583b201b45b355693798e1b6",
+        "child_exit_code": null,
+        "started_utc": "2026-11-14T07:44:36.317758+00:00",
+        "worker_exception": "TypeError: 'str' object is not callable",
+        "wall_seconds": 0.0006122270000048502,
+        "requested_germs": [
+          43,
+          85
+        ]
+      },
+      "log_excerpt": [
+        "##[group]Run python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py --manifest topics/visible-flex-exact-nearby/notes/2026-11-14-R133-phase-high7-CI-pinned-inputs.json --manifest-sha eb25464d038f44dc87a8214662ec9275250fc414c42ca04c9763bf08f8802535 --germ-start 43 --germ-stop 85 --compute-minutes 310 --checkpoint-minutes 10 --artifact-dir /home/runner/work/_temp/visible-exact-phase-high7-43-85",
+        "\u001b[36;1mpython -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py --manifest topics/visible-flex-exact-nearby/notes/2026-11-14-R133-phase-high7-CI-pinned-inputs.json --manifest-sha eb25464d038f44dc87a8214662ec9275250fc414c42ca04c9763bf08f8802535 --germ-start 43 --germ-stop 85 --compute-minutes 310 --checkpoint-minutes 10 --artifact-dir /home/runner/work/_temp/visible-exact-phase-high7-43-85\u001b[0m",
+        "  \"worker_exception\": \"TypeError: 'str' object is not callable\",",
+        "  File \"/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py\", line 245, in main",
+        "    try:worker.run()",
+        "TypeError: 'str' object is not callable",
+        "##[error]Process completed with exit code 1.",
+        "##[warning]No files were found with the provided path: /__w/_temp/visible-exact-phase-high7-43-85/. No artifacts will be uploaded."
+      ]
+    },
+    {
+      "id": 132379582730,
+      "name": "actual-scalar-range (1, 43)",
+      "status": "completed",
+      "conclusion": "failure",
+      "process": {
+        "kind": "actual_high7_scalar_cache_CI_process",
+        "complete": false,
+        "repository": "Rogerhu12/math-research-public",
+        "run_id": "43572460867",
+        "run_attempt": "1",
+        "workflow_commit": "ae7114e0b8ed8cc1c9be46e16bb10f500d231485",
+        "worker_source_sha256": "1d990642e6a7f4ed4098617d5e71367d180638c2583b201b45b355693798e1b6",
+        "child_exit_code": null,
+        "started_utc": "2026-11-14T07:44:37.023745+00:00",
+        "worker_exception": "TypeError: 'str' object is not callable",
+        "wall_seconds": 0.0007088119999991704,
+        "requested_germs": [
+          1,
+          43
+        ]
+      },
+      "log_excerpt": [
+        "##[group]Run python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py --manifest topics/visible-flex-exact-nearby/notes/2026-11-14-R133-phase-high7-CI-pinned-inputs.json --manifest-sha eb25464d038f44dc87a8214662ec9275250fc414c42ca04c9763bf08f8802535 --germ-start 1 --germ-stop 43 --compute-minutes 310 --checkpoint-minutes 10 --artifact-dir /home/runner/work/_temp/visible-exact-phase-high7-1-43",
+        "\u001b[36;1mpython -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py --manifest topics/visible-flex-exact-nearby/notes/2026-11-14-R133-phase-high7-CI-pinned-inputs.json --manifest-sha eb25464d038f44dc87a8214662ec9275250fc414c42ca04c9763bf08f8802535 --germ-start 1 --germ-stop 43 --compute-minutes 310 --checkpoint-minutes 10 --artifact-dir /home/runner/work/_temp/visible-exact-phase-high7-1-43\u001b[0m",
+        "  \"worker_exception\": \"TypeError: 'str' object is not callable\",",
+        "  File \"/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py\", line 245, in main",
+        "    try:worker.run()",
+        "TypeError: 'str' object is not callable",
+        "##[error]Process completed with exit code 1.",
+        "##[warning]No files were found with the provided path: /__w/_temp/visible-exact-phase-high7-1-43/. No artifacts will be uploaded."
+      ]
+    },
+    {
+      "id": 132379582761,
+      "name": "actual-scalar-range (127, 169)",
+      "status": "completed",
+      "conclusion": "failure",
+      "process": {
+        "kind": "actual_high7_scalar_cache_CI_process",
+        "complete": false,
+        "repository": "Rogerhu12/math-research-public",
+        "run_id": "43572460867",
+        "run_attempt": "1",
+        "workflow_commit": "ae7114e0b8ed8cc1c9be46e16bb10f500d231485",
+        "worker_source_sha256": "1d990642e6a7f4ed4098617d5e71367d180638c2583b201b45b355693798e1b6",
+        "child_exit_code": null,
+        "started_utc": "2026-11-14T07:44:43.639282+00:00",
+        "worker_exception": "TypeError: 'str' object is not callable",
+        "wall_seconds": 0.0008233460000042214,
+        "requested_germs": [
+          127,
+          169
+        ]
+      },
+      "log_excerpt": [
+        "##[group]Run python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py --manifest topics/visible-flex-exact-nearby/notes/2026-11-14-R133-phase-high7-CI-pinned-inputs.json --manifest-sha eb25464d038f44dc87a8214662ec9275250fc414c42ca04c9763bf08f8802535 --germ-start 127 --germ-stop 169 --compute-minutes 310 --checkpoint-minutes 10 --artifact-dir /home/runner/work/_temp/visible-exact-phase-high7-127-169",
+        "\u001b[36;1mpython -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py --manifest topics/visible-flex-exact-nearby/notes/2026-11-14-R133-phase-high7-CI-pinned-inputs.json --manifest-sha eb25464d038f44dc87a8214662ec9275250fc414c42ca04c9763bf08f8802535 --germ-start 127 --germ-stop 169 --compute-minutes 310 --checkpoint-minutes 10 --artifact-dir /home/runner/work/_temp/visible-exact-phase-high7-127-169\u001b[0m",
+        "  \"worker_exception\": \"TypeError: 'str' object is not callable\",",
+        "  File \"/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py\", line 245, in main",
+        "    try:worker.run()",
+        "TypeError: 'str' object is not callable",
+        "##[error]Process completed with exit code 1.",
+        "##[warning]No files were found with the provided path: /__w/_temp/visible-exact-phase-high7-127-169/. No artifacts will be uploaded."
+      ]
+    },
+    {
+      "id": 132379582804,
+      "name": "actual-scalar-range (85, 127)",
+      "status": "completed",
+      "conclusion": "failure",
+      "process": {
+        "kind": "actual_high7_scalar_cache_CI_process",
+        "complete": false,
+        "repository": "Rogerhu12/math-research-public",
+        "run_id": "43572460867",
+        "run_attempt": "1",
+        "workflow_commit": "ae7114e0b8ed8cc1c9be46e16bb10f500d231485",
+        "worker_source_sha256": "1d990642e6a7f4ed4098617d5e71367d180638c2583b201b45b355693798e1b6",
+        "child_exit_code": null,
+        "started_utc": "2026-11-14T07:44:38.916118+00:00",
+        "worker_exception": "TypeError: 'str' object is not callable",
+        "wall_seconds": 0.0006218819999972425,
+        "requested_germs": [
+          85,
+          127
+        ]
+      },
+      "log_excerpt": [
+        "##[group]Run python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py --manifest topics/visible-flex-exact-nearby/notes/2026-11-14-R133-phase-high7-CI-pinned-inputs.json --manifest-sha eb25464d038f44dc87a8214662ec9275250fc414c42ca04c9763bf08f8802535 --germ-start 85 --germ-stop 127 --compute-minutes 310 --checkpoint-minutes 10 --artifact-dir /home/runner/work/_temp/visible-exact-phase-high7-85-127",
+        "\u001b[36;1mpython -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py --manifest topics/visible-flex-exact-nearby/notes/2026-11-14-R133-phase-high7-CI-pinned-inputs.json --manifest-sha eb25464d038f44dc87a8214662ec9275250fc414c42ca04c9763bf08f8802535 --germ-start 85 --germ-stop 127 --compute-minutes 310 --checkpoint-minutes 10 --artifact-dir /home/runner/work/_temp/visible-exact-phase-high7-85-127\u001b[0m",
+        "  \"worker_exception\": \"TypeError: 'str' object is not callable\",",
+        "  File \"/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py\", line 245, in main",
+        "    try:worker.run()",
+        "TypeError: 'str' object is not callable",
+        "##[error]Process completed with exit code 1.",
+        "##[warning]No files were found with the provided path: /__w/_temp/visible-exact-phase-high7-85-127/. No artifacts will be uploaded."
+      ]
+    }
+  ]
+}

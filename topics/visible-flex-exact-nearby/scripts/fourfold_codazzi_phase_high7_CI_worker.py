@@ -35,8 +35,8 @@ class Worker:
         self.artifact=args.artifact_dir.resolve();self.artifact.mkdir(parents=True,exist_ok=True)
         self.cache=self.artifact/'native';self.cache.mkdir(exist_ok=True)
         self.log=self.artifact/'producer.stdout.log';self.statusfile=self.artifact/'process.json'
-        self.run=os.environ.get('GITHUB_RUN_ID','local')+'-'+os.environ.get('GITHUB_RUN_ATTEMPT','1')
-        self.name=f'run-{self.run}-germs{args.germ_start:04d}-{args.germ_stop:04d}'
+        self.run_label=os.environ.get('GITHUB_RUN_ID','local')+'-'+os.environ.get('GITHUB_RUN_ATTEMPT','1')
+        self.name=f'run-{self.run_label}-germs{args.germ_start:04d}-{args.germ_stop:04d}'
         self.dest=TOPIC/'notes'/'phase_scalar_high7_ci'/self.name
         self.state=dict(kind='actual_high7_scalar_cache_CI_process',complete=False,
             repository='Rogerhu12/math-research-public',run_id=os.environ.get('GITHUB_RUN_ID'),

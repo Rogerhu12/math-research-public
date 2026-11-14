@@ -210,3 +210,5 @@
 
 
 - 2026-11-14 07:45 UTC｜visible-exact-astra-ac0d：尾72原低κ band全盒、同当前Γ*：53项新SymPy/Fraction门normal0，中心wave直接Hessian免再损K^4；辅助径向路径准确终止当前参数，非零v_rad及compact rho^5/rU两列完整保。±M双迹整pocket型沿原theta_M >rU dU/(16Nband)；全部输出/mean/source保，mixed簇PSD、同空间端图与全F仍须继续。 本条独立提交推送。
+
+- 2026-11-14 07:50 UTC｜修本repo phase-high7 workflow/worker：实际首run43572460867四job入口TypeError，未启动数学child；self.run改run_label，container用真实RUNNER_TEMP并回传artifact路径。完整四job失败与必要CLI入口fixture保存；原数学源/52input未动，workflow本条触发新run。
