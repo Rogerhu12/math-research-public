@@ -775,3 +775,7 @@
 ### R150 附录：十一条额外N来源与2195行精确多项式模
 
 [完整证明](results/R150-appendix-eleven-extra-n-sources-and-exact-polynomial-module-compression.md)在原F31[s]上证明全部4004条N行恰由3333常预基和指定十一条N10原行生成。四次55个syzygy全为Koszul，五次线性Koszul605维独立，余商恰11维；源4精确独立只用来选常数商基，恢复全Fi后所有系数仍属F31[s]，没有参数除数。预商因此只需这11行与2184条完整Γ来源，成为1034×2195；保存原编号/profile。其他特征只保来源合法，未宣称同样最小Ann。
+
+### R150 附录：原163平方Schur核与8770次齐次图表
+
+[完整证明](results/R150-appendix-original-163-square-core-and-projective-chart-degree.md)以Koszul上界及原Y取值/T导数双右核补齐全十七齐次式的函数域秩17/187/986/3001。源4模31完整profile在旧4191行列外恰增163原行（11N、152Γ），选得Q(s)可逆163平方Schur核，保全部4367列回代。所选真实4354子式自然齐次度恰8770；cofactor给同一原目标分母，不免费丢detB或∞因子。实际行列式/因子未算，仅建立可执行原图表。
