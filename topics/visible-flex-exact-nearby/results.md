@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **较大辅助复fold的实际成功与全部旧前缀复用**：[报告](results/R133-supplement-actual-larger-anchored-auxiliary-fold-with-preserved-prefix.md)。43647998272 child0/6身份门、新大域14门；有效canonical半径27/32000为原小域五倍。原成功小域/两coeff/根锚逐对象一致，旧child1和失败门仍保。完整Fb<1335.043146479/Fa<2.089387252，原物理9e−6内L0w1幅度<6977483.057/19107989810.304；均仅局部幅度界，继续真实根Taylor与全非局部/返回预算。
+
 - **准确旧圆周平均模压缩与第一修正的完整非局部预算（Y1–14）**：[证明](results/R133-supplement-exact-old-mean-compression-and-first-correction-nonlocal-budgets.md)。准确ΠDU(w)=ΠU(gd)在取绝对值前合并raw mean，保留独立evenmean与全部I/J投影。对w1给实际n^(1/6)密度的完整z_K算子词预算，以及原n^(7/6)预算右乘1/n的独立cutoff界；两者付全后可取min。负源窗口需要w三阶角导/w_r二阶，完整输出与最终J窗口不删；数值积分及全返回尚待执行。
 
 - **同一完整F的三角端口、真实逆和方向source Gram合同（G1–18）**：[证明](notes/2026-11-14-R133-same-F-triangular-matrix-Green-contract.md)。原全193方阵经明确endpoint patch形成准确三角端口，所删下块和整格逆/生成元差全付；三通道保完整128方向、p/q signed相关、所有mean及真实R输出metric。给完整节点与格内双扫恒等式，并把V舍入真实跳交原Green。新四格112pin消费者已装，原105pins/四F/target/validator/Green不重算；数值结果及全5970覆盖尚待实际执行。

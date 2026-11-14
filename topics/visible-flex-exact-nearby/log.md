@@ -451,3 +451,7 @@ root全文读科学source33579B/CI19094B/flow7908B并核原105pins均未变，G1
 ### 2026-11-14 22:35:58 UTC — 原圆周mean恒等与完整第一修正I/J/mean预算
 
 独推Y1–14正文12186B SHA55baa5f04d83a170ed422b6266c51e31f55c6471e04a5ac1fcac138eb2406d0c。由DU(w)−∂φU(ηh)=U(gd)逐项消去nHDw，原circle Π准确保；没有假设ΠD=DΠ。新S密度九项source和独立evenmean完整展开，所有乘法系数用真Wiener范数，J只用已证nonmean域；给负窗两预算和radial/seam合同，无本机数值计算。只读核4063e3254c2569461564c3d2d3b802bb557b0bca两README无变，继续公开消费者与全部闭网络缺口。
+
+### 2026-11-14 22:38:54 UTC — 较大辅助fold实际成功独推
+
+root亲读46443B process和2469B worker，核数学.2141971180000013s、child0/6global+14case gates、native84e2bd1b7637299e94428b22cc19aba290d0b661f9dbe18dae918bf752f10077（20319B）。核报告十进制均对实际ball外舍入；scope句明确固定η0，其余原报告不改，最终7584B/SHA34e50180bfd17b4077ef2c1c9e4542e2845dcfccf4c0b833b650150cf658c1e0。两实际pull均5137a924…，README diff空；旧小case/两coeff/rootanchor确实逐对象复用。当前只读核c69562728ce9d0f5115ad2710d45bcff15762693，继续真实root高阶jets与完整非局部预算。

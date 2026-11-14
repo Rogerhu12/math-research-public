@@ -186,3 +186,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 旧mean准确合并与w1非局部源合同已闭合
 
 [Y1–14](results/R133-supplement-exact-old-mean-compression-and-first-correction-nonlocal-budgets.md)证明ΠDU(w)=ΠU(gd)，可把leading旧M_D改善为min{原费,M0(gd)}。firstcorrection直接S密度用原完整矩阵z_K，保九项I/J及独立mean；另保原g_K费/(4J0)选项。root接公开消费者，复用原1328矩阵words/全部旧profiles，只新相关mean包络和w1实际幅度源积分；不把正侧增长Airy当无权负侧算子。
+
+### 较大辅助fold已实际成功，继续同w1的准确根项
+
+[新actual报告](results/R133-supplement-actual-larger-anchored-auxiliary-fold-with-preserved-prefix.md)核43647998272 child0与新14门，全部旧前缀零重算。两域在原germ交内是同一个w1，可在共同物理cover上逐分量取合法min；不能把小域sup搬到整个大域。第二L0w1局部upper已降到1.9108e10，仍由Cauchy径向二阶主导；phase接准确root jets/Taylor尾，root接Y1–14全I/J/mean。原seam/外片/正低mean/有限头反馈仍需完整预算。
