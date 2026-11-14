@@ -55,3 +55,6 @@
 - [R524：原三层边界核与第一逃逸层的准确范围](../results/R524-original-three-layer-boundary-kernel-and-first-escape-window.md)：真正Iη边界核的三层短正合列和两条同源连接精确给出，不拆独立normal数据。参数独立F²层在明确小q窗可改变显示残数，在负度大q窗严格消失；二次临界只剩两连接的实际联合像，未把边界非零或单残数不能延拓冒称原forcing结果。
 
 - [R523：隐藏CH绝对sigma核与原C/D同源算术carry](../results/R523-original-hidden-sigma-core-and-same-source-c-carry.md)：原CH一层β与正交隐藏轴真实β完整支付，实际h中独立C-sigma/五sigma-D形成至多两源核心闭包。两单位相消域、B逐次数整逆及原S中央行全付，同1013射线保新测试原小管v5n，新增固定31 ray；旧W/四伴随和准确补域均未删。
+
+- [R522：三度共同伴随的完整偶张量与同一S/T正六次测试](../results/R522-common-degree3-even-factor-and-same-st-positive-test.md)：原H0=ξ1−ξ3+x的整个degree3偶线准确因子化，单位正六次测试保其余五输出全部联合并同时还原S及两T；T与旧W核原样保测试。原五深网格质量整条为零、完整第五阶单位，两个T局部归一差亦为单位；三条真实补域保持。
+
