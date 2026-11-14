@@ -1,0 +1,105 @@
+{
+  "format": "r150-197-unscaled-selector-complete-actual-recovery-publication-v1",
+  "allActualRecoveryFilesPreserved": true,
+  "allStageCachesIncluded": true,
+  "originalFiles": 5,
+  "originalBytes": 256910,
+  "fallbackFiles": 5,
+  "files": [
+    {
+      "originalFile": "calculation/unscaled197-first-carry-source-space-receipt.json",
+      "originalBytes": 96344,
+      "originalSHA256": "dd4e73d9f8b1b3d173a100e5edaaa028b1acece60d6caf50c945c223e7b3d383",
+      "allBytesPreserved": true,
+      "storage": "publication-lossless-fallback",
+      "resultFiles": [
+        "recovery-fallback/98313a9813717d4ccb348b787ded1668288a319560d593da698cfde1dd069eb7.gz"
+      ],
+      "compressedBytes": 10145,
+      "compressedSHA256": "5a4ef3c2016d2b9621a7bcc804d54390de79e09f8ade0c5785ea6cbb233bbf69",
+      "parts": [
+        {
+          "file": "recovery-fallback/98313a9813717d4ccb348b787ded1668288a319560d593da698cfde1dd069eb7.gz",
+          "bytes": 10145,
+          "sha256": "5a4ef3c2016d2b9621a7bcc804d54390de79e09f8ade0c5785ea6cbb233bbf69"
+        }
+      ]
+    },
+    {
+      "originalFile": "inputs/complete-receipt.json",
+      "originalBytes": 21288,
+      "originalSHA256": "c1e2b8e1fcf4c31972e1cc34b253824b39cb3c6a724baac69766761d9f129739",
+      "allBytesPreserved": true,
+      "storage": "publication-lossless-fallback",
+      "resultFiles": [
+        "recovery-fallback/a39512a7ab4c91dfdcc6d9258e27cdb20a4c2a77313b4d8e0944b1d22f5ff65b.gz"
+      ],
+      "compressedBytes": 5458,
+      "compressedSHA256": "f1ba9e48be2c9f42dee2eec7ff963ee9acfe0a43771f999c431b0cc3847a84ce",
+      "parts": [
+        {
+          "file": "recovery-fallback/a39512a7ab4c91dfdcc6d9258e27cdb20a4c2a77313b4d8e0944b1d22f5ff65b.gz",
+          "bytes": 5458,
+          "sha256": "f1ba9e48be2c9f42dee2eec7ff963ee9acfe0a43771f999c431b0cc3847a84ce"
+        }
+      ]
+    },
+    {
+      "originalFile": "inputs/complete-system.bin.gz",
+      "originalBytes": 61947,
+      "originalSHA256": "d62a5e1705d0cbc0ce0544e65ff47f2c1c76208e5843de0ab9d812e7aebd9796",
+      "allBytesPreserved": true,
+      "storage": "publication-lossless-fallback",
+      "resultFiles": [
+        "recovery-fallback/ba6203f89fd7fa74cc8558769847c9771eb2f3dc9a02e7c37dd8057a687f8939.gz"
+      ],
+      "compressedBytes": 60914,
+      "compressedSHA256": "056c2b3d7ea4160858feb03cb5d0d111c75a596e775874a2a14d6d1a1e0f66a2",
+      "parts": [
+        {
+          "file": "recovery-fallback/ba6203f89fd7fa74cc8558769847c9771eb2f3dc9a02e7c37dd8057a687f8939.gz",
+          "bytes": 60914,
+          "sha256": "056c2b3d7ea4160858feb03cb5d0d111c75a596e775874a2a14d6d1a1e0f66a2"
+        }
+      ]
+    },
+    {
+      "originalFile": "inputs/prepared-receipt.json",
+      "originalBytes": 4938,
+      "originalSHA256": "afdc1b2495b22111ae04b25f9d0ddec7c10b803ebb029ffab0257788532b1e32",
+      "allBytesPreserved": true,
+      "storage": "publication-lossless-fallback",
+      "resultFiles": [
+        "recovery-fallback/2c5484ce54ab4728953b08321caefbb5ffec57c1ad68330e506738e53ee0fd73.gz"
+      ],
+      "compressedBytes": 2344,
+      "compressedSHA256": "2163371c1c2a5d860fad6b6063f5cac81f073cfbc6e8504c364bcde8b36ed5ef",
+      "parts": [
+        {
+          "file": "recovery-fallback/2c5484ce54ab4728953b08321caefbb5ffec57c1ad68330e506738e53ee0fd73.gz",
+          "bytes": 2344,
+          "sha256": "2163371c1c2a5d860fad6b6063f5cac81f073cfbc6e8504c364bcde8b36ed5ef"
+        }
+      ]
+    },
+    {
+      "originalFile": "inputs/prepared-system.bin.gz",
+      "originalBytes": 72393,
+      "originalSHA256": "9aa1b6e3fd97a3502d1929633656364277711991ae452e7a1d6c8e63a1823ece",
+      "allBytesPreserved": true,
+      "storage": "publication-lossless-fallback",
+      "resultFiles": [
+        "recovery-fallback/b1bffae89ce2746321efcc3c35c3c1ac09e301a6ac643ddb07f12015d3fa9b0b.gz"
+      ],
+      "compressedBytes": 72436,
+      "compressedSHA256": "cb12c5a66c57d97ce3221beb9baa24c5e09b8fc48aef838f97d87faae8b752f7",
+      "parts": [
+        {
+          "file": "recovery-fallback/b1bffae89ce2746321efcc3c35c3c1ac09e301a6ac643ddb07f12015d3fa9b0b.gz",
+          "bytes": 72436,
+          "sha256": "cb12c5a66c57d97ce3221beb9baa24c5e09b8fc48aef838f97d87faae8b752f7"
+        }
+      ]
+    }
+  ]
+}
