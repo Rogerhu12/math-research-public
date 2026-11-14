@@ -48,7 +48,7 @@
 
 **61当前实际失败而非超时/传输失败：** run43645948199/sourcecf6b51193255dfc713610d2919598451ccdd49e2/job132603626663，四轮freshwithJ/完整R273eta1 QR均返回，bridge_failure=null。原17个trial中3接受、14因residual-not-decreasing拒，0guard；最后iteration3十档全拒，freshwithJ norm7.952539043101878e−5，未到2e−9，最终endpoint J/fresh audit未完成。四轮保存矩阵上全部129248行原exact最坏约9.6856e−11，未预条件gradient仍大，不能称精确最优或保证真实DF。已保存[完整native原结论](notes/2026-11-14-actual61-current-native-loop-and-trial-failure.md)、[四个当前QR及原exact读回](notes/2026-11-14-actual61-four-current576-QR-models-and-exact-readback.md)与完整小读数；不冒2.3GB大数组已核。
 
-实际还出现同一保存state上上一轮noJ和下一轮freshwithJ残差不一致，不能直接归因η或盲换阻尼。已按[69完整接口](notes/2026-11-14-current576-same-state-noJ-probe-interface.md)和[工作流/选择取件合同](notes/2026-11-14-request69-workflow-and-selected-transport-handoff.md)派发最小诊断：固定61最后state，同原配置只做一次原noJ，逐stage与已经保存的withJ r对照，读清路径/缓存/缓冲；不重四轮QR，不削原32轮/十trial/guard/容差。原2.335870174GB artifact14136633570/ZIP7b17d1b0已绑定真实完整tuple派发本仓Actions专用reader读取（16GiB原字节资源预算）；原结果先保，完整导出字节核不改科学结论、不增验收门。实际reader43654012687已经成功，7121文件及4轮完整快照/QR/原整数行账均通过；正式字节附记紧接保存，native仍false。
+实际还出现同一保存state上上一轮noJ和下一轮freshwithJ残差不一致，不能直接归因η或盲换阻尼。已按[69完整接口](notes/2026-11-14-current576-same-state-noJ-probe-interface.md)和[工作流/选择取件合同](notes/2026-11-14-request69-workflow-and-selected-transport-handoff.md)派发最小诊断：固定61最后state，同原配置只做一次原noJ，逐stage与已经保存的withJ r对照，读清路径/缓存/缓冲；不重四轮QR，不削原32轮/十trial/guard/容差。原2.335870174GB artifact14136633570/ZIP7b17d1b0已绑定真实完整tuple派发本仓Actions专用reader读取（16GiB原字节资源预算）；原结果先保，完整导出字节核不改科学结论、不增验收门。实际reader43654012687已经成功，7121文件及4轮完整快照/QR/原整数行账均通过；[完整字节附记](notes/2026-11-14-actual61-complete-current-snapshot-and-QR-byte-audit-addendum.md)已保存：每轮10快照阵/583chunks、576J、1168QR阵、577因子及129248整数行全部核同；未导出V/rho只保原身份，不冒重算。native仍false。
 
 ### 1C. actual-H → 原FD → 同live fullDN
 
