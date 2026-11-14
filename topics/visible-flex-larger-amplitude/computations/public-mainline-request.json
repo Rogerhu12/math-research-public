@@ -1,8 +1,14 @@
 {
-  "request": "20261114-public-large-core-mainline-01",
+  "request": "20261114-public-large-core-mainline-02",
   "repository": "Rogerhu12/math-research-public",
   "accepted_input": "notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
   "accepted_sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
-  "lanes": ["free3", "geometry", "coupling", "tailzero"],
-  "scope": "Resume the actually accepted 0.99 prefix; tighten unchanged-surface spatial coverage; verify complete scalar and material boundary derivatives; attempt actual full T96 nonlinear DN coupling. A prepared field or completed job is not the closed-family research goal."
+  "lanes": [
+    "geometry",
+    "cardinal",
+    "coupling"
+  ],
+  "scope": "Run the necessary v3 spatial subcover and held-image witness, exact cardinal normal form, and actual complete nonlinear DN using the saved 690-node warm and rigorously matched completed zero-H response. Do not rerun already completed free3 or zero-height baselines.",
+  "completed_zero_tail": "notes/public-actions-43582043166-1-tailzero/zero-H-T96",
+  "completed_zero_response_sha256": "08d1e4865cb00d7d48ab169ce387a60119f304bc4dc4953eb8fd029fdbff1160"
 }

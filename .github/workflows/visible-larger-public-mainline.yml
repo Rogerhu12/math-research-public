@@ -17,12 +17,50 @@ permissions:
   contents: write
 
 jobs:
+  select:
+    runs-on: ubuntu-latest
+    outputs:
+      lanes: ${{ steps.choose.outputs.lanes }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /topics/visible-flex-larger-amplitude/computations/public-mainline-request.json
+      - name: Select exactly the requested public calculations
+        id: choose
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          DISPATCH_LANE: ${{ inputs.lane }}
+        run: |
+          python - <<'PYLANES'
+          import json, os
+          from pathlib import Path
+          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'cardinal'}
+          if os.environ['EVENT_NAME'] == 'workflow_dispatch':
+              selected = os.environ['DISPATCH_LANE'] or 'all'
+              lanes = ['free3', 'geometry', 'coupling', 'tailzero', 'cardinal'] if selected == 'all' else [selected]
+          else:
+              request = json.loads(Path('topics/visible-flex-larger-amplitude/computations/public-mainline-request.json').read_text())
+              if request['repository'] != 'Rogerhu12/math-research-public':
+                  raise ValueError('The request belongs to another repository')
+              lanes = request['lanes']
+          if not isinstance(lanes, list) or not lanes or any(lane not in allowed for lane in lanes) or len(set(lanes)) != len(lanes):
+              raise ValueError('A nonempty list of distinct supported lanes is required')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
+              stream.write('lanes=' + json.dumps(lanes, separators=(',', ':')) + '\n')
+          print('Selected public calculations: ' + ', '.join(lanes))
+          PYLANES
   mainline:
+    needs: select
     strategy:
       fail-fast: false
       max-parallel: 4
       matrix:
-        lane: ${{ fromJSON(inputs.lane == 'free3' && '["free3"]' || inputs.lane == 'geometry' && '["geometry"]' || inputs.lane == 'coupling' && '["coupling"]' || inputs.lane == 'tailzero' && '["tailzero"]' || inputs.lane == 'couplingcheck' && '["couplingcheck"]' || inputs.lane == 'cardinal' && '["cardinal"]' || '["free3","geometry","coupling","tailzero","cardinal"]') }}
+        lane: ${{ fromJSON(needs.select.outputs.lanes) }}
     name: Mainline ${{ matrix.lane }}
     runs-on: ubuntu-latest
     timeout-minutes: 350
@@ -49,6 +87,7 @@ jobs:
             /topics/visible-flex-larger-amplitude/computations/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz
             /topics/visible-flex-larger-amplitude/notes/public-actions-43582043166-1-coupling/preparation/prepared-compact.json.gz
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43582043166-1-tailzero/zero-H-T96/
             /topics/visible-flex-larger-amplitude/notes/2026-11-14-public-RK48-cardinal-tail-packet/
             /topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-RK24-radial4to8-closed-r1/
             /topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json
@@ -105,6 +144,9 @@ jobs:
             --source-topic "$VISIBLE_SOURCE_TOPIC" \
             --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
             --out "$VISIBLE_OUT/R241-cover-v3.json" --radial-stride 1 --angular-stride 1 --prefix-angular-subdivision 2
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_held_hausdorff_cover.py" \
+            --directory topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-RK24-radial4to8-closed-r1/closed \
+            --cover "$VISIBLE_OUT/R241-cover-v3-position-cover.json" --out "$VISIBLE_OUT/held-Hausdorff-cover.json"
       - name: Solve and audit the actual T96 zero-height tail anchor
         if: matrix.lane == 'tailzero'
         timeout-minutes: 315
@@ -145,10 +187,14 @@ jobs:
         if: matrix.lane == 'coupling'
         timeout-minutes: 270
         run: |
+          export VISIBLE_FLEX_COMPLETED_ZERO_TAIL_DIR="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43582043166-1-tailzero/zero-H-T96"
+          python -u "$VISIBLE_COMPUTATIONS/exact_20261114_zero_tail_response_audit.py" \
+            --response "$VISIBLE_FLEX_COMPLETED_ZERO_TAIL_DIR/tail_0001.json.gz" \
+            --ready "$VISIBLE_FLEX_COMPLETED_ZERO_TAIL_DIR/tail_ready.json.gz" --out "$VISIBLE_OUT/zero-height-J-audit.json"
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_full_dn_solve.py" \
             --accepted "$VISIBLE_ACCEPTED" --warm "$VISIBLE_OUT/preparation/prepared.json.gz" \
             --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
-            --tail-client "$VISIBLE_COMPUTATIONS/exact_20261114_true_tail_client.py" \
+            --tail-client "$VISIBLE_COMPUTATIONS/exact_20261114_seeded_zero_tail_client.py" \
             --tail-config "$VISIBLE_OUT/T96-config.json" \
             --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
             --node-heap 6144 --out "$VISIBLE_OUT/full-DN" --work "$RUNNER_TEMP/visible-full-DN-qr"
@@ -162,6 +208,11 @@ jobs:
             --source-topic "$VISIBLE_SOURCE_TOPIC" \
             --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
             --out "$VISIBLE_OUT/R238-exact-C2-normal-form.json"
+      - name: Read actual full DN tail diagnostics without changing solver status
+        if: always() && matrix.lane == 'coupling'
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/exact_20261114_tail_trace_report.py" \
+            --directory "$VISIBLE_OUT/full-DN" --out "$VISIBLE_OUT/full-DN-tail-diagnostics.json.gz"
       - name: Preserve actual outcomes and failure checkpoints
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02

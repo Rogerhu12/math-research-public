@@ -515,6 +515,17 @@ def main():
             'Passing this reach budget does not establish the required amplitude or an exact same-g limit.'],
         seconds=time.monotonic()-start)
     args.out.parent.mkdir(parents=True,exist_ok=True)
+    from geometry_20261114_held_hausdorff_cover import write_position_cover
+    cover_path=args.out.with_name(args.out.stem+'-position-cover.json')
+    cover=write_position_cover(cover_path,directory=args.directory,
+        centers=points[:active_count],enclosures=enclosure[:active_count],
+        source_vertex_indices=(indices[:,None]*N+angles[None,:]).ravel(),
+        marked_diameter_upper=marked_D_upper,witness_position_error=position_error,
+        supplied_envelopes=result['supplied_envelopes'],
+        supplied_envelopes_contain_saved_samples=samples_contained,
+        producer_source_sha256=result['source_sha256'],chunk_size=15000)
+    result['position_cover_packet']=dict(file=cover_path.name,sha256=sha(cover_path),
+        active_centers=cover['active_centers'])
     args.out.write_text(json.dumps(result,indent=2,allow_nan=False)+'\n')
     print(json.dumps(dict(output=str(args.out),budget_passed=result['numerical_cover_budget_passed'],
                          uncovered=unresolved,K_tau=K*base_tau,seconds=result['seconds'])),flush=True)

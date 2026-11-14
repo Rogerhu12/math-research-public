@@ -23,7 +23,7 @@ run43582043166/source8fa6b3f3b5365bfffd674cdc04f7d77519fa0d76的free3又真接�
 
 CompleteProfile用AngleConnector/coast/原finitebridge从.99接到真实r=.3；完整s_end=2.271004035438285。3个内支C² scalar控制不改入/出jet。full_dn_boundary/augmented/solve用全部材料H96、完整core换角导数、c′=p′=0增广389维（左293/右96）。原QR/Newton及门未改。
 run43582043166 coupling真实RHS在零控制逐位相同；690节点θ圆warm域已通过，无补点，maxcol=.00711059，尚非解。已发布notes/public-actions-43582043166-1-coupling/preparation/prepared-compact.json.gz（3710347B）；仅删完全重复alias，manifest可逐字恢复原JSON。末点H96准确全0，原mean=1.60408100852。warm重启精确保留旧节点，禁止插值噪声破坏零缓存。
-BC原FD粗步5.04965e−5略超5e−5，半步1.26187e−5约四倍收缩；新增第三步/Richardson并保原门，待Actions真执行。fullDN尚未实际启动。
+BC原FD粗步5.04965e−5略超5e−5，半步1.26187e−5约四倍收缩；新增第三步/Richardson并保原门，待Actions真执行。完整DN已准备通过mainline request02的push触发，待核实际运行。
 **T96原g真zeroH/J/full audit已完成**：run43582043166 artifact14109122474，notes/public-actions-43582043166-1-tailzero/zero-H-T96/。M96/N1024、物理深度8/576stage/577×192state、RK12、原tol2e−9；真exit0/805.484s，residual0、metric9.992e−16、fullD0、minA=minD1、holonomy0，全部27840 J保存。未用零解代数跳过variational。真实tangent chart condition1.391e17，mode96真slopeJ589.6397 vs ready587.3800，不能把零残差当导数稳定。
 seeded_zero_tail_client.py已对完成bundle及本批coupling ready/config/source逐项结构核对PASS（SHA a8de071c0667b342dfc7a2731c9a47ce3d071e03496875637f80424864114776）。只复用准确零H/audit=False初响应，当前worker仍启动核源；任何新H或audit=True走原真解。环境VISIBLE_FLEX_COMPLETED_ZERO_TAIL_DIR指上述zero目录。zero_tail_response_audit.py待Actions消费原J，不再求零尾。
 R239条件证明：同完整高度/非均值斜率、连续正分支与turning number决定均值，单SE2及同Darboux分支决定六jet；有限DFT不自动付假设。新prefix已含物理z0，不得再加旧A mean；完整φ→θ谱不限96，接缝必须真正核全角。
@@ -40,7 +40,7 @@ R241完整参数块门同时排自交/瓶颈，给reach。v2真实D+=3.980751407
 
 ## 紧接执行
 
-逐结论普通push并保持本H最新；取回包有失败仍保原日志。接push lane选择，运行geometry v3、cardinal、coupling（含新FD/zero-J代数消费及缓存零响应的真完整DN），不重跑已完free3/zeroH。新真实coupled field后做完整六jet/实际角谱/C²闭组装/大幅见证/全t覆盖；设计定型才固定同g精化。任何分项完成继续open下一项。
+逐结论普通push并保持本H最新；取回包有失败仍保原日志。request02已设精确push lane选择，运行geometry v3、cardinal、coupling（含新FD/zero-J代数消费及缓存零响应的真完整DN），不重跑已完free3/zeroH。新真实coupled field后做完整六jet/实际角谱/C²闭组装/大幅见证/全t覆盖；设计定型才固定同g精化。任何分项完成继续open下一项。
 原publisher缺identity已修；遇README变动正确退出保artifact，由root读差异后归档。公开源仅78实际消费件，逐件匹配原91清单SHA（12未迁移MD+1未用client排除），只取公开repo，无私仓secret。临时传输分支仅上传本题大blob帮助繁忙main普通rebase推送，成功主线含全部数据，禁止force。
 
 规则同步记录：2026-11-14T10:10:54.175071+00:00 实际pull --rebase成功；双README自74d6ee9无变化，已读提交 9c5e58c2c6ea8aaf925f1ab9b935911f7701cee5。
