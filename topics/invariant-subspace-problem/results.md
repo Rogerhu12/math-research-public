@@ -294,3 +294,7 @@
 ### 2026-11-14：原完整graph相对孔交换子的实际四次指数障碍（789f）
 
 [证明](notes/2026-11-14-actual-tail-full-graph-relative-hole-commutator-obstruction-789f-next.md)从原连续全异尾的前2(d−1)位构造保次数的等有效权物理不变块，给覆盖全部头向量的真核嵌入R，完整Gram满足I≤R*R≤exp(O(m²))I。准确共轭[N,Γ]=T*(Z*−Z)T及该物理核压缩，连真实头迹障碍和实谱Schur，给所有q≥d−1一致下界log||Γ⁻¹/²[N,Γ]Γ⁻¹/²||≥175d⁴/32−315d³/32+75d−O(m²)。故完整全源Γ不可能有exp(O(d³))相对孔预算。坏方向准确属于K≤d−1零核，随后source-Schur会将其消去；本结果不决定消核后实际源、固定测试或余负图角度，更不决定N=M。
+
+### 2026-11-14：保真实权的联合carry预算与exp(26d³)实际窗口（789f）
+
+[证明](notes/2026-11-14-joint-positive-carry-budget-and-twenty-six-window-actual-sources-789f-next.md)用同一正系数g_p逐项支配N/Y，并在跨块系数中保全部W权、2z−1最高次数和双factorial。R≤exp((417/8)z³)的完整RΣj,k R^(j+k)||A_m^jK_pA_m^k||/((j+1)!k!)≤exp(−2z⁴)，没有另乘η或丢弃不交换项。全部真实ad_D尾和≤2exp(−15d⁴/8)；实际低输出通过同一联合预算和小吸收项修复，无再付两个粗H。对m≥10、Q≤exp(26d³)，母提升到N及实际低投影各误差exp(−d⁴)，一个真正top误差2exp(−d⁴)并保全窗原负图/两费/固定测试。旧联合旗δ不迁移；实际比较O(exp(26d³)/d)及N=M仍未证明。
