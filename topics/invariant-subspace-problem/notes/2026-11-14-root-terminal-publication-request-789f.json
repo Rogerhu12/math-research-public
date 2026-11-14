@@ -1,23 +1,20 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "bad698de2508b51660386754e84936d0b160b83e",
-  "createdUtc": "2026-11-14 23:43:40 UTC",
-  "message": "ISP R150: read saved197 first-carry coordinates for the full original source envelope",
+  "parentCommit": "6c35c9a7b363b262296b7725427e2455e5a033ae",
+  "createdUtc": "2026-11-14 23:51:56 UTC",
+  "message": "ISP R150: identify exact two-dimensional first page of the full source envelope at s2",
   "rulesGitBlobs": {
     "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    ".github/workflows/invariant-subspace-r150-unscaled197-selector.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-14-r150-unscaled197-selector-actions-prepare-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-14-r150-unscaled197-selector-actions-publish-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-14-r150-unscaled197-first-carry-source-space-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-14-r150-unscaled197-selector-ci-request-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-unscaled197-true-source-span-and-two-dimensional-first-page-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-saturated-source-envelope-first-page-and-primary-choice-control-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
+    "topics/invariant-subspace-problem/open.md",
+    "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-r150-unscaled197-selector.yml"
-  ]
+  "dispatchWorkflows": []
 }

@@ -350,3 +350,7 @@
 ### 2026-11-14：全部原p²来源精确缩为197个未缩放列（789f）
 
 [完整覆盖证明](notes/2026-11-14-r150-full-p2-source-envelope-by-197-unscaled-columns-789f.md)逐读旧完整β1源核R基、四个实际κ3…6 recipe和κ7bar=22K1，给S2=Hnat+Klow+Σj2..198(Khat_j−p q1_j)D[s]，Klow为1632真整数syzygy。先在E/pE覆盖kerβ，再用κ1/2生成完整第一像支付pS1，最后一次取差除p；只作有限源级消去，不依赖像维数、p-adic完备性或Nakayama。真实Bsat=[A,b1…7,pb8,p²b9,b̃2…198]满足im Bsat=(imA:p²)，故全部原AX=p²h0t modp6严格等价Bsat y=h0t modp4。该197未缩放包与刚完成的自然图第三任务进入位不同，尚未计算扩大包的成员资格或char0来源；先读取已成真V10系数以选实际后继。
+
+### 2026-11-14：完整原来源包的二维相关第一页与真实197源坐标（789f）
+
+[实绩与证明](notes/2026-11-14-r150-unscaled197-true-source-span-and-two-dimensional-first-page-789f.md)读取run43654741434的0.036855237秒小任务：197投影列rank7且真第十坐标全零，等维恰张成(U9)_2；模U7/U8/U9的完整多项式像维数2/1/0。原K2/K3尾坐标(10,11,0)/(24,28,0)，det16，像上J=2I；联合b8不再增维。以[形式局部源核定理](notes/2026-11-14-r150-saturated-source-envelope-first-page-and-primary-choice-control-789f.md)识别完整Bsat的2-primary第一页恰U9/U7二维，保Z_(31)[[s−2]]、自由条件、q2/carry选择差；预发布稿的全局R2假设已纠正，未调用未付全局q2或其它primary。下一页须保196修正ζ、两个t关系、e9及旧F7源核，不能只取常数像核。数据c09e0eec、5恢复256910B全保，无旧乘积重算；完整原modp4成员及char0仍开。
