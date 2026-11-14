@@ -10,7 +10,7 @@
 本 checkout 的 `.git/objects` 在 `/tmp/visible-exact-0df9-git-objects` 并保 symlink。
 新临时输出用上述 /tmp 路径；所有已移字节核同。旧 `/workspace/scratch/ac0d699811ad` 仅只读取原检查点，不修改旧仓库或原 native。
 
-最后实际 pull --rebase 与两 README 差异检查：bea73b2d61aa4031a9c2564d74fdc90829607845；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
+最后实际 pull --rebase 与两 README 差异检查：f54fd7c32b64420f9a735f484bd2f8215125a08c；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
 已实际读 ee26c0a65a2e63c15f2ccfba6714181584416542 的根差异：新增 visible-flex-new-mechanism，课题数改按表；其它规则和本题目标未变。
 每次 push 前真实 pull/rebase 并读两个 README 的新增 diff，至少每小时 pull；每条结论独立推；非 FF 立即 rebase 重推到成功，不 force。
 PAT 仅瞬时命令行环境，不入文件或输出。root 管 Git/H/open/results/log，三代理只写各自新文件。
@@ -56,7 +56,7 @@ root：逐结论核真实对象/源/范围、立即推送，接完整几何预�
 
 新增真label全径向L2能量把K48显式σphys提高到>1/80（σx>1/20）；同背景qν−Z≤1/200足保真物理行>1/200。完整响应误差仍需供给；公开九步DAG将同源重放原小consumer并首算R31门。
 
-visible-exact-complete-cap-cut.yml将复用43583838015原17.97MB结果工件，首算14门：完整moving帽误差/low-high-mean、真97行边界满秩及原193×96 projector互补逆和反馈；连续body与完整high输入仍未付。
+complete-cap-cut **43587619797** 已真实14门全过，native36f498e3…27104；moving全帽误差<.000146553005，低97行<.000495325502，mean>.0970571556485532，完整Gram已付，LR<10.303434596523/DL<.005103553909969。只授有限低行核；未知high输入与完整源/连续Green仍欠。
 
 公开九步43586895661已真实全成，11个R31门全真；fresh R31 d6e59dfa…/post48 a44d6a6b…/sharp ec0fe6b1…。原输入169transport不重积分。ε<5.856e−13<threshold9.158e−12，实δ∞改变量<9.369e−11；只授明确显式族存在，最终宽normalized1/400，另付物理共轭域。完整14文件在/tmp/visible-exact-0df9-workspace/phase-small-actions-original/run-43586895661-1。
 

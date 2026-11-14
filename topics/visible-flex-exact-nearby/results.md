@@ -61,3 +61,5 @@
 - [实际显式族的完整真圆共轭存在](results/R133-supplement-actual-explicit-family-circle-conjugacy.md)：公开43586895661九个数学child全0、R31全11门真：全误差<5.856e−13而门>9.158e−12，存在实δ∞且|δ∞|<9.369e−11实现ρ15；实际PQT/B、全部root/mean/复域与finite-to-full链齐。只授明确显式族，PDE逆与β/strong仍欠。
 
 - [实际根的全输入高输出Volterra完整强界](results/R119-supplement-root-high-output-Volterra-without-low-frequency-condition-number.md)：同一全Airy算子保mean/双支/跨锥，χU的准确commutator加双buffer与dyadic行列Schur给cut2^4200 b下U高输出<2、二次余项H^s→H^(s+4/3)<2^4096 b^(4/3)，不借低频条件数；源/逆向均保，完整graph和全网络阈值仍另付。新整数预算只在公开Actions运行。
+
+- [完整物理帽到真实moving cut的实际14门](results/R133-supplement-complete-physical-cap-into-actual-moving-cut.md)：43587619797真实return0、14门全成，1977格和全部97输入列进入真实moving坐标：εmov<.000146553005，全低误差<.000495325502，真mean>.0970571556485532；全193×96 Gram、97行正交补LR<10.303434596523/DL<.005103553909969。完整未知高输入和主体Green仍分别待证。
