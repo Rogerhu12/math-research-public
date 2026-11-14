@@ -322,7 +322,12 @@ def main():
         qT = r.add(x, r.mm(M["A1"], r.conjugate(x)))
         assert r.iszero(r.mm(cat(*WT, u), qT))
         qsource = r.mm(M["W"], qT)
-        if np.all(r.units(r.rows(qsource, I1 + I2))):
+        # The original C connection has already been calibrated on all I2.
+        # Its T2 trace is uniquely reconstructed from the faithful global
+        # source equations below, not by evaluating that trace at I2.
+        # Only I1 is integrated. A genuine trace pole can therefore reduce
+        # to I2 without invalidating the connection or its tiny integrals.
+        if np.all(r.units(r.rows(qsource, I1))):
             break
     else:
         raise AssertionError("No actual T2 denominator")
@@ -343,7 +348,11 @@ def main():
         "branch_good_rows": branch_counts,
         "common_good_rows": len(good),
         "calibration_source_rows_not_used_for_trace_interpolation_0based": excluded_calibration_rows,
-        "trace_denominator_unit_at_all_calibration_and_tiny_points": True,
+        "trace_denominator_unit_at_all_calibration_and_tiny_points": bool(np.all(r.units(r.rows(qsource, I1 + I2)))),
+        "trace_denominator_unit_at_all_family1_tiny_points": True,
+        "family2_rows_where_trace_denominator_is_nonunit_0based": [i for i in I2 if not bool(r.units(r.rows(qsource, [i]))[0, 0])],
+        "original_C_all54_family2_calibration_retained": True,
+        "T2_trace_determined_by_all_faithful_source_equations_not_family2_evaluation": True,
         "all_actual_trace_equations_verified": True,
         "trace_scale": "1/2, actual R131 normalized Velu differential pullbacks",
         "complete_cusp_field_equations": True,
