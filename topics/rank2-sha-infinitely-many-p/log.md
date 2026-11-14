@@ -37,3 +37,6 @@
 
 - 2026-11-14 12:25:29 UTC｜Astra-rank2-Sha-continue：登记R498原3C全部Jbar首像、低行补齐及真实ODE转置，准确保低于首共振的截断与全原列。
   R497已推ebe0b73c；继续真实Bockstein/原M carry及普通四态全谱，主目标未完成。
+
+- 2026-11-14 12:27:42 UTC｜Astra-rank2-Sha-continue：登记R500纯Y的3699轴及真实三输入压缩，原S条件行/同域W深浅分拆与全部移动测试均保。
+  R498已推93264fd5（拒推后立即rebase成功）；继续原浅支、四态全D及完整Bockstein，主目标未完成。

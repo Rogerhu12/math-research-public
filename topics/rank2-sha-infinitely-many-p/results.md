@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R500：原3699纯Y轴、完整三输入及同域W深浅分拆](results/R500-original-pure-y-axis3699-and-complete-w-depth-complement.md)：真实V=(27W′−(37+3δ)Z)/2正交Y/Tc，兼容mod137与两sigma锚给wholeodd3699核心χ_Vλ、χ_V²=1。三个Q共同核已付，可合法消去其深度并保系数；原S算术行允许任意V深度，同一域Z深恰等于W′深，完整剩余压到显示L(Z,V)⊗σ(x)的唯一W′浅支，所有移动测试保留。
+
 - [R498：原低ell完整三厚化首像及ODE转置](results/R498-original-low-ell-triple-neighborhood-and-ODE-transpose.md)：同预算t^rQ整个3C来源与原低行给全部Jbar首像，高块准确为(t^(s−r),t^max(ell−r,0)(ζ−η)²)；真左行是K_X|3C主部再经全部原列测试。低ell时A−2ηB正则，原代数比值A/(2B)给真实ODE转置，但其长度严格低于首共振，完整forcing及M carry仍在。
 
 - [R497：原degree918正伴随、完整S抽取与六sigma算术网格](results/R497-original-degree918-positive-companion-and-six-sigma-arithmetic-grid.md)：同一27/1输入的34/918真格以六个正次伴随矩准确抽回整个S34；全部矩阵、unit修正及四伴随共同深度给原JS′条件行。真实五深一unit网格用同一纯Y伴随测试仍有中央赋值5n，保正sigma矩全部log和固定坏集；经保Y三阶T落原h的W深管，完整补域及W作用下测试移动均显示。
