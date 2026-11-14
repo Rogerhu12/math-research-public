@@ -139,3 +139,7 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 ### R706：关键单位猜想的真实例外
 
 完整41..200000剩余类共5992素数，仅p137147出现Cp−3=0（Cp=80155）；原平坦z独立Actions已确认。故不能继续追求原Cp·Cp−3全p非零或v(M2)恒−1。需对真正更高Abel系数、该例外的进一步精度和原实际高度处理；不从modp零推出M2=0。详见[R706](results/R706-exact-window-through-200000-and-original-sigma-zero.md)。
+
+### R704 后的原单位输入
+
+原Γ方向全部43个p处嵌入已公开算出，完整模43²线性评价矩阵可将实际普通整基坐标转至R701所需43分支。当前缺口是同一标记c_s/c_q的p局部坐标，须保留s^11、P+、原q/Weil/Γ相位；既有pure-p在q的值不能替代。需证明对应原单位的快速部分Norm公式，不能枚举42(q²−1)/43项。实际C/m/L仍未知。详见[R704](results/R704-actual-original-Gamma-p-split-embedding-matrix.md)。
