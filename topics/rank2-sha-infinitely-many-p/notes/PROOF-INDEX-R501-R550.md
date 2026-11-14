@@ -120,3 +120,6 @@
 - [R550：原H3首核在分歧商的真实像](../results/R550-actual-ramification-koszul-quotient-and-full-third-kernel-image.md)：同预算(F,e)H2的Koszul商是长κ的真实交概形Z，整个H3物理首核在Z的像准确为ev_Z(kerβ)，且ev_Z在N³(−TP)上单射；理想块核为F Kmir，两条原连接保持。完整清极forcing用乘积厚化长κ+9d∞保固定边界重叠，局部分歧单位不代原全像非零。
 
 - [R549：原负矩的Cartier/Verschiebung完整有限行](../results/R549-original-cartier-verschiebung-and-fixed-negative-moment-rows.md)：同一原第二类微分有显式ζp∈L(pO)、Dζp=−x及绝对首项−Ha^-1；原sigma的AS方程精确识别为Verschiebung。两个负矩是保ℓ²/ℓ⁵的Cartier观察，准确化成H²C Sw/H⁵Sw二项式有限行，周期降为Ω^-2/Ω^-5固定幂；非齐次系统及Ha N曲率完整保持，指定行非零仍未付。
+
+- [R548：第三来源的完整CM反射与十七条正谱](../results/R548-original-whole-third-source-cm-reflection-and-complete-positive-spectrum.md)：整个六来源P2,Y η=−ρ0/2，fixed CM13九次在全S136等于−B2,Y，并通过原五伴随实现Rc；原S伴随准确为−A0/2。h=η+ρ0/2的principal全十七单谱及伴随卷积单位付清，十二外谱质量全域范数分子一；另外五个第一角块各保留。R544唯一差准确成h((f−f∘Rc)∘P1)，完整矩阵顺序、Q单位逆与全部实际cut保持。
+

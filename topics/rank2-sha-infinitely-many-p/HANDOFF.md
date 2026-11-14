@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根及课题README含全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：2fa06c9840cb25aa8011e91eae562c68a65bd776；2026-11-14 17:20:21 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：ddd264f8e531f0ef82c6702dffee0f2776b2cf88；2026-11-14 17:22:43 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作。每次pull后及至少每小时比较根/课题README，有变立即读差异执行并记SHA。规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13公开Actions，旧runner/ci-queue停用。
 - main逐条commit/push已授权；禁强推及改已发表历史。非快进立即pull --rebase再推；环境断连时API用expected_sha/force=false，拒绝立即读新头核规追加，不冒称实际pull。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。仅本课题log每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
@@ -14,9 +14,9 @@
 
 ## 发布、文件和分工
 
-R1–363、R365–547、R549–553已登记；R364仍开，R548在写。root统一元数据和逐条发布；代理只建proof/script/data blobs。R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b和原证书保持，不复跑。
-最新完整检查点：[HANDOFF](notes/2026-11-14-frontier-before-r553.md)、[open](notes/2026-11-14-open-before-r553.md)及其前轮链。全部旧结论索引另在notes/2026-11-14-results-index-before-r531.md。压缩不关闭任何旧问题；正文及PROOF-INDEX-R501-R550/R551-R600保准确条件。
-theta续R548 eta整个Y核及真实Phi差；literature已付R549，续R554真实共振转置与指定负矩行；deep已付R552全原列仿射判据，续R555实际类判定；root已付R553完整Norm2双theta与实际四线域，续原混合中央补偿。完整结论随成随推。
+R1–363、R365–553已登记；R364仍开。root统一元数据和逐条发布；代理只建proof/script/data blobs。R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b和原证书保持，不复跑。
+最新完整检查点：[HANDOFF](notes/2026-11-14-frontier-before-r548.md)、[open](notes/2026-11-14-open-before-r548.md)及其前轮链。全部旧结论索引另在notes/2026-11-14-results-index-before-r531.md。压缩不关闭任何旧问题；正文及PROOF-INDEX-R501-R550/R551-R600保准确条件。
+theta已付R548 whole CM反射/十七谱，续R556实际混合行；literature已付R549，续R554真实共振转置与指定负矩行；deep已付R552全原列仿射判据，续R555实际类判定；root已付R553完整Norm2双theta与实际四线域，续原混合中央补偿。完整结论随成随推。
 
 ## 完成标准和保留支线
 
@@ -27,18 +27,18 @@ quartic E17:y²=x³−17x及E34/E136/E389、O4完整Hilbert类迹低增广、O6�
 
 原rayπ0≡1428552127+2161889730ω mod2793510720，p>19、p7mod64、p1mod3；另π0≡2mod29、1mod137/79/103/263、2mod49、1mod1013/31，R487高13/19细分保持。所有旧有限坏集、分母及R518/523/527各自大p门保正文；没有加mod25。
 λ=−barπ0^-1、β=−λ、κ=pλ²、ρ0=−σ^⊗6/84，原输入(ξ1,ξ2,ξ3,x,c,d0)。原T/U几何18群与CM来源96群不同；四态/16quarter及所有参考未知质量/导数完整保留。
-R490–532的全部五伴随、词格、B0、C4八层、H0/B/J/K/E逆保完整检查点。H0共同测试、R527七项质量、R529零质量J/K核不能混用；W的E/K、Tc/C、P0/P0−P_K、原独立输入和单位补域全保持。R535全Hesse五项不忘隐藏输入。
+R490–532全部五伴随/词格/四态/CM群、H0/B/J/K/E逆与未知参考量见[完整检查点](notes/2026-11-14-frontier-before-r548.md)及原正文；H0共同测试、P0−P_K、原独立输入与单位补域保持。
 R536实际7×10整逆和固定D_*给同一q_n/π4：Dn质量/logx严格0，三中央v=n，三cubic carry平均T不变。C/F/Ghid均Y/W/L正交，M操作则改测试。R538原P_K附Edeep回βn(8+20κ3n−κ6n)ρ0/27，只N分量镜管相消；A5/近相消及L/M/旧W全部移权仍开。
 
 R533完整两degree6核及四条固定I−2(f4)/I−5(f1)双unit接口已付。条件K³矩阵A²只有真实K6的1/4；原joint余项虽U推前0，再乘K³有单位矩，禁止迭代边际矩。固定负矩仍须与原S/T全补域比较。
 R540已付ξ((c))=t2(c)^−1k3(c)^4、导子(6)、完整2/3局部Schwartz、α3、全权平方及ordinary core ξ(𝔭)/barπ0。原I−2²乘36c4·17^(3/2)Ωp准确读primitive Katz负点；c4固定非零代数但未赋每p单位。复反射ξ^-1ψ0³根数−1，不是f1正一ξψ0³；同CM-type对偶固定负支，裸共轭交换普通地点。
 首层notes/2026-11-14-degree6-negative-moment-first-layer.md给AS/ABS准确对角，147个p<2000只是有限证据（f1首层61零）。J反射S102全N7³=ω、循环3维、原三算术投影零，不能回原中央；见对应notes完整边界。
 
-R539 L=(W−Y)/2与M的whole八度两态保q_n。偶m准确逆权同行回λmβn原S/6δT，Dn在m<n合法，中央v=n−m；奇n,m=n−1给v1，全部反号补偿保持。
+R539 L/M whole八度两态和偶深中央放大保原q_n；所有逆权、Y/W/M移动及补域见完整检查点，R541已付奇深。
 R541的三源/真实G,H,R、[2]/[4]覆盖及全部逆权保[完整检查点](notes/2026-11-14-frontier-before-r553.md)；任意cut转置与原q_n不能删。
 R542的23坐标/18维边际、四参考和12外谱及准确系数保完整检查点；R546只付全CM伴随，whole第一其余角型仍保。
-R546 LH整框架和全半特征给eta全CM13/19五伴随转移；S2/new/Href三伴随以上质量均整卷积单位，原S/new零控制任意独立伴随测试。共同五深core λ5/−λ5/−λ5，Href非零环带差保持未知导数。W/L混合及Phi各CM支必须完整转置。
-R544 Hhat=ω²H_*与Rc在两态成S3，rawHη=−ω(ρ0+η)。三u_j框架R0+R1+R2=0，Lunit=三个真不交环带加V={L,u0,u1,u2unit}；原双零给V积分=λ[J−ρ0(Φ1−Φ0)−η(Φ1−Φ2)]，保公共log比和所有q/cut。六步词物理迹modp1/64非共同缩放；L-odd负矩单位仍非原中央。
+R546 full LH框架、CM13/19五伴随、三算术投影和Href非齐次环带差保完整检查点；仅独立伴随测试可用原零中央。
+R544真S3、三不交环带及唯一V域/共同log比已付；R548/553继续准确两态式，全部真实词域、q与补偿保持。
 
 R551新：R=c+2d、Q=2c−d，现gπ11mod40。wholeK20=χ65(2Pε−I)，B20 e_j=−e_11j；odd5锚同χ65、无新ray。原两态上Pερ0=ρ0、Pεη=−ρ0/2，两Norm5核χ65λB，B=−R0。Q保Y，完整连续test逆U_Q=(I+aB)/(1−a²)f0+Σa^nB^nSκ^n(f−f0)，a=χ65λ；测试范数一致收敛/整，全部W移权仍保。原c+Q两步实际A=P_cP_Q返−χ65λ²两态，detκ²、迹modp4/5；域A Zp6及Y/W/q全逆，不能当raw矩形。
 
@@ -58,3 +58,5 @@ R549已付ζp∈L(pO)、Dζp=−x，g^p−Ha g=−Haζp就是原V-cover。p6s+1,
 R552全H3纯ξ尾准确Dξ=(coker E_q/imα)/β0(kerβ̄)，β0由同一G和真H2修正后除2eη，e+f2η全保。完整b=b_car+iξ(3eξ)，b_car含低右逆全部高尾和活f2，上两层不含ξ。加入全部原列须取上层共同核W0，最后商Dξactual；首次提升等价上层可解及γcar+[3eξ]=0。原M用T=s−r−13，真实s、同R/26carry/第三位保留，类是否非零未付。
 
 R553同原六输入U=c+ωd,V=c−ωd，X=Theta(U)Sigma(V),Y2=Sigma(U)Theta(V)。ρ0=ω(X−Y2)/84，η=(ω²X−Y2)/84，h=−(2+ω)(X+Y2)/168，前四sigma全保。wholeS2由gπ−1mod4和Theta锚付β=−λ，两独立深/连续unit逆成立；e0/e2真单位对偶。R544 V={ωU+δV unit,U³+V³ unit}；Y=A−δU/2+(3+2ω)V/2、M=(1−ω)U+ωV，全部q/W/log随换元移动，不以对偶或单位子域代中央。
+
+R548 whole P2,Yη=−ρ0/2；N13,Y^9=−B2,Y而K136=RY B2,Y，RY不能在whole删。原五伴随B13^9实现Rc，故h=η+ρ0/2满足P2h0、Bh=h、Rc h=h，S伴随Aη=−A0/2。principal全17条均有真实卷积单位伴随，12外谱范数分子1；其余五角各17维ambient保留，不称实际rank皆17。h wholeQcore−χ65λ，Q=(Z2−Z1)/30；h(Phi1−Phi2)=h((f−fRc)P1)，P1不与Rc交换。全CM纤维读A_j D_a及Rc A1 D_a原序，全部Y/W/q/cut和参考导数保。

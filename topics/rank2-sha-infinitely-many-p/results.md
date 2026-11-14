@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R548：第三来源的完整CM反射与十七条正谱](results/R548-original-whole-third-source-cm-reflection-and-complete-positive-spectrum.md)：整个六来源P2,Y η=−ρ0/2，fixed CM13九次在全S136等于−B2,Y，并通过原五伴随实现Rc；原S伴随准确为−A0/2。h=η+ρ0/2的principal全十七单谱及伴随卷积单位付清，十二外谱质量全域范数分子一；另外五个第一角块各保留。R544唯一差准确成h((f−f∘Rc)∘P1)，完整矩阵顺序、Q单位逆与全部实际cut保持。
+
 - [R553：原Norm2双theta来源与真实四线单位域](results/R553-original-norm2-two-theta-source-and-mixed-unit-domain.md)：同一六输入换元U=c+ωd、V=c−ωd将ρ0/η/h完整写成Theta⊗Sigma与Sigma⊗Theta的两个张量；整个S2中心与Theta锚付两独立核心β=−λ。真单位测试给整对偶和全部连续测试单位逆；R544余域准确为{ωU+δV unit,U³+V³ unit}，原Y/W/M、q与所有移动cut完整保留，单位见证不代原中央非零。
 
 - [R552：全三次来源的接触尾与原完整forcing](results/R552-full-third-source-contact-tail-and-actual-affine-forcing.md)：原纯ξ尾在全H3中的像准确为Dξ=(coker E_q/imα)/β0(kerβ̄)，同一个实际二倍修正与e+f2η单位完整保留；再用全部原列上两层的共同核取商，得到完整首Bockstein的必要且充分仿射判据。原低行高尾、活V1/f2、同一R及M的十三行与下一位carry均保持，未断指定类非零。
