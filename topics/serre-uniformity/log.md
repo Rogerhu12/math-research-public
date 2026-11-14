@@ -49,3 +49,8 @@
 - R747闭合原全局实平方根T_h∈F0、T_h²=2N_hP_h，保正α/原tame相位、全部signed Galois共轭和整分母；完整ray conductor、p惯性及字段交逐项证明。
 - 证明SHA881d619bf17a376d5819a4fcbf44637a55860e276bc0ea86a640062498856016；未据平方存在宣称单位或高度排除，R748将接原有符号值实际提取。
 - HANDOFF完整归档后压缩，open/index同步；R746已完成非快进循环重推且两README未变。无新数学计算或共享设施修改。
+
+## 2026-11-15 00:30 Asia/Taipei · serre-public-resume-20261114
+- R745原p41 Hodge/period输入方法与独立公开Actions请求已提交：复用R738拓扑，只新算40p向量/N、六基800项与80平移/819边端点，未提前声称计算完成。
+- core SHA48e8bb1189e39c0f0500be6b20da8a21e2788b5b73bdb9fea32d17540b144b4d，方法SHA911593aeaa0dd3f5d3ef577efbc2a448ba4c498224de81a3af5335b8f1c71329；本地仅语法/输入路径/SHA核验，无数学运行。
+- 新增专用workflow/core/driver/request，复用既有publisher未改共享脚本；全部大表只artifact。HANDOFF/open同步，继续原period/q/β与高度。

@@ -1,0 +1,38 @@
+{
+  "session": "serre-public-resume-20261114",
+  "job": {
+    "result": "R745-p41-original-Hodge-input",
+    "p": 41,
+    "budget_minutes": 25,
+    "core": "R745_p41_original_Hodge_input.py",
+    "core_sha256": "48e8bb1189e39c0f0500be6b20da8a21e2788b5b73bdb9fea32d17540b144b4d",
+    "method": "notes/R745-p41-original-Hodge-input-method.md",
+    "method_sha256": "911593aeaa0dd3f5d3ef577efbc2a448ba4c498224de81a3af5335b8f1c71329",
+    "retained_character": {
+      "path": "computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-original-CM-norm.json",
+      "sha256": "fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6"
+    },
+    "retained_topology": {
+      "run_id": "43612108090",
+      "source_commit": "651aa3f7eaac6f97bfd7f87ec25b210eb7d6f4ca",
+      "artifact_name": "serre-global-R738-p41-original-period-input-43612108090-1",
+      "files": {
+        "original-cosets-and-markings.json.gz": "6a73cb699abb5e53328a040ec86bea2c4cac7ef690a29984912c43417cfd0161",
+        "integral-compact-Manin-cycles.json.gz": "d4dcbac16cc24cefd378fc7afea02fcd34b8043d255c1e84407ff7d21bd257cf",
+        "p41-original-period-input-certificate.json": "a853f36bf5d6f7d238e805a5c2134b2f7b3db17528195d56d980e66c9c769009",
+        "run-receipt.json": "1d9db77b970ec0595894ffea7d544526fb8a34f132dd4f8fb6db0d57f5d83578"
+      }
+    },
+    "dependencies": [
+      "results/R575-correct-actual-sixfold-CM-deck-and-cubic-twist.md",
+      "results/R586-actual-c0-marking-and-six-torsion-kernel.md",
+      "results/R592-actual-integral-CM-jet-lattice-and-complete-tail.md",
+      "results/R616-original-CM-point-difference-and-explicit-height-basis.md",
+      "results/R732-original-CM-period-kernel-and-bounded-rational-function-recovery.md",
+      "results/R738-certified-original-p41-period-input.md",
+      "results/R742-unramified-original-first-jets-and-depth-seven-Abel-isometry.md"
+    ],
+    "completed_topology_or_model_repeated": false,
+    "CM_period_or_map_or_beta_or_height_claimed": false
+  }
+}

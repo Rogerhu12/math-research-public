@@ -4,8 +4,8 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：1dff02f36977a5af4d9c94d4e5098b9d47f7efe8
-最近本地pull：2026-11-15 00:29:33 Asia/Taipei，main=1dff02f36977a5af4d9c94d4e5098b9d47f7efe8，两README blob均未变。终端已恢复，原blob:none部分克隆继续；至少每小时实际pull --rebase及每次推前pull，检查两README差异。旧本地R716重复提交与现行证明逐字相同，保留分支后跳过重复元数据，详before-R741归档。
+已读规则提交：ebd6206bbc222b056871e65255a99ba5c8cdd7bf
+最近本地pull：2026-11-15 00:30:58 Asia/Taipei，main=ebd6206bbc222b056871e65255a99ba5c8cdd7bf，两README blob均未变。终端已恢复，原blob:none部分克隆继续；至少每小时实际pull --rebase及每次推前pull，检查两README差异。旧本地R716重复提交与现行证明逐字相同，保留分支后跳过重复元数据，详before-R741归档。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权；非快进立即pull --rebase重推。PAT仅CLI，根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB，大可复现中间量只artifact。日志本题≤5行；不设独立审计/冻结审批门。
 
 本次前完整归档[before-R747](notes/2026-11-14-public-handoff-before-R747.md)，内接before-R742/R741/R738/R736/R735及更早链；[open完整归档](notes/2026-11-14-open-before-R742.md)保留全部旧公式。已成计算不得为包装重跑。旧未推成果按原记录重做，不依赖遗失对象。
@@ -14,7 +14,7 @@
 
 - **R742已成**原全部允许flat jets同处p未分歧CM域，M2非零时η∈Z、η≥−2、原P偶赋值；大p某本原η≤1且完整p7等距。**R744已成**整个原p4闭盘完整Weierstrass因子d≤η+2+μ≤3、Σ(vs−4)=−μ；center简单、非center字段次数≤3，Qp根只可深度4/5/6。真正W系数和高度仍未出；全尾不等于截断，原KS仅非零。
 - **R747已成**原K6=K(α)、α=∛4正实；完整p惯性固定域与A∩K6p=K给原M2∈A(α)，奇次数平方下降给αM2∈A。T_h=α(p+1)M2/[144(1−ζ²)]∈F0且T_h²=2N_hP_h，原全部signed conjugates与整分母2^18·3^13·p²完备。证明SHA881d619bf17a376d5819a4fcbf44637a55860e276bc0ea86a640062498856016。
-- **R745 global工程待推/公开运行**：原p41 Hodge/adelic有限表，scratch五文件已完成，根已读方法/包装，core待完读。复用R738两gz与cert，不重算拓扑；CRT6逆元、αs、ζ² transport和微分246保留。新40p平均坐标、完整N、六基800项与80平移/819边端点，尚不计计算结论。global续真实Γ0(15129)压缩endpoint和R732实际CM周期核，q/β/高度仍未出。
+- **R745已提交独立公开请求，待Actions返回**：原p41 Hodge/adelic有限表，五份方法/源码/包装已完整读并仅核语法/路径/SHA。workflow serre-p41-original-Hodge-input.yml由request push触发；core SHA48e8bb1189e39c0f0500be6b20da8a21e2788b5b73bdb9fea32d17540b144b4d。复用R738两gz与cert，不重算拓扑；CRT6逆元、αs、ζ² transport和微分246保留。新40p平均坐标、完整N、六基800项与80平移/819边端点，尚不计计算结论。global续真实Γ0(15129)压缩endpoint和R732实际CM周期核，q/β/高度仍未出。
 - **R748 cartier继续**原signed T实际提取：复用R745向量/N和R739/R717原P，Arb先候选、原Serre导数严格球定±再exact square，不得任选平方根或重复fiber/AFE/DFT。同h两个Cartier系数同时单位仍开。
 - **R743已成**原p-flat pure-p primitive的准确q斜率2(a−16b)=−ε(J−18)；**R746已成**z=b iff原D_z有S支持strict-p零primitive，<D0,p,d0>=26εb=ε(L−31)。两原泛函独立，不推出J/b比例。**R723仅留真桥**；unit继续Γ/S交换，**R749**单独核原scalar规范值，实际J/b仍未知。
 - **R750根在写**全阶global field：支持于2的x2=ζ、Norm1固定A；reciprocity矩阵C给α→ζα、原全部Serre jet→ζ²倍，拟得αM_(3j−1)/(1−ζ²)∈F0和原全局jet比值。须把右label与全阶复共轭完整写出，尚未计结论。

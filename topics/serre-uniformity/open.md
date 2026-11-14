@@ -337,3 +337,10 @@ $\langle[D_{0,p}],(d_0)_p\rangle=26\varepsilon b=\varepsilon(\mathcal L-31)$。
 
 
 **R738（原带标记闭周期输入已完成）**：公开run43612108090在原六层Q8图式和同一p项链上生成4920陪集及每条整SL2Z代表；g400、20个宽246尖点、819整数相对基、800整数闭基与交配det1。原c1唯一实标签C为4424，deck[4424,0,1258]对应[1,ζ,ζ²]；c0三轨道是同一个粗点。两完整大表只artifact，cert SHAa853f36bf5d6f7d238e805a5c2134b2f7b3db17528195d56d980e66c9c769009。真正待继续的是原正CM因子的Hodge/完整adelic表及周期求值；原q函数/β/高度未出。详[R738](results/R738-certified-original-p41-period-input.md)。
+
+
+R745 已提交同一原p41 Hodge/period输入的独立公开Actions请求，
+见[完整方法](notes/R745-p41-original-Hodge-input-method.md)。
+固定R738原4920陪集/800闭链SHA直接复用，只新算原40p平均坐标和完整N、六个真实Q微分800项、80平移与819相对边端点。
+保原αs、CRT6逆元、ζ² transport一次及微分246，完整输出只artifact、小证书入Git。
+尚待实际公开返回，不计rank/周期/q/β或高度结论；后续仍须真实CM周期求值。
