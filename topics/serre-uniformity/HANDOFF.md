@@ -4,8 +4,8 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：cd948ebb41eba026be26239d70a159b19b2e9d7e
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions各发布前实际pull并核两README，最近R717 direct-chirp发布于14:02:50UTC实际pull后核查，无差异。最近GitHub集成核查：2026-11-14 14:06:26 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
+已读规则提交：ae08e6ce45ff5178a6c50d5634ae9cb0f2424fc4
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions各发布前实际pull并核两README，最近R717 direct-chirp发布于14:02:50UTC实际pull后核查，无差异。最近GitHub集成核查：2026-11-14 14:11:23 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
 
 仅公开Rogerhu12/math-research-public及其Actions。每结论单独推main已授权，禁强推；终端非快进立即pull --rebase重推。PAT仅CLI。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB、大中间量不入库。日志本题≤5行，改共享设施须说明。
 
@@ -16,7 +16,7 @@
 - R707固定p41已完整：129盘=121排除+8CM，无有理尖点；183证明SHA账本已核，O5关闭。R656/R709的原CM4链已恢复，勿重跑。
 - R706/R689/R698：41..200000的5992素数，唯一Cp−3零137147；独立原z公开run43587480525同值。R710原数组后两权117309/122674，M8赋值−7、残余阶r3；R711全部jet整数赋值。
 - R724原高度规范求值/η轨道基/完整形式尾/Bézout证书已证；global转实际模型与真实前缀，不能把可执行算法或有限零数当排零。
-- R717新解析p41校准已成功；137147四片成功；recover整数trace认证失败，正在复用失败产物诊断。完整source/规范/凭据见下；已成计算勿重跑。
+- R722原137147完整M2单位已由run43602664971认证；全trace唯一、vM2=0、归一平方53970，原p4深盘等距且仅中心Qp零；勿重算已成格点/trace。实际高度仍缺。
 - R719原137147非消失已公开证明：run43597653737完整945171点/132178 norm行，小圈2769全核；严格B<106516214032/10^12<1/2，故原R616指定L′·L非零、β生成A(Q)⊗Q及log同构。实际高度仍缺。
 - R715原m43、R718全层m_n=42n+1和d∞、R720原C=9ib链桥均已推；unit继续原X_t主化/首矩或真实普通互反求b，禁止代pure-p参考24。最新R720提交e66994cbc4e3820ba667c0f4a67717d4f0cb4400。
 
@@ -27,18 +27,19 @@ R616原β=q[c1−c0]非挠iff原L′(g+)L(g−)非零，成立即A(Q)⊗Q=Fβ且
 
 ## O4：实际Abel与高度
 
-R705全阶原范数给Abel阶≤(p−2)/3；R710/R711完整整Tate与Q下降给137147的M2≥0、M5≥−3、M8=−7、余次数3。R721若Cp和实际M2单位，v(s)>7/2仅中心零，p4闭盘准确缩放等距；vM2=h有限有p^(h+4)版本。实际KS保留，Abel不是高度。R712完整LT两块另给原M2下一位；有限公开符号校验不代137147实际值。
+R705全阶原范数给Abel阶≤(p−2)/3。R722现证明137147完整M2单位，结合Cp80155与R710/R711全整Tate得原v(s)>7/2仅中心、p4闭盘准确等距。其两非中心scalar根为Eisenstein二次，vs=7/2、不在Qp；5992已成窗口的候选Qp深盘scalar非回零闭合。实际KS保留，Abel不是高度。R721全p条件定理及有限h版本继续有效。
 Cp全p单位仍缺；critical-sigma-jet-parameter-boundary.md证明改Gaussian参数c可保持Fp=0、F_(p+1)=6B单位而临界F_(p−1)有根；原固定c=s额外CM约束必须使用，未给原Cp反例。
 
 R575原正商、R593/R596原η/χ/刚性化/tensor/截面全部保持；R690/R694/R696给实际坏靶Ω={0}。R634外积消A高度矩阵仍保Y项/常数；R682共同首阶，R703/R716有限代数jet提取和全相对尾已证，后者免预求γ。一般p实际模型/关系矩阵/规范前缀仍缺。
 R724现闭合规范求值接口：Y splitting在Λ中含因子2精确抵消；完整adelic Hecke/GL2型使原η轨道给MW基，ell=yᵗL⁻ᵗHL⁻¹eη而不反演H。代数universal-extension提升经Δ=logI Z−r(logQ)校正，用同一Poincaré纤维群对数求原λp/d_i及全部非p项；形式全尾明确。实际模型/高度jet未生成，(724.33)有限Bézout排根条件未实过。137147原R616前提已由R719闭合，不能据此称高度排零。
 
-## R717精确原范数与当前公开运行
+## R717/R722 原精确范数：目标已闭合
 
-原P=S2S3/C0²在实圆分域，2^37·3^26·p5·P整；原Ω/6标签、两正Gauss和、完整period factor与全尾给所有整数trace，唯一整数区间和精确Teich根恢复原值。证明及完整大文件续算预算见R717与notes/R717-p137147-certified-budget-and-artifact-resume.md。
-core scripts/R717_certified_original_CM_norm.py SHA75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402；p41校准run43597163388已成功，42整数trace唯一、1274/24匹配，receipt SHAfb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6，勿重算。
-137147正式请求source ffc69b45d58ea9aaafd1e0686fc55377701a00be：384bits、tail256、cutoff360p=49372920，四片8113行=2029/2028/2028/2028、至多2并行，单recover做三个球DFT；严格解析trace误差<2^−14但仍须完整Arb唯一性。run43597802237四片全部成功：8113行、14925440项；四原bin SHA与receipt/manifest匹配。recover job132457689232于13:40:40UTC失败：三DFT完成、137148个trace全部未过唯一整数判据，未得原值。完整embedding/trace球已保存，artifact serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1；诊断run43602040433已成功，summary SHA7177f7a2a698d20fb4bb7789f9cb95f73c7aba3af272848cfa0b118a2d51ecbb：bins半径<2^−368，旧chirp第3509项半径≥1/4，trace全失败因包络膨胀。新core c437d880dcea112f4e5b3f7d44cdfd37ad221b7f41a4d14d1359f11f010aa835逐项独立精确余数相位，严格固定旧四bin/source/参数及完整生产前缀一致；新direct-chirp请求仅重做三DFT/精确恢复，零格点重算，尚无目标值。小凭据在computations/R717-original-CM-norm-p137147-bins-i/43597802237-1/。
-完整片/前缀按source参数与实际SHA复用；大bin由runner从artifact恢复，不可工具分块/编码或盲重跑。runner session固定source/request；每小时核README、发布pull后再核，结果另登记。
+原P=S2S3/C0²在实圆分域，D=2^37·3^26·p^5使DP整；完整原Ω/6标签、Gauss/周期及全尾给所有整数trace，精确Teich恢复原值。p41校准run43597163388完成42 trace、1274/24匹配；勿重跑。
+137147原四bin来自run43597802237/source ffc69b45d58ea9aaafd1e0686fc55377701a00be：384bits、tail256、cutoff360p=49372920，8113行14925440项全部有效。旧recover因递推chirp的矩形球膨胀失败；诊断run43602040433明确bins半径<2^−368、chirp3509项达1/4，完整说明见R717 §10及notes/R717-independent-chirp-recovery.md。
+修复run43602664971/source f63e0498a9d599342ee5af0f66f3a425edfd9fd2全成功，零格点重算；core SHA c437d880dcea112f4e5b3f7d44cdfd37ad221b7f41a4d14d1359f11f010aa835。固定旧四bin/source/参数/生产前缀逐字相等，只独立算精确相位。137148 trace全唯一，最大实半径597851749·2^−82，精确p^6分子赋值5，原P≡105522单位，原M2²/ζ²≡53970、vM2=0。
+R722登记目标证书与原完整桥：core receipt SHA41940fcf1fde383e723c1b5c0265f23b04ed441cb86d8f1e946223ec721b1c2c；run receipt1e1db4e86616b955ec478ef1309f91bac3d78ab99ec8fa2fbd4b8e225aac6b49；manifest b9fb211fbdbab138a17d76cfe0bb219403bc95b891122a4ce4e7e9962161e09f。
+小凭据computations/R717-original-CM-norm-p137147-direct-chirps/43602664971-1/；完整artifact serre-cartier-R717-original-CM-norm-p137147-direct-chirps-43602664971-1。大bin/整数多项式不经工具分块，不重跑完成计算。R712下一位公式可兼容但不再是判断此M2单位的缺口。
 
 ## O6：原p43 Robert单位/普通Norm
 

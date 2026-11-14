@@ -106,7 +106,7 @@
 
 - **R710（全p定理及公开精确提取已证明）**：[全部平方jet的未分歧下降和完整粗Abel约化](results/R710-unramified-squared-jets-and-complete-coarse-Abel-reduction.md)。全允许m的M_m²在固定未分歧域，半整数赋值补齐唯一边界项；P=p^−2 I、V=z_f³/p³为整Tate级数，约化最低次数r由原CM下降权对精确给出，v(a−1)>3盘零总重数恰r。公开run43589720709只复用原z证书得到137147的后两权117309/122674，M8赋值−7、r=3、非中心零至多2；不证明这些零点或实际高度已排除。
 
-- **R711（下降与条件判据已证明）**：[原有理CM的Abel系数直线与整数jet赋值](results/R711-rational-CM-Abel-line-and-integral-jet-valuations.md)。实际正商在Q上、p在实系数域全分裂，原完整z_f³↔a−1在Q上，所有阶共用KS常数；故M_m/M_(p−3)∈Qp，端点迫使所有jet整数赋值，并结合R710得原值在固定未分歧域。P/b_*∈Zp⟨V⟩；137147余零精确为v(v²+Av+B0)，A、B0均在pZp、v(B0)=1+v(M2)。若实际M2单位，两非零根v(a−1)=7/2；此单位及真实高度未证。
+- **R711（下降与条件判据已证明）**：[原有理CM的Abel系数直线与整数jet赋值](results/R711-rational-CM-Abel-line-and-integral-jet-valuations.md)。实际正商在Q上、p在实系数域全分裂，原完整z_f³↔a−1在Q上，所有阶共用KS常数；故M_m/M_(p−3)∈Qp，端点迫使所有jet整数赋值，并结合R710得原值在固定未分歧域。P/b_*∈Zp⟨V⟩；137147余零精确为v(v²+Av+B0)，A、B0均在pZp、v(B0)=1+v(M2)。若实际M2单位，两非零根v(a−1)=7/2；该单位现由R722证明，真实高度仍未排零。
 
 - **R714（扩大原本原非消失区域，已证明）**：[全体可见格点计数及次对数约数区域](results/R714-global-visible-count-and-sublogarithmic-divisor-primitive-region.md)。小半径按所有可见点合计、以 o≥log(p/2)/log X 控制 1/φ(o)，大半径保留全部原射线及其带符号整数倍；显式预算 Q≤1/2、√p≥1440J 给原 L′(g+)L(g−) 非零、A(Q)⊗Q=Fβ 及真实 log 同构。覆盖固定 ω((p+1)/3) 的全部充分大 p，以及 J≤(log p)^(1−ε)、p≥exp(exp(64/ε²))；未覆盖全部 p，亦不排除高度零点。
 
@@ -124,7 +124,7 @@
 - **R720（已证明）**：[原C与b的完整Robert链比较](results/R720-original-C-and-b-by-the-complete-Robert-chain-comparison.md)。原Γ-Norm像NΓX对P自由及同时整提升Y使完整两次整数边界比较中的附加项在A/πA消失，原两cocycle均给同一负号，严格得到C=9ib=−34ib。故L=31+26b、r_y=25+9b、Ω₂=ε(22+17b)，消失恰b=24；实际b仍未知，不以pure-p参考值代入。
 
 
-- **R717（已证明精确算法）**：[原CM范数的认证复trace恢复](results/R717-exact-original-CM-norm-from-certified-complex-traces.md)。原P=S2S3/C0²在实圆分域且2^37·3^26·p^5P整；原六挠标签、两个精确Gauss和、完整周期因子及全尾使三个球DFT给全部整数trace，唯一整数区间与精确Teich根恢复原范数及M2赋值。公开run43597163388已通过p41的全部42整数trace唯一性，原1274和归一平方24完全吻合；137147数值尚未求；不把复L值非零代modp单位。
+- **R717（已证明精确算法）**：[原CM范数的认证复trace恢复](results/R717-exact-original-CM-norm-from-certified-complex-traces.md)。原P=S2S3/C0²在实圆分域且2^37·3^26·p^5P整；原六挠标签、两个精确Gauss和、完整周期因子及全尾使三个球DFT给全部整数trace，唯一整数区间与精确Teich根恢复原范数及M2赋值。公开run43597163388已通过p41的全部42整数trace唯一性，原1274和归一平方24完全吻合；137147实际单位证书及后续根结论见R722；不把复L值非零代modp单位。
 
 
 - **R719（完整公开证书）**：[p137147原非消失、秩和log前提](results/R719-p137147-original-primitive-visible-enumeration-certificate.md)。公开run43597653737完整枚举945171原可见primary点，保留六真实order及132178 norm行，并以2769点独立direct-power全核。Arb256加完整packing外尾严格给B<106516214032/10^12<1/2，故原R616指定L′·L非零、A(Q)⊗Q=Fβ和log同构。该素数高度外积的原秩/log前提已闭合，实际高度与候选排除仍待求。
@@ -133,3 +133,6 @@
 - **R721（已证明条件定理）**：[原Abel深盘等距与Tate自同构](results/R721-uniform-conditional-deep-Abel-isometry.md)。若原Cp及完整M2均为单位，原前两系数a1=pM2/(6b*)、a2=p⁴M5/(720b*)和全部尾给v(s)>7/2仅中心零且v(I)=v(s)；I(p⁴u)/(p⁴b*)=(M2/(16b*))u+pH为Zp闭盘Tate自同构/等距。保留实际KS常数；vM2=h≥0的相应p^(h+4)盘版本也已证。没有把Abel等距替代真实高度排除。
 
 - **R724（已证明构造及充分证书）**：[原Chow–Heegner高度矩阵与规范jet求值](results/R724-original-Chow-Heegner-height-matrices-and-canonical-jet-evaluation.md)。原Y splitting在Λ中含因子2/常数精确抵消；完整adelic Hecke与GL2型使原η轨道给MW基，ell=yᵗL⁻ᵗHL⁻¹eη不反演H。代数universal-extension提升经Δ修正、同一Poincaré纤维群对数及完整形式尾给原λp/d_i/非p项，实际有限Bézout不等式可证整盘无非中心共同高度零。一般p模型、137147真实高度jet及实际排根证书仍未生成。
+
+
+- **R722（实际目标完整认证）**：[137147原M2单位与完整深盘Abel结论](results/R722-actual-M2-unit-at-137147-and-deep-Abel-isometry.md)。公开run43602664971复用四有效bin，独立精确相位使137148 trace全唯一，精确p6恢复原P105522、vM2=0、M2²/ζ²53970。原Cp80155与全Tate尾给v(s)>7/2仅中心、p4盘准确等距；另两scalar根的二次因子Eisenstein、vs7/2且非Qp。5992既成窗口的候选Qp深盘scalar非回零闭合；原KS与完整高度保留，未得高度排根。
