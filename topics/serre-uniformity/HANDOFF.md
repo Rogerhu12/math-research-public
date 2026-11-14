@@ -4,8 +4,8 @@
 
 证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，未达到 README 完成标准。** 固定p、条件结论、数值验证都不算完成。会话 serre-public-resume-20261114；日志 Asia/Taipei。
 
-已读规则提交：0c17ddf208a2ad48bca9f9c3ee634a1c25557d8c
-最近实际 pull：2026-11-14 17:47:04 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
+已读规则提交：ee26c0a65a2e63c15f2ccfba6714181584416542
+最近实际 pull：2026-11-14 17:54:05 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
 
 仅在 Rogerhu12/math-research-public 工作，长计算用本仓库 Actions；旧“停用公开runner/转本地”作废。每条结论终端commit/push main已授权；推前pull，非快进立即pull --rebase循环，不force。令牌仅CLI临时环境。根代理独占tracked/git；辅助在仓库外agent-global/、agent-cartier/、agent-o6/。单Markdown<100KB，HANDOFF<10KB，open/README<30KB，数据>1MBgzip，单文件<5MB。日志只追加本题log，≤5内容行；改共享文件须在log说明。
 
@@ -21,6 +21,7 @@
 - **公开恢复wave02运行中（43580991103）**：serre-p41-remaining-recovery.yml，55作业/最多4并发；54个普通缺失盘求完整F2及必要F3，R655另续两个CM4粗盘原链，完整高度仍待R656。请求public-p41-remaining-recovery-request.json，已完成receipt自动跳过。R622/R635计算已返回待登记；R659入口误传R435给R379引擎，前五阶段保全；nonelliptic-resume.yml已配置按指定result从原artifact续算，先R659再其余22个非椭圆盘。
 - **R687已证算法**：R605原AC/log商在特征p的直接FLINT截断，先精确消去阶乘p；p101/1013短算已保存。R689四片全部完成，99素数无零；不把有限非零当普遍定理。
 - **R688已证结构**：真实2/3局部高度解Ia=d、a(c0)=0后为a_v/e；完整Picard修正已保留，Ω同步按分量标签。实际模型/κ_v/Ω尚未算，继续p处Λ jet。
+- **R686已证全塔**：真实Robert逐层Norm/整格/原q导数给A_Mn=RΓ/π^min(d,42n+1)；原m<43则全高层永久稳定。实际d/m/C/J/b仍未知。
 - 接着：cartier推进实际Cp·C_(p−3)结构/例外及精确有限窗口；global求真实高度jet/有限目标；O6求原普通单位Norm/首矩C/J。新结果立即登记，主目标未闭合继续。
 
 ## O5：固定 p41 的真实高度与全部129盘

@@ -391,3 +391,9 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 新增共享workflow serre-p41-nonelliptic-resume.yml，从wave02原artifact恢复304位链与已完阶段，逐源码/产物SHA续尾。
 - 通用发布器将并发ref锁竞争同非快进处理，立即pull/rebase重推；open公式转义已修正。
 - 先执行R659尾段验证真实接口，其余已算链陆续接回；本条不登记新圆盘排除。
+
+## 2026-11-14 17:49 Asia/Taipei · serre-public-resume-20261114
+- R686由同一原Robert祖先和逐层精确Norm证明完整整单位格；原q惰性及Fr²=[−q]给所有anti-p层全裂。
+- 实际−13i导数由Norm折叠保持，含全部单位项的普通下降给m_n=min(d,42n+1)。
+- 原m<43意味着全高层永久稳定，不能以升层自动取得原普通单位Norm；实际d/m/C/J/b继续求。
+- R688公式分隔符按根README统一为美元格式，语义与全部归一不变。

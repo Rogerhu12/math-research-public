@@ -592,3 +592,5 @@
 - **R689（精确有限结论）**：[真正剩余同余类至2000的完整99素数窗口](results/R689-exact-remaining-prime-window-through-2000.md)。公开Actions四片完整返回，原Cp和Cp−3全非零，因此这99素数的实际v_p(M2)=−1；原样回存全部证书并与R687的p1013直接通道吻合。未证明全p非消失或QC候选排除。
 
 - **R688（已证明结构）**：[实际CM商坏处高度的分量交数公式](results/R688-actual-CM-bad-height-graph-equation.md)。保留完整Picard修正与原刚性化，解Ia=d、a(c0)=0即得真实λ_q=a_v/e；Ω按同一分量标签同步求，不需先算η/ℓ的高度。给分母界与κ_v∈Qκ的准确零值判据；2/3实际模型、度数及Ω值仍待算。
+
+- **R686（已证明）**：[原纯p全塔的普通类群准确增长律](results/R686-all-p-power-layers-and-exact-ordinary-class-growth-law.md)。同一Robert祖先逐层精确Norm、socle给完整整单位格，原q的Fr²=[−q]及Norm折叠保持−13i导数；全塔A_Mn=RΓ/π^min(d,42n+1)。若原m<43则以后永久稳定；实际d/m/C/J/b/L仍未计算。
