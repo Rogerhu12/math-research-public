@@ -379,3 +379,7 @@ run43613269074/sourcef41916ce的78源/1输出全部字节SHA核同；1489B输出
 ## 2026-11-14 16:10 UTC — R55 当前饱和表示的准确三阶必要门
 
 当前饱和3−3+1反射与自然单帽外延的三阶差为g_rrr+g_r/(3c²)，热Oδ6与cutoff Oδ5不改。准确R0的δ²项先迫u/v三阶相同，RT的δ³项再迫beta；所需v补偿在每个帽顶点二角导跳正比相邻正幅度之和，有限全角解析自由列不能提供。故此明确表示无准确R0，但没有正残差下界，不排1e−6近似或一般C2/非解析连接。 root全文核delta/epsilon/e差别、Rcap=−(1+a′)P_rtheta=Oδ6、两步forcing和v二角导跳准确系数。没有用一般C2求高导，只用指定表示的展开；无限热与有限GH严格分开，不取消已运行数值探索。私有仓16:09:36 UTC实际pull至33ebdb638516e71e1b234a6340fe7b1a3d9ccc61，双README无差，QUEUE唯一课题行仍本会话进行中。
+
+## 2026-11-14 16:13 UTC — R56 完整变系数范围准确有限化
+
+任意二次forcing用Zi=FVi/(xi+omega)表示，真实变系数右锚rho=P+B/z；完整characteristic RHS、eta0与恢复分子的所有1/z项逐点消去。有限阶只需固定profile乘积/微分/Volterra及真实s系数积分，故全连接段、双collar及整个period均准确有限化。冗余生成元用真实Gram kernel，不能用采样代全函数。当前重叠pair六交叉密度满秩，固定六profile右逆使全部第三gauge一次支付ruling在同一全局W内的部分；完整第四恰还需全period零及全ruling属于W，尚未求得共同零解。 root核适应坐标三H分量、右锚rho及ruling方向、R/eta0逐点消分母、全部恢复分量、周期/双collar、有限分离闭合和六密度Gram右逆；source全文独核。共享workflow加range_numerator_exact五分钟lane只复核六符号身份，request仅它，不重跑R53短lane或主饱和lane。

@@ -1,15 +1,17 @@
 {
-  "request": "exact-overlapping-profile-fourth-leading-gate-and-IFT-Jacobian",
-  "created_at": "2026-11-14T16:00:47.679282+00:00",
+  "request": "exact-full-variable-range-numerator-calculus",
+  "created_at": "2026-11-14T16:13:30.106042+00:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "overlap_fourth_exact"
+    "range_numerator_exact"
   ],
   "exact_only": true,
-  "script_sha256": "e19445c159e59de842d9306f254882c2bab3ee33c39eab0b8395c36854eb408f",
-  "development_certificate_sha256": "a76938ed7ca644dd46831e12b4c27f60d17c4ca17257dd9d09be5b27f1d1c87d",
+  "source_sha256": "29a741f3fa8f817abe3ceeecce9b9ab608a51c40bbb98088a2bf8b1bbbd19960",
+  "development_output_sha256": "3f71f044e3ac53a2061d764292b2a0e1d7e5e8f2c30945841be4a39457c51caf",
+  "s_derivative_holds_xi_fixed": true,
+  "all_variable_coefficients_preserved": true,
   "main_geometry_run_remains": 43612971265,
-  "profile_integrals_evaluated": false,
-  "whole_fourth_range_certified": false,
+  "whole_range_conditions_satisfied": false,
+  "geometric_design_evaluated": false,
   "task_complete": false
 }

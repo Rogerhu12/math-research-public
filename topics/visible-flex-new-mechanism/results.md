@@ -113,3 +113,5 @@
 - [R54：全常状态的螺旋面迁移、准确相位矩与第一段常数gauge](results/R54-constant-state-helicoid-transfer-and-first-ruling-gauge.md) — 常(k,h,omega)段经准确刚体、H=h²/(1+k²)缩放与Möbius profile权转为标准螺旋面，原最高sigma²系数=标准乘h²。总复能量尾零下准确消非局部J，给每状态共享相位/幅度的两个有限四次式。P起点指定二阶零锚使四阶ruling无一次项；R53支付最高项后，一个全局第三profile gauge可清第一常段常数，保±准确种子且不改第四period。其他常段/连接段/全部period未付，不能各段选独立gauge。
 
 - [R55：饱和热反射的三阶Cauchy jet与有限解析自由角基障碍](results/R55-saturated-heat-third-Cauchy-jet-analytic-space-obstruction.md) — 当前饱和3−3+1反射与自然单帽外延的三阶差为g_rrr+g_r/(3c²)，热Oδ6与cutoff Oδ5不改。准确R0的δ²项先迫u/v三阶相同，RT的δ³项再迫beta；所需v补偿在每个帽顶点二角导跳正比相邻正幅度之和，有限全角解析自由列不能提供。故此明确表示无准确R0，但没有正残差下界，不排1e−6近似或一般C2/非解析连接。
+
+- [R56：完整变系数range的分子演算与有限第四系统](results/R56-full-variable-range-numerator-calculus-and-finite-fourth-system.md) — 任意二次forcing用Zi=FVi/(xi+omega)表示，真实变系数右锚rho=P+B/z；完整characteristic RHS、eta0与恢复分子的所有1/z项逐点消去。有限阶只需固定profile乘积/微分/Volterra及真实s系数积分，故全连接段、双collar及整个period均准确有限化。冗余生成元用真实Gram kernel，不能用采样代全函数。当前重叠pair六交叉密度满秩，固定六profile右逆使全部第三gauge一次支付ruling在同一全局W内的部分；完整第四恰还需全period零及全ruling属于W，尚未求得共同零解。
