@@ -394,3 +394,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [R583：九格原积分共振吸收与真实惰性主包络](results/R583-nine-coordinate-inert-resonance-absorption-and-sharp-envelope.md)：一次p共振分母在同一原因子的六阶Gauss余量内先吸收，未吸收项至少耗2p²次数、所有高幂成本O(k)；同九格全部D/k/真饱和前缀无条件惰性界实降(0,3)。固定Euler基保两个原forcing，未假设分子或中央消失。
+
+
+- [R584：任意固定原函数塔、全部Dirac jets与同格成本](results/R584-arbitrary-fixed-primitive-towers-dirac-jets-and-full-lattice-budgets.md)：任意固定两塔正幂规整后真维9+6M，完整Taylor-Dirac正则化显示全部新增负矩；固定满秩系数核给维7+5M的无缺陷独立子格，仍非有界测度。两种同格全普通3klogD/全惰性3klogk已付，严格门与cutoff阈值保真实维数，不预支原算术控制。
