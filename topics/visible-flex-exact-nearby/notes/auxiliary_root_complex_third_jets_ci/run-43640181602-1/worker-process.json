@@ -1,0 +1,50 @@
+{
+  "kind": "actual_public_auxiliary_root_complex_third_jets_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43640181602",
+  "run_attempt": "1",
+  "workflow_commit": "d2c6b992114b4d4573c183f6260afb6d74e56276",
+  "worker_sha256": "8c5e742a8742196e28fd3a122d6d566070a0e89259ff78eecba9f5905cb4bf6c",
+  "manifest_sha256": "404e8352112f38cd5b96dc42ebe49c9c11ebab3a2f2fc53db3f1e247314285da",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T20:57:44.937003+00:00",
+  "complete": false,
+  "readme_checks": [
+    {
+      "before": "d2c6b992114b4d4573c183f6260afb6d74e56276",
+      "after": "6460b0ae596484b3d8a83766e26d7d9b43239cc3",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "6460b0ae596484b3d8a83766e26d7d9b43239cc3",
+      "after": "42292594b1b1ed6a72bfc377a0b32449d9c5b2b8",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 1,
+  "final_topic_complete": false,
+  "original_completed_small_domain_results_recomputed": 0,
+  "auxiliary_extension_only": true,
+  "physical_background_identity_outside_original_piece_claimed": false,
+  "original_artifact_receipts": [],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-auxiliary-root-complex-third-jets-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_auxiliary_root_complex_third_jets_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-auxiliary-root-complex-third-jets-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-auxiliary-root-complex-third-jets-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-auxiliary-root-complex-third-jets-CI-inputs.json",
+    "--manifest-sha",
+    "404e8352112f38cd5b96dc42ebe49c9c11ebab3a2f2fc53db3f1e247314285da",
+    "--out-dir",
+    "/__w/_temp/visible-exact-auxiliary-root-complex-third-jets-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-auxiliary-root-complex-third-jets-science/originals"
+  ],
+  "complete_original_inputs_verified": 57,
+  "actual_scientific_checkout_commit": "6460b0ae596484b3d8a83766e26d7d9b43239cc3",
+  "mathematical_wall_seconds": 5.0249058989999895
+}

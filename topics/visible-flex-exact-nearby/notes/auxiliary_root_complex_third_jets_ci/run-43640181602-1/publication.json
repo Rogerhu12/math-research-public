@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 1,
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43640181602",
+  "reviewed_pull_history": [
+    {
+      "before": "d2c6b992114b4d4573c183f6260afb6d74e56276",
+      "after": "6460b0ae596484b3d8a83766e26d7d9b43239cc3",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "6460b0ae596484b3d8a83766e26d7d9b43239cc3",
+      "after": "42292594b1b1ed6a72bfc377a0b32449d9c5b2b8",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/auxiliary-root-complex-third-jets.json.gz",
+      "bytes": 432808,
+      "sha256": "6276b4b8bd117b3092ce633b7164ff99968100f10b09cbaef8850d4c03f6b24f",
+      "original_sha256": "6276b4b8bd117b3092ce633b7164ff99968100f10b09cbaef8850d4c03f6b24f"
+    },
+    {
+      "file": "consumers/auxiliary-root-complex-third-jets.stdout.log",
+      "bytes": 1197,
+      "sha256": "fc2f7915dca21390283636225ff471707fb107d2e89f283e9885e316451e4a23",
+      "original_sha256": "fc2f7915dca21390283636225ff471707fb107d2e89f283e9885e316451e4a23"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 38267,
+      "sha256": "a6783642ae2c49f66c3a7b54f1506389f24771790f3bd5a324646df8229f9728",
+      "original_sha256": "a6783642ae2c49f66c3a7b54f1506389f24771790f3bd5a324646df8229f9728"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 31589,
+      "sha256": "a0a7c17f0edda7811d7e80305d95bc7df0013630f2701b7836a49697cef334c2",
+      "original_sha256": "a0a7c17f0edda7811d7e80305d95bc7df0013630f2701b7836a49697cef334c2"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2345,
+      "sha256": "6e0a857df0aacb8900e4d3ef6c86d437a46f84af7a55f3df2787d10328d23ae4",
+      "original_sha256": "6e0a857df0aacb8900e4d3ef6c86d437a46f84af7a55f3df2787d10328d23ae4"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}
