@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：2e4825ab88e542428702c5a432d93f186b55d9fc；2026-11-14 18:58:32 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：a3496545c2459a50f8891733d1a82594d08f365e；2026-11-14 19:05:50 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推及改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；18:55:59 UTC实际git pull --rebase重试仍报无可用执行环境，随后API核main/两README无变。最迟19:55重试；恢复后先实际pull --rebase核规再接API历史。
@@ -14,11 +14,11 @@
 
 ## 发布、归档和分工
 
-R1–363、R365–560、R562–564、R566已登记；R364仍开，R561/565/567/568进行中。root统一元数据/ref，代理只建proof/script/data blobs；完整结论随成随推。
-完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r566.md)、[open](notes/2026-11-14-open-before-r562.md)，沿归档链保全部旧条件；压缩不关闭问题。准确编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
+R1–363、R365–560、R562–564、R566/568已登记；R364仍开，R561/565/567进行中。root统一元数据/ref，代理只建proof/script/data blobs；完整结论随成随推。
+完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r568.md)、[open](notes/2026-11-14-open-before-r562.md)，沿归档链保全部旧条件；压缩不关闭问题。准确编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
 R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b及原证书保持，不复跑。
 
-- theta已付R559/563/566完整三态、双unit两补域及原π5返回，续R568正140/60与原u-Q10完整桥。
+- theta已付R559/563/566/568三态/双补域/正140-60完整返回，续实际同源原算术词与完整负矩行比较。
 - literature已付R554/562同域负矩及真实四unit单位关系，续R565与原native/算术行的完整比较，保pairedV指定上尾。
 - deep已付R555全原线性系/真实高接触forcing门，续9/8临界同一α/β指定类或wild。
 - root已付R560/564全native七条件矩及整个负strip返回，续R567正负同域首项/完整算术比较，不以子域非零或时长收尾。
@@ -53,15 +53,11 @@ R525/534只迫支持≥常数N^(1/3)，允许O(N)；Fermat移位仅原核方程�
 
 R555：全W_D=B_D的十九角准确重数已付，ν=B_D·C=3κ+δ，δ≥0。原β13在r>2k+13且2h+k>ν时非零；另保carry门min(s−13,2h+k)>ν、h+k>ν−κ、h+k<s−13也非零。左证书杀全部原列/carry，但无实际F命中，主阶3/2或2不覆盖9/8临界。
 
-R554：ρ=νσ^⊗4⊗νTheta，Y=Σti+u；νf1=Ω^-3 Y_*[(Y³−18u e2)ρ]/24，故24Ω³I1=I4−18∫Yunit u e2/Y⁵ρ。全Q=D³f4−24f1=108σ²(σ′)²Theta′的首项−432bz7/5单位；其负五矩未赋非零，whole两来源core保κ³项及所有隐藏cut。
 
 R560：PC投影后同一native Nn精确β^n/(bΩ6)乘五伴随积分，原混合差再除2λ；两不交strip是Zunit、X∓(2+ω)Zdeep，其中X=c−D/14、Z=d+(1+3ω)D/14。Eunit、Y/W两个unit/log、W′/G全保；同一P只读S14的Λ0..Λ6，mom6=Ω6(720Λ6−672bΛ0)。n无关不赋非零，Dn并非π5事件。
 
-R559：D12=F−c的wholeK144²=B2、原二态B2=−Rc付全部偶深；五伴随/κ^(2m−n)/四log边界/常数质量保留。PCrho=σc⊗(B0⊗Λ0+B3⊗Λ3)，Hout=δ(c−C)、Kout=δ(c+C)的两核准确−ω²FB/P(−h,k)，保全部R/T；原carry是Hout+δD12deep，不免费改Houtdeep。
 
-R562：原σc⊗Bv四unit域(c,v,H=δc−v,K=δc+v)的J=∫c³/H²，与I4满足整单位关系，常数Ω(1−βκ)(1−3β)/(2δ²)；cdeep补项p7、vdeep保βΩ(1−βκ)/δ²后余p6，故(I4,J)=O。反对称测试c³(H^-2+K^-2)/2严格杀另一P核；只对独立伴随成立，原Y/W混合cut未赋J零。
 
-R563：µ−=KH PCh留整个S24²，AH=diag(−1,X)、AK=diag(−1,−X)，D12²=diag(1,−1,−1)≠−Rc于µ−。全连续UH/UK有整常数逆；native Cunit迫SHSKf=0，同一H/K双unit域恰D12unit·UKf+D12deep·UHf。浅j<n只真第j支；深尾保全部常数log，K尾p^r而非p^(r+1)，准确首项见(32a)。
 
 [一般二重接触及真实尾带](notes/2026-11-14-deep-general-double-contact-and-actual-high-axis-tail-port.md)：原r=ell、FYY单位允许二次Hensel奇点，判别式H<2T给几何δ=floor(H/2)，保原k扭曲。τ为原各自由系数共同t含量，ν=ordW2≥ell；h0=min(τ,13)、m0=max(0,h0−(ν−ell))时P/t^j真同预算来源单位三角覆盖原M最后m0条第三行，完整U0/carry保。二重ν=ell且τ≥3全吸收R468三高轴尾类；ell≥floor((D+1)/4)+3足够。尚无实际向量命中；τ≤2、一般K1另外三carry尾及同一d2仍开。
 
@@ -70,3 +66,7 @@ R564：D14、V=(-ω²,−ω,2,0,−2ω,−2ω)、K42=(-ω²,−ω,2,0,−3+3ω,3
 [新文献假设核对](notes/2026-11-14-deep-bertrand-and-new-rank-two-heegner-hypotheses.md)：Bertrand单点非零不付rank2行列式；2611.09192的Thm3.5先假设Sha有限、H5已假设c2非零，derived-Heegner身份不提供本题缺失非零。仅核显示假设，未复核全文证明。
 
 R566：完整整数frame(D14,2K,Q1008,2T)付µ−也属wholeS14，故全部三态D14核心β。D14⊥K使完整UK与归一交换；R563两个互补积分分别准确回原π5的14X−E unit/deep，每项都是βn乘同一f_flat受限积分，第三态由完整Kunit逆消去。原两strip、E/Y/W条件、常数log及七矩−672质量校正全保，不分别赋零。
+
+R554/559/562/563完整精确式见[前一交接](notes/2026-11-14-frontier-before-r568.md)及正文：两负矩同域差不赋非零；D12偶深只有原二态B²=−Rc，新µ−的D12²=diag(1,−1,−1)；原双S6核必须保K/四伴随。四unit单位关系(I4,J)=O仅保独立伴随，未付混Y/W。完整UH/UK含常数逆，K尾p^r且H尾p^(r+1)，所有质量与浅支保；R566现把两个完整补域回原π5，不能单独赋零。
+
+R568：P=u−ω²D/7、Z*=Z−(8+3ω)P/10；whole R+=14P/S+=20Z*的核心均−χ65λR1，保原两态全部三C共轭，不延µ−。正strip=Pdeep/Z*unit，整条J+=−2χλ∫P_hat(D,Eκ,Gκ)ℓ(Yκ,Wκ)h，所有观察准确P→κP并保H̄两cut。原Q10=D−2ωu wholeχ65已由同一两轴锚付；u/P二步词返回−χλ²原S/T，但全部q/Y/W须真实逆转置。

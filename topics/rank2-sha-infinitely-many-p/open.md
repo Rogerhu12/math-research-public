@@ -201,3 +201,7 @@ R522、R525–536与R538的全部准确公式、预算和未付接口完整保�
 ### R566：两个完整native补域回原五观察
 
 [R566：完整第三态十四度核与原两补域的五观察返回](results/R566-original-third-state-fourteen-core-and-native-complements.md)：原整数D14/2K/Q1008完整frame付全部三态wholeS14及β；完整K单位逆把两native补域分别准确回原π5的14X−E unit/deep，第三态整条消去且原两strip/全部log质量保留。 **待做：** 对14X−E两互补域内的同一真实P·log行继续原算术比较；二者各自βn比例不付非零或分别零。三态已准确消去，原Y/W、所有伴随cut、七条件源及质量校正不得省略。
+
+### R568：原正strip的完整两核和十度桥
+
+[R568：原正条带全140/60核、十度轴与实际返回](results/R568-original-positive-strip-full-cores-and-native-transport.md)：三个C共轭及半周期/绝对锚付原两态的−χ65λR1；正strip完整返回h且保所有D矩、E/G/Y/W、H̄两cut。原Q10 wholeχ65及真实u/P二步词返回原S/T，移动权和全部余域仍保。 **待做：** 将J+与R564的J−在原全域比较，保共同p阶常数log质量和线性行；u/P真实词的逆测试不得免费改回native测试。R567续两条整段首行的真实原sigma消元，不延140/60核到R563第三态。

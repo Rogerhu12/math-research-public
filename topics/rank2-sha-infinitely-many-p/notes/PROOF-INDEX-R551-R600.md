@@ -34,3 +34,5 @@
 - [R564：原负条带的三正交全核与实际四伴随返回](../results/R564-original-negative-strip-orthogonal-cores-and-complete-return.md)：原D14、另一V14和K42为同格正交三轴，当前射线的whole中心/Theta锚及全部C共轭支付三个β核。原负strip恰Vdeep/K42unit，完整返回保原E/G/Y/W移动；给全六次多项式、常数log质量、实际线性项及p²尾，正strip及同阶相消仍开。
 
 - [R566：完整第三态十四度核与原两补域的五观察返回](results/R566-original-third-state-fourteen-core-and-native-complements.md)：原整数D14/2K/Q1008完整frame付全部三态wholeS14及β；完整K单位逆把两native补域分别准确回原π5的14X−E unit/deep，第三态整条消去且原两strip/全部log质量保留。
+
+- [R568：原正条带全140/60核、十度轴与实际返回](results/R568-original-positive-strip-full-cores-and-native-transport.md)：三个C共轭及半周期/绝对锚付原两态的−χ65λR1；正strip完整返回h且保所有D矩、E/G/Y/W、H̄两cut。原Q10 wholeχ65及真实u/P二步词返回原S/T，移动权和全部余域仍保。

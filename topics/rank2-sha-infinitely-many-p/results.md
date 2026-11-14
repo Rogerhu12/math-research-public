@@ -342,3 +342,5 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 完整证明导航及各条适用范围移至[补充证明索引](notes/PROOF-INDEX.md)，原条目和链接完整保留。
 
 - [R566：完整第三态十四度核与原两补域的五观察返回](results/R566-original-third-state-fourteen-core-and-native-complements.md)：原整数D14/2K/Q1008完整frame付全部三态wholeS14及β；完整K单位逆把两native补域分别准确回原π5的14X−E unit/deep，第三态整条消去且原两strip/全部log质量保留。
+
+- [R568：原正条带全140/60核、十度轴与实际返回](results/R568-original-positive-strip-full-cores-and-native-transport.md)：三个C共轭及半周期/绝对锚付原两态的−χ65λR1；正strip完整返回h且保所有D矩、E/G/Y/W、H̄两cut。原Q10 wholeχ65及真实u/P二步词返回原S/T，移动权和全部余域仍保。
