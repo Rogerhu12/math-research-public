@@ -1,0 +1,20 @@
+{
+  "complete": true,
+  "actual_exit_code": 0,
+  "actual_session": 1498,
+  "wall_seconds": 25.045895368000856,
+  "native": "notes/2026-11-14-R133-complete-C0-state-nu-geometry-response-native.json.gz",
+  "native_sha256": "00efc0322a9aa82cd1f234899599ed3fbaff87edd35b8c9ac1331b229b276a55",
+  "native_bytes": 4073131,
+  "source_sha256": "3f5acd223d3d378c371cac24b38ce7e88644f9c7137f83619e3326bbe82810bd",
+  "input_sha256": {
+    "notes/2026-11-14-R133-final-strict-v2-ac1-complete-native.json.gz": "23a7554aa141b51b4c897f42399eb355d003d5fe5dd37b1c62f68025a4c8542a",
+    "notes/2026-11-14-R133-current-positive-complete-ac1-native.json.gz": "ea17451120f8c368ea3e5d4ee511a9d1d03d8a97705e7bd36cf9d015a8d9d93d",
+    "/workspace/scratch/ac0d699811ad/geometry-verified-20261114/complete-angular-defect.json.gz": "7a3dd2c1d48b611f5d9a6bd8c2d7ebeeeb4c2f6a7c2bcc4f61f4d012be4e2f90"
+  },
+  "coefficient_cells": 7722,
+  "curvature_additional_reused_native_sha256": "6f52030b7954f049a8e42a5a513a1f69b553819065b0c8b2245fa173e514cbb1",
+  "exact_full_radius_curvature_error": "441789161/3125000000",
+  "actual_nonlinear_error_radius_proved": false,
+  "world_anchor_zeroed": false
+}

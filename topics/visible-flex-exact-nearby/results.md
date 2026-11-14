@@ -480,3 +480,6 @@
 
 
 - [实际完整记录](results/R133-supplement-complete-moving193-physical128-B-C-ports.md)：同一连续修复中心r=9/10、全原η区间的实际B128×193与完整paired(B,C)端口：11门normal0/1.90s，原193输入、独立C mean、物理全部输出尾均保；paired L2误差<1.496913e−11，仍须cap连续残差和全局Schur。
+
+
+- [实际完整记录](results/R133-supplement-complete-C0-state-and-nu-geometry-response.md)：实际全7722盒C0状态/nu到几何：normal0/25.05s，frame系数15.736315/.304809、position30.196406/.105999、曲率141.332651/3.988052；保全mean/所有频率及独立world anchor。结合原完整曲率界，在ε≤1e−3/τ≤1e−5的条件球有|κ|<11.233951/κ+<3.997745，尚未授实际误差半径或闭族。
