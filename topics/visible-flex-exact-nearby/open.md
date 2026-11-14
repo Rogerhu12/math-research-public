@@ -259,3 +259,7 @@ A1–18保完整输入/输出/mean及真ray，可用同strip复sup替代旧C2符
 ### 原复root product与分量分离的第一幅度（2026-11-14 20:06:35 UTC）
 
 [G1–19](results/R133-supplement-old-root-product-and-separated-first-Airy-amplitude-budgets.md) 已证明：原F6a–15先在R=9e−6、σ=3/256全oldproduct给域，再由L13–17闭式控制G/a0/b0，未将canonical-only sup倒授旧域。a0(0,φ)=1先减常数后用正实部Carathéodory；b0=ρ²B保真二阶零点。第一幅度保Fb/Fa与两特征分支抵消，将交叉费用分别收R_T²/(2ΔX)、R_T²/(5ΔX)及完整R_T³项。root全文及原引用核，tail独核分支积分。actual消费者须核复系数、inverse-image正margin，不能从real窗口jets转授。
+
+### 真径向Abar分区与中央Airy完整级数（2026-11-14 20:06:56 UTC）
+
+[R1–15](results/R133-supplement-radial-reference-Airy-partition-and-central-series-bounds.md) 用同一real径向Abar而非不同径向点的上下包络比分central/high；|A−Abar|≤a+·j给ε<1及Re t≥1−ε，高区Volterra常数同步重付，原实际A±的幂不替换。中央Ai/Ai′用两个正系数entire初值解及完整几何尾，显式qF/qD<1；全Fourier/mean输出和原composition费用保持。selector仅估计输入norm，不改trial、不求其径向导、不生seam。root/tail全文核通过；新消费者只换六profiles及完整积分，原已成tensor/1328×2表不重算。

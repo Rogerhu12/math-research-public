@@ -335,3 +335,5 @@ root读新科学/main及CI，核worker与原成功版差异、flow和25/20 pins�
 - 2026-11-14 20:05:49 UTC：独立推analytic run43634456797实际报告。root完整核51260B process/2996B worker、source/native/25pin身份、10门、6窗口及2次真pull空diff。R.001<3.385779e10较旧粗、R.02<7.109141e11改善均保；旧1328×2行和1079seams禁重算。H压缩旧已归档详情，继续真实Abar/中央级数与L0w1。
 
 - 2026-11-14 20:06:35 UTC：独立推G1–19全旧root product/分离第一幅度。root核原F6a–15、L13–17域与全部Carathéodory/链式式，tail独核双ray抵消。原native/forcing/seams不重算；actual consumer仅在旧复germ、正inverse-image margin上执行，不预授更大域或full PDE。两README未变。
+
+- 2026-11-14 20:06:56 UTC：独立推R1–15真实径向参考分区及中央完整entire级数证明；root/tail全文核，正区衰减/负区两ray/mean全保。分区仅用于norm，不改原trial或接缝；六已成tensor与1328moment/direct表均只复用。待新profiles/integrals消费者，未预授cutoff97。两README未变。

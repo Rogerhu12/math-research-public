@@ -559,3 +559,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### 全oldproduct与第一Airy幅度的精确抵消（2026-11-14 20:06:35 UTC）
 
 [证明G1–19](results/R133-supplement-old-root-product-and-separated-first-Airy-amplitude-budgets.md)，SHA fca8fcdda1d284011b540535d494f8f81dbdb8fd83e03ca8540496d0274fafa3，已独推。root亲核原principal-fold13563B/closed-leading11462B的完整域、根恒等式和所有新式；tail独核G14–19。Carathéodory先减1、b0真ρ²零点、两个forcing分量/两ray先抵消再取绝对值，完整系数1/6、1/7、1/2、1/5均保。仍是有限内区配方，actual复域及L0w1/return费用未预支。
+
+### 原Airy列的真径向分区与完整中央级数界（2026-11-14 20:06:56 UTC）
+
+[解析证明R1–15](results/R133-supplement-radial-reference-Airy-partition-and-central-series-bounds.md)，10026B/SHA1fe11cfbeece7fd334d24a0259c6156f6245953763664fb09fb1b596e9a4c607。root/tail全文核径向Abar、实δ域、high prefactor/Volterra导数项、F0/F1正系数及值/导数两种完整几何尾。只改善完整符号profile上界；actual的六tensor、全部矩阵、旧means与全输出保持。数值smallness及full return仍待真正Actions消费。
