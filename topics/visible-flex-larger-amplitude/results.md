@@ -512,3 +512,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R271. 固定原RK离散变分的逐级坐标协变](results/R271-discrete-RK-stage-gauge-covariance.md)（已证明，完整有限实代数定理）：任意完整局部A_i和可逆级G_i，跨级输运G_iG_j⁻¹递推与原离散变分双向等价，完整端点矩阵为G_+J_RK G_0⁻¹。给classical RK4全四级、226×224形状/mean、原port恰一次及唯一共享节点关系；连续G′方程重新RK的标量反例证明两有限方法不同。不据实代数冒浮点逐位、恢复已失信息或稳定性改善，无新RHS/J/科学门。
 
 - [R272. 节点G、原RK传播误差与零参考有限放大](results/R272-native-RK-reference-and-propagation-error-split.md)（已证明，有限实代数与冻结参考定理）：将已给四局部A后的Jhat−Jstar、局部A形成与连续截断分开；完整226/mean可扩展，冻结零参考A²及RK4模平方、频率平衡H与全部级间输运公式完整。实际非零变w四级不直接套参考，不推当前唯一失败层、数值稳定或native接受。
+
+- [R273. 原native完整块链的阻尼平方根最小二乘](results/R273-complete-native-damped-square-root-chain.md)（已证明，有限实数组条件定理）：完整原σ cut/stage/far与每节点恰一次正阻尼，两次局部QR保carry及全部纯常数能量；完整平方根、唯一性、回代、模型下降与截停后验均证明。精确反例说明任意阻尼下严格L2下降仍可能所有正步∞上升；新1372限制到原577仍须真实原十trial，不把保存J冒精确DF或加新接受门，尚无新solver/数值。

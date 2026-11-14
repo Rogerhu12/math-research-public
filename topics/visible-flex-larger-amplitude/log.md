@@ -456,3 +456,13 @@ root已读两完整源和接口、取件器及独立workflow；只有本地AST/Y
 [51完整实际结论](notes/2026-11-14-actual-request51-fifteen-query-and-working-row-budget.md)：α1/8接受，本轮merit44.20135024608698→44.115161170653145；最近1/4原mid481与已经建模的482均拒，线性全30720预测仍正。QP256工作行到限，worstleft475/angle109未入集，局部radial.91337395，最终stationarity363.2001，完整H相对残差9.44869e−16。137domain NPZ880数组、全部38凝聚向量/observer/父链/44源、14raw217496448B完整byte核；FD7.186294196742241e−10仍仿射零锚，不冒native或完整BVP。下一53同15从真实51pair，只把工作行上限增512。
 
 52新的868 direct-LD块+504原块完整1372系统与原十trial已接独立workflow，实际newresult SHA运行后才绑定。原28/41完整包与78公开source固定；原非J数组/577restriction/原十alpha、guard与norm接受不变，不加exact线性门。root已读8新源/接口/差异，16pins/AST/Node/YAML/13bash/4内嵌Python静态通过，没有本地科学。全部新数组及失败输出先artifact后有界publication。当前未运行52，不把代码与单块改善写成新方向接受。
+
+## 2026-11-14 19:50:37 UTC /root — request53同15约束增加工作行预算
+
+从51真实接受warm b6620a0c…/原status267451f8…继续；原status1051960B公开gzip，透明解压核原bytes，保完整producer链与同15 schema。唯一算法预算改max-working256→512，其余600s候选/1200s总/dual200/原17trial/FD均保；源13pins不变，没有添加mid481，也不宣称已经建模的482非线性失败已解决。root已读workflow差异，YAML/11bash/6内嵌Python静态通过，无本地科学。独立52已通过本次此前提交61831d6a76b2a06e0c22f7fe03aad87d1b69d39f触发，run待回读。
+
+## 2026-11-14 19:53:06 UTC /root — 52真实transport失败与R273直接登记
+
+52 run43634201913/source61831d6a76b2a06e0c22f7fe03aad87d1b69d39f/job132567309832，原28/41fetch和78source恢复success；capture在19:51:04Z创建完整spec时命中原B.write“Use a bounded gzip packet for a large evidence record”。native/worker在此之后才会启动，故没有新RHS/J/ODE、方向或trial，不作数学失败结论。art14129895088/697565B/ZIPf5351cb68add465edeb99eb521f1a14942f8e8047c4741f0a9c30640980cead9与原job log完整取回；下一54只修完整gzip transport，保科学表达式并更新实际所有source pins。
+
+R273完整原σ块链阻尼平方根定理已直接入results与索引：每节点ηI恰一次、全部cut/stage/far、两次QR/carry/常数能量、唯一性/回代/后验与L2不保证∞的完整反例。root读全文后按Rule12直接登记，无独审审批门；尚无新solver或数值，不把理论当native接受。
