@@ -1,0 +1,157 @@
+{
+  "P0_or_ruling_paid": null,
+  "U4_quotient_nonzero_proved": null,
+  "all_derivative_weights_computed": null,
+  "checkpoint": {
+    "automatic_translation_chain_run": false,
+    "requested_order": 3,
+    "requested_weight": -2
+  },
+  "coefficient_checkpoint": null,
+  "complete_U4_equals_R8_proved": null,
+  "complete_report_file": {
+    "filename": "G-translation-successor-development-complete-report.json.gz",
+    "persisted": true,
+    "raw_bytes": 6014,
+    "raw_sha256": "30ddd21c365ee906fbf47f91fc90156ee50bdfa776e6b5bc711ce343ebd21774",
+    "stored_bytes": 2305,
+    "stored_sha256": "efc37b7309e54a326da098a2b9418b26d87daea73d6bac8a8682238771724f2b"
+  },
+  "complete_report_raw_exceeds_main_limit": false,
+  "completed_blocks": [],
+  "completion": "toy_passed",
+  "elapsed_seconds": 0.006451691999998843,
+  "error": null,
+  "finite_isometric_family_constructed": false,
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_run_id": "43653293263",
+  "github_sha": "2f0add61f44365d713abf836beaa8b0be2806a3d",
+  "input": null,
+  "limits": {
+    "complete_report_bytes": 2500000,
+    "main_bytes": 90000,
+    "max_degree": 256,
+    "max_operations": 10000000,
+    "memory_polling_mib": 1024,
+    "seconds": 240,
+    "supplemental_export_bytes": 2000000,
+    "supplemental_export_raw_bytes": 40000000,
+    "total_published_bytes": 4800000
+  },
+  "peak_rss_mib": 27.96875,
+  "phase": "small_artificial_successor_and_predecessor_interfaces",
+  "reference_matrix": null,
+  "schema": "visible-flex-G-translation-successor-original-v1",
+  "scope": "exactly one requested true translation; complete new weight 1-order response block",
+  "source_hashes": {
+    "G_input_producer": {
+      "bytes": 16444,
+      "filename": "literature_static_G_rational_dual.py",
+      "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+    },
+    "driver": {
+      "bytes": 39670,
+      "filename": "literature_G_translation_successor.py",
+      "sha256": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406"
+    },
+    "frozen_first_translation_helpers": {
+      "bytes": 26885,
+      "filename": "literature_G_first_translation.py",
+      "sha256": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
+    },
+    "original_producer_dependencies": {
+      "colored": {
+        "bytes": 15738,
+        "filename": "literature_colored_profile_algebra.py",
+        "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+      },
+      "driver": {
+        "bytes": 38857,
+        "filename": "literature_local_fourth_quotient.py",
+        "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+      },
+      "dual_receipt_reader": {
+        "bytes": 19492,
+        "filename": "literature_full_phase_rational_dual.py",
+        "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+      },
+      "endpoint": {
+        "bytes": 21532,
+        "filename": "literature_closed_c1_endpoint.py",
+        "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+      },
+      "exact": {
+        "bytes": 33718,
+        "filename": "literature_pure_bulk_exact_membership.py",
+        "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+      },
+      "formal": {
+        "bytes": 33169,
+        "filename": "literature_range_profile_algebra.py",
+        "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+      },
+      "local": {
+        "bytes": 30635,
+        "filename": "literature_local_third_bridge_decompose.py",
+        "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+      },
+      "scaling_interfaces": {
+        "bytes": 37293,
+        "filename": "literature_total_P1_scaling_blocks.py",
+        "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+      },
+      "v2_producer": {
+        "bytes": 35368,
+        "filename": "literature_full_phase_bridge_exact.py",
+        "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+      },
+      "words": {
+        "bytes": 32310,
+        "filename": "literature_pure_bulk_word_normal_form.py",
+        "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+      }
+    },
+    "polynomial_evaluator": {
+      "bytes": 19803,
+      "filename": "literature_rational_volterra_polynomial.py",
+      "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+    },
+    "publication_identity_helper": {
+      "bytes": 32096,
+      "filename": "literature_full_m8_tail_response_projection.py",
+      "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+    },
+    "static_input_and_report_helper": {
+      "bytes": 24202,
+      "filename": "literature_constrained_static_fourth.py",
+      "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+    }
+  },
+  "toy": {
+    "all_passed": true,
+    "checks": {
+      "already_positive_predecessor_stops_chain": true,
+      "artificial_chain_has_exact_zero_successor": true,
+      "changed_bound_target_hash_rejected": true,
+      "compact_main_preserves_full_original_matrix_and_digest": true,
+      "generic_successor_schema_accepted_only_for_immediate_order": true,
+      "incomplete_predecessor_rejected": true,
+      "independent_exact_third_forward_difference": true,
+      "missing_original_denominator_gate_rejected": true,
+      "portable_both_modes_all_columns_original_round_trip": true,
+      "publication_source_mismatch_rejected": true,
+      "representative_rank_without_true_minor_rejected": true,
+      "saved_export_raw_compressed_hashes_and_original_roots_verified": true,
+      "second_to_third_predecessor_interface_accepted": true,
+      "skipped_translation_order_rejected": true,
+      "successor_commutes_with_common_right_primitive": true,
+      "supplemental_export_limit_preserves_mathematical_status": true,
+      "third_translation_lowers_weight_by_three": true,
+      "third_translation_pays_outer_and_inner_coordinates": true,
+      "three_nested_primitives_preserve_all_coordinate_product_terms": true
+    },
+    "old_or_new_research_response_columns_compiled": false,
+    "original_G_or_previous_target_read": false,
+    "research_profile_evaluated": false
+  }
+}
