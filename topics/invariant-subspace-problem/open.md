@@ -25,7 +25,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 **原式来源与完整第二提升：** [1834核β](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)排任意次数31整数h0来源；[保根集H0原17式mod961](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)九源cost86。[真实r2](notes/2026-11-14-r150-h25-second-original-residual-obstruction-789f.md)排固定X mod31全部mod29791提升；[四真实δ2](notes/2026-11-14-r150-four-genuine-second-bockstein-insufficiency-789f.md)连β像维数6仍逐目标失败。余198已冻结[一次300秒连续任务](notes/2026-11-14-r150-all198-second-bockstein-jet-interface-789f.md)，143/39/37商、104自由检验/P次数189/原carry全保；实际相关第二像与正来源原17模29791接续，尚无新结果；31饱和继续；1632低方向真提升已付，不排Q31分母或称char0。有限预算/∞条件与全部细节保[本次前全文](notes/2026-11-14-open-before-cofactor-kernel-789f.md)。
 
-**star当前解析接口：** [固定内峰全源极限](notes/2026-11-14-balanced-star-macroscopic-interior-full-phase-projection-limit-789f-next.md)给整个m维相位谱趋1^(m−1),0、紧profile有κ≤1+C/√Q；端峰/退化/消失组/无界权/增长组数仍开。实际曲率仅逐点负指数≤3，均值/总数共同回归仍须支付，完整链接保上方快照。
+**star当前解析接口：** [固定内峰全源极限](notes/2026-11-14-balanced-star-macroscopic-interior-full-phase-projection-limit-789f-next.md)给整个m维相位谱趋1^(m−1),0、紧profile有κ≤1+C/√Q；[严格端峰](notes/2026-11-14-balanced-star-strict-endpoint-full-phase-decay-789f-next.md)全源Φ=O(Q⁻²)；临界过渡/退化/消失组/无界权/增长组数仍开。实际曲率仅逐点负指数≤3，均值/总数共同回归仍须支付，完整链接保上方快照。
 
 ## 当前接口一：原 Haar 慢符号的正常湮灭者
 
