@@ -39,7 +39,9 @@
         "/__w/_temp/visible-exact-complete-projector-range/native/validated-cells-03840-04224.json.gz"
       ],
       "started_utc": "2026-11-14T12:20:54.864324+00:00",
-      "actual_returncode": null
+      "actual_returncode": 0,
+      "wall_seconds": 5038.158047363,
+      "finished_utc": "2026-11-14T13:44:53.022746+00:00"
     }
   ],
   "readme_checks": [
@@ -194,6 +196,22 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:44:54.744676+00:00",
+      "before": "d055c8a337bddcbf35f70e95884dafd4d78c3f4f",
+      "after": "b5d4e12642c369412eac23b320c2f9dd7ad4761f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:44:56.426002+00:00",
+      "before": "b5d4e12642c369412eac23b320c2f9dd7ad4761f",
+      "after": "f6ddfcec53da0a7c3259d1a462af4d34a273972d",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -231,6 +249,11 @@
       "time": "2026-11-14T13:31:43.853429+00:00",
       "final": false,
       "commit": "bdd2f0b7c909cec230bcf5f44a3f940d19e281ee"
+    },
+    {
+      "time": "2026-11-14T13:41:48.014330+00:00",
+      "final": false,
+      "commit": "465ceb717e8aaba26ec1ad7693a555e57b427d29"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -269,7 +292,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "d055c8a337bddcbf35f70e95884dafd4d78c3f4f",
+  "last_read_commit": "f6ddfcec53da0a7c3259d1a462af4d34a273972d",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-projector-range-work/science",
   "disjoint_plan": {
     "slice_id": 10,
@@ -289,14 +312,14 @@
   "successful_new_ranges": [],
   "assigned_new_cells": 384,
   "original_slice_manifest_sha256": "0df4744e627d685a586d9f4be0649bbd6e697945d5b07e4d89ea85a3ee8759b7",
-  "snapshot_utc": "2026-11-14T13:41:46.098975+00:00",
-  "wall_seconds": 4852.017924916,
+  "snapshot_utc": "2026-11-14T13:44:54.785881+00:00",
+  "wall_seconds": 5040.704828175,
   "native_files": [
     {
       "logical_file": "native/validated-cells-03840-04224.json.gz",
       "file": "native/validated-cells-03840-04224.json.gz",
-      "bytes": 2320237,
-      "sha256": "a15148fa850b1ea022a3518cdf8d69ce634e4d4e92bc92d0acd052c0b1fbfd18"
+      "bytes": 2414039,
+      "sha256": "72465ee1686946d04a41bc6adb9376b896616b661c05b2abadd91d7feba978c6"
     }
   ]
 }
