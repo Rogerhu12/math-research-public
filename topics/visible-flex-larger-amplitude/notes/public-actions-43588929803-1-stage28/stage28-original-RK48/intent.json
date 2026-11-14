@@ -1,0 +1,62 @@
+{
+  "scope": "Compare six existing original RK48 points on the small stage28 cusp window.\n\nOnly one original shooting stage is replayed, with the original integration\ngrid and complete saved state.  A/B/C must reproduce their old point bytes,\nmean and geometry exactly.  Three other already existing RK48 points then\ndefine a local f48 GW readout beside the original f8 and f16 readouts.\n\nThis measures finite interpolation/metric/curvature effects.  It does not\nsolve a BVP, adopt a global alternative field, or impose a machine-precision\nsix-jet convergence requirement beyond the topic README's actual criteria.\n",
+  "command": [
+    "node",
+    "--expose-gc",
+    "--max-old-space-size=1536",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_stage28_original_rk48_readout.mjs",
+    "--repo-root",
+    "/home/runner/work/math-research-public/math-research-public",
+    "--source-topic",
+    "/home/runner/work/_temp/visible-mainline-source/public-source/topics/visible-flexible-closed-surface",
+    "--packet",
+    "/home/runner/work/_temp/stage28-original-rk48-8oh6l71r/original-point-packet",
+    "--anchor",
+    "/home/runner/work/_temp/stage28-original-rk48-8oh6l71r/original-anchor",
+    "--out-dir",
+    "/home/runner/work/_temp/visible-mainline/stage28/stage28-original-RK48/readout",
+    "--config",
+    "/home/runner/work/_temp/stage28-original-rk48-8oh6l71r/config.json",
+    "--response",
+    "/home/runner/work/_temp/stage28-original-rk48-8oh6l71r/response.json.gz",
+    "--ledger",
+    "/home/runner/work/_temp/stage28-original-rk48-8oh6l71r/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--stored",
+    "/home/runner/work/_temp/stage28-original-rk48-8oh6l71r/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json"
+  ],
+  "source_sha256_at_start": {
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_stage28_local_GW_refinement.py": "929a21ef76b038135985c1509af2ba2ac8cc00d446e66757c4841bebe56b9cd6",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_stage28_original_rk48_readout.mjs": "afe841dc51a04728a58e96192e3a0b7cf3cca33df854120be23444a2aec20576",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_source_knot_rr_probe.py": "20c89a95e144dec60cd4d84cf8567b2a8f3e3da40af46f6e74a34c5ed04ad9c6",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_refined_tail_adapter.py": "6b06db6c7c96078b9fabe403a0b3ade14f8b30b07a78b565ed299c77f840d937",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_common_grid_refinement.py": "dc6b2b3240b3e0886821d7866ae06fc343f14176f3bde77d85b67f71532d236e"
+  },
+  "source_origin_sha256": "8d3d55652ad99036a814ae000e558e4675ef70f0b1871f2054586e71e96e2fb4",
+  "packet_manifest_sha256": "ef3bd5d5fb05143c109de8875c21424068db5814d9158187950b2f5d132ea75e",
+  "anchor_manifest_sha256": "9be383b67f67ade092536cc1c7185130b13e61d5180408e242535c1b1c90825b",
+  "source_repository": "Rogerhu12/math-research-public",
+  "source_commit": "161fcf90f22fbc4a73665237c6e855f9bd62449f",
+  "original_public_assets": {
+    "config": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-fixedH-RK48-r1/config.json",
+      "sha256": "2ffc5c2bf35caef2066e6137a78bcf8a24dd0ee008c9b8c3d8f01b0c30092ef4"
+    },
+    "response": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-fixedH-RK48-r1/response.json.gz",
+      "sha256": "8943eb28a1913a7b9cbd390607c4dadfc6fc8eefa8604e403b798c494221dd92"
+    },
+    "ledger": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+    },
+    "stored": {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+      "sha256": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d"
+    }
+  },
+  "original_stage": 28,
+  "no_new_shooting_solve": true,
+  "original_RK_grid_unchanged": true,
+  "no_global_field_adoption": true,
+  "complete_task": false
+}

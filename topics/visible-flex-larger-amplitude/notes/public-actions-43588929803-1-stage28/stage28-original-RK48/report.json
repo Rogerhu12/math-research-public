@@ -1,0 +1,2213 @@
+{
+  "finished": true,
+  "scope": "Compare six existing original RK48 points on the small stage28 cusp window.\n\nOnly one original shooting stage is replayed, with the original integration\ngrid and complete saved state.  A/B/C must reproduce their old point bytes,\nmean and geometry exactly.  Three other already existing RK48 points then\ndefine a local f48 GW readout beside the original f8 and f16 readouts.\n\nThis measures finite interpolation/metric/curvature effects.  It does not\nsolve a BVP, adopt a global alternative field, or impose a machine-precision\nsix-jet convergence requirement beyond the topic README's actual criteria.\n",
+  "original_stage": 28,
+  "angles": 1024,
+  "source_profile_interval": [
+    0.875,
+    0.9769532415364806
+  ],
+  "radial_interval": [
+    0.2824951623777089,
+    0.282540205662618
+  ],
+  "local_common_radial_samples": 96,
+  "original_common_stage450_samples": 17,
+  "original_common_stage451_samples": 17,
+  "legacy_three_point_identity": {
+    "passed": true,
+    "points": [
+      {
+        "x": 0.875,
+        "original_node": 227,
+        "old_raw_sha256": "809244ca845756b3922caff613b174d96e6641aafe858a7e5bf05ff7f9a604f2",
+        "new_raw_sha256": "809244ca845756b3922caff613b174d96e6641aafe858a7e5bf05ff7f9a604f2",
+        "raw_bytes_equal": true,
+        "small_mean_exactly_equal": true,
+        "old_small_mean": -2.751264857722407e-07,
+        "new_small_mean": -2.751264857722407e-07,
+        "geometry_exactly_equal": true,
+        "geometry_differences": {
+          "r": 0,
+          "w": 0,
+          "w2": 0,
+          "E": 0,
+          "drdx": 0,
+          "dlogwdx": 0
+        }
+      },
+      {
+        "x": 0.9375,
+        "original_node": 451,
+        "old_raw_sha256": "15b9beb5855e90333f0e3a9b81a4b814de7b947995f3b57401a90b575d88a31a",
+        "new_raw_sha256": "15b9beb5855e90333f0e3a9b81a4b814de7b947995f3b57401a90b575d88a31a",
+        "raw_bytes_equal": true,
+        "small_mean_exactly_equal": true,
+        "old_small_mean": -2.751095673144762e-07,
+        "new_small_mean": -2.751095673144762e-07,
+        "geometry_exactly_equal": true,
+        "geometry_differences": {
+          "r": 0,
+          "w": 0,
+          "w2": 0,
+          "E": 0,
+          "drdx": 0,
+          "dlogwdx": 0
+        }
+      },
+      {
+        "x": 0.9769532415364806,
+        "original_node": 450,
+        "old_raw_sha256": "c0cb10c9947efa73831a676afdd17c8c57f44be5067fa0eab651b29ae8962f91",
+        "new_raw_sha256": "c0cb10c9947efa73831a676afdd17c8c57f44be5067fa0eab651b29ae8962f91",
+        "raw_bytes_equal": true,
+        "small_mean_exactly_equal": true,
+        "old_small_mean": -2.7510624797504686e-07,
+        "new_small_mean": -2.7510624797504686e-07,
+        "geometry_exactly_equal": true,
+        "geometry_differences": {
+          "r": 0,
+          "w": 0,
+          "w2": 0,
+          "E": 0,
+          "drdx": 0,
+          "dlogwdx": 0
+        }
+      }
+    ],
+    "interpretation": "Strict original A/B/C raw bytes, mean and geometry check; compression bytes may differ across runtime versions."
+  },
+  "layers": {
+    "f8": {
+      "nodes": 2,
+      "source_profile_x": [
+        0.875,
+        0.9769532415364806
+      ],
+      "physical_r": [
+        0.2824951623777089,
+        0.282540205662618
+      ],
+      "GW_node_diagnostics": {
+        "minimum_normal_z": 0.9991009422617328,
+        "maximum_cardinal_saved_angular_difference": 5.698837669126933e-18,
+        "maximum_radial_metric_derivative_residual": 1.1237755517812253e-16
+      },
+      "sampled_geometry": {
+        "entire_local_union": {
+          "metric": {
+            "value": 1.1835925527213867e-08,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 1.5707963267948966,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          },
+          "kappa": {
+            "value": 7.646246499495703,
+            "r": 0.2824951623777089,
+            "source_profile_x": 0.875,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 0,
+                "x": 0
+              }
+            ]
+          }
+        },
+        "original_common_stage450": {
+          "metric": {
+            "value": 1.1835925527213867e-08,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 1.5707963267948966,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          },
+          "kappa": {
+            "value": 7.159821272962199,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          }
+        },
+        "original_common_stage451": {
+          "metric": {
+            "value": 1.1835925527213867e-08,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 1.5707963267948966,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          },
+          "kappa": {
+            "value": 7.646246499495703,
+            "r": 0.2824951623777089,
+            "source_profile_x": 0.875,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 0,
+                "x": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f16": {
+      "nodes": 3,
+      "source_profile_x": [
+        0.875,
+        0.9375,
+        0.9769532415364806
+      ],
+      "physical_r": [
+        0.2824951623777089,
+        0.28253279635533834,
+        0.282540205662618
+      ],
+      "GW_node_diagnostics": {
+        "minimum_normal_z": 0.9991009422617328,
+        "maximum_cardinal_saved_angular_difference": 5.698837669126933e-18,
+        "maximum_radial_metric_derivative_residual": 1.3557948166931233e-16
+      },
+      "sampled_geometry": {
+        "entire_local_union": {
+          "metric": {
+            "value": 1.2594438379026109e-09,
+            "r": 0.2825388531211996,
+            "source_profile_x": 0.9621582759603003,
+            "theta": 1.5707963267948966,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0.625
+              }
+            ]
+          },
+          "kappa": {
+            "value": 7.646246499495703,
+            "r": 0.2824951623777089,
+            "source_profile_x": 0.875,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 0,
+                "x": 0
+              }
+            ]
+          }
+        },
+        "original_common_stage450": {
+          "metric": {
+            "value": 1.2594438379026109e-09,
+            "r": 0.2825388531211996,
+            "source_profile_x": 0.9621582759603003,
+            "theta": 1.5707963267948966,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0.625
+              }
+            ]
+          },
+          "kappa": {
+            "value": 7.15982438986004,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          }
+        },
+        "original_common_stage451": {
+          "metric": {
+            "value": 5.863798948355439e-11,
+            "r": 0.282524527257878,
+            "source_profile_x": 0.91796875,
+            "theta": 1.5707963267948966,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.6875
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 0.0625
+              }
+            ]
+          },
+          "kappa": {
+            "value": 7.646246499495703,
+            "r": 0.2824951623777089,
+            "source_profile_x": 0.875,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 0,
+                "x": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f48": {
+      "nodes": 6,
+      "source_profile_x": [
+        0.875,
+        0.8958333333333334,
+        0.9166666666666666,
+        0.9375,
+        0.9583333333333334,
+        0.9769532415364806
+      ],
+      "physical_r": [
+        0.2824951623777089,
+        0.28251134428364694,
+        0.2825238647334331,
+        0.28253279635533834,
+        0.28253822812647356,
+        0.282540205662618
+      ],
+      "GW_node_diagnostics": {
+        "minimum_normal_z": 0.9991009422617328,
+        "maximum_cardinal_saved_angular_difference": 5.739495250595139e-18,
+        "maximum_radial_metric_derivative_residual": 1.3557948166931233e-16
+      },
+      "sampled_geometry": {
+        "entire_local_union": {
+          "metric": {
+            "value": 1.6200327093273542e-10,
+            "r": 0.2825397768450091,
+            "source_profile_x": 0.9699707759603003,
+            "theta": 1.5707963267948966,
+            "original_sample_origins": [
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 4,
+                "x": 0.625
+              }
+            ]
+          },
+          "kappa": {
+            "value": 7.646246499495703,
+            "r": 0.2824951623777089,
+            "source_profile_x": 0.875,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 0,
+                "x": 0
+              }
+            ]
+          }
+        },
+        "original_common_stage450": {
+          "metric": {
+            "value": 1.5620162276261049e-10,
+            "r": 0.2825397396157612,
+            "source_profile_x": 0.9695557587483905,
+            "theta": 1.5707963267948966,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0.8125
+              }
+            ]
+          },
+          "kappa": {
+            "value": 7.15982438986004,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          }
+        },
+        "original_common_stage451": {
+          "metric": {
+            "value": 3.4841738869029193e-12,
+            "r": 0.28252820902990977,
+            "source_profile_x": 0.92578125,
+            "theta": 4.71238898038469,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.8125
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 0.4375
+              }
+            ]
+          },
+          "kappa": {
+            "value": 7.646246499495703,
+            "r": 0.2824951623777089,
+            "source_profile_x": 0.875,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 0,
+                "x": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "adjacent_and_baseline_comparisons": {
+    "f8-to-f16": {
+      "entire_local_union": {
+        "six_jet_sample_differences": {
+          "position": {
+            "value": 7.321600251093708e-14,
+            "r": 0.28252179293666974,
+            "source_profile_x": 0.9127604166666666,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 1,
+                "x": 0.8125
+              }
+            ]
+          },
+          "radial_first": {
+            "value": 6.489594899097943e-09,
+            "r": 0.28253407846226436,
+            "source_profile_x": 0.94140625,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0.1875
+              }
+            ]
+          },
+          "angular_first": {
+            "value": 1.1622075235095773e-13,
+            "r": 0.28252179293666974,
+            "source_profile_x": 0.9127604166666666,
+            "theta": 5.559146375297564,
+            "original_sample_origins": [
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 1,
+                "x": 0.8125
+              }
+            ]
+          },
+          "radial_second": {
+            "value": 0.00177402255339777,
+            "r": 0.2825379892774631,
+            "source_profile_x": 0.95703125,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0.9375
+              }
+            ]
+          },
+          "mixed": {
+            "value": 1.0301365500170925e-08,
+            "r": 0.28253407846226436,
+            "source_profile_x": 0.94140625,
+            "theta": 5.559146375297564,
+            "original_sample_origins": [
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0.1875
+              }
+            ]
+          },
+          "angular_second": {
+            "value": 2.6761045798118534e-13,
+            "r": 0.28252179293666974,
+            "source_profile_x": 0.9127604166666666,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 1,
+                "x": 0.8125
+              }
+            ]
+          }
+        },
+        "metric_scalar_difference": {
+          "value": 1.1835925439610331e-08,
+          "r": 0.28253279635533834,
+          "source_profile_x": 0.9375,
+          "theta": 4.71238898038469,
+          "original_sample_origins": [
+            {
+              "kind": "original-common-grid",
+              "common_stage": 450,
+              "x": 0
+            },
+            {
+              "kind": "original-common-grid",
+              "common_stage": 451,
+              "x": 1
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 2,
+              "x": 1
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 3,
+              "x": 0
+            }
+          ]
+        },
+        "curvature_scalar_difference": {
+          "value": 0.0006782314349047126,
+          "r": 0.2825379892774631,
+          "source_profile_x": 0.95703125,
+          "theta": 3.141592653589793,
+          "original_sample_origins": [
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 3,
+              "x": 0.9375
+            }
+          ]
+        }
+      },
+      "original_common_stage450": {
+        "six_jet_sample_differences": {
+          "position": {
+            "value": 3.1130337461442216e-14,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 3.141592653589793,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          },
+          "radial_first": {
+            "value": 6.481787648439928e-09,
+            "r": 0.28253439470480773,
+            "source_profile_x": 0.9424316551920601,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0.125
+              }
+            ]
+          },
+          "angular_first": {
+            "value": 4.941367860036381e-14,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 5.559146375297564,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          },
+          "radial_second": {
+            "value": 0.0017739032174071579,
+            "r": 0.2825380259626764,
+            "source_profile_x": 0.9572266207682403,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0.5
+              }
+            ]
+          },
+          "mixed": {
+            "value": 1.0288886190857509e-08,
+            "r": 0.28253439470480773,
+            "source_profile_x": 0.9424316551920601,
+            "theta": 5.559146375297564,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0.125
+              }
+            ]
+          },
+          "angular_second": {
+            "value": 1.1394389991258149e-13,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          }
+        },
+        "metric_scalar_difference": {
+          "value": 1.1835925439610331e-08,
+          "r": 0.28253279635533834,
+          "source_profile_x": 0.9375,
+          "theta": 4.71238898038469,
+          "original_sample_origins": [
+            {
+              "kind": "original-common-grid",
+              "common_stage": 450,
+              "x": 0
+            },
+            {
+              "kind": "original-common-grid",
+              "common_stage": 451,
+              "x": 1
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 2,
+              "x": 1
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 3,
+              "x": 0
+            }
+          ]
+        },
+        "curvature_scalar_difference": {
+          "value": 0.0006781770923601146,
+          "r": 0.2825380259626764,
+          "source_profile_x": 0.9572266207682403,
+          "theta": 0.0,
+          "original_sample_origins": [
+            {
+              "kind": "original-common-grid",
+              "common_stage": 450,
+              "x": 0.5
+            }
+          ]
+        }
+      },
+      "original_common_stage451": {
+        "six_jet_sample_differences": {
+          "position": {
+            "value": 7.308435770201034e-14,
+            "r": 0.2825224975923734,
+            "source_profile_x": 0.9140625,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.625
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 1,
+                "x": 0.875
+              }
+            ]
+          },
+          "radial_first": {
+            "value": 6.378644155761903e-09,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          },
+          "angular_first": {
+            "value": 1.1601172370401986e-13,
+            "r": 0.2825224975923734,
+            "source_profile_x": 0.9140625,
+            "theta": 5.559146375297564,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.625
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 1,
+                "x": 0.875
+              }
+            ]
+          },
+          "radial_second": {
+            "value": 0.0007914654245147563,
+            "r": 0.282524527257878,
+            "source_profile_x": 0.91796875,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.6875
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 0.0625
+              }
+            ]
+          },
+          "mixed": {
+            "value": 1.0125457428524418e-08,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 0.7240389318820226,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          },
+          "angular_second": {
+            "value": 2.6713573342618115e-13,
+            "r": 0.2825224975923734,
+            "source_profile_x": 0.9140625,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.625
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 1,
+                "x": 0.875
+              }
+            ]
+          }
+        },
+        "metric_scalar_difference": {
+          "value": 1.1835925439610331e-08,
+          "r": 0.28253279635533834,
+          "source_profile_x": 0.9375,
+          "theta": 4.71238898038469,
+          "original_sample_origins": [
+            {
+              "kind": "original-common-grid",
+              "common_stage": 450,
+              "x": 0
+            },
+            {
+              "kind": "original-common-grid",
+              "common_stage": 451,
+              "x": 1
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 2,
+              "x": 1
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 3,
+              "x": 0
+            }
+          ]
+        },
+        "curvature_scalar_difference": {
+          "value": 0.0003028136712204107,
+          "r": 0.282524527257878,
+          "source_profile_x": 0.91796875,
+          "theta": 3.141592653589793,
+          "original_sample_origins": [
+            {
+              "kind": "original-common-grid",
+              "common_stage": 451,
+              "x": 0.6875
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 2,
+              "x": 0.0625
+            }
+          ]
+        }
+      }
+    },
+    "f16-to-f48": {
+      "entire_local_union": {
+        "six_jet_sample_differences": {
+          "position": {
+            "value": 1.2954805223803503e-15,
+            "r": 0.28253719284666085,
+            "source_profile_x": 0.953125,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0.75
+              }
+            ]
+          },
+          "radial_first": {
+            "value": 7.543410723013157e-10,
+            "r": 0.2825388531211996,
+            "source_profile_x": 0.9621582759603003,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0.625
+              }
+            ]
+          },
+          "angular_first": {
+            "value": 2.056284181644032e-15,
+            "r": 0.28253719284666085,
+            "source_profile_x": 0.953125,
+            "theta": 3.865631585471816,
+            "original_sample_origins": [
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0.75
+              }
+            ]
+          },
+          "radial_second": {
+            "value": 0.0008959922506333836,
+            "r": 0.2825396691028914,
+            "source_profile_x": 0.9688070316976036,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 4,
+                "x": 0.5625
+              }
+            ]
+          },
+          "mixed": {
+            "value": 1.1969540414852238e-09,
+            "r": 0.2825388531211996,
+            "source_profile_x": 0.9621582759603003,
+            "theta": 3.865631585471816,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0.625
+              }
+            ]
+          },
+          "angular_second": {
+            "value": 4.9350090909075575e-15,
+            "r": 0.28253719284666085,
+            "source_profile_x": 0.953125,
+            "theta": 3.141592653589793,
+            "original_sample_origins": [
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0.75
+              }
+            ]
+          }
+        },
+        "metric_scalar_difference": {
+          "value": 1.119258183747765e-09,
+          "r": 0.2825388031345372,
+          "source_profile_x": 0.9618245661214234,
+          "theta": 4.71238898038469,
+          "original_sample_origins": [
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 4,
+              "x": 0.1875
+            }
+          ]
+        },
+        "curvature_scalar_difference": {
+          "value": 0.0003398288578629247,
+          "r": 0.2825396691028914,
+          "source_profile_x": 0.9688070316976036,
+          "theta": 0.0,
+          "original_sample_origins": [
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 4,
+              "x": 0.5625
+            }
+          ]
+        }
+      },
+      "original_common_stage450": {
+        "six_jet_sample_differences": {
+          "position": {
+            "value": 1.293133941551937e-15,
+            "r": 0.2825370081302401,
+            "source_profile_x": 0.9522949655761802,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0.375
+              }
+            ]
+          },
+          "radial_first": {
+            "value": 7.543410723013157e-10,
+            "r": 0.2825388531211996,
+            "source_profile_x": 0.9621582759603003,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0.625
+              }
+            ]
+          },
+          "angular_first": {
+            "value": 2.0526409995792807e-15,
+            "r": 0.2825370081302401,
+            "source_profile_x": 0.9522949655761802,
+            "theta": 3.865631585471816,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0.375
+              }
+            ]
+          },
+          "radial_second": {
+            "value": 0.0008844309430927403,
+            "r": 0.2825397396157612,
+            "source_profile_x": 0.9695557587483905,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0.8125
+              }
+            ]
+          },
+          "mixed": {
+            "value": 1.1969540414852238e-09,
+            "r": 0.2825388531211996,
+            "source_profile_x": 0.9621582759603003,
+            "theta": 3.865631585471816,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0.625
+              }
+            ]
+          },
+          "angular_second": {
+            "value": 4.914990143416475e-15,
+            "r": 0.2825370081302401,
+            "source_profile_x": 0.9522949655761802,
+            "theta": 3.141592653589793,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0.375
+              }
+            ]
+          }
+        },
+        "metric_scalar_difference": {
+          "value": 1.1181967395751911e-09,
+          "r": 0.2825388531211996,
+          "source_profile_x": 0.9621582759603003,
+          "theta": 4.71238898038469,
+          "original_sample_origins": [
+            {
+              "kind": "original-common-grid",
+              "common_stage": 450,
+              "x": 0.625
+            }
+          ]
+        },
+        "curvature_scalar_difference": {
+          "value": 0.00033518672938668507,
+          "r": 0.2825397396157612,
+          "source_profile_x": 0.9695557587483905,
+          "theta": 3.141592653589793,
+          "original_sample_origins": [
+            {
+              "kind": "original-common-grid",
+              "common_stage": 450,
+              "x": 0.8125
+            }
+          ]
+        }
+      },
+      "original_common_stage451": {
+        "six_jet_sample_differences": {
+          "position": {
+            "value": 3.307094305144612e-16,
+            "r": 0.2825156471671812,
+            "source_profile_x": 0.90234375,
+            "theta": 3.141592653589793,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.4375
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 1,
+                "x": 0.3125
+              }
+            ]
+          },
+          "radial_first": {
+            "value": 3.179904355140994e-11,
+            "r": 0.282524527257878,
+            "source_profile_x": 0.91796875,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.6875
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 0.0625
+              }
+            ]
+          },
+          "angular_first": {
+            "value": 5.242012657063351e-16,
+            "r": 0.2825156471671812,
+            "source_profile_x": 0.90234375,
+            "theta": 0.7240389318820226,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.4375
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 1,
+                "x": 0.3125
+              }
+            ]
+          },
+          "radial_second": {
+            "value": 6.450289734254607e-06,
+            "r": 0.28252986225874366,
+            "source_profile_x": 0.9296875,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.875
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 0.625
+              }
+            ]
+          },
+          "mixed": {
+            "value": 5.0485269254980874e-11,
+            "r": 0.282524527257878,
+            "source_profile_x": 0.91796875,
+            "theta": 3.8717675086233583,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.6875
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 0.0625
+              }
+            ]
+          },
+          "angular_second": {
+            "value": 1.4878658799374378e-15,
+            "r": 0.2825156471671812,
+            "source_profile_x": 0.90234375,
+            "theta": 3.141592653589793,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.4375
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 1,
+                "x": 0.3125
+              }
+            ]
+          }
+        },
+        "metric_scalar_difference": {
+          "value": 5.825488209225752e-11,
+          "r": 0.282524527257878,
+          "source_profile_x": 0.91796875,
+          "theta": 4.71238898038469,
+          "original_sample_origins": [
+            {
+              "kind": "original-common-grid",
+              "common_stage": 451,
+              "x": 0.6875
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 2,
+              "x": 0.0625
+            }
+          ]
+        },
+        "curvature_scalar_difference": {
+          "value": 2.3412637349343873e-06,
+          "r": 0.28252986225874366,
+          "source_profile_x": 0.9296875,
+          "theta": 3.141592653589793,
+          "original_sample_origins": [
+            {
+              "kind": "original-common-grid",
+              "common_stage": 451,
+              "x": 0.875
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 2,
+              "x": 0.625
+            }
+          ]
+        }
+      }
+    },
+    "f8-to-f48": {
+      "entire_local_union": {
+        "six_jet_sample_differences": {
+          "position": {
+            "value": 7.3451188943884e-14,
+            "r": 0.28252179293666974,
+            "source_profile_x": 0.9127604166666666,
+            "theta": 3.141592653589793,
+            "original_sample_origins": [
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 1,
+                "x": 0.8125
+              }
+            ]
+          },
+          "radial_first": {
+            "value": 6.3786441557970136e-09,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          },
+          "angular_first": {
+            "value": 1.1659311844377754e-13,
+            "r": 0.28252179293666974,
+            "source_profile_x": 0.9127604166666666,
+            "theta": 3.865631585471816,
+            "original_sample_origins": [
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 1,
+                "x": 0.8125
+              }
+            ]
+          },
+          "radial_second": {
+            "value": 0.0018631988729488546,
+            "r": 0.2825394223407861,
+            "source_profile_x": 0.9664795431722103,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 4,
+                "x": 0.4375
+              }
+            ]
+          },
+          "mixed": {
+            "value": 1.0125457428501446e-08,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 0.7240389318820226,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          },
+          "angular_second": {
+            "value": 2.6869204542986646e-13,
+            "r": 0.28252179293666974,
+            "source_profile_x": 0.9127604166666666,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 1,
+                "x": 0.8125
+              }
+            ]
+          }
+        },
+        "metric_scalar_difference": {
+          "value": 1.1835925439610331e-08,
+          "r": 0.28253279635533834,
+          "source_profile_x": 0.9375,
+          "theta": 4.71238898038469,
+          "original_sample_origins": [
+            {
+              "kind": "original-common-grid",
+              "common_stage": 450,
+              "x": 0
+            },
+            {
+              "kind": "original-common-grid",
+              "common_stage": 451,
+              "x": 1
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 2,
+              "x": 1
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 3,
+              "x": 0
+            }
+          ]
+        },
+        "curvature_scalar_difference": {
+          "value": 0.0007110373724178347,
+          "r": 0.2825394223407861,
+          "source_profile_x": 0.9664795431722103,
+          "theta": 3.141592653589793,
+          "original_sample_origins": [
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 4,
+              "x": 0.4375
+            }
+          ]
+        }
+      },
+      "original_common_stage450": {
+        "six_jet_sample_differences": {
+          "position": {
+            "value": 3.1130337461442216e-14,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 3.141592653589793,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          },
+          "radial_first": {
+            "value": 6.3786441557970136e-09,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          },
+          "angular_first": {
+            "value": 4.941367860036381e-14,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 5.559146375297564,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          },
+          "radial_second": {
+            "value": 0.0018509082609681979,
+            "r": 0.2825394910954777,
+            "source_profile_x": 0.9670899311523604,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0.75
+              }
+            ]
+          },
+          "mixed": {
+            "value": 1.0125457428501446e-08,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 0.7240389318820226,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          },
+          "angular_second": {
+            "value": 1.1394389991258149e-13,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          }
+        },
+        "metric_scalar_difference": {
+          "value": 1.1835925439610331e-08,
+          "r": 0.28253279635533834,
+          "source_profile_x": 0.9375,
+          "theta": 4.71238898038469,
+          "original_sample_origins": [
+            {
+              "kind": "original-common-grid",
+              "common_stage": 450,
+              "x": 0
+            },
+            {
+              "kind": "original-common-grid",
+              "common_stage": 451,
+              "x": 1
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 2,
+              "x": 1
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 3,
+              "x": 0
+            }
+          ]
+        },
+        "curvature_scalar_difference": {
+          "value": 0.0007058017899022819,
+          "r": 0.2825394910954777,
+          "source_profile_x": 0.9670899311523604,
+          "theta": 3.141592653589793,
+          "original_sample_origins": [
+            {
+              "kind": "original-common-grid",
+              "common_stage": 450,
+              "x": 0.75
+            }
+          ]
+        }
+      },
+      "original_common_stage451": {
+        "six_jet_sample_differences": {
+          "position": {
+            "value": 7.329905969272556e-14,
+            "r": 0.2825224975923734,
+            "source_profile_x": 0.9140625,
+            "theta": 3.141592653589793,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.625
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 1,
+                "x": 0.875
+              }
+            ]
+          },
+          "radial_first": {
+            "value": 6.3786441557970136e-09,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          },
+          "angular_first": {
+            "value": 1.1635156016203753e-13,
+            "r": 0.2825224975923734,
+            "source_profile_x": 0.9140625,
+            "theta": 3.865631585471816,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.625
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 1,
+                "x": 0.875
+              }
+            ]
+          },
+          "radial_second": {
+            "value": 0.000791604032534643,
+            "r": 0.282524527257878,
+            "source_profile_x": 0.91796875,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.6875
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 0.0625
+              }
+            ]
+          },
+          "mixed": {
+            "value": 1.0125457428501446e-08,
+            "r": 0.28253279635533834,
+            "source_profile_x": 0.9375,
+            "theta": 0.7240389318820226,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 450,
+                "x": 0
+              },
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 2,
+                "x": 1
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 3,
+                "x": 0
+              }
+            ]
+          },
+          "angular_second": {
+            "value": 2.681405789999605e-13,
+            "r": 0.2825224975923734,
+            "source_profile_x": 0.9140625,
+            "theta": 0.0,
+            "original_sample_origins": [
+              {
+                "kind": "original-common-grid",
+                "common_stage": 451,
+                "x": 0.625
+              },
+              {
+                "kind": "local-existing-grid-subspan",
+                "span": 1,
+                "x": 0.875
+              }
+            ]
+          }
+        },
+        "metric_scalar_difference": {
+          "value": 1.1835925439610331e-08,
+          "r": 0.28253279635533834,
+          "source_profile_x": 0.9375,
+          "theta": 4.71238898038469,
+          "original_sample_origins": [
+            {
+              "kind": "original-common-grid",
+              "common_stage": 450,
+              "x": 0
+            },
+            {
+              "kind": "original-common-grid",
+              "common_stage": 451,
+              "x": 1
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 2,
+              "x": 1
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 3,
+              "x": 0
+            }
+          ]
+        },
+        "curvature_scalar_difference": {
+          "value": 0.0003027602533678228,
+          "r": 0.282524527257878,
+          "source_profile_x": 0.91796875,
+          "theta": 3.141592653589793,
+          "original_sample_origins": [
+            {
+              "kind": "original-common-grid",
+              "common_stage": 451,
+              "x": 0.6875
+            },
+            {
+              "kind": "local-existing-grid-subspan",
+              "span": 2,
+              "x": 0.0625
+            }
+          ]
+        }
+      }
+    }
+  },
+  "actual_node_velocity_consistency": [
+    {
+      "r": 0.28251134428364694,
+      "original_source_x": 0.8958333333333334,
+      "is_newly_retained_RK48_point": true,
+      "GW_acceleration_scope": "Target-metric completion of original point jets, not an independently established trajectory derivative.",
+      "reference_cubic_velocity": {
+        "f8": {
+          "velocity_minus_actual": {
+            "vector_max": 8.746504236304907e-09,
+            "theta": 3.141592653589793,
+            "vector": [
+              -7.93218321532022e-09,
+              -8.722951089357531e-22,
+              3.685350158979719e-09
+            ],
+            "vertical_max": 3.685350158979719e-09,
+            "horizontal_max": 7.988222379613742e-09
+          },
+          "radial_derivative_minus_actual_GW": {
+            "vector_max": 0.0007667205992877136,
+            "theta": 0.0,
+            "vector": [
+              0.0006953301294589998,
+              -1.7354515830179164e-17,
+              0.0003230735031515913
+            ],
+            "vertical_max": 0.0003230735031515913,
+            "horizontal_max": 0.0007002424748284236
+          }
+        },
+        "f16": {
+          "velocity_minus_actual": {
+            "vector_max": 1.5148947479802028e-10,
+            "theta": 3.141592653589793,
+            "vector": [
+              -1.3752380797365017e-10,
+              -9.306358387568678e-22,
+              6.353159225933675e-11
+            ],
+            "vertical_max": 6.353159225933675e-11,
+            "horizontal_max": 1.3849562969788545e-10
+          },
+          "radial_derivative_minus_actual_GW": {
+            "vector_max": 8.647509151923348e-06,
+            "theta": 0.0,
+            "vector": [
+              7.849315677709371e-06,
+              -2.2709053233199972e-17,
+              3.628726763516915e-06
+            ],
+            "vertical_max": 3.628726763516915e-06,
+            "horizontal_max": 7.904781767564425e-06
+          }
+        }
+      },
+      "velocity_only_adjacent_quadratic_derivative_minus_GW": {
+        "vector_max": 4.541860519675114e-06,
+        "theta": 3.141592653589793,
+        "vector": [
+          4.13749501045006e-06,
+          -3.4148405732467496e-17,
+          -1.8734011899975813e-06
+        ],
+        "vertical_max": 1.8734011899975813e-06,
+        "horizontal_max": 4.16675300649194e-06
+      },
+      "velocity_only_stencil_r": [
+        0.2824951623777089,
+        0.28251134428364694,
+        0.2825238647334331
+      ],
+      "velocity_only_interpretation": "A local derivative estimate using only three actual velocity nodes; independent of GW acceleration inputs, but without a continuous derivative error certificate."
+    },
+    {
+      "r": 0.2825238647334331,
+      "original_source_x": 0.9166666666666666,
+      "is_newly_retained_RK48_point": true,
+      "GW_acceleration_scope": "Target-metric completion of original point jets, not an independently established trajectory derivative.",
+      "reference_cubic_velocity": {
+        "f8": {
+          "velocity_minus_actual": {
+            "vector_max": 1.518274899144895e-08,
+            "theta": 3.141592653589793,
+            "vector": [
+              -1.3768993131263556e-08,
+              4.051023486908476e-22,
+              6.397710144150104e-09
+            ],
+            "vertical_max": 6.397710144150104e-09,
+            "horizontal_max": 1.3866267738494328e-08
+          },
+          "radial_derivative_minus_actual_GW": {
+            "vector_max": 7.80634532128213e-05,
+            "theta": 0.0,
+            "vector": [
+              7.077201682374439e-05,
+              -1.9615473355045596e-17,
+              3.294274369584268e-05
+            ],
+            "vertical_max": 3.294274369584268e-05,
+            "horizontal_max": 7.127196456763636e-05
+          }
+        },
+        "f16": {
+          "velocity_minus_actual": {
+            "vector_max": 1.2551601784108554e-10,
+            "theta": 3.141592653589793,
+            "vector": [
+              -1.1393097465946439e-10,
+              2.7207066821024845e-22,
+              5.2668811908264937e-11
+            ],
+            "vertical_max": 5.2668811908264937e-11,
+            "horizontal_max": 1.1473605180657218e-10
+          },
+          "radial_derivative_minus_actual_GW": {
+            "vector_max": 1.4001339875300969e-05,
+            "theta": 3.141592653589793,
+            "vector": [
+              1.2710412106501563e-05,
+              2.966090692545525e-19,
+              -5.872217842228903e-06
+            ],
+            "vertical_max": 5.872217842228903e-06,
+            "horizontal_max": 1.2800230681789298e-05
+          }
+        }
+      },
+      "velocity_only_adjacent_quadratic_derivative_minus_GW": {
+        "vector_max": 1.0606991198734879e-05,
+        "theta": 0.0,
+        "vector": [
+          -9.637195128147646e-06,
+          -3.052990112981983e-17,
+          -4.430883924460949e-06
+        ],
+        "vertical_max": 4.430883924460949e-06,
+        "horizontal_max": 9.705308151119484e-06
+      },
+      "velocity_only_stencil_r": [
+        0.28251134428364694,
+        0.2825238647334331,
+        0.28253279635533834
+      ],
+      "velocity_only_interpretation": "A local derivative estimate using only three actual velocity nodes; independent of GW acceleration inputs, but without a continuous derivative error certificate."
+    },
+    {
+      "r": 0.28253279635533834,
+      "original_source_x": 0.9375,
+      "is_newly_retained_RK48_point": false,
+      "GW_acceleration_scope": "Target-metric completion of original point jets, not an independently established trajectory derivative.",
+      "reference_cubic_velocity": {
+        "f8": {
+          "velocity_minus_actual": {
+            "vector_max": 1.1189341714090105e-08,
+            "theta": 3.141592653589793,
+            "vector": [
+              -1.014722131845625e-08,
+              1.667547758509438e-22,
+              4.71542866650996e-09
+            ],
+            "vertical_max": 4.71542866650996e-09,
+            "horizontal_max": 1.0218908606330085e-08
+          },
+          "radial_derivative_minus_actual_GW": {
+            "vector_max": 0.001050859122967422,
+            "theta": 3.141592653589793,
+            "vector": [
+              0.0009530230170524019,
+              1.92560144239532e-18,
+              -0.00044277762510338826
+            ],
+            "vertical_max": 0.00044277762510338826,
+            "horizontal_max": 0.0009597559214132755
+          }
+        },
+        "f16": {
+          "velocity_minus_actual": {
+            "vector_max": 0.0,
+            "theta": 0.0,
+            "vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "vertical_max": 0.0,
+            "horizontal_max": 0.0
+          },
+          "radial_derivative_minus_actual_GW": {
+            "vector_max": 1.910314695030977e-22,
+            "theta": 4.71238898038469,
+            "vector": [
+              -5.113400426076951e-37,
+              1.5902260210990904e-22,
+              -1.0585289017644487e-22
+            ],
+            "vertical_max": 1.0590544721208588e-22,
+            "horizontal_max": 1.5902260210990904e-22
+          }
+        }
+      },
+      "velocity_only_adjacent_quadratic_derivative_minus_GW": {
+        "vector_max": 3.4902799035807896e-05,
+        "theta": 0.0,
+        "vector": [
+          -3.1671865593960145e-05,
+          2.1418221256970333e-17,
+          -1.4666230269981319e-05
+        ],
+        "vertical_max": 1.4666230269981319e-05,
+        "horizontal_max": 3.189565173674112e-05
+      },
+      "velocity_only_stencil_r": [
+        0.2825238647334331,
+        0.28253279635533834,
+        0.28253822812647356
+      ],
+      "velocity_only_interpretation": "A local derivative estimate using only three actual velocity nodes; independent of GW acceleration inputs, but without a continuous derivative error certificate."
+    },
+    {
+      "r": 0.28253822812647356,
+      "original_source_x": 0.9583333333333334,
+      "is_newly_retained_RK48_point": true,
+      "GW_acceleration_scope": "Target-metric completion of original point jets, not an independently established trajectory derivative.",
+      "reference_cubic_velocity": {
+        "f8": {
+          "velocity_minus_actual": {
+            "vector_max": 3.2779598438055745e-09,
+            "theta": 3.141592653589793,
+            "vector": [
+              -2.972573941353883e-09,
+              9.763929521307873e-23,
+              1.3816022947236692e-09
+            ],
+            "vertical_max": 1.3816022947236692e-09,
+            "horizontal_max": 2.993574184126247e-09
+          },
+          "radial_derivative_minus_actual_GW": {
+            "vector_max": 0.001816014773620734,
+            "theta": 3.141592653589793,
+            "vector": [
+              0.0016468590015593964,
+              1.0059492033865161e-18,
+              -0.0007653529166283707
+            ],
+            "vertical_max": 0.0007653529166283707,
+            "horizontal_max": 0.0016584935634215937
+          }
+        },
+        "f16": {
+          "velocity_minus_actual": {
+            "vector_max": 1.7188277614547504e-09,
+            "theta": 0.0,
+            "vector": [
+              1.5586656069301893e-09,
+              -1.9486752115133909e-22,
+              7.245208066856972e-10
+            ],
+            "vertical_max": 7.245208066856972e-10,
+            "horizontal_max": 1.5696770059786429e-09
+          },
+          "radial_derivative_minus_actual_GW": {
+            "vector_max": 0.00037946828328190563,
+            "theta": 0.0,
+            "vector": [
+              -0.00034411685079840666,
+              2.0775759677216004e-18,
+              -0.00015993677192410662
+            ],
+            "vertical_max": 0.00015993677192410662,
+            "horizontal_max": 0.00034654792282789727
+          }
+        }
+      },
+      "velocity_only_adjacent_quadratic_derivative_minus_GW": {
+        "vector_max": 0.00022511373350654919,
+        "theta": 0.0,
+        "vector": [
+          -0.00020415805950776427,
+          -6.373383811925601e-17,
+          -9.484555736185973e-05
+        ],
+        "vertical_max": 9.484555736185973e-05,
+        "horizontal_max": 0.0002056003964830396
+      },
+      "velocity_only_stencil_r": [
+        0.28253279635533834,
+        0.28253822812647356,
+        0.282540205662618
+      ],
+      "velocity_only_interpretation": "A local derivative estimate using only three actual velocity nodes; independent of GW acceleration inputs, but without a continuous derivative error certificate."
+    }
+  ],
+  "original_saved_global_f8_f16_rr_difference": 0.0017739032174071579,
+  "output_node_coefficients_sha256": "d46d70be2df586f5f9261ceb46a478125c411a534e6be84bd3b77918d9d3195a",
+  "replay_result_sha256": "9482a1f499cfb7b4fd0e83912413fe954bad2cfa4c3768aa57bcb4d278a1dd2e",
+  "source_sha256_at_start": {
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_stage28_local_GW_refinement.py": "929a21ef76b038135985c1509af2ba2ac8cc00d446e66757c4841bebe56b9cd6",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_stage28_original_rk48_readout.mjs": "afe841dc51a04728a58e96192e3a0b7cf3cca33df854120be23444a2aec20576",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_source_knot_rr_probe.py": "20c89a95e144dec60cd4d84cf8567b2a8f3e3da40af46f6e74a34c5ed04ad9c6",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_refined_tail_adapter.py": "6b06db6c7c96078b9fabe403a0b3ade14f8b30b07a78b565ed299c77f840d937",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_common_grid_refinement.py": "dc6b2b3240b3e0886821d7866ae06fc343f14176f3bde77d85b67f71532d236e"
+  },
+  "seconds": 3.540371437999994,
+  "original_integration_grid_unchanged": true,
+  "no_new_shooting_solve": true,
+  "limitations": [
+    "All maxima are the stated finite local samples; no global maximum or continuous enclosure.",
+    "New radial readout data use the same finite RK48 trajectory, not a more accurate BVP or time integrator.",
+    "The GW rule is retained only for this local comparison; no complete assembly has adopted a new field.",
+    "Metric and curvature changes are measured anew; they are not inherited from the original point jets.",
+    "No independent criterion requiring machine-precision six-jet differences is added to the topic README.",
+    "This does not address the large-amplitude candidate, all-phase reach or complete-task acceptance."
+  ]
+}
