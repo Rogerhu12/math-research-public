@@ -1,0 +1,94 @@
+{
+  "kind": "actual_public_repaired_positive_high_root_graph_process_v1",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43605513540",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "5e1bb582fbeba3c55dfeda86c622aeb70e4164f8",
+  "worker_source_sha256": "05b098966f69458dc1a371d7c42990cb0e7cebfb201665c6cc1cc0a47dbced89",
+  "started_utc": "2026-11-14T14:34:36.112612+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T14:34:36.750341+00:00",
+      "before": "2269ca85090e7e165692f813e4400e3c959a273f",
+      "after": "2269ca85090e7e165692f813e4400e3c959a273f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T14:34:37.054003+00:00",
+      "before": "2269ca85090e7e165692f813e4400e3c959a273f",
+      "after": "2269ca85090e7e165692f813e4400e3c959a273f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_root_collar_run": 43600926806,
+  "original_complete_positive_body_run": 43601149891,
+  "original_collar_mathematics_recomputed": 0,
+  "original_4650_body_rows_recomputed": 0,
+  "original_target_or_outer_graph_recomputed": 0,
+  "exact_affine_parameter_offset": "0",
+  "physical_parameter": "fixed physical eta0 and original nu",
+  "given_complete_head_positive_high_graph_proved": false,
+  "full_low_high_Schur_inverse_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "input_manifest_sha256": "8bc711dbaa3118373b25cde2c6fc0e94d31c62033939c856db823c64fc32d59f",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "2269ca85090e7e165692f813e4400e3c959a273f",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-positive-high-root-graph-work/science",
+  "actual_scientific_input_sha256": {
+    "collar-process": "7ac4224cf5260137e98e941b9816baf06058025ef0c1963b47098f2f4a1ae25c",
+    "body-process": "459745352095624995f1a4c0864eb1e6dec7de5eff87c54ec1f2e3fce5ea99f1",
+    "body-summary": "fde40b46beb474e10a92e6f6b92bc93beecb91da33eefc073a72dbc60964a9a5"
+  },
+  "snapshot_utc": "2026-11-14T14:34:37.064163+00:00",
+  "wall_seconds": 0.9520869190000028,
+  "native_files": [
+    {
+      "logical_file": "evidence/original-body-process.json",
+      "file": "evidence/original-body-process.json",
+      "bytes": 10535,
+      "sha256": "459745352095624995f1a4c0864eb1e6dec7de5eff87c54ec1f2e3fce5ea99f1"
+    },
+    {
+      "logical_file": "evidence/original-body-summary.json",
+      "file": "evidence/original-body-summary.json",
+      "bytes": 21412,
+      "sha256": "fde40b46beb474e10a92e6f6b92bc93beecb91da33eefc073a72dbc60964a9a5"
+    },
+    {
+      "logical_file": "evidence/original-collar-process.json",
+      "file": "evidence/original-collar-process.json",
+      "bytes": 12540,
+      "sha256": "7ac4224cf5260137e98e941b9816baf06058025ef0c1963b47098f2f4a1ae25c"
+    }
+  ]
+}
