@@ -312,3 +312,7 @@ R238仅条件定理；新有理系数输入检查器待Actions，实际活动tai
 ### 2026-11-14 09:59 UTC — visible-larger: preserve complete DN warm field and resolve finite-difference truncation
 
 真实690节点完整scalar/warm通过，RHS原实现逐位相同；原BC粗FD未过门及4倍收缩证据保留，新三步/Richardson不改5e−5门或原Newton。准备数组删完全重复alias，原解压JSON按manifest可逐字重构，最大文件3710347B。共享overlay满盘后仅本轮目录转到有空间tmpfs、逐件SHA一致并保原路径，旧B未动。实际pull已读根README新课题表及Rule1/13范围措辞变化，本题README未变。
+
+### 2026-11-14 10:02 UTC — visible-larger: pay curvature and mixed spatial coverage and refine remaining prefix blocks
+
+真实v2使D+3.9807514078/Ktau0=.9994116104，曲率/标记门已过；法向锥付392296对，余33712仅prefix-prefix。v3仅细分真实失败父块并从同PPoly/原mean评价新角点，不改变曲面或已付tail/cap。尚未全覆盖。
