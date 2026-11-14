@@ -481,3 +481,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R257. 有限恒速平面Fourier的圆障碍与材料角圆Jacobian](results/R257-finite-unit-speed-Fourier-and-material-circle-Jacobian.md)（已证明）：闭合有限Fourier且正恒速强制非零整数覆盖圆，simple/turning1明确排多重；真实材料入口core导数抵消及连续L²界。原Frenet完整物理微分在精确uniform材料圆及解析/解混叠DFT下保留全部K块，J²=(ν/a)J；不把其参考谱或入口连续界扩成实际非圆有限联解成功。非圆原core、精确单位速和纯有限θ入口不能同时保留，投影或解析lift须另付误差与接口。
 
 - [R258. 同场完整尾部、内外 Hermite 接缝与平面胚标记链](results/R258-complete-field-tail-cardinal-marker-chain.md)（已证明，完整有限对象条件定理）：本场全部FFT/shared-node精确Hermite尾、零2-jet collar及完整材料角cut修补的每段四角行列式次数≤15；全材料四角固定、真实SE2三角常数严格球及有限非零见证排平面开片。实际marker有理条件、活动环带拓扑与同场C²/嵌入/像变输入接到含反射δE>0；不继承旧renderer未付表示差或旧A数值，消费者未执行。
+
+- [R259. 小核心直线同伦的共振条件、完整尾耦合与可去退化](results/R259-small-core-homotopy-and-resonance-conditions.md)（已证明，条件代数/续接定理）：实际源圆R′=(ap/a)R与原有限collocation圆递推，raw phi与材料角切向链式，全112尾Jacobian/高块Schur给固定前三目标直线缩幅的必要匹配；积分去退化及完整方块可逆给条件IFT。三重首阶共振不约束λ、λ²、λ³等别的路径，不宣称小幅存在或可延到原大幅终点；同scalar合法性/真实尾/原接受门均保留。
