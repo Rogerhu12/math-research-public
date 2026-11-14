@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_low193_Fourier_mean_and_fixed_eta_diagnostic_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43607383671",
   "run_attempt": "1",
@@ -105,6 +105,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T14:58:08.625546+00:00",
+      "before": "c70784a54ffaf32350906b6b328008b673ac9f5e",
+      "after": "9511825414473abecd12d99c50c8963a30ae7f75",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -112,6 +120,11 @@
       "time": "2026-11-14T14:56:29.444440+00:00",
       "final": false,
       "commit": "5edeee5dbb32b4d8fb526ee1d1490a5b368e9d72"
+    },
+    {
+      "time": "2026-11-14T14:58:08.061936+00:00",
+      "final": false,
+      "commit": "9511825414473abecd12d99c50c8963a30ae7f75"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -150,7 +163,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "c70784a54ffaf32350906b6b328008b673ac9f5e",
+  "last_read_commit": "9511825414473abecd12d99c50c8963a30ae7f75",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-low193-Fourier-mean-fixed-eta-work/science",
   "actual_scientific_input_sha256": {
     "original-manifest": "c214f800a5094c905c554e9053c52567d5ae5d76be41ac2e3fe9d673b396d784",
@@ -163,9 +176,15 @@
     "repair-process": "16de872ce106e05b6add99d8406598de3cc87b94f4533a9fc3bb46294c66366a"
   },
   "all_original_40_parts_and_7721_scalar_rows_verified": true,
-  "snapshot_utc": "2026-11-14T14:58:05.653627+00:00",
-  "wall_seconds": 102.91705480799999,
+  "snapshot_utc": "2026-11-14T14:58:09.122615+00:00",
+  "wall_seconds": 106.386043588,
   "native_files": [
+    {
+      "logical_file": "evidence/low193-Fourier-mean-and-fixed-eta-pilot-summary.json",
+      "file": "evidence/low193-Fourier-mean-and-fixed-eta-pilot-summary.json",
+      "bytes": 28860,
+      "sha256": "250ebccd140b3997615f7742bf0acb16359f1c93d0c0bf5038d3276e7f27d2e5"
+    },
     {
       "logical_file": "evidence/original-body-process.json",
       "file": "evidence/original-body-process.json",
@@ -287,11 +306,116 @@
       "sha256": "16de872ce106e05b6add99d8406598de3cc87b94f4533a9fc3bb46294c66366a"
     },
     {
+      "logical_file": "evidence/row-0000-source-diagnostic-summary.json",
+      "file": "evidence/row-0000-source-diagnostic-summary.json",
+      "bytes": 8344,
+      "sha256": "a45c221e05f75a2b030ea84bcbf4300e6fc15a98c118aba73c1e6d220d082715"
+    },
+    {
+      "logical_file": "evidence/row-0597-source-diagnostic-summary.json",
+      "file": "evidence/row-0597-source-diagnostic-summary.json",
+      "bytes": 8809,
+      "sha256": "ffb9db3970d83b504041302293d286dfc59514eb84e5ddb282b763832773ee5d"
+    },
+    {
+      "logical_file": "evidence/row-1280-source-diagnostic-summary.json",
+      "file": "evidence/row-1280-source-diagnostic-summary.json",
+      "bytes": 44326,
+      "sha256": "b528f7a0f7d6e86d7039daec5321bd83083b6cc6a4557146a0bc9ac77090bc05"
+    },
+    {
+      "logical_file": "evidence/row-1283-source-diagnostic-summary.json",
+      "file": "evidence/row-1283-source-diagnostic-summary.json",
+      "bytes": 44344,
+      "sha256": "03e7cddc79bf94017ced0c649b21d07af55dd82d467e2f1164d1db8018fdb297"
+    },
+    {
+      "logical_file": "evidence/row-1284-source-diagnostic-summary.json",
+      "file": "evidence/row-1284-source-diagnostic-summary.json",
+      "bytes": 44344,
+      "sha256": "242d17a3192f4aecad620e0672846c88875d558697883af135fa5170eff5e543"
+    },
+    {
+      "logical_file": "evidence/row-1289-source-diagnostic-summary.json",
+      "file": "evidence/row-1289-source-diagnostic-summary.json",
+      "bytes": 44331,
+      "sha256": "ab5cc900f31557997c0c64739d01d1f2545c2299dac9f89d81ff8d6201d343e9"
+    },
+    {
+      "logical_file": "evidence/row-1519-source-diagnostic-summary.json",
+      "file": "evidence/row-1519-source-diagnostic-summary.json",
+      "bytes": 44351,
+      "sha256": "5323b457ba9940d3e026efef8e30297933ce4f1691b29873953ec42a8d7e0bc1"
+    },
+    {
+      "logical_file": "evidence/row-1521-source-diagnostic-summary.json",
+      "file": "evidence/row-1521-source-diagnostic-summary.json",
+      "bytes": 8824,
+      "sha256": "604f3e789fbfb1279e10a6a59da56d088f85f2625aa259b2b80c7fc5e56b8594"
+    },
+    {
+      "logical_file": "evidence/row-1522-source-diagnostic-summary.json",
+      "file": "evidence/row-1522-source-diagnostic-summary.json",
+      "bytes": 8822,
+      "sha256": "f863cd2ab7796b817c91b715c69ff8967b104d21b89d6e2e45be692b6bf7cd3b"
+    },
+    {
+      "logical_file": "evidence/row-1524-source-diagnostic-summary.json",
+      "file": "evidence/row-1524-source-diagnostic-summary.json",
+      "bytes": 44389,
+      "sha256": "d4f19f17ea796628c664457a349e29dc7796b1bc5523b011c4041b666cfaa699"
+    },
+    {
+      "logical_file": "evidence/row-1753-source-diagnostic-summary.json",
+      "file": "evidence/row-1753-source-diagnostic-summary.json",
+      "bytes": 8343,
+      "sha256": "39c5d0b0eff748b0165e68b0eae7a9b8271c0474df319917e9f9ba8dfa9b6fed"
+    },
+    {
+      "logical_file": "evidence/row-3070-source-diagnostic-summary.json",
+      "file": "evidence/row-3070-source-diagnostic-summary.json",
+      "bytes": 41662,
+      "sha256": "cb783095ef4e7419b58703eb50b58ffad87838324723e3f0900caea645c1593c"
+    },
+    {
+      "logical_file": "evidence/row-5584-source-diagnostic-summary.json",
+      "file": "evidence/row-5584-source-diagnostic-summary.json",
+      "bytes": 8323,
+      "sha256": "43b04e384f9eff651468796d581935ce30279f9b5677f1b911c2913147893106"
+    },
+    {
+      "logical_file": "evidence/row-6375-source-diagnostic-summary.json",
+      "file": "evidence/row-6375-source-diagnostic-summary.json",
+      "bytes": 41663,
+      "sha256": "cba60247636f2d4d78c0f156aaa85e252761dd39d072e77e4d3e428425edc2ce"
+    },
+    {
       "logical_file": "native/low193-Fourier-mean-and-fixed-eta-pilot.json.gz",
       "lossless_manifest": "native-low193-Fourier-mean-and-fixed-eta-pilot.json.gz-a73382575ca2b14a-parts.json",
       "bytes": 6039443,
       "sha256": "a73382575ca2b14afb810c2ed43ae0aec9d59aef563635a19f6785b414111993",
       "parts": 4
     }
-  ]
+  ],
+  "actual_new_projection_child_executed": true,
+  "complete_native_sha256": "a73382575ca2b14afb810c2ed43ae0aec9d59aef563635a19f6785b414111993",
+  "actual_selected_original_rows": [
+    0,
+    597,
+    1280,
+    1283,
+    1284,
+    1289,
+    1519,
+    1521,
+    1522,
+    1524,
+    1753,
+    3070,
+    5584,
+    6375
+  ],
+  "actual_selected_projection_gates": 7,
+  "unknown_high_inputs_not_removed": true,
+  "finished_utc": "2026-11-14T14:58:08.350885+00:00"
 }
