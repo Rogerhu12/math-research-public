@@ -1,0 +1,445 @@
+name: visible-exact complete 5970 continuous projector cells
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-complete-cut-projectors.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-complete-cut-projectors
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  FULL_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-cut-projector-CI-pinned-inputs.json
+  FULL_MANIFEST_SHA: 394379df4a2588ad53a85ed91438874a34f30473a746b85cd8db3e83edfcdbf5
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+  REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 60
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the immutable original scientific closure
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-cut-projector-CI-pinned-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Hydrate and verify every original dependency without full repository data
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$FULL_MANIFEST" --manifest-sha "$FULL_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/regular_cut_validator_ci/
+      - name: Install the pinned directed arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Set container-visible exact artifact paths
+        id: paths
+        run: |
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-complete-projector-prepare" >> "$GITHUB_OUTPUT"
+          printf 'original=%s\n' "$RUNNER_TEMP/visible-exact-original-cut-frames" >> "$GITHUB_OUTPUT"
+          printf 'pilot=%s\n' "$RUNNER_TEMP/visible-exact-original-projector-pilot" >> "$GITHUB_OUTPUT"
+          printf 'capcut=%s\n' "$RUNNER_TEMP/visible-exact-original-cap-cut" >> "$GITHUB_OUTPUT"
+          printf 'slices=%s\n' "$RUNNER_TEMP/visible-exact-complete-projector-frame-slices" >> "$GITHUB_OUTPUT"
+      - name: Receive all original frames once without recomputing them
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43588509643
+          name: visible-exact-cut-head-proposal-43588509643-1
+          path: ${{ steps.paths.outputs.original }}
+      - name: Reuse all four actual successful continuous cells
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43591378059
+          name: visible-exact-cut-projector-pilot-43591378059-1
+          path: ${{ steps.paths.outputs.pilot }}
+      - name: Receive the actual fourteen-gate complete cap cut
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43587619797
+          name: visible-exact-complete-cap-cut-43587619797-1
+          path: ${{ steps.paths.outputs.capcut }}
+      - name: Verify true weighted boundaries and package unchanged disjoint frame slices
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_regular_cut_complete_CI.py
+          --manifest "$FULL_MANIFEST" --manifest-sha "$FULL_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --phase prepare
+          --prior-artifact "$RUNNER_TEMP/visible-exact-original-cut-frames"
+          --pilot-artifact "$RUNNER_TEMP/visible-exact-original-projector-pilot"
+          --cap-cut-artifact "$RUNNER_TEMP/visible-exact-original-cap-cut"
+          --slices "$RUNNER_TEMP/visible-exact-complete-projector-frame-slices"
+          --work "$RUNNER_TEMP/visible-exact-complete-projector-prepare-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-complete-projector-prepare"
+          --compute-minutes 40 --checkpoint-minutes 10
+      - name: Preserve unchanged complete frame slice 0
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-0-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-00/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve unchanged complete frame slice 1
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-1-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-01/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve unchanged complete frame slice 2
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-2-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-02/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve unchanged complete frame slice 3
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-3-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-03/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve unchanged complete frame slice 4
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-4-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-04/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve unchanged complete frame slice 5
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-5-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-05/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve unchanged complete frame slice 6
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-6-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-06/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve unchanged complete frame slice 7
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-7-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-07/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve unchanged complete frame slice 8
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-8-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-08/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve unchanged complete frame slice 9
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-9-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-09/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve unchanged complete frame slice 10
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-10-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-10/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve unchanged complete frame slice 11
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-11-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-11/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve unchanged complete frame slice 12
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-12-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-12/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve unchanged complete frame slice 13
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-13-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-13/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve unchanged complete frame slice 14
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-14-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-14/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Preserve unchanged complete frame slice 15
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-frame-slice-15-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slices }}/slice-15/
+          compression-level: 0
+          retention-days: 30
+          if-no-files-found: error
+      - name: Require a real nonempty process before uploading its result
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.paths.outputs.output }}
+        run: |
+          python - <<'PY_INVENTORY'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          files=sorted(p for p in root.rglob('*') if p.is_file()) if root.exists() else []
+          if not files or not any(p.stat().st_size for p in files):
+              raise RuntimeError('no actual nonempty process output exists')
+          records=[dict(path=str(p.relative_to(root)),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files]
+          (root/'artifact-inventory.json').write_text(json.dumps(records,indent=2)+'\n')
+          print(json.dumps(dict(actual_files=len(files),nonempty_output_verified=True)))
+          PY_INVENTORY
+      - name: Preserve the actual native outcome and every failed prefix
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-projector-prepared-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: error
+
+  ranges:
+    needs: prepare
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 200
+    strategy:
+      fail-fast: false
+      max-parallel: 16
+      matrix:
+        slice: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the immutable original scientific closure
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-cut-projector-CI-pinned-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Hydrate and verify every original dependency without full repository data
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$FULL_MANIFEST" --manifest-sha "$FULL_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/regular_cut_validator_ci/
+      - name: Install the pinned directed arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Set container-visible exact artifact paths
+        id: paths
+        run: |
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-complete-projector-range" >> "$GITHUB_OUTPUT"
+          printf 'slice=%s\n' "$RUNNER_TEMP/visible-exact-original-frame-slice" >> "$GITHUB_OUTPUT"
+      - name: Receive only this unchanged original frame slice
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: ${{ github.run_id }}
+          name: visible-exact-cut-frame-slice-${{ matrix.slice }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.slice }}
+      - name: Verify every assigned new cell with ten minute real pull and README checkpoints
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_regular_cut_complete_CI.py
+          --manifest "$FULL_MANIFEST" --manifest-sha "$FULL_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --phase range --slice-id ${{ matrix.slice }}
+          --frame-slice "$RUNNER_TEMP/visible-exact-original-frame-slice"
+          --work "$RUNNER_TEMP/visible-exact-complete-projector-range-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-complete-projector-range"
+          --compute-minutes 170 --checkpoint-minutes 10
+      - name: Require a real nonempty process before uploading its result
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.paths.outputs.output }}
+        run: |
+          python - <<'PY_INVENTORY'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          files=sorted(p for p in root.rglob('*') if p.is_file()) if root.exists() else []
+          if not files or not any(p.stat().st_size for p in files):
+              raise RuntimeError('no actual nonempty process output exists')
+          records=[dict(path=str(p.relative_to(root)),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files]
+          (root/'artifact-inventory.json').write_text(json.dumps(records,indent=2)+'\n')
+          print(json.dumps(dict(actual_files=len(files),nonempty_output_verified=True)))
+          PY_INVENTORY
+      - name: Preserve the actual native outcome and every failed prefix
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cut-projector-cells-${{ matrix.slice }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: error
+
+  complete-all-5970:
+    needs: [prepare, ranges]
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the immutable original scientific closure
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-cut-projector-CI-pinned-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Hydrate and verify every original dependency without full repository data
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$FULL_MANIFEST" --manifest-sha "$FULL_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/regular_cut_validator_ci/
+      - name: Install the pinned directed arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Set container-visible exact artifact paths
+        id: paths
+        run: |
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-complete-projector-consumer" >> "$GITHUB_OUTPUT"
+          printf 'prepared=%s\n' "$RUNNER_TEMP/visible-exact-complete-projector-prepared-input" >> "$GITHUB_OUTPUT"
+          printf 'ranges=%s\n' "$RUNNER_TEMP/visible-exact-complete-projector-ranges-input" >> "$GITHUB_OUTPUT"
+      - name: Receive the original successful four cells and true weighted boundaries
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: ${{ github.run_id }}
+          name: visible-exact-cut-projector-prepared-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.prepared }}
+      - name: Receive every actual disjoint matrix result with original process records
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: ${{ github.run_id }}
+          pattern: visible-exact-cut-projector-cells-*-${{ github.run_id }}-${{ github.run_attempt }}
+          merge-multiple: false
+          path: ${{ steps.paths.outputs.ranges }}
+      - name: Consume the complete exact cover and every interface including the waist
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_regular_cut_complete_CI.py
+          --manifest "$FULL_MANIFEST" --manifest-sha "$FULL_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --phase finish
+          --prepared-artifact "$RUNNER_TEMP/visible-exact-complete-projector-prepared-input"
+          --completed-artifacts "$RUNNER_TEMP/visible-exact-complete-projector-ranges-input"
+          --work "$RUNNER_TEMP/visible-exact-complete-projector-consumer-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-complete-projector-consumer"
+          --compute-minutes 30 --checkpoint-minutes 10
+      - name: Require a real nonempty process before uploading its result
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.paths.outputs.output }}
+        run: |
+          python - <<'PY_INVENTORY'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          files=sorted(p for p in root.rglob('*') if p.is_file()) if root.exists() else []
+          if not files or not any(p.stat().st_size for p in files):
+              raise RuntimeError('no actual nonempty process output exists')
+          records=[dict(path=str(p.relative_to(root)),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files]
+          (root/'artifact-inventory.json').write_text(json.dumps(records,indent=2)+'\n')
+          print(json.dumps(dict(actual_files=len(files),nonempty_output_verified=True)))
+          PY_INVENTORY
+      - name: Preserve the actual native outcome and every failed prefix
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-5970-projectors-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: error

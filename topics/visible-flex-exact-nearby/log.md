@@ -361,3 +361,5 @@
 - 2026-11-14T19:58:49+08:00｜visible-exact-astra-0df9：已证明同一实际root graph在完整density空间的齐次差二阶<2^1024b²及4/3阶<2^700b^(4/3)，正逆均保真实principal、两mean、height恢复。准确图方程的跨支primitive取R=κ(1−c²g′²)/c，不除可变号/为零的图高；多余b由原b²n≤2^-512支付。ordinary/weak源与Γ*合同保，非mean自由Airy→strict两行转换和完整网络继续。 本条独立提交推送；继续原未完成项。
 
 - 2026-11-14T20:16:38+08:00｜visible-exact-astra-0df9：已逐原过程及native核43591378059真实五个子进程return0：7个193状态约定门、四真实闭格0/76/3300/5969全部通过，完整Gram最小奇异值>.9995；signed μν、cross、normal残差、ρ′ρ、128primitive和末端投影跳逐项保留。四份成功原native后续唯一复用；全5970、weighted边界/Green/源/high反馈继续。 本条独立提交推送；继续原未完成项。
+
+- 2026-11-14T20:18:05+08:00｜visible-exact-astra-0df9：发布全部5970连续projector互斥DAG：严格复用实际四成功格，仅新增5966；原916MB完整frame只prepare下载一次，16范围均保完整193状态/mean/ρ/末端跳；先实际运行新weighted真两端，再消费唯一全覆盖。固定88项manifest394379df…，原86输入不动；immutable科学副本、每10分钟真实pull/README核及断点推、非FF循环和失败原件保留。完整源/全high/真响应仍继续。 本条独立提交推送；继续原未完成项。
