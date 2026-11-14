@@ -551,3 +551,7 @@ receipt-only43603364028 success/children=[]，真实receipt331dfd81c7cf148c0c58a
 ### 2026-11-14 14:56:58 UTC — fullδ96 root collar actual nineteen gates
 
 核原19-input公开43606747196，child0/.21423239s，native9a4d48bc4a9bded3a76f7bf4ff21dbda1c38c0ff93c072b98433a9c8fc8413a6。实际门数19，EH131.016384185663、完整headloop544177953/5e14，四完整source/port矩阵及角阶0..4全通过。已逐项读process，不把workflow成功替代数学门。只消费原germ/rootbudget，实际δbody/outer同参考转移继续。
+
+### 2026-11-14 15:00:59 UTC — true known-cut direction source refinement deployed
+
+五件独立cut-direction文件推送。源765ca6f13f2358a017062bd863c26986f59a4e37e50bee3c3f2c4c7213d7ef96，134-input manifest df834adcf45098e18c8096676466a53c9e44a823e1e098b1f2a451539688cc88。tail已对原packed-v5核完整普通/divergence/mean/端/Hessian，root另读全部新合同/源/CI与workflow。只16新一列格，完整1977混合cover与原数组保；复跑复用真实prefix。成功与否由实际公开Actions决定，不预授边界算子或响应改进。
