@@ -204,7 +204,7 @@ $$
 $$
 \boxed{B_i(z;h)=
 \lambda\Gamma_i(z;h)
-\eta\lambda^2\Gamma_{1-i}(z;h(X,\kappa U)).}
++\eta\lambda^2\Gamma_{1-i}(z;h(X,\kappa U)).}
 \tag{15}
 $$
 
@@ -256,7 +256,7 @@ $I-\lambda^2\mathcal S^2$ 的完整整逆：
 $$
 \boxed{\mathcal R h=
 \frac{h_0}{1-\lambda^2}
-\sum_{m\ge0}\lambda^{2m}
++\sum_{m\ge0}\lambda^{2m}
               \bigl(\mathcal S^{2m}h-h_0\bigr).}
 \tag{19}
 $$

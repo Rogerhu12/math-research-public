@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R449：相对第二余核与完整carry精确序列](results/R449-relative-second-cokernel-and-complete-carry-exact-sequences.md)：同一J/M的真第二核、可见修正及d2经两条13行的真实像精确比较；G2=C2(J)/Hbar，原第三核由相对d2投影读取。相对Smith≤p时即使首像缺口与carry核并存仍全吸收，原p²因子数和来源均准确区分。
+
 - [R447：两条原参考交域与固定十八次测试](results/R447-original-two-reference-intersection-and-fixed-degree18-tests.md)：K1四维principal格与原S/H3/H5格的交域准确二维；固定degree18整测试分别抽回H3−840bS、H5−672bS，原K0两行均为−1008bJS。矩阵det1、周期和真实rank0质量全保，未知参考导数未删。
 
 - [R448：保独立伴随的真实反射与joint principal carry](results/R448-original-retained-companion-reflection-and-joint-principal-carry.md)：完整物理三张量格付KAΦ=RYΦ且U固定，任意h(X,U)行与原输入反射均准确；联合carry整逆无精度损失。原非零域是同一第二输出条件下W/V两管，完整Γ(h_n)及第三补域仍须原算术控制。
