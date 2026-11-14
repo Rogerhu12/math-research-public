@@ -1,0 +1,43 @@
+{
+  "run_id": "43644262244",
+  "run_attempt": "1",
+  "source_commit": "05d80c9b4e12d47275e724fe4e992e9cb0d199b6",
+  "native_step_outcome": "success",
+  "pipeline_status": "completed",
+  "outcome": "complete-eighth-admissible-second-obstruction-no-compatible-current-source",
+  "complete": true,
+  "completed_original_target_labels": [],
+  "obstructed_target_labels": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "individual_target_compatible": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "full_original_all_nine_mod887503681_identity": false,
+  "original_target": "31^2*h0*T modulo887503681; every compatible original target",
+  "negative_scope": "F9 corrections preserving the actual source modulo31 and the original p2-integer lattice; other lower initial choices and unrestricted rational sources remain unpaid",
+  "actual_final_source_costs_by_slot": null,
+  "mathematical_elapsed_seconds": 68.417425751,
+  "integer_admissible_related_second_image_complete": true,
+  "old_nine_raw_products_recomputed": false,
+  "complete_lower_initial_freedom_computed": false,
+  "characteristic_zero_identity_asserted": false,
+  "partialCheckpointIsNotIdentity": true,
+  "rootOwnsSharedResearchIndices": true
+}

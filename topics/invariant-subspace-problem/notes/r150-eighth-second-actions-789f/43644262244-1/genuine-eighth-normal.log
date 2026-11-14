@@ -1,0 +1,10 @@
+{"phase":"forward-prebasis","mDegree":2,"pivots":11,"operations":11,"elapsedSeconds":0.00177563}
+{"phase":"same-degree-rref","mDegree":2,"operations":47,"elapsedSeconds":0.00180483}
+{"phase":"forward-prebasis","mDegree":3,"pivots":121,"operations":952,"elapsedSeconds":0.00282175}
+{"phase":"same-degree-rref","mDegree":3,"operations":2855,"elapsedSeconds":0.0038064}
+{"phase":"forward-prebasis","mDegree":4,"pivots":671,"operations":39010,"elapsedSeconds":0.037294}
+{"phase":"same-degree-rref","mDegree":4,"operations":79679,"elapsedSeconds":0.093914}
+{"phase":"forward-prebasis","mDegree":5,"pivots":2530,"operations":782976,"elapsedSeconds":1.93637}
+{"phase":"same-degree-rref","mDegree":5,"operations":1010703,"elapsedSeconds":4.08072}
+{"phase":"normal-form","sourceRow":0,"target":9101,"mDegree":5,"parameterDegree":88,"nonzeroComponents":1034,"nonzeroCoefficients":57361,"rowReductions":167229,"elapsedSeconds":4.39206}
+{"status":"eighth-second-one-normal-form-complete","sources":0,"targets":1,"components":1034,"forwardOperations":782976,"backwardOperations":1010703,"normalOperations":167229,"originalRHSCost":88,"originalRHSNonzeroCoefficients":224324,"peakRSSKiB":77836,"elapsedSeconds":4.39219}

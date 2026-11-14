@@ -1,0 +1,51 @@
+{"status": "completed", "fullF9FirstImageZeroVerified": true, "ninthCorrectionExactlyZero": true, "allNineRawSupportedAt1And2": true, "rawQuotientColumnRank": 4, "elapsedSeconds": 1.0147030489999906}
+{"phase":"old-quotient-mixture-image","label":9101,"additionalReductions":0,"remainderNonzero":0,"elapsedSeconds":0.150518}
+{"status":"saved-quotient-mixture-complete","fullImageQuotientIdentity":true,"completeRHSInImage":true,"targets":1,"elapsedSeconds":0.720963}
+{"phase":"packed-nine-source-VQ-checkpoint","completedImageRows":100,"sourceMonomialProducts":9103158,"elapsedSeconds":4.74786}
+{"phase":"packed-nine-source-VQ-checkpoint","completedImageRows":200,"sourceMonomialProducts":18235395,"elapsedSeconds":9.4446}
+{"phase":"packed-nine-source-VQ-checkpoint","completedImageRows":300,"sourceMonomialProducts":27438755,"elapsedSeconds":14.1485}
+{"phase":"packed-nine-source-VQ-checkpoint","completedImageRows":400,"sourceMonomialProducts":36694650,"elapsedSeconds":18.8823}
+{"phase":"packed-nine-source-VQ-checkpoint","completedImageRows":500,"sourceMonomialProducts":45904641,"elapsedSeconds":23.5777}
+{"phase":"packed-nine-source-VQ-checkpoint","completedImageRows":600,"sourceMonomialProducts":55141917,"elapsedSeconds":28.3007}
+{"phase":"packed-nine-source-VQ-checkpoint","completedImageRows":700,"sourceMonomialProducts":64389866,"elapsedSeconds":33.0782}
+{"phase":"packed-nine-source-VQ-checkpoint","completedImageRows":800,"sourceMonomialProducts":73666165,"elapsedSeconds":37.8447}
+{"phase":"packed-nine-source-VQ-checkpoint","completedImageRows":900,"sourceMonomialProducts":83084140,"elapsedSeconds":42.6288}
+{"phase":"packed-nine-source-VQ-checkpoint","completedImageRows":1000,"sourceMonomialProducts":92081537,"elapsedSeconds":47.1724}
+{"phase":"packed-nine-source-VQ-checkpoint","completedImageRows":1021,"sourceMonomialProducts":93312851,"elapsedSeconds":47.7832}
+{"phase":"canonical-original-source","target":2,"kernelReductions":121860,"elapsedSeconds":48.8902}
+{"phase":"full-original-R-source-identity","sources":500,"elapsedSeconds":49.1581}
+{"phase":"full-original-R-source-identity","sources":1000,"elapsedSeconds":49.4149}
+{"phase":"full-original-R-source-identity","sources":1500,"elapsedSeconds":51.0115}
+{"phase":"full-original-R-source-identity","sources":2000,"elapsedSeconds":52.8981}
+{"phase":"full-original-R-source-identity","sources":2195,"elapsedSeconds":53.6269}
+{"status":"packed-image-source-convolution-complete","fullNormalFormDecompositionIdentity":true,"standardKernelNormalForm":true,"completeRHSInImage":true,"originalSeventeenEquationTransported":false,"targetStandardSourceCosts":[88],"sourceMonomialProducts":93312851,"kernelReductions":121860,"peakRSSKiB":109856,"elapsedSeconds":53.628}
+{"phase":"actual-original-prebasis-minus-HC","sourceRows":500,"elapsedSeconds":0.160052}
+{"phase":"actual-original-prebasis-minus-HC","sourceRows":1000,"elapsedSeconds":0.509106}
+{"phase":"actual-original-prebasis-minus-HC","sourceRows":1500,"elapsedSeconds":2.1803}
+{"phase":"actual-original-prebasis-minus-HC","sourceRows":2000,"elapsedSeconds":4.165}
+{"phase":"actual-original-prebasis-minus-HC","sourceRows":2204,"elapsedSeconds":4.93317}
+{"status":"original-source-transport-complete","targetCount":1,"sourceCosts":[88],"elapsedSeconds":5.71322}
+{"phase":"full-original-combination-mod887503681","originalRows":1000,"maximumCoefficientDegree":77,"elapsedSeconds":0.0919675}
+{"phase":"full-original-combination-mod887503681","originalRows":2000,"maximumCoefficientDegree":77,"elapsedSeconds":0.165055}
+{"phase":"full-original-combination-mod887503681","originalRows":3000,"maximumCoefficientDegree":77,"elapsedSeconds":0.232964}
+{"phase":"full-original-combination-mod887503681","originalRows":4000,"maximumCoefficientDegree":77,"elapsedSeconds":0.301196}
+{"phase":"full-original-combination-mod887503681","originalRows":5000,"maximumCoefficientDegree":77,"elapsedSeconds":0.368037}
+{"phase":"full-original-combination-mod887503681","originalRows":6000,"maximumCoefficientDegree":77,"elapsedSeconds":0.421846}
+{"phase":"full-original-combination-mod887503681","originalRows":6188,"maximumCoefficientDegree":77,"elapsedSeconds":0.434012}
+{"status":"full-original-eighth-second-product-complete","divisor":28629151,"allOriginalProductCoefficientsDivisible":true,"fullOriginalSeventeenEquationIdentityMod887503681":false,"actualSourceCosts":[88],"elapsedSeconds":0.437225}
+{"phase":"forward-prebasis","mDegree":2,"pivots":11,"operations":11,"elapsedSeconds":0.00177563}
+{"phase":"same-degree-rref","mDegree":2,"operations":47,"elapsedSeconds":0.00180483}
+{"phase":"forward-prebasis","mDegree":3,"pivots":121,"operations":952,"elapsedSeconds":0.00282175}
+{"phase":"same-degree-rref","mDegree":3,"operations":2855,"elapsedSeconds":0.0038064}
+{"phase":"forward-prebasis","mDegree":4,"pivots":671,"operations":39010,"elapsedSeconds":0.037294}
+{"phase":"same-degree-rref","mDegree":4,"operations":79679,"elapsedSeconds":0.093914}
+{"phase":"forward-prebasis","mDegree":5,"pivots":2530,"operations":782976,"elapsedSeconds":1.93637}
+{"phase":"same-degree-rref","mDegree":5,"operations":1010703,"elapsedSeconds":4.08072}
+{"phase":"normal-form","sourceRow":0,"target":9101,"mDegree":5,"parameterDegree":88,"nonzeroComponents":1034,"nonzeroCoefficients":57361,"rowReductions":167229,"elapsedSeconds":4.39206}
+{"status":"eighth-second-one-normal-form-complete","sources":0,"targets":1,"components":1034,"forwardOperations":782976,"backwardOperations":1010703,"normalOperations":167229,"originalRHSCost":88,"originalRHSNonzeroCoefficients":224324,"peakRSSKiB":77836,"elapsedSeconds":4.39219}
+{"phase":"old-quotient-mixture-image","label":9101,"additionalReductions":86288,"remainderNonzero":66,"elapsedSeconds":0.0745997}
+{"status":"saved-quotient-mixture-complete","fullImageQuotientIdentity":true,"completeRHSInImage":false,"targets":1,"elapsedSeconds":0.644659}
+{"phase": "complete-eighth-admissible-second-krylov", "maximumPower": 0, "rank": 0, "columns": 1, "elapsedSeconds": 0.8016514109999946}
+{"phase": "complete-eighth-admissible-second-krylov", "maximumPower": 1, "rank": 0, "columns": 2, "elapsedSeconds": 0.8040051410000046}
+{"status": "completed", "integerAdmissibleRelatedSecondImageComplete": true, "relatedSecondImageRank": 0, "individualTargetCompatible": [false, false, false, false, false, false, false, false, false], "allCompatibleWhole315IdentitiesVerified": true, "maximumSolutionDegree": -1, "elapsedSeconds": 1.0307687659999942}
+{"status": "completed", "outcome": "complete-eighth-admissible-second-obstruction-no-compatible-current-source", "mathematicalElapsedSeconds": 68.417425751, "completedOriginalTargetLabels": [], "integerAdmissibleRelatedSecondImageComplete": true, "fullOriginalAllNineMod887503681IdentityVerified": false, "obstructedTargetLabels": [2, 3, 4, 5, 6, 7, 8, 9, 10], "recoveryBytes": 16174596}

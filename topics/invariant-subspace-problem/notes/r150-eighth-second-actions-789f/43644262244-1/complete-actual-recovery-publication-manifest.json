@@ -1,0 +1,380 @@
+{
+  "format": "r150-eighth-second-complete-actual-recovery-publication-v1",
+  "allActualRecoveryFilesPreserved": true,
+  "allStageCachesIncluded": true,
+  "originalFiles": 37,
+  "originalBytes": 16174596,
+  "fallbackFiles": 0,
+  "files": [
+    {
+      "originalFile": "complete-eighth-second/complete-eighth-second-image-receipt.json",
+      "originalBytes": 16994,
+      "originalSHA256": "0b06ac8b848d34a6007cee59b1fe6823ffe2de8bdbf8804b8fe0a9ff9fa619e9",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "complete-eighth-second__complete-eighth-second-image-receipt.json"
+      ]
+    },
+    {
+      "originalFile": "complete-eighth-second/complete-eighth-second-image.bin.gz",
+      "originalBytes": 32003,
+      "originalSHA256": "b3fe46c2f83076433a7081cc2aea48373ba797d0cebbee86d38ade7bce5b60a0",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/complete-eighth-second__complete-eighth-second-image.bin.gz.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-h5-original/genuine-eighth-h5-original-fifth-divided-original-rhs.bin",
+      "originalBytes": 275833,
+      "originalSHA256": "76456d1e4e91214c2b83295af7d96392463fd3da16f1fb58fcc403987a5571c3",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-h5-original__genuine-eighth-h5-original-fifth-divided-original-rhs.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-h5-original/genuine-eighth-h5-original-original-product.json",
+      "originalBytes": 900,
+      "originalSHA256": "d9b207806f0bcfffc2ca5aeca2ae53f64bfb677da9c468eb8fadc59688cba4c0",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "genuine-eighth-h5-original__genuine-eighth-h5-original-original-product.json"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-h5-original/genuine-eighth-h5-original-original-seventeen-source-mod887503681.bin",
+      "originalBytes": 1190614,
+      "originalSHA256": "c98dce40859383081c3091dceebf7e7eb740b26d1c9e58b49f08b3fb13c6286c",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-h5-original__genuine-eighth-h5-original-original-seventeen-source-mod887503681.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-h5-original/genuine-eighth-h5-original-primitive-source-mod887503681.bin",
+      "originalBytes": 1190614,
+      "originalSHA256": "ac9d7a043282d26fd10703d9895398139deb229534f132bfff939f48fca33e3b",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-h5-original__genuine-eighth-h5-original-primitive-source-mod887503681.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-image/genuine-eighth-image-image-certificate.json",
+      "originalBytes": 548,
+      "originalSHA256": "343656066d424d87894c93be77362dfb79b08bbc3c0f6ac73e4470c7b6d7fe14",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "genuine-eighth-image__genuine-eighth-image-image-certificate.json"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-image/genuine-eighth-image-image-quotients.bin",
+      "originalBytes": 95255,
+      "originalSHA256": "1ff0d608403d94510869fe96ce14f14123bc650db69fed1c4e4602b34f25cf93",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-image__genuine-eighth-image-image-quotients.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-image/genuine-eighth-image-image-remainders.bin",
+      "originalBytes": 294,
+      "originalSHA256": "c6edd3bee0e142dfa3e09b4bc0a6fc216dd142787c37b95ebdb8d0f49ba103bf",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-image__genuine-eighth-image-image-remainders.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-image/genuine-eighth-image-normal-forms.bin",
+      "originalBytes": 62387,
+      "originalSHA256": "8fe389614ffa3136376d241d3669202dafb4f1a82603a0d47eb4af5775168ac0",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-image__genuine-eighth-image-normal-forms.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-normal/genuine-eighth-normal-backward.bin",
+      "originalBytes": 3052119,
+      "originalSHA256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-normal__genuine-eighth-normal-backward.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-normal/genuine-eighth-normal-forward.bin",
+      "originalBytes": 2378937,
+      "originalSHA256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-normal__genuine-eighth-normal-forward.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-normal/genuine-eighth-normal-normal-forms.bin",
+      "originalBytes": 62387,
+      "originalSHA256": "8fe389614ffa3136376d241d3669202dafb4f1a82603a0d47eb4af5775168ac0",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-normal__genuine-eighth-normal-normal-forms.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-normal/genuine-eighth-normal-reduction.bin",
+      "originalBytes": 668938,
+      "originalSHA256": "905ff3a558314ce94fa08df4b0bfc03e691bbbcc2bcf5e98aaa430fb2c71e280",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-normal__genuine-eighth-normal-reduction.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-q-image/genuine-eighth-q-image-image-certificate.json",
+      "originalBytes": 549,
+      "originalSHA256": "afd843101fa7fb4e525f8b15fd2841eab2fe970342cd8cc01f25147a2d2e21b3",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "genuine-eighth-q-image__genuine-eighth-q-image-image-certificate.json"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-q-image/genuine-eighth-q-image-image-quotients.bin",
+      "originalBytes": 95259,
+      "originalSHA256": "8a65bed05245f59e74258e8fae7f6b2e7ae8a03d20a9a25364a96d0b74475ec1",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-q-image__genuine-eighth-q-image-image-quotients.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-q-image/genuine-eighth-q-image-image-remainders.bin",
+      "originalBytes": 30,
+      "originalSHA256": "dde2d17144885ef3ed7805a58551d97ac5673e45cfb93d3313138c1fb0f4bbed",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-q-image__genuine-eighth-q-image-image-remainders.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-q-image/genuine-eighth-q-image-normal-forms.bin",
+      "originalBytes": 62371,
+      "originalSHA256": "751a574622259f864ccad1f5c8af130ccebe139356ee7291ee7a7195555a8026",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-q-image__genuine-eighth-q-image-normal-forms.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-q-original/genuine-eighth-q-original-original-transport.json",
+      "originalBytes": 568,
+      "originalSHA256": "a6178bd98de08b6a496eaf9520d73c8b6fdfdad6207f30e38060e63a84aa57a3",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "genuine-eighth-q-original__genuine-eighth-q-original-original-transport.json"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-q-original/genuine-eighth-q-original-primitive-source-mod31.bin",
+      "originalBytes": 565090,
+      "originalSHA256": "a4686b23cfada746aeb12b98163d2ef3a9ca91e790a5863afa3d2db9e26cb389",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-q-original__genuine-eighth-q-original-primitive-source-mod31.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-q-source/genuine-eighth-q-source-source-certificate.json",
+      "originalBytes": 1054,
+      "originalSHA256": "d0c793a927328ca2167af4302923f77fa62539bfa83736bc3b63bd4eac3724e2",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "genuine-eighth-q-source__genuine-eighth-q-source-source-certificate.json"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-q-source/genuine-eighth-q-source-standard-coefficients.bin",
+      "originalBytes": 83865,
+      "originalSHA256": "5ec504e25bb788f36b6f8854156bcd3a59ba56f3c35757f1cebadf4e06a64b9a",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-q-source__genuine-eighth-q-source-standard-coefficients.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-q-source/genuine-eighth-q-source-vq-checkpoint.bin",
+      "originalBytes": 6291536,
+      "originalSHA256": "283efe3c836aefc000156a17e07ae7c58ad97529686e92189fe97515ad956060",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/genuine-eighth-q-source__genuine-eighth-q-source-vq-checkpoint.bin.gz"
+      ]
+    },
+    {
+      "originalFile": "genuine-eighth-q-source/genuine-eighth-q-source-vq-checkpoint.json",
+      "originalBytes": 333,
+      "originalSHA256": "8b8293870162c8fbfcc0b4313508146d85698321748cb016452da46d82d79489",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "genuine-eighth-q-source__genuine-eighth-q-source-vq-checkpoint.json"
+      ]
+    },
+    {
+      "originalFile": "inputs/genuine-eighth-h5-original.recipe",
+      "originalBytes": 1117,
+      "originalSHA256": "78b0d8a4718149eafd82461a2f2cf3c5f23021bb51d5f605260fc19f04e6da5d",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "inputs__genuine-eighth-h5-original.recipe"
+      ]
+    },
+    {
+      "originalFile": "inputs/genuine-eighth-image.mix",
+      "originalBytes": 288,
+      "originalSHA256": "ec936c0c9497748c4f99b44dd9de030176bf37257dff1310bcdf94ae71d024e7",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "inputs__genuine-eighth-image.mix"
+      ]
+    },
+    {
+      "originalFile": "inputs/genuine-eighth-q.mix",
+      "originalBytes": 2343,
+      "originalSHA256": "42023203597cf747502dc5789b2419ab4ac1e6f0dd8e89854914477867a40438",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "inputs__genuine-eighth-q.mix"
+      ]
+    },
+    {
+      "originalFile": "prepared-eighth/prepared-eighth-second-receipt.json",
+      "originalBytes": 3872,
+      "originalSHA256": "faf051ea66d4eea0460d3c26c45b6f50d41c9ef12d99c4bff94d1a42bcd9cc12",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "prepared-eighth__prepared-eighth-second-receipt.json"
+      ]
+    },
+    {
+      "originalFile": "prepared-eighth/prepared-eighth-second.bin.gz",
+      "originalBytes": 31665,
+      "originalSHA256": "b5eeddbbd31e68b738da99fc303698edf9ea504a52124a333e00add9f78afa78",
+      "allBytesPreserved": true,
+      "storage": "runner-lossless-gzip-parts",
+      "resultFiles": [
+        "certificates/prepared-eighth__prepared-eighth-second.bin.gz.gz"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/complete-eighth-second.json",
+      "originalBytes": 820,
+      "originalSHA256": "9b35323bb3b09500dafb831ab64e4d0a7ed449dd4319725e5264e029bff7e14d",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__complete-eighth-second.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/genuine-eighth-h5-original.json",
+      "originalBytes": 1067,
+      "originalSHA256": "1c655f61a98320904ee3daf5237fc4b039ba6748d3e921e02f8c9470a3349f41",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__genuine-eighth-h5-original.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/genuine-eighth-image.json",
+      "originalBytes": 862,
+      "originalSHA256": "3597f06aa69bb0e4f9db2e66601a74c45dbb2221001c49f83a15466d30cde3e0",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__genuine-eighth-image.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/genuine-eighth-normal.json",
+      "originalBytes": 1019,
+      "originalSHA256": "dd5c21fd7bc08de4bd509f1976fe61f2e4436c49d094864c6af3f609d2736d7a",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__genuine-eighth-normal.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/genuine-eighth-q-image.json",
+      "originalBytes": 877,
+      "originalSHA256": "47f68161cd5ab2890b1e062ab29c218de855af3559fbac47e2811f5fdcdc0c4b",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__genuine-eighth-q-image.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/genuine-eighth-q-original.json",
+      "originalBytes": 589,
+      "originalSHA256": "f9ec42188c8ef34282695a1215d9a7e1c48c5c58b87cc7d1efcdce4681917a55",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__genuine-eighth-q-original.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/genuine-eighth-q-source.json",
+      "originalBytes": 986,
+      "originalSHA256": "be4acf10d30686535ffcab5273b61a5f09631ddfc9f117a82c6c65f7f5113e76",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__genuine-eighth-q-source.json"
+      ]
+    },
+    {
+      "originalFile": "stage-cache/saved-eighth-primary.json",
+      "originalBytes": 613,
+      "originalSHA256": "0111b9b420985ceb3b80cddf18870e40a1dc94887449d1d65956d7dce8790e3c",
+      "allBytesPreserved": true,
+      "storage": "runner-exact-text",
+      "resultFiles": [
+        "stage-cache__saved-eighth-primary.json"
+      ]
+    }
+  ]
+}
