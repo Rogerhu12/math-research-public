@@ -327,3 +327,7 @@ R69把纯leading Ceff化成28个profile无关充分矩目标，Γ闭式和真实
 R70已准确支付任意端点M0桥存在和全部第四period的P3/P2消去，外N仅余P0+N P1。K固定、物理I共选、alpha位移由R45真实闭合；长圈仍无厚度。下一不再重复证明leading可达，推进内部桥第三holonomy、P1/P0和ruling，完整有限族仍欠。
 
 recovery_development已部署：Gamma Node IO、height helper和bounded参考全部先公开人工验证。收到完整回执后再决定实际新场/一步高度driver；任何partial/失败均保原输出，不能用静态审代passed或冒真实候选改进。
+
+### O4 的 R71 更新：真实第三控制已可精确实施
+
+[R71](results/R71-third-holonomy-commutators-and-complete-fourth-P1.md) 给内部M0桥的第三T进入全部phase第四P1的准确式，并用同端I的对称词与真实倒行准确实现2t[P(f,Qgh)−Q(f,Pgh)]；八矩基至多28个方向。r0/r1的对角为−2t/3∫q''³，对任何非零右零collar q不恒零。下一求固定局部drift、基准桥T与这些真实可达响应的**整个函数**匹配；不以有限采样rank代替函数满射，不忽略控制改变P0。ruling、有限等距族、高阶收敛及完整宏观几何仍未付。
