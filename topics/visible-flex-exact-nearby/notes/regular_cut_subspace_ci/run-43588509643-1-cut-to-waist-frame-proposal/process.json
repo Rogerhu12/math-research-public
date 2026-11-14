@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete_cut_to_waist_frame_proposal_process",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43588509643",
   "run_attempt": "1",
@@ -78,6 +78,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:19:41.050812+00:00",
+      "before": "0c1f6ad558cf92f2fa99bb417c0e13c8bbbfd24a",
+      "after": "3bb9ec9990b21c0734aa643e665c41cef149a6f6",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -85,6 +93,11 @@
       "time": "2026-11-14T11:18:15.313526+00:00",
       "final": false,
       "commit": "6a713a491d5fbfbe9ef57acdccfbbcb524eb48d4"
+    },
+    {
+      "time": "2026-11-14T11:19:39.994903+00:00",
+      "final": false,
+      "commit": "3bb9ec9990b21c0734aa643e665c41cef149a6f6"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -118,16 +131,33 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "0c1f6ad558cf92f2fa99bb417c0e13c8bbbfd24a",
+  "last_read_commit": "3bb9ec9990b21c0734aa643e665c41cef149a6f6",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cut-head-work/science",
-  "snapshot_utc": "2026-11-14T11:19:36.540963+00:00",
-  "wall_seconds": 685.1899921309999,
+  "snapshot_utc": "2026-11-14T11:19:41.075983+00:00",
+  "wall_seconds": 689.7250120049999,
   "native_files": [
+    {
+      "logical_file": "evidence/complete-cut-proposal-summary.json",
+      "file": "evidence/complete-cut-proposal-summary.json",
+      "bytes": 8818,
+      "sha256": "4676011529e295cae8dc49b8a1f6599e6711d5364bc77d2951fb73b796b21abd"
+    },
+    {
+      "logical_file": "evidence/complete-frame-artifact-map.json",
+      "file": "evidence/complete-frame-artifact-map.json",
+      "bytes": 92267,
+      "sha256": "1a589acf2443ffe9416841240d75e7dd6692d7db146dede808a9a53e03164041"
+    },
     {
       "logical_file": "native/complete-cut-proposal.json.gz",
       "file": "native/complete-cut-proposal.json.gz",
       "bytes": 1192679,
       "sha256": "6dbc3acfcfbdd051c83344561f13102d30f20699db1e0046357d0ede1ec79639"
     }
-  ]
+  ],
+  "complete_proposal_cell_count": 5970,
+  "complete_native_sha256": "6dbc3acfcfbdd051c83344561f13102d30f20699db1e0046357d0ede1ec79639",
+  "continuous_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "finished_utc": "2026-11-14T11:19:40.732789+00:00"
 }
