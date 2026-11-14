@@ -1,0 +1,86 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-14T21:53:15.438881+00:00",
+  "source_commit": "5700403bb501dbc6aaf60e5d510711fa4d42b1ac",
+  "run_id": "43645082618",
+  "run_attempt": "1",
+  "lane": "receipts",
+  "files": [
+    {
+      "source": "actual62-readback-request-identity.json",
+      "bytes": 2382,
+      "sha256": "106ab832d512f874440c82446cbd38c419e97b652622e7696df085ce5071ff88",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43645082618-1-receipts/actual62-readback-request-identity.json",
+      "published_bytes": 2382,
+      "published_sha256": "106ab832d512f874440c82446cbd38c419e97b652622e7696df085ce5071ff88"
+    },
+    {
+      "source": "actual62-readback.log",
+      "bytes": 1158,
+      "sha256": "c30d3dfbd5cfb5d03f258b617e07c2c08d4f38ab6c1d9609d36b5fe7d8075107",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43645082618-1-receipts/actual62-readback.log",
+      "published_bytes": 1158,
+      "published_sha256": "c30d3dfbd5cfb5d03f258b617e07c2c08d4f38ab6c1d9609d36b5fe7d8075107"
+    },
+    {
+      "source": "request62-readback/actual62-original-FD.json",
+      "bytes": 11914,
+      "sha256": "b341870f1a782e015bdebfb2b6ea51241e3a87017e2a10b2fb54893374d644a6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43645082618-1-receipts/request62-readback/actual62-original-FD.json",
+      "published_bytes": 11914,
+      "published_sha256": "b341870f1a782e015bdebfb2b6ea51241e3a87017e2a10b2fb54893374d644a6"
+    },
+    {
+      "source": "request62-readback/actual62-original-QP-scalars.json",
+      "bytes": 16929,
+      "sha256": "1f4d338277e41af00537c312293c50d29e6e3b09b74059748df89d977cbd5c9d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43645082618-1-receipts/request62-readback/actual62-original-QP-scalars.json",
+      "published_bytes": 16929,
+      "published_sha256": "1f4d338277e41af00537c312293c50d29e6e3b09b74059748df89d977cbd5c9d"
+    },
+    {
+      "source": "request62-readback/actual62-original-status-provisional.json",
+      "bytes": 1242,
+      "sha256": "ba4bd2cecebb32640306fd3e74b21b5e746f35aa674a1a38c71b0337b3a0e9c5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43645082618-1-receipts/request62-readback/actual62-original-status-provisional.json",
+      "published_bytes": 1242,
+      "published_sha256": "ba4bd2cecebb32640306fd3e74b21b5e746f35aa674a1a38c71b0337b3a0e9c5"
+    },
+    {
+      "source": "request62-readback/actual62-original-trials.json",
+      "bytes": 142157,
+      "sha256": "3e8b3a54d59820c7c5a555f120aae1af9d6b4b2a5f165ddfb4547b6bee0cc6f4",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43645082618-1-receipts/request62-readback/actual62-original-trials.json",
+      "published_bytes": 142157,
+      "published_sha256": "3e8b3a54d59820c7c5a555f120aae1af9d6b4b2a5f165ddfb4547b6bee0cc6f4"
+    },
+    {
+      "source": "request62-readback/actual62-readback.json",
+      "bytes": 89402,
+      "sha256": "07671a9b0d963e7c7bd92636db530ee73937d831d9b01b00b91b32a738ad0a0d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43645082618-1-receipts/request62-readback/actual62-readback.json",
+      "published_bytes": 89402,
+      "published_sha256": "07671a9b0d963e7c7bd92636db530ee73937d831d9b01b00b91b32a738ad0a0d"
+    },
+    {
+      "source": "request62-readback/large-arrays/complete-original-byte-audit.json",
+      "bytes": 622406,
+      "sha256": "d135860f8076258f0db901af25b47489af04f4d5282c5f14725d70e30c5ccba7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request62-readback/large-arrays/complete-readback-status.json",
+      "bytes": 89402,
+      "sha256": "07671a9b0d963e7c7bd92636db530ee73937d831d9b01b00b91b32a738ad0a0d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "request62-readback/large-arrays/complete-transport-receipt.json",
+      "bytes": 104104,
+      "sha256": "417b25a10b33c233ba58d6f9e26ad1a63499715336be72b1813e82d0b2d5094e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43645082618"
+}

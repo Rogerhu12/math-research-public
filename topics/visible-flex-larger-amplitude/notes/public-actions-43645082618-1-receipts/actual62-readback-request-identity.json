@@ -1,0 +1,54 @@
+{
+  "source_commit": "5700403bb501dbc6aaf60e5d510711fa4d42b1ac",
+  "request": {
+    "schema": "visible-larger-public-read-only-receipt-request-v1",
+    "repository": "Rogerhu12/math-research-public",
+    "request_id": "actual62-existing-artifact-readback-1",
+    "lanes": [
+      "receipts"
+    ],
+    "original_request_number": 62,
+    "purpose": "Read and byte-audit the already completed actual62 artifact; recover all original trials, the nearest rejection, saved parent pair identities and the actual new warm FD. No mathematical rerun.",
+    "source_sha256": {
+      "root_20261114_read_actual62_receipts.py": "03a7868435cba5c2f71bdf04faaf2ae85c11b33b44904b472499b8bad7b1c819",
+      "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+      "root_20261114_publish_actions.py": "dff4c62358d6680134d2d94a0bd2eb6e332011ec67ee1ca0c390aee2cfb65aa4"
+    },
+    "artifact": {
+      "run_id": 43642866864,
+      "artifact_id": 14132473712,
+      "artifact_name": "visible-followup-condensedqp-43642866864-1",
+      "expected_size": 492837872,
+      "expected_sha256": "220ad8c51a147942b663cd9196f009ecc976d1ff270b0348e494e08cf5e90730",
+      "source_commit": "cc813fa7521098fdeba86b8bf8c0fe7d8c96bba0"
+    },
+    "original_science_completed": true,
+    "new_scientific_computation": false,
+    "complete_archive_before_extract": true,
+    "all_original_files_checked_for_path_size_SHA_CRC": true,
+    "small_original_scalar_reports_written_before_byte_audit": true,
+    "full_factor_not_exported_by_original_producer": true,
+    "local_download_completion_not_assumed": true,
+    "task_completed": false
+  },
+  "request_sha256": "660445cca9f903d91f712b4f8267d60327c1c04c4b8b26a556abe6a6ac879d22",
+  "verified_sources": [
+    {
+      "file": "root_20261114_read_actual62_receipts.py",
+      "bytes": 36728,
+      "sha256": "03a7868435cba5c2f71bdf04faaf2ae85c11b33b44904b472499b8bad7b1c819"
+    },
+    {
+      "file": "exact_20261114_fetch_pinned_public_artifact.py",
+      "bytes": 28006,
+      "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859"
+    },
+    {
+      "file": "root_20261114_publish_actions.py",
+      "bytes": 10413,
+      "sha256": "dff4c62358d6680134d2d94a0bd2eb6e332011ec67ee1ca0c390aee2cfb65aa4"
+    }
+  ],
+  "new_scientific_computation": false,
+  "task_completed": false
+}
