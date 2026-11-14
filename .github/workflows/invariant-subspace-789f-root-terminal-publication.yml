@@ -1,0 +1,39 @@
+name: ISP root conclusion real pull rebase and push
+on:
+  push:
+    branches:
+      - 'isp-789f-root-publish-*'
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: isp-root-terminal-publication-789f
+  cancel-in-progress: false
+jobs:
+  root-publication:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 2
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+            .github/workflows
+      - name: Publish prepared conclusion with actual pull and immediate non-fast-forward retries
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-789f.py
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_ROOTPUB_OUT != ''
+        with:
+          name: isp-root-terminal-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_ROOTPUB_OUT }}
