@@ -467,3 +467,7 @@ root全文读新source19054B/CI13235B/flow7040B及I1–11合同7924B；亲读原
 ### 2026-11-14 22:45:09 UTC — 四格同F三角与完整源Gram actual独推
 
 root亲读process12424B SHA954d8038…、summary28522B SHA230b4ba0…和完整actual报告6627B SHA22227144…；核child0/15门、science183.475455358s、新native9a46d9fc…24778B和所有表格外舍入。亲读public artifact metadata：14135471378/9996896B，digest72bd4f1e3b8290eb5ea3017538326443d79a825fe450a2012ebeb3429741fae2，90day至2027-02-12；未读binary。五真pull至b13b2dc7cf689bc90dd61a06fde0f4a75ea5bee9，README实际diff全空。原artifact/repo process唯一追加出版checkpoint差有双份原收据，0旧F/target/validator/Green重算。只读核d019ffd0611dba66c419172b8e74ea7e2ba7402d，继续全覆盖与闭网络。
+
+## 2026-11-14 22:52:37 UTC：5970接口实际增益完成并独推
+
+核公开run43649423561的小process/summary及实际报告，child0、11门、5970完整接口与两12361扫全部成功，原97pins保持；native fbba350708fb89366272641433e9c2899c4ec04027616650b4317969105bcd37，0新exp/Gram/target。全窗/负窗单跳上界121146.604996/56766.695864，仅为上界。4次runner真pull最后b7e434dfa289ea50505421c59a84ad77819499d6、22:44:51，两README差异空；本次小文本API核c7f6d614767c9a2a5380cd486287720d29e27646非真pull。保存前H全文并压缩活动交接。继续全方向5966新格、高根jets及完整Airy源。

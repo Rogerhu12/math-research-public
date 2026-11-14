@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 完整5970真实接口单跳增益实际完成。** [实际报告](results/R133-supplement-actual-all5970-cached-interface-impulse-gains.md)：公开run43649423561 child0/11门，新增6391齐次界、两12361事件扫和5970接口，全复用旧signed核/exp/Gram。原weighted跳→ordinary L²最大上界全窗121146.604996、固定负窗56766.695864；全mean/腰闭合/两源列齐。native fbba3507…/14168739B/8parts保留，同源多跳不可平方相加，仍未授全矩阵或无限逆。
+
 - **四格同F三角补片与完整128源Gram的实际证书**：[报告](results/R133-supplement-actual-four-same-F-triangular-source-Grams.md)。43648579604 child0/15门；原四F字节复用，新全帧真逆、准确patch/完整生成元差、三通道signed193 Gram与实际R输出metric均过。最宽76格patch<3.222134e−9、真生成元差<1.432758e−4，全部新矩阵保公开artifact14135471378（9996896B）及逐数组hash。四格仅局部，后继全5970方向核必须继续付连续/两端/真实跳/帽high负荷。
 
 - **真正long屏蔽的完整Sobolev DN、独立帽端口与返回小差（N1–28）**：[证明](results/R119-supplement-actual-long-screening-complete-Sobolev-DN-and-cap-facing-port.md)。固定实际C_R，保准确Φ_R高低反馈和holonomy mean；双边signed-lag Schur支付H^(1/2)→H^(-1/2)，未知高度awB准确抵消而独立帽源保原单位。新外返回相对径向参考在H^s（|s|≤2）及四comm门<2^160(n0+F+e^(-7L/4))，当前球<2^-8388864。独立Z与meanB/C/Robin/mean高度仍联立，尚非整帽消元、联合相位或closed逆。
