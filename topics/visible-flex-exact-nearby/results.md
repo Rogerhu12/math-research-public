@@ -495,3 +495,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133 补充：first-corrected局部残差的原三阶数据路线
 
 见[外严格片与真解析根片的完整导数定理](results/R133-supplement-third-jet-exterior-and-holomorphic-root-budget-for-first-Airy-residual.md) D.1–D.24。外片利用 $\rho k'''+3k''=K_{rrr}$ 和真实fold微分恒等式，原third jets即足够；一次微分准确transport给 $w_{1,rr}$，不取未有K4/5。根内除已付leading branch准确消reaction，odd最大模给无奇异幅度界，再于真正复germ付Cauchy。两种估计是同一w1，保1079原seams，不造人工跳。数值域费、完整L0w1 norm及全return未执行。
+
+### R133：完整有限193维普通 L² 源核合同与97pin消费者（2026-11-14 19:37:05 UTC）
+
+见 [K1–16 合同](notes/2026-11-14-R133-finite193-ordinary-L2-Green-kernel-contract.md)。从原43601964129完整成功6391 signed ports及5970真实接口推导普通径向 $L^2$ 输入的双向核：4×4 Lyapunov指数保留有符号Gram；同单元Q/P线性组合先合后平方，过去/未来支撑正交；逐cell真长度积分和物理权重、virtual waist、独立mean全保。这是新统一源核，未把单位sup源界改名为L²界。root/tail独核通过；97pin继承原93pin逐项不变，source `5b8f83906d36363266977441427add053a6ed05625525cfd000e05e03360b3db`，manifest `fb2336796edcd9ccc57a082015cdb6c51ee7c47a921ce03a3cbf3bbab6181ff6`。公开Actions只新算Gram及对应全cell核，旧matrix/Riccati/target零重算，成功prefix与失败native全保；尚无此消费者actual数值，完整无限逆及δ/非线性转移仍欠。

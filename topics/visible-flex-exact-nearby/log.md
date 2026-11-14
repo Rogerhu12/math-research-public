@@ -283,3 +283,7 @@ root与tail分别审完整science M1–19实现；root另核CI、worker相对原
 ### 2026-11-14 19:30:35 UTC — 独推 D1–24 原third-jet/真解析根两片定理
 
 root推导、phase全文独核D5符号、D9/10 fold三阶、D14 transport二次、D19准确leading反应消去、D20的RT/2与sqrtRT、D21 odd最大模。最终补明Wg必须在实际Cauchy old product上支付并改善D23排版；严格scope不变。原1079 seam证书保留，同一实际w1没有人工拼接。新数值运行尚未声称。
+
+### 2026-11-14 19:37:05 UTC — 普通L²核97pin独推
+
+root全文复核 source/CI/flow并逐项比较原93pin零改，tail独核合同/数学通过。推K1–16及五件消费者；新4×4有向Gram只消费43601964129原成功port，未重跑旧科学内容。两README blob未变；本次读main记入HANDOFF。尚待actual，完整目标继续。
