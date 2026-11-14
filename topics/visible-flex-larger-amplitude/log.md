@@ -428,3 +428,9 @@ run43629964624全部成功；同模型H f43.844546783272705<C44.251404941685465�
 ## 2026-11-14 request49：仅补原left-RMS482的14-query继续
 
 基于48最近实际拒绝点与完整producer，独立14domain/warm/FD已冻；10个left-RMS+4个原mid=28672行。mid482保为不同query，完整捕获端点/4735局部不变，原C仍4059及完整外部offset。旧45/13科学源逐字原样；父48 warmdf6543c9…/原status00c9e73f…严格锁定，公开gzip先还原原字节。root已读三源全部diff/接口/工作流diff，静态AST/YAML与10源pin通过；无本地科学计算。沿现唯一condensed request trigger，run/result待真实回读。
+
+## 2026-11-14 request50：固定actual47的完整224列参考与两种实际形成
+
+独立stagecovariance请求只取47原3530956B artifact，源/完整ZIP双身份与原捕获/精确case严格锁定；既有28运输核原字节复用。先形成R271频率平衡全级Gamma与同精度原坐标direct两完整226×224 map，再由整数dyadic/Fraction形成全部224列参考和正确一次RN，逐项/三个原方向比较。两均值行、全部模间耦合、原port保持；longdouble明确实际有效位，x87 padding仅规范存储。新完整数组只artifact，0新RHS/J/ODE/native/非线性试步，无新增验收阈值。
+
+root已读两完整源和接口、取件器及独立workflow；只有本地AST/YAML/bash/源SHA静态检查，无科学执行。新源geometry01ec3476…/exact119864f3…/fetchbbdbe1a4…；真实结果待run回读。49原14query run43631235905/job132558124307已在19:17:48Z进入warm，仍待真实17trial/FD。open去除旧待执行措辞，原全文保存在同目录截至49检查点；H保持当前身份及后继。

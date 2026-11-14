@@ -8,7 +8,7 @@
 每push前及至少每小时真pull --rebase，核根/题README；变更只读diff立即执行，记已读SHA。非快进立即pull --rebase再push循环成功。H<10KB、MD<100KB、README/open尽量<30KB；>1MB数据gzip，Git单文件<5MB，大阵artifact-only；禁根LOG、完整clone、gc/maintenance。
 17:58–18:43失联曾按Rule8小文本fallback；现终端恢复，默认cwd/旧tmp坏链接，exec用真实workdir、bash/login=false。当前部分检出：
 /workspace/scratch/visible-larger-recovered-20261114-1843/math-research-public
-上层sync_public.py接瞬时MR_PUSH_TOKEN并处理pull/README/H/push循环；旧objects=/workspace/scratch/visible-larger-git-objects-20261114作alternates。只检必要文本/comp，原件按需git show。/workspace余约500MB，大包用/tmp；禁动别题缓存。
+上层sync_public.py接瞬时MR_PUSH_TOKEN并处理pull/README/H/push循环；旧objects=/workspace/scratch/visible-larger-git-objects-20261114作alternates。只检必要文本/comp，原件按需git show。大包用/tmp；禁动别题缓存。
 
 ## 完成标准：目前仍只有大幅开放前缀
 
@@ -30,21 +30,19 @@ warm-001.json.gz SHA df6543c9b88c21bd9ea3c046f05a7c292b7d977d09c6ef431e6771560fe
 driver-status.json原1067190B SHA 00c9e73f260d0fa239a17c3973bcbd113d813c079c04451335244e923e85be9e；公开已gzip，续读解压原bytes核SHA，不重新序列化。
 FD7.169252867462084e−10/报告a17da0a01f40a6656d2dfbbbddd83f7b0be09aebaca5cf91e5d3a8e6bfd28d20；同真零T112锚仿射，不冒新H native。
 48完整120domainNPZ/13B/Γ/Π、58condensedNPZ38向量、observer、40源/完整父45producer已做字节审，root另14raw190956688B全SHA核；详2026-11-14-actual-request48-thirteen-query-and-left-RMS482-limit.md及两audit，completefactor仍未导出不冒独审。大阵artifact-only。
-**49已提交计算请求，run待实际回读**：仅加真实left-RMS482为第14网格/28672行；既有470..483/4735支撑不扩。新domain049ab10d…/warm331b59ed…/FDa84a6931…已冻，旧源全保。600s/256行/200sweeps、原C/17trial/FD不变，严格48pair及status解压原字节，沿唯一condensed trigger。
+**49运行中**：run43631235905/source d5c99bef58700db0da1a3de2faba3e94d60b1dc1/job132558124307，19:17:48Z进入warm。仅加真实left-RMS482为第14网格/28672行；既有470..483/4735支撑不扩。新domain049ab10d…/warm331b59ed…/FDa84a6931…已冻，旧源全保。600s/256行/200sweeps、原C/17trial/FD不变，严格48pair及status解压原字节，沿唯一condensed trigger。
 45实际完整QP及mid482限制、ZIP/audit与细节见2026-11-14-actual-request45-condensed-QP-and-midpoint482-limit.md；42内部radial由46实际只读回证，详46note；不重科学或将外层1说成无内部修复。
 
 ## Native：失败已保存，47只查原最坏一步
 
 23/v3原577×224 seed noJ合法，norm.04177307820740199>2e−9；112H/51下溢/9546负零保。25原十trial全stage13/raw0/seg7拒。linearSteps还定义graphs/gains/far/σ，禁整体改冒仅换guess。
-28 run43611175099/art14120548264/resultff53d954…，29完整数组已审；原fetch51224788…硬PIN全部ZIP/source/J/base/σ/H/far，STOP后无trial。
-34/36/38/39旧结果封存于notes，不重坏方向或加oldlong门。
-41 run43622149326/art14124209116/349636774B/ZIP356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8；868原步/3472field，72出口/mean逐bit同28；3999文件与新289数组全核。result6e9485dcc8bc512481d714d794f87e76f785b577fd6f714ae12fd9d8e9468adf。新1372段/307552变量；原adapterfde0e039…/fetch41 32840361…。
-42原1372系统exact1.220667068e22→1.256277542e22更坏；matrix e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521。LU0/均衡无损不足，完整note已发；大阵未另审。
-43节点G run43626121246/source5c6f45fc/job132542216129/art14126695571/430132210B/ZIP2fd2f07095dce463e7f57c473332a3cfc77cdd0cdaa2ad6e02d3b48f0c86b2f5；system24a51a4e…/driver16fca40e…，869形成块/503原块/完整边界σ保持。原全exact7.099878304e21→3.258066978e21→3.769441939e21，保1，最坏新519=旧43/step11/Pi112，输入node520。result.gz SHA cf6e00345697ed8bd4a114c2d79f8625e49626d2263e83f42e7dc60e3020013e，best原δ10ed4f19…；真实RHS无下溢，辅助2^-2048 RHS从未送solve。仅小报告核，未另审大阵；不派坏δ。
+28原capture ff53d954…与41原stepcapture6e9485dc…全数组已核，详情两actual note。41 run43622149326/art14124209116/ZIP356d9d81…保868步3472field/72出口均值与28同；新1372段307552行，adapterfde0e039…/fetch32840361…。34/36/38/39旧失败封存，不重坏方向或加oldlong门。
+42/43原1372方向均失败，详各actual note。43 run43626121246/source5c6f45fc/art14126695571/result cf6e00345697ed8bd4a114c2d79f8625e49626d2263e83f42e7dc60e3020013e；matrix e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521。Gsystem24a51a4e…/driver16fca40e…保869形成+503原块/全部边界σ；exact7.099878304e21→3.258066978e21→3.769441939e21，保1，最坏新519=旧43/step11/Pi112/input520。真实RHS无下溢；辅助2^-2048从未送solve。仅小报告核，未另审完整大阵；不派坏δ。
 原step/newG十trial组件均已发表；保原十alpha/noJ/guard/严格norm下降/首接受全state STOP，不重形成G/J，不冒native完成。
 44原41四field小包26214B/SHA d7d00de365b2118e1346e8f8630d5bad408957da91fdf51f38496f73b0e0c5f2显示变w，2/3级geometry同但state不同。R271原RK协变、R272误差拆分/冻结参考/频率平衡完整证明已登记，不拿连续G′重RK冒原有限映射。
 **47实际完成**：run43630351235/sourcec9c466f468d49e3f4699d0e0247109e83047bdb5/job132555346727/art14127582983；3530956B/ZIP02973eefffbd82f57dcee02776f2ed7a28c41fe750f73ec7930ff07d2f9fa400。1原步/4RHS-J；四field全state/geometry/root与41同，最终226/shortJ/mean逐位同，复现差为零映射。capture resultda9715ef…；27小文件+21数组2453424B全审，root另17exact输出包全SHA核。捕获note/audit已推；旧41没保存4A仍不冒旧A字节审。
-同δ519/520/r/σ精确账：old=observed平方1.1148576429598753e43；新4A有理RK为6.7408926442427e49，传播项有巨大相消，不能说修传播就令旧δ有效。详2026-11-14-actual47-stage43-exact-action-and-new519-attribution.md（原全部平方/交叉项已存）；无全native/newton/trial。**50准备**：仅已有47四A，R271全级离散协变/频率平衡完整单步J，与全部224列精确有理参考比较；这是新矩阵身份，未来仍需一致重解和原nonlinear门。geometry/exact分别实现候选/参考，全部计算仍Actions。
+同δ519/520/r/σ精确账：old=observed平方1.1148576429598753e43；新4A有理RK为6.7408926442427e49，传播项有巨大相消，不能说修传播就令旧δ有效。详2026-11-14-actual47-stage43-exact-action-and-new519-attribution.md（原全部平方/交叉项已存）；无全native/newton/trial。**50已提交，run待回读**：独立stagecovariance workflow/唯一public-stage-covariance-request.json。只固定47原artifact；fetch bbdbe1a4…复用51224788…transport核完整ZIP/source/收据。geometry01ec3476…保R271全部Γ/完整224列+mean/恢复原坐标，另同precision direct；exact119864f3…形成全226×224有理参考/正确RN/逐项误差/47三真实输入比较。两接口已完整保存。工作longdouble实记有效位，x87填充规范0；全部大矩阵artifact-only。无新RHS/J/ODE/native/trial、不取28/41/43原大包。新矩阵独立身份，未来仍须一致全系统重解与原非线性门，不救旧δ或冒连续DF证书。
+
 
 ## 必须继续完成的闭场与同g全族工作
 
@@ -54,4 +52,4 @@ FD7.169252867462084e−10/报告a17da0a01f40a6656d2dfbbbddd83f7b0be09aebaca5cf91
 R248强C²全相位、R241全部空间对/法锥嵌入reach、R238/254/258含反射同场标记，R251四Loewner实际operator都待真新场；16仅解析接口不重fixtures。held读所有活动块/两帽盘/全D，可独立于reach进度。无六/九jet机器门；九相位/N32显示网格<5MB但真2305尾节点保。
 旧小幅A幅度.063、RK24/48/三mesh/2157568pair/GW已封存；旧43提交恢复链/strongR6失败见notes，禁private取未迁raw。R238–272见results.md；R259备用未调度。
 
-规则同步记录：2026-11-14 19:16:54 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 27cf102924cf18a39798e7efe0d4dc5469efd835。
+规则同步记录：2026-11-14 19:26:00 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 8cbd993275fd6c8b78294f4b2685510f5576fe37。

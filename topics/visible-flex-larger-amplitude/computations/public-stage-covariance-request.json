@@ -1,0 +1,44 @@
+{
+  "request": 50,
+  "requested_at": "2026-11-14T19:23:43Z",
+  "repository": "Rogerhu12/math-research-public",
+  "lanes": [
+    "stagecovariance"
+  ],
+  "purpose": "Use only actual47 saved four full226x224 local A arrays: full R271 frequency-balanced and same-precision direct RK4 candidates, all224-column exact rational reference and correctly rounded binary64 map, plus original three direction comparisons.",
+  "source_sha256": {
+    "geometry_20261114_native_stage43_local_j_probe.py": "1185bbda5390c7ef3a9043ac59139b9359fececc802146f4be64aa7639730b21",
+    "geometry_20261114_native_stage43_local_j_probe_hook.mjs": "8992f3920729b0f6eabf7a1e15520290fc47942c72c0c4d6433d8ac6cb291059",
+    "geometry_20261114_native_stage43_local_j_window.mjs": "966ddc4946cc63f69260dd1871c2ac31ad0383eb5593f6c3a0b45b0cfcdef5ec",
+    "exact_20261114_single_step_rational_action.py": "9c42982291bd1a7b7cf21c472d8aae877136fb884708a8310ca6bb882c1d103e",
+    "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+    "root_20261114_fetch_pinned_stage47.py": "bbdbe1a469d1db9ebf4ef527b68712c4e04a9cca397297c673881f3ecdbce9dd",
+    "geometry_20261114_saved_stage_rk_covariance.py": "01ec3476ce8d2331b49122ce3d001908eb427d52ea52d367a978cd6de9dde548",
+    "exact_20261114_saved_stage_full_rational_reference.py": "119864f3dffd764500e3f15b9bfe8c7e27367384486eaaa11a5db885422b8f12",
+    "root_20261114_publish_actions.py": "2eb7bfcbb8a28eea3a4117c046b52d26d24a024aaa3b5386a42fd902d1a17c74"
+  },
+  "actual_input_artifact": {
+    "run_id": 43630351235,
+    "source_commit": "c9c466f468d49e3f4699d0e0247109e83047bdb5",
+    "artifact_id": 14127582983,
+    "artifact_name": "visible-mainline-stage43probe-43630351235-1",
+    "bytes": 3530956,
+    "sha256": "02973eefffbd82f57dcee02776f2ed7a28c41fe750f73ec7930ff07d2f9fa400"
+  },
+  "capture_result_sha256": "da9715ef1685c04210d5c3d8bbfb40629fd4bf810455b497e5e25630ac0aa403",
+  "prior_exact_result_sha256": "f145cf0efea702964413abf5490df5f2ef584b373afb9b8213f001774e9ea33b",
+  "matrix_shape": [
+    226,
+    224
+  ],
+  "full_original_modes": 112,
+  "new_RHS_calls": 0,
+  "new_local_J_calls": 0,
+  "new_ODE_steps": 0,
+  "native_solves": 0,
+  "nonlinear_trials": 0,
+  "no_old_direction_acceptance_claim": true,
+  "scientific_thresholds_changed": false,
+  "research_goal_completed": false,
+  "complete_matrix_arrays_artifact_only": true
+}
