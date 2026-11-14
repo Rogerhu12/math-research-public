@@ -428,3 +428,7 @@ run43590496434真实首QR线性残差/RHS=.913332499，最坏interval697/z110、
 ### 2026-11-14 11:53 UTC — run the unchanged full M112 system through complete band LU
 
 request11仅coupling112banded，独立backend0780dcc4…/wrapper390387db…按完整原行置换填F-order带矩阵，LAPACK原地LU及原块longdouble残差改进；无删列/截SVD/改边界。复用真699/FD/112零锚，原17回溯/RMS/BC/max1200/frozen-physical/真实尾审计全留，只读记录trial域。诊断>5MB不阻断数学运行，artifact保全、publisher按规则过滤。真接受后同run原闭包加R249规范化并复用complete-4；未预填成功。
+
+### 2026-11-14 11:55 UTC — observe actual complete-band run and preserve its executable contract
+
+request11已实际启动run43592195185/source4f0af15c（11:54:08Z），完整带LU说明登记了原矩阵/右端精确行置换、全部带宽/内存计数、残差校正符号及冻结源SHA。当前无新的成功声明；继续看真实因子/原残差/原trial/新H，保持同run全链。H压缩已归档旧史，当前真输入及规则已读记录保留。
