@@ -1,0 +1,1305 @@
+{
+  "format": "r150-four-second-bockstein-original-continuation-v1",
+  "status": "completed",
+  "prime": 31,
+  "targetModulus": 29791,
+  "targetMultiplier": "H0=(s-2)*h0",
+  "fullOriginalMod29791IdentityVerified": false,
+  "fourColumnsOnly": true,
+  "remaining198DirectionsComputed": false,
+  "fullSecondBocksteinImageClaimed": false,
+  "characteristicZeroIdentityAsserted": false,
+  "oldGraphOriginalNFOrFirstBocksteinRecomputed": false,
+  "sharedMathematicalSecondsLimit": 300,
+  "perChildAddressSpaceMiBLimit": 512,
+  "perCompilationSecondsLimit": 30,
+  "deadlineRule": "Validation, lossless input conversion and individually bounded compilation precede the timer. All new mathematical stages share one300-second deadline. Each child receives only the remaining time; a10-second SIGTERM checkpoint grace precedes forced kill. Final lossless compression and manifests follow outside the mathematical timer. Both VQ stages save actual arrays every100 rows and at termination boundaries. Content-bound complete stages can be reused from recovery.",
+  "inputs": {
+    "graph": {
+      "file": "/home/runner/work/_temp/isp-r150-four-second-bockstein-input/isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+      "bytes": 101365853,
+      "sha256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce"
+    },
+    "model": {
+      "file": "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+      "bytes": 128145,
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+    },
+    "originalNF": {
+      "file": "/home/runner/work/_temp/isp-r150-four-second-bockstein-input/isp-r150-native-nf/nf-normal-forms.bin",
+      "bytes": 32916190,
+      "sha256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840"
+    },
+    "normalTrace": {
+      "file": "/home/runner/work/_temp/isp-r150-four-second-bockstein-input/isp-r150-native-nf/nf-reduction.bin",
+      "bytes": 101244784,
+      "sha256": "e977b75f618f30d00fd4edca3bdcadba1e5553a956bf4d781ee45df0d15c1e8b"
+    },
+    "forward": {
+      "file": "/home/runner/work/_temp/isp-r150-four-second-bockstein-input/isp-r150-native-nf/nf-forward.bin",
+      "bytes": 2378937,
+      "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+    },
+    "backward": {
+      "file": "/home/runner/work/_temp/isp-r150-four-second-bockstein-input/isp-r150-native-nf/nf-backward.bin",
+      "bytes": 3052119,
+      "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+    },
+    "betaNF": {
+      "file": "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/inputs/betaNF.bin",
+      "bytes": 239100,
+      "sha256": "7f716fd2ed58088c1e8d8d2e4f77771d65d6b039418e884b226991b3a58afdcc"
+    },
+    "betaQ": {
+      "file": "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/inputs/betaQ.bin",
+      "bytes": 358487,
+      "sha256": "934c42fb9979b91743af2d4e66bdcf5ed30f99555ba35aa6cec01a5e33fec667"
+    },
+    "betaRem": {
+      "file": "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/inputs/betaRem.bin",
+      "bytes": 1084,
+      "sha256": "eec6e8ae82e3bb3581e1817e85a479bc1951d6b819273c1df4bde7e72fbd0cdd"
+    },
+    "betaTrace": {
+      "file": "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/inputs/betaTrace.bin",
+      "bytes": 2543800,
+      "sha256": "2705394b3744d8a1140edcbf3a269c9739ed6a39a6ceda63cb2cfb3f644922f2"
+    },
+    "kernels": {
+      "file": "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/inputs/kernels.bin",
+      "bytes": 2200126,
+      "sha256": "c6ebd427d59033755a8f9852f64d7509f249727e05c0d62834537aa0a3bdbf7f"
+    },
+    "actualX": {
+      "file": "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/inputs/actualX.bin",
+      "bytes": 4891710,
+      "sha256": "6ff5083ce8567c5a333acb8e26bba9e3bb64a53c5dda8d693c1411b163566e32"
+    },
+    "r2NF": {
+      "file": "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/inputs/r2NF.bin",
+      "bytes": 542622,
+      "sha256": "392169882cdf20075bdb6dfa18efb0a7bc181eda855aef7313aa3e69e872bd36"
+    },
+    "r2Q": {
+      "file": "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/inputs/r2Q.bin",
+      "bytes": 806052,
+      "sha256": "262cf26bfc144dd541fb094dbe263710f958303b55d4bfd614cf446169cc0dfd"
+    },
+    "r2Rem": {
+      "file": "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/inputs/r2Rem.bin",
+      "bytes": 2458,
+      "sha256": "e6a5f269a0d01fe11e75934d128fb3fe43f2b0f3e5c7247ee52303716a470d76"
+    },
+    "r2Trace": {
+      "file": "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/inputs/r2Trace.bin",
+      "bytes": 5784606,
+      "sha256": "43157d0ba3a1e34480d3285df1b657a1d2b24118b615820cd1f53ec33996fcae"
+    },
+    "integerModel": {
+      "file": "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-h25-second-residual-789f/original-integer-h25-mod29791.txt",
+      "bytes": 22824,
+      "sha256": "2785c53d015d05db4550e1978c05db7d42009cfa8942e915541599a76d3701cc"
+    },
+    "firstSystem": {
+      "file": "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-last-two-kernel-bockstein-actions-789f/43608688492-1/complete-polynomial-bockstein-image.bin.gz",
+      "bytes": 550,
+      "sha256": "f755f05723bcdd79193d40fea984fdd532248e50a99b0d755fac2c5433661aa5"
+    },
+    "secondSystem": {
+      "file": "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-h25-second-residual-789f/second-residual-full-beta-system.bin.gz",
+      "bytes": 816,
+      "sha256": "3f35ab42bdf4949eb08b01d89431d192cb1185f4f1ab87dd54d2efa04952a77a"
+    }
+  },
+  "sources": {
+    "2026-11-14-r150-four-second-bockstein-quotient-test-789f.py": "c0339e035526ac6beae62675a6a4394e520fbd36a5a5a6285cc0528de1ace53b",
+    "2026-11-14-r150-four-second-bockstein-runner-789f.py": "9fc1d9e6f64f520365bddea2d0d3387a32d42123f38efcf36f8798c9f36e6cba",
+    "2026-11-14-r150-second-bockstein-common-789f.hpp": "dbf1e7170d2f7d8738f24a841d646f4f624a1813fdfe78a42345738296d3e117",
+    "2026-11-14-r150-second-bockstein-image-mixture-789f.cpp": "904221f89d2a1751be04483f1ce923f7d4d61d01970d520a5b1183924e3e417f",
+    "2026-11-14-r150-second-bockstein-normal-form-789f.cpp": "01820327f2d8fe8c3ef45d6a944d2babafa5f69f48bb4c4035fc4b17d1f8ae1a",
+    "2026-11-14-r150-second-bockstein-original-combination-789f.cpp": "3b2280e873e329731cbc7ce0d72c915e20b2e54fd9a4c749bc13cc8af93358c2",
+    "2026-11-14-r150-second-bockstein-original-transport-789f.cpp": "2e1648175c24583c869292d529dd035d07c7bc8a341b40f710fb341b7cc60439",
+    "2026-11-14-r150-second-bockstein-source-checkpoint-789f.cpp": "dbaabefa84d5828dc110abd80c78096cd274c1540e241811d29ac5433d9f2c65",
+    "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+    "2026-11-14-r150-torsion-characteristic-789f.py": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+  },
+  "compilations": {
+    "image": {
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "-I",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes",
+        "-I",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/2026-11-14-r150-second-bockstein-image-mixture-789f.cpp",
+        "-o",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/bin/image"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 2.161411973
+    },
+    "source4": {
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "-I",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes",
+        "-I",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes",
+        "-DR150_TARGETS=4",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/2026-11-14-r150-second-bockstein-source-checkpoint-789f.cpp",
+        "-o",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/bin/source4"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 1.9831491810000017
+    },
+    "source9": {
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "-I",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes",
+        "-I",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes",
+        "-DR150_TARGETS=9",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/2026-11-14-r150-second-bockstein-source-checkpoint-789f.cpp",
+        "-o",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/bin/source9"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 1.9686575520000105
+    },
+    "transport": {
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "-I",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes",
+        "-I",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/2026-11-14-r150-second-bockstein-original-transport-789f.cpp",
+        "-o",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/bin/transport"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 2.020871404999994
+    },
+    "original": {
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "-I",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes",
+        "-I",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/2026-11-14-r150-second-bockstein-original-combination-789f.cpp",
+        "-o",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/bin/original"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 1.5063382849999982
+    },
+    "normal": {
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "-I",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes",
+        "-I",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/2026-11-14-r150-second-bockstein-normal-form-789f.cpp",
+        "-o",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/bin/normal"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 1.8167769929999906
+    }
+  },
+  "stages": {
+    "relations-image": {
+      "status": "completed",
+      "inputBindingSHA256": "e73d9663b203e1a5596c92bf02b083391a94498cae502131a53ea376bf379803",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "299.936s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/bin/image",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-input/isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/inputs/four-relations.mix",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/relations-image/relations-image"
+      ],
+      "remainingSecondsAtStart": 299.935605886,
+      "lastProgress": {
+        "status": "saved-quotient-mixture-complete",
+        "fullImageQuotientIdentity": true,
+        "completeRHSInImage": true,
+        "targets": 4,
+        "elapsedSeconds": 0.570516
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 0.5763350779999996,
+      "nativeStatistics": {
+        "status": "saved-quotient-mixture-complete",
+        "fullImageQuotientIdentity": true,
+        "completeRHSInImage": true,
+        "targets": 4,
+        "elapsedSeconds": 0.570516
+      }
+    },
+    "relations-source": {
+      "status": "completed",
+      "inputBindingSHA256": "1d503f8d58bcf43aa1ff51daa55f752b779107284dafd49a0302fcf6367a4c26",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "299.189s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/bin/source4",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-input/isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-input/isp-r150-native-nf/nf-normal-forms.bin",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/relations-image/relations-image-normal-forms.bin",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/relations-image/relations-image-image-quotients.bin",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/relations-image/relations-image-image-remainders.bin",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/relations-source/relations-source",
+        "e4ce3e57aaa9ab808e98ad209b9e05a33ac670feaa28ae3a7ede7ca8e74bef61"
+      ],
+      "remainingSecondsAtStart": 299.18937136700004,
+      "lastProgress": {
+        "status": "packed-image-source-convolution-complete",
+        "fullNormalFormDecompositionIdentity": true,
+        "standardKernelNormalForm": true,
+        "completeRHSInImage": true,
+        "originalSeventeenEquationTransported": false,
+        "targetStandardSourceCosts": [
+          86,
+          86,
+          86,
+          87
+        ],
+        "sourceMonomialProducts": 93312851,
+        "kernelReductions": 479127,
+        "peakRSSKiB": 110624,
+        "elapsedSeconds": 47.738
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 47.750847177,
+      "nativeStatistics": {
+        "status": "packed-image-source-convolution-complete",
+        "fullNormalFormDecompositionIdentity": true,
+        "standardKernelNormalForm": true,
+        "completeRHSInImage": true,
+        "originalSeventeenEquationTransported": false,
+        "targetStandardSourceCosts": [
+          86,
+          86,
+          86,
+          87
+        ],
+        "sourceMonomialProducts": 93312851,
+        "kernelReductions": 479127,
+        "peakRSSKiB": 110624,
+        "elapsedSeconds": 47.738
+      }
+    },
+    "relations-original": {
+      "status": "completed",
+      "inputBindingSHA256": "e71aea56ef2e93b45e2602182cdbcbcaa0aa2ccea9691e5cf20dc7eae9d3dd3c",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "251.364s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/bin/transport",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/relations-source/relations-source-standard-coefficients.bin",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-input/isp-r150-native-nf/nf-reduction.bin",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-input/isp-r150-native-nf/nf-forward.bin",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-input/isp-r150-native-nf/nf-backward.bin",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/inputs/four-relations.mix",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/relations-original/relations-original"
+      ],
+      "remainingSecondsAtStart": 251.36384755,
+      "lastProgress": {
+        "status": "original-source-transport-complete",
+        "targetCount": 4,
+        "sourceCosts": [
+          86,
+          86,
+          86,
+          87
+        ],
+        "elapsedSeconds": 4.5712
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 4.580283498,
+      "nativeStatistics": {
+        "status": "original-source-transport-complete",
+        "targetCount": 4,
+        "sourceCosts": [
+          86,
+          86,
+          86,
+          87
+        ],
+        "elapsedSeconds": 4.5712
+      }
+    },
+    "delta-original": {
+      "status": "completed",
+      "inputBindingSHA256": "3d60e350f04952b98a9a487987f586b66d99a0bb61ac792c4656239e79b70aa8",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "246.707s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/bin/original",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-h25-second-residual-789f/original-integer-h25-mod29791.txt",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/inputs/delta-original.recipe",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/delta-original/delta-original"
+      ],
+      "remainingSecondsAtStart": 246.706785851,
+      "lastProgress": {
+        "status": "full-original-combination-complete",
+        "divisor": 961,
+        "allOriginalProductCoefficientsDivisible": true,
+        "fullOriginalSeventeenEquationIdentityMod29791": false,
+        "actualSourceCosts": [
+          86,
+          86,
+          86,
+          87
+        ],
+        "elapsedSeconds": 0.458621
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 0.46437748700000725,
+      "nativeStatistics": {
+        "status": "full-original-combination-complete",
+        "divisor": 961,
+        "allOriginalProductCoefficientsDivisible": true,
+        "fullOriginalSeventeenEquationIdentityMod29791": false,
+        "actualSourceCosts": [
+          86,
+          86,
+          86,
+          87
+        ],
+        "elapsedSeconds": 0.458621
+      }
+    },
+    "delta-normal": {
+      "status": "completed",
+      "inputBindingSHA256": "1a9575bfdd98878538878f4fb0e679e3580e5977cde07291aa36aaf27a65aae7",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "246.236s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/bin/normal",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/delta-original/delta-original-divided-original-rhs.bin",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/delta-normal/delta-normal"
+      ],
+      "remainingSecondsAtStart": 246.23649258900002,
+      "lastProgress": {
+        "status": "four-second-bockstein-original-normal-forms-complete",
+        "sources": 0,
+        "targets": 4,
+        "components": 1034,
+        "forwardOperations": 782976,
+        "backwardOperations": 1010703,
+        "normalOperations": 645981,
+        "originalRHSCost": 87,
+        "originalRHSNonzeroCoefficients": 867625,
+        "peakRSSKiB": 78812,
+        "elapsedSeconds": 4.71787
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 4.729305448000019,
+      "nativeStatistics": {
+        "status": "four-second-bockstein-original-normal-forms-complete",
+        "sources": 0,
+        "targets": 4,
+        "components": 1034,
+        "forwardOperations": 782976,
+        "backwardOperations": 1010703,
+        "normalOperations": 645981,
+        "originalRHSCost": 87,
+        "originalRHSNonzeroCoefficients": 867625,
+        "peakRSSKiB": 78812,
+        "elapsedSeconds": 4.71787
+      }
+    },
+    "delta-image": {
+      "status": "completed",
+      "inputBindingSHA256": "5c12ff4a3e8b215a92af431d45ee8373a76e6d8da1eafe8726ed38ac1bd2d917",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "241.433s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/bin/image",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-input/isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/inputs/delta-image.mix",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/delta-image/delta-image"
+      ],
+      "remainingSecondsAtStart": 241.43329046300002,
+      "lastProgress": {
+        "status": "saved-quotient-mixture-complete",
+        "fullImageQuotientIdentity": true,
+        "completeRHSInImage": false,
+        "targets": 4,
+        "elapsedSeconds": 0.716424
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 0.7222727340000006,
+      "nativeStatistics": {
+        "status": "saved-quotient-mixture-complete",
+        "fullImageQuotientIdentity": true,
+        "completeRHSInImage": false,
+        "targets": 4,
+        "elapsedSeconds": 0.716424
+      }
+    },
+    "quotient-test": {
+      "status": "completed",
+      "inputBindingSHA256": "acf035051a23c8fd8a99b1f7e1a6f25ecdb6d2fcca79fd6f247a6f279ebb517c",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "240.708s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "python",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/2026-11-14-r150-four-second-bockstein-quotient-test-789f.py",
+        "--notes-root",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes",
+        "--first-system",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-last-two-kernel-bockstein-actions-789f/43608688492-1/complete-polynomial-bockstein-image.bin.gz",
+        "--second-system",
+        "/home/runner/work/math-research-public/math-research-public/topics/invariant-subspace-problem/notes/r150-h25-second-residual-789f/second-residual-full-beta-system.bin.gz",
+        "--original-metadata",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/delta-original/delta-original-original-product.json",
+        "--image-metadata",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/delta-image/delta-image-image-certificate.json",
+        "--image-quotients",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/delta-image/delta-image-image-quotients.bin",
+        "--image-remainders",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/delta-image/delta-image-image-remainders.bin",
+        "--out",
+        "/home/runner/work/_temp/isp-r150-four-second-bockstein-output/recovery/quotient-test"
+      ],
+      "remainingSecondsAtStart": 240.70834464100002,
+      "lastProgress": {
+        "status": "completed",
+        "fourPlusFirstBetaPolynomialImageDimension": 6,
+        "secondImageDimensionModuloFirstBeta": 4,
+        "nineTargetsCompatibleWithFourColumns": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "maximumSolutionDegree": -1,
+        "remaining198DirectionsComputed": false,
+        "elapsedSeconds": 0.20088326800001255
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 0.2752815589999784,
+      "nativeStatistics": {
+        "status": "completed",
+        "fourPlusFirstBetaPolynomialImageDimension": 6,
+        "secondImageDimensionModuloFirstBeta": 4,
+        "nineTargetsCompatibleWithFourColumns": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "maximumSolutionDegree": -1,
+        "remaining198DirectionsComputed": false,
+        "elapsedSeconds": 0.20088326800001255
+      }
+    }
+  },
+  "actualXHeaderConversion": {
+    "originalSHA256": "6ff5083ce8567c5a333acb8e26bba9e3bb64a53c5dda8d693c1411b163566e32",
+    "originalHeaderBytes": 120,
+    "outputSHA256": "9c2de2bf0cf6fd02dc777696847cebd3694a7e96a3009893e03c62c03777c0c1",
+    "sourceRecordsCopiedVerbatim": true
+  },
+  "mathematicalElapsedSeconds": 59.56947741500001,
+  "fourColumnQuotientConclusion": {
+    "format": "r150-four-genuine-second-bockstein-quotient-test-v1",
+    "status": "completed",
+    "prime": 31,
+    "sourceSHA256": "c0339e035526ac6beae62675a6a4394e520fbd36a5a5a6285cc0528de1ace53b",
+    "stateSHA256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf",
+    "firstBetaSystemSHA256": "71b3ffd524cca40f36ac59fb29694798013987c6153edb0c771420d75780daf8",
+    "actualSecondResidualSystemSHA256": "fa9fda1c0176cbf3e8163fcfd26ed11ea4f92947587d3d455859d2b912cb38a4",
+    "originalDeltaMetadataSHA256": "eca17703726de81b1acbd85542ebb63c62ad5f0aacd959e0227d527ba73db8f5",
+    "deltaRemaindersSHA256": "84d0f30fc12a9d1c16c53dec6ebe5b2f11d0b97d58c076b456da355736f8404f",
+    "all820NormalCoordinatesRetained": true,
+    "all505ObservationsVerified": true,
+    "fourActualColumnsInTorsion": true,
+    "completeFirstBocksteinImageDimension": 2,
+    "fourPlusFirstBetaPolynomialImageDimension": 6,
+    "secondImageDimensionModuloFirstBeta": 4,
+    "full315JInvarianceVerified": true,
+    "actualPolynomialGeneratorOrder": [
+      "beta199",
+      "beta200",
+      "deltaS200",
+      "deltaS201",
+      "deltaS202",
+      "deltaSell"
+    ],
+    "selectedKrylovBasisDescriptors": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "firstDependences": [
+      {
+        "generator": 0,
+        "firstDependentExponent": 2
+      },
+      {
+        "generator": 1,
+        "firstDependentExponent": 0
+      },
+      {
+        "generator": 2,
+        "firstDependentExponent": 2
+      },
+      {
+        "generator": 3,
+        "firstDependentExponent": 1
+      },
+      {
+        "generator": 4,
+        "firstDependentExponent": 1
+      },
+      {
+        "generator": 5,
+        "firstDependentExponent": 0
+      }
+    ],
+    "nineTargetsCompatibleWithFourColumns": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "allNineCompatible": false,
+    "solutionRowOrder": [
+      "deltaS200",
+      "deltaS201",
+      "deltaS202",
+      "deltaSell",
+      "beta199",
+      "beta200"
+    ],
+    "solutionPolynomialsAscending": [
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    ],
+    "maximumSolutionDegree": -1,
+    "allPublishedPositiveFull315IdentitiesVerified": true,
+    "dualCertificates": [
+      {
+        "target": 2,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 19
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 23
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 23
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 17
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 15
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 8
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 16
+          }
+        ]
+      },
+      {
+        "target": 3,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 14
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 30
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 30
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 6
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 29
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 1
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "target": 4,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 13
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 19
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 19
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 10
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 7
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 12
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 24
+          }
+        ]
+      },
+      {
+        "target": 5,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 11
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 28
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 28
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 18
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 25
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 3
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 6
+          }
+        ]
+      },
+      {
+        "target": 6,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 5
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 24
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 24
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 11
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 17
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 7
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 14
+          }
+        ]
+      },
+      {
+        "target": 7,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 14
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 30
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 30
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 6
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 29
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 1
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "target": 8,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 23
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 5
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 5
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 1
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 10
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 26
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 21
+          }
+        ]
+      },
+      {
+        "target": 9,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 25
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 27
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 27
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 24
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 23
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 4
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 8
+          }
+        ]
+      },
+      {
+        "target": 10,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 25
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 27
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 27
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 24
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 23
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 4
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 8
+          }
+        ]
+      }
+    ],
+    "remaining198DirectionsComputed": false,
+    "fullSecondBocksteinImageClaimed": false,
+    "finite_budget_verified": false,
+    "fullOriginalMod29791IdentityVerified": false,
+    "system": {
+      "file": "four-second-bockstein-system.bin.gz",
+      "bytes": 9592,
+      "sha256": "f1f6594b19e844dbc8e387cc7efb822d582b26b9348fb8ab03996e985f94188b",
+      "gzipBytes": 849,
+      "gzipSHA256": "57a5c3314281fd82cd4ba306b7d9c015a543b8aae05fd2713b50b303ca059f2d"
+    },
+    "elapsedSeconds": 0.20088326800001255
+  },
+  "outcome": "four-column-insufficiency-only",
+  "remaining198DirectionsRequired": true,
+  "recoveryFiles": 45,
+  "recoveryBytes": 45628921,
+  "losslessGeneratedBinaryFiles": 16
+}

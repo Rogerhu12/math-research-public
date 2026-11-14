@@ -1,0 +1,51 @@
+{
+  "inputBindingSHA256": "1d503f8d58bcf43aa1ff51daa55f752b779107284dafd49a0302fcf6367a4c26",
+  "inputs": {
+    "sources": {
+      "2026-11-14-r150-four-second-bockstein-quotient-test-789f.py": "c0339e035526ac6beae62675a6a4394e520fbd36a5a5a6285cc0528de1ace53b",
+      "2026-11-14-r150-four-second-bockstein-runner-789f.py": "9fc1d9e6f64f520365bddea2d0d3387a32d42123f38efcf36f8798c9f36e6cba",
+      "2026-11-14-r150-second-bockstein-common-789f.hpp": "dbf1e7170d2f7d8738f24a841d646f4f624a1813fdfe78a42345738296d3e117",
+      "2026-11-14-r150-second-bockstein-image-mixture-789f.cpp": "904221f89d2a1751be04483f1ce923f7d4d61d01970d520a5b1183924e3e417f",
+      "2026-11-14-r150-second-bockstein-normal-form-789f.cpp": "01820327f2d8fe8c3ef45d6a944d2babafa5f69f48bb4c4035fc4b17d1f8ae1a",
+      "2026-11-14-r150-second-bockstein-original-combination-789f.cpp": "3b2280e873e329731cbc7ce0d72c915e20b2e54fd9a4c749bc13cc8af93358c2",
+      "2026-11-14-r150-second-bockstein-original-transport-789f.cpp": "2e1648175c24583c869292d529dd035d07c7bc8a341b40f710fb341b7cc60439",
+      "2026-11-14-r150-second-bockstein-source-checkpoint-789f.cpp": "dbaabefa84d5828dc110abd80c78096cd274c1540e241811d29ac5433d9f2c65",
+      "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+      "2026-11-14-r150-torsion-characteristic-789f.py": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+    },
+    "inputs": [
+      "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce",
+      "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+      "600cadd84493d0203e203a3174898bb3df6e689202eced61c8d64b0116a5e7d6",
+      "2833c60e33c1b9e98592b08f719c2995ff54453974cb7ca300796af84c450bf7",
+      "cdf461abb9bf1afaaf18f72dafd5b9328ec583c81d5f2b60f2abe420092b6d2f"
+    ],
+    "logical": {
+      "bound": 87,
+      "targets": 4,
+      "checkpointBinding": "e4ce3e57aaa9ab808e98ad209b9e05a33ac670feaa28ae3a7ede7ca8e74bef61"
+    }
+  },
+  "outputs": {
+    "relations-source/relations-source-standard-coefficients.bin": "d1f94fe1e0e1db8df7813ee8119fb0dc15a30e1e394460b7a11100401d7222c3",
+    "relations-source/relations-source-source-certificate.json": "275eb3368a8cd65eb31d1099eaa7e220abcc50e80f82e9f683ba5ffdc221b7a0",
+    "relations-source/relations-source-vq-checkpoint.bin": "a14aaa7600cb9b1a796b184aba4b97183310b056477695471dcbad26a3d17d9b"
+  },
+  "nativeStatistics": {
+    "status": "packed-image-source-convolution-complete",
+    "fullNormalFormDecompositionIdentity": true,
+    "standardKernelNormalForm": true,
+    "completeRHSInImage": true,
+    "originalSeventeenEquationTransported": false,
+    "targetStandardSourceCosts": [
+      86,
+      86,
+      86,
+      87
+    ],
+    "sourceMonomialProducts": 93312851,
+    "kernelReductions": 479127,
+    "peakRSSKiB": 110624,
+    "elapsedSeconds": 47.738
+  }
+}

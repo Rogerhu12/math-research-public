@@ -1,0 +1,702 @@
+{
+  "run_id": "43615783424",
+  "run_attempt": "1",
+  "source_commit": "c16129a555dae6c8c83b2b570653a9f26484c8ea",
+  "step_outcome": "success",
+  "pipeline_status": "completed",
+  "outcome": "four-column-insufficiency-only",
+  "complete": true,
+  "full_original_mod29791_identity_verified": false,
+  "remaining198DirectionsComputed": false,
+  "fullSecondBocksteinImageClaimed": false,
+  "characteristic_zero_identity_asserted": false,
+  "four_column_conclusion": {
+    "format": "r150-four-genuine-second-bockstein-quotient-test-v1",
+    "status": "completed",
+    "prime": 31,
+    "sourceSHA256": "c0339e035526ac6beae62675a6a4394e520fbd36a5a5a6285cc0528de1ace53b",
+    "stateSHA256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf",
+    "firstBetaSystemSHA256": "71b3ffd524cca40f36ac59fb29694798013987c6153edb0c771420d75780daf8",
+    "actualSecondResidualSystemSHA256": "fa9fda1c0176cbf3e8163fcfd26ed11ea4f92947587d3d455859d2b912cb38a4",
+    "originalDeltaMetadataSHA256": "eca17703726de81b1acbd85542ebb63c62ad5f0aacd959e0227d527ba73db8f5",
+    "deltaRemaindersSHA256": "84d0f30fc12a9d1c16c53dec6ebe5b2f11d0b97d58c076b456da355736f8404f",
+    "all820NormalCoordinatesRetained": true,
+    "all505ObservationsVerified": true,
+    "fourActualColumnsInTorsion": true,
+    "completeFirstBocksteinImageDimension": 2,
+    "fourPlusFirstBetaPolynomialImageDimension": 6,
+    "secondImageDimensionModuloFirstBeta": 4,
+    "full315JInvarianceVerified": true,
+    "actualPolynomialGeneratorOrder": [
+      "beta199",
+      "beta200",
+      "deltaS200",
+      "deltaS201",
+      "deltaS202",
+      "deltaSell"
+    ],
+    "selectedKrylovBasisDescriptors": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "firstDependences": [
+      {
+        "generator": 0,
+        "firstDependentExponent": 2
+      },
+      {
+        "generator": 1,
+        "firstDependentExponent": 0
+      },
+      {
+        "generator": 2,
+        "firstDependentExponent": 2
+      },
+      {
+        "generator": 3,
+        "firstDependentExponent": 1
+      },
+      {
+        "generator": 4,
+        "firstDependentExponent": 1
+      },
+      {
+        "generator": 5,
+        "firstDependentExponent": 0
+      }
+    ],
+    "nineTargetsCompatibleWithFourColumns": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "allNineCompatible": false,
+    "solutionRowOrder": [
+      "deltaS200",
+      "deltaS201",
+      "deltaS202",
+      "deltaSell",
+      "beta199",
+      "beta200"
+    ],
+    "solutionPolynomialsAscending": [
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    ],
+    "maximumSolutionDegree": -1,
+    "allPublishedPositiveFull315IdentitiesVerified": true,
+    "dualCertificates": [
+      {
+        "target": 2,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 19
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 23
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 23
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 17
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 15
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 8
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 16
+          }
+        ]
+      },
+      {
+        "target": 3,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 14
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 30
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 30
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 6
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 29
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 1
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "target": 4,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 13
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 19
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 19
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 10
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 7
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 12
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 24
+          }
+        ]
+      },
+      {
+        "target": 5,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 11
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 28
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 28
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 18
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 25
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 3
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 6
+          }
+        ]
+      },
+      {
+        "target": 6,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 5
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 24
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 24
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 11
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 17
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 7
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 14
+          }
+        ]
+      },
+      {
+        "target": 7,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 14
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 30
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 30
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 6
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 29
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 1
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "target": 8,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 23
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 5
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 5
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 1
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 10
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 26
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 21
+          }
+        ]
+      },
+      {
+        "target": 9,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 25
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 27
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 27
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 24
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 23
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 4
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 8
+          }
+        ]
+      },
+      {
+        "target": 10,
+        "annihilatesWholeFourDeltaPlusFirstBetaPolynomialImage": true,
+        "rightHandSide": 1,
+        "coordinates": [
+          {
+            "torsionCoordinate": 181,
+            "stateCoordinate": 332,
+            "normalFormComponent": 905,
+            "parameterExponent": 0,
+            "weight": 25
+          },
+          {
+            "torsionCoordinate": 182,
+            "stateCoordinate": 334,
+            "normalFormComponent": 907,
+            "parameterExponent": 0,
+            "weight": 27
+          },
+          {
+            "torsionCoordinate": 185,
+            "stateCoordinate": 342,
+            "normalFormComponent": 915,
+            "parameterExponent": 0,
+            "weight": 27
+          },
+          {
+            "torsionCoordinate": 186,
+            "stateCoordinate": 343,
+            "normalFormComponent": 916,
+            "parameterExponent": 0,
+            "weight": 24
+          },
+          {
+            "torsionCoordinate": 187,
+            "stateCoordinate": 344,
+            "normalFormComponent": 917,
+            "parameterExponent": 0,
+            "weight": 23
+          },
+          {
+            "torsionCoordinate": 188,
+            "stateCoordinate": 345,
+            "normalFormComponent": 918,
+            "parameterExponent": 0,
+            "weight": 4
+          },
+          {
+            "torsionCoordinate": 189,
+            "stateCoordinate": 346,
+            "normalFormComponent": 919,
+            "parameterExponent": 0,
+            "weight": 8
+          }
+        ]
+      }
+    ],
+    "remaining198DirectionsComputed": false,
+    "fullSecondBocksteinImageClaimed": false,
+    "finite_budget_verified": false,
+    "fullOriginalMod29791IdentityVerified": false,
+    "system": {
+      "file": "four-second-bockstein-system.bin.gz",
+      "bytes": 9592,
+      "sha256": "f1f6594b19e844dbc8e387cc7efb822d582b26b9348fb8ab03996e985f94188b",
+      "gzipBytes": 849,
+      "gzipSHA256": "57a5c3314281fd82cd4ba306b7d9c015a543b8aae05fd2713b50b303ca059f2d"
+    },
+    "elapsedSeconds": 0.20088326800001255
+  },
+  "original_seventeen_conclusion": {},
+  "mathematical_elapsed_seconds": 59.56947741500001,
+  "root_will_publish_actual_results": true
+}

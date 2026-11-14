@@ -1,0 +1,49 @@
+{
+  "inputBindingSHA256": "1a9575bfdd98878538878f4fb0e679e3580e5977cde07291aa36aaf27a65aae7",
+  "inputs": {
+    "sources": {
+      "2026-11-14-r150-four-second-bockstein-quotient-test-789f.py": "c0339e035526ac6beae62675a6a4394e520fbd36a5a5a6285cc0528de1ace53b",
+      "2026-11-14-r150-four-second-bockstein-runner-789f.py": "9fc1d9e6f64f520365bddea2d0d3387a32d42123f38efcf36f8798c9f36e6cba",
+      "2026-11-14-r150-second-bockstein-common-789f.hpp": "dbf1e7170d2f7d8738f24a841d646f4f624a1813fdfe78a42345738296d3e117",
+      "2026-11-14-r150-second-bockstein-image-mixture-789f.cpp": "904221f89d2a1751be04483f1ce923f7d4d61d01970d520a5b1183924e3e417f",
+      "2026-11-14-r150-second-bockstein-normal-form-789f.cpp": "01820327f2d8fe8c3ef45d6a944d2babafa5f69f48bb4c4035fc4b17d1f8ae1a",
+      "2026-11-14-r150-second-bockstein-original-combination-789f.cpp": "3b2280e873e329731cbc7ce0d72c915e20b2e54fd9a4c749bc13cc8af93358c2",
+      "2026-11-14-r150-second-bockstein-original-transport-789f.cpp": "2e1648175c24583c869292d529dd035d07c7bc8a341b40f710fb341b7cc60439",
+      "2026-11-14-r150-second-bockstein-source-checkpoint-789f.cpp": "dbaabefa84d5828dc110abd80c78096cd274c1540e241811d29ac5433d9f2c65",
+      "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+      "2026-11-14-r150-torsion-characteristic-789f.py": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+    },
+    "inputs": [
+      "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+      "78ba3ab7c198dfa15642f37220e852f413b527ddb164ad0f741795930a6a66c9"
+    ],
+    "logical": {
+      "bound": 87,
+      "labels": [
+        4001,
+        4002,
+        4003,
+        4004
+      ]
+    }
+  },
+  "outputs": {
+    "delta-normal/delta-normal-normal-forms.bin": "517801d261d62f525aa35b7dfc461585a03550d659f4832f2b0438141ceae8b4",
+    "delta-normal/delta-normal-reduction.bin": "dd134dd6ea43939639a68cd93e62ea210f3e4fd68042d95c334484361535472c",
+    "delta-normal/delta-normal-forward.bin": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+    "delta-normal/delta-normal-backward.bin": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+  },
+  "nativeStatistics": {
+    "status": "four-second-bockstein-original-normal-forms-complete",
+    "sources": 0,
+    "targets": 4,
+    "components": 1034,
+    "forwardOperations": 782976,
+    "backwardOperations": 1010703,
+    "normalOperations": 645981,
+    "originalRHSCost": 87,
+    "originalRHSNonzeroCoefficients": 867625,
+    "peakRSSKiB": 78812,
+    "elapsedSeconds": 4.71787
+  }
+}

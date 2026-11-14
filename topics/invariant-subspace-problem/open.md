@@ -140,7 +140,7 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **已闭全部低本质三次层。** [总定理](results/R150-appendix-all-essential-cubic-dimensions-at-most-three-have-zero-matched-bell-values.md)：essT3≤3临界三Bell零；ess≤2仅迫T3=0，rank1/ess3为空，Cat2/3的W±/Q|T3判据保。非零Bell余点必ess4/5/6，自然幂未付。
 
-**高本质rank1原中心17式。** 原6188×4367泛秩4354，rankAy8及0/2/−6/∞已闭，余rankAy9有限Σ/char0来源。[完整1834核Bockstein](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)实算后像仍二维，九个h0目标分别无任意次数31整数mod961来源；含31分母Q解未排。[共同primary修正](notes/2026-11-14-r150-known-bockstein-module-primary-correction-789f.md)的保根集H0=(s−2)h0现有[完整原17模961证书](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)，九源实际cost86；下一位与31饱和仍开。其他mean秩/高ess/自然幂仍开；旧精确证书保[前全文](notes/2026-11-14-open-before-conditioned-gram-789f.md)。
+**高本质rank1原中心17式。** 原6188×4367泛秩4354，rankAy8及0/2/−6/∞已闭，余rankAy9有限Σ/char0来源。[完整1834核Bockstein](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)实算后像仍二维，九个h0目标分别无任意次数31整数mod961来源；含31分母Q解未排。[共同primary修正](notes/2026-11-14-r150-known-bockstein-module-primary-correction-789f.md)的保根集H0=(s−2)h0现有[完整原17模961证书](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)，九源实际cost86。[四个真实第二方向](notes/2026-11-14-r150-four-genuine-second-bockstein-insufficiency-789f.md)连完整β的多项式像维数6，九r2逐个失败；原成本86/86/86/87与961整除已核。余198第二方向、下一位与31饱和仍开。其他mean秩/高ess/自然幂仍开；旧精确证书保[前全文](notes/2026-11-14-open-before-conditioned-gram-789f.md)。
 
 [射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)的74次充分条件于模31不成立：全原∞连接给阶≥24，仿射315使齐次总度≥339。它与九目标Ann24不同；char0来源/分母及其他mean秩高ess继续，全部旧条件保本次前open。
 

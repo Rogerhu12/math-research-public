@@ -1,0 +1,88 @@
+{
+  "inputBindingSHA256": "e71aea56ef2e93b45e2602182cdbcbcaa0aa2ccea9691e5cf20dc7eae9d3dd3c",
+  "inputs": {
+    "sources": {
+      "2026-11-14-r150-four-second-bockstein-quotient-test-789f.py": "c0339e035526ac6beae62675a6a4394e520fbd36a5a5a6285cc0528de1ace53b",
+      "2026-11-14-r150-four-second-bockstein-runner-789f.py": "9fc1d9e6f64f520365bddea2d0d3387a32d42123f38efcf36f8798c9f36e6cba",
+      "2026-11-14-r150-second-bockstein-common-789f.hpp": "dbf1e7170d2f7d8738f24a841d646f4f624a1813fdfe78a42345738296d3e117",
+      "2026-11-14-r150-second-bockstein-image-mixture-789f.cpp": "904221f89d2a1751be04483f1ce923f7d4d61d01970d520a5b1183924e3e417f",
+      "2026-11-14-r150-second-bockstein-normal-form-789f.cpp": "01820327f2d8fe8c3ef45d6a944d2babafa5f69f48bb4c4035fc4b17d1f8ae1a",
+      "2026-11-14-r150-second-bockstein-original-combination-789f.cpp": "3b2280e873e329731cbc7ce0d72c915e20b2e54fd9a4c749bc13cc8af93358c2",
+      "2026-11-14-r150-second-bockstein-original-transport-789f.cpp": "2e1648175c24583c869292d529dd035d07c7bc8a341b40f710fb341b7cc60439",
+      "2026-11-14-r150-second-bockstein-source-checkpoint-789f.cpp": "dbaabefa84d5828dc110abd80c78096cd274c1540e241811d29ac5433d9f2c65",
+      "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+      "2026-11-14-r150-torsion-characteristic-789f.py": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+    },
+    "inputs": [
+      "d1f94fe1e0e1db8df7813ee8119fb0dc15a30e1e394460b7a11100401d7222c3",
+      "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+      "e977b75f618f30d00fd4edca3bdcadba1e5553a956bf4d781ee45df0d15c1e8b",
+      "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+      "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f",
+      "2705394b3744d8a1140edcbf3a269c9739ed6a39a6ceda63cb2cfb3f644922f2"
+    ],
+    "logical": {
+      "relations": [
+        [
+          [
+            -10,
+            -12
+          ],
+          [
+            -21,
+            -25
+          ],
+          [
+            -21,
+            -16
+          ],
+          [
+            2,
+            -3,
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [],
+          [],
+          []
+        ],
+        [
+          [],
+          [
+            1
+          ],
+          [],
+          []
+        ],
+        [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ]
+      ],
+      "bound": 87
+    }
+  },
+  "outputs": {
+    "relations-original/relations-original-primitive-source-mod31.bin": "5fe2eec3c96231434649e06a16fe370d884c0849ef489c6617d0f2585ac73756",
+    "relations-original/relations-original-original-transport.json": "483fb4ed5ff3b131d5539297620fe062d510891c34355dd98d6064d25d6c9ed4"
+  },
+  "nativeStatistics": {
+    "status": "original-source-transport-complete",
+    "targetCount": 4,
+    "sourceCosts": [
+      86,
+      86,
+      86,
+      87
+    ],
+    "elapsedSeconds": 4.5712
+  }
+}

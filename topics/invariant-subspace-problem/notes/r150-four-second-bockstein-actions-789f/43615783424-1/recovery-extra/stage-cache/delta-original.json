@@ -1,0 +1,91 @@
+{
+  "inputBindingSHA256": "3d60e350f04952b98a9a487987f586b66d99a0bb61ac792c4656239e79b70aa8",
+  "inputs": {
+    "sources": {
+      "2026-11-14-r150-four-second-bockstein-quotient-test-789f.py": "c0339e035526ac6beae62675a6a4394e520fbd36a5a5a6285cc0528de1ace53b",
+      "2026-11-14-r150-four-second-bockstein-runner-789f.py": "9fc1d9e6f64f520365bddea2d0d3387a32d42123f38efcf36f8798c9f36e6cba",
+      "2026-11-14-r150-second-bockstein-common-789f.hpp": "dbf1e7170d2f7d8738f24a841d646f4f624a1813fdfe78a42345738296d3e117",
+      "2026-11-14-r150-second-bockstein-image-mixture-789f.cpp": "904221f89d2a1751be04483f1ce923f7d4d61d01970d520a5b1183924e3e417f",
+      "2026-11-14-r150-second-bockstein-normal-form-789f.cpp": "01820327f2d8fe8c3ef45d6a944d2babafa5f69f48bb4c4035fc4b17d1f8ae1a",
+      "2026-11-14-r150-second-bockstein-original-combination-789f.cpp": "3b2280e873e329731cbc7ce0d72c915e20b2e54fd9a4c749bc13cc8af93358c2",
+      "2026-11-14-r150-second-bockstein-original-transport-789f.cpp": "2e1648175c24583c869292d529dd035d07c7bc8a341b40f710fb341b7cc60439",
+      "2026-11-14-r150-second-bockstein-source-checkpoint-789f.cpp": "dbaabefa84d5828dc110abd80c78096cd274c1540e241811d29ac5433d9f2c65",
+      "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+      "2026-11-14-r150-torsion-characteristic-789f.py": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+    },
+    "inputs": [
+      "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+      "2785c53d015d05db4550e1978c05db7d42009cfa8942e915541599a76d3701cc",
+      "c6ebd427d59033755a8f9852f64d7509f249727e05c0d62834537aa0a3bdbf7f",
+      "5fe2eec3c96231434649e06a16fe370d884c0849ef489c6617d0f2585ac73756"
+    ],
+    "logical": {
+      "bound": 87,
+      "relations": [
+        [
+          [
+            -10,
+            -12
+          ],
+          [
+            -21,
+            -25
+          ],
+          [
+            -21,
+            -16
+          ],
+          [
+            2,
+            -3,
+            1
+          ]
+        ],
+        [
+          [
+            1
+          ],
+          [],
+          [],
+          []
+        ],
+        [
+          [],
+          [
+            1
+          ],
+          [],
+          []
+        ],
+        [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ]
+      ],
+      "correction": -31
+    }
+  },
+  "outputs": {
+    "delta-original/delta-original-primitive-source-mod29791.bin": "653867bccc606ec234c65eacfbb014fe14e055fcd50f2ea3f2506344d2aad8c7",
+    "delta-original/delta-original-original-seventeen-source-mod29791.bin": "46a35ed337ee99fd0a2c8ee25c472c2afe1a8039b8a2b4404d2996fe6f475e88",
+    "delta-original/delta-original-divided-original-rhs.bin": "78ba3ab7c198dfa15642f37220e852f413b527ddb164ad0f741795930a6a66c9",
+    "delta-original/delta-original-original-product.json": "eca17703726de81b1acbd85542ebb63c62ad5f0aacd959e0227d527ba73db8f5"
+  },
+  "nativeStatistics": {
+    "status": "full-original-combination-complete",
+    "divisor": 961,
+    "allOriginalProductCoefficientsDivisible": true,
+    "fullOriginalSeventeenEquationIdentityMod29791": false,
+    "actualSourceCosts": [
+      86,
+      86,
+      86,
+      87
+    ],
+    "elapsedSeconds": 0.458621
+  }
+}
