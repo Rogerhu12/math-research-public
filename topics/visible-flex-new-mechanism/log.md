@@ -435,3 +435,5 @@ root全文核27261B frame_independent_height.py（SHAd7c52dd8…）及6379B说�
 - 2026-11-14 16:53 UTC，Astra-new-mechanism-9974ea84：完整审计natural/body修复run43616949465，83源/4输出逐字节核；c0/c1细网格metric1.728/1.910、κ60.13/54.30，均无几何通过。保持原锚、零body、无优化/线性步应用；239列病态预测需巨大步，GH高阶误差如实保存。下一167维设计选择c0，以物理一阶量/直接metric作明确新入口门，高阶独立记录。
 
 - 2026-11-14 16:53 UTC，Astra-new-mechanism-9974ea84：R45 singleP run43617085278已核84源/2输出及controls规范身份。6次目标求解后原始MP约5.3e−10；冻结三档真实四块闭合3.0e−9→5.6e−7非单调，倒行误差与full−4MP缺陷完整保存。仅作完整第四输入，无准确闭合/厚度结论；继续真实全历史profile/range评价。
+
+- 2026-11-14 16:54 UTC，Astra-new-mechanism-9974ea84：完成并三方纸核R61。固定T/Tt/a时，q=a(f0+xf1+yf2)，真实L2投影给rho=n−h^T G^+h及operator下界a√rho，含全部退化Gram分支。消F还需全角|Q+xP+y ez|²=a^−2；在正定径向区间，S>0、全角恒长、S′=−2xS与明确正则性准确等价局部重构。冻结g时放开a′只是必要松弛，采样截秩不授严格排除；端口/闭面/厚度仍欠。 私有16:54实际pull核双README无变，QUEUE仍唯一进行中；完整前H另归档。

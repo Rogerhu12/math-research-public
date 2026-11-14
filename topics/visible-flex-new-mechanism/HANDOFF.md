@@ -6,10 +6,10 @@
 
 闭连通C2嵌入族Ft、时间在C2拓扑连续，同一固定g；固定材料H有内点且diamH≥.2D；不作对齐的整像Hausdorff位移≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，且同g/物理参数/时间精化至机器或原容差。D是完整F0直径。δE可0但如实报。完整网格每件<5MB，明示数值与准确存在差距；达标后继续.5D或更强存在。
 
-- 根/本题README已完整读。公开仓库最后已读规则提交：`04922d82ae86697ec4238c2daea1455d3b83ab04`。
+- 根/本题README已完整读。公开仓库最后已读规则提交：`0ed85be1f4862c6d68d02472763ded5e835338d7`。
 - 每次实际pull --rebase核双README，有变只读diff并立即做；至少每小时pull。每完成结论立即提交推送；NFF立刻rebase、再核规则、再推直到成功，不强推。
 - 已授权公开main及本公开仓Actions。实际几何/ODE/积分/优化只此Actions；本地仅源码、纸面/准确代数、人工开发核及已公开输出分析。PAT只瞬时CLI/env，不写文件/提交/日志。
-- 私有仓16:09:36 UTC实际pull至`33ebdb638516e71e1b234a6340fe7b1a3d9ccc61`，双README无差，QUEUE唯一课题行仍本会话进行中；下一私有pull不晚于17:09 UTC。私有研究不发布。
+- 私有仓16:54:17 UTC实际pull至`f8b14a696d8d591013e5996b24c4f5e81a26aa95`，双README无差，QUEUE唯一课题行仍本会话进行中；下一私有pull不晚于17:54 UTC。私有研究不发布。
 - 根LOG不写；共享workflow理由记本题log。H<10KB、MD<100KB、数据>1MB压缩、单Git文件<5MB。同步helper运行时不改tracked文件；只stage明确本会话文件。
 
 工作树稳定路径 `/workspace/scratch/9974ea84a1c6/math-research-public`，private同前缀，两者symlink到/tmp本会话checkout。objects已逐字节核后迁/dev/shm，原路径symlink、稀疏index92KB/787B；未删其他会话数据。临时`research_sync.py`实际pull、比双README、核origin/main祖先、更新H、只amend自己未发布提交、循环push。RULES_CHANGED先读；--pull-only只更新H。旧归档保留。
@@ -25,9 +25,7 @@
 
 ## 3. 已完成的首饱和实际试验：失败来源完整保留
 
-run43612971265/source228c619517f1c67e87769b5db0fdf162a8a10600，77源/8输出全核，原13源、c0、固定g均冻结。[来源审计](notes/saturated-heat-provenance-audit-43612971265-20261114.md)与[几何审计](notes/saturated-heat-actual-geometry-audit-20261114.md)含全部原字节/身份/原始网格与未通过项。两初门过，唯一GH32/250成本.086424→.080617但后30步仅降5.52e−8。121×768 R2.593096、metric1.90962、strip1.030644失败；入口低模/负K纯RT与patch RW/k12并存，GH同态R差1.26e−5不能解释。旧图与失败状态不覆盖、不原样再250。完整本节旧H存notes/handoff-before-natural-body-partial-20261114.md。
-
-物理S9六帽R=137/500、幅[3/16,1/8,1/8,3/16,1/8,1/8]、rc内固定盘和全帽法弦>3/40均保持；局部帽证书不授整面reach。球1.01/strip.38条件预算仍需完整面验证。旧同h尾对照会消共同高度误差，必须另审h/球/跨片。
+run43612971265/source228c619517f1c67e87769b5db0fdf162a8a10600，77源/8输出全核；[来源](notes/saturated-heat-provenance-audit-43612971265-20261114.md)/[几何](notes/saturated-heat-actual-geometry-audit-20261114.md)保存全部。单250 cost.086424→.080617后停滞，fine R2.593096/metric1.90962/strip1.030644失败，入口与patch均有实际问题，非GH噪声。旧原始状态/13源不覆盖、不原样重跑；完整旧H见notes/handoff-before-natural-body-partial-20261114.md。S9准确六帽及尾内法弦>3/40不授整面reach，球1.01/strip.38仍是条件预算，必须核全高与跨片。
 
 ## 4. 主线：natural/body初态全审失败，接独立高度有界设计
 
@@ -38,6 +36,7 @@ run43612971265/source228c619517f1c67e87769b5db0fdf162a8a10600，77源/8输出全
 
 R60独立中心方案已纸核：b0固定原c0准确角均值，9个O3样条保b/b′/单一z积分，去可变beta后153+9+5=167维，固定g162维；新空间不称包含旧全部高度函数。独立接口d7c52dd8已root/source全核并冻结，全2jet Jac≤6.10e−9、directJac≤3.83e−9、冻结重放0。原c0优于c1，下一driver以c0及零高度/body系数开始，167维有界设计；GH64→128/Nb384→768直接核X/Xs/Xtheta/metric，高阶另报，不能假称旧scalar_s门通过。
 
+R61已证明固定T/Tt时可放开a′和b作真实L2二列投影，给operator必要下界a√rho；只消F还欠全角E及S′=−2xS的径向一致性。给带正则前提的局部准确重构，不付端口/嵌入；数值截Gram秩不能作严格排除。
 R48排固定角反射的第五角跳；R51排raw热源跨d的rho^(11/2)内部出生并给饱和修正；R55进一步证饱和3点三阶Cauchy差需g_rrr+g_r/(3c²)，v补偿顶点二角导跳∝两正A之和，有限解析角列无准确R0。均无正误差下界，不能借此泛称一般C2不存在或删除真实近似输出。简单多点外推只移除有限阶门。
 
 ## 5. 文献线：完整第四已有限化，尚未支付

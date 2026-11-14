@@ -123,3 +123,5 @@
 - [R59：中心速度准确消元与必要度量下界](results/R59-scalar-center-speed-elimination-and-metric-lower-bounds.md) — 固定T/Tt/a/a′时，真实径向切向U=W+bez、平均W=0；角均方直接metric目标准确为J(b)=b⁴/2+Ab²+2Bb+C/2，全部候选最小点由三次式b³+Ab+B=0及区间边界给出。F投影残量N−M²/D、E均值S≤1与b²=1−S给独立必要门，最大operator误差≥√min_R J；退化D0、ε近似的扩大b区间和离散三次项均保留。没有将逐圈根拼成合法C2中心或评价实际候选。
 
 - [R60：独立中心速度、固定端口与完整位置二jet](results/R60-independent-center-speed-fixed-ports-and-position-two-jets.md) — 以永久原c0自然场的准确角平均作固定b0，加入9个两端O3的一维b=z′样条，保b/b′与准确核心/尾；单一积分使尾只有一个共同竖直平移。去可变beta后153个u/v+9个b+5个body metric共167维，固定g162维；新空间不声称包含旧全部高度函数。给完整位置二jet和全部参数列、固定Nb评价身份，旧U−V=−ΠR不再未经核对沿用。没有等距、嵌入或reach结论。
+
+- [R61：径向斜率和中心速度联合投影与局部重构](results/R61-joint-radius-slope-center-projection-and-local-reconstruction.md) — 固定T/Tt/a时，q=a(f0+xf1+yf2)，真实L2投影给rho=n−h^T G^+h及operator下界a√rho，含全部退化Gram分支。消F还需全角|Q+xP+y ez|²=a^−2；在正定径向区间，S>0、全角恒长、S′=−2xS与明确正则性准确等价局部重构。冻结g时放开a′只是必要松弛，采样截秩不授严格排除；端口/闭面/厚度仍欠。
