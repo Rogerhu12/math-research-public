@@ -393,3 +393,9 @@ root从闭式G和C1–15逐项导出N1–12；只需原seam的A10/A11/A01/A02、
 run43640181602真child1/4.824215924s，四域全attempt，两个域完整proved；另两个域按声明gap失败。root全文核9708B报告、38267B过程的7身份门/四域/完整mean及774组件，核2345B worker两次真pull空diff至42292594b1b1ed6a72bfc377a0b32449d9c5b2b8。native6276b4b8bd117b3092ce633b7164ff99968100f10b09cbaef8850d4c03f6b24f；processa6783642ae2c49f66c3a7b54f1506389f24771790f3bd5a324646df8229f9728。失败不重标成功，成功域不重算。
 
 21:07本机终端恢复，原/tmp已失；按原symlink重做public partial clone/sparse checkout，21:08:55真pull至cdc59656ceeda2eeab6819a6f756bf9051dbf77d，两README blob原值，所有相关AGENTS路径均无文件。原functions.store在环境切换丢失；新科学source30b989…早已blob保存并按SHA恢复，旧结论/实际native均在public，无成功科学丢失。此条发布前再次真pull并核README（读提交03dc237a7290472b4daa5abaa04739abe1fac18e），随后terminal Git常规推送。恢复前H完整归档。
+
+### 2026-11-14 21:22:56 UTC — 精确fold消去21pin消费者通过terminal Git部署
+
+root完成科学source26652B、CI9661B、worker16046B、manifest12121B及flow5888B；本地仅静态AST/文件hash/路径核验，无数值数学。固定21文件9553705B，八个真正Python入口/递归源，原root artifact一件及三件仓库native。旧Abar6profiles/6leading tensors/1328旧矩阵moment/径向权和正分窗费不重算；仅新六个scalar jet表及4377新源积分。科学source52426ffb…，CI0fe34702…，workere6600b85…，manifestc7c772e5…，flowb68d9be6…。精确gd是Dw0−ηhφ，旧source中plus只是三角上界；新C1–15符号完整保。
+
+45min数学child/50minwrapper、前后真pull+README差异核、非FF循环、逐128行不可变前缀与全部失败native保留。此前H9955B完整归档后压缩活跃H；本次pull读提交63274122293c0a225b4281aecb862fc8b6600ebc。入口推送触发实际public Actions，下一步核新完整source界。

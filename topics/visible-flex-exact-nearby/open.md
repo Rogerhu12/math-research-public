@@ -134,3 +134,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 辅助复根域actual：直接接已通过的两个域
 
 [实际报告](results/R133-supplement-actual-auxiliary-root-domains-and-complete-complex-third-jets.md)已核实：R=1e−4/5e−4通过；另两域gap失败而非对象不可能，原failed records与所有前缀保。新fold消费者使用真实根锚+这些已付complex导数收紧k/η/A，0 target重算；不要求先让最大域通过，也不删原物理seam。root终端已恢复并重新partial clone/真pull，两README无变，后续用terminal Git。
+
+### 精确fold消去21pin消费者已装：仅新包络与源积分
+
+`visible-exact-exact-fold-cancelled-sources.yml` 已装。数学source52426ffbf1286f3ab06138879c03feb3795f5300a9e1f1e6625f6b1e2cf6a689，manifestc7c772e582a3d9197ab20e9df1c8efb1ad4ff0c881ea597c6e720e44fe85012d。六个新G/Gr/Grφ与Q/T标量jet表、精确gd/h/qv仅在公开Actions求值；原6profile/6tensor/1328矩阵moment表、径向权与正collar/body积分费用全复用。保full even mean、rawD/SV/V0与全部原seam；逐128行checkpoint，完整前缀按源/manifest/runtime/所有native身份续接。待actual，不把部署称为数值证明。
