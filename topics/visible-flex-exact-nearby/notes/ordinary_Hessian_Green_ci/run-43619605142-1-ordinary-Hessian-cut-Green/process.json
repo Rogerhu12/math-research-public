@@ -8,7 +8,42 @@
   "workflow_commit": "fb54fe406737149953c4f813d188deb4020ae3e7",
   "worker_source_sha256": "81905c74d1d13a41e7b8ff5b6c3f6f66bda211452b102652a02a3783c61c801d",
   "started_utc": "2026-11-14T17:10:51.152285+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_same_Z_ordinary_Hessian_cut_and_positive_profile_reweight",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-ordinary-Hessian-Green-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ordinary_Hessian_cached_Green.py",
+        "--out",
+        "/__w/_temp/visible-exact-ordinary-Hessian-Green-output/native/complete-same-Z-ordinary-Hessian-cut-and-Green.json.gz",
+        "--green-run",
+        "43616648792",
+        "--cut-run",
+        "43615251195",
+        "--hessian-run",
+        "43618931236",
+        "--same-z-green",
+        "/__w/_temp/visible-exact-ordinary-Hessian-Green-green/native/complete-finite193-same-Z-known-source-Green.json.gz",
+        "--green-process",
+        "/__w/_temp/visible-exact-ordinary-Hessian-Green-green/process.json",
+        "--cut-source",
+        "/__w/_temp/visible-exact-ordinary-Hessian-Green-cut/native/complete1977-cut-direction-and-same-Z-sources.json.gz",
+        "--cut-process",
+        "/__w/_temp/visible-exact-ordinary-Hessian-Green-cut/process.json",
+        "--particular-hessian",
+        "/__w/_temp/visible-exact-ordinary-Hessian-Green-hessian/native/complete-same-w0-ordinary-only-cap-Hessian.json.gz",
+        "--hessian-process",
+        "/__w/_temp/visible-exact-ordinary-Hessian-Green-hessian/process.json",
+        "--cut",
+        "/__w/_temp/visible-exact-ordinary-Hessian-Green-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-moving-cap-cut-boundary-v2-native.json.gz"
+      ],
+      "started_utc": "2026-11-14T17:10:53.356749+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 10.000648274,
+      "finished_utc": "2026-11-14T17:11:03.358126+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T17:10:51.481980+00:00",
@@ -25,9 +60,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:11:03.704462+00:00",
+      "before": "a785281d19572f51ad3e65f689052a761ba9acab",
+      "after": "1efaa121544c2faffde9c6a6a12dfbfa3e85dd56",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T17:10:53.354641+00:00",
+      "final": false,
+      "commit": "1efaa121544c2faffde9c6a6a12dfbfa3e85dd56"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -59,7 +108,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "a785281d19572f51ad3e65f689052a761ba9acab",
+  "last_read_commit": "1efaa121544c2faffde9c6a6a12dfbfa3e85dd56",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-ordinary-Hessian-Green-work/science",
   "actual_input_sha256": {
     "same-z-green": "eb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18",
@@ -70,8 +119,8 @@
     "hessian-process": "8bd696740f0f1d667487d349cd0ebb51fc2c8efbe9927d49584885388166ea75",
     "cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba"
   },
-  "snapshot_utc": "2026-11-14T17:10:51.922042+00:00",
-  "wall_seconds": 0.7703226369999996,
+  "snapshot_utc": "2026-11-14T17:11:03.778137+00:00",
+  "wall_seconds": 12.626419569999996,
   "native_files": [
     {
       "logical_file": "evidence/original-cut-process.json",
@@ -90,6 +139,12 @@
       "file": "evidence/original-hessian-process.json",
       "bytes": 9265,
       "sha256": "8bd696740f0f1d667487d349cd0ebb51fc2c8efbe9927d49584885388166ea75"
+    },
+    {
+      "logical_file": "native/complete-same-Z-ordinary-Hessian-cut-and-Green.json.gz",
+      "file": "native/complete-same-Z-ordinary-Hessian-cut-and-Green.json.gz",
+      "bytes": 3996142,
+      "sha256": "64ce558499b6ec5240ac73e36cb104672b9c2e6e01aa9c6bd4808959d24821d0"
     }
   ]
 }
