@@ -1,0 +1,89 @@
+{
+  "kind": "actual_public_same_w0_particular_cap_Hessian_process_v1",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43616252389",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "162c0c1ca1b5f72489f77fa36f326844158caed3",
+  "worker_source_sha256": "9d4e781665ee61de9f99caea51070f87b5d1c62c7106ae4190f0af6a683b7531",
+  "started_utc": "2026-11-14T16:34:38.096293+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T16:34:39.819414+00:00",
+      "before": "cdfe4db43a75611bc340f79684c103938b1e9564",
+      "after": "bac3b8e223843da236fe3ca599137bd2a124ef2a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T16:34:42.010178+00:00",
+      "before": "bac3b8e223843da236fe3ca599137bd2a124ef2a",
+      "after": "21238ef47e76db04781cab0b8a618eda9325ef57",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_large_matrix_reconstructions_executed": 0,
+  "original_complete_physical_residual_cells_recomputed": 0,
+  "original_target_primitive_endpoint_or_mean_computations_repeated": 0,
+  "complete_true_cut_source_claimed": false,
+  "complete_finite193_response_error_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "input_manifest_sha256": "47d24bca452b483a9320d89ff707cc273f4a3bff77a0c2bb4b71d5d89d48168d",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "21238ef47e76db04781cab0b8a618eda9325ef57",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-particular-Hessian-work/science",
+  "original_prepared_bundle_sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70",
+  "all_original_large_array_bytes_verified": true,
+  "large_matrix_reconstructions_executed": 0,
+  "actual_original_input_sha256": {
+    "proposal": "b9819522aceed06b73628d84b8bb80dbcc5b734971c6b3c20544e9876c23d78a",
+    "pilot": "f36831b1f5cc354548686c7d3e5f3fdfb10a456899d25f57d1be1b4cefccbe5c",
+    "pilot-process": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4",
+    "local": "bf42a295c892ec3bc606efaa9a94f2870609b73226f2034a9cbc172f187186bd",
+    "old-hessian": "cf055cac05569701ebcb0df95fb064c94cec8c18bb28121292a3836b3862be26"
+  },
+  "snapshot_utc": "2026-11-14T16:34:42.042435+00:00",
+  "wall_seconds": 3.946683946999997,
+  "native_files": [
+    {
+      "logical_file": "evidence/original-prepared-manifest.json",
+      "file": "evidence/original-prepared-manifest.json",
+      "bytes": 2998,
+      "sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70"
+    },
+    {
+      "logical_file": "evidence/original-successful-v3-pilot-process.json",
+      "file": "evidence/original-successful-v3-pilot-process.json",
+      "bytes": 16602,
+      "sha256": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4"
+    }
+  ]
+}
