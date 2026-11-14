@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 18:57:42 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 19:04:35 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则、同步
 
 仅 Rogerhu12/math-research-public；所有新数学只在其Actions。每结论独推；非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
-本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，18:52非FF后真rebase仍No usable execution environment。根规则8暂只connector<100KB文本，禁任何binary/gzip，先查size；新摘要≤60KB。API不冒称pull；reviewed runner长算每10min真pull，phase child≤50min前后pull。root亲核knownhigh43628921664真pull至964fa923c5204baabecadac3e014d64a4c9bd4e9；该4次、quarter8range/finish和负窗所有README diff均空。终端恢复即回git；每小时重试，nonFF立即再试。
-最新远端 main/两README blob 核：ffc4719d7884d4fea4d1b7201fd3fc91eefd6327；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，19:05再次真pull --rebase仍No usable execution environment。根规则8暂只connector<100KB文本，禁任何binary/gzip，先查size；新摘要≤60KB。API不冒称pull；reviewed runner长算每10min真pull，phase child≤50min前后pull。root亲核knownhigh43628921664真pull至964fa923c5204baabecadac3e014d64a4c9bd4e9；该4次、quarter8range/finish和负窗所有README diff均空。终端恢复即回git；每小时重试，nonFF立即再试。
+最新远端 main/两README blob 核：686247e3999500eec87aedc2252ab10631487ca3；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次9831B H逐字归档 notes/2026-11-14-handoff-before-leading-old-circle-remainder-run.md；此前全部H/open归档链保。历史SHA/失败/源口/零重算合同见results/manifest/H归档，禁止重算已成数学。
 
@@ -52,4 +52,4 @@ M1–30真实mean已1f00f推：eX为129胞元第二positive外真根，明定flu
 E1–35真实q≥−1末平台C→B全频两端逆已root/tail核推，SHA4d3cfe70…；含两零曲率平台/长q2/双bump，内端L2 DN满足2^-373 I<NCC<2^8 I，原μ0=1/(4ω)、Piola及全部mean保。L2/L1weak/finite jumps完整affine源，实际Cayley由能量逆推得。仍欠eX→cut128→C负段/三阶退化turning、原根波/强标签转换及最终returned闭合；unitarity不授全逆。
 子问题完成即接open下一项；禁止阶段报告、等待用户或时长结束。
 
-fixedM32 knownhigh147pin/sourcef9104cce…/manifestde4bd52b…旧143不改。43628921664数学child0/8门/7721行/56.609475s；native5ad8aaad…7508940B/4片，summary74e7b40d…14387B，root亲核全区L2<1.456146059e−10/负窗<1.415385110e−10。仅最后largest20诊断>60000B令workflow失败，process60031fee…；原数学全保，newton写0数学receipt-only收尾。low/mean未变，δ≠0/未知high未授。
+fixedM32 knownhigh147pin/sourcef9104cce…/manifestde4bd52b…旧143不改。43628921664数学child0/8门/7721行/56.609475s；native5ad8aaad…7508940B/4片、summary74e7b40d…14387B；全区L2<1.456146059e−10/负窗<1.415385110e−10。largest20诊断>60KB令workflow failure，原数学全保。receipt-only source74a00ec4…/flowb6336c13…本次推：只核原child0/native8门/原small summary六项，逐字补发，0新数学/0旧7721重跑；待actual。low/mean原样，δ≠0/未知反馈未授。
