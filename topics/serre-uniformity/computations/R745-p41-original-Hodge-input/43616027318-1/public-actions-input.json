@@ -1,0 +1,60 @@
+{
+  "result": "R745-p41-original-Hodge-input",
+  "p": 41,
+  "source_commit": "1768f05c524e2e3d2e01822c0a4f376382c5e608",
+  "source_repository": "Rogerhu12/math-research-public",
+  "request_sha256": "f5aa94f469849bf4e94a81d721e066bff13fd4796c7d5afd25cc24e6027619ed",
+  "driver_sha256": "31851634280af3065fb41c445e921a14178de910ce3cd34de48c79997628446b",
+  "core_sha256": "48e8bb1189e39c0f0500be6b20da8a21e2788b5b73bdb9fea32d17540b144b4d",
+  "method_sha256": "911593aeaa0dd3f5d3ef577efbc2a448ba4c498224de81a3af5335b8f1c71329",
+  "root_readme_sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "dependencies": [
+    {
+      "file": "results/R575-correct-actual-sixfold-CM-deck-and-cubic-twist.md",
+      "sha256": "d56ce2cff22017014a031cb81dac5be35b7e6dc0fe13aec1904cf9aa1540fbcd"
+    },
+    {
+      "file": "results/R586-actual-c0-marking-and-six-torsion-kernel.md",
+      "sha256": "dff55f7488b38f9725d322ebd5ad3d0addfe4da879d0ecf30c27f1d3e235c4d1"
+    },
+    {
+      "file": "results/R592-actual-integral-CM-jet-lattice-and-complete-tail.md",
+      "sha256": "8cd06cf657c52d95b620e7fe675c96429a23b531e83c1d593e47567de3f58f46"
+    },
+    {
+      "file": "results/R616-original-CM-point-difference-and-explicit-height-basis.md",
+      "sha256": "3812067c107b9bc02feb299d86d2eca00e0e122b35d546ef794385fa0e63ece0"
+    },
+    {
+      "file": "results/R732-original-CM-period-kernel-and-bounded-rational-function-recovery.md",
+      "sha256": "360bf5eff42ca81e618c107dd9b3421095a01d1e0aebe1234acd29af9e12a19a"
+    },
+    {
+      "file": "results/R738-certified-original-p41-period-input.md",
+      "sha256": "410c3bfb6e09d3fad355b1a9536d4405d7db1cac2aeb7765ada54c25a15674ad"
+    },
+    {
+      "file": "results/R742-unramified-original-first-jets-and-depth-seven-Abel-isometry.md",
+      "sha256": "17eac5ea689aa2606a197952a2cf97b7f963006f3193d598f22c80b7b7d0bdd8"
+    }
+  ],
+  "retained_topology": {
+    "run_id": "43612108090",
+    "source_commit": "651aa3f7eaac6f97bfd7f87ec25b210eb7d6f4ca",
+    "artifact_name": "serre-global-R738-p41-original-period-input-43612108090-1",
+    "files": {
+      "original-cosets-and-markings.json.gz": "6a73cb699abb5e53328a040ec86bea2c4cac7ef690a29984912c43417cfd0161",
+      "integral-compact-Manin-cycles.json.gz": "d4dcbac16cc24cefd378fc7afea02fcd34b8043d255c1e84407ff7d21bd257cf",
+      "p41-original-period-input-certificate.json": "a853f36bf5d6f7d238e805a5c2134b2f7b3db17528195d56d980e66c9c769009",
+      "run-receipt.json": "1d9db77b970ec0595894ffea7d544526fb8a34f132dd4f8fb6db0d57f5d83578"
+    }
+  },
+  "retained_character": {
+    "path": "computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-original-CM-norm.json",
+    "sha256": "fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6"
+  },
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43616027318",
+  "prepared_at_utc": "2026-11-14T16:31:19.024331+00:00",
+  "mathematical_completion_claimed": false
+}
