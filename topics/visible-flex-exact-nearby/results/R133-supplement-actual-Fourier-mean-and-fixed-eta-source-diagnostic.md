@@ -57,9 +57,9 @@ lower bounds on the true residual or a claim that the high tail vanished.
 |1519|.038232449360|.038232141229|.038022220211|.000151392952|
 |1524|.038362323073|.038362085259|.038133957059|.000149789959|
 
-The actual radial \(L^2\) bound on row1524 is below
-\(0.000002646609719\) with four subcells, while its cached Fourier
-bound is below\(0.000678147323\).
+The actual radial $L^2$ bound on row1524 is below
+$0.000002646609719$ with four subcells, while its cached Fourier
+bound is below$0.000678147323$.
 The saved diagnostics separately record polynomial norms, complete
 uniform remainders, each scalar target component and every source
 component. They support refining the actual third-jet radial
@@ -79,11 +79,11 @@ not assumed to improve every independently valid enclosure.
 ## What changed mathematically
 
 On each row the producer keeps the original Fourier coefficient
-boxes and writes the old whole-row mean error as \(e_z=e_0+\epsilon\),
-where \(e_0\) is a saved exact binary-rational constant. It forms
-the polynomial \(R-e_0C\) directly, then pays its own remainder,
-the original remainder of \(R\), the \(C\) remainder multiplied by
-\(|e_0|\), and the complete \(\epsilon C\) fee.
+boxes and writes the old whole-row mean error as $e_z=e_0+\epsilon$,
+where $e_0$ is a saved exact binary-rational constant. It forms
+the polynomial $R-e_0C$ directly, then pays its own remainder,
+the original remainder of $R$, the $C$ remainder multiplied by
+$|e_0|$, and the complete $\epsilon C$ fee.
 
 It also retains the independently valid separate triangle bound.
 A smaller norm estimate is never substituted as the uniform
@@ -93,7 +93,7 @@ each exact closed subcell. The old whole-parameter mean enclosure
 and original repair fee remain valid on every restriction.
 
 Complete support checks show that the known97..160 projection
-comes from the full \(D\) source alone; \(F_\nu\) has degree96 and
+comes from the full $D$ source alone; $F_\nu$ has degree96 and
 the mean column has degree64. Their zero high support is checked
 also for the complete remainder. This fact does not remove any
 unknown high input or its feedback.

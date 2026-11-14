@@ -575,3 +575,7 @@ root逐节核P1–37及真实global T根stable正号、完整mean源、density n
 ### 2026-11-14 15:13:41 UTC — known-cut v2 after actual zero-cell failure
 
 亲读43607861742 process：实际child1、5.000610242s、native1170B/3102485dba9c6f30970bb5e06357d2589d334d7d7a98ed20ad533840d38e7bda。v2源8df26cef87a2eef12638d9bb374a973497512056ed656a7d0ef5bb4601474c34与v1逐字差仅真实键名；原134SHA全部不变。新的失败artifact路径用container内$RUNNER_TEMP写GITHUB_OUTPUT，避免host路径假设。原失败不删，receipt由Actions实际读原native，继续原16新一列计算。
+
+### 2026-11-14 15:14:01 UTC — root规矩4公式分隔符
+
+将本轮三个root新文件的行内/展示公式分隔符统一为$与$$；只改格式，不改数学、原native或输入身份。Riccati R1–20另经phase全文静态核：真实Robin/flux、R9、C两行、频率Duhamel及R19–20一致，仍不把δd∂当0阶或旧核当新核。

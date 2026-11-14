@@ -3,7 +3,7 @@
 2026-11-14. This is the actual public execution of
 [the full-family root collar theorem](R133-supplement-full-real-delta96-positive-root-collar.md).
 It certifies that theorem's coefficients and complete source/port matrices
-for the real family \(|\delta|\le10^{-8}\). The unknown Fourier input is
+for the real family $|\delta|\le10^{-8}$. The unknown Fourier input is
 infinite; all 193 low coordinates and the independent mean remain.
 
 ## Actual execution and immutable identity
@@ -36,53 +36,53 @@ the original angular primitive and the genuine mean rank.
 
 | Quantity | Actual certified bound |
 |---|---:|
-| Optical speed | \(1.253633366957369<a<1.253801375889240\) |
-| Local \(A\) | \(<0.461631876110154\) |
-| Local \(E\) | \(<0.295343079891045\) |
-| Local \(B,C\) | \(<0.475011073880646\) |
-| Drift derivative | \(<0.083968021319957\) |
-| Raw local matrix | \(<1.232275786636911\) |
-| Complete primitive | \(<0.359851033979468\) |
-| Independent mean rank | \(<2.929322471953841\) |
-| Complete frame dyad | \(<33.459706045562704\) |
-| Complete high remainder | \(<131.016384185663\) |
+| Optical speed | $1.253633366957369<a<1.253801375889240$ |
+| Local $A$ | $<0.461631876110154$ |
+| Local $E$ | $<0.295343079891045$ |
+| Local $B,C$ | $<0.475011073880646$ |
+| Drift derivative | $<0.083968021319957$ |
+| Raw local matrix | $<1.232275786636911$ |
+| Complete primitive | $<0.359851033979468$ |
+| Independent mean rank | $<2.929322471953841$ |
+| Complete frame dyad | $<33.459706045562704$ |
+| Complete high remainder | $<131.016384185663$ |
 
 The last row is a sum of the actual fresh coefficient bounds. The
 separately declared rational envelope is
-\(E_H\le136569/1000<144\). Its product with the actual collar length
-\(h=9/10^6\) is
-\[
+$E_H\le136569/1000<144$. Its product with the actual collar length
+$h=9/10^6$ is
+$
  hE_H\le1229121/10^9<1/750.
-\]
-The new high resolvent bound is consequently \(750/749\).
+$
+The new high resolvent bound is consequently $750/749$.
 The ratio of coupled high frequencies is below 3; the smallest
 intermediate primitive index is 1. Neither the old band64 ratio nor
 an old high primitive denominator is substituted.
 
 ## Complete low/high return and actual matrices
 
-The exact low generator envelope is \(62286/125<500\);
-the low propagator bound is \(201/200\). The head contains all
+The exact low generator envelope is $62286/125<500$;
+the low propagator bound is $201/200$. The head contains all
 193 original coordinates and its mean. Head forcing can now reach
-high index288, so its \(H^{1/3}\) crossing bound is \(253/2\).
+high index288, so its $H^{1/3}$ crossing bound is $253/2$.
 The complete head/high return is bounded by
-\[
+$
  544177953/500000000000000<1/500000.
-\]
-The corresponding head resolvent is \(500000/499999\).
+$
+The corresponding head resolvent is $500000/499999$.
 
 The native and process save every rational entry of the state and
 endpoint trace response matrices. Their four input columns, in order,
-are low ordinary source, high ordinary source in \(H^{1/3}\), full low
+are low ordinary source, high ordinary source in $H^{1/3}$, full low
 root Cauchy ports, and the two incoming high ports. Frobenius bounds
 on the full two-source and full two-port blocks give:
 
 | Complete input/output map | Certified operator bound |
 |---|---:|
-| Ordinary source to full radial \(L^2\) state | \(1/12000\) |
-| Incoming ports to full radial \(L^2\) state | \(1/100\) |
-| Ordinary source to both full endpoint traces | \(1/36\) |
-| Incoming ports to both full endpoint traces | \(9/2\) |
+| Ordinary source to full radial $L^2$ state | $1/12000$ |
+| Incoming ports to full radial $L^2$ state | $1/100$ |
+| Ordinary source to both full endpoint traces | $1/36$ |
+| Incoming ports to both full endpoint traces | $9/2$ |
 
 These are bounds for the full blocks, including their low/high
 cross terms. They are not maximum-entry estimates. The last gate
@@ -93,11 +93,11 @@ forcing retains the regularity in D.20--21.
 ## Exact positive reference scope
 
 The reference begins at the true intrinsic root with
-\(g_M(r_*)=M^{-1/3}\). On the actual collar its speed is exactly the
-full-family \(-\gamma\langle v\rangle\). Beyond that collar the theorem
+$g_M(r_*)=M^{-1/3}$. On the actual collar its speed is exactly the
+full-family $-\gamma\langle v\rangle$. Beyond that collar the theorem
 allows any positive bounded frequency-independent extension bounded
-away from zero, with terminal scalar \(p_*\in(1/8,1/5)\).
-The backward root value is below \(66M^{-1/3}\), and the complete
+away from zero, with terminal scalar $p_*\in(1/8,1/5)$.
+The backward root value is below $66M^{-1/3}$, and the complete
 two-row root factor is9.
 
 The real nonzero-delta positive body and the actual outer terminal
