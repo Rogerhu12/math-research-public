@@ -33,7 +33,7 @@ jobs:
               'curvature_output_recovery','constrained_static_fourth','curvature_trial_diagnostics',
               'static_g_rational_dual','static_m8_tail_quotient','curvature_feasible_exchange',
               'constrained_static_m8_tail_quotient','g_first_translation',
-              'local_fourth_derivative_factors','curvature_feasible_trial_diagnostics','g_second_translation'}
+              'local_fourth_derivative_factors','curvature_feasible_trial_diagnostics','g_second_translation','derivative_m8_tail_quotient'}
           if not lanes or len(lanes)>2 or len(lanes)!=len(set(lanes)) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded continuation request')
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
@@ -94,6 +94,8 @@ jobs:
             /topics/visible-flex-new-mechanism/notes/actions-43646786908-1-curvature_output_recovery/
             /topics/visible-flex-new-mechanism/notes/actions-43648433010-1-curvature_feasible_exchange/
             /topics/visible-flex-new-mechanism/notes/actions-43649525432-1-g_first_translation/
+            /topics/visible-flex-new-mechanism/notes/actions-43649160345-1-constrained_static_m8_tail_quotient/
+            /topics/visible-flex-new-mechanism/notes/actions-43651096112-1-local_fourth_derivative_factors/
       - name: Prepare public output
         run: |
           git config gc.auto 0
@@ -198,12 +200,13 @@ jobs:
               'g_first_translation':'literature_G_first_translation.py',
               'local_fourth_derivative_factors':'literature_local_fourth_derivative_factors.py',
               'curvature_feasible_trial_diagnostics':'extract_curvature_feasible_trials.py',
-              'g_second_translation':'literature_G_second_translation.py'}
+              'g_second_translation':'literature_G_second_translation.py',
+              'derivative_m8_tail_quotient':'literature_derivative_m8_tail_quotient.py'}
           flags={'local_fourth_quotient':'--toy-only','curvature_epigraph_exchange':'--check-only',
               'full_m8_tail_response_projection':'--toy-only','constrained_static_fourth':'--toy-only',
               'static_g_rational_dual':'--toy-only','static_m8_tail_quotient':'--toy-only',
               'curvature_feasible_exchange':'--check-only','constrained_static_m8_tail_quotient':'--toy-only','g_first_translation':'--toy-only',
-              'local_fourth_derivative_factors':'--toy-only','g_second_translation':'--toy-only'}
+              'local_fourth_derivative_factors':'--toy-only','g_second_translation':'--toy-only','derivative_m8_tail_quotient':'--toy-only'}
           config=r['jobs'][lane]; script=root/'scripts'/scripts[lane]
           for path,expected in r['source_sha256'].items():
               if hashlib.sha256(Path(path).read_bytes()).hexdigest()!=expected:

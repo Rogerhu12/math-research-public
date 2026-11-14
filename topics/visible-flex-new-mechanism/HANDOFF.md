@@ -22,7 +22,7 @@
 
 物理best **e407a21488257097f60073f7e46e19f987dc963760957040ee7254a02889beb4**仍未改善：384/768 η .2664111742382151/.2671465317390794、κ73.3598430422/73.3598295508；fine strip.389989992779，镜像.1016723303，minq.8563692921，球范数².9906263485，minz.02，盒0。内门.38999余7.22e−9，外门.39余1.00072e−5。帽高重建余−2.78e−17在1e−9tol内，非严格非负。旧rawδ.26640845723失败不抬；同态误差差2.11e−6不是连续证书。κ峰patch .7875，metric入口t.1425；.061局部目标需κ≤16.39344。
 
-旧曲率43645177423/source2f1b809c：ηbar167/625、ζ=λ/100、真实I完整二jet/法向，160×384全值、16径向+0/L≤18批Jac。20轮/40major/41phys，每2步换池；池2080→3866。只读43647629532证换池时池内仍违约，唯一初态合格。原大文件由43646786908仅恢复字节，不复算。
+旧曲率43645177423每2步换池，41phys/池2080→3866；只读43647629532证池内尚未恢复即交换，仅初态合格。原大文件由43646786908恢复原字节，未复算；全部旧证据见对应actual notes。
 
 **新43648433010/source df535c0c已完整失败至原预算，非收敛**：库ed77abc3/driver60a3bd66，复用3866池和e407，仅池内按实际tol可行才交换。同一次SLSQP走73major、120phys/120epi、72deferred/0exchange；74Jac/740批。exit为120物理预算，优化255.162s/初始化251.400s/总535.082s，RSS1540636KiB。最终仍e407、η/κ未改善；不能再把本次失败归因两步重启。完整raw2739477B/SHA87945a59→gzip292460B/SHA8a9d8048，保存于actions-43648433010-1-curvature_feasible_exchange；详细notes/curvature-pooled-feasibility-first-actual-20261114.md。
 
@@ -40,7 +40,7 @@ R114八矩常态/20正态锥E8/8有理基准和整数圈+固定桥+IFT付准确M
 
 R101/R102有限词保E(t)+n(2Σv+tK)全部成本以Brouwer付响应查询。R120 universal闭锥lineality含R8+整个G仿射轨道，不授窄I/实际逆元。R121先中央修prototype全部商基准，R122再先有限H压低权、后中央N、最后响应n的乘积Brouwer，真实付r+s同I/同合法C∞圆查询，全部N²/N³及桥保。仅U4=R8+orbitG才授整函数，此前提未证。
 
-**R126 actual43649525432/source5852d7d4**：20个权零原列，4条真实依赖给上界16；原有理16/17子式模2147483647为775740714/172056171，ΛNG模548771152非零。故dimR8,0=16、NG∉R8、2≤s≤10；30.499s/RSS124.648MiB，完整报告保。R116真实pure像31、权0/1像3/1，配完整维16/7得核≥19、**R8≥50、U4/闭锥lineality/真实联合查询≥52**。下一仅N²G完整权−1的36原列；旧G/NG研究不重做。
+**R126/R128已付两次真实G平移**。NG actual43649525432/source5852d7d4：20→16真实响应，NG非成员。N²G actual43651413950/sourceba3a19b：36原列、7条原式依赖给29上界；原有理29/30子式模2147483647为567957958/581835661，Λ模1662767392非零，故dimR8,−1=29、N²G∉R8，**3≤s≤10**。25.366s/RSS124.445MiB，完整原证书已存。R116真实pure总像31、权−1/0/1像6/3/1，完整维29/16/7给核≥23+13+6=42；**R8≥73、U4/闭锥lineality/真实联合查询≥76**。下一只N³G完整权−2的新50列；原G/NG/N²G块不重算。
 
 R127纸证：若C≠U4，span C=U4使C* pointed；最高缩放权正极限，再双向平移末项，得到非零正ν、N*ν=0、单一整数权m+j，末阶j必偶。ν杀R8+orbitG；只缩减候选，未找到正泛函/未证全锥或半群逆元。
 
@@ -50,10 +50,14 @@ R116完整m8响应288=287新+1复用、11权块总秩31/四块15；所有真有�
 
 R124 actual43649160345/sourcec6956272：真实M0为∫(m0+m2)=0；规范化后154静态pure系数全入旧像，rank0；诱导Δ2=−Σa(m2)Fi有18系数、rank2/even1。真实pure周期商只剩∫Π8(L2+Δ2+L4)，固定桥bulk圈数N不改该商。原L2/L4仍欠，**N2=Pacc未证在W，不可删**。
 
-当前新local_fourth_derivative_factors源02785c34只导raw N0/N2和完整两mode v2/v4；10几何键保h_sss/k_sss，原DAG先扫描真实最高jet，超接口明确失败。早期N独立gzip先落，完整v随后；不重编152W/36基/旧静态目标。L2=v2−B_m0N2−B_m2N0，L4=v4−B_m2N2；raw N0与旧模W代表差只改R8。预算600s/1024MiB，输出总<4.8MB；本地8新人工已通过，研究actual43651096112/source2259b57仍运行。后继纯尾consumer5c7bb457已pending，须绑定完整actual回执再派，保原L2/L4及Δ2。
+**缺失完整因子actual43651096112/source2259b57已成**：02785c34原N0=79/N2=93，两个mode各v2=665/v4=1236，共3974根/3521可达atoms。真实cov/history导数先于累计值置0，两个rawDAG最高s阶都3，10键保h_sss/k_sss；原N2=Pacc，不重编W/旧静态目标。433.384s/RSS587.926MiB，8公开toy过。完整gzip2132064B/SHA9daddeaf（raw11864540B/58e450c4），早期N32482B/aa0c1b9c，main5477B/42289590，receipt6857ea6e；notes/complete-original-derivative-factor-export-actual-20261114.md保全身份。
+
+下一derivative_m8_tail_quotient源5c7bb457已派600s/1024MiB：只读完整新因子，计算L2=v2−B_m0N2−B_m2N0、L4=v4−B_m2N2并加R124全部18个Δ2；原N0与旧静态模W代表差仅改R8。所有新多项式/原响应分解/全部余项保存，旧同hash W响应直接读取；本lane尚不做几何IBP。
 
 R104/R106四块仅闭正则浸入环带，V=2VB+2VσB；移动右锚D_jσ(c)=(-1)^jD_j(-c)，非全函数反号。R110/R111已付整个m8 D25(c)，不重跑该层；其他尾/mixed、完整ruling/所有高阶收敛/闭嵌入/宏观reach仍未付。R93/R97真实驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，history不可独立指定。文献条件保：Engman仅S1等变，Freese–Weber另需主曲率不变。
 
 ## 6. 当前执行顺序
 
-continuation最多两lane：43651096112的02785因子仍运行；同run只读9390诊断已success。新g_second_translation(3c37aeae) actual43651413950/sourceba3a19b已success：36→29原式上界/真29-30非零子式，N²G非成员、3≤s≤10，R128正在完整登记；原G/NG不重做，下一只N³G权−2。全部输入有run/source/SHA，publisher真实pull核规则、gzip后<5MB、NFF循环。R129完整纸证已登记：真实X/Y下L2与L4分部积分，保加速度平方、两非对称H项及所有四次项，常值germ准确消正权边界势；不判商系数符号。tail_cost消费新因子后做真实pure密度；R130已完整证明U4=R8+K：K为八矩归一化/真实IBP后14个状态函数族的值span。先frameI/M0的BBᴿ去T，再同(frame,M)共同实际补偿得SO3×E8连续同态；真倒行后固定μ对所有开平端路径成立，方可δ/ε分离。只真span，不授成本逆元。预算退出只界定该次计算，继续open，不结束主任务。
+continuation最多两lane；因子、curvature readonly和N²G都完成。现在新单lane完整导数pure消费5c7bb457；literature准备N³G单块新50列（默认240s/1024MiB），mechanism准备同g/e407固定λ70短步，保完整384/768门及每个有用trial全系数，不能warm未保存eval6。全部输入有run/source/SHA，publisher真实pull核规则、gzip后<5MB、NFF循环。
+
+R129已付真实X/Y下L2/L4 IBP，保加速度平方、两H项和四次项，常值germ消正权端势。R130已付U4=R8+K：K为归一化/IBP后14个状态函数族的值span，先真实端点补偿/SO3×E8同态消约束，再δ/ε分离；只span，不授成本逆元。tail_cost的packet-only IBP源3092fcc9已pending，先看完整pure实际再接，不重算profile。预算退出只界定该次计算，继续open，主课题不结束。
