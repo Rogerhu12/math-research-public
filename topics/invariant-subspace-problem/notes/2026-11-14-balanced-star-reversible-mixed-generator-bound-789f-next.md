@@ -143,7 +143,7 @@ O_{ij}=\langle\psi,E_i^*E_j\psi\rangle\quad(i\ne j),
 \boxed{O\preceq\frac{s(Q-s)}Q I.} \tag{4.1}
 \]
 
-证明：对单位系数向量 (v\in\mathbb C^Q\)，令
+证明：对单位系数向量 \(v\in\mathbb C^Q\)，令
 \[
 B_v=\sum_i v_iE_i,\qquad
 a=\sum_i|v_i|^2\langle\psi,n_i\psi\rangle.
@@ -166,11 +166,11 @@ v^*Ov\le\min\{s(1-a),(Q-s)a\}\le\frac{s(Q-s)}Q.
 
 先把各组拆成 \(Q\) 个真实独立位，重复相同的组权。条件于 (S=s)，子集概率为
 \[
-\mu_s\(I\)=\frac{z_I}{e_s(z)},\qquad |I|=s.
+\mu_s\\(I\)=\frac{z_I}{e_s(z)},\qquad |I|=s.
 \]
 取完整第 \(s\) 层单位纯态
 \[
-\psi_s=\sum_{|I|=s}\sqrt{\mu_s\(I\)}\,e_I.
+\psi_s=\sum_{|I|=s}\sqrt{\mu_s\\(I\)}\,e_I.
 \]
 不同位 \(i,j\) 满足
 \[
@@ -203,7 +203,7 @@ N:=D^{-1/2}Z^{-1/2}\Delta Z^{1/2}D^{-1/2}
 \boxed{N=N^*,\quad N\text{ 逐项非负},\quad
 \|N\|\le c_Q\le1+\frac1Q.} \tag{5.3}
 \]
-当 \(Q=1\) 时直接为 (N=0,c_Q=0\)，与同式一致。
+当 \(Q=1\) 时直接为 \(N=0,c_Q=0\)，与同式一致。
 
 把 (3.5) 在两个真实列上分别乘 (D^{-1/2}Z^{1/2})、(D^{-1/2}Z^{-1/2})，得到
 \[
@@ -224,7 +224,7 @@ N:=D^{-1/2}Z^{-1/2}\Delta Z^{1/2}D^{-1/2}
 \|I-N\|\le2+\frac1Q.
 } \tag{5.5}
 \]
-这是真实全部源的统一混合生成元预算；在 \(Q=1\) 时 (5.4) 直接等于 (I\)。
+这是真实全部源的统一混合生成元预算；在 \(Q=1\) 时 (5.4) 直接等于 \(I\)。
 
 ## 6. 保留共同回归后的准确余项
 
