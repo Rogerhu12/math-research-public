@@ -401,3 +401,7 @@
 ### 首 forcing 接缝与首修正状态 jump
 
 [精确 J1–19](results/R133-supplement-exact-first-forcing-seams-and-first-correction-jump.md)由真实first-order fold方程导出 $[A_{rr}],[X_{\phi rr}],[T_{rr}],[G_{rr}]$，只含 $[u_r],[v_r]$ 及其实际mean。全one-gain项保留后得到完整forcing jump；首修正状态 $j_1=n^{-1}JP U_n([a_{1,r}],[b_{1,r}])$ 是必须另付的affine源。leading单独状态jump为零，但首修正一般非零。二/三阶coefficient jump账未删。
+
+### 完整 residual-split Hessian 的实际加性界
+
+公开43621690619通过9门/2.042509057数学秒，native `85b6bbb899ab04549131fd20a7b16209056e2a51cb012bffbd7a6ae590b047c5`。同一完整 $w_0$ 的all-new四源additive $<9.333170\,10^{-7}$，比原ordinary-only $1.348922\,10^{-6}$ 更小；每份完整mean/ordinary/divergence/Green/resolvent均保。详 [实际报告](results/R133-supplement-actual-residual-derivative-split-cap-Hessian.md)。原物理帽14费与未知 $Z-w_0$ erroroperator不变。

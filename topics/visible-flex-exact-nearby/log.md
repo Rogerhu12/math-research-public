@@ -147,3 +147,7 @@ root逐字核P1–29及原U14–17/Q10–31，复核窗口计数、三generator�
 ### 2026-11-14 17:37:52 UTC — 第一 forcing 与首修正真接缝
 
 根全文读9760B J1–19并回读原M.16/M.17；tail独核全有序重构、one-gain及r方向符号通过。SHA9e5888cf6a2aa0290234887bb73ee412a4fb91e848855e3449cd5d88c851cc65。解析身份独立推送：第一forcing jump仅背景一阶导数jump，所有1079真实seam仍须实际消费，原二/三阶账和高block投影/有限head余项保。未借此提前授强范数或完整逆。
+
+### 2026-11-14 17:40:21 UTC — residual-split Hessian 实际9门
+
+亲读11901B process/19477B summary/5192B报告，逐核child0/9门、source/164pin/1341与1977身份、完整三种表示比较。实际数学2.042509057秒、四次README diff空；新add9.33316914410231e−7，完整all-new最小。process542eb0344e5f87aaf61b3071e4803f9bb0b91ff1eae255cf75d85ccf1c218f9f，summarybcdc7998f6a620230ab323fe51bdbb8f920b160d8169d946a3f6ce8299b05e7e。未执行旧target/trial/norm，未知erroroperator和完整逆义务保。
