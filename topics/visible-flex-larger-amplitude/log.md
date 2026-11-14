@@ -236,3 +236,12 @@ run43616658549/source65fdfd019d/job132513122964 success，actual35 note16351B/06
 36/run43617334081/source6d19fb8c/job132515188990全流程成功但原方向失败，actual36 note全文读并补独立byte范围。全形成/恢复无损且行列max在[1,2)，初完整exact原σ3.72790553526839855e31（43/Pi109），一次精确残差修正后4.51078306413198296e31（43/Pi110）更坏，停保iteration0；全32.480485116s、0新J/native/trial。35数组/两ledger各578块129248行/三checkpoint/四operand见证/16RHS例与28完整原bytes核；未导出的LU仅producer SHA。后继38做原43/58保12步schedule的4短J，不重复整J或盲加修正。
 
 37/elevenquery从实际35 warm24ca673e…/status214d4eed…继续，保8RMS+原mid473477，仅加实际坏mid475；22528行/同4059局部列/12节点、原88J复用，无新wholeJ。三源55358acb…/6aed0dda…/85d0bb81…及接口全文读，operator完整diff数学kernel不变；全部原λ270/200/Hildreth200/17trial/全域/observer/newFD保持，当前24源+完整父producer。published父两件从Git原字节核，三lane名单/AST/YAML/内嵌Python核。
+
+
+### 2026-11-14 actual37全核与request38保原时序短J
+
+37/run43618014985/source6e9af389/job132517259808 success，209109318B/ZIP606a69a8…全核，actual37 note17610B/4bb02b64…全文读。α1/16同weights44.32987245937925→44.292172704126806，drop.037699755252447176/ratio1.0009043455；col.0071103207854/BC8.074771843e−8/FD8.381607559e−10/H1=4.7701880967848475e−14，仍非BVP/native。1/8与1/4全node/mid和十一query过，但完整left-RMS唯一470拒；102 B NPZ650数组/9observer8NPZ24数组/父35原bits及24/28源全核。下一39加RMS470但固定局部投影471–482+p，完整外部raw方向及affine offset保留，再原radial/备份/同f/全域。
+
+38/nativesplitprobe只在原43/58分6+6，launcher911b8d8a…/hook34d1bb4f…/window2973c144…及完整接口已读。原public28整包PIN、25/23所有seed/history/source/config不变；4with-J短窗口及4独立noJ窗口保原每步x/h/profile/全226含mean/一次出口port。每短块即存全J、mean tangent/输入输出/schedule，原出口对stored28；不重整576J、不Newton/trial/endpoint/audit，计划STOP明确。Node/公开source restore保留，无prepare112；三lane名单/源/YAML/内嵌Python静态核后仅公开Actions。
+
+/tmp空间不足，已逐2530文件共327578552B原SHA核后把本clone objects移/workspace/scratch/visible-larger-git-objects-20261114并保原symlink，HEAD/origin/status不变，无gc。30/32全核大阵本地副本及已验证ZIP冗余清理，GitHub artifact未动；35/37父原数组保留供继承核验。
