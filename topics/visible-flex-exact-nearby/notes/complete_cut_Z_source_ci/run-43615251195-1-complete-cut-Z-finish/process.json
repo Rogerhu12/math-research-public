@@ -8,7 +8,74 @@
   "workflow_commit": "b43c70eb26df2bf32589717aedae6649a09e760f",
   "worker_source_sha256": "dd13bf009bbee7b3074d9b200a80c91bbcb798b57d00ed3278e34f5533630b38",
   "started_utc": "2026-11-14T16:37:29.637248+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_complete_cut_direction_same_Z_finish",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-full-cut-Z-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_cut_direction_Z_sources.py",
+        "--phase",
+        "finish",
+        "--workflow-run",
+        "43615251195",
+        "--out",
+        "/__w/_temp/visible-exact-full-cut-Z-output/native/complete1977-cut-direction-and-same-Z-sources.json.gz",
+        "--candidate",
+        "/__w/_temp/visible-exact-full-cut-Z-work/science/topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--proposal",
+        "/__w/_temp/visible-exact-full-cut-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-physical128-cap-moving97-precomposition-native.json",
+        "--object",
+        "/__w/_temp/visible-exact-full-cut-Z-work/science/topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--repair-report",
+        "/__w/_temp/visible-exact-full-cut-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+        "--inlet",
+        "/__w/_temp/visible-exact-full-cut-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-repaired-moving96-physical128-C-matrix-native.json.gz",
+        "--q-vector",
+        "/__w/_temp/visible-exact-full-cut-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-13-R133-regular-r25over8-q256-floating.json",
+        "--q-native",
+        "/__w/_temp/visible-exact-full-cut-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-13-R133-regular-r25over8-q256-long-ports-native.json.gz",
+        "--hessian",
+        "/__w/_temp/visible-exact-full-cut-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-cap-trial-local-Hessian-native.json.gz",
+        "--cut",
+        "/__w/_temp/visible-exact-full-cut-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-moving-cap-cut-boundary-v2-native.json.gz",
+        "--direction",
+        "/__w/_temp/visible-exact-full-cut-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz",
+        "--cap",
+        "/__w/_temp/visible-exact-full-cut-Z-cap/native/complete-cap-native.json.gz",
+        "--cap-process",
+        "/__w/_temp/visible-exact-full-cut-Z-cap/process.json",
+        "--cap-cut",
+        "/__w/_temp/visible-exact-full-cut-Z-capcut/native/complete-cap-and-true-moving-cut-native.json.gz",
+        "--cap-cut-process",
+        "/__w/_temp/visible-exact-full-cut-Z-capcut/process.json",
+        "--boundary",
+        "/__w/_temp/visible-exact-full-cut-Z-boundary/native/known-waist-and-true-cap-sources.json.gz",
+        "--boundary-process",
+        "/__w/_temp/visible-exact-full-cut-Z-boundary/process.json",
+        "--pilot",
+        "/__w/_temp/visible-exact-full-cut-Z-completed-v3/native/known-cut-direction-complete-cap-mixed-source-pilot.json.gz",
+        "--pilot-process",
+        "/__w/_temp/visible-exact-full-cut-Z-completed-v3/process.json",
+        "--plan",
+        "/__w/_temp/visible-exact-full-cut-Z-actual-plan/native/complete-cut-direction-Z-plan.json.gz",
+        "--range-natives",
+        "/__w/_temp/visible-exact-full-cut-Z-actual-ranges/visible-exact-complete-cut-Z-range-0-512-43615251195-1/native/new-cut-direction-Z-cells-0000-0512.json.gz",
+        "/__w/_temp/visible-exact-full-cut-Z-actual-ranges/visible-exact-complete-cut-Z-range-512-1024-43615251195-1/native/new-cut-direction-Z-cells-0512-1024.json.gz",
+        "/__w/_temp/visible-exact-full-cut-Z-actual-ranges/visible-exact-complete-cut-Z-range-1024-1536-43615251195-1/native/new-cut-direction-Z-cells-1024-1536.json.gz",
+        "/__w/_temp/visible-exact-full-cut-Z-actual-ranges/visible-exact-complete-cut-Z-range-1536-1977-43615251195-1/native/new-cut-direction-Z-cells-1536-1977.json.gz",
+        "--range-processes",
+        "/__w/_temp/visible-exact-full-cut-Z-actual-ranges/visible-exact-complete-cut-Z-range-0-512-43615251195-1/process.json",
+        "/__w/_temp/visible-exact-full-cut-Z-actual-ranges/visible-exact-complete-cut-Z-range-512-1024-43615251195-1/process.json",
+        "/__w/_temp/visible-exact-full-cut-Z-actual-ranges/visible-exact-complete-cut-Z-range-1024-1536-43615251195-1/process.json",
+        "/__w/_temp/visible-exact-full-cut-Z-actual-ranges/visible-exact-complete-cut-Z-range-1536-1977-43615251195-1/process.json"
+      ],
+      "started_utc": "2026-11-14T16:37:33.088260+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 5.000569261999999,
+      "finished_utc": "2026-11-14T16:37:38.089333+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T16:37:31.306467+00:00",
@@ -25,9 +92,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T16:37:38.351538+00:00",
+      "before": "c3e46b9c1b9a5a4aa3d93626af7da8818e0aea9e",
+      "after": "56e4bf477f8838052506329628a071a3d726ac08",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T16:37:33.086024+00:00",
+      "final": false,
+      "commit": "56e4bf477f8838052506329628a071a3d726ac08"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -62,7 +143,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "c3e46b9c1b9a5a4aa3d93626af7da8818e0aea9e",
+  "last_read_commit": "56e4bf477f8838052506329628a071a3d726ac08",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-full-cut-Z-work/science",
   "actual_common_input_sha256": {
     "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
@@ -85,8 +166,8 @@
     "pilot-process": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4"
   },
   "actual_plan_native_sha256": "d8e0f9260b3dd0b1ba0fbd83891c54d4118f41e11e2a6e65783581ea31daf798",
-  "snapshot_utc": "2026-11-14T16:37:31.721619+00:00",
-  "wall_seconds": 2.08505495899999,
+  "snapshot_utc": "2026-11-14T16:37:38.386044+00:00",
+  "wall_seconds": 8.749480446999996,
   "native_files": [
     {
       "logical_file": "evidence/actual-range-0000-0512-process.json",
@@ -141,6 +222,12 @@
       "file": "evidence/original-pilot-artifact-process.json",
       "bytes": 16602,
       "sha256": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4"
+    },
+    {
+      "logical_file": "native/complete1977-cut-direction-and-same-Z-sources.json.gz",
+      "file": "native/complete1977-cut-direction-and-same-Z-sources.json.gz",
+      "bytes": 1077659,
+      "sha256": "8bc061ec200deb37548005297a1530d341eaa55065e70104cc5d82714aed21c5"
     }
   ]
 }
