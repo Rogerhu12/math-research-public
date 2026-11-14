@@ -138,3 +138,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 精确fold消去21pin消费者已装：仅新包络与源积分
 
 `visible-exact-exact-fold-cancelled-sources.yml` 已装。数学source52426ffbf1286f3ab06138879c03feb3795f5300a9e1f1e6625f6b1e2cf6a689，manifestc7c772e582a3d9197ab20e9df1c8efb1ad4ff0c881ea597c6e720e44fe85012d。六个新G/Gr/Grφ与Q/T标量jet表、精确gd/h/qv仅在公开Actions求值；原6profile/6tensor/1328矩阵moment表、径向权与正collar/body积分费用全复用。保full even mean、rawD/SV/V0与全部原seam；逐128行checkpoint，完整前缀按源/manifest/runtime/所有native身份续接。待actual，不把部署称为数值证明。
+
+### 精确fold消去actual：源界完整改进，继续直接径向导数
+
+[真实报告](results/R133-supplement-actual-exact-fold-cancelled-source-budgets.md)已登记43642808159的8门/六窗/4377积分。最小窗负源<713579.527495，RQJgd项的upper仍主导；新界未授strong-return或97全逆。直接消费已成native，继续辅助复域锚定fold/leading和同一w1完整L0w1；全部mean/IJ/seam保持。21:48终端再次不可用，按根规8小文本发布，runner执行真pull；不把只读ref核记为本机真pull。

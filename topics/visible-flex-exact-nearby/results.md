@@ -6,9 +6,11 @@
 
 ## 新增结论
 
+- **精确fold消去后六窗完整源的实际界**：[报告](results/R133-supplement-actual-exact-fold-cancelled-source-budgets.md)。公开43642808159 child0/8门，6scalar jets/4377新积分；全部旧profiles/tensors/1328矩阵moment/权和接缝0重算。最小窗负源<713579.527495、负primitive<108158.346702，最大窗负源<5093852.021530；完整mean/正collar和body分别保。此为完整upper改进，不授强返回或cutoff97。
+
 - **实际辅助复根域：两域通过、两域gap失败完整保留**：[报告](results/R133-supplement-actual-auxiliary-root-domains-and-complete-complex-third-jets.md)。43640181602真实child1，因为四域准则未全过；1e−4/5e−4各完整65+193与complex thirdjets已证，1e−3特征实部和2e−3曲率导数实部门未过。4域intrinsic/774原组件前缀与失败记录全保，0旧成功科学重算；用于后续新辅助fold。
 
-- **精确fold消去后的完整源包络与积分复用（N1–12）**：[证明](results/R133-supplement-exact-fold-source-envelopes-and-integral-reuse.md)。从原seam的真实混合导数和root的G重新计算六个标量jet表，再按精确gd/qv与QK支付源；原raw-D等三项及全部mean保持，原正分窗积分通过严格正下包络分母安全复用。新数值尚待Actions，旧科学0重算。
+- **精确fold消去后的完整源包络与积分复用（N1–12）**：[证明](results/R133-supplement-exact-fold-source-envelopes-and-integral-reuse.md)。从原seam的真实混合导数和root的G重新计算六个标量jet表，再按精确gd/qv与QK支付源；原raw-D等三项及全部mean保持，原正分窗积分通过严格正下包络分母安全复用。随后实际43642808159已过8门，见本节实际报告；旧科学0重算。
 
 - **实际正高块内主体与真实切口迹双输出**：[报告](results/R133-supplement-actual-positive-high-inner-body-and-cut-trace.md)。公开43639514776 child0/11门；4650旧行0重算。真cut重构<.595330881947，内head→正内body<226.101680824、→cut高even<111.623062290；外帽独立列<69.241039838/<34.183279287。原七源和真实mean/根incoming都保，仍需全高低反馈和负高逆。
 

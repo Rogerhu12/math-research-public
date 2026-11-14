@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 21:26:11 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 21:52:52 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在 Rogerhu12/math-research-public 工作；新数学只在公开仓库Actions。每条结论独推，非FF立即真pull --rebase再推直到成功，禁force。root管main/H/open/results/log；代理只交正文/blob，勿碰共享checkout。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。
 最后成功真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；两README本次无变。
-21:07终端恢复；原/tmp及旧functions.store失去，所有已推结论/native/源码blob均在public。已按原symlink重做partial clone/sparse checkout；未重算成功科学。现回terminal Git，至少每小时真pull，每次核两README，有变只读diff并立即照新规。根规12不另造冻结或独审审批门。
-最新真pull/两README blob 核：d882f7658383b555ff744e63192154921eb31ba9；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+21:07曾恢复terminal并重做partial clone；21:48环境再次unavailable，write_stdin报No usable execution environment。按根规8暂只connector<100KB文本，绝不读binary/gzip，不把只读ref核称真pull。所有已推native/blob仍在；新105pin矩阵pilot即用公开runner真pull，恢复terminal后立即pull并核两README。根规12不增冻结/独审门。
+最近只读README核：5700403bb501dbc6aaf60e5d510711fa4d42b1ac；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，objects在该目录.git/objects。相关祖先/子目录AGENTS均无文件。runner长算10min真pull；phase child45/outer50min前后真pull，均保README差异与已读提交；数学成功与出版失败分别记录。
 恢复前H完整在 notes/2026-11-14-handoff-before-terminal-restoration.md；本次旧9955B H完整在 notes/2026-11-14-handoff-before-cancelled-source-consumer.md。旧9601B/9967B H及40283B open、94540B results与更早链均见上述H档案及 notes/2026-11-14-results-before-infinite-cap-and-return.md；旧152结论入口全保。所有原身份、逐行native、失败和参数范围见actual报告/manifest，不凭摘要重构旧数学。
 
@@ -33,7 +33,7 @@ given-head全δ≤1e−8正图43627228225/18门，native498a5f8b…：χ<.788783
 原root43616813816/dbaaf9f7…1300行，forcing43624260519/54a79bf8…1328，negativeCauchy43621934843/3a214897…792，seam43625828234/871aa54d…1079全成。moment43629465215/7662350a…与matrix43632464994/3c8c4f3c…1328×2表；0 target/ray/幅度/旧矩阵重算。
 Abar真实径向分区已证；actual43635999157/9门 nativefec8740c…3434233B：6profile/4377积分，6tensor/1328×2旧表复用。R.001负源<715694.724049、primitive<108478.950298，主要RQJgd<632140.252773；R.02负源<5549241.466141。原analytic43634456797/e54f05c3…及全部更粗upper保，不作lower。
 C1–15已推ef2e82ef：H^-1HD=−iεQK(T)，真正gd=Dw0−ηhφ，完整qv=v gd+iεvφQKw0；旧正号代码是取绝对值后的upper，不能当精确符号。N1–12已推bdc58c8a，付新G/Gr/Grφ、精确h/gd/qv及安全正分窗费用复用；rawD/SV/V0、old mean及全部I/J不删。
-本次root新21pin入口 visible-exact-exact-fold-cancelled-sources.yml 已装：数学source52426ffb…26652B、CI0fe34702…9661B、manifestc7c772e5…12121B。仅新6scalar jet表/4377源积分，6幅度tensor/profile、1328旧表、旧径向权与正分窗费全部复用。1原root artifact，3仓库native，8源完整；45min/50min、真实pull、逐128行checkpoint、失败保。待actual；不授L0w1/强norm/97全逆。
+精确消去actual43642808159 child0/8门、14.890592036s：6scalar jets/4377新积分，原6profiles/6tensors/1328×2表、径向权/正分窗全部0重算。native0ceafc2b…3180936B；R.001负源<713579.527495/primitive<108158.346702，R.02负源<5093852.021530。完整9项/mean/seam保，source52426ffb…/manifestc7c772e5…。报告R133-supplement-actual-exact-fold-cancelled-source-budgets.md；两runner真pull至cc813fa7…无README差异。不授L0w1/strong norm/97全逆。
 G1–19/H1–10已证；G/H43638232415/14门 native41dc8aac…51084B，258原cubic一阶/3case，0旧target/fold。原R9e−6 Cauchy让内L0w1第二幅度粗upper达6.46e18，不能当下界。
 辅助E1–12同piece解析延拓已证fcc6b57a；actual43640181602 child1/4.824216s，四域全attempt：1e−4/5e−4通过，1e−3 Re(η√k)与2e−3 Re K_r盒gap未过。native6276b4b8…432808B，7身份门、774原组件、所有失败/六primitive完整保，0旧成功重算。报告 R133-supplement-actual-auxiliary-root-domains-and-complete-complex-third-jets.md，e0996f63；两真pull至42292594…空diff。phase正以true root锚+已付复导数收紧k/η/A，再付新fold/directleading/forcing；在原piece以唯一性认同，不能删真实物理seam或把thirdjets当fold。
 D1–24同w1 two-region L0w1入口已证；原primitive/IJ/独立mean/seam全保，真正CE/Cs、充分cutoff、closed高逆仍缺。

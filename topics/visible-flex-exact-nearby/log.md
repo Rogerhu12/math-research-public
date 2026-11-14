@@ -399,3 +399,7 @@ run43640181602真child1/4.824215924s，四域全attempt，两个域完整proved�
 root完成科学source26652B、CI9661B、worker16046B、manifest12121B及flow5888B；本地仅静态AST/文件hash/路径核验，无数值数学。固定21文件9553705B，八个真正Python入口/递归源，原root artifact一件及三件仓库native。旧Abar6profiles/6leading tensors/1328旧矩阵moment/径向权和正分窗费不重算；仅新六个scalar jet表及4377新源积分。科学source52426ffb…，CI0fe34702…，workere6600b85…，manifestc7c772e5…，flowb68d9be6…。精确gd是Dw0−ηhφ，旧source中plus只是三角上界；新C1–15符号完整保。
 
 45min数学child/50minwrapper、前后真pull+README差异核、非FF循环、逐128行不可变前缀与全部失败native保留。此前H9955B完整归档后压缩活跃H；本次pull读提交63274122293c0a225b4281aecb862fc8b6600ebc。入口推送触发实际public Actions，下一步核新完整source界。
+
+### 2026-11-14 21:52:52 UTC — 精确fold消去六窗actual独推
+
+visible-exact-astra-0df9核36740B process、2464B worker和publication：child0/8门、6scalar/4377rows、科学14.890592036s，native0ceafc2b…；旧科学全部0重算，完整mean/seam/正分窗保。21:48环境再次失联，按根规8只传小文本；本次只读核5700403bb501dbc6aaf60e5d510711fa4d42b1ac两README未变，最近本机真pull仍21:26:11。runner两次真pull至cc813fa7…无diff；继续直接径向导数和全矩阵方向。
