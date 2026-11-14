@@ -25,6 +25,8 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 **原来源预算：** [完整1834核β](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)已排任意次数31整数h0来源；[保根集H0原17式mod961](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)实际九源全cost86。继续真实第二余量/完整第二Bockstein及31饱和，不排31分母Q来源；[射影/∞96阶接口](notes/2026-11-14-r150-finite-budget-projective-cokernel-and-infinity96-789f.md)的有限预算条件保留。 [真实r2](notes/2026-11-14-r150-h25-second-original-residual-obstruction-789f.md)现排保持本次X mod31的全部mod29791提升；继续完整kerβ的δ2，先四新增方向作充分性入口，不能将其失败作全核失败。
 
+**完整第二提升入口：** [kerβ全基与δ2](notes/2026-11-14-r150-full-first-bockstein-kernel-and-second-interface-789f.md)保198个旧零第一像、4新关系及1632个真提升；当前r2商模恰2维。须恢复每个q后实际除961，四列若足够则接原17式；不足继续198，不能只验仿射相容或预称特征零。
+
 ## 当前接口一：原 Haar 慢符号的正常湮灭者
 
 原定义、全部已排范围和未付预算保[压缩前完整接口](notes/2026-11-14-open-before-balanced-star-789f.md)。S_N=Σ(j+1)⁻²N_j、S_Y=Σ(j+1)⁻²N_j(I+N_j)⁻¹在全H单射稠密；未知不变限制/有限放大子商上仍开。强主理想失败等价存在正有限秩Haar正常态ρ使φρ(SAcal)=0，不能免费降秩一或以WOT/SOT代ultraweak。

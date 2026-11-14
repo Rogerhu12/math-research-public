@@ -981,3 +981,7 @@
 ### R297 附录：全部spin的非微扰Jacobi相位与真实Boolean约束
 
 [完整自足推导](notes/2026-11-14-even-phase-full-spin-jacobi-flow-and-boolean-constraints-789f-next.md)在固定物理primitive链上从原d/e三塔直接导出所有磁层系数：X_m同spin为−mA_j/j，邻spin为sqrt(((j+1)²−m²)/(2(j+1)(2j+1)))R_j。中央零对角不允许删除相邻层A_j/j。全部高spin先进入完整指数，再对整个硬源作首Schur S，准确给h/ell/g/q及J=2hS⁻¹ell−Q−C*M⁻¹C。保所有权方向交换、R桥关系与真实平方权二次约束，未以任意Jacobi序列、截断指数或两大项分别界代统一相位预算。
+
+### R150 附录：完整第一Bockstein核与第二原来源的准确入口
+
+[完整核结构证明](notes/2026-11-14-r150-full-first-bockstein-kernel-and-second-interface-789f.md)由已存315维作用L=[[25,10],[13,9]]及四像关系，精确给kerβ的1834个多项式基方向：1632个真整数提升、198个尚未精确提升的零第一像，以及三个三角关系和ellK199。四新成本上界86/86/86/87，不称最小基。δ2(k)=[A(khat−31qhat)/961]在Q/imβ中良定义，实际q必须从原来源恢复；相容后的原6188行Y公式保全部整数进位。0.941910967秒小运算确认当前九r2商模恰两维、1/2 primary各一维，故可先四列作充分性入口，其失败不排旧198；尚未执行四个真实第二像。

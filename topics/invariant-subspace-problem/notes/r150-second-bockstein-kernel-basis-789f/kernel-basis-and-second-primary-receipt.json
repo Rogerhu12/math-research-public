@@ -1,0 +1,103 @@
+{
+  "format": "r150-exact-first-beta-kernel-module-v1",
+  "status": "completed",
+  "field": 31,
+  "sourceSHA256": "60d72484dbf097bf1b7c332a9699f3e6af05bef6f9fa307643677a64bbcd0381",
+  "firstCompleteBetaSystemSHA256": "71b3ffd524cca40f36ac59fb29694798013987c6153edb0c771420d75780daf8",
+  "secondResidualSystemSHA256": "fa9fda1c0176cbf3e8163fcfd26ed11ea4f92947587d3d455859d2b912cb38a4",
+  "stateSHA256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf",
+  "actualHighLabels": [
+    [
+      2192,
+      2275,
+      85,
+      1241,
+      3485
+    ],
+    [
+      2193,
+      2276,
+      85,
+      1242,
+      3497
+    ],
+    [
+      2194,
+      2277,
+      86,
+      1243,
+      3498
+    ],
+    [
+      2195,
+      2278,
+      86,
+      1244,
+      3499
+    ]
+  ],
+  "actualRestrictedAction": [
+    [
+      25,
+      10
+    ],
+    [
+      13,
+      9
+    ]
+  ],
+  "actualFourColumnBasisCoordinates": [
+    [
+      1,
+      0,
+      26,
+      18
+    ],
+    [
+      0,
+      1,
+      15,
+      22
+    ]
+  ],
+  "fourPolynomialsOverFirstGeneratorAscending": [
+    [
+      1,
+      0
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      21,
+      25
+    ],
+    [
+      21,
+      16
+    ]
+  ],
+  "firstGeneratorMinimumPolynomialAscending": [
+    2,
+    28,
+    1
+  ],
+  "full315PolynomialRelationsVerified": true,
+  "old198ZeroImageDirectionsRetained": true,
+  "fullHighKernelBasisCount": 202,
+  "newFourSourceCostUpperBounds": [
+    86,
+    86,
+    86,
+    87
+  ],
+  "newWeightedBasisMinimalityAsserted": false,
+  "originalSecondBocksteinColumnsComputed": false,
+  "secondResidualQuotientPrimaryDimensions": {
+    "sMinus1": 1,
+    "sMinus2": 1,
+    "wholeGeneratedModule": 2
+  },
+  "elapsedSeconds": 0.9419109669979662
+}
