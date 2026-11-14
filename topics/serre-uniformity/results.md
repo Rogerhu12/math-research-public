@@ -99,3 +99,5 @@
 - **R705（已证明）**：[实际更高Abel块与统一阶数上界](results/R705-actual-higher-Abel-blocks-and-uniform-order-bound.md)。同一θ/χ6/正κ4商及原规范，所有2≤m≤p−3、m≡2mod3的实际(p^(m−1)M_m)²由C_(p+2−m)C_(p−m−1)精确给出；完整保留逆σ与所有Fourier块/无限尾。端点m=p−3用C5=9/2、C2=−1/2得到原Abel首阶d≤(p−2)/3和缩放前缀赋值；不把端点当首项，进入归一QC仍保留R616条件。
 
 - **R709（已证明）**：[最后真CM4盘的原F3和全部非CM SS排除](results/R709-final-true-CM4-F3-and-complete-SS-exclusion.md)。公开run43589296050保持原R656全部F2/457函数及T3四核两双点；完整次数106 Norm、长度6秩6、R554联合半式和全54全局装配给真实F3。两个F2候选在四同标签下八差皆非零，现105/105非CM SS全排除；129盘八CM总分类由R707另完整合并。
+
+- **R708（已证明）**：[原部分Robert积的精确同源压缩与43值局部Norm纤维](results/R708-exact-isogeny-compression-and-the-43-valued-local-norm-fiber.md)。原q轨道可精确压缩为(q+1)/43个degree-q商曲线，仍不能成为一个小同源核。保持原Γ/τ标记、所有纯p输入及实际c_q/c_t和全部显示Norm的p-local共同祖先变形，令η_p遍取F43；可固定所有q局部资料。故还须真实全局普通单位条件，原C/m/L数值仍未求。
