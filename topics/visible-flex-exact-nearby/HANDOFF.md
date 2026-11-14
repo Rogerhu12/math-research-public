@@ -1,15 +1,15 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-visible-exact-astra-ac0d，2026-11-14 07:40 UTC。主目标未完成；持续执行，不因时长、阶段或等待收尾。
+visible-exact-astra-ac0d，2026-11-14 07:45 UTC。主目标未完成；持续执行，不因时长、阶段或等待收尾。
 
 ## 正式迁移、规则与同步
 
 唯一工作仓库现在是 Rogerhu12/math-research-public，路径 topics/visible-flex-exact-nearby。新根与题README均全文已读；根blob 1d05db9ebc859a5fd9a8ef773ab05ef1e9de0598，题blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
-最后真实pull --rebase：2026-11-14 07:43 UTC，SHA f39e9da14158931f125ba6eca971e2ce2a673659；根/题README blobs未变，差异检查完成。
+最后真实pull --rebase：2026-11-14 07:45 UTC，SHA f4d370049b6631a11b4cc24281c51504aded9f46；根/题README blobs未变，差异检查完成。
 每次push前真pull；至少每小时pull；每次检查两README，只读变更并立即执行。每结论独立commit/push；非FF立刻pull --rebase再推成功，不force。自身公开repo Actions已允许；旧math-research-ci/ci-queue停用，不再派发。PAT只瞬时CLI/env，不入文件/提交；公开输出无秘密。
 自动审批曾拒公开目标；已重新核原repo6caee8bb根§14及题README首段明确授权转同owner公开repo并pull/commit/push，按用户要求立即执行新规。本条无私密数据或凭据。
 root独占Git/H/open/results/log；代理只写自有新文件。H<10KB、md<100KB、open约30KB、单件≤5MB/>1MB压缩；大可重建数组留scratch；不freeze、独审、冗余核验；不动根LOG。只提交明确路径。
-新repo本地 /workspace/scratch/ac0d699811ad/math-research-public。旧math-research目录只供运行中进程读取原源/依赖，不再编辑提交；旧HEAD f5e4843b含未推cap96，旧origin/main 6caee8bb正式通知迁移，根/题差异均已读。新种子480a4313逐blob比对含全部旧已推结果，仅缺cap96五件；32个待推/恢复输入原样搬入新树，未重跑已成门。旧H归档 notes/2026-11-14-handoff-before-public-migration.md。旧stash唯一κ=M²/B修订已由新69提交接续；不pop旧树。
+工作路径 /workspace/scratch/ac0d699811ad/math-research-public。旧math-research只供仍运行的径向进程读原源/依赖，不再编辑/提交/pop。迁移已逐blob核并恢复全部未推结果，详notes/2026-11-14-handoff-before-public-migration.md；κ=M²/B旧stash修订已随69推。
 临时发布助手 /workspace/scratch/ac0d699811ad/git_checked_publish_public.py 每push前真pull并将新SHA写H，遇README变先停助手读差异后继续；publication助手逐条四索引。旧助手禁止再用。
 
 ## 对象、完成标准与重建
@@ -33,17 +33,18 @@ Python3.12.14/np2.3.5/scipy1.17；PYTHONPATH=/workspace/scratch/ac0d699811ad/run
 3. newton双regular q/ψ均全部6144块193态，完整FFT2.590797e−11/3.166507e−11已旧1c7a7ec迁入；q/ψ fullindex SHAed42a71d…/c509df40…，均含所有outer Robin及mean，不是全inverse。body v2 session56409实际exit1：7721系数及双完整均值已成，第0残差Finite/int类型拒、0残差行；原native/source/process保。v3 session11395修scalar并复用全部三前缀；477行显示宽独立包络过粗，改联合相关余项。ν双积分53534和物理边界v4 75591并行；输出regular-head-consumers-20261114/body-native-v3.json.gz。旧plain/gzip零行错误与旧b4 FFT1e14失败均保。
 4. cap96原660块恢复后完整normal0/223.699s，FFT5.705156e−15。cap96五件本提交从旧未推HEAD迁入；661×193×96states及左右derivatives在/dev/shm/visible-exact-cap-DN-20261114/73c2f7cbe033dbd7c7ba789217d4bebd26f0486fb7129be898457818429c09b0/matrix-RHS。SIGBUS−7原process/175件SHA复制/预分配全保。v2首宽片ordinary weightedL2 B.048293197/C.037999149（原unweighted6.45/5.07），非全域。
 5. 原宽片高j边界层λh~1.26；真正局部加密proposal session54988已normal0/680.24s：1296块/96列fullFFT6.861356e−15，source d82119aa…，scratch physical-cap-DN-refined16-20261114.json。首2闭片已真成B/C1.480231e−4/3.735972e−6；phase物理C128尾<1.757236e−14，session71138已全257态/128输入/1296块normal0/764.78s，原FFT6.475151e−15，H128×97实际12门39.71s全矩阵+mean+tail误差<6.518925e−12已推ab795771；再接完整连续残差；不把finite门当连续证书。物理coefficient jets旧202793ad全η/full∞尾首tiny/wide成功，非每盒已成。
-6. phase真实完整两ray复域3071strict+root+mean+repair、10门正常0/23.959s；σ1/4输入ρ>.1639445393，P′−1<.334292688，P″<3.257207/P‴<57.403329；native SHA91f1a3e5…已单推2147abff。完整distributed adjoint phase-source proof已单推9d78f797，square Jacobian/真mean/端项齐。实际B128×193/full paired BC 11门已成，误差<1.496913e−11已推3078fefc；全Arb7阶scalar首germ6门已推f39e9da1，余168germ由自身Actions四range并行，workflow visible-exact-phase-scalar-high7.yml本条推；cap6旧输出invalid不消费。不得用double拟合残差充真共轭。
+6. phase真实完整两ray复域3071strict+root+mean+repair、10门正常0/23.959s；σ1/4输入ρ>.1639445393，P′−1<.334292688，P″<3.257207/P‴<57.403329；native SHA91f1a3e5…已单推2147abff。完整distributed adjoint phase-source proof已单推9d78f797，square Jacobian/真mean/端项齐。实际B128×193/full paired BC 11门已成，误差<1.496913e−11已推3078fefc；全Arb7阶scalar首germ6门已推f39e9da1，余168germ由自身Actions四range并行，workflow visible-exact-phase-scalar-high7.yml已推ae7114e0（四range各42germ，首0复用；待观测实际run）；cap6旧输出invalid不消费。不得用double拟合残差充真共轭。
 phase旧817b4731/097ade1a：真response误差L2E0→C0≤1.273240，无q^-1；浮点qν Ω′≈.0202241584，direct+.0393631446/state−.0005213003/mean−.0186176859不可丢。目标二次CF根(612575−√5)/2228182、max partial7给四次单位根gap1/(36|j|)；尚无真rotation/β/j/ν Schur闭环，最终ν全族固定。
 
 ## 深尾与真正终局
 
 旧53–68源/mean/weak/双图/Γ*列均已迁入；Nm<Cζe^-τ∞M M^-30960，τ∞∈(5921/16,2961/8)，Cζ=εδ8192^-485/4。68真实5函数补偿盒generator>2^-175000 M^-1891；root同原端口/参数网络inverse<2^175007 M^1894，好集>1−147/16384，Nm余29066幂，常数/源单位保。
-69完整J0型49门已单推a25cbbb3，原native/proof SHA归档，κ=M²/B补明。70全negative pocket固定Γ型50新门已推519d4ea2；真X≤2^-1048576邻域有实际incoming，physical全部输出/两mean/两根图迹保。71真实Γ*完整fresh-support型59门已推41dd5ae2，72正保实际盒内径向补偿。随后仍有nonradial簇/ordinary source转端口/full inverse，不能静默换小球或profile。
+69完整J0型49门已单推a25cbbb3，原native/proof SHA归档，κ=M²/B补明。70全negative pocket固定Γ型50新门已推519d4ea2；真X≤2^-1048576邻域有实际incoming，physical全部输出/两mean/两根图迹保。71真实Γ*完整fresh-support型59门已推41dd5ae2，72实际同当前Γ全盒53新门已成，本条推；原非零径向补偿和独立rU列保，mixed簇共同PSD/解析sublevel硬门继续。随后仍有nonradial簇/ordinary source转端口/full inverse，不能静默换小球或profile。
 最终同一精确闭G要|G|≤511/400、support>4/49、|κ|≤12、κ+≤196/27、真腰ρ=.01、平帽a≤7e−6且z±∈[.9,1]、p5曲率峰145..148四marker。全补逆、ν Schur非零、非线性F=0、精确闭族、全部几何均未完成，继续open下一子问题，不收尾。
 
 
 
 
 
-最新已单推实际结论：results/R133-supplement-complete-Arb-scalar-jets-and-directed-high-Taylor-models.md。
+
+最新已单推实际结论：results/R119-supplement-same-current-parameter-finite-box-nonradial-pocket-form.md。

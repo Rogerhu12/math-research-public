@@ -1,0 +1,279 @@
+{
+  "status": "passed",
+  "producer": "new SymPy full-boundary identity and Python Fraction budgets",
+  "utc": "2026-11-14T07:40:26.090716+00:00",
+  "gate_count": 53,
+  "all_passed": true,
+  "gates": [
+    {
+      "name": "complete radial center crossing identity including boundary charge",
+      "passed": true
+    },
+    {
+      "name": "physical-to-wave kernel identity",
+      "passed": true
+    },
+    {
+      "name": "unchanged quartic lower margin",
+      "passed": true,
+      "value": "59535/32768"
+    },
+    {
+      "name": "unchanged quartic upper margin",
+      "passed": true,
+      "value": "975375/524288"
+    },
+    {
+      "name": "all-box Q divided by B remains above one",
+      "passed": true
+    },
+    {
+      "name": "all-box Q divided by B remains below two",
+      "passed": true
+    },
+    {
+      "name": "all-box actual first radial jet",
+      "passed": true
+    },
+    {
+      "name": "all-box actual second radial jet",
+      "passed": true
+    },
+    {
+      "name": "all-box actual third radial jet uses only C4",
+      "passed": true
+    },
+    {
+      "name": "center Cauchy variation has both ordered factors",
+      "passed": true
+    },
+    {
+      "name": "complete radial center Hessian coefficient",
+      "passed": true
+    },
+    {
+      "name": "actual box radius cancels four unnecessary port factors",
+      "passed": true
+    },
+    {
+      "name": "complete center matrix varies by less than dU over 64",
+      "passed": true
+    },
+    {
+      "name": "complete radial center form throughout the box",
+      "passed": true
+    },
+    {
+      "name": "auxiliary radial base lies in the actual quadratic ball",
+      "passed": true
+    },
+    {
+      "name": "auxiliary radial path does not reach the original parameter margin",
+      "passed": true
+    },
+    {
+      "name": "two true radial compensator components are retained",
+      "passed": true
+    },
+    {
+      "name": "principal nonzero radial mean term fits the rU column",
+      "passed": true
+    },
+    {
+      "name": "actual conjugacy weight times the nonzero radial row",
+      "passed": true
+    },
+    {
+      "name": "actual-minus-radial direct phase column reserve",
+      "passed": true
+    },
+    {
+      "name": "matrix E times both radial compensator components",
+      "passed": true
+    },
+    {
+      "name": "full infinite chi parameter inverse",
+      "passed": true
+    },
+    {
+      "name": "full infinite radial parameter inverse",
+      "passed": true
+    },
+    {
+      "name": "chi row main exponent",
+      "passed": true
+    },
+    {
+      "name": "radial row main exponent",
+      "passed": true
+    },
+    {
+      "name": "both true deep rows have the same complete feedback",
+      "passed": true
+    },
+    {
+      "name": "actual input absorbs full joint feedback",
+      "passed": true
+    },
+    {
+      "name": "both true row constants keep complete sums",
+      "passed": true
+    },
+    {
+      "name": "all-scaled compact support is no larger than original low support",
+      "passed": true
+    },
+    {
+      "name": "low-band dstar to dU comparison keeps the whole dyadic ratio",
+      "passed": true
+    },
+    {
+      "name": "current-box full-output local comparison",
+      "passed": true
+    },
+    {
+      "name": "current-box full-pocket hat comparison",
+      "passed": true
+    },
+    {
+      "name": "both actual and radial compensator integrals retained",
+      "passed": true
+    },
+    {
+      "name": "complete radial compensation is small in the center form",
+      "passed": true,
+      "log2_constant": -27586
+    },
+    {
+      "name": "radial compensation has favorable layer powers",
+      "passed": true
+    },
+    {
+      "name": "radial compensator full background response",
+      "passed": true,
+      "log2_constant": -28137
+    },
+    {
+      "name": "radial response has favorable complete layer powers",
+      "passed": true
+    },
+    {
+      "name": "chi parameter metric row in true band units",
+      "passed": true
+    },
+    {
+      "name": "chi complete background row in true band units",
+      "passed": true
+    },
+    {
+      "name": "nonradial radial-column metric contribution",
+      "passed": true,
+      "log2_constant": -27306
+    },
+    {
+      "name": "nonradial radial-column favorable layer powers",
+      "passed": true
+    },
+    {
+      "name": "all-parameter radial-column background coefficient",
+      "passed": true,
+      "log2_constant": 132162
+    },
+    {
+      "name": "actual supplied input pays both background factors",
+      "passed": true,
+      "log2_upper": -1964990
+    },
+    {
+      "name": "complete first-layer local comparison",
+      "passed": true,
+      "log2_upper": "-104875933/128"
+    },
+    {
+      "name": "complete first-layer outside response",
+      "passed": true,
+      "log2_upper": -554390
+    },
+    {
+      "name": "complete first-layer actual parameter chi row",
+      "passed": true,
+      "log2_upper": -487702
+    },
+    {
+      "name": "complete first-layer actual parameter chi background",
+      "passed": true,
+      "log2_upper": -1441966
+    },
+    {
+      "name": "largest polynomial layer ratio",
+      "passed": true
+    },
+    {
+      "name": "largest polynomial layer exponent",
+      "passed": true
+    },
+    {
+      "name": "all actual chi columns decay along the deep tail",
+      "passed": true
+    },
+    {
+      "name": "all eight errors fit a sixteenth",
+      "passed": true
+    },
+    {
+      "name": "full actual box retains the stated positive form",
+      "passed": true
+    },
+    {
+      "name": "actual fixed-stop incoming enters the chosen neighborhood",
+      "passed": true
+    }
+  ],
+  "scope": {
+    "object": "same current Gamma-star and the original all-scaled compact profile",
+    "box": "all real independent theta_M in the actual low-scaled band box U^2<=B",
+    "new": [
+      "center radial matrix Hessian without another K^4 loss",
+      "auxiliary radial reference ends at exactly the current Gamma",
+      "nonzero radial compensator and joint actual-minus-radial parameter rows",
+      "complete actual pocket crossing form on central plus/minus M two traces"
+    ],
+    "retained": [
+      "r_U/N_band factor",
+      "all output angular modes and both means",
+      "ordinary and weak affine sources with actual weak endpoint traces",
+      "physical principal endpoint dependence"
+    ],
+    "not_granted": [
+      "positive matrix on a mixed-frequency cluster",
+      "same-space norm derivative of a bare pullback",
+      "whole-network inverse or a solved outer nonlinear F"
+    ]
+  },
+  "bounds": {
+    "complete_parameter_chi_global_bits": 161150,
+    "complete_parameter_radial_global_bits": 160300,
+    "chi_row_bits": 1130,
+    "radial_row_bits": 280,
+    "radial_metric_relative_log2": -27586,
+    "radial_parameter_background_first_log2": -1964990,
+    "local_first_log2": "-104875933/128",
+    "outside_first_log2": -554390,
+    "gamma_first_log2": -487702,
+    "chi_state_first_log2": -1441966,
+    "full_box_form": "r_U*d_U/(16*N_band) on central E_M"
+  },
+  "file_sha256": {
+    "results/R119-supplement-same-current-parameter-finite-box-nonradial-pocket-form.md": "cbf30e1b9784b737d6788ef340e4b75a7c84266c415a8deb07007ce6228b517f",
+    "results/R119-supplement-radial-phase-compensation-and-full-Wronskian-Hessian.md": "3da66560cf5dafd91b2b731400c1769d7042be9994e57a6f9fa81f5dfd1394c0",
+    "results/R119-supplement-all-scaled-five-function-finite-box-generator.md": "545c007f81900e1670992bb92653e05a35ef39b3692410752072d82dafcff748",
+    "results/R119-supplement-actual-low-scaled-full-local-nonradial-positive-form.md": "5d979b6d2916ec426f79b24c8cf45f8dd8170e6b0d3a4b060e933b66201eeb63",
+    "results/R119-supplement-complete-negative-pocket-fixed-parameter-positive-form.md": "8c883e951c8b3771417ea4d0c6285b7f29902d38c636f051200848e65b3335fe",
+    "results/R119-supplement-actual-two-phase-compact-response-and-complete-pocket-form.md": "867a63d7a90729bb634d6ed503e84bf3aa950a3fd895723c938aa10389191066",
+    "results/R119-supplement-actual-compact-profile-label-response.md": "ce7285a1e7818098e64ce68d706e0830f2d2dbc020e531fb2bc898af702f0030",
+    "results/R119-supplement-actual-canonical-profile-generator-and-complete-weak-sources.md": "3b9899adaba350486def68d641e473bdd0dd2ab26075a38f1943780ed7dd4075",
+    "results/R133-supplement-actual-compact-ray-endpoint-response.md": "a368b51e8997019373cdb3f9e98214524a86f6940ef8750c328814fd0aef31ba",
+    "results/R133-supplement-fixed-stop-D0-complete-sources-and-incoming.md": "7c2c9b0d5070427078d7fcc2384ad2d5b98e0f59c71c3a9e9dff5bebf5d7284f",
+    "source": "81c3a9ebfcbc413de4b58dde30d96a26bf68149260a7983d61cf7ca5c91cd80f"
+  }
+}

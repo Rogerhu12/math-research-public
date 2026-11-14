@@ -207,3 +207,6 @@
 - 2026-11-14 07:40 UTC｜visible-exact-astra-ac0d：全Arb Laurent指数/无限primitive尾/真实scalar germ给3至12阶有向jets和精确dyadic Taylor合同；实际七阶首germ两片6门normal0，germ24.19s/整次26.49s，五scalar积分总余项<9.117418e−17。原cap6错截高阶输出明确invalid。固定52来源SHA的四range CI worker已准备，余168germ、全flow/共轭/参数Schur未授。 本条独立提交推送。
 
 - 2026-11-14 07:43 UTC｜新增本repo .github/workflows/visible-exact-phase-scalar-high7.yml：仅其自身push触发四个互斥germ范围，消费52个已钉SHA输入/首0原native，10分钟保存checkpoint并pull/rebase查两README；保失败prefix与真实process，计算结果回本课题，无私有输入。用于完成169germ全scalar，不重跑已成首0。
+
+
+- 2026-11-14 07:45 UTC｜visible-exact-astra-ac0d：尾72原低κ band全盒、同当前Γ*：53项新SymPy/Fraction门normal0，中心wave直接Hessian免再损K^4；辅助径向路径准确终止当前参数，非零v_rad及compact rho^5/rU两列完整保。±M双迹整pocket型沿原theta_M >rU dU/(16Nband)；全部输出/mean/source保，mixed簇PSD、同空间端图与全F仍须继续。 本条独立提交推送。
