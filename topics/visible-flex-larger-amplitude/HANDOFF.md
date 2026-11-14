@@ -28,15 +28,15 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 actual40主note2884841d…及QR审计c12bb189…全文读：111 B NPZ708数组/63 fullH NPZ/68 QR inverse NPZ及父37/当前31+FD35源/全部basis/reference bits核；因子未导出不冒独立原coef审计。damping解释d48d8b67…：λ270是步正则、当前入口硬锁，非实际merit/物理方程；现col无argmax，不猜470/473。
 下一父40 notes/public-actions-43621054216-1-twelvequeryqr/twelve-query-qr-warm/warm-001.json.gz SHA c62a7f12db331993698ed7e5d9086193d8e43d399dbd98adb2b869430e19aeda；status 30f19320351f37344c5e75c6dd8614707f26692c7888c2d0eafcdb532f24d359，Git实际bytes已核。冻结入口4b768828…/FD721f6337…/QR596356c0…不改，下一仅active16→32、原300s/1200H/90reserve/1200total/λ270/17trial保持；模型weights须按新场重建，无新坏query支持扩组。
 
-### Native：39完整失败，41捕获首单元每个原步
+### Native：41真实逐原步捕获完成；42完整1372段读回
 
 23/v3原577×224 seed全部576stage noJ域过，norm.04177307820740199>原2e−9；全112H/51下溢/9546负零保留。25同seed withJac合法，原correction后十trial全stage13/raw0/seg7拒，无cutJ/audit。原linearSteps亦定义far/graphs/gains/σ，不能整体改它冒只换初猜。
-28/run43611175099/source6bd52b44，原withJac+correction后计划STOP，0trial/nativefalse；29数组116chunks/238972680B全核。完整J SHA394ca2cc…/base6b01b385…/σecbfd55d…/Hc35972d…/far395804bb…；capture result ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7。原σfloat e7.3718e40（43/Pi110），chart极大不等于全A奇异。完整ZIP PIN在fetch v3 51224788…，31/33传输失败已修，34/36/38成功。
-34/36同保存A重解失败，36全exact3.7279e31→4.5108e31更坏；原数组/ledger核见actual notes，不盲加修正或派坏δ。
-38原43/58各12步6+6、四短J/四noJ完成，原出口/guard/mean逐bit同28；全62file/48步及原J核，actual38 c619d700…全文读。完整result80a2c7ec…及源在39 binder硬锁；无native/trial/audit。
-39/nativesplitband run43620111146/source56e891284/job132523707163：新578系统本身失败，非旧long e门。129696全exact初1.902947232115898e31→修正2.57012914199793e32更坏，最坏new45=旧44/Pi111；保δ39b28da8…/577restriction020cc235…，不派trial。artifact14123913123/33041738B/ZIP3e37d427…、49manifest项/两ledger/全J/4checkpoint/原operand全bits核；actual39 native note c33efb14…全文读，result5b0feb50…全SHA见note。
-既有51块>1全在raw0原0..71，余504已报max1.9352255763e−11。41/rawcell0steps已接原72段全部实际RK步，源c2341018…/2695cd2d…/07dd6101…全文读静态核；保cusp11/28/31/63原grid、226mean连续、tangent每步reset、每步即时流存J/state/mean tangent/已返回root.g，原72出口逐项对照不新增门。新步数/映射由真实schedule确定；未实算，不宣称改善。41/run43622149326/source0beffe5a运行中。dynamic consumer fde0e039…/30a467e8…及接口2d266a71…全文读冻结；实际result SHA待41，D/全部exact行/577restriction/4GiB单band资源账动态，保余504原J/旧σ/far/H。geometry备原十trial，坏39δ不派。
-原stage J解析implicit/Fourier/RK来源及四短块/window/新578接口均已读，见本日notes；不改ODE步/g/验收。28原cache在/workspace/scratch/visible-larger-native-capture-20261114/actions-debug；后续包在visible-larger-receipts-20261114/actions-debug，大阵原artifact保留。
+28/run43611175099/source6bd52b44，原withJac+correction后计划STOP，0trial/nativefalse；29数组116chunks/238972680B全核。完整J394ca2cc…/base6b01b385…/σecbfd55d…/Hc35972d…/far395804bb…；result ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7。原chart极大不等于全A奇异；原ZIP PIN在fetch v3 51224788…，31/33传输失败已修。
+34/36同保存A重解失败，36全exact3.7279e31→4.5108e31更坏。38原43/58各6+6且出口/guard/mean逐bit同28；39/nativesplitband新578系统自身失败，全exact1.902947232e31→2.570129142e32，最坏new45=旧44/Pi111，δ39b28da8…/577restriction020cc235…不派trial。完整49项及两ledger/原operand全核，actual39 c33efb14…；51块>1全raw0原0..71，余504已报max1.9352255763e−11，不只机械切44。
+41/rawcell0steps run43622149326/source0beffe5a/job132530011605 success；artifact14124209116/349636774B/SHA356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8。完整868原RK步/3472原field，cusp11/28/31/63各13其余12；原72出口及[minA,minD,原mean和]全部逐位同28。完整226state/mean、原grid/port及每步局部tangent保持，0新ODE步/oldlongJ/noJ/native/trial/endpoint/audit；最大已报单步J1.573959534e13不意味新系统有效。
+41 result 6e9485dcc8bc512481d714d794f87e76f785b577fd6f714ae12fd9d8e9468adf；实际D1372/nodes1373/N307552/单AB1377832960B。actual41 note fdcbaf40…及audit fed70c27…全文读：3999file、289新数组3545chunks354799016B、72field包/71452word、原28全数组、全72出口/均值/旧577映射/显式σ核；新旧全部实际bits保持。
+42双lane已接：twelvequeryqr从父40 active32；rawcell0band用冻结adapter fde0e039…/consumer30a467e8…，完整cut/1372stage/far全行exact和577restriction，余504原J/旧σ/far/H保持。一次LU/最多3严格改善exact修正、4GiB单band资源账，旧long defect只诊断；尚未执行不预断。fetch41 32840361…独立薄适配固定run/artifact/ZIP/result，原512247…网络/安全提取/readonly/receipt-last不变，token只fetch step。geometry备原十trial；只在实际新方向值得重放时用原guard/严格原σ下降，接受一步存全state后STOP。
+28原cache在/workspace/scratch/visible-larger-native-capture-20261114/actions-debug；后续小报告在visible-larger-receipts-20261114/actions-debug。已核39/40 B/H/inverse和41 J本地缓存释放，所有原artifact保留；41其余state/mean/field保供映射分析。R269节点G合同还在独立准备，未实施。
 
 ## 之后的完整闭合与同g精化
 

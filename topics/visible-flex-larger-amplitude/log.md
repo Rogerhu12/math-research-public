@@ -298,3 +298,10 @@ adapter38989B/fde0e039…、consumer19017B/30a467e8…及接口13516B/2d266a71�
 公开run43621054216/source8a59ebd9/job132526640205/artifact14123843853，389895464B/ZIP8f83ed58…全核。111 B NPZ708数组逐位同同父39；31当前与FD35源、原父37、63 fullH NPZ/68完整QR inverse NPZ及全部basis/reference/final/trial证据核。完整QR19.1285s/1486451296B内存因子未导出；17原H逆读回L2约1e−10，helper67.452s因16工作行预算止。未修复全stationarity4.930496854e−9仍1804负slack/min−33.72526277，不能冒QP最优；全向量repair .0095900792后同f H44.28257352优C44.29019464，原α1固定merit44.292419650985686→44.28040624161529，真实drop.012013409370396744/ratio1.21672，全原域过。新warm c62a7f12…/status30f19320…已核Git全bytes；col.00711030802717/BC7.9973e−8/新FD7.157355711e−10仍非BVP/native。完整主note2884841d…/QR审计c12bb189…直接发表；下一同入口从40重建weights、工作行16→32，保其余预算及原门。无新坏query，不凭空扩组。
 
 damping/scales解释d48d8b67…全文读：lambda270是步正则、不入实际merit或物理方程，当前冻源硬锁；S、Wr定义及full col max不同于weighted L2。现报告无col argmax，未推测位置；只有已保存数值和纯代数解释，无新本地科学计算。已核大型缓存副本按记录释放，原Actions artifact未动。
+
+
+### 2026-11-14 actual41全部原步采集与request42双分支
+
+公开run43622149326/source0beffe5a/job132530011605/artifact14124209116，349636774B/ZIP356d9d81…完整取回；本地空间不足只重新提取已核ZIP，无科学重算。868原步/3472field、原72出口和[minA,minD,原mean和]全逐位同28；全226state/mean及原cusp/ordinary schedule保持。actual41 note fdcbaf40…与audit fed70c27…全文读：3999文件/289数组3545chunks354799016B、72field包71452numberword、原28全部29数组、全旧577mapping/σ均核。result6e9485dc…/layout5f2e7ea4…；D1372/N307552/AB1377832960B，单步最大已报J1.573959534e13不推出新方向改善。0新ODE步/noJ/oldlongJ/native/trial/endpoint/audit，plannedSTOP保持nativefalse。
+
+request42接真实两路：原QR入口从40 warmc62a7f12…/status30f19320…续、active32其余原预算门保持；原步动态消费者fde0e039…/30a467e8…执行全部1372stage原尺度exact读回，保完整cut/far/H/原504块/明确新σ/全577restriction，旧long只诊断。新fetch41独立32840361…及接口49edc5c2…全文读，原v3 kernel512247…不改，仅显式新PIN/schema及独立适配器身份；GITHUB_TOKEN仅两个fetch step。新增rawcell0band的3lane名单/离线skip/输入/完整命令已静态核，大阵artifact-only。已有41 J payload审计完成后本地释放348422144B，原artifact及全部state/mean/field/小报告保留。尚无42科学结果或完整任务接受。

@@ -11,7 +11,7 @@ on:
         description: Actual numerical calculation
         type: choice
         default: all
-        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck, coupling112trust, trustresume, coldtailprobe, trustprotected, zerorkprobe, trustmultiline, zerorkprobev2, zerorkprobev3, angledomain, nativeseed, angleprojection, sevenprojection, nativecorrection, observedseven, fullhprojection, nativeband, mixedquery, tenquery, nativeequilibrated, elevenquery, nativesplitprobe, twelvequery, nativesplitband, twelvequeryqr, rawcell0steps]
+        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck, coupling112trust, trustresume, coldtailprobe, trustprotected, zerorkprobe, trustmultiline, zerorkprobev2, zerorkprobev3, angledomain, nativeseed, angleprojection, sevenprojection, nativecorrection, observedseven, fullhprojection, nativeband, mixedquery, tenquery, nativeequilibrated, elevenquery, nativesplitprobe, twelvequery, nativesplitband, twelvequeryqr, rawcell0steps, rawcell0band]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           python - <<'PYLANES'
           import json, os
           from pathlib import Path
-          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed', 'angleprojection', 'sevenprojection', 'nativecorrection', 'observedseven', 'fullhprojection', 'nativeband', 'mixedquery', 'tenquery', 'nativeequilibrated', 'elevenquery', 'nativesplitprobe', 'twelvequery', 'nativesplitband', 'twelvequeryqr', 'rawcell0steps'}
+          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed', 'angleprojection', 'sevenprojection', 'nativecorrection', 'observedseven', 'fullhprojection', 'nativeband', 'mixedquery', 'tenquery', 'nativeequilibrated', 'elevenquery', 'nativesplitprobe', 'twelvequery', 'nativesplitband', 'twelvequeryqr', 'rawcell0steps', 'rawcell0band'}
           if os.environ['EVENT_NAME'] == 'workflow_dispatch':
               selected = os.environ['DISPATCH_LANE'] or 'all'
               lanes = ['free3', 'geometry', 'coupling', 'tailzero', 'cardinal'] if selected == 'all' else [selected]
@@ -109,6 +109,8 @@ jobs:
             /topics/visible-flex-larger-amplitude/notes/public-actions-43616658549-1-tenquery/ten-query-warm/driver-status.json
             /topics/visible-flex-larger-amplitude/notes/public-actions-43618014985-1-elevenquery/eleven-query-warm/warm-001.json.gz
             /topics/visible-flex-larger-amplitude/notes/public-actions-43618014985-1-elevenquery/eleven-query-warm/driver-status.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43621054216-1-twelvequeryqr/twelve-query-qr-warm/warm-001.json.gz
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43621054216-1-twelvequeryqr/twelve-query-qr-warm/driver-status.json
             /topics/visible-flex-larger-amplitude/notes/public-actions-43619564953-1-nativesplitprobe/native-same-schedule-split-probe/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43603818345-1-zerorkprobe/same-RK-candidate-native-probe/summary.json
             /topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-zerorkprobev2/same-RK-candidate-native-probe-v2/summary.json
@@ -164,7 +166,7 @@ jobs:
         with:
           python-version: '3.12.14'
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
-        if: matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'trustresume' && matrix.lane != 'trustprotected' && matrix.lane != 'trustmultiline' && matrix.lane != 'angledomain' && matrix.lane != 'angleprojection' && matrix.lane != 'sevenprojection' && matrix.lane != 'observedseven' && matrix.lane != 'fullhprojection' && matrix.lane != 'nativeband' && matrix.lane != 'mixedquery' && matrix.lane != 'tenquery' && matrix.lane != 'nativeequilibrated' && matrix.lane != 'elevenquery' && matrix.lane != 'twelvequery' && matrix.lane != 'nativesplitband' && matrix.lane != 'twelvequeryqr'
+        if: matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'trustresume' && matrix.lane != 'trustprotected' && matrix.lane != 'trustmultiline' && matrix.lane != 'angledomain' && matrix.lane != 'angleprojection' && matrix.lane != 'sevenprojection' && matrix.lane != 'observedseven' && matrix.lane != 'fullhprojection' && matrix.lane != 'nativeband' && matrix.lane != 'mixedquery' && matrix.lane != 'tenquery' && matrix.lane != 'nativeequilibrated' && matrix.lane != 'elevenquery' && matrix.lane != 'twelvequery' && matrix.lane != 'nativesplitband' && matrix.lane != 'twelvequeryqr' && matrix.lane != 'rawcell0band'
         with:
           node-version: '24.22.1'
       - run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
@@ -183,7 +185,7 @@ jobs:
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_operator_interface_check.py" \
             --out "$VISIBLE_OUT/operator-interface.json"
       - name: Fetch the byte-pinned actual28 public artifact into independent storage
-        if: matrix.lane == 'nativeband' || matrix.lane == 'nativeequilibrated' || matrix.lane == 'nativesplitprobe' || matrix.lane == 'nativesplitband' || matrix.lane == 'rawcell0steps'
+        if: matrix.lane == 'nativeband' || matrix.lane == 'nativeequilibrated' || matrix.lane == 'nativesplitprobe' || matrix.lane == 'nativesplitband' || matrix.lane == 'rawcell0steps' || matrix.lane == 'rawcell0band'
         timeout-minutes: 15
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -195,6 +197,30 @@ jobs:
             --expected-sha256 0ff8e6f597af60f19243b5457c28e8638096c775551b6f3d044dc2d2f1fabeee \
             --out "$RUNNER_TEMP/actual28-pinned-input-${{ github.run_id }}-${{ github.run_attempt }}"
           cp "$RUNNER_TEMP/actual28-pinned-input-${{ github.run_id }}-${{ github.run_attempt }}/_pinned_public_artifact_receipt.json" "$VISIBLE_OUT/actual28-artifact-fetch-receipt.json"
+      - name: Fetch the byte-pinned actual41 original-step public artifact
+        if: matrix.lane == 'rawcell0band'
+        timeout-minutes: 15
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/exact_20261114_fetch_pinned_rawcell0_steps.py" \
+            --run-id 43622149326 --artifact-id 14124209116 \
+            --artifact-name visible-mainline-rawcell0steps-43622149326-1 \
+            --expected-size 349636774 \
+            --expected-sha256 356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8 \
+            --out "$RUNNER_TEMP/actual41-step-capture-input-${{ github.run_id }}-${{ github.run_attempt }}"
+          cp "$RUNNER_TEMP/actual41-step-capture-input-${{ github.run_id }}-${{ github.run_attempt }}/_pinned_public_artifact_receipt.json" "$VISIBLE_OUT/actual41-artifact-fetch-receipt.json"
+      - name: Solve the actual1372-stage system with complete original-scale exact readback
+        if: matrix.lane == 'rawcell0band'
+        timeout-minutes: 45
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/exact_20261114_rawcell0_step_equilibrated_correction.py" \
+            --capture-directory "$RUNNER_TEMP/actual28-pinned-input-${{ github.run_id }}-${{ github.run_attempt }}/native-correction-capture" \
+            --step-directory "$RUNNER_TEMP/actual41-step-capture-input-${{ github.run_id }}-${{ github.run_attempt }}/native-rawcell0-step-capture" \
+            --step-result-sha256 6e9485dcc8bc512481d714d794f87e76f785b577fd6f714ae12fd9d8e9468adf \
+            --equilibration-passes 3 --refinement-steps 3 --exact-workers 2 \
+            --max-band-bytes 4294967296 \
+            --out "$VISIBLE_OUT/rawcell0-step-equilibrated-correction"
       - name: Resolve the saved complete native system with pivoted band LU
         if: matrix.lane == 'nativeband'
         timeout-minutes: 45
@@ -223,7 +249,7 @@ jobs:
             --equilibration-passes 3 --refinement-steps 3 --exact-workers 2 \
             --out "$VISIBLE_OUT/native-split-equilibrated-correction"
       - name: Restore pinned source bytes only from the public repository
-        if: matrix.lane != 'free3' && matrix.lane != 'gwcompat' && matrix.lane != 'circleprobe' && matrix.lane != 'gwvelocity' && matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'nativeband' && matrix.lane != 'nativeequilibrated' && matrix.lane != 'nativesplitband'
+        if: matrix.lane != 'free3' && matrix.lane != 'gwcompat' && matrix.lane != 'circleprobe' && matrix.lane != 'gwvelocity' && matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'nativeband' && matrix.lane != 'nativeequilibrated' && matrix.lane != 'nativesplitband' && matrix.lane != 'rawcell0band'
         run: |
           PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PY'
           import os
@@ -888,7 +914,7 @@ jobs:
             --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_TWELVE_WARM" \
             --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
             --tail-config "$VISIBLE_OUT/T112-config.json" --out "$VISIBLE_OUT/physical-response" --angles 4096
-      - name: Compare complete QR-H and fixed-support C from the same actual37 field
+      - name: Continue the actual40 complete field with32 QR-H working rows
         if: matrix.lane == 'twelvequeryqr'
         timeout-minutes: 30
         run: |
@@ -896,15 +922,15 @@ jobs:
             --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_OUT/preparation112/prepared.json.gz" \
             --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
             --tail-config "$VISIBLE_OUT/T112-config.json" \
-            --resume "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43618014985-1-elevenquery/eleven-query-warm/warm-001.json.gz" \
-            --expected-resume-sha dd83748341c8d6172096fc644361018be7b29d856de621a0b333104d20aafdb8 \
-            --parent-status "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43618014985-1-elevenquery/eleven-query-warm/driver-status.json" \
-            --expected-parent-status-sha 37e70ad5a3c9ef828d93bcbf371b3a107e3890026731d7944d98e370987d29e0 \
+            --resume "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43621054216-1-twelvequeryqr/twelve-query-qr-warm/warm-001.json.gz" \
+            --expected-resume-sha c62a7f12db331993698ed7e5d9086193d8e43d399dbd98adb2b869430e19aeda \
+            --parent-status "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43621054216-1-twelvequeryqr/twelve-query-qr-warm/driver-status.json" \
+            --expected-parent-status-sha 30f19320351f37344c5e75c6dd8614707f26692c7888c2d0eafcdb532f24d359 \
             --out "$VISIBLE_OUT/twelve-query-qr-warm" --iterations 1 --lsmr-iterations 200 \
             --damping 270 --projection-sweeps 200 --line-search-steps 17 \
             --budget-seconds 1200 --jac-workers 2 --angles 4096 \
             --full-h-budget-seconds 300 --full-h-trial-reserve-seconds 90 \
-            --full-h-max-active 16 --full-h-max-products 1200 \
+            --full-h-max-active 32 --full-h-max-products 1200 \
             --full-h-inner-iterations 64 --full-h-inner-relative-tolerance 1e-8 \
             --full-h-dual-sweeps 200 --qr-column-preconditioner none
           python - <<'PYTWELVEQR'

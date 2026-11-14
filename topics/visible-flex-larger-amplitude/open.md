@@ -83,17 +83,12 @@ R251四Loewner/完整Gram消费者已在request16通过三个解析例，但尚�
 
 完成全部数值标准后，给数个各<5MB网格、同g精化数据、全t/完整几何证据，明确无限尾或精确等距极限仍欠的严格存在论证。完整证明直接入results及索引，无额外独审/审批。必要旧未推依赖按HANDOFF幸存源重做，已恢复的43提交/R235–237及真RK24/RK48勿重复。只有全部README标准真实完成才收尾。
 
-### 最新native39读回
+### 最新native41读回与request42双分支
 
-新578系统本身全行exact初范数1.902947232e31，修正后2.570129142e32更坏，最坏new45对应旧44；[actual39完整结论](notes/2026-11-14-actual-request39-native-split-direction-failed.md) 已全文读并全字节核：49 manifest项、全部新旧J流/完整映射/两ledger/4checkpoint/原operand均过。既有逐块记录的大缺陷集中rawCell0多个segment，余504块远小。下一保原真实RK/grid（包括cusp）对首raw cell每步重置局部tangent，流式捕获全部短J/state；不机械只加44，不改g/ODE步/原门。动态depth consumer保旧边界/节点σ、实际mapping及577restriction，所有科学计算仅公开Actions。
+[actual39完整结论](notes/2026-11-14-actual-request39-native-split-direction-failed.md) 已证保存的新578系统方向本身失败：全行exact1.902947232e31→2.570129142e32更坏，51块大缺陷全在rawCell0、余504块较小。故第41次保原每步schedule/RK/profile/完整226state，逐原步重置tangent，未增加ODE步或改g。
 
+[actual41完整捕获](notes/2026-11-14-actual-request41-rawcell0-step-capture.md) 已实际完成：868原步/3472field，72原出口与[minA,minD,原mean和]全逐位同28；四cusp各13、其余12。新布局1372stage/1373node/N307552；所有3999文件、新289数组3545chunks、72原geometry包、原28完整数组、旧577映射和明确σ均字节核。新J最大已报条目1.573959534e13不等于新系统改善；0native/trial/endpoint/audit。
 
-### 第41次原始逐步捕获
+request42并行两条：前缀从真实40继续冻结QR入口active32；native按[逐原步新系统与完整exact接口](notes/2026-11-14-rawcell0-original-step-system-interface.md)消费原504 J和868新局部J，一次LU/3次幂二均衡/最多3严格改善精确残差修正，完整cut/所有stage/far行读回及577restriction。原28与41以真实public artifact PIN取入，见[41取入合同](notes/2026-11-14-pinned-actual41-artifact-fetch-interface.md)。旧long-J残差仅诊断，不用它增门；真正后继仍是原nonlinear完整noJ/原十alpha/原guard及严格原σ下降。两条实际结果均待产生。
 
-原native39的完整失败分布已支撑处理rawCell0全部72旧stage。第41次rawcell0steps接独立三源：只在每个原RK步重启tangent，保原field/state/226mean、ordinary与cusp的真实x/h、一次原出口port；逐步J及全状态流式留artifact，72原出口/guard/mean对saved28读回，差异不当新增门。按真实总步数生成dynamic layout和明确节点σ，后继consumer复用余504旧块；不重原长J或noJ，不增ODE步/改g，不直接派trial。接口与完整来源见 [逐原步采集合同](notes/2026-11-14-native-rawcell0-original-step-capture-interface.md)；实际结果尚未产生。
-
-
-[逐原步新系统与完整exact读回接口](notes/2026-11-14-rawcell0-original-step-system-interface.md) 已读并冻结：独立adapter/consumer按真实L构造D=504+ΣL，完整cut/新段/far行、实际J流SHA/新矩阵身份、旧577节点restriction及全行整数残差均动态；原504块/旧节点σ保持，新增σ复制parent明示。一次带LU/最多3exact修正、4GiB单band资源账，不裁剪方程，不将旧long-J诊断作为门。具体actual41结果SHA和新artifact PIN须待真实回执；此组件未科学执行。
-
-
-[R269](results/R269-native-zero-reference-height-slope-gauge.md) 已完整证明原native零形状参考的可逆u/k坐标、可变w的完整方程与常w精确仿射传播，并给任意保存shooting矩阵的完整节点G/边界/原缺陷恢复式。这是潜在表示工具，尚未在actual28/41实施；不能将实际非零H或可变w替为参考，也不能把变换坐标再RK冒原离散映射。当前仍先完成实际逐步矩阵读回。
+[R269](results/R269-native-zero-reference-height-slope-gauge.md) 已完整证明原native零形状参考的可逆u/k坐标、可变w完整方程与常w精确仿射传播，及任意保存shooting矩阵的完整节点G/边界/原缺陷恢复式。尚未在actual28/41实施；实际非零H、port和节点geometry不能以理想参考替代，连续变换再RK也不冒原离散映射。下一G节点合同只读真实已存root.g，不阻塞42实际读回。
