@@ -599,3 +599,8 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 
 61新workflow visible-larger-public-current576-native.yml与14source pins/13实际selected输入一致，root已全文读。规则runner原嵌入README的replacement-string转义污染在发布前发现，改为实际两原文双JSON转义/slice拼接，最终3b8b6dd5；其余Git/子进程逻辑字节保持。Actions起步AST，独立partial镜像真pull/H更新和45分钟续查；科学仍原576/原十trial/原tol/finalJ/audit。全部32轮大件保、32GiB预检不改科学门。
 62既有artifact只读run43645082618完成：alpha1/4 merit43.91772416957067→43.80252837065667，col.007109265719764634/BC3.316280272939375e−8/FD7.060463202147657e−10；nearest1/2不只缺mid480/484，原已有left467/481/mid473也负，63继续同18从新dffaa532/4f823952一模型。163domain1052NPY/93condensed38全阵/14raw276059680B/53sources及父链全byte通过；complete factor未导出不冒独审。main两README再次核未变，具体接受闭场仍未取得。
+
+## 2026-11-14 22:04 UTC：actual62正式结论，63同18重新线性化，61进入完整求解
+
+正式note64570236保存62接受1/4、最近1/2既有left467/481/mid473也失败及完整Actions readback范围；全部原门/真实父链保持，warm与仿射FD不冒闭场。每条新结论即时发布，旧尝试不重跑。
+共享visible-larger-public-condensed-qp.yml为63只换实际62 warm/status、own18 schema、相同全部预算/新FD；四scientific源不变，publisher改当前dff4c623 pin。完整diff已读；terminal断线故按根Rule8只小文本API正常接main，不强推。61普通重接三次后cf6b5119入main，实际run43645948199全部起步检查PASS并开始原solve；独立规则镜像22:02:58真pull已读c383317e、双README不变。下一步消费实际61/63并继续完整BVP、闭合及README全指标。

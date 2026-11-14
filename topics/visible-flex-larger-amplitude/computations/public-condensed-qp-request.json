@@ -1,11 +1,11 @@
 {
-  "request": 62,
-  "requested_at": "2026-11-14T21:25:43Z",
+  "request": 63,
+  "requested_at": "2026-11-14T22:01:46Z",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "condensedqp"
   ],
-  "purpose": "Add only the actual60 nearest rejected left-RMS467 original full-angle query, start from its accepted warm/status pair, and retain the complete affine original-H response, lambda270, all budgets, all original gates and a fresh actual-warm derivative check.",
+  "purpose": "Relinearize one complete eighteen-query model at the exact actual62 accepted warm/status pair, retain every existing domain grid and the complete affine original-H response, lambda270, all budgets, all original gates and a fresh actual-warm derivative check. Add no query or scientific source change.",
   "source_sha256": {
     "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
     "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
@@ -24,7 +24,7 @@
     "geometry_20261114_sixteen_query_condensed_warm.py": "b5bfc20259b2d182ac881cf9dab7062912578fb489ef17940c259082bf184815",
     "geometry_20261114_sixteen_query_condensed_response.py": "9f0717bde76c7c29d86f05d3d9710bf7f1668e538ee32f99bc4167e5b731c025",
     "geometry_20261114_sixteen_query_collocation_observer_warm.py": "3f9df52b6d7dc2b721c91f7c97e28421283043b35f833d1151ef408e2ce9d05e",
-    "root_20261114_publish_actions.py": "e607b1cf0f034703f1c9b0f83cd7778a413a444c0d4ed990d2693602741fcc5f",
+    "root_20261114_publish_actions.py": "dff4c62358d6680134d2d94a0bd2eb6e332011ec67ee1ca0c390aee2cfb65aa4",
     "geometry_20261114_seventeen_query_domain_operator.py": "5bb4f214d4d2505185448a9162c0d995bdb6c37168e6d9542dfe6202e8f21a41",
     "geometry_20261114_seventeen_query_condensed_warm.py": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b",
     "geometry_20261114_seventeen_query_condensed_response.py": "f85fefd928e5ff7945e10082419e197b1b8c5cf3c4d00c1cdcd270380470bbbb",
@@ -35,9 +35,9 @@
     "geometry_20261114_eighteen_query_collocation_observer_warm.py": "6ad75ce4b350aee4ae52afe2c6045f50d657931419ef7c4b46d0758db3acd1ca",
     "exact_20261114_public_resume.py": "11399783f01b145ee3f23d88213af368daee9c16dfb858b40dd7316870b300a5"
   },
-  "actual_parent_run": 43640358327,
-  "actual_parent_warm_sha256": "bc7cadbc17f17832785ace32b011136fd43c04147d450d557730de0f05d40a23",
-  "actual_parent_status_sha256": "5b419af7340777328184d7699cf1a4de539cd608c889f6e4f81fe549b253a922",
+  "actual_parent_run": 43642866864,
+  "actual_parent_warm_sha256": "dffaa532026e07357d5115089d968c1be4472c44d9a5f5da25ebcb3e2291ac73",
+  "actual_parent_status_sha256": "4f8239522cef511aca6721ddc9c4541cc9d4e65db3e7260d277b090ad226c054",
   "declared_budgets": {
     "overall_seconds": 1200,
     "candidate_seconds": 600,
@@ -57,9 +57,9 @@
   "native_tail_requested": false,
   "research_goal_completed": false,
   "original_midpoint482_retained": true,
-  "complete_B_support_expanded": true,
+  "complete_B_support_expanded": false,
   "original_left_RMS482_retained": true,
-  "new_queries_added": true,
+  "new_queries_added": false,
   "source_entry": "geometry_20261114_eighteen_query_collocation_observer_warm.py",
   "mathematical_producer": "geometry_20261114_eighteen_query_condensed_warm.py",
   "observer_read_only": true,
@@ -67,10 +67,7 @@
   "original_midpoint481_retained": true,
   "original_left_RMS468_retained": true,
   "one_complete_model_call": true,
-  "actual_parent_source_commit": "da346d172715761d7da23da84c92d97a92b438de",
-  "actual60_original_status_bytes": 1577692,
-  "actual60_status_gzip_bytes": 200445,
-  "actual60_status_gzip_sha256": "3f8d0d342cdda5c38a6c0a9cb325fb37b909bb9e44fa689acb5a6b4723867c5b",
+  "actual_parent_source_commit": "cc813fa7521098fdeba86b8bf8c0fe7d8c96bba0",
   "complete_B_physical_nodes": [
     467,
     468,
@@ -98,20 +95,68 @@
     470,
     483
   ],
-  "added_original_query": {
-    "kind": "left-RMS",
-    "interval": 467,
-    "fraction": 0.17267316464601146,
-    "angles": 2048
-  },
   "nearest_rejection": {
-    "parent_run": 43640358327,
-    "alpha": 0.03125,
-    "only_invalid_original_RMS_query": 467,
-    "minimum_beta_squared": -0.006303834965005084,
-    "phi": 0,
-    "original_merit_decreased": true,
-    "all_seventeen_modeled_grids_and_original_nodes_midpoints_valid": true
+    "parent_run": 43642866864,
+    "alpha": 0.5,
+    "invalid_original_midpoint_indices": [
+      473,
+      480,
+      484
+    ],
+    "invalid_selected_modeled_queries": [
+      {
+        "kind": "left-RMS",
+        "interval": 467,
+        "minimum_beta_squared": -0.48061380876825943
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 481,
+        "minimum_beta_squared": -0.03707108422934646
+      },
+      {
+        "kind": "midpoint",
+        "interval": 473,
+        "minimum_beta_squared": -0.1048827240301029
+      }
+    ],
+    "additional_unmodeled_original_midpoint_indices": [
+      480,
+      484
+    ],
+    "scope": "The same rejected trial contains modeled nonlinear-domain failures. Do not attribute its rejection solely to unmodeled midpoints or infer that a new query is necessary."
   },
-  "original_left_RMS467_added": true
+  "actual62_original_status_bytes": 1466059,
+  "actual62_status_gzip_bytes": 185444,
+  "parent_status_transport_validation": "Preserve original compressed warm bytes; transparently decompress any public status gzip alias and hash the original JSON bytes without reserialization.",
+  "actual_parent_schema": "exact-constraint-eighteen-query-condensed-complete-H-warm-v1",
+  "original_left_RMS467_retained": true,
+  "own_schema_resume": true,
+  "existing_queries_unchanged": true,
+  "actual_parent_accepted_alpha": 0.25,
+  "existing_left_RMS_intervals": [
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    475,
+    477,
+    479,
+    480,
+    481,
+    482
+  ],
+  "existing_midpoint_intervals": [
+    473,
+    475,
+    477,
+    481,
+    482
+  ],
+  "original_parent_readback_run": 43645082618,
+  "original_parent_readback_summary_sha256": "07671a9b0d963e7c7bd92636db530ee73937d831d9b01b00b91b32a738ad0a0d",
+  "actual_parent_warm_bytes": 4792420
 }

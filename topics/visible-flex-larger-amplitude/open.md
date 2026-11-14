@@ -10,40 +10,39 @@
 
 真T112零锚、完整338×112 J、577×224原状态及audit已实际付费完成。只有七件身份相同且exact零H首请求可复用，新H与最终audit仍用真worker；不将微小H归零，不拿T96代T112。当前全部warm明确未解完整BVP，仿射零锚FD不冒新H原生响应。
 
-### 1A. 前缀：按真实非线性拒绝点补齐方向模型
+### 1A. 前缀：按真实非线性证据推进完整模型
 
-原完整原子模型、λ270/LSMR200、C-Hildreth200、17档alpha、原node/mid/两RMS、rho/merit门保持。线性角不等式只约束方向，不替代真实全域检查。原权重每轮刷新，禁止跨轮merit相减；unweighted col与weighted L2不同，原报告未给col argmax不能猜位置。
+原完整原子模型、λ270/LSMR200、C-Hildreth200、512工作行/dual200、17档alpha、原node/mid/两RMS、rho/merit门保持。完整H候选600s、原trial预留90s、恢复30s、总1200s；每轮真实刷新W，禁止跨轮merit相减。线性角约束只管方向，不能替代原非线性检查。
 
-[R270完整局部凝聚](results/R270-exact-local-support-damped-QP-condensation.md) 保完整236036维模型的原g、pure-global仿射列和全部外部physical/109freecore条件响应。平方根消元不以近似center替g，局部QP可行修复后一次完整原H恢复；同原C和全部真实门比较。原库可动态选局部节点，没有固定4397维限制。完整QR factor没有导出，不能因派生数组审计齐全而称独立完整factor审计。
+[R270完整局部凝聚](results/R270-exact-local-support-damped-QP-condensation.md)保全部236036维原g、pure-global仿射列、109freecore与所有外部physical条件响应。平方根消元不以近似center替g；局部可行修复后恢复完整原H。原C4059维只作同模型比较，不限制完整H的外部自由度。原完整QR factor在RAM而未导出，不冒完整因子文件独审。
 
-| 实际工作 | 已保存结论 | 下一用途 |
-| --- | --- | --- |
-| [actual40完整QR](notes/2026-11-14-actual-request40-complete-QR-H-working-row-limit.md) | 原H逆读回约1e−10；16工作行后仍1804负约束，修复后真实α1下降 | 已完成，不重同预算 |
-| [actual42前缀](notes/2026-11-14-actual-request42-complete-QR-32-row-warm.md) 与 [46原内部回执](notes/2026-11-14-actual-request46-request42-working-row-and-radial-readback.md) | 32工作行预算停止；未修复1668负slack、内部radial .0078912695；外层1不能称无修复 | 完整原报告已回读，不重科学 |
-| [actual45完整局部QP](notes/2026-11-14-actual-request45-condensed-QP-and-midpoint482-limit.md) | 12query/24576行、局部4397；同f H43.8582164优C44.2768871，α1/32真下降；最近拒绝仅mid482 | 完整数组/父链与14root raw已审，已接48 |
-| [actual48](notes/2026-11-14-actual-request48-thirteen-query-and-left-RMS482-limit.md) | 加mid482→13query/26624行/4735局部；H43.8445468优C44.2514049，α1/256才真下降 | 最近五档13选定网格/node/mid均好，完整left-RMS482拒；据此接49 |
+已完成的逐次原因和全部原件，见[45](notes/2026-11-14-actual-request45-condensed-QP-and-midpoint482-limit.md)、[48](notes/2026-11-14-actual-request48-thirteen-query-and-left-RMS482-limit.md)、[49](notes/2026-11-14-actual-request49-fourteen-query-and-left-RMS469-limit.md)、[53](notes/2026-11-14-actual-request53-working512-and-midpoint481-limit.md)、[56](notes/2026-11-14-actual-request56-left468-and-collocation-location.md)、[58](notes/2026-11-14-actual-request58-quarter-step-existing-domain-limit.md)、[60](notes/2026-11-14-actual-request60-left-RMS467-limits-seventeen-query-continuation.md)。这些科学计算和已完成byte核不重跑。60最近1/32试探只有left467失败，故62仅加该查询；58最近试探已含被建模点失败，故60采用同源重新线性化，不能从较远试探盲加查询。
 
-[actual49完整14-query](notes/2026-11-14-actual-request49-fourteen-query-and-left-RMS469-limit.md)接受α1/16，最近仅left469拒，已据此派51，原件/完整audit保留。
+**最新实际62已完成并正式保存**：[完整结论](notes/2026-11-14-actual-request62-quarter-step-and-modeled-nonlinear-domain-limit.md)。原run43642866864/sourcecc813fa7521098fdeba86b8bf8c0fe7d8c96bba0/job132594102992；原artifact14132473712/492837872B/ZIP220ad8c51a147942b663cd9196f009ecc976d1ff270b0348e494e08cf5e90730。Actions只读run43645082618实际完成原包CRC/SHA与全部导出字节检查，不重复数学。
 
-**前一父actual56完成**：run43636630003/source b8a19c16fc1363ffa1a66f39b9403e0dfa93e169；[完整实际结论](notes/2026-11-14-actual-request56-left468-and-collocation-location.md)。16query/32768行/B5073，512工作行末slack−7.66609e−14，最终全slack非负，完整原H恢复relative1.0766691e−15；浮点KKT/rawgap非认证。
+| 同一62模型的原读数 | 实际结果 |
+| --- | --- |
+| 原alpha | 1/4接受；只执行3个原trial |
+| 固定W merit | 43.91772416957067 → 43.80252837065667 |
+| 实际下降/预测比 | .11519579891400156 / .8917561974918092 |
+| 最大physical col / BC | .007109265719764634 / 3.316280272939375e−8 |
+| 原新warm FD最大误差 | 7.060463202147657e−10 |
+| 原domain与RMS | 全18网格/node/mid及两698RMS合法 |
+| 本场native / 完整BVP | 仍未接受；FD仍仅真零锚仿射响应 |
 
-实际alpha1/32接受，本轮merit44.10538196200878→44.084143195501056，col.007109940451957601/BC5.989189850450424e−8/FD6.957649122839063e−10。最近1/16及1/8/1/4全部16真实网格、nodes/mids合法且merit降，仅原left-RMS468拒；最近β²−.009420476255991517/phi0。不能凭literal max512再抬预算。
+最近被拒alpha1/2的原mid失败为473/480/484；被模型覆盖的left467、left481、mid473本身也分别实际β²负（−.48061380876825943/−.03707108422934646/−.1048827240301029）。两未覆盖mid480/484是原观察，但不能归因为唯一缺query。这一步无完整finite merit/RMS验收，不能冒称其merit下降。全18线性预测虽合法，却不保证该有限步实际非线性合法。
 
-新observer实际定位最大col为interval461/radial m1/component1/row155819，原W199.0763850424081非零。B支持外仍有完整H外部条件响应/原方程，不能解释为遗漏/零权重或改方程。17原evaluate/1weights/0error；尾六为原有方向差分。全colraw未导出，不冒独立原阵审。
+62的完整H同模型objective43.64341286514907优于C43.917035679229286；最终全36864线性slack合法，global radial .9999999999880521。literal512停止不等于已证明优化误差大；浮点stationarity6.6108862087657996e−6/rawgap1.2079226507921703e−13不称认证最优，不据此盲抬预算。
 
-145domain936NPY/88凝聚38全向量/17colJSON/46源/父53与FD链、14raw217496448B全byte核，三个audit已推。当前父warm5a5b9620cec8c48e6ca60d71b2a9db28d00b7112f04bde1fa7d6d4c7245cc5ae；原status e644ee2adf52f8b7684c2f4360672e627f2a19135aa889cb6df4afb898b1247b，1350695B/publicgzip169659B，须透明解压核SHA。原零锚FD仍非新H native。
+**现在派63：同18自身schema重新线性化一次**。精确新parent为 `notes/public-actions-43642866864-1-condensedqp/eighteen-condensed-warm/`：
+- warm-001.json.gz，4792420B，SHA dffaa532026e07357d5115089d968c1be4472c44d9a5f5da25ebcb3e2291ac73。
+- 原driver-status.json，1466059B，SHA4f8239522cef511aca6721ddc9c4541cc9d4e65db3e7260d277b090ad226c054；公开gzip185444B，透明解出原字节，禁止解析后重序列化来冒原身份。
 
-**58已完成：run43638348140/source ba8bc4f4acd547fd5219826da4f6e35f859bca56/job132580074075**：仅加left-RMS468全2048角→34816，B完整468..483+p/5411；C4059保外部468/469/470/483 offset。保512/dual200/600s/1200s/λ270/全部原门+新FD/只读colobserver，四新seventeen源冻结接线。[actual53](notes/2026-11-14-actual-request53-working512-and-midpoint481-limit.md)、51及更早完整存证不重跑。
+四18源码ec43c049/b9f7d915/5885daec/6ad75ce4不改；36864行、B支持467..483+p5749，C4059保全部outside offset467/468/469/470/483。63只改实际parent、own18 schema及记录，不增query/支持/科学门；完整H/原λ/全部预算/17trial/新warm真实FD不变。共享workflow fccbce17和request9b38956b的完整差异已读；实际运行身份取得后记H。
 
-**前一58与60启动**：实际alpha1/4接受，本轮固定merit44.08450062286488→43.925384505081816，col.00710961172228531/BC4.4918924725999154e−8/FD7.108999873259166e−10。最近1/2失败的mid473/475/481均已建模，不能据较远alpha1的mid480盲加第18查询。60已运行43640358327/source da346d172715761d7da23da84c92d97a92b438de，从58 warm3911b642…/原status64140c9f…（1276068B，gzip163444B）沿17 own-schema重线性化单个完整模型，保原λ/512/全部门。[最新58全文](notes/2026-11-14-actual-request58-quarter-step-existing-domain-limit.md)及prefix/observer/root14raw三审计已保存；完整新父SHA见H。
+完成的原byte范围为163domainNPZ/1052NPY、93condensedNPZ/38全阵/42refs、14raw276059680B、53source SHA、全部midpoint描述与父/新FDproducer绑定。详细622406B审计artifact-only，small总结89402B/07671a9b；142157B trials不是小文本，不再经connector整读或拆片。完整factor/wholecolraw未导出，明确保留此范围。
 
-**最新60完整结果/下一62**：[完整实际结论](notes/2026-11-14-actual-request60-left-RMS467-limits-seventeen-query-continuation.md)已全文读及三类byte审计。run43640358327/source da346d172…，alpha1/64接受，固定本轮merit43.92644933127726→43.91793532799495、col.007109591304982551/BC4.4217061600063744e−8/FD7.009663695797188e−10。最近1/32原node/mid/17全角网格均好且merit降，仅left-RMS467 β²−.006303834965005084/phi0拒；1/16同处，远1/8的mid480不据此盲加。62独立18查询仅加467，完整B467..483+p5749/36864行，C4059保全部outside offset；原λ/512/全部门不变，run43642866864已经完成。新父warm bc7cadbc…/原status5b419af7…1577692B（公开gzip200445B）见H。完整154domain994NPY/88condensed38全阵/17observer/48sources/父58、14raw245864112B均审PASS，fullfactor和wholecolraw未导出不冒独审。
-
-62接线已完成：[18查询独立接口](notes/2026-11-14-eighteen-query-condensed-col-observer-interface.md)四源及全部差异已全文读；数学核心8个AST与旧17逐项相等，27pins/11bash/6inlinePython静态通过。工作流先还原actual60原warm/status，运行新18一次完整模型及真正新warm FD；parent17与output18 schema明确分开。只增nearest467，没有新科学门；实际run43642866864/sourcecc813fa7521098fdeba86b8bf8c0fe7d8c96bba0的warm/FD/上传/发布均success。完整artifact下载时环境失联，未核complete标记；小报告已有三trial，具体接受/nearest拒绝/新父完整SHA/FDmax由新的Actions只读提取保存，不重跑数学。
-
-**62最新真实结论与63决定**：原run43642866864/sourcecc813fa7，经只读run43645082618完成原包CRC/身份/完整exported byte审。alpha1/4接受，固定本轮merit43.91772416957067→43.80252837065667，col.007109265719764634/BC3.316280272939375e−8/FD7.060463202147657e−10；全18/原node/mid/两698RMS合法。最近1/2有mid473/480/484失败，且已建模left467/481/mid473本身也负，不能称单独missing query原因；63从新pair dffaa532/4f823952继续同18一次新模型，λ/512/所有门保持。163domain/1052NPY、93condensed/38full、14raw276059680B、53sources均PASS；factor/wholecolraw未导出不冒审。
-
-[58最大col行的原保存方向](notes/2026-11-14-actual58-stored-final-direction-at-largest-collocation-row.md)：原row155819 b=-1.4154122374775011，最终完整H的已保存Az=.00026246452261009833，原W=199.07511842631416非零。完整模型本身对此行修正很小，不是漏行/零权重；已给对应精确代数预测式，不本地重算矩阵动作/贡献，也不凭此认定唯一λ原因或盲改模型。
+最大col仍interval461/radial1/component1/row155819，原W199.06443073038736非零，完整W SHA3427705ab17ebdb900dc2eb2b3e7f94e4ec39bd6b3e750a9e35fbef6765089db。该行在B支持外但保留于完整目标和H外部条件响应，不能解释为遗漏/零权重。[58原保存b与Az](notes/2026-11-14-actual58-stored-final-direction-at-largest-collocation-row.md)只给原读数与精确代数预测，不本地重算矩阵动作，也不冒唯一λ原因。
 
 ### 1B. Native：先分清保存矩阵、传播与求解误差
 
@@ -79,7 +78,7 @@
 
 [当前原576迭代接R273的源码可行性](notes/2026-11-14-current-native576-R273-synchronous-interface-feasibility.md)已明确：可只接原with-J/tol后的cor调用，使用本次完整ev/J/r/cut/far/σ，原十trial/fresh audit不变；动态QR类可用但当前1372 main/context身份不可改标签。59首步接受后已选同步桥作61续接，独立当前snapshot/完整原native循环正在实现。
 
-61完整执行源已保存：[当前576快照与QR合同](notes/2026-11-14-current576-fresh-snapshot-and-damped-QR-interface.md)、[实际59 selected到完整原native](notes/2026-11-14-current576-selected59-full-native-R273-interface.md)。四源码695c2a56/ac04842b/06b8c44c/0933ee81与断线前AST/Node核同；只换唯一非线性correction、每轮真withJ全576、全577罚块/常数、原十noJ/容差/最终J及fresh audit保。minA/D只保原bits不增finite门；无旧28缓存/softcut投影。完整逐轮大件由本仓Actions保，32GiB为资源预算不改科学门。当前无61数值结果。终端失联后依根Rule8仅以<100KB小文本发布，真实pull/规则检查/H更新的Actions规则runner3b8b6dd5已接好，61现在触发；令牌不进connector。62只读reader03a78684已在run43645082618完成原读数与完整exported byte审，不重跑原数学。
+61完整执行源已保存：[当前576快照与QR合同](notes/2026-11-14-current576-fresh-snapshot-and-damped-QR-interface.md)、[实际59 selected到完整原native](notes/2026-11-14-current576-selected59-full-native-R273-interface.md)。四源码695c2a56/ac04842b/06b8c44c/0933ee81与断线前AST/Node核同；只换唯一非线性correction、每轮真withJ全576、全577罚块/常数、原十noJ/容差/最终J及fresh audit保。minA/D只保原bits不增finite门；无旧28缓存/softcut投影。完整逐轮大件由本仓Actions保，32GiB为资源预算不改科学门。61实际run43645948199/sourcecf6b51193255dfc713610d2919598451ccdd49e2/job132603626663已过14源/13父件/AST/Node/容量/原78源码恢复，进入完整原solve，尚无原生结果。终端失联后依根Rule8仅以<100KB小文本发布；规则runner3b8b6dd5已于22:02:58实际pull/readc383317e并推H、45分钟续查，令牌不进connector。62只读reader03a78684已在run43645082618完成原读数与完整exported byte审，不重跑原数学。
 
 ### 1C. 真fullDN衔接与备选
 
