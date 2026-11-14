@@ -1,0 +1,327 @@
+{
+  "source_sha256": "ac04842bb9c42b9f29c8209d0d5f523c83744aa548e5615267521d8bf2c3141f",
+  "system_source_sha256": "695c2a564ada2bfc3cac251dfb5bd46bf99f6d16b696c64b75d9f90703a6ed90",
+  "factor_engine_source_sha256": "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33",
+  "kernel_source_sha256": "0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f",
+  "snapshot_result": {
+    "file": "result.json",
+    "bytes": 1301,
+    "sha256": "b49f483cf0e392850b220a93f843240ff5a7ace2a7b55910f2d7bea70bc350db"
+  },
+  "native_call": 1,
+  "nonlinear_iteration": 1,
+  "snapshot_sequence": 1,
+  "current_state_sha256": "78bd3880951910c473fa42b03bd87165b123e0339d4ced343f11e3ffb153caee",
+  "eta_cli_text": "1",
+  "eta_binary64": {
+    "value": 1.0,
+    "float64le_hex": "000000000000f03f",
+    "classification": "finite"
+  },
+  "diagnostic_completed": true,
+  "linear_direction_computed": true,
+  "new_matrix_identity_sha256": "fa74c276297f39b1ec601dcc522e5859cd7cd809c95f99771d1573b45fe8f41b",
+  "input_binding": {
+    "file": "input-binding.json.gz",
+    "bytes": 72310,
+    "sha256": "61cba6912ac7f6d16440ce4f7e3fb4b6bdda89c3a3b66d4397ab53411bdd6ea3"
+  },
+  "factor_report": {
+    "file": "factor-report.json.gz",
+    "bytes": 2058,
+    "sha256": "d6f77e77dca0866d4edaac2df371842d3696f04e746b5467bbc5dbf640c0e7e6"
+  },
+  "factor_summary": {
+    "complete": true,
+    "rows": 129248,
+    "columns": 129248,
+    "augmented_rows": 258496,
+    "stage_count": 576,
+    "node_count": 577,
+    "block_width": 224,
+    "node_penalty_blocks": 577,
+    "qr_calls": 1153,
+    "formation_calls": 1152,
+    "formation_underflow_to_binary64_zero": 0,
+    "pure_constant_rows": 129248,
+    "actual_factor_and_constant_bytes": 464891392,
+    "formed_model_identity_sha256": "64b30df2215dcaeb06b6acb12ca2cccb5be0ce82e6b12b21a94879808f71b217",
+    "pure_constant_energy_longdouble": {
+      "decimal_display": "1.3276958682844104709e-20",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "minimum_absolute_triangular_diagonal": {
+      "value": 1.1915065260525806,
+      "float64le_hex": "ccdca5256910f33f",
+      "classification": "finite"
+    },
+    "expected_factor_and_constant_bytes": 464891392,
+    "maximum_declared_factor_bytes": 2147483648,
+    "working_precision": {
+      "dtype": "float128",
+      "itemsize": 16,
+      "significand_bits": 64,
+      "minexp": -16382,
+      "maxexp": 16384,
+      "byteorder": "little",
+      "exact_rational_arithmetic_claimed": false
+    },
+    "elapsed_seconds": 22.64713808900001,
+    "maximum_RSS_kib": 928004
+  },
+  "factor_index": {
+    "file": "factor-index.json.gz",
+    "bytes": 58971,
+    "sha256": "4ce32bcb6dee3e94f8a32a53713a929fe6e210287196fc72940bab898d902485"
+  },
+  "formed_stage_inventory": {
+    "file": "formed-stage-inventory.json.gz",
+    "bytes": 118354,
+    "sha256": "a6f43f9f2a43e9ad9cb20be9c8d33d77e1d1f7dbaaab94b71bec532ec7c7415c"
+  },
+  "formed_model_diagnostic": {
+    "arithmetic": "Longdouble numerical actions of exactly the same formed f64 coefficients; no exact certificate",
+    "model_identity_sha256": "64b30df2215dcaeb06b6acb12ca2cccb5be0ce82e6b12b21a94879808f71b217",
+    "scope": "Scaled z before actual sigma*z recovery; exact final delta rows are reported separately",
+    "base_objective": {
+      "decimal_display": "3.990538805649319283e-08",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "objective": {
+      "decimal_display": "6.638479341421796542e-21",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "model_drop": {
+      "decimal_display": "3.990538805648655435e-08",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "formed_residual_two_norm": {
+      "decimal_display": "1.1514427842547540496e-10",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "formed_residual_infinity_norm": {
+      "decimal_display": "9.685623139675829593e-11",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "full_unpreconditioned_model_gradient_two_norm": {
+      "decimal_display": "1354093.549866969254",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "gradient_dimension": 129248,
+    "factor_variable_square": {
+      "decimal_display": "8.964091867514241439e-40",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "constant_square": {
+      "decimal_display": "1.3276958682844104709e-20",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "formed_energy_minus_factor_energy": {
+      "decimal_display": "-5.116258346717387346e-34",
+      "finite": true,
+      "zero": false,
+      "negative": true,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "factor_triangular_residual_infinity": {
+      "decimal_display": "1.31290106824416552556e-20",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "model_gradient_is_not_native_acceptance": true,
+    "no_R273_posterior_certification_from_rounded_norms": true
+  },
+  "native_delta": {
+    "name": "complete-original-coordinate-delta",
+    "file": "large-arrays/complete-original-coordinate-delta.f64le",
+    "dtype": "<f8",
+    "order": "C",
+    "shape": [
+      577,
+      224
+    ],
+    "bytes": 1033984,
+    "sha256": "7227ae3e0aff920b554f329543265c553fe0b1e5deddf505abe8524d000c45b3",
+    "role": "Actual full binary64 sigma*z product, no threshold or removed mode; original exact readback follows",
+    "finite": 129248,
+    "nan": 0,
+    "positive_infinity": 0,
+    "negative_infinity": 0,
+    "negative_zero": 20
+  },
+  "native_direction_checkpoint": {
+    "file": "native-direction-checkpoint.json.gz",
+    "bytes": 1361812,
+    "sha256": "6aae8f4b73b31f24ae25976e4a2b53167baf2cdfc6c1f68de62c575c8daa7204"
+  },
+  "original_exact_readback": {
+    "full_report": {
+      "file": "current576-exact-readback.json.gz",
+      "bytes": 159601,
+      "sha256": "653e3b3c53a1cf73a00042869c6ad96a296c3a0b1be9f51efc92b3a34d508460"
+    },
+    "snapshot_result": {
+      "file": "result.json",
+      "bytes": 1301,
+      "sha256": "b49f483cf0e392850b220a93f843240ff5a7ace2a7b55910f2d7bea70bc350db"
+    },
+    "native_call": 1,
+    "nonlinear_iteration": 1,
+    "snapshot_sequence": 1,
+    "current_state_sha256": "78bd3880951910c473fa42b03bd87165b123e0339d4ced343f11e3ffb153caee",
+    "new_matrix_identity_sha256": "fa74c276297f39b1ec601dcc522e5859cd7cd809c95f99771d1573b45fe8f41b",
+    "direction_label": "current_damped",
+    "direction_float64le_sha256": "7227ae3e0aff920b554f329543265c553fe0b1e5deddf505abe8524d000c45b3",
+    "exact_global_original_sigma_norm": {
+      "kind": "stage",
+      "node": 9,
+      "row": 0,
+      "global_equation_row": 2128,
+      "component": "Q",
+      "mode": 1,
+      "original_sigma_float64le_hex": "14b8f8fa483ef73c",
+      "exact_unscaled_dyadic": [
+        "0x4d5a4794c6458b12856f8807759c2829d2f245eeca84f788df16ecfa47e94cb612a071f2b9442828b5",
+        -407
+      ],
+      "exact_signed_scaled_residual": {
+        "numerator": "165224267722283018685671118415538618996134108888909727528361764922526430535984746325358852784531637",
+        "denominator": "1705871324328781898753820547784016472093968914555348594887543945585889458258484708072228550772158910737416192",
+        "decimal_display_64_significant_digits": "9.685623139675829559868110986169517446209818527497778758253948554E-11",
+        "display_never_used_for_comparison": true
+      },
+      "exact_absolute_scaled_residual": {
+        "numerator": "165224267722283018685671118415538618996134108888909727528361764922526430535984746325358852784531637",
+        "denominator": "1705871324328781898753820547784016472093968914555348594887543945585889458258484708072228550772158910737416192",
+        "decimal_display_64_significant_digits": "9.685623139675829559868110986169517446209818527497778758253948554E-11",
+        "display_never_used_for_comparison": true
+      },
+      "matrix_scope": "fresh-current-native576-finite-binary64-complete-J-r-sigma-chain",
+      "new_matrix_identity_sha256": "fa74c276297f39b1ec601dcc522e5859cd7cd809c95f99771d1573b45fe8f41b",
+      "snapshot_result_sha256": "b49f483cf0e392850b220a93f843240ff5a7ace2a7b55910f2d7bea70bc350db",
+      "nonlinear_iteration": 1,
+      "snapshot_sequence": 1,
+      "source_stage": {
+        "rawCell": 0,
+        "rawSegment": 7,
+        "portRatio": 1,
+        "mu": 1.0048110027994864e-11,
+        "profiles": [
+          []
+        ]
+      }
+    },
+    "exact_stored_base_sigma_norm": {
+      "kind": "stage",
+      "node": 9,
+      "row": 215,
+      "global_equation_row": 2343,
+      "component": "Pi",
+      "mode": 104,
+      "original_sigma_float64le_hex": "14b8f8fa483ef73c",
+      "exact_unscaled_dyadic": [
+        "-0x7fd",
+        -71
+      ],
+      "exact_signed_scaled_residual": {
+        "numerator": "-274475253760",
+        "denominator": "1635601908379141",
+        "decimal_display_64_significant_digits": "-1.678129943196270797702335948539587205063808453007076462348100919E-4",
+        "display_never_used_for_comparison": true
+      },
+      "exact_absolute_scaled_residual": {
+        "numerator": "274475253760",
+        "denominator": "1635601908379141",
+        "decimal_display_64_significant_digits": "1.678129943196270797702335948539587205063808453007076462348100919E-4",
+        "display_never_used_for_comparison": true
+      },
+      "matrix_scope": "fresh-current-native576-finite-binary64-complete-J-r-sigma-chain",
+      "new_matrix_identity_sha256": "fa74c276297f39b1ec601dcc522e5859cd7cd809c95f99771d1573b45fe8f41b",
+      "snapshot_result_sha256": "b49f483cf0e392850b220a93f843240ff5a7ace2a7b55910f2d7bea70bc350db",
+      "nonlinear_iteration": 1,
+      "snapshot_sequence": 1,
+      "source_stage": {
+        "rawCell": 0,
+        "rawSegment": 7,
+        "portRatio": 1,
+        "mu": 1.0048110027994864e-11,
+        "profiles": [
+          []
+        ]
+      }
+    },
+    "actual_original_withJ_norm": {
+      "value": 0.00016781299431962708,
+      "float64le_hex": "97b917a5defe253f",
+      "classification": "finite"
+    },
+    "exact_rows": 129248,
+    "completed_stages": 576,
+    "original_product_positions": 28901488,
+    "all_exact_residual_rows": {
+      "name": "current576-all-exact-rows",
+      "file": "large-arrays/current576-all-exact-rows.jsonl.gz",
+      "dtype": "exact-dyadic-jsonl-gzip",
+      "shape": [
+        129248
+      ],
+      "bytes": 5804911,
+      "sha256": "2f1e06dde6650476b0ffb0eb60a346116167f71638a1fa683f88fc36bdc51e20",
+      "role": "Every actual current unscaled cut/stage/far row, then exact division by actual original sigma; no eta rows"
+    },
+    "worst_witness": {
+      "file": "current576-worst-witness.json",
+      "bytes": 10995,
+      "sha256": "70c1f1c01f751336f02f8882b531110c31b07b95913cfe759b20c6b80e9927c3"
+    },
+    "used_as_new_nonlinear_acceptance_gate": false,
+    "no_float_refinement_RHS_formed": true
+  },
+  "array_manifest": {
+    "file": "output-array-manifest.json.gz",
+    "bytes": 57368,
+    "sha256": "451d6ea9479d15a2072d51a403bd8e38f1617578841a800247c5574e54a00947"
+  },
+  "elapsed_seconds": 23.397928358999934,
+  "maximum_RSS_kib": 928004,
+  "schema": "native-current576-damped-chain-small-summary-v1",
+  "full_result": {
+    "file": "result.json.gz",
+    "bytes": 4428,
+    "sha256": "4f716ce4940c8c5123ddb1a92d136ca5b84e253b055a257a156ad8e9f278b44b"
+  },
+  "native_accepted": false,
+  "task_completed": false,
+  "no_cached_baseline": true,
+  "no_linear_norm_threshold_is_a_native_trial_gate": true,
+  "L2_model_descent_does_not_imply_original_infinity_descent": true
+}
