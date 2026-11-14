@@ -1,0 +1,222 @@
+name: visible-exact complete same Z known-source finite Green
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-same-Z-complete-known-source-Green.yml']
+  workflow_run:
+    workflows:
+      - visible-exact complete mixed continuous Z source cover
+      - visible-exact complete cut direction and same continuous Z boundary sources
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      body_run:
+        description: Optional exact successful full mixed Z body run; empty selects the latest actual completed finish
+        required: false
+        type: string
+      cut_run:
+        description: Optional exact successful full same Z cut run; empty selects the latest actual completed finish
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-complete-same-Z-known-source-Green
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  GREEN_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-same-Z-complete-known-source-Green-CI-inputs.json
+  GREEN_MANIFEST_SHA: aae5153f953fc96fb258e2f4b711019b1badc19867d683631c86ccfb4846bb95
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+  REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+
+jobs:
+  complete-same-Z-source-consumer:
+    if: >-
+      github.repository == 'Rogerhu12/math-research-public' &&
+      (github.event_name != 'workflow_run' ||
+       (github.event.workflow_run.conclusion == 'success' &&
+        github.event.workflow_run.head_repository.full_name == 'Rogerhu12/math-research-public'))
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 120
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the immutable source definitions and reviewed rules
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-same-Z-complete-known-source-Green-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Select only both actual successful complete same-Z source artifacts
+        id: originals
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          EXPLICIT_BODY_RUN: ${{ inputs.body_run }}
+          EXPLICIT_CUT_RUN: ${{ inputs.cut_run }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY_SELECT'
+          import json,os,pathlib,re,time,urllib.request
+          base='https://api.github.com/repos/Rogerhu12/math-research-public'
+          def get(suffix):
+              req=urllib.request.Request(base+suffix,headers={
+                  'Authorization':'Bearer '+os.environ['GITHUB_TOKEN'],
+                  'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'})
+              with urllib.request.urlopen(req,timeout=60) as response:return json.load(response)
+          specs={
+              'body':('visible-exact-complete-mixed-Z-source-cover-v2.yml','visible-exact-complete-Z-v2-finish'),
+              'cut':('visible-exact-complete-cut-direction-and-same-Z.yml','visible-exact-complete-cut-Z-finish')}
+          def select(label):
+              workflow,prefix=specs[label];requested=os.environ.get('EXPLICIT_'+label.upper()+'_RUN','')
+              if requested and not re.fullmatch(r'[1-9][0-9]*',requested):
+                  raise ValueError('only a positive decimal original run is accepted')
+              runs=([get('/actions/runs/'+requested)] if requested else
+                  get('/actions/workflows/'+workflow+'/runs?branch=main&status=success&per_page=20')['workflow_runs'])
+              for run in runs:
+                  if (run.get('path')!='.github/workflows/'+workflow or run.get('head_branch')!='main'
+                      or run.get('conclusion')!='success'
+                      or run.get('head_repository',{}).get('full_name')!='Rogerhu12/math-research-public'):
+                      continue
+                  rid=int(run['id']);attempt=int(run['run_attempt']);name=f'{prefix}-{rid}-{attempt}'
+                  items=get(f'/actions/runs/{rid}/artifacts?per_page=100')['artifacts']
+                  matches=[x for x in items if x.get('name')==name and not x.get('expired') and x.get('size_in_bytes',0)>0]
+                  if len(matches)>1:raise ValueError('a complete original artifact is duplicated')
+                  if matches:return dict(run=rid,attempt=attempt,artifact=name)
+              return None
+          selected={}
+          for retry in range(4):
+              selected={label:select(label) for label in specs}
+              if all(selected.values()):break
+              if retry<3:
+                  print(json.dumps(dict(new_mathematics_started=False,waiting_for_complete_artifact=True,
+                      available=[k for k,v in selected.items() if v])),flush=True)
+                  time.sleep(10)
+          if not all(selected.values()):
+              if os.environ.get('EXPLICIT_BODY_RUN') or os.environ.get('EXPLICIT_CUT_RUN'):
+                  raise ValueError('an explicitly requested run is not an actual successful complete source artifact')
+              with open(os.environ['GITHUB_OUTPUT'],'a') as stream:stream.write('eligible=false\n')
+              print(json.dumps(dict(new_mathematics_started=False,
+                  reason='Both complete source DAGs are required; the other completion event will trigger this consumer again.')))
+          else:
+              root=pathlib.Path(os.environ['RUNNER_TEMP'])
+              values=dict(eligible='true',green=str(root/'visible-exact-same-Z-Green-original'),
+                  body=str(root/'visible-exact-same-Z-Green-body'),cut=str(root/'visible-exact-same-Z-Green-cut'),
+                  output=str(root/'visible-exact-same-Z-Green-output'))
+              for label,item in selected.items():
+                  for key,value in item.items():values[label+'_'+key]=str(value)
+              with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
+                  for key,value in values.items():stream.write(f'{key}={value}\n')
+              print(json.dumps(dict(actual_selected_complete_sources=selected,new_mathematics_started=False)))
+          PY_SELECT
+      - name: Hydrate and verify all unchanged original sources plus the new source consumer
+        if: ${{ steps.originals.outputs.eligible == 'true' }}
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$GREEN_MANIFEST" --manifest-sha "$GREEN_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/same_Z_Green_ci/
+          python - <<'PY_AST'
+          import ast,pathlib
+          root=pathlib.Path('topics/visible-flex-exact-nearby/scripts')
+          for name in ('fourfold_codazzi_same_Z_cached_Green.py','fourfold_codazzi_same_Z_Green_CI.py'):
+              ast.parse((root/name).read_text(),filename=name)
+          print('New same-Z source consumers passed Python AST parsing; no mathematics executed.')
+          PY_AST
+      - name: Install the pinned directed arithmetic environment
+        if: ${{ steps.originals.outputs.eligible == 'true' }}
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Reuse the exact complete original6391 Green ports and all boundary unit profiles
+        if: ${{ steps.originals.outputs.eligible == 'true' }}
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43601964129
+          name: visible-exact-complete-cut-Green-complete-43601964129-1
+          path: ${{ steps.originals.outputs.green }}
+      - name: Receive the actual complete7721 mixed-Z source native and true process
+        if: ${{ steps.originals.outputs.eligible == 'true' }}
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: ${{ steps.originals.outputs.body_run }}
+          name: ${{ steps.originals.outputs.body_artifact }}
+          path: ${{ steps.originals.outputs.body }}
+      - name: Receive the actual complete1977 cap and same-Z boundary native and true process
+        if: ${{ steps.originals.outputs.eligible == 'true' }}
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: ${{ steps.originals.outputs.cut_run }}
+          name: ${{ steps.originals.outputs.cut_artifact }}
+          path: ${{ steps.originals.outputs.cut }}
+      - name: Propagate only the complete new known sources with real pull and README checks
+        if: ${{ steps.originals.outputs.eligible == 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          BODY_RUN: ${{ steps.originals.outputs.body_run }}
+          CUT_RUN: ${{ steps.originals.outputs.cut_run }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_same_Z_Green_CI.py
+          --manifest "$GREEN_MANIFEST" --manifest-sha "$GREEN_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --green-artifact "$RUNNER_TEMP/visible-exact-same-Z-Green-original"
+          --body-artifact "$RUNNER_TEMP/visible-exact-same-Z-Green-body"
+          --cut-artifact "$RUNNER_TEMP/visible-exact-same-Z-Green-cut"
+          --body-run "$BODY_RUN" --cut-run "$CUT_RUN"
+          --work "$RUNNER_TEMP/visible-exact-same-Z-Green-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-same-Z-Green-output"
+          --compute-minutes 90 --checkpoint-minutes 10
+      - name: Require actual nonempty evidence and a byte-checked small inventory
+        if: ${{ always() && steps.originals.outputs.eligible == 'true' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.originals.outputs.output }}
+        run: |
+          python - <<'PY_INVENTORY'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          files=sorted(p for p in root.rglob('*') if p.is_file()) if root.exists() else []
+          if not files or not any(p.stat().st_size for p in files):
+              raise RuntimeError('no actual nonempty scientific process evidence exists')
+          data=(json.dumps([dict(path=str(p.relative_to(root)),bytes=p.stat().st_size,
+              sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files],indent=2)+'\n').encode()
+          if len(data)>60000:raise RuntimeError('the inventory exceeded60000 bytes; original evidence is retained')
+          (root/'artifact-inventory.json').write_bytes(data)
+          print(dict(actual_files=len(files),nonempty_output_verified=True,inventory_bytes=len(data)))
+          PY_INVENTORY
+      - name: Preserve the actual same-Z outcome and every failed prefix
+        if: ${{ always() && steps.originals.outputs.eligible == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-same-Z-known-source-Green-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.originals.outputs.output }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: error

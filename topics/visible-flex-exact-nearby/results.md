@@ -301,3 +301,7 @@
 ## 同一连续Z全部7721格源的公开实际验收
 
 [完整实际报告](results/R133-supplement-actual-complete7721-continuous-Z-source-cover.md)：run43613560173的plan/四range/finish全成功，实际新1147行，旧14pilot/40子格与全部原jets复用，0新target。完整mean保留；[0,25/8] full源<2.725862e−6、low193<2.723698e−6、已知high97–160<1.961163e−6。固定负区窗full<3.125876e−7、low<2.931414e−7、high<2.308005e−7。native365f0763d8f4c87182507c4372a3be055624607a77d818a084471b368b33d32e。仅完整已知源证书；同Z真实边界、全部projector跳、Green响应与未知high反馈继续。
+
+## 原6391连续Green端口对同一Z完整body/腰/cut源的消费者
+
+[完整合同](notes/2026-11-14-R133-same-Z-complete-known-source-Green-contract.md)已推。只重传播新的已知源；旧6391连续ports/5970projector/真腰末端跳和两边界unit profiles逐字节复用。body逐格取完整low193（含mean）并付真实径向权；Z连续只令真实trialjump为零，projector secant/tangent及分母仍全保。旧raw跳profile另作明确非负surplus；两端乘同Z真g0/gR，精确权取消避免重复收费。完整high源单列，尚不包含未知高反馈。workflow监听两完整DAG，只选公开main成功finish；缺一项时0新数学，后续完成自动续。有限193误差是否<1/200仅记有限系统条件，不授真PDE响应/νSchur。
