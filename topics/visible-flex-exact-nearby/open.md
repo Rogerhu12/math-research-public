@@ -126,3 +126,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 正高双输出actual完成，接全频帽与方向分辨主体
 
 公开43639514776已过11门，见 [实际报告](results/R133-supplement-actual-positive-high-inner-body-and-cut-trace.md)。内bodyL²与真cut even迹分开且有独立外帽head列；0旧target/Riccati/高收缩/帽/Green重算。不要将内head列替代外帽head或根incoming；完整P1–19帽接口已在前，仍需矩阵方向主体缺陷和负区真返回接合。
+
+### 精确fold源包络新消费者
+
+[N1–12](results/R133-supplement-exact-fold-source-envelopes-and-integral-reuse.md)已证：六个新G径向/混合jets、完整h/gd/qv两分量包络及全部mean；旧Abar profiles/leading tensors/1328矩阵moment表复用。正分窗费用以旧完整积分除旧上包络的严格正下界安全重用；rawD/原seam仍保。root继续构造消费者，所有新积分在公开Actions计算。

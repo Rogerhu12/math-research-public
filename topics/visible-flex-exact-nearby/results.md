@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **精确fold消去后的完整源包络与积分复用（N1–12）**：[证明](results/R133-supplement-exact-fold-source-envelopes-and-integral-reuse.md)。从原seam的真实混合导数和root的G重新计算六个标量jet表，再按精确gd/qv与QK支付源；原raw-D等三项及全部mean保持，原正分窗积分通过严格正下包络分母安全复用。新数值尚待Actions，旧科学0重算。
+
 - **实际正高块内主体与真实切口迹双输出**：[报告](results/R133-supplement-actual-positive-high-inner-body-and-cut-trace.md)。公开43639514776 child0/11门；4650旧行0重算。真cut重构<.595330881947，内head→正内body<226.101680824、→cut高even<111.623062290；外帽独立列<69.241039838/<34.183279287。原七源和真实mean/根incoming都保，仍需全高低反馈和负高逆。
 
 - **新固定stop简单根的完整解析图、Airy两行与真实源（A1–28）**：[证明](results/R119-supplement-new-fixed-stop-simple-root-full-analytic-chart-and-sources.md)。重新验证b>2^28与整个复半盘，付CK/逆图/准确密度/完整混频势；两行比较K_R=2^2184和两条物理mean及端口正逆2^256。ordinary、weak、原子源按Piola与total flux保留；只关闭新局部根，未授完整外DN/闭返回。
