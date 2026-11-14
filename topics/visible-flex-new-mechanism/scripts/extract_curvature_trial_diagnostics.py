@@ -143,7 +143,10 @@ def summarize(full, raw, path):
         'minimum_kappa_physical_gates_excluding_fixed_metric':minimum(lambda r:r['physical_excluding_metric_ok']),
         'minimum_kappa_fixed_metric_and_physical_gates':minimum(lambda r:r['metric_and_physical_ok']),
         'eligible_distinct_physical_evaluation_numbers':sorted({r['physical_evaluation'] for r in rows if r['metric_and_physical_ok']}),
-        'best_saved_points':best,'rounds':rounds,'trial_history':rows,
+        'best_saved_points':best,'rounds':rounds,
+        'trial_history_representation':'one column definition and ordered rows; all original selected diagnostic values retained',
+        'trial_history_columns':list(rows[0]) if rows else [],
+        'trial_history_rows':[[row[k] for k in rows[0]] for row in rows] if rows else [],
         'not_a_new_convergence_claim_or_continuous_geometric_certificate':True,
     }
 

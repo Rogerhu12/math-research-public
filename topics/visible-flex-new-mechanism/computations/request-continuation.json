@@ -1,34 +1,14 @@
 {
-  "request": "exact-original-static-G-separation-and-readonly-completed-curvature-trials",
-  "created_at": "2026-11-14 22:16 UTC",
+  "request": "extract-preserved-curvature-trials-with-shared-table-column-names",
+  "created_at": "2026-11-14 22:19:22 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "static_g_rational_dual",
     "curvature_trial_diagnostics"
   ],
   "source_sha256": {
-    "topics/visible-flex-new-mechanism/scripts/literature_static_G_rational_dual.py": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477",
-    "topics/visible-flex-new-mechanism/scripts/literature_constrained_static_fourth.py": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4",
-    "topics/visible-flex-new-mechanism/scripts/literature_full_m8_tail_response_projection.py": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345",
-    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0",
-    "topics/visible-flex-new-mechanism/scripts/extract_curvature_trial_diagnostics.py": "d53d6f4a55d7cd12628a299adaac0d5d6e67cc5efefbb5a3efd89aa930b6b76c"
+    "topics/visible-flex-new-mechanism/scripts/extract_curvature_trial_diagnostics.py": "303de1f353ef6198fdbafd3a61f4e974ab0a1feff8b8cf03eb0d598bd15ae052"
   },
   "jobs": {
-    "static_g_rational_dual": {
-      "development": [
-        "--toy-only",
-        "--output",
-        "@OUT@/static-G-development.json"
-      ],
-      "research": [
-        "--max-seconds",
-        "120",
-        "--memory-mib",
-        "1024",
-        "--output",
-        "@OUT@/static-G-rational-dual.json"
-      ]
-    },
     "curvature_trial_diagnostics": {
       "research": [
         "--report",
@@ -44,6 +24,16 @@
   "G_goal": "Only exact rank 7 and augmented rank 8 certify universal nonmembership; no word normal form or other-weight fixed-profile exclusion",
   "curvature_goal": "Only summarize exact saved 41 physical / 61 auxiliary trials; no geometry or optimizer reevaluation",
   "curvature_raw_report_sha256": "5b04d6a7c85870687b979bbda87bbf8bd4d429d3b36c918d83cebde59b4dcaa0",
-  "source_development_not_yet_executed": true,
-  "task_complete": false
+  "task_complete": false,
+  "prior_readonly_extraction_failure": {
+    "run": 43647225907,
+    "reason": "semantic JSON exceeded 95000 bytes",
+    "scientific_recomputation": false,
+    "fix": "shared table columns and ordered rows retain all selected scalar diagnostic fields"
+  },
+  "G_probe_continues_separately": {
+    "run": 43647225907,
+    "source": "b466c3782ae5e3b1a68572065b7505d45e6d8a99",
+    "recompute": false
+  }
 }

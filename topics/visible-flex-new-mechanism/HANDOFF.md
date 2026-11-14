@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`0898471bed597573daf060d6bea86574da96db0e`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`4ae73c0ac3ccbddf9cec7ddb8ed93cd974e0bda3`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有22:02:43 UTC在公开Actions实际partialclone/pull至`7b57afc0a2b3910fca1c21b601ba7b18d1ccc2ae`，双规则路径无差，本题私有README不存在；QUEUE唯一行本会话**进行中**。仅元数据已公开；下一私有pull不晚于23:01 UTC。
 
@@ -56,10 +56,10 @@ R107给a8=0后a7正仿射不变。R110 actual43643100132完整8项给K=B_t1(τ_p
 
 ## 6. 持续推进
 
-R112给L4导数权0/2/4；R114给正锥E8、[L0]=G(m0)与真圈桥门。R115静态+2已付/+1两根未决，完整W/local已保。R117把约束+1准确化为h(k³−k)G；k2/−1/2整数互反对与反号给真leading及条件IVT。下一新原G七列/增广8有理评价，不重复206项NF，尚未新toy/actual。
+R112导数权0/2/4；R114正锥E8/真配平门；R115+2已付、+1未决且原式已保。R117把约束+1准确化为h(k³−k)G；k2/−1/2整数互反对与反号给真leading及条件IVT。下一新原G七列/增广8有理评价，不重复206项NF，尚未新toy/actual。
 
-fullm8 actual43646543691/sourcef0652a01：288=287新+1复用，pure尾rank31/四块15，w−8..2秩0/1/2/3/4/5/6/6/3/1/0，依赖差全0；2.710s/RSS29.465MiB，证书gzip44576B。真实R8下界/31与15查询推论登记中，基准/完整尾/mixed/ruling仍欠。
+fullm8 actual43646543691/sourcef0652a01：288=287新+1复用，pure尾rank31/四块15，依赖差全0；2.710s/RSS29.465MiB，证书gzip44576B。R116已证真实dimR8≥31/同圆31查询；另15闭四块查询保整个D25。基准/完整尾/mixed/ruling欠。
 
-曲率原43645177423已由43646786908恢复六原文件，raw5220015B SHA5b04d6a7c85870687b979bbda87bbf8bd4d429d3b36c918d83cebde59b4dcaa0。最终仍e407，κ73.35984、fineη.2671465，无合格改善。20轮全2major即交换，41物理/61辅助、优化113.733s/total329.486/RSS1571880KiB；batch≤18、jet差3.55e−15有效。下一仅读原trial分组，判池内尚不可行是否触发过早重启，不盲加预算。与G probe两lane并行。
+曲率原43645177423已由43646786908恢复六原文件，raw5220015B/5b04d6a7（完整SHA见原note/恢复回执）。最终仍e407，κ73.35984、fineη.2671465，无合格改善。20轮全2major即交换，41物理/61辅助、优化113.733s/total329.486/RSS1571880KiB；batch≤18、jet差3.55e−15有效。实际note已登记。只读trial首43647225907因语义JSON>95KB停止；新303de源码改共用列名+逐行数组保全部值/组/顺序，单件<95KB门不变，仅重试读取。G probe原run43647225907继续，不重算几何。
 
-私有22:02实际pull/规则无差/QUEUE进行中，23:01前再拉。子题完接open，不因预算或设施收尾。
+子题完接open，不因预算或设施收尾。
