@@ -253,3 +253,5 @@
 - [R124：真实零矩规范化支付全部静态纯尾商，只余导数成本](results/R124-zero-matrix-static-tail-payment-and-remaining-derivative-costs.md) — actual43649160345直接消费已发完整多项式，完整m0+m2八矩坐标规范化使154静态系数余项全零；原未分权商3，已知诱导Δ2的18系数商2/even1，全新差式与矩阵重构准确零。由R109得到任意真实M0路径的pure尾商仅∫Π8(L2+Δ2+L4)，固定桥的常态bulk复制N不改变该商。0.205s/RSS30.332MiB、6新toy过。原L2/L4及raw N0/N2仍须新增导出，N2未证在W，未据h_s²或诱导项判符号/完整period。
 
 - [R125：完整响应至少48维与真实第四成本至少49维](results/R125-complete-response-dimension-at-least-48-and-cost-49.md) — 结合三个既有原式证书，无新计算：R116的真实pure尾线性映射总秩31，权0/1像3/1；同40ff完整响应接口下R98权0真14维子空间给核≥11，R118权1真7维给核6，两权直和。因此dimR8≥31+17=48，G真非成员给dimU4≥49；R120闭锥lineality亦≥49，R121实际联合查询至少49。未把不同测试秩直接相加、未用R99额外方向、未认完整函数或未知G轨道s>1。
+
+- [R126：首次G平移的严格分离与至少52个真实联合查询](results/R126-first-G-translation-separation-and-52-query-control.md) — actual43649525432/source5852d7d4保真移动锚N，完整权零20原列的4条原式依赖给上界16；原有理16/17子式模2147483647分别775740714/172056171，ΛNG模548771152非零，故dimR8,0=16、NG∉R8。显式坐标次数≤9给2≤s≤10；pure像31及权0/1像3/1给核≥19，dimR8≥50、dimU4与闭锥lineality≥52，R122真实联合查询至少52。30.499s/RSS124.648MiB，新人工过；下一仅N²G权−1，未授完整函数/ruling或主课题完成。
