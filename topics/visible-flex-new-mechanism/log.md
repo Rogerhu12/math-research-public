@@ -291,3 +291,7 @@ R38两步只需连通角区间；在|θ|<asin(rc/rf)的新尾全部平，右Herm
 ## 2026-11-14 14:55 UTC — R37 真实有限N实例进入公开计算
 
 归档独立literature_zero_operator_instance及完整控制设计和人工toy。root全文审读、source独立核真实M低导数、完整圈轴向位移、正光滑omega门、右乘CF4、Klein两种闭合及prefix-omega范围。N16384/八参数±.2、32nfev/900s，选中frame门单列；全控制/归一化/物理strip冻结后只做1/2/4倍积分，无重解、投影或端点改写。共享workflow/publisher新增zero_operator_instance，request只此lane；旧43607072032独立继续。仅toy在本地，真实控制编译/优化/ODE全部公开Actions。理论充分大N准确存在不能替代本有限数值点的认证。
+
+## 2026-11-14 15:04 UTC — R37 有限N实际回执及范围
+
+43607428213的68源/2输出全核、控制规范hash再核。6nfev/104编译把预条件范数.082826降7.68e−15；冻结三档全M≈1.1e−9、natural alpha6.37e−7至1.94e−6/frame数e−12，未单调归零，不认证准确闭合。首k0/h1完整N圈片的准确螺旋曲率/端距给reach/D<1.14e−5，严格排本长圈设计作主课题厚度候选，保其高阶算子研究价值。actual-audit已归档，不原样重跑。私有仓15:00:47实际pull至15e368...cc03c，根README无差异，唯一队列行仍为本会话进行中。

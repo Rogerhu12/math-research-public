@@ -6,9 +6,9 @@
 
 闭连通 C2 嵌入族 Ft、时间 C2 连续、同一固定 g；固定材料开集 H 且 diamH≥.2D；不对齐的真实像集 Hausdorff 位移≥.3D；全域全时 reach≥.03D；最大相对 metric≤1e−6，且同 g/物理参数/时间加密改善；完整小网格、复现及严格存在性差距。D 是初始完整曲面直径。δE 可为0但须如实报。达标后继续 .5D 或更强存在性。
 
-- 根及本题 README 已完整读。公开仓库最后已读规则提交：`4d384dc563749e7e8b9680e234fbb1b61251873a`；每次实际CLI pull均核根/本题README新差异。
+- 根及本题 README 已完整读。公开仓库最后已读规则提交：`3e74aad69c376c54ec08f7e6d9c25a9e4d81f0be`；每次实际CLI pull均核根/本题README新差异。
 - 每次 pull 后只读这两 README 新差异并立即遵循，至少每小时 pull。每结论提交推送；NFF 立即 pull --rebase 并循环推送，不强推。
-- 作者指定 QUEUE 已置进行中。私有仓库14:14:20 UTC实际pull至94a2611e4760da10f909a28d51ac067fadcb1117，根README差异为空；队列唯一课题行仍为本会话进行中。私有研究内容不发布。
+- 作者指定 QUEUE 已置进行中。私有仓库15:00:47 UTC实际pull至15e36869550aac2d89306b6312bf29be599cc03c，根README差异为空；队列唯一课题行仍为本会话进行中。私有研究内容不发布。
 - 研究计算只用本公开仓库自己的 Actions。令牌仅瞬时命令行认证，不入文件。根 LOG 不写；共享 workflow 理由记本题 log。HANDOFF<10KB，其他 MD<100KB，数据>1MB压缩、单件<5MB。
 - 早期自动审批拒绝私有研究摘要公开，已从未发布提交移除；后续安全推送成功，没有未解决的授权请求。
 
@@ -69,4 +69,6 @@ warped_collar43595305950实际失败且R23另以link排除该封口目标；R24�
 
 ellipse_frame43602519926（62源/8输出全SHA）fine metric1.660115/R3.51022/κsample2334.99，失败；43603136078固定分布（63源/3输出全SHA）旧峰负K纯RT与高模显著，非entry漏采。
 
-最新ellipse_enriched43604231319源f64c2c0d、最终报告SHA6ff0b179...0f1e3：64源/3输出全核，sameg身份f8b81d3...df870和暖转逐位/舍入门通过。J9/θ5/φ3/u_core共234变量；250次上限600.44s、RSS2.28GiB，new cost.135064→.0613384晚段近平台。fine metric1.727996/R1.59925/κsample39.116/ymax.365274>.33，失败；metric峰首S5 t.165，R峰负K .3225且主要低模，高模已降。详见ellipse-frame-enriched-actual-audit，不原样加迭代。ellipse_bent_tail43607072032已实跑，源14dd7dd9：准确S11尾幅1/4/宽.054，原234系数/同g、61×192/250次，系数界6→8；先旧态球审计后换尾，最终121×384/768冻结复核。新物理身份另记，尚无闭面。R30接口见notes/R30-validation-interface-20261114.md。若启metric design，log基尾须Oδ7。
+enriched43604231319源f64c2c0d/reportSHA6ff0b179...0f1e3，64源/3输出全核，sameg和暖转门通过。234变量250次平台；fine metric1.727996/R1.59925/κsample39.116、strip失败，主缺口低模/首S5。详见enriched-actual-audit，不原样重跑。ellipse_bent_tail43607072032已实跑，源14dd7dd9：准确S11尾幅1/4/宽.054，原234系数/同g、61×192/250次，系数界6→8；先旧态球审计后换尾，最终121×384/768冻结复核。新物理身份另记，尚无闭面。R30接口见notes/R30-validation-interface-20261114.md。若启metric design，log基尾须Oδ7。
+
+R37有限N实际43607428213（源6642f37d）：68源/2输出全核，6nfev得预条件残差7.68e−15；冻结三档全M≈1.1e−9、自然闭合非零且不单调。首k0长螺旋片严格给reach/D<1.14e−5，本点只能作算子研究，不能作厚度候选。详见zero-operator-instance-actual-audit；继续反转三阶range。
