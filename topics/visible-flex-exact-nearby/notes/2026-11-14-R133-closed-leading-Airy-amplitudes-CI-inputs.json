@@ -1,0 +1,105 @@
+{
+  "kind": "closed_leading_actual_Airy_amplitudes_public_CI_input_manifest",
+  "public_repository": "Rogerhu12/math-research-public",
+  "scientific_inputs_selected_by_exact_hash": true,
+  "input_preparation": "Two original completed public process texts provide full complex-domain bound summaries. Their original source and proof semantics are pinned; no native, response, flow or original target is recomputed.",
+  "original_runs": {
+    "fold": "43602612900",
+    "negative": "43604498718"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "sympy": "1.14.0"
+  },
+  "input_paths": {
+    "fold_process": "topics/visible-flex-exact-nearby/notes/current_moving_principal_fold_ci/run-43602612900-1/consumers/process.json",
+    "negative_process": "topics/visible-flex-exact-nearby/notes/current_negative_root_cauchy_ci/run-43604498718-1/consumers/process.json"
+  },
+  "mathematical_parameters": {
+    "bits": 320,
+    "exact_complex_parameter_radius": "1/100000000",
+    "exact_original_radial_radius": "9/1000000",
+    "canonical_outer_T": "81/4000000",
+    "canonical_outer_X": "1/128",
+    "canonical_inner_T": "19/1000000",
+    "canonical_inner_X": "1/256",
+    "leading_a0_and_inverse_gate": "51/50",
+    "both_branch_inverse_gate": "51/50",
+    "leading_b0_divided_by_T_squared_gate": "6",
+    "physical_frequency": "n=4|j|"
+  },
+  "expected_native": "closed-leading-airy-amplitudes.json.gz",
+  "full_old_primitive_mean_and_source_retained": true,
+  "leading_amplitudes_are_closed_complete_functions_of_true_fold": true,
+  "next_and_higher_amplitudes_and_milliscale_domains_not_yet_certified": true,
+  "no_numerical_strong_return_cutoff_or_true_PDE_claimed": true,
+  "no_local_scientific_module_imports": true,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-moving-analytic-principal-fold.md",
+      "sha256": "c191e654a5fe2d48098195f8d6a7d2909161f0254efc047f761481194bcd224b",
+      "bytes": 13563
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-moving-root-scalarization.md",
+      "sha256": "0645cf460507ea587056b6969b01dc532b6623179db5598e2bffe4f53a8275af",
+      "bytes": 15539
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-scalar-root-operator-and-one-gain-radial-remainder.md",
+      "sha256": "66bde1b99a6b6f51e3dadae608f53ad2e7e92d84160b582636f2ca4c7f0eae00",
+      "bytes": 12221
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-original-primitive-on-actual-Airy-amplitudes-and-exact-mean.md",
+      "sha256": "38e1495faf6d651401a94040566f9e59c1ccdd58732fc0aa4d176480c098210e",
+      "bytes": 14772
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/current_moving_principal_fold_ci/run-43602612900-1/consumers/process.json",
+      "sha256": "e04f2aafdcb8b7fd5628754523b5704a2d25ea57f389ddd2026de08d32517107",
+      "bytes": 13063
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/current_negative_root_cauchy_ci/run-43604498718-1/consumers/process.json",
+      "sha256": "f3688651110c9748b8a88b0c1da6cc88f78c50284474d9d6a12fffa7b99cd3da",
+      "bytes": 9762
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-full-family-root-to-negative-Cauchy-energy.md",
+      "sha256": "eb764eaddf385e06ffa175885396503917afba11ce79c365197488b864bf832d",
+      "bytes": 8191
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-moving-root-parametrix-and-scalar-finite-part.md",
+      "sha256": "f8268dc8c299fdb5813034efcd259f27d660faba0b9324cfd3865f878c8fcbe7",
+      "bytes": 35230
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_negative_root_cauchy_budget.py",
+      "sha256": "9bcf3dd119950ebb4188017eedd1f75dae729c345aa131a884f8346627209c28",
+      "bytes": 10708
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_moving_principal_fold_budget.py",
+      "sha256": "2c680f47bc5209bd78f0643d7d425485bc597f05ad96c932109d93f2b26b2ab6",
+      "bytes": 18302
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-closed-leading-Airy-amplitudes-and-exact-seam-transmission.md",
+      "sha256": "679ab82202a4d65b8ce47db1ab353e51553e19b6cc1831a745e48c704b3e86a1",
+      "bytes": 11462
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_closed_leading_Airy_amplitudes.py",
+      "sha256": "dc343805acfdae67302ae2501517955eb88eef706daff17711feaf7457fb9919",
+      "bytes": 12565
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_closed_leading_Airy_amplitudes_CI.py",
+      "sha256": "c67d48104692a01637b5cc757cee8f6c586cf0c74e6a6c53c0257ab27a226b10",
+      "bytes": 6176
+    }
+  ]
+}

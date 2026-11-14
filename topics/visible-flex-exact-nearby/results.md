@@ -253,3 +253,7 @@
 ### 精确 bump 与 full Z 的实际新源诊断
 
 [实际10门报告](results/R133-supplement-actual-exact-bump-and-complete-Z-source-pilot.md)：43610523058/76.875694s，原80次target全部复用，新target0。Z low193含真mean，原格1524<9.628404e−7，原4子格<2.957838e−7；qstar同源改写的对应low界<5.336857e−6，未混淆对象。全14原格/40子格已成，继续compact全cover与同Z真边界/完整Green。
+
+### 完整leading Airy幅度的闭式与原seam传输
+
+[证明L.1–L.20](results/R133-supplement-closed-leading-Airy-amplitudes-and-exact-seam-transmission.md) 给原两行的共同diagonal、真mean积分与a0/b0闭式，ηr项准确消，leading逐原seam C1。13-input公开消费者只评其实际界/有限恒等式，不重算原fold或target；数值界尚待run，高阶幅度/真实jump费用/数值strong cutoff继续。
