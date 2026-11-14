@@ -231,3 +231,5 @@
 - [R113：完整m8纯尾响应的46/22维上界与单轨道耦合](results/R113-full-m8-tail-response-dimension-bounds-and-orbit-coupling.md) — R105真实成本span使全部R8继承R85/R88的r<25零及R95的c9r25端势；E8×W36全288原列按总次数32+w分11块，准确逐块上界和为46，四块保偶w故至多22。R110单方向完整正仿射尾轨道未反射恰8维、四块后恰4维，并给每一其他r层与D25四查询的准确耦合。界与响应支撑不外推一般U4基准，不冒实际秩或完整尾已付。
 
 - [R115：静态局部第四最高仿射权的准确支付与下一块边界](results/R115-static-local-fourth-top-weight-payment-and-unresolved-next-block.md) — actual43645177423在完整两mode给最高+2的h²k²系数准确等于−B_p2(W7)/8；+1的h²k²ω亦有原式零关系，hk/hk³各206项余只属未决，未冒函数非成员。W36与430根局部原式完整导出；最后主194340B超95KB只存fallback，失去的主诊断不冒已持久化。后继直接消费导出并先模M0的m0八几何函数；不重编旧目标或声称完整成本商。
+
+- [R114：受约束常态第四成本、八矩正锥与真实有限圈字](results/R114-constrained-static-costs-and-real-zero-matrix-words.md) — 常态m0的完整8坐标为rank-one trace零矩阵；四(h,d)×k=0/±1/±2的20整圈给正锥E8，补k±1族缺的第8方向。所有正配平静态商为零恰等于存在固定G使[L0(S)]=G(m0(S))，八个h1有理基准给可直接消费的约束商。floor整数圈+真实O1连接+八维IFT得到准确M0，倒行付T0；有限维闭性只用于成本span，真非零配平值在充分大有限N已给真非零成本。未授任意半群成本、ruling或几何完成。

@@ -4,9 +4,9 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`a25a5029fc78c2b6e604c4222cfc603c4a4a4a65`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`120ebb0d11880f32c9dde714538eaee1eeb30644`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
-私有21:30:00 UTC实际pull至`7c0afa98cea4f65d821cd2f6acb123ee9e6df113`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于22:29 UTC。
+私有22:02:43 UTC在公开Actions实际partialclone/pull至`7b57afc0a2b3910fca1c21b601ba7b18d1ccc2ae`，双规则路径无差，本题私有README不存在；QUEUE唯一行本会话**进行中**。仅元数据已公开；下一私有pull不晚于23:01 UTC。
 
 真实几何、ODE/积分、优化与完整研究符号编译仅用本公开仓库GitHub Actions。本地只纸面代数、小人工开发、源码/公开输出解析；不伪造Actions环境。PAT仅瞬时CLI/env，绝不文件/提交/日志。根规则12：不以冻结、独立复核、逐字归档、重复清单或重跑作机械前置；完整证明直接登记结果/索引。
 
@@ -56,8 +56,8 @@ R107给a8=0后a7正仿射不变。R110 actual43643100132完整8项给K=B_t1(τ_p
 
 ## 6. 持续推进
 
-R112给L4导数权0/2/4，时长变化同步改M/frame。R113给pure m8响应秩≤46/四块≤22，单R110四块轨道恰4维；不限制U4基准支撑。R115给local actual43645177423：+2 h²k²准确−B_p2(W7)/8；+1已付1、hk/hk³各206项仅未决。主194340B超95KB，未持久化完整主诊断；W7377B/local657195B gzip已保，后续不重编。
+R112给L4导数权0/2/4；R113给pure m8响应≤46/四块≤22，单R110四块轨道恰4维，不限制U4基准支撑。R114给常态20整圈正锥E8及[L0]=G(m0)准确配平门；8有理基准可消费，floor整数/真桥IFT/BB倒行给有限真成本解释，非任意半群成本。R115：local43645177423的+2 h²k²=−B_p2(W7)/8，+1一已付/hk与hk³未决；主194340B未另存，W7377B/local657195B gzip已保，不重编。
 
-曲率run43645177423/source2f1b809c人工及actual均success，21:59:39完成；publisher先查原JSON5MB导致失败。6件artifact14133787467/823379B，SHAba8737026d71a111a685eea7056614755335f95fc8c7eff5262f2dba46dbc133，待仅恢复压缩发布，不重算；科学新值未读，旧e407为最后已读态。
+曲率43645177423/source2f1b809c人工与actual success；publisher压缩前拒原大JSON。6件artifact14133787467/823379B待恢复；不重算，科学新值未读。publisher现修为原JSON≤64MB、压缩后<5MB；单.gz仍<5MB。
 
-新fullm8请求仅消费W+receipt和R110已存列，3e9aea源码先人工后287新列/240s。receipt补fallback缺run/source，不改原数据；同job用MR_TOKEN实际partialclone/pull私有规则/QUEUE，当前仍未拿新回执。局部下一consumer按R114先模m0八函数。子题完接open；预算/设施/报告大小不作收尾理由。
+fullm843645929555/source27905679新toy9项pass；actual0.00970s因v2模板字段original_third_sha256 KeyError，尚未算列。下一修实际字段消费，与曲率artifact恢复两lane并行。R114局部新consumer直接读导出并先模m0八函数。上述actual均本公开Actions；子题完接open，不因预算/设施/报告大小收尾。
