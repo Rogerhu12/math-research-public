@@ -106,7 +106,7 @@ $$
 $$
 它与原 $S,T$ 的两条聚合并列；没有把三个权分别置零。以下采用统一单位归一
 $$
-\boxed{F_\nu=rac{c_{\nu,1}}q-rac p{q^2a}c_{\nu,2}
+\boxed{F_\nu=\frac{c_{\nu,1}}q-\frac p{q^2a}c_{\nu,2}
 +\frac{2p^2}{q^3a^2}c_{\nu,3}.}
 \tag{9}
 $$

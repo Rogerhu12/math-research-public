@@ -250,3 +250,7 @@ R533两固定负矩的第一层现有[准确递推与有限记录](notes/2026-11
 ### R554：真正五输入同域负矩差
 
 [R554](results/R554-original-four-sigma-theta-source-and-same-domain-negative-moment-difference.md)支付两条全测度推前和同一Yunit上的24Ω³I1=I4−18∫u e2/Y⁵ρ，Q保完整双来源普通核心及κ³项。**待做：** 此真实域的非零或全部补域消元，联R559的S6⊗S6双输出时不忘K；正7jet/原函数12jet非零不赋负五矩非零，Theta质量一不授权Mellin内反卷积。pairedV上尾联合非零仍开。
+
+### R560：同一native全域的七条件源条带积分
+
+[R560](results/R560-native-single-branch-and-seven-conditional-moments.md)已将原整个Nn化成β^n乘同一个五变量行，保全部Y/W条件与对数、Eunit、W′/G和同一P。两不交域是Zunit、X∓(2+ω)Zdeep；原S14七条件系数精确式含−672bΩ6Λ0质量项。**待做：** 这个实际条带积分的非零或与原S/T零行的合法联合；边际π4条件不能单独杀strip/Λj，R558的Dn不降π5，插入它必须重算完整逆像。继续R559/563的同源低度joint及R562真实四线单位负矩比较，不从深度独立收尾。

@@ -1,0 +1,121 @@
+{
+  "status": "exact rational computation completed",
+  "scope": "Full original frame inverse and conditional sixth-moment constant; no prime sampling and no nonvanishing assertion.",
+  "basis": [
+    "D",
+    "E",
+    "Y",
+    "W",
+    "Wprime",
+    "G"
+  ],
+  "X": [
+    {
+      "real": "0",
+      "delta": "0"
+    },
+    {
+      "real": "1/182",
+      "delta": "0"
+    },
+    {
+      "real": "13/288",
+      "delta": "3/32"
+    },
+    {
+      "real": "-95/2016",
+      "delta": "-575/6048"
+    },
+    {
+      "real": "25/2016",
+      "delta": "71/6048"
+    },
+    {
+      "real": "1/234",
+      "delta": "1/936"
+    }
+  ],
+  "Z": [
+    {
+      "real": "0",
+      "delta": "0"
+    },
+    {
+      "real": "1/364",
+      "delta": "-3/364"
+    },
+    {
+      "real": "-1/18",
+      "delta": "-1/48"
+    },
+    {
+      "real": "7/144",
+      "delta": "5/216"
+    },
+    {
+      "real": "17/288",
+      "delta": "-11/864"
+    },
+    {
+      "real": "1/144",
+      "delta": "-11/1872"
+    }
+  ],
+  "checks": {
+    "normD": {
+      "real": "14",
+      "delta": "0"
+    },
+    "orthogonal": [
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      }
+    ],
+    "uCoefficient": {
+      "real": "-1/14",
+      "delta": "-1/14"
+    },
+    "ucCoefficient": {
+      "real": "-1/28",
+      "delta": "-3/28"
+    },
+    "lcCoefficient": {
+      "real": "1/14",
+      "delta": "-3/14"
+    },
+    "uNorm": {
+      "real": "5/7",
+      "delta": "0"
+    },
+    "ucNorm": {
+      "real": "1/2",
+      "delta": "0"
+    }
+  },
+  "degree14_sixth_correction": -672
+}
