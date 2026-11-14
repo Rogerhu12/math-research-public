@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_exact_bump_and_continuous_Z_source_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43610523058",
   "run_attempt": "1",
@@ -111,6 +111,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T15:32:51.029687+00:00",
+      "before": "7bec8e87cbcf08b75b4edc577a1099c96c7f95dd",
+      "after": "fc4863236b6965ff47fe13dc3cd4f3dff23c3c53",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -118,6 +126,11 @@
       "time": "2026-11-14T15:31:19.976616+00:00",
       "final": false,
       "commit": "45aa746ffe9e3e9e94316df719fbe98e36015402"
+    },
+    {
+      "time": "2026-11-14T15:32:49.725628+00:00",
+      "final": false,
+      "commit": "fc4863236b6965ff47fe13dc3cd4f3dff23c3c53"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -157,7 +170,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "7bec8e87cbcf08b75b4edc577a1099c96c7f95dd",
+  "last_read_commit": "fc4863236b6965ff47fe13dc3cd4f3dff23c3c53",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-exact-bump-Z-Fourier-mean-fixed-eta-work/science",
   "actual_scientific_input_sha256": {
     "original-manifest": "c214f800a5094c905c554e9053c52567d5ae5d76be41ac2e3fe9d673b396d784",
@@ -173,14 +186,26 @@
     "fixed-process": "479a4f2b39fccb834c8301e023c2260722bee923ee1755c8c4ac14fee6de4310"
   },
   "all_original_40_parts_and_7721_scalar_rows_verified": true,
-  "snapshot_utc": "2026-11-14T15:32:46.743484+00:00",
-  "wall_seconds": 93.13085312800001,
+  "snapshot_utc": "2026-11-14T15:32:51.837152+00:00",
+  "wall_seconds": 98.22453254500002,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 1503,
+      "sha256": "886c7dfbe20599c6c74b788bca1f32d3db4412c00d7061d4a6cde2028abcca03"
+    },
     {
       "logical_file": "evidence/actual-original-fixed-jet-artifact-process.json",
       "file": "evidence/actual-original-fixed-jet-artifact-process.json",
       "bytes": 24733,
       "sha256": "479a4f2b39fccb834c8301e023c2260722bee923ee1755c8c4ac14fee6de4310"
+    },
+    {
+      "logical_file": "evidence/exact-bump-and-continuous-Z-source-pilot-summary.json",
+      "file": "evidence/exact-bump-and-continuous-Z-source-pilot-summary.json",
+      "bytes": 105167,
+      "sha256": "9b07a2144f3492558de17530971d1141733fb1cb97876aa69748488fba15f853"
     },
     {
       "logical_file": "evidence/original-body-process.json",
@@ -303,11 +328,116 @@
       "sha256": "16de872ce106e05b6add99d8406598de3cc87b94f4533a9fc3bb46294c66366a"
     },
     {
+      "logical_file": "evidence/row-0000-exact-bump-Z-summary.json",
+      "file": "evidence/row-0000-exact-bump-Z-summary.json",
+      "bytes": 15995,
+      "sha256": "cd0dfe1450961615ddb97f7115ef11cdcef0d567e6435c0acae3a61839a5f5cf"
+    },
+    {
+      "logical_file": "evidence/row-0597-exact-bump-Z-summary.json",
+      "file": "evidence/row-0597-exact-bump-Z-summary.json",
+      "bytes": 25978,
+      "sha256": "53b1875414367f9e0a180b52711753b10a81cf32230bceb893f1e69c255e88c7"
+    },
+    {
+      "logical_file": "evidence/row-1280-exact-bump-Z-summary.json",
+      "file": "evidence/row-1280-exact-bump-Z-summary.json",
+      "bytes": 168911,
+      "sha256": "6120e5e65e9acbadf566236c71ae9602fefac35564d94d96ed9a56b2615d009d"
+    },
+    {
+      "logical_file": "evidence/row-1283-exact-bump-Z-summary.json",
+      "file": "evidence/row-1283-exact-bump-Z-summary.json",
+      "bytes": 169284,
+      "sha256": "c68eaae87c2862a3628411b6df26eb5c66d452bd3dcb76ae036a9451ec5fc2d4"
+    },
+    {
+      "logical_file": "evidence/row-1284-exact-bump-Z-summary.json",
+      "file": "evidence/row-1284-exact-bump-Z-summary.json",
+      "bytes": 169631,
+      "sha256": "ad2f905375b9de493c772397a91114da7ce3a78b434ac15e87c20bb60eac8ee1"
+    },
+    {
+      "logical_file": "evidence/row-1289-exact-bump-Z-summary.json",
+      "file": "evidence/row-1289-exact-bump-Z-summary.json",
+      "bytes": 170680,
+      "sha256": "d82f61139855d85522dd69781d3c26a6a8d2a4bc48b41b7406398c70a348e16c"
+    },
+    {
+      "logical_file": "evidence/row-1519-exact-bump-Z-summary.json",
+      "file": "evidence/row-1519-exact-bump-Z-summary.json",
+      "bytes": 169011,
+      "sha256": "7d6d2b1bd4d053f6dc9a811e6fee3321b839d35f7f49b9af68acbe6ca50a2a73"
+    },
+    {
+      "logical_file": "evidence/row-1521-exact-bump-Z-summary.json",
+      "file": "evidence/row-1521-exact-bump-Z-summary.json",
+      "bytes": 27625,
+      "sha256": "8ac49ad32a46532a8d1ca89e97886d39a8a908609ca6efd9386a6c0fa32171c2"
+    },
+    {
+      "logical_file": "evidence/row-1522-exact-bump-Z-summary.json",
+      "file": "evidence/row-1522-exact-bump-Z-summary.json",
+      "bytes": 28603,
+      "sha256": "63c513891751648b8fd1d642dae903229adcbf0845af55de6df6dfc2f8f3d7c5"
+    },
+    {
+      "logical_file": "evidence/row-1524-exact-bump-Z-summary.json",
+      "file": "evidence/row-1524-exact-bump-Z-summary.json",
+      "bytes": 170716,
+      "sha256": "200e28d3935785179fe75462bb41f16316c6988205a14283689f65c7ec73af2e"
+    },
+    {
+      "logical_file": "evidence/row-1753-exact-bump-Z-summary.json",
+      "file": "evidence/row-1753-exact-bump-Z-summary.json",
+      "bytes": 15996,
+      "sha256": "b7b9f8f9624d871be916b0ecae211eb730a44510edf96ed9e7592f6d1196b79d"
+    },
+    {
+      "logical_file": "evidence/row-3070-exact-bump-Z-summary.json",
+      "file": "evidence/row-3070-exact-bump-Z-summary.json",
+      "bytes": 93632,
+      "sha256": "af885e63a5a915f5982f95561eee3cfac4f5bde3ea2601ba866588fa76d92532"
+    },
+    {
+      "logical_file": "evidence/row-5584-exact-bump-Z-summary.json",
+      "file": "evidence/row-5584-exact-bump-Z-summary.json",
+      "bytes": 15991,
+      "sha256": "df65c21e7e5f08dc3f50ab12e0a751ab363f6ac7c28dbdcce5d41e720219d400"
+    },
+    {
+      "logical_file": "evidence/row-6375-exact-bump-Z-summary.json",
+      "file": "evidence/row-6375-exact-bump-Z-summary.json",
+      "bytes": 93672,
+      "sha256": "5e42cfcad2a02c068f54538af13bba06ef2be378a4d8286fe8551b680c657f42"
+    },
+    {
       "logical_file": "native/exact-bump-and-continuous-Z-source-pilot.json.gz",
       "lossless_manifest": "native-exact-bump-and-continuous-Z-source-pilot.json.gz-c37a5796a3829dfa-parts.json",
       "bytes": 11802184,
       "sha256": "c37a5796a3829dfab1846928041f6a91472dc47f20e02f8a2a4080198b574b1c",
       "parts": 6
     }
-  ]
+  ],
+  "actual_new_projection_child_executed": true,
+  "complete_native_sha256": "c37a5796a3829dfab1846928041f6a91472dc47f20e02f8a2a4080198b574b1c",
+  "actual_selected_original_rows": [
+    0,
+    597,
+    1280,
+    1283,
+    1284,
+    1289,
+    1519,
+    1521,
+    1522,
+    1524,
+    1753,
+    3070,
+    5584,
+    6375
+  ],
+  "actual_selected_projection_gates": 10,
+  "unknown_high_inputs_not_removed": true,
+  "finished_utc": "2026-11-14T15:32:50.718314+00:00"
 }
