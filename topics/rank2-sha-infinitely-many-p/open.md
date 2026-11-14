@@ -116,35 +116,9 @@ R505的ξ=3Tβcont(F)，接触余核对偶H0(C,KX|C(qP))、q=h−k；q<χ才可�
 
 R514/517 的完整固定3/2charge返回、十九角/ambient门、原Γ转置和r缓冲条件保[本轮归档](notes/2026-11-14-open-before-r544.md)。R543/545/547只按各自实际预算扩展，FH2从未等于全J。R521固定边界长3c(u+4b)与显示forcing残数b²m(4t0−1)仍须杀真正res H0(3C,IηLc)和全部原列。R524真边界核的三层及两条连接α/β保持同源，第一层负度不能删另外两层。**待做：** 原二次临界候选的完整联合边界像、forcing与同一R/carry；不能把边界非零、局部Taylor清极或容量算作原jet非零。R550正沿实际(F,e)H2交概形继续。
 
-R522完整结论、准确预算及原条件见[R522](results/R522-common-degree3-even-factor-and-same-st-positive-test.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 在这同一个测试下控制原三条完整补域及第一Y移动；H1unit可加，不能把全域两T相等与非零子域差当矛盾。
+R522、R525–536与R538的全部准确公式、预算和未付接口完整保存在[本次open归档](notes/2026-11-14-open-before-paired-v-note.md)，均未关闭。当前仍须同一测试的三条完整补域/第一Y移动、原S/T不同unit管、隐藏纤维补偿、真实W/K/E移权、全部carry和参考量；原D_n不是所保π4事件。多权支持发散仍允许O(N)，Fermat移位仅原核方程组合，不添Smith条件；原同一修正d2/G2、两连接和实际forcing须继续。R536实际7×10整右逆已付零质量和π4返回，R538仅原N分量镜管相消，不能删A5/近相消或全L/M余量。
 
-R527完整结论、准确预算及原条件见[R527](results/R527-original-h0-b-sixth-inverse-and-complete-joint-carry.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 原S/T不同unit管的补域；保七质量项、四R及固定大p门。
-
-R526原低轴PlogTheta=2t/3、T≤2Δ+1有理接触界和单/两权核排除保[此前完整接口](notes/2026-11-14-open-before-r525.md)。多权已由R525推进；完整M/后两块/固定conductor未删。
-
-R528完整结论、准确预算及原条件见[R528](results/R528-degree14-three-orbit-positive-test-and-complete-mixed-row.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 隐藏纤维补偿与原观察核；D_n不是π3事件。
-
-R525完整结论、准确预算及原条件见[R525](results/R525-original-multiweight-wronskian-and-growing-kernel-support.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 与原三层连接/forcing及全部carry联立，或加强到允许的O(N)支持；当前支持发散本身不排原核，也不赋中央非零。
-
-R529完整结论、准确预算及原条件见[R529](results/R529-original-low-j-k-core-and-complete-st-carry.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 保W的K/E项，将原T行的Kdeep1及P0−P_K两补偿与完整carry补域联立；不把四输出身份冒称S/T共同返回。
-
-R530完整结论、准确预算及原条件见[R530](results/R530-divided-graded-connection-full-integral-gauge-and-mixed-second-precision.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 原实际配对与C2，不由源可逆代像饱和；严格限同一B或conductor·B矩阵，裸Q保A未证。R534已用P/VP双接触支付跨s精度；不能把ODE自身延长。
-
-R531完整结论、准确预算及原条件见[R531](results/R531-hidden-two-frame-native-central-carry.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 控制同一Γn内的真实纤维补偿，并用真正改变Y的原操作接完整中央；D_n不是所保π4的事件，不能丢补集。
-
-R532完整结论、准确预算及原条件见[R532](results/R532-original-j-a5-full-frame-and-rank-two-source.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 用同一完整张量与原W的全部六系数联立实际补域；两个边际都零不等于联合源零，旧W隐藏项不能删。
-
-R534完整结论、准确预算及原条件见[R534](results/R534-original-three-gaussian-wronskian-double-contact-and-sharp-support.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 原允许O(N)支持的核与两真实α/β连接、原forcing及同一整修正；支持发散不等于核不存在，不新增来源中央零。
-
-R535完整结论、准确预算及原条件见[R535](results/R535-original-hesse-tensor-and-complete-mixed-kernel.md)和[本轮完整归档](notes/2026-11-14-open-before-r551.md)。**待做：** 在这个同一来源中找真正混Y的完整关系；旧W的E系数非零，须用未忘E的五项测度及真实log/单位域，七个低矩不足。原补域未消。
-
-原Fermat商移位族的范围已在[整谱投影与核方程说明](notes/2026-11-14-fermat-shifts-and-kernel-syzygy-boundary.md)证明：它恰生成canonical j对角算子，全部完整配对是Cα=M Qα−F*α M的核方程组合。**待做：** 计算尚未完成的原候选/实际提升或支付核像稳定；仅增加α/有限差分不新增独立Smith条件。
-
-R536真实七行十列纤维补偿由显示整右逆支付全部λ/κ；删正文固定D_*有限坏集后，同一Γ/π4返回原source，原D_n严格零质量/logx而中央及两差均v=n。三个不交carry平均成T不变测试，旧W核保持，T D_n为原h的非零Wdeep子管。**待做：** 控制真实Wcore后Y+(κn−1)(37−3δ)W/72权及全部原单位/输入补域；不能把这项去掉后调用原S零。
-
-R538未改P_K的E深/Kunit整条四输出返回已付，系数βn(8+20κ3n−κ6n)/27；配真实J/B2/C30深和Y_r给同一原S完整行，外域可留在三伴随深内。N分量在±近相消镜管的完整积分准确相消（各v5n）。**待做：** 余A5深及J/κr+K深条件、L/M完整分量和W→W−2(1/3−δ)K真实移权；不能把一个分量的配对认成整个ρ的补域消失。
-
-[三层乘积与分歧成本笔记](notes/2026-11-14-deep-three-layer-product-and-ramification-cost.md)已保实际残项：A⊗B=C不构造同格修正；局部Taylor校正需(EF)²清极而升5C，原3C预算不足。k=0/1的局部Cartier改写仍保全局α/β，不以该改写关闭原forcing。
+[三层乘积与分歧成本](notes/2026-11-14-deep-three-layer-product-and-ramification-cost.md)保原normal残项及(EF)²清极升5C代价，局部Cartier改写不消全局α/β，原3C同预算限制保持。
 
 ## 保持的完成标准
 
@@ -264,3 +238,7 @@ R533两固定负矩的第一层现有[准确递推与有限记录](notes/2026-11
 ### R556：同一native算术总行与两个真实37交支
 
 实际h(Phi1−Phi2)精确是Δ=ρ0−η在u1deep/Lunit上的同一反对称行；其总行严格返回3βn(JS′−6δJT′)，完整补域保留。原q/反射q共同支恰两Jτ=(1−τ)F−2c轴，whole odd37锚付β及固定π0≡1mod37；归一后全部事件下降五伴随，所有第一权和κ^-n保。两独有支、四Mellin边界、完整37条件矩及实际r阶log残差全付，不预支首行积分单位。见[R556：原native混合行、真实odd37交支与完整残差](results/R556-native-mixed-carry-odd37-cores-and-complete-residual.md)。**待做：** R559用同一37条件来源/五伴随域计算自由轴首行，保一般共同支的常数log质量及两独有支、四互斥边界；原Δ总行零不赋strip零。R558固定M3与新37条件共同保，不能把两非正交J核当独立矩形；原严格残差的积分非零仍须证明。
+
+### R554工作记录：同一Verschiebung模型与真实Cartier上尾
+
+[完整笔记](notes/2026-11-14-paired-verschiebung-cartier-checkpoint.md)已支付两个原有理来源R4/R1的微分方程、全部Cartier归一、最高目标项与强制低jet，原deck相位完整保留。Z=R4−24h³R1的[X^(p−2)]为−h^11/1100单位，但原点两目标可同时置零后仍留下6p−12极帽；没有全纤维消失或固定S6下降。**待做：** 由同一真实Cartier上尾或非齐次完整trace证明最高A4/A1不同时零（至少无穷p），并支付R533的完整原中央比较。只用已有13/19/61三点核算，不以有限证据收尾。
