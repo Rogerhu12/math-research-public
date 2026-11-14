@@ -195,3 +195,6 @@ R236完整有限核心缩放与球外保持证明直接登记；λ=6/5全32有�
 
 ### 2026-11-14T07:48:11+00:00 — scaledexactchecks (local; public approval pending)
 R236显示的全部十进开区间以Fraction逐项交叉相乘实核，并核rho正、原binary k0入口乘积<1、原hmin>rhomin；全部13门真。不是新的ODE/闭面结论。
+
+### 2026-11-14T08:26:08+00:00 — sphereprefix (local; public approval pending)
+完整λ6/5核从core球控制到.95真exit0/848.78s，球样本约.96未遮挡；冻结381节点/1140准确接缝，同g冷M96/M192粗时步误差非单调，M192时步减半/tol加严后2.12719e−13真exit0。仅开放前缀；完整六jet、闭面/全t/reach未完成。紧凑checkpoint结构修正为末态与全部读数分离，旧scaled-core数值未改。
