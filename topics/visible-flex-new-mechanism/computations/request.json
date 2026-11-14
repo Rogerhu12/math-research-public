@@ -1,14 +1,10 @@
 {
-  "request": "corrected-derivatives-quartic-geometry-and-spatial-core-refinement",
-  "created_at": "2026-11-14T19:53:54.056006+08:00",
+  "request": "exact-threefold-warped-ruled-core-and-filled-projection-screen",
+  "created_at": "2026-11-14T20:05:57.245702+08:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "closed_quartic",
-    "star_lift",
-    "space_refine"
+    "warped_core"
   ],
-  "closed_quartic": "correct the near-zero-parameter derivative step, then warm-start the necessary two-double-root geometry; actual profile remains unsolved",
-  "star_lift": "six exact height harmonics, tip/valley torsion eliminated, optimize all-angle curvature at fixed width .02, freeze rational coefficients before certification",
-  "space_refine": "same three already-screened a=.65,b=.12,h=.30 candidates; widths .005/.01 held fixed, 32768 interval cells and cell-local curvature quotient",
+  "warped_core": "R12 exact closure and fixed per-candidate metric; four u designs, continuous curvature, full filled projection witness, no cap or reach claim",
   "task_complete": false
 }

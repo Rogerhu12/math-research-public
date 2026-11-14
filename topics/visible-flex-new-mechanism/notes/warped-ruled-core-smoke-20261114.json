@@ -1,0 +1,33 @@
+{
+  "smoke_only": true,
+  "research_scan_performed": false,
+  "artificial_parameters": {
+    "warp_u": 0.13,
+    "warp_v": 0.02
+  },
+  "unit_norm_error": 2.220446049250313e-16,
+  "direction_derivative_relative_errors": [
+    1.354823099815342e-11,
+    1.1710373285885568e-11,
+    1.1431946537857298e-11
+  ],
+  "vertical_primitive_derivative_error": 9.159339953157541e-16,
+  "center_derivative_relative_error": 4.637668014806975e-10,
+  "metric_error": 6.661338147750939e-16,
+  "R6_complete_central_second_jet_error": 1.815214645262131e-14,
+  "zero_warp_matches_R44_all_port_jets_error": 4.04121180963557e-14,
+  "center_closure_numeric": [
+    -9.992007221626409e-16,
+    -9.992007221626409e-16,
+    3.5388358909926865e-16
+  ],
+  "interval_api_artificial_nodes": 24,
+  "interval_api_shape": [
+    24,
+    3
+  ],
+  "interval_vs_numeric_vertex_max_box_miss": 3.3306690738754696e-16,
+  "interval_api_regularity_endpoint_formula": true,
+  "passed": true,
+  "source_sha256": "7659c52d327ad7d513813891be49a71d1f8396c0fcf8ed1352028952a7c8dbce"
+}

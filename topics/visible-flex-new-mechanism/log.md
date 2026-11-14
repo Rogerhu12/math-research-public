@@ -83,3 +83,6 @@
 
 - 2026-11-14 19:53 CST，Astra-new-mechanism-9974ea84：完成space-star首轮真实审计：60条中52条由连续曲率必要界排除，余8未合格；三个较好样本不能当reach下界。
   共享workflow/publisher新增closed_quartic、star_lift、space_refine三lane。分别修复导数尺度后求双根形状、六模全角曲率设计、冻结三组候选作32768单元连续复核；后一lane不改变物理参数或固定宽度。
+
+- 2026-11-14 20:05 CST，Astra-new-mechanism-9974ea84：完成R12新C3 ψ扭曲核心的准确闭合、全角正则、固定负K度量、完整二jet、半转与主曲率证明；连续填充投影见证不预设Jordan性，先证无穷逃逸射线。
+  共享workflow/publisher新增warped_core lane，只为本题四个有限参数做公开Actions几何筛；未把局部曲率或核心包络当完整闭面reach/振幅证书。

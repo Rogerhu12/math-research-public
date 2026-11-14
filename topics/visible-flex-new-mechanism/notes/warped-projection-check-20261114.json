@@ -1,0 +1,85 @@
+{
+  "schema": "warped-projection-synthetic-check-v1",
+  "check_only": true,
+  "research_geometry_evaluated": false,
+  "checks": {
+    "outside_outward_ray": {
+      "polygon_ray_distance_lower": "0.999999999999999555910790149937383830547332763671875",
+      "all_edges_disjoint_certified": true,
+      "unresolved_or_intersecting_edges": 0,
+      "all_vertices_strictly_behind_ray_origin": true,
+      "direction_exact_binary64": [
+        1.0,
+        0.0
+      ],
+      "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+    },
+    "outside_inward_ray": {
+      "polygon_ray_distance_lower": "0",
+      "all_edges_disjoint_certified": false,
+      "unresolved_or_intersecting_edges": 2,
+      "all_vertices_strictly_behind_ray_origin": false,
+      "direction_exact_binary64": [
+        -1.0,
+        0.0
+      ],
+      "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+    },
+    "inside_ray": {
+      "polygon_ray_distance_lower": "0",
+      "all_edges_disjoint_certified": false,
+      "unresolved_or_intersecting_edges": 1,
+      "all_vertices_strictly_behind_ray_origin": false,
+      "direction_exact_binary64": [
+        1.0,
+        0.0
+      ],
+      "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+    },
+    "line_crossing_behind_ray": {
+      "polygon_ray_distance_lower": "0.70710678118654268775600257868063636124134063720703125",
+      "all_edges_disjoint_certified": true,
+      "unresolved_or_intersecting_edges": 0,
+      "all_vertices_strictly_behind_ray_origin": false,
+      "direction_exact_binary64": [
+        1.0,
+        0.0
+      ],
+      "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+    },
+    "collinear_segment_behind": {
+      "polygon_ray_distance_lower": "0.99999999999999900079927783735911361873149871826171875",
+      "all_edges_disjoint_certified": true,
+      "unresolved_or_intersecting_edges": 0,
+      "all_vertices_strictly_behind_ray_origin": true,
+      "direction_exact_binary64": [
+        1.0,
+        0.0
+      ],
+      "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+    },
+    "collinear_segment_ahead": {
+      "polygon_ray_distance_lower": "0",
+      "all_edges_disjoint_certified": false,
+      "unresolved_or_intersecting_edges": 2,
+      "all_vertices_strictly_behind_ray_origin": false,
+      "direction_exact_binary64": [
+        1.0,
+        0.0
+      ],
+      "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+    },
+    "exact_winding_inside_outside_boundary": [
+      1,
+      0,
+      null
+    ],
+    "exact_circle_api": {
+      "radial_jordan_graph_certified": true,
+      "filled_domain_witness_proved": false,
+      "candidate_count": 4
+    }
+  },
+  "passed": true,
+  "source_sha256": "a8f8e7e2aa4665f3e815419d1fe53e3dbbb686d357254181a05e41307d527700"
+}
