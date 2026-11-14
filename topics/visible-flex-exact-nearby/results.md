@@ -47,3 +47,5 @@
 - [R133 genuine-Wiener-transport-and-terminal-postcomposition](results/R133-supplement-genuine-Wiener-transport-and-terminal-postcomposition.md)：完整169真实transport升到Wiener A1/50，不付sup转Fourier损失；全3095行、全部257有限输出与true root费给E<3.298859061709e−9及Eφ<5.965075704791e−8。另证明终端K复合的全Laurent尾及真实K′费用接口，未声称真共轭。
 
 - [R133 complete169-true-return-defect-and-explicit-family-twist](results/R133-supplement-complete169-true-return-defect-and-explicit-family-twist.md)：公开43580721166已真正补齐42个缺失germ；完整169/3095行的真缺陷实际激活参数行，显式Qδ族σphys>.0018683289033092258770>1/540、σx>1/135。完整qν−Z及PDE/phase Schur仍未付，未将显式族称为PDE解支。
+
+- [R133明确完整C0球的最终几何充分条件](results/R133-supplement-final-geometry-from-complete-C0-ball.md)：以实际141块的腰误差和连续模型为输入，完整物理C0差≤1e−4、|δν|≤1e−5及原外部匹配球足以支付全半径/支撑/曲率/真帽/held/reach与marker条件。先用真实waist frame完整周期及mean小球强制整数绕转1，避免先假设嵌入的循环；该精确解及小球尚未构造。新增公开workflow仅执行26项有理预算并保存真实结果。

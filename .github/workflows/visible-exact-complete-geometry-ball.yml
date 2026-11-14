@@ -1,0 +1,112 @@
+name: visible-exact complete geometry ball rational budget
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-complete-geometry-ball.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  exact-rational-budget:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Partially check out the proved bounds and their rational consumer
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_geometric_ball_budget.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-geometry-ball-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+            /topics/visible-flex-exact-nearby/results/*.md
+      - name: Execute every complete rational geometry and winding comparison
+        run: >-
+          python3 topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_geometric_ball_budget.py
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-geometry-ball-inputs.json
+          --out "$RUNNER_TEMP/complete-geometry-ball-native.json"
+      - name: Publish the actual result after checking the reviewed repository rules
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import base64, datetime, hashlib, json, os, pathlib, shutil, subprocess
+          root = pathlib.Path(os.environ['GITHUB_WORKSPACE'])
+          topic = root/'topics/visible-flex-exact-nearby'
+          rules_path = topic/'notes/2026-11-14-R133-reviewed-public-CI-rules.json'
+          rules_bytes = rules_path.read_bytes()
+          if hashlib.sha256(rules_bytes).hexdigest() != 'fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1':
+              raise ValueError('the separately reviewed repository rules changed')
+          rules = json.loads(rules_bytes)
+          env = os.environ.copy()
+          authorization = base64.b64encode(('x-access-token:'+env['GITHUB_TOKEN']).encode()).decode()
+          env.update(GIT_TERMINAL_PROMPT='0', GIT_CONFIG_COUNT='1',
+                     GIT_CONFIG_KEY_0='http.https://github.com/.extraheader',
+                     GIT_CONFIG_VALUE_0='AUTHORIZATION: basic '+authorization)
+          def git(*args, check=True):
+              process = subprocess.run(['git', *args], cwd=root, env=env,
+                                       text=True, capture_output=True)
+              if check and process.returncode:
+                  print(process.stdout+process.stderr, flush=True)
+                  raise RuntimeError('actual terminal Git operation failed: '+args[0])
+              return process
+          git('config', 'user.name', 'github-actions[bot]')
+          git('config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com')
+          history = []
+          def sync():
+              before = git('rev-parse','HEAD').stdout.strip()
+              git('pull','--rebase','origin','main')
+              after = git('rev-parse','origin/main').stdout.strip()
+              diff = git('diff',before,after,'--',*rules['readme_sha256']).stdout
+              for path, expected in rules['readme_sha256'].items():
+                  if hashlib.sha256((root/path).read_bytes()).hexdigest() != expected:
+                      print(diff, flush=True)
+                      raise RuntimeError('an unread README change requires its actual diff to be read')
+              history.append(dict(before=before, after=after, actual_diff=diff,
+                                  explicitly_reviewed_commit=rules['read_commit']))
+          sync()
+          dest = topic/'notes/complete_geometry_ci'/('run-'+os.environ['GITHUB_RUN_ID']+'-'+os.environ['GITHUB_RUN_ATTEMPT'])
+          dest.mkdir(parents=True, exist_ok=True)
+          source = pathlib.Path(os.environ['RUNNER_TEMP'])/'complete-geometry-ball-native.json'
+          shutil.copyfile(source,dest/'native.json')
+          native_sha = hashlib.sha256(source.read_bytes()).hexdigest()
+          def status():
+              record = dict(kind='actual_public_complete_geometry_ball_process',
+                            actual_returncode=0, native_sha256=native_sha,
+                            repository=os.environ['GITHUB_REPOSITORY'],
+                            run_id=os.environ['GITHUB_RUN_ID'],
+                            run_attempt=os.environ['GITHUB_RUN_ATTEMPT'],
+                            readme_checks=history, final_topic_complete=False)
+              (dest/'process.json').write_text(json.dumps(record,indent=2)+'\n')
+          status()
+          relative = str(dest.relative_to(root))
+          git('add','--sparse','--',relative)
+          git('commit','-m','visible-exact: complete the exact geometric ball and winding budget')
+          while True:
+              result = git('push','origin','HEAD:refs/heads/main',check=False)
+              print(result.stdout+result.stderr,flush=True)
+              if result.returncode == 0:
+                  break
+              if not any(term in result.stderr for term in ('fetch first','non-fast-forward','cannot lock ref','remote rejected')):
+                  raise RuntimeError('publication failed for a reason other than concurrent main changes')
+              sync();status()
+              git('add','--sparse','--',relative)
+              git('commit','--amend','--no-edit')
+          PY
+      - name: Preserve the exact rational output even if publication fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-geometry-ball-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/complete-geometry-ball-native.json
+          if-no-files-found: warn
+          retention-days: 30

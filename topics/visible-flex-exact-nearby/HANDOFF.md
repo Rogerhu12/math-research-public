@@ -5,7 +5,7 @@
 ## 规则与工作位置
 
 唯一工作仓库 Rogerhu12/math-research-public；只使用本仓库 Actions。新目录 `/workspace/scratch/0df957a82d09/math-research-public` 是 blob:none 部分克隆，仅先检出正文、脚本和 workflow；大数据按需只读旧检查点或在公开 Actions 重建。
-最后实际 pull --rebase 与两 README 差异检查：4a126a2be666506aedac20a84fafa43100cf05dc；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
+最后实际 pull --rebase 与两 README 差异检查：5810723c7ba9572636399a87e10815903b4305eb；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
 每次推送前 pull/rebase 并检查两个 README；至少每小时 pull；每条结论独立提交推送；非快进立即 rebase 后重推，不 force。PAT 仅瞬时命令行环境，不入文件或输出。root 管 Git/HANDOFF/open/results 索引/log，代理只写自己新文件。
 
 ## 目标和准确对象
@@ -46,3 +46,5 @@ phase旧完整请求只到127germ且已正常返回，不再等待其自动覆�
 新workflow visible-exact-cap128-recover-complete.yml 与 visible-exact-correlated-body-reviewed.yml已接独立reviewed rules fdb83fd4…；driver7f8521cb…只修基础设施，原科学manifest完全不动。每个已完成原artifact先核/保存后复用，规则再变仍报告并由root读diff。
 
 公开phase169已经完整：Wiener E A1/50<3.298859061709e−9、Eφ A0<5.965075704791e−8，显式Z族σphys>1/540；这只付明确中心族横截，真实qν−Z/完整Schur/R31及β强项继续。
+
+最终几何已归结为明确同对象充分门：eta0、完整物理C0差≤1e−4、|δν|≤1e−5及真实外部原球/全匹配；完整frame周期+mean比值先给腰绕转1，不借未证嵌入。所有几何比例有余量，但存在该闭解及误差球仍为主缺口。
