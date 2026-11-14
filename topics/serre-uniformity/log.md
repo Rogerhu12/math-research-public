@@ -54,3 +54,8 @@
 - R745原p41 Hodge/period输入方法与独立公开Actions请求已提交：复用R738拓扑，只新算40p向量/N、六基800项与80平移/819边端点，未提前声称计算完成。
 - core SHA48e8bb1189e39c0f0500be6b20da8a21e2788b5b73bdb9fea32d17540b144b4d，方法SHA911593aeaa0dd3f5d3ef577efbc2a448ba4c498224de81a3af5335b8f1c71329；本地仅语法/输入路径/SHA核验，无数学运行。
 - 新增专用workflow/core/driver/request，复用既有publisher未改共享脚本；全部大表只artifact。HANDOFF/open同步，继续原period/q/β与高度。
+
+## 2026-11-15 00:32 Asia/Taipei · serre-public-resume-20261114
+- R749由R561原scalar相位25和Fr=s32、完整p² Kummer-zero及正Norm primitive独立算出e_c,q=26K0、reference配对9ε，保原1848与二次restriction。
+- 接R746准确恢复Ω₂=ε(22+17b)，未由该式倒求scalar值或宣称J/b桥。证明SHA9f151b0f1fb8b98a06454699aff72a6ea27db32628ffb70c24e0c673ed52ff84。
+- HANDOFF/open/index同步；R745公开请求source1768f05c524e2e3d2e01822c0a4f376382c5e608已推，正在取实际run。无新本地数学或共享设施修改。

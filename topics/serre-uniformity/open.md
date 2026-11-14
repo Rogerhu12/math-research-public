@@ -330,6 +330,16 @@ $\langle[D_{0,p}],(d_0)_p\rangle=26\varepsilon b=\varepsilon(\mathcal L-31)$。
 两个泛函线性独立；真正标记交换链尚缺，不据此断言Jflat∝b−24或任何b数值。
 
 
+[R749](results/R749-original-scalar-primitive-and-the-exact-reference-pairing.md)
+现在独立评价原scalar参考项：R561原普通u_s相位25、Fr_q²=s32，
+完整p² Kummer-zero gauge迫β^p=u的phase0；正Norm cochain的Frobenius值为26。
+乘原−2(i/1848)并只作一次quadratic restriction得$e_{c,q}=26K_0$、奇异0，
+完整exact-dual reciprocity给$\langle z_0,d_0\rangle_p=9\varepsilon$。
+最小支撑下q值唯一，扩大支撑仅模原(16,1)线，配对仍唯一；
+与R746合得原$\Omega_2=\varepsilon(22+17b)$，未从此式反推scalar值。
+实际J与b、ordinary/flat交换仍未求出。
+
+
 **R736（已证明）**：同原p43/q标记，NS kerΓE_M=(π,N_T)kerΓE_N等于全部原q直接相位核。原Fr=s32给s在μp²上指数1+2p及rμ(ct)=ell(ut)，R207实一致化元保含极点双Norm相位零。故存在原divY=D_Tq、NΓY=NSY=D_TXt；Z=Xt−(t−1)Y同时NΓ/NS/NT=Aα，原直接相位rμ((s−1)Y)=−4J，flat=−4(J−18)。完整普通校正已证，真正与R720原b的T/Γ链及J/b数值仍缺。详[R736](results/R736-original-three-norm-exchange-and-minus-four-moment-phase.md)。
 
 

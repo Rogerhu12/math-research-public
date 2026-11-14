@@ -205,3 +205,6 @@
 
 
 - **R747（已证明）**：[原toric period乘积的全局实平方根](results/R747-global-real-square-root-of-original-toric-period-product.md)。精确level6 ray field、完整p惯性和系数域交给M2∈A(∛4)，奇次数平方下降及原复共轭相位给$T_h=\alpha nM_{2,h}/[144(1-\zeta^2)]\in F_0$、$T_h^2=2N_hP_h$；原signed共轭及整分母2^18·3^13·p²保持。未任选根或假定单位，实际T/高度仍须求。
+
+
+- **R749（已证明）**：[原scalar primitive与准确reference配对](results/R749-original-scalar-primitive-and-the-exact-reference-pairing.md)。复用R561相位25及原s32 Frobenius，保完整p² Kummer-zero gauge和正Norm cochain、只一次quadratic restriction，独立得$e_{c,q}=26K_0$、$\langle z_0,d_0\rangle_p=9\varepsilon$。接R746准确恢复原Ω₂=ε(22+17b)，未求J/b或混同strict-p与flat。
