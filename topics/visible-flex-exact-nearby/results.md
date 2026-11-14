@@ -374,3 +374,7 @@
 
 [完整实际报告](results/R133-supplement-actual-ordinary-Hessian-same-Z-Green-reweight.md)：43619605142真7门/4.125738s，native64ce5584…；moving<3.776426835e−6，完整97行gR<1.276372397e−5。仅重权6391原right profiles，负区right<.042363496191、body<.003051713268、总<.045415209484；原14physical/所有mean及其它通道保持。1/200 false，未知high与真νSchur仍须付。
 
+### R119 / 真实浅五盒与全部非零频率一次选择（2026-11-14）
+
+[P1–29](results/R119-supplement-shallow-five-cube-family-and-all-frequency-radial-selection.md)独立核完：129–8192新C4小盒全profile/低43模/高块/Γ/第四线/fixed-stop重建，有限e门不需e≪support半径。含全部浅retained的n<16770+16log2M，谱计数不用d<M；同公共好集>1−93/16384，W_all=2^-16W、δ1073/32保持，原角权全频常数<2^2200000。全high/deep-low内部差<2^-5999900，开放内逆/全物理外列与source-label仍待同单位闭合。
+

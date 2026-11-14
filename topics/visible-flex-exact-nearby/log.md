@@ -115,3 +115,7 @@ phase独核E1–12全权/source/mean，修正M不与offdiag矩阵交换的文字
 ### 2026-11-14 17:19:42 UTC — ordinary→Green实际7门逐项亲核
 
 root读9012B process21cd9a69…与23882B summary64712cc2…并核SHA、child0、7门/全部原6391片与真正fixed区间。负区.045415209484仍未过.005；旧14physical未变，knownhigh新1.235258260e−5另保。17:11:06真pull至9696c3f1c316d848685731b219030795abbf06ef，四次README差空，H已记。
+
+### 2026-11-14 17:19:46 UTC — 完整浅前缀与全频径向谱权独立推
+
+root逐字核P1–29及原U14–17/Q10–31，复核窗口计数、三generator下界、log谱费用、全频粗幂与旧M4基点管。补F/M/N/T/O具体finite-e门，排除深层入口或e≪rho_c偷渡。原10进制/原半径无改，新权只固定32bit，全部原普通/weak/mean/外源列保。开放内部与闭外网络身份尚未授，tail继续该项。
