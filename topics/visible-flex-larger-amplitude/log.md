@@ -364,3 +364,7 @@ R245完整证明Hermite P=Q+ES、C²锐界、共享速度积分及完整角函�
 ### 2026-11-14 10:54 UTC — R247 and completed q8/GW diagnostic conclusions
 
 R247证明仿射coast上原有限Frenet RHS常值、Hermite中点消去及真实RMS两点系数，明确域门与残差区别，直接登记results。公开q8已全部空间pairs通过，连续包络仍输入、A幅度仍不足；GW有理shadow复现二jet差，删兼容项反而变差，保实际结论与端点顺序说明。request06/run43587375529已启动五组M/N圈域诊断；request07仅复用实际GW包检查三节点，不重算ODE。
+
+### 2026-11-14 11:01 UTC — actual frequency diagnosis and genuine T112 continuation
+
+公开circleprobe真完成五组，M96增N无效、M112/128/160全部48代表点域通过；原RHS重放exact0，代表点不冒全域证书。选最小M112/T112/N2048继续原有限方程，原96接受身份不改，112仅初猜嵌入。request08只计算新T112真零尾/完整338×112 J/full audit，原96包不复用；全mesh/FD/原QR前置及v3闭包消费并行。旧尾尺度窗与GW三节点实算分别记note，不改变g或冒完成。

@@ -1,11 +1,11 @@
 {
-  "request": "20261114-public-large-core-mainline-07",
+  "request": "20261114-public-large-core-mainline-08",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "gwvelocity"
+    "tailzero112",
+    "prepare112"
   ],
-  "source_run": "43586618658",
-  "input_directory": "notes/public-actions-43586618658-1-gwcompat/GW-cusp-compatibility",
-  "packet": "notes/2026-11-14-GW-cusp-compatibility-packet",
-  "scope": "Use the completed actual GW coefficients and original node identities to compare the nested middle-node velocity and GW acceleration, preserve the z component, and verify split-integral compatibility identities. No new ODE, full-tail reconstruction, replacement geometry or acceptance. The distinct circleprobe request06 is already running as public run43587375529 and is not repeated."
+  "modes": 112,
+  "quadrature": 2048,
+  "scope": "Actual new T112 zero-height tail with the original generic true-tail client, complete 338x112 DN Jacobian, full audit and all original finite states. Inherit original RK12/audit12, depth8, tolerances and Newton gates. No existing T96 response or checkpoint is reused. This independent anchor runs while the original M96 accepted prefix is honestly embedded only as an M112 initial guess and its complete-DN preparer is implemented. The completed circle probe and GW diagnostics are not repeated. In parallel, prepare112 preserves the complete original mesh, uses the explicit v3 source/field dimensions, checks every node/midpoint/actual RMS query, and runs the complete original Richardson boundary check with its honestly labeled ready.linearD reference and unchanged threshold. The preparer never relabels the M96 accepted input or claims a new acceptance."
 }
