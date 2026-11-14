@@ -1,0 +1,19 @@
+Actual V2 and V3 reconstructed exactly from published model and the GP checkpoint.
+Actual model and derivation verified; maxRSS MiB=117.73
+Traceback (most recent call last):
+  File "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_moved_SS_F2_full_canonical_norm_clearing_frame47.py", line 428, in <module>
+    main()
+  File "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_moved_SS_F2_full_canonical_norm_clearing_frame47.py", line 415, in main
+    E = Engine(args)
+        ^^^^^^^^^^^^
+  File "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_moved_SS_F2_full_canonical_norm_clearing_frame47.py", line 85, in __init__
+    assert derivative['result']=='R379' and derivative['all_nonelliptic_rational_disks_unit']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+Actual V2 and V3 reconstructed exactly from published model and the GP checkpoint.
+Actual model and derivation verified; maxRSS MiB=117.6
+PASS full106 canonical norm 3978206 log 3867207
+PASS fixed/collision chart 0 total points 16
+PASS fixed/collision chart 1 total points 23
+PASS fixed/collision chart 2 total points 24
+PASS ACTUAL FULL FIRST VARIABLE F2 NORM SS_j9_22 2603518 SHA e94979b7bd2df721d73376046c5a84902e3a1d26f2e214a1fde2db4a5d8d3847 seconds 5.886
