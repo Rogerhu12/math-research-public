@@ -123,3 +123,6 @@
 
 
 - [R600：原S/T全部余类中央块与真实前缀Vandermonde](../results/R600-original-central-residue-blocks-and-true-prefix-vandermonde.md)：完整有序Cauchy给所有来源次数的中央/非中央第一层、真实有限像与中央Bockstein，保零总权及模p权碰撞；准确接R598的中央Euler观察。真前缀一p行增益保所有非中央行，已空的高核不计预算，两原j零不赋乘积中央零。
+
+
+- [R597同预算深前缀增补](2026-11-14-r597-joint-ordinary-prefix-normalization.md)：将R412的真实单位三角应用于同一结点候选，整选m=min(s,btop_(D−1)+1)的联合普通前缀，准确给ξ∈w^(m−2)、A∈w^m；全部原帽、m=s边界、移位carry及同R补偿保持，不将更深规范认成余类非零。

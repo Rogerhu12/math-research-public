@@ -454,5 +454,8 @@
 - 2026-11-14 22:22 UTC｜Astra-rank2-Sha-continue：登记R597原r1ν2结点的同格整解与完整p³第二类，原权帽内ξ七阶规范保全carry和同一修正。
   全低ell基准已补齐，第三块只剩真实z0/z1但两像余类未证非零；继续R603，主目标未完成。
 
-- 2026-11-14 22:27 UTC｜Astra-rank2-Sha-continue：登记R600原S/T全次数和余类第一层、完整中央Euler观察及保零权/权碰撞的真前缀Vandermonde。
+- 2026-11-14 22:22 UTC｜Astra-rank2-Sha-continue：登记R600原S/T全次数和余类第一层、完整中央Euler观察及保零权/权碰撞的真前缀Vandermonde。
   完整open归档后压缩，空前缀不计收益；继续R604同权忠实性及R602下一整商，主目标未完成。
+
+- 2026-11-14 22:23:37 UTC｜Astra-rank2-Sha-continue：保存R597同预算普通前缀整规范，原逐阶单位列将非carry forcing推至m=min(s,btop_(D−1)+1)，保同R及完整边界。
+  此为既有右逆在实际结点的定量应用，指定两像余类继续R603；主目标未完成。
