@@ -173,3 +173,5 @@
 - [R84：第四成本半群与真实frame长度必要界](results/R84-fourth-cost-semigroup-and-frame-length-bound.md) — M=T0真环的V只成有限加法半群，倒行V同号不授负成本或任意正实缩放；周期Wirtinger给L∫(1+k²)ds≥4π²，有界k使正长度恒等frame环不能缩成空词。未证V正性，未排正长度非平凡V0；保R83未知基线。
 
 - [R85：真实pure第四幂尾最低项的准确总导数](results/R85-pure-fourth-leading-tail-is-an-exact-derivative.md) — 保R56全部变系数与真实第二/第三histories，以Wtilde=W+λP给最低4m−9项的完整原函数αb³+βbu；常端芽和零二阶矩阵已使该period系数为0，无须另假设T0。不能以该自动消项证明第四成本正性；4m−8及后续完整系数仍欠。
+
+- [R86：左侧三矩补偿保持右Volterra分离障碍](results/R86-left-moment-completion-preserves-right-Volterra-obstructions.md) — 三个分离实偶bump的真实矩列为Vandermonde，任意复三矩缺陷可用复平方根系数准确支付；右锚因果性使旧查询矩阵不变。若真实36/37子式非零，C6连续光滑化再补偿给C∞合法三矩圆仍不匹配P1，统一归一保四次齐次子式非零。条件定理已证，实际子式仍待；不排所有circle或其他机制。

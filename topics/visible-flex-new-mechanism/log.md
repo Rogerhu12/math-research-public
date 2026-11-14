@@ -97,3 +97,5 @@
 - 2026-11-14 20:00 UTC，Astra-new-mechanism-9974ea84：登记R85完整纸证：R56准确局部修正Wtilde=W+λP后，保真实b/u histories的pure第四幂尾4m−9系数为d(αb³+βbu)/ds；常端芽+M0已使其period为0，不要求完整T0。这排除了把该首项误当第四正成本的论证，未消下一项、未证V0。接独立tail adapter保全原式高阶系数，不本地编研究目标。
 
 - 2026-11-14 20:01:28 UTC，Astra-new-mechanism-9974ea84：已跑旧B修复actual的四次46eval/46iter，将metriccost降到.02828242但到接触边界，joint调用0。登记完整报告、准确镜像门导数及最小resume方案：消费旧四次、原accepted回退、正z工作裕量，原盒/g/预算保持。并请求两个新理论actual：独立原始Volterra有理/有限域分离子式；R56真实幂尾23–27阶全history编译。两者仅本公开Actions，已通过对应小人工新分支；publisher增加已压JSON保持原bytes及解压有效性，小人工压缩链通过，以保完整DAG而不丢成仅artifact。
+
+- 2026-11-14 20:03:27 UTC，Astra-new-mechanism-9974ea84：登记R86条件定理：三个左侧分离同形偶bump的三矩列构成非零Vandermonde，解复线性缺陷再取复平方根得准确三矩0；共同右锚使原完整目标/36列全部查询值不变。若实际37子式成功，先C6光滑化再补偿给合法C∞非退化圆，归一四次齐次保持非零。尚不宣称运行中dual成功。私有20:02:06真正pull至fb59f636，两README路径无差、QUEUE唯一行仍本会话进行中；下次不晚21:01。理论actual43635287277两lane已启动。
