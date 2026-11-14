@@ -1,0 +1,120 @@
+{
+  "schema": "literature-band-kernel-v1",
+  "source": "https://arxiv.org/html/2611.17269v1",
+  "status": "Finite-trial-space linearized diagnostic; no rigidity or flexibility theorem",
+  "parameters": {
+    "q": 3,
+    "power": 1,
+    "center": -3,
+    "sigma": 1.5,
+    "delta": 0.3,
+    "theta_n": 96,
+    "u_n": 40,
+    "modes": 6,
+    "degree": 10,
+    "exact_fields": 4,
+    "epsilon": [
+      0,
+      0.005,
+      0.01
+    ]
+  },
+  "reference": {
+    "reference_integrals": {
+      "I0": -6.947619822455671,
+      "I1": 0.5001222657914671,
+      "reference_n": 32768
+    },
+    "amplitude": 13.891842650638107,
+    "sampled_reference_diameter": 10.082566083020303,
+    "profile_left": 30.2156021441754,
+    "profile_right": 60.4312042883508,
+    "field_scale": 13.84334143429248,
+    "raw_field_sampled_max": 0.7283332662765906,
+    "omega_quadrature_192_vs_384_error": 2.8066438062523957e-13
+  },
+  "basis": "Fourier(theta) times (1-z^2)^3 Legendre(z), z affine in xi, in (T,N,B), plus exact compact bending fields of X",
+  "boundary": "Value and first two derivatives vanish at both boundaries of the SAME characteristic strip as Y0",
+  "support": "Trial fields vanish outside Y0 active strip; unchanged disjoint-support kernel fields are excluded",
+  "metric": "Each epsilon labels a separate fixed g_epsilon; varying epsilon itself is not an isometric family",
+  "spectra": [
+    {
+      "epsilon": 0,
+      "rows": 11520,
+      "columns": 433,
+      "smallest_dimensionless_singular_values": [
+        1.3544916958637351e-14,
+        1.5947653891915814e-14,
+        2.314662417540909e-14,
+        3.407966683251441e-14,
+        1.2889359474633892,
+        1.5380515567028648,
+        1.5380515567028803,
+        1.9544924374831205,
+        2.20722525542638,
+        2.2072252554264145,
+        2.7832860425862096,
+        3.054269547073287
+      ],
+      "largest_dimensionless_singular_value": 50242.51772511875,
+      "min_metric_determinant": 3.7191430448750475,
+      "known_X_bending_identity_max_absolute_residual": 1.3642420526593924e-12,
+      "sampled_field_max_over_reference_D": 0.7579424106782658,
+      "mass_condition_number": 174897883.19402814
+    },
+    {
+      "epsilon": 0.005,
+      "rows": 11520,
+      "columns": 433,
+      "smallest_dimensionless_singular_values": [
+        10.876217931856727,
+        16.132402227230564,
+        16.132402227230653,
+        17.318699660970967,
+        19.92938928528894,
+        26.290362778527868,
+        28.786228556660866,
+        28.7862285566609,
+        29.813298394453504,
+        29.813298394453657,
+        34.31477288067365,
+        36.86217281959477
+      ],
+      "largest_dimensionless_singular_value": 24184.179220517082,
+      "min_metric_determinant": 3.7191430448750475,
+      "known_X_bending_identity_max_absolute_residual": 1.3642420526593924e-12,
+      "sampled_field_max_over_reference_D": 0.7579424106782658,
+      "mass_condition_number": 71382195.1371619
+    },
+    {
+      "epsilon": 0.01,
+      "rows": 11520,
+      "columns": 433,
+      "smallest_dimensionless_singular_values": [
+        10.80592311889419,
+        15.303518501081356,
+        15.3035185010816,
+        17.07442319921455,
+        19.510104081136,
+        24.5528522947041,
+        26.509621326481682,
+        26.509621326481803,
+        28.179106495998308,
+        28.179106495998465,
+        30.615562245349846,
+        33.648108677195594
+      ],
+      "largest_dimensionless_singular_value": 16234.085313460908,
+      "min_metric_determinant": 3.7191430448750475,
+      "known_X_bending_identity_max_absolute_residual": 1.3642420526593924e-12,
+      "sampled_field_max_over_reference_D": 0.7579424106782658,
+      "mass_condition_number": 65798205.53222878
+    }
+  ],
+  "caveats": [
+    "Tiny Galerkin singular values need resolution convergence and nonlinear continuation.",
+    "Positive finite-dimensional singular values do not exclude omitted smooth kernel fields.",
+    "The exact X bending fields supply a zero-mode baseline at epsilon=0.",
+    "No embedding, reach, cap, or global closed-surface claim is made."
+  ]
+}

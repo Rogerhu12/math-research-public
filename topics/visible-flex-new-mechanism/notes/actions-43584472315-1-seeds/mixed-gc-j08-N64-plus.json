@@ -1,0 +1,329 @@
+{
+  "status": "local_annulus_numerical_evidence_only",
+  "closed_surface": false,
+  "double_circular_collars": false,
+  "whole_family_reach_certified": false,
+  "task_complete": false,
+  "definition": {
+    "rho": "1+A*cos(2*phi)+B*cos(3*phi)",
+    "metric": "ds^2+(1+k*s^2/2+j*s^3/6)^2*dtheta^2",
+    "target_frozen_with_respect_to_angles": true,
+    "A": 0.25,
+    "B": 0.2,
+    "k": 0.6,
+    "j": 0.8,
+    "s_interval": [
+      0,
+      0.35
+    ]
+  },
+  "discretization": {
+    "angles": 64,
+    "samples": 15,
+    "rtol": 2e-11,
+    "atol": 2e-13,
+    "max_step": 0.005
+  },
+  "solver": {
+    "success": true,
+    "message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 887,
+    "elapsed_seconds": 0.06167171599999932
+  },
+  "initial_center_second_derivative_exact": [
+    0.0,
+    -0.015,
+    0.0
+  ],
+  "initial_center_third_derivative_horizontal_exact": [
+    0.0,
+    -0.020000000000000004
+  ],
+  "initial_center_second_derivative_sample": [
+    8.239936510889834e-18,
+    -0.015000000009577406,
+    0.0
+  ],
+  "sample_initial_c2_error": 9.577406576144476e-12,
+  "sample_max_metric": 1.4925683310210039e-05,
+  "sample_max_curvature": 1.5743243787022045,
+  "records": [
+    {
+      "s": 0.0,
+      "radius_metric": 1.0,
+      "center": [
+        2.8189256484623115e-18,
+        8.445674715140683e-14,
+        0.0
+      ],
+      "sample_relative_metric_op": 2.0396593867211266e-06,
+      "sample_position_frame_compatibility": 1.4035635780581319e-06,
+      "sample_frame_orthogonality": 2.220446049250313e-16,
+      "sample_abs_principal_curvature": 1.5743243787022045,
+      "sample_min_N": 0.6896551724137931,
+      "sample_circle_radial_spread": 0.1975141637628952,
+      "sample_section_height_spread": 0.0,
+      "sample_max_abs_M": 0.0,
+      "sample_GC_N_spread": 0.8846692062884114
+    },
+    {
+      "s": 0.024999999999999998,
+      "radius_metric": 1.0001895833333334,
+      "center": [
+        -8.673617379884035e-19,
+        -4.735835919760997e-06,
+        0.02499889119794617
+      ],
+      "sample_relative_metric_op": 2.0094833417238286e-06,
+      "sample_position_frame_compatibility": 1.394058536904023e-06,
+      "sample_frame_orthogonality": 4.440892098500626e-16,
+      "sample_abs_principal_curvature": 1.5728698423838874,
+      "sample_min_N": 0.6898696295492375,
+      "sample_circle_radial_spread": 0.19736855833739986,
+      "sample_section_height_spread": 1.6326645882608348e-06,
+      "sample_max_abs_M": 0.0163772557008118,
+      "sample_GC_N_spread": 0.8835966390245624
+    },
+    {
+      "s": 0.049999999999999996,
+      "radius_metric": 1.0007666666666668,
+      "center": [
+        1.1058862159352145e-17,
+        -1.9105370937402485e-05,
+        0.04999091040843867
+      ],
+      "sample_relative_metric_op": 1.9137107874003483e-06,
+      "sample_position_frame_compatibility": 1.365713369209637e-06,
+      "sample_frame_orthogonality": 7.771561172376096e-16,
+      "sample_abs_principal_curvature": 1.5684528125056907,
+      "sample_min_N": 0.6905082584262057,
+      "sample_circle_radial_spread": 0.1969256169527731,
+      "sample_section_height_spread": 1.337967816351232e-05,
+      "sample_max_abs_M": 0.03323801916199767,
+      "sample_GC_N_spread": 0.8803503998521105
+    },
+    {
+      "s": 0.075,
+      "radius_metric": 1.0017437500000002,
+      "center": [
+        1.9949319973733282e-17,
+        -4.327681087157309e-05,
+        0.07496857674962261
+      ],
+      "sample_relative_metric_op": 1.7384754144699575e-06,
+      "sample_position_frame_compatibility": 1.3224982023590377e-06,
+      "sample_frame_orthogonality": 6.661338147750939e-16,
+      "sample_abs_principal_curvature": 1.5610199375997595,
+      "sample_min_N": 0.691564205415549,
+      "sample_circle_radial_spread": 0.19617660809998594,
+      "sample_section_height_spread": 4.622863145083145e-05,
+      "sample_max_abs_M": 0.050522731391737054,
+      "sample_GC_N_spread": 0.8749044665987461
+    },
+    {
+      "s": 0.09999999999999999,
+      "radius_metric": 1.0031333333333332,
+      "center": [
+        3.7947076036992655e-17,
+        -7.731121212789863e-05,
+        0.09992373301930205
+      ],
+      "sample_relative_metric_op": 1.4623686880471095e-06,
+      "sample_position_frame_compatibility": 1.2610660737769502e-06,
+      "sample_frame_orthogonality": 7.771561172376096e-16,
+      "sample_abs_principal_curvature": 1.5505550479665087,
+      "sample_min_N": 0.6930309203623102,
+      "sample_circle_radial_spread": 0.1951134728677123,
+      "sample_section_height_spread": 0.00011211161748989062,
+      "sample_max_abs_M": 0.06816469515120666,
+      "sample_GC_N_spread": 0.8672560731579373
+    },
+    {
+      "s": 0.12499999999999999,
+      "radius_metric": 1.0049479166666666,
+      "center": [
+        3.859759734048396e-17,
+        -0.0001211540048080273,
+        0.1248475328699238
+      ],
+      "sample_relative_metric_op": 1.0576446218812055e-06,
+      "sample_position_frame_compatibility": 1.1894878004724248e-06,
+      "sample_frame_orthogonality": 7.771561172376096e-16,
+      "sample_abs_principal_curvature": 1.5370799561385136,
+      "sample_min_N": 0.6949020945497072,
+      "sample_circle_radial_spread": 0.19372891018714422,
+      "sample_section_height_spread": 0.00022388998448434616,
+      "sample_max_abs_M": 0.08608922266899298,
+      "sample_GC_N_spread": 0.8574260978179883
+    },
+    {
+      "s": 0.15,
+      "radius_metric": 1.0072,
+      "center": [
+        2.47198095326695e-17,
+        -0.00017462755206497198,
+        0.14973042812566056
+      ],
+      "sample_relative_metric_op": 4.921065785354399e-07,
+      "sample_position_frame_compatibility": 1.1368780463359441e-06,
+      "sample_frame_orthogonality": 8.881784197001252e-16,
+      "sample_abs_principal_curvature": 1.5206539529546272,
+      "sample_min_N": 0.697171667498897,
+      "sample_circle_radial_spread": 0.19201646791938554,
+      "sample_section_height_spread": 0.0003953318859366284,
+      "sample_max_abs_M": 0.10421288138834411,
+      "sample_GC_N_spread": 0.8454584890349806
+    },
+    {
+      "s": 0.175,
+      "radius_metric": 1.0099020833333332,
+      "center": [
+        2.862293735361732e-17,
+        -0.00023742491797452275,
+        0.17456215577056755
+      ],
+      "sample_relative_metric_op": 6.024634339185653e-07,
+      "sample_position_frame_compatibility": 1.1711284541006307e-06,
+      "sample_frame_orthogonality": 8.881784197001252e-16,
+      "sample_abs_principal_curvature": 1.501372009504205,
+      "sample_min_N": 0.6998339498124247,
+      "sample_circle_radial_spread": 0.18997063982498863,
+      "sample_section_height_spread": 0.0006410822865170474,
+      "sample_max_abs_M": 0.12244292371747101,
+      "sample_GC_N_spread": 0.831418689204866
+    },
+    {
+      "s": 0.19999999999999998,
+      "radius_metric": 1.0130666666666668,
+      "center": [
+        2.6237692574149207e-17,
+        -0.00030910500641487954,
+        0.1993317240390868
+      ],
+      "sample_relative_metric_op": 1.423426831428496e-06,
+      "sample_position_frame_compatibility": 1.3880060391400832e-06,
+      "sample_frame_orthogonality": 8.881784197001252e-16,
+      "sample_abs_principal_curvature": 1.4793617716351481,
+      "sample_min_N": 0.7028838202276135,
+      "sample_circle_radial_spread": 0.18758696834448485,
+      "sample_section_height_spread": 0.0009766250296132095,
+      "sample_max_abs_M": 0.1406769745528782,
+      "sample_GC_N_spread": 0.8153911553919533
+    },
+    {
+      "s": 0.22499999999999998,
+      "radius_metric": 1.01670625,
+      "center": [
+        1.235990476633475e-17,
+        -0.00038908922114506625,
+        0.22402739693570717
+      ],
+      "sample_relative_metric_op": 2.713142286155042e-06,
+      "sample_position_frame_compatibility": 1.8486720910556251e-06,
+      "sample_frame_orthogonality": 1.1102230246251565e-15,
+      "sample_abs_principal_curvature": 1.4547794993678018,
+      "sample_min_N": 0.706316879950523,
+      "sample_circle_radial_spread": 0.18486215298633601,
+      "sample_section_height_spread": 0.0014182364899789912,
+      "sample_max_abs_M": 0.15880305014299154,
+      "sample_GC_N_spread": 0.7974761916091514
+    },
+    {
+      "s": 0.24999999999999997,
+      "radius_metric": 1.0208333333333335,
+      "center": [
+        3.8163916471489756e-17,
+        -0.00047665978297872953,
+        0.24863667639846132
+      ],
+      "sample_relative_metric_op": 4.3460310187612514e-06,
+      "sample_position_frame_compatibility": 2.561035694305404e-06,
+      "sample_frame_orthogonality": 1.3322676295501878e-15,
+      "sample_abs_principal_curvature": 1.4278051557930769,
+      "sample_min_N": 0.7101294502713901,
+      "sample_circle_radial_spread": 0.1817941639093421,
+      "sample_section_height_spread": 0.001982930242353964,
+      "sample_max_abs_M": 0.17670000479317208,
+      "sample_GC_N_spread": 0.7777863355157265
+    },
+    {
+      "s": 0.27499999999999997,
+      "radius_metric": 1.0254604166666665,
+      "center": [
+        2.949029909160572e-17,
+        -0.0005709598242300638,
+        0.27314628119953055
+      ],
+      "sample_relative_metric_op": 6.35388834895396e-06,
+      "sample_position_frame_compatibility": 3.5201936434458672e-06,
+      "sample_frame_orthogonality": 1.3322676295501878e-15,
+      "sample_abs_principal_curvature": 1.3986368884693516,
+      "sample_min_N": 0.714318394695574,
+      "sample_circle_radial_spread": 0.17838236000978325,
+      "sample_section_height_spread": 0.002688392098953385,
+      "sample_max_abs_M": 0.19423854126411422,
+      "sample_GC_N_spread": 0.7564424702943049
+    },
+    {
+      "s": 0.3,
+      "radius_metric": 1.0306,
+      "center": [
+        2.0166160408230382e-17,
+        -0.0006709953641150668,
+        0.29754212154291393
+      ],
+      "sample_relative_metric_op": 8.773077027707257e-06,
+      "sample_position_frame_compatibility": 4.728013725575406e-06,
+      "sample_frame_orthogonality": 1.3322676295501878e-15,
+      "sample_abs_principal_curvature": 1.3674851701281505,
+      "sample_min_N": 0.7188808722078617,
+      "sample_circle_radial_spread": 0.1746276105767428,
+      "sample_section_height_spread": 0.0035529048080729653,
+      "sample_max_abs_M": 0.21128294566370376,
+      "sample_GC_N_spread": 0.7335697224072528
+    },
+    {
+      "s": 0.32499999999999996,
+      "radius_metric": 1.0362645833333335,
+      "center": [
+        2.4936649967166602e-17,
+        -0.0007756392522602455,
+        0.32180926816995425
+      ],
+      "sample_relative_metric_op": 1.1623828932779233e-05,
+      "sample_position_frame_compatibility": 6.192084620594875e-06,
+      "sample_frame_orthogonality": 1.4432899320127035e-15,
+      "sample_abs_principal_curvature": 1.3345668715604568,
+      "sample_min_N": 0.7238141782026352,
+      "sample_circle_radial_spread": 0.17053241949328135,
+      "sample_section_height_spread": 0.004595261629656289,
+      "sample_max_abs_M": 0.22769367464212248,
+      "sample_GC_N_spread": 0.7092931608326861
+    },
+    {
+      "s": 0.35,
+      "radius_metric": 1.0424666666666667,
+      "center": [
+        6.505213034913027e-19,
+        -0.0008836371516811221,
+        0.34593191461276257
+      ],
+      "sample_relative_metric_op": 1.4925683310210039e-05,
+      "sample_position_frame_compatibility": 7.922320768840287e-06,
+      "sample_frame_orthogonality": 1.6653345369377348e-15,
+      "sample_abs_principal_curvature": 1.300099523706597,
+      "sample_min_N": 0.7291157370590781,
+      "sample_circle_radial_spread": 0.16610105109681805,
+      "sample_section_height_spread": 0.005834667862465059,
+      "sample_max_abs_M": 0.24333080584424965,
+      "sample_GC_N_spread": 0.683733395576091
+    }
+  ],
+  "limitations": [
+    "Open local annulus; no cap or exact circular exit has been obtained.",
+    "All reported spatial metrics are Fourier-grid samples, not continuous certificates.",
+    "The center drift is a material-angle mean, not a Hausdorff displacement bound.",
+    "The principal-curvature diagnostic does not give global reach."
+  ],
+  "script_sha256": "5f979125ed130570e49cd4ad1a7375801c5be95be0abd5dbd0d60ebdf4e5e05a"
+}

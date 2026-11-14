@@ -1,0 +1,145 @@
+{
+  "schema": "literature-band-seed-v1",
+  "source": "https://arxiv.org/html/2611.17269v1",
+  "status": "Heuristic numerical band seed; not a closed-surface flex or a reach certificate",
+  "parameters": {
+    "kind": "curvature",
+    "q": 3,
+    "a": 0.3333333333333333,
+    "b": 0.85,
+    "c": 1.7,
+    "power": 1.0,
+    "center": -3.0,
+    "sigma": 1.5,
+    "reference_n": 32768,
+    "n": [
+      512,
+      1024,
+      2048,
+      4096,
+      8192
+    ],
+    "width": 0.03,
+    "width_samples": 81
+  },
+  "fixed_amplitude": 13.891842650638107,
+  "reference_integrals": {
+    "I0": -6.947619822455671,
+    "I1": 0.5001222657914671,
+    "reference_n": 32768
+  },
+  "exact_period_mechanism": "v = V(kappa): Pi is an integral of an exact derivative; q-fold rotation closes horizontal components; A=-I0/I1 closes vertical component",
+  "quadrature": [
+    {
+      "n": 512,
+      "closure_vector": [
+        7.632311440157166e-06,
+        -7.831688645949291e-06,
+        1.3978722964675219e-14
+      ],
+      "closure_norm": 1.0935608120568558e-05,
+      "closure_over_sampled_centerline_diameter": 1.084645455253395e-06,
+      "asymptotic_period": -2.087857301063391e-08,
+      "min_speed": 1.9753639395586067,
+      "min_sphere_parameter_speed": 0.1819839326406761,
+      "sampled_centerline_diameter": 10.082196046277426,
+      "sampled_band_diameter": 10.685924088191843,
+      "halfwidth": 0.30246588138832275,
+      "halfwidth_over_sampled_band_diameter": 0.02830507487158303,
+      "min_sampled_w": 1.6199176079410407,
+      "sampled_max_abs_principal_curvature": 3.1044627786494425,
+      "sampled_principal_radius_over_centerline_diameter": 0.031949083535131755,
+      "sampled_principal_radius_over_band_diameter": 0.030144040051345508
+    },
+    {
+      "n": 1024,
+      "closure_vector": [
+        -2.7892865864191995e-13,
+        -7.332943778364101e-13,
+        5.504292473419872e-16
+      ],
+      "closure_norm": 7.84552193388448e-13,
+      "closure_over_sampled_centerline_diameter": 7.781275008959965e-14,
+      "asymptotic_period": 2.877491510857121e-14,
+      "min_speed": 1.9753633652887423,
+      "min_sphere_parameter_speed": 0.1819839326406761,
+      "sampled_centerline_diameter": 10.082566063852694,
+      "sampled_band_diameter": 10.686399439833146,
+      "halfwidth": 0.3024769819155808,
+      "halfwidth_over_sampled_band_diameter": 0.028304854560097147,
+      "min_sampled_w": 1.6199025828411509,
+      "sampled_max_abs_principal_curvature": 3.104624538729902,
+      "sampled_principal_radius_over_centerline_diameter": 0.03194624646344955,
+      "sampled_principal_radius_over_band_diameter": 0.03014112866296524
+    },
+    {
+      "n": 2048,
+      "closure_vector": [
+        -8.316386449939332e-15,
+        -5.888502987653635e-15,
+        2.362485927948034e-15
+      ],
+      "closure_norm": 1.0460310262133376e-14,
+      "closure_over_sampled_centerline_diameter": 1.0374650833927306e-15,
+      "asymptotic_period": 2.7902947984069054e-15,
+      "min_speed": 1.9753633652887423,
+      "min_sphere_parameter_speed": 0.1819839326406761,
+      "sampled_centerline_diameter": 10.082566083020303,
+      "sampled_band_diameter": 10.686399460171478,
+      "halfwidth": 0.3024769824906091,
+      "halfwidth_over_sampled_band_diameter": 0.028304854560036768,
+      "min_sampled_w": 1.6199016080874884,
+      "sampled_max_abs_principal_curvature": 3.1046245471095055,
+      "sampled_principal_radius_over_centerline_diameter": 0.03194624631649246,
+      "sampled_principal_radius_over_band_diameter": 0.030141128524247652
+    },
+    {
+      "n": 4096,
+      "closure_vector": [
+        1.8099448852263933e-14,
+        1.0994960460519398e-15,
+        7.541153178311632e-16
+      ],
+      "closure_norm": 1.8148488372963453e-14,
+      "closure_over_sampled_centerline_diameter": 1.7999870492816988e-15,
+      "asymptotic_period": -5.929376446614674e-15,
+      "min_speed": 1.9753633447755423,
+      "min_sphere_parameter_speed": 0.1819839326406761,
+      "sampled_centerline_diameter": 10.082566083020303,
+      "sampled_band_diameter": 10.686399460171478,
+      "halfwidth": 0.3024769824906091,
+      "halfwidth_over_sampled_band_diameter": 0.028304854560036768,
+      "min_sampled_w": 1.6198969255952227,
+      "sampled_max_abs_principal_curvature": 3.1046245471095055,
+      "sampled_principal_radius_over_centerline_diameter": 0.03194624631649246,
+      "sampled_principal_radius_over_band_diameter": 0.030141128524247652
+    },
+    {
+      "n": 8192,
+      "closure_vector": [
+        1.3644582437668729e-14,
+        2.5916838490720585e-14,
+        -1.973166231344141e-15
+      ],
+      "closure_norm": 2.9355587751379643e-14,
+      "closure_over_sampled_centerline_diameter": 2.9115194990704163e-15,
+      "asymptotic_period": -1.1858752893229349e-14,
+      "min_speed": 1.9753633446646437,
+      "min_sphere_parameter_speed": 0.1819839326406761,
+      "sampled_centerline_diameter": 10.082566083020303,
+      "sampled_band_diameter": 10.686399460171478,
+      "halfwidth": 0.3024769824906091,
+      "halfwidth_over_sampled_band_diameter": 0.028304854560036768,
+      "min_sampled_w": 1.6198969255952227,
+      "sampled_max_abs_principal_curvature": 3.1046245471095055,
+      "sampled_principal_radius_over_centerline_diameter": 0.03194624631649246,
+      "sampled_principal_radius_over_band_diameter": 0.030141128524247652
+    }
+  ],
+  "caveats": [
+    "Reference-quadrature A is held fixed for all resolutions; its exact definition uses integrals.",
+    "The Fourier primitive removes the displayed closure residual; no residual is hidden.",
+    "Sampled principal radii are local curvature diagnostics, not lower bounds on reach.",
+    "Centerline and band embedding, global reach, caps, and a continuous fixed-metric flex are unproved."
+  ]
+}
