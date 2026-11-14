@@ -1,0 +1,323 @@
+{
+  "kind": "actual_high7_scalar_cache_CI_process",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43573003976",
+  "run_attempt": "1",
+  "workflow_commit": "6b2a926dbf051c0e07992d663a05dc22aeb5e863",
+  "worker_source_sha256": "602e696db855f1aca2765bef23fd7d9190c1fdd6d4f05528b758e0a515167323",
+  "requested_germs": [
+    85,
+    127
+  ],
+  "child_exit_code": 0,
+  "started_utc": "2026-11-14T07:51:43.638233+00:00",
+  "readme_checks": [
+    {
+      "time": "2026-11-14T07:51:43.940364+00:00",
+      "before": "6b2a926dbf051c0e07992d663a05dc22aeb5e863",
+      "after": "6b2a926dbf051c0e07992d663a05dc22aeb5e863",
+      "changed": false
+    },
+    {
+      "time": "2026-11-14T07:53:54.158332+00:00",
+      "before": "6b2a926dbf051c0e07992d663a05dc22aeb5e863",
+      "after": "6b2a926dbf051c0e07992d663a05dc22aeb5e863",
+      "changed": false
+    }
+  ],
+  "published_checkpoints": [],
+  "first_germ_reused_not_recomputed": true,
+  "invalid_cap6_outputs_used": false,
+  "input_manifest_sha256": "eb25464d038f44dc87a8214662ec9275250fc414c42ca04c9763bf08f8802535",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "python_version": "3.12.14 (main, Sep 19 2026, 03:35:30) [GCC 14.2.0]",
+  "first_germ_sha256": "b6f1892d8d09749a7279e23c86d5cca622785b919891bf8a0e46c3add382aa01",
+  "scientific_input_count": 52,
+  "all_pinned_inputs_verified": true,
+  "last_read_commit": "6b2a926dbf051c0e07992d663a05dc22aeb5e863",
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/math-research-public/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_Arb_high_Taylor_cache.py",
+    "--germ-start",
+    "85",
+    "--germ-stop",
+    "127",
+    "--resume",
+    "--out-dir",
+    "/__w/_temp/visible-exact-phase-high7-85-127/native"
+  ],
+  "producer_manifest_complete": true,
+  "completed_utc": "2026-11-14T07:53:53.950655+00:00",
+  "all_native_failures_retained": true,
+  "snapshot_utc": "2026-11-14T07:53:54.168531+00:00",
+  "wall_seconds": 130.530536605,
+  "native_files": [
+    {
+      "logical_file": "germ0085.json.gz",
+      "file": "germ0085.json.gz",
+      "bytes": 14693,
+      "sha256": "b1e90121fbdf47adae49fba6cec198501025539ae7c38f96d9ed1ea6e43b3bad"
+    },
+    {
+      "logical_file": "germ0086.json.gz",
+      "file": "germ0086.json.gz",
+      "bytes": 27702,
+      "sha256": "cf65a3f1241d07735d508d7cd435fa99f086c30ebc4a93fcc2bbfa116dcca0d5"
+    },
+    {
+      "logical_file": "germ0087.json.gz",
+      "file": "germ0087.json.gz",
+      "bytes": 27278,
+      "sha256": "f7a0779545abe2b5a2239aef762e5f5dcd9350e68aec26cf3ae080701955cc74"
+    },
+    {
+      "logical_file": "germ0088.json.gz",
+      "file": "germ0088.json.gz",
+      "bytes": 8107,
+      "sha256": "eb09bd957ee73e26851981c0100fac0f1d20bd94adc9f640c4c3cf0a71723682"
+    },
+    {
+      "logical_file": "germ0089.json.gz",
+      "file": "germ0089.json.gz",
+      "bytes": 8198,
+      "sha256": "8c1a6f54fc4943369721b8bab89cca198b271be4e0b533934cd48b70f7fc9cbd"
+    },
+    {
+      "logical_file": "germ0090.json.gz",
+      "file": "germ0090.json.gz",
+      "bytes": 27564,
+      "sha256": "a1bb278766c00d6474d6458f16cdadcab7019b954b183a6da397912cde77c12f"
+    },
+    {
+      "logical_file": "germ0091.json.gz",
+      "file": "germ0091.json.gz",
+      "bytes": 27661,
+      "sha256": "49c29338f5c17688f4afb2d3593cf58a201dd27c87531b8238beef2169d1eb26"
+    },
+    {
+      "logical_file": "germ0092.json.gz",
+      "file": "germ0092.json.gz",
+      "bytes": 8050,
+      "sha256": "d106f9e012ab15edfbe5b941cb1a0147cb53c01a297e657895ea65e47471911f"
+    },
+    {
+      "logical_file": "germ0093.json.gz",
+      "file": "germ0093.json.gz",
+      "bytes": 8104,
+      "sha256": "b2302e7b9b98738a6b9d67e95e5cb53d890a19705a657a5ebfcf00eebc8619c0"
+    },
+    {
+      "logical_file": "germ0094.json.gz",
+      "file": "germ0094.json.gz",
+      "bytes": 27623,
+      "sha256": "7438f6736a0f92e16680d0c7d07a16055cfa65c16df0f31a9ca0cfe0ec1ff256"
+    },
+    {
+      "logical_file": "germ0095.json.gz",
+      "file": "germ0095.json.gz",
+      "bytes": 27374,
+      "sha256": "d74b7bedea67e1ac2dffda5c4f2a89132ebecdb53956d9fa10c9d6b10c6da287"
+    },
+    {
+      "logical_file": "germ0096.json.gz",
+      "file": "germ0096.json.gz",
+      "bytes": 8103,
+      "sha256": "2d7ee82faa4c0d2a309f4f0659cadeaaf2020d2312883e0c0a6bc570584bf507"
+    },
+    {
+      "logical_file": "germ0097.json.gz",
+      "file": "germ0097.json.gz",
+      "bytes": 27655,
+      "sha256": "72aa814cc42a0cb5eaf655dea2b753248be53679f597ab5b5498c7bb6be9f2cc"
+    },
+    {
+      "logical_file": "germ0098.json.gz",
+      "file": "germ0098.json.gz",
+      "bytes": 27535,
+      "sha256": "d0a59eb94fb793b8286039ccc8ac981f3a5c4929e24428511e60c9204141add4"
+    },
+    {
+      "logical_file": "germ0099.json.gz",
+      "file": "germ0099.json.gz",
+      "bytes": 7984,
+      "sha256": "7d50229129fc0339bcbbdcb9d441ec4d2c8f5f6d61d4175ef0b9e03f01c8a7ab"
+    },
+    {
+      "logical_file": "germ0100.json.gz",
+      "file": "germ0100.json.gz",
+      "bytes": 27564,
+      "sha256": "31bcaaca5a2a73229981bbd87adcabb3ef0e58d6e3b1b8bcc657b60dde36f225"
+    },
+    {
+      "logical_file": "germ0101.json.gz",
+      "file": "germ0101.json.gz",
+      "bytes": 27773,
+      "sha256": "884a7d196de48d30f35f227f4aae4f6a08f2deed936caf9462971eb17f57708c"
+    },
+    {
+      "logical_file": "germ0102.json.gz",
+      "file": "germ0102.json.gz",
+      "bytes": 8117,
+      "sha256": "7419db9722c0fd4d45ea9f305a00a5bfeccb3d429b12ea66c8cb73a0b1113eee"
+    },
+    {
+      "logical_file": "germ0103.json.gz",
+      "file": "germ0103.json.gz",
+      "bytes": 8251,
+      "sha256": "96330c56a6a4906ae24e55bc78a3caed3647cb9847c217ed89d7b22e0656864b"
+    },
+    {
+      "logical_file": "germ0104.json.gz",
+      "file": "germ0104.json.gz",
+      "bytes": 27604,
+      "sha256": "0d2fbdccc093fa479fcf876a5ec594ad106c708386fb23d0112b78daf7831887"
+    },
+    {
+      "logical_file": "germ0105.json.gz",
+      "file": "germ0105.json.gz",
+      "bytes": 27521,
+      "sha256": "5c584461b0ae4a83a02c17027c572051f7eaa6788c86fc034a69701495f52c9c"
+    },
+    {
+      "logical_file": "germ0106.json.gz",
+      "file": "germ0106.json.gz",
+      "bytes": 8125,
+      "sha256": "9d19fb9a07a54a202310efd5e28c69ee298042977722f888f262e9bb7fa5773c"
+    },
+    {
+      "logical_file": "germ0107.json.gz",
+      "file": "germ0107.json.gz",
+      "bytes": 8291,
+      "sha256": "ca38111ff33ebdfcc9f443e51243c2b3d5b1815f98f768ecbf8e8c44618a4c32"
+    },
+    {
+      "logical_file": "germ0108.json.gz",
+      "file": "germ0108.json.gz",
+      "bytes": 27399,
+      "sha256": "4d1c578c3d508bd1f59c9f026ea846f4856dd365b575f6730ad49f8da31d52f9"
+    },
+    {
+      "logical_file": "germ0109.json.gz",
+      "file": "germ0109.json.gz",
+      "bytes": 27435,
+      "sha256": "fcdab6d8bce28486ee7603d87ac4e33b20fe50beb3d0555995f1e2effccc0738"
+    },
+    {
+      "logical_file": "germ0110.json.gz",
+      "file": "germ0110.json.gz",
+      "bytes": 8218,
+      "sha256": "501aa14e893862a8eab320da3714f2ebe494914567c82e68c88ea3dce54fb5c9"
+    },
+    {
+      "logical_file": "germ0111.json.gz",
+      "file": "germ0111.json.gz",
+      "bytes": 21142,
+      "sha256": "99b444021c88b46109cc3d3a6a84c1bf0b2877c5b8945e993237557a23e65454"
+    },
+    {
+      "logical_file": "germ0112.json.gz",
+      "file": "germ0112.json.gz",
+      "bytes": 27534,
+      "sha256": "dee8dc23c9514a38e56d64ca190aaaaa954f6603c3c094352dc781a3b536234f"
+    },
+    {
+      "logical_file": "germ0113.json.gz",
+      "file": "germ0113.json.gz",
+      "bytes": 8075,
+      "sha256": "1b94a3d9b124eac04f453e157841d46da1099f5319a6d762acdd6ab338ee394e"
+    },
+    {
+      "logical_file": "germ0114.json.gz",
+      "file": "germ0114.json.gz",
+      "bytes": 8142,
+      "sha256": "2b4156d2855ee9f368b057866ccb6e7b85e01db8a5f0c33c0595ad7cf45d616e"
+    },
+    {
+      "logical_file": "germ0115.json.gz",
+      "file": "germ0115.json.gz",
+      "bytes": 14676,
+      "sha256": "bc540a1977b111e68a242a78771d4c8df71d9e802522196cac21d0cb6ed22544"
+    },
+    {
+      "logical_file": "germ0116.json.gz",
+      "file": "germ0116.json.gz",
+      "bytes": 27666,
+      "sha256": "169e9c50d290dd3fec64aa9a868895e9624f2c03fb903b35a91201d45d97250c"
+    },
+    {
+      "logical_file": "germ0117.json.gz",
+      "file": "germ0117.json.gz",
+      "bytes": 8178,
+      "sha256": "a7b84ef114c5d2c835d11901473d5cc02d15fe8afea4eb574d6ea45bef62bdc2"
+    },
+    {
+      "logical_file": "germ0118.json.gz",
+      "file": "germ0118.json.gz",
+      "bytes": 8241,
+      "sha256": "3388c475b040406ee7c21f854ae08732a7f24bb37c11587ad8fd32aa37d3fe56"
+    },
+    {
+      "logical_file": "germ0119.json.gz",
+      "file": "germ0119.json.gz",
+      "bytes": 14706,
+      "sha256": "eae398b747311d8a8f25cd11ffe0b2836ce11c49c400bffdfea78b02e88d278f"
+    },
+    {
+      "logical_file": "germ0120.json.gz",
+      "file": "germ0120.json.gz",
+      "bytes": 27660,
+      "sha256": "61b6fc6949f4bf6eb6bf50c898b93f4868f544862a7b8be6e30670354f76bcf3"
+    },
+    {
+      "logical_file": "germ0121.json.gz",
+      "file": "germ0121.json.gz",
+      "bytes": 8166,
+      "sha256": "96b854c866a3642649ab3071a5ebae71a873d2c4ae7aefa4dce54037e28339a4"
+    },
+    {
+      "logical_file": "germ0122.json.gz",
+      "file": "germ0122.json.gz",
+      "bytes": 14627,
+      "sha256": "cf6c42c309498eb0b300f1dc39ca92bd67d432a8d9d4ecefd8f97d0a87414f7b"
+    },
+    {
+      "logical_file": "germ0123.json.gz",
+      "file": "germ0123.json.gz",
+      "bytes": 27595,
+      "sha256": "de285f4b0b7214de5b2e2c060b2825bdfee5c41a19ff185f7510fd6a2cdaaa8d"
+    },
+    {
+      "logical_file": "germ0124.json.gz",
+      "file": "germ0124.json.gz",
+      "bytes": 14609,
+      "sha256": "2efce170a488f3c34bcb7307334765ca627d5d30030ec2ea3d989d66f362cae6"
+    },
+    {
+      "logical_file": "germ0125.json.gz",
+      "file": "germ0125.json.gz",
+      "bytes": 14940,
+      "sha256": "93bf00d3c22c9753a475285bf19fe7419f922cd27c869645f077bdf9bb623623"
+    },
+    {
+      "logical_file": "germ0126.json.gz",
+      "file": "germ0126.json.gz",
+      "bytes": 27639,
+      "sha256": "071818029ce3c68405409fac8d353b51532468252fed714b2a415a8e4494782c"
+    },
+    {
+      "logical_file": "manifest-0085-0127.json.gz",
+      "file": "manifest-0085-0127.json.gz",
+      "bytes": 2584,
+      "sha256": "f3be9a5d8a0336dafc176a0e432c7d0a1767d53d7b0f4343f68d9128a9d7926d"
+    }
+  ],
+  "observed_complete_germs": 42
+}
