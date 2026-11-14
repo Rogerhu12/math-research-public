@@ -1,0 +1,25 @@
+{
+  "inputBindingSHA256": "93ef84df25727a0fb7fa4d27a6bd5e12a95de589f685493c0bbca190fa234dc3",
+  "outputs": {
+    "primary-test/all198-second-primary-result.json": "4d54ffbc24349903a52037b16fc885ea4fa581171a236365266389408b3d2f6d",
+    "primary-test/all198-second-primary-system.bin.gz": "e9afd56bb18a535c4772f69c54f1555bfe6c22433aae0f7efe96f26918eb3f85"
+  },
+  "nativeStatistics": {
+    "status": "completed",
+    "completeSecondPrimaryImageWithFirstDimension": 7,
+    "secondPrimaryImageModuloFirstDimension": 5,
+    "nineTargetsPrimaryCompatible": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "outcome": "primary-compatible-global-source-continuation-required",
+    "elapsedSeconds": 0.14725348600001098
+  }
+}

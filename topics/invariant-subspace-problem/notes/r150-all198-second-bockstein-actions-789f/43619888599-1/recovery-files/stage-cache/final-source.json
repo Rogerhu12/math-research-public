@@ -1,0 +1,30 @@
+{
+  "inputBindingSHA256": "2cc45bc61795f1402267192c518e75653dbb35d49f946358bde41b5f51cf0339",
+  "outputs": {
+    "final-source/final-source-standard-coefficients.bin": "4d3164ee8e5ecee164fb8e2b5a838af0dba33ba24ccef3938a6ea39f42c23b17",
+    "final-source/final-source-source-certificate.json": "c1ab9a10fcaa636a068fb246fd8b3b9f0bf3c1d47c324ff6ba309d0f70a09df6",
+    "final-source/final-source-vq-checkpoint.bin": "b86b098191df0a20546ffa67ab5878edabff643fadd840dd7f9d9f870905f481"
+  },
+  "nativeStatistics": {
+    "status": "packed-image-source-convolution-complete",
+    "fullNormalFormDecompositionIdentity": true,
+    "standardKernelNormalForm": true,
+    "completeRHSInImage": true,
+    "originalSeventeenEquationTransported": false,
+    "targetStandardSourceCosts": [
+      276,
+      276,
+      276,
+      276,
+      276,
+      276,
+      276,
+      276,
+      276
+    ],
+    "sourceMonomialProducts": 93312851,
+    "kernelReductions": 3018816,
+    "peakRSSKiB": 125296,
+    "elapsedSeconds": 186.24
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "source_commit": "49c92b3a909be84574d848dfb86393de2393cc97",
+  "run_id": "43619888599",
+  "run_attempt": "1",
+  "rules_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "request": {
+    "new_kernel_directions": 198,
+    "previous_relation_directions": 4,
+    "exact_low_kernel_directions": 1632,
+    "actual_targets": 9,
+    "original_raw_rows": 6188,
+    "integer_modulus": 29791,
+    "target_multiplier": "H0=(s-2)*h0",
+    "local_quotient_dimension": 143,
+    "local_free_checks": 104,
+    "local_torsion_dimension": 39,
+    "second_target_quotient_dimension": 37,
+    "shared_mathematical_seconds": 300,
+    "per_child_memory_mib": 512,
+    "per_compilation_seconds": 30,
+    "t96_run_id": 43597823809,
+    "t96_artifact_id": 14114364261,
+    "old200_run_id": 43605503242,
+    "old200_artifact_id": 14118112895,
+    "continue_local_compatibility_to_full_original_seventeen": true,
+    "characteristic_zero_identity_asserted": false,
+    "rules_sha256": {
+      "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+    },
+    "new_source_sha256": {
+      "2026-11-14-r150-second-bockstein-jet-common-789f.hpp": "68abd4cb4a4a72bb52729562a05a9a13395a2e7647239620ad9ba7a1ba52bfaa",
+      "2026-11-14-r150-second-bockstein-jet-vq-789f.cpp": "c86663523440656edb89242e53623d3af605dacb918d388a864760d1f6fff295",
+      "2026-11-14-r150-second-bockstein-jet-original-transport-789f.cpp": "46c9dbc6182d809358e978ebe84f106f89c8d6fc78fe8a8e55c620fc60f9eaee",
+      "2026-11-14-r150-second-bockstein-jet-original-product-789f.cpp": "87bd31457107aebbae81af1eb032249f37af8d6f0d3565e18ed59fa2864c97b3",
+      "2026-11-14-r150-second-bockstein-jet-local-normal-789f.cpp": "58fb4274b004205c5a07299a475138b2c0dcae1389b3f5ea2b8e678982d23e88",
+      "2026-11-14-r150-second-bockstein-all198-global-common-789f.hpp": "52be084cbb2b7ea63bb4dcedfc972fc9cb1cab9fad7a62285b738778ed47f59e",
+      "2026-11-14-r150-second-bockstein-all198-global-image-mixture-789f.cpp": "5eef9a7d3e37b834fe6e8bd72dce0dca83e6d13e214d85ecd418f0cab9f0d56d",
+      "2026-11-14-r150-second-bockstein-all198-global-original-transport-789f.cpp": "944fa6dc149ac728d0b6747db7283e35cae14cb6a93689b58f13d69fbfcc93da",
+      "2026-11-14-r150-second-bockstein-all198-global-normal-form-789f.cpp": "5bd10c7e2eb9b82ad55833dcf030974aa97fd57d5b591d0b2c40e4b7541d05a0",
+      "2026-11-14-r150-second-bockstein-all198-global-original-combination-789f.cpp": "353933a95ab56606cf9178e855df9e959e27bbf10c685012aa3450c78f85aa3e",
+      "2026-11-14-r150-second-bockstein-all198-global-helper-derivation-789f.json": "44d257ca3050c4836ab3dd8c447f2ebca8e84de2865790ccb9331ac48066286d",
+      "2026-11-14-r150-all198-second-bockstein-jet-test-789f.py": "8ef0f45e276ec7298aed0a37701cf48fc8f8c5868b22ba77e8e0eeade9314619",
+      "2026-11-14-r150-all198-second-bockstein-global-check-789f.py": "06153a71816aae49e1d00efae6180b4fa5a3c28f9aa147f315be72ade0c53f0a",
+      "2026-11-14-r150-all198-second-bockstein-jet-runner-789f.py": "e04f69421ecdc5b3a05395ab67cf7d4038b2c15c181ec447d394046a41bb7e90",
+      "2026-11-14-r150-all198-second-bockstein-jet-interface-789f.md": "ae2f034e2f033e69b401c8e3c8cda2d477dbb27171301ceadb01850c8da54562",
+      "r150-all198-second-bockstein-jet-preparation-789f/prepare-receipt.json": "9ad7b40bffdcfbaeab14dcdb8bc822271e4b1cbbdee1cdc6edbe9842ce187e63"
+    },
+    "already_published_dependency_sha256": {
+      "2026-11-14-r150-second-bockstein-common-789f.hpp": "dbf1e7170d2f7d8738f24a841d646f4f624a1813fdfe78a42345738296d3e117",
+      "2026-11-14-r150-second-bockstein-source-checkpoint-789f.cpp": "dbaabefa84d5828dc110abd80c78096cd274c1540e241811d29ac5433d9f2c65",
+      "2026-11-14-r150-four-second-bockstein-runner-789f.py": "9fc1d9e6f64f520365bddea2d0d3387a32d42123f38efcf36f8798c9f36e6cba",
+      "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+      "2026-11-14-r150-torsion-characteristic-789f.py": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+    },
+    "source_manifest_file": "2026-11-14-r150-all198-second-bockstein-jet-frozen-manifest-789f.json",
+    "source_manifest_sha256": "51a62496707059695f346fcafb433a60b838051ec0165021493831e7261ca7db",
+    "purpose": "Compute the complete relevant 1/2-primary second Bockstein image using the same global q, actual original integer jets and all198+old4+exact1632 directions; continue any all-nine compatibility through the full original seventeen equations.",
+    "outcome_scope": "A negative answer applies only to individually obstructed target labels; no full315 second image or characteristic-zero identity is claimed.",
+    "recovery_policy": "Retain actual arrays, source prefixes, all original rows, complete phase receipts and content-bound restart data; preserve every generated stream losslessly."
+  },
+  "request_sha256": "4dd784e25c8802124bcbf58ffab0c6a92d751ccd05b9a1a2a852ca35620ceba9",
+  "workflow_sha256": "94157a050339ca0cddee1aaa85bc36b051a7695970fa6112898f80dc722733cc"
+}
