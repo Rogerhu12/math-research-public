@@ -172,3 +172,6 @@
 
 
 - **R737（已证明）**：[原中心值均方及大量受控Abel分量](results/R737-original-central-second-moments-and-abundant-low-Abel-slopes.md)。完整原signed ray按index-p可见方向求和，线权≤4/rmin+21/√p、平方和O(logp)，六线block正交给L5/L7均方<2^25/2^27(1+logp)。原范数平均得mean 2vM2<3+δp；p≥2^160有v≤3/2，p≥2^512超过g/18标签满足。保留半整数可能性，完整Tate仍p8，未变成p7/p4或高度排除。
+
+
+- **R736（已证明）**：[原三重Norm交换链和负四首矩相位](results/R736-original-three-norm-exchange-and-minus-four-moment-phase.md)。普通NS kerΓ像准确等于原全q直接相位核；保原Fr=s32、μp²作用1+2p与R207实一致化元。全局普通校正构造divY=D_Tq、NΓY=NSY=D_TXt，Z=Xt−(t−1)Y三个Norm恰Aα；实际rμ((s−1)Y)=−4J，flat为−4(J−18)。不是J/b数值或R720原b桥的完成。

@@ -331,3 +331,6 @@ R704 原43嵌入矩阵及R708局部Norm歧义已处理；
 
 
 **R737（已证明）**：完整原L5/L7全字符均方为O(logp)，signed整数倍、逐visible index-p格、六线block相位全保留。原DN·P的几何均值<2^134 p8(1+logp)(2+log2p)²，故mean 2vM2<3+δp；在原非零前提下，p≥2^160存在vM2≤3/2，p≥2^512超过g/18原本原标签满足。R729给全充分大前提。只知2v整数，归一有理jet尾仍给p8；一般半整数可能性、候选p4和原高度未由此排除。详[R737](results/R737-original-central-second-moments-and-abundant-low-Abel-slopes.md)。
+
+
+**R736（已证明）**：同原p43/q标记，NS kerΓE_M=(π,N_T)kerΓE_N等于全部原q直接相位核。原Fr=s32给s在μp²上指数1+2p及rμ(ct)=ell(ut)，R207实一致化元保含极点双Norm相位零。故存在原divY=D_Tq、NΓY=NSY=D_TXt；Z=Xt−(t−1)Y同时NΓ/NS/NT=Aα，原直接相位rμ((s−1)Y)=−4J，flat=−4(J−18)。完整普通校正已证，真正与R720原b的T/Γ链及J/b数值仍缺。详[R736](results/R736-original-three-norm-exchange-and-minus-four-moment-phase.md)。
