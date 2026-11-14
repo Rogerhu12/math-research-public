@@ -6,10 +6,10 @@
 
 闭连通C2嵌入族Ft，时间在C2拓扑连续，同一固定g；固定材料H有内点且diamH≥.2D；不作对齐的整像Hausdorff位移≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，且同g/物理参数/时间的精化回到机器或原容差。D为完整F0直径。δE可0但须如实报。完整网格每件<5MB，说明数值与准确存在的缺口；达标后继续.5D或更强存在。
 
-- 根及本题README已完整读。公开仓库最后已读规则提交：`b2989164a71a436eaf1c929306d4db3a9effe1fc`。
+- 根及本题README已完整读。公开仓库最后已读规则提交：`8ed43e0b1119f009642eb983141ad3e86f28af78`。
 - 每次实际pull --rebase后核根/本题README，变化只读diff并立即做；至少每小时pull。每完成结论就提交推送；NFF立即rebase再推直到成功，不强推。
 - 用户授权公开main及本公开仓Actions。真实几何评价、ODE、优化只在此Actions；本地限纸面/准确代数、人工开发检查与已公开输出审计。PAT只瞬时CLI/env，不进文件/提交/日志。
-- 私有仓15:38:45 UTC实际pull至`f390c7f7a7d33f01a1550cd53b0a95181d05070e`，双README无差；QUEUE唯一课题行仍本会话进行中。下一私有pull不晚于16:38 UTC。私有研究不发布；早期自动审批拒绝的私有摘要已从未发布提交移除，现无待审批。
+- 私有仓16:09:36 UTC实际pull至`33ebdb638516e71e1b234a6340fe7b1a3d9ccc61`，双README无差；QUEUE唯一课题行仍本会话进行中。下一私有pull不晚于17:09 UTC。私有研究不发布；早期自动审批拒绝的私有摘要已从未发布提交移除，现无待审批。
 - 根LOG不写；共享workflow理由记本题log。H<10KB、MD<100KB、数据>1MB压缩、单文件<5MB。Root独占Git/H/log/open/results/workflow；同步helper运行时不改tracked文件。
 
 工作树稳定路径 `/workspace/scratch/9974ea84a1c6/math-research-public`，private同前缀；两者symlink到/tmp本会话checkout。15:37仅把两objects逐文件SHA核同迁/dev/shm，原objects路径symlink、HEAD保留；sparse index为92KB/787B。未删其他会话数据。临时helper `research_sync.py` 实际pull、比双README、核origin/main祖先、更新H、amend自己未发布提交并循环push。RULES_CHANGED即先读差异；--pull-only只改H。旧recovery分支及归档保留。
@@ -33,6 +33,8 @@ R38/41排旧有限解析平条带准确零，但不排小误差/C2极限。R43�
 因此首次真实试算采用**饱和反射**：epsilon=a−R，c=w/4，e=c*tanh(epsilon/c)，三源R/R−e/R−2e始终>d；e0=0,e′0=1,e″0=0保全部端口2jet。h=1/10，tau=(delta/h)^6/128，完整无限Gaussian热平均为连续物理定义。有限GH只是评价。固定原c0入基场chi[flat+Heat(E)−f_old(c0)]，仍保原234自由列；支撑外旧X/jets准确不变。新帽/基场是新设计，g没变。
 
 61精确非均匀层=49左点+9补丁间隔+3尾间隔，theta192。先同模型/space/g/anchor/heat/c0/精确系数比较GH32/64；一阶value/s/theta差≤1e−4选32，否则比64/128、过则选64；仍失败只保存。再以选定档初cost≤1为工程门，两门均过才单次bound8/250nfev。固定所选GH内比较下降；最终121×384/768、全部seed断点/补丁边界及GH加倍分开审，绝不把求积变好算作优化。所有二jet差原样留存，未认证连续误差/曲率。独立module与thin driver已人工/全文双审通过，冻结源码共13项；run43612971265/source228c619517f1c67e87769b5db0fdf162a8a10600于15:57:49 UTC已启动唯一ellipse_saturated_heat case，真实结果待回执。
+
+R55进一步证明当前饱和3点表示的三阶Cauchy差需要g_rrr+g_r/(3c²)；所需v项顶点二角导跳∝两正A之和，finite解析角自由列无准确R0。无正误差下界；run43612971265仍完成全审。后续修复须纳非解析Cauchy列/层，更多有限匹配阶只消对应低阶门。
 
 R42唯一h来自同一前缀积分；同h的准确帽对照会消掉共同高度误差，不能据此认证h/球/跨片。人工热GH高阶差并不小，见Gaussian-evaluation说明，passed只指实现检查。
 
