@@ -150,3 +150,6 @@ margin325 r2真实51.74s因可选旧fullFlow snapshot身份失配退出，原52 
 
 ### 2026-11-14T07:30:57+00:00 — identity (local; public approval pending)
 新旧snapshot8顶层字段实比，仅sourceSha256因9个附加诊断MJS变化，其余physical/raw/layout/parameters相同；新完整快照已能原检查器复用，不要求每轮raw-start。
+
+### 2026-11-14T07:30:57+00:00 — domain (local; public approval pending)
+原Flow/1280角逐值重现4个失败24点块，定位a′=−.976195的中段下降而非loop曲率峰；全模保留，低模诊断不当删模或新解。

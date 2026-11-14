@@ -1,0 +1,23 @@
+{
+  "cwd": "${RUNTIME_TOPIC}",
+  "command": [
+    "${PYTHON}",
+    "${RUNTIME_TOPIC}/computations/strong_20261114_failed_block_geometry.py",
+    "--computations",
+    "${RUNTIME_TOPIC}/computations",
+    "--source-topic",
+    "${SOURCE_TOPIC}",
+    "--accepted",
+    "${RUNTIME_TOPIC}/notes/2026-11-13-strong-q126-m32-fixed-view-r1.json.gz",
+    "--port",
+    "${RUNTIME_TOPIC}/computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+    "--block",
+    "${RUNTIME_TOPIC}/notes/2026-11-14-strong-resume-newton-domain-blocks/loop-margin325-actual-r3-domain-0001.npz",
+    "${RUNTIME_TOPIC}/notes/2026-11-14-strong-resume-newton-domain-blocks/loop-margin325-actual-r3-domain-0005.npz",
+    "${RUNTIME_TOPIC}/notes/2026-11-14-strong-resume-newton-domain-blocks/loop-margin325-actual-r3-domain-0009.npz",
+    "${RUNTIME_TOPIC}/notes/2026-11-14-strong-resume-newton-domain-blocks/loop-margin325-actual-r3-domain-0013.npz",
+    "--out",
+    "${OUT_DIR}/failed-newton-block-geometry.json"
+  ],
+  "scope": "Four already failed 24-point blocks only; no Jacobian, BVP, tail, filtering acceptance or external submission"
+}
