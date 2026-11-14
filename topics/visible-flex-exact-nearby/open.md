@@ -228,3 +228,5 @@ root一次相位35门实际原件已根核，见 notes/2026-11-14-R119-root-firs
 [有向返回word](results/R133-supplement-directed-return-word-and-root-first-coefficient-contract.md) 已证准确density反同态与V−^-1V+=U_P；真实P=S−∘X+而非P²，primitive模为1/(4ij)。实际root/positive图必须同一正规化后给b_root^fin；Xi有限部只贡献−Xi/(4j)，完整一阶还含−b_root^fin/(4j)及声明接口。有限root cross gauge的准确图变换只在所声明逆存在的空间使用；形式首符号不偷授低频逆。继续实际连接、δ*转移及强余项。
 
 [显式参数有限部转移定理](results/R133-supplement-first-symbol-finite-part-parameter-transfer-contract.md) 已闭合解析部分：D.9逐3146原严格格的完整∂δXi与D.17四个复根Cauchy费给D.18。旧169germ、626 scalar、220 compact-T和全方向native原样复用；仅新轻量消费在公开Actions执行。数值未运行前不更新Xi(δ*)区间；完整root finite coefficient、strong及真PDE背景仍欠。
+
+Green七端口门43596517945已真实全成、child0，native60e69d61…08f3；详[原执行说明](notes/2026-11-14-R133-signed-Green-algebra-public-outcome.md)。这些显式比较系统核实现约定，不替代原5970格或未知high。后继严格按相同SHA和原退出记录复用，不再运行成功门。
