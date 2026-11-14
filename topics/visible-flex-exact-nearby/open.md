@@ -166,3 +166,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 锚定fold实际前缀已成，接较大域关联收紧与根值剥离
 
 [实际报告](results/R133-supplement-actual-anchored-auxiliary-fold-and-direct-leading-first-forcing.md)登记43646714623：小域13门通过，大域coeff通过而radial selfmap失败，全局child1。phase下一消费者仅精确复用原rootanchor、两coeff和整个小域，给大域新a_*积分交再续后段；另对w1根值/低阶Taylor项剥离后才给余项Cauchy，完整原X链/mean/IJ不得省。旧source/native身份与失败记录都保。
+
+### 新完整正DN与双侧强Airy余项已证，接真正long Schur与联合相位
+
+[P1–32](results/R119-supplement-new-simple-root-complete-positive-DN-Airy-return-and-sources.md)对新固定stop对象付整个正区、真实long/mean、未匹配EB及完整源；没有在根collar外端补条件。实际Airy正逆<2，余项双侧4/3强窗已含low/mean与全角lag。tail继续原long的远端screening及完整Frechet列，转为同空间Schur小量并保帽反馈，再接第五形状盒/两Γ/联合相位；旧对象证据全部留用原范围。

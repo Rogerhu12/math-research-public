@@ -427,3 +427,7 @@ visible-exact-astra-0df9全文核科学/CI/worker/flow和20pin；首跑前修a2�
 ### 2026-11-14 22:21:44 UTC — 锚定辅助fold实际结果独立提交
 
 读真实43646714623 process29348B/worker2447B，核native a6f6225cd993718f48b9d35533b81134f966f350b1c9ce704e61e38b34855807（12763B，未经connector读gzip）。一完整case13门、另一coeff成功但selfmap失败；全局child1原样保。报告所有十进制端点按原Arb外舍入，0旧target/complexjets重算。两runner真pull均a750721…且两README差异空；本机不可用，按根规8小文本提交，最近只读核ca0c92ff7a649f1afa3d62dc6bd59cfe10f9bfcb，不记作git pull。压缩HANDOFF前全文9840B已归档；继续较大域相关性收紧、w1直接根jets和完整耦合逆。
+
+### 2026-11-14 22:22:53 UTC — 新简单根完整正区DN、强返回与全源独推
+
+发布P1–32正文25186B，SHA3a2ad25d3fdd51e4c9013a552c93cb125dc0bce55a6dbf9744de54852fb45211。逐项核原新根A15–19、原Airy residual P10–15和真实long D1（L>2^24），补固定buffer的规范Jacobian乘积、weak lift的a角导和高输入PH作用域；全mean/未匹配EB/独立帽源保。纯解析无本机数值计算。上一实际报告首次lease因remote前进被拒，已立即尝试真git pull --rebase；CLI仍报No usable execution environment，按根规8重读新head/两README并保远程重建，第二次正常推送成功。当前只读核9cfd34e23d6ab05fecffbc1ec80f8a68b168ff67两README未变；不虚记本机pull，继续真实long Schur和closed网络。

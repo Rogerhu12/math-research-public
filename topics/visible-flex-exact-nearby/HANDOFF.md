@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 22:21:44 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 22:22:53 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在 Rogerhu12/math-research-public 工作；新数学只在公开仓库Actions。每条结论独推，非FF立即真pull --rebase再推直到成功，禁force。root管main/H/open/results/log；代理只交正文/blob，勿碰共享checkout。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。
 最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近runner真pull：22:11 UTC a750721aa49fa4c9cb31c74f1c888cf6284d6186，两次两README实际diff空。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：ca0c92ff7a649f1afa3d62dc6bd59cfe10f9bfcb；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：9cfd34e23d6ab05fecffbc1ec80f8a68b168ff67；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 最近partial checkout在 /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；当前环境不可用。此前相关AGENTS皆无。runner长算10min真pull；phase45/50min前后真pull，非FF循环；成功数学与出版失败分记。
 本次前H全文9840B在 notes/2026-11-14-handoff-before-anchored-actual.md；旧H/open/results与原152结论入口的档案链完整保留。actual报告、manifest/native保对象、身份、参数、全部失败和逐行证明，不凭摘要重构旧科学。
 
@@ -42,9 +42,9 @@ D1–24同w1 two-region L0w1入口已证；原primitive/IJ/独立mean/seam全保
 
 ## 实际外返回与新单根：tail_connector
 
-内部open全mean逆：全M≥4、浅129–8192/深≥8193，||νRNν||<2、核<2^-860000/mixed差<2^-6000000。open不是closed，strong标签不免费转授。
-旧E1–35/T1–35/S1–24给完整DN四块/mean/weak源、正buffer跨端smoothing；X1–33真实(129,2) eX→D→B transfer±1<2^8192/源2^24576（02864c48）。R1–38实际long只有1高度gauge/meanflux自然荷，实际残差r<2^-119738000，真Ea与自伴Es全L²差<2^20000r，源<2^22000 B_B（ef1b4491）。σ1/16残差不能送需2074宽D0逆。真I−EaTa/原strong标签仍缺。
+内部open全mean逆：M≥4、浅129–8192/深≥8193，||νRNν||<2、核<2^-860000/mixed差<2^-6000000。open不授closed或strong标签。
+旧E/T/S完整DN四块/mean/weak源与buffer smoothing保；X1–33真eX→D→B transfer±1<2^8192/源2^24576（02864c48）。R1–38真long仅一height gauge，实际r<2^-119738000、Ea−Es<2^20000r/源2^22000B（ef1b4491）；σ1/16不能送需2074宽D0逆。旧I−EaTa仍缺。
 另有新固定stop单根候选：q2→−8 quintic再q−8平台，ell0只选一次、参数导数0；主体R/η/参数/旧two bumps保。geometry/scale/Γ转移门notes已推6460b0ae；旧X/T/R特殊逆不转授。新根A1–28已推273a529c：完整半盘/CK/真逆/Piola、V0<1、全混频两行K_R=2^2184，两物理mean/端口正逆2^256与普通/weak/原子源齐，参数费q!r_p^-q。仅局部根。
-tail正接新完整正区DN/Poisson、联合五盒相位及closed网络；新正Robin含mean为正的推导已发现，须正文证明后使用。勿以局部collar冒充完整外DN，勿把long粗2^-18误差当tail标签小量。旧路线证据全部保留。
+新完整正DN P1–32已证（R119-supplement-new-simple-root-complete-positive-DN-Airy-return-and-sources.md，SHA3a2ad25d…）：新根到B整个A≥0区+真实long，mean自然通量/唯一高度gauge、未匹配EB、复型与buffer Jacobian全保。实际全Airy返回正逆L²<2、双侧H^s→H^(s+4/3)余项<2^6000 b^(4/3)（|s|≤1），强右窗/真伴随/低列mean齐。原物理ordinary/weak/原子与两Γ端迹齐，affine<2^512(P+B)。粗N_L<2^-18仅授正型存在；tail继续真long screening的完整Schur、联合五盒相位与closed网络，帽反馈不能删。
 
 每子问题完成即接open下一项。不得停在阶段报告、时限或“下一步建议”上。
