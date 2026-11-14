@@ -1,0 +1,20 @@
+{
+  "schema": "physical-C-root-ratio-synthetic-check-v1",
+  "timestamp_utc": "2026-11-14T13:23:13.419982+00:00",
+  "command": [
+    "python",
+    "topics/visible-flex-new-mechanism/scripts/literature_physical_root_ratio_design.py",
+    "--developer-check"
+  ],
+  "source_sha256": "6fa9ce44bfe28cbafc1156c7c69227513fb6c5a480899b6b802dcfe27135f37f",
+  "result": {
+    "developer_check": true,
+    "synthetic_polynomials_passed": true,
+    "synthetic_hinge_branch_passed": true,
+    "R26_jet_max_error": 1.3877787807814457e-17,
+    "geometry_evaluated": false,
+    "optimizer_called": false
+  },
+  "research_geometry_evaluated": false,
+  "optimizer_called": false
+}

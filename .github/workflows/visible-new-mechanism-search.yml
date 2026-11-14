@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -529,6 +529,19 @@ jobs:
             --input "$VISIBLE_NEW_OUT/cosine-endpoint-warm-a65-b12.json" \
             --planar-report "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json" \
             --nodes 32768 --out "$VISIBLE_NEW_OUT/cosine-endpoint-warm-a65-b12-N32768.json"
+      - name: Test a guarded negative physical C-root ratio on actual closed geometry
+        if: matrix.lane == 'physical_root'
+        timeout-minutes: 35
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_physical_root_ratio_design.py" \
+            --developer-check > "$VISIBLE_NEW_OUT/physical-root-ratio-interface-check.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_physical_root_ratio_design.py" \
+            --input "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43591099281-1-closed_design/nine-coefficients-closed-design.json" \
+            --q 2 --parameter-state initial --sides positive negative \
+            --modes 12 --theta-n 768 --validation-n 768 1536 3072 --guard-angles 192 \
+            --max-nfev 180 --target-ratio -1.75 --derivative-floor .1 --physical-gap .01 \
+            --logh-bound 1 --speed-floor .08 --xi-bound 4 \
+            --out "$VISIBLE_NEW_OUT/physical-root-ratio-design.json"
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:
