@@ -161,3 +161,6 @@
 
 - 2026-11-14 21:08 CST，Astra-new-mechanism-9974ea84：完成并独立复核R25，外尖材料线整段准确直，出口切向球面转角受reach约束，积分给最小外向位移；一般padding及p=w线性高度式已核。
   严格区分以D下界给必要排除与以D预算上界给更保守设计，不把局部曲率上界当reach。该门已纳入新的准确q_ell消元设计，避免为无转向空间的核心求封口。
+
+- 2026-11-14 21:09 CST，Astra-new-mechanism-9974ea84：准确尖谷q_ell消元新脚本经独立静态审查，人工完整Jac相对差约4.41e−9/7.43e−9，精确有理两行全零；未本地跑研究求解。
+  共享workflow/publisher新增cosine_endpoints，只有本题单case新设计与冻结认证；H2/H3改为预定义有理导出、物理箱明确±.5，R25必要与计划厚度区分，完整raw final和checkpoint保留。

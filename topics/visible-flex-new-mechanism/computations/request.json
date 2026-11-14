@@ -1,14 +1,10 @@
 {
-  "request": "zero-framing-cosine-core-and-actual-D0-phase-with-frozen-physical-C-audit",
-  "created_at": "2026-11-14T12:55:51Z",
+  "request": "exact-cosine-tip-valley-q-ell-elimination-with-reach-port-budget",
+  "created_at": "2026-11-14T13:09:28.393259Z",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "cosine_core",
-    "phase_D0",
-    "physical_C"
+    "cosine_endpoints"
   ],
-  "cosine_core": "One six-mode cosine design followed by independent verification of its exact selected binary64 identity; check-only must pass first",
-  "phase_D0": "One exact Puiseux coefficient germ, eta=0,+i,-i, same series at both deltas, no right-tail or global profile claim",
-  "physical_C": "Four quadratures of one already published q2 initial geometric base, no optimization; signs remain numerical until continuous certification",
+  "cosine_endpoints": "New rational defining map eliminates H2/H3; exact tip/valley q_ell=0 and conservative reach-turn height gate; one new design then independent frozen 32768-cell verification",
   "task_complete": false
 }

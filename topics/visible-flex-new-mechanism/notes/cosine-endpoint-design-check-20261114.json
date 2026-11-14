@@ -1,0 +1,82 @@
+{
+  "schema": "cosine-endpoint-design-development-v1",
+  "development_check_only": true,
+  "research_geometry_evaluated": false,
+  "optimization_performed": false,
+  "checks": [
+    {
+      "fixed_offset": null,
+      "directional_jacobian_relative_error": 4.407577635828584e-09,
+      "exact_tip_q_ell_numerator_zero": true,
+      "exact_valley_q_ell_numerator_zero": true,
+      "frozen_identity_hash": "9545f14bf01dbd28dd27ecaba652198c882ae4d387df87dc375664d79fe4b443",
+      "floating_exact_map_difference": 3.2526065174565133e-19,
+      "endpoint_numeric_audits": [
+        {
+          "location": "tip",
+          "torsion_exactly_zero_by_even_reflection": true,
+          "torsion_numeric_residual": 3.458966519602343e-17,
+          "kappa_from_symmetry_formula": 1.6608395861804082,
+          "q_ell_from_symmetry_formula": 0.0,
+          "q_ell_formula_numeric_discrepancy": 1.926819024006497e-32,
+          "whole_width_J_at_point": 1.0,
+          "whole_width_principal_curvature_at_point": 1.6608395861804082,
+          "automatic_torsion_zero_does_not_force_q_ell_zero": true
+        },
+        {
+          "location": "valley",
+          "torsion_exactly_zero_by_even_reflection": true,
+          "torsion_numeric_residual": 1.1322617252605915e-16,
+          "kappa_from_symmetry_formula": 0.6657241041060652,
+          "q_ell_from_symmetry_formula": -3.0975648568141037e-15,
+          "q_ell_formula_numeric_discrepancy": 5.079577147702889e-16,
+          "whole_width_J_at_point": 0.9999999999999999,
+          "whole_width_principal_curvature_at_point": 0.6657241041060653,
+          "automatic_torsion_zero_does_not_force_q_ell_zero": true
+        }
+      ]
+    },
+    {
+      "fixed_offset": 0.013,
+      "directional_jacobian_relative_error": 7.420860910574923e-09,
+      "exact_tip_q_ell_numerator_zero": true,
+      "exact_valley_q_ell_numerator_zero": true,
+      "frozen_identity_hash": "9545f14bf01dbd28dd27ecaba652198c882ae4d387df87dc375664d79fe4b443",
+      "floating_exact_map_difference": 3.2526065174565133e-19,
+      "endpoint_numeric_audits": [
+        {
+          "location": "tip",
+          "torsion_exactly_zero_by_even_reflection": true,
+          "torsion_numeric_residual": 3.458966519602343e-17,
+          "kappa_from_symmetry_formula": 1.6608395861804082,
+          "q_ell_from_symmetry_formula": 0.0,
+          "q_ell_formula_numeric_discrepancy": 1.926819024006497e-32,
+          "whole_width_J_at_point": 1.0,
+          "whole_width_principal_curvature_at_point": 1.6608395861804082,
+          "automatic_torsion_zero_does_not_force_q_ell_zero": true
+        },
+        {
+          "location": "valley",
+          "torsion_exactly_zero_by_even_reflection": true,
+          "torsion_numeric_residual": 1.1322617252605915e-16,
+          "kappa_from_symmetry_formula": 0.6657241041060652,
+          "q_ell_from_symmetry_formula": -3.0975648568141037e-15,
+          "q_ell_formula_numeric_discrepancy": 5.079577147702889e-16,
+          "whole_width_J_at_point": 0.9999999999999999,
+          "whole_width_principal_curvature_at_point": 0.6657241041060653,
+          "automatic_torsion_zero_does_not_force_q_ell_zero": true
+        }
+      ]
+    }
+  ],
+  "passed": true,
+  "source_files_sha256": {
+    "space_star_cosine_endpoint_design.py": "7cbb074538b9a7027980dd8b3176a1da91fcf383218998d486e614a6ed39c907",
+    "space_star_cosine_design.py": "b2fb44b815093ada42f5036c41528856f5f51df4042b8dfa1b2523a6b2959173",
+    "space_star_lift_design.py": "9d058926f9dff6b07fb766e5938eb536f237cb5fcc12fe63c3f8fee3a067bb67",
+    "cosine_rectifying_core.py": "2a6cdd06381bc2cea89d16579b8e84b486162374d17eac656a5970892e4b5763",
+    "space_star_flat_core.py": "33fb72c8c1206a2bef257a4067f65100ae87fd4b71ebf63cdc36597b98b558a4",
+    "star_core_geometry.py": "664d20735a5bcb0aa14d9da320bcefea1b571012cb4ba4fe5e80e7f0c50d03a9",
+    "folded_reference_geometry.py": "e912d3ece31e36a76de10cb1a1f40b8d4cd2079a7c8626c0ae85d0083c0de8ab"
+  }
+}
