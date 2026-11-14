@@ -176,3 +176,8 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 ### R720：原Robert cocycle与类作用桥已闭合
 
 在同一原q、s、t、Γ及Robert祖先下，同时整提升Y满足N_PY=y、N_ΓY=u_B；真实Γ-Norm像N_ΓX=jX_B对P自由，且映入A为零。完整整数二步链比较将原f_s/f_t的Θ值分别送至−barξ_s/−barξ_t，附加边界c′、e′均因原Γ-Norm输入在A/πA消失，故C=9ib=−34ib。于是L=31+26b、r_y=25+9b、Ω₂=ε(22+17b)；Ω₂为零恰b=24。仍未求实际b，不能把pure-p参考24当本塔类作用系数；继续原X_t主化/首矩或真实普通互反输入。见[R720](results/R720-original-C-and-b-by-the-complete-Robert-chain-comparison.md)。
+
+
+### R717：精确原CM范数算法已证明，实际137147值待求
+
+原S2S3/C0²∈Q(ζ_(p+1))^+，分母2^37·3^26·p^5已逐处控制；保留原Ω/6、χ6/θ标记、全部周期与正Gauss和的两组中心值可由O(p(b+logp))有限格点和严格全尾求全部共轭。三个球DFT的整数trace唯一性恢复原代数数，按指定Teich根直接计算v(M2)及归一平方，不需p²阶椭圆级数。当前只启动p41的新算法校准（原历史p²S2S3≡1274 mod41²），未给137147单位或高度排除。完整方法见[R717](results/R717-exact-original-CM-norm-from-certified-complex-traces.md)；校准后继续实际例外素数，完成产物按SHA复用。

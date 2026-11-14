@@ -1,0 +1,18 @@
+{
+  "result": "R717-original-CM-norm-p41",
+  "prime": 41,
+  "shard_count": 1,
+  "prec_bits": 320,
+  "tail_bits": 220,
+  "cutoff_multiple": 300,
+  "checkpoint_rows": 50,
+  "expect_p2_product": 1274,
+  "timeout_seconds": 1200,
+  "arithmetic_sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+  "algorithm": "R717-original-CM-norm-integral-traces",
+  "execution_environment": "Rogerhu12/math-research-public GitHub Actions only",
+  "python_flint_version": "0.9.0",
+  "purpose": "Calibrate the new certified complex trace recovery against the already completed original p41 torsion computation: p^2 S2 S3 = 1274 modulo 41^2. This does not rerun the original torsion orbit.",
+  "resume_policy": "Reuse compatible complete receipts; otherwise resume the latest compatible row checkpoint. Reject an incompatible complete result under the same result name.",
+  "mathematical_scope": "Finite exact original CM norm. No uniform nonvanishing, height exclusion, or Serre completion is claimed."
+}

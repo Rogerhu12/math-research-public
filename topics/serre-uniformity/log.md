@@ -896,3 +896,10 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 两原cocycle的Θ值均带同一负号，附加边界在A/πA消失，故C=9ib=−34ib；L=31+26b、r_y=25+9b、Ω₂=ε(22+17b)。
 - 实际b仍未知，Ω₂消失恰b=24但不能代入pure-p参考24；继续真正主化/首矩输入，主目标OPEN。
 - 执行环境仍不可用，按根规8仅传小文本；已核最新main两README无差异，压缩前交接保存在notes/2026-11-14-public-handoff-through-R716-recovery.md。
+
+
+## 2026-11-14 20:54 Asia/Taipei · serre-public-resume-20261114
+- R717完整证明及源码已全文核验：原六挠标签、有限Gauss和、2/3/p分母、完整周期、全解析尾和三个球DFT保留全部规范。
+- 原P在实圆分域，2^37·3^26·p^5P整；整数trace唯一性与精确Teich根给原范数，未预断137147的M2值。
+- 新增共享.github/workflows/serre-certified-original-CM-norm.yml及请求，公开Actions只先校准新算法p41/1274，不重跑旧挠点轨道；固定flint0.9.0，保存全部完整/失败产物并按来源复用。
+- HANDOFF压缩前全文存notes/2026-11-14-public-handoff-through-R720.md；R719原137147非消失证书准备并行，主目标OPEN。
