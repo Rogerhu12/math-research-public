@@ -1,0 +1,21 @@
+{
+  "format": "r150-native-normal-form-import-probe-v1",
+  "observed_at": "2026-11-14T10:50:41.658404+00:00",
+  "source_nf_sha256": "a0c8833d4b25765f1aeb928ab203a456abcf6680a8fc0fdad152ee3706ed4007",
+  "source_nf_bytes": 198349509,
+  "seconds_limit": 60,
+  "address_space_limit_mib": 1024,
+  "exit_code": 124,
+  "status": "load-not-completed-within-probe-limit",
+  "native_input_loaded": false,
+  "basis_started": false,
+  "script_sha256": "ea88d6cf8c88e6c9c68048b5b68a6f4b91007995bc7c1491ceace3b98dbcc23a",
+  "log_sha256": "684647e0aa6ccd6d926cd52e6021199171f579c08a693e8dfe5dd73c936bc9ea",
+  "actual_log": [
+    "R150_MODULE_BEGIN_BUILD",
+    "R150_MODULE_ROWS=6188",
+    "R150_MODULE_COMPONENTS=4367",
+    "R150_MODULE_BEGIN_NATIVE_NORMAL_FORMS"
+  ],
+  "scope": "This probe stops before std(Reduced); no annihilator or original-row identity is claimed. Native full normal forms remain completed."
+}

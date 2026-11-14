@@ -43,8 +43,10 @@ jobs:
           if characteristic not in [0,31,32003] or request['stage'] not in ['annihilator','lift'] or request['precondition']!='constant':
               raise SystemExit('Unsupported finite-module request')
           prebasis=request.get('prebasis','none')
-          if prebasis not in ['none','native-f31'] or prebasis=='native-f31' and characteristic!=31:
+          if prebasis not in ['none','native-f31','native-nf-f31'] or prebasis!='none' and characteristic!=31:
               raise SystemExit('Native prebasis is only the original F31 parameter model')
+          if prebasis=='native-nf-f31' and request['stage']!='annihilator':
+              raise SystemExit('Native normal forms currently support exact quotient annihilators only')
           if not 1<=seconds<=1800 or not 512<=memory<=4096:
               raise SystemExit('Request exceeds the bounded execution limits')
           out=Path(os.environ['RUNNER_TEMP'])/('isp-r150-module-'+str(characteristic))
@@ -56,6 +58,10 @@ jobs:
               'topics/invariant-subspace-problem/notes/2026-11-14-r150-graded-pivot-profile-789f.json',
               'topics/invariant-subspace-problem/notes/2026-11-14-r150-native-constant-prebasis-789f.cpp',
               'topics/invariant-subspace-problem/notes/2026-11-14-r150-native-prebasis-runner-789f.js',
+              'topics/invariant-subspace-problem/notes/2026-11-14-r150-native-prebasis-receipt-789f.json',
+              'topics/invariant-subspace-problem/notes/2026-11-14-r150-eleven-n-source-profile-789f.json',
+              'topics/invariant-subspace-problem/notes/2026-11-14-r150-native-normal-form-789f.cpp',
+              'topics/invariant-subspace-problem/notes/2026-11-14-r150-native-normal-form-runner-789f.js',
               'topics/invariant-subspace-problem/notes/2026-11-14-r150-module-actions-publish-789f.py',
               '.github/workflows/invariant-subspace-r150-finite-module.yml']
           source={'source_commit':os.environ['GITHUB_SHA'],'rules':rules,'request':request,'request_sha256':hashlib.sha256(request_path.read_bytes()).hexdigest(),
@@ -86,6 +92,37 @@ jobs:
           cp "$native_dir/prebasis-input.txt" "$ISP_MODULE_OUT/native-prebasis-input.txt"
           cp "$native_dir/source-operations.bin.gz" "$ISP_MODULE_OUT/native-source-operations.bin.gz"
           cp "$native_dir/native-execution.log" "$ISP_MODULE_OUT/native-execution.log"
+      - name: Construct all original-source normal forms in bounded native arithmetic
+        if: env.ISP_MODULE_PREBASIS == 'native-nf-f31'
+        timeout-minutes: 4
+        run: |
+          set -o pipefail
+          native_dir="$RUNNER_TEMP/isp-r150-native-nf"
+          set +e
+          node topics/invariant-subspace-problem/notes/2026-11-14-r150-native-normal-form-runner-789f.js \
+            --out "$native_dir" --all --seconds 120 --memory-mib 512 \
+            2>&1 | tee "$ISP_MODULE_OUT/native-nf-console.log"
+          native_status=${PIPESTATUS[0]}
+          set -e
+          python - <<'PY'
+          import gzip,hashlib,json,os,shutil
+          from pathlib import Path
+          src=Path(os.environ['RUNNER_TEMP'])/'isp-r150-native-nf'
+          out=Path(os.environ['ISP_MODULE_OUT'])
+          for name in ['normal-form-input.txt','normal-form-receipt.json','normal-form-mapping.json','native-normal-form.log']:
+              if (src/name).exists():shutil.copyfile(src/name,out/('native-'+name))
+          records=[]
+          for name in ['nf-forward.bin','nf-backward.bin']:
+              if not (src/name).exists():continue
+              raw=(src/name).read_bytes(); packed=gzip.compress(raw,compresslevel=9,mtime=0)
+              record={'file':name,'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest(),'compressed_bytes':len(packed)}
+              if len(packed)<=5000000:
+                  dest=out/(name+'.gz');dest.write_bytes(packed);record['saved_as']=dest.name
+              else:record['saved_as']='hash and reproducible input only'
+              records.append(record)
+          (out/'native-normal-form-source-storage.json').write_text(json.dumps(records,indent=2)+'\n')
+          PY
+          exit "$native_status"
       - name: Preserve original seventeen-equation input and component mapping
         timeout-minutes: 5
         run: |
@@ -93,6 +130,8 @@ jobs:
           prebasis_args=()
           if [ "$ISP_MODULE_PREBASIS" = native-f31 ]; then
             prebasis_args=(--prebasis-file "$RUNNER_TEMP/isp-r150-native/basis.sing")
+          elif [ "$ISP_MODULE_PREBASIS" = native-nf-f31 ]; then
+            prebasis_args=(--normal-forms-file "$RUNNER_TEMP/isp-r150-native-nf/nf-normal-forms.sing")
           fi
           node topics/invariant-subspace-problem/notes/2026-11-14-r150-finite-macaulay-module-789f.js \
             --out "$ISP_MODULE_OUT" --characteristic "$ISP_CHARACTERISTIC" \
@@ -115,6 +154,8 @@ jobs:
           prebasis_args=()
           if [ "$ISP_MODULE_PREBASIS" = native-f31 ]; then
             prebasis_args=(--prebasis-file "$RUNNER_TEMP/isp-r150-native/basis.sing")
+          elif [ "$ISP_MODULE_PREBASIS" = native-nf-f31 ]; then
+            prebasis_args=(--normal-forms-file "$RUNNER_TEMP/isp-r150-native-nf/nf-normal-forms.sing")
           fi
           node topics/invariant-subspace-problem/notes/2026-11-14-r150-finite-macaulay-module-789f.js \
             --out "$ISP_MODULE_OUT" --characteristic "$ISP_CHARACTERISTIC" \

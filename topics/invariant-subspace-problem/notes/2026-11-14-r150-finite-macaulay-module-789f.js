@@ -56,7 +56,15 @@ function generate(z,o,out){
   'print("R150_MODULE_ROWS="+string(size(M)));',
   'print("R150_MODULE_COMPONENTS="+string(nrows(matrix(M))));',
   "option(redSB);","module Reduced;module Target;int nred;",
-  ...(o.precondition==="constant"?[
+  ...(o.normalFormsFile?[
+   'print("R150_MODULE_BEGIN_NATIVE_NORMAL_FORMS");',
+   "kill Reduced;kill Target;",
+   `< ${JSON.stringify(o.normalFormsFile)};`,
+   'if(nrows(matrix(Reduced))>1034||ncols(matrix(Reduced))>2195||ncols(matrix(Target))!=9||nrows(matrix(Target))>1034){print("R150_MODULE_NATIVE_NORMAL_FORM_SHAPE_FAILED");quit;}',
+   "nred=1034;",
+   'print("R150_MODULE_NATIVE_SOURCE_ROWS=2195");',
+   'print("R150_MODULE_REDUCED_COMPONENTS=1034");'
+  ]:o.precondition==="constant"?[
    `intvec preRows=${preRows.join(",")};`,"module Pre;for(i=1;i<=size(preRows);i++){Pre[i]=M[preRows[i]];}",
    'print("R150_MODULE_BEGIN_CONSTANT_PRECONDITIONER");',
    ...(o.prebasisFile?[`< ${JSON.stringify(o.prebasisFile)};`]:["module B0=std(Pre);"]),
@@ -106,13 +114,18 @@ function generate(z,o,out){
  return {script:lines.join("\n")+"\n",mapping:{columns:md.columns,multipliers:md.multipliers,constantPreconditionerRows:preRows,gradedProfileSHA256:hash(profileBytes),rows:"row 17*u+i corresponds to multiplier index u=0..363 and generator i=1..17",keyEncoding:"sum exponent_i*8^i, original m coordinates"},files:{basis:basisFile,certificate:certificateFile,denominator:denFile}};
 }
 async function main(){
- const o={characteristic:31,source:null,stage:"annihilator",precondition:"constant",prebasisFile:null,out:null,singular:"Singular",seconds:60,memoryMiB:512,generateOnly:false};
- const options={"--characteristic":"characteristic","--source":"source","--stage":"stage","--precondition":"precondition","--prebasis-file":"prebasisFile","--out":"out","--singular":"singular","--seconds":"seconds","--memory-mib":"memoryMiB"};
+ const o={characteristic:31,source:null,stage:"annihilator",precondition:"constant",prebasisFile:null,normalFormsFile:null,out:null,singular:"Singular",seconds:60,memoryMiB:512,generateOnly:false};
+ const options={"--characteristic":"characteristic","--source":"source","--stage":"stage","--precondition":"precondition","--prebasis-file":"prebasisFile","--normal-forms-file":"normalFormsFile","--out":"out","--singular":"singular","--seconds":"seconds","--memory-mib":"memoryMiB"};
  const args=process.argv.slice(2);for(let i=0;i<args.length;i++){if(args[i]==="--generate-only"){o.generateOnly=true;continue;}const n=options[args[i]];if(!n||i+1===args.length)throw Error("bad argument "+args[i]);o[n]=args[++i];}
  for(const k of ["characteristic","seconds","memoryMiB"])o[k]=Number(o[k]);if(o.source!==null)o.source=Number(o.source);
  if(!o.out||!["annihilator","lift"].includes(o.stage)||!["none","constant"].includes(o.precondition)||![o.characteristic,o.seconds,o.memoryMiB].every(Number.isSafeInteger)||o.characteristic<0||o.seconds<=0||o.memoryMiB<=0||o.source!==null&&!Number.isSafeInteger(o.source))throw Error("bad options");
  fs.mkdirSync(o.out,{recursive:true});o.out=path.resolve(o.out);
  if(o.prebasisFile){if(o.characteristic!==31||o.source!==null||o.precondition!=="constant")throw Error("native prebasis requires original F31[s] constant preconditioning");o.prebasisFile=fs.realpathSync(o.prebasisFile);if(o.prebasisFile===path.join(o.out,"basis.sing"))throw Error("prebasis must be separate from the output basis");}
+ if(o.normalFormsFile){
+  if(o.prebasisFile||o.characteristic!==31||o.source!==null||o.precondition!=="constant"||o.stage!=="annihilator")throw Error("native normal forms require original F31[s], constant preconditioning, annihilator stage, and no separate prebasis");
+  o.normalFormsFile=fs.realpathSync(o.normalFormsFile);
+  if(path.dirname(o.normalFormsFile)===o.out)throw Error("large native normal forms must stay in a separate runtime directory");
+ }
  const log=x=>process.stdout.write(JSON.stringify(x)+"\n");
  const z=parameterSystem("original",log),p=BigInt(o.characteristic);
  if(p&&(BigInt(z.denominator)%p===0n||z.contents.some(c=>c%p===0n)))throw Error("bad original prime");
@@ -127,6 +140,21 @@ async function main(){
   const sha=await fileHash(o.prebasisFile);
   if(pr.status!=="completed"||pr.field!==31||pr.expectedUnitPivots!==3333||pr.sourceDataSHA256!==z.sourceDataSHA256||pr.profileSHA256!==g.mapping.gradedProfileSHA256||pr.outputs?.basis?.sha256!==sha)throw Error("native prebasis provenance mismatch");
   receipt.prebasis={file:o.prebasisFile,bytes:fs.statSync(o.prebasisFile).size,sha256:sha,sourceOperationsSHA256:pr.outputs.sourceOperations.sha256};
+ }
+ if(o.normalFormsFile){
+  const dir=path.dirname(o.normalFormsFile),nf=JSON.parse(fs.readFileSync(path.join(dir,"normal-form-receipt.json"),"utf8"));
+  const nmBytes=fs.readFileSync(path.join(dir,"normal-form-mapping.json")),nm=JSON.parse(nmBytes),sha=await fileHash(o.normalFormsFile);
+  const extraBytes=fs.readFileSync(path.join(__dirname,"2026-11-14-r150-eleven-n-source-profile-789f.json")),extra=JSON.parse(extraBytes);
+  const prior=JSON.parse(fs.readFileSync(path.join(__dirname,"2026-11-14-r150-native-prebasis-receipt-789f.json"),"utf8"));
+  const expectedRows=extra.extraRows.map(r=>r.originalRow);
+  for(let u=0;u<364;u++)for(let i=12;i<=17;i++)expectedRows.push(17*u+i);
+  const profile=JSON.parse(fs.readFileSync(path.join(__dirname,"2026-11-14-r150-graded-pivot-profile-789f.json"),"utf8"));
+  const pivots=new Set(profile.selectedRows.filter(r=>r[0]<11).map(r=>r[2]));
+  const components=g.mapping.columns.filter(c=>!pivots.has(c)),same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
+  if(nf.status!=="completed"||nf.exitCode!==0||nf.field!==31||nf.components!==1034||nf.allSources!==true||nf.sourceCount!==2195||nf.targetCount!==9||nf.sourceDataSHA256!==z.sourceDataSHA256||nf.profileSHA256!==g.mapping.gradedProfileSHA256||nf.extraSourceProfileSHA256!==hash(extraBytes)||nf.outputs?.["normal-forms.sing"]?.sha256!==sha||nf.outputs?.["forward.bin"]?.sha256!==prior.outputs.sourceOperations.sha256)throw Error("native normal form provenance mismatch");
+  if(nm.field!==31||!same(nm.components,components)||!same(nm.originalComponentIndices,components.map(c=>g.mapping.columns.indexOf(c)+1))||!same(nm.sources.map(s=>s.raw),expectedRows)||!same(nm.allCompressedSourceRows,expectedRows)||!same(nm.sourceIndices,expectedRows.map((_,i)=>i))||!same(nm.targets,[2,3,4,5,6,7,8,9,10])||!same(nm.prebasisRows.map(s=>s.raw),g.mapping.constantPreconditionerRows))throw Error("native normal form original-row mapping mismatch");
+  receipt.normalForms={file:o.normalFormsFile,bytes:fs.statSync(o.normalFormsFile).size,sha256:sha,mappingSHA256:hash(nmBytes),sourceCount:2195,components:1034,sourceOperationsSHA256:nf.outputs["forward.bin"].sha256,backwardOperationsSHA256:nf.outputs["backward.bin"].sha256,reductionOperationsSHA256:nf.outputs["reduction.bin"].sha256,scope:"Exact F31[s] quotient by the constant unit prebasis; source identities are recorded by native operations. No characteristic-zero or lifted original-row certificate is claimed."};
+  fs.copyFileSync(path.join(dir,"normal-form-mapping.json"),path.join(o.out,"native-normal-form-mapping.json"));
  }
  const save=()=>fs.writeFileSync(path.join(o.out,"receipt.json"),JSON.stringify(receipt,null,2)+"\n");save();
  if(o.generateOnly){log(receipt);return;}

@@ -101,3 +101,11 @@ Singular 的 `lift`/`liftstd` 采用原生成元变换矩阵语义；参照其�
 [原始回执](r150-module-actions-789f/43583257344-1/char31/receipt.json)记录exitCode=124、status=failed-or-incomplete，运行1800秒，无完成标记、无准确原行身份。[实际日志](r150-module-actions-789f/43583257344-1/char31/execution.log)已到CONSTANT_PRECONDITIONER_READY，未到REDUCED_COMPONENTS或BEGIN_BASIS。因此完整3333预基加载成功，实际阻塞在reduce(M,B0)/reduce(T,B0)正常形阶段，尚未进入1034分量标准基。[CI outcome](r150-module-actions-789f/43583257344-1/char31/ci-outcome.json)的step_outcome=failure、complete=false；工作流continue-on-error可能使API步骤conclusion看似success，不能改写本次数学状态。
 
 后继改为原生分层正常形，使用已证明的2195条原来源压缩，保完整F31[s]系数和可回放常单位行操作。先作≤60秒/512MiB的有界探测；不再次运行原30分钟Singular reduce。最小Ann和九目标证书尚未得到，有限特征结果仍不能替代特征零覆盖。
+
+## 全部原生正常形完成，改进余模导入（2026-11-14 10:51 UTC）
+
+[完整新附录](../results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)和[实际全量回执](2026-11-14-r150-native-normal-form-receipt-789f.json)保2195原来源、九目标、全部1034分量、最高参数45次。实际54.8127秒、地址空间上限512MiB，原前向DAG哈希不变，新增同次数常反向DAG和全部正常形来源轨迹；原式FC+B(hJ−HC)=hT已写全。
+
+有限模runner新增`--normal-forms-file`并比对所有原来源/映射/哈希，仅允许F31[s]未专门化annihilator，避免错误复用6188列lift。本库workflow新增native-nf-f31模式，可从全量NF直接进入std，运行器差异下原生阶段设120秒/512MiB；本次请求文件没有变，不会自动发起长任务。
+
+198MB逐向量表达式在一次60秒/1GiB导入探测中只到BEGIN_NATIVE_NORMAL_FORMS，没有完成导入；std未开始。原NF已完成无须重算，下一步从同一33MB紧凑系数文件改导入格式，保全部参数系数、来源和物理目标。

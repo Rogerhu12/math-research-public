@@ -791,3 +791,7 @@
 ### R298：五位全部独立正权的完整出生二硬端加强界
 
 [完整证明](results/R298-five-independent-positive-weights-birth-two-hard-top-strengthened-s1.md)首次对五个独立正权、整个五维K2硬端给标准化加强费用≤743/782，故C1²−ΔL3⁻¹Δ*≥(39/782)C1²≻0。真实低源迹保完整第一MP逆、顶层压缩逆及−9L3⁻¹L1³抵消；化为十九次对称整数N/D，完整79轨道证明743D−782N全系数非负且非零。保所有305个负分子系数，未用抽样或分组代替全源；一般奇数硬端统一κ和原graph仍开。
+
+### R150 附录：全部2195原来源的精确参数正常形已完成
+
+[完整证明与实际全量回执](results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)以同次数常单位反向化保3333预模和参数尾，再逐m次数降阶。原F31[s]的2195来源及九目标在60秒/512MiB上限内实际54.8127秒全部完成，保1034分量及所有参数系数（最高45次）、25305683步可回放消元。前向DAG与旧证书逐字同哈希，完整同次数DAG另存；原式回代FC+B(hJ−HC)=hT写全。新的瓶颈是198MB表达式导入；余模std、Ann和特征零证书未得，不重复旧Singular reduce。
