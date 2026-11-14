@@ -475,3 +475,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R119 补充：真实三阶转折的完整反射与强源
 
 见[三阶转折及真实通量极限](results/R119-supplement-actual-cubic-turning-complete-reflection-and-strong-sources.md) T.1–T.35。保持实际最后quintic与完整正区，把固定B高度条件接成真实cut128的全频 $L^2$ 波酉反射。反向能量先给 $H_C\in H^{-1/8}$，真实DN角交换子和体交换子再证明Galerkin极限无虚通量损失；随后证唯一和反向onto，含mean。完整强源 $e_C\in H^{1/8}$、$(f,g)\in\mathcal M H^{1/2}$ 的仿射输出 $<2^{15}\mathfrak F$，Piola/物理归一/Γ列均保。粗输入目前只授B通量 $H^{-9/8}$；$e_X$ 真根桥、强标签和returned方程仍待接。
+
+### R133 补充：全 Fourier 矩阵一次 Sobolev 转换
+
+见[有向解析矩阵余项预算](results/R133-supplement-directed-analytic-matrix-old-circle-remainders.md) M.1–M.19。双Schur指数lag代数保持完整乘子、原P/Π、rank、J；先由实际 $c_\sigma<1$ 构造full-nonmean逆，最后限制parity。对 $R_QJ\mathsf E_D$ 等完整word先合成右一阶gain，末端才付一次 $H^{-8/3}\to H^{-5/3}$ 转换；全mean和原rank符号保留。它是已证明的新预算算法，数值改善待公开Actions消费原1328 norm行，不称强小门。

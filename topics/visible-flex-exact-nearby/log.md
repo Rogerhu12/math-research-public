@@ -259,3 +259,7 @@ root亲核48,987B process全六窗/八项主导/7门，以及2,772B worker两次
 ### 2026-11-14 19:11:56 UTC — 独推真实 cubic 转折完整反射解析结论
 
 冻结19,101B T.1–T.35，SHA256 `c7583bb80f526f285aec082b2e0e09a960aae8a348e2c40f2e29993a92bf9e50`。root逐式复核压缩能量交叉消去、T12 Fourier比、T17–19 dyadic迹、T20端口comm/T21 strong收敛、极限通量/唯一/反向onto及T29 −2i和reverse-Piola源符号。tail另确认与E同一全标签/停止域，原balanced W13与D16涵盖该负quintic，未添新盒。完整mean和强源保留，B通量损失明确；继续真实跨正区平滑及eX桥，不称主题完成。
+
+### 2026-11-14 19:18:16 UTC — 独推 directed analytic matrix 完整余项定理
+
+11,462B，SHA256 `394068a9b18a47d5c1b9330f162c39b9b02a0d65db4b46ba5773c995adc6a52e`。root全文核M1–19双Schur乘法、rightgain交换费用、全nonmean J和parity限制、rank真非mean因子、U原完整operator words与末端唯一κ费用。尚无此算法实际数值声称。原三native/1328行保持，不重求target。

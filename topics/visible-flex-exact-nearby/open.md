@@ -187,3 +187,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14：cut128 向外真实三阶反射已闭，继续根桥与强输出
 
 [T.1–T.35](results/R119-supplement-actual-cubic-turning-complete-reflection-and-strong-sources.md) 已证同一固定停止 connector 的 C→cut128三阶退化段接全正区后的完整L²波反射，含mean/全部源。原无限维极限通量和onto不再作为假设。剩余明确是未完整(129,2)的 $e_X\to\mathrm{cut128}$ 真根图/源归一、B通量由当前 $H^{-9/8}$ 到实际所需强域的正区跨端平滑，以及与开放内部逆的returned条件可逆性；酉性自身不授这些门。atom源按BV和真实单侧跳，不套齐次连续类。
+
+### 2026-11-14：已证降低重复乘子费用的完整矩阵算法
+
+[M.1–M.19](results/R133-supplement-directed-analytic-matrix-old-circle-remainders.md) 已可执行；先保整算子word再一次转窗，避免原 $R_QJ E_D$ 的重复m3收费。未知的parity反射不可放入指数lag代数，full-nonmean inverse最后限制已证明一致。phase正在只消费已成norm行；与root的真实 $\mathcal L_0w_1$ 两片径向预算并行。旧实际大界原样保留。
