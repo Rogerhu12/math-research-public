@@ -1,32 +1,41 @@
 {
-  "request": "two-different-positive-pairs-original-complete-P1",
-  "created_at": "2026-11-14 20:23:31 UTC",
+  "request": "true-max-metric-epigraph-and-third-history-eliminated-tail-action",
+  "created_at": "2026-11-14 20:29:05 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "multiple_pair_P1"
+    "metric_epigraph",
+    "pure_tail_next_reduce"
   ],
   "source_sha256": {
-    "literature_multiple_pair_P1_exact.py": "a1fbe334b62cacb01b98fff9e99849e0550694f9d4926afbb2968b184a71dbe5"
+    "frame_metric_epigraph.py": "6f1cd9e3f987f3c3209e6fdee6a24b72d83146a3ea5f522656b22e61cb241d03",
+    "frame_metric_epigraph_audit.py": "5923221ec495b08f3be491a709eeab740394c04f6c8e4a602e1d512bd4e1b3c9",
+    "literature_pure_tail_next_reduce.py": "fbbb3ca491f60dd4ae5d6b7b4a80546f4c8f27d5a42a053384152c4db7552b7a"
   },
-  "states": [
-    {
-      "H": "1",
-      "d": "0"
-    },
-    {
-      "H": "1",
-      "d": "1"
-    }
-  ],
-  "positive_complete_frame_weights": [
-    "1",
-    "1"
-  ],
-  "same_global_profile_and_anchor": true,
-  "fresh_original_dependencies_before_true_dimension_upper_bound": true,
-  "positive_only_after_original_both_mode_identity": true,
-  "negative_only_after_full_rank_and_nonzero_augmented_minor": true,
-  "max_seconds": 480,
-  "memory_polling_mib": 2048,
+  "metric_epigraph": {
+    "start_physical_sha256": "81a154d3464fd329bd384572fbf9f067c93a9e588f454c909f9e1ba239905433",
+    "six_complete_inputs_replayed": true,
+    "old_optimizer_reruns": 0,
+    "auxiliary_delta_not_physical": true,
+    "delta_min": "1/100000000",
+    "objective": "min delta with independent true eta gate",
+    "new_hard_ball": "101/100",
+    "new_hard_strip": "39/100",
+    "minimum_signed_height": "1/10000",
+    "same_g_and_b0_and_cap_row_and_original_boxes": true,
+    "check_only_then_single_actual_in_same_job": true,
+    "maxiter": 80,
+    "max_physical_evaluations": 120,
+    "max_seconds": 300
+  },
+  "tail": {
+    "source_run": 43635287277,
+    "order": 25,
+    "forcing_recompiled": false,
+    "true_auxiliary_primitive": "J_s=K*e/4, J(0)=0; full M=0 proves J(L)=0",
+    "highest_histories_removed_by_declared_zero_endpoint_potentials": true,
+    "all_geometric_coefficients_retained": true,
+    "no_sign_claim": true,
+    "max_seconds": 240
+  },
   "task_complete": false
 }
