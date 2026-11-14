@@ -1,0 +1,75 @@
+{
+  "original_run_id": 43609037484,
+  "actual_original_process_sha256": "b764d91ef2aa45f02c10b5f66802ee0f1965f1a748b1997d8da72e27db92a56c",
+  "original_native_sha256": "9f8ed802456a6098e2b7ba03cb1f31f7dbcec62be426bd3d7c3d4ee0f14d42a4",
+  "original_failure": {
+    "type": "ValueError",
+    "message": "known cut-direction cap pilot failed: all_original257_states97_columns_and_exact_shared_endpoints_retained"
+  },
+  "original_gates": [
+    {
+      "name": "exact_original_complete_cap_cut_boundary_and_Hessian_native_identities",
+      "passed": true
+    },
+    {
+      "name": "all_three_original_mathematical_processes_actually_succeeded",
+      "passed": true
+    },
+    {
+      "name": "same_complete_M32_repair_true_input_basis_and_physical_parameter_box",
+      "passed": true
+    },
+    {
+      "name": "same_actual_full_known_even_cut_trace_and_independent_mean",
+      "passed": true
+    },
+    {
+      "name": "same_Hessian_bridge_and_true_cut_rows_without_any_deleted_high_output",
+      "passed": true
+    },
+    {
+      "name": "every_original_full_matrix_and_one_sided_derivative_byte_is_reused",
+      "passed": true
+    },
+    {
+      "name": "all_original257_states97_columns_and_exact_shared_endpoints_retained",
+      "passed": false
+    }
+  ],
+  "original_completed_new_one_column_cells": 0,
+  "original_v1_zero_cell_failure": {
+    "original_run_id": 43607861742,
+    "actual_original_process_sha256": "5d7d91887a30b1101031d7294f540a49832b71976594b8a705d434dfc0a6633a",
+    "original_native_sha256": "3102485dba9c6f30970bb5e06357d2589d334d7d7a98ed20ad533840d38e7bda",
+    "original_failure": {
+      "type": "ValueError",
+      "message": "known cut-direction cap pilot failed: same_actual_full_known_even_cut_trace_and_independent_mean"
+    },
+    "original_gates": [
+      {
+        "name": "exact_original_complete_cap_cut_boundary_and_Hessian_native_identities",
+        "passed": true
+      },
+      {
+        "name": "all_three_original_mathematical_processes_actually_succeeded",
+        "passed": true
+      },
+      {
+        "name": "same_complete_M32_repair_true_input_basis_and_physical_parameter_box",
+        "passed": true
+      },
+      {
+        "name": "same_actual_full_known_even_cut_trace_and_independent_mean",
+        "passed": false
+      }
+    ],
+    "original_completed_new_one_column_cells": 0,
+    "old_sources_and_failure_unchanged": true,
+    "corrected_field_name": "actual_cap_cut_native_sha256",
+    "correction_changes_no_mathematical_formula_or_input_native": true
+  },
+  "old_sources_and_failures_unchanged": true,
+  "original_dyadic_first_node_distinguished_from_exact_rational_cut": true,
+  "original_first_cell_Hermite_extension_and_true_inlet_evaluation_restored": true,
+  "original_arrays_and_mathematical_input_objects_unchanged": true
+}

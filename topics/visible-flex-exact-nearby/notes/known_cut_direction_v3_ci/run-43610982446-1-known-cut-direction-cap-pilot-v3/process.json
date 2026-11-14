@@ -1,0 +1,204 @@
+{
+  "kind": "actual_public_known_cut_direction_cap_mixed_source_pilot_process_v3",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43610982446",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "5e29e639fafb283b9c554d724d4beecc3abebafe",
+  "worker_source_sha256": "ccf1b8d76eb68ce2731538b87e6f90f627d2633d1dc469272176743ba422d4d0",
+  "started_utc": "2026-11-14T15:36:18.063359+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T15:36:19.184298+00:00",
+      "before": "5e29e639fafb283b9c554d724d4beecc3abebafe",
+      "after": "bc0768a3c14e5de84a27124b9391d9ebcbacf20c",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T15:36:20.510423+00:00",
+      "before": "bc0768a3c14e5de84a27124b9391d9ebcbacf20c",
+      "after": "bc0768a3c14e5de84a27124b9391d9ebcbacf20c",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_prepared_cap_run": 43580498603,
+  "original_complete_cap_run": 43583838015,
+  "original_complete_cap_cut_run": 43587619797,
+  "original_complete_known_boundary_source_run": 43599771405,
+  "original_large_matrix_reconstructions_executed": 0,
+  "old_complete_matrix_residual_cells_recomputed": 0,
+  "original_1977_operator_certificate_unchanged": true,
+  "only_actual_known_source_direction_improved_if_new_enclosures_allow": true,
+  "full_boundary_operator_improvement_claimed": false,
+  "complete_finite193_response_error_proved": false,
+  "complete_infinite_inverse_proved": false,
+  "input_manifest_sha256": "fb0971a3d5e471c7c8d13d009c7dd23b109e3c88e6875f3236373cd79e329f5a",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "bc0768a3c14e5de84a27124b9391d9ebcbacf20c",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-known-cut-direction-work/science",
+  "original_v2_actual_zero_cell_failure": {
+    "original_run_id": 43609037484,
+    "actual_original_process_sha256": "b764d91ef2aa45f02c10b5f66802ee0f1965f1a748b1997d8da72e27db92a56c",
+    "original_native_sha256": "9f8ed802456a6098e2b7ba03cb1f31f7dbcec62be426bd3d7c3d4ee0f14d42a4",
+    "original_failure": {
+      "type": "ValueError",
+      "message": "known cut-direction cap pilot failed: all_original257_states97_columns_and_exact_shared_endpoints_retained"
+    },
+    "original_gates": [
+      {
+        "name": "exact_original_complete_cap_cut_boundary_and_Hessian_native_identities",
+        "passed": true
+      },
+      {
+        "name": "all_three_original_mathematical_processes_actually_succeeded",
+        "passed": true
+      },
+      {
+        "name": "same_complete_M32_repair_true_input_basis_and_physical_parameter_box",
+        "passed": true
+      },
+      {
+        "name": "same_actual_full_known_even_cut_trace_and_independent_mean",
+        "passed": true
+      },
+      {
+        "name": "same_Hessian_bridge_and_true_cut_rows_without_any_deleted_high_output",
+        "passed": true
+      },
+      {
+        "name": "every_original_full_matrix_and_one_sided_derivative_byte_is_reused",
+        "passed": true
+      },
+      {
+        "name": "all_original257_states97_columns_and_exact_shared_endpoints_retained",
+        "passed": false
+      }
+    ],
+    "original_completed_new_one_column_cells": 0,
+    "original_v1_zero_cell_failure": {
+      "original_run_id": 43607861742,
+      "actual_original_process_sha256": "5d7d91887a30b1101031d7294f540a49832b71976594b8a705d434dfc0a6633a",
+      "original_native_sha256": "3102485dba9c6f30970bb5e06357d2589d334d7d7a98ed20ad533840d38e7bda",
+      "original_failure": {
+        "type": "ValueError",
+        "message": "known cut-direction cap pilot failed: same_actual_full_known_even_cut_trace_and_independent_mean"
+      },
+      "original_gates": [
+        {
+          "name": "exact_original_complete_cap_cut_boundary_and_Hessian_native_identities",
+          "passed": true
+        },
+        {
+          "name": "all_three_original_mathematical_processes_actually_succeeded",
+          "passed": true
+        },
+        {
+          "name": "same_complete_M32_repair_true_input_basis_and_physical_parameter_box",
+          "passed": true
+        },
+        {
+          "name": "same_actual_full_known_even_cut_trace_and_independent_mean",
+          "passed": false
+        }
+      ],
+      "original_completed_new_one_column_cells": 0,
+      "old_sources_and_failure_unchanged": true,
+      "corrected_field_name": "actual_cap_cut_native_sha256",
+      "correction_changes_no_mathematical_formula_or_input_native": true
+    },
+    "old_sources_and_failures_unchanged": true,
+    "original_dyadic_first_node_distinguished_from_exact_rational_cut": true,
+    "original_first_cell_Hermite_extension_and_true_inlet_evaluation_restored": true,
+    "original_arrays_and_mathematical_input_objects_unchanged": true
+  },
+  "original_prepared_bundle_sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70",
+  "all_original_large_array_bytes_verified": true,
+  "large_matrix_reconstructions_executed": 0,
+  "actual_scientific_input_sha256": {
+    "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "proposal": "b9819522aceed06b73628d84b8bb80dbcc5b734971c6b3c20544e9876c23d78a",
+    "object": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+    "inlet": "119dedb2e62f23553b81dea9eb787d8298c1224eebc2cc38790ec50274df0ca7",
+    "q-vector": "8f2471f709d5350212c3bb12a2e180fef37cbd8ced72e7ed858d6687b5fa36d9",
+    "q-native": "2f2469091ae6893b56f869fc7753ed015cf9d7ebf2171ccd8c5a580dd770d4d2",
+    "hessian": "cf055cac05569701ebcb0df95fb064c94cec8c18bb28121292a3836b3862be26",
+    "cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba",
+    "cap": "69f55939742b26988690e54b7f5636eb591a351063b93187feeb38c1f6611ebe",
+    "cap-process": "b4cc859b9a1987da485cb4d7bc76aab00c2f009d9552bccbd1916d4a9d37f5fd",
+    "cap-cut": "36f498e3b0addbb46290c12fae6b63af7673db20ba230e22dd83809d18427104",
+    "cap-cut-process": "aa43c90bd4b2d8fe3a820fba7d0cf5e40d67d2952248cf0c33ebe0ec0c76bd7e",
+    "boundary": "b1adeea522b31efa2fc83a6436bc3fe52dbd04630c17d5436927b5872b05e263",
+    "boundary-process": "d81f87fb08dde8d1a8501cf4ac2dc71b71f08c542fc39870c0ac8cb0f13f57c7"
+  },
+  "requested_new_one_column_cells": 16,
+  "snapshot_utc": "2026-11-14T15:36:20.538795+00:00",
+  "wall_seconds": 2.476103135999992,
+  "native_files": [
+    {
+      "logical_file": "evidence/original-boundary-artifact-process.json",
+      "file": "evidence/original-boundary-artifact-process.json",
+      "bytes": 12587,
+      "sha256": "d81f87fb08dde8d1a8501cf4ac2dc71b71f08c542fc39870c0ac8cb0f13f57c7"
+    },
+    {
+      "logical_file": "evidence/original-cap-artifact-process.json",
+      "file": "evidence/original-cap-artifact-process.json",
+      "bytes": 15346,
+      "sha256": "b4cc859b9a1987da485cb4d7bc76aab00c2f009d9552bccbd1916d4a9d37f5fd"
+    },
+    {
+      "logical_file": "evidence/original-cap-cut-artifact-process.json",
+      "file": "evidence/original-cap-cut-artifact-process.json",
+      "bytes": 5671,
+      "sha256": "aa43c90bd4b2d8fe3a820fba7d0cf5e40d67d2952248cf0c33ebe0ec0c76bd7e"
+    },
+    {
+      "logical_file": "evidence/original-prepared-manifest.json",
+      "file": "evidence/original-prepared-manifest.json",
+      "bytes": 2998,
+      "sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70"
+    },
+    {
+      "logical_file": "evidence/original-v2-failed-artifact-process.json",
+      "file": "evidence/original-v2-failed-artifact-process.json",
+      "bytes": 11691,
+      "sha256": "b764d91ef2aa45f02c10b5f66802ee0f1965f1a748b1997d8da72e27db92a56c"
+    },
+    {
+      "logical_file": "evidence/original-v2-zero-cell-failure-receipt.json",
+      "file": "evidence/original-v2-zero-cell-failure-receipt.json",
+      "bytes": 2802,
+      "sha256": "dcbb875560ee003dc1fc4c7dbc8cdd4e2271eb0fcbebef7c789d5c1d21deb77b"
+    }
+  ]
+}
