@@ -227,3 +227,8 @@ run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布
 ## 2026-11-14 22:58:26 UTC：65初次SHA抄录失败，立即唯一字节修复重调
 
 [完整失败与重调范围](notes/2026-11-14-actual65-input-digest-typo-and-exact-retry.md)。run43650386882前置全通过，analyze 0.186秒在原binding FILE_PINS核前止；未执行原evaluate/J/QR或新科学。一个SHA漏a而仅63hex，真实原ZIP未变。source10ae→5033全文仅增该一个字节；12个原pin完整SHA核全同，原方法/门不变。partial artifact14135389448/36445B/080b7627已实际下载保全，request65 revision2换唯一source pin和前次失败来源后立即触发。
+
+
+## 2026-11-14 22:59:51 UTC：actual64全部导出原数组读取完成
+
+[完整读取附记](notes/2026-11-14-actual64-complete-original-byte-readback.md)绑定实际run43649956424/source291303c4、原summary47420B/26d38ca6；171domain/1108NPY、93condensed/38arrays/42refs、14raw276059680B/56source全PASS，父子与新FD producer完整保。详细650299B/a46c5bf8只artifact，未导出完整factor不冒独审。root亲读原摘要，receipt ZIP731233B仅API tuple而未重复下载；原scienceZIP此前实际完整核。没有本地数学或额外科学门。
