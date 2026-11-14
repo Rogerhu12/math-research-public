@@ -1,11 +1,11 @@
 {
-  "request": 66,
-  "requested_at": "2026-11-14T22:59:02Z",
+  "request": 67,
+  "requested_at": "2026-11-14T23:13:52.260979+00:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "condensedqp"
   ],
-  "purpose": "Continue the exact actual64 saved warm/status pair with one complete twenty-query model. Add only original collocation midpoint485 on its full2048-angle grid, retain all nineteen previous grids and every original complete-H, lambda270, budget, trial and FD condition. Declare continuous local nodes467..486+p6763 with explicit zero B node484 columns; the original complete H keeps all484 couplings. Actual64 farther alpha1/8 had valid nodes/midpoints but increasing actual merit, so this added grid does not claim to explain every rejection or guarantee a larger step.",
+  "purpose": "Single fixed lambda27 comparison with actual request66: the identical actual64 warm/status pair and all twenty typed grids, full6763 continuous layout, complete original A/b/g/W/S and complete B. Rebuild the original C, full QR, local root and conditional recovery at27. Preserve all original budgets,512 working rows,200 sweeps,17 nonlinear trials,domain/RMS/merit gates and a fresh original warm FD. This is one algorithmic test, not a damping scan or a guarantee of row or nonlinear improvement.",
   "source_sha256": {
     "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
     "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
@@ -24,7 +24,7 @@
     "geometry_20261114_sixteen_query_condensed_warm.py": "b5bfc20259b2d182ac881cf9dab7062912578fb489ef17940c259082bf184815",
     "geometry_20261114_sixteen_query_condensed_response.py": "9f0717bde76c7c29d86f05d3d9710bf7f1668e538ee32f99bc4167e5b731c025",
     "geometry_20261114_sixteen_query_collocation_observer_warm.py": "3f9df52b6d7dc2b721c91f7c97e28421283043b35f833d1151ef408e2ce9d05e",
-    "root_20261114_publish_actions.py": "5cc3de2699c3585961c86a37d718011c1d5d0829047e9eb7eec620e65c6c86f1",
+    "root_20261114_publish_actions.py": "dc4d9688ce1dcfdb03dda05f407be86ce24ff874b5c20bb1b07ed1a77d452b01",
     "geometry_20261114_seventeen_query_domain_operator.py": "5bb4f214d4d2505185448a9162c0d995bdb6c37168e6d9542dfe6202e8f21a41",
     "geometry_20261114_seventeen_query_condensed_warm.py": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b",
     "geometry_20261114_seventeen_query_condensed_response.py": "f85fefd928e5ff7945e10082419e197b1b8c5cf3c4d00c1cdcd270380470bbbb",
@@ -41,7 +41,10 @@
     "geometry_20261114_twenty_query_domain_operator.py": "16157412cbb4af0d01ade0cb3e373413fda175059186ccf17ef3b1d727d27ce1",
     "geometry_20261114_twenty_query_condensed_warm.py": "9d750fcba45624f23dbae19ca44fded0437f1f5dc15943879cbf046064fe22ee",
     "geometry_20261114_twenty_query_condensed_response.py": "6890d58c28ea697bf025de85f0d276e351041ea8928afdb325d1162dadcece17",
-    "geometry_20261114_twenty_query_collocation_observer_warm.py": "4b2c875a58c9dfb43581922bfec983188c763b2014fc438cc918b178a50d6a05"
+    "geometry_20261114_twenty_query_collocation_observer_warm.py": "4b2c875a58c9dfb43581922bfec983188c763b2014fc438cc918b178a50d6a05",
+    "geometry_20261114_twenty_query_lambda27_condensed_warm.py": "c425a9576b49e6d97325769470e5fbd1c635248024372fe0c5aac3a9befd3ef5",
+    "geometry_20261114_twenty_query_lambda27_condensed_response.py": "8416bcb6ed57f1c2042032e22d1e637ed40fac0fbf0d676a6009b91f5535d9d9",
+    "geometry_20261114_twenty_query_lambda27_collocation_observer_warm.py": "798fafd5fe2163151674a500719d10c5574b9d0c8948701d79a45145faab22ea"
   },
   "actual_parent_run": 43648987661,
   "actual_parent_warm_sha256": "3b25ea84dfababece99e1dc098d56cdcebd94737e428e509140e818d48e8eb1e",
@@ -68,8 +71,8 @@
   "complete_B_support_expanded": true,
   "original_left_RMS482_retained": true,
   "new_queries_added": true,
-  "source_entry": "geometry_20261114_twenty_query_collocation_observer_warm.py",
-  "mathematical_producer": "geometry_20261114_twenty_query_condensed_warm.py",
+  "source_entry": "geometry_20261114_twenty_query_lambda27_collocation_observer_warm.py",
+  "mathematical_producer": "geometry_20261114_twenty_query_lambda27_condensed_warm.py",
   "observer_read_only": true,
   "extra_RHS_Jacobian_or_trial_calls": 0,
   "original_midpoint481_retained": true,
@@ -161,8 +164,8 @@
     482
   ],
   "actual_parent_warm_bytes": 4809173,
-  "optimizer_schema": "exact-constraint-twenty-query-condensed-complete-H-warm-v1",
-  "current_entry_supports_own_schema_resume": true,
+  "optimizer_schema": "exact-constraint-twenty-query-lambda27-condensed-complete-H-warm-v1",
+  "current_entry_supports_own_schema_resume": false,
   "added_query": {
     "kind": "collocation-midpoint",
     "interval": 485,
@@ -236,5 +239,44 @@
   "previous_nineteen_queries_retained": true,
   "actual64_original_status_bytes": 1798797,
   "actual64_primary_identity_readback_sha256": "05a26a387a36136928e3d343e0a8e3b5ad2304e6da895952d42033a09fee6e85",
-  "actual64_original_numeric_readout_sha256": "f9be0a6b116c81edb60551a53ee7c0ef7958bba309d7e14629185be6f0a75d6e"
+  "actual64_original_numeric_readout_sha256": "f9be0a6b116c81edb60551a53ee7c0ef7958bba309d7e14629185be6f0a75d6e",
+  "algorithm_damping": 27.0,
+  "origin_algorithm_damping": 270.0,
+  "explicitly_changed_parameter": "algorithmic damping only; no scientific equation or acceptance tolerance",
+  "no_damping_scan": true,
+  "all_20_domain_queries_retained": true,
+  "queries_changed_relative_to_reference66": false,
+  "B_support_changed_relative_to_reference66": false,
+  "fixed_original64_parent_only": true,
+  "original_midpoint485_retained": true,
+  "same_scientific_base_reference": {
+    "request": 66,
+    "run_id": 43651436427,
+    "source_commit": "cf3a8ff94fae3f7009f85047c69db3aeb8eb320a",
+    "parent_warm_sha256": "3b25ea84dfababece99e1dc098d56cdcebd94737e428e509140e818d48e8eb1e",
+    "parent_status_sha256": "037fb9eeaeb196f74976188efb9515736396f2c86a44fde4e93251e92ca01466",
+    "scientific_A_b_g_W_S_B_values_to_be_compared_from_actual_outputs": true,
+    "source_provenance_hashes_not_claimed_identical": true,
+    "cross_run_comparison_not_a_new_acceptance_gate": true
+  },
+  "diagnostic_motivation": {
+    "request": 65,
+    "run_id": 43650856568,
+    "source_commit": "8f79c33c697e18525ac9fffd7fab592f20f10df8",
+    "fixed_original_model_was_actual63_not_this_base": true,
+    "focus_row": 155819,
+    "center_A_action": 0.0002574718640432405,
+    "local_force_A_action": -4.307106562151738e-11,
+    "center_violated_B_rows": 2802,
+    "all_B_retained": true,
+    "unique_damping_cause_not_proved": true
+  },
+  "new_lambda_C_QR_local_root_rebuilt": true,
+  "old_lambda270_factors_reused": false,
+  "retained_latest_query": {
+    "kind": "collocation-midpoint",
+    "interval": 485,
+    "fraction": 0.5
+  },
+  "query_comparison_scope": "The nearest-rejection history belongs to actual64 and justified the preceding request66 grid. Request67 keeps that entire20 grid unchanged."
 }

@@ -1,0 +1,100 @@
+{
+  "schema": "same-model-single-damping-source-transform-v1",
+  "original_twenty_source_sha256": "9d750fcba45624f23dbae19ca44fded0437f1f5dc15943879cbf046064fe22ee",
+  "original_engine_source_sha256": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+  "twenty_functions": [
+    {
+      "function": "equal",
+      "original_sha256": "c1a7f961a6d0f7818effc25dafdb68267975122fbba442e63be08cc63828fc8b",
+      "adapted_sha256": "c1a7f961a6d0f7818effc25dafdb68267975122fbba442e63be08cc63828fc8b",
+      "complete_original_body_preserved_except_listed_current_metadata": false,
+      "body_byte_identical": true,
+      "reversible_edits": []
+    },
+    {
+      "function": "guard",
+      "original_sha256": "774f01be597bc996d234502dd84028d2a08a64a5df988b9bf4576ad36bd7a5b5",
+      "adapted_sha256": "774f01be597bc996d234502dd84028d2a08a64a5df988b9bf4576ad36bd7a5b5",
+      "complete_original_body_preserved_except_listed_current_metadata": false,
+      "body_byte_identical": true,
+      "reversible_edits": []
+    },
+    {
+      "function": "scalar_or_none",
+      "original_sha256": "0d04e65e3f0fe7e650ba84535748f2fada6378c8fd058c50b09822ec2ca4c18d",
+      "adapted_sha256": "0d04e65e3f0fe7e650ba84535748f2fada6378c8fd058c50b09822ec2ca4c18d",
+      "complete_original_body_preserved_except_listed_current_metadata": false,
+      "body_byte_identical": true,
+      "reversible_edits": []
+    },
+    {
+      "function": "evidence",
+      "original_sha256": "3e65930231c792d93c8a79bf24a978212c0d91f5e50200e56030fb6ca20ba296",
+      "adapted_sha256": "3e65930231c792d93c8a79bf24a978212c0d91f5e50200e56030fb6ca20ba296",
+      "complete_original_body_preserved_except_listed_current_metadata": false,
+      "body_byte_identical": true,
+      "reversible_edits": []
+    },
+    {
+      "function": "compact_metadata",
+      "original_sha256": "63a6427601f7b34a5d66a11727068e1f03ea10792c250e3e54846e5d7ae17474",
+      "adapted_sha256": "63a6427601f7b34a5d66a11727068e1f03ea10792c250e3e54846e5d7ae17474",
+      "complete_original_body_preserved_except_listed_current_metadata": false,
+      "body_byte_identical": true,
+      "reversible_edits": []
+    },
+    {
+      "function": "_run_engine",
+      "original_sha256": "4baed8e849889582ed2db998d8d0e67d442da99496cce977746ac6a6d72ae903",
+      "adapted_sha256": "90c06c491a6bdb2a78592ea39e7da2d390146e6772614030226c1e0a1c327e79",
+      "complete_original_body_preserved_except_listed_current_metadata": true,
+      "body_byte_identical": false,
+      "reversible_edits": [
+        {
+          "before": "original_lambda_LSMR_projection_and_seventeen_trials_unchanged=True,",
+          "after": "original_LSMR_projection_and_seventeen_trials_unchanged=True,\n        damping_changed_explicitly=True,\n        single_damping_experiment=SINGLE_DAMPING_CONTRACT,"
+        }
+      ]
+    },
+    {
+      "function": "main",
+      "original_sha256": "631b77738929afc6b76ad4a0b45ffd9f9bed054e1fcb4accd54d0edf178e812d",
+      "adapted_sha256": "c6d9ac3bd33db611cba28759a16659196fe8d6f4eeb2422b998339c4b86c2e17",
+      "complete_original_body_preserved_except_listed_current_metadata": true,
+      "body_byte_identical": false,
+      "reversible_edits": [
+        {
+          "before": "original_lambda_and_row_and_chart_weights_unchanged=True,",
+          "after": "original_row_and_chart_weights_unchanged=True,\n        damping_changed_explicitly=True,\n        single_damping_experiment=SINGLE_DAMPING_CONTRACT,"
+        }
+      ]
+    }
+  ],
+  "original_engine_main_sha256": "42e7387dcc9e7ca04a94e444542f093e27f898bccd8b67e8125dd7364dc83fb9",
+  "adapted_engine_main_sha256": "1cfd9d055e2517317600a27e231c374ec0ae2a44f9207efda8250d19c72cd57a",
+  "engine_edits": [
+    {
+      "before": "parser.add_argument(\"--damping\", type=float, default=270.)",
+      "after": "parser.add_argument(\"--damping\", type=float, default=27.)"
+    },
+    {
+      "before": "args.damping != 270.",
+      "after": "args.damping != 27."
+    },
+    {
+      "before": "Use the declared one-model lambda270/full-angle experiment and original trial bounds",
+      "after": "Use the declared one-model lambda27/full-angle experiment and original trial bounds"
+    },
+    {
+      "before": "Same complete ||A z+b||^2+lambda^2||z||^2, lambda270",
+      "after": "Same complete ||A z+b||^2+lambda^2||z||^2, explicit lambda27; prior lambda270 experiment"
+    }
+  ],
+  "original_function_source_recovered_exactly_by_declared_inverse": true,
+  "old_twenty_module_globals_or_source_file_mutated": false,
+  "temporary_engine_main_assignment_restored_in_finally": true,
+  "original_main_all_other_statements_byte_identical": true,
+  "no_complete_matrix_or_direction_computed_by_source_adapter": true,
+  "validation_scope": "Only source text/AST and reversible edits; no scientific modules imported or any extracted scientific function called",
+  "new_entry_sha256": "c425a9576b49e6d97325769470e5fbd1c635248024372fe0c5aac3a9befd3ef5"
+}

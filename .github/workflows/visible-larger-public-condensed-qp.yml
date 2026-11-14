@@ -141,12 +141,15 @@ jobs:
               'geometry_20261114_twenty_query_condensed_warm.py',
               'geometry_20261114_twenty_query_condensed_response.py',
               'geometry_20261114_twenty_query_collocation_observer_warm.py',
+              'geometry_20261114_twenty_query_lambda27_condensed_warm.py',
+              'geometry_20261114_twenty_query_lambda27_condensed_response.py',
+              'geometry_20261114_twenty_query_lambda27_collocation_observer_warm.py',
               'exact_20261114_public_resume.py',
               'root_20261114_publish_actions.py',
           }
           pins = request.get('source_sha256')
           if not isinstance(pins, dict) or not required.issubset(pins):
-              raise ValueError('The request must pin the unchanged ancestors, new20 entry and separate read-only observer')
+              raise ValueError('The request must pin the unchanged ancestors, unchanged20 origin plus independent lambda27 entry and read-only observer')
           verified = []
           for name, digest in pins.items():
               if Path(name).name != name or not isinstance(digest, str) or not re.fullmatch(r'[0-9a-f]{64}', digest):
@@ -202,7 +205,10 @@ jobs:
             "$VISIBLE_COMPUTATIONS/geometry_20261114_twenty_query_domain_operator.py" \
             "$VISIBLE_COMPUTATIONS/geometry_20261114_twenty_query_condensed_warm.py" \
             "$VISIBLE_COMPUTATIONS/geometry_20261114_twenty_query_condensed_response.py" \
-            "$VISIBLE_COMPUTATIONS/geometry_20261114_twenty_query_collocation_observer_warm.py"
+            "$VISIBLE_COMPUTATIONS/geometry_20261114_twenty_query_collocation_observer_warm.py" \
+            "$VISIBLE_COMPUTATIONS/geometry_20261114_twenty_query_lambda27_condensed_warm.py" \
+            "$VISIBLE_COMPUTATIONS/geometry_20261114_twenty_query_lambda27_condensed_response.py" \
+            "$VISIBLE_COMPUTATIONS/geometry_20261114_twenty_query_lambda27_collocation_observer_warm.py"
       - name: Restore all78 consumed pinned source files from the public repository
         run: |
           PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE'
@@ -283,11 +289,11 @@ jobs:
           with open(os.environ['GITHUB_ENV'], 'a') as stream:
               stream.write('VISIBLE_PARENT64='+str(out)+'\n')
           PYPARENT64
-      - name: Add only original midpoint485 with continuous local layout to one complete20query model at actual64
+      - name: Compare one lambda27 complete20query model at the identical actual64 base
         if: matrix.lane == 'condensedqp'
         timeout-minutes: 35
         run: |
-          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_twenty_query_collocation_observer_warm.py" \
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_twenty_query_lambda27_collocation_observer_warm.py" \
             --accepted "$VISIBLE_ACCEPTED" \
             --prepared "$VISIBLE_OUT/preparation112/prepared.json.gz" \
             --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
@@ -296,8 +302,8 @@ jobs:
             --expected-resume-sha 3b25ea84dfababece99e1dc098d56cdcebd94737e428e509140e818d48e8eb1e \
             --parent-status "$VISIBLE_PARENT64/driver-status.json" \
             --expected-parent-status-sha 037fb9eeaeb196f74976188efb9515736396f2c86a44fde4e93251e92ca01466 \
-            --out "$VISIBLE_OUT/twenty-condensed-warm" \
-            --iterations 1 --damping 270 --lsmr-iterations 200 \
+            --out "$VISIBLE_OUT/twenty-lambda27-condensed-warm" \
+            --iterations 1 --damping 27 --lsmr-iterations 200 \
             --projection-sweeps 200 --line-search-steps 17 \
             --budget-seconds 1200 --angles 4096 --jac-workers 2 \
             --condensed-budget-seconds 600 --condensed-trial-reserve-seconds 90 \
@@ -306,9 +312,9 @@ jobs:
           python - <<'PYWARM'
           import hashlib, json, os
           from pathlib import Path
-          directory = Path(os.environ['VISIBLE_OUT'])/'twenty-condensed-warm'
+          directory = Path(os.environ['VISIBLE_OUT'])/'twenty-lambda27-condensed-warm'
           status = json.loads((directory/'driver-status.json').read_text())
-          if status.get('schema') != 'exact-constraint-twenty-query-condensed-complete-H-warm-v1':
+          if status.get('schema') != 'exact-constraint-twenty-query-lambda27-condensed-complete-H-warm-v1':
               raise ValueError('Keep the actual independent condensed warm producer schema')
           if not status.get('optimization_progress') or status.get('accepted_warm_steps') != 1:
               raise ValueError('One actual decreased complete original warm is required')
@@ -325,7 +331,7 @@ jobs:
         if: matrix.lane == 'condensedqp'
         timeout-minutes: 25
         run: |
-          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_twenty_query_condensed_response.py" \
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_twenty_query_lambda27_condensed_response.py" \
             --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_CONDENSED_WARM" \
             --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
             --tail-config "$VISIBLE_OUT/T112-config.json" \
