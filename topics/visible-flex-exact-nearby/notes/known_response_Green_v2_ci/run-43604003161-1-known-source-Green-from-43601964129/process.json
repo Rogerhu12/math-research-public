@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_cached_complete_finite193_Green_known_source_process_v2",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43604003161",
   "run_attempt": "1",
@@ -62,6 +62,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T14:17:44.928433+00:00",
+      "before": "cface6556de70d522b09c32ead0ccd881e57404e",
+      "after": "6fb35a47f7461e1bde88f5123f62f288d5ebd3b5",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -69,6 +77,11 @@
       "time": "2026-11-14T14:17:20.342582+00:00",
       "final": false,
       "commit": "bf9752295bcd50fe77f18cd15811a06253bd10bc"
+    },
+    {
+      "time": "2026-11-14T14:17:44.313675+00:00",
+      "final": false,
+      "commit": "6fb35a47f7461e1bde88f5123f62f288d5ebd3b5"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -92,7 +105,7 @@
   "original_four_source_columns_recomputed": 0,
   "original_mean_flows_recomputed": 0,
   "original_cap_matrix_or_cap_trial_residual_recomputed": 0,
-  "complete_finite193_compressed_response_error_bound_proved": false,
+  "complete_finite193_compressed_response_error_bound_proved": true,
   "actual_full_PDE_response_error_proved": false,
   "complete_infinite_BVP_inverse_proved": false,
   "true_parameter_Schur_proved": false,
@@ -109,7 +122,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "cface6556de70d522b09c32ead0ccd881e57404e",
+  "last_read_commit": "6fb35a47f7461e1bde88f5123f62f288d5ebd3b5",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-known-Green-v2-work/science",
   "actual_input_sha256": {
     "green": "fd6c1f4baa4ec86aab08d4925a0ec9565c3791cbe470b77c2e41549d8f071de6",
@@ -120,9 +133,15 @@
     "boundary-process": "d81f87fb08dde8d1a8501cf4ac2dc71b71f08c542fc39870c0ac8cb0f13f57c7"
   },
   "all_original_completed_source_and_Green_outcomes_verified": true,
-  "snapshot_utc": "2026-11-14T14:17:41.842653+00:00",
-  "wall_seconds": 23.96971236600001,
+  "snapshot_utc": "2026-11-14T14:17:45.363171+00:00",
+  "wall_seconds": 27.490229051,
   "native_files": [
+    {
+      "logical_file": "evidence/complete-known-source-Green-summary.json",
+      "file": "evidence/complete-known-source-Green-summary.json",
+      "bytes": 13144,
+      "sha256": "3173ad3c340e39a1bf15d3544768743e5f69dcf4d0eb6587bf298c40489e0599"
+    },
     {
       "logical_file": "evidence/original-boundary-process.json",
       "file": "evidence/original-boundary-process.json",
@@ -148,5 +167,29 @@
       "sha256": "c35abd69018e7ab5a9fc4b7f5bcc32d5dae4ba5078520fba728376602019cc89",
       "parts": 4
     }
-  ]
+  ],
+  "actual_new_source_consumer_executed": true,
+  "actual_successful_identical_source_consumer_reused": false,
+  "original_successful_known_source_run": "43604003161",
+  "complete_native_sha256": "c35abd69018e7ab5a9fc4b7f5bcc32d5dae4ba5078520fba728376602019cc89",
+  "actual_public_known_source_Green_gates": 10,
+  "complete_distributed_known_source_L2_bounds": {
+    "whole_inner_body": {
+      "ball": "[3.1411347699887353523259312787680363692461682623838218694735753262913872206146971 +/- 1.12e-80]",
+      "lower": "[3.1411347699887353523259312787680363692461682623838218694735753262913872206146971 +/- 1.12e-80]",
+      "upper": "[3.1411347699887353523259312787680363692461682623838218694735753262913872206146971 +/- 1.12e-80]"
+    },
+    "fixed_negative_phase_window": {
+      "ball": "[1.4717672953544624202710326269015842303753103033030111013516481840847778478871873 +/- 1.57e-81]",
+      "lower": "[1.4717672953544624202710326269015842303753103033030111013516481840847778478871873 +/- 1.57e-81]",
+      "upper": "[1.4717672953544624202710326269015842303753103033030111013516481840847778478871873 +/- 1.57e-81]"
+    }
+  },
+  "separate_known_full_high_cut_output": {
+    "ball": "[0.00019500165077855134694002832727098313789237897089933367448742778703086348648772225 +/- 3.38e-84]",
+    "lower": "[0.00019500165077855134694002832727098313789237897089933367448742778703086348648772225 +/- 3.38e-84]",
+    "upper": "[0.00019500165077855134694002832727098313789237897089933367448742778703086348648772225 +/- 3.38e-84]"
+  },
+  "full_high_input_feedback_and_high_response_still_required": true,
+  "finished_utc": "2026-11-14T14:17:44.598263+00:00"
 }
