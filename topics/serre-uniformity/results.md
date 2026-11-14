@@ -145,3 +145,6 @@
 
 
 - **R729（已证明）**：[原完整 Abel 的全充分大非消失与有效赋值界](results/R729-uniform-full-Abel-nonvanishing-and-valuation-bound.md)。原 weight5/7 的 full/primitive 四均值均趋于 $\pi/\sqrt3$；有限 CM 和的原 Galois 传递给指定 $M_2\ne0$。由原整分母/全复嵌入范数得 $5+2v_p(M_2)<g(9+115\log2/\log p)$，大 $p$ 时 $\le5g-3$；无 $C_p$ 单位假设的完整 Tate 级数给深度 $5g+2$ 盘的等距。结合 R726 固定共同阶 $m=1$，仍未排原高度或整个候选 $p^4$ 盘。
+
+
+- **R727（已证明）**：[其他本原嵌入的原 toric norm 与完整 M2 判据](results/R727-other-primitive-embeddings-toric-norm-and-original-M2.md)。原 split 向量和 CM torus 同时运输，给 $N_h\equiv-P_{h-1}(1/\sqrt{-3})^2$；原两个完整 Fourier 尾给 $N_h,C_{h-2},C_{p-h-2}$ 单位时 $v_p(M_{2,h})=-2$。一般 Bruhat 一次 $p$ 损失及有理 Abel 直线闭合无限尾，整个 $v_p(a-1)>3$ 仅中心。$h=7$ 有 $N_7\equiv-(47/9)^2$；实际137147另一组件已满足全部条件，未推出全素数单位或高度排除。

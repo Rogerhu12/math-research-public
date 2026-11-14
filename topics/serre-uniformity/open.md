@@ -135,6 +135,20 @@ $5+2h<g(9+115\log2/\log p)$；对 $p\ge2^{115}$ 有 $h\le5g-3$。
 此深度仍随 $p$ 增长，不覆盖候选整个 $p^4$ 盘；高度外积仅知 $s^2$ 整除，
 不知恰二阶或共同无根。
 
+
+[R727](results/R727-other-primitive-embeddings-toric-norm-and-original-M2.md)
+保留同一 split 向量与原 $\zeta$-CM torus，给任意实际本原
+$h\equiv1\bmod6$、$7\le h\le p-4$ 的
+$N_h\equiv-P_{h-1}(1/\sqrt{-3})^2$。
+两条完整 Fourier 尾及原范数给：
+若 $N_h,C_{h-2},C_{p-h-2}$ 均单位，则 $v_p(M_{2,h})=-2$。
+一般 cuspidal Bruhat 公式只损一个 $p$，结合原有理 Abel 直线控制全部阶乘/无穷尾，
+从而整个 $v_p(a-1)>3$ 盘只有中心，$p^4$ 闭盘准确等距。
+$h=7$ 时 $N_7\equiv-(47/9)^2$；
+须分别保留 $7\nmid p+1$ 与 $p\ne47$。
+实际137147的旧 $C_{p-9}=122674$ 给这一组件的完整盘结论；
+并未由此证明全 $p$ 存在可用 $h$ 或实际高度排除。
+
 ### R717/R722 原精确范数：137147 目标完成
 
 [R717](results/R717-exact-original-CM-norm-from-certified-complex-traces.md)
