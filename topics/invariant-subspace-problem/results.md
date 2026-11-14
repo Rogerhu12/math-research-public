@@ -989,3 +989,7 @@
 ### R297 附录：真实后验score的完整回归对数损失与有界混合项
 
 [全规模精确公式](notes/2026-11-14-balanced-star-posterior-score-logarithmic-residual-and-bounded-mixed-term-789f.md)在原平衡star全qi=zi=1、任意Q≥2的整个Q−1维contrast源上，保完整常数＋全部线性源投影，得到后验score的真实回归PF=2Y、PB=−2Y。两个余量范数平方均为R_Q=(Q+1)/(Q−1)H_(Q−1)−5/2−1/Q，按log Q发散，而原H/L度量均1/3；因此分别一致控制余量的方案严格失败。同一两个余量的混合项却精确1/2−1/Q。实际phase=I，没有构造相位反例；后续须保混合项，不能先以两个范数乘积替换。
+
+### R297 附录：平衡star的完整score逆预算与同源残差平方
+
+[完整自足矩阵证明](notes/2026-11-14-balanced-star-full-source-score-inverse-budget-789f-next.md)用同一ρ下v=(t(1−t)F)′/F，精确Cov(p,v)=−Dq、Var v=(Q+2)E[t(1−t)]−q*Dq>0。完整score正交化给G=G0+E rr*，因此G⁻¹≤D⁻¹−qq*/[(Q+2)E t(1−t)]，任意组数/组长/正权成立、等权全矩阵取等。逆差的Woodbury式和同一L²残差来源均保；原相位块准确拆成Pκ+[L,−H]*R[L,−H]。尚未付剩余Pκ，不将非交换混合积当Loewner界；共同总数扣除项不能删。

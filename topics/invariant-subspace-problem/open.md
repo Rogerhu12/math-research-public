@@ -118,6 +118,8 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **后验score两端必须联合：** [原全等权全规模公式](notes/2026-11-14-balanced-star-posterior-score-logarithmic-residual-and-bounded-mixed-term-789f.md)给完整线性回归后两个余量各有log Q损失，而混合项恰1/2−1/Q；真phase仍I。分别L²预算已排，不能据此排共同相位或把混合项换成增长范数乘积。
 
+**平衡star全源逆预算：** [共同score证明](notes/2026-11-14-balanced-star-full-source-score-inverse-budget-789f-next.md)给G⁻¹≤D⁻¹−qq*/[(Q+2)E t(1−t)]及真实残差R=U−G⁻¹。原相位块=Pκ+[L,−H]*R[L,−H]，尚须支付Pκ；不丢总数扣除或以左右不同的H/L直接传Loewner序。
+
 ## 当前接口三：一般系数行、多个模式与中央域
 
 旧行类、种子/比较/最高字符条件及完整来源保[本次前全文](notes/2026-11-13-handoff-open-before-faithful-vacuum-support-0c.md)。未列旧接口保持原状态。
