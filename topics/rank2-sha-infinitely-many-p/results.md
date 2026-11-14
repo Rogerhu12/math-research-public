@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R533：原六度双变量全核、负矩接口与非可迭代纤维](results/R533-original-degree-six-two-variable-kernels-and-negative-moment-interface.md)：原U=2J/V=2K两变量核准确为a[H∧f1+6bf3∧f4]与a[H∧f4+2f1∧f3]，保任意实际两变量域及whole核心；固定负矩I−2(f4)/I−5(f1)有四条准确双unit接口。显示联合余项U推前0而K³后有单位矩，严格排除直接迭代条件矩；完整算术特征及原补域仍开。
+
 - [R538：未移动E深测试与实际镜管消去](results/R538-unmodified-e-depth-return-and-actual-mirror-pipes.md)：原七正矩在整个四输出上准确收缩为(−1,0,0,20,0,0,8)/27倍原source，未改测试附E深即乘β^n(8+20κ^(3n)−κ^(6n))/27。与真实J混Y核同域合用，并完整配对原N分量两条镜管；A5深/近相消及旧W移动仍须控制。
 
 - [R536：整纤维质量消去与不变三分支carry](results/R536-exact-fibre-mass-compensation-and-invariant-cubic-carry.md)：原七行十列实际λ/κ矩阵有显示整右逆，有限坏集外同一carry返回原π4且原网格质量/logx严格为零、三中央仍v=n。三不交分支平均得到T不变测试，并经原h的W核准确运输；移动Y项及整个补域保留。
