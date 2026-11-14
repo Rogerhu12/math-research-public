@@ -192,3 +192,5 @@ tail_connector 关闭实际混合近簇与中间频率整个网络。
 R133 signed Riccati/正Green替代定理已证，见 results/R133-supplement-signed-Riccati-positive-Green-with-full-interface-sources.md。实际连续validator须保signed μ、ν、每界面sec/tan和完整源，核有限ρ、全部正分母及D0ρ(0)<1；用真实有序正核积分particular源，不能先取全径向sup相乘。
 
 R119完整根一次项及真实酉expB已按同Lb=2^4200b付4/3强界2^4098b^(4/3)，见 results/R119-supplement-complete-root-first-phase-in-slope-units.md。完整root graph、自由两行框架、strict/positive与整个混频中间网络继续；局部改善不等于新全网络cutoff。
+
+R133实际mean-v2结果已逐原native核：公开43589465579/10门，||q_star−Z||<4.572198020300e−6。要消费物理ν行>1/200，仍须同一背景真实||qν−q_star||≤0.004995427801979700。完整残差L2<.001284069680自身不是这个误差；必须以particular source的有序Green积分、全部接口/边界/高反馈完成。

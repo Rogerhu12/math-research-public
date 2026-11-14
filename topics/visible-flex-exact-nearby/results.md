@@ -75,3 +75,5 @@
 - [R133：保留signed衰减的Riccati正Green和全部界面源](results/R133-supplement-signed-Riccati-positive-Green-with-full-interface-sources.md)：已证明完整分片signed Riccati正Green比较：先构造等式正逆再以非负slack比较，保全部左右边界及两种jump源；正交projector真实夹角费用为sec/tan而非1/sin，门为有限ρ、全部1−Bρ>0和1−D0ρ(0)>0。实际5970格的连续包络和全high/source仍须消费，不把浮点提案当证明。
 
 - [R119：同一根阈值上的完整首相位与斜率单位余项](results/R119-supplement-complete-root-first-phase-in-slope-units.md)：已证明根Lb=2^4200b上的全输入P_b(U−expB):H^s→H^(s+4/3)<2^4098b^(4/3)，保两mean、双wave行和两Fourier锥。完整第一次Dyson以R43系数q0=4/b支付；真非径向b²n≤2^-512使expB同阶<2，再对高输出二次指数余项插值；不借全空间低频条件数。独立固定manifest接公开Actions精确常数消费，完整root graph/strict/网络仍续作。
+
+- [R133：完整真实mean校正到相位方向Z的实际L2预算](results/R133-supplement-actual-complete-mean-correction-to-phase-direction.md)：公开43589465579真实return0、10/10门通过，native bd69c985ddaad53152867538980cb59ca28f4c6d27e27b30a6f9dd7137baad99；完整7721格复用且mean区间union增费，已证||q_star−Z||<4.572198020300e−6，真||qν−q_star||的充分剩余预算0.004995427801979700。保原ac1背景/η0与repair、显式方向、真PDE响应区别，未借残差冒充响应误差。
