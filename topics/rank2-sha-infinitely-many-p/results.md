@@ -417,3 +417,5 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 - [R591：两原惰性首forcing的同参数系数与准确首共振](results/R591-original-inert-forcing-in-one-parameter-and-exact-resonance.md)：同一个K=(σ/u)6和显示单位分母递推准确读取原c4/c1为KC、KH³的同次系数；完整留数Jacobian及b尺度保持。末两系数行列式2/7与下一Gaussian共振单位均付，但没有把自由矩阵或不同指标单位当两目标非零。
 
 - [R592：原整ε五阶同态、两forcing与第六乘法修正](results/R592-original-integral-epsilon-jets-and-two-forcing-homomorphism.md)：从同一原九来源代数提取整r0行，给到k[ε]/ε6的真全D同态和九坐标显式像，准确读c4/c1。完整第六乘法缺陷由相邻首极部与原一次行承担；真前缀运输和同时零的五条条件收益保持，不预支算术桥或全层cutoff。
+
+- [R593：原临界carry完整延拓与同一修正第二normal高尾](results/R593-original-critical-carry-completion-and-actual-second-normal-tail.md)：原模p³提升先强迫整个J窗口模p²，将两条短jet真实延长十三行；唯一Qquad最高行保留。同R的完整三块第二forcing压成两实际像判据，第三块只读Z+下一至两行及固定形状修正；全部26carry/U0和整精度保持，尚未证指定余类非零。
