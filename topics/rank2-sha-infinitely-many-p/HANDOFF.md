@@ -6,21 +6,21 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：6b294fc02b1327f0b7024d2e78bb8c5a901f1595；2026-11-14 13:05:24 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：574c2cad5895ab297376f4f7695506466f6f20d5；2026-11-14 13:07:47 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
-- 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
+- 旧→公开仓库迁移及规则11–14差异已全文读（原提交号/日期见最新完整归档）；现只在Rogerhu12/math-research-public工作。每同步核规、完整证明直接登记、本库Actions、公开库禁令牌。旧runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。历次完整规则/差异读取记录保最新归档；只写课题log，每轮≤5行，不写/归档根LOG。
 - 令牌仅终端临时环境，不入文件、提交、日志或回复。单文件<5MB，接口文本/Markdown<100KB，HANDOFF<10KB，open尽量<30KB。不增冻结、独审或机械复跑门槛。
 
 ## 当前发布、环境与分工
 
-R1–363、R365–503、R505、R508已登记；R364仍开。R235/R237及迁移R437/R438已重做推送。最新提交：R499=276faa39；R501=55c85e26；R502=0a911f86；证书恢复1dafbfa7；R503=0eb4c7db；R502实测回填da54025b；R505=d08b296f；R508本次登记；更早见日志与归档。
-执行环境于2026-11-14 12:35 UTC断连，当前用已连接GitHub的Git Data API读取main、逐次核两README并非force/expected_sha追加；未把API同步称作git pull。恢复执行环境后先pull --rebase并核规。代理仅写各自证明/脚本，root统一元数据与逐条推送。theta续R504普通V′两深与固定norm931混管；literature续R509两纯Y方向的原五sigma联合；deep的R505已登记，续R507实际forcing/首共振；root续R506真实反射轴C及完整核心。各自已完成证明随到随登记，不新增独审门。
+R1–363、R365–503、R505–506、R508已登记；R364仍开。R235/R237及迁移R437/R438已重做推送。最新提交：R499=276faa39；R501=55c85e26；R502=0a911f86；证书恢复1dafbfa7；R503=0eb4c7db；R502实测回填da54025b；R505=d08b296f；R508=ee4e2a11；R506本次登记；更早见日志与归档。
+执行环境12:35 UTC断连；现用已连接GitHub读main/核两README并以expected_sha、force=false追加，未称实际pull。恢复后先pull --rebase并核规，再合并遗留。root统一元数据/逐条发布；代理仅建proof/script blobs。theta续原S/T联合域；literature续R509新五sigma框架；deep续R507 forcing与真实源像；root续实际全来源条件。完整证明随到随登记，无独审门。
 
 ## 目标桥及完整旧接口
 
 主目标未完成，QUEUE仍进行中，不等阶段确认。S34/T72/U136分别是固定y²=x³+17/+24/+2312，rank2见R294/R398/R469；完整Sha桥R295/R303/R397/R402/R469给2+corankSha≤2ordJ。一条完整中央导数无穷非零即可；有限池需同一无穷p集上至少一条非零才可鸽笼。有限p、辅助来源或子域非零不代替。
-最新完整接口归档`notes/2026-11-14-frontier-before-r508.md`，前链`frontier-before-r505.md`/`frontier-before-r503.md`、`open-before-r496.md`，链回through-r491及更早，保所有原常数、51维moment、CM标签、外谱和未付carry。旧R1–79/R80–129及R461–500均分段索引，新建R501–550分段；不增巨型PROOF-INDEX。课题旧完整日志已归档`notes/2026-11-14-log-through-r494.md`，不动根LOG。原quartic E17:y²=x³−17x、E34/E136/E389支线全保旧归档。
+最新完整接口归档`notes/2026-11-14-frontier-before-r506.md`，前链`frontier-before-r508.md`，前链`frontier-before-r505.md`/`frontier-before-r503.md`、`open-before-r496.md`，链回through-r491及更早，保所有原常数、51维moment、CM标签、外谱和未付carry。旧R1–79/R80–129及R461–500均分段索引，新建R501–550分段；不增巨型PROOF-INDEX。课题旧完整日志已归档`notes/2026-11-14-log-through-r494.md`，不动根LOG。原quartic E17:y²=x³−17x、E34/E136/E389支线全保旧归档。
 
 ## 普通：同一六输入、全部三态核心和真实几何
 
@@ -45,6 +45,8 @@ R501 whole𝔇=Rω,Y·ω⁻¹N19N7⁻²固定u/h、交换v/z；new/Href伴随准
 R503原U=W′/2、P正交Gram18/2466，coresβ/χ_Vλ，x不动。所有正浅环带为(χ_Vλ)^nβ^r[A(u,κ^r)−βA(u,κ^(r+1))]；A中央/质量首5阶unit。准确JS=B0+βA(u,κ)，B0保Z/Y/Tcunit且x可深；其质量v5、反证中央v5。所有完整权/固定坏集/质量多项式在正文，层望远镜不增独立约束。
 
 R508四轴Z/V/U/P的真实压深词：相邻正交对准确κI，约简词长度l的Smith(0,l)，像格逐层确定全部词。PGL两生成自由；保x及物理Y的词仅V^n，允许同缩Y也仅旧diag(κ^t,κ^m,κ^t)。所有词域来源标量已付，不能把它们当同域，停止重复旧四轴的有限返回搜索。
+
+R506原C=(ξ1+ω²ξ3−ωξ4−c)/2、Norm1，二重生成轴wholeS4核心由σ(2z)绝对锚定为实际U。完整五伴随det2、W/C/Q4框架det±16·72⁴；U四态diag(+,+,−,−)，任意W/C深度λ^(m+n)KW^mU^n全联合成立。Y移动(κ^n−1)(1+3ω)C，CT=ω²ξ4、ℓ4=ωC；不把此轴误认纯Y或作用到已删Q的压缩模型。
 
 ## 普通：原低 degree 因子及完整两Theta核
 
