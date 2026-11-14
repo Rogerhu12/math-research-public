@@ -1,0 +1,429 @@
+{
+  "P0_or_ruling_paid": false,
+  "U4_quotient_nonzero_proved": false,
+  "all_derivative_weights_computed": false,
+  "checkpoint": {
+    "dual_certificate": {
+      "control_columns": 7,
+      "functional_over_Q": "ev_last - row_last(A) * inverse(A_pivot) * ev_pivot",
+      "modular_augmented_determinant": 2093208697,
+      "modular_augmented_matrix": [
+        [
+          2025981419,
+          1269652794,
+          1301048451,
+          634826397,
+          31395657,
+          1451906136,
+          1301048451,
+          60496089
+        ],
+        [
+          409056832,
+          1444941905,
+          329257105,
+          1505915122,
+          1333608531,
+          1299648275,
+          469993814,
+          1064715561
+        ],
+        [
+          1884499827,
+          296163177,
+          1018353763,
+          881848551,
+          267604476,
+          1226514169,
+          1197577907,
+          1275809865
+        ],
+        [
+          1534027044,
+          1769347707,
+          1298596367,
+          1115857812,
+          2103770140,
+          535323601,
+          387443365,
+          684258623
+        ],
+        [
+          1766479410,
+          1272139509,
+          22938453,
+          459447151,
+          1387643722,
+          71042643,
+          519362303,
+          2044156140
+        ],
+        [
+          1668889711,
+          680294564,
+          991596061,
+          420361912,
+          998574846,
+          1393345974,
+          980207249,
+          719059107
+        ],
+        [
+          1874650430,
+          1961432458,
+          544492744,
+          716132174,
+          180537256,
+          1953452509,
+          1544090025,
+          367363306
+        ],
+        [
+          2025353784,
+          1448533776,
+          623248899,
+          2013034499,
+          1301226495,
+          781765804,
+          753743618,
+          1725936013
+        ]
+      ],
+      "modular_control_rank": 7,
+      "modular_functional_all_control_values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "modular_functional_coefficients": [
+        2028526569,
+        1910224052,
+        356907985,
+        422216737,
+        1436672461,
+        388203777,
+        1748599592,
+        1
+      ],
+      "modular_functional_target_value": 772720911,
+      "modular_pivot_determinant": 1896063777,
+      "nonzero_reason": "det(Augmented) has defined nonzero reduction modulo the checked prime",
+      "rational_functional_identity": "Lambda(A_j)=0 exactly for all original retained control columns",
+      "rational_nonmembership_certified": true,
+      "selected_augmented_rows": [
+        0,
+        2,
+        3,
+        6,
+        7,
+        10,
+        11,
+        14
+      ],
+      "selected_control_rows": [
+        0,
+        2,
+        3,
+        6,
+        7,
+        10,
+        11
+      ],
+      "selected_evaluation_labels": [
+        {
+          "component": "real",
+          "mode": -4,
+          "t": "1/25",
+          "xi": "51/25"
+        },
+        {
+          "component": "real",
+          "mode": -2,
+          "t": "1/25",
+          "xi": "51/25"
+        },
+        {
+          "component": "imaginary",
+          "mode": -2,
+          "t": "1/25",
+          "xi": "51/25"
+        },
+        {
+          "component": "real",
+          "mode": -2,
+          "t": "2/25",
+          "xi": "52/25"
+        },
+        {
+          "component": "imaginary",
+          "mode": -2,
+          "t": "2/25",
+          "xi": "52/25"
+        },
+        {
+          "component": "real",
+          "mode": -2,
+          "t": "3/25",
+          "xi": "53/25"
+        },
+        {
+          "component": "imaginary",
+          "mode": -2,
+          "t": "3/25",
+          "xi": "53/25"
+        },
+        {
+          "component": "real",
+          "mode": -2,
+          "t": "4/25",
+          "xi": "54/25"
+        }
+      ]
+    },
+    "fixed_test_pair_other_weights_excluded": false,
+    "full_homogeneous_response_upper_bound": 7,
+    "old_word_remainder_used_as_certificate": false,
+    "rational_nonmembership_certified": true,
+    "universal_G_not_in_full_R8_by_true_weight_decomposition": true
+  },
+  "coefficient_checkpoint": null,
+  "complete_U4_equals_R8_proved": false,
+  "complete_report_file": {
+    "filename": "static-G-rational-dual-complete-report.json.gz",
+    "persisted": true,
+    "raw_bytes": 38711,
+    "raw_sha256": "8a3b72218851c6c0ca713e6d19fcc27ff3e8cc877d0143a87f9186e2a13d4003",
+    "stored_bytes": 8381,
+    "stored_sha256": "40bf4fe4b3b60475122175c9f91de79332b10287232830a2ab4805ca28d68c64"
+  },
+  "complete_report_raw_exceeds_main_limit": false,
+  "completed_blocks": [],
+  "completion": "complete",
+  "elapsed_seconds": 6.593979372999996,
+  "error": null,
+  "finite_isometric_family_constructed": false,
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_run_id": "43647225907",
+  "github_sha": "b466c3782ae5e3b1a68572065b7505d45e6d8a99",
+  "input": {
+    "W_compiled": false,
+    "all_original_roots_hash_verified": true,
+    "bound_W": {
+      "coefficient_span_representative_rank": 36,
+      "colored_records_sha256": "84a499bd64ef2cdf299d2f832adbffd9db97119be9b9c7f3fad75d7ad909c94e",
+      "expanded_local_nodes": 3941,
+      "old_116_relations_recomputed": false,
+      "original_152_hashes_matched": true,
+      "raw_template_hashes": [
+        "abaf05b445a67ba5244461402066c36052e095095587927878a94f1e3982b7a2",
+        "74989d9bb1c98d42670b014315707d42bf4cd936c4b1f9251e67badda4462b13",
+        "e87d826c616a462b5e74843e10e58cb788702a1b59886bb122a87c5e3fcfb01e",
+        "6d0f9700615494896810e2c410b2984adf1ff9fadf0750860ec98fc982661ff6",
+        "6045ad12f6fb5b180bc3fa65680e2b34a2679bd6ed6d0b5ea23cf672dba65159",
+        "7194e5d2ef91f17d9551148ed17f4ea05a9eba8e9d3b8ac3a075a5a012939811",
+        "d5addb93c2cf80a60e444b2a884d18d9577158d3ef8042282993e4d56468dc39",
+        "586788dc0fcf4aec7cc329277836c89e82ddb46a5739d71dfcd154cdece83a56",
+        "589f7965592b0564e1319b28e6ba03a07de34306e980feb32c499a13d7192c2c",
+        "785155ee982710fb95a14a62691adf567347c58901f77c3f7e7dc36641b3fb4e",
+        "406692985982a1e6610a631fbc26af111d9fd8c22bf58ef73d18b00fbb5598ff",
+        "c38ea99fe6227f06594b2a5831d976a860247ff8ac25595af4b457f8c7d62d07",
+        "a36765c31af4d4583535ced0ac473d79f8c2a48081a45db7bede1002f7a15d76",
+        "a80f870afb3b72dc61a7edb168ba6ccf46f282ad263c0b646af02ef81d780028",
+        "99ceb97f81ba22f03776f27d4b2fc28b671022ebbfb0e32b39756b9985bd19da",
+        "eb155f48e233baaadb59f88889fe42ac9f74d8157a7d1dd893a29881f673a702",
+        "4cbaf0a06482ef9788d071ed368e6b811cda237bf910e16a67aeb60f1259c779",
+        "8f396b3daf3f7fa44288893f8c80a7f466a06e5c94277238331c256c6cb04345",
+        "8bc8b3b9ebbaebcd5189090624c3c7a682c3fef85a611ddb6fbac4bd3ad96027",
+        "cdd32759064ac990ad45a67b3c63da2bd64813059ae62b23c0d7f7b9250cd3f1",
+        "3eb1dfe8b814371fafca378393820e955c769696dc95b41603bec1bc76da0cab",
+        "8ce172ccbd14be41ed330362ec87966788102d59f2889aad12efe932f4d0a05f",
+        "39338afd5879337b661862c8b13a8c4fd784d752b0193dd91296166c82c31d93",
+        "2b88e0e8558c50ae970403d6b38bd4ac60059ef259386a903f8ec76e4c5e0363",
+        "aaf991686caea0fb9f38c97530864d38193b2bd5edb4ec0d1ae6d8114920410d",
+        "a8ce2ef328b0668d7df2f9b50937930197d2f5505a8298e3289b31c31bc34d06",
+        "4929742e98b3d45ba878f907d6eda495d2baa2591f713592529471847a924d76",
+        "38945a889a5681c9021cdf0edca11447fa41d4e5834007fb39a880b8241917b7",
+        "be8a31110800e396af0d8b2c7d240584f03cd30bcf4e1d1d8f222f2cafc8c199",
+        "c8f4568fbddee3985dfd3245aff22592bb065d22dbdc958fc61433ba20279f79",
+        "4e76c7b917c4a00138308388d72c40def5837044d287c28242f91d635bf5f312",
+        "94b42fb4261209e6e6e72c078b6e873dfe08dd477672afdcb0156f95051ead28",
+        "b5155855451e65acb83b0efd8ec51e6467fe343fa80fbeab6c04e1e523c0f368",
+        "8aa68ac3defca7d0d88ec9b5c67dc7b30bedc569129d6fbd8705314fbe331e2d",
+        "578763eecd81ff4e4bf2f3775b253c4315c6c3d58cfb2e3346524b79d8203f0d",
+        "63ec5cb74cb487c52a3e81f1f0b010352f7df57edabb1f08f42dea9093eb52ee"
+      ],
+      "receipt_sha256": "7c2cb9fece518fb6fbb15b6b4e034565dfcc5a10cf0e103a7011cd56dc4ac960",
+      "retained_original_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        30,
+        32,
+        34,
+        37,
+        40,
+        100,
+        104,
+        109
+      ],
+      "run_id": "43633746055",
+      "true_dimension_source": "published original dependencies and R87 exact original evaluation minor"
+    },
+    "local_density_compiled": false,
+    "old_forcing_compiled": false,
+    "original_export": {
+      "contains_original_expression_not_only_hashes": true,
+      "content_scope": "W-and-local-static-density",
+      "filename": "local-fourth-quotient-original-expressions.json.gz",
+      "profile_atom_count": 3319,
+      "raw_bytes": 3518194,
+      "raw_sha256": "d74e87790a00a246e01438c54575c3190389e3adbdefed0cec233b6ec9a664d1",
+      "root_count": 430,
+      "stored_bytes": 657195,
+      "stored_sha256": "ea8ba97319ef3fa43ff8cacc7f98b106b13280aef4641b969f5f820194aebace"
+    },
+    "producer_completion": "output_limit",
+    "producer_report": {
+      "bytes": 3982,
+      "filename": "local-fourth-quotient.json",
+      "sha256": "19228a0aecf40416cf7ba7b8a7fa4e0180ed924a4bd04435b0e6e6e4a0b1b28a"
+    },
+    "producer_run": "43645177423",
+    "producer_source": "2f1b809c0b0abb7a26303d36940edc203815f872",
+    "publication_receipt": {
+      "binding": {
+        "matched_output_paths": [
+          "local-fourth-quotient.json",
+          "local-fourth-quotient-original-expressions.json.gz"
+        ],
+        "producer_source_identity": {
+          "bytes": 38857,
+          "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+        },
+        "source_commit": "2f1b809c0b0abb7a26303d36940edc203815f872",
+        "source_run": "43645177423"
+      },
+      "bytes": 31846,
+      "filename": "receipt.json",
+      "sha256": "c9206d68c786613e84e4f080d2a6899b46333979e88b16f0d5306a6c88e8c0ba"
+    },
+    "raw_export_hash_verified": true
+  },
+  "limits": {
+    "complete_compressed_report_bytes": 2500000,
+    "main_bytes": 90000,
+    "memory_polling_mib": 1024,
+    "operations": 10000000,
+    "polynomial_degree": 256,
+    "seconds": 120.0
+  },
+  "peak_rss_mib": 123.9140625,
+  "phase": "seven_original_control_columns_and_rational_separating_minor",
+  "reference_matrix": null,
+  "schema": "visible-flex-R117-static-G-original-rational-dual-v1",
+  "scope": "original G weight-one universal operator membership, not all profiles or an exact flexible surface",
+  "source_hashes": {
+    "driver": {
+      "bytes": 16444,
+      "filename": "literature_static_G_rational_dual.py",
+      "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+    },
+    "original_producer_dependencies": {
+      "colored": {
+        "bytes": 15738,
+        "filename": "literature_colored_profile_algebra.py",
+        "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+      },
+      "driver": {
+        "bytes": 38857,
+        "filename": "literature_local_fourth_quotient.py",
+        "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+      },
+      "dual_receipt_reader": {
+        "bytes": 19492,
+        "filename": "literature_full_phase_rational_dual.py",
+        "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+      },
+      "endpoint": {
+        "bytes": 21532,
+        "filename": "literature_closed_c1_endpoint.py",
+        "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+      },
+      "exact": {
+        "bytes": 33718,
+        "filename": "literature_pure_bulk_exact_membership.py",
+        "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+      },
+      "formal": {
+        "bytes": 33169,
+        "filename": "literature_range_profile_algebra.py",
+        "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+      },
+      "local": {
+        "bytes": 30635,
+        "filename": "literature_local_third_bridge_decompose.py",
+        "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+      },
+      "scaling_interfaces": {
+        "bytes": 37293,
+        "filename": "literature_total_P1_scaling_blocks.py",
+        "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+      },
+      "v2_producer": {
+        "bytes": 35368,
+        "filename": "literature_full_phase_bridge_exact.py",
+        "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+      },
+      "words": {
+        "bytes": 32310,
+        "filename": "literature_pure_bulk_word_normal_form.py",
+        "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+      }
+    },
+    "polynomial_evaluator": {
+      "bytes": 19803,
+      "filename": "literature_rational_volterra_polynomial.py",
+      "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+    },
+    "publication_identity_helper": {
+      "bytes": 32096,
+      "filename": "literature_full_m8_tail_response_projection.py",
+      "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+    },
+    "static_input_and_report_helper": {
+      "bytes": 24202,
+      "filename": "literature_constrained_static_fourth.py",
+      "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+    }
+  },
+  "toy": null
+}
