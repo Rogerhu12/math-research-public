@@ -11,7 +11,7 @@ on:
         description: Actual numerical calculation
         type: choice
         default: all
-        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr]
+        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge]
 
 permissions:
   contents: write
@@ -39,7 +39,7 @@ jobs:
           python - <<'PYLANES'
           import json, os
           from pathlib import Path
-          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr'}
+          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge'}
           if os.environ['EVENT_NAME'] == 'workflow_dispatch':
               selected = os.environ['DISPATCH_LANE'] or 'all'
               lanes = ['free3', 'geometry', 'coupling', 'tailzero', 'cardinal'] if selected == 'all' else [selected]
@@ -94,6 +94,8 @@ jobs:
             /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-tailzero112/zero-H-T112/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/banded-linear/factor-001-first-step.json.gz
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/banded-linear/factor-001-first-rhs.json.gz
             /topics/visible-flex-larger-amplitude/notes/public-actions-43590496434-1-coupling112/full-DN112/reduced-001.npz
             /topics/visible-flex-larger-amplitude/notes/public-actions-43586618658-1-gwcompat/GW-cusp-compatibility/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43585737152-1-coupling/preparation/prepared.json.gz
@@ -224,7 +226,7 @@ jobs:
             --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
             --node-heap 6144 --out "$VISIBLE_OUT/boundary112-response"
       - name: Restore the actual completed M112 preparation and full boundary response
-        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr'
+        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge'
         run: |
           export PREPARED112="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112"
           python - <<'PY112'
@@ -243,6 +245,26 @@ jobs:
           cp "$PREPARED112/preparation112/prepared.json.gz" "$VISIBLE_OUT/preparation112/prepared.json.gz"
           cp "$PREPARED112/boundary112-response/response-check.json" "$VISIBLE_OUT/boundary112-response/response-check.json"
           cp "$PREPARED112/T112-config.json" "$VISIBLE_OUT/T112-config.json"
+      - name: Refine only the last bridge using the original analytic seed and inspect actual local blocks
+        if: matrix.lane == 'coupling112bridge'
+        timeout-minutes: 35
+        run: |
+          python -m py_compile "$VISIBLE_COMPUTATIONS/geometry_20261114_bridge_resolved_physical.py"
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_bridge_resolved_physical.py" prepare \
+            --accepted "$VISIBLE_ACCEPTED" --warm "$VISIBLE_OUT/preparation112/prepared.json.gz" \
+            --failed-dir "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112" \
+            --out "$VISIBLE_OUT/bridge-preparation" --max-nodes 1200 --reserve-nodes 24 --jac-workers 2
+      - name: Recheck the complete true-J boundary on the explicitly refined bridge preparation
+        if: matrix.lane == 'coupling112bridge'
+        timeout-minutes: 25
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_bridge_resolved_physical.py" response \
+            --source-warm "$VISIBLE_OUT/preparation112/prepared.json.gz" \
+            --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_OUT/bridge-preparation/prepared.json.gz" \
+            --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
+            --tail-config "$VISIBLE_OUT/T112-config.json" \
+            --qr-reduced "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43590496434-1-coupling112/full-DN112/reduced-001.npz" \
+            --material-angles 4096 --physical-angles 4096 --out "$VISIBLE_OUT/physical-response"
       - name: Solve the genuine M112 full-DN problem using its own true T112 anchor
         if: matrix.lane == 'coupling112'
         timeout-minutes: 270
@@ -294,6 +316,20 @@ jobs:
             --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
             --node-heap 6144 --max-nodes 1200 --material-angles 4096 --physical-angles 4096 \
             --out "$VISIBLE_OUT/full-DN112" --work "$RUNNER_TEMP/visible-full-DN112-physical-band"
+      - name: Solve the entire physical-angle system on the analytically refined bridge mesh
+        if: matrix.lane == 'coupling112bridge'
+        timeout-minutes: 270
+        run: |
+          export VISIBLE_FLEX_COMPLETED_ZERO_TAIL_DIR="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-tailzero112/zero-H-T112"
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_physical_test_full_dn.py" \
+            --accepted "$VISIBLE_ACCEPTED" --warm "$VISIBLE_OUT/bridge-preparation/prepared.json.gz" \
+            --response-check "$VISIBLE_OUT/physical-response/response-check.json" \
+            --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
+            --tail-client "$VISIBLE_COMPUTATIONS/exact_20261114_seeded_zero_tail_client.py" \
+            --tail-config "$VISIBLE_OUT/T112-config.json" \
+            --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
+            --node-heap 6144 --max-nodes 1200 --material-angles 4096 --physical-angles 4096 \
+            --out "$VISIBLE_OUT/full-DN112" --work "$RUNNER_TEMP/visible-full-DN112-bridge-band"
       - name: Solve the new full physical-angle system through its original complete QR
         if: matrix.lane == 'coupling112physicalqr'
         timeout-minutes: 270
@@ -310,7 +346,7 @@ jobs:
             --node-heap 6144 --max-nodes 1200 --material-angles 4096 --physical-angles 4096 \
             --out "$VISIBLE_OUT/full-DN112" --work "$RUNNER_TEMP/visible-full-DN112-physical-qr"
       - name: Read and close only the actually accepted M112 field with its own tail
-        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr'
+        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge'
         timeout-minutes: 90
         run: |
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_lifted_modes_after_accept.py" \
@@ -321,7 +357,7 @@ jobs:
             --source-topic "$VISIBLE_SOURCE_TOPIC" --out "$VISIBLE_OUT/accepted-112-physical-closed" \
             --angles 2048 4096 --radial-subdivisions 2 4 --readout-levels 1,2,4
       - name: Audit and assemble the exact inlet parity normal form of the accepted field
-        if: matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr'
+        if: matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge'
         timeout-minutes: 45
         run: |
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_inlet_parity_normal_form.py" audit \
@@ -433,7 +469,7 @@ jobs:
           python -u "$VISIBLE_COMPUTATIONS/exact_20261114_tail_trace_report.py" \
             --directory "$VISIBLE_OUT/full-DN" --out "$VISIBLE_OUT/full-DN-tail-diagnostics.json.gz"
       - name: Read actual M112 full-DN diagnostics without changing solver status
-        if: always() && (matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr')
+        if: always() && (matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge')
         run: |
           python -u "$VISIBLE_COMPUTATIONS/exact_20261114_tail_trace_report.py" \
             --directory "$VISIBLE_OUT/full-DN112" --out "$VISIBLE_OUT/full-DN112-tail-diagnostics.json.gz"

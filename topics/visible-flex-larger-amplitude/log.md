@@ -478,3 +478,8 @@ run43594985550真FD9.65016e−10通过，新切口条件明显改善；全带LU�
 
 request14仅coupling112physicalqr：新Rφ×旧同Uend实测cond1.20e5，故原699/原完整QR检验具有直接依据；与末bridge补点分开。新独立入口绕过banded.main，保完整R252/真尾/原17trial/RMS/BC及全部闭包审计；未预填接受。
 修改共享.github/workflows/visible-larger-public-mainline.yml增加该lane与原接受后全链，publisher同步支持；新入口在公开Actions编译/实际运行。每次远端快进前核双README，无本地pull冒记。
+
+### 2026-11-14 12:49 UTC — retain original699 and test analytic last-bridge resolution
+
+request15仅coupling112bridge，源blob54522609：原699完整节点/状态逐项保，新点只原p0解析circle/完整mean；采样旋转/模态尺度择网≤原1200，不冒严格谱界。原全部域/RMS检查、实际局部L/R与旧方向比较分别记录，再重做全真实J FD及原全带LU/非线性门，未预报成功。
+共享.github/workflows/visible-larger-public-mainline.yml新增该lane、仅补读run13两件真实step/RHS、接原闭合/R249；publisher同增lane。request14/run43596465579并行原699/新Rφ/完整QR，互不取消。
