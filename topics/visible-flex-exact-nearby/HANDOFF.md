@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 12:55:24 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 12:55:53 UTC。**主目标未完成，持续研究。**
 
 ## 规则、位置、同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学全部直接用该公开仓库 Actions。
 最后实际本地 pull --rebase/两README差异核：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35起共享终端返回 No usable execution environment；未推小文本按根规矩8以已连接GitHub恢复，未传二进制或大数据。
-最新远端 main/两README blob 核：ae827621e6632ad70227e1523247c0331edf9d8f；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均未变。此为API读取，不冒称本地git pull；runner仍每10min真pull/README核。
+最新远端 main/两README blob 核：b4e85af4fe3356ee2791885b2b326364213b5d38；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均未变。此为API读取，不冒称本地git pull；runner仍每10min真pull/README核。
 每条结论独立接最新base tree/parent，expected_sha且force=false；竞争立即重新读main和两README、保并发后续接。终端恢复即回终端git/pull。
 已亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542（新增new-mechanism课题）。PAT只瞬时CLI/env，绝不文件/输出/提交/connector参数。
 root独占branch/ref及H/open/results/log；代理仅保存<100KB新文本blob，不改branch。七件Green源已原字节恢复，不同重建稿不冒原SHA。
@@ -37,7 +37,7 @@ physicalstrip43588332723真实成功，nativedfb2a174…a46e3854；八试验保�
 同背景||qν−Z||普通L2/E0≤1/200足保真物理ν行>1/200；该真实误差仍须完整逆。
 mean-v1失败43588192611/前5门保；v2 43589465579真实10门，nativebd69c985…37baad99，||q_star−Z||<4.572198020300e−6。余量||qν−q_star||≤.004995427801979700仍待完整Green/high/cap/repair。
 strict全primitive/两mean/R0首符号及root两减项已证；43588623881真实10门，native83b87357…5182d。真density ray首均值准确不变，half-density角二导均值0，无须重算169ray。
-firstsymbol原失败43589646508/native5167e64f…保；v2 43591721337真实六门、3146行，复用2838积分/2root，仅新增248midpoint/2rootjets。nativecd9ffed6d8c9…c9bab202；完整Xi有限部∈(−73.913337474666793,−73.913314715519692)，−Xi/4∈(18.478328678879919,18.478334368666702)。已算值仅δ=0/η0；D第二项无额外η。δ*转移的完整strict导数及complex-root Cauchy条件定理已证，实际消费另跑，原3146格/169germ/220T缓存复用。真实有向word已证V−^-1V+=U_(S−∘X+)，非平方；I模为1/(4ij)。完整β为−(Xi+brootfin)/4及其他声明接口费，实际brootfin/root/positive/δ*转移/strong仍欠。
+firstsymbol原失败43589646508/native5167e64f…保；v2 43591721337真实六门、3146行，复用2838积分/2root，仅新增248midpoint/2rootjets。nativecd9ffed6d8c9…c9bab202；完整Xi有限部∈(−73.913337474666793,−73.913314715519692)，−Xi/4∈(18.478328678879919,18.478334368666702)。已算值仅δ=0/η0；D第二项无额外η。δ*转移完整strict导数/complex-root Cauchy定理已证；179输入manifest fb578b1d…/独立公开CI已接，原3146格/169germ/220T缓存复用，仅新导数界首算。真实有向word已证V−^-1V+=U_(S−∘X+)，非平方；I模为1/(4ij)。完整β为−(Xi+brootfin)/4及其他声明接口费，实际brootfin/root/positive/δ*转移/strong仍欠。
 两行Airy/腰43592219275真实13门，native6c9ffa29…afcdbe；腰准确K′=b=S=0，root有限对称cross buv/η角mean0但矩阵保。
 moving根全频scalarization43594466882真实13门，native10ff6db8…abb33f；|δ|≤1e−8复域c<.131785810、J0<.229690264、负5/3→负2/3<1.787479367。独立mean/弱flux/投影drift/commutator保；inner径向5e−6。仅用原part005全193方向，δ产品band192，不能借旧band64负窗门。
 

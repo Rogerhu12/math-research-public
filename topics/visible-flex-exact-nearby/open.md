@@ -232,3 +232,5 @@ root一次相位35门实际原件已根核，见 notes/2026-11-14-R119-root-firs
 Green七端口门43596517945已真实全成、child0，native60e69d61…08f3；详[原执行说明](notes/2026-11-14-R133-signed-Green-algebra-public-outcome.md)。这些显式比较系统核实现约定，不替代原5970格或未知high。后继严格按相同SHA和原退出记录复用，不再运行成功门。
 
 [完整负散射/有序网络word](results/R119-supplement-complete-negative-scattering-and-network-word-in-slope-units.md) 已关闭两个基础强窗：H0→H4/3和H−4/3→H0，负片费2^9000λ^(4/3)、内部全相邻端口行2^9020λ_i^(4/3)。完整anti-J/onto给真实酉散射，从而所有低/中频付清；全mean/源/外响应不删。原N#在j129无N128项、λ·角小量全层可和均已写清。下一项是同一unitary word的scalar正常形及首相位同调/ordering两阶费；此后仍须新的高块、移动mixed clusters和全反馈，旧Tj没有直接替换。
+
+有限部δ*转移已接独立公开[workflow](../../.github/workflows/visible-exact-first-symbol-parameter-transfer.yml)：179固定小原件总6.35MB，manifest fb578b1d…，完整原169germ/3146积分/2 root步/220T和193方向复用，不重新生成这些数学对象。新source de12b812…只做完整参数导数与四个复根Cauchy费用，fee目标1/10000须真实输出才算付；失败或有效界未达目标均完整保留。计算仍只在本公开Actions，科学副本与实际Git发布分开。
