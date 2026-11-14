@@ -1,0 +1,166 @@
+{
+  "schema": "same-model-single-damping-source-transform-v1",
+  "original_twenty_source_sha256": "9d750fcba45624f23dbae19ca44fded0437f1f5dc15943879cbf046064fe22ee",
+  "original_engine_source_sha256": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+  "twenty_functions": [
+    {
+      "function": "equal",
+      "original_sha256": "c1a7f961a6d0f7818effc25dafdb68267975122fbba442e63be08cc63828fc8b",
+      "adapted_sha256": "c1a7f961a6d0f7818effc25dafdb68267975122fbba442e63be08cc63828fc8b",
+      "complete_original_body_preserved_except_listed_current_metadata": false,
+      "body_byte_identical": true,
+      "reversible_edits": []
+    },
+    {
+      "function": "guard",
+      "original_sha256": "774f01be597bc996d234502dd84028d2a08a64a5df988b9bf4576ad36bd7a5b5",
+      "adapted_sha256": "774f01be597bc996d234502dd84028d2a08a64a5df988b9bf4576ad36bd7a5b5",
+      "complete_original_body_preserved_except_listed_current_metadata": false,
+      "body_byte_identical": true,
+      "reversible_edits": []
+    },
+    {
+      "function": "scalar_or_none",
+      "original_sha256": "0d04e65e3f0fe7e650ba84535748f2fada6378c8fd058c50b09822ec2ca4c18d",
+      "adapted_sha256": "0d04e65e3f0fe7e650ba84535748f2fada6378c8fd058c50b09822ec2ca4c18d",
+      "complete_original_body_preserved_except_listed_current_metadata": false,
+      "body_byte_identical": true,
+      "reversible_edits": []
+    },
+    {
+      "function": "evidence",
+      "original_sha256": "3e65930231c792d93c8a79bf24a978212c0d91f5e50200e56030fb6ca20ba296",
+      "adapted_sha256": "3e65930231c792d93c8a79bf24a978212c0d91f5e50200e56030fb6ca20ba296",
+      "complete_original_body_preserved_except_listed_current_metadata": false,
+      "body_byte_identical": true,
+      "reversible_edits": []
+    },
+    {
+      "function": "compact_metadata",
+      "original_sha256": "63a6427601f7b34a5d66a11727068e1f03ea10792c250e3e54846e5d7ae17474",
+      "adapted_sha256": "63a6427601f7b34a5d66a11727068e1f03ea10792c250e3e54846e5d7ae17474",
+      "complete_original_body_preserved_except_listed_current_metadata": false,
+      "body_byte_identical": true,
+      "reversible_edits": []
+    },
+    {
+      "function": "_run_engine",
+      "original_sha256": "4baed8e849889582ed2db998d8d0e67d442da99496cce977746ac6a6d72ae903",
+      "adapted_sha256": "90c06c491a6bdb2a78592ea39e7da2d390146e6772614030226c1e0a1c327e79",
+      "complete_original_body_preserved_except_listed_current_metadata": true,
+      "body_byte_identical": false,
+      "reversible_edits": [
+        {
+          "before": "original_lambda_LSMR_projection_and_seventeen_trials_unchanged=True,",
+          "after": "original_LSMR_projection_and_seventeen_trials_unchanged=True,\n        damping_changed_explicitly=True,\n        single_damping_experiment=SINGLE_DAMPING_CONTRACT,"
+        }
+      ]
+    },
+    {
+      "function": "main",
+      "original_sha256": "631b77738929afc6b76ad4a0b45ffd9f9bed054e1fcb4accd54d0edf178e812d",
+      "adapted_sha256": "c6d9ac3bd33db611cba28759a16659196fe8d6f4eeb2422b998339c4b86c2e17",
+      "complete_original_body_preserved_except_listed_current_metadata": true,
+      "body_byte_identical": false,
+      "reversible_edits": [
+        {
+          "before": "original_lambda_and_row_and_chart_weights_unchanged=True,",
+          "after": "original_row_and_chart_weights_unchanged=True,\n        damping_changed_explicitly=True,\n        single_damping_experiment=SINGLE_DAMPING_CONTRACT,"
+        }
+      ]
+    }
+  ],
+  "original_engine_main_sha256": "42e7387dcc9e7ca04a94e444542f093e27f898bccd8b67e8125dd7364dc83fb9",
+  "adapted_engine_main_sha256": "1cfd9d055e2517317600a27e231c374ec0ae2a44f9207efda8250d19c72cd57a",
+  "engine_edits": [
+    {
+      "before": "parser.add_argument(\"--damping\", type=float, default=270.)",
+      "after": "parser.add_argument(\"--damping\", type=float, default=27.)"
+    },
+    {
+      "before": "args.damping != 270.",
+      "after": "args.damping != 27."
+    },
+    {
+      "before": "Use the declared one-model lambda270/full-angle experiment and original trial bounds",
+      "after": "Use the declared one-model lambda27/full-angle experiment and original trial bounds"
+    },
+    {
+      "before": "Same complete ||A z+b||^2+lambda^2||z||^2, lambda270",
+      "after": "Same complete ||A z+b||^2+lambda^2||z||^2, explicit lambda27; prior lambda270 experiment"
+    }
+  ],
+  "original_function_source_recovered_exactly_by_declared_inverse": true,
+  "old_twenty_module_globals_or_source_file_mutated": false,
+  "temporary_engine_main_assignment_restored_in_finally": true,
+  "original_main_all_other_statements_byte_identical": true,
+  "no_complete_matrix_or_direction_computed_by_source_adapter": true,
+  "entry_source_sha256": "7de5e7d01efa9464e9c0d671c94d3b70a6e093dc1b3fd844944456ebb46fbbb5",
+  "actual_parent_warm_sha256": "3b25ea84dfababece99e1dc098d56cdcebd94737e428e509140e818d48e8eb1e",
+  "actual_parent_status_sha256": "037fb9eeaeb196f74976188efb9515736396f2c86a44fde4e93251e92ca01466",
+  "current_schema": "exact-constraint-twenty-query-lambda27-condensed-complete-H-warm-v1",
+  "single_damping_experiment": {
+    "schema": "same-actual64-twenty-query-single-damping-contract-v1",
+    "original_damping": 270.0,
+    "explicit_current_damping": 27.0,
+    "original_damping_float64le_hex": "0000000000e07040",
+    "current_damping_float64le_hex": "0000000000003b40",
+    "same_actual64_parent_as_request66": true,
+    "actual_parent_warm_sha256": "3b25ea84dfababece99e1dc098d56cdcebd94737e428e509140e818d48e8eb1e",
+    "actual_parent_status_sha256": "037fb9eeaeb196f74976188efb9515736396f2c86a44fde4e93251e92ca01466",
+    "original_twenty_query_entry_source_sha256": "9d750fcba45624f23dbae19ca44fded0437f1f5dc15943879cbf046064fe22ee",
+    "original_full_trial_engine_source_sha256": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+    "typed_domain_source_sha256": "16157412cbb4af0d01ade0cb3e373413fda175059186ccf17ef3b1d727d27ce1",
+    "selected_query_count": 20,
+    "selected_angle_row_count": 40960,
+    "complete_B_local_dimension": 6763,
+    "complete_B_declared_physical_nodes": [
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486
+    ],
+    "explicit_zero_B_layout_nodes": [
+      484
+    ],
+    "complete_original_A_b_g_row_weights_chart_and_B_formulas_unchanged": true,
+    "original_complete_g_equals_A_transpose_b_retained": true,
+    "actual_reconstructed_model_arrays_must_be_read_from_this_run": true,
+    "same_input_does_not_claim_future_array_hashes_before_execution": true,
+    "B_model_metadata_hash_may_change_with_new_producer_identity": true,
+    "original_C_formula": "sqrt(original complete column_norm_squared + damping**2)",
+    "C_rebuilt_with_explicit_damping": true,
+    "original_C270_bytes_not_reused_or_claimed_unchanged": true,
+    "full_QR_and_local_root_rebuilt_with_explicit_damping": true,
+    "no_old_lambda270_factor_or_root_reused": true,
+    "baseline_fixed_C_support_dimension": 4059,
+    "baseline_C_all_outside_raw_contributions_retained": true,
+    "complete_H_direction_not_limited_to_baseline_C_support": true,
+    "inequality_reserve_theta_unchanged": 0.5,
+    "full_B_constraints_retained": true,
+    "original_512_working_200_dual_200_LSMR_experiment_preserved": true,
+    "original_seventeen_trials_and_domain_RMS_BC_and_merit_preserved": true,
+    "damping_penalty_not_added_to_actual_nonlinear_merit": true,
+    "original_new_warm_complete_FD_required": true,
+    "one_explicit_damping_value_no_scan": true,
+    "lower_damping_monotone_row_or_nonlinear_improvement_claimed": false,
+    "actual65_center_observation_does_not_certify_unique_damping_cause": true,
+    "scientific_acceptance_or_new_gate_created": false
+  }
+}
