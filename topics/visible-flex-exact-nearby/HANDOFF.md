@@ -5,7 +5,7 @@
 ## 规则与工作位置
 
 唯一工作仓库 Rogerhu12/math-research-public；只使用本仓库 Actions。新目录 `/workspace/scratch/0df957a82d09/math-research-public` 是 blob:none 部分克隆，仅先检出正文、脚本和 workflow；大数据按需只读旧检查点或在公开 Actions 重建。
-最后实际 pull --rebase 与两 README 差异检查：626d91411bf398c4a9f0b45378bb7c50fb6fb8cf；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
+最后实际 pull --rebase 与两 README 差异检查：770a58e432672ca0ba92386523a7df58a51bfd65；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
 每次推送前 pull/rebase 并检查两个 README；至少每小时 pull；每条结论独立提交推送；非快进立即 rebase 后重推，不 force。PAT 仅瞬时命令行环境，不入文件或输出。root 管 Git/HANDOFF/open/results 索引/log，代理只写自己新文件。
 
 ## 目标和准确对象
@@ -50,3 +50,5 @@ phase旧完整请求只到127germ且已正常返回，不再等待其自动覆�
 最终几何已归结为明确同对象充分门：eta0、完整物理C0差≤1e−4、|δν|≤1e−5及真实外部原球/全匹配；完整frame周期+mean比值先给腰绕转1，不借未证嵌入。所有几何比例有余量，但存在该闭解及误差球仍为主缺口。
 
 主体43583838026成功后，visible-exact-body-complete-mean.yml自动消费原八行工件和prepare，核40片7721行后运行原双mean误差consumer；无需重跑任何成功行。完整inverse仍另待证明。
+
+K48完整Laurent修正已付全部尾/源/root，真A1/50缺陷约1.464e−13；只定义精确提案和显式族，真PDE/全ν响应仍欠。小consumer原生记录保留实际来源，另接公开Actions同源复算。
