@@ -43,3 +43,7 @@
 - 2026-11-14 16:30:48 UTC：全文核43615531666小process及两summary全部25+11门，独立发布全实δ外/正高证书；本体25.5MB留原13分片，无connector二进制。核runner16:27:32真pull至12b06502f2e4d522ca5dc16d6064267859b3a0a1，两README无差。
 
 - 2026-11-14 16:33:23 UTC：推特定w0完整帽Hessian5件/152input，独立于fullcut正在跑的physical残差格；核原cf055准确首延拓、4源/mean/resolvent及真实prefix恢复。随后以实际结果替换已知方向additive并重消费完整cut/Green。
+
+## 2026-11-14 16:39:38 UTC — 扩大真实根域失败原样保留；仅修区间读取后续算
+
+实际 run43615829270 已在14.543639s保全负区/root全部成功前缀（native `feab71e2ba588e79f97f2beb821b5db29425bf7c69dceb010719ec0df6dd49cd`，2717855B），随后第一positive行的K符号门失败。原缓存独立directed lower/upper含严格正下界，而v1仅取显示ball。本提交独立v2准确复用原 `box_from_record` 的 `lower.lower().union(upper.upper())`；204输入与旧199输入逐path逐SHA完全一致并新增旧失败native/原来源。逐原interval与piece核后跳过全部实际成功前缀，旧169germ/4650行/response193系数不重算，原失败及六件源不修改。候选.001至.02真实半径须实际≥.005通过；未授forced幅度、strong/cutoff或PDE存在。H全文归档后更新。

@@ -116,3 +116,7 @@ H1–30共同酉形式保全部输入/mean/源与原4/3双窗；内部E/F<2^-900
 ### root波接线已成，真正low外与浅prefix仍未成
 
 V1–24给实际完整root波差、真实高消元后内部weighted差；原root/Q7谱门已在同一个非空共同好集交中重付。后续须付无限low-tail和可能未属高窗的129..8192浅prefix的真实外Poisson，保持外条件、joint列、源标签及最终权。
+
+## 2026-11-14 16:39:38 UTC — 更大根域续算入口
+
+v1 run43615829270首positive行因读取显示ball而未使用原directed正下界失败；数学成功前缀及失败native全保。已发 `visible-exact-piecewise-real-root-fold-resume-v2.yml`，204固定输入，先按真实interval/piece复用全部完成prefix再继续。不得重算旧169germ/4650行，也不得据尚未执行的候选域授strong常数。
