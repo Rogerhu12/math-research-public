@@ -297,3 +297,7 @@
 ## full realδ外图与4650格正高块：最小实际验证流水线
 
 20个固定输入直接消费完整右端193证书、原17MB/4650格正区native、完整7721格repair-source、旧非线性外图与两份已证转移合同。原数组/target/端点/矩阵/非线性solve不重跑；只重付新δ物理角与全部非线性外端口预算、4650格小δ系数/新Riccati下流/双阶Volterra扫。新20input manifest保完整mean/head/jump、shell288、order1独立右口；所有未知高频保。子结果按真实成功child/source/全input/native可复用，即便后续发布失败；摘要≤60KB，失败本体全部保。工作流已推，实际数值门未预授。
+
+## 同一连续Z全部7721格源的公开实际验收
+
+[完整实际报告](results/R133-supplement-actual-complete7721-continuous-Z-source-cover.md)：run43613560173的plan/四range/finish全成功，实际新1147行，旧14pilot/40子格与全部原jets复用，0新target。完整mean保留；[0,25/8] full源<2.725862e−6、low193<2.723698e−6、已知high97–160<1.961163e−6。固定负区窗full<3.125876e−7、low<2.931414e−7、high<2.308005e−7。native365f0763d8f4c87182507c4372a3be055624607a77d818a084471b368b33d32e。仅完整已知源证书；同Z真实边界、全部projector跳、Green响应与未知high反馈继续。
