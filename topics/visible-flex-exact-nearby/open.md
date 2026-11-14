@@ -123,3 +123,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14 18:01:21 UTC：第一 forcing 的真实 NaN 已定位，继续同一前缀
 
 43623626229 实际 child1、5门通过、复用原1格、0新格，失败 native `7830eac86254b46d43842fb203bb04b32ea6aeec9777d868ebb25e2a4a8f2735`/12448B；main process `586307446b839616a3d3d7cd7f1b5d612908ee3fa42b913a4cd251887120e260`/28411B。root亲读全部诊断：common2457的原gamma midpoint和whole均严格正，Taylor0–2却是NaN，whole3有限；该完整原row的X跨0。v4改为严格同一Taylor式的有界Horner乘法，再交同函数wholejet；保ordinary derivatives/factorial/third remainder，禁止abs或改符号门。新公开child先保存原整数幂入口与Horner的实际cross-zero对照，再从原ac235e成功1格继续，未把v3 NaN算成功前缀。
+
+### 2026-11-14 18:05:07 UTC：完整第一 Airy seam 算子费已解析支付，待真实1079格累计
+
+[R133 A.1–14](results/R133-supplement-complete-real-Airy-seam-operator-in-negative-source-window.md) 由 root/tail 独核：两导symbol的近频Schur与远频全矩阵Hilbert–Schmidt给 $H^{-4/3}\to H^{-5/3}$，含全部low/mean输出；真实circle map以adjoint链式法则付 $H^{-5/3}$，不假设列正交。Airy用真实中心区与两实phase分解，覆盖小argument、保Ai′的 $1/(4n)$ 项。密度 $n^{7/6}$ 与首修正 $n^{-1}$ 精确相消后，原顺序 $JP$ 和已付 $J:H^{-5/3}\to H^{-2/3}$ 给完整jump列。正侧只授raw混合窗，须继续付positive weighted port；负侧须实际消费1079真seam与六R Cauchy列，尚非全CE/Cs或N97 inverse。

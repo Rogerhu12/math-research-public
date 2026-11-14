@@ -179,3 +179,7 @@ newton实现、tail独核原 directed FFT/Box/reduce_box与完整残差/两种�
 ### 2026-11-14 18:01:21 UTC：第一 forcing 跨零 Taylor Horner 修复与真实pull记录
 
 source `ba25934f0f6e147f293644edc93b2adf1c33d5935f86596d96355cf063c95fa6`，CI `eb6ac89d60a378f9d9b66e5a32da4e52ab5655b79c8ae646ffad73df7fb88cff`，24-pin manifest `a7790a87932a22997e29dfa2085982ac7adbbef9fd36512918eec975dd3c5341`；worker/原manifest归档/唯一历史1格证书不变。root亲读v3 process和worker：CI数学墙时1.015842637s，worker总child墙时1.216494263s；实际before/after pull均 `8b1b2692982db0c6f81add24c2c8515f1c7a966e`、两README diff空。v4静态逐阶核Horner等价，不声称本地执行；新的runtime probe与真正forcing仍只在公开Actions运行。
+
+### 2026-11-14 18:05:07 UTC：独立推送完整负阶 Airy seam 合同
+
+root完整读A1–14并核Schur+HS常数、反函数导数/adjoint Frobenius矩阵、Airy能量5/(36t²)、Ai′真实1/(4n)项、n7/6×n−1和原J负阶入口；亲查piecewise source保存J_Hminus5over3_to_Hminus2over3，不从analytic strip范数擅自推Sobolev逆。tail另行逐常数独核通过。1079格consumer只从已有root/forcing/Cauchy原bytes继续，尚未伪造累计数值。

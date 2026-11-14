@@ -413,3 +413,7 @@
 ### R119：真实平均模 Green 域及全部 remaining 开放内部逆
 
 证明见 [flat mean Green domain](results/R119-supplement-flat-mean-Green-domain-and-complete-open-internal-inverse.md)（M.1–30，root/tail独核）。同一新ν权下，mean逐块核为 $2^{512}J_jJ_k\delta_{\min(j,k)}^{-4}2^{-|j-k|/2}$，全无限和给 $\|\nu R_{Z,0}\nu\|<2^{-860000}$。平端明确施加物理平均总通量趋0/平均高度有限；原真实根恢复与adjoint均值行付清canonical/physical域比较，保所有非零频密度贡献。结合原全非零逆及差 $<2^{-6000000}$ 得声明域上完整开放内部 $\|\nu R_a\nu\|<2$。实际外输入输出、mean两列、全H/D消元、ordinary/weak/Piola/Γ和端角源完整保留；外regular闭合及强标签/全C²重建仍待证。纯解析新结论，无新本地数学计算。
+
+### R133：真实第一 Airy seam 的完整负阶源窗
+
+[完整seam算子证明](results/R133-supplement-complete-real-Airy-seam-operator-in-negative-source-window.md)，SHA256 `16467e1459f92971a1440cee84c3e2ee5ab4fedc1ba48cca127105dc6ecb3841`。全部高输入 $|j|\ge97$ 的符号可依j任意变化，两阶角导数预算仍以完整Schur+远频HS得到源 $H^{-4/3}$ 到 $H^{-5/3}$ 的明确范数公式；不以有限频fit/列正交代全算子。真实Airy中心/振荡/正侧实argument均有C²常数，再接原完整J给首state jump $H^{-2/3}\times H^{-1}$，包括mean、parity和真实投影顺序。root重推矩阵权、composition adjoint与Airy两行符号，tail独核通过。实际累计与其它ordinary/I/J/高阶seam/endpoint列仍未完成。
