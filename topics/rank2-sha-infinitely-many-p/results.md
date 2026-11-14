@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R505：实际接触Bockstein、同预算F²嵌入与完整ξ吸收](results/R505-actual-contact-bockstein-and-full-xi-source-absorption.md)：原全部ξ向量是实际接触障碍经同一来源尾嵌入的像，保全部三块交换与原真行全局对偶。q=h−k<−KXC时可用真实同预算F²H修正吸收，临界高b和余核核/carry相消仍未付；原M边界、同一修正第三精度和首共振界全部保持。
+
 - [R503：原全部浅环带、18/2466正交核与唯一单位边界](results/R503-original-unit-annuli-and-single-shallow-boundary.md)：同一真实三输入的U/P两轴有完整β/χ_Vλ核心；所有正深浅环带是固定A(u,T)的精确Euler差，中央与质量均有单位第五阶。质量六项多项式全部付清，整浅支望远镜归为唯一固定B0，JS(u)=B0(u)+βA(u,κ)；B0质量无条件v5，反证中央亦v5，两个近相消删去及尺度log全保。
 
 - [R502：低ell完整首Bockstein与真行剩余配对](results/R502-full-low-ell-bockstein-and-actual-geometric-residue.md)：原同预算因子化基准的整个首Bockstein保Gaussian/t-w carry及活着的V1项；raw ζ³一般不零，不能先在3C截断。经完整Q单位和真实低行消元后，真左行剩余准确含第一carry、实际ξ极配对、法向/C混合及低行高尾，原M相对投影与第三精度全部保持。
