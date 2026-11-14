@@ -1,0 +1,212 @@
+"name": "visible-larger fresh current576 complete native continuation"
+"on":
+  "push":
+    "branches":
+      - "main"
+    "paths":
+      - "topics/visible-flex-larger-amplitude/computations/public-native-current576-request.json"
+"permissions":
+  "contents": "write"
+  "actions": "read"
+"defaults":
+  "run":
+    "shell": "bash"
+"jobs":
+  "current576native":
+    "name": "Fresh current576 damped corrections in the complete original native solve"
+    "runs-on": "ubuntu-latest"
+    "timeout-minutes": 350
+    "concurrency":
+      "group": "visible-larger-public-current576native"
+      "cancel-in-progress": false
+    "env":
+      "PYTHONDONTWRITEBYTECODE": "1"
+      "PYTHONUNBUFFERED": "1"
+      "OPENBLAS_NUM_THREADS": "1"
+      "OMP_NUM_THREADS": "1"
+      "MKL_NUM_THREADS": "1"
+      "NUMEXPR_NUM_THREADS": "1"
+    "steps":
+      -
+        "uses": "actions/checkout@11d5960a326750d5838078e36cf38b85af677262"
+        "with":
+          "fetch-depth": 1
+          "filter": "blob:none"
+          "persist-credentials": false
+          "sparse-checkout-cone-mode": false
+          "sparse-checkout": |
+            /README.md
+            /topics/visible-flex-larger-amplitude/*.md
+            /topics/visible-flex-larger-amplitude/computations/
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43640772654-1-original576damped/native-original576-damped-chain-original-trial/
+      -
+        "name": "Bound maintenance and establish independent complete direction output"
+        "run": |
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+          mkdir -p "$RUNNER_TEMP/visible-native-current576/current576native"
+          echo "VISIBLE_OUT=$RUNNER_TEMP/visible-native-current576/current576native" >> "$GITHUB_ENV"
+          echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+          echo "VISIBLE_SELECTED59=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43640772654-1-original576damped/native-original576-damped-chain-original-trial" >> "$GITHUB_ENV"
+      -
+        "uses": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065"
+        "with":
+          "python-version": "3.12.14"
+      -
+        "uses": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020"
+        "with":
+          "node-version": "24.22.1"
+      -
+        "name": "Install unchanged native-reader dependencies"
+        "run": "python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0"
+      -
+        "name": "Bind all sources and selected parent bytes, and compile Python without importing"
+        "run": |
+          python - <<'PYPINS'
+          import hashlib, json, os, re, subprocess
+          from pathlib import Path
+          comp = Path(os.environ['VISIBLE_COMPUTATIONS'])
+          request_path = comp/'public-native-current576-request.json'
+          request_raw = request_path.read_bytes()
+          request = json.loads(request_raw)
+          if request.get('repository') != 'Rogerhu12/math-research-public' or request.get('lanes') != ['current576native']:
+              raise ValueError('Use exactly this public current576native request')
+          required = {
+              'exact_20261114_current576_damped_system.py',
+              'exact_20261114_current576_damped_chain_qr.py',
+              'exact_20261114_native_damped_chain_qr.py',
+              'exact_20261114_native_allrows_dyadic_residual.py',
+              'geometry_20261114_native_captured_band_correction.py',
+              'geometry_20261114_native_current576_damped_solve.py',
+              'geometry_20261114_native_current576_damped_solve_hook.mjs',
+              'exact_20261114_true_tail_client.py',
+              'exact_20261114_seeded_zero_tail_client.py',
+              'tail_frozen_worker.mjs', 'tail_resumable_engine.mjs',
+              'exact_20261114_public_resume.py', 'root_20261114_publish_actions.py',
+              'root_20261114_current576_rules_runner.py',
+          }
+          pins = request.get('source_sha256')
+          if not isinstance(pins, dict) or not required.issubset(pins):
+              raise ValueError('Pin all current and frozen sources including the rule runner')
+          verified = []
+          for name, expected in pins.items():
+              if Path(name).name != name or not isinstance(expected, str) or not re.fullmatch(r'[0-9a-f]{64}', expected):
+                  raise ValueError('Use a basename and full SHA256 for every source')
+              raw = (comp/name).read_bytes()
+              actual = hashlib.sha256(raw).hexdigest()
+              if actual != expected:
+                  raise ValueError('Requested source bytes changed: '+name)
+              if name.endswith('.py'):
+                  compile(raw, name, 'exec')
+              verified.append(dict(file=name, bytes=len(raw), sha256=actual))
+          selected = Path(os.environ['VISIBLE_SELECTED59'])
+          if len(request['inputs']['files']) != 13:
+              raise ValueError('All thirteen actual59 inputs are required')
+          parent_files = []
+          for item in request['inputs']['files']:
+              name = item['file']
+              if Path(name).name != name:
+                  raise ValueError('Each selected input must be a basename')
+              raw = (selected/name).read_bytes()
+              if len(raw) != item['bytes'] or hashlib.sha256(raw).hexdigest() != item['sha256']:
+                  raise ValueError('Actual59 selected input changed: '+name)
+              parent_files.append(item)
+          source_commit = subprocess.check_output(['git','rev-parse','HEAD'], text=True).strip()
+          if source_commit != os.environ['GITHUB_SHA']:
+              raise ValueError('Science checkout must remain the triggering commit')
+          readmes = {name: subprocess.check_output(['git','rev-parse','HEAD:'+name], text=True).strip()
+              for name in ('README.md','topics/visible-flex-larger-amplitude/README.md')}
+          intent = dict(repository='Rogerhu12/math-research-public', lane='current576native',
+              source_commit=source_commit, current_run=os.environ['GITHUB_RUN_ID'],
+              request_sha256=hashlib.sha256(request_raw).hexdigest(), request=request,
+              verified_sources=verified, verified_selected_parent_files=parent_files,
+              source_checkout_readme_blobs=readmes, scientific_execution_claimed=False,
+              native_acceptance_claimed=False, original_inputs_outside_output_tree=True)
+          (Path(os.environ['VISIBLE_OUT'])/'current576-native-request-identity.json').write_text(
+              json.dumps(intent, indent=2)+'\n')
+          print(json.dumps(dict(source_commit=source_commit, verified_sources=len(verified),
+              verified_parent_files=len(parent_files), python_sources_compiled_not_imported=True)), flush=True)
+          PYPINS
+      -
+        "name": "Check the original worker, engine and synchronous bridge syntax"
+        "run": |
+          node --check "$VISIBLE_COMPUTATIONS/geometry_20261114_native_current576_damped_solve_hook.mjs"
+          node --check "$VISIBLE_COMPUTATIONS/tail_frozen_worker.mjs"
+          node --check "$VISIBLE_COMPUTATIONS/tail_resumable_engine.mjs"
+          node --version
+          python --version
+      -
+        "name": "Reserve storage for every original iteration and all raw factors"
+        "run": |
+          python - <<'PYSPACE'
+          import json, os, shutil, subprocess
+          from pathlib import Path
+          base = Path(os.environ['VISIBLE_OUT'])
+          before = shutil.disk_usage(base)._asdict()
+          removed = []
+          required = 34359738368
+          if before['free'] < required:
+              for name in ('/usr/local/lib/android','/usr/share/dotnet','/opt/ghc'):
+                  path = Path(name)
+                  if path.exists() and path.is_dir() and not path.is_symlink():
+                      subprocess.run(['sudo','rm','-rf','--',name], check=True)
+                      removed.append(name)
+          after = shutil.disk_usage(base)._asdict()
+          record = dict(before=before, after=after, unused_ephemeral_runner_SDKs_removed=removed,
+              required_free_bytes=required, original_max_iterations=32,
+              fixed_binary_payload_bytes_per_round=704385296,
+              exact_ledger_JSON_and_log_sizes_are_data_dependent=True,
+              original_iteration_or_tolerance_not_changed=True, all_scientific_payloads_retained=True)
+          (base/'runner-storage-reservation.json').write_text(json.dumps(record, indent=2)+'\n')
+          print(json.dumps(record), flush=True)
+          if after['free'] < required:
+              raise RuntimeError('Insufficient runner storage for the complete original iteration budget')
+          PYSPACE
+      -
+        "name": "Restore all78 original source files only from the public repository"
+        "run": |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE' 2>&1 | tee "$VISIBLE_OUT/public-source-restore.log"
+          import os
+          from pathlib import Path
+          from exact_20261114_public_resume import prepare_public_source
+          source = prepare_public_source(
+              Path.cwd(), Path(os.environ['RUNNER_TEMP'])/'current576-61-public-original-source',
+              Path(os.environ['VISIBLE_OUT']))
+          with open(os.environ['GITHUB_ENV'],'a') as stream:
+              stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+          PYSOURCE
+      -
+        "name": "Continue the complete original solve with real pull and periodic rule synchronization"
+        "id": "native_continuation"
+        "timeout-minutes": 320
+        "env":
+          "GH_TOKEN": "${{ github.token }}"
+        "run": |
+          python -u "$VISIBLE_COMPUTATIONS/root_20261114_current576_rules_runner.py" \
+            --out "$VISIBLE_OUT/rule-sync" --command \
+            python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_native_current576_damped_solve.py" \
+            --selected-directory "$VISIBLE_SELECTED59" \
+            --source-topic "$VISIBLE_SOURCE_TOPIC" \
+            --eta 1 --node-heap 6144 --exact-workers 2 \
+            --max-factor-bytes 2147483648 \
+            --out "$VISIBLE_OUT/native-current576-damped" \
+            2>&1 | tee "$VISIBLE_OUT/native-current576-damped.log"
+      -
+        "name": "Preserve every current snapshot, complete factor and original native outcome"
+        "if": "always()"
+        "uses": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02"
+        "with":
+          "name": "visible-mainline-current576native-${{ github.run_id }}-${{ github.run_attempt }}"
+          "path": "${{ runner.temp }}/visible-native-current576/current576native/"
+          "compression-level": 1
+          "retention-days": 30
+          "if-no-files-found": "warn"
+      -
+        "name": "Publish bounded results with ordinary rebase and README checks"
+        "if": "always()"
+        "env":
+          "GH_TOKEN": "${{ github.token }}"
+        "run": |
+          python -u "$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py" \
+            --results "$RUNNER_TEMP/visible-native-current576/current576native" --lane current576native

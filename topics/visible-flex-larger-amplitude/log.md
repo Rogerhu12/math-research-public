@@ -593,3 +593,9 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 两完整接口及四源码已全文读；adapter695c2a56/QRac04842b/launcher06b8c44c/hook0933ee81。首次selected59保8负零，每轮真withJ当前576全阵/原cut/far/σ接R273eta1；原十trial、2e−9/32轮/finalJ/fresh audit保持，minA/D不增finite门。四源恢复SHA精确等断线前AST/Node字节；61触发等待规则runner最后pin，不冒已执行。
 62实际43642866864/sourcecc813fa7的warm/FD/upload/publish全success。21:39共享exec-server失联且恢复超时，完整下载未核complete；按根Rule8仅小文本API保全，PAT未进connector。新共享workflow visible-larger-public-actual62-readback.yml负责原artifact14132473712只读取件/CRC/byte审，reader03a78684先保原trial/FD/新父身份、后全数组审，失败保repr/trace；不重复数学。publisher增current576native lane为61准备；所有大件仍artifact-only。
 60全审d46fa510后仅撤本地255已核payload616150076B，保parentpair/小件/b+Az及partialmarker/receiptb79cd3fc；公开artifact不变。双README在最新main再次核同，API读取不冒真实本地pull；61规则runner将于Actions真正pull/H记录并45分钟续查。课题未完成，继续两线。
+
+
+## 2026-11-14 21:58 UTC：request61触发完整原native，actual62读回通过
+
+61新workflow visible-larger-public-current576-native.yml与14source pins/13实际selected输入一致，root已全文读。规则runner原嵌入README的replacement-string转义污染在发布前发现，改为实际两原文双JSON转义/slice拼接，最终3b8b6dd5；其余Git/子进程逻辑字节保持。Actions起步AST，独立partial镜像真pull/H更新和45分钟续查；科学仍原576/原十trial/原tol/finalJ/audit。全部32轮大件保、32GiB预检不改科学门。
+62既有artifact只读run43645082618完成：alpha1/4 merit43.91772416957067→43.80252837065667，col.007109265719764634/BC3.316280272939375e−8/FD7.060463202147657e−10；nearest1/2不只缺mid480/484，原已有left467/481/mid473也负，63继续同18从新dffaa532/4f823952一模型。163domain1052NPY/93condensed38全阵/14raw276059680B/53sources及父链全byte通过；complete factor未导出不冒独审。main两README再次核未变，具体接受闭场仍未取得。

@@ -41,6 +41,8 @@
 
 62接线已完成：[18查询独立接口](notes/2026-11-14-eighteen-query-condensed-col-observer-interface.md)四源及全部差异已全文读；数学核心8个AST与旧17逐项相等，27pins/11bash/6inlinePython静态通过。工作流先还原actual60原warm/status，运行新18一次完整模型及真正新warm FD；parent17与output18 schema明确分开。只增nearest467，没有新科学门；实际run43642866864/sourcecc813fa7521098fdeba86b8bf8c0fe7d8c96bba0的warm/FD/上传/发布均success。完整artifact下载时环境失联，未核complete标记；小报告已有三trial，具体接受/nearest拒绝/新父完整SHA/FDmax由新的Actions只读提取保存，不重跑数学。
 
+**62最新真实结论与63决定**：原run43642866864/sourcecc813fa7，经只读run43645082618完成原包CRC/身份/完整exported byte审。alpha1/4接受，固定本轮merit43.91772416957067→43.80252837065667，col.007109265719764634/BC3.316280272939375e−8/FD7.060463202147657e−10；全18/原node/mid/两698RMS合法。最近1/2有mid473/480/484失败，且已建模left467/481/mid473本身也负，不能称单独missing query原因；63从新pair dffaa532/4f823952继续同18一次新模型，λ/512/所有门保持。163domain/1052NPY、93condensed/38full、14raw276059680B、53sources均PASS；factor/wholecolraw未导出不冒审。
+
 [58最大col行的原保存方向](notes/2026-11-14-actual58-stored-final-direction-at-largest-collocation-row.md)：原row155819 b=-1.4154122374775011，最终完整H的已保存Az=.00026246452261009833，原W=199.07511842631416非零。完整模型本身对此行修正很小，不是漏行/零权重；已给对应精确代数预测式，不本地重算矩阵动作/贡献，也不凭此认定唯一λ原因或盲改模型。
 
 ### 1B. Native：先分清保存矩阵、传播与求解误差
@@ -77,7 +79,7 @@
 
 [当前原576迭代接R273的源码可行性](notes/2026-11-14-current-native576-R273-synchronous-interface-feasibility.md)已明确：可只接原with-J/tol后的cor调用，使用本次完整ev/J/r/cut/far/σ，原十trial/fresh audit不变；动态QR类可用但当前1372 main/context身份不可改标签。59首步接受后已选同步桥作61续接，独立当前snapshot/完整原native循环正在实现。
 
-61完整执行源已保存：[当前576快照与QR合同](notes/2026-11-14-current576-fresh-snapshot-and-damped-QR-interface.md)、[实际59 selected到完整原native](notes/2026-11-14-current576-selected59-full-native-R273-interface.md)。四源码695c2a56/ac04842b/06b8c44c/0933ee81与断线前AST/Node核同；只换唯一非线性correction、每轮真withJ全576、全577罚块/常数、原十noJ/容差/最终J及fresh audit保。minA/D只保原bits不增finite门；无旧28缓存/softcut投影。完整逐轮大件由本仓Actions保，32GiB为资源预算不改科学门。当前无61数值结果。终端失联后依根Rule8仅以<100KB小文本发布，真实pull/规则检查/H更新的Actions规则runner正在完成，61触发尚待其pin；令牌不进connector。62只读reader03a78684与独立工作流先启动，不等native接线、不重跑原数学。
+61完整执行源已保存：[当前576快照与QR合同](notes/2026-11-14-current576-fresh-snapshot-and-damped-QR-interface.md)、[实际59 selected到完整原native](notes/2026-11-14-current576-selected59-full-native-R273-interface.md)。四源码695c2a56/ac04842b/06b8c44c/0933ee81与断线前AST/Node核同；只换唯一非线性correction、每轮真withJ全576、全577罚块/常数、原十noJ/容差/最终J及fresh audit保。minA/D只保原bits不增finite门；无旧28缓存/softcut投影。完整逐轮大件由本仓Actions保，32GiB为资源预算不改科学门。当前无61数值结果。终端失联后依根Rule8仅以<100KB小文本发布，真实pull/规则检查/H更新的Actions规则runner3b8b6dd5已接好，61现在触发；令牌不进connector。62只读reader03a78684已在run43645082618完成原读数与完整exported byte审，不重跑原数学。
 
 ### 1C. 真fullDN衔接与备选
 
