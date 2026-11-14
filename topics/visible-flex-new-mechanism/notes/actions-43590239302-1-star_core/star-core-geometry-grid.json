@@ -1,0 +1,1145 @@
+{
+  "schema": "star-core-continuous-geometry-v1",
+  "status": "public_actions_geometric_screen",
+  "definition": {
+    "a": ".55,.60,.65",
+    "b": ".06,.09,.12",
+    "nodes": 4096,
+    "chord_samples": 1024,
+    "check_derivatives": true,
+    "smoke_only": false,
+    "out": "/home/runner/work/_temp/visible-new-mechanism/star_core/star-core-geometry-grid.json"
+  },
+  "continuous_bound_arithmetic": "50-digit directed Decimal trigonometry; outward IEEE-754 binary64 elementary vector operations",
+  "curve_segment_error_theorem": "sup ||gamma-linear_chord|| <= sup ||gamma_second_derivative|| * parameter_step^2 / 8",
+  "normal_chord_samples_are_not_reach_lower_bounds": true,
+  "nonconvex_cylindrical_core_cannot_be_assumed_to_enter_positive_K_inward_band": true,
+  "candidates": [
+    {
+      "a": ".55",
+      "b": ".06",
+      "radial_range": {
+        "lower": "0.51",
+        "upper": "1.61"
+      },
+      "curve_is_simple_regular_radial_graph": true,
+      "tip_radius": {
+        "lower": "1.61",
+        "upper": "1.61"
+      },
+      "valley_radius": {
+        "lower": "0.51",
+        "upper": "0.51"
+      },
+      "rotation_angle": "pi/3",
+      "rotated_tip_q_enclosure": {
+        "x": {
+          "lower": "0.805",
+          "upper": "0.805"
+        },
+        "y": {
+          "lower": "1.3943009000929462212895943049122272553889582293172",
+          "upper": "1.3943009000929462212895943049122272553889582293175"
+        }
+      },
+      "q_outside_filled_domain_proved_by_radial_gap": {
+        "lower": "1.10",
+        "upper": "1.10"
+      },
+      "continuous_distance_q_to_filled_star_domain": {
+        "lower": "0.92433788051148879847395791450549535555095886661466",
+        "upper": "0.92434352913310746449049757636816553669719481990877"
+      },
+      "continuous_full_curve_diameter": {
+        "lower": "2.8715451550650483464142818572281975879680363050521",
+        "upper": "2.8715508036866693397945632605219113742980404444306"
+      },
+      "continuous_witness_distance_over_planar_diameter": {
+        "lower": "0.32189501203487966396839126387401202522690615848439",
+        "upper": "0.32189761233692616513748501159320447253083977224976"
+      },
+      "planar_ratio_lower_at_least_03": true,
+      "continuous_absolute_curvature_upper": "8.9512080222373400925197348792566387677951420208731",
+      "exact_tip_signed_curvature": {
+        "lower": "3.3640677442999884263724393349022028471123799236140",
+        "upper": "3.3640677442999884263724393349022028471123799236142"
+      },
+      "exact_valley_signed_curvature": {
+        "lower": "-8.7658592848904267589388696655132641291810841983854",
+        "upper": "-8.7658592848904267589388696655132641291810841983851"
+      },
+      "nonconvexity_certified_at_valley": true,
+      "local_curvature_radius_lower_not_global_reach": "0.11171676465519696451321395790206136046384784333843",
+      "necessary_reach_over_planar_D_upper_for_vertical_cylinder_from_known_curvature": "0.039727373664035888255900027108714770803966429882713",
+      "continuous_perimeter": {
+        "lower": "9.4388131757330660910169376600802847366340891497393",
+        "upper": "9.5297200555633820130140349342472345843488779918341"
+      },
+      "continuous_mean_radius": {
+        "lower": "1.5022337738388280229747877006634866777394210435131",
+        "upper": "1.5167020531248837214579366121871263022019616941782"
+      },
+      "conditional_full_surface_diameter_budget_for_03_witness": {
+        "lower": "3.0811262683716293282465263816849845185031962220488",
+        "upper": "3.0811262683716293282465263816849845185031962220490"
+      },
+      "sufficient_total_z_span_budget_if_all_projection_stays_in_domain": "1.1169310916507450312873160663101047547367761059226",
+      "filled_domain_contains_coaxial_disk_radius": "0.51",
+      "subdivision_certificate": {
+        "segments": 4096,
+        "gamma_second_derivative_upper": {
+          "lower": "9.6020206206818781232493875973906153191181868594568",
+          "upper": "9.6020206206818781232493875973906153191181868594570"
+        },
+        "curve_to_exact_chords_Hausdorff_upper": "0.0000028243108086953353657380405332768998688190772834310",
+        "vertex_midpoint_radius_error_upper": "1.2352127024419358351159039896173172134693101746327E-16",
+        "q_midpoint_radius_error_upper": "7.0062423998634602132630182959509919183733356484484E-17",
+        "distance_to_binary64_polygon": {
+          "lower": "0.92434070482229768739301789537421427667140960693359375",
+          "upper": "0.92434070482229857557143759549944661557674407958984375"
+        },
+        "binary64_polygon_all_pairs_diameter": {
+          "lower": "2.871545155065048593456822345615364611148834228515625",
+          "upper": "2.8715451550650517020812912960536777973175048828125"
+        }
+      },
+      "samples": {
+        "angles": 1024,
+        "maximum_absolute_curvature_sample": 8.765859284890427,
+        "signed_curvature_sample_range": [
+          -8.765859284890427,
+          3.364067744299988
+        ],
+        "minimum_normal_chord_radius_sample": 0.1140925674074152,
+        "normal_chord_pair_indices": [
+          853,
+          854
+        ],
+        "normal_chord_pair_phi": [
+          5.2339424482658075,
+          5.240078371417351
+        ],
+        "pair_cyclic_grid_separation": 1,
+        "reach_lower_bound": false,
+        "normal_chords_only_give_necessary_upper_obstructions": true,
+        "continuous_or_roundoff_validated_sample": false
+      },
+      "scope": {
+        "continuous_bounds_apply_to": "the stated planar curve and its filled radial domain",
+        "transition_projection_containment_proved": false,
+        "fixed_metric_connector_obtained": false,
+        "closed_surface_obtained": false,
+        "held_amplitude_for_a_closed_surface_certified": false,
+        "reach_lower_certified": false,
+        "task_complete": false
+      },
+      "development_derivative_check": {
+        "first_derivative_relative_error": 1.258413170628216e-10,
+        "second_derivative_relative_error": 1.2295194168789638e-10,
+        "curvature_formula_max_difference": 1.7763568394002505e-15
+      }
+    },
+    {
+      "a": ".55",
+      "b": ".09",
+      "radial_range": {
+        "lower": "0.54",
+        "upper": "1.64"
+      },
+      "curve_is_simple_regular_radial_graph": true,
+      "tip_radius": {
+        "lower": "1.64",
+        "upper": "1.64"
+      },
+      "valley_radius": {
+        "lower": "0.54",
+        "upper": "0.54"
+      },
+      "rotation_angle": "pi/3",
+      "rotated_tip_q_enclosure": {
+        "x": {
+          "lower": "0.820",
+          "upper": "0.820"
+        },
+        "y": {
+          "lower": "1.4202816622064793806925060000348153408931003081244",
+          "upper": "1.4202816622064793806925060000348153408931003081247"
+        }
+      },
+      "q_outside_filled_domain_proved_by_radial_gap": {
+        "lower": "1.10",
+        "upper": "1.10"
+      },
+      "continuous_distance_q_to_filled_star_domain": {
+        "lower": "0.96490885688249015079323411987898170507111062923666",
+        "upper": "0.96491518768940234323336513193171240830264577945475"
+      },
+      "continuous_full_curve_diameter": {
+        "lower": "2.9171255258004029389925732674616132555430562601453",
+        "upper": "2.9171318566073173517907485060772058989554949543197"
+      },
+      "continuous_witness_distance_over_planar_diameter": {
+        "lower": "0.33077313755871784112029409385680493081972025940379",
+        "upper": "0.33077602563045285484259986518311481498013833111355"
+      },
+      "planar_ratio_lower_at_least_03": true,
+      "continuous_absolute_curvature_upper": "4.5176991433082496834288718361724439259208853279025",
+      "exact_tip_signed_curvature": {
+        "lower": "3.6548185603807257584770969660916121356335514574657",
+        "upper": "3.6548185603807257584770969660916121356335514574659"
+      },
+      "exact_valley_signed_curvature": {
+        "lower": "-4.0123456790123456790123456790123456790123456790125",
+        "upper": "-4.0123456790123456790123456790123456790123456790122"
+      },
+      "nonconvexity_certified_at_valley": true,
+      "local_curvature_radius_lower_not_global_reach": "0.22135161467784541110799784205026512873154491680132",
+      "necessary_reach_over_planar_D_upper_for_vertical_cylinder_from_known_curvature": "0.085437108217132726317360376010851705877012623823470",
+      "continuous_perimeter": {
+        "lower": "9.4571452414195162260686469120235837124122364681886",
+        "upper": "9.5607661415061408840310480592594069453700912584967"
+      },
+      "continuous_mean_radius": {
+        "lower": "1.5051514127099118814228783564858570451956575108197",
+        "upper": "1.5216431911663296013294131368026756366966852866782"
+      },
+      "conditional_full_surface_diameter_budget_for_03_witness": {
+        "lower": "3.2163628562749671693107803995966056835703687641221",
+        "upper": "3.2163628562749671693107803995966056835703687641223"
+      },
+      "sufficient_total_z_span_budget_if_all_projection_stays_in_domain": "1.3547441656608124298622506633562321364524222854177",
+      "filled_domain_contains_coaxial_disk_radius": "0.54",
+      "subdivision_certificate": {
+        "segments": 4096,
+        "gamma_second_derivative_upper": {
+          "lower": "10.761658794070735636259152915388510914135860250598",
+          "upper": "10.761658794070735636259152915388510914135860250600"
+        },
+        "curve_to_exact_chords_Hausdorff_upper": "0.0000031654034554059067996483172693353879322234434226727",
+        "vertex_midpoint_radius_error_upper": "1.2309002674788568519661697589824763844090987666516E-16",
+        "q_midpoint_radius_error_upper": "6.7622878028502967628976608812548838581112543177596E-17",
+        "distance_to_binary64_polygon": {
+          "lower": "0.9649120222859457474129385445849038660526275634765625",
+          "upper": "0.96491202228594674661366070722579024732112884521484375"
+        },
+        "binary64_polygon_all_pairs_diameter": {
+          "lower": "2.917125525800403185172626763232983648777008056640625",
+          "upper": "2.9171255258004062937970957136712968349456787109375"
+        }
+      },
+      "samples": {
+        "angles": 1024,
+        "maximum_absolute_curvature_sample": 4.024965066704866,
+        "signed_curvature_sample_range": [
+          -4.024965066704866,
+          3.6548185603807255
+        ],
+        "minimum_normal_chord_radius_sample": 0.24845179299134104,
+        "normal_chord_pair_indices": [
+          179,
+          178
+        ],
+        "normal_chord_pair_phi": [
+          1.0983302441261191,
+          1.0921943209745766
+        ],
+        "pair_cyclic_grid_separation": 1,
+        "reach_lower_bound": false,
+        "normal_chords_only_give_necessary_upper_obstructions": true,
+        "continuous_or_roundoff_validated_sample": false
+      },
+      "scope": {
+        "continuous_bounds_apply_to": "the stated planar curve and its filled radial domain",
+        "transition_projection_containment_proved": false,
+        "fixed_metric_connector_obtained": false,
+        "closed_surface_obtained": false,
+        "held_amplitude_for_a_closed_surface_certified": false,
+        "reach_lower_certified": false,
+        "task_complete": false
+      },
+      "development_derivative_check": {
+        "first_derivative_relative_error": 1.320259421469167e-10,
+        "second_derivative_relative_error": 1.220210022698414e-10,
+        "curvature_formula_max_difference": 1.1102230246251565e-15
+      }
+    },
+    {
+      "a": ".55",
+      "b": ".12",
+      "radial_range": {
+        "lower": "0.57",
+        "upper": "1.67"
+      },
+      "curve_is_simple_regular_radial_graph": true,
+      "tip_radius": {
+        "lower": "1.67",
+        "upper": "1.67"
+      },
+      "valley_radius": {
+        "lower": "0.57",
+        "upper": "0.57"
+      },
+      "rotation_angle": "pi/3",
+      "rotated_tip_q_enclosure": {
+        "x": {
+          "lower": "0.835",
+          "upper": "0.835"
+        },
+        "y": {
+          "lower": "1.4462624243200125400954176951574034263972423869316",
+          "upper": "1.4462624243200125400954176951574034263972423869318"
+        }
+      },
+      "q_outside_filled_domain_proved_by_radial_gap": {
+        "lower": "1.10",
+        "upper": "1.10"
+      },
+      "continuous_distance_q_to_filled_star_domain": {
+        "lower": "1.0048794453551770569340985615357891245160772516873",
+        "upper": "1.0048864591832289214515415211704424993719384953830"
+      },
+      "continuous_full_curve_diameter": {
+        "lower": "2.9640067855178340177347516901727440260695430198608",
+        "upper": "2.9640137993458874994946029782657776113470346834445"
+      },
+      "continuous_witness_distance_over_planar_diameter": {
+        "lower": "0.33902657456484803726638882193666890267214405839851",
+        "upper": "0.33902974314806360587517981729981846736873968785319"
+      },
+      "planar_ratio_lower_at_least_03": true,
+      "continuous_absolute_curvature_upper": "4.3084505503168111722962414688839972310821626547835",
+      "exact_tip_signed_curvature": {
+        "lower": "3.9226935350855175875793323532575567428018215066871",
+        "upper": "3.9226935350855175875793323532575567428018215066874"
+      },
+      "exact_valley_signed_curvature": {
+        "lower": "-0.18467220683287165281625115420129270544783010156972",
+        "upper": "-0.18467220683287165281625115420129270544783010156971"
+      },
+      "nonconvexity_certified_at_valley": true,
+      "local_curvature_radius_lower_not_global_reach": "0.23210200240698306088836011762322525602913754905983",
+      "necessary_reach_over_planar_D_upper_for_vertical_cylinder_from_known_curvature": "0.086007520327881571340955124256634302731360389035609",
+      "continuous_perimeter": {
+        "lower": "9.5241739132558190005434615045009509372299889748181",
+        "upper": "9.6375148035473726902283326278510309790582311690031"
+      },
+      "continuous_mean_radius": {
+        "lower": "1.5158193571615439771296986939643109308628445107926",
+        "upper": "1.5338581201058809571626205898188772427583517378460"
+      },
+      "conditional_full_surface_diameter_budget_for_03_witness": {
+        "lower": "3.3495981511839235231136618717859637483869241722909",
+        "upper": "3.3495981511839235231136618717859637483869241722911"
+      },
+      "sufficient_total_z_span_budget_if_all_projection_stays_in_domain": "1.5602659938939627940739389853489652764255768452747",
+      "filled_domain_contains_coaxial_disk_radius": "0.57",
+      "subdivision_certificate": {
+        "segments": 4096,
+        "gamma_second_derivative_upper": {
+          "lower": "11.922717810969108061908446257369906463305358200566",
+          "upper": "11.922717810969108061908446257369906463305358200568"
+        },
+        "curve_to_exact_chords_Hausdorff_upper": "0.0000035069140249516723334550192083487394930752854827722",
+        "vertex_midpoint_radius_error_upper": "1.1744767885690407592540745871467895424114535739458E-16",
+        "q_midpoint_radius_error_upper": "8.5982591930284464116738811168309181277416221728626E-17",
+        "distance_to_binary64_polygon": {
+          "lower": "1.0048829522692022120367028037435375154018402099609375",
+          "upper": "1.004882952269203766348937278962694108486175537109375"
+        },
+        "binary64_polygon_all_pairs_diameter": {
+          "lower": "2.96400678551783425263010940398089587688446044921875",
+          "upper": "2.964006785517837361254578354419209063053131103515625"
+        }
+      },
+      "samples": {
+        "angles": 1024,
+        "maximum_absolute_curvature_sample": 3.922693535085518,
+        "signed_curvature_sample_range": [
+          -3.7616595699756163,
+          3.922693535085518
+        ],
+        "minimum_normal_chord_radius_sample": 0.25494864371589043,
+        "normal_chord_pair_indices": [
+          683,
+          682
+        ],
+        "normal_chord_pair_phi": [
+          4.190835512503572,
+          4.184699589352029
+        ],
+        "pair_cyclic_grid_separation": 1,
+        "reach_lower_bound": false,
+        "normal_chords_only_give_necessary_upper_obstructions": true,
+        "continuous_or_roundoff_validated_sample": false
+      },
+      "scope": {
+        "continuous_bounds_apply_to": "the stated planar curve and its filled radial domain",
+        "transition_projection_containment_proved": false,
+        "fixed_metric_connector_obtained": false,
+        "closed_surface_obtained": false,
+        "held_amplitude_for_a_closed_surface_certified": false,
+        "reach_lower_certified": false,
+        "task_complete": false
+      },
+      "development_derivative_check": {
+        "first_derivative_relative_error": 1.0588562808259076e-10,
+        "second_derivative_relative_error": 1.1207013210128292e-10,
+        "curvature_formula_max_difference": 4.440892098500626e-16
+      }
+    },
+    {
+      "a": ".60",
+      "b": ".06",
+      "radial_range": {
+        "lower": "0.46",
+        "upper": "1.66"
+      },
+      "curve_is_simple_regular_radial_graph": true,
+      "tip_radius": {
+        "lower": "1.66",
+        "upper": "1.66"
+      },
+      "valley_radius": {
+        "lower": "0.46",
+        "upper": "0.46"
+      },
+      "rotation_angle": "pi/3",
+      "rotated_tip_q_enclosure": {
+        "x": {
+          "lower": "0.830",
+          "upper": "0.830"
+        },
+        "y": {
+          "lower": "1.4376021702821681536277804634498740645625283606625",
+          "upper": "1.4376021702821681536277804634498740645625283606628"
+        }
+      },
+      "q_outside_filled_domain_proved_by_radial_gap": {
+        "lower": "1.20",
+        "upper": "1.20"
+      },
+      "continuous_distance_q_to_filled_star_domain": {
+        "lower": "0.96669925728148036109585726275739406646844050996746",
+        "upper": "0.96670524702290590107425506890237184761408665067707"
+      },
+      "continuous_full_curve_diameter": {
+        "lower": "2.9585980023700419400193214698709142784442903149543",
+        "upper": "2.9586039921114693205815909695143115617097222614700"
+      },
+      "continuous_witness_distance_over_planar_diameter": {
+        "lower": "0.32674168623411317540250830980917464719587788016081",
+        "upper": "0.32674437224946006019667065357896848718599857902267"
+      },
+      "planar_ratio_lower_at_least_03": true,
+      "continuous_absolute_curvature_upper": "13.386917748432103079733488115810459481089648079646",
+      "exact_tip_signed_curvature": {
+        "lower": "3.3459137755842647699230657570039192916243286398606",
+        "upper": "3.3459137755842647699230657570039192916243286398608"
+      },
+      "exact_valley_signed_curvature": {
+        "lower": "-13.137996219281663516068052930056710775047258979207",
+        "upper": "-13.137996219281663516068052930056710775047258979205"
+      },
+      "nonconvexity_certified_at_valley": true,
+      "local_curvature_radius_lower_not_global_reach": "0.074699794141718811798880541520530724241795776444605",
+      "necessary_reach_over_planar_D_upper_for_vertical_cylinder_from_known_curvature": "0.025726748903600824061370078057612133917201613611411",
+      "continuous_perimeter": {
+        "lower": "9.9132140257951341382873719496980554235456623467496",
+        "upper": "10.012131309163579622835654598387547029882013612642"
+      },
+      "continuous_mean_radius": {
+        "lower": "1.5777370141332032349057326005524036515986454004575",
+        "upper": "1.5934801887385130609661110255831862589081142204221"
+      },
+      "conditional_full_surface_diameter_budget_for_03_witness": {
+        "lower": "3.2223308576049345369861908758579802215614683665581",
+        "upper": "3.2223308576049345369861908758579802215614683665583"
+      },
+      "sufficient_total_z_span_budget_if_all_projection_stays_in_domain": "1.2767453049590704023096528358670365444520471377071",
+      "filled_domain_contains_coaxial_disk_radius": "0.46",
+      "subdivision_certificate": {
+        "segments": 4096,
+        "gamma_second_derivative_upper": {
+          "lower": "10.181885876398340382254807200702172458753993855880",
+          "upper": "10.181885876398340382254807200702172458753993855882"
+        },
+        "curve_to_exact_chords_Hausdorff_upper": "0.0000029948707120743585087312291291692568463761027643912",
+        "vertex_midpoint_radius_error_upper": "1.4182749823420236048200893394408534844415064725545E-16",
+        "q_midpoint_radius_error_upper": "5.4202830856320556048672792109297546030600698695050E-17",
+        "distance_to_binary64_polygon": {
+          "lower": "0.966702252152192631484695084509439766407012939453125",
+          "upper": "0.96670225215219363068541724715032614767551422119140625"
+        },
+        "binary64_polygon_all_pairs_diameter": {
+          "lower": "2.958598002370042223674317938275635242462158203125",
+          "upper": "2.95859800237004488820957703865133225917816162109375"
+        }
+      },
+      "samples": {
+        "angles": 1024,
+        "maximum_absolute_curvature_sample": 13.13799621928166,
+        "signed_curvature_sample_range": [
+          -13.13799621928166,
+          3.345913775584264
+        ],
+        "minimum_normal_chord_radius_sample": 0.07612994854600204,
+        "normal_chord_pair_indices": [
+          853,
+          854
+        ],
+        "normal_chord_pair_phi": [
+          5.2339424482658075,
+          5.240078371417351
+        ],
+        "pair_cyclic_grid_separation": 1,
+        "reach_lower_bound": false,
+        "normal_chords_only_give_necessary_upper_obstructions": true,
+        "continuous_or_roundoff_validated_sample": false
+      },
+      "scope": {
+        "continuous_bounds_apply_to": "the stated planar curve and its filled radial domain",
+        "transition_projection_containment_proved": false,
+        "fixed_metric_connector_obtained": false,
+        "closed_surface_obtained": false,
+        "held_amplitude_for_a_closed_surface_certified": false,
+        "reach_lower_certified": false,
+        "task_complete": false
+      },
+      "development_derivative_check": {
+        "first_derivative_relative_error": 1.0647087010860157e-10,
+        "second_derivative_relative_error": 1.127255356272541e-10,
+        "curvature_formula_max_difference": 8.881784197001252e-16
+      }
+    },
+    {
+      "a": ".60",
+      "b": ".09",
+      "radial_range": {
+        "lower": "0.49",
+        "upper": "1.69"
+      },
+      "curve_is_simple_regular_radial_graph": true,
+      "tip_radius": {
+        "lower": "1.69",
+        "upper": "1.69"
+      },
+      "valley_radius": {
+        "lower": "0.49",
+        "upper": "0.49"
+      },
+      "rotation_angle": "pi/3",
+      "rotated_tip_q_enclosure": {
+        "x": {
+          "lower": "0.845",
+          "upper": "0.845"
+        },
+        "y": {
+          "lower": "1.4635829323957013130306921585724621500666704394697",
+          "upper": "1.4635829323957013130306921585724621500666704394699"
+        }
+      },
+      "q_outside_filled_domain_proved_by_radial_gap": {
+        "lower": "1.20",
+        "upper": "1.20"
+      },
+      "continuous_distance_q_to_filled_star_domain": {
+        "lower": "1.0061146909351181992995073795983809365144768565577",
+        "upper": "1.0061213623724933725392126308205295966752967030126"
+      },
+      "continuous_full_curve_diameter": {
+        "lower": "3.0045259551673064191273436881992979840992499058063",
+        "upper": "3.0045326266046824018420517982723181847575172859274"
+      },
+      "continuous_witness_distance_over_planar_diameter": {
+        "lower": "0.33486562336721679848634228838831074745324318179367",
+        "upper": "0.33486858738634784345052223143952959088787802319422"
+      },
+      "planar_ratio_lower_at_least_03": true,
+      "continuous_absolute_curvature_upper": "7.3230869190626384524723049583483987426807169714108",
+      "exact_tip_signed_curvature": {
+        "lower": "3.6168201393508630650187318371205490003851405763102",
+        "upper": "3.6168201393508630650187318371205490003851405763104"
+      },
+      "exact_valley_signed_curvature": {
+        "lower": "-6.9554352353186172428154935443565181174510620574762",
+        "upper": "-6.9554352353186172428154935443565181174510620574759"
+      },
+      "nonconvexity_certified_at_valley": true,
+      "local_curvature_radius_lower_not_global_reach": "0.13655443545220147092522101510790220725821696951977",
+      "necessary_reach_over_planar_D_upper_for_vertical_cylinder_from_known_curvature": "0.047851959755100341360367953821535014744933209597883",
+      "continuous_perimeter": {
+        "lower": "9.9149437937548736464915931773902238540345422273431",
+        "upper": "10.027542130837184535445814664438872885754961143035"
+      },
+      "continuous_mean_radius": {
+        "lower": "1.5780123152543977602362859815229486068082066365919",
+        "upper": "1.5959328971849749980692713467834816996345638979178"
+      },
+      "conditional_full_surface_diameter_budget_for_03_witness": {
+        "lower": "3.3537156364503939976650245986612697883815895218589",
+        "upper": "3.3537156364503939976650245986612697883815895218591"
+      },
+      "sufficient_total_z_span_budget_if_all_projection_stays_in_domain": "1.4900309613695412722216447670470812752438547551482",
+      "filled_domain_contains_coaxial_disk_radius": "0.49",
+      "subdivision_certificate": {
+        "segments": 4096,
+        "gamma_second_derivative_upper": {
+          "lower": "11.340692218731623791408705640433982844675688775992",
+          "upper": "11.340692218731623791408705640433982844675688775994"
+        },
+        "curve_to_exact_chords_Hausdorff_upper": "0.0000033357186863837682426827128047446609275411793663527",
+        "vertex_midpoint_radius_error_upper": "1.3766074091106792842365510221994836855945879988568E-16",
+        "q_midpoint_radius_error_upper": "6.5990146869189454780495878880361416679734348422536E-17",
+        "distance_to_binary64_polygon": {
+          "lower": "1.006118026653804786718637842568568885326385498046875",
+          "upper": "1.0061180266538067851200821678503416478633880615234375"
+        },
+        "binary64_polygon_all_pairs_diameter": {
+          "lower": "3.004525955167306694448825510335154831409454345703125",
+          "upper": "3.004525955167309358984084610710851848125457763671875"
+        }
+      },
+      "samples": {
+        "angles": 1024,
+        "maximum_absolute_curvature_sample": 6.955435235318617,
+        "signed_curvature_sample_range": [
+          -6.955435235318617,
+          3.6168201393508617
+        ],
+        "minimum_normal_chord_radius_sample": 0.1437800442762032,
+        "normal_chord_pair_indices": [
+          853,
+          854
+        ],
+        "normal_chord_pair_phi": [
+          5.2339424482658075,
+          5.240078371417351
+        ],
+        "pair_cyclic_grid_separation": 1,
+        "reach_lower_bound": false,
+        "normal_chords_only_give_necessary_upper_obstructions": true,
+        "continuous_or_roundoff_validated_sample": false
+      },
+      "scope": {
+        "continuous_bounds_apply_to": "the stated planar curve and its filled radial domain",
+        "transition_projection_containment_proved": false,
+        "fixed_metric_connector_obtained": false,
+        "closed_surface_obtained": false,
+        "held_amplitude_for_a_closed_surface_certified": false,
+        "reach_lower_certified": false,
+        "task_complete": false
+      },
+      "development_derivative_check": {
+        "first_derivative_relative_error": 1.1222843068384276e-10,
+        "second_derivative_relative_error": 1.1332663159957972e-10,
+        "curvature_formula_max_difference": 2.6645352591003757e-15
+      }
+    },
+    {
+      "a": ".60",
+      "b": ".12",
+      "radial_range": {
+        "lower": "0.52",
+        "upper": "1.72"
+      },
+      "curve_is_simple_regular_radial_graph": true,
+      "tip_radius": {
+        "lower": "1.72",
+        "upper": "1.72"
+      },
+      "valley_radius": {
+        "lower": "0.52",
+        "upper": "0.52"
+      },
+      "rotation_angle": "pi/3",
+      "rotated_tip_q_enclosure": {
+        "x": {
+          "lower": "0.860",
+          "upper": "0.860"
+        },
+        "y": {
+          "lower": "1.4895636945092344724336038536950502355708125182768",
+          "upper": "1.4895636945092344724336038536950502355708125182771"
+        }
+      },
+      "q_outside_filled_domain_proved_by_radial_gap": {
+        "lower": "1.20",
+        "upper": "1.20"
+      },
+      "continuous_distance_q_to_filled_star_domain": {
+        "lower": "1.0448467926617587060420075055136151792326931520597",
+        "upper": "1.0448541466830224770959037790616236446579928830966"
+      },
+      "continuous_full_curve_diameter": {
+        "lower": "3.0516306958194971145036232021105061786907285495686",
+        "upper": "3.0516380498407619457369449062100735432700791477931"
+      },
+      "continuous_witness_distance_over_planar_diameter": {
+        "lower": "0.34238883366796400959697396068876007064135726162629",
+        "upper": "0.34239206864526350060592238883518149638702941651286"
+      },
+      "planar_ratio_lower_at_least_03": true,
+      "continuous_absolute_curvature_upper": "4.8052005257554164567025441307094622478202915471915",
+      "exact_tip_signed_curvature": {
+        "lower": "3.8669551108707409410492157923201730665224445646294",
+        "upper": "3.8669551108707409410492157923201730665224445646296"
+      },
+      "exact_valley_signed_curvature": {
+        "lower": "-2.0710059171597633136094674556213017751479289940829",
+        "upper": "-2.0710059171597633136094674556213017751479289940828"
+      },
+      "nonconvexity_certified_at_valley": true,
+      "local_curvature_radius_lower_not_global_reach": "0.20810786035673129323096671285638810877212566190306",
+      "necessary_reach_over_planar_D_upper_for_vertical_cylinder_from_known_curvature": "0.084742036104061650662535696059802137446782078552617",
+      "continuous_perimeter": {
+        "lower": "9.9590460991918334241904784835441204563618920375603",
+        "upper": "10.082694925102922683311053526470809582001232777650"
+      },
+      "continuous_mean_radius": {
+        "lower": "1.5850314151664384799155560303183478994459599205361",
+        "upper": "1.6047107370176975643933311836874658858602857007838"
+      },
+      "conditional_full_surface_diameter_budget_for_03_witness": {
+        "lower": "3.4828226422058623534733583517120505974423105068656",
+        "upper": "3.4828226422058623534733583517120505974423105068658"
+      },
+      "sufficient_total_z_span_budget_if_all_projection_stays_in_domain": "1.6785585392907497899754612011889168299804341749417",
+      "filled_domain_contains_coaxial_disk_radius": "0.52",
+      "subdivision_certificate": {
+        "segments": 4096,
+        "gamma_second_derivative_upper": {
+          "lower": "12.501007959360717085712155540276115483488383624257",
+          "upper": "12.501007959360717085712155540276115483488383624259"
+        },
+        "curve_to_exact_chords_Hausdorff_upper": "0.0000036770106307792554885431539122235940818271965118632",
+        "vertex_midpoint_radius_error_upper": "1.5204677137935401147516879588146566142322308936537E-16",
+        "q_midpoint_radius_error_upper": "6.6046268514140848195044437684199971092855367932375E-17",
+        "distance_to_binary64_polygon": {
+          "lower": "1.044850469672389703390535942162387073040008544921875",
+          "upper": "1.044850469672391479747375342412851750850677490234375"
+        },
+        "binary64_polygon_all_pairs_diameter": {
+          "lower": "3.0516306958194974185971659608185291290283203125",
+          "upper": "3.05163069581950008313242506119422614574432373046875"
+        }
+      },
+      "samples": {
+        "angles": 1024,
+        "maximum_absolute_curvature_sample": 4.110688302869317,
+        "signed_curvature_sample_range": [
+          -4.110688302869317,
+          3.86695511087074
+        ],
+        "minimum_normal_chord_radius_sample": 0.24329565024336466,
+        "normal_chord_pair_indices": [
+          826,
+          827
+        ],
+        "normal_chord_pair_phi": [
+          5.0682725231741586,
+          5.074408446325701
+        ],
+        "pair_cyclic_grid_separation": 1,
+        "reach_lower_bound": false,
+        "normal_chords_only_give_necessary_upper_obstructions": true,
+        "continuous_or_roundoff_validated_sample": false
+      },
+      "scope": {
+        "continuous_bounds_apply_to": "the stated planar curve and its filled radial domain",
+        "transition_projection_containment_proved": false,
+        "fixed_metric_connector_obtained": false,
+        "closed_surface_obtained": false,
+        "held_amplitude_for_a_closed_surface_certified": false,
+        "reach_lower_certified": false,
+        "task_complete": false
+      },
+      "development_derivative_check": {
+        "first_derivative_relative_error": 1.1488611692035414e-10,
+        "second_derivative_relative_error": 1.0962319892671027e-10,
+        "curvature_formula_max_difference": 4.440892098500626e-16
+      }
+    },
+    {
+      "a": ".65",
+      "b": ".06",
+      "radial_range": {
+        "lower": "0.41",
+        "upper": "1.71"
+      },
+      "curve_is_simple_regular_radial_graph": true,
+      "tip_radius": {
+        "lower": "1.71",
+        "upper": "1.71"
+      },
+      "valley_radius": {
+        "lower": "0.41",
+        "upper": "0.41"
+      },
+      "rotation_angle": "pi/3",
+      "rotated_tip_q_enclosure": {
+        "x": {
+          "lower": "0.855",
+          "upper": "0.855"
+        },
+        "y": {
+          "lower": "1.4809034404713900859659666219875208737360984920078",
+          "upper": "1.4809034404713900859659666219875208737360984920080"
+        }
+      },
+      "q_outside_filled_domain_proved_by_radial_gap": {
+        "lower": "1.30",
+        "upper": "1.30"
+      },
+      "continuous_distance_q_to_filled_star_domain": {
+        "lower": "1.0076910297415846762641044219899635406728625898502",
+        "upper": "1.0076973608081460586822609516266089288000225419857"
+      },
+      "continuous_full_curve_diameter": {
+        "lower": "3.0457519530938440856662017588689353762363526900522",
+        "upper": "3.0457582841604063790028116117131213032033763610566"
+      },
+      "continuous_witness_distance_over_planar_diameter": {
+        "lower": "0.33085062428693836744118232790859687818446794416487",
+        "upper": "0.33085339066582137548929425018119769263882092124838"
+      },
+      "planar_ratio_lower_at_least_03": true,
+      "continuous_absolute_curvature_upper": "19.862474441553137529155140575032783675955901345093",
+      "exact_tip_signed_curvature": {
+        "lower": "3.3240997229916897506925207756232686980609418282548",
+        "upper": "3.3240997229916897506925207756232686980609418282549"
+      },
+      "exact_valley_signed_curvature": {
+        "lower": "-19.512195121951219512195121951219512195121951219513",
+        "upper": "-19.512195121951219512195121951219512195121951219511"
+      },
+      "nonconvexity_certified_at_valley": true,
+      "local_curvature_radius_lower_not_global_reach": "0.050346194425199997185651787476204901949152363955972",
+      "necessary_reach_over_planar_D_upper_for_vertical_cylinder_from_known_curvature": "0.016826714975243065146081030777320640839915138467359",
+      "continuous_perimeter": {
+        "lower": "10.407022694702610021435815473284909708829558111129",
+        "upper": "10.513807068339364818250732579307242160749634862747"
+      },
+      "continuous_mean_radius": {
+        "lower": "1.6563291047314571447969358381094876503829815772415",
+        "upper": "1.6733243656407185430592100731055654050544233549421"
+      },
+      "conditional_full_surface_diameter_budget_for_03_witness": {
+        "lower": "3.3589700991386155875470147399665451355762086328339",
+        "upper": "3.3589700991386155875470147399665451355762086328341"
+      },
+      "sufficient_total_z_span_budget_if_all_projection_stays_in_domain": "1.4163462152226546114245355200402427815427432972974",
+      "filled_domain_contains_coaxial_disk_radius": "0.41",
+      "subdivision_certificate": {
+        "segments": 4096,
+        "gamma_second_derivative_upper": {
+          "lower": "10.762100166789008287482308958203215914062606119045",
+          "upper": "10.762100166789008287482308958203215914062606119047"
+        },
+        "curve_to_exact_chords_Hausdorff_upper": "0.0000031655332795114909600980156871865750280997731934992",
+        "vertex_midpoint_radius_error_upper": "1.5145485763910927863427524101337229064634532885271E-16",
+        "q_midpoint_radius_error_upper": "2.9062538365052470491944809581183916817830345642233E-17",
+        "distance_to_binary64_polygon": {
+          "lower": "1.0076941952748643682724605241673998534679412841796875",
+          "upper": "1.00769419527486636667390484944917261600494384765625"
+        },
+        "binary64_polygon_all_pairs_diameter": {
+          "lower": "3.045751953093844388575917037087492644786834716796875",
+          "upper": "3.045751953093847053111176137463189661502838134765625"
+        }
+      },
+      "samples": {
+        "angles": 1024,
+        "maximum_absolute_curvature_sample": 19.512195121951226,
+        "signed_curvature_sample_range": [
+          -19.512195121951226,
+          3.3240997229916904
+        ],
+        "minimum_normal_chord_radius_sample": 0.05126581007489606,
+        "normal_chord_pair_indices": [
+          853,
+          854
+        ],
+        "normal_chord_pair_phi": [
+          5.2339424482658075,
+          5.240078371417351
+        ],
+        "pair_cyclic_grid_separation": 1,
+        "reach_lower_bound": false,
+        "normal_chords_only_give_necessary_upper_obstructions": true,
+        "continuous_or_roundoff_validated_sample": false
+      },
+      "scope": {
+        "continuous_bounds_apply_to": "the stated planar curve and its filled radial domain",
+        "transition_projection_containment_proved": false,
+        "fixed_metric_connector_obtained": false,
+        "closed_surface_obtained": false,
+        "held_amplitude_for_a_closed_surface_certified": false,
+        "reach_lower_certified": false,
+        "task_complete": false
+      },
+      "development_derivative_check": {
+        "first_derivative_relative_error": 1.1346221154444776e-10,
+        "second_derivative_relative_error": 1.1819987586316977e-10,
+        "curvature_formula_max_difference": 8.881784197001252e-16
+      }
+    },
+    {
+      "a": ".65",
+      "b": ".09",
+      "radial_range": {
+        "lower": "0.44",
+        "upper": "1.74"
+      },
+      "curve_is_simple_regular_radial_graph": true,
+      "tip_radius": {
+        "lower": "1.74",
+        "upper": "1.74"
+      },
+      "valley_radius": {
+        "lower": "0.44",
+        "upper": "0.44"
+      },
+      "rotation_angle": "pi/3",
+      "rotated_tip_q_enclosure": {
+        "x": {
+          "lower": "0.870",
+          "upper": "0.870"
+        },
+        "y": {
+          "lower": "1.5068842025849232453688783171101089592402405708149",
+          "upper": "1.5068842025849232453688783171101089592402405708152"
+        }
+      },
+      "q_outside_filled_domain_proved_by_radial_gap": {
+        "lower": "1.30",
+        "upper": "1.30"
+      },
+      "continuous_distance_q_to_filled_star_domain": {
+        "lower": "1.0461163135966867053109270905565145388517315778634",
+        "upper": "1.0461233258974804307247578712690946683015887346366"
+      },
+      "continuous_full_curve_diameter": {
+        "lower": "3.0919837328970129232832240498111945090984437544924",
+        "upper": "3.0919907451978076915537467318631183206472303768068"
+      },
+      "continuous_witness_distance_over_planar_diameter": {
+        "lower": "0.33833099766595913005604667212360820480859564027649",
+        "upper": "0.33833403286288390823274227484169667812276946511754"
+      },
+      "planar_ratio_lower_at_least_03": true,
+      "continuous_absolute_curvature_upper": "11.583853652066100347669438381784882132854533218153",
+      "exact_tip_signed_curvature": {
+        "lower": "3.5770907649623464130003963535473642489100277447482",
+        "upper": "3.5770907649623464130003963535473642489100277447484"
+      },
+      "exact_valley_signed_curvature": {
+        "lower": "-11.208677685950413223140495867768595041322314049587",
+        "upper": "-11.208677685950413223140495867768595041322314049586"
+      },
+      "nonconvexity_certified_at_valley": true,
+      "local_curvature_radius_lower_not_global_reach": "0.086327057474663419676259318006714009393806227500439",
+      "necessary_reach_over_planar_D_upper_for_vertical_cylinder_from_known_curvature": "0.028854158873002957531143232561304450082726923138710",
+      "continuous_perimeter": {
+        "lower": "10.394392374371576749026736081970284945116574524117",
+        "upper": "10.515743697522206646417757670998908702317025864498"
+      },
+      "continuous_mean_radius": {
+        "lower": "1.6543189268179391356678764732094299994528969106338",
+        "upper": "1.6736325897481038379881658148391040358664052995676"
+      },
+      "conditional_full_surface_diameter_budget_for_03_witness": {
+        "lower": "3.4870543786556223510364236351883817961724385928779",
+        "upper": "3.4870543786556223510364236351883817961724385928781"
+      },
+      "sufficient_total_z_span_budget_if_all_projection_stays_in_domain": "1.6121853092347834488857813229127772953738896945172",
+      "filled_domain_contains_coaxial_disk_radius": "0.44",
+      "subdivision_certificate": {
+        "segments": 4096,
+        "gamma_second_derivative_upper": {
+          "lower": "11.920121643674614782978724963611789872533612295227",
+          "upper": "11.920121643674614782978724963611789872533612295229"
+        },
+        "curve_to_exact_chords_Hausdorff_upper": "0.0000035061503957489579165126195561288659095754151808828",
+        "vertex_midpoint_radius_error_upper": "1.5145485763910927863427524101337879602873224508994E-16",
+        "q_midpoint_radius_error_upper": "7.4115721538502222962678443516936323037163849164143E-17",
+        "distance_to_binary64_polygon": {
+          "lower": "1.04611981974708267983942278078757226467132568359375",
+          "upper": "1.04611981974708445619626218103803694248199462890625"
+        },
+        "binary64_polygon_all_pairs_diameter": {
+          "lower": "3.09198373289701322619293932802975177764892578125",
+          "upper": "3.09198373289701589072819842840544879436492919921875"
+        }
+      },
+      "samples": {
+        "angles": 1024,
+        "maximum_absolute_curvature_sample": 11.208677685950418,
+        "signed_curvature_sample_range": [
+          -11.208677685950418,
+          3.577090764962347
+        ],
+        "minimum_normal_chord_radius_sample": 0.08922756995104905,
+        "normal_chord_pair_indices": [
+          171,
+          170
+        ],
+        "normal_chord_pair_phi": [
+          1.0492428589137786,
+          1.043106935762236
+        ],
+        "pair_cyclic_grid_separation": 1,
+        "reach_lower_bound": false,
+        "normal_chords_only_give_necessary_upper_obstructions": true,
+        "continuous_or_roundoff_validated_sample": false
+      },
+      "scope": {
+        "continuous_bounds_apply_to": "the stated planar curve and its filled radial domain",
+        "transition_projection_containment_proved": false,
+        "fixed_metric_connector_obtained": false,
+        "closed_surface_obtained": false,
+        "held_amplitude_for_a_closed_surface_certified": false,
+        "reach_lower_certified": false,
+        "task_complete": false
+      },
+      "development_derivative_check": {
+        "first_derivative_relative_error": 1.183143605015264e-10,
+        "second_derivative_relative_error": 1.260437821816068e-10,
+        "curvature_formula_max_difference": 1.1102230246251565e-15
+      }
+    },
+    {
+      "a": ".65",
+      "b": ".12",
+      "radial_range": {
+        "lower": "0.47",
+        "upper": "1.77"
+      },
+      "curve_is_simple_regular_radial_graph": true,
+      "tip_radius": {
+        "lower": "1.77",
+        "upper": "1.77"
+      },
+      "valley_radius": {
+        "lower": "0.47",
+        "upper": "0.47"
+      },
+      "rotation_angle": "pi/3",
+      "rotated_tip_q_enclosure": {
+        "x": {
+          "lower": "0.885",
+          "upper": "0.885"
+        },
+        "y": {
+          "lower": "1.5328649646984564047717900122326970447443826496221",
+          "upper": "1.5328649646984564047717900122326970447443826496223"
+        }
+      },
+      "q_outside_filled_domain_proved_by_radial_gap": {
+        "lower": "1.30",
+        "upper": "1.30"
+      },
+      "continuous_distance_q_to_filled_star_domain": {
+        "lower": "1.0838372380993565357661810744228260322629461121945",
+        "upper": "1.0838449325648248045476219736248767272413721251102"
+      },
+      "continuous_full_curve_diameter": {
+        "lower": "3.1392893695681195777726733333849709926342103560418",
+        "upper": "3.1392970640335891559987082632468796136891745177543"
+      },
+      "continuous_witness_distance_over_planar_diameter": {
+        "lower": "0.34524838395088561581866049589037609937750103256600",
+        "upper": "0.34525168118348142159059338427194995212688109005566"
+      },
+      "planar_ratio_lower_at_least_03": true,
+      "continuous_absolute_curvature_upper": "6.1549756420309881099902151441860351276653541043971",
+      "exact_tip_signed_curvature": {
+        "lower": "3.8111653739346930958536818921765776117973762328831",
+        "upper": "3.8111653739346930958536818921765776117973762328834"
+      },
+      "exact_valley_signed_curvature": {
+        "lower": "-4.7985513807152557718424626527840651878678134902672",
+        "upper": "-4.7985513807152557718424626527840651878678134902670"
+      },
+      "nonconvexity_certified_at_valley": true,
+      "local_curvature_radius_lower_not_global_reach": "0.16247017992585020147092366176384946772504293543695",
+      "necessary_reach_over_planar_D_upper_for_vertical_cylinder_from_known_curvature": "0.066383248526007643897088483837970285149767367409589",
+      "continuous_perimeter": {
+        "lower": "10.418273669568119755444312316797672191197361498151",
+        "upper": "10.551899382936636933759081086010699768566911920939"
+      },
+      "continuous_mean_radius": {
+        "lower": "1.6581197529959056912919966036031156862396889414216",
+        "upper": "1.6793869458026859605985609690580080478274108365476"
+      },
+      "conditional_full_surface_diameter_budget_for_03_witness": {
+        "lower": "3.6127907936645217858872702480760867742098203739816",
+        "upper": "3.6127907936645217858872702480760867742098203739818"
+      },
+      "sufficient_total_z_span_budget_if_all_projection_stays_in_domain": "1.7880355876036730761279218009136978603855184002388",
+      "filled_domain_contains_coaxial_disk_radius": "0.47",
+      "subdivision_certificate": {
+        "segments": 4096,
+        "gamma_second_derivative_upper": {
+          "lower": "13.079724767746452851963242237687215317266380569851",
+          "upper": "13.079724767746452851963242237687215317266380569853"
+        },
+        "curve_to_exact_chords_Hausdorff_upper": "0.0000038472327331539356726365245485336189983451012113779",
+        "vertex_midpoint_radius_error_upper": "1.5145485763910927863427524101338530141111916132716E-16",
+        "q_midpoint_radius_error_upper": "5.1844072936357619883052805984397101014710586975705E-17",
+        "distance_to_binary64_polygon": {
+          "lower": "1.083841085332089893000784286414273083209991455078125",
+          "upper": "1.0838410853320914473130187616334296762943267822265625"
+        },
+        "binary64_polygon_all_pairs_diameter": {
+          "lower": "3.1392893695681198806823886116035282611846923828125",
+          "upper": "3.13928936956812254521764771197922527790069580078125"
+        }
+      },
+      "samples": {
+        "angles": 1024,
+        "maximum_absolute_curvature_sample": 5.216987753931054,
+        "signed_curvature_sample_range": [
+          -5.216987753931054,
+          3.811165373934693
+        ],
+        "minimum_normal_chord_radius_sample": 0.19169231339244147,
+        "normal_chord_pair_indices": [
+          837,
+          838
+        ],
+        "normal_chord_pair_phi": [
+          5.135767677841127,
+          5.141903600992669
+        ],
+        "pair_cyclic_grid_separation": 1,
+        "reach_lower_bound": false,
+        "normal_chords_only_give_necessary_upper_obstructions": true,
+        "continuous_or_roundoff_validated_sample": false
+      },
+      "scope": {
+        "continuous_bounds_apply_to": "the stated planar curve and its filled radial domain",
+        "transition_projection_containment_proved": false,
+        "fixed_metric_connector_obtained": false,
+        "closed_surface_obtained": false,
+        "held_amplitude_for_a_closed_surface_certified": false,
+        "reach_lower_certified": false,
+        "task_complete": false
+      },
+      "development_derivative_check": {
+        "first_derivative_relative_error": 1.1429426516863108e-10,
+        "second_derivative_relative_error": 1.1487500436548115e-10,
+        "curvature_formula_max_difference": 6.661338147750939e-16
+      }
+    }
+  ],
+  "elapsed_seconds": 38.680156851,
+  "source_sha256": {
+    "star_core_geometry.py": "664d20735a5bcb0aa14d9da320bcefea1b571012cb4ba4fe5e80e7f0c50d03a9",
+    "folded_reference_geometry.py": "e912d3ece31e36a76de10cb1a1f40b8d4cd2079a7c8626c0ae85d0083c0de8ab"
+  },
+  "claim": {
+    "closed_embedded_isometric_family": false,
+    "reach_lower_certified": false,
+    "task_complete": false
+  }
+}
