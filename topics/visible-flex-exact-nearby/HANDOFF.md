@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 17:09:40 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 17:09:56 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则与同步
 
 仅 Rogerhu12/math-research-public；所有新数学代码仅公开 Actions。每结论独立推；非快进立即接新main/rebase再推至成功，不force。root管ref/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
 本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，16:20重试失败。根规则8暂只connector <100KB文本，禁二进制/大文件；先查size，新摘要≤60KB；API不冒称pull。runner长算每10min真pull、短child前后pull。root亲核43618931236于17:06:13拉到e1f98ab7effd9094a5373ebdbcf7c22299e2f109，四次两README diff均空。终端恢复即回git。
-最新远端 main/两README blob 核：ceb4cd61e1a2211901dfd4c287ec28fe92309e4b；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
+最新远端 main/两README blob 核：8fa97e7ab3773e09f8991bbb3e8f9af7c61f47db；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次H原9840B完整归档 notes/2026-11-14-handoff-before-ordinary-only-Hessian.md；此前归档链保全。open原档 notes/2026-11-14-open-before-actual-full-delta-root-graph.md。完整SHA/失败/源端口/零重算合同在各results和manifest；禁止重算已成数学。
 
@@ -56,3 +56,5 @@ deep-low L1–28已核推94d799fc：完整真锥、两行root架/逆、W/z和K64
 tail新浅129–8192五盒P1–29已交blob868e633d…待root审；接着攻真正外条件/mean商及source-label权，禁止开放内部压缩冒充已接外边界径向矩阵。
 geometry43584188751/26门只条件：同η0真闭C²解、fullC0≤1e−4、|δν|≤1e−5、完整outer/matching ⇒held/D>.05075888242、reach/D≥800/25039、Hdiam/D≥360/511，marker145..148给含反射δE>0。
 **真完整无限逆、νSchur、非线性存在/状态球/holonomy与全部物理matching仍欠。** 子题完成即接open下一项，绝不以阶段报告、等待或时长结束。
+
+ordinary-Hessian→cachedGreen238input五件已推；逐字差异仅新b1ffc217…来源/kind/run，原230pin零变、6391原profile只右通道重权，14physical/另3通道不变；待actual。

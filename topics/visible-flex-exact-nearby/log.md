@@ -104,3 +104,6 @@ root核实际job success、9009B process37e6e68f…与23864B summarybfe332c6…�
 
 root读9122B process989e72f6…、11388B summaryf6640ebc…并核SHA、job、11门与child0。完整1341/1977、原257物理槽及97输入mean保；additive1.348921723e−6，原physical residual/target/endpoint零重算。17:06:13真pull至e1f98ab7effd9094a5373ebdbcf7c22299e2f109，四次README差为空，H已记；继续真cut重权与物理dB。
 
+### 2026-11-14 17:09:56 UTC — 新ordinary additive接入旧Green的最小消费者
+
+逐行差分已审source/CI/flow，原230input在238清单零变；同向Hessian来源改为真实成功43618931236/b1ffc217…，其余数学与原已审G1–8完全相同。原完整14physical费用、unknown erroroperator及3非right通道保持；只新cut算术与6391旧right profile重权。原body/Riccati/projector/physical cells不重算，不消费尚在跑的fixedηpilot。
