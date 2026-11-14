@@ -122,6 +122,8 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **两端互逆权：** [完整列预算](notes/2026-11-14-balanced-star-reciprocal-weight-score-budget-789f-next.md)已付τ=(S+1)/(Q−S+1)下两个后验score各常数2及混合正块η_Q≤2；原全线性回归的两权运输仍缺，M不代J。
 
+**真实混合生成元：** [完整可逆链与物理层谱界](notes/2026-11-14-balanced-star-reversible-mixed-generator-bound-789f-next.md)给归一交换||N||≤1+(1−α−β)/Q，混合I−N统一≤2+1/Q；真实共同回归余项D0−Z⁻¹ΔZ−DnG⁻¹Dm尚须联合支付，不能把生成元全积界免费传到投影积。
+
 **唯一负方向：** [真实Khat正补偿](notes/2026-11-14-balanced-star-one-negative-direction-and-positive-compensation-789f-next.md)给Q>1惯性(m−1,1,0)及Khat+ww*/Ea≥D/(M±+1)≥D/(Q+1)。仍须在同一H/L/G中控制该负方向和均值交叉；m*G⁻¹n>1不提供普适上界，Q1另为零。
 
 ## 当前接口三：一般系数行、多个模式与中央域
@@ -140,7 +142,7 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **已闭全部低本质三次层。** [总定理](results/R150-appendix-all-essential-cubic-dimensions-at-most-three-have-zero-matched-bell-values.md)：essT3≤3临界三Bell零；ess≤2仅迫T3=0，rank1/ess3为空，Cat2/3的W±/Q|T3判据保。非零Bell余点必ess4/5/6，自然幂未付。
 
-**高本质rank1原中心17式。** 原6188×4367泛秩4354，rankAy8及0/2/−6/∞已闭，余rankAy9有限Σ/char0来源。[完整1834核Bockstein](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)实算后像仍二维，九个h0目标分别无任意次数31整数mod961来源；含31分母Q解未排。[共同primary修正](notes/2026-11-14-r150-known-bockstein-module-primary-correction-789f.md)的保根集H0=(s−2)h0现有[完整原17模961证书](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)，九源实际cost86。[四个真实第二方向](notes/2026-11-14-r150-four-genuine-second-bockstein-insufficiency-789f.md)连完整β的多项式像维数6，九r2逐个失败；原成本86/86/86/87与961整除已核。余198第二方向、下一位与31饱和仍开。其他mean秩/高ess/自然幂仍开；旧精确证书保[前全文](notes/2026-11-14-open-before-conditioned-gram-789f.md)。
+**高本质rank1原中心17式。** 原泛秩4354、rankAy8与0/2/−6/∞已闭；余rankAy9有限Σ/char0来源。当前H0模961、真实r2及四δ不足的准确范围和原数据见上方“原式来源与完整第二提升”。余198/31饱和继续，其它mean秩、高ess和自然幂仍开；全部旧范围保[前全文](notes/2026-11-14-open-before-cofactor-kernel-789f.md)。
 
 [射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)的74次充分条件于模31不成立：全原∞连接给阶≥24，仿射315使齐次总度≥339。它与九目标Ann24不同；char0来源/分母及其他mean秩高ess继续，全部旧条件保本次前open。
 
