@@ -2,6 +2,8 @@
 
 ## 新增结论
 
+- [R236](results/R236-scaled-full-core-and-witness-ball-control.md)（已证明，完整核心放大与条件性球外控制）：全32系数正倍缩放保持全角极值并给λ=6/5准确核心预算；固定γ的二阶球barrier及实际投影加速度仿射区间完整证明。实际旧入口已遮挡.96球，不能据核心当整面幅度。
+
 - [R235](results/R235-actual-curvature-control-and-fixed-metric-rounding.md)（逐角代数命题已证明，开放前缀有真实同g三档结果）：实际II对a″仿射，Schur补准确给曲率允许区间，barrier导数给点域控制；冻结原32核及84个scalar节点后M64/96/128误差2.34557e−5→1.35400e−6→1.43005e−7。角采样非连续认证，未闭合。
 
 - [R234](results/R234-fixed-finite-collar-global-metric-bound.md)（已证明，原固定有限collar全域metric界）：保存的完整binary Fourier二jet准确转Fraction；五次Bernstein及全角三角界给相对metric算子范数≤1.0013852088236555e−18，原宽度不变。只证明定义好的有限collar，不代准确无限尾存在或整面达标。

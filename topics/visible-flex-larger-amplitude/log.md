@@ -174,3 +174,6 @@ margin325 r2真实51.74s因可选旧fullFlow snapshot身份失配退出，原52 
 
 ### 2026-11-14T07:31:00+00:00 — resolvedpipeline (local; public approval pending)
 保存真新states径向读出/共同网格/固定宽接缝及闭组装链；全部4609端点/内点真实回放≤1.13687e−13，相对8.917e−15。整链尚运行，未完数据只scratch；RK48同g/全H仅用RK24作warm，不预判成功。
+
+### 2026-11-14T07:39:21+00:00 — scaledcoreproof (local; public approval pending)
+R236完整有限核心缩放与球外保持证明直接登记；λ=6/5全32有理核G≈.96、rho_min>.16611758，原k0二阶球门<.885911。固定γ二阶barrier转换成实际投影Fs/Fss的逐角仿射加速度区间，零系数/符号与polar坐标均保；条件命题不冒闭面存在。
