@@ -779,3 +779,7 @@
 ### R150 附录：原163平方Schur核与8770次齐次图表
 
 [完整证明](results/R150-appendix-original-163-square-core-and-projective-chart-degree.md)以Koszul上界及原Y取值/T导数双右核补齐全十七齐次式的函数域秩17/187/986/3001。源4模31完整profile在旧4191行列外恰增163原行（11N、152Γ），选得Q(s)可逆163平方Schur核，保全部4367列回代。所选真实4354子式自然齐次度恰8770；cofactor给同一原目标分母，不免费丢detB或∞因子。实际行列式/因子未算，仅建立可执行原图表。
+
+### R297 附录：倒数权桥平方与完整物理跨块
+
+[完整证明](results/R297-appendix-reciprocal-bridge-square-and-physical-projection-target.md)用真实倒数权primitive同构把硬端费用同常数化为B*L2²B≤κG1，第二个L2不可从旧一次Gram预算添加。目标又等价于v∈ker d²=ker e上‖J2*d*d v‖≤√κ‖v‖；原权侧为L1(P_Ve*eP_V)L1≤κL3+9L1³。均保完整源/逆序/正交块，未推统一κ。附一次受限M7/9定向剖面，病态浮点点明确剔除，不作为证明。
