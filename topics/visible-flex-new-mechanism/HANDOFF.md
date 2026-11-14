@@ -6,7 +6,7 @@
 
 闭连通 C2 嵌入族 Ft、时间 C2 连续、同一固定 g；固定材料开集 H 且 diamH≥.2D；不对齐的真实像集 Hausdorff 位移≥.3D；全域全时 reach≥.03D；最大相对 metric≤1e−6，且同 g/物理参数/时间加密改善；完整小网格、复现及严格存在性差距。D 是初始完整曲面直径。δE 可为0但须如实报。达标后继续 .5D 或更强存在性。
 
-- 根及本题 README 已完整读。公开仓库最后已读规则提交：`1ad37d8deecc24fcc14403fa8ba3f8a83a21851f`；每次实际CLI pull均核根/本题README新差异。
+- 根及本题 README 已完整读。公开仓库最后已读规则提交：`f2d62781d7b50430fb50a8e619a87ad2252c9adc`；每次实际CLI pull均核根/本题README新差异。
 - 每次 pull 后只读这两 README 新差异并立即遵循，至少每小时 pull。每结论提交推送；NFF 立即 pull --rebase 并循环推送，不强推。
 - 作者指定 QUEUE 已置进行中。私有仓库14:14:20 UTC实际pull至94a2611e4760da10f909a28d51ac067fadcb1117，根README差异为空；队列唯一课题行仍为本会话进行中。私有研究内容不发布。
 - 研究计算只用本公开仓库自己的 Actions。令牌仅瞬时命令行认证，不入文件。根 LOG 不写；共享 workflow 理由记本题 log。HANDOFF<10KB，其他 MD<100KB，数据>1MB压缩、单件<5MB。
@@ -63,4 +63,6 @@ R31准确代数run43601439290及58源/1输出SHA全核通过，详见constant-h-
 
 warped_collar43595305950实际失败且R23另以link排除该封口目标；R24排除旧sin核，已试cos点全因厚度门失败。当前转准确椭圆柱和R28固定负K度量；入口/尾端先去已知表示失配，再公开Actions试算。文献续解仅限R32/R34未排类别。主README全部门通过前不收尾。
 
-ellipse_frame实际43602519926：连续端口inner非空/全方向门通过；123nfev ftol但fine metric1.660115、R3.51022、κsample2334.99、ellipse radius²1.46167，未可行，R33包络前提不成立。62源/8输出SHA全核。详见ellipse-frame-fixed-pilot-actual-audit；分布run43603136078同网格六摘要差0，63源/3输出SHA全核：R峰负K段t.4275纯RT，κ峰.4575，metric峰尾t.7275；不是entry主峰，mean及k12+显著。公开run43604231319（源f64c2c0daa077f9e13aa12f0475e3eeb069a191c）正在运行ellipse_enriched：同g/旧源码，J4→J9准确插结加φ1..3/u_core，共234变量，61×192/250次；先核舍入暖转再优化。R33已补disk+strip .33条件预算>.305；未宣称连续包含。启metric design前须把log基尾Oδ5升Oδ7。R30接口见notes/R30-validation-interface-20261114.md。
+ellipse_frame43602519926（62源/8输出全SHA）fine metric1.660115/R3.51022/κsample2334.99，失败；43603136078固定分布（63源/3输出全SHA）旧峰负K纯RT与高模显著，非entry漏采。
+
+最新ellipse_enriched43604231319源f64c2c0d、最终报告SHA6ff0b179...0f1e3：64源/3输出全核，sameg身份f8b81d3...df870和暖转逐位/舍入门通过。J9/θ5/φ3/u_core共234变量；250次上限600.44s、RSS2.28GiB，new cost.135064→.0613384晚段近平台。fine metric1.727996/R1.59925/κsample39.116/ymax.365274>.33，失败；metric峰首S5 t.165，R峰负K .3225且主要低模，高模已降。详见ellipse-frame-enriched-actual-audit，不原样加迭代。下一准确非平flat尾保rc内固定盘，S11角幅1/4、宽.054纸核中；新端口物理身份另记，整面仍未构造。R30接口见notes/R30-validation-interface-20261114.md。若启metric design，log基尾须Oδ7。
