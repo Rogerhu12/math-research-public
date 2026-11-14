@@ -584,3 +584,8 @@ run43602823170/job132471064124全部success，publisher e84c1d79，artifact14117
 ### 2026-11-14 request20：实际限制查询的投影方向
 
 独立protected_tangent_warm/response源已全文读、AST/完整SHA核对；原三源及R262源未改。公开trustprotected lane从18实际warm SHA1dbdcc8f…出发，先同进程完整Hermite/原nodal RHS域梯度实核，再原完整A/JT及投影伴随，1模型/λ270/LSMR200、原17trial/全部RMS/rho/真实merit。实际方向z=P C^-1v与λP罚项、KKT/乘子/原线性残差及全trial保全。新FD执行原冻结源体与新producer账；无native或新接受声明。当前只有静态核对，Actions待实际回执。
+
+
+### 2026-11-14 同场共享背景定义和完整表示误差账
+
+root全文读独立geometry_20261114_shared_background_normal_form.py及shared-background-and-representation-budget；源SHA da4a0b5004ef8466119025d8e39e23ffb0366a5367e6761c8321299aeb19c3f9，AST通过，未数值。实际表的0/1/2输出二进制值定义精确共享quintic，原帽高/flat cuff保持；完整cut mean与整角Δ重新定义，共同背景不改四角差。coeff/宽度/clip/逆角/SE2的C0/C1/C2及operator/normal/κ/held/reach费用明确，不继承旧renderer连续性，不增机器jet门。新几何B与原metric表分开，原A.height/w/E不得覆盖；wrapper及明确新loader准备中，无真parent不执行。
