@@ -1,0 +1,44 @@
+{
+  "kind": "actual_public_first_symbol_finite_part_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43589646508",
+  "run_attempt": "1",
+  "workflow_commit": "9e282c7344f31b17f3f1a461243e0fd5b2ea51c2",
+  "worker_sha256": "c68885d38b4bd13129cf70277ec09714c3f55e7449ff072d288a1580f868eeda",
+  "manifest_sha256": "17b36c19dc95d2fbc8457d561c632324bbc2a9f9a706e2c8240f70f0da1d5e9b",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T11:22:17.115185+00:00",
+  "complete": false,
+  "readme_checks": [
+    {
+      "before": "44a2c9d7b5bc41a1b0dbcd5aa77d98172118041f",
+      "after": "44a2c9d7b5bc41a1b0dbcd5aa77d98172118041f",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "44a2c9d7b5bc41a1b0dbcd5aa77d98172118041f",
+      "after": "2202a404098088e130be0f11b5c1994740c8764c",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 1,
+  "final_topic_complete": false,
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-first-symbol-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_finite_part_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-first-symbol-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-first-symbol-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-first-symbol-finite-part-CI-inputs.json",
+    "--manifest-sha",
+    "17b36c19dc95d2fbc8457d561c632324bbc2a9f9a706e2c8240f70f0da1d5e9b",
+    "--out-dir",
+    "/__w/_temp/visible-exact-first-symbol-output/consumers"
+  ],
+  "complete_original_inputs_verified": 233,
+  "actual_scientific_checkout_commit": "44a2c9d7b5bc41a1b0dbcd5aa77d98172118041f",
+  "mathematical_wall_seconds": 272.087762076
+}
