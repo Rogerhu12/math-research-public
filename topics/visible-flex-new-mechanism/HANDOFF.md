@@ -1,60 +1,59 @@
 # 交接：大振幅新机制
 
-**未完成；持续到README全部完成门，不以报告、预算、等待或时长结束。** 会话`Astra-new-mechanism-9974ea84`，2026-11-14。root管Git/H/log/open/results/workflow；机制代理管连接实现，文献代理管高阶range，source代理作独立来源/证明/源码核。前H完整字节在[归档](notes/handoff-before-entry-jet-repair-20261114.md)，更早档案链/完整历史见results、log和Git。
+**未完成；持续到README全部完成门，不以报告、预算、等待或时长结束。** 会话 `Astra-new-mechanism-9974ea84`，2026-11-14。root管Git/H/log/open/results/workflow；mechanism管直接连接；literature管完整高阶range；repo_sources独立来源/证明/源码审。前H完整字节在[归档](notes/handoff-before-height-primitive-repair-20261114.md)，更早链和全部结论见results/log/Git。
 
-## 1. 完成门、权限与同步
+## 1. 完成门、权限、同步
 
-闭连通C²嵌入族Ft，t在C²拓扑连续，同一固定g；固定材料H有内点且diamF0(H)≥.2D；不作对齐的整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，并同g/物理参数/时间精化至机器或原容差。D为完整F0直径。δE可0但如实报；完整网格每件<5MB，明示数值与准确存在差距。达标后继续.5D或更强存在。现无完整候选。
+闭连通C²嵌入族Ft，t在C²拓扑连续，同一固定g；固定材料H有内点且diamF0(H)≥.2D；不对齐整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，同g/物理状态/时间精化至机器或原容差。D为完整F0直径。δE可0但如实报；全网格<5MB，明确数值与准确存在差距。达标后继续.5D或更强存在。现无完整候选。
 
-- 根/本题README完整读过。公开仓库最后已读规则提交：`49c92b3a909be84574d848dfb86393de2393cc97`。
-- 每次实际pull --rebase后核双README，有变只读diff并立即执行；至少每小时pull。每结论立即提交推送，NFF立即rebase、再核规则、再推至成功，不强推。
-- 公开main和本仓Actions已授权。实际几何/ODE/积分/优化/完整研究编译只本公开Actions；本地仅源码、纸面代数、人工开发核、已公开输出分析。PAT只瞬时CLI/env，不写文件/提交/日志。
-- 私有16:54:17 UTC实际pull至`f8b14a696d8d591013e5996b24c4f5e81a26aa95`，双README无差、QUEUE唯一课题行仍本会话进行中；下一pull不晚于17:54 UTC。私有研究不公开。
-- H<10KB、MD<100KB、数据>1MB压缩、单Git文件<5MB；根LOG不写，共享workflow理由记本题log。只stage明确本会话文件；同步helper运行时不改tracked文件。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`275c1ce5049e3518a60c2c344013ee5b42db4db8`。
+- 每次实际pull --rebase核双README；有变只读diff立刻执行，至少每小时pull。每结论立即提交推送；NFF立即rebase/核规则再推至成功，绝不强推。
+- 公开main/本仓Actions已授权。实际几何/ODE/积分/优化/完整研究编译只在本公开Actions；本地仅源码、纸面代数、人工开发核、已公开输出分析。PAT仅瞬时CLI/env，不写文件/提交/日志。
+- 私有16:54:17 UTC实际pull至`f8b14a696d8d591013e5996b24c4f5e81a26aa95`，双README无差，QUEUE唯一课题行仍本会话进行中；下一pull不晚于17:54 UTC。私有研究不公开。
+- H<10KB、MD<100KB、数据>1MB压缩、单Git文件<5MB；根LOG不写，共享workflow理由写本题log。只stage本会话明确路径；同步helper期间不改tracked文件。数学Markdown用美元分隔符。
 
-稳定路径`/workspace/scratch/9974ea84a1c6/math-research-public`（private同前缀）。16:57共享/tmp满，已迁自有checkout至/dev/shm：公开927项/16454564B、私有48项/83439B的源/副本/稳定路径hash和类型全核一致；仅删核过自有旧副本。objects也在/dev/shm。临时`research_sync.py`实际pull、双README核、只amend自己未发布提交、循环push；RULES_CHANGED先读。失败pull下载9186abd6的规则亦核空，后续实际pull/push恢复。
+稳定checkout路径 `/workspace/scratch/9974ea84a1c6/math-research-public`（private同前缀）实际在 `/dev/shm/visible-new-9974-public-worktree-1657`。16:57共享/tmp满，已核类型/模式/SHA清单后仅迁移自有两checkout并删除核过旧副本；objects也在/dev/shm，详细迁移计数见前H。临时research_sync.py作实际pull、规则diff、只amend自己未发布提交和NFF推送循环；RULES_CHANGED须先读。人工临时文件用自有shm位置，不动其他会话。
 
-## 2. 准确输入与不可覆写的旧结果
+## 2. 永久原输入、已否定数值状态
 
-核心A=1、B=7/25、wc=1/50；L=.9、rc=.22、tc=.036、tf=.846。a0为准确椭圆周长/(2pi)，原a′用S5/S5/S11且mu−nu=.3。原g数学SHA `f8b81d3a177457f084cbf04379bb9979036f98ce2a8d7e2fbf04fccaadbdf870`；目前未收到新设计g。
+原核心A1、B7/25、wc1/50，L.9、rc.22、tc.036、tf.846；原a0准确椭圆周长/(2pi)。原g SHA `f8b81d3a177457f084cbf04379bb9979036f98ce2a8d7e2fbf04fccaadbdf870`。
 
-永久原c0来自run43604231319/sourcef64c2c0daa077f9e13aa12f0475e3eeb069a191c：
-`notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json`，987644B，SHA `6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3`。旧234维为u81/v72/beta81；原fixedg250的metric1.727996/κsample39.116未过。旧13求解依赖的完整SHA及canonical身份见[来源审计](notes/saturated-heat-provenance-audit-43612971265-20261114.md)，均冻结不覆写。
+永久原c0来自run43604231319/sourcef64c2c0daa077f9e13aa12f0475e3eeb069a191c：`notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json`，987644B SHA `6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3`。234维u81/v72/beta81；旧13求解源SHA/canonical完整见[来源审计](notes/saturated-heat-provenance-audit-43612971265-20261114.md)，冻结不覆盖。
 
-旧弯尾43607072032 R333→223/metric53.93且近退化，已核失败，不作暖源。首饱和43612971265/source228c6195已核77源/8输出：单250 cost.086424→.080617后停滞；fineR2.593096/metric1.90962/strip1.030644失败，非GH噪声。详[几何审计](notes/saturated-heat-actual-geometry-audit-20261114.md)。全部原状态/失败输出保留，不原样重跑。
+旧弯尾43607072032近退化，不作暖源。饱和43612971265的77源/8输出已审，单250后fine metric1.90962失败；[几何审计](notes/saturated-heat-actual-geometry-audit-20261114.md)。自然/body修复43616949465的83源/4输出已审：[完整审计](notes/natural-body-complete-actual-audit-20261114.md)。c0/c1未优化，fine metric1.728/1.910；239列巨大预测未应用，选较优c0。partial接口错误已修，旧失败输出全保留，不原样重复旧250。
 
-准确S9六帽幅3/16与1/8、rc内固定盘及全帽法弦>3/40保持；局部帽证书不授全表面reach。球1.01/strip.38只为条件预算；单一h帽对照会消共同高度误差，仍需全h与跨片核。
+准确S9六帽幅3/16、1/8与rc内固定盘、全帽法弦>3/40保持；单帽证明不授全闭面reach。球1.01/strip.38仅条件预算，δ/D≥31/101、握持≥22/101；全表面须实核。
 
-## 3. 当前主线：独立高度167维实际运行
+## 3. 当前主线：167维真实结果已到，先修高度评价
 
-natural/body修复run43616949465/source7b46d360已全核83源/4输出；[完整审计](notes/natural-body-complete-actual-audit-20261114.md)。原c0/c1在新自然基场、五body0且锚c0，均无优化/未应用线性步。121×768直接metric1.728/1.910，κ60.13/54.30，area.22，strip.961/1.031，故选c0。239列rank212、步max6.6万/23.9万不可采用，5body预测步.134/.158只线性诊断。
+R60：固定原c0准确角平均b0，加9个两端O3的一维b速度基和单一z积分；153uv+9b+5body=167，冻结g后162。body loga支持[tc,tf−.1]两端O5；不改尾patch。core源码 `frame_independent_height.py` SHA d7c52dd824a9302d8877092c551cc567ed1477a0dc6192799d8ad42969121de6；solve a406d44946cf32e2d4a90fcf0b1711a74b5342d27e26709653a7e7058fe3e74f。原源冻结。
 
-GH32→64的scalar_s差.00156、scalar_ss差1.307，旧scalar_s门失败；实际Xs差约3.6e−6、Xss约.0029、R约.00035。高jet误差如实保留，不能只报位置。partial43616419217的distribution参数错误已修，旧输出保留；修后runner SHA8185d72b866f17703c5abd5224fedfc57d197712a60ad021f246d46fd8521c3d。
+**run43618467921/sourcebccf1787e434fde85c3546cf30954b42c1b8d327已两lane完成。** independent_height_solve输出目录 `notes/actions-43618467921-1-independent_height_solve/`：主425422B SHA `c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46`；2输出哈希、88源映射（同full4已逐源核）、167准确系数/新g/freeze全核。人工输出与开发只optimality末位差，不称byteequal。
 
-R60新模型：固定原c0准确角平均b0，加9个两端O3的一维b=z′基、单一z积分，去可变beta；153uv+9b+5body=167，冻结g后162维。主体loga支持[tc,tf−.1]、两端O5，不碰尾patch。自然六帽标量外延有重叠，只是frame基场，不称准确等距曲面和；全平Gaussian是物理定义，GH只是评价。
+单次TRF250评/252.21s，cost .0767495844667→.00477735830458，max_nfev非收敛；全任务786.48s。三入口工程门过；3个u贴8界、1个height贴1界、body未贴界。selected canonical `924e7de417ec8fbf9419942e5cf45a7eff58336972b7cac4224edaee4c4229ee`，新固定g `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。freeze全部位置二jet差0，后续精化没优化。
 
-core `frame_independent_height.py` SHA d7c52dd824a9302d8877092c551cc567ed1477a0dc6192799d8ad42969121de6；完整driver a406d44946cf32e2d4a90fcf0b1711a74b5342d27e26709653a7e7058fe3e74f。root/source全文核，人工完整main覆盖通过/拒门/零wall异常及所有final签名，冻结六位置jet回放0。详[设计](notes/frame-independent-height-bounded-solve-design-20261114.md)。
+fine121×768/GH64/Nb384/GL8：metric .7136260894，κsample106.01028，area min.22，max|y|.39350935，Xzmin−.02657888，共同h=.0522307355876；仍未过。入口t.105主η峰、t.0975主κ峰，patch t.7725 η.3878和t.7875 κ72也需修。GH64→128 Xs差7.02e−7、Xss.00175；Nb384→768 Xs8.02e−9、bss.0184；Pi384→768 Xss.00604。GL8→12 dense X差4.52e−13，其他jet/directmetric0；都只是数值精化。
 
-**run43618467921/sourcebccf1787e434fde85c3546cf30954b42c1b8d327正在实际计算。** independent_height_solve从c0、零b/body开始；61×192/GH64/Nb384，先GH64→128和Nb384→768的X/Xs/Xtheta/(E−1,√2F/a)差≤1e−4及初cost≤1。只单bounded TRF，界8/1/.5，250次/600秒，10评价或60秒存best。无新signed-height罚，保原ball/strip。即使拒门也保存最终诊断；预算非课题终点。
+**新发现：四点[0,tc,tf,L]端口chart使用查询分段GL8，错算h=.00738175828；same-b0细网h=.05223073559。** 物理定义同一，长区间求积欠分辨；同h尾对比抵消全球前缀误差，不能认证帽高。mechanism正新增固定物理partition+prefix/local积分wrapper，不改冻结旧源/输出；先公开primitive-only新旧/稀密/GL/partition对照。其修正只作用固定b0原函数；当前参数Jac严格不变（原9基积分已查询无关）。入口repair加W4后则须连同新基原函数/Jac一起改。
 
-后续冻结整个新g及全部状态，121×384/768、真实core/tc/tf/L接口、GH/Nb/径向8→12各自精化且不再优化；报告真实主曲率/area/高度/shape，不借辅助V代Xs。未获实际结果前不宣称门过或下降。
+随后固定selected新g，用selected u/v/b初始化成套入口repair的audit-only；不先改B、不再盲加250。真实Xz负在标准镜合下支持自交风险；cap法弦严格给reach≤|h|，D≥2，细数值h/2≈.0261<.03但尚无严格积分误差界。现不冒称连续排除；新height/shape约束须据修复后的共同原函数设计。
 
-## 4. 文献线：完整第四真实函数在并行计算
+## 4. 文献线：完整第四失败与新准确漂移
 
-R37全零二阶→R45真实P/P/Prev/Prev→R46八packet七差分→R52真正重叠三矩平面与完整三阶Oepsilon4。R50严格排全部不交profile类；R53另用四相位58点/IFT仅付一个标准常段第四最高项，不能与当前R52谱profile混同。R54同一原q迁移其他常状态；R56有限profile代数闭合全部变系数range，冗余基必须取真实Gram/kernel。R58证明全部合法低阶gauge不改第四period，准确零MP时full=4singleP；逐ruling仍用全部历史/一个global-w。
+R37→R45真四块→R46→R52给同一g完整三阶；R53另用58点四相位仅付一标准常段第四最高项，绝不混为当前R52谱profile。R56准确有限化全变系数range，冗余基需真实Gram/kernel。R58合法二三gauge不改第四period；准确MP0时full=4singleP，但真实历史0→a→2a→a→0不可重置。
 
-完整compiler run43615655870/source218254b9已核80源/2输出：10.055s、267875 DAG节点、6365profile原子、732历史、五真实相位。计数不是函数秩；纯编译不重跑。准确短lane全部原审计保留。
+compiler43615655870已核80源/2输出，267875节点/6365profile原子/732历史10.055s；项数非函数秩，不重复纯编译。singleP43617085278已核84源/2输出，[实际审计](notes/literature-single-P-actual-audit-20261114.md)。raw127033B SHA feb72a8e01f9a2aa0a925f7173e0bb53e1d81224481ad3a01afbeea4c6f2d6c0；controls79501ce96f224138311a43c49b2b3a29865d9f660c67b22124f9d2c1fb57d04f。MP约5.3e−10；冻结闭合3e−9→5.6e−7非单调，非准确前提。长圈只是算子输入，非厚度候选。
 
-新R45 singleP run43617085278/source4ee618ce已核84源/2输出；[实际审计](notes/literature-single-P-actual-audit-20261114.md)。raw127033B SHA `feb72a8e01f9a2aa0a925f7173e0bb53e1d81224481ad3a01afbeea4c6f2d6c0`；controls SHA79501ce96f224138311a43c49b2b3a29865d9f660c67b22124f9d2c1fb57d04f。6nfev后MP约5.3e−10，冻结64/96→256/384时自然闭合3.0e−9→5.6e−7非单调，倒行与full−4MP缺陷保留。长圈仅算子输入，非厚度候选；旧R37实例reach/D<1.14e−5不重跑。
+同43618467921 full4已核88源/2输出：[完整实际审计](notes/literature-full-fourth-function-actual-audit-20261114.md)。主27091B SHA a9162b82535af2efacf1ad0e7f07ff0e6aa97991417d7c5de5cbd922f2ddb15a；202.443s两档各1228段。固定R52 fit256一次，profile canonical20680dfd98d6ede4db5ee5f0ec34dd24f0b10ceabdbad6d07364508cb7dae506；17panel真右尾。fine−2/0 periodL2≈2.05e26/4e26，global-w商比例.839，未过。−4降1296倍未稳；两档几何32/64和profile64/96同时变，不能单归因。三矩5.44e−7→1.80e−10、种子相消绝对4.6e9及full−4P真差保留。没有准确R52全类排除，不原样重跑同失败实例。
 
-同run43618467921的full_fourth_evaluate已完成，88源/2输出、冻结输入/profile规范身份全核；[完整实际审计](notes/literature-full-fourth-function-actual-audit-20261114.md)。主27091B SHA a9162b82535af2efacf1ad0e7f07ff0e6aa97991417d7c5de5cbd922f2ddb15a。202.443s两档各1228段，732真实历史不重置；R52 fit256只一次，17panel全右锚，几何32/64与profile64/96同态。细−2/0 periodL2≈2.05e26/4.00e26，global-w商比例.839，未过；−4降1296倍但未稳定，两种精化同时变不能单归因。低阶三矩5.44e−7→1.80e−10；种子相消绝对L2仍4.6e9，相对7.6e−18不授绝对证书。full−4P真实保存；不强制R58、不冒称R53、不用巨大majorant归一作通过，也不作准确R52全类排除。不原样重算失败profile。
+R62：固定h,d的Rk=(k²−1)A+kB，±1零bulk仍保八维IFT；第四RHS=−Rk(W,W)+2Rk(φ,U)+Jk，理想两段只逆history余T(J++J−)。**R65已完成**：I紧含于(1,∞)时纯漂移P满足(P/(x²−1))′=P1P2/[64(x²−1)²]；实profile平方给左负，复profile用两因子统一|q″|²尾界及Gronwall证明P0⇒q0，无分支选择。理想无桥±1 pair的m−4=T P[q]/16非零，真实桥/有限N/其他状态不受此排除。
 
-R62新准确分解：固定h,d时Rk=(k²−1)A+kB，±1两整圈零bulk仍保八维IFT；第四RHS=−Rk(W,W)+2Rk(φ,U)+Jk。理想等时两段逆掉history但余T(J++J−)，真实桥可耦合O(N)/O(N²)历史，不能从二阶成本O1推高阶O1。继续分析明确Jpair，不改变正在运行的首输入。
+literature正开发冻结R52 profile独立一维诊断：256/512三矩、标准常段纯复Floc及准确总尾条件缺陷，分离profile误差；不重fit、不强设Floc=Fhol。R65短代数证书可同lane。后续纸推固定控制bulk圈数N下完整period至多三次的准确递推，真实桥可贡献N²，不能O1忽略。
 
-## 5. 最新直接度量结论与下一行动
+## 5. 当前直接理论与行动顺序
 
-R57以e=|Xs|²−1、q=Xs·T给准确operatorη=(|e|+√(e²+4q²))/2；辅助R0充分，旧有限beta类不能自动等同所有直接metric解。R59逐圈b quartic和F投影是必要松弛，根不能拼作合法中心；R61联合放开a′/b给真实L2下界，消F还欠全角E及S′=−2xS。R63仅C²就分类Tz恒0整带：非圆只直柱，圆固定轴，故非圆到圆须某处空间角场，当前v列保留。R48/R51/R55旧尾表示排除均不授一般C²或正误差下界。
+R57准确operatorη，R59逐圈中心quartic，R61联合a′/b投影只给必要门；消F还需全角E及径向S′=−2xS。R63仅C²：水平角切向非圆只能直柱，故空间v必须保留。R48/R51/R55仅特定有限表示障碍，不是普遍C²或正误差下界。
 
-**R64**：在明确可微Taylor/一侧解析条件下，凸核心a′=−Cx³迫v7=−side C²(k^−2)θ/(14a0)、b6=−side C²〈k^−2〉/2。当前首片vbase0且径向五次，因此该有限类无准确零；无1e−6下界，不排精化。给局部v7和条件b6补偿，原c0的b6尚未评价；leading不付全部Cauchy系列。[成套设计](notes/elliptic-entry-paired-base-repair-design-20261114.md)已三方核：局部Taylor替换及W2/W5/W4锁u5/v8/b7，仍167维新空间；未选ell_e或实现，R2仅给窄GC germ；准确椭圆系数见notes/elliptic-entry-closed-form-coefficients-20261114.md。待实际误差决定，不改首轮。
+R64在明确可微Taylor/一侧解析类迫入口v7=−side C²(k^−2)θ/(14a0)、b6=−side C²〈k^−2〉/2；旧首片vbase0+径向五次无准确零，不排1e−6或精化。[成套入口设计](notes/elliptic-entry-paired-base-repair-design-20261114.md)用固定Taylor替换与W2/W5/W4锁u5/v8/b7，167维新空间；leading不付全部Cauchy系列。闭式椭圆U4/V7/b6及材料q7测度已公开；R2只给窄解析germ，不保证到实测峰。B=.36/.37独立core输运有纸面设计，暂不与入口修复混改。
 
-立即接独立高度lane原始回执（full4已审）：全源/输出SHA及状态/g身份核，区别success与几何通过。按真实残差选择下一open子问题，继续全时/全域metric、嵌入/reach/幅度而非中间报告。16:58按bccf1787读larger-amplitude/exact-nearby公开H，均仍无可借用完整达标族。不得读私有研究补公开结果。
+立即顺序：发布167实际审计→固定查询无关高度helper/loader/公开诊断→固定selected g入口成套audit-only→按真实数据决定完整优化与height/reach约束；文献小诊断并行。16:58按bccf读两相关公开H仍无可借完整达标族。不从私有研究补公开结果，不以任何局部门或阶段报告收尾。
