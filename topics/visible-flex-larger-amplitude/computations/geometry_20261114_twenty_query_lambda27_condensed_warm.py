@@ -269,8 +269,6 @@ def main():
         actual_parent_warm_sha256=ACTUAL64_WARM_SHA,
         actual_parent_status_sha256=ACTUAL64_STATUS_SHA,
         current_schema=SCHEMA, single_damping_experiment=contract)
-    args.out.mkdir(parents=True, exist_ok=True)
-    original.write(args.out/'single-damping-source-binding.json', proof)
 
     # Private globals make every cloned function identify this independent
     # producer. The old twenty module and all its frozen functions stay intact.
@@ -293,7 +291,9 @@ def main():
     old_main = engine.main
     engine.main = modified_main
     try:
-        return private['main']()
+        status = private['main']()
+        original.write(args.out/'single-damping-source-binding.json', proof)
+        return status
     finally:
         engine.main = old_main
 

@@ -152,8 +152,15 @@ def main():
         read_blobs = [subprocess.check_output(
             ['git', '-C', str(repo), 'rev-parse', 'origin/main:'+name], env=env, text=True).strip()
             for name in ('README.md', 'topics/visible-flex-larger-amplitude/README.md')]
-        handoff = repo/'topics/visible-flex-larger-amplitude/HANDOFF.md'
-        body = handoff.read_text()
+        handoff_relative = 'topics/visible-flex-larger-amplitude/HANDOFF.md'
+        handoff = repo/handoff_relative
+        # Rebase can remove a path outside the current sparse selection.  Read
+        # this one tracked blob at the actual rebased HEAD without broadening
+        # the checkout or overwriting any existing scientific HANDOFF content.
+        body = (handoff.read_text() if handoff.is_file() else
+                subprocess.check_output(['git', '-C', str(repo), 'show',
+                    'HEAD:'+handoff_relative], env=env, text=True))
+        handoff.parent.mkdir(parents=True, exist_ok=True)
         stamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')
         record = ('规则同步记录：'+stamp+' Actions publisher真实 git pull --rebase origin main 后核双README；根'
                   +read_blobs[0]+'、题'+read_blobs[1]+'未变，已读提交 '+read_commit+'。')

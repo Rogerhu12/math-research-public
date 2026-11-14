@@ -1,6 +1,6 @@
 {
   "request": 67,
-  "requested_at": "2026-11-14T23:13:52.260979+00:00",
+  "requested_at": "2026-11-14T23:21:56.194971+00:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "condensedqp"
@@ -24,7 +24,7 @@
     "geometry_20261114_sixteen_query_condensed_warm.py": "b5bfc20259b2d182ac881cf9dab7062912578fb489ef17940c259082bf184815",
     "geometry_20261114_sixteen_query_condensed_response.py": "9f0717bde76c7c29d86f05d3d9710bf7f1668e538ee32f99bc4167e5b731c025",
     "geometry_20261114_sixteen_query_collocation_observer_warm.py": "3f9df52b6d7dc2b721c91f7c97e28421283043b35f833d1151ef408e2ce9d05e",
-    "root_20261114_publish_actions.py": "dc4d9688ce1dcfdb03dda05f407be86ce24ff874b5c20bb1b07ed1a77d452b01",
+    "root_20261114_publish_actions.py": "627393d1ba77b5e13dcf34da64204d0554a7c009770a2d80a1353c3f16b007fe",
     "geometry_20261114_seventeen_query_domain_operator.py": "5bb4f214d4d2505185448a9162c0d995bdb6c37168e6d9542dfe6202e8f21a41",
     "geometry_20261114_seventeen_query_condensed_warm.py": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b",
     "geometry_20261114_seventeen_query_condensed_response.py": "f85fefd928e5ff7945e10082419e197b1b8c5cf3c4d00c1cdcd270380470bbbb",
@@ -42,9 +42,9 @@
     "geometry_20261114_twenty_query_condensed_warm.py": "9d750fcba45624f23dbae19ca44fded0437f1f5dc15943879cbf046064fe22ee",
     "geometry_20261114_twenty_query_condensed_response.py": "6890d58c28ea697bf025de85f0d276e351041ea8928afdb325d1162dadcece17",
     "geometry_20261114_twenty_query_collocation_observer_warm.py": "4b2c875a58c9dfb43581922bfec983188c763b2014fc438cc918b178a50d6a05",
-    "geometry_20261114_twenty_query_lambda27_condensed_warm.py": "c425a9576b49e6d97325769470e5fbd1c635248024372fe0c5aac3a9befd3ef5",
+    "geometry_20261114_twenty_query_lambda27_condensed_warm.py": "7de5e7d01efa9464e9c0d671c94d3b70a6e093dc1b3fd844944456ebb46fbbb5",
     "geometry_20261114_twenty_query_lambda27_condensed_response.py": "8416bcb6ed57f1c2042032e22d1e637ed40fac0fbf0d676a6009b91f5535d9d9",
-    "geometry_20261114_twenty_query_lambda27_collocation_observer_warm.py": "798fafd5fe2163151674a500719d10c5574b9d0c8948701d79a45145faab22ea"
+    "geometry_20261114_twenty_query_lambda27_collocation_observer_warm.py": "e75ba9319b72af4b3f329d870e3c4e7defa09ab165b7949f7974660db7891504"
   },
   "actual_parent_run": 43648987661,
   "actual_parent_warm_sha256": "3b25ea84dfababece99e1dc098d56cdcebd94737e428e509140e818d48e8eb1e",
@@ -278,5 +278,18 @@
     "interval": 485,
     "fraction": 0.5
   },
-  "query_comparison_scope": "The nearest-rejection history belongs to actual64 and justified the preceding request66 grid. Request67 keeps that entire20 grid unchanged."
+  "query_comparison_scope": "The nearest-rejection history belongs to actual64 and justified the preceding request66 grid. Request67 keeps that entire20 grid unchanged.",
+  "revision": 2,
+  "previous_attempt": {
+    "run_id": 43652246030,
+    "source_commit": "7ddf041512e1b33920cc176b0467cb42d1cd471f",
+    "job_id": 132623107460,
+    "artifact_id": 14136278581,
+    "artifact_sha256": "66de7f77268d61fe854f7123d29cf1b3fce84bd8e9854f89063994c51e6fac92",
+    "failure": "Metadata prewrite made original output directory nonempty; separate publisher sparse HANDOFF path missing",
+    "original_evaluate_and_weights_calls": 0,
+    "setup_pack_initial_projection_executed": true,
+    "actual_lambda_trial_or_optimization_result": false
+  },
+  "revision_scope": "Delay only source-binding metadata until the original main returns; preserve original fresh-output guard and mathematical bodies. Observer source pin follows current entry. Publisher restores its missing sparse HANDOFF from actual rebased HEAD."
 }

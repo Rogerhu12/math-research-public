@@ -1,0 +1,35 @@
+{
+  "run_id": 43652246030,
+  "source_commit": "7ddf041512e1b33920cc176b0467cb42d1cd471f",
+  "artifact_id": 14136278581,
+  "artifact_name": "visible-followup-condensedqp-43652246030-1",
+  "zip_bytes": 9319585,
+  "zip_sha256": "66de7f77268d61fe854f7123d29cf1b3fce84bd8e9854f89063994c51e6fac92",
+  "root_complete_zip_size_SHA_CRC_verified": true,
+  "original_artifact_retained": true,
+  "original_small_files": [
+    {
+      "original_file": "twenty-lambda27-condensed-warm/collocation-observer/run-summary.json",
+      "saved_file": "run-summary.json",
+      "bytes": 2497,
+      "sha256": "9cef9225f86c24695c59826d267611693d80619458a58f78649edb34ee37d9fb"
+    },
+    {
+      "original_file": "twenty-lambda27-condensed-warm/single-damping-source-binding.json",
+      "saved_file": "single-damping-source-binding.json",
+      "bytes": 7884,
+      "sha256": "f7c50cead65badbda74a2a85be5a782ee912dfe13ddbc7d9eb5fb7c25a73e012"
+    }
+  ],
+  "job_log": {
+    "file": "job-132623107460.log.gz",
+    "gzip_bytes": 14104,
+    "gzip_sha256": "9f74315b7d29c3df2606be5cc4ed9aade53b754dd9cdc4b13c4a3a127679c782",
+    "original_bytes": 71493,
+    "original_sha256": "3f63b5b6d18765201e80394879a5ec0c4888b9eec77bfde6d141c4c160384794"
+  },
+  "original_evaluate_calls": 0,
+  "original_weights_calls": 0,
+  "setup_pack_and_initial_projection_executed": true,
+  "new_lambda_effect_evidence": false
+}

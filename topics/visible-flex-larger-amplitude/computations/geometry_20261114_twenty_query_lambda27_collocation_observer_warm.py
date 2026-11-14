@@ -23,7 +23,7 @@ import geometry_20261114_twenty_query_lambda27_condensed_warm as entry
 
 HERE = Path(__file__).resolve().parent
 SCHEMA = "original-return-collocation-location-observer-v1"
-ENTRY_SHA = "c425a9576b49e6d97325769470e5fbd1c635248024372fe0c5aac3a9befd3ef5"
+ENTRY_SHA = "7de5e7d01efa9464e9c0d671c94d3b70a6e093dc1b3fd844944456ebb46fbbb5"
 COLLOCATION_SHA = "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8"
 ENGINE_SHA = "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152"
 

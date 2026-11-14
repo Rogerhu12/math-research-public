@@ -250,3 +250,6 @@ run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布
 
 2026-11-14 23:19 UTC — /root GPT-6 Astra Pro: 完整证明R274并直接登记索引，保存新共享B planar-germ入口e372a7a1/接口2a593cdc；角差公共项精确消去与有限细分论证均已完成。
 原proof内核不改，真实新场见证仍待Actions；并补存67初版完整接口cb2824bc，首跑目录顺序及publisher sparseH错误正即时修复，不等用户。
+
+2026-11-14 23:21 UTC — /root GPT-6 Astra Pro: 67首次目录顺序错误完整保全，源7de5e7d0只延后metadata，observer e75ba931同步真实SHA；revision2同父同λ即时重派。
+共享publisher 627393d1修复真实sparse缺H：从重基HEAD取单blob再记规则行；原9.3MB包完整size/SHA/CRC已核，日志及原observer0evaluate/weights保存，setup/pack范围如实记。
