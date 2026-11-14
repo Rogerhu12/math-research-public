@@ -603,3 +603,9 @@ root逐节核P1–37及真实global T根stable正号、完整mean源、density n
 ### 2026-11-14：cut v3 恢复原 true-inlet Hermite 语义
 
 receipt43610342605从真实v2原件确认前6门过、第7门错误要求binary64(.9)=9/10；实际0新格。v3同时修首node身份、第一格合法极短外推、真实9/10入口Hermite评价，绝非只放松拒绝门。140manifest保旧137逐SHA全不变；全部1977原界和16新单列格、原full97/mean/Robin/high/Hessian合同保留。新child失败亦导出小文本原failure和成功前缀。
+
+### 2026-11-14：精确 bump 的真实改善与传输范围记录
+
+43610523058真实10门通过，完整nativec37a5796a3829dfab1846928041f6a91472dc47f20e02f8a2a4080198b574b1c（11,802,184B/6parts）；原80 target jets复用，新调用0。qstar与全mean Z两套残差严格区分。根取回combined summary后发现实际105167B超100KB集成阈值；不再次经集成取该文件，原件完整保留，后续仅Actions消费/导出<60KB必要文本，并先从process库存检查实际size。已通知各负责者；各row文件也须检查size。新ton继续compact全格与7721混合cover。
+
+右端43610918974在数学前缺原shard013，原7-input数学source尚未运行；实际job132495554326 traceback与失败artifact14120012268保。原index列013而该目录只有005和index；后续从原prepared artifact复用013原字节，不重新构造trial。

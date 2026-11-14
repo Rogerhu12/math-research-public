@@ -249,3 +249,7 @@
 ### 完整 Q=7 物理网络差与同谱权中频压缩
 
 [新证明 D.1–D.36](results/R119-supplement-complete-physical-Q7-network-difference-and-weighted-middle.md) 保完整两根、正区、strict缓冲、mean、实际Γ值与全部Fourier交叉：完整行和adjoint列H1→L2差<2^22000 J24 δ^-38 NX。同五盒实际Wcal下裸middle差<2^-6000000，幂1825/16，余量2667/256。明确裸压缩不等于真实外消元U_M；准确Schur差/酉Poisson恒等式已给，仍继续支付外响应与最终层权。
+
+### 精确 bump 与 full Z 的实际新源诊断
+
+[实际10门报告](results/R133-supplement-actual-exact-bump-and-complete-Z-source-pilot.md)：43610523058/76.875694s，原80次target全部复用，新target0。Z low193含真mean，原格1524<9.628404e−7，原4子格<2.957838e−7；qstar同源改写的对应low界<5.336857e−6，未混淆对象。全14原格/40子格已成，继续compact全cover与同Z真边界/完整Green。
