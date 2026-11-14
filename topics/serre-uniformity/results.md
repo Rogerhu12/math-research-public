@@ -193,3 +193,6 @@
 
 
 - **R742（已证明）**：[原全部flat jets未分歧下降与深度七Abel等距](results/R742-unramified-original-first-jets-and-depth-seven-Abel-isometry.md)。原Serre导数/weight0函数、完整GL2 determinant与支持于p的Shimura reciprocity保全部tame标记；所有允许jet在同一p未分歧CM域，原本原M2赋值整数≥−2、P赋值偶数。R737整数rounding给大p某η≤1及完整$16I_h(p^7u)/(p^7M_{2,h})=u+pH$，p≥2^512超过g/16标签可用。深度4–6、同h两Cartier单位与真实高度仍开。
+
+
+- **R743（已证明）**：[原首矩与准确有限平坦primal二次斜率](results/R743-original-first-moment-and-the-exact-flat-primal-secondary-slope.md)。完整全球H1与Poitou–Tate给S支持pure-p primitive存在，原Robert校正使p-flat规范模w唯一；保两个q配对与负adjoint号，得$2(a_q-16b_q)=-\varepsilon(J_\ell-18)$。仍须同普通Hilbert链比较，未求J/b或冒代pure-p24。

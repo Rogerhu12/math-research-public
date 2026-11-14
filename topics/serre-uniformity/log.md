@@ -29,3 +29,8 @@
 - R742证明原全部允许flat jets同处p未分歧CM域，保完整GL2 determinant/原tame与c1运输；M2整数≥−2、原P赋值偶数。
 - R737整数rounding及完整Tate给大p某η≤1、原p7等距，p≥2^512超过g/16标签；真实KS未设单位，深度4–6与高度仍开。证明SHA17eac5ea689aa2606a197952a2cf97b7f963006f3193d598f22c80b7b7d0bdd8。
 - HANDOFF/open完整归档并按现行接口压缩，索引同步；无新数学计算或共享设施修改。继续R743原首矩/p-flat与R745实际Hodge输入。
+
+## 2026-11-15 00:17 Asia/Taipei · serre-public-resume-20261114
+- R743闭合原S支持pure-p primitive的存在和真实p-flat校正，原q斜率2(a−16b)=−ε(J−18)；完整全球对偶、两个q项及负adjoint号保留。
+- 证明SHA0b4df6133ca11f1837db0ea31a5f226e74c2e9d1b6f2254c0571b5843bc809fb；Milne原文Chapter I Theorem4.10(a)核实，未将flat条件替成ordinary strict-p或推出J/b数值。
+- HANDOFF/open/index同步；R742推送遇非快进后立即pull/rebase已成功，两README未变。仅清除git标明的失效tmp pack并关闭本地自动GC以防盘满，无数学重算或共享设施修改。

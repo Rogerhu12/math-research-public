@@ -277,6 +277,19 @@ R704 原43嵌入矩阵及R708局部Norm歧义已处理；
 仅局部条件不能替全局普通输入。
 
 
+[R743](results/R743-original-first-moment-and-the-exact-flat-primal-secondary-slope.md)
+现给原首矩的准确primal实现：完整$H^1_S$由原Robert类和w（dual为d0,dq）生成，
+原p处dual定位单射使$\Sha^2_S(W)=0$，故存在S支持
+$\delta B=(-i\kappa_p)\cup w$。实际R189校正唯一确定p-flat规范模$\mathbf F_p w$。
+保非零$d_q-8d_0$在q的$(16,1)$及两个q局部项，完整secondary reciprocity给
+$$
+2(a_q(B)-16b_q(B))=-\varepsilon(J_\ell-18).
+$$
+因此$J_{\rm fl}=0$恰对应该p-flat primitive的q类落原w线。
+这未将p-flat条件等同ordinary Hilbert扩张所需的strict-p条件；
+原b的真实交换链/数值仍缺，R204另一个类的pure-p24不能代入。
+
+
 **R736（已证明）**：同原p43/q标记，NS kerΓE_M=(π,N_T)kerΓE_N等于全部原q直接相位核。原Fr=s32给s在μp²上指数1+2p及rμ(ct)=ell(ut)，R207实一致化元保含极点双Norm相位零。故存在原divY=D_Tq、NΓY=NSY=D_TXt；Z=Xt−(t−1)Y同时NΓ/NS/NT=Aα，原直接相位rμ((s−1)Y)=−4J，flat=−4(J−18)。完整普通校正已证，真正与R720原b的T/Γ链及J/b数值仍缺。详[R736](results/R736-original-three-norm-exchange-and-minus-four-moment-phase.md)。
 
 
