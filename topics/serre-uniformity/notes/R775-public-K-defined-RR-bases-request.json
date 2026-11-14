@@ -1,0 +1,32 @@
+{
+  "session": "serre-public-resume-20261114",
+  "job": {
+    "result": "R775-p41-original-K-defined-RR-bases",
+    "p": 41,
+    "prime": 739,
+    "max_exponent_qY": 1640,
+    "budget_minutes": 80,
+    "core": "R775_original_K_defined_RR_bases.py",
+    "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
+    "method": "notes/R775-original-K-defined-RR-bases-method.md",
+    "method_sha256": "407ebdc78140f3d91eac3ee1d8a8a698b0919c285dce0e0d828dad342520b3dd",
+    "proof": "results/R772-original-RR-descent-and-exact-function-recovery-certificates.md",
+    "proof_sha256": "30006eca29d55c9b2e227f490e0ec9ffe128073f1c49c6dab25d3e532f4db59d",
+    "workflow": ".github/workflows/serre-p41-K-defined-rr-bases.yml",
+    "retained": {
+      "R771": {
+        "run_id": "43628998192",
+        "source_commit": "49abc04d7867c9f56911866494692c597cf642d7",
+        "artifact_id": 14127715743,
+        "artifact_name": "serre-global-R771-p41-original-quotient-RR-bases-43628998192-1",
+        "artifact_zip_sha256": "e158bff06405576ce235745db26b6a2e35145d2b1f2d6978127b42a79e1e7c1c",
+        "manifest_sha256": "024ed12029720cc1c5d7ec0612aa484b04cdde8f763fceb852a0fdeabc2c3d74",
+        "certificate_path": "computations/R771-p41-original-quotient-RR-bases/43628998192-1/p41-original-quotient-RR-basis-certificate.json",
+        "certificate_sha256": "9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f",
+        "core_path": "scripts/R771_original_quotient_RR_bases.py",
+        "core_sha256": "9cda269687a01c95c9c20695be771706bbddd37b1b8fedc8b9258386c3965d46"
+      }
+    },
+    "resume": null
+  }
+}

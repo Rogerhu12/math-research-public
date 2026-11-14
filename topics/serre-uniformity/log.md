@@ -225,3 +225,8 @@
 - R774原H³公开工程复用R7484096、R745800及R759v，21对/56三积的block121整数低乘、14×112原L逐行尺度合成821项；实际e和R771真M6的完整mod739代回均保，未预称输出。
 - coreb7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa、requestda23448706994a5072b3b9c8745908ae853895f5fc4a72cd358371b0e75442c1；全四producer run/source/manifest和R735/R772绑定，80分钟逐阶段断点，大表只artifact。
 - 根已读五文件及真实R771结果，全部SHA相符；R773已推a668c4a1，H/open/index同步。R775 K定义基并行编写，终端不可用按根规矩8核main/两README、小文本非force，无本地数学执行。
+
+## 2026-11-15 03:17 Asia/Taipei · serre-public-resume-20261114
+- R775原K基工程直接读R77185完成stage，40det像保双label/odd d82/半线性权；Vandermonde保原146秩，新正常乘积与elliptic层接694/1514。core8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee、requestb576491c2c65dea716b02a610ebe9cf07215fb678d3ae62ffae596b9022885ae。
+- 全新tag/路径、逐coset与批次断点，旧init/E1/group/levelone不运行；80分钟预算全保存，实际输出待run。R774首次43630945978仅旧manifest SHA查找失败，core未启动，正核原producer修输入，不重跑旧数学。
+- R774 ref竞争后核404并重接main，cbc48549成功；H/open本次完整归档压缩并同步index。根/代理已读R775源码和原schema，终端未恢复，按根规矩8核main/两README并非force继续，无本地数学。

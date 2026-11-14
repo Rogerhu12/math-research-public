@@ -289,3 +289,6 @@
 
 
 - **R774（方法已证明，公开工程已保存）**：[原degree1206微分的完整权六立方前缀](notes/R774-original-Hodge-cube-method.md)。复用R748原4096 newform、R745前800与R759真v，只扩six Fourier至2460；block121的56对称三积及14行原L有理尺度准确生成H³的821项并提取实际e，R771真694基仅作完整mod739辅助核。实际输出待run，不预称M6特征零坐标/函数/高度。
+
+
+- **R775（方法已证明，公开工程已保存）**：[原商的实际K定义RR基](notes/R775-original-K-defined-RR-bases-method.md)。直接复用R77185阶段，40det半线性迹保odd d82与双标签；Vandermonde保证mod739全候选含原146秩，选原配方接694/1514高权基。逐coset断点，不重算旧E1/群/levelone，实际输出待run；后续原L系数函数恢复继续。
