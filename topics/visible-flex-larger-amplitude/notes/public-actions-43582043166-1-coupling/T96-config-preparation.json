@@ -1,0 +1,19 @@
+{
+  "base_config": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json",
+  "base_config_sha256": "3b0deaaf0cdc65a34a8e4652e0a04d96a840db354ccada71d9cba5e4cd228e23",
+  "config_sha256": "456d55c7f4a6cf3df8788c465a67b0774e53fa2fdc26f0d385b0556666cd6f53",
+  "M": 96,
+  "N": 1024,
+  "changed_finite_settings": {
+    "modes": 96,
+    "quadrature": 1024,
+    "steps": 12,
+    "auditSteps": 12
+  },
+  "physical_metric_parameters_unchanged": true,
+  "original_solve_tolerance": 2e-09,
+  "original_maximum_iterations": 32,
+  "physical_depth": 8,
+  "initial_checkpoint": null,
+  "scope": "Prepared finite configuration only; no solved tail or prefix."
+}
