@@ -70,3 +70,5 @@ R266完整证明已入results：原stage/cut/far缺陷与原σ下降、computedJ
 request27/sevenprojection已接推送：锁actual26 warm4e2ee245…，新增实际坏RMS472/481得到七query×2048=14336行；同λ270/LSMR200/Hildreth200、完整原回溯与新FD。独立薄入口f6598a5e…/d05df1fd…不改26冻结源/父producer，详[七query接口](notes/2026-11-14-seven-query-projection-warm-interface.md)。
 
 request28/nativecorrection独立原完整校正捕获已接推送：源0b49f142…/hookb20aee4d…，同actual25/23 H与全seed，原withJac/correction表达式保持；完整J/r/delta/所有原σ缺陷及最大图矩阵保存后在trial前计划停机。仅诊断完成，不报native/J/audit接受；全部大阵仅artifact，详[捕获接口](notes/2026-11-14-native-correction-capture-interface.md)。
+
+R267完整证明已入results：同一固定模型可在任意证据点取Lagrangian下界，再约束另一个可行候选；最大合法下界优于只看投影后巨大梯度的单点界。完整原梯度与有符号slack仍必须实际重算，跨迭代刷新权重不可混；actual26仅形式代入，严格浮点认证另付，不新增运行门。

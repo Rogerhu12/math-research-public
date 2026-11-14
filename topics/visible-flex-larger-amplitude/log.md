@@ -688,3 +688,7 @@ run43608931469/source2a251065/job132489481146全success，artifact14119626920 10
 ### 2026-11-14 request28：保全原首次native校正全部有限模型
 
 新launcher0b49f142…/hookb20aee4d…及接口全文读，原25绑定代码复用且硬锁；实际25新增10件原始失败输入逐SHA。同23完整候选原位恢复后，只读observer在冻结engine既有检查后插入原core，删插入逐字恢复；原withJac与correction运算不动，完整231211008B J按8stage块、原r/states/σ/far/target/delta/全部线性缺陷与max图矩阵保全，完成后唯一STOP在trial前，0trial且native_accepted=false。AST/Node和生成源码语法通过，无本地科学计算。独立lane与publisher名单接齐，large-arrays整目录仅Actions artifact，manifest/源/输入/哈希入Git。
+
+### 2026-11-14 R267：分开模型下界证据点与最终可行方向
+
+完整证明71950d9d…/10977B已全文读并直接登记。任意证据点可不可行，非负乘子和完整原梯度给同固定模型下界；多点取最大后给另一个可行候选的gap/距离/最佳下降比例。actual26 raw LSMR的完整梯度可提供独立于投影后巨大梯度的证据，本文仅形式代入已存数值，未本地执行计算或将浮点slack当认证。不同权重模型不得相混，无新增验收门。request28实际run43611175099/source6bd52b44/job132496373274已启动原withJac/correction捕获。
