@@ -551,3 +551,7 @@ bot发布只因并发main CAS拒绝被漏分类而终止；已补明确cannot-lo
 ### 2026-11-14 13:53 UTC — request18 continues the exact actual warm without repeating native failure
 
 据实际17的LSMR80上限/normal residual及turn interval473 RMS β²边界，只接实际warm003一模型、LSMR200、原规则延续λ270；workflow逐项核9个原producer SHA，原699/全频/真零J affine/完整真实域/merit不改，新warm再实做原FD。新增trustresume lane但不进入原native/fullDN；若仍tiny步或域余量耗尽，不能继续盲堆模型。冷尾无J初残差probe独立准备。原数值3源未改，尚无本request实际结果。
+
+### 2026-11-14 13:55 UTC — R260 separates the actual scalar and finite-field error mechanisms
+
+完整R260直接登记：原Frenet角速度ap/a及实际保持的半径、目标角metric累计缺陷；实际角投影/径向插值强迫和直接operator界，app/真实导数二阶偏差及1β放大；共享节点C²来源无关。原48/64部分求积真导、实际binary moment账及线性相位非恒等性完整证明，不推当前误差超限。root全文读及十个源SHA核对；没有新科学数值或原门/数学源改动。

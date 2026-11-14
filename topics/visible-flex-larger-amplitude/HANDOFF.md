@@ -21,15 +21,8 @@ request08/run43588155190：699nodes全部node/mid/两RMS域过，min beta²=.005
 
 ## 已付失败，不原样重跑
 
-request10/11旧Rθ QR/band及12 P/方向诊断：相对线残差.91333/3.27382e−4、P约1.14e17；全部零接受、新H0。详见actual-direction-projection及原失败notes。
-
-| request/run | 实际结论 |
-|---|---|
-|13/43594985550|R252真J非零H FD9.65016e−10；新右块cond621945/均衡2956.89，同旧Uend方块119589.8。band相对8.22590e−7/方向352.439，17trial全坏，最后78node/124mid；966invalid，新H0。publisher e61dbf4。|
-|14/43596465579|699原QR新小块119589.8，全线相对.06731197/方向352.418；回溯无接受、966invalid、新H0。未有逐trial域，不补造。artifact14114552872/publisher2d1a128。|
-|15/43596755251|保699旧点加374至1073；域/FD过。band相对2.936478e−6/方向1014.925；17trial全坏，最后399node/496mid；status1/RMS2.12563、新H0。artifact14114833371/publisher4818868。|
-
-本日actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure存完整源/输出SHA。15实际有限Jac在a二阶量零的峰值cell谱半径1.60766e5、L/R条件约1.8e12；末cell分60段宏传播范数约2.22e23。理想R255 circle剪切不直接描述有限φ，不能据此盲加bridge点/抬1200。
+request10/11旧Rθ QR/band及12 P诊断：全线相对.91333/3.27382e−4、P约1.14e17；零接受/新H0。request13/run43594985550新Rφ FD9.65016e−10过，band相对8.22590e−7/方向352.439，17trial全坏；14/run43596465579原QR相对.06731197/方向352.418，同无接受；15/run43596755251保699加374至1073，band相对2.936478e−6/方向1014.925，17trial全坏，最后399node/496mid、RMS2.12563。三者新H0；artifact/publisher及全部SHA见本日actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure。
+15实际有限Jac在峰值cell谱半径1.60766e5、L/R条件约1.8e12；末cell分60段宏传播范数约2.22e23。理想R255 circle谱不直接描述有限φ；盲加bridge点/抬1200无据。
 
 ## 最新真实执行：request17已失败，继续原两处阻断
 
@@ -50,6 +43,7 @@ full_state_continuous_cover/held_hausdorff已绑定全v3/v4、R249、SE2/完整m
 完整证明及依赖在results.md；不以本索引代原假设。
 R248全相位C²强连续/metric/κ归约；未标记reach可一次空间证据，marker仍付R24/R11。R249只投影入口z/XY′/z″共享jets，保整个cut/mean/H；实际operator/κ修补成本未付。
 R250/R253材料P可逆与高频病态相容，不冒M112因果。R252完整φ有限边界及全core链式，不是旧Rθ等价预条件。R255精确circle非正规剪切不冒有限φ谱。R256 exact chart双射/完整J/JT/精确正阻尼下降，截停LSMR与真DN须实际测。R257恒速有限平面Fourier只能圆；材料圆Jac保理想块，非圆精确入口不能纯有限θ；备用θ方案须付投影或解析lift/全部读出成本。
+R260已证原角长度演化ap/a、同g累计误差、角/径向强迫及app二阶代价，固定Gauss非恒等不冒数值超限，C²规范形仍成立。
 R251四Loewner量给原operator门；strict cell/fullprefix/scalar exporter已重建。request16/run43597596523真success仅四源compile、三解析例及series接口；actual-R251-operator-interface-check存回执。实际完整scalar/prefix仍未核，不重跑例子。R246仅旧.984三分量证书，不能移植.99或冒operator≤1e−6。
 R254完整z0/sharednode prefix逐cell有理非平面，已compile，新场未跑。R258完整FFT节点的精确Hermite tail、内collar及全角cut修补给每段四角行列式次数≤15；严格有理/Arb非零见证、完整材料四角固定、真实marker与R238链已证。新规范形不自动继承旧renderer几何包络；C²/嵌入/真实像变仍另付；同场消费者已冻结并AST核，完整dtype/所有FFT模式/真实SE2/有理marker均绑定，见R258-own-tail-planar-germ-interface，尚无执行。
 

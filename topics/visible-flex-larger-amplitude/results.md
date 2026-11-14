@@ -483,3 +483,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R258. 同场完整尾部、内外 Hermite 接缝与平面胚标记链](results/R258-complete-field-tail-cardinal-marker-chain.md)（已证明，完整有限对象条件定理）：本场全部FFT/shared-node精确Hermite尾、零2-jet collar及完整材料角cut修补的每段四角行列式次数≤15；全材料四角固定、真实SE2三角常数严格球及有限非零见证排平面开片。实际marker有理条件、活动环带拓扑与同场C²/嵌入/像变输入接到含反射δE>0；不继承旧renderer未付表示差或旧A数值，消费者未执行。
 
 - [R259. 小核心直线同伦的共振条件、完整尾耦合与可去退化](results/R259-small-core-homotopy-and-resonance-conditions.md)（已证明，条件代数/续接定理）：实际源圆R′=(ap/a)R与原有限collocation圆递推，raw phi与材料角切向链式，全112尾Jacobian/高块Schur给固定前三目标直线缩幅的必要匹配；积分去退化及完整方块可逆给条件IFT。三重首阶共振不约束λ、λ²、λ³等别的路径，不宣称小幅存在或可延到原大幅终点；同scalar合法性/真实尾/原接受门均保留。
+
+- [R260. 固定标量jet的一致性、角度量演化及有限投影强迫误差](results/R260-scalar-jet-consistency-and-forced-metric-evolution.md)（已证明，条件恒等式与源解析核对）：原Frenet实际保持角速度ap/a，目标误差为exp(2∫(ap−a′)/a)−1；完整角投影/径向残差强迫、相对operator界及app显式二阶偏差/1β放大均证明。固定48/64有限Gauss真导、binary moment包络和非零线性相位非恒等性明确；不推实际误差超限、不取消共享节点C²、不改变同g或增加完成门。
