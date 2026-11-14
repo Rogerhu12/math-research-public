@@ -1,0 +1,104 @@
+{
+  "kind": "actual_public_complete_mean_norm_and_phase_direction_consumer_process",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43588192611",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "98e23ccdf3fc428f930c03fdcd666bcdb421f40b",
+  "worker_source_sha256": "3bd15bb723ef95ee2e5c27e84848147515c8c0364acf6e30abe546604a4da44b",
+  "started_utc": "2026-11-14T11:04:21.143514+00:00",
+  "children": [
+    {
+      "label": "actual_complete_mean_norm_and_raw_trial_to_phase_direction_consumer",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-body-mean-norm-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_body_mean_norms.py",
+        "--body",
+        "/__w/_temp/visible-exact-original-body-mean/native/complete-correlated-body-and-mean-errors.json.gz",
+        "--actual-process",
+        "/__w/_temp/visible-exact-original-body-mean/process.json",
+        "--direction",
+        "/__w/_temp/visible-exact-body-mean-norm-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz",
+        "--out",
+        "/__w/_temp/visible-exact-body-mean-norm/native/complete-body-mean-norm-and-phase-direction-native.json.gz"
+      ],
+      "started_utc": "2026-11-14T11:04:22.215644+00:00",
+      "actual_returncode": 1,
+      "wall_seconds": 5.000456198999984,
+      "finished_utc": "2026-11-14T11:04:27.216263+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T11:04:22.208943+00:00",
+      "before": "35bf247162bba1619698404b9996a22cf0dc52a9",
+      "after": "5a05b8f23142fe97d18bb7b401f69c211570275f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:04:27.878659+00:00",
+      "before": "5a05b8f23142fe97d18bb7b401f69c211570275f",
+      "after": "f97b5a3ed0e5c8aad957fe811dfbdf170adab2a9",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_completed_body_run": 43586413510,
+  "original_complete_body_rows_recomputed": 0,
+  "phase_application_parameter_offset": "0",
+  "continuous_BVP_inverse_proved": false,
+  "true_parameter_Schur_nonzero_proved": false,
+  "input_manifest_sha256": "c3664d2d5096975a3b2d160765a2570ba7d65257dba8794e3bbac0511d5c03b2",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "f97b5a3ed0e5c8aad957fe811dfbdf170adab2a9",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-body-mean-norm-work/science",
+  "failure": {
+    "type": "RuntimeError",
+    "message": "actual_complete_mean_norm_and_raw_trial_to_phase_direction_consumer returned 1"
+  },
+  "finished_utc": "2026-11-14T11:04:27.216794+00:00",
+  "snapshot_utc": "2026-11-14T11:04:27.884925+00:00",
+  "wall_seconds": 6.741879893999993,
+  "native_files": [
+    {
+      "logical_file": "evidence/original-complete-body-process.json",
+      "file": "evidence/original-complete-body-process.json",
+      "bytes": 17777,
+      "sha256": "0a5dc06520bad5a1230b65cba6e895e998e1f3ce6a32a65d9ffa8800b8ea1a9e"
+    },
+    {
+      "logical_file": "native/complete-body-mean-norm-and-phase-direction-native.json.gz",
+      "file": "native/complete-body-mean-norm-and-phase-direction-native.json.gz",
+      "bytes": 568,
+      "sha256": "fa68d99af4ae381a22d56f2a5f5b1a5b87b0af86316aec038e09595d9a4e31bb"
+    }
+  ]
+}
