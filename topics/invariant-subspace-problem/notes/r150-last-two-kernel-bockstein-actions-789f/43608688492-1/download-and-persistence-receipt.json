@@ -1,0 +1,115 @@
+{
+  "run": 43608688492,
+  "attempt": 1,
+  "job": 132488731199,
+  "sourceCommit": "bf35613dc77b65bb03bc3c33878cc47b6373304d",
+  "runURL": "https://github.com/Rogerhu12/math-research-public/actions/runs/43608688492",
+  "conclusion": "success",
+  "completedAt": "2026-11-14T15:10:42Z",
+  "recovery": {
+    "id": 14119685932,
+    "name": "isp-r150-last-two-kernel-bockstein-recovery-43608688492-1",
+    "zipBytes": 5743461,
+    "digest": "sha256:d9b92c861299a7d3d152e15f75664284e598d90c5600278ff1781238085314e1",
+    "expiresAt": "2026-12-14T15:10:36Z"
+  },
+  "results": {
+    "id": 14119592373,
+    "name": "isp-r150-last-two-kernel-bockstein-results-43608688492-1",
+    "zipBytes": 16683,
+    "digest": "sha256:ce12b2132c37409baa2c0e7e84293d445253bfc9c9722069c452d47b54abd6b7",
+    "expiresAt": "2026-12-14T15:10:35Z"
+  },
+  "allDownloadedRecoveryFilesSHA256Verified": true,
+  "recoveryOriginalBytes": 9620235,
+  "savedRecovery": [
+    {
+      "originalFile": "recovery/image/image-image-certificate.json",
+      "originalBytes": 1036,
+      "originalSHA256": "daca570e1b7f0846628d5b61e8637bc1508f28a63fa54181e3b53c47331bc988",
+      "savedFile": "recovery/image/image-image-certificate.json",
+      "savedBytes": 1036,
+      "savedSHA256": "daca570e1b7f0846628d5b61e8637bc1508f28a63fa54181e3b53c47331bc988"
+    },
+    {
+      "originalFile": "recovery/image/image-image-quotients.bin",
+      "originalBytes": 182328,
+      "originalSHA256": "99035d3d4945d11f5fe8da8765d2df633a08f4ebb82f0f8904dbd3d63c3ecd77",
+      "savedFile": "recovery/image/image-image-quotients.bin.gz",
+      "savedBytes": 120847,
+      "savedSHA256": "a3d0c724952801d50348611028ab9526bd23a3fe7079d35758cba2dea6556409"
+    },
+    {
+      "originalFile": "recovery/image/image-image-remainders.bin",
+      "originalBytes": 564,
+      "originalSHA256": "eef83657cdfb946f85e617d73b441719f8c24fcc3aebb4a6c799344a1fe17199",
+      "savedFile": "recovery/image/image-image-remainders.bin.gz",
+      "savedBytes": 389,
+      "savedSHA256": "1b95d24e2f1f502005b50a993b180c566b9f859260a168c56bc97faf37bb976c"
+    },
+    {
+      "originalFile": "recovery/normal/beta-backward.bin",
+      "originalBytes": 3052119,
+      "originalSHA256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f",
+      "savedFile": "recovery/normal/beta-backward.bin.gz",
+      "savedBytes": 2031817,
+      "savedSHA256": "3be7ad2f8e416db1c513790b13960d2f9476c85179c3f9e6d7c3844a9e780c3e"
+    },
+    {
+      "originalFile": "recovery/normal/beta-forward.bin",
+      "originalBytes": 2378937,
+      "originalSHA256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+      "savedFile": "recovery/normal/beta-forward.bin.gz",
+      "savedBytes": 1660293,
+      "savedSHA256": "5ef227291506c8594a173fe56cc849e5d79cdcb9e09d694cc4237fa3d3605098"
+    },
+    {
+      "originalFile": "recovery/normal/beta-normal-forms.bin",
+      "originalBytes": 120594,
+      "originalSHA256": "a849b427a78991fb83a2c1eeff2a82cfe95ed1805b7cac0baf13a4d69f5e4066",
+      "savedFile": "recovery/normal/beta-normal-forms.bin.gz",
+      "savedBytes": 81651,
+      "savedSHA256": "d38e0ac0bb534ce3f0fa6baea462b16a2ef7befe6f17eb49e8370a62ae732603"
+    },
+    {
+      "originalFile": "recovery/normal/beta-reduction.bin",
+      "originalBytes": 1284984,
+      "originalSHA256": "60b8f00f890885c15027beed4e8692f6840c7624c6df792419d63eeac6beacd4",
+      "savedFile": "recovery/normal/beta-reduction.bin.gz",
+      "savedBytes": 859412,
+      "savedSHA256": "b2c45610ef0697df18eefdd9ca87f80f8a6d4b1e1f7a9304f8572efa555f0d9f"
+    },
+    {
+      "originalFile": "recovery/original/kernel-bockstein-original-rhs.bin",
+      "originalBytes": 490528,
+      "originalSHA256": "d1e26c7139047d73c9ff1d1148692b7a8ec47c8a75c9d183087a3289dc1db786",
+      "savedFile": "recovery/original/kernel-bockstein-original-rhs.bin.gz",
+      "savedBytes": 312652,
+      "savedSHA256": "2e5b74cf16519876962c1fba5f99f2db559660cef7f013b64de4197ab1f938b2"
+    },
+    {
+      "originalFile": "recovery/original/kernel-original-bockstein.json",
+      "originalBytes": 1142,
+      "originalSHA256": "31b46fd94bd387ee9893390d8e46927536c82a1eac4aca0d49c9248ba0be1a05",
+      "savedFile": "recovery/original/kernel-original-bockstein.json",
+      "savedBytes": 1142,
+      "savedSHA256": "31b46fd94bd387ee9893390d8e46927536c82a1eac4aca0d49c9248ba0be1a05"
+    },
+    {
+      "originalFile": "recovery/original/kernel-original-kernels.bin",
+      "originalBytes": 637547,
+      "originalSHA256": "8ce833ebc809e926eb9bcc4a2e7d4fb8f28b3252c54f6f3e38cea2ca6501ae08",
+      "savedFile": "recovery/original/kernel-original-kernels.bin.gz",
+      "savedBytes": 367941,
+      "savedSHA256": "079890a51db2f1beb71d16c9f08c5f923bda4d95d09b75af761e3f942213c178"
+    },
+    {
+      "originalFile": "recovery/state-input.bin",
+      "originalBytes": 1470456,
+      "originalSHA256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf",
+      "savedFile": "recovery/state-input.bin.gz",
+      "savedBytes": 145540,
+      "savedSHA256": "5d86da2405f357c165d80d7fc2def5f419163b1e5d5a14bc9fa33fc05fafb60c"
+    }
+  ]
+}

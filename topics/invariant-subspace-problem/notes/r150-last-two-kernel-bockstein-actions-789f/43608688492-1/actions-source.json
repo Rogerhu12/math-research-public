@@ -1,0 +1,49 @@
+{
+  "source_commit": "bf35613dc77b65bb03bc3c33878cc47b6373304d",
+  "run_id": "43608688492",
+  "run_attempt": "1",
+  "rules_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "request": {
+    "format": "r150-last-two-kernel-bockstein-actions-request-v1",
+    "scope": "Recover only the two missing cost86 kernel rows, prove their original mod961 identities, and combine their complete J-module with the already stored two nonzero images to test all nine original residuals. No old200 reconstruction.",
+    "trigger": "push of this fixed request file",
+    "high_kernel_columns": 2,
+    "source_budget": 86,
+    "all_original_polynomial_kernel_rows": 1834,
+    "characteristic": 31,
+    "integer_modulus": 961,
+    "shared_mathematical_seconds": 60,
+    "per_child_memory_mib": 512,
+    "per_compilation_seconds": 30,
+    "python_flint_version": "0.9.0",
+    "input_run_id": 43597823809,
+    "input_artifact_id": 14114364261,
+    "input_artifact_name": "isp-r150-t96-graph-recovery-43597823809-1",
+    "known_run_id": 43605503242,
+    "known_results_directory": "topics/invariant-subspace-problem/notes/r150-high-kernel-bockstein-actions-789f/43605503242-1",
+    "input_model_repository_path": "topics/invariant-subspace-problem/notes/r150-shifted-graph-actions-789f/43597823809-1/native-normal-form-input.txt",
+    "rules_sha256": {
+      "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+    },
+    "new_source_sha256": {
+      "2026-11-14-r150-last-two-kernel-bockstein-original-789f.cpp": "a3421393f80077ecf10d8b4ba211bf6915c0975a2d3dce34199b8b02baf60957",
+      "2026-11-14-r150-last-two-kernel-bockstein-normal-form-789f.cpp": "16a22ca01b9733c980fdae3d3c54c75bcf863beb7bb2e939517124346ced46cd",
+      "2026-11-14-r150-last-two-kernel-bockstein-image-789f.cpp": "2fc06104942fc60e6369a7378012b8454d9858247d7e49e324f0d1127fec22fe",
+      "2026-11-14-r150-last-two-kernel-bockstein-torsion-789f.py": "4c9f52027de126801a8da3e27dddf2fff656048a5fabd79681c3a007e6ac5d58",
+      "2026-11-14-r150-last-two-kernel-bockstein-runner-789f.py": "d520c1f77f68bd50a50a61c61be16fb37592fcbe629e4df74bda1ef694b666eb",
+      "2026-11-14-r150-last-two-kernel-bockstein-source-derivation-789f.json": "0fc5fc3051746304fc4dde8193b8e703cd680914ed0d08126672a3b888a4d455",
+      "2026-11-14-r150-last-two-kernel-bockstein-source-preparation-789f.json": "840b50a45a8ed62da587779f406eeb95b660537adcd90411b73fd64dda55d347",
+      "2026-11-14-r150-last-two-kernel-bockstein-execution-interface-789f.md": "8a5ed7fee9000359b2b0924c61e55b7516351d5dacc6108301ac2fa7e428e42d"
+    },
+    "old_nf_or_graph_rebuild_requested": false,
+    "old200_bocksteins_recomputed": false,
+    "finite_budget_verified": false,
+    "root_will_publish_actual_results": true
+  },
+  "request_sha256": "c917bdfa9ad1a5e3c0df8b3e0068c251f4dc746c0e9cbdb68ed091c9a55fa89c",
+  "workflow_sha256": "200b0a3ac049b52b6a311cdf5d6ad515a30d2785f99e5b991b6d91044894bcab"
+}

@@ -1,0 +1,38 @@
+{
+  "run_id": "43608688492",
+  "run_attempt": "1",
+  "source_commit": "bf35613dc77b65bb03bc3c33878cc47b6373304d",
+  "step_outcome": "success",
+  "pipeline_status": "completed",
+  "complete": true,
+  "finite_budget_verified": false,
+  "infinite_quotient_necessary_test": {
+    "wholePolynomialBocksteinImageDimension": 2,
+    "augmentedNineTargetRank": 6,
+    "targetCompatibility": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "minimumKernelSourceCostsForInfiniteClasses": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "allNineTargetsPassCompletePolynomialNecessaryTest": false
+  },
+  "mathematical_elapsed_seconds": 11.993844468000006,
+  "root_will_publish_actual_results": true
+}

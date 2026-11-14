@@ -1,0 +1,505 @@
+{
+  "format": "r150-complete-original-polynomial-bockstein-image-v1",
+  "status": "completed",
+  "field": 31,
+  "finite_budget_verified": false,
+  "allOriginalPolynomialKernelRowsAccountedFor": 1834,
+  "exactlyLiftedNNKernelRows": 660,
+  "exactlyLiftedLowKernelRows": 972,
+  "computedHighKernelRows": 202,
+  "newKernelColumns": 2,
+  "old200ColumnsRecomputed": false,
+  "allNewBocksteinsInTorsion": true,
+  "full505ObservationsZero": true,
+  "full820CoordinatesVerified": true,
+  "sameCompleteStandardDictionary": true,
+  "sourceSHA256": "4c9f52027de126801a8da3e27dddf2fff656048a5fabd79681c3a007e6ac5d58",
+  "stateSHA256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf",
+  "oldBaseSHA256": "9d5e8398f8bd586a1c91eaa5ab93868c9ec1d813c40c7131152d866c287d2b95",
+  "oldSystemSHA256": "b46b9f338f961c33d528651c515fec1335943417574f8b83dd942407b87e7ef2",
+  "originalMetadataSHA256": "31b46fd94bd387ee9893390d8e46927536c82a1eac4aca0d49c9248ba0be1a05",
+  "imageMetadataSHA256": "daca570e1b7f0846628d5b61e8637bc1508f28a63fa54181e3b53c47331bc988",
+  "newImageRemaindersSHA256": "eef83657cdfb946f85e617d73b441719f8c24fcc3aebb4a6c799344a1fe17199",
+  "minimumPolynomials": [
+    {
+      "baseColumn": 199,
+      "originalLabel": [
+        2192,
+        2275,
+        85,
+        1241,
+        3485
+      ],
+      "minimumDegree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "full315RelationZero": true,
+      "initialKrylovIndependent": true
+    },
+    {
+      "baseColumn": 200,
+      "originalLabel": [
+        2193,
+        2276,
+        85,
+        1242,
+        3497
+      ],
+      "minimumDegree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "full315RelationZero": true,
+      "initialKrylovIndependent": true
+    },
+    {
+      "baseColumn": 201,
+      "originalLabel": [
+        2194,
+        2277,
+        86,
+        1243,
+        3498
+      ],
+      "minimumDegree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "full315RelationZero": true,
+      "initialKrylovIndependent": true
+    },
+    {
+      "baseColumn": 202,
+      "originalLabel": [
+        2195,
+        2278,
+        86,
+        1244,
+        3499
+      ],
+      "minimumDegree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "full315RelationZero": true,
+      "initialKrylovIndependent": true
+    }
+  ],
+  "wholePolynomialBocksteinImageDimension": 2,
+  "augmentedNineTargetRank": 6,
+  "basisDescriptors": [
+    [
+      199,
+      2275,
+      0,
+      85
+    ],
+    [
+      200,
+      2276,
+      0,
+      85
+    ]
+  ],
+  "full1264KrylovColumnsVerified": true,
+  "full315JInvarianceVerified": true,
+  "targetCompatibility": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "allNineTargetsPassCompletePolynomialNecessaryTest": false,
+  "minimumKernelSourceCostsForInfiniteClasses": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "minimumCostScope": "Cost-ordered greedy independent image columns give the true minimum cost of a polynomial original kernel whose Bockstein has the specified infinite quotient class. Later original source corrections and finite cokernel conditions are not included.",
+  "kernelImageBasisCoefficients": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "full315SolutionIdentitiesVerified": true,
+  "dualCertificates": [
+    {
+      "target": 2,
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 13
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 5
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 5
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 3,
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 21
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 20
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 20
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 4,
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 11
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 9
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 9
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 5,
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 30
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 2
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 2
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 6,
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 27
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 8
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 8
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 7,
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 15
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 1
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 1
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 8,
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 5
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 21
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 21
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 9,
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 20
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 22
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 22
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    },
+    {
+      "target": 10,
+      "coordinates": [
+        {
+          "torsionCoordinate": 181,
+          "stateCoordinate": 332,
+          "normalFormComponent": 905,
+          "parameterExponent": 0,
+          "weight": 2
+        },
+        {
+          "torsionCoordinate": 182,
+          "stateCoordinate": 334,
+          "normalFormComponent": 907,
+          "parameterExponent": 0,
+          "weight": 27
+        },
+        {
+          "torsionCoordinate": 185,
+          "stateCoordinate": 342,
+          "normalFormComponent": 915,
+          "parameterExponent": 0,
+          "weight": 27
+        }
+      ],
+      "annihilatesWholePolynomialBocksteinImage": true,
+      "rightHandSide": 1
+    }
+  ],
+  "system": {
+    "file": "/home/runner/work/_temp/isp-r150-last-two-kernel-bockstein-output/results/complete-polynomial-bockstein-image.bin.gz",
+    "bytes": 4872,
+    "sha256": "71b3ffd524cca40f36ac59fb29694798013987c6153edb0c771420d75780daf8",
+    "gzipBytes": 550,
+    "gzipSHA256": "f755f05723bcdd79193d40fea984fdd532248e50a99b0d755fac2c5433661aa5"
+  },
+  "pythonFlintVersion": "0.9.0",
+  "flintVersion": "3.6.0",
+  "elapsedSeconds": 1.1613238920000057,
+  "coverageJustification": "The exact cost-preserving N-N compression gives660 original O[s] syzygies. The actual972 low reduced kernels have exact O[s] lifts. Together with the reused200 high kernels and the two newly restored cost86 kernels, all1834 original polynomial kernel basis directions are covered. Full315-dimensional J closure includes every polynomial multiple. No finite-budget sufficiency or characteristic-zero membership is asserted."
+}
