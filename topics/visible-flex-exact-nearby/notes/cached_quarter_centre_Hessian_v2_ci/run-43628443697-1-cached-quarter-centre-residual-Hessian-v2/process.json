@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_cached_quarter_centre_Hessian_inlet_recovery_process_v2",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43628443697",
   "run_attempt": "1",
@@ -110,6 +110,22 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T19:05:23.170616+00:00",
+      "before": "77d1ce85b66a1018a136c0a370eed20be3e4c840",
+      "after": "807ccab534f10a80d53163f88411031656127527",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T19:05:27.615558+00:00",
+      "before": "807ccab534f10a80d53163f88411031656127527",
+      "after": "f52c1b2f1bb4cd1ad3fb136a70282c504ce89d08",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -122,6 +138,11 @@
       "time": "2026-11-14T18:57:22.612071+00:00",
       "final": false,
       "commit": "bc24254a700efb841b7724b4d0d4c7861b1e6fb9"
+    },
+    {
+      "time": "2026-11-14T19:05:20.327460+00:00",
+      "final": false,
+      "commit": "807ccab534f10a80d53163f88411031656127527"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -159,7 +180,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "77d1ce85b66a1018a136c0a370eed20be3e4c840",
+  "last_read_commit": "f52c1b2f1bb4cd1ad3fb136a70282c504ce89d08",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cached-Hessian-work/science",
   "actual_original_quarter_finish_native_sha256": "770106a925812df4fc380785ca3e715b2a30a649a355fb888e0dcbe0e6a65298",
   "actual_original_quarter_plan_native_sha256": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a",
@@ -196,9 +217,117 @@
     "range-process-6": "20b69a27f551a6fe434eb537ad763d1578876eb9907b2ff269f6c46aaaebb271",
     "range-process-7": "24eb816235b4e367124e5ac506ad1a8d13e5874df8cbd3a6a7399c53ade87782"
   },
-  "snapshot_utc": "2026-11-14T19:05:10.805315+00:00",
-  "wall_seconds": 1077.381164308,
+  "snapshot_utc": "2026-11-14T19:05:25.082247+00:00",
+  "wall_seconds": 1091.6580959359999,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 2701,
+      "sha256": "84ee1c04809b5a6935eac6497626f5023882f067fd3de348b523826f94fea8be"
+    },
+    {
+      "logical_file": "evidence/complete-cached-quarter-centre-Hessian-summary.json",
+      "file": "evidence/complete-cached-quarter-centre-Hessian-summary.json",
+      "bytes": 19740,
+      "sha256": "f68bd0f1b9937bcd7b8296feca054de360ca85d77e5ea466bf4817a6b84e10cc"
+    },
+    {
+      "logical_file": "evidence/local-0225-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0225-cached-centre-Hessian-diagnostic.json",
+      "bytes": 8917,
+      "sha256": "50ace439440ae96d44c94c3713129d3a8cc1302eeea5af38236e73cfe8ec5461"
+    },
+    {
+      "logical_file": "evidence/local-0226-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0226-cached-centre-Hessian-diagnostic.json",
+      "bytes": 8917,
+      "sha256": "d63fafeffa56793026fa1f31943d78348b993eb4c94c45718810e1adb8c10f15"
+    },
+    {
+      "logical_file": "evidence/local-0237-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0237-cached-centre-Hessian-diagnostic.json",
+      "bytes": 8985,
+      "sha256": "85ad1760df2de72e1ed8c25e15cd958af10d9e10ffd7f8f2605bb381d8741301"
+    },
+    {
+      "logical_file": "evidence/local-0239-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0239-cached-centre-Hessian-diagnostic.json",
+      "bytes": 8973,
+      "sha256": "fddbfa57ea5a831a01fbdce5efa888a941d89c113826f5427f9b75dd687486d8"
+    },
+    {
+      "logical_file": "evidence/local-0248-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0248-cached-centre-Hessian-diagnostic.json",
+      "bytes": 8985,
+      "sha256": "cfd5b60590f2d8d4dd2d4d5d839e7f6557663714af2a50741f94c237ced78210"
+    },
+    {
+      "logical_file": "evidence/local-0259-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0259-cached-centre-Hessian-diagnostic.json",
+      "bytes": 8973,
+      "sha256": "35d8420313bcd43e0b7917bf6d7975c611adaf93ad55a67cc37ccc65ce76f940"
+    },
+    {
+      "logical_file": "evidence/local-0260-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0260-cached-centre-Hessian-diagnostic.json",
+      "bytes": 8985,
+      "sha256": "632a9d0dfd3201c762bf8716db01bbe0049011bb0c16de48d1a5cc29c15808cc"
+    },
+    {
+      "logical_file": "evidence/local-0270-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0270-cached-centre-Hessian-diagnostic.json",
+      "bytes": 8987,
+      "sha256": "042febcccf8811bebcc02a930da6d24928ea5644f28a012a1ffc9a6785bd45c1"
+    },
+    {
+      "logical_file": "evidence/local-0272-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0272-cached-centre-Hessian-diagnostic.json",
+      "bytes": 8973,
+      "sha256": "be0c61d28efa93ef8fab7c59eb9182a353c04394dd9732aa206b87d0f1ddb17f"
+    },
+    {
+      "logical_file": "evidence/local-0284-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0284-cached-centre-Hessian-diagnostic.json",
+      "bytes": 8987,
+      "sha256": "4452ceac19ad969a94e61e612bf3a945f3616a9e144c8fb63448038037fa3e21"
+    },
+    {
+      "logical_file": "evidence/local-0293-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0293-cached-centre-Hessian-diagnostic.json",
+      "bytes": 8987,
+      "sha256": "3ebe0310e3e5cec81b8345e6f28a1a6750ebd701abd4a4c9c390e9998754a491"
+    },
+    {
+      "logical_file": "evidence/local-0295-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0295-cached-centre-Hessian-diagnostic.json",
+      "bytes": 8973,
+      "sha256": "62bde91845e9f3202f3c4c753336c58edb39353290910a3148a8fbe8373f0979"
+    },
+    {
+      "logical_file": "evidence/local-0305-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0305-cached-centre-Hessian-diagnostic.json",
+      "bytes": 8987,
+      "sha256": "1469e80309a01c4c740d81ab6550fc21558b88bc3809f734d20de627f7bb2e38"
+    },
+    {
+      "logical_file": "evidence/local-0306-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0306-cached-centre-Hessian-diagnostic.json",
+      "bytes": 8983,
+      "sha256": "10aa756cc4837d3019f67983b83b99d44a5d58bde561bc327213ab1aee6a8378"
+    },
+    {
+      "logical_file": "evidence/local-0316-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0316-cached-centre-Hessian-diagnostic.json",
+      "bytes": 8973,
+      "sha256": "cf9c2f0183dfa4b171bcc29ae1c55b37602ca5e99d9de43efcd27e2b2bb39061"
+    },
+    {
+      "logical_file": "evidence/local-0385-cached-centre-Hessian-diagnostic.json",
+      "file": "evidence/local-0385-cached-centre-Hessian-diagnostic.json",
+      "bytes": 9003,
+      "sha256": "9c987b604da19b826106adf0ba39f236ff4c1fc9bdbdb55ab8730f51519ca06b"
+    },
     {
       "logical_file": "evidence/original-complete-quarter-finish-process.json",
       "file": "evidence/original-complete-quarter-finish-process.json",
@@ -284,5 +413,17 @@
       "sha256": "8d652d2515359e3ad1bf91c8ad03fbf66a646ddf0b6bdef1f0aa20d2adcbf12c",
       "parts": 15
     }
-  ]
+  ],
+  "complete_native_sha256": "8d652d2515359e3ad1bf91c8ad03fbf66a646ddf0b6bdef1f0aa20d2adcbf12c",
+  "actual_scientific_gates": 21,
+  "actual_complete_local_rows": 1341,
+  "actual_complete_intersections": 1977,
+  "actual_completed_new_residual_domains": 7844,
+  "original_local_rows_retained_for_missing_midpoints": 16,
+  "additive_same_w0_actual_moving_cap_error": {
+    "ball": "[6.4173421107118296873441035959811384215993621322460892966328514322659138795349040e-7 +/- 1.45e-87]",
+    "lower": "[6.4173421107118296873441035959811384215993621322460892966328514322659138795349040e-7 +/- 1.45e-87]",
+    "upper": "[6.4173421107118296873441035959811384215993621322460892966328514322659138795349040e-7 +/- 1.45e-87]"
+  },
+  "finished_utc": "2026-11-14T19:05:22.641851+00:00"
 }
