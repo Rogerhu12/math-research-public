@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：4b3a60ca7f8096d3add750ec3f95a2ecff68244d；2026-11-14 14:37:35 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：87b598440898f33414248ac2291cdcef2cf774a5；2026-11-14 14:38:06 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 现只在Rogerhu12/math-research-public；旧→公开迁移、全部规则差异与旧接口保完整归档链。规则11每次pull后核两README且至少每小时；12完整证明直接登记；13本库Actions；14公开库禁令牌。旧runner/ci-queue停用。
 - main逐条commit/push已授权；不强推、不改写已发表历史。非快进立即pull --rebase重推；当前API用expected_sha/force=false，拒绝后立即读新main、核规并基于新头追加。
 - 只写课题log，每轮≤5行，不动根LOG。令牌只终端临时环境，不入文件/提交/日志/回复。单文件<5MB、接口文本/Markdown<100KB、HANDOFF<10KB、open尽量<30KB；不加冻结/独审/机械复跑门槛。
@@ -49,6 +49,8 @@ R507原P=B N(6N−1)全Γ共振ε行sp及forcing psa，ξ由保极帽P*逆，U0/
 R514 m3=Y³t(t−1)²h7³d²将e³forcing以三charge返回，十九角及同D门4r−D≥30；保两normal项/低尾。因子提升只消min(q,χ−1)段，χ≥4镜forcing高轴不变，矩阵仅改max(0,3−r)末行；kerlow=kF²未证。R517切向V_F=eδt−a0E全H2两charge返回，或4r−D≥14；全Γ链式和真modp²/M转置保carry，三层联合不拆。Omega=K_Fdt/e为二次微分，标量简单分歧有极，不当镜N²截面。
 R521固定边界Q_c=H0(Dc,Lc|Dc)，Dc=3C∩cπ*S∞长3c(u+4b)，F³真核消常数维数；保15例外/全残数。最高f根t0重m给ρ=Res Gtop/(tM f³)dt，杀同m3切向像，对forcing=b²m(4t0−1)；保根存在/p∤bm/t0≠1/4，须杀真jet核及余列。
 R524真核三层A=N(cE)(−qP)、B=N²(cE)(−hP)、C=N³(cE)(−SP)非直和；同源连接α(v2)=[Em(H2)/(2eη)]∈cokerEq、β(v3)=[(g1+2ηg2)/(e+f2η)]∈cokerEm。最内F²层参数独立：q>κgeom+c d∞为0（等号未定）；q≤χ+3d∞−m−1时显示ρ在真核非零，不能延拓。真实二次临界仅该层负度，另两层及α/β联合像仍须付；三层边界jet不可独立选。
+
+负镜轴等价接口见notes/2026-11-14-deep-negative-residual-mirror-interface.md：3C内Hom(Iη,KX)=I_-⊗KX(S·Ptilde)，I_-=(tS,ζ+2η)，负轴ψ³/g²。仅重写首像对偶，不给α/β新秩限制，也不能提升到rawΓ/p²删ζ³/V1/carry；不占结果编号。
 
 ## 继续
 
