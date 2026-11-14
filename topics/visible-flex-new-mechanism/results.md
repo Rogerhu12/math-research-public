@@ -201,3 +201,5 @@
 - [R98：全部正长度状态P1的权零准确分离](results/R98-weight-zero-separation-of-all-positive-state-P1.md) — actual43638896281中权2成员、权1准确零，权0全16列两原式依赖降14，再由原有理Volterra评价14/15非零子式证真维数14与非成员。Q-Cramer泛函经真实权零投影归一给Λ(b_Hd)=1，任意正组合值4Σℓ>0；R96把障碍搬到同一合法C∞圆及相对开稠密类。结束同类universal多状态扩张，保特殊圆与固定N的P0+NP1。
 
 - [R99：真实第四切向越过P1字符核](results/R99-fourth-tangents-transverse-to-the-P1-character.md) — 完整相位Jacobi支付t1外槽的两列准确零；公开actual43640085842另给τ_p1t1与h-shape(k)两列的有理扩展值非零（归一mod2054146430/721224600）。只消费四个新原式×旧15行，故两真实第四方向各自不属R_*，不称二者商独立。保明确泛函扩展、基准与偶项；不授负成本或完整P0相消。
+
+- [R100：D25的c⁸周期系数与三个真实零端历史](results/R100-pure-tail-c8-period-and-three-true-histories.md) — m8完整端势将c8 period化为p/ell/zeta的真实短action，三者ODE和零端来自同一几何/完整M0；无需T0。actual43640085842的34个差式、23真histories、原DAG/完整参数族fresh回代及R97两个primitive导数全0。31项系数变19项短式；非零形式不授周期非零/同号，所有锚和range门仍保。

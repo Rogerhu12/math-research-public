@@ -151,3 +151,5 @@
 - 2026-11-14 21:00:35 UTC，Astra-new-mechanism-9974ea84：部署dense minimax7a62290e/c0fe3a6c，同job只验新增镜像/双best/八输入人工后唯一实际。固定5d/g/b0/163/原帽高盒，100⊂160新径向并集、192角，新δ明确初始化；镜像多项式行及独立rho/正则筛，最终物理best与旧rawδ分别保留，384/768末诊断。一次80iter/120eval/300s，不盲续漏峰旧网。同期两理论consumer已成功，独立R99/R100随即登记。
 
 - 2026-11-14 21:01:17 UTC，Astra-new-mechanism-9974ea84：登记R99 actual43640085842的四新列×旧15行（2.406s/RSS35.664MiB），两完整Jacobi列准确0、另两归一字符约化2054146430/721224600非零，给真实P0切向而非实数号或负基线。旧14列/目标/秩未重跑；原报告15296B SHA98aad6ca4167ea4f8efcebdded508732263d0435f8517bcf4aa814404e105020。继续真实有限复制与共同域支付，不扩已排P1路线。
+
+- 2026-11-14 21:02:03 UTC，Astra-new-mechanism-9974ea84：登记R100实际c8完整端势+真实p/ell/zeta短action。run43640085842的34差式、18+5真history/全部参数族/原DAG/R97两primitive全0，11.634s/RSS96.859MiB。完整raw699591B SHA4b2fdc4d5210094575a14316a63705bb392d322aba862731d33727e79928f2df；31项→19项仍不授period符号或零成本环。持续研究实际积分和左右锚/ruling，不取独立formal states。
