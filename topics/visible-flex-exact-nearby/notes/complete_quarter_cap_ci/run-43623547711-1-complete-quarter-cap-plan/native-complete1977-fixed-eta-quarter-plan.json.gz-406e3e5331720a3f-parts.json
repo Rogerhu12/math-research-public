@@ -1,0 +1,61 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "snapshot-406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a.json.gz",
+  "original_bytes": 8122339,
+  "original_sha256": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a",
+  "native_kind": "actual_complete_fixed_eta_quarter_cap_plan_v1",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 0,
+  "original_source_sha256": "54e5ec52033bb109618fde1c840730b4b589280382b2da196d3ea748af4490de",
+  "candidate_sha256": null,
+  "parts": [
+    {
+      "file": "native-complete1977-fixed-eta-quarter-plan.json.gz-406e3e5331720a3f-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "a1c30cd108014188d61f07813277db076885a504d9d0ae233f8ac1e61d0defd7",
+      "compressed_bytes": 1952580,
+      "compressed_sha256": "eb7da48b2c7d40d9a08c03fbcac348e72fc9f310fcd29b68d41ee991568a9f6f"
+    },
+    {
+      "file": "native-complete1977-fixed-eta-quarter-plan.json.gz-406e3e5331720a3f-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "4ffc453e9804ffe8305523124d3bf786443700afebf31bcbdbd9ae4f7d7353b2",
+      "compressed_bytes": 1983991,
+      "compressed_sha256": "c32ce9471bca9ab72fcfb40479275c6ea545c9707a40cc3af6a30a3e4e6f5c9d"
+    },
+    {
+      "file": "native-complete1977-fixed-eta-quarter-plan.json.gz-406e3e5331720a3f-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 2000000,
+      "sha256": "3a93898e0795ed17ae70a329289d6fb71451c95c18c7cb115bcf7301a0785bdf",
+      "compressed_bytes": 1990251,
+      "compressed_sha256": "ff260f0dad1960ed679140e78b98b3349af83e10ded825b379e9c48a5f13c458"
+    },
+    {
+      "file": "native-complete1977-fixed-eta-quarter-plan.json.gz-406e3e5331720a3f-parts-part003.bin.gz",
+      "index": 3,
+      "offset": 6000000,
+      "bytes": 2000000,
+      "sha256": "823362c2d99d9ce7b0a8db9042d7b0d1746bcce83e521fe170ce7dc0d89cdeb0",
+      "compressed_bytes": 1966713,
+      "compressed_sha256": "29249fc1b01d2705f9badb5d46ee52081cf6ad38388e1cbbd2a8fac17571c5e2"
+    },
+    {
+      "file": "native-complete1977-fixed-eta-quarter-plan.json.gz-406e3e5331720a3f-parts-part004.bin.gz",
+      "index": 4,
+      "offset": 8000000,
+      "bytes": 122339,
+      "sha256": "9e1ba7512f471d364ada418f0cf14967fa30c66c7bcc420f38ea629be200bcae",
+      "compressed_bytes": 103585,
+      "compressed_sha256": "6f4fa137a4208c5012179f0e5e55226171d94bba19357784bd0cdc8aeb407804"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}
