@@ -16,6 +16,8 @@
 
 若该stage可行，接一次联合u/v与height的完整度量求解；固定g下共同帽高是 $h=h_{base}+\lambda^Tc$，u/v行零，必须保硬线性行。随u/v变化的逐点z/球条件必须用新真实几何及导数，不能复用冻结T的高度多面体。SLSQP中间试探不保证可行；单独保存帽高/盒可行最佳点、全目标身份及真实失败状态。实现说明见 [线性帽高设计](notes/fixed-metric-linear-cap-height-constrained-solve-design-20261114.md)。
 
+[R74](results/R74-near-isometric-mirror-and-speed-linear-height-gates.md)给后续目标必要线性筛：固定T/a下，η≤ε与reach≥τ迫镜像高度floor和真实速度界；若S=〈|U*|²〉>1+ε，单独任何高度都无法修复该圈。当前stage保持原z≥0筛，先读实测再明确新增门，不能把η>1初态当已满足小误差前提。
+
 ### 仍须支付的几何内容
 
 1. 入口与自然patch都要降残差，包含足够非解析/高阶角场与径向自由度；有限首jet修复不证明完整Cauchy问题可解。R64的下一 $u_5/v_8/b_7$ 项须用完整g的body项、扣旧参考，配套改自由基。

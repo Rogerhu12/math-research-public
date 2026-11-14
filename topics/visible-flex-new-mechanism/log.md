@@ -53,3 +53,5 @@
 - 2026-11-14 18:57:12 UTC，Astra-new-mechanism-9974ea84：height_gate_development43629262349已pass，人工最优差2.22e−16、h行差分1.75e−10、实际共同高度差0及具体异常/缓存/预算拒错通过；仍无真实联合solve。发布九高度固定T/a多面体helper与完整replay auditor/设计：321行、原[-1,1]、最多一次松弛LP与距离QP，最终全几何/六jet/768对照。共享workflow增加两个lane及公开short输入目录，publisher仅加标签；本次只请求人工height_polytope_development，实际lane尚未激活。H为遵10KB限额压缩，旧稿完整保留。
 
 - 2026-11-14 19:00:51 UTC，Astra-new-mechanism-9974ea84：九高度完整人工43629562872已pass（QP差3.33e−16、六jet最大7.41e−16及实际IO/guard）；立即请求唯一bounded_short真实height_polytope_audit，原盒/目标g/T不变、一LP一距离QP，未启动jointmetric。同时发布两独立准确代数接口/规则证明：嵌套word完整shuffle/IBP及可读余式；R73局部第三真实密度的速度面积/三次项/端点势分解、必要精确witness和形式上界。共享workflow/publisher增加开发及两个研究lane，本次代数仅公开toy，待具体回执后运行新目标；旧producer与失败输出保留。
+
+- 2026-11-14 19:03:03 UTC，Astra-new-mechanism-9974ea84：登记R74完整证明：G/a²=1及η≤ε<1给sqrt(1−ε)≤|Xs×T|≤sqrt(1+ε)；镜像同xy法弦必要门在固定T/a高度空间化成σz≥τ|Wz|/sqrt(1+ε)，ε0时等价于仅这些镜像对门。另证|b|≤sqrt(1+ε)和S+b²≤1+ε；后者可判断固定T时仅抬高是否已无希望。当前实际stage目标不改，新增门只能作为后续独立身份，不把小误差假设或全reach偷当前提。同步索引与open。

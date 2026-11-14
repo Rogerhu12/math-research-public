@@ -149,3 +149,5 @@
 - [R72：同标量任意框架的准确零二三阶桥](results/R72-same-state-zero-second-third-arbitrary-frame-bridge.md) — M0桥B接同k真实倒行给frame A D AᵀD且T准确相消，x/z半角与有限x-z-x Euler实现任意SO(3)端口、同scalar且M=T=0。空间位移自由，不同scalar转接T、P0、高阶及嵌入厚度仍需另付。
 
 - [R73：二阶密度逐点八矩与真实第三桥局部余项](results/R73-pointwise-eight-matrix-and-local-third-bridge.md) — 原R56二阶密度逐点准确属于同一sl3八矩空间；变量profile有明确链式项Ψ。零矩阵桥第三history为反对称交换子组合，可由R71有限loop准确消；仍须支付局部三次密度积分，未清全部基准T/P0/ruling或有限族。
+
+- [R74：近等距下镜像法弦与速度的线性高度门](results/R74-near-isometric-mirror-and-speed-linear-height-gates.md) — 角向度量准确时，误差ε给未归一化法向模长在sqrt(1±ε)之间；固定T/a的镜像对必要reach门化为线性高度floor，准确等距时等价于这些对的法弦门。另有真实中心速度线性界及固定切向均方门。均不替代全reach，也未声称当前η>1的场满足小误差前提。

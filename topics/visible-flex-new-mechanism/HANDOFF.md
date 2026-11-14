@@ -6,7 +6,7 @@
 
 闭连通材料面，$F_t$逐时$C^2$嵌入、时间$C^2$连续，同一固定g；固定H有内点、$\operatorname{diam}F_0(H)\ge.2D$；不作刚体对齐的整像 $\delta_{hold}\ge.3D$；全时全域reach$\ge.03D$；最大相对metric$\le10^{-6}$且同g/参数/时间范围加密持续下降；完整网格每件<5MB，明确严格存在差距。$\delta_E$可0如实报；达标后继续.5D或严格存在。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`41d3cfb683b6e043e8c25f83cafe7db2fb90d134`（实际pull后双README差异为空）。每次pull --rebase立即比双README；变则只读差异执行；至少每小时一次。每个有意义结果及时push，NFF立即pull --rebase/核规则/再推至成功，不强推。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`86acdf3b193efb6ad536545e22c46584fcc0bdd5`（实际pull后双README差异为空）。每次pull --rebase立即比双README；变则只读差异执行；至少每小时一次。每个有意义结果及时push，NFF立即pull --rebase/核规则/再推至成功，不强推。
 - 私有恢复后实际pull至`44a3ba9432709e1260b4277d05d64c6775ca6589`，与旧6a16feab双规则路径无差，本题私有README不存在；QUEUE唯一行仍本会话进行中。下一实际pull不晚于19:45 UTC。
 - 真实几何/ODE/积分/优化/完整研究符号编译只在本公开仓库Actions；本地纸面代数、小人工接口测试、源码/公开输出解析。PAT仅瞬时CLI/env，不写任何文件/提交/日志。
 - 根规则12：不把冻结、独立审查、重复清单或重复运行设为推进前置。完整证明直接登记results并更新索引。保针对具体风险的验证及README要求的同态精化。
@@ -44,6 +44,8 @@ R66仅必要门：d=|B−R|=.006，两个准确法向给reach≤(d²+Δ²)/(2max
 固定g/原c0参考下共同h=hbase+λᵀc，uv行零。`frame_height_affine_gate.py` c55fe53c和最小SLSQP wrapper已发布；公开**height_gate_development 43629262349/sourced78ca152已pass**：人工数组最优误差2.22e−16、两人工场h行差分1.75e−10/重构差0，缓存家族/目标变更、异常checkpoint、坏初态、预算等均通过。没有真实联合优化。
 
 Gate同时核盒/线性行/完整公共帽高；记录数值容差，SLSQP中途不保证可行，最低trial与最低可用点分开。九列高度polytope依赖冻结当前uv；以后uv变化不能复用它，而共同帽高行仍适用。球1.01/strip.38只在全域成立时给充分幅度预算，.394是另一目标边界而无余量；帽高非全reach证书。
+
+R74已证：若目标η≤ε<1，镜像对必要门可在固定T/a中加线性floor σz≥τ|Wz|/sqrt(1+ε)；另有|b|≤sqrt(1+ε)、S+b²≤1+ε。当前η>1不满足前提，这些是后续目标必要筛，当前stage不暗改。
 
 ## 5. 文献准确结果与剩余高阶条件
 
