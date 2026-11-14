@@ -1,0 +1,49 @@
+{
+  "phase": "range",
+  "kind": "actual_complete_fixed_eta_quarter_cap_range_v1",
+  "complete": true,
+  "gates": [
+    {
+      "name": "exact_complete_same_source_plan_preserves_all_original_scientific_identities",
+      "passed": true
+    },
+    {
+      "name": "all_original257_by97_arrays_and_true9over10_inlet_extension_retained",
+      "passed": true
+    },
+    {
+      "name": "same1977_parent_partition_with_only_new_fixed_parameter_quarter_domains",
+      "passed": true
+    },
+    {
+      "name": "every_assigned_new_quarter_domain_complete_without_repeating_pilot_domains",
+      "passed": true
+    }
+  ],
+  "source_sha256": "54e5ec52033bb109618fde1c840730b4b589280382b2da196d3ea748af4490de",
+  "native_sha256": "3d00b805eb79489f23b8e7fcc44115aea3bc0305dd9ed7ba9ca986838175c881",
+  "input_sha256": {
+    "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "proposal": "b9819522aceed06b73628d84b8bb80dbcc5b734971c6b3c20544e9876c23d78a",
+    "object": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+    "plan": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a"
+  },
+  "seconds": 1425.7127795,
+  "complete_original_native_retained": true,
+  "original_completed_domains_recomputed": 0,
+  "original_complete_native_reused": false,
+  "actual_new_domains_in_this_child": 1024,
+  "complete_finite193_response_error_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "range": [
+    1536,
+    1792
+  ],
+  "reused_original_quarter_domains": 64,
+  "total_complete_quarter_domains": 7908,
+  "completed_new_domains": 1024,
+  "plan_native_sha256": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a",
+  "exact_continuous_direction_definition_sha256": "6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04",
+  "direction_sha256": "f77f64367593908c9dd3ba8ac318090275a3b59aa43542620858aadce7b0cbd0"
+}

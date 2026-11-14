@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete_fixed_eta_quarter_cap_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43623547711",
   "run_attempt": "1",
@@ -114,6 +114,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T18:19:51.933135+00:00",
+      "before": "aa760a97cc6bf5d71efa8830ec2bdf20fbeb7ddc",
+      "after": "61b5e3d394b7a56715fb237799ded9e24863ded8",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -131,6 +139,11 @@
       "time": "2026-11-14T18:16:14.130169+00:00",
       "final": false,
       "commit": "d4f7496ddfe7b5384ade71cfa5074f34c6a09722"
+    },
+    {
+      "time": "2026-11-14T18:19:50.914285+00:00",
+      "final": false,
+      "commit": "61b5e3d394b7a56715fb237799ded9e24863ded8"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -169,7 +182,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "aa760a97cc6bf5d71efa8830ec2bdf20fbeb7ddc",
+  "last_read_commit": "61b5e3d394b7a56715fb237799ded9e24863ded8",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-quarter-work/science",
   "actual_plan_native_sha256": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a",
   "original_prepared_bundle_sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70",
@@ -182,14 +195,26 @@
     "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
     "plan": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a"
   },
-  "snapshot_utc": "2026-11-14T18:19:48.189426+00:00",
-  "wall_seconds": 1444.207750611,
+  "snapshot_utc": "2026-11-14T18:19:52.422417+00:00",
+  "wall_seconds": 1448.4407431569998,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 776,
+      "sha256": "1e702b70e962e18e9f4a330cc42caf6724d66ebec78de2e593a8676d99a01f5b"
+    },
     {
       "logical_file": "evidence/actual-plan-process.json",
       "file": "evidence/actual-plan-process.json",
       "bytes": 11904,
       "sha256": "82a44b78e3e3af3e0b1285a828a7aba2026dcc5b04001996bd228243baccca43"
+    },
+    {
+      "logical_file": "evidence/complete-quarter-cap-range-summary.json",
+      "file": "evidence/complete-quarter-cap-range-summary.json",
+      "bytes": 1996,
+      "sha256": "558c209a0f0409346767b222a501362344bae135a469476ac8d230b6394175f1"
     },
     {
       "logical_file": "evidence/original-prepared-manifest.json",
@@ -204,5 +229,10 @@
       "sha256": "3d00b805eb79489f23b8e7fcc44115aea3bc0305dd9ed7ba9ca986838175c881",
       "parts": 3
     }
-  ]
+  ],
+  "complete_native_sha256": "3d00b805eb79489f23b8e7fcc44115aea3bc0305dd9ed7ba9ca986838175c881",
+  "actual_scientific_gates": 4,
+  "actual_new_domains_in_this_child": 1024,
+  "actual_completed_new_domains": 1024,
+  "finished_utc": "2026-11-14T18:19:51.472970+00:00"
 }
