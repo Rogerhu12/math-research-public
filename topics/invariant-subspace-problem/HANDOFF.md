@@ -4,12 +4,12 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `09ccab49e349b5b96c6b048ecb2fe66b2a2aab54`（2026-11-14 12:31:44 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `ffc69b45d58ea9aaafd1e0686fc55377701a00be`（2026-11-14 13:03:20 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **当前规则：** 只在公开`Rogerhu12/math-research-public`工作，用本库Actions；不恢复旧代跑，公开文件无凭据。规则12取消额外独立复核，旧变更/迁移授权保此前H。
-- **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`；旧R272/273已重建推送。历史只读副本移至`/tmp/isp-789f-old-math-research`以释放共享磁盘，全部保留；公开库Git元数据因共享盘满移至`/dev/shm/isp-789f-math-research-public-git`，原`.git`保指针；环境于12:35 UTC断连不可用，未推Green已由API恢复，原17式回代未执行。
-- **API规则核对：** `1dafbfa774b9232c561b48def4d8a61d2117837c`（2026-11-14 12:49:34 UTC，两README无差异；此项不是git pull）。
-- **完整旧范围：** [此前H](notes/2026-11-14-handoff-before-current-literature-789f.md)与[open归档](notes/2026-11-14-open-before-finite-pencil-789f.md)保完整范围；未列接口不算关闭。
+- **工作树：** 根在 `/workspace/scratch/789f3e887d7c/math-research-recovered`；旧工作目录完整保留供代理独占稿。12:35断连后环境恢复，临时盘旧Git元数据、NF/GB/DAG及前缀均已失，不假称可续读；远端两条恢复结论818e9d7b/4c071886已同步。原17式回代未执行。
+- **恢复前API规则核对：** `1dafbfa774b9232c561b48def4d8a61d2117837c`（12:49:34 UTC，无规则差异；不是pull）；现在恢复实际git同步。
+- **完整旧范围：** [此前H](notes/2026-11-14-handoff-before-fixed-t96-789f.md)与[open归档](notes/2026-11-14-open-before-finite-pencil-789f.md)保全部接口；未列不算关闭。
 
 ## 模型、主缺口与所有旧范围
 
@@ -43,10 +43,10 @@ A_U*L1L3⁻¹L1A_U≤κI，且Δ*G1=−L1A_U；倒数桥为B*L2²B≤κG1。两�
 - 全挠空间W维315，charpoly315/minpoly190，CW=0/AW=WJ及九目标坐标/压缩状态全存；五个额外模31因子共60次/各平方，不当复异常点，证明链保此前H。
 - [九目标](results/R150-appendix-nine-original-targets-exact-mod31-annihilator-degree24.md)共同最小Ann h31=s³(s−2)²(s−1)P+²P−²E6度24；j4/10少(s−1)度23。额外五因子与s+6均不进入任何目标。候选h0=s³(s−2)F+²F−²E8仅待char0证明。
 - 模31 GQ=hT全1034分量已核，Q最高49次/342321非零，压缩证书已存；旧反向前缀976来源/最高1018次停止，不全展开，恢复链保此前H。
-- [移位来源图](notes/2026-11-14-r150-shifted-graph-low-degree-lift-789f.md)给2195原图列的六组移位弱Popov与严格低次数条件：若全量1021输出主元/1174真零关系成立，则九目标原源系数≤114−δ、主体≤69，接常预基≤104。唯一50.386秒前缀672列、81来源主元全输出零；尚未全量，本次新workflow/request已接自动九目标lift，唯一图阶段1800/1740秒、4GiB，后处理另60秒；只认全量精确判据。
+- [固定T96完整图](notes/2026-11-14-r150-reweighted-graph-projection-789f.md)：T64全量202来源主元输出非零，原严格gate失败。新证明1021输出主元次数和716即完整投影；一次T96保全2195图行，基来源≤104−δ、九目标来源≤146−δ、原预基补偿≤136；单份图内存202.72MiB。新程序已编译/解析，数学未运行；独立本库请求1800秒分T64 900/T96 840/目标60、4GiB，所有已写图基和NF/DAG保artifact。
 - 特征零线性块精确Dlin=s⁸(s−2)²(s+6)²F+³F−³E8²度46；单位双核补给全部9阶gcd及横向逆最小分母，h0是其真因子。非线性项/Γ不可删，不能由一次线性逆免费得到24次预算。
 - 原∞一阶图保原全部6188来源，常数秩4340/连接秩4，模31∞除子阶≥24、齐次总度≥339。不给char0厚度或未算高阶上界；原74次条件准则在31不触发。整个除子与目标Ann分开。
-- **运行与恢复：** 旧CI43588728414 exit124于BEGIN_BASIS，真实输出已存。新CI43595280823已445.652秒完成2195图列、1021输出主元/最高8次；1174来源主元中202输出非零，strict gate失败、目标未运行。小回执在notes/r150-shifted-graph-actions-789f/43595280823-1；图基56.6MB未上传，保哈希/重建入口。原生完整结果另付，不重跑旧std。大NF/GB/DAG在/tmp/r150-native-nf-all-789f、/tmp/r150-native-gb-full-789f；全状态及Q有仓库压缩副本。反向前缀在/tmp/r150-reverse-actual-prefix-789f。
+- **运行与恢复：** CI43595280823在445.652秒完成2195图行，但202来源主元有非零输出，目标未运行；小回执在notes/r150-shifted-graph-actions-789f/43595280823-1。56.6MB图基未上传且旧临时盘已失，今按同输入必要重建后仅做一次T96。全状态/Q有仓库压缩副本；不重跑旧std或高次数反向DAG。
 
 ## 原文续查
 
@@ -54,7 +54,7 @@ A_U*L1L3⁻¹L1A_U≤κI，且Δ*G1=−L1A_U；倒数桥为B*L2²B≤κG1。两�
 
 ## 持续执行
 
-boundary_core继续有限a联合SOS；normal_annihilator处理全图后的真实目标系数；literature_audit核新取得原文。根独占追踪/git，结论逐条立即推。所有旧接口、失败范围与完整链接按前H/open保存，普通ISP完成标准不变，不以阶段稿收尾。
+boundary_core/literature_audit继续有限a联合SOS与真实共同谱；normal_annihilator恢复原17式137层helper；根运行固定T96/维护git。结论逐条即推，旧范围按前H/open保留，主目标不以阶段稿收尾。
 
 ## 计算同步
 

@@ -1,0 +1,59 @@
+{
+  "format": "r150-t96-local-compile-and-syntax-v1",
+  "status": "compiled-and-parsed",
+  "mathematicalExecution": false,
+  "compileLimits": {
+    "secondsEach": 30,
+    "memoryMiBEach": 512
+  },
+  "compilerOptions": [
+    "-O3",
+    "-std=c++17"
+  ],
+  "files": [
+    {
+      "file": "2026-11-14-r150-reweighted-graph-full-lift-runner-789f.py",
+      "bytes": 7068,
+      "sha256": "b2cf7dbb3660a3f665c7b7bcdb249c03ba60d064eb3babec0e98d15ab3ff39ca",
+      "gitBlobSHA": "09cccd8e3adb566740730c0d1af3c9c6457a30ad"
+    },
+    {
+      "file": "2026-11-14-r150-reweighted-graph-module-789f.cpp",
+      "bytes": 12871,
+      "sha256": "4d8d6a7adf8be6d60e61f1b85975c1718dcf9aeb77fe654d2dcf9ab89f9155e3",
+      "gitBlobSHA": "7007f4c047008eed0a330a1433213b58a2832671"
+    },
+    {
+      "file": "2026-11-14-r150-reweighted-graph-module-runner-789f.py",
+      "bytes": 6320,
+      "sha256": "b2b5edffa65c46e055fa35fa00bc509d86e5e3dc4dc90e948da3c50a0eb6538a",
+      "gitBlobSHA": "dd1c04381c7fbecda621b624dd64ba4446a94e2d"
+    },
+    {
+      "file": "2026-11-14-r150-reweighted-graph-projection-789f.md",
+      "bytes": 11377,
+      "sha256": "8abfe082aa12ff8af6ccc1b51bcebd46d7791909002d0609c1b5e3bed7935dda",
+      "gitBlobSHA": "fcbb7a0177aba4ee5eb08b5dfca89a55bedd195e"
+    },
+    {
+      "file": "2026-11-14-r150-reweighted-graph-target-lift-789f.cpp",
+      "bytes": 14640,
+      "sha256": "a56fdee295a980269f055f6e5bcecb640cc49a9e29487600eb6a6c776f4941c7",
+      "gitBlobSHA": "42d5fad5232514a84141584b8910606abac8fedf"
+    },
+    {
+      "file": "2026-11-14-r150-reweighted-graph-target-lift-runner-789f.py",
+      "bytes": 7425,
+      "sha256": "ddfcca372307c138fd6f396306f7a0195534cfec3558e1ec5057447b217a0e37",
+      "gitBlobSHA": "40886083981cde90e1334e3268bad48a55e8f821"
+    }
+  ],
+  "reweighted-graph": {
+    "bytes": 49056,
+    "sha256": "54d546b706c0931806f66d674ef195882a937202112de80f93d6765ac53cd79f"
+  },
+  "target-lift": {
+    "bytes": 66504,
+    "sha256": "b6604f40a84af11345326db3feb8e188106c0ce939217aeef1ffbff9312ff51d"
+  }
+}
