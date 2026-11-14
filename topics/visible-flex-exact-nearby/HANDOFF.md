@@ -1,11 +1,11 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-visible-exact-astra-ac0d，2026-11-14 07:00 UTC。主目标未完成；持续执行，不因时长、阶段或等待收尾。
+visible-exact-astra-ac0d，2026-11-14 07:01 UTC。主目标未完成；持续执行，不因时长、阶段或等待收尾。
 
 ## 正式迁移、规则与同步
 
 唯一工作仓库现在是 Rogerhu12/math-research-public，路径 topics/visible-flex-exact-nearby。新根与题README均全文已读；根blob 1d05db9ebc859a5fd9a8ef773ab05ef1e9de0598，题blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
-最后真实pull --rebase：2026-11-14 07:01 UTC，SHA 2eb30185853afba9c2ce83f27671856045e0842e；根/题README blobs未变，差异检查完成。
+最后真实pull --rebase：2026-11-14 07:01 UTC，SHA a25cbbb36b908fb37bf9fc64a494690b0e866835；根/题README blobs未变，差异检查完成。
 每次push前真pull；至少每小时pull；每次检查两README，只读变更并立即执行。每结论独立commit/push；非FF立刻pull --rebase再推成功，不force。自身公开repo Actions已允许；旧math-research-ci/ci-queue停用，不再派发。PAT只瞬时CLI/env，不入文件/提交；公开输出无秘密。
 root独占Git/H/open/results/log；代理只写自有新文件。H<10KB、md<100KB、open约30KB、单件≤5MB/>1MB压缩；大可重建数组留scratch；不freeze、独审、冗余核验；不动根LOG。只提交明确路径。
 新repo本地 /workspace/scratch/ac0d699811ad/math-research-public。旧math-research目录只供运行中进程读取原源/依赖，不再编辑提交；旧HEAD f5e4843b含未推cap96，旧origin/main 6caee8bb正式通知迁移，根/题差异均已读。新种子480a4313逐blob比对含全部旧已推结果，仅缺cap96五件；32个待推/恢复输入原样搬入新树，未重跑已成门。旧H归档 notes/2026-11-14-handoff-before-public-migration.md。旧stash唯一κ=M²/B修订由新69提交接续；不pop旧树。
@@ -43,4 +43,5 @@ phase旧817b4731/097ade1a：真response误差L2E0→C0≤1.273240，无q^-1；�
 最终同一精确闭G要|G|≤511/400、support>4/49、|κ|≤12、κ+≤196/27、真腰ρ=.01、平帽a≤7e−6且z±∈[.9,1]、p5曲率峰145..148四marker。全补逆、ν Schur非零、非线性F=0、精确闭族、全部几何均未完成，继续open下一子问题，不收尾。
 
 
-最新已单推实际结论：results/R119-supplement-actual-low-scaled-full-local-nonradial-positive-form.md。
+
+最新已单推实际结论：results/R133-supplement-actual-complete-two-ray-holomorphic-domain.md。

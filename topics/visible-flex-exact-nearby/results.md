@@ -447,3 +447,6 @@
 
 
 - [实际完整记录](results/R119-supplement-actual-low-scaled-full-local-nonradial-positive-form.md)：尾69以真实ΩM=B+M√B质量付低κ全部输出/两mean/新交换子，全Hk Cauchy<8；实际同物理中心差<2^64n，整个J0 fixed-label hat响应保。原X≤2^-262144与准确Nc深层衰减给误差/d*<2^-33000，所有±M两迹/cos-sin输入局部型>d*/8；49门实际通过。κ=M²/B符号补明并保存原native所绑正文；外部响应/Γ*两列/近簇仍欠。
+
+
+- [实际完整记录](results/R133-supplement-actual-complete-two-ray-holomorphic-domain.md)：实际修复中心全3071 strict+真root负楔/全64次卷积/两mean，五复角宽10门23.959s通过；完整双ray return单射解析输入strip>.1639445393、|P′−1|<.334292688、P″<3.257207/P‴<57.403329。全Fourier尾/alias公式含∞输出；未授逐点ODE误差/真conjugacy/rotation/β项。
