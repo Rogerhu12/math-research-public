@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 17:58:46 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 18:00:23 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则与同步
 
 仅 Rogerhu12/math-research-public；所有新数学代码仅公开 Actions。每结论独立推；非快进立即接新main/rebase再推至成功，不force。root管ref/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
 本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，17:55重试仍失败。根规则8暂只connector <100KB文本，禁二进制/大文件；先查size，新摘要≤60KB；API不冒称pull。reviewed runner长算每10min真pull；phase独立child≤50min且前后pull。root亲核43621934843于17:36:20拉到08e74aee5894fd1e6a791bc182344f7189095a35，四次两README diff均空。终端恢复即回git。
-最新远端 main/两README blob 核：b3050da944c47491167c70ef3cb3708fb8eb925f；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
+最新远端 main/两README blob 核：1b2d6282ccbfe0a266d275b63a340d94439c5826；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次原9596B H逐字归档 notes/2026-11-14-handoff-before-flat-mean-inverse.md；更早H/open归档链保全。完整SHA、失败、源端口、零重算合同在各results/manifest及归档；禁止重算已成数学。
 
@@ -24,7 +24,7 @@ repair/source全7721及fixed负Z源已成，原105167B exactbump摘要禁再取�
 完整cut43615251195：11门，只1961新格/旧16保；native8bc061ec…，原physical<2.418183102e−6、moving<1.615491167e−5。全193/mean/未知high/六边界/14gain合同保。
 ordinary-only Hessian43618931236实际11门/114.579596s，add<1.348921723e−6；原1341 tB/tC复用，0旧math，未知erroroperator保。fixedηpilot43619535345实际6门/443.609966s/336新域，nativeb5a157d4…；16父格1/4/16全8源/6端点/14gain保，physical<1.508953388222e−6。全1977四分160pin DAG仅7844新域、原64quarter逐字复用，保存whole+midpoint供Hessian。首run43622701396仅AST失败0math，补单`)`source54e5ec52…/manifest6dc5bf2d…；新run43623547711 plan实际5门/child0，八互斥range继续，待全success。
 
-无Rθ43621690619实际9门/2.042509s/1341行+1977交集，native85b6bbb8…、process542eb034…、summarybcdc7998…。完整四源add<9.333170e−7；all-new优于local混合9.634153e−7，只有整组加性取小。raw joint原producer/repair193槽/完整mean全保；旧t/tθ/module0重算，未知input erroroperator不变。续真cut/Green及残差包络收紧。
+无Rθ43621690619实际9门/2.042509s/1341行+1977交集，native85b6bbb8…、process542eb034…、summarybcdc7998…。完整四源add<9.333170e−7；all-new优于local混合9.634153e−7，只有整组加性取小。raw joint原producer/repair193槽/完整mean全保；旧t/tθ/module0重算，未知input erroroperator不变。cached-quarter centre-Hessian176pin已根/tail核推，接quarter真success；0target/0旧trialnorm，逐mode joint合并/mean/4gains/Z−w0旧operator保。待actual后接真cut/Green。
 
 ## fullδ正区、真根图和相位
 

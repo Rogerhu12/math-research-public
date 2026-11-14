@@ -115,3 +115,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14 17:58:46 UTC：真实平端 mean 域与完整开放内部逆已证
 
 [R119 M.1–30](results/R119-supplement-flat-mean-Green-domain-and-complete-open-internal-inverse.md) 在同一公共参数/实际背景/新ν权上完成此前未消去的 mean。真实开口是129胞元第二positive元件外真根，保外侧不完整负分量/cut128/connector/regular。物理归一两态准确满足 $H_t=\mathfrak m^{-1}P,\ P_t=0$；显式声明 $P\to0,H\to\Lambda$ 的域，不能从弱ν权自动删除奇异常通量。完整源跳量核给 $\|\nu R_{Z,0}\nu\|<2^{-860000}$。原J39/40、完整Airy根初值及真实adjoint mean行证明该域与物理平均根迹域等价；深端余幂 $8571/256$。与已成非零逆及全部mixed差合并，全部remaining开放内部 $\|\nu R_a\nu\|<2$，源仍是ν逆权，H/D重建/ordinary/weak/Γ/outer列不删。下一实质义务是真外returned方程、原强source/标签连续映射及完整物理平端正则；不据本篇宣称完整BVP/C²存在。
+
+### 2026-11-14 18:00:23 UTC：保存的 quarter jets → 已知方向 Hessian 消费者已核并接公开 DAG
+
+新合同 [cached quarter centre residuals](notes/2026-11-14-R133-cached-quarter-centre-residual-Hessian-contract.md) 及176-pin消费者只从 quarter真success的完整plan/8range/finish精确收据读取既有whole+midpoint jets；不再调用目标，不复算1341个旧trial范数。重新包住同一原moving残差，pointwise最大与joint逐mode最大严格分开，完整uniform error逐子片求和；α一次、193槽repair、物理mean及原4个Green增益全保。64旧quarter没保存midpoint所涉原local行整体用旧界。ordinary/split四源只整组选择，再比较完整global界；剩余Z−w0仍用旧完整未知误差operator。source `7fb8c19c20e0bd722845521a4fa75f5ad4566beaeeab5fd5e6a8d65031a4b830`、manifest `3a87a8c8cf8530a476b13851ee184d91614ea633195294a2354bbdf321795d3d`。root已完整读数学/CI/flow及old164、quarter160全部不变pins；公开实际数学尚待上游完成，不能先记改善数值。

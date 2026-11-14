@@ -171,3 +171,7 @@ root逐字核P1–29及原U14–17/Q10–31，复核窗口计数、三generator�
 ### 2026-11-14 17:58:46 UTC：独立核对并推真实平端 mean 与完整开放内部逆
 
 根全文复核 M1–30：物理缩放、真实eX位置、原Airy mean两行/方向号、完整根jump、绝对可和Green、两向块衰减、新ν行列和、Neumann域均核；另亲读原两行端架A2–4和J39/40，加入准确κ^±1/3根初值说明，未用远场n^-1/6代根迹。保非零外输入真实径向补解及全部外/源/Γ列，未授最终外闭合。H原9596B逐字归档后压缩继续；17:55非FF后本地终端重试仍No usable execution environment，按根规则8仅小文本connector接最新main、两README blob未变并已成功重试推送。
+
+### 2026-11-14 18:00:23 UTC：推176-pin cached-quarter centre-Hessian 后继
+
+newton实现、tail独核原 directed FFT/Box/reduce_box与完整残差/两种范数，root全文独读合同、26606B producer、14643B worker、8552B flow并逐pin核old164与quarter160无变。workflow_run只接同公开仓库quarter成功；保存每32新残差格/每10min真pull，精确同输入prefix/原成功native复用；每个新文本摘要≤60000B，大native原字节/无损分片。此次只部署与证明消费合同，未声称新actual门、真cut或ν闭合。
