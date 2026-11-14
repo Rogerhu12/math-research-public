@@ -1,0 +1,72 @@
+{
+  "scope": "Loaded transformed original augmented class factory; no physical object, RHS, J, tail, or nonlinear solve.",
+  "geometry_controls": [
+    "delta",
+    "boost_length",
+    "boost_speed"
+  ],
+  "layout": "p[0:M]=all core parameters: log(c2/gauge), (c4-reference_c4)/scale[0], c6+/scale[1:]; p[M:M+3]=physical delta,boost_length,boost_speed offsets",
+  "provenance": {
+    "scope": "Retain the actual all-core equations with one declared optional ramp default.\n\nThe new physical design field descending_turn_ramp has absent value .08.\nThe loop bridge and physical-tail checks are those of the existing loop core.\nThis does not create an additional unknown or alter a boundary condition.\n",
+    "prior": {
+      "scope": "Use the original augmented equations with a declared finite bridge design.\n\nOnly the physical-tail comparison is refined: the finite connector's\n_prefix_bridge tag may follow the explicit profile controls, while every\nactual infinite-tail parameter and cut quantity remains exactly equal.\n",
+      "prior": {
+        "scope": "Optional absent defaults for pulse and monotone physical design controls.\n\nOnly these two explicit profile keys may be absent with value zero. Every\nother baseline lookup, all-core/geometry parameter layout, raw/chart mapping,\nphysical equation, derivative and original acceptance gate remains unchanged.\n",
+        "prior": {
+          "scope": "Explicit optional pulse default for the retained all-core actual factory.\n\nOnly the absent initial_speed_pulse baseline value is defined to be zero.\nEvery other control lookup, parameter layout, physical equation, derivative,\nchart, raw conversion and acceptance condition remains the original source.\n",
+          "original_sha256": "74c64ab558953c6d0378948dd4affb5d354d1faaecab7922b83cfdf76041bad7",
+          "transformed_sha256": "448fb31902ac311f0567a6db9ea7f8edbe1ad18caf329c1d1a5d01e97da866f2",
+          "adapter_sha256": "4fabc9ef77753185ed83e7bd7ff26854522d4a4a363c10a6841332944e8fb1a4",
+          "replacements": [
+            {
+              "before": "        **{name: baseline_profile[name]+value for name, value in external_shifts.items()}}",
+              "after": "        **{name: (baseline_profile.get(name,0.) if name=='initial_speed_pulse' else baseline_profile[name])+value for name, value in external_shifts.items()}}",
+              "count": 1
+            }
+          ],
+          "exact_reverse_recovers_original": true,
+          "default_pulse": 0.0,
+          "all_other_profile_keys_still_required": true,
+          "all_original_actual_equations_and_gates_unchanged": true
+        },
+        "pulse_adapter_sha256": "4fabc9ef77753185ed83e7bd7ff26854522d4a4a363c10a6841332944e8fb1a4",
+        "adapter_sha256": "067940d3d2f581beebf1fd64e0649c80d9d5eaa61052fa8c2ab6cd54f5004646",
+        "prior_transformed_sha256": "448fb31902ac311f0567a6db9ea7f8edbe1ad18caf329c1d1a5d01e97da866f2",
+        "transformed_sha256": "2a8aef436093d0c853a56a7b95474a88d77af954a9bbf503f970293d561d9831",
+        "replacements": [
+          {
+            "before": "baseline_profile.get(name,0.) if name=='initial_speed_pulse' else baseline_profile[name]",
+            "after": "baseline_profile.get(name,0.) if name in ('initial_speed_pulse','initial_speed_frontload') else baseline_profile[name]",
+            "count": 1
+          }
+        ],
+        "missing_defaults": {
+          "initial_speed_pulse": 0.0,
+          "initial_speed_frontload": 0.0
+        },
+        "every_other_profile_key_remains_required": true,
+        "every_original_actual_equation_and_gate_unchanged": true
+      },
+      "source_sha256": "a0a350fad6f26cb1278aa83ea02be9b85b05001093e3fe61cda747a2d50c384f",
+      "transformed_sha256": "5b7171ae9a5e7cb537ab4680f96c089850ffded69aecb18b31e0ab2e8235bfd6",
+      "replacements": [
+        {
+          "before": "            for key in ('parameters', 'cut'):\n                if self.port[key] != reference['physical_tail_'+('parameters' if key == 'parameters' else 'cut')]:\n                    raise ValueError('The physical tail '+key+' changed')",
+          "after": "            from strong_20261114_loop_bridge import verify_design_port\n            verify_design_port(self.port, reference, self.cfg)",
+          "count": 1
+        }
+      ],
+      "physical_tail_parameters_and_cut_exactly_preserved": true,
+      "prefix_bridge_tag_follows_declared_profile": true
+    },
+    "source_sha256": "3a48685214d8e409c50520ca21d1700cf97ce26bfafb7cf97832c012b351c3f7",
+    "transformed_sha256": "b7a6179fc1c6f35fb3256165ccfc66389ead65160adea27cb6dca4e3dea366c5",
+    "replacement": {
+      "before": "baseline_profile.get(name,0.) if name in ('initial_speed_pulse','initial_speed_frontload') else baseline_profile[name]",
+      "after": "baseline_profile.get(name,.08) if name=='descending_turn_ramp' else (baseline_profile.get(name,0.) if name in ('initial_speed_pulse','initial_speed_frontload') else baseline_profile[name])",
+      "count": 1
+    },
+    "default_ramp": 0.08,
+    "original_core_and_three_geometry_layout": true
+  }
+}

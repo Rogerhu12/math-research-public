@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-11-14T08:11:15.185230+00:00",
+  "scope": "Only implementation preparation, complementing the separately actually evaluated scalar-profile/C2 check. No new response, warm field, or nonlinear endpoint.",
+  "files": [
+    {
+      "file": "augmented-source.json",
+      "sha256": "b38b2350fb50a1d080198f6767e3b2a46035934af2b5c0f042f2578258554079",
+      "bytes": 5095
+    },
+    {
+      "file": "actual-source.json",
+      "sha256": "5aedf0b11445ab30be5d444935e11760177ca3d04ed94b2a3322bbd939d0a263",
+      "bytes": 34680
+    },
+    {
+      "file": "response-source.json",
+      "sha256": "ac320a9e700b0c50cf19cb6443d7d9701a9678493e15738e16acd1f77510f690",
+      "bytes": 19510
+    }
+  ],
+  "commands": [
+    [
+      "${PYTHON}",
+      "${RUNTIME_TOPIC}/computations/strong_20261114_ramp_actual_bvp.py",
+      "--prepare-source-record",
+      "${OUT_DIR}/actual-source.json"
+    ],
+    [
+      "${PYTHON}",
+      "${RUNTIME_TOPIC}/computations/strong_20261114_ramp_control_response.py",
+      "--anchor-source-record",
+      "${OUT_DIR}/response-source.json"
+    ]
+  ],
+  "not_yet_executed": [
+    "new ramp full/half physical forcing and full-field response",
+    "nondefault-ramp actual nonlinear BVP",
+    "new ramp saved-state fixed-view/audit/same-g refinement provider hooks"
+  ]
+}
