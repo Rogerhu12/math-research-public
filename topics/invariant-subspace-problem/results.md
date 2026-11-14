@@ -767,3 +767,7 @@
 ### R297 附录：奇数硬端创新消逆与单一真实对偶删除目标
 
 [完整证明](results/R297-appendix-odd-hard-top-innovation-and-dual-lowering-cancellation.md)在M=2r+1保真实对偶A=Σbi^−1Ei及完整MP塔，用混合交换块得L3B=L2BG1−2L1A_U，故Δ*C1^−1=−L1A_U。全部有限正权/全出生/全高度加强κ现准确等价于硬端A_U*L1L3^−1L1A_U≤κI。L3给真实补集对角压缩，显式有界物理提升足够，最小解的重写不算费用证明；统一界和graph仍开。
+
+### R150 附录：保无穷远的最大子式次数提升及有限覆盖准则
+
+[完整证明](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)给原M5自然二元齐次化，primitive最大子式gcd模好素数后总次数不减；原已闭纤维秩强迫K_h=s^14 t^14(s−2t)^9(s+6t)^9(F+F−E8)_h²的74次下因子。若有限个真实4354阶齐次子式的模31 gcd总次数恰74，即可夹逼全部特征零坏点仅在已闭集合，并由cofactor+Bézout构造真实原三次乘子证书、有限图表分母K(s)度60。该gcd条件尚未计算；本条是准确提升准则，不是有限Σ已清空。
