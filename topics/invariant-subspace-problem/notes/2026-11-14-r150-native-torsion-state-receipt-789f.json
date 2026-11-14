@@ -1,0 +1,55 @@
+{
+  "format": "r150-whole-torsion-run-v1",
+  "field": 31,
+  "status": "completed",
+  "basisSHA256": "0b397a7fe10f27d9c8ec9453e654ce52c0d1499187e1cc6cb2228d3676159960",
+  "metadataSHA256": "8281d0b1d61f8bbf8440e5cd88adc2c912af50abdaa4cf05958abc9edb13c16a",
+  "gbReceiptSHA256": "18d523a451953799c280f05e251a630be1543b2aa248940cce97d17a25246969",
+  "cppSHA256": "b9d1db13e8bdc3cdcff8cc8fcf8857d608a027fdddea5918412cfbc3fb824d58",
+  "arithmeticSHA256": "5d9bc7b87900472b617a9845b735388efe7f2c2cbde534a0b574ffc625d1a471",
+  "runnerSHA256": "e5647f925d200d061952f71c1bb5dc7de294101d1a16ae5488113a3cf2b2d382",
+  "secondsLimit": 60,
+  "memoryMiBLimit": 512,
+  "outputs": {
+    "normal-operations.bin": {
+      "file": "/tmp/r150-native-torsion-state-789f/torsion-normal-operations.bin",
+      "bytes": 3077459,
+      "sha256": "fcee9b064e96197307ef7655b4ccad15c628852792f3a103dbd88befe7c524c7"
+    },
+    "state.bin": {
+      "file": "/tmp/r150-native-torsion-state-789f/torsion-state.bin",
+      "bytes": 1470456,
+      "sha256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf"
+    },
+    "state.json": {
+      "file": "/tmp/r150-native-torsion-state-789f/torsion-state.json",
+      "bytes": 836,
+      "sha256": "976bf3b7658a4665850afcf1a3dbf7d0974412cba2280b0844fba74ee44dd956"
+    }
+  },
+  "binarySHA256": "1f76ecb83fe8d26c385fd7832d801b2dcf93398fdb7bc8e571248497ebc966b5",
+  "lastProgress": {
+    "status": "whole-torsion-state-complete",
+    "stateDimension": 820,
+    "observabilityRank": 505,
+    "torsionDimension": 315,
+    "stableAtPower": 57,
+    "allTargetsInTorsion": true,
+    "normalOperations": 767909,
+    "linearReductions": 4893,
+    "elapsedSeconds": 2.084
+  },
+  "exitCode": 0,
+  "elapsedSeconds": 2.156286473000364,
+  "nativeStatistics": {
+    "status": "whole-torsion-state-complete",
+    "stateDimension": 820,
+    "observabilityRank": 505,
+    "torsionDimension": 315,
+    "stableAtPower": 57,
+    "allTargetsInTorsion": true,
+    "normalOperations": 767909,
+    "linearReductions": 4893,
+    "elapsedSeconds": 2.084
+  }
+}
