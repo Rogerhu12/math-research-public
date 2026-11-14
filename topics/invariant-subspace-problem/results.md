@@ -735,3 +735,7 @@
 ### R150 附录：常单位分层枢轴与有限单参数模证书接口
 
 [完整证明](results/R150-appendix-graded-constant-pivots-and-finite-parameter-module-certificate.md)由源4模31确定非零子式，证明3333所选N枢轴行列式是非零有理常数，故全复参数消去不丢点；全部4191所选齐次枢轴进一步给1997×176、秩163的原Schur尾，所选分母次数上界4290。有限K[s]模保原6188行和九个inverse-binomial平方，最小共同湮灭理想/两步lift都回到原17式逐系数等式。模31完整秩未冒充Q秩，原大算术尚未实际完成；保存枢轴、重建器和有界回代入口，不宣称有限Σ已空。
+
+### R150 附录：实际原生常单位预基与可回放原行来源
+
+[完整证明与执行记录](results/R150-appendix-native-constant-prebasis-and-original-module-reduction.md)用各层常系数Gauss同时携带完整低层参数项，实际构造原F31[s]的3333条标准基，参数次数仍≤10，全部原行组合由782976次操作DAG保存。受限原生构造6.039秒；完整基已在Singular加载并核完互异单位主项。新有限模入口保来源哈希和原6188行/九目标，专用本库CI请求31/annihilator、1800秒/4GiB；尚无共同Ann或特征零成员证书。

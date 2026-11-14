@@ -1,0 +1,181 @@
+name: ISP R150 finite parameter module
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/invariant-subspace-problem/notes/2026-11-14-r150-module-ci-request-789f.json
+
+permissions:
+  contents: write
+
+concurrency:
+  group: isp-r150-finite-module-789f
+  cancel-in-progress: false
+
+jobs:
+  finite-module:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+            .github/workflows
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Read the explicit finite-module request
+        run: |
+          python - <<'PY'
+          import hashlib,json,os
+          from pathlib import Path
+          request_path=Path('topics/invariant-subspace-problem/notes/2026-11-14-r150-module-ci-request-789f.json')
+          request=json.loads(request_path.read_text())
+          characteristic=int(request['characteristic'])
+          seconds=int(request['seconds']); memory=int(request['memory_mib'])
+          if characteristic not in [0,31,32003] or request['stage'] not in ['annihilator','lift'] or request['precondition']!='constant':
+              raise SystemExit('Unsupported finite-module request')
+          prebasis=request.get('prebasis','none')
+          if prebasis not in ['none','native-f31'] or prebasis=='native-f31' and characteristic!=31:
+              raise SystemExit('Native prebasis is only the original F31 parameter model')
+          if not 1<=seconds<=1800 or not 512<=memory<=4096:
+              raise SystemExit('Request exceeds the bounded execution limits')
+          out=Path(os.environ['RUNNER_TEMP'])/('isp-r150-module-'+str(characteristic))
+          out.mkdir(parents=True,exist_ok=True)
+          rules={p:hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in ['README.md','topics/invariant-subspace-problem/README.md']}
+          code_paths=[
+              'topics/invariant-subspace-problem/notes/2026-11-14-r150-finite-macaulay-module-789f.js',
+              'topics/invariant-subspace-problem/notes/2026-11-14-rank-one-parameter-ideal-runner-789f.js',
+              'topics/invariant-subspace-problem/notes/2026-11-14-r150-graded-pivot-profile-789f.json',
+              'topics/invariant-subspace-problem/notes/2026-11-14-r150-native-constant-prebasis-789f.cpp',
+              'topics/invariant-subspace-problem/notes/2026-11-14-r150-native-prebasis-runner-789f.js',
+              'topics/invariant-subspace-problem/notes/2026-11-14-r150-module-actions-publish-789f.py',
+              '.github/workflows/invariant-subspace-r150-finite-module.yml']
+          source={'source_commit':os.environ['GITHUB_SHA'],'rules':rules,'request':request,'request_sha256':hashlib.sha256(request_path.read_bytes()).hexdigest(),
+                  'code_sha256':{p:hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in code_paths},
+                  'method':'finite-macaulay-module','scope':'Finite characteristic is discovery only; a complex-parameter conclusion requires characteristic zero original-row lift and actual denominators.'}
+          (out/'source.json').write_text(json.dumps(source,indent=2)+'\n')
+          with open(os.environ['GITHUB_ENV'],'a') as f:
+              for key,value in {'ISP_CHARACTERISTIC':characteristic,'ISP_MODULE_SECONDS':seconds,'ISP_MODULE_MEMORY_MIB':memory,'ISP_MODULE_STAGE':request['stage'],'ISP_MODULE_PRECONDITION':request['precondition'],'ISP_MODULE_PREBASIS':prebasis,'ISP_MODULE_OUT':str(out)}.items():
+                  f.write(str(key)+'='+str(value)+'\n')
+          print(json.dumps({'characteristic':characteristic,'stage':request['stage'],'seconds':seconds,'memory_mib':memory,'precondition':request['precondition']}))
+          PY
+      - name: Install Singular and record its version
+        timeout-minutes: 8
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends singular
+          Singular --version > "$ISP_MODULE_OUT/singular-version.txt" 2>&1
+      - name: Construct the original constant prebasis in bounded native arithmetic
+        if: env.ISP_MODULE_PREBASIS == 'native-f31'
+        timeout-minutes: 3
+        run: |
+          set -o pipefail
+          native_dir="$RUNNER_TEMP/isp-r150-native"
+          node topics/invariant-subspace-problem/notes/2026-11-14-r150-native-prebasis-runner-789f.js \
+            --out "$native_dir" --seconds 60 --memory-mib 512 \
+            2>&1 | tee "$ISP_MODULE_OUT/native-console.log"
+          cp "$native_dir/prebasis-receipt.json" "$ISP_MODULE_OUT/native-prebasis-receipt.json"
+          cp "$native_dir/prebasis-input.txt" "$ISP_MODULE_OUT/native-prebasis-input.txt"
+          cp "$native_dir/source-operations.bin.gz" "$ISP_MODULE_OUT/native-source-operations.bin.gz"
+          cp "$native_dir/native-execution.log" "$ISP_MODULE_OUT/native-execution.log"
+      - name: Preserve original seventeen-equation input and component mapping
+        timeout-minutes: 5
+        run: |
+          set -o pipefail
+          prebasis_args=()
+          if [ "$ISP_MODULE_PREBASIS" = native-f31 ]; then
+            prebasis_args=(--prebasis-file "$RUNNER_TEMP/isp-r150-native/basis.sing")
+          fi
+          node topics/invariant-subspace-problem/notes/2026-11-14-r150-finite-macaulay-module-789f.js \
+            --out "$ISP_MODULE_OUT" --characteristic "$ISP_CHARACTERISTIC" \
+            --stage "$ISP_MODULE_STAGE" --precondition "$ISP_MODULE_PRECONDITION" \
+            "${prebasis_args[@]}" \
+            --seconds "$ISP_MODULE_SECONDS" --memory-mib "$ISP_MODULE_MEMORY_MIB" --generate-only \
+            2>&1 | tee "$ISP_MODULE_OUT/preflight.log"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: isp-r150-module-input-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_MODULE_OUT }}
+      - name: Compute the bounded finite parameter module
+        id: exact
+        continue-on-error: true
+        timeout-minutes: 34
+        run: |
+          set -o pipefail
+          prebasis_args=()
+          if [ "$ISP_MODULE_PREBASIS" = native-f31 ]; then
+            prebasis_args=(--prebasis-file "$RUNNER_TEMP/isp-r150-native/basis.sing")
+          fi
+          node topics/invariant-subspace-problem/notes/2026-11-14-r150-finite-macaulay-module-789f.js \
+            --out "$ISP_MODULE_OUT" --characteristic "$ISP_CHARACTERISTIC" \
+            --stage "$ISP_MODULE_STAGE" --precondition "$ISP_MODULE_PRECONDITION" \
+            "${prebasis_args[@]}" \
+            --seconds "$ISP_MODULE_SECONDS" --memory-mib "$ISP_MODULE_MEMORY_MIB" \
+            2>&1 | tee "$ISP_MODULE_OUT/console.log"
+      - name: Preserve the actual outcome and bounded outputs
+        if: always() && env.ISP_MODULE_OUT != ''
+        env:
+          ISP_STEP_OUTCOME: ${{ steps.exact.outcome }}
+        run: |
+          python - <<'PY'
+          import gzip,hashlib,json,os
+          from pathlib import Path
+          out=Path(os.environ['ISP_MODULE_OUT']); out.mkdir(parents=True,exist_ok=True)
+          rp=out/'receipt.json'
+          receipt=json.loads(rp.read_text()) if rp.exists() else {}
+          records=[]
+          for p in sorted(out.iterdir()):
+              if not p.is_file():continue
+              raw=p.read_bytes()
+              item={'name':p.name,'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+              if len(raw)>1000000 and p.suffix!='.gz':
+                  packed=gzip.compress(raw,compresslevel=9,mtime=0)
+                  p.unlink()
+                  if len(packed)<=5000000:
+                      q=out/(p.name+'.gz');q.write_bytes(packed);item['saved_as']=q.name
+                  else:item['saved_as']='hash and reproducible input only; compressed output exceeds 5 MB'
+              elif len(raw)>5000000:
+                  p.unlink();item['saved_as']='hash and reproducible input only; output exceeds 5 MB'
+              records.append(item)
+          complete=receipt.get('status')=='completed' and receipt.get('completionMarker') is True and receipt.get('exitCode')==0 and receipt.get('singularError') is False
+          (out/'ci-outcome.json').write_text(json.dumps({'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],
+              'step_outcome':os.environ.get('ISP_STEP_OUTCOME'),'complete':complete,'mathematical_status':receipt.get('status','not completed'),
+              'exact_identity_verified':receipt.get('exactIdentityVerified',False),'files':records},indent=2)+'\n')
+          PY
+      - name: Publish only this run's actual outputs
+        if: always() && env.ISP_MODULE_OUT != ''
+        continue-on-error: true
+        env:
+          ISP_ACTIONS_TOKEN: ${{ github.token }}
+        run: python topics/invariant-subspace-problem/notes/2026-11-14-r150-module-actions-publish-789f.py
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_MODULE_OUT != ''
+        with:
+          name: isp-r150-module-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ env.ISP_MODULE_OUT }}
+      - name: Require actual completion markers
+        if: always() && env.ISP_MODULE_OUT != ''
+        env:
+          ISP_STEP_OUTCOME: ${{ steps.exact.outcome }}
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          out=Path(os.environ['ISP_MODULE_OUT'])
+          r=json.loads((out/'receipt.json').read_text()) if (out/'receipt.json').exists() else {}
+          ok=os.environ['ISP_STEP_OUTCOME']=='success' and r.get('status')=='completed' and r.get('completionMarker') is True and r.get('exitCode')==0 and r.get('singularError') is False
+          if os.environ['ISP_MODULE_STAGE']=='lift':ok=ok and r.get('exactIdentityVerified') is True
+          if not ok:raise SystemExit('Finite module calculation did not produce all required completion evidence')
+          PY

@@ -1,0 +1,69 @@
+{
+  "format": "r150-native-constant-prebasis-v1",
+  "options": {
+    "out": "/tmp/r150-native-b0-runner-789f",
+    "seconds": 60,
+    "memoryMiB": 512,
+    "binary": "/tmp/r150-native-b0-789f/build-prebasis"
+  },
+  "inputFile": "/tmp/r150-native-b0-runner-789f/prebasis-input.txt",
+  "sourceDataSHA256": "de719cecbe03b5255c202e5833ce647d550d51d99218fe0659d4f42eff018dc5",
+  "originalFixedDChecks": 3927,
+  "originalCommonDenominator": "23366320238786911411830138211362846399922176000",
+  "constantRowContents": [
+    "6191736422400",
+    "12383472844800",
+    "6191736422400",
+    "6191736422400",
+    "3095868211200",
+    "6191736422400",
+    "6191736422400",
+    "6191736422400",
+    "3095868211200",
+    "30958682112000",
+    "3095868211200",
+    "48372940800",
+    "48372940800",
+    "6191736422400",
+    "193491763200",
+    "154793410560",
+    "773967052800"
+  ],
+  "profileSHA256": "d5c1a753a3869a702a84d723a4fb7b68c778e19e2fc7d0a4e4b55fe95327a0b9",
+  "inputSHA256": "c8a47aaf61f3ca510999499ba8b0a7b813537ab36dc054a009b6f202e0553b3f",
+  "inputBytes": 86348,
+  "cppSHA256": "342a17d83a10859a46fe7fc753ad4bf1bde885b14263078dec07626564f0f282",
+  "field": 31,
+  "parameterDegreeAtMost": 10,
+  "expectedUnitPivots": 3333,
+  "status": "completed",
+  "started": "2026-11-14T09:53:48.668Z",
+  "exitCode": 0,
+  "signal": null,
+  "finished": "2026-11-14T09:53:54.754Z",
+  "nativeStatistics": {
+    "status": "native-prebasis-complete",
+    "field": 31,
+    "parameterDegreeAtMost": 10,
+    "pivots": 3333,
+    "operations": 782976,
+    "nonzeroScalarCoefficients": 11947979,
+    "elapsedSeconds": 6.03892
+  },
+  "outputs": {
+    "basis": {
+      "file": "/tmp/r150-native-b0-runner-789f/basis.sing",
+      "bytes": 95273924,
+      "sha256": "59c5bd267dc1ecc340ce26c82ed49a696b3442d9453386552d6d9240a618488a"
+    },
+    "sourceOperations": {
+      "file": "/tmp/r150-native-b0-runner-789f/source-operations.bin",
+      "bytes": 2378937,
+      "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+      "compressedFile": "/tmp/r150-native-b0-runner-789f/source-operations.bin.gz",
+      "compressedBytes": 1650863
+    }
+  },
+  "operationsFormat": "R150PB31 magic (8 bytes), little-endian u32 row count; each row: original source row u32, scale u8, reduction count u32, then pairs(previous basis index u16, subtraction coefficient u8). New basis row equals scale*(original row - sum coefficient*previous basis row).",
+  "basisStorage": "Temporary runtime input only. The generated basis is much larger than repository artifact limits; retain hash and reproducible command, never commit this file."
+}

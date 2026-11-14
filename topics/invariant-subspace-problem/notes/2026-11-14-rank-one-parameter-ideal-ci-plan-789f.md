@@ -85,3 +85,11 @@ Singular 的 `lift`/`liftstd` 采用原生成元变换矩阵语义；参照其�
 ## 原特征零运行的最终故障记录（08:13:51 UTC）
 
 再次查询确认43568673309/132368030036已于08:13:51失败。实际check注释是hosted runner与服务器失去通信，具体原因未知；不能据此认定OOM。job日志端点现返回HTTP404/BlobNotFound，计算步骤元数据仍停在in_progress、后续保存上传pending，未观测到有效原I*C=T证书。[状态与准确注释回执](2026-11-14-r150-ci-char0-lost-communication-789f.json)保源提交、时间及请求结果。两条旧分支均已结束；后续改代数消元路径，不将失联计作数学失败或重复同配置大展开。
+
+## 原生常单位预基与有限模新请求（2026-11-14 10:00:26 UTC）
+
+[原生预基完整证明](../results/R150-appendix-native-constant-prebasis-and-original-module-reduction.md)已实际完成原F31[s]全部3333常枢轴行，保存可回放原行操作；参数次数≤10，受限6.039秒。完整95 MB基在另一个60秒/512MiB进程实际载入Singular并核完所有单位主项。大基只在临时目录重建。
+
+新增本库专用 `.github/workflows/invariant-subspace-r150-finite-module.yml` 与明确请求 `2026-11-14-r150-module-ci-request-789f.json`。本次只请求31/annihilator/constant+native-f31，原生60秒/512MiB，余模Singular1800秒/4096MiB；源17式/6188行/九目标和原行身份判据不变。读取预基前匹配原数据/profile/基哈希，仅允许未专门化F31[s]。源输入先上传，实际回执/有限输出回推本题并记录逐次README指纹；大基不上传。
+
+当前仅请求提交，尚待实际run号；Ann和九目标成员证书仍未得。有限特征仅发现，后续全复参数结论仍需char0原行lift及实际分母，不以素数结果替代。

@@ -9,6 +9,7 @@ multiplier degree <=3. Finite characteristic is discovery only.
 const fs=require("node:fs"),path=require("node:path"),cp=require("node:child_process"),crypto=require("node:crypto");
 const {parameterSystem}=require("./2026-11-14-rank-one-parameter-ideal-runner-789f.js");
 const hash=x=>crypto.createHash("sha256").update(x).digest("hex");
+async function fileHash(file){const h=crypto.createHash("sha256");for await(const b of fs.createReadStream(file))h.update(b);return h.digest("hex");}
 const choose=(n,k)=>{let x=1n;for(let j=1;j<=k;j++)x=x*BigInt(n-j+1)/BigInt(j);return x;};
 function monomialData(){
  const powers=Array.from({length:11},(_,i)=>8**i),degrees=[];
@@ -57,10 +58,11 @@ function generate(z,o,out){
   "option(redSB);","module Reduced;module Target;int nred;",
   ...(o.precondition==="constant"?[
    `intvec preRows=${preRows.join(",")};`,"module Pre;for(i=1;i<=size(preRows);i++){Pre[i]=M[preRows[i]];}",
-   'print("R150_MODULE_BEGIN_CONSTANT_PRECONDITIONER");',"module B0=std(Pre);",
+   'print("R150_MODULE_BEGIN_CONSTANT_PRECONDITIONER");',
+   ...(o.prebasisFile?[`< ${JSON.stringify(o.prebasisFile)};`]:["module B0=std(Pre);"]),
    'if(size(B0)!=3333){print("R150_MODULE_CONSTANT_RANK_FAILED");quit;}',
    "intvec reindex=0;reindex[4367]=0;intvec le;",
-   'for(i=1;i<=size(B0);i++){le=leadexp(B0[i]);if(le[1]!=0||reindex[le[2]]!=0){print("R150_MODULE_CONSTANT_PIVOT_FAILED");quit;}reindex[le[2]]=-1;}',
+   'for(i=1;i<=size(B0);i++){le=leadexp(B0[i]);if(le[1]!=0||leadcoef(B0[i])!=1||reindex[le[2]]!=0){print("R150_MODULE_CONSTANT_PIVOT_FAILED");quit;}reindex[le[2]]=-1;}',
    "nred=0;for(i=1;i<=4367;i++){if(reindex[i]==0){nred++;reindex[i]=nred;}}",
    'if(nred!=1034){print("R150_MODULE_CONSTANT_COMPONENTS_FAILED");quit;}',
    'print("R150_MODULE_CONSTANT_PRECONDITIONER_READY");',
@@ -104,12 +106,13 @@ function generate(z,o,out){
  return {script:lines.join("\n")+"\n",mapping:{columns:md.columns,multipliers:md.multipliers,constantPreconditionerRows:preRows,gradedProfileSHA256:hash(profileBytes),rows:"row 17*u+i corresponds to multiplier index u=0..363 and generator i=1..17",keyEncoding:"sum exponent_i*8^i, original m coordinates"},files:{basis:basisFile,certificate:certificateFile,denominator:denFile}};
 }
 async function main(){
- const o={characteristic:31,source:null,stage:"annihilator",precondition:"constant",out:null,singular:"Singular",seconds:60,memoryMiB:512,generateOnly:false};
- const options={"--characteristic":"characteristic","--source":"source","--stage":"stage","--precondition":"precondition","--out":"out","--singular":"singular","--seconds":"seconds","--memory-mib":"memoryMiB"};
+ const o={characteristic:31,source:null,stage:"annihilator",precondition:"constant",prebasisFile:null,out:null,singular:"Singular",seconds:60,memoryMiB:512,generateOnly:false};
+ const options={"--characteristic":"characteristic","--source":"source","--stage":"stage","--precondition":"precondition","--prebasis-file":"prebasisFile","--out":"out","--singular":"singular","--seconds":"seconds","--memory-mib":"memoryMiB"};
  const args=process.argv.slice(2);for(let i=0;i<args.length;i++){if(args[i]==="--generate-only"){o.generateOnly=true;continue;}const n=options[args[i]];if(!n||i+1===args.length)throw Error("bad argument "+args[i]);o[n]=args[++i];}
  for(const k of ["characteristic","seconds","memoryMiB"])o[k]=Number(o[k]);if(o.source!==null)o.source=Number(o.source);
  if(!o.out||!["annihilator","lift"].includes(o.stage)||!["none","constant"].includes(o.precondition)||![o.characteristic,o.seconds,o.memoryMiB].every(Number.isSafeInteger)||o.characteristic<0||o.seconds<=0||o.memoryMiB<=0||o.source!==null&&!Number.isSafeInteger(o.source))throw Error("bad options");
  fs.mkdirSync(o.out,{recursive:true});o.out=path.resolve(o.out);
+ if(o.prebasisFile){if(o.characteristic!==31||o.source!==null||o.precondition!=="constant")throw Error("native prebasis requires original F31[s] constant preconditioning");o.prebasisFile=fs.realpathSync(o.prebasisFile);if(o.prebasisFile===path.join(o.out,"basis.sing"))throw Error("prebasis must be separate from the output basis");}
  const log=x=>process.stdout.write(JSON.stringify(x)+"\n");
  const z=parameterSystem("original",log),p=BigInt(o.characteristic);
  if(p&&(BigInt(z.denominator)%p===0n||z.contents.some(c=>c%p===0n)))throw Error("bad original prime");
@@ -119,6 +122,12 @@ async function main(){
   fixedDReconstructionChecks:z.checks,constantRowContents:z.contents.map(String),inputSHA256:hash(g.script),inputBytes:Buffer.byteLength(g.script),
   originalCommonDenominator:z.denominator,sourceGeneratorCount:17,multiplierCount:364,components:4367,rows:6188,
   status:o.generateOnly?"input-generated-only":"running",started:new Date().toISOString()};
+ if(o.prebasisFile){
+  const pr=JSON.parse(fs.readFileSync(path.join(path.dirname(o.prebasisFile),"prebasis-receipt.json"),"utf8"));
+  const sha=await fileHash(o.prebasisFile);
+  if(pr.status!=="completed"||pr.field!==31||pr.expectedUnitPivots!==3333||pr.sourceDataSHA256!==z.sourceDataSHA256||pr.profileSHA256!==g.mapping.gradedProfileSHA256||pr.outputs?.basis?.sha256!==sha)throw Error("native prebasis provenance mismatch");
+  receipt.prebasis={file:o.prebasisFile,bytes:fs.statSync(o.prebasisFile).size,sha256:sha,sourceOperationsSHA256:pr.outputs.sourceOperations.sha256};
+ }
  const save=()=>fs.writeFileSync(path.join(o.out,"receipt.json"),JSON.stringify(receipt,null,2)+"\n");save();
  if(o.generateOnly){log(receipt);return;}
  const child=cp.spawn("timeout",["--kill-after=10s",String(o.seconds)+"s","prlimit","--as="+String(o.memoryMiB*1024*1024),"--core=0","--",o.singular,"-q",input],{stdio:["ignore","pipe","pipe"]});
