@@ -273,3 +273,7 @@
 - [R131：N³G严格分离、权负二响应40维与至少111个真实联合查询](results/R131-third-G-translation-separation-and-111-query-control.md) — actual43653293263/source2f0add61只新50原列，10完整两mode依赖给上界40；原有理40/41子式模1476048378/64963154、Λ1591563935非零，故N³G不属完整R8，4≤s≤10。同一pure映射权1/0/−1/−2核为6/13/23/34，总核≥76，R8≥107，U4/闭成本锥lineality/真实联合查询≥111。53.468s/RSS125.309MiB；全部新102原根157782B导出供直接消费。下一单N⁴G，不授完整period/ruling。
 
 - [R135：N⁴G严格分离，响应至少146维与真实联合查询至少151维](results/R135-fourth-G-translation-separation-and-151-query-control.md) — actual43653875461/source481bb849只新权−3的56列，12原式依赖给44上界；原有理44/45子式模690440334/2122673486、Λ1823493051非零，故N⁴G非成员、5≤s≤10。该权pure像5给新核39，合旧核76得R8≥146，U4/lineality/实际联合查询≥151。36.105s/RSS125.172MiB，完整新114原根导出；同源19开发已发复用而不重跑。下一仅N⁵G与新五族完整mixed，不授主课题完成。
+
+- [R137：真实快速水平脉冲与加速度PSD必要门](results/R137-real-fast-pulse-positivity-and-acceleration-PSD.md) — 已先用正时长真实补偿付M/frame/T，证明任意平端水平路径的最高导数层积分对真实正泛函非负，继而Aλ逐状态PSD；整矩阵为零迫面积H为零，A恒零才得Q4点态非负。只universal成本锥必要门，未授有限几何族。
+
+- [固定70短步首轮实际](notes/curvature-fixed-target-first-actual-result-20261114.md) — run43653520539同g/163参数，三次原门双网接纳使κ73.359843→70.722781；全步曾低于70但违反768奇角metric而拒绝。06a603全系数保存，下一付真实细网Jac；70与连续reach均未达。

@@ -6,11 +6,11 @@
 
 根/本题README已全文读。公开仓库最后已读规则提交：`f42ded4aac8463083fa2dc5209c16de42f0965d7`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有22:56:37 UTC实际partial clone/pull至`905979913d397cae80a05592bda6660733b3160c`，双规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**。只存元数据，回执notes/terminal-private-recovery-pull-20261114.json；下一私有pull不晚23:55 UTC。
+私有2026-11-14 23:45:18 UTC实际pull至`b2a4c84965609d677a650f47f63cd5e96c1fa726`，根/本题规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**；仅元数据回执notes/terminal-private-pull-20261114-2348.json。下一私有pull不晚00:45 UTC。
 
 研究几何、积分/ODE、优化、完整符号计算仅本公开GitHub Actions；本地仅纸面代数、源码/已发输出解析及小人工开发。不伪造Actions。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止冻结、复核、重复归档/重跑机械门；完整证明直接登记。H<10KB/MD<100KB/open尽量<30KB；数据>1MB gzip/单件<5MB。明确stage，不git add .，不写根LOG。
 
-22:48环境恢复后终端Git已正常。公开checkout `/workspace/scratch/9974ea84a1c6/visible-public`，私有同级visible-private；agents仅写各pending目录。push_visible.py位于scratch，仅真实NFF循环和规则核对，不含凭据。旧21:39–22:48受限期间依根8的小文本发布见log，不补跑旧研究。
+终端Git正常；公开checkout同级visible-public，私有visible-private；agents仅写pending，root独占Git。scratch/push_visible.py执行真实NFF循环/规则检查，无凭据。旧受限环境操作见log。
 
 ## 2. 完成门
 
@@ -20,11 +20,11 @@
 
 core A1/B7/25/半宽1/50，L.9、rc.22、tc.036、tf.846、六帽R.274。固定g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163参数；永久enriched c0不可换selected。旧best e407a214的384/768 η.266411174/.267146532、κ73.359843/73.359830；旧rawδ.26640845723失败不抬。历史各attempt完整证据均在notes/open。
 
-旧43648433010/source df535c0c单次SLSQP 73major/120phys、72deferred/0exchange、优化255.162s后仍e407；只读43651096112发现eval6仅hash不能warmstart，末trial κ208.203/η3.02699。此证据使后继固定λ70，只在原门可行态处取短步，不再盲最小化辅助λ。
+前次SLSQP没有新合格态；未保存的eval6仅有hash不可warmstart。详见旧actual notes。已改为固定目标70、原物理门内短步，绝不静默换g/容差。
 
 **新43653520539/sourceaa93b657固定70短步已有真实进展**：源a3434d12/driver63789b68，三次双网接纳，物理新best **06a603ec4aa254d29cb44fdcf60190fba356d8a6834eb73748d0755243db8736**。同g/b0/163，384/768 κ70.72278135226482/70.72276833871258、η.26684098568720516/.2671984169299693；fine metric裕1.583070e−6、内strip裕2.3328107e−7、mirror.101540852406、cap裕1.72464388e−7、minq.8564348036、minz.02、盒0。70尚未达；.061局部reach目标仍需κ≤16.39344，非连续证书。
 
-5LP、21粗+19细=40调用先耗尽，优化仅30.865492s/初始化260.435425s/准备14.872945s/总307.588818s、RSS1585500KiB；末两网另列2调用。5Jac/50批，最大18径向、批普通jet差3.55e−15。完整raw2953155B/cd3f580a→gzip444500B/a8e9d9a3，summary158808B/caddda4f，全部trial完整系数已存。原384全程omitted=0、池3887不变；全步曾κ69.806/69.959/69.990并过384，但768的metric拒绝。fine峰t.135、θ3.01887419为旧384遗漏奇角。下一先从06a603加入这些已知细网metric行的Jac，保原384/768验收与height mean384，不加预算/容差或先加末片自由度。mechanism正在实现最小混合网选行；末片+17嵌套仅条件备选。
+完整事实见notes/curvature-fixed-target-first-actual-result-20261114.md：5LP、40粗细值调用，30.865s优化；全trial系数保留。原384池3887且omitted=0；全步κ<70却被768 metric拒绝。fine峰t.135/θ369π/384是粗网遗漏奇角。下一从06a603加真实细网Jac行，保384/768验收与height mean384；不加预算/容差/末片自由度。
 
 ## 4. 完整第四空间已付与未付
 
@@ -50,7 +50,10 @@ R132 actual43652134080/source6e2f99ce完整计算1901新pure v根、885新N响�
 
 **IBP actual43653293263/source2f0add61已complete**：源2347633b保全部P/A/R边界恒等式，Q2=519、L4=490共1009正规packet，全部余项准确0（含148加速度二次、168area、174速度四次）。全部原P实际min_r25/maxdegree33，无裁剪；4387非零原系数、45行。1.612911694s/RSS83.125MiB，0 profile/0 response formula，6toy全过。由R124/R129/R130严格Π8(U4)=T，真实pure秩31/偶15、额外商0，不能外推完整mixed。证书483512B/a62173b3（raw4472950B/3e0b01e2），main15625B/3711ccef、receipt28ecf527；R133已登记；R116同一四块C原15尾查询为0，现C∈U4且像为evenT，查询在此同构，故整个Π8V_C(c,r)≡0，保全部桥/基准，无新求根。
 
-当前公开request两lane：N⁵G单新块，以及**acceleration_layer_mixed** 源271dd150。R134已证三Abar/两H完整两mode只须v4；新consumer先导出全部五族原DAG，再只检权−2模R131的40响应+N³G这41维；阳性原式核零，未决仅首个候选原有理41/42子式。不编N/Q4/旧响应。R136给新五族actual，R139给N⁵G；R137为真实快缩正性/PSD纸证待登记，R138为通用pure G−原响应/128新单身份待实现。
+R137已登记：真实正泛函λ杀R；固定单位矩路径+有界残差给局部补偿成本O(1+‖M‖)，先准确补M/frame及倒行去T，再快缩得任意平端水平P有∫λL4≥0。故三Abar组成状态PSD矩阵；整个矩阵为0时H1/H2必须0，全状态A=0才推出Q4点态非负。不能以局部成本界替换非零M段完整高阶历史界，不授固定窄域或几何族。
+
+43654534244/source1177f251的N⁵G与五族已实际成功，root接R139、literature接R136；后者仍须原式真上界与新子式才判非成员。R140全action乘子等价纸证待登记。当前request只有R138新general_pure_G_identity：源a6731a1c，唯一任意profile原差G[-4]−B_p2(W1)[-4]/128，完整相位1/8、同右锚；先存原差再sound IBP。非零代表只未决，不跑m8/mixed/旧列；六新人工后public actual。
+
 
 ## 6. 未付终局
 
