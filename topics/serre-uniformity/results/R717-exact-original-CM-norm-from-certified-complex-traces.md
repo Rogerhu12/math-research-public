@@ -600,3 +600,24 @@ those existing values without repeating the old torsion-orbit or
 Cartier computation.  Any actual new numerical conclusion is to be
 taken only from the public runner's complete interval-and-integer
 certificate.
+
+
+## 9. Completed public calibration at p = 41
+
+Public Actions run [43597163388](https://github.com/Rogerhu12/math-research-public/actions/runs/43597163388), from source commit `ae827621e6632ad70227e1523247c0331edf9d8f`, completed the new algorithm successfully. The complete outputs are in [the published run directory](../computations/R717-original-CM-norm-p41/43597163388-1/). This is the certified complex-trace computation of this paper; the prior torsion-orbit computation was not repeated.
+
+The run used python-flint 0.9.0, 320-bit working precision, a certified analytic-tail target of $2^{-220}$, and norm cutoff $12300=300\cdot41$. All 128 rows and 3712 admissible ideal representatives were included. Every one of the 42 trace balls contained a unique integer. The largest recorded real trace radius was exactly $278071519\cdot2^{-139}$, well below $1/4$.
+
+The original finite-field generator is $(7,30)$ in the basis $(1,\zeta)$, with order 42 and $\gamma^{14}=\zeta$. Evaluation in the selected unramified ring gives
+
+$$
+v_{41}(\mathcal P_{41})=-2,\qquad v_{41}(M_2)=-1,
+$$
+$$
+41^2S_2S_3\equiv1274\pmod{41^2},\qquad
+(41M_2)^2/\zeta^2\equiv24\pmod{41}.
+$$
+
+These are the unchanged original normalization and the retained independent historical values. The complete receipt has SHA256 `fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6`; the input receipt has SHA256 `462c9109302e85d95958bef1e3695bbb5aeef85f1d017688ed97c34d226dcc4c`. The original core SHA256 is `75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402`. Its four complete arithmetic artifacts have hashes recorded both in the core receipt and in the published 17-file manifest. The persisted small receipts and log were independently checked against that manifest; the full binary artifacts remain in the public repository and Actions artifact.
+
+The calibration is complete and is to be reused. The value at $p=137147$ remains a separate computation; no conclusion about that value or the actual height follows from this calibration alone.

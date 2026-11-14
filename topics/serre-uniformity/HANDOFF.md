@@ -4,8 +4,8 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：380cc1ec23e2b51f54ace7136fb8f877a31dfc41
-最近实际pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。最近GitHub集成核查：2026-11-14 12:55:19 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
+已读规则提交：e7f3ee8ade8394676e3024ceb67fe2b3f05734fe
+最近实际pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。最近GitHub集成核查：2026-11-14 12:59:45 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
 
 仅Rogerhu12/math-research-public；旧私库与“停公开runner”均作废。每条结论单独commit/push main已授权；终端推前pull，非快进立即pull --rebase并重推至成功。PAT只CLI，不写文件/提交。根独占tracked/git，辅助仅scratch或恢复小文本blob。单Markdown<100KB，HANDOFF<10KB，open/README<30KB；数据>1MBgzip、单文件<5MB；日志仅本题，≤5内容行，改共享workflow须说明。
 
@@ -16,7 +16,7 @@
 - R707固定p41已完整：129盘=121排除+8CM，无有理尖点；183证明SHA账本已核，O5关闭。R656/R709的原CM4链已恢复，勿重跑。
 - R706/R689/R698：41..200000的5992素数，唯一Cp−3零137147；独立原z公开run43587480525同值。R710原数组后两权117309/122674，M8赋值−7、残余阶r3；R711全部jet整数赋值。
 - R703/R716真实高度的代数提取与相对全尾已证明；实际一般p模型、有限矩阵及规范前缀仍缺。global继续实际输入，不把有限零数当无根。
-- R717精确解析范数算法已全文核验，现启动本公开仓库p41新算法校准；请求要求原p²S2S3=1274 mod41²，成功后算137147。这不重跑旧挠点轨道。见下运行规范。
+- R717新解析算法公开run43597163388已校准成功：128行/3712项、42整数trace唯一，原p²S2S3=1274 mod41²、归一平方24、vM2=−1完全吻合；继续137147。这不重跑旧挠点轨道。见下运行规范。
 - R719原137147可见点有限枚举+全尾条件及源码已独审；B<1/2尚待公开运行。global准备wrapper/request/workflow，先notes存方法，证书成功后单独登记结果。
 - R715原m43、R718全层m_n=42n+1和d∞、R720原C=9ib链桥均已推；unit继续原X_t主化/首矩或真实普通互反求b，禁止代pure-p参考24。最新R720提交e66994cbc4e3820ba667c0f4a67717d4f0cb4400。
 
@@ -42,9 +42,9 @@ R593同η/cclear/ctriv与q项零；R690实际2处零，R694/R696校准点及候�
 
 ## R717公开新算法运行规范
 
-证明results/R717-exact-original-CM-norm-from-certified-complex-traces.md，SHA256 7dc95e312f73e47a6b6e6b0383d78867a4627cf8a3b776150b48667de36198f7；core scripts/R717_certified_original_CM_norm.py SHA75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402。
+证明results/R717-exact-original-CM-norm-from-certified-complex-traces.md，SHA256 dda392359f0651dd312cce9f191071f6ff06fdd37554b463b96f323a3385f314；core scripts/R717_certified_original_CM_norm.py SHA75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402。
 原P=S2S3/C0²∈Q(ζ_(p+1))^+，2^37·3^26·p5·P整；完整原Ω/6标签、两个+根号、精确period factor和全尾给全部整数trace，唯一整数区间及精确Teich根恢复原值。无任何137147数值预断。
-本次request R717-original-CM-norm-p41：320bits、tail220、cutoff300p、checkpoint50、1200s、expected1274。python-flint0.9.0；wrapper固定本次request到RUNNER_TEMP/session，publisher切main后verify不漂移。完整receipt与checkpoint按source/全部精度参数校验复用；大产物留Actions artifact，恢复到RUNNER_TEMP/R717-imports/<result>/，禁止通过工具分块或编码传大文件，禁止盲重跑完整bin。p41通过再用4片(≤2并行)的137147完整配置，cartier准备预算。
+p41校准run43597163388/source ae827621e6632ad70227e1523247c0331edf9d8f已成功并完整发布；receipt SHA fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6。配置320bits、tail220、cutoff300p、checkpoint50，原expected1274通过；完成的42整数trace与其17文件manifest保存，不重算。python-flint0.9.0；wrapper固定本次request到RUNNER_TEMP/session，publisher切main后verify不漂移。完整receipt与checkpoint按source/全部精度参数校验复用；大产物留Actions artifact，恢复到RUNNER_TEMP/R717-imports/<result>/，禁止通过工具分块或编码传大文件，禁止盲重跑完整bin。137147现准备384bits、tail256、cutoff360p的4片(≤2并行)+recover；严格解析trace误差<2^−14，最终仍必须全部Arb整数trace唯一，cartier提交完整预算及artifact传输workflow。
 
 ## O6：原p43 Robert单位/普通Norm
 

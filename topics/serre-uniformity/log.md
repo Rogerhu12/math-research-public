@@ -903,3 +903,10 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 原P在实圆分域，2^37·3^26·p^5P整；整数trace唯一性与精确Teich根给原范数，未预断137147的M2值。
 - 新增共享.github/workflows/serre-certified-original-CM-norm.yml及请求，公开Actions只先校准新算法p41/1274，不重跑旧挠点轨道；固定flint0.9.0，保存全部完整/失败产物并按来源复用。
 - HANDOFF压缩前全文存notes/2026-11-14-public-handoff-through-R720.md；R719原137147非消失证书准备并行，主目标OPEN。
+
+
+## 2026-11-14 20:57 Asia/Taipei · serre-public-resume-20261114
+- R717公开run43597163388/source ae827621e6632ad70227e1523247c0331edf9d8f成功，128行/3712项全部覆盖，42个整数trace唯一；最大实半径278071519·2^−139。
+- 新解析算法恢复原41²S2S3≡1274 mod41²、(41M2)²/ζ²≡24 mod41，与保留历史证书完全一致；原挠点轨道未重跑。
+- 完整receipt SHA fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6；持久化小receipt/input/log逐字SHA与17文件manifest匹配，四完整算术产物SHA在两receipt一致。
+- 校准完成即复用，继续137147分片原值及R719非消失证书；该校准不给一般一致性或实际高度排除。
