@@ -5,7 +5,7 @@
 ## 规则与工作位置
 
 唯一工作仓库 Rogerhu12/math-research-public；只使用本仓库 Actions。新目录 `/workspace/scratch/0df957a82d09/math-research-public` 是 blob:none 部分克隆，仅先检出正文、脚本和 workflow；大数据按需只读旧检查点或在公开 Actions 重建。
-最后实际 pull --rebase 与两 README 差异检查：770a58e432672ca0ba92386523a7df58a51bfd65；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
+最后实际 pull --rebase 与两 README 差异检查：3725b8ecdc965280bdde65a5bf975ea1644ae1fe；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
 每次推送前 pull/rebase 并检查两个 README；至少每小时 pull；每条结论独立提交推送；非快进立即 rebase 后重推，不 force。PAT 仅瞬时命令行环境，不入文件或输出。root 管 Git/HANDOFF/open/results 索引/log，代理只写自己新文件。
 
 ## 目标和准确对象
@@ -52,3 +52,5 @@ phase旧完整请求只到127germ且已正常返回，不再等待其自动覆�
 主体43583838026成功后，visible-exact-body-complete-mean.yml自动消费原八行工件和prepare，核40片7721行后运行原双mean误差consumer；无需重跑任何成功行。完整inverse仍另待证明。
 
 K48完整Laurent修正已付全部尾/源/root，真A1/50缺陷约1.464e−13；只定义精确提案和显式族，真PDE/全ν响应仍欠。小consumer原生记录保留实际来源，另接公开Actions同源复算。
+
+新ρ15=(5831714953207175+√5)/21212218271020390，第四根gap1/(68|j|)、圆K=17/4；完整缺陷<1.464e−13。旧7目标仍保留，新目标未宣称实现，R31、β/j、strong余项须继续。

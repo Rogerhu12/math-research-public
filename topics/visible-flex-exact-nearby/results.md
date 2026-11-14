@@ -51,3 +51,5 @@
 - [R133明确完整C0球的最终几何充分条件](results/R133-supplement-final-geometry-from-complete-C0-ball.md)：以实际141块的腰误差和连续模型为输入，完整物理C0差≤1e−4、|δν|≤1e−5及原外部匹配球足以支付全半径/支撑/曲率/真帽/held/reach与marker条件。先用真实waist frame完整周期及mean小球强制整数绕转1，避免先假设嵌入的循环；该精确解及小球尚未构造。新增公开workflow仅执行26项有理预算并保存真实结果。
 
 - [完整K48终端修正与真实响应误差门](results/R133-supplement-complete-K48-terminal-conjugacy-proposal-and-response-gate.md)：完整3169个Laurent系数与无穷指数尾、169真源和root费用给K48后非恒定终端缺陷<2.326e−18、真A1/50误差<1.464e−13；真qν−Z误差≤1/6500足保同背景ν行>1/600，但尚未供给该响应误差。
+
+- [bounded15近目标与全频算术费用](results/R133-supplement-bounded-fifteen-target-and-paid-KAM-arithmetic-tradeoff.md)：新精确目标ρ15=(5831714953207175+√5)/21212218271020390距K48中心<2.2e−18；主第四根gap为1/(68|j|)，R31圆K=17/4；完整目标缺陷<1.464e−13，保留旧目标并明确β/强余项须按新margin重付。
