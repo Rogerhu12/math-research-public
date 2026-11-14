@@ -160,3 +160,6 @@
 
 
 - **路线边界（已证明）**：[固定有限个本原标签不能覆盖全部允许素数](notes/fixed-finite-h-primitivity-obstruction.md)。CRT 与 Dirichlet 在两个允许素数类分别给无穷多 p，使任意预定有限组 h>1、h≡1mod6 全部整除 p+1；不否定适应 p 的选择或 h1 补充，也不声称实际 CM 系数消失。
+
+
+- **R733（已证明）**：[原 toric norm 平均与固定深度八 Abel 等距](results/R733-averaged-original-toric-norms-and-depth-eight-Abel-isometry.md)。全部正六标签只留下六条有限域直线，每个原 fiber 至多十二点，故 $\sum_{\mathcal H}N_h<13mp$；primitive 几何均值 $<5p(2+\log_2p)$。原全局整数范数平均给大 $p$ 某实际 $v_p(M_{2,h})\le2$，完整有理 jet/Hodge 尾将全充分大原 Abel 等距盘改善为固定 $p^8$；仍未排原高度和整个候选 $p^4$ 盘。
