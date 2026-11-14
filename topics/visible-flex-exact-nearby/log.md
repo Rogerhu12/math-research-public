@@ -99,3 +99,8 @@ root核实际job success、9009B process37e6e68f…与23864B summarybfe332c6…�
 ### 2026-11-14 17:09:11 UTC — 固定η0物理帽336新域pilot已核推
 
 独立读source/contract/CI/flow，原152输入在156pin清单中零变。原1977 direct one-column来自四range加16pilot，14完整gain与六端点负荷均复用；仅最大16个dB父格的新fixedη0 whole/quarter/sixteenth域重建严格系数，336请求保存前缀。不同Fourier/Taylor模型的八源整组择一，最后比较完整总误差，禁止逐分项min混模型。真实9/10首Hermite外推、mean与无限余项保，待公开实际结果。
+
+### 2026-11-14 17:09:40 UTC — ordinary-only实际11门亲核后独立推
+
+root读9122B process989e72f6…、11388B summaryf6640ebc…并核SHA、job、11门与child0。完整1341/1977、原257物理槽及97输入mean保；additive1.348921723e−6，原physical residual/target/endpoint零重算。17:06:13真pull至e1f98ab7effd9094a5373ebdbcf7c22299e2f109，四次README差为空，H已记；继续真cut重权与物理dB。
+

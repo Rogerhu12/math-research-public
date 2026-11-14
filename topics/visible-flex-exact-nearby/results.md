@@ -362,3 +362,7 @@
 
 [实际报告](results/R133-supplement-actual-particular-Hessian-same-Z-Green-reweight.md)：43618269135真7门/3.855568s，nativecd3dd5af…；完整gR<4.313470180e−5，右通道仅乘安全数值比率<.789998348514。原6391连续片/所有接口、body/waist/jump全保，负窗总<.146218141878、right<.143166428585，1/200 false。没有重复任何Riccati/projector/主体源传播或旧帽/Hessian格。
 
+### R133 / 同w0普通两源Hessian的实际完整改善（2026-11-14）
+
+[实际11门报告](results/R133-supplement-actual-complete-ordinary-only-cap-Hessian.md)：43618931236数学114.579596s，b1ffc217…；完整ordinary B<4.099766064e−8、C<3.706278030e−8，完整同w0add<1.348921723e−6。旧1341格tB/tC范数零重算，只新1977交集tθ，原完整未知feedback保持。该add须再经真cut及全频响应，非主目标完成。
+

@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 17:09:11 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 17:09:40 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则与同步
 
 仅 Rogerhu12/math-research-public；所有新数学代码仅公开 Actions。每结论独立推；非快进立即接新main/rebase再推至成功，不force。root管ref/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
-本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，16:20重试失败。根规则8暂只connector <100KB文本，禁二进制/大文件；先查size，新摘要≤60KB；API不冒称pull。runner长算每10min真pull、短child前后pull。root亲核43618269135于16:56:52拉到afadab246bd2ff5f20f938ab43ef1890f86b5c23，四次两README diff均空。终端恢复即回git。
-最新远端 main/两README blob 核：a7fa740ac1c26088a1bcef7e77ab46cdcd1f6929；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
+本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，16:20重试失败。根规则8暂只connector <100KB文本，禁二进制/大文件；先查size，新摘要≤60KB；API不冒称pull。runner长算每10min真pull、短child前后pull。root亲核43618931236于17:06:13拉到e1f98ab7effd9094a5373ebdbcf7c22299e2f109，四次两README diff均空。终端恢复即回git。
+最新远端 main/两README blob 核：ceb4cd61e1a2211901dfd4c287ec28fe92309e4b；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次H原9840B完整归档 notes/2026-11-14-handoff-before-ordinary-only-Hessian.md；此前归档链保全。open原档 notes/2026-11-14-open-before-actual-full-delta-root-graph.md。完整SHA/失败/源端口/零重算合同在各results和manifest；禁止重算已成数学。
 
@@ -26,7 +26,7 @@ repair-source43597921732/47门、全7721行/mean保。exactbump43610523058/10门
 同Z finite193 Green43616648792实际9门/13.443183s，nativeeb34e250…/4片。原6391ports/5970frames含腰原字节复用；负窗总<.184275419462，body<.003051713268、right<.181223706169。1/200 false；不是误差下界。原完整Green43601964129的916MB仅Actions。
 particular Hessian43616252389实际10门/1341local/1977交格，native9360555293…；加性<1.033484771e−5（旧HS×w0<1.372740655e−5）。准确Tw0、Parseval与divergence逐槽sup；0原physical重算，未知eZ−w0仍旧erroroperator。
 Hessian→cachedGreen43618269135已亲核7门/3.855568s成功；nativecd3dd5af…，process37e6e68f…、summarybfe332c6…；负窗总<.146218141878、right<.143166428585，body保持，1/200 false。仅6391原右profile重权，0新传播。
-156input ordinary-only Hessian已静态独核发布：旧152文件全部相同、复用9360的tB/tC范数，仅新tθ格积分；完整L8直接−e tθ+Zt，普通两源，新总add只与旧完整四源总add取min。原未知erroroperator不变，待actual。
+ordinary-only Hessian43618931236实际11门/114.579596s成功，nativeb1ffc217…，process989e72f6…、summaryf6640ebc…。1341原tB/tC范数复用，只新1977交集tθ；完整普通两源add<1.348921723e−6，旧1.033484771e−5；只完整总add取min，未知erroroperator不变。
 dB最大16父格的固定η0/1,4,16细分pilot五件已核推：仅336个明确新域、旧1977原direct行全复用，源/CI/合同/156pin已审；有限项/余项整组8源选择，六端点/14gain保，待actual。
 
 ## fullδ正区、真根图和相位
