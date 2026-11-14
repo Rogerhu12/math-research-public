@@ -815,3 +815,7 @@
 ### R150 附录：完整原生多项式模基及820维全部挠空间入口
 
 [完整证明与全量回执](results/R150-appendix-complete-native-polynomial-basis-and-finite-torsion-space.md)在184.148秒/512MiB内处理全部2195原来源，以常数单位交换/消元得到同一F31[s]模的1021行标准基，最高8次、总行次数716，保67860206步来源DAG及回原十七式链。全部挠元的唯一正常形次数≤7；准确的820维状态空间与13维最高层泄漏给整个挠子模W=交ker(CA^k)，其维数等于仿射最大子式gcd次数。尚未求W/九目标Ann，不能把716、前缀或有限域结果当作char0覆盖；∞仍须支付。
+
+### R297 附录：真实顶源的Green–Ward消逆与完整补空间Schur
+
+[完整证明](results/R297-appendix-physical-green-ward-cancellation-and-full-complement-schur.md)在同一物理V_a→U上构造T且TT*=A_U*L1L3⁻¹L1A_U；准确消去完整层Green为T=(4PHR*−G1PKR*)/6。固定无权源配对为ε(2B++A+A−⁻¹B−)/(√3p)，再利用乘积权中央矩阵的第一补空间行化成−εp J_q*Cinv_11/3。Cinv_11为整个补空间逆的压缩，上源A−与下源J+保留；共同正预算/统一κ仍开，没有删除投影或分别估计两个大项。
