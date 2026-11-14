@@ -1,0 +1,293 @@
+﻿2026-11-14T20:46:45.4713004Z Current runner version: '2.338.2'
+2026-11-14T20:46:45.4736043Z ##[group]Runner Image Provisioner
+2026-11-14T20:46:45.4736979Z Hosted Compute Agent
+2026-11-14T20:46:45.4737542Z Version: 20261103.629
+2026-11-14T20:46:45.4738240Z Commit: 15dbd9ccb5dbf34fae002b6ed1a2670f52df37bc
+2026-11-14T20:46:45.4738955Z Build Date: 2026-11-03T17:26:59Z
+2026-11-14T20:46:45.4739608Z Worker ID: {7c33286a-c815-4ba4-ba2c-0d8af23d8acc}
+2026-11-14T20:46:45.4740310Z Region: westus2
+2026-11-14T20:46:45.4740844Z Cloud: Azure
+2026-11-14T20:46:45.4741370Z ##[endgroup]
+2026-11-14T20:46:45.4742932Z ##[group]Operating System
+2026-11-14T20:46:45.4743527Z Ubuntu
+2026-11-14T20:46:45.4744045Z 26.04.1
+2026-11-14T20:46:45.4744607Z LTS
+2026-11-14T20:46:45.4745218Z ##[endgroup]
+2026-11-14T20:46:45.4746101Z ##[group]Runner Image
+2026-11-14T20:46:45.4746698Z Image: ubuntu-26.04
+2026-11-14T20:46:45.4747251Z Version: 20261111.196.1
+2026-11-14T20:46:45.4748497Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261111.196/images/ubuntu/Ubuntu2604-Readme.md
+2026-11-14T20:46:45.4750265Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261111.196
+2026-11-14T20:46:45.4751190Z ##[endgroup]
+2026-11-14T20:46:45.4752322Z ##[group]GITHUB_TOKEN Permissions
+2026-11-14T20:46:45.4754571Z Actions: write
+2026-11-14T20:46:45.4755168Z Contents: write
+2026-11-14T20:46:45.4756099Z Metadata: read
+2026-11-14T20:46:45.4756639Z ##[endgroup]
+2026-11-14T20:46:45.4758659Z Secret source: Actions
+2026-11-14T20:46:45.4759561Z Cache mode: write
+2026-11-14T20:46:45.4760416Z Prepare workflow directory
+2026-11-14T20:46:45.5112550Z Prepare all required actions
+2026-11-14T20:46:45.5164124Z Getting action download info
+2026-11-14T20:46:45.8650359Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-14T20:46:45.9729069Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-11-14T20:46:46.1463789Z Complete job name: root-publication
+2026-11-14T20:46:46.2210317Z ##[group]Run actions/checkout@v4
+2026-11-14T20:46:46.2211189Z with:
+2026-11-14T20:46:46.2211739Z   ref: c94558fdbbb320250c9af25688a979ce2eebbb69
+2026-11-14T20:46:46.2212415Z   fetch-depth: 2
+2026-11-14T20:46:46.2212988Z   persist-credentials: false
+2026-11-14T20:46:46.2213745Z   sparse-checkout: topics/invariant-subspace-problem
+.github/workflows
+
+2026-11-14T20:46:46.2214855Z   repository: Rogerhu12/math-research-public
+2026-11-14T20:46:46.2218864Z   token: ***
+2026-11-14T20:46:46.2219377Z   ssh-strict: true
+2026-11-14T20:46:46.2219912Z   ssh-user: git
+2026-11-14T20:46:46.2220393Z   clean: true
+2026-11-14T20:46:46.2220909Z   sparse-checkout-cone-mode: true
+2026-11-14T20:46:46.2221537Z   fetch-tags: false
+2026-11-14T20:46:46.2222054Z   show-progress: true
+2026-11-14T20:46:46.2222593Z   lfs: false
+2026-11-14T20:46:46.2223076Z   submodules: false
+2026-11-14T20:46:46.2223593Z   set-safe-directory: true
+2026-11-14T20:46:46.2224178Z   allow-unsafe-pr-checkout: false
+2026-11-14T20:46:46.2225096Z env:
+2026-11-14T20:46:46.2225782Z   PYTHONDONTWRITEBYTECODE: 1
+2026-11-14T20:46:46.2226358Z ##[endgroup]
+2026-11-14T20:46:46.4811798Z Syncing repository: Rogerhu12/math-research-public
+2026-11-14T20:46:46.4814834Z ##[group]Getting Git version info
+2026-11-14T20:46:46.4816215Z Working directory is '/home/runner/work/math-research-public/math-research-public'
+2026-11-14T20:46:46.4818010Z [command]/usr/bin/git version
+2026-11-14T20:46:46.4818679Z git version 2.56.1
+2026-11-14T20:46:46.4820803Z ##[endgroup]
+2026-11-14T20:46:46.4835875Z Temporarily overriding HOME='/home/runner/work/_temp/d9e75a91-f74b-401b-b1fb-33101f129b0f' before making global git config changes
+2026-11-14T20:46:46.4838410Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-14T20:46:46.4840806Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/math-research-public/math-research-public
+2026-11-14T20:46:46.4907462Z Deleting the contents of '/home/runner/work/math-research-public/math-research-public'
+2026-11-14T20:46:46.4921128Z ##[group]Initializing the repository
+2026-11-14T20:46:46.4926160Z [command]/usr/bin/git init /home/runner/work/math-research-public/math-research-public
+2026-11-14T20:46:46.5036258Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-14T20:46:46.5038435Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-14T20:46:46.5039675Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-14T20:46:46.5041042Z hint: call:
+2026-11-14T20:46:46.5041687Z hint:
+2026-11-14T20:46:46.5042355Z hint: 	git config --global init.defaultBranch <name>
+2026-11-14T20:46:46.5043105Z hint:
+2026-11-14T20:46:46.5044175Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-14T20:46:46.5045299Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-14T20:46:46.5046864Z hint:
+2026-11-14T20:46:46.5047755Z hint: 	git branch -m <name>
+2026-11-14T20:46:46.5048757Z hint:
+2026-11-14T20:46:46.5049825Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-14T20:46:46.5051251Z Initialized empty Git repository in /home/runner/work/math-research-public/math-research-public/.git/
+2026-11-14T20:46:46.5061046Z [command]/usr/bin/git remote add origin https://github.com/Rogerhu12/math-research-public
+2026-11-14T20:46:46.5116260Z ##[endgroup]
+2026-11-14T20:46:46.5117822Z ##[group]Disabling automatic garbage collection
+2026-11-14T20:46:46.5119181Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-14T20:46:46.5153001Z ##[endgroup]
+2026-11-14T20:46:46.5153948Z ##[group]Setting up auth
+2026-11-14T20:46:46.5160499Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-14T20:46:46.5217407Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-14T20:46:46.5852819Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-14T20:46:46.5882038Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-14T20:46:46.6103712Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-14T20:46:46.6131861Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-14T20:46:46.6345865Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-14T20:46:46.6386302Z ##[endgroup]
+2026-11-14T20:46:46.6387896Z ##[group]Fetching the repository
+2026-11-14T20:46:46.6395081Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --filter=blob:none --depth=2 origin c94558fdbbb320250c9af25688a979ce2eebbb69
+2026-11-14T20:46:47.1005996Z From https://github.com/Rogerhu12/math-research-public
+2026-11-14T20:46:47.1008430Z  * branch            c94558fdbbb320250c9af25688a979ce2eebbb69 -> FETCH_HEAD
+2026-11-14T20:46:47.1013987Z ##[endgroup]
+2026-11-14T20:46:47.1016027Z ##[group]Determining the checkout info
+2026-11-14T20:46:47.1018564Z ##[endgroup]
+2026-11-14T20:46:47.1020665Z ##[group]Setting up sparse checkout
+2026-11-14T20:46:47.1022626Z [command]/usr/bin/git sparse-checkout set topics/invariant-subspace-problem .github/workflows
+2026-11-14T20:46:47.1070083Z ##[endgroup]
+2026-11-14T20:46:47.1072524Z ##[group]Checking out the ref
+2026-11-14T20:46:47.1075146Z [command]/usr/bin/git checkout --progress --force c94558fdbbb320250c9af25688a979ce2eebbb69
+2026-11-14T20:47:01.2742254Z Updating files:   0% (1/3906)
+2026-11-14T20:47:01.2765884Z Updating files:   1% (40/3906)
+2026-11-14T20:47:01.2779544Z Updating files:   2% (79/3906)
+2026-11-14T20:47:01.2796342Z Updating files:   3% (118/3906)
+2026-11-14T20:47:01.2837734Z Updating files:   4% (157/3906)
+2026-11-14T20:47:01.2872302Z Updating files:   5% (196/3906)
+2026-11-14T20:47:01.2904495Z Updating files:   6% (235/3906)
+2026-11-14T20:47:01.2937379Z Updating files:   7% (274/3906)
+2026-11-14T20:47:01.2969805Z Updating files:   8% (313/3906)
+2026-11-14T20:47:01.3003763Z Updating files:   9% (352/3906)
+2026-11-14T20:47:01.3040397Z Updating files:  10% (391/3906)
+2026-11-14T20:47:01.3075268Z Updating files:  11% (430/3906)
+2026-11-14T20:47:01.3110572Z Updating files:  12% (469/3906)
+2026-11-14T20:47:01.3151745Z Updating files:  13% (508/3906)
+2026-11-14T20:47:01.3190063Z Updating files:  14% (547/3906)
+2026-11-14T20:47:01.3219050Z Updating files:  15% (586/3906)
+2026-11-14T20:47:01.3254700Z Updating files:  16% (625/3906)
+2026-11-14T20:47:01.3293815Z Updating files:  17% (665/3906)
+2026-11-14T20:47:01.3356938Z Updating files:  18% (704/3906)
+2026-11-14T20:47:01.3421241Z Updating files:  19% (743/3906)
+2026-11-14T20:47:01.3450703Z Updating files:  20% (782/3906)
+2026-11-14T20:47:01.3486119Z Updating files:  21% (821/3906)
+2026-11-14T20:47:01.3519755Z Updating files:  22% (860/3906)
+2026-11-14T20:47:01.3551644Z Updating files:  23% (899/3906)
+2026-11-14T20:47:01.3579604Z Updating files:  24% (938/3906)
+2026-11-14T20:47:01.3603493Z Updating files:  25% (977/3906)
+2026-11-14T20:47:01.3635707Z Updating files:  26% (1016/3906)
+2026-11-14T20:47:01.3671920Z Updating files:  27% (1055/3906)
+2026-11-14T20:47:01.3707091Z Updating files:  28% (1094/3906)
+2026-11-14T20:47:01.3730614Z Updating files:  29% (1133/3906)
+2026-11-14T20:47:01.3760868Z Updating files:  30% (1172/3906)
+2026-11-14T20:47:01.3784191Z Updating files:  31% (1211/3906)
+2026-11-14T20:47:01.3795487Z Updating files:  32% (1250/3906)
+2026-11-14T20:47:01.3814367Z Updating files:  33% (1289/3906)
+2026-11-14T20:47:01.3839382Z Updating files:  34% (1329/3906)
+2026-11-14T20:47:01.3857016Z Updating files:  35% (1368/3906)
+2026-11-14T20:47:01.3888616Z Updating files:  36% (1407/3906)
+2026-11-14T20:47:01.3917909Z Updating files:  37% (1446/3906)
+2026-11-14T20:47:01.3943049Z Updating files:  38% (1485/3906)
+2026-11-14T20:47:01.4018051Z Updating files:  39% (1524/3906)
+2026-11-14T20:47:01.4050395Z Updating files:  40% (1563/3906)
+2026-11-14T20:47:01.4081197Z Updating files:  41% (1602/3906)
+2026-11-14T20:47:01.4106445Z Updating files:  42% (1641/3906)
+2026-11-14T20:47:01.4136829Z Updating files:  43% (1680/3906)
+2026-11-14T20:47:01.4166777Z Updating files:  44% (1719/3906)
+2026-11-14T20:47:01.4499876Z Updating files:  45% (1758/3906)
+2026-11-14T20:47:01.4563761Z Updating files:  46% (1797/3906)
+2026-11-14T20:47:01.4592545Z Updating files:  47% (1836/3906)
+2026-11-14T20:47:01.4649771Z Updating files:  48% (1875/3906)
+2026-11-14T20:47:01.4673264Z Updating files:  49% (1914/3906)
+2026-11-14T20:47:01.4797743Z Updating files:  50% (1953/3906)
+2026-11-14T20:47:01.4818674Z Updating files:  51% (1993/3906)
+2026-11-14T20:47:01.4843453Z Updating files:  52% (2032/3906)
+2026-11-14T20:47:01.4867528Z Updating files:  53% (2071/3906)
+2026-11-14T20:47:01.5337577Z Updating files:  54% (2110/3906)
+2026-11-14T20:47:01.6379352Z Updating files:  55% (2149/3906)
+2026-11-14T20:47:01.6713827Z Updating files:  56% (2188/3906)
+2026-11-14T20:47:01.7173836Z Updating files:  57% (2227/3906)
+2026-11-14T20:47:01.8152481Z Updating files:  58% (2266/3906)
+2026-11-14T20:47:01.8827581Z Updating files:  59% (2305/3906)
+2026-11-14T20:47:01.8909408Z Updating files:  60% (2344/3906)
+2026-11-14T20:47:01.8949671Z Updating files:  61% (2383/3906)
+2026-11-14T20:47:01.9351338Z Updating files:  62% (2422/3906)
+2026-11-14T20:47:01.9602553Z Updating files:  63% (2461/3906)
+2026-11-14T20:47:01.9640335Z Updating files:  64% (2500/3906)
+2026-11-14T20:47:01.9892568Z Updating files:  65% (2539/3906)
+2026-11-14T20:47:02.0031305Z Updating files:  66% (2578/3906)
+2026-11-14T20:47:02.0129951Z Updating files:  67% (2618/3906)
+2026-11-14T20:47:02.0242450Z Updating files:  68% (2657/3906)
+2026-11-14T20:47:02.0549945Z Updating files:  69% (2696/3906)
+2026-11-14T20:47:02.0572454Z Updating files:  70% (2735/3906)
+2026-11-14T20:47:02.1052100Z Updating files:  71% (2774/3906)
+2026-11-14T20:47:02.1275490Z Updating files:  72% (2813/3906)
+2026-11-14T20:47:02.1760675Z Updating files:  73% (2852/3906)
+2026-11-14T20:47:02.1976668Z Updating files:  73% (2885/3906)
+2026-11-14T20:47:02.2136020Z Updating files:  74% (2891/3906)
+2026-11-14T20:47:02.2192052Z Updating files:  75% (2930/3906)
+2026-11-14T20:47:02.2273379Z Updating files:  76% (2969/3906)
+2026-11-14T20:47:02.2305123Z Updating files:  77% (3008/3906)
+2026-11-14T20:47:02.2342443Z Updating files:  78% (3047/3906)
+2026-11-14T20:47:02.2379835Z Updating files:  79% (3086/3906)
+2026-11-14T20:47:02.2409717Z Updating files:  80% (3125/3906)
+2026-11-14T20:47:02.2439256Z Updating files:  81% (3164/3906)
+2026-11-14T20:47:02.2471538Z Updating files:  82% (3203/3906)
+2026-11-14T20:47:02.2513863Z Updating files:  83% (3242/3906)
+2026-11-14T20:47:02.2547848Z Updating files:  84% (3282/3906)
+2026-11-14T20:47:02.2581853Z Updating files:  85% (3321/3906)
+2026-11-14T20:47:02.2619354Z Updating files:  86% (3360/3906)
+2026-11-14T20:47:02.2658687Z Updating files:  87% (3399/3906)
+2026-11-14T20:47:02.2689517Z Updating files:  88% (3438/3906)
+2026-11-14T20:47:02.2722530Z Updating files:  89% (3477/3906)
+2026-11-14T20:47:02.2755164Z Updating files:  90% (3516/3906)
+2026-11-14T20:47:02.2787318Z Updating files:  91% (3555/3906)
+2026-11-14T20:47:02.2818115Z Updating files:  92% (3594/3906)
+2026-11-14T20:47:02.2853130Z Updating files:  93% (3633/3906)
+2026-11-14T20:47:02.2885335Z Updating files:  94% (3672/3906)
+2026-11-14T20:47:02.2918120Z Updating files:  95% (3711/3906)
+2026-11-14T20:47:02.2948684Z Updating files:  96% (3750/3906)
+2026-11-14T20:47:02.2976382Z Updating files:  97% (3789/3906)
+2026-11-14T20:47:02.3007500Z Updating files:  98% (3828/3906)
+2026-11-14T20:47:02.3041959Z Updating files:  99% (3867/3906)
+2026-11-14T20:47:02.3046338Z Updating files: 100% (3906/3906)
+2026-11-14T20:47:02.3047221Z Updating files: 100% (3906/3906), done.
+2026-11-14T20:47:02.3677704Z Note: switching to 'c94558fdbbb320250c9af25688a979ce2eebbb69'.
+2026-11-14T20:47:02.3678368Z 
+2026-11-14T20:47:02.3678792Z You are in 'detached HEAD' state. You can look around, make experimental
+2026-11-14T20:47:02.3679958Z changes and commit them, and you can discard any commits you make in this
+2026-11-14T20:47:02.3680687Z state without impacting any branches by switching back to a branch.
+2026-11-14T20:47:02.3681106Z 
+2026-11-14T20:47:02.3681425Z If you want to create a new branch to retain commits you create, you may
+2026-11-14T20:47:02.3682245Z do so (now or later) by using -c with the switch command. Example:
+2026-11-14T20:47:02.3682695Z 
+2026-11-14T20:47:02.3682887Z   git switch -c <new-branch-name>
+2026-11-14T20:47:02.3683248Z 
+2026-11-14T20:47:02.3683494Z Or undo this operation with:
+2026-11-14T20:47:02.3683765Z 
+2026-11-14T20:47:02.3683962Z   git switch -
+2026-11-14T20:47:02.3684172Z 
+2026-11-14T20:47:02.3684594Z Turn off this advice by setting config variable advice.detachedHead to false
+2026-11-14T20:47:02.3685143Z 
+2026-11-14T20:47:02.3685853Z HEAD is now at c94558f ISP: prove fixed ninth unit-family denominator thresholds and all-budget raw obstruction
+2026-11-14T20:47:02.3750256Z ##[endgroup]
+2026-11-14T20:47:02.3798712Z [command]/usr/bin/git log -1 --format=%H
+2026-11-14T20:47:02.3823537Z c94558fdbbb320250c9af25688a979ce2eebbb69
+2026-11-14T20:47:02.3832802Z ##[group]Removing auth
+2026-11-14T20:47:02.3837219Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-14T20:47:02.3865912Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-14T20:47:02.4203118Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-14T20:47:02.4226005Z http.https://github.com/.extraheader
+2026-11-14T20:47:02.4233515Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-14T20:47:02.4329783Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-14T20:47:02.4656824Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-14T20:47:02.4682508Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-14T20:47:02.4993268Z ##[endgroup]
+2026-11-14T20:47:02.5187973Z ##[group]Run python3 topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-789f.py
+2026-11-14T20:47:02.5188850Z [36;1mpython3 topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-789f.py[0m
+2026-11-14T20:47:02.5224384Z shell: /usr/bin/bash -e {0}
+2026-11-14T20:47:02.5224755Z env:
+2026-11-14T20:47:02.5225148Z   PYTHONDONTWRITEBYTECODE: 1
+2026-11-14T20:47:02.5228021Z   GH_TOKEN: ***
+2026-11-14T20:47:02.5228335Z ##[endgroup]
+2026-11-14T20:47:04.4902007Z ISP_PULL_RECEIPT {"format": "isp-789f-actual-actions-pull-v1", "remoteCommit": "e62e1f56990f0d53673456281892af46ac3ae036", "beforeCommit": "af5d4aa7f1ca8c0f8bceb08c430f8bda203aa5f6", "utc": "2026-11-14 20:47:04 UTC", "actualPullRebaseSucceeded": true, "rulesUnchanged": true, "rulesGitBlobs": {"README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09", "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"}, "executionEnvironment": "GitHubActions", "runId": "43639282539", "runAttempt": "1", "workflowURL": "https://github.com/Rogerhu12/math-research-public/actions/runs/43639282539"}
+2026-11-14T20:47:05.8353986Z ISP_ROOT_PUBLICATION {"status": "pushed", "sourceCommit": "c94558fdbbb320250c9af25688a979ce2eebbb69", "publishedCommit": "328d1d25d3b784e62776b866e46cd630fbe85c5f", "runId": "43639282539", "runAttempt": "1", "lastRulesReadCommit": "e62e1f56990f0d53673456281892af46ac3ae036", "dispatches": []}
+2026-11-14T20:47:05.8568280Z ##[group]Run actions/upload-artifact@v4
+2026-11-14T20:47:05.8568649Z with:
+2026-11-14T20:47:05.8569045Z   name: isp-root-terminal-publication-43639282539-1
+2026-11-14T20:47:05.8569437Z   retention-days: 30
+2026-11-14T20:47:05.8569755Z   if-no-files-found: error
+2026-11-14T20:47:05.8570196Z   path: /home/runner/work/_temp/isp-root-publication-43639282539-1
+2026-11-14T20:47:05.8570625Z   compression-level: 6
+2026-11-14T20:47:05.8570973Z   overwrite: false
+2026-11-14T20:47:05.8571279Z   include-hidden-files: false
+2026-11-14T20:47:05.8571632Z env:
+2026-11-14T20:47:05.8571941Z   PYTHONDONTWRITEBYTECODE: 1
+2026-11-14T20:47:05.8572371Z   ISP_ROOTPUB_OUT: /home/runner/work/_temp/isp-root-publication-43639282539-1
+2026-11-14T20:47:05.8572823Z ##[endgroup]
+2026-11-14T20:47:06.0230633Z (node:2691) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-14T20:47:06.0231566Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-14T20:47:06.0282018Z With the provided path, there will be 3 files uploaded
+2026-11-14T20:47:06.0287327Z Artifact name is valid!
+2026-11-14T20:47:06.0287942Z Root directory input is valid!
+2026-11-14T20:47:06.4202379Z Beginning upload of artifact content to blob storage
+2026-11-14T20:47:06.4410711Z (node:2691) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-14T20:47:06.7564603Z Uploaded bytes 2142
+2026-11-14T20:47:06.8360709Z Finished uploading artifact content to blob storage!
+2026-11-14T20:47:06.8361512Z SHA256 digest of uploaded artifact zip is c79828bec585cfb59bc9bfe8a6510aca43d80de26f86c5a69544dfe16c617f2c
+2026-11-14T20:47:06.8363459Z Finalizing artifact upload
+2026-11-14T20:47:07.2217658Z Artifact isp-root-terminal-publication-43639282539-1.zip successfully finalized. Artifact ID 14130629908
+2026-11-14T20:47:07.2223185Z Artifact isp-root-terminal-publication-43639282539-1 has been successfully uploaded! Final size is 2142 bytes. Artifact ID is 14130629908
+2026-11-14T20:47:07.2224368Z Artifact download URL: https://github.com/Rogerhu12/math-research-public/actions/runs/43639282539/artifacts/14130629908
+2026-11-14T20:47:07.2436315Z Post job cleanup.
+2026-11-14T20:47:07.3274995Z [command]/usr/bin/git version
+2026-11-14T20:47:07.3318811Z git version 2.56.1
+2026-11-14T20:47:07.3358818Z Temporarily overriding HOME='/home/runner/work/_temp/fc8e4cd1-e6e7-4693-80d4-b6da484beb53' before making global git config changes
+2026-11-14T20:47:07.3359824Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-14T20:47:07.3365762Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/math-research-public/math-research-public
+2026-11-14T20:47:07.3403382Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-14T20:47:07.3437613Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-14T20:47:07.3795611Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-14T20:47:07.3844966Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-14T20:47:07.4195304Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-14T20:47:07.4224388Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-14T20:47:07.4718458Z Cleaning up orphan processes
+2026-11-14T20:47:07.5044720Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

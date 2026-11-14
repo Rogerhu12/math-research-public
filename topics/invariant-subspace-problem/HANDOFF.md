@@ -3,8 +3,8 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** e62e1f56990f0d53673456281892af46ac3ae036（2026-11-14 20:47:04 UTC，Actions run43639282539实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43639282539-1.json。
-- **最新规则读取（GitHub API，非实际pull）：** `af5d4aa7f1ca8c0f8bceb08c430f8bda203aa5f6`（2026-11-14 20:46:30 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** `e62e1f56990f0d53673456281892af46ac3ae036`（2026-11-14 20:47:04 UTC，Actions run43639282539/job132582940235实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `32392946763fbf457f962f8a624a265750ffdfb5`（2026-11-14 20:49:10 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -12,7 +12,7 @@
 ## 继续位置与执行
 
 普通ISP仍未完成。共享本地环境自17:57不可用，原路径保本次完整H；恢复后先实际pull。后续结论由API准备隔离提交，Actions终端实际pull/rebase/push主线；每次pull读两README差异，非快进立刻再pull/rebase/push。API准备与实际Git分别记，不混称。
-全部旧状态、条件与数据入口保[本次完整H](notes/2026-11-14-handoff-before-ninth-unit-family-789f.md)、[完整open](notes/2026-11-14-open-before-transverse-cut-budget-789f.md)及递归旧快照，未列条目保持原状态。
+全部旧状态、条件与数据入口保[本次完整H](notes/2026-11-14-handoff-before-physical-sandwich-789f.md)、[完整open](notes/2026-11-14-open-before-transverse-cut-budget-789f.md)及递归旧快照，未列条目保持原状态。
 
 原Haar A非零非紧、单射稠密拟幂零，W*(A)=B(H)、A′无非零紧；闭不变M均closure AM=M，普通循环性未知。正常有限原秩仍缺同一相容全链正距/真实下一尾上界；R289熵与R291指数秩未矛盾。边界M=kerT含e0，N=closure BM与N=M分开；graph保同w/未来/负前缀、初M3后M2、自然域及完整左右/裸费。
 
@@ -38,10 +38,10 @@
 - **[九目标全原式已成](notes/2026-11-14-r150-all-nine-original31squaredh0-mod31five-and-complete-related-second-789f.md)：** run43634830833/job132569235728，源20aa140b/数据6b525504；AX=31²h0 mod31⁵九列全部cost87，七新列每目标232133输出、两复用列227766输出失败0。七K4费用[86,87,88,87,87,88,87]，完整相关δ2秩1/幂1，基7004；七正解仅常数[30,19,30,15,27,14,17]，未用P。数学144.661655691秒。98结果47543037B、64恢复70634253B（28二进制/36文本含14cache）全入 notes/r150-augmented-seven-second-actions-789f/43634830833-1/，artifact14130166013。仅分母≤2的有限modp3来源，非char0/非必要两层。[F9全第一像归约](notes/2026-11-14-r150-ninth-augmented-single-first-relation-and-initial-scope-789f.md)已证只剩第9关系；旧1842方向全已落U9，第8复用K4_7003。[本轮入口](notes/2026-11-14-r150-ninth-first-interface-789f.md)已冻结：四artifact43输入，只新增z9/VQ及原modp6十列，共享300s/512MiB，正列全17继续；run43638830039/job132581549932已启动，源eaa240d9，数学63.738740979秒已成，第一像rank0/九列全受阻；结果push失败，三artifact已保并正在恢复。负仅保当前F9前两位，低位相关第二/第三像未付。
 - 原射影B≥85有限商、仿射315及∞torsion u⁹⁶/length≤745继续保旧证明；其余mean秩/高本质/自然幂、同一相容全链与普通ISP全部仍开。子问题完成接open，不在阶段报告或时长处结束。
 
-- **[实际左域/Z逆](notes/2026-11-14-actual-left-partial-zero-mode-gram-and-source-resolvent-budget-789f-next.md)：** 准确像压缩Gram与同源两逆已付，固定测试逆后高birth保留。[全未来预算](notes/2026-11-14-actual-low-test-full-image-inverse-bosonic-future-budget-789f-next.md)给完整boson右链总费≤C_m²k0(2+logd)²||f||²；双投影稿已用t=−Av锐化至C_m−1。原物理短旗/E_ret保留，全部公式见本次H快照。
+- [实际左Z/Gram](notes/2026-11-14-actual-left-partial-zero-mode-gram-and-source-resolvent-budget-789f-next.md)保准确像与逆后高birth；完整boson未来和同源双投影已付范围见本次H。以下物理投影夹逼进一步直接付主测试误差。
 
 - **[boson真实双投影](notes/2026-11-14-bosonic-future-actual-bare-full-projections-and-ordered-source-contractions-789f-next.md)：** 原真MP给M≤B≤G⁻¹，投影源βt=B⁻¹Mt、γt=GMt，正差保E_ret。t=−Av使总费≤(C_m−1)||f||²及同一good-top逐cut界；完整MP公式见本次H。未把M收缩换成L收缩。
 
-- **[两种最小化与角度源](notes/2026-11-14-actual-low-test-two-resolvents-angle-source-and-paid-flat-budget-789f-next.md)：** 同t的rbar=(L+M)⁻¹Lt、u=(L+G⁻¹)⁻¹Lt分别为boson/物理真核投影源；e=rbar−u满足(I+GL)e=(I−GM)rbar。原同一good-top已付μ(t−e)²和flat(e)²，网格总费≤[(C_m−1)/2+2]与2C_m。精确gap能量保μ(e)²；bare(e)与<Lr,e>仍开，固定m强收敛无移动窗口速率。
+- [boson两逆角度源](notes/2026-11-14-actual-low-test-two-resolvents-angle-source-and-paid-flat-budget-789f-next.md)的完整非交换式/精确三项gap保本次H；其boson差源与下条物理差源不同，不混用未付费。物理路线现由下条直接给无C_m预算。
 
-- **[物理joined递减投影](notes/2026-11-14-physical-joined-decreasing-projections-and-fixed-test-bare-budget-789f-next.md)：** M_q=K+H_hi,q=ker(Q_q(A+D))闭，P_Mq f支撑≤q+d，真源u_b=(L+B)⁻¹Lt。全cut Σbare(u_b)²≤d(2+logd)²||f||²。e_bf=u_b−u_f的原Xi总费≤4d[(2+logd)²+1]；<Lr,t−e_bf>由Xi(r)乘同窗bare/ordinary预算支付。μ(e_bf)及<Lr,e_bf>仍开，物理gap递减不提供移动窗口速率。
+- **[物理夹逼/同增量三费](notes/2026-11-14-physical-joined-sandwich-and-same-increment-three-fee-fixed-test-budget-789f-next.md)：** W_q=kerP_<qC递减、M_q=K+H_hi,q闭，V_(q+d)⊂M_q⊂W_q。u_b=(L+B)⁻¹Lt、u_f=(L+G⁻¹)⁻¹Lt的差e满足μ(t−e)²+Xi(e)²/2≤Δ_q，Δ为原下降左/上升真核投影同增量，网格总≤||f||²、全cut≤d||f||²，无C_m/log。e自动在真实首头负图；沿已付Z作Xi投影得ehat仍在Rrem，μ(t−ehat)²≤(1+2δ²)Δ、Xi(ehat)²≤2Δ。原同一good-top直接付误差；仅余真实<L rhat,ehat>，两费小不删左配对。

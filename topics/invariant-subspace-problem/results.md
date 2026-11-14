@@ -242,3 +242,7 @@
 ### 2026-11-14：P9∞固定自然图的分母门槛及下一原余的全预算判据（789f）
 
 [证明](notes/2026-11-14-r150-ninth-unit-family-two-denominator-threshold-and-raw-obstruction-789f.md)逐列支付P9∞的三位坐标与原来源carry：标准化后差除p的类是完整β_A(k)∈U9。七目标b9坐标估值恰2，其他项最低估值≥−1，且κ9 modp=(s−2)[K201−18K200+(5s+4)K199]≠0；所以若该固定族精确有解，其自然来源恰需两层31分母，pair6/9恰需一层。任何下一raw在Q/U9非零均排该族所有预算。此不排图外kernel降分母、不预认全部原特征零来源。新p6数据按真实回执另行登记。
+
+### 2026-11-14：原物理夹逼以同一投影增量支付测试差源三费和负图（789f）
+
+[证明](notes/2026-11-14-physical-joined-sandwich-and-same-increment-three-fee-fixed-test-budget-789f-next.md)给真实V_(q+d)⊂M_q⊂W_q，进而μ(t−u_b)²+bare(u_b)²≤||q_q−q_(q+d)||²。对e=u_b−u_f，两个正交投影增量及同一未来差的bare/flat投影给μ(t−e)²+Xi(e)²/2≤Δ_q；网格总≤||f||²、全cut≤d||f||²，无C_m、log或另选cut。准确正配对为<Le,t−e>=||h||²；e自动在原首头负图，联合已付旗的真正Xi投影保持剩余负图并支付固定测试误差。仅余真实<L rhat,ehat>在移动窗口上的比较，未得N=M。
