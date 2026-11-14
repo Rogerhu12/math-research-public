@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `3217ae4c7886deeb1a53d8cb333e66fa0a5e71a8`（2026-11-14 08:03:33 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `dd304ca09623e8aa3f0171b7812df270d727de3d`（2026-11-14 08:06:21 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`。旧临时树不在；丢失正常预对偶修正已重建 R272，丢失两异常位完整 MP 已重建 R273（148 有理例）。
@@ -29,7 +29,7 @@
 - **原 N=M：** R187/200付 M∩RanB^r⊂N；R239付 d≈log^(1/3)q 的完整合法窗、c>K*=3(16/770)^(1/3) 权核及真 D 尾常数 K*/2。无权 λ²=〈G⁻¹r,r〉须完整 Schur；Σ1/[ell(1+λ²)] 发散足，但无权增长仍未付。
 - **原 graph 接口：** M3初次、M2以后、同 w/真负图/完整左右费必须保。双宽有效 Keff≥e^(59d³/256)/(2^19d)、真实同余商测试族及主配对已付，固定测试局部 Gram O(Keff)、pure 深 jet 总费与普通右费继续。原连续尾 birth1 全高度条件数≤(t+1)^17、D1*旧列≤(h+2)^61S；birth≥2及 Γ跨birth仍开。完整公式/原链接在 open 和本次归档。
 - **R277：** 原连续尾全部 ℓ1 一孔行 κ_c 可下降零源商 iff c=λb，甚至模任意 K≤d−2 前缀亦同。非比例有完整 d−1 头泄漏；C=Σb³E 未压缩 graph 小范数不付商作用，需要带真实修复。
-- **R273/275：** 两异常位完整MP与[共同0–4阶矩](results/R273-appendix-shared-low-moment-normal-form-and-physical-cubic-bridge.md)、同源硬约束/真实桥已付；任意一位全高Schur与创新保留。两对角可继承，交叉仍须实际正块。首边准确三块 M(t)≥0；S1/S2 加旧下出生第二边足所有 t 的 SOS，S1/S2 一般未证。大添加位上左必要块、联合占据四项已付。
+- **R273/275：** 两异常位完整MP与[共同0–4阶矩](results/R273-appendix-shared-low-moment-normal-form-and-physical-cubic-bridge.md)、同源硬约束/真实桥已付；[8D多项式核](results/R273-appendix-eight-dimensional-aggregate-polynomial-gram.md)保完整逆/物理度量，正分母已付。任意一位全高Schur保留。两对角可继承，交叉仍须实际正块。首边准确三块 M(t)≥0；S1/S2 加旧下出生第二边足所有 t 的 SOS，S1/S2 一般未证。大添加位上左必要块、联合占据四项已付。
 - **R278：** 全birth真实两带Serre三阶/顶积分和加权迹身份已付；变化G_k度量的正性不免费给G1序。
 - **R279：** 全合法有限/无限ℓ²真MP给X_n≥I+(n/r)(X_r−I)；首边sδ≤1/(2√2)得c1。一般联合硬核平方能量仍缺，非Boolean仿射锐例不能代硬核。
 - **R281：** 真极强位把全部高度回传首边，全部birth首边/全height最优普适常数相同且≥1；八位例首比22801/43836>1/2。未证上界1。

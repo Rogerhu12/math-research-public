@@ -104,7 +104,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 **其他原边界接口。** 新[原连续尾birth1全高度顶桥](results/R271-appendix-original-birth-one-all-height-polynomial-first-return-anchor.md)对完整真幂逆先全逆后压K，给τ_t/(t+1)^17≤H_t^-1≤τ_t及全部旧列非交换乘积≤(h+2)^61 S_m H_(ℓ−1)；最高d无新列，D1*真实Θ锚费≤(d+2)^(61/2)√S_m，q/m一致。原正边网络/标量Newton没有外推为矩阵Newton；a≥2、Γ跨birth及无速率锚乘增长仍开。双宽商/负配对、深jet Schur、天然四块真重排等范围全保快照；两带不可免费取交，无权增长/指定回馈/pure继续。
 
 
-[两组＋一位全出生全高度](results/R239-appendix-two-weight-groups-one-exceptional-all-births-all-heights-strict-bound.md)的严格c1已闭。[R273](results/R273-two-exceptional-weights-complete-schur-recovery.md)恢复两组＋两异常位：出生一3D及2≤t≤min(q,L)的4D完整MP/单参数Schur，保两硬端；相邻矩阵序和高端其他出生仍开。[共同低阶矩/真实桥](results/R273-appendix-shared-low-moment-normal-form-and-physical-cubic-bridge.md)保0–4阶实际矩、同一源与硬端；不能由消元前标量序跳到矩阵序。
+[两组＋一位全出生全高度](results/R239-appendix-two-weight-groups-one-exceptional-all-births-all-heights-strict-bound.md)的严格c1已闭。[R273](results/R273-two-exceptional-weights-complete-schur-recovery.md)恢复两组＋两异常位：出生一3D及2≤t≤min(q,L)的4D完整MP/单参数Schur，保两硬端；相邻矩阵序和高端其他出生仍开。[共同低阶矩/真实桥](results/R273-appendix-shared-low-moment-normal-form-and-physical-cubic-bridge.md)及[8D多项式核](results/R273-appendix-eight-dimensional-aggregate-polynomial-gram.md)保同源/完整逆与硬端；正分母不代相邻分子正性。
 
 [R281 极强位全高度传输](results/R281-heavy-bit-height-transfer-and-sharp-universal-first-edge-lower-bound.md)把旧第n+1边回传至新第n边，保完整同源PSD块与有限强权阈值。全出生首边与全高度的最优普适常数相同；等权中央边迫该常数≥1，真实八位birth2首比22801/43836>1/2。一般上界1仍开；不能用强等权池压δ而省掉内部出生，真实密度只趋1/2上方。
 

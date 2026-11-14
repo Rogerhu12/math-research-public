@@ -655,3 +655,7 @@
 ### R273 附录：两异常位四维首边的共同低阶矩与真实桥
 
 [完整证明](results/R273-appendix-shared-low-moment-normal-form-and-physical-cubic-bridge.md)把全部合法高度的完整MP同源化到真实两组计数矩，并保首末硬约束；首边仅用0–4阶矩。旧两组加一位的三次桥与S1/S2物理度量明确写出，同一剪切使首Gram成为对角加秩一。q=L=2的严格c1给出准确R239来源，其他短边不以旧常数16冒充1；一般四维相邻正性仍开。
+
+### R273 附录：八维完整多项式核与四维共同整数源
+
+[完整证明](results/R273-appendix-eight-dimensional-aggregate-polynomial-gram.md)在真实计数Hilbert范数中去权聚合，全部合法高度先取八维多项式Gram逆，再压到同一四维整数primitive源。与原MP只差共同正标量及固定同余；逐行因子可移除但右端物理逆度量必须保留。q,L≥3首边的非负计数核付全部主分母严格正，全部短端的身份仍合法；相邻差分子尚未证明正。精确生成器保无余数消元及完整层核对。
