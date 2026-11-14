@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：f4a61c242e52683e761d634e630ecf2fb4991f06；2026-11-14 23:36:04 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 23:36:03 UTC仍无环境。最迟00:20再试。
+- 最近已读规则提交：edb67de8a646f2a5662a7dcfe3012a912109e63a；2026-11-14 23:37:26 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 23:37:02 UTC仍无环境。最迟00:20再试。
 - 仅Rogerhu12/math-research-public/main；逐结论提交已授权，禁强推/改历史。每小时实际pull，逐次核两README，仅读差异即执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只临时终端，不入文件/回复。12:35–21:05 API历史已接回；21:39断连后非强制API追加，恢复即实际pull。
@@ -16,13 +16,13 @@
 
 ## 已发布、归档与分工
 
-R1–363、R365–560、R562–616已登记；R364仍开，R561/617/618/619及deep后续进行中。
+R1–363、R365–560、R562–617已登记；R364仍开，R561/618/619/620及theta后续进行中。
 完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r616.md)、[open](notes/2026-11-14-open-before-r616.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
 
-- theta续R617两carry真实差测试与原norm8联合；R613已付真实交域/完整36与396二态/原T返回，全部native与规范测试差保持。
+- theta续简单极点完整补域/原中央；R617已付原norm8全环带与同native差首矩，实际反射回I1保全部补偿。
 - literature续R619完整第二坏带/原Newton双块；R616已付全首坏带与h=p中央端点，R615系数同余独立不借sigma整性。
 - deep续截止内同R forcing/全局边界；R612已付原全W_D带权物理核和窗口紧邻固定出口，不能代旧d2。
 - root续R618全addition分母与真实成本；R614已付高度二整窗/两后段界及完整Newton高尾，h=p端点保留。
@@ -42,7 +42,7 @@ R567[完整中央纠正](notes/2026-11-14-r567-native-versus-full-arithmetic-cor
 R594原9×20右逆的新q̃使同Dn的ρ/B/差v=n；六网格降Rn={Zunit,Q/r/c/d深n}。旧q/η/L3值不移，B质量/外矩形保留；R599完整E=β^-n(O+K)=T−Rn在新旧q间不变，T=J′S−6δJ′T。
 R601全Q两张量、Y一层/W四层负交换与15维谱保持：S/2、两参考、四外块全在，新E2312线0；S伴随不与切集交换。R605真实T=𝒞Rn+Hn+Cout，删固定F稀疏坏集才𝒞unit，相邻差回I1，不删Cout/七coset。
 R611全三sigma反射τ使τ*νflat=−νflat，真τRn在三域外；同深g=ℓτ−cτℓ消负三且负五/1+cτ全rayunit。τ不保π4，整(w_nℓ)τ及Fτ/Gτ/全部余补保持。
-R613同C两carry交域Xn={A,L深n,Hunit}，整36/396中心给K_A=X、K_H=−χX、K_L=−I，χ11=χ33保原模11。两重叠域经H连续整逆回T；native全D/E/G/Y/W移动另保。独占支准确为重叠域上的完整差测试，旧非零子管不代全域。原norm8 R3=(W−Y)/2续R617。
+R613同C两carry交域Xn={A,L深n,Hunit}，整36/396中心给K_A=X、K_H=−χX、K_L=−I，χ11=χ33保原模11。两重叠域经H连续整逆回T；native全D/E/G/Y/W移动另保。独占支准确为重叠域上的完整差测试，旧非零子管不代全域。R617原norm8 R=(W−Y)/2保同C两carry，完整偶深环带及真实差测试全付；首矩6Ωx²yσ⁸给简单极点P。两个全native环带提P，同深反射以epspole全rayunit回I1，完整Bpole/各单位cut/λκ保留，中央0不赋环带或P零。
 [固定CM单位](notes/2026-11-14-fixed-cm-polynomial-unit-density.md)只给固定λκ有限式的O(√XlogX)坏集；[负五Katz](notes/2026-11-14-original-negative-five-katz-point.md)仍root−、I1未获非零，不套p依赖负矩。
 
 ## 惰性全格、实际整目标与完整中央

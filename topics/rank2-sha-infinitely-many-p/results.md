@@ -497,3 +497,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [R612：原完整来源的带权物理核与固定结点出口](results/R612-original-full-source-weighted-kernel-and-fixed-nodal-exit.md)：整个原G0W_D在同一C_p中的模p核准确为权(6,1)阈p−78的原帽内理想；全列单位阶梯给饱和单射和真前缀空界，charge返回保D+1顶边界。同一结点的固定单位行恰在旧ell2窗口之后，排更长真前缀而不代截止内d2非零。
+
+
+- [R617：原norm8完整环带与负五简单极点行](results/R617-original-norm8-annulus-and-negative-five-pole.md)：原R轴保同C两carry及native差测试，完整偶深核给全部cap/ex环带；真实第一矩为6Ωx²yσ⁸，两个原环带准确提取完整极点总行。同深反射消负三并以全ray单位接I1，原中央、两native全环带及极点外域均保，未把局部单位移给总行。

@@ -241,7 +241,7 @@ R609三个原二次物理行给a⁶(Q11−3bQ44)+18ba³Q41+162bc4=5a/4；Gaussia
 **普通完整补偿与实际反射。** R585八条带/四深−3I/双S2，R590原六支q/π4及七实际W_n全κ/log/cut保持。R594新q̃原9×20右逆仅删固定D594，六网格降Rn={Zunit,Q/r/c/d深n}；旧q/η/L3局部值不移。R599同一无权Rn负三/五全级数及完整E=β^-n(O+K)=T−Rn在新旧q间不变。R601全五变量Y/W负交换与15维谱保S/2、两参考、四外块，新E2312线0；伴随不与切集交换。
 R605 T=𝒞Rn+Hn+Cout，显示固定F稀疏坏集删除后旧ray仍无穷且𝒞unit，相邻差回I1；Cout/七coset未赋零。R611全三sigma反射τ在原νflat为负；真τRn在三域外，同深ℓτ−cτℓ消负三、负五与总系数在全原rayunit。τ不保π4，所以Fτ/Gτ/七余类以及整(w_nℓ)τ的两补偿必须保持。三/四域外原积分联立仍留完整余补。
 
-R613同C两carry交域恰Xn={A,L深n,Hunit}；整36/396全中心/half期与原χ11=χ33给完整二态K_A=X、K_H=−χX、K_L=−I。两相邻实际重叠域经1−λ²单位的连续H逆回原T；native全D/E/G/Y/W另有显示移动。全独占支=同一重叠域上真实差测试，旧非零子管仅在独占支、不代总积分。R3=(W−Y)/2为旧norm8并与A/H/L正交。**R617继续：** 同一native差测试/原偶深及全部独占余补，未给第二态或规范外的行赋中央零。
+R613同C两carry交域恰Xn={A,L深n,Hunit}；整36/396全中心/half期与原χ11=χ33给完整二态K_A=X、K_H=−χX、K_L=−I。两相邻实际重叠域经1−λ²单位的连续H逆回原T；native全D/E/G/Y/W另有显示移动。全独占支=同一重叠域上真实差测试，旧非零子管仅在独占支、不代总积分。R3=(W−Y)/2为旧norm8并与A/H/L正交。R617完整norm8偶深核保同C两carry，原native/规范差准确写为两层环带与全部极点矩；首矩来自6Ωx²yσ⁸=−6ΩΘf1，保全部q/λκ/单位cut。两个真实全native环带提取P至p^(4m+2)，新三深矩形上的原反射消I3，epspole全原rayunit，准确以原T、A_(2n)、A_(2n+1)、完整Bpole回I1 modp^(4n)。**继续：** 简单极点全补域/原四unit及中央联系；原j0仅令T0，环带、P、Bpole未赋零，旧非零管不移新矩形。
 
 [固定CM单位](notes/2026-11-14-fixed-cm-polynomial-unit-density.md)仅用于固定λκ有限式；[负五Katz](notes/2026-11-14-original-negative-five-katz-point.md)保完整角色/θ³尺度/固定c1坏集，裸反射仍root−，不能计数p依赖I1。[2026文献](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)未新增固定来源跨p非消失输入。
 
