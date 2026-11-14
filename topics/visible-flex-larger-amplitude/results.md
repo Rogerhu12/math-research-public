@@ -439,3 +439,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - **R226（已证明，条件定理）**：[因果解析管的存在、同场识别与参数连续性](results/R226-causal-analytic-tube-existence-and-identification.md)。完整全频严格入盒、因果前缀/截频稳定与正解析余宽给Galerkin留管、无限维存在及局部解析唯一性，无需全区间收缩；当前未知高联合盒与完整源仍未付。
 
 - **R227（已证明，条件定理）**：[固定度量下Hermite接缝与一般参考浸入的曲率预算](results/R227-hermite-seam-general-reference-hessian.md)。近似等距基底的完整向量Hessian/切向费用显式保留，并给省略它的无界曲率反例；同一Hermite基η≤17ellK/8、ζ≤10K，含完整连续常数证明。真实tail数据、全局reach和同g精化仍另付。
+
+- [R238. 由平面局部胚识别弱标记](results/R238-planar-germ-marker-rigidity.md)：已证明条件几何定理；含反射全等及欧氏商Hausdorff正性，不把未完成几何输入当已满足。

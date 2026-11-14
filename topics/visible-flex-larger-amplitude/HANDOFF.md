@@ -47,4 +47,4 @@ R236：λ=6/5全32核准确G≈.96/rho_min>.1661，条件球外保持证明完�
 
 优先新球核心正Gauss匹配及完整闭合；同时消费同半步真实Newton和RK48/源分区精化。接受后立即原审计、锁g精化、全闭/全t几何，并继续增幅。完整证明直接results，数值/失败如实notes；本轮直接公开授权已生效，逐结论普通push并使用本公开仓库Actions。
 
-规则同步记录：2026-11-14T17:12:33+08:00 实际pull --rebase成功；双README自6c3e21dee6a91ed44a251ef1a996bf6b3bb5a654无变化，已读提交 c2eafa93139e8fc042beffd65de575956135d3f3。
+规则同步记录：2026-11-14T17:14:55+08:00实际pull --rebase成功；双README自c2eafa9无变化，已读提交 05e0f9795f53c8ae415c30d44ce1dfbac16cf8ae。

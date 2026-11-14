@@ -209,6 +209,30 @@ def main():
                          latest_accepted_file=str(last_accepted), latest_accepted_end=record["end"])
             write(status_path, state)
             print(json.dumps(dict(event="finite-BVP-accepted", **record)), flush=True)
+            postprocess = [
+                ("core", [sys.executable, "-u", str(HERE / "geometry_20261114_core_certificate.py"),
+                          "--accepted", str(last_accepted), "--out", str(stage / "core-certificate.json")]),
+                ("physical-field", [sys.executable, "-u", str(HERE / "geometry_20261114_material_quintic_readout.py"),
+                                    "--input", str(last_accepted), "--angles", "1024", "2048",
+                                    "--radial-subdivisions", "2", "4",
+                                    "--out", str(stage / "material-quintic.json")]),
+            ]
+            record["postprocessing"] = []
+            for label, post_command in postprocess:
+                state.update(phase="postprocessing-" + label)
+                write(status_path, state)
+                post_code = run(post_command, stage / (label + ".log"), deadline)
+                record["postprocessing"].append(dict(kind=label, returncode=post_code, command=post_command))
+                if post_code:
+                    state.update(phase="postprocessing-failed")
+                    exitcode = post_code
+                    write(status_path, state)
+                    break
+            if any(row["returncode"] for row in record["postprocessing"]):
+                break
+            record["postprocessing_complete"] = True
+            state.update(phase="accepted-open-prefix-with-physical-readout")
+            write(status_path, state)
             # Each stage's final field and latest Newton snapshot are sufficient
             # for restarting; obsolete local factors are reproducible scratch.
             scratch = work / ("qr-" + str(index).zfill(2))
