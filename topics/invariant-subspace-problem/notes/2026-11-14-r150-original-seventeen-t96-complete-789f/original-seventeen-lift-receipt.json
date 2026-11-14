@@ -1,0 +1,106 @@
+{
+  "format": "r150-original-seventeen-t96-lift-run-v1",
+  "field": 31,
+  "status": "completed",
+  "sourceCoefficientSHA256": "b60b747fabff6796d79135391fa1e53d29cd91b70f9be6c88dc863242f802a9c",
+  "sourceCoefficientReceiptSHA256": "846de2defbc72c0c55e1fcabafd4881299a44f3ee7f5a3056b62191782a951f4",
+  "normalFormReceiptSHA256": "ba964ad1652f88ce85a5540c03c7b02273a140b48954edbdb453378abb75154b",
+  "modelSHA256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+  "normalFormInputSHA256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+  "dagSHA256": {
+    "forward.bin": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+    "backward.bin": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f",
+    "reduction.bin": "e977b75f618f30d00fd4edca3bdcadba1e5553a956bf4d781ee45df0d15c1e8b"
+  },
+  "originalCommonDenominator": "23366320238786911411830138211362846399922176000",
+  "originalConstantRowContents": [
+    "6191736422400",
+    "12383472844800",
+    "6191736422400",
+    "6191736422400",
+    "3095868211200",
+    "6191736422400",
+    "6191736422400",
+    "6191736422400",
+    "3095868211200",
+    "30958682112000",
+    "3095868211200",
+    "48372940800",
+    "48372940800",
+    "6191736422400",
+    "193491763200",
+    "154793410560",
+    "773967052800"
+  ],
+  "originalDenominatorResidue": 5,
+  "originalContentResidues": [
+    20,
+    9,
+    20,
+    20,
+    10,
+    20,
+    20,
+    20,
+    10,
+    7,
+    10,
+    5,
+    5,
+    20,
+    20,
+    16,
+    18
+  ],
+  "coefficientDegreeBound": 136,
+  "maximumProductDegree": 146,
+  "cppSHA256": "96153b31e07ec509c72fa9d06d0ef37ab80b7b13f4dd44dccb1d55ef2f5cd531",
+  "runnerSHA256": "e01b291617cf7c53e24a16119da6d5edb4d82953d850e7a5882d23df4ea164c3",
+  "arithmeticHeaderSHA256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+  "compileOptions": [
+    "-O2",
+    "-std=c++17"
+  ],
+  "secondsLimit": 60,
+  "memoryMiBLimit": 512,
+  "outputs": {
+    "original-seventeen-coefficients.bin": {
+      "bytes": 4965619,
+      "sha256": "8cffd971d8bd694a407c59e7f2e5912b7bdf29b421df2a0c14f82456790e0b06",
+      "gzipBytes": 3166472,
+      "gzipSHA256": "e546758b473b8f12c1307799eb71a91684fac37f751360b9cd8e68c1cc6dd273",
+      "gzipFile": "/tmp/isp-original17-t96-output-789f/original-seventeen-coefficients.bin.gz",
+      "storage": "repository-sized-gzip"
+    },
+    "metadata": {
+      "file": "/tmp/isp-original17-t96-output-789f/original-seventeen-coefficients.json",
+      "bytes": 1154,
+      "sha256": "7685d2e3318a96075c74c6c9db80195fe812b0cb2bdbc7b3427d2c502e1e779b"
+    }
+  },
+  "binarySHA256": "14d2b31712d3f6d4798097ca58d73938ed0c14ff823414ad16c67380618402f9",
+  "lastProgress": {
+    "status": "full-original-seventeen-lift-complete",
+    "field": 31,
+    "maximumCoefficientDegree": 135,
+    "fullOriginalSeventeenEquationIdentity": true,
+    "fullOriginalMacaulayIdentity": true,
+    "originalRowScaleTransportVerified": true,
+    "nonzeroRawRows": 5435,
+    "nonzeroCoefficients": 4452535,
+    "elapsedSeconds": 18.119
+  },
+  "exitCode": 0,
+  "elapsedSeconds": 18.140491812999244,
+  "nativeStatistics": {
+    "status": "full-original-seventeen-lift-complete",
+    "field": 31,
+    "maximumCoefficientDegree": 135,
+    "fullOriginalSeventeenEquationIdentity": true,
+    "fullOriginalMacaulayIdentity": true,
+    "originalRowScaleTransportVerified": true,
+    "nonzeroRawRows": 5435,
+    "nonzeroCoefficients": 4452535,
+    "elapsedSeconds": 18.119
+  }
+}
