@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：d1782ee42a5477e24d9c0bae24e84683364512cc；2026-11-14 09:19:10 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：90f349ad917a9f1eade0c29ab7e3f9c557ba335e；2026-11-14 09:37:03 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。02776e4cd9e08c608f6c806bd1095b3d86453eb4持续执行规则、41bd74e09ab69b38abb61d66c4339a12f0fb7de5日志规则已读；只写课题log，每轮≤5行，不写/归档根LOG。
@@ -14,8 +14,8 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–464、R467已登记，R364仍开。R235/R237丢失检查点已重做推送；迁移时未推R437/R438与全部计算都已恢复发布。完整提交逐条见课题log；最近R463=f4571c6418d6、R467=af7488b93ded，R464=b4f22359；R467混j补充本次登记。
-当前只在`/workspace/scratch/4fe3fb9f2a50/math-research-public`的main工作，旧库只读。R460时磁盘满已清迁移前废弃临时repack，完整文件/提交未删。各代理仅写各自证明/脚本；root统一元数据和逐条commit/push。theta续共同C29真双S/T关系（R465）；literature续固定2同源的正μ6局部身份（R466）；deep续高径向次数/真修正像，R467混j扩展已登记，续实际高b仿射修正像。
+R1–363、R365–464、R467、R470已登记，R364仍开。R235/R237丢失检查点已重做推送；迁移时未推R437/R438与全部计算都已恢复发布。完整提交逐条见课题log；最近R463=f4571c6418d6、R467=af7488b93ded，R464=b4f22359；R467混j补充=90b8d60a；R470本次登记。
+当前只在`/workspace/scratch/4fe3fb9f2a50/math-research-public`的main工作，旧库只读。R460时磁盘满已清迁移前废弃临时repack，完整文件/提交未删。各代理仅写各自证明/脚本；root统一元数据和逐条commit/push。theta续共同C29真双S/T关系（R465）；literature写固定2来源完整局部身份（R466，E2312）；deep付第三真实中央高轴及修正格（R468）；root已写新E2312普通/惰性完整Sha桥R469，待R466登记后单独推。
 
 ## 完整目标、真实来源和历史恢复
 
@@ -36,6 +36,8 @@ R458原六行EΓ=aA+sB+C保全部边界，Z深首阶5、c深首阶1；S零时双
 R463 q_frame=17(δζδ−ζ)核心−λ[π0]，奇C核心−λ[κ]。A=barπ0^n、N=p^n，u_A=δ^(1−N)Θ(Az)/Θ(z)^N，Aq(Az)−Nq=17R_A；独立q⊗C大carry b_n=(N/A³−(−1)^n/A)G−17R_A C/A³，G=S−a_C H。R_A C至少2N−29真极但原点整有界；W=R_A C(Az)全纯degree34N、通常étale全迹0。Norm u_A=1和O处−(N−1)log3/2由其余全部支补偿；式40保W中央的真实非齐次项及p^n卷积尾，不赋origin中央零。
 
 R464固定δ另有非恒范数：uδ=−(X+4b)/(3X)，Rδ=−24by/[x(X+4b)]，Normδuδ=−X/(4b)。A_C=δ^−1Rδ Cδ全纯degree102，完整迹6(y/x)C∈S34。18维真CM7矩阵N7给两个来源各15谱；P=(I+N7^6+N7^12)/3原算术投影见式26，三线就是Sδ/H3δ/H5δ，另外12谱质量逐个非零。gπ=g7^9 mod204加真Sδ锚付whole K102=−N7^9；A正/负core质量a_C/−a_C，完整单位质量−2λa_C为unit。PiS A13=−667Sδ/4242、PiS A15=−1279Sδ/6720，故对应完整中央与JS′等价；参考尺度logδ与外谱中央必须保留。新坏整数已在固定δ脚本输出，不将新源质量当S导数。
+
+R470原R414 A136经whole18项Q=(I−ωN19)Σ(j=0..17)ω^jN7^j/36精确为13Snew/90，Snew为首z6=1的degree136有理新线。原mixed F2/F3投影严格±4576δ Snew⊗B/81；每一CM支完整theta相位、第一单位测试〈a〉^−du/a及质量log保留，B仍4态。原S/T双零没有赋A或新线零；新线曲线身份及Sha桥由R466/R469接续。
 
 ## 当前惰性完整格与真正提升
 

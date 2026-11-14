@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R470：原Riemann负来源到新谱线的完整投影与单位域运输](../results/R470-original-riemann-negative-source-and-explicit-new-line.md)：原A136经完整18项CM投影准确为13Snew/90；全部真实纤维、第一单位测试尺度及第二B四态保留。两原mixed项分别回±4576δ Snew⊗B/81，不从旧S/T零赋新增中央零。
+
 - [R464：固定δ除法来源的全算术投影与普通核心](../results/R464-fixed-delta-division-source-full-arithmetic-projection-and-core.md)：真实非恒范数−X/(4b)、完整三支迹及两固定degree102来源全付；18维CM7精确给15谱和原S/H3/H5投影。当前ray whole K102=−N7^9，完整单位质量为unit，保12外谱和参考尺度log，未以质量代中央非零。
 
 - [R467：全部tame分支接触与原全因子次数障碍](../results/R467-tame-branch-contact-and-all-factor-degree-barrier.md)：去掉横截与单因子假设，原ODE整数幂共振及完整Hensel判别式给任意接触因子有效界；全部小次数因子、多分支与重数不能替代所需高径向次数。全一次因子统一p≤138D+77，任意真原第二核也适用。补充已保原混j全部列，N=17D+36J<p时原Theta一次界p≤234D+480J+77，仍保临界高次数。
