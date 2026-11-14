@@ -49,4 +49,4 @@ R240固定共同材料g后冻结全部p*/scalar/尾帽/区间/t，释放全core�
 
 request10–15全QR/band/bridge失败无接受，完整原回执在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure；不盲加点/只抬1200。R238–R266完整证明与假设见results.md，无机器jet新门；R259备用小核诊断冻结未调度。旧A幅度.063<.2；RK24/48/三mesh/2157568空间对与旧GW f8/16/48已付封存，不重跑。43提交/geometry26/strong90/GW35已恢复，strong R6失败/raw未全迁；历史见notes，绝不读private。
 
-规则同步记录：2026-11-14T15:29:37.080168+00:00 实际pull --rebase成功；双README自4bce1f72无变化，已读提交 e9a0c2560f5480f6e059f7c6a526584ee055d2a8。
+规则同步记录：2026-11-14T15:32:07.837381+00:00 实际pull --rebase成功；双README自e9a0c256无变化，已读提交 45aa746ffe9e3e9e94316df719fbe98e36015402。
