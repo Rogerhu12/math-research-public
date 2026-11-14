@@ -30,7 +30,7 @@ request10/run43590496434/sourceeef66c97（11:32:21Z）仅coupling112，已failur
 
 T96 anchor已完成：run43582043166/artifact14109122474，805.484s、全27840 J；其J/ready差和条件性见原note，不重跑。seeded_zero_tail_client七件strict bundle只复用同M/N/source/config/capacity/ready/rawState的exact零H且audit=False首响应，worker仍初始化；任何新H/audit=True真求。112已绑定自己的实际目录，不能用96替代。
 R239连续均值唯一/单SE2六jet是条件定理，有限DFT不自动满足。physical已含z0，不再加旧A mean；φ有限频可含无限θ谱。材料包必须读取真实完整scalar schema及全p*/supports；新场要自己的实际最终H尾。large_core_saved_prefix/closed_assembly已支持完整mean、单SE2、全角cut0/1/2jet修补；v3 dispatch由geometry接续。core witness也随SE2变，G≈.96不能直接冒新像距离。
-R240：材料g=ds²+a(s)²dθ²与core c无关。设计定型后冻结完整a(s;p*)/尾帽g/区间/t范围，释放全部core，K0/k0/T=M，增广4M+2（左3M+2/右M）同g精化。先按原design维数/p*/支持重建scalar，再升field modes；新H实际重算不padding旧H。Ntail>8M，帽中心固定图册。尚无新完整DN接受场。独立same_metric_profile/prepare/response/full_dn四入口已备：v4永久嵌套原v3完整p*及canonical SHA，K=k=0、450/514维，真parent及final-audit/config逐字绑定；尚未运行，命令见same-metric-refinement-executable-interface note。
+R240：材料g=ds²+a(s)²dθ²与core c无关。定型后冻结完整a(s;p*)/尾帽g/区间/t范围，释放全core，K0/k0/T=M、增广4M+2；先按原design重建scalar再升M，新H真重算。Ntail>8M，帽中心固定图册。same_metric_profile/prepare/response/full_dn及saved_prefix/readout/material_tail_packet/closed_assembly/after_accept均已接v4，永久嵌套首v3完整p*与canonical SHA，K=k=0、450/514维，真parent/final-audit/config逐字绑定；尚无v4数值。CLI见same-metric-refinement-executable-interface及same-metric-physical-consumers两note。
 
 ## 已完成旧基准及当前几何工具
 
@@ -39,12 +39,13 @@ R240：材料g=ds²+a(s)²dθ²与core c无关。设计定型后冻结完整a(s;
 R248已证有限C²相位强连续（无需C³）、准确反射三parity、全t metric/κ归约；未标记reach可一次空间证据，marked仍付R24/R11，真实held帽扰动仅损A。
 R249已证独立共享节点入口规范形：只将首节点完整z值/XY一导/z二导置零，变化限首单元，精确反射C²；完整cut九jet/mean/H/SE2不变。给有理Bernstein/材料角九jet差及operator/曲率代价；实际修补预算待成功场Actions，不改accepted。inlet_parity_normal_form支持v3/v4及复用complete-4尾读出；新plan须新heights，不能混旧网格。
 R250证明完整正密度对称换角的连续P及偶数N>4M精确DFT非mean方块det>0；不给条件数或全DN可逆，不能把数值小奇异值直接称精确投影丢维。
+full_state_continuous_cover已接真正v3/v4完整位置/法向及R249同一definition，恢复已记录唯一SE2；R241空间门逐字保留，完整文件SHA链锁定。K/metric/误差包络仍外部条件，未数值运行；CLI见其interface note。旧held定位硬编码A，消费新packet还须独立路径适配。
 R238/R242为含反射非全等及精确warped角解析无平片条件；R243真9246片只付共享C²规范形，不自动付全seam/δE；R246旧.984三分量<1e−6、直接operator仅<2e−6。新场均须自己的输入。
 旧Aκ8.3455143峰在prefix、tail≈8非新尾必要界；Gauss样点仅约3.965尺度。W/D/K窗口、一次尾帽高度和G不等于整面witness，见tail-curvature-and-diameter-design-window note。
 
 ## 保全及接续
 
 request05—09全成功；10真实coupling112失败待诊断。准备/pending非接受；v4 same_metric_saved_prefix已接物理API。closed wrapper已修public_asset两条绝对路径；R249精确入口构造已付，其实际metric/κ与全局几何仍待新接受场。
-旧geometry26件/strong90件/GW35件均逐SHA保全，各recovery-manifest是历史身份，不冒本轮Actions。strong旧H审计确完成，但R6磁盘SIGTERM143无接受步、raw分块未全迁，外部只读索引在manifest；不复活旧支。公开源78件匹配原91清单，只从公开仓取，无private secret。临时自有transport分支只助大blob普通推送，main繁忙则持续rebase重推，无force。
+旧geometry26/strong90/GW35件已逐SHA保全；manifest是历史身份。strong R6磁盘SIGTERM143无接受步、raw未全迁，旧支封存。公开源78件匹配原91清单，不读private；自有transport分支只助大blob普通推送，无force。
 
 规则同步记录：2026-11-14T11:42:33.959712+00:00 实际pull --rebase成功；双README自d928acf无变化，已读提交 ed0ac16e7275e39641bdba84db320661d7b479b8。

@@ -408,3 +408,7 @@ T112实际13件已bot归档；详记七件strict缓存SHA、全部跨job源/配�
 ### 2026-11-14 11:42 UTC — R249 exact local inlet parity normal form
 
 完整R249与独立v3/v4入口直接登记：首节点完整z值/XY一导/z二导投影给精确共享Hermite反射C²，仅改首单元，切口九jet/mean/实际H/共同SE2不变。完整有理修补差、operator及条件曲率成本明确，不伪造新accepted；接口可复用原complete-4尾读出但新plan须新heights。coupling112已真failure，22件artifact已取回，正按真实QR/linear/回溯/trace定位后继续。
+
+### 2026-11-14 11:44 UTC — complete frozen-metric physical consumers and full-state spatial interface
+
+四个独立v4消费者绑定冻结首v3完整scalar/p*身份、真实接受场及其自身尾，沿用原读出/全mean/单SE2/完整cut九jet算法；不悄改入口。独立full_state_continuous_cover按实际v3/v4与R249同一definition直接读完整中心/子点/法向，恢复记录SE2，原R241空间及直径/marker门逐字保留。静态AST/源接口检查通过，尚无新数值，所有连续包络仍外部条件；原held旧A定位待新packet适配。
