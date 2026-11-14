@@ -1,0 +1,215 @@
+{
+  "status": "exact_R44_static_port_implementation_check_no_optimization",
+  "task_complete": false,
+  "source_result": "topics/visible-flexible-closed-surface/results/R44-explicit-flexible-ruled-saddle-annulus.md",
+  "script_sha256": "cc55588ce8a366b47e2c2fd8f87d64749e67cf8f686615ab76be882193e12e42",
+  "identity": {
+    "profile": "public_R44_static_ruled_saddle",
+    "scale": 0.24,
+    "cut_s": 0.012,
+    "rotation_radians": 0.0,
+    "spherical_length_over_2pi": 2.912354692121886,
+    "metric_two_jet": [
+      0.6998382871319029,
+      0.14543605301992996,
+      12.089447466328345
+    ],
+    "halfturn_matrix": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    ],
+    "within_R44_proved_embedded_strip": true,
+    "unit_revolution_reference_inlet_slope_admissible": true,
+    "closed_surface": false,
+    "round_collar_constructed": false,
+    "finite_amplitude_ratio_certified": false,
+    "whole_surface_reach_certified": false
+  },
+  "metric_errors": [
+    {
+      "s": -0.012,
+      "E": 1.5543122344752192e-15,
+      "F_over_a": 9.121796433511589e-16,
+      "G_over_a2": 1.3322676295501878e-15
+    },
+    {
+      "s": 0.0,
+      "E": 1.5543122344752192e-15,
+      "F_over_a": 7.346262777763751e-16,
+      "G_over_a2": 1.1102230246251565e-15
+    },
+    {
+      "s": 0.012,
+      "E": 1.5543122344752192e-15,
+      "F_over_a": 7.039647247601334e-16,
+      "G_over_a2": 1.1102230246251565e-15
+    }
+  ],
+  "second_fundamental_form_errors": [
+    {
+      "s": -0.012,
+      "M_error": 4.440892098500626e-15,
+      "N_error": 2.3381130057874235e-15,
+      "K_error": 5.3290705182007514e-14
+    },
+    {
+      "s": 0.0,
+      "M_error": 4.440892098500626e-15,
+      "N_error": 2.3330740383585993e-15,
+      "K_error": 5.3290705182007514e-14
+    },
+    {
+      "s": 0.012,
+      "M_error": 3.9968028886505635e-15,
+      "N_error": 2.3592239273284576e-15,
+      "K_error": 4.618527782440651e-14
+    }
+  ],
+  "shape_ranges": [
+    {
+      "s": -0.012,
+      "M_range": [
+        -2.908721060398604,
+        -2.908721060398596
+      ],
+      "N_range": [
+        -1.462901743130384,
+        1.462901743130384
+      ],
+      "sample_max_abs_principal_curvature": 5.909894883541576,
+      "coordinate_min": [
+        -0.680194076244404,
+        -0.7102463321288833,
+        -0.028169380195199586
+      ],
+      "coordinate_max": [
+        0.6568820496313444,
+        0.7102463321288832,
+        0.02816938019519958
+      ]
+    },
+    {
+      "s": 0.0,
+      "M_range": [
+        -2.9123546921218906,
+        -2.912354692121883
+      ],
+      "N_range": [
+        -1.461076537499947,
+        1.4610765374999468
+      ],
+      "sample_max_abs_principal_curvature": 5.922170330066768,
+      "coordinate_min": [
+        -0.668194076244404,
+        -0.7098858976004682,
+        -0.019403321358642586
+      ],
+      "coordinate_max": [
+        0.668194076244404,
+        0.7098858976004682,
+        0.019403321358642582
+      ]
+    },
+    {
+      "s": 0.012,
+      "M_range": [
+        -2.9087210603986033,
+        -2.9087210603985962
+      ],
+      "N_range": [
+        -1.4629017431303841,
+        1.462901743130384
+      ],
+      "sample_max_abs_principal_curvature": 5.909894883541577,
+      "coordinate_min": [
+        -0.6568820496313446,
+        -0.7102463321288833,
+        -0.028169380195199583
+      ],
+      "coordinate_max": [
+        0.680194076244404,
+        0.7102463321288832,
+        0.02816938019519958
+      ]
+    }
+  ],
+  "R6_complete_central_second_jet_halfturn_errors": [
+    {
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "error": 2.7755575615628914e-16
+    },
+    {
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "error": 4.198030811863873e-16
+    },
+    {
+      "radial_derivative": 0,
+      "angular_derivative": 2,
+      "error": 5.3013149425851225e-15
+    },
+    {
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "error": 8.75008004727654e-16
+    },
+    {
+      "radial_derivative": 1,
+      "angular_derivative": 1,
+      "error": 1.1157741397482823e-14
+    },
+    {
+      "radial_derivative": 2,
+      "angular_derivative": 0,
+      "error": 0.0
+    }
+  ],
+  "angular_derivative_checks": [
+    {
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "absolute_error": 4.1740833012227085e-11,
+      "relative_l2_error": 1.4497234054400642e-11
+    },
+    {
+      "radial_derivative": 0,
+      "angular_derivative": 2,
+      "absolute_error": 7.224398856919834e-11,
+      "relative_l2_error": 1.575354612653135e-11
+    },
+    {
+      "radial_derivative": 1,
+      "angular_derivative": 1,
+      "absolute_error": 1.4926193614428485e-10,
+      "relative_l2_error": 1.4167644551797417e-11
+    },
+    {
+      "radial_derivative": 1,
+      "angular_derivative": 2,
+      "absolute_error": 5.142997139273575e-10,
+      "relative_l2_error": 1.602986613128229e-11
+    }
+  ],
+  "angular_periodicity_errors_by_derivative": [
+    1.429412144204889e-14,
+    6.039613253960852e-14,
+    1.9761969838327786e-13
+  ],
+  "center_derivative_equals_b_cross_d_dtheta_error": 7.771561172376096e-16,
+  "material_angle_inversion_error": 3.552713678800501e-15,
+  "development_checks_passed": true
+}

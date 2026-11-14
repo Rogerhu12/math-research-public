@@ -247,8 +247,13 @@ class InwardMeridian(FoldedMeridian):
         self.closure_error=float(self.evaluate(np.array([1.]))[0][0][0]-cut_radius)
 
 
-def ellipse_inlet(theta,major,minor,height,derivative=0):
-    """Exact arc-length-gauge elliptic cylinder jets at arbitrary angles."""
+def ellipse_phase(theta,major,minor):
+    """Eccentric angle and its first two material-angle derivatives.
+
+    The material angle still has period 2*pi and metric speed a0.  This map
+    only supplies optional trial functions; it does not change the metric
+    coordinate or the exact circular tail's material correspondence.
+    """
     if not 0<minor<=major:
         raise ValueError('Need 0 < ellipse minor <= major')
     theta=np.asarray(theta)
@@ -268,6 +273,13 @@ def ellipse_inlet(theta,major,minor,height,derivative=0):
     speed=np.sqrt(major*major*cp*cp+minor*minor*sp*sp)
     tp=a0/speed
     tpp=-a0*a0*(minor*minor-major*major)*sp*cp/speed**4
+    return phase,tp,tpp,a0,error
+
+
+def ellipse_inlet(theta,major,minor,height,derivative=0):
+    """Exact arc-length-gauge elliptic cylinder jets at arbitrary angles."""
+    phase,tp,tpp,a0,error=ellipse_phase(theta,major,minor)
+    sp,cp=np.sin(phase),np.cos(phase)
     ans=np.zeros((3,len(theta),3))
     if derivative==0:
         ans[0]=np.column_stack((major*sp,-minor*cp,np.full_like(sp,height)))
@@ -282,6 +294,15 @@ def ellipse_inlet(theta,major,minor,height,derivative=0):
     return ans,a0,error
 
 
+def warm_angular_basis(previous,requested):
+    """Reject reinterpreting coefficients in a different angular basis."""
+    old=previous.get('discretization',{}).get('angular_basis','material')
+    if old != requested:
+        raise ValueError(f'Warm angular basis {old!r} differs from {requested!r}; '
+                         'an explicit field projection is required')
+    return old
+
+
 class Problem:
     def __init__(self, args):
         self.args = args
@@ -293,6 +314,11 @@ class Problem:
         self.knots = np.r_[np.zeros(6), np.arange(1,self.J+1)/(self.J+1), np.ones(6)]
         self.spline = BSpline(self.knots, np.eye(count), 5)
         self.core_profile=getattr(args,'core_profile','mixed')
+        self.angular_basis=getattr(args,'angular_basis','material')
+        if self.angular_basis not in ('material','ellipse'):
+            raise ValueError('Unknown angular basis')
+        if self.angular_basis=='ellipse' and self.core_profile!='ellipse':
+            raise ValueError('Ellipse-angle trial functions require the exact ellipse inlet')
         if self.core_profile=='ellipse':
             theta=np.arange(args.inlet_angles)*2*np.pi/args.inlet_angles
             inp,self.a0,inv_error=ellipse_inlet(theta,args.ellipse_major,args.ellipse_minor,args.inlet_s)
@@ -354,7 +380,13 @@ class Problem:
     def prepare(self, radial, angular):
         u = np.asarray(radial)
         theta = np.arange(angular)*2*np.pi/angular
-        f = [fourier(theta,self.args.modes,d) for d in range(3)]
+        if self.angular_basis=='ellipse':
+            phase,tp,tpp,_,_=ellipse_phase(theta,self.args.ellipse_major,self.args.ellipse_minor)
+            fphi=[fourier(phase,self.args.modes,d) for d in range(3)]
+            f=[fphi[0],fphi[1]*tp[:,None],
+               fphi[2]*tp[:,None]**2+fphi[1]*tpp[:,None]]
+        else:
+            f = [fourier(theta,self.args.modes,d) for d in range(3)]
         r = [self.radial(u,d) for d in range(3)]
         h = [hermite(u,d)/self.args.length**d for d in range(3)]
         if self.core_profile=='ellipse':
@@ -554,6 +586,7 @@ def main():
     p.add_argument('--radial-free',type=int,default=3)
     p.add_argument('--modes',type=int,default=4)
     p.add_argument('--angular',type=int,default=40)
+    p.add_argument('--angular-basis',choices=['material','ellipse'],default='material')
     p.add_argument('--radial-gauss',type=int,default=4)
     p.add_argument('--inlet-angles',type=int,default=128)
     p.add_argument('--inlet-s',type=float,default=.15)
@@ -595,6 +628,8 @@ def main():
         p.error('Need cuff_radius < flat_start < cut_radius')
     if args.core_profile=='ellipse' and args.inlet_state:
         p.error('The exact ellipse inlet does not accept a mixed-mode --inlet-state')
+    if args.angular_basis=='ellipse' and args.core_profile!='ellipse':
+        p.error('--angular-basis ellipse requires --core-profile ellipse')
     started=time.perf_counter()
     prob=Problem(args)
     gl,_=np.polynomial.legendre.leggauss(args.radial_gauss)
@@ -604,6 +639,7 @@ def main():
     seed=prob.seed()
     if args.warm:
         previous=json.loads(Path(args.warm).read_text())
+        warm_angular_basis(previous,prob.angular_basis)
         oldj=previous['discretization']['radial_free']
         oldk=2*previous['discretization']['modes']+1
         old=np.asarray(previous['coefficients'])
@@ -665,6 +701,8 @@ def main():
                            'tail_angle_shift':-np.pi/2,
                            'tail_final':dict(zip(('A_plus','A_minus','C_y','C_z'),fit.x[-4:].tolist()))},
              'discretization':{'radial_free':args.radial_free,'modes':args.modes,
+                               'angular_basis':prob.angular_basis,
+                               'angular_basis_changes_trial_functions_not_material_coordinate':True,
                                'angular':args.angular,'radial_gauss':args.radial_gauss,
                                'inlet_angles':args.inlet_angles,'unknowns':prob.size,
                                'residuals':len(final),'tail_quadrature':args.quadrature},

@@ -147,7 +147,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--results", required=True, type=Path)
     parser.add_argument("--lane", required=True,
-                        choices=["eccentric", "seeds", "kernel", "core_folded", "second_order", "folded_bearing", "band_geometry", "band_newton", "inward", "codedesign", "inward_fixed", "ellipse_cont"])
+                        choices=["eccentric", "seeds", "kernel", "core_folded", "second_order", "folded_bearing", "band_geometry", "band_newton", "inward", "codedesign", "inward_fixed", "ellipse_cont", "ellipse_phi", "inward_gc4", "star_core"])
     parser.add_argument("--repo", type=Path, default=Path.cwd())
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
@@ -182,7 +182,7 @@ def main() -> int:
         receipt = {"schema": "visible-new-mechanism-actions-v1", "repository": REPOSITORY,
                    "source_commit": source, "run_id": run_id, "run_attempt": attempt,
                    "lane": args.lane, "destination": relative_dest,
-                   "design_is_not_fixed_metric_refinement": args.lane in {"eccentric", "core_folded", "folded_bearing", "band_geometry", "inward", "codedesign", "ellipse_cont"},
+                   "design_is_not_fixed_metric_refinement": args.lane in {"eccentric", "core_folded", "folded_bearing", "band_geometry", "inward", "codedesign", "ellipse_cont", "ellipse_phi", "star_core"},
                    "task_complete": False, "source_files": {}, "outputs": manifest,
                    "pulls": [], "readmes_read_commit": source}
         script_root = f"{TOPIC}/scripts"

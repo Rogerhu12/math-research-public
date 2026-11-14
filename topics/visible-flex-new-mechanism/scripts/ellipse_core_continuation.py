@@ -20,7 +20,7 @@ from types import SimpleNamespace
 import numpy as np
 from scipy.special import ellipe
 
-from core_to_tail_bvp import Problem, ellipse_inlet
+from core_to_tail_bvp import Problem, ellipse_inlet, warm_angular_basis
 
 
 def axes(t, major, minor):
@@ -44,6 +44,7 @@ def command(args, t, output, warm=None):
              ('--tail-height-max', args.tail_height_max),
              ('--radius-floor', args.radius_floor), ('--radius-ceiling', args.radius_ceiling),
              ('--radial-free', args.radial_free), ('--modes', args.modes),
+             ('--angular-basis', args.angular_basis),
              ('--angular', args.angular), ('--radial-gauss', args.radial_gauss),
              ('--inlet-angles', args.inlet_angles), ('--max-nfev', args.max_nfev),
              ('--out', output)]
@@ -58,6 +59,7 @@ def command(args, t, output, warm=None):
 def preflight(args):
     aa, bb, a0 = axes(0., args.target_major, args.target_minor)
     settings = SimpleNamespace(radial_free=args.radial_free, modes=args.modes, design_metric=True,
+        angular_basis=args.angular_basis,
         core_profile='ellipse', ellipse_major=aa, ellipse_minor=bb, inlet_angles=args.inlet_angles,
         inlet_s=args.h0, quadrature=48, background='unit', length=args.length,
         cut_radius=args.cut_radius, flat_start=args.flat_start, cuff_radius=args.cuff_radius,
@@ -108,6 +110,7 @@ def main():
     parser.add_argument('--radial-free', type=int, default=9)
     parser.add_argument('--modes', type=int, default=12)
     parser.add_argument('--angular', type=int, default=96)
+    parser.add_argument('--angular-basis', choices=['material','ellipse'], default='material')
     parser.add_argument('--radial-gauss', type=int, default=6)
     parser.add_argument('--inlet-angles', type=int, default=256)
     parser.add_argument('--max-nfev', type=int, default=250)
@@ -169,6 +172,20 @@ def main():
         d = old['definition']
         if d.get('core_profile') != 'ellipse':
             parser.error('--warm-json must contain an ellipse continuation candidate')
+        try:
+            warm_angular_basis(old,args.angular_basis)
+        except ValueError as exc:
+            parser.error(str(exc))
+        fixed_values={'inlet_s':args.h0,'length':args.length,'background':'unit',
+                      'beta_wiggle':args.beta_wiggle,'tail_cut_radius':args.cut_radius,
+                      'tail_flat_start':args.flat_start,'tail_cuff_radius':args.cuff_radius,
+                      'design_metric':True}
+        for key,expected in fixed_values.items():
+            actual=d.get(key)
+            matches=(actual==expected if isinstance(expected,(str,bool)) else
+                     actual is not None and abs(actual-expected)<=1e-12)
+            if not matches:
+                parser.error(f'Warm continuation changes fixed setting {key}: {actual!r} -> {expected!r}')
         aa, bb = d['ellipse_major'], d['ellipse_minor']
         old_a0 = 2 * aa * ellipe(1 - (bb / aa)**2) / np.pi
         if abs(old_a0 - report['preflight']['constant_perimeter_radius']) > 1e-10:

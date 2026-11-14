@@ -1,0 +1,136 @@
+{
+  "status": "cheap_development_checks_no_optimization",
+  "task_complete": false,
+  "script_sha256": "354fb3bb0d9dfad54e35d397eb18590b1f52539df2543e6ec01499bc12ca9fae",
+  "solver_sha256": "6063dae5b280492fae17fa94349889e8dd45a99fa62b1e4e042341cddb687d46",
+  "checks": {
+    "default_material_basis_max_error": 0.0,
+    "material_basis_formula_max_error": 0.0,
+    "ellipse_basis_material_derivatives": [
+      {
+        "derivative": 1,
+        "absolute_error": 1.29781518865002e-10,
+        "relative_l2_error": 1.2320097088585606e-11
+      },
+      {
+        "derivative": 2,
+        "absolute_error": 7.980460736689565e-10,
+        "relative_l2_error": 1.0084990244783918e-11
+      }
+    ],
+    "phase_periodicity_error": 5.329070518200751e-15,
+    "circle_basis_max_error": 0.0,
+    "round_reference_metric_error": 8.75966561463742e-14,
+    "endpoint_position_second_jet_errors": {
+      "x": 6.162975822039155e-33,
+      "xs": 0.0,
+      "xt": 2.7755575615628914e-17,
+      "xss": 0.0,
+      "xst": 1.232595164407831e-32,
+      "xtt": 1.1102230246251565e-16
+    },
+    "jacobian_directional_relative_errors": [
+      3.277989078643817e-11,
+      4.687789291889084e-11,
+      3.921671583976705e-11
+    ],
+    "warm_basis_accepted": [
+      [
+        "material",
+        "material"
+      ],
+      [
+        "ellipse",
+        "ellipse"
+      ]
+    ],
+    "warm_basis_rejected": [
+      [
+        "material",
+        "ellipse"
+      ],
+      [
+        "ellipse",
+        "material"
+      ]
+    ],
+    "legacy_warm_defaults_to_material": "material",
+    "phi_mode_three_gamma_and_radius_normal_fit_max_error": 7.105427357601002e-15,
+    "radius_normal_one_plus_three_mode_identity_error": 3.552713678800501e-15
+  },
+  "spectral_material_basis": {
+    "points": 4096,
+    "major": 1.0,
+    "minor": 0.3,
+    "perimeter_radius": 0.6980392675284104,
+    "arc_length_inversion_error": 8.881784197001252e-16,
+    "quantity_radius_normal": "rho * inward_planar_normal / a0",
+    "exact_inlet_is_not_truncated": true,
+    "rows": [
+      {
+        "modes": 6,
+        "gamma_tail_max_vector_norm": 0.024994719934326337,
+        "gamma_theta_tail_max_vector_norm": 0.19920798076059665,
+        "gamma_theta_theta_tail_max_vector_norm": 3.165530222243004,
+        "radius_normal_tail_max_vector_norm": 0.11158897079460131
+      },
+      {
+        "modes": 12,
+        "gamma_tail_max_vector_norm": 0.005398375787024512,
+        "gamma_theta_tail_max_vector_norm": 0.08134773711449796,
+        "gamma_theta_theta_tail_max_vector_norm": 1.80393583490945,
+        "radius_normal_tail_max_vector_norm": 0.023155224804436433
+      },
+      {
+        "modes": 16,
+        "gamma_tail_max_vector_norm": 0.0023875991391006934,
+        "gamma_theta_tail_max_vector_norm": 0.04690527513449084,
+        "gamma_theta_theta_tail_max_vector_norm": 1.2303103269933873,
+        "radius_normal_tail_max_vector_norm": 0.010004195757640024
+      },
+      {
+        "modes": 24,
+        "gamma_tail_max_vector_norm": 0.0005786228496577062,
+        "gamma_theta_tail_max_vector_norm": 0.01651489709327517,
+        "gamma_theta_theta_tail_max_vector_norm": 0.5654652364778663,
+        "radius_normal_tail_max_vector_norm": 0.0023350397778249426
+      },
+      {
+        "modes": 32,
+        "gamma_tail_max_vector_norm": 0.00016371299224671176,
+        "gamma_theta_tail_max_vector_norm": 0.0060907810221448476,
+        "gamma_theta_theta_tail_max_vector_norm": 0.2570761081186239,
+        "radius_normal_tail_max_vector_norm": 0.0006419489179961193
+      },
+      {
+        "modes": 48,
+        "gamma_tail_max_vector_norm": 1.655112643050849e-05,
+        "gamma_theta_tail_max_vector_norm": 0.0008956645290380288,
+        "gamma_theta_theta_tail_max_vector_norm": 0.05205984190701862,
+        "radius_normal_tail_max_vector_norm": 6.221499982510378e-05
+      },
+      {
+        "modes": 64,
+        "gamma_tail_max_vector_norm": 1.9789743942455473e-06,
+        "gamma_theta_tail_max_vector_norm": 0.00013992242736277587,
+        "gamma_theta_theta_tail_max_vector_norm": 0.010362438199033264,
+        "radius_normal_tail_max_vector_norm": 7.220297709163046e-06
+      },
+      {
+        "modes": 96,
+        "gamma_tail_max_vector_norm": 3.636268652851271e-08,
+        "gamma_theta_tail_max_vector_norm": 3.7600731636260056e-06,
+        "gamma_theta_theta_tail_max_vector_norm": 0.0003985174012930415,
+        "radius_normal_tail_max_vector_norm": 1.2736803003618356e-07
+      },
+      {
+        "modes": 128,
+        "gamma_tail_max_vector_norm": 7.990412775882685e-10,
+        "gamma_theta_tail_max_vector_norm": 1.0854464340460588e-07,
+        "gamma_theta_theta_tail_max_vector_norm": 1.4969564627875798e-05,
+        "radius_normal_tail_max_vector_norm": 2.7244496826798496e-09
+      }
+    ]
+  },
+  "development_checks_passed": true
+}

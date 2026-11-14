@@ -1,14 +1,14 @@
 {
-  "request": "complete-period-base-design-raised-caps-and-elliptic-continuation",
-  "created_at": "2026-11-14T19:11:06.907761+08:00",
+  "request": "elliptic-basis-gc-fourth-jet-and-star-geometry",
+  "created_at": "2026-11-14T19:28:51.108860+08:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "codedesign",
-    "ellipse_cont",
-    "inward_fixed"
+    "star_core",
+    "ellipse_phi",
+    "inward_gc4"
   ],
-  "codedesign": "all eleven R5 integrals plus actual axial closure, bounded Fourier log-speed",
-  "ellipse_cont": "fixed perimeter circle-to-ellipse design, two reference lengths, .0001 design threshold only",
-  "inward_fixed": "fixed g, actual cap height .30, Cartesian and signed representations",
+  "star_core": "nine planar star candidates with directed continuous distance and full-diameter bounds; not a closed surface",
+  "ellipse_phi": "same L10/L11 continuation settings with eccentric-angle free fields; changing axes changes the basis; only design continuation",
+  "inward_gc4": "same fixed metric and 16 controls,12 modes,128 angles as baseline; fourth Cauchy jet and both angular bases",
   "task_complete": false
 }

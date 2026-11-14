@@ -1,0 +1,153 @@
+{
+  "schema": "star-core-continuous-geometry-v1",
+  "status": "development_smoke_only",
+  "definition": {
+    "a": ".6",
+    "b": ".09",
+    "nodes": 32,
+    "chord_samples": 32,
+    "check_derivatives": true,
+    "smoke_only": true,
+    "out": "topics/visible-flex-new-mechanism/notes/star-core-smoke-20261114.json"
+  },
+  "continuous_bound_arithmetic": "50-digit directed Decimal trigonometry; outward IEEE-754 binary64 elementary vector operations",
+  "curve_segment_error_theorem": "sup ||gamma-linear_chord|| <= sup ||gamma_second_derivative|| * parameter_step^2 / 8",
+  "normal_chord_samples_are_not_reach_lower_bounds": true,
+  "nonconvex_cylindrical_core_cannot_be_assumed_to_enter_positive_K_inward_band": true,
+  "candidates": [
+    {
+      "a": ".6",
+      "b": ".09",
+      "radial_range": {
+        "lower": "0.49",
+        "upper": "1.69"
+      },
+      "curve_is_simple_regular_radial_graph": true,
+      "tip_radius": {
+        "lower": "1.69",
+        "upper": "1.69"
+      },
+      "valley_radius": {
+        "lower": "0.49",
+        "upper": "0.49"
+      },
+      "rotation_angle": "pi/3",
+      "rotated_tip_q_enclosure": {
+        "x": {
+          "lower": "0.845",
+          "upper": "0.845"
+        },
+        "y": {
+          "lower": "1.4635829323957013130306921585724621500666704394697",
+          "upper": "1.4635829323957013130306921585724621500666704394699"
+        }
+      },
+      "q_outside_filled_domain_proved_by_radial_gap": {
+        "lower": "1.2",
+        "upper": "1.2"
+      },
+      "continuous_distance_q_to_filled_star_domain": {
+        "lower": "0.95553522258287000301498803870255754840372602619078",
+        "upper": "1.0648400524982952086730287863619935368299623283015"
+      },
+      "continuous_full_curve_diameter": {
+        "lower": "2.9896138005733743563669001256882891851345552039716",
+        "upper": "3.0989186304888007418569571610008528212771756849425"
+      },
+      "continuous_witness_distance_over_planar_diameter": {
+        "lower": "0.30834472811961212132970392783274007046378503193473",
+        "upper": "0.35617980231897205042587723743066606429593755180346"
+      },
+      "planar_ratio_lower_at_least_03": true,
+      "continuous_absolute_curvature_upper": "122.38380303138538153013209350457690212589423980546",
+      "exact_tip_signed_curvature": {
+        "lower": "3.6168201393508630650187318371205490003851405763102",
+        "upper": "3.6168201393508630650187318371205490003851405763104"
+      },
+      "exact_valley_signed_curvature": {
+        "lower": "-6.9554352353186172428154935443565181174510620574762",
+        "upper": "-6.9554352353186172428154935443565181174510620574759"
+      },
+      "nonconvexity_certified_at_valley": true,
+      "local_curvature_radius_lower_not_global_reach": "0.0081710158961439492823306688536832528371157166057985",
+      "necessary_reach_over_planar_D_upper_for_vertical_cylinder_from_known_curvature": "0.048090644705428646611877661993202409066503608191273",
+      "continuous_perimeter": {
+        "lower": "5.5123084892917911905610317650666839872683536578469",
+        "upper": "14.910335314603445205785524785964104232300727950349"
+      },
+      "continuous_mean_radius": {
+        "lower": "0.87731114391820657678678070891396402902363558409505",
+        "upper": "2.3730535684767886594925471867134087975229159872135"
+      },
+      "conditional_full_surface_diameter_budget_for_03_witness": {
+        "lower": "3.1851174086095666767166267956751918280124200873025",
+        "upper": "3.1851174086095666767166267956751918280124200873027"
+      },
+      "sufficient_total_z_span_budget_if_all_projection_stays_in_domain": "0.73598656797331361367244075989844552011485994717555",
+      "filled_domain_contains_coaxial_disk_radius": "0.49",
+      "subdivision_certificate": {
+        "segments": 32,
+        "gamma_second_derivative_upper": {
+          "lower": "11.340692218731623791408705640433982844675688775992",
+          "upper": "11.340692218731623791408705640433982844675688775994"
+        },
+        "curve_to_exact_chords_Hausdorff_upper": "0.054652414957711658888113566592936524636834682738315",
+        "vertex_midpoint_radius_error_upper": "1.0079464270043774839253823692438135596227821378348E-16",
+        "q_midpoint_radius_error_upper": "6.5990146869189454780495878880361416679734348422536E-17",
+        "distance_to_binary64_polygon": {
+          "lower": "1.010187637540581828687891174922697246074676513671875",
+          "upper": "1.0101876375405833830001256501418538391590118408203125"
+        },
+        "binary64_polygon_all_pairs_diameter": {
+          "lower": "2.989613800573374557956185526563785970211029052734375",
+          "upper": "2.989613800573377222491444626939482986927032470703125"
+        }
+      },
+      "samples": {
+        "angles": 32,
+        "maximum_absolute_curvature_sample": 6.955435235318617,
+        "signed_curvature_sample_range": [
+          -6.955435235318617,
+          3.6168201393508617
+        ],
+        "minimum_normal_chord_radius_sample": 0.15217665273090422,
+        "normal_chord_pair_indices": [
+          5,
+          6
+        ],
+        "normal_chord_pair_phi": [
+          0.9817477042468103,
+          1.1780972450961724
+        ],
+        "pair_cyclic_grid_separation": 1,
+        "reach_lower_bound": false,
+        "normal_chords_only_give_necessary_upper_obstructions": true,
+        "continuous_or_roundoff_validated_sample": false
+      },
+      "scope": {
+        "continuous_bounds_apply_to": "the stated planar curve and its filled radial domain",
+        "transition_projection_containment_proved": false,
+        "fixed_metric_connector_obtained": false,
+        "closed_surface_obtained": false,
+        "held_amplitude_for_a_closed_surface_certified": false,
+        "reach_lower_certified": false,
+        "task_complete": false
+      },
+      "development_derivative_check": {
+        "first_derivative_relative_error": 1.1222843068384276e-10,
+        "second_derivative_relative_error": 1.1332663159957972e-10,
+        "curvature_formula_max_difference": 3.552713678800501e-15
+      }
+    }
+  ],
+  "elapsed_seconds": 0.14732149799965555,
+  "source_sha256": {
+    "star_core_geometry.py": "664d20735a5bcb0aa14d9da320bcefea1b571012cb4ba4fe5e80e7f0c50d03a9",
+    "folded_reference_geometry.py": "e912d3ece31e36a76de10cb1a1f40b8d4cd2079a7c8626c0ae85d0083c0de8ab"
+  },
+  "claim": {
+    "closed_embedded_isometric_family": false,
+    "reach_lower_certified": false,
+    "task_complete": false
+  }
+}

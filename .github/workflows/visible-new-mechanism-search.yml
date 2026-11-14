@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -274,6 +274,38 @@ jobs:
             --length 1.1 --h0 .25 --beta-wiggle .8 --radial-free 9 --modes 12 \
             --accept-metric .0001 --initial-step .125 --min-step .0078125 \
             --max-attempts 40 --max-nfev 250 --out-dir "$VISIBLE_NEW_OUT" --prefix ellipse-L11
+      - name: Compare elliptic angular bases in constant-perimeter continuation
+        if: matrix.lane == 'ellipse_phi'
+        timeout-minutes: 40
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/ellipse_core_continuation.py" \
+            --length 1.0 --h0 .23 --beta-wiggle .8 --radial-free 9 --modes 12 \
+            --angular-basis ellipse --accept-metric .0001 --initial-step .125 --min-step .0078125 \
+            --max-attempts 40 --max-nfev 250 --out-dir "$VISIBLE_NEW_OUT" --prefix ellipse-L10-phi
+          python -u "$VISIBLE_NEW_SCRIPTS/ellipse_core_continuation.py" \
+            --length 1.1 --h0 .25 --beta-wiggle .8 --radial-free 9 --modes 12 \
+            --angular-basis ellipse --accept-metric .0001 --initial-step .125 --min-step .0078125 \
+            --max-attempts 40 --max-nfev 250 --out-dir "$VISIBLE_NEW_OUT" --prefix ellipse-L11-phi
+      - name: Compare fourth-order Cauchy seeds in the same fixed inward metric
+        if: matrix.lane == 'inward_gc4'
+        timeout-minutes: 40
+        run: |
+          for basis in material ellipse; do
+            python -u "$VISIBLE_NEW_SCRIPTS/inward_gc4_collar_search.py" \
+              --seed-family gc4 --angular-basis "$basis" --gc-jet-fraction .25 \
+              --ellipse-major 1 --ellipse-minor .3 --core-half-height .23 \
+              --connection-length .8 --cut-radius .28 --port-height .30 \
+              --inward-overshoot 1.53 --inward-first-fraction .67 --reach-budget .069 \
+              --controls 16 --modes 12 --angles 128 --radial-order 8 --max-nfev 220 \
+              --check-jacobian --out "$VISIBLE_NEW_OUT/inward-gc4-${basis}.json"
+          done
+      - name: Bound the true Hausdorff witness and full planar star diameter
+        if: matrix.lane == 'star_core'
+        timeout-minutes: 25
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/star_core_geometry.py" \
+            --a .55,.60,.65 --b .06,.09,.12 --nodes 4096 --chord-samples 1024 \
+            --check-derivatives --out "$VISIBLE_NEW_OUT/star-core-geometry-grid.json"
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:
