@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 20:34:41 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 20:41:40 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步与原记录
 
 仅 Rogerhu12/math-research-public；新数学只用该仓库Actions。每结论独推；非FF立即真pull --rebase再推，禁force。root管main/H/open/results/log，代理交小文本。PAT只瞬时CLI/env，禁文件/输出/提交/connector。
 最后成功真pull：12:34 a9c7fc8c12d3e5f43b6632ed24ebef40aced5145。12:35终端失联；最近真pull尝试2026-11-14 20:22:44 UTC仍No usable execution environment。至少每小时重试，非FF即时重试。规则8暂用connector传<100KB文本，先核size，任何binary/gzip禁取；摘要≤60KB。API不是pull，终端恢复即回git。
-最新远端 main/两README blob 核：d2fb33497b23431334c50ddd408e3f33dfecc924；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最新远端 main/两README blob 核：31cd8a8e7f5c8b5d34504326c0654b29fc477992；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 runner长算10min真pull，phase child45/outer50min前后真pull；每次核两README差异并保实录。失联checkout /workspace/scratch/0df957a82d09/math-research-public，真实/tmp/visible-exact-0df9-workspace/math-research-public，objects /tmp/visible-exact-0df9-git-objects。
 本次将9967B旧H及40283B旧open分别完整存入 notes/2026-11-14-handoff-before-infinite-cap-and-return.md、notes/2026-11-14-open-before-infinite-cap-and-return.md；更早9979/9769/9728/9928等链在旧H。所有原native/失败/准确参数身份见各actual报告与manifest。成功数学不重算，出版失败不等于数学失败。
 
@@ -24,7 +24,7 @@ finite193误差门已成但不授全PDE：nativepointGreen43635487128 child0/8�
 其上游43635264409 child0/26门：仅64缺原生中点+64残差+16local，0whole重算；native41156aa8…7797760B/4片，完整add<4.641143057402e−9。1341local/1977交集、Taylor64证书、7844旧残差和1325旧local完整保。unknown Hessian χ<.003840162、resolvent<1.003855不随known-source改善。旧quarter43626024582、Hessian43628443697、Taylor43633412397、TaylorGreen43634452052全成功原件禁重算。
 finiteL²核43633074696 child0/9门，nativeac4441cb…18075636B/10片；6391新signed Gram、5970接口及waist/mean已成。ordinary→全L²<22386.327561、负窗<10488.564544、C0<181981.908213。右边界单位列全L²<7084.386905、负窗<3319.054558、C0<57587.666670。
 knownhigh43628921664数学child0/8门、7721行、native5ad8aaad…7508940B/4片；原诊断出版失败保，receipt43630093667 childnone/6门/0数学原样补发。全known源<1.456146059e−10。M32主体交叉只high97..160↔low33..96；mean rank不产生cross，完整低mean仍保。175pin weighted body消费者本次安装：sourcecbcfcaf8…/manifestfecb0119…；旧147+97pin并集0改变，onpush实际执行待收。只新nonmean cubic/163与99双向费及旧Gram加权，不重算旧exp。
-root正在接真实全频帽边界：物理帽全逆ad6efc2a…已有；repair物理共轭35db98d4…、残差Hessian bf42a295…完整。精确全帽行 h1+S(HB−KB P⊥HC)h2、Π0HC h2−K0 P⊥HC h2；S是全v·composition，奇h1系数恰I。有限97输入矩阵528e2f47…及其fullhigh输出不授high→low全算子。高状态必须分body L²与even高trace hH(.9)，不能用body L²控制trace。正高given-head还依赖帽[.9,R]完整head，不能置0。
+root本次已证全频帽P1–19接口及粗Poisson列（results/R133-supplement-full-frequency-moving-cap-boundary-and-Poisson-interface.md）：物理帽全逆ad6efc2a…已有；repair物理共轭35db98d4…、残差Hessian bf42a295…完整。精确全帽行 h1+S(HB−KB P⊥HC)h2、Π0HC h2−K0 P⊥HC h2；S是全v·composition，奇h1系数恰I。有限97输入矩阵528e2f47…及其fullhigh输出不授high→low全算子。高状态必须分body L²与even高trace hH(.9)，不能用body L²控制trace。正高given-head还依赖帽[.9,R]完整head，不能置0。
 
 ## root/phase_inverse：根、全δ高图和Airy源
 

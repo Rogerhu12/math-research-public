@@ -86,3 +86,7 @@ run43635999157的9门/6窗与两次真pull空README diff已核，实际报告单
 ### 2026-11-14 20:34:41 UTC：完整内根第一forcing的22pin消费者已接
 
 G/H原复域和全二阶chain已落实为a203227a…源码、4d76f6f1…清单。仅消费两原cubic片新增258导数、全coeff预算与3内根case；原germ/fold/leading都复用。实际方向mean、全原有序矩阵与root bracket保留，fullfrequency/strong-return仍明确未授。
+
+### 2026-11-14 20:41:40 UTC：全频帽接口与完整Poisson列已证明
+
+P1–19准确接任意未知high和独立mean，g的inner非meanC为0，独立innerC变化经K列保留而不重复。反射odd/even固定primitive常数；未扩张到未固定gauge的类。帽内lowhead与R端trace用完整C0 Poisson支付，高cut值仍独立。当前粗交叉界尚须频率/方向锐化，继续实际全耦合。
