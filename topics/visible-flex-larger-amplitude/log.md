@@ -156,3 +156,6 @@ margin325 r2真实51.74s因可选旧fullFlow snapshot身份失配退出，原52 
 
 ### 2026-11-14T07:30:57+00:00 — stallhalf (local; public approval pending)
 全步新H尾真实收敛2.34189e−10并回完整J；前缀三步alpha1/16、1/2048、1/512残差仍.226956，未接受，工具中断130且无最终wait4如实记录。33完整恢复件hash保留，A起点全部13方向缩半重启，快照原校验通过；运行结果不预判。
+
+### 2026-11-14T07:30:58+00:00 — roundingextension (local; public approval pending)
+冻结延至.9875的新g，原全32核冷M128/M192误差7.84422e−6→1.08441e−7，末档κ5.32104/Dproxy3.44732。保存完整578维末态及原scalar，开放前缀非闭面。
