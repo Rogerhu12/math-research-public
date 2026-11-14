@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`4c30342c62edfc29968d8342af18fc53515681e3`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`621fb8ee4416452fd61c6a9791b24997d40e4610`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有21:30:00 UTC实际pull至`7c0afa98cea4f65d821cd2f6acb123ee9e6df113`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于22:29 UTC。
 
@@ -48,7 +48,7 @@ R37/R45真M0桥/四块位置闭合、R52完整三阶圆仍非有限等距族。R
 
 **R100/R104/R106已消D25全部偶参数项**。R85/88首两尾是零端势，R95压缩action后c10/c9零端使次数≤8。R100 actual43640085842完整34差式全0，23真histories/原DAG保；p/ell/zeta真实零端的c8短action见R100。R104同(h0,0,0)真M0桥B:I→D，经σ=(h,−k,−ω)组成B σB Bᴿ (σB)ᴿ；前缀位移V,DAV,−V,−DAV相消，frameI、M=T0、同一正I，只得周期正则浸入环带。R106完整R56递归/移动尾锚证D_j^σ(c)=(-1)^jD_j(-c)，四块D25=4(a7c7+a5c5+a3c3+a1c)。完整V仍2V_B+2V_σB，固定全带右锚ruling缺陷不消；不得冒全函数反号。
 
-R93/97真驱动给∫kh=0、K2=L+Elogh、K2=−∫(F/h)kρ及(S²−1)E≥L，故h非恒/S>1。这些是积分/端式，不可逐点置零或独立任取primitive；k为frame参数非曲面主曲率。c7新consumer仅消费R100已验证参数族，新增零端势与μ/ν真ODE、五history余action，不重编旧forcing/34差。
+R93/97真驱动给∫kh=0、K2=L+Elogh、K2=−∫(F/h)kρ及(S²−1)E≥L，故h非恒/S>1。这些是积分/端式，不可逐点置零或独立任取primitive；k为frame参数非曲面主曲率。R108 actual43642966285十新差式全0：Phi7=(64/5)p²B1+8p²J0真零端，五history96项14组完整含常数/线性，mu_s=−3eta_s zeta、nu_s=k/(8h)−eta_s(zeta+2ell)；23旧history/3154参数族保，不重编旧34式。
 
 完整第四ruling、先前双collar、更高阶/收敛、闭嵌入与宏观厚度仍欠。
 
@@ -56,6 +56,6 @@ R107真实A_Hd(c)=H⁻⁷A(Hc+d)，a8=0后a7正仿射不变，四块保4a7(B)；
 
 ## 6. 持续推进
 
-exchange已登记，mechanism正接R103曲率λ新阶段：同g/e407，固定eta_bar167/625，lambda初值取两网κ加裕量，scale100；11组全值筛、16径向行+0/L完整二jet批导，20轮共享80major/120phys/300优化秒，最终.061目标另算。c7 actual43642966285十新差式全0、五history96项14组、0.142s/RSS42.234，R108待登记；单方向probe43643100132给κ=−153664/75非零，R110/R111保基准与奇项控制正写。literature编局部L4=v−B_mN；旧query/forcing不无目的重跑。
+exchange已登记，mechanism正接R103曲率λ新阶段：同g/e407，固定eta_bar167/625，lambda初值取两网κ加裕量，scale100；11组全值筛、16径向行+0/L完整二jet批导，20轮共享80major/120phys/300优化秒，最终.061目标另算。c7 actual43642966285十新差式全0、五history96项14组、0.142s/RSS42.234，R108已登记；单方向probe43643100132给κ=−153664/75非零，R110/R111保基准与奇项控制正写。literature编局部L4=v−B_mN；旧query/forcing不无目的重跑。
 
 已完成run和完整历史在results.md/notes/git，不重跑旧quartic或已定全state P1。新计算仍只公开Actions。每个实际结果及时pull核两README、更新H/log/open并推，子题完成即接open不等阶段批准。原始来源边界见notes/literature-20261114.md；新增内蕴旋转文献的等变/主曲率假设边界见notes/intrinsic-rotation-literature-scope-20261114.md。
