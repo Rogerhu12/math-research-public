@@ -6,7 +6,7 @@
 
 闭连通C²嵌入族Ft，t在C²拓扑连续，同一固定g；固定材料H有内点且diamF0(H)≥.2D；不对齐整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，同g/物理状态/时间精化至机器或原容差。D为完整F0直径。δE可0但如实报；全网格<5MB，明确数值与准确存在差距。达标后继续.5D或更强存在。现无完整候选。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`146a7a4e4b3cfd7d5c63ab0f6d20d79a222bedb6`。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`55302d5db182009265011485c6225243ff308df0`。
 - 每次实际pull --rebase核双README；有变只读diff立刻执行，至少每小时pull。每结论立即提交推送；NFF立即rebase/核规则再推至成功，绝不强推。
 - 公开main/本仓Actions已授权。实际几何/ODE/积分/优化/完整研究编译只在本公开Actions；本地仅源码、纸面代数、人工开发核、已公开输出分析。PAT仅瞬时CLI/env，不写文件/提交/日志。
 - 私有16:54:17 UTC实际pull至`f8b14a696d8d591013e5996b24c4f5e81a26aa95`，双README无差，QUEUE唯一课题行仍本会话进行中；下一pull不晚于17:54 UTC。私有研究不公开。
@@ -38,17 +38,17 @@ fine121×768/GH64/Nb384/GL8：metric .7136260894，κsample106.01028，area min.
 
 随后固定selected新g，用selected u/v/b初始化入口repair audit-only；不先改B、不再盲加250。真实Xz负在标准镜合下支持自交风险；cap法弦严格给reach≤|h|，D≥2，细h/2≈.0261<.03，无严格积分误差界。现不冒称连续排除；新height/shape约束须据修复后的共同原函数设计。
 
-## 4. 文献线：完整第四失败与新准确漂移
+## 4. 文献线：同profile独立诊断与真实桥方向
 
-R37→R45真四块→R46→R52给同一g完整三阶；R53另用58点四相位仅付一标准常段第四最高项，绝不混为当前R52谱profile。R56准确有限化全变系数range，冗余基需真实Gram/kernel。R58合法二三gauge不改第四period；准确MP0时full=4singleP，但真实历史0→a→2a→a→0不可重置。
+R37→R45真实四块→R46→R52给同一g完整三阶。R53的58点四相位只付一标准常段第四最高项，不能冒充当前R52谱profile。R56准确有限化整个range，冗余须取真实Gram/kernel；R58合法低阶gauge不改第四period，准确MP0才有full=4singleP，真实history不重置。
 
-compiler43615655870已核，267875节点/732历史；项数非函数秩，不重复纯编译。singleP43617085278已全核，[实际审计](notes/literature-single-P-actual-audit-20261114.md)。MP约5.3e−10，冻结闭合3e−9→5.6e−7非单调，非准确前提；长圈只是算子输入，非厚度候选。
+compiler43615655870已核，不重复纯编译。singleP43617085278已全核，见notes/literature-single-P-actual-audit-20261114.md：MP约5.3e−10但冻结闭合非单调，不作准确前提或厚度候选。full4 43618467921已核88源/2输出，见notes/literature-full-fourth-function-actual-audit-20261114.md：固定R52 fit256一次、真实732history，两档各1228段；fine−2/0 periodL2≈2.05e26/4e26、global-w比例.839未过，−4降1296倍未稳且两类quadrature同时变。完整原输出/输入/profile SHA保存在当前request及实际审计。
 
-同43618467921 full4已核88源/2输出：[完整实际审计](notes/literature-full-fourth-function-actual-audit-20261114.md)。202.443s两档各1228段，固定R52 fit256一次、17panel真右尾；原输出/profile完整SHA见当前request。fine−2/0 periodL2≈2.05e26/4e26，global-w商比例.839，未过。−4降1296倍未稳；两档几何32/64和profile64/96同时变，不能单归因。三矩5.44e−7→1.80e−10、种子相消绝对4.6e9及full−4P真差保留。没有准确R52全类排除，不原样重跑同失败实例。
+新run43621210198/source64d69df6的frozen_profile_gate已完成：root git show逐项核92源，source另核3输出及同profile；仅17panel×256/512，无几何/编译/refit。局部Floc稳定约70.59379−61.36059i，两档差1e−12；三矩相对1.4e−16→4.3e−15非单调。直接E与2T约5e10相消，只得1e−8一致性；真实尾端项保留。只支持本数值profile未过第一标准常态纯最高ruling门，非区间全类排除；数学/来源审计待随即发布。R65短代数证书同lane原字节相同。
 
-R62：固定h,d的Rk=(k²−1)A+kB，±1零bulk仍保八维IFT；第四RHS=−Rk(W,W)+2Rk(φ,U)+Jk，理想两段只逆history余T(J++J−)。**R65已完成**：I紧含于(1,∞)时纯漂移P满足(P/(x²−1))′=P1P2/[64(x²−1)²]；实profile平方给左负，复profile用两因子统一|q″|²尾界及Gronwall证明P0⇒q0，无分支选择。理想无桥±1 pair的m−4=T P[q]/16非零，真实桥/有限N/其他状态不受此排除。
+R62互反±1只逆全部history，余局部Jpair；真实桥有N²作用。R65准确双因子/Volterra-Gronwall证明非零复profile的理想无桥纯P不可能恒零，范围不及真实桥/有限N。**R67**：固定真实控制族的整个第四period函数准确为P0+NP1+N²P2+N³P3；P3只依有序bulk，桥直接及经下游history改变P2。统一合法域内pN=p*+O1/N而P3(p*)非零则大N不能补，单一有限N仍不排。N变化是新设计，不是精化；L2不能当三次式拟合。
 
-冻结R52 profile独立诊断已全文/人工核并部署frozen_profile_gate：17panel各256/512，三矩、纯复Floc及两个真实尾端项；不重fit/不跑几何。R65短证书同lane。后续纸推固定控制bulk圈数N下完整period至多三次的准确递推，真实桥可贡献N²，不能O1忽略。
+继续互反bulk自动P3零后的共同二阶参数消元和有效桥函数；准确共同端点/可用rank与全部ruling尚未支付。先改变已失败profile或所用常态的必要门，不原样加full4预算，不从局部条件宣告完整族。
 
 ## 5. 当前直接理论与行动顺序
 
