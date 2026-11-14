@@ -1,0 +1,80 @@
+{
+  "P0_satisfied": false,
+  "actual_baseline_bridge_parameters_produced": false,
+  "all_phase_P1_satisfied": false,
+  "artificial_checks": {
+    "actual_local_or_reciprocal_compiler_called": false,
+    "artificial_horizontal_potential_mod_control": true,
+    "plus_one_to_minus_one_endpoint_orientation": true,
+    "positive_relation_verified_from_original_expressions": true,
+    "profile_or_geometry_values_evaluated": false,
+    "pure_response_factor_one_eighth": true,
+    "target_plus_endpoint_plus_control_sign": true,
+    "two_integrals_and_right_endpoint_not_reset": true
+  },
+  "closed_C1_reachability_inferred_from_rank": false,
+  "completion": "toy_only",
+  "control_theorems": [
+    "R71",
+    "R77",
+    "R79"
+  ],
+  "dependencies": {
+    "mathematical_dependencies": {
+      "exact": {
+        "bytes": 33718,
+        "filename": "literature_pure_bulk_exact_membership.py",
+        "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+      },
+      "formal_compiler": {
+        "bytes": 33169,
+        "filename": "literature_range_profile_algebra.py",
+        "git_blob_sha1": "01c7424af3a96f2c2a0f0cb0c782b2037ff3ec74",
+        "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+      },
+      "local": {
+        "bytes": 30635,
+        "filename": "literature_local_third_bridge_decompose.py",
+        "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+      },
+      "word": {
+        "bytes": 32310,
+        "filename": "literature_pure_bulk_word_normal_form.py",
+        "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+      }
+    },
+    "previous_C1_producer": {
+      "bytes": 24699,
+      "filename": "literature_linear_third_bridge_quotient.py",
+      "sha256": "0627875fe06950c9e7c360baaf0429451697a460e2cf10aa6b3434c501363bd2"
+    }
+  },
+  "elapsed_seconds": 0.004308919997129124,
+  "finite_isometric_family_certified": false,
+  "fourth_ruling_satisfied": false,
+  "geometry_relation": "omega_s=k_s/(2h), h>0; a common physical profile interval for all actual controls",
+  "github": {
+    "GITHUB_REPOSITORY": null,
+    "GITHUB_RUN_ATTEMPT": null,
+    "GITHUB_RUN_ID": null,
+    "GITHUB_SHA": null
+  },
+  "limits": {
+    "max_IBP_calls": 300000,
+    "max_coefficient_nodes": 600000,
+    "max_memory_mib": 2048,
+    "max_profile_atoms": 80000,
+    "max_rational_bits": 8192,
+    "max_seconds": 240,
+    "max_terms": 100000
+  },
+  "normalizer_complete": false,
+  "peak_resident_mib_linux": 12.875,
+  "phase": "finished",
+  "profile_or_geometry_values_evaluated": false,
+  "profile_scope": "ordinary complex diagonal q; no claim about complete unsymmetrized T(f;g,j)",
+  "representative_rank_is_not_actual_dimension": true,
+  "right_anchor": "I=integral_r^xi, J=-I; all left tails retained",
+  "schema": "visible-flex-closed-C1-endpoint-and-pure-P1-v1",
+  "source_sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+}

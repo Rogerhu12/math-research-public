@@ -1,27 +1,34 @@
 {
-  "request": "complete-linear-third-quotient-and-height-quartic-artificial-check",
-  "created_at": "2026-11-14 19:19:47 UTC",
+  "request": "closed-C1-endpoint-and-complete-P1-matching-with-joint-artificial-chain",
+  "created_at": "2026-11-14 19:33:30 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "height_quartic_development",
-    "linear_third_exact"
+    "quartic_joint_development",
+    "closed_c1_endpoint",
+    "full_phase_bridge_exact"
   ],
   "source_sha256": {
-    "frame_height_quartic.py": "e41054263108f2070f846be77920059c210b11f3286fe88046a7d90c217dd45f",
-    "literature_linear_third_bridge_quotient.py": "0627875fe06950c9e7c360baaf0429451697a460e2cf10aa6b3434c501363bd2"
+    "frame_joint_height_objective.py": "c1a92c46590783fcda8867a5304ab3fcc3c670ad58fce0f079737512f9af69fb",
+    "frame_height_quartic_joint_audit.py": "5d65c998eb59274ebccc306f78d1f72918b4590cca14adf7ce98b8c7a833cad9",
+    "literature_closed_c1_endpoint.py": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1",
+    "literature_colored_profile_algebra.py": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f",
+    "literature_full_phase_bridge_exact.py": "c11a4fc54c1d5fc0d227a4229667b567b21c85bdcf8c6cc41b53cfa0d8968681"
   },
-  "quartic_artificial_only": true,
-  "linear_third_actual_complete_compilation": true,
-  "linear_third_scope": "diagonal tau(q), not full unsymmetrized T or all phase channels",
-  "linear_third_moduli": [
-    "R71 cubic diagonal commutators",
-    "R77 full Area+Cubic coefficient space plus R71"
+  "joint_artificial_only": true,
+  "real_quartic_or_joint_optimization_requested": false,
+  "closed_C1_actual_complete_compilation": true,
+  "full_phase_actual_complete_compilation": true,
+  "full_phase_scope": "Full outer-slot trilinear T(a;b,c), same real control coefficients jointly match complex modes -4 and -2; retain true five-segment scalar bridge endpoint class",
+  "control_theorems": [
+    "R71",
+    "R77",
+    "R79"
   ],
+  "normalizer_negative_is_not_a_nonmembership_theorem": true,
   "successful_height_initialization": {
     "run": 43630874689,
     "state_sha256": "f198ba74dcf3644569bf1ed78eecbc48a0f21ec421205d46a6b159cb00ff0f56",
     "decoded_report_sha256": "f457282f0a21cd27802748066537caa4cf90c687c63c73d62b0391ce2435d1a3"
   },
-  "real_quartic_or_joint_optimization_requested": false,
   "task_complete": false
 }

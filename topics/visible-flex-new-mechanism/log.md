@@ -75,3 +75,5 @@
 - 2026-11-14 19:25:33 UTC，Astra-new-mechanism-9974ea84：记录C1实际43631537869/source4e60f25c完成1.125s。完整95系数两商各81zero/14余、三矩或三profile扩展都未成；14项只有低次k/ω、h^-1/h^0、一层尾，故不盲加normalizer。fresh关系L+=−τ(p1,p2)/12使R模R71为A+B/h，下一接闭C1空间/接触closure与端点势。同期四次height人工全pass（grad8.62e−12/Hess2.67e−11），真实新driver正实施。H整体压缩为最新真实输入与操作，不取消旧失败或完成缺口；旧完整细节保notes和git历史。
 
 - 2026-11-14 19:27:34 UTC，Astra-new-mechanism-9974ea84：登记R79完整闭C1精确可达性与端点势。两相容性算子的系数空间由闭水平路径实际积分张成；固定控制字、真实ω补偿矩形给光滑闭族，先R76/R77消权三，再由有限独立切向与IFT给局部准确控制，有限重复给任意有限系数。给开桥商类的明确端点势，完整三线性亦适用；未把跨度、时长缩放或formal自由列直接当控制。新closed-C1/端点producer继续，colored全phase和新联合driver并行。
+
+- 2026-11-14 19:33:30 UTC，Astra-new-mechanism-9974ea84：已公开完整新163联合driver291dea47，硬帽高与当前signed-z共用真实X/Jac缓存，原盒/固定g保留；本次仅完整人工链。另直接请求两个新的准确研究目标：closed-C1真实可达商与固定端点势，以及保完整T外槽的colored全phase，两复mode用同一组控制系数，正例从原始模板fresh核。脚本资源/实现故障有小回执，阴性不冒非成员定理；原95行/旧250求解不重跑。共享workflow/publisher增加四lane（实际联合定义但尚未请求）及公开九高度输入。
