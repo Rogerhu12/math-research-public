@@ -86,6 +86,32 @@
       "actual_returncode": 0,
       "wall_seconds": 375.0089394549999,
       "finished_utc": "2026-11-14T10:28:09.286133+00:00"
+    },
+    {
+      "label": "actual_body_rows_990_1000",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-body-work-257-1200/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+        "--candidate",
+        "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--mean",
+        "/workspace/scratch/ac0d699811ad/final-mean-20261114/attempt01/native.json.gz",
+        "--response",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-nonmean.json",
+        "--adjoint",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-nonmean.json",
+        "--first",
+        "990",
+        "--count",
+        "10",
+        "--out",
+        "/__w/_temp/visible-exact-body-257-1200/native/rows-00990-01000.json.gz"
+      ],
+      "started_utc": "2026-11-14T10:28:16.013659+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 20.00083782799993,
+      "finished_utc": "2026-11-14T10:28:36.014932+00:00"
     }
   ],
   "readme_checks": [
@@ -152,6 +178,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:28:37.022625+00:00",
+      "before": "180032c155b5039c465e1fec42e8c192472f036f",
+      "after": "517eced26e9f7d43acb653248dbd651ff25cf141",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -179,6 +213,11 @@
       "time": "2026-11-14T10:28:14.162615+00:00",
       "final": false,
       "commit": "180032c155b5039c465e1fec42e8c192472f036f"
+    },
+    {
+      "time": "2026-11-14T10:28:16.011385+00:00",
+      "final": false,
+      "commit": "8d7ea72692195043e406129ead9c6e09d6a4d6d3"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -208,7 +247,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "180032c155b5039c465e1fec42e8c192472f036f",
+  "last_read_commit": "517eced26e9f7d43acb653248dbd651ff25cf141",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-body-work-257-1200/science",
   "actual_atomic_ranges": [
     [
@@ -232,8 +271,8 @@
       1200
     ]
   ],
-  "snapshot_utc": "2026-11-14T10:28:14.595475+00:00",
-  "wall_seconds": 1030.698848305,
+  "snapshot_utc": "2026-11-14T10:28:37.081280+00:00",
+  "wall_seconds": 1053.18465556,
   "native_files": [
     {
       "logical_file": "native/rows-00257-00477.json.gz",
@@ -252,6 +291,12 @@
       "file": "native/rows-00734-00990.json.gz",
       "bytes": 1189632,
       "sha256": "a8b2595a912c36972e3d84fb078cca484c357f1d34478780dc435e945bc8c982"
+    },
+    {
+      "logical_file": "native/rows-00990-01000.json.gz",
+      "file": "native/rows-00990-01000.json.gz",
+      "bytes": 50672,
+      "sha256": "8b9334eed53f01608e26d35da955320b59ca32bbc444acb6d6a8cfe100a1583e"
     }
   ],
   "completed_atomic_parts": [
