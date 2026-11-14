@@ -1,0 +1,34 @@
+{
+  "schema": "pure-bridge-Gamma-free-bilinear-exact-v2",
+  "arithmetic": "BigInt rational; free symmetric bilinear operators A and S; no associativity or commutation assumed",
+  "independent_symbols": [
+    "q",
+    "incoming_w",
+    "incoming_v",
+    "incoming_p3",
+    "incoming_b0",
+    "incoming_c1",
+    "incoming_p2"
+  ],
+  "derivative_pair_equals_Gamma_over_three": true,
+  "Gamma_even_under_A_sign": true,
+  "Gamma_A_A_zero": true,
+  "full_highest_inverse_pair_for_arbitrary_incoming_history": true,
+  "P2_inverse_pair_for_arbitrary_incoming_history": true,
+  "internal_bridge_P2_equals_Gamma": true,
+  "difference_monomial_counts": {
+    "Gamma_derivative": 0,
+    "Gamma_parity": 0,
+    "Gamma_self": 0,
+    "inverse_w": 0,
+    "inverse_v": 0,
+    "inverse_p3": 0,
+    "inverse_p2": 0,
+    "inverse_b0": 0,
+    "inverse_c1": 0,
+    "internal_bridge_p2": 0
+  },
+  "Gamma_monomials": 5,
+  "actual_profile_geometry_compiler_or_optimization_run": false,
+  "source_sha256": "7711149edb4ccbd11ec5dd8acad03b81fb56de1c9b48480406a57e4402f8178c"
+}
