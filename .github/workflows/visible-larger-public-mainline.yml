@@ -11,7 +11,7 @@ on:
         description: Actual numerical calculation
         type: choice
         default: all
-        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck, coupling112trust, trustresume, coldtailprobe, trustprotected, zerorkprobe, trustmultiline, zerorkprobev2, zerorkprobev3, angledomain, nativeseed, angleprojection, sevenprojection, nativecorrection, observedseven, fullhprojection, nativeband, mixedquery, tenquery]
+        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck, coupling112trust, trustresume, coldtailprobe, trustprotected, zerorkprobe, trustmultiline, zerorkprobev2, zerorkprobev3, angledomain, nativeseed, angleprojection, sevenprojection, nativecorrection, observedseven, fullhprojection, nativeband, mixedquery, tenquery, nativeequilibrated]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           python - <<'PYLANES'
           import json, os
           from pathlib import Path
-          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed', 'angleprojection', 'sevenprojection', 'nativecorrection', 'observedseven', 'fullhprojection', 'nativeband', 'mixedquery', 'tenquery'}
+          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed', 'angleprojection', 'sevenprojection', 'nativecorrection', 'observedseven', 'fullhprojection', 'nativeband', 'mixedquery', 'tenquery', 'nativeequilibrated'}
           if os.environ['EVENT_NAME'] == 'workflow_dispatch':
               selected = os.environ['DISPATCH_LANE'] or 'all'
               lanes = ['free3', 'geometry', 'coupling', 'tailzero', 'cardinal'] if selected == 'all' else [selected]
@@ -159,7 +159,7 @@ jobs:
         with:
           python-version: '3.12.14'
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
-        if: matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'trustresume' && matrix.lane != 'trustprotected' && matrix.lane != 'trustmultiline' && matrix.lane != 'angledomain' && matrix.lane != 'angleprojection' && matrix.lane != 'sevenprojection' && matrix.lane != 'observedseven' && matrix.lane != 'fullhprojection' && matrix.lane != 'nativeband' && matrix.lane != 'mixedquery' && matrix.lane != 'tenquery'
+        if: matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'trustresume' && matrix.lane != 'trustprotected' && matrix.lane != 'trustmultiline' && matrix.lane != 'angledomain' && matrix.lane != 'angleprojection' && matrix.lane != 'sevenprojection' && matrix.lane != 'observedseven' && matrix.lane != 'fullhprojection' && matrix.lane != 'nativeband' && matrix.lane != 'mixedquery' && matrix.lane != 'tenquery' && matrix.lane != 'nativeequilibrated'
         with:
           node-version: '24.22.1'
       - run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
@@ -178,7 +178,7 @@ jobs:
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_operator_interface_check.py" \
             --out "$VISIBLE_OUT/operator-interface.json"
       - name: Fetch the byte-pinned actual28 public artifact into independent storage
-        if: matrix.lane == 'nativeband'
+        if: matrix.lane == 'nativeband' || matrix.lane == 'nativeequilibrated'
         timeout-minutes: 15
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -198,8 +198,17 @@ jobs:
             --capture-directory "$RUNNER_TEMP/actual28-pinned-input-${{ github.run_id }}-${{ github.run_attempt }}/native-correction-capture" \
             --capture-result-sha256 ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7 \
             --scaling original-sigma --out "$VISIBLE_OUT/captured-native-band-correction"
+      - name: Equilibrate the same saved native matrix and refine from exact original residuals
+        if: matrix.lane == 'nativeequilibrated'
+        timeout-minutes: 45
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_native_equilibrated_band_correction.py" \
+            --capture-directory "$RUNNER_TEMP/actual28-pinned-input-${{ github.run_id }}-${{ github.run_attempt }}/native-correction-capture" \
+            --capture-result-sha256 ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7 \
+            --equilibration-passes 3 --refinement-steps 3 --exact-workers 2 \
+            --out "$VISIBLE_OUT/captured-native-equilibrated-band-correction"
       - name: Restore pinned source bytes only from the public repository
-        if: matrix.lane != 'free3' && matrix.lane != 'gwcompat' && matrix.lane != 'circleprobe' && matrix.lane != 'gwvelocity' && matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'nativeband'
+        if: matrix.lane != 'free3' && matrix.lane != 'gwcompat' && matrix.lane != 'circleprobe' && matrix.lane != 'gwvelocity' && matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'nativeband' && matrix.lane != 'nativeequilibrated'
         run: |
           PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PY'
           import os

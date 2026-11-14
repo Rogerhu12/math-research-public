@@ -21,23 +21,22 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 ## 当前两个实际阻断与并行计算
 
-### 前缀：32实际九query，35加真实RMS471继续
+### 前缀：35十query已实际完成，正在读回执
 
-17–29失败/下降完整在actual notes，勿重跑。26引擎7d75a44a…/B af7966fa…冻结；699/M112/T112/N2048、236036完整自由坐标、全部112非零H与父producer保留。29真实mid473/477失效促成九query；30/32共用29父场，原完整SHA见两actual notes。跨轮刷新权重，不跨轮减merit。
-30/fullhprojection run43614132961/source8ed43e0b/job132505423542真完成：同f H44.35849607633413劣于C43.905058168501064，故保C。1200H/18基/16工作行、17CG均未达原残差目标；最佳R267浮点LB43.11565368239749来自rawLSMR μ0非H改进。α1/256降.002933782783976824，新warm8a91f696…/FD9.143364336e−10；最近1/128 left-RMS471拒，1/64 mid473坏。68 B/421数组、62 H NPZ/30全数组、16observer NPZ48数组全核，无全QP/BVP/native。
-32/mixedquery run43614990381/source4dce4180/job132508019098全success；artifact14122645137/175987792B/ZIPbfd16566…已取核，actual32 note已全文读。九query18432行，真mid473/477约束使1/16..1/128全部node/mid finite，但各档仍原left-RMS471拒，最近minβ²−.020315754519159013；较大1/8另坏mid475（不盲加）。最终α1/256同本轮merit44.3724225594053→44.36979142901499，drop.002631130390312819/ratio1.0000278150。col.007110437270942378/BC8.831813076391987e−8仍非解；新完整FD9.143364336011781e−10，native0。与30的初始y/f/mesh/S/J/P/七B全原bits及rawLSMR均同，故本次方向比较有据；两末H/p同而内部field不同。
-当前父32 warm路径 notes/public-actions-43614990381-1-mixedquery/mixed-query-warm/warm-001.json.gz SHA7f5e8d5f888b79c4ce0c0db91c9bc4e27bb9ef0c7554c0f578431ddbbecb578e；status a6224f936f261168ef05a3b51fa3b1318b6d25eacf6653c412d2c33a8731d56e。85 B文件/536数组/20源、15observer/10NPZ30数组及完整父链核。32 intent仅多query_interval_order只读alias，原件不改。
-35/tenquery已接推送：从32真实父warm/status继续，8 left-RMS(471,472,473,475,477,479,480,481)+原mid473/477各2048，共20480行/同全坐标，预计12node捕获无第二全J。独立源5c9b1458…/warm90e22ebb…/FD15cf9295…保原九源，完整J/P/core/p及原middle/mid字节；全部原λ270/200、Hildreth200、17trial/全域/observer/新FD不变。22源及current alias入live identity，无额外门。
+17–29结论/失败全在actual notes不重跑。699/M112/T112/N2048、236036完整坐标、全112非零H；26引擎7d75a44a…/B af7966fa…冻结。每轮刷新权重，不跨轮减merit。
+30/run43614132961/source8ed43e0b完整H确实执行，同f44.35849607633413劣C43.905058168501064；1200H/18基/17CG未达目标，保C，不盲增预算。α1/256真降.002933782783976824/warm8a91f696…/FD9.143364336e−10；H/B/observer字节全核。最佳R267浮点LB来自rawLSMR μ0非H改善，无严格包络。
+32/run43614990381/source4dce4180/job132508019098：九query使1/16..1/128全node/mid finite，仍leftRMS471拒；α1/256真降.002631130390312819，col.007110437270942378/BC8.831813076391987e−8仍非BVP。30/32初始state/RHS/J/P/七B/rawLSMR逐bit同，末H/p同、内部不同；85 B/536数组及父链/observer核。实际note全文读。
+35父32 warm路径 notes/public-actions-43614990381-1-mixedquery/mixed-query-warm/warm-001.json.gz SHA7f5e8d5f888b79c4ce0c0db91c9bc4e27bb9ef0c7554c0f578431ddbbecb578e；status a6224f936f261168ef05a3b51fa3b1318b6d25eacf6653c412d2c33a8731d56e。
+35/tenquery run43616658549/source65fdfd019da295f42c4510a2f3081f3b4a2c59f4/job132513122964 success。artifact14122008066/192883292B/ZIP8a21da7d488905bf1cb5afc35ad5f9bccc96e00f6ac7ff287ec4c0367d1b42af已取核；amplitude读实绩/exact核bytes。8RMS471472473475477479480481+原mid473477=20480行；新三源5c9b1458…/90e22ebb…/15cf9295…保原全J/ΓΠ/core/p/尺度、λ270/LSMR200/Hildreth200/17trial/全域/observer/新FD。按真实拒绝位置继续，无native/完整QP/BVP。
 
-### Native：28完整原线性缺陷已保，接同矩阵带pivot重解
+### Native：36同保存矩阵均衡与精确残差修正
 
-17/19冷启动及21/22新工厂失败均保不重跑。原linearSteps同时定义far/graphs/gains/scales，不全局改它冒只改初猜。23/v3原noJ完整577×224 seed全576stage guard过，norm.04177307820740199仍>原2e−9，全部112 H保留；51内部下溢/9546负零账齐。candidate原bit SHA6b01b385de34af22094bc47fd7c8c2c2da9ac6d07bc40b5ce6362fea241218b8、原σecbfd55d…/far395804bb…全由冻结源硬锁。
-25/run43607404925/source4d384dc5原完整solve真实失败：withJac基态norm同23、minA.9999999999759498/minD.9999999999999858；十trial1..1/512全stage13/raw0/seg7 D/S/A拒，无trialNorm，完整cut J/fresh audit未返回。actual25完整note/原响应已保，不直接用此H失败绕入新H。
-28/nativecorrection run43611175099/source6bd52b44/job132496373274诊断全success；artifact14120548264/235561097B/ZIP0ff8e6f5…已取核。完整actual28-native-linear-defect note；原withJac/correction不改，同seed/原norm/minA/minD，完成后计划STOP，one request/0trial/native_accepted=false。29数组/116chunk/238972680B及22小件逐核；J[576,224,224]全28901376项有限、SHA394ca2cc…；delta[577,224]SHA d3734cf4…，全有限、已存maxabs3.0663412735007466e26在node43/Pi112。
-原σ全stage浮点线性缺陷max **7.3718085303337e40**，stage43/raw0/seg3/Pi110(freq220)，cut/far112行皆0，无nonfinite。maxchart也stage43，G∞2.801e37/inv∞3.146e22/product8.810946110232247e59；不等于全A condition或严格exact defect。所有原J/r/δ/σ/边界原bit可精确重读；summary48d8c012…/manifest3ed8c1bf…/resultff53d954…。
-34/nativeband run43615494107/source1a9f7197/job132509540819已success，artifact14122640178/9625572B/ZIP75091ef3…；31/33只传输失败已修，未科学执行。原band b39e9dd9…同28输入，129248维原σ带LU info0/原地579MB/总3.8478s。新原σstage float4.1558709373255425e30仍stage43/Pi110；该行exact5.2938027944720597e30是严格full-model下界，旧exact7.3718089789340533e40；非trueDF/全A condition。19数组9827464B、完整checkpoint及两见证原bits核。
-新result5e0d6d7f1b9ddc03565fdd62075d9b8d79a89d15078915e591732a0ce46d7dac；checkpoint7c5864155fb20215ab634f31f29263c45629c27c376cdcfc84e2596ccb75f6c8；rawδ cca90e77…，577×224全有限，node43/Pi112=2.433567891499097e21。巨大exact缺陷未修，当前不派此方向重做原trial。下一同J幂二行列均衡+原精确误差修正；generic trial/allrows dyadic已备，不加门。
-28cache在 /workspace/scratch/visible-larger-native-capture-20261114/actions-debug；新大包 /workspace/scratch/visible-larger-receipts-20261114/actions-debug。
+原linearSteps同时定义far/graphs/gains/scales，不能全局改它冒只换初猜。23/v3原577×224 seed全部576stage guard过，norm.04177307820740199>原2e−9，112H/51真实内部下溢/9546负零保全；seedbits6b01b385…/σecbfd55d…/far395804bb…冻结。25/run43607404925原solve同基态withJac合法，但原correction后十trial全stage13/raw0/seg7 D/S/A拒，无trialNorm/cutJ/audit。
+28/nativecorrection run43611175099/source6bd52b44/job132496373274：原withJac/correction后计划STOP，0trial/nativefalse。artifact14120548264/235561097B/ZIP0ff8e6f597af60f19243b5457c28e8638096c775551b6f3d044dc2d2f1fabeee；29数组116chunks/238972680B及22小件全核。全J576×224×224 SHA394ca2cc…、原δd3734cf4…。原σfloat缺陷7.3718085303337e40在stage43/Pi110，cut/far0；maxchart8.810946110232247e59不等于全A condition。原δmaxabs3.0663412735007466e26，node43/Pi112。result ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7；summary48d8c012…/manifest3ed8c1bf…。全部细节actual28 note。
+31/33仅传输失败已修，下载器v3 51224788…独占目标、move后readonly/receipt最后；34已成功证明此路径。34/nativeband run43615494107/source1a9f7197/job132509540819，artifact14122640178/9625572B/ZIP75091ef3…全核。原band b39e9dd9…129248维原σ LU info0/0，但新原σfloat4.1558709373255425e30，same stage43/Pi110 exact5.2938027944720597e30是full-model严格下界（旧exact7.3718089789340533e40），非trueDF/全A condition。19数组/完整checkpoint/见证bits核；δcca90e77…/result5e0d6d7f…/checkpoint7c586415…，不派坏δ重做trial。
+36/nativeequilibrated已接：同28 artifact，源8f5cb5da…+冻结band b39…+allrows整数核0bc8f978…。原σ最近幂二初始化、3轮精确指数行列均衡、每原系数一次ldexp、一次LU/最多3修正；全129248原行exact e一次RN-even成rhs，原σ范数严格改善择best。全部δ/ledger/舍入/原bits见证保artifact，无新J/native/trial。三接口及均衡核心/main全文读，AST/YAML三lane名单/源SHA核。
+原十trial重放e357426a…/hook31c9bda7…已备未调度；28真实基态缓存明确非新withJac，原十trial文本/严格下降不变，真接受一步仅存state后STOP非native完成。后继用真实producer/result，不冒b39。J来源解析implicit/Fourier矩/RK变分，43/58原12步保schedule6+6分组由geometry设计，待36实际结果再决定。
+完整28 cache /workspace/scratch/visible-larger-native-capture-20261114/actions-debug；新包 /workspace/scratch/visible-larger-receipts-20261114/actions-debug。已核ZIP副本可删；Git仅源/输入/manifest，大阵artifact。
 
 ## 之后的完整闭合与同g精化
 

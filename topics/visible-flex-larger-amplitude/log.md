@@ -210,3 +210,8 @@ run43615494107/source1a9f7197/job132509540819 success；同28输入/原band b39e
 ### 2026-11-14 actual32与request35：中点保护实际有效，接真实RMS471
 
 32/run43614990381/source4dce4180/job132508019098全success，175987792B/ZIPbfd16566…全取核，actual32 note全文读。9query让1/16..1/128全部node/mid finite，仍原left-RMS471各档拒；最近β²−.020315754519159013。最终α1/256同模型merit44.3724225594053→44.36979142901499/drop.002631130390312819，新warm7f5e8d5f…/FD9.143364336e−10；仍col.0071104373/BC8.832e−8/native0。同30初始全state/RHS/J/P/七B及rawLSMR字节同，增加mid保护有效但未扩大步长。85 B文件536数组/20源、15observer10NPZ30数组/父链均核；intent仅多只读query-order alias。35从32真父warm/status继续，仅加实际RMS471全角成8RMS+2mid=20480行；三独立源5c9b1458…/90e22ebb…/15cf9295…、新source/alias明确，原全部算法/原17trial/域/newFD保持，三名单/父输入/YAML/AST核。
+
+
+### 2026-11-14 request36：同矩阵幂二均衡与全原行精确残差修正
+
+35/tenquery实际run43616658549/source65fdfd019d/job132513122964已success，artifact14122008066/192883292B/ZIP8a21da7d…全包已取核，数值结论正读真实记录。36复用28同完整A/r/H/σ/cut/far，源8f5cb5da…、冻结band b39e9dd9…及exact全行整数核0bc8f978…：原σ最近幂二初始化、3轮行列指数均衡、每原系数一次ldexp、一次LU/最多3修正。全部129248原行exact e一次RN-even形成rhs，各完整候选按原σ精确范数严格改善择优，完整方向/ledger/舍入/见证保全，无新J/native/trial/audit。三接口及均衡核心/main已读，源SHA/AST/YAML/三lane名单核，公开Actions执行。原十trial重放源码接口另存未调度34坏δ；28基态缓存明确，原试步正文与接受条件逐字节保留。

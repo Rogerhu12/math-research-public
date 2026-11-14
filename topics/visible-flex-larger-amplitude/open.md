@@ -36,7 +36,9 @@
 
 [原band接口](notes/2026-11-14-native-captured-band-correction-interface.md) 直接消费同保存A，原σ显式行列尺度、129248维/kl112/ku335带主元分解，恢复后回原方程读取全部旧/新缺陷，并在Actions对原/新最坏行算精确有理见证。31/33只在输入发布失败，没有科学执行，事实分别见 [31](notes/2026-11-14-actual-request31-artifact-publication-failure.md)、[33](notes/2026-11-14-actual-request33-read-only-publication-order.md)。[34实际带状重解](notes/2026-11-14-actual-request34-native-band-exact-defect.md) 完成同原矩阵LU，info0而新原σ浮点缺陷仍4.1558709373255425e30；同stage43/Pi110精确原数组值5.2938027944720597e30给严格full-model下界。此巨大δ暂不派trial；下一同J幂二行列均衡及精确原误差修正，保原尺度/方程与每次实际改善。
 
-后续依据真实线性证据改进同保存系统；原试步重放入口可消费真正新方向，保原十档alpha、完整原evaluate/guard/merit且不重复同J。试步接受仍不能冒原native/J/audit接受。全行exact dyadic读回组件另行准备，不能把它加成README外的新门。
+[request36幂二均衡与精确修正](notes/2026-11-14-native-equilibrated-band-interface.md) 已接同28 artifact：原σ最近幂二初始化、3轮精确指数行列均衡、每系数一次ldexp、一次LU及最多3修正。完整129248行exact e一次RN-even形成右端；只保原σ范数严格改善的完整方向。全部形成/恢复舍入、每次δ/精确ledger/最坏原bits保全；无新J/native/trial。核0bc8f978…与新源8f5cb5da…冻结，原接受标准不改。后续据真实结果选择原trial或保原12步schedule的shooting分组，不盲改ODE步或g。
+
+[原十试步重放接口](notes/2026-11-14-native-band-trial-replay-interface.md) 已备，明确缓存28真实基态非新withJac；原十档alpha、完整evaluate/guard/严格下降原样且不重复J。接受一步也仅保存全state后STOP，不冒native/J/audit。当前不调度34坏δ。[全行exact dyadic接口](notes/2026-11-14-native-allrows-exact-dyadic-residual-interface.md) 用于原保存系统读回/误差修正，不新增README门。
 
 ### 1C. 保留的替代设计与真正fullDN衔接
 
