@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R489：原同修正的F²双jet真像与两顶极系数](results/R489-actual-double-curve-joint-jets-and-two-leading-poles.md)：连续2b实际charge给厚化完整限制及值/法向两个联合满射界；界外精确对偶还须由其他原列筛成真左行。单位−2/5指定对准确读两最高极系数组合与真实仿射基准，保原carry且未覆盖最坏高b临界窗。
+
 - [R486：分级零权整连接、十三权清极与原齐次第三核](results/R486-graded-integral-connection-and-actual-homogeneous-third-kernels.md)：按权对数连接零增权，真实水平核/全特征核及加一整可逆门全付；十三权给全局清极形式。原物理式保两个混权电荷及conductor/全部carry，得到同预算p²左右提升配对和单齐次实际Smith，未删除混权抵消。
 
 - [R485：二十二权纯角导子、锐模p核与原三源返回](results/R485-weight22-pure-connection-sharp-kernel-and-actual-return.md)：固定Theta无零阶项的齐次乘子最小权22，全68类闭合并准确计算所有特征p核；累计除常数后p饱和当且仅当N<ceil(136p/11)。固定conductor及新增carry、Gaussian/电荷和实际左右提升配对全付，未赋物理像饱和。

@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：80d8e90bb604ba865b3f76987914cc6ffb53db7e；2026-11-14 11:19:47 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：d2871fff2946842660defb43b6ac635438dd0ef0；2026-11-14 11:28:43 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - bc04092b规则差异已读：根1/13将“六个课题”改为上表课题，新增另课题；不影响本课题范围与完成标准。
@@ -15,8 +15,8 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–486已登记，R364仍开。未推丢失的R235/R237及迁移R437/R438已全部重做发布。最近R485=be844109、R483=7431df35、R484=fa856df7、R482=5d8ab906；R486本次登记。完整提交见课题log。
-仅在`/workspace/scratch/4fe3fb9f2a50/math-research-public`的main工作；旧库只读，overlay满后完整移到`/tmp/rank2-old-repo-4fe3fb9f2a50`并保原路径symlink，未删历史。代理只写自己证明/脚本，root统一元数据与逐条push。theta续R488共同A odd29真实核心；literature续R487原五伴随CM/旧W混管；deep续R489原F²厚化联合jet；root续R490真实degree26因子与完整连接。
+R1–363、R365–486、R489已登记，R364仍开。未推丢失的R235/R237及迁移R437/R438已全部重做发布。最近R486=fd4247ce、R485=be844109、R483=7431df35；R489本次登记。完整提交见课题log。
+仅在`/workspace/scratch/4fe3fb9f2a50/math-research-public`的main工作；旧库只读，overlay满后完整移到`/tmp/rank2-old-repo-4fe3fb9f2a50`并保原路径symlink，未删历史。代理只写自己证明/脚本，root统一元数据与逐条push。theta续R488共同A odd29真实核心；literature续R487原五伴随CM/旧W混管；deep续R491真双jet对偶行与原ODE；root续R490真实degree26因子与完整连接。
 
 ## 主目标和完整旧接口
 
@@ -54,7 +54,9 @@ R485纯固定Θ角导子Q=Θ22 a²∂t在无零阶项的齐次乘子类最小22�
 
 R486分级∇_m=t∂t−ceil(m/68)·t a′/a零增权，标准基上是j；加一版本e_m≤p−2时整可逆，完整charp核和累计锐门已付。乘W13=Θ13a清极增13权，所有68类/系数增长保留。物理完整式24保M EΘ和M ceil(EΘ/68)两项；式31给同预算p²左右提升的联合配对，不拆项。单齐次c_m+e_m<L时原Smith恰p^floor((13+c_m+j)/s)，无primitive第三核；混权抵消仍开。conductor自身角项/Gaussian和全新carry均保。
 
+R489原连续2b charge已在F²厚化上完整限制，同一实际R的值长V/ER长N满足式13两界时联合满射；低A_D双行由原相邻charge单位填齐。界外真余核由厚化对偶层及全部其他原列筛选给实际行24；原−2/5目标的配对是unit×(a_(−N′)−(2/5)u0(−1)^h b_(−V′))，仿射基准完整保式29。D=3b最坏u≈b时法向界主项−b²/4，未覆盖全临界窗；联合分支满射不等同J/M提升。
+
 ## 其他开放支线与继续顺序
 
 O4十六负扭曲rank1/全Sha、真I³核、88标签全Hilbert trace和conductor Euler仍保R230/237/271/296/304，缺跨p原类低增广非零或a≤1；小高度/不p除不替代。O6真实单位Tor/评价及严格类群q_p正奇、有限 iff q_p=1仍缺跨p约束，单p有限不传播。
-继续R487原CM平移和与旧W混管、R488共同A完整core、R489同预算F²联合jet；root接实际低degree因子及原连接，随完整结论即推。主目标未完成，QUEUE不改完成，不等阶段确认。
+继续R487原CM平移和与旧W混管、R488共同A完整core、R491实际两顶极系数组合；root接实际低degree因子及原连接，随完整结论即推。主目标未完成，QUEUE不改完成，不等阶段确认。
