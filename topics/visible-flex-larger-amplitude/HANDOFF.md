@@ -27,12 +27,13 @@ request17/run43598917532的3步warm仍非解，warm003 SHA5d1c452291099ad18b1a61
 R262完整Hermite两端RHS/global p/入口chart域梯度、投影正阻尼下降及λP伴随已证并推送。request20/trustprotected真run43603477207/source2501ebf6/job132473033066全success；完整artifact14117605862/ZIP0cee357c…已取。473/index0梯度complex3.7179e−13，投影伴随2.048e−18，Bz−8.88e−16；λ270/LSMR200仍80步istop2。预条件normal2.6137e−5但未预条件projected KKT344.921，勿称方向高精度；R263已证λ²强凸后验界，供内层精度判断而非新接受门。原collocation独立complex仅free core/global p方向，内部physical为0。
 20同模型merit44.447162239996→44.446116127468，α2^-10/下降.001046112528/ratio1.0001444；原全node/mid/两RMS/rho过。col=.007110545981/BC9.59725e−8仍非解。新warm SHA0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71，新真实完整Rφ FD9.07968e−10；Hmax3.35792e−16保全部112项/native0。详细actual-request20-protected-query-and-next-domain-rows。下一从此warm一模型λ270/200，保护原已观察(473,0)/(480,0)/(473,11)三点，同左fraction.17267316464601146；22实际run43604874829/sourcefb32e240/14:26:31Z，trustmultiline job132477286177运行中。所有原域/merit/最终门保留，不只加模型数或λ。
 
-### Native冷启动：21工厂失败，独立v2待调度
+### Native冷启动：22已过工厂，仅私有深处下溢保护拒绝
 
-17首次真非零Hmax4.1760413061806626e−17，native iteration0 norm1.3414e7/chartCond1.3312e60，10trial全D/S/A拒（raw0/seg7、stage13/14）；outer_history空，没进入prefix inner，无新H/J/audit。MaterialTrace早已P[:,0]=0，H是真非mean z，不许归零。zero cache没导worker predictor，仅zero checkpoint也不恢复stage tangent。原linearSteps2048同时定义far/graphs/gains/scales，不能全局改它冒只改初猜。详见actual-tiny-H-native-tail-cold-start-failure。
-19/run43602823170/source25d2/job132471064124/publishere84c1d79：saved与原cold initial129248项数值相等；原无J576stage全guard过/70.779s，norm13414069.968482966，最坏stage11/raw0/seg7/Pi104；cut/far全112行0。原summary SHA5c9203ce46b44de31d187c3dce43f94f30524cb25c9beaf31b9d893f05d640b1，完整actual-cold-tail-no-J-stage-replay已推，不重跑。
-21/zerorkprobe真run43603818345/source3b5a584e/job132474070289：约.217s工厂报stage12/index92 determinant检查；factory/candidate均false，evaluate_calls=0/native0。四T项有限，但旧合并分支不足区分det非finite或有限0；不是已见下溢/原native guard失败。artifact14117411488/ZIP4d546160…，summary SHA0c69d072f25c927e32322021e65b717ef6d68089d6332ed4c69c793fec87b481。见public-same-RK-candidate-probe-actual21。
-独立v2 initializer/probe/hook已冻结，root已读diff/接口；同17全H及原17/19/21字节锁。仅私有图不再以有限rounded det0否决（实际只除u=a+bγnext），不宣称块可逆/准确；非finite/零u/非零传播下溢仍拒。逐stage所有T/ad/bc/det在失败前保全，21失败块留逐RK子步。候选成功才一次原evaluate(false)，原far/graphs/gains/scales/RK/guard/tol全不改，无自动Newton/J/audit。22同run的zerorkprobev2 job132477286262运行中；真实回执决定后继native。
+17首次真非零Hmax4.1760413061806626e−17，native iteration0 norm1.3414e7/chartCond1.3312e60，10trial全D/S/A拒；outer_history空，无新H/J/audit。H是真非mean z，不能归零；zero cache未导worker predictor，zero checkpoint不恢复stage tangent。原linearSteps还定义far/graphs/gains/scales，不能全局改它冒只改初猜。
+19/run43602823170实际原无J576stage全guard过，norm13414069.968482966；最坏stage11/raw0/seg7/Pi104，而cut/far全112行0。saved与cold initial129248项数值相等；完整actual-cold-tail-no-J-stage-replay已推，不重跑。
+21/run43603818345工厂在stage12/index92的合并det检查失败，evaluate0；summary SHA0c69d072f25c927e32322021e65b717ef6d68089d6332ed4c69c793fec87b481。旧件未留T，不反填v2值为v1观测。
+22/zerorkprobev2实际run43604874829/sourcefb32e240/job132477286262：全部576stage工厂成功，41个有限rounded det0；该12/92在本次明确ad=bc=−3400707242096343。2.451s预测在261→262第112模因Q=−5e−324/u275.8821411118115→0，被私有underflow veto拒；candidate=false/evaluate0，无新norm/J/audit。1427完整事件/块已取，artifact14118131680/ZIPf885ff4f…，summary SHA4d09183f4afd7838d80ad707042e52bd2212d8ae846ad15ce2c25a1754634ea7。publisher仅因lane漏白名单失败，root补救全部原产物并修两lane，不重算。
+原native initial本就允许普通有限binary64舍入为0，该veto是新初猜器自加。geometry接独立v3，保cut全部H/模式/far/graphs/gains/scales/域/容差，只记录并允许真实深处乘除underflow；非finite/零u仍拒。候选完整才原noJ，不自动Newton；exact_refinement写R264误差账，不添科学门。三行lane仍运行中。
 
 ## 之后的完整闭合与同g精化
 

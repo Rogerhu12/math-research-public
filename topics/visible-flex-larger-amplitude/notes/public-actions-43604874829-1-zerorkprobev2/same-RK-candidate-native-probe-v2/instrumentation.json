@@ -1,0 +1,12 @@
+{
+  "schema": "actual-same-RK-native-probe-request-loop-only-v2",
+  "hook_sha256": "612a6e995214e192f8eea2522eab12576a95e482f0efcef85c17685439b23cbd",
+  "initializer_sha256": "c6146b9566031ec636949f94bcbbe4b6fd051002bdb5949a6c70821e0d0c1879",
+  "frozen_worker_sha256": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+  "original_compiled_worker_sha256": "7ae35ec10d1def0894951fa91ae6aa5232d05d4193b9e50c08d840f87a31e3d2",
+  "removed_original_loop_sha256": "30767f1aece9ae22ca942112479c38651aa8103e5c180a08483136802f4c779c",
+  "instrumented_compiled_worker_sha256": "bc5c368d93a82aeff6cf8df6c24b1751500260005c04017e992a1e794e054e51",
+  "only_request_loop_replaced": true,
+  "constructor_and_initial_and_evaluate_and_numerical_sources_unchanged": true,
+  "replacement_protocol": "One private same-RK candidate and one original no-J evaluate; no solve/Newton/J/audit/zero solve"
+}

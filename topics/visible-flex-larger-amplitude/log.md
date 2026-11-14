@@ -624,3 +624,8 @@ run43603818345/job132474070289真实失败，artifact14117411488/ZIP4d546160…�
 ### 2026-11-14 R263：受限KKT与正阻尼模型后验界
 
 完整证明直接登记results/R263并索引，原note转短链：r=P(Aᵀ(b+Az)+λ²z)、实际预条件normal=C^-1r；受限H≥λ²I给方向与gap界及最佳模型下降比例，恒等式缺陷仅zᵀr。root全文读证明、核实际20 model SHA a143788e…及官方SciPy1.17停止说明，无新数值。istop2不是迭代上限，实际20未证明高精度模型最优但真下降保留；不推域失败因截断、不加科学门、不改22主线。
+
+
+### 2026-11-14 request22真实v2全块完成、深处舍入初猜拒绝与产物补出版
+
+run43604874829/job132477286262实际工厂全部576stage成功，41个有限rounded det0；本次12/92明确ad=bc=−3400707242096343。预测261→262第112模真实Q=−5e−324除275.8821411118115得0，被新增初猜underflow veto拒；原native evaluate0，无新norm/J/audit。完整1427事件与块在artifact14118131680/ZIPf885ff4f…已取核；自动publisher仅因root接新lane时漏加argparse白名单失败，全部限额内原件现补出版，publisher补trustmultiline/zerorkprobev2，不重算。原native initial没有此新增veto，后继独立v3只允许实际深处有限舍入零并留损失身份，所有cut H/原方程/门保留。
