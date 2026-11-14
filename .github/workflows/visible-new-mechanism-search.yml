@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -83,6 +83,7 @@ jobs:
             /topics/visible-flex-new-mechanism/notes/eccentric-search-design-002-curvature-seed.json
             /topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/
             /topics/visible-flex-new-mechanism/notes/actions-43592270686-1-closed_quartic/
+            /topics/visible-flex-new-mechanism/notes/actions-43592270686-1-star_lift/
       - name: Prepare bounded public output directory
         run: |
           git config gc.auto 0
@@ -408,6 +409,17 @@ jobs:
             --closed "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43592270686-1-closed_quartic/absolute-jacobian-closed-design.json" \
             --quartic "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43592270686-1-closed_quartic/quartic-support-closed-design.json" \
             --out "$VISIBLE_NEW_OUT/frozen-period-derivative-audit.json"
+      - name: Certify two frozen six-mode cores with sharper height and rotating-frame intervals
+        if: matrix.lane == 'star_verify'
+        timeout-minutes: 25
+        run: |
+          for parameters in a65-b12 a60-b09; do
+            python -u "$VISIBLE_NEW_SCRIPTS/space_star_frozen_lift_verify.py" \
+              --input "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43592270686-1-star_lift/space-star-lift-design-${parameters}.json" \
+              --planar-report "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json" \
+              --trial selected --nodes 32768 --samples 384 \
+              --out "$VISIBLE_NEW_OUT/space-star-six-mode-${parameters}-N32768.json"
+          done
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:

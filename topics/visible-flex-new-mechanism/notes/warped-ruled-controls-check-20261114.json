@@ -1,0 +1,125 @@
+{
+  "schema": "warped-ruled-controls-development-check-v1",
+  "development_check_only": true,
+  "research_optimization_or_scan_performed": false,
+  "artificial_identity": {
+    "schema": "warped-ruled-core-controls-v1",
+    "coefficients": [
+      "0.11",
+      "0.017000000000000001",
+      "-0.0060000000000000001",
+      "0.0025000000000000001"
+    ],
+    "coefficient_order": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "scale": "0.90000000000000002",
+    "construction_phase": "psi=phi+sum(c_j*sin(3*j*phi)); chi=3*phi",
+    "closure_root": "a=1/2-3*c2/2; eta=-2*a/(3+sqrt(9-4*a+4*a*a))",
+    "normalization": "C3 center anchor on x axis; center_z(0)=0; no fitted ambient rotation",
+    "ambient_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "q_definition": "integral_0^(2*pi)|d_phi|dphi/(2*pi)",
+    "q_numeric": 2.916213048124795,
+    "q_control_jacobian_numeric": [
+      0.05048846002236301,
+      0.05998718522259993,
+      -0.16642614511098705,
+      -0.033478579455463044
+    ],
+    "metric": "ds^2+q^2*(scale^2+s^2)*dtheta^2",
+    "curvature": "-scale^2/(scale^2+s^2)^2",
+    "coefficient_changes_are_design_unless_q_is_fixed": true,
+    "all_control_jacobians_hold_material_theta_fixed": true,
+    "arclength_numeric_quadrature_certified": false,
+    "arc_cells": 48,
+    "quadrature": 12,
+    "closed_surface_constructed": false,
+    "task_complete": false
+  },
+  "unit_direction_error": 2.220446049250313e-16,
+  "direction_raw_derivative_relative_errors": [
+    1.3543476286740877e-11,
+    1.86623117973306e-11,
+    1.0407076249716996e-11
+  ],
+  "vertical_primitive_derivative_error": 1.0824674490095276e-15,
+  "vertical_mean_closure_float_residual": 5.898059818321144e-17,
+  "center_derivative_integral_closure_norm": 2.0100407920199415e-15,
+  "center_control_derivative_integral_closure_norm": 7.781974926990364e-15,
+  "metric_error": 6.661338147750939e-16,
+  "full_halfturn_two_jet_error": 4.551914400963142e-14,
+  "legacy_two_mode_port_error": 1.3766765505351941e-14,
+  "q_control_jacobian_absolute_errors": [
+    1.650289349619527e-10,
+    3.2962389068247333e-10,
+    1.983858910481473e-10,
+    2.1327759697209459e-10
+  ],
+  "material_phase_jacobian_relative_errors": [
+    5.102418858520576e-10,
+    2.2958891149739828e-10,
+    1.099509443603966e-09,
+    8.169893887494366e-10,
+    3.8437282294608863e-10,
+    8.72354162224733e-10,
+    8.326286638500582e-10,
+    2.1087282412083697e-10,
+    4.180027265965137e-10,
+    6.18228316234953e-10,
+    2.7803241455639635e-10,
+    3.543263126585019e-10
+  ],
+  "material_port_control_jacobian_relative_errors_by_angular_order": [
+    [
+      6.916314511824924e-10,
+      2.7511334750121542e-09,
+      1.0093805439876398e-09,
+      1.331420885611926e-09
+    ],
+    [
+      6.499278441602621e-10,
+      6.232365986067494e-10,
+      6.432570607923656e-10,
+      2.343483997433079e-10
+    ],
+    [
+      5.896105739484905e-10,
+      6.585594365575825e-10,
+      1.5548123893771755e-10,
+      1.0264464904541791e-10
+    ]
+  ],
+  "metric_control_jacobian_relative_errors": [
+    5.220458480035977e-10,
+    8.681115169129437e-10,
+    3.975757223031954e-10,
+    6.345490254536699e-10
+  ],
+  "port_scale_jacobian_relative_errors": [
+    1.0462817792502642e-10,
+    4.111912870245564e-11,
+    3.0477114977371224e-11
+  ],
+  "metric_scale_jacobian_absolute_error": 1.4339240905769657e-10,
+  "source_sha256": "d3f0c05ea09dc34bdef86dbae0a7358926b40f9b5292f028e96583cf0770ebe2",
+  "passed": true
+}

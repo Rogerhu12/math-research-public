@@ -147,7 +147,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--results", required=True, type=Path)
     parser.add_argument("--lane", required=True,
-                        choices=["eccentric", "seeds", "kernel", "core_folded", "second_order", "folded_bearing", "band_geometry", "band_newton", "inward", "codedesign", "inward_fixed", "ellipse_cont", "ellipse_phi", "inward_gc4", "star_core", "closed_design", "ruled_tail", "space_star", "closed_quartic", "star_lift", "space_refine", "warped_core", "warped_tube", "phase_shoot", "derivative_audit"])
+                        choices=["eccentric", "seeds", "kernel", "core_folded", "second_order", "folded_bearing", "band_geometry", "band_newton", "inward", "codedesign", "inward_fixed", "ellipse_cont", "ellipse_phi", "inward_gc4", "star_core", "closed_design", "ruled_tail", "space_star", "closed_quartic", "star_lift", "space_refine", "warped_core", "warped_tube", "phase_shoot", "derivative_audit", "star_verify"])
     parser.add_argument("--repo", type=Path, default=Path.cwd())
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
