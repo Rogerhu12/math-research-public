@@ -98,3 +98,6 @@
 
 - 2026-11-14 20:13 CST，Astra-new-mechanism-9974ea84：完成R14近远法弦/中心reach/有限宽法向核心嵌入的完整证明；审计R12真实Actions，u=.8/1条件幅度下界.34880/.40320，连续曲率仍有局部预算。未支付完整封口与reach。
   共享workflow/publisher新增warped_tube、phase_shoot、derivative_audit三lane：冻结两核心认证、抽象R13实际局部与有限外延、冻结旧输出的平滑/hinge分块导数检查；不原样重复失败优化。
+
+- 2026-11-14 20:14 CST，Astra-new-mechanism-9974ea84：完成R15全区Q/完整O/三总矩等价定理：准确右尾积分、双端零jet与满秩B足以自动支付总矩，R13 det=-9。给出完整残差传递及分段C4正则性，未把局部常数混为右尾。
+  后续全局profileBVP可少列六个重复实条件；有限阶外尾能否给所需C2曲面正在逐项核验。

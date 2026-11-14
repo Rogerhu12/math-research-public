@@ -31,3 +31,5 @@
 - [R13：内部二重退化下真实的局部 C∞ 复相位开启](results/R13-local-smooth-complex-phase-opening.md) — 已用加权Green/Euler压缩证明跨内点的真实光滑解，左实右复且虚部全平；给出使完整局部Volterra条件成立的三矩常数。尚未实现全局右尾、双端紧支撑、三总矩或实际几何系数。
 
 - [R14：法弦近远点对分解与有限宽准确核心嵌入](results/R14-normal-ribbon-embedding-certificate.md) — 已证明近弧曲率法弦界、完整参数片覆盖的中心曲线reach下界及有限宽法向核心嵌入准则；实际u=.8/1候选将由Actions认证，未覆盖圆领或完整闭面reach。
+
+- [R15：两端零 jet 与满秩 B 下三复总矩自动成立](results/R15-global-endpoint-moments.md) — 已证明完整区间Q=0加两端q/q′/q″零及满秩B，自动给完整O=0与三复总矩零；允许C3且分段C4，另给准确残差传递。没有把局部R13或截断射击当作满足前提的全局解。
