@@ -479,3 +479,7 @@ root亲读process12424B SHA954d8038…、summary28522B SHA230b4ba0…和完整ac
 ## 2026-11-14 22:53:53 UTC：高根jet公开52pin consumer部署
 
 独立部署science a23bb8bd…/SHAbeaf8a8d…、CI25028a02…/98a56e08…、manifest35982d5e…/568633a6…、worker a97db773…/13a8cec2…与flow235123c7…/88960e56…。52件1708567B含原39源闭包、对象/两NPZ、root/aux完整native；不搬运binary到connector。一次新根有限F0..11，每个完整误差/范数/双线性均值/E/形式级数阶段立即保存，只同源/同manifest/runtime前缀复用；45/50min限制前后真pull与README差异核，失败也完整出版及artifact。实际结果尚未声称。只读核f90bd5563c427fa9002c21fc1a1125de8a77fe76README均不变。
+
+## 2026-11-14 22:55:56 UTC：旧径向第一Airy完整递推独推
+
+核P1–25的D²号、原fold两方程、M0归一化、J*=−Q*、两递推的所有当阶项及Laurent支持归纳；最终blobee5653668ea79d34240150d3a11dbeed99e92a8c，13002B，SHAbb24538605604ad552f7afa635c508f0b361f8942d4ebd7ae65e8e59ea1d3fac。保留完整角多项式、所有mean及fullδ，新的正向image门只把v2既证sup用于合法旧product圆，不偷换邻piece或同宽Wiener。新consumer继续，旧成功jet/native不得重算。归档前H并压缩已有fullF/V叙述；只读核1e3c256f19479897bc2895ba5147ae1e64f5f571README不变。

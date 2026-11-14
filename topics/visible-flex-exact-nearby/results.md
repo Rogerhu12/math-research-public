@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 第一Airy修正的旧径向完整Taylor递推已证。** [P1–25](results/R133-supplement-old-radial-first-Airy-Taylor-and-complete-Fourier-root-recurrence.md)：拉回同一归一化transport后，用真实J*=−Q*直接三角解旧ρ的A/B，再恢复a1/b1；完整leading8、forcing6、w1到6的Fourier支持|j|≤1536，无角截断。已成v2 canonical全sup经正向image门控制旧product圆，只有未算尾收Cauchy和必要Wiener宽差。原mean、1079seams、I/J及全部物理端口仍保，等待新公开finite consumer。
+
 - **R133 固定η0真实根的完整高阶内蕴jet公式已闭合。** [H1–12](results/R133-supplement-true-root-high-intrinsic-jets-from-complete-auxiliary-errors.md)：一次新有限F0..11，已证两辅助域完整误差逐阶Cauchy择优，完整双线性均值给E0..10及K/β/γ/s0..9；物理半径/高度mean、全部分母gap与原低阶认同保留。原1e−9参数宽只作外包，不把同一根授予其他η；尚待公开实际执行，也未支付w1 Taylor、I/J或strong返回。
 
 - **R133 完整5970真实接口单跳增益实际完成。** [实际报告](results/R133-supplement-actual-all5970-cached-interface-impulse-gains.md)：公开run43649423561 child0/11门，新增6391齐次界、两12361事件扫和5970接口，全复用旧signed核/exp/Gram。原weighted跳→ordinary L²最大上界全窗121146.604996、固定负窗56766.695864；全mean/腰闭合/两源列齐。native fbba3507…/14168739B/8parts保留，同源多跳不可平方相加，仍未授全矩阵或无限逆。

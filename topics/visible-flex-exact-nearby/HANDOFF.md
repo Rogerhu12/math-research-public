@@ -1,15 +1,15 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 22:53:53 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 22:55:56 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在 Rogerhu12/math-research-public 工作；新数学只在公开仓库Actions。每条结论独推，非FF立即真pull --rebase再推直到成功，禁force。root管main/H/open/results/log；代理只交正文/blob，勿碰共享checkout。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。
 最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近runner真pull：22:44:51 UTC b7e434dfa289ea50505421c59a84ad77819499d6；impulse四次两README实际diff空。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：f90bd5563c427fa9002c21fc1a1125de8a77fe76；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：1e3c256f19479897bc2895ba5147ae1e64f5f571；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 最近partial checkout在 /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；当前环境不可用。此前相关AGENTS皆无。runner长算10min真pull；phase45/50min前后真pull，非FF循环；成功数学与出版失败分记。
-本次前H全文9934B在 notes/2026-11-14-handoff-before-high-root-jets.md；旧H/open/results/152结论档案链完整。actual报告、manifest、native保对象/身份/参数/全部失败及逐行证明，不凭摘要重构。
+本次前H全文9915B在 notes/2026-11-14-handoff-before-old-radial-Taylor.md；旧H/open/results/152结论档案链完整。actual报告、manifest、native保对象/身份/参数/全部失败及逐行证明，不凭摘要重构。
 
 ## 同一对象和总完成门
 
@@ -24,11 +24,11 @@ geometry43584188751/26门是条件结论：同η0真闭C²解/fullC0≤1e−4/|�
 finite193 point43635487128/8门 native7fcd5bec…：负窗ν误差<.003509417445587、全L²<.007490301792401、C0<.060889190964764。真97帽源<1.379019669555e−7、mean<4.079815735966e−8、knownhigh<2.920495224265e−7；unknown χH<.003840162仍独立。详R133-supplement-actual-native-point-Hessian-same-Z-Green.md。
 finiteL²43633074696 nativeac4441cb…：6391signedGram/5970接口，ordinary→全L²<22386.327561、负窗<10488.564544、C0<181981.908213。cross43637596465 nativea12fd95f…：G_L A_LH全L²<2884413.051957、负窗<1351427.386989。均粗upper，不能证反馈大；旧全部成功格不重算。
 旧四格全193 F：43645186441 child0/11门，native4328b192…；4数组artifact14133504273/61752830B，全方向/degree24/原hash与过程见actual-four-full193-cached-local-matrices报告，成功数据不重算。
-同F G1–18合同及actual43648579604 child0/15门/183.475455358s已成，native9a46d9fc…24778B，完整新H/J/三角数组artifact14135471378/9996896B。详R133-supplement-actual-four-same-F-triangular-source-Grams.md（SHA22227144…）。76格patch<3.222134e−9、真生成元差<1.432758e−4、cross H trace<.505679224；三source128方向/全mean/真R/负窗交段齐。source2173281e…/112pin a24a9a7f…旧105不变，四旧F完全复用。下一只扩其余5966格并复用这四sameF；同Q同R节点可用准确三角换基，真正V舍入跳另付；仍非全BVP。
+同F G1–18 actual43648579604 child0/15门/183.475455358s，native9a46d9fc…24778B、全H/J/三角数组artifact14135471378/9996896B。详actual-four-same-F-triangular-source-Grams（SHA22227144…）；4旧F/105旧pins全复用，新增全193/128方向/mean/真R/负窗交段。source2173281e…/112pin a24a9a7f…。下一只扩5966新格；同Q同R准确三角换基、V独立舍入付真跳，仍非全BVP。
 5970真接口impulse actual43649423561 child0/11门/123.372064197s，nativefbba3507…14168739B/8parts，processb55c2df0…8423B，报告R133-supplement-actual-all5970-cached-interface-impulse-gains.md（SHA53b7a815…）。101pins原97不变，6391新齐次界+两12361扫，0旧exp/Gram/target。单跳全窗<121146.604996、负窗<56766.695864，真实R跳不再乘R；同源多跳仍三角/相关界。
 完整帽P1–19（768f1f11；R133-supplement-full-frequency-moving-cap-boundary-and-Poisson-interface.md）保h1+S(HB−KB P⊥HC)h2和−m^-2Π0h2−K0P⊥HC h2，S=v·composition。有限97输入矩阵不授任意high；内L²不能控制独立cut trace。原物理对称空间/mean范围不向外扩展。
 正高双输出43639514776/11门 native54b39404…：真cut even重构<.595330881947；内head→正body/cut<226.101680824/111.623062290；独立外帽head列<69.241039838/34.183279287。七源/mean/rootincoming齐，仍非全Schur。
-root V1–22共同输运/正波分解已推ec771b9a，保κr/κ、primitive、mean和非解背景R*。T=d∂φ+dφ/2在同L²反伴随；δ0交换子高97两向零，全δ仅HH零。非酉frame必须付metric；未授cap伴随/平滑/全逆。
+root V1–22共同输运/正波（ec771b9a）保κr/κ、primitive、mean、非解R*；同L²输运反伴随，δ0高97交换子双向零/全δ仅HH零。非酉frame须付metric，未授cap伴随/平滑/全逆。
 
 ## Airy根、第一修正与全源：phase_inverse、root
 
@@ -37,7 +37,7 @@ C1–15/N1–12的精确H^-1HD=−iεQK(T)、gd=Dw−ηhφ及完整h/qv已证。
 辅助E1–12同piece：43640181602 child1，Ra1e−4/5e−4成功，.001/.002 gap失败，native6276b4b8…432808B完整保；只在原germ交认同物理，不改邻piece。
 F1–19锚定fold/直接leading二阶（SHA63e76681…）；43646714623 child1/nativea6f6225c…，小域13门过、大域selfmap失败，全部原数据/粗余项见actual-anchored-auxiliary-fold-and-direct-leading-first-forcing报告及前H，失败不得抹去。
 C1–7根积分交已推fc53baab；v2 actual43647998272 child0/6身份门+大域14门，native84e2bd1b…20319B。旧小case/两coeff/rootanchor逐字保、旧child1/fail另保。R=3/8000，canonical27/32000；Jac>4.30857883174、μ>18.56551547693、Fb<1335.043146479/Fa<2.089387252，原9e−6内L0w1幅度<6977483.057/19107989810.304。详R133-supplement-actual-larger-anchored-auxiliary-fold-with-preserved-prefix.md（SHA34e50180…）。sourcee4720dc7…/28pin7f00e2a2…，process855730f8…46443B；两真pull5137a924…空diff。尚非全IJ/mean/strong返回。
-D1–24/J1–19同w1内外L0与精确root递推已证（443da14d，SHA2429213d…）；b1(0)=Fb，只Taylor尾收Cauchy。新H1–12证明（R133-supplement-true-root-high-intrinsic-jets-from-complete-auxiliary-errors.md，SHA5db44117…）：固定η0真实根，一次新F0..11→E0..10→K/β/γ/s0..9，复用两aux完整尾误差/Cauchy；不冒授其余η同根，原半宽只作外包。52pins/1708567B（manifest568633a6…、sourcebeaf8a8d…）已部署，待actual；phase续旧ρTaylor/strict外片。
+D1–24/J1–19同w1内外L0与精确root递推已证（443da14d，SHA2429213d…）；b1(0)=Fb，只Taylor尾收Cauchy。新H1–12证明（R133-supplement-true-root-high-intrinsic-jets-from-complete-auxiliary-errors.md，SHA5db44117…）：固定η0真实根，一次新F0..11→E0..10→K/β/γ/s0..9，复用两aux完整尾误差/Cauchy；不冒授其余η同根，原半宽只作外包。52pins/1708567B（manifest568633a6…、sourcebeaf8a8d…）已部署，待actual；P1–25旧ρ直接Taylor已证（R133-supplement-old-radial-first-Airy-Taylor-and-complete-Fourier-root-recurrence.md，SHAbb245386…）：J*=−Q*、真三角A/B、leading8/forcing6/w1到6；完整支持|j|≤1536，尾只Cauchy并付sup→Wiener宽差，待新finite消费。
 root Y1–14旧mean压缩/完整w1 I/J预算已证（R133-supplement-exact-old-mean-compression-and-first-correction-nonlocal-budgets.md，SHA55baa5f0…）：ΠDU(w)=ΠU(gd)，原T密度rawmean可取M0(gd)；w1用真实S密度和完整z_K词，或旧g_K预算/(4J0)，两者合法取min。全evenmean/原1079seam/fullδ/外片与最终J窗口保。仅给负源窗口，正侧走原weighted合同；待公开新source积分，CE/Cs/充分cutoff/closed逆仍缺。
 
 ## 外返回、新简单根和闭网络：tail_connector
