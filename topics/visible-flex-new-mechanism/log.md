@@ -83,3 +83,5 @@
 - 2026-11-14 19:38:33 UTC，Astra-new-mechanism-9974ea84：登记R81完整纸证：真实R71交换子组合H=[r0,s0]−3[r0,r1]的对角恒零但外槽非零，全部pure−4严格不变；端尾明确有理系数给−2非零，R39共同even bump和C3连续逼近保严格三矩得到C∞非退化圆。可调混合槽确属真实控制，未声称其满射；该证明没有任何本地研究计算。R82已推109cdd7f，同提交请求一次真实joint及人工core transport；fullphase原run仍继续。
 
 - 2026-11-14 19:39:40 UTC，Astra-new-mechanism-9974ea84：新core工厂人工43633105146/source109cdd7f全pass，双侧234bits、selected复制、新core/g/heat、原anchor、同态冻结六jet0、GH/Nb保子类、8拒错通过，人工core位置误差≤1.136e−14。立即转独立B=.37单selected初态审计实现（固定原函数、全metric/曲率/镜像及新高度门），尚无真实新core评价。旧B唯一joint actual仍运行。
+
+- 2026-11-14 19:41:35 UTC，Astra-new-mechanism-9974ea84：登记R80完整仿射可达集合Tend+W及两mode实际函数商必要充分条件，保共同I/有界紧族/有限重复但不保证预给盒与时长。另记录fullphase actual43632772378在152模板逐响应阶段300.026s资源退出，RSS113.58MiB；完整local重构、内槽155与常态种子已过，未做联合匹配，非数学阴性。保原partial95746B及官方列进度，下一按具体耗时先消完整T线性冗余再续，非原样加预算。
