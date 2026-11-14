@@ -6,7 +6,7 @@
 
 闭连通 C2 嵌入族 Ft、时间 C2 连续、同一固定 g；固定材料开集 H 且 diamH≥.2D；不对齐的真实像集 Hausdorff 位移≥.3D；全域全时 reach≥.03D；最大相对 metric≤1e−6，且同 g/物理参数/时间加密改善；完整小网格、复现及严格存在性差距。D 是初始完整曲面直径。δE 可为0但须如实报。达标后继续 .5D 或更强存在性。
 
-- 根及本题 README 已完整读。公开仓库最后已读规则提交：`da54025b9da921335ef22c30a84a1ebbd323c627`；环境恢复后于12:58 UTC前已实际CLI pull，根/本题README相对最后已读版本差异为空。
+- 根及本题 README 已完整读。公开仓库最后已读规则提交：`d08b296f516d81f10ca40a632c615c75c4f958f1`；环境恢复后于12:58 UTC前已实际CLI pull，根/本题README相对最后已读版本差异为空。
 - 每次 pull 后只读这两 README 新差异并立即遵循，至少每小时 pull。每结论提交推送；NFF 立即 pull --rebase 并循环推送，不强推。
 - 作者指定 QUEUE 已置进行中。私有仓库于12:58 UTC前已恢复实际CLI pull，根规则diff空；队列唯一匹配行仍为本会话进行中。私有研究内容不发布。
 - 研究计算只用本公开仓库自己的 Actions。令牌仅瞬时命令行认证，不入文件。根 LOG 不写；共享 workflow 理由记本题 log。HANDOFF<10KB，其他 MD<100KB，数据>1MB压缩、单件<5MB。
@@ -52,14 +52,10 @@
 4. **R13实际 shoot**：run43593758483 的12个局部Green/Euler例全部通过，局部O约2.2e−15；均延至±.995但端点未趋零，不能当紧支撑解。相位幅度百倍时外端近似一致，仍须分辨真实分支选择和刚性积分。
 5. **global_profile 43595131331 已完成**：两初值最终D≈−4.299/−4.554，R20已证不可几何实现；最高次数完整O≈.33627/.31062、原Qmax≈312.88/279.31，抽象方程也未过。正C四阶分支已由R19+R20排除，不原样重跑。
 
-6. **零framing cosine首轮已严格排除该点**：run43597247312全部开发检查通过；固定候选κ≥.295、J≥.15357、framing0、条件幅度≥.309728，但主曲率最大值下界16.27947给必要reach/D≤.019567<.03。停止该点封口/加密，转tip/valley准确q_ell零消元的新设计；旧H2触界和出口转向预算分别处理。D0/physical_C同run实际审计另续。
+6. **零framing cosine首轮已严格排除该点**：run43597247312全部开发检查通过；固定候选κ≥.295、J≥.15357、framing0、条件幅度≥.309728，但主曲率最大值下界16.27947给必要reach/D≤.019567<.03。停止该点封口/加密，转tip/valley准确q_ell零消元的新设计；旧H2触界和出口转向预算分别处理。同run固定q2几何四档积分给C(10)>0、C(25)<0、正根16.62628188869稳定，W/C′在两物理根均为正；只是冻结数值证据，连续符号/根数与普遍比值限制未证。
 
 ## 已失败路径与接续
 
-保留原输出，勿原样重跑：ellipse_cont/ellipse_phi 两长度两角基都仅接受圆形 t=0；最小非圆步 t=.0078125 metric=.001258/.000621，边界二jet在舍入级。inward_fixed Cartesian metric=.99686、κsample4679.9；inward_gc4 material metric=.999688、κsample57704，第四阶GC恒等式/初始Jac/pin二jet通过。官方日志确认两者共享40min step超时，第二 signed/ellipse 无完成文件，不是数学排除。见对应 actual-audit notes。
+旧失败输入均有原始输出及actual-audit notes，勿原样重跑。ellipse_cont/ellipse_phi仅接受圆t0，最小非圆步metric约.001258/.000621；inward_fixed/gc4的metric约1且曲率巨大，官方日志确认共享40min超时造成第二表示无完整输出，不是数学排除。旧Cartesian偏心/core-tail、R44 ruled-tail和文献bump/Newton均未通过完整metric/周期；局部二jet或缩ε不补全它们。
 
-旧Cartesian偏心最细metric3.35e−4且曲率必要比约.0053；曲率约束版metric.539。folded两表示.171/.586；8个旧core-tail最佳.0152；inward B/C平盘位置严格给reach≤.02。旧R44 ruled-tail metric=.99991、κsample121895，不机械加密。
-
-文献原 bump 两完整周期在高N仍8.80e6/2.04e6，投影二阶metric≈57；相位Newton非零相位metric=.00284/.00674/.01085。不能减均值、缩ε或只给±两端冒充有限族。
-
-warped_collar run43595305950已完成：150nfev/38.75s，fine metric=.9999665、κsample70270、投影越界.69372，开放二jet≤6.89e−15。真实失败已审计；R23另以linking严格排除已认证基线封平圆领，不靠数值残差作不存在证明。下一构造改为偶cos高度的零framing准确核，重新认证宏观曲率/宽度/包络后求正负两侧连接；文献继续D0变号/退化及零算子例外。保持本文件、open/log/notes最新；只在主README全部完成门通过后收尾。
+warped_collar43595305950在150nfev内实际失败，fine metric=.9999665/κsample70270；R23独立以link排除已认证基线平圆领目标。R24同样排除当前sin星核。新cos首轮因严格曲率必要界被否决，下一步以尖谷q_ell零消元及出口转向空间设计新的准确零framing核心，再重新支付连续局部/全宽单射/双侧连接/完整reach。文献只在D0及实际几何可实现范围研究变号、退化或零算子例外。保持本文件与open/log/notes最新；主README全部门通过前不收尾。
