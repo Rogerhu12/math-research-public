@@ -1,0 +1,514 @@
+{
+  "P0_satisfied": false,
+  "actual_sizes": {
+    "coefficient_DAG_nodes": 23131,
+    "history_states": 248,
+    "profile_atoms": 619
+  },
+  "baseline_true_bridge_T_included": false,
+  "column_summaries": [
+    {
+      "pair": [
+        "p0",
+        "p1"
+      ],
+      "response_sha256": "0b84d969330491de2f9eae6c5554f2e215287adfa28922900451e5f7007c5bca",
+      "response_terms": 107,
+      "tau_sha256": "786c845bbcf0eeb1c13c2be052eca8d4d8ad83a6c18e5ee3defd1c1082d9b146",
+      "tau_terms": 17
+    },
+    {
+      "pair": [
+        "p0",
+        "p2"
+      ],
+      "response_sha256": "5ef3478156dfbfad37e96fe01d6494a8552688522143365fe51dc908079301c5",
+      "response_terms": 64,
+      "tau_sha256": "9427714ff6597b7648ce5db3be1581548e73d2e2c554c4fe585179d7225e7c88",
+      "tau_terms": 7
+    },
+    {
+      "pair": [
+        "p0",
+        "r0"
+      ],
+      "response_sha256": "717d4b28eada7debcb12c87d03dde8c095f3b53a800d339a5b3c0f4e1e7f8776",
+      "response_terms": 19,
+      "tau_sha256": "4e271c8b800b857b48bade4a4632414e5635a923675600637fa9939e66291de9",
+      "tau_terms": 1
+    },
+    {
+      "pair": [
+        "p0",
+        "r1"
+      ],
+      "response_sha256": "ee26fb73e414f74cf7b675bc4628d86db174dfe1d83b5c2173ff7adf3c8556d4",
+      "response_terms": 64,
+      "tau_sha256": "88ed07190aa727a8b79d4bacef849ff36af643cf8feeb4c691523667c2ca0f50",
+      "tau_terms": 6
+    },
+    {
+      "pair": [
+        "p0",
+        "s0"
+      ],
+      "response_sha256": "2548a7eba6028d19581afeb13aef00d464c1f8e33209ec4deda637572925b5fb",
+      "response_terms": 75,
+      "tau_sha256": "e5b2159bf54086fc577fa83be91934015498a1a5432cf0718d0e2a28bcb20c15",
+      "tau_terms": 6
+    },
+    {
+      "pair": [
+        "p0",
+        "s1"
+      ],
+      "response_sha256": "613b58309949cfa8ee55c9ab75589eec6902d4f0e22473ff3f3eb59eb4646c31",
+      "response_terms": 71,
+      "tau_sha256": "b79c3c5c66e1f1bec99955fb00abad00cc48aa31f236a71d099c668e6c387587",
+      "tau_terms": 12
+    },
+    {
+      "pair": [
+        "p0",
+        "t1"
+      ],
+      "response_sha256": "4eb39a8bfc318ebb53cd8158aca5967316a4bd8c0284282d47178d3dd81cb2ed",
+      "response_terms": 102,
+      "tau_sha256": "910e621291c46da6ab8defb29176da099feac918448f03e4553140617b118eda",
+      "tau_terms": 12
+    },
+    {
+      "pair": [
+        "p1",
+        "p2"
+      ],
+      "response_sha256": "d3d0d859934bc06e224f0a2da6113bbd798b6685afd963d13382c6055921d9a6",
+      "response_terms": 59,
+      "tau_sha256": "8c92cd2a3e1a9c989b806abcb169351fa4acbd17c05e1e74b2d889d800a4fa4b",
+      "tau_terms": 9
+    },
+    {
+      "pair": [
+        "p1",
+        "r0"
+      ],
+      "response_sha256": "357e599889411d1d53765aa84660ba0fcf9bad2e081019c757a6d43ea6b7cb57",
+      "response_terms": 79,
+      "tau_sha256": "9feb1f84a254385618234b6f0c83a746c5a595d3804c2640fafc1392881ec941",
+      "tau_terms": 7
+    },
+    {
+      "pair": [
+        "p1",
+        "r1"
+      ],
+      "response_sha256": "82176397551796515051754b18a46b8087e8b71170061d24d05e9b99cb8be8a3",
+      "response_terms": 57,
+      "tau_sha256": "2da13b70074e7559f5089d7161b2ebf7337022eb8696f35b7624cf7955c1d1b1",
+      "tau_terms": 7
+    },
+    {
+      "pair": [
+        "p1",
+        "s0"
+      ],
+      "response_sha256": "dccd1fe8af356a592048047f4b063169ea0af8b78e00515371450f4e7ab99de6",
+      "response_terms": 59,
+      "tau_sha256": "ff01efda48c5ecf7b0b4852dc12065b050b88aae281e2dd58ccbd4ba27260428",
+      "tau_terms": 4
+    },
+    {
+      "pair": [
+        "p1",
+        "s1"
+      ],
+      "response_sha256": "2537ee2c1f2cd1201569eabc1f51b0484aac8afb1281adc467f8064d2a765dd2",
+      "response_terms": 101,
+      "tau_sha256": "48cf157fe80f15459cd13000e80f163624f52be83d852721fc7285a4818d4780",
+      "tau_terms": 15
+    },
+    {
+      "pair": [
+        "p1",
+        "t1"
+      ],
+      "response_sha256": "3e4f2ce1b39e91f4e361ac30e0c430b9089b0a10540c2f3f1b893801fd03be4f",
+      "response_terms": 72,
+      "tau_sha256": "d01df5f312405730b31aaf7d3b2555c71fe0471fbcbdc331c944d07e5e88170a",
+      "tau_terms": 10
+    },
+    {
+      "pair": [
+        "p2",
+        "r0"
+      ],
+      "response_sha256": "b546505dda598591973985cca302d3035ad62f25b785f9c87df69d87fb9b21b5",
+      "response_terms": 71,
+      "tau_sha256": "ea6c4d52b30efc79a36c1b1895c407c5e70ba832550a0357d381c0ddabbc789a",
+      "tau_terms": 12
+    },
+    {
+      "pair": [
+        "p2",
+        "r1"
+      ],
+      "response_sha256": "cce96faa2e227c39c61a05b1b5d0c2fd24839b7e5fa6cc34c65baf7c291ae689",
+      "response_terms": 80,
+      "tau_sha256": "4dc5dd0c5837869c5463d3832246e8fc5abed03682e811222d922dd076773777",
+      "tau_terms": 10
+    },
+    {
+      "pair": [
+        "p2",
+        "s0"
+      ],
+      "response_sha256": "6e04c324f55b473db7728794ecf76eff825957449e7280eef8ef5ec688457ee4",
+      "response_terms": 103,
+      "tau_sha256": "135a3089fc4c1526f0ea01d32ba3064eeb235bcb99721be38a8e2e05a89d0713",
+      "tau_terms": 15
+    },
+    {
+      "pair": [
+        "p2",
+        "s1"
+      ],
+      "response_sha256": "1cef9ae881c0660a2b114c193a761632d169b9caa7f72dede126ebdc7cae44bd",
+      "response_terms": 89,
+      "tau_sha256": "3e73a5dc25e0bdead93a06123c0859f365a12325b684287ef10daa773de91c1b",
+      "tau_terms": 13
+    },
+    {
+      "pair": [
+        "p2",
+        "t1"
+      ],
+      "response_sha256": "de5c71a97945db5889aca42946ec95513f35a2eca4ede3855385966d1d5fa95f",
+      "response_terms": 59,
+      "tau_sha256": "550b0962a0b8e8e6300a4e3202a9dc1889292b7a3474e9892d5378323ceed065",
+      "tau_terms": 9
+    },
+    {
+      "pair": [
+        "r0",
+        "r1"
+      ],
+      "response_sha256": "f269c371f64a3008449b7d6ac17a4c86d053ba6b8289fddda57dc68de8e87cca",
+      "response_terms": 16,
+      "tau_sha256": "0a9a11f99b133d78d3267c87fb982d3f04131d0b0c4ff133e32f38c8b873694a",
+      "tau_terms": 1
+    },
+    {
+      "pair": [
+        "r0",
+        "s0"
+      ],
+      "response_sha256": "5deb4aef4e6a9c62837bbe1f63442b1aa35d1c6f2bccf89d0ca8af837d5159aa",
+      "response_terms": 16,
+      "tau_sha256": "faab1b8d2f91aca08db2fd85d8b77c24facbe301a24d5d3b663a92abb487db4f",
+      "tau_terms": 1
+    },
+    {
+      "pair": [
+        "r0",
+        "s1"
+      ],
+      "response_sha256": "a802faebce3a0f48181e488f3b09fa9508b5c766ae9f2361ae16b2803f0881cc",
+      "response_terms": 42,
+      "tau_sha256": "5121e4531c7345639b7ac3de2b785944b60e387e72172e8b70964a6979550a2d",
+      "tau_terms": 3
+    },
+    {
+      "pair": [
+        "r0",
+        "t1"
+      ],
+      "response_sha256": "e4e9f0a38e93049e10ba970dbff26ef46653ecab45ad8d756ae76aed2b2b3a1a",
+      "response_terms": 57,
+      "tau_sha256": "42cc705f3fbe41816858abff2e84ad1232bc6b23327167bde3395b58c6fdd10e",
+      "tau_terms": 5
+    },
+    {
+      "pair": [
+        "r1",
+        "s0"
+      ],
+      "response_sha256": "8f6e6969c332a53a677bbf570f8c5cc23f9d0ef26701fa6c99e6accb666b17e2",
+      "response_terms": 38,
+      "tau_sha256": "a255266024f965810bb44fb71fca36711b4418186ffd380ffcf4a1ef8324d274",
+      "tau_terms": 3
+    },
+    {
+      "pair": [
+        "r1",
+        "s1"
+      ],
+      "response_sha256": "0b9df76614eaf20740c9d5f957c849e84f5457db720cc996ce634d74608ff3d6",
+      "response_terms": 90,
+      "tau_sha256": "b1888643d91c74544f3c8e526a120d8a63fb138ec023b1853eeae561f0e1efe9",
+      "tau_terms": 9
+    },
+    {
+      "pair": [
+        "r1",
+        "t1"
+      ],
+      "response_sha256": "4a79ddd5b127c44bf195d341e0d5e4df6844aaec4e0bb8cd40c71a8264c8c4ea",
+      "response_terms": 84,
+      "tau_sha256": "8a781e8822f149341ead06a1bc83ce0b4e269a9124dfba9796a898ac9b782faa",
+      "tau_terms": 8
+    },
+    {
+      "pair": [
+        "s0",
+        "s1"
+      ],
+      "response_sha256": "e417aa7c7cb4dbec4192cba939513ad6a2c4d2417896b30288bdaa4f5eb2bbda",
+      "response_terms": 51,
+      "tau_sha256": "443d29a32f5725a5193723e1faa8be084dedc34fc355eeac053b500a5953f873",
+      "tau_terms": 3
+    },
+    {
+      "pair": [
+        "s0",
+        "t1"
+      ],
+      "response_sha256": "47723248e053672f55d18b4435820074da3283c45d11b0dd0c2786d4ca4cdecd",
+      "response_terms": 65,
+      "tau_sha256": "f7683e5d5ccbdfce9b571f61783dd451ebeadb1a5318977039c829729fa60161",
+      "tau_terms": 6
+    },
+    {
+      "pair": [
+        "s1",
+        "t1"
+      ],
+      "response_sha256": "34c51040e936cb58505d58dd8a25243ad7b09f9d418861f9efe87029dafa969d",
+      "response_terms": 108,
+      "tau_sha256": "b441297d28cd8851a0bc929996927324b6f84e5e33c7a19e4e394ab1c4212b7f",
+      "tau_terms": 16
+    }
+  ],
+  "columns": "H_A([Phi_i,Phi_j])=(D[Phi_i,Phi_j](q)[A(q,q)]-2A(q,[Phi_i,Phi_j](q)))/8",
+  "common_positive_pair_duration_divided_out": true,
+  "compiler_dependency": {
+    "bytes": 33169,
+    "filename": "literature_range_profile_algebra.py",
+    "git_blob_sha1": "01c7424af3a96f2c2a0f0cb0c782b2037ff3ec74",
+    "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+  },
+  "completion": "complete",
+  "constant_compiler_records": [
+    {
+      "records": [
+        {
+          "B_terms": 4,
+          "J_terms": 4,
+          "P_terms": 4,
+          "R_terms": 13,
+          "eta0_terms": 0,
+          "field_component_terms": [
+            15,
+            12,
+            16
+          ],
+          "mode": "constant_1_B",
+          "order": 2,
+          "period_rhs_sha256": "1fa844f72aab729be8f209ab1a36f8a0163bccee41ed17737ea4c5e147980a57",
+          "recovered": true,
+          "ruling_integrand_sha256": "a81da979d55975ed503f6f701dff43cb12b52a030ba8d224700be6a188fa2bdd",
+          "ruling_integrand_terms": 4,
+          "state_count": 13
+        },
+        {
+          "B_terms": 31,
+          "J_terms": 31,
+          "P_terms": 35,
+          "R_terms": 111,
+          "eta0_terms": 87,
+          "field_component_terms": [
+            159,
+            101,
+            166
+          ],
+          "mode": "constant_1_U",
+          "order": 3,
+          "period_rhs_sha256": "d6317bb27240a7f4d6d838eabbffc87dcd5b97a3997124c7531fa4788af4bf3e",
+          "recovered": true,
+          "ruling_integrand_sha256": "6f0efdf540eca32fcb0dee70bb352fef8dda4f1d0f10d77bbca57ef3063317dd",
+          "ruling_integrand_terms": 35,
+          "state_count": 111
+        },
+        {
+          "B_terms": 397,
+          "J_terms": 397,
+          "P_terms": 385,
+          "R_terms": 1293,
+          "eta0_terms": 759,
+          "mode": "constant_1_pure_fourth",
+          "order": 4,
+          "period_rhs_sha256": "02a123fca1a1118d85108f0c9fe9da8c9c0e6fe62ae0db92bc780e9c88ba50d2",
+          "recovered": false,
+          "ruling_integrand_sha256": "95b967039dac0e1156f364a44adf97d08cfbbd751ade270fbd678214f7afd103",
+          "ruling_integrand_terms": 385
+        }
+      ],
+      "sign": 1
+    },
+    {
+      "records": [
+        {
+          "B_terms": 4,
+          "J_terms": 4,
+          "P_terms": 4,
+          "R_terms": 13,
+          "eta0_terms": 0,
+          "field_component_terms": [
+            15,
+            12,
+            16
+          ],
+          "mode": "constant_-1_B",
+          "order": 2,
+          "period_rhs_sha256": "ec3605efcc8087104bf01607d7031a49b077873c307fb4a3603613ca46fcee5a",
+          "recovered": true,
+          "ruling_integrand_sha256": "a81da979d55975ed503f6f701dff43cb12b52a030ba8d224700be6a188fa2bdd",
+          "ruling_integrand_terms": 4,
+          "state_count": 13
+        },
+        {
+          "B_terms": 31,
+          "J_terms": 31,
+          "P_terms": 35,
+          "R_terms": 111,
+          "eta0_terms": 87,
+          "field_component_terms": [
+            159,
+            101,
+            166
+          ],
+          "mode": "constant_-1_U",
+          "order": 3,
+          "period_rhs_sha256": "60d6cc76c040e2fdb7acc23a0985c26b6cf45f40668bacd2a6b1b4fb6876e513",
+          "recovered": true,
+          "ruling_integrand_sha256": "c05e7911d68cb6642d7625ac8952c09988e23c7b8c95f61a7aa3617a3e96c637",
+          "ruling_integrand_terms": 35,
+          "state_count": 111
+        },
+        {
+          "B_terms": 397,
+          "J_terms": 397,
+          "P_terms": 385,
+          "R_terms": 1293,
+          "eta0_terms": 759,
+          "mode": "constant_-1_pure_fourth",
+          "order": 4,
+          "period_rhs_sha256": "4b6ca5115d95fc9da85620d414cc862d740b7113f799d2a33c2800f2dde8367a",
+          "recovered": false,
+          "ruling_integrand_sha256": "6f4245751689e31edbdcb9c4da14e4012d0758cd48748579e3846f15807eb56d",
+          "ruling_integrand_terms": 385
+        }
+      ],
+      "sign": -1
+    }
+  ],
+  "elapsed_seconds": 2.1211305639999978,
+  "embedded_closed_surface_certified": false,
+  "finite_isometric_family_certified": false,
+  "full_fourth_range_satisfied": false,
+  "github": {
+    "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_RUN_ID": "43628716304",
+    "GITHUB_SHA": "e42c78ff34087089b8ce6ee74cb25a9a74bef7bd"
+  },
+  "independent_column_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    18,
+    20,
+    21,
+    24
+  ],
+  "kind": "bounded_exact_whole_function_span_test",
+  "loop_realization": "R71 T_loop=2*t*[Phi_i,Phi_j] for a fixed small parameter interval. For any finite coefficient c, choose a fixed finite m and concatenate m copies with t=c/(2*m) inside that interval; M=0 makes T add exactly. One m may be fixed on a compact coefficient neighborhood.",
+  "negative_result_scope": "failure to produce a verified identity here does not prove functional nonmembership, nor rule out a fixed profile or other actual third holonomy",
+  "ordinary_complex_products": true,
+  "peak_resident_mib_linux": 36.703125,
+  "phase": "finished",
+  "positive_verification": "fresh residual from the unnormalized true R56 target and the original unnormalized matrix brackets; every IBP boundary is the common zero right collar",
+  "profile_domain": "one arbitrary complex C-infinity profile, zero on a common right collar; I compactly inside (1,infinity)",
+  "profile_or_geometry_integrals_evaluated": false,
+  "rational_span_scope": "the 28 actual commutator directions, modulo only the explicitly justified incomplete right-IBP rewrites",
+  "relation_in_rewritten_representatives_found": false,
+  "resource_limits": {
+    "IBP_calls": 250000,
+    "coefficient_nodes": 500000,
+    "memory_mib": 2048,
+    "memory_scope": "polled RSS threshold, including inherited compiler time-check sites; not an OS hard cap",
+    "profile_atoms": 60000,
+    "rational_bit_scope": "exact rational span elimination",
+    "rational_bits": 8192,
+    "seconds": 240,
+    "terms": 80000
+  },
+  "rewritten_representative_rank": 18,
+  "right_IBP_statistics": {
+    "cycle_fallbacks": 0,
+    "first_level_shuffle_rewrites": 28,
+    "power_shuffle_rewrites": 4,
+    "primitive_calls": 375,
+    "unique_high_jet_rewrites": 234,
+    "weight_zero_not_rewritten": 0
+  },
+  "schema": "visible-flex-reciprocal-pure-whole-function-membership-v1",
+  "signed_primitive": "I(F)(xi)=integral_r^xi F; positive tails J=-I; no left-tail reset",
+  "small_exact_toys": {
+    "checks": {
+      "I_q_qprime": true,
+      "I_qprime_qthird": true,
+      "actual_matrix_commutator_tau0": true,
+      "constant_plus_operator": true,
+      "no_profile_or_geometry_evaluation": true,
+      "right_shuffle_square": true,
+      "signed_I_derivative": true,
+      "tau0_response_independent_right_IBP": true
+    },
+    "independent_tau0_response_digest": "f269c371f64a3008449b7d6ac17a4c86d053ba6b8289fddda57dc68de8e87cca",
+    "profile_atoms": 42,
+    "right_IBP_statistics": {
+      "cycle_fallbacks": 0,
+      "first_level_shuffle_rewrites": 1,
+      "power_shuffle_rewrites": 1,
+      "primitive_calls": 27,
+      "unique_high_jet_rewrites": 12,
+      "weight_zero_not_rewritten": 0
+    }
+  },
+  "source_sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70",
+  "span_remainder": {
+    "sha256": "f37a17713aeebf0b0c6a6268d4fde1edc62bf04c0f31be800ad5ae338b1fff21",
+    "terms": 76
+  },
+  "target": "R65 pure local reciprocal pair P[q]/16, generated by R56 with h=1,k=+/-1,omega=+/-1",
+  "target_derivative_ordering": "compile all physical derivatives with actual history RHS; only then set incoming second/third history values to zero",
+  "target_summary": {
+    "raw_sha256": "a4d4c092f3ff4582b9bfe386a9f176eb36c47f8a25dd03abace8c19fb1b35685",
+    "raw_terms": 473,
+    "rewritten_sha256": "09bad57d356dfb8683cf5999c66a0b31fafa3834a643e79e6132b86f4fcd6235",
+    "rewritten_terms": 59
+  },
+  "verified_whole_function_identity": false,
+  "zero_left_tail_assumed": false
+}
