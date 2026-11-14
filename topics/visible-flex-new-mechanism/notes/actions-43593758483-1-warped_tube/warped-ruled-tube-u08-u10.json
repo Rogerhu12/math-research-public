@@ -1,0 +1,173 @@
+{
+  "schema": "warped-ruled-tube-scan-v1",
+  "rows": [
+    {
+      "warp_u": ".8",
+      "warp_v": "0",
+      "continuous": {
+        "exact_decimal_parameters": {
+          "warp_u": ".8",
+          "warp_v": "0",
+          "scale": "1"
+        },
+        "eta": {
+          "lower": "-0.17157287525380990239662255158060384286065624924611",
+          "upper": "-0.17157287525380990239662255158060384286065624924610"
+        },
+        "sigma": {
+          "lower": "0.98517143100941603868950196381190774957419286449949",
+          "upper": "0.98517143100941603868950196381190774957419286449951"
+        },
+        "regularity_endpoint_factors": [
+          {
+            "lower": "3.2402020253553338633552715722128453800049187489445",
+            "upper": "3.2402020253553338633552715722128453800049187489446"
+          },
+          {
+            "lower": "2.4166522241370463318514833246259469342737687525632",
+            "upper": "2.4166522241370463318514833246259469342737687525633"
+          }
+        ],
+        "continuous_direction_regular_by_endpoint_formula": true,
+        "direction_speed_lower": "2.4164702546691415575904989237011304586219146025816",
+        "direction_speed_upper": "3.2577076931634736077776266042868524145259481287445",
+        "unresolved_speed_cells": 0,
+        "sphere_geodesic_curvature_absolute_upper": "3.1104618816272513798320036499020828554195495387995",
+        "core_principal_curvature_upper": "3.4042153321117337805011598280884536383636830426406",
+        "core_max_principal_curvature_lower": "3.3974444960496926911085343199021398507505847549776",
+        "center_second_derivative_upper": "18.148219896978949609942965199138525374715722549842",
+        "center_third_derivative_upper": "100.96852265065956765168525314292238616003778430497",
+        "center_absolute_height_upper": "0.30061733552854228992636793642806579548147659499803",
+        "center_anchor_x": {
+          "lower": "3.3638491573421764558774884888346132007422806462885",
+          "upper": "3.3640817193794716103774127855448775396082032252581"
+        },
+        "center_vertex_error_upper": "0.00071210696065493466062855115918498335002855703627758",
+        "center_chord_error_upper": "0.000037959575858044286842123453387884733006073490519764",
+        "midpoint_integral_error_per_component_per_cell": "2.8796567126809354358948637225980388474491278507450E-7",
+        "spherical_length": {
+          "lower": "19.074308524699568250946871503970305837515557162848",
+          "upper": "19.079263573133123745343415373273512390360247603337"
+        },
+        "nodes": 1536,
+        "decimal_precision": 50,
+        "exact_center_closure_from_formula": true,
+        "central_projection_embedded_certified": false,
+        "core_embedding_certified": false,
+        "whole_surface_reach_certified": false
+      },
+      "tube": {
+        "schema": "warped-ruled-tube-v1",
+        "available": true,
+        "nodes": 1536,
+        "half_width": ".05",
+        "center_curvature_absolute_upper": "3.1104618816272513798320036499020828554195495387995",
+        "near_arc_threshold_lower": "0.50500420406152922579820702291189246709391235034386",
+        "near_normal_chord_radius_lower": "0.32149566143432233328671955995411443983681903282089",
+        "total_arc_length_upper_from_cells": "19.235298341192018308373592005221565414210362559400",
+        "near_cell_pair_count": 61421,
+        "far_cell_pair_count": 1118995,
+        "far_cell_distance_lower": "0.437283047962526427721030586326378397643566131591796875",
+        "limiting_far_cell_pair": [
+          1000,
+          1048
+        ],
+        "centerline_embedding_proved": true,
+        "centerline_reach_lower": "0.21864152398126321386051529316318919882178306579589",
+        "core_embedding_proved": true,
+        "normal_ribbon_injectivity_margin": "0.16864152398126321386051529316318919882178306579589",
+        "whole_closed_surface_reach_proved": false,
+        "round_collars_constructed": false,
+        "task_complete": false,
+        "source_sha256": "2ec8af1e3f7fe2ed7ff4d7e49e9679776fb0cc7b26c4884faaf830bafbc9ced6"
+      },
+      "elapsed_seconds": 23.089180701999993
+    },
+    {
+      "warp_u": "1",
+      "warp_v": "0",
+      "continuous": {
+        "exact_decimal_parameters": {
+          "warp_u": "1",
+          "warp_v": "0",
+          "scale": "1"
+        },
+        "eta": {
+          "lower": "-0.17157287525380990239662255158060384286065624924611",
+          "upper": "-0.17157287525380990239662255158060384286065624924610"
+        },
+        "sigma": {
+          "lower": "0.98517143100941603868950196381190774957419286449949",
+          "upper": "0.98517143100941603868950196381190774957419286449951"
+        },
+        "regularity_endpoint_factors": [
+          {
+            "lower": "3.3431457505076198047932451031612076857213124984922",
+            "upper": "3.3431457505076198047932451031612076857213124984923"
+          },
+          {
+            "lower": "2.3137084989847603904135097936775846285573750030155",
+            "upper": "2.3137084989847603904135097936775846285573750030156"
+          }
+        ],
+        "continuous_direction_regular_by_endpoint_formula": true,
+        "direction_speed_lower": "2.3135342809900311931479505913679505972519314019273",
+        "direction_speed_upper": "3.3912779971572132783993691902737555150707146851928",
+        "unresolved_speed_cells": 0,
+        "sphere_geodesic_curvature_absolute_upper": "3.9165137828404148995365794685370143072620599265032",
+        "core_principal_curvature_upper": "4.1570679457845278015433687295178593954282493714588",
+        "core_max_principal_curvature_lower": "4.1472340740190140573231676607790281720962073982408",
+        "center_second_derivative_upper": "20.946165671133531136583231256074681972999996310643",
+        "center_third_derivative_upper": "133.75759882370909980835830311310096147882386258556",
+        "center_absolute_height_upper": "0.36821017658324634919817792610602653308463990158245",
+        "center_anchor_x": {
+          "lower": "3.2023312199862093867254323566629183706812909481913",
+          "upper": "3.2026393055050376306295891824750542779707956671728"
+        },
+        "center_vertex_error_upper": "0.00094336051139817017841402193861979843260215898948816",
+        "center_chord_error_upper": "0.000043811876274483222537261817270502772578390077027560",
+        "midpoint_integral_error_per_component_per_cell": "3.8148123515429229273125598634952239573867733977908E-7",
+        "spherical_length": {
+          "lower": "19.492608411822457404384339782599451003940890973536",
+          "upper": "19.499939862098318403864459590990430193181653855671"
+        },
+        "nodes": 1536,
+        "decimal_precision": 50,
+        "exact_center_closure_from_formula": true,
+        "central_projection_embedded_certified": false,
+        "core_embedding_certified": false,
+        "whole_surface_reach_certified": false
+      },
+      "tube": {
+        "schema": "warped-ruled-tube-v1",
+        "available": true,
+        "nodes": 1536,
+        "half_width": ".05",
+        "center_curvature_absolute_upper": "3.9165137828404148995365794685370143072620599265032",
+        "near_arc_threshold_lower": "0.40107003674469168115732150804702400553362245522995",
+        "near_normal_chord_radius_lower": "0.25532911549586310304263867754309821422858199668692",
+        "total_arc_length_upper_from_cells": "19.689502667492886310948849305146027058703568743474",
+        "near_cell_pair_count": 47604,
+        "far_cell_pair_count": 1132812,
+        "far_cell_distance_lower": "0.34509516853223398680228228840860538184642791748046875",
+        "limiting_far_cell_pair": [
+          996,
+          1035
+        ],
+        "centerline_embedding_proved": true,
+        "centerline_reach_lower": "0.17254758426611699340114114420430269092321395874023",
+        "core_embedding_proved": true,
+        "normal_ribbon_injectivity_margin": "0.12254758426611699340114114420430269092321395874023",
+        "whole_closed_surface_reach_proved": false,
+        "round_collars_constructed": false,
+        "task_complete": false,
+        "source_sha256": "2ec8af1e3f7fe2ed7ff4d7e49e9679776fb0cc7b26c4884faaf830bafbc9ced6"
+      },
+      "elapsed_seconds": 22.634431473000006
+    }
+  ],
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_sha": "74942576333fbc4001e16bb58021b41f958fcfaf",
+  "github_run_id": "43593758483",
+  "source_sha256": "2ec8af1e3f7fe2ed7ff4d7e49e9679776fb0cc7b26c4884faaf830bafbc9ced6"
+}
