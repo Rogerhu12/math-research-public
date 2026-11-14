@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43611611635",
+  "reviewed_pull_history": [
+    {
+      "before": "5d34a1a1cb06853f71effb3a03f12ae18d059e2a",
+      "after": "5d34a1a1cb06853f71effb3a03f12ae18d059e2a",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "5d34a1a1cb06853f71effb3a03f12ae18d059e2a",
+      "after": "5d34a1a1cb06853f71effb3a03f12ae18d059e2a",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/exact-right-Z-endpoint.json.gz",
+      "bytes": 32287,
+      "sha256": "8f6019cefaa96da64eadb3b19a98110dc81a0d5760a091e6fdffe538c971e606",
+      "original_sha256": "8f6019cefaa96da64eadb3b19a98110dc81a0d5760a091e6fdffe538c971e606"
+    },
+    {
+      "file": "consumers/exact-right-Z-endpoint.stdout.log",
+      "bytes": 76474,
+      "sha256": "1327c304d225dae96764673910e6ede90c585914f90640a95b485a502485a2fb",
+      "original_sha256": "1327c304d225dae96764673910e6ede90c585914f90640a95b485a502485a2fb"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 92750,
+      "sha256": "9d55a6a01fb9a079c13f0379f1041cd2d61b30f1b31f701df2ebcbd45890f59d",
+      "original_sha256": "9d55a6a01fb9a079c13f0379f1041cd2d61b30f1b31f701df2ebcbd45890f59d"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 80468,
+      "sha256": "5bab1caab9c75cb1e2d455f93a2943cb3fdc90a7bbd2b13e9a36a3808fa5b831",
+      "original_sha256": "5bab1caab9c75cb1e2d455f93a2943cb3fdc90a7bbd2b13e9a36a3808fa5b831"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2617,
+      "sha256": "db148ba750b09de805b54ef8dce3e575a89d8eca91d90e47bcd281c2a7ece81f",
+      "original_sha256": "db148ba750b09de805b54ef8dce3e575a89d8eca91d90e47bcd281c2a7ece81f"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}
