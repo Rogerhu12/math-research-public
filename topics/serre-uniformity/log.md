@@ -1074,3 +1074,10 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 正性/AMGM/初等totient界给primitive norm几何均值<5p(2+log2p)，同一全局Norm给大p某实际vM2h≤2。
 - 完整一次p Hodge界和有理jet比值将固定原Abel等距盘由p9改善为p8；R729使全充分大前提成立，仍无p4或高度排除。
 - HANDOFF旧全文归档后压缩；两README无差异，14:43:49UTC终端仍unavailable，依根规8回写；继续原q/β和普通交换。
+
+
+## 2026-11-14 22:52 Asia/Taipei · serre-public-resume-20261114
+- 距上次公开runner实际pull近一小时且14:43:49UTC终端仍不可用，新增 .github/workflows/serre-public-rule-refresh.yml 只读同步设施。
+- 本公开Actions以blob:none部分克隆、稀疏两README并实际pull --rebase，按已读commit/blob只输出规则差异和小JSON凭据；权限contents:read。
+- 此设施不运行数学计算、不推送仓库；结果返回后根记录实际pull时间/读过提交并立即应用任何新规。
+- 新增workflow/脚本/request已记录；两README目前无差异，继续研究，不重复已完成计算。

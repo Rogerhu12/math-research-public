@@ -1,0 +1,42 @@
+name: Serre public rule refresh
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/serre-uniformity/notes/public-rule-refresh-request.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: serre-public-rule-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Read this public refresh request
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            .github/workflows/serre-public-rule-refresh.yml
+            topics/serre-uniformity/scripts/public_rule_refresh.py
+            topics/serre-uniformity/notes/public-rule-refresh-request.json
+          sparse-checkout-cone-mode: false
+      - name: Partial clone, actual pull, and rule difference
+        run: python3 topics/serre-uniformity/scripts/public_rule_refresh.py --request topics/serre-uniformity/notes/public-rule-refresh-request.json
+      - name: Retain the bounded read-only receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-public-rule-refresh-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-public-rule-refresh-receipt.json
+          retention-days: 30
+          if-no-files-found: warn

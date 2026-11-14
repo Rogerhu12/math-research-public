@@ -4,8 +4,8 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：eded7ffa27d90117b1e0cf7065e14c3dbaa6f500
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei，两README无差异。公开Actions发布前实际pull并核规则；最近R717 direct-chirp在14:02:50UTC实际pull，无差异。最近GitHub集成核查：2026-11-14 14:46:20 UTC，两README无差异。执行环境unavailable，根规8允许仅由集成传<100KB小文本；每次读最新main/两README，以最新父提交无强推，拒绝即合并重试。终端恢复立即部分克隆/pull；至少每小时实际pull及读规则差异。原生集成核查不冒称本地pull。
+已读规则提交：744b644ba0ef6011674321f77fdf3e9b79c0b79b
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei，两README无差异。公开Actions发布前实际pull并核规则；最近R717 direct-chirp在14:02:50UTC实际pull，无差异。最近GitHub集成核查：2026-11-14 14:52:51 UTC，两README无差异。执行环境unavailable，根规8允许仅由集成传<100KB小文本；每次读最新main/两README，以最新父提交无强推，拒绝即合并重试。新增只读serre-public-rule-refresh Actions已请求，待实际pull凭据；无数学重算。终端恢复立即部分克隆/pull；至少每小时实际pull及读规则差异。原生集成核查不冒称本地pull。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权，禁强推；终端非快进立即pull --rebase重推。PAT仅CLI，未交集成。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB、大中间量不入库。日志本题≤5行，改共享设施须说明；不设独立审计/冻结审批门。
 
 最新完整归档[本次压缩前交接](notes/2026-11-14-public-handoff-before-R733.md)，内接R729/R724及更早归档链；原open完整公式在notes/2026-11-14-open-checkpoint-through-R721.md。旧本地对象不可依赖，未推结果须按原记录重做，摘要不代证书。已完成计算不得为包装重跑。
