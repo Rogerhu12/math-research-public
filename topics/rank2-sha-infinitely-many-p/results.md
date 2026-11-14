@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R480：原同时CM转伴随与两条完整算术中央行](results/R480-original-simultaneous-cm-companion-transfer-and-two-arithmetic-rows.md)：原F两态与Theta平方的全CM7/19 trace经det17严格转到伴随轴；完整六格投影表抽新曲线及Href，保第一单位测试。参考伴随质量抵消但来源非零，中央关系保真实导数和测试质量项；全五伴随lift不预支旧core。
+
 - [R476：原Ξ二倍完整桥与整八维来源基](results/R476-original-complete-xi-normtwo-bridge-and-integral-eight-source-basis.md)：全CM7/19八维块由实际秩零Href与七个W*轨道组成，Ξ2精确多项式及原五伴随各系数全付；单位整逆与七变量lift保整个新中央行，参考质量相消不替代导数，旧W混管/core仍需运输。
 
 - [R479：原M两条carry图形与同一修正的两个normal jet](results/R479-original-carry-graph-and-two-normal-jets.md)：原p²提升等价26行真实carry图形，边界由同一R决定；单位5/−2分别须h+k<s−13、r>2k+13。原p239整来源见证M可升而J不可升且carry真消−2；下一位仍须相对J及原余核。
