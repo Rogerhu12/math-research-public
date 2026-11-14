@@ -17,7 +17,7 @@ clone=/workspace/scratch/e959e57ee07f/math-research-public，部分克隆/窄检
 ## 当前最新真实大核接受点
 
 公开followup run43580643038，源码be989410a0149c2d5b24feec5b32ba3f93ad5c70：free3第一段从.984真正接受到 **s=.99**，423节点/M96/N1024，固定核心前3、释放4..96，93条principal normal设计末条件。RMS5.4570433066e−7、BC3.46945e−18；完整实际文件SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff。
-结果在notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz（artifact14108132430取回；本次待归档），含原profile/projector/seed/日志、精确core-certificate和material-quintic。两档材料C²读出已真0：1024角/2径向误差5.77368e−7、κ6.30084、G样本.960000980454、Dprefix样本3.5003721203；更密档读同JSON。不是完整尾或闭面。
+结果在notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz（artifact14108132430取回并归档），含原profile/projector/seed/日志、精确core-certificate和material-quintic。两档材料C²读出已真0：1024角/2径向误差5.77368e−7、κ6.30084、G样本.960000980454、Dprefix样本3.5003721203；更密档读同JSON。不是完整尾或闭面。
 第二段duration .012 **只在prepare的Taylor2末点principal elliptic门失败**：detII正性/IIφφ条件未通过，未启动Newton；不能说.99接受点失败。新public_free3_adaptive.py从此真.99开始，先核实际入口正分支，仅预测门失败时二分步长，不放宽原门；下一批Actions从.006试起向1.05。若入口真不在principal域则转fullDN，不无限缩步。
 首批run43579782197的固定32核 .99恢复真运行321.75s但不接受：5次Jac后回溯失败，连续残差5.93612e−5，需求764节点超过640上限，实际保存423节点。BC3.39e−21不代全域通过；原checkpoint/actual/日志在notes/public-actions-43579782197-1-m96，不能冒新接受解。
 旧.984真M96接受文件仍notes/2026-11-14-geometry-resume-scaled-sphere-M96-normal-BVP-r1.json.gz，SHA3ac8c8ef…；R237严格证全96核rho>.16611593994/G≈.959999999997。新free3核心必须使用自己的证书，不移植旧下界。
@@ -46,6 +46,6 @@ R37覆盖实际32354中心/90674576近对，889856未覆仅prefix-prefix/prefix-
 
 ## 紧接执行
 
-先逐条pushR240及已取回实际证据；下一批公开Actions并行free3自适应续算、fullDN scalar/RHS与真尾接口、R37覆盖v2。新接受点立即原审计/实际材料谱/核心G与球排除，然后继续真正tail匹配/闭合；定型后固定同材料g精化并核全域全t。任何阶段完成不结束本题。
+R240已公开push；继续逐条push已取回实际证据。下一批公开Actions并行free3自适应续算、fullDN scalar/RHS与真尾接口、R37覆盖v2。新接受点立即原审计/实际材料谱/核心G与球排除，然后继续真正tail匹配/闭合；定型后固定同材料g精化并核全域全t。任何阶段完成不结束本题。
 
 规则同步记录：2026-11-14T09:38:21.320731+00:00 实际pull --rebase成功；双README自a33ddc4无变化，已读提交 d901513eaf29e63ea87c7bde1580b27546f6cb5e。

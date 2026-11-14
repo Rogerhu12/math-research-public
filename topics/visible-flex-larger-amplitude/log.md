@@ -288,3 +288,7 @@ R238仅条件定理；新有理系数输入检查器待Actions，实际活动tai
 ### 2026-11-14 09:37 UTC — R240 canonical material metric
 
 证明共同材料θ下g只依赖实际固定a(s)，核心变化可属于同g精化；完整帽图册与C²接缝另付。提交3控制完整DN/常值增广接口，区分首次设计K3与冻结a后的K0精化。修自动publisher全过程committer身份（首批数值成功但rebase缺identity）；原artifact已实际取回，不重复成功计算。
+
+### 2026-11-14 09:39 UTC — free3 actual 0.99 accepted
+
+公开run43580643038第一段实际接受M96/N1024、423节点、RMS5.45704e−7/BC3.46945e−18，完整两档材料C² metric5.77368e−7、全96核rho>0.1638501198935/G≈.960000980454准确证书保存。第二段只因Taylor2 projector正性初猜失败未启动Newton；保存真实fixed32不接受对照并准备自适应步长，不重复成功第一段。
