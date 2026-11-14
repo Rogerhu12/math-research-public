@@ -230,3 +230,7 @@
 ### 2026-11-14：实际两种最小化与剩余角度源的同窗 flat 预算（789f）
 
 [证明](notes/2026-11-14-actual-low-test-two-resolvents-angle-source-and-paid-flat-budget-789f-next.md)在原实际源空间识别 boson/完整物理两投影源 rbar=(L+M)⁻¹Lt、u=(L+G⁻¹)⁻¹Lt，e=rbar−u 满足 (I+GL)e=(I−GM)rbar。完整正交 gap 具有准确三项能量 μ(e)²+flat(e)²+||(I−P_f)c_B(rbar)||²；原同一 good-top 已付 μ(t−e)² 与 flat(e)²，总预算分别 ≤[(C_m−1)/2+2]||f||²、2C_m||f||²。仍保 bare(e)、μ(e)和<Lr,e>；固定m强收敛没有原移动窗口速率，不得据此推出 N=M。
+
+### 2026-11-14：物理 joined 递减投影与实际测试源的全切口 bare 预算（789f）
+
+[证明](notes/2026-11-14-physical-joined-decreasing-projections-and-fixed-test-bare-budget-789f-next.md)从完整商kerδ_q^d的首头提升得到M_q=K+H_hi,q=ker(Q_q(A+D))的闭性及递减性；同一固定物理测试的P_Mq f准确支撑≤q+d，源u_b=(L+B)⁻¹Lt。正交投影增量与宽d区间Fourier mask给Σbare(u_b)²≤d(2+logd)²||f||²，无增长孔MP或Jordan条件数。与实际有限核源u_f作差的e_bf有ΣXi(e_bf)²≤4d[(2+logd)²+1]||f||²，且原测试误差由Xi(r)乘实际bare/ordinary预算准确控制；不推μ(e_bf)或主左配对小，不宣称N=M。
