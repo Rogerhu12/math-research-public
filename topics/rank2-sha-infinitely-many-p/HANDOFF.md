@@ -6,11 +6,11 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：257d7a2e4c231ebc00e1bd1b5eb784b35cab1733；2026-11-14 21:02:39 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：f8fa98ab2f0995de83b645c5c6968474b8b25ab6；2026-11-14 21:10:18 UTC 实际git pull --rebase完成后比较根/课题README，无变。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推/改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 根规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；文件<5MB、MD/接口单文件<100KB、HANDOFF<10KB、open尽量<30KB。
-- 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；20:44:58 UTC实际git pull --rebase重试仍无可用执行环境，随即API核main/两README无变。最迟21:44重试；恢复后先实际pull --rebase核规再接API历史。
-- API备用按expected_sha、force=false追加；拒绝立即读新头/核规/重建父提交再推至成功，不冒称实际git pull。
+- 令牌只终端临时环境，不入文件/提交/日志/回复。12:35–21:05执行环境断连；20:44失败记录保归档。21:05恢复后实际pull --rebase已成功接全API历史，21:07再pull核两README无变；最迟22:07再次pull。
+- 执行环境现已恢复，全部发表改回终端git；每结论推一次，非快进立刻pull --rebase/核两README后再推至成功。断连期API提交均已接入本地main。
 
 ## 发布、归档、当前分工
 
