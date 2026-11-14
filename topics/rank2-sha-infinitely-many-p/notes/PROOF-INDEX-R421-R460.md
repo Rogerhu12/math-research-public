@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R437：原独立sigma约消与degree52有限差分原函数](../results/R437-original-sigma-companion-cancellation-and-degree52-primitive.md)：真正整残余L保完整W核心，Wronskian边际给移动负五型单位；sigma的T乘单位分解给真实(Y+1,X−1)差分。原中央仅控制完整差分行，保单位边界、混合转置和隐藏域补集。
+
 - [R436：原U72完整CM7四谱与准确质量](../results/R436-original-u72-complete-cm7-spectrum-and-exact-masses.md)：特征零全四幂及十三系数证书付四个真实投影，原b=17质量依次为∓1/(12096b)；完整ordinary核心、principal单位及各尺度log质量均保，辅助谱不认作原T倍数或新rank2曲线。
 
 - [R434：原角高轴固定坐标与carry单位Schur运输](../results/R434-original-angular-high-coordinates-and-carry-unit-schur-transport.md)：原Miller系数反向递推给实际u/v及其三位精度，完整t换参高尾保全中央Hensel；真方阵仅乘显示整单位，掉秩线上η不添额外高尾。实际行列式只含固定A0/A1及a、二次角色，未断跨p非零。
