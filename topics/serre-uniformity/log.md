@@ -6,3 +6,7 @@
 - 终端恢复；清除git已标明的两份旧临时pack垃圾后完成实际pull --rebase至e83de2ea，两README无差异。旧未推R716证明/归档与现行main逐字相同，保留原分支后跳过重复元数据。
 - R738原p41闭周期输入已提交：完整图式、4920陪集及原c1实标签C/g*、c0轨道、800闭链和交配全部实际核验；尚未宣称计算结论或原q/β。
 - 新增独立workflow serre-p41-original-period-input.yml和专用core/driver/request/方法；大表仅artifact，小证书入仓，未改共享publisher。归档log/HANDOFF以遵守大小上限。
+
+## 2026-11-14 23:50 Asia/Taipei · serre-public-resume-20261114
+- R740完整证明原N_h偶赋值：实际循环整格的Gram商和T不变线给非退化单位自配对，未以模p平方外推；原period P_h奇偶另开。
+- 证明SHA206c317d9fc629a1724772788aecda8a2b3857dc8a8ccb4418b5d02219b08a2e；HANDOFF/open/index同步，继续原全h惯性接口及R738实际周期输入。无新计算或共享设施变更。

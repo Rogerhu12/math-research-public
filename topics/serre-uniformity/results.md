@@ -178,3 +178,6 @@
 
 
 - **R735（公开Actions精确完成）**：[原p41正CM七次模型及Néron输入](results/R735-exact-original-p41-CM-model-and-Neron-input.md)。run43608152850，原280维商精确生成同一b=r0⁶并核F41(b)=0；全低阶系数v41=1、disc41=6、F41'逆成功。唯一实正b、L+签名(1,3)、真实逆different格已具完整系数；本原六维仍投e42，原q/β/KS单位及高度未宣称完成。大状态仅artifact，全部小证书/源SHA已存。
+
+
+- **R740（已证明）**：[原有限toric范数的偶赋值](results/R740-even-valuations-of-original-finite-toric-norms.md)。原循环整格的Gram商精确Sym^(2r)det^(−r)，T不变线不落radical，故其原始生成元自配对单位、N_h=(p+1)c_h²G(w_h,w_h)，v_p(N_h)为非负偶数。未自动断言原P_h偶赋值或M2整数；真实高度仍开。

@@ -337,3 +337,6 @@ R704 原43嵌入矩阵及R708局部Norm歧义已处理；
 
 
 **R735（已完成原模型输入）**：公开run43608152850首次生成原p41同一b=r0⁶的完整七次F41，在原280维除法商代数完整核F41(b)=0、七个低阶系数v41=1、disc41=6和F41'逆。原b是唯一实正根，目标Néron格b^j/F41'(b)ω已具体，本原仍投e42；完整小cert SHA752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574。原q函数/β/Manin尺度/高度仍待继续，下一项原4920coset闭周期输入，勿重算模型。详[R735](results/R735-exact-original-p41-CM-model-and-Neron-input.md)。
+
+
+**R740（已证明）**：每个真本原原N_h的p赋值为非负偶数。用原Weyl/Bruhat模型得到实际循环整格和准确Sym^(2r)det^(−r) Gram商，再由T不变维数一排除radical；完整整数恒等式N_h=(p+1)c_h²G(w_h,w_h)、后因子为单位。原P_h=S2,hS3,h/C0²的奇偶仍独立，未由模p平方同余推出高精度结论。详[R740](results/R740-even-valuations-of-original-finite-toric-norms.md)。

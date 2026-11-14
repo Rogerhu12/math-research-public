@@ -4,8 +4,8 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：a74ddc9c9b3093e1a3e29fcf353c8bdf5d3bcaeb
-最近本地pull：2026-11-14 23:47:52 Asia/Taipei，main=a74ddc9c9b3093e1a3e29fcf353c8bdf5d3bcaeb，两README blob均未变。最近公开Actions实际pull：2026-11-14 15:33:15.9429141 UTC，run43610788824，两README无差异。终端已恢复，使用原blob:none部分克隆，至少每小时pull --rebase并检查两README差异。恢复时清除git标明的两份旧tmp_pack垃圾；原未推8f31d003的R716证明/归档与现行main逐字相同，已留本地备份分支并跳过重复元数据重放。根规8集成回退现已结束。
+已读规则提交：f4896bba5fe43c784d2af965b36336b8f9256d87
+最近本地pull：2026-11-14 23:50:44 Asia/Taipei，main=f4896bba5fe43c784d2af965b36336b8f9256d87，两README blob均未变。最近公开Actions实际pull：2026-11-14 15:33:15.9429141 UTC，run43610788824，两README无差异。终端已恢复，使用原blob:none部分克隆，至少每小时pull --rebase并检查两README差异。恢复时清除git标明的两份旧tmp_pack垃圾；原未推8f31d003的R716证明/归档与现行main逐字相同，已留本地备份分支并跳过重复元数据重放。根规8集成回退现已结束。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权；终端非快进立即pull --rebase重推。PAT仅CLI，未交集成。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB，大可复现中间量只存artifact。日志本题≤5行，改共享设施须说明；不设独立审计/冻结审批门。
 
 本次前完整归档[before-R738](notes/2026-11-14-public-handoff-before-R738.md)，内接before-R736/R735，内接before-R734/R733/R729/R724及更早链；原open完整公式见notes/2026-11-14-open-checkpoint-through-R721.md。旧本地对象不可依赖，未推成果按原记录重做；已成计算不得为包装重跑。
@@ -26,6 +26,8 @@ R725实际E27:Y²=X³+16，w=∏t([a]P)、r0=(w−w_s)/2、b=r0⁶，L=K(b)次�
 R732原completed torsion和给全部闭周期/Ω0，K线性核解原Hom，整数周期交配算degree d，RR前缀>degD+2d恢复x=A/B、y=dx/(2h)，c0定基/c1求β，Weil限制/e_n给Q商。保留全部原向量/平移/清分母；算法已证，实际函数表未出。
 
 ## O4：完整Abel及真正高度障碍
+
+R740已证明全部真本原原N_h赋值为非负偶数：原循环整格L=Zp[G]e0的Gram商精确Sym^(2r)det^(−r)，r=min(h,p+1−h)−1；T不变直线避开radical，原始w的自配对为单位，故N_h=(p+1)c_h²G(w,w)。这不自动给原P_h偶赋值/M2整数，后者另续R742。
 
 R729原weight5/7 full/primitive均值→π/√3，R726控primitive误差，原有限CM和Galois给指定M2非零；连同R726/R682，全充分大允许p共同coarse Abel阶m1。仅知高度s²整除，不是精确阶或单位。
 R730原完整Hodge下界v(M_mh/m!)≥−1−mp/(p+1)、全部jet比值∈Qp；原N_h全正整。R733全六标签fiber≤12点给ΣN_h<13mp，primitive geomeanN<5p(2+log2p)，全嵌入Norm迫p≥2^136某vM2h≤2，完整Tate得16I_h(p8u)/(p8M2h)=u+pH。真实KS仅非零不假定单位；Abel不回零不等于有理点排除。
