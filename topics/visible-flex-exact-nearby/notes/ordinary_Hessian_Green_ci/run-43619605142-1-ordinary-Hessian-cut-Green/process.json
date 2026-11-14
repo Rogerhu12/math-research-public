@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_same_Z_ordinary_Hessian_reweighted_Green_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43619605142",
   "run_attempt": "1",
@@ -68,6 +68,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:11:06.716137+00:00",
+      "before": "1efaa121544c2faffde9c6a6a12dfbfa3e85dd56",
+      "after": "9696c3f1c316d848685731b219030795abbf06ef",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -75,6 +83,11 @@
       "time": "2026-11-14T17:10:53.354641+00:00",
       "final": false,
       "commit": "1efaa121544c2faffde9c6a6a12dfbfa3e85dd56"
+    },
+    {
+      "time": "2026-11-14T17:11:06.110249+00:00",
+      "final": false,
+      "commit": "9696c3f1c316d848685731b219030795abbf06ef"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -108,7 +121,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "1efaa121544c2faffde9c6a6a12dfbfa3e85dd56",
+  "last_read_commit": "9696c3f1c316d848685731b219030795abbf06ef",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-ordinary-Hessian-Green-work/science",
   "actual_input_sha256": {
     "same-z-green": "eb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18",
@@ -119,9 +132,21 @@
     "hessian-process": "8bd696740f0f1d667487d349cd0ebb51fc2c8efbe9927d49584885388166ea75",
     "cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba"
   },
-  "snapshot_utc": "2026-11-14T17:11:03.778137+00:00",
-  "wall_seconds": 12.626419569999996,
+  "snapshot_utc": "2026-11-14T17:11:06.777056+00:00",
+  "wall_seconds": 15.625338154999994,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 1043,
+      "sha256": "abb4300f76b4b4f75342b9ab26605b6860792dba2401f8c108729fb76803c475"
+    },
+    {
+      "logical_file": "evidence/complete-ordinary-Hessian-cut-and-Green-summary.json",
+      "file": "evidence/complete-ordinary-Hessian-cut-and-Green-summary.json",
+      "bytes": 23882,
+      "sha256": "64712cc2d7bfa1b1e72f8077630da3fb30fb5a5f099d17377ac9dd047b3c4ad9"
+    },
     {
       "logical_file": "evidence/original-cut-process.json",
       "file": "evidence/original-cut-process.json",
@@ -146,5 +171,23 @@
       "bytes": 3996142,
       "sha256": "64ce558499b6ec5240ac73e36cb104672b9c2e6e01aa9c6bd4808959d24821d0"
     }
-  ]
+  ],
+  "complete_native_sha256": "64ce558499b6ec5240ac73e36cb104672b9c2e6e01aa9c6bd4808959d24821d0",
+  "actual_scientific_gates": 7,
+  "complete_finite193_compressed_response_error_bound_proved": true,
+  "complete_finite193_same_Z_error_L2_bounds": {
+    "whole_inner_body": {
+      "ball": "[0.096936509428391469758191213829595237150287532112917554022123891170936557371114733 +/- 1.05e-82]",
+      "lower": "[0.096936509428391469758191213829595237150287532112917554022123891170936557371114733 +/- 1.05e-82]",
+      "upper": "[0.096936509428391469758191213829595237150287532112917554022123891170936557371114733 +/- 1.05e-82]"
+    },
+    "fixed_negative_phase_window": {
+      "ball": "[0.045415209483240506644571915667056229764520276277765974988481342043442738234465327 +/- 2.06e-83]",
+      "lower": "[0.045415209483240506644571915667056229764520276277765974988481342043442738234465327 +/- 2.06e-83]",
+      "upper": "[0.045415209483240506644571915667056229764520276277765974988481342043442738234465327 +/- 2.06e-83]"
+    }
+  },
+  "complete_finite193_negative_error_upper_below_one_over200": false,
+  "new_profile_rescalings_in_this_child": 6391,
+  "finished_utc": "2026-11-14T17:11:06.488691+00:00"
 }
