@@ -229,3 +229,5 @@
 - 2026-11-14 22:38:28 UTC，Astra-new-mechanism-9974ea84：部署独立constrained_static_m8_tail_quotient单lane，原曲率run43648433010继续、不重启。新8b075b22源码只消费R123完整(P,A,R)多项式证书及已发响应列，R114八基准规范化L0，同时由完整点态矩阵算m2诱导补项，输出原未分权、新静态和新诱导项的raw/graded商，完整新差式保。旧profile/forcing/响应均不重算，新6人工先于actual；240s/1024MiB。真正L2/L4、实际路径和完整period仍未评价。源与设计小文本已保存，双README无差；私有最近22:30:53/下一23:29，不重复本次pull。
 
 - 2026-11-14 22:42:45 UTC，Astra-new-mechanism-9974ea84：部署独立g_first_translation，仅完整两mode的原NG权零最小门。331fea2c源在原DAG对显式ξ和嵌套右积分作真平移生成元、profile jets固定，先新平移toy再actual；完整E8×W给20原列，依赖逐一原式验零构成上界，只有达到上界的原有理增广非零子式才授非成员；阳性原式零立即s=1停止链。240s/1024MiB，不重编forcing/W或旧G七列、不用已知失明的pure尾代替完整算子。norm actual43649160345已成功，新R124正在登记；原曲率run也已结束，正在消费保存的细表，不重复原优化。双README无差。
+
+- 2026-11-14 22:44:11 UTC，Astra-new-mechanism-9974ea84：直接登记R124完整实际及真实period归约。run43649160345/source c6956272六新toy过，0.205092866s/RSS30.332MiB；真实完整矩阵坐标规范化的154静态系数全入pure尾响应像，所有差式/八矩重构/参考态零值通过。原未分权商3/even2；诱导Δ2的18系数、3余项rank2/even1仍保。R109因此给真实M0 pure商仅∫Π8(L2+Δ2+L4)，固定桥外bulk整数N不改变它，完整history仍在R8/T内。原L2/L4未算、N2未证入W；下一新导raw N0/N2/v2/v4而不复算W/静态。完整489034B→57845B证书/SHA022cd4f7已发。双README无差。

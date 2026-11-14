@@ -249,3 +249,5 @@
 - [R123：静态纯尾的三维分权系数商与G的准确投影遗漏](results/R123-static-pure-tail-three-dimensional-graded-quotient-and-G-blindness.md) — actual43648433010消费完整197个pure几何原根，154非零/254分权目标，全有理分解差零；模31维响应的分权系数商为3维（w−1一、w0二），均在旧45行内，四块偶商2维。完整G纯m8九项恰原列10/128，说明此投影不忠实检测完整成本商。2.596s/RSS116.625MiB，新7toy过，完整证书保存；未施加真实M0、未认未分权或可达秩。下一真实规范化须连同−Σa_i(m2)Fi补项，不能将∫m0当0；原L2/L4仍欠。
 
 - [R122：G的有限仿射轨道商与真实多查询支付](results/R122-affine-G-orbit-and-real-joint-query-control.md) — 真平移幂零且降权，首次NˢG∈R8的s恰轨道商维数，s个平移G给Vandermonde基。真实互反族经先缩放后平移给2NκH K_Gz+2NR_H(z)+E_H(z)，低权余项对H≥1统一有界，桥只在H固定后有界；先H、后N、最后R121响应n的乘积Brouwer付r+s个同I/同合法圆查询。s仍未知，最小下一门只检NG；若U4=R8+orbitG才授整函数控制，当前未证。所有连接与N²/N³历史保，不以闭锥代实际词。
+
+- [R124：真实零矩规范化支付全部静态纯尾商，只余导数成本](results/R124-zero-matrix-static-tail-payment-and-remaining-derivative-costs.md) — actual43649160345直接消费已发完整多项式，完整m0+m2八矩坐标规范化使154静态系数余项全零；原未分权商3，已知诱导Δ2的18系数商2/even1，全新差式与矩阵重构准确零。由R109得到任意真实M0路径的pure尾商仅∫Π8(L2+Δ2+L4)，固定桥的常态bulk复制N不改变该商。0.205s/RSS30.332MiB、6新toy过。原L2/L4及raw N0/N2仍须新增导出，N2未证在W，未据h_s²或诱导项判符号/完整period。
