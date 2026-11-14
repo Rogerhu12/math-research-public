@@ -236,7 +236,8 @@ R533两固定负矩的第一层现有[准确递推与有限记录](notes/2026-11
 
 ### R548：原正来源的完整谱与同一反对称混合行
 
-整个六来源P2,Y η=−ρ0/2，fixed CM13九次在全S136等于−B2,Y，并通过原五伴随实现Rc；原S伴随准确为−A0/2。h=η+ρ0/2的principal全十七单谱及伴随卷积单位付清，十二外谱质量全域范数分子一；另外五个第一角块各保留。R544唯一差准确成h((f−f∘Rc)∘P1)，完整矩阵顺序、Q单位逆与全部实际cut保持。见[R548：第三来源的完整CM反射与十七条正谱](results/R548-original-whole-third-source-cm-reflection-and-complete-positive-spectrum.md)。**待做：** R556在R553低阶双theta/四线V域中判(40)原两项和(41)混合反对称测试的实际值；P1与Rc不交换，不能用h偶性赋零。全六角分解、17个不同伴随、参考导数、外谱及每条CM支的物理次序必须同时保留，原S/new条件不覆盖其余谱。
+完整CM反射、十七谱及全部角/域范围见[R548](results/R548-original-whole-third-source-cm-reflection-and-complete-positive-spectrum.md)和[完整本轮归档](notes/2026-11-14-open-before-stokes-note.md)。**待做：** R556在R553低阶双theta/四线V域中判(40)原两项和(41)混合反对称测试的实际值；P1与Rc不交换，不能用h偶性赋零。全六角分解、17个不同伴随、参考导数、外谱及每条CM支的物理次序必须同时保留，原S/new条件不覆盖其余谱。
+
 
 ### R557：同一q的整个第三来源与实际网格双态差
 
@@ -245,3 +246,7 @@ MH=2ω(c−d)使原C/F/Dj/Ej整覆盖、半特征和全部scalar β核在η/h中
 ### 同一饱和jet的跨p平均门
 
 同一原饱和jet方阵的归一行列式收益g_p,D准确读取全部限制映射范数，足够门是总收益超过3M_D logD主阶。固定三Gaussian块即便全整也只省O(M_D)；全部p>cD整性仍只到(aI,bI)=(3,0)临界。正单位秩下界不等于行列式正收益，继续实际wild位或大p额外整除。见[固定三块及全部tame整性在平均斜率中的准确尺度](notes/2026-11-14-deep-fixed-depth-tame-average-budget.md)。**待做：** 完整原J′零能否给p≲D的实际收益或大p负jet范数；只累计现有f_D<p单位块不足。R62旧Euler原函数/非中央Stokes与原三j0来源的同charge组合须精确比较，不把中央一块的解析半径赋给整个原函数。
+
+### 原三源Euler原函数的非中央不相消
+
+三条实际j0源在原大盘商中的非中央坏类分别形成权17/36/68的秩一微分模，差19/51/32为单位，真实指数同构半径仍S而非大盘；由此三简单子模内部直和。任意大盘亚纯系数及乘回同charge的真实Theta因子都不能消非中央坏块，中央p依赖投影改善仍保，未传播乘积中央零。见[三原Euler原函数的不同Stokes模与同charge不相消](notes/2026-11-14-deep-three-original-stokes-modules-and-common-charge-obstruction.md)。**待做：** 实际p依赖中央投影的wild整格，或有完整同源预算的更高扩张/非线性构造；上述同charge线性相消路线已经排除。R555仍回原完整forcing，不能把排除候选机制写成主结论不可达。

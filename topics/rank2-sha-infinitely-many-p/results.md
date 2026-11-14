@@ -311,6 +311,8 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 ## 其他完整子结论及范围核查
 
+- [三原Euler原函数的不同Stokes模与同charge不相消](notes/2026-11-14-deep-three-original-stokes-modules-and-common-charge-obstruction.md)：三条实际j0源在原大盘商中的非中央坏类分别形成权17/36/68的秩一微分模，差19/51/32为单位，真实指数同构半径仍S而非大盘；由此三简单子模内部直和。任意大盘亚纯系数及乘回同charge的真实Theta因子都不能消非中央坏块，中央p依赖投影改善仍保，未传播乘积中央零。
+
 - [固定三块及全部tame整性在平均斜率中的准确尺度](notes/2026-11-14-deep-fixed-depth-tame-average-budget.md)：同一原饱和jet方阵的归一行列式收益g_p,D准确读取全部限制映射范数，足够门是总收益超过3M_D logD主阶。固定三Gaussian块即便全整也只省O(M_D)；全部p>cD整性仍只到(aI,bI)=(3,0)临界。正单位秩下界不等于行列式正收益，继续实际wild位或大p额外整除。
 
 - [原六度固定负矩的普通第一层与有限计算](notes/2026-11-14-degree6-negative-moment-first-layer.md)：给两负矩准确的固定级数prime diagonal及无p分母递推；147个普通p<2000仅有限证据，f4首层全非零、f1在61首层为零。没有无穷非零或全ray命中结论。
