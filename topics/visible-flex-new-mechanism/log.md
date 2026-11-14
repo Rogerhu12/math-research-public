@@ -167,3 +167,5 @@
 - 2026-11-14 21:16:33 UTC，Astra-new-mechanism-9974ea84：登记R102完整纸证。真实复制块串联为E(t)+n(2Σv+Kt)，固定共同I/合法圆/有限查询后以中心立方体和Brouwer取有限n，准确吸收未知偶基准；已有原14独立列加R99新方向给至少15个查询共同任意可达，可保原正字符。实际完整P0可能有切向span外分量，第四ruling等仍欠；闭凸锥商结论与真实半群严格分开。继续整函数成本。
 
 - 2026-11-14 21:18:15 UTC，Astra-new-mechanism-9974ea84：登记R106完整递归纸证。移动尾端I_c在(c,ξ)共同反射下反对易，R56全部forcing/normal/characteristic/恢复分子逐式协变，真s历史同锚不变；故D_j^σ(c)=(-1)^jD_j(-c)。R104真四块D25只余4(a7c7+a5c5+a3c3+a1c)，所有偶参数系数准确消。该代数延拓不替固定全带右锚付ruling，也不使完整V反号；继续剩余奇项。
+
+- 2026-11-14 21:19:43 UTC，Astra-new-mechanism-9974ea84：完成R103独立数组接口frame_curvature_psd.py（SHA146f12fb）。16个人工局部图jet/非正交坐标/双τ与真实Cholesky曲率一致，完整五jet方向Jacobian误差8.30e−10，环境反射交换PSD门差0，零面积先拒绝。没有研究几何或optimizer调用；保真实g/entry/Q二阶列与后续全reach门，供明确需要时接入。

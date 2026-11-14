@@ -1,0 +1,293 @@
+{
+  "schema": "actual-metric-curvature-PSD-artificial-array-check-v1",
+  "artificial_inputs_only": true,
+  "research_geometry_evaluated": false,
+  "research_optimizer_called": false,
+  "row_order": [
+    "plus_trace",
+    "plus_determinant",
+    "minus_trace",
+    "minus_determinant"
+  ],
+  "graph_jet_cases": [
+    {
+      "name": "plane",
+      "nonorthogonal_chart": false,
+      "tau": 1.7,
+      "analytic_curvatures": [
+        0.0,
+        0.0
+      ],
+      "observed_curvatures": [
+        0.0,
+        0.0
+      ],
+      "expected_pass": true,
+      "row_pass": true,
+      "polynomial_pass": true,
+      "eigenvalue_error": 0.0
+    },
+    {
+      "name": "plane",
+      "nonorthogonal_chart": false,
+      "tau": 2.2,
+      "analytic_curvatures": [
+        0.0,
+        0.0
+      ],
+      "observed_curvatures": [
+        0.0,
+        0.0
+      ],
+      "expected_pass": true,
+      "row_pass": true,
+      "polynomial_pass": true,
+      "eigenvalue_error": 0.0
+    },
+    {
+      "name": "plane",
+      "nonorthogonal_chart": true,
+      "tau": 1.7,
+      "analytic_curvatures": [
+        0.0,
+        0.0
+      ],
+      "observed_curvatures": [
+        0.0,
+        0.0
+      ],
+      "expected_pass": true,
+      "row_pass": true,
+      "polynomial_pass": true,
+      "eigenvalue_error": 0.0
+    },
+    {
+      "name": "plane",
+      "nonorthogonal_chart": true,
+      "tau": 2.2,
+      "analytic_curvatures": [
+        0.0,
+        0.0
+      ],
+      "observed_curvatures": [
+        0.0,
+        0.0
+      ],
+      "expected_pass": true,
+      "row_pass": true,
+      "polynomial_pass": true,
+      "eigenvalue_error": 0.0
+    },
+    {
+      "name": "sphere_local_jet",
+      "nonorthogonal_chart": false,
+      "tau": 1.7,
+      "analytic_curvatures": [
+        0.5,
+        0.5
+      ],
+      "observed_curvatures": [
+        0.5,
+        0.5
+      ],
+      "expected_pass": true,
+      "row_pass": true,
+      "polynomial_pass": true,
+      "eigenvalue_error": 0.0
+    },
+    {
+      "name": "sphere_local_jet",
+      "nonorthogonal_chart": false,
+      "tau": 2.2,
+      "analytic_curvatures": [
+        0.5,
+        0.5
+      ],
+      "observed_curvatures": [
+        0.5,
+        0.5
+      ],
+      "expected_pass": false,
+      "row_pass": false,
+      "polynomial_pass": false,
+      "eigenvalue_error": 0.0
+    },
+    {
+      "name": "sphere_local_jet",
+      "nonorthogonal_chart": true,
+      "tau": 1.7,
+      "analytic_curvatures": [
+        0.5,
+        0.5
+      ],
+      "observed_curvatures": [
+        0.4999999999999999,
+        0.5
+      ],
+      "expected_pass": true,
+      "row_pass": true,
+      "polynomial_pass": true,
+      "eigenvalue_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "sphere_local_jet",
+      "nonorthogonal_chart": true,
+      "tau": 2.2,
+      "analytic_curvatures": [
+        0.5,
+        0.5
+      ],
+      "observed_curvatures": [
+        0.4999999999999999,
+        0.5
+      ],
+      "expected_pass": false,
+      "row_pass": false,
+      "polynomial_pass": false,
+      "eigenvalue_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "cylinder_local_jet",
+      "nonorthogonal_chart": false,
+      "tau": 1.7,
+      "analytic_curvatures": [
+        0.0,
+        0.5
+      ],
+      "observed_curvatures": [
+        0.0,
+        0.5
+      ],
+      "expected_pass": true,
+      "row_pass": true,
+      "polynomial_pass": true,
+      "eigenvalue_error": 0.0
+    },
+    {
+      "name": "cylinder_local_jet",
+      "nonorthogonal_chart": false,
+      "tau": 2.2,
+      "analytic_curvatures": [
+        0.0,
+        0.5
+      ],
+      "observed_curvatures": [
+        0.0,
+        0.5
+      ],
+      "expected_pass": false,
+      "row_pass": false,
+      "polynomial_pass": false,
+      "eigenvalue_error": 0.0
+    },
+    {
+      "name": "cylinder_local_jet",
+      "nonorthogonal_chart": true,
+      "tau": 1.7,
+      "analytic_curvatures": [
+        0.0,
+        0.5
+      ],
+      "observed_curvatures": [
+        0.0,
+        0.5
+      ],
+      "expected_pass": true,
+      "row_pass": true,
+      "polynomial_pass": true,
+      "eigenvalue_error": 0.0
+    },
+    {
+      "name": "cylinder_local_jet",
+      "nonorthogonal_chart": true,
+      "tau": 2.2,
+      "analytic_curvatures": [
+        0.0,
+        0.5
+      ],
+      "observed_curvatures": [
+        0.0,
+        0.5
+      ],
+      "expected_pass": false,
+      "row_pass": false,
+      "polynomial_pass": false,
+      "eigenvalue_error": 0.0
+    },
+    {
+      "name": "saddle_local_jet",
+      "nonorthogonal_chart": false,
+      "tau": 1.7,
+      "analytic_curvatures": [
+        -0.5,
+        0.5
+      ],
+      "observed_curvatures": [
+        -0.5,
+        0.5
+      ],
+      "expected_pass": true,
+      "row_pass": true,
+      "polynomial_pass": true,
+      "eigenvalue_error": 0.0
+    },
+    {
+      "name": "saddle_local_jet",
+      "nonorthogonal_chart": false,
+      "tau": 2.2,
+      "analytic_curvatures": [
+        -0.5,
+        0.5
+      ],
+      "observed_curvatures": [
+        -0.5,
+        0.5
+      ],
+      "expected_pass": false,
+      "row_pass": false,
+      "polynomial_pass": false,
+      "eigenvalue_error": 0.0
+    },
+    {
+      "name": "saddle_local_jet",
+      "nonorthogonal_chart": true,
+      "tau": 1.7,
+      "analytic_curvatures": [
+        -0.5,
+        0.5
+      ],
+      "observed_curvatures": [
+        -0.5,
+        0.4999999999999999
+      ],
+      "expected_pass": true,
+      "row_pass": true,
+      "polynomial_pass": true,
+      "eigenvalue_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "saddle_local_jet",
+      "nonorthogonal_chart": true,
+      "tau": 2.2,
+      "analytic_curvatures": [
+        -0.5,
+        0.5
+      ],
+      "observed_curvatures": [
+        -0.5,
+        0.4999999999999999
+      ],
+      "expected_pass": false,
+      "row_pass": false,
+      "polynomial_pass": false,
+      "eigenvalue_error": 1.1102230246251565e-16
+    }
+  ],
+  "target_metric_false_acceptance_demonstrated": true,
+  "actual_metric_counterexample_rejected": true,
+  "complete_two_jet_directional_jacobian_error": 8.303169162764031e-10,
+  "ambient_reflection_swaps_two_PSD_gates_error": 0.0,
+  "zero_area_rejected_before_row_acceptance": true,
+  "helper_sha256": "146f12fb56ac1a0b18a4d35ede1c171d68e72f7ae778e49fdff0b9bd1f9561bc",
+  "passed": true
+}
