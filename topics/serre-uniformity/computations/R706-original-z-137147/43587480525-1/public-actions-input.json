@@ -1,0 +1,28 @@
+{
+  "source_commit": "fdb4c969bfd5f3e3a3e921875d1f10f34e52b5ba",
+  "result": "R706-original-z-137147",
+  "repository": "Rogerhu12/math-research-public",
+  "request": {
+    "request": "R706-independent-original-z-sigma-zero-verification-01",
+    "prime": 137147,
+    "full_certificate": true,
+    "reuse_existing_complete": true,
+    "reference_window_certificate_sha256": "e9b682e8fdbba4551790dc4b3afc5a704455f408d9b8f2b3ca734e8c4400c5a0",
+    "expected": {
+      "coefficient_x_sigma6": 103259,
+      "coefficient_minus_xy_sigma6": 0,
+      "A_p": 103259,
+      "A_p_minus_3": 0,
+      "C_p": 80155,
+      "C_p_minus_3": 0
+    },
+    "purpose": "Independently verify the actual local minimum-valuation exception from the original flat elliptic-coordinate energy equation and sigma differential equation.",
+    "M2_itself_proved_zero": false
+  },
+  "arithmetic_source_sha256": "ef33ef0d61b4cf33c0a1fe2a23ce14b57780b5b5b49df9f609dc0e49b1014ac3",
+  "wrapper_source_sha256": "5f7ada3c11fa6f75f627e57f8d9edeafe234f8f3550f50dd3f630c2338fe7fcb",
+  "publisher_source_sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+  "parameters_sha256": "acc84f8eafea24f90374f1f0e38556548efe37dc751ef9f1c400ee027be202a5",
+  "root_readme_sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8"
+}
