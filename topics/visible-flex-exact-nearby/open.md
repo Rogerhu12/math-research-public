@@ -180,3 +180,5 @@ tail_connector 关闭实际混合近簇与中间频率整个网络。
 新增真实根完整高输出Volterra强界：高cut2^4200 b，U高输出<2，二次余项H^s→H^(s+4/3)<2^4096 b^(4/3)，|s|≤1。低输入/mean/两锥/逆向及ordinary-weak源均保；一次首符号、root graph、正型和完整网络仍欠，尚不将δ^-320自动改小。
 
 完整cap→true moving cut的公开43587619797已真实14门return0，native36f498e3…27104。全1977格、97输入、全部mean/普通/散度/Robin/端点齐；低97行误差<.000495325502，真mean>.0970571556485532，原193×96完整Gram与正交补逆LR<10.303434596523/DL<.005103553909969。连续权重变换须重付Gram/边界/R′/R；全未知高输入和独立源尚未吸收。
+
+当前完整moving Jacobi首符号及真实root有限部两减项已在R133-supplement-complete-moving-first-symbol-and-root-subtractions.md逐项证明，保primitive、两mean与R0。已启动独立10条符号恒等门；实际β仍须全两ray运输、两行Airy根有限部匹配、真实positive/端口和强余项，不以本局部首符号冒充全返回。

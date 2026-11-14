@@ -63,3 +63,5 @@
 - [实际根的全输入高输出Volterra完整强界](results/R119-supplement-root-high-output-Volterra-without-low-frequency-condition-number.md)：同一全Airy算子保mean/双支/跨锥，χU的准确commutator加双buffer与dyadic行列Schur给cut2^4200 b下U高输出<2、二次余项H^s→H^(s+4/3)<2^4096 b^(4/3)，不借低频条件数；源/逆向均保，完整graph和全网络阈值仍另付。新整数预算只在公开Actions运行。
 
 - [完整物理帽到真实moving cut的实际14门](results/R133-supplement-complete-physical-cap-into-actual-moving-cut.md)：43587619797真实return0、14门全成，1977格和全部97输入列进入真实moving坐标：εmov<.000146553005，全低误差<.000495325502，真mean>.0970571556485532；全193×96 Gram、97行正交补LR<10.303434596523/DL<.005103553909969。完整未知高输入和主体Green仍分别待证。
+
+- [完整moving算子的严格区首符号与真实根减项](results/R133-supplement-complete-moving-first-symbol-and-root-subtractions.md)：逐项保完整primitive/mean/R0，准确两支消元给a_sigma=−dφφ−b(r_sigma)φ r_−sigma+sigma B+B−/(2ηq)及根有限部g0/g1，含全<u²>。严格区完整余项存在但尚未量化，真实全返回β须接两行Airy/positive和全部端口。新的10条Sympy恒等门由公开Actions首算。

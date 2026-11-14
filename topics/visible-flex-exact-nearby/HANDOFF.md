@@ -10,7 +10,7 @@
 本 checkout 的 `.git/objects` 在 `/tmp/visible-exact-0df9-git-objects` 并保 symlink。
 新临时输出用上述 /tmp 路径；所有已移字节核同。旧 `/workspace/scratch/ac0d699811ad` 仅只读取原检查点，不修改旧仓库或原 native。
 
-最后实际 pull --rebase 与两 README 差异检查：54131fa1b1faffffbbef9bce7716c5c4b74d78d7；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
+最后实际 pull --rebase 与两 README 差异检查：7431df356fcab6e82f6068eb4f0932cf7bfa1462；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
 已实际读 ee26c0a65a2e63c15f2ccfba6714181584416542 的根差异：新增 visible-flex-new-mechanism，课题数改按表；其它规则和本题目标未变。
 每次 push 前真实 pull/rebase 并读两个 README 的新增 diff，至少每小时 pull；每条结论独立推；非 FF 立即 rebase 重推到成功，不 force。
 PAT 仅瞬时命令行环境，不入文件或输出。root 管 Git/H/open/results/log，三代理只写各自新文件。
@@ -67,3 +67,5 @@ cut43586317809和cap-cut43586726292均在数学启动前因Git add --no-cone exi
 已证root完整高输出Volterra二次余项降至b^(4/3)，全mean/双支/输入保留，cut2^4200 b；公开小预算workflow随本结论首跑。一次项/graph/正型/strict全网络仍分别付。
 
 regular-cut43587619788在import阶段漏原poschl模块、0数学格。v2 manifest f8c27873…仅补该原source，80件原SHA/科学源不改；workflow重新启动尚未开始的提案。cap-cut43587619797已实际全14门成功，不重跑。
+
+完整moving strict首符号与root两个减项已证；primitive/两mean/真R0均保，root含全<u²>，有限部尚待实际求值及两行Airy/positive匹配，未授全返回β。独立strict-symbol公开恒等consumer首跑。
