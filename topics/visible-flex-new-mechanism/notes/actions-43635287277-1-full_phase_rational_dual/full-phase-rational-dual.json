@@ -1,0 +1,4464 @@
+{
+  "P0_paid": false,
+  "all_geometries_excluded": false,
+  "all_profiles_excluded": false,
+  "coefficient_arithmetic": {
+    "all_encountered_rational_denominators_invertible": true,
+    "encountered_denominator_count": 90,
+    "encountered_denominators": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      96,
+      128,
+      192,
+      256,
+      384,
+      512,
+      640,
+      1024,
+      1280,
+      2048,
+      3840,
+      4096,
+      7680
+    ],
+    "encountered_denominators_sha256": "2c1ab3d69142b99b9313da2406bd663126874f2b02f79b895eda119038f6d384",
+    "max_polynomial_degree": 78,
+    "operation_check_calls": 151013,
+    "prime": 2147483647,
+    "prime_checked_by_trial_division": true,
+    "raw_atoms_evaluated": 17052,
+    "raw_monomials_evaluated": 32316
+  },
+  "completion": "complete",
+  "elapsed_seconds": 27.987272541000003,
+  "embedding_or_reach_certified": false,
+  "evaluation": {
+    "all_evaluation_labels": [
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "1/49",
+        "xi": "99/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "1/49",
+        "xi": "99/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "1/49",
+        "xi": "99/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "1/49",
+        "xi": "99/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "2/49",
+        "xi": "100/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "2/49",
+        "xi": "100/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "2/49",
+        "xi": "100/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "2/49",
+        "xi": "100/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "3/49",
+        "xi": "101/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "3/49",
+        "xi": "101/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "3/49",
+        "xi": "101/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "3/49",
+        "xi": "101/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "4/49",
+        "xi": "102/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "4/49",
+        "xi": "102/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "4/49",
+        "xi": "102/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "4/49",
+        "xi": "102/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "5/49",
+        "xi": "103/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "5/49",
+        "xi": "103/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "5/49",
+        "xi": "103/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "5/49",
+        "xi": "103/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "6/49",
+        "xi": "104/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "6/49",
+        "xi": "104/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "6/49",
+        "xi": "104/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "6/49",
+        "xi": "104/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "1/7",
+        "xi": "15/7"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "1/7",
+        "xi": "15/7"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "1/7",
+        "xi": "15/7"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "1/7",
+        "xi": "15/7"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "8/49",
+        "xi": "106/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "8/49",
+        "xi": "106/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "8/49",
+        "xi": "106/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "8/49",
+        "xi": "106/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "9/49",
+        "xi": "107/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "9/49",
+        "xi": "107/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "9/49",
+        "xi": "107/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "9/49",
+        "xi": "107/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "10/49",
+        "xi": "108/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "10/49",
+        "xi": "108/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "10/49",
+        "xi": "108/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "10/49",
+        "xi": "108/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "11/49",
+        "xi": "109/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "11/49",
+        "xi": "109/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "11/49",
+        "xi": "109/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "11/49",
+        "xi": "109/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "12/49",
+        "xi": "110/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "12/49",
+        "xi": "110/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "12/49",
+        "xi": "110/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "12/49",
+        "xi": "110/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "13/49",
+        "xi": "111/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "13/49",
+        "xi": "111/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "13/49",
+        "xi": "111/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "13/49",
+        "xi": "111/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "2/7",
+        "xi": "16/7"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "2/7",
+        "xi": "16/7"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "2/7",
+        "xi": "16/7"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "2/7",
+        "xi": "16/7"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "15/49",
+        "xi": "113/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "15/49",
+        "xi": "113/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "15/49",
+        "xi": "113/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "15/49",
+        "xi": "113/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "16/49",
+        "xi": "114/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "16/49",
+        "xi": "114/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "16/49",
+        "xi": "114/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "16/49",
+        "xi": "114/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "17/49",
+        "xi": "115/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "17/49",
+        "xi": "115/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "17/49",
+        "xi": "115/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "17/49",
+        "xi": "115/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "18/49",
+        "xi": "116/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "18/49",
+        "xi": "116/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "18/49",
+        "xi": "116/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "18/49",
+        "xi": "116/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "19/49",
+        "xi": "117/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "19/49",
+        "xi": "117/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "19/49",
+        "xi": "117/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "19/49",
+        "xi": "117/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "20/49",
+        "xi": "118/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "20/49",
+        "xi": "118/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "20/49",
+        "xi": "118/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "20/49",
+        "xi": "118/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "3/7",
+        "xi": "17/7"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "3/7",
+        "xi": "17/7"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "3/7",
+        "xi": "17/7"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "3/7",
+        "xi": "17/7"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "22/49",
+        "xi": "120/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "22/49",
+        "xi": "120/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "22/49",
+        "xi": "120/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "22/49",
+        "xi": "120/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "23/49",
+        "xi": "121/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "23/49",
+        "xi": "121/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "23/49",
+        "xi": "121/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "23/49",
+        "xi": "121/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "24/49",
+        "xi": "122/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "24/49",
+        "xi": "122/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "24/49",
+        "xi": "122/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "24/49",
+        "xi": "122/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "25/49",
+        "xi": "123/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "25/49",
+        "xi": "123/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "25/49",
+        "xi": "123/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "25/49",
+        "xi": "123/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "26/49",
+        "xi": "124/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "26/49",
+        "xi": "124/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "26/49",
+        "xi": "124/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "26/49",
+        "xi": "124/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "27/49",
+        "xi": "125/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "27/49",
+        "xi": "125/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "27/49",
+        "xi": "125/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "27/49",
+        "xi": "125/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "4/7",
+        "xi": "18/7"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "4/7",
+        "xi": "18/7"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "4/7",
+        "xi": "18/7"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "4/7",
+        "xi": "18/7"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "29/49",
+        "xi": "127/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "29/49",
+        "xi": "127/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "29/49",
+        "xi": "127/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "29/49",
+        "xi": "127/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "30/49",
+        "xi": "128/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "30/49",
+        "xi": "128/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "30/49",
+        "xi": "128/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "30/49",
+        "xi": "128/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "31/49",
+        "xi": "129/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "31/49",
+        "xi": "129/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "31/49",
+        "xi": "129/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "31/49",
+        "xi": "129/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "32/49",
+        "xi": "130/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "32/49",
+        "xi": "130/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "32/49",
+        "xi": "130/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "32/49",
+        "xi": "130/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "33/49",
+        "xi": "131/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "33/49",
+        "xi": "131/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "33/49",
+        "xi": "131/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "33/49",
+        "xi": "131/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "34/49",
+        "xi": "132/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "34/49",
+        "xi": "132/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "34/49",
+        "xi": "132/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "34/49",
+        "xi": "132/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "5/7",
+        "xi": "19/7"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "5/7",
+        "xi": "19/7"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "5/7",
+        "xi": "19/7"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "5/7",
+        "xi": "19/7"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "36/49",
+        "xi": "134/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "36/49",
+        "xi": "134/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "36/49",
+        "xi": "134/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "36/49",
+        "xi": "134/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "37/49",
+        "xi": "135/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "37/49",
+        "xi": "135/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "37/49",
+        "xi": "135/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "37/49",
+        "xi": "135/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "38/49",
+        "xi": "136/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "38/49",
+        "xi": "136/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "38/49",
+        "xi": "136/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "38/49",
+        "xi": "136/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "39/49",
+        "xi": "137/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "39/49",
+        "xi": "137/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "39/49",
+        "xi": "137/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "39/49",
+        "xi": "137/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "40/49",
+        "xi": "138/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "40/49",
+        "xi": "138/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "40/49",
+        "xi": "138/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "40/49",
+        "xi": "138/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "41/49",
+        "xi": "139/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "41/49",
+        "xi": "139/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "41/49",
+        "xi": "139/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "41/49",
+        "xi": "139/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "6/7",
+        "xi": "20/7"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "6/7",
+        "xi": "20/7"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "6/7",
+        "xi": "20/7"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "6/7",
+        "xi": "20/7"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "43/49",
+        "xi": "141/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "43/49",
+        "xi": "141/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "43/49",
+        "xi": "141/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "43/49",
+        "xi": "141/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "44/49",
+        "xi": "142/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "44/49",
+        "xi": "142/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "44/49",
+        "xi": "142/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "44/49",
+        "xi": "142/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "45/49",
+        "xi": "143/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "45/49",
+        "xi": "143/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "45/49",
+        "xi": "143/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "45/49",
+        "xi": "143/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "46/49",
+        "xi": "144/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "46/49",
+        "xi": "144/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "46/49",
+        "xi": "144/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "46/49",
+        "xi": "144/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "47/49",
+        "xi": "145/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "47/49",
+        "xi": "145/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "47/49",
+        "xi": "145/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "47/49",
+        "xi": "145/49"
+      },
+      {
+        "component": "real",
+        "mode": -4,
+        "t": "48/49",
+        "xi": "146/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -4,
+        "t": "48/49",
+        "xi": "146/49"
+      },
+      {
+        "component": "real",
+        "mode": -2,
+        "t": "48/49",
+        "xi": "146/49"
+      },
+      {
+        "component": "imaginary",
+        "mode": -2,
+        "t": "48/49",
+        "xi": "146/49"
+      }
+    ],
+    "all_matrix_modular_values_sha256": "d1c4943164e5faf08d1e177146e703284634d8539503d10edc6905393f3fe715",
+    "all_target_modular_values_sha256": "155ccf488dad1495cb8e94819f9340ec2cbcbbc6ef5522aaa519f118f7414bf5",
+    "control_mode_polynomial_identities": [
+      {
+        "index": 0,
+        "modes": {
+          "-2": {
+            "degree": 76,
+            "sha256": "ea3e8de164e14f3bdd685ecc10f299d7237b23e0665b3910b2c7ffc2da49f1ed"
+          },
+          "-4": {
+            "degree": 76,
+            "sha256": "01e63645324765e8ee14590254a093cf766c15ce584875d93c059791afe23854"
+          }
+        },
+        "seconds": 0.518206739
+      },
+      {
+        "index": 1,
+        "modes": {
+          "-2": {
+            "degree": 77,
+            "sha256": "1ba8aa494a57a00e80123ba53b62f4a02de52e2c57e4d91688f6a26d2637aa05"
+          },
+          "-4": {
+            "degree": 77,
+            "sha256": "6ffb7699057898ac77aceac570ccbe5a3b663c5f93b65bb617152e518d0f576b"
+          }
+        },
+        "seconds": 0.6700201000000021
+      },
+      {
+        "index": 2,
+        "modes": {
+          "-2": {
+            "degree": 73,
+            "sha256": "3e0efaf6a58e08aaeb11705cfb4ac71c7d42891ad42ded0fd2a7cf7d2d18db25"
+          },
+          "-4": {
+            "degree": 73,
+            "sha256": "63df361992ce5987332c170e1c599029c27b25decde21ef73165c4253dda36be"
+          }
+        },
+        "seconds": 0.2182288589999999
+      },
+      {
+        "index": 3,
+        "modes": {
+          "-2": {
+            "degree": 74,
+            "sha256": "b0bed3e75158152ccaa412626937d36884ac7e8b44daaaeb5d3a70c1ef850298"
+          },
+          "-4": {
+            "degree": 74,
+            "sha256": "217cf0dda1898c3462522adf349b91983fa2d1cace95d60ba7f6984220cffab8"
+          }
+        },
+        "seconds": 0.3457246899999973
+      },
+      {
+        "index": 4,
+        "modes": {
+          "-2": {
+            "degree": 74,
+            "sha256": "e0b48331a1d93b31c0e3914564afef61c4c3b42c85d1bc62bf986fb4ae49c3d8"
+          },
+          "-4": {
+            "degree": 74,
+            "sha256": "39533b6916c1c4c7c0e237db1ae347e82347204d54d86734095bd04c0dcdef78"
+          }
+        },
+        "seconds": 0.2529046269999995
+      },
+      {
+        "index": 5,
+        "modes": {
+          "-2": {
+            "degree": 75,
+            "sha256": "2f51693a307d8bb2c92951c168f79220222d44932120972157323664e712d092"
+          },
+          "-4": {
+            "degree": 75,
+            "sha256": "f1d8e419ff0a9854a3af3e5996b8d79efa76d7888869f6e0f7c689dd644c99d7"
+          }
+        },
+        "seconds": 0.5268123369999955
+      },
+      {
+        "index": 6,
+        "modes": {
+          "-2": {
+            "degree": 76,
+            "sha256": "655c41643d6a61ab269a12d3cc2a423b4048bffc1e382852c6fd745de607e235"
+          },
+          "-4": {
+            "degree": 76,
+            "sha256": "db7e8d54ad9689d3e5db852ffb27efa9860a73d96e7785631586967b6472040d"
+          }
+        },
+        "seconds": 0.5513926900000001
+      },
+      {
+        "index": 7,
+        "modes": {
+          "-2": {
+            "degree": 76,
+            "sha256": "ac5bfb02daa1ca99ca5e14d5fb8c0bf306c37b75e2c5c934cfda742d899b7059"
+          },
+          "-4": {
+            "degree": 76,
+            "sha256": "f677fc9270986bd5c4332908da06d093cc26428e3279ca474cff033924638b2a"
+          }
+        },
+        "seconds": 0.3760466089999994
+      },
+      {
+        "index": 8,
+        "modes": {
+          "-2": {
+            "degree": 74,
+            "sha256": "b2d7d4b3965e6c3c5ae84a8ffbc0594addb74325b0cecafc03dcd42f04ecddf3"
+          },
+          "-4": {
+            "degree": 74,
+            "sha256": "a26eeb8b0d834b21a78b336647bf30bbe9fb3be2f93d1051906f58d84fdd0f9e"
+          }
+        },
+        "seconds": 0.270431557000002
+      },
+      {
+        "index": 9,
+        "modes": {
+          "-2": {
+            "degree": 75,
+            "sha256": "1bc31e6b7dd87d98264dbd6b630e2f0dc0a337481b8ac2ede11a88592b5e6f86"
+          },
+          "-4": {
+            "degree": 75,
+            "sha256": "c2933ceef0a4c5514a9eed1cd8fc183591b271e61fe2756549d6daa445ca62bb"
+          }
+        },
+        "seconds": 0.3312087549999987
+      },
+      {
+        "index": 10,
+        "modes": {
+          "-2": {
+            "degree": 75,
+            "sha256": "d605ccaa80223407838c436db06113d7e78163670149301faf924c0df95aea31"
+          },
+          "-4": {
+            "degree": 75,
+            "sha256": "78eb3893897fe89091924b804279f41ea2937a3712a367b4661e31d4cc346a2a"
+          }
+        },
+        "seconds": 0.2825730370000059
+      },
+      {
+        "index": 11,
+        "modes": {
+          "-2": {
+            "degree": 76,
+            "sha256": "c23644fb40ed57f4d9fe77d0863c06ebc4c39707334ad90b1b8ae8fdbf77e4ac"
+          },
+          "-4": {
+            "degree": 76,
+            "sha256": "31cfc440b2f8cc9b22b2f42299c771b5149c849692c64fa5aebc134bd7df633e"
+          }
+        },
+        "seconds": 0.6343410189999972
+      },
+      {
+        "index": 12,
+        "modes": {
+          "-2": {
+            "degree": 77,
+            "sha256": "ecf8c1329a6a7d2ad499d1bd8279e0b5e62850383df7be02f5f6fc0dd8bce163"
+          },
+          "-4": {
+            "degree": 77,
+            "sha256": "695a5a6b0e25c062ecb40a2e2b647a4e146da37d98e6ec6b5486280a46217669"
+          }
+        },
+        "seconds": 0.48085216899999494
+      },
+      {
+        "index": 13,
+        "modes": {
+          "-2": {
+            "degree": 75,
+            "sha256": "637500417d31a5ed1379518f7fe7452dfd22a24e2f567063db9bc4a2c232dd5f"
+          },
+          "-4": {
+            "degree": 75,
+            "sha256": "6a2ab223dd8f857c7136def5255eef859a8c037bcf7199097bba90658f1923ee"
+          }
+        },
+        "seconds": 0.3478047210000028
+      },
+      {
+        "index": 14,
+        "modes": {
+          "-2": {
+            "degree": 76,
+            "sha256": "285f98439c0de729653a3710f6df92ba3292a19fc703eb647f548c7aa225b012"
+          },
+          "-4": {
+            "degree": 76,
+            "sha256": "557b2a022d6b7c29f1e626dfa8781d24cb729437efb5cbab6f9f5025b48b1734"
+          }
+        },
+        "seconds": 0.46376675500000175
+      },
+      {
+        "index": 15,
+        "modes": {
+          "-2": {
+            "degree": 76,
+            "sha256": "b565a7d4957a7b1982343f45f64b6694b2bd8b2455752fbae14e46f52a69aef7"
+          },
+          "-4": {
+            "degree": 76,
+            "sha256": "2470e3e1a5e99365322ba0724677dca40a2e20cf685e27dcb43e02428f16e1a7"
+          }
+        },
+        "seconds": 0.3653907320000016
+      },
+      {
+        "index": 16,
+        "modes": {
+          "-2": {
+            "degree": 77,
+            "sha256": "3b0d89bbb8c6804a9e1870d40fb2fd599be07ba14d3f5801fe598dfcb2efad7a"
+          },
+          "-4": {
+            "degree": 77,
+            "sha256": "528fcfc7fa75f7515d3a92caee06c5d3deb2f63d544cc26d43af812000e80622"
+          }
+        },
+        "seconds": 0.8281260260000067
+      },
+      {
+        "index": 17,
+        "modes": {
+          "-2": {
+            "degree": 76,
+            "sha256": "fedd7f29a748834e8dbd165c4d73377876aa57c6ff3ed7097b076981922c0f70"
+          },
+          "-4": {
+            "degree": 76,
+            "sha256": "154cc76dc720facae41385824a176dbe2dc5f305eb351690b2fe4f2715c6e0e4"
+          }
+        },
+        "seconds": 0.6596858600000033
+      },
+      {
+        "index": 18,
+        "modes": {
+          "-2": {
+            "degree": 72,
+            "sha256": "bdb19064a6b6da3f2b097a0e81ed2cdaba964e7f9149ba8840f311846fcbd10b"
+          },
+          "-4": {
+            "degree": 72,
+            "sha256": "55cf271c40fd307d32e1da7eceb03ac326455cd598ecd33f66b395e9cf01e641"
+          }
+        },
+        "seconds": 0.14026118499999995
+      },
+      {
+        "index": 19,
+        "modes": {
+          "-2": {
+            "degree": 72,
+            "sha256": "e64f7d39cc55a48ebeb0959d71bf00e75fffc3476c3bb3258e45171e6479b4b6"
+          },
+          "-4": {
+            "degree": 72,
+            "sha256": "93844ef9809e24f525d5357daac52265c67741968c46c70333ae8dce374d9819"
+          }
+        },
+        "seconds": 0.07931864500000074
+      },
+      {
+        "index": 20,
+        "modes": {
+          "-2": {
+            "degree": 73,
+            "sha256": "69cad8ae1efdcb4b95e60abb678d285e22345bf146b949cd24570cdb33487b74"
+          },
+          "-4": {
+            "degree": 73,
+            "sha256": "648908fd04c8e7ce208f6ba302bf12af087e78c1d832701bed49b9ea432bae5d"
+          }
+        },
+        "seconds": 0.18853430100000423
+      },
+      {
+        "index": 21,
+        "modes": {
+          "-2": {
+            "degree": 74,
+            "sha256": "9231a8411b0111afda6c68947c7cb3642c47d04d4a55e7c67e53badef3c44369"
+          },
+          "-4": {
+            "degree": 74,
+            "sha256": "61665da87130956a8d68fd0821ccbe5eb9a13db7f29c445dc4c8c15c808ab10e"
+          }
+        },
+        "seconds": 0.20430839900000564
+      },
+      {
+        "index": 22,
+        "modes": {
+          "-2": {
+            "degree": 73,
+            "sha256": "98ef3f502942c01d8e13b14fabbb1572ac00067deebb9a830585308c99f7ea87"
+          },
+          "-4": {
+            "degree": 73,
+            "sha256": "9ede3c004c1f8029ec55430ecc32952b9be329bce47b9d3d6ae78b408cc94b12"
+          }
+        },
+        "seconds": 0.15437866199999917
+      },
+      {
+        "index": 23,
+        "modes": {
+          "-2": {
+            "degree": 74,
+            "sha256": "e249b1f0f8c65db08ca28ddf97091270de74e091505be3a1f4dff5e1bc993408"
+          },
+          "-4": {
+            "degree": 74,
+            "sha256": "20ccdb37d79a375c6c860500e1d6b06a2b92adf80ac0f007b87341b6e0e80faf"
+          }
+        },
+        "seconds": 0.2512563750000041
+      },
+      {
+        "index": 24,
+        "modes": {
+          "-2": {
+            "degree": 75,
+            "sha256": "64de6803adeb447bf13efb3e508f0c6de746ffc6025accfd7d5937895fb72851"
+          },
+          "-4": {
+            "degree": 75,
+            "sha256": "22106de3d066042e1fd8a475331b25ed8eaf7d1ea1f4fff66be2a6abc62936ff"
+          }
+        },
+        "seconds": 0.19827962100000462
+      },
+      {
+        "index": 25,
+        "modes": {
+          "-2": {
+            "degree": 74,
+            "sha256": "350691db771d7a327be830e21d9ebfe49e42d6d4daa2e99ecc80c965ad8b888c"
+          },
+          "-4": {
+            "degree": 74,
+            "sha256": "97ec3fee5e59e3baef9d1fc43ca9cf5a73ab1b3f6868ec5ef9370f4eca76b204"
+          }
+        },
+        "seconds": 0.21322369100000316
+      },
+      {
+        "index": 26,
+        "modes": {
+          "-2": {
+            "degree": 75,
+            "sha256": "002ecc4d2fe7372c381a5f759a39d67c598a29ef732af75d2f923789894ba1ab"
+          },
+          "-4": {
+            "degree": 75,
+            "sha256": "e702f35469e2cd6f33d03200147a004302e9186bd807d8ea39d0fb446a5a015d"
+          }
+        },
+        "seconds": 0.2227294509999993
+      },
+      {
+        "index": 27,
+        "modes": {
+          "-2": {
+            "degree": 76,
+            "sha256": "7706afcfb9e0b8fb84c32d3ace97f33679b312588c118809edf65a79ea24449a"
+          },
+          "-4": {
+            "degree": 76,
+            "sha256": "467212ce0cccbcd0ee74e08c6cb7145cc415c73d75cb7531868e4d34f0f9188b"
+          }
+        },
+        "seconds": 0.3838911329999988
+      },
+      {
+        "index": 28,
+        "modes": {
+          "-2": {
+            "degree": 73,
+            "sha256": "6fcf929c4c72163bc8f67c9331c5e8b667191d999eb220aa65ff74018589dc7a"
+          },
+          "-4": {
+            "degree": 73,
+            "sha256": "601e60360456c2232fba67e9aa2f5ea2ef9bf3b9649fef52af55c87d90ae2ef1"
+          }
+        },
+        "seconds": 0.29465511899999797
+      },
+      {
+        "index": 29,
+        "modes": {
+          "-2": {
+            "degree": 74,
+            "sha256": "9ed92a29c4ea231eceb1b807315a45e7868861c52747dc423af328ab2f7e1bd5"
+          },
+          "-4": {
+            "degree": 74,
+            "sha256": "0bff8091e523da21a442e265042de0236d467f9cbe3663444c940bb895a768eb"
+          }
+        },
+        "seconds": 0.3989565649999989
+      },
+      {
+        "index": 30,
+        "modes": {
+          "-2": {
+            "degree": 74,
+            "sha256": "563896700dce4c9cd15a2adcf1453a7d11104a0faab73e5351b4e909cefba3f9"
+          },
+          "-4": {
+            "degree": 74,
+            "sha256": "3b6e39aa808f9d2df0f18f510a418f8da3a178c497fba7116fcb8e81b0fa1cec"
+          }
+        },
+        "seconds": 0.4196481179999978
+      },
+      {
+        "index": 31,
+        "modes": {
+          "-2": {
+            "degree": 75,
+            "sha256": "1b70dd8eb2e43b284347a8db84a9afb46893aa8cdae2dbbcf052533029f6a8c5"
+          },
+          "-4": {
+            "degree": 75,
+            "sha256": "277b5aa9ab498b2e73787bf188345181eba417c4a2b5257ea5be24b73ea4f58c"
+          }
+        },
+        "seconds": 0.5519137920000006
+      },
+      {
+        "index": 32,
+        "modes": {
+          "-2": {
+            "degree": 76,
+            "sha256": "27a0d98dd4ce68372a55988067c613424cb8781332189c68c03f7ada10a0bb28"
+          },
+          "-4": {
+            "degree": 76,
+            "sha256": "7583449293e5bb0908c6a6c75f84f70d577a364e7670fcc8394af8b103d68ed3"
+          }
+        },
+        "seconds": 0.609320782999994
+      },
+      {
+        "index": 33,
+        "modes": {
+          "-2": {
+            "degree": 75,
+            "sha256": "e2106fd281bd368c5f082bde0bf7ce4095be1c0a9a4ba4de09bda547ca59def0"
+          },
+          "-4": {
+            "degree": 75,
+            "sha256": "5a384c5c7a860fe5c3eebe1296fbbbb18505396e5bc994d2e4c2372289392c80"
+          }
+        },
+        "seconds": 0.8875406029999979
+      },
+      {
+        "index": 34,
+        "modes": {
+          "-2": {
+            "degree": 76,
+            "sha256": "0de2789436f01a333e7dff4bd19ea22a219d09ac17dff2248406f5d3666cdd3c"
+          },
+          "-4": {
+            "degree": 76,
+            "sha256": "91508ba21f753ca5af14b995b53d9e2799c32e4b83617e56ae66d46cf8dd7085"
+          }
+        },
+        "seconds": 1.3739486310000046
+      },
+      {
+        "index": 35,
+        "modes": {
+          "-2": {
+            "degree": 77,
+            "sha256": "2ba32df7998caa6c22d1c721847edf549f047895b302aa1bea26c84219a5e891"
+          },
+          "-4": {
+            "degree": 77,
+            "sha256": "f339104b7b632a2de09916b4d8141909419f379122010447f8b824a9e98dfc5d"
+          }
+        },
+        "seconds": 0.9507702199999954
+      }
+    ],
+    "dual_certificate": {
+      "control_columns": 36,
+      "functional_over_Q": "ev_last - row_last(A) * inverse(A_pivot) * ev_pivot",
+      "modular_augmented_determinant": 174204184,
+      "modular_augmented_matrix": [
+        [
+          166271293,
+          1885775788,
+          165921147,
+          418493007,
+          539574013,
+          1418728401,
+          1000571462,
+          1638370979,
+          1365002539,
+          1169649761,
+          1573368940,
+          423822089,
+          1158191852,
+          458256259,
+          849762686,
+          1783784990,
+          1716875731,
+          752838874,
+          102035251,
+          306105753,
+          1699271793,
+          50811221,
+          1098517617,
+          644145057,
+          1303284941,
+          373987805,
+          1985140890,
+          2012455666,
+          1904407576,
+          1452060591,
+          1004522356,
+          850311016,
+          1530259431,
+          395222020,
+          2065890157,
+          1857935684,
+          785390981
+        ],
+        [
+          303651291,
+          1263402880,
+          889223578,
+          161369367,
+          627311082,
+          536855365,
+          468967327,
+          1635175758,
+          1513442517,
+          80988355,
+          1985587025,
+          1133978604,
+          415534963,
+          1397566161,
+          2104915267,
+          180395654,
+          432332954,
+          32750697,
+          1804727645,
+          1119215641,
+          1835364665,
+          1417236138,
+          1177775876,
+          510914559,
+          178857901,
+          1273411539,
+          1150139644,
+          564999080,
+          76310238,
+          1473527117,
+          1415243151,
+          814495445,
+          1306740448,
+          974410885,
+          556054746,
+          432987171,
+          219495577
+        ],
+        [
+          175291298,
+          212566922,
+          161713008,
+          658790346,
+          328860153,
+          606655294,
+          1394974163,
+          467970071,
+          1294555301,
+          475351375,
+          511219553,
+          1336407701,
+          1206394906,
+          655874948,
+          208993264,
+          926108308,
+          782488684,
+          417123762,
+          593417478,
+          1291557269,
+          281599423,
+          140023810,
+          856736566,
+          1793304353,
+          597518948,
+          1992315464,
+          2130327636,
+          869942733,
+          363329030,
+          972332382,
+          1937933447,
+          1935738213,
+          305951643,
+          1324651240,
+          2058929730,
+          512130783,
+          511016604
+        ],
+        [
+          132928819,
+          1497674655,
+          1249587722,
+          1732743657,
+          496641168,
+          290360872,
+          171392821,
+          2063052624,
+          982871798,
+          1031054378,
+          1493963560,
+          235010460,
+          664669206,
+          700583275,
+          918421342,
+          1347736047,
+          1457465746,
+          617392503,
+          2095824541,
+          745804935,
+          1581069808,
+          964988382,
+          936375872,
+          1422408902,
+          1981430834,
+          2122818221,
+          813686698,
+          1807626809,
+          350734903,
+          1563141382,
+          1434581059,
+          1169930601,
+          1683761939,
+          79762722,
+          930363258,
+          1220307526,
+          2088268320
+        ],
+        [
+          1911315014,
+          1723538794,
+          999547529,
+          1118875915,
+          2085414439,
+          875778725,
+          1395760476,
+          795953760,
+          2119967322,
+          530537562,
+          1507951276,
+          455978857,
+          746953176,
+          1674990939,
+          316160114,
+          188642389,
+          229632442,
+          1061271680,
+          379639038,
+          1138917114,
+          1443844045,
+          1386698805,
+          73759669,
+          1083389323,
+          2003986202,
+          2001738878,
+          1494980022,
+          1769693373,
+          889768695,
+          724928524,
+          1936554445,
+          1681698210,
+          1529254532,
+          658874823,
+          21820605,
+          1960745353,
+          174236203
+        ],
+        [
+          658584899,
+          1326457690,
+          246559463,
+          571599652,
+          406067148,
+          1608274107,
+          1729755908,
+          56912687,
+          346940553,
+          119342419,
+          1510105105,
+          1866106577,
+          1923022873,
+          205692517,
+          1343678311,
+          252574734,
+          1775379238,
+          791711465,
+          520130290,
+          1560390870,
+          200690099,
+          1444087307,
+          470184244,
+          1614753358,
+          472264664,
+          647027209,
+          808310543,
+          949499791,
+          876088546,
+          866027003,
+          982295383,
+          1222111409,
+          948317129,
+          748858469,
+          110374606,
+          1129857017,
+          1276021491
+        ],
+        [
+          606388209,
+          272383443,
+          589081325,
+          852162609,
+          1018560672,
+          1139006696,
+          125497295,
+          1295737970,
+          1557895623,
+          301285858,
+          160137773,
+          1664756261,
+          2134877664,
+          1620323883,
+          639859535,
+          1542672028,
+          889854643,
+          1645533930,
+          319644619,
+          1225621284,
+          547772059,
+          512127154,
+          14770754,
+          163788185,
+          1580981922,
+          649927089,
+          1602931729,
+          1439248413,
+          1070063557,
+          1488567442,
+          1070483522,
+          766095874,
+          1822681598,
+          1961319808,
+          1606533805,
+          1634872120,
+          332509900
+        ],
+        [
+          843164247,
+          53191356,
+          1003911406,
+          1006538505,
+          1908029348,
+          233870524,
+          1236126759,
+          1437300469,
+          1383197273,
+          1375311357,
+          922739944,
+          824809474,
+          2060377543,
+          1341330370,
+          396143791,
+          1804970362,
+          1901725759,
+          1904168652,
+          1254267531,
+          953494932,
+          315039538,
+          172432452,
+          289529202,
+          1854936875,
+          2108208883,
+          1866982770,
+          453965773,
+          1064368912,
+          1900563728,
+          885780983,
+          1855309224,
+          1650051425,
+          506928774,
+          1748377596,
+          1565401550,
+          38716972,
+          1916249943
+        ],
+        [
+          1790721719,
+          394495093,
+          448840749,
+          418390474,
+          1437299425,
+          1922346504,
+          862579637,
+          653839046,
+          1317624884,
+          583219489,
+          1214908118,
+          1268645080,
+          615181067,
+          167941697,
+          64696715,
+          1997035411,
+          1311616606,
+          1587613277,
+          1653409584,
+          665261458,
+          564614113,
+          2003738867,
+          955568180,
+          1798251747,
+          2056263767,
+          1085716316,
+          1642087674,
+          948789569,
+          879880608,
+          865538441,
+          2024476452,
+          1563516838,
+          497225753,
+          1069443014,
+          786821964,
+          383075645,
+          1023113790
+        ],
+        [
+          449731231,
+          1842576203,
+          573603142,
+          1365321910,
+          520637530,
+          152818813,
+          782163679,
+          1464283882,
+          54758506,
+          1606748772,
+          484404074,
+          1404193270,
+          603679307,
+          873037873,
+          2045420850,
+          290010108,
+          635217589,
+          1236550627,
+          1164191769,
+          1345091660,
+          1394395802,
+          727935854,
+          1557602614,
+          772519339,
+          1059468871,
+          1462491488,
+          883384174,
+          982847631,
+          918138434,
+          1649170360,
+          894582855,
+          1494547885,
+          627207600,
+          1235974371,
+          663457448,
+          385951085,
+          2069448475
+        ],
+        [
+          13930921,
+          969279159,
+          682239846,
+          1433335699,
+          314408958,
+          786736031,
+          1614249125,
+          529703076,
+          994251726,
+          335764996,
+          1367998972,
+          1579348469,
+          2127869318,
+          1684248656,
+          411296668,
+          178534949,
+          1808802645,
+          1291267490,
+          600981536,
+          709636699,
+          2089246388,
+          1353004346,
+          1619477233,
+          562016044,
+          1695960231,
+          1409330299,
+          1026287062,
+          1830722810,
+          2142702137,
+          1111458761,
+          1738321680,
+          2023836994,
+          525969476,
+          1669316046,
+          1794904592,
+          835390765,
+          791496682
+        ],
+        [
+          1809272711,
+          94118959,
+          1010350465,
+          2059694030,
+          2109384647,
+          337280111,
+          1140619611,
+          1071705407,
+          628291106,
+          153765992,
+          496423504,
+          219491229,
+          1790756960,
+          581201182,
+          1713551593,
+          1681126208,
+          386772407,
+          1599063597,
+          665740134,
+          1592813281,
+          401827556,
+          489784158,
+          1529341623,
+          320593115,
+          687278635,
+          520109761,
+          1388747490,
+          1168000827,
+          984180205,
+          975988684,
+          1138786213,
+          1029414169,
+          284256539,
+          1401963544,
+          775324990,
+          1324560299,
+          950768592
+        ],
+        [
+          1067605808,
+          2040649750,
+          614004311,
+          816714202,
+          369941345,
+          1618629994,
+          1963614799,
+          121761632,
+          751070310,
+          2080170351,
+          1903678076,
+          1630177365,
+          1773582631,
+          1545318448,
+          793015402,
+          923169793,
+          640968135,
+          878176725,
+          216473834,
+          649421502,
+          1542304359,
+          1878792814,
+          1692158646,
+          565731520,
+          1631573869,
+          1753197817,
+          1671718939,
+          453872452,
+          919189653,
+          885753881,
+          965578392,
+          1375418078,
+          687254461,
+          8962552,
+          1251838677,
+          93475254,
+          1162013324
+        ],
+        [
+          1376824763,
+          266076509,
+          791060524,
+          2073398016,
+          250484076,
+          1887859158,
+          1924319008,
+          1769441948,
+          601457426,
+          1769862659,
+          1069372293,
+          529212426,
+          1256228580,
+          527988039,
+          2019656426,
+          1061123250,
+          2048586643,
+          927600166,
+          712779674,
+          2138339022,
+          463069235,
+          592831159,
+          344383580,
+          650198668,
+          1740462968,
+          980964654,
+          29433826,
+          610248600,
+          1546194368,
+          2089040029,
+          573009453,
+          382466167,
+          1459857119,
+          2126639623,
+          1241093046,
+          1833426502,
+          300460844
+        ],
+        [
+          90007220,
+          445198845,
+          1164176873,
+          954556907,
+          1720417443,
+          993648389,
+          1116506540,
+          1278680902,
+          1271849800,
+          551982292,
+          662336526,
+          1652989312,
+          1040559802,
+          710137766,
+          306758768,
+          1511326885,
+          772127102,
+          1526242198,
+          1482745504,
+          369855154,
+          1442106249,
+          611603094,
+          382608893,
+          1729176370,
+          1820189170,
+          1711221069,
+          304305393,
+          1506528957,
+          490436049,
+          1750392684,
+          1953363664,
+          1093502681,
+          370728384,
+          1298452814,
+          1644494583,
+          10119253,
+          1597112334
+        ],
+        [
+          999265130,
+          1346673698,
+          436653734,
+          2026815599,
+          276087319,
+          1733361875,
+          1679074082,
+          2113766471,
+          1027165624,
+          1289299454,
+          649232504,
+          418989567,
+          769157322,
+          1071668805,
+          795521697,
+          1904560486,
+          1466743583,
+          2074362634,
+          1790508811,
+          1998452516,
+          1381727505,
+          765537864,
+          1038726659,
+          89099699,
+          1913495601,
+          1224196857,
+          1622594732,
+          1572523772,
+          1759378412,
+          729533263,
+          401875728,
+          69236641,
+          1412733338,
+          1642653822,
+          231854072,
+          143734288,
+          220982363
+        ],
+        [
+          1399581879,
+          1192538373,
+          1510585915,
+          1488242970,
+          828144689,
+          1347234193,
+          931665631,
+          2087252592,
+          1182641106,
+          2069282644,
+          1104293241,
+          229850656,
+          185082903,
+          1539396073,
+          1695169498,
+          688224668,
+          822372567,
+          635519809,
+          1115783742,
+          1199867579,
+          383629107,
+          1427175217,
+          310209779,
+          662585244,
+          1310433015,
+          1689603245,
+          284856209,
+          512050408,
+          1931803353,
+          1737603797,
+          293236250,
+          1719288350,
+          2140300814,
+          1460728439,
+          1547353866,
+          490600186,
+          407840539
+        ],
+        [
+          262281717,
+          1175908978,
+          1516248659,
+          1684294696,
+          1482848510,
+          2023712029,
+          1160956146,
+          735858520,
+          517165416,
+          828250284,
+          1013120327,
+          1951535034,
+          2060281165,
+          368786229,
+          475812152,
+          1197007237,
+          1350313942,
+          265316811,
+          921814523,
+          617959922,
+          648768161,
+          1119173825,
+          451273422,
+          1642447756,
+          392781630,
+          1427323040,
+          207322585,
+          275184255,
+          1312148421,
+          337082497,
+          333863658,
+          1695947714,
+          341667714,
+          957876496,
+          1180317362,
+          1095542444,
+          1898782788
+        ],
+        [
+          1371192477,
+          940703407,
+          454975277,
+          1338586301,
+          575778807,
+          1881590550,
+          1010533852,
+          1024942916,
+          356819158,
+          2062216585,
+          1490435967,
+          1892135227,
+          259798514,
+          1202698556,
+          20742087,
+          390605587,
+          1568713171,
+          218266931,
+          1312726686,
+          25618711,
+          1338297279,
+          1886839316,
+          1437785843,
+          690281351,
+          1462239698,
+          1867905314,
+          1549024172,
+          1523129562,
+          436716518,
+          1860942936,
+          1557504813,
+          1876259435,
+          62051506,
+          841280976,
+          1539116668,
+          1851754910,
+          1770243005
+        ],
+        [
+          1720667610,
+          2119539236,
+          1256498795,
+          211610268,
+          1682165602,
+          1543002265,
+          1475075313,
+          695029579,
+          1388047945,
+          1207313350,
+          1395246616,
+          2091578175,
+          423268952,
+          113032319,
+          1337837582,
+          1137267232,
+          1220916607,
+          119926625,
+          1839558529,
+          585217371,
+          1768009505,
+          1050697552,
+          1195004866,
+          1670725836,
+          1861890288,
+          1174352220,
+          1786739821,
+          1444861438,
+          516004124,
+          682128111,
+          612935566,
+          1235350977,
+          1440712507,
+          1680301969,
+          233997333,
+          1626639470,
+          668062183
+        ],
+        [
+          674383444,
+          2146282909,
+          2008280849,
+          63091017,
+          1258232297,
+          1286798964,
+          285692229,
+          1040116822,
+          1126601810,
+          1356127096,
+          948399058,
+          1676931438,
+          1478207867,
+          1972054897,
+          549517184,
+          1595983662,
+          1337350822,
+          670994547,
+          540059369,
+          1620178107,
+          962248875,
+          1973758508,
+          1346062064,
+          669956728,
+          339407455,
+          192998150,
+          1507863574,
+          1613736355,
+          1889564301,
+          780430089,
+          231154785,
+          1215608204,
+          1155555444,
+          1806036393,
+          109934069,
+          167318945,
+          2035330552
+        ],
+        [
+          1715447951,
+          149640574,
+          998091461,
+          1272733701,
+          27914023,
+          381543609,
+          1170033154,
+          1907370172,
+          1602063547,
+          2119663081,
+          424232836,
+          1010846777,
+          125205407,
+          535930757,
+          1222681664,
+          2032371480,
+          2046713407,
+          1827332347,
+          2109038737,
+          2032148917,
+          541846221,
+          544917747,
+          1768060302,
+          1713217286,
+          1772311236,
+          991614548,
+          1258523670,
+          1028237884,
+          248693995,
+          402556071,
+          1302985326,
+          775765901,
+          438173086,
+          1401476849,
+          972656853,
+          505569560,
+          1416940350
+        ],
+        [
+          1557135206,
+          2128619605,
+          2010648844,
+          715780997,
+          689984613,
+          1167619919,
+          102657998,
+          1744748657,
+          1575074527,
+          1486284674,
+          1805530019,
+          1812153833,
+          1806386106,
+          1142202071,
+          262266582,
+          652550504,
+          1539673083,
+          1858562378,
+          680623578,
+          477554134,
+          1264537427,
+          1371308296,
+          363070103,
+          975497036,
+          519560012,
+          298373955,
+          2112948487,
+          1120133010,
+          1185648099,
+          1199740926,
+          635542108,
+          1169817028,
+          1384929643,
+          1304571649,
+          42589044,
+          1229726632,
+          572244560
+        ],
+        [
+          1140292926,
+          1348916479,
+          1417396251,
+          789321590,
+          187150094,
+          1230150794,
+          37484408,
+          37127695,
+          2048516979,
+          951784992,
+          1587503294,
+          1210445775,
+          253824103,
+          1347823378,
+          2137353409,
+          1179772523,
+          1013190333,
+          255523624,
+          1864705600,
+          1364365313,
+          1173691137,
+          568248827,
+          160796889,
+          1153960807,
+          1078092567,
+          1653773762,
+          733047614,
+          1424355389,
+          500409463,
+          1578649551,
+          1358432962,
+          1158589612,
+          586828888,
+          426579985,
+          467280717,
+          1439213971,
+          1995970849
+        ],
+        [
+          1198525140,
+          96635898,
+          1393228486,
+          731260595,
+          1942961108,
+          846235697,
+          1310948947,
+          1812839041,
+          1149999878,
+          1615264300,
+          551213392,
+          1388695389,
+          1484967320,
+          1500069116,
+          1145043225,
+          222630397,
+          1421668552,
+          1701290839,
+          1922649774,
+          1472982028,
+          1524690562,
+          1671553864,
+          704704363,
+          1005979817,
+          687491472,
+          888634179,
+          1464169877,
+          1355831230,
+          1800667614,
+          1541761214,
+          435290853,
+          2057529767,
+          157929861,
+          540239449,
+          2092199698,
+          1776241817,
+          558584944
+        ],
+        [
+          1224866421,
+          1665442247,
+          357416742,
+          497226587,
+          1353214135,
+          29374107,
+          1337926541,
+          442114936,
+          1176075953,
+          719269731,
+          457396155,
+          2078653025,
+          1626035584,
+          1173943123,
+          112927410,
+          593308614,
+          560854726,
+          2021142346,
+          509759035,
+          1529277105,
+          1861951611,
+          437352547,
+          393359095,
+          1759910052,
+          1050316291,
+          840917844,
+          839022640,
+          1896186390,
+          1999561821,
+          1778259960,
+          798126741,
+          1394159659,
+          2015416876,
+          1526878413,
+          821067124,
+          1740974751,
+          2055060008
+        ],
+        [
+          624296848,
+          447306193,
+          1614028687,
+          522769330,
+          1586289643,
+          491726111,
+          1094627740,
+          171996476,
+          1605233762,
+          87015493,
+          287763710,
+          1914889935,
+          1880069767,
+          445226977,
+          278497104,
+          375764682,
+          343469411,
+          294978281,
+          729765472,
+          766524801,
+          1313898872,
+          1728733015,
+          886529631,
+          2003716143,
+          1247184093,
+          691433309,
+          318768947,
+          1828417017,
+          538647209,
+          556705686,
+          1445870597,
+          488460956,
+          80428622,
+          1439550549,
+          645679278,
+          47786849,
+          659328567
+        ],
+        [
+          2139948898,
+          339581353,
+          1139635930,
+          1509994642,
+          1381191348,
+          197924857,
+          1316696929,
+          1471833102,
+          1982162351,
+          1259734429,
+          807669760,
+          2071370594,
+          684609634,
+          267831109,
+          813215792,
+          2027349544,
+          1884089413,
+          1363620357,
+          1261138191,
+          234979564,
+          1873996681,
+          1895570,
+          979821516,
+          1453140599,
+          415655087,
+          1756768767,
+          1562691029,
+          1629578392,
+          2071572972,
+          1297662493,
+          1296886105,
+          77213278,
+          1087128590,
+          688145458,
+          602299719,
+          983633149,
+          738642427
+        ],
+        [
+          929656354,
+          681781737,
+          292441491,
+          1209894995,
+          337465451,
+          1538168534,
+          681015106,
+          1070175118,
+          125234321,
+          1593895953,
+          290313205,
+          2027669384,
+          1574411259,
+          638003816,
+          830084318,
+          1204668142,
+          1827926513,
+          711072275,
+          1792519996,
+          1082592694,
+          1762950652,
+          1517308452,
+          246395739,
+          970155251,
+          900146375,
+          854215993,
+          1081768316,
+          807136692,
+          1528651622,
+          2010866991,
+          1173499344,
+          1256872278,
+          1547248067,
+          1384742657,
+          1344540919,
+          143268097,
+          1909899622
+        ],
+        [
+          1085372623,
+          635354582,
+          712419883,
+          649192600,
+          1327856099,
+          444852332,
+          2118607205,
+          82758817,
+          102783277,
+          221162245,
+          1499536215,
+          133902614,
+          1849241871,
+          406190200,
+          1358225319,
+          804968107,
+          1231838134,
+          1542000854,
+          689566609,
+          2068699827,
+          287408816,
+          1554968884,
+          138592409,
+          629508893,
+          749373602,
+          456393892,
+          1121411103,
+          356540873,
+          420513153,
+          1933044418,
+          116088051,
+          47425105,
+          666904183,
+          1022486487,
+          1815730474,
+          74560444,
+          60492824
+        ],
+        [
+          171727148,
+          895799090,
+          983208854,
+          813362367,
+          1999965979,
+          246668831,
+          378454511,
+          1235582144,
+          306228031,
+          1885168787,
+          1002417134,
+          708776858,
+          572477543,
+          1070953789,
+          2067533465,
+          1395561610,
+          334502159,
+          299395767,
+          1149005986,
+          635481556,
+          653149639,
+          2130933107,
+          166565125,
+          1111789108,
+          365028637,
+          1492919700,
+          418719523,
+          1715808101,
+          2095508750,
+          926243549,
+          1630262939,
+          1386009954,
+          96231972,
+          1928935314,
+          1410298260,
+          1572296227,
+          2073278142
+        ],
+        [
+          133519659,
+          2106067203,
+          381399512,
+          1793012487,
+          176118406,
+          127225966,
+          1820257505,
+          973998814,
+          1286756430,
+          1548353559,
+          1157208548,
+          60069346,
+          194273572,
+          627976503,
+          327055178,
+          2028903960,
+          1563403726,
+          532699000,
+          1087105713,
+          1257369025,
+          2047985772,
+          674439272,
+          634468450,
+          1483342069,
+          1325504728,
+          795305927,
+          264013284,
+          182075163,
+          166522321,
+          564448541,
+          827817914,
+          1280816828,
+          193365984,
+          1165771335,
+          1077337762,
+          912213705,
+          1744479738
+        ],
+        [
+          1721597537,
+          172695728,
+          981172199,
+          1441020667,
+          626306111,
+          200468863,
+          275265657,
+          159947255,
+          594347007,
+          2105541646,
+          875801889,
+          217001895,
+          56262466,
+          2142425790,
+          1430808960,
+          1991080163,
+          60170796,
+          929090889,
+          2106253119,
+          2023792063,
+          850154319,
+          369548598,
+          1896835458,
+          1915983409,
+          138390155,
+          651938835,
+          1087802183,
+          2037719711,
+          48373459,
+          1895427829,
+          1634291819,
+          1133433406,
+          1670940290,
+          892516915,
+          987283559,
+          1059676207,
+          1225361151
+        ],
+        [
+          971124847,
+          419125796,
+          1248566298,
+          2101996315,
+          1636465490,
+          1973072346,
+          1347988158,
+          1150934480,
+          778826166,
+          1502718581,
+          1665230241,
+          1376316070,
+          980263923,
+          1313329414,
+          885524313,
+          885190722,
+          606081597,
+          102923542,
+          1024915925,
+          927264128,
+          538816401,
+          1785760745,
+          1068515824,
+          1299340449,
+          1243125478,
+          760990421,
+          1935407253,
+          1060392048,
+          1887395971,
+          1927234760,
+          868209372,
+          1353546044,
+          1701820586,
+          2116783012,
+          491586973,
+          291804931,
+          974776133
+        ],
+        [
+          1759900005,
+          575074985,
+          1453374689,
+          19495645,
+          1265538165,
+          504844593,
+          1841666209,
+          1853566371,
+          123214660,
+          2024001370,
+          1058814509,
+          249017476,
+          1862120858,
+          225611655,
+          1372747109,
+          1900318508,
+          1126061651,
+          341782416,
+          1748627256,
+          629519352,
+          494133151,
+          59941283,
+          770068748,
+          202806892,
+          97856634,
+          1054663388,
+          1166340584,
+          1505026263,
+          1989564627,
+          2065830596,
+          1234138322,
+          2128314198,
+          565882524,
+          1694055720,
+          2036473534,
+          1565462150,
+          1685084611
+        ],
+        [
+          1348648369,
+          1589391396,
+          2086084638,
+          478660168,
+          459133658,
+          1483509371,
+          1411571397,
+          1744770688,
+          898769599,
+          1642622332,
+          524026640,
+          1400113712,
+          1355911319,
+          984300711,
+          777702327,
+          872511615,
+          179352526,
+          182458763,
+          347701240,
+          938782292,
+          1882767609,
+          120745854,
+          1335115863,
+          2010960273,
+          1524949419,
+          241478011,
+          1339867720,
+          1944982059,
+          626958824,
+          1404839226,
+          266513600,
+          1826493851,
+          1565094467,
+          1039723766,
+          1454972176,
+          1461852998,
+          1273158136
+        ],
+        [
+          300977044,
+          57343737,
+          1376305899,
+          992658717,
+          1554059064,
+          1913127432,
+          485868232,
+          186958412,
+          1332673349,
+          1523159254,
+          1654752354,
+          287741016,
+          1273275082,
+          1751628777,
+          1739449044,
+          1169762559,
+          1508595725,
+          490318915,
+          300144284,
+          2004349146,
+          478777923,
+          333553697,
+          1760810740,
+          1849826989,
+          1638363599,
+          1247020792,
+          2051243700,
+          1252518011,
+          1082824040,
+          1440227996,
+          1405541269,
+          2024262479,
+          1408966585,
+          2088059820,
+          1008973489,
+          1347984822,
+          1568077416
+        ]
+      ],
+      "modular_control_rank": 36,
+      "modular_functional_all_control_values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "modular_functional_coefficients": [
+        1195516347,
+        943778584,
+        913027608,
+        1737351313,
+        1471884729,
+        1169348267,
+        1137130706,
+        882771893,
+        1300320710,
+        1999279931,
+        501621520,
+        412519016,
+        1421391223,
+        518596815,
+        1113941691,
+        1002189024,
+        2069375083,
+        1778110267,
+        931337578,
+        1049060053,
+        192998396,
+        1896788219,
+        346123256,
+        729465347,
+        58634345,
+        857739338,
+        138685145,
+        1229413067,
+        309536852,
+        824703,
+        1709725761,
+        2096149292,
+        936260265,
+        2113789340,
+        845816380,
+        296811849,
+        1
+      ],
+      "modular_functional_target_value": 1188606345,
+      "modular_pivot_determinant": 1164198643,
+      "nonzero_reason": "det(Augmented) has defined nonzero reduction modulo the checked prime",
+      "rational_functional_identity": "Lambda(A_j)=0 exactly for all original retained control columns",
+      "rational_nonmembership_certified": true,
+      "selected_augmented_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        38
+      ],
+      "selected_control_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "selected_evaluation_labels": [
+        {
+          "component": "real",
+          "mode": -4,
+          "t": "1/49",
+          "xi": "99/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -4,
+          "t": "1/49",
+          "xi": "99/49"
+        },
+        {
+          "component": "real",
+          "mode": -2,
+          "t": "1/49",
+          "xi": "99/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -2,
+          "t": "1/49",
+          "xi": "99/49"
+        },
+        {
+          "component": "real",
+          "mode": -4,
+          "t": "2/49",
+          "xi": "100/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -4,
+          "t": "2/49",
+          "xi": "100/49"
+        },
+        {
+          "component": "real",
+          "mode": -2,
+          "t": "2/49",
+          "xi": "100/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -2,
+          "t": "2/49",
+          "xi": "100/49"
+        },
+        {
+          "component": "real",
+          "mode": -4,
+          "t": "3/49",
+          "xi": "101/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -4,
+          "t": "3/49",
+          "xi": "101/49"
+        },
+        {
+          "component": "real",
+          "mode": -2,
+          "t": "3/49",
+          "xi": "101/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -2,
+          "t": "3/49",
+          "xi": "101/49"
+        },
+        {
+          "component": "real",
+          "mode": -4,
+          "t": "4/49",
+          "xi": "102/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -4,
+          "t": "4/49",
+          "xi": "102/49"
+        },
+        {
+          "component": "real",
+          "mode": -2,
+          "t": "4/49",
+          "xi": "102/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -2,
+          "t": "4/49",
+          "xi": "102/49"
+        },
+        {
+          "component": "real",
+          "mode": -4,
+          "t": "5/49",
+          "xi": "103/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -4,
+          "t": "5/49",
+          "xi": "103/49"
+        },
+        {
+          "component": "real",
+          "mode": -2,
+          "t": "5/49",
+          "xi": "103/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -2,
+          "t": "5/49",
+          "xi": "103/49"
+        },
+        {
+          "component": "real",
+          "mode": -4,
+          "t": "6/49",
+          "xi": "104/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -4,
+          "t": "6/49",
+          "xi": "104/49"
+        },
+        {
+          "component": "real",
+          "mode": -2,
+          "t": "6/49",
+          "xi": "104/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -2,
+          "t": "6/49",
+          "xi": "104/49"
+        },
+        {
+          "component": "real",
+          "mode": -4,
+          "t": "1/7",
+          "xi": "15/7"
+        },
+        {
+          "component": "imaginary",
+          "mode": -4,
+          "t": "1/7",
+          "xi": "15/7"
+        },
+        {
+          "component": "real",
+          "mode": -2,
+          "t": "1/7",
+          "xi": "15/7"
+        },
+        {
+          "component": "imaginary",
+          "mode": -2,
+          "t": "1/7",
+          "xi": "15/7"
+        },
+        {
+          "component": "real",
+          "mode": -4,
+          "t": "8/49",
+          "xi": "106/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -4,
+          "t": "8/49",
+          "xi": "106/49"
+        },
+        {
+          "component": "real",
+          "mode": -2,
+          "t": "8/49",
+          "xi": "106/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -2,
+          "t": "8/49",
+          "xi": "106/49"
+        },
+        {
+          "component": "real",
+          "mode": -4,
+          "t": "9/49",
+          "xi": "107/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -4,
+          "t": "9/49",
+          "xi": "107/49"
+        },
+        {
+          "component": "real",
+          "mode": -2,
+          "t": "9/49",
+          "xi": "107/49"
+        },
+        {
+          "component": "imaginary",
+          "mode": -2,
+          "t": "9/49",
+          "xi": "107/49"
+        },
+        {
+          "component": "real",
+          "mode": -2,
+          "t": "10/49",
+          "xi": "108/49"
+        }
+      ]
+    },
+    "matrix_columns": 36,
+    "matrix_rows": 192,
+    "same_profile_pair_across_all_modes_points_and_columns": true,
+    "target_mode_polynomials": {
+      "-2": {
+        "degree": 76,
+        "sha256": "81cd64676206253e05d52cda6db21e91e4189ae1b02f1fa9bd192902a086384b"
+      },
+      "-4": {
+        "degree": 76,
+        "sha256": "5a5947818831f96e04e6348a5ddb178199bcab5df1c6e7f27c4bc75c61b77428"
+      }
+    }
+  },
+  "evaluation_checkpoint": {
+    "completed_control_columns": 36,
+    "total_control_columns": 36
+  },
+  "finite_isometric_family_constructed": false,
+  "fixed_profiles": {
+    "a_specific_smooth_circle_claimed": false,
+    "actual_right_anchor": "the common right collar; on [2,3] it equals the integral from xi=3",
+    "common_outer_collars": "choose a larger compact I inside (1,infinity), with support [2,3] in its interior",
+    "coordinate": "t=(xi-2)/(3-2)",
+    "f": "[t*(1-t)]^m",
+    "f_modular_coefficients_sha256": "6d427f2fee9a5c09bfc95c997459e64717418c903417fffc8c5d8d90360ea92c",
+    "g": "[t*(1-t)]^m*(1+2*t+3*t^2+5*t^3)",
+    "g_modular_coefficients_sha256": "cfc1248ce5695685743fe288bff1266c9363e21168339d58b6772286c7ed10c5",
+    "m": 8,
+    "support": [
+      "2",
+      "3"
+    ],
+    "three_moment_circle_conditions_imposed": false,
+    "zero_extension_regularity": "C^7",
+    "zero_outside_support": true
+  },
+  "fourth_ruling_paid": false,
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_run_id": "43635287277",
+  "github_sha": "f3102464c049e13cbf306b29cb31cd3d38eb5607",
+  "input_receipt": {
+    "bytes": 157380,
+    "github_run_id": "43633746055",
+    "producer_sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e",
+    "sha256": "7c2cb9fece518fb6fbb15b6b4e034565dfcc5a10cf0e103a7011cd56dc4ac960",
+    "source_commit": "26c3f2c0308d179a094d3967cfb7189db426081e"
+  },
+  "interpretation": "A certified nonzero augmented minor is a characteristic-zero rational certificate: its cofactor-defined functional annihilates all 36 original retained columns and hence the full proved third-control space. It excludes a universal identity and this finite-regularity test pair; no three-moment circle or global surface is asserted. Without that minor the result is inconclusive.",
+  "limits": {
+    "memory_polling_mib": 1024,
+    "operations": 20000000,
+    "output_bytes": 300000,
+    "polynomial_degree": 256,
+    "seconds": 300
+  },
+  "max_rss_mib": 92.38671875,
+  "original_problem": {
+    "all_152_original_template_hashes_matched": true,
+    "baseline_absorbed_coefficients": [
+      [
+        2,
+        "967/320"
+      ],
+      [
+        3,
+        "-55/24"
+      ],
+      [
+        4,
+        "-463/960"
+      ],
+      [
+        5,
+        "-41/48"
+      ],
+      [
+        6,
+        "1/12"
+      ],
+      [
+        8,
+        "-463/960"
+      ],
+      [
+        9,
+        "-41/48"
+      ],
+      [
+        10,
+        "-41/24"
+      ],
+      [
+        11,
+        "13/12"
+      ],
+      [
+        12,
+        "-1/2"
+      ],
+      [
+        13,
+        "-41/96"
+      ],
+      [
+        14,
+        "1/3"
+      ],
+      [
+        15,
+        "13/24"
+      ],
+      [
+        16,
+        "-1/2"
+      ],
+      [
+        17,
+        "1/8"
+      ],
+      [
+        18,
+        "-30357/2560"
+      ],
+      [
+        20,
+        "967/640"
+      ],
+      [
+        21,
+        "-29/48"
+      ],
+      [
+        22,
+        "-967/640"
+      ],
+      [
+        23,
+        "1/16"
+      ],
+      [
+        25,
+        "-463/1920"
+      ],
+      [
+        26,
+        "-41/192"
+      ],
+      [
+        28,
+        "2242/15"
+      ],
+      [
+        29,
+        "2977/15"
+      ],
+      [
+        30,
+        "-49"
+      ],
+      [
+        31,
+        "56/3"
+      ],
+      [
+        32,
+        "16/3"
+      ],
+      [
+        33,
+        "-17/6"
+      ],
+      [
+        34,
+        "16/3"
+      ]
+    ],
+    "coefficient_nodes": 79987,
+    "constant_target_regularity": {
+      "colors": [
+        "q",
+        "qbar"
+      ],
+      "maximum_input_jet": 3,
+      "reachable_atoms": 783
+    },
+    "full_third_spanning_source": "v2 exact 116 original-expression dependencies; not reevaluated as a new research target",
+    "nonrational_baseline_components": "already canceled in both modes by the bound v2 original-expression certificates",
+    "original_control_labels": [
+      {
+        "joint_response_sha256": "6a3848c210d005938a1edeb16b60324ba7488d3072b3c28cd1fe1f69f7d3ac72",
+        "joint_response_terms": 1064,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "0684e081a6b5fc831e133a503f2d083cb3e7e3e4933eae8d5c30473cac789d3a",
+        "original_template_index": 0,
+        "original_template_sha256": "abaf05b445a67ba5244461402066c36052e095095587927878a94f1e3982b7a2",
+        "pair": [
+          "p0",
+          "p1"
+        ],
+        "response_seconds": 3.798712383999998
+      },
+      {
+        "joint_response_sha256": "3bf8aaf931e88ba4fb081fdc4f390ddddb0461815a483d391c84e4599a1e2663",
+        "joint_response_terms": 768,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "58d169103cf070f79a11fc8d27fa6f2cb5f945c811d2e73e76801b07bbcbb9fd",
+        "original_template_index": 1,
+        "original_template_sha256": "74989d9bb1c98d42670b014315707d42bf4cd936c4b1f9251e67badda4462b13",
+        "pair": [
+          "p0",
+          "p2"
+        ],
+        "response_seconds": 3.4186950779999847
+      },
+      {
+        "joint_response_sha256": "5bf1f3523cb370d89812b14a0c15a4f2b16e097a7ba0ccbe16172b4678033980",
+        "joint_response_terms": 409,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "e3308c359517217a5427bba33fe385354755e3cffbba12dfdfb55d9fec40d0b4",
+        "original_template_index": 2,
+        "original_template_sha256": "e87d826c616a462b5e74843e10e58cb788702a1b59886bb122a87c5e3fcfb01e",
+        "pair": [
+          "p0",
+          "r0"
+        ],
+        "response_seconds": 0.6508173629999874
+      },
+      {
+        "joint_response_sha256": "88737d0b3288dcd8d06cfd304df39746854a2f0c4e5ec55bd41056b1888fc1a2",
+        "joint_response_terms": 784,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "20776a1fa55eacd22903c45e4f52b24998b13701f0526558b93114c01520f253",
+        "original_template_index": 3,
+        "original_template_sha256": "6d0f9700615494896810e2c410b2984adf1ff9fadf0750860ec98fc982661ff6",
+        "pair": [
+          "p0",
+          "r1"
+        ],
+        "response_seconds": 1.7516355210000256
+      },
+      {
+        "joint_response_sha256": "d4d8550d61d13b9b0721c9b724dfb96706f5cedda6a1551a413835f0d617fd83",
+        "joint_response_terms": 808,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "48f7bd6b1c16bb515f134b7ed01df10601377955c99e1d14c480139b35f6e1d5",
+        "original_template_index": 4,
+        "original_template_sha256": "6045ad12f6fb5b180bc3fa65680e2b34a2679bd6ed6d0b5ea23cf672dba65159",
+        "pair": [
+          "p0",
+          "s0"
+        ],
+        "response_seconds": 1.0917113170000334
+      },
+      {
+        "joint_response_sha256": "38b8b22c430e9e5e27fd87af8c5170849ac0a6d335488d75aea5508add30df59",
+        "joint_response_terms": 1036,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "a51295804876c67db49c4f9f3b11d71ba3ce9ee4b533a4b998811fc2bde58096",
+        "original_template_index": 5,
+        "original_template_sha256": "7194e5d2ef91f17d9551148ed17f4ea05a9eba8e9d3b8ac3a075a5a012939811",
+        "pair": [
+          "p0",
+          "s1"
+        ],
+        "response_seconds": 3.45936113099998
+      },
+      {
+        "joint_response_sha256": "78da8c215fe743ac02aed26efd88c3858560b1ddc58beb678cc196b2e79b7851",
+        "joint_response_terms": 1054,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "bee636b7e58e64f008c9fecfdcf7a9c15ba606bfae99da2ad49243469e417118",
+        "original_template_index": 6,
+        "original_template_sha256": "d5addb93c2cf80a60e444b2a884d18d9577158d3ef8042282993e4d56468dc39",
+        "pair": [
+          "p0",
+          "t1"
+        ],
+        "response_seconds": 3.4628479730000095
+      },
+      {
+        "joint_response_sha256": "a1206e2c1d8d3e208bf22859c197a150c9eb8320aacae0189eac24216b2f72f1",
+        "joint_response_terms": 594,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "7fe6317dbf394d10f03a259e3286554908c2c56a1ee9ea51efb0a62d30aed986",
+        "original_template_index": 7,
+        "original_template_sha256": "586788dc0fcf4aec7cc329277836c89e82ddb46a5739d71dfcd154cdece83a56",
+        "pair": [
+          "p1",
+          "p2"
+        ],
+        "response_seconds": 1.7387579020000317
+      },
+      {
+        "joint_response_sha256": "927f9e7777ecc8b7cd551f87d510ba99ef73eca3e0335a9c9baec3b66d212b0d",
+        "joint_response_terms": 821,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "fa338d00b9165272998b957acb507b248bb0b20f5896c01b9f6d6e258f3bc740",
+        "original_template_index": 8,
+        "original_template_sha256": "589f7965592b0564e1319b28e6ba03a07de34306e980feb32c499a13d7192c2c",
+        "pair": [
+          "p1",
+          "r0"
+        ],
+        "response_seconds": 1.2131452809999814
+      },
+      {
+        "joint_response_sha256": "07af2f600a7f757489ea5c29ece517c040d8aa4a2d1f230be108374df4a11ac0",
+        "joint_response_terms": 694,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "92c51ef4bad61809e9dee4f8445c19911c0fc3be38b4d87cb9d8f4b2fea1be07",
+        "original_template_index": 9,
+        "original_template_sha256": "785155ee982710fb95a14a62691adf567347c58901f77c3f7e7dc36641b3fb4e",
+        "pair": [
+          "p1",
+          "r1"
+        ],
+        "response_seconds": 1.4498036129999718
+      },
+      {
+        "joint_response_sha256": "31222c51248f757de097d862edb8346b39c3ed1f317bb9b219550459d98f2830",
+        "joint_response_terms": 634,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "625f52218b06a06feec1e0d7258e65aa91b4255bc9f505ff1b664497674f2a81",
+        "original_template_index": 10,
+        "original_template_sha256": "406692985982a1e6610a631fbc26af111d9fd8c22bf58ef73d18b00fbb5598ff",
+        "pair": [
+          "p1",
+          "s0"
+        ],
+        "response_seconds": 1.1534116729999937
+      },
+      {
+        "joint_response_sha256": "1e2219ad06c933f62cff6e3c5775a9f33dba1e67664b8613fccbdc3dcceba59f",
+        "joint_response_terms": 1184,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "12cd35f8584989babcfe0258f4951583e5e0809c2a0efcc11bafba5e4b2d0ddf",
+        "original_template_index": 11,
+        "original_template_sha256": "c38ea99fe6227f06594b2a5831d976a860247ff8ac25595af4b457f8c7d62d07",
+        "pair": [
+          "p1",
+          "s1"
+        ],
+        "response_seconds": 4.40337845900001
+      },
+      {
+        "joint_response_sha256": "92e40d112c153dfd97160b24a54645d2bd010f23c97de76ddd4c8c24b4cd9b7c",
+        "joint_response_terms": 800,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "d7091af2bab4c1664626dee1a6fbb9e415ff68235c5d47e06d6b31f6c3877e60",
+        "original_template_index": 12,
+        "original_template_sha256": "a36765c31af4d4583535ced0ac473d79f8c2a48081a45db7bede1002f7a15d76",
+        "pair": [
+          "p1",
+          "t1"
+        ],
+        "response_seconds": 2.383490945999995
+      },
+      {
+        "joint_response_sha256": "59e03c039f54eb2ac4ce0fe3a3934ef16bdc65ca2bd980f5cb730e04476883c8",
+        "joint_response_terms": 794,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "887f6cb6430ca019bcaf117dc99f4c367627a18b9307dac754da98d7d8238169",
+        "original_template_index": 13,
+        "original_template_sha256": "a80f870afb3b72dc61a7edb168ba6ccf46f282ad263c0b646af02ef81d780028",
+        "pair": [
+          "p2",
+          "r0"
+        ],
+        "response_seconds": 1.4569946170000208
+      },
+      {
+        "joint_response_sha256": "40395527ee6e6b9871cee9815933a51ab6e76e07062af981f9b36841a3fa27b6",
+        "joint_response_terms": 854,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "54b096837c5327be8bafbae3d45e27aa5c0b1b86f259b718e1eb8fddc9b25c7c",
+        "original_template_index": 14,
+        "original_template_sha256": "99ceb97f81ba22f03776f27d4b2fc28b671022ebbfb0e32b39756b9985bd19da",
+        "pair": [
+          "p2",
+          "r1"
+        ],
+        "response_seconds": 2.605497630000002
+      },
+      {
+        "joint_response_sha256": "190d44a120b696b522276e2ee8352d7e162674810022d5c39651ff8a8a007589",
+        "joint_response_terms": 1078,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "54f7a6ce862e269dc0ba77e16fe3be97456008208f82dea990540907fc8f40b4",
+        "original_template_index": 15,
+        "original_template_sha256": "eb155f48e233baaadb59f88889fe42ac9f74d8157a7d1dd893a29881f673a702",
+        "pair": [
+          "p2",
+          "s0"
+        ],
+        "response_seconds": 1.986679988999981
+      },
+      {
+        "joint_response_sha256": "45bb4fe11ccbd3bf15a4b05a653884ab0b8fc55f0aaa4c6ca7080a906cc16d4e",
+        "joint_response_terms": 1151,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "a8a750c80c159a62f030e4d13d8aeb0d68f5c65031c89073043bbd932a92db19",
+        "original_template_index": 16,
+        "original_template_sha256": "4cbaf0a06482ef9788d071ed368e6b811cda237bf910e16a67aeb60f1259c779",
+        "pair": [
+          "p2",
+          "s1"
+        ],
+        "response_seconds": 5.430802814999993
+      },
+      {
+        "joint_response_sha256": "3a6931448c349ba0b1c3967c630dc45b1fd3a21dbb76f13ea86f1400a071b578",
+        "joint_response_terms": 870,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "08c152e8d692b66d4b8e398e055a20403cf477fc8f0be8130ffc8bd9fd7b0789",
+        "original_template_index": 17,
+        "original_template_sha256": "8f396b3daf3f7fa44288893f8c80a7f466a06e5c94277238331c256c6cb04345",
+        "pair": [
+          "p2",
+          "t1"
+        ],
+        "response_seconds": 3.5607530390000193
+      },
+      {
+        "joint_response_sha256": "18228d0e8e3bcdeb7e802f9de67b7f4cbebc1936ec358e1073addacfc029be8b",
+        "joint_response_terms": 296,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "99a31caa4e653fdbc3058bdea3c91c0ddb819a10ca12cbd8bff9b44f2be2eb0d",
+        "original_template_index": 18,
+        "original_template_sha256": "8bc8b3b9ebbaebcd5189090624c3c7a682c3fef85a611ddb6fbac4bd3ad96027",
+        "pair": [
+          "r0",
+          "r1"
+        ],
+        "response_seconds": 0.23136499700001423
+      },
+      {
+        "joint_response_sha256": "7294af82eb397dd05d6288acee0c7b0ab9e26ef11a3f89ec7dcb4284f2e80f23",
+        "joint_response_terms": 112,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "2536d3b2929a81b0155d796d2994cfea634a338addbbedc72df44799da452365",
+        "original_template_index": 19,
+        "original_template_sha256": "cdd32759064ac990ad45a67b3c63da2bd64813059ae62b23c0d7f7b9250cd3f1",
+        "pair": [
+          "r0",
+          "s0"
+        ],
+        "response_seconds": 0.03403965199998993
+      },
+      {
+        "joint_response_sha256": "fe259abd801074e5b128619e9204f043cc9cf13bb03bdef261d31104a9e269af",
+        "joint_response_terms": 442,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "3bc7ffb51826e911d94848e55f207df1a5f7f5b3c1265eb0712f34404f964906",
+        "original_template_index": 20,
+        "original_template_sha256": "3eb1dfe8b814371fafca378393820e955c769696dc95b41603bec1bc76da0cab",
+        "pair": [
+          "r0",
+          "s1"
+        ],
+        "response_seconds": 0.44536288899996634
+      },
+      {
+        "joint_response_sha256": "ad973415efb5452f322ee81974a942a78971cc64698336f6a92aaf0e2e718e4a",
+        "joint_response_terms": 552,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "65e5c6fd445a9dd00bb60c9c28854f8b7297b32e551a398fb57a3066b1168d92",
+        "original_template_index": 21,
+        "original_template_sha256": "8ce172ccbd14be41ed330362ec87966788102d59f2889aad12efe932f4d0a05f",
+        "pair": [
+          "r0",
+          "t1"
+        ],
+        "response_seconds": 0.5808690260000162
+      },
+      {
+        "joint_response_sha256": "9dbc9c7de86f6c72e2dc0888dd28e6fccf410a794f44596c345fde43ac25cad8",
+        "joint_response_terms": 396,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "8c5b79aed8deff3a364d0b027b546c0ff8a90f80acdd3070cfdab74da22b34a5",
+        "original_template_index": 22,
+        "original_template_sha256": "39338afd5879337b661862c8b13a8c4fd784d752b0193dd91296166c82c31d93",
+        "pair": [
+          "r1",
+          "s0"
+        ],
+        "response_seconds": 0.3102823449999619
+      },
+      {
+        "joint_response_sha256": "8e5d7483c7f0cf62a07edb443c46736e6bd4906b432a2b658d7bbee7ff5daf27",
+        "joint_response_terms": 848,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "d3fcac7d2d8d43aa18d18ed921c338a95178149a2fcf94dc970ddffe2601dddf",
+        "original_template_index": 23,
+        "original_template_sha256": "2b88e0e8558c50ae970403d6b38bd4ac60059ef259386a903f8ec76e4c5e0363",
+        "pair": [
+          "r1",
+          "s1"
+        ],
+        "response_seconds": 1.2127405950000139
+      },
+      {
+        "joint_response_sha256": "c9dcc5ba8132d2438d257e27d5d2cf70a6d7781b95febe48791d4cbdbc86b461",
+        "joint_response_terms": 683,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "8ccaa55aa88ce20a8651f8735ae63085ccd5247c2a2c5ed7f73d03e70536b2ae",
+        "original_template_index": 24,
+        "original_template_sha256": "aaf991686caea0fb9f38c97530864d38193b2bd5edb4ec0d1ae6d8114920410d",
+        "pair": [
+          "r1",
+          "t1"
+        ],
+        "response_seconds": 0.7674585539999725
+      },
+      {
+        "joint_response_sha256": "5139c8a8ad8710384de000a0424e59c380b279a1db1a6a62edf833ab9e9ba696",
+        "joint_response_terms": 477,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "0fd39660ebb6a68f6f5dac3c42984c9a3f50ba9069fabdb4c90ed576584e1e92",
+        "original_template_index": 25,
+        "original_template_sha256": "a8ce2ef328b0668d7df2f9b50937930197d2f5505a8298e3289b31c31bc34d06",
+        "pair": [
+          "s0",
+          "s1"
+        ],
+        "response_seconds": 0.4977828250000016
+      },
+      {
+        "joint_response_sha256": "d2bed20c5e2b97c0fb41bf469a697eedcaf03c1579c3b4da66baeadfeace2a36",
+        "joint_response_terms": 582,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "64dadd63fad4c7fed7f5eaf592ac04e76f5037ae2015821086e105ad75288315",
+        "original_template_index": 26,
+        "original_template_sha256": "4929742e98b3d45ba878f907d6eda495d2baa2591f713592529471847a924d76",
+        "pair": [
+          "s0",
+          "t1"
+        ],
+        "response_seconds": 0.6469181180000305
+      },
+      {
+        "joint_response_sha256": "f11f821f6cf2b9160d7b8d08f29a1e170d05f3e6c0f9252a4f485f61cf68139c",
+        "joint_response_terms": 1038,
+        "kind": "R71_full_third_commutator",
+        "normalized_template_sha256": "d9e3f88393e4d62900349ee0b7cb0755bd936bc4ec1609f19345f46171dc36e4",
+        "original_template_index": 27,
+        "original_template_sha256": "38945a889a5681c9021cdf0edca11447fa41d4e5834007fb39a880b8241917b7",
+        "pair": [
+          "s1",
+          "t1"
+        ],
+        "response_seconds": 2.137833406000027
+      },
+      {
+        "geometry_monomial": [
+          -5,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "joint_response_sha256": "b2fe92994c9523645c24598b406c66382bce5e5f21368143a296c35e410d6f51",
+        "joint_response_terms": 436,
+        "kind": "R77_weight_three",
+        "normalized_template_sha256": "2ba80249ec40cb5ff40bc5e833b0fc3d503d2abd0f8bdf7346913de64de1ed14",
+        "original_template_index": 30,
+        "original_template_sha256": "be8a31110800e396af0d8b2c7d240584f03cd30bcf4e1d1d8f222f2cafc8c199",
+        "response_seconds": 0.7716051929999708,
+        "source": "area"
+      },
+      {
+        "geometry_monomial": [
+          -4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "joint_response_sha256": "c134bc58dc7c837817e4aef108622b9dc7c9bcb41785af6ba51a9d45a4c89cf2",
+        "joint_response_terms": 749,
+        "kind": "R77_weight_three",
+        "normalized_template_sha256": "de68441f265d24fa097e7db36eb9073fa53101335677375d671065c1c227b619",
+        "original_template_index": 32,
+        "original_template_sha256": "c8f4568fbddee3985dfd3245aff22592bb065d22dbdc958fc61433ba20279f79",
+        "response_seconds": 1.6524161160000403,
+        "source": "area"
+      },
+      {
+        "geometry_monomial": [
+          -4,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "joint_response_sha256": "d81b782a312e2cb1e612407f5bd37f47e621fee5b2423f5cce9c639bc36243db",
+        "joint_response_terms": 846,
+        "kind": "R77_weight_three",
+        "normalized_template_sha256": "d54578284a9fdda83d30fd4e9840f3cfe490a42b162e5ff68b966226cec9381b",
+        "original_template_index": 34,
+        "original_template_sha256": "4e76c7b917c4a00138308388d72c40def5837044d287c28242f91d635bf5f312",
+        "response_seconds": 1.9734483270000283,
+        "source": "area"
+      },
+      {
+        "geometry_monomial": [
+          -3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "joint_response_sha256": "fd72bf296d959f05b4eb2379bc7c4c3931902556031db6235450cd96bfc475cd",
+        "joint_response_terms": 835,
+        "kind": "R77_weight_three",
+        "normalized_template_sha256": "75cfc0435e72bac2a77a135c5dbb1c19d092ed81cbccd45dba2d2f13a85a2910",
+        "original_template_index": 37,
+        "original_template_sha256": "94b42fb4261209e6e6e72c078b6e873dfe08dd477672afdcb0156f95051ead28",
+        "response_seconds": 2.8815843520000044,
+        "source": "area"
+      },
+      {
+        "geometry_monomial": [
+          -2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "joint_response_sha256": "b2a9bab4fcdbc221082cd4fd6a7064cd92a29f9547a17770e412aef6b3359a65",
+        "joint_response_terms": 993,
+        "kind": "R77_weight_three",
+        "normalized_template_sha256": "9baceffa9586a584802c1c79570b75ed3c0d30cf171f371f49d498683e122dda",
+        "original_template_index": 40,
+        "original_template_sha256": "b5155855451e65acb83b0efd8ec51e6467fe343fa80fbeab6c04e1e523c0f368",
+        "response_seconds": 3.485560659999976,
+        "source": "area"
+      },
+      {
+        "geometry_monomial": [
+          -2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "joint_response_sha256": "f7a613226ce797b97fed7abc91397d438666eede8dc3baf3dc7c5423502f6a8e",
+        "joint_response_terms": 1039,
+        "kind": "R79_closed_C1",
+        "normalized_template_sha256": "143ecce63f68c8ca17ed38ff312e3fa5dfc408a86e4bf7e8330108cd38d8bcca",
+        "original_template_index": 100,
+        "original_template_sha256": "8aa68ac3defca7d0d88ec9b5c67dc7b30bedc569129d6fbd8705314fbe331e2d",
+        "response_seconds": 5.864378440999985,
+        "source": "h_shape_obstruction"
+      },
+      {
+        "geometry_monomial": [
+          -1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "joint_response_sha256": "fbc34e870867c102021fc2be6d43f3b5f729df44024496bc55e11e0d463e3c64",
+        "joint_response_terms": 1206,
+        "kind": "R79_closed_C1",
+        "normalized_template_sha256": "26018e7923aa2c88a4b0d9029ca88c3835c1f241ba30d87eb0139a8bd3bda353",
+        "original_template_index": 104,
+        "original_template_sha256": "578763eecd81ff4e4bf2f3775b253c4315c6c3d58cfb2e3346524b79d8203f0d",
+        "response_seconds": 9.681168010000022,
+        "source": "h_shape_obstruction"
+      },
+      {
+        "geometry_monomial": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "joint_response_sha256": "264522693505f537418cb5b4b41ea5feece2e07632e69bd13b51e2b0b99a9737",
+        "joint_response_terms": 865,
+        "kind": "R79_closed_C1",
+        "normalized_template_sha256": "dc705ad1d546bf09cce37062cb2bc59fa86425fa37fa59416e8ac5984c6ea5b8",
+        "original_template_index": 109,
+        "original_template_sha256": "63ec5cb74cb487c52a3e81f1f0b010352f7df57edabb1f08f42dea9093eb52ee",
+        "response_seconds": 4.9409485940000195,
+        "source": "h_shape_obstruction"
+      }
+    ],
+    "original_target_sha256": {
+      "-2": "13eb4518c79c700e2e17c4b4662f3b61940c66c31995308420ca9c2f4e41bd6e",
+      "-4": "a4d4c092f3ff4582b9bfe386a9f176eb36c47f8a25dd03abace8c19fb1b35685"
+    },
+    "profile_atoms": 3671,
+    "rational_baseline_original_minus_reachable_sha256": "8df898349d35d3bf0e225346f3aea4781e71f7192ea29b7cb789641314868398",
+    "rational_baseline_original_sha256": "ce38b03536841e5f39d671ddc2f2fecf612dc3e65a179ee98907e059c98f25f2",
+    "retained_original_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      30,
+      32,
+      34,
+      37,
+      40,
+      100,
+      104,
+      109
+    ],
+    "retained_original_template_sha256": [
+      "abaf05b445a67ba5244461402066c36052e095095587927878a94f1e3982b7a2",
+      "74989d9bb1c98d42670b014315707d42bf4cd936c4b1f9251e67badda4462b13",
+      "e87d826c616a462b5e74843e10e58cb788702a1b59886bb122a87c5e3fcfb01e",
+      "6d0f9700615494896810e2c410b2984adf1ff9fadf0750860ec98fc982661ff6",
+      "6045ad12f6fb5b180bc3fa65680e2b34a2679bd6ed6d0b5ea23cf672dba65159",
+      "7194e5d2ef91f17d9551148ed17f4ea05a9eba8e9d3b8ac3a075a5a012939811",
+      "d5addb93c2cf80a60e444b2a884d18d9577158d3ef8042282993e4d56468dc39",
+      "586788dc0fcf4aec7cc329277836c89e82ddb46a5739d71dfcd154cdece83a56",
+      "589f7965592b0564e1319b28e6ba03a07de34306e980feb32c499a13d7192c2c",
+      "785155ee982710fb95a14a62691adf567347c58901f77c3f7e7dc36641b3fb4e",
+      "406692985982a1e6610a631fbc26af111d9fd8c22bf58ef73d18b00fbb5598ff",
+      "c38ea99fe6227f06594b2a5831d976a860247ff8ac25595af4b457f8c7d62d07",
+      "a36765c31af4d4583535ced0ac473d79f8c2a48081a45db7bede1002f7a15d76",
+      "a80f870afb3b72dc61a7edb168ba6ccf46f282ad263c0b646af02ef81d780028",
+      "99ceb97f81ba22f03776f27d4b2fc28b671022ebbfb0e32b39756b9985bd19da",
+      "eb155f48e233baaadb59f88889fe42ac9f74d8157a7d1dd893a29881f673a702",
+      "4cbaf0a06482ef9788d071ed368e6b811cda237bf910e16a67aeb60f1259c779",
+      "8f396b3daf3f7fa44288893f8c80a7f466a06e5c94277238331c256c6cb04345",
+      "8bc8b3b9ebbaebcd5189090624c3c7a682c3fef85a611ddb6fbac4bd3ad96027",
+      "cdd32759064ac990ad45a67b3c63da2bd64813059ae62b23c0d7f7b9250cd3f1",
+      "3eb1dfe8b814371fafca378393820e955c769696dc95b41603bec1bc76da0cab",
+      "8ce172ccbd14be41ed330362ec87966788102d59f2889aad12efe932f4d0a05f",
+      "39338afd5879337b661862c8b13a8c4fd784d752b0193dd91296166c82c31d93",
+      "2b88e0e8558c50ae970403d6b38bd4ac60059ef259386a903f8ec76e4c5e0363",
+      "aaf991686caea0fb9f38c97530864d38193b2bd5edb4ec0d1ae6d8114920410d",
+      "a8ce2ef328b0668d7df2f9b50937930197d2f5505a8298e3289b31c31bc34d06",
+      "4929742e98b3d45ba878f907d6eda495d2baa2591f713592529471847a924d76",
+      "38945a889a5681c9021cdf0edca11447fa41d4e5834007fb39a880b8241917b7",
+      "be8a31110800e396af0d8b2c7d240584f03cd30bcf4e1d1d8f222f2cafc8c199",
+      "c8f4568fbddee3985dfd3245aff22592bb065d22dbdc958fc61433ba20279f79",
+      "4e76c7b917c4a00138308388d72c40def5837044d287c28242f91d635bf5f312",
+      "94b42fb4261209e6e6e72c078b6e873dfe08dd477672afdcb0156f95051ead28",
+      "b5155855451e65acb83b0efd8ec51e6467fe343fa80fbeab6c04e1e523c0f368",
+      "8aa68ac3defca7d0d88ec9b5c67dc7b30bedc569129d6fbd8705314fbe331e2d",
+      "578763eecd81ff4e4bf2f3775b253c4315c6c3d58cfb2e3346524b79d8203f0d",
+      "63ec5cb74cb487c52a3e81f1f0b010352f7df57edabb1f08f42dea9093eb52ee"
+    ],
+    "third_input_regularity": {
+      "colors": [
+        "a",
+        "b",
+        "c"
+      ],
+      "maximum_input_jet": 3,
+      "reachable_atoms": 180
+    }
+  },
+  "phase": "original_rational_profile_values_and_joint_minor",
+  "primary_scope": "one original rational polynomial pair disproves a universal whole-function identity only if a full separating minor is certified",
+  "rational_nonmembership_certified": true,
+  "schema": "visible-flex-complete-P1-original-rational-dual-v1",
+  "source_hashes": {
+    "colored": {
+      "bytes": 15738,
+      "filename": "literature_colored_profile_algebra.py",
+      "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+    },
+    "driver": {
+      "bytes": 19492,
+      "filename": "literature_full_phase_rational_dual.py",
+      "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+    },
+    "exact": {
+      "bytes": 33718,
+      "filename": "literature_pure_bulk_exact_membership.py",
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    },
+    "formal": {
+      "bytes": 33169,
+      "filename": "literature_range_profile_algebra.py",
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    "local": {
+      "bytes": 30635,
+      "filename": "literature_local_third_bridge_decompose.py",
+      "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+    },
+    "polynomial_evaluator": {
+      "bytes": 19803,
+      "filename": "literature_rational_volterra_polynomial.py",
+      "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+    },
+    "v2_producer": {
+      "bytes": 35368,
+      "filename": "literature_full_phase_bridge_exact.py",
+      "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+    },
+    "words": {
+      "bytes": 32310,
+      "filename": "literature_pure_bulk_word_normal_form.py",
+      "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+    }
+  },
+  "specific_C_infinity_circle_certified": false,
+  "three_moment_circle_paid": false,
+  "word_normalization_used_to_evaluate_values": false
+}
