@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R451：真实D正来源与全部U环带的原零传播](results/R451-original-dplus-source-and-complete-u-shell-zero-propagation.md)：L+=L0+(L1−LR)/2同时保原principal中央与残余D正特征；联合U scalar core将原JS′零传入每个U深域/环带，完整X测试全保。同一真实管每n≥1准确v5n，余下补域全部位于Y/U单位内，斜管和W/V限制未删。
+
 - [R450：第六阶伴随矩满秩与含U的原算术抽回](results/R450-original-sixth-companion-moments-and-exact-arithmetic-extraction.md)：六条正U次数矩在现有ray整满秩，固定U整除测试完整抽回S及两真rank0参考；全法向五阶给同D_n值v5n。有限整逆测试将原JS′准确写成保U的同来源两层carry，内部非零斜管与完整补域均保留。
 
 - [R449：相对第二余核与完整carry精确序列](results/R449-relative-second-cokernel-and-complete-carry-exact-sequences.md)：同一J/M的真第二核、可见修正及d2经两条13行的真实像精确比较；G2=C2(J)/Hbar，原第三核由相对d2投影读取。相对Smith≤p时即使首像缺口与carry核并存仍全吸收，原p²因子数和来源均准确区分。
