@@ -604,3 +604,8 @@ root全文读geometry_20261114_shared_background_closed_assembly.py与接口；�
 ### 2026-11-14 request20真实单行保护下降及新限制
 
 run43603477207/job132473033066全success，完整artifact14117605862/ZIP0cee357c…已取核。完整473/0域梯度3.7179e−13，投影伴随2.048e−18；λ270/200在80步istop2，预条件normal2.6137e−5而原projected KKT344.921，明确不同尺度。原全域有效α2^-10，真实merit降.001046112528，ratio1.0001444；原col=.007110545981/BC9.59725e−8仍非解。新warm0036063f…、原新Rφ FD9.07968e−10、全非零H保留/native0。原报告已定位480/0及473/index11为新限制，后继独立三行入口已冻结。详见actual-request20-protected-query-and-next-domain-rows；不以方向局部检查冒全内部physical检验。
+
+
+### 2026-11-14 request21实际工厂失败及独立诊断续接
+
+run43603818345/job132474070289真实失败，artifact14117411488/ZIP4d546160…已取核。stage12/index92（频率186）在同RK候选工厂det检查失败，四T项有限但旧分支未区分det非finite/有限0；factory/candidate false、evaluate_calls/native0。原方法/graphs/gains/far/layout身份未变，无新norm/J/audit；实际note public-same-RK-candidate-probe-actual21已完整保全。独立v2源已冻结并读差异：先保全部T/ad/bc/det与失败操作数，私有图只除u，有限det0不再单独veto；其余失败和原native全部不改，真实结果另算。

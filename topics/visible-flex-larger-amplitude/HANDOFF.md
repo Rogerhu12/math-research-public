@@ -27,12 +27,12 @@ request17/run43598917532的3步warm仍非解，warm003 SHA5d1c452291099ad18b1a61
 R262完整Hermite两端RHS/global p/入口chart域梯度、投影正阻尼下降及λP伴随已证并推送。request20/trustprotected真run43603477207/source2501ebf6/job132473033066全success；完整artifact14117605862/ZIP0cee357c…已取。473/index0梯度complex3.7179e−13，投影伴随2.048e−18，Bz−8.88e−16；λ270/LSMR200仍80步istop2。预条件normal2.6137e−5但未预条件projected KKT344.921，勿称方向高精度。原collocation独立complex仅free core/global p方向，内部physical为0。
 20同模型merit44.447162239996→44.446116127468，α2^-10/下降.001046112528/ratio1.0001444；原全node/mid/两RMS/rho过。col=.007110545981/BC9.59725e−8仍非解。新warm SHA0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71，新真实完整Rφ FD9.07968e−10；Hmax3.35792e−16保全部112项/native0。详细actual-request20-protected-query-and-next-domain-rows。下一从此warm一模型λ270/200，保护原已观察(473,0)/(480,0)/(473,11)三点，同左fraction.17267316464601146；独立multiline源已冻结待根接线。所有原域/merit/最终门保留，不只加模型数或λ。
 
-### Native冷启动：19已定位，21候选待执行
+### Native冷启动：21工厂失败，独立v2待调度
 
-17首次真非零H首项4.1760413061806626e−17，native iteration0 norm1.3414e7/chartCond1.3312e60，10trial全D/S/A拒绝（raw0/seg7、stage13/14）。outer_history空，没进入prefix inner/newband；没有成功新H/J/audit。MaterialTrace早已P[:,0]=0，H来自真实非mean z，不能阈值归零。zero cache未向worker导入predictor；仅zero checkpoint也不恢复stage tangent。见actual-tiny-H-native-tail-cold-start-failure。
-request19/run43602823170/source25d2dcb6/job132471064124/publisher e84c1d79真success：129248项saved=原initial数值相等；原无J576stage全guard过，70.779s，norm13414069.968482966；最大stage11/raw0/seg7/Pi104，abs6.943706093148329e−8/scale5.176434974219545e−15；cut/far全部112行0。完整证据见actual-cold-tail-no-J-stage-replay；不重跑19、不把native动量残差当空间位移。
-原linearSteps2048使stage图每profile256步，真实RK12；但原far graph及gains还定义真正边界/scales，禁止全局改linearSteps冒只改初猜。独立zero_rk_stage_initializer.mjs冻结SHA aad7ca6ebddf91dee6b38a454543bc16a5308f5474428fb1add09763c0c56288，从原零态完整逐模2×2块/原cusp网格生成私有初猜，保原far/graphs/gains/scales。它不冒非零base完整J，奇异/下溢明确报。
-request21/zerorkprobe已接push请求：新zero_rk_native_probe.py/hook锁17原六输入及19实际summary，先保完整块/构造诊断，再用同H新候选仅一次原evaluate(false)。原数值函数不改；不solve/Newton/J/audit/零锚复算，无自动新接受。接口zero-rk-native-probe-interface；geometry负责源、root调度。真实结果才决定下一原完整native求解。
+17首次真非零Hmax4.1760413061806626e−17，native iteration0 norm1.3414e7/chartCond1.3312e60，10trial全D/S/A拒（raw0/seg7、stage13/14）；outer_history空，没进入prefix inner，无新H/J/audit。MaterialTrace早已P[:,0]=0，H是真非mean z，不许归零。zero cache没导worker predictor，仅zero checkpoint也不恢复stage tangent。原linearSteps2048同时定义far/graphs/gains/scales，不能全局改它冒只改初猜。详见actual-tiny-H-native-tail-cold-start-failure。
+19/run43602823170/source25d2/job132471064124/publishere84c1d79：saved与原cold initial129248项数值相等；原无J576stage全guard过/70.779s，norm13414069.968482966，最坏stage11/raw0/seg7/Pi104；cut/far全112行0。原summary SHA5c9203ce46b44de31d187c3dce43f94f30524cb25c9beaf31b9d893f05d640b1，完整actual-cold-tail-no-J-stage-replay已推，不重跑。
+21/zerorkprobe真run43603818345/source3b5a584e/job132474070289：约.217s工厂报stage12/index92 determinant检查；factory/candidate均false，evaluate_calls=0/native0。四T项有限，但旧合并分支不足区分det非finite或有限0；不是已见下溢/原native guard失败。artifact14117411488/ZIP4d546160…，summary SHA0c69d072f25c927e32322021e65b717ef6d68089d6332ed4c69c793fec87b481。见public-same-RK-candidate-probe-actual21。
+独立v2 initializer/probe/hook已冻结，root已读diff/接口；同17全H及原17/19/21字节锁。仅私有图不再以有限rounded det0否决（实际只除u=a+bγnext），不宣称块可逆/准确；非finite/零u/非零传播下溢仍拒。逐stage所有T/ad/bc/det在失败前保全，21失败块留逐RK子步。候选成功才一次原evaluate(false)，原far/graphs/gains/scales/RK/guard/tol全不改，无自动Newton/J/audit。下一request22与三行方向并行，真实回执决定后继native。
 
 ## 之后的完整闭合与同g精化
 
