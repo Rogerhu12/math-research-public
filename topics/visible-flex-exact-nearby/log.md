@@ -227,3 +227,7 @@ root新source22029B SHA16ffa1a5b3753bc2a70fcf979814b18161df90ae8997510acc8feafac
 ### 2026-11-14 18:49:42 UTC — actual nonnegative connector inverse
 
 独推E1–35：root复核原fixed-stop F/D、R11两平台与quintic、balanced W1/W11–16和raw Hamiltonian J2–5/J17/J24；完整变分/Piola/weak-measure源/有限jump/Cayley均保。E25唯一小修3→32，SHA4d3cfe70…。无新数值计算或旧native重算。继续真实剩余负段及三阶退化桥。
+
+### 2026-11-14 18:51:30 UTC — deploy fixed M32 known-high Z-tail consumer
+
+root全文核source16943B/CI12226B/contract7360B/flow8250B，tail独立核完整算子支撑、193掩码、4j primitive、原Bernstein/Q0/Q1/offset及partial窗。147pin manifest `de4bd52b27daceb5b3ea85a79c2ba37dd01196143384ffc72d0946dc6826a759`，原143逐pin无变化。source `f9104cce14a3f04ebe3271ed19085d9bf4bdc7f9f7c215ed79dd99244e7034bf`；实际原repair/mixed artifact存在未过期。仅公开Actions执行新已知tail norm；全部旧成功prefix复用、summary≤60KB、每10min真pull，两类mean/high未预支。

@@ -159,3 +159,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14：C→B 非负真实外段已完成，接剩余负段
 
 [E.1–E.35](results/R119-supplement-actual-nonnegative-connector-complete-two-port-and-weak-sources.md) 已给全频两端逆、$L^2_C$内口与独立mean/ordinary/weak/jump源。下一缺口精确为$e_X\to(129,2)\to\mathrm{cut128}\to C$，末端quintic的$Q$三阶退化不能套简单Airy根；须转换原网络波及强标签后再闭合returned方程。外端仍$H^1$高度/$H^{-1}$通量，不能免费换任意$L^2$端。
+
+### 2026-11-14：已知 Z 高频源的最小新消费者已部署
+
+[H.1–H.7 合同](notes/2026-11-14-R133-known-high-source-from-Z-tail-contract.md) 与147pin Actions五件已root/tail审查，原143pin逐条零变化。固定repaired M32/δ=0利用精确支撑：$P_{\ge97}(DZ-F_\nu)=-P_{\ge97}A(P_{33:96}Z)$，仅新算原193多项式tail的全格Bernstein范数，消费原7721 β/K/Q0/Q1与Zoffset；完整mean/low源不变。无新target、原残差或trial重建。actual后按完整三窗口严格积分，与原已成sup/L2上界分别取min。未知高输入与非零δ需另付。
