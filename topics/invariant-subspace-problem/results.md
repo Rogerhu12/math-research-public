@@ -163,3 +163,7 @@
 ### 全部A+初值的相关第二像：七个真实核方向已足
 
 [完整证明](notes/2026-11-14-r150-seven-augmented-second-kernel-and-primary-completeness-789f.md)给kerβ+=原1834核⊕七φ，φ为已知c下的六消元列与(s−2)θ3。旧低1632及四特殊方向由真实/增广精确syzygy消去，旧198的已证相关第二像落U；因此1/2主部分的完整δ2只需七新方向。pair已确认真实剩余只在s=2，相关判据现能覆盖A+全部mod31初值。K4真来源公式须原模31⁵查31⁴整除；正向不停于商相容，最终全17式31²h0，已有两正列乘p复用。尚未执行新七δ2，不扩大到旧198其它primary或全部原有理源。
+
+### 全出生真实核的零占据重构：仅含原头的q无关费用
+
+[完整闭域证明](notes/2026-11-14-full-boolean-kernel-bosonic-zero-occupation-and-head-only-budget-789f-next.md)：平方自由真核嵌入完整Fock后，集体占据递推给v=Σ_(j<d)(−A)^j(a0*)^jP0v/(S^(j/2)j!)及精确正范数和，实际零占据像Z_A闭。原N/Y物理头的真实carry四次界给C_m≤(k0+e)exp[k0T_m+3T_m^(4/3)]，logC_m=O(m logm)，不依出生/总孔。真左前缀同源Γ=Y*H_A Y及Γ/C≤Ξ≤Γ、逆序双边界均成；没有调用Jordan全条件数。未来bare商的高返回和实际Z_q^-1来源仍须接，不扩大Z_A为整个横向Fock。

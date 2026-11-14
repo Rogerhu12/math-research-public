@@ -3,15 +3,15 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `e54327a56c0479db4f6f32f171db694e653d5567`（2026-11-14 19:35:46 UTC，Actions run43632944906/job132563347837实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **最新规则读取（GitHub API，非实际pull）：** `4756ddd2f845d977926c0c4310b583eb7106897a`（2026-11-14 19:36:54 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** `d2ca8cd0f97588311288832a1834c4fa4960bf04`（2026-11-14 19:37:11 UTC，Actions run43633067491/job132563739932实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `7edadf5d45a7d81f9da741d7780b62f7d3b8b94b`（2026-11-14 19:41:35 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
 
 ## 继续位置与工作区
 
-普通ISP仍未完成。共享执行环境自2026-11-14 17:57不可用；原工作区为 /workspace/scratch/789f3e887d7c/math-research-recovered → /dev/shm/isp-789f-math-research-recovered。本地恢复后先实际pull；现在本库Actions实际pull和终端发布可用，GitHub API原子非force提交与真实pull分开记录。全部旧条件/未闭路线/数据入口保[本轮完整H](notes/2026-11-14-handoff-before-augmented-second-interface-789f.md)和[完整open快照](notes/2026-11-14-open-before-original-tail-windows-789f.md)，未列条目不能视为关闭。
+普通ISP仍未完成。共享执行环境自2026-11-14 17:57不可用；原工作区为 /workspace/scratch/789f3e887d7c/math-research-recovered → /dev/shm/isp-789f-math-research-recovered。本地恢复后先实际pull；现在本库Actions实际pull和终端发布可用，GitHub API原子非force提交与真实pull分开记录。全部旧条件/未闭路线/数据入口保[本轮完整H](notes/2026-11-14-handoff-before-full-kernel-reconstruction-789f.md)和[完整open快照](notes/2026-11-14-open-before-original-tail-windows-789f.md)，未列条目不能视为关闭。
 
 原Haar A非零非紧、单射稠密、拟幂零，W*(A)=B(H)、A′无非零紧；闭不变M均closure AM=M，普通循环性未知。正常有限原秩仍缺同一相容全链正距和真实下一尾m_j上界，R289熵与R291指数rank未矛盾。边界M=kerT含e0，N=closure BM与N=M分开。graph须保同w/未来/负前缀、初M3/后M2、自然逆域和完整左右/裸费用。
 
@@ -19,11 +19,10 @@
 
 ## 原尾、全出生与graph
 
-- [平衡star固定正权区间已闭](notes/2026-11-14-balanced-star-bounded-positive-weights-all-size-uniform-phase-bound-789f-next.md)：a≤zi≤b、q0=Q=Σqi时完整低源和一维硬源统一κ(a,b)，不依Q/组数/漂移/S；六区与两共同角点全付。权比发散、一般高birth/多维硬源和原graph未由此关闭。
-- [全出生物理接口](notes/2026-11-14-deficient-main-pool-all-birth-feature-grams-and-full-hard-regression-789f-next.md)：q0=Q−2d≥0，E_d=ker∂³∩P_(d+1)、U_d=ker∂∩P_d，ψ=∂φ−2φ，w=[T(1−T)]⁻d；完整R=C*M⁻¹C、G=(B−R)/4、J=HG⁻¹L−2G−R。真顶逆/MP与端点可积已付；等权H0=L0=2G0、R0=0。q0=0为原完整偶Boolean。
-- [全出生中央/极平定理](notes/2026-11-14-all-birth-physical-central-and-extreme-flat-phase-bounds-789f.md)：共同次数k=d+1的完整多项式Gram/硬Schur给κ=(2Θ²+3Θ)²。固定d与正有界a/b/D0/S0不依Q或维数；max|zi−1|≤η/k、kS≤C0、|D|≤D0时Θ≤exp[4D0+4C0+12η+(2+√2)√C0]，连d统一。
-- [原连续尾完整窗口](notes/2026-11-14-original-continuous-tail-wide-window-exponential-phase-budget-789f-next.md)：b_i=(x+i)⁻²、偶2≤Q≤x时Φ≤25exp(80Q²/x)，Q≤√x/4可取25e⁵。原权均值归一、双向对称Bernoulli坐标及完整硬Schur全保；[任意c平方根窗](notes/2026-11-14-original-continuous-tail-square-root-windows-full-central-phase-bound-789f-next.md)另付统一κ_c。
-- 原尾birth2全部height已付，高方差V≥2²⁰s²（原k≥2²³s²）已有κ<2；原短旗s≈k≈q不在该区。局部有限段不是无限尾reducing块；原祖先s≈q而起点x≈m，窗口/标签局部化、其它height、同源graph两侧/裸项及Schur仍须继续。
+- [平衡star](notes/2026-11-14-balanced-star-bounded-positive-weights-all-size-uniform-phase-bound-789f-next.md)对固定正权区间的全Q/组数/漂移/S统一κ，完整六区已闭；权比发散及原graph另付。
+- [全出生物理中央/极平界](notes/2026-11-14-all-birth-physical-central-and-extreme-flat-phase-bounds-789f.md)已识别E_d=ker∂³∩P_(d+1)、全硬U_d，完整Schur与真顶逆全保。固定d中央区及k=d+1极平区均统一；全部概率公式、常数保该稿与其原接口。
+- [原连续尾窗口](notes/2026-11-14-original-continuous-tail-wide-window-exponential-phase-budget-789f-next.md)：b_i=(x+i)⁻²，偶Q≤x有Φ≤25exp(80Q²/x)，Q≤√x/4可取25e⁵；任意c平方根窗亦成。birth2全height、高方差V≥2²⁰s²/原k≥2²³s²旧范围保档。原s≈q/x≈m的短旗与全部graph仍开。
+- **[所有出生真核的Fock重构](notes/2026-11-14-full-boolean-kernel-bosonic-zero-occupation-and-head-only-budget-789f-next.md)：** 对真实K=ker(A_m+D_m)，v=Σ_(j<d)(−A_m)^j(a0*)^jP0v/(S_m^(j/2)j!)，||v||²=Σ||A_m^jP0v||²/(S_m^j j!)。原物理头的四次carry界给C_m≤(k0+e)exp[k0T+3T^(4/3)]，k0=max(2m,16)、T=log108+3log(m+1)，logC=O(m logm)，不依出生/总孔。真左graph同源Γ/C≤Ξ=T*P0T≤Γ；P0实际像Z_A不能扩大。joined裸商有高返回，不能直接当环境真核。
 
 ## R150：完整原式与真实31饱和
 

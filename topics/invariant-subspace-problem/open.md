@@ -1,7 +1,7 @@
 # 未解决的问题
 
 
-**首低通道：** [原尾birth2全height](notes/2026-11-14-original-tail-birth-two-uniform-strengthened-all-height-bound-789f-next.md)现给显式有限Λ及N≤(Λ/2)kP。辅助常数2的有理反例仍保；[高方差全birth区](notes/2026-11-14-joint-birth-variance-common-slice-gram-and-strengthened-two-bound-789f-next.md)现付V≥2²⁰s²时真实κ2；原尾k≥2²³s²适用。实际短旗s≈k≈q不在该区，原graph仍开。
+**原首低通道。** 原尾birth2全height及高方差V≥2²⁰s²（原k≥2²³s²）已付，短旗s≈k≈q仍开；全部常数/原来源链接保[本轮完整快照](notes/2026-11-14-open-before-full-kernel-reconstruction-789f.md)。
 
 ## 主目标与完成标准
 
@@ -25,7 +25,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 **原式来源与31饱和：** [完整相关第二像](notes/2026-11-14-r150-complete-second-primary-image-seven-and-global-source-789f.md)连W维7；[H0原17模31³成本87](notes/2026-11-14-r150-h25-projector-free-original-seventeen-mod29791-cost87-789f.md)已成。新[原h0单31分母完整来源](notes/2026-11-14-r150-original-h0-full-original-one31-denominator-cost87-789f.md)也已全17乘回：AZ=31h0T模31³，九费用87/87/86/87/87/87/87/87/87。因此原h0模31²的31分母指数恰1；整数任何次数障碍仍真。第八真除源已给rank_Q A87≥226090；继续完整31饱和及特征零像归属，不由有限模身份代char0。原143/104、投影189、∞预算及全部旧数据保H/快照。
 
-**star有限正权区间已闭，继续原嵌入：** [完整全尺寸定理](notes/2026-11-14-balanced-star-bounded-positive-weights-all-size-uniform-phase-bound-789f-next.md)给固定a≤zi≤b、主池q0=Q=Σqi的整个低primitive与一维硬源统一κ(a,b)，不依Q/组数/qi/漂移/累计曲率。六区按非循环阈值穷尽，含两种共同端点退化。下一项是权比发散及原graph完整费用。新[全出生真实中央/极平坦界](notes/2026-11-14-all-birth-physical-central-and-extreme-flat-phase-bounds-789f.md)已付完整E_d/U_d与硬Schur，q0=0直接覆盖原偶Boolean中央源；继续原连续尾窗口、其它高度及同源graph两侧费。普通Hilbert ISP仍未完成。
+**固定正权star及高birth中央区已成。** [全star定理](notes/2026-11-14-balanced-star-bounded-positive-weights-all-size-uniform-phase-bound-789f-next.md)统一全部Q/组数；[全出生物理中央/极平界](notes/2026-11-14-all-birth-physical-central-and-extreme-flat-phase-bounds-789f.md)保完整E_d/U_d和硬Schur。权比发散、所有height及原同源graph费用继续。
 
 ## 当前接口一：原 Haar 慢符号的正常湮灭者
 
@@ -170,3 +170,5 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 [七新核与相关第二像完备性](notes/2026-11-14-r150-seven-augmented-second-kernel-and-primary-completeness-789f.md)把全部A+初值自由在1/2部分缩为七φ。真实c已给，剩余目标确在该部分；只新VQ7/K4和原模31⁵计算，正向先尝试完整315无投影身份，必要才保真谱投影及其费用，最后原17式乘回31²h0。两正列直接乘p复用。负结论限A+所有初值，不扩原全部有理来源。普通ISP完成标准不变。
 
 本节此前逐条状态和所有数据入口保[本次完整open快照](notes/2026-11-14-open-before-augmented-second-interface-789f.md)。
+
+**全出生真核有仅含头的预算。** [Fock完整重构](notes/2026-11-14-full-boolean-kernel-bosonic-zero-occupation-and-head-only-budget-789f-next.md)对环境ker(A_m+D_m)保全部出生/孔层，给Γ/C_m≤Ξ=T*P0T≤Γ，logC_m=O(m logm)，P0真像Z_A闭且不可扩大。下一接实际Z_q^-1的同源Ξ及joined bare高返回；不将商kernel直接当环境真核。
