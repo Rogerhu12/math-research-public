@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R438：原小核惰性三权与对角全部carry交叉行](results/R438-original-inert-bezout-kernel-and-complete-diagonal-carry-rows.md)：全局两张量身份保两个真实Gaussian并向任意第二轴Taylor行返回；三个对角全部交叉和及原T72固定多项式准确保留。两中央零的单位消元保真实U1/p及第三位，未增加独立中央条件。
+
 - [R437：原独立sigma约消与degree52有限差分原函数](results/R437-original-sigma-companion-cancellation-and-degree52-primitive.md)：真正整残余L保完整W核心，Wronskian边际给移动负五型单位；sigma的T乘单位分解给真实(Y+1,X−1)差分。原中央仅控制完整差分行，保单位边界、混合转置和隐藏域补集。
 
 - [R436：原U72完整CM7四谱与准确质量](results/R436-original-u72-complete-cm7-spectrum-and-exact-masses.md)：特征零全四幂及十三系数证书付四个真实投影，原b=17质量依次为∓1/(12096b)；完整ordinary核心、principal单位及各尺度log质量均保，辅助谱不认作原T倍数或新rank2曲线。
