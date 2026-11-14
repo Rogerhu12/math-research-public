@@ -16,7 +16,7 @@ dense actual43640503728已完成：旧100⊂160工作并集消原径向漏峰，
 
 exchange actual43642966285已找到e407a214全网内条带物理合格态：384/768 eta .266411174/.267146532、κ73.359843/73.359830；fine strip.389989992779、镜像.1016723303。rawδ.26640845723仍两网失败，不抬；六轮/12major后轮数限退出，最后16池外违反，不是收敛。总127.514s，初始化96.095/优化15.623s，选行矩阵仅2.823MB但RSS约3GiB；[完整实际证据](notes/full-grid-exchange-first-actual-result-20261114.md)保全部门与身份。
 
-下一按[R103](results/R103-actual-metric-curvature-semidefinite-gates.md)和[分批交换接口](notes/curvature-PSD-row-exchange-integration-plan-20261114.md)固定同g/e407的eta预算167/625，最小化独立曲率上界lambda，仍保内strip/镜像/帽高/盒。全部五jet/二阶参数列按16径向行+0/L分批，11组全值门筛，不能用目标g冒实际I；先由真实报告给新lambda裕量，旧delta失败不改。20轮仍共享80major/120phys/300s；最终.061局部目标与非局部reach另算。
+公开continuation run43645177423/source2f1b809c当前正在先人工后实际执行以下步骤。按[R103](results/R103-actual-metric-curvature-semidefinite-gates.md)和[分批交换接口](notes/curvature-PSD-row-exchange-integration-plan-20261114.md)固定同g/e407的eta预算167/625，最小化独立曲率上界lambda，仍保内strip/镜像/帽高/盒。全部五jet/二阶参数列按16径向行+0/L分批，11组全值门筛，不能用目标g冒实际I；先由真实报告给新lambda裕量，旧delta失败不改。20轮仍共享80major/120phys/300s；最终.061局部目标与非局部reach另算。
 
 [R74](results/R74-near-isometric-mirror-and-speed-linear-height-gates.md)的近等距镜像/速度必要式仍保；当前η不小，不能先用其小ε前提。随u/v变化的逐点门必须由当前几何/Jacobian重建，不能复用冻结T的高度多面体。帽高是同一个共同原函数的硬线性行；所有采样通过仍需最后连续与非局部reach支付。
 
@@ -43,6 +43,8 @@ R62/R65的理想互反bulk仍有非零纯第四漂移，不能忽略真实桥。
 3. R78的完整P1与R80真实第三仿射集合已完整处理；R87原式36/37子式排单pair的泛profile，R89–R94建立全状态真实仿射协变与整权分块。**R98 actual43638896281已完成全部正states的universal否定**：权2可付/权1零，权0真实14维、14/15非零子式给Λ(b_Hd)=1，任意正组合4Σℓ>0。R96把该障碍搬到同一合法C∞三矩圆及无统一导数盒时相对开稠密类。此子问题已结束，不再跑低权、增加同类states或重跑72/252列。旧失败与精确模板均保在对应results/notes。
 
    接下来只研究未排方向：特殊profile圆，或固定有限N的完整P0+NP1。R99已核R83真实t1×W0四列：完整Jacobi两列准确零，τ_p1t1和h-shape(k)在R98明确扩展查询下非零，给保持M/T/P1的P0切向。R101已支付共同I与真实基准：固定小M族重复不扩scalar包络，真M0第三环n次复制使V=E(t)+n(2v+tK)。在有限扩展空间应用R96得到同一合法圆/固定查询ℓ，再选有限±T、n，由介值可匹配任意ℓ(V)。R102进一步以有限切向基/真实串联及Brouwer，保E(t)+n(2Σv+Kt)全部基准，支付同一合法圆上至少15个独立查询的任意共同值，可包含R98正字符；真B_E8(W)维15≤r≤288。R105进一步付完整canonical成本共同有限模板及真实span U4的端口独立/仿射不变，R8⊂U4；R96可在同一合法圆忠实表示整个U4，但U4/R8还未确定。R109进一步给逐点n−N′∈W的真实局部势与完整公式V=∫(v−B_mN)−∫B_mH−(1/6)∫B_A[A,m]，后两项准确落R8；N(0)只靠总矩阵0消，不能先置零。故下一研究不含累计二/三history的局部密度积分商：v先真s微分后置累计值0，按原式消费，不把形式非零余项当真非成员。该商和ruling仍欠，只有另证U4=R8时R102才升级完整period控制。R84倒行V同号/加法半群及frame长度门保持。
+
+   [R112](results/R112-local-fourth-geometric-derivative-weights.md)已证明局部密度几何导数权恰只可能0/2/4；这三个有限片可分别消费，不能把改时长公式当独立真实成本控制。公开run43645177423的local_fourth_quotient先处理导数权0、完整−4/−2及仿射权2/1/0；W36完整原式先导出给完整m8纯尾投影，随后局部原式完整导出供后继直接消费。任何资源退出或形式余项都不冒真实成本非成员；若需实际可达性，须保M0/frame条件和所有连接基准。
 
    pure尾方面R85/R88已消4m−9及4m−8；R92给真实三primitive action。R95 actual43639240317七短系数、端势与原DAG全0，将m8 D25压至1605项5组，const/linear完整保留；c10/c9准确零端势，所以period关于c次数≤8。R100 actual43640085842已把c8完整端势/短action与23真history/参数族/原DAG全部核零，保p/ell/zeta三个真实零端ODE，单块符号仍未判。R104现用B σB Bᴿ (σB)ᴿ的真实闭合词支付c8：同端口、共同正I、真实位移/frame闭合且M=T0，c8倒行偶/反射奇相消，使该D25 period次数≤7。R106已从完整R56原递归和移动尾端锚证明D_j^σ(c)=(-1)^jD_j(-c)，因此四块D25只余c7/c5/c3/c1；全偶参数项已消。R107的真实全场协变给A_Hd(c)=H⁻⁷A(Hc+d)，所以a8=0后a7正仿射不变，不能再靠整体h缩放或ω平移清掉；这不是正性或消R8证明。R108 actual43642966285已付c7完整五history余action与全部14组/96项（零端Phi7、mu/nu真实ODE及十新差式全0），常数线性项不可删，五history受同一h/k/omega驱动。R110 actual43643100132另证真实K=B_t1(τ_p1t1)的D25=−(153664/75)c7；R101保基准/连接的有限复制可准确付a7，随后四块只余c5/c3/c1。不能将这项非零响应外推全R8满秩或完整period已零。R111随后已付四真实平移方向的奇查询满秩：d=0/1/2/3给κ(c+d)^7，Vandermonde(d²)非零；保全部v_j/E/连接后有限Brouwer同时消四奇项，反射再消偶项，故同一有限闭浸入环带的整个m8 pure D25(c)恒0。该尾层子问题结束，转其他r幂、完整mixed与局部U4/R8商，不重跑已付四方向。完整V=2V_B+2V_σB与固定全带右锚ruling缺陷仍保，余下其他r幂/mixed/完整range继续，不把D25一层全零冒完整V或全函数反号。必须使用R93/R97的真实驱动约束：∫kh=0，K2=L+E，∫hkω=K2，K2=−∫(F/h)kρ，故非恒h、S>1且(S²−1)E≥L。不得把primitive独立化、把这些积分式逐点置零，或将非零密度当非零period。
 

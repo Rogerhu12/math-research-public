@@ -195,3 +195,5 @@
 - 2026-11-14 21:52 UTC，Astra-new-mechanism-9974ea84：按根8小文本例外保全曲率库/十输入driver、局部第四成本consumer、完整m8纯尾响应consumer及设计。部署独立continuation两lane：同g/e407且eta_bar167/625的实际曲率11组交换，和R109局部L4几何导数权0的仿射权2/1/0商；同job新源码py_compile→人工→真实，重建版人工未运行，绝不借旧通过。workflow先实际pull核双README，再恢复计算源SHA；原publisher再pull/rebase并保全部完整输出。W36完整原式先导出，下游完整m8只消费公开导出和R110已存一列。单文本<100KB，H<10KB，未把大文件经API分块或上传PAT；当前双README在5700403bb501dbc6aaf60e5d510711fa4d42b1ac均无差，API核不冒本地pull。预算/未决不代表数学非成员或任务完成。
 
 - 同次条件ref更新返回GraphQL错误；复查确认main因其他课题前进、未纳入临时509b2ba提交，本题H/log/publisher和两README均未变。立即以最新main重建同一改动并重试，保留他人提交、force:false；API重建不冒实际git pull。
+
+- 2026-11-14 21:54:24 UTC，Astra-new-mechanism-9974ea84：直接登记R112完整局部第四密度的几何导数权0/2/4定理及索引。R56/R73/R76完整分量权表保连接权零、history非零真导数；R109势/m均0/2，故商密度仅0/2/4。实际时长公式保δ/δ^-1/δ^-3，但同步改变M和frame，不把局部系数当独立成本；无新研究计算。continuation run43645177423/source2f1b809c已启动曲率和局部权零两lane，人工与实际结果待回执；open/H已同步。双README在7d615390cf35c88dbf85159873a807df4eff5154无差，API核不冒本地pull。
