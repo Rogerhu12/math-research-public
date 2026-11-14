@@ -176,6 +176,9 @@ $\Omega_2=\varepsilon(22+17b)$。
 所以 $J_\ell$ 是唯一剩余坐标。
 允许Norm改普通基单位以杀全余数时，系数
 $c\equiv-J_\ell/(13i)$。
-实际 $J_\ell$、它与原 $b$ 的准确比较及真正主化坐标仍缺。
+R185 同一原 Robert 规范给有限 flat Norm 目标
+$A_{\alpha,\mathrm{fl}}=A_\alpha-(8i/1848)u$，
+故 $J_{\mathrm{fl}}=J_\ell-18$；系数只在模43时写成 $+8i$。
+实际 $J_\ell$、$J_{\mathrm{fl}}$ 与原 $b$ 的准确比较及真正主化坐标仍缺。
 R704 原43嵌入矩阵及R708局部Norm歧义已处理；
 仅局部条件不能替全局普通输入。

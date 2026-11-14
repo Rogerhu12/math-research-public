@@ -344,13 +344,131 @@ lifts to an ordinary correction, so (J.14) is the exact required
 mod-$p$ base-unit norm change. Since $J_\ell\in\mathbf F_{43}$,
 the displayed coefficient belongs to $i\mathbf F_{43}$.
 
-## 7. What is still required
+## 7. The original finite-flat normalization gives the counterterm 18
+
+This comparison uses R185's actual classes and the same unit,
+rather than an arbitrary generator of the ordinary unit line.
+
+R185 (185.22)-(185.23) uses
+
+$$
+u_0=N_{K(A[p])/F}
+\left(\frac{64^{10}}{\psi_{11,A}(P_2+P)}\right),
+\qquad P_2=(i,1-i),
+$$
+
+with the original real $P$ and original $q$ embedding.
+This is precisely the scalar norm underlying the $u_0$ of
+R198/R613, since $\Delta_A=64$ and the marked point and function
+agree. Thus its unaveraged field-character coefficient is
+the same $u=P_+[u_0]$ used in (J.1)-(J.14), with
+$N_Tu_t=u$. No new generator of $E_F$ is chosen.
+
+To check the coefficient scale, R185 defines
+
+$$
+\mathcal B(a)=\sum_{j=0}^{43}[\sigma^ja]\otimes D_{\omega^j},
+\qquad
+\mathcal J(D_z)=D_{iz},
+$$
+
+and gives the exact mod-$p$ Kummer normalization
+
+$$
+d_p^{\mathrm{Rob}}=\frac1{1848}\mathcal J\mathcal B(u_0).
+\tag{J.15}
+$$
+
+On the selected field-character summand, the coefficient of
+$\mathcal B(u_0)$ is $P_+[u_0]=u$ and applying $\mathcal J$
+multiplies that coefficient by $i$. This follows term by term
+from $D_{\omega^j}\mapsto D_{i\omega^j}$.
+The coefficient of the same unaveraged $\mathcal B(\alpha_F)$
+is $A_\alpha$, so R185's $d_q$ is the class of precisely this
+norm target. Consequently the two coefficients being compared are
+
+$$
+d_q\longleftrightarrow A_\alpha,\qquad
+d_p^{\mathrm{Rob}}\longleftrightarrow\frac{i}{1848}u
+\equiv-i u\pmod p.
+\tag{J.16}
+$$
+
+There is no factor $1/44$ in either identification.
+This is a comparison of the actual Kummer classes before local
+evaluation, so no additional Frobenius restriction factor $1/2$
+is introduced.
+
+R185 computes the local Artin--Hasse coordinates
+$(20,29)$ for $d_q$ and $(24,20)$ for $d_p^{\mathrm{Rob}}$.
+Its finite-flat annihilator is the second coordinate line.
+Therefore the exact mod-$p$ correction is
+$d_q-8d_p^{\mathrm{Rob}}$, since $20/24=8$.
+An integral completed norm target and witness representing
+this correction are
+
+$$
+A_{\alpha,\mathrm{fl}}
+=A_\alpha-\frac{8i}{1848}u,\qquad
+X_{\mathrm{fl}}=X-\frac{8i}{1848}u_t.
+\tag{J.17}
+$$
+
+Their full divisor and exact norm satisfy
+
+$$
+\operatorname{div}X_{\mathrm{fl}}=P_+P_0,\qquad
+N_TX_{\mathrm{fl}}=A_{\alpha,\mathrm{fl}}.
+$$
+
+Only the mod-$p$ finite-flat class is being specified by R185;
+a different integral lift of its coefficient changes (J.17)
+by a multiple of $p$ of an ordinary unit and does not change
+the residue moment below.
+
+Define $J_{\mathrm{fl}}$ by the formula (J.4), using the
+pair $(X_{\mathrm{fl}},A_{\alpha,\mathrm{fl}})$.
+The correction at $j=0$ still makes a local unit.
+It has coefficient zero in the first moment, and
+$\ell(u)=0$ also shows that its change contributes no extra
+term to the normalized residue vector.
+Using the actual R198 value $\ell(D_Tu_t)=13i$ gives
+
+$$
+\boxed{
+J_{\mathrm{fl}}
+=J_\ell-\frac{8i}{1848}(13i)
+=J_\ell-18\quad\hbox{in }\mathbf F_{43}.
+}
+\tag{J.18}
+$$
+
+Indeed $1848\equiv-1\bmod43$, so the coefficient of $u_t$
+in (J.17) is $8i$ modulo $43$, and $8i\cdot13i=-104=-18$.
+The semilinear marking is also preserved:
+R185 has $\tau u_0=\sigma^{22}u_0$, hence
+$\tau u=-u$ in this character, while $8i/1848$ changes sign.
+Thus the correction to the fixed $A_\alpha$ is itself fixed
+under the same semilinear involution.
+
+More generally changing a norm target by $d u$ and its witness
+by $d u_t$ changes this first moment by $13i\,d$ modulo $p$.
+The fixed principal divisor alone does not determine the raw
+moment; the original norm target is essential. Formula (J.18)
+records the correction for the actual finite-flat normalization.
+
+Neither $J_\ell$ nor $J_{\mathrm{fl}}$ has been numerically
+evaluated. In particular this argument does not identify
+$J_{\mathrm{fl}}=0$ with the original $b=24$ condition.
+The additional chain comparison remains necessary.
+
+## 8. What is still required
 
 The quantity (J.4) is fixed by the actual field,
 ordinary divisor, norm, prime label, and residue
 convention. Its value has not been computed. Equations (J.11)-(J.14)
-identify the entire ordinary residue ambiguity, but the
-principalization existence proof does not supply a numerical
+identify the entire ordinary residue ambiguity, and (J.18)
+fixes the finite-flat counterterm. The principalization existence proof does not supply a numerical
 first moment or a principalization's coordinates.
 
 R720 proves the original ordinary bridge
@@ -366,7 +484,10 @@ assigning a coefficient connecting this explicit
 $J_\ell$ to $b$ or to a lost, incompletely normalized
 R599 symbol. No such coefficient is asserted here.
 
-Dependencies: the actual marked field and prime of
+Dependencies: the actual unit, unaveraged Kummer classes and finite-flat
+normalization of
+[R185](../results/R185-p-local-robert-and-principal-unit-coordinates.md);
+the actual marked field and prime of
 [R591](../results/R591-explicit-marked-anti-p-field-and-relative-maximal-order.md);
 the pure-$p$ ordinary lattices and class vanishing in
 [R619](../results/R619-ordinary-anti-p-class-group-and-actual-artin-nine.md),
