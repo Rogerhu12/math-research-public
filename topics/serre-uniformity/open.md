@@ -215,3 +215,6 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 
 
 **R777（准确短基与H³坐标工程已保存，未触发）**：[完整执行方法](notes/R777-exact-short-K-basis-and-Hodge-coordinates-method.md)。复用真R771 E1模表/群、真R774前两块及行尺度，等待R775真K基配方。82E1有限整数常数和、126半trace/40det奇提升、block79和每权82^w清分母给全部原M6/M12至q142；原H³坐标用694×694 Q矩阵/Dixon解14 RHS，准确AX=I后乘82^6ρ回原尺度，由已知membership及R778注入认证。core4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a；数千阶段/完整SHA清单gzip只artifact，逐行断点。pending请求路径不触发workflow，须真R775成功artifact/cert/manifest绑定后写最终-request.json；没有预称计算结果。R781接原y精确递推及全部143项关系，原函数/β/高度仍待求。
+
+
+**R781（原切向下降与无κ逆Laurent构造已证明）**：[完整证明](results/R781-original-tangent-descent-and-inverse-free-Laurent-relations.md)。原g=−diag(1,−1)T^-40与指定σ−1给a_n→ξ^(20n)a_n；v=ξ^-10u将同一原系数降到M+=L(ξ+ξ^-1)，degree20/L，整数Chebyshev转换无1/2，L本身不缩。以原H³的非零首项κ换v=κw，R0=1、Ãn=κ_(n+1)κ^(n−1)、c*=246^6bκ4，方程(R−wR′)^3=Ã(R²−c*w²)²逐项Rn=残差/(3n+1)，不需κ反演。原143条关系等价于246³κ^(n+2)A_n+Σκ^jR_(n−j+1)B_j=0，化为2860×3028 L矩阵，理论rank2720/kernel308；须非零候选准确代回全部143×20坐标。实际计算使用同域λb整monic关系、primitive整数280向量×有理ρ逐content约分，明确分母界S^nΔn保留。此证明不生成y/β/高度值，global继续实际core；R777原40坐标仍直接复用，不因切向换参重算。

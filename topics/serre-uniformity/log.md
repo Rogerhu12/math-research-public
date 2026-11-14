@@ -265,3 +265,8 @@
 - R777完整准确短基/H³坐标工程保存：82E1有限整数常数、原126半trace/40det、block79和82^weight，全部原M6/M12 q142；原H³694阶Q系统/14 RHS准确解后用已知membership与R778短注入认证。
 - core4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a、methodae8b1f3dd9fff9b38ffab566cb76dc1869add914737c4c9169adeb35e546329a；根及代理读完整源码，官方flint接口/原schema一致，无本地数学。数千stage清单只artifact、逐行断点；pending请求非触发路径，R775真绑定返回后才运行。
 - R779已单独推86b22789；H/open完整归档并同步index，R77519:45仍in_progress，R781接原y/核。终端不可用按根规矩8核main/两README后非force小文本继续。
+
+## 2026-11-15 03:55 Asia/Taipei · serre-public-resume-20261114
+- R781真实g=−diag(1,−1)T^-40给v=ξ^-10u的M+20/L下降，整数Chebyshev转换无1/2；v=κw后Rn残差/(3n+1)只含κ非负幂，原143条关系准确清为2860行/3028未知。
+- 完整证明SHA152c723da76b5c899b433db640fb6ac69082b46543f3d6bfa85d1cead7d78de0，原微分/CM符号及143×20全代回保留；λb整基、primitive向量×ρ与S^nΔn分母界全证，实际递推/核未执行返回。
+- R777待输入工程已推9d6c4406，H/open完整归档并同步index；R775仍公开运行，R780原cs与R782原双线性恒等式并行。终端不可用按根规矩8核main/两README后非force继续，无本地数学运行。
