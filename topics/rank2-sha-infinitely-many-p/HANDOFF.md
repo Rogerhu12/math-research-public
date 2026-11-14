@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文持续推进，不等阶段确认。**
 
 - 旧库首次全文读根及课题README（含全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：9814077f393a1b4999b96ce93c9153def6e246a7；2026-11-14 16:08:46 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：cd8a95d4955bb6e2ac2c44455004cc266e2db393；2026-11-14 16:11:37 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 现仅在Rogerhu12/math-research-public工作。每次pull后及至少每小时核两README差异；有变立即执行。规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13用公开库Actions，旧runner/ci-queue停用。
 - main逐条commit/push已授权；禁强推/改写已发表历史。非快进立即pull --rebase重推；无执行环境时API用expected_sha/force=false，拒绝立即读新头核规后追加，不冒称git pull。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。仅写本课题log、每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
@@ -50,3 +50,5 @@ Fermat移位排除接口见notes/2026-11-14-fermat-shifts-and-kernel-syzygy-boun
 三层乘积未闭合见notes/2026-11-14-deep-three-layer-product-and-ramification-cost.md：A⊗B=C不支付K2→K3，真实normal微分有EF分母，局部修正清极升5C；k0/1镜轴Cartier改写不消全局α/β。仍按原3C预算继续。
 
 新sigma/Lubin–Tate文献入口及实际已读范围见notes/2026-11-14-deep-new-sigma-and-lubin-tate-literature-entry.md：两份2026新稿仅摘要；Ardakov–Berger精确赋值只付实际LT character，未识别原Theta/sigma/中央或αβ，不作新非零输入。
+
+J反射边界已付，见notes/2026-11-14-j-reflection-three-dimensional-cm-boundary.md：真实F−在S102的N7循环恰3维、N7³=ω、wholeK102=−1；原S/H3/H5三个算术投影全0，不能免费回其中央。literature转f4完整Schwartz/负二分支，root攻其真实modp对角；均不预断非零。

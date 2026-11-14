@@ -251,3 +251,5 @@ R538未改P_K的E深/Kunit整条四输出返回已付，系数βn(8+20κ3n−κ6
 ### R539：已接原两中央的实际混Y核
 
 原L=(W−Y)/2及Norm8伴随有whole非scalar两态核；其余四σ全保。L核保持R536同一个零质量测试，偶深m的准确Y_m/W_m同行返回原S/T；原Dn在m<n确落合法域，局部两中央赋值n−m，奇n取m=n−1得v1。所有反号补域及M转置仍保。见[R539](results/R539-original-degree8-mixed-st-core-and-amplified-central-domain.md)。**待做：** 同一个cubic carry上的Y_m/W_m两完整补域联立，保κ^-m及所有输入单位条件；奇m的第二态中央未识别，不能免费赋零。原网格v1本身仍不排补偿。
+
+原J反射尝试的完整来源界见[2026-11-14-j-reflection-three-dimensional-cm-boundary.md](notes/2026-11-14-j-reflection-three-dimensional-cm-boundary.md)：N7³特征ω与原三算术线的−1不同，三个投影全零，不能赋它中央零。R538真实A5/近相消条件仍开，继续f4完整有限角色和原补域比较。
