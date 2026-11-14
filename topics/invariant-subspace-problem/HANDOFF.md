@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；须全体有界算子定理或完整反例，有限模型/候选排除均不算完成。
 - 根Astra-ISP-789f独占Git、H/open/results/log与main；代理只写各自789f稿。
-- **最近成功实际 pull 与已读规则提交：** `f5fe87931d47406c3279171182c209289498959d`（2026-11-14 14:29:16 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `cea16cf6df3d40ff6321fe4412bab4937ac11df1`（2026-11-14 14:30:09 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 持续研究，每结论即提交并推；非快进立刻pull --rebase再推到成功，不force。至少每小时实际pull，逐次只读两README新差异并立刻遵守。令牌只CLI临时环境；不写根README/LOG、不问重复授权。
 - 迁移授权已读，只用Rogerhu12/math-research-public；规则12取消额外独立复核，规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行、数据>1MB压gz/每文件≤5MB。
 - [压缩前完整H](notes/2026-11-14-handoff-before-all-birth-second-variation-789f.md)、[完整前open](notes/2026-11-14-open-before-first-padic-obstruction-789f.md)保全部旧范围/失败/来源链；未列不等于已闭。
@@ -43,7 +43,7 @@ H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−30
 
 ## 当前分工与待接结论
 
-normal_annihilator完成高核β源码与本库一次请求；literature_audit继续真实一般相位及退化核四阶；boundary_core继续j=s−2同源条件均值/协方差。根负责原源接口、工作流、证明整合与每结论推送。[退化零核原例](notes/2026-11-14-even-phase-second-variation-kernel-not-preserved-789f-next.md)已提交：二阶零但沿线缺陷u⁴/3+O(u⁶)，排永久等号；等值组Casimir约化正继续。待紧接发布首低Johnson通道/原连续尾线性条件预算，稿已冻结。
+normal_annihilator完成高核β源码与本库一次请求；literature_audit继续真实一般相位及退化核四阶；boundary_core继续j=s−2同源条件均值/协方差。根负责原源接口、工作流、证明整合与每结论推送。[退化零核原例](notes/2026-11-14-even-phase-second-variation-kernel-not-preserved-789f-next.md)已提交：二阶零但沿线缺陷u⁴/3+O(u⁶)，排永久等号；等值组Casimir约化正继续。[首低Johnson共同Schur](notes/2026-11-14-first-low-johnson-channel-common-schur-and-original-tail-linear-budget-789f-next.md)已付j=s−2线性条件分解、出生二准确Poincaré式、原尾任意删位协方差预算2(1+2k/x)¹⁶；条件均值仍未付。
 
 Garayev第二分支强制零与其余当前原文条件已推4c071886，balanced-walk两层度量不匹配已推58436f16；旧文献适用范围保open/归档，不重复已排路线。主ISP未完成，不以阶段报告收尾。
 

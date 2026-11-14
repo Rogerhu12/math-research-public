@@ -1,6 +1,7 @@
 # 未解决的问题
 
-**2026-11-14 退化相位更新：** [真实四位零核](notes/2026-11-14-even-phase-second-variation-kernel-not-preserved-789f-next.md)二阶为零但沿线四阶严格正，排永久等号假设；一般退化块须保共同高阶Schur或证明真实reducing分解，均未由此例闭合。
+
+**首低通道新接口：** [共同条件Schur](notes/2026-11-14-first-low-johnson-channel-common-schur-and-original-tail-linear-budget-789f-next.md)给j=s−2外部线性列和出生二准确Poincaré等价式。原连续尾条件协方差双侧预算已付，随D变化的条件均值及正通道支配仍缺；2(1+2k/x)¹⁶不是κ_s。
 
 ## 主目标与完成标准
 
