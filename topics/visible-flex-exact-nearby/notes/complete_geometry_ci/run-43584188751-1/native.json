@@ -1,0 +1,470 @@
+{
+  "kind": "actual_complete_141_geometry_ball_rational_budget_v1",
+  "complete": true,
+  "failure": null,
+  "executed_utc": "2026-11-14T10:12:50.160454+00:00",
+  "github_run_id": "43584188751",
+  "github_workflow_commit": "f792278896f34526bc1bd69c226de2495c7d2779",
+  "source_sha256": "f3ba01384cf2b8e0f228cc202661127ddec7c2ff9e75bc9c5b54951f8c4818c9",
+  "input_manifest_sha256": "1a31695fb27e714bef40b1cc5a9c6fe4fb78fa2da91b1425286b249428900168",
+  "consumed_proved_input_sha256": {
+    "results/R133-supplement-complete-141-block-continuous-model-geometry.md": "0ba6b818608cc0fff0daa26e759e94834c3f3755e32aa96cd8be0ec056971c4c",
+    "results/R133-supplement-exact-waist-grid-and-complete-canonical-alignment.md": "fe4967a1919a0d9ae1094d1541e6f362ec38ef6a39e74f388b1ff74ad9945a78",
+    "results/R133-supplement-complete-C0-waist-and-canonical-forward-geometry.md": "3483726b6b70110af920986130247ab99bd7e389f4e2b40e754663d684525cf9",
+    "results/R133-supplement-complete-C0-state-and-nu-geometry-response.md": "366914bfb1ad8acfba99fe77c4a37237957ed6a777eef01072a039370525f2fe",
+    "results/R133-supplement-current-complete-exterior-curvature-and-common-world-caps.md": "c04a574a169b2eaf8fd22b921e0a26a67d9c88e15795bf4064842e11817de86a",
+    "results/R133-supplement-waist-normal-offset-and-fifth-power-markers.md": "0c06ca9cce13b897b202e40cbe5bbb69bf5b5d44aef4c33cd19c9e2a9dfac6c5",
+    "results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md": "2b7d6080dc7fdac0bd5c557b71f3e7ec1eb5436a14d45a5a762e1b548a9e20f1",
+    "results/R133-supplement-final-geometry-from-complete-C0-ball.md": "d3b5e0de6d9eab8705b45a319ed9e0d188617a1f00a8b84223c4fb4a178e1cf9"
+  },
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "exact_nonlinear_solution_exists": false,
+  "complete_tail_matching_proved": false,
+  "state_ball_has_been_attained": false,
+  "final_topic_complete": false,
+  "result": {
+    "ball": {
+      "full_physical_C0_state": {
+        "exact": "1/10000",
+        "decimal_display_only": "0.0001"
+      },
+      "full_metric_parameter_change": {
+        "exact": "1/100000",
+        "decimal_display_only": "0.00001"
+      },
+      "eta": "eta_0_only"
+    },
+    "true_waist_errors": {
+      "frame": {
+        "exact": "101951532739/1000000000000000",
+        "decimal_display_only": "0.000101951532739"
+      },
+      "position": {
+        "exact": "44069895147/200000000000000",
+        "decimal_display_only": "0.000220349475735"
+      },
+      "canonical_frame": {
+        "exact": "108594777739/1000000000000000",
+        "decimal_display_only": "0.000108594777739"
+      },
+      "canonical_position": {
+        "exact": "46536362547/200000000000000",
+        "decimal_display_only": "0.000232681812735"
+      }
+    },
+    "complete_geometry": {
+      "frame_difference": {
+        "exact": "1685274367739/1000000000000000",
+        "decimal_display_only": "0.001685274367739"
+      },
+      "position_difference": {
+        "exact": "60422483025301453/50000000000000000000",
+        "decimal_display_only": "0.00120844966050602906"
+      },
+      "body_radius": {
+        "exact": "63846093625375301453/50000000000000000000",
+        "decimal_display_only": "1.27692187250750602906"
+      },
+      "body_support": {
+        "exact": "897603016193389337457667067/1000000000000000000000000000",
+        "decimal_display_only": "0.897603016193389337457667067"
+      },
+      "exterior_radius": {
+        "exact": "63846493625375301453/50000000000000000000",
+        "decimal_display_only": "1.27692987250750602906"
+      },
+      "exterior_support": {
+        "exact": "897574585443429217361202107/1000000000000000000000000000",
+        "decimal_display_only": "0.897574585443429217361202107"
+      },
+      "unmarked_absolute_curvature": {
+        "exact": "5553375579983/500000000000",
+        "decimal_display_only": "11.106751159966"
+      },
+      "unmarked_positive_curvature": {
+        "exact": "193527257281/50000000000",
+        "decimal_display_only": "3.87054514562"
+      }
+    },
+    "winding": {
+      "mean_magnitude_lower": {
+        "exact": "106863269499999999/100000000000000000",
+        "decimal_display_only": "1.06863269499999999"
+      },
+      "mean_magnitude_upper": {
+        "exact": "111985788300000001/100000000000000000",
+        "decimal_display_only": "1.11985788300000001"
+      },
+      "exact_frame_periodicity_required": true,
+      "embedding_not_assumed_to_deduce_winding_one": true
+    },
+    "final_ratios": {
+      "diameter_upper": {
+        "exact": "511/200",
+        "decimal_display_only": "2.555"
+      },
+      "waist_delta_lower": {
+        "exact": "12968894459253905343/100000000000000000000",
+        "decimal_display_only": "0.12968894459253905343"
+      },
+      "waist_delta_upper": {
+        "exact": "202690471238342271/1562500000000000000",
+        "decimal_display_only": "0.12972190159253905344"
+      },
+      "held_ratio_lower": {
+        "exact": "12968894459253905343/255500000000000000000",
+        "decimal_display_only": "0.0507588824236943457651663405088062622309197651663"
+      },
+      "reach_ratio_lower": {
+        "exact": "800/25039",
+        "decimal_display_only": "0.0319501577539039099005551339909740804345221454531"
+      },
+      "held_set_diameter_ratio_lower": {
+        "exact": "360/511",
+        "decimal_display_only": "0.704500978473581213307240704500978473581213307241"
+      }
+    },
+    "gates": [
+      {
+        "name": "state_ball_within_proved_full_comparison",
+        "relation": "<",
+        "left": {
+          "exact": "1/10000",
+          "decimal_display_only": "0.0001"
+        },
+        "right": {
+          "exact": "1/1000",
+          "decimal_display_only": "0.001"
+        },
+        "passed": true
+      },
+      {
+        "name": "nu_ball_within_proved_full_comparison",
+        "relation": "<=",
+        "left": {
+          "exact": "1/100000",
+          "decimal_display_only": "0.00001"
+        },
+        "right": {
+          "exact": "1/100000",
+          "decimal_display_only": "0.00001"
+        },
+        "passed": true
+      },
+      {
+        "name": "mean_is_strictly_negative",
+        "relation": "<",
+        "left": {
+          "exact": "0",
+          "decimal_display_only": "0"
+        },
+        "right": {
+          "exact": "106863269499999999/100000000000000000",
+          "decimal_display_only": "1.06863269499999999"
+        },
+        "passed": true
+      },
+      {
+        "name": "closed_frame_positive_winding_exceeds_one_half",
+        "relation": "<",
+        "left": {
+          "exact": "111985788300000001/100000000000000000",
+          "decimal_display_only": "1.11985788300000001"
+        },
+        "right": {
+          "exact": "53436641/25000000",
+          "decimal_display_only": "2.13746564"
+        },
+        "passed": true
+      },
+      {
+        "name": "closed_frame_positive_winding_below_three_halves",
+        "relation": "<",
+        "left": {
+          "exact": "1068732841/500000000",
+          "decimal_display_only": "2.137465682"
+        },
+        "right": {
+          "exact": "320589808499999997/100000000000000000",
+          "decimal_display_only": "3.20589808499999997"
+        },
+        "passed": true
+      },
+      {
+        "name": "complete_frame_error_small",
+        "relation": "<",
+        "left": {
+          "exact": "1685274367739/1000000000000000",
+          "decimal_display_only": "0.001685274367739"
+        },
+        "right": {
+          "exact": "843/500000",
+          "decimal_display_only": "0.001686"
+        },
+        "passed": true
+      },
+      {
+        "name": "complete_position_error_small",
+        "relation": "<",
+        "left": {
+          "exact": "60422483025301453/50000000000000000000",
+          "decimal_display_only": "0.00120844966050602906"
+        },
+        "right": {
+          "exact": "1209/1000000",
+          "decimal_display_only": "0.001209"
+        },
+        "passed": true
+      },
+      {
+        "name": "same_world_exterior_radius",
+        "relation": "<",
+        "left": {
+          "exact": "63846493625375301453/50000000000000000000",
+          "decimal_display_only": "1.27692987250750602906"
+        },
+        "right": {
+          "exact": "511/400",
+          "decimal_display_only": "1.2775"
+        },
+        "passed": true
+      },
+      {
+        "name": "body_support_exceeds_marker_support",
+        "relation": "<",
+        "left": {
+          "exact": "89/100",
+          "decimal_display_only": "0.89"
+        },
+        "right": {
+          "exact": "897603016193389337457667067/1000000000000000000000000000",
+          "decimal_display_only": "0.897603016193389337457667067"
+        },
+        "passed": true
+      },
+      {
+        "name": "whole_unmarked_support_exceeds_marker_support",
+        "relation": "<",
+        "left": {
+          "exact": "89/100",
+          "decimal_display_only": "0.89"
+        },
+        "right": {
+          "exact": "897574585443429217361202107/1000000000000000000000000000",
+          "decimal_display_only": "0.897574585443429217361202107"
+        },
+        "passed": true
+      },
+      {
+        "name": "whole_support_exceeds_final_target",
+        "relation": "<",
+        "left": {
+          "exact": "4/49",
+          "decimal_display_only": "0.0816326530612244897959183673469387755102040816327"
+        },
+        "right": {
+          "exact": "89/100",
+          "decimal_display_only": "0.89"
+        },
+        "passed": true
+      },
+      {
+        "name": "whole_body_absolute_curvature",
+        "relation": "<",
+        "left": {
+          "exact": "5553375579983/500000000000",
+          "decimal_display_only": "11.106751159966"
+        },
+        "right": {
+          "exact": "12",
+          "decimal_display_only": "12"
+        },
+        "passed": true
+      },
+      {
+        "name": "whole_body_outward_curvature",
+        "relation": "<",
+        "left": {
+          "exact": "193527257281/50000000000",
+          "decimal_display_only": "3.87054514562"
+        },
+        "right": {
+          "exact": "196/27",
+          "decimal_display_only": "7.25925925925925925925925925925925925925925925926"
+        },
+        "passed": true
+      },
+      {
+        "name": "whole_exterior_absolute_curvature",
+        "relation": "<",
+        "left": {
+          "exact": "2",
+          "decimal_display_only": "2"
+        },
+        "right": {
+          "exact": "12",
+          "decimal_display_only": "12"
+        },
+        "passed": true
+      },
+      {
+        "name": "whole_exterior_outward_curvature",
+        "relation": "<",
+        "left": {
+          "exact": "2",
+          "decimal_display_only": "2"
+        },
+        "right": {
+          "exact": "196/27",
+          "decimal_display_only": "7.25925925925925925925925925925925925925925925926"
+        },
+        "passed": true
+      },
+      {
+        "name": "outer_height_input_is_paid",
+        "relation": "<",
+        "left": {
+          "exact": "60422483025301453/50000000000000000000",
+          "decimal_display_only": "0.00120844966050602906"
+        },
+        "right": {
+          "exact": "1/100",
+          "decimal_display_only": "0.01"
+        },
+        "passed": true
+      },
+      {
+        "name": "true_upper_flat_cap_above_nine_tenths",
+        "relation": "<",
+        "left": {
+          "exact": "9/10",
+          "decimal_display_only": "0.9"
+        },
+        "right": {
+          "exact": "414120308674276836505957984699/429496729600000000000000000000",
+          "decimal_display_only": "0.964198980187710459590791688996832817792892456055"
+        },
+        "passed": true
+      },
+      {
+        "name": "true_upper_flat_cap_below_one",
+        "relation": "<",
+        "left": {
+          "exact": "415165230976097576030663109051/429496729600000000000000000000",
+          "decimal_display_only": "0.966631879508722517710791688996832817792892456055"
+        },
+        "right": {
+          "exact": "1",
+          "decimal_display_only": "1"
+        },
+        "passed": true
+      },
+      {
+        "name": "actual_waist_displacement_positive",
+        "relation": "<",
+        "left": {
+          "exact": "0",
+          "decimal_display_only": "0"
+        },
+        "right": {
+          "exact": "12968894459253905343/100000000000000000000",
+          "decimal_display_only": "0.12968894459253905343"
+        },
+        "passed": true
+      },
+      {
+        "name": "actual_waist_within_complete_outward_normal_tube",
+        "relation": "<",
+        "left": {
+          "exact": "202690471238342271/1562500000000000000",
+          "decimal_display_only": "0.12972190159253905344"
+        },
+        "right": {
+          "exact": "27/196",
+          "decimal_display_only": "0.137755102040816326530612244897959183673469387755"
+        },
+        "passed": true
+      },
+      {
+        "name": "held_distance_exceeds_five_percent",
+        "relation": "<",
+        "left": {
+          "exact": "511/4000",
+          "decimal_display_only": "0.12775"
+        },
+        "right": {
+          "exact": "12968894459253905343/100000000000000000000",
+          "decimal_display_only": "0.12968894459253905343"
+        },
+        "passed": true
+      },
+      {
+        "name": "reach_exceeds_three_percent",
+        "relation": "<",
+        "left": {
+          "exact": "1533/20000",
+          "decimal_display_only": "0.07665"
+        },
+        "right": {
+          "exact": "4/49",
+          "decimal_display_only": "0.0816326530612244897959183673469387755102040816327"
+        },
+        "passed": true
+      },
+      {
+        "name": "held_set_diameter_exceeds_twenty_percent",
+        "relation": "<",
+        "left": {
+          "exact": "511/1000",
+          "decimal_display_only": "0.511"
+        },
+        "right": {
+          "exact": "9/5",
+          "decimal_display_only": "1.8"
+        },
+        "passed": true
+      },
+      {
+        "name": "unmarked_gauss_curvature_below_first_marker_peak",
+        "relation": "<",
+        "left": {
+          "exact": "144",
+          "decimal_display_only": "144"
+        },
+        "right": {
+          "exact": "145",
+          "decimal_display_only": "145"
+        },
+        "passed": true
+      },
+      {
+        "name": "largest_marker_curvature_below_49_over_4",
+        "relation": "<",
+        "left": {
+          "exact": "148",
+          "decimal_display_only": "148"
+        },
+        "right": {
+          "exact": "2401/16",
+          "decimal_display_only": "150.0625"
+        },
+        "passed": true
+      },
+      {
+        "name": "marker_positive_curvature_below_outward_target",
+        "relation": "<",
+        "left": {
+          "exact": "37888/729",
+          "decimal_display_only": "51.9725651577503429355281207133058984910836762689"
+        },
+        "right": {
+          "exact": "38416/729",
+          "decimal_display_only": "52.6968449931412894375857338820301783264746227709"
+        },
+        "passed": true
+      }
+    ],
+    "gate_count": 26,
+    "all_gates_passed": true
+  }
+}
