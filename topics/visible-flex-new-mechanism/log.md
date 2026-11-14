@@ -215,3 +215,5 @@
 - 2026-11-14 22:28 UTC，Astra-new-mechanism-9974ea84：直接登记R118完整精确分离与实际成本商非零。actual43647225907/sourceb466c378在原两mode给7控制秩7/加G秩8，真Q-Cramer由非零7/8子式认证；6.594s/RSS123.914MiB。R114/R117真正配平圈和桥保全把它升级为U4/R8非零、dimU4≥dimR8+1≥32，单个新查询已付，尚不冒31+1联调。结束U4=R8路线，open转新商/联调；压缩HANDOFF去除过时下一步并保所有关键身份。只读43647629532已证所有20次换池均在池内仍违约，改策略复用3866池、先恢复池内可行，不放宽实际tol或预算。双README无差。
 
 - 2026-11-14 22:28:24 UTC，Astra-new-mechanism-9974ea84：直接登记R119完整正静态锥/八矩乘子充要定理。以E8全正锥保证下包络上下有限与次线性，再用Hahn–Banach取得μ，既不假定inf取得也不假定投影锥闭。对实际MT0成本正泛函只推出必要门，局部密度ambient extension差由R114矩阵因子吸收；权2/4及桥仍欠。R117两符号仅对纯权一查询的旧范围保留，mixed权的G消去另作R120严格证明。R118已推97341e4d，双README无差；继续两个新Actions消费者。
+
+- 2026-11-14 22:30:14 UTC，Astra-new-mechanism-9974ea84：部署两个新公开lane。curvature_feasible_exchange保原同g/e407/163/eta167/625及20轮80major120phys300s，严格复用3866已学行，仅池内按原实际容差恢复后换池，metric遗漏用1e−9；新增11输入/调度人工先行。static_m8_tail_quotient仅消费完整local原式和已发31基证书，逐系数保所有余行并单列G，不重算旧288响应、未应用真实M0不冒周期非成员。源码/设计每件<100KB，旧计算保留；workflow最多两lane、同jobpycompile与新人工后才实际。静态lane另执行授权私有partialclone/pull/双规则与QUEUE检查，仅输出元数据；公共双README无差。R119已推75318f03，继续R120/R121完整证明。

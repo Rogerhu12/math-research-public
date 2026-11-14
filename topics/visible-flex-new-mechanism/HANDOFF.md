@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`443da14dcb99c151c2ad385b74870ce203c653c8`。每次真正pull --rebase后立刻核双README，有变只读差异即执行并记SHA；至少每小时pull。每个有意义结论立即commit/push，NFF立刻pull/rebase核规则再推至成功，绝不force。根README blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后已读规则提交：`a9fb43df97436549dae845a14afbefeca6b223d7`。每次真正pull --rebase后立刻核双README，有变只读差异即执行并记SHA；至少每小时pull。每个有意义结论立即commit/push，NFF立刻pull/rebase核规则再推至成功，绝不force。根README blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有22:02:43 UTC在公开Actions实际partial clone/pull至`7b57afc0a2b3910fca1c21b601ba7b18d1ccc2ae`，双规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**。仅公开元数据；下一私有pull不晚23:01 UTC。回执在actions-43645929555-1-full_m8_tail_response_projection。
 
@@ -26,11 +26,11 @@ H<10KB，MD<100KB，open尽量<30KB；数据>1MB gzip/单件<5MB。明确stage�
 
 只读诊断 **43647629532/source6fcdcdb2** 成功：20次交换时当前池也仍违反（首124/末216行），末24遗漏仅metric_minus；最低κ39.2818的η1.1700失败，后期κ53.6252/η.267206645仍失败。只有初点满足固定metric+物理门。旧触发metric tol1e−5与实际1e−9不同。**新策略复用learned3866池，从合格e407出发，仅池内按原实际tol恢复可行后才换池；池内违约让同次SLSQP继续，出口也严格查遗漏。** 原20round/80major/120phys/300优化秒不变；不单纯加轮数，不放宽门。
 
-备选B=.37仍从原162态f198ba74dcf3644569bf1ed78eecbc48a0f21ec421205d46a6b159cb00ff0f56另建g211c1b193eeb38b50933083821b3d32ed8e7bbf6bd627aab64630dd8a6c22a5e。局部leading43638423274的8d9d/b0df1a，fineη1.174996/κ263.3758、外镜像.01426/strip.39351仍失败；不与当前g混。准确CK/周期GW/二jet-Hermite接口已纸证，可用长度/外带未付，a″<0非稳定双曲。优先当前旧g。
+备选B=.37另建g211c、仍用原162态f198。leading43638423274的8d9d/b0df1a细η1.174996/κ263.3758、外镜像.01426/strip.39351仍失败；来源全SHA在open/actual note，不与当前g混。CK/周期GW/二jet-Hermite仅接口已证，可用长度/外带未付，a″<0非稳定双曲；优先旧g。
 
 ## 4. 理论已付边界
 
-R37/R45真M0桥/四块闭合、R52完整三阶圆仍非有限等距族。R56完整变系数/全右锚；R70消N³/N²；R71–R80给真第三，R87 W真维36。旧完整原式已保存，不重复编译。
+R37–R52真M0桥/四块闭合与完整三阶圆仍非有限等距族。R56全变系数/同右锚，R70消N³/N²，R87真dimW36；旧原式已存不重编。
 
 **R98结束universal正states P1路线**：权零14/15有理分离使任意正组合4Σℓ>0，R96给同一合法C∞三矩圆及相对开稠密障碍。停止低权/同类states扩张；特殊圆、固定N完整P0+NP1未排。R84真成本是加法半群，倒行V同号，不冒取负。
 
@@ -47,14 +47,14 @@ R114八矩常态rank-one公式、20正态锥E8、8有理基准与整数floor圈/
 
 R104 B σB Bᴿ(σB)ᴿ真frame/位置闭合、M=T0、共同正I，只有周期正则浸入环带；V=2VB+2VσB。R106全递归/移动尾锚给D_j^σ(c)=(-1)^jD_j(-c)，四块D25只余c7/c5/c3/c1；不是完整函数反号，固定全带右锚ruling不消。
 
-R110 K=B_t1τ_p1t1完整8项尾D25=−153664c7/75；R111平移d0/1/2/3的四奇查询det22226400κ⁴≠0，保桥/基准以Brouwer付整个D25(c)，不再重跑此层。R113单轨道各r层耦合/响应上界，R116其他尾查询已扩至15而完整尾与mixed仍欠。R108五history96项14组/十新差式零，常数线性项全保。R93/R97真驱动∫kh=0、K2=L+E=∫hkω=−∫(F/h)kρ、(S²−1)E≥L，history不可独立指定。
+R110完整K尾D25=−153664c7/75；R111四平移/保桥基准/Brouwer已付整个D25(c)，不重跑此层。R116闭四块15尾查询仍未付完整尾/mixed。R108真实五history96项action含常数线性；R93/R97驱动∫kh=0、K2=L+E=∫hkω=−∫(F/h)kρ、(S²−1)E≥L，history不能独立指定。
 
 完整第四period/ruling、更高阶收敛、有限连续族、闭嵌入与宏观reach均未付；有限查询/闭凸锥/半群要分清。文献核对已保原来源：Engman只S1等变，Freese–Weber另要主曲率旋转不变；不外推非轴对称一般刚性。
 
 ## 6. 持续推进
 
 1. R119已付静态非负锥的八矩乘子充要门：正配平成本非负恰∃μ使λL0−μm0≥0。对完整真实路径只必要，λ须杀R8；ambient extension差由矩阵乘子吸收，尚无非零完整正泛函。继续R120真实成本闭锥与R121中央补偿联调，未完成不提前报结论。
-2. tail_cost新静态pure m8 consumer已备，只消费local430根和R116完整尾证书，检查G投影及受约束局部尾商，不重算288列。新源码公开py_compile→toy→actual；完整残差gz/紧凑main。
-3. mechanism实现池先恢复可行的策略；保持原旧源码与失败事实，新的同g/e407/learned3866消费者单独保存并跑新人工→actual。
-4. continuation最多两并行lane。所有新输入有SHA/原run/source绑定，publisher真实pull核规则、gzip后<5MB、终端NFF循环。23:01前再次真实私有pull/QUEUE核对，不重算已成研究仅为sync。
+2. 已部署static_m8_tail_quotient（ea95f138），只消费local430根与R116完整尾证书，检查G及全部静态系数投影，不重算288列；真实M0约束尚未应用，不冒实际商维数。公开py_compile→7toy→actual，240s/1024MiB，完整残差gz。
+3. 已部署curvature_feasible_exchange（库ed77abc3/driver60a3bd66），同g/e407/learned3866，原预算/门不变，先新调度及11输入人工再actual；旧源码不改。
+4. continuation最多两lane；所有输入有SHA/run/source绑定，publisher真实pull核规则、gzip后<5MB、NFF循环。新static lane同job再次私有actual pull/QUEUE核对；完成回执到前仍以22:02/23:01期限记账。
 5. 子题结束接open下一个，不因预算、设施或阶段报告收尾。
