@@ -105,3 +105,7 @@
 - [R133选定显式参数上的实际完整首符号有限部](results/R133-supplement-actual-selected-parameter-first-symbol-finite-part.md)：公开43597209022实际十二门全过，179旧输入/3146原区间/169germ/220T/2root步复用；完整参数费<1.749541157460e−5，−Xi(δ*)/4∈(18.478324305027005,18.478338742519616)。已付显式δ*同伦，实际root finite coefficient、strong与真PDE转移仍独立保留。
 
 - [R133首标量相位后的完整二次norm算术间隙](results/R133-supplement-quadratic-norm-gap-after-first-scalar-phase.md)：已证判别式5整数norm恒等式控制所有四根的高n除子；余下97≤n<2^34以完整CF基有界整数系数穷尽，不扫描几十亿分母。给任意经有向分离的β区间的全n一阶loss条件定理，允许β不小于旧principal间隙；实际root系数和strong仍另付。
+
+### R133 补充：完整已知响应的实际 repair 差源
+
+**已证明。** [实际结果](results/R133-supplement-actual-complete-response-repair-source.md)消费公开43597921732的47个真实通过门：40parts/7721格的完整原算子差和参数列差新L2源<5.597282e−16，完整修复残差L2<.001284069679776281。保新mean残差及未知主部的一阶结构；真实边界、未知high和完整逆继续。
