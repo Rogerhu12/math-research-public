@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** 49c606802184d55ac695f4faa3cd26b1b771cc6d（2026-11-14 22:49:03 UTC，Actions run43650011809实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43650011809-1.json。
+- **最近成功实际 pull 与已读规则提交：** 8c255826feac642a03ed53afc7bcf62c66af0629（2026-11-14 22:56:39 UTC，Actions run43650648403实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43650648403-1.json。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -26,6 +26,8 @@
 - **[真实V10及余三维目标](notes/2026-11-14-r150-five-third-true-ten-dimensional-invariant-space-and-three-target-quotient-789f.md)：** 原run43648025236数学0.156204983秒；救回run43649083239发布adea54ef，原稀疏git add失败已修，无新数学。原五列秩5、合U9秩10且全部属于已核不变U9+P2d9305，等维给真V10=U9+d9305不变；不能说五列自身不变或各列纯2。κ10=H5_9305真cost87/e10=5；(Q/V10)_2维24，旧目标余3维、基2/3/4、J=2I，全九坐标已保存。两张真实/投影基表不同，真实J10需从已成315矩阵运输；未假设F10第一像零。下一197只做新数学，正分支保全原式。
 
 - **[197正分支原来源≤765](notes/2026-11-14-r150-197-third-positive-two-projectors-original-cost765-789f.md)：** (s−2)^5给系数deg≤4；真P=P12·e2度≤196，两次P在原来源中不可合并。三次来源恢复85→181、377→473、669→765；q1改变第三类差准确为−β2_F9(Pk)，用已付相关第二像消，不只援β1零。真V10版本最终解十常数并加κ10a10，无额外p；全部315/free及原p6十七式仍须实际乘回。新H5 NF/trace必须16位次数，正证书尚未运行。
+
+- **197入口执行准备：** [单位Schur helper](notes/2026-11-14-r150-local-jet-unit-schur-helper-789f.py)及接口已冻，保全部10项回填、13自由行、每层checkpoint；尚未执行本次数学。确认all198/inputs/kernels不是原200族，新增old200 run43605503242/artifact14118112895（160817149B，ZIP SHA c11741ca8956e2dda9bb4e1c915d21411c5bda37a8294e5bebafaacb8312a52b）；总7artifact，不重旧数学。root准备下载/发布，normal接原carry/宽trace，lit短时补transport后回固定测试。
 
 ## 实际边界：同一原源与已付预算
 
