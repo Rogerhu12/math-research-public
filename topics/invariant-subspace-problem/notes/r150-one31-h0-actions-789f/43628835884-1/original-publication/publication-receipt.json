@@ -1,0 +1,39 @@
+{
+  "format": "r150-one31-h0-terminal-publication-v1",
+  "status": "pushed",
+  "run_id": "43626632693",
+  "run_attempt": "1",
+  "source_commit": "1ec6d143ed4e6cfc2bb982213f7dd7cb1e7b4dfc",
+  "allowedResultDirectory": "topics/invariant-subspace-problem/notes/r150-one31-h0-actions-789f/43626632693-1",
+  "sharedResearchIndicesEdited": false,
+  "forcePushUsed": false,
+  "rulesAtSource": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "pulls": [
+    {
+      "beforeReadCommit": "1ec6d143ed4e6cfc2bb982213f7dd7cb1e7b4dfc",
+      "originMainAfterPull": "29ff4066555450547ef526559c132fb5255e7d2d",
+      "exitCode": 0,
+      "rulesSHA256": {
+        "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+        "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+      },
+      "rulesDiffer": false,
+      "diffFile": "readme-diff-after-pull-1.patch"
+    }
+  ],
+  "pushes": [
+    {
+      "commit": "e003517c08704e4ef855b14b0fbd34f6406097a0",
+      "exitCode": 0
+    }
+  ],
+  "actualOutputsPreservedBeforeGit": true,
+  "preparedStoredFiles": 46,
+  "preparedOriginalBytes": 22347668,
+  "lastRulesReadCommit": "29ff4066555450547ef526559c132fb5255e7d2d",
+  "publishedCommit": "e003517c08704e4ef855b14b0fbd34f6406097a0",
+  "publishedResultDirectory": "topics/invariant-subspace-problem/notes/r150-one31-h0-actions-789f/43626632693-1"
+}

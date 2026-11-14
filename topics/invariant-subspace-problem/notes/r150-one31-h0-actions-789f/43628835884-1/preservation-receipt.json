@@ -1,0 +1,69 @@
+{
+  "format": "r150-one31-original-cache-preservation-v1",
+  "status": "completed",
+  "original_run_id": 43626632693,
+  "original_recovery_artifact": 14127065361,
+  "original_publication_artifact": 14125984717,
+  "recoveryFilesPreviouslySaved": 21,
+  "actualCacheFilesNowPreserved": 4,
+  "all25RecoveryFilesNowDurablyCovered": true,
+  "mathematicsRecomputed": false,
+  "originalPublishedCommit": "e003517c08704e4ef855b14b0fbd34f6406097a0",
+  "originalRulesReads": [
+    {
+      "beforeReadCommit": "1ec6d143ed4e6cfc2bb982213f7dd7cb1e7b4dfc",
+      "originMainAfterPull": "29ff4066555450547ef526559c132fb5255e7d2d",
+      "exitCode": 0,
+      "rulesSHA256": {
+        "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+        "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+      },
+      "rulesDiffer": false,
+      "diffFile": "readme-diff-after-pull-1.patch"
+    }
+  ],
+  "files": [
+    {
+      "originalRecoveryFile": "stage-cache/image.json",
+      "savedFile": "stage-cache/image.json",
+      "bytes": 813,
+      "sha256": "d0665a4eaf2bbf34be5a0ebd81c69f0fd5be1dc49afb8b7dbf7d91f5dac8df03"
+    },
+    {
+      "originalRecoveryFile": "stage-cache/original.json",
+      "savedFile": "stage-cache/original.json",
+      "bytes": 906,
+      "sha256": "2ba07cf412c0cdbc956f61056b92684e39f04026878b9f6ad309b5d7f461318d"
+    },
+    {
+      "originalRecoveryFile": "stage-cache/source.json",
+      "savedFile": "stage-cache/source.json",
+      "bytes": 1020,
+      "sha256": "e1dcd21f1c979a81944e419ad1978caf67c24b3903eca3ff076643cfceaf4acd"
+    },
+    {
+      "originalRecoveryFile": "stage-cache/transport.json",
+      "savedFile": "stage-cache/transport.json",
+      "bytes": 641,
+      "sha256": "1e814d37e42164e72e2ec17be53f5db9dd99245a8ae35de8f3e595c7b8d0f5aa"
+    },
+    {
+      "originalPublicationFile": "publication-receipt.json",
+      "savedFile": "original-publication/publication-receipt.json",
+      "bytes": 1581,
+      "sha256": "7b8ff20bfded269a66195f629eab09d140a0b0a2af15c830414650ce62ab5c56"
+    },
+    {
+      "originalPublicationFile": "readme-diff-after-pull-1.patch",
+      "savedFile": "original-publication/readme-diff-after-pull-1.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "originalPublicationFile": "terminal-git.log",
+      "savedFile": "original-publication/terminal-git.log",
+      "bytes": 15334,
+      "sha256": "68fcf5d004fdb715b2e969efd14e5db4bc021644c7abbb9ae1021e9d4dadf395"
+    }
+  ]
+}
