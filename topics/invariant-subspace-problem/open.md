@@ -1,7 +1,7 @@
 # 未解决的问题
 
 
-**首低通道：** [原尾birth2全height](notes/2026-11-14-original-tail-birth-two-uniform-strengthened-all-height-bound-789f-next.md)现给显式有限Λ及N≤(Λ/2)kP。辅助常数2的有理反例仍保；下一接口是出生数随尺度增长的一致性与原graph。
+**首低通道：** [原尾birth2全height](notes/2026-11-14-original-tail-birth-two-uniform-strengthened-all-height-bound-789f-next.md)现给显式有限Λ及N≤(Λ/2)kP。辅助常数2的有理反例仍保；[高方差全birth区](notes/2026-11-14-joint-birth-variance-common-slice-gram-and-strengthened-two-bound-789f-next.md)现付V≥2²⁰s²时真实κ2；原尾k≥2²³s²适用。实际短旗s≈k≈q不在该区，原graph相对预算仍开。
 
 ## 主目标与完成标准
 
