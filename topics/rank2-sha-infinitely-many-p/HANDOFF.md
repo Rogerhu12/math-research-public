@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：7505f4de0fb41d5619f06553eaceebb6d7120b98；2026-11-14 08:55:47 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：155fd24869e25928c374db4f2b5eaa406f8a875b；2026-11-14 08:58:26 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。02776e4cd9e08c608f6c806bd1095b3d86453eb4持续执行规则、41bd74e09ab69b38abb61d66c4339a12f0fb7de5日志规则已读；只写课题log，每轮≤5行，不写/归档根LOG。
@@ -14,9 +14,9 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–462已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
+R1–363、R365–463已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
 当前路径`/workspace/scratch/4fe3fb9f2a50/math-research-public`，main部分/稀疏克隆，仅检出本课题。迁入快照含旧R1–436；旧库未推R437、R438及两批完整计算已搬入并发布，旧路径只读历史。
-迁入后R437–458逐条发布记录见课题log；R456范围更正a72491f91294、R458已推a777851ca0c1，R457已推aa0932b6bd40，R459已推58db694381a8，R460已推29deea7bd78e，R461已推ea643525923f，R462本次登记。theta续共同C29的真双S/T混Y关系（R465）；root算固定δ division源（R464），literature续真实q连接范数/混Y约束（R463）；deep续增长径向次数与多因子真接触。
+迁入后R437–458逐条发布记录见课题log；R456范围更正a72491f91294、R458已推a777851ca0c1，R457已推aa0932b6bd40，R459已推58db694381a8，R460已推29deea7bd78e，R461已推ea643525923f，R462已推155fd24869e2，R463本次登记。theta续共同C29的真双S/T混Y关系（R465）；root算固定δ division源（R464），literature续固定互素小同源a=2/γ7（R466）；deep续增长径向次数与多因子真接触。
 
 ## 固定对象、完整标准与可恢复检查点
 
@@ -39,6 +39,8 @@ R458原六行EΓ=aA+sB+C保全部域：Z深首阶5，c深首阶1，双单位主�
 R460同一ρ中Q_C=YhC/Ω−hS+a hH完整实现原q_frame C=C′−S+aH，q_frame=17Θ′/Θ。原tame1移权D_C=Ω^−1∫Y〈Y〉^duνC，质量−a(1+λκ)；连接单位质量−aλ(1+κ)。G=JS−aJH，两真相消环带归一A=εrκ^rD−G、B=εrD−G，det=εr(1−κ^r)unit；式34/35回原整条JS。物理p归一须保式39非零质量修正rℓA_r；完整第一推前不等于原q⊗C独立事件。下一步是真q分布和原混Y来源关系约束这些carry。
 
 R462原两输入反射Q=(1/17)[[−16,−1],[−33,16]]与c反射的乘积A，第m次分母恰17^m；原H33/σ零除子稳定群准确Λ²，故该真实几何轨道无固定有限theta覆盖且无限维。p≠17逐次整运输仍可做，特定Riemann组合可返回；不得把几何轨道免费当实际p-core有限态闭包。
+
+R463真q_frame=17(δζδ−ζ)核心−λ[π0]，原奇C核心−λ[κ]，两个尺度相差barπ0。A=barπ0^n、N=p^n的u_A=δ^(1−N)Θ(Az)/Θ(z)^N，Aq(Az)−Nq=17R_A；独立q⊗C大carry归一b_n=(N/A³−(−1)^n/A)G−17R_A C/A³，G=S−a_C H，完整单位返回分母N−(−1)^nA²为unit。R_A C至少2N−29真极但原点盘整有界；R_A C(Az)全纯degree34N且通常étale全迹0。Norm_[A]u_A=1，原点log=−(N−1)log3/2由其余N−1支补偿。式40全纯新源中央保A[Q_C′+n dlog(barπ0)Q_C(0)]和p^n真实卷积尾；不把全迹或首正矩当中央零。
 
 ## 当前惰性原矩阵与其余开放线
 
