@@ -594,3 +594,5 @@
 - **R688（已证明结构）**：[实际CM商坏处高度的分量交数公式](results/R688-actual-CM-bad-height-graph-equation.md)。保留完整Picard修正与原刚性化，解Ia=d、a(c0)=0即得真实λ_q=a_v/e；Ω按同一分量标签同步求，不需先算η/ℓ的高度。给分母界与κ_v∈Qκ的准确零值判据；2/3实际模型、度数及Ω值仍待算。
 
 - **R686（已证明）**：[原纯p全塔的普通类群准确增长律](results/R686-all-p-power-layers-and-exact-ordinary-class-growth-law.md)。同一Robert祖先逐层精确Norm、socle给完整整单位格，原q的Fr²=[−q]及Norm折叠保持−13i导数；全塔A_Mn=RΓ/π^min(d,42n+1)。若原m<43则以后永久稳定；实际d/m/C/J/b/L仍未计算。
+
+- **R690（已证明）**：[实际2处局部高度恒零](results/R690-actual-two-adic-height-vanishes-via-full-level-cover.md)。完整水平在2处的三条普通分量由实际H6循环等度；每条超奇异椭圆尾上的C3平移与准确Std型迫真实商恒定，全部分量次数为零。完整Picard修正和原截面下降给λ2,h≡0，Ω只剩3处；未求Ω3或p处Λ。
