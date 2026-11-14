@@ -1,0 +1,54 @@
+[
+  {
+    "field": "original_b",
+    "ref": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "31ea0218a53a759b1b052aeb1eb84b3fa5abe9e47d0bf81b72a87779f9fa9e1b",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "file": "condensed-arrays/array-0001-part-0000.npz",
+    "file_sha256": "719fcf5fcf8338881bc4267896342bc1fc3097768e9557ea3544d81585ef79ea",
+    "npy_member": "actual.npy",
+    "npy_header": {
+      "descr": "<f8",
+      "fortran_order": false,
+      "shape": [
+        236036
+      ]
+    },
+    "original_zero_based_row": 155819,
+    "float64le_hex": "522f654d87a5f6bf",
+    "original_stored_value": -1.4154122374775011,
+    "scope": "Single original stored element decoded; no matrix action, product, norm, division, residual or maximum recomputed"
+  },
+  {
+    "field": "final_selected_evidence.action",
+    "ref": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "fd7bb6ff4ebfa75a82ecaa966564df008722f621a3058afd278e2dd3ed148b03",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "file": "condensed-arrays/array-0033-part-0000.npz",
+    "file_sha256": "6a7129cd472f197d78d3c0321dd403c12a5db206c00c238ff05f0e01b1e24385",
+    "npy_member": "actual.npy",
+    "npy_header": {
+      "descr": "<f8",
+      "fortran_order": false,
+      "shape": [
+        236036
+      ]
+    },
+    "original_zero_based_row": 155819,
+    "float64le_hex": "060d7d8a6c33313f",
+    "original_stored_value": 0.00026246452261009833,
+    "scope": "Single original stored element decoded; no matrix action, product, norm, division, residual or maximum recomputed"
+  }
+]

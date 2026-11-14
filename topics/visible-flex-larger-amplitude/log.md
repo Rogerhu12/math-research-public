@@ -557,3 +557,8 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 [根读原结果及即时决定](notes/2026-11-14-actual59-first-full-step-and-continuation.md)：原576新方向全部129248行exact9.686175843129587936…e−11；57限制方向在同原576仍.041773078207401970…。实际alpha1原noJ接受，norm .04177307820740199→.0001289424025918576，118878输入word确变，最坏stage11/raw0seg7/Pi76。1原noJ/0新baseline/J，无新增gate；fullgradient24888563.660…保诊断非认证。selected全原bytes384de298…/cp7659016c…保，但当前仍native=false且最终J/audit未做。61从真实selected每轮freshwithJ与全576 R273eta1继续原solve循环，禁止28缓存改标签及softcut投影。
 
 59完整artifact14132106883/368592441B/e8f48621…已唯一下载SHA/CRC核，重复ZIP删。两个纯stdlib byte reader d57c0114…/69c840dd…及exact接口已全文读+AST登记，不重算动作/范数/分数/候选；完整audit由真实包执行中，此处尚不冒PASS。为共享磁盘保全后续，58已推全审的大payload253件615399860B局部撤，保真实父pair/小件/11observer与原b/Az两NPZ、显式partial marker；公开artifact与完整审计不变。
+
+
+## 2026-11-14 21:17 UTC：actual58最大col行的原保存动作
+
+[原行见证](notes/2026-11-14-actual58-stored-final-direction-at-largest-collocation-row.md)及1730B/8daefd25…回执已全文读，根直接核两原NPZ/header/word：row155819 b=-1.4154122374775011、最终complete-H Az=.00026246452261009833；非LSMR中间方向，原W199.07511842631416非零。原模型对此行本身给很小修正，不能归漏行/零权重或唯一λ原因。代数式b+alphaAz及对应行merit贡献未作本地数值运算，不新增门或重复Actions。60 warm/FD/publication均实际success，完整artifact正下载，具体接受步长/最近拒绝点待完整回读。
