@@ -683,3 +683,7 @@
 ### R292 附录：主参数区出生二的严格左列创新预算
 
 [完整证明](results/R292-appendix-main-parameter-strict-left-s2-column.md)保真实Cform=H0H1⁻¹H0与原非正交源，证明q,L≥3的固定相对birth2/birth1块满足Q*C1Q+L1L2⁻¹L1<I。运行43575194207的两个完整主子式分子为44,149/47,944项、总次数56，全部系数非负且有严格V项；输入哈希、完整日志和最终事件均已回库。只支付更强S2左列，右列/两列之和及主区间完整首边仍继续，不扩成整个物理层的单列定理。
+
+### R291 附录：正最大谱压缩、完整尾理想距离与无carry损失的非纯质量
+
+[完整证明](results/R291-appendix-positive-spectral-compression-and-full-tail-quotient-cost.md)从同一正密度的最大尾谱压缩取得正头矩阵H，部分迹正性给Re H01≥(1−ε)/2−r。真实二次消元多项式有固定常数项锚，得ε≥[128(1+m)]⁻²，实际链liminf m_j√ε_(j+1)≥1/16；m是同一完整尾理想距离，原单位/右源归属保留。任意秩正常态适用，仍无m上界或熵矛盾。[多谱方法边界](notes/2026-11-14-normal-multispectral-unit-anchor-boundary-789f.md)给正秩一近真空例，阻止仅凭正性/有限秩将通用头列消元升级为单位锚，未称该例是湮灭者。

@@ -1,0 +1,20 @@
+{
+  "format": "R150-runner-communication-loss-v1",
+  "observed_at": "2026-11-14T08:48:23.148411+00:00",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": 43568673309,
+  "job_id": 132368030036,
+  "source_commit": "3e20bc53c4e2f4294518429b626d207519e3b53b",
+  "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43568673309/job/132368030036",
+  "characteristic": 0,
+  "coordinates": "original",
+  "status": "completed",
+  "conclusion": "failure",
+  "completed_at": "2026-11-14T08:13:51Z",
+  "mathematical_status": "incomplete; no exact membership certificate observed",
+  "cause": "runner lost communication with the server; specific cause unknown",
+  "failure_annotation": "The hosted runner lost communication with the server. Anything in your workflow that terminates the runner process, starves it for CPU/Memory, or blocks its network access can cause this error.",
+  "job_log_request": "HTTP 404; BlobNotFound at 2026-11-14T08:46:30.2404527Z",
+  "step_metadata": "compute still marked in_progress and downstream preservation/upload pending despite completed failure; no successful final receipt observed",
+  "next_scope": "Do not interpret as non-membership or an identified memory failure; change the algebraic elimination route before a new large computation."
+}
