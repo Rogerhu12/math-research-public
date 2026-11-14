@@ -55,3 +55,5 @@
 - [R25：偶高度外尖出口的reach与投影余量必要界](results/R25-cosine-core-outward-port-budget.md) — 已证完整闭面从向外出口转回前必须占用额外投影距离；p=w时化为两条准确线性高度约束。D下界必要排除与D上预算的保守设计严格分开，未证明封口存在。
 
 - [R26：通用D0简单根的真实局部C4相位开启](results/R26-generic-D0-simple-root-phase-opening.md) — 已将R22推广为W/C′∈(−9/4,−5/4)及显式非退化jet的开条件；两次Fuchs收缩证明实际解析基底与复分支。实际几何尚未通过该比值条件，全局外尾匹配仍缺。
+
+- [R27：D0方程在L简单零点的C3续解唯一性](results/R27-simple-L-zero-C3-phase-rigidity.md) — 不预设接点四阶导数，先由无log发散强制相容式，再用全负Euler谱无权收缩证明全部共享C3 jet的续解自动解析；实支不能在简单L零点启新相位。高阶/全平退化尚待处理。
