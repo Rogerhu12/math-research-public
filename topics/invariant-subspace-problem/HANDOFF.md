@@ -3,10 +3,10 @@
 ## 目标、规则与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子存在定理或完整反例才可收尾。有限模型/候选排除不算完成。
-- **最近成功实际 pull 与已读规则提交：** `bcc5c5f07a6d60f966feaebbb79180b332334d13`（2026-11-14 16:03:01 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `72efd2031273ff12bcb36969fee7d3618da47307`（2026-11-14 16:06:27 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根Astra-ISP-789f独占Git/main与H/open/results/log；代理只写自己的稿。每结论立即推；每推前和至少每小时实际pull，逐次只读两README新差异并立刻遵守。非快进立即pull --rebase再推至成功，不force。
 - 旧库迁移授权已读，只用Rogerhu12/math-research-public；token仅CLI临时环境，不入文件。不改根README/LOG、不问重复授权。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
-- [上一完整H](notes/2026-11-14-handoff-before-second-original-residual-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
+- [上一完整H](notes/2026-11-14-handoff-before-full-spin-jacobi-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
 
 ## 工作区、真实数据与恢复
 
@@ -24,14 +24,15 @@ T96原图/DAG run43597823809恢复在 `/tmp/isp-t96-recovery-789f`，原model补
 
 R293/297全正权/出生/高度加强κ等价奇硬首边同κ，奇→偶全源极限把全偶池统一κ传全部加强高度。真费A_U*L1L3⁻¹L1A_U及倒数桥不可删。出生一κ1024/原尾674/81、五权K2≤743/782、三弱位全三族和旧局部/有限族全精确范围保上一H。有限弱位逐系数法已排，一般共同相位仍开。
 
-- [任意两权全位数](notes/2026-11-14-two-weight-all-size-complete-even-phase-bound-789f-next.md)已付全源Φ≤1，异权等号恰单组spin1/余singlet。[六位三对全权](notes/2026-11-14-three-pairs-all-weight-complete-even-phase-bound-789f-next.md)付整个9维，三个主子式3558项全正、等号维数3/5/9。四位全部分类与固定方向局部界亦已付；一般多权/更高组spin开。
-- [任意多权主spin边界](notes/2026-11-14-arbitrarily-many-weight-dominant-spin-phase-bound-789f-next.md)：若j0=1+Σ其余j，完整有效模块U=0、V一维但全部原多重性保留；真h/g/ell=3π⁻¹(B,C,A)，正log凹密度的自足AB≤4C²给Φ≤1，异有效权严格。[完整空硬源分类](notes/2026-11-14-empty-hard-source-spin-blocks-complete-classification-789f.md)证明V非零/U零恰此主组条件；max q≤Σq/2则有实际中央差乘积primitive。所有空硬源块已付，余有硬源区。
+- 任意两权全位数Φ≤1、六位三对全9维Φ≤1及等号3/5/9已付，全原证明/3558系数保上一H。任意多权主spin j0=1+Σ其余j由真实正log凹Beta矩AB≤4C²支付；[空硬源完整分类](notes/2026-11-14-empty-hard-source-spin-blocks-complete-classification-789f.md)证明已穷尽全部V非零/U零块。余max q≤Σq/2有硬源区域及更高组spin仍开。
 - [平衡主组完整概率](notes/2026-11-14-balanced-star-full-source-beta-binomial-phase-transport-789f-next.md)：q0=Σ其余q，硬源U一维/低源V任意维，真实h/g/ell=c(H/G/L)、q=c(4G+yy*)来自同一Beta–binomial。全部条件噪声、完整硬源回归、均值运输及秩二位移保留；共同正块交叉mn*−G不等于目标HG⁻¹L−2G−yy*，统一κ仍开。
 - [任意三spin完整生成核](notes/2026-11-14-three-spin-all-triangle-full-source-gaussian-generator-789f-next.md)：三角参数(A,B,C)给硬源U一维及完整V维数=正边数≤3。固定3×3Gaussian有理核同时生成h/ell/q及硬源交叉；必须先取同一ABC系数再Schur。任意spin/权全保，统一相位界仍缺。
 - [倒数全谱](notes/2026-11-14-even-phase-reciprocal-transfer-adjoint-and-logarithmic-cubic-cancellation-789f-next.md)给T(z⁻¹)=T(z)*和整源三阶抵消。[完整Hessian](notes/2026-11-14-central-partition-full-hessian-frame-and-phase-ward-block-789f-next.md)：BB*=(s+2)I/3，H=B*gB，h/ell/q全Ward交叉与真换位保留；相位等价A H† C+2H−Q联合块，不以逐坐标Schur替共同逆。
 - Johnson最高两通道非负、首低共同Schur/删位协方差已付，高birth条件均值尚缺。原无限尾算术2严格失败>2.89；正通道尺度2Var/k至160Var/(k+2)已付，均见上一H。
 - [原尾birth2全height](notes/2026-11-14-original-tail-birth-two-uniform-strengthened-all-height-bound-789f-next.md)：b_j=j⁻²，所有x≥2/n≥1整个K2有明确有限κ=(337/162)Λ²。大n>2²¹算术λ=2³⁵，余小高度由head占据幂零完整右逆统一付；并给N≤(Λ/2)kP。全低阶条件Gram/真实Z三切片/原桥保留，不代graph。
-- [全部birth联合方差区](notes/2026-11-14-joint-birth-variance-common-slice-gram-and-strengthened-two-bound-789f-next.md)：同中心E≤s在k±1/k三切片Gram误差ε≤128s/√V；V≥2²⁰s²时真实加强κ≤4698/2401<2，保全低阶和δ桥，只平方同一合同算子。原尾k≥2²³s²适用，condΓ≤[(1+ε)/(1−ε)]2^(2s)(k+1)^(8s)。原短旗birth s=p−r≥q−d+1≈q、k≈q不在此区，不把s当d；继续实际高birth相对Gram。
+- [全部birth联合方差区](notes/2026-11-14-joint-birth-variance-common-slice-gram-and-strengthened-two-bound-789f-next.md)：同中心E≤s三切片Gram误差ε≤128s/√V；V≥2²⁰s²时真实加强κ≤4698/2401<2，保全回归/δ桥/同合同平方。原尾k≥2²³s²适用且有Γ条件数；实际短旗s=p−r≥q−d+1≈q、k≈q不在此区，不能以头长d代s。
+- [完整spin–Jacobi流](notes/2026-11-14-even-phase-full-spin-jacobi-flow-and-boolean-constraints-789f-next.md)：任意偶位/正权，所有磁层的实际A_j/R_j系数由三塔给出。中央X0零对角，相邻X−1保A_j/j；完整指数后取U/J1首块Schur S才给g=S/2。真实J=2hS⁻¹ell−Q−C*M⁻¹C及全部Boolean交换/二次约束保留；未得统一κ。
+
 
 ## R150 原十七式与特征零来源
 

@@ -977,3 +977,7 @@
 ### R150 附录：H0真实第二余量排除全部固定模31初值提升
 
 [完整原式计算及证明](notes/2026-11-14-r150-h25-second-original-residual-obstruction-789f.md)从run43611215116规范X出发，用原A mod29791重新乘回并逐系数作961整除，共享60秒/512MiB内实际19.065773529秒。九列原余/NF/来源trace/完整G商余/全部820与315观察均保；九r2各不在完整第一β二维像，模该像的最小多项式都恰ell=(s−1)(s−2)。显式逐目标dual排全部Y≡X(mod31)且AY=H0T(mod29791)的原6188行来源，允许任意参数次数；不排改变初值、全模961核或带31分母Q解。七份完整gzip原14,621,079字节及全部源码回执已保存核哈希；下一真实δ2须支付kerβ来源的整数校正。
+
+### R297 附录：全部spin的非微扰Jacobi相位与真实Boolean约束
+
+[完整自足推导](notes/2026-11-14-even-phase-full-spin-jacobi-flow-and-boolean-constraints-789f-next.md)在固定物理primitive链上从原d/e三塔直接导出所有磁层系数：X_m同spin为−mA_j/j，邻spin为sqrt(((j+1)²−m²)/(2(j+1)(2j+1)))R_j。中央零对角不允许删除相邻层A_j/j。全部高spin先进入完整指数，再对整个硬源作首Schur S，准确给h/ell/g/q及J=2hS⁻¹ell−Q−C*M⁻¹C。保所有权方向交换、R桥关系与真实平方权二次约束，未以任意Jacobi序列、截断指数或两大项分别界代统一相位预算。

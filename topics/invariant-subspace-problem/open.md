@@ -112,6 +112,8 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **三权任意spin：** [完整固定Gaussian生成核](notes/2026-11-14-three-spin-all-triangle-full-source-gaussian-generator-789f-next.md)已给所有三角模块的全部≤3维低源、两侧度量及完整硬回归；核为固定3×3，spin只进入取系数阶数。须在同一系数层证明相位界，生成函数层Schur不能与取系数互换。
 
+**完整非微扰相位流：** [全部spin Jacobi身份](notes/2026-11-14-even-phase-full-spin-jacobi-flow-and-boolean-constraints-789f-next.md)保m−1非零同spin对角及高spin完整指数；首硬源Schur S给J=2hS⁻¹ell−Q−C*M⁻¹C。尚需控制这一共同差，不能分别估两大项，也不能任取不满足原Boolean约束的Jacobi矩阵。
+
 ## 当前接口三：一般系数行、多个模式与中央域
 
 旧行类、种子/比较/最高字符条件及完整来源保[本次前全文](notes/2026-11-13-handoff-open-before-faithful-vacuum-support-0c.md)。未列旧接口保持原状态。
