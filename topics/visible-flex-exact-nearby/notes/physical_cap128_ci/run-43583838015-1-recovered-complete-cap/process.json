@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_physical128_cap_CI_process",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43583838015",
   "run_attempt": "1",
@@ -124,6 +124,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:19:43.445436+00:00",
+      "before": "a8dd71c07c511b69e359666dd0688574867ee90e",
+      "after": "eb46dcad41d9eb07cdd9a45fdcaf5d7e401484fb",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -151,6 +159,11 @@
       "time": "2026-11-14T10:19:12.417158+00:00",
       "final": false,
       "commit": "5c59303444a195ab567611fc6fe276b8bd469afb"
+    },
+    {
+      "time": "2026-11-14T10:19:42.407223+00:00",
+      "final": false,
+      "commit": "eb46dcad41d9eb07cdd9a45fdcaf5d7e401484fb"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -173,7 +186,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "a8dd71c07c511b69e359666dd0688574867ee90e",
+  "last_read_commit": "eb46dcad41d9eb07cdd9a45fdcaf5d7e401484fb",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cap128-recovery-work/science",
   "original_artifact_outcomes": [
     {
@@ -247,9 +260,15 @@
       1792
     ]
   ],
-  "snapshot_utc": "2026-11-14T10:19:39.420678+00:00",
-  "wall_seconds": 595.8273044360001,
+  "snapshot_utc": "2026-11-14T10:19:44.315215+00:00",
+  "wall_seconds": 600.721838932,
   "native_files": [
+    {
+      "logical_file": "evidence/complete-cap-summary.json",
+      "file": "evidence/complete-cap-summary.json",
+      "bytes": 24383,
+      "sha256": "a9c9d1b881a45feca1b0355982abe9564eb19043c8c576b5c8ad176791ca886a"
+    },
     {
       "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-1024-1280-43580498603-1/process.json",
       "file": "evidence/original-artifacts/visible-exact-cap128-cells-1024-1280-43580498603-1/process.json",
@@ -336,8 +355,18 @@
       "parts": 6
     }
   ],
-  "completed_cells": 185,
+  "completed_cells": 1977,
   "native_sha256": "549fde4f5bf11ecd276e34773de1698fb3e3c386aff2bcf535e66e6ae1e9e865",
   "whole_cap_complete": false,
-  "independent_mean_and_infinite_tails_retained": true
+  "independent_mean_and_infinite_tails_retained": true,
+  "whole_original_cap_complete": true,
+  "complete_native_sha256": "69f55939742b26988690e54b7f5636eb591a351063b93187feeb38c1f6611ebe",
+  "complete_actual_cap_graph_error": {
+    "ball": "[0.00011278288644647993574958147355797422 +/- 3.75e-39]",
+    "lower": "[0.00011278288644647993574958147355797422 +/- 3.75e-39]",
+    "upper": "[0.00011278288644647993574958147355797422 +/- 3.75e-39]",
+    "mid_float": 0.00011278288644647993,
+    "radius_upper_float": 0.0
+  },
+  "finished_utc": "2026-11-14T10:19:42.977710+00:00"
 }
