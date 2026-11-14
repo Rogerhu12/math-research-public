@@ -1,0 +1,78 @@
+{
+  "schema": "visible-new-mechanism-actions-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "source_commit": "87bbd8df6aa4fcbb2a0db463a4bffdfe08be0ce2",
+  "run_id": "43585888368",
+  "run_attempt": "1",
+  "lane": "second_order",
+  "destination": "topics/visible-flex-new-mechanism/notes/actions-43585888368-1-second_order",
+  "design_is_not_fixed_metric_refinement": false,
+  "task_complete": false,
+  "source_files": {
+    "README.md": {
+      "sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "bytes": 8842
+    },
+    "topics/visible-flex-new-mechanism/README.md": {
+      "sha256": "e685cff0e67e6851a7911d4e9efbae0e7d326e093927af177f716f059b8c566b",
+      "bytes": 3725
+    },
+    ".github/workflows/visible-new-mechanism-search.yml": {
+      "sha256": "0ece71b7d1f4900171e8e9064d85074cc97d9ff44cf71c148590b3a04c546c2e",
+      "bytes": 9525
+    },
+    "topics/visible-flex-new-mechanism/scripts/eccentric_collar_search.py": {
+      "sha256": "aba9a55dec98f713433a15a885578c79993005ce6b2df4dd1515271866131489",
+      "bytes": 23325
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_band_seed.py": {
+      "sha256": "fca423bff76d2a5c28d6406349a4217223c8a18f641e7e6307fddf89e75b05e8",
+      "bytes": 10101
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_band_kernel.py": {
+      "sha256": "97d497ca977b679992335a93468490e08e65d328d4b6a4fc2facc7a310520144",
+      "bytes": 16880
+    },
+    "topics/visible-flex-new-mechanism/scripts/mixed_mode_gc_flow.py": {
+      "sha256": "5f979125ed130570e49cd4ad1a7375801c5be95be0abd5dbd0d60ebdf4e5e05a",
+      "bytes": 9580
+    },
+    "topics/visible-flex-new-mechanism/scripts/publish_actions.py": {
+      "sha256": "a537841e39f4e32d1773dad6cdbe8b0872a1ff887f90c79f6911aaf881333697",
+      "bytes": 13124
+    },
+    "topics/visible-flex-new-mechanism/notes/eccentric-search-design-002-curvature-seed.json": {
+      "sha256": "74e963198867c8e97257398449f38e0fcaf4ea73324e44237f5bc1ddcde02b30",
+      "bytes": 18089
+    },
+    "topics/visible-flex-new-mechanism/computations/request.json": {
+      "sha256": "a547cac938972d76322ac12d8d589e946c6e7be425518b76f24ceca99efce702",
+      "bytes": 555
+    }
+  },
+  "outputs": [
+    {
+      "path": "second-order-N384-x64.json",
+      "bytes": 29628,
+      "sha256": "edb70d888c951145b707ae43edd05071e8ef8e00666cce362d0fc7926fdfdfb1",
+      "raw_bytes": 29628,
+      "raw_sha256": "edb70d888c951145b707ae43edd05071e8ef8e00666cce362d0fc7926fdfdfb1"
+    },
+    {
+      "path": "second-order-N768-x96.json",
+      "bytes": 40451,
+      "sha256": "a55ba396985c8096608207969aa7d540ba45e83e78e797b005bb72e551ca5e8e",
+      "raw_bytes": 40451,
+      "raw_sha256": "a55ba396985c8096608207969aa7d540ba45e83e78e797b005bb72e551ca5e8e"
+    }
+  ],
+  "pulls": [
+    {
+      "before": "87bbd8df6aa4fcbb2a0db463a4bffdfe08be0ce2",
+      "after": "92dc75b1c331a21b1f3625bb9a66e136883c2689",
+      "remote_main": "92dc75b1c331a21b1f3625bb9a66e136883c2689",
+      "readmes_unchanged": true
+    }
+  ],
+  "readmes_read_commit": "92dc75b1c331a21b1f3625bb9a66e136883c2689"
+}
