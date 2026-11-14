@@ -238,3 +238,5 @@ Green七端口门43596517945已真实全成、child0，native60e69d61…08f3；�
 显式δ*有限部转移已实际完成：43597209022十二门/child及worker0，见[完整实际区间](results/R133-supplement-actual-selected-parameter-first-symbol-finite-part.md)。179原输入全核，新增参数费<1.749541157460e−5，−Xi(δ*)/4∈(18.478324305027005,18.478338742519616)。此前“转移尚未运行”状态由此结果更新；真实root/positive有限系数、完整strong及真正PDE背景仍欠。
 
 完整ac1→repair已知q*源差已接独立[公开workflow](../../.github/workflows/visible-exact-response-repair-source.yml)及[合同](notes/2026-11-14-R133-complete-response-repair-source-contract.md)。123固定输入中原117逐SHA不变，复用原prepared bundle、40 parts/7721格与完整mean；只算原cubic的完整Bernstein范数和DF/Fν差，保主部mean变化与新非零mean源，未知h不假称L2有界扰动。全[0,25/8]含帽，已知差源最多160模；当前Green源/manifest与5970格不改。尚须实际输出及真cut/腰边界源，再接未知high全反馈。
+
+新增[首相位后完整算术引理](results/R133-supplement-quadratic-norm-gap-after-first-scalar-phase.md)：高n用判别式5整数norm，全部中间整数以CF基有界系数完整覆盖；将独立公开核当前−Xi(δ*)/4候选区间，尚不当作实际完整β。
