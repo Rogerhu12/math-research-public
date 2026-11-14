@@ -41,3 +41,5 @@
 - [R512：原六输入十八阶几何群、完整观测轨道与压深词域](../results/R512-original-geometric-group-and-complete-observation-orbits.md)：实际T/U群准确为C3×S3/order18并给全长正规形、原二维忠实作用；六Y/九W轨道、全部边际与稳定子完整分类。六条Y整轴各有同一whole反射核心，任意正词保实际像格和逆词观察；不与来源核心群96混同，也未新增独立曲线零。
 
 - [R516：原三阶旋转六条共同伴随核与完整词交域](../results/R516-original-rotated-common-companion-cores-and-word-intersections.md)：原Q0/Qb沿真实T旋转给六条保Y/W/W′的χ65λ四态核心，完整三维共同伴随、原六框架及三阶矩阵全部付清。全正词像格与原Y/B平面词逐项交换，交集准确为乘积像格；不把第三正交基的范数或六轴张成自动当其单轴核心，Z/Tc补域仍保。
+
+- [R517：实际切向返回、全Γ转置与分歧二次微分](../results/R517-actual-tangent-return-full-gamma-transpose-and-ramification-differential.md)：同一H2的切向族以最小固定两charge清极返回原列格，另付同D的真实r缓冲门；全Γ整链式给全部精度真实转置，原M/十三行carry完整保留。三normal层的无e分母转置及最高极传送准确给出；forcing二次微分正则不等于其标量属于镜二倍来源，简单分歧极明确保留。
