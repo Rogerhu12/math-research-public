@@ -1,0 +1,17 @@
+{
+  "request": "R710-original-next-Abel-pair-public-01",
+  "result": "R710-next-original-Abel-pair",
+  "prime": 137147,
+  "pinned_sha256": {
+    "arithmetic_source_sha256": "3911788be295069bb32a6b2adcc114296820e6adee227d6308d29914b9d5030c",
+    "original_certificate_sha256": "54fcc49e58f9f53eaf459d2c59379578ed64281874dede30d097e69c115afc05"
+  },
+  "development_certificate_sha256": "6196cccfafd2c7f117d1f3e2ecabf02c584cb1a89b49215a0a8d462a6bdcd5f6",
+  "expected_C_by_weight": {
+    "137147": 80155,
+    "137144": 0,
+    "137141": 117309,
+    "137138": 122674
+  },
+  "scope": "Use only the completed original-z R706 coefficients and exact R697 factorial normalization. No ODE or prime-window repetition. Actual M8 implication is conditional on the proved R705 identity; no height nonvanishing claim."
+}
