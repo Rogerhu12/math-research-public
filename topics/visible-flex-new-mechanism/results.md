@@ -181,3 +181,5 @@
 - [R88：pure第四下一幂尾的准确端点势](results/R88-pure-fourth-subleading-tail-is-an-endpoint-potential.md) — 保真实正交规范局部项和最低第一积分，第4m−8密度准确为Ds[α b0²b1+β b0u1]，M0与常端芽已使端差0，无须T0。看似b′²的能量由第三局部项抵消；actual43636741138真实第一积分及原DAG身份全0（1.762s）；未消4m−7及后阶，未证V符号或零成本环。
 
 - [R89：完整仿射协变、正长度多pair与七维物理族](results/R89-affine-covariance-and-positive-multiple-pair-P1.md) — 真实H²空间相似与x=Hξ+d保全场/全部历史/两mode，T与P1只作profile共轭；跨scalar基点W不变。合法k±1常态A(H,d)恰span7而非8，正p2半空间禁止有符号冒用。多pair独立桥与正整圈权给准确联合P1，连接只添P0；提出(1,0),(1,1)等长新目标，未声称可解。
+
+- [R90：全部常态控制响应的七状态有限系统与正基准成本](results/R90-seven-state-complete-response-and-positive-baseline-system.md) — 明确七个有界有理状态张成全部物理A族，故全响应空间至多252维；有限原始仿射式使基准为有限Laurent(H)/polynomial(d)族。实际配置只能用自身pair的控制，helper正成本必须支付；整数整圈、有理共同放大与实正锥松弛严格分开。提供原式阳性证书与统一正泛函阴性证书条件，未找到共同正锥解或同号泛函，未付P0。
