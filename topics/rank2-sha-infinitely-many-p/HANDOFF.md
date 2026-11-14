@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：6c35c9a7b363b262296b7725427e2455e5a033ae；2026-11-14 23:52:27 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 23:52:11 UTC仍无环境。最迟00:20再试。
+- 最近已读规则提交：aaba97c3242454c983daff2b67565f82ea69c91e；2026-11-14 23:55:34 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 23:55:34 UTC仍无环境。最迟00:20再试。
 - 仅Rogerhu12/math-research-public/main；逐结论提交已授权，禁强推/改历史。每小时实际pull，逐次核两README，仅读差异即执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只临时终端，不入文件/回复。12:35–21:05 API历史已接回；21:39断连后非强制API追加，恢复即实际pull。
@@ -16,16 +16,16 @@
 
 ## 已发布、归档与分工
 
-R1–363、R365–560、R562–619及R622已登记；R364仍开，R561/620/621/623/624进行中。
-完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r618.md)、[open](notes/2026-11-14-open-before-r618.md)；
+R1–363、R365–560、R562–619及R621/622已登记；R364仍开，R561/620/623/624/625/626进行中。
+完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r621.md)、[open](notes/2026-11-14-open-before-r621.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
 
-- theta续R621简单极点完整补域/原中央；R617已付原norm8全环带与同native差首矩，实际反射回I1保全部补偿。
+- theta续R626原Vdeep补域与H核同边界；R621已付P1/P2有限六度补偿，原q/四unit及全部失败支保持。
 - literature续R624原两j0与低残差/Wilson联立；R622已付两层连接，第二Gaussian不添独立中央零。
 - deep续R620截止内同R forcing/全局边界；R612已付原全W_D带权物理核和窗口紧邻固定出口，不能代旧d2。
-- root续R623真实同格成本；R618已付原第二Gaussian精确半径/全系数及完整Newton高尾，未去Gaussian原S半径保持。
+- root续R623两Gaussian实际野域/原成本，接R625；R618精确第二半径已付，未去Gaussian原S半径保持。
 
 ## 原固定对象与不可删的支线
 
@@ -38,12 +38,14 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 
 ## 普通全算术与真实余补
 
-R567[完整中央纠正](notes/2026-11-14-r567-native-versus-full-arithmetic-correction.md)始终有效，J′零不赋native N/I4/I1零。R533/540/549全角色/地点/Schwartz/周期，R557–590全部π4/Dn、M3/C3、Θ质量/六矩、八条带/四深−3I/双S2、κ/log/cut保前检；Dn不降π5。
-R594原9×20右逆的新q̃使同Dn的ρ/B/差v=n；六网格降Rn={Zunit,Q/r/c/d深n}。旧q/η/L3值不移，B质量/外矩形保留；R599完整E=β^-n(O+K)=T−Rn在新旧q间不变，T=J′S−6δJ′T。
-R601全Q两张量、Y一层/W四层负交换与15维谱保持：S/2、两参考、四外块全在，新E2312线0；S伴随不与切集交换。R605真实T=𝒞Rn+Hn+Cout，删固定F稀疏坏集才𝒞unit，相邻差回I1，不删Cout/七coset。
-R611全三sigma反射τ使τ*νflat=−νflat，真τRn在三域外；同深g=ℓτ−cτℓ消负三且负五/1+cτ全rayunit。τ不保π4，整(w_nℓ)τ及Fτ/Gτ/全部余补保持。
-R613同C两carry交域Xn={A,L深n,Hunit}，整36/396中心给K_A=X、K_H=−χX、K_L=−I，χ11=χ33保原模11。两重叠域经H连续整逆回T；native全D/E/G/Y/W移动另保。独占支准确为重叠域上的完整差测试，旧非零子管不代全域。R617原norm8 R=(W−Y)/2保同C两carry，完整偶深环带及真实差测试全付；首矩6Ωx²yσ⁸给简单极点P。两个全native环带提P，同深反射以epspole全rayunit回I1，完整Bpole/各单位cut/λκ保留，中央0不赋环带或P零。
-[固定CM单位](notes/2026-11-14-fixed-cm-polynomial-unit-density.md)只给固定λκ有限式的O(√XlogX)坏集；[负五Katz](notes/2026-11-14-original-negative-five-katz-point.md)仍root−、I1未获非零，不套p依赖负矩。
+全部旧域、角色、地点/Schwartz/周期、质量和参考差保最新完整前检。R567原中央纠正始终有效，J′零不赋native N/I4/I1零；Dn不降π5。
+R594原9×20右逆只删固定D594，q̃使同Dn原ρ/B/差v=n，六网格降Rn={Zunit,Q/r/c/d深n}；旧q/η/L3局部值不移。R599完整E=β^-n(O+K)=T−Rn在新旧q不变，T=J′S−6δJ′T，B质量/外矩形仍在。
+R601全Q双张量、Y一层/W四层负交换和15维谱保S/2、两参考、四外块；E2312线0，伴随不与切集交换。R605 T=𝒞Rn+Hn+Cout，固定F稀疏坏集删后𝒞unit，相邻差回I1；Cout/七coset保持。
+R611三sigma反射τ为原νflat负对称，同深ℓτ−cτℓ消负三、负五和总系数全rayunit；τ不保π4，整(w_nℓ)τ/Fτ/Gτ/全部余补不删。
+R613同C两carry交域Xn={A,L深n,Hunit}，整36/396二态K_A=X、K_H=−χX、K_L=−I，χ11=χ33。两相邻重叠域经完整H逆回T；native D/E/G/Y/W移动和独占全域=重叠差测试保持，非零子管不代总积分。
+R617原norm8 R=(W−Y)/2保carry，全部偶深环带/实际差测试保q/λκ；首矩6Ωx²yσ⁸给简单极点P1，两个全native环带提P1/P2。同深反射epspole全rayunit回I1，完整Bpole不删。
+R621保同B_C⊗σ及原F_B六度核：P1=−36bKΩ5 I1+B1，P2=−12αΩ5 I1+B2；两固定系数全rayunit，αP1−3bK P2消I1。Bk严格三域Hdeep/Vunit、Hunit/Vdeep、H/Vunit有限余项；原四unit及三失败支、全部同q的D/E/G/CM相位保持。两native全环带和完整Bpole单位联立，中央0只令T0，不赋P/Bk零。
+固定CM单位稀疏引理只用于固定λκ有限式；负五Katz仍root−、I1未获非零，不能套p依赖负矩。
 
 ## 惰性全格、实际整目标与完整中央
 

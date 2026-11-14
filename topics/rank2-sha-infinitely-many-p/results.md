@@ -83,3 +83,6 @@
 
 
 - [R597同一Euler列与第三尾联动](notes/2026-11-14-r597-actual-euler-pivot-and-third-tail-coupling.md)：ell2/c3且β0unit时，原R→R+cP gauge后由同格EP清第三尾；第二块必须同改为Ψ1−2z1°B/c1。剩余来源为实际ker(π2E²)，保同一个R、全carry和两十三行，尚未证明指定像非零。
+
+
+- [R621：原六度有限极点补偿与同中央边界](results/R621-original-six-degree-finite-pole-compensation.md)：同一B_C⊗σ完整六度核与真实低矩给P1=−36bKΩ5I1+B1、P2=−12αΩ5I1+B2；全部三类真补偿、原四unit失败支、同q/CM相位保持。两个native环带消I1并接完整Bpole单位关系，未给余补赋零或替换原四unit测试。
