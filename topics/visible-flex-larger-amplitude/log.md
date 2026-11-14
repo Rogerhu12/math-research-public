@@ -450,3 +450,9 @@ root已读两完整源和接口、取件器及独立workflow；只有本地AST/Y
 ## 2026-11-14 19:35:51 UTC /root — actual50候选精度与完整工作数组
 
 [候选原件记录](notes/2026-11-14-actual-request50-candidate-precision-and-bytes.md)补齐实际x87 binary80/64有效位身份。全49数组22767392B/1524210元素、43工作数组7930284 padding bytes全0，52处descriptor和两226×224 full→shape/mean原切片全部匹配；仅byte核，无本地cast/RK/norm。两候选合计1.003485938s不能拆成各自时间，不冒binary128/连续DF。51已实际run43632815810/sourcebd3fc94a…，52全868 direct-LD及一致新系统源码继续并行。
+
+## 2026-11-14 19:49:23 UTC /root — actual51完整结果与request52一致新矩阵
+
+[51完整实际结论](notes/2026-11-14-actual-request51-fifteen-query-and-working-row-budget.md)：α1/8接受，本轮merit44.20135024608698→44.115161170653145；最近1/4原mid481与已经建模的482均拒，线性全30720预测仍正。QP256工作行到限，worstleft475/angle109未入集，局部radial.91337395，最终stationarity363.2001，完整H相对残差9.44869e−16。137domain NPZ880数组、全部38凝聚向量/observer/父链/44源、14raw217496448B完整byte核；FD7.186294196742241e−10仍仿射零锚，不冒native或完整BVP。下一53同15从真实51pair，只把工作行上限增512。
+
+52新的868 direct-LD块+504原块完整1372系统与原十trial已接独立workflow，实际newresult SHA运行后才绑定。原28/41完整包与78公开source固定；原非J数组/577restriction/原十alpha、guard与norm接受不变，不加exact线性门。root已读8新源/接口/差异，16pins/AST/Node/YAML/13bash/4内嵌Python静态通过，没有本地科学。全部新数组及失败输出先artifact后有界publication。当前未运行52，不把代码与单块改善写成新方向接受。

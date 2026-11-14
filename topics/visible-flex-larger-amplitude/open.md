@@ -23,11 +23,13 @@
 | [actual45完整局部QP](notes/2026-11-14-actual-request45-condensed-QP-and-midpoint482-limit.md) | 12query/24576行、局部4397；同f H43.8582164优C44.2768871，α1/32真下降；最近拒绝仅mid482 | 完整数组/父链与14root raw已审，已接48 |
 | [actual48](notes/2026-11-14-actual-request48-thirteen-query-and-left-RMS482-limit.md) | 加mid482→13query/26624行/4735局部；H43.8445468优C44.2514049，α1/256才真下降 | 最近五档13选定网格/node/mid均好，完整left-RMS482拒；据此接49 |
 
-**当前父actual49已完成**：run43631235905/source d5c99bef58700db0da1a3de2faba3e94d60b1dc1/job132558124307。[完整14-query实际结论](notes/2026-11-14-actual-request49-fourteen-query-and-left-RMS469-limit.md)保全部5次真实试步和原17档allowance。H43.8430803优C44.2483141，α1/16真降.0497123440，col.0071101678278726824/BC7.177739211877821e−8；新FD7.070190461766486e−10，仍非BVP/native。最近1/4、1/8 node/mid/全部14grid合法且merit真降，唯一原left-RMS469失败；1/8 β²−.2951240357733671、φ0。
+[actual49完整14-query](notes/2026-11-14-actual-request49-fourteen-query-and-left-RMS469-limit.md)接受α1/16，最近仅left469拒，已据此派51，原件/完整audit保留。
 
-新父warm SHA c0d9c6d59e16ef1482f8ee60f9681d8db089b21d68e249adf1830df03be6612b；原status SHA e22fd03b8c24adbd0eeeaf0b084d18944d17e4cd1f4115075cb63d9e9a41aad7，原991791B公开为.json。128domain NPZ/822数组、38凝聚全向量、observer/42源/完整父48链及14raw190956688B已纯字节核；完整factor仍未导出不冒独审。
+**当前父actual51完成**：run43632815810/source bd3fc94a6092313313daf607328a9695e80c17f4；[15-query完整实际结论](notes/2026-11-14-actual-request51-fifteen-query-and-working-row-budget.md)。B30720行/5073完整支撑，C仍4059/全部outside；H43.81886248优C44.19965648，α1/8真降.08618907543，col.007110002311305403/BC6.280522697136224e−8/FD7.186294196742241e−10，非完整BVP/native。
 
-**51运行中：run43632815810/source bd3fc94a6092313313daf607328a9695e80c17f4**：仅加实际left-RMS469的完整2048行，保全部14已选query→15query30720行，B完整支撑469..483+p5073；原C仍471..482+p4059与完整outside offset。原R270动态库、600s候选/256行/200sweeps、λ270/LSMR200/C200、原17trial/两RMS/rho/merit/FD保持。只从当前49pair继续，三源及[15-query接口](notes/2026-11-14-fifteen-query-condensed-warm-interface.md)已冻；沿原唯一condensed request触发，不猜下一限制或盲串旧14。
+最近1/4被原mid481和已建模mid482拒：后者实际β²−.00329335812，而全部线性预测仍正，因此不把所有问题说成漏query。同时QP256行到限，原left475/angle109未入working set且worstrelative.0948418，修复radial.91337395、最终stationarity363.2001/gap.9054199。完整H相对残差9.44869e−16；小pre-repair localstationarity不冒最终完整最优性。
+
+**下一53待派**：从51自身schema双SHA继续，唯一工作预算max-working256→512；保全部15query、dual200、600s候选/1200s总、λ270/LSMR200/C200/原17trial和FD，不先加mid481。新warm b6620a0ce55be257fc58c29e88187cc602ad08b46c4424903ffddc003b5b1595；原status267451f8eb91ca568ff187bfb39dbd32b22ca844788e1e88165910190ad6f685，1051960B公开gzip须解压核原bytes。137domain NPZ880数组、38全凝聚向量、observer/44源/完整父49链、14raw217496448B已byte核，完整factor未导出。后继须看实际slack/repair/最近拒绝，不预设大步成功。
 
 ### 1B. Native：先分清保存矩阵、传播与求解误差
 
@@ -45,7 +47,7 @@
 
 **50完整参考已完成**：run43632067148/source d843fb1dcc8cb4b80e54956d98f8076a9c1398c5。[完整结论](notes/2026-11-14-actual50-complete-rational-RK-reference-and-covariant-comparison.md)给全部226×224 exact/RN、两个实际候选及三原方向。完整诱导∞误差old.015556918699475、direct-LD7.16812143047472e−6、R271-LD9.19526116149051e−6、RN3.36115669446251e−6；direct完整∞/F²优于R271，R271在特定旧43方向反而较小，不混指标。RN原σ下map差仍3.97095e21，这不是新stage residual。所有三prior action精确记录一致，21原输出完整SHA/CRC审计保范围；working实际64有效位非binary128。[候选完整原件](notes/2026-11-14-actual-request50-candidate-precision-and-bytes.md)另核49数组22767392B、全部x87填充和52处descriptor/原切片。输入只固定47原artifact，没有新RHS/J/ODE/native。
 
-**52准备中，未调度**：由50实据选择直接LD作为下一实际形成方法。geometry从41每个完整原226起点取原四A并流式保新全部868 J/mean及原state/field/port身份；不重整尾或旧576长J，四A可由源/原state再现，无需为机械核验存1.4GB中间raw。exact接新868+原504块的新1372系统，原base/r/σ/cut/far/577restriction不变；新identity后一致重解和原尺度完整exact残差读回，随后仍原非线性十trial。单步结果不能冒另867步或全方向已验证。
+**52已配置并由本次推送触发，真实run待登记**：独立directld workflow/唯一request；从原28/41固定完整包与78公开源，原868已存完整226起点重放四原local A，按冻结50 direct_rk形成868新J/mean。新adapter明确替868块、复用504原块，原1372 base/r/σ/cut/far/H和577限制不变，形成唯一新矩阵identity。完整原均衡LU+3轮预算exact修正后，直接用同方向577限制运行原十alpha/noJ/全部guard/严格原norm下降；不以新线性残差另设trial门。三接口：[capture](notes/2026-11-14-rawcell0-direct-longdouble-capture-interface.md)、[完整系统](notes/2026-11-14-direct-LD-complete1372-system-interface.md)、[原trial接线](notes/2026-11-14-direct-LD-original-ten-trial-interface.md)。原四A可再现不存1.4GB冗余；全部新J/mean/方向/失败证据artifact保。真实accepted还须继续原native最终门，不能当课题完成。
 
 原step与G的十trial组件已完成：直接消费正确producer的保存方向，保原十alpha/完整evaluate(false)/原guard/原σ严格下降，首接受保全state后STOP。它们不重形成G/J，当前未派43坏方向，也不冒native完成。
 
