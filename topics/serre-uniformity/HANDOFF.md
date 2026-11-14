@@ -4,8 +4,8 @@
 
 证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，持续研究，不等阶段回复。** 会话 serre-public-resume-20261114；日志 Asia/Taipei。
 
-已读规则提交：05e0f9795f53c8ae415c30d44ce1dfbac16cf8ae
-最近实际 pull：2026-11-14 17:14:29 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
+已读规则提交：b4f22359f0c1c06ccbd26a5104119e2ecb4f9098
+最近实际 pull：2026-11-14 17:15:36 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
 
 仅在 Rogerhu12/math-research-public 工作；本仓库 Actions 执行长计算，旧“停用公开runner/转本地”的说明作废。终端 commit/push main 已授权；每条结论推送前 pull，非快进 pull --rebase 再推，不 force。令牌仅 CLI 临时环境。根代理独占 tracked/git；辅助目录 agent-cartier/、agent-global/、agent-o6/ 在仓库外。Markdown<100KB，HANDOFF<10KB，open/README<30KB，文件<5MB，数据>1MB gzip。
 
@@ -63,4 +63,4 @@ R594已恢复全p形式log分解、Kp=−3/Bp及p269宽范围反例；45末项�
 
 范围不可删：269≡8mod9不属R317，c0/c1不同；primitive零点不等于正秩QC零点。R595的Δ末因子勘误有效；R601给K0=K2=0，R605给K1=−B²r2/4及(pM2)²≡5184ζ²B⁵α⁻²r2r3。R658给v(M2)=−1 iff Cp·r3≠0；整性和短计算不给全p非消失。原O6未知量也不以纯p值24或10替代。
 
-本轮须从已保存189/182位前缀恢复R620/R621；R655双CM4的未保存后缀重算。真实前缀/新R470接口见notes/RUN20261114-handoff-manifest.json，R666–R681尚未算完。root:O5/Actions/git；global:R682首项；cartier:原Cp·C_(p−3)非消失；O6:R599/R684。主目标完成前持续研究。
+R620/R621已接入本仓库serre-p41-prefix-recovery.yml，从保存189/182位续算，结果见computations/及Actions；R655双CM4的未保存后缀重算。真实前缀/新R470接口见notes/RUN20261114-handoff-manifest.json，R666–R681尚未算完。root:O5/Actions/git；global:R682首项；cartier:原Cp·C_(p−3)非消失；O6:R599/R684。主目标完成前持续研究。

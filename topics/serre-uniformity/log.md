@@ -327,3 +327,9 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 保留同一χ、周期、全部inverse-sigma及O处消差，得实际r3=−27cB³C_(p−3)和原M2准确乘积常数。
 - k38/44精确有理计算分别与p41/47原r3一致；证明已读，BK Theorem1.17原文无该奇偶限制。
 - 全p的Cp·C_(p−3)非消失、c0系数及实际全局高度仍OPEN，继续这些缺口。
+
+## 2026-11-14 17:15 Asia/Taipei · serre-public-resume-20261114
+- 新增 .github/workflows/serre-p41-prefix-recovery.yml，为本题 R620/R621 恢复公开 Actions 计算；这是本课题外的共享设施修改。
+- 原189/182位前缀保持不变，仅续缺失后缀，随后同链求真实F2及必要F3；输出归本公开仓库。
+- R620恢复290个已保存文件的SHA全部匹配，源码语法与差异检查通过；未以准备成功宣称新圆盘排除。
+- 公开作业最多两并发，完整产物保留Actions artifact，合规小文件和manifest普通git回推，非快进自动rebase。
