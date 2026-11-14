@@ -712,3 +712,7 @@ run43612331803/sourcef4896bba/job132499878558全success；artifact14120947020/14
 ### 2026-11-14 actual28：完整原native线性缺陷首次保全
 
 run43611175099/source6bd52b44/job132496373274诊断全success；artifact14120548264/235561097B/ZIP0ff8e6f5…已取核。原withJac基态完全复现25 norm.0417730782/minA/minD，原correction后按计划STOP，one request/0trial/无完整cut J或audit接受。29数组/116chunks/238972680B及22小输出逐字节核，全J231211008B SHA394ca2cc…、全delta d3734cf4…保全。原尺度浮点stage缺陷最大7.3718085303337e40，stage43/raw0/seg3/Pi110，cut/far0；原delta最大3.06634e26，maxchart亦stage43/8.81095e59。此为完整原有限模型的实际float诊断，非exact binary defect或fullA condition。actual28 note完整登记，下一只用保存同J作原σ下pivot band重解及最坏行精确rational读数，不重复J或旧十trial。
+
+### 2026-11-14 request30：原C候选与完整H候选作同模型实测比较
+
+独立warm8fb6411e…/FDa24f2e52…与接口全文读，helper d5e9432e…不变。锁actual29 warm f2e999e7…及status a24ebbe3…原字节；原七query唯一A/B/LSMR/C投影仍执行，完整H额外候选同f择优、原C作真实后备，全部原A/B/slack/gdot和最终完整梯度/μ/r/R267后验另重读。保29只读observer、原17回溯/所有域及新FD，未增加mid约束或native。root静态修正进度字典重复event会抛TypeError的具体接线错误；只有新入口与接口SHA改变。显式总1200s/fullH600s/reserve180s、H≤1200；full-H-arrays大阵仅artifact，完整manifest/input/source/hash入Git。三lane名单、父输入、AST及路径核完，无本地科学执行。

@@ -82,3 +82,5 @@ request29/observedseven已接推送，从实际27 f73dfc81…继续同一七quer
 request29已全success，见[真实中点定位与下降](notes/2026-11-14-actual-request29-observed-seven-query-warm.md)。新warm f2e999e7…，α2^-6实降.0117314373、新FD9.265e−10；仍col.0071104411/BC8.857e−8/native0。最近拒绝2^-5为原midpoint473（s1.2018391887397941）β²10角负/min−.1615288168，七left-RMS全部2048角正；更大2^-3/2^-2还有mid477。原observer不改flags/vector字节，16 NPZ/48数组核完。下一从同新warm并行完整H同七query与九query（七原RMS+原mid473/477）候选，必须按原middle/mid字节与完整原J/P链，保全部原门。
 
 request28已完整捕获，见[原校正实际线性缺陷](notes/2026-11-14-actual-request28-native-linear-defect.md)。原基态norm.0417730782未变；原校正全部stage原σ浮点缺陷最大7.3718085303337e40在stage43/Pi110，cut/far0，无nonfinite，原delta最大3.06634e26。全J/δ/原尺度/全部29数组均逐chunk/hash保全，0trial且无native接受。下一直接复用同完整A作带pivot重解、回原方程读全e并在Actions内对保存原worst及新worst行作精确binary-rational检查；不凭chart condition推fullA奇异，不重算原J。
+
+request30/fullhprojection已接推送：actual29 warm/status双SHA锁定，同七RMS完整模型保原C可行方向，并以原全H的有限子空间候选作同f实际比较；新选向重读全A/B/完整梯度/μ/r/slack与R267多点后验，全部原回溯/域/observer/新FD保持。预算总1200s、H额外600s且留180s原trial/保全；大数组仅artifact。详[完整H实际接线](notes/2026-11-14-full-metric-warm-and-response-interface.md)。另九query实际中点支线独立准备，不混入此模型。

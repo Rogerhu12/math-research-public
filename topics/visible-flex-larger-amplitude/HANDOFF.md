@@ -28,7 +28,7 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 λ270/200 LSMR80步istop2；C-Hildreth200未收敛，118负slack经.7538402992径向修成全正(min1.249e−16)，同f线段τ1。gdot−.7367477675/模型Delta.4609612920，完整gradient275926/零dual E522190不冒QP最优。R267可用同模型raw完整gradient345.4571给另一证据点，29未算新比例。
 实际α1/64全部原node/mid/两RMS/rho过，同一固定权重merit44.382936021255084→44.37120458393527，drop.011731437319816962/ratio1.0217222253。col.007110441077777405/BC8.857150198345718e−8仍非解，native0。新warm `notes/public-actions-43612331803-1-observedseven/observed-seven-warm/warm-001.json.gz` SHA f2e999e7c61d28683dc09adf387e0867b2dd36d271ebe0433fafbec68466fbd9；status a24ebbe3d39d64d7676754c67fc56589652bf6fcd31c93c7eca97e1641bebde4。新完整Rφ FD9.265212545800078e−10过原5e−5，112 H保留（首项2.3206841035345475e−14）。不同模型权重刷新，merit不可跨轮相减。
 最近拒绝1/32仅原midpoint473，s1.2018391887397941，finite middle/非finite RHS、β²10角负/min−.1615288168在index22；七RMS全角正。1/8、1/4还坏mid477，其他更大步坏点详原件。9条observer finite/vector字节未变；16 NPZ/48原数组核，无附加异常；未重算wholeflow/J。
-下一同29父场并行：完整H helper d5e9432e…/full-metric-inequality-correction接口已全文读冻结，完整H仅C预条件，≤32工作行/34全局基/1200 H动作、全原梯度/R267多点下界，原C方向作同f后备；另做九query=七原left-RMS+真正mid473/477各全2048。中点基点/站点必须直接state.middle/problem.mid字节，完整原两端J/P/入口core/global p链，已有11node捕获可复用。两支均保29只读observer、原17trial/全部域与新FD，无QP最优或native接受冒称。
+下一同29父场并行：30/fullhprojection源8fb6411e…/FDa24f2e52…已读接push，helper d5e9432e…，完整H仅C预条件，≤32工作行/34全局基/1200 H动作、全原梯度/R267多点下界，原C方向作同f后备；另做九query=七原left-RMS+真正mid473/477各全2048。中点基点/站点必须直接state.middle/problem.mid字节，完整原两端J/P/入口core/global p链，已有11node捕获可复用。两支均保29只读observer、原17trial/全部域与新FD，无QP最优或native接受冒称。
 
 ### Native：28完整原线性缺陷已保，接同矩阵带pivot重解
 
