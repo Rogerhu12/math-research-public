@@ -298,6 +298,18 @@ jobs:
             --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_TRUST_WARM" \
             --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
             --tail-config "$VISIBLE_OUT/T112-config.json" --out "$VISIBLE_OUT/physical-response" --angles 4096
+      - name: Preserve the actual warm and derivative receipt before the native tail solve
+        if: always() && matrix.lane == 'coupling112trust'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-mainline-warm-${{ matrix.lane }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/visible-mainline/${{ matrix.lane }}/constrained-warm/
+            ${{ runner.temp }}/visible-mainline/${{ matrix.lane }}/physical-response/
+            ${{ runner.temp }}/visible-mainline/${{ matrix.lane }}/T112-config.json
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn
       - name: Refine only the last bridge using the original analytic seed and inspect actual local blocks
         if: matrix.lane == 'coupling112bridge'
         timeout-minutes: 35

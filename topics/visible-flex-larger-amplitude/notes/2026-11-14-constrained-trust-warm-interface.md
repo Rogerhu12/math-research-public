@@ -73,3 +73,7 @@ python geometry_20261114_constrained_trust_response.py \
 | constrained_trust_response | `7eafda68979356aa0d39ed8110c47077ccbde23a3caa0c58f8b3fddf94bc9f78` |
 
 完整有限代数的证明见 [R256](../results/R256-exact-constraint-collocation-and-damped-descent.md)。共享workflow从真实状态文件读取最新warm并核SHA，再接真实FD/原fullDN/after_accept/R249。publisher的非快进去掉旧30次截断，按用户要求立即pull/rebase/普通push至成功；其他Git错误或README变化明确报告并保全原件，不强推。
+
+## Native tail 前独立保全 warm
+
+后续 `coupling112trust` workflow 在 warm/实际FD步骤之后、native fullDN之前，额外上传 warm目录、完整FD回执及实际T112-config 到独立 `visible-mainline-warm-...` artifact。即使后面的新H原生尾耗时较长，已经产生的真实下降场也能及时取回、核SHA和续接；原最终完整artifact/publisher仍保留。该保存步骤用always执行，不改变warm/fullDN接受状态或任何数值源。它不会回填已经启动的request17旧workflow，也没有为取得日志重跑当前求解。

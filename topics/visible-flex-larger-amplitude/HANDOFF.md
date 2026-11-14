@@ -35,7 +35,7 @@ request10/11旧Rθ QR/band及12 P/方向诊断：相对线残差.91333/3.27382e�
 
 run43598917532/source4b8b2bfdd417f76574dcc2a8e2353c4c2dce3e21（13:16:20Z）、job132459290659。实际19步warm于13:27:47Z success，20步真实FD于13:28:09Z success；29步原fullDN自13:28:09Z运行。尚无terminal数值/新接受；不把步骤success冒联解成功。
 三独立源及SHA/CLI见constrained-trust-warm-interface。原699 exact入口/常数chart：698×338physical+109自由core+3p；入口由c构造，各节点同c/p，原常数ODE/左BC恒等满足，保全部physical collocation/112 Rφ，零点与原问题等价。矩形matvec/rmatvec+正阻尼LSMR，无正规方程；core权重含t_m=−2mc_m额外频率。真实midpoint重算原RHS，固定Wr merit/实际gdot/预测比/域和RMS逐trial记录；warm永不accepted。
-本次3模型/80 LSMR步/1200s初猜预算；新warmFD后自动原fullDN、真实H尾、RMS1e−6/BC1e−11/冻结物理/最终fresh audit，接受后原闭合/R249。原三求解源冻结；--resume允许续实际warm，但须核producer SHA，不能把改源后resume等同原身份。geometry的full-newton-domain-and-sobolev-step仅备选过滤Newton，当前未采用。
+本次3模型/80 LSMR步/1200s初猜预算；新warmFD后自动原fullDN、真实H尾、RMS1e−6/BC1e−11/冻结物理/最终fresh audit，接受后原闭合/R249。后续workflow已加native前warm/FD独立artifact（不回填当前17）。原三求解源冻结；--resume允许续实际warm，但须核producer SHA，不能把改源后resume等同原身份。geometry的full-newton-domain-and-sobolev-step仅备选过滤Newton，当前未采用。
 另备用：R259小core直线homotopy/完整尾Schur及条件IFT已证，amplitude写真实圆collocation低3传输诊断，未调度；直线三重匹配不是所有路径门，λ^j须分阶处理。geometry分析finiteGauss a/ap真实兼容性R260。R258同场消费者已冻结，尚无实际父场/执行。
 
 ## 尾、闭合、同g精化
