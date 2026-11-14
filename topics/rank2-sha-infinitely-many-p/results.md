@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R487：原CM混管、共同两态核心与参考非齐次carry](results/R487-original-cm-mixed-tubes-and-common-core-reference-carry.md)：完整展开原五伴随CM并保全部平移与中心相位，固定兼容ray上给同一旧W两态核心；参考两个单位质量及消未知导数的环带差均非零。原投影的216条移动管和全部差项准确保留，齐次三曲线行尚未消这些carry。
+
 - [R489：原同修正的F²双jet真像与两顶极系数](results/R489-actual-double-curve-joint-jets-and-two-leading-poles.md)：连续2b实际charge给厚化完整限制及值/法向两个联合满射界；界外精确对偶还须由其他原列筛成真左行。单位−2/5指定对准确读两最高极系数组合与真实仿射基准，保原carry且未覆盖最坏高b临界窗。
 
 - [R486：分级零权整连接、十三权清极与原齐次第三核](results/R486-graded-integral-connection-and-actual-homogeneous-third-kernels.md)：按权对数连接零增权，真实水平核/全特征核及加一整可逆门全付；十三权给全局清极形式。原物理式保两个混权电荷及conductor/全部carry，得到同预算p²左右提升配对和单齐次实际Smith，未删除混权抵消。

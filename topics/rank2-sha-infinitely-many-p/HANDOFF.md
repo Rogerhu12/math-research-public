@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：d2871fff2946842660defb43b6ac635438dd0ef0；2026-11-14 11:28:43 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：e41c478ed6565bd786942290c52dc30dfac5b916；2026-11-14 11:37:17 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - bc04092b规则差异已读：根1/13将“六个课题”改为上表课题，新增另课题；不影响本课题范围与完成标准。
@@ -15,8 +15,8 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–486、R489已登记，R364仍开。未推丢失的R235/R237及迁移R437/R438已全部重做发布。最近R486=fd4247ce、R485=be844109、R483=7431df35；R489本次登记。完整提交见课题log。
-仅在`/workspace/scratch/4fe3fb9f2a50/math-research-public`的main工作；旧库只读，overlay满后完整移到`/tmp/rank2-old-repo-4fe3fb9f2a50`并保原路径symlink，未删历史。代理只写自己证明/脚本，root统一元数据与逐条push。theta续R488共同A odd29真实核心；literature续R487原五伴随CM/旧W混管；deep续R491真双jet对偶行与原ODE；root续R490真实degree26因子与完整连接。
+R1–363、R365–487、R489已登记，R364仍开。未推丢失的R235/R237及迁移R437/R438已全部重做发布。最近R486=fd4247ce、R485=be844109、R483=7431df35；R489=4d617c4a；R487本次登记。完整提交见课题log。
+仅在`/workspace/scratch/4fe3fb9f2a50/math-research-public`的main工作；旧库只读，overlay满后完整移到`/tmp/rank2-old-repo-4fe3fb9f2a50`并保原路径symlink，未删历史。代理只写自己证明/脚本，root统一元数据与逐条push。theta续R488共同A odd29真实核心；literature续R493三态真实词域/二挠联合因子；deep续R491真双jet对偶行与原ODE；root续R490真实degree26因子与完整连接。
 
 ## 主目标和完整旧接口
 
@@ -38,7 +38,9 @@ R480原F两态同时CM7/19经过det17全纤维转到新V，两个Λi质量5824/9
 
 R483在原六输入/旧五伴随已直接支付三原曲线条件行：oddσ N13=−1,N19=+1，六轴总character1；norm13/19与原det互素，principal N13=N7^5。CS/Cnew/CH在L两态给S2⊗A_i、(0,Snew⊗Λold)、(0,Href⊗Λref)。T须原两态平均后再作旧伴随CM19。三中央零控制任意独立旧伴随测试及第一环带/共同伴随深度；Href同源环带差=−(1+δ)n d log〈λ²〉(1+λ)/(2016b)每正n非零。真实CM支把旧W管改成cY+ζr(Z)/barα，不能当独立Z条件。
 
-R484新增V lift已付最小510整行cover，第一degree18727200；可将原ray细分模712345233600，全中心g阶4080，Θ3060锚给绝对K^4080=I。4080态全深Σr|Wpn=λn(AW^n)*Σr+n，新V各标签投影与其交换；忘V回K_W^r(D−Π0ρ1)，不换投影次序，不冒认原两态。R487正支付原平移和的小两态替代；R488支付共同A四σ总和的odd29及完整ρ1状态，均未发布前不预付。
+R484新增V lift已付最小510整行cover，第一degree18727200；可将原ray细分模712345233600，全中心g阶4080，Θ3060锚给绝对K^4080=I。4080态全深Σr|Wpn=λn(AW^n)*Σr+n，新V各标签投影与其交换；忘V回K_W^r(D−Π0ρ1)，不换投影次序，不冒认原两态。R487已付原平移和的小两态替代，见下一段；R488正支付共同A四σ总和的odd29及完整ρ1状态。
+
+R487完整平移和去掉外部伴随CM尺度后，第一Y边际仍为原S/new/H；m=13^17·19^5固定覆盖及高CRT保全部canonical lift，整个K72m²仍原quarter两态。参考W单位质量为−λc_H/c_H，同核心F_n=I_n+λΔ_n=−λL_H,n，环带差−λc_H n d log〈λ²〉(1+λ)非零。216个固定CM斜率的全部移动管差及303个范数的有限坏集均保；不同近相消管不交不赋积分零。
 
 ## 惰性原格、真实修正与三源连接
 
@@ -59,4 +61,4 @@ R489原连续2b charge已在F²厚化上完整限制，同一实际R的值长V/E
 ## 其他开放支线与继续顺序
 
 O4十六负扭曲rank1/全Sha、真I³核、88标签全Hilbert trace和conductor Euler仍保R230/237/271/296/304，缺跨p原类低增广非零或a≤1；小高度/不p除不替代。O6真实单位Tor/评价及严格类群q_p正奇、有限 iff q_p=1仍缺跨p约束，单p有限不传播。
-继续R487原CM平移和与旧W混管、R488共同A完整core、R491实际两顶极系数组合；root接实际低degree因子及原连接，随完整结论即推。主目标未完成，QUEUE不改完成，不等阶段确认。
+继续R488共同A完整core、R493三态实际词域、R491实际两顶极系数组合；root接R490实际degree26因子及原连接，随完整结论即推。主目标未完成，QUEUE不改完成，不等阶段确认。
