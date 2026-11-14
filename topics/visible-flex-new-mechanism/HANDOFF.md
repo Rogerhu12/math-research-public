@@ -1,17 +1,17 @@
 # 交接：大振幅新机制
 
-**进行中，未完成；没有满足README全部条件的完整候选。持续研究，不以阶段结果/时长结束。** 会话 `Astra-new-mechanism-9974ea84`，2026-11-14。root管Git/日志/公开Actions；mechanism管完整连接与高度可行stage；literature管真实高阶桥；repo_sources管科学输出与嵌套Volterra代数。旧细节见[本次压缩前H](notes/handoff-before-nine-height-stage-20261114.md)、[当前open](open.md)及results索引。
+**进行中，未完成；没有满足README全部条件的完整候选。持续研究，不以阶段结果/时长结束。** 会话 `Astra-new-mechanism-9974ea84`，2026-11-14。root管Git/日志/公开Actions；mechanism管完整连接与高度可行stage；literature管真实高阶桥；repo_sources管科学输出与嵌套Volterra代数。旧细节见[本次压缩前H](notes/handoff-before-full-phase-P1-20261114.md)、[当前open](open.md)及results索引。
 
 ## 1. 完成标准与工作规则
 
 闭连通材料面，$F_t$逐时$C^2$嵌入、时间$C^2$连续，同一固定g；固定H有内点、$\operatorname{diam}F_0(H)\ge.2D$；不作刚体对齐的整像 $\delta_{hold}\ge.3D$；全时全域reach$\ge.03D$；最大相对metric$\le10^{-6}$且同g/参数/时间范围加密持续下降；完整网格每件<5MB，明确严格存在差距。$\delta_E$可0如实报；达标后继续.5D或严格存在。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`17d9c5b1ec67401fe312ff63fe9bfc0d473acbba`（实际pull后双README差异为空）。每次pull --rebase立即比双README；变则只读差异执行；至少每小时一次。每个有意义结果及时push，NFF立即pull --rebase/核规则/再推至成功，不强推。
-- 私有恢复后实际pull至`44a3ba9432709e1260b4277d05d64c6775ca6589`，与旧6a16feab双规则路径无差，本题私有README不存在；QUEUE唯一行仍本会话进行中。下一实际pull不晚于19:45 UTC。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`fcdc6eaf7f39c6f922202f276d39a22818839d6a`（实际pull后双README差异为空）。每次pull --rebase立即比双README；变则只读差异执行；至少每小时一次。每个有意义结果及时push，NFF立即pull --rebase/核规则/再推至成功，不强推。
+- 私有19:20:16 UTC实际pull至`7943e238737119df3b4a564b854335f4b226debc`，与44a3ba94双README差为空，本题私有README仍不存在；QUEUE唯一行本会话进行中。下一私有实际pull不晚于20:19 UTC。
 - 真实几何/ODE/积分/优化/完整研究符号编译只在本公开仓库Actions；本地纸面代数、小人工接口测试、源码/公开输出解析。PAT仅瞬时CLI/env，不写任何文件/提交/日志。
 - 根规则12：不把冻结、独立审查、重复清单或重复运行设为推进前置。完整证明直接登记results并更新索引。保针对具体风险的验证及README要求的同态精化。
 - H<10KB、MD<100KB、open尽量<30KB；数据>1MB gzip、单文件<5MB。公式用美元，不写根LOG，不git add .，只明确本会话文件。
-- 17:58执行环境失联时用API非强制续写，未冒称实际pull；恢复后旧/dev/shm工作树已丢，重新部分克隆并真实pull。public `/tmp/visible-new-9974-public-restored-1845`；private `/tmp/visible-new-9974-private-restored-1848`；workspace原stable symlink已接回。现一律终端git push，别动其他会话文件。
+- 当前public `/tmp/visible-new-9974-public-restored-1845`；private `/tmp/visible-new-9974-private-restored-1848`；workspace稳定symlink已接回。只终端git push，不动其他会话文件；恢复史见旧H。
 
 ## 2. 当前几何输入与准确状态
 
@@ -55,7 +55,7 @@ R37/R45给真实零二阶算子桥与同一P四块准确闭合，R52给重叠pro
 
 R65理想无桥互反pair纯漂移非零；R67完整period为P0+NP1+N²P2+N³P3；R70真实任意端口M0桥已消高两次，只余P0+NP1。R69的Γ与有限充分矩已证。
 
-R71真实同scalar/frameI、M0词准确实现2t[P(f,Qgh)−Q(f,Pgh)]，八基至多28方向；有限系数用有限小loop，不能把c/2越出局部控制区间。R72同scalar任意frame有M=T=0桥，位移/P0仍自由改变。
+R71真实同端口/M0词准确实现第三交换子，八基至多28方向；有限目标以有限小loop实现。R72同scalar任意frame有M=T0桥，位移/P0仍改变。
 
 R73给点态八矩、变量profile链式Ψ及T=−history+∫C。**R76已证明**任意scalar闭路径的局部项可用真实M0/frameI loop准确实现2∫C；实际长度变化后重积frame隔离准确2t C3[path]，保倒行Φ_M²和校frame局部贡献；完整右尾公式给严格非零面积方向。R77现已证明面积/三次速度全部真实有限span可达，含actual两个C3单项；source仍核C1完整一形式/端口约束，不能把后3个形式列独立当loop控制。
 
@@ -63,4 +63,4 @@ pure bulk43628716304只用28响应余76项；新word43630157008（sourcef3381b75
 
 ## 6. 当前操作
 
-九高度已产生采样可行初值；single-Q列b0744e42（W5 B3·归一kθ/k³、162→163）公开dev43630999193全pass，zero-Q六jet全0/Jac≤1.02e−8。四次e4105426正公开dev，随后一次120iter/300eval/30s；新163联合driver采用一次80iter/120eval/300s，帽高+当前z硬门/新Q[-8,8]。C1完整商producer0627875f正请求linear_third_exact，区分28与C3+28商；只对角τ，非全T。R77后继续全部C1路径矩及完整P1全phase（纯模式只见对角τ，不能假定其余自动）。R75局部IBP唯一分解和word终止已证，q0例外保留，非完整函数独立性。全部完成结果即时commit/push并同步H/open；最新公开Actions输出自行pull，核双README。已读来源及经典文献范围在 notes/literature-20261114.md；撤稿局部刚性、成对等距、局部片都不是本题完成。
+九高度已产生采样可行初值；single-Q列b0744e42（W5 B3·归一kθ/k³、162→163）公开dev43630999193全pass，zero-Q六jet全0/Jac≤1.02e−8。四次e4105426正公开dev，随后一次120iter/300eval/30s；新163联合driver采用一次80iter/120eval/300s，帽高+当前z硬门/新Q[-8,8]。C1完整商producer0627875f正请求linear_third_exact，区分28与C3+28商；只对角τ，非全T。R78已给全P1四函数等价条件：P1=L(F,D)+Q(D,D)，−4核Q(q²,q²)，−2另核L(F,q²)+Q(d,q²)。C1仍只对角τ；lit正做保外槽的colored完整编译，不用对角极化假冒全T。R75局部IBP唯一分解和word终止已证，q0例外保留，非完整函数独立性。全部完成结果即时commit/push并同步H/open；最新公开Actions输出自行pull，核双README。已读来源及经典文献范围在 notes/literature-20261114.md；撤稿局部刚性、成对等距、局部片都不是本题完成。
