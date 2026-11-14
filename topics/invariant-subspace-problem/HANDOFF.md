@@ -3,7 +3,7 @@
 ## 目标、规则与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子存在定理或完整反例才可收尾。有限模型/候选排除不算完成。
-- **最近成功实际 pull 与已读规则提交：** `d8be7f00e3d40b80e911f80c1ff08de1336dc42e`（2026-11-14 15:20:46 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `95dbbe3f3bd47b0c9d94f1099fd1f6812b35b46a`（2026-11-14 15:23:32 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根Astra-ISP-789f独占Git/main与H/open/results/log；代理只写自己的稿。每结论立即推；每推前和至少每小时实际pull，逐次只读两README新差异并立刻遵守。非快进立即pull --rebase再推至成功，不force。
 - 旧库迁移授权已读，只用Rogerhu12/math-research-public；token仅CLI临时环境，不入文件。不改根README/LOG、不问重复授权。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-birth-two-full-height-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
@@ -26,6 +26,7 @@ T96原图/DAG来自run43597823809 artifact14114364261，恢复在 `/tmp/isp-t96-
 
 - [四权分类](notes/2026-11-14-four-bit-phase-complete-equality-classification-789f.md)全三维Φ≤1，两对异权核二维，全等三维，其余严格。[全固定方向局部界](notes/2026-11-14-even-phase-second-kernel-effective-four-bits-and-directional-local-bound-789f-next.md)用Kx=Bx*Bx/4+Sx*Sx/2、核组Casimir J≤2及真MP约化付退化；完整局部等号恰单组spin1/余singlet，dim=Σm1∏m0。方向η非统一邻域。
 - [任意两权全位数](notes/2026-11-14-two-weight-all-size-complete-even-phase-bound-789f-next.md)全源Φ≤1：全部组模块只(p,p)/(p,p+2)，真方差/Chebyshev与全p正系数付。异权等号恰单组spin1/余singlet；三权以上仍开。
+- [六位三对全权](notes/2026-11-14-three-pairs-all-weight-complete-even-phase-bound-789f-next.md)已付(a,a,b,b,c,c)整个九维Φ≤1：新spin1三组的真三维非交换块保一维完整硬源回归，三个主子式310/1109/2139项全正；全系数/生成器存。权全异等号3维、恰两权同5维、全等9维。高组三权仍开。
 - [倒数全谱](notes/2026-11-14-even-phase-reciprocal-transfer-adjoint-and-logarithmic-cubic-cancellation-789f-next.md)：h/ell/g/q倒数π(ell,h,g,q)，J=hg⁻¹ell+2g−q，T=ell⁻¹/²Jh⁻¹/²满足T(z⁻¹)=T(z)*，对数流整源三阶抵消。目标仍是真块[[h,J*],[J,ell]]正性。
 - [完整中央Hessian](notes/2026-11-14-central-partition-full-hessian-frame-and-phase-ward-block-789f-next.md)：B_i=E_i|U，BB*=(s+2)I/3，H_ij=M_ij−M_iM⁻¹M_j=B_i*gB_j；h/ell/q全部Ward交叉及真实R_ij保留。相位等价Jrow=A H† C+2H−Q的全块；逐坐标Aii Hii⁻¹ Cii=M与正块不能替完整H†运输。
 - Johnson最高两通道已非负，首低j=s−2的条件共同Schur及原尾任意删位协方差预算已付，高birth条件均值仍缺。[原无限尾证书](notes/2026-11-14-original-infinite-tail-birth-two-arithmetic-obstruction-789f-next.md)迫辅助算术系数>2.89，不反驳S1/graph。[原尾正通道尺度](notes/2026-11-14-original-tail-inverse-overlap-and-common-positive-channel-scale-789f-next.md)付固定I一致逆交差20/(k+2)、全p能量2Var/k至160Var/(k+2)；后述全height界现给原尾birth2负方差N≤(Λ/2)kP。
@@ -46,6 +47,6 @@ T96原图/DAG来自run43597823809 artifact14114364261，恢复在 `/tmp/isp-t96-
 
 ## 当前分工与马上接续
 
-normal固定h0整数任意次数路线已逐目标排除，继续H0=(s−2)h0的原mod961来源：复用旧两β/r1，先九列G商再打包VQ，保全原预基补偿及6188行完整乘回，不重建旧图。literature完整Hessian已付，三组spin1的唯一新3维块已取得全正权符号正性，待冻全文/证书后根单独推。boundary原连续尾birth2全height已闭，继续E≤s完整商的联合V/s定量及原moving-birth接口。根逐条整合推送，恢复实际数据并继续；主ISP未完成。
+normal固定h0整数任意次数路线已逐目标排除，继续H0=(s−2)h0的原mod961来源：复用旧两β/r1，先九列G商再打包VQ，保全原预基补偿及6188行完整乘回，不重建旧图。literature完整Hessian/三对全权已付，转一般三权组spin与固定frame跨坐标运输，不再逐小尺寸堆叠。boundary原连续尾birth2全height已闭，继续E≤s完整商的联合V/s定量及原moving-birth接口。根逐条整合推送，恢复实际数据并继续；主ISP未完成。
 
 文献原条件、Garayev强制零、balanced两层度量失配及所有失败保open/归档，不重复已排路线。
