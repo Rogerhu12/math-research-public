@@ -4,11 +4,11 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `8c7ab496d23978b24d0e90d2762bf22b130ca4a5`（2026-11-14 13:22:33 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `5caff1ebbf2dfb0e1375fc607f64abf78dedd421`（2026-11-14 13:29:07 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **当前规则：** 只在公开`Rogerhu12/math-research-public`工作，用本库Actions；不恢复旧代跑，公开文件无凭据。规则12取消额外独立复核，旧变更/迁移授权保此前H。
 - **工作树：** 根在 `/workspace/scratch/789f3e887d7c/math-research-recovered`；旧工作目录完整保留供代理独占稿。12:35断连后环境恢复，临时盘旧Git元数据、NF/GB/DAG及前缀均已失，不假称可续读；远端两条恢复结论818e9d7b/4c071886已同步。原17式回代未执行。
-- **完整旧范围：** [此前H](notes/2026-11-14-handoff-before-fixed-t96-789f.md)与[open归档](notes/2026-11-14-open-before-finite-pencil-789f.md)保全部接口；未列不算关闭。
+- **完整旧范围：** [此前H](notes/2026-11-14-handoff-before-phase-transfer-789f.md)与[open归档](notes/2026-11-14-open-before-phase-transfer-789f.md)保全部接口；未列不算关闭。
 
 ## 模型、主缺口与所有旧范围
 
@@ -27,11 +27,12 @@ Haar慢主理想与负边界ℓ²上T_N/T_Y分清；后者M=kerT含e0，N=closur
 M=2r+1，U=K_r、V=K_(r−1)、G1上第一Gram、Lj下MP Gram、B三次桥、A=Σbi⁻¹Ei。R297同κ归约保完整跨出生/a⁻¹抵消：全部正权/出生/高度加强κ⇔奇数硬端首边同κ。真实目标
 A_U*L1L3⁻¹L1A_U≤κI，且Δ*G1=−L1A_U；倒数桥为B*L2²B≤κG1。两个自然未投影提升真五位发散，不能删原投影或压缩逆。
 
-- [R298全独立五权](results/R298-five-independent-positive-weights-birth-two-hard-top-strengthened-s1.md)整个K2费≤743/782，缺陷≥39/782；79完整对称整数轨道，保真实负项。原birth1全height已由R295付统一κ1024；R292/293分组/单异常范围保此前H，不外推一般权。
-- [R300七位三弱位](results/R300-seven-site-hard-top-strict-boundary-region-with-three-simultaneous-weak-sites.md)：任意固定旧4正权/弱3内部权，全14维极限≤743/782；充分小ε时全源≤1525/1564<1，阈值不宣称全权一致。
+- [R298全独立五权](results/R298-five-independent-positive-weights-birth-two-hard-top-strengthened-s1.md)整个K2费≤743/782，79完整对称整数轨道保负项。R295 birth1全height κ1024；R292/293分组/单异常范围见此前H，不外推一般权。
+- [R300七位三弱位](results/R300-seven-site-hard-top-strict-boundary-region-with-three-simultaneous-weak-sites.md)固定旧4正权与弱3内部权，全14维极限≤743/782，充分小ε全源≤1525/1564；阈值不宣称全权一致。
 - [R300任意旧池三弱位](results/R300-appendix-arbitrary-critical-pool-three-weak-site-recursion.md)付全部三族/真实倒数核旗/旧q3高度6项与全Schur、交叉，范数极限diag(I⊗Kweak,K_old,s−1⊗Rw*Rw,K_old,s−2)无常数放大；严格余量传小ε，非严格边界不代有限权。
-- 同稿给实际联合列M_t及两相邻首边费用的等距表示，容斥/核旗保共同抵消。[有限a完整铅笔](notes/2026-11-14-finite-weak-bit-common-defect-pencil-and-coefficient-obstruction-789f-next.md)现给全硬费≤κ当且仅当Pκ(t)=P0+tP1+t²diag(0,L,0)正，保两个源度量。P0恰旧首加强缺陷；实际旧四权(r,r⁻¹,1,1)使P1正所需κ≳r²/4，任何固定κ的逐系数法均失败。[首Schur指定行](notes/2026-11-14-critical-even-pool-first-schur-sos-row-789f-next.md)给完整半线SOS恒等式；还须实际相位收缩及最高边缺陷完整块正性，不冒称较小尺寸归纳。
+- [有限a共同铅笔](notes/2026-11-14-finite-weak-bit-common-defect-pencil-and-coefficient-obstruction-789f-next.md)保两源度量，费用≤κ iff P0+tP1+t²diag(0,L,0)正；真实四权族排每个固定κ的P1逐项正。[首Schur指定行](notes/2026-11-14-critical-even-pool-first-schur-sos-row-789f-next.md)给条件SOS，两个一般预算尚未付。
 - [临界共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)：完整层F=dd*与Q=e*e交换；补集连接T自伴可逆、T²=F⁻¹Q，真V上G/L/4G+R是共同谱矩，Tv=σp⁻¹D²v。压缩矩不交换，仍保实际源旗/同符号低birth Schur；相位界与完整SOS未付。
+- [奇硬→偶相位弱位极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)保真两源度量，全相位范数极限diag(0,Q*G⁻¹Q+Z*L2⁻¹Z)。因此全部偶临界相位统一κ单独足以推全部奇硬及加强高度同κ，无尺寸循环；不声称反向等价/实际κ已付，原graph仍另缺。
 - [R297 Green–Ward](results/R297-appendix-physical-green-ward-cancellation-and-full-complement-schur.md)付实际T、TT*=硬费及整个补空间逆配对，源度量A−/J+保留。[真实Green极点](notes/2026-11-14-full-complement-green-nonreal-shift-poles-789f-next.md)排共同平方权平移的Stieltjes捷径，不反S1/Pick。
 - R299逐位内函数给同物理Pick Gram/全birth能量，真三阶dual塔非实根排标量Newton捷径；不免费插L1。R296完整低阶回归、共同Z/两带/负拟合二阶差及出生二ridge已付，混合二阶预算仍开。原graph未由这些有限模型关闭。
 
