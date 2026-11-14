@@ -610,3 +610,5 @@
 - **R624（已证明）**：[SS_j0_14原规范高度与整盘排除](results/R624-SS_j0_14-actual-ramified-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2约化二次式判别式35非平方，四同标签全无根。非CM SS累计53/105。
 
 - **R637（已证明）**：[SS_j36_04原规范高度与整盘排除](results/R637-SS_j36_04-actual-ramified-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2模47根[2, 6]与四同标签F3不相交。非CM SS累计54/105。
+
+- **R695（已证明约化）**：[原C的二次Gamma普通整除判据](results/R695-original-C-second-Gamma-ordinary-division.md)。完整P上普通H¹与原两标记cocycle给Qκ=πDScs−κπDTct−11acq∈π²E iff κ=C/9；消去未知y且不假设m=43。每个κ都通过域整除，故仍须真正普通单位测试，未求原C/L。
