@@ -1,0 +1,37 @@
+{
+  "result": "R667",
+  "request_item": {
+    "result": "R667",
+    "disk_id": "SS_j9_06",
+    "kind": "moved_j9"
+  },
+  "source_commit": "c52ae41986e6f8d0714f897c2c62e1761da73c33",
+  "source_repository": "Rogerhu12/math-research-public",
+  "request_sha256": "dec7153965405e13058a74c581ce0bd2e675eb2b276b67b725fe4467ac2eaa66",
+  "wrapper_sha256": "2e9801ea2bc468e3038d60327fa7db5d7acc3db3ff7680b1b34aea49b6f87e80",
+  "mathematical_driver_sha256": "017f987f2ceadec7edbc22dccf0aeb3e9856d8148c167197014167b340ea52fb",
+  "root_readme_sha256": "3569f8887c4a9fe87c8160f2d75ece18ae1d8156348a0a7b8742219c7ac50843",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "command": [
+    "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+    "-u",
+    "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_recover_R470_moved_j9_ss47.py",
+    "--result-id",
+    "R667",
+    "--output",
+    "/home/runner/work/_temp/serre-p41-remaining/R667/output",
+    "--budget-minutes",
+    "320",
+    "--disk-id",
+    "SS_j9_06",
+    "--script-dir",
+    "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts",
+    "--work-dir",
+    "/home/runner/work/_temp/serre-p41-remaining/R667/work"
+  ],
+  "budget_minutes": 320,
+  "prior_completed_repository_path": null,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43580991103",
+  "prepared_at_utc": "2026-11-14T09:39:35.416039+00:00",
+  "mathematical_completion_claimed": false
+}

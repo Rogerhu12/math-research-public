@@ -1,0 +1,13 @@
+START R667 SS_j9_06 actual_moved_chain
+PASS R667 actual_moved_chain d90d643bda2b165f38c7d3605bf1e1d50fe446e4b9418d63689573f9690b866d
+START R667 SS_j9_06 actual_terminal_and_nu
+PASS R667 actual_terminal_and_nu 6bb4a8c50a02906f7c5a8665214822a4cafaff5c505a07256d8e71d2c762adfc
+START R667 SS_j9_06 integer_principal_SLP
+PASS R667 integer_principal_SLP ed1d369c5770c26ebc0a4d0623e3b9c709904a88928c756b48b1246037c48e52
+START R667 SS_j9_06 actual_three_T2_branches
+PASS R667 actual_three_T2_branches 6d01ee85e1fbf44e8671ad70f035af288b5b84195ece5f0fb742cf931491f216
+START R667 SS_j9_06 actual_three_branch_Norm
+PASS R667 actual_three_branch_Norm cb14c67a83f60b9b5bef017db0dab6f9b23b089ff01bf51bdffe2d99595fdac7
+START R667 SS_j9_06 actual_full_F2_Norm
+INCOMPLETE R667 CalledProcessError: Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '-u', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_moved_SS_F2_full_canonical_norm_clearing_frame47.py', '--script-dir', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts', '--based-points', '/home/runner/work/_temp/serre-p41-remaining/R667/work/p41_j9_remaining16_moved_based_points_block0147.json.gz', '--second-kind-certificate', '/home/runner/work/_temp/serre-p41-remaining/R667/work/SS_j9_06_actual_second_kind_integrals47.json.gz', '--multiplication', '/home/runner/work/_temp/serre-p41-remaining/R667/work/chain/SS_j9_06_multiply47.json.gz', '--transport-directory', '/home/runner/work/_temp/serre-p41-remaining/R667/work/SS-principal-transports/SS_j9_06', '--principal-expression', '/home/runner/work/_temp/serre-p41-remaining/R667/work/SS_j9_06_principal_expression47.json.gz', '--canonical-algebra', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_canonical_SS_robust47_raw.json.gz', '--canonical-unit-certificate', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_canonical_SS_robust47_certificate.json.gz', '--derivative', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_serre_clearing_126_disks47.json.gz', '--ss-support', '/home/runner/work/_temp/serre-p41-remaining/R667/work/SS_j9_06_actual_T2_support47.json.gz', '--t2-norm', '/home/runner/work/_temp/serre-p41-remaining/R667/work/SS_j9_06_actual_T2_principal_norm47.json.gz', '--cache-dir', '/home/runner/work/_temp/serre-p41-remaining/R667/work/fixed-jets', '--output', '/home/runner/work/_temp/serre-p41-remaining/R667/work/SS_j9_06_actual_F2_first_variable_norm47.json.gz']' returned non-zero exit status 1.
+SAVED R667 complete False stages 5
