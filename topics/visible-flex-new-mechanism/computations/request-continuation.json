@@ -1,66 +1,49 @@
 {
-  "request": "recover-completed-curvature-artifact-with-correct-GitHub-archive-Accept",
-  "created_at": "2026-11-14 22:11:12 UTC",
+  "request": "exact-original-static-G-separation-and-readonly-completed-curvature-trials",
+  "created_at": "2026-11-14 22:16 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "curvature_output_recovery"
+    "static_g_rational_dual",
+    "curvature_trial_diagnostics"
   ],
   "source_sha256": {
-    "topics/visible-flex-new-mechanism/scripts/recover_curvature_actions_artifact.py": "235233f4d33b4d72432710ff0aa597fcfd85caf6ccf69e08ff84ed1eac79b42e"
+    "topics/visible-flex-new-mechanism/scripts/literature_static_G_rational_dual.py": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477",
+    "topics/visible-flex-new-mechanism/scripts/literature_constrained_static_fourth.py": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4",
+    "topics/visible-flex-new-mechanism/scripts/literature_full_m8_tail_response_projection.py": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345",
+    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0",
+    "topics/visible-flex-new-mechanism/scripts/extract_curvature_trial_diagnostics.py": "d53d6f4a55d7cd12628a299adaac0d5d6e67cc5efefbb5a3efd89aa930b6b76c"
   },
   "jobs": {
-    "curvature_output_recovery": {
+    "static_g_rational_dual": {
+      "development": [
+        "--toy-only",
+        "--output",
+        "@OUT@/static-G-development.json"
+      ],
       "research": [
-        "--out-dir",
-        "@OUT@"
+        "--max-seconds",
+        "120",
+        "--memory-mib",
+        "1024",
+        "--output",
+        "@OUT@/static-G-rational-dual.json"
+      ]
+    },
+    "curvature_trial_diagnostics": {
+      "research": [
+        "--report",
+        "topics/visible-flex-new-mechanism/notes/actions-43646786908-1-curvature_output_recovery/curvature-epigraph-exchange-audit.json.gz",
+        "--out",
+        "@OUT@/curvature-trial-diagnostics.json"
       ]
     }
   },
   "sync_private_rules": false,
-  "private_rule_sync_expected_blobs": {
-    "README.md": "5ba164843b1f5802184178a82d786264404873a3",
-    "topics/visible-flex-new-mechanism/README.md": null
-  },
-  "previous_private_actual_pull_commit": "7b57afc0a2b3910fca1c21b601ba7b18d1ccc2ae",
   "previous_private_actual_pull_time": "2026-11-14 22:02:43 UTC",
-  "preserve_producer_output_limit_and_completed_exports": true,
-  "source_identity_completed_by_real_publication_receipt": true,
-  "new_response_columns": 287,
-  "reused_response_columns": 1,
-  "whole_function_rank_not_claimed": true,
-  "task_complete": false,
-  "original_curvature": {
-    "run": 43645177423,
-    "job": 132601261692,
-    "source": "2f1b809c0b0abb7a26303d36940edc203815f872",
-    "artifact": 14133787467,
-    "zip_bytes": 823379,
-    "zip_sha256": "ba8737026d71a111a685eea7056614755335f95fc8c7eff5262f2dba46dbc133",
-    "recompute": false
-  },
-  "first_full_m8_failure": {
-    "run": 43645929555,
-    "source": "279056798b8e6de9e757b720933e50c90ea4d210",
-    "new_toy_passed": true,
-    "error": "KeyError original_third_sha256 before any response column",
-    "kept_public_failure": true
-  },
-  "corrected_v2_source": "pre_response_reduction.retained_original_indices into all_original_control_templates[].original_template_sha256",
-  "constrained_static_consumer_saved_but_not_activated": "R114 reduces the +1 target to the already known G; next research is original-expression 7/8 evaluation, not repeating the same normal-form residual",
-  "prior_recovery_failure": {
-    "run": 43646543691,
-    "phase": "archive-download-with-no-cross-host-token",
-    "http_status": 415,
-    "scientific_data_unmodified": true,
-    "fix": "official Actions archive API Accept application/vnd.github+json before token-free storage redirect"
-  },
-  "completed_full_m8": {
-    "run": 43646543691,
-    "source": "f0652a013fe546778300f0213e659f63ab96ed07",
-    "full_projection_rank": 31,
-    "four_block_projection_rank": 15,
-    "new_columns": 287,
-    "reused_columns": 1,
-    "recompute": false
-  }
+  "previous_private_actual_pull_commit": "7b57afc0a2b3910fca1c21b601ba7b18d1ccc2ae",
+  "G_goal": "Only exact rank 7 and augmented rank 8 certify universal nonmembership; no word normal form or other-weight fixed-profile exclusion",
+  "curvature_goal": "Only summarize exact saved 41 physical / 61 auxiliary trials; no geometry or optimizer reevaluation",
+  "curvature_raw_report_sha256": "5b04d6a7c85870687b979bbda87bbf8bd4d429d3b36c918d83cebde59b4dcaa0",
+  "source_development_not_yet_executed": true,
+  "task_complete": false
 }

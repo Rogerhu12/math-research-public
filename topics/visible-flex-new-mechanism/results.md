@@ -233,3 +233,5 @@
 - [R115：静态局部第四最高仿射权的准确支付与下一块边界](results/R115-static-local-fourth-top-weight-payment-and-unresolved-next-block.md) — actual43645177423在完整两mode给最高+2的h²k²系数准确等于−B_p2(W7)/8；+1的h²k²ω亦有原式零关系，hk/hk³各206项余只属未决，未冒函数非成员。W36与430根局部原式完整导出；最后主194340B超95KB只存fallback，失去的主诊断不冒已持久化。后继直接消费导出并先模M0的m0八几何函数；不重编旧目标或声称完整成本商。
 
 - [R114：受约束常态第四成本、八矩正锥与真实有限圈字](results/R114-constrained-static-costs-and-real-zero-matrix-words.md) — 常态m0的完整8坐标为rank-one trace零矩阵；四(h,d)×k=0/±1/±2的20整圈给正锥E8，补k±1族缺的第8方向。所有正配平静态商为零恰等于存在固定G使[L0(S)]=G(m0(S))，八个h1有理基准给可直接消费的约束商。floor整数圈+真实O1连接+八维IFT得到准确M0，倒行付T0；有限维闭性只用于成本span，真非零配平值在充分大有限N已给真非零成本。未授任意半群成本、ruling或几何完成。
+
+- [R117：静态权一只剩单G函数门与互反圈带成本控制](results/R117-static-weight-one-reduction-and-reciprocal-costs.md) — R115完整块hkF+hk³G+h²k²ωH中H已付，hk=−2p2和8基准态k0/1使R114商准确为h(k³−k)G，故只剩G是否属真权一7维响应门。k2一整圈+−1/2两整圈准确M0/frameI，成本因子15hτ(2)/2；相反k给负号。若G真非成员，真实M0连接/有限重复/倒行给非零实际商，并用紧h族与IVT保完整E(h)支付一新增查询。非成员前提待原7/8子式，不拿206项NF余充证。
