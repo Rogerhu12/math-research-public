@@ -1,0 +1,202 @@
+name: visible-exact cached Green complete known response sources v2
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-cached-green-known-sources-v2.yml']
+  workflow_run:
+    workflows: ['visible-exact complete signed finite-head Green and distributed sources']
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      green_run:
+        description: Exact successful complete Green run; empty selects the newest matching complete artifact
+        type: string
+        default: ''
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-cached-Green-known-response-v2
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  KNOWN_GREEN_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cached-Green-known-source-v2-CI-inputs.json
+  KNOWN_GREEN_MANIFEST_SHA: 94922e564b2d01c0519798584f91ce8e9cfa2b94245f377350aca51ef8cc3a1e
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+  REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+
+jobs:
+  actual-known-source-Green:
+    if: >-
+      github.repository == 'Rogerhu12/math-research-public' &&
+      (github.event_name != 'workflow_run' ||
+       (github.event.workflow_run.conclusion == 'success' &&
+        github.event.workflow_run.head_repository.full_name == 'Rogerhu12/math-research-public'))
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 60
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only the separately pinned scientific closure
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cached-Green-known-source-v2-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Select only an actual successful complete Green artifact
+        id: original
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          EVENT_NAME: ${{ github.event_name }}
+          EXPLICIT_GREEN_RUN: ${{ inputs.green_run }}
+          COMPLETED_GREEN_RUN: ${{ github.event.workflow_run.id }}
+        run: |
+          python - <<'PY_SELECT'
+          import json,os,pathlib,re,urllib.request
+          base='https://api.github.com/repos/Rogerhu12/math-research-public'
+          expected_name='visible-exact complete signed finite-head Green and distributed sources'
+          def get(suffix):
+              req=urllib.request.Request(base+suffix,headers={
+                  'Authorization':'Bearer '+os.environ['GITHUB_TOKEN'],
+                  'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'})
+              with urllib.request.urlopen(req,timeout=60) as response:return json.load(response)
+          event=os.environ['EVENT_NAME']
+          requested=(os.environ.get('COMPLETED_GREEN_RUN') if event=='workflow_run'
+              else os.environ.get('EXPLICIT_GREEN_RUN')) or ''
+          if requested and not re.fullmatch(r'[1-9][0-9]*',requested):
+              raise ValueError('only an exact positive decimal original Green run is accepted')
+          if requested:runs=[get('/actions/runs/'+requested)]
+          else:runs=get('/actions/workflows/visible-exact-complete-cut-green.yml/runs?branch=main&status=success&per_page=30')['workflow_runs']
+          selected=None
+          for run in runs:
+              if run.get('name')!=expected_name or run.get('head_branch')!='main' or run.get('conclusion')!='success':continue
+              rid=int(run['id']);attempt=int(run['run_attempt'])
+              artifact_name=f'visible-exact-complete-cut-Green-complete-{rid}-{attempt}'
+              artifacts=get(f'/actions/runs/{rid}/artifacts?per_page=100')['artifacts']
+              matches=[x for x in artifacts if x['name']==artifact_name and not x.get('expired') and x.get('size_in_bytes',0)>0]
+              if len(matches)>1:raise ValueError('duplicate exact original complete Green artifacts')
+              if matches:selected=(rid,attempt,artifact_name);break
+          if selected is None:
+              if requested and event=='workflow_dispatch':
+                  raise ValueError('the requested run has no actual successful complete Green artifact')
+              with open(os.environ['GITHUB_OUTPUT'],'a') as stream:stream.write('eligible=false\n')
+              print(json.dumps(dict(new_mathematics_started=False,
+                  reason='No actual completed finite Green artifact; algebra-only runs are not a finite inverse.')))
+          else:
+              rid,attempt,name=selected;root=pathlib.Path(os.environ['RUNNER_TEMP'])
+              values=dict(eligible='true',run=str(rid),attempt=str(attempt),artifact=name,
+                  output=str(root/'visible-exact-known-Green-v2-output'),
+                  green=str(root/'visible-exact-known-Green-v2-original'),
+                  repair=str(root/'visible-exact-known-Green-v2-repair'),
+                  boundary=str(root/'visible-exact-known-Green-v2-boundary'))
+              with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
+                  for key,value in values.items():stream.write(f'{key}={value}\n')
+              print(json.dumps(dict(actual_complete_Green_run=rid,actual_attempt=attempt,artifact=name)))
+          PY_SELECT
+      - name: Hydrate and verify the immutable sources and prior successful source inputs
+        if: ${{ steps.original.outputs.eligible == 'true' }}
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$KNOWN_GREEN_MANIFEST" --manifest-sha "$KNOWN_GREEN_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/known_response_Green_v2_ci/
+          python - <<'PY_AST'
+          import ast,pathlib
+          root=pathlib.Path('topics/visible-flex-exact-nearby/scripts')
+          for name in ('fourfold_codazzi_cached_Green_known_response_sources_v2.py','fourfold_codazzi_known_source_Green_CI_v2.py'):
+              ast.parse((root/name).read_text(),filename=name)
+          print('new source syntax parsed; no mathematical source executed')
+          PY_AST
+      - name: Install the pinned directed arithmetic environment
+        if: ${{ steps.original.outputs.eligible == 'true' }}
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Receive the original actual complete finite Green ports and distributed profiles
+        if: ${{ steps.original.outputs.eligible == 'true' }}
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: ${{ steps.original.outputs.run }}
+          name: ${{ steps.original.outputs.artifact }}
+          path: ${{ steps.original.outputs.green }}
+      - name: Receive the actual complete repaired known body source
+        if: ${{ steps.original.outputs.eligible == 'true' }}
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43597921732
+          name: visible-exact-complete-response-repair-source-43597921732-1
+          path: ${{ steps.original.outputs.repair }}
+      - name: Receive the actual complete waist and true-cap known sources
+        if: ${{ steps.original.outputs.eligible == 'true' }}
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43599771405
+          name: visible-exact-known-response-boundary-43599771405-1
+          path: ${{ steps.original.outputs.boundary }}
+      - name: Run only the new source consumer with real ten minute pull and README checks
+        if: ${{ steps.original.outputs.eligible == 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          ACTUAL_GREEN_RUN: ${{ steps.original.outputs.run }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_known_source_Green_CI_v2.py
+          --manifest "$KNOWN_GREEN_MANIFEST" --manifest-sha "$KNOWN_GREEN_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --green-run "$ACTUAL_GREEN_RUN"
+          --green-artifact "$RUNNER_TEMP/visible-exact-known-Green-v2-original"
+          --repair-artifact "$RUNNER_TEMP/visible-exact-known-Green-v2-repair"
+          --boundary-artifact "$RUNNER_TEMP/visible-exact-known-Green-v2-boundary"
+          --work "$RUNNER_TEMP/visible-exact-known-Green-v2-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-known-Green-v2-output"
+          --compute-minutes 40 --checkpoint-minutes 10
+      - name: Require actual nonempty process evidence before preserving it
+        if: ${{ always() && steps.original.outputs.eligible == 'true' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.original.outputs.output }}
+        run: |
+          python - <<'PY_INVENTORY'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          files=sorted(p for p in root.rglob('*') if p.is_file()) if root.exists() else []
+          if not files or not any(p.stat().st_size for p in files):raise RuntimeError('no actual nonempty process evidence exists')
+          records=[dict(path=str(p.relative_to(root)),bytes=p.stat().st_size,
+              sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files]
+          (root/'artifact-inventory.json').write_text(json.dumps(records,indent=2)+'\n')
+          print(dict(actual_files=len(files),nonempty_output_verified=True))
+          PY_INVENTORY
+      - name: Preserve the actual outcome and every original failed prefix
+        if: ${{ always() && steps.original.outputs.eligible == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-cached-Green-known-sources-v2-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.original.outputs.output }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: error

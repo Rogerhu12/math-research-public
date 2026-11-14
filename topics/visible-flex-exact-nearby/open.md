@@ -15,14 +15,14 @@
 
 ### 1.1 完整有限193态Green
 
-全5970连续projector run43594139132在执行；只新增5966格，原四pilot0/76/3300/5969逐字复用。16互斥段须形成恰5970唯一覆盖，保原anchor、jump、准确切点和所有末端接口。成功前缀不重算，916MBframe留公开Actions。
+[全5970连续projector](results/R133-supplement-actual-complete-5970-local-projector-cover.md) run43594139132已实际完成16分段及最终唯一全覆盖。5966新增、原四pilot0/76/3300/5969逐字复用，全部anchor/jump/切点/末端接口保留；916MBframe留Actions。
 
 [真实weighted两端](results/R133-supplement-actual-complete-true-weighted-cut-and-waist-boundaries.md)十门已完成：
 腰L0<1016.779086、D0<1016.778594；真cut LR<4.076853888、DL<.003613121034。
 全部97外行与mean保留，R=diag(I96,ρI97)及R′R⁻¹保留；先消费最后0+→0−的sec/tan跳，再核腰D0ρ(0−)<1。
 
 [有符号Riccati正Green](results/R133-supplement-signed-Riccati-positive-Green-with-full-interface-sources.md)已证。
-七实现代数门43596517945真实全过。全5970成功后自动触发[完整消费者](notes/2026-11-14-R133-complete-signed-Green-distributed-source-contract.md)，复用成功七门，检查所有suffix无pole、所有正界面分母、完整有序源和腰闭合。
+七实现代数门43596517945真实全过且已原样复用；[完整消费者](notes/2026-11-14-R133-complete-signed-Green-distributed-source-contract.md) run43601964129实际10门全成，6391连续ports/5970接口（含0−腰）严格闭合。[同一repair有限193维+真low97连续逆](results/R133-supplement-actual-complete-finite193-signed-Green-inverse.md)已证。
 四独立通道为原残差、trial跳、左/右端单位；全[0,.9]和phase负段普通L2分别输出。
 不得用全径向sup乘积替代有序衰减；局部全覆盖不等于全局Green，有限193态也不等于无穷维全逆。
 
@@ -38,7 +38,7 @@ signed dual积分跨0，不提供真Schur。
 
 [原全正区N97逆](results/R133-supplement-actual-whole-positive-N97-inverse.md)已完成4650闭盒、3594接口、整个原whole-η范围和无穷高模；χ0<.303291679含原真外high反射，χ1<.788277736保独立右highport。
 [正根桥](results/R133-supplement-current-moving-positive-root-Riccati-and-full-head.md)已保全193head、mean、低高回路和普通源。
-当前缺的是把它们转授repair/δ背景并保新主部mean、Riccati、真正右端，以及与负段/Green的全反馈；不得把原完整正high误列为未算，也不得把其原背景范围直接移给δ*。
+M32 repair转授现已实际完成：root43600926806的23门、外图/4650body43601149891的25+8门，同一global reference与所有mean/head/source/3594接口保。当前缺δM96、完整低head/负段返回及其与Green的全反馈；不得把已成repair正high误列为未算或把原范围直接移给δ*。
 
 [完整帽到moving cut](results/R133-supplement-complete-physical-cap-into-actual-moving-cut.md)run43587619797真实14门已经完成，原全cap1977格不重算。有限低97核/mean不能删除独立high输入和全源。
 
@@ -66,7 +66,7 @@ mean-v2 43589465579真实10门给||q*−Z||<4.572198020300e−6。
 [实际moving根全频预算](results/R133-supplement-actual-full-frequency-moving-root-budget.md)43594466882已成13门，保|δ|≤1e−8、全193方向、独立mean、primitive、source flux、强负Sobolev窗与commutator。
 δ产品带宽到192，旧band64负反馈数字不能转授。
 [两行Airy/腰审计](results/R133-supplement-two-row-Airy-audit-and-exact-waist-normalizer.md)43592219275已成13门：腰S=0，root有限cross buv/η均值0但矩阵保。
-继续从实际方程构造principal fold、实际两行root/positive连接、brootfin与strong余项。外部glancing定理假设不符本题simple type change，不能直接引用作已付根门。
+[实际全参数principal fold](results/R133-supplement-actual-full-family-principal-fold-domain-certificate.md)43602612900已通过16门：真正Airy主部、反解矩形与新宽J成立。继续原I/mean/source的两幅解析化、实际两行root/positive连接、brootfin与strong余项。外部glancing定理假设不符本题simple type change，不能直接引用作根门。
 倾斜fold后的非局部I、mean、source必须准确变换，不能仍假定为逐新径向层的角primitive。
 
 ## 3. 无限尾的整个混频网络
@@ -143,3 +143,7 @@ run43594139132 的16分段与最终消费全部成功，全部5970格/anchor/jum
 ### 新源v1过程身份失败与原artifact收据导出
 
 run43602923145 在数学child前止于repair-source process SHA检查；children=[]，全失败过程保于notes/known_response_Green_ci。原Green artifact process297cb4…与仓库snapshot8be40…同样不同，前者已有原字节evidence。现仅新部署receipt-only Action导出43597921732/43599771405原artifact process，并交叉核原native/source/manifest及47/10真实门。不能猜SHA；查明后仅新v2身份消费者接续，原v1文件/91manifest不变。
+
+### 已知源v2与核实的artifact身份
+
+receipt-only43603364028实际成功。root逐字段比较原artifact和repo process，仅published_checkpoints多final:true；所有科学字段一致，原native不变。新[v2合同](notes/2026-11-14-R133-cached-Green-known-source-v2-contract.md)详列两个身份，97输入包含原91全部原SHA及三个收据文件；新producer只改两PROCESS常数，旧v1失败全保。待v2真实数学结果，并继续特定low193/cut方向收紧。

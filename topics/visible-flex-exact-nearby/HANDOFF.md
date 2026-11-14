@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 14:09:13 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 14:16:28 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：071a9983e81627deca22e8878299cd386bd06aaa；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：a4ae02cd8aee7b817f20b5d4a9b8f18dbe3547d5；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -28,7 +28,7 @@ signed Green run43601964129真实10门/child0：6391连续ports、5970含腰接�
 完整body/mean run43583838026/43586413510：40parts/7721rows/6143jumps，native a4f31dccc4b54661b43fc06bac59b6afbb4fa2d6d19614f68f71e044be6e5870；signed dual跨0，非Schur。
 repair已知差源run43597921732真实47门/child0：全7721格，native05e0493dbe55490adec8fb6603e0ec431d1bc03f051aec86be8a78741f60f0a4。新增L2源<5.597282e−16，完整修复残差L2<.001284069679776281；新mean源及主部mean变化完整保，未知h仍一阶扰动。见actual-complete-response-repair-source。
 完整已知边界源43599771405真实10门：g0<8.922944e−16，真97行gR<.000203975908607，独立high<.000195001650779；native b1adeea522b31efa2fc83a6436bc3fe52dbd04630c17d5436927b5872b05e263。准确0+/.9−全193及mean，R权在边界源取消；未授未知反馈。
-原positive4650盒N97与实际正根桥已经完整成功，见actual-whole-positive-N97-inverse/current-moving-positive-root-Riccati-and-full-head。χ0<.303291679含原真外high反射，χ1<.788277736保独立右highport；须转授repair/δ及新mean/Riccati，不重算旧4650，不说原正high缺失。
+原positive4650盒N97已完整，M32 repair的root/4650body/外graph现亦已真实转授（见下）。原whole-η范围不自动转δM96；不能把已成repair正high继续列为未算。
 mean-v2 run43589465579十门：||q*−Z||<4.572198020300e−6。还须完整逆给||qν−q*||≤.004995427801979700，才保真物理ν行>1/200；未知high/cap/背景及全反馈仍欠。
 
 ## Phase、根和算术
@@ -40,7 +40,7 @@ R31 run43586895661真实九步/11门，显式族|δ*|<9.368259853002e−11；phy
 第一相位算术43598755503真实11门：全部|n|≥97/四根gap>1/(512|n|)，scalar inverse≤512一阶；native db861442f5b895362abe090306c2899b3771282269b7ccc5743d820e79f8bff3。1502完整CF候选最坏n1635；高norm距整数>.217432842839813。仅当前−Xiδ*/4区间，不代替rootfinite。
 moving根scalarization43594466882真实13门，|δ|≤1e−8全频J/负Sobolev/mean/flux保；δ产品band192，不能借旧band64负反馈。
 腰/Airy43592219275真实13门：腰K′=b=S=0，root有限cross buv/η均值0但矩阵保。O1–20 ordered scalar已审证：AC的一阶角项准确抵消，T0=ηr/η−4b〈S〉+5dφ，余径向系数R−1真实一阶增益；全mean/weak源/投影保。
-actual root principal/normal form、two-row positive matching、brootfin、strong及真正PDE背景继续；外部glancing定理假设不符，不能直接借授本题type-change结论。
+实际principal fold已完成（见下）；继续旧I/mean/source两幅解析化、two-row positive matching、brootfin、strong及真PDE背景。外部glancing定理假设不符本题type-change，不能借授。
 
 ## 无限尾与最终主线
 
@@ -50,11 +50,11 @@ geometry43584188751实际26门仅条件充分：同一精确闭C²解η0、全C0
 完整周期外帽B,C真匹配可由径向唯一性付frame/位置周期及腰C²镜像；97线性行不替代非线性全matching。
 newton继续边界/repairδ正high/Green及真qν−Z；phase继续真root/β/strong；tail继续scalar高网及移动mixed middle；root逐条审证即推并接全逆/非线性。子问题完接open下一项，不因阶段结果、时长或等待停止。
 
-cached Green新已知源v1 run43602923145失败在原repair process字节身份，children=[]，未运行数学；repo snapshot4bb…与final artifact含推送回执不同。原失败全保，新receipt-only workflow核原native/source/47或10门并复制两原process真实字节；核完才建v2新路径/manifest，不改旧native或旧预期哈希。特定low193/cut方向收紧同步继续。
+cached Green v1 43602923145在数学前因repo/artifact过程身份失败，原件全保。receipt-only43603364028成功，逐字段核仅多final推送回执；真repair process16de872ce106e05b6add99d8406598de3cc87b94f4533a9fc3bb46294c66366a，boundary d81f87fb08dde8d1a8501cf4ac2dc71b71f08c542fc39870c0ac8cb0f13f57c7。v2新5路径/97manifest已部署，原91哈希0变，数学仅两PROCESS常数不同。继续特定low193/cut方向。
 
 尾中间块两phase精确曲线r0=2^-1000ρ^13、ρ=2^-40J^-2保径向Γ不动；full高κ≥2^4000J40同一真实θ/全盒generator>2^-1800ρ20 B K_j^-2 M^-3已证。紧κ[1/4,K*]新固定三维图已证：自然全Sym2可观测性、五函数完整逆、同支集两phase补偿，真实半径R*=2^-2300Δ^-5L*^-5varrho10无B/δ损失；每κ邻包共用方向但不冒称全近簇同向。两图支集不交可共存；当前低κ、实际非径向近簇/外响应/最终层权继续。
 
-M32 repair正根collar43600926806真实23门：native86d31a375d6ee07f3919cae565dc16e47361f24cbcd6ee3ef2df8b4f23946605，EH<32.041315545130、headloop<1e−6；source/port→全态1/12000、1/100，两trace1/36、9/2。新global reference/全193mean保，外侧body speed与δ96/根反射另付。
+M32 repair正根collar43600926806真实23门：native86d31a375d6ee07f3919cae565dc16e47361f24cbcd6ee3ef2df8b4f23946605，EH<32.041315545130、headloop<1e−6；source/port→全态1/12000、1/100，两trace1/36、9/2。新global reference/全193mean保，已接同一新body参考；δ96/根反射另付。
 
 repair外graph/正区43601149891真实25+8门：外native75e7c0e1447306a97971ee05dcb68b8d357cb4fffa5c1a37335a6fc29a473424，body eefb94952a409473fed7f9c34afc9214a3346d8c3b19ed7e0a7fc6fd06f48a68（9无损parts）。4650闭行/3594接口，χ0<.303291579403含真新外反射，χ1<.788277735610保独立右high。新global reference与实际rootcollar一致，所有source/head/mean行保，δ96另付。
 
