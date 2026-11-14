@@ -94,3 +94,6 @@
 
 - [R539：原八度混S/T核、完整两态与放大中央域](../results/R539-original-degree8-mixed-st-core-and-amplified-central-domain.md)：原L=(W−Y)/2及Norm8伴随有whole非scalar两态核；其余四σ全保。L核保持R536同一个零质量测试，偶深m的准确Y_m/W_m同行返回原S/T；原Dn在m<n确落合法域，局部两中央赋值n−m，奇n取m=n−1得v1。所有反号补域及M转置仍保。
 
+
+- [R537：原切向核、不可分排除与来源饱和](../results/R537-actual-tangent-kernel-inseparable-degree-and-source-saturation.md)：在p>8b²+4bu的原预算内，交数严格排除独立Jacobian零对；全部十九角使切向H2多项式核准确为kF²或〈1,F,F²〉。原角/次数保持提升给来源返回像p饱和及准确秩，所有同D/charge门不变；J/M物理评价后的核与像仍须另付。
+

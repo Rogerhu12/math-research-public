@@ -198,7 +198,7 @@ R507 已在整个原Γ付P=B N(6N−1)，合法导子保全部carry；唯一目�
 
 R511 已付原FH2全二倍修正格、指定镜轴g²/ψ与整个原目标单射T2，完整ξ=(3/4)T2βmir(F²)。实际2C镜ideal和蛇列给βmir=0 iff βcont落∂η像；∂η的源为H0(C,N²(−hP))，须真实提升后除2eη。**待做：** 支付原特定类的实际像条件，或将R502全部carry与R507 forcing/共振接到同一真行；h<κ+χ只消最右余核，不证明∂η满射，镜总长S也不把有效极帽q延至共振。
 
-R514原forcing三charge返回、全十九角、同D门及镜尾规范形保[完整接口](notes/2026-11-14-open-before-r525.md)。**待做：** 实际低核像/切向联合全carry；kerlow=kF²未证，FH2非全J，分歧极和原M边界不删。
+R514原forcing三charge返回、全十九角、同D门及镜尾规范形保[完整接口](notes/2026-11-14-open-before-r525.md)。**待做：** 实际低核像/切向联合全carry；R537已确定多项式切向来源核，但kerlow=kF²的物理版本仍未证，FH2非全J，分歧极和原M边界不删。
 
 R517切向H2两charge、全Γ/M转置及三normal行保[完整接口](notes/2026-11-14-open-before-r525.md)。**待做：** 真全局联合/边界商与forcing、carry；二次微分正则不把标量变成镜N²截面。
 
@@ -255,3 +255,7 @@ R538未改P_K的E深/Kunit整条四输出返回已付，系数βn(8+20κ3n−κ6
 原J反射尝试的完整来源界见[2026-11-14-j-reflection-three-dimensional-cm-boundary.md](notes/2026-11-14-j-reflection-three-dimensional-cm-boundary.md)：N7³特征ω与原三算术线的−1不同，三个投影全零，不能赋它中央零。R538真实A5/近相消条件仍开，继续f4完整有限角色和原补域比较。
 
 R533两固定负矩的第一层现有[准确递推与有限记录](notes/2026-11-14-degree6-negative-moment-first-layer.md)。**待做：** 指定AS/ABS对角的无穷非零或完整算术比较；有限147点及p61的首层零都不决定实际负矩非零。
+
+### R537：切向呈示的来源核与评价核已准确分开
+
+在p>8b²+4bu的原预算内，交数严格排除独立Jacobian零对；全部十九角使切向H2多项式核准确为kF²或〈1,F,F²〉。原角/次数保持提升给来源返回像p饱和及准确秩，所有同D/charge门不变；J/M物理评价后的核与像仍须另付。见[R537](results/R537-actual-tangent-kernel-inseparable-degree-and-source-saturation.md)。**待做：** 同一自由商来源上的真实J/M jet核、完整残数转置及R524两个连接；已知来源秩不代评价秩，p饱和不通过任意评价自动保持。
