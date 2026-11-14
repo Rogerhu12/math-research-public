@@ -110,3 +110,8 @@
 - R756由原三Norm Z构造全部ordinary导数cube并逐项消divisor；准确Tate连接/普通Norm像给H¹(S,kerΓE)=k[T]/(N_T)，原完整q相位保−ij项、class首系数19。
 - 证明SHA6c70ca3a735748165774ffa645c0cfb625fd95a3677ce9e95fef75fab6941c6a；R700无挠确给E∩pU=pE，未冒认W_ij可除p或J/b桥。HANDOFF归档、open/index同步。
 - R754请求已推21b31744c32a06f8d84fcd525b4ce395a0869800，正在读取实际公开run；R753已单独推送。本次无本地数学运行或共享设施修改。
+
+## 2026-11-15 01:21 Asia/Taipei · serre-public-resume-20261114
+- R754首公开run43620409119/source21b31744c32a06f8d84fcd525b4ce395a0869800实际失败：固定SHA旧state含15726位整数，Python3.12默认4300位十进制解析限在首新stage前触发，无数学结论。
+- 已保存全部失败receipt/log，core-receipt SHA fcbc2d726c6c57a10e7c05cc993e743b1ec62ddcb5bb759fe7af5a5cafa7cb7c；仅在public guard后开放可信整数解析，core新SHA f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251，request同步重提。
+- 旧R735/738/745均只读复用，无完成新阶段需resume；本地仅AST/哈希。R756已推8ff9f328e37f8fd8789630fa618d777e39b46d00，HANDOFF/open同步。

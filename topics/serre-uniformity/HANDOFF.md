@@ -4,11 +4,11 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：5e7de121cf020e01ba09a385d92685a8bec5b205
-最近本地pull：2026-11-15 01:20:29 Asia/Taipei，main=5e7de121cf020e01ba09a385d92685a8bec5b205，两README blob均未变。终端已恢复，原blob:none部分克隆继续；至少每小时实际pull --rebase及每次推前pull，检查两README差异。旧本地R716重复提交与现行证明逐字相同，保留分支后跳过重复元数据，详before-R741归档。
+已读规则提交：0aacbd45f1d89e9a5fe0a67b184d9a45257a513f
+最近本地pull：2026-11-15 01:23:30 Asia/Taipei，main=0aacbd45f1d89e9a5fe0a67b184d9a45257a513f，两README blob均未变。终端已恢复，原blob:none部分克隆继续；至少每小时实际pull --rebase及每次推前pull，检查两README差异。旧本地R716重复提交与现行证明逐字相同，保留分支后跳过重复元数据，详before-R741归档。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权；非快进立即pull --rebase重推。PAT仅CLI，根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB，大可复现中间量只artifact。日志本题≤5行；不设独立审计/冻结审批门。
 
-本次前完整归档[before-R756](notes/2026-11-14-public-handoff-before-R756.md)，内接before-R754及更早链；[open完整归档](notes/2026-11-14-open-before-R742.md)保留全部旧公式。已成计算不得为包装重跑。旧未推成果按原记录重做，不依赖遗失对象。
+本次前完整归档[before-R754-retry](notes/2026-11-14-public-handoff-before-R754-retry.md)，内接before-R756及更早链；[open完整归档](notes/2026-11-14-open-before-R742.md)保留全部旧公式。已成计算不得为包装重跑。旧未推成果按原记录重做，不依赖遗失对象。
 
 ## 当前执行
 
@@ -20,7 +20,7 @@
 
 - **R752/R755已成**保s_act二阶σ₂与a₂=σ₂−(1+i)/2，I₀=ε(21σ₂+2b(J−18))选择无关。完整negative adjoint y=ell_cyc−2iκq、q quadratic/cubic及2处cochain消项给I₀=−〈w,Sflat〉；原Aα的Iα=−〈w,Sα〉=ε(21σ₂+2bJ)，I₀=Iα+7εb。未除b、未抹σ₂，完整proof/SHA见R752/R755。实际Iα/σ₂/b/J仍未知，原三Norm ordinary比较由R756继续。
 
-- **R751已证明**原边ρ(g_p⁻¹)/完整tame和CRT给40个λ_h(a/p)，固定Q=(α,+√3)核含逆θ及正ξ相位；携权μ6和、Miller正ξ与原实目标−ζ运输后，全部周期准确在旧K(U)次数280。42列/800闭链有限Hom核接口完整；证明SHA0f12e10bb6074ec2fdf64bc266d7414ea726564990e92533b767177eb2170e87。**R754公开请求已提交**，run待读取；复用R735/738/745，core bc2375dcc1b1478ef2f50a1713c61adc6102408763652f451f7b4167480c74cd，方法fdbe8bbd0e09afadddcb9cd2f13dc0f27c2eabab2d31fe449cd173bd28a59122。40加法/819边/4800×42核/800×6全链验证，80分钟完整断点；实际period/核未返回，R759继续完整整数格及原map degree。
+- **R751已证明**原边ρ(g_p⁻¹)/完整tame和CRT给40个λ_h(a/p)，固定Q=(α,+√3)核含逆θ及正ξ相位；携权μ6和、Miller正ξ与原实目标−ζ运输后，全部周期准确在旧K(U)次数280。42列/800闭链有限Hom核接口完整；证明SHA0f12e10bb6074ec2fdf64bc266d7414ea726564990e92533b767177eb2170e87。**R754已修正重提**：首run43620409119在15726位旧整数解析处失败，未产新数学；移除可信输入的4300位限制，续run待读。复用R735/738/745，core f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251，方法fdbe8bbd0e09afadddcb9cd2f13dc0f27c2eabab2d31fe449cd173bd28a59122。40加法/819边/4800×42核/800×6全链验证，80分钟完整断点；实际period/核未返回，R759继续完整整数格及原map degree。
 
 - **R753已成**原ψp≡−1、φp≡x^(p²) modp；H=(ψp+1)/p满足Φ′+2x^(p²)H′=−(x³−1)^((p²−1)/2)。首非零h_(p+1)=−1/2·binom((p−1)/2,(p+1)/3)为单位，ψp(0)=−(−4)^((p²−1)/6)，全部非p指标明确；余N个x^(3mp)方向待R757接原σ完整消去。证明SHA d1b05e5c275eb3d3db102954f78a0081c3d129fbadf59b2fcc139713880cc619；尚非O点原C_p单位。
 

@@ -967,6 +967,8 @@ def main():
     if os.environ.get("GITHUB_ACTIONS") != "true" or \
        os.environ.get("GITHUB_REPOSITORY") != "Rogerhu12/math-research-public":
         raise SystemExit("Actual exact arithmetic is restricted to the public repository Actions.")
+    # Fixed-SHA retained exact coordinates exceed Python 3.12 decimal limits.
+    sys.set_int_max_str_digits(0)
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--inputs", type=Path, required=True)
