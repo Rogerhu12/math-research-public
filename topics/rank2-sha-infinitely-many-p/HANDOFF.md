@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：fc53baab62225a08ae5c00040a1fe852b0db2b60；2026-11-14 22:24:28 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:03:05 UTC仍无环境。最迟22:35再试。
+- 最近已读规则提交：75318f032926c49f280a6980fd60cd81f6a8a510；2026-11-14 22:28:51 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:03:05 UTC仍无环境。最迟22:35再试。
 - 只在Rogerhu12/math-research-public/main工作；逐结论commit/push已授权，禁强推/改已发表历史。每次pull后核根/课题README，至少每小时pull一次，仅读新差异并立刻执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35–21:05断连期API历史已接回终端；21:39再次断连后用已连GitHub原子非强制追加，恢复即实际pull接回。
@@ -15,16 +15,16 @@
 
 ## 已发布、归档与分工
 
-R1–363、R365–560、R562–600已登记；R364仍开，R561/601/602/603/604进行中。
+R1–363、R365–560、R562–600、R602已登记；R364仍开，R561/601/603/604/605/606进行中。
 完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r597-prefix-normalization.md)、[open](notes/2026-11-14-open-before-r600.md)；
-沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R551-R600.md及前卷。
+沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
 
 - theta续R601实际外矩形+内部权差的同源补偿；R599已把完整深度差准确接回原I1，未得中央→I1零。
 - literature续R604同权实际截面/真前缀空区间及接触界；R600已付纯S/T全次数余类矩阵和准确中央Euler第一层，保模p权碰撞/零权。
 - deep续R603：R597已付r1ν2原结点整临界支及低ell全部第二类；继续同一真实z0/z1与全两像。原深前缀右逆的定量应用作同篇增补，不重复R412。
-- root续R602真实Gaussian余项整窗/全半径与原下一中央Bockstein；R598已付完整Newton导数的准确中央Euler解析条件。
+- root续R606原下一中央整商与同参数/pole实际约束；R602已付全Hurwitz余项和完整第二Bockstein，全部原j尾保留。
 
 ## 原固定对象与不可删的支线
 
@@ -67,3 +67,5 @@ R577/578实际临界基准、全低行整右逆/核含Qn及ell1 Qquad。R593原p
 R597补齐r1ν2：原三列det−2给整分裂结点支，A/B∈w²而C∈w，完整p³保C/B一阶极。原帽有限规范可取ξ∈w⁷、A∈w⁵；[深前缀增补](notes/2026-11-14-r597-joint-ordinary-prefix-normalization.md)进一步取m=min(s,btop_(D−1)+1)，ξ∈w^(m−2)、A∈w^m。第三块准确a(z0+z1w)，但SA/S²A、26carry及同R反向补偿全保。全部低ell相对首核ν≤2现有整基准；R603续第一真实解空间上第二指定余类，未证非零。
 
 [2026文献精确假设](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)保逐p二次单位/高度/受限秩及随权非消失界限；未新增固定来源无穷非消失输入。
+
+R602删原cw^s后F°及原G全部n!系数整，n<p整窗、每闭R<R*=p^-1/[6(p−1)]的真实Tate余项已付，不认闭边界最大半径。原a_h≥h−vp((hs−1)!)给新完整尾M*；j_m/p≡(2A_m,1−pA_m,2/γ_m)/γ_m modp²。完整j0迫括号∈p²，首层失败时第二层准确读2A1/p−A2/γ。有限H全二项式式和中央Euler延拓同更大开盘保正文；未付无穷命中/全D cutoff。

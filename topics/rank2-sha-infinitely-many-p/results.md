@@ -440,3 +440,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [R597同预算深前缀增补](notes/2026-11-14-r597-joint-ordinary-prefix-normalization.md)：将R412的真实单位三角应用于同一结点候选，整选m=min(s,btop_(D−1)+1)的联合普通前缀，准确给ξ∈w^(m−2)、A∈w^m；全部原帽、m=s边界、移位carry及同R补偿保持，不将更深规范认成余类非零。
+
+
+- [R602：原单Gaussian余项的全Hurwitz整性与下一完整中央Bockstein](results/R602-original-gaussian-hurwitz-integrality-and-next-central-bockstein.md)：同一高度二系数与整数Bell公式给全n!整性、n<p完整整窗及更大开解析盘；原完整j模p³只读前两项，准确返回原A_s/A_2s的第二非齐次条件。全H严格尾、原物理缩放与中央投影保持，未由首层失败或余项整性推出无穷非零。
