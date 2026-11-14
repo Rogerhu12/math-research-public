@@ -1,0 +1,499 @@
+{
+  "status": "passed",
+  "producer": "new exact SymPy quotient-ring identities, flint rational Bernstein coefficients, and Fraction budgets",
+  "utc": "2026-11-14T09:19:26.342913+00:00",
+  "gate_count": 91,
+  "all_passed": true,
+  "gates": [
+    {
+      "name": "the exact derivative preserves the actual quartic constraint",
+      "passed": true
+    },
+    {
+      "name": "complete e-zero phase Wronskian including every tau term",
+      "passed": true
+    },
+    {
+      "name": "complete D2 scalar numerator is polynomial",
+      "passed": true
+    },
+    {
+      "name": "complete D1 scalar numerator is polynomial",
+      "passed": true
+    },
+    {
+      "name": "complete D0 scalar numerator is polynomial",
+      "passed": true
+    },
+    {
+      "name": "the complete two-state numerator is symmetric",
+      "passed": true
+    },
+    {
+      "name": "the whole numerator has kappa degree at most three",
+      "passed": true
+    },
+    {
+      "name": "exact first kappa zero in e-zero determinant",
+      "passed": true
+    },
+    {
+      "name": "exact second kappa zero in e-zero determinant",
+      "passed": true
+    },
+    {
+      "name": "complete zero-tau diagonal identity",
+      "passed": true
+    },
+    {
+      "name": "complete zero-tau determinant quotient identity",
+      "passed": true
+    },
+    {
+      "name": "complete_C22_numerator all Bernstein coefficients exceed the stated positive bound",
+      "passed": true,
+      "count": 1152,
+      "degrees": [
+        23,
+        1,
+        7,
+        2
+      ],
+      "minimum": "5275097371979054162316867063234968444303305149078369140625/3369993333393829974333376885877453834204643052817571560137951281152"
+    },
+    {
+      "name": "complete_det_over_kappa2_numerator all Bernstein coefficients exceed the stated positive bound",
+      "passed": true,
+      "count": 5640,
+      "degrees": [
+        46,
+        1,
+        14,
+        3
+      ],
+      "minimum": "128691318543650579433888938950695622825754842061192650089414672972586218186819820847182427314692176878452301025390625/11356855067118857664833184498250070849275646260739344691898284362197488876771842551971735167402555711886914400097909030211478150447104"
+    },
+    {
+      "name": "complete positive common denominator",
+      "passed": true,
+      "upper": "1283689/27487790694400"
+    },
+    {
+      "name": "e-zero physical diagonal lower bound",
+      "passed": true
+    },
+    {
+      "name": "e-zero physical determinant quotient lower bound",
+      "passed": true
+    },
+    {
+      "name": "complete complex p1 jet 0",
+      "passed": true,
+      "bound": "16"
+    },
+    {
+      "name": "complete complex p1 jet 1",
+      "passed": true,
+      "bound": "288"
+    },
+    {
+      "name": "complete complex p1 jet 2",
+      "passed": true,
+      "bound": "2616"
+    },
+    {
+      "name": "complete complex p1 jet 3",
+      "passed": true,
+      "bound": "51216"
+    },
+    {
+      "name": "complete complex p2 jet 0",
+      "passed": true,
+      "bound": "988223/2560"
+    },
+    {
+      "name": "complete complex p2 jet 1",
+      "passed": true,
+      "bound": "18773103/2560"
+    },
+    {
+      "name": "complete complex p2 jet 2",
+      "passed": true,
+      "bound": "423528507/5120"
+    },
+    {
+      "name": "complete complex p2 jet 3",
+      "passed": true,
+      "bound": "2232242733/1280"
+    },
+    {
+      "name": "complex F upper bound",
+      "passed": true
+    },
+    {
+      "name": "complex F lower bound",
+      "passed": true
+    },
+    {
+      "name": "complete complex phase Wronskian upper",
+      "passed": true
+    },
+    {
+      "name": "true real phase Wronskian lower",
+      "passed": true
+    },
+    {
+      "name": "complex phase Wronskian variation on the actual e disk",
+      "passed": true
+    },
+    {
+      "name": "complete complex phase denominator remains separated",
+      "passed": true
+    },
+    {
+      "name": "complete complex b1 bound",
+      "passed": true
+    },
+    {
+      "name": "complete complex b0 bound",
+      "passed": true
+    },
+    {
+      "name": "complete complex b1 derivative",
+      "passed": true
+    },
+    {
+      "name": "complete complex b0 derivative",
+      "passed": true
+    },
+    {
+      "name": "complete complex log-height derivative",
+      "passed": true,
+      "bound": "27/5"
+    },
+    {
+      "name": "complete complex log-height second derivative",
+      "passed": true,
+      "bound": "2187/25"
+    },
+    {
+      "name": "complete complex log-height third derivative",
+      "passed": true,
+      "bound": "107163/250"
+    },
+    {
+      "name": "complete D2 scalar coefficient",
+      "passed": true,
+      "bound": "32817/40"
+    },
+    {
+      "name": "complete D1 scalar coefficient",
+      "passed": true,
+      "bound": "2149515627/1600"
+    },
+    {
+      "name": "complete D0 scalar coefficient",
+      "passed": true,
+      "bound": "40830011363/64000"
+    },
+    {
+      "name": "complete complex two-state covariant jet 0",
+      "passed": true,
+      "bound": "525313/65536"
+    },
+    {
+      "name": "complete complex two-state covariant jet 1",
+      "passed": true,
+      "bound": "1184644613/41943040"
+    },
+    {
+      "name": "complete complex two-state covariant jet 2",
+      "passed": true,
+      "bound": "2620488658457/26843545600"
+    },
+    {
+      "name": "complete complex two-state covariant jet 3",
+      "passed": true,
+      "bound": "1186605739753497/3435973836800"
+    },
+    {
+      "name": "complete analytic matrix coefficient bound",
+      "passed": true
+    },
+    {
+      "name": "no fourth kappa degree in the complete three-derivative matrix",
+      "passed": true
+    },
+    {
+      "name": "determinant coefficient count",
+      "passed": true
+    },
+    {
+      "name": "exact polynomial quotient bound without division by e",
+      "passed": true
+    },
+    {
+      "name": "complete quotient on the whole kappa disk quarter",
+      "passed": true
+    },
+    {
+      "name": "uniform finite-e quotient comparison",
+      "passed": true
+    },
+    {
+      "name": "uniform finite-e diagonal comparison",
+      "passed": true
+    },
+    {
+      "name": "true factor kappa minus e retained",
+      "passed": true
+    },
+    {
+      "name": "actual complete positive matrix lower",
+      "passed": true
+    },
+    {
+      "name": "true zero-mode flux positive after e continuation",
+      "passed": true
+    },
+    {
+      "name": "common support fits every original unused interval",
+      "passed": true
+    },
+    {
+      "name": "common support fits the complete two-row local radius",
+      "passed": true
+    },
+    {
+      "name": "complete C4 normalization including both terms",
+      "passed": true
+    },
+    {
+      "name": "true bump integral lower",
+      "passed": true
+    },
+    {
+      "name": "complete nonzero-mode pairing bits",
+      "passed": true
+    },
+    {
+      "name": "complete mean-flux pairing bits",
+      "passed": true
+    },
+    {
+      "name": "actual band uses its lower frequency",
+      "passed": true
+    },
+    {
+      "name": "actual unchanged band-radius comparison",
+      "passed": true
+    },
+    {
+      "name": "actual unchanged mean-radius comparison",
+      "passed": true
+    },
+    {
+      "name": "all old radial consumers retain their lower bound",
+      "passed": true
+    },
+    {
+      "name": "complete mean compact change in the full box",
+      "passed": true
+    },
+    {
+      "name": "complete mean compact change has favorable J and delta powers",
+      "passed": true
+    },
+    {
+      "name": "full output Sobolev and mean reserve",
+      "passed": true
+    },
+    {
+      "name": "true band source-to-form ratio",
+      "passed": true
+    },
+    {
+      "name": "true band delta ratio",
+      "passed": true
+    },
+    {
+      "name": "independent mean source-to-form ratio",
+      "passed": true
+    },
+    {
+      "name": "mean delta ratio is no larger than full band ratio",
+      "passed": true
+    },
+    {
+      "name": "whole mixed local error constant",
+      "passed": true
+    },
+    {
+      "name": "whole mixed local delta power",
+      "passed": true
+    },
+    {
+      "name": "whole actual fixed-parameter response constant",
+      "passed": true
+    },
+    {
+      "name": "whole actual fixed-parameter response delta power",
+      "passed": true
+    },
+    {
+      "name": "complete actual chi parameter metric constant",
+      "passed": true
+    },
+    {
+      "name": "complete actual chi parameter metric delta power",
+      "passed": true
+    },
+    {
+      "name": "complete actual chi parameter background constant",
+      "passed": true
+    },
+    {
+      "name": "nonzero radial compensator full mixed metric",
+      "passed": true
+    },
+    {
+      "name": "radial compensator complete background",
+      "passed": true
+    },
+    {
+      "name": "actual radial-column full mixed metric",
+      "passed": true
+    },
+    {
+      "name": "actual radial-column complete background",
+      "passed": true
+    },
+    {
+      "name": "actual complete first layer local mixed",
+      "passed": true,
+      "log2_upper": -1006415
+    },
+    {
+      "name": "actual complete first layer fixed-parameter",
+      "passed": true,
+      "log2_upper": -743540
+    },
+    {
+      "name": "actual complete first layer joint metric",
+      "passed": true,
+      "log2_upper": -676852
+    },
+    {
+      "name": "actual complete first layer joint background",
+      "passed": true,
+      "log2_upper": -1631116
+    },
+    {
+      "name": "largest whole-band polynomial layer ratio",
+      "passed": true
+    },
+    {
+      "name": "largest whole-band polynomial layer exponent",
+      "passed": true
+    },
+    {
+      "name": "complete actual mixed fees sum on the deep tail",
+      "passed": true
+    },
+    {
+      "name": "complete actual mixed form leaves the claimed positive quarter",
+      "passed": true
+    },
+    {
+      "name": "actual supplied input enters this same neighborhood",
+      "passed": true
+    }
+  ],
+  "bernstein": [
+    {
+      "name": "complete_C22_numerator",
+      "degrees": [
+        23,
+        1,
+        7,
+        2
+      ],
+      "coefficient_count": 1152,
+      "all_positive": true,
+      "minimum": "5275097371979054162316867063234968444303305149078369140625/3369993333393829974333376885877453834204643052817571560137951281152",
+      "minimum_index": [
+        23,
+        0,
+        0,
+        2
+      ],
+      "lower_bound": "2^-30"
+    },
+    {
+      "name": "complete_det_over_kappa2_numerator",
+      "degrees": [
+        46,
+        1,
+        14,
+        3
+      ],
+      "coefficient_count": 5640,
+      "all_positive": true,
+      "minimum": "128691318543650579433888938950695622825754842061192650089414672972586218186819820847182427314692176878452301025390625/11356855067118857664833184498250070849275646260739344691898284362197488876771842551971735167402555711886914400097909030211478150447104",
+      "minimum_index": [
+        46,
+        0,
+        0,
+        3
+      ],
+      "lower_bound": "2^-57"
+    }
+  ],
+  "bounds": {
+    "full_finite_e_matrix": "C_e > 2^-48*kappa^2 I for 16e<=kappa<=1/4",
+    "common_compact_radius": "2^-1024 J^-8",
+    "nonzero_pairing": "2^-800 rho^8 Delta^3 M^5/B^3",
+    "mean_flux_pairing": "2^-800 rho^8 Delta^3/B",
+    "whole_actual_mixed_form": "d_c/4 on the whole central band plus flux mean",
+    "constant_height": "exact null slot, not discarded",
+    "first_layer_actual_log2": [
+      -1006415,
+      -743540,
+      -676852,
+      -1631116
+    ]
+  },
+  "scope": {
+    "object": "same actual current Gamma-star and original compact profile family",
+    "input": "all central modes U/2<=|m|<=U, U^2<=B/4, with both physical traces and the two means",
+    "new": [
+      "one common radial phase-annihilating direction",
+      "entire tau interval and finite e, including exact kappa*(kappa-e)",
+      "full actual mixed central quadratic form throughout the original box"
+    ],
+    "retained": [
+      "all output Fourier modes and both means",
+      "r_U/N_band scaling and actual radial compensation",
+      "ordinary and weak affine sources, physical endpoint dependence"
+    ],
+    "not_granted": [
+      "the actual whole-network near-kernel lies in this central band",
+      "band-exterior cross terms are zero",
+      "an arbitrary physical source has a solved label preimage",
+      "the nonlinear outer F is solved"
+    ]
+  },
+  "file_sha256": {
+    "results/R119-supplement-common-low-scaled-direction-and-complete-mixed-pocket-form.md": "0e2260050262302a94d582097a0b8e9c5b50159d5639893d102ebe7a61d06e92",
+    "results/R119-supplement-actual-two-phase-five-function-Wronskian-and-low-scaled-control.md": "97c7cf4b168f4ce546534e871c966fbf1bdd0a4ca774ecb8f82c02c76efe1b6c",
+    "results/R119-supplement-all-scaled-five-function-finite-box-generator.md": "545c007f81900e1670992bb92653e05a35ef39b3692410752072d82dafcff748",
+    "results/R119-supplement-same-current-parameter-finite-box-nonradial-pocket-form.md": "cbf30e1b9784b737d6788ef340e4b75a7c84266c415a8deb07007ce6228b517f",
+    "results/R119-supplement-actual-low-scaled-full-local-nonradial-positive-form.md": "5d979b6d2916ec426f79b24c8cf45f8dd8170e6b0d3a4b060e933b66201eeb63",
+    "results/R119-supplement-complete-negative-pocket-fixed-parameter-positive-form.md": "8c883e951c8b3771417ea4d0c6285b7f29902d38c636f051200848e65b3335fe",
+    "results/R119-supplement-actual-two-phase-compact-response-and-complete-pocket-form.md": "867a63d7a90729bb634d6ed503e84bf3aa950a3fd895723c938aa10389191066",
+    "results/R119-supplement-actual-compact-profile-label-response.md": "ce7285a1e7818098e64ce68d706e0830f2d2dbc020e531fb2bc898af702f0030",
+    "results/R119-supplement-actual-canonical-profile-generator-and-complete-weak-sources.md": "3b9899adaba350486def68d641e473bdd0dd2ab26075a38f1943780ed7dd4075",
+    "results/R133-supplement-fixed-stop-D0-complete-sources-and-incoming.md": "7c2c9b0d5070427078d7fcc2384ad2d5b98e0f59c71c3a9e9dff5bebf5d7284f",
+    "source": "ccaba7f6ba6be2516ba27b32bfcd5a8addcf2dd84f87b65bbac1b9143d4dc449"
+  }
+}
