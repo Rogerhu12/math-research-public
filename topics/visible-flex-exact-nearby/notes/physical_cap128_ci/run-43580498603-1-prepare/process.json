@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_physical128_cap_CI_process",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43580498603",
   "run_attempt": "1",
@@ -71,12 +71,23 @@
       "before": "da8395ae3fd67b339dd5f75dfbb247793b13bc56",
       "after": "69896116743d6a2bef2becc86ca8118b82f97691",
       "changed": false
+    },
+    {
+      "time": "2026-11-14T09:31:41.638794+00:00",
+      "before": "69896116743d6a2bef2becc86ca8118b82f97691",
+      "after": "58002b57fe92da51f61853e3e1bbf3b7810a9e0f",
+      "changed": false
     }
   ],
   "published_checkpoints": [
     {
       "time": "2026-11-14T09:31:28.473692+00:00",
       "commit": "69896116743d6a2bef2becc86ca8118b82f97691",
+      "final": false
+    },
+    {
+      "time": "2026-11-14T09:31:40.839879+00:00",
+      "commit": "58002b57fe92da51f61853e3e1bbf3b7810a9e0f",
       "final": false
     }
   ],
@@ -91,7 +102,7 @@
     "mpmath": "1.3.0"
   },
   "all_pinned_inputs_verified": true,
-  "last_read_commit": "69896116743d6a2bef2becc86ca8118b82f97691",
+  "last_read_commit": "58002b57fe92da51f61853e3e1bbf3b7810a9e0f",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cap128-prepare-work/science",
   "consumed_published_original_candidate": {
     "moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
@@ -101,8 +112,8 @@
     "moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part003.npz.gz": "7b67e5a4b11ae45476d1507e842ae23919ca44e4ed2d64bc81bdea78e0b4007c",
     "moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part004.npz.gz": "314a6846ef2b5a257ddf20068332d105a7707b5aef27026f30477a47984eec4c"
   },
-  "snapshot_utc": "2026-11-14T09:31:39.478751+00:00",
-  "wall_seconds": 313.763997011,
+  "snapshot_utc": "2026-11-14T09:31:41.668624+00:00",
+  "wall_seconds": 315.953871979,
   "native_files": [
     {
       "path": "evidence/moving97-precomposition-actual.json",
@@ -118,6 +129,19 @@
       "path": "evidence/published-candidate-input.json",
       "bytes": 980,
       "sha256": "d72c4886083a42233dd976bd8e9d50bea0bce760caed47c6a19eba50551226bd"
+    },
+    {
+      "path": "prepared-manifest.json",
+      "bytes": 2998,
+      "sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70"
     }
-  ]
+  ],
+  "reconstructed_all_original_array_sha256": {
+    "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114/6ece4d187bdee83c8c2cffd8397b2f9eb0a7eaa832e8466ed227a3684f376faa/matrix-RHS/state.npy": "fab034d05dad94a271e4adb2a901392b4d9435465d7fd27adbba1e4b353ab86a",
+    "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114/6ece4d187bdee83c8c2cffd8397b2f9eb0a7eaa832e8466ed227a3684f376faa/matrix-RHS/derivative-left.npy": "461fcb38b3243bda96583acd56610e1202a7c3c7f45410ee4d30085ef8322137",
+    "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114/6ece4d187bdee83c8c2cffd8397b2f9eb0a7eaa832e8466ed227a3684f376faa/matrix-RHS/derivative-right.npy": "e0ca09e2b56a2cfd5a4b1df116e8a32d5060fc095123e9ceea8d4c8406704e91",
+    "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114/6ece4d187bdee83c8c2cffd8397b2f9eb0a7eaa832e8466ed227a3684f376faa/physical-endpoint-graph.npz": "172b55a6aef8a2008a084bdddb049136f69237be74d2d55b1d5cdf2e6ae4e929"
+  },
+  "prepared_bundle_sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70",
+  "finished_utc": "2026-11-14T09:31:41.332072+00:00"
 }
