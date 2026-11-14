@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R486：分级零权整连接、十三权清极与原齐次第三核](results/R486-graded-integral-connection-and-actual-homogeneous-third-kernels.md)：按权对数连接零增权，真实水平核/全特征核及加一整可逆门全付；十三权给全局清极形式。原物理式保两个混权电荷及conductor/全部carry，得到同预算p²左右提升配对和单齐次实际Smith，未删除混权抵消。
+
 - [R485：二十二权纯角导子、锐模p核与原三源返回](results/R485-weight22-pure-connection-sharp-kernel-and-actual-return.md)：固定Theta无零阶项的齐次乘子最小权22，全68类闭合并准确计算所有特征p核；累计除常数后p饱和当且仅当N<ceil(136p/11)。固定conductor及新增carry、Gaussian/电荷和实际左右提升配对全付，未赋物理像饱和。
 
 - [R483：原六sigma的CM转移与三曲线完整条件行](results/R483-original-six-sigma-cm-transfer-and-complete-three-curve-rows.md)：以norm13避开原坐标行列式，完整奇相位/六重纤维把原S/T/new投影移到旧伴随；T保必要两态平均，所有第一环带和共同伴随深度均付。实际Href环带差消未知导数后非零，原混W管随每个CM支移动，未免费赋条件零。
