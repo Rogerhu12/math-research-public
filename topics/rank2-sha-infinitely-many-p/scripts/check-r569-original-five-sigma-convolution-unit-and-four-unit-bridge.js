@@ -84,6 +84,12 @@ const k=va(vm(wantedInv[1],delta),wantedInv[0]);
 ck(h.every((v,i)=>eq(v,[w2,w][i])),"four-unit H after convolution translation");
 ck(k.every((v,i)=>eq(v,[E(3,-1),E(-2,1)][i])),"four-unit K after convolution translation");
 ck(eq(em(em(w2,w2),w2),E(1)),"raw sigma cube has no CM factor");
+const normal7Coefficient=em(normalization,en(w));
+const normal10Coefficient=em(normalization,esc(w,-2));
+ck(eq(normal7Coefficient,E(-1,0,84)),"actual complete T7 marginal is -F5/84");
+ck(eq(normal10Coefficient,E(-1,0,42)),"actual complete T10 marginal is -G5/42");
+const normal7Moment=esc(normal7Coefficient,120),normal10Moment=esc(normal10Coefficient,120);
+ck(eq(normal7Moment,E(-10,0,7))&&eq(normal10Moment,E(-20,0,7)),"actual full fifth moments");
 const massCoefficient=esc(normalization,24);
 ck(eq(massCoefficient,esc(w2,2,7)),"full five-variable weighted mass coefficient");
 const mainUnitCoefficient=em(normalization,ei(esc(em(delta,delta),2)));
@@ -118,6 +124,7 @@ return {
   constant_term_is_unit:true
  },
  normal_directions:{T7:T7.map(out),T10:T10.map(out),gram:gram.map(r=>r.map(out)),change:change.map(r=>r.map(out)),inverse:ci.inverse.map(r=>r.map(out)),determinant:out(ci.det)},
+ normal_marginals:{T7_F5:out(normal7Coefficient),T10_G5:out(normal10Coefficient),T7_fifth_moment_over_Omega5:out(normal7Moment),T10_fifth_moment_over_Omega5:out(normal10Moment),other_conditional_basis_total_masses:"zero; the conditional measures themselves are not asserted zero"},
  four_unit_pullback:{
   z:"2*T7-T10",d:"omega^2*(T7-T10)",v:"2*T7-T10+t",
   H:{T7:out(h[0]),T10:out(h[1]),t:"-1"},

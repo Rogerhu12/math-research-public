@@ -132,6 +132,35 @@ $$
 两法向不正交，(9) 不允许把它们的两个深度事件当成独立矩形。
 它们只是同一个 (5) 的实际坐标。
 
+
+还有两条实际未加权边际可直接用于 R567 的完整法向基。由
+$\sigma(-\omega z)=-\omega\sigma(z)$、
+$\sigma(-2\omega z)=2\omega y_\wp(z)\sigma(z)^4$，(8) 给
+$$
+\boxed{
+(T_7)_*\nu_5=-\frac1{84}\nu_{x_\wp\sigma^7}
+            =-\frac1{84}\nu_{F_5},\qquad
+(T_{10})_*\nu_5=\frac1{42}\nu_{x_\wp y_\wp\sigma^{10}}
+            =-\frac1{42}\nu_{G_5}.
+}
+\tag{9a}
+$$
+这里 $F_5,G_5$ 正是 R567 (25) 的原首项一基，未重新归一。
+因而同篇的全部条件 theta 系数满足
+$$
+\boxed{
+\Lambda^-_j(\mathrm{all})=
+ \begin{cases}-1/84,&j=5,\\0,&j\ne5,\end{cases}
+\qquad
+\Lambda^+_j(\mathrm{all})=
+ \begin{cases}-1/42,&j=5,\\0,&j\ne5.\end{cases}
+}
+\tag{9b}
+$$
+对应第五矩分别为 $-10\Omega^5/7$、$-20\Omega^5/7$。
+(9b) 是实际伴随测度的总质量；它不把这些测度换成常数，
+也不删去任何非恒定的原 $E/Y/W$ 条件测试。
+
 ## 3. 完整五维和六维的整卷积单位
 
 原六度核心及 sigma 核给

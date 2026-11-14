@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：fe0c3d75d8ce6dddcac2fab7e340fc4d7e16a357；2026-11-14 19:28:55 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：efc694680ff386afa35a5ee187482a40183a8b6c；2026-11-14 19:34:38 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推/改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 根规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；文件<5MB、MD/接口单文件<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；18:55:59 UTC实际git pull --rebase重试仍无可用执行环境，随即API核main/两README无变。最迟19:55重试；恢复后先实际pull --rebase核规再接API历史。
@@ -15,11 +15,11 @@
 ## 发布、归档、当前分工
 
 R1–363、R365–560、R562–570已登记；R364仍开，R561/571/572/573进行中。
-完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r570.md)、[open](notes/2026-11-14-open-before-r567.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
+完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r569-supplement.md)、[open](notes/2026-11-14-open-before-r569-supplement.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
 R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b保持，不复跑。
 root统一元数据/ref，代理只建proof/script/data blobs，结论随成随推。
 
-- theta续R572同一个实际原arith测试与R569单位G比较；T7/T10边际短补充待推，H̄偶深保val1补域。
+- theta续R572同一个实际原arith测试与R569单位G比较；T7/T10完整边际及条件总质量已付，H̄偶深保val1补域。
 - literature续R573两个指定负矩的全局exactness与规范Cartier-zero、实际非消失；R570全局线已付但系数未赋非零。
 - deep续R561原τ≤2角边界、主体子格与完整forcing/同修正d2；同预算t除法及S³/周期H主体尾带已推，续真实边界和一般K1六尾。
 - root已付R567局部残差两全strip首行/五sigma消元，续R571整个算术总行的uunit与c,d同深补域；残差非零不排原中央零。
@@ -44,25 +44,19 @@ R490–558旧五伴随/词格/四态/角型/外谱、三环带及全部未付补
 D=D14=D4+c+(2+3ω)d0，D4=(1,ω²,−2ω,0)，C=(ξ1−ξ3+x)/δ，F=D+C，E=F+13C，G=13H1+(3−2ω)F。D12=F−c与D14不同。
 µ0=PCρ0、ηC=PCη、µh=ηC+µ0/2；R1为真实u=(ωc+(1−ω)d0)/2反射，R1µ0=µ0+ηC。
 
-R560：原R536七行P_hat给五观察行，X=c−D/14、Z=d+(1+3ω)D/14，两不交strip=Zunit且X∓(2+ω)Zdeep。全部E/Y/W/log/W′/G保；wholeS14第六矩为Ω6(720Λ6−672bΛ0)，Dn不降π5。准确式及旧接口保前一交接。
-
-R564：负strip=V14deep/K42unit，wholeD/V/K三β；全观察随V→κV，保真实F−0、κF−1同阶p和p²尾，坐标全见正文/前一交接。
-
-R568：P=u−ω²D/7、Z*=Z−(8+3ω)P/10，正strip=Pdeep/Z*unit；whole140/60=−χ65λR1，原Δ回−2χλh，所有E/G/Y/W随P→κP。Q10 wholeχ65已付，u/P两步词回−χλ²原S/T但保全部q/Y/W逆转置；不延140/60至新µ−。
-
-R563/566：完整S24三态的D12²=diag(1,−1,−1)，新µ−不能用−Rc；完整frame另付全部三态D14 β。UK与D14归一交换，两个完整native补域回π5的14X−E unit/deep，第三态准确消去，不分别赋零。全部浅支、常数逆/质量、K尾p^r保持。
+R560/564/568/563/566的全十四度、正140/60、负14/42和三态两补域按[完整前检](notes/2026-11-14-frontier-before-r569-supplement.md)及各正文保持。正strip=Pdeep/Z*unit，负strip=Vdeep/K42unit，全部E/G/Y/W移动、七条件源和第六质量项不删。whole140/60只付原两态；三态D14付β，H̄ unit/deep的两完整native补域不分别赋零。u/P两步真实词回−χλ²原S/T，所有逆测试保持。
 
 R567：局部native残差Nn=β^(n+1)/(bΩ6)[χF+(κ)+F−(κ)]，F+源µ0+2ηC，F−源µ0+µR。正H转置与负R1转置的伴随均无c：T10=D4−2ωd、T7=D4−ωd，法向和全部原域见正文。两者用同一ν5=−PCσ5/84精确消σc；mσ7=24bΩ7不能漏。wholeS7 mom6=24bΩ6Λ0，S10 mom6=Ω6(720Λ6−480bΛ0)；原第六质量24be(a6−5)、11040ω²b/7均unit，不赋积分unit。
 残差首层是bΩ6Nn/(pβ^(n+1))≡C0/p+λ²C1，其中C0∈p含原log质量。**非零未付，且即便非零也不排原中央同时零**。R567范围修正已推d20ab976：整个Tn=3βn(JS′−6δJT′)=Nn+Cn，Cn=∫uunit(a−aRc)Δ+3∫c,ddeep aρ；必须处理全部q/carry/原权补偿。
 
-R569：未经新角投影的真边际(D4,d)_*ν5=(ω²/84)νf4⊗νσ。w5=1_D4,dunit D4⁴d使整个五维质量(2ω²/7)Ω5(1−βκ4)(1−βκ)为unit，六维加c1_cunit亦有整卷积逆；全部混合cut必须随全向量平移。原R562四unit经τ4=z4·1unitνf4逆得到同一ν5的显式单位行G(D4,d)，保平移t及五个真实unit条件；完整原arith q_nℓ另行通过同一个u/P词返回。两测试同源同域但尚未等价，不以G单位代全J非零。
+R569：真边际(D4,d)_*ν5=(ω²/84)f4⊗σ。w5=1_D4,dunit D4⁴d使完整五维质量(2ω²/7)Ω5(1−βκ4)(1−βκ)为unit，六维加c1_cunit亦有整卷积逆；全部混合cut随全向量平移。R562实际四unit变为同一ν5的单位G，保t及五unit；原arith q_nℓ通过同一u/P词返回，两测试尚未等价。补充完整(T7)*ν5=−F5/84、(T10)*ν5=−G5/42，Λ−/Λ+总质量仅j5为−1/84、−1/42，其他总质量零不代表条件测度零。
 
 ## 固定负矩与 Cartier
 
 R533/554两负矩同域差及全S6双核保K/四伴随；R540/549完整Schwartz/有限角色/普通地点/周期及Cartier上尾按原文保。147个首层点只是有限证据，p61首层零不等p进零。R562四unit(I4,J)=O与反对称杀P只对独立伴随，原混Y/W条件未付。
 
 [pairedV](notes/2026-11-14-paired-verschiebung-cartier-checkpoint.md)：同一r/N/M、两微分方程、规范Cartier-zero和deck相位；目标最高A4/h、A1/h4未证联合非零，十二jet不传播全纤维。
-R565：zV=r4yNx、QV=864r²y³rx²Nx，aT=y(T)Nx(T)/N(T)、gcd(q4,QV/y)=r²x。基E0当前g≡19mod24，wholeC12=−A12付C(q4DzVω)=h²(x6+20x3+10)ω/18最高unit，b17保θ/Frob根。该双线性行不等I4/I1乘积；分部配对对R4加Ax^(3p)+B不变，须再结合原规范Cartier-zero。
+R565：全V差/deck相位/gcd和wholeC12=−A12付C(q4DzVω)=h²(x6+20x3+10)ω/18，最高unit及b17的Frob根全保。双线性行不等两负矩乘积；分部配对看不见R4最高Frobenius项，须结合原规范C(R4ω)=0。详前检/正文。
 
 
 R570：同V的R_i=D^(p−3/p−6)q_i=P_i(X)，X=x³，a_i=[X^p]P_i。固定二/三挠完整theta平移付P_i(0)=−2ba_i、P_i(−b)=3ba_i，非任意Cartier-zero多项式。整个C(P_i dlog(−x/y))=−a_i Ψ_b，Ψ_b=dX/6+2b dlogX/3+3b dlog(X+b)/2非零。I_i modp零等价该整微分exact，原函数显式多项式degree≤p−1；共同代表(X^p−6X−2b)dlogτ。b17的a/矩因子b^s/h^(1或4)全保。**未证a4/a1联合非零**；p依赖degree p−1原函数不赋有界测度或R418全jet改善。
