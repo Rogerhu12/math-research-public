@@ -34,3 +34,8 @@
 - R743闭合原S支持pure-p primitive的存在和真实p-flat校正，原q斜率2(a−16b)=−ε(J−18)；完整全球对偶、两个q项及负adjoint号保留。
 - 证明SHA0b4df6133ca11f1837db0ea31a5f226e74c2e9d1b6f2254c0571b5843bc809fb；Milne原文Chapter I Theorem4.10(a)核实，未将flat条件替成ordinary strict-p或推出J/b数值。
 - HANDOFF/open/index同步；R742推送遇非快进后立即pull/rebase已成功，两README未变。仅清除git标明的失效tmp pack并关闭本地自动GC以防盘满，无数学重算或共享设施修改。
+
+## 2026-11-15 00:21 Asia/Taipei · serre-public-resume-20261114
+- R744用全部原jet整数赋值及完整Hodge尾，证明原η≤1组件在整个p4盘除center后恰由次数≤3的Qp Weierstrass多项式给零；不是有限截断。
+- 精确d≤η+2+μ、Σ(vs−4)=−μ及字段次数≤3给深度/有理性分类；保真实KS与全coarse换参，原W实际系数和高度仍缺。证明SHA828b3d745b64b4dd22572cca2c6fce65889e32923364dcc154f2afc33dc56747。
+- HANDOFF/open/index同步，Bosch原文closed-disc preparation已核；无新数值计算或共享设施修改。继续原Hodge输入、ordinary比较与signed CM jet。

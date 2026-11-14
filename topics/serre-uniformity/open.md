@@ -122,7 +122,7 @@ $$
 \frac{16I_h(p^7u)}{p^7M_{2,h}}=u+pH_h(u),\qquad H_h\in u^2\mathbf Z_p\langle u\rangle.
 $$
 其在每个完整值域上均为等距自同构；真实KS标量$\gamma_h$只保非零，未设单位。
-尚未覆盖全部候选$p^4$盘或深度4–6；更不将正秩有理点条件替成Abel回零。
+R742自身只处理深盘；下面R744控制整个$p^4$盘的零数，仍不将正秩有理点条件替成Abel回零。
 
 R740用真实循环整格Gram商及T不变线证明$v_p(N_h)$非负偶数，
 R741据R733几何均值给原单位标签占比$U/g>(1-\epsilon_p)/2$，
@@ -140,6 +140,20 @@ R739公开run43610788824只复用原五SHA输入：p47/h7原N赋值4、首单位
 准确圆分Norm决定9/21位精度，零纤维/格点/DFT重算。
 R706的5992素数完整窗口仅137147的Cp−3为零；R722已闭合其原M2单位，
 两非中心scalar根深度7/2非Qp，完整p4等距；仍非高度排除。
+
+[R744](results/R744-original-depth-four-Abel-root-polynomials.md)
+进一步给同一$\eta\le1$原组件在整个$p^4$闭盘的完整因子：
+$Q_h(u)=I_h(V=pu)/(E_1pu)=p^\mu U_h(u)W_h(u)$，
+$U_h\in\mathbf Z_p\langle u\rangle^\times$、$W_h\in\mathbf Z_p[u]$ monic，
+$$
+ d=\deg W_h\le\eta+2+\mu\le3,\qquad
+ \sum_i(v_p(s_i)-4)=-\mu.
+$$
+原$s/p^4\leftrightarrow V/p$是完整Qp等距自同构，center简单、其余零恰W根，
+字段次数≤3。μ0时所有非center零深度4；实际Qp零仅可能深度4/5/6。
+η1、μ−1且d2时，真实一次系数单位给两个Qp零深度4/5，否则Eisenstein两根深度9/2非Qp。
+前四jet决定次数及scaled reduction，完整W仍依全尾，尚未求出其实际系数。
+这是原Abel的全盘低次数接口，未证明W无有理根，也不替真实高度共同无根证书。
 
 ### R717/R722 原精确范数：137147 目标完成
 

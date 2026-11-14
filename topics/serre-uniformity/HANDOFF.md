@@ -4,8 +4,8 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：0ec61e90262d2c7c05617fd91b6a022ce621f071
-最近本地pull：2026-11-15 00:17:57 Asia/Taipei，main=0ec61e90262d2c7c05617fd91b6a022ce621f071，两README blob均未变。终端已恢复，原blob:none部分克隆继续；至少每小时实际pull --rebase及每次推前pull，检查两README差异。旧本地R716重复提交与现行证明逐字相同，保留分支后跳过重复元数据，详before-R741归档。
+已读规则提交：db7d89f9c36bfc1d296766cefe510b54aefb5394
+最近本地pull：2026-11-15 00:23:36 Asia/Taipei，main=db7d89f9c36bfc1d296766cefe510b54aefb5394，两README blob均未变。终端已恢复，原blob:none部分克隆继续；至少每小时实际pull --rebase及每次推前pull，检查两README差异。旧本地R716重复提交与现行证明逐字相同，保留分支后跳过重复元数据，详before-R741归档。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权；非快进立即pull --rebase重推。PAT仅CLI，根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB，大可复现中间量只artifact。日志本题≤5行；不设独立审计/冻结审批门。
 
 本次前完整归档[before-R742](notes/2026-11-14-public-handoff-before-R742.md)，内接before-R741/R738/R736/R735及更早链；[open完整归档](notes/2026-11-14-open-before-R742.md)保留全部旧公式。已成计算不得为包装重跑。旧未推成果按原记录重做，不依赖遗失对象。
@@ -14,10 +14,10 @@
 
 - **R742已证明**原全部正标签、所有允许flat jets同处p未分歧有限CM域；本原M2非零时η∈Z、η≥−2，原P_h赋值偶数。原全GL2 determinant与Serre导数/weight0 Shimura reciprocity保tame相位；原c1运输不额外再乘ζ²。R737选h给p≥2^160某η≤1、p≥2^512超过g/16；完整Tate为16I_h(p7u)/(p7M2h)=u+pH。R729闭合充分大前提，深度4–6与真正高度仍缺。证明SHA17eac5ea689aa2606a197952a2cf97b7f963006f3193d598f22c80b7b7d0bdd8。
 - **R743已证明**原p43严格p类w的S支持pure-p primitive存在、可按真实R189校正为p-flat；q斜率2(a−16b)=−ε(J−18)，完整全球对偶和两个q项均保留，规范余项恰Fp w。证明SHA0b4df6133ca11f1837db0ea31a5f226e74c2e9d1b6f2254c0571b5843bc809fb；未给实际b或J/b桥。
-- **R744根继续**：用R742 η≤1及全部尾，在整个原p4盘给完整Weierstrass次数≤η+2≤3；尚未写/推，不计结论，更非高度排除。
+- **R744已证明**原η≤1组件在整个p4闭盘的完整Abel函数：center简单、其他零由Qp上一 monic W精确给出，d≤η+2+μ≤3；Σ(vs_i−4)=−μ，字段次数≤3，Qp零仅可深度4/5/6。μ0全部深度4；η1/μ−1二次项按真实reduction分两有理根4/5或Eisenstein两根9/2。完整尾而非截断；尚未求实际W/高度。证明SHA828b3d745b64b4dd22572cca2c6fce65889e32923364dcc154f2afc33dc56747。
 - **R745 global**继续原p41 Hodge/adelic有限表与公开Actions：原CRT k_r≡0mod6、rmod41，保6逆元、αs正扭和原c1的ζ² transport。不得重算R738拓扑。真正q/β/高度未出。
 - **R746 unit草稿已完成待推**：实际ordinary Hilbert A/π²的strict-p Bockstein接口；与R743 flat条件是两个独立泛函，不能凭维数给Jflat∝b−24。**R723只保留真正J/b桥**，实际J/b仍未知。
-- **R747 cartier**准备原全部jet更强全局字段/平方根接口；须核K6与原复共轭相位，尚未计已证。同时继续同一真本原h的原N、两个Cartier系数同时单位。
+- **R747 cartier草稿完成待推**：原全局T_h∈F0且T_h²=2N_hP_h，核K6与原复共轭相位；根正读完整证明。**R748**接原signed T实际提取，复用R745有限向量与R739原P，以原Serre导数严格球定±，不得另任平方根或重复fiber。
 
 ## 原模型、拓扑、非消失
 

@@ -196,3 +196,6 @@
 
 
 - **R743（已证明）**：[原首矩与准确有限平坦primal二次斜率](results/R743-original-first-moment-and-the-exact-flat-primal-secondary-slope.md)。完整全球H1与Poitou–Tate给S支持pure-p primitive存在，原Robert校正使p-flat规范模w唯一；保两个q配对与负adjoint号，得$2(a_q-16b_q)=-\varepsilon(J_\ell-18)$。仍须同普通Hilbert链比较，未求J/b或冒代pure-p24。
+
+
+- **R744（已证明）**：[整个原深度四Abel盘的至多三次根多项式](results/R744-original-depth-four-Abel-root-polynomials.md)。原η≤1时完整尾给$a_k$赋值≥k−η−2，精确Weierstrass因子次数d≤η+2+μ≤3；原coarse全换参保零/重数/字段，center简单、非center根次数≤3且Σ(vs−4)=−μ。真实Qp零仅可深度4/5/6，二次临界分两有理根或Eisenstein。没有用截断代全函数，实际多项式及高度排根仍未完成。
