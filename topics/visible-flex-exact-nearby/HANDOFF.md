@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 15:48:55 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 15:56:36 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则、同步
 
 只在 Rogerhu12/math-research-public；所有新数学代码只用该公开仓库 Actions。每结论独立推，非快进立即接最新 main/rebase 再推，不 force。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34 UTC）；12:35 后终端失联，15:25重试仍无环境。按根规则8只经已连接GitHub处理<100KB文本，禁止经connector取二进制或大文件；先查process/目录库存size，摘要宜<60KB。API不是git pull。
-最新远端 main/两README blob 核：cec2c6fbedd186e3e539ab9f9bfc466d8625ac29；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。runner真实pull/核差异≤10min或短child前后；43610523058在15:32真pull到fc4863236b6965ff47fe13dc3cd4f3dff23c3c53，两README无差。终端恢复立即回本地git。
+最新远端 main/两README blob 核：583de3a9bf791ec9fd1f8faac15b2e6995bba6ec；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。runner真实pull/核差异≤10min或短child前后；43610523058在15:32真pull到fc4863236b6965ff47fe13dc3cd4f3dff23c3c53，两README无差。终端恢复立即回本地git。
 小文本发布使用最新base/parent、expected_sha、force=false；竞争立即接新main重推。PAT仅瞬时CLI/env，不进文件/输出/提交/connector。root独占branch/ref/H/open/results/log；代理仅小blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次压缩前H/open/log逐原字节归档于 notes/2026-11-14-{handoff,open,log}-before-closed-leading-amplitudes.md；各前档链完整。完整SHA/原失败/原范围均在对应result和manifest，不用短SHA重绑，不重算已成数学。
@@ -33,7 +33,7 @@ M32repair根43600926806/23门，outer+4650body43601149891/25+8门，3594接口�
 full realδ96根collar43606747196/19门：band192、ratio<3、中间index1、输出288；EH<131.016385、qc750/749、headloop<1/500000，source/port→全态1/12000、1/100，两trace1/36、9/2，角0..4。允许频率独立p*∈(1/8,1/5)，δbody/outer仍另付。
 global Riccati相对R1–20已证：τ相对form⇒p/g相对误差τ，M∂ratio≤10τ；C−I≤3τ、dotC≤32τ、频generator差≤64τ，N||ΔR||≤2048τ|M−N|，不留Nτ无界项。
 root现走更直接的新参考下旧M32主块+δM96小块，原4650系数复用，只新scalar lower-flow/sweeps。全Γ/mean/outer/未知头保。初稿小块drift16/40、local28/84 ΔBA、primitive3/9 βΓ/W待完整新合同/consumer。
-右端43610918974在数学前缺shard013失败；v2从原prepared manifest fd7594990ecc126e63a79198e00bbaf5912537ff1db480ade8ac82ff8917c893复用末shard1,517,845B并补公开，无trial重构。43611611635 workflow success；原数学source/7manifest未改，待根核92750B process。该source全193 exact Fraction末值+6strip/角0..4+δ1e−8/1e−10，不授outer/body全图。
+右端43610918974数学前缺013；v2原字节复用后43611611635实际14门/0.414729s全成，native8f6019cefaa96da64eadb3b19a98110dc81a0d5760a091e6fdffe538c971e606。完整193+mean、6strip/角0..4保；全|δ|≤1e−8真p*∈(.1428571428570,.171097772394)⊂(1/8,1/5)，U_A1/8<1.645272e−9、Vne<9.615692e−9、ψ<1.531287e−11。原13片已补公开，无trial重建；须续付完整outer/body。runner15:42真pull到5d34a1a1cb06853f71effb3a03f12ae18d059e2a，两README无差。
 
 ## 相位、Airy、强余项
 

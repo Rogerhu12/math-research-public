@@ -257,3 +257,7 @@
 ### 完整leading Airy幅度的闭式与原seam传输
 
 [证明L.1–L.20](results/R133-supplement-closed-leading-Airy-amplitudes-and-exact-seam-transmission.md) 给原两行的共同diagonal、真mean积分与a0/b0闭式，ηr项准确消，leading逐原seam C1。13-input公开消费者只评其实际界/有限恒等式，不重算原fold或target；数值界尚待run，高阶幅度/真实jump费用/数值strong cutoff继续。
+
+### R133：真实 full193 右端与整个参数球
+
+见 [实际右端与参数球](results/R133-supplement-actual-exact-right-Z-endpoint-and-parameter-balls.md)。43611611635实际14门，0新目标/旧响应求解；原013末片逐字节复用，独立mean与各角导全保。全|δ|≤1e−8的真终端p*∈(1/8,1/5)，可接全δ collar；完整外图与正区仍需支付。

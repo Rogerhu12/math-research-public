@@ -39,7 +39,7 @@ $\|q_\nu-q_*\|\le.004995427801979700$。只有真全源全频BVP结论才能授�
 
 接续顺序：
 
-1. 精确右端全193审计：43610918974在数学前缺原013分片；v2从原prepared artifact复用同字节并补入公开库，未重建trial。43611611635 workflow成功，根核原process及6strip/角0..4/两δ半径结果。
+1. 精确右端全193审计已实际完成：43611611635真实14门，完整mean、6strip/角0..4与两δ球保；全|δ|≤1e−8真p*∈(1/8,1/5)。原013按原字节补公开，未重建trial。接下来把实际新u/v/ψ及固定物理C差代入完整外图和正区。
 2. 用真实末端系数重付物理无限Fourier曲率变化、Hilbert共轭、完整非线性DN/Robin图、mean、fB与所有head/source列；确认$p_*$和真实外反射。
 3. 原4650 repaired行、Z全区pair及角导数包络逐格对齐；旧intrinsic不重算。新scalar Riccati lower-flow和Volterra sweeps保全部闭格及接口。principal mean导数仍是unbounded transport，不能塞进同阶小扰动。
 4. 合新body、fullδ根collar、真实outer，得到同一全head下正图，再接δ*实际root有限部与强返回。
