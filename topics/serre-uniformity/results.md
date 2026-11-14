@@ -139,3 +139,6 @@
 
 
 - **R726（一般充分大素数，已证明）**：[原CM点差的统一本原非消失](results/R726-uniform-original-primitive-nonvanishing.md)。固定o的小高度点由乘法独立性、模p注入与素理想赋值投影给N_o(H)≤C_AH^1/2；大阶Rankin、全部可见格点和完整无穷尾合得B_p→0。保留原κ_p^m与signed-ray，E1逐点Gaussian比较给原两均值误差o(1)/o(logp)，所有充分大p≡2,5mod9的指定L′(g+)L(g−)非零、原β给MW基和log同构；不再限制ω/radical，不声称实际高度排零。
+
+
+- **R725（原正CM模型已证明）**：[实际椭圆系数、最小分裂域与p处微分格](results/R725-original-CM-elliptic-model-and-splitting-field.md)。固定E27的标量挠点积w与原六阶投影r0=(w−w_s)/2给b=r0^6；v_p r0=1/(p+1)严格，L=K(b)次数(p+1)/6。原正κ4恰C:y²=x³+b，核多项式resultant、p-Eisenstein定义式、typeII最小模型和具体同源cocycle全部给出；保留真实微分逆尺度。尚未生成原q→C、β坐标、KS比例及实际高度首项。

@@ -4,8 +4,8 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：3355cc94b75d5d2b9db7c96c26019283dcac9332
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions各发布前实际pull并核两README，最近R717 direct-chirp发布于14:02:50UTC实际pull后核查，无差异。最近GitHub集成核查：2026-11-14 14:13:15 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
+已读规则提交：f1f56edd15f43bd4dde8d2e8adfc87038ae180a4
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions各发布前实际pull并核两README，最近R717 direct-chirp发布于14:02:50UTC实际pull后核查，无差异。最近GitHub集成核查：2026-11-14 14:13:58 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
 
 仅公开Rogerhu12/math-research-public及其Actions。每结论单独推main已授权，禁强推；终端非快进立即pull --rebase重推。PAT仅CLI。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB、大中间量不入库。日志本题≤5行，改共享设施须说明。
 
@@ -32,6 +32,8 @@ Cp全p单位仍缺；critical-sigma-jet-parameter-boundary.md证明改Gaussian�
 
 R575原正商、R593/R596原η/χ/刚性化/tensor/截面全部保持；R690/R694/R696给实际坏靶Ω={0}。R634外积消A高度矩阵仍保Y项/常数；R682共同首阶，R703/R716有限代数jet提取和全相对尾已证，后者免预求γ。一般p实际模型/关系矩阵/规范前缀仍缺。
 R724现闭合规范求值接口：Y splitting在Λ中含因子2精确抵消；完整adelic Hecke/GL2型使原η轨道给MW基，ell=yᵗL⁻ᵗHL⁻¹eη而不反演H。代数universal-extension提升经Δ=logI Z−r(logQ)校正，用同一Poincaré纤维群对数求原λp/d_i及全部非p项；形式全尾明确。实际模型/高度jet未生成，(724.33)有限Bézout排根条件未实过。137147原R616前提已由R719闭合，不能据此称高度排零。
+
+R725原正CM椭圆分量现显式：E27:Y²=X³+16、w=∏t([a]P)、r0=(w−w_s)/2，b=r0⁶，L=K(b)次数(p+1)/6。正κ4恰C:y²=x³+b（逆向256b），v_L b1/typeII最小模型，核resultant及λ(a)=aκ(a)r0/a(r0)完整给出。原J_X→A→C、β坐标、NS/Picard与KS尺度仍未生成，继续这些实际接口。
 
 ## R717/R722 原精确范数：目标已闭合
 

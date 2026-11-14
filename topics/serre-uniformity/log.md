@@ -1013,3 +1013,10 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 显式Chebyshev π≤8x/logx、乘积常数300与固定A304使所有常数有效；E1逐点保留Gaussian，原两误差o(1)/o(logp)。
 - 接R616同一原κ_p^m/Galois轨道/Gross–Zagier，全部充分大允许p的指定非消失、β生成和原log同构已证；R616/R714加后续链接。
 - 没有新数学计算/重跑；仍须真实高度与候选排除及变化D控制，继续R725原模型与q/β输入。
+
+
+## 2026-11-14 22:13 Asia/Taipei · serre-public-resume-20261114
+- R725给固定E27的完整primary角色、原正θκ及真实最小分裂域；原两挠点积r0=(w−w_s)/2非零、v_p r0=1/(p+1)，b=r0^6生成L。
+- 原正分量准确C:y²=x³+b，反向256b；核resultant、p-Eisenstein定义式、typeII最小模型/微分尺度与具体同源cocycle闭合。
+- 根核完整3挠、三同源/投影逆号/原角色，并读González–Lario一般Th1.1–1.2及Schütt原例；未套不同CM域特例。
+- 原q→C、β坐标与NS/Picard/刚性化及KS尺度仍缺，继续实际高度输入；没有新长计算或重跑完成数据。
