@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文持续推进，不等阶段确认。**
 
 - 旧库首次全文读根及课题README（含全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：4782b2deef6925188dec6dad0d9f73bd61b96516；2026-11-14 16:06:47 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：9814077f393a1b4999b96ce93c9153def6e246a7；2026-11-14 16:08:46 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 现仅在Rogerhu12/math-research-public工作。每次pull后及至少每小时核两README差异；有变立即执行。规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13用公开库Actions，旧runner/ci-queue停用。
 - main逐条commit/push已授权；禁强推/改写已发表历史。非快进立即pull --rebase重推；无执行环境时API用expected_sha/force=false，拒绝立即读新头核规后追加，不冒称git pull。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。仅写本课题log、每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
@@ -14,9 +14,9 @@
 
 ## 发布、正在用的文件与分工
 
-R1–363、R365–536及R538已登记；R364仍开，R537在研。R529=4c7d3db5，R530=7cd6a31e，R531=ac8e6b1e，R532=cc069ed8，R534=a86406a7，R535=87e0e9a1，R536=0731adf6，R538=ae4f3a4f。全部证明、脚本和原量词由results及分段索引导航。R501原证书已恢复；R502公开Actions run43596695716/job132452617972（来源1dafbfa7，p239/D40/81行）已成功，原生JSON/日志在da54025b，不需重跑。
-最新完整接口：[本轮HANDOFF](notes/2026-11-14-frontier-before-r533.md)、[本轮open](notes/2026-11-14-open-before-r533.md)、[完整旧结论索引](notes/2026-11-14-results-index-before-r531.md)；各自保前轮归档链，压缩不关闭旧支线。活文件为HANDOFF/open/results/log、PROOF-INDEX-R501-R550及各R正文。
-root统一元数据及逐条发布，代理仅建proof/script/data blobs。R532已修正唯一坐标显示式x=(K−J)/(2+ω)并发布；R534已登记并支付跨s双接触缺口。theta续R539实际混Y权/完整补域（R536零质量纤维补偿已付）；literature续原A5/J近相消与混Y（R538同域收缩已付）；deep续R537原三层α/β及forcing。root已付R533完整degree6核及固定负矩接口，继续其实际双unit域和原中央的比较；正确Katz对偶不直接反射m→−1−m。结论随到随推。
+R1–363、R365–536及R538–539已登记；R364仍开，R537在研。R529=4c7d3db5，R530=7cd6a31e，R531=ac8e6b1e，R532=cc069ed8，R534=a86406a7，R535=87e0e9a1，R536=0731adf6，R538=ae4f3a4f。全部证明、脚本和原量词由results及分段索引导航。R501原证书已恢复；R502公开Actions run43596695716/job132452617972（来源1dafbfa7，p239/D40/81行）已成功，原生JSON/日志在da54025b，不需重跑。
+最新完整接口：[本轮HANDOFF](notes/2026-11-14-frontier-before-r539.md)、[本轮open](notes/2026-11-14-open-before-r533.md)、[完整旧结论索引](notes/2026-11-14-results-index-before-r531.md)；各自保前轮归档链，压缩不关闭旧支线。活文件为HANDOFF/open/results/log、PROOF-INDEX-R501-R550及各R正文。
+root统一元数据及逐条发布，代理仅建proof/script/data blobs。R532已修正唯一坐标显示式x=(K−J)/(2+ω)并发布；R534已登记并支付跨s双接触缺口。theta已付R539混Y八度两态，续R541实际Q/R自由sigma及完整补域；literature续原A5/J近相消与混Y（R538同域收缩已付）；deep续R537原三层α/β及forcing。root已付R533完整degree6核及固定负矩接口，继续其实际双unit域和原中央的比较；正确Katz对偶不直接反射m→−1−m。结论随到随推。
 
 ## 完成桥与全部保留分支
 
@@ -36,13 +36,14 @@ R538整个Π=(J,A5,B2,C30)七正矩=(−1,0,0,20,0,0,8)ρ/27；未改P_K附Edeep
 
 R533 whole(U,V)两核=a[H∧f1+6bf3∧f4]/a[H∧f4+2f1∧f3]，H=(xwp³−2b)σ6，保双unit负矩及真实κ逆域。条件K³矩阵A平方仅给K6真实值的1/4；原joint余项R=K³Σ−AΣ虽U推前0，其K³推前=−81bΩ6ΠΣ/4并有单位矩。负矩非零与完整算术特征仍未付，不能迭代边际条件矩。
 
+R539 L=(W−Y)/2=ωbarγc+d0、M=c−bar(ωbarγ)d0，整det−8。wholeK8=¼ΣE4T−½ΣE2T=−B8，非scalar且平方1；原两轴共两态、其余四σ保全。L⊥C/F/G使R536同测试不动；偶m之Y_m=Y−3ω(κ^-m−1)L/8与W_m=W+(16−3ω)(κ^-m−1)L/8整同行回λ^mβ^n原S/6δT。Dn在m<n落合法域，质量0、两中央v=n−m，奇n/m=n−1给v1；真实补域须给反号补偿，M测试须完整转置。
+
 ## 惰性：同一原格、真实三层与forcing
 
 p=6s−1>83，全Γ=O[w,ε]/(w^s−pε,ε³,w^ellε²)，原M=c*U0m13J保P134/charge40/十三自由行/两13行carry。R473/485/486固定conductor10980、22纯角/13清极及全部D/q门保留；环境Smith不代原像。
 R479–526的原低行、高尾、十三行carry、全Γ与同一M/p³修正均保完整归档及正文。R502首Bockstein的rawζ³/V1/ξ/normal仍活；R507只有ε行sp的唯一p-Smith及psa forcing，P(imJ)稳定未证。R511 ξ=(3/4)T2βmir，负镜对偶仅等价重写；R514/517全十九角和切向返回未付K2低核=kF²。R521固定边界Dc=3C∩cπ*S∞、长3c(u+4b)、forcing残数b²m(4t0−1)须杀真实jet核及余列。R524三层A=N(cE)(−qP)、B=N²(cE)(−hP)、C=N³(cE)(−SP)及同源α/β保留；二次临界只有最内F²层负度，外两层与连接未付。R526低轴方程6(1−t)δx−(1+2t)x=2t/3仅modt^s，排单/两权不排全支持。
-R525清分母导子V无正X次数不变因子；残数与D^p排全局有限可分ODE解。任意P次数(A,B)可见接触T≤s给T≤2AB+B。真实k权Wronskian、q=k(k−1)/2、AΣ=Σ(3c+degf−ordf)满足H≤vmin+q(2AΣ+2q+1)。原E_N=18u+max(0,floor11r/34−4)、C_N=ceilN/68；临界支持至少常数N^(1/3)，仍允许O(N)权，未给forcing/中央非零。
-R530 Qp(z)=(z^p−z)/p在源j及全目标U_m Qp(δ−13−r_c−c_m+α)U_m^-1两端整；同一p²左右提升有完整混权配对。所有Gauss双交换子、两wrap与U0高尾保留。E_N≤p−2时可α=pz使源可逆，固定pν可用有界整数代表；严格限同一B或conductor·B矩阵，裸Q保A未证，实际配对值/像饱和待付。
-R534双接触引理：P及VP同时消到T≤3s仍给T≤2AB+B；小因子原低轴控制，重复大片由10s/3界排除。三Gauss moment法向变分为正规严格下三角L，支付ΔW_X高阶，未延长ODE。真实首核F0/F1到H=s−d、F2到K=ell，2H+K≤v1+v2+v3+q(2AΣ+2q+1)。同一M=U*m_dJ的m_d只有0/1 Smith，primitive p²核约化必Jbar=0，左端准确2s+ell。原二次临界liminf k/N^(1/3)≥(3/7)^(1/3)，p常数[34(2+τ)/147]^(1/6)，低ell为(68/147)^(1/6)。具体跨s缺口已付；仍允许O(N)权，须接真α/β/forcing及同一R。
+R525/534完整零估计及跨s双接触已付：P/VP到T≤3s仍T≤2AB+B；原Wronskian三Gauss行给2H+K≤v1+v2+v3+q(2AΣ+2q+1)，q=k(k−1)/2，AΣ=Σ(3c+degf−ordf)。同一primitive p²核的m_d只有0/1 Smith，故左端真为2s+ell。原E_N/C_N帽和临界支持liminf k/N^(1/3)≥(3/7)^(1/3)、p常数[34(2+τ)/147]^(1/6)全保正文；仍允许O(N)权，须真α/β/forcing。
+R530 Qp两端整性及所有Gauss交换子/wrap/U0高尾，只对同一B或conductor·B；裸Q保A/像稳定未付。有界代表不添独立Smith行。
 
 Fermat移位排除接口见notes/2026-11-14-fermat-shifts-and-kernel-syzygy-boundary.md：全部移位恰生成canonical j的整对角投影，混权式Cα=M Qα−F*α M在原左右核方程理想内。仅增移位不加独立Smith条件；需真候选值、未付提升或核/像稳定，root转这些实际条件。
 

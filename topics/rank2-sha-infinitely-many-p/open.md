@@ -247,3 +247,7 @@ R538未改P_K的E深/Kunit整条四输出返回已付，系数βn(8+20κ3n−κ6
 ### R533：固定负矩的实际双单位来源
 
 原U=2J/V=2K两变量核准确为a[H∧f1+6bf3∧f4]与a[H∧f4+2f1∧f3]，保任意实际两变量域及whole核心；固定负矩I−2(f4)/I−5(f1)有四条准确双unit接口。显示联合余项U推前0而K³后有单位矩，严格排除直接迭代条件矩；完整算术特征及原补域仍开。完整证明见[R533](results/R533-original-degree-six-two-variable-kernels-and-negative-moment-interface.md)。**待做：** 把这两个真实双unit积分与原S/T中央的完整补域联立，或支付原f1/f4全部算术特征及正确普通地点的比较。四条非零等价本身不赋任一端非零，U边际零也不允许删除K³纤维。
+
+### R539：已接原两中央的实际混Y核
+
+原L=(W−Y)/2及Norm8伴随有whole非scalar两态核；其余四σ全保。L核保持R536同一个零质量测试，偶深m的准确Y_m/W_m同行返回原S/T；原Dn在m<n确落合法域，局部两中央赋值n−m，奇n取m=n−1得v1。所有反号补域及M转置仍保。见[R539](results/R539-original-degree8-mixed-st-core-and-amplified-central-domain.md)。**待做：** 同一个cubic carry上的Y_m/W_m两完整补域联立，保κ^-m及所有输入单位条件；奇m的第二态中央未识别，不能免费赋零。原网格v1本身仍不排补偿。
