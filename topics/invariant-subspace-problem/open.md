@@ -107,19 +107,21 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R299逐位内函数](results/R299-boolean-product-inner-kernel-and-complete-primitive-energy.md)现给同一物理Pick正核与primitive源保持Gauss分解，完整平方和保全部创建层/占据对角D_t及高次精确消去；硬端首尾确含J1u、A_Uu和三次桥。尚未把L1A_U识别为该正核的准确Schur块，不能由一般内函数收缩免费插入第一MP逆或推出κ。[实际三阶dual塔](results/R299-appendix-nonreal-coherent-norm-on-actual-three-step-dual-tower.md)另给七位K2相干范数的负整数判别式，排真实塔必实根捷径；仍不否定S1。
 
+[一次三组高出生剖面](notes/2026-11-14-three-group-near-equal-hard-top-profile-789f.md)保整个约化块，r至48的15预设点条件受控，未见可靠>1或发散；仅数值线索。同步三弱位的联合Schur仍开，不能逐次套弱位极限而省去随其余权变化的常数。
+
 [R286 固定源全高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源逆平方根能量和原慢尾全height/几何和。实际t_q祖先出生随q上移，固定birth塔最终无分量；受限逆后不自动保有限支持/固定birth，跨出生graph、完整e_q和N=M仍开。
 
 [R284 零模Gram](results/R284-cross-birth-zero-occupation-grams-and-exact-schur-lower-bound.md)付Q/R交叉、Γ2高birth与R Y3†R*下界、有限正权p≥2严格正；[Fischer/局部界](results/R284-appendix-fischer-remainder-and-local-inverse-square-root-control.md)付2/(M−1+2s)余量与不损外尾的物理块coercivity。仅给J*e_I的逆平方根能量，一般平方增长/graph识别仍开。
 
 [R279 全高度仿射 MP 比较](results/R279-bosonic-affine-primitive-gram-transfer-and-low-occupation-bounds.md)给 X_n≥I+(n/r)(X_r−I)，全有限合法范围/无限正 ℓ² 行均成立。全部低占据相邻常数改善，首边 sδ≤1/(2√2) 已得 c1；原慢尾范围 s≤(m+1)/(6√2)，未覆盖一般巨出生。真硬核 Γ2=2I+4L*L+M*M 的联合 M 能量仍缺平方下界；[共同 annihilator 反例](notes/2026-11-14-common-annihilator-affine-sharpness-789f-next.md)说明仅 Euler/全坐标不变性不足，反例不是 Boolean。
 
-[R275一位全高MP与三次创新](results/R275-one-bit-full-primitive-schur-recursion-and-innovation.md)保同源/硬顶与两对角继承；原三块SOS、联合占据及R278 Serre积分完整公式保[此前全文](notes/2026-11-14-open-before-all-height-strengthened-s1-789f.md)和结果索引。一般高birth创新正性、同一G1度量的运输与graph仍缺，不以变化度量的加权迹消掉负桥。
+[R275一位MP](results/R275-one-bit-full-primitive-schur-recursion-and-innovation.md)与R278联合Serre式均保[此前全文](notes/2026-11-14-open-before-all-height-strengthened-s1-789f.md)。高birth创新、同G1运输和graph仍缺；变化度量的迹不能消去负桥。
 
 **其余已付的原头、完整图和共同费用接口。** 两物理头/两下降真 MP、同未来负图、全尾近共同前缀、逐列立方根对数头预算、统一左核图/低头反馈、完整接合正 Gram、Boolean 两带/Γ 收缩、固定低行四次费用、D2 三次权顶锚、全深度宽源带及增长模型核幂的准确公式、常数和每条原稿链接，保 [压缩前全文](notes/2026-11-14-open-before-R279-789f.md)。它们均保同一未来/同源/真正负图及原累计费，仍不支付固定测试局部 Gram O(Keff)、ordinary 右费、pure 深段与高 birth D1*/Γ 合并；不能把裸/完整 Schur 或坐标截断互换。
 
 ## 当前接口三：一般系数行、多个模式与中央域
 
-完整已付行类、种子/比较/最高字符条件、全部旧公式及原稿链接保[本次前全文](notes/2026-11-13-handoff-open-before-faithful-vacuum-support-0c.md)。这里列下一实际缺口，未列的旧接口保持原状态。
+旧行类、种子/比较/最高字符条件及完整来源保[本次前全文](notes/2026-11-13-handoff-open-before-faithful-vacuum-support-0c.md)。未列旧接口保持原状态。
 
 1. **普通慢行与未知限制。** 实u奇次全部位移/幂闭，偶次余α^(2k)；有限谱部分须共同存在才能跨行。实负正定辅助已闭，正号碰撞/双无界未闭。1<α≤3普通全部重数、居中迟首κ>2的λ0及无副本重根仍开。主/辅助尺度、种子、零位置、ΓY预算不得互换；全H单射稠密不传未知M。
 2. **原双行见证。** 真迟首核给同一ζ和正秩一ρ同时湮灭SA′、TA′、ZA′，S=X+Hζ、Z=Y−B0+Hζ²。整函数全右替换(X,Y)→(−Hζ,B0−Hζ²)和快混合矩已付；这些必要增长界有固定非湮灭正态反例，仍欠实际联合非零快证书/来源特殊正常锚。不能跨ζ混用ρ。

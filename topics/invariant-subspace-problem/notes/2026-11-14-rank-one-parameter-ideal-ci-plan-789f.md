@@ -119,3 +119,5 @@ Singular 的 `lift`/`liftstd` 采用原生成元变换矩阵语义；参照其�
 新请求提交前再固定`module_order: dp,c`：[次数优先完整证明](../results/R150-appendix-parameter-degree-preserving-univariate-module-basis.md)保单变量S对/约化整行deg≤45、准确原模和Euclidean终止。重新排序同一NF的graded SSI已全载4.132秒；不复用旧(c,dp)排序。此次只会提交最终这一请求，没有发过中间c,dp长任务。
 
 实际新运行已启动：[43588728414](https://github.com/Rogerhu12/math-research-public/actions/runs/43588728414)，源`1031b194a0aa29e05065afd37317bd0955f95493`，created2026-11-14T11:10:08Z，实际查询状态in_progress。没有第二项中间配置长任务；标准基/Ann结论待真实marker。
+
+运行43588728414的实际job132428703042：原生全NF步骤11:10:29–11:10:59成功，按当前Singular的SSI转换11:10:59–11:11:11成功；原输入/映射与输入artifact步骤均成功。余模计算步骤自11:11:14起in_progress，未观测到最终GB/Ann完成标记；这些前处理步骤成功不替代数学完成。
