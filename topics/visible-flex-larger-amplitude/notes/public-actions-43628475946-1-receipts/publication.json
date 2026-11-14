@@ -1,0 +1,42 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-14T18:46:51.905428+00:00",
+  "source_commit": "e19cc023cdf990ccf56c548f0d32f50faedea822",
+  "run_id": "43628475946",
+  "run_attempt": "1",
+  "lane": "receipts",
+  "files": [
+    {
+      "source": "large-arrays/request42-receipt-summary-v3-derived-metadata.json.gz",
+      "bytes": 7098,
+      "sha256": "9b6218b319b737788a9f8ed352ecff95d542b993f0c7e41db31b2a8b83f9d32b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "receipt-read-intent.json",
+      "bytes": 1009,
+      "sha256": "4ab36fc0fd12c4bd9e1789369dbf627dfe1cb454bf24ae73329c2bdc37752cdb",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43628475946-1-receipts/receipt-read-intent.json",
+      "published_bytes": 1009,
+      "published_sha256": "4ab36fc0fd12c4bd9e1789369dbf627dfe1cb454bf24ae73329c2bdc37752cdb"
+    },
+    {
+      "source": "request42-reader.log",
+      "bytes": 524,
+      "sha256": "197fac30567424594a8a889fa9d1ee286ca2e86fdaf98fa8033e638437e15852",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43628475946-1-receipts/request42-reader.log",
+      "published_bytes": 524,
+      "published_sha256": "197fac30567424594a8a889fa9d1ee286ca2e86fdaf98fa8033e638437e15852"
+    },
+    {
+      "source": "request42-receipt-summary-v3.json",
+      "bytes": 34482,
+      "sha256": "350b9a95aea7853f63c26552b889f5e66fe561af7ff25d181b9e92e6e9c954d2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43628475946-1-receipts/request42-receipt-summary-v3.json",
+      "published_bytes": 34482,
+      "published_sha256": "350b9a95aea7853f63c26552b889f5e66fe561af7ff25d181b9e92e6e9c954d2"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43628475946"
+}
