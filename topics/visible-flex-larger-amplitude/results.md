@@ -451,3 +451,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R242. 角解析与严格亚单位半径斜率排除平面开片](results/R242-angular-analytic-warped-metric-no-planar-germ.md)：对精确共同材料度量证明任何平面开片强制某径向带a′为固定非零整数；适用于角解析且|a′|<1的精确活动环带，不把有限度量缺陷或C²极限自动当角解析。
 
 - [R243. 共享节点精确C²四角规范形的全片非平面性](results/R243-exact-C2-cardinal-tail-no-planar-germ.md)：给出角解析与分段有理三重积的完整证明；公开Actions真实9246小段全有非零精确见证。对象为明确规范形，原renderer同一性/完整接缝/δE未由此自动支付。
+
+- [R244. 精确圆形区段内标量控制的设计核方向](results/R244-circular-support-scalar-control-null-direction.md)：用完整C²变分及局部有限参数族证明圆段紧支控制在非均值DN设计系统中不可观测；允许其他warm区段未解，明确非固定g变分及有限M投影限制，支撑prefix3控制改法。

@@ -23,7 +23,7 @@ run43582043166/source8fa6b3f3b5365bfffd674cdc04f7d77519fa0d76的free3又真接�
 
 CompleteProfile用AngleConnector/coast/原finitebridge从.99接到真实r=.3；完整s_end=2.271004035438285。3个内支C² scalar控制不改入/出jet。full_dn_boundary/augmented/solve用全部材料H96、完整core换角导数、c′=p′=0增广389维（左293/右96）。原QR/Newton及门未改。
 run43582043166 coupling真实RHS在零控制逐位相同；690节点θ圆warm域已通过，无补点，maxcol=.00711059，尚非解。已发布notes/public-actions-43582043166-1-coupling/preparation/prepared-compact.json.gz（3710347B）；仅删完全重复alias，manifest可逐字恢复原JSON。末点H96准确全0，原mean=1.60408100852。warm重启精确保留旧节点，禁止插值噪声破坏零缓存。
-BC三步/Richardson在run43584222071真实通过，原5e−5门未改。首次完整DN outer0实际失败：690节点首reduced condition7.153e17、linear相对残差.57657，无接受Newton步；随后SciPy插值878节点RMS NaN/BC.001964，非新H尾失败。原690 checkpoint保持，不能用878 pending冒改进。
+BC三步/Richardson在run43584222071真实通过，原5e−5门未改。首次完整DN outer0实际失败：690节点首reduced condition7.153e17、linear相对残差.57657，无接受Newton步；随后SciPy插值878节点RMS NaN/BC.001964，非新H尾失败。原690 checkpoint保持，不能用878 pending冒改进。FD真实Richardson max7.28036e−9。R244完整证明圆段设计核，有限投影是否精确有核另论。
 **T96原g真zeroH/J/full audit已完成**：run43582043166 artifact14109122474，notes/public-actions-43582043166-1-tailzero/zero-H-T96/。M96/N1024、物理深度8/576stage/577×192state、RK12、原tol2e−9；真exit0/805.484s，residual0、metric9.992e−16、fullD0、minA=minD1、holonomy0，全部27840 J保存。未用零解代数跳过variational。真实tangent chart condition1.391e17，mode96真slopeJ589.6397 vs ready587.3800，不能把零残差当导数稳定。
 seeded_zero_tail_client.py已对完成bundle及本批coupling ready/config/source逐项结构核对PASS（SHA a8de071c0667b342dfc7a2731c9a47ce3d071e03496875637f80424864114776）。只复用准确零H/audit=False初响应，当前worker仍启动核源；任何新H或audit=True走原真解。环境VISIBLE_FLEX_COMPLETED_ZERO_TAIL_DIR指上述zero目录。run43584222071真消费J：Darboux二阶相对差1.32053e−12、height I/mean0/模间0；缓存精确命中1次，无新H请求、不重算805s零尾。
 R239条件证明：同完整高度/非均值斜率、连续正分支与turning number决定均值，单SE2及同Darboux分支决定六jet；有限DFT不自动付假设。新prefix已含物理z0，不得再加旧A mean；完整φ→θ谱不限96，接缝必须真正核全角。
@@ -40,7 +40,7 @@ R241完整参数块门同时排自交/瓶颈，给reach。v2真实D+=3.980751407
 
 ## 紧接执行
 
-逐结论普通push并保持本H最新；取回包有失败仍保原日志。request02/run43584222071三lane均已完成、产物已原bot发布。request03已设仅geometry的q4余空间对；fullDN改3个控制均置非轴prefix内以去掉全圆coast的不可观测方向，并补原RMS的两个Lobatto点域预检；原690各node/全部模/真正tail/原门保留，不原样重跑失败初猜。新真实coupled field后做完整六jet/实际角谱/C²闭组装/大幅见证/全t覆盖；设计定型才固定同g精化。任何分项完成继续open下一项。
+逐结论普通push并保持本H最新；取回包有失败仍保原日志。request02/run43584222071三lane均已完成、产物已原bot发布。request03/q4仅geometry已推9fa090d6；request04仅coupling使用full_dn_prefix_controls.py：3支撑(.05,.30)/(.35,.60)/(.65,.90)乘原prefix_end，v2完整序列化supports/poly/p*/源SHA，绝不旧supports解释新p。保原690点、补原RMS两Lobatto点；仅新增p0点重采原analytic seed。原QR+完整SVD/近核/分块linear残差实际记录；原门不变。真接受后自动prefix_controls_readout及large_core_closed_assembly all，用新场自身H尾/完整mean/单SE2/全角patch；原G不能越过配准直接当新幅度。新真实coupled field后做完整六jet/实际角谱/C²闭组装/大幅见证/全t覆盖；设计定型才固定同g精化。任何分项完成继续open下一项。
 原publisher缺identity已修；遇README变动正确退出保artifact，由root读差异后归档。公开源仅78实际消费件，逐件匹配原91清单SHA（12未迁移MD+1未用client排除），只取公开repo，无私仓secret。临时传输分支仅上传本题大blob帮助繁忙main普通rebase推送，成功主线含全部数据，禁止force。
 
 规则同步记录：2026-11-14T10:27:19.819042+00:00 实际pull --rebase成功；双README自3725b8e无变化，已读提交 7cb71093f8adc954aafeafb1ae40f18f91abd4c5。

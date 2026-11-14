@@ -348,3 +348,7 @@ run43584222071独立消费真实zeroJ：Darboux二阶相对差1.32053e−12，me
 ### 2026-11-14 10:26 UTC — actual q2 spatial progress and whole-surface held witness
 
 v3真消除31764个原失败parent pairs，余1948仍全prefix-prefix；同场完整cover给δhold/D+≥.05388898465、H/D+≥.996873，未达幅度。题外mainline workflow仅将geometry角细分2改4和输出stem另存；request03只触发geometry，不重解BVP、tail或已完cardinal/zero。全部原面/封套/规则保留。
+
+### 2026-11-14 10:30 UTC — R244 design null direction and a concrete prefix-control continuation
+
+R244完整证明圆段紧支scalar方向在非均值DN设计系统的核；不由有限M条件数冒精确奇异。首次失败全部线性/回溯/RMS事实另记note。新增独立v2 prefix3 profile/driver/response/readout，完整保存support及源hash，原Frenet/QR/Newton/门不改，补实际RMS域点及small-SVD诊断。新full-state闭包源保物理mean、同SE2和完整角patch，尚无数值新闭面。题外mainline request04仅coupling并在真接受后自动物理读出和自身tail闭组装，原zero响应不重算。

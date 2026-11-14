@@ -1,12 +1,14 @@
 {
-  "request": "20261114-public-large-core-mainline-03",
+  "request": "20261114-public-large-core-mainline-04",
   "repository": "Rogerhu12/math-research-public",
   "accepted_input": "notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
   "accepted_sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
   "lanes": [
-    "geometry"
+    "coupling"
   ],
-  "scope": "Only refine the remaining spatial cover with q4 on exactly the same A field and supplied envelopes. The q2 execution left 1948 prefix-parent pairs. Do not rerun BVP, native tail readout, cardinal proof, free3, zero-height tail or the unsuccessful first full-DN warm.",
+  "scope": "Actual v2 complete-DN design with three separately serialized controls inside the nonaxisymmetric prefix; retain original 690 warm nodes and exact zero response, inspect all actual RMS points and original reduced-matrix SVD/linear residuals. Original equations/modes/Newton/tolerances unchanged. On genuine acceptance, continue automatically to physical quintic readout and the accepted field own tail/closed assembly. Do not repeat old free3, cardinal, geometry or zero-height solves.",
   "completed_zero_tail": "notes/public-actions-43582043166-1-tailzero/zero-H-T96",
-  "completed_zero_response_sha256": "08d1e4865cb00d7d48ab169ce387a60119f304bc4dc4953eb8fd029fdbff1160"
+  "completed_zero_response_sha256": "08d1e4865cb00d7d48ab169ce387a60119f304bc4dc4953eb8fd029fdbff1160",
+  "control_schema": "complete-prefix-controls-scalar-profile-v2",
+  "control_scheme": "three-nonaxisymmetric-prefix-intervals-v1"
 }

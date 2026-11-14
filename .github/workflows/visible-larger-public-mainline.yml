@@ -157,7 +157,7 @@ jobs:
       - name: Check the actual controlled scalar and complete physical RHS
         if: matrix.lane == 'coupling' || matrix.lane == 'couplingcheck'
         run: |
-          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_full_dn_augmented.py" \
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_prefix_controls_response.py" scalar \
             --accepted "$VISIBLE_ACCEPTED" \
             --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
             --out "$VISIBLE_OUT/scalar-RHS-response.json"
@@ -176,7 +176,7 @@ jobs:
         if: matrix.lane == 'coupling' || matrix.lane == 'couplingcheck'
         timeout-minutes: 30
         run: |
-          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_full_dn_response.py" \
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_prefix_controls_response.py" boundary \
             --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_OUT/preparation/prepared.json.gz" \
             --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
             --tail-client "$VISIBLE_COMPUTATIONS/exact_20261114_true_tail_client.py" \
@@ -191,13 +191,30 @@ jobs:
           python -u "$VISIBLE_COMPUTATIONS/exact_20261114_zero_tail_response_audit.py" \
             --response "$VISIBLE_FLEX_COMPLETED_ZERO_TAIL_DIR/tail_0001.json.gz" \
             --ready "$VISIBLE_FLEX_COMPLETED_ZERO_TAIL_DIR/tail_ready.json.gz" --out "$VISIBLE_OUT/zero-height-J-audit.json"
-          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_full_dn_solve.py" \
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_full_dn_prefix_controls.py" \
             --accepted "$VISIBLE_ACCEPTED" --warm "$VISIBLE_OUT/preparation/prepared.json.gz" \
             --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
             --tail-client "$VISIBLE_COMPUTATIONS/exact_20261114_seeded_zero_tail_client.py" \
             --tail-config "$VISIBLE_OUT/T96-config.json" \
             --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
             --node-heap 6144 --out "$VISIBLE_OUT/full-DN" --work "$RUNNER_TEMP/visible-full-DN-qr"
+      - name: Read the actual accepted complete physical field at two resolutions
+        if: matrix.lane == 'coupling'
+        timeout-minutes: 45
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_prefix_controls_readout.py" \
+            --input "$VISIBLE_OUT/full-DN/actual.json.gz" --angles 1024 2048 \
+            --radial-subdivisions 2 4 --out "$VISIBLE_OUT/full-DN/material-quintic.json"
+      - name: Assemble the accepted large core with its own actual tail and fixed caps
+        if: matrix.lane == 'coupling'
+        timeout-minutes: 90
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_large_core_closed_assembly.py" all \
+            --checkpoint "$VISIBLE_OUT/full-DN/actual.json.gz" \
+            --tail-response "$VISIBLE_OUT/full-DN/actual-tail-final-audit.json.gz" \
+            --config "$VISIBLE_OUT/T96-config.json" \
+            --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
+            --source-topic "$VISIBLE_SOURCE_TOPIC" --out-prefix "$VISIBLE_OUT/closed/refined-A-closed"
       - name: Check exact shared-node cardinal tail and collar nonplanarity
         if: matrix.lane == 'cardinal'
         timeout-minutes: 90
