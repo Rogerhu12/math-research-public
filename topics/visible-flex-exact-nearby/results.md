@@ -329,3 +329,7 @@
 ## 2026-11-14 16:44:54 UTC — 真正径向片上的无奇性 forced Airy 幅度范数
 
 [完整 F1–18](results/R133-supplement-nonsingular-forced-Airy-amplitude-bounds-on-real-pieces.md) 从精确 $V_\sigma/V_{\sigma,0}$ 积分给全部 $a,b$ 幅度范数。保完整末端 $V_{\sigma,0}$；同点两核差 $O(\rho^{5/2})$、两条实际ray差及其所有有向径向积分消去输出b的假 $1/\sqrt\rho$ 损失，$F_b\to b$ 的常数为有限 $2B_0K_0A_-^{-2/3}$。原径向seam逐片处理，角条带损失与analytic-sup到Wiener转换均明列。此解析定理仍须消费完整 $-\mathcal L_0(a_0,b_0)$ 的真实范数，未授数值强余项或cutoff97。
+
+## 2026-11-14 16:48:41 UTC — 全实δ正根七列图实际完成
+
+[实际10门与7×7完整系数](results/R133-supplement-actual-full-real-delta-positive-high-root-to-regular-graph.md)：43617150971 child0，新算术.001856572s；loop<.000581202629、rootreflection<.438072896309<1/2。全实δ1e−8、真同global reference、所有head/mean/普通源与jump保，原数学0重算。native `4e128cf91ce4e136d8574575704f1ebabf925953039eeb9219b00113436be2e9`；完整低高Schur/负返回/ν与非线性尚未授予。

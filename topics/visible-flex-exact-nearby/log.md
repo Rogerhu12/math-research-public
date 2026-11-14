@@ -59,3 +59,7 @@
 ## 2026-11-14 16:44:54 UTC — 独立推无奇性完整幅度合同
 
 亲核F6–18的全部两ray积分常数、kernel角差、G角导及两末端branch，特别Fb核带s^-1/2时三积分系数1/3、1/3、3/2；tail已独核原M13–17符号与seam重构。完整原mean/J/source保；不跨原径向seam借Cauchy，不把V/V0商界当完整幅度。下一实际forcing可直接复用原7721记录中的intrinsic_whole_third_jets，不需重跑target。
+
+## 2026-11-14 16:48:41 UTC — 实际根图验收并刷新待解主线
+
+亲读7437B process与27047B摘要，SHA分别d35bb44e4cd7d933778d3234b6b0fe6c271fa9a8e744466a3fa9fd40f0e1f454、410e8f07545c862425673a2c0cc37eebfc6f950217167f2b72c44d5a7b5676e7。10门全真/child0，最后真实pull 16:44:18→ada07519b8addf6a07ac45ab12fd2f15b86f7657，两README无差。逐列保存7输出与7输入，报告按真有向并集保最后两列sup费用。open原字节归档并更新已成源、全δ正区、实际根图、主要边界障碍及尾网，继续全有限部/strong与真全响应。
