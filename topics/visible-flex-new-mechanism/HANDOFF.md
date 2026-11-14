@@ -6,7 +6,7 @@
 
 闭连通C²嵌入族Ft，t在C²拓扑连续，同一固定g；固定材料H有内点且diamF0(H)≥.2D；不对齐整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，并同g/状态/时间精化。D为完整F0直径；δE可0但如实报；完整网格<5MB，明确数值与准确存在差距。达标后继续.5D或更强存在。现无合格完整候选。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`778a2c771c7b70f2e80720c1c96f8b6b197911ca`（API差异复核，非实际pull）。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`88b65f1604f73d4ee9deff84eefc1b4ab79fa0c6`（API差异复核，非实际pull）。
 - 每次实际pull --rebase核双README，变则只读diff立即执行；至少每小时pull。每结论立即提交推送；NFF立即rebase、核规则、再推至成功，不强推。
 - 本公开main/Actions已授权。真实几何/ODE/积分/优化/完整研究编译只在本公开Actions；本地仅纸面代数、人工开发核、源码/公开输出分析。PAT仅瞬时CLI/env，不写文件/提交/日志。
 - 私有17:41:10 UTC实际pull至`6a16feab8e6c164b260239abede559e93e44aa3d`；根README无差，本题私有README不存在。QUEUE唯一行仍本会话进行中；下一pull不晚于18:41 UTC。私有研究不公开。
@@ -28,7 +28,7 @@ selected canonical `924e7de417ec8fbf9419942e5cf45a7eff58336972b7cac4224edaee4c42
 
 **固定原函数实际审计已发布**：notes/fixed-height-primitive-actual-audit-20261114.md。run43621210198/source64d69df6，92源/3输出和strict167→162重放均核，canonical/g/系数未变。主454636B SHA919b2d9a…；helper16d7200e/auditor824f0cda冻结。
 
-旧查询列表改变b0求积分段，四点h=.00738175828而密网.05223073559；新固定结构knots+120panel prefix/local积分使稀密h差2.78e−17，共同h=.05223073558726739。133panel GL8→12及133→253panel分别X约5.5e−13、其余5jet/metric0。旧细网失败未改善。helper人工Jac差分仅微差，不能说其输出字节相同。精化差不授严格h误差包围。
+同态固定原函数将旧四点h=.00738修至同密网.05223073558726739，新稀密差2.78e−17；GL8→12及133→253panel分别仅X约5.5e−13、其余5jet/metric0。原细网失败不变；差值不是严格h包围，全部数据见实际审计。
 
 **entry_paired_audit run43622984979/sourceac8ca043，job132532580139正在跑**，尚无真实输出。core8f09d96a/auditor7c2329f4全文及22源人工全main已核；strict读selected/c0，固定同g及162原raw数值，但解释为明确新空间/新物理场。
 
@@ -60,10 +60,10 @@ R69已发布：纯第四Ceff=4ΣΓ_Aj(Φ_Ej−ΠjMall/3)；Γ五项、DP3=Γ/3�
 
 ## 6. 环境故障、已保全接口与立即行动
 
-17:58左右工作区失联，exec/apply_patch和runtime技能不可用。最后正常本地push6206496e、实际pull规则68fe68df。之后API差异核对不冒实际pull；恢复即pull --rebase。公开Actions仍跑，接其真实pull回执。私有17:41真实pull、18:41到期，未恢复不能假报。
+17:58左右工作区失联，exec/apply_patch和runtime技能不可用。最后正常本地push6206496e、实际pull规则68fe68df。之后API差异核对不冒实际pull；恢复即pull --rebase。公开Actions仍跑，接development publisher真实pull/规则回执。私有17:41真实pull、18:41到期，未恢复不能假报。
 
-单列height初始化helper已忠实恢复并发布：frame_height_feasible_initializer.py，SHA fa379eb6…，人工check失联前通过，四次与直接数组差2.71e−20；完整成功/失败JSON往返、正负side、不可达帽高/固定水平超球均核。只消费同态X/Xs/T/C/I，返回候选表、实际新binary64及准确差，不改state、不调用geometry；实际driver须完整smooth目标/曲率/几何重审。
+单列height helperfa379eb6已原字节恢复并发布，人工完整JSON/两侧/不可达约束/四次检查均过。只消费同态X/Xs/T/C/I，返回精确新系数提案，不改state或调用geometry；实际driver完整重建原smooth目标与全几何。
 
-短collar/下一组成套jets已发布：notes/entry-collar-localization-and-next-jets-20261114.md。缩ell仅使新场C²趋旧；准确u5/v8/b7必须用完整g的D=15μ/L1⁴+5a0F5，并同步升自由项权重。有界atan高度base只付固定b6/b7，非等距。代码blob a1d68ab4/SHAdeac1dbb…已三方静态核、未有人工passed，先公开check-only。
+短collar/下一组成套jets已发布：notes/entry-collar-localization-and-next-jets-20261114.md。缩ell仅使新场C²趋旧；准确u5/v8/b7必须用完整g的D=15μ/L1⁴+5a0F5，并同步升自由项权重。有界atan高度base只付固定b6/b7，非等距。代码deac1dbb已三方静态核，recovery_development已部署仅人工check-only（Gamma→height helper→bounded），尚无passed。原entry43622984979不重跑、不取消。
 
 接entry真实回执核全部源/同g与新场/五精化/metricκh，选择短collar、有界base及高度初值，继续完整连接。新增证书/driver可以经明确来源的API提交后在公开Actions开发核与真算；每次写入基于当前head，不强推、不覆盖并发文件。规则变则先读差异。17:54前后复核三个相关公开H仍无可借完整大振幅厚族，私有研究不外泄。任何阶段结果或环境时长都不是课题完成。

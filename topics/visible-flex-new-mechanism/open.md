@@ -325,3 +325,5 @@ N系数直接传播接口已完成开发核：notes/literature-range-n-polynomia
 R69把纯leading Ceff化成28个profile无关充分矩目标，Γ闭式和真实四块历史已证明；无需重复旧失败profile积分。继续真实M0桥存在/较短桥实现，并处理P1/P0及全部ruling，不能把N²项消失当完整第四或有限等距族。
 
 R70已准确支付任意端点M0桥存在和全部第四period的P3/P2消去，外N仅余P0+N P1。K固定、物理I共选、alpha位移由R45真实闭合；长圈仍无厚度。下一不再重复证明leading可达，推进内部桥第三holonomy、P1/P0和ruling，完整有限族仍欠。
+
+recovery_development已部署：Gamma Node IO、height helper和bounded参考全部先公开人工验证。收到完整回执后再决定实际新场/一步高度driver；任何partial/失败均保原输出，不能用静态审代passed或冒真实候选改进。
