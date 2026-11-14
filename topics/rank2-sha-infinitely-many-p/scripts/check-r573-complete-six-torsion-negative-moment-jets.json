@@ -1,0 +1,90 @@
+{
+  "result": "all exact checks passed",
+  "checks": 73,
+  "fibres": [
+    {
+      "p": 13,
+      "a4": 8,
+      "a1": 1,
+      "P4_first": 11,
+      "P1_first": 12,
+      "P1_second_derivative": 2,
+      "actual_r6_mod_Q5": [
+        1,
+        4,
+        12,
+        7,
+        10
+      ],
+      "derivative_quotient_degree": 6,
+      "conditional": []
+    },
+    {
+      "p": 19,
+      "a4": 16,
+      "a1": 10,
+      "P4_first": 9,
+      "P1_first": 17,
+      "P1_second_derivative": 13,
+      "actual_r6_mod_Q5": [
+        5,
+        2,
+        1,
+        2,
+        15
+      ],
+      "derivative_quotient_degree": 12,
+      "conditional": []
+    },
+    {
+      "p": 31,
+      "a4": 13,
+      "a1": 20,
+      "P4_first": 11,
+      "P1_first": 10,
+      "P1_second_derivative": 30,
+      "actual_r6_mod_Q5": [
+        1
+      ],
+      "derivative_quotient_degree": 24,
+      "conditional": []
+    },
+    {
+      "p": 61,
+      "a4": 24,
+      "a1": 0,
+      "P4_first": 59,
+      "P1_first": 58,
+      "P1_second_derivative": 2,
+      "actual_r6_mod_Q5": [
+        38,
+        9,
+        29,
+        43,
+        33
+      ],
+      "derivative_quotient_degree": 54,
+      "conditional": [
+        "a1=0: complete degree42 factor verified"
+      ]
+    }
+  ],
+  "fixed_division_Q4": [
+    -512,
+    -320,
+    -1776,
+    220,
+    1
+  ],
+  "fixed_factors": {
+    "D7": "X(X+b)(X+4b)Q4",
+    "D8": "X^2(X+b)(X+4b)Q4",
+    "D12": "X(X+b)(X+4b)^2 Q4^2"
+  },
+  "condition_a4_zero_masses": [
+    "h^5/1080",
+    "h^2/216"
+  ],
+  "target_nonvanishing_proved": false,
+  "scope": "Full original fibres only at 13,19,31,61; all-prime assertions use the proof."
+}

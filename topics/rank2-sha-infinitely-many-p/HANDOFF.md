@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：c660739ac9caecf5683dd0f6323a3c4dbf46724f；2026-11-14 19:44:13 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：cfa1cdac0fd320a82ae5c57e5059f766cf08bcda；2026-11-14 19:45:32 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推/改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 根规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；文件<5MB、MD/接口单文件<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；18:55:59 UTC实际git pull --rebase重试仍无可用执行环境，随即API核main/两README无变。最迟19:55重试；恢复后先实际pull --rebase核规再接API历史。
@@ -14,13 +14,13 @@
 
 ## 发布、归档、当前分工
 
-R1–363、R365–560、R562–571已登记；R364仍开，R561/572/573/574进行中。
-完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r571.md)、[open](notes/2026-11-14-open-before-r571.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
+R1–363、R365–560、R562–571、R573已登记；R364仍开，R561/572/574/575进行中。
+完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r573.md)、[open](notes/2026-11-14-open-before-r573.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
 R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b保持，不复跑。
 root统一元数据/ref，代理只建proof/script/data blobs，结论随成随推。
 
 - theta续R572同一个实际原arith测试与R569单位G比较；T7/T10完整边际及条件总质量已付，H̄偶深保val1补域。
-- literature续R573两个指定负矩的全局exactness与规范Cartier-zero、实际非消失；R570全局线已付但系数未赋非零。
+- literature续R575同一原D²/D⁵、Cartier-zero与指定两行非零；R573全E6 jet/两个降级商及局部交叉行已付，未延E6p。
 - deep续R561原τ≤2角边界、主体子格与完整forcing/同修正d2；同预算t除法/S³/周期H尾带与完整六尾首Bockstein剪切已推，续ell1/2实际carry及同一d2。
 - root续R574整个uunit补项与原算术总行；R571已付全部cd共同深度、双sigma首项和整尾，仍不由局部非零排中央零。
 
@@ -48,7 +48,7 @@ R560/564/568/563/566的全十四度、正140/60、负14/42和三态两补域按[
 
 R567：完整局部残差Nn=β^(n+1)(χF+(κ)+F−(κ))/(bΩ6)，两真实H/R1转置各消原σc；同一ν5、完整S7/S10条件行、mσ7和第六质量项全保前检/正文。首层C0/p+λ²C1含真实log质量。范围修正d20ab976保持：Tn=3βn(JS′−6δJT′)=Nn+Un+3In,1；残差非零不排中央零，整个uunit和cddeep补域不删。
 
-R569：真边际(D4,d)_*ν5=(ω²/84)f4⊗σ。w5=1_D4,dunit D4⁴d使完整五维质量(2ω²/7)Ω5(1−βκ4)(1−βκ)为unit，六维加c1_cunit亦有整卷积逆；全部混合cut随全向量平移。R562实际四unit变为同一ν5的单位G，保t及五unit；原arith q_nℓ通过同一u/P词返回，两测试尚未等价。补充完整(T7)*ν5=−F5/84、(T10)*ν5=−G5/42，Λ−/Λ+总质量仅j5为−1/84、−1/42，其他总质量零不代表条件测度零。
+R569：完整(D4,d)_*ν5=(ω²/84)f4⊗σ；明确正权使全五/六维整卷积可逆，混合cut保全向量平移。R562四unit回同一ν5的单位G，与原arith通过同一词域仍是不同测试。T7/T10边际−F5/84、−G5/42，Λ总质量仅j5非零；不把其余总质量零当条件测度零。
 
 R571：同一原In,m=∫c,d∈p^m qnℓρ，任意n,m≥1准确=βnλ^(2m)H(κ^min(n,m),κ^(m−n)+)/(bΩ6)。m≤n用完整D/P/Z*，m≥n用wholeD4,c,d三β；无丢κ^-n/carry。H(s,t)=st²K1+s²t²O，K1=12(p−1)Ω²∫E*,A*unit P_D(D4,E*,G*)/A*ν4，来自σcσd的精确−6Ω²P′。vIn,m≥m+(m−n)+、余项p2m；完整总首层含β(C0/p+λ²C1)+3λ4K1+(bΩ6/(pβn))Un，最后完整uunit仍待控制。β^-nUn确实不随n，不能靠增n生新零式。
 
@@ -61,6 +61,8 @@ R565：全V差/deck相位/gcd和wholeC12=−A12付C(q4DzVω)=h²(x6+20x3+10)ω/1
 
 
 R570：同V的Ri=Pi(X)、ai=[X^p]Pi，由完整torsion平移得Pi(0)=−2bai、Pi(−b)=3bai。全C(Pi dlogτ)=−aiΨb精确读原两负矩首层；零值等价degree≤p−1多项式原函数。规范Cartier-zero、b17的b^s/h^(1或4)完整保；未证联合非零，不把p依赖原函数当固定有界测度。
+
+R573：全E6 canonical相位r(t)^6保留，缺type5给DR4=D⁴R1=0；a4=0迫P4、L3P1各被D12=X(X+b)(X+4b)²Q4²整除，两个真实商在S6(p−13)且质量b^s h5/1080、b^s h2/216单位。原P1′(0)=−a4/8，P4′(0)=b^(s−1)h²/24，P1″(0)=3a4/(32b)−b^(s−2)h²/11520；两a零迫P1含X²(X+b)(X+4b)Q4，原点恰二重。固定降极不排联合零；p依赖全商不赋固定有界测度，E6p deck边界不变。
 
 ## 惰性完整 forcing
 

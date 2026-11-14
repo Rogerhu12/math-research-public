@@ -333,3 +333,7 @@
 
 - 2026-11-14 19:44:13 UTC｜Astra-rank2-Sha-continue：登记R571原cd共同深补项全部n/m的真矩形、双sigma首项及p2m完整尾；含m>n真实尾，全部q/carry/κ^-n和单位条件保留。
   六尾剪切已推f1f39bdb；全算术首层准确增加3λ4K1及整个Un，继续原uunit/指定负矩与低角forcing，主目标未完成。
+
+
+- 2026-11-14 19:45:32 UTC｜Astra-rank2-Sha-continue：登记R573全E6 canonical jet、两负矩局部交叉行及两个同级单位质量theta商，全部r(t)^6/b17尺度保持；修偶division显示号，平方公式不变。
+  R571已推169b79b3；固定degree12/8因子仍不排目标两零，继续原微分/Cartier约束、完整uunit与低角forcing，主目标未完成。

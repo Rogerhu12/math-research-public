@@ -47,3 +47,6 @@
 
 
 - [R571：原共同深补域的全部深度、双sigma消元与完整首层](../results/R571-original-common-deep-complement-and-two-sigma-tail.md)：原In,m保q/carry/κ^-n，完整D/P/Z*与D4/c/d两套真矩形给统一H(s,t)；两个σ精确积分使H=st²K1+s²t²O，全部深度与环带尾保持。全算术首层另含3λ4K1及整个uunit补项，不据局部非零收尾。
+
+
+- [R573：全六挠jet、原两负矩局部交叉行及两个完整theta商](../results/R573-original-six-torsion-jets-and-two-complete-theta-quotients.md)：保全E6 canonical相位，type5缺失付DR4/D⁴R1全零，a4零强迫P4与L3P1同有degree12因子；两全商同在S6(p−13)且质量单位。原P1′精确读a4，联合零时P1原点恰二重并有degree8因子，仍不构成非消失。

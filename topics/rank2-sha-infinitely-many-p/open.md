@@ -221,3 +221,8 @@ R554原五输入同域差24Ω³I1=I4−18∫u e2/Y⁵ρ、R559保K/四伴随的�
 ### R571：整个cd共同深补项及全部尾部
 
 [R571：原共同深补域的全部深度、双sigma消元与完整首层](results/R571-original-common-deep-complement-and-two-sigma-tail.md)：原In,m保q/carry/κ^-n，完整D/P/Z*与D4/c/d两套真矩形给统一H(s,t)；两个σ精确积分使H=st²K1+s²t²O，全部深度与环带尾保持。全算术首层另含3λ4K1及整个uunit补项，不据局部非零收尾。 **待做：** 原K1中E*/A*unit和四sigma条件权的实际比较，以及全uunit行Un；两者与C0/p的log质量都不能删。β^-nUn独立n只是完整身份，不给其零值。源多项式内原λ/κ系数固定，不随H的分析变量变动。
+
+
+### R573：全六挠的两个原来源商与局部交叉值
+
+[R573：全六挠jet、原两负矩局部交叉行及两个完整theta商](results/R573-original-six-torsion-jets-and-two-complete-theta-quotients.md)：保全E6 canonical相位，type5缺失付DR4/D⁴R1全零，a4零强迫P4与L3P1同有degree12因子；两全商同在S6(p−13)且质量单位。原P1′精确读a4，联合零时P1原点恰二重并有degree8因子，仍不构成非消失。 **待做：** 将这些全因子与原D²/D⁵、规范Cartier-zero及r/N实际除子联立，保b17的b^s尺度、原两p进负矩和E6p deck边界；不能把固定degree降低、单位质量或下一Taylor项非零当原指定两项非零。
