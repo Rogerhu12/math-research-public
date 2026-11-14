@@ -1,0 +1,251 @@
+{
+  "result": "all exact checks passed",
+  "checks": 148,
+  "scope": "Only existing fibres 13,19,31,61; not a prime scan or proof of nonvanishing",
+  "fibres": [
+    {
+      "p": 13,
+      "b": 1,
+      "hasse": 2,
+      "degree_r": 6,
+      "rows": {
+        "R4": {
+          "top": 8,
+          "at_zero": 10,
+          "at_minus_b": 11,
+          "cartier_basis": [
+            "dX",
+            "dlog X",
+            "dlog(X+b)"
+          ],
+          "cartier": [
+            3,
+            12,
+            1
+          ],
+          "residue_O": 0,
+          "primitive_degree": 12,
+          "full_differential_exact": false
+        },
+        "R1": {
+          "top": 1,
+          "at_zero": 11,
+          "at_minus_b": 3,
+          "cartier_basis": [
+            "dX",
+            "dlog X",
+            "dlog(X+b)"
+          ],
+          "cartier": [
+            2,
+            8,
+            5
+          ],
+          "residue_O": 0,
+          "primitive_degree": 12,
+          "full_differential_exact": false
+        }
+      }
+    },
+    {
+      "p": 19,
+      "b": 1,
+      "hasse": 8,
+      "degree_r": 9,
+      "rows": {
+        "R4": {
+          "top": 16,
+          "at_zero": 6,
+          "at_minus_b": 10,
+          "cartier_basis": [
+            "dX",
+            "dlog X",
+            "dlog(X+b)"
+          ],
+          "cartier": [
+            10,
+            2,
+            14
+          ],
+          "residue_O": 18,
+          "primitive_degree": 18,
+          "full_differential_exact": false
+        },
+        "R1": {
+          "top": 10,
+          "at_zero": 18,
+          "at_minus_b": 11,
+          "cartier_basis": [
+            "dX",
+            "dlog X",
+            "dlog(X+b)"
+          ],
+          "cartier": [
+            11,
+            6,
+            4
+          ],
+          "residue_O": 16,
+          "primitive_degree": 18,
+          "full_differential_exact": false
+        }
+      }
+    },
+    {
+      "p": 31,
+      "b": 1,
+      "hasse": 27,
+      "degree_r": 15,
+      "rows": {
+        "R4": {
+          "top": 13,
+          "at_zero": 5,
+          "at_minus_b": 8,
+          "cartier_basis": [
+            "dX",
+            "dlog X",
+            "dlog(X+b)"
+          ],
+          "cartier": [
+            3,
+            12,
+            27
+          ],
+          "residue_O": 14,
+          "primitive_degree": 30,
+          "full_differential_exact": false
+        },
+        "R1": {
+          "top": 20,
+          "at_zero": 22,
+          "at_minus_b": 29,
+          "cartier_basis": [
+            "dX",
+            "dlog X",
+            "dlog(X+b)"
+          ],
+          "cartier": [
+            7,
+            28,
+            1
+          ],
+          "residue_O": 12,
+          "primitive_degree": 30,
+          "full_differential_exact": false
+        }
+      }
+    },
+    {
+      "p": 61,
+      "b": 1,
+      "hasse": 14,
+      "degree_r": 30,
+      "rows": {
+        "R4": {
+          "top": 24,
+          "at_zero": 13,
+          "at_minus_b": 11,
+          "cartier_basis": [
+            "dX",
+            "dlog X",
+            "dlog(X+b)"
+          ],
+          "cartier": [
+            57,
+            45,
+            25
+          ],
+          "residue_O": 7,
+          "primitive_degree": 60,
+          "full_differential_exact": false
+        },
+        "R1": {
+          "top": 0,
+          "at_zero": 0,
+          "at_minus_b": 0,
+          "cartier_basis": [
+            "dX",
+            "dlog X",
+            "dlog(X+b)"
+          ],
+          "cartier": [
+            0,
+            0,
+            0
+          ],
+          "residue_O": 0,
+          "primitive_degree": 60,
+          "full_differential_exact": true
+        }
+      }
+    }
+  ],
+  "homothety": {
+    "p": 31,
+    "b": 17,
+    "base_hasse": 27,
+    "transported_V_hasse": 27,
+    "rows": [
+      {
+        "name": "R4",
+        "top": 29,
+        "at_zero": 6,
+        "at_minus_b": 22,
+        "cartier_basis": [
+          "dX",
+          "dlog X",
+          "dlog(X+b)"
+        ],
+        "cartier": [
+          21,
+          2,
+          20
+        ],
+        "residue_O": 23,
+        "primitive_degree": 30,
+        "full_differential_exact": false
+      },
+      {
+        "name": "R1",
+        "top": 16,
+        "at_zero": 14,
+        "at_minus_b": 10,
+        "cartier_basis": [
+          "dX",
+          "dlog X",
+          "dlog(X+b)"
+        ],
+        "cartier": [
+          18,
+          15,
+          26
+        ],
+        "residue_O": 2,
+        "primitive_degree": 30,
+        "full_differential_exact": false
+      }
+    ]
+  },
+  "cartier_line": "-(top)*(dX/6+2b*dlog(X)/3+3b*dlog(X+b)/2)",
+  "primitive": "P dlog(-x/y)=top*(X^p-6X-2b)dlog(-x/y)+dF, deg F<=p-1",
+  "nonvanishing_claim": false,
+  "formal": {
+    "checks": 2,
+    "diagonal": {
+      "0,3,0,0,6": "-5",
+      "1,0,0,0,6": "-2"
+    },
+    "f4_factor": 24,
+    "torsion_values": {
+      "delta": "-2b",
+      "two": "3b"
+    },
+    "ring": "Z[b,x,y,g,sigma]/(y^2-x^3-b)",
+    "derivation": [
+      "Dx=2y",
+      "Dy=3x^2",
+      "Dg=-x",
+      "Dsigma=g sigma"
+    ]
+  }
+}

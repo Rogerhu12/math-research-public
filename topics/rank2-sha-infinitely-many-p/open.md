@@ -221,3 +221,7 @@ R522、R525–536与R538的全部准确公式、预算和未付接口完整保�
 ### R569：原完整五维卷积单位与实际四unit行
 
 [R569：原五sigma真实六度边际、完整卷积单位与四unit桥](results/R569-original-five-sigma-convolution-unit-and-four-unit-bridge.md)：三C共轭给(D4,d)=(ω²/84)f4⊗σ；明确正权使完整五/六维测度整可逆，所有混合cut保真实平移。R562四unit回同一ν5的显式单位行，并与原完整S/T行各自运输到同一词域；测试尚未等价。 **待做：** 同一个完整来源/词域的G单位测试与q_nℓ原算术测试之间的真实关系；全向量平移不自动保算术零，四unit里t不能置零，T7/T10不正交。R567局部残差及其整个补域仍须同时保留。
+
+### R570：两指定负矩的整个非exact Cartier配对
+
+[R570：两指定负矩的全局三极点Cartier线与显式原函数](results/R570-original-global-negative-moment-cartier-lines-and-polynomial-primitives.md)：原固定二/三挠全theta平移给P_i(0)=−2ba_i、P_i(−b)=3ba_i，完整C(P_i dlogτ)=−a_iΨ_b精确读取两原负矩首层；零值等价显示degree≤p−1多项式原函数，b17完整单位尺度保持，未赋联合非零。 **待做：** 由同一原P_i、规范C(R_iω)=0和两条全局原函数的真实约束排除a4/a1同时零，或证明实际p进负矩不同时零；首层零不等p进零。原函数依赖p且degree可达p−1，不据此调用R418饱和jet或有界原函数结论。
