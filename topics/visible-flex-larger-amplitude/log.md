@@ -177,3 +177,6 @@ margin325 r2真实51.74s因可选旧fullFlow snapshot身份失配退出，原52 
 
 ### 2026-11-14T07:39:21+00:00 — scaledcoreproof (local; public approval pending)
 R236完整有限核心缩放与球外保持证明直接登记；λ=6/5全32有理核G≈.96、rho_min>.16611758，原k0二阶球门<.885911。固定γ二阶barrier转换成实际投影Fs/Fss的逐角仿射加速度区间，零系数/符号与polar坐标均保；条件命题不冒闭面存在。
+
+### 2026-11-14T07:39:21+00:00 — scaledcorenumerical (local; public approval pending)
+新全32核/同84scalar profile的M64失败，冷M96/128/192同新g误差4.93143e−5→6.77047e−6→1.34628e−7。实际球距离降至.86910539，原.96球被遮挡；完整紧凑末态/全部几何读数与复现hash保存。新球约束设计从核心启动、正在运行，不预判成功。
