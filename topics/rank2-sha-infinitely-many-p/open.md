@@ -246,3 +246,7 @@ R533两固定负矩的第一层现有[准确递推与有限记录](notes/2026-11
 ### R555：全原格的真实非零范围与临界缺口
 
 [R555](results/R555-whole-original-linear-system-and-nonzero-high-contact-forcing.md)已把整个W_D识别为同一十九角线性系B_D，ν=3κ+δ、δ≥0；保两13行carry的严格门给实际β13非零和杀全部原列的左证书。**待做：** 当前h/κ→9/8的原深候选仍不满足3/2或2主阶门；须判R552临界实际α/β及完整forcing，或给同一真实候选命中新门。来源族的交数校准未证明theta深接触，不能当实际命中或中央非零。
+
+### R554：真正五输入同域负矩差
+
+[R554](results/R554-original-four-sigma-theta-source-and-same-domain-negative-moment-difference.md)支付两条全测度推前和同一Yunit上的24Ω³I1=I4−18∫u e2/Y⁵ρ，Q保完整双来源普通核心及κ³项。**待做：** 此真实域的非零或全部补域消元，联R559的S6⊗S6双输出时不忘K；正7jet/原函数12jet非零不赋负五矩非零，Theta质量一不授权Mellin内反卷积。pairedV上尾联合非零仍开。

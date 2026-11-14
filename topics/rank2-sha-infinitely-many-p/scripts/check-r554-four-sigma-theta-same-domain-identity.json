@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "ring": "Q[b,x,y,g,sigma]/(y^2-x^3-b)",
+  "derivation": {
+    "b": "0",
+    "x": "2y",
+    "y": "3x^2",
+    "g": "-x",
+    "sigma": "g*sigma"
+  },
+  "witnesses": {
+    "D_f4": {
+      "0,0,1,0,6": "2",
+      "0,1,0,1,6": "6"
+    },
+    "D2_f4": {
+      "0,0,1,1,6": "24",
+      "0,1,0,2,6": "36"
+    },
+    "D3_f4": {
+      "0,0,1,2,6": "216",
+      "0,1,0,3,6": "216",
+      "0,1,1,0,6": "-24"
+    },
+    "Q": {
+      "0,0,1,2,6": "216",
+      "0,1,0,3,6": "216"
+    },
+    "positive_factor": {
+      "0,0,1,2,6": "216",
+      "0,1,0,3,6": "216"
+    },
+    "whole_residual": {}
+  },
+  "exact_input_weight": "(Y^3-18*u*e2(t1,t2,t3,t4))/(24*Omega^3)",
+  "exact_same_unit_domain": "Y=t1+t2+t3+t4+u in Z_p^x",
+  "exact_negative_difference": "Omega^2 I_-2(f4)-24 Omega^5 I_-5(f1)=18 Omega^2 integral_{Yunit} u*e2/Y^5 d rho",
+  "derivative_Q_first_coefficient": [
+    "-432",
+    "5"
+  ],
+  "primitive_H_first_coefficient": [
+    "-1",
+    "1100"
+  ],
+  "ordinary_core_basis_Q_G": [
+    [
+      "beta6*kappa0^3",
+      "24*beta6*(kappa0^3-1)"
+    ],
+    [
+      "0",
+      "beta6"
+    ]
+  ],
+  "nonvanishing_scope": "Q and H are nonzero fixed functions. No nonvanishing of the two prescribed negative moments is inferred.",
+  "primes_scanned": 0
+}

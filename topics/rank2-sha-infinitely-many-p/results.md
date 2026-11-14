@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R554：原四sigma加Theta全来源与同域负矩差](results/R554-original-four-sigma-theta-source-and-same-domain-negative-moment-difference.md)：原f4与f1准确来自同一五输入ρ=σ^⊗4⊗Theta及Yunit域，24Ω³I1=I4−18∫u e2/Y⁵dρ。全函数D³f4−24f1=108σ²(σ′)²Theta′支付有界正权来源、真实双来源普通核心和固定十二jet；隐藏cut全部保留，局部非零不代指定负矩非零。
+
 - [R555：整个原角线性系与真实高接触forcing非零](results/R555-whole-original-linear-system-and-nonzero-high-contact-forcing.md)：全W_D准确识别为十九角除子B_D，交数ν=B_D·C=3κ+δ给全部原列的分支零阶帽；保两条十三行carry，单位−2/5给原完整首次商β13的两个严格非零门和真实左证书。没有实际候选命中，门h/κ>3/2或>2不覆盖9/8临界，完整中央及下一位仍保。
 
 - [R556：原native混合行、真实odd37交支与完整残差](results/R556-native-mixed-carry-odd37-cores-and-complete-residual.md)：实际h(Phi1−Phi2)精确是Δ=ρ0−η在u1deep/Lunit上的同一反对称行；其总行严格返回3βn(JS′−6δJT′)，完整补域保留。原q/反射q共同支恰两Jτ=(1−τ)F−2c轴，whole odd37锚付β及固定π0≡1mod37；归一后全部事件下降五伴随，所有第一权和κ^-n保。两独有支、四Mellin边界、完整37条件矩及实际r阶log残差全付，不预支首行积分单位。
