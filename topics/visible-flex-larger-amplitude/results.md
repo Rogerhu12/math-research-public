@@ -473,3 +473,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R253. 固定非恒材料换角的前模投影可以超代数病态](results/R253-material-projection-superalgebraic-conditioning.md)：固定C∞正非恒密度下构造严格有限、无常数且归一化的同一源向量列，使连续投影和全部偶N≥(4+ε)M精确DFT的非均值及均值输出超代数小；全alias、源截频与维数因子均完整支付，并证明条件数超代数增长。不给实际M112或完整BVP因果结论。
 
 - [R254. 完整物理前缀的精确有理非平面开片证据](results/R254-exact-full-prefix-no-planar-germ.md)（已证明，有限对象条件定理）：保完整z0及共享二阶节点的实Hermite场，每cell四个有理仿射独立位置排除任意平面参数开片；6径向×(4M+3)有理圆点给完备有限判别。准确绑定R249规范形并在单SE2/反射/材料微分同胚/R248相位下传递；新尾、collar、全闭面及含反射δE仍未由此前缀定理支付。
+
+- [R255. 精确圆参考的线性等距模态与 coast 非正规剪切](results/R255-circle-reference-linear-isometry-and-coast-shear.md)（已证明，精确参考条件定理）：从完整三度量变分式推出全模态及正交P/Q系统；常斜率N²=pN给精确仿射传播与完整范数，谱与k无关而剪切可达k²，非k²指数增长。三分量扩展的固定g约束、零模态、刚体核及bridge冻结局部尺度均明确；不把理想圆代作当前有限φ Jacobian。

@@ -488,3 +488,8 @@ request15仅coupling112bridge，源blob54522609：原699完整节点/状态逐�
 
 完整R254直接登记：全物理/完整z0/共享节点Hermite的四有理点定理、完备6×(4M+3)网格与同对象传递全部证明。proof/consumer/interface按幸存上下文重建并使用新blob身份，未冒失联本地SHA或数值回执；新尾/δE保持未付。
 同时保全R251 strict cell及full-prefix/同源scalar descriptor两实现（新blob4b373102/84200aeb），尚未编译或数值。bridge guide的 |ap*app|/(1−ap²) 明确是 |(log w)'|，旧字段名不准但数式/网格不变，不为说明勘误重跑；request14/15实际并行。
+
+### 2026-11-14 13:00 UTC — actual new-boundary QR failure and exact circle transport
+
+run43596465579新小块cond119589.8复现但完整QR相对残差.06731/方向352.418，原回溯无接受、966invalid、新H0；26件artifact14114552872与publisher2d1a128已保全，不补写未产出的逐trial域。完整R255直接登记：全模态/零模态/刚体核、coast精确传播/范数/非正规剪切及bridge冻结尺度，不冒现finite Jac。
+12:58终端恢复但旧tmpfs丢失，已重建公开窄clone并实际pull/核双README；未推v4按H重做。共享workflow新增operatorcheck短lane、pin flint0.9并request16跑恰三解析例和必要series API，publisher同增；解决重建源具体执行风险，不加候选门。bridge15实际原域/FD已过，完整联解继续。
