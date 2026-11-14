@@ -232,3 +232,6 @@
 
 
 - **R756（已证明）**：[原三Norm普通单位整格与准确scalar上同调](results/R756-original-three-norm-ordinary-lattice-and-exact-scalar-cohomology.md)。同一Z给全ordinary导数cube；实际Tate连接精确H¹(S,kerΓE)=k[T]/(N_T)，原(s−1)Y完整相位−4J·N_T+iD_T、归一首系数19，保全部42个非基准点的极点修正。E∩pU=pE给真正p可除性判据，实际测试与J/b/σ₂仍开。
+
+
+- **R757（已证明）**：[原除法多项式模p²完整式与Frobenius系数单位](results/R757-full-original-division-polynomial-mod-p2-and-Frobenius-constant-units.md)。全允许p的原ψp精确到modp²全部次数；形式对数唯一最高极点、有限指数与所有分母逐项受控。补全R753全部Frobenius方向且证明单位，原三挠点常数再给中央二项式modp³恒等式；仍未把该单位识别为原临界C_p。

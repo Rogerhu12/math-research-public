@@ -359,7 +359,10 @@ cert SHA7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be，
 **R755（原Γ/scalar dual输入与flat修正已证明）**：[完整证明](results/R755-exact-dual-Gamma-scalar-primitive-for-the-original-flat-target.md)保负伴随y=ell_cyc−2iκq，给Σ支持primitive；原q quadratic/cubic、local gauge和2处完整cochain使I₀=−〈w,Sflat〉。对原Aα得到Iα=−〈w,Sα〉=ε(21σ₂+2bJℓ)，且I₀=Iα+7εb；原scalar reference 9ε仅与真实q常数相消。真正缺口是通过原ordinary Γ/S Norm链求Sα/σ₂的global输入，未由支持存在或局部根代普通单位见证。
 
 
-**R753（原除法多项式一阶变分已证明）**：[完整证明](results/R753-original-division-polynomial-variation-and-three-torsion-unit.md)给原ψp≡−1、φp≡x^(p²) modp，及原H=(ψp+1)/p的全部非p指标。h1…hp=0，h_(p+1)=−1/2·binom((p−1)/2,(p+1)/3)为单位；原三挠点精确ψp(0)=−(−4)^((p²−1)/6)。导数信息仅余N=(p−5)/6个x^(3mp)方向；R757将从原σ乘法恒等式求它们，仍须另接O点的临界Cartier系数，不能把此三挠点单位代C_p。
+**R753（原除法多项式一阶变分已证明）**：[完整证明](results/R753-original-division-polynomial-variation-and-three-torsion-unit.md)给原ψp≡−1、φp≡x^(p²) modp，及原H=(ψp+1)/p的全部非p指标。h1…hp=0，h_(p+1)=−1/2·binom((p−1)/2,(p+1)/3)为单位；原三挠点精确ψp(0)=−(−4)^((p²−1)/6)。导数信息留下N=(p−5)/6个x^(3mp)方向，现由下文R757补齐；原O点的临界Cartier单位仍须另外证明，不能用三挠点单位替代。
 
 
 **R756（原ordinary三Norm整格与准确cohomology已证明）**：[完整证明](results/R756-original-three-norm-ordinary-lattice-and-exact-scalar-cohomology.md)用同一Z移除全部divisor，构造ordinary U/V_i/W_ij/H及精确边界，尚未任意除p。原H¹(S,kerΓE_M)=k[T]/(N_T)，U_Y=(s−1)Y全q向量−4J·N_T+iD_T，标记class首系数19、下一系数保J；原flat仅J→J−18。实际E∩pU=pE把W_ij的ordinary可除性转成原p局部测试，三Norm本身不足；继续真实flat section/Iα与σ₂，未将模块形状认作b。
+
+
+**R757（原ψp模p²全部系数已证明）**：[完整证明](results/R757-full-original-division-polynomial-mod-p2-and-Frobenius-constant-units.md)对每个p5mod6给ψp≡pΣ_j binom(2j,j)x^(3(M−j))/[4^j(6j+1)] modp²，M=(p²−1)/6；最高Z_M极点不忽略。原形式对数/σ精确截断确定R753全部N个Frobenius方向且均为单位，常数端点推出binom(2M,M)≡−p16^M modp³。原临界T·C/T·Z³系数在此精度被抹掉，R760继续原σ的更高精度桥；同h两Cartier单位与高度仍开。

@@ -115,3 +115,8 @@
 - R754首公开run43620409119/source21b31744c32a06f8d84fcd525b4ce395a0869800实际失败：固定SHA旧state含15726位整数，Python3.12默认4300位十进制解析限在首新stage前触发，无数学结论。
 - 已保存全部失败receipt/log，core-receipt SHA fcbc2d726c6c57a10e7c05cc993e743b1ec62ddcb5bb759fe7af5a5cafa7cb7c；仅在public guard后开放可信整数解析，core新SHA f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251，request同步重提。
 - 旧R735/738/745均只读复用，无完成新阶段需resume；本地仅AST/哈希。R756已推8ff9f328e37f8fd8789630fa618d777e39b46d00，HANDOFF/open同步。
+
+## 2026-11-15 01:24 Asia/Taipei · serre-public-resume-20261114
+- R757给全允许p原ψp模p²完整显式式；原σ规范、最高Z_M极点、反级数和每个分母严格保留，R753全部N个Frobenius系数明确且为单位。
+- 证明SHA60ace5d78115eb690f249bfa784b4e068999ef8bc6904962e7dcb374ab8136dd；同一三挠点常数导出中央二项式modp³恒等式，仍须原O点临界σ桥，不外推C_p单位。
+- R754可信整数解析修正已推b36d2c58b39f42a694236d48f64444bb6fe1d0af；HANDOFF归档并同步open/index，R758接原ordinary自然cocycle桥。无本地数学运行或共享设施修改。
