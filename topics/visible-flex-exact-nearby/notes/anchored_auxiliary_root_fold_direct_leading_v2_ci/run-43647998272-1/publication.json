@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43647998272",
+  "reviewed_pull_history": [
+    {
+      "before": "5137a924244d90e6d725ad5436df13296cdb57b0",
+      "after": "5137a924244d90e6d725ad5436df13296cdb57b0",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "5137a924244d90e6d725ad5436df13296cdb57b0",
+      "after": "5137a924244d90e6d725ad5436df13296cdb57b0",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/anchored-auxiliary-root-fold-direct-leading-v2.json.gz",
+      "bytes": 20319,
+      "sha256": "84e2bd1b7637299e94428b22cc19aba290d0b661f9dbe18dae918bf752f10077",
+      "original_sha256": "84e2bd1b7637299e94428b22cc19aba290d0b661f9dbe18dae918bf752f10077"
+    },
+    {
+      "file": "consumers/anchored-auxiliary-root-fold-direct-leading-v2.stdout.log",
+      "bytes": 254,
+      "sha256": "aecec2253e721a92bc4dd6f4d09a724227d025c6ebca4e5232c41d2f43ee10d7",
+      "original_sha256": "aecec2253e721a92bc4dd6f4d09a724227d025c6ebca4e5232c41d2f43ee10d7"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 46443,
+      "sha256": "855730f8bf86d04c6cc7622e1881f9fc29a2af754694dfaf5dad16012b98544e",
+      "original_sha256": "855730f8bf86d04c6cc7622e1881f9fc29a2af754694dfaf5dad16012b98544e"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 39199,
+      "sha256": "57f119cc5e9ff33519eec7a3ccf0454e844ba5a5fe047577c7900749d583b2ad",
+      "original_sha256": "57f119cc5e9ff33519eec7a3ccf0454e844ba5a5fe047577c7900749d583b2ad"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2469,
+      "sha256": "e37a9741eadf12b061b2e2f202b028074bd2e70665ea7d32d6ac74ae6be9b321",
+      "original_sha256": "e37a9741eadf12b061b2e2f202b028074bd2e70665ea7d32d6ac74ae6be9b321"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}
