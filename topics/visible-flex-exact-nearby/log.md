@@ -531,3 +531,7 @@ C1–12（SHA48940b32…）独立推。根逐式核与P递推一致：背景/fol
 ## 2026-11-14 23:32:21 UTC — oldρ principal μ精确符号勘误
 
 phase自审、root及tail逐式核：DT=QXφ、DX=−QT Tφ、η²K=Q²T ⇒ μ=Q²B+、mixed0、XX=Tμ；a0=GB−/b0不变，J=−QB+、detM0=G²B+²。P同路径更正SHAb816799e…，首发ee565/bb245与commit全保；未执行c09e不可用。root直接读原anchor source gap与mu/jac构造，确为共同绝对下界，故旧数值native保原范围不重算。后续完整forcing/transport/Taylor必须用新e4ccbf4…科学源。H9778B归档后压缩，原细节无丢。前次negative actual经历21次lease轮，20次立即CLIpull尝试均因环境unavailable，最后0564a457成功；未force、远端检查点全保。39e7adab63d2e7c8729de8c4769811eb73a40f1d两README只读核未变。
+
+## 2026-11-14 23:33:15 UTC — 正确μ的oldρ完整Fourier/Taylor执行
+
+根全读LP8831B/source42441B/CI9011B/worker/manifest/workflow；exact非圆周acb_poly卷积、未付高阶拒绝、根常数/支持/真三角次序、full forcing words及Cauchy sup/Wiener尾逐式核。只部署更正后e4ccbf4b…，未跑c09e。23pins包括原两NPZ、high38a8/fold84e2与更正proofb816，无原FFT/target/aux重算。258新cubic行每行checkpoint；每自然full Fourier stage独立gz，source/algebra/manifest/runtime相同才恢复。CI45min/worker50min前后真pull；root只加每pull UTC时间字段，不改数学。当前部署不等于actual，旧IJ/independentmean/fullstrong/cutoff依然false。9ad4c5d56a85ba952d6e9a538c49fbd3aae4fa14两README只读核未变。
