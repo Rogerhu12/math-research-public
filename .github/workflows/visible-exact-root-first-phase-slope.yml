@@ -1,0 +1,229 @@
+name: visible-exact complete root first-phase slope budget
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-root-first-phase-slope.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+
+jobs:
+  exact-root-first-phase-budget:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Partially check out only the fixed complete root first-phase proof and its small inputs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_root_first_phase_slope_20261114.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R119-root-first-phase-slope-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R119-root-first-phase-reviewed-public-CI-rules.json
+            /topics/visible-flex-exact-nearby/results/R119-supplement-complete-root-first-phase-in-slope-units.md
+            /topics/visible-flex-exact-nearby/results/R119-supplement-root-high-output-Volterra-without-low-frequency-condition-number.md
+            /topics/visible-flex-exact-nearby/results/R43-first-airy-phase-and-four-thirds-remainder.md
+            /topics/visible-flex-exact-nearby/results/R119-supplement-actual-nonradial-full-remainder-and-high-network.md
+            /topics/visible-flex-exact-nearby/results/R119-supplement-actual-nonradial-first-density-phase.md
+            /topics/visible-flex-exact-nearby/results/R119-supplement-actual-root-graph-to-fixed-radial-two-port.md
+      - name: Verify the independent manifest and execute the exact budget once
+        run: |
+          python3 - <<'PY'
+          import datetime, hashlib, json, os, pathlib, shutil, subprocess, sys, traceback
+          root = pathlib.Path(os.environ['GITHUB_WORKSPACE'])
+          topic = root/'topics/visible-flex-exact-nearby'
+          out = pathlib.Path(os.environ['RUNNER_TEMP'])/'root-first-phase-slope'
+          out.mkdir(parents=True, exist_ok=True)
+          manifest_path = topic/'notes/2026-11-14-R119-root-first-phase-slope-inputs.json'
+          rules_path = topic/'notes/2026-11-14-R119-root-first-phase-reviewed-public-CI-rules.json'
+          producer = topic/'scripts/fourfold_root_first_phase_slope_20261114.py'
+          native = out/'native.json'
+          command = ['python3', str(producer), '--manifest', str(manifest_path), '--out', str(native)]
+          record = dict(kind='actual_public_root_first_phase_slope_process', command=command,
+                        repository=os.environ['GITHUB_REPOSITORY'],
+                        run_id=os.environ['GITHUB_RUN_ID'], run_attempt=os.environ['GITHUB_RUN_ATTEMPT'],
+                        workflow_commit=os.environ['GITHUB_SHA'], math_started=False,
+                        actual_scientific_checkout_commit=subprocess.run(['git','rev-parse','HEAD'],cwd=root,
+                                                                        text=True,capture_output=True,check=True).stdout.strip(),
+                        actual_returncode=None, final_topic_complete=False,
+                        started_utc=datetime.datetime.now(datetime.timezone.utc).isoformat())
+          code = 1
+          sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
+          try:
+              if os.environ['GITHUB_REPOSITORY'] != 'Rogerhu12/math-research-public':
+                  raise ValueError('this computation is restricted to the named public repository')
+              if sha(manifest_path) != 'e2ac3ba9ccf38a936579a8907fd8003ba611a40568e34bbbce5d84e88d220d97':
+                  raise ValueError('the separately fixed input manifest changed')
+              if sha(rules_path) != '6a01acc8663a34a208f3d1592c54b95528822f759bf98392f5023d6e9ef81739':
+                  raise ValueError('the separately reviewed rules record changed')
+              manifest = json.loads(manifest_path.read_text())
+              rules = json.loads(rules_path.read_text())
+              for relative, expected in rules['readme_sha256'].items():
+                  if sha(root/relative) != expected:
+                      subprocess.run(['git','fetch','--no-tags','--depth=1','origin',rules['read_commit']],
+                                     cwd=root,text=True,capture_output=True,check=True)
+                      actual_diff = subprocess.run(['git','diff',rules['read_commit'],'HEAD','--',*rules['readme_sha256']],
+                                                   cwd=root,text=True,capture_output=True,check=True).stdout
+                      record['unread_readme_diff'] = actual_diff
+                      print(actual_diff,flush=True)
+                      raise ValueError('an unread README change requires its actual diff to be reviewed: '+relative)
+              if sha(producer) != manifest['source_sha256']:
+                  raise ValueError('the exact mathematical source changed')
+              for relative, expected in manifest['proved_input_sha256'].items():
+                  if sha(topic/relative) != expected:
+                      raise ValueError('a proved input changed: '+relative)
+              shutil.copyfile(manifest_path, out/'input-manifest.json')
+              shutil.copyfile(rules_path, out/'reviewed-rules.json')
+              shutil.copyfile(producer, out/'producer.py')
+              proof = topic/'results/R119-supplement-complete-root-first-phase-in-slope-units.md'
+              shutil.copyfile(proof, out/'proof.md')
+              record['math_started'] = True
+              with (out/'stdout.txt').open('w') as stdout, (out/'stderr.txt').open('w') as stderr:
+                  child = subprocess.run(command, cwd=root, stdout=stdout, stderr=stderr)
+              code = child.returncode
+              record['actual_returncode'] = code
+              if native.is_file():
+                  record['native_sha256'] = sha(native)
+                  result = json.loads(native.read_text())
+                  record['actual_status'] = result.get('status')
+                  record['actual_gate_count'] = result.get('gate_count')
+                  record['actual_passed'] = result.get('passed')
+                  if code == 0 and (result.get('status') != 'pass' or result.get('passed') != result.get('gate_count')):
+                      raise ValueError('a zero child return code did not contain a complete passing native')
+              elif code == 0:
+                  raise ValueError('the child returned zero without its actual native')
+          except Exception as error:
+              code = 1
+              record['wrapper_error'] = str(error)
+              (out/'wrapper-error.txt').write_text(traceback.format_exc())
+          finally:
+              record['wrapper_returncode'] = code
+              record['finished_utc'] = datetime.datetime.now(datetime.timezone.utc).isoformat()
+              (out/'process.json').write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n')
+              print(json.dumps(record,ensure_ascii=False),flush=True)
+          sys.exit(code)
+          PY
+      - name: Publish the actual native with reviewed README checks and non-FF retries
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import base64, hashlib, json, os, pathlib, shutil, subprocess
+          root = pathlib.Path(os.environ['GITHUB_WORKSPACE'])
+          topic = root/'topics/visible-flex-exact-nearby'
+          output = pathlib.Path(os.environ['RUNNER_TEMP'])/'root-first-phase-slope'
+          rules_path = topic/'notes/2026-11-14-R119-root-first-phase-reviewed-public-CI-rules.json'
+          manifest_path = topic/'notes/2026-11-14-R119-root-first-phase-slope-inputs.json'
+          sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
+          if sha(rules_path) != '6a01acc8663a34a208f3d1592c54b95528822f759bf98392f5023d6e9ef81739':
+              raise ValueError('reviewed rule bytes changed')
+          if sha(manifest_path) != 'e2ac3ba9ccf38a936579a8907fd8003ba611a40568e34bbbce5d84e88d220d97':
+              raise ValueError('independent scientific manifest bytes changed')
+          rules = json.loads(rules_path.read_text())
+          manifest = json.loads(manifest_path.read_text())
+          original_process = json.loads((output/'process.json').read_text())
+          if original_process.get('actual_returncode') != 0 or original_process.get('actual_status') != 'pass':
+              raise ValueError('only an actual completed passing run can be published as a result')
+          native = output/'native.json'
+          if sha(native) != original_process['native_sha256']:
+              raise ValueError('native output changed after its recorded execution')
+          env = os.environ.copy()
+          authorization = base64.b64encode(('x-access-token:'+env['GITHUB_TOKEN']).encode()).decode()
+          env.update(GIT_TERMINAL_PROMPT='0', GIT_CONFIG_COUNT='1',
+                     GIT_CONFIG_KEY_0='http.https://github.com/.extraheader',
+                     GIT_CONFIG_VALUE_0='AUTHORIZATION: basic '+authorization)
+          def git(*args, check=True):
+              process = subprocess.run(['git', *args], cwd=root, env=env,
+                                       text=True, capture_output=True)
+              if check and process.returncode:
+                  print(process.stdout+process.stderr,flush=True)
+                  raise RuntimeError('actual terminal Git operation failed: '+args[0])
+              return process
+          git('config','user.name','github-actions[bot]')
+          git('config','user.email','41898282+github-actions[bot]@users.noreply.github.com')
+          history = []
+          def sync():
+              before = git('rev-parse','HEAD').stdout.strip()
+              git('pull','--rebase','origin','main')
+              after = git('rev-parse','origin/main').stdout.strip()
+              diff = git('diff',before,after,'--',*rules['readme_sha256']).stdout
+              for relative, expected in rules['readme_sha256'].items():
+                  if sha(root/relative) != expected:
+                      print(diff,flush=True)
+                      raise RuntimeError('an unread README change requires its actual diff to be read')
+              if sha(rules_path) != '6a01acc8663a34a208f3d1592c54b95528822f759bf98392f5023d6e9ef81739':
+                  raise RuntimeError('the fixed rules record changed during publication')
+              if sha(manifest_path) != 'e2ac3ba9ccf38a936579a8907fd8003ba611a40568e34bbbce5d84e88d220d97':
+                  raise RuntimeError('the scientific manifest changed during publication')
+              if sha(topic/manifest['source']) != manifest['source_sha256']:
+                  raise RuntimeError('the mathematical source changed during publication')
+              for relative, expected in manifest['proved_input_sha256'].items():
+                  if sha(topic/relative) != expected:
+                      raise RuntimeError('a proved input changed during publication: '+relative)
+              history.append(dict(before=before,after=after,actual_diff=diff,
+                                  explicitly_reviewed_commit=rules['read_commit']))
+          sync()
+          native_dest = topic/'notes/2026-11-14-R119-root-first-phase-slope-budget.json'
+          run_dest = topic/'notes/root_first_phase_slope_ci'/('run-'+os.environ['GITHUB_RUN_ID']+'-'+os.environ['GITHUB_RUN_ATTEMPT'])
+          run_dest.mkdir(parents=True,exist_ok=True)
+          shutil.copyfile(native,native_dest)
+          shutil.copyfile(output/'process.json',run_dest/'actual-execution.json')
+          def status():
+              record = dict(kind='actual_public_root_first_phase_slope_publication',
+                            repository=os.environ['GITHUB_REPOSITORY'],
+                            run_id=os.environ['GITHUB_RUN_ID'],run_attempt=os.environ['GITHUB_RUN_ATTEMPT'],
+                            actual_returncode=0,native_sha256=sha(native),
+                            actual_scientific_checkout_commit=original_process['actual_scientific_checkout_commit'],
+                            source_sha256=manifest['source_sha256'],
+                            input_manifest_sha256=sha(manifest_path),
+                            readme_checks=history,final_topic_complete=False)
+              (run_dest/'publication.json').write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n')
+          status()
+          paths = [str(native_dest.relative_to(root)),str(run_dest.relative_to(root))]
+          git('add','--sparse','--',*paths)
+          git('commit','-m','visible-exact: pay the complete root first phase in slope units')
+          while True:
+              result = git('push','origin','HEAD:refs/heads/main',check=False)
+              print(result.stdout+result.stderr,flush=True)
+              if result.returncode == 0:
+                  break
+              if not any(term in result.stderr for term in ('fetch first','non-fast-forward','cannot lock ref','remote rejected')):
+                  raise RuntimeError('publication failed for a reason other than concurrent main changes')
+              sync()
+              status()
+              git('add','--sparse','--',*paths)
+              git('commit','--amend','--no-edit')
+          PY
+      - name: Require nonempty real output before artifact upload
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path(os.environ['RUNNER_TEMP'])/'root-first-phase-slope'
+          files=sorted(p for p in root.rglob('*') if p.is_file()) if root.exists() else []
+          if not files or not any(p.stat().st_size for p in files):
+              raise RuntimeError('no nonempty execution output exists; an empty artifact cannot stand in for a run')
+          record=[dict(path=str(p.relative_to(root)),bytes=p.stat().st_size,
+                       sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files]
+          (root/'artifact-inventory.json').write_text(json.dumps(record,indent=2)+'\n')
+          print(json.dumps(dict(files=len(files),nonempty_gate=True)),flush=True)
+          PY
+      - name: Preserve the actual output even if publication fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-root-first-phase-slope-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/root-first-phase-slope/
+          if-no-files-found: error
+          retention-days: 30

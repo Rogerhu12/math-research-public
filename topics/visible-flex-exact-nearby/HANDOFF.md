@@ -9,7 +9,7 @@ blob:none checkout `/workspace/scratch/0df957a82d09/math-research-public` 为 `/
 先前共享磁盘ENOSPC，本任务文件逐字节核同迁到该/tmp目录，原入口保留。新临时输出仍放该/tmp。
 旧 `/workspace/scratch/ac0d699811ad` 只读，不能修改其repo/native/进程；新的数学不在本地运行。
 
-最后实际 pull --rebase 与两 README 差异检查：d32b7f230c8e526a127b342bdbcae0558f4211de；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
+最后实际 pull --rebase 与两 README 差异检查：b660fb82943a743b5d2933607d907edbd773664f；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
 已亲读ee26c0a65a2e63c15f2ccfba6714181584416542根差异：新增visible-flex-new-mechanism，课题数改按表，其余规则和题目标未变。
 每次push前实际pull/rebase并读两个README的新增diff，至少每小时pull；每条结论独立推；非FF立即rebase重推至成功，不force。
 PAT只在瞬时CLI/env，不落文件/输出/提交。root独占Git/H/open/results/log；三代理交付新文件后冻结，避免manifest失配。
@@ -49,7 +49,7 @@ mean-norm首跑43588192611在flow→residual再包络包含方向门失败，失
 原reviewed规则 fdb83fd4…、driver7f8521cb…只管执行复用，原科学manifest不改。
 尾76/77已证完整paired中心/三片crossing；78证旧公共低方向在κ∈[.75,1]真实为负，不能扩成全网络结论。
 新完整root高输出Volterra已证，cut2^4200b下U高输出<2，二次余项H^s→H^(s+4/3)<2^4096b^(4/3)，mean/双锥/全输入/逆向/源保留。公开43588423040实际55/55门return0，native85dfceb18826de34ce62d614097c29c8368c01d76742cf45de49df44909370a4；本地/tmp/visible-exact-0df9-workspace/root-Volterra-actions-original/。
-一次root首符号、graph、strict/positive完整拼接与旧Tj=2^65536(j+5)^204δ^-320下移动中间块仍未关闭，不能只凭局部b幂改善授新全网络cutoff。
+根一次项现完整付：同Lb=2^4200b，P_b(U−expB)的4/3增益<2^4098b^(4/3)，全输入/两mean/两锥保，独立常数Actions待实际结果。graph、strict/positive完整拼接与旧Tj=2^65536(j+5)^204δ^-320下移动中间块仍欠，不能只凭局部b幂改善授新全网络cutoff。
 
 ## 几何和最终接线
 

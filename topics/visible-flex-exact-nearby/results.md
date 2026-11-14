@@ -73,3 +73,5 @@
 - [真密度射线中的完整首符号均值不变量](results/R133-supplement-first-symbol-mean-through-true-rays.md)：准确I UΦ恒等式保两个finite-rank mean项，正逆真ray共轭均保首符号平均；half-density额外−c″I/8平均0且两支相消。strict directed scalar可由完整Eulerian矩积分，无须重跑ray，根/positive完整返回仍另付。原strict-symbol公开43588623881十门已真全过并亲读native。
 
 - [R133：保留signed衰减的Riccati正Green和全部界面源](results/R133-supplement-signed-Riccati-positive-Green-with-full-interface-sources.md)：已证明完整分片signed Riccati正Green比较：先构造等式正逆再以非负slack比较，保全部左右边界及两种jump源；正交projector真实夹角费用为sec/tan而非1/sin，门为有限ρ、全部1−Bρ>0和1−D0ρ(0)>0。实际5970格的连续包络和全high/source仍须消费，不把浮点提案当证明。
+
+- [R119：同一根阈值上的完整首相位与斜率单位余项](results/R119-supplement-complete-root-first-phase-in-slope-units.md)：已证明根Lb=2^4200b上的全输入P_b(U−expB):H^s→H^(s+4/3)<2^4098b^(4/3)，保两mean、双wave行和两Fourier锥。完整第一次Dyson以R43系数q0=4/b支付；真非径向b²n≤2^-512使expB同阶<2，再对高输出二次指数余项插值；不借全空间低频条件数。独立固定manifest接公开Actions精确常数消费，完整root graph/strict/网络仍续作。

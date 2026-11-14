@@ -1,0 +1,15 @@
+{
+  "kind": "R119_root_first_phase_slope_separately_fixed_inputs",
+  "source": "scripts/fourfold_root_first_phase_slope_20261114.py",
+  "source_sha256": "974bec5d2df38daafd4110af0e212218d3b7dcb10bdc1d278d9daf5168182a8e",
+  "proved_input_sha256": {
+    "results/R119-supplement-complete-root-first-phase-in-slope-units.md": "49975f786032705998af1ecd382270aae7e1ecef199c1ce0412b847ee7a00732",
+    "results/R119-supplement-root-high-output-Volterra-without-low-frequency-condition-number.md": "935b9d6a25411769eff4c9d21e780baff77dc277b7bedde52f27b0552cf425af",
+    "results/R43-first-airy-phase-and-four-thirds-remainder.md": "3e611dbdeda50d30e7210982449075979f0688d789c6481d3f5f1fa0c58aa11e",
+    "results/R119-supplement-actual-nonradial-full-remainder-and-high-network.md": "4da077caa66e91da72fa3410e962816fac36c14dddcc9134b74e3a0dd1fed7cc",
+    "results/R119-supplement-actual-nonradial-first-density-phase.md": "a43a5cb70d3aedee20d47dcb17d4d345422d4012628d3bdb59a806de82d82dc8",
+    "results/R119-supplement-actual-root-graph-to-fixed-radial-two-port.md": "87f7886c8fc9566c351687a8a6e10d4fa67400ef2482811ec78531d16cfcfe0d"
+  },
+  "scope": "Complete root first phase on the same 2^4200 b high-output cut; all mean inputs; no new network cutoff",
+  "execution": "Only public Rogerhu12/math-research-public GitHub Actions"
+}
