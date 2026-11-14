@@ -1,0 +1,22 @@
+{
+  "producer_run": "43625474728",
+  "producer_source_commit": "4728e6868e2509556e5c60e138fd97c9b4120d8e",
+  "producer_complete": true,
+  "producer_manifest_sha256": "fb61ded80deb7f6904de7e0aa2e7a3f3b161a0ecd2f5f0c329e96935c4e9f1aa",
+  "files": [
+    {
+      "file": "p41-original-integral-period-lattice-and-degree-certificate.json",
+      "sha256": "7c2c611b9a5f43bc3a2a0007bf2cb5dd2fa8d10f133b663dbca0d054e1515de0"
+    },
+    {
+      "file": "R759-original-integral-maps-and-bounded-recovery-input.json.gz",
+      "sha256": "037b56d016d502408173319d76a3067a65dd50250c31bc2225c0fca598396ecc"
+    },
+    {
+      "file": "R759-exact-degree-LLL.json.gz",
+      "sha256": "5a1b6d44694389ac3fe48686a00c1745976726fefd8ff5196e2f60d4ef063825"
+    }
+  ],
+  "only_retained_Gram_map_vectors_and_certificate_read": true,
+  "old_period_HNF_LLL_or_field_computations_repeated": false
+}

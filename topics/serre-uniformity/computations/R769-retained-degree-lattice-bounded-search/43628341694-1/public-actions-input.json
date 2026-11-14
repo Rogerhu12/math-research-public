@@ -1,0 +1,91 @@
+{
+  "result": "R769-retained-degree-lattice-bounded-search",
+  "p": 41,
+  "source_commit": "4faaf06db52eb9110cf15766616aa501ff177889",
+  "source_repository": "Rogerhu12/math-research-public",
+  "request_sha256": "6fcdf1223bff73551e2ec17d0474d338137ae10f4907e185f50f79dd833c5209",
+  "driver_sha256": "68547e63b6cbe0f84a57f08783e7215552555dbaabe1bab42c2da7efe35fd304",
+  "degree_bound": 693,
+  "core_seconds": 720,
+  "budget_minutes": 15,
+  "retained": {
+    "R759": {
+      "run_id": "43625474728",
+      "source_commit": "4728e6868e2509556e5c60e138fd97c9b4120d8e",
+      "artifact_name": "serre-global-R759-original-integral-period-lattice-and-map-degrees-43625474728-1",
+      "artifact_id": 14125233728,
+      "artifact_zip_sha256": "2ae069c394c7038f10743c7d9c7981b509579780bca3d0c69772419e3836b883",
+      "manifest_sha256": "fb61ded80deb7f6904de7e0aa2e7a3f3b161a0ecd2f5f0c329e96935c4e9f1aa",
+      "files": {
+        "p41-original-integral-period-lattice-and-degree-certificate.json": "7c2c611b9a5f43bc3a2a0007bf2cb5dd2fa8d10f133b663dbca0d054e1515de0",
+        "R759-original-integral-maps-and-bounded-recovery-input.json.gz": "037b56d016d502408173319d76a3067a65dd50250c31bc2225c0fca598396ecc",
+        "R759-exact-degree-LLL.json.gz": "5a1b6d44694389ac3fe48686a00c1745976726fefd8ff5196e2f60d4ef063825"
+      }
+    }
+  },
+  "resume": null,
+  "mathematical_completion_claimed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43628341694",
+  "prepared_at_utc": "2026-11-14T18:45:17.747347+00:00",
+  "core_sha256": "395ab85cd065cf5eab9fb1684464bd849f5fc3bd03b2275d3b90ba71998eaca9",
+  "method_sha256": "844b806b9510023e6262b05bd353b67ce3c8218b490b923ec6697bd1c295163e",
+  "root_readme_sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "workflow_sha256": "68f79d455a248fdc827e74a75ba6847497b8b739c93bba43bf3251a484c4a1ba",
+  "source_archive": {
+    "file": "R769-execution-source.tar.gz",
+    "sha256": "e9bd48ed8ea0982f0abbb89723d3d4fa4206ef58e76126fd4baac05a2a88b523",
+    "sources": [
+      {
+        "file": "README.md",
+        "sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+        "bytes": 8842
+      },
+      {
+        "file": "topics/serre-uniformity/README.md",
+        "sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+        "bytes": 3430
+      },
+      {
+        "file": "topics/serre-uniformity/scripts/R769_retained_degree_lattice_search.py",
+        "sha256": "395ab85cd065cf5eab9fb1684464bd849f5fc3bd03b2275d3b90ba71998eaca9",
+        "bytes": 23583
+      },
+      {
+        "file": "topics/serre-uniformity/scripts/R769_public_retained_degree_search.py",
+        "sha256": "68547e63b6cbe0f84a57f08783e7215552555dbaabe1bab42c2da7efe35fd304",
+        "bytes": 15225
+      },
+      {
+        "file": "topics/serre-uniformity/scripts/p41_public_actions_recovery.py",
+        "sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+        "bytes": 10548
+      },
+      {
+        "file": "topics/serre-uniformity/notes/R769-retained-degree-lattice-bounded-search-method.md",
+        "sha256": "844b806b9510023e6262b05bd353b67ce3c8218b490b923ec6697bd1c295163e",
+        "bytes": 12668
+      },
+      {
+        "file": "topics/serre-uniformity/notes/R769-public-retained-degree-search-request.json",
+        "sha256": "6fcdf1223bff73551e2ec17d0474d338137ae10f4907e185f50f79dd833c5209",
+        "bytes": 1861
+      },
+      {
+        "file": ".github/workflows/serre-R769-retained-degree-search.yml",
+        "sha256": "68f79d455a248fdc827e74a75ba6847497b8b739c93bba43bf3251a484c4a1ba",
+        "bytes": 2730
+      },
+      {
+        "file": "topics/serre-uniformity/notes/R759-original-integral-period-lattice-and-map-degree-method.md",
+        "sha256": "fe08b7f1b994984b61c08bfb68147383556b68d6b7b11bca4a22b91eec6c4c66",
+        "bytes": 17830
+      },
+      {
+        "file": "topics/serre-uniformity/results/R762-original-mu3-quotient-and-single-function-map-recovery.md",
+        "sha256": "40bd9da5046db41ee4ce9618c9676a626921c19e993ca5e7aa35ee86cfbd45ea",
+        "bytes": 20129
+      }
+    ]
+  }
+}
