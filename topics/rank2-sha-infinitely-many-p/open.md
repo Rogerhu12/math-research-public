@@ -198,17 +198,17 @@ R533两固定负矩的第一层现有[准确递推与有限记录](notes/2026-11
 
 完整条件和旧接口保[本次归档](notes/2026-11-14-open-before-r545.md)及[R537](results/R537-actual-tangent-kernel-inseparable-degree-and-source-saturation.md)。来源核/饱和已付；其物理问题由R543、R545逐步推进，原全部同D/charge、十九角和forcing条件不删除。
 
-### R541：真正第二态与三支实际补域
+### R541：完整第二态与三支域
 
-原八度第二态准确为−G_*ρ0=R_*ρ0+ω²H_*ρ0，全部矩阵、四个原sigma及三支cut保留。任意奇偶L/M深用真实逆权/逆测试返回原S/T；一层深两观察有共同单位域，其差为显示log比。第三η支给原degree136截面，另外两支仍需degree544，不免费赋其中央零。完整见[R541](results/R541-original-degree8-second-state-and-exact-sigma-transport.md)。**待做：** 公共深域与G/R/H三支转置补域的实际比较，及η的完整CM投影在同一cut中的作用；R/G两支、所有C/F/G隐藏条件和逆尺度必须同时保留。
+原ρ1=−Gρ0=Rρ0+η、所有奇偶L/M深逆权、公共unit域log比和[2]/[4]覆盖保[R541](results/R541-original-degree8-second-state-and-exact-sigma-transport.md)及[完整检查点](notes/2026-11-14-open-before-hourly-1703.md)。**待做：** 三支所有C/F/G测试、真实cut及逆尺度的同域比较；R542/546/544/551分别付算术投影、全伴随与新核，均未免费赋G/R或整个eta中央零。
 
 ### R543：实际切向jet核的小余量
 
 两个准确线束、K_+=κ+μd1²+μd2²、T_J=s−r−1/T_M=s−r−14及Clifford界保[R543](results/R543-actual-tangent-jet-kernel-small-remainders-and-unit-smith-block.md)和[完整归档](notes/2026-11-14-open-before-r546.md)。R545的新连接另付有效极平衡和整单位块，并未改变原切向算子。**待做：** forcing对全部真实边界核及其余原列的配对，保ξ/V1、同一d2/G2及低尾。
 
-### R542：第三支原S/E2312投影与全外谱
+### R542：第三支边际的完整算术谱
 
-R541第三η支的全部23坐标给N7^9Fη=Fη+S(2z)，原S投影−1/2、E2312投影26(1−δ)/3；D33两块循环10/8、共同18维，四rank0参考和12外谱全部保持。真实Y边际有完整非齐次普通核Kη=−η−S及任意深度返回，全部tame/尺度/质量已付；同cut联合运输仍开。见[R542](results/R542-original-third-sigma-arithmetic-projections-and-affine-core.md)。**待做：** 按R541三支真实域执行这些CM投影；保四参考的未知中央与十二外谱、[2]逆尺度log质量、[4]的G/R两支。边际核心不得提升为整六输入几何身份。
+全23坐标/18维共同块、四参考十二外谱、逆2尺度及Kη=−η−S保[R542](results/R542-original-third-sigma-arithmetic-projections-and-affine-core.md)和[完整检查点](notes/2026-11-14-open-before-hourly-1703.md)。**待做：** R546全伴随投影在真正混合cut上的作用；边际principal分解不排完整联合的其余第一角型，全部未知参考/外谱仍保。
 
 ### R545：平衡后的真实物理单位块
 
