@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根及课题README含全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：94d799fc14bc4110347d6deab71bba2d0f607ef7；2026-11-14 16:50:43 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：471a0165e6a687095b1fa26590776ef7e83b94d9；2026-11-14 16:54:33 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作。每次pull后及至少每小时比较根/课题README，有变立即读差异执行并记SHA。规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13公开Actions，旧runner/ci-queue停用。
 - main逐条commit/push已授权；禁强推及改已发表历史。非快进立即pull --rebase再推；环境断连时API用expected_sha/force=false，拒绝立即读新头核规追加，不冒称实际pull。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。仅本课题log每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
@@ -14,9 +14,9 @@
 
 ## 发布、文件和当前分工
 
-R1–363、R365–547已登记；R364仍开。root统一元数据及逐条发布，代理只建proof/script/data blobs。R502公开Actions run43596695716/job132452617972成功，完整原生JSON/日志在da54025b，原证书已恢复，不复跑。
-本次完整归档：[HANDOFF](notes/2026-11-14-frontier-before-r545.md)、[open](notes/2026-11-14-open-before-r545.md)；各保前轮链。旧完整results在[before-r531](notes/2026-11-14-results-index-before-r531.md)。压缩不关旧支线；准确常数、条件、未付接口在各R正文/open/PROOF-INDEX-R501-R550。
-literature已付R540，续R549原负矩的真实非齐次/椭圆单位接口；theta已付R544，续R548η混合测试差与唯一余域；deep已付R547，续R550同预算(F,e)H2真实交与forcing；root已付R546第三eta支完整五伴随投影，续R544同域混合测试。随成随推，不等并行任务。
+R1–363、R365–547及R550已登记；R364仍开。root统一元数据及逐条发布，代理只建proof/script/data blobs。R502公开Actions run43596695716/job132452617972成功，完整原生JSON/日志在da54025b，原证书已恢复，不复跑。
+本次完整归档：[HANDOFF](notes/2026-11-14-frontier-before-r550.md)、[open](notes/2026-11-14-open-before-r550.md)；各保前轮链。旧完整results在[before-r531](notes/2026-11-14-results-index-before-r531.md)。压缩不关旧支线；准确常数、条件、未付接口在各R正文/open/PROOF-INDEX-R501-R550。
+literature已付R540，续R549原负矩的真实非齐次/椭圆单位接口；theta已付R544，续R548η混合测试差与唯一余域；deep已付R550，续R552两连接中的实际forcing相容；root已付R546第三eta支完整五伴随投影，续R544同域混合测试。随成随推，不等并行任务。
 
 ## 完成桥及全部旧支线
 
@@ -27,14 +27,14 @@ quartic E17:y²=x³−17x及E34/E136/E389，O4全Hilbert类迹低增广、O6真�
 
 π0≡1428552127+2161889730ω mod2793510720；p>19、p7mod64、p1mod3。另π0≡2mod29、1mod137/79/103/263、2mod49、1mod1013/31；R487高13/19细分保持，尚未加mod25。所有旧固定坏集、系数分母及R518/523/527大p门保原文。
 λ=−barπ0^-1，β=−λ，κ=pλ²，ρ0=−σ^⊗6/84，输入(ξ1,ξ2,ξ3,x,c,d0)。原T³=I，YT=Y，Tρ0=ωh，Th=−ω(ρ0+h)，Uρ0=ρ0+h且保W。几何18群与CM来源96不同；四态、16quarter、全new/Href行、未知参考质量/导数及转置域不删。
-R490–532原五伴随、词格、反射B0、隐藏C4八层、H0/B/J/K/E完整逆与所有真实六条件保归档/正文。H0共同六次测试、R527非零七项质量、R529零质量J/K核不能混用。旧W的E/K、Tc/C、P0与P0−P_K及全部原单位域仍开。
+R490–532原五伴随/词格/四态/B0、C4八层及H0/B/J/K/E逆的所有条件完整保本次归档和各R正文。H0测试、R527七项质量、R529零质量J/K核不能混用；全部旧W的E/K、Tc/C、P0/P0−P_K、原六输入/单位补域仍开。
 R535三Norm3全Hesse五项保隐藏输入；R536实际7×10整逆和固定D_*给同一q_n/π4，Dn质量/logx整条0，三中央v=n。三cubic carry平均T不变；C/F/Ghid均Y/W/L正交，但M核改测试。R538原P_K附Edeep回β^n(8+20κ^(3n)−κ^(6n))ρ0/27，J同行可附B2/C30深；仅N分量镜管相消，余A5、近相消、L/M及W移权未消。
 
-R533 whole(U,V)两核为a[H∧f1+6bf3∧f4]与a[H∧f4+2f1∧f3]，a=2+ω，H=(xwp³−2b)σ6。四条双unit接口把固定I−2(f4)/I−5(f1)接原真实负矩，非零未付。条件K³矩阵A²只有真实K6的1/4；R=K³Σ−AΣ虽U推前0，K³后=−81bΩ6ΠΣ/4有单位矩，禁止迭代边际矩。
+R533两whole degree6外积核和四条固定负矩接口完整保正文。真实U边际零的联合余项R=K³Σ−AΣ在再乘K³后有单位矩；A²只有真实K6的1/4，禁止迭代条件边际矩。固定I−2(f4)/I−5(f1)仍须原双unit域和完整中央比较。
 负矩首层notes/2026-11-14-degree6-negative-moment-first-layer.md给p6s+1时[u^(s−1)]AS/ABS全部分母单位。147个p<2000仅有限证据（f4无零，f1在61首层零），非当前全ray/无穷结论。R540已付ξ((c))=t2(c)^−1 k3(c)^4、导子(6)、两全局Schwartz及α=3，全权平方与普通core为ξ(𝔭)/barπ0。原I−2²准确乘36c4·17^(3/2)Ωp读primitive Katz负点，c4固定非零代数但不预赋每p单位；反射ξ^-1ψ0³根数−1，不是f1的ξψ0³。正确Katz对偶逐点固定负支，裸共轭交换普通地点。
 J反射边界notes/2026-11-14-j-reflection-three-dimensional-cm-boundary.md给F−∈S102，N7³=ω、循环3维、wholeK102=−1；原S/H3/H5投影全0，不赋原中央零。
 
-R539 L=(W−Y)/2=ωbarγc+d0，M=c−bar(ωbarγ)d0，Norm8 wholeK8=−B8、平方1、真实共两态。L保q_n，偶m时Y_m=Y−3ω(κ^-m−1)L/8、W_m=W+(16−3ω)(κ^-m−1)L/8同行回λ^mβ^n原S/6δT。Dn在m<n合法，零质量且两中央v=n−m；奇n/m=n−1为v1，补域仍须反号补偿。
+R539原L=(W−Y)/2及M有whole八度两态；L保q_n。偶深m用完整Y_m/W_m同行回λ^mβ^n原S/6δT，Dn在m<n合法且中央v=n−m；奇n取m=n−1为v1。所有逆权、M测试及反号补偿留正文/本次归档。
 R541完整第二态ρ1=−G_*ρ0=R_*ρ0+ω²H_*ρ0，矩阵仅动c,d0。G/H改M为c−barγd、2ω(c−d)，R保测试；全Dn保持但各cut转置。任意L/M深用A_rs=P_LP_MG^ε全逆权/测试回原S/T。一层后二观察差2κ(γc+d)给共同单位域同源log比。η=ω²Hρ0的Y边际可[2]上S136；G/R支仍[4]上S544。
 R542 Fη=Sη(2z)完整23坐标：N7^9Fη=Fη+S(2z)，最小多项式(t+1)(t9−1)，D33±循环10/8，共18维。S投影−1/2，Snew投影26(1−δ)/3，Href质量−1/(1008b)；四rank0参考和12外谱全活，完整质量/尺度见正文，新增LCD18144。Y边际Kη=−η−S不代whole六输入身份。
 R546已付LH整数框架、全部半特征及完整CM13/19转移；三条固定投影为S2/new/Href张量五伴随，质量−1/2、26(1−δ)/3、−1/(1008b)都是整卷积单位。原S/new两中央零控制全部独立伴随测试；共同五深core为λ5/−λ5/−λ5。Href实际环带差非零但未知导数保留，混合W/L及R544测试逐CM支完整转置。R544已付Hhat=ω²H_*的S3及三个原σ旋转框架，原Hη=−ω(ρ0+η)不可漏ω。Lunit=三个不交B_j加V={L,u0,u1,u2unit}，真实R0+R1+R2=0，原S/T双零给V积分=λ[J−ρ0(Φ1−Φ0)−η(Φ1−Φ2)]。六步词来源返原ρ0但物理A迹modp=1/64，非共同缩放；L-odd两轴β核及六输入负矩单位保全部真实域。
@@ -49,3 +49,5 @@ R545已付新实际连接L_c(H)=d V_FH+c(δd)(F EH−2(EF)H)，可取c=μd1且μ
 R547已付原垂直W_F(H)=F EH−2(EF)H零新增charge物理核kF²，T_J=s−r/T_M=s−r−13，强窗给2κ+χ单位；其像与整个ξ尾交零，接触coker E_q真正注入显示商。q=T−h>κ时联F²H1有(5κ+3χ)/2单位，显示子格只余原F³单列b_cub∈pΓrem。完整R502四项和原其余列同Schur运输；R545像单独也不吸尾，但两像相加的交仍未置零。
 R525/534全参数双接触与三Gauss行给primitive p²核至少(3/7)^(1/3)N^(1/3)权，低ell至少(68/147)^(1/6)p^(1/6)；仍允许O(N)权，不排原核。R530仅同一B或conductor·B的整Fermat连接，裸Q保A/像稳定未付。
 失败边界全留notes/results：Fermat移位只是j整对角核方程组合；normal局部修正清极升5C，不能付原3C连接；两份2026sigma/LT新稿只读摘要，实际LT字符未识别原source。继续原forcing、同一R、全carry及完整中央，不以容量或单位块收尾。
+
+R550已付I=(F,e)H2、Z=V(F,e)长κ，K0∩I=F Kmir，res_Z K0=ev_Z(kerβ)且ev_Z单射；两连接α/β完整保持。H3真实秩=(9κ+3χ)/2−dimkerα−dimkerβ，主阶单位至少59κ/16。forcing乘积厚化I_Z·O(−3E∞)长κ+9d∞保重叠，核为res真实三层核；整H3→Z本来满射，分歧非零不能单独阻止全像吸收。续R552特定forcing及全部原列。

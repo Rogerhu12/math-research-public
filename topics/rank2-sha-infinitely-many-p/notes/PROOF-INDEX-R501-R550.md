@@ -116,3 +116,5 @@
 - [R547：零charge垂直单位块与原cube单列余项](../results/R547-zero-charge-vertical-unit-block-and-actual-cubic-schur-column.md)：原W_F(H)=F EH−2(EF)H在同一H3内零新增charge；T_J=s−r/T_M=s−r−13的强窗给2κ+χ个单位，且其像与全部ξ高epsilon尾交零。联原F²H1在q=T−h>κ时有(5κ+3χ)/2个单位，显示子格只剩原F³一条非单位来源；原其余列、全forcing/carry及与R545两像的联合交仍保留。
 
 - [R544：原S3两态与三个真实环带补偿](../results/R544-original-s3-and-exact-mixed-unit-complement.md)：原第三η支与ρ0在带ω²的H及输入反射下成完整S3，三个旋转框架的whole核、逐步归一词域和六步混Y返回全付。Lunit精确拆成三不交环带与唯一全单位余域，原S/T双零接到一个明确η测试差；同一L-odd六输入有负矩单位，但原补域、混合权和外谱全部保留。
+
+- [R550：原H3首核在分歧商的真实像](../results/R550-actual-ramification-koszul-quotient-and-full-third-kernel-image.md)：同预算(F,e)H2的Koszul商是长κ的真实交概形Z，整个H3物理首核在Z的像准确为ev_Z(kerβ)，且ev_Z在N³(−TP)上单射；理想块核为F Kmir，两条原连接保持。完整清极forcing用乘积厚化长κ+9d∞保固定边界重叠，局部分歧单位不代原全像非零。
