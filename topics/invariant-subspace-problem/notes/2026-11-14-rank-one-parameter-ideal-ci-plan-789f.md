@@ -94,4 +94,10 @@ Singular 的 `lift`/`liftstd` 采用原生成元变换矩阵语义；参照其�
 
 当前仅请求提交，尚待实际run号；Ann和九目标成员证书仍未得。有限特征仅发现，后续全复参数结论仍需char0原行lift及实际分母，不以素数结果替代。
 
-实际运行现已启动：[43583257344](https://github.com/Rogerhu12/math-research-public/actions/runs/43583257344)，源`934582f3f9cdba01d64cfe35b215bd05082624fe`，创建10:01:17 UTC。当前状态in_progress；未观测到余模/Ann完成标记。
+实际运行现已启动：[43583257344](https://github.com/Rogerhu12/math-research-public/actions/runs/43583257344)，源`934582f3f9cdba01d64cfe35b215bd05082624fe`，创建10:01:17 UTC。启动时状态in_progress；最终实际结果见下一节。
+
+## 43583257344 的实际正常形超时（2026-11-14 10:31:37 UTC）
+
+[原始回执](r150-module-actions-789f/43583257344-1/char31/receipt.json)记录exitCode=124、status=failed-or-incomplete，运行1800秒，无完成标记、无准确原行身份。[实际日志](r150-module-actions-789f/43583257344-1/char31/execution.log)已到CONSTANT_PRECONDITIONER_READY，未到REDUCED_COMPONENTS或BEGIN_BASIS。因此完整3333预基加载成功，实际阻塞在reduce(M,B0)/reduce(T,B0)正常形阶段，尚未进入1034分量标准基。[CI outcome](r150-module-actions-789f/43583257344-1/char31/ci-outcome.json)的step_outcome=failure、complete=false；工作流continue-on-error可能使API步骤conclusion看似success，不能改写本次数学状态。
+
+后继改为原生分层正常形，使用已证明的2195条原来源压缩，保完整F31[s]系数和可回放常单位行操作。先作≤60秒/512MiB的有界探测；不再次运行原30分钟Singular reduce。最小Ann和九目标证书尚未得到，有限特征结果仍不能替代特征零覆盖。

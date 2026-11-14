@@ -787,3 +787,7 @@
 ### R297 附录：两个完整提升发散而实际最小费用有界
 
 [完整证明](results/R297-appendix-unprojected-lift-obstruction-with-bounded-physical-fee.md)给两个真实满足J3*W=L1A_U的自然提升，并在b=(t,t^−1,1,1,1)的指定S3不变真primitive线逐项计算。完整费分别~t⁴/3和~t⁴/12；保原正交投影后真费为(t²−1)²(t⁴+8t²+1)/[3(t⁴+3t²+1)(t⁴+4t²+1)]<1/3。发散完全来自无用正交分量；因此这两条删投影求粗界路线被原Boolean正权例排除，未产生硬端不等式反例。
+
+### R298：五位全部独立正权的完整出生二硬端加强界
+
+[完整证明](results/R298-five-independent-positive-weights-birth-two-hard-top-strengthened-s1.md)首次对五个独立正权、整个五维K2硬端给标准化加强费用≤743/782，故C1²−ΔL3⁻¹Δ*≥(39/782)C1²≻0。真实低源迹保完整第一MP逆、顶层压缩逆及−9L3⁻¹L1³抵消；化为十九次对称整数N/D，完整79轨道证明743D−782N全系数非负且非零。保所有305个负分子系数，未用抽样或分组代替全源；一般奇数硬端统一κ和原graph仍开。

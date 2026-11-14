@@ -1,0 +1,1085 @@
+{
+  "status": "all_passed",
+  "theorem": "M=5, r=2, all five independent positive weights; complete physical source",
+  "source_dimensions": {
+    "upper": 5,
+    "lower": 4
+  },
+  "bound": "743/782",
+  "identity": "trace(K_hard)=N/D; D=e4*(S^2*e3-4*S*e4+12*e5)^3",
+  "exact_division": "raw_N=(64*e5*S^6)*N; raw_D=(64*e5*S^6)*D",
+  "full_first_inverse_identity": true,
+  "compressed_top_inverse_identity": true,
+  "all_gap_coefficients_nonnegative": true,
+  "denominator_all_coefficients_positive": true,
+  "equal_weight_trace_zero": true,
+  "symmetry_orbits_complete": true,
+  "delta": {
+    "terms": 81,
+    "degree": 5,
+    "negative_coefficients": 0,
+    "sha256": "4371f71b7bc6988421f33d7ff155052029eba363224b0809cf5c086f87aa3c6c"
+  },
+  "numerator": {
+    "terms": 4360,
+    "degree": 19,
+    "negative_coefficients": 305,
+    "sha256": "f43995fdfdc874d78778364a4b1ca569cacdf553212a8f32bef3ccb7fb7286c7"
+  },
+  "denominator": {
+    "terms": 4480,
+    "degree": 19,
+    "negative_coefficients": 0,
+    "sha256": "33325c2e9ec36e6dac9abedeb20ba8b4f3eb4cb7b04d5c47c1c9e892d49d0c61"
+  },
+  "gap": {
+    "terms": 4460,
+    "degree": 19,
+    "negative_coefficients": 0,
+    "sha256": "98b1bb2956c61ade6f0452633dd8f6f0d9fb6a91e7ed75a4f4b25ea88308d096"
+  },
+  "maximum_positive_coefficient_ratio": {
+    "ratio": "743/782",
+    "exponents": [
+      5,
+      5,
+      5,
+      4,
+      0
+    ],
+    "N": 2229,
+    "D": 2346
+  },
+  "symmetric_orbit_count": 79,
+  "symmetric_monomial_orbits": [
+    {
+      "partition": [
+        10,
+        4,
+        4,
+        1,
+        0
+      ],
+      "multiplicity": 60,
+      "N": 0,
+      "D": 1,
+      "gap": 743
+    },
+    {
+      "partition": [
+        10,
+        4,
+        3,
+        2,
+        0
+      ],
+      "multiplicity": 120,
+      "N": 1,
+      "D": 3,
+      "gap": 1447
+    },
+    {
+      "partition": [
+        10,
+        4,
+        3,
+        1,
+        1
+      ],
+      "multiplicity": 60,
+      "N": 2,
+      "D": 7,
+      "gap": 3637
+    },
+    {
+      "partition": [
+        10,
+        4,
+        2,
+        2,
+        1
+      ],
+      "multiplicity": 60,
+      "N": -4,
+      "D": 12,
+      "gap": 12044
+    },
+    {
+      "partition": [
+        10,
+        3,
+        3,
+        3,
+        0
+      ],
+      "multiplicity": 20,
+      "N": 3,
+      "D": 6,
+      "gap": 2112
+    },
+    {
+      "partition": [
+        10,
+        3,
+        3,
+        2,
+        1
+      ],
+      "multiplicity": 60,
+      "N": 3,
+      "D": 27,
+      "gap": 17715
+    },
+    {
+      "partition": [
+        10,
+        3,
+        2,
+        2,
+        2
+      ],
+      "multiplicity": 20,
+      "N": -12,
+      "D": 51,
+      "gap": 47277
+    },
+    {
+      "partition": [
+        9,
+        5,
+        4,
+        1,
+        0
+      ],
+      "multiplicity": 120,
+      "N": 2,
+      "D": 6,
+      "gap": 2894
+    },
+    {
+      "partition": [
+        9,
+        5,
+        3,
+        2,
+        0
+      ],
+      "multiplicity": 120,
+      "N": 12,
+      "D": 18,
+      "gap": 3990
+    },
+    {
+      "partition": [
+        9,
+        5,
+        3,
+        1,
+        1
+      ],
+      "multiplicity": 60,
+      "N": 26,
+      "D": 42,
+      "gap": 10874
+    },
+    {
+      "partition": [
+        9,
+        5,
+        2,
+        2,
+        1
+      ],
+      "multiplicity": 60,
+      "N": 0,
+      "D": 72,
+      "gap": 53496
+    },
+    {
+      "partition": [
+        9,
+        4,
+        4,
+        2,
+        0
+      ],
+      "multiplicity": 60,
+      "N": 16,
+      "D": 33,
+      "gap": 12007
+    },
+    {
+      "partition": [
+        9,
+        4,
+        4,
+        1,
+        1
+      ],
+      "multiplicity": 30,
+      "N": 52,
+      "D": 79,
+      "gap": 18033
+    },
+    {
+      "partition": [
+        9,
+        4,
+        3,
+        3,
+        0
+      ],
+      "multiplicity": 60,
+      "N": 31,
+      "D": 54,
+      "gap": 15880
+    },
+    {
+      "partition": [
+        9,
+        4,
+        3,
+        2,
+        1
+      ],
+      "multiplicity": 120,
+      "N": 79,
+      "D": 225,
+      "gap": 105397
+    },
+    {
+      "partition": [
+        9,
+        4,
+        2,
+        2,
+        2
+      ],
+      "multiplicity": 20,
+      "N": 60,
+      "D": 393,
+      "gap": 245079
+    },
+    {
+      "partition": [
+        9,
+        3,
+        3,
+        3,
+        1
+      ],
+      "multiplicity": 20,
+      "N": 138,
+      "D": 366,
+      "gap": 164022
+    },
+    {
+      "partition": [
+        9,
+        3,
+        3,
+        2,
+        2
+      ],
+      "multiplicity": 30,
+      "N": 162,
+      "D": 645,
+      "gap": 352551
+    },
+    {
+      "partition": [
+        8,
+        6,
+        4,
+        1,
+        0
+      ],
+      "multiplicity": 120,
+      "N": 8,
+      "D": 15,
+      "gap": 4889
+    },
+    {
+      "partition": [
+        8,
+        6,
+        3,
+        2,
+        0
+      ],
+      "multiplicity": 120,
+      "N": 39,
+      "D": 45,
+      "gap": 2937
+    },
+    {
+      "partition": [
+        8,
+        6,
+        3,
+        1,
+        1
+      ],
+      "multiplicity": 60,
+      "N": 86,
+      "D": 105,
+      "gap": 10763
+    },
+    {
+      "partition": [
+        8,
+        6,
+        2,
+        2,
+        1
+      ],
+      "multiplicity": 60,
+      "N": 36,
+      "D": 180,
+      "gap": 105588
+    },
+    {
+      "partition": [
+        8,
+        5,
+        5,
+        1,
+        0
+      ],
+      "multiplicity": 60,
+      "N": 9,
+      "D": 30,
+      "gap": 15252
+    },
+    {
+      "partition": [
+        8,
+        5,
+        4,
+        2,
+        0
+      ],
+      "multiplicity": 120,
+      "N": 66,
+      "D": 123,
+      "gap": 39777
+    },
+    {
+      "partition": [
+        8,
+        5,
+        4,
+        1,
+        1
+      ],
+      "multiplicity": 60,
+      "N": 186,
+      "D": 297,
+      "gap": 75219
+    },
+    {
+      "partition": [
+        8,
+        5,
+        3,
+        3,
+        0
+      ],
+      "multiplicity": 60,
+      "N": 115,
+      "D": 186,
+      "gap": 48268
+    },
+    {
+      "partition": [
+        8,
+        5,
+        3,
+        2,
+        1
+      ],
+      "multiplicity": 120,
+      "N": 300,
+      "D": 747,
+      "gap": 320421
+    },
+    {
+      "partition": [
+        8,
+        5,
+        2,
+        2,
+        2
+      ],
+      "multiplicity": 20,
+      "N": 114,
+      "D": 1251,
+      "gap": 840345
+    },
+    {
+      "partition": [
+        8,
+        4,
+        4,
+        3,
+        0
+      ],
+      "multiplicity": 60,
+      "N": 184,
+      "D": 282,
+      "gap": 65638
+    },
+    {
+      "partition": [
+        8,
+        4,
+        4,
+        2,
+        1
+      ],
+      "multiplicity": 60,
+      "N": 536,
+      "D": 1155,
+      "gap": 439013
+    },
+    {
+      "partition": [
+        8,
+        4,
+        3,
+        3,
+        1
+      ],
+      "multiplicity": 60,
+      "N": 776,
+      "D": 1734,
+      "gap": 681530
+    },
+    {
+      "partition": [
+        8,
+        4,
+        3,
+        2,
+        2
+      ],
+      "multiplicity": 60,
+      "N": 972,
+      "D": 2946,
+      "gap": 1428774
+    },
+    {
+      "partition": [
+        8,
+        3,
+        3,
+        3,
+        2
+      ],
+      "multiplicity": 20,
+      "N": 1992,
+      "D": 4500,
+      "gap": 1785756
+    },
+    {
+      "partition": [
+        7,
+        7,
+        4,
+        1,
+        0
+      ],
+      "multiplicity": 60,
+      "N": 12,
+      "D": 20,
+      "gap": 5476
+    },
+    {
+      "partition": [
+        7,
+        7,
+        3,
+        2,
+        0
+      ],
+      "multiplicity": 60,
+      "N": 56,
+      "D": 60,
+      "gap": 788
+    },
+    {
+      "partition": [
+        7,
+        7,
+        3,
+        1,
+        1
+      ],
+      "multiplicity": 30,
+      "N": 124,
+      "D": 140,
+      "gap": 7052
+    },
+    {
+      "partition": [
+        7,
+        7,
+        2,
+        2,
+        1
+      ],
+      "multiplicity": 30,
+      "N": 64,
+      "D": 240,
+      "gap": 128272
+    },
+    {
+      "partition": [
+        7,
+        6,
+        5,
+        1,
+        0
+      ],
+      "multiplicity": 120,
+      "N": 17,
+      "D": 60,
+      "gap": 31286
+    },
+    {
+      "partition": [
+        7,
+        6,
+        4,
+        2,
+        0
+      ],
+      "multiplicity": 120,
+      "N": 125,
+      "D": 225,
+      "gap": 69425
+    },
+    {
+      "partition": [
+        7,
+        6,
+        4,
+        1,
+        1
+      ],
+      "multiplicity": 60,
+      "N": 312,
+      "D": 545,
+      "gap": 160951
+    },
+    {
+      "partition": [
+        7,
+        6,
+        3,
+        3,
+        0
+      ],
+      "multiplicity": 60,
+      "N": 211,
+      "D": 330,
+      "gap": 80188
+    },
+    {
+      "partition": [
+        7,
+        6,
+        3,
+        2,
+        1
+      ],
+      "multiplicity": 120,
+      "N": 526,
+      "D": 1305,
+      "gap": 558283
+    },
+    {
+      "partition": [
+        7,
+        6,
+        2,
+        2,
+        2
+      ],
+      "multiplicity": 20,
+      "N": -42,
+      "D": 2145,
+      "gap": 1626579
+    },
+    {
+      "partition": [
+        7,
+        5,
+        5,
+        2,
+        0
+      ],
+      "multiplicity": 60,
+      "N": 181,
+      "D": 330,
+      "gap": 103648
+    },
+    {
+      "partition": [
+        7,
+        5,
+        5,
+        1,
+        1
+      ],
+      "multiplicity": 30,
+      "N": 382,
+      "D": 810,
+      "gap": 303106
+    },
+    {
+      "partition": [
+        7,
+        5,
+        4,
+        3,
+        0
+      ],
+      "multiplicity": 120,
+      "N": 511,
+      "D": 690,
+      "gap": 113068
+    },
+    {
+      "partition": [
+        7,
+        5,
+        4,
+        2,
+        1
+      ],
+      "multiplicity": 120,
+      "N": 1424,
+      "D": 2787,
+      "gap": 957173
+    },
+    {
+      "partition": [
+        7,
+        5,
+        3,
+        3,
+        1
+      ],
+      "multiplicity": 60,
+      "N": 1702,
+      "D": 4074,
+      "gap": 1696018
+    },
+    {
+      "partition": [
+        7,
+        5,
+        3,
+        2,
+        2
+      ],
+      "multiplicity": 60,
+      "N": 1234,
+      "D": 6795,
+      "gap": 4083697
+    },
+    {
+      "partition": [
+        7,
+        4,
+        4,
+        4,
+        0
+      ],
+      "multiplicity": 20,
+      "N": 780,
+      "D": 978,
+      "gap": 116694
+    },
+    {
+      "partition": [
+        7,
+        4,
+        4,
+        3,
+        1
+      ],
+      "multiplicity": 60,
+      "N": 2724,
+      "D": 5790,
+      "gap": 2171802
+    },
+    {
+      "partition": [
+        7,
+        4,
+        4,
+        2,
+        2
+      ],
+      "multiplicity": 30,
+      "N": 3144,
+      "D": 9732,
+      "gap": 4772268
+    },
+    {
+      "partition": [
+        7,
+        4,
+        3,
+        3,
+        2
+      ],
+      "multiplicity": 60,
+      "N": 2966,
+      "D": 14352,
+      "gap": 8344124
+    },
+    {
+      "partition": [
+        7,
+        3,
+        3,
+        3,
+        3
+      ],
+      "multiplicity": 5,
+      "N": 2340,
+      "D": 21288,
+      "gap": 13987104
+    },
+    {
+      "partition": [
+        6,
+        6,
+        6,
+        1,
+        0
+      ],
+      "multiplicity": 20,
+      "N": 18,
+      "D": 90,
+      "gap": 52794
+    },
+    {
+      "partition": [
+        6,
+        6,
+        5,
+        2,
+        0
+      ],
+      "multiplicity": 60,
+      "N": 254,
+      "D": 450,
+      "gap": 135722
+    },
+    {
+      "partition": [
+        6,
+        6,
+        5,
+        1,
+        1
+      ],
+      "multiplicity": 30,
+      "N": 444,
+      "D": 1110,
+      "gap": 477522
+    },
+    {
+      "partition": [
+        6,
+        6,
+        4,
+        3,
+        0
+      ],
+      "multiplicity": 60,
+      "N": 714,
+      "D": 918,
+      "gap": 123726
+    },
+    {
+      "partition": [
+        6,
+        6,
+        4,
+        2,
+        1
+      ],
+      "multiplicity": 60,
+      "N": 1942,
+      "D": 3690,
+      "gap": 1223026
+    },
+    {
+      "partition": [
+        6,
+        6,
+        3,
+        3,
+        1
+      ],
+      "multiplicity": 30,
+      "N": 2122,
+      "D": 5358,
+      "gap": 2321590
+    },
+    {
+      "partition": [
+        6,
+        6,
+        3,
+        2,
+        2
+      ],
+      "multiplicity": 30,
+      "N": 872,
+      "D": 8886,
+      "gap": 5920394
+    },
+    {
+      "partition": [
+        6,
+        5,
+        5,
+        3,
+        0
+      ],
+      "multiplicity": 60,
+      "N": 1013,
+      "D": 1266,
+      "gap": 148472
+    },
+    {
+      "partition": [
+        6,
+        5,
+        5,
+        2,
+        1
+      ],
+      "multiplicity": 60,
+      "N": 2828,
+      "D": 5130,
+      "gap": 1600094
+    },
+    {
+      "partition": [
+        6,
+        5,
+        4,
+        4,
+        0
+      ],
+      "multiplicity": 60,
+      "N": 1544,
+      "D": 1746,
+      "gap": 89870
+    },
+    {
+      "partition": [
+        6,
+        5,
+        4,
+        3,
+        1
+      ],
+      "multiplicity": 120,
+      "N": 4484,
+      "D": 10212,
+      "gap": 4081028
+    },
+    {
+      "partition": [
+        6,
+        5,
+        4,
+        2,
+        2
+      ],
+      "multiplicity": 60,
+      "N": 4046,
+      "D": 17109,
+      "gap": 9548015
+    },
+    {
+      "partition": [
+        6,
+        5,
+        3,
+        3,
+        2
+      ],
+      "multiplicity": 60,
+      "N": 357,
+      "D": 24828,
+      "gap": 18168030
+    },
+    {
+      "partition": [
+        6,
+        4,
+        4,
+        4,
+        1
+      ],
+      "multiplicity": 20,
+      "N": 5556,
+      "D": 14082,
+      "gap": 6118134
+    },
+    {
+      "partition": [
+        6,
+        4,
+        4,
+        3,
+        2
+      ],
+      "multiplicity": 60,
+      "N": -1312,
+      "D": 34500,
+      "gap": 26659484
+    },
+    {
+      "partition": [
+        6,
+        4,
+        3,
+        3,
+        3
+      ],
+      "multiplicity": 20,
+      "N": -12519,
+      "D": 50448,
+      "gap": 47272722
+    },
+    {
+      "partition": [
+        5,
+        5,
+        5,
+        4,
+        0
+      ],
+      "multiplicity": 20,
+      "N": 2229,
+      "D": 2346,
+      "gap": 0
+    },
+    {
+      "partition": [
+        5,
+        5,
+        5,
+        3,
+        1
+      ],
+      "multiplicity": 20,
+      "N": 6234,
+      "D": 13686,
+      "gap": 5293710
+    },
+    {
+      "partition": [
+        5,
+        5,
+        5,
+        2,
+        2
+      ],
+      "multiplicity": 10,
+      "N": 5874,
+      "D": 22986,
+      "gap": 12485130
+    },
+    {
+      "partition": [
+        5,
+        5,
+        4,
+        4,
+        1
+      ],
+      "multiplicity": 30,
+      "N": 6030,
+      "D": 18738,
+      "gap": 9206874
+    },
+    {
+      "partition": [
+        5,
+        5,
+        4,
+        3,
+        2
+      ],
+      "multiplicity": 60,
+      "N": -6885,
+      "D": 45744,
+      "gap": 39371862
+    },
+    {
+      "partition": [
+        5,
+        5,
+        3,
+        3,
+        3
+      ],
+      "multiplicity": 10,
+      "N": -25152,
+      "D": 66600,
+      "gap": 69152664
+    },
+    {
+      "partition": [
+        5,
+        4,
+        4,
+        4,
+        2
+      ],
+      "multiplicity": 20,
+      "N": -19890,
+      "D": 62532,
+      "gap": 62015256
+    },
+    {
+      "partition": [
+        5,
+        4,
+        4,
+        3,
+        3
+      ],
+      "multiplicity": 30,
+      "N": -46940,
+      "D": 91236,
+      "gap": 104495428
+    },
+    {
+      "partition": [
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      "multiplicity": 5,
+      "N": -85896,
+      "D": 124584,
+      "gap": 159736584
+    }
+  ],
+  "elapsed_seconds": 0.4448057219997281,
+  "generator_sha256": "d7bbf3628ab0c6fcd6ef8e41e8c2316c8424f763c4e9b994f4b1da0471cbbe6e"
+}
