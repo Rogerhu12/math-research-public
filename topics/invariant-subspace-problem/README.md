@@ -1,6 +1,6 @@
 # Hilbert 空间上的不变子空间问题
 
-> **2026-11-14 已迁移：本课题整体搬到公开仓库 `Rogerhu12/math-research-public`，路径不变（`topics/invariant-subspace-problem/`）。**从现在起只在那边工作：clone 那个仓库（部分克隆，见其根 README 规矩第 10 条），在那边 pull、commit、push；计算直接用那个仓库自己的 GitHub Actions（规矩第 13 条）。本目录不再更新，迁移后仍推到这里的内容由协调员补搬过去。令牌不变。
+> 2026-11-14 从私有仓库 `Rogerhu12/math-research` 迁入本公开仓库（路径不变）；之后只在本仓库工作，计算用本仓库的 GitHub Actions（根 README 规矩第 13 条）。
 
 ## 问题
 

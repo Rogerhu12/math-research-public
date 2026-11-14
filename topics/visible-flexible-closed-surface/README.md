@@ -1,6 +1,6 @@
 # 好看的可弯曲闭曲面：按直径算的大幅度弯曲
 
-> **2026-11-14 已迁移：本课题整体搬到公开仓库 `Rogerhu12/math-research-public`，路径不变（`topics/visible-flexible-closed-surface/`）。**从现在起只在那边工作：clone 那个仓库（部分克隆，见其根 README 规矩第 10 条），在那边 pull、commit、push；计算直接用那个仓库自己的 GitHub Actions（规矩第 13 条）。本目录不再更新，迁移后仍推到这里的内容由协调员补搬过去。令牌不变。
+> 2026-11-14 从私有仓库 `Rogerhu12/math-research` 迁入本公开仓库（路径不变）；之后只在本仓库工作，计算用本仓库的 GitHub Actions（根 README 规矩第 13 条）。
 
 > 2026-11-09 作者修订：完成标准中的形状变化量由对刚体运动取商的 $\delta$ 改为握持下的 $\delta_{\rm hold}$；原 $\delta$（现记 $\delta_{\rm E}$）的 $0.05\,D$ 改为更强目标。
 
