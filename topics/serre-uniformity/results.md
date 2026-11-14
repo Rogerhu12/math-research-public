@@ -632,3 +632,5 @@
 - **R697（已证明）**：[原sigma六截面及实际中心值的算术平方根](results/R697-original-sigma-six-sections-and-integral-square-roots.md)。同一周期/乘子给六截面，实际权1/4各一维；原xσ⁶与−xyσ⁶准确给A_k，完整六同源初值和Bell常微分证明A_k∈Z[1/6]。实际Cp=−3A_p²、C_(p−3)=−3A_(p−3)² modp；无除p递推已保存，全p非消失仍未证。
 
 - **R625（已证明）**：[SS_j0_15二重残根无整提升](results/R625-SS_j0_15-double-residual-root-has-no-integral-lift.md)。真实F2/47模47为10(y−28)²，但f(28)=658 mod47²且导数0，全部47个第二位均无解；完整链/Norm/中心及全尾保持。四标签整盘排除，累计61/105。
+
+- **R659（已证明）**：[SS_j44_08原规范高度与整盘排除](results/R659-SS_j44_08-actual-nonelliptic-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2全部简单Hensel提升的四同标签F3差值全非零。非CM SS累计62/105。
