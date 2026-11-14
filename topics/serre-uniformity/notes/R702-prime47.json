@@ -1,0 +1,107 @@
+{
+  "prime": 47,
+  "B": 10,
+  "legendre_2": 1,
+  "A_p_plus_3": 13,
+  "A_p_plus_6": 7,
+  "pC_p_plus_3": 7,
+  "pC_p_plus_6": 7,
+  "every_allowed_t_checked": [
+    {
+      "t": 2,
+      "A_t": 1,
+      "A_shift": 13,
+      "predicted": 13
+    },
+    {
+      "t": 5,
+      "A_t": 6,
+      "A_shift": 7,
+      "predicted": 7
+    },
+    {
+      "t": 8,
+      "A_t": 33,
+      "A_shift": 24,
+      "predicted": 24
+    },
+    {
+      "t": 11,
+      "A_t": 35,
+      "A_shift": 35,
+      "predicted": 35
+    },
+    {
+      "t": 14,
+      "A_t": 19,
+      "A_shift": 37,
+      "predicted": 37
+    },
+    {
+      "t": 17,
+      "A_t": 45,
+      "A_shift": 14,
+      "predicted": 14
+    },
+    {
+      "t": 20,
+      "A_t": 7,
+      "A_shift": 17,
+      "predicted": 17
+    },
+    {
+      "t": 23,
+      "A_t": 37,
+      "A_shift": 9,
+      "predicted": 9
+    },
+    {
+      "t": 26,
+      "A_t": 42,
+      "A_shift": 1,
+      "predicted": 1
+    },
+    {
+      "t": 29,
+      "A_t": 11,
+      "A_shift": 29,
+      "predicted": 29
+    },
+    {
+      "t": 32,
+      "A_t": 18,
+      "A_shift": 31,
+      "predicted": 31
+    },
+    {
+      "t": 35,
+      "A_t": 31,
+      "A_shift": 26,
+      "predicted": 26
+    },
+    {
+      "t": 38,
+      "A_t": 34,
+      "A_shift": 32,
+      "predicted": 32
+    },
+    {
+      "t": 41,
+      "A_t": 20,
+      "A_shift": 19,
+      "predicted": 19
+    },
+    {
+      "t": 44,
+      "A_t": 30,
+      "A_shift": 26,
+      "predicted": 26
+    }
+  ],
+  "ordinary_derivatives_used": true,
+  "division_by_p_used": false,
+  "runtime_seconds": 0.010103706998052076,
+  "result": "R702-independent-Bell-check",
+  "source_sha256": "94bc77b75d9cf7d9c98388709c7596878b72b82f30773523a0071973a6522443",
+  "validation_is_all_prime_proof": false
+}

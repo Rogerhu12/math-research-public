@@ -4,8 +4,8 @@
 
 证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，未达到 README 完成标准。** 固定p、条件结论、数值验证都不算完成。会话 serre-public-resume-20261114；日志 Asia/Taipei。
 
-已读规则提交：3c9eb477d16b8c9cd8b2a7bd959106e2c4650c3b
-最近实际 pull：2026-11-14 18:55:38 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
+已读规则提交：41e440a2f2796f8cfdd353a901667d03a74b1d66
+最近实际 pull：2026-11-14 18:56:45 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
 
 仅在 Rogerhu12/math-research-public 工作，长计算用本仓库 Actions；旧“停用公开runner/转本地”作废。每条结论终端commit/push main已授权；推前pull，非快进立即pull --rebase循环，不force。令牌仅CLI临时环境。根代理独占tracked/git；辅助在仓库外agent-global/、agent-cartier/、agent-o6/。单Markdown<100KB，HANDOFF<10KB，open/README<30KB，数据>1MBgzip，单文件<5MB。日志只追加本题log，≤5内容行；改共享文件须在log说明。
 
@@ -16,7 +16,7 @@
 - 固定p41已登记103/105个非CM SS整盘排除，所有普通/分歧尾结果已逐条保存证明并推送；只余两个CM4粗图高度。R671保留ηC全部I2校准，真实T2极点只在I2；I1分母单位及完整迹方程已核，F2无根。
 - 两个CM4粗图j36_02/06的R655原304位链及457主函数已完整返回（43580991103，源c52ae419）；高度R656尚未算。按R554原z中j/ηB联合Laurent消极；真实T2为另一CM4点加同一j44点两次，须保留三分支重数，有限平坦约束保持长度4。serre-p41-true-CM4-heights.yml及R656两作业已显式激活，只算缺失高度；有F2根则后续补F3。
 - R698新窗口四片run43585949869（源0202228f）完整返回2001..200000，共5893素数。唯一返回零为p137147：Cp=80155，Cp−3=0；完整零通道证书已在computations/R698-window-0/。完整H/Z/C/T证书已逐项核定；serre-original-z-zero-verification.yml已激活单p137147原z独立核验，R706正式结果待其返回。此前R689的41..2000共99素数全非零仍成立。
-- 本轮理论登记：R699已登记：真实规范差降至g(Y)及固定第二类周期，完整v(z)≥3尾与有限首阶集合；实际高度jet未求；R701已登记：V_sc原标记43维p-local商唯一标量η_p=C/a、L=31−2η_p；86×44实际向量未求；agent-cartier的R702第一极点块全p移位单位。尚未登记的草稿不计定理。
+- 本轮理论登记：R699已登记：真实规范差降至g(Y)及固定第二类周期，完整v(z)≥3尾与有限首阶集合；实际高度jet未求；R701已登记：V_sc原标记43维p-local商唯一标量η_p=C/a、L=31−2η_p；86×44实际向量未求；R702已登记：第一极点块给pC_(p+3)=9B²、pC_(p+6)=−405B²/2全p单位；不能跨边界代原两权。尚未登记的草稿不计定理。
 - 后续分工：cartier R705对接原Abel更高项并核p137147；global R703求实际外积非零jet；O6 R704求原Γ标记p-local向量。root占R691/R706，R655/656用于两CM4恢复。所有新结论即时单独commit/push；主目标仍OPEN。
 
 ## O5：固定 p41 的真实高度与全部129盘
