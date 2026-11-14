@@ -234,3 +234,7 @@
 ### 2026-11-14：物理 joined 递减投影与实际测试源的全切口 bare 预算（789f）
 
 [证明](notes/2026-11-14-physical-joined-decreasing-projections-and-fixed-test-bare-budget-789f-next.md)从完整商kerδ_q^d的首头提升得到M_q=K+H_hi,q=ker(Q_q(A+D))的闭性及递减性；同一固定物理测试的P_Mq f准确支撑≤q+d，源u_b=(L+B)⁻¹Lt。正交投影增量与宽d区间Fourier mask给Σbare(u_b)²≤d(2+logd)²||f||²，无增长孔MP或Jordan条件数。与实际有限核源u_f作差的e_bf有ΣXi(e_bf)²≤4d[(2+logd)²+1]||f||²，且原测试误差由Xi(r)乘实际bare/ordinary预算准确控制；不推μ(e_bf)或主左配对小，不宣称N=M。
+
+### 2026-11-14：第九单关系完整第一像与原31²h0模31⁶入口冻结（789f）
+
+[精确接口](notes/2026-11-14-r150-ninth-first-interface-789f.md)及[13文件清单](notes/2026-11-14-r150-ninth-first-frozen-manifest-789f.json)固定唯一新关系、九个实际余量、全部Q/U9循环像与正目标原17续算；复用四份真实artifact的40文件和3仓库输入。新数学、AST和编译尚未执行。六编译各30秒、数学共享300秒/子进程512MiB；全部结果、真实来源及cache无损保存。原目标保持31²h0模31⁶；负仅限当前F9来源mod31²，较低初值及char0未闭。入口由主线实际pull/rebase/push成功后显式workflow_dispatch，完成只读真实回执。

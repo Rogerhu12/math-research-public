@@ -1,0 +1,76 @@
+{
+  "format": "r150-ninth-first-fixed-request-v1",
+  "new_direction_labels": [
+    9001
+  ],
+  "actual_new_rhs_labels": [
+    9001,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "target_labels": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "original_raw_rows": 6188,
+  "integer_modulus": 887503681,
+  "new_kernel_divisor": 28629151,
+  "target_multiplier": "31^2*h0",
+  "shared_mathematical_seconds": 300,
+  "per_child_memory_mib": 512,
+  "per_compilation_seconds": 30,
+  "native_compilations": 6,
+  "t96_run_id": 43597823809,
+  "t96_artifact_id": 14114364261,
+  "all198_run_id": 43619888599,
+  "all198_artifact_id": 14124017685,
+  "seven_run_id": 43630666145,
+  "seven_artifact_id": 14127663630,
+  "current_run_id": 43634830833,
+  "current_artifact_id": 14130166013,
+  "old1834_kernel_recomputed": false,
+  "old_eight_first_directions_recomputed": false,
+  "partial_positive_continuation_required": true,
+  "complete_higher_initial_freedom_computed": false,
+  "characteristic_zero_identity_asserted": false,
+  "source_manifest_file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-frozen-manifest-789f.json",
+  "source_manifest_sha256": "8221ff61314167f38a559cb91ba03c8df73666301707179e6d75ef5bd71f10c6",
+  "workflow_source_sha256": {
+    ".github/workflows/invariant-subspace-r150-ninth-first.yml": "040da5224a2fe65852bbc472ac80dadb6a0cf1cc8640c98ab8e19cd1484cd5d2",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-actions-publish-789f.py": "19c26c7320e453d071de5941f2d1e9af0c91b787b86f8caaf281ecb327871fac"
+  },
+  "entry_python_files": [
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-integer-model-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-runner-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-source-action-and-kernel-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-actions-publish-789f.py"
+  ],
+  "rules_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "rules_read_commit": "71f33e2c4d7c55d440bbfab4be0e60e4851fc49a",
+  "account_budget_checked_utc": "2026-11-14 20:37:12 UTC",
+  "account_active_runs_observed": 4,
+  "maximum_stored_part_bytes": 4500000,
+  "all_actual_recovery_files_preserved": true,
+  "new_syntax_parse_executed": false,
+  "new_compilation_executed": false,
+  "new_mathematical_execution_performed": false,
+  "token_scope": "Actions GITHUB_TOKEN command-scoped environment only; no expanded credentials on disk."
+}

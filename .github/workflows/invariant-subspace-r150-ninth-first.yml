@@ -1,0 +1,256 @@
+name: ISP R150 one ninth relation and original31squaredh0 modulo31six
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: isp-r150-ninth-first-lift-789f
+  cancel-in-progress: false
+
+jobs:
+  ninth-first:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+            .github/workflows
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Record exact ninth-direction request, full-path manifest and both rules
+        run: |
+          python3 - <<'PYCODE'
+          import ast,hashlib,json,os,sys
+          from pathlib import Path
+          sys.dont_write_bytecode=True
+          notes=Path('topics/invariant-subspace-problem/notes')
+          out=Path(os.environ['RUNNER_TEMP'])/'isp-r150-ninth-first-output'
+          (out/'results').mkdir(parents=True,exist_ok=True)
+          (out/'recovery').mkdir(exist_ok=True)
+          with open(os.environ['GITHUB_ENV'],'a') as f:f.write('ISP_NINTH_OUT='+str(out)+'\n')
+          request_path=notes/'2026-11-14-r150-ninth-first-ci-request-789f.json'
+          request=json.loads(request_path.read_text())
+          expected=json.loads(r'''{"format":"r150-ninth-first-fixed-request-v1","new_direction_labels":[9001],"actual_new_rhs_labels":[9001,2,3,4,5,6,7,8,9,10],"target_labels":[2,3,4,5,6,7,8,9,10],"original_raw_rows":6188,"integer_modulus":887503681,"new_kernel_divisor":28629151,"target_multiplier":"31^2*h0","shared_mathematical_seconds":300,"per_child_memory_mib":512,"per_compilation_seconds":30,"native_compilations":6,"t96_run_id":43597823809,"t96_artifact_id":14114364261,"all198_run_id":43619888599,"all198_artifact_id":14124017685,"seven_run_id":43630666145,"seven_artifact_id":14127663630,"current_run_id":43634830833,"current_artifact_id":14130166013,"old1834_kernel_recomputed":false,"old_eight_first_directions_recomputed":false,"partial_positive_continuation_required":true,"complete_higher_initial_freedom_computed":false,"characteristic_zero_identity_asserted":false,"source_manifest_file":"topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-frozen-manifest-789f.json","source_manifest_sha256":"8221ff61314167f38a559cb91ba03c8df73666301707179e6d75ef5bd71f10c6"}''')
+          if any(request.get(k)!=v for k,v in expected.items()):raise SystemExit('Bounded augmented-second request changed')
+          rules={p:hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in ['README.md','topics/invariant-subspace-problem/README.md']}
+          if rules!=request['rules_sha256']:raise SystemExit('README changed: root must read/apply the actual diff before this request runs')
+          manifest_path=Path(request['source_manifest_file'])
+          if hashlib.sha256(manifest_path.read_bytes()).hexdigest()!=request['source_manifest_sha256']:raise SystemExit('Ninth-relation frozen source manifest changed')
+          manifest=json.loads(manifest_path.read_text())
+          for item in manifest['files']:
+              p=Path(item['path'])
+              if not str(p).startswith('topics/invariant-subspace-problem/notes/'):raise SystemExit('Frozen path is not the full approved repository path')
+              data=p.read_bytes()
+              if len(data)!=item['bytes'] or hashlib.sha256(data).hexdigest()!=item['sha256']:raise SystemExit('Frozen full-path file changed: '+str(p))
+          for name,expected_sha in manifest['reusedDependencies'].items():
+              dependency=notes/name
+              if hashlib.sha256(dependency.read_bytes()).hexdigest()!=expected_sha:raise SystemExit('Frozen original dependency changed: '+str(dependency))
+          if set(request['workflow_source_sha256'])!=set([".github/workflows/invariant-subspace-r150-ninth-first.yml","topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-actions-publish-789f.py"]):raise SystemExit('Exact workflow and publisher hashes required')
+          if sorted(request['entry_python_files'])!=sorted(["topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-integer-model-789f.py","topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py","topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-runner-789f.py","topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-source-action-and-kernel-789f.py","topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-actions-publish-789f.py"]):raise SystemExit('Exact five new Python entry syntax checks required')
+          for name,expected_sha in request['workflow_source_sha256'].items():
+              if hashlib.sha256(Path(name).read_bytes()).hexdigest()!=expected_sha:raise SystemExit('Frozen workflow/publication source changed: '+name)
+          parsed=[]
+          for name in request['entry_python_files']:
+              ast.parse(Path(name).read_text(),filename=name);parsed.append(name)
+          result={'source_commit':os.environ['GITHUB_SHA'],'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],'rules_sha256':rules,'request':request,'request_sha256':hashlib.sha256(request_path.read_bytes()).hexdigest(),'source_manifest_sha256':request['source_manifest_sha256'],'actualPythonSyntaxFilesParsed':parsed,'allOriginalSourceHashesVerified':True,'target_multiplier':'31^2*h0','targetScope':'Every compatible target completes original17; negatives preserve the current F9 source modulo31^2','noMathematicalCompletionClaimed':True}
+          (out/'results'/'actions-source.json').write_text(json.dumps(result,indent=2)+'\n')
+          print(json.dumps(expected))
+          PYCODE
+      - name: Restore the already completed original T96 graph and DAGs
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-t96-graph-recovery-43597823809-1
+          run-id: 43597823809
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-ninth-first-t96-download
+      - name: Restore the already completed all198 original sources and global arrays
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-all198-second-bockstein-recovery-43619888599-1
+          run-id: 43619888599
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-ninth-first-all198-download
+      - name: Restore the already completed seven-relation sources and all16 exact arrays
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-seven-saturation-recovery-43630666145-1
+          run-id: 43630666145
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-ninth-first-seven-download
+      - name: Restore actual ninth-source matrices and all current original31squaredh0 sources
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-augmented-seven-second-recovery-43634830833-1
+          run-id: 43634830833
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-ninth-first-current-download
+      - name: Retain the exact40 artifact inputs and require all43 contract inputs
+        run: |
+          python3 - <<'PYCODE'
+          import hashlib,json,os,shutil
+          from pathlib import Path
+          notes=Path('topics/invariant-subspace-problem/notes')
+          contract=json.loads((notes/'2026-11-14-r150-ninth-first-contract-789f.json').read_text())
+          temp=Path(os.environ['RUNNER_TEMP'])
+          def sha(p):
+              h=hashlib.sha256()
+              with p.open('rb') as f:
+                  for b in iter(lambda:f.read(1048576),b''):h.update(b)
+              return h.hexdigest()
+          records=[]
+          if len(contract['inputs'])!=43:raise SystemExit('Expected exactly43 frozen inputs')
+          for scope in ['t96','all198','seven','current']:
+              original=temp/('isp-r150-ninth-first-'+scope+'-download')
+              selected=temp/('isp-r150-ninth-first-'+scope+'-input')
+              selected.mkdir(parents=True,exist_ok=True)
+              for label,item in contract['inputs'].items():
+                  if item['scope']!=scope:continue
+                  candidates=[original/item['relative']] if 'relative' in item else sorted({p for name in item['names'] for p in original.rglob(name)})
+                  actual=next((p for p in candidates if p.is_file() and sha(p)==item['sha256']),None)
+                  if actual is None:raise SystemExit('Actual saved input absent or SHA mismatch: '+label)
+                  relative=Path(item['relative']) if 'relative' in item else Path(actual.name)
+                  destination=selected/relative
+                  destination.parent.mkdir(parents=True,exist_ok=True)
+                  try:os.link(actual,destination)
+                  except OSError:shutil.copyfile(actual,destination)
+                  records.append({'label':label,'scope':scope,'restoredArtifactPath':str(actual.relative_to(original)),'selectedPath':str(relative),'bytes':actual.stat().st_size,'sha256':item['sha256']})
+              with open(os.environ['GITHUB_ENV'],'a') as f:
+                  f.write({'t96':'ISP_NINTH_T96','all198':'ISP_NINTH_ALL198','seven':'ISP_NINTH_SEVEN','current':'ISP_NINTH_CURRENT'}[scope]+'='+str(selected)+'\n')
+          if len(records)!=40:raise SystemExit('Expected exactly40 selected artifact inputs')
+          out=Path(os.environ['ISP_NINTH_OUT'])/'results'
+          (out/'actual-restored-inputs.json').write_text(json.dumps({'format':'r150-ninth-first-selective-recovery-v1','downloadsUsedOnlyFourFrozenArtifacts':True,'allSelectedHashesVerified':True,'inputs':records},indent=2)+'\n')
+          print(json.dumps({'selectedFiles':len(records),'selectedBytes':sum(x['bytes'] for x in records)}))
+          PYCODE
+      - name: Install the exact finite-field dependency and record compiler
+        run: |
+          python3 -m pip install python-flint==0.9.0
+          python3 -m pip show python-flint > "$ISP_NINTH_OUT/results/python-flint-version.txt"
+          g++ --version > "$ISP_NINTH_OUT/results/compiler-version.txt"
+      - name: Execute one shared300-second complete ninth-first continuation
+        id: exact
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          set -o pipefail
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-runner-789f.py \
+            --notes-root topics/invariant-subspace-problem/notes \
+            --t96-recovery "$ISP_NINTH_T96" \
+            --all198-recovery "$ISP_NINTH_ALL198" \
+            --seven-recovery "$ISP_NINTH_SEVEN" \
+            --current-recovery "$ISP_NINTH_CURRENT" \
+            --out "$ISP_NINTH_OUT" \
+            --math-seconds 300 --memory-mib 512 --compile-seconds 30 \
+            2>&1 | tee "$ISP_NINTH_OUT/results/actions-console.log"
+      - name: Record the complete F9 first image, exact negative scope and all positive original identities
+        if: always() && env.ISP_NINTH_OUT != ''
+        env:
+          ISP_EXACT_OUTCOME: ${{ steps.exact.outcome }}
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          out=Path(os.environ['ISP_NINTH_OUT'])/'results'
+          p=out/'ninth-first-pipeline-receipt.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          allowed=['all-nine-full-original31squaredh0-mod887503681-certificates',
+                   'complete-ninth-first-obstruction-with-positive-original-certificates',
+                   'complete-ninth-first-obstruction-no-compatible-current-source']
+          flags=['newNinthDirectionComputed','newDirectionOriginalDivisibilityVerified',
+                 'fullF9FirstImageComplete','allCompatibleTargetsOriginalIdentityVerified',
+                 'finitePositiveSourceBudgetsVerified']
+          positive=r.get('completedOriginalTargetLabels',[])
+          negative=r.get('obstructedTargetLabels',[])
+          individual=r.get('individualTargetCompatible',[])
+          full=r.get('fullOriginalAllNineMod887503681IdentityVerified') is True
+          label_partition=(sorted(positive+negative)==list(range(2,11))
+                           and len(set(positive+negative))==9
+                           and len(individual)==9 and all(type(x) is bool for x in individual)
+                           and positive==[j for j,f in zip(range(2,11),individual) if f]
+                           and negative==[j for j,f in zip(range(2,11),individual) if not f])
+          full_consistency=(full==(r.get('outcome')==allowed[0])
+                            and full==(len(positive)==9)
+                            and r.get('finite_budget_verified')==full
+                            and ((r.get('outcome')==allowed[1])==(0<len(positive)<9))
+                            and ((r.get('outcome')==allowed[2])==(len(positive)==0)))
+          complete=(os.environ.get('ISP_EXACT_OUTCOME')=='success'
+                    and r.get('status')=='completed' and r.get('outcome') in allowed
+                    and all(r.get(k) is True for k in flags)
+                    and label_partition and full_consistency
+                    and r.get('old1834AndOldSevenDirectionsRecomputed') is False
+                    and r.get('completeHigherInitialFreedomComputed') is False
+                    and r.get('characteristicZeroIdentityAsserted') is False)
+          result={'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],
+                  'source_commit':os.environ['GITHUB_SHA'],'native_step_outcome':os.environ.get('ISP_EXACT_OUTCOME'),
+                  'pipeline_status':r.get('status','not-started'),'outcome':r.get('outcome'),'complete':complete,
+                  'completed_original_target_labels':positive,'obstructed_target_labels':negative,
+                  'individual_target_compatible':individual,
+                  'full_original_all_nine_mod887503681_identity':full,
+                  'original_target':'31^2*h0*T modulo887503681; each compatible original target',
+                  'negative_scope':'Full first-kernel corrections preserving the current F9 source modulo31^2; lower initial source changes remain unpaid',
+                  'actual_final_source_costs_by_slot':r.get('actualFinalSourceCostsBySlot'),
+                  'mathematical_elapsed_seconds':r.get('mathematicalElapsedSeconds'),
+                  'full_F9_first_image_complete':r.get('fullF9FirstImageComplete') is True,
+                  'complete_higher_initial_freedom_computed':False,
+                  'characteristic_zero_identity_asserted':False,'partialCheckpointIsNotIdentity':True,
+                  'rootOwnsSharedResearchIndices':True}
+          (out/'actions-outcome.json').write_text(json.dumps(result,indent=2)+'\n')
+          print(json.dumps(result))
+          PYCODE
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_NINTH_OUT != ''
+        with:
+          name: isp-r150-ninth-first-results-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_NINTH_OUT }}/results
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_NINTH_OUT != ''
+        with:
+          name: isp-r150-ninth-first-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          compression-level: 1
+          if-no-files-found: warn
+          path: ${{ env.ISP_NINTH_OUT }}/recovery
+      - name: Save only this actual result directory with real pull and README checks
+        id: publication
+        if: always() && env.ISP_NINTH_OUT != ''
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-actions-publish-789f.py \
+            --checkout "$GITHUB_WORKSPACE" \
+            --results "$ISP_NINTH_OUT/results" \
+            --recovery "$ISP_NINTH_OUT/recovery" \
+            --work "$RUNNER_TEMP/isp-r150-ninth-first-publication"
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_NINTH_OUT != ''
+        with:
+          name: isp-r150-ninth-first-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ env.ISP_NINTH_OUT }}/results/publication
+      - name: Require complete full first image and every compatible target multiplied back
+        if: always() && env.ISP_NINTH_OUT != ''
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['ISP_NINTH_OUT'])/'results'/'actions-outcome.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          if r.get('complete') is not True:
+              raise SystemExit('Ninth first continuation incomplete; actual full outputs and checkpoints retained')
+          PYCODE

@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Publish one prepared ISP conclusion with real pull/rebase and non-force push."""
 from __future__ import annotations
-import base64,hashlib,json,os,re,subprocess,sys
+import base64,hashlib,json,os,re,subprocess,sys,time
 from datetime import datetime,timezone
 from pathlib import Path
 from urllib.request import Request,urlopen
+from urllib.error import HTTPError
 sys.dont_write_bytecode=True
 REPO="Rogerhu12/math-research-public"
 ROOT="topics/invariant-subspace-problem/"
@@ -126,9 +127,17 @@ def main():
             req=Request(endpoint,data=payload,method="POST",
               headers={"Authorization":"Bearer "+token,"Accept":"application/vnd.github+json",
                        "X-GitHub-Api-Version":"2022-11-28","Content-Type":"application/json"})
-            with urlopen(req,timeout=60) as response:
-                status=response.status
-            state["dispatches"].append({"workflow":workflow,"ref":"main","httpStatus":status})
+            for registration_attempt in range(1,13):
+                try:
+                    with urlopen(req,timeout=60) as response:
+                        status=response.status
+                    break
+                except HTTPError as dispatch_error:
+                    if dispatch_error.code not in (404,409,422) or registration_attempt==12:
+                        raise
+                    time.sleep(2)
+            state["dispatches"].append({"workflow":workflow,"ref":"main","httpStatus":status,
+                                       "registrationAttempts":registration_attempt})
             save()
         print("ISP_ROOT_PUBLICATION "+json.dumps({k:state.get(k) for k in
           ("status","sourceCommit","publishedCommit","runId","runAttempt","lastRulesReadCommit","dispatches")}),flush=True)

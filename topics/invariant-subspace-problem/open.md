@@ -169,6 +169,6 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **R150。** run43634830833原九列AX=31²h0 mod31⁵全17成功、cost全87；相关δ2秩1/7004，七正解仅常数，64恢复/14cache全部保存。[第九真除列](notes/2026-11-14-r150-ninth-true-divided-column-and-rational-rank-226091-789f.md)给rank_Q A87≥226091和真九维U9；八常数固定族仍排七目标全部预算。原全部有理像/精确秩/Smith恰层继续。
 
-[F9完整第一像](notes/2026-11-14-r150-ninth-augmented-single-first-relation-and-initial-scope-789f.md)只需第9新关系；第8复用K4_7003，旧1842方向全落U9。下一原modp6同束新AK5/p5与九raw，全部primary/505自由保留，正列全17继续；负仅保当前F9前两位。较低初值第二/第三像另付，未得char0来源或必要两层。普通ISP及其它mean秩/高本质/自然幂仍开。
+[F9完整第一像](notes/2026-11-14-r150-ninth-augmented-single-first-relation-and-initial-scope-789f.md)只需第9新关系；第8复用K4_7003，旧1842方向全落U9。[模31^6入口](notes/2026-11-14-r150-ninth-first-interface-789f.md)已冻结并待实际执行：四artifact43输入，共享300s/512MiB，只新AK5/p5与九raw，全部primary/505自由保留，正列全17继续；负仅保当前F9前两位。较低初值第二/第三像另付，未得char0来源或必要两层。普通ISP及其它mean秩/高本质/自然幂仍开。
 
 [实际物理joined递减投影](notes/2026-11-14-physical-joined-decreasing-projections-and-fixed-test-bare-budget-789f-next.md)进一步付u_b=(L+B)⁻¹Lt的全cut bare总费≤d(2+logd)²；M_q=K+H_hi,q闭且其测试投影支撑≤q+d。差e_bf=u_b−u_f保原测试功能，Xi总费≤4d[(2+logd)²+1]；测试误差由原Xi(r)与同窗bare/ordinary费支付。它不是t本身；剩余μ(e_bf)、<Lr,e_bf>和移动窗口速率继续。
