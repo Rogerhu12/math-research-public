@@ -111,6 +111,8 @@ R295实际Turán/Catalan同源平方及最大原子分区已付全正权birth1/�
 
 [R300七位边界](results/R300-seven-site-hard-top-strict-boundary-region-with-three-simultaneous-weak-sites.md)已付固定旧4权/弱3内部权的全14维充分小ε严格界1525/1564。[任意旧2s临界池推广](results/R300-appendix-arbitrary-critical-pool-three-weak-site-recursion.md)现给完整三族费用极限diag(I_U⊗Kweak,K_old,s−1⊗Rw*Rw,K_old,s−2)，无常数放大；真倒数低源kerA⁴/kerA²、旧q=3/h6项及全部交叉由容斥/核旗支付。[有限a完整铅笔](notes/2026-11-14-finite-weak-bit-common-defect-pencil-and-coefficient-obstruction-789f-next.md)现精确等价硬端界，P0保旧首缺陷；P1逐系数正对每个固定κ均被实际四权族排除，须保t²与P0的联合补偿。边界不代内部界。
 
+[临界完整共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)已付完整层F=dd*、Q=e*e交换，补集连接T自伴可逆且T²=F⁻¹Q，真实V压缩给G/L/4G+R共同矩和Tv=σp⁻¹D²v。压缩后矩不假称交换；共同谱本身不足相位界，仍须真实V源旗、较低同符号birth全部Schur与完整半线SOS。
+
 R286固定源全height已付；实际t_q出生随q上移，受限逆不自动保固定birth/有限支持。跨出生graph、完整e_q和N=M仍开，完整链接与范围保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
 
 R284完整零模Gram/Fischer已付同物理逆平方根能量；一般平方增长/graph识别仍开。准确公式、全部链接保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
@@ -137,7 +139,7 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **已闭全部低本质三次层。** [总定理](results/R150-appendix-all-essential-cubic-dimensions-at-most-three-have-zero-matched-bell-values.md)：essT3≤3临界三Bell零；ess≤2仅迫T3=0，rank1/ess3为空，Cat2/3的W±/Q|T3判据保。非零Bell余点必ess4/5/6，自然幂未付。
 
-**高本质rank1原中心17式。** 原M5为6188×4367、泛秩4354；全部rankAy8和0/2/−6/∞已闭，余g≠0、rankAy9有限Σ、char0 I*C=T及真实分母。历史全范围/来源链接见[本次前open](notes/2026-11-14-open-before-finite-pencil-789f.md)。3333常单位预基加11额外N/2184Γ给完整2195来源，54.813秒完成1034分量正常形，184.148秒给1021标准基/最高8次。全820状态观测得到[全部torsion315及仿射gcd](results/R150-appendix-complete-mod31-torsion-and-affine-maximal-minor-divisor.md)，5个新模因子不可冒充复异常点。[九真实目标共同Ann24](results/R150-appendix-nine-original-targets-exact-mod31-annihilator-degree24.md)不含这些新因子，完整GQ=hT最高49次已核。旧DAG实际前缀976来源/最高1018次后停止；[固定T96完整图](notes/2026-11-14-r150-reweighted-graph-projection-789f.md)保T64实际202个非零来源主元输出；次数和716可认证全投影，九目标来源界≤146−δ、常预基补偿≤136。新一次有界计算待实回执，不冒充已取得系数。char0候选h0=s³(s−2)F+²F−²E8仍需原证书；[线性逆最小分母](results/R150-appendix-exact-characteristic-zero-linear-divisor-and-minimal-inverse.md)恰46次Dlin，不能删非线性/Γ降成h0。旧CI43588728414在BEGIN_BASIS后1800秒超时，不重跑旧std。
+**高本质rank1原中心17式。** 原M5为6188×4367、泛秩4354；rankAy8与0/2/−6/∞已闭，余g≠0/rankAy9有限Σ、char0 I*C=T及真实分母。完整原NF/GB/全torsion315、九目标Ann24、GQ=hT及失败前缀保[此前全文](notes/2026-11-14-open-before-common-spectrum-789f.md)。[固定T96图](notes/2026-11-14-r150-reweighted-graph-projection-789f.md)保T64实际202个非零来源主元输出，输出次数和716认证全投影；九目标来源≤146−δ、常预基补偿≤136，单次本库计算待实际回执。候选h0=s³(s−2)F+²F−²E8仍需char0原证书；线性逆最小分母46次Dlin不可删非线性/Γ降成h0；旧std与高次数反向DAG不重跑。
 
 [射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)已保∞并给74次K_h下因子：若有限个真实4354子式模31的齐次gcd总次数达74，即可推出char0坏点全已闭，cofactor+Bézout给原证书分母K(s)度60。该条件现于模31不成立：[∞全原来源一阶连接](results/R150-appendix-original-infinity-jet-and-mod31-determinantal-thickness.md)给∞阶≥24，配仿射315次得到齐次≥339。九目标24次Ann仍是另一个对象，char0原证书继续。其他mean秩的高ess仍另开。
 
