@@ -475,3 +475,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R254. 完整物理前缀的精确有理非平面开片证据](results/R254-exact-full-prefix-no-planar-germ.md)（已证明，有限对象条件定理）：保完整z0及共享二阶节点的实Hermite场，每cell四个有理仿射独立位置排除任意平面参数开片；6径向×(4M+3)有理圆点给完备有限判别。准确绑定R249规范形并在单SE2/反射/材料微分同胚/R248相位下传递；新尾、collar、全闭面及含反射δE仍未由此前缀定理支付。
 
 - [R255. 精确圆参考的线性等距模态与 coast 非正规剪切](results/R255-circle-reference-linear-isometry-and-coast-shear.md)（已证明，精确参考条件定理）：从完整三度量变分式推出全模态及正交P/Q系统；常斜率N²=pN给精确仿射传播与完整范数，谱与k无关而剪切可达k²，非k²指数增长。三分量扩展的固定g约束、零模态、刚体核及bridge冻结局部尺度均明确；不把理想圆代作当前有限φ Jacobian。
+
+- [R256. 完整有限collocation的精确约束坐标、伴随与正阻尼下降](results/R256-exact-constraint-collocation-and-damped-descent.md)（已证明，有限系统代数定理）：原全部增广ODE/左边界与exact inlet/constant chart零点双射；完整midpoint、global p、入口core及J/JT链式；正阻尼模型唯一、精确非零方向下降，显式列预条件不改罚项。截停LSMR必须实际测gdot及固定Wr真实下降，不推算法全程收敛、真实DN接受或闭面完成。

@@ -507,3 +507,8 @@ request16/run43597596523/source89b0882真success：四源compile，flint0.9/160b
 
 三独立源实现原699完整场的exact inlet/constant坐标、正阻尼LSMR/完整J与伴随、原真实midpoint/rho/RMS域及匹配的预测/实际下降；core权重含入口t的三次频率代价。warm永不accepted，新warm上完整Richardson FD真实重做后自动接原Rφ fullDN的新H native solve、原RMS/BC/最终audit及闭合/R249。只静态检查，未预报数值；完整CLI/SHA见constrained-trust-warm-interface。
 共享.github/workflows/visible-larger-public-mainline.yml新增coupling112trust并request17只选本项；publisher同步lane且按用户指令取消非快进30次截断，立即普通rebase/push到成功。全部科学计算仍本仓Actions。
+
+### 2026-11-14 13:18 UTC — R256 exact finite coordinates and matched damped descent
+
+完整R256直接登记：全部原常值行/左入口与exact chart零点双射，完整midpoint/global-p及入口core的J/JT，正阻尼模型精确解唯一并给严格下降式，显式矩形列预条件不改罚项。明确不推截停LSMR收敛、非线性真DN或曲面接受，不加独审门。
+request17/run43598917532/source4b8b2bf已于13:16:20Z实际启动，job132459290659在warm步骤；执行说明合并为单一constrained-trust-warm-interface，原三源不变。

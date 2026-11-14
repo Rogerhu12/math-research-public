@@ -1,44 +1,70 @@
-# 完整约束坐标下的阻尼初猜及原 fullDN 接续
+# 原完整 Rφ 方程的精确约束 LSMR 初场入口
 
-日期：2026-11-14。request17 / `coupling112trust` 的执行说明。**目前仅源码及公开 Actions 接线就绪，没有预报下降、BVP 接受或闭曲面。**
+本记录是 request17 / coupling112trust 的公开 Actions 可执行接口，不是新的已接受场或存在性结论。实际 request13、14、15 分别用完整带 LU、原 separated QR、解析桥网加密，均未接受；request15 的 1073 点方向更大。因此这里改变产生初场的全局化方法，随后仍把真实初场交给已冻结完整 full-DN 入口与其全部接受门。
 
-## 1. 精确保留的有限问题
+## 输入与有限问题
 
-使用原 accepted96、原 699 点完整 M112/N2048 初猜、真正 T112 零高度完整 J 和原配置，四输入 SHA 均硬绑定。原文件不改写，不插值失败的 966 或 1073 点结果。
+入口只使用实际 accepted96 前缀 `b4d2b98…`、实际 699 点 M112/N2048 准备场 `0f94dd88…`、完整已完成 T112 零高度响应 `e788a28d…` 与其输入配置 `01930f3b…`。不从失败的 966/1073 插值场重新开始，也不抬 1200 节点门。新计算中保留 699 个原节点和全部频率；物理节点值是优化未知量。
 
-新坐标包含后 698 个节点的全部 338 维物理状态、109 个自由 core 和全部三个 scalar controls，共 $338\times698+112=236036$ 个未知量。入口物理状态由原完整 core 精确构造，第一项 r0=1、所有 z 为零、$r_m=c_m$、$t_m=-2mc_m$，前三 core 固定；全部节点复制同一个 core 和 p。因此原常数 ODE 行及左边界成为恒等式。所有 physical collocation 与全部 112 条 Rphi 仍保留，零点与原完整有限问题对应。入口浮点规范化的实际最大改变量单独记录。
+三个独立源为：
 
-完整物理、core、p 方向在局部 L/R、入口链式项和完整右边界中传播。正向与转置运算保留所有这些项，不构造正规方程或截掉高模。原全增广块作用、伴随恒等式以及直接 complex 原 collocation 的 global core/p 方向用于检查新实现的具体风险；这些不替代科学验收。
+- `geometry_20261114_constrained_collocation.py`：精确坐标、原完整残差、原 L/R 块的矩阵自由动作与伴随。
+- `geometry_20261114_constrained_trust_warm.py`：有界正阻尼 LSMR 优化，逐次保全实际下降初场。
+- `geometry_20261114_constrained_trust_response.py`：在真实新初场上重新进行完整 Rφ 三步 Richardson 导数核验。
 
-## 2. 本次改变的是求解方向和匹配的下降判据
+固定前三个 core 系数，其余 109 个 core 与三个标量控制各使用一个全局向量。物理初端由 `r0=1,rj=cj,tj=−2j*cj,z=0` 构造；其余节点每点保留全部 338 个物理量。每次展开都逐值复制同一 c、p，原常值 ODE 与左边界成为代数恒等，未用软罚构造变化的 c(s) 或 p(s)。当前未知和残差维数都是 `338*(699−1)+112=236036`。初端若与输入有舍入差，记录 `input_constraint_projection_max`，不声称所有源节点状态字节未改。
 
-每个模型固定残差权重 Wr：物理行为原 collocation 除以 $h(1+|f_{mid}|)$，右边界权重为 $10^{-6}/10^{-11}$。变量方向尺度对 r/t 取 $(1+2m)^2$，z 取 $1+(2m)^2$，core 还包含入口 $t_m=-2mc_m$ 的额外频率代价，controls 按其实际 0/1/2 scalar jets 的采样最大值缩放。这些是优化权重，不是连续 C² 证书。
+目标残差仍是全部 338 个物理 Hermite/Simpson collocation 行和全部 112 个 Rφ 行。每个 trial 都从真实 trial 状态和控制重算节点 RHS，再生成真实非线性 Hermite 中点、重算中点 RHS；接受优化步前还检查原两组 Lobatto RMS 查询的定义域。右边界保留原 uniform-physical-φ 密度门以及材料逆图异常的原处理范围。
 
-显式矩形算子 $[A;\lambda I]$ 采用 LSMR 和精确列范数的对角预条件；$\lambda>0$。没有通过正规方程求解。算法实际记录原加权残差的方向导数、未含阻尼罚项的预测下降、真实下降及二者比值。
+## 矩阵与优化算法的身份
 
-每个试探重新调用原完整 RHS，重建真正非线性 Hermite midpoint，再求 midpoint RHS 和当前 Rphi。保原 uniform-phi rho guard；预期逆图域失败只拒绝该试探，其他程序错误如实失败。保存前再查原两个 RMS/Lobatto 查询。真实 merit 必须下降超过数值噪声且实际/预测比至少 .1；这是已明确改变的优化算法，不冒原 17 次 Newton 接受式。
+L/R 由原 `separated_qr_bvp.local_blocks` 和原复步长有限 ODE Jacobian 产生。共享 p 列取原两端参数列之和；首区间 core 列含初端 r/t 注入，右端保留完整物理、core 换角与控制列。没有截掉小奇异值或删除高频行。
 
-每一个这样的结果仍保存为 `success=false`、`new_coupled_finite_acceptance=false` 的 warm，包含全部原 mesh、states、rhs、新完整 scalar spec、输入源 SHA、真实 H 及 p。三模型/80 LSMR 步/至多五阻尼尝试/1200 秒只限制这一初猜尝试，不是研究任务停止条件；保存的 warm 可继续重启。
+系数尺度为 r/t 的 `(1+2j)^2`、z 的 `1+(2j)^2`。core 尺度是初端 r/t 两项二次罚的拉回 `sqrt(wr_j^2+(2j*wt_j)^2)`，因而保留 t 中的三阶频率代价。控制尺度使用其原 0/1/2 jet 样本最大值且至少为 1。这是明确的算法罚范数，不是完整物理 C² 范数证书。
 
-## 3. 原真实尾部与接受程序的边界
+每个模型固定行权重 Wr：物理 collocation 为 `1/(h*(1+abs(fmid)))`，右边界为 `1e−6/1e−11`。令 `A=Wr*J*S^−1`、`b=Wr*R`，正阻尼模型是
 
-warm 和其导数核验阶段把已完成真正 T112 零 H 的全 J 显式保持仿射。warm 的当前 H 可以非零；报告同时保存当前 H 与零锚，不声称当前 H 已进行 native 非线性求解。
+$$
+\min_z\;\|Az+b\|_2^2+\lambda^2\|z\|_2^2,\qquad\lambda>0.
+$$
 
-新 `constrained_trust_response.py` 对实际新 warm 重做原三步 centered FD、两个 Richardson 值和原 `5e-5` 检验，包含非零高度试探以核两个 core 链式项。报告重新绑定实际 warm 和所有当前源码，没有修改旧报告的 SHA 来假装通过。
+实际 LSMR 操作 `[A;lambda*I]` 的列预条件形式，调用 `damp=0`，没有形成法方程。列预条件由这个矩形算子的完整列平方范数决定，未改变上述罚项。
 
-这之后才调用原 `physical_test_full_dn.py`。它对 warm 的真实 H 调用原 native TailClient；任何非零 H 都不能命中 exact-zero 首请求缓存。原完整 outer true-tail、全带 LU、17 次 Newton、RMS `1e-6`、BC `1e-11`、冻结物理检查及最终 fresh audit 全保。只有这一原程序实际接受，才自动进入已有完整 readout、自己的尾、闭合及 R249 规范形流程。
+trial 约定为 `q_trial=q+alpha*z/S`。真实 merit 是 `0.5*||Wr*R||²`，整个模型及其 trial 固定同一 Wr。所记录的真实模型斜率为 `b·Az`，预测下降为 `−alpha*(b·Az)−alpha²*||Az||²/2`。接收条件比较实际下降与这一预测，而不套用只有精确 Newton 逆才有的斜率恒等式；阻尼罚项也不计入实际非线性 merit。
 
-## 4. 首次实际调用
+每个模型先进行三组确定性伴随点积检查，以及原完整增广 L/R、右边界动作与约化动作的对照。另把仅含 free-core/global-p 的同一真实方向直接送进原非线性 complex collocation 调用，独立检查初端和中点的完整链式。每个有效步再保存实际全残差的三层中心方向差分。它们是实现核验，不是几何接受结论。
 
-`constrained_trust_warm.py`：
+## 运行及后续完整求解
 
-- accepted：原 `public-actions-43580643038-1-free3/stage-00/actual.json.gz`。
-- prepared：原 `public-actions-43588155190-1-prepare112/preparation112/prepared.json.gz`。
-- tail-anchor：原 `public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz`。
-- tail-config：同一 prepare112 的 `T112-config.json`。
-- 参数：`--iterations 3 --lsmr-iterations 80 --damping 1 --damping-attempts 5 --line-search-steps 17 --budget-seconds 1200 --jac-workers 2 --angles 4096`。
+第一步：
 
-workflow 从真实 `driver-status.json` 的 latest_warm_file 选择并重新核 SHA，只有确有优化进展才传入新 response。response 使用同 accepted、anchor、config 和 `--angles 4096`。随后原 fullDN 的 warm/response 路径指向这两个真实新产物，其他数学源、维数和原门不变。
+```bash
+python geometry_20261114_constrained_trust_warm.py \
+  --accepted "$ACCEPTED96" --prepared "$ORIGINAL699" \
+  --tail-anchor "$ZERO112" --tail-config "$CONFIG112" \
+  --out "$OUT/constrained-warm" --iterations 3 \
+  --lsmr-iterations 80 --damping 1 --damping-attempts 5 \
+  --line-search-steps 17 --budget-seconds 1200 --jac-workers 2 --angles 4096
+```
+
+默认最多三个完整 Jacobian 模型、每模型五个阻尼尝试，每次 LSMR 最多 80 步；1200 秒是该辅助优化的计算预算，不是课题停止条件。每个实际有效下降写独立 `warm-NNN.json.gz`，始终 `success:false`、`new_coupled_finite_acceptance:false`。状态文件列出 `latest_warm_file` 与实际 SHA；可用 `--resume` 从真实已保存初场继续，仍严格绑定原输入、原 mesh、全部 scalar 设计公式和三个全局 p。无实际下降则明确失败并保留诊断。
+
+第二步从状态文件读出真实最新 warm，实际重跑完整导数检查：
+
+```bash
+python geometry_20261114_constrained_trust_response.py \
+  --accepted "$ACCEPTED96" --prepared "$LATEST_WARM" \
+  --tail-anchor "$ZERO112" --tail-config "$CONFIG112" \
+  --out "$OUT/physical-response" --angles 4096
+```
+
+这个核验明确把已完成的真实零高度 J 固定为 affine map，并在真实新 warm 端点及原规定扰动上实际求差分。新 warm 的 H 不必为零，报告保留 H 与 affine anchor 的区别；没有把零响应冒充这个新 H 的真实尾解，也没有重写旧 FD 报告的 SHA。原三步、两组 Richardson、收缩要求和 `5e−5` 门保持。
+
+最后原 `geometry_20261114_physical_test_full_dn.py` 使用这个 warm 和新 `response-check.json`。其首次新 H 调用、完整真实 native J、外层回验、原 `1e−6` RMS 与冻结物理 RMS、`1e−11` 边界和最终 fresh native audit 全部实际执行。原 strict 零缓存只有逐值零 H 才能命中。只有完整入口真正接受后，才进入原物理读出、闭组装与 R249/R251/R254 等后续证明链。
+
+本地只做源码静态核验，科学数值只在公开Actions执行。request17已于2026-11-14T13:16:20Z启动run43598917532，source4b8b2bfdd417f76574dcc2a8e2353c4c2dce3e21，job132459290659目前在warm步骤；尚未取得终态产物，不预报有效优化步或接受场。
+
+## 本次源与执行绑定
 
 | 新源 | SHA256 |
 |---|---|
@@ -46,5 +72,4 @@ workflow 从真实 `driver-status.json` 的 latest_warm_file 选择并重新核 
 | constrained_trust_warm | `5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2` |
 | constrained_trust_response | `7eafda68979356aa0d39ed8110c47077ccbde23a3caa0c58f8b3fddf94bc9f78` |
 
-本地只做源码、AST/编译及 YAML 静态检查；全部数学求值在公开仓库自身 Actions。artifact 和 publisher 始终保留真实结果及失败。publisher 的非快进同步去掉旧 30 次截断，按用户指令立即 pull/rebase 再普通 push，直到成功；其他 Git 错误或 README 新差异保留原件并明确报告，不强推。
-
+完整有限代数的证明见 [R256](../results/R256-exact-constraint-collocation-and-damped-descent.md)。共享workflow从真实状态文件读取最新warm并核SHA，再接真实FD/原fullDN/after_accept/R249。publisher的非快进去掉旧30次截断，按用户要求立即pull/rebase/普通push至成功；其他Git错误或README变化明确报告并保全原件，不强推。
