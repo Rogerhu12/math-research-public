@@ -1,18 +1,32 @@
 {
-  "request": "exact-algebra-certificate-for-real-closed-zero-period-operator",
-  "created_at": "2026-11-14T14:24:55.687133+00:00",
+  "request": "same-metric-bent-flat-tail-from-frozen-enriched234",
+  "created_at": "2026-11-14T14:51:18.738395+00:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "zero_operator_exact"
+    "ellipse_bent_tail"
   ],
-  "checks": [
-    "rational eight-dimensional rank determinant",
-    "Q(sqrt(33)) complete-circle balance",
-    "projective eigenline independence"
-  ],
-  "geometric_ode_performed": false,
-  "finite_repetition_count_selected": false,
-  "optimization_performed": false,
-  "enriched_run_already_running_independently": 43604231319,
+  "input_run": 43604231319,
+  "input_sha256": "6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3",
+  "metric_mathematical_definition_sha256": "f8b81d3a177457f084cbf04379bb9979036f98ce2a8d7e2fbf04fccaadbdf870",
+  "physical_tail_changed": true,
+  "shape_objective_changed": true,
+  "old_physical_state_replayed_first": true,
+  "coefficient_bound": 8,
+  "same_metric_not_same_physical_field_refinement": true,
+  "solver": {
+    "radial_nodes": 61,
+    "angular_nodes": 192,
+    "unknown_count": 234,
+    "max_nfev": 250
+  },
+  "audit": {
+    "radial_nodes": 121,
+    "angular_nodes": [
+      384,
+      768
+    ],
+    "additional_exact_breakpoints": true,
+    "selected_coefficients_frozen": true
+  },
   "task_complete": false
 }

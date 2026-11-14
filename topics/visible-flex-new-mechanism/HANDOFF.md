@@ -6,7 +6,7 @@
 
 闭连通 C2 嵌入族 Ft、时间 C2 连续、同一固定 g；固定材料开集 H 且 diamH≥.2D；不对齐的真实像集 Hausdorff 位移≥.3D；全域全时 reach≥.03D；最大相对 metric≤1e−6，且同 g/物理参数/时间加密改善；完整小网格、复现及严格存在性差距。D 是初始完整曲面直径。δE 可为0但须如实报。达标后继续 .5D 或更强存在性。
 
-- 根及本题 README 已完整读。公开仓库最后已读规则提交：`4c94fc1a8b20662d9ffc71ca3fa6c9e96853cf87`；每次实际CLI pull均核根/本题README新差异。
+- 根及本题 README 已完整读。公开仓库最后已读规则提交：`853831248fec3407d48502f6d2b232dc7cbaf937`；每次实际CLI pull均核根/本题README新差异。
 - 每次 pull 后只读这两 README 新差异并立即遵循，至少每小时 pull。每结论提交推送；NFF 立即 pull --rebase 并循环推送，不强推。
 - 作者指定 QUEUE 已置进行中。私有仓库14:14:20 UTC实际pull至94a2611e4760da10f909a28d51ac067fadcb1117，根README差异为空；队列唯一课题行仍为本会话进行中。私有研究内容不发布。
 - 研究计算只用本公开仓库自己的 Actions。令牌仅瞬时命令行认证，不入文件。根 LOG 不写；共享 workflow 理由记本题 log。HANDOFF<10KB，其他 MD<100KB，数据>1MB压缩、单件<5MB。
@@ -51,7 +51,7 @@ R31准确代数run43601439290及58源/1输出SHA全核通过，详见constant-h-
 
 - R39：四对显式bump准确平衡三矩并使交叉逐点零；R37上Zd给真实二阶circle，但同gε仍有ε³/ε⁴误差。三阶只两完整range通道，period对二阶profile gauge不变，尚未过。正在编译R37有限N控制实例供公开Actions设计/冻结审计。
 
-- R40：准确S11非平flat帽，α幅1/4、宽.054，C6位置/内闭盘固定，尾内全点对半径下界768/9625，高度降≤27/4000。完整球1.01加strip.38给δ/D≥31/101、Hdiam/D≥22/101，τ.061足够；完整连接/跨片未付。独立端口与新runner准备中，旧五源码不改。
+- R40：准确S11非平flat帽，α幅1/4、宽.054，C6位置/内闭盘固定，尾内全点对半径下界768/9625，高度降≤27/4000。完整球1.01加strip.38给δ/D≥31/101、Hdiam/D≥22/101，τ.061足够；完整连接/跨片未付。端口/runner双审通过，公开ellipse_bent_tail单case启动：同g/newtail+ballstrip，旧五源码不改。
 
 ## 最新实际计算
 
@@ -67,4 +67,4 @@ warped_collar43595305950实际失败且R23另以link排除该封口目标；R24�
 
 ellipse_frame43602519926（62源/8输出全SHA）fine metric1.660115/R3.51022/κsample2334.99，失败；43603136078固定分布（63源/3输出全SHA）旧峰负K纯RT与高模显著，非entry漏采。
 
-最新ellipse_enriched43604231319源f64c2c0d、最终报告SHA6ff0b179...0f1e3：64源/3输出全核，sameg身份f8b81d3...df870和暖转逐位/舍入门通过。J9/θ5/φ3/u_core共234变量；250次上限600.44s、RSS2.28GiB，new cost.135064→.0613384晚段近平台。fine metric1.727996/R1.59925/κsample39.116/ymax.365274>.33，失败；metric峰首S5 t.165，R峰负K .3225且主要低模，高模已降。详见ellipse-frame-enriched-actual-audit，不原样加迭代。下一准确非平flat尾保rc内固定盘，S11角幅1/4、宽.054纸核中；新端口物理身份另记，整面仍未构造。R30接口见notes/R30-validation-interface-20261114.md。若启metric design，log基尾须Oδ7。
+最新ellipse_enriched43604231319源f64c2c0d、最终报告SHA6ff0b179...0f1e3：64源/3输出全核，sameg身份f8b81d3...df870和暖转逐位/舍入门通过。J9/θ5/φ3/u_core共234变量；250次上限600.44s、RSS2.28GiB，new cost.135064→.0613384晚段近平台。fine metric1.727996/R1.59925/κsample39.116/ymax.365274>.33，失败；metric峰首S5 t.165，R峰负K .3225且主要低模，高模已降。详见ellipse-frame-enriched-actual-audit，不原样加迭代。现部署ellipse_bent_tail：准确S11尾幅1/4/宽.054，原234系数/同g、61×192/250次，系数界6→8；先旧态球审计后换尾，最终121×384/768冻结复核。新物理身份另记，尚无闭面。R30接口见notes/R30-validation-interface-20261114.md。若启metric design，log基尾须Oδ7。
