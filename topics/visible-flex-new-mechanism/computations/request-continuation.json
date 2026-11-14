@@ -1,81 +1,23 @@
 {
-  "request": "learned-pool-feasibility-curvature-and-static-local-pure-tail-quotient",
-  "created_at": "2026-11-14 22:30:14 UTC",
+  "request": "normalize-static-pure-tail-under-full-zero-matrix-and-retain-induced-two-jet-cost",
+  "created_at": "2026-11-14 22:38:28 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "curvature_feasible_exchange",
-    "static_m8_tail_quotient"
+    "constrained_static_m8_tail_quotient"
   ],
   "source_sha256": {
-    "topics/visible-flex-new-mechanism/scripts/frame_curvature_epigraph_exchange.py": "8c26353df012ca61f37149b2e2ab52acaec4ca22fde68017261c0bd68992ebf5",
-    "topics/visible-flex-new-mechanism/scripts/frame_curvature_epigraph_exchange_audit.py": "7162b7c56bb865591316b1ca576c7b0929d55619353567ccd4f3df789543802a",
-    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0",
+    "topics/visible-flex-new-mechanism/scripts/literature_constrained_static_m8_tail.py": "8b075b222a1c8ea5579645905f9f3c3efc57a1b286a393cdcd597f384db50417",
+    "topics/visible-flex-new-mechanism/scripts/literature_static_m8_tail_quotient.py": "ea95f138a22b6f81654ebbc73eecee3f3c0042f4ec527f6ff9699e6ac78bb826",
+    "topics/visible-flex-new-mechanism/scripts/literature_constrained_static_fourth.py": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4",
     "topics/visible-flex-new-mechanism/scripts/literature_full_m8_tail_response_projection.py": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345",
-    "topics/visible-flex-new-mechanism/scripts/frame_curvature_feasible_exchange.py": "ed77abc30e6d4b5fa53e558c316e7479f91cbf674c2686e8ff69908b57e101e5",
-    "topics/visible-flex-new-mechanism/scripts/frame_curvature_feasible_exchange_audit.py": "60a3bd66a1e0636c0796a102b900aa04099f5341008a9262e0f31b1090088b14",
-    "topics/visible-flex-new-mechanism/scripts/literature_static_m8_tail_quotient.py": "ea95f138a22b6f81654ebbc73eecee3f3c0042f4ec527f6ff9699e6ac78bb826"
+    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
   },
   "jobs": {
-    "curvature_feasible_exchange": {
-      "development": [
-        "--check-only",
-        "--out",
-        "@OUT@/curvature-feasible-development.json"
-      ],
-      "research": [
-        "--input",
-        "topics/visible-flex-new-mechanism/notes/actions-43618467921-1-independent_height_solve/frame-independent-height-bounded.json",
-        "--expected-input-sha256",
-        "c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46",
-        "--anchor-input",
-        "topics/visible-flex-new-mechanism/notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json",
-        "--expected-anchor-sha256",
-        "6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3",
-        "--short-audit",
-        "topics/visible-flex-new-mechanism/notes/actions-43627111925-1-short_entry_audit/frame-entry-short-bounded-initial-audit.json.gz",
-        "--expected-short-sha256",
-        "9d64a1ea03745405bd72fce6078eace92e02f3987be6ae079b75f0b71f69502c",
-        "--height-audit",
-        "topics/visible-flex-new-mechanism/notes/actions-43630874689-1-height_polytope_audit/height-polytope-bounded-audit.json.gz",
-        "--expected-height-sha256",
-        "f457282f0a21cd27802748066537caa4cf90c687c63c73d62b0391ce2435d1a3",
-        "--prior-joint-audit",
-        "topics/visible-flex-new-mechanism/notes/actions-43634358250-1-quartic_joint_audit/quartic-joint-audit.json.gz",
-        "--expected-prior-joint-sha256",
-        "e344e6e0a62be10dfa8dad4f52e4b889191f462b97bb19dd4b1cc0283f6f33dc",
-        "--resume-audit",
-        "topics/visible-flex-new-mechanism/notes/actions-43635770962-1-joint_resume/quartic-reused-joint-resume.json.gz",
-        "--expected-resume-sha256",
-        "40deb9dffa6882b14dd445d981f2ed09b1f4d488dbaa83e952c768537f91375d",
-        "--epigraph-audit",
-        "topics/visible-flex-new-mechanism/notes/actions-43637739532-1-metric_epigraph/frame-metric-epigraph-audit.json.gz",
-        "--expected-epigraph-sha256",
-        "b4d34b0d37928b2f3ffeacf5de3a072068a6314e474fb72c6cd4adb3ae9c5bc5",
-        "--trial-audit",
-        "topics/visible-flex-new-mechanism/notes/actions-43639240317-1-metric_epigraph_saved_trial/metric-epigraph-saved-trial-audit.json",
-        "--expected-trial-sha256",
-        "169e6cb8fa1bf2c5bb5c1821ee09903b344467fff66d7243cede4c938d66e05f",
-        "--dense-audit",
-        "topics/visible-flex-new-mechanism/notes/actions-43640503728-1-metric_epigraph_dense/metric-epigraph-dense-mirror-audit.json.gz",
-        "--expected-dense-sha256",
-        "51f00f616c667bddd418371ed8230c902112dda4e7f6d33ea9b81b1ac34a396e",
-        "--exchange-audit",
-        "topics/visible-flex-new-mechanism/notes/actions-43642966285-1-metric_epigraph_exchange/metric-epigraph-exchange-audit.json.gz",
-        "--expected-exchange-sha256",
-        "c7b6b195cab755b425ccce41bf738ba05a30b65d329ed9b14b93f5211866d78e",
-        "--curvature-audit",
-        "topics/visible-flex-new-mechanism/notes/actions-43646786908-1-curvature_output_recovery/curvature-epigraph-exchange-audit.json.gz",
-        "--expected-curvature-sha256",
-        "5b04d6a7c85870687b979bbda87bbf8bd4d429d3b36c918d83cebde59b4dcaa0",
-        "--out",
-        "@OUT@/curvature-feasible-exchange-audit.json"
-      ]
-    },
-    "static_m8_tail_quotient": {
+    "constrained_static_m8_tail_quotient": {
       "development": [
         "--toy-only",
         "--out",
-        "@OUT@/static-m8-tail-quotient-development.json"
+        "@OUT@/constrained-static-m8-tail-development.json"
       ],
       "research": [
         "--max-seconds",
@@ -85,31 +27,20 @@
         "--max-operations",
         "10000000",
         "--out",
-        "@OUT@/static-m8-tail-quotient.json"
+        "@OUT@/constrained-static-m8-tail.json"
       ]
     }
   },
-  "sync_private_rules": true,
-  "private_rule_sync_lane": "static_m8_tail_quotient",
-  "private_rule_sync_expected_blobs": {
-    "README.md": "5ba164843b1f5802184178a82d786264404873a3",
-    "topics/visible-flex-new-mechanism/README.md": null
+  "sync_private_rules": false,
+  "previous_private_actual_pull_time": "2026-11-14 22:30:53 UTC",
+  "previous_private_actual_pull_commit": "357fe03197b3fe4dd835d67e77f97ae9b84bd482",
+  "curvature_continues_separately": {
+    "run": 43648433010,
+    "source": "df535c0c42d76040903b1e89c6d08d13ea360ad2",
+    "recompute": false
   },
-  "previous_private_actual_pull_time": "2026-11-14 22:02:43 UTC",
-  "previous_private_actual_pull_commit": "7b57afc0a2b3910fca1c21b601ba7b18d1ccc2ae",
-  "geometry_metric_identity": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
-  "geometry_initial_physical_identity": "e407a21488257097f60073f7e46e19f987dc963760957040ee7254a02889beb4",
-  "fixed_metric_budget_exact": "167/625",
-  "curvature_scale_exact": "100",
-  "geometry_shared_limits": {
-    "rounds": 20,
-    "major_iterations": 80,
-    "physical_evaluations": 120,
-    "optimization_seconds": 300
-  },
-  "learned_original_pool_rows": 3866,
-  "curvature_goal": "Continue the same SLSQP while enforced rows remain infeasible; exchange only once current pool is ready, using all original actual group tolerances including metric 1e-9.",
-  "static_tail_goal": "Consume complete saved static -4 expressions and the saved rank-31 response certificate; retain all local residual rows and report G separately. No repeated 288-column computation.",
+  "goal": "Normalize L0 by the full actual M=m0+m2 coordinate identity and preserve the induced -sum a_i(m2) F_i. Evaluate no profile and no old response column.",
+  "original_density_weights_two_and_four_not_computed": true,
   "new_development_has_not_run_yet": true,
   "root_rule_8_small_text_fallback": true,
   "research_only_in_public_Actions": true,

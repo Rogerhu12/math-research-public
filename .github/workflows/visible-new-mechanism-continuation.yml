@@ -31,7 +31,8 @@ jobs:
           lanes=r['lanes']
           allowed={'local_fourth_quotient','curvature_epigraph_exchange','full_m8_tail_response_projection',
               'curvature_output_recovery','constrained_static_fourth','curvature_trial_diagnostics',
-              'static_g_rational_dual','static_m8_tail_quotient','curvature_feasible_exchange'}
+              'static_g_rational_dual','static_m8_tail_quotient','curvature_feasible_exchange',
+              'constrained_static_m8_tail_quotient'}
           if not lanes or len(lanes)>2 or len(lanes)!=len(set(lanes)) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded continuation request')
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
@@ -87,6 +88,7 @@ jobs:
             /topics/visible-flex-new-mechanism/notes/actions-43643100132-1-c7_transverse_tail_probe/
             /topics/visible-flex-new-mechanism/notes/actions-43645177423-1-local_fourth_quotient/
             /topics/visible-flex-new-mechanism/notes/actions-43646543691-1-full_m8_tail_response_projection/
+            /topics/visible-flex-new-mechanism/notes/actions-43648433010-1-static_m8_tail_quotient/
             /topics/visible-flex-new-mechanism/notes/actions-43646786908-1-curvature_output_recovery/
       - name: Prepare public output
         run: |
@@ -187,11 +189,12 @@ jobs:
               'curvature_trial_diagnostics':'extract_curvature_trial_diagnostics.py',
               'static_g_rational_dual':'literature_static_G_rational_dual.py',
               'static_m8_tail_quotient':'literature_static_m8_tail_quotient.py',
-              'curvature_feasible_exchange':'frame_curvature_feasible_exchange_audit.py'}
+              'curvature_feasible_exchange':'frame_curvature_feasible_exchange_audit.py',
+              'constrained_static_m8_tail_quotient':'literature_constrained_static_m8_tail.py'}
           flags={'local_fourth_quotient':'--toy-only','curvature_epigraph_exchange':'--check-only',
               'full_m8_tail_response_projection':'--toy-only','constrained_static_fourth':'--toy-only',
               'static_g_rational_dual':'--toy-only','static_m8_tail_quotient':'--toy-only',
-              'curvature_feasible_exchange':'--check-only'}
+              'curvature_feasible_exchange':'--check-only','constrained_static_m8_tail_quotient':'--toy-only'}
           config=r['jobs'][lane]; script=root/'scripts'/scripts[lane]
           for path,expected in r['source_sha256'].items():
               if hashlib.sha256(Path(path).read_bytes()).hexdigest()!=expected:
