@@ -352,3 +352,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 - [R569：原五sigma真实六度边际、完整卷积单位与四unit桥](results/R569-original-five-sigma-convolution-unit-and-four-unit-bridge.md)：三C共轭给(D4,d)=(ω²/84)f4⊗σ；明确正权使完整五/六维测度整可逆，所有混合cut保真实平移。R562四unit回同一ν5的显式单位行，并与原完整S/T行各自运输到同一词域；测试尚未等价；T7/T10完整边际−F5/84、−G5/42确定Λ_j总质量，非条件测度全零。
 
 - [R570：两指定负矩的全局三极点Cartier线与显式原函数](results/R570-original-global-negative-moment-cartier-lines-and-polynomial-primitives.md)：原固定二/三挠全theta平移给P_i(0)=−2ba_i、P_i(−b)=3ba_i，完整C(P_i dlogτ)=−a_iΨ_b精确读取两原负矩首层；零值等价显示degree≤p−1多项式原函数，b17完整单位尺度保持，未赋联合非零。
+
+
+- [完整六尾、首Bockstein剪切与低ell边界](notes/2026-11-14-deep-six-tail-bockstein-shear-and-low-ell-boundary.md)：ell≥3且原三尾在kerJ上被真首像吸收时，完整C1剪切统一全部首Bockstein，保同源K2red/G2/模p² Smith型；ell1/2的2/1条真实carry及同一d2仍保。

@@ -211,3 +211,8 @@ R554原五输入同域差24Ω³I1=I4−18∫u e2/Y⁵ρ、R559保K/四伴随的�
 ### R570：两指定负矩的整个非exact Cartier配对
 
 [R570：两指定负矩的全局三极点Cartier线与显式原函数](results/R570-original-global-negative-moment-cartier-lines-and-polynomial-primitives.md)：原固定二/三挠全theta平移给P_i(0)=−2ba_i、P_i(−b)=3ba_i，完整C(P_i dlogτ)=−a_iΨ_b精确读取两原负矩首层；零值等价显示degree≤p−1多项式原函数，b17完整单位尺度保持，未赋联合非零。 **待做：** 由同一原P_i、规范C(R_iω)=0和两条全局原函数的真实约束排除a4/a1同时零，或证明实际p进负矩不同时零；首层零不等p进零。原函数依赖p且degree可达p−1，不据此调用R418饱和jet或有界原函数结论。
+
+
+### 完整六尾与首 Bockstein 剪切
+
+[完整六尾剪切及低ell边界](notes/2026-11-14-deep-six-tail-bockstein-shear-and-low-ell-boundary.md)：ell≥3时六尾均在原I13/G，βh=(γh,b)的b固定。若后三尾在K=kerb上由原真实首像吸收，Δγ经b(KA)因子化，完整C1可逆剪切使K2red在同一来源相等，并保持G2及模p² Smith型；不必再把一般KA的前三尾逐条吸收。**待做：** 原实际向量命中、ell1/2新增2/1条真实B行、同一整提升的d2及所有carry高尾。首剪切不推出第二障碍不变或非零。

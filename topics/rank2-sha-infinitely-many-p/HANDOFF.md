@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：efc694680ff386afa35a5ee187482a40183a8b6c；2026-11-14 19:34:38 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：167165de3b37d568c4c6fe0ceedba9b4cb89480b；2026-11-14 19:35:07 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推/改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 根规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；文件<5MB、MD/接口单文件<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；18:55:59 UTC实际git pull --rebase重试仍无可用执行环境，随即API核main/两README无变。最迟19:55重试；恢复后先实际pull --rebase核规再接API历史。
@@ -21,7 +21,7 @@ root统一元数据/ref，代理只建proof/script/data blobs，结论随成随�
 
 - theta续R572同一个实际原arith测试与R569单位G比较；T7/T10完整边际及条件总质量已付，H̄偶深保val1补域。
 - literature续R573两个指定负矩的全局exactness与规范Cartier-zero、实际非消失；R570全局线已付但系数未赋非零。
-- deep续R561原τ≤2角边界、主体子格与完整forcing/同修正d2；同预算t除法及S³/周期H主体尾带已推，续真实边界和一般K1六尾。
+- deep续R561原τ≤2角边界、主体子格与完整forcing/同修正d2；同预算t除法/S³/周期H尾带与完整六尾首Bockstein剪切已推，续ell1/2实际carry及同一d2。
 - root已付R567局部残差两全strip首行/五sigma消元，续R571整个算术总行的uunit与c,d同深补域；残差非零不排原中央零。
 
 ## 完成标准及旧支线
@@ -67,4 +67,4 @@ p=6s−1>83，Γ=O[w,ε]/(w^s−pε,ε³,w^ell ε²)；原M=c*U0m13J保P134/char
 R552的Dξ=(cokerEq/imα)/β0(kerβ̄)须再商全部原上层共同核；b=bcar+iξ(3eξ)，须上层可解且γcar+[3eξ]=0。活f2/同R/低右逆高尾、T=s−r−13和同修正d2→G2不能删除。R555严格高接触门尚无实际F命中，不覆盖9/8临界。
 [一般二重/t除法](notes/2026-11-14-deep-general-double-contact-and-actual-high-axis-tail-port.md)：判别式H<2T保几何δ及原k扭曲；真P/t^j给末m0=max(0,min(τ,13)−(ν−ell))第三行，二重ν=ell且τ≥3全吸收三高轴。
 [原乘子低角](notes/2026-11-14-deep-original-source-multipliers-and-low-angle-tail-absorption.md)：S W_D⊂W_(D+1)、H十二周期自由帽47、源商47D−200；各自真子核S³W_(D−3)或H W_(D−12)用Q/SQ/S²Q吸收3−(ν−ell)尾，全部U0/charge/carry保。不得拆ker∩子格和；无新实际命中。
-一般K1六尾及低ell、同一d2仍需继续；已付单位块/来源饱和/分歧像满射不代全M。平均预算固定三块仅O(MD)、真收益须>3MDlogD；三源Stokes排同charge亚纯相消，中央p依赖/wild仍开。
+[完整六尾剪切](notes/2026-11-14-deep-six-tail-bockstein-shear-and-low-ell-boundary.md)：ell≥3时全部六尾留G，βh=(γh,b)的b固定；若真三尾在K=kerb上被原首像吸收，Δγ经b(KA)因子化给整个C1剪切，K2red同源相等、G2/模p² Smith型不变。ell1/2另有2/1条真实B行；同一d2仍需原整提升，不能由剪切推出。已付单位块/来源饱和/分歧像满射不代全M。平均预算固定三块仅O(MD)、真收益须>3MDlogD；三源Stokes排同charge亚纯相消，中央p依赖/wild仍开。
