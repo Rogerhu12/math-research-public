@@ -90,3 +90,6 @@ request31/nativeband已接推送，见[保存全系统带状重解接口](notes/
 
 
 request32/mixedquery已接推送，见[九query原中点接口](notes/2026-11-14-nine-query-original-midpoint-projection-interface.md)。同actual29父场，保七原left-RMS全角块，加真实mid473/477各2048；直接原middle/mid与完整J/P链，复用同11node无第二全J。原C方向算法、17原试步/全部原域/observer/新FD保持；与30完整H分支独立比较，不预设大步或接受。
+
+
+31仅输入目录发布失败，科学计算未开始，见[实际传输失败与修复](notes/2026-11-14-actual-request31-artifact-publication-failure.md)。33同nativeband重提：独占新目录与回执最后发布，完整输入校验保持，原band源/所有科学设定不变。32实际run43614990381/source4dce4180与30独立进行。

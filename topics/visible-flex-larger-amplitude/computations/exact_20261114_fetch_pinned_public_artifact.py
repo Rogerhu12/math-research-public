@@ -10,14 +10,14 @@ never printed or placed in the receipt.
 
 Extraction rejects traversal, duplicate paths, symlinks and other special
 files. A fresh private staging directory is validated completely before
-an atomic no-replace rename publishes a read-only payload in RUNNER_TEMP.
+an exclusively reserved directory receives the validated read-only payload.
+The receipt is moved last; the whole directory publication is not atomic.
 The temporary ZIP is removed after validation/extraction. This entry
 only downloads and preserves bytes; it imports no numerical packages.
 """
 from __future__ import annotations
 
 import argparse
-import ctypes
 import datetime
 import hashlib
 import json
@@ -45,7 +45,7 @@ PIN = {
     "expected_size": 235561097,
     "expected_sha256": "0ff8e6f597af60f19243b5457c28e8638096c775551b6f3d044dc2d2f1fabeee",
 }
-SCHEMA = "pinned-public-actions-artifact-fetch-v1"
+SCHEMA = "pinned-public-actions-artifact-fetch-v2"
 RECEIPT_NAME = "_pinned_public_artifact_receipt.json"
 CHUNK = 1024*1024
 MAX_METADATA = 1024*1024
@@ -351,7 +351,7 @@ def validate_output(argument):
     if os.environ.get("GITHUB_REPOSITORY") != REPOSITORY:
         fail("REPOSITORY", "This downloader only runs in the exact pinned public repository.")
     if os.name != "posix" or not sys.platform.startswith("linux"):
-        fail("PLATFORM", "This entry uses Linux atomic no-replace directory publication.")
+        fail("PLATFORM", "This entry uses a Linux private temporary directory.")
     runner_value = os.environ.get("RUNNER_TEMP")
     if not runner_value:
         fail("RUNNER_TEMP", "RUNNER_TEMP must identify the independent temporary root.")
@@ -383,24 +383,43 @@ def validate_output(argument):
     return runner, absolute
 
 
-def atomic_publish_function():
-    # ctypes is standard library. Linux renameat2(RENAME_NOREPLACE)
-    # publishes the validated directory atomically without replacing even
-    # an empty directory created by another process during this fetch.
-    libc = ctypes.CDLL(None, use_errno=True)
-    try:
-        renameat2 = libc.renameat2
-    except AttributeError:
-        fail("ATOMIC_RENAME_UNAVAILABLE", "Atomic no-replace directory rename is unavailable.")
-    renameat2.argtypes = (ctypes.c_int, ctypes.c_char_p,
-        ctypes.c_int, ctypes.c_char_p, ctypes.c_uint)
-    renameat2.restype = ctypes.c_int
-
+def exclusive_publish_function():
+    # actual31 verified the whole archive but renameat2 publication failed.
+    # Reserve a new private target with mkdir's ordinary no-replace behavior.
+    # All scientific consumers run only after this command returns success.
+    # Move only already-verified entries, with the receipt last. This is
+    # deliberately NOT described as an atomic whole-directory rename.
     def publish(source, target):
-        result = renameat2(-100, os.fsencode(source), -100, os.fsencode(target), 1)
-        if result != 0:
-            fail("ATOMIC_PUBLISH_FAILED",
-                "The validated directory could not be atomically published without replacement.")
+        reserved = False
+        phase = "exclusive-target-mkdir"
+        try:
+            target.mkdir(mode=0o700)
+            reserved = True
+            os.chmod(source, 0o700, follow_symlinks=False)
+            phase = "moving-validated-payload"
+            for entry in sorted(source.iterdir(), key=lambda value:value.name):
+                if entry.name != RECEIPT_NAME:
+                    os.rename(entry, target/entry.name)
+            phase = "moving-completion-receipt"
+            os.rename(source/RECEIPT_NAME, target/RECEIPT_NAME)
+            os.chmod(target, 0o555, follow_symlinks=False)
+            source.rmdir()
+        except OSError as error:
+            # errno and a fixed phase are safe: never format exception text,
+            # which could include external URLs in another code path.
+            code = error.errno
+            cleanup_complete = not reserved
+            if reserved:
+                try:
+                    cleanup_staging(target)
+                    cleanup_complete = True
+                except OSError:
+                    cleanup_complete = False
+            public_event("exclusive_payload_publication_failed",
+                phase=phase, errno=code,
+                exclusively_owned_partial_target_removed=cleanup_complete)
+            fail("EXCLUSIVE_PUBLISH_FAILED",
+                "The verified payload could not be published in its exclusively reserved directory.")
     return publish
 
 
@@ -417,7 +436,7 @@ def make_read_only(payload, extraction):
 def cleanup_staging(path):
     if path is None or not os.path.lexists(path):
         return
-    # A failed no-replace publication can leave a validated read-only
+    # A failed publication can leave a validated read-only
     # payload in staging. Restore directory write bits top-down so its
     # children can actually be removed; file write bits are unnecessary.
     for directory, unused_subdirs, unused_files in os.walk(path, followlinks=False):
@@ -464,7 +483,7 @@ def main():
     try:
         args = parse_arguments()
         runner, target = validate_output(args.out)
-        publish = atomic_publish_function()
+        publish = exclusive_publish_function()
         token = os.environ.get("GITHUB_TOKEN")
         if (not token or any(character.isspace() or ord(character) < 32
                 or ord(character) == 127 for character in token)):
@@ -499,7 +518,8 @@ def main():
             public_artifact_metadata=public_metadata(metadata),
             download=download, extraction=extraction,
             zip_verified_before_extraction=True, temporary_zip_removed=True,
-            publication="Linux renameat2 RENAME_NOREPLACE; fully validated private directory",
+            publication="Exclusive mkdir; already-verified child renames; receipt moved last; not atomic as a whole directory",
+            whole_directory_publication_atomic=False, existing_output_directory_replaced=False,
             files_read_only_mode="0444", directories_read_only_mode="0555",
             output_directory=str(target), runner_temp=str(runner),
             token_source="GITHUB_TOKEN environment only",
@@ -530,7 +550,7 @@ def main():
             phase=state["phase"], error_code=error.code,
             message=error.safe_message,
             archive_received_bytes=state["archive_received_bytes"],
-            no_partial_output_directory_published=bool(state["phase"] != "complete"))
+            fully_published_output=bool(state["phase"] == "complete"))
         return 2
     except (KeyboardInterrupt, SystemExit):
         raise
@@ -541,7 +561,7 @@ def main():
             phase=state["phase"], error_code="UNEXPECTED_LOCAL_OR_TRANSFER_FAILURE",
             message="The fetch failed; exception details are withheld to protect URL credentials.",
             archive_received_bytes=state["archive_received_bytes"],
-            no_partial_output_directory_published=bool(state["phase"] != "complete"))
+            fully_published_output=bool(state["phase"] == "complete"))
         return 2
     finally:
         try:

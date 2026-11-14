@@ -726,3 +726,8 @@ run43611175099/source6bd52b44/job132496373274诊断全success；artifact14120548
 ### 2026-11-14 request32：同actual29父场的九种原查询网格
 
 三源34115f81…/d74d7a1c…/5c871d96…及接口全文读/AST与字节核；原七RMS块原样复用，新增actual29真实失效mid473/477各2048角，共18432行、同全236036坐标/local3721和11node捕获。基点直接原middle/mid，完整Γ(.5I±hJ/8)及h(ΓPL−ΓPR)/8+Π，/S一次，9 typed query不与7 capture interval混。所有导出/complex-chain/试步各带kind；保原C Hildreth/同f方向选择/17原试步/全域门/observer，随后新完整FD。不同于30完整H比较，两者都来自actual29并独立执行；无native/BVP接受。三lane名单、准备/父场/FD路径/YAML均核，不本地科学运行。
+
+
+### 2026-11-14 actual31传输失败与request33修复
+
+31/run43614888444/source65bc7755/job132507703327完整ZIP收到235561097B并完成校验提取后，renameat2发布返回非零；旧未记errno，不推断原因，没有进入band科学计算。完整事实/时间/源码控制流见actual-request31-artifact-publication-failure note。33仅修下载器为独占mkdir/已核payload子项移动/receipt最后、run/attempt唯一目标并记安全errno，不宣称整目录原子发布；同PIN、SHA、原band源b39e9dd9…、全部科学参数不变。32实际run43614990381/source4dce4180已运行。

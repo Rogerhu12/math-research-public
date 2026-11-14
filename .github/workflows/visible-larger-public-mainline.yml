@@ -186,14 +186,14 @@ jobs:
             --artifact-name visible-mainline-nativecorrection-43611175099-1 \
             --expected-size 235561097 \
             --expected-sha256 0ff8e6f597af60f19243b5457c28e8638096c775551b6f3d044dc2d2f1fabeee \
-            --out "$RUNNER_TEMP/actual28-pinned-input"
-          cp "$RUNNER_TEMP/actual28-pinned-input/_pinned_public_artifact_receipt.json" "$VISIBLE_OUT/actual28-artifact-fetch-receipt.json"
+            --out "$RUNNER_TEMP/actual28-pinned-input-${{ github.run_id }}-${{ github.run_attempt }}"
+          cp "$RUNNER_TEMP/actual28-pinned-input-${{ github.run_id }}-${{ github.run_attempt }}/_pinned_public_artifact_receipt.json" "$VISIBLE_OUT/actual28-artifact-fetch-receipt.json"
       - name: Resolve the saved complete native system with pivoted band LU
         if: matrix.lane == 'nativeband'
         timeout-minutes: 45
         run: |
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_native_captured_band_correction.py" \
-            --capture-directory "$RUNNER_TEMP/actual28-pinned-input/native-correction-capture" \
+            --capture-directory "$RUNNER_TEMP/actual28-pinned-input-${{ github.run_id }}-${{ github.run_attempt }}/native-correction-capture" \
             --capture-result-sha256 ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7 \
             --scaling original-sigma --out "$VISIBLE_OUT/captured-native-band-correction"
       - name: Restore pinned source bytes only from the public repository
