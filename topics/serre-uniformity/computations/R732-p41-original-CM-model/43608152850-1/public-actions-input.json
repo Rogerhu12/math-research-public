@@ -1,0 +1,29 @@
+{
+  "result": "R732-p41-original-CM-model",
+  "p": 41,
+  "source_commit": "ff405af51e13bb966fecd066a14513eee0947702",
+  "source_repository": "Rogerhu12/math-research-public",
+  "request_sha256": "2aa94c5bf5df8ea8e06dc45caf829d75b254080fa78b327b9d683880f6d982a7",
+  "driver_sha256": "375eed0a180ae285a36483bacce389e48508b65f3f699f031b20953da14c8769",
+  "core_sha256": "4d6f860506347ab578f1a4f0e30eb0041f8a56b6e62b29762aa958c843f17ec5",
+  "method_sha256": "1070bd1ebd6cabd47d5639d142cc62162cdd0d06b0eb1f403767e1a1cf81ff3e",
+  "root_readme_sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "dependencies": [
+    {
+      "file": "results/R725-original-CM-elliptic-model-and-splitting-field.md",
+      "sha256": "59e67395545cf56686a7e13f57d25637aec4b48fbbae54dc9ed12aba8d53ad9f"
+    },
+    {
+      "file": "results/R728-original-Weil-restriction-primitive-projector-and-Neron-lattice.md",
+      "sha256": "f8b68a367164e061b2385de908fe76c0710d13895f01f650d2569a7d5090f86a"
+    },
+    {
+      "file": "results/R732-original-CM-period-kernel-and-bounded-rational-function-recovery.md",
+      "sha256": "360bf5eff42ca81e618c107dd9b3421095a01d1e0aebe1234acd29af9e12a19a"
+    }
+  ],
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43608152850",
+  "prepared_at_utc": "2026-11-14T15:04:20.448035+00:00",
+  "mathematical_completion_claimed": false
+}
