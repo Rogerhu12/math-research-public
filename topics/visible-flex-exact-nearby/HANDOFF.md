@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 13:22:59 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 13:25:03 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：4e6a1539d7ac34332bef83600c84ce067243654d；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：aef650c13dde78b99f56cd4dddb5ee27f87d554a；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -37,7 +37,7 @@ mean-v2 run43589465579十门：||q*−Z||<4.572198020300e−6。还须完整逆�
 R31 run43586895661真实九步/11门，显式族|δ*|<9.368259853002e−11；physicalstrip43588332723真物理A1/128及逆域已成。八loss保，不授不同δ唯一或真PDE。
 完整Xi原有限部43591721337六门/3146行成；旧失败与2838成功行、root步全保。参数转移43597209022十二门，179原输入复用，fee<1.749541157460e−5；−Xiδ*/4∈(18.478324305027005,18.478338742519616)。仅Xi贡献，非完整β。
 有向word准确V−^-1V+=U_(S−∘X+)，非平方；I模1/(4ij)。完整β=−(Xi+brootfin)/4及声明接口。
-第一相位二次norm/有限CF基完整算术合同已证，六输入run43598755503已完成，实际原过程根已读取，待独立发布；不代替rootfinite。
+第一相位算术43598755503真实11门：全部|n|≥97/四根gap>1/(512|n|)，scalar inverse≤512一阶；native db861442f5b895362abe090306c2899b3771282269b7ccc5743d820e79f8bff3。1502完整CF候选最坏n1635；高norm距整数>.217432842839813。仅当前−Xiδ*/4区间，不代替rootfinite。
 moving根scalarization43594466882真实13门，|δ|≤1e−8全频J/负Sobolev/mean/flux保；δ产品band192，不能借旧band64负反馈。
 腰/Airy43592219275真实13门：腰K′=b=S=0，root有限cross buv/η均值0但矩阵保。O1–20 ordered scalar draft已收待读。
 actual root principal/normal form、two-row positive matching、brootfin、strong及真正PDE背景继续；外部glancing定理假设不符，不能直接借授本题type-change结论。

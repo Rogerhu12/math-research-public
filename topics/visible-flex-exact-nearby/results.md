@@ -109,3 +109,7 @@
 ### R133 补充：完整已知响应的实际 repair 差源
 
 **已证明。** [实际结果](results/R133-supplement-actual-complete-response-repair-source.md)消费公开43597921732的47个真实通过门：40parts/7721格的完整原算子差和参数列差新L2源<5.597282e−16，完整修复残差L2<.001284069679776281。保新mean残差及未知主部的一阶结构；真实边界、未知high和完整逆继续。
+
+### R133 补充：当前首相位的实际完整第四根算术
+
+**已证明。** [完整结果](results/R133-supplement-actual-first-phase-complete-quadratic-gap.md)由公开43598755503实际11门证明：对当前原生−Xiδ*/4完整区间、全部|n|≥97和四单位根，gap>1/(512|n|)。1502完整CF候选及无限高n整数norm均付，最坏n1635；实际完整β辨认、root/positive匹配及strong仍欠。

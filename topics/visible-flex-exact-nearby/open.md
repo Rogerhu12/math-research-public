@@ -61,7 +61,7 @@ mean-v2 43589465579真实10门给||q*−Z||<4.572198020300e−6。
 实际完整β仍含−brootfin/4及声明接口，不能把−Xi/4改名为完整β。
 
 [首相位后二次norm算术合同](results/R133-supplement-quadratic-norm-gap-after-first-scalar-phase.md)保留β/j。
-新六输入run43598755503已完成，根已读实际原过程，随后独立登记其全整数结论；作用范围先限当前−Xiδ*/4区间。
+[实际全整数结果](results/R133-supplement-actual-first-phase-complete-quadratic-gap.md)run43598755503已真实11门完成：全部|n|≥97、四根gap>1/(512|n|)，scalar inverse≤512一阶。完整有限候选1502个，最坏n1635也严格分离；高n由精确二次norm覆盖无限尾。范围限原生当前−Xiδ*/4区间，未辨认的根连接系数和strong仍须付。
 
 [实际moving根全频预算](results/R133-supplement-actual-full-frequency-moving-root-budget.md)43594466882已成13门，保|δ|≤1e−8、全193方向、独立mean、primitive、source flux、强负Sobolev窗与commutator。
 δ产品带宽到192，旧band64负反馈数字不能转授。
