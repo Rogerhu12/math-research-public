@@ -199,9 +199,9 @@ def main():
     phases = []
     jacobian_checked = False
     for fraction in args.phases:
-        check_now = args.check_jacobian and not jacobian_checked and abs(np.sin(np.pi * fraction)) > 1e-12
+        check_now = bool(args.check_jacobian and not jacobian_checked and abs(np.sin(np.pi * fraction)) > 1e-12)
         initial, coeff, record = slice_solve(args, model, C_perp, np.pi * fraction, initial, check_now)
-        jacobian_checked = jacobian_checked or check_now
+        jacobian_checked = bool(jacobian_checked or check_now)
         Fs = validation["Xs"] + np.einsum("nik,k->ni", validation["fields_s"], coeff)
         Fu = validation["Xu"] + np.einsum("nik,k->ni", validation["fields_u"], coeff)
         metric = metric_error(validation, Fs, Fu)
@@ -226,7 +226,7 @@ def main():
                   boundary=("C2 zero-extension fields on the active strip; exp profile fields have all endpoint jets zero"
                             if args.profile_kind == "bump" else
                             "C2 zero-extension fields on the active strip; polynomial profiles have finite endpoint vanishing order"),
-                  jacobian_check_performed=jacobian_checked,
+                  jacobian_check_performed=bool(jacobian_checked),
                   trial_columns=columns, mass_condition_number=float(np.linalg.cond(mass)),
                   validation_grid=dict(theta_n=2 * args.theta_n, xi_n=max(96, args.xi_n + 32)),
                   phase_slices=phases,

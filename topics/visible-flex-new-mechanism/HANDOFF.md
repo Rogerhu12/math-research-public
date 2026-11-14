@@ -9,7 +9,7 @@
 ## 规则与同步
 
 - 已完整读公开根 README 和本课题 README，校对 `visible-flexible-closed-surface/README.md` 的 $D,H,\delta_{\rm hold},\delta_E$ 定义。
-- 公开仓库最后已读规则提交：`e03502f4713bb6a531b5026086745d422b40cb38`；该次实际 `git pull --rebase origin main` 成功，随后两 README diff 为空。
+- 公开仓库最后已读规则提交：`6116f3ce2dcff33e01163650d5b98236ae019fd6`；该次实际 `git pull --rebase origin main` 成功，随后两 README diff 为空。
 - 作者指定的 QUEUE 领取已执行成功。研究与计算在本公开仓库；公开笔记只使用公开来源和独立推导。
 - 每次 pull 后比较这两个公开 README，变更仅读差异并照办；至少每小时 pull。每条结论立即提交并在推前 pull；非快进拒绝即 rebase 重试，不强推。
 - 令牌仅瞬时命令行认证，不入文件；数值大数组/网格不读入对话。根 LOG 不写；结果单文件、Markdown 小于100KB，数据大于1MB压缩且单件小于5MB。
@@ -51,7 +51,7 @@ Actions的文献q=3种子使用同一闭合权重和物理带宽。参考带的�
 4. 本题公开 workflow `.github/workflows/visible-new-mechanism-search.yml` 的 `43584472315` 两lane均已成功。偏心e=.05/.1/.2/.3/.45的真实metric依次`.00139/.00346/.01899/.02459/.03789`，不通过；角平均E几乎触及上限4。文献种子闭合残差随固定参数精化到约`1e-14`；仍不是闭曲面连续族。
 5. 同时继续 `core_to_tail_bvp.py` 一侧实际连接及有符号Frenet版单位切向BVP。
 6. 有符号图、中央非圆锁定及8个core-tail实际BVP已保存；最细原一侧设计metric约`.015232`。Actions `43585440463` 的核谱三档与两回折BVP均实际完成；回折metric为`.108487/.116044`，仍失败。publisher忘记新增lane枚举导致发布失败，已从官方artifact原样恢复到对应 `notes/actions-43585440463-1-*/`，补来源receipt并修复枚举，未重复数值计算。
-7. 三矩/range/六项多项式Volterra公式已完成；实际二阶Actions `43585888368` 显示原profile有非零周期障碍、低分辨率公式不一致和巨大投影Z，未形成小校正。下一次加密原bump并交叉三公式，另用C2零延拓的poly4输入及固定g非线性相位切片pilot；所有原障碍保留，不能用减均值冒解。
+7. 三矩/range/六项多项式Volterra公式已完成；实际二阶Actions `43585888368` 显示原profile有非零周期障碍、低分辨率公式不一致和巨大投影Z，未形成小校正。43587455201已完成原bump加密和poly4三公式，待审计；Newton末尾JSON布尔类型失败，已修复并按同参数单独重跑，旧运行无可恢复结果；所有原障碍保留，不能用减均值冒解。
 8. 核谱旧单bump ε=1e-5主曲率半径/中心线D样本仅`.00114767`。84几何设计的Actions `43586501855` 已成功，新增symmetric无厚度改善；旧窄带非局部法球样本比仅`.00883420`。这些输入都不是宏观reach合格起点，详见 `notes/literature-geometry-design-20261114.md`。
 
 ## 工作文件

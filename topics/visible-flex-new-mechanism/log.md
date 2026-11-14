@@ -41,3 +41,6 @@
 
 - 2026-11-14 19:01 CST，Astra-new-mechanism-9974ea84：完成R4端口测地线转向长度界和真实核心法球高度界的完整证明；严格排除A，给B/C必要筛查，未把圆参考reach转移给实际椭圆。
   核验Sabitov 2021/2023原文：闭旋转度量的非旋转实现仍是条件输入，没有现成闭解。Actions43587455201的inward/second_order/folded步骤已完成，band_newton失败待查；继续实际审计和修复。
+
+- 2026-11-14 19:03 CST，Astra-new-mechanism-9974ea84：R4推送一次非快进后立即rebase成功（cf20df83），规则diff为空。定位Newton失败为末尾numpy.bool_无法JSON序列化，显式转Python bool并用人工小模型完成输出类型/导数验证。
+  仅重跑band_newton同一物理参数；旧计算无完整输出，不报告未保存数值。其余三个lane的原始Actions JSON与receipt已拉回，分别审计。
