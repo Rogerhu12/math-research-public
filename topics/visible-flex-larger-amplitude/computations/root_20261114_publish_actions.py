@@ -123,7 +123,9 @@ def main():
         # The user's instruction requires immediate ordinary rebase/push
         # until a non-fast-forward is resolved; no retry-count cutoff.
         failure = result.stdout + result.stderr
-        if not any(reason in failure for reason in ('non-fast-forward', 'fetch first', '[rejected]')):
+        concurrent_advance = (any(reason in failure for reason in ('non-fast-forward', 'fetch first', '[rejected]'))
+            or ("cannot lock ref 'refs/heads/main'" in failure and ' is at ' in failure and ' but expected ' in failure))
+        if not concurrent_advance:
             raise RuntimeError('Push failed for a reason other than concurrent main advancement; complete outputs remain in the artifact')
 
 

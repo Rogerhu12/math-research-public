@@ -1,0 +1,57 @@
+{
+  "field_modes": 112,
+  "angular_quadrature": 2048,
+  "history": [
+    {
+      "iteration": 0,
+      "nodes": 699,
+      "invalid_RMS_points": 0,
+      "checks": [
+        {
+          "fraction": 0.17267316464601146,
+          "points": 698,
+          "invalid_count": 0,
+          "first_invalid_points": []
+        },
+        {
+          "fraction": 0.8273268353539885,
+          "points": 698,
+          "invalid_count": 0,
+          "first_invalid_points": []
+        }
+      ]
+    }
+  ],
+  "added_nodes": [],
+  "complete_preflight_passed": true,
+  "actual_query_minima": {
+    "nodes": {
+      "minimum_beta_squared": 0.005147953492641522,
+      "s": 2.241097326439726,
+      "phi": 0.36815538909255385,
+      "a": 0.32982784870682064,
+      "ap": -0.9974201152840357
+    },
+    "0.5": {
+      "minimum_beta_squared": 0.005147035027030511,
+      "s": 2.2585429066888856,
+      "phi": 0.38963112012295287,
+      "a": 0.3124272760435068,
+      "ap": -0.9974201152840357
+    },
+    "0.17267316464601146": {
+      "minimum_beta_squared": 0.0007799746649373995,
+      "s": 1.2002076440044023,
+      "phi": 0.0,
+      "a": 1.1899847955223861,
+      "ap": -0.14863126227800036
+    },
+    "0.8273268353539885": {
+      "minimum_beta_squared": 0.0050828448198005916,
+      "s": 2.260174451424277,
+      "phi": 0.0,
+      "a": 0.3107999405054414,
+      "ap": -0.9974201152840357
+    }
+  }
+}

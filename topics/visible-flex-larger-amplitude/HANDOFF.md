@@ -31,12 +31,13 @@ request10/11旧Rθ QR/band及12 P/方向诊断：相对线残差.91333/3.27382e�
 
 本日actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure存完整源/输出SHA。15实际有限Jac在a二阶量零的峰值cell谱半径1.60766e5、L/R条件约1.8e12；末cell分60段宏传播范数约2.22e23。理想R255 circle剪切不直接描述有限φ，不能据此盲加bridge点/抬1200。
 
-## 正在执行：request17
+## 最新真实执行：request17已失败，继续原两处阻断
 
-run43598917532/source4b8b2bfdd417f76574dcc2a8e2353c4c2dce3e21（13:16:20Z）、job132459290659。实际19步warm于13:27:47Z success，20步真实FD于13:28:09Z success；29步原fullDN自13:28:09Z运行。尚无terminal数值/新接受；不把步骤success冒联解成功。
-三独立源及SHA/CLI见constrained-trust-warm-interface。原699 exact入口/常数chart：698×338physical+109自由core+3p；入口由c构造，各节点同c/p，原常数ODE/左BC恒等满足，保全部physical collocation/112 Rφ，零点与原问题等价。矩形matvec/rmatvec+正阻尼LSMR，无正规方程；core权重含t_m=−2mc_m额外频率。真实midpoint重算原RHS，固定Wr merit/实际gdot/预测比/域和RMS逐trial记录；warm永不accepted。
-本次3模型/80 LSMR步/1200s初猜预算；新warmFD后自动原fullDN、真实H尾、RMS1e−6/BC1e−11/冻结物理/最终fresh audit，接受后原闭合/R249。后续workflow已加native前warm/FD独立artifact（不回填当前17）。原三求解源冻结；--resume允许续实际warm，但须核producer SHA，不能把改源后resume等同原身份。geometry的full-newton-domain-and-sobolev-step仅备选过滤Newton，当前未采用。
-另备用：R259小core直线homotopy/完整尾Schur及条件IFT已证，真实圆collocation低3传输诊断源及接口说明已冻结，默认仅诊断、完整112右漏量/原FFT/RMS/全scalar区间明确，尚未调度；直线三重匹配不是所有路径门，λ^j须分阶处理。geometry分析finiteGauss a/ap真实兼容性R260。R258同场消费者已冻结，尚无实际父场/执行。
+run43598917532/source4b8b2bfdd417f76574dcc2a8e2353c4c2dce3e21，job132459290659，artifact14116526155/ZIP5a0bddbd…已下载并补出版到notes/public-actions-43598917532-1-coupling112trust。完整数值/SHA见actual-trust-warm-and-tiny-height-native-failure。
+原699 exact chart（698×338physical+109core+3p）、全部physical collocation/112 Rφ保留；真J/JT与LSMR只作warm。633.052s实际3次下降：λ10/30/90，α2^-14/2^-15/2^-15；各模型自己的固定Wr比率约1，原col仅.00711059508→.00711054731、affineBC9.6068e−8。全部原RMS域存档，warm仍未接受。末warm SHA5d1c452291099ad18b1a619ba3794614b04a0c620b8ed0f28887a84731ef7886；实际新FD9.5171077e−10/20.404s过。
+fullDN首次真非零H（首项4.1760413061806626e−17）native尾在iteration0 norm1.3414069968e7/chartCond1.3312263223e60失败；10trial全D/S/A guard、rawCell0/rawSegment7、stage13/14。outer_history空，没进入prefix Newton/新band，没有成功非零H/J或final audit。MaterialTrace早已P[:,0]=0，不能将真实小非mean H阈值归零。exact查冷启动/完整zero场预测，amplitude查warm turn内RMS点473限制；原三求解源冻结。下一计算据这两处真实证据选，不盲延同初猜。
+原publisher遇并发main CAS被误分类而停；root补出版全部限额输出并修识别。后续workflow已有native前独立warm/FD artifact，不回填旧17。--resume需核全部producer SHA；原完整RMS1e−6/BC1e−11/真H尾/fresh audit不动。
+R259备用小core直线同伦/完整尾Schur/条件IFT已证，真实圆collocation低3传输诊断源已冻结未调度；λ^j路径不受直线三重门。R258同场消费者已冻结未有父场/执行；背景完整C²规范形准备中。
 
 ## 尾、闭合、同g精化
 

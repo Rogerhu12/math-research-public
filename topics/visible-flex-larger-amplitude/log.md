@@ -542,3 +542,8 @@ request17/run43598917532/source4b8b2bf已于13:16:20Z实际启动，job132459290
 ### 2026-11-14 13:45 UTC — retain the independent R259 diagnostic without scheduling it
 
 small_core_resonance新源与接口冻结，保原699/完整scalar三控制/真112零J身份；圆collocation和三模原2×2链、完整112右漏量、3×3响应/独立差分、原FFT/node/mid/RMS及同实表达a/ap全区间Arb分别记录。仅完全对角真J且三个目标非零时允许显式可选三共振候选搜索；高块Schur/非共振/真实非零尾/大幅续接均不冒已付。root全文读源、AST/复用签名核；无本地计算、无新Actions，当前17仍原fullDN。
+
+### 2026-11-14 13:51 UTC — preserve request17 actual warm decreases and first nonzero-H native failure
+
+真实3次warm下降/原FD过，但原col仅到.00711054731，alpha2^-14/2^-15/2^-15，不能冒已近原容差。首次H首项4.176e−17真native在iteration0 norm1.3414e7/chartCond1.331e60、10trial全guard拒，尚未prefix inner/newband，无成功新H/J/audit。原artifact14116526155及所有限额内字节由root补出版，全部来源/SHA/状态见actual-trust-warm-and-tiny-height-native-failure。
+bot发布只因并发main CAS拒绝被漏分类而终止；已补明确cannot-lock-ref/is-at/but-expected形态，保持立即普通rebase/push循环。没有强推/改科学数据/降低门。原三数值源冻结，继续实际RMS可行方向和native冷启动两处阻断。

@@ -1,0 +1,919 @@
+{
+  "iteration": 1,
+  "before": {
+    "node_domain_failures": 0,
+    "midpoint_domain_failures": 0,
+    "boundary_finite": true,
+    "finite": true,
+    "original_uniform_phi_rho_guard_valid": true,
+    "original_rho_guard_angles": 4096,
+    "original_uniform_phi_rho_min": 0.16604058243274977,
+    "boundary_domain_error": null,
+    "complete_trial_RHS_recomputed": true,
+    "all_core_states_identical": true,
+    "all_control_states_identical": true,
+    "left_residual_max": 0.0,
+    "physical_collocation_max": 0.007110550938076629,
+    "complete_boundary_max": 9.607392175797881e-08,
+    "constant_collocation_max": 0.0,
+    "original_RMS_query_domain_failures": 0,
+    "original_RMS_query_checks": [
+      {
+        "fraction": 0.17267316464601146,
+        "points": 698,
+        "invalid_count": 0,
+        "first_invalid_points": []
+      },
+      {
+        "fraction": 0.8273268353539885,
+        "points": 698,
+        "invalid_count": 0,
+        "first_invalid_points": []
+      }
+    ]
+  },
+  "fixed_weight_merit_before": 44.44736933003768,
+  "damping_attempts": [
+    {
+      "attempt": 0,
+      "damping": 30.0,
+      "LSMR_istop": 7,
+      "LSMR_iterations": 80,
+      "LSMR_normr": 9.112096715909964,
+      "LSMR_normar": 0.027985778897540607,
+      "LSMR_normA": 30.745278165058295,
+      "LSMR_condA": 9.742005217546229,
+      "LSMR_seconds": 8.582614906999993,
+      "scaled_direction_L2": 0.0424106092674534,
+      "physical_coordinate_direction_max": 0.0044951690337176105,
+      "actual_full_model_directional_derivative": -5.742181773623692,
+      "weighted_J_direction_squared": 4.001137646676201,
+      "trials": [
+        {
+          "alpha": 1.0,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 3.741612950285591,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": false,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 9,
+            "boundary_finite": true,
+            "finite": false,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0
+          }
+        },
+        {
+          "alpha": 0.5,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 2.3709486809773206,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": false,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 8,
+            "boundary_finite": true,
+            "finite": false,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0
+          }
+        },
+        {
+          "alpha": 0.25,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 1.3105098919472917,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": false,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 7,
+            "boundary_finite": true,
+            "finite": false,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0
+          }
+        },
+        {
+          "alpha": 0.125,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 0.6865138338383037,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": false,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 7,
+            "boundary_finite": true,
+            "finite": false,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0
+          }
+        },
+        {
+          "alpha": 0.0625,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 0.3510716388853163,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": false,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 4,
+            "boundary_finite": true,
+            "finite": false,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0
+          }
+        },
+        {
+          "alpha": 0.03125,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 0.17748949993419924,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": false,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 4,
+            "boundary_finite": true,
+            "finite": false,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0
+          }
+        },
+        {
+          "alpha": 0.015625,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 0.08923317008998491,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": false,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 3,
+            "boundary_finite": true,
+            "finite": false,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0
+          }
+        },
+        {
+          "alpha": 0.0078125,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 0.04473869007571377,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": false,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 3,
+            "boundary_finite": true,
+            "finite": false,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0
+          }
+        },
+        {
+          "alpha": 0.00390625,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 0.022399871295537215,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": false,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 2,
+            "boundary_finite": true,
+            "finite": false,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0
+          }
+        },
+        {
+          "alpha": 0.001953125,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 0.01120756721218869,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": false,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 0,
+            "boundary_finite": true,
+            "finite": true,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0,
+            "physical_collocation_max": 0.007110342185173688,
+            "complete_boundary_max": 9.588556137694262e-08,
+            "constant_collocation_max": 0.0
+          },
+          "actual_fixed_weight_merit": 44.435633977466594,
+          "actual_merit_reduction": 0.011735352571086821,
+          "actual_to_predicted_ratio": 1.047091875418257,
+          "complete_original_RMS_query_domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 0,
+            "boundary_finite": true,
+            "finite": false,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0,
+            "physical_collocation_max": 0.007110342185173688,
+            "complete_boundary_max": 9.588556137694262e-08,
+            "constant_collocation_max": 0.0,
+            "original_RMS_query_domain_failures": 4,
+            "original_RMS_query_checks": [
+              {
+                "fraction": 0.17267316464601146,
+                "points": 698,
+                "invalid_count": 4,
+                "first_invalid_points": [
+                  {
+                    "interval": 473,
+                    "left": 1.1993469629899143,
+                    "right": 1.2043314144896742,
+                    "s": 1.2002076440044023,
+                    "a": 1.1899847955223861,
+                    "ap": -0.14863126227800036,
+                    "app": -2.472231719360121,
+                    "minimum_beta_squared": -0.12885168697196492,
+                    "phi": 3.040349921589341,
+                    "curve_curvature_at_minimum": 0.11755749156080253,
+                    "scalar_parameters": [
+                      -4.183039811163198e-19,
+                      1.1548784897194191e-19,
+                      -2.422109564216111e-19
+                    ]
+                  },
+                  {
+                    "interval": 475,
+                    "left": 1.2051920955041622,
+                    "right": 1.209315865989434,
+                    "s": 1.2059041600041278,
+                    "a": 1.1890980321325053,
+                    "ap": -0.16269882176348988,
+                    "app": -2.466689448173366,
+                    "minimum_beta_squared": -0.11022516154349926,
+                    "phi": 0.09817477042468103,
+                    "curve_curvature_at_minimum": 0.12985575888211762,
+                    "scalar_parameters": [
+                      -4.183039811163198e-19,
+                      1.1548784897194191e-19,
+                      -2.422109564216111e-19
+                    ]
+                  },
+                  {
+                    "interval": 477,
+                    "left": 1.210176547003922,
+                    "right": 1.214300317489194,
+                    "s": 1.2108886115038877,
+                    "a": 1.1882564469807595,
+                    "ap": -0.17498096573779526,
+                    "app": -2.461429540974955,
+                    "minimum_beta_squared": -0.09259229654364565,
+                    "phi": 3.040349921589341,
+                    "curve_curvature_at_minimum": 0.14088072008315272,
+                    "scalar_parameters": [
+                      -4.183039811163198e-19,
+                      1.1548784897194191e-19,
+                      -2.422109564216111e-19
+                    ]
+                  },
+                  {
+                    "interval": 480,
+                    "left": 1.2192847689889539,
+                    "right": 1.2242692204887136,
+                    "s": 1.2201454500034419,
+                    "a": 1.1865313669322861,
+                    "ap": -0.19771713373381247,
+                    "app": -2.4506477906719963,
+                    "minimum_beta_squared": -0.09716220190735991,
+                    "phi": 0.0,
+                    "curve_curvature_at_minimum": 0.15908515799633227,
+                    "scalar_parameters": [
+                      -4.183039811163198e-19,
+                      1.1548784897194191e-19,
+                      -2.422109564216111e-19
+                    ]
+                  }
+                ]
+              },
+              {
+                "fraction": 0.8273268353539885,
+                "points": 698,
+                "invalid_count": 0,
+                "first_invalid_points": []
+              }
+            ]
+          }
+        },
+        {
+          "alpha": 0.0009765625,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 0.005605691497199366,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": false,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 0,
+            "boundary_finite": true,
+            "finite": true,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0,
+            "physical_collocation_max": 0.0071104465417896655,
+            "complete_boundary_max": 9.597974683479346e-08,
+            "constant_collocation_max": 0.0
+          },
+          "actual_fixed_weight_merit": 44.44170618154999,
+          "actual_merit_reduction": 0.0056631484876916716,
+          "actual_to_predicted_ratio": 1.0102497596453552,
+          "complete_original_RMS_query_domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 0,
+            "boundary_finite": true,
+            "finite": false,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0,
+            "physical_collocation_max": 0.0071104465417896655,
+            "complete_boundary_max": 9.597974683479346e-08,
+            "constant_collocation_max": 0.0,
+            "original_RMS_query_domain_failures": 2,
+            "original_RMS_query_checks": [
+              {
+                "fraction": 0.17267316464601146,
+                "points": 698,
+                "invalid_count": 2,
+                "first_invalid_points": [
+                  {
+                    "interval": 473,
+                    "left": 1.1993469629899143,
+                    "right": 1.2043314144896742,
+                    "s": 1.2002076440044023,
+                    "a": 1.1899847955223861,
+                    "ap": -0.14863126227800036,
+                    "app": -2.472231719360121,
+                    "minimum_beta_squared": -0.15307838284423636,
+                    "phi": 0.0,
+                    "curve_curvature_at_minimum": 0.11631596779167477,
+                    "scalar_parameters": [
+                      -2.468496475903039e-19,
+                      6.817879530841896e-20,
+                      -1.5884497835255307e-19
+                    ]
+                  },
+                  {
+                    "interval": 480,
+                    "left": 1.2192847689889539,
+                    "right": 1.2242692204887136,
+                    "s": 1.2201454500034419,
+                    "a": 1.1865313669322861,
+                    "ap": -0.19771713373381247,
+                    "app": -2.4506477906719963,
+                    "minimum_beta_squared": -0.04703959463410379,
+                    "phi": 0.0,
+                    "curve_curvature_at_minimum": 0.16284841266889763,
+                    "scalar_parameters": [
+                      -2.468496475903039e-19,
+                      6.817879530841896e-20,
+                      -1.5884497835255307e-19
+                    ]
+                  }
+                ]
+              },
+              {
+                "fraction": 0.8273268353539885,
+                "points": 698,
+                "invalid_count": 0,
+                "first_invalid_points": []
+              }
+            ]
+          }
+        },
+        {
+          "alpha": 0.00048828125,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 0.002803322721375938,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": false,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 0,
+            "boundary_finite": true,
+            "finite": true,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0,
+            "physical_collocation_max": 0.0071104987349767095,
+            "complete_boundary_max": 9.602683198055047e-08,
+            "constant_collocation_max": 0.0
+          },
+          "actual_fixed_weight_merit": 44.444558512526974,
+          "actual_merit_reduction": 0.0028108175107064426,
+          "actual_to_predicted_ratio": 1.0026735378247231,
+          "complete_original_RMS_query_domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 0,
+            "boundary_finite": true,
+            "finite": false,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0,
+            "physical_collocation_max": 0.0071104987349767095,
+            "complete_boundary_max": 9.602683198055047e-08,
+            "constant_collocation_max": 0.0,
+            "original_RMS_query_domain_failures": 2,
+            "original_RMS_query_checks": [
+              {
+                "fraction": 0.17267316464601146,
+                "points": 698,
+                "invalid_count": 2,
+                "first_invalid_points": [
+                  {
+                    "interval": 473,
+                    "left": 1.1993469629899143,
+                    "right": 1.2043314144896742,
+                    "s": 1.2002076440044023,
+                    "a": 1.1899847955223861,
+                    "ap": -0.14863126227800036,
+                    "app": -2.472231719360121,
+                    "minimum_beta_squared": -0.10510468524487471,
+                    "phi": 0.0,
+                    "curve_curvature_at_minimum": 0.11881384310327255,
+                    "scalar_parameters": [
+                      -1.6112248082729595e-19,
+                      4.452426847665749e-20,
+                      -1.1716198931802406e-19
+                    ]
+                  },
+                  {
+                    "interval": 480,
+                    "left": 1.2192847689889539,
+                    "right": 1.2242692204887136,
+                    "s": 1.2201454500034419,
+                    "a": 1.1865313669322861,
+                    "ap": -0.19771713373381247,
+                    "app": -2.4506477906719963,
+                    "minimum_beta_squared": -0.007902329593275415,
+                    "phi": 0.0,
+                    "curve_curvature_at_minimum": 0.16598003728758842,
+                    "scalar_parameters": [
+                      -1.6112248082729595e-19,
+                      4.452426847665749e-20,
+                      -1.1716198931802406e-19
+                    ]
+                  }
+                ]
+              },
+              {
+                "fraction": 0.8273268353539885,
+                "points": 698,
+                "invalid_count": 0,
+                "first_invalid_points": []
+              }
+            ]
+          }
+        },
+        {
+          "alpha": 0.000244140625,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 0.0014017806038820327,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": false,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 0,
+            "boundary_finite": true,
+            "finite": true,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0,
+            "physical_collocation_max": 0.007110524835287864,
+            "complete_boundary_max": 9.605036600382432e-08,
+            "constant_collocation_max": 0.0
+          },
+          "actual_fixed_weight_merit": 44.44596646510887,
+          "actual_merit_reduction": 0.0014028649288135853,
+          "actual_to_predicted_ratio": 1.0007735339813875,
+          "complete_original_RMS_query_domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 0,
+            "boundary_finite": true,
+            "finite": false,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0,
+            "physical_collocation_max": 0.007110524835287864,
+            "complete_boundary_max": 9.605036600382432e-08,
+            "constant_collocation_max": 0.0,
+            "original_RMS_query_domain_failures": 1,
+            "original_RMS_query_checks": [
+              {
+                "fraction": 0.17267316464601146,
+                "points": 698,
+                "invalid_count": 1,
+                "first_invalid_points": [
+                  {
+                    "interval": 473,
+                    "left": 1.1993469629899143,
+                    "right": 1.2043314144896742,
+                    "s": 1.2002076440044023,
+                    "a": 1.1899847955223861,
+                    "ap": -0.14863126227800036,
+                    "app": -2.472231719360121,
+                    "minimum_beta_squared": -0.0526347185713929,
+                    "phi": 0.0,
+                    "curve_curvature_at_minimum": 0.1217390500823063,
+                    "scalar_parameters": [
+                      -1.1825889744579197e-19,
+                      3.2697005060776754e-20,
+                      -9.632049480075956e-20
+                    ]
+                  }
+                ]
+              },
+              {
+                "fraction": 0.8273268353539885,
+                "points": 698,
+                "invalid_count": 0,
+                "first_invalid_points": []
+              }
+            ]
+          }
+        },
+        {
+          "alpha": 0.0001220703125,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 0.0007009201127395324,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": false,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 0,
+            "boundary_finite": true,
+            "finite": true,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0,
+            "physical_collocation_max": 0.007110537886372583,
+            "complete_boundary_max": 9.606214105648966e-08,
+            "constant_collocation_max": 0.0
+          },
+          "actual_fixed_weight_merit": 44.44666823479592,
+          "actual_merit_reduction": 0.0007010952417587646,
+          "actual_to_predicted_ratio": 1.0002498558909199,
+          "complete_original_RMS_query_domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 0,
+            "boundary_finite": true,
+            "finite": false,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0,
+            "physical_collocation_max": 0.007110537886372583,
+            "complete_boundary_max": 9.606214105648966e-08,
+            "constant_collocation_max": 0.0,
+            "original_RMS_query_domain_failures": 1,
+            "original_RMS_query_checks": [
+              {
+                "fraction": 0.17267316464601146,
+                "points": 698,
+                "invalid_count": 1,
+                "first_invalid_points": [
+                  {
+                    "interval": 473,
+                    "left": 1.1993469629899143,
+                    "right": 1.2043314144896742,
+                    "s": 1.2002076440044023,
+                    "a": 1.1899847955223861,
+                    "ap": -0.14863126227800036,
+                    "app": -2.472231719360121,
+                    "minimum_beta_squared": -0.021323972899528254,
+                    "phi": 0.0,
+                    "curve_curvature_at_minimum": 0.12359104112416393,
+                    "scalar_parameters": [
+                      -9.682710575503997e-20,
+                      2.678337335283639e-20,
+                      -8.58997475421273e-20
+                    ]
+                  }
+                ]
+              },
+              {
+                "fraction": 0.8273268353539885,
+                "points": 698,
+                "invalid_count": 0,
+                "first_invalid_points": []
+              }
+            ]
+          }
+        },
+        {
+          "alpha": 6.103515625e-05,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 0.0003504675090693952,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": false,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 0,
+            "boundary_finite": true,
+            "finite": true,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0,
+            "physical_collocation_max": 0.007110544412147196,
+            "complete_boundary_max": 9.606802627930854e-08,
+            "constant_collocation_max": 0.0
+          },
+          "actual_fixed_weight_merit": 44.44701883060191,
+          "actual_merit_reduction": 0.00035049943576836995,
+          "actual_to_predicted_ratio": 1.0000910974573922,
+          "complete_original_RMS_query_domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 0,
+            "boundary_finite": true,
+            "finite": false,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0,
+            "physical_collocation_max": 0.007110544412147196,
+            "complete_boundary_max": 9.606802627930854e-08,
+            "constant_collocation_max": 0.0,
+            "original_RMS_query_domain_failures": 1,
+            "original_RMS_query_checks": [
+              {
+                "fraction": 0.17267316464601146,
+                "points": 698,
+                "invalid_count": 1,
+                "first_invalid_points": [
+                  {
+                    "interval": 473,
+                    "left": 1.1993469629899143,
+                    "right": 1.2043314144896742,
+                    "s": 1.2002076440044023,
+                    "a": 1.1899847955223861,
+                    "ap": -0.14863126227800036,
+                    "app": -2.472231719360121,
+                    "minimum_beta_squared": -0.004695716326368338,
+                    "phi": 0.0,
+                    "curve_curvature_at_minimum": 0.1246095932527728,
+                    "scalar_parameters": [
+                      -8.611120990966397e-20,
+                      2.3826557498866205e-20,
+                      -8.068937391281118e-20
+                    ]
+                  }
+                ]
+              },
+              {
+                "fraction": 0.8273268353539885,
+                "points": 698,
+                "invalid_count": 0,
+                "first_invalid_points": []
+              }
+            ]
+          }
+        },
+        {
+          "alpha": 3.0517578125e-05,
+          "actual_model_slope": -5.742181773623692,
+          "predicted_unregularized_merit_reduction": 0.00017523561770960483,
+          "damping_penalty_not_in_actual_merit": true,
+          "accepted": true,
+          "domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 0,
+            "boundary_finite": true,
+            "finite": true,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0,
+            "physical_collocation_max": 0.00711054767509256,
+            "complete_boundary_max": 9.607097291054612e-08,
+            "constant_collocation_max": 0.0
+          },
+          "actual_fixed_weight_merit": 44.44719408791289,
+          "actual_merit_reduction": 0.00017524212479003154,
+          "actual_to_predicted_ratio": 1.0000371333209068,
+          "complete_original_RMS_query_domain": {
+            "node_domain_failures": 0,
+            "midpoint_domain_failures": 0,
+            "boundary_finite": true,
+            "finite": true,
+            "original_uniform_phi_rho_guard_valid": true,
+            "original_rho_guard_angles": 4096,
+            "original_uniform_phi_rho_min": 0.16604058243274977,
+            "boundary_domain_error": null,
+            "complete_trial_RHS_recomputed": true,
+            "all_core_states_identical": true,
+            "all_control_states_identical": true,
+            "left_residual_max": 0.0,
+            "physical_collocation_max": 0.00711054767509256,
+            "complete_boundary_max": 9.607097291054612e-08,
+            "constant_collocation_max": 0.0,
+            "original_RMS_query_domain_failures": 0,
+            "original_RMS_query_checks": [
+              {
+                "fraction": 0.17267316464601146,
+                "points": 698,
+                "invalid_count": 0,
+                "first_invalid_points": []
+              },
+              {
+                "fraction": 0.8273268353539885,
+                "points": 698,
+                "invalid_count": 0,
+                "first_invalid_points": []
+              }
+            ]
+          },
+          "independent_actual_directional_check": {
+            "levels": [
+              {
+                "step": 9.5367431640625e-07,
+                "finite": true,
+                "weighted_directional_absolute_L2_error": 0.0020483049490648206,
+                "weighted_directional_relative_L2_error": 0.0010240068651341113,
+                "independently_evaluated_merit_slope": -5.742185980081558
+              },
+              {
+                "step": 4.76837158203125e-07,
+                "finite": true,
+                "weighted_directional_absolute_L2_error": 0.0032582194821303037,
+                "weighted_directional_relative_L2_error": 0.001628878121560187,
+                "independently_evaluated_merit_slope": -5.742179691791534
+              },
+              {
+                "step": 2.384185791015625e-07,
+                "finite": true,
+                "weighted_directional_absolute_L2_error": 0.006281004714418261,
+                "weighted_directional_relative_L2_error": 0.003140055854691233,
+                "independently_evaluated_merit_slope": -5.74217577278614
+              }
+            ],
+            "current_weights_held_fixed": true,
+            "real_full_RHS_and_boundary_recomputed": true,
+            "scientific_acceptance_claimed": false
+          }
+        }
+      ]
+    }
+  ],
+  "accepted": true,
+  "complete_operator_verification": {
+    "complete_adjoint_checks": [
+      {
+        "kind": "all",
+        "forward_dual": -759739256.5092827,
+        "adjoint_dual": -759739256.5092826,
+        "normwise_adjoint_error": 2.654930340548052e-19
+      },
+      {
+        "kind": "global-core-and-controls",
+        "forward_dual": 8.27347965564559,
+        "adjoint_dual": 8.273479655645605,
+        "normwise_adjoint_error": 1.7048598339777894e-24
+      },
+      {
+        "kind": "first-last-physical",
+        "forward_dual": -612237852.2663574,
+        "adjoint_dual": -612237852.2663577,
+        "normwise_adjoint_error": 5.691984665961573e-19
+      }
+    ],
+    "original_augmented_vs_exact_coordinate_action_relative_errors": [
+      1.1102230246251565e-16,
+      1.3270634591222574e-16,
+      5.819137203538381e-16,
+      1.4343834991678064e-16
+    ],
+    "independent_original_nonlinear_collocation_complex_direction_relative_error": 8.673617379884035e-19,
+    "independent_physical_direction_threshold": 5e-05,
+    "physical_complex_direction_includes_actual_nonlinear_midpoint": true,
+    "independent_direction_scope": "Only all free inlet core and global controls; interior physical coordinates zero",
+    "implementation_check_passed": true,
+    "verification_threshold": 5e-12,
+    "no_native_tail_called": true,
+    "no_scientific_acceptance_claim": true
+  },
+  "weighted_column_norm_minmax": [
+    0.007788059044306017,
+    74620159.63334356
+  ]
+}

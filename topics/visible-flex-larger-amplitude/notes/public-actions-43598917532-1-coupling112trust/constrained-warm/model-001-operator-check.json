@@ -1,0 +1,36 @@
+{
+  "complete_adjoint_checks": [
+    {
+      "kind": "all",
+      "forward_dual": -759739256.5092827,
+      "adjoint_dual": -759739256.5092826,
+      "normwise_adjoint_error": 2.654930340548052e-19
+    },
+    {
+      "kind": "global-core-and-controls",
+      "forward_dual": 8.27347965564559,
+      "adjoint_dual": 8.273479655645605,
+      "normwise_adjoint_error": 1.7048598339777894e-24
+    },
+    {
+      "kind": "first-last-physical",
+      "forward_dual": -612237852.2663574,
+      "adjoint_dual": -612237852.2663577,
+      "normwise_adjoint_error": 5.691984665961573e-19
+    }
+  ],
+  "original_augmented_vs_exact_coordinate_action_relative_errors": [
+    1.1102230246251565e-16,
+    1.3270634591222574e-16,
+    5.819137203538381e-16,
+    1.4343834991678064e-16
+  ],
+  "independent_original_nonlinear_collocation_complex_direction_relative_error": 8.673617379884035e-19,
+  "independent_physical_direction_threshold": 5e-05,
+  "physical_complex_direction_includes_actual_nonlinear_midpoint": true,
+  "independent_direction_scope": "Only all free inlet core and global controls; interior physical coordinates zero",
+  "implementation_check_passed": true,
+  "verification_threshold": 5e-12,
+  "no_native_tail_called": true,
+  "no_scientific_acceptance_claim": true
+}
