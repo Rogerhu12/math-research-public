@@ -1,0 +1,70 @@
+{
+  "result": "R710-next-original-Abel-pair",
+  "source_commit": "adfe2b74b2e7ff6e6d668ec28b97f02ca719a6fd",
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43589720709",
+  "complete": true,
+  "computed_now": true,
+  "reused_from": null,
+  "differential_equation_or_window_repeated": false,
+  "arithmetic_source_sha256": "3911788be295069bb32a6b2adcc114296820e6adee227d6308d29914b9d5030c",
+  "wrapper_source_sha256": "31b319e15d386af0a7ea8a5042279a30e4f8042d24ba669c53ca469885a102a9",
+  "publisher_source_sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+  "workflow_source_sha256": "d33fa6117a760da4f1a08af3212679f1bb736d99a45683f9820bf680ee3a7672",
+  "request_sha256": "3ccce9ef7f785f501c3fc0b401c85084afbbdee75e20d7f606c9fdf30f6a0119",
+  "original_certificate_sha256": "54fcc49e58f9f53eaf459d2c59379578ed64281874dede30d097e69c115afc05",
+  "root_readme_sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "process_exit_code": 0,
+  "certificate": "R710-next-actual-Abel-pair-137147.json",
+  "certificate_sha256": "6196cccfafd2c7f117d1f3e2ecabf02c584cb1a89b49215a0a8d462a6bdcd5f6",
+  "actual_rows": [
+    {
+      "weight": 137147,
+      "derivative_order": 137146,
+      "section": "x_sigma6",
+      "coefficient_index": 22857,
+      "section_coefficient": 103259,
+      "ordinary_factorial": 137146,
+      "A": 103259,
+      "C": 80155
+    },
+    {
+      "weight": 137144,
+      "derivative_order": 137143,
+      "section": "minus_xy_sigma6",
+      "coefficient_index": 22857,
+      "section_coefficient": 0,
+      "ordinary_factorial": 22858,
+      "A": 0,
+      "C": 0
+    },
+    {
+      "weight": 137141,
+      "derivative_order": 137140,
+      "section": "x_sigma6",
+      "coefficient_index": 22856,
+      "section_coefficient": 36306,
+      "ordinary_factorial": 15810,
+      "A": 110121,
+      "C": 117309
+    },
+    {
+      "weight": 137138,
+      "derivative_order": 137137,
+      "section": "minus_xy_sigma6",
+      "coefficient_index": 22856,
+      "section_coefficient": 25244,
+      "ordinary_factorial": 47317,
+      "A": 92058,
+      "C": 122674
+    }
+  ],
+  "implication_using_R705": {
+    "actual_M8_valuation": -7,
+    "actual_common_Abel_first_order_upper_bound": 3,
+    "first_order_equal_to_3_claimed": false,
+    "height_first_jet_claimed": false
+  },
+  "public_result_matches_development_bytes": true,
+  "finished_at_utc": "2026-11-14T11:22:38.506856+00:00"
+}

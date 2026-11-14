@@ -1,0 +1,61 @@
+{
+  "result": "R710-next-actual-Abel-pair-at-first-exception",
+  "prime": 137147,
+  "input_gzip_sha256": "54fcc49e58f9f53eaf459d2c59379578ed64281874dede30d097e69c115afc05",
+  "input_source_commit": "fdb4c969bfd5f3e3a3e921875d1f10f34e52b5ba",
+  "source_sha256": "3911788be295069bb32a6b2adcc114296820e6adee227d6308d29914b9d5030c",
+  "original_arrays_and_full_energy_equation_checked": true,
+  "differential_equation_or_window_repeated": false,
+  "rows": [
+    {
+      "weight": 137147,
+      "derivative_order": 137146,
+      "section": "x_sigma6",
+      "coefficient_index": 22857,
+      "section_coefficient": 103259,
+      "ordinary_factorial": 137146,
+      "A": 103259,
+      "C": 80155
+    },
+    {
+      "weight": 137144,
+      "derivative_order": 137143,
+      "section": "minus_xy_sigma6",
+      "coefficient_index": 22857,
+      "section_coefficient": 0,
+      "ordinary_factorial": 22858,
+      "A": 0,
+      "C": 0
+    },
+    {
+      "weight": 137141,
+      "derivative_order": 137140,
+      "section": "x_sigma6",
+      "coefficient_index": 22856,
+      "section_coefficient": 36306,
+      "ordinary_factorial": 15810,
+      "A": 110121,
+      "C": 117309
+    },
+    {
+      "weight": 137138,
+      "derivative_order": 137137,
+      "section": "minus_xy_sigma6",
+      "coefficient_index": 22856,
+      "section_coefficient": 25244,
+      "ordinary_factorial": 47317,
+      "A": 92058,
+      "C": 122674
+    }
+  ],
+  "final_convolution_summands_sha256": {
+    "F": "2a2908ce9a5f311d239604686e50486230dd24a9cb08b90e93e43012b427d0e6",
+    "G": "ae90426db3a008ffda27d10525bb95b5bfdd40f60a75b350ad80d43ec543888e"
+  },
+  "implication_using_R705": {
+    "actual_M8_valuation": -7,
+    "actual_common_Abel_first_order_upper_bound": 3,
+    "first_order_equal_to_3_claimed": false,
+    "height_first_jet_claimed": false
+  }
+}
