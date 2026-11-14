@@ -2,6 +2,7 @@
 
 ## 新增结论
 
+- [R237](results/R237-accepted-M96-core-global-certificate.md)（已证明，实际M96全部核心的全角证书）：把实际96个binary64系数完整转有理数，含前32舍入差；全角rho> .1661159399427858、轴向见证距离恰G≈.9599999999970447、核心直径<2.828235152136，材料角解析可逆。开放前缀球排除及全闭条件仍未完成。
 - [R236](results/R236-scaled-full-core-and-witness-ball-control.md)（已证明，完整核心放大与条件性球外控制）：全32系数正倍缩放保持全角极值并给λ=6/5准确核心预算；固定γ的二阶球barrier及实际投影加速度仿射区间完整证明。实际旧入口已遮挡.96球，不能据核心当整面幅度。
 
 - [R235](results/R235-actual-curvature-control-and-fixed-metric-rounding.md)（逐角代数命题已证明，开放前缀有真实同g三档结果）：实际II对a″仿射，Schur补准确给曲率允许区间，barrier导数给点域控制；冻结原32核及84个scalar节点后M64/96/128误差2.34557e−5→1.35400e−6→1.43005e−7。角采样非连续认证，未闭合。
