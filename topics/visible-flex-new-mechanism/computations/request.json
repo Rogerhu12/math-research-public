@@ -1,23 +1,22 @@
 {
-  "request": "actual-nested-word-target-and-local-third-bridge-decomposition",
-  "created_at": "2026-11-14 19:04:03 UTC",
+  "request": "repair-shared-short-grid-provenance-and-input-failure-checkpoint",
+  "created_at": "2026-11-14 19:07:01 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "p1_word_exact",
-    "local_third_exact"
+    "height_polytope_development"
   ],
-  "development_run": 43629844644,
-  "development_source": "6eceaa9009bf0df900c5bed4aa038cc51e34e527",
-  "development_lane": "higher_range_development",
-  "development_lane_passed": true,
-  "whole_parent_workflow_conclusion": "failure_due_to_separate_height_input_replay",
-  "word_checks_passed": 13,
-  "local_third_toy_checks_passed": 6,
-  "height_actual_not_repeated_in_this_request": true,
-  "word_target_is_original_pure_bulk_and_28_actual_responses": true,
-  "local_third_reachable_columns_claimed": false,
-  "local_third_exact_profile_witness_only_in_Actions": true,
-  "limits_seconds_per_lane": 240,
-  "limits_RSS_polling_mib_per_lane": 2048,
+  "source_sha256": {
+    "frame_height_polytope.py": "6babe655e5d2ae48a54a4b2dad24685c433bd0d8ea902e231ffe0a64cd0afd8c",
+    "frame_height_polytope_audit.py": "b43189a3cfc82ca8569f6f28469946ef2ac03605c4b2bd0eecebe1385476a502"
+  },
+  "failed_actual_run": 43629844644,
+  "failed_actual_source": "6eceaa9009bf0df900c5bed4aa038cc51e34e527",
+  "failed_before_LP_QP": true,
+  "repair": "replay original paired shared grid, validate each model provenance, compare all coordinates and remaining rules",
+  "do_not_drop_original_state_or_input_checks": true,
+  "new_failure_JSON_paths_checked": true,
+  "actual_height_stage_requested": false,
+  "unchanged_height_mathematics_and_boxes": true,
+  "other_actual_run_completed": 43630157008,
   "task_complete": false
 }

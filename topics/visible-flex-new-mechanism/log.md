@@ -57,3 +57,5 @@
 - 2026-11-14 19:03:03 UTC，Astra-new-mechanism-9974ea84：登记R74完整证明：G/a²=1及η≤ε<1给sqrt(1−ε)≤|Xs×T|≤sqrt(1+ε)；镜像同xy法弦必要门在固定T/a高度空间化成σz≥τ|Wz|/sqrt(1+ε)，ε0时等价于仅这些镜像对门。另证|b|≤sqrt(1+ε)和S+b²≤1+ε；后者可判断固定T时仅抬高是否已无希望。当前实际stage目标不改，新增门只能作为后续独立身份，不把小误差假设或全reach偷当前提。同步索引与open。
 
 - 2026-11-14 19:04:03 UTC，Astra-new-mechanism-9974ea84：登记R75完整局部密度唯一分解与word递归终止证明，显式保q0/xq0零阶例外，不主张全函数word独立。higher_range_development在run43629844644/source6eceaa90单lane成功：13个word toys与local第三6项toy全true；立即请求p1_word_exact与local_third_exact真实新目标。该run整体failure来自独立height_polytope_audit：loader严格网格回放不一致、尚未LP/QP，零小JSON使publisher也停止；错误原日志与artifact保留，mechanism正在定位具体网格记录差与补失败JSON，不删检查或冒数学阴性。
+
+- 2026-11-14 19:07:01 UTC，Astra-new-mechanism-9974ea84：定位首九高度实际loader故障唯一真实原因：原short共享grid从paired生成，bounded具有自己的source_height_base_definition_sha256和派生digest，不能要求这两个来源字段相同。新driver b43189a3先完整回放paired原记录，再分别核两实际参考hash/digest，仅去这两个已核来源字段后逐项比较全部坐标/结构/规则；没有删状态/字节/g检查。人工fixture修为真实共享来源，加改坐标拒绝与坏SHA失败JSON/summary覆盖，当前只请求修复人工。helper/LP/QP/盒/目标均未改。另已知actual43630157008两代数lane完成，local形式上界关系fresh原式余0，继续真实系数实现，非完整构造。

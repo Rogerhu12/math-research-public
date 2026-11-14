@@ -5,7 +5,7 @@
 新文件：
 
 - `scripts/frame_height_polytope.py`：17617 字节，SHA256 `6babe655e5d2ae48a54a4b2dad24685c433bd0d8ea902e231ffe0a64cd0afd8c`。
-- `scripts/frame_height_polytope_audit.py`：22504 字节，SHA256 `4e6fdead623d1431bcd843d1f7451f5e18bc26bbc0f6d313eab540e4281ed403`。
+- `scripts/frame_height_polytope_audit.py`：28426 字节，SHA256 `b43189a3cfc82ca8569f6f28469946ef2ac03605c4b2bd0eecebe1385476a502`。
 
 本地只做源码 AST 语法检查和公开 JSON 的读取解析；没有重新评价任何真实候选几何或运行研究优化。
 
@@ -197,3 +197,20 @@ python topics/visible-flex-new-mechanism/scripts/frame_height_polytope_audit.py 
 ## 8. 首次公开人工通过并启用唯一实际stage
 
 run43629562872/source46d6140c已success。已知两变量QP误差3.33e−16，角约束压缩与完整角集合差0；人工完整replay一步的六jet最大差7.41e−16，坏状态/gzip/summary/真实guard检查全部通过。不是实际曲面优化。现据此仅请求一次bounded_short真实height_polytope_audit，原输入/原盒/固定T/a/g不变；最多一LP一距离QP，最终完整重构和384→768同态检查。
+
+## 9. 首次实际输入回放失败与准确修复
+
+公开 run43629844644/source6eceaa9009bf0df900c5bed4aa038cc51e34e527 在输入 loader 处失败，未进入 LP、候选 geometry 或任何参数步骤。前面的三输入字节、完整状态和固定 $g$ 回放已经通过；失败是把所选 bounded 模型重建的网格**全部元数据**与原共享网格直接比较。
+
+原 short driver 先以 paired 模型构造一个共享网格，再用同一网格评价 paired 和 bounded。网格的 `structural_partition.source_height_base_definition_sha256` 因而绑定 paired 的不可变高度参考。bounded 的准确坐标、构造断点与采样规则相同，但它自己的高度参考 hash 不同；这个字段还会改变外层 `definition_sha256`。这是可定位的 provenance 差异，不是重新选择采样点的理由。
+
+本次修复保留严格检查：
+
+1. 先按原 driver 的真实顺序重建 paired 网格，与公开网格完整字典逐项相等。
+2. 再重建所选模型的网格，分别核两个网格自己的 digest 以及各自实际不可变高度参考 hash。
+3. 只有这两个已解释的字段可以不同：高度参考来源 hash 及其派生网格 digest；删除这两项后，准确节点、全部结构来源和所有采样规则必须完整相等。
+4. 回执同时记录两个完整网格 hash、原共享网格所有者及准确坐标相同的结论，不篡改原公开 provenance。
+
+人工 fixture 已改为与实际相同的“paired 建网格、bounded 使用”路径；增加准确节点篡改拒绝、输入 loader 失败仍写出小 JSON 与绑定 summary 的覆盖。每个输入阶段都记录已通过的 raw SHA，异常报告明确声明 geometry/LP/QP 尚未启动。首次失败的日志与原人工回执全部保留，不能把旧人工通过当成已覆盖这条新路径。
+
+修后源码为 28426 字节、SHA256 `b43189a3cfc82ca8569f6f28469946ef2ac03605c4b2bd0eecebe1385476a502`。本次只有 AST 语法检查；新人工路径尚待公开 Actions 实际回执。线性多面体、LP、QP、目标、系数盒和所有几何公式均未改变。

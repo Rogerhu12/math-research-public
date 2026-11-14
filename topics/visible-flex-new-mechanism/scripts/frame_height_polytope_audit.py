@@ -75,8 +75,31 @@ def load_short_model(original,anchor_bytes,short,selected_sha,anchor_sha,case,*,
         raise ValueError('chosen short field canonical state, coefficients, g or evaluation replay differs')
     if problem.metric_model(current)!=short['selected_original_fixed_metric']:
         raise ValueError('chosen short field does not retain the published complete g')
-    t,theta,grid=build_grid(problem,cfg['radial_nodes'],cfg['collar_subdivisions'],cfg['angular_nodes'])
-    if grid!=short['sampling_grid']:raise ValueError('published exact short audit grid replay differs')
+    # The published two-case driver constructs one shared grid from paired
+    # before evaluating either case. Replay that full provenance first.
+    _,_,published_grid=build_grid(paired,cfg['radial_nodes'],cfg['collar_subdivisions'],cfg['angular_nodes'])
+    if published_grid!=short['sampling_grid']:
+        raise ValueError('published paired-source exact short audit grid replay differs')
+    _,_,selected_grid=build_grid(problem,cfg['radial_nodes'],cfg['collar_subdivisions'],cfg['angular_nodes'])
+    for candidate,owner in [(published_grid,paired),(selected_grid,problem)]:
+        unhashed=copy.deepcopy(candidate);claimed=unhashed.pop('definition_sha256')
+        if digest(unhashed)!=claimed:raise ValueError('sampling definition digest mismatch')
+        if candidate['structural_partition']['source_height_base_definition_sha256']!=digest(owner.height_base_definition):
+            raise ValueError('sampling height-reference provenance mismatch')
+    def coordinate_structure(grid):
+        value=copy.deepcopy(grid)
+        value.pop('definition_sha256')
+        value['structural_partition'].pop('source_height_base_definition_sha256')
+        return value
+    if coordinate_structure(selected_grid)!=coordinate_structure(published_grid):
+        raise ValueError('chosen model changed an exact node, structural source or sampling rule')
+    receipt['sampling_replay']={
+        'original_shared_grid_owner':'paired_short, as in the published two-case driver',
+        'published_complete_grid_definition_sha256':published_grid['definition_sha256'],
+        'selected_model_grid_definition_sha256':selected_grid['definition_sha256'],
+        'all_exact_nodes_structural_sources_and_sampling_rules_equal':True,
+        'only_height_reference_provenance_and_its_derived_grid_digest_may_differ':True,
+        'both_reference_hashes_checked_against_their_actual_immutable_models':True}
     receipt.update(selected_report_sha256=selected_sha,original_c0_report_sha256=anchor_sha,
         chosen_short_case=case,chosen_short_field_sha256=digest(problem.identity(current)),
         original_c0_not_replaced_by_the_short_selected_state=True,
@@ -265,7 +288,7 @@ def artificial_check():
     pair=EntryRepairProblem(base,state,source_cfg['entry_length'],entry_mean_nodes=32,
         uniform_panels=8,primitive_order=3)
     bounded=BoundedEntryHeightProblem(pair,state,uniform_panels=8,primitive_order=3)
-    _,_,grid=build_grid(bounded,9,6,16)
+    _,_,grid=build_grid(pair,9,6,16)
     short={'schema':'short-entry-paired-bounded-one-height-step-audit-v1',
         'status':'complete-two-initial-fields-and-at-most-one-height-step-each',
         'source_files_sha256':short_hashes(),'source_receipt':receipt,
@@ -279,8 +302,15 @@ def artificial_check():
         selected_sha=hashlib.sha256(selected_bytes).hexdigest();anchor_sha=hashlib.sha256(anchor).hexdigest()
         original,_,_=read_input(selected_path,selected_sha)
         decoded,_,_=read_input(short_path,hashlib.sha256(short_raw).hexdigest())
-        problem,current,replay,cfg=load_short_model(original,anchor,decoded,selected_sha,anchor_sha,
-            'bounded_short',artificial=True)
+        args=argparse.Namespace(input=selected_path,anchor_input=anchor_path,short_audit=short_path,
+            expected_input_sha256=selected_sha,expected_anchor_sha256=anchor_sha,
+            expected_short_sha256=hashlib.sha256(short_raw).hexdigest(),case='bounded_short',
+            height_lower='-1',height_upper='1',minimum_signed_height='0',tau='61/1000',
+            height_margin='1/1000',out=tmp/'input.json')
+        problem,current,replay,cfg,stage_cfg=prepare_run(args,artificial=True)
+        shared_provenance=(replay['sampling_replay']['all_exact_nodes_structural_sources_and_sampling_rules_equal']
+            and replay['sampling_replay']['published_complete_grid_definition_sha256']
+                !=replay['sampling_replay']['selected_model_grid_definition_sha256'])
         # The geometry is artificial; relaxed screen values force the apply/rebuild path.
         t,theta,_=build_grid(problem,9,6,16)
         data=problem.geometry(current,t,theta,3);h=problem.port.side*float(data['center'][-1])
@@ -292,6 +322,16 @@ def artificial_check():
         wrong=copy.deepcopy(decoded);wrong['cases']['bounded_short']['final_state']['canonical_physical_state_sha256']='0'*64
         try:load_short_model(original,anchor,wrong,selected_sha,anchor_sha,'bounded_short',artificial=True);reject=False
         except ValueError:reject=True
+        tampered=copy.deepcopy(decoded);tampered['sampling_grid']['radial_nodes_exact'][1]='1/999'
+        try:load_short_model(original,anchor,tampered,selected_sha,anchor_sha,'bounded_short',artificial=True);nodes_rejected=False
+        except ValueError:nodes_rejected=True
+        bad_args=copy.copy(args);bad_args.expected_short_sha256='0'*64;bad_args.out=tmp/'rejected-input.json'
+        try:prepare_run(bad_args,artificial=True);failure_saved=False
+        except InputReplayFailure:
+            fail=json.loads(bad_args.out.read_text());small=json.loads(summary_path(bad_args.out).read_text())
+            failure_saved=(fail['phase']=='short-report-byte-binding'
+                and fail['candidate_geometry_evaluation_started'] is False and fail['lp_calls']==0
+                and small['full_report']['sha256']==hashlib.sha256(bad_args.out.read_bytes()).hexdigest())
         guarded=False
         try:require_public_actions('false','Rogerhu12/math-research-public',[])
         except ValueError:guarded=True
@@ -300,15 +340,73 @@ def artificial_check():
             and max(errors.values())<1e-8 and answer['full_reconstruction_checks']['T_samples_bitwise_unchanged']
             and answer['full_reconstruction_checks']['independent_reconstruction_passes_declared_sample_tolerances']
             and answer['height_stage']['lp_calls']==1 and answer['height_stage']['qp_calls']==1
-            and answer['joint_metric_solver_calls']==0 and reject and guarded and same_binding)
+            and answer['joint_metric_solver_calls']==0 and reject and guarded and same_binding
+            and shared_provenance and nodes_rejected and failure_saved)
         return {'schema':'height-polytope-full-path-artificial-check-v1',
             'artificial_inputs_only':True,'research_geometry_evaluated':False,
             'helper_check':helper,'complete_position_two_jet_finite_change_errors':errors,
             'complete_short_canonical_state_replay_and_bad_state_rejection':reject,
             'gzip_decoded_byte_identity_check':True,'full_summary_binding':same_binding,
+            'published_paired_grid_replays_bounded_coordinates_with_distinct_reference_provenance':shared_provenance,
+            'modified_exact_sampling_coordinate_rejected':nodes_rejected,
+            'input_loader_failure_preserves_small_JSON_and_bound_summary':failure_saved,
             'public_Actions_guard_rejection':guarded,'no_Actions_environment_forged':True,
             'one_LP_one_QP_then_full_geometry_no_joint_solve':True,'passed':passed}
 
+
+
+class InputReplayFailure(RuntimeError):
+    pass
+
+
+def prepare_run(args,*,artificial=False):
+    """Full input path; every pre-geometry failure gets a bounded JSON receipt."""
+    phase='public-repository-and-path-guard';bindings={}
+    try:
+        if any(x is None for x in [args.input,args.anchor_input,args.short_audit]):
+            raise ValueError('selected report, original c0 and completed short report are required')
+        if not artificial:
+            require_public_actions(os.environ.get('GITHUB_ACTIONS'),os.environ.get('GITHUB_REPOSITORY'),
+                [args.input,args.anchor_input,args.short_audit])
+        phase='selected-input-byte-binding'
+        original,_,bindings['selected']=read_input(args.input,args.expected_input_sha256)
+        phase='original-c0-byte-binding'
+        _,anchor,bindings['original_c0']=read_input(args.anchor_input,args.expected_anchor_sha256)
+        phase='short-report-byte-binding'
+        short,_,bindings['short']=read_input(args.short_audit,args.expected_short_sha256)
+        phase='complete-state-metric-and-shared-sampling-replay'
+        problem,state,receipt,source_cfg=load_short_model(original,anchor,short,
+            bindings['selected']['decoded_sha256'],bindings['original_c0']['decoded_sha256'],
+            args.case,artificial=artificial)
+        receipt['exact_input_storage']=bindings
+        phase='height-stage-configuration'
+        cfg=stage_configuration()
+        cfg.update(height_coefficient_lower=str(Q(args.height_lower)),height_coefficient_upper=str(Q(args.height_upper)),
+            minimum_signed_height=str(Q(args.minimum_signed_height)),tau=str(Q(args.tau)),height_margin=str(Q(args.height_margin)))
+        if Q(cfg['height_coefficient_lower'])>=Q(cfg['height_coefficient_upper']):
+            raise ValueError('strict coefficient box required')
+        if Q(cfg['tau'])<=0 or Q(cfg['height_margin'])<0:
+            raise ValueError('invalid declared reach target or margin')
+        return problem,state,receipt,source_cfg,cfg
+    except Exception as error:
+        failure={'schema':'height-polytope-input-replay-failure-v1',
+            'status':'input-validation-failed-before-candidate-geometry-or-LP',
+            'phase':phase,'error':{'type':type(error).__name__,'message':str(error)},
+            'github_sha':os.environ.get('GITHUB_SHA'),'github_run_id':os.environ.get('GITHUB_RUN_ID'),
+            'github_repository':os.environ.get('GITHUB_REPOSITORY'),
+            'source_files_sha256':implementation_hashes(),
+            'input_paths':{key:str(getattr(args,key,None)) for key in ['input','anchor_input','short_audit']},
+            'expected_decoded_sha256':{key:getattr(args,key,None) for key in [
+                'expected_input_sha256','expected_anchor_sha256','expected_short_sha256']},
+            'verified_input_storage_before_failure':bindings,'case':args.case,
+            'artificial_inputs_only':bool(artificial),'candidate_geometry_evaluation_started':False,
+            'lp_calls':0,'qp_calls':0,'parameter_step_applied':False,
+            'task_complete':False,'embedding_proved':False,'whole_surface_reach_proved':False}
+        atomic_save(args.out,failure)
+        raw=Path(args.out).read_bytes();summary=copy.deepcopy(failure)
+        summary['full_report']={'path':str(args.out),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+        atomic_save(summary_path(args.out),summary)
+        raise InputReplayFailure(str(error)) from error
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
@@ -325,22 +423,10 @@ def main():
         atomic_save(args.out,report);print(json.dumps({'out':str(args.out),'passed':report['passed']}),flush=True)
         if not report['passed']:raise SystemExit(1)
         return
-    if any(x is None for x in [args.input,args.anchor_input,args.short_audit]):
-        raise SystemExit('selected report, original c0 and completed short report are required')
-    require_public_actions(os.environ.get('GITHUB_ACTIONS'),os.environ.get('GITHUB_REPOSITORY'),
-        [args.input,args.anchor_input,args.short_audit])
-    original,_,sel_input=read_input(args.input,args.expected_input_sha256)
-    _,anchor,anchor_input=read_input(args.anchor_input,args.expected_anchor_sha256)
-    short,_,short_input=read_input(args.short_audit,args.expected_short_sha256)
-    problem,state,receipt,source_cfg=load_short_model(original,anchor,short,
-        sel_input['decoded_sha256'],anchor_input['decoded_sha256'],args.case)
-    receipt['exact_input_storage']={'selected':sel_input,'original_c0':anchor_input,'short':short_input}
-    cfg=stage_configuration()
-    cfg.update(height_coefficient_lower=str(Q(args.height_lower)),height_coefficient_upper=str(Q(args.height_upper)),
-        minimum_signed_height=str(Q(args.minimum_signed_height)),tau=str(Q(args.tau)),height_margin=str(Q(args.height_margin)))
-    if Q(cfg['height_coefficient_lower'])>=Q(cfg['height_coefficient_upper']):
-        raise ValueError('strict coefficient box required')
-    if Q(cfg['tau'])<=0 or Q(cfg['height_margin'])<0:raise ValueError('invalid declared reach target or margin')
+    try:problem,state,receipt,source_cfg,cfg=prepare_run(args)
+    except InputReplayFailure as error:
+        print(json.dumps({'out':str(args.out),'status':'input-replay-failed','error':str(error)}),flush=True)
+        raise SystemExit(1)
     answer=run_stage(problem,state,source_cfg,receipt,args.out,cfg)
     print(json.dumps({'out':str(args.out),'status':answer['status'],
         'height_step_applied':answer['height_step_applied'],'joint_metric_solver_calls':0}),flush=True)
