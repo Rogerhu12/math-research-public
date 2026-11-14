@@ -1,0 +1,749 @@
+{
+  "schema": "actual-GW-three-node-velocity-consistency-v1",
+  "finished": true,
+  "sources_and_inputs_sha256": {
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43586618658-1-gwcompat/GW-cusp-compatibility/report.json": "d993156b4c876ecb18287464e9f465e78d7e4e65a23f0daae6bdaf8a11b00cab",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43586618658-1-gwcompat/GW-cusp-compatibility/GW-node-and-polynomial-coefficients.npz": "9f7cbb35544521ab352f4ce06cd03966a96c41f4bc63a42bffee42c16ea98cf0",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/2026-11-14-GW-cusp-compatibility-packet/manifest.json": "ef3bd5d5fb05143c109de8875c21424068db5814d9158187950b2f5d132ea75e",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_GW_three_node_velocity_check.py": "0749d89977aa686a31c24318e7ed864d4df98067201b22f2e6426c92ea72206c",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/2026-11-14-GW-cusp-compatibility-packet/rows/coarse-original-node-00226.json": "a2f2c26bbe05e53594853b239aaeeaf179634652f46d7885d02253db9124a5e1",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/2026-11-14-GW-cusp-compatibility-packet/rows/coarse-original-node-00227.json": "0171a5d4c5d2ecd31242f877bceaf720ea665b0f589637a8301888b459c7676e",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/2026-11-14-GW-cusp-compatibility-packet/rows/fine-original-node-00450.json": "7057c5f2e51c07ee753c082e5d8217efa22d9c920ef0f725f7e1fbe24557d30f",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/2026-11-14-GW-cusp-compatibility-packet/rows/fine-original-node-00451.json": "c2644aabb00dd4b6b1ca9ec7df1daaf6a868a227388c4cb3c47b9ac08b376dff",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/2026-11-14-GW-cusp-compatibility-packet/rows/original-background-stage-00450.json": "5a629c1bf6d7ec26ffca97671cfe57ab5f17d61ff9e80fe08941ed2d70fd1bfa"
+  },
+  "original_actions": {
+    "run": 43586618658,
+    "job": 132422438078,
+    "artifact": 14110608098
+  },
+  "profile_fingerprint": "8a87255bf9e025190a1a98ff800859f05f95a94113045a60af9391fcace51d24",
+  "angles": 1024,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "longdouble_mantissa_bits": 63
+  },
+  "numerical_endpoint_mapping": {
+    "A": {
+      "r": 0.2824951623777089,
+      "original_layer": "coarse",
+      "original_rows_index": 227,
+      "original_source_parameter": 0.875,
+      "original_file": "../regular48/nodes/node-00450.f64le.gz",
+      "packet_file": "nodes/b48edd02eaacb835b4438939fc7a3ce9955518111835e84ca327b4c4e6b9601b.f64le.gz",
+      "original_file_sha256": "b48edd02eaacb835b4438939fc7a3ce9955518111835e84ca327b4c4e6b9601b",
+      "original_row_sha256": "0171a5d4c5d2ecd31242f877bceaf720ea665b0f589637a8301888b459c7676e"
+    },
+    "B": {
+      "r": 0.28253279635533834,
+      "original_layer": "fine",
+      "original_rows_index": 451,
+      "original_source_parameter": 0.9375,
+      "original_file": "../regular48/nodes/node-00449.f64le.gz",
+      "packet_file": "nodes/ae805d0479f798e5034ba98a34fb0fa00942059043cf5f6b43bc2dd629d5a7d1.f64le.gz",
+      "original_file_sha256": "ae805d0479f798e5034ba98a34fb0fa00942059043cf5f6b43bc2dd629d5a7d1",
+      "original_row_sha256": "c2644aabb00dd4b6b1ca9ec7df1daaf6a868a227388c4cb3c47b9ac08b376dff"
+    },
+    "C": {
+      "r": 0.282540205662618,
+      "coarse_origin": {
+        "r": 0.282540205662618,
+        "original_layer": "coarse",
+        "original_rows_index": 226,
+        "original_source_parameter": 0.9769532415364806,
+        "original_file": "cusp-stage-28-1.f64le.gz",
+        "packet_file": "nodes/735b2752137972e1417e7eca5ae035eaa5d9b67c73627b8b8019900b142aa347.f64le.gz",
+        "original_file_sha256": "735b2752137972e1417e7eca5ae035eaa5d9b67c73627b8b8019900b142aa347",
+        "original_row_sha256": "a2f2c26bbe05e53594853b239aaeeaf179634652f46d7885d02253db9124a5e1"
+      },
+      "fine_origin": {
+        "r": 0.282540205662618,
+        "original_layer": "fine",
+        "original_rows_index": 450,
+        "original_source_parameter": 0.9769532415364806,
+        "original_file": "cusp-stage-28-1.f64le.gz",
+        "packet_file": "nodes/735b2752137972e1417e7eca5ae035eaa5d9b67c73627b8b8019900b142aa347.f64le.gz",
+        "original_file_sha256": "735b2752137972e1417e7eca5ae035eaa5d9b67c73627b8b8019900b142aa347",
+        "original_row_sha256": "7057c5f2e51c07ee753c082e5d8217efa22d9c920ef0f725f7e1fbe24557d30f"
+      },
+      "all_stored_d_v_a_coefficients_identical": true
+    }
+  },
+  "radii": [
+    0.2824951623777089,
+    0.28253279635533834,
+    0.282540205662618
+  ],
+  "widths": {
+    "AB": 3.763397762945875e-05,
+    "BC": 7.409307279659938e-06,
+    "AC": 4.5043284909118686e-05
+  },
+  "middle_node_normalized_coordinate_in_AC": 0.8355069508227634,
+  "actual_middle_background": {
+    "r": 0.28253279635533834,
+    "w": 0.042059592137818964,
+    "w2": 0.0017690092907996827,
+    "E": 1.0017690092907996,
+    "wr": 7.177766045317068,
+    "drdx": 0.000343946949673109,
+    "dlogwdx": 0.05869697282523484,
+    "x": 0
+  },
+  "residuals": {
+    "coarse_velocity_at_B_minus_actual_saved_velocity": {
+      "coefficient_max_abs": 7.63847739319064e-09,
+      "angular": {
+        "0": {
+          "maximum": 1.1189341714090105e-08,
+          "theta": 3.141592653589793,
+          "vector": [
+            -1.014722131845625e-08,
+            1.667547758509438e-22,
+            4.71542866650996e-09
+          ],
+          "xy_norm_max": 1.0218908606330085e-08,
+          "z_abs_max": 4.71542866650996e-09
+        },
+        "1": {
+          "maximum": 1.7761709693054143e-08,
+          "theta": 5.559146375297564,
+          "vector": [
+            1.133649286625095e-08,
+            -1.0022212391515288e-08,
+            9.301479424969569e-09
+          ],
+          "xy_norm_max": 1.5281776773270663e-08,
+          "z_abs_max": 9.793136997683576e-09
+        },
+        "2": {
+          "maximum": 4.086932643660449e-08,
+          "theta": 0.0,
+          "vector": [
+            -2.9974057051738105e-08,
+            2.2571249210762632e-17,
+            -2.778232796654894e-08
+          ],
+          "xy_norm_max": 3.107955177569381e-08,
+          "z_abs_max": 2.778232796654894e-08
+        }
+      },
+      "theta_zero": [
+        1.0147221318456127e-08,
+        8.656251660760678e-23,
+        4.71542866650996e-09
+      ]
+    },
+    "coarse_velocity_derivative_at_B_minus_GW_acceleration": {
+      "coefficient_max_abs": 0.0007174027895288444,
+      "angular": {
+        "0": {
+          "maximum": 0.001050859122967422,
+          "theta": 3.141592653589793,
+          "vector": [
+            0.0009530230170524019,
+            1.92560144239532e-18,
+            -0.00044277762510338826
+          ],
+          "xy_norm_max": 0.0009597559214132755,
+          "z_abs_max": 0.00044277762510338826
+        },
+        "1": {
+          "maximum": 0.0016680760550496134,
+          "theta": 5.559146375297564,
+          "vector": [
+            -0.001064718939495992,
+            0.0009412822732840797,
+            -0.0008734065418289275
+          ],
+          "xy_norm_max": 0.001435258490051344,
+          "z_abs_max": 0.0009195813959739741
+        },
+        "2": {
+          "maximum": 0.003838099284138693,
+          "theta": 3.141592653589793,
+          "vector": [
+            -0.0028151514187583753,
+            -3.547249226447555e-13,
+            0.002608817472413249
+          ],
+          "xy_norm_max": 0.0029189795679098207,
+          "z_abs_max": 0.002608817472413249
+        }
+      },
+      "theta_zero": [
+        -0.0009530230170523709,
+        -6.459065734364411e-18,
+        -0.00044277762510338826
+      ]
+    },
+    "velocity_only_quadratic_derivative_at_B_minus_GW_acceleration": {
+      "coefficient_max_abs": 0.00012027944599321841,
+      "angular": {
+        "0": {
+          "maximum": 0.0001761097827301445,
+          "theta": 3.141592653589793,
+          "vector": [
+            0.0001597834088267904,
+            1.892415685298151e-17,
+            -7.40534795735451e-05
+          ],
+          "xy_norm_max": 0.00016091235962678642,
+          "z_abs_max": 7.40534795735451e-05
+        },
+        "1": {
+          "maximum": 0.0002794805442434682,
+          "theta": 0.7240389318820226,
+          "vector": [
+            0.00017851031052224593,
+            0.00015781504608164176,
+            0.00014607482629846186
+          ],
+          "xy_norm_max": 0.00024063488696139535,
+          "z_abs_max": 0.00015381575475337952
+        },
+        "2": {
+          "maximum": 0.0006428579621022458,
+          "theta": 3.141592653589793,
+          "vector": [
+            -0.00047198671154239665,
+            -2.822080295547813e-12,
+            0.00043645721848269034
+          ],
+          "xy_norm_max": 0.0004893953910967803,
+          "z_abs_max": 0.00043645721848269034
+        }
+      },
+      "theta_zero": [
+        -0.00015978340882678299,
+        7.121326375251835e-18,
+        -7.40534795735451e-05
+      ]
+    },
+    "secant_AB_minus_GW_acceleration_at_B": {
+      "coefficient_max_abs": 8.226548588488217e-05,
+      "angular": {
+        "0": {
+          "maximum": 0.00013015698662076765,
+          "theta": 0.0,
+          "vector": [
+            0.00010928771906831219,
+            -6.7094956314064585e-18,
+            7.068971372869153e-05
+          ],
+          "xy_norm_max": 0.00011004543354318588,
+          "z_abs_max": 7.068971372869153e-05
+        },
+        "1": {
+          "maximum": 0.00021467094887240334,
+          "theta": 5.577554144752192,
+          "vector": [
+            0.00012333333734741405,
+            -0.00010504659181249771,
+            0.00014084643317139936
+          ],
+          "xy_norm_max": 0.0001645769259664732,
+          "z_abs_max": 0.0001439656170708453
+        },
+        "2": {
+          "maximum": 0.000507741523414929,
+          "theta": 3.141592653589793,
+          "vector": [
+            0.0003228672317044016,
+            5.291505199300993e-14,
+            -0.000391865034535169
+          ],
+          "xy_norm_max": 0.00033465088025788766,
+          "z_abs_max": 0.000391865034535169
+        }
+      },
+      "theta_zero": [
+        0.00010928771906831219,
+        -6.7094956314064585e-18,
+        7.068971372869153e-05
+      ]
+    },
+    "secant_BC_minus_GW_acceleration_at_B": {
+      "coefficient_max_abs": 0.0001601561141731963,
+      "angular": {
+        "0": {
+          "maximum": 0.00023618290136908753,
+          "theta": 0.0,
+          "vector": [
+            -0.00021275763032121482,
+            9.844312799556817e-18,
+            -0.00010255024933768529
+          ],
+          "xy_norm_max": 0.00021425802425945696,
+          "z_abs_max": 0.00010255024933768529
+        },
+        "1": {
+          "maximum": 0.0003762762180690131,
+          "theta": 0.7240389318820226,
+          "vector": [
+            0.00023769294640411655,
+            0.00021013490719928586,
+            0.0002023096050374198
+          ],
+          "xy_norm_max": 0.000320412232426554,
+          "z_abs_max": 0.00021239918366708216
+        },
+        "2": {
+          "maximum": 0.0008685765933362077,
+          "theta": 3.141592653589793,
+          "vector": [
+            -0.0006284760724584994,
+            -3.388104013988044e-12,
+            0.0005995357577648484
+          ],
+          "xy_norm_max": 0.0006516320830893238,
+          "z_abs_max": 0.0005995357577648484
+        }
+      },
+      "theta_zero": [
+        -0.00021275763032121482,
+        9.844312799556817e-18,
+        -0.00010255024933768529
+      ]
+    },
+    "E_AC": {
+      "coefficient_max_abs": 2.6105826335633894e-13,
+      "angular": {
+        "0": {
+          "maximum": 3.824032896590792e-13,
+          "theta": 3.141592653589793,
+          "vector": [
+            3.4679894014334056e-13,
+            3.6307858617602754e-25,
+            -1.6112967156157597e-13
+          ],
+          "xy_norm_max": 3.4924902169420327e-13,
+          "z_abs_max": 1.6112967156157597e-13
+        },
+        "1": {
+          "maximum": 6.070072874182806e-13,
+          "theta": 3.865631585471816,
+          "vector": [
+            -3.874443615916521e-13,
+            -3.4252655256599285e-13,
+            3.178368676491013e-13
+          ],
+          "xy_norm_max": 5.222813268806552e-13,
+          "z_abs_max": 3.346390391682002e-13
+        },
+        "2": {
+          "maximum": 1.396850602335026e-12,
+          "theta": 3.141592653589793,
+          "vector": [
+            -1.0244153125318896e-12,
+            4.136086957554737e-20,
+            9.496130120706615e-13
+          ],
+          "xy_norm_max": 1.062198358640867e-12,
+          "z_abs_max": 9.496130120706615e-13
+        }
+      },
+      "theta_zero": [
+        -3.467989401433024e-13,
+        -5.472340861742859e-25,
+        -1.6112967156157597e-13
+      ]
+    },
+    "E_AB": {
+      "coefficient_max_abs": 2.4589995111545342e-15,
+      "angular": {
+        "0": {
+          "maximum": 3.5972245324394305e-15,
+          "theta": 3.141592653589793,
+          "vector": [
+            3.2666143001610993e-15,
+            3.1975039545266866e-25,
+            -1.5064047765348757e-15
+          ],
+          "xy_norm_max": 3.2897124345719427e-15,
+          "z_abs_max": 1.5064047765348757e-15
+        },
+        "1": {
+          "maximum": 5.705700130122361e-15,
+          "theta": 3.865631585471816,
+          "vector": [
+            -3.6494656188836345e-15,
+            -3.2263755681583437e-15,
+            2.971012515062087e-15
+          ],
+          "xy_norm_max": 4.91954959625478e-15,
+          "z_abs_max": 3.1291168914619135e-15
+        },
+        "2": {
+          "maximum": 1.329527539979388e-14,
+          "theta": 3.117048960983623,
+          "vector": [
+            -9.629785185375997e-15,
+            4.731016881742617e-16,
+            9.154657832629461e-15
+          ],
+          "xy_norm_max": 1.0005575277114438e-14,
+          "z_abs_max": 9.154657832629461e-15
+        }
+      },
+      "theta_zero": [
+        -3.266614300129222e-15,
+        -1.8392352870320263e-25,
+        -1.5064047765348757e-15
+      ]
+    },
+    "E_BC": {
+      "coefficient_max_abs": 5.177758346033593e-15,
+      "angular": {
+        "0": {
+          "maximum": 7.582146519058563e-15,
+          "theta": 0.0,
+          "vector": [
+            -6.878309809063215e-15,
+            -3.6062823649024182e-25,
+            -3.1902664476523996e-15
+          ],
+          "xy_norm_max": 6.926919414719019e-15,
+          "z_abs_max": 3.1902664476523996e-15
+        },
+        "1": {
+          "maximum": 1.2033271876639681e-14,
+          "theta": 5.559146375297564,
+          "vector": [
+            -7.684458404189393e-15,
+            6.793573642309488e-15,
+            -6.292542273034665e-15
+          ],
+          "xy_norm_max": 1.035878413296762e-14,
+          "z_abs_max": 6.625117331682218e-15
+        },
+        "2": {
+          "maximum": 2.793617243816534e-14,
+          "theta": 0.0,
+          "vector": [
+            2.031777069544828e-14,
+            -2.2040766540746753e-20,
+            1.917336497492305e-14
+          ],
+          "xy_norm_max": 2.1067513668581243e-14,
+          "z_abs_max": 1.917336497492305e-14
+        }
+      },
+      "theta_zero": [
+        -6.878309809063215e-15,
+        -3.6062823649024182e-25,
+        -3.1902664476523996e-15
+      ]
+    },
+    "nested_velocity_integral_minus_coarse_velocity_integral": {
+      "coefficient_max_abs": 2.5342150549915084e-13,
+      "angular": {
+        "0": {
+          "maximum": 3.712239352553341e-13,
+          "theta": 3.141592653589793,
+          "vector": [
+            3.3665401603411617e-13,
+            -3.537128997002823e-27,
+            -1.564330003373889e-13
+          ],
+          "xy_norm_max": 3.390323898449123e-13,
+          "z_abs_max": 1.564330003373889e-13
+        },
+        "1": {
+          "maximum": 5.892686659401692e-13,
+          "theta": 5.559146375297564,
+          "vector": [
+            -3.761104386355443e-13,
+            3.325066042579012e-13,
+            -3.0857390805634324e-13
+          ],
+          "xy_norm_max": 5.070029935092252e-13,
+          "z_abs_max": 3.2488545225969587e-13
+        },
+        "2": {
+          "maximum": 1.3558826170207936e-12,
+          "theta": 0.0,
+          "vector": [
+            9.94448249837638e-13,
+            -4.593070221262767e-22,
+            9.21678007513478e-13
+          ],
+          "xy_norm_max": 1.0311252696951724e-12,
+          "z_abs_max": 9.21678007513478e-13
+        }
+      },
+      "theta_zero": [
+        -3.366540160341099e-13,
+        -2.68232098084088e-27,
+        -1.564330003373889e-13
+      ]
+    },
+    "nested_integral_E_identity_residual": {
+      "coefficient_max_abs": 2.0194839173657902e-28,
+      "angular": {
+        "0": {
+          "maximum": 2.025920446147138e-28,
+          "theta": 3.141592653589793,
+          "vector": [
+            -4.7270019496869e-30,
+            3.6061540167858964e-44,
+            -2.0253689045143814e-28
+          ],
+          "xy_norm_max": 1.1044054009875366e-29,
+          "z_abs_max": 2.0253689045143814e-28
+        },
+        "1": {
+          "maximum": 4.043276617369152e-28,
+          "theta": 3.9208548938356986,
+          "vector": [
+            1.0244779429497104e-29,
+            1.4343825839014305e-29,
+            4.03943259877402e-28
+          ],
+          "xy_norm_max": 1.7841585326399357e-29,
+          "z_abs_max": 4.03943259877402e-28
+        },
+        "2": {
+          "maximum": 8.182473531524962e-28,
+          "theta": 3.141592653589793,
+          "vector": [
+            4.244443078229037e-29,
+            -1.1018393184566773e-39,
+            8.171457649872715e-28
+          ],
+          "xy_norm_max": 4.890947223662285e-29,
+          "z_abs_max": 8.171457649872715e-28
+        }
+      },
+      "theta_zero": [
+        4.727001949686931e-30,
+        -6.903584465650232e-44,
+        -2.02536890451401e-28
+      ]
+    }
+  },
+  "actual_middle_fields": {
+    "saved_velocity": {
+      "coefficient_max_abs": 0.00032357075231099255,
+      "angular": {
+        "0": {
+          "maximum": 0.0003247305834746943,
+          "theta": 1.5707963267948966,
+          "vector": [
+            1.1972869106216776e-22,
+            -1.369860299395098e-05,
+            0.0003244415203389195
+          ],
+          "xy_norm_max": 1.369860299395098e-05,
+          "z_abs_max": 0.0003244415203389195
+        },
+        "1": {
+          "maximum": 0.0006474404118903779,
+          "theta": 0.7853981633974483,
+          "vector": [
+            -1.4370413222985997e-05,
+            -1.4497929856717527e-05,
+            0.0006471185271667414
+          ],
+          "xy_norm_max": 2.0415417995465047e-05,
+          "z_abs_max": 0.0006471185271667414
+        },
+        "2": {
+          "maximum": 0.0013017825190510441,
+          "theta": 4.71238898038469,
+          "vector": [
+            1.1845738608868674e-17,
+            -4.144878407076344e-05,
+            -0.0013011224866268116
+          ],
+          "xy_norm_max": 4.144878407076344e-05,
+          "z_abs_max": 0.0013011224866268116
+        }
+      },
+      "theta_zero": [
+        1.3520780995618648e-05,
+        -5.566333824457638e-23,
+        -0.0003227074194199764
+      ]
+    },
+    "GW_acceleration": {
+      "coefficient_max_abs": 0.0017103219901731716,
+      "angular": {
+        "0": {
+          "maximum": 0.0025083814658481015,
+          "theta": 0.0,
+          "vector": [
+            0.0022719130973334776,
+            -3.608213541553734e-18,
+            0.0010631972800825232
+          ],
+          "xy_norm_max": 0.0022879581206344942,
+          "z_abs_max": 0.0010631972800825232
+        },
+        "1": {
+          "maximum": 0.003979843371453729,
+          "theta": 2.411417798556228,
+          "vector": [
+            -0.0025282935327468003,
+            0.0022640890811604945,
+            0.0020786499720118153
+          ],
+          "xy_norm_max": 0.003421498113148997,
+          "z_abs_max": 0.002178488083024965
+        },
+        "2": {
+          "maximum": 0.009071242008296426,
+          "theta": 3.141592653589793,
+          "vector": [
+            0.006717697308232863,
+            3.400311690741889e-14,
+            -0.006095898165819597
+          ],
+          "xy_norm_max": 0.006951633935353751,
+          "z_abs_max": 0.006095898165819597
+        }
+      },
+      "theta_zero": [
+        0.0022719130973334776,
+        -3.608213541553734e-18,
+        0.0010631972800825232
+      ]
+    },
+    "coarse_velocity_derivative": {
+      "coefficient_max_abs": 0.000993052727265767,
+      "angular": {
+        "0": {
+          "maximum": 0.0014575292766007596,
+          "theta": 0.0,
+          "vector": [
+            0.001318890080281107,
+            -1.0067279275918128e-17,
+            0.0006204196549791349
+          ],
+          "xy_norm_max": 0.0013282021992212499,
+          "z_abs_max": 0.0006204196549791349
+        },
+        "1": {
+          "maximum": 0.0023118637161387632,
+          "theta": 2.405281875404685,
+          "vector": [
+            -0.0014616859688486364,
+            0.0013256664599157488,
+            0.0012044901027091924
+          ],
+          "xy_norm_max": 0.0019862396981378807,
+          "z_abs_max": 0.001259325123350421
+        },
+        "2": {
+          "maximum": 0.005233507063610925,
+          "theta": 0.0,
+          "vector": [
+            -0.0039025458885685003,
+            4.866676269344477e-13,
+            -0.003487080694862472
+          ],
+          "xy_norm_max": 0.004032654367749489,
+          "z_abs_max": 0.003487080694862472
+        }
+      },
+      "theta_zero": [
+        0.001318890080281107,
+        -1.0067279275918128e-17,
+        0.0006204196549791349
+      ]
+    },
+    "velocity_only_quadratic_derivative": {
+      "coefficient_max_abs": 0.0015900648771652087,
+      "angular": {
+        "0": {
+          "maximum": 0.0023322729855565225,
+          "theta": 0.0,
+          "vector": [
+            0.002112129688506695,
+            3.513112833698083e-18,
+            0.0009891438005089782
+          ],
+          "xy_norm_max": 0.0021270457610077153,
+          "z_abs_max": 0.0009891438005089782
+        },
+        "1": {
+          "maximum": 0.00370037034483717,
+          "theta": 2.411417798556228,
+          "vector": [
+            -0.0023504605079018403,
+            0.002104918028318197,
+            0.0019332346427180563
+          ],
+          "xy_norm_max": 0.0031808632340715876,
+          "z_abs_max": 0.002024713098044474
+        },
+        "2": {
+          "maximum": 0.00842841460754855,
+          "theta": 0.0,
+          "vector": [
+            -0.006245710591374007,
+            2.7456343397878567e-12,
+            -0.0056594409622803135
+          ],
+          "xy_norm_max": 0.006462238544465489,
+          "z_abs_max": 0.0056594409622803135
+        }
+      },
+      "theta_zero": [
+        0.002112129688506695,
+        3.513112833698083e-18,
+        0.0009891438005089782
+      ]
+    }
+  },
+  "middle_metric": {
+    "actual_saved_velocity": {
+      "maximum": 2.3462305779949493e-16,
+      "theta": 5.307573526084319,
+      "definition": "Same actual middle-node F_theta; only the proposed F_r changes at this point. This is not a new global field."
+    },
+    "coarse_velocity_prediction": {
+      "maximum": 2.0762876829405648e-08,
+      "theta": 1.5707963267948966,
+      "definition": "Same actual middle-node F_theta; only the proposed F_r changes at this point. This is not a new global field."
+    }
+  },
+  "middle_acceleration_metric_conditions": {
+    "GW_closure": {
+      "radial_metric_derivative_max_abs": 1.5851035761738075e-16,
+      "Gamma_removed_Ftheta_component_max_abs": 3.533755281495937e-18,
+      "definition": "Algebraic target-metric conditions tested against the actual middle-node F_r and F_theta; not a measured continuous derivative."
+    },
+    "coarse_velocity_derivative": {
+      "radial_metric_derivative_max_abs": 0.0019534835285920085,
+      "Gamma_removed_Ftheta_component_max_abs": 0.0001351183886485024,
+      "definition": "Algebraic target-metric conditions tested against the actual middle-node F_r and F_theta; not a measured continuous derivative."
+    },
+    "velocity_only_quadratic_derivative": {
+      "radial_metric_derivative_max_abs": 0.000327505820216661,
+      "Gamma_removed_Ftheta_component_max_abs": 2.265389623012191e-05,
+      "definition": "Algebraic target-metric conditions tested against the actual middle-node F_r and F_theta; not a measured continuous derivative."
+    }
+  },
+  "coefficient_archive": {
+    "path": "three-node-residual-coefficients.npz",
+    "bytes": 305401,
+    "sha256": "dd630289fba671181385f7f5c88e21e1150e66a823d422053d22b2e886773c41"
+  },
+  "integral_identity": "I_AB+I_BC-I_AC = E_AC-E_AB-E_BC; the middle position d_B cancels exactly.",
+  "source_velocity_continuous_radial_derivative_computed": false,
+  "no_new_ODE_or_shooting": true,
+  "new_field_adopted": false,
+  "target_metric_changed": false,
+  "seconds": 0.062182156999995186,
+  "task_completed": false,
+  "limitations": [
+    "Finite full-cardinal-field angle samples, not continuous angular bounds.",
+    "Actual saved point velocity, algebraic GW acceleration, and derivatives of comparison polynomials are distinct quantities.",
+    "A discrepancy at B detects underresolution or data inconsistency but alone does not prove the GW acceleration differs from the true continuous source velocity derivative.",
+    "No higher-precision original node reconstruction or new radial source solve was performed.",
+    "The integral identity separates a velocity quadrature change from the middle position datum; it does not classify every upstream error.",
+    "No metric, seam, collar, reach or amplitude conclusion is inherited by a replacement field."
+  ]
+}
