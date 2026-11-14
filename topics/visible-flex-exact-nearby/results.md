@@ -229,3 +229,7 @@
 ### 2026-11-14 complete radial five-parameter network selection
 
 [R119-supplement-five-local-parameter-cube-and-complete-radial-network-selection](results/R119-supplement-five-local-parameter-cube-and-complete-radial-network-selection.md): proved Q1–31. Each actual negative window uses five shared coordinates. The exact finite active chain retains the real infinite low-tail graph and full prefix/exterior source lines. A fixed Cayley selfadjoint relation bounds each target-circle spectral multiplicity by the true port dimension; cube-chord integration selects one profile and one outer parameter with positive product measure. The original incoming resolvent satisfies ||Wcal(I−U)^−1Wcal||≤1, with Wcal^-2<2^864000J^8330δ^-1073/16. Actual nonradial Schur comparison and final source/layer weights remain separate.
+
+### 2026-11-14 relative global positive reference
+
+[R133-supplement-relative-global-Riccati-reference-and-frequency-derivatives](results/R133-supplement-relative-global-Riccati-reference-and-frequency-derivatives.md): proved R1–20 by real coercive variational forms. A common relative error τ≤1/16 for speed, inverse speed and terminal scalar gives relative p/g error≤τ and logarithmic-frequency quotient derivative≤10τ. Complete two-row frames satisfy C−I≤3τ and the neighbouring-frequency difference obeys N||ΔR||≤2048τ|M−N| for ratio≤3. This preserves the high drift cancellation needed for a whole-body parameter transfer. The actual nonzero-delta coefficient and outer audit remains separate.

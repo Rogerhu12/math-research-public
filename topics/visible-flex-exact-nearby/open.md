@@ -199,3 +199,7 @@ D1–21已证并部署19-input CI，只消费原完整germ/rootbudget，不重�
 ### 2026-11-14 five-coordinate complete radial spectral selection
 
 [Q1–31](results/R119-supplement-five-local-parameter-cube-and-complete-radial-network-selection.md)已证并推：每真实负窗五坐标，完整有限active网络保真实无限low尾/前prefix外线/全source。near-I局部传递+Cayley自伴关系给每目标至多d次谱流，立方体弦Fubini无每模幅度分配。一个共同profile/外t给逐窗Wcal权逆，Wcal^-2包络δ^-1073/16。下一须将实际非径向网络的完整外E/F Schur、Γ*两列与全源接入此权；不能把径向分解当actual逆。
+
+### 2026-11-14 relative global Riccati reference and drift frequencies
+
+[R1–20](results/R133-supplement-relative-global-Riccati-reference-and-frequency-derivatives.md)以真实正变分最小值证明：速度/逆速度/频率无关端值的逐项相对误差τ同时给p,g及M频导的O(τ)控制；完整两行frame和两频率漂移差有2048τ|M−N|界。保持新的d∂在能量方程，不把一阶差假作有界。下一消费原4650行、全区Z/mean与实际outer，付M32base+M96新增band全部项；本解析比较不自动授δ体段数值门。

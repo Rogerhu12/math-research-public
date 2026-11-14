@@ -559,3 +559,7 @@ receipt-only43603364028 success/children=[]，真实receipt331dfd81c7cf148c0c58a
 ### 2026-11-14 15:05:12 UTC — full radial five-box selection and current checkpoint
 
 root完整读Q1–31并核：实际窗口计数、无限low真实消元、串联非零transmission、−1 Cayley极点用自伴关系、整弦至多d次目标谱流、立方体入流面因子及逐窗权。新proof原blob ebac05975f3493cd10bfe680287a335ddd3fc0ed立即推；不授actual非径向逆。H旧字节归档后压缩，保所有未完成范围、当前新源实际7门与下一工作。
+
+### 2026-11-14 15:08:00 UTC — global reference relative derivative proof
+
+新R1–20直接从正form的minimizer差w=O(τ)和频率包络导数推得O(τ)的p/g ratio频导，不引复M域或√τ损失。完整T两行和A=F^-1 M∂F逐项付，Duhamel沿log频率保M=N精确零，得到2048τ|M−N|；原d∂仍实际transport。此为解析证明立即推，无假装数值运行。旧4650native/全区Z已定位，接真实δ均值/outer系数消费。
