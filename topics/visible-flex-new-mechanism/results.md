@@ -51,3 +51,5 @@
 - [R23：ψ-warp 准确核心的非零 linking 封口障碍](results/R23-warped-core-linking-obstruction.md) — 已证正则Jordan投影下framing为+3，禁止同一嵌入annulus接开放平圆领；两个已认证基线适用。没有否定核心本身或其他零framing机制。
 
 - [R24：空间星核的高度奇偶与平圆领 framing 障碍](results/R24-space-star-height-parity-framing.md) — 当前奇正弦高度类的framing为3的奇数倍，不能嵌入annulus封平圆领；偶余弦高度类严格framing0，但完整连接与定量几何尚缺。
+
+- [R25：偶高度外尖出口的reach与投影余量必要界](results/R25-cosine-core-outward-port-budget.md) — 已证完整闭面从向外出口转回前必须占用额外投影距离；p=w时化为两条准确线性高度约束。D下界必要排除与D上预算的保守设计严格分开，未证明封口存在。
