@@ -15,3 +15,7 @@ v3 pipeline 仅在原 solver 真成功退出后消费结果，保留全部 sourc
 | exact_20261114_RK48_cusp_pipeline_v3.py | 8cccbce9e45f952ee5c73303dd2b3dcc324f84478be4ab2fac59090530fd973b |
 | exact_20261114_source_partition_background.mjs | 8d72c76b9ea75e7cb969c871b075175ed5d8323f1114d06680601b4e8fb514c9 |
 | exact_20261114_regional_common_grid.py | 21ef05291861b575ce436d146b5aa85a1836cdfb8175efe969eae321ed08ea20 |
+
+## 后续真实完成记录
+
+原RK48 solver随后已真退出0，完整J/audit和全部响应见[独立完成结论](2026-11-14-exact-resume-fixedH-RK48-re-solve.md)。v3在08:31:15 UTC实际启动真实16点读出；本准备记录没有替代后续各项真实终态。

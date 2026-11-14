@@ -1,0 +1,29 @@
+{
+  "finished": true,
+  "solver_tool_session": 87946,
+  "solver_actual_exit_code": 0,
+  "solver_internal_seconds": 4114.7467434049995,
+  "solver_result_success": true,
+  "completed_component_exits": [
+    {
+      "event": "exit",
+      "label": "compare-RK12-to48",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_compare_RK.py",
+        "--topic",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude",
+        "--new-dir",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK48-solve-r1",
+        "--out",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK48-cusp-resolved-r3/compare-RK12-to48.json"
+      ],
+      "started_utc": "2026-11-14T08:31:15.205225+00:00",
+      "actual_exit_code": 0,
+      "finished_utc": "2026-11-14T08:31:15.547223+00:00",
+      "seconds": 0.3419078829974751
+    }
+  ],
+  "scope": "This archives only the completed RK48 shooting solve and its completed cut/state/J comparisons. The separate v3 spatial/closed pipeline remains active and is not claimed complete."
+}
