@@ -1,67 +1,83 @@
 name: run
 
 on:
-  push:
-    branches: ['main']
-    paths: ['requests/**.json']
+  schedule:
+    - cron: '*/5 * * * *'
   workflow_dispatch:
-    inputs:
-      request:
-        description: 'Path of a request JSON in this repo, e.g. requests/topic/name.json'
-        required: true
 
 permissions:
   contents: read
 
+env:
+  MRREPO: Rogerhu12/math-research
+
 jobs:
-  plan:
+  claim:
     runs-on: ubuntu-latest
+    concurrency:
+      group: claim
+      cancel-in-progress: false
     outputs:
-      reqs: ${{ steps.list.outputs.reqs }}
+      reqs: ${{ steps.claim.outputs.reqs }}
     steps:
-      - id: list
+      - id: claim
         env:
-          EVENT: ${{ toJson(github.event) }}
-          INPUT_REQ: ${{ inputs.request }}
+          GH_TOKEN: ${{ secrets.MR_TOKEN }}
         shell: bash
         run: |
           set -euo pipefail
-          if [ -n "${INPUT_REQ:-}" ]; then
-            reqs=$(jq -cn --arg r "$INPUT_REQ" '[$r]')
-          else
-            reqs=$(jq -c '[.commits[]? | (.added + .modified)[]] | map(select(startswith("requests/") and endswith(".json"))) | unique' <<<"$EVENT")
-          fi
-          echo "reqs=$reqs" >> "$GITHUB_OUTPUT"
-          echo "requests: $reqs"
+          files=$(gh api "repos/$MRREPO/contents/ci-queue" --jq '[.[] | select(.type=="file" and (.name|endswith(".json"))) | .path] | .[]' 2>/dev/null || true)
+          if [ -z "$files" ]; then echo "reqs=[]" >> "$GITHUB_OUTPUT"; echo "queue empty"; exit 0; fi
+          echo '[]' > reqs.json; echo '[]' > del.json
+          for p in $files; do
+            name=$(basename "$p" .json)
+            body=$(gh api "repos/$MRREPO/contents/$p" --jq .content | base64 -d || true)
+            if jq -e '(.topic|type=="string") and (.topic|test("^[A-Za-z0-9._-]+$")) and (.command|type=="string")' <<<"$body" >/dev/null 2>&1; then
+              jq --arg n "$name" --argjson b "$body" '. + [$b + {name:$n}]' reqs.json > t && mv t reqs.json
+            else
+              echo "invalid request $p (dropped)"
+            fi
+            jq --arg p "$p" '. + [{path:$p, mode:"100644", type:"blob", sha:null}]' del.json > t && mv t del.json
+          done
+          for i in $(seq 1 15); do
+            tip=$(gh api "repos/$MRREPO/git/ref/heads/main" --jq .object.sha)
+            base=$(gh api "repos/$MRREPO/git/commits/$tip" --jq .tree.sha)
+            tree=$(jq -n --arg b "$base" --slurpfile d del.json '{base_tree:$b, tree:$d[0]}' | gh api -X POST "repos/$MRREPO/git/trees" --input - --jq .sha)
+            commit=$(jq -n --arg t "$tree" --arg p "$tip" --arg m "ci-queue: claim $(jq length reqs.json) request(s) for $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" '{message:$m, tree:$t, parents:[$p]}' | gh api -X POST "repos/$MRREPO/git/commits" --input - --jq .sha)
+            if jq -n --arg s "$commit" '{sha:$s, force:false}' | gh api -X PATCH "repos/$MRREPO/git/refs/heads/main" --input - >/dev/null 2>&1; then
+              echo "claimed: $(jq -c '[.[].name]' reqs.json)"
+              echo "reqs=$(jq -c . reqs.json)" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep $((RANDOM % 5 + 2))
+          done
+          echo "could not claim"; exit 1
 
   run:
-    needs: plan
-    if: needs.plan.outputs.reqs != '[]'
+    needs: claim
+    if: needs.claim.outputs.reqs != '[]' && needs.claim.outputs.reqs != ''
+    name: ${{ matrix.r.topic }} / ${{ matrix.r.name }}
     runs-on: ubuntu-latest
     timeout-minutes: 358
     strategy:
       fail-fast: false
       max-parallel: 20
       matrix:
-        req: ${{ fromJson(needs.plan.outputs.reqs) }}
+        r: ${{ fromJson(needs.claim.outputs.reqs) }}
     steps:
       - name: Read request
         id: req
         env:
-          GH_TOKEN: ${{ github.token }}
-          REQ: ${{ matrix.req }}
+          R: ${{ toJson(matrix.r) }}
         shell: bash
         run: |
           set -euo pipefail
-          gh api "repos/${GITHUB_REPOSITORY}/contents/${REQ}?ref=${GITHUB_SHA}" --jq .content | base64 -d > "$RUNNER_TEMP/req.json"
-          topic=$(jq -r '.topic' "$RUNNER_TEMP/req.json")
-          [[ "$topic" =~ ^[A-Za-z0-9._-]+$ ]] || { echo "bad topic"; exit 1; }
-          jq -e '.command | type == "string"' "$RUNNER_TEMP/req.json" >/dev/null
+          printf '%s' "$R" > "$RUNNER_TEMP/req.json"
           jq -r '.command' "$RUNNER_TEMP/req.json" > "$RUNNER_TEMP/cmd.sh"
           tmin=$(jq -r '.timeout_minutes // 300' "$RUNNER_TEMP/req.json"); [ "$tmin" -gt 350 ] && tmin=350
-          name=$(basename "$REQ" .json)
+          topic=$(jq -r '.topic' "$RUNNER_TEMP/req.json")
           {
-            echo "topic=$topic"; echo "tmin=$tmin"; echo "name=$name"
+            echo "topic=$topic"; echo "tmin=$tmin"; echo "name=$(jq -r '.name' "$RUNNER_TEMP/req.json")"
             echo "python=$(jq -r '.python // "3.12"' "$RUNNER_TEMP/req.json")"
             echo "node=$(jq -r '.node // "24"' "$RUNNER_TEMP/req.json")"
             echo "sparse<<SPARSE_EOF"
@@ -70,12 +86,11 @@ jobs:
             jq -r '(.sparse // [])[]' "$RUNNER_TEMP/req.json"
             echo "SPARSE_EOF"
           } >> "$GITHUB_OUTPUT"
-          echo "topic=$topic timeout=${tmin}m"
 
       - name: Check out private repo
         uses: actions/checkout@v4
         with:
-          repository: Rogerhu12/math-research
+          repository: ${{ env.MRREPO }}
           token: ${{ secrets.MR_TOKEN }}
           fetch-depth: 1
           filter: blob:none
@@ -95,20 +110,20 @@ jobs:
           TOPIC: ${{ steps.req.outputs.topic }}
           TMIN: ${{ steps.req.outputs.tmin }}
           NAME: ${{ steps.req.outputs.name }}
-          REQ: ${{ matrix.req }}
         shell: bash
         run: |
           set -uo pipefail
           export MR="$GITHUB_WORKSPACE"
           export OUT_DIR="topics/$TOPIC/ci-runs/${NAME}-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           mkdir -p "$OUT_DIR"
+          cp "$RUNNER_TEMP/req.json" "$OUT_DIR/request.json"
           start=$(date -u +%FT%TZ)
           timeout --signal=TERM --kill-after=60 "${TMIN}m" bash "$RUNNER_TEMP/cmd.sh" > "$OUT_DIR/log.txt" 2>&1
           code=$?
           end=$(date -u +%FT%TZ)
-          jq -n --arg req "$REQ" --arg runner_sha "$GITHUB_SHA" --arg run "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+          jq -n --arg run "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
             --arg start "$start" --arg end "$end" --argjson exit "$code" --argjson timeout_min "$TMIN" \
-            '{request:$req, exit:$exit, timed_out:($exit==124 or $exit==137), timeout_min:$timeout_min, start:$start, end:$end, runner_sha:$runner_sha, run:$run}' > "$OUT_DIR/status.json"
+            '{exit:$exit, timed_out:($exit==124 or $exit==137), timeout_min:$timeout_min, start:$start, end:$end, run:$run}' > "$OUT_DIR/status.json"
           echo "exit=$code start=$start end=$end"
           echo "CODE=$code" >> "$GITHUB_ENV"
 
