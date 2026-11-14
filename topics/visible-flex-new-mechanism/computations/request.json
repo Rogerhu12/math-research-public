@@ -1,10 +1,10 @@
 {
-  "request": "warm-closed-base-branches-after-frozen-hinge-diagnosis",
-  "created_at": "2026-11-14T20:21:43.896609+08:00",
+  "request": "full-interval-C2-profile-bvp-with-frozen-parameter-refinement",
+  "created_at": "2026-11-14T20:29:00.427973+08:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "closed_branch"
+    "global_profile"
   ],
-  "closed_branch": "q3/2 preserve prior bounds and repair differentiation of active hinges; q4 expands demonstrably active parameter boxes; all start from frozen actual outputs and preserve period scales",
+  "global_profile": "R16 endpoint identities imposed exactly; first degree stage designs four real operator parameters, later stages freeze them; independent actual-right-tail moments and O validation; abstract profile is not a finite flexible surface",
   "task_complete": false
 }

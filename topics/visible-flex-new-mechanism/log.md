@@ -113,3 +113,6 @@
 
 - 2026-11-14 20:25 CST，Astra-new-mechanism-9974ea84：同g四阶GC入口+S9桥实际material输出仍metric=.999688、κsample57704，完整pin二jet与初始Jac检查通过。
   官方日志已确认inward_fixed与inward_gc4均在共享40min步骤超时；分别第二个signed/ellipse没有完成输出，不作数学失败或优劣比较。新BVP按单case预算和checkpoint继续。
+
+- 2026-11-14 20:29 CST，Astra-new-mechanism-9974ea84：完成 R16 的 C2 零延拓、有限阶外尾主平衡和四参数全区方程，已核对原文 Y 公式及全部系数。
+  共享 workflow/publisher 新增 global_profile：两端同时匹配，第一阶段选算子参数后冻结进行函数次数精化；独立验证真实右尾、三总矩与完整 O。仍是抽象 profile 层，不声称有限闭曲面族。

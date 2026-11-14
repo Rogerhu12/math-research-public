@@ -33,3 +33,5 @@
 - [R14：法弦近远点对分解与有限宽准确核心嵌入](results/R14-normal-ribbon-embedding-certificate.md) — 已证明近弧曲率法弦界、完整参数片覆盖的中心曲线reach下界及有限宽法向核心嵌入准则；实际u=.8/1候选将由Actions认证，未覆盖圆领或完整闭面reach。
 
 - [R15：两端零 jet 与满秩 B 下三复总矩自动成立](results/R15-global-endpoint-moments.md) — 已证明完整区间Q=0加两端q/q′/q″零及满秩B，自动给完整O=0与三复总矩零；允许C3且分段C4，另给准确残差传递。没有把局部R13或截断射击当作满足前提的全局解。
+
+- [R16：C2 零延拓、四阶外尾条件与四参数全区方程](results/R16-C2-endpoint-profile-equation.md) — 已证明四阶 profile 外尾足以给 C2 场，简单端根满足 W=−8C′/7，及其完整四参数化。全区非多项式 profile、真实系数几何实现和有限等距族均未构造。
