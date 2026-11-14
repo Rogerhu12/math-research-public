@@ -73,3 +73,5 @@
 - [R34：任意C3弱profile的解析相位刚性与双外尾排除](results/R34-C3-weak-profile-rigidity-and-two-tail-obstruction.md) — 由全区弱散度式和准确双积分处理任意L零集，复值Volterra/Cassini引理把高退化归到两个实解析芽。完整O=0自动满足弱式；双简单非零四阶外尾的完整类即使内部无第四阶导数或奇点无限，也必恒相位并违第一复总矩。保留全平/退化外尾及其他机制。
 
 - [R35：简单C根的任意有限幂次外尾与完整双尾排除](results/R35-finite-power-outer-tail-rigidity.md) — 对既有前三阶幂次渐近m>3的弱外尾，准确弱积分迫W/C′=−2(m−2)²/(3m−5)，真实t^m乘解析芽仅含一个公共复幅相；含非整数与3<m<4，允许的复指数也自动为实。结合R34排双简单有限幂次外尾三矩circle，未假定任意C3尾都具有此渐近。
+
+- [R36：二重C根的标准指数平尾与真实光滑相位唯一性](results/R36-standard-flat-outer-tail-rigidity.md) — 仅假设前三阶标准指数jet，弱Laplace积分迫准确指数率，负快速谱给唯一实C∞前因子及公共复幅相；幂前因子与有限非零幅极限由方程推出。两个二重外根的同号C分支不能返回零。未声称所有flat尾自动标准。

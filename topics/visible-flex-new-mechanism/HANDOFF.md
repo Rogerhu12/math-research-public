@@ -6,13 +6,13 @@
 
 闭连通 C2 嵌入族 Ft、时间 C2 连续、同一固定 g；固定材料开集 H 且 diamH≥.2D；不对齐的真实像集 Hausdorff 位移≥.3D；全域全时 reach≥.03D；最大相对 metric≤1e−6，且同 g/物理参数/时间加密改善；完整小网格、复现及严格存在性差距。D 是初始完整曲面直径。δE 可为0但须如实报。达标后继续 .5D 或更强存在性。
 
-- 根及本题 README 已完整读。公开仓库最后已读规则提交：`3b5a584e48472e5cfd9bd69ed326134fc8dcafad`；13:52 UTC前已实际CLI pull，根/本题README新差异为空。
+- 根及本题 README 已完整读。公开仓库最后已读规则提交：`bbca76ac2a65e171acc6514cc4a6da3b641386dd`；每次实际CLI pull均核根/本题README新差异。
 - 每次 pull 后只读这两 README 新差异并立即遵循，至少每小时 pull。每结论提交推送；NFF 立即 pull --rebase 并循环推送，不强推。
-- 作者指定 QUEUE 已置进行中。私有仓库13:39:55 UTC实际pull至2af8e95180f2df4ccf4cdb915220d795c8b12907，根README差异为空；队列唯一匹配行仍为本会话进行中。私有研究内容不发布。
+- 作者指定 QUEUE 已置进行中。私有仓库14:14:20 UTC实际pull至94a2611e4760da10f909a28d51ac067fadcb1117，根README差异为空；队列唯一课题行仍为本会话进行中。私有研究内容不发布。
 - 研究计算只用本公开仓库自己的 Actions。令牌仅瞬时命令行认证，不入文件。根 LOG 不写；共享 workflow 理由记本题 log。HANDOFF<10KB，其他 MD<100KB，数据>1MB压缩、单件<5MB。
 - 早期自动审批拒绝私有研究摘要公开，已从未发布提交移除；后续安全推送成功，没有未解决的授权请求。
 
-短暂失联已恢复；公开/私有均实际pull并核规则。旧未推R18提交4138389保存在recovery-local-R18-4138389分支，main采用远端等价结论；旧同名审计另存工作区recovery-20261114，其余未跟踪草稿保留。当前正常CLI pull/rebase/push。14:12前overlay满，已把本会话两仓Git对象原样迁至/tmp并symlink，清单/HEAD核对通过；未删研究数据，失败推送已续成。
+CLI同步正常。旧R18 recovery分支和recovery-20261114保留。14:12 overlay满时，仅本会话两仓Git对象原样迁/tmp并symlink，清单/HEAD核验通过；未删研究数据，失败推送已恢复。
 
 ## 来源与已证内容
 
@@ -49,15 +49,13 @@ R31的公开准确代数run43601439290已成功且全部58源/1输出哈希核�
 
 - R35：简单C根处既定前三阶有限幂渐近m>3的全部弱外尾，仅有一个复幅相；W/C′=−2(m−2)²/(3m−5)。含非整数，复指数Re m>3也自动实。双简单有限幂外尾完整类由R34全排，未将任意C3外端冒称幂型。
 
+- R36：二重C根的标准前三阶指数jet迫λ=−3w0/(2c)、唯一实C∞前因子及公共复幅相；两二重外根使C内部同号，正性链禁止双端回零。任意flat尾自动标准仍未证明。
+
 ## 最新实际计算
 
 共享 `.github/workflows/visible-new-mechanism-search.yml`，最多2并行、每job≤50min；publisher只写本题小输出，receipt含输入SHA，每次rebase核README。成功状态不等于数学通过。
 
-旧实际计算均在各actual-audit：ψ-warp43593187614/43593758483核心通过但R23排封口；43594503459/43595131331完整周期失败且D非零设计不可实现；cos43597247312曲率严格排除；同run局部D0射击未匹配外尾。原始输出与失败全保留，不原样重跑。
-
-端点消元43598398961无全角正J、局部曲率下界9688；暖投影43599589025正J/framing0通过，但局部曲率下界21.87057给reach/D≤.014565且tip必要门失败。两点均严格排除，详见各actual-audit；不作其连接。整核包络/幅度已挂正J门，旧输出保留并核前提。
-
-physical_root43600230731正侧同参数三N稳定W/C′≈−1.75、Kjet≈.0064；仅局部数值证据、连续根未认证，负侧失败。完整数据见literature-physical-root-ratio-actual-audit；R31另有几何存在证明。此局部门不解除完整类排除。
+旧计算详见各actual-audit：ψ-warp被R23封口障碍排除；cos端点和暖点均被厚度严格排除，未作连接。physical_root43600230731正向局部数值门通过但连续根未认证，负侧失败；R31另有几何局部存在，均不解除完整外尾类排除。原始失败输出全保留，不原样重跑。
 
 ## 已失败路径与接续
 
@@ -65,4 +63,4 @@ physical_root43600230731正侧同参数三N稳定W/C′≈−1.75、Kjet≈.0064
 
 warped_collar43595305950实际失败且R23另以link排除该封口目标；R24排除旧sin核，已试cos点全因厚度门失败。当前转准确椭圆柱和R28固定负K度量；入口/尾端先去已知表示失配，再公开Actions试算。文献续解仅限R32/R34未排类别。主README全部门通过前不收尾。
 
-ellipse_frame实际43602519926：连续端口inner非空/全方向门通过；123nfev ftol但fine metric1.660115、R3.51022、κsample2334.99、ellipse radius²1.46167，未可行，R33包络前提不成立。62源/8输出SHA全核。详见ellipse-frame-fixed-pilot-actual-audit；分布run43603136078同网格六摘要差0，63源/3输出SHA全核：R峰负K段t.4275纯RT，κ峰.4575，metric峰尾t.7275；不是entry主峰，mean及k12+显著。下一保持g/旧源码，独立暖扩径向及phi角空间。启metric design前须把log基尾Oδ5升Oδ7。R30接口见notes/R30-validation-interface-20261114.md。
+ellipse_frame实际43602519926：连续端口inner非空/全方向门通过；123nfev ftol但fine metric1.660115、R3.51022、κsample2334.99、ellipse radius²1.46167，未可行，R33包络前提不成立。62源/8输出SHA全核。详见ellipse-frame-fixed-pilot-actual-audit；分布run43603136078同网格六摘要差0，63源/3输出SHA全核：R峰负K段t.4275纯RT，κ峰.4575，metric峰尾t.7275；不是entry主峰，mean及k12+显著。下一保持g/旧源码，J4→J9准确插结并加phi/core角方向暖解；只在Actions评实际，disk+strip .33预算见即将增补R33。启metric design前须把log基尾Oδ5升Oδ7。R30接口见notes/R30-validation-interface-20261114.md。
