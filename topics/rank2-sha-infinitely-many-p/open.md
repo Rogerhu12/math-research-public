@@ -254,3 +254,5 @@ Z*唯一属于type1 L(pO)且DZ*=1，与原正则Z之差为c_p^-1(x²/y)^p；原G
 ### R593：完整carry、实际第二forcing与两像充要
 
 原M模p³提升先迫同R满足整个J(Pcrit+pR)∈p²，即原两jet各延长十三行；r=ell是真两jet，(2,1)保Qquad最高行−2λγ。相容后Z+∈w^s、Z∈w^(s−r)，第二块旧S(η0Z)全消，原L0/L1仍保两位。ψ0=1的合法同格选择后第三块准确为ell1的a z0、或ell2的a z0+a[z1+ξ1{α0+(κcrit−3)β0}]w；这些是同R的真实高续段。完整充要条件为Dψ+S=G+及H_P(Rbd+S)∈im Dψ短，原U0、13自由行、26carry和所有列均保。**R597继续：** 在第一真实解空间求后一个指定余类，兼顾三块及同R；固定Z末项单位已在完整式中抵消，不冒称余核非零，R561/外支仍开。
+
+[两指定forcing的完整addition整卷积](notes/2026-11-14-inert-addition-regular-carries.md)已付：12bc4/5=RP−14cp/5、12bc1/5=RB+cp/5，内部i+j=s全留；首pole单位可被实际整卷积补偿。继续与R595真正S/T同参数行合并，不能把RP/RB赋零或混同ordinary负矩。

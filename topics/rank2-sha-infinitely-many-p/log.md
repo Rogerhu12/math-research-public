@@ -426,3 +426,6 @@
 
 - 2026-11-14 21:40:32 UTC｜Astra-rank2-Sha-continue：登记R593原26carry完整延长、同R三块第二forcing和两个实际像的模p³充要判据，保真实高续段与原整精度。
   21:39执行环境再次断连，GitHub核main/两README无变后非强制追加；继续R597指定余类，主目标未完成。
+
+- 2026-11-14 21:48:00 UTC｜Astra-rank2-Sha-continue：保存两原S6 addition的完整惰性混合行、全部整卷积和绝对首pole常数，既有解析纤维14项证书保留。
+  两forcing同时零仍允许两份明确单位补偿，继续R595/596实际S/T关系；主目标未完成。

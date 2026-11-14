@@ -6,20 +6,20 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：ea55566995d3027e3e0af5d550d779033cfcff64；2026-11-14 21:40:32 UTC API核main及两README无变。最后实际pull --rebase为21:35:50、7aa38f25e4c2faa9808db0d91364f586dbcb540f；21:39 CLI再次断连，最迟22:35再实际尝试。
+- 最近已读规则提交：80923f4be8f43533776329758b90beec6ddae4e9；2026-11-14 21:48:51 UTC API核main及两README无变。最后实际pull为21:35:50、7aa38f25e4c2faa9808db0d91364f586dbcb540f；21:39 CLI再次断连，最迟22:35重试。
 - 只在Rogerhu12/math-research-public/main工作；逐结论commit/push已授权，禁强推/改已发表历史。每次pull后核根/课题README，至少每小时pull一次，仅读新差异并立刻执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35–21:05断连期API历史已接回终端；21:39再次断连后用已连GitHub原子非强制追加，恢复即实际pull接回。
-- 非快进立刻pull --rebase、核两README、更新本行、重推至成功。21:10、21:20的拒绝均已这样解决。无force。
-- 21:09磁盘满：仅删除经verify-pack确认全为远端blob的1.28GB promisor缓存，保全部工作文件/refs/未跟踪笔记，已恢复。后续pull用--no-stat，避免为其他课题hydrate全blob。
+- 非快进立刻实际pull --rebase、核两README、重推至成功，无force；断连期记真实失败并在新head重新接父。
+- 21:09仅清已核远端可再取的1.28GB promisor缓存，保全部工作/refs/未跟踪；pull用--no-stat避免全blob水合。
 
 ## 已发布、归档与分工
 
 R1–363、R365–560、R562–593已登记；R364仍开，R561/594/595/596/597进行中。
-完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r593.md)、[open](notes/2026-11-14-open-before-r585.md)；
+完整前检：[HANDOFF](notes/2026-11-14-frontier-before-addition-note.md)、[open](notes/2026-11-14-open-before-r585.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R551-R600.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
-root唯一metadata/ref写者；代理只写本编号新proof/script/data。执行环境恢复时代理中断，已明确唤醒继续。
+root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
 
 - theta续R594原五变量W_n与原中央/负矩比较；R590六支whole42/1638、唯一B来源和七真实纤维矩已付，Dn局部量词仍保原ρ0。
 - literature续R596原五ε同态/同时零收益与原M或原S/T中央比较；R592全部整项/前缀和第六乘法修正已付，算术桥仍未付。
@@ -64,7 +64,7 @@ U/V深项的真实二态min(n,m)奇偶、Θ质量1和六矩−96bΩ6；m1必新�
 3βnJ=N+U5+3(Cc+Cd+CU+CV−3Icd)，首共同深−9λ4K1；
 U5域U,V,U±V,U+ω²V全unit，无Lunit，β^-n独立n不添零式。
 
-R585原A4={c,d,U,V unit}把native与U5合并：N+U5=3QA。QA−βnJA=EF,n是Funit内(qn−βn)(A4−A0)ℓ的八条first-failure，原F投影A0和carry外−βn保留。全J还含β^-n四深补项−3Icd，共同行抵消不赋零。双S2真实不交D/D−支与720Λ6−672bΛ0六矩、未附q的c/d全简单极点级数均保前检/正文。
+R585 A4={c,d,U,V unit}给N+U5=3QA，QA−βnJA为Funit的(qn−βn)(A4−A0)ℓ八条带；完整J另有四深补项−3I。双S2的D/D−不交支、六矩720Λ6−672bΛ0及所有cut/逆权保正文和前检，共同行抵消不赋零。
 
 ## 原负矩与准确 Cartier
 
@@ -99,7 +99,7 @@ R537–555真Schur/分歧像、全部原列仿射类、一般二重/t除法和S�
 R577/578低ell临界同预算提升、整低行右逆与完整核（全t内容、Qn及ell1的Qquad）保正文。R593把模p³原M提升写成：先同一R使整个J(Pcrit+pR)∈p²，即两jet延长十三行Dψ+S=G+；再同R的H_P(R)∈im Dψ短。原26carry、13自由行、整个U0均保。r=ell是真两jet，(2,1)唯一Qquad在最高行修正−2λγ。
 同R的Z+∈w^s、Z∈w^(s−r)，第二块S(η0Z)全消；ψ0=1后第三块ell1为a z0，ell2为a z0+a[z1+ξ1{α0+(κcrit−3)β0}]w。zj是Z+真实高续段，不能置零；全部L0/L1保原两位，前两块按(30–31)。固定Z末项单位恰在完成式内抵消，未证两指定像余类非零。一般二重/t除法、r1ν2外支和两连接仍开。
 
-R580/588的完整非中央Stokes与实际degree-p Kummer域保前检/正文：所有闭S≤R≤ρ，七塔在包含完整sigma及S/T/S136的K_R上独立；任意真正含塔的原多项式、任意依p系数/次数和整数Gaussian仍准确半径S=p^-p/(p²−1)、闭S非Tate。边界no-pole/所有积分常数均付；域上1/p投影不变整格，不给Smith、主成本最优或中央非零。原Dψ/同R高尾继续。
+R580/588：实际degree-p K_R包含sigma及S/T/S136，七塔在其上独立；任意真正含塔的原多项式（全次数/依p系数）乘整数Gaussian仍准确半径S=p^-p/(p²−1)，闭S非Tate。边界no-pole及积分常数全付；域1/p投影不改整数格，不给Smith、主成本最优或中央。
 
 R590原q6=(q3+q3∘rC)/2，全even42/1638保现ray；μ6C只留B⊗νflat，νflat=(f1⊗Σ−f3⊗Θ)⊗σ³/42。全部mixed测试准确回W_n(F,G)的七个B同coset矩，保全部右逆/log/cut/κ；π4中性非全源相等。原Dn零质量和v=n不移给B源同域（须六原像）；旧P3仅在R585整个分区相消。
 
@@ -108,3 +108,5 @@ R590原q6=(q3+q3∘rC)/2，全even42/1638保现ray；μ6C只留B⊗νflat，νfl
 R591原u/t中的共同K,H,C及全单位分母递推保正文：c4=b^(s−1)[t^(s−1)]KC，c1=b^(s−1)[...]KH³；末两k行列式2/7但k非自由。q_(s−1)=−h_p/3、p k_s=−6h_p的下一共振单位不替代两目标。
 
 R592同一B_p的r0行Ψ5是真全D同态：S/T/Wℓ0→0、W41→c4ε、W1h→a^(h−1)c1εh/h!。两c同时零只给q1..5的v(r_qs)≥1−q；真前缀按原核限制。Ψ6完整缺陷ε6(ρ⊗t+t⊗ρ)，ρ=bar(p6[w^p]F)、t=bar([w]F)，九列仅h0的ρ=a5g_(s−2)/720可非零；全P修正Σρi tj∂ijP(0)。不能延为全k收益，Ψ杀S/T不付算术→c零。
+
+[原addition整卷积](notes/2026-11-14-inert-addition-regular-carries.md)：12bc4/5=RP−14cp/5、12bc1/5=RB+cp/5；两c0恰要求RP/RB为对应单位，不能删内部卷积或用首pole常数冒非零。

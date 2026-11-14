@@ -1,0 +1,168 @@
+{
+  "status": "all exact checks passed",
+  "checks": 14,
+  "frames": [
+    {
+      "p": 17,
+      "b": 1,
+      "c4": 16,
+      "c1": 3,
+      "cp": 5,
+      "original_addition_rows": {
+        "P": {
+          "whole": [
+            "-4572",
+            "875875"
+          ],
+          "whole_mod_p": 1,
+          "regular": [
+            "5211",
+            "3503500"
+          ],
+          "regular_mod_p": 15,
+          "endpoints": [
+            "-3357",
+            "500500"
+          ],
+          "endpoints_mod_p": 3,
+          "terms": [
+            [
+              "-50301",
+              "14014000"
+            ],
+            [
+              "9963",
+              "14014000"
+            ],
+            [
+              "837",
+              "1078000"
+            ],
+            [
+              "-8739",
+              "2802800"
+            ]
+          ]
+        },
+        "B": {
+          "whole": [
+            "-12816",
+            "125125"
+          ],
+          "whole_mod_p": 14,
+          "regular": [
+            "-6939",
+            "125125"
+          ],
+          "regular_mod_p": 13,
+          "endpoints": [
+            "-5877",
+            "125125"
+          ],
+          "endpoints_mod_p": 1,
+          "terms": [
+            [
+              "-16767",
+              "500500"
+            ],
+            [
+              "5589",
+              "500500"
+            ],
+            [
+              "-513",
+              "7700"
+            ],
+            [
+              "-963",
+              "71500"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "p": 17,
+      "b": 2,
+      "c4": 13,
+      "c1": 12,
+      "cp": 6,
+      "original_addition_rows": {
+        "P": {
+          "whole": [
+            "-36576",
+            "875875"
+          ],
+          "whole_mod_p": 8,
+          "regular": [
+            "10422",
+            "875875"
+          ],
+          "regular_mod_p": 1,
+          "endpoints": [
+            "-6714",
+            "125125"
+          ],
+          "endpoints_mod_p": 7,
+          "terms": [
+            [
+              "-50301",
+              "1751750"
+            ],
+            [
+              "9963",
+              "1751750"
+            ],
+            [
+              "837",
+              "134750"
+            ],
+            [
+              "-8739",
+              "350350"
+            ]
+          ]
+        },
+        "B": {
+          "whole": [
+            "-102528",
+            "125125"
+          ],
+          "whole_mod_p": 10,
+          "regular": [
+            "-55512",
+            "125125"
+          ],
+          "regular_mod_p": 2,
+          "endpoints": [
+            "-47016",
+            "125125"
+          ],
+          "endpoints_mod_p": 8,
+          "terms": [
+            [
+              "-33534",
+              "125125"
+            ],
+            [
+              "11178",
+              "125125"
+            ],
+            [
+              "-1026",
+              "1925"
+            ],
+            [
+              "-1926",
+              "17875"
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "actual_normalization": "F_P/a and F_B/a; a=2+omega, a^6=-27",
+  "complete_regular_convolutions_retained": true,
+  "target_nonvanishing_claim": false,
+  "main_target_complete": false
+}
