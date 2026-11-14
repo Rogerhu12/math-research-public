@@ -45,6 +45,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:09:56.278687+00:00",
+      "before": "43e96f309af216b9761e3bc7517e8bc23dd1e7a4",
+      "after": "4dc3c32031213b296a4b968e51c81cd210fe3090",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -57,6 +65,11 @@
       "time": "2026-11-14T10:09:52.405952+00:00",
       "final": false,
       "commit": "43e96f309af216b9761e3bc7517e8bc23dd1e7a4"
+    },
+    {
+      "time": "2026-11-14T10:09:55.795034+00:00",
+      "final": false,
+      "commit": "4dc3c32031213b296a4b968e51c81cd210fe3090"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -79,7 +92,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "43e96f309af216b9761e3bc7517e8bc23dd1e7a4",
+  "last_read_commit": "4dc3c32031213b296a4b968e51c81cd210fe3090",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cap128-recovery-work/science",
   "original_artifact_outcomes": [
     {
@@ -147,10 +160,14 @@
     [
       1280,
       1536
+    ],
+    [
+      1536,
+      1792
     ]
   ],
-  "snapshot_utc": "2026-11-14T10:09:53.256343+00:00",
-  "wall_seconds": 9.662969114999996,
+  "snapshot_utc": "2026-11-14T10:09:56.315074+00:00",
+  "wall_seconds": 12.721697991,
   "native_files": [
     {
       "logical_file": "evidence/original-artifacts/visible-exact-cap128-cells-1024-1280-43580498603-1/process.json",
@@ -217,6 +234,12 @@
       "file": "native/cells-1280-1536.json.gz",
       "bytes": 1443260,
       "sha256": "55cdc364f8022ae8db62785bb4b4a870b00201c34873f51a00a187683f476ef8"
+    },
+    {
+      "logical_file": "native/cells-1536-1792.json.gz",
+      "file": "native/cells-1536-1792.json.gz",
+      "bytes": 1447868,
+      "sha256": "c4f1f178c079d42d1c891352530485a0ae5c667335b9558c46abceb38244950e"
     }
   ]
 }
