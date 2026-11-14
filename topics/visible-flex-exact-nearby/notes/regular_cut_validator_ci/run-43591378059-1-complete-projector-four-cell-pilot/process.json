@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete_cut_projector_four_cell_pilot_process",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43591378059",
   "run_attempt": "1",
@@ -240,6 +240,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:47:08.642050+00:00",
+      "before": "cba50b7b5c03eac708db0055adf7ed7a758fbe8a",
+      "after": "9053a410526ef05b1ab69db160431597d9f1b98d",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -282,6 +290,11 @@
       "time": "2026-11-14T11:47:06.590658+00:00",
       "final": false,
       "commit": "cba50b7b5c03eac708db0055adf7ed7a758fbe8a"
+    },
+    {
+      "time": "2026-11-14T11:47:08.362893+00:00",
+      "final": false,
+      "commit": "9053a410526ef05b1ab69db160431597d9f1b98d"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -325,10 +338,10 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "cba50b7b5c03eac708db0055adf7ed7a758fbe8a",
+  "last_read_commit": "9053a410526ef05b1ab69db160431597d9f1b98d",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cut-projector-pilot-work/science",
-  "snapshot_utc": "2026-11-14T11:47:06.933999+00:00",
-  "wall_seconds": 142.64271133100002,
+  "snapshot_utc": "2026-11-14T11:47:08.667288+00:00",
+  "wall_seconds": 144.376000338,
   "native_files": [
     {
       "logical_file": "evidence/original-complete-frame-process.json",
@@ -390,5 +403,8 @@
       "bytes": 10598,
       "sha256": "d51f3f1aa0bf8ac7af555de349f52c9b0fecb6e5beec67a90fbe81a9a8c7424e"
     }
-  ]
+  ],
+  "actual_public_synthetic_gates": 7,
+  "actual_complete_continuous_cells": 4,
+  "finished_utc": "2026-11-14T11:47:08.368703+00:00"
 }
