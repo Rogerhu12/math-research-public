@@ -1,0 +1,95 @@
+{
+  "kind": "actual_public_complete_same_F_directional_matrix_process_v1",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43651733856",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "eee97a9632c8465166428e0106be8f3c09419074",
+  "worker_source_sha256": "4ba644699fcf2a531682c54be924eea8d8d5e03efd9376bb80366b7ecf53cbc7",
+  "started_utc": "2026-11-14T23:09:25.107417+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T23:09:25.999275+00:00",
+      "before": "eee97a9632c8465166428e0106be8f3c09419074",
+      "after": "dd623ebfde674a695f76f0164fb24ca94b87a8aa",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:09:26.349039+00:00",
+      "before": "dd623ebfde674a695f76f0164fb24ca94b87a8aa",
+      "after": "dd623ebfde674a695f76f0164fb24ca94b87a8aa",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "phase": "plan",
+  "group": null,
+  "original_projector_run": 43594139132,
+  "original_same_F_pilot_run": 43648579604,
+  "original_successful_F_or_Gram_cells_recomputed": 0,
+  "original_target_or_validator_calls": 0,
+  "all_original_Q_and_R_endpoint_bytes_required": true,
+  "full_two_boundary_directional_Green_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "input_manifest_sha256": "a9e1b1646031d1cfdb3472570228920730e8a3736819a257746a2960138e50fc",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "dd623ebfde674a695f76f0164fb24ca94b87a8aa",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-same-F-work/science",
+  "snapshot_utc": "2026-11-14T23:09:26.371914+00:00",
+  "wall_seconds": 1.264976986000022,
+  "native_files": [
+    {
+      "logical_file": "evidence/four-actual-original-same-F-array-availability.json",
+      "file": "evidence/four-actual-original-same-F-array-availability.json",
+      "bytes": 2038,
+      "sha256": "5136ce8039910c22a8ec94721f86972485eb256b63bf19d17eab5679565eccc1"
+    },
+    {
+      "logical_file": "evidence/original-complete-projector-process.json",
+      "file": "evidence/original-complete-projector-process.json",
+      "bytes": 4269,
+      "sha256": "16608b57571d17a427857bcfe0127186589b3f79e93d89a7e423ac48a2740af9"
+    },
+    {
+      "logical_file": "evidence/original-same-F-artifact-process.json",
+      "file": "evidence/original-same-F-artifact-process.json",
+      "bytes": 12567,
+      "sha256": "d1465c2d20081bf22c0909dfa1d28f62239ff91394d030f34faf375ac479330a"
+    },
+    {
+      "logical_file": "native/complete-5970-local-projectors.json.gz",
+      "file": "native/complete-5970-local-projectors.json.gz",
+      "bytes": 3876042,
+      "sha256": "3460a4b5636bf6a3d9c160f6141ab5153fc5fc705ca79000c5f10370a978cb69"
+    }
+  ]
+}
