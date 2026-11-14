@@ -162,6 +162,6 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 
 **真V10已付及下一24维相关商。** [原五列等维不变扩张](notes/2026-11-14-r150-five-third-true-ten-dimensional-invariant-space-and-three-target-quotient-789f.md)给V10=U9+d9305；真实κ10成本87/e10=5，当前目标模V10余3维/J=2I，九坐标全保。197第三可进(Q/V10)_2的24维商，不能假设F10第一像；正仍真实全局/全部原式。
 
-**197局部正的原来源费用已付。** [两投影765路线](notes/2026-11-14-r150-197-third-positive-two-projectors-original-cost765-789f.md)给deg≤4、真P度≤196、三次原校正85→181/377→473/669→765，当前V10版最终十常数及κ10原项。下一跑真实197/24维必要系统，所有相容目标必须全局恢复、宽次数trace及原p6十七式；完整计算仍待执行。
+**197局部正的原来源费用已付。** [两投影765路线](notes/2026-11-14-r150-197-third-positive-two-projectors-original-cost765-789f.md)给deg≤4、真P度≤196、三次原校正85→181/377→473/669→765，当前V10版最终十常数及κ10原项。[197完整入口](notes/2026-11-14-r150-197-third-local-jet-interface-789f.md)已冻，即实际push后dispatch；24维必要系统的每个相容目标必须全局恢复、宽次数trace及原p6十七式，真实回执之前不预填完成。
 
 **固定源分量再降一阶。** [完整逆块证明](notes/2026-11-14-fixed-inverse-gauge-source-column-extra-tail-order-789f-next.md)对同一原f_a给||b′_a||²≤K_aS_m^(a+1)，a1精确预算S_m²/d0²；全零源/高返回保留。仍须支付原b=K*c′+G_U*b′的共同恢复，不由变换后小列推出N=M。
