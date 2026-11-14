@@ -99,7 +99,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 R295实际Turán/Catalan同源平方及最大原子分区已付全正权birth1/全height加强κ1024，原连续尾κ674/81；有限严格、无限固定height非严格。一般高birth及graph仍开；完整证明入口保[此前open](notes/2026-11-14-open-before-joint-recursion-789f.md)。
 
-[R296全birth残差/真实桥](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)将加强S1准确化为共同Z的运输界，保全低阶Schur、硬端和C²深塔。其各附录（见[索引](results.md)）已付完整拟合负二阶差/商不变，出生二τ≤1的全源精度夹逼z_S(τG1+τ²G2)/5至6倍、相邻首事件真实ridge及三切片Λ_high≤4τΛ_low的完整最优修正。共同物理二阶差与混合逆仍须支付，低原子面可退化；独立层界不能替代。
+[R296全birth残差/真实桥](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)将加强S1准确化为共同Z的运输界，保全低阶Schur、硬端和C²深塔。其各附录（见[索引](results.md)）已付完整拟合负二阶差/商不变，出生二τ≤1的全源精度夹逼z_S(τG1+τ²G2)/5至6倍、相邻首事件真实ridge及三切片Λ_high≤4τΛ_low的完整最优修正。[同源正交](notes/2026-11-14-source-orthogonality-parity-payment-and-intersection-polynomials-789f-next.md)已支付最高两Johnson通道，全部负项降至j≤s−2；交集多项式限deg≤s−1。真实ell、共同二阶差/混合逆仍缺，低原子面可退化。
 
 [R297弱位归约](results/R297-appendix-weak-bit-hard-top-universal-strengthened-equivalence.md)保完整跨出生/a⁻¹抵消，全部正权/出生/高度加强κ⇔奇数硬端首边同κ。真费A_U*L1L3⁻¹L1A_U，倒数桥B*L2²B≤κG1；两个未投影提升真五位发散而投影费<1/3。不能删压缩逆、桥平方或投影；非严格极限不代有限权界。全部证明见[索引](results.md)和[此前全文](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
 
