@@ -1,0 +1,71 @@
+{
+  "session": "serre-public-resume-20261114",
+  "job": {
+    "result": "R764-original-cusp-periods-and-base-translation",
+    "p": 41,
+    "budget_minutes": 15,
+    "producer_inputs_pending": false,
+    "version": "v2-reconstruction",
+    "core": "R764_original_cusp_periods_and_base_translation.py",
+    "core_sha256": "a2e77a39369d3021718e246087c532838da3da345f3335e12023a6960e5f3d97",
+    "method": "notes/R764-original-cusp-periods-and-base-translation-method.md",
+    "method_sha256": "5d6e283bd8262af8cc6280a411850280b7ad6d4573b8c3674ab596deb36ba9aa",
+    "r754_core_sha256": "f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251",
+    "r759_core_sha256": "17403f45f74e03e5a138376068e64e54c9bf6b2622a7b91bb178747d407708e0",
+    "retained": {
+      "R754": {
+        "run_id": "43620862489",
+        "source_commit": "b36d2c58b39f42a694236d48f64444bb6fe1d0af",
+        "artifact_name": "serre-global-R754-original-p41-periods-and-Hom-kernel-43620862489-1",
+        "artifact_id": 14125735974,
+        "artifact_zip_sha256": "9a58e842bc80654f77800f6e0db7f90655483e6c6469fc7791addb0db40c4ed1",
+        "manifest_sha256": "fd2bece7381df111a03ad6f3a7585e8c442196f2772aebd3d5f50e2aa3422c53",
+        "files": {
+          "p41-original-period-and-Hom-kernel-certificate.json": "da4ef0eeac285da5cf32ad1372155dbb9d03917c18044b81b8236fac6e51107c",
+          "R754-original-relative-periods.json.gz": "510a6928725df736d29d812513110c8d2542f191d8ca9bfcf0feb14ac1931ec2"
+        }
+      },
+      "R759": {
+        "run_id": "43625474728",
+        "source_commit": "4728e6868e2509556e5c60e138fd97c9b4120d8e",
+        "artifact_name": "serre-global-R759-original-integral-period-lattice-and-map-degrees-43625474728-1",
+        "artifact_id": 14125233728,
+        "artifact_zip_sha256": "2ae069c394c7038f10743c7d9c7981b509579780bca3d0c69772419e3836b883",
+        "manifest_sha256": "fb61ded80deb7f6904de7e0aa2e7a3f3b161a0ecd2f5f0c329e96935c4e9f1aa",
+        "files": {
+          "p41-original-integral-period-lattice-and-degree-certificate.json": "7c2c611b9a5f43bc3a2a0007bf2cb5dd2fa8d10f133b663dbca0d054e1515de0",
+          "R759-original-integral-maps-and-bounded-recovery-input.json.gz": "037b56d016d502408173319d76a3067a65dd50250c31bc2225c0fca598396ecc"
+        }
+      },
+      "R735": {
+        "run_id": "43608152850",
+        "source_commit": "ff405af51e13bb966fecd066a14513eee0947702",
+        "artifact_name": "serre-global-R732-p41-original-CM-model-43608152850-1",
+        "files": {
+          "p41-original-CM-model-certificate.json": "752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574"
+        }
+      },
+      "R738": {
+        "run_id": "43612108090",
+        "source_commit": "651aa3f7eaac6f97bfd7f87ec25b210eb7d6f4ca",
+        "artifact_name": "serre-global-R738-p41-original-period-input-43612108090-1",
+        "files": {
+          "original-cosets-and-markings.json.gz": "6a73cb699abb5e53328a040ec86bea2c4cac7ef690a29984912c43417cfd0161",
+          "integral-compact-Manin-cycles.json.gz": "d4dcbac16cc24cefd378fc7afea02fcd34b8043d255c1e84407ff7d21bd257cf"
+        }
+      }
+    },
+    "resume": null,
+    "dependencies": [
+      "results/R735-exact-original-p41-CM-model-and-Neron-input.md",
+      "results/R738-certified-original-p41-period-input.md",
+      "results/R745-certified-original-p41-Hodge-and-adelic-input.md",
+      "results/R751-original-period-compression-in-the-retained-degree-280-field.md",
+      "results/R762-original-mu3-quotient-and-single-function-map-recovery.md",
+      "notes/R759-original-integral-period-lattice-and-map-degree-method.md"
+    ],
+    "old_model_topology_periods_Hom_kernel_lattice_or_degrees_recomputed": false,
+    "actual_cusp_labels_or_c0_translations_claimed_before_run": false,
+    "actual_q_functions_beta_or_height_claimed": false
+  }
+}
