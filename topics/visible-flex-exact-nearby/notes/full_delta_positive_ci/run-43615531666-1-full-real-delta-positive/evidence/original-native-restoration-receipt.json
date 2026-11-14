@@ -1,0 +1,36 @@
+{
+  "complete": true,
+  "original_positive_run": 43601149891,
+  "original_repair_run": 43597921732,
+  "original_process_sha256": {
+    "positive": "48baba77aaff9956c66357da2f52812a53b9b6efca3708ce3bea418beaed3f65",
+    "repair": "16de872ce106e05b6add99d8406598de3cc87b94f4533a9fc3bb46294c66366a"
+  },
+  "inputs": {
+    "body": {
+      "sha256": "eefb94952a409473fed7f9c34afc9214a3346d8c3b19ed7e0a7fc6fd06f48a68",
+      "bytes": 16909572
+    },
+    "repaired_outer": {
+      "sha256": "75e7c0e1447306a97971ee05dcb68b8d357cb4fffa5c1a37335a6fc29a473424",
+      "bytes": 3879
+    },
+    "repair_source": {
+      "sha256": "05e0493dbe55490adec8fb6603e0ec431d1bc03f051aec86be8a78741f60f0a4",
+      "bytes": 6928837
+    },
+    "old_outer": {
+      "sha256": "b62e06091e0d46198b80f0442da3627fe0ea79d23500bf823a9a96ee2f95e117",
+      "bytes": 6528
+    },
+    "endpoint": {
+      "sha256": "8f6019cefaa96da64eadb3b19a98110dc81a0d5760a091e6fdffe538c971e606",
+      "bytes": 32287
+    },
+    "direction": {
+      "sha256": "87ed2f618bcaf77b0649abf561daea7225c9b7d667edc22afb91d86255da8f88",
+      "bytes": 502954
+    }
+  },
+  "all_original_completed_mathematics_recomputed": 0
+}
