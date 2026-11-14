@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_same_Z_native_point_Hessian_reweighted_Green_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43635487128",
   "run_attempt": "1",
@@ -74,6 +74,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T20:05:16.504215+00:00",
+      "before": "8ab5d98ebc7a6e47a1fc3d9e04da01d69b9b6c1c",
+      "after": "89564f4c7de68dd2a25674daf509896c62519c81",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -81,6 +89,11 @@
       "time": "2026-11-14T20:05:02.694764+00:00",
       "final": false,
       "commit": "8ab5d98ebc7a6e47a1fc3d9e04da01d69b9b6c1c"
+    },
+    {
+      "time": "2026-11-14T20:05:15.828235+00:00",
+      "final": false,
+      "commit": "89564f4c7de68dd2a25674daf509896c62519c81"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -115,7 +128,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "8ab5d98ebc7a6e47a1fc3d9e04da01d69b9b6c1c",
+  "last_read_commit": "89564f4c7de68dd2a25674daf509896c62519c81",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-native-point-Green-work/science",
   "actual_input_sha256": {
     "same-z-green": "eb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18",
@@ -128,9 +141,21 @@
     "quarter-process": "ed384e247e771fa6062dbeafa825b3d11d6b370624b79f8ba5fb70260302a28a",
     "cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba"
   },
-  "snapshot_utc": "2026-11-14T20:05:13.057962+00:00",
-  "wall_seconds": 12.969886321000004,
+  "snapshot_utc": "2026-11-14T20:05:16.568319+00:00",
+  "wall_seconds": 16.48024334200001,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 1191,
+      "sha256": "c8e96d1cf7482c7c1fd79b74935e70811a796a4e80283f49de7b93fa262dae5d"
+    },
+    {
+      "logical_file": "evidence/complete-native-point-Hessian-cut-and-Green-summary.json",
+      "file": "evidence/complete-native-point-Hessian-cut-and-Green-summary.json",
+      "bytes": 25633,
+      "sha256": "2fbdebedd95572e4122ae25a0276b31e88138e4a5a162506c8e1d2d98be36d04"
+    },
     {
       "logical_file": "evidence/original-cut-process.json",
       "file": "evidence/original-cut-process.json",
@@ -161,5 +186,23 @@
       "bytes": 3996581,
       "sha256": "7fcd5bec6763cb8ed84f7440fee568b2ec70adf804b610dd6cd368460a84ed66"
     }
-  ]
+  ],
+  "complete_native_sha256": "7fcd5bec6763cb8ed84f7440fee568b2ec70adf804b610dd6cd368460a84ed66",
+  "actual_scientific_gates": 8,
+  "complete_finite193_compressed_response_error_bound_proved": true,
+  "complete_finite193_same_Z_error_L2_bounds": {
+    "whole_inner_body": {
+      "ball": "[0.0074903017924002268320527925674708594714366540802097971822984622099279344731353984 +/- 3.85e-83]",
+      "lower": "[0.0074903017924002268320527925674708594714366540802097971822984622099279344731353984 +/- 3.85e-83]",
+      "upper": "[0.0074903017924002268320527925674708594714366540802097971822984622099279344731353984 +/- 3.85e-83]"
+    },
+    "fixed_negative_phase_window": {
+      "ball": "[0.0035094174455860169137954435899263320229607197781898623284644180317095750542552717 +/- 4.48e-83]",
+      "lower": "[0.0035094174455860169137954435899263320229607197781898623284644180317095750542552717 +/- 4.48e-83]",
+      "upper": "[0.0035094174455860169137954435899263320229607197781898623284644180317095750542552717 +/- 4.48e-83]"
+    }
+  },
+  "complete_finite193_negative_error_upper_below_one_over200": true,
+  "new_profile_rescalings_in_this_child": 6391,
+  "finished_utc": "2026-11-14T20:05:16.216702+00:00"
 }
