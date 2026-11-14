@@ -1,0 +1,52 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "snapshot-05e0493dbe55490adec8fb6603e0ec431d1bc03f051aec86be8a78741f60f0a4.json.gz",
+  "original_bytes": 6928837,
+  "original_sha256": "05e0493dbe55490adec8fb6603e0ec431d1bc03f051aec86be8a78741f60f0a4",
+  "native_kind": "actual_complete_original_to_repaired_known_response_source_v1",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 7721,
+  "original_source_sha256": "6e4e8f1a3f69fdc06c15a0471cedb62abce0740b4825ddf5a0d04de4b984d7ad",
+  "candidate_sha256": null,
+  "parts": [
+    {
+      "file": "native-complete-known-response-centre-repair-source.json.gz-05e0493dbe55490a-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "63a73044511f3804267968ccf0b5a7d8a391d7bc80f581a908b987ae0f445567",
+      "compressed_bytes": 1952821,
+      "compressed_sha256": "7a37ab54b42bf3f25506b8f2df9d96a9f81577d5d40d7fb3f10790a7c36fd377"
+    },
+    {
+      "file": "native-complete-known-response-centre-repair-source.json.gz-05e0493dbe55490a-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "1e0fccbede2a777c53f7123ec6952646345b327cb1c3927079d53b775890322a",
+      "compressed_bytes": 1933543,
+      "compressed_sha256": "6ecb09824f63fab77b58ef71e02f6049f500e41a5239288010ece6cda275c0b7"
+    },
+    {
+      "file": "native-complete-known-response-centre-repair-source.json.gz-05e0493dbe55490a-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 2000000,
+      "sha256": "4aeca2e97c6184761f8ae0e8f3627a99353fe666260e24cfc69c27accbc3c420",
+      "compressed_bytes": 1947538,
+      "compressed_sha256": "6acf8c2dfc656ea70ef93cd698282f08a0a87d4d303084bb5296ce09e89bb9ee"
+    },
+    {
+      "file": "native-complete-known-response-centre-repair-source.json.gz-05e0493dbe55490a-parts-part003.bin.gz",
+      "index": 3,
+      "offset": 6000000,
+      "bytes": 928837,
+      "sha256": "8c58061333580c01dcf4ff6e2108721709e3fefb9d48399794f255335b8ebc56",
+      "compressed_bytes": 910588,
+      "compressed_sha256": "949635523a179da21a458c9a61ad96f045af6613ad56945e62192721fc6dd656"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}
