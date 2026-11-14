@@ -210,3 +210,6 @@ M128/N1536短端.99475/264节点prepare真实0，原tol1e−5，BC0/col5.88685e�
 
 ### 2026-11-14T08:26:10+00:00 — halfaudit (local; public approval pending)
 本轮实际半步H原全尾audit真实exit0/232.18s、原残差1.49960e−9；完整审计packet/ready/snapshot和可移植计划保留，后续prefix精确身份复用后无闲置Node。不以尾已解替代前缀接受。
+
+### 2026-11-14T08:26:10+00:00 — halfsigkilltwo (local; public approval pending)
+无Node的半步r2仍在首J≥60/216批真实−9，218.79s/峰503680KiB，23件恢复。没有完整J或Newton试步，supervisor未收信号；原因未知，不作候选数学失败。
