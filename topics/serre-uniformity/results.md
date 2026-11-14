@@ -83,3 +83,5 @@
 - **R681（已证明）**：[SS_j9_22原规范高度与整盘排除](results/R681-SS_j9_22-actual-nonelliptic-height-and-complete-disk-exclusion.md)。完整304位链、459主函数、真实Norm及全尾；F2模47根[0, 13]与四同标签F3不相交。非CM SS累计102/105。
 
 - **R671（已证明）**：[SS_j9_10原规范高度与整盘排除](results/R671-SS_j9_10-actual-nonelliptic-height-and-complete-disk-exclusion.md)。完整304位链、459主函数、真实Norm及全尾；F2约化二次式判别式46非平方，四同标签全无根。非CM SS累计103/105。
+
+- **R699（已证明；范围见原文）**：[真实高度的有限规范输入与完整外积尾](results/R699-actual-height-finite-jets-and-complete-exterior-tail.md)。保留实际d_i、第二类周期与规范全纯差；μ3相容后自由高度常数降至g(Y)，用2g(Y)−1阶jet恢复。实际外积系数满足v(e_n)≥A_E−3pn/(p+1)−4⌊log_p n⌋，完整覆盖v(z)≥3；代数微分算子给有限可能首阶。所有实际赋值/首项及R616前提仍待，不新增候选排除。
