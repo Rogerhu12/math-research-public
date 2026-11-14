@@ -41,3 +41,5 @@
 - 2026-11-14 16:28:53 UTC：推真实逐片rootfold与closed forced Airy6件；全文核M.1–17及新科学源，保有向radial分片、完整mean和非零seam，199input原计算不重跑。只在公开Actions试真实域，随后接next幅度/实际strong。
 
 - 2026-11-14 16:30:48 UTC：全文核43615531666小process及两summary全部25+11门，独立发布全实δ外/正高证书；本体25.5MB留原13分片，无connector二进制。核runner16:27:32真pull至12b06502f2e4d522ca5dc16d6064267859b3a0a1，两README无差。
+
+- 2026-11-14 16:33:23 UTC：推特定w0完整帽Hessian5件/152input，独立于fullcut正在跑的physical残差格；核原cf055准确首延拓、4源/mean/resolvent及真实prefix恢复。随后以实际结果替换已知方向additive并重消费完整cut/Green。

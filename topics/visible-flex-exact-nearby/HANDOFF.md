@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 16:30:48 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 16:33:23 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则、同步
 
 只在 Rogerhu12/math-research-public；全部新数学代码只用公开 Actions。每结论独立推；非快进立即接新main/rebase再推，不force。root独占ref/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，不进文件/输出/提交/connector。
 最后本地真实pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35后终端失联，16:20重试仍无环境。根规则8只允许connector处理<100KB文本，禁止二进制及大文件；先查size，摘要≤60KB。API不是pull；终端恢复即回git。runner真实pull/核README差异≤10min或短child前后；已亲核43615531666于16:27:32拉到12b06502f2e4d522ca5dc16d6064267859b3a0a1，两README无差。
-最新远端 main/两README blob 核：3c74fdf23478c7883778f29ceaaee4b1bf9e7426；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。亲读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；独立rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
+最新远端 main/两README blob 核：13c3ce6e6b50a800cf635d33edb54cd0c5511c9d；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。亲读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；独立rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，objects /tmp/visible-exact-0df9-git-objects。
 压缩前H原字节见 notes/2026-11-14-handoff-before-actual-negative-one.md，其前档链保全；open/log前档为2026-11-14-{open,log}-before-closed-leading-amplitudes.md。各完整SHA/失败/端口在results与manifest，严禁重算已成数学或偷换对象。
 
@@ -52,3 +52,5 @@ H1–30已修openport量词：共同酉/双强窗仅内部列，E/F在v权L2<2^-
 待实际deep-low两侧Poisson+有限shallowprefix+全部source-to-label+jointΓ与最终原权。五盒j≥8193不能授浅层；未消low的SL不是effectiveU_M。
 geometry43584188751/26门仅条件充分：同一η0闭C²真解，fullC0≤1e−4、|δν|≤1e−5、所有outer球与matching⇒held/D>.05075888242、reach/D≥800/25039、Hdiam/D≥360/511，marker145..148保含反射δE>0。**真全逆、νSchur、非线性存在/状态球/holonomy与全部物理matching未成。**
 root管δ正区/发布；newton全源/边界/Green/响应；phase完整root/数值strong；tail实际外消元/最终权。完成子题即接open下项，不以报告、等待或时长停。
+
+同w0帽Hessian 152input新CI已推：1341local/1977交格，准确Tw0右乘后Legendre积分与逐槽Bernstein，原4Green/完整mean/旧resolvent保；0原physical residual重算。单列additive待actual，未知input仍收旧完整误差operator。旧cf055首格确实同样延拓至准确9/10，故逐行min合法。

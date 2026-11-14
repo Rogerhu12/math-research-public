@@ -313,3 +313,7 @@
 ## full realδ外图及全部正高块：实际25+11门通过
 
 [完整实际报告](results/R133-supplement-actual-full-real-delta-outer-and-positive-high.md)：43615531666两个child0，原4650/7721只读。固定物理角无限尾dC<3.950514e−20；完整Robin H1/6<2.522949e−6；实际外reflection<2.210049e−5、p*∈(1/8,1/5)。全部4650行/3594接口给χ0<.303291625133、χ1<.788277869833；order0含真外反馈，order1保独立右port。全realδ1e−8、完整mean/head/jump/unknownhigh保。新native outer5ab1d1b85cb71556b051fd53f5579cb30260ebdda6a844df9a4b377508e057fc、body1f3e5fa630f39a667a96102f103ac8977d00e580f698a83904f361c5a05c6f3c。继续新collar七列正根图与δ*真实rootstrong。
+
+## 同w0的完整帽Hessian费用：单列合同与公开消费者
+
+[H.1–8合同](notes/2026-11-14-R133-particular-cap-Hessian-contract.md)及152input新CI已推。只在原准确97输入（含mean）方向w0上计算T w0的二阶换坐标源，原1341local系数/1977真实Hermite交格/四个完整Green增益/旧resolvent全复用。普通源按真长度Legendre积分，divergence先逐Fourier槽径向sup再模式合并，无额外长度。原97HS×||w0||是同标量范数的独立界，首格准确9/10延拓已核，可逐行取min。未知input差eZ−w0仍由旧完整moving误差operator支付，不用单方向估计冒充算子界。真实预算待Actions，原source cells不重跑。
