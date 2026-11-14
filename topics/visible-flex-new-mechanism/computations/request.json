@@ -1,40 +1,27 @@
 {
-  "request": "fixed-kernel-integration-and-controlled-folded-ports",
-  "created_at": "2026-11-14T18:28:05.861227+08:00",
+  "request": "complete-second-order-band-period-conditions",
+  "created_at": "2026-11-14T18:32:56.121724+08:00",
   "repository": "Rogerhu12/math-research-public",
   "workflow": ".github/workflows/visible-new-mechanism-search.yml",
   "lanes": [
-    "kernel",
-    "core_folded"
+    "second_order"
   ],
-  "kernel": {
-    "theta_n": [
-      192,
-      384,
-      768
-    ],
-    "u_n": 64,
-    "modes": 6,
-    "degree": 10,
-    "epsilon": [
-      0,
-      1e-05,
-      0.0001,
-      0.005
-    ],
-    "fixed_trial_space": true,
-    "integration_refinement_only": true
-  },
-  "core_folded": [
+  "fixed_profile_circle": true,
+  "grids": [
     {
-      "length": 1.5,
-      "fold_min": -0.1
+      "theta_n": 384,
+      "xi_n": 64
     },
     {
-      "length": 1.8,
-      "fold_min": -0.2
+      "theta_n": 768,
+      "xi_n": 96
     }
   ],
-  "metric_design_not_fixed_metric_refinement": true,
+  "epsilon": [
+    1e-05,
+    0.0001,
+    0.001
+  ],
+  "different_epsilon_means_different_metric": true,
   "task_complete": false
 }

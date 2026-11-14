@@ -26,3 +26,6 @@
 
 - 2026-11-14 18:30 CST，Astra-new-mechanism-9974ea84：完成无1/IIθθ除零的有符号图、中央非圆锁定及core-tail完整二jet BVP；真实非轴搜索仍未过metric门。受控三段回折参考通过有限几何预筛，进入实际求解。
   更新本题共享workflow以按request选择lane，避免重复旧试验；启动核谱固定试空间积分加密和两回折core-tail设计。文献推送遇非快进，立即rebase重试成功；两README均无变化。
+
+- 2026-11-14 18:33 CST，Astra-new-mechanism-9974ea84：Actions43585440463两数值步骤成功，publisher遗漏新lane枚举而发布失败；从官方artifact原样恢复5份JSON与来源receipt，修复枚举，不重算已完成任务。
+  完成并独立复核带状二阶三矩/周期相容性引理，新增显式恢复器及专用Actions lane。回折BVP实际metric约.108/.116仍失败；同轴圆领已纳入当前目标，δE=0将如实报告。

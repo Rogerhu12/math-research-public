@@ -1,0 +1,30 @@
+{
+  "source_commit": "67f9d75499d1bcb7f6d77a3c34f8f8d133b8391d",
+  "run_id": 43585440463,
+  "run_attempt": 1,
+  "lane": "kernel",
+  "artifact_id": 14110051712,
+  "artifact_zip_sha256": "179cdf28d7c4bf9513863e43270ea27fa20965642bacd547eeca8d8b6e7d4543",
+  "retrieved_at": "2026-11-14T10:32:00.377970+00:00",
+  "numerical_step": "completed_successfully",
+  "original_publication_step": "failed because publisher lane choices omitted new lanes",
+  "recovery": "Downloaded unchanged public Actions artifact via GitHub connector; local extraction and ordinary reviewed repository commit",
+  "files": [
+    {
+      "path": "literature-kernel-q3-N384.json",
+      "bytes": 6727,
+      "sha256": "a827045921e1b8d2140639aeebb0bcdd3e3574faa766aa51a097e7c44c4366da"
+    },
+    {
+      "path": "literature-kernel-q3-N768.json",
+      "bytes": 6737,
+      "sha256": "9e556fb723a372eb9062e49bf0328fc5dec55122178a8ea7f425e309ad03bb70"
+    },
+    {
+      "path": "literature-kernel-q3-N192.json",
+      "bytes": 6738,
+      "sha256": "87a969b7037f60a8da717ebc9a2e6eaa934fa2e163ef8b12022998d753cade03"
+    }
+  ],
+  "task_complete": false
+}

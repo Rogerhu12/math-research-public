@@ -1,0 +1,25 @@
+{
+  "source_commit": "67f9d75499d1bcb7f6d77a3c34f8f8d133b8391d",
+  "run_id": 43585440463,
+  "run_attempt": 1,
+  "lane": "core_folded",
+  "artifact_id": 14110665799,
+  "artifact_zip_sha256": "583f8ae106082de259c7c34c2cfdf722f1693bea1834205a2ac26d664d185b25",
+  "retrieved_at": "2026-11-14T10:32:00.559446+00:00",
+  "numerical_step": "completed_successfully",
+  "original_publication_step": "failed because publisher lane choices omitted new lanes",
+  "recovery": "Downloaded unchanged public Actions artifact via GitHub connector; local extraction and ordinary reviewed repository commit",
+  "files": [
+    {
+      "path": "core-tail-folded-L15.json",
+      "bytes": 11585,
+      "sha256": "0b365e6a7c7a380d7890796bb960e46594969aaf8ad578dd50b6273e3d39a445"
+    },
+    {
+      "path": "core-tail-folded-L18.json",
+      "bytes": 11531,
+      "sha256": "4f5b05b824b7af9007bfb1f155af1c44567a1ee55316e2953a8a5558d5a9b045"
+    }
+  ],
+  "task_complete": false
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "literature-band-kernel-v1",
+  "source": "https://arxiv.org/html/2611.17269v1",
+  "status": "Finite-trial-space linearized diagnostic; no rigidity or flexibility theorem",
+  "parameters": {
+    "q": 3,
+    "power": 1,
+    "center": -3,
+    "sigma": 1.5,
+    "delta": 0.3,
+    "theta_n": 768,
+    "u_n": 64,
+    "modes": 6,
+    "degree": 10,
+    "exact_fields": 4,
+    "epsilon": [
+      0.0,
+      1e-05,
+      0.0001,
+      0.005
+    ]
+  },
+  "reference": {
+    "reference_integrals": {
+      "I0": -6.947619822455671,
+      "I1": 0.5001222657914671,
+      "reference_n": 32768
+    },
+    "amplitude": 13.891842650638107,
+    "sampled_reference_diameter": 10.082566083020303,
+    "profile_left": 30.2156021441754,
+    "profile_right": 60.4312042883508,
+    "field_scale": 13.84334143429248,
+    "raw_field_sampled_max": 0.7283332662765906,
+    "omega_quadrature_192_vs_384_error": 2.8066438062523957e-13
+  },
+  "basis": "Fourier(theta) times (1-z^2)^3 Legendre(z), z affine in xi, in (T,N,B), plus exact compact bending fields of X",
+  "boundary": "Value and first two derivatives vanish at both boundaries of the SAME characteristic strip as Y0",
+  "support": "Trial fields vanish outside Y0 active strip; unchanged disjoint-support kernel fields are excluded",
+  "metric": "Each epsilon labels a separate fixed g_epsilon; varying epsilon itself is not an isometric family",
+  "spectra": [
+    {
+      "epsilon": 0.0,
+      "rows": 147456,
+      "columns": 433,
+      "smallest_dimensionless_singular_values": [
+        1.3576723201961006e-14,
+        1.6656301098082584e-14,
+        3.0425669252036e-14,
+        3.088255757480651e-14,
+        1.273863202261931,
+        1.5376155592923773,
+        1.5376155592924001,
+        1.9010693671978955,
+        2.227569202937012,
+        2.2275692029371075,
+        2.7064962662992893,
+        2.975698724235969
+      ],
+      "largest_dimensionless_singular_value": 50196.93633193643,
+      "min_metric_determinant": 3.718852398657734,
+      "known_X_bending_identity_max_absolute_residual": 2.7284841053187847e-12,
+      "sampled_field_max_over_reference_D": 0.9987821449479389,
+      "mass_condition_number": 186489563.73484272,
+      "max_relative_metric_perturbation_from_X": 0.0,
+      "endpoint_plus_minus_relative_metric_error": 0.0,
+      "differential_geometry": {
+        "sampled_gaussian_curvature_min": -0.2827672120236441,
+        "sampled_gaussian_curvature_max": -0.00011779221232234863,
+        "sampled_max_abs_principal_curvature": 0.6512922497694436,
+        "sampled_principal_radius_over_reference_D": 0.1522835570933004,
+        "X_gaussian_relative_nodal_error": 8.009238602675247e-12
+      }
+    },
+    {
+      "epsilon": 1e-05,
+      "rows": 147456,
+      "columns": 433,
+      "smallest_dimensionless_singular_values": [
+        1.2023402378939638,
+        1.3472154892592025,
+        1.6024556968350345,
+        1.602455696835105,
+        2.306838764675205,
+        2.55218612823998,
+        2.56975486012947,
+        2.5697548601295126,
+        3.1347020136518653,
+        3.42996601610175,
+        3.6791395642448053,
+        3.6791395642448226
+      ],
+      "largest_dimensionless_singular_value": 50193.020965265125,
+      "min_metric_determinant": 3.718852398657734,
+      "known_X_bending_identity_max_absolute_residual": 2.7284841053187847e-12,
+      "sampled_field_max_over_reference_D": 0.9987821449479389,
+      "mass_condition_number": 186473627.4973668,
+      "max_relative_metric_perturbation_from_X": 0.000678132141555779,
+      "endpoint_plus_minus_relative_metric_error": 7.586543938929513e-16,
+      "differential_geometry": {
+        "sampled_gaussian_curvature_min": -11.870178355639544,
+        "sampled_gaussian_curvature_max": 6.009038917358959,
+        "sampled_max_abs_principal_curvature": 86.41949781040961,
+        "sampled_principal_radius_over_reference_D": 0.0011476704102097006
+      }
+    },
+    {
+      "epsilon": 0.0001,
+      "rows": 147456,
+      "columns": 433,
+      "smallest_dimensionless_singular_values": [
+        1.5917930203517967,
+        2.0260072092995194,
+        2.0260072092996406,
+        2.606490580453446,
+        3.1856553100593343,
+        3.565888658403757,
+        3.5658886584038068,
+        4.027803678497609,
+        4.190864851107472,
+        4.666520317630616,
+        5.069049867375579,
+        5.069049867375637
+      ],
+      "largest_dimensionless_singular_value": 49815.431808399,
+      "min_metric_determinant": 3.718852398657734,
+      "known_X_bending_identity_max_absolute_residual": 2.7284841053187847e-12,
+      "sampled_field_max_over_reference_D": 0.9987821449479389,
+      "mass_condition_number": 184929975.59353885,
+      "max_relative_metric_perturbation_from_X": 0.0678132141555779,
+      "endpoint_plus_minus_relative_metric_error": 6.643557959520291e-16,
+      "differential_geometry": {
+        "sampled_gaussian_curvature_min": -1119.191042387548,
+        "sampled_gaussian_curvature_max": 582.8619522892766,
+        "sampled_max_abs_principal_curvature": 841.1572036890009,
+        "sampled_principal_radius_over_reference_D": 0.00011791030269635438
+      }
+    },
+    {
+      "epsilon": 0.005,
+      "rows": 147456,
+      "columns": 433,
+      "smallest_dimensionless_singular_values": [
+        14.186648862510758,
+        22.607663428986108,
+        23.413848782823795,
+        23.413848782823916,
+        24.655551135607322,
+        30.476492088429165,
+        30.476492088429314,
+        33.45233949767786,
+        43.382335672881865,
+        43.38233567288221,
+        44.594582187959546,
+        49.985898790739405
+      ],
+      "largest_dimensionless_singular_value": 24003.70172748534,
+      "min_metric_determinant": 3.718852398657734,
+      "known_X_bending_identity_max_absolute_residual": 2.7284841053187847e-12,
+      "sampled_field_max_over_reference_D": 0.9987821449479389,
+      "mass_condition_number": 77185955.19748652,
+      "max_relative_metric_perturbation_from_X": 169.53303538894474,
+      "endpoint_plus_minus_relative_metric_error": 6.632715186915395e-16,
+      "differential_geometry": {
+        "sampled_gaussian_curvature_min": -25714.943698247935,
+        "sampled_gaussian_curvature_max": 16748.190183407303,
+        "sampled_max_abs_principal_curvature": 9632.083089254367,
+        "sampled_principal_radius_over_reference_D": 1.0296952339711063e-05
+      }
+    }
+  ],
+  "caveats": [
+    "Tiny Galerkin singular values need resolution convergence and nonlinear continuation.",
+    "Positive finite-dimensional singular values do not exclude omitted smooth kernel fields.",
+    "The exact X bending fields supply a zero-mode baseline at epsilon=0.",
+    "No embedding, reach, cap, or global closed-surface claim is made."
+  ]
+}

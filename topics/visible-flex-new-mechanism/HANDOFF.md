@@ -1,6 +1,6 @@
 # 交接：大振幅新机制
 
-**尚无满足完成标准的解。** 会话 `Astra-new-mechanism-9974ea84`，2026-11-14。当前主线：具有偏心/非平行圆领的相位环带，用末端相对刚体运动改变完整闭面的像；尚未解出所需环带，不把条件组装当构造完成。
+**尚无满足完成标准的解。** 会话 `Astra-new-mechanism-9974ea84`，2026-11-14。当前主线：非圆核心接准确圆领的相位环带，以及公开带状等距对的高阶连续校正。因本题不再要求δE，同轴双圆领也可先行；尚未解出所需环带，不把条件组装当构造完成。
 
 ## 目标与约束
 
@@ -9,7 +9,7 @@
 ## 规则与同步
 
 - 已完整读公开根 README 和本课题 README，校对 `visible-flexible-closed-surface/README.md` 的 $D,H,\delta_{\rm hold},\delta_E$ 定义。
-- 公开仓库最后已读规则提交：`8d7ea72692195043e406129ead9c6e09d6a4d6d3`；该次实际 `git pull --rebase origin main` 成功，随后两 README diff 为空。
+- 公开仓库最后已读规则提交：`24297d8e61dbcf04fe4fc3e6174f7fde2b023821`；该次实际 `git pull --rebase origin main` 成功，随后两 README diff 为空。
 - 作者指定的 QUEUE 领取已执行成功。研究与计算在本公开仓库；公开笔记只使用公开来源和独立推导。
 - 每次 pull 后比较这两个公开 README，变更仅读差异并照办；至少每小时 pull。每条结论立即提交并在推前 pull；非快进拒绝即 rebase 重试，不强推。
 - 令牌仅瞬时命令行认证，不入文件；数值大数组/网格不读入对话。根 LOG 不写；结果单文件、Markdown 小于100KB，数据大于1MB压缩且单件小于5MB。
@@ -48,7 +48,8 @@ Actions的文献q=3种子使用同一闭合权重和物理带宽。参考带的�
 3. 可计算新机制与大偏心核心的闭合比较；完整空间曲面/时间族才进入最终指标与网格生成。
 4. 本题公开 workflow `.github/workflows/visible-new-mechanism-search.yml` 已实际运行 `43584472315`：seeds job成功并推回 `notes/actions-43584472315-1-seeds/`，偏心续接仍运行。文献带状种子的闭合残差随固定参数精化到约`1e-14`；它仍不是闭曲面连续族。继续固定问题的核谱积分加密和真实回折BVP。
 5. 同时继续 `core_to_tail_bvp.py` 一侧实际连接及有符号Frenet版单位切向BVP。
-6. 已保存有符号图、中央非圆截面锁定及8个core-tail实际BVP的失败数据；最细一侧设计metric约`.015232`，不是精确连接。新的受控回折参考在有限几何筛查中有预算余量，下一Actions运行L=1.5/minβ=-.1和L=1.8/minβ=-.2，详见 `notes/core-tail-computation-20261114.md`；同时运行固定核试空间的积分加密。
+6. 有符号图、中央非圆锁定及8个core-tail实际BVP已保存；最细原一侧设计metric约`.015232`。Actions `43585440463` 的核谱三档与两回折BVP均实际完成；回折metric为`.108487/.116044`，仍失败。publisher忘记新增lane枚举导致发布失败，已从官方artifact原样恢复到对应 `notes/actions-43585440463-1-*/`，补来源receipt并修复枚举，未重复数值计算。
+7. `notes/literature-second-order-moments-20261114.md` 证明三矩保持和完整线性化range条件；三矩仅解决逐ruling积分，剩余逐闭ξ叶的周期函数仍须归零。已实现显式二阶恢复器，下一Actions固定profile设计做384×64、768×96两档诊断；投影减均值保留原障碍，绝不冒充精确解。
 
 ## 工作文件
 
