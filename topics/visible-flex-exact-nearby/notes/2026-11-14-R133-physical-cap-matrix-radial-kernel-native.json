@@ -1,0 +1,63 @@
+{
+  "actual_background_or_full_cap_verified": false,
+  "all_columns": 96,
+  "complete": true,
+  "directed_mean_upper": {
+    "ball": "[13.386560424545301814809715187597800 +/- 1.88e-34]",
+    "lower": "[13.386560424545301814809715187597800 +/- 1.88e-34]",
+    "mid_float": 13.386560424545301,
+    "radius_upper_float": 0.0,
+    "upper": "[13.386560424545301814809715187597800 +/- 1.88e-34]"
+  },
+  "directed_ordinary_upper": {
+    "ball": "[1.9123657749351286920855484411619765 +/- 1.73e-35]",
+    "lower": "[1.9123657749351286920855484411619765 +/- 1.73e-35]",
+    "mid_float": 1.9123657749351286,
+    "radius_upper_float": 0.0,
+    "upper": "[1.9123657749351286920855484411619765 +/- 1.73e-35]"
+  },
+  "directed_weighted_upper": {
+    "ball": "[0.36140316116211946988661639430006035 +/- 4.35e-36]",
+    "lower": "[0.36140316116211946988661639430006035 +/- 4.35e-36]",
+    "mid_float": 0.36140316116211946,
+    "radius_upper_float": 0.0,
+    "upper": "[0.36140316116211946988661639430006035 +/- 4.35e-36]"
+  },
+  "exact_mean_square": "896/5",
+  "exact_ordinary_square": "128/35",
+  "exact_weighted_square": "32/245",
+  "first_exact_polynomial": "(z-z^3) cos(28 theta), each of the 96 columns",
+  "full_grid": 512,
+  "gates": [
+    {
+      "name": "all 96 columns and sine/cosine Gram: exact ordinary integral",
+      "passed": true
+    },
+    {
+      "name": "directed ordinary rounding remains below one nanounit",
+      "passed": true
+    },
+    {
+      "name": "the physical frequency is 28 in the complete inverse-root weight",
+      "passed": true
+    },
+    {
+      "name": "directed weighted rounding remains below one nanounit",
+      "passed": true
+    },
+    {
+      "name": "the independent true mean has Gram one",
+      "passed": true
+    },
+    {
+      "name": "the complete mean ordinary integral is retained tightly",
+      "passed": true
+    }
+  ],
+  "kind": "actual_exact_cap_matrix_radial_Fourier_kernel_check_v1",
+  "physical_frequency": 28,
+  "second_exact_polynomial": "1+z^2 in the true mean, each of the 96 columns",
+  "source_sha256": "fcc49d7a9c1e27a0f11f93a38aa4161e8a2af8126163d63d3017672e2612f247",
+  "tested_consumer_sha256": "22ea1004561ac6c8b95bb20c7629724b624571fda869c93214ead7ffc07ebd25",
+  "wall_seconds": 7.800060584000676
+}
