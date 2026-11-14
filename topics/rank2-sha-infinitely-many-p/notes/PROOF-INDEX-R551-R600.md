@@ -12,3 +12,6 @@
 
 - [R557：同一carry的第三来源返回与双态零质量](../results/R557-third-source-common-carry-zero-mass-and-central-rows.md)：MH=2ω(c−d)使原C/F/Dj/Ej整覆盖、半特征和全部scalar β核在η/h中保持；同一R536七行q严格保持整个π4。原Dn的所有自由x测试同时零，质量比rη=−(12+8ω)/7；三原观察在η/h各有显式单位首项与精确赋值n，η未归一Y−W首项相消给≥2n，h差仍v=n。原native uj条带非π4，完整补域仍保。
 
+
+- [R558：原第三来源Y−W差的准确二阶与共同无限单位ray](../results/R558-third-source-exact-second-order-and-common-affine-unit-ray.md)：原同一q的真实L3行约化为固定仿射式−a3+(a3+b3)barπ0；清分母后用复绝对值与固定CRT ray严格排除π0整除，得到共同无穷p的单位性。原η未归一Y−W二次项准确为d(1+λκ)(−96−158ω)L3/(343b)，故同一Dn在全部n≥1赋值恰2n。M3、C3及完整右逆来源固定可复现，所有原中央补域仍保持。
+
