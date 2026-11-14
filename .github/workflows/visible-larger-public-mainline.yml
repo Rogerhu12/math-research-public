@@ -11,7 +11,7 @@ on:
         description: Actual numerical calculation
         type: choice
         default: all
-        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded]
+        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection]
 
 permissions:
   contents: write
@@ -39,7 +39,7 @@ jobs:
           python - <<'PYLANES'
           import json, os
           from pathlib import Path
-          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded'}
+          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection'}
           if os.environ['EVENT_NAME'] == 'workflow_dispatch':
               selected = os.environ['DISPATCH_LANE'] or 'all'
               lanes = ['free3', 'geometry', 'coupling', 'tailzero', 'cardinal'] if selected == 'all' else [selected]
@@ -93,6 +93,8 @@ jobs:
             /topics/visible-flex-larger-amplitude/notes/2026-11-14-stage28-original-rk48-input/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-tailzero112/zero-H-T112/
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43590496434-1-coupling112/full-DN112/reduced-001.npz
             /topics/visible-flex-larger-amplitude/notes/public-actions-43586618658-1-gwcompat/GW-cusp-compatibility/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43585737152-1-coupling/preparation/prepared.json.gz
             /topics/visible-flex-larger-amplitude/notes/public-actions-43585737152-1-coupling/full-DN/RMS-domain-preflight.json
@@ -119,11 +121,12 @@ jobs:
         with:
           python-version: '3.12.14'
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        if: matrix.lane != 'banddirection'
         with:
           node-version: '24.22.1'
       - run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
       - name: Restore pinned source bytes only from the public repository
-        if: matrix.lane != 'free3' && matrix.lane != 'gwcompat' && matrix.lane != 'circleprobe' && matrix.lane != 'gwvelocity'
+        if: matrix.lane != 'free3' && matrix.lane != 'gwcompat' && matrix.lane != 'circleprobe' && matrix.lane != 'gwvelocity' && matrix.lane != 'banddirection'
         run: |
           PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PY'
           import os
@@ -302,6 +305,18 @@ jobs:
             --warm topics/visible-flex-larger-amplitude/notes/public-actions-43585737152-1-coupling/preparation/prepared.json.gz \
             --rms-report topics/visible-flex-larger-amplitude/notes/public-actions-43585737152-1-coupling/full-DN/RMS-domain-preflight.json \
             --out "$VISIBLE_OUT/material-circle-domain-probe.json.gz"
+      - name: Diagnose the saved actual band-LU direction without another Jacobian or tail solve
+        if: matrix.lane == 'banddirection'
+        timeout-minutes: 35
+        run: |
+          export ACTUAL_BAND_RUN="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded"
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_actual_direction_probe.py" \
+            --accepted "$VISIBLE_ACCEPTED" \
+            --warm "$ACTUAL_BAND_RUN/preparation112/prepared.json.gz" \
+            --run-dir "$ACTUAL_BAND_RUN/full-DN112" \
+            --tail-config "$ACTUAL_BAND_RUN/T112-config.json" \
+            --qr-reduced "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43590496434-1-coupling112/full-DN112/reduced-001.npz" \
+            --out "$VISIBLE_OUT/direction-probe"
       - name: Check the actual controlled scalar and complete physical RHS
         if: matrix.lane == 'coupling' || matrix.lane == 'couplingcheck'
         run: |

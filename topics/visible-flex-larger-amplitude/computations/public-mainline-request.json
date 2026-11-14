@@ -1,10 +1,10 @@
 {
-  "request": "20261114-public-large-core-mainline-11",
+  "request": "20261114-public-large-core-mainline-12",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "coupling112banded"
+    "banddirection"
   ],
   "modes": 112,
   "quadrature": 2048,
-  "scope": "Address the actually observed original M112 first-linear-solve residual/RHS 0.913332499 in run43590496434. Use the same complete original finite collocation matrix with only its equation rows permuted into a full pivoted LAPACK band LU, not forward nullspace propagation. Retain all 338 physical, 112 core and 3 scalar rows/columns, the actual prepared699 SHA 0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714, the passed full boundary FD and the same true T112/N2048 exact-zero anchor. No failed966 interpolation is reused. Compute residuals against all original disk L/R blocks and use at most four same-matrix residual corrections; retain original 17-trial Newton, RMS1e-6, BC1e-11, maxnodes1200, frozen-physical RMS and full actual-tail gates. New nonzero H and final audit still use the native worker. Same-run genuine acceptance continues to its own physical readout and actual-tail closure, then R249 exact inlet parity audit and closure reusing the same complete-4 tail readout. All whole-field metric, geometry, reach, true image amplitude and fixed-metric refinement requirements remain."
+  "scope": "Consume only the exact saved actual run43592195185 complete band-LU direction, original RHS, unchanged 699-node warm, complete true T112 zero anchor/J and prior run43590496434 endspace/reduced matrix. Evaluate the original full collocation and real boundary residual along alpha=2^-k for k=0..40; smaller-than-original steps are diagnostic only. Independently evaluate the full ODE directional derivative through its supported complex path and use the original real endpoint boundary Jacobian, never a complex material inverse. Diagnose the actual P, physical/radial derivative maps, explicit core/scalar terms, complete right-BC and saved reduced endspace, including complete sampled material frequency content. No new full Jacobian, band factor, native source restoration, Node worker, zero-tail solve, nonzero-tail solve or nonlinear acceptance is performed. All exact source/input hashes and original gates remain explicit."
 }

@@ -25,7 +25,7 @@ request08/run43588155190 prepare112真success：699节点全部node/mid/两RMS�
 同run tailzero112真SUCCESS/artifact14111343237：1351.741789s、resid/fullD0、全338×112 J/577×224states/raw/audit；strict源码/config/capacity同prepare。response SHA6b4ff3e5…，J-second相对1.524e−12、ready差.035157884、chart condition3.856e20均保留，不冒稳定。完整七件身份见actual-T112-zero-anchor-and-J-audit note。
 request10/run43590496434/sourceeef66c97真failure，artifact14112675738已取回22件、bot归档小包。实际QR699/453首线性残差.006494337572/RHS=.913332499，最坏interval697/z110，方向max9658；17回溯全非finite、无接受步，随后966点invalid。core/p/左BC仍近roundoff，rightBC1.996e−7；小方块几十方向在浮点噪声，不能称仅3控制核。零锚strict复用一次、整个anchor/J同原实际，新H worker请求0。详见actual-M112-first-QR-failure-and-banded-next及zero-cache-boundary两note。
 request11/run43592195185/source4f0af15c真failure：完整带LU info0、共享指针、13.274s、RSS5717864KiB；原残差/RHS降至3.27382357e−4但方向max5832.77，normwise backward2.13e−18不代相对残差。一次校正变差未采用。17trial全非finite，α=2^-16仍52坏node/122mid/112右BC；无接受步，966插值再invalid。真零锚复用1、新H request0。26件artifact14113206288已取回，publisher漏lane已修，25件限额内补归档。详见actual-complete-band-LU-result-and-direction-next note。
-下一仅消费本次真step/rhs/699warm/实际anchor作方向域+Taylor及当前P/完整rightBC条件诊断，α延至2^-40仅诊断，不改原17回溯/RMS/BC/max1200门、不重建Jac/尾。amplitude正写独立入口。带LU源0780dcc4…/wrapper390387db…冻结；完整排列/CLI见complete-band-LU-continuation。尚无新接受场，后续同run原闭包+R249复用complete4链已接。
+request12仅banddirection，入口actual_direction_probe SHA0149e7f1…已冻并接workflow：真step/rhs/699warm/anchor/旧Uend逐SHA绑定，原ODE完整方向complex、BC只原实Jac；α至2^-40仅诊断，完整P/Qs/Qr/Qc/Qp/rightBC/θ谱都报，不重建全Jac/尾或改原门。推后取runID。带LU0780dcc4…/wrapper390387db…冻结；尚无新接受场，原闭包+R249复用complete4链已接。
 
 ## 尾、接缝、同g身份
 
