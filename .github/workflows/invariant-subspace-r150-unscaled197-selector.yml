@@ -1,0 +1,100 @@
+name: ISP R150 saved197 unscaled first-carry source coordinates
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: isp-r150-unscaled197-selector-789f
+  cancel-in-progress: false
+
+jobs:
+  selector:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+            .github/workflows
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Bind exact source, both rules and four saved197 small files
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-unscaled197-selector-actions-prepare-789f.py --mode source
+      - name: Install the exact finite-field dependency
+        run: |
+          python3 -m pip install python-flint==0.9.0
+          python3 -m pip show python-flint > "$ISP_UNSCALED197_OUT/results/python-flint-version.txt"
+      - name: Read exact original197 source coordinates within10seconds and512MiB
+        id: exact
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          timeout --kill-after=5s 10s prlimit --as=536870912 --core=0 -- \
+            python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-unscaled197-first-carry-source-space-789f.py \
+            --prepared-receipt "$ISP_UNSCALED197_OUT/recovery/inputs/prepared-receipt.json" \
+            --prepared-system "$ISP_UNSCALED197_OUT/recovery/inputs/prepared-system.bin.gz" \
+            --complete-receipt "$ISP_UNSCALED197_OUT/recovery/inputs/complete-receipt.json" \
+            --complete-system "$ISP_UNSCALED197_OUT/recovery/inputs/complete-system.bin.gz" \
+            --out "$ISP_UNSCALED197_OUT/recovery/calculation" \
+            2>&1 | tee "$ISP_UNSCALED197_OUT/results/actions-console.log"
+      - name: Preserve the exact result scope
+        if: always() && env.ISP_UNSCALED197_OUT != ''
+        env:
+          ISP_EXACT_OUTCOME: ${{ steps.exact.outcome }}
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-unscaled197-selector-actions-prepare-789f.py --mode outcome
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_UNSCALED197_OUT != ''
+        with:
+          name: isp-r150-unscaled197-selector-results-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_UNSCALED197_OUT }}/results
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_UNSCALED197_OUT != ''
+        with:
+          name: isp-r150-unscaled197-selector-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ env.ISP_UNSCALED197_OUT }}/recovery
+      - name: Publish every actual output with real pull and immediate rebase retries
+        if: always() && env.ISP_UNSCALED197_OUT != ''
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-unscaled197-selector-actions-publish-789f.py \
+            --checkout "$GITHUB_WORKSPACE" --results "$ISP_UNSCALED197_OUT/results" \
+            --recovery "$ISP_UNSCALED197_OUT/recovery" --work "$RUNNER_TEMP/isp-r150-unscaled197-selector-publication"
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_UNSCALED197_OUT != ''
+        with:
+          name: isp-r150-unscaled197-selector-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ env.ISP_UNSCALED197_OUT }}/results/publication
+      - name: Require actual complete readout and actual Git publication
+        if: always() && env.ISP_UNSCALED197_OUT != ''
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          root=Path(os.environ['ISP_UNSCALED197_OUT'])/'results'
+          r=json.loads((root/'actions-outcome.json').read_text())
+          p=root/'publication/publication-receipt.json'
+          publication=json.loads(p.read_text()) if p.exists() else {}
+          print(json.dumps(publication),flush=True)
+          if r.get('complete') is not True or publication.get('status')!='pushed':
+              raise SystemExit('Exact readout or real publication incomplete; all actual outputs retained')
+          PYCODE
