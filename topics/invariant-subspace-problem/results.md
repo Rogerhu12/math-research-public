@@ -763,3 +763,7 @@
 ### R297 附录：全出生全高度加强序等价于奇数硬端首边
 
 [完整证明](results/R297-appendix-weak-bit-hard-top-universal-strengthened-equivalence.md)给加入弱位并提高出生的实际首费用范数极限：h≥3为两旧出生费用直和，h=3保旧上C2=0；h=2由临界抵消得到0与旧低首费用直和。任意严格反例能用h−1个依次足够小的有限正权传至M′=2r′+1，常数κ不变。故全部有限模型首加强κ⇔仅奇数硬端首加强κ，再接R293得全部高度同κ。硬端目标仍未证，原graph和无限移动出生预算未被自动支付。
+
+### R297 附录：奇数硬端创新消逆与单一真实对偶删除目标
+
+[完整证明](results/R297-appendix-odd-hard-top-innovation-and-dual-lowering-cancellation.md)在M=2r+1保真实对偶A=Σbi^−1Ei及完整MP塔，用混合交换块得L3B=L2BG1−2L1A_U，故Δ*C1^−1=−L1A_U。全部有限正权/全出生/全高度加强κ现准确等价于硬端A_U*L1L3^−1L1A_U≤κI。L3给真实补集对角压缩，显式有界物理提升足够，最小解的重写不算费用证明；统一界和graph仍开。

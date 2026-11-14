@@ -101,7 +101,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R296全birth残差/真实桥](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)将加强S1准确化为共同Z的运输界，保全低阶Schur、硬端和C²深塔。其各附录（见[索引](results.md)）已付完整拟合负二阶差/商不变，出生二τ≤1的全源精度夹逼z_S(τG1+τ²G2)/5至6倍、相邻首事件真实ridge及三切片Λ_high≤4τΛ_low的完整最优修正。共同物理二阶差与混合逆仍须支付，低原子面可退化；独立层界不能替代。
 
-[R297任意临界池弱位](results/R297-weak-bit-critical-pool-cancellation-and-first-edge-transfer.md)现付M=2s加入a↓0的完整标准化首费用范数极限diag(0,旧低出生首费用)：真实对偶sl2、跨出生来源与全部上下源/剪切保留，a^−1危险项精确抵消。严格界或反例可传充分小有限正a；非严格极限不自动给有限a同常数。[弱位有限反例传输](results/R297-appendix-weak-bit-hard-top-universal-strengthened-equivalence.md)现将全部有限正权/出生/高度的加强κ问题，同常数等价归约到M=2r+1奇数硬端首边：h≥3保完整精度连续性，h=2保真实奇异抵消，迭代h−1次始终取有限正权。硬端统一κ仍未证，原graph预算不由此自动闭合。
+[R297任意临界池弱位](results/R297-weak-bit-critical-pool-cancellation-and-first-edge-transfer.md)现付M=2s加入a↓0的完整标准化首费用范数极限diag(0,旧低出生首费用)：真实对偶sl2、跨出生来源与全部上下源/剪切保留，a^−1危险项精确抵消。严格界或反例可传充分小有限正a；非严格极限不自动给有限a同常数。[弱位有限反例传输](results/R297-appendix-weak-bit-hard-top-universal-strengthened-equivalence.md)现将全部有限正权/出生/高度的加强κ问题，同常数等价归约到M=2r+1奇数硬端首边：h≥3保完整精度连续性，h=2保真实奇异抵消，迭代h−1次始终取有限正权。[硬端消逆](results/R297-appendix-odd-hard-top-innovation-and-dual-lowering-cancellation.md)进一步精确给Δ*C1^−1=−L1A_U，A=Σbi^−1Ei；统一目标现是A_U*L1L3^−1L1A_U≤κI，L3为真正补集对角压缩。需构造有界实际提升或反例，不能互换压缩与逆；原graph预算不由此自动闭合。
 
 [R286 固定源全高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源逆平方根能量和原慢尾全height/几何和。实际t_q祖先出生随q上移，固定birth塔最终无分量；受限逆后不自动保有限支持/固定birth，跨出生graph、完整e_q和N=M仍开。
 
