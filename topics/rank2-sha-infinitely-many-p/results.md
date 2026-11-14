@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R471：原六sigma因式与完整八输入carry](results/R471-original-six-sigma-normtwo-factor-and-complete-input-carry.md)：原101/64整组合准确化为σ⁴σ2σ8Θ4²，保全部八独立输入、真实全深与输出进位。原连接和非零单位质量log全付；Theta反卷积必须运输相加单位测试，不替未投影来源或外谱赋中央零。
+
 - [R468：第三真实中央行、三高轴Hensel与六条carry](results/R468-third-original-central-row-three-axis-hensel-and-six-carry-interface.md)：新U136的准确角多项式、全部三权聚合及单位三轴Jacobian保真正固定参数；原完整M首位不变、首次提升仅六真实末行。ell1给实际2×2 Schur而原全首像仍可吸收Miller，三来源代数维仍二，不预支全次数预算。
 
 - [R469：E2312全权平方、普通与惰性完整Sha桥](results/R469-e2312-full-weight-square-ordinary-inert-sha-bridges.md)：同一degree136原来源付408/136周期尺度、4608有限下降和全部Euler/通常Selmer，普通及惰性中央导数均控制整个初级Sha。精确p23证书给秩恰2及Sha[23∞]有限；固定平方常数保实际赋值，无穷非零仍开。
