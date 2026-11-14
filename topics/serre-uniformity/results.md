@@ -181,3 +181,6 @@
 
 
 - **R740（已证明）**：[原有限toric范数的偶赋值](results/R740-even-valuations-of-original-finite-toric-norms.md)。原循环整格的Gram商精确Sym^(2r)det^(−r)，T不变线不落radical，故其原始生成元自配对单位、N_h=(p+1)c_h²G(w_h,w_h)，v_p(N_h)为非负偶数。未自动断言原P_h偶赋值或M2整数；真实高度仍开。
+
+
+- **R739（精确结论已证明）**：[原p47/h7与p41/h37赋值续算](results/R739-exact-original-p47-and-p41-valuation-continuation.md)。复用原全部计数/整数多项式，以准确圆分Norm给9/21位精度；v47(N7)=4、首单位38且同h原M2单位，v41(P37)=−2、首单位23且N37≡33，故原M2赋值−1。零纤维/格点/DFT重算，未预设奇偶；全部P_h与高度不由有限例外推。

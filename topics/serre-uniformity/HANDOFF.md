@@ -4,8 +4,8 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：f4896bba5fe43c784d2af965b36336b8f9256d87
-最近本地pull：2026-11-14 23:50:44 Asia/Taipei，main=f4896bba5fe43c784d2af965b36336b8f9256d87，两README blob均未变。最近公开Actions实际pull：2026-11-14 15:33:15.9429141 UTC，run43610788824，两README无差异。终端已恢复，使用原blob:none部分克隆，至少每小时pull --rebase并检查两README差异。恢复时清除git标明的两份旧tmp_pack垃圾；原未推8f31d003的R716证明/归档与现行main逐字相同，已留本地备份分支并跳过重复元数据重放。根规8集成回退现已结束。
+已读规则提交：e3317c7a6b805ce5b66a1afda36d67626be8e63b
+最近本地pull：2026-11-14 23:54:00 Asia/Taipei，main=e3317c7a6b805ce5b66a1afda36d67626be8e63b，两README blob均未变。最近公开Actions实际pull：2026-11-14 15:33:15.9429141 UTC，run43610788824，两README无差异。终端已恢复，使用原blob:none部分克隆，至少每小时pull --rebase并检查两README差异。恢复时清除git标明的两份旧tmp_pack垃圾；原未推8f31d003的R716证明/归档与现行main逐字相同，已留本地备份分支并跳过重复元数据重放。根规8集成回退现已结束。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权；终端非快进立即pull --rebase重推。PAT仅CLI，未交集成。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB，大可复现中间量只存artifact。日志本题≤5行，改共享设施须说明；不设独立审计/冻结审批门。
 
 本次前完整归档[before-R738](notes/2026-11-14-public-handoff-before-R738.md)，内接before-R736/R735，内接before-R734/R733/R729/R724及更早链；原open完整公式见notes/2026-11-14-open-checkpoint-through-R721.md。旧本地对象不可依赖，未推成果按原记录重做；已成计算不得为包装重跑。
@@ -31,7 +31,7 @@ R740已证明全部真本原原N_h赋值为非负偶数：原循环整格L=Zp[G]
 
 R729原weight5/7 full/primitive均值→π/√3，R726控primitive误差，原有限CM和Galois给指定M2非零；连同R726/R682，全充分大允许p共同coarse Abel阶m1。仅知高度s²整除，不是精确阶或单位。
 R730原完整Hodge下界v(M_mh/m!)≥−1−mp/(p+1)、全部jet比值∈Qp；原N_h全正整。R733全六标签fiber≤12点给ΣN_h<13mp，primitive geomeanN<5p(2+log2p)，全嵌入Norm迫p≥2^136某vM2h≤2，完整Tate得16I_h(p8u)/(p8M2h)=u+pH。真实KS仅非零不假定单位；Abel不回零不等于有理点排除。
-R737原L5/L7均方<2^25/2^27(1+logp)：signed scalar先求和、逐visible index-p线权≤4/rmin+21/√p、六线block正交。给mean 2vM2<3+δp，δp=[134log2+log(1+logp)+2log(2+log2p)]/logp；p≥2^160某v≤3/2，p≥2^512超过g/18标签满足。只知2v整数，完整Tate仍p8。R739首run43609325075给N47,7≡0mod47^4，仅v≥4；全计数已成。续算已提交notes/R739-cyclotomic-reuse-request.json：复用原48计数作圆分Norm定足够精度，同时复用R717旧p41整数多项式评估原h37；零纤维/格点/DFT重算。五输入SHA固定，原方向保持，结果待回；首run SHA在first-precision note。
+R737原L5/L7均方<2^25/2^27(1+logp)：signed scalar先求和、逐visible index-p线权≤4/rmin+21/√p、六线block正交。给mean 2vM2<3+δp，δp=[134log2+log(1+logp)+2log(2+log2p)]/logp；p≥2^160某v≤3/2，p≥2^512超过g/18标签满足。只知2v整数，完整Tate仍p8。R739续算run43610788824/source fe7dff36dda93b42650062e733ada73a0385d7d6已成功，0.474秒；原p47/h7 N赋值4、N/47^4≡38，旧C5/C38单位故M2单位；原p41/h37 P赋值−2、41²P≡23、N≡33故vM2−1。复用原计数与旧整数P，零纤维/格点/DFT重算；精度由准确圆分Norm给9/21位，未预设奇偶。cert SHA6704f8813440fbd85e91206541fdb9c1c9296f8742cb5169ee6696932ee3cf7e。
 R727同一真本原h的N_h、C_(h−2)、C_(p−h−2)三单位⇒vM2h−2及整个vs>3只center。R734已全p≥41,p5mod6有h>1真本原N_h单位：六步Legendre只容≤2相邻零对、CRT K≥5迫单位，数量≥ceil((K−4)/2)。两个C同h仍缺；固定有限h的CRT限制有效。
 R710/R711原h1整Tate/有理直线及R722原137147M2单位给两非center scalar根vs7/2、非Qp，p4等距。5992窗口候选Qp深盘scalar非回零已成；原137147h7也满足R727。全p Cp单位仍缺，超奇异/Cartier/移位不能替代固定参数临界单位，见critical-sigma-jet-parameter-boundary note。
 

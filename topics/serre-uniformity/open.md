@@ -340,3 +340,6 @@ R704 原43嵌入矩阵及R708局部Norm歧义已处理；
 
 
 **R740（已证明）**：每个真本原原N_h的p赋值为非负偶数。用原Weyl/Bruhat模型得到实际循环整格和准确Sym^(2r)det^(−r) Gram商，再由T不变维数一排除radical；完整整数恒等式N_h=(p+1)c_h²G(w_h,w_h)、后因子为单位。原P_h=S2,hS3,h/C0²的奇偶仍独立，未由模p平方同余推出高精度结论。详[R740](results/R740-even-valuations-of-original-finite-toric-norms.md)。
+
+
+**R739（精确结论已证明）**：公开run43610788824复用原p47全部计数及R717旧p41整数多项式，准确圆分Norm给足够精度。原p47/h7有v47(N7)=4、N7/47⁴≡38，同h原C5/C38单位故M2单位；原p41/h37有v41(P37)=−2、41²P37≡23、N37≡33，故v41(M2,37)=−1。无新纤维/格点/DFT。仅关闭两个原嵌入的精度/赋值问题；全部P_h奇偶及原高度仍另需证明。详[R739](results/R739-exact-original-p47-and-p41-valuation-continuation.md)。
