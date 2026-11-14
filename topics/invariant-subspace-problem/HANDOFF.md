@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `f63ff4bc7a2979819e79c130048836cf1845a039`（2026-11-14 17:45:37 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `ac8ca0437b9617b63522eef5267d1b060144865c`（2026-11-14 17:47:31 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -30,9 +30,11 @@
 
 - [实际协方差逆符号障碍](notes/2026-11-14-balanced-star-actual-precision-matrix-sign-obstruction-789f.md)：全qi1、权(r,r⁻¹,1^R)完整G逆的端交叉为D[(R−6)D−6(R−1)]/[2(R+4)(D−1)(D−3)]，D=r+r⁻¹+4。R8/r20给29341/2328972>0，原分布仍严格MTP2；不可免费用M矩阵符号。该族m*G⁻¹n有明确有界式，不否该量≤Q或原相位。
 
-- [严格端峰完整相位衰减](notes/2026-11-14-balanced-star-strict-endpoint-full-phase-decay-789f-next.md)：固定宏观profile若Σωizi<1（或倒数条件），整个m维Φ=O(Q⁻²)。精确端点因式分解给J首阶零、次阶像在1方向；保L全部异尺度交叉后Schur=2E*H0E/d²>0。常数仅紧严格端峰一致，Q⁻¹/²过渡层仍开。
+- [严格端峰完整相位衰减](notes/2026-11-14-balanced-star-strict-endpoint-full-phase-decay-789f-next.md)：固定宏观profile若Σωizi<1（或倒数条件），整个m维Φ=O(Q⁻²)。精确端点因式分解给J首阶零、次阶像在1方向；保L全部异尺度交叉后Schur=2E*H0E/d²>0。常数仅紧严格端峰一致；其Q⁻¹/²过渡层见下条。
 
 - [截断Gaussian完整两输出界](notes/2026-11-14-truncated-gaussian-full-two-output-moment-bound-789f.md)：对任意λ∈R、χ>0，真实两输出Gram逆费用≤4/3；边界分部积分及两个三阶矩Gram给Δ双边界，凸性完成。完整star三尺度识别由literature接续，未以此引理单独称相位已闭。
+
+- **[高斯过渡层完整三尺度已成](notes/2026-11-14-balanced-star-gaussian-transition-full-phase-bound-789f-next.md)：** 固定正profile/χ>0、z_i=(1−λ/√Q)x_i，整个源相位谱趋{Λb,Λd^(m−2),0}，Λb≤4/3、Λd<1。真G逆到ε⁻¹、J三阶深块及L两输出交叉全保，任意固定λ成立，紧参数余项O(Q⁻¹/⁴)。只剩有限Q全参数、χ→0/消失组/增长组等退化，未凭逐点极限拼统一界。
 
 ## R150 原十七式与第二提升
 

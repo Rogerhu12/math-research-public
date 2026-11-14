@@ -1,0 +1,8 @@
+Original full symbolic computation, exec session 14794, completed with exit code 0.
+Final output relevant to the complete deep source block:
+
+J3 diagonal -x*(2*chi*u**2 + lam*u - 1)/(chi*u)
+J3 deep outer 0
+
+The original run also printed a long unprojected outer polynomial; that unused expression is omitted here.
+No total runtime was recorded.  The published generator uses the same calculations and replaces that long output with exact assertions and concise identities.
