@@ -1,0 +1,50 @@
+{
+  "original_run": 43612904296,
+  "original_actual_process_sha256": "b940fb2ae5c36b7455bac685de31f85b4b48eadab0c7e44d3ec14e2c28662941",
+  "original_native_sha256": "26a488b4347e0e30106e67dcd18b54e211dba6adecd7d2c029a4dc6ba097d95a",
+  "original_wrapper_failure": {
+    "type": "TypeError",
+    "message": "unsupported operand type(s) for +: 'PosixPath' and 'str'"
+  },
+  "original_children": [
+    {
+      "label": "actual_complete_Z_source_plan",
+      "actual_returncode": 0,
+      "wall_seconds": 15.000977661999997
+    }
+  ],
+  "original_successful_native_gates": [
+    {
+      "name": "all_original_inputs_and_successful_complete_mean_and_repair_outcomes",
+      "passed": true
+    },
+    {
+      "name": "actual_completed_exact_bump_pilot_is_consumed_without_rerunning_a_cell",
+      "passed": true
+    },
+    {
+      "name": "same_full_continuous_Z_definition_and_global_angular_offset_fees",
+      "passed": true
+    },
+    {
+      "name": "all_original_forty_parts_and7721_rows_match_three_successful_native_receipts",
+      "passed": true
+    },
+    {
+      "name": "all7721_closed_rows_preserve_true_raw_mean_and_cover_the_exact_full_body",
+      "passed": true
+    },
+    {
+      "name": "exact_compact_support_coverage_and_four_fixed_disjoint_assignments",
+      "passed": true
+    },
+    {
+      "name": "every_requested_new_compact_row_is_assigned_once_and_no_completed_pilot_cell_is_repeated",
+      "passed": true
+    }
+  ],
+  "original_complete_rows": 7721,
+  "original_native_bytes_reused": true,
+  "original_scientific_source_unchanged": true,
+  "new_original_plan_rows_computed": 0
+}
