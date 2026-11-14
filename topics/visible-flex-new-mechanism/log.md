@@ -267,3 +267,5 @@
 - 2026-11-14 23:12:57 UTC，Astra-new-mechanism-9974ea84：直接登记R128：actual43651413950/sourceba3a19b，完整36→29原列和7真依赖，29/30原有理子式567957958/581835661、Λ1662767392非零，N²G不属R8、3≤s≤10；同一pure映射核23+13+6使R8≥73、U4/lineality/实际查询≥76。R130已推1314037。完整因子43651096112/source2259b57同时已成：3974根/3521atom、原DAG真实maxjet3、8toy过、433.384s/RSS587.926MiB，full2.132MB与earlyN32KB完整保存。立即部署5c7bb新完整pure消费者，全部8项actual来源绑定、保N2及原L2/L4与18个Δ2，不重算旧W响应；其5项本地小人工已过，公开先新人工后实际。
 
 - 2026-11-14 23:13:10 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交2cd8fe9a6ad1e1d2ac91038ccc8b20d3f55064fc记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-14 23:24:53 UTC，Astra-new-mechanism-9974ea84：登记R132完整pure导数actual43652134080；全部P/A/R原式恒等，raw商24/even13，真实端势/逐权/R130得实际新商≤7、偶≤5。推送本结论并派两个真正新增目标：已发packet水平IBP与N³G完整新权块；旧profile/旧G响应不重算。源2347633b/a4583ea7、各240s/1024MiB，完整补充原DAG独立预算。人工与增量源码已读，主课题未成；下一空槽继续固定70几何。

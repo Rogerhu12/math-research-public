@@ -1,62 +1,81 @@
 {
-  "request": "complete-original-derivative-m8-tail-with-all-matrix-corrections",
-  "created_at": "2026-11-14 23:12:57 UTC",
+  "request": "complete-horizontal-pure-cost-normal-form-and-third-G-translation",
+  "created_at": "2026-11-14 23:24:53 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "derivative_m8_tail_quotient"
+    "derivative_m8_geometry_ibp",
+    "g_translation_successor"
   ],
   "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/literature_derivative_m8_geometry_ibp.py": "2347633b50858f19e8cb5afa2956dabbcd172b669016f0ac2a390a0e6ee2b46c",
+    "topics/visible-flex-new-mechanism/scripts/literature_G_translation_successor.py": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
     "topics/visible-flex-new-mechanism/scripts/literature_derivative_m8_tail_quotient.py": "5c7bb457eec0b68b31b2e7250cf89eb7901660ffac289ccf7854a8c47c198705",
-    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_derivative_factors.py": "02785c34bfe35993094cb30cc8508a9695f78116bd4423b3ab5ae4b438295abf",
-    "topics/visible-flex-new-mechanism/scripts/literature_constrained_static_m8_tail.py": "8b075b222a1c8ea5579645905f9f3c3efc57a1b286a393cdcd597f384db50417",
-    "topics/visible-flex-new-mechanism/scripts/literature_full_m8_tail_response_projection.py": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345",
-    "topics/visible-flex-new-mechanism/scripts/literature_static_m8_tail_quotient.py": "ea95f138a22b6f81654ebbc73eecee3f3c0042f4ec527f6ff9699e6ac78bb826"
+    "topics/visible-flex-new-mechanism/scripts/literature_G_first_translation.py": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5",
+    "topics/visible-flex-new-mechanism/scripts/literature_G_second_translation.py": "3c37aeae4b39ecf68932a069878b41d890afbe2fd4ee9d8675195edc4e5d6bc1"
   },
   "jobs": {
-    "derivative_m8_tail_quotient": {
+    "derivative_m8_geometry_ibp": {
       "development": [
         "--toy-only",
         "--out",
-        "@OUT@/derivative-m8-tail-development.json"
+        "@OUT@/geometry-ibp-development.json"
       ],
       "research": [
-        "--factor-report",
-        "topics/visible-flex-new-mechanism/notes/actions-43651096112-1-local_fourth_derivative_factors/local-fourth-derivative-factors.json",
-        "--factor-report-sha256",
-        "42289590f4e8319d2bd4b138497702b701a11c4bcf39ba4c7ed0c2616f3aa927",
-        "--factor-publication-receipt",
-        "topics/visible-flex-new-mechanism/notes/actions-43651096112-1-local_fourth_derivative_factors/receipt.json",
-        "--factor-publication-sha256",
-        "6857ea6edb3b8132147e3c0c698f79aa6f29e3b59272850267875f45a07fe95e",
-        "--factor-export",
-        "topics/visible-flex-new-mechanism/notes/actions-43651096112-1-local_fourth_derivative_factors/local-fourth-derivative-factors-original-expressions.json.gz",
-        "--factor-export-sha256",
-        "9daddeaf6ad8e7aa647df4f8084ec803625c589bfc51f595ff0d9c680ce0dd4a",
-        "--factor-source-run",
-        "43651096112",
-        "--factor-source-commit",
-        "2259b57065cfad67682f4c4319885fd5334c4f76",
+        "--source-report",
+        "topics/visible-flex-new-mechanism/notes/actions-43652134080-1-derivative_m8_tail_quotient/derivative-m8-tail.json",
+        "--source-report-sha256",
+        "20157415f95817dabfda88ca3b8914dfdbec058ae8c00d89a6c0a6ac8a9fe585",
+        "--source-publication-receipt",
+        "topics/visible-flex-new-mechanism/notes/actions-43652134080-1-derivative_m8_tail_quotient/receipt.json",
+        "--source-publication-sha256",
+        "192a945b561d3a37ef1a454de91292df81de90bf60e4877565f6d0bd9362ffd9",
+        "--source-certificate",
+        "topics/visible-flex-new-mechanism/notes/actions-43652134080-1-derivative_m8_tail_quotient/derivative-m8-tail-certificate.json.gz",
+        "--source-certificate-sha256",
+        "68a764d03fc6f7d88a69dba624a92fa616d86b29b545777296aa7ad991b3c48d",
+        "--source-run",
+        "43652134080",
+        "--source-commit",
+        "6e2f99ceda8f43e0cf5ade6ec3bbaebd1ea7f73b",
         "--max-seconds",
-        "600",
+        "240",
         "--memory-mib",
         "1024",
         "--max-operations",
-        "10000000",
+        "3000000",
         "--out",
-        "@OUT@/derivative-m8-tail.json"
+        "@OUT@/geometry-ibp.json"
+      ]
+    },
+    "g_translation_successor": {
+      "development": [
+        "--toy-only",
+        "--order",
+        "3",
+        "--output",
+        "@OUT@/G-translation-successor-development.json"
+      ],
+      "research": [
+        "--order",
+        "3",
+        "--max-seconds",
+        "240",
+        "--memory-mib",
+        "1024",
+        "--output",
+        "@OUT@/G-third-translation.json"
       ]
     }
   },
   "sync_private_rules": false,
   "previous_private_actual_pull_time": "2026-11-14 22:56:37 UTC",
   "previous_private_actual_pull_commit": "905979913d397cae80a05592bda6660733b3160c",
-  "goal": "Evaluate only new complete pure L2/L4 factors and all eighteen R124 matrix-induced packets; retain all ten geometry keys and every quotient remainder before genuine horizontal integration by parts.",
-  "bound_complete_factor_run": "43651096112",
-  "old_W_response_recomputed": false,
-  "original_N2_dropped": false,
-  "geometric_integration_by_parts_in_this_lane": false,
-  "local_new_artificial_checks_passed": 5,
-  "public_actual_not_yet_run": true,
+  "goal": "Use complete saved polynomial packets for true horizontal IBP; separately determine only the next full G translation block and export its new original roots.",
+  "old_profile_or_response_recomputed_in_IBP": false,
+  "old_G_response_blocks_recomputed": false,
+  "new_G_original_roots_exported_with_independent_budget": true,
+  "low_tail_support_observed_without_clipping_or_failure_gate": true,
   "research_only_in_public_Actions": true,
+  "public_actual_not_yet_run": true,
   "task_complete": false
 }
