@@ -100,3 +100,8 @@
 - R753由原ψp/φp及三挠点递推给模p²一阶变分，全部非p指标与首h_(p+1)单位闭合；明确保留N个Frobenius方向及原σ/Cartier中心转换缺口。
 - 证明SHA d1b05e5c275eb3d3db102954f78a0081c3d129fbadf59b2fcc139713880cc619；原Silverman Frobenius/除法公式已核，未宣称O点C_p单位或全p排除。
 - HANDOFF/open完整归档后压缩并同步index；R755已推4ac99b6c2400fd8f5e724cb8b40930e45755c26f，R754工程已备待公开执行。无本地数学运行或共享设施修改。
+
+## 2026-11-15 01:18 Asia/Taipei · serre-public-resume-20261114
+- R754原p41精确周期/Hom核方法与公开Actions请求提交：完整复用R735/738/745，七次子域投影和40原trace，4800×42核与800×6独立代回、真实整数周期清分母。
+- core SHA bc2375dcc1b1478ef2f50a1713c61adc6102408763652f451f7b4167480c74cd，方法SHA fdbe8bbd0e09afadddcb9cd2f13dc0f27c2eabab2d31fe449cd173bd28a59122；80分钟断点、全部新坐标仅artifact，未预称数值完成。
+- 本地仅AST/JSON/路径/哈希与原链格式核对，无数学运行；新增专用workflow，复用既有publisher。R753已推5fd146f8521021651f462f7eeaf3bcfb1aa83dda，HANDOFF/open同步。

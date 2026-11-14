@@ -353,7 +353,7 @@ cert SHA7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be，
 **R752（保留二阶scalar项的精确交换已证明）**：[完整证明](results/R752-exact-Gamma-scalar-exchange-with-the-retained-second-coefficient.md)保原s_act=1+iπ+[σ₂−(1+i)/2]π²、σ₂∈F43，原q全链与rational quadratic给Lq(D_b)=21εσ₂。选择无关I₀=Lq(D₀)−(20/23)〈D₀p,dflat〉满足I₀=ε(21σ₂+2b(J−18))；未除b、未由τ或q-socle把σ₂置零。真正待求I₀与σ₂的global ordinary Γ/S Norm输入，R723的Jflat/b−24桥仍未证明。
 
 
-**R751（原周期压缩与精确有限核已证明）**：[完整证明](results/R751-original-period-compression-in-the-retained-degree-280-field.md)用原ρ(g_p⁻¹)和完整2/3右slash把所有原边压到40个λ_h(a/p)，保CRT6逆元、方向和246。原M=3p核精确为−√3/(3p)Σθ_h(b)⁻¹ξ^(9aNb)/(x(P_b)−α)，固定Q=(α,+√3)，携权μ6和保相位。Miller归一准确给ξ=e^(2πi/p)∈旧K(U)；原正实E27点[−ζs]D_u(P1)使r0变−ζ倍而b不变，最终周期(751.41)完整在同一280次域。原42列、800闭链Hom系统已具体；R754正准备公开执行及七次子域下降，实际period/核基/原q/β/高度尚未生成。此前完整open另存[before-R751](notes/2026-11-14-open-before-R751.md)。
+**R751（原周期压缩与精确有限核已证明）**：[完整证明](results/R751-original-period-compression-in-the-retained-degree-280-field.md)用原ρ(g_p⁻¹)和完整2/3右slash把所有原边压到40个λ_h(a/p)，保CRT6逆元、方向和246。原M=3p核精确为−√3/(3p)Σθ_h(b)⁻¹ξ^(9aNb)/(x(P_b)−α)，固定Q=(α,+√3)，携权μ6和保相位。Miller归一准确给ξ=e^(2πi/p)∈旧K(U)；原正实E27点[−ζs]D_u(P1)使r0变−ζ倍而b不变，最终周期(751.41)完整在同一280次域。原42列、800闭链Hom系统已具体；R754已提交公开执行：七次子域/六次角色塔、正Miller根和原4800×42系统，实际40加法周期/819边/核基与800×6代回待run；R759接完整整数周期格/同态次数，原q/β/高度仍待求。此前完整open另存[before-R751](notes/2026-11-14-open-before-R751.md)。
 
 
 **R755（原Γ/scalar dual输入与flat修正已证明）**：[完整证明](results/R755-exact-dual-Gamma-scalar-primitive-for-the-original-flat-target.md)保负伴随y=ell_cyc−2iκq，给Σ支持primitive；原q quadratic/cubic、local gauge和2处完整cochain使I₀=−〈w,Sflat〉。对原Aα得到Iα=−〈w,Sα〉=ε(21σ₂+2bJℓ)，且I₀=Iα+7εb；原scalar reference 9ε仅与真实q常数相消。真正缺口是通过原ordinary Γ/S Norm链求Sα/σ₂的global输入，未由支持存在或局部根代普通单位见证。
