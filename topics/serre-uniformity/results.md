@@ -299,3 +299,5 @@
 - **R774（公开准确计算已完成）**：[原 Hodge 立方与真实尖点阶](results/R774-certified-original-Hodge-cube-and-cusp-order.md)。run43631427773/source93056f04实际24.706959837秒，原第4号d1206映射e=1，H³的qY0..820完整准确560坐标、26块/108stage全部完成，D289bits且v739(D)=0，原R771694基全821×7模比较通过。原模型分母2^24·3^1260；保原尺度、字段和零平移，未求char0基坐标/函数/β/高度。certaea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59，完整artifact14128247134；旧数学不重算。
 
 - **R776（已证明，b≠0）**：[原 cochain 的 p 除与剩余 scalar 单位坐标](results/R776-original-cochain-p-division-and-the-remaining-scalar-unit-coordinate.md)。从真支持dual的ordinary限制构造全局Kummer根cochain，减原diagonal homotopy并保q quadratic常数，准确给Iα/ε=32(1+i−18ibη)。因此18b Reη=1、Iα/ε=32+17b Imη=21σ₂+2bJ；原flat η→η+8i复现7εb位移和真scalar参考。真实p除phase由原完整格给出，不任取局部根；ηI/σ₂/J/b未求，b24未排。
+
+- **R779（已证明，所有b）**：[原实Robert类与两个p局部障碍坐标](results/R779-original-real-Robert-class-and-two-p-local-obstruction-coordinates.md)。固定nR=−in+(11/2)u无条件Γ/S不变且τ-real；无μp消全局和局部H¹/H²下降项，full-divisor Bockstein给dR的dq系数9b/4。原R185坐标严格给b=−3B1−5B45、Ω₂/ε=22−8B1+B45，b0亦适用；b≠0时I0/ε=32+25B1。实际cs的p局部值尚缺，未知压成86×2的指定单位向量、原varpi_s1938精度，不把接口当数值。

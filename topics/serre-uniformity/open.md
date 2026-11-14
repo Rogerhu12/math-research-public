@@ -209,3 +209,6 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 
 
 **R778（原20尖点轨道和143阶恢复已证明）**：[完整证明](results/R778-original-cusp-orbit-and-short-exact-recovery.md)。原H82的primitive列范数x²+xy+y²给20个n± cusp；精确GL2 Galois右diag公式给m⁻¹作用，原M/L40使其单L轨道。对真正L系数A,B，参考cusp的143个完整M系数−e..142−e全零，迫20个cusps零数比P外极点数多14，故A=yB全球成立；kernel308/rank2720不变。基只需q142、原h至426+e≤445，实际R774 e1只至Q427，已在旧R745800中。M2/M6/M12的完整40坐标前缀0..13/41/82已分别注入，真M6坐标只需694×694 Q矩阵和14 RHS准确解，不再重扩821。原cusp参数的切向Galois仍保，不能以单个modξ值/任意大字段候选代真实L方程。实际函数/β/高度继续。
+
+
+**R779（原实Robert类的两个p局部坐标，所有b）**：[完整证明](results/R779-original-real-Robert-class-and-two-p-local-obstruction-coordinates.md)。原nR=−in+(11/2)u仅依指定cs/u；norm恒等式和τ作用给无条件Γ/S不变及τ-real。全局与局部无μ43使inflation–restriction两端H¹/H²均零，故其Kummer类唯一下降真Σ支持dR。原Ucan=−4n+(5+21i)u及full divisor Bockstein证明dR=(9b/4)dq+B_Rd0，包括b0且不假设dq在该情形ordinary。以原R185基写dR,p=B1 b1+B45 b45，严格得b=−3B1−5B45、Ω₂/ε=22−8B1+B45。b≠0时还得dR=(9b/4)(dq+ηI d0)、I0/ε=32+25B1、Iα/ε=32+3B1−8B45。实际B1/B45没有求出；所缺现在是同一cs的指定Gamma/scalar导数在p处的完整Kummer向量，精度varpi_s1938，86×2方程即可。R704全部原Gamma embeddings已给足integral坐标的精度，不供cs本身值；R780继续快速求该真实局部输入，不重跑巨大q-torsion乘积。

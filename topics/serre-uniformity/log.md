@@ -255,3 +255,8 @@
 - 按根README§4仅统一R778公式为$/$$定界符，133组inline与36组display均已核，正文数学不变；新SHA b23357b3fa74773c1ee45c1740b988ee9d7c96a658d5cdec99881947faf8c727，后继R777绑定此实际版本。
 - R774/R776已分别单独推167165de/4756ddd2，H当前hash同步；R775继续公开run43631335355，19:40尚未提供运行中日志，未补造receipt或重跑。
 - 终端不可用期间按根规矩8核最新main/两README后小文本非force继续，数学计算仍只在公开Actions。
+
+## 2026-11-15 03:42 Asia/Taipei · serre-public-resume-20261114
+- R779指定nR=−in+(11/2)u的Γ/S不变及τ-real无条件成立，全局/局部H¹/H²下降项均零；原Ucan=−4n+(5+21i)u及full-divisor Bockstein给dq系数9b/4，包括b0。
+- 原R185两坐标给b=−3B1−5B45、Ω₂/ε=22−8B1+B45；b≠0另有I0/ε=32+25B1。证明SHA1f5874a93bec99aaec583302a66f7c76df4fec39e5b14950d749d974e0e4e81a，根回核R185/R701/R704；实际两B未算，接R780原cs局部向量。
+- H/open完整归档压缩并同步index；R778排版已推dde6a7d9，R777数学核心已核，R775仍公开运行。终端不可用继续根规矩8最新main/两README核对、小文本非force，无本地数学运行。
