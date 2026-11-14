@@ -495,3 +495,7 @@ T7后的物理M说明现明确C2=(β(Ξ)−β(0))/√B，因此物理第一相�
 ## 2026-11-14 14:16:28 UTC — 原收据已真实核清，源v2独立接续
 
 receipt-only43603364028 success/children=[]，真实receipt331dfd81c7cf148c0c58a7de91f3ded2b940173baa5cc82dda8834299d7a2951。亲读两个原artifact process并逐字段与repo4bb…/6ff…比较，唯一差为published_checkpoints追加final:true；真artifact为16de872c…/d81f87fb…。部署v2五原blob、97输入保原91哈希0变化，逐字验证producer数学段不变、仅两PROCESS身份常数换成已核原artifact。旧v1和失败原字节保留。同步更正H/open主段的5970/finite193/repair正high/principal-fold陈旧未完成措辞。
+
+## 2026-11-14 14:22:04 UTC — 直接构造fullδ根→负区Cauchy能量并部署预算
+
+独立核phase建议的w/θ构造并写C1–16：wρ²>58、w≥Λ^-1/3、两row log频导≤1/3；真skew主部外的单上三角率由θρ准确吸收，避免sup_n积分发散。原N3反应/lag768 transport/有序I/meanrank逐项重付，普通源保持L2ρH1/3。9原输入只消费397f9/10ff6两native，部署新预算source/CI/worker/workflow，不重跑原germ/response；数值门待公开实际结果。

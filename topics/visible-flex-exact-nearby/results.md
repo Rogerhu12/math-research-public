@@ -177,3 +177,7 @@
 ### 紧缩放全区间的同一实际三维相位图
 
 [N1–36完整径向有限盒证明](results/R119-supplement-compact-scaled-three-parameter-phase-chart.md)：三个固定compact形状同时覆盖所有紧κ，真实两phase在全盒准确零；完整Sym2对偶性给方向且在定量频率邻域/全参数盒保持PSD。局部Duhamel与两补偿完整重新付费，物理BΔ measure/原wave/全两端generator均保。尚非非径向whole-cluster结论。
+
+### 真根→负区完整Cauchy能量
+
+[C1–16](results/R133-supplement-full-family-root-to-negative-Cauchy-energy.md)给全参数、全频率、带真mean/primitive/ordinary源的直接方向性能量。两权log频导≤1/3，完整lag768预算已纳入；局部条件若通过新公开consumer，则R9e−6输出≤41/10×(root两行范数+.003源范数)。实际数值门另记，不提前记通过。

@@ -147,3 +147,7 @@ run43602923145 在数学child前止于repair-source process SHA检查；children
 ### 已知源v2与核实的artifact身份
 
 receipt-only43603364028实际成功。root逐字段比较原artifact和repo process，仅published_checkpoints多final:true；所有科学字段一致，原native不变。新[v2合同](notes/2026-11-14-R133-cached-Green-known-source-v2-contract.md)详列两个身份，97输入包含原91全部原SHA及三个收据文件；新producer只改两PROCESS常数，旧v1失败全保。待v2真实数学结果，并继续特定low193/cut方向收紧。
+
+### 根部到负区的完整方向性Cauchy估计
+
+[新C1–16解析证明](results/R133-supplement-full-family-root-to-negative-Cauchy-energy.md)直接沿ρ=r*−r传播：频率正则w²=q²+Λ^-2/3 exp(−ρΛ2/3)，两行θ耗散吸收单上三角缺项，不对发散的sup频率项积分。fullδ96/band192、原I和真even mean完整付，root输入H1/3×L2、ordinary源L2ρH1/3、输出全pair L2。9原输入新CI待实际31/41:10门；不反用旧相反方向能量，不授额外Sobolev窗。

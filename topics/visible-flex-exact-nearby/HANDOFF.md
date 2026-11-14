@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 14:16:28 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 14:22:04 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：a4ae02cd8aee7b817f20b5d4a9b8f18dbe3547d5；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：57c1df5da143bcae74c8b77c8ecb6ee4102035db；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -40,7 +40,7 @@ R31 run43586895661真实九步/11门，显式族|δ*|<9.368259853002e−11；phy
 第一相位算术43598755503真实11门：全部|n|≥97/四根gap>1/(512|n|)，scalar inverse≤512一阶；native db861442f5b895362abe090306c2899b3771282269b7ccc5743d820e79f8bff3。1502完整CF候选最坏n1635；高norm距整数>.217432842839813。仅当前−Xiδ*/4区间，不代替rootfinite。
 moving根scalarization43594466882真实13门，|δ|≤1e−8全频J/负Sobolev/mean/flux保；δ产品band192，不能借旧band64负反馈。
 腰/Airy43592219275真实13门：腰K′=b=S=0，root有限cross buv/η均值0但矩阵保。O1–20 ordered scalar已审证：AC的一阶角项准确抵消，T0=ηr/η−4b〈S〉+5dφ，余径向系数R−1真实一阶增益；全mean/weak源/投影保。
-实际principal fold已完成（见下）；继续旧I/mean/source两幅解析化、two-row positive matching、brootfin、strong及真PDE背景。外部glancing定理假设不符本题type-change，不能借授。
+实际principal fold已完成（见下）；新root→negative真能量C1–16已证并接9原输入CI：θdiag(w^-1,1)吸收退化主部、fullδ band192/mean/I保，待实际31及41/10门。继续旧I/mean/source两幅、two-row matching、brootfin/strong；外glancing假设不符，不能借授。
 
 ## 无限尾与最终主线
 
