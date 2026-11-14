@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 全5970格同一传播子矩阵数据合同已证。** [D1–12](notes/2026-11-14-R133-complete-same-F-directional-matrix-data-contract.md)：原四成功格逐字复用，其余5966格从同一canonical exact A构造未舍入F/C，公开自适应degree8..64并严付完整残差/三角端点修补；保128真实输入方向、全193 signed H/J及mean、真dr/物理权/负窗。原m_k/E绑定同一原s-power对象，全同Q/R接口核验；V舍入、真帽/腰/body缺陷和未知高块仍待全方向双扫后另付。
+
 - **R133 高根第一次运行的真实完成前缀与Nyquist修补合同。** [N1–5](results/R133-supplement-actual-high-root-prefix-and-exact-Nyquist-consumption.md)：run43650466853 child1，前7门通过，原12列有限点完整保存于native6cd2e5bf…/552891B；第8门误要求区间端点逐位零，高阶误差/mean/E尚未计算。原有限Nyquist为零的结构恒等式允许先核所有球contains0，再仅在新消费视图置零；保原数组、false gate/失败，并固定唯一跨源迁移，不重跑FFT或target。
 
 - **R119 新外两根实际principal返回已加入全部无限KAM。** [O1–32](results/R119-supplement-new-outer-two-root-complete-principal-return-and-joint-KAM.md)：对eX→cut128→新e0整段重付积分/复分支/两流，完整Θ目标重新定义；controlled全旧行与新增外行在同一无限mean和全Fourier Newton中求解，μ+<2^305A*，外行独算2^301A*。保Γ2、真实两mean/源/dual pairing及phase不变；完整β、强余项、五盒与closed PDE逆仍待继续。

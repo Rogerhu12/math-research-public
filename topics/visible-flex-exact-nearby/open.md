@@ -206,3 +206,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 固定η0根的高阶输入
 
 H1–12已给出[完整高阶jet路径](results/R133-supplement-true-root-high-intrinsic-jets-from-complete-auxiliary-errors.md)，复用两成功辅助域的完整尾误差，只新增原真实根区间有限F0..11及均值产品。下一公开执行须保54个低阶认同、全mean/三分母gap/每个已成前缀；其后才接旧ρ直接w1 Taylor及尾余项。其余η同根、全I/J和充分cutoff均未授。
+
+### 全5970格同F矩阵接线
+
+[完整D1–12合同](notes/2026-11-14-R133-complete-same-F-directional-matrix-data-contract.md)已核：四格sameF actual保持，5966新格32互斥组生成完整128方向/193 signed source-output矩阵；原m_k/E只消费同一canonical A，不能取Arb中点另立模型免误差。完成范围后仍需真双扫、V跳、真97帽/均值/腰及body和cross误差的同一后验恒等式，不从覆盖推出全逆。
