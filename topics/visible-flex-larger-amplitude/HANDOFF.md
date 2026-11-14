@@ -36,6 +36,7 @@ R240：材料g=ds²+a(s)²dθ²与core c无关。设计定型后冻结完整a(s;
 
 A仅旧小幅闭组装：Dcloud3.9774592667、像点云比.06301463338，三mesh各<5MB/Euler2/每边2面/零退化。RK24/RK48真solve/J/audit与RK48真16+源节点/共同网格/collar/闭面已完成。默认RR f8→16二jet差.0029138，旧prefixcut metric平台4.77033e−8，未机器稳定；finitecollar1.00139e−18只原H/背景。
 R241旧A完整空间预算由run43586618658/q8真全付：33712父对/2157568子对全过，uncovered=0，77.565s；D+=3.980751407764145、K8.35、Kτ=.9994116104及标记门过，停止可选加密。连续包络仍输入，interval certificate=false。整面held包给δhold/D+≥.05388898465、H/D+≥.996873，未达.2，不移植新场。q8-complete note保存全证据。
+R248已证有限C²相位强连续（无需C³）、准确反射三parity、全t metric/κ归约；未标记reach可一次空间证据，marked仍付R24/R11，真实held帽扰动仅损A。现inlet parity未付，geometry另做独立规范形。
 R238/R242给含反射非全等及精确warped+角解析无平片条件；R243真9246小段有理见证只付共享C²四角规范形，原renderer/全接缝/δE仍未齐。R246旧.984的415片连续三分量<1e−6及浸入，直接operator只<2e−6，不付新field或R241算子门。
 旧post43 GW35件已按SHA保全。R245及真gwcompat/gwvelocity说明二jet差非最后求值舍入、Q替换更坏。request09/run43588929803真stage28成功：49原RK calls/六已有节点，旧A/B/C rawSHA、mean、g完全重现；96×1024局部metric f8→16→48为1.18359e−8→1.25944e−9→1.62003e−10，κmax同7.6462465。二jet差仍敏感但不是额外机器门；封存旧A局部GW分支，不扩全场/Q。详见actual-stage28-original-RK48-local-refinement note；原450二jet差.0017739032174071579复现。
 旧Aκ8.3455143峰在prefix，旧tail≈8非新尾必要界；Gauss样点仅约3.965尺度。真W/D/K窗口及单次尾帽高度见tail-curvature-and-diameter-design-window；G/旧Dproxy不冒整面门。

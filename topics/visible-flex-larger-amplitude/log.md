@@ -384,3 +384,7 @@ R247证明仿射coast上原有限Frenet RHS常值、Hermite中点消去及真实
 ### 2026-11-14 11:21 UTC — fix concrete public-asset path mismatch in the independent closed reader
 
 源码连接核对发现原closed main把两个DEFAULT绝对路径传给只接受repo相对路径的public_asset，必在尾读出前失败。仅独立lifted_modes_closed_assembly对白名单两项转换为REPO相对路径，原恢复/字节校验及数学源不变，finally还原函数；AST通过。另确认原RK12整除readout levels1/2/4、config/最终tail SHA互锁；中央反射的精确C² parity另行核销，不由BVP容差替代。
+
+### 2026-11-14 11:23 UTC — R248 finite C2 phase action and honest all-time reductions
+
+完整证明R248直接登记：仅有限C²载体及准确两阶接缝即可得t↦F_t的C²强连续，不加C³门；明确反射三parity、全相位metric/operator与κ恒等、未标记空间reach归约和固定marker独立条件。真实held始终对完整像，改共同帽仅损其Hausdorff差A；含反射δE仍须实际标记识别输入。新112场尚未接受，inlet有限规范形与固定g精化接口并行继续。
