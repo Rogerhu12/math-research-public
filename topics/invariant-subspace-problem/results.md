@@ -751,3 +751,7 @@
 ### R296 附录：出生二相邻首事件的完整ridge与组内实际精度
 
 [完整证明](results/R296-appendix-birth-two-neighbor-regression-and-physical-birth-one-ridge.md)在同一W,A,D商上准确消去相邻切片r=0,1全部仿射nuisance；组内A与交叉W在真Schur中正交。组内ridge为τ〈(I+τTαTα*)^−1F_A,F_A〉，Tα*Tα恰真实组内birth1精度且≤I，给最优系数和τ/(1+τ)至τ的准确比较。上切片对称，组仅两位时真实方差零；所得是完整残差下界，未将低事件最优系数当全回归。
+
+### R296 附录：从首事件接回全部仿射回归
+
+[完整证明](results/R296-appendix-birth-two-full-regression-control-from-low-events.md)对同一出生二商的三个相邻切片均付Λ_high≤4τΛ_low，故全仿射Gram在低事件Gram与其(1+4τ)倍之间。以真实低事件度量定范，高事件评价T满足‖T‖≤2√τ，完整最优修正为−(I+T*T)^−1T*g，残差新增费恰〈(I+TT*)^−1g,g〉。中间源修正费≤16τ³G1+24τ³G2；全部nuisance及硬端保留，三个物理度量的二阶差仍开。
