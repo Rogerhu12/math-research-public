@@ -165,3 +165,7 @@ python topics/visible-flex-new-mechanism/scripts/frame_entry_single_q.py \
 ```
 
 截至本稿写入，仅完成静态语法和纸面链式检查，没有本地运行人工数值或实际候选。本模块不读取实际状态作研究评价，命令行没有优化路径；是否用于后续真实联合求解应在九高度可行 stage 的实际输出后单独选择。
+
+## 6. 已取得的公开人工回执
+
+run43630999193/source3fedb0fd6b40d409d0f0fbf3da6c94fe9ae7c78a成功。两人工父场的zero-Q六jet差全0；完整位置二jet方向Jac相对差最多9.98e−9，直接目标方向Jac约1.01e−8，Q角导独立差分1.79e−10，端口列全0、原g和高度参考身份不变。人工维数18来自人工carrier，不冒真实163维候选评价。本模块仍未执行实际优化。
