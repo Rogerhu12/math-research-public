@@ -521,3 +521,8 @@ request17/run43598917532/source4b8b2bf已于13:16:20Z实际启动，job132459290
 
 完整R257直接登记：有限平面Laurent的最高差频唯一项证明恒速闭曲线只能整数覆盖圆，闭合/简单/turning1逐一明确；真实材料入口core导数存在精确抵消及连续L²界。原Frenet frame完整微分和N>4M的DFT正交证明uniform材料圆的完整物理Jac保各K块、J²=(ν/a)J；非圆和全设计Jac不冒用。
 备用θ表示note明确纯有限投影入口的原metric成本与完整解析lift的显式core RHS、无穷角谱、reader/闭合/证书成本；没有切换当前request17或派新数值。
+
+### 2026-11-14 13:40 UTC — R258 full-state tail and marker chain; actual warm and FD steps passed
+
+完整R258直接登记：完整材料图四角严格固定；本场全部FFT节点精确Hermite与内collar、全角外修补逐段四角行列式次数≤15，完整有理/Arb非零判据排平面开片；marker实际有理条件及活动环带/反射商紧性证明闭合。真实C²/嵌入/像变化及规范形表示误差仍分别是应用输入，新消费者未执行，不移植旧A证据。
+实际request17/run43598917532的warm于13:27:47Z success、真实FD于13:28:09Z success，原fullDN此时开始运行；仅按Actions步骤回执更新，不预填warm数值或完整接受。H压缩已归档历史并保存当前真实检查点。
