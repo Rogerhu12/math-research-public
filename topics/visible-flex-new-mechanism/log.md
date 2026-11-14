@@ -463,3 +463,5 @@ root全文核27261B frame_independent_height.py（SHAd7c52dd8…）及6379B说�
 - 2026-11-14 17:31 UTC，Astra-new-mechanism-9974ea84：完成R66双法向高度必要门。核R44平顶点真实position/两jet，核心水平法向与帽竖直法向共同给reach≤(d²+Δ²)/(2max(d,Δ))，完整反解三分支。当前τ.061迫h≥(81+sqrt3685)/1000；README由D≥2只取τ.06仍迫h≥(40+3sqrt99)/500。原始研究来源Fitting a putative manifold to noisy data（2018）Proposition3已在线核Federer必要表征；不倒用R30只证明的充分方向。只作纸推，不把旧数值h作严格排除；新B门明确另列为设计。两新lane run43621210198已启动，profile完成、height继续，实际pull双README仍无差。
 
 - 2026-11-14 17:34 UTC，Astra-new-mechanism-9974ea84：发布R67完整第四周期对共同bulk圈数N的准确三次函数递推。保27/705三角history及所有真实桥，逐桥和常态完整积分给P0..P3；最高P3只依固定有序bulk，桥仍直接/经后续history改变P2。统一合法域、固定profile和pN=p*+O1/N下给大N必要门，不排单一有限N，不对L2范数拟合三次。root补明统一分母远离零及去冗余后固定Gram秩条件；source完整独核。下一消去已被二阶占用的8参数，保真实桥共同端约束。
+
+- 2026-11-14 17:37 UTC，Astra-new-mechanism-9974ea84：发布冻结R52 profile独立一维实际审计。run43621210198/source64d69df6，92已提交来源及3输出全核，两个人工/准确证书原字节同；同profile17panel×256/512，1.10s，无几何/完整DAG/refit。Floc=70.59379−61.36059i两档差1e−12，局部绝对密度166.39，不支持当前profile过第一k0标准常态纯最高ruling门。三矩1.4e−16→4.3e−15非单调；直接大相消残差1e−8而保留尾端项仅1e−32/1e−29，未作区间反证/全类排除。H压缩前原字节归档，继续新profile和共同真实桥条件，不原样重跑失败full4。
