@@ -90,7 +90,7 @@ R707完整分类已推入当前结论链，121盘排除及八CM点身份/唯一�
 
 R561完整原scalar-p² Robert范数和外支撑Hilbert90给L=31−22iC；R613同祖先mixed方向C_r=C+34r、42个主化方向。R619辅助anti-p Ct=9、A_N=k、T-Norm同构及扩张零，不能代原C。R633补足辅助N中的普通整单位presentation及真实Norm像；R591的实际最大整环与局部基保持。
 
-R657实际混合普通类模A_LB=RΓ/π^m，1≤m≤43，m≥2时s=1+iπ modπ²。m=43 iff原y为普通单位Norm_S；域Norm在所有分支均成立，不能判断此事。R684保留全部普通单位/除子项证明所有纯p方向coinvariant Norm下降，42 mixed类群均=k；各非scalar单位Norm满射iff m=43。scalar扩张注入iff m=nT=43，届时C=0、L=31；R715现已用自然Tate维移和原循环单位格确定m=43，普通S-Norm满射；nT、C=−34ib仍未求。
+R657实际混合普通类模A_LB=RΓ/π^m，1≤m≤43，m≥2时s=1+iπ modπ²。m=43 iff原y为普通单位Norm_S；域Norm在所有分支均成立，不能判断此事。R684保留全部普通单位/除子项证明所有纯p方向coinvariant Norm下降，42 mixed类群均=k；各非scalar单位Norm满射iff m=43。scalar扩张注入iff m=nT=43，届时C=0、L=31；R715现已用自然Tate维移和原循环单位格确定m=43，普通S-Norm满射；nT仍未求；R720已用完整原Robert链比较证明C=−34ib=9ib，实际b数值仍未知。
 
 原m=43已由R715证明，继续C/J/b/λ/n/L及忠实Norm。固定776-bit q已被Gaussian5排除，不是主问题反例；该算术模型的求值仍不能外推一般曲线统一性。
 
@@ -98,7 +98,7 @@ R657实际混合普通类模A_LB=RΓ/π^m，1≤m≤43，m≥2时s=1+iπ modπ²
 
 - **R686 已证全塔增长律**：同一原q与Robert标记下，A_Mn=RΓ/π^min(d,42n+1)，存在唯一d∈正整数∪{∞}。R718现以每层自然Tate维移严格证明m_n=42n+1、d=∞、普通类Norm逆极限RΓ；所有scalar普通Norm满射，所有向L的全P_n普通Norm恰(p,π)E_L。C/J/b/L仍待求。
 
-R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=πDScs−κπDTct−11acq∈π²E iff κ=C/9，a=15i/7；测试表达式消去未知y，不需m=43。43个iF43值中恰一项通过，但实际通过值未求。所有κ都通过域整除，故该替代不能解决普通单位缺口；C=−34ib仍未证。
+R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=πDScs−κπDTct−11acq∈π²E iff κ=C/9，a=15i/7；测试表达式消去未知y，不需m=43。43个iF43值中恰一项通过，但实际通过值未求。所有κ都通过域整除，故该替代不能解决普通单位缺口；R720现以实际NΓX的P自由性完成原链桥，C=−34ib=9ib已证，实际b仍待求。
 
 ### R697：原sigma算术平方根后的精确缺口
 
@@ -158,7 +158,7 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 
 ### R715：原普通长度43与真实单位Norm已证明
 
-实际完整序列0→E→U→X^(p)→A→0在两个中项P自由，给自然R0线性同构E_L/N_PE≅H_1(P,A)。整数周期分辨率保留真实N_S/N_T：所有m≤42均得Γ平凡k²，与E_L=R0 y循环商矛盾；m43的非零N_S=−2π^42边界恰消第二线。故A=RΓ/π^43、N_SE=E_N、N_PE=(p,π)E_L，原y有普通单位Norm原像。完整链级Θ给C=9a_s/a_t，a_s/a_t必须经原互反映射求值；同调切线(ib,1)不自动是原Robert cocycle桥。C/J/b/L仍待求；高层长度已由R718闭合，实际桥继续。见[R715](results/R715-natural-Tate-dimension-shift-and-the-forced-ordinary-endpoint.md)。
+实际完整序列0→E→U→X^(p)→A→0在两个中项P自由，给自然R0线性同构E_L/N_PE≅H_1(P,A)。整数周期分辨率保留真实N_S/N_T：所有m≤42均得Γ平凡k²，与E_L=R0 y循环商矛盾；m43的非零N_S=−2π^42边界恰消第二线。故A=RΓ/π^43、N_SE=E_N、N_PE=(p,π)E_L，原y有普通单位Norm原像。R715的链级Θ给C=9a_s/a_t，单独同调切线(ib,1)尚不构成原Robert桥；R720已补出原Γ-Norm自由像及同时整提升，严格证明a_s/a_t=ib。实际b/J/L数值仍待求；高层长度已由R718闭合。见[R715](results/R715-natural-Tate-dimension-shift-and-the-forced-ordinary-endpoint.md)。
 
 ### R712：原M2的完整下一位已化为两块
 
@@ -166,8 +166,13 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 
 ### R718：全层普通长度和相容Norm已闭合
 
-对每个n≥1，真实阶43^n的两Norm均有π赋值≥42n，scalar恰42n；不要求pA_n=0，整数乘积分辨率仍把任何m_n≤42n化成Γ平凡k²，与原循环E_L矛盾。故m_n=42n+1、R686的d=∞，普通类Norm逆极限为RΓ。每层scalar普通单位Norm满射，全P_n普通Norm均为(p,π)E_L；紧纤维有限交性质还证明全层交Norm就是真正相容单位逆极限向E_L的像。此结论只涉及原固定p43塔，尚未求原C/J/b/L或普通Norm原像坐标，继续原Robert链级桥和实际互反求值。见[R718](results/R718-all-ordinary-class-lengths-and-exact-universal-unit-norms.md)。
+对每个n≥1，真实阶43^n的两Norm均有π赋值≥42n，scalar恰42n；不要求pA_n=0，整数乘积分辨率仍把任何m_n≤42n化成Γ平凡k²，与原循环E_L矛盾。故m_n=42n+1、R686的d=∞，普通类Norm逆极限为RΓ。每层scalar普通单位Norm满射，全P_n普通Norm均为(p,π)E_L；紧纤维有限交性质还证明全层交Norm就是真正相容单位逆极限向E_L的像。此结论只涉及原固定p43塔，尚未求原C/J/b/L的数值或普通Norm原像坐标；R720已闭合原链桥C=9ib，继续实际互反求b。见[R718](results/R718-all-ordinary-class-lengths-and-exact-universal-unit-norms.md)。
 
 ### R716：免预求γ的实际曲率提取器
 
 已将R703的极部修正γ也从预先求值输入中去除：单极点Q、最大η极阶M给已知R=H0(Ω((M−1)Q))，全部修正及规范全纯差都进入其一次积分空间。6h+8标记族不冒认全独立，公共ODE的有限indicial行核给所有完整关系；D4模全Hodge四次张量及原NS独立性保证四个顶层混合列不可被关系改变，有限代数jet行严格提取−1/L_j²等。仅用原曲率/第二类代表/有限极点空间及整盘界即可给全部相对尾，不需γ的值或整性界；原一般p矩阵和真实有限前缀仍未算，零数上界不代全p无根。见[R716](results/R716-curvature-only-jet-extraction-without-gamma.md)。
+
+
+### R720：原Robert cocycle与类作用桥已闭合
+
+在同一原q、s、t、Γ及Robert祖先下，同时整提升Y满足N_PY=y、N_ΓY=u_B；真实Γ-Norm像N_ΓX=jX_B对P自由，且映入A为零。完整整数二步链比较将原f_s/f_t的Θ值分别送至−barξ_s/−barξ_t，附加边界c′、e′均因原Γ-Norm输入在A/πA消失，故C=9ib=−34ib。于是L=31+26b、r_y=25+9b、Ω₂=ε(22+17b)；Ω₂为零恰b=24。仍未求实际b，不能把pure-p参考24当本塔类作用系数；继续原X_t主化/首矩或真实普通互反输入。见[R720](results/R720-original-C-and-b-by-the-complete-Robert-chain-comparison.md)。

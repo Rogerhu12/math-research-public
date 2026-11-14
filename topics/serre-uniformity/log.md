@@ -889,3 +889,10 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 执行环境unavailable，原本地R716推送未到main；按根规8用GitHub集成仅恢复小文本，完整证明逐字SHA256 53d4a2a21969278e032aa92c95f5faea81ff17de5b5c564a04c12fd75d44eb4d不变。
 - 已读取最新main和两README，无规则差异；按最新父提交作非强推更新。正式计算仍只在本公开仓库Actions，待终端恢复立即部分克隆/pull。
 - 压缩前HANDOFF存notes/2026-11-14-public-handoff-through-R718.md；R720原链桥已核，R717原文件恢复和R719有限判据继续，主目标OPEN。
+
+
+## 2026-11-14 20:51 Asia/Taipei · serre-public-resume-20261114
+- R720完整原Robert链桥经根/global全文核验：实际NΓX对P自由、同时整提升与两次整数边界比较保留全部原Γ/s/t标记。
+- 两原cocycle的Θ值均带同一负号，附加边界在A/πA消失，故C=9ib=−34ib；L=31+26b、r_y=25+9b、Ω₂=ε(22+17b)。
+- 实际b仍未知，Ω₂消失恰b=24但不能代入pure-p参考24；继续真正主化/首矩输入，主目标OPEN。
+- 执行环境仍不可用，按根规8仅传小文本；已核最新main两README无差异，压缩前交接保存在notes/2026-11-14-public-handoff-through-R716-recovery.md。

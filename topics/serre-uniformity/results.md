@@ -119,3 +119,6 @@
 - **R718（原全塔普通长度与Norm已确定）**：[每层普通类群端点及相容单位Norm](results/R718-all-ordinary-class-lengths-and-exact-universal-unit-norms.md)。对实际P_n=C_(43^n)²，真实p^n-Norm的π赋值至少42n、scalar恰42n；自然Tate与原循环单位格逐层强迫m_n=42n+1，无需假定pA_n=0。R686参数d=∞、普通类Norm逆极限RΓ；每层N_Sn E=E_Nn、N_Pn E=(p,π)E_L，全层交Norm亦为真正Norm相容单位逆极限的像。固定p塔结论不提供Serre反例，C/b数值仍待求。
 
 - **R716（免预求极部修正的真实提取器，已证明）**：[仅以实际曲率构造jet提取与相对全尾](results/R716-curvature-only-jet-extraction-without-gamma.md)。取单极点第二类代表，全部极部修正落已知H0(Ω((M−1)Q))；在允许关系的6h+8函数族中，D4/shuffle独立性严格保住四个顶层混合系数±L_a^−2。公共ODE有限行核给全部精确关系、列基及真实非零jet提取；R703的相对全尾继续成立，不再需要具体γ及其整性证书。原模型/曲率/第二类代表与实际矩阵仍需计算。
+
+
+- **R720（已证明）**：[原C与b的完整Robert链比较](results/R720-original-C-and-b-by-the-complete-Robert-chain-comparison.md)。原Γ-Norm像NΓX对P自由及同时整提升Y使完整两次整数边界比较中的附加项在A/πA消失，原两cocycle均给同一负号，严格得到C=9ib=−34ib。故L=31+26b、r_y=25+9b、Ω₂=ε(22+17b)，消失恰b=24；实际b仍未知，不以pure-p参考值代入。

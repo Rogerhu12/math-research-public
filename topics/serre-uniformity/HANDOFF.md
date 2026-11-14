@@ -4,20 +4,20 @@
 
 证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，未达到 README 完成标准。** 固定p、条件结论、数值验证都不算完成。会话 serre-public-resume-20261114；日志 Asia/Taipei。
 
-已读规则提交：34e756dcc07d4a72a47b108758b09045126cea37
-最近实际 pull：2026-11-14 20:30:33 Asia/Taipei；两README当时无差异。集成核查：2026-11-14 12:45:35 UTC，两README仍无差异。之后执行环境unavailable，按根规8仅以GitHub集成传小文本；每次更新读取最新main并核两README、按最新父提交无强推。终端恢复立即部分克隆/pull；正式计算仍用公开Actions及其pull检查。
+已读规则提交：4a8113877db2fb10d556b8de101ac81ad5d5e839
+最近实际 pull：2026-11-14 20:30:33 Asia/Taipei；两README当时无差异。集成核查：2026-11-14 12:52:28 UTC，两README仍无差异。之后执行环境unavailable，按根规8仅以GitHub集成传小文本；每次更新读取最新main并核两README、按最新父提交无强推。终端恢复立即部分克隆/pull；正式计算仍用公开Actions及其pull检查。
 
 仅在 Rogerhu12/math-research-public 工作，长计算用本仓库 Actions；旧“停用公开runner/转本地”作废。每条结论终端commit/push main已授权；推前pull，非快进立即pull --rebase循环，不force。令牌仅CLI临时环境。根代理独占tracked/git；辅助在仓库外agent-global/、agent-cartier/、agent-o6/。单Markdown<100KB，HANDOFF<10KB，open/README<30KB，数据>1MBgzip，单文件<5MB。日志只追加本题log，≤5内容行；改共享文件须在log说明。
 
-部分克隆仅检出本题源码/证明/小JSON；大型scripts/data/*.gz按需git show，避免共享盘ENOSPC。所有Git对象仍在本地。迁移前与本轮压缩前交接完整保存于 notes/2026-11-14-public-takeover-handoff.md、notes/2026-11-14-public-handoff-through-R683.md；后续压缩前交接见notes/2026-11-14-public-handoff-through-R693.md、notes/2026-11-14-public-handoff-through-R700.md、notes/2026-11-14-public-handoff-through-R707.md、notes/2026-11-14-public-handoff-through-R714.md及notes/2026-11-14-public-handoff-through-R718.md；当前open旧逐条更新保全于notes/2026-11-14-open-before-public-wave02-results.md及分类前notes/2026-11-14-open-before-R707-classification.md；恢复更早依赖见这些文件的归档链，不把旧摘要当缺失证书。
+执行环境现不可用，旧本地Git对象不可依赖。恢复后部分克隆并pull公开main，只检出本题源码/证明/小JSON；大型压缩数据按需读取。完整迁移与历次交接归档链保存在notes/2026-11-14-public-handoff-through-R716-recovery.md；该文件保留此前全部归档路径，旧摘要不代缺失证书。
 
 ## 当前执行检查点
 
 - R707固定p41完整分类：129盘=121排除+8CM，无有理尖点；183证明SHA账本已核。R656/R709原CM4全链已恢复，O5关闭，不重跑完成计算。
 - R706合R689/R698：41..200000共5992素数，唯一Cp−3零137147；原z独立公开run43587480525已同值。R710公开run43589720709继续原数组得到后两权117309/122674、残余阶r=3；R711原系数有理直线给整数赋值，详下。
-- R699/R703真实高度结构已证明：R703的6(g+g(Y))+8维代数基、八个非零提取系数及不含未知高度赋值的相对全尾已登记；实际一般p矩阵/前缀仍缺。R716已证明免预求γ：完整有限关系矩阵保住四个±L_a^−2提取值和相对全尾；R720链桥已双审待登记。
+- R699/R703真实高度结构已证明：R703的6(g+g(Y))+8维代数基、八个非零提取系数及不含未知高度赋值的相对全尾已登记；实际一般p矩阵/前缀仍缺。R716已证明免预求γ：完整有限关系矩阵保住四个±L_a^−2提取值和相对全尾；R720已完成原C=9ib的完整链比较；实际b未知。
 - R712原M2完整下一位已证明：严格LT、两块及全部尾；公开run43594244072有限恒等式全通过，12文件SHA已核。137147实际D_p未求；cartier续R717原解析值严格分母/误差与快速计算。root的R714扩大原R616本原区域已独审登记，未覆盖全部p。
-- O6的R704原43分支矩阵公开run43588220740完成（det687）；R708证明已知局部Norm容许全部43值。R715已双审确定m=43、原普通S-Norm满射及NP=(p,π)E_L；R718已逐层证明m_n=42n+1、d∞及全部普通Norm；unit续R720原C/b链桥，C/b/L数值仍未知。全部新结论单独commit/push，主目标OPEN。
+- O6的R704原43分支矩阵公开run43588220740完成（det687）；R708证明已知局部Norm容许全部43值。R715已双审确定m=43、原普通S-Norm满射及NP=(p,π)E_L；R718已逐层证明m_n=42n+1、d∞及全部普通Norm；R720原C/b链桥已闭合，unit续真实主化/首矩求b，C/b/L数值仍未知。全部新结论单独commit/push，主目标OPEN。
 
 ## O5：固定p41已完整分类
 
@@ -45,12 +45,14 @@ R593固定η、同一cclear·ctriv及新增q局部项零；even有限Ω与d无�
 
 R561原scalar-p²全部Robert产物和普通类C，L=31−22iC。R613同祖先C_r=C+34r及42个普通主化方向；R619辅助Ct=9、Cl(LF_t)_χ=k、T-Norm同构/扩张零，Ct不能代C。R633完整普通单位presentation、kerNΓ自由秩一及两个Norm像。
 
-R657的原A_LB=RΓ/π^m现由R715严格确定m=43：Γ自然两步Tate维移把循环E_L/NPE送到H1(P,A)，m≤42会给Γ平凡k²矛盾。故原y确为普通S-Norm，NSE=E_N、NPE=(p,π)E_L；s=1+iπ、b∈F43已定义但C/J/b/λ/n/L仍未知；R684已给全部中间类群/转移和单位Norm的精确分支，R695给Qκ=πDScs−κπDTct−11acq∈π²E iff κ=C/9（a=15i/7），消去未知y、不需m43；域整除对全部κ成立，实际普通整除未求。R700以原q-Frob本原性得X_L^(p)=O⊕RΓ，全层X^(p)、U对O[P_n]自由秩43/86；普通A仍为完整序列末商，实际互反矩阵/原Robert局部向量未算。R704已给全部原Γ标记p嵌入模43²（det687），精度足够R701；原Robert局部坐标仍缺。R708保持原Γ/τ及所有已知Norm仍容许η_p取遍F43，部分q同源压缩仍需(q+1)/43个商；须真正全局普通单位输入。R718进一步逐层用真实p^n-Norm和自然维移证明m_n=42n+1、d∞、类Norm逆极限RΓ；N_Sn普通满射、N_Pn=(p,π)E_L，交Norm为相容单位逆极限的像。R599原首矩仍待求。不把pure-p的24、一次10或辅助Ct=9代原L。
+R657的原A_LB=RΓ/π^m现由R715严格确定m=43：Γ自然两步Tate维移把循环E_L/NPE送到H1(P,A)，m≤42会给Γ平凡k²矛盾。故原y确为普通S-Norm，NSE=E_N、NPE=(p,π)E_L；s=1+iπ、b∈F43已定义；R720现证C=9ib=−34ib、L=31+26b、r_y=25+9b、Ω₂=ε(22+17b)，消失恰b=24，但实际b/J/λ/n/L数值仍未知；R684已给全部中间类群/转移和单位Norm的精确分支，R695给Qκ=πDScs−κπDTct−11acq∈π²E iff κ=C/9（a=15i/7），消去未知y、不需m43；域整除对全部κ成立，实际普通整除未求。R700以原q-Frob本原性得X_L^(p)=O⊕RΓ，全层X^(p)、U对O[P_n]自由秩43/86；普通A仍为完整序列末商，实际互反矩阵/原Robert局部向量未算。R704已给全部原Γ标记p嵌入模43²（det687），精度足够R701；原Robert局部坐标仍缺。R708保持原Γ/τ及所有已知Norm仍容许η_p取遍F43，部分q同源压缩仍需(q+1)/43个商；须真正全局普通单位输入。R718进一步逐层用真实p^n-Norm和自然维移证明m_n=42n+1、d∞、类Norm逆极限RΓ；N_Sn普通满射、N_Pn=(p,π)E_L，交Norm为相容单位逆极限的像。R599原首矩仍待求。不把pure-p的24、一次10或辅助Ct=9代原L。
 
 ## O2/O3 与一般目标
 
 完整非分裂Cartan正规化子仍是p>37唯一未排除的像；已核Furio–Lombardo v2(2025)及2026论文，未找到主问题公认解。R4的Runge提升尖点轨道数等无穷位数；需要新全局信息。O3需真实异常族统一找到q<p²/4、ε(q)=−1、a_q(E)≠0；固定窗口可被满像曲线实现，导子依赖Chebotarev不够。以上三条研究线/固定p进展都不能放宽主要完成标准。
 
-## 执行环境恢复检查点
+## 当前恢复与运行检查点
 
-R716原本地推送未到main，本次从会话逐字恢复，已核原SHA一致。R720完整原C/b链桥已根/global核通过，待恢复文本登记。R717原解析精确值证明/核心已审，global恢复原字节，cartier补旧receipt复用校验及Ω/6标记；首个公开新算法校准p41尚未执行。R719正在写137147原R616有限可见点+全尾判据，尚无数值结果。只登记完整证明；主目标OPEN。
+R716原本地推送未到main，已逐字恢复同SHA并原生集成提交d6c1e9c5。R720完整原链桥经根/global全文核验：真实NΓX对P自由、同时整提升与两次边界比较保住原Robert标签，C=9ib已证；实际b未知。
+R717原解析精确值证明及核心已恢复并核，新增Ω/6标记与旧receipt本次expected复查；最终证明blob a3cc86fa119a7e7916094d87521721a1f319cd07、core blob1c915ee66601e4c1faf10e9adb4ed28029976ac7。公开新算法p41校准待启动，必须通过原1274校准再算137147，不能重跑完成的旧轨道计算。
+R719原137147可见点有限枚举+完整外尾判据及源码已全文独审；B<1/2只是待运行的接受条件，尚无数值证书。先将方法存notes、用本仓库Actions计算，成功后另登记实际结论。主目标OPEN。
