@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "${PYTHON}",
+    "-u",
+    "${RUNTIME_TOPIC}/computations/geometry_20261114_compressed_qr_compare.py",
+    "--checkpoint",
+    "${RUNTIME_TOPIC}/notes/2026-11-14-geometry-resume-compressed-QR-history-linear-input.json",
+    "--profile",
+    "${RUNTIME_TOPIC}/notes/2026-11-14-geometry-resume-compressed-QR-history-profile.json",
+    "--projector",
+    "${RUNTIME_TOPIC}/notes/2026-11-14-geometry-resume-compressed-QR-history-projector.json.gz",
+    "--work",
+    "${WORK}/compressed-linear-check",
+    "--out",
+    "${OUT_DIR}/compressed-linear-check.json"
+  ],
+  "selected_input_equivalence": "The solver uses states[0][1:M+1] and mesh/states[-3:], all copied bit for bit from the actual original input. The full historical input hash is preserved separately.",
+  "no_nonlinear_resume_requested": true
+}

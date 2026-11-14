@@ -1,0 +1,67 @@
+{
+  "scope": "Fourth observed external SIGKILL with five genuine accepted inner updates; unfinished sixth Jacobian and no new prefix acceptance.",
+  "files": [
+    {
+      "file": "actual-launch.json",
+      "bytes": 4899,
+      "sha256": "9357e56513e8769de521cb3370b7c681709b6e3f70ebeab1f443f055b6d387fe"
+    },
+    {
+      "file": "actual-page-advice.jsonl.gz",
+      "bytes": 7516,
+      "sha256": "664400745a0daac02dba8b4ae4bd81eea9d4e6ff24cf86c1dfd8e7cdd82cbc22"
+    },
+    {
+      "file": "actual-plan.json",
+      "bytes": 6705,
+      "sha256": "7be600d7bc7b9b1be137a51162c2a5d45326be6c83439ac01d8351de3a68b236"
+    },
+    {
+      "file": "actual-wait4.json",
+      "bytes": 4770,
+      "sha256": "472bfbb74160654d3a14e0a2f87d36f3a11a127383931ae89295fccb806879de"
+    },
+    {
+      "file": "actual.log.gz",
+      "bytes": 81168,
+      "sha256": "1a97a51ad45cf8e36a145ec67c872c7038fc931a8cfcc7c8ccc80c4d181b9172"
+    },
+    {
+      "file": "complete-local-recovery-index.json",
+      "bytes": 30112,
+      "sha256": "775afab19f43ed9f4667b1ae839744d86fb0c8ad99507a2ccac3c193457fcc18"
+    },
+    {
+      "file": "last-original-iterate-manifest.json.gz",
+      "bytes": 7795,
+      "sha256": "7144b5032d46bc8acb596a341774fa79f181e8de4bf30f5cf42a9204cb5c3155"
+    },
+    {
+      "file": "summary.json",
+      "bytes": 11782,
+      "sha256": "edfc0057e92251006078084fc63728d930df6e8b984f9cfdef71bddbf3747373"
+    }
+  ],
+  "sources": [
+    {
+      "file": "computations/strong_20261114_page_bounded_entry.py",
+      "sha256": "839a233b7cebb6334e3b8e88c632a063d50b31af8af1591b20f9535a16c8aef4"
+    },
+    {
+      "file": "computations/strong_20261114_disk_page_budget.py",
+      "sha256": "8bc49fa84241d5611c4d88f9b26b513821ebc171c04a85e74c52c0d31ed4ff34"
+    },
+    {
+      "file": "computations/strong_20261114_stoppable_resource_run.py",
+      "sha256": "f8e30202f9f92dfb5911da2487c0ecc293eed4a189e98301be58af13aa1c0fcb"
+    },
+    {
+      "file": "computations/strong_20261114_loop_actual_bvp.py",
+      "sha256": "b01f06ce89672bcf051e15bd83f1f788d1dd3f7478679d62a804837d6154cb0d"
+    }
+  ],
+  "full_local_raw_chunks_not_duplicated_in_archive": true,
+  "raw_recovery_index": "/workspace/scratch/ffc1334c1988/strong-work/margin325-half-r4-recovery/index.json",
+  "anonymous_J_QR_bytes_not_preserved": true,
+  "no_signal_cause_claimed": true
+}

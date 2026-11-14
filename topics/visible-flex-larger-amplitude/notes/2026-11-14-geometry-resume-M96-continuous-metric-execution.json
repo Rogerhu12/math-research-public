@@ -1,0 +1,63 @@
+{
+  "scope": "Reproduce the complete continuous metric enclosure for the exact saved finite C2 field; no exact isometry or closed surface claim.",
+  "executed": true,
+  "exec_session_id": 96282,
+  "observed_exit_code": 0,
+  "inputs": {
+    "accepted_BVP": "notes/2026-11-14-geometry-resume-scaled-sphere-M96-normal-BVP-r1.json.gz",
+    "accepted_BVP_sha256": "3ac8c8efa20670342021487a197443f6e1b2ad60f35c7bf2864f355a06424b69",
+    "frozen_second_jets": "notes/2026-11-14-geometry-resume-M96-continuous-metric-second-jets.json.gz"
+  },
+  "command": [
+    "${PYTHON}",
+    "-u",
+    "${RUNTIME_TOPIC}/computations/geometry_20261114_quintic_metric_interval.py",
+    "--input",
+    "${RUNTIME_TOPIC}/notes/2026-11-14-geometry-resume-scaled-sphere-M96-normal-BVP-r1.json.gz",
+    "--second-jets",
+    "${RUNTIME_TOPIC}/notes/2026-11-14-geometry-resume-M96-continuous-metric-second-jets.json.gz",
+    "--angles",
+    "1024",
+    "--out",
+    "${OUT_DIR}/continuous-metric.json"
+  ],
+  "working_directory": "${WORK}",
+  "self_contained_topic_inputs": true,
+  "frozen_files": [
+    {
+      "path": "computations/geometry_20261114_quintic_metric_interval.py",
+      "sha256": "f19995bfd92bfdabd43fbf2f0fa6956788e74d18e68ceda77fb8405b17299a4a",
+      "bytes": 18183
+    },
+    {
+      "path": "notes/2026-11-14-geometry-resume-M96-continuous-metric-second-jets.json.gz",
+      "sha256": "ea653c839655b88cb0fabf50566f8cece44057c2bf81a4cc06fffdb5d380c9f9",
+      "bytes": 1195888
+    },
+    {
+      "path": "notes/2026-11-14-geometry-resume-M96-continuous-metric-conditions.json",
+      "sha256": "d648144e29350ee2be25b6aa030bb2051347869936cedbed63b477195c54046b",
+      "bytes": 4655
+    },
+    {
+      "path": "notes/2026-11-14-geometry-resume-M96-continuous-metric-resource.json",
+      "sha256": "0cd14580a2cc89c006e3f36766518886e36dc01a796484ffe548de4fda56dfe8",
+      "bytes": 1400
+    },
+    {
+      "path": "notes/2026-11-14-geometry-resume-M96-continuous-metric.log",
+      "sha256": "54b3ab4fd1734673a429e109a01ff585ee690d21b372d4eeecf2755644b40701",
+      "bytes": 6437
+    },
+    {
+      "path": "notes/2026-11-14-geometry-resume-M96-continuous-metric.json.gz",
+      "sha256": "2e582d42fd9e8f464da7a74bd4d86bd75e14d30250b01e9d42a5d76fc509012c",
+      "bytes": 148176
+    },
+    {
+      "path": "notes/2026-11-14-geometry-resume-M96-continuous-metric.md",
+      "sha256": "8084c7f3fa3c8a0151912ca230ff1d2b99ae9e338f19216fb79ac273eb802ca0",
+      "bytes": 7081
+    }
+  ]
+}

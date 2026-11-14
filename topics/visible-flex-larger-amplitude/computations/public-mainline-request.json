@@ -1,13 +1,12 @@
 {
-  "request": "20261114-public-large-core-mainline-05",
+  "request": "20261114-public-large-core-mainline-06",
   "repository": "Rogerhu12/math-research-public",
   "accepted_input": "notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
   "accepted_sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
   "lanes": [
-    "geometry",
-    "gwcompat"
+    "circleprobe"
   ],
-  "scope": "On the unchanged old complete A field, refine only remaining prefix spatial pairs from q4 to q8. Independently read the retained original GW cusp node bytes and decompose its actual Hermite discrepancy using R245; no new ODE, no replacement field, and no inherited metric claim. The v2 large-core full-DN attempt stopped before QR at invalid RMS quadrature points and is being diagnosed separately. Do not repeat completed BVP, tail, zero-height or cardinal calculations.",
+  "scope": "Targeted diagnosis of the actual failed circular warm, keeping its full 96-mode core and identical scalar a(s). Compare M/N = 96/1024, 96/2048, 112/2048, 128/2048, 160/4096 on actual failing and representative intervals using original Frenet RHS and both true Lobatto queries. Preserve the full analytic material circle as a distinct reference. No BVP or tail is restarted; no lift or reference is declared accepted.",
   "completed_zero_tail": "notes/public-actions-43582043166-1-tailzero/zero-H-T96",
   "completed_zero_response_sha256": "08d1e4865cb00d7d48ab169ce387a60119f304bc4dc4953eb8fd029fdbff1160",
   "control_schema": "complete-prefix-controls-scalar-profile-v2",

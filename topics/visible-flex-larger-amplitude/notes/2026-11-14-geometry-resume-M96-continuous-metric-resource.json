@@ -1,0 +1,31 @@
+{
+  "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+  "task_prefix": "geometry-M96-continuous-metric",
+  "command": [
+    "python",
+    "-u",
+    "geometry-work/rounding-runtime/geometry_20261114_quintic_metric_interval.py",
+    "--input",
+    "geometry-work/scaled-sphere-M96-normal-BVP-r1.json.gz",
+    "--second-jets",
+    "geometry-work/scaled-sphere-M96-finite-second-jets-r1.json.gz",
+    "--out",
+    "geometry-work/scaled-sphere-M96-continuous-metric-r1.json"
+  ],
+  "started_utc": "2026-11-14T09:11:27.765165+00:00",
+  "finished_utc": "2026-11-14T09:29:28.005074+00:00",
+  "wall_seconds": 1080.2680027490023,
+  "exitcode": 0,
+  "termination_signal": null,
+  "wait4_observed": true,
+  "wait_status": 0,
+  "peak_rss_kib": 106300,
+  "user_seconds": 712.887947,
+  "system_seconds": 4.987019,
+  "resource_wrapper_sha256": "f8e30202f9f92dfb5911da2487c0ecc293eed4a189e98301be58af13aa1c0fcb",
+  "received_supervisor_signals": [],
+  "owned_child_pid": 6,
+  "supervisor_pid": 5,
+  "supervisor_pid_namespace": "pid:[4026533024]",
+  "automatic_restarts": 0
+}

@@ -16,12 +16,12 @@ clone=/workspace/scratch/e959e57ee07f/math-research-public，本轮目录symlink
 ## 真实大核与完整DN主线
 
 主输入真.99：notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz，SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff。M96/N1024、423节点、固定前3/释放93核，RMS5.45704e−7/BC3.47e−18；两档材料C² metric5.77368e−7、κ6.30138、G≈.960000980454、Dprefix样本3.50037，严格完整核rho>.1638501198935。不是闭面。
-run43582043166/free3真接受.996和.9975，但材料metric4.60534e−6/8.08662e−6已超目标。最后.997875真Newton未接受：688nodes/RMS1.03996e−5，欲加256>900，reduced condition5.995e7且回溯失败。四个中间predictor仅正性失败。全部62件已在notes/public-actions-43582043166-1-free3/归档，attempt03接受/attempt06失败；不用盲加网格重复，仍以较好.99打通cut。
+run43582043166/free3真接受.996/.9975，但材料metric4.60534e−6/8.08662e−6已超标；.997875真Newton RMS1.03996e−5/condition5.995e7且回溯失败，非仅预测失败。全部62件已归档（attempt03接受、06失败）；不盲加网格，仍以较好.99打通cut。
 CompleteProfile从.99以AngleConnector/coast/原finitebridge接真实r=.3，s_end=2.271004035438285。物理状态完整3M+2（含z0），全部H96及core换角导数、c′=p′=0增广389维（左293/右96）。原QR/Newton/容差不变。
 原690点warm：notes/public-actions-43582043166-1-coupling/preparation/prepared-compact.json.gz（3710347B），仅删重复alias，manifest可重构原JSON。节点和中点域通过，maxcol=.00711059，末点H96准确0，mean1.60408100852；**RMS两Lobatto点后来实测不通过，不能称全域有效。**
 首完整DN run43584222071：690节点reduced condition7.153e17、linear相对残差.57657，无接受Newton步；SciPy插值878节点RMS NaN/BC.001964，非新H尾失败。690checkpoint未改；878pending不是改进warm。原FD Richardson max7.28036e−9通过5e−5门。R244证明圆形段紧支scalar控制是非均值设计核方向，有限投影是否精确有核另论。
 新v2 prefix3 schema=complete-prefix-controls-scalar-profile-v2，3支持(.05,.30)/(.35,.60)/(.65,.90)乘原prefix_end，完整序列化supports/poly/p*/两源SHA；绝不以旧prefix/turn/coast解释新p。full_dn_prefix_controls.py保原690点，插新点用原analytic seed；加入实际RMS两fraction .5±.5√(3/7)域检查，真正QR后才记录SVD/近核/分块linear残差。
-**request04/run43585737152/source085dcb54实际前置失败**：原690点有331坏RMS点，新696点仍331，加到1027有846，超max_nodes1200；未启动QR/新H尾/接受步。首坏s1.45441467、β²−.00337326，坏点均在taper_end1.2856后的圆形warm段。非舍入小负数，不直接加预算。amplitude正备同96核/同a、φ场M96/112/128/160与N1024/2048/4096的短实际谱/RHS/Hermite诊断，以分清投影截断和角积分；未称lift为新接受。
+**request04/run43585737152/source085dcb54实际前置失败**：原690点有331坏RMS点，新696点仍331，加到1027有846，超max_nodes1200；未启动QR/新H尾/接受步。首坏s1.45441467、β²−.00337326，坏点均在taper_end1.2856后的圆形warm段。非舍入小负数，不直接加预算。request06仅circleprobe，以原真实warm/RMS报告比较同96核/同a的五组M/N、原RHS与真实Lobatto域；不重启BVP/tail、不称lift为接受。
 
 ## 真尾、接缝与冻结g
 
@@ -35,14 +35,14 @@ R240：共同材料θ下g=ds²+a(s)²dθ²与c无关；设计定型后冻结完�
 
 A仅旧小幅完整组装：G=.2506381129，Dcloud3.9774592667，Hdiam3.9695633777，九phase像点云幅度.2506381375=.06301463338D，未达.2。三mesh解压3745773B/73442顶点/146880面，Euler2/每边2面/零退化。点云/全phase消元不自动给连续空间reach。
 原g全H32/RK24与RK48真solve/J/audit已成功；run43579782197完成RK48真16+源节点读出/共同网格/finitecollar/闭组装。24→48同f8二jet差7.03e−6，48f8→16差.0029138，未机器稳定；原prefixcut metric平台4.77033e−8未重解。外cut.01外metric降至2.07608e−9，finitecollar界1.00139e−18仅自己的原H和背景。
-post43旧GW35件源/结果及原transfer已逐SHA恢复，notes/2026-11-14-post43-GW-recovery/；明确旧本地历史，不冒本轮Actions。GW是不同有限rr重构，旧f8→16二jet.0017739032174/κ差.0006781771仍不收敛；最坏在stage28 cusp附近。R245完整证明P=Q+ES、六jet锐界及共享C¹速度积分；Q只比较场，完整ΣE=0才保两端，不能继承旧g。116KB原节点packet+GW_cusp_compatibility消费者在request05独立实测，无新ODE。
+post43旧GW35件源/结果及原transfer已逐SHA恢复，notes/2026-11-14-post43-GW-recovery/；明确旧本地历史，不冒本轮Actions。GW是不同有限rr重构，旧f8→16二jet.0017739032174/κ差.0006781771仍不收敛；最坏在stage28 cusp附近。R245完整证明P=Q+ES、六jet锐界及共享C¹速度积分；Q只比较场，完整ΣE=0才保两端，不能继承旧g。run43586618658/gwcompat真重现rr差.0017739032174，有理shadow同值，消费端求值差仅1e−17；Q层差反升.00204906，不铺全场替换。原节点升序/降序已核，不存在半径不同的节点别名；下一核速度/二阶来源，无新ODE。
 R238条件定理排含反射全等；R242精确warped度量+角解析时平面带迫使a′非零整数，不能套有限缺陷/任意C²极限。R243用真9245原节点/9246小段全有理非零见证证明共享C²四角规范形无平片；原renderer同一性/全接缝/δE仍须付。
-R241参数块门同时排自交/瓶颈。旧A v2真D+=3.980751407764145、Ktau=.9994116104，曲率/标记和所有prefix-tail/cap/self已付；余33712prefix对。v3 q2剩1948；**run43585361227/q4真剩328父对/1640子对**，同场/同包络未改。q8为下一有针对性检查，若仍漏才实际径向分裂，不盲升角数。held完整表面cover给δhold/D+≥.05388898465、H/D+≥.996873，正像变但不达.2；全连续包络假设仍按实际严格程度记录。
+R241参数块门同时排自交/瓶颈。旧A v2真D+=3.980751407764145、Ktau=.9994116104，曲率/标记和所有prefix-tail/cap/self已付；余33712prefix对。v3 q2剩1948；q4真剩328父对；**run43586618658/q8真付全部33712父对/2157568子对，uncovered=0，numerical_cover_budget_passed=true**。77.565s，同场/同包络未改；停止旧A可选加密，连续interval certificate仍false。held完整表面cover给δhold/D+≥.05388898465、H/D+≥.996873，正像变但不达.2；全连续包络假设仍按实际严格程度记录。
 
 ## 当前执行与保全
 
-request05/run43586618658/sourceb96924e0实际运行geometry(q8)+gwcompat；request04前置失败已保完整产物，详见prefix3-RMS-domain-failure.md，不排成运行中。q5等实际回执，主线准备投影域短诊断；不重复成功free3/zeroH/RK48。root下一pull须取bot已发run43585737152和43585361227产物。
-旧post43 geometry26件及strong90件也已按原SHA恢复到未跟踪文件，均历史非新Actions，需分manifest归档；强支旧SIGTERM143由共享磁盘资源中断，无接受更新，不重启旧支抢主线。旧strictmetric分量1e−6不等于算子1e−6；同新scalar须新适配/实算，勿重复18分钟旧baseline。
+request05/run43586618658/sourceb96924e0两lane均success；原bot发布，回执在本轮actions-debug。request06仅circleprobe已备，同原失败warm做M/N短诊断，不重做成功baseline。实际q8解决旧A条件空间覆盖，GW诊断排除单纯消费端求值解释，主线仍完整大核DN。
+旧post43 geometry26件和strong90件已逐SHA归档，各有recovery-manifest；均历史非新Actions。R246完整证明旧.984有限场三分量<1e−6及浸入，直接operator仅<2e−6，明确不付新scalar/闭面门。强支旧完整H审计已成，但R6因磁盘SIGTERM143无接受步；全raw前缀分块未全迁，原只读索引仍在manifest，不重启旧支。旧18分钟strictmetric不重复；新场需自身公式适配。
 每结论普通pull/README差异检查/commit/push；非快进立即rebase到成功。公开源78件逐原91清单匹配，只读公开仓，无private secret。临时自有transport分支只帮助大blob送达繁忙main，仍普通push，禁止force。任何分项完成继续open下一项。
 
 规则同步记录：2026-11-14T10:45:54.085441+00:00 实际pull --rebase成功；双README自8522706无变化，已读提交 5b8efcf6bd2f1c63d9a2508d9e8ba9a3e95dc545。

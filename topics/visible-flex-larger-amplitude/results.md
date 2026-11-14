@@ -455,3 +455,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R244. 精确圆形区段内标量控制的设计核方向](results/R244-circular-support-scalar-control-null-direction.md)：用完整C²变分及局部有限参数族证明圆段紧支控制在非均值DN设计系统中不可观测；允许其他warm区段未解，明确非固定g变分及有限M投影限制，支撑prefix3控制改法。
 
 - [R245. Hermite位置兼容缺陷与共享速度积分](results/R245-hermite-compatibility-and-integrated-velocity.md)：精确恒等式P=Q+ES及C⁰/C¹/C²锐常数、共享C¹速度的全局C²积分、两端位置兼容当且仅当全部角函数ΣE=0，含完整六jet与metric扰动界；不预设缺陷是舍入，也不把比较场当已接受闭曲面。
+
+- [R246. 旧.984有限前缀的连续三分量度量界与浸入](results/R246-finite-prefix-continuous-component-metric-bound.md)：原415片有理共享节点场的Bernstein/区间FFT/全角Taylor完整证明，三归一化分量各严格<1e−6、连续C²浸入；直接算子界仅<2e−6。保留旧本地执行出处，不移植新场、不冒整面门已付。
