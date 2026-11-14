@@ -1,0 +1,132 @@
+{
+  "kind": "actual_public_complete_fixed_eta_quarter_cap_process_v1",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43623547711",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "2313e2399e142a14d42a1aacfd980f54dfb89f73",
+  "worker_source_sha256": "04d4380d840504f3aedf2da2d95f2112677819885f4a1e367480f97298b332db",
+  "started_utc": "2026-11-14T17:54:16.803835+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T17:54:17.432044+00:00",
+      "before": "2313e2399e142a14d42a1aacfd980f54dfb89f73",
+      "after": "2313e2399e142a14d42a1aacfd980f54dfb89f73",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:54:17.709154+00:00",
+      "before": "2313e2399e142a14d42a1aacfd980f54dfb89f73",
+      "after": "2313e2399e142a14d42a1aacfd980f54dfb89f73",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "phase": "plan",
+  "source_range": null,
+  "original_fixed_eta_pilot_run": 43619535345,
+  "original_fixed_eta_pilot_quarters_reused": 64,
+  "original_large_array_reconstructions_executed": 0,
+  "original_completed_domains_recomputed": 0,
+  "complete_true_cut_source_claimed": false,
+  "complete_finite193_response_error_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "input_manifest_sha256": "6dc5bf2d8030d506c74dc29ef2cb3c1991cd5f7fb8c2a051b03b0ad89cb2fb69",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "2313e2399e142a14d42a1aacfd980f54dfb89f73",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-quarter-work/science",
+  "actual_input_sha256": {
+    "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "proposal": "b9819522aceed06b73628d84b8bb80dbcc5b734971c6b3c20544e9876c23d78a",
+    "object": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+    "pilot": "f36831b1f5cc354548686c7d3e5f3fdfb10a456899d25f57d1be1b4cefccbe5c",
+    "pilot-process": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4",
+    "complete": "8bc061ec200deb37548005297a1530d341eaa55065e70104cc5d82714aed21c5",
+    "complete-process": "55765c2954b872699fe60a8c81b62992841578233f12577f9b154a4db6873280",
+    "fixed-pilot": "b5a157d4005eb4aad1c536512c4ea5dcb431e90d09c4b05f324db5cf09203138",
+    "fixed-process": "c0c4af7273f703cfb6c0b10394dd0821a21ad7e3015cda14ba006c878094fb6f",
+    "range-native-0": "c2d5549f71c99e0409d799bfa7e385eba7c76335fccf524c29cfe9b5098f21c1",
+    "range-native-1": "024d0b283dd423c0ebc4fd28f88706badc7c7a0a44d45621a003e96662d5e322",
+    "range-native-2": "ed3ec1a046a10403b6f5aee4daf4b9eea27ca1f10c0ad186c00ed0713427e078",
+    "range-native-3": "b36f89c07e4ab35ad4b4f837be216f382e792950667c23df48f3c730189279d6",
+    "range-process-0": "e9ca50d59b35063d403c5bcd69a474c27ee28ac678255fc19652f28510df205f",
+    "range-process-1": "388664c84e94d4a21439a289301c910180b234260289b7323974c21d7f4d9d51",
+    "range-process-2": "cc0e84d8e5f619cf190e243a7a00199f97b0f2f7e852f346d1ba3560185f91fa",
+    "range-process-3": "3260b82c44299b12ab6a62bafc992e159201b602a8bd4096998676b8f9504449"
+  },
+  "snapshot_utc": "2026-11-14T17:54:17.735259+00:00",
+  "wall_seconds": 0.9321007409999993,
+  "native_files": [
+    {
+      "logical_file": "evidence/original-complete-process.json",
+      "file": "evidence/original-complete-process.json",
+      "bytes": 16076,
+      "sha256": "55765c2954b872699fe60a8c81b62992841578233f12577f9b154a4db6873280"
+    },
+    {
+      "logical_file": "evidence/original-direct-range-0000-0512-process.json",
+      "file": "evidence/original-direct-range-0000-0512-process.json",
+      "bytes": 12959,
+      "sha256": "e9ca50d59b35063d403c5bcd69a474c27ee28ac678255fc19652f28510df205f"
+    },
+    {
+      "logical_file": "evidence/original-direct-range-0512-1024-process.json",
+      "file": "evidence/original-direct-range-0512-1024-process.json",
+      "bytes": 12965,
+      "sha256": "388664c84e94d4a21439a289301c910180b234260289b7323974c21d7f4d9d51"
+    },
+    {
+      "logical_file": "evidence/original-direct-range-1024-1536-process.json",
+      "file": "evidence/original-direct-range-1024-1536-process.json",
+      "bytes": 12963,
+      "sha256": "cc0e84d8e5f619cf190e243a7a00199f97b0f2f7e852f346d1ba3560185f91fa"
+    },
+    {
+      "logical_file": "evidence/original-direct-range-1536-1977-process.json",
+      "file": "evidence/original-direct-range-1536-1977-process.json",
+      "bytes": 12203,
+      "sha256": "3260b82c44299b12ab6a62bafc992e159201b602a8bd4096998676b8f9504449"
+    },
+    {
+      "logical_file": "evidence/original-fixed-pilot-process.json",
+      "file": "evidence/original-fixed-pilot-process.json",
+      "bytes": 16379,
+      "sha256": "c0c4af7273f703cfb6c0b10394dd0821a21ad7e3015cda14ba006c878094fb6f"
+    },
+    {
+      "logical_file": "evidence/original-pilot-process.json",
+      "file": "evidence/original-pilot-process.json",
+      "bytes": 16602,
+      "sha256": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4"
+    }
+  ]
+}

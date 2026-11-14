@@ -1,0 +1,333 @@
+{
+  "kind": "actual_public_fixed_eta0_refined_physical_cap_pilot_process_v1",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43619535345",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "6336fd5ac8b3c443b802f2dc142e74bb39de5631",
+  "worker_source_sha256": "953940428d8c2ac6a1bf9a1874d9e806d8920f2787f00ba9042ce449db208267",
+  "started_utc": "2026-11-14T17:10:13.390899+00:00",
+  "children": [
+    {
+      "label": "actual_fixed_eta0_refined_physical_cap_coefficient_domains",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-fixed-eta-cap-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_fixed_eta_physical_cap_pilot.py",
+        "--out",
+        "/__w/_temp/visible-exact-fixed-eta-cap-output/native/fixed-eta0-refined-physical-cap-coefficient-pilot.json.gz",
+        "--candidate",
+        "/__w/_temp/visible-exact-fixed-eta-cap-prepared/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--proposal",
+        "/__w/_temp/visible-exact-fixed-eta-cap-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-physical128-cap-moving97-precomposition-native.json",
+        "--object",
+        "/__w/_temp/visible-exact-fixed-eta-cap-work/science/topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--repair-report",
+        "/__w/_temp/visible-exact-fixed-eta-cap-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+        "--pilot",
+        "/__w/_temp/visible-exact-fixed-eta-cap-pilot/native/known-cut-direction-complete-cap-mixed-source-pilot.json.gz",
+        "--pilot-process",
+        "/__w/_temp/visible-exact-fixed-eta-cap-pilot/process.json",
+        "--complete",
+        "/__w/_temp/visible-exact-fixed-eta-cap-complete/native/complete1977-cut-direction-and-same-Z-sources.json.gz",
+        "--complete-process",
+        "/__w/_temp/visible-exact-fixed-eta-cap-complete/process.json",
+        "--range-natives",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-0-512-43615251195-1/native/new-cut-direction-Z-cells-0000-0512.json.gz",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-512-1024-43615251195-1/native/new-cut-direction-Z-cells-0512-1024.json.gz",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-1024-1536-43615251195-1/native/new-cut-direction-Z-cells-1024-1536.json.gz",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-1536-1977-43615251195-1/native/new-cut-direction-Z-cells-1536-1977.json.gz",
+        "--range-processes",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-0-512-43615251195-1/process.json",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-512-1024-43615251195-1/process.json",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-1024-1536-43615251195-1/process.json",
+        "/__w/_temp/visible-exact-fixed-eta-cap-ranges/visible-exact-complete-cut-Z-range-1536-1977-43615251195-1/process.json"
+      ],
+      "started_utc": "2026-11-14T17:10:17.522084+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 450.01094906300006,
+      "finished_utc": "2026-11-14T17:17:47.533601+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T17:10:14.232810+00:00",
+      "before": "ceb4cd61e1a2211901dfd4c287ec28fe92309e4b",
+      "after": "fb54fe406737149953c4f813d188deb4020ae3e7",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:10:16.122932+00:00",
+      "before": "fb54fe406737149953c4f813d188deb4020ae3e7",
+      "after": "fb54fe406737149953c4f813d188deb4020ae3e7",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:17:49.048142+00:00",
+      "before": "fb54fe406737149953c4f813d188deb4020ae3e7",
+      "after": "5fd146f8521021651f462f7eeaf3bcfb1aa83dda",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:17:51.538391+00:00",
+      "before": "5fd146f8521021651f462f7eeaf3bcfb1aa83dda",
+      "after": "90e615fd55d98fcad7e96ea7a0657ede109dd09b",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T17:10:17.519683+00:00",
+      "final": false,
+      "commit": "a785281d19572f51ad3e65f689052a761ba9acab"
+    },
+    {
+      "time": "2026-11-14T17:17:51.010993+00:00",
+      "final": false,
+      "commit": "90e615fd55d98fcad7e96ea7a0657ede109dd09b"
+    },
+    {
+      "time": "2026-11-14T17:17:53.006475+00:00",
+      "final": true,
+      "commit": "1d982812d95599e0367a26692069c7bd10ad8fac"
+    }
+  ],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_complete_direction_run": 43615251195,
+  "original_successful_one_column_cells_repeated": 0,
+  "original_large_array_reconstructions_executed": 0,
+  "new_parameter_domain": "exact affine offset zero at physical eta0",
+  "complete_finite193_response_error_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "input_manifest_sha256": "0e0c95425c53d9fa0d3287f656b9ac478483ff03b159a5412048b39e04f5ffad",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "90e615fd55d98fcad7e96ea7a0657ede109dd09b",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-fixed-eta-cap-work/science",
+  "original_prepared_bundle_sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70",
+  "all_original_large_array_bytes_verified": true,
+  "large_matrix_reconstructions_executed": 0,
+  "actual_input_sha256": {
+    "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "proposal": "b9819522aceed06b73628d84b8bb80dbcc5b734971c6b3c20544e9876c23d78a",
+    "object": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+    "pilot": "f36831b1f5cc354548686c7d3e5f3fdfb10a456899d25f57d1be1b4cefccbe5c",
+    "pilot-process": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4",
+    "complete": "8bc061ec200deb37548005297a1530d341eaa55065e70104cc5d82714aed21c5",
+    "complete-process": "55765c2954b872699fe60a8c81b62992841578233f12577f9b154a4db6873280",
+    "range-native-0": "c2d5549f71c99e0409d799bfa7e385eba7c76335fccf524c29cfe9b5098f21c1",
+    "range-native-1": "024d0b283dd423c0ebc4fd28f88706badc7c7a0a44d45621a003e96662d5e322",
+    "range-native-2": "ed3ec1a046a10403b6f5aee4daf4b9eea27ca1f10c0ad186c00ed0713427e078",
+    "range-native-3": "b36f89c07e4ab35ad4b4f837be216f382e792950667c23df48f3c730189279d6",
+    "range-process-0": "e9ca50d59b35063d403c5bcd69a474c27ee28ac678255fc19652f28510df205f",
+    "range-process-1": "388664c84e94d4a21439a289301c910180b234260289b7323974c21d7f4d9d51",
+    "range-process-2": "cc0e84d8e5f619cf190e243a7a00199f97b0f2f7e852f346d1ba3560185f91fa",
+    "range-process-3": "3260b82c44299b12ab6a62bafc992e159201b602a8bd4096998676b8f9504449"
+  },
+  "snapshot_utc": "2026-11-14T17:17:51.581619+00:00",
+  "wall_seconds": 458.191437542,
+  "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 964,
+      "sha256": "e3b8959953e2e670534c1bcf86406741243535f643012217bbc9eb26ba564187"
+    },
+    {
+      "logical_file": "evidence/fixed-eta0-physical-cap-pilot-summary.json",
+      "file": "evidence/fixed-eta0-physical-cap-pilot-summary.json",
+      "bytes": 34252,
+      "sha256": "3bb0abaf36152e39bd5d6f113b2f6c7001c66660f1af7bcb68b11ba26b2e6dbe"
+    },
+    {
+      "logical_file": "evidence/original-complete1977-process.json",
+      "file": "evidence/original-complete1977-process.json",
+      "bytes": 16076,
+      "sha256": "55765c2954b872699fe60a8c81b62992841578233f12577f9b154a4db6873280"
+    },
+    {
+      "logical_file": "evidence/original-prepared-manifest.json",
+      "file": "evidence/original-prepared-manifest.json",
+      "bytes": 2998,
+      "sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70"
+    },
+    {
+      "logical_file": "evidence/original-range-0000-0512-process.json",
+      "file": "evidence/original-range-0000-0512-process.json",
+      "bytes": 12959,
+      "sha256": "e9ca50d59b35063d403c5bcd69a474c27ee28ac678255fc19652f28510df205f"
+    },
+    {
+      "logical_file": "evidence/original-range-0512-1024-process.json",
+      "file": "evidence/original-range-0512-1024-process.json",
+      "bytes": 12965,
+      "sha256": "388664c84e94d4a21439a289301c910180b234260289b7323974c21d7f4d9d51"
+    },
+    {
+      "logical_file": "evidence/original-range-1024-1536-process.json",
+      "file": "evidence/original-range-1024-1536-process.json",
+      "bytes": 12963,
+      "sha256": "cc0e84d8e5f619cf190e243a7a00199f97b0f2f7e852f346d1ba3560185f91fa"
+    },
+    {
+      "logical_file": "evidence/original-range-1536-1977-process.json",
+      "file": "evidence/original-range-1536-1977-process.json",
+      "bytes": 12203,
+      "sha256": "3260b82c44299b12ab6a62bafc992e159201b602a8bd4096998676b8f9504449"
+    },
+    {
+      "logical_file": "evidence/original-v3-pilot-process.json",
+      "file": "evidence/original-v3-pilot-process.json",
+      "bytes": 16602,
+      "sha256": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0861-diagnostic.json",
+      "file": "evidence/selected-parent-0861-diagnostic.json",
+      "bytes": 22615,
+      "sha256": "a3a317fa67db8dd21ff43aac1c61950979d5525deb39758536360d0ec8f84b6e"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0862-diagnostic.json",
+      "file": "evidence/selected-parent-0862-diagnostic.json",
+      "bytes": 22615,
+      "sha256": "8ee545299564c769411eaec0c27aaab693dc115796f2e11c65e35654f193f09e"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0873-diagnostic.json",
+      "file": "evidence/selected-parent-0873-diagnostic.json",
+      "bytes": 22798,
+      "sha256": "ac3dfe0b29f356756cfcbf3da617e8a6b4eb6e9a05a71b084e90ee81bff5dfb6"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0875-diagnostic.json",
+      "file": "evidence/selected-parent-0875-diagnostic.json",
+      "bytes": 22726,
+      "sha256": "8b6132cd805b9bd2184245c6f193c5eca3aa608da799c4fddb54c9a39f76b0a8"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0884-diagnostic.json",
+      "file": "evidence/selected-parent-0884-diagnostic.json",
+      "bytes": 22798,
+      "sha256": "7cc7354d3d5113dee42cf68c2d4aef333fc9ef987ad8500f7b6e9fcc94fba226"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0895-diagnostic.json",
+      "file": "evidence/selected-parent-0895-diagnostic.json",
+      "bytes": 22727,
+      "sha256": "36d98cb693cf0137348e12449f7a0f287232cc5ef58b58494d5bfbb8ce034089"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0896-diagnostic.json",
+      "file": "evidence/selected-parent-0896-diagnostic.json",
+      "bytes": 22798,
+      "sha256": "abdb78abc5b271ec90c61397cc0e17912962c1b2fd9865f996c53afaacb58d0a"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0906-diagnostic.json",
+      "file": "evidence/selected-parent-0906-diagnostic.json",
+      "bytes": 22800,
+      "sha256": "9d04dd0f7d6bb1d29bc08421132adf0bc98deda1d60fb6ebe82b94136724f79f"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0908-diagnostic.json",
+      "file": "evidence/selected-parent-0908-diagnostic.json",
+      "bytes": 22743,
+      "sha256": "fc0c36ad8eeb2c61bb93e22703773b5b1181b4da7cc6591068c806b06fe13e95"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0920-diagnostic.json",
+      "file": "evidence/selected-parent-0920-diagnostic.json",
+      "bytes": 22806,
+      "sha256": "2aec061ef491e07d3d8894ad71a107b929ee7d25b8da2d2f14f3148bbe199437"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0929-diagnostic.json",
+      "file": "evidence/selected-parent-0929-diagnostic.json",
+      "bytes": 22803,
+      "sha256": "764e7034aac8d8c1bd48fc9baf8f59747c7a3b60a348abdafc5b4e88d9de374c"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0931-diagnostic.json",
+      "file": "evidence/selected-parent-0931-diagnostic.json",
+      "bytes": 22742,
+      "sha256": "028eefeb9566fc7ccbcbe83aebbae747885232db7fbb3fc9f65c129202151356"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0941-diagnostic.json",
+      "file": "evidence/selected-parent-0941-diagnostic.json",
+      "bytes": 22807,
+      "sha256": "5169d7bbe301cdb75fe8cff0a10a17ba3a22aea0494871253e08d47944e97cea"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0942-diagnostic.json",
+      "file": "evidence/selected-parent-0942-diagnostic.json",
+      "bytes": 22799,
+      "sha256": "04831805e67818c6354ff7fdcc85dc8495113edd2dc60429f82bdee8b227cabb"
+    },
+    {
+      "logical_file": "evidence/selected-parent-0952-diagnostic.json",
+      "file": "evidence/selected-parent-0952-diagnostic.json",
+      "bytes": 22746,
+      "sha256": "de5128d603135938bd876d29570dd53b635329f17026202928bb06af9afe1257"
+    },
+    {
+      "logical_file": "evidence/selected-parent-1021-diagnostic.json",
+      "file": "evidence/selected-parent-1021-diagnostic.json",
+      "bytes": 22815,
+      "sha256": "cf96a43ca2c14b3261a531237ce10e5a2223e4c0e89102542f7ca8f29081c546"
+    },
+    {
+      "logical_file": "native/fixed-eta0-refined-physical-cap-coefficient-pilot.json.gz",
+      "file": "native/fixed-eta0-refined-physical-cap-coefficient-pilot.json.gz",
+      "bytes": 2213670,
+      "sha256": "b5a157d4005eb4aad1c536512c4ea5dcb431e90d09c4b05f324db5cf09203138"
+    }
+  ],
+  "complete_native_sha256": "b5a157d4005eb4aad1c536512c4ea5dcb431e90d09c4b05f324db5cf09203138",
+  "actual_scientific_gates": 6,
+  "actual_complete_new_domains": 336,
+  "actual_complete_parent_cells": 1977,
+  "actual_new_domains_in_this_child": 336,
+  "selected_complete_physical_cap_error": {
+    "ball": "[1.5089533882212308098107131220040767187303950927309735222053450893190182746918729e-6 +/- 2.83e-86]",
+    "lower": "[1.5089533882212308098107131220040767187303950927309735222053450893190182746918729e-6 +/- 2.83e-86]",
+    "upper": "[1.5089533882212308098107131220040767187303950927309735222053450893190182746918729e-6 +/- 2.83e-86]"
+  },
+  "original_direct_coupled_baseline_physical_cap_error": {
+    "ball": "[2.4181831019450283401089846851299485806144511586865273208728330569035005240747760e-6 +/- 2.81e-86]",
+    "lower": "[2.4181831019450283401089846851299485806144511586865273208728330569035005240747760e-6 +/- 2.81e-86]",
+    "upper": "[2.4181831019450283401089846851299485806144511586865273208728330569035005240747760e-6 +/- 2.81e-86]"
+  },
+  "finished_utc": "2026-11-14T17:17:51.246624+00:00"
+}
