@@ -147,3 +147,7 @@
 ### 原primitive上的真实平移费用及局部相位窗口不匹配
 
 [完整证明](notes/2026-11-14-original-tail-primitive-translation-cost-and-phase-window-mismatch-789f-next.md)在原连续尾合法相邻双位primitive乘积上给出精确行平移范数比；x≤s/2、x′≥2s时原核同构条件数≥(3/2)^(2s)，单移一行的该真源二次型~c_xs²。原R286祖先s≈q需段长Q≥2s+h，而尾起点x≈m，不在Q≤x局部phase窗；先移远再用统一物理范数/逆范数会产生已证指数损失。严格只排这一搬运方法，未把该primitive冒认实际t_q，也未排完整Γ/flat同源抵消。
+
+### 两个真实相容目标的原式续算已冻结并触发
+
+[冻结数值接口](notes/2026-11-14-r150-seven-compatible-pair-interface-789f.md)和[Actions清单](notes/2026-11-14-r150-seven-compatible-pair-actions-entry-manifest-789f.json)只续原j6/9：恢复已成16列NF/Q/rem/trace及来源，实际目标标签保持6/9，共享120秒/512MiB，四编译各30秒。完整矩阵后处理同时给c_i/J8及九raw在315、308、307空间的准确最小ann。七个负目标和全部已成七关系不重算，所有实际缓存/来源保留；启动不宣称两个原式已经通过。账号此时两其他job在算，新增仍低于根规则20并行上限。

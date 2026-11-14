@@ -1,0 +1,81 @@
+{
+  "format": "r150-seven-compatible-pair-unexecuted-frozen-v1",
+  "files": [
+    {
+      "file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-source-789f.cpp",
+      "bytes": 22051,
+      "sha256": "448d8c73c1e4248227e9839bed9c36ce4f459372dc3e3cea3809760f2761c508",
+      "blobSHA": "ca3d12644b6a5fd19ffcbf90f950e5aa77163cc4"
+    },
+    {
+      "file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-original-789f.cpp",
+      "bytes": 13878,
+      "sha256": "18d2be2233fb6f25798f985a8ec3a441bd5f692886ef2c59dc4bb31ba17d9570",
+      "blobSHA": "64a7989917aa635c3f3ff46465bd6705e0484207"
+    },
+    {
+      "file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-analysis-789f.py",
+      "bytes": 8470,
+      "sha256": "336e2a0f9b5701ed4c4aa8b2c7b933360b658e5a20616e9274b4827895dbe116",
+      "blobSHA": "3cee0199b5051a4f28ff13a1603816bbb6f812d8"
+    },
+    {
+      "file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-runner-789f.py",
+      "bytes": 18906,
+      "sha256": "048be7b3f081d2ecd1bed24302f0f6971ee48b3764c76c89a618131403ae6886",
+      "blobSHA": "99f69d56953920cf24e7eec56883fbbb04c45851"
+    },
+    {
+      "file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-contract-789f.json",
+      "bytes": 7926,
+      "sha256": "6993e8c6185565a195125ada7f117f5888b3526ed0fd8b0cf4a38071ca06fd75",
+      "blobSHA": "b26b222503b1f9ed51d5aaa8491a0f3d2c05a0aa"
+    },
+    {
+      "file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-interface-789f.md",
+      "bytes": 4337,
+      "sha256": "88f6ba3427e86f226dc5e8cfe0915ffdc5609d7ee300069d7af594d0baa49fb3",
+      "blobSHA": "861afbfcd0edae5164f0ad2011d2a472065bf88f"
+    }
+  ],
+  "dependencies": {
+    "2026-11-14-r150-four-second-bockstein-runner-789f.py": "9fc1d9e6f64f520365bddea2d0d3387a32d42123f38efcf36f8798c9f36e6cba",
+    "2026-11-14-r150-second-bockstein-all198-global-common-789f.hpp": "52be084cbb2b7ea63bb4dcedfc972fc9cb1cab9fad7a62285b738778ed47f59e",
+    "2026-11-14-r150-second-bockstein-all198-global-original-transport-789f.cpp": "944fa6dc149ac728d0b6747db7283e35cae14cb6a93689b58f13d69fbfcc93da",
+    "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+    "2026-11-14-r150-torsion-characteristic-789f.py": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2",
+    "2026-11-14-r150-seven-saturation-common-789f.hpp": "1760f6ca95a82e019f4f07e1a46bc2b212d8f1cc2f3288f7886ee8a16e1e48cc",
+    "2026-11-14-r150-seven-saturation-image-789f.cpp": "fa7dc48a6c58e1568cc6ffeb66b39e0e24fdff8cfc08cce4d84f00647a858d1b",
+    "2026-11-14-r150-seven-compatible-pair-source-789f.cpp": "448d8c73c1e4248227e9839bed9c36ce4f459372dc3e3cea3809760f2761c508",
+    "2026-11-14-r150-seven-compatible-pair-original-789f.cpp": "18d2be2233fb6f25798f985a8ec3a441bd5f692886ef2c59dc4bb31ba17d9570",
+    "2026-11-14-r150-seven-compatible-pair-analysis-789f.py": "336e2a0f9b5701ed4c4aa8b2c7b933360b658e5a20616e9274b4827895dbe116"
+  },
+  "actualSourceRun": 43630666145,
+  "sourceArtifact": {
+    "run": 43630666145,
+    "id": 14127663630,
+    "name": "isp-r150-seven-saturation-recovery-43630666145-1",
+    "digest": "sha256:9ebf76f7b12f11dcdab286cbde7fd62d74d5a0b3c8db5bb1b8489203ae97b3f4"
+  },
+  "mathematicalExecutionPerformed": false,
+  "syntaxParseExecuted": false,
+  "compilationExecuted": false,
+  "actualCompatibleOriginalTargets": [
+    6,
+    9
+  ],
+  "originalTarget": "31*h0 modulo923521",
+  "sharedMathematicalSeconds": 120,
+  "perChildMemoryMiB": 512,
+  "compileSecondsEach": 30,
+  "sourceTransform": "source7 clone: nt2, labels6/9, progress labels and metadata; originalR still9 trailing targets",
+  "originalTransform": "original31four clone: strict2 target6/9 recipe, target exponent fromactual label; all original17/6188/4367 products preserved",
+  "sourceCheckpoints": "Actual arrays with contentbinding; no completed old seven stages recomputed",
+  "allActualStageCachesAndGeneratedFilesSaved": true,
+  "sevenNegativeTargetsNotRecomputed": true,
+  "wholeNineTargetSuccessClaimed": false,
+  "mainReceipt": "results/seven-compatible-pair-pipeline-receipt.json",
+  "completeOutcome": "targets6-and9-full-original31h0-mod923521-certificate",
+  "exactGlobalAnalysis": "Actual c_i/J8 and all nine minimal annihilators in complete315 and actual308/307quotients",
+  "newSecondBocksteinComputed": false
+}

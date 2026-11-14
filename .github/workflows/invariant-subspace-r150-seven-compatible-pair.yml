@@ -1,0 +1,215 @@
+name: ISP R150 actual compatible targets6 and9 original31h0 modulo923521
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-ci-request-789f.json
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: isp-r150-seven-compatible-pair-lift-789f
+  cancel-in-progress: false
+
+jobs:
+  seven-compatible-pair:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+            .github/workflows
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Record exact compatible-pair request, full-path manifest and both rules
+        run: |
+          python3 - <<'PYCODE'
+          import ast,hashlib,json,os,sys
+          from pathlib import Path
+          sys.dont_write_bytecode=True
+          notes=Path('topics/invariant-subspace-problem/notes')
+          out=Path(os.environ['RUNNER_TEMP'])/'isp-r150-seven-compatible-pair-output'
+          (out/'results').mkdir(parents=True,exist_ok=True)
+          (out/'recovery').mkdir(exist_ok=True)
+          with open(os.environ['GITHUB_ENV'],'a') as f:f.write('ISP_PAIR_OUT='+str(out)+'\n')
+          request_path=notes/'2026-11-14-r150-seven-compatible-pair-ci-request-789f.json'
+          request=json.loads(request_path.read_text())
+          expected={'actual_target_labels':[6,9],'original_raw_rows':6188,'integer_modulus':923521,'target_multiplier':'31*h0','shared_mathematical_seconds':120,'per_child_memory_mib':512,'per_compilation_seconds':30,'t96_run_id':43597823809,'t96_artifact_id':14114364261,'all198_run_id':43619888599,'all198_artifact_id':14124017685,'seven_run_id':43630666145,'seven_artifact_id':14127663630,'old_seven_relation_stages_recomputed':False,'other_seven_targets_recomputed':False,'characteristic_zero_identity_asserted':False}
+          if any(request.get(k)!=v for k,v in expected.items()):raise SystemExit('Bounded compatible-pair request changed')
+          rules={p:hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in ['README.md','topics/invariant-subspace-problem/README.md']}
+          if rules!=request['rules_sha256']:raise SystemExit('README changed: root must read/apply the actual diff before this request runs')
+          manifest_path=Path(request['source_manifest_file'])
+          if hashlib.sha256(manifest_path.read_bytes()).hexdigest()!=request['source_manifest_sha256']:raise SystemExit('Seven-relation frozen source manifest changed')
+          manifest=json.loads(manifest_path.read_text())
+          for item in manifest['files']:
+              p=Path(item['file'])
+              if not str(p).startswith('topics/invariant-subspace-problem/notes/'):raise SystemExit('Frozen path is not the full approved repository path')
+              data=p.read_bytes()
+              if len(data)!=item['bytes'] or hashlib.sha256(data).hexdigest()!=item['sha256']:raise SystemExit('Frozen full-path file changed: '+str(p))
+          for name,expected_sha in manifest['dependencies'].items():
+              if hashlib.sha256((notes/name).read_bytes()).hexdigest()!=expected_sha:raise SystemExit('Frozen original dependency changed: '+name)
+          for name,expected_sha in request['workflow_source_sha256'].items():
+              if hashlib.sha256(Path(name).read_bytes()).hexdigest()!=expected_sha:raise SystemExit('Frozen workflow/publication source changed: '+name)
+          parsed=[]
+          for name in request['entry_python_files']:
+              ast.parse(Path(name).read_text(),filename=name);parsed.append(name)
+          result={'source_commit':os.environ['GITHUB_SHA'],'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],'rules_sha256':rules,'request':request,'request_sha256':hashlib.sha256(request_path.read_bytes()).hexdigest(),'source_manifest_sha256':request['source_manifest_sha256'],'actualPythonSyntaxFilesParsed':parsed,'allOriginalSourceHashesVerified':True,'target_multiplier':'31*h0','targetScope':'Only original targets6 and9; seven prior obstructions unchanged','noMathematicalCompletionClaimed':True}
+          (out/'results'/'actions-source.json').write_text(json.dumps(result,indent=2)+'\n')
+          print(json.dumps(expected))
+          PYCODE
+      - name: Restore the already completed original T96 graph and DAGs
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-t96-graph-recovery-43597823809-1
+          run-id: 43597823809
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-seven-compatible-pair-t96-download
+      - name: Restore the already completed all198 original sources and global arrays
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-all198-second-bockstein-recovery-43619888599-1
+          run-id: 43619888599
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-seven-compatible-pair-all198-download
+      - name: Restore the already completed seven-relation sources and all16 exact arrays
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-seven-saturation-recovery-43630666145-1
+          run-id: 43630666145
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-seven-compatible-pair-seven-download
+      - name: Retain only the exact five T96, fifteen all198 and eight seven-relation inputs
+        run: |
+          python3 - <<'PYCODE'
+          import hashlib,json,os,shutil
+          from pathlib import Path
+          notes=Path('topics/invariant-subspace-problem/notes')
+          contract=json.loads((notes/'2026-11-14-r150-seven-compatible-pair-contract-789f.json').read_text())
+          temp=Path(os.environ['RUNNER_TEMP'])
+          def sha(p):
+              h=hashlib.sha256()
+              with p.open('rb') as f:
+                  for b in iter(lambda:f.read(1048576),b''):h.update(b)
+              return h.hexdigest()
+          records=[]
+          for scope in ['t96','all198','seven']:
+              original=temp/('isp-r150-seven-compatible-pair-'+scope+'-download')
+              selected=temp/('isp-r150-seven-compatible-pair-'+scope+'-input')
+              selected.mkdir(parents=True,exist_ok=True)
+              for label,item in contract['inputs'].items():
+                  if item['scope']!=scope:continue
+                  candidates=[original/item['relative']] if 'relative' in item else sorted({p for name in item['names'] for p in original.rglob(name)})
+                  actual=next((p for p in candidates if p.is_file() and sha(p)==item['sha256']),None)
+                  if actual is None:raise SystemExit('Actual saved input absent or SHA mismatch: '+label)
+                  relative=Path(item['relative']) if 'relative' in item else Path(actual.name)
+                  destination=selected/relative
+                  destination.parent.mkdir(parents=True,exist_ok=True)
+                  try:os.link(actual,destination)
+                  except OSError:shutil.copyfile(actual,destination)
+                  records.append({'label':label,'scope':scope,'restoredArtifactPath':str(actual.relative_to(original)),'selectedPath':str(relative),'bytes':actual.stat().st_size,'sha256':item['sha256']})
+              with open(os.environ['GITHUB_ENV'],'a') as f:
+                  f.write({'t96':'ISP_PAIR_T96','all198':'ISP_PAIR_ALL198','seven':'ISP_PAIR_SEVEN'}[scope]+'='+str(selected)+'\n')
+          out=Path(os.environ['ISP_PAIR_OUT'])/'results'
+          (out/'actual-restored-inputs.json').write_text(json.dumps({'format':'r150-seven-compatible-pair-selective-recovery-v1','downloadsUsedOnlyT96All198AndSeven':True,'allSelectedHashesVerified':True,'inputs':records},indent=2)+'\n')
+          print(json.dumps({'selectedFiles':len(records),'selectedBytes':sum(x['bytes'] for x in records)}))
+          PYCODE
+      - name: Install the exact finite-field dependency and record compiler
+        run: |
+          python3 -m pip install python-flint==0.9.0
+          python3 -m pip show python-flint > "$ISP_PAIR_OUT/results/python-flint-version.txt"
+          g++ --version > "$ISP_PAIR_OUT/results/compiler-version.txt"
+      - name: Execute one shared120-second actual compatible-target continuation
+        id: exact
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          set -o pipefail
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-runner-789f.py \
+            --notes-root topics/invariant-subspace-problem/notes \
+            --t96-recovery "$ISP_PAIR_T96" \
+            --all198-recovery "$ISP_PAIR_ALL198" \
+            --seven-recovery "$ISP_PAIR_SEVEN" \
+            --out "$ISP_PAIR_OUT" \
+            --math-seconds 120 --memory-mib 512 --compile-seconds 30 \
+            2>&1 | tee "$ISP_PAIR_OUT/results/actions-console.log"
+      - name: Record both actual original target identities and saved matrix analysis
+        if: always() && env.ISP_PAIR_OUT != ''
+        env:
+          ISP_EXACT_OUTCOME: ${{ steps.exact.outcome }}
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          out=Path(os.environ['ISP_PAIR_OUT'])/'results'
+          p=out/'seven-compatible-pair-pipeline-receipt.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          complete=(os.environ.get('ISP_EXACT_OUTCOME')=='success'
+              and r.get('status')=='completed'
+              and r.get('outcome')=='targets6-and9-full-original31h0-mod923521-certificate'
+              and r.get('actualTargetLabels')==[6,9]
+              and r.get('fullOriginalPairMod923521IdentityVerified') is True
+              and r.get('finite_budget_verified') is True
+              and r.get('otherSevenOriginalTargetsNotRecomputed') is True
+              and r.get('wholeNineTargetIdentityClaimed') is False
+              and r.get('originalSevenRelationStagesRecomputed') is False)
+          analysis=r.get('eighthAndRawAnalysis',{})
+          result={'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],'source_commit':os.environ['GITHUB_SHA'],'native_step_outcome':os.environ.get('ISP_EXACT_OUTCOME'),'pipeline_status':r.get('status','not-started'),'outcome':r.get('outcome'),'complete':complete,'actual_target_labels':r.get('actualTargetLabels'),'full_original_pair_mod923521_identity':r.get('fullOriginalPairMod923521IdentityVerified') is True,'original_target':'31*h0*T modulo923521, only targets6 and9','whole_nine_target_identity_claimed':False,'other_seven_targets_recomputed':False,'actual_final_source_costs':r.get('actualFinalSourceCosts'),'mathematical_elapsed_seconds':r.get('mathematicalElapsedSeconds'),'saved_matrix_analysis_complete':analysis.get('status')=='completed','common_raw_annihilator_modulo_U8_ascending':analysis.get('commonRawAnnihilatorModuloU8Ascending'),'characteristic_zero_identity_asserted':False,'partialCheckpointIsNotIdentity':True,'rootOwnsSharedResearchIndices':True}
+          (out/'actions-outcome.json').write_text(json.dumps(result,indent=2)+'\n')
+          print(json.dumps(result))
+          PYCODE
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_PAIR_OUT != ''
+        with:
+          name: isp-r150-seven-compatible-pair-results-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_PAIR_OUT }}/results
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_PAIR_OUT != ''
+        with:
+          name: isp-r150-seven-compatible-pair-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          compression-level: 1
+          if-no-files-found: warn
+          path: ${{ env.ISP_PAIR_OUT }}/recovery
+      - name: Save only this actual result directory with real pull and README checks
+        id: publication
+        if: always() && env.ISP_PAIR_OUT != ''
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-actions-publish-789f.py \
+            --checkout "$GITHUB_WORKSPACE" \
+            --results "$ISP_PAIR_OUT/results" \
+            --work "$RUNNER_TEMP/isp-r150-seven-compatible-pair-publication"
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_PAIR_OUT != ''
+        with:
+          name: isp-r150-seven-compatible-pair-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ env.ISP_PAIR_OUT }}/results/publication
+      - name: Require both compatible original targets to be fully multiplied back
+        if: always() && env.ISP_PAIR_OUT != ''
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['ISP_PAIR_OUT'])/'results'/'actions-outcome.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          if r.get('complete') is not True:
+              raise SystemExit('Compatible pair continuation incomplete; actual full outputs and checkpoints retained')
+          PYCODE

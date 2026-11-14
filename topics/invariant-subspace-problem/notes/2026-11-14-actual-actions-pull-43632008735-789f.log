@@ -1,0 +1,72 @@
+﻿2026-11-14T19:25:28.5034347Z Current runner version: '2.338.2'
+2026-11-14T19:25:28.5055117Z ##[group]Runner Image Provisioner
+2026-11-14T19:25:28.5055776Z Hosted Compute Agent
+2026-11-14T19:25:28.5056113Z Version: 20261103.629
+2026-11-14T19:25:28.5056502Z Commit: 15dbd9ccb5dbf34fae002b6ed1a2670f52df37bc
+2026-11-14T19:25:28.5056926Z Build Date: 2026-11-03T17:26:59Z
+2026-11-14T19:25:28.5057316Z Worker ID: {bead9558-ffc6-4046-9b2e-7ce3f50eaa5a}
+2026-11-14T19:25:28.5057781Z Region: southcentralus
+2026-11-14T19:25:28.5058112Z Cloud: Azure
+2026-11-14T19:25:28.5058480Z ##[endgroup]
+2026-11-14T19:25:28.5059416Z ##[group]Operating System
+2026-11-14T19:25:28.5060067Z Ubuntu
+2026-11-14T19:25:28.5060417Z 26.04.1
+2026-11-14T19:25:28.5060712Z LTS
+2026-11-14T19:25:28.5061004Z ##[endgroup]
+2026-11-14T19:25:28.5061361Z ##[group]Runner Image
+2026-11-14T19:25:28.5061737Z Image: ubuntu-26.04
+2026-11-14T19:25:28.5062078Z Version: 20261111.196.1
+2026-11-14T19:25:28.5062842Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261111.196/images/ubuntu/Ubuntu2604-Readme.md
+2026-11-14T19:25:28.5063712Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261111.196
+2026-11-14T19:25:28.5064265Z ##[endgroup]
+2026-11-14T19:25:28.5064951Z ##[group]GITHUB_TOKEN Permissions
+2026-11-14T19:25:28.5066729Z Contents: read
+2026-11-14T19:25:28.5067148Z Metadata: read
+2026-11-14T19:25:28.5067500Z ##[endgroup]
+2026-11-14T19:25:28.5068902Z Secret source: Actions
+2026-11-14T19:25:28.5070000Z Cache mode: write
+2026-11-14T19:25:28.5070531Z Prepare workflow directory
+2026-11-14T19:25:28.5278912Z Prepare all required actions
+2026-11-14T19:25:28.5343068Z Complete job name: actual-pull
+2026-11-14T19:25:28.6070533Z ##[group]Run set -euo pipefail
+2026-11-14T19:25:28.6071080Z [36;1mset -euo pipefail[0m
+2026-11-14T19:25:28.6071550Z [36;1mmkdir -p "$RUNNER_TEMP/isp-789f-rule-pull"[0m
+2026-11-14T19:25:28.6072176Z [36;1mcd "$RUNNER_TEMP/isp-789f-rule-pull"[0m
+2026-11-14T19:25:28.6072607Z [36;1mgit init -q[0m
+2026-11-14T19:25:28.6073092Z [36;1mgit remote add origin https://github.com/Rogerhu12/math-research-public.git[0m
+2026-11-14T19:25:28.6073646Z [36;1mgit sparse-checkout init --no-cone[0m
+2026-11-14T19:25:28.6074240Z [36;1mgit sparse-checkout set --no-cone '/README.md' '/topics/invariant-subspace-problem/README.md'[0m
+2026-11-14T19:25:28.6074946Z [36;1mtimeout 120s git fetch --no-tags --filter=blob:none --depth=1 origin "$ISP_PIN"[0m
+2026-11-14T19:25:28.6075561Z [36;1mgit checkout -b main FETCH_HEAD[0m
+2026-11-14T19:25:28.6076058Z [36;1mexport ISP_BEFORE_PULL="$(git rev-parse HEAD)"[0m
+2026-11-14T19:25:28.6076534Z [36;1mtimeout 120s git pull --rebase origin main[0m
+2026-11-14T19:25:28.6077063Z [36;1mexport ISP_AFTER_PULL="$(git rev-parse HEAD)"[0m
+2026-11-14T19:25:28.6077511Z [36;1mpython - <<'PY'[0m
+2026-11-14T19:25:28.6077872Z [36;1mimport datetime, json, os, subprocess[0m
+2026-11-14T19:25:28.6078387Z [36;1mrules = ['README.md', 'topics/invariant-subspace-problem/README.md'][0m
+2026-11-14T19:25:28.6079241Z [36;1mexpected = {'README.md': '6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09', 'topics/invariant-subspace-problem/README.md': '4d6570e9cf346431ab781a1290076a6321aaaa00'}[0m
+2026-11-14T19:25:28.6080387Z [36;1mbefore, after = os.environ['ISP_BEFORE_PULL'], os.environ['ISP_AFTER_PULL'][0m
+2026-11-14T19:25:28.6081018Z [36;1mdiff = subprocess.check_output(['git', 'diff', before, after, '--', *rules], text=True)[0m
+2026-11-14T19:25:28.6081727Z [36;1mblobs = {p: subprocess.check_output(['git', 'hash-object', p], text=True).strip() for p in rules}[0m
+2026-11-14T19:25:28.6082300Z [36;1msame = not diff and blobs == expected[0m
+2026-11-14T19:25:28.6083549Z [36;1mreceipt = {'format':'isp-789f-actual-actions-pull-v1', 'remoteCommit':after, 'beforeCommit':before, 'utc':datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC'), 'actualPullRebaseSucceeded':True, 'rulesUnchanged':same, 'rulesGitBlobs':blobs, 'executionEnvironment':'GitHubActions', 'runId':os.environ['ISP_RUN_ID']}[0m
+2026-11-14T19:25:28.6085144Z [36;1mif diff:[0m
+2026-11-14T19:25:28.6085460Z [36;1m    print(diff, flush=True)[0m
+2026-11-14T19:25:28.6085975Z [36;1mprint('ISP_PULL_RECEIPT ' + json.dumps(receipt, ensure_ascii=False), flush=True)[0m
+2026-11-14T19:25:28.6086479Z [36;1mif not same:[0m
+2026-11-14T19:25:28.6087012Z [36;1m    raise SystemExit('README changed: root must read the exact differences before further work')[0m
+2026-11-14T19:25:28.6087576Z [36;1mPY[0m
+2026-11-14T19:25:28.6649357Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-14T19:25:28.6650188Z env:
+2026-11-14T19:25:28.6650603Z   ISP_PIN: 07335868f0bdf5da6f34530136e2fdc3f03b6c0d
+2026-11-14T19:25:28.6651061Z   ISP_RUN_ID: 43632008735
+2026-11-14T19:25:28.6651376Z ##[endgroup]
+2026-11-14T19:25:29.2930561Z From https://github.com/Rogerhu12/math-research-public
+2026-11-14T19:25:29.2931967Z  * branch            07335868f0bdf5da6f34530136e2fdc3f03b6c0d -> FETCH_HEAD
+2026-11-14T19:25:29.6507840Z Switched to a new branch 'main'
+2026-11-14T19:25:29.8937564Z From https://github.com/Rogerhu12/math-research-public
+2026-11-14T19:25:29.9122627Z  * branch            main       -> FETCH_HEAD
+2026-11-14T19:25:29.9123526Z  * [new branch]      main       -> origin/main
+2026-11-14T19:25:29.9124350Z Already up to date.
+2026-11-14T19:25:29.9359564Z ISP_PULL_RECEIPT {"format": "isp-789f-actual-actions-pull-v1", "remoteCommit": "07335868f0bdf5da6f34530136e2fdc3f03b6c0d", "beforeCommit": "07335868f0bdf5da6f34530136e2fdc3f03b6c0d", "utc": "2026-11-14 19:25:29 UTC", "actualPullRebaseSucceeded": true, "rulesUnchanged": true, "rulesGitBlobs": {"README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09", "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"}, "executionEnvironment": "GitHubActions", "runId": "43632008735"}
+2026-11-14T19:25:29.9508091Z Cleaning up orphan processes

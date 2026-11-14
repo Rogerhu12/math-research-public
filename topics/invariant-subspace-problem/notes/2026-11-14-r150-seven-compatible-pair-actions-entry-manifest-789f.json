@@ -1,0 +1,49 @@
+{
+  "format": "r150-seven-compatible-pair-fixed-actions-entry-unexecuted-v1",
+  "files": [
+    {
+      "file": ".github/workflows/invariant-subspace-r150-seven-compatible-pair.yml",
+      "bytes": 13585,
+      "sha256": "d0a123af9ef34fedf393096cd9757a1cf0385a81f948b3c2b1058e685366c60c",
+      "blobSHA": "1245862d4b9f20b3818f445b8e72e88671d61cfd"
+    },
+    {
+      "file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-actions-publish-789f.py",
+      "bytes": 12235,
+      "sha256": "ad1389a82280a9b93bfc7a1cecf63ae3cea92938fb6106e5eb6d04cbf3534575",
+      "blobSHA": "c9221a1e8871b23f77cfc7bc77942e70070b58f0"
+    },
+    {
+      "file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-ci-request-789f.json",
+      "bytes": 2806,
+      "sha256": "6ad22d446953d9e58be5be05831486b8eedae2ac3a8c7ed713dad838adf5e1ff",
+      "blobSHA": "d1f2b4820618c76ccf553a185ace3fff07cd3197"
+    }
+  ],
+  "numericalManifest": {
+    "file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-manifest-789f.json",
+    "sha256": "c2edbd951a9e6514ed618828dba87c6ad00a76948dad23c0639b2e0468521dcc",
+    "blobSHA": "fdd831126be9fcce16d40aab6d17a7aa9721dc0c"
+  },
+  "actualSourceRun": 43630666145,
+  "onlyOriginalTargetLabels": [
+    6,
+    9
+  ],
+  "originalTarget": "31*h0 modulo923521",
+  "mathematicalSeconds": 120,
+  "memoryMiB": 512,
+  "compilations": 4,
+  "compileSecondsEach": 30,
+  "preserveAllActualResultsAndStageCaches": true,
+  "restoreOnlyT96All198AndSeven": true,
+  "otherSevenTargetsRecomputed": false,
+  "sourceSevenStagesRecomputed": false,
+  "newSyntaxParseExecuted": false,
+  "newCompilationsExecuted": false,
+  "newMathematicalExecutionPerformed": false,
+  "completeOutcome": "targets6-and9-full-original31h0-mod923521-certificate",
+  "rootOwnsSharedIndices": true,
+  "actualPullBeforePublication": true,
+  "tokenStorage": "Actions secret in command-scoped git environment only; no token on disk."
+}
