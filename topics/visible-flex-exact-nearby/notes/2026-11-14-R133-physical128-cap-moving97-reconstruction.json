@@ -1,0 +1,195 @@
+{
+  "kind": "actual_complete_physical128_cap_and_moving97_reconstruction",
+  "complete_finite_physical128_proposal": true,
+  "complete_precomposition": true,
+  "complete_independent_boundary_terms": true,
+  "complete_selected_continuous_cells": 2,
+  "total_continuous_cells": 1977,
+  "complete_whole_cap_matrix_error": false,
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "derived_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "finite_process": {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-u",
+      "scripts/fourfold_codazzi_physical_cap_DN_padded_proposal.py",
+      "--candidate",
+      "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+      "--left",
+      "9/10",
+      "--physical-modes",
+      "128",
+      "--max-new-blocks",
+      "10000000",
+      "--work",
+      "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114",
+      "--out",
+      "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114.json"
+    ],
+    "cwd": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+    "source_sha256": "0dadcd4aaca565435e6cdba39a351dcc3da295d0a4347d129a88ce66b264ebe5",
+    "started_utc": "2026-11-14T07:04:05.955486+00:00",
+    "state": "finished",
+    "actual_returncode": 0,
+    "wall_seconds": 764.7833820550004,
+    "maximum_child_RSS_KiB": 754796,
+    "finished_utc": "2026-11-14T07:16:50.739820+00:00"
+  },
+  "precomposition_process": {
+    "command": [
+      "python3",
+      "-u",
+      "scripts/fourfold_codazzi_physical_cap_precompose_moving_head.py",
+      "--proposal",
+      "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114.json",
+      "--work",
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114",
+      "--out",
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114.json"
+    ],
+    "cwd": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+    "source_sha256": "c961749b3edfab663f35422f5efdef0f76b745899e6ca56b96c8d82ca17d62c1",
+    "started_utc": "2026-11-14T07:24:10.366638+00:00",
+    "state": "finished",
+    "actual_returncode": 0,
+    "address_space_MiB": 3072,
+    "wall_seconds": 28.517887534000693,
+    "maximum_child_RSS_KiB": 637132,
+    "finished_utc": "2026-11-14T07:24:38.885054+00:00"
+  },
+  "first2_process": {
+    "command": [
+      "python3",
+      "-u",
+      "scripts/fourfold_codazzi_physical_cap_matrix_residual_v3.py",
+      "--candidate",
+      "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+      "--proposal",
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114.json",
+      "--count",
+      "2",
+      "--out",
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114/continuous-v3-first2-native.json.gz"
+    ],
+    "cwd": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+    "source_sha256": "9f80d0cb4a54db0e90921e35a8e79e610d2a7ba04f7f2fe46c91093fe436ecf7",
+    "started_utc": "2026-11-14T07:27:15.659837+00:00",
+    "state": "finished",
+    "actual_returncode": 0,
+    "address_space_MiB": 4096,
+    "wall_seconds": 128.1142282210003,
+    "maximum_child_RSS_KiB": 381356,
+    "finished_utc": "2026-11-14T07:29:23.774958+00:00"
+  },
+  "large_regenerable_arrays_not_committed": {
+    "physical128": {
+      "work": "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114/6ece4d187bdee83c8c2cffd8397b2f9eb0a7eaa832e8466ed227a3684f376faa",
+      "state": {
+        "path": "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114/6ece4d187bdee83c8c2cffd8397b2f9eb0a7eaa832e8466ed227a3684f376faa/matrix-RHS/state.npy",
+        "sha256": "fab034d05dad94a271e4adb2a901392b4d9435465d7fd27adbba1e4b353ab86a"
+      },
+      "derivatives": "Both original complete one-sided derivative arrays remain in the original work directory; their complete hashes are bound by the precomposition identity.",
+      "all_parent_arrays": {
+        "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114/6ece4d187bdee83c8c2cffd8397b2f9eb0a7eaa832e8466ed227a3684f376faa/matrix-RHS/state.npy": "fab034d05dad94a271e4adb2a901392b4d9435465d7fd27adbba1e4b353ab86a",
+        "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114/6ece4d187bdee83c8c2cffd8397b2f9eb0a7eaa832e8466ed227a3684f376faa/matrix-RHS/derivative-left.npy": "461fcb38b3243bda96583acd56610e1202a7c3c7f45410ee4d30085ef8322137",
+        "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114/6ece4d187bdee83c8c2cffd8397b2f9eb0a7eaa832e8466ed227a3684f376faa/matrix-RHS/derivative-right.npy": "e0ca09e2b56a2cfd5a4b1df116e8a32d5060fc095123e9ceea8d4c8406704e91",
+        "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114/6ece4d187bdee83c8c2cffd8397b2f9eb0a7eaa832e8466ed227a3684f376faa/physical-endpoint-graph.npz": "172b55a6aef8a2008a084bdddb049136f69237be74d2d55b1d5cdf2e6ae4e929"
+      }
+    },
+    "moving97": {
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114/fbf8b52269dd4a533ab79677ea9e13390b4b1ecc3ff286b73b9f9b2002708536/matrix-RHS/state.npy": "007cb7045db455c2c9a3872b37db91933a676c164b52b81c940929c12648af31",
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114/fbf8b52269dd4a533ab79677ea9e13390b4b1ecc3ff286b73b9f9b2002708536/matrix-RHS/derivative-left.npy": "d292fb049c3cc004f8ab711d5abff93f37e07c25b930d93167ad733d01791197",
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114/fbf8b52269dd4a533ab79677ea9e13390b4b1ecc3ff286b73b9f9b2002708536/matrix-RHS/derivative-right.npy": "b4692b336b1961fe058a9882b8c093722f724fcbdda40776e8d34c99d11026fd"
+    }
+  },
+  "reconstruction_notes": [
+    "First restore the exact ac1 candidate using the published common six-stage runner.",
+    "Execute the original complete physical128 process command from the topic root, substituting local candidate/work/out paths consistently.",
+    "Execute the precomposition process command with that complete proposal and the published physical128 C inlet native.",
+    "Execute the actual first2 process command; this recreates only the explicitly reported two cells.",
+    "A whole-cap certificate additionally requires all 1977 cells and the v4 complete-part assembler, never a relabelled prefix.",
+    "All generated binary64 arrays define exact dyadic trial data; endpoint comparisons and complete continuous residuals pay proposal rounding."
+  ],
+  "files": {
+    "notes/2026-11-14-R133-physical128-cap-refined-proposal-native.json": {
+      "sha256": "116d300981e3e1ae299344b3c1bb44089de51399c7765f41cef4e8311b17f339",
+      "bytes": 8067
+    },
+    "notes/2026-11-14-R133-physical128-cap-refined-proposal-process.json": {
+      "sha256": "1b823f25ddae586e5150e61516e778f78e5144ebbb4a1003839b0806d99d9f72",
+      "bytes": 1033
+    },
+    "notes/2026-11-14-R133-physical128-cap-moving97-precomposition-native.json": {
+      "sha256": "b9819522aceed06b73628d84b8bb80dbcc5b734971c6b3c20544e9876c23d78a",
+      "bytes": 9096
+    },
+    "notes/2026-11-14-R133-physical128-cap-moving97-precomposition-process.json": {
+      "sha256": "12de9ac1a8e2d9286a33862926e0ca1def57ecc0d7c27d7223cb3b5c6de3d594",
+      "bytes": 844
+    },
+    "notes/2026-11-14-R133-physical128-cap-moving97-first2-native.json.gz": {
+      "sha256": "e211f0c15f1dc2b366c75811e293aedc662038244e2850f3fa170174c5ab12fa",
+      "bytes": 14232
+    },
+    "notes/2026-11-14-R133-physical128-cap-moving97-first2-process.json": {
+      "sha256": "0155fcbdeacbf633cc17362afe27c066c4d2e3b96836f3567426c59e44629814",
+      "bytes": 936
+    },
+    "notes/2026-11-14-R133-physical128-cap-refined-endpoint.npz": {
+      "sha256": "172b55a6aef8a2008a084bdddb049136f69237be74d2d55b1d5cdf2e6ae4e929",
+      "bytes": 669832
+    },
+    "notes/2026-11-14-R133-physical128-cap-moving97-endpoint.npz": {
+      "sha256": "8dd63545e8aea4f1add1fe1ffdc094308d510f80f9c031d0cc06157dee89da78",
+      "bytes": 612098
+    },
+    "scripts/fourfold_codazzi_physical_cap_padded_head_model.py": {
+      "sha256": "2b0591574c57c655bbee3474993c6c2dfe5ad293af77dd094a4a7e0f677ea6bf",
+      "bytes": 2934
+    },
+    "scripts/fourfold_codazzi_physical_cap_DN_padded_proposal.py": {
+      "sha256": "0dadcd4aaca565435e6cdba39a351dcc3da295d0a4347d129a88ce66b264ebe5",
+      "bytes": 16253
+    },
+    "scripts/fourfold_codazzi_physical_cap_precompose_moving_head.py": {
+      "sha256": "c961749b3edfab663f35422f5efdef0f76b745899e6ca56b96c8d82ca17d62c1",
+      "bytes": 9641
+    },
+    "scripts/fourfold_codazzi_physical_cap_matrix_residual_v3.py": {
+      "sha256": "9f80d0cb4a54db0e90921e35a8e79e610d2a7ba04f7f2fe46c91093fe436ecf7",
+      "bytes": 28077
+    },
+    "scripts/fourfold_codazzi_physical_cap_matrix_residual_v4.py": {
+      "sha256": "28cbc02bfe60d91e608728437f2c5dd2906c56aa3a892f5a2fffbaafe72c6046",
+      "bytes": 29203
+    },
+    "scripts/fourfold_codazzi_precomposed_cap_boundary.py": {
+      "sha256": "9403e540e526bc4f1939fc4c653c96fd5033734a50a9be7961a5057422720bf8",
+      "bytes": 3857
+    },
+    "scripts/fourfold_codazzi_precomposed_cap_boundary_v2.py": {
+      "sha256": "b0c56edfcc70ba1c75c7bdfa21d4c064f33aea58f71c495ca00c10678fdd2efb",
+      "bytes": 3857
+    },
+    "results/R133-supplement-padded-physical-cap-on-complete-moving-head.md": {
+      "sha256": "5e56af157f9c38e687953c1a6de277c5bde31cd26e2de0dbf4d71bedbbda08a6",
+      "bytes": 7695
+    },
+    "notes/2026-11-14-R133-precomposed-physical128-cap-boundary-v2-native.json": {
+      "sha256": "dc69996bfd91ea674beae846d75e1a9bc82315fbb2c531cec0cbc83b38f74117",
+      "bytes": 6594
+    },
+    "notes/2026-11-14-R133-precomposed-cap-boundary-v1-failure.json": {
+      "sha256": "726a1376392f7692f73b14991c80dc4fc777c4a16b8b91958d6610c3133b2bcd",
+      "bytes": 728
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "command": [
+    "python3",
+    "-u",
+    "scripts/fourfold_codazzi_physical_cap_precompose_moving_head.py",
+    "--proposal",
+    "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114.json",
+    "--work",
+    "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114",
+    "--out",
+    "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114.json"
+  ],
+  "cwd": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+  "source_sha256": "c961749b3edfab663f35422f5efdef0f76b745899e6ca56b96c8d82ca17d62c1",
+  "started_utc": "2026-11-14T07:24:10.366638+00:00",
+  "state": "finished",
+  "actual_returncode": 0,
+  "address_space_MiB": 3072,
+  "wall_seconds": 28.517887534000693,
+  "maximum_child_RSS_KiB": 637132,
+  "finished_utc": "2026-11-14T07:24:38.885054+00:00"
+}

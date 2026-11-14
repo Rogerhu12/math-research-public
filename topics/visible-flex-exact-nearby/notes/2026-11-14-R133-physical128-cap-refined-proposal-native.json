@@ -1,0 +1,136 @@
+{
+  "kind": "actual_continuous_repaired_physical_cap_padded_Dirichlet_graph_proposal_v3",
+  "source_sha256": "0dadcd4aaca565435e6cdba39a351dcc3da295d0a4347d129a88ce66b264ebe5",
+  "complete": true,
+  "failure": null,
+  "mathematical_certificate": false,
+  "complete_continuous_graph_not_yet_certified": true,
+  "all_unknown_high_modes_still_required": true,
+  "identity": {
+    "model": {
+      "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+      "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "q_vector_sha256": "8f2471f709d5350212c3bb12a2e180fef37cbd8ced72e7ed858d6687b5fa36d9",
+      "actual_waist_row_sha256": "c99e3f6c7fd4975ee8fd1de26fadad7f4e42c6c379a861830d6fa419046b052e",
+      "modes": 128,
+      "centre_modes": 32,
+      "exact_alpha": "6890507429876859/9007199254740992",
+      "exact_nu": "-2572625729470897/72057594037927936",
+      "angular_grid": 1024,
+      "physical_boundary_grid": 8192,
+      "state_coordinates": "physical unnormalized moving variation; h1 sine(4j phi), h2 cosine(4j phi) including its true mean",
+      "background_coordinates": "moving phi: u=alpha*U; v=1/Cref_nu+alpha*V; theta_phi=v/mean_phi(v); B=u/v; C=1/v",
+      "source_sha256": "3fe305bd6632e42a3170cac7385b90f643b56ac719febc0f96e6960b16cc0089",
+      "dependencies": {
+        "fourfold_codazzi_candidate_shards.py": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e",
+        "fourfold_codazzi_moving_polynomial_system.py": "9d5b70e81fcb6ac93a2cd802529b9a4509e278c31598c05e93ac6e1f7c4f784a",
+        "fourfold_codazzi_moving_regular_endpoint_system.py": "ee5a621f6dc3c2ac552477c71f6ba56817743428f904cd7636281ade57d7be3a",
+        "fourfold_codazzi_reciprocal_polynomial_system.py": "27abad425627b219b5ea1de4f6935c82714511cefb980c4d24171a1d77e0c646",
+        "fourfold_codazzi_compact_metric_branch_probe.py": "e1692ce4e7b1090adb0aeab7414f8df32411072283cedad3d848ca4fb18ef0a4",
+        "fourfold_codazzi_compact_metric_return_probe.py": "6b857134df75524e0fffcaa163212bfbb03c3edffee983f27cde3f9357ab9a38",
+        "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+        "fourfold_phase_codazzi_rotational_reference_probe.py": "c8495d0c1721a21a24b48c8cdce9e825a8110f4923edd01e9eb2b7fe76b2d411",
+        "fourfold_codazzi_rotational_cap_jacobi_probe.py": "2bfb4c8d7bca6ffe75d6496f8f9c3baa17ba5ee83045c6ca09dc475853d30114"
+      },
+      "Schur_complement": "fixed_nu_complete_regular_outer_rows_waist_amplitude_output",
+      "regular_complement_source_sha256": "5b441c22f859b752edcf808223bb4818e9b8d001b4e58d8516b997a156700e47",
+      "old_body_model_source_sha256": "3fe305bd6632e42a3170cac7385b90f643b56ac719febc0f96e6960b16cc0089",
+      "original_fourth_Robin_row_retained": true,
+      "parameter_source_convention": "D h = (+ partial_nu F) delta_nu + f",
+      "finite_state_coordinates": "physical B sine and C cosine amplitudes, complete C mean",
+      "physical_cap_model_sha256": "5ff6b42fd1a1012a88c93e3185d8da066061bd6973dc1856821904f55110f238",
+      "derived_centre_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+      "continuous_repair_report_sha256": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+      "exact_repair_float_coefficient_maximum_error": "47868085941511580994337852866736521621659029132192925/248661618204893321077691124073410420050228075398673858720231988446579748506266687766528",
+      "exact_requested_left": "9/10",
+      "exact_proposal_left_float": "8106479329266893/9007199254740992",
+      "direct_physical_rows": true,
+      "implicit_angle_inversion_is_diagnostic_only": true,
+      "right_DN_is_original_model_with_true_error_not_yet_paid": true,
+      "physical_state_dimension": 257,
+      "original_moving_factory_modes": 96,
+      "physical_input_columns": 128,
+      "padded_model_source_sha256": "2b0591574c57c655bbee3474993c6c2dfe5ad293af77dd094a4a7e0f677ea6bf",
+      "inherited_physical_model_source_sha256": "5ff6b42fd1a1012a88c93e3185d8da066061bd6973dc1856821904f55110f238",
+      "inherited_waist_amplitude_row_not_used_by_physical_cap": true,
+      "physical_padding_is_not_a_moving_head_identification": true
+    },
+    "source_sha256": "0dadcd4aaca565435e6cdba39a351dcc3da295d0a4347d129a88ce66b264ebe5",
+    "span": 8,
+    "local_radial_refinement": [
+      {
+        "midpoint_below": "23/25",
+        "subdivisions": 16
+      },
+      {
+        "midpoint_below": "47/50",
+        "subdivisions": 8
+      },
+      {
+        "midpoint_below": "49/50",
+        "subdivisions": 4
+      },
+      {
+        "midpoint_below": "53/50",
+        "subdivisions": 2
+      }
+    ],
+    "original_nodes_preserved": 661,
+    "true_derived_centre": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+    "complete_physical_input_columns": 128,
+    "endpoint_Hermite_definition": "exact dyadic nodal states and one-sided derivatives",
+    "original_finite_backward_gate": 5e-08,
+    "dependency_sha256": {
+      "fourfold_codazzi_physical_cap_head_model.py": "5ff6b42fd1a1012a88c93e3185d8da066061bd6973dc1856821904f55110f238",
+      "fourfold_codazzi_physical_cap_padded_head_model.py": "2b0591574c57c655bbee3474993c6c2dfe5ad293af77dd094a4a7e0f677ea6bf",
+      "fourfold_codazzi_final_regular_head_trial.py": "fc3acf0804bcb6038bcd966799e1c760e4189173cee4ae643e0fd496653b3239",
+      "fourfold_codazzi_block_qr_persistent.py": "ff688859ded8d7db16b1d6ccace9b61fcd1676ec6f09383afb8e9c0e8c893a3f",
+      "fourfold_codazzi_physical_cap_DN_proposal.py": "023ec88e92bf70b79ce8f770fdc81d1c9b02798249e196c96503e19d6a52f7d8"
+    }
+  },
+  "case": "6ece4d187bdee83c8c2cffd8397b2f9eb0a7eaa832e8466ed227a3684f376faa",
+  "work_directory": "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114/6ece4d187bdee83c8c2cffd8397b2f9eb0a7eaa832e8466ed227a3684f376faa",
+  "radial_nodes": 1297,
+  "stage": "complete_finite_graph_proposal",
+  "independent_factory_check": {
+    "independent_full_column_action_maximum_difference": 2.0294876890147862e-13,
+    "physical_angle_inverse_maximum_observed_residual": 2.220446049250313e-16,
+    "complete_C_mean_and_original_m4_retained": true,
+    "diagnostic_only": true
+  },
+  "end_model_condition_2": 1.4142136199435569,
+  "actual_finite_backward_check": {
+    "complete": true,
+    "next_index": 1296,
+    "squared_error": 5.2766583482655806e-27,
+    "maximum_error": 2.1204283988385253e-15,
+    "original_backward_gate": 5e-08,
+    "all_physical_inputs": true,
+    "physical_input_columns": 128,
+    "all_physical_states_and_outer_mean_Robin_rows": true,
+    "physical_state_dimension": 257,
+    "continuous_residual_not_certified": true,
+    "full_relative_residual": 6.4751509427908165e-15,
+    "maximum_boundary_error": 1.3322676295501878e-15,
+    "passed": true,
+    "shared_exact_dyadic_endpoint_Hermite_definition": true,
+    "source_is_physical_B_C_not_moving_variation": true
+  },
+  "all_input_columns_and_physical_states_retained": true,
+  "complete_physical_input_columns": 128,
+  "complete_physical_state_dimension": 257,
+  "no_continuous_error_claim_from_mesh_refinement": true,
+  "inner_graph_operator_norm_2": 1.2979619336353725,
+  "physical_endpoint_graph": {
+    "path": "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114/6ece4d187bdee83c8c2cffd8397b2f9eb0a7eaa832e8466ed227a3684f376faa/physical-endpoint-graph.npz",
+    "sha256": "172b55a6aef8a2008a084bdddb049136f69237be74d2d55b1d5cdf2e6ae4e929"
+  },
+  "full_matrix_state": {
+    "path": "/workspace/scratch/ac0d699811ad/physical-cap-DN-padded128-refined16-20261114/6ece4d187bdee83c8c2cffd8397b2f9eb0a7eaa832e8466ed227a3684f376faa/matrix-RHS/state.npy",
+    "sha256": "fab034d05dad94a271e4adb2a901392b4d9435465d7fd27adbba1e4b353ab86a"
+  },
+  "whole_matrix_state_derivatives_retained": true,
+  "physical_input_amplitude_Gram": "one half identity; mean is not an input column",
+  "counted_new_blocks": 5184,
+  "wall_seconds": 762.6914847150001
+}

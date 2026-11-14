@@ -1,11 +1,11 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-visible-exact-astra-ac0d，2026-11-14 07:45 UTC。主目标未完成；持续执行，不因时长、阶段或等待收尾。
+visible-exact-astra-ac0d，2026-11-14 07:55 UTC。主目标未完成；持续执行，不因时长、阶段或等待收尾。
 
 ## 正式迁移、规则与同步
 
 唯一工作仓库现在是 Rogerhu12/math-research-public，路径 topics/visible-flex-exact-nearby。新根与题README均全文已读；根blob 1d05db9ebc859a5fd9a8ef773ab05ef1e9de0598，题blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
-最后真实pull --rebase：2026-11-14 07:50 UTC，SHA 17ae7d9d1961150906173f11665c79cba606b9bf；根/题README blobs未变，差异检查完成。
+最后真实pull --rebase：2026-11-14 07:57 UTC，SHA ce142c578928df896cd34618bdfc16cf9c047b2b；根/题README blobs未变，差异检查完成。
 每次push前真pull；至少每小时pull；每次检查两README，只读变更并立即执行。每结论独立commit/push；非FF立刻pull --rebase再推成功，不force。自身公开repo Actions已允许；旧math-research-ci/ci-queue停用，不再派发。PAT只瞬时CLI/env，不入文件/提交；公开输出无秘密。
 自动审批曾拒公开目标；已重新核原repo6caee8bb根§14及题README首段明确授权转同owner公开repo并pull/commit/push，按用户要求立即执行新规。本条无私密数据或凭据。
 root独占Git/H/open/results/log；代理只写自有新文件。H<10KB、md<100KB、open约30KB、单件≤5MB/>1MB压缩；大可重建数组留scratch；不freeze、独审、冗余核验；不动根LOG。只提交明确路径。
@@ -19,32 +19,26 @@ Eν=Eexp(νw)，w支(.05,.18)，a不变；ν/腰/deep/profile/marker变更均付
 最终candidate SHA ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413；6145nodes/M32/N512/[0,25/8]，α=6890507429876859/9007199254740992，ν=−2572625729470897/72057594037927936，η0=−7789843107295549/4611686018427387904。六stage全部原字段/位模式忠实复原已旧54f293b迁入，完整身份/路径见open与之前H归档。candidate在scratch replay-final-20261114/stage06。连续修复旧9239cfc：6143×65精确接口，腰不变，offset A0<3.861e−18/A3<5.635e−16/mean<5.842e−21；定义SHA440866a3…，原/修复中心不混。
 Python3.12.14/np2.3.5/scipy1.17；PYTHONPATH=/workspace/scratch/ac0d699811ad/runtime-deps含flint.9/SymPy1.14，BLAS/OMP1。
 
-## 已成消费者与全局缺口
+## 当前完成范围与继续点
 
-完整原记录及恢复方法见open §§1–7和各native。mean7721/6143 Γ<1.013237；strict3071/2549正向H1初值10.124885/源10.240174，reverse404.222565/408.729241；rootpiece15/fold27源.028915503/graph.001826455；positive4650/N97反馈order0 .303291679/order1 .788277736；negative-height反馈.711062297。ν5M1156/864全η源1.964956、signedG625.523019，仅配对非全逆。
-完整physical cap [.9,R]全η/1346交/full Fourier/两mean：χ<.820523、逆5.571744，ordinaryB/C12.725633/22.179140，div18.407084/41.065564。完整moving-cap桥1341盒7门旧7153691：追加χ.00384016121<1/250，moving普通L2→physical7.220627→moving L∞L2 294.706166，mean/Hessian/repair费齐。
-完整残差旧3517ca89：7296闭盒/6143接口，原producer不改；右7271零η域拒原失败保，最后25盒全η另真算成功，merge只补2617缺接口。native SHA6f52030b…三binary片；RU/RV A0<2.267544e−7/4.159086e−7，A1<8.646130e−5/1.529992e−4，L2<4.201205e−8/8.194504e−8；vgap>.0901531879/mean>1.0687328018。交集η=η0，不授整个邻域。
-角完整旧a768e67：7722闭盒/6143跳/full circle/mean，native SHA7a3dd2c1…四binary片；|Fφφ|<5.970523，|Nφφ|<4.646383；512角插值位置<7.024610e−6/法向<5.466695e−6。保model anchor，不授真帽world anchor/非线性解。
+完整历史身份、失败与旧数值见[本次归档](notes/2026-11-14-handoff-before-complete-cap128-boundaries.md)、open §§1–8及每项native。以下不替代原证明范围。
 
-## 当前原生计算与准确继续点
+1. root径向directed session19425仍读旧目录不可变源；输出 /workspace/scratch/ac0d699811ad/geometry-verified-20261114/attempt04.json.gz。07:34已86/141blocks、5503/8966格，原源3347e061…/jets b93fa88a…；四阶余项、operator norm、全η、准确φk与原uint64回接。前三实际失败完整保留。只将新的不可变快照交tensor --resume；61块/3903格快照36f3185d…与tensor706750a8…已推a9c3a233。完整mesh 8966×512×8正常0/198.985s已推d4af39c6，native5ed344a8…；Rmesh1.275559740657、support>.901284727159、全凸包距>.129668021172。角7722盒/6143跳全部完成，Fφφ<5.970523/Nφφ<4.646383；模型锚点与真GC几何仍分开。
+2. 完整C0状态/δν几何预算已推1352e025，native00efc032…，7722盒正常0/25.05s：frame15.736315/.304809，原外锚点position30.196406/.105999，曲率141.332651/3.988052，ε≤1e−3、τ≤1e−5，锚点另付。root新腰C0/正向积分已实际0/6.779s/9门：sec(π/8)位置核，witness2(sec(π/8)−1)<.164785，正向总位置7.578231ε+.612629τ。源fourfold_codazzi_C0_waist_and_forward_geometry.py、scratch geometry-verified-20261114/C0-waist-forward-response.json.gz；完整证明待写，原外锚模型→canonical腰对齐费还须真实支付。
+3. newton全部regular q/ψ均6144块193态完整，FFT2.590797e−11/3.166507e−11已迁入。body v2实际exit1但7721系数/双mean全前缀已完成；v3复用后523行过粗主动止，原异常/前缀保，改联合Taylor残差及单独mean误差方程。完整独立boundary-v5已actual0/12.0068s、256物理矩+两组6143跳，native2d64468b…，Robin L2<1.454039e−17，S_end∈[8.167929616818,8.194927720677]仍减完整body积分，17件包待root单推；旧mean失败容器三binary片仅保存一次。signedν session53534继续。不得把端式当真Schur或宽上界当不可行。
+4. cap物理128完整257态/128输入/1296块normal0/764.783s、FFT6.475151e−15；完整moving97预合成normal0/28.518s。H128×97已推ab795771，paired B128×193/C128×97已推3078fefc；误差<1.496913e−11，物理C>128尾<1.757236e−14。当前19文件包含所有真实端行/mean匹配、首2/1977连续片及全部源/重建SHA，重建manifest c0e7c80f…；eL<6.518184e−12，独立C mean匹配行HS<.097206789641，不能删该行。首2 ordinary weighted B/C<6.482306e−7/5.103790e−7。全1977片正在4个互斥范围实际消费，512单cell已actual0并复用；v3/v4同row公式，版本只修boundary均值标量及汇总。大state/单侧derivative数组在physical-cap-DN-padded128-refined16-20261114与physical-cap-precompose-20261114，绝不重求finite提案或重复相同cell。
+5. phase全两ray复域已推2147abff，distributed adjoint已推9d78f797；3071strict+root+mean+repair给σ1/4、输入ρ>.1639445393、P′−1<.334292688，P″3.257207/P‴57.403329。全Arb7阶scalar首germ已推f39e9da1；其余168germ四range由公开Actions真实执行。首run43572460867入口错未起math，真实失败已保；修复6b2a926d，新run43573003976四job已进入math，[85,127)实际success并推fa2c526d，余range运行。52input manifest eb25464d…不可变，worker602e696d…；不得修改active科学源。root-sliver10门已成3件包待读推：1910bdc2…、末端两ray <4.968975e−14。此前cap6截断q6/7无效输出永久invalid。agent继续真实flow/PDE residual、conjugacy、β/j与ν Schur。
 
-1. root径向directed session19425，/workspace/scratch/ac0d699811ad/geometry-verified-20261114/attempt04.json.gz；原源仍从旧目录读，勿改旧源。07:34约86/141blocks、5503/8966步；完整exact角点/operator norm/全η/真实单侧germ/三阶Taylor四阶余项；逐block原uint64回接。attempt01域拒/02float选片/03Wiener过粗全保。新树保verify_moving_geometry_grid.py SHA3347e061…与directed_jets b93fa88a…。61块/3903格准确快照SHA36f3185d…与tensor SHA706750a8…本条发表，后续仍需完整native。
-2. root完整mesh实际正常0/198.985s，141块8966格×512×8，全36,724,736分离向量；native SHA5ed344a8…，mesh R<1.275559740657、框架support>.901284727159、全凸包距>.129668021172。已单推d4af39c6；新tensor消费者实际0/5.03s消费3903格，部分连续半径<1.275713423；径向理论/61块native已推a9c3a233，继续增量消费；完整C0状态/δν几何预算实际0/25.05s、7722盒已成：frame15.736315/.304809、position30.196406/.105999，曲率141.332651/3.988052；ε≤1e−3/τ≤1e−5且锚点另付。已推1352e025；未授实际解。
-3. newton双regular q/ψ均全部6144块193态，完整FFT2.590797e−11/3.166507e−11已旧1c7a7ec迁入；q/ψ fullindex SHAed42a71d…/c509df40…，均含所有outer Robin及mean，不是全inverse。body v2 session56409实际exit1：7721系数及双完整均值已成，第0残差Finite/int类型拒、0残差行；原native/source/process保。v3 session11395修scalar并复用全部三前缀；477行显示宽独立包络过粗，改联合相关余项。ν双积分53534和物理边界v4 75591并行；输出regular-head-consumers-20261114/body-native-v3.json.gz。旧plain/gzip零行错误与旧b4 FFT1e14失败均保。
-4. cap96原660块恢复后完整normal0/223.699s，FFT5.705156e−15。cap96五件本提交从旧未推HEAD迁入；661×193×96states及左右derivatives在/dev/shm/visible-exact-cap-DN-20261114/73c2f7cbe033dbd7c7ba789217d4bebd26f0486fb7129be898457818429c09b0/matrix-RHS。SIGBUS−7原process/175件SHA复制/预分配全保。v2首宽片ordinary weightedL2 B.048293197/C.037999149（原unweighted6.45/5.07），非全域。
-5. 原宽片高j边界层λh~1.26；真正局部加密proposal session54988已normal0/680.24s：1296块/96列fullFFT6.861356e−15，source d82119aa…，scratch physical-cap-DN-refined16-20261114.json。首2闭片已真成B/C1.480231e−4/3.735972e−6；phase物理C128尾<1.757236e−14，session71138已全257态/128输入/1296块normal0/764.78s，原FFT6.475151e−15，H128×97实际12门39.71s全矩阵+mean+tail误差<6.518925e−12已推ab795771；再接完整连续残差；不把finite门当连续证书。物理coefficient jets旧202793ad全η/full∞尾首tiny/wide成功，非每盒已成。
-6. phase真实完整两ray复域3071strict+root+mean+repair、10门正常0/23.959s；σ1/4输入ρ>.1639445393，P′−1<.334292688，P″<3.257207/P‴<57.403329；native SHA91f1a3e5…已单推2147abff。完整distributed adjoint phase-source proof已单推9d78f797，square Jacobian/真mean/端项齐。实际B128×193/full paired BC 11门已成，误差<1.496913e−11已推3078fefc；全Arb7阶scalar首germ6门已推f39e9da1，余168germ由自身Actions四range并行，workflow visible-exact-phase-scalar-high7.yml已推ae7114e0；首run43572460867四job因worker方法名遮盖和container路径错exit1/child未起，原日志已保。两入口修复本条推，数学源/52input未变；cap6旧输出invalid不消费。不得用double拟合残差充真共轭。
-phase旧817b4731/097ade1a：真response误差L2E0→C0≤1.273240，无q^-1；浮点qν Ω′≈.0202241584，direct+.0393631446/state−.0005213003/mean−.0186176859不可丢。目标二次CF根(612575−√5)/2228182、max partial7给四次单位根gap1/(36|j|)；尚无真rotation/β/j/ν Schur闭环，最终ν全族固定。
+## 已证模块与未完成的同对象接线
+
+完整mean7721/6143 Γ<1.013237；strict3071/2549正向10.124885/10.240174、reverse404.222565/408.729241；root15/fold27，positive4650/N97 feedback .303291679/.788277736；negative-height .711062297；ν5M1156/864 signed625.523019均非全逆。
+physical帽全模/全η/两mean已证χ<.820523、inverse5.571744，完整moving-cap桥1341盒追加χ<.003840162。全7296残差native6f52030b…，RU/RV A0<2.267544e−7/4.159086e−7，A1<8.646130e−5/1.529992e−4，L2<4.201205e−8/8.194504e−8；vgap>.0901531879/mean>1.0687328018；原右零η域拒与25盒成功独立保存，交集仅η0。不得重标整个邻域。
+phase响应误差L2(E0)→C0≤1.273240无q^-1；浮点qν Ω′≈.0202241584=direct .0393631446−state .0005213003−mean .0186176859，尚未认证。目标ρ*=(612575−√5)/2228182、CF max7给principal gap1/(36|j|)，不能替代真conjugacy和β/j/strong正规型。最后ν须全族固定。
 
 ## 深尾与真正终局
 
-旧53–68源/mean/weak/双图/Γ*列均已迁入；Nm<Cζe^-τ∞M M^-30960，τ∞∈(5921/16,2961/8)，Cζ=εδ8192^-485/4。68真实5函数补偿盒generator>2^-175000 M^-1891；root同原端口/参数网络inverse<2^175007 M^1894，好集>1−147/16384，Nm余29066幂，常数/源单位保。
-69完整J0型49门已单推a25cbbb3，原native/proof SHA归档，κ=M²/B补明。70全negative pocket固定Γ型50新门已推519d4ea2；真X≤2^-1048576邻域有实际incoming，physical全部输出/两mean/两根图迹保。71真实Γ*完整fresh-support型59门已推41dd5ae2，72实际同当前Γ全盒53新门已推08601008；原非零径向补偿和独立rU列保，mixed簇共同PSD/解析sublevel硬门继续。随后仍有nonradial簇/ordinary source转端口/full inverse，不能静默换小球或profile。
-最终同一精确闭G要|G|≤511/400、support>4/49、|κ|≤12、κ+≤196/27、真腰ρ=.01、平帽a≤7e−6且z±∈[.9,1]、p5曲率峰145..148四marker。全补逆、ν Schur非零、非线性F=0、精确闭族、全部几何均未完成，继续open下一子问题，不收尾。
+旧53–68完整普通/weak源、两physical图、Γ*两列、phase补偿和实际band继续。原Nm<Cζe^-τ∞M M^-30960；68五函数generator>2^-175000 M^-1891。已证公共径向network inverse<2^175007 M^1894、好集>1−147/16384、余29066幂；非径向全簇与完整源到同原端口尚待。
+69全J0型49门a25cbbb3，70全negative pocket50门519d4ea2，71实际Γ*59门41dd5ae2，72同当前Γ全盒53门08601008；真实非零径向补偿保留。tail正在全t∈[0,1/80]、e>0、κ≥16e的共同低κ PSD方向；主项精确因子已成但余项/全簇尚未获证，不能用逐模方向替混合簇。新P1024 profile未采用。
+全补逆、真ν Schur、非线性F=0、精确闭族及真实帽全部未完成。最终同精确闭G须R≤511/400、support>4/49、|κ|≤12、κ+≤196/27，平帽a≤7e−6、z±∈[.9,1]、四独特非共面marker145..148，再付真实腰误差。几何预算尚是条件结论，不授最终reach/held。子问题完成接open下一项，只有README全部标准真正满足才收尾。
 
-
-
-
-
-
-最新已单推实际结论：results/R119-supplement-same-current-parameter-finite-box-nonradial-pocket-form.md。
+最新已单推实际结论：results/R133-supplement-padded-physical-cap-on-complete-moving-head.md。

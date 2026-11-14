@@ -1,6 +1,6 @@
 # 待解：同一个最终精确闭嵌入族
 
-更新：2026-11-14 07:07 UTC。**主目标未完成，持续研究。**
+更新：2026-11-14 07:58 UTC。**主目标未完成，持续研究。**
 本次以前所有逐项结论、失败和旧任务完整保存在
 [全主体消费者前归档](notes/2026-11-14-open-history-before-complete-body-geometry-consumers.md)，再链其中的更早归档。
 本页已将实际完成的原始重放、完整残差、strict/mean/positive及完整有限提案从“未执行”中移出。
@@ -44,14 +44,14 @@
 响应约定Dqν=+∂νF；其完整physical unnormalized状态已经含sν，不再重复加参考列。伴随保Gram：非零sine/cosine权1/2、mean权1，全部物理转置及第四乘子保。
 旧b4-output提案FFT首门8.69e13/2.65e14失败保留，不改写为这次allregular成功。
 
-接着实际完成：完整标量mean回填；body普通/高壳/全部接口残差；physical腰/外端图与全部高模式；signed双残差。新body-v2只修plain/gzip输入parser，7721共同格正在计算。有限腰幅Schur8.181474仍只是提案；完整qν和ψ的真实修正须由同一全局逆支付。
+接着实际完成：完整标量mean回填；body普通/高壳/全部接口残差；physical腰/外端图与全部高模式；signed双残差。body-v2已完成7721系数及两条完整mean后在首残差类型调用实际失败；保留原失败容器。v3复用后523行显示独立宽包络过粗，已主动停止，下一消费者直接联合消去径向多项式并推进mean误差。完整独立边界、256物理矩和两组6143跳已完成，仍须减去完整体积分。有限腰幅Schur8.181474仍只是提案；完整qν和ψ的真实修正须由同一全局逆支付。
 [193态连续投影Green定理](results/R133-supplement-continuous-head-Green-from-a-regular-subspace.md)的原源/边界/跳、投影残差E和C=2P Sym(A)(I−P)−E*不得略掉；实际st<1还须验证。若该文件入口有变，以results索引中同标题的已发表定理为准，不重写未证常数。
 
 ### 2.2 全物理帽矩阵到内端图
 
 全模physical帽Green已经保完整Fourier、普通/divergence/接口源、两mean及真实外q差；在同一修复背景上，残差Hessian反馈已实际合并。
 新的96-column DN提案保193态及全部97外行、真实9/10内端，而非偷偷把9/10当binary64 .9。
-原660块/96列提案已从真实SIGBUS−7恢复并完整normal0，原FFT5.705156e−15；所有失败过程和大数组SHA保。1296块局部加密96列也已normal0，FFT6.861356e−15；真实首2闭片带权普通B/C已降至1.480231e−4/3.735972e−6。新的257状态/128物理输入提案正在执行，以接完整moving96头；物理C高尾128以后已有严格界1.757236e−14，finite moving头不等于同阶physical头。
+原660块/96列提案已从真实SIGBUS−7恢复并完整normal0，原FFT5.705156e−15；所有失败过程和大数组SHA保。1296块局部加密96列也已normal0，FFT6.861356e−15；真实首2闭片带权普通B/C已降至1.480231e−4/3.735972e−6。新的257状态/128物理输入提案和到全部97个moving输入的预合成都已完整normal0，全部1977闭片的连续残差正在互斥分片实际计算；物理C高尾128以后已有严格界1.757236e−14，finite moving头不等于同阶physical头。
 
 [物理逆角径向Fourier jets](results/R133-supplement-physical-cap-inverse-angle-radial-Fourier-jets.md)在真实wide闭格已经付512节点/cut128/σ1/16/三阶径向余项/全部alias及无限尾，QB/QC误差<2.165586e−10/3.658844e−9。下一步必须消费完整96列Hermite矩阵、全部物理输出模式和全部外行；每个真正径向格都通过同样解析逆角门后才授全帽矩阵残差。未知系数余项保divergence源，不能偷付一个未有的角导数。
 真实全模帽Green再将完整矩阵残差和端行误差转为准确内端图，随后与整个正区、root双端口和负区接线。端口成立不等于同坐标BVP全逆。
@@ -171,3 +171,6 @@ tail_connector：把实际非径向内部正型接全部外部响应、Γ*参数
 
 
 [实际完整记录](results/R119-supplement-same-current-parameter-finite-box-nonradial-pocket-form.md)：尾72原低κ band全盒、同当前Γ*：53项新SymPy/Fraction门normal0，中心wave直接Hessian免再损K^4；辅助径向路径准确终止当前参数，非零v_rad及compact rho^5/rU两列完整保。±M双迹整pocket型沿原theta_M >rU dU/(16Nband)；全部输出/mean/source保，mixed簇PSD、同空间端图与全F仍须继续。
+
+
+[实际完整记录](results/R133-supplement-padded-physical-cap-on-complete-moving-head.md)：完整物理128/257态/1296块提案与全部moving97预合成已实际normal0；所有独立端行含非零C mean匹配，eL<6.518184e−12，首2/1977连续片带权ordinary B/C<6.482306e−7/5.103790e−7。全部source/参数/二进制端点和原失败身份齐；全1977片仍继续，不把有限提案与首片冒作全帽矩阵逆。

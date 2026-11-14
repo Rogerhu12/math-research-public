@@ -1,0 +1,13 @@
+{
+  "kind": "actual_precomposed_cap_boundary_v1_endpoint_construction_failure",
+  "actual_tool_exit_code": 1,
+  "exception_type": "TypeError",
+  "exception_message": "'Box' object does not support item assignment",
+  "failed_statement": "true_mean[0]=arb_box(mr)",
+  "source_sha256": "9403e540e526bc4f1939fc4c653c96fd5033734a50a9be7961a5057422720bf8",
+  "consumer_sha256": "9f80d0cb4a54db0e90921e35a8e79e610d2a7ba04f7f2fe46c91093fe436ecf7",
+  "native_certificate_produced": false,
+  "subsequent_fix": "fourfold_codazzi_physical_cap_matrix_residual_v4.py and separate boundary_v2 consumer",
+  "running_v3_radial_row_formula_unchanged": true,
+  "scope": "Tool-return evidence only; no invented wall time, RSS or native result."
+}

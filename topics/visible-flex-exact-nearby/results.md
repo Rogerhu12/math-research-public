@@ -489,3 +489,6 @@
 
 
 - [实际完整记录](results/R119-supplement-same-current-parameter-finite-box-nonradial-pocket-form.md)：尾72原低κ band全盒、同当前Γ*：53项新SymPy/Fraction门normal0，中心wave直接Hessian免再损K^4；辅助径向路径准确终止当前参数，非零v_rad及compact rho^5/rU两列完整保。±M双迹整pocket型沿原theta_M >rU dU/(16Nband)；全部输出/mean/source保，mixed簇PSD、同空间端图与全F仍须继续。
+
+
+- [实际完整记录](results/R133-supplement-padded-physical-cap-on-complete-moving-head.md)：完整物理128/257态/1296块提案与全部moving97预合成已实际normal0；所有独立端行含非零C mean匹配，eL<6.518184e−12，首2/1977连续片带权ordinary B/C<6.482306e−7/5.103790e−7。全部source/参数/二进制端点和原失败身份齐；全1977片仍继续，不把有限提案与首片冒作全帽矩阵逆。
