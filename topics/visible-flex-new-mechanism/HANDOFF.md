@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`8f4802e4c038425f89968b2cbafb16dd0bf09174`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`55fcc7a36000478da472181db7d0e82a8193e4c6`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:02:06 UTC实际pull至`fb59f636d9b9ce20c96325dbe19a3b4c504ac21b`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:01 UTC。
 
@@ -22,11 +22,13 @@ A1、B7/25、半宽1/50；L.9、握持rc.22、tc.036、tf.846、六帽R.274。16
 
 完整固定g SHA `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。较早accepted态 `f198ba74dcf3644569bf1ed78eecbc48a0f21ec421205d46a6b159cb00ff0f56`来自height actual43630874689的一次九高度步；帽高.1427042、minz.01425708、η1.388247、κ149.42、镜像.01425979、strip.393509。旧入口/高度失败完整见notes，不重复旧预算。
 
-原joint人工全链已过；actual43633105146数值poly b重放末位差停，任何optimizer未入。修复保原A/b后43634358250完成一次46eval quartic，cost .03158755→.02828242但触z=0，192网−1.34566e−8使joint调用0；详notes/quartic-height-contact-and-unstarted-joint-20261114.md。已跑quartic decoded SHA e344e6e0a62be10dfa8dad4f52e4b889191f462b97bb19dd4b1cc0283f6f33dc，后续仅消费不重跑。
+旧quartic43634358250接触z=0使joint未调用；已发表完整来源只消费，不重跑。
 
 resume actual43635770962/sourcecc8a9c9d已complete175.069s，新人工pass，quartic0/joint1。正确拒接触warm并回退f198。80iter/84nfev（含warm85），迭代上限；工作cost .0354645→.00876985。最新163物理态 `81a154d3464fd329bd384572fbf9f067c93a9e588f454c909f9e1ba239905433`，旧g/b0保。细384/768 η.888199712/.888199708，峰t=.1125的E−1≈−.888，κ354.097比原149恶化；minz.01570885、镜像.01571051<.061、strip.388427、球norm².989795、帽高.1427042。完整report decoded2051125B SHA `40deb9dffa6882b14dd445d981f2ed09b1f4d488dbaa83e952c768537f91375d`，见notes/joint-resume-first-actual-and-peak-error-20261114.md。
 
-不盲续旧L2。minδ新库6f1cd9e3/driver5923221e已请求同job新人工→一次80/120/300实际；六输入严格重放、δ不进physical，正除式及真实η独立筛，保原帽高/盒/g/b0/z≥1e−4，新硬球1.01/条带.39。末160×384/768不抬δ，曲率/镜像仍验，见notes/metric-epigraph-implementation-20261114.md。新B仍用较低κ的原f198，不能处理中替换成81a163态。
+不盲续旧L2。minδ actual43637739532/source09bbfd75已complete377.603s，人工全pass，一SLSQP/54物理eval，304.967s wall退出，RSS1948124KiB。54点cap/box/z/ball/strip全过；仅初点δ门过，原final仍81a，细η.8882>旧δ.88757真实失败。保第54完整trial 5d383918734118c105af3cfc2571731cdbefc2ad23939a4eb43a973e50b472ea：工作η.2652827192、δ.2651667069失配.0001160123，minz.02、y.389999875、球.990441946、帽高裕3.67e−11，峰转s=.42。raw1600886B SHA b4d34b0d37928b2f3ffeacf5de3a072068a6314e474fb72c6cd4adb3ae9c5bc5。下一七input独立trial审计，无opt，保旧δ失败、真η/曲率/镜像160×384/768；不把原run称收敛或先授fine改善。见notes/metric-epigraph-first-actual-and-physical-trial-selection-20261114.md。
+
+新B仍用较低κ的原f198，不能处理中替换成81a163态。
 
 ## 4. 新B=.37：局部新核心已有完整初态
 
@@ -52,4 +54,4 @@ P0、逐s第四ruling、更高阶/收敛、完整宏观嵌入厚度仍欠；resu
 
 ## 6. 持续推进
 
-理论actual43635287277两lane已complete：dual准确37子式成功（R87已登记），tail完整原式资料见notes/pure-tail-first-actual-complete-20261114.md。joint_resume43635770962已完成；R88指定式consumer与局部B初态43636741138已登记。multiple_pair_P1原run43637269935已资源退并登记；actual43637739532/source09bbfd75的D25已登记R92，metric_epigraph仍运行。当前request只跑localized_leading_initial，根读结果；literature正建真实分权总成员producer，repo_sources续action端势/真实驱动。旧四次/joint不重复。新实际发布后pull核两README并同步H/log/open；子问题接open不等阶段批准。原始来源边界见notes/literature-20261114.md，不重复清单代替研究。
+理论actual43635287277两lane已complete：dual准确37子式成功（R87已登记），tail完整原式资料见notes/pure-tail-first-actual-complete-20261114.md。joint_resume43635770962已完成；R88指定式consumer与局部B初态43636741138已登记。multiple_pair_P1原run43637269935已资源退并登记；actual43637739532的D25与minimax已登记；七input第54trial审计在建。当前localized_leading_initial为run43638423274/sourcee11edd1a，根读结果；literature正建真实分权总成员producer，repo_sources续action端势/真实驱动。旧四次/joint不重复。新实际发布后pull核两README并同步H/log/open；子问题接open不等阶段批准。原始来源边界见notes/literature-20261114.md，不重复清单代替研究。
