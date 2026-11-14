@@ -30,3 +30,6 @@
 
 
 - [R607：原强化整目标、完整共振像与九格整Schur](../results/R607-original-integral-target-and-mixed-schur-decomposition.md)：同一有限物理目标的三生成元/全部关系给无p扭整基，原九来源完整像及全部次数的低权环商保真实乘法进位。p>7D时原S/T单位子式给全九格整回缩，全部原行、真前缀及首极部保持；未把目标元添作全局来源或把模p核冒真核。
+
+
+- [R608：同一原修正的结点残数与被迫坐标极](../results/R608-original-common-correction-nodal-residue-and-forced-chart-escape.md)：两支真实二阶临界项的二阶极严格相消，余下简单极由同一R低行给出的局部残数精确读取，全T不改变。接触单位迫两支不能同时整延伸；完整原Taylor平方项仍相消，不把辅助临界坐标极代原d2或全余核非零。
