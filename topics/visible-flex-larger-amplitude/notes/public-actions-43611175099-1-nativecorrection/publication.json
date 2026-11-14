@@ -1,0 +1,900 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-14T15:58:24.490519+00:00",
+  "source_commit": "6bd52b446241be53e8842d4db5a24f9c2069e6e5",
+  "run_id": "43611175099",
+  "run_attempt": "1",
+  "lane": "nativecorrection",
+  "files": [
+    {
+      "source": "native-correction-capture/capture-begin.json",
+      "bytes": 19500,
+      "sha256": "8eb2996c3c41cd230ed4f58cc78c17c35482c612b9c34a3b6668ec5dd097f676",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/capture-begin.json",
+      "published_bytes": 19500,
+      "published_sha256": "8eb2996c3c41cd230ed4f58cc78c17c35482c612b9c34a3b6668ec5dd097f676"
+    },
+    {
+      "source": "native-correction-capture/capture-initial-arrays.json",
+      "bytes": 43096,
+      "sha256": "92d96d99b996fba23829742de9f2a187ec3a06ede25a51aa62febf498224e721",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/capture-initial-arrays.json",
+      "published_bytes": 43096,
+      "published_sha256": "92d96d99b996fba23829742de9f2a187ec3a06ede25a51aa62febf498224e721"
+    },
+    {
+      "source": "native-correction-capture/capture-input-config.json",
+      "bytes": 2161,
+      "sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/capture-input-config.json",
+      "published_bytes": 2161,
+      "published_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+    },
+    {
+      "source": "native-correction-capture/capture-manifest.json",
+      "bytes": 56779,
+      "sha256": "3ed8c1bf3458f2f5852c5e74ebaec77292233a6b940b494c73e4289bbdf95ae3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/capture-manifest.json",
+      "published_bytes": 56779,
+      "published_sha256": "3ed8c1bf3458f2f5852c5e74ebaec77292233a6b940b494c73e4289bbdf95ae3"
+    },
+    {
+      "source": "native-correction-capture/capture-spec.json",
+      "bytes": 39627,
+      "sha256": "96a719045765f45f572b3074340660a8b375405989d5f4b3b501fa8419b6dc07",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/capture-spec.json",
+      "published_bytes": 39627,
+      "published_sha256": "96a719045765f45f572b3074340660a8b375405989d5f4b3b501fa8419b6dc07"
+    },
+    {
+      "source": "native-correction-capture/capture-summary.json",
+      "bytes": 22202,
+      "sha256": "48d8c012aa0e266bd9c39d1ce6342a97ef54c7d01a6dcfb37997da6ede4b22c1",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/capture-summary.json",
+      "published_bytes": 22202,
+      "published_sha256": "48d8c012aa0e266bd9c39d1ce6342a97ef54c7d01a6dcfb37997da6ede4b22c1"
+    },
+    {
+      "source": "native-correction-capture/chart-stage-summaries.jsonl",
+      "bytes": 1178902,
+      "sha256": "541c2080f61431abf5bf7ff28f9244467b65830ec67d6eea019f43aaf944cdbd",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/chart-stage-summaries.jsonl.gz",
+      "published_bytes": 99758,
+      "published_sha256": "949bc5bb5b148982cc9eb660aea090c3791fb3d281281900eb7be86d5719a4f3"
+    },
+    {
+      "source": "native-correction-capture/core-instrumentation.json",
+      "bytes": 939,
+      "sha256": "eec2f2cdc56d08a2caca2f3039eefa8d70aa0eb853c57fcbbdfda943ef9744c0",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/core-instrumentation.json",
+      "published_bytes": 939,
+      "published_sha256": "eec2f2cdc56d08a2caca2f3039eefa8d70aa0eb853c57fcbbdfda943ef9744c0"
+    },
+    {
+      "source": "native-correction-capture/engine-loader-instrumentation.json",
+      "bytes": 692,
+      "sha256": "d0229666e7e9d1f3b3989b3de3b844e6e07c58a7561252dcfaaf6a3b1647f544",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/engine-loader-instrumentation.json",
+      "published_bytes": 692,
+      "published_sha256": "d0229666e7e9d1f3b3989b3de3b844e6e07c58a7561252dcfaaf6a3b1647f544"
+    },
+    {
+      "source": "native-correction-capture/instrumentation.json",
+      "bytes": 1105,
+      "sha256": "7f02d44209e6e49fcbc495e48b3fb27ba391c9197a756802ed310a4ab9411c6a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/instrumentation.json",
+      "published_bytes": 1105,
+      "published_sha256": "7f02d44209e6e49fcbc495e48b3fb27ba391c9197a756802ed310a4ab9411c6a"
+    },
+    {
+      "source": "native-correction-capture/large-array-chunks.jsonl",
+      "bytes": 25556,
+      "sha256": "7fd877f14401314113711aa64e6875aa1698c319fb850d1120aef7ad52f26ec1",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/large-array-chunks.jsonl",
+      "published_bytes": 25556,
+      "published_sha256": "7fd877f14401314113711aa64e6875aa1698c319fb850d1120aef7ad52f26ec1"
+    },
+    {
+      "source": "native-correction-capture/large-arrays/base-states-0000.f64le",
+      "bytes": 458752,
+      "sha256": "02f18c2c67fa72338d2206d7218dfbcf36da83f421e7420e6de1645e6cae0a3e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/base-states-0001.f64le",
+      "bytes": 458752,
+      "sha256": "15a0d9de0a26dac20b44d0adf9411335aed5287b48db6e8c881282ec224bd6c8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/base-states-0002.f64le",
+      "bytes": 116480,
+      "sha256": "a723983e9ca4e6adb9546625ec8abba03e4dea8339bff2664822f8a8861f7dc0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/cut-residual-0000.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/cut-target-0000.f64le",
+      "bytes": 896,
+      "sha256": "e2ea4563e7afc7d993db2ebc29ef63a1d853355c9d1ceeaf10f296b84391a14d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/diagnostic-j-delta-0000.f64le",
+      "bytes": 458752,
+      "sha256": "c07fa5aab351ef71e85069c9ce3d23bae304b004c9c5f87d22e4ee1a47cf78cd",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/diagnostic-j-delta-0001.f64le",
+      "bytes": 458752,
+      "sha256": "4e988f0af14b13975e20d9e8865058cc499f5b408298367c74281e4e8f33b188",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/diagnostic-j-delta-0002.f64le",
+      "bytes": 114688,
+      "sha256": "50dceceec658353a3e09a3e68ce6f4babe97367455b08a6667d6afe8306ff158",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/end-residual-0000.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/linear-cut-defects-0000.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/linear-far-defects-0000.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/linear-stage-defects-0000.f64le",
+      "bytes": 458752,
+      "sha256": "fea4a555e3885251d07564f010ab3355fc116ab679fc0b7856ce697886271fb5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/linear-stage-defects-0001.f64le",
+      "bytes": 458752,
+      "sha256": "0ed12104b0c883e017b69487498d8a871527cd919c0baaa00f8a18c0eaaef9b9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/linear-stage-defects-0002.f64le",
+      "bytes": 114688,
+      "sha256": "879534f840b45343eb8d3b2f50e5160dd06889557ce60eff94b2c1c94daf3afc",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/maximum-chart-affine-0000.f64le",
+      "bytes": 896,
+      "sha256": "ce9eb57fbf7ebc8293ebb1ec9dbf6fb7a007c93888bd49313d3a1ac8e71b1b79",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/maximum-chart-g-0000.f64le",
+      "bytes": 100352,
+      "sha256": "9768c910e997fd5566b6b6a2d177cfa0c8a51102a09256883267fa85d9c0fd43",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/maximum-chart-g-inverse-0000.f64le",
+      "bytes": 100352,
+      "sha256": "fc96fdcde4ad27070f466a4306320d1b41c859d47a0fc59f17c8d5a5ff0d9401",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/maximum-chart-graph-0000.f64le",
+      "bytes": 100352,
+      "sha256": "15a611a75af8311adccc0834bed056679481791c9be6362b1be8ff0d370f2b3d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/maximum-chart-graph-times-t-0000.f64le",
+      "bytes": 896,
+      "sha256": "7d3c9213a7472914dd1e1b674ea28ab39b0d025823a74499cfaa6410c080660d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/maximum-chart-h-0000.f64le",
+      "bytes": 100352,
+      "sha256": "507bd0081b199d1b3bc26c4899327cc83181ccd50b4e58a19c758e7341b4a6ba",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/maximum-chart-next-affine-0000.f64le",
+      "bytes": 896,
+      "sha256": "c3f2c782ddae54bd9eb42925316fe47def47029f72d11389f182ea765573be7c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/maximum-chart-next-graph-0000.f64le",
+      "bytes": 100352,
+      "sha256": "ec77b0bc51409c3d47889083aede689db2fd6d66900a6cf381dc5206a242ba9a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/maximum-chart-t-0000.f64le",
+      "bytes": 896,
+      "sha256": "17010a24adf1dfdfb951aee24d2c81956d164f235a68d53a6ce27d43a9819244",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/maximum-chart-u-0000.f64le",
+      "bytes": 896,
+      "sha256": "86b72efa17919f612aa0adc82686af30f0eebe3801358928dcbda90267e9ef0a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/original-delta-0000.f64le",
+      "bytes": 458752,
+      "sha256": "cd60c58f0231cac58340308bba9b445e08997325f9fc44e1b35bb5ad5816744c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/original-delta-0001.f64le",
+      "bytes": 458752,
+      "sha256": "b58f88056cc8767c08f33ed6088133c74d5a66dd1c17f0a5c5c4ca6275989c8b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/original-delta-0002.f64le",
+      "bytes": 116480,
+      "sha256": "07900548ba016d0571c490d31740b85e737ca45e30829c663981c434d985828d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/original-far-graph-0000.f64le",
+      "bytes": 896,
+      "sha256": "395804bb32582680dd544c6278862f51919c7598b3a1a526f1194f18deffda54",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/original-scales-0000.f64le",
+      "bytes": 4616,
+      "sha256": "ecbfd55d5f1dde8f8918818a257f9f2b7638344395d253d7c0844ff407abfecc",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/physical-height-0000.f64le",
+      "bytes": 896,
+      "sha256": "c35972d038321acf6db273248189b1e1d2527aa6eb2b323d37fcde4da448682f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/scaled-linear-cut-defects-0000.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/scaled-linear-far-defects-0000.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/scaled-linear-stage-defects-0000.f64le",
+      "bytes": 458752,
+      "sha256": "f3f7ec363ea2fd2e6198d92c887f7e793e6a26719548ba336e9c69ef83139381",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/scaled-linear-stage-defects-0001.f64le",
+      "bytes": 458752,
+      "sha256": "31f0266fbd49ed8d8346422414c5ff82a4d56f4022e5df9567797bc6b45a74e0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/scaled-linear-stage-defects-0002.f64le",
+      "bytes": 114688,
+      "sha256": "fc127fbdd6d7a442307b637e39cea1723c753f1ba1d019c25f97c6f7160824b0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-guard-mean-0000.f64le",
+      "bytes": 6144,
+      "sha256": "1cb0e1db90cdc9087b1f06d80dcac7d42eb599ed704468dfffe0ffe65de6cc75",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-guard-mean-0001.f64le",
+      "bytes": 6144,
+      "sha256": "093f0bfc269890663fdbc559afa0f7b8c72db3de7f2459d5c54feb19abfc33aa",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-guard-mean-0002.f64le",
+      "bytes": 1536,
+      "sha256": "51fa933df8f95397677811695f0be98cb6e27f0a0d7564267dca1d3e40b722c8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0000.f64le",
+      "bytes": 3211264,
+      "sha256": "06bb4142383bfbe2c8fffb4735f21b9373b1f1b1e92c7fdd69e3e1ec0ec17fba",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0001.f64le",
+      "bytes": 3211264,
+      "sha256": "1423e7b32e62f6764e771b61daef5be35d2702cd4d2afae016a54bbf31d80f6f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0002.f64le",
+      "bytes": 3211264,
+      "sha256": "e95dc16899efd372ee152c3c99ffba55fe21069ab00c8a881c28eedc4453c22d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0003.f64le",
+      "bytes": 3211264,
+      "sha256": "a6d1e4895003e885612df6a471d3baee93bcc3aad15dfeadb5f7bd1e78b4571b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0004.f64le",
+      "bytes": 3211264,
+      "sha256": "ae2cc4eb9aa192028865875371d2eb3cdd56937d16447573fe9bb31684d81e31",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0005.f64le",
+      "bytes": 3211264,
+      "sha256": "d9f593567faf38f0fe6062778698618961336b54b2f6430f73e72f40e0887f15",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0006.f64le",
+      "bytes": 3211264,
+      "sha256": "1a5dac12635a1654aedf653861e305f27a4d1b3520a02f27515de90862935b8a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0007.f64le",
+      "bytes": 3211264,
+      "sha256": "4dffe8c739515327780a18c58ba053308e204977986bfd17c787211855ec6ed5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0008.f64le",
+      "bytes": 3211264,
+      "sha256": "18da0e7767864ed00a4ee53a52e7704072d26fb99e56b1638f0dd2768ce99b18",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0009.f64le",
+      "bytes": 3211264,
+      "sha256": "2a1c158130baef294cf69ee5d981c026c7a9e831be58c63730110fbd3a06ab48",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0010.f64le",
+      "bytes": 3211264,
+      "sha256": "049a85186a780f19fd8b1743015b9fe07e1c673620024ef8b4b53a6a56062c2a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0011.f64le",
+      "bytes": 3211264,
+      "sha256": "5f446c4d9aa7e296cc7e1a40deb14df03b494968fecaab3b24c6c3f3e0289168",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0012.f64le",
+      "bytes": 3211264,
+      "sha256": "a60d4e4b05ef52d549e98f0b613512a2576716ac4162e79a63eda740963de27d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0013.f64le",
+      "bytes": 3211264,
+      "sha256": "74d43dc5180c9ca8f518eabbc0436333b29d94fe3fe908fd0910512b09372990",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0014.f64le",
+      "bytes": 3211264,
+      "sha256": "44ea379ddd4e4bfbec35b4712e42f51feaad6b1504741558e90b97b9cfcc286f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0015.f64le",
+      "bytes": 3211264,
+      "sha256": "0f904cb978070bd3596aa2d989a997b13ff9cb1d95904641c7bc706e29557270",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0016.f64le",
+      "bytes": 3211264,
+      "sha256": "9a4f0a3bbbe891c53a9907419e632521fd11fdc80ffe11bc0efdb4fd3607cf11",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0017.f64le",
+      "bytes": 3211264,
+      "sha256": "1914d562a8d0ad161da527a0e9f0f7a4a58a4ebe2a019748200f5cc582cfde0e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0018.f64le",
+      "bytes": 3211264,
+      "sha256": "521458275a63d0e77f8beb305d8d0da31ef0e2a5b470833c718a83a9a7687a6b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0019.f64le",
+      "bytes": 3211264,
+      "sha256": "71d6aece40f6be00ce3aa94c3a7dee8f9e0fbf2191ca5eb7224bab26ea8282ea",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0020.f64le",
+      "bytes": 3211264,
+      "sha256": "292cc788ac1267e3e62ab6af7fb56e494038f079be73dec752f7b6e262d34547",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0021.f64le",
+      "bytes": 3211264,
+      "sha256": "48b56cc0c4527e9b383ebf05f42787f620fef13de9cfabecb740a7872dea6d0c",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0022.f64le",
+      "bytes": 3211264,
+      "sha256": "d8fe2d673bf26cadb8f1cb364cda450fec4222c74dca09cdd05dcb01894250f4",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0023.f64le",
+      "bytes": 3211264,
+      "sha256": "04b6f7a237830577e1da84429a487b9d2dc87b8810c1459a94a64e935f077668",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0024.f64le",
+      "bytes": 3211264,
+      "sha256": "297527ef0be11dc924163d408f9dbea135463c3294f5dcbeda3cb7115dce9962",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0025.f64le",
+      "bytes": 3211264,
+      "sha256": "9ff0325c5b52f175842a3169aed2de0b55afd084c4ca2be4b962328861863baf",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0026.f64le",
+      "bytes": 3211264,
+      "sha256": "83a80744960fa6b756190cd2a734d2a602afa5e35c7335f044280b1653e219be",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0027.f64le",
+      "bytes": 3211264,
+      "sha256": "3d4d3fb71f812ffad7c50e9ff4d5a7ca2a65a0584739d0219086bc228e53cf49",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0028.f64le",
+      "bytes": 3211264,
+      "sha256": "9af2d9e5089250e4a58c5e8c37e9c85ec88d6761e0074ca23827ee3122453b4b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0029.f64le",
+      "bytes": 3211264,
+      "sha256": "ea702d650f6b0a012ae0580c6e4ddf2cdc705927ab73beb847f1acd0ec0dacbd",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0030.f64le",
+      "bytes": 3211264,
+      "sha256": "e8cf9c3b34fd0db01a601edf15eb7af40ea39089b46fbf1cacd2025983eea69d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0031.f64le",
+      "bytes": 3211264,
+      "sha256": "66a5d36e945ccc13ef795635bd7779999246c6c938e7fe85d8a5685be73c75c2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0032.f64le",
+      "bytes": 3211264,
+      "sha256": "6d57233fa4d5ca81ff14836de047be09b80954d806bc963aa9b76d40a52ae13f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0033.f64le",
+      "bytes": 3211264,
+      "sha256": "2e5155026935ec9c5455b5c89c8fec3e0be5c1ea43159e636006d35287a4f24a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0034.f64le",
+      "bytes": 3211264,
+      "sha256": "6dff6c19dc47eb365dc827b7a4d1f53c5bcd765ebbcf55048be6e0027636cf26",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0035.f64le",
+      "bytes": 3211264,
+      "sha256": "d90836d507142ae3ce5f5c52f43efe861c11221984e689a952ed72fccbc1069e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0036.f64le",
+      "bytes": 3211264,
+      "sha256": "3be6473f65f30354f2731ecc51fdebc0eb7fa1a7dde1e796a079e0cb598636a3",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0037.f64le",
+      "bytes": 3211264,
+      "sha256": "1da2693e4205b8dc9a511f3660f3e16ab17ab7561949cdc2972d5fcd263e40e2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0038.f64le",
+      "bytes": 3211264,
+      "sha256": "6fb5b840ae14516bd9187a01937310efe6f52fb96fada302abe282ca3be75e32",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0039.f64le",
+      "bytes": 3211264,
+      "sha256": "c5685a14bef0a9563f76248e8ae3d27782b8896fa859948111bd42af6febe463",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0040.f64le",
+      "bytes": 3211264,
+      "sha256": "d2877498f61ac0a848e0b1ec877bb0df2e28220d41eb3128b1a5100160ade625",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0041.f64le",
+      "bytes": 3211264,
+      "sha256": "fc4d04527b5fe7047d6a85312bd1c4cf8d74c0fee12c14e6459200bc54ce8b49",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0042.f64le",
+      "bytes": 3211264,
+      "sha256": "c6144e4911296239c39ca58fd8d01918b5be99d589275b8d4a8219a625084d6b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0043.f64le",
+      "bytes": 3211264,
+      "sha256": "752e44bc8b81d25d50215f6d64cd662d07363bf770488a347670dd9d31ac1e30",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0044.f64le",
+      "bytes": 3211264,
+      "sha256": "f7fc461f54db9a07b1bd56aa1138eaed1dfac52e4bd21d194c2ec18b860bf59e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0045.f64le",
+      "bytes": 3211264,
+      "sha256": "a6e35dfb0276f457f1454f1fceb17a3fd1b5e854153c4bbf00a7dcbf7be1f295",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0046.f64le",
+      "bytes": 3211264,
+      "sha256": "755bdd59dcde09451e7b47836263003d3271dd6e66ef35adfb4b542baaee003b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0047.f64le",
+      "bytes": 3211264,
+      "sha256": "ee733d4d04d8fc479ffe13e53c75f30cbf73d9871b6a21d509a5998f198e3de1",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0048.f64le",
+      "bytes": 3211264,
+      "sha256": "3c62ff2ad14e776f9fc149653824e70f3275087a4706fb026bf5145af6345292",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0049.f64le",
+      "bytes": 3211264,
+      "sha256": "7d137aed0fc1f09a8273ba2812aa936f5af831c998129d103e8bc0a11cb03429",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0050.f64le",
+      "bytes": 3211264,
+      "sha256": "06719e3a01eaea632df07076b39fa9bee9bd967b521607dba42d33e8f1bd0862",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0051.f64le",
+      "bytes": 3211264,
+      "sha256": "6b9bb2e4ad51f948538b629492d1ba9176bc67eb316f56f772ddfecb55e7ea82",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0052.f64le",
+      "bytes": 3211264,
+      "sha256": "734b6a21986db2bc09e94e0fe76e2267c7397a50ebf3d63ac47e9947b3794768",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0053.f64le",
+      "bytes": 3211264,
+      "sha256": "1cc21d747c3b58bb1ebd1c247928d647fa434cbe7f8277e9e75ecf7ac612bfd2",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0054.f64le",
+      "bytes": 3211264,
+      "sha256": "24f272721433b8285ddcf767f8b1b58fbce387a02ede992768a4f4bcc5d5abf9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0055.f64le",
+      "bytes": 3211264,
+      "sha256": "8cf0ada0a899d9311122036fee21bbbdd88bd8fc87df13420a5617362897ce3d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0056.f64le",
+      "bytes": 3211264,
+      "sha256": "6e1fb1c84443c6dc5b2502083ff014d2541533f4a11e8085969c091b7388ed18",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0057.f64le",
+      "bytes": 3211264,
+      "sha256": "2940846e2dde66548382e7c1f6691c7f724decf866156c6b64b8c6bb02ad18ce",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0058.f64le",
+      "bytes": 3211264,
+      "sha256": "0fc8dec9474934b93f29231b04b593913af86e5e48b3f744196ba36294453310",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0059.f64le",
+      "bytes": 3211264,
+      "sha256": "e0cdf891d02543e56a1ac558b18375eecf92b1d6447f1b46e0a7c7c9c0ee6263",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0060.f64le",
+      "bytes": 3211264,
+      "sha256": "9821d2f1ad8eef6aeafb185ca8fd7c1b24edeed9334148f27bfa49c3102fc182",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0061.f64le",
+      "bytes": 3211264,
+      "sha256": "6ad8dd4037fad674b274d4166421a2109af9ea03dca3440931d780035e659d6d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0062.f64le",
+      "bytes": 3211264,
+      "sha256": "f9863bc486c9913e8f6f9dda5c1d3862dad970560a22ab2db3c00c41dcac27ed",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0063.f64le",
+      "bytes": 3211264,
+      "sha256": "f87735b5fc5d08c91dcaac8721e2e5aa58c24362724a86e9ea89a7966b69ec21",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0064.f64le",
+      "bytes": 3211264,
+      "sha256": "3fa9165b21c95037844b8f4801ca8828a910b114c43705079b0bd6220b458329",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0065.f64le",
+      "bytes": 3211264,
+      "sha256": "fa3352c1eac647c17f1e7ad80e9bdade7bcba31b76afc9f1116dbd81bccc1099",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0066.f64le",
+      "bytes": 3211264,
+      "sha256": "f443859c2e7a7b60fdae55b36f01025b88b8c3819e3861809d76c04fdfb11a08",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0067.f64le",
+      "bytes": 3211264,
+      "sha256": "1b6704fb3f4f62c0264d20a671b05408624018928e8828ec2cd12f409aeaf8bb",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0068.f64le",
+      "bytes": 3211264,
+      "sha256": "6d6bc62413967b55cc1a099927088e46dc281212b8eff5bb6c2f6ad6b2c45e1d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0069.f64le",
+      "bytes": 3211264,
+      "sha256": "24763b1328a8bfac6078f59e2e8e94dd41329f5f26f2a62ef23851ad6e726938",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0070.f64le",
+      "bytes": 3211264,
+      "sha256": "1aa804ac4b429b91a42c1353ed243c1b7d25f1b622ed9f7a6e21bd2293929173",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-jacobians-0071.f64le",
+      "bytes": 3211264,
+      "sha256": "0b8edb340d078c43a7c41e6436d91e5bb41f5a5fd97a3219ab34109bb450fb21",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-out-0000.f64le",
+      "bytes": 458752,
+      "sha256": "509f2538e10467f1ac98a8c8172beb2995d5e8aebe7badfe42f6e059f9f1ef04",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-out-0001.f64le",
+      "bytes": 458752,
+      "sha256": "839af99ea039309d522e3eebae48cd551c6525b68b4e7a328fd58ad54603e618",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-out-0002.f64le",
+      "bytes": 114688,
+      "sha256": "481568f9bcaf061538bc44463d3de72427b431e01907d124e52b4799fcf6722e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-residuals-0000.f64le",
+      "bytes": 458752,
+      "sha256": "fe17e23282cf2339c7e91b0726c401302618964a2876dde04d257f97bd595b92",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-residuals-0001.f64le",
+      "bytes": 458752,
+      "sha256": "0dc02ed55ddb2b99e59d8d9aa016467d16db0d7e44706d7e31870b19c4246c02",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/large-arrays/stage-residuals-0002.f64le",
+      "bytes": 114688,
+      "sha256": "8f639daa22cc8c961868cc95fb220b3e7bff874c258ada1599e566ed204f26fa",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "native-correction-capture/native_0001.json.gz",
+      "bytes": 1201513,
+      "sha256": "4566653c49113c4fddd5e6b1afec8f947d386d4c2684436cce3ca8a680997aac",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/native_0001.json.gz",
+      "published_bytes": 1201513,
+      "published_sha256": "4566653c49113c4fddd5e6b1afec8f947d386d4c2684436cce3ca8a680997aac"
+    },
+    {
+      "source": "native-correction-capture/native_capacity.json",
+      "bytes": 2525,
+      "sha256": "4f0f7aaab43f8ed90c478c2983026671f4c17ddcbe25d494746a4dafc96210dc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/native_capacity.json",
+      "published_bytes": 2525,
+      "published_sha256": "4f0f7aaab43f8ed90c478c2983026671f4c17ddcbe25d494746a4dafc96210dc"
+    },
+    {
+      "source": "native-correction-capture/native_intent.json",
+      "bytes": 25243,
+      "sha256": "ebf0ac98fa716ad6492a540da94863856c2d419166a8e11c37d06ac28637fc47",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/native_intent.json",
+      "published_bytes": 25243,
+      "published_sha256": "ebf0ac98fa716ad6492a540da94863856c2d419166a8e11c37d06ac28637fc47"
+    },
+    {
+      "source": "native-correction-capture/native_iteration.json.gz",
+      "bytes": 1181651,
+      "sha256": "318b7955d65db4bcdcfdb2d1c5545c842d761794f113b552d644913b0872af85",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/native_iteration.json.gz",
+      "published_bytes": 1181651,
+      "published_sha256": "318b7955d65db4bcdcfdb2d1c5545c842d761794f113b552d644913b0872af85"
+    },
+    {
+      "source": "native-correction-capture/native_ready.json.gz",
+      "bytes": 6840,
+      "sha256": "1ccf38a6235f67c21d4947ba8147558e994e9df4e44f204a9d53097e070be1d8",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/native_ready.json.gz",
+      "published_bytes": 6840,
+      "published_sha256": "1ccf38a6235f67c21d4947ba8147558e994e9df4e44f204a9d53097e070be1d8"
+    },
+    {
+      "source": "native-correction-capture/native_runtime-config.json",
+      "bytes": 2555,
+      "sha256": "854bb4b6d2cd5ee2431793d36fb20294af48ad9f8fe0b4060f618dc111b51eae",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/native_runtime-config.json",
+      "published_bytes": 2555,
+      "published_sha256": "854bb4b6d2cd5ee2431793d36fb20294af48ad9f8fe0b4060f618dc111b51eae"
+    },
+    {
+      "source": "native-correction-capture/native_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/native_stderr.log",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "native-correction-capture/native_trace.jsonl",
+      "bytes": 4313,
+      "sha256": "852ae493e43fbb70b7c97f8e042ea6ffe3290a25dc3b6f758aa474e5626760d3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/native_trace.jsonl",
+      "published_bytes": 4313,
+      "published_sha256": "852ae493e43fbb70b7c97f8e042ea6ffe3290a25dc3b6f758aa474e5626760d3"
+    },
+    {
+      "source": "native-correction-capture/original-live-identity-before-seed.json",
+      "bytes": 52899,
+      "sha256": "de9bbf01981f1605c0342817ea520005bf2d0a05f5a755986d50b718b16089a7",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/original-live-identity-before-seed.json",
+      "published_bytes": 52899,
+      "published_sha256": "de9bbf01981f1605c0342817ea520005bf2d0a05f5a755986d50b718b16089a7"
+    },
+    {
+      "source": "native-correction-capture/result.json",
+      "bytes": 18921,
+      "sha256": "ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/result.json",
+      "published_bytes": 18921,
+      "published_sha256": "ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7"
+    },
+    {
+      "source": "native-correction-capture/seed-binding.json",
+      "bytes": 11320,
+      "sha256": "c07aff46479679927ffd80daf7c295a35f08f8d4ea020bbff59cee92b0c31b16",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/seed-binding.json",
+      "published_bytes": 11320,
+      "published_sha256": "c07aff46479679927ffd80daf7c295a35f08f8d4ea020bbff59cee92b0c31b16"
+    },
+    {
+      "source": "native-correction-capture/verified-launch-intent.json",
+      "bytes": 30254,
+      "sha256": "16f19de4c1e1ae3c904106956e278d2bfa92f0fc7e297fa78cced8fb86f6aac4",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/native-correction-capture/verified-launch-intent.json",
+      "published_bytes": 30254,
+      "published_sha256": "16f19de4c1e1ae3c904106956e278d2bfa92f0fc7e297fa78cced8fb86f6aac4"
+    },
+    {
+      "source": "public-source-preparation.json",
+      "bytes": 20424,
+      "sha256": "12be34109f22c873b4ce082e4512e83085084c09318ee4f0aa0a5603b382e2b3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43611175099-1-nativecorrection/public-source-preparation.json",
+      "published_bytes": 20424,
+      "published_sha256": "12be34109f22c873b4ce082e4512e83085084c09318ee4f0aa0a5603b382e2b3"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43611175099"
+}

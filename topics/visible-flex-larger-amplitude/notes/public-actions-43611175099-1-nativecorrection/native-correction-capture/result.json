@@ -1,0 +1,414 @@
+{
+  "actual25": {
+    "inputs": {
+      "instrumentation.json": {
+        "bytes": 1065,
+        "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/instrumentation.json",
+        "sha256": "9f0668f8e57765926362f1e6fd2a540a4a567e5b5f1186d9d77eecff85e3cdb9"
+      },
+      "native_0001.json.gz": {
+        "bytes": 1201524,
+        "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/native_0001.json.gz",
+        "sha256": "b836abc69da476967d3b464462fed55f90f10a54d966dd7d1a1fc379f0a55ddc"
+      },
+      "native_iteration.json.gz": {
+        "bytes": 1181653,
+        "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/native_iteration.json.gz",
+        "sha256": "2e7edf5566f6cd80f7217d8e6a07d3c64d3f3a88050b8e11d782b5c8415d07a5"
+      },
+      "native_trace.jsonl": {
+        "bytes": 4528,
+        "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/native_trace.jsonl",
+        "sha256": "dd1ddbbc7c00911c354fe34baadad331b3145b7cfbdc0c151a08628522b21218"
+      },
+      "native_trials.jsonl": {
+        "bytes": 2344,
+        "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/native_trials.jsonl",
+        "sha256": "6bb65a50911bd095c70985bbbdaa321d21d495e808881f7cff05f5f682470f57"
+      },
+      "original-live-identity-before-seed.json": {
+        "bytes": 52899,
+        "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/original-live-identity-before-seed.json",
+        "sha256": "de9bbf01981f1605c0342817ea520005bf2d0a05f5a755986d50b718b16089a7"
+      },
+      "result.json": {
+        "bytes": 35785,
+        "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/result.json",
+        "sha256": "f5f4acdb055c6964fd591ac2da566bc581607b1d32ebc8096af557f4a3f8abbf"
+      },
+      "seed-binding.json": {
+        "bytes": 11165,
+        "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/seed-binding.json",
+        "sha256": "5a60e750c9fae905ee7351d94b66bfb7eb86944c264da05ed37ea1116589355e"
+      },
+      "seeded-solve-spec.json": {
+        "bytes": 38856,
+        "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/seeded-solve-spec.json",
+        "sha256": "054b584407917b2038df322751d5f17c5f03a90467a8d85332314bf0e625b923"
+      },
+      "verified-launch-intent.json": {
+        "bytes": 42808,
+        "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43607404925-1-nativeseed/native-actual23-seeded-full/verified-launch-intent.json",
+        "sha256": "19f886ed5baf101ed4cc3b053b9d7a67645578ca1434fe5acd50ef9f81ed6cd5"
+      }
+    },
+    "original_error": "Error: multiple-shooting line search failed at 0.04177307820740199",
+    "original_last_iteration": {
+      "chartCondition": 8.810946110232247e+59,
+      "iteration": 0,
+      "minA": 0.9999999999759498,
+      "minD": 0.9999999999999858,
+      "norm": 0.04177307820740199
+    },
+    "original_native_full_DN_J_and_audit_returned": false,
+    "original_trace_events": 7,
+    "original_trials": 10
+  },
+  "actual_original_failure_message": "Error: VISIBLE_NATIVE_CORRECTION_CAPTURE_COMPLETE_V1",
+  "capture_phase": "complete-planned-stop-before-all-trials",
+  "capture_summary_sha256": "48d8c012aa0e266bd9c39d1ce6342a97ef54c7d01a6dcfb37997da6ede4b22c1",
+  "diagnostic_complete": true,
+  "diagnostic_exit_kind": "planned-capture-complete",
+  "elapsed_seconds": 1201.623083017,
+  "hook_sha256": "b20aee4da9b9dd927a2d78c6691739508798c81e73501b31e14a43ad55b64d30",
+  "inputs": {
+    "capacity": {
+      "bytes": 2525,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43598917532-1-coupling112trust/full-DN112/true-tail_capacity.json",
+      "sha256": "4f0f7aaab43f8ed90c478c2983026671f4c17ddcbe25d494746a4dafc96210dc"
+    },
+    "cold_probe_summary": {
+      "bytes": 10968,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/summary.json",
+      "sha256": "5c9203ce46b44de31d187c3dce43f94f30524cb25c9beaf31b9d893f05d640b1"
+    },
+    "failed_response": {
+      "bytes": 1187832,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43598917532-1-coupling112trust/full-DN112/true-tail_0001.json.gz",
+      "sha256": "ebe8932a7ba1a995f49b365344e795714bc0fdfccc606765cc69944b56a6b7a0"
+    },
+    "first_candidate_summary": {
+      "bytes": 10012,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43603818345-1-zerorkprobe/same-RK-candidate-native-probe/summary.json",
+      "sha256": "0c69d072f25c927e32322021e65b717ef6d68089d6332ed4c69c793fec87b481"
+    },
+    "intent": {
+      "bytes": 25231,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43598917532-1-coupling112trust/full-DN112/true-tail_intent.json",
+      "sha256": "3d67e9fc2d761f2edc2b9b0ba6b217f34409aaa0b6376b11f90ce72ff537476d"
+    },
+    "iteration": {
+      "bytes": 1167770,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43598917532-1-coupling112trust/full-DN112/true-tail_iteration.json.gz",
+      "sha256": "e996f37aa4eb7cfb0bb8b5bb912f594af794d16146240ee6db114c22eb55de7d"
+    },
+    "ready": {
+      "bytes": 6851,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43598917532-1-coupling112trust/full-DN112/true-tail_ready.json.gz",
+      "sha256": "4a2c24f3f4cdddc4dd581a50fd13c13fd6c00cd0646404e2ac4a64a80b12c678"
+    },
+    "runtime_config": {
+      "bytes": 2519,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43598917532-1-coupling112trust/full-DN112/true-tail_runtime-config.json",
+      "sha256": "3efcf32e37881e2f65b710bc59c86c0609270109761b207316c6d4f2c47a26a0"
+    },
+    "v2_candidate_summary": {
+      "bytes": 23003,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-zerorkprobev2/same-RK-candidate-native-probe-v2/summary.json",
+      "sha256": "4d09183f4afd7838d80ad707042e52bd2212d8ae846ad15ce2c25a1754634ea7"
+    },
+    "v2_underflow_event_packet": {
+      "bytes": 14183,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-zerorkprobev2/same-RK-candidate-native-probe-v2/initializer-v2-construction-045-000.json.gz",
+      "sha256": "c738918da5d8aa982afa77be771c88cfca76920614a7c80171f7de3c990b30a2"
+    },
+    "v3_candidate_summary": {
+      "bytes": 33201,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/summary.json",
+      "sha256": "aa93fb8afbd0c8ce3ec49859f3bcfae465696654f626ed1678ceb430329ec6ea"
+    },
+    "v3_checkpoint": {
+      "bytes": 5747,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/candidate-checkpoint.json",
+      "sha256": "e3952fbd34fa00370e70d78529b219385278c93d11a36df3855d6fcda148e10c"
+    },
+    "v3_factory_identity": {
+      "bytes": 17318,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/candidate-factory-identity.json",
+      "sha256": "a146682f02c492c6d32d49e4c9f93ab2983333c0af4a17774039239271e5b806"
+    },
+    "v3_initializer_identity": {
+      "bytes": 18123,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/candidate-initializer-identity.json",
+      "sha256": "38f6f6cdbcc7fbe4aece5bddc175fd75dcefdf347eec74b8c1d58d6949d4980e"
+    },
+    "v3_instrumentation": {
+      "bytes": 898,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/instrumentation.json",
+      "sha256": "40302549d1491d8051d8514b7203f2851cbfc2d6b35cf704f48dc6d943984f7c"
+    },
+    "v3_original_live_identity": {
+      "bytes": 52899,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/original-live-identity.json",
+      "sha256": "de9bbf01981f1605c0342817ea520005bf2d0a05f5a755986d50b718b16089a7"
+    },
+    "v3_specification": {
+      "bytes": 29866,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/probe-spec.json",
+      "sha256": "5b3deb56857ec205f36745e72abc8404f5487f0b1b29fee20cc0067511c647b9"
+    },
+    "v3_verified_launch": {
+      "bytes": 36719,
+      "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43605912092-1-zerorkprobev3/same-RK-candidate-native-probe-v3/verified-launch-intent.json",
+      "sha256": "a694333e969f1cc3ae463161ead650d00ae889e7ce9e2c08c378416cfc001357"
+    }
+  },
+  "large_arrays_artifact_only": true,
+  "linear_defect_summary": {
+    "all_original_rows": {
+      "first_nonfinite": null,
+      "infinity_count": 0,
+      "max_abs": 7.3718085303337e+40,
+      "max_abs_record": {
+        "classification": "finite",
+        "float64le_hex": "b3195f596a146b48",
+        "value": 7.3718085303337e+40
+      },
+      "nan_count": 0,
+      "worst": {
+        "component": "Pi",
+        "frequency": 220,
+        "kind": "stage",
+        "mode": 110,
+        "rawCell": 0,
+        "rawSegment": 3,
+        "residual_row": 221,
+        "stage": 43,
+        "value": {
+          "classification": "finite",
+          "float64le_hex": "b3195f596a146bc8",
+          "value": -7.3718085303337e+40
+        }
+      }
+    },
+    "all_original_scales_retained": true,
+    "computed_diagnostic_only": true,
+    "cut_rows": {
+      "first_nonfinite": null,
+      "infinity_count": 0,
+      "max_abs": 0,
+      "max_abs_record": {
+        "classification": "finite",
+        "float64le_hex": "0000000000000000",
+        "value": 0
+      },
+      "nan_count": 0,
+      "worst": null
+    },
+    "cut_rows_count": 112,
+    "exact_binary_array_algebra_reconstructible_from_saved_bytes": true,
+    "far_rows": {
+      "first_nonfinite": null,
+      "infinity_count": 0,
+      "max_abs": 0,
+      "max_abs_record": {
+        "classification": "finite",
+        "float64le_hex": "0000000000000000",
+        "value": 0
+      },
+      "nan_count": 0,
+      "worst": null
+    },
+    "far_rows_count": 112,
+    "not_an_exact_DF_certificate": true,
+    "original_base_norm": {
+      "classification": "finite",
+      "float64le_hex": "c61182e94763a53f",
+      "value": 0.04177307820740199
+    },
+    "scope": "This floating diagnostic is not the exact real defect of the stored binary arrays or a validated derivative of the nonlinear map. Raw J/r/delta/scales/boundaries are preserved for independent reconstruction.",
+    "stage_rows": {
+      "first_nonfinite": null,
+      "infinity_count": 0,
+      "max_abs": 7.3718085303337e+40,
+      "max_abs_record": {
+        "classification": "finite",
+        "float64le_hex": "b3195f596a146b48",
+        "value": 7.3718085303337e+40
+      },
+      "nan_count": 0,
+      "worst": {
+        "component": "Pi",
+        "frequency": 220,
+        "kind": "stage",
+        "mode": 110,
+        "rawCell": 0,
+        "rawSegment": 3,
+        "residual_row": 221,
+        "stage": 43,
+        "value": {
+          "classification": "finite",
+          "float64le_hex": "b3195f596a146bc8",
+          "value": -7.3718085303337e+40
+        }
+      }
+    },
+    "stage_rows_count": 129024
+  },
+  "maximum_chart_summary": {
+    "condition": {
+      "classification": "finite",
+      "float64le_hex": "930cd31eba8b614c",
+      "value": 8.810946110232247e+59
+    },
+    "interpretation": "Original local Riccati chart diagnostic; not a full-system condition number or a certified error bound",
+    "largest_finite_condition": {
+      "float64le_hex": "930cd31eba8b614c",
+      "stage": 43,
+      "value": 8.810946110232247e+59
+    },
+    "norm_G": {
+      "classification": "finite",
+      "float64le_hex": "2dc0e0618d12b547",
+      "value": 2.8010116829379707e+37
+    },
+    "norm_G_inverse": {
+      "classification": "finite",
+      "float64le_hex": "d8267b5fffa49a44",
+      "value": 3.145629903617709e+22
+    },
+    "original_running_maximum": {
+      "classification": "finite",
+      "float64le_hex": "930cd31eba8b614c",
+      "value": 8.810946110232247e+59
+    },
+    "rawCell": 0,
+    "rawSegment": 3,
+    "selection": "first nonfinite condition if any, otherwise greatest finite observed product",
+    "stage": 43
+  },
+  "native_accepted": false,
+  "no_final_DN_J_or_audit_acceptance": true,
+  "original_client_exception": "FloatingPointError(\"Actual complete finite tail rejected: {'failed': 'Error: VISIBLE_NATIVE_CORRECTION_CAPTURE_COMPLETE_V1', 'residual': None, 'lastIteration': {'iteration': 0, 'norm': 0.04177307820740199, 'minA': 0.9999999999759498, 'minD': 0.9999999999999858}}\")",
+  "original_native_requests": 1,
+  "planned_diagnostic_stop_observed": true,
+  "planned_stop": "VISIBLE_NATIVE_CORRECTION_CAPTURE_COMPLETE_V1",
+  "schema": "native-first-correction-capture-result-v1",
+  "small_output_files": [
+    {
+      "bytes": 19500,
+      "file": "capture-begin.json",
+      "sha256": "8eb2996c3c41cd230ed4f58cc78c17c35482c612b9c34a3b6668ec5dd097f676"
+    },
+    {
+      "bytes": 43096,
+      "file": "capture-initial-arrays.json",
+      "sha256": "92d96d99b996fba23829742de9f2a187ec3a06ede25a51aa62febf498224e721"
+    },
+    {
+      "bytes": 2161,
+      "file": "capture-input-config.json",
+      "sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+    },
+    {
+      "bytes": 56779,
+      "file": "capture-manifest.json",
+      "sha256": "3ed8c1bf3458f2f5852c5e74ebaec77292233a6b940b494c73e4289bbdf95ae3"
+    },
+    {
+      "bytes": 39627,
+      "file": "capture-spec.json",
+      "sha256": "96a719045765f45f572b3074340660a8b375405989d5f4b3b501fa8419b6dc07"
+    },
+    {
+      "bytes": 22202,
+      "file": "capture-summary.json",
+      "sha256": "48d8c012aa0e266bd9c39d1ce6342a97ef54c7d01a6dcfb37997da6ede4b22c1"
+    },
+    {
+      "bytes": 1178902,
+      "file": "chart-stage-summaries.jsonl",
+      "sha256": "541c2080f61431abf5bf7ff28f9244467b65830ec67d6eea019f43aaf944cdbd"
+    },
+    {
+      "bytes": 939,
+      "file": "core-instrumentation.json",
+      "sha256": "eec2f2cdc56d08a2caca2f3039eefa8d70aa0eb853c57fcbbdfda943ef9744c0"
+    },
+    {
+      "bytes": 692,
+      "file": "engine-loader-instrumentation.json",
+      "sha256": "d0229666e7e9d1f3b3989b3de3b844e6e07c58a7561252dcfaaf6a3b1647f544"
+    },
+    {
+      "bytes": 1105,
+      "file": "instrumentation.json",
+      "sha256": "7f02d44209e6e49fcbc495e48b3fb27ba391c9197a756802ed310a4ab9411c6a"
+    },
+    {
+      "bytes": 25556,
+      "file": "large-array-chunks.jsonl",
+      "sha256": "7fd877f14401314113711aa64e6875aa1698c319fb850d1120aef7ad52f26ec1"
+    },
+    {
+      "bytes": 1201513,
+      "file": "native_0001.json.gz",
+      "sha256": "4566653c49113c4fddd5e6b1afec8f947d386d4c2684436cce3ca8a680997aac"
+    },
+    {
+      "bytes": 2525,
+      "file": "native_capacity.json",
+      "sha256": "4f0f7aaab43f8ed90c478c2983026671f4c17ddcbe25d494746a4dafc96210dc"
+    },
+    {
+      "bytes": 25243,
+      "file": "native_intent.json",
+      "sha256": "ebf0ac98fa716ad6492a540da94863856c2d419166a8e11c37d06ac28637fc47"
+    },
+    {
+      "bytes": 1181651,
+      "file": "native_iteration.json.gz",
+      "sha256": "318b7955d65db4bcdcfdb2d1c5545c842d761794f113b552d644913b0872af85"
+    },
+    {
+      "bytes": 6840,
+      "file": "native_ready.json.gz",
+      "sha256": "1ccf38a6235f67c21d4947ba8147558e994e9df4e44f204a9d53097e070be1d8"
+    },
+    {
+      "bytes": 2555,
+      "file": "native_runtime-config.json",
+      "sha256": "854bb4b6d2cd5ee2431793d36fb20294af48ad9f8fe0b4060f618dc111b51eae"
+    },
+    {
+      "bytes": 0,
+      "file": "native_stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4313,
+      "file": "native_trace.jsonl",
+      "sha256": "852ae493e43fbb70b7c97f8e042ea6ffe3290a25dc3b6f758aa474e5626760d3"
+    },
+    {
+      "bytes": 52899,
+      "file": "original-live-identity-before-seed.json",
+      "sha256": "de9bbf01981f1605c0342817ea520005bf2d0a05f5a755986d50b718b16089a7"
+    },
+    {
+      "bytes": 11320,
+      "file": "seed-binding.json",
+      "sha256": "c07aff46479679927ffd80daf7c295a35f08f8d4ea020bbff59cee92b0c31b16"
+    },
+    {
+      "bytes": 30254,
+      "file": "verified-launch-intent.json",
+      "sha256": "16f19de4c1e1ae3c904106956e278d2bfa92f0fc7e297fa78cced8fb86f6aac4"
+    }
+  ],
+  "source_sha256": "0b49f14218e4d62f0b18d77dd3fa8aee1cb6225f84d92bb81dace173cf74dcc0",
+  "spec_sha256": "96a719045765f45f572b3074340660a8b375405989d5f4b3b501fa8419b6dc07",
+  "task_completed": false,
+  "trials_executed": 0,
+  "worker_exit_code": 0
+}

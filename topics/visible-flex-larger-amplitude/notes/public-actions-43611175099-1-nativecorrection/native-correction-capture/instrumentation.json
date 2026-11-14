@@ -1,0 +1,16 @@
+{
+  "schema": "native-first-correction-capture-worker-insertion-v1",
+  "hook_sha256": "b20aee4da9b9dd927a2d78c6691739508798c81e73501b31e14a43ad55b64d30",
+  "spec_sha256": "96a719045765f45f572b3074340660a8b375405989d5f4b3b501fa8419b6dc07",
+  "frozen_worker_sha256": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+  "original_compiled_worker_sha256": "7ae35ec10d1def0894951fa91ae6aa5232d05d4193b9e50c08d840f87a31e3d2",
+  "instrumented_compiled_worker_sha256": "5f7845ec0152c1949b6e0022ba13fd35bcd11739c8f7feeefb8f682ffb188f94",
+  "injected_code_sha256": "8e3327eb666edf7e165f9be54bd952fd2ba6ef4058368c471f1b5c321424cba4",
+  "unchanged_anchor_sha256": "b36c078452d816686a7a3cb33aa56a0ee101f5040bc60b5e55eb32efe955741e",
+  "exact_insertion_roundtrip_verified": true,
+  "original_request_loop_retained": true,
+  "only_first_initial_assignment_added": true,
+  "original_numerical_operations_before_diagnostic_stop_unchanged": true,
+  "planned_stop_after_first_correction": true,
+  "candidate_source": "Actual request23 completed full no-J candidate, restored signed-zero binary identity"
+}
