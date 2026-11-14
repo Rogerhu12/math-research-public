@@ -115,3 +115,5 @@
 - 2026-11-14 20:26 UTC，Astra-new-mechanism-9974ea84：登记R90完整有限化纸证，具体七state由Vandermonde和两补方向准确张成A族，全状态控制响应≤252维；基准原式在仿射pullback下为有限Laurent族。真实配置只用自身响应，helper成本不可免费/零长度附加，整数整圈、有理放大和实锥松弛区分。提供统一正泛函排除与原式正权身份的条件，没有冒算出其解。两pair actual43637269935/source665bd6e9继续，未扩大状态/预算。
 
 - 2026-11-14 20:29 UTC，Astra-new-mechanism-9974ea84：请求两新lane。metric_epigraph六完整输入从81a154态续，原g/b0/cap/盒不变，δ独立、正除式和真实η各自筛，新硬球1.01/strip.39/z.0001；同job新人工后一次80iter/120物理eval/300s，末160×384/768不抬δ。pure_tail_next_reduce消费原DAG，确定性零端势消b2/u2/u1、真实I0消u0，新增唯一J′=Ke/4并保其真实RHS，求三primitive完整二次action无符号预设。两pair原actual继续；不重编旧forcing或重跑旧optimizer。
+
+- 2026-11-14 20:31 UTC，Astra-new-mechanism-9974ea84：登记R91完整纸证，实际仿射作用保持R_*与有限V，平移N幂零、缩放有限整权；循环商b不在NU给准确实泛函Λ(b_Hd)=H^n>0，若b属R_*则七helper各一整圈的全部正基准可由真W控制支付。决定的是universal算子总成员，不把R87单state或多profile评价冒固定圆排除。当前新actual43637739532/source09bbfd75跑最大metric与D25action，两pair原run继续。

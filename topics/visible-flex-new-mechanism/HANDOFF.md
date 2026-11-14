@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`c34148d8a411a039ae88b2f022839b2205690d7d`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`829a26a253dad55f73f2fc384e45c37f42ff1333`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:02:06 UTC实际pull至`fb59f636d9b9ce20c96325dbe19a3b4c504ac21b`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:01 UTC。
 
@@ -20,7 +20,7 @@ H<10KB，MD<100KB，open尽量<30KB；数据>1MB gzip、单件<5MB。只明确st
 
 A1、B7/25、半宽1/50；L.9、握持rc.22、tc.036、tf.846、六帽R.274。167=81u+72v+9height+5body；冻结g后162，单Q后163。永久原c0不得被selected替换。四份原始真实输入（selected、永久enriched c0、short bounded、accepted height）的完整notes路径和decoded SHA统一见notes/joint-resume-after-contacting-quartic-20261114.md §7；第五为已跑quartic完整report。不把selected/accepted当c0。新实际resume为第六输入，身份见下。
 
-完整固定g SHA `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。较早accepted物理态 `f198ba74dcf3644569bf1ed78eecbc48a0f21ec421205d46a6b159cb00ff0f56`：height actual43630874689以一LP松弛0、一QP2iter真实应用一次九高度步；h.1427042008431、minz.01425708、ballnorm².98754057通过采样门，uv/T/g未变。但η1.388247、metriccost.03158755、κ149.42、镜像法弦.01425979<.061、strip .393509>.38，仍失败。384→768同态η1.388247397，非连续包围。旧入口失败详notes，不重复旧预算。
+完整固定g SHA `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。较早accepted态 `f198ba74dcf3644569bf1ed78eecbc48a0f21ec421205d46a6b159cb00ff0f56`来自height actual43630874689的一次九高度步；帽高.1427042、minz.01425708、η1.388247、κ149.42、镜像.01425979、strip.393509。旧入口/高度失败完整见notes，不重复旧预算。
 
 原joint人工全链已过；actual43633105146数值poly b重放末位差停，任何optimizer未入。修复保原A/b后43634358250完成一次46eval quartic，cost .03158755→.02828242但触z=0，192网−1.34566e−8使joint调用0；详notes/quartic-height-contact-and-unstarted-joint-20261114.md。已跑quartic decoded SHA e344e6e0a62be10dfa8dad4f52e4b889191f462b97bb19dd4b1cc0283f6f33dc，后续仅消费不重跑。
 
@@ -42,7 +42,7 @@ R37/R45给真实零二阶桥与浸入四块闭合，R52为完整三阶圆，非�
 
 完整phase v2 actual43633746055/source26c3f2c0完成122.312s：152→36原模板，116依赖fresh，a与log(a)两分量原式全消，有理余1374当时仅未产身份。**R87新actual43635287277/sourcef3102464已给实际函数非成员证书**：27.987s，原右Volterra直接评价同一有理f/g，192实行36列；p2147483647，36子式1164198643、37子式174204184均非零，真正Q泛函Λb mod1188606345。报告106444B SHA `cb813ad35ad00a8c4f63d514055e6a9d249aeced3bf5e64a16d9e494debb69e7`。W真实维数恰36，不再盲加该单pair同类控制。
 
-R86左三bump准确补三复矩且保全部右锚查询；R87结合C6光滑化给合法C∞三矩circle仍不匹配，并在明确可缩小collar类相对开稠密。**只排单pair的P1单独匹配，不排特殊circle、多pair，亦不排固定N时P0+NP1抵消。** R89已证真实H²/x=Hξ+d完整协变、W不变及A(H,d)实际span7；多个pair须正长度，连接只添P0。两state(1,0)/(1,1)等整圈联合新producer a1fbe334已请求480s/2GiB，先72列原式依赖证上界r，再原式双mode正关系或rank-r/增广r+1真分离，不重跑单pair，actual43637269935/source665bd6e9运行中。R90七个明确常态张成全部A族，全控制响应≤252维；基准有限Laurent族，helper正成本及整数整圈不可省，实锥只放松。repo_sources续第25阶真实端势约简。
+R86左三bump准确补三复矩且保全部右锚查询；R87结合C6光滑化给合法C∞三矩circle仍不匹配，并在明确可缩小collar类相对开稠密。**只排单pair的P1单独匹配，不排特殊circle、多pair，亦不排固定N时P0+NP1抵消。** R89已证真实H²/x=Hξ+d完整协变、W不变及A(H,d)实际span7；多个pair须正长度，连接只添P0。两state(1,0)/(1,1)等整圈联合新producer a1fbe334已请求480s/2GiB，先72列原式依赖证上界r，再原式双mode正关系或rank-r/增广r+1真分离，不重跑单pair，actual43637269935/source665bd6e9运行中。R90七个明确常态张成全部A族，全控制响应≤252维；基准有限Laurent族，helper正成本及整数整圈不可省，实锥只放松。R91完整仿射模二分：universal P1若b∈总响应则七正整圈可付，否则存在Λ(b_Hd)=H^n>0排所有正组合；尚未决定成员，不能外推特殊固定profile。repo_sources续第25阶真实端势约简。
 
 R83完整(w,u,v)传递：M0倒行T−而V+；真词Z恒M=T0，在含Z0的R45实际基准上ΔP0=4(E(t)−E(0)+λtK)，保P1但基线/偶成本未付。R84成本只成有限加法半群，frame环L∫(1+k²)≥4π²；未证V正性/未排正长度V0。R85/R88证明pure幂尾4m−9及4m−8皆准确端点势，M0+常端芽已消；须保正交第三局部项才不造假能量。tail actual43635287277完整1.961s，14真histories、四条exactzero；R88 consumer43636741138已complete1.762s，真实第一积分导数/初值/monic余式/fresh原式全0，未代前996项、商38项；23–27完整DAG保notes，展开文本因体积省略非零。后阶须分析真实ODE与端差，不能以density项数立period正性。准确第二density/正交规范见notes/pure-tail-second-density-and-orthogonal-gauge-20261114.md。
 
@@ -50,4 +50,4 @@ R83完整(w,u,v)传递：M0倒行T−而V+；真词Z恒M=T0，在含Z0的R45实�
 
 ## 6. 持续推进
 
-理论actual43635287277两lane已complete：dual准确37子式成功（R87已登记），tail完整原式资料见notes/pure-tail-first-actual-complete-20261114.md。joint_resume43635770962已完成；R88指定式consumer与局部B初态43636741138已登记。multiple_pair_P1原run43637269935继续；当前新request为metric_epigraph与pure_tail_next_reduce。D25 consumer fbbb3ca4只消费已发布DAG，零端势移b2/u2/u1、真实I0移u0，新增J′=Ke/4保完整系数，目标三primitive二次action而非符号。旧四次/joint不重复。新实际发布后pull核两README并同步H/log/open；子问题接open不等阶段批准。原始来源边界见notes/literature-20261114.md，不重复清单代替研究。
+理论actual43635287277两lane已complete：dual准确37子式成功（R87已登记），tail完整原式资料见notes/pure-tail-first-actual-complete-20261114.md。joint_resume43635770962已完成；R88指定式consumer与局部B初态43636741138已登记。multiple_pair_P1原run43637269935继续；当前新actual43637739532/source09bbfd75为metric_epigraph与pure_tail_next_reduce。D25 consumer fbbb3ca4只消费已发布DAG，零端势移b2/u2/u1、真实I0移u0，新增J′=Ke/4保完整系数，目标三primitive二次action而非符号。旧四次/joint不重复。新实际发布后pull核两README并同步H/log/open；子问题接open不等阶段批准。原始来源边界见notes/literature-20261114.md，不重复清单代替研究。

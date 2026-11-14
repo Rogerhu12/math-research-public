@@ -183,3 +183,5 @@
 - [R89：完整仿射协变、正长度多pair与七维物理族](results/R89-affine-covariance-and-positive-multiple-pair-P1.md) — 真实H²空间相似与x=Hξ+d保全场/全部历史/两mode，T与P1只作profile共轭；跨scalar基点W不变。合法k±1常态A(H,d)恰span7而非8，正p2半空间禁止有符号冒用。多pair独立桥与正整圈权给准确联合P1，连接只添P0；提出(1,0),(1,1)等长新目标，未声称可解。
 
 - [R90：全部常态控制响应的七状态有限系统与正基准成本](results/R90-seven-state-complete-response-and-positive-baseline-system.md) — 明确七个有界有理状态张成全部物理A族，故全响应空间至多252维；有限原始仿射式使基准为有限Laurent(H)/polynomial(d)族。实际配置只能用自身pair的控制，helper正成本必须支付；整数整圈、有理共同放大与实正锥松弛严格分开。提供原式阳性证书与统一正泛函阴性证书条件，未找到共同正锥解或同号泛函，未付P0。
+
+- [R91：正长度universal P1的仿射整权二分](results/R91-affine-character-dichotomy-for-positive-universal-P1.md) — 真pullback保持总响应与有限Laurent空间；平移N幂零、缩放整权。循环商中b不落NU给Λ杀全部控制且Λ(b_Hd)=H^n>0；反向b属总响应则七helper各一正整圈支付P1。尚未决定真实总成员，只讨论同一控制对全部profile的恒等式，不排特殊固定圆或P0+NP1。
