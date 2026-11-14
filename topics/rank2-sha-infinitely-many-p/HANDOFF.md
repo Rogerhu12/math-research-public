@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：574c2cad5895ab297376f4f7695506466f6f20d5；2026-11-14 13:07:47 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：1395a552495ca8b884d5584305ef91b772a52298；2026-11-14 13:09:22 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧→公开仓库迁移及规则11–14差异已全文读（原提交号/日期见最新完整归档）；现只在Rogerhu12/math-research-public工作。每同步核规、完整证明直接登记、本库Actions、公开库禁令牌。旧runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。历次完整规则/差异读取记录保最新归档；只写课题log，每轮≤5行，不写/归档根LOG。
@@ -14,13 +14,13 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–503、R505–506、R508已登记；R364仍开。R235/R237及迁移R437/R438已重做推送。最新提交：R499=276faa39；R501=55c85e26；R502=0a911f86；证书恢复1dafbfa7；R503=0eb4c7db；R502实测回填da54025b；R505=d08b296f；R508=ee4e2a11；R506本次登记；更早见日志与归档。
+R1–363、R365–506、R508已登记；R364仍开。R235/R237及迁移R437/R438已重做推送。最新提交：R499=276faa39；R501=55c85e26；R502=0a911f86；证书恢复1dafbfa7；R503=0eb4c7db；R502实测回填da54025b；R505=d08b296f；R508=ee4e2a11；R506=21a304a8；R504本次登记；更早见日志与归档。
 执行环境12:35 UTC断连；现用已连接GitHub读main/核两README并以expected_sha、force=false追加，未称实际pull。恢复后先pull --rebase并核规，再合并遗留。root统一元数据/逐条发布；代理仅建proof/script blobs。theta续原S/T联合域；literature续R509新五sigma框架；deep续R507 forcing与真实源像；root续实际全来源条件。完整证明随到随登记，无独审门。
 
 ## 目标桥及完整旧接口
 
 主目标未完成，QUEUE仍进行中，不等阶段确认。S34/T72/U136分别是固定y²=x³+17/+24/+2312，rank2见R294/R398/R469；完整Sha桥R295/R303/R397/R402/R469给2+corankSha≤2ordJ。一条完整中央导数无穷非零即可；有限池需同一无穷p集上至少一条非零才可鸽笼。有限p、辅助来源或子域非零不代替。
-最新完整接口归档`notes/2026-11-14-frontier-before-r506.md`，前链`frontier-before-r508.md`，前链`frontier-before-r505.md`/`frontier-before-r503.md`、`open-before-r496.md`，链回through-r491及更早，保所有原常数、51维moment、CM标签、外谱和未付carry。旧R1–79/R80–129及R461–500均分段索引，新建R501–550分段；不增巨型PROOF-INDEX。课题旧完整日志已归档`notes/2026-11-14-log-through-r494.md`，不动根LOG。原quartic E17:y²=x³−17x、E34/E136/E389支线全保旧归档。
+最新完整接口归档`notes/2026-11-14-frontier-before-r504.md`，前链`frontier-before-r506.md`，前链`frontier-before-r508.md`，前链`frontier-before-r505.md`/`frontier-before-r503.md`、`open-before-r496.md`，链回through-r491及更早，保所有原常数、51维moment、CM标签、外谱和未付carry。旧R1–79/R80–129及R461–500均分段索引，新建R501–550分段；不增巨型PROOF-INDEX。课题旧完整日志已归档`notes/2026-11-14-log-through-r494.md`，不动根LOG。原quartic E17:y²=x³−17x、E34/E136/E389支线全保旧归档。
 
 ## 普通：同一六输入、全部三态核心和真实几何
 
@@ -48,6 +48,8 @@ R508四轴Z/V/U/P的真实压深词：相邻正交对准确κI，约简词长度
 
 R506原C=(ξ1+ω²ξ3−ωξ4−c)/2、Norm1，二重生成轴wholeS4核心由σ(2z)绝对锚定为实际U。完整五伴随det2、W/C/Q4框架det±16·72⁴；U四态diag(+,+,−,−)，任意W/C深度λ^(m+n)KW^mU^n全联合成立。Y移动(κ^n−1)(1+3ω)C，CT=ω²ξ4、ℓ4=ωC；不把此轴误认纯Y或作用到已删Q的压缩模型。
 
+R504原V′与V′U之和R/差aC正交Norm65/7；实际S260核−χ65 P260、χ65²1以odd65两sigma锚付，全部16中心给KR=χ65diag(−,+,−,+)。与C完整矩形保全部四伴随；两真实三层管AB/BA返回±χ65λ³z，域和Y权不同。RT=(3+ω,2δ,6+3ω,0,−1+ω,4)为原五sigma新scalarχ65λ，Gram(Z,RT)det632；原S/T联立继续。
+
 ## 普通：原低 degree 因子及完整两Theta核
 
 R490/492原C26/Θ全两输入、36维principal三张量、明确H5伴随及双单位反对称中央式全保frontier-before-r496。JC26′和JC3′严格非零，JCS′=−JS′，第二非齐次边际仍属辅助来源；原混A单位/两输出同时unit及全部卷积转置未消。
@@ -56,13 +58,13 @@ R490/492原C26/Θ全两输入、36维principal三张量、明确H5伴随及双�
 
 旧原常数/成本/每条carry全保frontier-before-r501及open-before-r496。p=6s−1>83，L=2s+ell、1≤ell<s−13；M=c*U0m13J保P134/U0/charge40/十三自由行及两13行carry。真G2=C2(J)/Hbar，第三核相对K2(J)。cube t^rF³Q须r≥1、r+2h≥s、r+h≥ell、k=2h+r−s<min(s−h,ell,h)。
 R479原M首提升JbarR+J(P0)/p=w^(s−13)(B0+εB1)，同一R唯一给B0/B1；5/−2安全窗h+k<s−13、r>2k+13，carry能消−2。R481全部p³/低ell缺行/两次s移位/高尾及同一R到G2保留，不能用环境尾秩代真余核。
-R473/485/486三源规范化、10980conductor、最小22权纯角及13权清极保归档；原式保M EΘ和M ceil(EΘ/68)，单齐次Smith0/1/2、混权primitive第三核仍开。全D/q严格aI+2bI<3（或三源版）未付，来源乘子无自动中央零。
+R473/485/486的10980conductor/22纯角/13清极、真实M EΘ及ceil(EΘ/68)成本、原单齐次Smith与primitive混权第三核全保归档；全D/q严格门仍未付，乘子无自动中央零。
 R489/491原Gauss同预算因子整提升消双jet仿射类，真左行仍筛全部原列；两顶极a_(−N′)−(2/5)u0(−1)^h b_(−V′)、J forcing/ξ、M carry及d2未消。
 R495十九吹起χ=−KC≥2b、κ=C²≥2b−2、H1(mC)=0及同预算整个3C已付。R498全部Jbar高块Iη=(t^(s−r),t^max(ell−r,0)(ζ−η)²)、真实低行和KX|3C再筛全原列已付；A−2ηB正则仅给低于首共振的ODE，联合jet界保原文。
 
 R502原低ell≤r<h、k<ell全首Bockstein保整个V=d^-C_DQ(F/ζ)^3、η=t^hu+pξ和b_s=(t/w)^s。rawζ4=0但ζ3活；V1在r>2k可读，全Q逆只消EQ项。真行完整配对保第一carry、3Res(e³ξA)、法向/C混合及低行高尾；M另投π并保13/26行，无非零声称。
 
-R505将整个ξ向量准确识别为3Tβcont(F)：实际一倍截面格H1和接触矩阵Eq、q=h−k，T是原第二块q行尾嵌入；全三块交换Jbarι=T Eqbar。接触对偶H0(C,KX|C(qP))，真行A层配对3ResAe³ξ。q<χ时真实同预算F²H修正吸收整个ξ；q=χ及高b区未覆盖，barT可能有核，carry/低行高尾及M/d2未消。实际高轴从s−3起，整个接触矩阵不变。
+R505完整ξ=3Tβcont(F)，q=h−k；真实一倍格/接触Eq及全三块Jbarι=T Eqbar已付。对偶H0(C,KX|C(qP))，真A配3ResAe³ξ；q<χ由同预算F²H吸收全ξ，等号/高b未覆盖，barT核及carry/低尾/M/d2均保。已付s−3高轴不改此短矩阵。
 
 ## 其他支线及继续顺序
 

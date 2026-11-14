@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R504：原两条十八度轴、六十五度整核及完整矩形](results/R504-original-two-axis65-core-and-complete-rectangles.md)：原半系数R方向在整个S260上以odd65绝对锚付核−χ65P260，全部十六中心给原四态准确符号；与C完整双深矩形、两相反返回的真实三层管及所有Y移动全付。运输回原五sigma给新的65度scalar方向，保原独立自由sigma和全部伴随，未删除混管补域。
+
 - [R506：原反射轴的整个四度核心与完整W/C矩形](results/R506-original-reflection-axis-four-core-and-complete-w-c-rectangles.md)：原半系数C的实际二重覆盖、完整五伴随与sigma绝对锚付整个S4核心为真实反射U；四态diag(+,+,−,−)，与旧W构成任意独立深度的全联合。第一Y移动及CT=ω²ξ4准确保持，未将C误认纯Y伴随或遗漏压缩前条件。
 
 - [R508：原压深词的全部像格及保Y返回分类](results/R508-original-depth-word-lattices-and-y-fixed-returns.md)：同一三输入四条真实scalar轴的相邻正交约简给全长Smith与像格唯一性，PGL两生成自由；保持自由sigma和物理Y的正词仅原V幂，同缩Y也只有旧正交对角返回。全词域来源公式及所有移动测试保留，不能用相同来源标量删除不同域。
