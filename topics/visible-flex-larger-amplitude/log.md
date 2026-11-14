@@ -547,3 +547,7 @@ small_core_resonance新源与接口冻结，保原699/完整scalar三控制/真1
 
 真实3次warm下降/原FD过，但原col仅到.00711054731，alpha2^-14/2^-15/2^-15，不能冒已近原容差。首次H首项4.176e−17真native在iteration0 norm1.3414e7/chartCond1.331e60、10trial全guard拒，尚未prefix inner/newband，无成功新H/J/audit。原artifact14116526155及所有限额内字节由root补出版，全部来源/SHA/状态见actual-trust-warm-and-tiny-height-native-failure。
 bot发布只因并发main CAS拒绝被漏分类而终止；已补明确cannot-lock-ref/is-at/but-expected形态，保持立即普通rebase/push循环。没有强推/改科学数据/降低门。原三数值源冻结，继续实际RMS可行方向和native冷启动两处阻断。
+
+### 2026-11-14 13:53 UTC — request18 continues the exact actual warm without repeating native failure
+
+据实际17的LSMR80上限/normal residual及turn interval473 RMS β²边界，只接实际warm003一模型、LSMR200、原规则延续λ270；workflow逐项核9个原producer SHA，原699/全频/真零J affine/完整真实域/merit不改，新warm再实做原FD。新增trustresume lane但不进入原native/fullDN；若仍tiny步或域余量耗尽，不能继续盲堆模型。冷尾无J初残差probe独立准备。原数值3源未改，尚无本request实际结果。

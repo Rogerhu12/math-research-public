@@ -11,7 +11,7 @@ on:
         description: Actual numerical calculation
         type: choice
         default: all
-        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck, coupling112trust]
+        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck, coupling112trust, trustresume]
 
 permissions:
   contents: write
@@ -39,7 +39,7 @@ jobs:
           python - <<'PYLANES'
           import json, os
           from pathlib import Path
-          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust'}
+          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume'}
           if os.environ['EVENT_NAME'] == 'workflow_dispatch':
               selected = os.environ['DISPATCH_LANE'] or 'all'
               lanes = ['free3', 'geometry', 'coupling', 'tailzero', 'cardinal'] if selected == 'all' else [selected]
@@ -92,6 +92,7 @@ jobs:
             /topics/visible-flex-larger-amplitude/notes/2026-11-14-GW-cusp-compatibility-packet/
             /topics/visible-flex-larger-amplitude/notes/2026-11-14-stage28-original-rk48-input/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43598917532-1-coupling112trust/constrained-warm/warm-003.json.gz
             /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-tailzero112/zero-H-T112/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/banded-linear/factor-001-first-step.json.gz
@@ -123,7 +124,7 @@ jobs:
         with:
           python-version: '3.12.14'
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
-        if: matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck'
+        if: matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'trustresume'
         with:
           node-version: '24.22.1'
       - run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
@@ -240,7 +241,7 @@ jobs:
             --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
             --node-heap 6144 --out "$VISIBLE_OUT/boundary112-response"
       - name: Restore the actual completed M112 preparation and full boundary response
-        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge' || matrix.lane == 'coupling112trust'
+        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge' || matrix.lane == 'coupling112trust' || matrix.lane == 'trustresume'
         run: |
           export PREPARED112="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112"
           python - <<'PY112'
@@ -260,18 +261,48 @@ jobs:
           cp "$PREPARED112/boundary112-response/response-check.json" "$VISIBLE_OUT/boundary112-response/response-check.json"
           cp "$PREPARED112/T112-config.json" "$VISIBLE_OUT/T112-config.json"
       - name: Construct an unaccepted complete warm with exact constraints and positive damping
-        if: matrix.lane == 'coupling112trust'
+        if: matrix.lane == 'coupling112trust' || matrix.lane == 'trustresume'
         timeout-minutes: 30
         run: |
           python -m py_compile \
             "$VISIBLE_COMPUTATIONS/geometry_20261114_constrained_collocation.py" \
             "$VISIBLE_COMPUTATIONS/geometry_20261114_constrained_trust_warm.py" \
             "$VISIBLE_COMPUTATIONS/geometry_20261114_constrained_trust_response.py"
+          WARM_ARGUMENTS=(--iterations 3 --lsmr-iterations 80 --damping 1)
+          if [ "${{ matrix.lane }}" = trustresume ]; then
+            export VISIBLE_RESUME_WARM="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43598917532-1-coupling112trust/constrained-warm/warm-003.json.gz"
+            python - <<'PYRESUME'
+          import gzip, hashlib, json, os
+          from pathlib import Path
+          path = Path(os.environ['VISIBLE_RESUME_WARM'])
+          digest = hashlib.sha256(path.read_bytes()).hexdigest()
+          if digest != '5d1c452291099ad18b1a619ba3794614b04a0c620b8ed0f28887a84731ef7886':
+              raise ValueError('Resume the exact actually decreased request17 warm')
+          record = json.loads(gzip.decompress(path.read_bytes()))
+          producers = record['optimization_warm']['source_sha256']
+          if len(producers) != 9:
+              raise ValueError('Retain the complete original producer ledger')
+          checked = {}
+          for name, expected in producers.items():
+              if Path(name).name != name:
+                  raise ValueError('The original producer must be one source filename')
+              actual = hashlib.sha256((Path(os.environ['VISIBLE_COMPUTATIONS'])/name).read_bytes()).hexdigest()
+              if actual != expected:
+                  raise ValueError('The actual warm producer changed: '+name)
+              checked[name] = actual
+          out = dict(actual_parent_run=43598917532, actual_parent_warm_sha256=digest,
+                     original_producer_sha256=checked, source_bytes_identical=True,
+                     scientific_execution_repository=os.environ['GITHUB_REPOSITORY'],
+                     current_run_id=os.environ['GITHUB_RUN_ID'], resume_warm_relabelled_accepted=False)
+          (Path(os.environ['VISIBLE_OUT'])/'resume-source-ledger.json').write_text(json.dumps(out,indent=2)+'\n')
+          PYRESUME
+            WARM_ARGUMENTS=(--resume "$VISIBLE_RESUME_WARM" --iterations 1 --lsmr-iterations 200 --damping 270)
+          fi
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_constrained_trust_warm.py" \
             --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_OUT/preparation112/prepared.json.gz" \
             --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
             --tail-config "$VISIBLE_OUT/T112-config.json" --out "$VISIBLE_OUT/constrained-warm" \
-            --iterations 3 --lsmr-iterations 80 --damping 1 --damping-attempts 5 \
+            "${WARM_ARGUMENTS[@]}" --damping-attempts 5 \
             --line-search-steps 17 --budget-seconds 1200 --jac-workers 2 --angles 4096
           python - <<'PYWARM'
           import hashlib, json, os
@@ -291,7 +322,7 @@ jobs:
           print('Preserved unaccepted actual warm: '+name)
           PYWARM
       - name: Recheck all physical boundary derivatives on the actual decreased warm
-        if: matrix.lane == 'coupling112trust'
+        if: matrix.lane == 'coupling112trust' || matrix.lane == 'trustresume'
         timeout-minutes: 25
         run: |
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_constrained_trust_response.py" \
@@ -299,7 +330,7 @@ jobs:
             --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
             --tail-config "$VISIBLE_OUT/T112-config.json" --out "$VISIBLE_OUT/physical-response" --angles 4096
       - name: Preserve the actual warm and derivative receipt before the native tail solve
-        if: always() && matrix.lane == 'coupling112trust'
+        if: always() && (matrix.lane == 'coupling112trust' || matrix.lane == 'trustresume')
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: visible-mainline-warm-${{ matrix.lane }}-${{ github.run_id }}-${{ github.run_attempt }}
