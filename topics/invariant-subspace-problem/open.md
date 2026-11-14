@@ -27,6 +27,8 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 **star当前解析接口：** [固定内峰](notes/2026-11-14-balanced-star-macroscopic-interior-full-phase-projection-limit-789f-next.md)全源谱趋1^(m−1),0；[严格端峰](notes/2026-11-14-balanced-star-strict-endpoint-full-phase-decay-789f-next.md)全源Φ=O(Q⁻²)。[临界窗口维数无关收缩](notes/2026-11-14-balanced-star-dimension-free-transition-contraction-789f-next.md)在固定正有界x、χ≥χ−、|λ|≤Λ内，对任意m/qi≥1给共同Q0、γ，Q≥Q0真实Φ≤(1−γ)I；全single亦包括。窗口外χ→0/无界权/漂移变尺度及一般全源仍开；曲率点态负指数≤3不代积分回归。
 
+[中央退化全有限Q](notes/2026-11-14-balanced-star-finite-central-degenerate-window-uniform-phase-bound-789f-next.md)已付有界正权、累计平方偏差S和总漂移D同时有界时的显式统一κ，任意组数/单个位/固定离群权均包括。继续S大与漂移变尺度、近端内峰及无界外场。
+
 ## 当前接口一：原 Haar 慢符号的正常湮灭者
 
 原定义、全部已排范围和未付预算保[压缩前完整接口](notes/2026-11-14-open-before-balanced-star-789f.md)。S_N=Σ(j+1)⁻²N_j、S_Y=Σ(j+1)⁻²N_j(I+N_j)⁻¹在全H单射稠密；未知不变限制/有限放大子商上仍开。强主理想失败等价存在正有限秩Haar正常态ρ使φρ(SAcal)=0，不能免费降秩一或以WOT/SOT代ultraweak。
