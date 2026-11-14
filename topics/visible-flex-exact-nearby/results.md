@@ -543,3 +543,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### 原生缺失64点的最小补证（2026-11-14 20:01:43 UTC）
 
 [合同](notes/2026-11-14-R133-missing-native-point-Hessian-contract.md) 随 source5845549d…、CIa934d2ad…、193pin manifest a4ca896c…和公开workflow独立推送。原189科学pins零改，root核全部源码/CI/flow/清单，tail核数学和冻结provider。只有64真正缺失原生点及其新point-model residual/16 local可新算；原Taylor完整证书和fallback保留，所有物理14费/6边界、独立mean与未知输入算子不变。发布本身不授数值结论。
+
+### Taylor-Hessian同一Z实际Green结果（2026-11-14 20:02:37 UTC）
+
+[完整证据与分量](results/R133-supplement-actual-Taylor-Hessian-same-Z-Green.md)：43634452052 child0/8门，child wall10.000629s/数学4.227547s；nativead04e1d9…、processa77735a4…、summaryd10b544a…。全6391片/原5970接口与waist/独立mean保留；负窗<.010057999485369，全内<.021467983449804，尚未达到1/200。只改变合法完整右通道，未知误差算子与全high/真实cap交叉仍未付。root亲核source/native/最终279pin身份及5次pull空diff。

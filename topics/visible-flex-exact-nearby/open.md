@@ -243,3 +243,7 @@ A1–18保完整输入/输出/mean及真ray，可用同strip复sup替代旧C2符
 ### 只补原先未保存的64原生中点（2026-11-14 20:01:43 UTC）
 
 已审并推 [原生中点合同](notes/2026-11-14-R133-missing-native-point-Hessian-contract.md) 和193pin五件。固定同一目标、同一物理η₀/ν和64准确中点；新点 jets 与旧whole及已成Taylor enclosure求交，空交即失败，whole三阶jet原样保。逐点、逐residual、逐local保存成功prefix；已成完整child0即使publication失败也直接复用。原7908 whole、7844 residual、64 Taylor及1325未受影响local全不重算。已先安装287pin Green后继，成功后自动消费同一Z真实97切口；仍须实际核验是否达到1/200。
+
+### Taylor→Green实际闭合到有限193，误差门仍欠（2026-11-14 20:02:37 UTC）
+
+[实际报告](results/R133-supplement-actual-Taylor-Hessian-same-Z-Green.md)：公开43634452052，child0/8门，完整6391原profiles只重标右通道。负窗ordinary pair误差上界<.010057999485369，仍高于1/200；其中旧body<.003051713267954，right<.007006286192183。真97负荷<2.110928298989e−6、独立mean及known high全保。五次实际pull/两README空diff已root核。继续已启动64原生point，不将完成上界核验当作达标，也不把finite193当full PDE。
