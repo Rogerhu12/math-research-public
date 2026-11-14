@@ -4,29 +4,22 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：8a59ebd9d241bf424e9ba1c272e22b76264a034c
-最近本地pull：2026-11-15 01:26:50 Asia/Taipei，main=8a59ebd9d241bf424e9ba1c272e22b76264a034c，两README blob均未变。终端已恢复，原blob:none部分克隆继续；至少每小时实际pull --rebase及每次推前pull，检查两README差异。旧本地R716重复提交与现行证明逐字相同，保留分支后跳过重复元数据，详before-R741归档。
+已读规则提交：c12cb6cda69d4489e8c6a4c18aff0fa141c393f7
+最近本地pull：2026-11-15 01:33:27 Asia/Taipei，main=c12cb6cda69d4489e8c6a4c18aff0fa141c393f7，两README blob均未变。终端已恢复，原blob:none部分克隆继续；至少每小时实际pull --rebase及每次推前pull，检查两README差异。旧本地R716重复提交与现行证明逐字相同，保留分支后跳过重复元数据，详before-R741归档。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权；非快进立即pull --rebase重推。PAT仅CLI，根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB，大可复现中间量只artifact。日志本题≤5行；不设独立审计/冻结审批门。
 
-本次前完整归档[before-R758](notes/2026-11-14-public-handoff-before-R758.md)，内接before-R757及更早链；[open完整归档](notes/2026-11-14-open-before-R742.md)保留全部旧公式。已成计算不得为包装重跑。旧未推成果按原记录重做，不依赖遗失对象。
+本次前完整归档[before-R760](notes/2026-11-14-public-handoff-before-R760.md)，内接before-R758及更早链；[open完整归档](notes/2026-11-14-open-before-R742.md)保留全部旧公式。已成计算不得为包装重跑。旧未推成果按原记录重做，不依赖遗失对象。
 
 ## 当前执行
 
-- **R742已成**原全部允许flat jets同处p未分歧CM域，M2非零时η∈Z、η≥−2、原P偶赋值；大p某本原η≤1且完整p7等距。**R744已成**整个原p4闭盘完整Weierstrass因子d≤η+2+μ≤3、Σ(vs−4)=−μ；center简单、非center字段次数≤3，Qp根只可深度4/5/6。真正W系数和高度仍未出；全尾不等于截断，原KS仅非零。
-- **R747已成**原全局T_h∈F0、T_h²=2N_hP_h，保正α与全部signed conjugates/整分母；完整证明/SHA见R747与归档。
-- **R745原p41 Hodge输入已成**run43616027318/source1768f05c524e2e3d2e01822c0a4f376382c5e608；rank6、ℓ739/minor407、87961端点，0.654秒。保αs、CRT6逆元、ζ²一次与微分246；两表只artifact、cert与全SHA见R745及before-R751。
-- **R748已正式完成**run43617493590/source b401479892e81ed76c587da52305606100ed88a7；T=(10177+16725β−16710β²−8550β³+4754β⁴+1425β⁵)/5043，原signed共轭+−+−++；六Hodge首系数准确，ω0首项43719/(7·41²)给完整v41(s)>3仅center/41⁴等距。core0.397秒，cert SHA56418d0cef84554584d8777aed4acb54a2dc57bbf95cc38a1bb42b12140769f3；零旧fiber/AFE/DFT。实际q/β/高度未出，同h两Cartier单位仍开。
-- **R750已成**完整tame与反射保全j的αM_(3j−1)/(1−ζ²)∈F0，任意非零jet比值在F0；含M2零，不冒推完整Weierstrass系数global。细节见R750/归档。
-
-- **R752/R755已成**保s_act二阶σ₂与a₂=σ₂−(1+i)/2，I₀=ε(21σ₂+2b(J−18))选择无关。完整negative adjoint y=ell_cyc−2iκq、q quadratic/cubic及2处cochain消项给I₀=−〈w,Sflat〉；原Aα的Iα=−〈w,Sα〉=ε(21σ₂+2bJ)，I₀=Iα+7εb。未除b、未抹σ₂，完整proof/SHA见R752/R755。实际Iα/σ₂/b/J仍未知，原三Norm ordinary比较由R756继续。
-
-- **R751已证明**原边ρ(g_p⁻¹)/完整tame和CRT给40个λ_h(a/p)，固定Q=(α,+√3)核含逆θ及正ξ相位；携权μ6和、Miller正ξ与原实目标−ζ运输后，全部周期准确在旧K(U)次数280。42列/800闭链有限Hom核接口完整；证明SHA0f12e10bb6074ec2fdf64bc266d7414ea726564990e92533b767177eb2170e87。**R754实际run43620862489执行中**，source b36d2c58b39f42a694236d48f64444bb6fe1d0af，core f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251；复用R735/738/745。首run43620409119仅整数解析限失败，已修正/保存receipt，方法SHA见request。40加法/819边/4800×42核/800×6全链验证，80分钟完整断点；实际period/核未返回，R759继续完整整数格及原map degree。
-
-- **R753/R757已成**所有p5mod6原ψp(x)≡pΣ_(j=0)^M binom(2j,j)/[4^j(6j+1)]·x^(3(M−j)) modp²，M=(p²−1)/6。唯一末项Z_M赋值−1单独保留，原三挠点常数推出binom(2M,M)≡−p16^M modp³；R753余N个x^(3pℓ)方向现全部明确且为单位。R757证明SHA60ace5d78115eb690f249bfa784b4e068999ef8bc6904962e7dcb374ab8136dd；R760继续原O点σ临界精度桥，尚非C_p或同h两Cartier单位。
-
-- **R756已成**同一Z构造全ordinary三Norm导数cube，未除p。准确H¹(S,kerΓE_M)=k[T]/(N_T)，原U_Y=(s−1)Y全相位−4J·N_T+iD_T（不可漏−ij）；对应f=19X40+[(J+i/4)/v0−19v1/v0]X41，v0−13i。R700给E∩pU=pE，实际W_ij局部p可除性未验；原cocycle比较由R758完成，真实flat section仍须求。证明SHA6c70ca3a735748165774ffa645c0cfb625fd95a3677ce9e95fef75fab6941c6a。
-
-- **R758已成**原ordinary H¹(P,kerΓE)→H¹(P,E)自然同构，inverse后res_S给ψ；真实P-fixed y消全部j0歧义。ψ(ft)=X41、ψ(fs)=ibX41，ηα=[(s−1)Y]满足Xηα=19ψ(ft)，余差恰ψ(H¹P E)。原flat位移ηfl−ηα=−8iψ(ft)；仍缺p-flat选定section/J的socle坐标。证明SHA d02d7048fe8aa11e338988226312d65a9867a28433f8aa57afb3b1bf2f410540。
+- **原Abel已证接口**：R742全部允许jets同一p未分歧CM域，η整数≥−2、P偶赋值，大p某η≤1与完整p7等距。R744整个p4盘的完整W次数d≤η+2+μ≤3、Σ(vs−4)=−μ，Qp非中心根只可能深度4/5/6；实际W及高度仍缺，不能以截断代全尾或预设KS单位。
+- **R745/R747/R748/R750已成**：原六Q Hodge输入run43616027318；原signed T及六首系数run43617493590/sourceb401479892e81ed76c587da52305606100ed88a7，signed共轭+−+−++，T精确多项式/全部SHA见R748。实际ω0首项43719/(7·41²)给整个v41(s)>3仅center及41⁴等距；cert56418d0cef84554584d8777aed4acb54a2dc57bbf95cc38a1bb42b12140769f3。全j αM_(3j−1)/(1−ζ²)∈F0及任意非零jet比值global已证，未冒推完整W系数global或高度。
+- **R751已证、R754执行中**：原逆θ/正ξ/携权μ6和/原实目标−ζ运输把原40加法周期放进旧K(U)次数280。R754实际run43620862489/sourceb36d2c58b39f42a694236d48f64444bb6fe1d0af，core f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251。复用R735/738/745；40加法/819边/4800×42核及800×6全链验证，80分钟完整断点。首run43620409119仅旧15726位整数解析限失败，已修正，receipt/log保留；尚无实际period/核结论。
+- **R759工程草稿备齐**：完整1600行HNF双包含给全部整数周期格，原双图/PD已核Ω是Manin同调交配，degree=−aᵀΩ⁻¹b。精确LLL选原12映射，D=m(a)0/deg820给有界RR；cusp扩域先平移再c0基点下降已明确。待R754真成功产物/SHA，未预称次数、q函数、β或高度。
+- **R753/R757已成**：所有p5mod6原ψp≡pΣ_j binom(2j,j)x^(3(M−j))/[4^j(6j+1)] modp²，M=(p²−1)/6；唯一末项极点保留，原三挠点常数给binom(2M,M)≡−p16^M modp³，N个原Frobenius方向全部单位。SHA见R757/归档，不能代原C_p。
+- **R760已成**：原O/c0规范、w≤N时Qp=pZ−p³ZL/6 modp⁵，Dp=6(pZ−Qp)/(p³Z)整且≡L modp²；原ψp最高N+1系数modp⁴恢复T及全部h的U_h/V_h。准确三单位判据P_(h−1)(1/s)U_hV_h≠0，原R735模数直接q_j=−(−4)^j d_j。证明SHA c0998fe0b367376c8b0108be828c2daf807cac216987d0727243b1eab3d7f0af；同h非零机制仍由cartier继续，非单位结论。
+- **R752/R755已成**：保σ₂/a₂，I0=ε(21σ₂+2b(J−18))=−〈w,Sflat〉；原Aα的Iα=ε(21σ₂+2bJ)=−〈w,Sα〉，I0=Iα+7εb。完整negative adjoint、q quadratic/cubic与2处cochain均核；reference9ε不能消未知b。真正Iα/σ₂/J/b未求，R723仍只留真桥。
+- **R756/R758已成**：原Z三Norm给全ordinary导数cube，H¹(S,kerΓE)=k[X]/X42，原ηα全相位−4J·N_T+iD_T、首19X40与下一含J。自然H¹P kerΓE≅H¹P E再res_S给ψ(ft)=X41、ψ(fs)=ibX41；Xηα=19ψ(ft)，flat位移−8iψ(ft)。实际E∩pU=pE，真正p-flat section尚缺；unit正在R761展开原Γ/S ordinary交换和WΓS/p，未正式宣称完成。完整证明/SHA见R756/R758及归档。
 
 ## 原模型、拓扑、非消失
 

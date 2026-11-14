@@ -331,20 +331,7 @@ $\langle[D_{0,p}],(d_0)_p\rangle=26\varepsilon b=\varepsilon(\mathcal L-31)$。
 **R736（已证明）**：同原p43/q标记，NS kerΓE_M=(π,N_T)kerΓE_N等于全部原q直接相位核。原Fr=s32给s在μp²上指数1+2p及rμ(ct)=ell(ut)，R207实一致化元保含极点双Norm相位零。故存在原divY=D_Tq、NΓY=NSY=D_TXt；Z=Xt−(t−1)Y同时NΓ/NS/NT=Aα，原直接相位rμ((s−1)Y)=−4J，flat=−4(J−18)。完整普通校正已证，真正与R720原b的T/Γ链及J/b数值仍缺。详[R736](results/R736-original-three-norm-exchange-and-minus-four-moment-phase.md)。
 
 
-**R735（已完成原模型输入）**：公开run43608152850首次生成原p41同一b=r0⁶的完整七次F41，在原280维除法商代数完整核F41(b)=0、七个低阶系数v41=1、disc41=6和F41'逆。原b是唯一实正根，目标Néron格b^j/F41'(b)ω已具体，本原仍投e42；完整小cert SHA752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574。原q函数/β/Manin尺度/高度仍待继续，原4920coset/800闭周期输入已由R738完成，继续原Hodge/adelic矩阵，勿重算模型。详[R735](results/R735-exact-original-p41-CM-model-and-Neron-input.md)。
-
-
-**R738（原带标记闭周期输入已完成）**：公开run43612108090在原六层Q8图式和同一p项链上生成4920陪集及每条整SL2Z代表；g400、20个宽246尖点、819整数相对基、800整数闭基与交配det1。原c1唯一实标签C为4424，deck[4424,0,1258]对应[1,ζ,ζ²]；c0三轨道是同一个粗点。两完整大表只artifact，cert SHAa853f36bf5d6f7d238e805a5c2134b2f7b3db17528195d56d980e66c9c769009。原正CM因子的Hodge/完整adelic表现由R745完成；真正待继续的是其周期求值、原q函数/β/高度。详[R738](results/R738-certified-original-p41-period-input.md)。
-
-
-**R745（原有理Hodge与finite adelic输入已完成）**：
-[正式结论](results/R745-certified-original-p41-Hodge-and-adelic-input.md)绑定公开run43616027318，
-原六个Q微分的800项、40p平均坐标/完整N、80平移及819边的87961端点均已生成。
-精确minor用ℓ739、ξ538、s98，行[1,4,7,13,16,19]的det407证明rank6；核心0.654秒。
-保原αs、CRT6逆元、ζ² transport一次及微分246，复用R738闭链且未重算R735模型。
-cert SHA7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be，
-两张完整表78852/658317B只artifact。真正待继续是同一有限表示压缩后的CM周期值、
-原Hom格/q函数/β及高度；Hodge基不替代这些输入。
+**R735/R738/R745（原p41计算输入均已完成）**：原目标七次F41、disc41=6与逆different格见[R735](results/R735-exact-original-p41-CM-model-and-Neron-input.md)，run43608152850；原4920cosets/819相对/800闭基/交配det1、c1=4424与c0轨道见[R738](results/R738-certified-original-p41-period-input.md)，run43612108090；原六Q Hodge的800项、40p向量/完整N、80平移与87961端点见[R745](results/R745-certified-original-p41-Hodge-and-adelic-input.md)，run43616027318。原αs、CRT6逆元、ζ²一次及微分246保留。全部小cert/源SHA在三证明，大表仅artifact；完整旧状态另存[before-R760](notes/2026-11-14-open-before-R760.md)，不重算以上输入。当前真正待求原period/整数Hom格/映射/q/β及高度。
 
 
 **R748（原signed CM根、六Hodge首系数及完整局部后果已完成）**：[正式证明](results/R748-original-signed-real-CM-root-and-rational-Hodge-first-jet.md)绑定公开run43617493590，严格CM球与exact square确定T=(10177+16725β−16710β²−8550β³+4754β⁴+1425β⁵)/5043和原六signed共轭+−+−++。实际ω0的coarse首系数43719/(7·41²)，完整R730/R750尾给v41(a−1)>3仅center，闭41⁴盘归一为t+41H(t)等距；六首系数、全部严格球/来源SHA完整。仍非高度共同无根或正秩有理点排除，原period/Hom/q/β继续。
@@ -365,7 +352,10 @@ cert SHA7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be，
 **R756（原ordinary三Norm整格与准确cohomology已证明）**：[完整证明](results/R756-original-three-norm-ordinary-lattice-and-exact-scalar-cohomology.md)用同一Z移除全部divisor，构造ordinary U/V_i/W_ij/H及精确边界，尚未任意除p。原H¹(S,kerΓE_M)=k[T]/(N_T)，U_Y=(s−1)Y全q向量−4J·N_T+iD_T，标记class首系数19、下一系数保J；原flat仅J→J−18。实际E∩pU=pE把W_ij的ordinary可除性转成原p局部测试，三Norm本身不足；继续真实flat section/Iα与σ₂，未将模块形状认作b。
 
 
-**R757（原ψp模p²全部系数已证明）**：[完整证明](results/R757-full-original-division-polynomial-mod-p2-and-Frobenius-constant-units.md)对每个p5mod6给ψp≡pΣ_j binom(2j,j)x^(3(M−j))/[4^j(6j+1)] modp²，M=(p²−1)/6；最高Z_M极点不忽略。原形式对数/σ精确截断确定R753全部N个Frobenius方向且均为单位，常数端点推出binom(2M,M)≡−p16^M modp³。原临界T·C/T·Z³系数在此精度被抹掉，R760继续原σ的更高精度桥；同h两Cartier单位与高度仍开。
+**R757（原ψp模p²全部系数已证明）**：[完整证明](results/R757-full-original-division-polynomial-mod-p2-and-Frobenius-constant-units.md)对每个p5mod6给ψp≡pΣ_j binom(2j,j)x^(3(M−j))/[4^j(6j+1)] modp²，M=(p²−1)/6；最高Z_M极点不忽略。原形式对数/σ精确截断确定R753全部N个Frobenius方向且均为单位，常数端点推出binom(2M,M)≡−p16^M modp³。原临界T·C/T·Z³系数在此精度被抹掉，下文R760已给原σ更高精度桥；同h两Cartier单位与高度仍开。
 
 
 **R758（原ordinary自然cocycle比较已证明）**：[完整证明](results/R758-natural-ordinary-cocycle-map-and-the-original-moment-torsor.md)以实际P-fixed y和全部整格歧义给H¹(P,kerΓE)≅H¹(P,E)，其inverse后res_S是自然ψ。逐原链得到ψ(ft)=X41、ψ(fs)=ibX41；原ηα满足Xηα=19ψ(ft)，全部余差恰ψ(H¹P E)，flat准确位移−8iψ(ft)。此为固定原主化的antiderivative torsor，J的socle坐标不能任意选；下一步须实际p-flat section/ordinary p除性及Iα、σ₂求值。
+
+
+**R760（原临界sigma的准确四位除法精度接口已证明）**：[完整证明](results/R760-original-critical-sigma-jets-from-four-digit-division-data.md)在原O点/c=0及w≤N给Qp=pZ−p³ZL/6 modp⁵，逐项可除p³的Dp≡L modp²；原最高N+1系数modp⁴确定原T。全部h同一微分/普通阶乘/六挠规范给U_h、V_h及P_(h−1)(1/s)U_hV_h≠0的真实三单位判据；原R735模数用q_j=−(−4)^j d_j直接复用。仍须证明充分大p存在同一真本原h非零，Gaussian修改不保临界截面，不能以ψ单位或异标签值拼接。
