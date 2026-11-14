@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：fa2c526d7a39aa8d190e57a3d9b7410e3c111386；2026-11-14 07:54:02 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：f06e3f2583a1f0fa18eaa070e2b3874efd333551；2026-11-14 07:59:23 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。02776e4cd9e08c608f6c806bd1095b3d86453eb4持续执行规则、41bd74e09ab69b38abb61d66c4339a12f0fb7de5日志规则已读；只写课题log，每轮≤5行，不写/归档根LOG。
@@ -14,9 +14,9 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–452已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
+R1–363、R365–453已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
 当前路径`/workspace/scratch/4fe3fb9f2a50/math-research-public`，main部分/稀疏克隆，仅检出本课题。迁入快照含旧R1–436；旧库未推R437、R438及两批完整计算已搬入并发布，旧路径只读历史。
-迁入后的R437–450均已逐条推送，完整提交记录见本课题log；最近R448=d3b46744f179、R447=0574420e8ec8、R449=f32cf015bf32、R450=add08fd0e283。R451已推4a80fc15eb9c；R452在本次登记，R453/R454正在写。theta续D+原行及保U两管；literature续真实Uunit抽回和纯残余Z−33H轴；deep付原T/V计算格的一次返回与degree2连接，须保完整预算/中央基准。
+迁入后的R437–450均已逐条推送，完整提交记录见本课题log；最近R448=d3b46744f179、R447=0574420e8ec8、R449=f32cf015bf32、R450=add08fd0e283。R451已推4a80fc15eb9c，R452已推e436b217ed51；R453本次登记，R454/R455正在写。theta付纯残余Z−33H轴及原全部缩放测试；literature付保持该轴的正Tc次数原S抽回；deep续次数二连接下真正相对第二余核，保完整中央基准。
 
 ## 固定对象、完整标准与可恢复检查点
 
@@ -42,7 +42,7 @@ R451真L+=L0+(L1−LR)/2有D特征+且忘U principal仍K0；Γ+的U-core q=−η
 
 R452把R450真正限制到Uunit：Bp=M0+ηλM1diag(κ^j)为原整可逆微扰，有限逆给三个指定测试1_Uunit Pk,p，完整抽S/H3/H5。S测试与hS差p，新logc质量βc=−ηλe6ᵀM1Δκc∈p保留，首五阶仍unit，同D_n每正偶n仍v5n。用一次A核送入Ψ0的真第一层单位carry：整个同测试=λJS′，内部斜管=λC×_n、v5n；所有补域在同一来源和同一测试中保留。
 
-R453待付T/V计算格的一次原返回及degree2连接，不能提前记作全局斜率改善。R454待付纯残余Vres=Z−33H的S33⊗S18480 scalar core及halfchar；两sigma总norm33真锚可定χ33²=1，原斜管U−280X=9Vres，须保所有第二测试在缩放后的参数。
+R453已付完整T/V计算格及一次p饱和原返回：m=ceil(6J/47)、c=12m≤36、物理w^(3m)全单位及至多18条carry均保；原两来源次数二连接全部十二类余量一，k次总D+2k+c，真K2/d2按整交换图运输。原S/T完整中央不变，全局门仍aI+2bI<3；新增角列和来源饱和未赋物理相对p²类。R454待付纯残余Vres=Z−33H的S33⊗S18480 scalar core及halfchar；两sigma总norm33真锚可定χ33²=1，原斜管U−280X=9Vres，须保所有第二测试在缩放后的参数。
 
 ## 当前惰性原矩阵与其余开放线
 

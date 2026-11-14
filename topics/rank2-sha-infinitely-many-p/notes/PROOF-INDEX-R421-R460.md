@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R453：一次整返回与完整两来源次数二连接](../results/R453-single-integral-return-and-degree-two-two-source-connection.md)：原T/V计算格包含全部原T列，固定p饱和乘子一次返回原格；十二类连接均有一角余量，反复k次成本D+2k+36，原P134/U0及首次提升完整运输。全量词门槛仍aI+2bI<3，不预付新中央零或相对p²类。
+
 - [R452：真U单位算术抽回与同测试第一层carry管](../results/R452-original-companion-unit-arithmetic-extraction-and-first-carry-tube.md)：真实Uunit六矩是已付满秩矩阵的整微扰，有限逆指定S/两参考测试；新的logc质量保留而首五阶仍unit。一次A运输把同非零管送进Ψ0第一层carry，整个同测试回λJS′，内部补域准确保留。
 
 - [R451：真实D正来源与全部U环带的原零传播](../results/R451-original-dplus-source-and-complete-u-shell-zero-propagation.md)：L+=L0+(L1−LR)/2同时保原principal中央与残余D正特征；联合U scalar core将原JS′零传入每个U深域/环带，完整X测试全保。同一真实管每n≥1准确v5n，余下补域全部位于Y/U单位内，斜管和W/V限制未删。
