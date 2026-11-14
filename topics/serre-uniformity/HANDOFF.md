@@ -4,8 +4,8 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：c04f67b114b8dae9b15cbf09f035a8e6c39e9f25
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions各发布前实际pull并核两README，最近R717四片于13:10UTC前完成发布，无差异。最近GitHub集成核查：2026-11-14 13:43:16 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
+已读规则提交：5727b64f3343243879cde8bac5607a46dcd48c86
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions各发布前实际pull并核两README，最近R717四片于13:10UTC前完成发布，无差异。最近GitHub集成核查：2026-11-14 13:44:03 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
 
 仅公开Rogerhu12/math-research-public及其Actions。每结论单独推main已授权，禁强推；终端非快进立即pull --rebase重推。PAT仅CLI。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB、大中间量不入库。日志本题≤5行，改共享设施须说明。
 
@@ -35,6 +35,8 @@ R712完整LT/换参/两Fourier块及全尾已证；原M2下一位化为Dp=6F0/p�
 R593同η/cclear/ctriv与q项零；R690实际2处零，R694/R696校准点及候选3处零，故Ω_actual={0}，旧一般点Ω不可移植。R596线性项真log因子化；R634 CM外积消A高度矩阵但保ρ/η。R682给共同首阶，R703以6(g+g(Y))+8独立代数基和有限jet逆矩阵提取±2/L_a、±1/L_a²，完整相对全尾不含未知高度赋值。R716把γ纳入单极点空间，D4保四个±L_a^−2，有限完整关系矩阵不需预求γ；一般p实际模型/矩阵/规范前缀与候选排除仍缺。R703 h≥3完整闭盘，h4覆盖原候选；不以零数代统一无根。
 
 R721已证全p条件等距（排版统一为$公式，数学不变）：Cp和实际完整M2皆单位时，原I在v(s)>7/2仅中心零且v(I)=v(s)；I(p4u)/(p4b*)=(M2/(16b*))u+pH为Zp闭盘Tate自同构，原KS常数保留。若vM2=h≥0有限，则p^(h+4)深盘相应缩放等距；不排真实高度零。
+
+临界Cp全p单位仍缺：notes/critical-sigma-jet-parameter-boundary.md证明同一六同源/二挠点改Gaussian参数c时，Fp=0、F_(p+1)=6B恒单位而F_(p−1)(c)有根；不能仅由这些数据推原c=s处非零，未给原Cp反例。
 
 ## R717精确原范数与当前公开运行
 

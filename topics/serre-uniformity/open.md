@@ -201,3 +201,8 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 ### 原首矩的完整余数歧义已确定
 
 [重建笔记](notes/2026-11-14-r599-first-moment-normalization-reconstruction.md)已证明所有保持原div/Norm的见证为$X+(t-1)E$，余数全像为$I^2$，因此$J_\ell$是唯一剩余坐标。杀全部归一余数而允许Norm改普通基单位时，系数$c\equiv-J_\ell/(13i)$；实际$J_\ell$与原$b$的精确比较及数值仍缺。R717的137147整数trace认证已失败，原值未获；四有效bins及全部失败球继续复用诊断。
+
+
+### 临界sigma单位的参数路线边界
+
+[完整短证](notes/critical-sigma-jet-parameter-boundary.md)保持同一六同源与二挠点，仅变化Gaussian参数$c$：$F_p=0$、$F_{p+1}=6B$对所有$c$保持，而$F_{p-1}(c)$是次数$(p-1)/2$、首项单位的多项式，必有根。故这三项数据不能单独推出临界单位；实际$c=s$是否非零仍须原CM约束，未构造原$C_p$反例。

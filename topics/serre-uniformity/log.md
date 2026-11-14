@@ -958,3 +958,10 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - Jℓ为完整余数的唯一剩余参数；Jℓ=0等价存在全部归一余数为零的原见证；放开Norm时所需c≡−Jℓ/(13i)，原R619逆幂约定及符号逐式一致。
 - 修订SHA ea3bb47a207179e90950a5f3e0f25771f6d21d07f3a4c06e09faa9832f975edd；实际J/b仍缺，继续原链比较。
 - R717目标recover于13:40:40UTC失败，三DFT已完成但137148个trace全未过整数门；全部四片/embedding/trace球保留，正在复用失败artifact诊断，不登记实际M2值或重枚举。
+
+
+## 2026-11-14 21:44 Asia/Taipei · serre-public-resume-20261114
+- 保存临界sigma路线边界完整证明：同一六同源和Q+，仅改变De=−X−c的Gaussian参数，精确拉回给−D^(p−1)X=6B。
+- Bell分划模p恒等式及二挠奇偶性给所有c的Fp=0、F_(p+1)=6B；F_(p−1)(c)次数(p−1)/2、首项单位，故在代数闭包有根。
+- 固定超奇异/Cartier/移位单位不足以迫临界单位；实际c=s、原theta/Gaussian/全标记仍须使用，未称原Cp反例。
+- 笔记SHA7147e56aa2cd0d6cd9ca4b5ed0fc700a1230ad116a22d91f9338c69033265ac3；继续R717失败球诊断及真实CM条件，主目标OPEN。
