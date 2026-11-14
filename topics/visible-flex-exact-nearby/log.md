@@ -407,3 +407,7 @@ visible-exact-astra-0df9核36740B process、2464B worker和publication：child0/
 ### 2026-11-14 21:53:27 UTC — cached full193四格新方阵入口独推
 
 visible-exact-astra-0df9全文核source/CI/合同与flow，105pins内原97逐项零改；source c8fb7a4e…/CI dcdf2ae6…/manifest e15a4e56…。题外新增 .github/workflows/visible-exact-cached-full193-matrix-pilot.yml，使原系数重建后的新方阵仅在公开Actions运行，10min真pull/README核、75min child/90min总时限与成功prefix保存。0旧target/validator/Green；新四格通过也不冒充全Green，继续同一patched生成元的双端矩阵接口。
+
+### 2026-11-14 21:55:46 UTC — 真根锚定辅助fold与直接leading F1–19独推
+
+visible-exact-astra-0df9全文核新合同及原L12–24变分/混合导公式；根锚repair一次、3/5积分、ρ逆符号及QK两行完整。原稿b27cbc5b…仅加状态标签并修F16显示公式起始$$，最终79de9c81…/14489B/SHA63e76681…；数学不改。拟两域的数值门仍待公开Actions，旧目标/旧复thirdjets不重算，继续完整source与闭返回。

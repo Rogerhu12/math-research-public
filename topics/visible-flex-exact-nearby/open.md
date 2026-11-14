@@ -146,3 +146,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 完整193方阵四格pilot已部署，保留实际128方向
 
 [新矩阵合同](notes/2026-11-14-R133-cached-full193-matrix-directional-Green-contract.md)与105pin消费者已装，原97 pins逐项不变。只消费已成0/76/3300/5969四格准确Aref和完整误差；新I193双向degree24、多项式全连续残差/整格逆、端点inverse与128方向block。所有mean及primitive中间128mode保，大数组只存公开Actions artifact并保原run/attempt。当前待actual，未授5970全cover或方向Green；独立round的F/B只是近似逆，后继必须用同一patched F及真逆或支付完整差/跳。下一步执行后验G_L缺陷公式及真实径向核积分。
+
+### 锚定辅助fold与直接leading二阶合同已证，执行两成功复域
+
+[F1–19](results/R133-supplement-anchored-auxiliary-fold-and-direct-complex-leading-derivatives.md)把原准确root锚与已成complex thirdjets合用，按R=3Ra/4两case重付完整flow、Jacobian和inverse域，再用有限mixed jets直接付leading二阶，避免常数项的小域R^-2 Cauchy费用。拟域未先声明通过，phase继续最小scalar consumer。原base mean只加一次exact repair，方向用完整repaired Z[96]；原1079物理seam、全IJ/独立mean和外片L0w1继续保留。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **真根锚定的辅助fold与完整直接leading导数（F1–19）**：[证明](results/R133-supplement-anchored-auxiliary-fold-and-direct-complex-leading-derivatives.md)。利用原真根锚、完整δ均值和两已付复三阶域，给k/η相关缩域、A−a*的3/5径向费及完整flow/inverse门；直接支付leading全部二阶与QK完整forcing两行。只在原piece交内识别物理解，辅助零seam不删除全局原seams；新数值门待Actions。
+
 - **精确fold消去后六窗完整源的实际界**：[报告](results/R133-supplement-actual-exact-fold-cancelled-source-budgets.md)。公开43642808159 child0/8门，6scalar jets/4377新积分；全部旧profiles/tensors/1328矩阵moment/权和接缝0重算。最小窗负源<713579.527495、负primitive<108158.346702，最大窗负源<5093852.021530；完整mean/正collar和body分别保。此为完整upper改进，不授强返回或cutoff97。
 
 - **实际辅助复根域：两域通过、两域gap失败完整保留**：[报告](results/R133-supplement-actual-auxiliary-root-domains-and-complete-complex-third-jets.md)。43640181602真实child1，因为四域准则未全过；1e−4/5e−4各完整65+193与complex thirdjets已证，1e−3特征实部和2e−3曲率导数实部门未过。4域intrinsic/774原组件前缀与失败记录全保，0旧成功科学重算；用于后续新辅助fold。
