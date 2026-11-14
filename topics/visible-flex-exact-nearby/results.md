@@ -133,3 +133,7 @@
 ### R119 补充：无B损失的第三相位核与真实两phase控制曲线
 
 **已证明。** [T1–37完整解析构造](results/R119-supplement-exact-third-phase-kernel-and-local-two-phase-curve.md)保finite-e与全Δ，由原residual Wronskian准确得A g2>2^-85。三compact支集解真正两phase=0的有限曲线，径向Γ准确不动，原C4单位下真实θ第三系数导数>2^-2590J^-40；物理M与标准n相位四倍已显式核。有限κ散射、mixed PSD和全源逆仍未授。
+
+### R133 补充：同一global reference的精确repair正根collar
+
+**已证明（条件解析转授；新数值待实际Actions）。** [C1–21完整合同](results/R133-supplement-exact-repair-global-positive-root-collar.md)重定义真实修复mean的Riccati，保完整193head、无穷high、两mean/ordinary源和两端trace。三原native/16固定输入公开消费者已接；不复制旧门为新门，δ96及实际根反射/strong另付。

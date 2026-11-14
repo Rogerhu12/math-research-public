@@ -107,3 +107,5 @@ root管branch/H/open/results/log并逐条审证即推；newton推进源/正high�
 [M32 repair转授合同](results/R133-supplement-exact-M32-repair-transfer-of-cached-positive-high-rows.md)已证：完整旧4650闭行逐字段膨胀、真实mean速率与新同一global Riccati参考、所有源/head/jump及独立外端源均保；只新算scalar sweeps和实际repair/root/外graph门，不重算旧intrinsic格。其M32带宽前提不扩给M96的δ方向，数值逆常数须待新consumer通过。
 
 [第三相位核与真实局部两phase曲线](results/R119-supplement-exact-third-phase-kernel-and-local-two-phase-curve.md)已证：原finite-e Wronskian给A g2>2^-85；三compact支集用真非线性两行局部逆准确保持phase，径向Γ整曲线不动，真实θ导数>2^-2590J^-40，无B或δ的半径损失。完整C4域/KAM/第二行入口已重付，非径向Γ响应仍保；下一步须将有限κ两态振荡余项与全mixed cluster接上，第三系数正性本身不授全散射PSD。
+
+[同一新global reference的repair正根collar](results/R133-supplement-exact-repair-global-positive-root-collar.md)解析合同已成并接独立公开CI。三个实际原native复用，新核完整M32/band64系数、修复mean与真pR、全193head↔high/ordinary源/两端trace及角regularity；目标source→state1/12000、两trace1/36须待真实门。仅δ=0，不授band192或根reflection相位。

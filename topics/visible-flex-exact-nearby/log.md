@@ -435,3 +435,7 @@ Z1–41全核，原49/55首次系数与free-frame勘误逐项重对；normal she
 ## 2026-11-14 13:38:32 UTC：正参考的连续频率范围准确化
 
 M32 repair转授A10的连续参数现明确为M≥4，含全部实际非零模式M=4|j|。A12的g<2不能量化到M→0，因为g(root)=M^(-1/3)；实际N97高证书只用M≥388，所有已付数值和接口不变。该文字范围立即修正，文件新SHA256 a6c604bc4bb11522f5cc7538dc8f9ed857dfc61474e80a3c350b9310295f6dba。
+
+## 2026-11-14 13:40:12 UTC：精确repair同一global根collar合同与公开预算接续
+
+完整C1–21及新producer/CI逐项核，原germ397f9/repair6ee8/rootbudget10ff6三原件全复用，16固定输入不再跑旧germ/response/target。新mean定义新global Riccati，真pR另核，完整193head↔high、普通源与两端trace均保。新增16输入wrapper机械复用已成功真实pull/README/nonFF循环；新数值只在公开Actions执行，待原过程后授具体常数。
