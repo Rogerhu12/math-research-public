@@ -111,3 +111,8 @@ request42并行两条：前缀从真实40继续冻结QR入口active32；native�
 
 
 [R271原RK逐级坐标协变](results/R271-discrete-RK-stage-gauge-covariance.md) 已完整证明，未来若需在原RK级内改变表示须保G_iG_j⁻¹全部输运、原port和唯一共享节点；不能把连续换元重新RK冒成同一离散映射。当前43仍仅保存的一步J两端形成，不为此证明额外采RHS/J。43已编译并完成42只读summary，等待实际G读回。
+
+
+### actual42前缀：32行完整QR方向的真实原试步
+
+[完整实际结论](notes/2026-11-14-actual-request42-complete-QR-32-row-warm.md) 已发表，来源34abbdf…/run43623850723/prefix132535274004。固定本轮weights：α1 merit44.28521851182767→44.27560683679009，原node/mid/两RMS全部合法；col.007110297531831894/BC7.934223734010612e−8/新FD7.171478513023801e−10，仍非BVP/native。H同f44.27662694608533<C44.28320644526789；最终stationarity992702.538和R267 gap.538185927保，不能称QP已最优。33逆仅首末小报告核，未审全大阵；外层factor1不证明helper未先radial。43已提取原SHA大报告薄summary，待发布后补实际stop/未修复/修复事实；不重科学。R270新完整4397QP将从42真实warm/status继续，保持全部24576行、外部条件最优、原g和原17trial。
