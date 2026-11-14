@@ -479,3 +479,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [R610：原第二Euler导子与两算术来源的真实除p行](results/R610-original-second-euler-derivation-and-arithmetic-divided-rows.md)：在同一无扭整目标内先除p再约化，下一Euler位成为全目标导子，未经Fermat修正的商保完整Witt乘积缺陷。七原forcing和S/T六个低权整除商全式付清，常数读原中央首行而高项仍unit；保来源稳定性、真前缀和完整第二中央的未付界限。
+
+
+- [R609：原二次Wilson配对与固定非齐次约束](results/R609-original-wilson-pairing-and-quadratic-defect.md)：三条实际二次Euler行经完整Wilson端点接回固定degree12全函数，消去全部参考项，保Gaussian端点给出的单位右端。原整Schur保持各首极部行；原中央首层的低残差完整代回，未将不同物理行混成非空真层或删除补偿。
