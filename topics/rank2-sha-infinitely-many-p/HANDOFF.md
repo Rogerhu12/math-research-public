@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文持续推进，不等阶段确认。**
 
 - 旧库首次全文读根及课题README（含全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：4052a323236ef779ca606f6d85a5456c93f8fa09；2026-11-14 15:27:24 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：cc069ed849492105ef8c839ff35d5073c4a093f7；2026-11-14 15:28:06 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 现仅在Rogerhu12/math-research-public工作。每次pull后及至少每小时核两README差异；有变立即执行。规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13用公开库Actions，旧runner/ci-queue停用。
 - main逐条commit/push已授权；禁强推/改写已发表历史。非快进立即pull --rebase重推；无执行环境时API用expected_sha/force=false，拒绝立即读新头核规后追加，不冒称git pull。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。仅写本课题log、每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
@@ -14,9 +14,9 @@
 
 ## 发布、正在用的文件与分工
 
-R1–363、R365–532已登记；R364仍开。R529=4c7d3db5，R530=7cd6a31e，R531=ac8e6b1e，R532本次登记。全部证明、脚本和原量词由results及分段索引导航。R501原证书已恢复；R502公开Actions run43596695716/job132452617972（来源1dafbfa7，p239/D40/81行）已成功，原生JSON/日志在da54025b，不需重跑。
+R1–363、R365–532及R534已登记；R364仍开，R533预留但尚无完整结论。R529=4c7d3db5，R530=7cd6a31e，R531=ac8e6b1e，R532=cc069ed8，R534本次登记。全部证明、脚本和原量词由results及分段索引导航。R501原证书已恢复；R502公开Actions run43596695716/job132452617972（来源1dafbfa7，p239/D40/81行）已成功，原生JSON/日志在da54025b，不需重跑。
 最新完整接口：[R531之前HANDOFF](notes/2026-11-14-frontier-before-r531.md)、[完整open](notes/2026-11-14-open-before-r531.md)、[完整旧结论索引](notes/2026-11-14-results-index-before-r531.md)；各自保前轮归档链。压缩不关闭旧支线。活文件为HANDOFF/open/results/log、PROOF-INDEX-R501-R550及各R正文。
-root统一元数据及逐条发布，代理仅建proof/script/data blobs。R532已修正唯一坐标显示式x=(K−J)/(2+ω)并发布；R534完整稿已交，支付跨s双接触缺口后发布。theta续原Y/W不动的真实carry/纤维补偿；literature续R535三Norm3轴Hesse全来源与原Kunit/R3deep核；deep续原三层α/β及forcing。root续同源联合/真核；R533尚未形成完整新结论。结论随到随推。
+root统一元数据及逐条发布，代理仅建proof/script/data blobs。R532已修正唯一坐标显示式x=(K−J)/(2+ω)并发布；R534已登记并支付跨s双接触缺口。theta续原Y/W不动的真实carry/纤维补偿；literature续R535三Norm3轴Hesse全来源与原Kunit/R3deep核；deep续原三层α/β及forcing。root续同源联合/真核；R533尚未形成完整新结论。结论随到随推。
 
 ## 完成桥与全部保留分支
 
@@ -46,4 +46,4 @@ R521固定边界Dc=3C∩cπ*S∞长3c(u+4b)，保15例外/全残数；最高f根
 R526低轴6(1−t)δx−(1+2t)x=2t/3 modt^s，x=δlogtheta；有理接触T≤2Δ+1。N<p、H>4E_N+C_N+7排单/两权，完整M后两块不删。
 R525清分母导子V无正X次数不变因子；残数与D^p排全局有限可分ODE解。任意P次数(A,B)可见接触T≤s给T≤2AB+B。真实k权Wronskian、q=k(k−1)/2、AΣ=Σ(3c+degf−ordf)满足H≤vmin+q(2AΣ+2q+1)。原E_N=18u+max(0,floor11r/34−4)、C_N=ceilN/68；临界支持至少常数N^(1/3)，仍允许O(N)权，未给forcing/中央非零。
 R530 Qp(z)=(z^p−z)/p在源j及全目标U_m Qp(δ−13−r_c−c_m+α)U_m^-1两端整；同一p²左右提升有完整混权配对。所有Gauss双交换子、两wrap与U0高尾保留。E_N≤p−2时可α=pz使源可逆，固定pν可用有界整数代表；严格限同一B或conductor·B矩阵，裸Q保A未证，实际配对值/像饱和待付。
-R534完整稿的新双接触引理同时用P、VP消到T≤3s，重复大片由10s/3界排除；三真实Gauss moment通过正规下三角法向变分支付ΔW_X高阶。它解决R525不能直接越s的具体缺口，待读完整正文后逐条登记，不把ODE本身延长。
+R534双接触引理：P及VP同时消到T≤3s仍给T≤2AB+B；小因子原低轴控制，重复大片由10s/3界排除。三Gauss moment法向变分为正规严格下三角L，支付ΔW_X高阶，未延长ODE。真实首核F0/F1到H=s−d、F2到K=ell，2H+K≤v1+v2+v3+q(2AΣ+2q+1)。同一M=U*m_dJ的m_d只有0/1 Smith，primitive p²核约化必Jbar=0，左端准确2s+ell。原二次临界liminf k/N^(1/3)≥(3/7)^(1/3)，p常数[34(2+τ)/147]^(1/6)，低ell为(68/147)^(1/6)。具体跨s缺口已付；仍允许O(N)权，须接真α/β/forcing及同一R。

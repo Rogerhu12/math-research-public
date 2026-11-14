@@ -151,3 +151,6 @@
 
 - 2026-11-14 15:27:24 UTC｜Astra-rank2-Sha-continue：登记R532原J/A5全六轴核心与准确秩二张量，真实Kunit逆、六条件网格及旧W全部系数保持；修正显示式x=(K−J)/(2+ω)。
   R531已推ac8e6b1e；继续三Norm3轴完整Hesse核与原S/T补域，主目标未完成。
+
+- 2026-11-14 15:28:06 UTC｜Astra-rank2-Sha-continue：登记R534全参数双接触引理、三条真实Gauss行与强支持界，明确支付ΔW_X及重复因子，不延长原ODE；同一primitive p²核保完整carry。
+  R532已推cc069ed8；继续真三层α/β/forcing和普通完整补域，主目标未完成。

@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R534：原三Gauss行、双接触Wronskian与加强支持界](results/R534-original-three-gaussian-wronskian-double-contact-and-sharp-support.md)：新引理对P与VP同时到T≤3s的接触给T≤2AB+B，三条真实Gaussian行支付完整法向误差，未延长低轴ODE。原首核及同一primitive p²核在二次临界至少((3/7)^(1/3)−o(1))N^(1/3)权；原两carry、完整单位与同一修正均保，仍不排全支持核。
+
 - [R532：原J/A5全框架与准确秩二来源](results/R532-original-j-a5-full-frame-and-rank-two-source.md)：原六轴正交框架及所有whole核心付清，实际J/A5推前准确分解成两个原整张量，混合矩与原Y系数全显式；J、A5两个边际虽零，联合秩为二。Kunit逆及六域小管完整保留，旧W六项不被消去。
 
 - [R531：两套纯伴随框架、真实carry与原Y/W权](results/R531-hidden-two-frame-native-central-carry.md)：C/F与D/E完整核及逐E次数unit逆返回整个(Y,W,W′,G)，原观察权不移动；固定q5=0使原五深网格的中央、质量及两差准确v=n。所有log项与有限质量多项式完整保留，实际纤维补域仍须控制。
