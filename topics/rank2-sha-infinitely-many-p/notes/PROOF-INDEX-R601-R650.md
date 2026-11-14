@@ -69,3 +69,6 @@
 
 
 - [R612充要范围增补](../results/R612-original-full-source-weighted-kernel-and-fixed-nodal-exit.md)：原全C模p评价单射恰当且仅当p>6(b_D+13)；反向由同格顶基列的准确权6b_D及既证核理想直接给出。未把模p核列冒特征零扭结或非空真层。
+
+
+- [R622：原两层Gaussian连接与同一个完整Newton缺陷](../results/R622-original-two-gaussian-central-connection-and-identical-newton-defect.md)：保原Π0的第二规范连接在严格大于R₂的闭盘有唯一Tate解，其原点值准确仍为同一j；完整Neumann逆付全尾。第二层Newton须保W_k(q)∈1+p^(p−1)O的全部权，首差恰R619端点；删权所得新值未被赋零，第二Gaussian不添独立中央条件。
