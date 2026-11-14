@@ -462,3 +462,6 @@
 
 
 - [实际完整记录](results/R133-supplement-physical-cap-matrix-mode-weights-and-radial-integrals.md)：逐物理M源先付M^-1/2参考Green，再进入完整无权反馈逆，保全部低高互馈及独立mean；准确Legendre正交积分保径向抵消、96完整列/full224有限输出和全部∞系数散度尾。新6个有理核门实际0；旧粗首2与v2旧宽片完整过程保，仍未授未执行全帽数值图误差。
+
+
+- [实际完整记录](results/R133-supplement-finite-moving-head-to-complete-physical-C-ports.md)：准确微分真实物理Fourier矩与角测度，h1列零、h2even mean保；全65相位系数/精确repair/wholeη/全部物理输出8门通过。moving96到physical96余尾1.657551不可删，pad112<4.422619e−7、pad128<1.757236e−14；通过完整帽Green消费真正遗漏输入，未授全主体Schur。
