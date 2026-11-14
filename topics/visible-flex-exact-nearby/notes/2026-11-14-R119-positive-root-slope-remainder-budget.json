@@ -1,0 +1,288 @@
+{
+  "kind": "R119_complete_actual_positive_Airy_remainder_in_root_slope_units",
+  "status": "pass",
+  "gate_count": 46,
+  "passed": 46,
+  "producer": "fourfold_positive_root_slope_remainder_20261114.py",
+  "producer_sha256": "93cf8236cb12af2cff606e35f6dcec879984128de4da787f1ebe33b03f95b13f",
+  "input_manifest_sha256": "9a38f2f6aa7dc47253ef0d949e2e5a0cf3ef855656da8cf3777aae9c5196e77c",
+  "github_run_id": "43589433313",
+  "github_run_attempt": "1",
+  "github_workflow_commit": "116053c10a0904858a30b145c7ae6be64c79eac0",
+  "method": "Python integer/Fraction inequalities only; no sampled modes and no local mathematical run",
+  "scope": {
+    "actual_operator": "complete two-ended Airy R_+ including mean and cross",
+    "bound": "R_++I:H^s -> H^(s+4/3), |s|<=1, norm < 2^5700 b_*^(4/3)",
+    "theorem_source": "the same R119 actual positive form and root normalizations",
+    "borrowed_numeric_constants_from_other_cap": false,
+    "final_topic_complete": false
+  },
+  "dependencies": [
+    {
+      "path": "results/R119-supplement-positive-full-Airy-remainder-in-root-slope-units.md",
+      "sha256": "ab53bd2b141c1a5066c50b356fdecde2473ef05fead1c85fca632261af242f19",
+      "bytes": 11919
+    },
+    {
+      "path": "results/R119-supplement-actual-nonradial-full-remainder-and-high-network.md",
+      "sha256": "4da077caa66e91da72fa3410e962816fac36c14dddcc9134b74e3a0dd1fed7cc",
+      "bytes": 28334
+    },
+    {
+      "path": "results/R119-supplement-actual-positive-DN-to-full-Airy-Cayley-and-sources.md",
+      "sha256": "6ca70b578531fd77edbc65cfe0f04f1859182c19b2e43446069c8a5ef0f5ca88",
+      "bytes": 21221
+    },
+    {
+      "path": "results/R119-supplement-actual-joint-analytic-root-and-relative-Airy-Cauchy.md",
+      "sha256": "6f12b6a6a79bdff8deb26e9092e46ab08463e19064912d518d50c981e592741a",
+      "bytes": 21801
+    },
+    {
+      "path": "results/R45-supplement-actual-exact-positive-cap-Airy-contact-and-four-thirds.md",
+      "sha256": "04ba71a899bef92b648788e8ae96f28206d24a0f622baa2993e0503ca3084744",
+      "bytes": 22327
+    }
+  ],
+  "gates": [
+    {
+      "name": "true_height_gradient_margin",
+      "passed": true,
+      "detail": "The actual deep-tail canonical gradient bound is 5, not an older finite-cap number."
+    },
+    {
+      "name": "joint_Poisson_complex_fee",
+      "passed": true,
+      "detail": "The original 128 already includes both collars; only the weight comparison and the paid complex factor are added."
+    },
+    {
+      "name": "cutoff_first_derivative",
+      "passed": true,
+      "detail": {
+        "exact": "240",
+        "bound_log2": 8
+      }
+    },
+    {
+      "name": "cutoff_second_derivative",
+      "passed": true,
+      "detail": {
+        "exact": "98304",
+        "bound_log2": 17
+      }
+    },
+    {
+      "name": "canonical_potential_derivative",
+      "passed": true,
+      "detail": "Cauchy consumes the displayed remaining complex angle width."
+    },
+    {
+      "name": "potential_H1_multiplier",
+      "passed": true,
+      "detail": "The b-scaled derivative costs no more because b > 1."
+    },
+    {
+      "name": "potential_Hminus_two_thirds_multiplier",
+      "passed": true,
+      "detail": "Interpolation and duality: M0^(1/3) M1^(2/3); no sampled lag matrix."
+    },
+    {
+      "name": "Airy_c_lower_from_cA_upper",
+      "passed": true,
+      "detail": "The consumed exact bracket c_A < 1 gives c > 1; no new Airy computation is asserted."
+    },
+    {
+      "name": "Airy_c_upper_from_cA_lower",
+      "passed": true,
+      "detail": "The consumed exact bracket c_A > 1/2 implies c < 2."
+    },
+    {
+      "name": "contact_prefactor_bound",
+      "passed": true,
+      "detail": "pi Ai(0)/c < 2 using c > 1 and the consumed Airy bracket."
+    },
+    {
+      "name": "high_contact_factor",
+      "passed": true,
+      "detail": "2^(1/6) < 2, so the high contact factor is < 4."
+    },
+    {
+      "name": "low_contact_factor",
+      "passed": true,
+      "detail": "For nonzero physical frequencies M >= 4, lambda^(-1/3) <= (b/4)^(1/3) whenever lambda < 1."
+    },
+    {
+      "name": "mean_contact_factor",
+      "passed": true,
+      "detail": "The mean uses its separate c(1 +/- i xi/pi) columns, giving pi/(2c) < 2."
+    },
+    {
+      "name": "cutoff_exponential_scale",
+      "passed": true,
+      "detail": {
+        "kappa_squared": "1/18874368",
+        "strict_kappa_lower": "2^-13"
+      }
+    },
+    {
+      "name": "cutoff_global_maximum",
+      "passed": true,
+      "detail": "sup lambda^(2/3) exp(-kappa lambda) < kappa^(-2/3) < 2^9."
+    },
+    {
+      "name": "high_lambda_regularized_ratio",
+      "passed": true,
+      "detail": "Only inputs |m| >= 2^4200 b_* use the nonzero Ai trial."
+    },
+    {
+      "name": "potential_residual_factor",
+      "passed": true,
+      "detail": "2 c r_q M(V) |Ai'(0)| with each Airy factor bounded as in the proof."
+    },
+    {
+      "name": "first_cutoff_residual_factor",
+      "passed": true,
+      "detail": "The full cutoff derivative residual is included."
+    },
+    {
+      "name": "second_cutoff_residual_factor",
+      "passed": true,
+      "detail": "The second cutoff derivative residual is included."
+    },
+    {
+      "name": "full_two_collar_residual_budget",
+      "passed": true,
+      "detail": "Physical <m>^(4/3), the two endpoints and all three residual terms."
+    },
+    {
+      "name": "global_contact_trial_budget",
+      "passed": true,
+      "detail": "This intentionally retains the provisional b_*^(5/3) for all outputs."
+    },
+    {
+      "name": "high_output_contact_scale",
+      "passed": true,
+      "detail": "|m| >= L/2 gives lambda_{e,m} >= 2^4199 at both true endpoints."
+    },
+    {
+      "name": "complex_translation_total_width",
+      "passed": true,
+      "detail": "The second translation uses genuine remaining width, rather than reusing the original strip."
+    },
+    {
+      "name": "spectral_gap_exponential",
+      "passed": true,
+      "detail": "Opposite signed input cones give exp(-L/1024) in operator norm."
+    },
+    {
+      "name": "exponential_pays_contact_low_power",
+      "passed": true,
+      "detail": "e^x > x with x=L/1024=2^4190 b_* gives b_*^(1/3)e^-x < 1 for b_*>1."
+    },
+    {
+      "name": "two_signed_cone_fee",
+      "passed": true,
+      "detail": "Both positive and negative incoming cones are included."
+    },
+    {
+      "name": "complete_high_trial_fee",
+      "passed": true,
+      "detail": "High and low output projections cover all output rows."
+    },
+    {
+      "name": "zero_low_trial_weight",
+      "passed": true,
+      "detail": "E_A=-I and E_B=I on every low input column, including both means."
+    },
+    {
+      "name": "complete_trial_right_weight",
+      "passed": true,
+      "detail": "No true low reflection column is set to zero."
+    },
+    {
+      "name": "complete_graph_right_weight",
+      "passed": true,
+      "detail": "R_++I = E_B - R_+E_A; the actual complex graph norm is < 2."
+    },
+    {
+      "name": "fourth_Cauchy_commutator",
+      "passed": true,
+      "detail": "Finite angle commutators, not radial derivatives."
+    },
+    {
+      "name": "all_Leibniz_and_norm_equivalence",
+      "passed": true,
+      "detail": "All four derivative levels, adjoints and the standard Hilbert Sobolev norm."
+    },
+    {
+      "name": "Sobolev_right_gain_budget",
+      "passed": true,
+      "detail": "Cauchy, exact commutators, duality and interpolation cover |r| <= 3."
+    },
+    {
+      "name": "true_unitarity_left_gain",
+      "passed": true,
+      "detail": "S=S*R_+ and the same actual H^r norm of R_+ is < 2."
+    },
+    {
+      "name": "displayed_complete_gain",
+      "passed": true,
+      "detail": "Both left and right gains retain all columns."
+    },
+    {
+      "name": "all_mean_columns_retained",
+      "passed": true,
+      "detail": "Scope declaration only: Zero trial mean columns produce E_A=-I,E_B=I; the graph applies the true R_+ to them."
+    },
+    {
+      "name": "complete_positive_cross_retained",
+      "passed": true,
+      "detail": "Scope declaration only: The Poisson problem is on the whole two-ended actual positive component."
+    },
+    {
+      "name": "ordinary_and_weak_source_units_retained",
+      "passed": true,
+      "detail": "Scope declaration only: The original total-flux and endpoint-charge maps remain unchanged."
+    },
+    {
+      "name": "Gamma_star_columns_not_zeroed",
+      "passed": true,
+      "detail": "Scope declaration only: Both true joint-parameter columns remain in the corresponding source map."
+    },
+    {
+      "name": "no_physical_profile_change",
+      "passed": true,
+      "detail": "Scope declaration only: The frequency threshold is a proof trial choice, not a metric-parameter modification."
+    },
+    {
+      "name": "no_new_network_cutoff_claim",
+      "passed": true,
+      "detail": "Scope declaration only: Negative strict/root/graph factors still need complete composition."
+    },
+    {
+      "name": "fixed_input_exists:results/R119-supplement-positive-full-Airy-remainder-in-root-slope-units.md",
+      "passed": true,
+      "detail": "Already proved input bytes, not rerun or replaced by a stand-in."
+    },
+    {
+      "name": "fixed_input_exists:results/R119-supplement-actual-nonradial-full-remainder-and-high-network.md",
+      "passed": true,
+      "detail": "Already proved input bytes, not rerun or replaced by a stand-in."
+    },
+    {
+      "name": "fixed_input_exists:results/R119-supplement-actual-positive-DN-to-full-Airy-Cayley-and-sources.md",
+      "passed": true,
+      "detail": "Already proved input bytes, not rerun or replaced by a stand-in."
+    },
+    {
+      "name": "fixed_input_exists:results/R119-supplement-actual-joint-analytic-root-and-relative-Airy-Cauchy.md",
+      "passed": true,
+      "detail": "Already proved input bytes, not rerun or replaced by a stand-in."
+    },
+    {
+      "name": "fixed_input_exists:results/R45-supplement-actual-exact-positive-cap-Airy-contact-and-four-thirds.md",
+      "passed": true,
+      "detail": "Already proved input bytes, not rerun or replaced by a stand-in."
+    }
+  ]
+}
