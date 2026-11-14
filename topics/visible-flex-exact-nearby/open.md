@@ -158,3 +158,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 共同输运的signed交叉已经可准确保留
 
 [V1–22](results/R133-supplement-common-transport-energy-and-complete-positive-wave-splitting.md)给完整正区归一化、零阶算子及two-wave+mean，最主要角导交叉T_LH=-T_HL*在同L² metric内精确抵消。固定M32的Hilbert交换子只支撑至63，全δ仍有高低项而HH为0。用此结构改进全矩阵/高频能量，勿把已有绝对upper解释成真实反馈大；κr/κ、非酉坐标metric、独立mean/weak源和帽trace全保。原非解中心mean残差不能删除，完整cap伴随或E−E0平滑仍须另证。
+
+### 锚定复fold/direct-leading的20pin最小消费者已部署
+
+仅使用两已成辅助域及原root锚，20文件740517B，source410675cf…、manifest1f5de8e5…。完整coeff/fold/directleading/forcing四stage逐个checkpoint；保原audit全局proved=false和两case实际true。首跑前将a2的k_min正幂upper分母改为负幂upper乘法，严格付舍入，其他19pins不变。无原target/cubic/complex jets重算；待实际域门，全部原mean/IJ/seam仍保。

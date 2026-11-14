@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 22:07:33 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 22:10:46 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在 Rogerhu12/math-research-public 工作；新数学只在公开仓库Actions。每条结论独推，非FF立即真pull --rebase再推直到成功，禁force。root管main/H/open/results/log；代理只交正文/blob，勿碰共享checkout。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。
 最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近runner真pull：21:57:09 UTC 8ab16ca804845b340d537c5067ae1f679a5e8325，两README实际diff空。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：1d3cbd609aa058eab26a3b365d1ba4b801fe2fb3；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：ad9a3531bd6ad5c6fe47f1eab3ffe7f0eab46a81；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 最近partial checkout在 /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；当前环境不可用。此前相关AGENTS皆无。runner长算10min真pull；phase45/50min前后真pull，非FF循环；成功数学与出版失败分记。
 本次前H全文9747B在 notes/2026-11-14-handoff-before-common-transport.md；旧H/open/results与原152结论入口的完整档案链均保于其中。actual报告、manifest/native保存每项对象、身份、参数、失败和逐行证明，不凭摘要重构旧科学。
 
@@ -36,7 +36,7 @@ Abar真实径向分区已证；actual43635999157/9门 nativefec8740c…3434233B�
 C1–15已推ef2e82ef：H^-1HD=−iεQK(T)，真正gd=Dw0−ηhφ，完整qv=v gd+iεvφQKw0；旧正号代码是取绝对值后的upper，不能当精确符号。N1–12已推bdc58c8a，付新G/Gr/Grφ、精确h/gd/qv及安全正分窗费用复用；rawD/SV/V0、old mean及全部I/J不删。
 精确消去actual43642808159 child0/8门、14.890592036s：6scalar jets/4377新积分，原6profiles/6tensors/1328×2表、径向权/正分窗全部0重算。native0ceafc2b…3180936B；R.001负源<713579.527495/primitive<108158.346702，R.02负源<5093852.021530。完整9项/mean/seam保，source52426ffb…/manifestc7c772e5…。报告R133-supplement-actual-exact-fold-cancelled-source-budgets.md；两runner真pull至cc813fa7…无README差异。不授L0w1/strong norm/97全逆。
 G1–19/H1–10已证；G/H43638232415/14门 native41dc8aac…51084B，258原cubic一阶/3case，0旧target/fold。原R9e−6 Cauchy让内L0w1第二幅度粗upper达6.46e18，不能当下界。
-辅助E1–12同piece解析延拓已证fcc6b57a；actual43640181602 child1/4.824216s，四域全attempt：1e−4/5e−4通过，1e−3 Re(η√k)与2e−3 Re K_r盒gap未过。native6276b4b8…432808B，7身份门、774原组件、所有失败/六primitive完整保，0旧成功重算。报告 R133-supplement-actual-auxiliary-root-domains-and-complete-complex-third-jets.md，e0996f63；两真pull至42292594…空diff。F1–19锚定辅助fold/直接leading二阶已证（R133-supplement-anchored-auxiliary-fold-and-direct-complex-leading-derivatives.md，SHA63e76681…）：真根锚与fullδ mean、k/η相关缩域、A的3/5径向费、全flow/inverse门及QK两行。phase正写仅两成功域的scalar consumer；拟R=3Ra/4未预授成功。仅原piece交内认同，原1079seam/fullIJ仍保。
+辅助E1–12同piece解析延拓已证fcc6b57a；actual43640181602 child1/4.824216s，四域全attempt：1e−4/5e−4通过，1e−3 Re(η√k)与2e−3 Re K_r盒gap未过。native6276b4b8…432808B，7身份门、774原组件、所有失败/六primitive完整保，0旧成功重算。报告 R133-supplement-actual-auxiliary-root-domains-and-complete-complex-third-jets.md，e0996f63；两真pull至42292594…空diff。F1–19锚定辅助fold/直接leading二阶已证（R133-supplement-anchored-auxiliary-fold-and-direct-complex-leading-derivatives.md，SHA63e76681…）：真根锚与fullδ mean、k/η相关缩域、A的3/5径向费、全flow/inverse门及QK两行。两成功域20pin已装：source410675cf…/manifest1f5de8e5…，只新四stage。待actual，R=3Ra/4未预授通过。仅原piece交内认同，原1079seam/fullIJ仍保。
 D1–24同w1 two-region L0w1入口已证；原primitive/IJ/独立mean/seam全保，真正CE/Cs、充分cutoff、closed高逆仍缺。
 
 ## 实际外返回与新单根：tail_connector

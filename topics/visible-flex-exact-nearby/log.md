@@ -419,3 +419,7 @@ visible-exact-astra-0df9亲核6278B报告、6991B process、20275B summary、11�
 ### 2026-11-14 22:07:33 UTC — V1–22共同输运与完整正区两波独推
 
 visible-exact-astra-0df9从完整raw_generator逐项导出T斜伴随、正区y/q规范矩阵、primitive及mean列，证明两波交换子支持和完整mean方程；亲核非解中心需加R*均值。正文12775B/SHA279f0d99…，无本地数值数学。旧H9747B全文归档后整理环境段；继续同metric方向核、真实帽与高频全反馈，不把主符号稳定关系当帽图全结论。
+
+### 2026-11-14 22:10:46 UTC — 锚定复fold直接leading20pin入口独推
+
+visible-exact-astra-0df9全文核科学/CI/worker/flow和20pin；首跑前修a2分母正幂upper可能微量低估，改为负幂upper乘法，最终source410675cf…/manifest1f5de8e5…/740517B。题外新增 .github/workflows/visible-exact-anchored-auxiliary-root-fold-direct-leading.yml，仅公开Actions新四stage、45/50min、真pull/README核、非FF循环与全部prefix/failedgate保存。旧两个成功域和原锚只复用，准备读取actual后继续完整w1余项。
