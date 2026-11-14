@@ -1,0 +1,20 @@
+{
+  "all_exact_checks_passed": true,
+  "f0_packet_fourth_amplitude_sum": "241/225",
+  "finite_family_certified": false,
+  "geometric_design_evaluated": false,
+  "identities": {
+    "F_prime_identity": "0",
+    "Qa_prime_identity": "0",
+    "cross_second_derivative": "0",
+    "energy_integration_by_parts_flux": "0",
+    "single_second_derivative": "0"
+  },
+  "kind": "exact_symbolic_algebra_only",
+  "narrow_density_delta_minus_10_coefficient": "-c**2*f2**2*f3**2*(c**2 + 1)**3/128",
+  "narrow_integral_exponent_after_dx": -9,
+  "source_sha256": "64690bc72441abe2f3e3ffc39482dd6f611c54e30b84b35abf9e859d386dd772",
+  "translation_degree_8_coefficient": "-f2**2*f3**2/128",
+  "translation_density_degree": 8,
+  "universal_T_negativity_certified": false
+}
