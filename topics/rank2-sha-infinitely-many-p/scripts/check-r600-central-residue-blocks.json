@@ -1,0 +1,115 @@
+{
+  "status": "all exact checks passed",
+  "checks": 1482,
+  "previous_analytic_prime_only": true,
+  "frames": [
+    {
+      "p": 23,
+      "b": 1,
+      "maxDegree": 6,
+      "actual_w_window": [
+        1,
+        15
+      ],
+      "examples": [
+        {
+          "a": 0,
+          "b": 1,
+          "degree": 1,
+          "gamma": 22,
+          "central": 20
+        },
+        {
+          "a": 1,
+          "b": 0,
+          "degree": 1,
+          "gamma": 4,
+          "central": 1
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "degree": 5,
+          "gamma": 0,
+          "central": 0
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "degree": 6,
+          "gamma": 4,
+          "central": 0
+        }
+      ],
+      "zero_charge_columns": [
+        {
+          "a": 1,
+          "b": 4,
+          "degree": 5,
+          "gamma": 0,
+          "central": 0
+        }
+      ]
+    },
+    {
+      "p": 23,
+      "b": 17,
+      "maxDegree": 6,
+      "actual_w_window": [
+        1,
+        15
+      ],
+      "examples": [
+        {
+          "a": 0,
+          "b": 1,
+          "degree": 1,
+          "gamma": 15,
+          "central": 4
+        },
+        {
+          "a": 1,
+          "b": 0,
+          "degree": 1,
+          "gamma": 9,
+          "central": 14
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "degree": 5,
+          "gamma": 0,
+          "central": 0
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "degree": 6,
+          "gamma": 9,
+          "central": 0
+        }
+      ],
+      "zero_charge_columns": [
+        {
+          "a": 1,
+          "b": 4,
+          "degree": 5,
+          "gamma": 0,
+          "central": 0
+        }
+      ]
+    }
+  ],
+  "all_source_rows_computed_from_exact_original_z_series": true,
+  "full_parameter_claim_proved_by_Cauchy_not_by_samples": true,
+  "charge_zero_included": true,
+  "E1_prefix_K3_zero": true,
+  "exact_E1_determinant": [
+    "-1118",
+    "15"
+  ],
+  "Vandermonde_zero_charge_determinant": 1,
+  "no_true_prefix_kernel_replaced_by_reduced_kernel": true,
+  "no_product_central_zero_assumption": true,
+  "main_target_complete": false
+}

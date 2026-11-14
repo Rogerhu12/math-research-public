@@ -434,3 +434,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [R597：原结点临界支的同格整提升与完整低ell第二类](results/R597-original-nodal-critical-lift-and-complete-low-ell-second-class.md)：原三列det−2整解r1ν2结点与指定非垂直支，完整p³保C/B极、全carry及同一第二像。原权帽内进一步选ξ∈w⁷、A∈w⁵，使第三块只读真实z0/z1；补齐低ell基准，指定两像余类非零仍开。
+
+
+- [R600：原S/T全部余类中央块与真实前缀Vandermonde](results/R600-original-central-residue-blocks-and-true-prefix-vandermonde.md)：完整有序Cauchy给所有来源次数的中央/非中央第一层、真实有限像与中央Bockstein，保零总权及模p权碰撞；准确接R598的中央Euler观察。真前缀一p行增益保所有非中央行，已空的高核不计预算，两原j零不赋乘积中央零。
