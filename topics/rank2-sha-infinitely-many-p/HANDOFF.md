@@ -6,21 +6,21 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：2501ebf616351245b398e6b3ef33c2e6c5546bff；2026-11-14 14:10:33 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：f64c2c0daa077f9e13aa12f0475e3eeb069a191c；2026-11-14 14:21:58 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 旧→公开仓库迁移及全部差异读取记录保本次完整归档；现只在Rogerhu12/math-research-public。规则11每次pull后核两README且至少每小时，12完整证明直接登记，13本库Actions，14公开库禁令牌。旧runner/ci-queue停用。
 - main逐条commit/push已授权；不强推、不改写已发表历史。非快进立即pull --rebase重推；当前API用expected_sha/force=false，拒绝后立即读新main、核规并重新基于新头追加。
 - 只写课题log，每轮≤5行；不动根LOG。令牌只终端临时环境，不入文件/提交/日志/回复。单文件<5MB，接口文本/Markdown<100KB，HANDOFF<10KB，open尽量<30KB；不加冻结/独审/机械复跑门槛。
 
 ## 当前发布、环境与分工
 
-R1–363、R365–519已登记；R364仍开。R513=bc671140，R512=fd3b2d1e；R516=8f9bbe4a；R517=cd948ebb，R513显示修正=795725ad；R518=7f39d76f；R519本次登记。R513证书CM显示换基a+bδ=(a+b)+2bω已纠正；正文/δ矩阵不变，旧提交保归档。
+R1–363、R365–520已登记；R364仍开。R513=bc671140，R512=fd3b2d1e；R516=8f9bbe4a；R517=cd948ebb，R513显示修正=795725ad；R518=7f39d76f；R519=ae08e6ce；R520本次登记。R513证书CM显示换基a+bδ=(a+b)+2bω已纠正；正文/δ矩阵不变，旧提交保归档。
 执行环境12:35 UTC断连，14:02 UTC再确认无可用执行环境；现用连接GitHub读main、核规则和非force追加，未称实际pull。恢复后先pull --rebase/核规，再合并遗留，不能覆盖API结果。
 R501原正文/脚本/JSON精确恢复；R502明确重建脚本在公开Actions run43596695716/job132452617972成功，来源1dafbfa7，p239/D40/81行，ξ1=175、V1首行70/系数55、第三块40及全Q运输。原生JSON/全日志已推da54025b，无扫描，无跨p声称。
-root统一元数据及逐条发布；代理仅建proof/script blobs。theta的R518已登记，续R522同源carry与实际词交域；deep的R517已登记，续R521固定清极的实际边界商；literature的R519已登记，续R523 CH核/独立carry；root的R516已登记，续R520第三共同伴随的完整偶深核心。新证明随到随登记。
+root统一元数据及逐条发布；代理仅建proof/script blobs。theta的R518已登记，续R522同源carry与实际词交域；deep的R517已登记，续R521固定清极的实际边界商；literature的R519已登记，续R523 CH核/独立carry；root的R520已登记，续共同低度H0来源与完整补域。新证明随到随登记。
 
 ## 完整旧接口与目标桥
 
-最新完整接口归档：notes/2026-11-14-frontier-before-r519.md；它链回所有前轮HANDOFF、open-before-r496及旧规则读取记录。旧结论/支线/常数/条件均保原文，未因压缩关闭。分段索引R501–550继续，不增巨型PROOF-INDEX。旧日志见notes/2026-11-14-log-through-r494.md。
+最新完整接口归档：notes/2026-11-14-frontier-before-r520.md；它链回所有前轮HANDOFF、open-before-r496及旧规则读取记录。旧结论/支线/常数/条件均保原文，未因压缩关闭。分段索引R501–550继续，不增巨型PROOF-INDEX。旧日志见notes/2026-11-14-log-through-r494.md。
 S34/T72/U136分别桥接固定y²=x³+17/+24/+2312，rank2见R294/R398/R469；通常Selmer全Sha桥给2+corankSha≤2ordJ。一条原中央导数无穷非零即可；三曲线有限池须同一无穷p集上至少一条非零。辅助来源、有限p及子域非零不替代。
 原quartic E17:y²=x³−17x、E34/E136/E389、O4全Hilbert类迹低增广及O6真实单位Tor/评价仍开，详open与归档；高度/非p除、环境非零不代实际原类/单位条件。
 
@@ -44,7 +44,8 @@ R515真正二维B15/A3945平面，A=15Y−(17+14ω)B；E41554=263x−γA，whole
 
 R518付原固定h_b(Tc/Ω)=ΣH_j(B,A)(E/Ω)^j的整逆hhat=ΣH_j(E/Ω)^j/(1−ελκ^j)。Eunit加权真正平面推前回原h_b，第一来源恰S。Adeep r的真实sigma carry在Y_r=(A/κr+c0B)/15及hhat_r同转置下，整行=(ψλ)^r JS。原D_n及其A^r真像仍有v5n非零；alpha/alpha0为固定代数数，1013上Trace(u barv)=804≠±Nv=834/179，保p>(Nu+Nv+1)^2和全部分母。真实补域B_rn必须补偿该非零子管，尚未排除补偿。
 
-R516六轴Q0T^j/QbT^j四态各χ65λ，先span(ρ,h)共轭再沿W/W′正交构造传递，不假定T保整个四态。共同H=span(Y,W,W′)^⊥三维，正交基Q0/Qb/E* Norm5/515/216·103^-1；完整六框架det=(43200+38880δ)/7。全N词保Y/W/W′/W2，core(χλ)^k；与rawY/B词M交换且ML∩NL=MNL，保逆权。E*原六行/T块见R512数据、R516；root R520正付其两层绝对核与真正三输入T下降，登记前不预用。
+R516六轴Q0T^j/QbT^j在四态各χ65λ；先span(ρ,h)共轭再用W/W′正交构造，不假定T保全四态。完整共同H三维/六框架及逆见R512证书。N词保Y/W/W′，与rawY/B词M交换且ML∩NL=MNL，真实逆权全保。
+R520已付L=721E*整行Norm1090152=8·27·49·103，g²=1+N mod2N，Theta(42δγ103z)绝对锚wholeK²=I，无新ray。四态Q0/Qb/E*任意(a,b,2c)矩形coreχ^(a+b)λ^(a+b+2c)，共同2n深λ6n。真正三输入(Y,W,W′)保非对角Gram，T下降(Y,W′,−ω²W−ωW′)，第一CM轴仍用正交伴随。E*=(3+8ω)(E41554+(233+24ω)K/721)/1106；Tc和Z保非零E*项，U保三隐藏项，不能删除原B0条件。
 
 ## 惰性：同一来源和未付全局像
 

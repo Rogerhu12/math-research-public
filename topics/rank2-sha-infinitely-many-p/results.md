@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R520：第三共同伴随whole偶深核与真实三输入联合](results/R520-third-common-companion-even-core-and-true-three-input-source.md)：E*整化degree1090152的完整中心和固定Theta锚支付whole平方恒等，原四态三伴随全部(a,b,2c)矩形成立。共同偶深保原Y/W/W′三个观察，非对角联合和T物理下降完整给出；E/K及Tc/C隐藏项逐项保留，不赋一层scalar或删除B0条件。
+
 - [R519：C4的whole八层核心与原B0完整移权](results/R519-original-c4-eighth-core-and-complete-b0-transport.md)：原C4整化degree29664的完整中心与Theta绝对锚给whole八层返回，保全部十六quarter来源；C4/W/Q矩形及原反射交域同源返回全付。两条C正交伴随有共同核，原B0拉回三单位线/两测试参数完整显示；隐藏核仅作真实再表达，原外域未删。
 
 - [R518：原S测试的E单位整逆与同源非零sigma子管](results/R518-original-e-unit-inverse-and-same-source-arithmetic-carry.md)：固定正伴随多项式逐E次数作有限整逆，E单位上的整个第一来源准确回原S；实际A深sigma carry保归一权和完整多项式，中央等于显示标量乘JS。完整五混合矩及固定1013射线同时支付两符号首项单位，同一真子管严格v5n；补域精确保留，未以子管非零替代主目标。
