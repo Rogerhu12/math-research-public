@@ -87,3 +87,6 @@ R251四Loewner/完整Gram消费者已在request16通过三个解析例，但尚�
 ### 第41次原始逐步捕获
 
 原native39的完整失败分布已支撑处理rawCell0全部72旧stage。第41次rawcell0steps接独立三源：只在每个原RK步重启tangent，保原field/state/226mean、ordinary与cusp的真实x/h、一次原出口port；逐步J及全状态流式留artifact，72原出口/guard/mean对saved28读回，差异不当新增门。按真实总步数生成dynamic layout和明确节点σ，后继consumer复用余504旧块；不重原长J或noJ，不增ODE步/改g，不直接派trial。接口与完整来源见 [逐原步采集合同](notes/2026-11-14-native-rawcell0-original-step-capture-interface.md)；实际结果尚未产生。
+
+
+[逐原步新系统与完整exact读回接口](notes/2026-11-14-rawcell0-original-step-system-interface.md) 已读并冻结：独立adapter/consumer按真实L构造D=504+ΣL，完整cut/新段/far行、实际J流SHA/新矩阵身份、旧577节点restriction及全行整数残差均动态；原504块/旧节点σ保持，新增σ复制parent明示。一次带LU/最多3exact修正、4GiB单band资源账，不裁剪方程，不将旧long-J诊断作为门。具体actual41结果SHA和新artifact PIN须待真实回执；此组件未科学执行。
