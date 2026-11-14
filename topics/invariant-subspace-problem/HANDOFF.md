@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** 450d318a31944b97459ebf67beec7510af3ca139（2026-11-14 22:01:32 UTC，Actions run43645822544实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43645822544-1.json。
+- **最近成功实际 pull 与已读规则提交：** 374a17ee36482c66238c381654b5d4d446ba6a73（2026-11-14 22:02:56 UTC，Actions run43645934260实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43645934260-1.json。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -40,6 +40,8 @@ G=Bbare(Hbare+Eret)⁻¹Bbare*，B⁻¹=Bbare Hbare⁻¹Bbare*；固定q+d的原
 - [保持Rrem的J](notes/2026-11-14-remaining-negative-graph-positive-filter-and-exact-dissipation-789f-next.md)：真实Xi投影P、Q=I−P，J=QEQ†_L/(1+2δ)，精确JMJ≤2J(I−J)。总耗散无累积δ，Xi(J^nr)²≤μ²/n；左差²≤n[Xi²+(2+√2)δμ²]。δ仅m≥8、4d≤q≤exp(d³/4)旧窗，不迁移到c26；主左配对仍开。
 - [完整Γ真障碍](notes/2026-11-14-actual-tail-full-graph-relative-hole-commutator-obstruction-789f-next.md)：原尾等有效权真核嵌入的Gram≤exp(O(m²))，给全q≥d−1的log||Γ⁻¹/²[Nholes,Γ]Γ⁻¹/²||≥175d⁴/32−315d³/32−O(m²)。全Γ三次指数相对导数路线已排；证人全在K≤d−1零核，实际source-Schur消核后、固定测试及余负图估计均未被否定。
 - [移动真头boson投影](notes/2026-11-14-moving-true-head-bosonic-projections-and-inverse-gram-strong-limit-789f-next.md)强趋P_M；一侧余量≤2exp(−79d⁴)，逆Gram有限头压缩同强极限。无反向算子范数速率、硬核修复或N=M。
+
+- **[真实逆芽半径](notes/2026-11-14-true-head-inverse-germ-twelve-half-radius-and-weighted-coefficients-789f-next.md)：** m≥10的ρ=exp(−25d³/2)，两原N/Y的|F(z)/z−d0⁻¹|≤exp(−d³/4)，ψ在|w|≤ρ/(2d0)真解析且|ψ−d0w|≤2d0²exp(−d³/4)|w|。保输入列W_i及同源T_i=W_i⁻¹ψ(−D)^i；完整κ(V)仍可付exp(201·16^(m−1))而非三次指数。ρ⁻²=exp(25d³)数值可放c26窗，但实际消核source-Schur比较未由此证明。
 
 ## 其他未闭主接口
 
