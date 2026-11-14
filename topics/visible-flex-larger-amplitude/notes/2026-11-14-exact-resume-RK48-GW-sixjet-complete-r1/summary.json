@@ -1,0 +1,296 @@
+{
+  "finished": true,
+  "actual_exit_code": 0,
+  "finished_utc": "2026-11-14T09:50:07.625172+00:00",
+  "seconds": 1394.1390795459993,
+  "common_stages": 9244,
+  "radial_samples": 157148,
+  "angles": 1024,
+  "source_profile_fingerprint": "8a87255bf9e025190a1a98ff800859f05f95a94113045a60af9391fcace51d24",
+  "global_adjacent_differences": {
+    "position": 7.308435770201034e-14,
+    "radial_first": 6.481787648439928e-09,
+    "angular_first": 1.1601172370401986e-13,
+    "radial_second": 0.0017739032174071579,
+    "mixed": 1.0288886190857509e-08,
+    "angular_second": 2.6713573342618115e-13,
+    "metric_scalar_difference": 1.1835925439610331e-08,
+    "kappa_scalar_difference": 0.0006781770923601146
+  },
+  "regional_results": {
+    "definition": "The unchanged original longdouble sample arrays, partitioned at r >= cut - width. No arithmetic or sample grid is replaced.",
+    "cut_radius": 0.30000000000000004,
+    "cut_width": 0.01,
+    "groups": [
+      {
+        "kind": "layer",
+        "label": "rk48-f8-cusp-GW",
+        "regions": {
+          "outer_patch_region": {
+            "radial_samples": 3588,
+            "maxima": {
+              "metric": 4.77033173502495e-08,
+              "kappa": 7.982359520395229
+            },
+            "witnesses": {
+              "metric": {
+                "common_stage": 1,
+                "x": 0.9375,
+                "r": 0.2999997843316971,
+                "theta": 5.043728830567988
+              },
+              "kappa": {
+                "common_stage": 210,
+                "x": 0,
+                "r": 0.2900089083277015,
+                "theta": 1.5707963267948966
+              }
+            }
+          },
+          "outside_patch": {
+            "radial_samples": 153560,
+            "maxima": {
+              "metric": 1.1835925527213867e-08,
+              "kappa": 7.994261224729718
+            },
+            "witnesses": {
+              "metric": {
+                "common_stage": 450,
+                "x": 0,
+                "r": 0.28253279635533834,
+                "theta": 1.5707963267948966
+              },
+              "kappa": {
+                "common_stage": 6520,
+                "x": 0.875,
+                "r": 0.055148857592621905,
+                "theta": 4.718524903536232
+              }
+            }
+          }
+        }
+      },
+      {
+        "kind": "layer",
+        "label": "rk48-f16-cusp-GW",
+        "regions": {
+          "outer_patch_region": {
+            "radial_samples": 3588,
+            "maxima": {
+              "metric": 4.770331735019531e-08,
+              "kappa": 7.982359520395229
+            },
+            "witnesses": {
+              "metric": {
+                "common_stage": 0,
+                "x": 1,
+                "r": 0.30000000000000004,
+                "theta": 5.043728830567988
+              },
+              "kappa": {
+                "common_stage": 210,
+                "x": 0,
+                "r": 0.2900089083277015,
+                "theta": 1.5707963267948966
+              }
+            }
+          },
+          "outside_patch": {
+            "radial_samples": 153560,
+            "maxima": {
+              "metric": 1.2594438379026109e-09,
+              "kappa": 7.994261224729729
+            },
+            "witnesses": {
+              "metric": {
+                "common_stage": 450,
+                "x": 0.625,
+                "r": 0.2825388531211996,
+                "theta": 1.5707963267948966
+              },
+              "kappa": {
+                "common_stage": 6520,
+                "x": 0.875,
+                "r": 0.055148857592621905,
+                "theta": 1.5707963267948966
+              }
+            }
+          }
+        }
+      },
+      {
+        "kind": "adjacent_comparison",
+        "left": "rk48-f8-cusp-GW",
+        "right": "rk48-f16-cusp-GW",
+        "regions": {
+          "outer_patch_region": {
+            "radial_samples": 3588,
+            "maxima": {
+              "position": 6.217751704826854e-15,
+              "radial_first": 1.5937605838221669e-09,
+              "angular_first": 1.0159873634079694e-14,
+              "radial_second": 0.001123998341065562,
+              "mixed": 2.604191646359766e-09,
+              "angular_second": 2.1357167716623034e-14,
+              "metric_scalar_difference": 2.43587042206263e-09,
+              "kappa_scalar_difference": 0.0006599244782920469
+            },
+            "witnesses": {
+              "position": {
+                "common_stage": 178,
+                "x": 0.5,
+                "r": 0.2964937954216405,
+                "theta": 1.5707963267948966
+              },
+              "radial_first": {
+                "common_stage": 178,
+                "x": 0.875,
+                "r": 0.29649800844981705,
+                "theta": 1.5707963267948966
+              },
+              "angular_first": {
+                "common_stage": 178,
+                "x": 0.5,
+                "r": 0.2964937954216405,
+                "theta": 3.9515345095934116
+              },
+              "radial_second": {
+                "common_stage": 177,
+                "x": 0.5,
+                "r": 0.29649989265736165,
+                "theta": 4.71238898038469
+              },
+              "mixed": {
+                "common_stage": 178,
+                "x": 0.875,
+                "r": 0.29649800844981705,
+                "theta": 5.473243451175968
+              },
+              "angular_second": {
+                "common_stage": 178,
+                "x": 0.5,
+                "r": 0.2964937954216405,
+                "theta": 4.675573441475434
+              },
+              "metric_scalar_difference": {
+                "common_stage": 178,
+                "x": 0.8125,
+                "r": 0.2964974446325541,
+                "theta": 6.264777537724958
+              },
+              "kappa_scalar_difference": {
+                "common_stage": 177,
+                "x": 0.5,
+                "r": 0.29649989265736165,
+                "theta": 1.5707963267948966
+              }
+            }
+          },
+          "outside_patch": {
+            "radial_samples": 153560,
+            "maxima": {
+              "position": 7.308435770201034e-14,
+              "radial_first": 6.481787648439928e-09,
+              "angular_first": 1.1601172370401986e-13,
+              "radial_second": 0.0017739032174071579,
+              "mixed": 1.0288886190857509e-08,
+              "angular_second": 2.6713573342618115e-13,
+              "metric_scalar_difference": 1.1835925439610331e-08,
+              "kappa_scalar_difference": 0.0006781770923601146
+            },
+            "witnesses": {
+              "position": {
+                "common_stage": 451,
+                "x": 0.625,
+                "r": 0.2825224975923734,
+                "theta": 0.0
+              },
+              "radial_first": {
+                "common_stage": 450,
+                "x": 0.125,
+                "r": 0.28253439470480773,
+                "theta": 0.0
+              },
+              "angular_first": {
+                "common_stage": 451,
+                "x": 0.625,
+                "r": 0.2825224975923734,
+                "theta": 5.559146375297564
+              },
+              "radial_second": {
+                "common_stage": 450,
+                "x": 0.5,
+                "r": 0.2825380259626764,
+                "theta": 0.0
+              },
+              "mixed": {
+                "common_stage": 450,
+                "x": 0.125,
+                "r": 0.28253439470480773,
+                "theta": 5.559146375297564
+              },
+              "angular_second": {
+                "common_stage": 451,
+                "x": 0.625,
+                "r": 0.2825224975923734,
+                "theta": 0.0
+              },
+              "metric_scalar_difference": {
+                "common_stage": 450,
+                "x": 0,
+                "r": 0.28253279635533834,
+                "theta": 4.71238898038469
+              },
+              "kappa_scalar_difference": {
+                "common_stage": 450,
+                "x": 0.5,
+                "r": 0.2825380259626764,
+                "theta": 0.0
+              }
+            }
+          }
+        }
+      }
+    ],
+    "original_prefix": {
+      "same_saved_field": true,
+      "all_position_first_and_second_jet_differences": 0.0,
+      "reason": "Every compared tail is attached to the exact same saved prefix and its unchanged mean anchor."
+    }
+  },
+  "GW_node_diagnostics": {
+    "rule": "Frr=Gamma Fr + ((urr-Gamma ur)/nz) n at genuine nodes; n uses actual cardinal Ftheta.",
+    "layers": {
+      "rk48-f8-cusp-GW": {
+        "nodes": 4639,
+        "verified_raw_nodes": 4639,
+        "diagnostics": {
+          "minimum_normal_z": 0.9284733772597014,
+          "maximum_cardinal_saved_angular_difference": 7.86051248323325e-18,
+          "maximum_radial_metric_derivative_residual": 1.7763568394002505e-15
+        }
+      },
+      "rk48-f16-cusp-GW": {
+        "nodes": 9245,
+        "verified_raw_nodes": 9245,
+        "diagnostics": {
+          "minimum_normal_z": 0.9284733772597014,
+          "maximum_cardinal_saved_angular_difference": 8.057022987180501e-18,
+          "maximum_radial_metric_derivative_residual": 1.9381198035350877e-15
+        }
+      }
+    },
+    "old_closed_outputs_unchanged": true
+  },
+  "cap_height_displacements": [
+    {
+      "left": "rk48-f8-cusp-GW",
+      "right": "rk48-f16-cusp-GW",
+      "signed": 0.0
+    }
+  ],
+  "original_prefix_resolved": false,
+  "other_closed_result_packet": "../2026-11-14-exact-resume-RK48-GW-closed-r1",
+  "default_rule_ci_comparison": "Successor CI run43579782197 is the previously completed default-rr representation, not this new GW-rr six-jet output. Its reported default numbers agree with our completed default packet.",
+  "task_completed": false
+}

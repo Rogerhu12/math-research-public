@@ -1,0 +1,127 @@
+{
+  "scope": "These five child commands actually exited0; independent full six-jet comparison is still running.",
+  "commands": [
+    {
+      "event": "exit",
+      "label": "target-finite-collar",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_target_metric_collar.py",
+        "--complete",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK48-cusp-resolved-r4/cusp48-sixteen/complete.json",
+        "--out",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/GW-RK48-full-r1/finite-collar.json"
+      ],
+      "started_utc": "2026-11-14T09:26:53.504602+00:00",
+      "actual_exit_code": 0,
+      "finished_utc": "2026-11-14T09:26:55.547848+00:00",
+      "seconds": 2.0432585929993365
+    },
+    {
+      "event": "exit",
+      "label": "target-closed-plan",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_target_metric_closed_assembly.py",
+        "plan",
+        "--source-topic",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/source/topics/visible-flexible-closed-surface",
+        "--checkpoint",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz",
+        "--port",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+        "--config",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK48-solve-r1/config.json",
+        "--complete",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK48-cusp-resolved-r4/cusp48-sixteen/complete.json",
+        "--out-prefix",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/GW-RK48-full-r1/closed/refined-A-closed",
+        "--angular",
+        "96",
+        "--phase-samples",
+        "9",
+        "--cut-correction-width",
+        ".01"
+      ],
+      "started_utc": "2026-11-14T09:26:55.548374+00:00",
+      "actual_exit_code": 0,
+      "finished_utc": "2026-11-14T09:27:00.082877+00:00",
+      "seconds": 4.534518922999268
+    },
+    {
+      "event": "exit",
+      "label": "target-closed-source-background",
+      "command": [
+        "node",
+        "--expose-gc",
+        "--max-old-space-size=384",
+        "--max-semi-space-size=4",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_closed_background.mjs",
+        "--repo-root",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo",
+        "--source-topic",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/source/topics/visible-flexible-closed-surface",
+        "--config",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK48-solve-r1/config.json",
+        "--plan",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/GW-RK48-full-r1/closed/refined-A-closed-plan.json",
+        "--out",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/GW-RK48-full-r1/closed/background.json"
+      ],
+      "started_utc": "2026-11-14T09:27:00.083264+00:00",
+      "actual_exit_code": 0,
+      "finished_utc": "2026-11-14T09:27:12.927893+00:00",
+      "seconds": 12.844711371002631
+    },
+    {
+      "event": "exit",
+      "label": "target-closed-render",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_target_metric_closed_assembly.py",
+        "render",
+        "--source-topic",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/source/topics/visible-flexible-closed-surface",
+        "--checkpoint",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz",
+        "--port",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+        "--config",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK48-solve-r1/config.json",
+        "--complete",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK48-cusp-resolved-r4/cusp48-sixteen/complete.json",
+        "--out-prefix",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/GW-RK48-full-r1/closed/refined-A-closed",
+        "--plan",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/GW-RK48-full-r1/closed/refined-A-closed-plan.json",
+        "--heights",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/GW-RK48-full-r1/closed/background.json"
+      ],
+      "started_utc": "2026-11-14T09:27:12.929325+00:00",
+      "actual_exit_code": 0,
+      "finished_utc": "2026-11-14T09:28:55.316092+00:00",
+      "seconds": 102.3870485089974
+    },
+    {
+      "event": "exit",
+      "label": "target-closed-summary",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_closed_mesh_summary.py",
+        "--directory",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/GW-RK48-full-r1/closed",
+        "--out",
+        "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/GW-RK48-full-r1/closed/summary.json"
+      ],
+      "started_utc": "2026-11-14T09:28:55.357337+00:00",
+      "actual_exit_code": 0,
+      "finished_utc": "2026-11-14T09:28:58.979802+00:00",
+      "seconds": 3.6224055839993525
+    }
+  ],
+  "observed_utc": "2026-11-14T09:36:12.234868+00:00"
+}

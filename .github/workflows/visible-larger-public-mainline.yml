@@ -11,7 +11,7 @@ on:
         description: Actual numerical calculation
         type: choice
         default: all
-        options: [all, free3, geometry, coupling, couplingcheck, tailzero, cardinal]
+        options: [all, free3, geometry, coupling, couplingcheck, tailzero, cardinal, gwcompat]
 
 permissions:
   contents: write
@@ -39,7 +39,7 @@ jobs:
           python - <<'PYLANES'
           import json, os
           from pathlib import Path
-          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'cardinal'}
+          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'cardinal', 'gwcompat'}
           if os.environ['EVENT_NAME'] == 'workflow_dispatch':
               selected = os.environ['DISPATCH_LANE'] or 'all'
               lanes = ['free3', 'geometry', 'coupling', 'tailzero', 'cardinal'] if selected == 'all' else [selected]
@@ -89,6 +89,7 @@ jobs:
             /topics/visible-flex-larger-amplitude/notes/public-actions-43582043166-1-coupling/preparation/prepared-compact.json.gz
             /topics/visible-flex-larger-amplitude/notes/public-actions-43582043166-1-tailzero/zero-H-T96/
             /topics/visible-flex-larger-amplitude/notes/2026-11-14-public-RK48-cardinal-tail-packet/
+            /topics/visible-flex-larger-amplitude/notes/2026-11-14-GW-cusp-compatibility-packet/
             /topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-RK24-radial4to8-closed-r1/
             /topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json
             /topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json
@@ -116,7 +117,7 @@ jobs:
           node-version: '24.22.1'
       - run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
       - name: Restore pinned source bytes only from the public repository
-        if: matrix.lane != 'free3'
+        if: matrix.lane != 'free3' && matrix.lane != 'gwcompat'
         run: |
           PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PY'
           import os
@@ -143,10 +144,17 @@ jobs:
             --checkpoint topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz \
             --source-topic "$VISIBLE_SOURCE_TOPIC" \
             --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
-            --out "$VISIBLE_OUT/R241-cover-v3-q4.json" --radial-stride 1 --angular-stride 1 --prefix-angular-subdivision 4
+            --out "$VISIBLE_OUT/R241-cover-v3-q8.json" --radial-stride 1 --angular-stride 1 --prefix-angular-subdivision 8
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_held_hausdorff_cover.py" \
             --directory topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-RK24-radial4to8-closed-r1/closed \
-            --cover "$VISIBLE_OUT/R241-cover-v3-q4-position-cover.json" --out "$VISIBLE_OUT/held-Hausdorff-cover.json"
+            --cover "$VISIBLE_OUT/R241-cover-v3-q8-position-cover.json" --out "$VISIBLE_OUT/held-Hausdorff-cover.json"
+      - name: Diagnose actual cusp Hermite compatibility from the original node bytes
+        if: matrix.lane == 'gwcompat'
+        timeout-minutes: 20
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/exact_20261114_GW_cusp_compatibility.py" \
+            --packet topics/visible-flex-larger-amplitude/notes/2026-11-14-GW-cusp-compatibility-packet \
+            --out "$VISIBLE_OUT/GW-cusp-compatibility"
       - name: Solve and audit the actual T96 zero-height tail anchor
         if: matrix.lane == 'tailzero'
         timeout-minutes: 315

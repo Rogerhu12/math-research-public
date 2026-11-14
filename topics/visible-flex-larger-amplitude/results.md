@@ -453,3 +453,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R243. 共享节点精确C²四角规范形的全片非平面性](results/R243-exact-C2-cardinal-tail-no-planar-germ.md)：给出角解析与分段有理三重积的完整证明；公开Actions真实9246小段全有非零精确见证。对象为明确规范形，原renderer同一性/完整接缝/δE未由此自动支付。
 
 - [R244. 精确圆形区段内标量控制的设计核方向](results/R244-circular-support-scalar-control-null-direction.md)：用完整C²变分及局部有限参数族证明圆段紧支控制在非均值DN设计系统中不可观测；允许其他warm区段未解，明确非固定g变分及有限M投影限制，支撑prefix3控制改法。
+
+- [R245. Hermite位置兼容缺陷与共享速度积分](results/R245-hermite-compatibility-and-integrated-velocity.md)：精确恒等式P=Q+ES及C⁰/C¹/C²锐常数、共享C¹速度的全局C²积分、两端位置兼容当且仅当全部角函数ΣE=0，含完整六jet与metric扰动界；不预设缺陷是舍入，也不把比较场当已接受闭曲面。
