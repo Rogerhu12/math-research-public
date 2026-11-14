@@ -5,3 +5,5 @@
 ## 新增结论
 
 - [R133原连续几何推进至108块并正确取参数交集](results/R133-supplement-continuous-tensor-108-block-extension.md)：恢复原108块/6911径向格的实际完整前缀、3008新增格与无损增量；重新核明角证书仅η0，修正旧未推稿过宽的全η措辞。只在η0及r≥7663625365908795/36028797018963968授连续模型界，未到腰、不授最终几何。
+
+- [R133完整帽残差的双实场FFT与同源前缀继续](results/R133-supplement-packed-cap-Fourier-residual-and-prefix-continuation.md)：恢复并重推准确B+iC打包恒等式，512点定向FFT保全部±255卷积、257物理态/97列及mean；复用真实旧513..603共91格并从604续算，旧−9/complete=false原样保。全部1977格残差尚需完整覆盖。
