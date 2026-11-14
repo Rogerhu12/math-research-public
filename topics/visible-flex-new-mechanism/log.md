@@ -411,3 +411,7 @@ R45准确四块几何上，第四整个周期函数不受任意合法第二、�
 ## 2026-11-14 16:34 UTC — 冻结并部署natural/body双初态直接度量审计
 
 root全文核三新源码、12KB数学说明及三人工输出全部来源SHA；source独立核主链/直接Jac与完整anchor绑定。R/shape全Jac≤4.20e−9、直接metric/shape全Jac≤8.54e−9、body列≤4.80e−9；设计后冻结7位置jet/R重放差0。旧13源冻结。共享workflow新增natural_body_initial唯一25min lane，先三人工check与c0/c1实际输入SHA门，再同原c0锚两初态；五body系数均0，原R与真实度量成本分开、仅未应用线性预测、GH和Pi同态加密。无非线性优化；所有真实评价仍仅公开Actions。
+
+## 2026-11-14 16:38 UTC — R59 分离中心速度限制与T/a本身缺口
+
+固定T/Tt/a/a′时，真实径向切向U=W+bez、平均W=0；角均方直接metric目标准确为J(b)=b⁴/2+Ab²+2Bb+C/2，全部候选最小点由三次式b³+Ab+B=0及区间边界给出。F投影残量N−M²/D、E均值S≤1与b²=1−S给独立必要门，最大operator误差≥√min_R J；退化D0、ε近似的扩大b区间和离散三次项均保留。没有将逐圈根拼成合法C2中心或评价实际候选。 root与source全文独核完整多项式、Cauchy-Schwarz/均值界、Frobenius因子、最小分支及全局高度耦合。新initial公开run43616419217/source2641fce0运行中，旧冻结源不改；诊断是否加入后续solve由真实结果决定。

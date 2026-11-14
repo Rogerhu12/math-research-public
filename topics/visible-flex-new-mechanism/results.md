@@ -119,3 +119,5 @@
 - [R57：直接重构度量、准确误差范数与辅助框架空间限制](results/R57-direct-reconstructed-metric-and-auxiliary-frame-space.md) — 准确零角均值的单位T重构X=aΠT+zez，使G=a²；真实e=|Xt|²−1、q=Xt·T给最大相对算子误差η=(|e|+√(e²+4q²))/2，直接残差(e,√2q)与其等价。准确R0是充分条件；直接等距得到V*=Xt，但它未必属于旧有限beta和全部高端口jet类，故R55不得未经证明外推。全参数导数含δa/δa′/δb，保持同一中心锚。没有证明零点或任何完成门。
 
 - [R58：第四周期的全部低阶gauge不变性与准确单P约简](results/R58-fourth-period-gauge-invariance-and-single-P-reduction.md) — R45准确四块几何上，第四整个周期函数不受任意合法第二、第三profile gauge改变；第二gauge的第三ruling相容由真实差方程保证。保留第三primitive端值0→a→2a→a→0，标量加a使场减Y_a，单P的全零二阶算子准确消历史增量，故完整第四period等于4倍canonical单Pperiod。逐ruling仍需四块全历史，没有任何实际第四周期已支付。
+
+- [R59：中心速度准确消元与必要度量下界](results/R59-scalar-center-speed-elimination-and-metric-lower-bounds.md) — 固定T/Tt/a/a′时，真实径向切向U=W+bez、平均W=0；角均方直接metric目标准确为J(b)=b⁴/2+Ab²+2Bb+C/2，全部候选最小点由三次式b³+Ab+B=0及区间边界给出。F投影残量N−M²/D、E均值S≤1与b²=1−S给独立必要门，最大operator误差≥√min_R J；退化D0、ε近似的扩大b区间和离散三次项均保留。没有将逐圈根拼成合法C2中心或评价实际候选。
