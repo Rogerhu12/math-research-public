@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 14:23:16 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 14:28:47 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：34e6c72edc5ace365501a4ea673089ea68246db3；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：84fa81225979ae83712465df735505641f8de710；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -50,7 +50,7 @@ geometry43584188751实际26门仅条件充分：同一精确闭C²解η0、全C0
 完整周期外帽B,C真匹配可由径向唯一性付frame/位置周期及腰C²镜像；97线性行不替代非线性全matching。
 newton继续边界/repairδ正high/Green及真qν−Z；phase继续真root/β/strong；tail继续scalar高网及移动mixed middle；root逐条审证即推并接全逆/非线性。子问题完接open下一项，不因阶段结果、时长或等待停止。
 
-cached Green v1 43602923145在数学前因repo/artifact过程身份失败，原件全保。receipt-only43603364028成功，逐字段核仅多final推送回执；真repair process16de872ce106e05b6add99d8406598de3cc87b94f4533a9fc3bb46294c66366a，boundary d81f87fb08dde8d1a8501cf4ac2dc71b71f08c542fc39870c0ac8cb0f13f57c7。v2新5路径/97manifest已部署，原91哈希0变，数学仅两PROCESS常数不同。继续特定low193/cut方向。
+cached Green v1 43602923145在数学前因repo/artifact过程身份失败，原件全保。receipt-only43603364028成功，逐字段核仅多final推送回执；真repair process16de872ce106e05b6add99d8406598de3cc87b94f4533a9fc3bb46294c66366a，boundary d81f87fb08dde8d1a8501cf4ac2dc71b71f08c542fc39870c0ac8cb0f13f57c7。v2 run43604003161真实10门/child0：native c35abd69018e7ab5a9fc4b7f5bcc32d5dae4ba5078520fba728376602019cc89，7,900,000B/4无损parts。已知五源负窗总上界1.471767296，其中body .794760129、cut .677007170；尚未过.004995427801979700，这不是实际误差下界。继续保特定low193/cut方向。
 
 尾中间块三不交phase零图已证：高κ≥2^4000J40同一θ full径向两态；紧κ[1/4,K*]固定三维图每邻包共同PSD；低κ16e..1/4以det的真实0,e双零保护全盒，r_l=2^-1000Δ²ρ9、ρ=2^-1024J^-8，无旧δ96损失。低锥当前actual mixed/flux mean已由完整joint+whole-C4全能量付，带外负项/定位门保；高/紧actual混频、端图/邻区反馈、完整near-kernel及最终层权仍继续。
 

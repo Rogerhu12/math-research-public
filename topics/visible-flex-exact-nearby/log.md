@@ -503,3 +503,7 @@ receipt-only43603364028 success/children=[]，真实receipt331dfd81c7cf148c0c58a
 ## 2026-11-14 14:23:16 UTC — 低κ当前完整混频型与真实无δ96参数盒
 
 审证L1–36的Minkowski integrated det、M²=0/1两个双线性null、复κ可去商与当前补偿误差；独立核物理BΔ/中心wave及mean尺度。亲读72 F17–24、74 E9–24、70 P6–16与71 C26，确认whole-C4/当前joint/physical total-conormal入口，原ra列只因C=0准确消去，χ/两Γ/其它层仍付；新增16bits余量与带外Young界保。原解析blob独立推，不把低锥actual PSD改名为所有near-kernel定位。
+
+## 2026-11-14 14:28:47 UTC — actual cached known-source Green v2
+
+43604003161 success；十门、数学 child0，13.965179105s 数学 /20.000808148s 实际子进程。完整 native c35abd69018e7ab5a9fc4b7f5bcc32d5dae4ba5078520fba728376602019cc89，7,900,000B/4无损parts；summary3173ad3c340e39a1bf15d3544768743e5f69dcf4d0eb6587bf298c40489e0599，repo process2efc7a8190dd8f49714373438cbc8f4bb3a3394ad07730b713274ffcf194d49a。负窗整体1.471767296>目标.004995427801979700，体源.794760129/cut .677007170；原件全保，不把估计粗解释成真误差下界。已发布独立 actual 结论，转保符号 low193 和 true-cut 方向。

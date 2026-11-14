@@ -185,3 +185,7 @@
 ### 当前全低缩放混频型的无δ96有限盒
 
 [完整低缩放精确曲线](results/R119-supplement-low-scaled-exact-phase-curve-and-current-mixed-form.md)保持两个真退化因子，避免以绝对误差除κ²；当前真实joint方向的径向两列准确零，其余非径向响应逐项付。全低锥/flux mean给r_l d_l/2正型，保完整带外负项与显式待证定位门，未授全网逆。
+
+### 2026-11-14 actual cached known-source Green budget
+
+[R133-supplement-actual-cached-Green-known-source-budget](results/R133-supplement-actual-cached-Green-known-source-budget.md): public run43604003161 passed all ten gates. The complete finite193 response has a negative-window upper bound 1.471767296; body .794760129 and true cut .677007170 dominate. This is too large for the required .004995427801979700 and is not a lower bound on the true error. Native c35abd69018e7ab5a9fc4b7f5bcc32d5dae4ba5078520fba728376602019cc89 is preserved in four lossless parts, with all original ports and source channels. Infinite unknown feedback remains separate.

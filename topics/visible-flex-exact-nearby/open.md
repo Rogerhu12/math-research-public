@@ -155,3 +155,7 @@ receipt-only43603364028实际成功。root逐字段比较原artifact和repo proc
 ### 低κ精确两phase曲线与当前actual完整低锥已完成
 
 [L1–36](results/R119-supplement-low-scaled-exact-phase-curve-and-current-mixed-form.md)以M²=0,1的两个准确双线性null构造det/[κ(κ−e)]全纯商；Minkowski integrated下界与复圆盘差守住整个当前有限盒，包括flux mean。新半径r_l=2^-1000Δ²ρ9无旧δ96损失。亲核72 whole-C4响应、70/71两根/变图能量和74全低锥，沿当前C=0使径向v0确零，actual joint两列/全部其它层保。得到低锥真实混频正型及任意带外负项，尚欠整个网络近核定位/高紧actual控制和最终权。
+
+### 2026-11-14 14:28 known-source actual budget
+
+43604003161 已真实完成完整五源 Green（十门/child0），负窗 <1.471767296、整窗 <3.141134770。主要损失是旧体源整体范数和右端 cut 单位列；新增 repair/waist/jump 很小。继续保留特定 low193 Fourier/径向符号及完整 true-cut 方向，再接未知 high 反馈；不能把这条过大的严格上界当实际失败下界，也不能宣称 qν−Z 或 Schur 已成。见 actual-cached-Green-known-source-budget。
