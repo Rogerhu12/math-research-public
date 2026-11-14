@@ -4,9 +4,9 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、有限数值均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：ca0b0843b573f5852ee0bcd9b0bf0b59e538a0d1
-最近已确认本地pull：2026-11-15约01:56 Asia/Taipei，main=b202f09796ede72bb57cbb1d770dafd3987f987c，两README未变。随后终端transport断连且environment unavailable（18:34 UTC再次只读pwd仍同错误）；R762两次非快进后失联，远端404确认未推。按根规矩8以GitHub小文本API继续，每次取最新main/核两README、expected_sha且force=false；不把API核对称实际pull。终端恢复先保留本地旧R762分支，再pull/rebase并处理已重建重复，不能重推旧元数据。
-远端规则核对：2026-11-14 18:52:21 UTC，main=ca0b0843b573f5852ee0bcd9b0bf0b59e538a0d1，两README blob均未变；本次为终端不可用期间的API核对。
+已读规则提交：98994deef95d47f870809de4ce735c74bcf512af
+最近已确认本地pull：2026-11-15约01:56 Asia/Taipei，main=b202f09796ede72bb57cbb1d770dafd3987f987c，两README未变。随后终端transport断连且environment unavailable（18:34及18:56 UTC只读重试仍同错误）；R762两次非快进后失联，远端404确认未推。按根规矩8以GitHub小文本API继续，每次取最新main/核两README、expected_sha且force=false；不把API核对称实际pull。终端恢复先保留本地旧R762分支，再pull/rebase并处理已重建重复，不能重推旧元数据。
+远端规则核对：2026-11-14 18:57:09 UTC，main=98994deef95d47f870809de4ce735c74bcf512af，两README blob均未变；本次为终端不可用期间的API核对。
 
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权。终端可用时每推前且至少每小时实际pull --rebase，非快进立即循环重拉再推；PAT只CLI、不入文件。根独占commit/ref，代理只稿/blob。Markdown<100KB、H<10KB、open<30KB，>1MB数据gzip、文件<5MB，大可复现表只artifact。日志本题≤5行，不设冻结/独立审查审批门。
 最新完整旧H/open分别存[before-R771](notes/2026-11-14-public-handoff-before-R771.md)、[before-R771](notes/2026-11-14-open-before-R771.md)，内接R759/R766/R762等完整归档。完成计算不重跑；未推稿按记录重建。
@@ -17,11 +17,13 @@
 - **R759已成**：run43625474728/source4728e6868e2509556e5c60e138fd97c9b4120d8e，8.629164621秒。完整1600行HNF给Z秩12/O_K6，原Ωsolve/正定/ζ/exact LLL全核；选index4、d1206，非全局minimum。cert7c2c611b9a5f43bc3a2a0007bf2cb5dd2fa8d10f133b663dbca0d054e1515de0，artifact14125233728。完整原12微分/period/Gram和全部SHA见正式结果，直接复用。
 - **R762 v2已推bbb8fd2e**：原21固定点给μ3商Y genus127、deg t820；正等变f的degree-d单函数y∈M(Y)及x=a·3(y²−b)(h/a)/dy。M=Lξ=K(U)，原b_half负号、qY=Q³/¼因子均保。十九原树边周期与degree mod3唯一给c0平移。旧未推稿与v2不同，恢复时勿覆盖。
 - **R764实际成功**：run43626804312/source6d685485fe4a6b186355d2482deb6fb5ba8144d9，0.440895936秒。十九原树边×十二原微分全精确落K，(1−ζ)period全整；全部20×12 cusp标签0，十二c0平移泛函全0，degree余数皆(1,0,0)，ζ全核通过。因此完整原整数格所有映射把全部cusps送O，所选d1206的fP=f0。cert f23a1e1ee3059d5608edffc3e53d739fce6bb553c9449e04330b267e4b7c588a，artifact14127135207/manifest eb360b3a963a0cc32401bdc22536c050dc44bb0b27a09b11463b558f3fb7626f；原两stage/SHA详正式R764结果。旧period/格/degree未重算，实际函数/β/高度仍缺。
-- **R767已证明**：原level82商M2=H0(K+Dcusps)维146，deg272正常生成；E4/E6/η^12四层各补2方向，M12维1514。t²Δ=(η^12/2−sE6/144)²的section零div正是2(t)0，给真实RR基。R745原六行minor407保e≤19；完整P外极点计数给方程−e..2846−e共2847行、特征零kernel308/rank2720、基至qY2846、h/dQ至Q8557。证明SHA33fb32458eaf62e1499de092b6139672304ceefe096eef4a5253a2d7637a940d。具体146/1514基的mod739非零minor与精确recipe由global准备公开Actions，未称实际基已求；后接函数/β/高度。
+- **R767已证/807d31ab**：原M2维146正常生成，加8个椭圆主部给M12维1514；真实div(t²Δ)=2(t)0。R745原minor407给e≤19，严格P外极点计数使完整系统2847行/kernel308/rank2720，基前缀2846/Hodge8557。具体原配方由R771实际算，未把理论秩当输出。
 
 - **R769实际穷尽**：run43628341694/source4faaf06db52eb9110cf15766616aa501ff177889，0.013586945秒。完整原12维格degree≤693没有非零向量；385精确事件、所有frame完成、空栈且唯一leaf0。cert97e1949ef4dfc890c5ac975533cfaa9ff73682321b1b4030ac6723259a4fc26a，artifact14126529570；原格全映射degree为3倍，故非零degree≥696，未声称全局minimum。此有界项关闭不重跑，继续d1206/1514维R771实际RR基，未有函数/β/高度。
 
-- **R771实际基工程本次触发**：按R767原H82/126半迹、40×3360完备候选和权1准确公式，先M2 rank146，再正常乘积各维与椭圆主部补M6 rank694/M12 rank1514。模739原recipe非零minor证char0基，不把mod系数猜升；只读R745/R759小cert，E1逐82行/基逐批断点、80分钟预算，完整表仅artifact。core9cda269687a01c95c9c20695be771706bbddd37b1b8fedc8b9258386c3965d46，requesta9615bfd01fba9dd93dac699dc19399bd627e61263fb725ae9cff7e71e59b14f；run待推后读取。M6供R774原H³表达，实际函数/β未算。
+- **R771实际基工程本次触发**：按R767原H82/126半迹、40×3360完备候选和权1准确公式，先M2 rank146，再正常乘积各维与椭圆主部补M6 rank694/M12 rank1514。模739原recipe非零minor证char0基，不把mod系数猜升；只读R745/R759小cert，E1逐82行/基逐批断点、80分钟预算，完整表仅artifact。core9cda269687a01c95c9c20695be771706bbddd37b1b8fedc8b9258386c3965d46，requesta9615bfd01fba9dd93dac699dc19399bd627e61263fb725ae9cff7e71e59b14f；实际run43628998192/source49abc04d7867c9f56911866494692c597cf642d7正在计算。M6供R774原H³表达，实际函数/β未算。
+
+- **R772已证**：原GL2 det半线性trace给K定义RR基（cusp系数仍M），R764真零平移使y∈L(Y)。M/L40坐标展开后，真实kernel维308；任意部分准确行达到rank2720就已是完整全球kernel，可提前结束前缀。原H³=4F³/1722³∈M6由Q2460/qY820唯一认证；候选A/B的W³=27B²(A²−bB²)²H³是M78等式，准确至qY10660即全局真映射。实际基/核/函数未求；R774直接复用R748已有a_m≤4096，扩真实six Fourier/立方，不重枚举newform。
 
 ## 原ordinary问题及最新结论
 

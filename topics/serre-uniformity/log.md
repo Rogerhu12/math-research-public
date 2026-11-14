@@ -200,3 +200,8 @@
 - R771原H82/126半trace与全部标签E1配方工程提交，模739选真实M2/M6/M12基与非零minor，保原recipe不猜升；只读真R745/R759小cert，旧period/格不重算。
 - core9cda269687a01c95c9c20695be771706bbddd37b1b8fedc8b9258386c3965d46、requesta9615bfd01fba9dd93dac699dc19399bd627e61263fb725ae9cff7e71e59b14f；新增专用workflow，80分钟逐E1行/基批次断点，完整新表仅artifact，既有publisher不改。
 - 根已读全部源码/方法/真实schema及官方flint接口，五SHA相符；R769空证已推4121013aeb49a4959b2d1cd8f9e2f859852145d6。HANDOFF/open完整归档压缩后同步，终端不可用期间小文本非force；无本地数学/AST声称。
+
+## 2026-11-15 02:57 Asia/Taipei · serre-public-resume-20261114
+- R772原GL2 det半线性平均及真fP=f0给K基/L未知系数，M/L40坐标的任何准确部分rank2720即完整308核；原H³=4F³/1722³的M6界820及候选M78恒等式界10660严格保所有原规范。
+- 证明SHA30006eca29d55c9b2e227f490e0ec9ffe128073f1c49c6dab25d3e532f4db59d；未预称实际下降基/核/函数，R774复用R748已有4096原newform系数只做新Fourier立方合成。
+- R771已推49abc04d7867c9f56911866494692c597cf642d7，真run43628998192执行中；18:56 UTC终端重试仍unavailable，无法实际hourly pull已明记，按根规矩8核最新main/两README并小文本非force继续。HANDOFF/open/index同步。

@@ -277,3 +277,6 @@
 
 
 - **R771（方法已证明，公开工程已保存）**：[原商146/694/1514维基的有限秩计算](notes/R771-original-quotient-RR-bases-method.md)。原全label trace、准确Fourier公式、正常乘积及椭圆主部补方向，以实际mod739非零minor认证特征零符号基；只读R745/R759，完整断点及recipe留artifact。尚未登记实际基或原映射结果。
+
+
+- **R772（已证明）**：[原RR算术下降及函数恢复的精确证书](results/R772-original-RR-descent-and-exact-function-recovery-certificates.md)。原det半线性平均给K基，真零平移使未知系数在七次L；40坐标展开后实际部分rank2720已足以确定完整308核。原H³的M6/820界和候选映射的M78/10660界提供另一完整验证；保全部α/1722/82及cusp字段，实际函数仍待计算。

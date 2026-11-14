@@ -229,3 +229,6 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 
 
 **R771（原146/694/1514基工程已提交）**：[方法](notes/R771-original-quotient-RR-bases-method.md)完整原H82/126半trace与40×3360标签候选，以模739真实非零minor选原E1配方，逐乘积/椭圆主部得M2/M6/M12具体char0基；保全部精确recipe，不猜升单个mod系数。真R745/R759小cert和R767 proof SHA绑定，80分钟逐行/批次断点，大表仅artifact。实际基待run返回，继R774原H³、R772 K/L下降及原函数/β/高度。
+
+
+**R772（原K/L下降与有限完成判据已证明）**：[完整证明](results/R772-original-RR-descent-and-exact-function-recovery-certificates.md)原GL2行列式半线性trace给K定义的146基及高权RR基，cusp系数仍保M；R764实际fP=f0给y∈L(Y)。按M/L四十坐标展开后的任意准确部分行若实际rank2720，即等于308维原全球kernel，不必机械扩到完整尾。H³=4F³/1722³是原M6，Q2460至qY820足以认证；W=B DτA−A DτB（Dτ=θ/82）的M78恒等式精确核至10660也能认证原映射。两路径均须特征零准确代回或有界CRT，不以mod候选代函数。继续R771真基、R774原立方、下降核和β/高度。
