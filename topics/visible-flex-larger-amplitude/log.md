@@ -372,3 +372,7 @@ R247证明仿射coast上原有限Frenet RHS常值、Hermite中点消去及真实
 ### 2026-11-14 11:11 UTC — actual complete M112 preparation and unchanged boundary check passed
 
 公开run43588155190/prepare112真完成：699节点保留全部453维，四类查询域最小beta²=.005082723249，原col=.007110595仍为初猜；完整BC Richardson9.51769e−10通过原5e−5门。独立fullDN适配器绑定真实prepared SHA/FD/原96来源，真112锚完成后直接接原全部Newton/QR/最终tail门。初scalar/BC参考与实际DN严格区分；旧.99的5.77368e−7明确为三归一化分量，后续同时报真实operator范数。完成标准按README保C²族并精化metric，不额外加机器六jet门。
+
+### 2026-11-14 11:17 UTC — bind actual M112 closed consumers and minimal original stage28 replay
+
+五个独立v3消费者绑定真完整338维物理/453维增强接受态、完整p*与其自身尾/config SHA；同一SE2与完整mean下读实际材料metric/operator/曲率并保全部C²节点生成<5MB闭网格。静态接口已核，尚无新接受面。题外workflow接coupling112完整链但先不触发；request09仅原stage28/RK48六个已有节点重放，先严格复现旧A/B/C字节和mean，再局部f8/f16/f48比较，无BVP或全尾重算。

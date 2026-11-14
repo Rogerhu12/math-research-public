@@ -11,7 +11,7 @@ on:
         description: Actual numerical calculation
         type: choice
         default: all
-        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity]
+        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112]
 
 permissions:
   contents: write
@@ -39,7 +39,7 @@ jobs:
           python - <<'PYLANES'
           import json, os
           from pathlib import Path
-          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity'}
+          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112'}
           if os.environ['EVENT_NAME'] == 'workflow_dispatch':
               selected = os.environ['DISPATCH_LANE'] or 'all'
               lanes = ['free3', 'geometry', 'coupling', 'tailzero', 'cardinal'] if selected == 'all' else [selected]
@@ -90,6 +90,9 @@ jobs:
             /topics/visible-flex-larger-amplitude/notes/public-actions-43582043166-1-tailzero/zero-H-T96/
             /topics/visible-flex-larger-amplitude/notes/2026-11-14-public-RK48-cardinal-tail-packet/
             /topics/visible-flex-larger-amplitude/notes/2026-11-14-GW-cusp-compatibility-packet/
+            /topics/visible-flex-larger-amplitude/notes/2026-11-14-stage28-original-rk48-input/
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-tailzero112/zero-H-T112/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43586618658-1-gwcompat/GW-cusp-compatibility/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43585737152-1-coupling/preparation/prepared.json.gz
             /topics/visible-flex-larger-amplitude/notes/public-actions-43585737152-1-coupling/full-DN/RMS-domain-preflight.json
@@ -173,6 +176,13 @@ jobs:
             --input-directory topics/visible-flex-larger-amplitude/notes/public-actions-43586618658-1-gwcompat/GW-cusp-compatibility \
             --packet topics/visible-flex-larger-amplitude/notes/2026-11-14-GW-cusp-compatibility-packet \
             --out "$VISIBLE_OUT/GW-three-node"
+      - name: Replay only the original stage28 RK48 nodes and compare local finite fields
+        if: matrix.lane == 'stage28'
+        timeout-minutes: 30
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/exact_20261114_stage28_local_GW_refinement.py" \
+            --source-topic "$VISIBLE_SOURCE_TOPIC" --node-heap 1536 \
+            --out "$VISIBLE_OUT/stage28-original-RK48"
       - name: Solve and audit the actual new T112 zero-height tail anchor
         if: matrix.lane == 'tailzero112'
         timeout-minutes: 315
@@ -210,6 +220,50 @@ jobs:
             --tail-config "$VISIBLE_OUT/T112-config.json" \
             --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
             --node-heap 6144 --out "$VISIBLE_OUT/boundary112-response"
+      - name: Restore the actual completed M112 preparation and full boundary response
+        if: matrix.lane == 'coupling112'
+        run: |
+          export PREPARED112="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112"
+          python - <<'PY112'
+          import hashlib, os
+          from pathlib import Path
+          base = Path(os.environ['PREPARED112'])
+          expected = {
+              'preparation112/prepared.json.gz': '0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714',
+              'boundary112-response/response-check.json': '4bacf0bdbf00fd919e4de48f0b36c8322d2ea26539abeac9b9ddcf7c0db6bf7f',
+          }
+          for name, digest in expected.items():
+              if hashlib.sha256((base/name).read_bytes()).hexdigest() != digest:
+                  raise ValueError('The actually passed M112 input changed: ' + name)
+          PY112
+          mkdir -p "$VISIBLE_OUT/preparation112" "$VISIBLE_OUT/boundary112-response"
+          cp "$PREPARED112/preparation112/prepared.json.gz" "$VISIBLE_OUT/preparation112/prepared.json.gz"
+          cp "$PREPARED112/boundary112-response/response-check.json" "$VISIBLE_OUT/boundary112-response/response-check.json"
+          cp "$PREPARED112/T112-config.json" "$VISIBLE_OUT/T112-config.json"
+      - name: Solve the genuine M112 full-DN problem using its own true T112 anchor
+        if: matrix.lane == 'coupling112'
+        timeout-minutes: 270
+        run: |
+          export VISIBLE_FLEX_COMPLETED_ZERO_TAIL_DIR="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-tailzero112/zero-H-T112"
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_lifted_modes_full_dn.py" \
+            --accepted "$VISIBLE_ACCEPTED" --warm "$VISIBLE_OUT/preparation112/prepared.json.gz" \
+            --response-check "$VISIBLE_OUT/boundary112-response/response-check.json" \
+            --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
+            --tail-client "$VISIBLE_COMPUTATIONS/exact_20261114_seeded_zero_tail_client.py" \
+            --tail-config "$VISIBLE_OUT/T112-config.json" \
+            --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
+            --node-heap 6144 --out "$VISIBLE_OUT/full-DN112" --work "$RUNNER_TEMP/visible-full-DN112-qr"
+      - name: Read and close only the actually accepted M112 field with its own tail
+        if: matrix.lane == 'coupling112'
+        timeout-minutes: 90
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_lifted_modes_after_accept.py" \
+            --checkpoint "$VISIBLE_OUT/full-DN112/actual.json.gz" \
+            --port "$VISIBLE_COMPUTATIONS/alternative-neck-provider-smallcut30-port32-r2048.json" \
+            --tail-config "$VISIBLE_OUT/T112-config.json" \
+            --tail-response "$VISIBLE_OUT/full-DN112/actual-tail-final-audit.json.gz" \
+            --source-topic "$VISIBLE_SOURCE_TOPIC" --out "$VISIBLE_OUT/accepted-112-physical-closed" \
+            --angles 2048 4096 --radial-subdivisions 2 4 --readout-levels 1,2,4
       - name: Diagnose original material-circle projection and actual RMS domains
         if: matrix.lane == 'circleprobe'
         timeout-minutes: 20
@@ -294,6 +348,11 @@ jobs:
         run: |
           python -u "$VISIBLE_COMPUTATIONS/exact_20261114_tail_trace_report.py" \
             --directory "$VISIBLE_OUT/full-DN" --out "$VISIBLE_OUT/full-DN-tail-diagnostics.json.gz"
+      - name: Read actual M112 full-DN diagnostics without changing solver status
+        if: always() && matrix.lane == 'coupling112'
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/exact_20261114_tail_trace_report.py" \
+            --directory "$VISIBLE_OUT/full-DN112" --out "$VISIBLE_OUT/full-DN112-tail-diagnostics.json.gz"
       - name: Preserve actual outcomes and failure checkpoints
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02

@@ -29,7 +29,7 @@ def sha(path):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--results', type=Path, required=True)
-    p.add_argument('--lane', choices=('m96', 'rk48', 'geometry', 'free3', 'material', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity'), required=True)
+    p.add_argument('--lane', choices=('m96', 'rk48', 'geometry', 'free3', 'material', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112'), required=True)
     a = p.parse_args()
     if os.environ.get('GITHUB_REPOSITORY') != 'Rogerhu12/math-research-public':
         raise RuntimeError('Results belong to the explicitly designated public repository')
