@@ -368,3 +368,6 @@ cert SHA7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be，
 
 
 **R748（原signed CM根公开计算请求）**：以[R747](results/R747-global-real-square-root-of-original-toric-period-product.md)的T²=2NP及整分母为输入，复用R745原N和R717精确P；严格CM二阶导数球选择原有符号根，exact square验证，再给原六Hodge基的coarse首系数(9/14)Tr(β^jT)。[方法](notes/R748-original-signed-real-CM-root-and-p41-Hodge-first-jet-method.md)已完整写出，实际结论待公开Actions返回；不推断原q、β或高度。
+
+
+**R752（保留二阶scalar项的精确交换已证明）**：[完整证明](results/R752-exact-Gamma-scalar-exchange-with-the-retained-second-coefficient.md)保原s_act=1+iπ+[σ₂−(1+i)/2]π²、σ₂∈F43，原q全链与rational quadratic给Lq(D_b)=21εσ₂。选择无关I₀=Lq(D₀)−(20/23)〈D₀p,dflat〉满足I₀=ε(21σ₂+2b(J−18))；未除b、未由τ或q-socle把σ₂置零。真正待求I₀与σ₂的global ordinary Γ/S Norm输入，R723的Jflat/b−24桥仍未证明。

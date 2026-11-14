@@ -74,3 +74,8 @@
 - R748原signed T方法与专用公开Actions请求提交：复用R745向量/N及R717原P，严格CM二阶导数球定±、精确平方恒等式及原六Hodge首系数；数值结论待run。
 - core SHA6b34e4946907cb657cb68ce585e43b8ef31295be36e3f700966daa0d4f133d7c，方法SHA60fea71514ab81922af3403b705c7f2ffb3296352568d75ba6e2ed1bdf93f113；本地只做AST/路径/SHA核验，无数学运行或旧纤维/AFE/DFT重算。
 - R745正式结论已推028768d96e2efec6374a48f128a7ef673a4b86bf；HANDOFF归档压缩并与open同步。复用既有publisher，无共享设施修改。
+
+## 2026-11-15 00:51 Asia/Taipei · serre-public-resume-20261114
+- R752保原scalar二阶σ₂，完整q交换、quadratic/cochain修正和两p泛函给选择无关I₀=ε(21σ₂+2b(J−18))；b=0/24边界保留，不冒代R723真桥。
+- 证明SHAf7e527397f27d21d51590c8e3dd5bc8ddaa3cdbc9971a800ecaa5e04fdd47776；根核原R657 tame-fixed split及R731 socle，HANDOFF归档压缩并与open/index同步。
+- R748公开run43617493590已success，原signed T与六Hodge首系数smallcert已读，正式结论另推；本次实际pull两README未变。无本地数学运行或共享设施修改。

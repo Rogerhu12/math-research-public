@@ -214,3 +214,6 @@
 
 
 - **R745（精确计算与原下降已完成）**：[原p41有理Hodge基与完整finite adelic输入](results/R745-certified-original-p41-Hodge-and-adelic-input.md)。公开run43616027318生成原六基800项、40p向量/完整N及80平移/819边/87961端点；ℓ739的原六行minor407证rank6，核心0.654秒。保αs、CRT6逆元、ζ²一次transport与微分246，复用原拓扑/模型，两完整表仅artifact；实际period/Hom/q/β/高度仍须继续。
+
+
+- **R752（已证明）**：[原Γ/scalar交换与保留二阶类作用](results/R752-exact-Gamma-scalar-exchange-with-the-retained-second-coefficient.md)。原全q交换、rational quadratic及全部local gauge给Lq(D_b)=21εσ₂；实际global flat quotient I₀选择无关且I₀=ε(21σ₂+2b(J−18))。保a₂实部、b=0与b24边界，未用socle/全塔强迫σ₂零；原J/b真桥及I₀/σ₂值仍须继续。
