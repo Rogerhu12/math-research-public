@@ -1,0 +1,25 @@
+{
+  "format": "r150-original17-actual-row-checkpoint-continuation-v1",
+  "sameFrozenSources": true,
+  "sourceRun": 43619888599,
+  "originalCompletedRows": 4963,
+  "sharedMathematicalSecondsLimit": 60,
+  "perChildAddressSpaceMiBLimit": 512,
+  "command": [
+    "timeout",
+    "--kill-after=10s",
+    "60s",
+    "prlimit",
+    "--as=536870912",
+    "--core=0",
+    "--",
+    "/dev/shm/isp-789f-all198-final-resume-789f/bin/original",
+    "/dev/shm/isp-789f-math-research-recovered/topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+    "/dev/shm/isp-789f-math-research-recovered/topics/invariant-subspace-problem/notes/r150-h25-second-residual-789f/original-integer-h25-mod29791.txt",
+    "/dev/shm/isp-789f-all198-final-resume-789f/recovery/inputs/final-nine-original.recipe",
+    "/dev/shm/isp-789f-all198-final-original-resume2/final-original",
+    "57e747d2647d6de19f094955d1de1977a5a112dfaf7ee11d8afc0d2ac1363c8f"
+  ],
+  "precondition": "All15 previous stages completed; only the original17 product remains.",
+  "startedAtUTC": "2026-11-14 17:28:15 UTC"
+}

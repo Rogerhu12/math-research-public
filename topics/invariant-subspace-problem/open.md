@@ -23,7 +23,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-interior-full-phase-789f.md)及其中各轮归档；未列条目不算关闭。
 
-**原式来源与完整第二提升：** [全198实际第二像](notes/2026-11-14-r150-complete-second-primary-image-seven-and-global-source-789f.md)已得相关像连W维7、modW维5，九H0目标全相容；新方向δK1补旧四列唯一s2缺口。完整九组合原来源85/全315差/最终标准来源276均真已付，最后原运输与17式乘回接续中。原h0的31整数模961障碍仍真，不排Q31分母；char0与31饱和继续。原143/104自由检验/投影189/∞预算及所有旧数据保H与快照。
+**原式来源与完整第二提升：** [全198实际第二像](notes/2026-11-14-r150-complete-second-primary-image-seven-and-global-source-789f.md)已得相关像连W维7、modW维5，九H0目标全相容；新方向δK1补旧四列唯一s2缺口。[H0原17模29791](notes/2026-11-14-r150-h25-full-original-seventeen-mod29791-cost276-789f.md)已全部原乘回，九实际成本276。完整315数据可去189次P，接低费用最后原像；原h0的31整数模961障碍仍真，不排Q31分母；char0与31饱和继续。原143/104自由检验/投影189/∞预算及所有旧数据保H与快照。
 
 **star当前解析接口：** [固定内峰全源极限](notes/2026-11-14-balanced-star-macroscopic-interior-full-phase-projection-limit-789f-next.md)给整个m维相位谱趋1^(m−1),0、紧profile有κ≤1+C/√Q；[严格端峰](notes/2026-11-14-balanced-star-strict-endpoint-full-phase-decay-789f-next.md)全源Φ=O(Q⁻²)；临界过渡/退化/消失组/无界权/增长组数仍开。实际曲率仅逐点负指数≤3，均值/总数共同回归仍须支付，完整链接保上方快照。
 
