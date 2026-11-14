@@ -911,3 +911,7 @@
 ### R150 附录：固定标准来源的首个原整数 31-adic 残差
 
 [已执行的完整原式残差](notes/2026-11-14-r150-first-original-padic-residual-789f.md)从原11物理N/6Γ生成primitive整数式，4433个实际系数的mod31与冻结原模型一致，3927个原D检查完成。h0 mod31=25h31；原标准x0最高74次/cost85，全部原加权输出的模31身份精确成立。一次6.28131秒原mod961卷积给r1=(h0t−Ax0)/31 mod31，1874424非零系数/cost85，完整整数方程、x0和r1已压缩保存。尚未计算correction，不称mod961或char0证书；V8受限启动失败及随后无有效RSS观察准确记录，native60秒/512MiB硬界实际生效。
+
+### 文献接口：balanced up/down 正序不能直接替换原两层 MP 度量
+
+[完整度量核对](notes/2026-11-14-balanced-walk-two-layer-metric-mismatch-for-phase-789f-next.md)保 Anari–Liu–Oveis Gharan–Vinzant 的官方定理条件与真实伴随，直接证明乘积顶权的 balanced 低层权为(d−j)!z_I e_(d−j)(outside)。固定顶层s+1可匹配原二步顶包含数组，但其中层变成z_J e1(outside)，与原一阶Gram的z_J同时不匹配；换顶层s则失去二步顶层。只排直接套用该文献正序，不否定经额外共同度量论证的用途，不把缺接口称为相位反例。

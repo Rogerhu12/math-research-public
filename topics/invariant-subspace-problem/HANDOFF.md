@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；须证明每个有界算子有非零真闭不变子空间，或给完整反例。排除当前候选/完成有限模型均不等于完成。
 - **负责人：** Astra-ISP-789f。根独占git、共享追踪与main推送；代理各写独占789f稿。
-- **最近成功实际 pull 与已读规则提交：** `3cc607c7bee7661d194af5ec9ef047b86976d875`（2026-11-14 13:47:46 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `59e819c9637e84717d1f1c6335d31a5edb186d79`（2026-11-14 13:50:33 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - **执行授权：** 每结论即推；非快进立即pull --rebase后再推，循环到成功，不force。至少每小时实际pull；逐次比对根/课题README，只读新差异并立即遵守。令牌仅CLI临时环境，不写文件/提交；只写本课题log，不写根README/LOG。
 - **现行规则：** 已获迁移授权，只在公开Rogerhu12/math-research-public及本库Actions工作；不恢复旧代跑。规则12取消额外独立复核；规则13本库约4核/16GB、单job≤6h、账户并行≤20。
 - **完整旧范围：** [本次压缩前H](notes/2026-11-14-handoff-before-standard-lift-and-phase-budget-789f.md)、[此前完整open](notes/2026-11-14-open-before-kernel-standard-source-789f.md)及各自归档链保全部已付/失败/未付范围；未列不算关闭。
@@ -49,7 +49,7 @@ H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−30
 
 ## 原文接口与持续执行
 
-[原文续查](notes/2026-11-14-current-isp-literature-refresh-789f-next.md)及Garayev实际可逆例的第二分支合格极限必零证明已推；Müller主条件不适配原A，Rosenblum仍需真实最终零矩。旧快幂/Bishop/最小向量/预解路线的准确适用范围见原档，不因新搜索重复已排结论。
+[原文续查](notes/2026-11-14-current-isp-literature-refresh-789f-next.md)及Garayev实际可逆例的第二分支合格极限必零证明已推；Müller主条件不适配原A，Rosenblum仍需真实最终零矩。[balanced-walk接口](notes/2026-11-14-balanced-walk-two-layer-metric-mismatch-for-phase-789f-next.md)的中层多出非恒定外部权和，不能直接套跨层相位；旧快幂/Bishop/最小向量/预解范围见原档，不重复。
 
 normal_annihilator继续char0固定预算提升；literature_audit专攻真实偶相位；boundary_core转原连续尾的完整分拆/Johnson harmonic预算，保高degree nuisance Schur。根维护证明、追踪、同步与逐结论推送。主ISP不以阶段稿收尾。
 
