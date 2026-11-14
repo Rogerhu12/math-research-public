@@ -113,3 +113,7 @@
 ### R133 补充：当前首相位的实际完整第四根算术
 
 **已证明。** [完整结果](results/R133-supplement-actual-first-phase-complete-quadratic-gap.md)由公开43598755503实际11门证明：对当前原生−Xiδ*/4完整区间、全部|n|≥97和四单位根，gap>1/(512|n|)。1502完整CF候选及无限高n整数norm均付，最坏n1635；实际完整β辨认、root/positive匹配及strong仍欠。
+
+### R133 补充：实际有序标量根算子与增益径向余项
+
+**已证明。** [O1–20完整算子恒等式](results/R133-supplement-ordered-scalar-root-operator-and-one-gain-radial-remainder.md)从全两行/mean方程得到D0²+η²K∂²−TD0+V，AC无角一阶项；T的非增益部分准确为ηr/η−4b〈S〉+5dφ，剩余R−1有真实一阶角增益。保完整有限秩投影、primitive、弱源与重建，未把实际type-change连接当成Airy模型已完成。

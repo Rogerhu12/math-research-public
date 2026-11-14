@@ -101,3 +101,5 @@ held/D>.05075888242、reach/D≥800/25039>.03、Hdiam/D≥360/511>.2，四个非
 12:35共享终端失联后按根规矩8只用已连接GitHub处理小文本，H区分最后真pull/API读取；runner继续真pull，二进制与大矩阵留Actions。
 root管branch/H/open/results/log并逐条审证即推；newton推进源/正high转授/Green/真qν；phase推进实际root/β/strong；tail推进scalar高网/移动mixed middle。
 完成子问题立即接下一项；阶段结果、等待进程或时长都不是停止理由。
+
+已补[完整ordered scalar根算子](results/R133-supplement-ordered-scalar-root-operator-and-one-gain-radial-remainder.md)：AC的角一阶项准确消去，真实局部径向系数ηr/η−4b〈S〉+5dφ之外的系数有完整一阶增益；所有投影、独立mean及弱source flux保留。此为实际fold/根连接的完整输入，不授倾斜坐标中的非局部Egorov或strong。
