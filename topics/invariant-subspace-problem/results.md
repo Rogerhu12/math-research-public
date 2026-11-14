@@ -1013,3 +1013,7 @@
 ### R297 附录：全部真实 cofactor 的显式正核与完整 score jets
 
 [完整系数证明](notes/2026-11-14-balanced-star-cofactor-positive-kernel-and-actual-score-jets-789f-next.md)对任意Q给a_i=P_Q|zi=0的严格正定inclusion Gram，包含满并集边界的逐系数望远镜身份；特征仍为原删位乘积的Beta积分。真实f_i=1−2m_i的正核身份及全部坐标jets准确恢复G/H/L，重复物理位保任意组长。closed-polydisk稳定另由对角几何和与Grace证明；不依赖一般Agler开放命题。混合正权的核乘子1−z_j w_j*保真实符号，尚未付最终相位共同Schur或一般κ。
+
+### R150 附录：第二提升的真实37维部分与有预算的转置判据
+
+[完整归约证明](notes/2026-11-14-r150-second-bockstein-primary37-and-dual-transport-789f.md)由原最小多项式构造P=q(q⁻¹ modg)，g=(s−1)³(s−2)⁵，准确投到39维的1/2主部分；扣完整第一像后为37维。九真实r2全在该部分，R线性δ2使投影相容与全商相容等价，但正来源必须付degP≤189。有限原矩阵的双Bockstein恒等式用实际μA0=(λhat A/p)modp，直接由(λhat−pμhat)A/p²配对核方向；余198的第一校正可在预算177内支付。尚未执行这些转置算术，少数配对不代全像，正结论仍需原17乘回。

@@ -3,7 +3,7 @@
 ## 目标、规则与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子存在定理或完整反例才可收尾。有限模型/候选排除不算完成。
-- **最近成功实际 pull 与已读规则提交：** `122948c71995efca30bd9336e5358ef5f73a875b`（2026-11-14 16:39:03 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `7250f9f45f1287f1f62891f62173a8309a9ecc55`（2026-11-14 16:40:19 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根Astra-ISP-789f独占Git/main与H/open/results/log；代理只写自己的稿。每结论立即推；每推前和至少每小时实际pull，逐次只读两README新差异并立刻遵守。非快进立即pull --rebase再推至成功，不force。
 - 旧库迁移授权已读，只用Rogerhu12/math-research-public；token仅CLI临时环境，不入文件。不改根README/LOG、不问重复授权。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-cofactor-kernel-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
@@ -14,7 +14,7 @@
 
 T96完整图/DAG在 `/tmp/isp-t96-recovery-789f`，原model补在NF目录；原200高核、末两核及H0全部源/回执已保存，不重建旧图或重放已核202。具体运行/数据路径和全部旧数学范围保上一完整H及逐条证书。
 
-原Haar A非零非紧、单射稠密、拟幂零，W*(A)=B(H)、A′无非零紧；闭不变M均closure AM=M，普通循环性未知。Haar慢理想、负边界M=kerT与N=closure BM分开，N=M未证。R187/200有限像与R239合法窗口不付无权完整〈G⁻¹r,r〉、深jet/普通右费/跨birth。graph保同w/未来/负前缀、M3初次/M2以后、自然逆域及双费；primitive MP或固定birth不代移动birth。正常有限原秩源仍缺相容全链正距、真实下一尾m_j及单位锚，R276/289/291不支付。其余R147/150/176/236/268–290条件全保open和归档，未列不算关闭。
+原Haar A非零非紧、单射稠密、拟幂零，W*(A)=B(H)、A′无非零紧；闭不变M均closure AM=M，普通循环性未知。负边界M=kerT含e0，N=closure BM与N=M分开。原graph必须保同w/未来/负前缀、初次M3/以后M2、自然逆域及完整双费，primitive MP/固定birth不能替代。正常有限原秩仍缺相容全链正距与实际下一尾m_j；R289熵与R291指数rank不矛盾。其余全部旧原条件、路线和失败范围保open及上一完整H，未列不算关闭。
 
 ## Boolean 相位与原连续尾
 
@@ -40,11 +40,13 @@ T96完整图/DAG在 `/tmp/isp-t96-recovery-789f`，原model补在NF目录；原2
 - [完整第一β障碍](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)：旧200与末两cost86原核全算，1834多项式核覆盖后β像仍二维、九余增广rank6、逐目标dual。排任意参数次数31整数h0来源，**不排31分母Q**；全部原整除/NF/G与恢复文件已落库。共同唯一g=21h31/(s−2)给h1=(s+370)h0/(s−2)或保根集H0=(s−2)h0；h1来源≤181的存在范围保留。
 - [H0原17式mod961](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)：run43611215116实际53.711879712秒，九列原2195/6188/最终X全cost86、原最高75，D/content与整数乘回全核。五完整gzip落 notes/r150-h25-original-mod961-actions-789f/43611215116-1/；primitive X SHA6ff5083c…566e32。完整恢复 /tmp/isp-h25-original-mod961-43611215116。
 - [真实r2障碍](notes/2026-11-14-r150-h25-second-original-residual-obstruction-789f.md)：原A mod29791全乘回X及961整除/九NF/G余/820与315全观察实际19.065773529秒。九r2各不在完整β像，模其最小ell=(s−1)(s−2)；排所有Y≡X(mod31)的任意参数次数mod29791来源，**不排改初值或Q31分母**。7源码/25数据/七gzip在 notes/r150-h25-second-residual-789f/，14,621,079原字节哈希全核。
+- [四列实际不足](notes/2026-11-14-r150-four-genuine-second-bockstein-insufficiency-789f.md)保cost86/86/86/87与完整961整除。
 - [完整kerβ与δ2](notes/2026-11-14-r150-full-first-bockstein-kernel-and-second-interface-789f.md)：全部高核基=旧198＋K200−(12s+10)K199、K201−(25s+21)K199、K202−(16s+21)K199、ellK199，成本≤86/86/86/87；低1632真实提升δ2零。δ2(k)=[A(khat−31qhat)/961]在Q/imβ良定义，q须实际原来源。九r2商模恰1/2 primary各一维；先四列仅为充分性入口，失败仍须接198。
+- [37维与真转置归约](notes/2026-11-14-r150-second-bockstein-primary37-and-dual-transport-789f.md)：1/2 primary共39维，扣W得37；实际P=q(q⁻¹ modg)、degP≤189，正来源必须付该次数。余198原成本≤81，q的真预算177；实际λ²A/p²配对须先解μA0=(λhat A/p)modp，不把少数dual相容当全向量成功。
 - [射影/∞预算](notes/2026-11-14-r150-finite-budget-projective-cokernel-and-infinity96-789f.md)：B≥85有限coker=H⁰(C(B))，当前torsion需要仿射315＋原∞条件；真T96付u⁹⁶T∞=0、length≤745。完整∞充分测试未跑；必要像失败不需重复，已有实际源正证书直接支付其成本。
 
 ## 当前分工与马上继续
 
-[四个真实δ2结论](notes/2026-11-14-r150-four-genuine-second-bockstein-insufficiency-789f.md)：run43615783424/job132510414734，原来源cost86/86/86/87与原961整除全核，实际59.569477415秒。四δ+完整β的全多项式像维数6，九r2逐个不相容；只排四列，余198仍须算。45恢复文件/16完整gzip已落 notes/r150-four-second-bockstein-actions-789f/43615783424-1/，本地 /tmp/isp-four-delta2-43615783424；不重跑4VQ。normal接198的真实转置/37维primary，正结果仍接原17模29791。
+当前四列δ2全数据已推：run43615783424，实际59.569477415秒，四δ＋β像6维、九r2各失败。45恢复/16生成流在 notes/r150-four-second-bockstein-actions-789f/43615783424-1/；本地 /tmp/isp-four-delta2-43615783424。normal接198的真实转置/37维primary，保来源成本，不重跑4VQ；正结果接原17模29791。
 
 boundary独占star共同两端/相对Schur；literature全spin实际流及同源score/一负方向结构，尚未付普适κ。原s≈k短height图费仍缺。根持续逐结论整合推送并保持规则/H最新；主ISP未完成。文献原条件、Garayev强制零、balanced两层度量失配及全部旧失败保open/归档，不重复已排路线。
