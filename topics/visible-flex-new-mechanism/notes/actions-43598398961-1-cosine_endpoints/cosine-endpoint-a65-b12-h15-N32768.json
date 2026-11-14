@@ -1,0 +1,219 @@
+{
+  "schema": "space-star-frozen-cosine-verification-v1",
+  "status": "frozen_exact_cosine_parameters_continuous_certificate_attempt",
+  "source_report": "/home/runner/work/_temp/visible-new-mechanism/cosine_endpoints/cosine-endpoint-a65-b12-h15.json",
+  "source_report_sha256": "6fc0148ca09ba1ee743f4cadbb4fb24d24dab8d35ce0f93dd10479df350d8a40",
+  "source_design_status": "geometry_design_frozen_cosine_endpoint_candidate",
+  "source_solver": {
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "status": 8,
+    "iterations": 10,
+    "nfev": 46,
+    "final_epigraph": 99.0,
+    "final_minimum_design_constraint": -25370.947750853287,
+    "selection_rule": "best sampled feasible epigraph if available; otherwise least sampled violation"
+  },
+  "source_dense_frozen_audit": {
+    "angles": 6144,
+    "J_min_sample": -198.20425502437084,
+    "curvature_min_sample": 0.1252282524203909,
+    "curvature_max_sample": 5.3587720814633535,
+    "torsion_absolute_max_sample": 37.22834488512441,
+    "q_ell_absolute_max_sample": 9960.212751218542,
+    "lambda0_max_sample": 10944.110614354473,
+    "whole_width_principal_curvature_max_sample": null,
+    "height_sample_min": -0.1507121795722077,
+    "height_sample_max": 0.1507121795722077,
+    "height_absolute_sample_max": 0.1507121795722077,
+    "height_interpolation_remainder_upper_formula": 3.325935127740931e-07,
+    "height_absolute_bound_before_roundoff_validation": 0.15071251216572049,
+    "design_height_budget": 0.7453449087349615,
+    "height_budget_margin_before_roundoff_validation": 0.594632396569241,
+    "regularization_used": false,
+    "continuous_curvature_certificate": false,
+    "embedding_proved": false,
+    "reach_lower_proved": false
+  },
+  "frozen_physical_identity": {
+    "height_basis": "cosine",
+    "a": "13/20",
+    "b": "3/25",
+    "half_width": "1/50",
+    "height_coefficients": [
+      {
+        "numerator": "5404319552844595",
+        "denominator": "36028797018963968"
+      },
+      {
+        "numerator": "3575686967346333612825",
+        "denominator": "113265638714759031291904"
+      },
+      {
+        "numerator": "725989267131378669325",
+        "denominator": "1019390748432831281627136"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    ],
+    "height_offset": {
+      "numerator": "-142174296427961",
+      "denominator": "4503599627370496"
+    }
+  },
+  "frozen_physical_identity_sha256": "1a1fff1bb16fd8c89197cc8f06d75bb9e84fa4f5b277e02d840dfa44a85361ef",
+  "coefficient_freezing": "actual binary64 free parameters as exact Fractions; derived heights by the exact defining rational map",
+  "optimization_performed": false,
+  "automatic_coefficient_reselection_or_refitting_performed": false,
+  "height_offset_changed": false,
+  "old_sine_tip_valley_elimination_used": false,
+  "planar_report_sha256": "ba03fc43af2c86ee61b7ca1a9fa541f9287222ef8bd4dcb155c35332c9def405",
+  "continuous_certificate": {
+    "nodes": 32768,
+    "height_basis": "cosine",
+    "physical_identity_sha256": "1a1fff1bb16fd8c89197cc8f06d75bb9e84fa4f5b277e02d840dfa44a85361ef",
+    "exact_height_coefficients_used": true,
+    "exact_height_offset_used": true,
+    "fixed_physical_parameters": true,
+    "optimization_performed": false,
+    "invariant_calculation_frame": "common proper polar rotation of physical derivatives",
+    "unresolved_frame_cells": 0,
+    "cells_without_positive_J_certificate": 6074,
+    "whole_core_immersion_and_angular_closure_certified": false,
+    "central_curve_embedding_proved_from_positive_radial_projection": true,
+    "planar_radial_lower_exact": {
+      "numerator": "23",
+      "denominator": "100"
+    },
+    "zero_framing_proved": true,
+    "framing_degree_exact": 0,
+    "framing_proof": "both blackboard normal components are even functions; each sector retraces",
+    "J_lower": "-301.35719184425685961419304355470179895222284642906",
+    "kappa_positive_lower": "0.11931287099433708531696865941693765706725054658339",
+    "q_ell_absolute_upper": "15117.859592212842980709652177735089947611142321453",
+    "central_principal_curvature_upper": "14566.644039543204444121050765763412565832364931963",
+    "whole_width_principal_curvature_upper": null,
+    "principal_curvature_max_lower_from_resolved_cells": "9688.9261234842513788439574604026387788033036619284",
+    "necessary_reach_over_D_upper_from_curvature_lower": "0.000032877062412391064566409319215088668940954663812616",
+    "worst_J_cell_index": 29337,
+    "worst_curvature_upper_cell_index": 24846,
+    "height_vertex_max_upper": "0.15071217957220769394253054215928838379767977716121",
+    "height_vertex_max_lower": "0.15071217957220769394253054215928838379767977716116",
+    "height_second_derivative_absolute_bound_exact": {
+      "numerator": "72041811623393776167735",
+      "denominator": "28316409678689757822976"
+    },
+    "height_chord_remainder_upper": "1.1692740683464214638841218077373277820053552430491E-8",
+    "height_vertex_plus_remainder_upper": "0.15071219126494837740674518100050646117095759721477",
+    "height_whole_cell_interval_upper": "0.15080642597483669314783317066257911156341676780848",
+    "central_height_absolute_upper": "0.15071219126494837740674518100050646117095759721477",
+    "height_budget_for_conditional_amplitude": "0.76534490873496152625745869125958912289229486632735",
+    "height_budget_margin_lower": "0.61463271747001314885071351025908266172133726911258",
+    "perimeter": {
+      "lower": "10.645552055237593594720518987535879106538937594321",
+      "upper": "10.663197176914636890356591265876590107425878566363"
+    },
+    "a0_exact_enclosure": {
+      "lower": "1.6942922315331486405860985957814727279244384364534",
+      "upper": "1.6971005398695080350927845310068606030595342877479"
+    },
+    "projection_padding_upper": "0.02",
+    "core_diameter_upper": "3.1975772751191676516148594337655474701421209654390",
+    "conditional_witness_distance_lower": "1.0638372380993565357661810744228260322629461121945",
+    "conditional_witness_over_core_D_lower": "0.33270102535980442752058193399246375663022706487671",
+    "conditional_witness_ratio_at_least_03": true,
+    "local_curvature_ceiling_sufficient_for_003_Dcore_budget": false,
+    "tip_valley_exact_formula_certificates": [
+      {
+        "location": "tip",
+        "torsion_exactly_zero_by_even_reflection": true,
+        "exact_r": {
+          "numerator": "177",
+          "denominator": "100"
+        },
+        "exact_r2_minus_r": {
+          "numerator": "-597",
+          "denominator": "50"
+        },
+        "exact_z2": {
+          "numerator": "-72041811623393776167735",
+          "denominator": "28316409678689757822976"
+        },
+        "exact_z4": {
+          "numerator": "408719624737746599464185",
+          "denominator": "7079102419672439455744"
+        },
+        "resolved": true,
+        "kappa_enclosure": {
+          "lower": "3.8967241045437719542251305806556752759702245917545",
+          "upper": "3.8967241045437719542251305806556752759702245917556"
+        },
+        "q_ell_enclosure": {
+          "lower": "-3.2977116475529513032983977200179630429582996299423E-50",
+          "upper": "3.2977116475529513032983977200179630429582996299423E-50"
+        },
+        "J_lower": "0.99999999999999999999999999999999999999999999999999",
+        "whole_width_principal_curvature_upper": "3.8967241045437719542251305806556752759702245917560"
+      },
+      {
+        "location": "valley",
+        "torsion_exactly_zero_by_even_reflection": true,
+        "exact_r": {
+          "numerator": "47",
+          "denominator": "100"
+        },
+        "exact_r2_minus_r": {
+          "numerator": "53",
+          "denominator": "50"
+        },
+        "exact_z2": {
+          "numerator": "7679446211159771136885",
+          "denominator": "28316409678689757822976"
+        },
+        "exact_z4": {
+          "numerator": "170541663972359445813465",
+          "denominator": "7079102419672439455744"
+        },
+        "resolved": true,
+        "kappa_enclosure": {
+          "lower": "4.9531170621938848508521316432963575977436068561090",
+          "upper": "4.9531170621938848508521316432963575977436068561102"
+        },
+        "q_ell_enclosure": {
+          "lower": "-1.5268876111321361831654699105810496751804212049181E-48",
+          "upper": "2.2903314166982042747482048658715745127706318073772E-48"
+        },
+        "J_lower": "0.99999999999999999999999999999999999999999999999995",
+        "whole_width_principal_curvature_upper": "4.9531170621938848508521316432963575977436068561107"
+      }
+    ],
+    "full_transition_and_caps_share_projection_height_budget_proved": false,
+    "whole_core_embedding_proved": false,
+    "embedding_proved": false,
+    "reach_lower_proved": false,
+    "closed_surface_constructed": false,
+    "task_complete": false
+  },
+  "numerical_material_interface": null,
+  "task_complete": false,
+  "source_files_sha256": {
+    "space_star_cosine_verify.py": "412328a103a851de11a8d4365fdec32019bd740b30c763b212482ae61483d577",
+    "cosine_rectifying_core.py": "2a6cdd06381bc2cea89d16579b8e84b486162374d17eac656a5970892e4b5763",
+    "space_star_frozen_lift_verify.py": "ac054b97be8c5a6b6f386c055383faaad6b98fb2b72fb05318a6c09c1cbeb9e5",
+    "space_star_lift_design.py": "9d058926f9dff6b07fb766e5938eb536f237cb5fcc12fe63c3f8fee3a067bb67",
+    "space_star_flat_core.py": "33fb72c8c1206a2bef257a4067f65100ae87fd4b71ebf63cdc36597b98b558a4",
+    "star_core_geometry.py": "664d20735a5bcb0aa14d9da320bcefea1b571012cb4ba4fe5e80e7f0c50d03a9",
+    "folded_reference_geometry.py": "e912d3ece31e36a76de10cb1a1f40b8d4cd2079a7c8626c0ae85d0083c0de8ab"
+  },
+  "elapsed_seconds": 144.966979794
+}

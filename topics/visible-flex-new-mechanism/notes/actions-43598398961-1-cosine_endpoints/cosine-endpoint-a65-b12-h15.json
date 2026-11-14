@@ -1,0 +1,500 @@
+{
+  "schema": "space-star-cosine-design-v1",
+  "design_branch": "exact_tip_valley_q_ell_zero",
+  "status": "geometry_design_frozen_cosine_endpoint_candidate",
+  "definition": {
+    "a": ".65",
+    "b": ".12",
+    "height_modes": 6,
+    "half_width": ".02",
+    "angles": 768,
+    "dense_angles": 6144,
+    "initial_lift": 0.15,
+    "initial_free_coefficients": "",
+    "initial_offset": "auto",
+    "fixed_offset": null,
+    "first_coefficient_bound": 0.6,
+    "higher_coefficient_bound": 0.12,
+    "derived_coefficient_bound": 0.5,
+    "j_floor": 0.3,
+    "kappa_floor": 0.1,
+    "height_reserve": ".02",
+    "tip_budget": "planned",
+    "max_iterations": 400,
+    "checkpoint_every": 10,
+    "checkpoint_seconds": 60.0,
+    "planar_report": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json",
+    "check_only": false,
+    "out": "/home/runner/work/_temp/visible-new-mechanism/cosine_endpoints/cosine-endpoint-a65-b12-h15.json"
+  },
+  "height_basis": "cosine",
+  "frozen_physical_identity": {
+    "height_basis": "cosine",
+    "a": "13/20",
+    "b": "3/25",
+    "half_width": "1/50",
+    "height_coefficients": [
+      {
+        "numerator": "5404319552844595",
+        "denominator": "36028797018963968"
+      },
+      {
+        "numerator": "3575686967346333612825",
+        "denominator": "113265638714759031291904"
+      },
+      {
+        "numerator": "725989267131378669325",
+        "denominator": "1019390748432831281627136"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    ],
+    "height_offset": {
+      "numerator": "-142174296427961",
+      "denominator": "4503599627370496"
+    }
+  },
+  "frozen_physical_identity_sha256": "1a1fff1bb16fd8c89197cc8f06d75bb9e84fa4f5b277e02d840dfa44a85361ef",
+  "coefficient_freezing": "actual binary64 free parameters as exact Fractions; derived heights by the exact defining rational map",
+  "free_height_harmonics": [
+    1,
+    4,
+    5,
+    6
+  ],
+  "free_height_coefficients_exact_rational": [
+    {
+      "numerator": "5404319552844595",
+      "denominator": "36028797018963968"
+    },
+    {
+      "numerator": "0",
+      "denominator": "1"
+    },
+    {
+      "numerator": "0",
+      "denominator": "1"
+    },
+    {
+      "numerator": "0",
+      "denominator": "1"
+    }
+  ],
+  "elimination_matrix_exact_rational": [
+    [
+      {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    ],
+    [
+      {
+        "numerator": "661635",
+        "denominator": "3143753"
+      },
+      {
+        "numerator": "-45058145",
+        "denominator": "3143753"
+      },
+      {
+        "numerator": "-33081750",
+        "denominator": "3143753"
+      },
+      {
+        "numerator": "-223192575",
+        "denominator": "3143753"
+      }
+    ],
+    [
+      {
+        "numerator": "134335",
+        "denominator": "28293777"
+      },
+      {
+        "numerator": "-7057440",
+        "denominator": "3143753"
+      },
+      {
+        "numerator": "-242498225",
+        "denominator": "28293777"
+      },
+      {
+        "numerator": "-42344640",
+        "denominator": "3143753"
+      }
+    ],
+    [
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    ],
+    [
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    ],
+    [
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    ]
+  ],
+  "derived_height_harmonics": [
+    2,
+    3
+  ],
+  "derived_physical_coefficient_bound": 0.5,
+  "exact_tip_q_ell_numerator_zero": true,
+  "exact_valley_q_ell_numerator_zero": true,
+  "old_sine_tip_valley_torsion_elimination_used": false,
+  "frozen_exact_map_vs_float_evaluation_max_difference": 0.0,
+  "tip_z2_exact_rational": {
+    "numerator": "-72041811623393776167735",
+    "denominator": "28316409678689757822976"
+  },
+  "tip_turn_budget": {
+    "constraint_kind": "planned",
+    "padding": ".02",
+    "necessary_tau_lower": "0.094178681087043587333180200001549129779026310681254",
+    "planned_tau": "0.10638372380993565357661810744228260322629461121946",
+    "necessary_tip_z2_limit_enclosure": {
+      "lower": "6.2462642877200542522798360238834023950335347575455",
+      "upper": "6.2462642877200542522798360238834023950335347575480"
+    },
+    "planned_tip_z2_limit_enclosure": {
+      "lower": "5.9299712302539942412221002213116846629595430228090",
+      "upper": "5.9299712302539942412221002213116846629595430228100"
+    },
+    "design_limit_binary64": 5.929971230253994,
+    "exact_frozen_point_passes_necessary_tip_gate": true,
+    "necessary_gate_strictly_violated": false,
+    "planned_constraint_failure_is_not_a_general_exclusion": true
+  },
+  "epigraph_curvature": 100.0,
+  "minimum_design_collocation_constraint": -24509.901175150444,
+  "collocation_audit": {
+    "angles": 768,
+    "J_min_sample": -182.2998413142833,
+    "curvature_min_sample": 0.12547113670695217,
+    "curvature_max_sample": 5.358554819806112,
+    "torsion_absolute_max_sample": 35.70003959577957,
+    "q_ell_absolute_max_sample": 9164.992065714165,
+    "lambda0_max_sample": 10003.582828401228,
+    "whole_width_principal_curvature_max_sample": null,
+    "height_sample_min": -0.1507121795722077,
+    "height_sample_max": 0.1507121795722077,
+    "height_absolute_sample_max": 0.1507121795722077,
+    "height_interpolation_remainder_upper_formula": 2.128598481754196e-05,
+    "height_absolute_bound_before_roundoff_validation": 0.15073346555702524,
+    "design_height_budget": 0.7453449087349615,
+    "height_budget_margin_before_roundoff_validation": 0.5946114431779362,
+    "regularization_used": false,
+    "continuous_curvature_certificate": false,
+    "embedding_proved": false,
+    "reach_lower_proved": false
+  },
+  "unreserved_center_height_budget": "0.76534490873496152625745869125958912289229486632735",
+  "reserved_center_height_budget": "0.74534490873496152625745869125958912289229486632735",
+  "diameter_budget_for_conditional_03_witness": {
+    "lower": "3.5461241269978551192206035814094201075431537073149",
+    "upper": "3.5461241269978551192206035814094201075431537073151"
+  },
+  "planar_certificate_source": {
+    "path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json",
+    "sha256": "ba03fc43af2c86ee61b7ca1a9fa541f9287222ef8bd4dcb155c35332c9def405"
+  },
+  "source_files_sha256": {
+    "space_star_cosine_endpoint_design.py": "7cbb074538b9a7027980dd8b3176a1da91fcf383218998d486e614a6ed39c907",
+    "space_star_cosine_design.py": "b2fb44b815093ada42f5036c41528856f5f51df4042b8dfa1b2523a6b2959173",
+    "space_star_lift_design.py": "9d058926f9dff6b07fb766e5938eb536f237cb5fcc12fe63c3f8fee3a067bb67",
+    "cosine_rectifying_core.py": "2a6cdd06381bc2cea89d16579b8e84b486162374d17eac656a5970892e4b5763",
+    "space_star_flat_core.py": "33fb72c8c1206a2bef257a4067f65100ae87fd4b71ebf63cdc36597b98b558a4",
+    "star_core_geometry.py": "664d20735a5bcb0aa14d9da320bcefea1b571012cb4ba4fe5e80e7f0c50d03a9",
+    "folded_reference_geometry.py": "e912d3ece31e36a76de10cb1a1f40b8d4cd2079a7c8626c0ae85d0083c0de8ab"
+  },
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_sha": "4112cf83014e7d68b910b1bb03ad0abd5d74e747",
+  "github_run_id": "43598398961",
+  "evaluations_seen": 48,
+  "iterations_seen": 6,
+  "history": [
+    {
+      "evaluation": 1,
+      "iteration": 0,
+      "selected_epigraph": 100.0,
+      "selected_minimum_constraint": -24509.901175150444,
+      "J_min_sample": -182.2998413142833,
+      "curvature_min_sample": 0.12547113670695217,
+      "whole_width_curvature_sample": null,
+      "tip_z2": -2.544171822659095,
+      "seconds": 0.000504617999993684
+    },
+    {
+      "evaluation": 10,
+      "iteration": 2,
+      "selected_epigraph": 100.0,
+      "selected_minimum_constraint": -24509.901175150444,
+      "J_min_sample": -182.2998413142833,
+      "curvature_min_sample": 0.12547113670695217,
+      "whole_width_curvature_sample": null,
+      "tip_z2": -2.544171822659095,
+      "seconds": 0.07832176899999865
+    },
+    {
+      "evaluation": 20,
+      "iteration": 3,
+      "selected_epigraph": 100.0,
+      "selected_minimum_constraint": -24509.901175150444,
+      "J_min_sample": -182.2998413142833,
+      "curvature_min_sample": 0.12547113670695217,
+      "whole_width_curvature_sample": null,
+      "tip_z2": -2.544171822659095,
+      "seconds": 0.13841413400000135
+    },
+    {
+      "evaluation": 30,
+      "iteration": 4,
+      "selected_epigraph": 100.0,
+      "selected_minimum_constraint": -24509.901175150444,
+      "J_min_sample": -182.2998413142833,
+      "curvature_min_sample": 0.12547113670695217,
+      "whole_width_curvature_sample": null,
+      "tip_z2": -2.544171822659095,
+      "seconds": 0.2007077009999989
+    },
+    {
+      "evaluation": 40,
+      "iteration": 5,
+      "selected_epigraph": 100.0,
+      "selected_minimum_constraint": -24509.901175150444,
+      "J_min_sample": -182.2998413142833,
+      "curvature_min_sample": 0.12547113670695217,
+      "whole_width_curvature_sample": null,
+      "tip_z2": -2.544171822659095,
+      "seconds": 0.26194307099999037
+    },
+    {
+      "evaluation": 48,
+      "iteration": 6,
+      "selected_epigraph": 100.0,
+      "selected_minimum_constraint": -24509.901175150444,
+      "J_min_sample": -182.2998413142833,
+      "curvature_min_sample": 0.12547113670695217,
+      "whole_width_curvature_sample": null,
+      "tip_z2": -2.544171822659095,
+      "seconds": 0.2981501999999949
+    }
+  ],
+  "a0_changes_during_design_not_fixed_metric_refinement": true,
+  "continuous_verification_performed": false,
+  "embedding_proved": false,
+  "surface_reach_lower_proved": false,
+  "closed_surface_constructed": false,
+  "task_complete": false,
+  "elapsed_seconds": 0.3027476049999933,
+  "dense_frozen_audit": {
+    "angles": 6144,
+    "J_min_sample": -198.20425502437084,
+    "curvature_min_sample": 0.1252282524203909,
+    "curvature_max_sample": 5.3587720814633535,
+    "torsion_absolute_max_sample": 37.22834488512441,
+    "q_ell_absolute_max_sample": 9960.212751218542,
+    "lambda0_max_sample": 10944.110614354473,
+    "whole_width_principal_curvature_max_sample": null,
+    "height_sample_min": -0.1507121795722077,
+    "height_sample_max": 0.1507121795722077,
+    "height_absolute_sample_max": 0.1507121795722077,
+    "height_interpolation_remainder_upper_formula": 3.325935127740931e-07,
+    "height_absolute_bound_before_roundoff_validation": 0.15071251216572049,
+    "design_height_budget": 0.7453449087349615,
+    "height_budget_margin_before_roundoff_validation": 0.594632396569241,
+    "regularization_used": false,
+    "continuous_curvature_certificate": false,
+    "embedding_proved": false,
+    "reach_lower_proved": false
+  },
+  "tip_valley_frozen_audit": [
+    {
+      "location": "tip",
+      "torsion_exactly_zero_by_even_reflection": true,
+      "torsion_numeric_residual": 9.055451823884824e-18,
+      "kappa_from_symmetry_formula": 3.896724104543772,
+      "q_ell_from_symmetry_formula": 1.2496880297601177e-16,
+      "q_ell_formula_numeric_discrepancy": 6.248440148800585e-17,
+      "whole_width_J_at_point": 1.0,
+      "whole_width_principal_curvature_at_point": 3.896724104543772,
+      "automatic_torsion_zero_does_not_force_q_ell_zero": true
+    },
+    {
+      "location": "valley",
+      "torsion_exactly_zero_by_even_reflection": true,
+      "torsion_numeric_residual": 2.1726393869422678e-16,
+      "kappa_from_symmetry_formula": 4.953117062193886,
+      "q_ell_from_symmetry_formula": -1.3561486255150391e-14,
+      "q_ell_formula_numeric_discrepancy": 7.507500985621861e-15,
+      "whole_width_J_at_point": 0.9999999999999998,
+      "whole_width_principal_curvature_at_point": 4.953117062193887,
+      "automatic_torsion_zero_does_not_force_q_ell_zero": true
+    }
+  ],
+  "initial_collocation_audit": {
+    "angles": 768,
+    "J_min_sample": -182.2998413142833,
+    "curvature_min_sample": 0.12547113670695217,
+    "curvature_max_sample": 5.358554819806112,
+    "torsion_absolute_max_sample": 35.70003959577957,
+    "q_ell_absolute_max_sample": 9164.992065714165,
+    "lambda0_max_sample": 10003.582828401228,
+    "whole_width_principal_curvature_max_sample": null,
+    "height_sample_min": -0.1507121795722077,
+    "height_sample_max": 0.1507121795722077,
+    "height_absolute_sample_max": 0.1507121795722077,
+    "height_interpolation_remainder_upper_formula": 2.128598481754196e-05,
+    "height_absolute_bound_before_roundoff_validation": 0.15073346555702524,
+    "design_height_budget": 0.7453449087349615,
+    "height_budget_margin_before_roundoff_validation": 0.5946114431779362,
+    "regularization_used": false,
+    "continuous_curvature_certificate": false,
+    "embedding_proved": false,
+    "reach_lower_proved": false,
+    "tip_z2": -2.544171822659095,
+    "tip_z2_design_limit": 5.929971230253994,
+    "tip_outward_unit_radial_component": 0.20840121549976598,
+    "physical_height_coefficients": [
+      0.15,
+      0.03156903548084089,
+      0.0007121795722076978,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "solver": {
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "status": 8,
+    "iterations": 10,
+    "nfev": 46,
+    "final_epigraph": 99.0,
+    "final_minimum_design_constraint": -25370.947750853287,
+    "selection_rule": "best sampled feasible epigraph if available; otherwise least sampled violation"
+  },
+  "raw_final_frozen_physical_identity": {
+    "height_basis": "cosine",
+    "a": "13/20",
+    "b": "3/25",
+    "half_width": "1/50",
+    "height_coefficients": [
+      {
+        "numerator": "-2045813774929101",
+        "denominator": "36028797018963968"
+      },
+      {
+        "numerator": "9940882293645182892825",
+        "denominator": "113265638714759031291904"
+      },
+      {
+        "numerator": "5331696907533120755685",
+        "denominator": "113265638714759031291904"
+      },
+      {
+        "numerator": "129525861",
+        "denominator": "17179869184"
+      },
+      {
+        "numerator": "-64931751",
+        "denominator": "17179869184"
+      },
+      {
+        "numerator": "-10163599",
+        "denominator": "4294967296"
+      }
+    ],
+    "height_offset": {
+      "numerator": "-142174296427961",
+      "denominator": "4503599627370496"
+    }
+  },
+  "raw_final_dense_audit": {
+    "angles": 6144,
+    "J_min_sample": -217.16350746366828,
+    "curvature_min_sample": 0.11299783084326319,
+    "curvature_max_sample": 6.8173490886976635,
+    "torsion_absolute_max_sample": 35.736469428524025,
+    "q_ell_absolute_max_sample": 10908.175373183414,
+    "lambda0_max_sample": 11214.075500799461,
+    "whole_width_principal_curvature_max_sample": null,
+    "height_sample_min": -0.16415806497008434,
+    "height_sample_max": 0.07485981821067139,
+    "height_absolute_sample_max": 0.16415806497008434,
+    "height_interpolation_remainder_upper_formula": 1.3316275145987783e-06,
+    "height_absolute_bound_before_roundoff_validation": 0.16415939659759893,
+    "design_height_budget": 0.7453449087349615,
+    "height_budget_margin_before_roundoff_validation": 0.5811855121373626,
+    "regularization_used": false,
+    "continuous_curvature_certificate": false,
+    "embedding_proved": false,
+    "reach_lower_proved": false
+  }
+}
