@@ -131,3 +131,5 @@
 
 
 - **R721（已证明条件定理）**：[原Abel深盘等距与Tate自同构](results/R721-uniform-conditional-deep-Abel-isometry.md)。若原Cp及完整M2均为单位，原前两系数a1=pM2/(6b*)、a2=p⁴M5/(720b*)和全部尾给v(s)>7/2仅中心零且v(I)=v(s)；I(p⁴u)/(p⁴b*)=(M2/(16b*))u+pH为Zp闭盘Tate自同构/等距。保留实际KS常数；vM2=h≥0的相应p^(h+4)盘版本也已证。没有把Abel等距替代真实高度排除。
+
+- **R724（已证明构造及充分证书）**：[原Chow–Heegner高度矩阵与规范jet求值](results/R724-original-Chow-Heegner-height-matrices-and-canonical-jet-evaluation.md)。原Y splitting在Λ中含因子2/常数精确抵消；完整adelic Hecke与GL2型使原η轨道给MW基，ell=yᵗL⁻ᵗHL⁻¹eη不反演H。代数universal-extension提升经Δ修正、同一Poincaré纤维群对数及完整形式尾给原λp/d_i/非p项，实际有限Bézout不等式可证整盘无非中心共同高度零。一般p模型、137147真实高度jet及实际排根证书仍未生成。

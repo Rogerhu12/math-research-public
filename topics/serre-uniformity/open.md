@@ -54,155 +54,125 @@ R171固定p43、776bitq的真实自局部λq=16已算，但该q早被Gaussian5�
 
 R219真实忠实普通U及H90接口，原像X须生成上域实子域（次数1892）；真K子域乘积/43次幂不能产生。R239给V7/V42等明确小目标；R243以完全饱和单位求元素Norm核三维，仍非上域普通单位Norm。R250精确射线Γ作用与长度2结构已证，ρ/长度/L仍未实测。普通非单位见证外支撑正Artin修正不可省。继续忠实Norm或等价后阶可积性；小11次特征结果不能代替χ±1。
 
-## 当前执行与精确缺口（公开仓库）
-
-本节压缩前的全部逐条更新、历史数字与接口限制逐字保全于[本轮压缩前open](notes/2026-11-14-open-before-public-wave02-results.md)。当前状态以此节、HANDOFF及逐盘表为准；归档不更改历史证明的适用范围。
-
-### O4：实际变化导子与两个不同CM点
-
-R317实际范围为p>37、p≡2,5 mod9、a³+db³=1、p|b。even分支d奇、3∤d、d≡±1 mod9且无q≡7 mod12；R604另外给D≥13，s(D)奇时D≥65。变化D、b、c仍无上界，既有下界不能倒用。
-
-实际角色及规范始终依R575/R587：Ψθκ4κd⁻¹，层108p²D²，根号(−1)^(s(D)+1)。R597的X1/c1与Xd/c0是两个不同投影，新Prym微分交零，even Hom_Q(A1,Ad)=0。不能把c0的零像移到c1。
-
-R598/R600/R608/R614给实际正负族均值、本原筛和部分radical区域；负号全族p≥40D是充分范围，尚不覆盖任意D。R602正号的p/D≥40+(20/3)log(1+logD)及本原预算可给指定因子秩零。R608的p59,d9971实际指定因子rank=dim=8、log同构，不把正秩当零像。一般本原非消失及变化D覆盖仍OPEN。
-
-**c0。** R586/R588/R589完整恢复原十八点核、真实Norm归一与M0²≡−72εBr′。M0单位iff r′≠0；零值只给v≥1/2。R594的p269零值属于8 mod9，不能反驳R317实际剩余类。R603只在实际Xd/c0候选、同一指定因子秩零及r′≠0三项齐备时排除。
-
-**c1。** R595完整规范及末因子Δ勘误有效；R601 K0=K2=0；R605 K1=−B²r2/4。R615/R658/R683给同一完整六挠角色系数族
-
-$$r_2=cC_p,\qquad r_3=-27cB^3C_{p-3},\qquad v_p(M_2)=-1\iff C_pC_{p-3}\ne0.$$
-
-R692已明确同一固定τ的导子6、三阶环类群及保留三权的精确theta导数表达；不能套用未扭曲族平方定理。
-
-R693已由一般Poisson公式和精确ST矩阵推得实际τ的全k Hermite theta平方，中心值非负；归一theta值非零和模p单位仍未证。
-
-R685与R687给独立精确算法。R689公开Actions已完整计算41≤p≤2000、p≡2,5 mod9全部99素数，两系数均非零；全p非消失仍未证。R592完整Hodge整格/尾界保留，未冒认Néron格，也未把原Abel系数当QC首项。
-
-**真实高度。** R593的同一η修正、c_clear c_triv和基点截面保持；新增q|D局部项零，实际even的Ω与d无关；R690已严格消去2处，现仅来自3处。R596固定η高度经真实log线性化。R616同一β=q[c1−c0]非挠iff L′(g+)L(g−)≠0，在明确本原区域A(Q)⊗Q=Fβ。R634用CM校准外积消去A高度矩阵，但保留原Λ/ℓ/Ω。
-
-R682在R616实际前提下给所有归一Abel平方差共同非零首阶m，m≤2(g(X)−dimA)+1，及任意m的严格全尾接口；它不给m=1、p单位或统一排除半径。R688进一步证明坏处的真实分量公式Ia=d、a(c0)=0、λ_q=a_v/e，有限靶向量必须用同一分量标签。R690用实际完整水平的3条普通分量和超奇异椭圆尾，严格算得所有2处分量度数为零，完整修正后λ2,h≡0，Ω=χ3(3)T3。R694进一步算出3处T=X(6p)/Q8的中心加椭圆尾模型，边长1/4；唯一CM项链轨道真实商恒定，c0,c1均在零轨道，所以λ3(c1)=0、ω0=0。一般尾φ_s/度数和p处Λ仍缺，不能外推全部局部点为零。R696利用同一实际全局Φ及R317完整局部中心化子，另证所有实际候选落唯一CM零轨道：λ2=λ3=0、Ω_actual={0}；even全部允许d经保持同项链的局部同构亦成立。一般局部点值域可仍非零。现在集中求实际p处Λ首项、赋值和全尾；即使同靶，R682也只自动给z^(m+1)，不能偷换成z^(2m)。
-
-### O5：已关闭的固定层子问题
-
-R707完整分类已推入当前结论链，121盘排除及八CM点身份/唯一性齐备。原F2/F3始终保持共同坏标签0/3/28/32及原规范；所有例外粗图、平坦重数和全尾条件见总证明。继续O4实际全局高度及O6原普通单位输入。
-
-### O6：原普通单位Norm与标记首矩
-
-R561完整原scalar-p² Robert范数和外支撑Hilbert90给L=31−22iC；R613同祖先mixed方向C_r=C+34r、42个主化方向。R619辅助anti-p Ct=9、A_N=k、T-Norm同构及扩张零，不能代原C。R633补足辅助N中的普通整单位presentation及真实Norm像；R591的实际最大整环与局部基保持。
-
-R657实际混合普通类模A_LB=RΓ/π^m，1≤m≤43，m≥2时s=1+iπ modπ²。m=43 iff原y为普通单位Norm_S；域Norm在所有分支均成立，不能判断此事。R684保留全部普通单位/除子项证明所有纯p方向coinvariant Norm下降，42 mixed类群均=k；各非scalar单位Norm满射iff m=43。scalar扩张注入iff m=nT=43，届时C=0、L=31；R715现已用自然Tate维移和原循环单位格确定m=43，普通S-Norm满射；nT仍未求；R720已用完整原Robert链比较证明C=−34ib=9ib，实际b数值仍未知。
-
-原m=43已由R715证明，继续C/J/b/λ/n/L及忠实Norm。固定776-bit q已被Gaussian5排除，不是主问题反例；该算术模型的求值仍不能外推一般曲线统一性。
-
-所有支线都服务于O1；主要完成标准始终是全部非CM E/Q的绝对常数或完整无界反例族。
-
-- **R686 已证全塔增长律**：同一原q与Robert标记下，A_Mn=RΓ/π^min(d,42n+1)，存在唯一d∈正整数∪{∞}。R718现以每层自然Tate维移严格证明m_n=42n+1、d=∞、普通类Norm逆极限RΓ；所有scalar普通Norm满射，所有向L的全P_n普通Norm恰(p,π)E_L。C/J/b/L仍待求。
-
-R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=πDScs−κπDTct−11acq∈π²E iff κ=C/9，a=15i/7；测试表达式消去未知y，不需m=43。43个iF43值中恰一项通过，但实际通过值未求。所有κ都通过域整除，故该替代不能解决普通单位缺口；R720现以实际NΓX的P自由性完成原链桥，C=−34ib=9ib已证，实际b仍待求。
-
-### R697：原sigma算术平方根后的精确缺口
-
-同一E0、周期和σ的六次乘子已给Ck的准确算术平方根A_k∈Z[1/6]；Cp与C_(p−3)模p分别为−3A_p²与−3A_(p−3)²。下一步须证明实际m=p−1及p−4的原常微分不消失，或精确处理例外；平方和整性本身均不证明单位。两个Bell递推无除p且允许二次系数代数分裂，p41/p47例子不能外推。
-
-### R700：p分歧自由表示保留普通类群
-
-原χ分量已证明X_L^(p)=O⊕RΓ，U_L/E_L=O[Γ]；全纯p层X_Mn^(p)、U_Mn分别对O[P_n]自由秩43、86。完整普通序列0→E→U→X^(p)→A→0的有限末商仍是原A_Mn，未把p分歧无挠误认为普通类群消失。下一步用实际局部互反映射/原Robert局部向量求R695的普通Γ²整除；m已由R715确定43，C/b仍未知。
-
-### R698：同一N阶标量系数问题
-
-两个实际单位条件已等价于[w^N]TC与[w^N]TZ³非零，N=(p−5)/6；通过该阶所有分母均为p单位。h_(N+1)有首个分母p，因此不允许把整个无限σ级数直接模p。四片公开请求只搜索2001..200000的新范围，逐素数保存准确证书并保留零值；请求本身不是非消失结论。继续共同低阶结构或实际例外处理。
-
-### R699 后的实际缺口
-
-保留实际d_i、第二类周期与规范全纯差；μ3相容后自由高度常数降至g(Y)，用2g(Y)−1阶jet恢复。实际外积系数满足v(e_n)≥A_E−3pn/(p+1)−4⌊log_p n⌋，完整覆盖v(z)≥3；代数微分算子给有限可能首阶。所有实际赋值/首项及R616前提仍待，不新增候选排除。 详见[R699](results/R699-actual-height-finite-jets-and-complete-exterior-tail.md)；继续实际输入求值，不以有限决定性代替完成标准。
-
-### R701 后的实际缺口
-
-原V_sc=π^41D_Sc_s−11aπ^40c_q在Γ不变局部商下降，准确等于(C/a)[P+α_F]；真实商U_Fs/(pU_Fs+E_Fs)≅k[S]。86×44证书与varpi_s^1938精度足够，L=31−2η_p；原Γ标记c_s/c_q局部值仍未求，不给C或m数值。 详见[R701](results/R701-original-C-as-a-marked-43-dimensional-p-local-scalar.md)；继续实际输入求值，不以有限决定性代替完成标准。
-
-### R702 后的实际缺口
-
-全部p≥41、p≡5mod6与2≤t≤p−1、t≡2mod3有A_(p+t+1)=3(2/p)BtA_t modp；因此pC_(p+3)=9B²、pC_(p+6)=−405B²/2均为单位。有限截断控制全部p分母，不能向t=−1/−4越界或直接替代原Abel/高度系数。 详见[R702](results/R702-first-pole-block-and-uniform-shifted-units.md)；继续实际输入求值，不以有限决定性代替完成标准。
-
-### R706：关键单位猜想的真实例外
-
-完整41..200000剩余类共5992素数，仅p137147出现Cp−3=0（Cp=80155）；原平坦z独立Actions已确认。故不能继续追求原Cp·Cp−3全p非零或v(M2)恒−1。需对真正更高Abel系数、该例外的进一步精度和原实际高度处理；不从modp零推出M2=0。详见[R706](results/R706-exact-window-through-200000-and-original-sigma-zero.md)。
-
-### R704 后的原单位输入
-
-原Γ方向全部43个p处嵌入已公开算出，完整模43²线性评价矩阵可将实际普通整基坐标转至R701所需43分支。当前缺口是同一标记c_s/c_q的p局部坐标，须保留s^11、P+、原q/Weil/Γ相位；既有pure-p在q的值不能替代。需证明对应原单位的快速部分Norm公式，不能枚举42(q²−1)/43项。m已由R715确定43，实际C/L仍未知。详见[R704](results/R704-actual-original-Gamma-p-split-embedding-matrix.md)。
-
-### R705：实际高阶Abel已经接通
-
-对全部p≥41、p≡5mod6，原c1平坦M_m的真实范数已推广至m≡2mod3、2≤m≤p−3，严格匹配下降权对C_(p+2−m)与C_(p−m−1)。端点单位使原Abel共同首阶d≤(p−2)/3，并给w=(a−1)/λ³原始前缀v(d_j)≥2−3j/(p+1)及端点等号。超过端点的完整控制已由R710解决，仍须实际首项、KS比较常数赋值及实际高度jet；R616 L′·L条件保留。p137147的M2和M5仅不能达到最小赋值，并未证其为零；R710已在公开run43589720709从原z完成证书取下一对实际权，未重解ODE。详见[R705](results/R705-actual-higher-Abel-blocks-and-uniform-order-bound.md)。
-
-### R708：局部Norm条件不能选择原C
-
-原部分q-Robert积有精确degree-q同源分布，但需(q+1)/43个真实商曲线，不能冒认为43项或一个小核。更强地，保持原Γ与τ、纯p祖先和真实c_q/c_t的共同祖先局部变形，使R701的η_p取遍F43，所有q局部输入亦可固定。继续只解这些局部/域Norm不会决定C；必须求原c_s/c_q全局坐标、真正普通单位Norm见证或原X_t主化/首矩。详见[R708](results/R708-exact-isogeny-compression-and-the-43-valued-local-norm-fiber.md)；该局部结论不决定C/L，普通长度已另由R715确定43。
-
-### R710：完整原Abel深盘的精确剩余零数
-
-全允许jet的平方已严格下降到未分歧域，半整数格补齐完整Tate级数边界；原粗换参全尾保留。原CM权对确定约化最低次数r，在v(a−1)>3开盘内原标量Abel零总重数恰r。137147的后两权由公开原证书精确提取得到r=3、M8赋值−7，最多两个非中心零；仍须这些实际零的进一步精度/位置及完整高度jet，进入R682归一外积时R616非消失前提保留。详见[R710](results/R710-unramified-squared-jets-and-complete-coarse-Abel-reduction.md)。
-
-### R711：实际整数赋值与例外二次因子的剩余输入
-
-同一原有理CM点/正商微分及完整有理换参给所有M_m/M_(p−3)∈Qp，非零端点使原jet赋值全为整数；原P经一个端点单位归一后为Zp整Tate级数。137147已有v(M2)≥0、v(M5)≥−3、v(M8)=−7，实际深盘余因子v²+Av+B0满足A、B0均在pZp、v(B0)=1+v(M2)。若能证明原M2单位，就得到Eisenstein余根赋值7/2并隔离实际v(a−1)≥4盘；当前单位未求，不能把Cp−3的单独高精度值当原M2。继续原完整Kronecker/Cartier求值桥接和真实高度，R616条件仅在归一外积使用时保留。详见[R711](results/R711-rational-CM-Abel-line-and-integral-jet-valuations.md)。
-
-### R714：原商非消失的扩大区域
-
-令 J=2^ω((p+1)/3)−2、2≤X≤√(p/2)、L_X=log(p/2)/log X、δ_X=(1+log₂L_X)/L_X。已证明 72δ_X X+48J/X≤1/2 且 √p≥1440J 时，同一原 β=q[c1−c0] 非挠、L′(g+)L(g−)≠0、A(Q)⊗Q=Fβ，实际 log 同构。新范围不要求 rad((p+1)/3) 小：固定 ω 的充分大 p 全部覆盖；更一般 J≤(log p)^(1−ε) 且 p≥exp(exp(64/ε²)) 也覆盖。全部 κ_p^m 相位和 R616 的原正负商保持，不以 L′ 的直接 Galois 作用代实际秩接口。J 超出此范围时本原非消失仍须证明；即使条件满足，原高度有限前缀及非中心零排除仍缺。完整证明见[R714](results/R714-global-visible-count-and-sublogarithmic-divisor-primitive-region.md)。
-
-### R703：实际非零jet提取与相对全尾已闭合
-
-在原R616非消失前提下，同一E_ij属于6(g+g(Y))+8个独立代数Taylor函数空间；八个U×I或U×I²系数严格为±2/L_a、±1/L_a²。仅由代数模型构造可逆有限jet矩阵，即可得到Σa_s[z^s]E_ij=−2/L_j≠0及真实jet赋值上界。相同逆矩阵给所有尾相对于真实有限前缀的完整下界，N_h纯代数可计算，且所有n≥N_h的系数严格高于前缀最小赋值；无需d_i、第二类周期、Y规范高度常数或L_j的赋值。h=3含完整边界，h=4含原候选，总零重数≤N_h−1、非中心≤N_h−m−2。尚未执行一般p原代数jet矩阵或求真实有限前缀；计数不等于无根，下一步继续原模型与规范前缀。详见[R703](results/R703-algebraic-jet-extractors-and-height-free-relative-tails.md)。
-
-### R715：原普通长度43与真实单位Norm已证明
-
-实际完整序列0→E→U→X^(p)→A→0在两个中项P自由，给自然R0线性同构E_L/N_PE≅H_1(P,A)。整数周期分辨率保留真实N_S/N_T：所有m≤42均得Γ平凡k²，与E_L=R0 y循环商矛盾；m43的非零N_S=−2π^42边界恰消第二线。故A=RΓ/π^43、N_SE=E_N、N_PE=(p,π)E_L，原y有普通单位Norm原像。R715的链级Θ给C=9a_s/a_t，单独同调切线(ib,1)尚不构成原Robert桥；R720已补出原Γ-Norm自由像及同时整提升，严格证明a_s/a_t=ib。实际b/J/L数值仍待求；高层长度已由R718闭合。见[R715](results/R715-natural-Tate-dimension-shift-and-the-forced-ordinary-endpoint.md)。
-
-### R712：原M2的完整下一位已化为两块
-
-在Cp单位、Cp−3余零的原规范下，严格LT坐标[p]Y=pY−Y^(p²)、varpi^(p²−1)=p精确成立，并保持旧S2模p相位。令d=p²−p+3、t=2p²−4p+2，F0=p³[z^d](E³R/36+E²W/12+EV/3)modp³，R2=[Y^t]R modp，则F0∈p²且D_p=6F0/p²+B³R2/18严格控制原M2是否单位。完整总D³的两块、积分常数17/36、第三块和无穷尾均已处理；公开run43594244072仅核有限有理/符号恒等式。137147的D_p未求，继续R717带完整分母/周期/角色标签和严格误差的快速原值求法，不能只提升Cp−3或把O(p²)级数当已算。见[R712](results/R712-actual-M2-second-digit-and-Lubin-Tate-two-block-reduction.md)。
-
-### R718：全层普通长度和相容Norm已闭合
-
-对每个n≥1，真实阶43^n的两Norm均有π赋值≥42n，scalar恰42n；不要求pA_n=0，整数乘积分辨率仍把任何m_n≤42n化成Γ平凡k²，与原循环E_L矛盾。故m_n=42n+1、R686的d=∞，普通类Norm逆极限为RΓ。每层scalar普通单位Norm满射，全P_n普通Norm均为(p,π)E_L；紧纤维有限交性质还证明全层交Norm就是真正相容单位逆极限向E_L的像。此结论只涉及原固定p43塔，尚未求原C/J/b/L的数值或普通Norm原像坐标；R720已闭合原链桥C=9ib，继续实际互反求b。见[R718](results/R718-all-ordinary-class-lengths-and-exact-universal-unit-norms.md)。
-
-### R716：免预求γ的实际曲率提取器
-
-已将R703的极部修正γ也从预先求值输入中去除：单极点Q、最大η极阶M给已知R=H0(Ω((M−1)Q))，全部修正及规范全纯差都进入其一次积分空间。6h+8标记族不冒认全独立，公共ODE的有限indicial行核给所有完整关系；D4模全Hodge四次张量及原NS独立性保证四个顶层混合列不可被关系改变，有限代数jet行严格提取−1/L_j²等。仅用原曲率/第二类代表/有限极点空间及整盘界即可给全部相对尾，不需γ的值或整性界；原一般p矩阵和真实有限前缀仍未算，零数上界不代全p无根。见[R716](results/R716-curvature-only-jet-extraction-without-gamma.md)。
-
-
-### R720：原Robert cocycle与类作用桥已闭合
-
-在同一原q、s、t、Γ及Robert祖先下，同时整提升Y满足N_PY=y、N_ΓY=u_B；真实Γ-Norm像N_ΓX=jX_B对P自由，且映入A为零。完整整数二步链比较将原f_s/f_t的Θ值分别送至−barξ_s/−barξ_t，附加边界c′、e′均因原Γ-Norm输入在A/πA消失，故C=9ib=−34ib。于是L=31+26b、r_y=25+9b、Ω₂=ε(22+17b)；Ω₂为零恰b=24。仍未求实际b，不能把pure-p参考24当本塔类作用系数；继续原X_t主化/首矩或真实普通互反输入。见[R720](results/R720-original-C-and-b-by-the-complete-Robert-chain-comparison.md)。
-
-
-### R717：精确原CM范数算法已证明，实际137147值待求
-
-原S2S3/C0²∈Q(ζ_(p+1))^+，分母2^37·3^26·p^5已逐处控制；保留原Ω/6、χ6/θ标记、全部周期与正Gauss和的两组中心值可由O(p(b+logp))有限格点和严格全尾求全部共轭。三个球DFT的整数trace唯一性恢复原代数数，按指定Teich根直接计算v(M2)及归一平方，不需p²阶椭圆级数。公开run43597163388已完整通过p41的新算法校准：42整数trace唯一，原历史p²S2S3≡1274 mod41²和归一平方24均匹配。137147单位或高度排除仍未得到。完整方法见[R717](results/R717-exact-original-CM-norm-from-certified-complex-traces.md)；继续实际137147的4片认证，完成产物按SHA复用。
-
-
-### R719：137147原非消失/秩/log前提已闭合
-
-公开run43597653737/source09a816c7e00c07f90727f98381bc0c76a8181425的完整有限枚举和全部无限尾证明B<106516214032/10^12<1/2，原两primitive平均均严格正。按R616真正Galois/秩/点差接口，同一原指定商L′(g+，1)L(g−，1)≠0、A(Q)⊗Q=Fβ、实际log为同构；无需对L′数值直接作Galois。137147的R634/R682/R703/R716归一外积前提因此可用，实际高度系数与统一候选排除仍缺。证书含945171可见点、132178完整norm行、2769点独立audit，SHA256 2d97169250b80abf8d4bf9d72ee7a65c5ff9ac609afdd9c9b3ffc1d65639ca3f。见[R719](results/R719-p137147-original-primitive-visible-enumeration-certificate.md)；完成枚举不再重跑，继续原M2值及真实高度。
-
-
-### R721：全p条件深盘Abel等距已证
-
-若原Cp和实际完整M2均为单位，则Cp−3余零及相邻原权对给M5≥−3；完整Zp Tate系数a1=pM2/(6b*)、a2=p⁴M5/(720b*)使线性项在v(a−1)>7/2严格支配全部无限尾。原I仅中心零且v(I)=v(a−1)，I(p⁴u)/(p⁴b*)=(M2/(16b*))u+pH为闭单位盘解析自同构与等距，实际KS常数不被称为单位。若vM2=h≥0有限，p^(h+4)深盘有准确缩放版本；完整M2的零/单位仍须实算。137147的R616前提已由R719解决，R717正式四片正在求M2，真实高度系数与候选排除继续。见[R721](results/R721-uniform-conditional-deep-Abel-isometry.md)。
-
-
-### 原本原非消失的文献接口
-
-新核固定素数反圆分塔、固定参数化横向Heegner点及Dirichlet素数幂Galois轨道结果，均未直接覆盖原变化$p$、完整六水平及指定本原投影；准确范围见[文献笔记](notes/2026-11-14-primitive-nonvanishing-literature-scope.md)。R719仅闭合实际137147，R714一般充分区域之外仍需新原相位平均或真实统一几何接口。
-
-
-### 原首矩的完整余数歧义已确定
-
-[重建笔记](notes/2026-11-14-r599-first-moment-normalization-reconstruction.md)已证明所有保持原div/Norm的见证为$X+(t-1)E$，余数全像为$I^2$，因此$J_\ell$是唯一剩余坐标。杀全部归一余数而允许Norm改普通基单位时，系数$c\equiv-J_\ell/(13i)$；实际$J_\ell$与原$b$的精确比较及数值仍缺。R717的137147整数trace认证已失败，原值未获；四有效bins及全部失败球继续复用诊断。
-
-
-### 临界sigma单位的参数路线边界
-
-[完整短证](notes/critical-sigma-jet-parameter-boundary.md)保持同一六同源与二挠点，仅变化Gaussian参数$c$：$F_p=0$、$F_{p+1}=6B$对所有$c$保持，而$F_{p-1}(c)$是次数$(p-1)/2$、首项单位的多项式，必有根。故这三项数据不能单独推出临界单位；实际$c=s$是否非零仍须原CM约束，未构造原$C_p$反例。
+## 当前执行与精确缺口（R724）
+
+压缩前全部公式、来源及路线边界保存于[完整检查点](notes/2026-11-14-open-checkpoint-through-R721.md)；
+以下以最新已证接口继续，已完成计算不重跑。
+
+### 原变化导子与指定本原非消失
+
+原 R317 剩余为 $p>37$、$p\equiv2,5\bmod9$、$a^3+db^3=1$、$p\mid b$；
+$D,b,c$ 无统一上界，R604 的 even 支撑下界不能倒用。
+R575 的原正商是 $\Psi_\theta\kappa_4$、根号负；
+R597 的 $X_1/c_1$ 与 $X_d/c_0$ 不可自由互换。
+
+[R616](results/R616-original-CM-point-difference-and-explicit-height-basis.md)
+给原 $\beta=q[c_1-c_0]$ 非挠当且仅当指定
+$L'(g_{\theta,+},1)L(g_{\theta,-},1)\ne0$，成立即
+$A(\mathbb Q)\otimes\mathbb Q=F\beta$ 且对数同构。
+[R714](results/R714-global-visible-count-and-sublogarithmic-divisor-primitive-region.md)
+在保留 $\kappa_p^m$ 和全部 signed-ray 后给明确充分区域，
+含固定 $\omega((p+1)/3)$ 的充分大素数及其所述次对数 $J$ 区域；
+尚未覆盖全部 $p$。
+
+[R719](results/R719-p137147-original-primitive-visible-enumeration-certificate.md)
+已闭合实际137147此前提：公开 run43597653737 的945171点、
+132178范数行、2769点独立全核与完整无穷尾给
+$B<106516214032/10^{12}<1/2$。
+证书 SHA256 为2d97169250b80abf8d4bf9d72ee7a65c5ff9ac609afdd9c9b3ffc1d65639ca3f。
+完成枚举不重跑；复非消失不等于模 $p$ 单位或原高度排零。
+[新核文献范围](notes/2026-11-14-primitive-nonvanishing-literature-scope.md)
+明确固定素数反圆分、固定参数化横向 Heegner 与 Dirichlet 素数幂结果
+尚缺原变化 $p$、六水平及指定本原投影的接口。
+
+### 原 sigma 临界系数与完整 Abel 函数
+
+R697/R698 已给原 sigma 六截面、实际 Gaussian 和准确算术平方根。
+R706 的5992素数窗口中，137147是 $C_{p-3}$ 的真实零，
+且 $C_p=80155$；原 R710 数组后两权为117309/122674，
+$v_p(M_8)=-7$、残余次数 $r=3$。
+R711 的原 $\mathbb Q$-下降和全换参给全部 jet 整数赋值，
+此处 $v_p(M_2)\ge0$、$v_p(M_5)\ge-3$，不能称 $M_2$ 为单位。
+
+[参数路线边界](notes/critical-sigma-jet-parameter-boundary.md)
+保持同一六同源/二挠点而改 Gaussian 参数 $c$，
+有 $F_p=0$、$F_{p+1}=6B$ 恒单位而 $F_{p-1}(c)$ 有根。
+因此仅凭这些超奇异/Cartier/移位数据不能推出临界单位；
+原固定 $c=s$ 的 CM 约束仍须使用，未给原 $C_p$ 反例。
+
+[R721](results/R721-uniform-conditional-deep-Abel-isometry.md) 已证：
+若原 $C_p$ 和完整 $M_2$ 均单位，原 $I$ 在 $v_p(a-1)>7/2$ 只有中心零，
+并在 $p^4$ 闭盘给准确缩放的等距自同构；
+$v_p(M_2)=h\ge0$ 有限时有 $p^{h+4}$ 深盘版本。
+原 KS 标量保留；完整 Abel 结论不能代 $\Lambda,\ell_h$ 或实际高度。
+R712 严格 LT 两块给另一路下一位公式，但公开有限符号校验并未求
+$D_{137147}$；不能只提升旧低精度 $C_{p-3}$ 就称问题解决。
+
+### R717 原精确范数：复用全部有效输入继续修复
+
+[R717](results/R717-exact-original-CM-norm-from-certified-complex-traces.md)
+给原 $P=S_2S_3/C_0^2$ 的实圆分域与分母 $2^{37}3^{26}p^5$，
+完整周期、原标签、全解析尾和整数 trace 重建。
+p41 新算法校准 run43597163388 已完成：42整数trace唯一，
+原 $p^2S_2S_3=1274\bmod41^2$ 和归一平方24匹配；旧轨道/校准均不重跑。
+
+137147 run43597802237 四片全有效，8113行、14925440项。
+recover 于2026-11-14 13:40:40UTC失败：三次DFT完成，
+137148个trace全部未过唯一整数门；没有实际 $M_2$ 值。
+原 bin、embedding、traceballs 全留该 run 的 recover artifact，
+大中间量只保存脚本、参数、SHA及artifact，不经工具分块读入。
+
+首诊断43601766596因sparse漏自身workflow在计算前失败；已修检出路径，
+纯诊断 run43602040433/source0e46558d1fe47939d15e24c09882c7d46c874d64
+重新启动；固定原SHA逐项分类门槛、全部半径与相位包络，
+零DFT、零格点枚举。连续复矩形球乘的 chirp 包络膨胀是待核嫌疑；
+以返回区间决定最小修复，复用有效四片，不盲目增精度或全量重算。
+失败区间/有限精度零都不能证明原代数数精确为零。
+
+### 真正高度：规范输入可构造，实际数据与排根仍须完成
+
+R593/R596 的原 $\eta_h,\chi$、刚性化、完整 $\mu_3$ tensor、
+清分母及截面保持；R690/R694/R696 给实际坏靶 $\Omega_{\rm actual}=\{0\}$。
+R634 消去 $A$ 的高度矩阵，但保留 $Y$ 线性项、Picard 修正和局部常数。
+R703/R716 的有限代数 jet 提取及完整相对尾已证，
+后者免预求 $\gamma$；零数上界不能代共同无根。
+
+[R724](results/R724-original-Chow-Heegner-height-matrices-and-canonical-jet-evaluation.md)
+补上真正规范求值：$Y$ splitting 在原 $\Lambda$ 中含因子2及常数精确抵消；
+完整 adelic Hecke/GL$_2$-type 使原 $\eta_h$ 有限轨道给所需 MW 基。
+以实际对数矩阵 $L$、高度矩阵 $H$ 得
+$\ell_h(v)=y_h^tL^{-t}HL^{-1}e_\eta v$，不假设 $H$ 可逆。
+代数 universal-extension 提升先作
+$\Delta=\log_I Z-r(\log Q)$ 校正，再在原 Poincaré 纤维做群对数求值。
+第二类周期、截面常数、非 $p$ 局部项及完整形式群尾全部保留。
+
+须继续生成同一原曲线/对应/线丛模型、有限关系矩阵和规范高度前缀，
+并实际验证 R724 (724.33) 的有限 Bézout 不等式及全部尾。
+137147 的真实高度 jet 尚未生成，排根证书尚未通过；
+亦未证明该证书对全部 $p$ 存在。
+任意第三类微分、任意曲率原函数、未知高度非退化均不能替代实际输入。
+
+### 原普通 Norm、首矩与类作用参数
+
+固定 $p=43$ 的776bit $q$ 已被 Gaussian5 排除，并非实际曲线或 Serre 反例。
+R715 确定原 $m=43$、普通 scalar Norm 满射、$N_PE=(p,\pi)E_L$；
+R718 给所有层 $m_n=42n+1$、$d=\infty$、普通类 Norm 逆极限
+$R_\Gamma$ 和真正相容普通单位 Norm 像。
+
+[R720](results/R720-original-C-and-b-by-the-complete-Robert-chain-comparison.md)
+用同时整提升、真实 $N_\Gamma X$ 自由像和两次原链比较给
+$C=9ib=-34ib$，故 $L=31+26b$、$r_y=25+9b$、
+$\Omega_2=\varepsilon(22+17b)$。
+最后障碍零恰 $b=24$，但实际 $b$ 未知；
+禁止代 pure-$p$ 参考24、一次10或辅助 $C_t=9$。
+
+[首矩重建](notes/2026-11-14-r599-first-moment-normalization-reconstruction.md)
+保留原 $t,P_0,P_+$ 和完整普通div/Norm，
+定义选择无关 $J_\ell\in\mathbb F_{43}$、$J_r=-2J_\ell$。
+全部见证恰 $X+(t-1)E$，完整余数改变量全像 $I^2$，
+所以 $J_\ell$ 是唯一剩余坐标。
+允许Norm改普通基单位以杀全余数时，系数
+$c\equiv-J_\ell/(13i)$。
+实际 $J_\ell$、它与原 $b$ 的准确比较及真正主化坐标仍缺。
+R704 原43嵌入矩阵及R708局部Norm歧义已处理；
+仅局部条件不能替全局普通输入。

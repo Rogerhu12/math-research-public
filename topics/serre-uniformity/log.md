@@ -979,3 +979,10 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 修共享serre-R717-trace-diagnostics.yml的sparse-checkout，补自身路径；请求revision2重新触发，数学诊断源码和七个原输入SHA不变。
 - 早期失败日志与artifact保留；不把continue-on-error步骤的success显示当作数学完成，仍以最终receipt/verify判断。
 - 原137147值仍未知，继续保存产物诊断及R724真实高度输入。
+
+
+## 2026-11-14 21:55 Asia/Taipei · serre-public-resume-20261114
+- R724全文、原R596完整adelic/GL2型及IW§1、BMS6.13–6.14原文接口已核：原η的有限Hecke轨道给所需MW基，Y splitting在Λ中因子2/常数完整抵消。
+- 同一universal-extension提升先作Δ=logI Z−r(logQ)修正，再以原Poincaré纤维群对数计算λp/d_i及非p项；H不须可逆，BMS全局相等不被偷用为逐处相等。
+- 完整形式群尾与R703/R716相对尾给真正(724.33)有限Bézout排根证书；一般p实际模型、137147高度jet及证书仍待执行，不据算法存在性宣称排除。
+- 正文SHA e61c9cda8dc9ed1e8de137a2e6fcec5d197b0ccb31f248e8d915b159627947f8；旧HANDOFF/open完整归档并压缩，继续实际代数输入、原首矩桥及R717保留球诊断。
