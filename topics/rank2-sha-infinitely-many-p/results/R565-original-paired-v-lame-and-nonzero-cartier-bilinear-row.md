@@ -435,11 +435,11 @@ $\mathcal C(q_4Dz_V\omega_E)$ 也不是 (28) 两个数的乘积。
 更具体地，由 paired-V 的原式
 $D^2\mathcal R_4=\mathfrak h q_4-\xi x^p$，
 Cartier 分部两次给
-$
+$$
 \mathcal C(q_4Dz_V\,\omega_E)
 =\mathfrak h^{-1}\mathcal C(\mathcal R_4D^3z_V\,\omega_E).
 \tag{29a}
-$
+$$
 $x^pDz_V\,\omega_E=x^p\,dz_V$ 的 Cartier 为零。
 (29a) 对 $\mathcal R_4$ 加任意 Frobenius 函数都不变，
 特别看不见 $Ax^{3p}+B$；因为

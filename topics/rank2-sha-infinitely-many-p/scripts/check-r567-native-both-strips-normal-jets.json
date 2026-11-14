@@ -1,0 +1,1286 @@
+{
+  "negative": {
+    "basis": "a+b delta",
+    "R1": [
+      [
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        }
+      ],
+      [
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        }
+      ],
+      [
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        }
+      ],
+      [
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        }
+      ],
+      [
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "1/2",
+          "delta": "0"
+        },
+        {
+          "real": "3/4",
+          "delta": "1/4"
+        }
+      ],
+      [
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "3/4",
+          "delta": "-1/4"
+        },
+        {
+          "real": "-1/2",
+          "delta": "0"
+        }
+      ]
+    ],
+    "R1commutesPureC": true,
+    "Dreflected": [
+      {
+        "real": "1",
+        "delta": "0"
+      },
+      {
+        "real": "-1/2",
+        "delta": "-1/2"
+      },
+      {
+        "real": "1",
+        "delta": "-1"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "2",
+        "delta": "1"
+      },
+      {
+        "real": "1/2",
+        "delta": "-1/2"
+      }
+    ],
+    "Vreflected": [
+      {
+        "real": "1/2",
+        "delta": "1/2"
+      },
+      {
+        "real": "1/2",
+        "delta": "-1/2"
+      },
+      {
+        "real": "2",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "1/2",
+        "delta": "-3/2"
+      },
+      {
+        "real": "1",
+        "delta": "0"
+      }
+    ],
+    "companions": {
+      "E": {
+        "original": [
+          {
+            "real": "2",
+            "delta": "-14/3"
+          },
+          {
+            "real": "-1",
+            "delta": "-1"
+          },
+          {
+            "real": "2",
+            "delta": "8/3"
+          },
+          {
+            "real": "0",
+            "delta": "-14/3"
+          },
+          {
+            "real": "0",
+            "delta": "-1"
+          },
+          {
+            "real": "-1/2",
+            "delta": "1/2"
+          }
+        ],
+        "reflected": [
+          {
+            "real": "2",
+            "delta": "-14/3"
+          },
+          {
+            "real": "-1",
+            "delta": "-1"
+          },
+          {
+            "real": "2",
+            "delta": "8/3"
+          },
+          {
+            "real": "0",
+            "delta": "-14/3"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "1",
+            "delta": "-1"
+          }
+        ]
+      },
+      "G": {
+        "original": [
+          {
+            "real": "-6",
+            "delta": "-10/3"
+          },
+          {
+            "real": "19",
+            "delta": "-3"
+          },
+          {
+            "real": "-7/2",
+            "delta": "-13/6"
+          },
+          {
+            "real": "11/2",
+            "delta": "31/6"
+          },
+          {
+            "real": "-3",
+            "delta": "-4"
+          },
+          {
+            "real": "-1/2",
+            "delta": "5/2"
+          }
+        ],
+        "reflected": [
+          {
+            "real": "-6",
+            "delta": "-10/3"
+          },
+          {
+            "real": "19",
+            "delta": "-3"
+          },
+          {
+            "real": "-7/2",
+            "delta": "-13/6"
+          },
+          {
+            "real": "11/2",
+            "delta": "31/6"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "1",
+            "delta": "-5"
+          }
+        ]
+      },
+      "Y": {
+        "original": [
+          {
+            "real": "5/14",
+            "delta": "4/7"
+          },
+          {
+            "real": "-23/28",
+            "delta": "57/28"
+          },
+          {
+            "real": "11/7",
+            "delta": "-2/7"
+          },
+          {
+            "real": "5/2",
+            "delta": "-1/2"
+          },
+          {
+            "real": "-9/14",
+            "delta": "1/14"
+          },
+          {
+            "real": "5/14",
+            "delta": "1/14"
+          }
+        ],
+        "reflected": [
+          {
+            "real": "5/14",
+            "delta": "4/7"
+          },
+          {
+            "real": "-23/28",
+            "delta": "57/28"
+          },
+          {
+            "real": "11/7",
+            "delta": "-2/7"
+          },
+          {
+            "real": "5/2",
+            "delta": "-1/2"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "-5/7",
+            "delta": "-1/7"
+          }
+        ]
+      },
+      "W": {
+        "original": [
+          {
+            "real": "15/14",
+            "delta": "5/7"
+          },
+          {
+            "real": "-27/28",
+            "delta": "45/28"
+          },
+          {
+            "real": "19/7",
+            "delta": "-6/7"
+          },
+          {
+            "real": "5/2",
+            "delta": "-1/2"
+          },
+          {
+            "real": "-27/14",
+            "delta": "31/14"
+          },
+          {
+            "real": "29/14",
+            "delta": "-11/14"
+          }
+        ],
+        "reflected": [
+          {
+            "real": "15/14",
+            "delta": "5/7"
+          },
+          {
+            "real": "-27/28",
+            "delta": "45/28"
+          },
+          {
+            "real": "19/7",
+            "delta": "-6/7"
+          },
+          {
+            "real": "5/2",
+            "delta": "-1/2"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "-29/7",
+            "delta": "11/7"
+          }
+        ]
+      },
+      "Wprime": {
+        "original": [
+          {
+            "real": "43/14",
+            "delta": "17/14"
+          },
+          {
+            "real": "-12/7",
+            "delta": "13/7"
+          },
+          {
+            "real": "5/7",
+            "delta": "1/7"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "-3/7",
+            "delta": "5/7"
+          },
+          {
+            "real": "4/7",
+            "delta": "-2/7"
+          }
+        ],
+        "reflected": [
+          {
+            "real": "43/14",
+            "delta": "17/14"
+          },
+          {
+            "real": "-12/7",
+            "delta": "13/7"
+          },
+          {
+            "real": "5/7",
+            "delta": "1/7"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "-8/7",
+            "delta": "4/7"
+          }
+        ]
+      },
+      "K": {
+        "original": [
+          {
+            "real": "1/2",
+            "delta": "1/2"
+          },
+          {
+            "real": "1/2",
+            "delta": "-1/2"
+          },
+          {
+            "real": "2",
+            "delta": "0"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "-9/2",
+            "delta": "3/2"
+          },
+          {
+            "real": "3",
+            "delta": "0"
+          }
+        ],
+        "reflected": [
+          {
+            "real": "1/2",
+            "delta": "1/2"
+          },
+          {
+            "real": "1/2",
+            "delta": "-1/2"
+          },
+          {
+            "real": "2",
+            "delta": "0"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "-6",
+            "delta": "0"
+          }
+        ]
+      }
+    },
+    "LprojectedOverK": {
+      "real": "2/7",
+      "delta": "-1/7"
+    },
+    "Lidentity": true,
+    "sigma_moments_through_seven": {
+      "0": 0,
+      "1": "Omega",
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": "24*b*Omega^7"
+    },
+    "polynomial_source_operator": "(3+2omega)*Omega*d/dD",
+    "V_polynomial_source_operator": "(-1-3omega)*Omega*(P-T*P_D)+24*b*Omega^7*(-1-3omega)*(3+2omega)^6*P6",
+    "zero_mass_reflected_marginal": true,
+    "normal_sigma_coefficients": {
+      "aD": {
+        "real": "2",
+        "delta": "1"
+      },
+      "aV": {
+        "real": "1/2",
+        "delta": "-3/2"
+      },
+      "aDnorm": {
+        "real": "7",
+        "delta": "0"
+      },
+      "aD6": {
+        "real": "-143",
+        "delta": "-180"
+      },
+      "seventh_correction": {
+        "real": "-1763/2",
+        "delta": "249/2"
+      }
+    },
+    "reflected_normal_relation": true
+  },
+  "sourceFrames": [
+    {
+      "j": 0,
+      "T7": [
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "-1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "1",
+          "delta": "-1"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        }
+      ],
+      "T10": [
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "-1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "1",
+          "delta": "-1"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "1",
+          "delta": "-1"
+        }
+      ],
+      "minusOdd": 3,
+      "plusOdd": 2
+    },
+    {
+      "j": 1,
+      "T7": [
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "-1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "3/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "-1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        }
+      ],
+      "T10": [
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "-1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "3/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "-1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "1",
+          "delta": "-1"
+        }
+      ],
+      "minusOdd": 5,
+      "plusOdd": 4
+    },
+    {
+      "j": 2,
+      "T7": [
+        {
+          "real": "3/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "-1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        }
+      ],
+      "T10": [
+        {
+          "real": "3/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "-1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "1",
+          "delta": "-1"
+        }
+      ],
+      "minusOdd": 5,
+      "plusOdd": 4
+    }
+  ],
+  "positive": {
+    "Paxis": [
+      {
+        "real": "1/14",
+        "delta": "1/14"
+      },
+      {
+        "real": "1/14",
+        "delta": "-1/14"
+      },
+      {
+        "real": "2/7",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "-5/28",
+        "delta": "9/28"
+      },
+      {
+        "real": "13/28",
+        "delta": "-3/28"
+      }
+    ],
+    "Zstar": [
+      {
+        "real": "-1/20",
+        "delta": "1/20"
+      },
+      {
+        "real": "1/10",
+        "delta": "0"
+      },
+      {
+        "real": "1/10",
+        "delta": "1/10"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "9/40",
+        "delta": "-3/40"
+      },
+      {
+        "real": "3/20",
+        "delta": "0"
+      }
+    ],
+    "DH": [
+      {
+        "real": "1",
+        "delta": "0"
+      },
+      {
+        "real": "-1/2",
+        "delta": "-1/2"
+      },
+      {
+        "real": "1",
+        "delta": "-1"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "-1",
+        "delta": "1"
+      },
+      {
+        "real": "1",
+        "delta": "-1"
+      }
+    ],
+    "PH": [
+      {
+        "real": "1/14",
+        "delta": "1/14"
+      },
+      {
+        "real": "1/14",
+        "delta": "-1/14"
+      },
+      {
+        "real": "2/7",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "5/7",
+        "delta": "0"
+      },
+      {
+        "real": "2/7",
+        "delta": "0"
+      }
+    ],
+    "T10": [
+      {
+        "real": "1",
+        "delta": "0"
+      },
+      {
+        "real": "-1/2",
+        "delta": "-1/2"
+      },
+      {
+        "real": "1",
+        "delta": "-1"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "1",
+        "delta": "-1"
+      }
+    ],
+    "T7": [
+      {
+        "real": "1",
+        "delta": "0"
+      },
+      {
+        "real": "-1/2",
+        "delta": "-1/2"
+      },
+      {
+        "real": "1",
+        "delta": "-1"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "1/2",
+        "delta": "-1/2"
+      }
+    ],
+    "companions": {
+      "E": {
+        "row": [
+          {
+            "real": "7/5",
+            "delta": "-14/3"
+          },
+          {
+            "real": "-7/10",
+            "delta": "-7/10"
+          },
+          {
+            "real": "7/5",
+            "delta": "49/15"
+          },
+          {
+            "real": "0",
+            "delta": "-14/3"
+          },
+          {
+            "real": "21/10",
+            "delta": "7/10"
+          },
+          {
+            "real": "7/10",
+            "delta": "7/10"
+          }
+        ],
+        "Hrow": [
+          {
+            "real": "7/5",
+            "delta": "-14/3"
+          },
+          {
+            "real": "-7/10",
+            "delta": "-7/10"
+          },
+          {
+            "real": "7/5",
+            "delta": "49/15"
+          },
+          {
+            "real": "0",
+            "delta": "-14/3"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "7/5",
+            "delta": "-7/5"
+          }
+        ]
+      },
+      "G": {
+        "row": [
+          {
+            "real": "-42/5",
+            "delta": "-41/15"
+          },
+          {
+            "real": "211/10",
+            "delta": "-21/10"
+          },
+          {
+            "real": "-41/10",
+            "delta": "5/6"
+          },
+          {
+            "real": "11/2",
+            "delta": "31/6"
+          },
+          {
+            "real": "21/2",
+            "delta": "7/10"
+          },
+          {
+            "real": "49/10",
+            "delta": "21/10"
+          }
+        ],
+        "Hrow": [
+          {
+            "real": "-42/5",
+            "delta": "-41/15"
+          },
+          {
+            "real": "211/10",
+            "delta": "-21/10"
+          },
+          {
+            "real": "-41/10",
+            "delta": "5/6"
+          },
+          {
+            "real": "11/2",
+            "delta": "31/6"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "7/5",
+            "delta": "-7"
+          }
+        ]
+      },
+      "Y": {
+        "row": [
+          {
+            "real": "-1/20",
+            "delta": "17/20"
+          },
+          {
+            "real": "-1/5",
+            "delta": "21/10"
+          },
+          {
+            "real": "2",
+            "delta": "2/5"
+          },
+          {
+            "real": "5/2",
+            "delta": "-1/2"
+          },
+          {
+            "real": "33/20",
+            "delta": "-1/2"
+          },
+          {
+            "real": "43/40",
+            "delta": "1/40"
+          }
+        ],
+        "Hrow": [
+          {
+            "real": "-1/20",
+            "delta": "17/20"
+          },
+          {
+            "real": "-1/5",
+            "delta": "21/10"
+          },
+          {
+            "real": "2",
+            "delta": "2/5"
+          },
+          {
+            "real": "5/2",
+            "delta": "-1/2"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "-1",
+            "delta": "-11/10"
+          }
+        ]
+      },
+      "W": {
+        "row": [
+          {
+            "real": "-9/20",
+            "delta": "9/20"
+          },
+          {
+            "real": "-3/5",
+            "delta": "5/2"
+          },
+          {
+            "real": "2/5",
+            "delta": "2/5"
+          },
+          {
+            "real": "5/2",
+            "delta": "-1/2"
+          },
+          {
+            "real": "33/20",
+            "delta": "7/10"
+          },
+          {
+            "real": "19/40",
+            "delta": "5/8"
+          }
+        ],
+        "Hrow": [
+          {
+            "real": "-9/20",
+            "delta": "9/20"
+          },
+          {
+            "real": "-3/5",
+            "delta": "5/2"
+          },
+          {
+            "real": "2/5",
+            "delta": "2/5"
+          },
+          {
+            "real": "5/2",
+            "delta": "-1/2"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "7/5",
+            "delta": "-11/10"
+          }
+        ]
+      },
+      "Wprime": {
+        "row": [
+          {
+            "real": "17/10",
+            "delta": "17/10"
+          },
+          {
+            "real": "-3/10",
+            "delta": "23/10"
+          },
+          {
+            "real": "4/5",
+            "delta": "2"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "15/4",
+            "delta": "-7/20"
+          },
+          {
+            "real": "41/20",
+            "delta": "9/20"
+          }
+        ],
+        "Hrow": [
+          {
+            "real": "17/10",
+            "delta": "17/10"
+          },
+          {
+            "real": "-3/10",
+            "delta": "23/10"
+          },
+          {
+            "real": "4/5",
+            "delta": "2"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "-7/10",
+            "delta": "-5/2"
+          }
+        ]
+      },
+      "Zstar": {
+        "row": [
+          {
+            "real": "-1/20",
+            "delta": "1/20"
+          },
+          {
+            "real": "1/10",
+            "delta": "0"
+          },
+          {
+            "real": "1/10",
+            "delta": "1/10"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "9/40",
+            "delta": "-3/40"
+          },
+          {
+            "real": "3/20",
+            "delta": "0"
+          }
+        ],
+        "Hrow": [
+          {
+            "real": "-1/20",
+            "delta": "1/20"
+          },
+          {
+            "real": "1/10",
+            "delta": "0"
+          },
+          {
+            "real": "1/10",
+            "delta": "1/10"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "0",
+            "delta": "0"
+          },
+          {
+            "real": "-3/20",
+            "delta": "-3/20"
+          }
+        ]
+      }
+    },
+    "movement": {
+      "E": {
+        "real": "-7/5",
+        "delta": "7/5"
+      },
+      "G": {
+        "real": "-7/5",
+        "delta": "7"
+      },
+      "Y": {
+        "real": "7/4",
+        "delta": "7/20"
+      },
+      "W": {
+        "real": "147/20",
+        "delta": "7/20"
+      },
+      "Wprime": {
+        "real": "21/5",
+        "delta": "0"
+      }
+    },
+    "normal_source_phase": {
+      "real": "-1/2",
+      "delta": "-1/2"
+    }
+  },
+  "theta_coefficients": {
+    "S7_mass_z6": "1/30",
+    "S7_m6": "24*b*Omega^6*Lambda0",
+    "S10_mass_z6": "-2/3",
+    "S10_m6": "Omega^6*(720*Lambda6-480*b*Lambda0)"
+  },
+  "fixed_mass_coefficients": {
+    "negative": {
+      "real": "-21216",
+      "delta": "3168"
+    },
+    "positive": {
+      "real": "-5520/7",
+      "delta": "-5520/7"
+    },
+    "negative_a6_minus5_norm": "119104"
+  },
+  "full_native": "beta^(n+1)/(b*Omega^6)*(chi*Fplus(kappa)+Fminus(kappa))",
+  "full_native_first_two_rows": "beta^(n+1)/(b*Omega^6)*(C0+kappa*C1) mod p^2",
+  "remaining_nonzero_test": "C0/p+lambda^2*C1 mod p"
+}

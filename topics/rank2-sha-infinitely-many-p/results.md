@@ -346,3 +346,5 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 - [R568：原正条带全140/60核、十度轴与实际返回](results/R568-original-positive-strip-full-cores-and-native-transport.md)：三个C共轭及半周期/绝对锚付原两态的−χ65λR1；正strip完整返回h且保所有D矩、E/G/Y/W、H̄两cut。原Q10 wholeχ65及真实u/P二步词返回原S/T，移动权和全部余域仍保。
 
 - [R565：原V完整差、deck相位及非零Cartier双线性行](results/R565-original-paired-v-lame-and-nonzero-cartier-bilinear-row.md)：真实zV=r4yNx、QV完整多项式及全étale相位/gcd已付；同ray的完整十二度Cartier输出h²(x6+20x3+10)/18最高为单位，b17保全部Frob根。该非线性行不等两指定负矩乘积，且分部配对看不见R4最高Frobenius项。
+
+- [R567：原正负完整首两行与同一五sigma来源消元](results/R567-native-both-strips-and-exact-five-sigma-normal-jets.md)：两个完整条带合为β^(n+1)(χF++F−)/(bΩ6)；真实H/R1转置各消一个原sigma输入，同一五sigma的S10/S7条件行、全部第七矩及第六矩质量修正精确付清。首层判据C0/p+λ²C1保原log质量/实际cut，非零仍未付。
