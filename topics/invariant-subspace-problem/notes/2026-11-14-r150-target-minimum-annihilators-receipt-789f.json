@@ -1,0 +1,1175 @@
+{
+  "format": "r150-original-nine-vector-minimum-annihilators-v1",
+  "status": "completed",
+  "field": 31,
+  "stateSHA256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf",
+  "stateReceiptSHA256": "bc25de86f93c40743fd07bb2bacac5d60b4fc4e1e5788621a5c2037854fa5963",
+  "sourceSHA256": "71c4d277ac46594b6b2878ad6e23d8b84ced6905f3b60c2ad090b7b3f0978f76",
+  "readerSourceSHA256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2",
+  "pythonFlintVersion": "0.9.0",
+  "flintVersion": "3.6.0",
+  "torsionDimension": 315,
+  "targets": [
+    {
+      "target": 2,
+      "degree": 24,
+      "coefficientsAscending": [
+        0,
+        0,
+        0,
+        7,
+        25,
+        15,
+        20,
+        20,
+        15,
+        22,
+        9,
+        26,
+        15,
+        29,
+        26,
+        28,
+        8,
+        4,
+        21,
+        15,
+        11,
+        29,
+        5,
+        21,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 2,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            0,
+            1
+          ],
+          "exponent": 3,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            17,
+            25,
+            26,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            24,
+            24,
+            27,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            15,
+            0,
+            2,
+            18,
+            13,
+            1
+          ],
+          "exponent": 1,
+          "degree": 6
+        }
+      ],
+      "krylovColumns": 316,
+      "krylovRank": 24,
+      "independentInitialColumns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "e36d6f2e4943053669211b4f9124fdc5ba78d77017eeccc88ffb5fb0a53e40c6"
+    },
+    {
+      "target": 3,
+      "degree": 24,
+      "coefficientsAscending": [
+        0,
+        0,
+        0,
+        7,
+        25,
+        15,
+        20,
+        20,
+        15,
+        22,
+        9,
+        26,
+        15,
+        29,
+        26,
+        28,
+        8,
+        4,
+        21,
+        15,
+        11,
+        29,
+        5,
+        21,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 2,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            0,
+            1
+          ],
+          "exponent": 3,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            17,
+            25,
+            26,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            24,
+            24,
+            27,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            15,
+            0,
+            2,
+            18,
+            13,
+            1
+          ],
+          "exponent": 1,
+          "degree": 6
+        }
+      ],
+      "krylovColumns": 316,
+      "krylovRank": 24,
+      "independentInitialColumns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "6e689a9e60c313fef3ba9af7b8ba5431f11e3d9b97acb2033256d81e99bc61b0"
+    },
+    {
+      "target": 4,
+      "degree": 23,
+      "coefficientsAscending": [
+        0,
+        0,
+        0,
+        24,
+        30,
+        15,
+        26,
+        6,
+        22,
+        0,
+        22,
+        27,
+        12,
+        14,
+        19,
+        22,
+        14,
+        10,
+        20,
+        5,
+        25,
+        27,
+        22,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 2,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            0,
+            1
+          ],
+          "exponent": 3,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            17,
+            25,
+            26,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            24,
+            24,
+            27,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            15,
+            0,
+            2,
+            18,
+            13,
+            1
+          ],
+          "exponent": 1,
+          "degree": 6
+        }
+      ],
+      "krylovColumns": 316,
+      "krylovRank": 23,
+      "independentInitialColumns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "bd0db8216adb6122af5622e8b98ba8ca22d1d118a025e29e26a046968045b25b"
+    },
+    {
+      "target": 5,
+      "degree": 24,
+      "coefficientsAscending": [
+        0,
+        0,
+        0,
+        7,
+        25,
+        15,
+        20,
+        20,
+        15,
+        22,
+        9,
+        26,
+        15,
+        29,
+        26,
+        28,
+        8,
+        4,
+        21,
+        15,
+        11,
+        29,
+        5,
+        21,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 2,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            0,
+            1
+          ],
+          "exponent": 3,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            17,
+            25,
+            26,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            24,
+            24,
+            27,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            15,
+            0,
+            2,
+            18,
+            13,
+            1
+          ],
+          "exponent": 1,
+          "degree": 6
+        }
+      ],
+      "krylovColumns": 316,
+      "krylovRank": 24,
+      "independentInitialColumns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "0bc3c9a90ebaf3e23aeb4171b9a35a5410c58f2e8ecf894e89cc394e7a2951a2"
+    },
+    {
+      "target": 6,
+      "degree": 24,
+      "coefficientsAscending": [
+        0,
+        0,
+        0,
+        7,
+        25,
+        15,
+        20,
+        20,
+        15,
+        22,
+        9,
+        26,
+        15,
+        29,
+        26,
+        28,
+        8,
+        4,
+        21,
+        15,
+        11,
+        29,
+        5,
+        21,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 2,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            0,
+            1
+          ],
+          "exponent": 3,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            17,
+            25,
+            26,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            24,
+            24,
+            27,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            15,
+            0,
+            2,
+            18,
+            13,
+            1
+          ],
+          "exponent": 1,
+          "degree": 6
+        }
+      ],
+      "krylovColumns": 316,
+      "krylovRank": 24,
+      "independentInitialColumns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "9841a1bef3424d2d2f67fe5fcef7fe0eed4051694e9f1a8a37d8d03c3ba43a34"
+    },
+    {
+      "target": 7,
+      "degree": 24,
+      "coefficientsAscending": [
+        0,
+        0,
+        0,
+        7,
+        25,
+        15,
+        20,
+        20,
+        15,
+        22,
+        9,
+        26,
+        15,
+        29,
+        26,
+        28,
+        8,
+        4,
+        21,
+        15,
+        11,
+        29,
+        5,
+        21,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 2,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            0,
+            1
+          ],
+          "exponent": 3,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            17,
+            25,
+            26,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            24,
+            24,
+            27,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            15,
+            0,
+            2,
+            18,
+            13,
+            1
+          ],
+          "exponent": 1,
+          "degree": 6
+        }
+      ],
+      "krylovColumns": 316,
+      "krylovRank": 24,
+      "independentInitialColumns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "226a30218512285d79b4cd70c3cd7408fb842e96d58ff90f8eaecb2de0f68a23"
+    },
+    {
+      "target": 8,
+      "degree": 24,
+      "coefficientsAscending": [
+        0,
+        0,
+        0,
+        7,
+        25,
+        15,
+        20,
+        20,
+        15,
+        22,
+        9,
+        26,
+        15,
+        29,
+        26,
+        28,
+        8,
+        4,
+        21,
+        15,
+        11,
+        29,
+        5,
+        21,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 2,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            0,
+            1
+          ],
+          "exponent": 3,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            17,
+            25,
+            26,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            24,
+            24,
+            27,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            15,
+            0,
+            2,
+            18,
+            13,
+            1
+          ],
+          "exponent": 1,
+          "degree": 6
+        }
+      ],
+      "krylovColumns": 316,
+      "krylovRank": 24,
+      "independentInitialColumns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "ae387d47086ac8ca08fc66ab6da09c1e5506a3d14ea7caa7493f10f40e8ecfc2"
+    },
+    {
+      "target": 9,
+      "degree": 24,
+      "coefficientsAscending": [
+        0,
+        0,
+        0,
+        7,
+        25,
+        15,
+        20,
+        20,
+        15,
+        22,
+        9,
+        26,
+        15,
+        29,
+        26,
+        28,
+        8,
+        4,
+        21,
+        15,
+        11,
+        29,
+        5,
+        21,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 2,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            0,
+            1
+          ],
+          "exponent": 3,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            17,
+            25,
+            26,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            24,
+            24,
+            27,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            15,
+            0,
+            2,
+            18,
+            13,
+            1
+          ],
+          "exponent": 1,
+          "degree": 6
+        }
+      ],
+      "krylovColumns": 316,
+      "krylovRank": 24,
+      "independentInitialColumns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "d972be683ed1cdb85192f88d4efa1ac7de9e76980d0e9bda840c83944fde212b"
+    },
+    {
+      "target": 10,
+      "degree": 23,
+      "coefficientsAscending": [
+        0,
+        0,
+        0,
+        24,
+        30,
+        15,
+        26,
+        6,
+        22,
+        0,
+        22,
+        27,
+        12,
+        14,
+        19,
+        22,
+        14,
+        10,
+        20,
+        5,
+        25,
+        27,
+        22,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 2,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            0,
+            1
+          ],
+          "exponent": 3,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            17,
+            25,
+            26,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            24,
+            24,
+            27,
+            1
+          ],
+          "exponent": 2,
+          "degree": 3
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            15,
+            0,
+            2,
+            18,
+            13,
+            1
+          ],
+          "exponent": 1,
+          "degree": 6
+        }
+      ],
+      "krylovColumns": 316,
+      "krylovRank": 23,
+      "independentInitialColumns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "fullVectorRelationZero": true,
+      "krylovColumnMajorSHA256": "eb865b8f292b0f490402ccf460d05cf7777f49ccbf3e6c6978433f95bd0d6299"
+    }
+  ],
+  "commonMinimum": {
+    "degree": 24,
+    "coefficientsAscending": [
+      0,
+      0,
+      0,
+      7,
+      25,
+      15,
+      20,
+      20,
+      15,
+      22,
+      9,
+      26,
+      15,
+      29,
+      26,
+      28,
+      8,
+      4,
+      21,
+      15,
+      11,
+      29,
+      5,
+      21,
+      1
+    ],
+    "unit": 1,
+    "factors": [
+      {
+        "coefficientsAscending": [
+          30,
+          1
+        ],
+        "exponent": 1,
+        "degree": 1
+      },
+      {
+        "coefficientsAscending": [
+          29,
+          1
+        ],
+        "exponent": 2,
+        "degree": 1
+      },
+      {
+        "coefficientsAscending": [
+          0,
+          1
+        ],
+        "exponent": 3,
+        "degree": 1
+      },
+      {
+        "coefficientsAscending": [
+          17,
+          25,
+          26,
+          1
+        ],
+        "exponent": 2,
+        "degree": 3
+      },
+      {
+        "coefficientsAscending": [
+          24,
+          24,
+          27,
+          1
+        ],
+        "exponent": 2,
+        "degree": 3
+      },
+      {
+        "coefficientsAscending": [
+          30,
+          15,
+          0,
+          2,
+          18,
+          13,
+          1
+        ],
+        "exponent": 1,
+        "degree": 6
+      }
+    ]
+  },
+  "elapsedSeconds": 1.7239639949984848,
+  "sourceIdentity": "The full vectors are the nine original target normal forms in the saved W basis. Every recurrence follows AK=KJ and CK=0, and all state multiplication and target normal-form reductions have saved original GB source operations. Krylov rank proves minimality; no scalar projection is used."
+}

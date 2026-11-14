@@ -4,11 +4,11 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `83b4190e14e1c776901336886c38063776c677d1`（2026-11-14 11:43:05 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `62cff76276a6f65dc2a8f74566a3a77fc8754b5f`（2026-11-14 11:49:13 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。`0c17ddf2`新增表列课题/规矩1、13扩范围，`ee26c0a6`仅改另题标题，均已读，ISP标准不变。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`；旧R272/273已重建推送。历史只读副本移至`/tmp/isp-789f-old-math-research`以释放共享磁盘，全部保留。
-- **完整旧范围：** [此前H](notes/2026-11-14-handoff-before-complete-native-gb-789f.md)与[open归档](notes/2026-11-14-open-before-complete-native-gb-789f.md)保完整范围；未列接口不算关闭。
+- **完整旧范围：** [此前H](notes/2026-11-14-handoff-before-target-annihilator-789f.md)与[open归档](notes/2026-11-14-open-before-target-annihilator-789f.md)保完整范围；未列接口不算关闭。
 
 ## 模型与不可越过的范围
 
@@ -39,13 +39,13 @@ Haar慢主理想S_N/S_Y与负边界ℓ²(N0)上T_N/T_Y分清；后者M=kerT含e0
 
 ## 3. R150 原参数模与当前计算
 
-原17式=11物理极化N+6Γ；原M5为6188×4367，函数域秩4354。全部rankAy8与0/2/−6/∞已闭，余g≠0、rankAy9有限Σ，及char0 I*C=T/实际分母。高ess其他mean秩、全局自然幂/实际逆另外开放。
+原17式=11物理极化N+6Γ；M5为6188×4367，函数域秩4354。rankAy8与0/2/−6/∞已闭，余g≠0、rankAy9有限Σ及char0 I*C=T。高ess其他mean秩、全局自然幂/实际逆仍开。原尺度/旧失败/原163核/齐次8770与74次条件准则完整保此前H及索引。
 
-- [计划/旧回执](notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md)保原尺度与失败原因；43583257344在1800秒/4GiB停原行reduce，未到std。3333常单位预基全参数可逆；F31[s]全部N=预基+11原N10行，余2195来源。原163方核、齐次度8770及74次射影gcd夹逼已证，实际最大子式因子未算。
-- [完整原生NF](results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)54.8127秒/512MiB付全部2195来源+9目标，1034分量、参数最高45次；原回代FC+B(hJ−HC)=hT和全部DAG保留。[次数优先定理](results/R150-appendix-parameter-degree-preserving-univariate-module-basis.md)保证商模(dp,c)整行≤45次，不限制来源系数/Ann次数；graded SSI全载4.132秒。
-- [完整原生GB与820维入口](results/R150-appendix-complete-native-polynomial-basis-and-finite-torsion-space.md)： 2195/2195来源、1021行，184.148秒，512MiB；行次数0/1/2/3/7/8的个数573/268/129/42/8/1，总716。操作DAG与完整原来源身份保留，完整稿/回执已记录；九目标Ann与char0尚未完成。前820来源试算单独标前缀，不冒充全模。
-- **唯一远端长任务：** [43588728414](https://github.com/Rogerhu12/math-research-public/actions/runs/43588728414)，源1031b194，31/nativeNF+gradedSSI/Ann，1800秒/4GiB；NF/SSI/输入artifact实际成功，余模步骤11:11:14起运行。原生结果不虚称该任务已成功。
-- [完整挠空间/除子](results/R150-appendix-complete-mod31-torsion-and-affine-maximal-minor-divisor.md)：820维观测在57层稳定，秩505、torsion维315，CW=0/AW=WJ/9目标全属W已付。整个charpoly315次、minpoly190次；另5不可约因子共60次支撑且在charpoly中全平方，非旧点厚化。仅模31，不当char0异常点。九目标自身Ann和∞继续。有限域Ann、仿射gcd均不自动触发保∞的74次特征零提升。
+- [全NF](results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)54.8127秒付2195来源/9目标，保1034分量/45次及全部原DAG。[完整GB](results/R150-appendix-complete-native-polynomial-basis-and-finite-torsion-space.md)184.148秒/512MiB付全来源1021基，最高8次、总行度716；不是函数域行空间替代。全部挠元NF≤7，准确状态空间820维。
+- [完整挠空间/除子](results/R150-appendix-complete-mod31-torsion-and-affine-maximal-minor-divisor.md)2.084秒得到观测秩505、W维315和CW=0/AW=WJ，完整压缩状态/来源已保存。charpoly315/minpoly190；5新不可约因子共60次支撑，在除子中各平方。仅模31，不是复参数点；E8模31与旧点碰撞。
+- [九原目标最小Ann](results/R150-appendix-nine-original-targets-exact-mod31-annihilator-degree24.md)1.724秒完整315维Krylov给共同h31=s³(s−2)²(s−1)P+²P−²E6，degree24；j4/10少(s−1)、度23，其余24。五个额外因子及s+6均不进入任何目标。原基来源公式已付，正有界回放原2195来源；候选h0=s³(s−2)F+²F−²E8仅待证明char0式，不能直接提升。
+- **CI已结束：** 43588728414在11:41:15以exit124超时（1800秒/4GiB），实际到BEGIN_BASIS，NF/SSI成功但std未完成；原输出保notes/r150-module-actions-789f/43588728414-1/char31。当前无远端长任务，不重跑旧std；原生GB/W/目标Ann均已独立完成。
+- **当前后继：** 24次候选的特征零来源/局部分母；根正用∞图原全部6188来源做一阶连接，不把旧仿射来源压缩免费转图。整个除子与目标Ann区别保留，∞/char0仍须分别支付。
 
 ## 4. 其余原开放接口
 
