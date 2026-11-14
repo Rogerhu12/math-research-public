@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_same_Z_quarter_Hessian_reweighted_Green_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43630194680",
   "run_attempt": "1",
@@ -74,6 +74,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T19:06:48.974886+00:00",
+      "before": "1619e9199003d141437e141d07190df5203a23dc",
+      "after": "73a16af68481e342d6194ecd7705fbb160afaa4b",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -81,6 +89,11 @@
       "time": "2026-11-14T19:06:35.152410+00:00",
       "final": false,
       "commit": "5653af6fde41b5c1aef412f6178f90feb60144da"
+    },
+    {
+      "time": "2026-11-14T19:06:48.324154+00:00",
+      "final": false,
+      "commit": "73a16af68481e342d6194ecd7705fbb160afaa4b"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -115,7 +128,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "1619e9199003d141437e141d07190df5203a23dc",
+  "last_read_commit": "73a16af68481e342d6194ecd7705fbb160afaa4b",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-quarter-Green-work/science",
   "actual_input_sha256": {
     "same-z-green": "eb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18",
@@ -128,9 +141,21 @@
     "quarter-process": "ed384e247e771fa6062dbeafa825b3d11d6b370624b79f8ba5fb70260302a28a",
     "cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba"
   },
-  "snapshot_utc": "2026-11-14T19:06:46.103970+00:00",
-  "wall_seconds": 15.244007368000013,
+  "snapshot_utc": "2026-11-14T19:06:49.039777+00:00",
+  "wall_seconds": 18.179812998000003,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 1184,
+      "sha256": "ea7254a2e5d3a200c99205fc96736d350e284455c4753ee74ed139fb53d0b42c"
+    },
+    {
+      "logical_file": "evidence/complete-quarter-Hessian-cut-and-Green-summary.json",
+      "file": "evidence/complete-quarter-Hessian-cut-and-Green-summary.json",
+      "bytes": 25461,
+      "sha256": "8011bbebe76336db9656deb7d72d2ba3af7a2bbdc8892b991b2329e712772110"
+    },
     {
       "logical_file": "evidence/original-cut-process.json",
       "file": "evidence/original-cut-process.json",
@@ -161,5 +186,23 @@
       "bytes": 3992860,
       "sha256": "ff1982291b6c00cf0c05ff033efd6591752279089d2b37133a35056a65c020bd"
     }
-  ]
+  ],
+  "complete_native_sha256": "ff1982291b6c00cf0c05ff033efd6591752279089d2b37133a35056a65c020bd",
+  "actual_scientific_gates": 8,
+  "complete_finite193_compressed_response_error_bound_proved": true,
+  "complete_finite193_same_Z_error_L2_bounds": {
+    "whole_inner_body": {
+      "ball": "[0.022744910832105796346240811201953178240960120419541358659916171470969764780588571 +/- 2.45e-83]",
+      "lower": "[0.022744910832105796346240811201953178240960120419541358659916171470969764780588571 +/- 2.45e-83]",
+      "upper": "[0.022744910832105796346240811201953178240960120419541358659916171470969764780588571 +/- 2.45e-83]"
+    },
+    "fixed_negative_phase_window": {
+      "ball": "[0.010656243445032006011838024861889494474659719529907289140584041972303325703795250 +/- 3.86e-82]",
+      "lower": "[0.010656243445032006011838024861889494474659719529907289140584041972303325703795250 +/- 3.86e-82]",
+      "upper": "[0.010656243445032006011838024861889494474659719529907289140584041972303325703795250 +/- 3.86e-82]"
+    }
+  },
+  "complete_finite193_negative_error_upper_below_one_over200": false,
+  "new_profile_rescalings_in_this_child": 6391,
+  "finished_utc": "2026-11-14T19:06:48.699914+00:00"
 }
