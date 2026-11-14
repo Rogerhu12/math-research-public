@@ -274,3 +274,10 @@ run43616658549/source65fdfd019d/job132513122964 success，actual35 note16351B/06
 ### 2026-11-14 actual39固定支持投影的完整读回
 
 actual39前缀note21072B/765bc047…全文读后发布：run43620111146/job132523707261，226302799B/ZIP21402157…完整核。24576全角行/4397局部列保完整B，修正S4059保outside raw action与54负effective offsets；Hildreth200未收敛，272负slack/min−22.568，不能据stationarity小宣称QP解。实际采用该投影全向量radial .002645002409295411后原segment τ1重组，非raw backup；唯一α1全原node/mid/两RMS/rho过，同weights44.292419650985686→44.29019103902422/drop.0022286119614634003，FD7.528714322e−10。新warm451e7ef1…/status51122351…保全，col.0071103172664/BC8.053357927e−8仍非完整BVP/native/闭面。111 B NPZ708数组、12组B/Γ/Π与全model hash、13端点/S索引、父37全state/RHS/producer、当前27与FD31源全bits核；没有坏mid因此只有3observer报告无bad NPZ。无本地新数值，40同父37完整QR-H/C比较正在实际运行。
+
+
+### 2026-11-14 request41原rawCell0逐RK步局部J捕获
+
+三独立源launcher13149B/c2341018…、hook43277B/2695cd2d…、window11654B/07dd6101…全文读；原717ac5…flow仅五处可逆插入，原RK/state增量表达式保留，原b12f…integrationGrid同URL/完整源绑定。72个旧stage保全部226-state/mean，tangent每原步重启I；每块224²J/输出/全state/mean tangent即时流写large-arrays，原root.g只观察已返回值，所有原出口/guard/mean对saved28，不另加gate。完整23/28 seed/H/source/graphs/scales和public artifact PIN保留；实际cusp步数决定dynamic depth，余504旧J供后继，0新增ODE步/noJ/oldlongJ/native/trial/audit。新lane取原28输入并恢复公开源码，无prepare112；源AST/Node syntax及workflow三名单静态核。
+
+本地40 ZIP已完整取到，但首次整文件hash进程exit137；改为流式hash并复用完整SHA正确原ZIP后解压成功，未重做科学计算。40全部真实步骤success且原67.452s helper到16行预算，完整模型/QR证据由两子任务只读核。为下一原包空间，已核35/37 B数组与已校验ZIP重复副本共637863827B清理，warm/status/small及39/40完整包保留，原GitHub artifacts未动。

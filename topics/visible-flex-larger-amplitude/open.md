@@ -82,3 +82,8 @@ R251四Loewner/完整Gram消费者已在request16通过三个解析例，但尚�
 ### 最新native39读回
 
 新578系统本身全行exact初范数1.902947232e31，修正后2.570129142e32更坏，最坏new45对应旧44；[actual39完整结论](notes/2026-11-14-actual-request39-native-split-direction-failed.md) 已全文读并全字节核：49 manifest项、全部新旧J流/完整映射/两ledger/4checkpoint/原operand均过。既有逐块记录的大缺陷集中rawCell0多个segment，余504块远小。下一保原真实RK/grid（包括cusp）对首raw cell每步重置局部tangent，流式捕获全部短J/state；不机械只加44，不改g/ODE步/原门。动态depth consumer保旧边界/节点σ、实际mapping及577restriction，所有科学计算仅公开Actions。
+
+
+### 第41次原始逐步捕获
+
+原native39的完整失败分布已支撑处理rawCell0全部72旧stage。第41次rawcell0steps接独立三源：只在每个原RK步重启tangent，保原field/state/226mean、ordinary与cusp的真实x/h、一次原出口port；逐步J及全状态流式留artifact，72原出口/guard/mean对saved28读回，差异不当新增门。按真实总步数生成dynamic layout和明确节点σ，后继consumer复用余504旧块；不重原长J或noJ，不增ODE步/改g，不直接派trial。接口与完整来源见 [逐原步采集合同](notes/2026-11-14-native-rawcell0-original-step-capture-interface.md)；实际结果尚未产生。
