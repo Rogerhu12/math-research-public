@@ -1,0 +1,64 @@
+{
+  "target": "s2-right-swapped",
+  "purpose": "One bounded profile, not a positivity assertion without two passed minors and final event.",
+  "source_sha256": "3fc2271bf9adcd6645e2c90f91ae202314722ec8573d4189a178eac1adad2189",
+  "limits": {
+    "seconds": 45,
+    "address_space_bytes": 805306368,
+    "core_bytes": 0
+  },
+  "elapsed_seconds": 45.051,
+  "exit_code": -9,
+  "timed_out": true,
+  "events": [
+    {
+      "birth": 2,
+      "dimension": 5,
+      "event": "singleton_polynomial_gram",
+      "height": 0,
+      "max_terms": 9,
+      "seconds": 0.022
+    },
+    {
+      "birth": 2,
+      "event": "singleton_compressed_gram",
+      "height": 0,
+      "max_den_degree": 6,
+      "max_den_terms": 27,
+      "max_num_degree": 4,
+      "max_num_terms": 14,
+      "seconds": 0.023
+    },
+    {
+      "event": "precision_forms_generated",
+      "profiles": {
+        "0": {
+          "max_den_degree": 3,
+          "max_den_terms": 8,
+          "max_num_degree": 2,
+          "max_num_terms": 5
+        },
+        "1": {
+          "max_den_degree": 7,
+          "max_den_terms": 67,
+          "max_num_degree": 8,
+          "max_num_terms": 99
+        },
+        "2": {
+          "max_den_degree": 9,
+          "max_den_terms": 124,
+          "max_num_degree": 12,
+          "max_num_terms": 302
+        },
+        "3": {
+          "max_den_degree": 11,
+          "max_den_terms": 203,
+          "max_num_degree": 16,
+          "max_num_terms": 699
+        }
+      },
+      "seconds": 0.025
+    }
+  ],
+  "non_json_tail": []
+}

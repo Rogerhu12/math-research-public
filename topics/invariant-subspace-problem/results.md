@@ -695,3 +695,7 @@
 ### R293 附录：全出生首阶与全部高度加强S1的同常数等价
 
 [完整证明](results/R293-appendix-all-height-strengthened-s1-heavy-bit-equivalence.md)对每个n≥2以diag(t⁻¹/²,I)作实际源合同，极限严格分成旧上n−1与旧下n+1加强缺陷；完整三次桥创新的两主项保留，最高处删真实不存在的精度。首阶另以diag(t⁻¹,I)和κI Schur付第二阶。因此任意κ>0的全birth首阶加强性质等价全部高度同κ性质，严格反例可经有限强位回传；任意有限统一加强κ若成立即足普通相邻κ，无须另假设S2。未证明该κ存在，非严格极限不推出全高度严格性，原graph仍未付。
+
+### R288 附录：完整一孔精度的显式系数与S2同源合同
+
+[完整证明](results/R288-appendix-birth-one-precision-coefficients-and-common-source-s2-congruences.md)在既有一孔完整Schur上给生成函数及D_n/η_n统一系数展开，C3完整保正rr*项与真实硬顶。两普通组加一位的P1–P3直接由同一源压缩取得，准确变换原S2/左右强列及交换Schur，未改变逆的次序或实际度量。两种替代右列生成器仅做一次45秒/768MiB剖面，均未产生主子式；完整回执已保存。旧协方差/正边不重计，新Catalan展开和具体逐边失败只界定方法范围。
