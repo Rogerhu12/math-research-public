@@ -1,56 +1,51 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-/root，visible-larger-public-resume-20261114，GPT-6 Astra Pro（AI辅助）。**未完成，持续真实增幅/固定g精化/全闭检查。** 旧现场见notes/2026-11-14-handoff-public-migration-checkpoint.md及legacy-recovery-checkpoint；完成数据见同日notes。
+/root，visible-larger-public-resume-20261114，GPT-6 Astra Pro（AI辅助）。**未完成，继续大幅完整闭族及同g精化，不等用户阶段确认。** 历史细节见本日migration/legacy/recovery notes及Git历史。
 
-## 目标与规则
+## 授权、规则和现场
 
-完成条件按README：固定g与H的闭连通C²嵌入族，diamH/δhold≥.2D，δE>0（含反射），reach≥.03D，metric≤1e−6；同g/参数/t区间精化至机器/原tol。H可不连通、网格件<5MB；开放前缀/小幅/样点均未完成。
-每push前真实pull --rebase，非快进重拉重推；至少每小时pull，双README仅读新差异，末行记已读SHA。PAT仅瞬时CLI，不入文件；不强推。root独占Git/H/log/open，子线交文件冻结，运行用独立scratch副本。Rule12完整证明直接results，不加独审/冻结门；H<10KB，md<100KB，数据>1MB gzip/件<5MB，大派生表只存源/argv/hash。
-旧仓正式迁移d9b031786已读；新公开Rogerhu12/math-research-public根README授权/14规则已全读，题README仅迁移提示变。Rule13用本仓Actions，旧math-research-ci/五queue已停；Rule14禁明文凭证。旧仓不再写。
+本轮用户明确指定公开 Rogerhu12/math-research-public，授权CLI commit/push main与本仓Actions；旧公开发布审批阻塞已解除，普通push多次成功，不重复问。只在公开仓写；PAT只瞬时CLI，不入文件/日志/提交，不强推。根README全部授权/14规则已读。
+每push前真实pull --rebase；非快进立即pull/rebase/重推循环；至少每小时pull，每次检查双README新差异，有变只读差异并立刻执行。读SHA记末行。root独占Git/H/open/log/workflow，子线交独立文件冻结。
+计算直接用本公开仓Actions（4CPU/16GB/6hr）；本地只读/源码/准备/压缩取回。Rule12完整证明直接results，不加独审或冻结审批门。H<10KB、md<100KB、数据>1MB gzip、单件<5MB；大派生表保存源/argv/hash，不写根LOG。
+clone=/workspace/scratch/e959e57ee07f/math-research-public，部分克隆/窄检出，禁gc.auto/autoPackLimit/maintenance.auto。共享磁盘紧张，不删除他人文件，不对大树git ls-tree -l触发全blob下载。exec各自PID命名空间，只管owned-child。
+旧B=/workspace/scratch/ffc1334c1988仍可只读，含math-research-public、math-research、root-work/strong-work/exact-work/geometry-work。已恢复旧公开clone43个本地提交，旧末端e4e38a4fab4cadf9039640dc3495add7eb15eb36；R235–237及真RK24/RK48求解不需重复。恢复说明notes/2026-11-14-public-successor-recovery.md。
 
-## 当前公开授权与实际恢复
+## 完成标准
 
-用户本轮直接指定 Rogerhu12/math-research-public 并明确授权 CLI commit/push main 和本仓 Actions，旧轮因仅有私仓授权产生的公开发布阻塞已解除，不再等待确认。
-本轮部分克隆至 /workspace/scratch/e959e57ee07f/math-research-public；只窄检出本题源码/必要笔记/结果，重计算只用本仓Actions。旧 B=/workspace/scratch/ffc1334c1988 仍可只读，未推结果不必一律重做。
-已原样恢复旧公开clone 43 个本地提交，末端 e4e38a4fab4cadf9039640dc3495add7eb15eb36，合入最新公开main，不重写任何已推提交；仅本题323路径及一项本题workflow，R235–R237/原RK24、RK48完整solver已恢复。所有新增文件<5MB，未发现明文凭据。旧停止/排队描述是历史，不能当当前运行状态。
-优先恢复新球核心M96从.984到.99：旧真实退出1为ENOSPC，423节点checkpoint仍在；前三Newton步接受，尚无完成解。新Actions入口已提交：visible-larger-public-resume.yml，两线M96/rk48；本次先只解.99，成功后从实际输出递进。原A RK48求解已成功，但16层源节点common-grid和闭组装未完成，接续原状态，不重复已成功求解。
+按README：同一固定g的连通闭C²嵌入连续族、固定H含内点、diamH与实际像δhold均≥.2D、含反射商δE>0、全t reach≥.03D、全域metric≤1e−6，并同g/参数/t范围精化至机器或原solver容差。D取完整闭F0；H可为两个固定帽之并。交数个<5MB网格并明确严格存在缺口。开放前缀、设计代理、有限样点或小幅A不够收尾。
 
-## 环境与恢复
+## 当前最新真实大核接受点
 
-B=/workspace/scratch/ffc1334c1988；R=B/math-research-public；T=R/topics/visible-flex-larger-amplitude；B下root-work/strong-work/exact-work/geometry-work。旧B/math-research只读。9CPU/约9.7GiB无swap，共享tmpfs占用大；BLAS/OMP/MKL=1。exec各自PID命名空间，不能猜PID杀进程；只用原session或owned-child supervisor。
-本轮clone禁自动repack，只保留窄检出。旧d1aa462cfc02已失，R179–R224多项仅落盘/入队未推，half-positive J/QR/iter2不能冒恢复。
-91原源revision869436630c99aa5a68afb55bd8877c826034d117、7A raw已实恢复；其中12源属未迁移私题，Actions仅用MR_TOKEN secret瞬时读，不公开原源。新最终helper已再逐件核91及7raw，8.60s exit0；前次完整恢复494.92s。准备不是科学计算。
-A主SHA917d859e8a73fa663db1839e354909ae4f174bad1895f8717c20705cdd702aaf；fixed-view cd2392da6fdc8676a563ef6a18037fe43ea1519288ae39e811d6ac7a55bbcdfa。raw在B/strong-work/runtime/topics/visible-flex-larger-amplitude；原recipe可重生。
+公开followup run43580643038，源码be989410a0149c2d5b24feec5b32ba3f93ad5c70：free3第一段从.984真正接受到 **s=.99**，423节点/M96/N1024，固定核心前3、释放4..96，93条principal normal设计末条件。RMS5.4570433066e−7、BC3.46945e−18；完整实际文件SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff。
+结果在notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz（artifact14108132430取回；本次待归档），含原profile/projector/seed/日志、精确core-certificate和material-quintic。两档材料C²读出已真0：1024角/2径向误差5.77368e−7、κ6.30084、G样本.960000980454、Dprefix样本3.5003721203；更密档读同JSON。不是完整尾或闭面。
+第二段duration .012 **只在prepare的Taylor2末点principal elliptic门失败**：detII正性/IIφφ条件未通过，未启动Newton；不能说.99接受点失败。新public_free3_adaptive.py从此真.99开始，先核实际入口正分支，仅预测门失败时二分步长，不放宽原门；下一批Actions从.006试起向1.05。若入口真不在principal域则转fullDN，不无限缩步。
+首批run43579782197的固定32核 .99恢复真运行321.75s但不接受：5次Jac后回溯失败，连续残差5.93612e−5，需求764节点超过640上限，实际保存423节点。BC3.39e−21不代全域通过；原checkpoint/actual/日志在notes/public-actions-43579782197-1-m96，不能冒新接受解。
+旧.984真M96接受文件仍notes/2026-11-14-geometry-resume-scaled-sphere-M96-normal-BVP-r1.json.gz，SHA3ac8c8ef…；R237严格证全96核rho>.16611593994/G≈.959999999997。新free3核心必须使用自己的证书，不移植旧下界。
 
-## 当前Actions与接续接口
+## 完整尾和同材料度量主线
 
-run43579782197，源码ca96fb9e1102328c80a2c8db7998f34f2ce10a7b：M96 .99计算step于09:22失败、待日志定因；RK48完整读出step于09:30真success。两线publisher失败但artifact存在，正取回并修发布。followup run43580643038并行fixed3 normal、1024/2048/4096材料角谱及R37/R238真实闭面检查，当前run失败、逐job调查；不是完成主目标。
-新大核法向角φ与tail材料角θ不同，必须消费完整逆映射/谱尾，不能直接把96个φ高度系数当96H。全nonmean DN在field_modes=tail_modes时需3个scalar控制，模数不同需相应预算；完整均值/六jet接缝另付。
-R239已证明连续正分支下完整cut数据的均值唯一及单个SE2配准/六jet匹配；不把有限DFT当已满足。真T96尾接口与完整DN BVP正在接入。
+R236 λ=6/5全32核心G≈.96；照搬旧scalar会遮挡到.869，球控制新prefix保持样本G。现有AngleConnector/coast/finitebridge能把scalar接到真实r=.3尾cut，但新增段的非轴场尚未求出。
+geometry_20261114_full_scalar_profile.py包含3个内支scalar控制和FrozenCompleteProfile；full_dn_boundary.py按完整材料θ匹配非均值DN并含core换角导数；full_dn_augmented.py用c'=p'=0把非局部BC变成原QR可解的分离BC。M=T96初设计固定前3、3scalar，增广389维/左293右96；未实跑完整数值。
+**R240已证明**：ρ>0、固定c0=1时 θ=Φc(φ)，g=ds²+a(s)²dθ²与核心c无关。真正同g精化冻结完整a(s;p*)/区间/尾帽g和t范围，释放全部核心，K=0/T=M/k=0，增广386维/左290右96。不得把非线性换角硬延到帽心；用共同θ环带与固定帽图册，实际C²拼接/固定H另付。
+**R239已证明条件引理**：同完整材料高度/非均值径向斜率、连续正分支和实际turning number决定均值，单个SE2配准及同非特征Darboux分支决定完整六jet。有限DFT不能自动核销这些假设。exact正接真T96 tail worker，原有限尾g/正性/Newton/J/audit不改，只修constructor容量限制。
+材料谱run43580643038 material真成功并自动push，输入仍旧.984：N4096下T96的高度C²截断误差.00253633，T512仍.00141522，T768约5.92449e−9但仅一档；原96φ模不能当96θ模。该处a'>0，非native上尾cut；只作谱诊断，真正cut重新核全谱。完整pack在notes/public-actions-43580643038-1-material/material-tail/。
 
-## 旧A增强线的最后真实状态
+## 原A固定g尾与整闭结果
 
-唯一完整接受强解仍A：M32/35参数/2590节点/1280角，RMS9.9224e−8、完整mean metric6.733e−8/κ8.34551434；G=.2506381129，prefix D≥3.9767551573，远低于完成幅度。13方向响应完整原门通过；margin325 full尾已解，但prefix未接受。半步r1/r2/r3均被−9，不能冒数学失败；r3完整J/QR已有线性残差7.06e−18，试点未返回。
-r4原arena I/O修复后首inner步alpha=.125接受，merit .0137068→.0129303，col .0795727/BC5.56e−8；仍不是新接受曲面，其新H未完成重解审计。原小包及完整恢复身份已在notes/2026-11-14-strong-resume-r4-live-checkpoint.*和half-third-sigkill-and-page-IO-r1，旧scratch仅只读。后续优先新球大核心主线，不能用A的尾/校验移植给新核心。
+A仍唯一完整旧小幅组装基准：M32/35参数/2590nodes/生产1280角，RMS9.9224e−8、BC9.234e−13；coreG=.2506381129、D≥3.9767551573，幅度不达标。旧13方向full/half失败/被杀/首inner接受记录原样保，不能称新A。
+原stored g/全32H/RK12/depth8/576stage；真depth12、RK24及RK48 BVP/J/audit均已完成，不重算。RK24残差8.36178e−11；RK48残差1.67235558e−10、4114.75s。24→48 cut slope/second差3.55e−13/8.29e−12，但旧freq40 J差.0671/1.5655，未机器稳定。
+**run43579782197的RK48完整readout step真success**：重建RK24真8、RK48真16+源节点，两独立共同网格、有限collar、完整closed全完成。已取回artifact14108496208，位于notes/public-actions-43579782197-1-rk48/reports/；原旧ENOSPC只属历史，不能继续说当前未读完。exact正在总结真正精化数值。
+新三mesh各解压3745773B，73442顶点/146880面、Euler2、每边两面、零退化。Dcloud3.9774592667、Hdiamcloud3.9695633777；九phase最大点云Hausdorff.2506381375，比例.06301463338，明确低于.2。全phase有限空间三类弦无负例，但连续空间reach仍需覆盖。R234原finitecollar全域metric界约1.002e−18，不能移植给新大核。
 
-## 原A固定g尾与整闭
+## 全t几何和发布故障
 
-原stored g保160head+原far，M32/512角/depth8/576stage/577nodes/RK12/tol2e−9。全H depth12真exit0，cut jet稳定，非∞存在证明。R234原finite collar Fraction/Bernstein/Fourier全域metric贡献≤1.0013852088e−18，原宽不变。
-背景保留的真RK12径向1/2/4 metric1.2476e−6→3.5847e−7→7.2923e−8；固定.01 patch共享prefix六cut jets，未缩宽/换g。闭r2三mesh解压各3.746MB、Euler2/每边两面/零退化；Dmesh3.97745927、Hdiammesh3.96956338，九phase最大点云距离/Dmesh=.06301463。三类有限空间弦负例0，其中moving/fixed全实phase；连续空间reach未证。
-RK24真Newton/J/audit已exit0/1575.81s，norm8.36178e−11、finite metric7.99436e−15。cut jet稳定，但slope/second J相对变6.10e−5/8.13e−5，非舍入稳定。新4609真节点回放1.13687e−13消除旧states套RK24的不一致。
-RK24完整4→8/整闭exit0：global metric4.77033e−8是原prefix cut（tol1e−7）；未patch尾2.67290e−8。补source knot局部改善而邻域未全优，GW默认不换。不能把cut平台作为tail自身2e−9门。
-**RK48 solver87946已真exit0/4114.75s**，完整J/audit、norm1.67235558e−10。24→48 cut slope/second差3.55e−13/8.29e−12，freq40 J仍差.0671/1.5655，未机器稳定。**v3 pipeline13425在08:37:18真exit1/ENOSPC**，真16读出仅约288/576段，不能记9217节点完成；完整RK48不受影响。exact正在清自有可再生副本后续，partial/terminal见exact-work/current-checkpoint.json。旧v1/v2历史源保history；prefix未新DN重解。
+geometry run43580643038数值步骤均真success，artifact14108097323已取回notes/public-actions-43580643038-1-geometry。R238条件定理已登：平面局部胚支持4弱标记排除含反射全等；真实2589/2589prefix片非平面与4固定支持圆代数通过，tail/collar连续输入仍未齐，不冒δE已证。
+R37覆盖实际32354中心/90674576近对，889856未覆仅prefix-prefix/prefix-tail，cap-active/self未覆0；D上界3.9908570168，标记后所需tau0=.1199949431、Ktau0=1.0019578，仍未过。geometry正以矩形直线路径/更密径向块改进保守预算，不改实际曲面/K，并写R241覆盖同时推出嵌入的条件证明。
+两首批及free3/geometry的自动publisher失败均为pull--rebase缺committer identity，计算结果/完整artifact未失；material恰无需rebase已推。root已修全过程临时Git身份；每pull同时检查README变化，变化交root读差异后发布。所有取回包将普通push，不重跑成功计算。
+新exact公开源恢复只取实际需要的78件，逐件对原91清单SHA；12未迁移MD和1变动但未用client明确排除。全部来自公开当前repo、无私仓secret或读写。原源revision86943663…表示字节身份，不假冒公开commit。
 
-## 真正大核心与新主线
+## 紧接执行
 
-R225全32核G≈.8，R235真实Schur/barrier已证。84节点同g多频入口、延至.9875的新g多频结果均归档；旧急turn/双barrier高模增长非不存在证明。
-旧M48 free-core原样源32b38b...及完整失败包保存；旧M128−9启动源没有逐字归档，明确不冒用现a1e5486源码。169节点/真实资源记录仍可靠。新M128短端.99475、base_step.005、264节点prepare真0，BC0/colmax5.88685e−9，待16GiB runner原tol1e−5 BVP；directCSC同值且释放旧LU/J。
-R236：λ=6/5全32核准确G≈.96/rho_min>.1661，条件球外保持证明完成。照搬旧scalar会遮挡到.8691；**新从core球控制到.95真exit0/848.78s/102888KiB**，采样G≈.96保持，Dproxy3.45097493。冻结381节点/1140有理接缝，geometry SHA5b9a574cb3774e9765b6782819dda0332bdb24fc6961b8e6473d2b2f512196bc。冷M96/M192同粗时间metric1.917e−10/6.322e−8；保持M192、dt减半/rtol1e−12后降至2.1272e−13，真exit0/262.59s。未声称完整六jet或闭面收敛；见notes/2026-11-14-root-sphere-controlled-prefix-r1。
-新球M128短turn到.984，点域/球保持，高模随后增长；冻结415节点/1242接缝新g，原生M96冷至.984 metric6.6398e−8、κ6.29532、Dproxy3.49295，非裁频初猜。7件完整包见geometry-work/scaled-sphere-turn-frozen-package.json。
-**geometry全M96正Gauss两端BVP真exit0**，固定前32核/64高核未知，2轮/416节点/连续残差5.457066e−7/BC8.27e−23；峰296844KiB/820.49s，session1015已闭。节点metric6.65963e−8、κ6.295315、Dproxy3.492954605、球样本G≈.96；高核33..96新系数约1e−12，R237准确证全角rho>.16611593994/G≈.959999999997，材料角须重构。磁盘QR真实线性残差验证保留；实际末端设计算子非精确稳定流形，不冒全闭成功。输出B/geometry-work/scaled-sphere-M96-normal-BVP-r1.json.gz及log/resource，12件完整包已本地commit。新材料角物理C²quintic真exit0：831×1024/1661×2048 metric均6.65151e−8、κ6.30099→6.30153，球样本保持；四件包见material-quintic note，checkpoint在geometry-work/geometry-successor-checkpoint.json。新scalar可接原tail cut，.99续法未启动、完整DN未付。
-
-## 接续
-
-优先新球核心正Gauss匹配及完整闭合；同时消费同半步真实Newton和RK48/源分区精化。接受后立即原审计、锁g精化、全闭/全t几何，并继续增幅。完整证明直接results，数值/失败如实notes；本轮直接公开授权已生效，逐结论普通push并使用本公开仓库Actions。
+先逐条pushR240及已取回实际证据；下一批公开Actions并行free3自适应续算、fullDN scalar/RHS与真尾接口、R37覆盖v2。新接受点立即原审计/实际材料谱/核心G与球排除，然后继续真正tail匹配/闭合；定型后固定同材料g精化并核全域全t。任何阶段完成不结束本题。
 
 规则同步记录：2026-11-14T09:35:38.211905+00:00 实际pull --rebase成功；双README自ab184db无变化，已读提交 176f086771705013df35e2d64f4129535a759857。

@@ -284,3 +284,7 @@ R238仅条件定理；新有理系数输入检查器待Actions，实际活动tai
 ### 2026-11-14T17:25:56+08:00 — independent public followup calculations
 原M96 .99/RK48 run43579782197已进入实际计算；新增固定前三核/释放93模的normal分支、完整材料角全谱和真实闭面空间覆盖消费者。
 新增题外workflow visible-larger-public-followup.yml用于这三项独立计算；所有输入来自本公开仓库，原门/完整状态不改，尚无新求解成功声明。
+
+### 2026-11-14 09:37 UTC — R240 canonical material metric
+
+证明共同材料θ下g只依赖实际固定a(s)，核心变化可属于同g精化；完整帽图册与C²接缝另付。提交3控制完整DN/常值增广接口，区分首次设计K3与冻结a后的K0精化。修自动publisher全过程committer身份（首批数值成功但rebase缺identity）；原artifact已实际取回，不重复成功计算。
