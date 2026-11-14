@@ -122,6 +122,8 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **两端互逆权：** [完整列预算](notes/2026-11-14-balanced-star-reciprocal-weight-score-budget-789f-next.md)已付τ=(S+1)/(Q−S+1)下两个后验score各常数2及混合正块η_Q≤2；原全线性回归的两权运输仍缺，M不代J。
 
+**原additive源不可扩大：** [原概率上的端点反例](notes/2026-11-14-balanced-star-nonlinear-endpoint-source-obstruction-789f.md)给完整二维非线性来源所需κ≥Q(Q+1)/[4(1+logQ)]；全mean-zero/任意同端点来源不付统一κ，真全等权线性相位仍I。
+
 **真实混合生成元：** [完整可逆链与物理层谱界](notes/2026-11-14-balanced-star-reversible-mixed-generator-bound-789f-next.md)给归一交换||N||≤1+(1−α−β)/Q，混合I−N统一≤2+1/Q；真实共同回归余项D0−Z⁻¹ΔZ−DnG⁻¹Dm尚须联合支付，不能把生成元全积界免费传到投影积。
 
 **唯一负方向：** [真实Khat正补偿](notes/2026-11-14-balanced-star-one-negative-direction-and-positive-compensation-789f-next.md)给Q>1惯性(m−1,1,0)及Khat+ww*/Ea≥D/(M±+1)≥D/(Q+1)。仍须在同一H/L/G中控制该负方向和均值交叉；m*G⁻¹n>1不提供普适上界，Q1另为零。

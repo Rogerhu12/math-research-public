@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `4ee618ceb7cf30d481fa0d35539e59981bc3d26e`（2026-11-14 16:43:01 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `490fd7900cc6058b8ef8aa193fbea59ed5c04a44`（2026-11-14 16:48:55 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -27,6 +27,8 @@
 - [全部cofactor正核](notes/2026-11-14-balanced-star-cofactor-positive-kernel-and-actual-score-jets-789f-next.md)：显式严格正inclusion Gram、满并集系数证明、删位Beta特征；真实score jets恢复全G/H/L。混合正权的1−z_j w_j*保变号，单entry正核不自动组成正block；jet Schur到J仍缺。
 - [真实混合生成元](notes/2026-11-14-balanced-star-reversible-mixed-generator-bound-789f-next.md)：两可逆增删链的Dirichlet压缩为Dm/Dn；混合恰D0−Z⁻¹ΔZ。完整物理层两次CS给归一交换N的||N||≤1+(1−α−β)/Q，故混合I−N统一≤2+1/Q。真实回归余项D0−Z⁻¹ΔZ−DnG⁻¹Dm保留，不能免费传至相位。
 
+- [任意端点源严格障碍](notes/2026-11-14-balanced-star-nonlinear-endpoint-source-obstruction-789f.md)：保原全等权概率，非线性X′=(1满,1−1空)的完整H/L/G使任何κ≥Q(Q+1)/[4(1+logQ)]（Q≥16）。真实原additive相位仍I；不能先扩大到全mean-zero或仅保端点的来源。
+
 ## R150 原十七式与第二提升
 
 原11N＋6Γ、M5的6188来源/4367输出、泛秩4354。rankAy8和0/2/−6/∞已闭；rankAy9余有限Σ/char0来源。h0=s³(s−2)F+²F−²E8度24、mod31=25h31；Dlin46不免费降24。原多项式、指标、权成本及所有其它高ess/mean层保open/旧证书。
@@ -42,4 +44,4 @@
 
 ## 当前分工与继续
 
-normal接余198真实第二像，优先完整转置/37维对偶，复用四列及旧图；正结果接原6188/17模29791全乘回。boundary追star共同回归余项及端点抵消；literature追真实cofactor jets到同源Schur，不能以一般Agler猜想或entry正性代矩阵预算。根逐结论立即整合推送、逐pull检查README并保持H最新，不在阶段结果停。
+normal接余198真实第二像，正构造两Taylor环8jet的忠实143→39→37商与同源VQ，复用四列及旧图；正结果接原6188/17模29791全乘回。boundary追star共同回归余项及端点抵消；literature追真实cofactor jets到同源Schur，不能以一般Agler猜想或entry正性代矩阵预算。根逐结论立即整合推送、逐pull检查README并保持H最新，不在阶段结果停。

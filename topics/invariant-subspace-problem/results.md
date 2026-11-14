@@ -1021,3 +1021,7 @@
 ### R297 附录：两个真实可逆增删生成元的统一混合预算
 
 [完整自足证明](notes/2026-11-14-balanced-star-reversible-mixed-generator-bound-789f-next.md)在原Beta–binomial全计数源构造两个详细平衡链，准确Dirichlet压缩Dm/Dn；整个生成元混合消为D0−Z⁻¹ΔZ。对任意Q位、任意固定占据s的物理纯态，删除/创建两次Cauchy–Schwarz给无对角一粒子矩阵≤s(Q−s)I/Q；用于真实权子集并作原组等距压缩，得归一交换||N||≤1+(1−α−β)/Q，混合I−N范数≤2+1/Q。完整共同回归余项D0−Z⁻¹ΔZ−DnG⁻¹Dm仍保，不称其非负或相位J已付。
+
+### R297 附录：原概率中的非线性端点来源迫使常数发散
+
+[全规模精确反例](notes/2026-11-14-balanced-star-nonlinear-endpoint-source-obstruction-789f.md)保原全qi=zi=1的Beta–binomial概率，只改用X′=(1满,1−1空)。其完整G=p²[[Q,1],[1,Q]]、H=[[h,h],[h,t]]、L=[[t,h],[h,h]]，h=1/[Q(Q+1)]、t=H_Q−Q/(Q+1)，均值项同样完整保留。真实J11=(t+h)/Q−(Q²+1)/(Q+1)²趋−1，故目标必有κ≥Q(Q+1)/[4(1+logQ)]（Q≥16）。两个可逆star图和原端点都仍成立，严格排先扩大到全mean-zero或任意同端点来源的捷径；非线性源不是原物理低源，原全等权相位仍I。
