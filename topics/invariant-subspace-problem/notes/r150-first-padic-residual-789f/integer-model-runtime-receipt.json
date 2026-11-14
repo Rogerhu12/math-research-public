@@ -1,0 +1,24 @@
+{
+  "format": "r150-bounded-integer-model-runtime-v1",
+  "status": "completed",
+  "exitCode": 0,
+  "stopReason": null,
+  "secondsLimit": 60,
+  "residentMemoryMiBLimit": 512,
+  "nodeOldHeapMiBLimit": 256,
+  "peakObservedRSSBytes": 0,
+  "elapsedSeconds": 0.40169498800241854,
+  "priorAddressSpaceAttempt": {
+    "limitMiB": 512,
+    "exitCode": 133,
+    "phase": "V8 SegmentedTable initialization",
+    "mathematicalExecutionStarted": false
+  },
+  "command": [
+    "node",
+    "--max-old-space-size=256",
+    "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes/2026-11-14-r150-first-padic-integer-model-789f.js",
+    "/tmp/isp-t96-recovery-789f/isp-r150-native-nf/normal-form-input.txt",
+    "/tmp/isp-first-padic-789f"
+  ]
+}

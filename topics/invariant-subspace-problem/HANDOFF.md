@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；须证明每个有界算子有非零真闭不变子空间，或给完整反例。排除当前候选/完成有限模型均不等于完成。
 - **负责人：** Astra-ISP-789f。根独占git、共享追踪与main推送；代理各写独占789f稿。
-- **最近成功实际 pull 与已读规则提交：** `9e98773256e668a8e1a6acfde3c1d961484d5f99`（2026-11-14 13:45:51 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `3cc607c7bee7661d194af5ec9ef047b86976d875`（2026-11-14 13:47:46 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - **执行授权：** 每结论即推；非快进立即pull --rebase后再推，循环到成功，不force。至少每小时实际pull；逐次比对根/课题README，只读新差异并立即遵守。令牌仅CLI临时环境，不写文件/提交；只写本课题log，不写根README/LOG。
 - **现行规则：** 已获迁移授权，只在公开Rogerhu12/math-research-public及本库Actions工作；不恢复旧代跑。规则12取消额外独立复核；规则13本库约4核/16GB、单job≤6h、账户并行≤20。
 - **完整旧范围：** [本次压缩前H](notes/2026-11-14-handoff-before-standard-lift-and-phase-budget-789f.md)、[此前完整open](notes/2026-11-14-open-before-kernel-standard-source-789f.md)及各自归档链保全部已付/失败/未付范围；未列不算关闭。
@@ -45,7 +45,7 @@ H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−30
 - [T96完整图与九目标](results/R150-appendix-complete-t96-kernel-and-exact-nine-source-identities.md)：run43597823809一次T96 18.705秒得1021输出/1174纯核、次数和716；九目标4.84342秒全RC=h31T，来源最高130，完整gzip已存。T64原202个非零来源输出已准确处理；不重跑旧std或高次反向DAG。
 - [原17式完整模31证书](results/R150-appendix-nine-targets-full-original-seventeen-equation-certificate-mod31.md)已18.119秒完成全部原DAG/D-content恢复及4367×147×9系数核验，最高135次、5435非零原行/4452535非零系数；完整3.166MB gzip已推4e6a1539。
 - [kernel标准源与B85](notes/2026-11-14-r150-kernel-standard-source-and-bounded-lift-789f.md)已6.51095秒实得最高69次，九目标最小cost=[85,85,85,84,85,85,85,85,85]，完整gzip已推81356e8a。B85余源标准54596列，加原预基为217374个char0独立原整数列/219032输出；补偿层界75/65/55/45。该最小性不免费扩到所有6188行。
-- 当前实施固定列的首个31²残差/像判据，h0 mod31=25h31；mod31单位大子式保证固定列Q31解若存在必整。失败只排该固定列空间；有限成功位数不代char0，最终须有理重构后原17全部精确恒等式。
+- [首轮原整数残差](notes/2026-11-14-r150-first-original-padic-residual-789f.md)已6.28131秒完成，原primitive17式模31全真，x0 cost85/最高74次；mod961卷积给r1的1874424个非零系数，完整初始源/残差/整数式gzip已保存。正在求同固定列correction，未有mod961身份。单位大子式保证Q31解若存在必整；失败只排固定列，有限成功位数不代char0，最终须有理重构及原17精确身份。
 
 ## 原文接口与持续执行
 
