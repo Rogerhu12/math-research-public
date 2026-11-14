@@ -1,0 +1,88 @@
+{
+  "kind": "actual_old_curve_Airy_primitive_public_CI_input_manifest",
+  "public_repository": "Rogerhu12/math-research-public",
+  "scientific_inputs_selected_by_exact_hash": true,
+  "input_preparation": "One immutable completed public fold native; no original mathematical computation was performed locally.",
+  "actual_fold_run": "43602612900",
+  "actual_fold_scientific_checkout": "7b31f6eec5d6ebb53b966e7bd451ebb193fdd013",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0"
+  },
+  "input_paths": {
+    "fold": "topics/visible-flex-exact-nearby/notes/current_moving_principal_fold_ci/run-43602612900-1/consumers/current-moving-principal-fold.json.gz"
+  },
+  "mathematical_parameters": {
+    "bits": 256,
+    "complex_direction_radius": "1/100000000",
+    "amplitude_orders": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "outer_T": "81/4000000",
+    "inner_T": "19/1000000",
+    "outer_X": "1/128",
+    "inner_X": "1/256",
+    "original_rho_window": "1/250000",
+    "old_phi_mean_contour": "3/1024",
+    "old_mean_decay_gate": "1/512",
+    "physical_frequency_illustration": "388",
+    "exact_old_L2_primitive_norm": "1/4",
+    "full_D0_J_gate": "254000"
+  },
+  "expected_native": "actual-airy-primitive.json.gz",
+  "old_curve_mean_and_primitive_retained": true,
+  "all_input_Green_and_true_parametrix_residual_still_separate": true,
+  "actual_root_finite_constant_and_strong_return_not_claimed": true,
+  "no_original_germ_flow_transport_response_recomputed": true,
+  "new_child_has_no_local_scientific_module_imports": true,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/current_moving_principal_fold_ci/run-43602612900-1/consumers/current-moving-principal-fold.json.gz",
+      "sha256": "9300be45949cba94115511bf77d025a82e39c78d491ba77de916d7a96902fffd",
+      "bytes": 6522
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/current_moving_principal_fold_ci/run-43602612900-1/consumers/process.json",
+      "sha256": "e04f2aafdcb8b7fd5628754523b5704a2d25ea57f389ddd2026de08d32517107",
+      "bytes": 13063
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-moving-analytic-principal-fold.md",
+      "sha256": "c191e654a5fe2d48098195f8d6a7d2909161f0254efc047f761481194bcd224b",
+      "bytes": 13563
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-moving-root-scalarization.md",
+      "sha256": "0645cf460507ea587056b6969b01dc532b6623179db5598e2bffe4f53a8275af",
+      "bytes": 15539
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-scalar-root-operator-and-one-gain-radial-remainder.md",
+      "sha256": "66bde1b99a6b6f51e3dadae608f53ad2e7e92d84160b582636f2ca4c7f0eae00",
+      "bytes": 12221
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-original-primitive-on-actual-Airy-amplitudes-and-exact-mean.md",
+      "sha256": "38e1495faf6d651401a94040566f9e59c1ccdd58732fc0aa4d176480c098210e",
+      "bytes": 14772
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_airy_primitive_budget.py",
+      "sha256": "602de801dddb38ae3cbd6e04a5c9de96ea1e3180b9ae4089bb30bcda3814dafc",
+      "bytes": 10945
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_airy_primitive_CI.py",
+      "sha256": "4ebf561a26f3d2abdaf5595de4df5f478a78e62af645f395eae6c4393babc9b5",
+      "bytes": 4828
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_moving_principal_fold_budget.py",
+      "sha256": "2c680f47bc5209bd78f0643d7d425485bc597f05ad96c932109d93f2b26b2ab6",
+      "bytes": 18302
+    }
+  ]
+}

@@ -515,3 +515,7 @@ receipt-only43603364028 success/children=[]，真实receipt331dfd81c7cf148c0c58a
 ## 2026-11-14 14:31:41 UTC — actual root-to-negative full-family energy
 
 43604498718真实12门/child0，native8f165ccf9dee6e622060b4fc269908ef322f0b0fea15b82dc4b223a2fb4c122d，过程SHA f3688651110c9748b8a88b0c1da6cc88f78c50284474d9d6a12fffa7b99cd3da。全δ实族/完整mean与未知Fourier，增长<28.978024807429，raw因子<4.002204670412<4.1。原germ/rootbudget不重跑；区别event af133b7和科学checkout669252a。H压缩前原字节归档，下一接实际Airy residual和正根图。
+
+## 2026-11-14 14:33:04 UTC — exact old-curve Airy primitive and transport
+
+发布I1–21完整证明，双符号/双Airy列、原角曲线mean/primitive及full residual保；强型和实际有限根相位不预支。新九输入消费者只读实际fold9300be...付域、mean指数及J交换子。课题外新增 .github/workflows/visible-exact-actual-airy-primitive.yml，以本公开Actions运行；原flow/germ/response均不重跑。

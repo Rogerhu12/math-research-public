@@ -167,3 +167,7 @@ receipt-only43603364028实际成功。root逐字段比较原artifact和repo proc
 ### 2026-11-14 actual root-to-negative propagation complete
 
 43604498718真实12门，fullδ、全未知频/独立mean/I的root→negative Cauchy已成。root H1/3×L2 + ordinary source L2H1/3 以4.1(root+.003source)控制全根负窗raw。此缺口不能再列待算；余下是实际Airy双行近似、完整残差、同对象positive图修正、finite root常数及strong回归。见 actual-full-family-root-to-negative-Cauchy-certificate。
+
+### 2026-11-14 old-curve Airy operator algebra complete
+
+I1–21已证并接公开CI：original Iρ U(v)=WN−ΠρWN−n^-N IρU(YvN−1)，完整old mean和真实Airy profile不删；J residual/Dr交换子同域保。以t=√T真实解析特征积分构造leading/forced双幅，不是假设形式级数收敛。接下来实际原N系统双行残差、同对象positive图校正和已成negative Cauchy；brootfin与strong仍未授。

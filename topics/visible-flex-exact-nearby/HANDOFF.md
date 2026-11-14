@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 14:31:41 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 14:33:04 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：80cbfe9d20cd9a77830c32b5cb3042ae26980e3f；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：738cffa0fbcf7145ff6be92c062bf59f75c481f9；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -37,7 +37,7 @@ repair外graph/4650body43601149891真实25+8门；4650闭行/3594接口，χ0<.3
 moving根scalarization43594466882真实13门：full |δ|≤1e−8、完整J/负Sobolev/mean/flux，二次band192不能借旧band64。ordered scalar O1–20已证AC一阶角项准确消，T0=ηr/η−4b〈S〉+5dφ，径向余项真实一阶增益；全源保。
 fullδ principal-fold43602612900真实16门：native9300be45949cba94115511bf77d025a82e39c78d491ba77de916d7a96902fffd；真μ(∂T²+T∂X²)，反解81/4000000×1/128，Jac>4.530889644653、μ>20.530289739365；movingA1/128 J<.825332619571、∂J<3.301330478284，旧ρ闭曲线primitive/mean保，F17反解为加号。
 root→negative 43604498718真实12门/child0：native8f165ccf9dee6e622060b4fc269908ef322f0b0fea15b82dc4b223a2fb4c122d。full realδ≤1e−8、0≤ρ≤9e−6、全未知频/mean/I；能量增长<28.978024807429<31，root H1/3×L2及source L2H1/3给raw≤4.1(root+.003source)。只root向负区/s0，不授反向或全return。
-phase旧I/mean/Airy真实两幅与解析transport证明四文件已提供，root正审后接CI；继续真实residual、positive图修正、brootfin/strong。外glancing假设不符，不能借授。
+phase旧I/mean/Airy真实两幅I1–21已证并部署9-file CI：真old曲线primitive的有限展开带exact mean+L2余项，解析双幅transport以真实特征积分构造；待实际contour/J交换子门。继续真实residual、positive图修正、brootfin/strong，不能借不符的glancing定理。
 
 ## 相位与算术
 

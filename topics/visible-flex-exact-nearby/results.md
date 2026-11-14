@@ -193,3 +193,7 @@
 ### 2026-11-14 actual full-family root-to-negative Cauchy certificate
 
 [R133-supplement-actual-full-family-root-to-negative-Cauchy-certificate](results/R133-supplement-actual-full-family-root-to-negative-Cauchy-certificate.md): run43604498718 completed all twelve gates. For the whole real |δ|≤1e−8 family and 0≤ρ≤9e−6, every unknown Fourier mode and the genuine mean are retained; the raw state is bounded by 4.1 times the root H1/3×L2 norm plus .003 times the ordinary L2H1/3 source. Total growth is <28.978024807429. No reverse/full-return conclusion is included.
+
+### 2026-11-14 original primitive on actual Airy amplitudes
+
+[R133-supplement-original-primitive-on-actual-Airy-amplitudes-and-exact-mean](results/R133-supplement-original-primitive-on-actual-Airy-amplitudes-and-exact-mean.md): proved I1–21 for both signs and both Airy columns on the actual full-family fold. The finite primitive expansion has an exact old-curve mean and true L2 remainder; the complete J residual and radial commutator remain explicit. The leading/forced two-amplitude transport is constructed by convergent analytic characteristic integrals. A separate nine-input public consumer pays the actual domains and constants; true finite reflection and strong return remain open.
