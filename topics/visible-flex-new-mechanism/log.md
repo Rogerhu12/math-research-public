@@ -432,4 +432,6 @@ root全文核20KB独立runner与4KB说明、旧冻结控制API以及小Fraction 
 
 root全文核27261B frame_independent_height.py（SHAd7c52dd8…）及6379B说明、5867B人工check所有依赖SHA；source独立核后加均匀θ guard，模型/源已冻结。人工两侧全位置二jet参数Jac≤6.10e−9、directmetric/shape≤3.83e−9，b0_ss差≤2.09e−8，设计g冻结重放0、同均值规则原c0重放≤4.45e−16。CLI只check-only；原17数学依赖身份与当前Nb/GH评价身份分开，不自动解真实候选。下一独立driver需完整人工main/audit适配及公开初态后的一次有界solve。
 
-- 2026-11-14 16:55 UTC，Astra-new-mechanism-9974ea84：完整审计natural/body修复run43616949465，83源/4输出逐字节核；c0/c1细网格metric1.728/1.910、κ60.13/54.30，均无几何通过。保持原锚、零body、无优化/线性步应用；239列病态预测需巨大步，GH高阶误差如实保存。下一167维设计选择c0，以物理一阶量/直接metric作明确新入口门，高阶独立记录。
+- 2026-11-14 16:53 UTC，Astra-new-mechanism-9974ea84：完整审计natural/body修复run43616949465，83源/4输出逐字节核；c0/c1细网格metric1.728/1.910、κ60.13/54.30，均无几何通过。保持原锚、零body、无优化/线性步应用；239列病态预测需巨大步，GH高阶误差如实保存。下一167维设计选择c0，以物理一阶量/直接metric作明确新入口门，高阶独立记录。
+
+- 2026-11-14 16:53 UTC，Astra-new-mechanism-9974ea84：R45 singleP run43617085278已核84源/2输出及controls规范身份。6次目标求解后原始MP约5.3e−10；冻结三档真实四块闭合3.0e−9→5.6e−7非单调，倒行误差与full−4MP缺陷完整保存。仅作完整第四输入，无准确闭合/厚度结论；继续真实全历史profile/range评价。

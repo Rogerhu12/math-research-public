@@ -6,7 +6,7 @@
 
 闭连通C2嵌入族Ft、时间在C2拓扑连续，同一固定g；固定材料H有内点且diamH≥.2D；不作对齐的整像Hausdorff位移≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，且同g/物理参数/时间精化至机器或原容差。D是完整F0直径。δE可0但如实报。完整网格每件<5MB，明示数值与准确存在差距；达标后继续.5D或更强存在。
 
-- 根/本题README已完整读。公开仓库最后已读规则提交：`6e9af38927c58e173c7922052ab58ca594af4bc7`。
+- 根/本题README已完整读。公开仓库最后已读规则提交：`04922d82ae86697ec4238c2daea1455d3b83ab04`。
 - 每次实际pull --rebase核双README，有变只读diff并立即做；至少每小时pull。每完成结论立即提交推送；NFF立刻rebase、再核规则、再推直到成功，不强推。
 - 已授权公开main及本公开仓Actions。实际几何/ODE/积分/优化只此Actions；本地仅源码、纸面/准确代数、人工开发核及已公开输出分析。PAT只瞬时CLI/env，不写文件/提交/日志。
 - 私有仓16:09:36 UTC实际pull至`33ebdb638516e71e1b234a6340fe7b1a3d9ccc61`，双README无差，QUEUE唯一课题行仍本会话进行中；下一私有pull不晚于17:09 UTC。私有研究不发布。
@@ -55,6 +55,6 @@ R53四相位58点/八外packet+6D IFT给真重叠plane完整二三阶与一个�
 ## 6. 回执与同步接续
 
 准确短lane已核：R37 43604788994（65源）、R46 43609471754（69源/984B）、R49 43611065115（70源/754B）、R50 43611706012（71源/775B）、R53 43613269074（78源/1489B）。原字节均同开发准确证书，不重复。
-R56准确短lane43614455269/source38329b33已核79源/732B输出，六完整变系数身份全0，原字节同开发证书。完整编译run43615655870/source218254b9已核80源/2输出：10.055s完成四阶，267875节点/6365原子/732真实历史及五实际mode；toy仅四环境字段不同。未评具体P/profile或支付range，不重编。natural/body修复run43616949465/source7b46d360已全核83源/4输出；[完整审计](notes/natural-body-complete-actual-audit-20261114.md)保存GH高jet误差、两初态及尾对照。239列rank212、步max6.6万/23.9万未应用；5body步.134/.158仅预测。partial43616419217的API失败及输出保留。R59逐圈quartic下界不能拼成合法中心。当前request只single_P_instance：新MP目标从0、只D桥、N16384/64/96后冻结1/2/4加密；旧八块数据不读，真实omega/四块累计不重置。长圈只第四机制输入，非厚度候选。
+R56准确短lane43614455269/source38329b33已核79源/732B输出，六完整变系数身份全0，原字节同开发证书。完整编译run43615655870/source218254b9已核80源/2输出：10.055s完成四阶，267875节点/6365原子/732真实历史及五实际mode；toy仅四环境字段不同。未评具体P/profile或支付range，不重编。natural/body修复run43616949465/source7b46d360已全核83源/4输出；[完整审计](notes/natural-body-complete-actual-audit-20261114.md)保存GH高jet误差、两初态及尾对照。239列rank212、步max6.6万/23.9万未应用；5body步.134/.158仅预测。partial43616419217的API失败及输出保留。R59逐圈quartic下界不能拼成合法中心。R45 singleP run43617085278/source4ee618ce已核84源/2输出，raw127033B SHA feb72a8e01f9a2aa0a925f7173e0bb53e1d81224481ad3a01afbeea4c6f2d6c0；[实际审计](notes/literature-single-P-actual-audit-20261114.md)。6nfev后MP约5.3e−10，冻结64/96→256/384时四块位置闭合3.0e−9→5.6e−7非单调，未认证准确闭合/MP0。新full4接口root/source已全读，接实际完整历史及R52谱profile；不强制R58准确约简，不冒称R53profile，长圈非厚度候选。
 
 16:03读公开larger-amplitude/exact-nearby最新H，均仍无可直接移用的完整大振幅族；其前缀下降、局部逆/条件预算不转授本题门。任何局部证明、workflow success、有限采样或中间报告不结束本题；子问题完即接open下项，H持续更新。
