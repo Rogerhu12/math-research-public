@@ -5,3 +5,5 @@
 ## 新增结论
 
 - [R1：偏心双圆领的精确相位组装与全相位点对判据](results/R1-eccentric-collar-phase-bearing.md) — 已证明（条件组装）。环带与帽的假设尚未实例化，不是本题完成。
+
+- [R2：二、三角模混合产生横向中心漂移的精确局部环带](results/R2-mixed-modes-local-eccentric-drift.md) — 已证明真实局部解析等距嵌入及中心二/三阶系数；无圆领闭合、无闭曲面。

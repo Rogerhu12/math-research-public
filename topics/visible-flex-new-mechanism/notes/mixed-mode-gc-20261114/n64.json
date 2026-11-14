@@ -1,0 +1,324 @@
+{
+  "status": "local_annulus_numerical_evidence_only",
+  "closed_surface": false,
+  "double_circular_collars": false,
+  "whole_family_reach_certified": false,
+  "task_complete": false,
+  "definition": {
+    "rho": "1+A*cos(2*phi)+B*cos(3*phi)",
+    "metric": "ds^2+(1+k*s^2/2)^2*dtheta^2",
+    "target_frozen_with_respect_to_angles": true,
+    "A": 0.25,
+    "B": 0.2,
+    "k": 0.6,
+    "s_interval": [
+      0,
+      0.35
+    ]
+  },
+  "discretization": {
+    "angles": 64,
+    "samples": 15,
+    "rtol": 2e-11,
+    "atol": 2e-13,
+    "max_step": 0.005
+  },
+  "solver": {
+    "success": true,
+    "message": "The solver successfully reached the end of the integration interval.",
+    "nfev": 887,
+    "elapsed_seconds": 0.28190435099895694
+  },
+  "initial_center_second_derivative_exact": [
+    0.0,
+    -0.015,
+    0.0
+  ],
+  "initial_center_second_derivative_sample": [
+    8.239936510889834e-18,
+    -0.015000000009577406,
+    0.0
+  ],
+  "sample_initial_c2_error": 9.577406576144476e-12,
+  "sample_max_metric": 1.141865604129154e-05,
+  "sample_max_curvature": 1.5743243787022045,
+  "records": [
+    {
+      "s": 0.0,
+      "radius_metric": 1.0,
+      "center": [
+        2.8189256484623115e-18,
+        8.445674715140683e-14,
+        0.0
+      ],
+      "sample_relative_metric_op": 2.0396593867211266e-06,
+      "sample_position_frame_compatibility": 1.4035635780581319e-06,
+      "sample_frame_orthogonality": 2.220446049250313e-16,
+      "sample_abs_principal_curvature": 1.5743243787022045,
+      "sample_min_N": 0.6896551724137931,
+      "sample_circle_radial_spread": 0.1975141637628952,
+      "sample_section_height_spread": 0.0,
+      "sample_max_abs_M": 0.0,
+      "sample_GC_N_spread": 0.8846692062884114
+    },
+    {
+      "s": 0.024999999999999998,
+      "radius_metric": 1.0001875,
+      "center": [
+        3.144186300207963e-17,
+        -4.683838964398071e-06,
+        0.02499891841778206
+      ],
+      "sample_relative_metric_op": 2.009820602699602e-06,
+      "sample_position_frame_compatibility": 1.3941643650019242e-06,
+      "sample_frame_orthogonality": 4.440892098500626e-16,
+      "sample_abs_principal_curvature": 1.5728874011469332,
+      "sample_min_N": 0.6898709026395935,
+      "sample_circle_radial_spread": 0.19737015803961644,
+      "sample_section_height_spread": 1.5925868529151344e-06,
+      "sample_max_abs_M": 0.0161088641844559,
+      "sample_GC_N_spread": 0.8836063766829416
+    },
+    {
+      "s": 0.049999999999999996,
+      "radius_metric": 1.00075,
+      "center": [
+        3.0357660829594124e-17,
+        -1.8691480070534908e-05,
+        0.04999134874107452
+      ],
+      "sample_relative_metric_op": 1.9166297750368804e-06,
+      "sample_position_frame_compatibility": 1.3664586869665053e-06,
+      "sample_frame_orthogonality": 6.661338147750939e-16,
+      "sample_abs_principal_curvature": 1.568592710970366,
+      "sample_min_N": 0.6905187856868995,
+      "sample_circle_radial_spread": 0.19693840002265117,
+      "sample_section_height_spread": 1.2734610278730685e-05,
+      "sample_max_abs_M": 0.032167229454550285,
+      "sample_GC_N_spread": 0.8804276613012025
+    },
+    {
+      "s": 0.075,
+      "radius_metric": 1.0016875,
+      "center": [
+        2.45029690981724e-17,
+        -4.1891709992736975e-05,
+        0.07497080983632715
+      ],
+      "sample_relative_metric_op": 1.7495136707860972e-06,
+      "sample_position_frame_compatibility": 1.325139419454887e-06,
+      "sample_frame_orthogonality": 6.661338147750939e-16,
+      "sample_abs_principal_curvature": 1.5614885444119921,
+      "sample_min_N": 0.6916008533742835,
+      "sample_circle_radial_spread": 0.19621966832316518,
+      "sample_section_height_spread": 4.294507886232202e-05,
+      "sample_max_abs_M": 0.04812399523044417,
+      "sample_GC_N_spread": 0.8751620963091995
+    },
+    {
+      "s": 0.09999999999999999,
+      "radius_metric": 1.003,
+      "center": [
+        1.3444106938820255e-17,
+        -7.406721866573714e-05,
+        0.09993083433761343
+      ],
+      "sample_relative_metric_op": 1.492209687934644e-06,
+      "sample_position_frame_compatibility": 1.2673012727333813e-06,
+      "sample_frame_orthogonality": 8.881784197001252e-16,
+      "sample_abs_principal_curvature": 1.5516536875121265,
+      "sample_min_N": 0.6931203687542563,
+      "sample_circle_radial_spread": 0.19521526436102377,
+      "sample_section_height_spread": 0.00010168212360826823,
+      "sample_max_abs_M": 0.06392692681805513,
+      "sample_GC_N_spread": 0.8678571212238994
+    },
+    {
+      "s": 0.12499999999999999,
+      "radius_metric": 1.0046875,
+      "center": [
+        2.5370330836160804e-17,
+        -0.00011491665234052324,
+        0.12486497514681143
+      ],
+      "sample_relative_metric_op": 1.1243837482172802e-06,
+      "sample_position_frame_compatibility": 1.1996658126243802e-06,
+      "sample_frame_orthogonality": 8.881784197001252e-16,
+      "sample_abs_principal_curvature": 1.539195165067674,
+      "sample_min_N": 0.695081720853405,
+      "sample_circle_radial_spread": 0.19392701761792963,
+      "sample_section_height_spread": 0.00019831251636887037,
+      "sample_max_abs_M": 0.07952225072256065,
+      "sample_GC_N_spread": 0.8585771377627975
+    },
+    {
+      "s": 0.15,
+      "radius_metric": 1.00675,
+      "center": [
+        -6.505213034913027e-19,
+        -0.00016405745846828114,
+        0.14976681147900373
+      ],
+      "sample_relative_metric_op": 6.233789069962292e-07,
+      "sample_position_frame_compatibility": 1.1437687240860787e-06,
+      "sample_frame_orthogonality": 8.881784197001252e-16,
+      "sample_abs_principal_curvature": 1.5242451940834658,
+      "sample_min_N": 0.6974903856868017,
+      "sample_circle_radial_spread": 0.19235729237588584,
+      "sample_section_height_spread": 0.00034208116067763195,
+      "sample_max_abs_M": 0.09485441803686394,
+      "sample_GC_N_spread": 0.8474015141044761
+    },
+    {
+      "s": 0.175,
+      "radius_metric": 1.0091875,
+      "center": [
+        -5.637851296924623e-18,
+        -0.00022102949331380406,
+        0.17462995431067613
+      ],
+      "sample_relative_metric_op": 4.171858387636007e-07,
+      "sample_position_frame_compatibility": 1.1476206177395379e-06,
+      "sample_frame_orthogonality": 8.881784197001252e-16,
+      "sample_abs_principal_curvature": 1.5069575651689875,
+      "sample_min_N": 0.7003529749255436,
+      "sample_circle_radial_spread": 0.19050899547201716,
+      "sample_section_height_spread": 0.0005420805681268515,
+      "sample_max_abs_M": 0.1098660559010154,
+      "sample_GC_N_spread": 0.8344221243257476
+    },
+    {
+      "s": 0.19999999999999998,
+      "radius_metric": 1.012,
+      "center": [
+        1.6696713456276768e-17,
+        -0.00028529935569004787,
+        0.19944805109591723
+      ],
+      "sample_relative_metric_op": 1.0735161136699034e-06,
+      "sample_position_frame_compatibility": 1.2828094728485179e-06,
+      "sample_frame_orthogonality": 8.881784197001252e-16,
+      "sample_abs_principal_curvature": 1.487503631734707,
+      "sample_min_N": 0.7036773378987063,
+      "sample_circle_radial_spread": 0.18838558459254495,
+      "sample_section_height_spread": 0.0008072203321536353,
+      "sample_max_abs_M": 0.12449811086869993,
+      "sample_GC_N_spread": 0.8197405779266668
+    },
+    {
+      "s": 0.22499999999999998,
+      "radius_metric": 1.0151875,
+      "center": [
+        2.2768245622195593e-17,
+        -0.0003562654031078749,
+        0.22421478962505603
+      ],
+      "sample_relative_metric_op": 2.0745011478682264e-06,
+      "sample_position_frame_compatibility": 1.6056075821518915e-06,
+      "sample_frame_orthogonality": 9.992007221626409e-16,
+      "sample_abs_principal_curvature": 1.4660680890485622,
+      "sample_min_N": 0.7074726472664573,
+      "sample_circle_radial_spread": 0.18599107662461645,
+      "sample_section_height_spread": 0.0011461966046339422,
+      "sample_max_abs_M": 0.13869018065685887,
+      "sample_GC_N_spread": 0.8034653293412456
+    },
+    {
+      "s": 0.24999999999999997,
+      "radius_metric": 1.01875,
+      "center": [
+        1.6696713456276768e-17,
+        -0.00043326340011430944,
+        0.24892390091083938
+      ],
+      "sample_relative_metric_op": 3.3794082331948183e-06,
+      "sample_position_frame_compatibility": 2.1288750765586977e-06,
+      "sample_frame_orthogonality": 1.1102230246251565e-15,
+      "sample_abs_principal_curvature": 1.4428447161414715,
+      "sample_min_N": 0.7117494053454636,
+      "sample_circle_radial_spread": 0.18333005556065352,
+      "sample_section_height_spread": 0.0015674615794160907,
+      "sample_max_abs_M": 0.15238103283584994,
+      "sample_GC_N_spread": 0.7857088431428325
+    },
+    {
+      "s": 0.27499999999999997,
+      "radius_metric": 1.0226875,
+      "center": [
+        3.707971429900425e-17,
+        -0.0005155727427166388,
+        0.27356916099913264
+      ],
+      "sample_relative_metric_op": 4.948608386587603e-06,
+      "sample_position_frame_compatibility": 2.8440604907238617e-06,
+      "sample_frame_orthogonality": 1.2212453270876722e-15,
+      "sample_abs_principal_curvature": 1.4180322365371945,
+      "sample_min_N": 0.7165193525486077,
+      "sample_circle_radial_spread": 0.18040767941234848,
+      "sample_section_height_spread": 0.002079192999057178,
+      "sample_max_abs_M": 0.165509315997938,
+      "sample_GC_N_spread": 0.7665849341815499
+    },
+    {
+      "s": 0.3,
+      "radius_metric": 1.027,
+      "center": [
+        8.023096076392733e-18,
+        -0.0006024231976133748,
+        0.2981443916139921
+      ],
+      "sample_relative_metric_op": 6.804116814571594e-06,
+      "sample_position_frame_compatibility": 3.743826751250247e-06,
+      "sample_frame_orthogonality": 1.1102230246251565e-15,
+      "sample_abs_principal_curvature": 1.3918304315543264,
+      "sample_min_N": 0.7217953142665843,
+      "sample_circle_radial_spread": 0.17722968557208185,
+      "sample_section_height_spread": 0.002689263726055824,
+      "sample_max_abs_M": 0.17801447231863543,
+      "sample_GC_N_spread": 0.7462063325489139
+    },
+    {
+      "s": 0.32499999999999996,
+      "radius_metric": 1.0316875,
+      "center": [
+        2.883977778811442e-17,
+        -0.0006930020905076672,
+        0.32264345956056084
+      ],
+      "sample_relative_metric_op": 8.95891744444945e-06,
+      "sample_position_frame_compatibility": 4.825991760480506e-06,
+      "sample_frame_orthogonality": 1.2212453270876722e-15,
+      "sample_abs_principal_curvature": 1.3644366142022046,
+      "sample_min_N": 0.7275910537731639,
+      "sample_circle_radial_spread": 0.17380239409274723,
+      "sample_section_height_spread": 0.0034052114481761264,
+      "sample_max_abs_M": 0.18983785154308336,
+      "sample_GC_N_spread": 0.7246824759043332
+    },
+    {
+      "s": 0.35,
+      "radius_metric": 1.03675,
+      "center": [
+        2.1467203015212988e-17,
+        -0.0007864618740925904,
+        0.347060274823316
+      ],
+      "sample_relative_metric_op": 1.141865604129154e-05,
+      "sample_position_frame_compatibility": 6.091370140752209e-06,
+      "sample_frame_orthogonality": 1.3322676295501878e-15,
+      "sample_abs_principal_curvature": 1.336042543473829,
+      "sample_min_N": 0.7339211866063426,
+      "sample_circle_radial_spread": 0.17013270845544937,
+      "sample_section_height_spread": 0.00423420860665058,
+      "sample_max_abs_M": 0.20092400146738787,
+      "sample_GC_N_spread": 0.702117526196917
+    }
+  ],
+  "limitations": [
+    "Open local annulus; no cap or exact circular exit has been obtained.",
+    "All reported spatial metrics are Fourier-grid samples, not continuous certificates.",
+    "The center drift is a material-angle mean, not a Hausdorff displacement bound.",
+    "The principal-curvature diagnostic does not give global reach."
+  ],
+  "script_sha256": "b5fb11922a7fdcf97612bf366b3e9f4999bf9789640c6ec665c116ab351cd2b1"
+}
