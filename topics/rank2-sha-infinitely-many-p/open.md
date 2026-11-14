@@ -254,3 +254,7 @@ R533两固定负矩的第一层现有[准确递推与有限记录](notes/2026-11
 ### R560：同一native全域的七条件源条带积分
 
 [R560](results/R560-native-single-branch-and-seven-conditional-moments.md)已将原整个Nn化成β^n乘同一个五变量行，保全部Y/W条件与对数、Eunit、W′/G和同一P。两不交域是Zunit、X∓(2+ω)Zdeep；原S14七条件系数精确式含−672bΩ6Λ0质量项。**待做：** 这个实际条带积分的非零或与原S/T零行的合法联合；边际π4条件不能单独杀strip/Λj，R558的Dn不降π5，插入它必须重算完整逆像。继续R559/563的同源低度joint及R562真实四线单位负矩比较，不从深度独立收尾。
+
+### R559：十二范数全核与不忘K的两条原核
+
+[R559](results/R559-original-plane12-square-core-and-native-one-sided-carry.md)已付wholeS144平方/原二态D12偶深返回，真实深子域保κ^(2m−n)、所有log与质量及五伴随；全PC来源接R533的两条S6⊗S6核且R/T四伴随完整。**待做：** 同一native完整域Hout+δD12deep上的实际比较；只有已付D12深子域才可改Houtdeep/Koutunit。R563继续S24第三态与实际Kunit逆，不能把原D²=−Rc延到新态，浅补域未消。

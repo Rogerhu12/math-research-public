@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：0f6721e8e5dcd6a7c2f9bba023d44fe00cb434d5；2026-11-14 18:22:39 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：6d685485fe4a6b186355d2482deb6fb5ba8144d9；2026-11-14 18:28:41 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推及改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；18:00:10 UTC实际git pull --rebase重试仍报无可用执行环境，随后API核main/两README无变。最迟19:00重试；恢复后先实际pull --rebase核规再接API历史。
@@ -14,11 +14,11 @@
 
 ## 发布、归档和分工
 
-R1–363、R365–558、R560已登记；R364仍开，R559/561/562/563进行中。root统一元数据/ref，代理只建proof/script/data blobs；完整结论随成随推。
+R1–363、R365–560已登记；R364仍开，R561/562/563进行中。root统一元数据/ref，代理只建proof/script/data blobs；完整结论随成随推。
 完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r560.md)、[open](notes/2026-11-14-open-before-r560.md)，沿各自归档链保全部旧条件；压缩不关闭任何问题。全部结论准确编号/标题见results.md和notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
 R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b及原证书保持，不复跑。
 
-- theta续R559原D12的144两层核/全C投影单支，随后R563低S24三态闭包及保K完整单位逆。
+- theta已付R559原D12的144两层核/全C投影单支，续R563低S24三态闭包及保K完整单位逆。
 - literature已付R554四sigma+Theta同域负矩，续R562真正联合非零及R559完整低度joint运输，保pairedV/Cartier指定上尾。
 - deep已付R555全原线性系/真实高接触forcing门，续9/8临界同一α/β指定类或wild。
 - root已付R560原native全域七条件矩，续这些同一条带与原负矩/算术行的实际比较；不以子域非零或时长收尾。
@@ -63,3 +63,5 @@ R555：全W_D=B_D的十九角准确重数已付，ν=B_D·C=3κ+δ，δ≥0。�
 R554：ρ=νσ^⊗4⊗νTheta，Y=Σti+u；νf1=Ω^-3 Y_*[(Y³−18u e2)ρ]/24，故24Ω³I1=I4−18∫Yunit u e2/Y⁵ρ。全Q=D³f4−24f1=108σ²(σ′)²Theta′的首项−432bz7/5单位；其负五矩未赋非零，whole两来源core保κ³项及所有隐藏cut。
 
 R560：PC投影后同一native Nn精确β^n/(bΩ6)乘五伴随积分，原混合差再除2λ；两不交strip是Zunit、X∓(2+ω)Zdeep，其中X=c−D/14、Z=d+(1+3ω)D/14。Eunit、Y/W两个unit/log、W′/G全保；同一P只读S14的Λ0..Λ6，mom6=Ω6(720Λ6−672bΛ0)。n无关不赋非零，Dn并非π5事件。
+
+R559：D12=F−c的wholeK144²=B2、原二态B2=−Rc付全部偶深；五伴随/κ^(2m−n)/四log边界/常数质量保留。PCrho=σc⊗(B0⊗Λ0+B3⊗Λ3)，Hout=δ(c−C)、Kout=δ(c+C)的两核准确−ω²FB/P(−h,k)，保全部R/T；原carry是Hout+δD12deep，不免费改Houtdeep。

@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R559：原十二范数平方核心、native单支与完整六度双核](results/R559-original-plane12-square-core-and-native-one-sided-carry.md)：whole S144的K²=B2含两负中心及σ(12z)锚，原两态B2=−Rc给D12任意偶深真实返回；五伴随、κ^(2m−n)、全部log质量和浅补域保持。纯C投影合法杀B1并将native平均约单支，原rho在保R/T四伴随下准确接R533两完整S6双核，K未遗忘。
+
 - [R560：原native全域单支与七个真实条件矩](results/R560-native-single-branch-and-seven-conditional-moments.md)：纯C投影与原D14整个核心把同一native反对称积分准确写成β^n乘n无关五变量积分；完整保原Y/W对数及单位条件，两条带恰Zunit且X∓(2+ω)Zdeep，X=c−D/14、Z=d+(1+3ω)D/14。原六次P只读S14七个真实条件系数，第六矩质量校正−672bΩ6Λ0完整保留；未赋该条带积分非零。
 
 - [R554：原四sigma加Theta全来源与同域负矩差](results/R554-original-four-sigma-theta-source-and-same-domain-negative-moment-difference.md)：原f4与f1准确来自同一五输入ρ=σ^⊗4⊗Theta及Yunit域，24Ω³I1=I4−18∫u e2/Y⁵dρ。全函数D³f4−24f1=108σ²(σ′)²Theta′支付有界正权来源、真实双来源普通核心和固定十二jet；隐藏cut全部保留，局部非零不代指定负矩非零。
