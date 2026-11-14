@@ -68,14 +68,14 @@ jobs:
               json.dumps(dict(request=r, actual_source_commit=os.environ['GITHUB_SHA'],
                   current_run=os.environ['GITHUB_RUN_ID'], scientific_evaluations=0), indent=2)+'\n')
           PY
-          python -m py_compile "$VISIBLE_COMPUTATIONS/geometry_20261114_request42_receipt_summary_v2.py" "$VISIBLE_COMPUTATIONS/geometry_20261114_native_stage43_field_receipt.py"
-      - name: Copy only existing request42 metadata and preserve any failure receipt
+          python -m py_compile "$VISIBLE_COMPUTATIONS/geometry_20261114_request42_receipt_summary_v3.py" "$VISIBLE_COMPUTATIONS/geometry_20261114_native_stage43_field_receipt.py"
+      - name: Copy explicit request42 target scalars with complete artifact preservation
         if: steps.select.outputs.request42 == 'true'
         continue-on-error: true
         run: |
-          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_request42_receipt_summary_v2.py" \
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_request42_receipt_summary_v3.py" \
             --receipt-dir "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43623850723-1-twelvequeryqr" \
-            --out "$VISIBLE_OUT/request42-receipt-summary-v2.json" \
+            --out "$VISIBLE_OUT/request42-receipt-summary-v3.json" \
             > "$VISIBLE_OUT/request42-reader.log" 2>&1
       - name: Fetch the original actual41 artifact without rerunning its computation
         id: capture41

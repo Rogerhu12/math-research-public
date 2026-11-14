@@ -381,3 +381,8 @@ R272完整代数直接登记results/index：原四个有限局部A给精确RK ac
 actual44请求42摘要失败note已保存：七原SHA全部核对；206693B在v2序列化超过界限，保明确failure但未回传内部stop/radial，不能由step成功推摘要成功。仅原metadata读取无新科学；v1无异常原日志，未反推同一首因。v3正按明确标量白名单重写，完整派生metadata只artifact。
 
 18:43新终端用真实根workdir成功，默认cwd是坏symlink；旧/tmp检出已失，共享objects与缓存仍在。新部分clone/filter=blob:none/仅必要文本和computations，复用原objects；实际pull到572d2d7bdc96e301ec6ab44647ae7d2df1111ce6、双README原blob不变。恢复终端push，PAT仍只命令环境。45已进入实际warm步骤。
+
+
+### 2026-11-14 18:46 UTC：request46原42目标标量只读取回
+
+v3独立20153B/f80608b3…全文读并AST核，保原v1 PIN七件；明确标量白名单覆盖helper stop、32工作行、末次未修复stationarity/全slack、真正内部radial和原trial/status/FD，不复制Gram/producer/field树。全部已选原标量先保large-arrays artifact，再单份小摘要；不机械分块搬大报告、不因传输上限抹去已取得数值。reuse receipts workflow仅request42=true，原41取入/field步骤跳过，0新科学。45仍独立warm计算中。

@@ -7,7 +7,7 @@
 仅公开Rogerhu12/math-research-public；禁private。可commit/push main/本仓Actions，不强推；PAT仅瞬时CLI，禁文件/日志/提交/connector。全部科学计算只在本仓Actions，本地仅源码/静态/原输出。root管Git/H/open/log/workflow；agent只独立文件。Rule12完整证明直接results/index，不设独审/审批门。
 每push前及至少每小时真pull --rebase并核双README，变化只读diff立即执行；记已读SHA。非快进立即rebase/push至成功。H<10KB、MD<100KB、README/open尽量<30KB；数据>1MB gzip、Git文件<5MB、大阵artifact-only；禁根LOG/完整clone/gc/maintenance。
 约17:58至18:43共享执行环境不可用。最后真pull17:56:51到b202f09796ede72bb57cbb1d770dafd3987f987c，最后CLI push34abbdf26804307a61fa4d18139c969c1cf9c445。依根Rule8暂用connector仅<100KB小文本，禁binary/大阵进对话；API核main不冒真pull，PAT不进connector。Actions仍真pull/rebase+双README diff发布。18:43已恢复，后续用git。
-18:43终端恢复：默认cwd坏symlink，exec用真实workdir/shell=bash/login=false。新部分检出=/workspace/scratch/visible-larger-recovered-20261114-1843/math-research-public；旧/tmp丢失，已复用原327MB objects和缓存。上层sync_public.py用瞬时MR_PUSH_TOKEN。18:44真pull到572d2d7b…，双README不变；之后回终端git。
+18:43终端恢复：默认cwd坏symlink，exec用真实workdir/shell=bash/login=false。新部分检出=/workspace/scratch/visible-larger-recovered-20261114-1843/math-research-public；旧/tmp丢失，已复用原327MB objects和缓存。上层sync_public.py用瞬时MR_PUSH_TOKEN。恢复后真pull到572d2d7b…，双README不变；之后回终端git。
 
 ## 完成标准：全部仍待真实闭场
 
@@ -33,7 +33,7 @@ R270完整4397局部QP证明已发布；保外部physical/109core仿射响应、
 42 native job132535274009/art14124997721，64948461B/ZIP4b48e8dc236482b5f75bee6bd663a51934ffe23f5eaa7579e6bfc5a4f8567b55。307552行exact1.2206670683664557454e22→1.2562775415316530606e22更坏，同new518=旧42/step0/Pi112；保初δed6a8027…。matrix e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521，result741fb34eab9eb21042f37659637719012bf74213eac9bce69b963ed301c43065。LUinfo0/69149136形成项无尺度丢失/行列max[1,2)不足。完整失败note7f652585…已发布；仅小报告亲读，大阵未本地全审。
 原1372 adapter fde0e039…/consumer30a467e8…/fetch41 32840361…冻结，保原504 J/完整cut/far/H/σ/577restriction；GITHUB_TOKEN仅fetch steps。
 43 run43626121246/source5c6f45fc/job132542216129/art14126695571完成，430132210B/ZIP2fd2f070…；完整结论见2026-11-14-actual-request43-node-gauge-direction-failed.md。system24a51a4e…/driver16fca40e…保869形成J+503原J/全边界/原σ。原1372全部307552 exact：7.09987830368630829e21→3.25806697778557413e21→3.76944193857401563e21，保1，最坏new519=旧43/step11/Pi112。LU0/157.807s/RSS1599696KiB不代准确；64sig longdouble形成、真实dyadic RHS另账。result.gz cf6e00345697ed8bd4a114c2d79f8625e49626d2263e83f42e7dc60e3020013e，bestδ10ed4f19…/限制62939e70…。仅小文本核，未全审大阵，0ODE/J/trial/native；geometry沿R271分析原RK逐级完整变分，不重坏求解。
-44 run43627297724/source d07eeb32…实际只读完成。42七原SHA全吻合，但summary v2到206693B超传输界，保明确failed_stage=summary-transport-size，未取得内部stop/radial；v3改只摘目标字段。stage43-step11-fields.json 26214B/d7d00de3…已取原41四field geometry/guards/stateSHA，不重科学。完整失败note已发表；v1无日志不猜同因。
+44 run43627297724/source d07eeb32…实际只读完成。42七原SHA全吻合，但summary v2到206693B超传输界，保明确failed_stage=summary-transport-size，未取得内部stop/radial；46只request42读者接v3 f80608b3…显式标量，完整选定metadata只artifact；不取41、不重科学。stage43-step11-fields.json 26214B/d7d00de3…已取原41四field geometry/guards/stateSHA，不重科学。完整失败note已发表；v1无日志不猜同因。
 原step十trial组件c3e7f43e…已发表；新G trial也已保存（py10b3689a…/hook6d40cc9c…/接口c69f77ea…），只读原系统和保存G/方向，不重形成；42/43坏δ不派。原十alpha/noJ/guard/严格原σ下降，首接受全state STOP。R272完整误差拆分/冻结零参考RK4/频率平衡坐标已证登记；真实四局部J探针在实现。
 缓存路径与已审后释放记录见actual40/41 note；原artifact全保，勿重科学取缓存。
 
@@ -46,4 +46,4 @@ shared-quintic B规范形/closed assembly/new loader/cover/held已读冻结，�
 R248强C²/相位全t、R241完整空间对/法锥嵌入reach、R238/254/258同场标记链含反射。R251实际四Loewner/operator仍待新场；request16仅解析接口，不重跑fixtures。无六/九jet机器门；显示N32/九相位网格<5MB、真实2305尾节点保。
 旧A幅度.063<.2，RK24/48/三mesh/2157568pairs/GW已封存；43旧commit恢复链和strongR6失败见notes，未全迁raw禁private。R238–272见results.md；R259备用未调度。
 
-规则同步记录：2026-11-14 18:45:27 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 48551f46751909ee2330264c82b5b9e8b67e2bb2。
+规则同步记录：2026-11-14 18:46:31 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 1a016c34950920438d21290ce6accfaabe455871。

@@ -144,3 +144,6 @@ request44只读工作已接独立receipts workflow：v2摘要84623638…保错�
 
 
 [actual44请求42摘要传输失败](notes/2026-11-14-actual-request44-request42-summary-transport-failure.md)已保存：七个原SHA全部吻合，v2目标摘要206693B超界；9528B失败回执没有内部stop/radial，v1无日志不推同因。改v3明确标量白名单，只读原件而不重科学。18:43终端恢复并完成新部分检出和真实pull，后续回终端git。
+
+
+request46接v3 f80608b3…显式目标标量读者，仅原42七件SHA及原producer核验；原stop/末次未修复/内部radial照字段复制，完整选定metadata只artifact，单份小摘要不搬Gram/大树。无新科学，独立于45；44真实field不重复取。
