@@ -204,3 +204,6 @@ M128/N1536短端.99475/264节点prepare真实0，原tol1e−5，BC0/col5.88685e�
 
 ### 2026-11-14T08:26:09+00:00 — historicalbvpprovenance (local; public approval pending)
 旧M48原启动源码准确SHA32b38b24与完整失败输出重存；旧M128−9的启动源未逐字保存，明确现a1e5486和中间510b版本不能冒充该旧运行源码。169节点和真实资源记录可靠，失败不冒几何不存在。
+
+### 2026-11-14T08:26:09+00:00 — sphereturn (local; public approval pending)
+新λ6/5球入口接真实M128短turn到.984，冻结415节点/1242接缝新g；原生M96同g冷重解exit0/169.9s，metric6.6398e−8、κ6.29532、Dproxy3.49295。完整native seed及入口保存，不把裁频warm、背景尺寸或开放前缀当闭面。
