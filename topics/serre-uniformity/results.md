@@ -590,3 +590,5 @@
 - **R687（已证明算法）**：[直接由原R605函数计算两个系数](results/R687-direct-R605-unit-factorial-algorithm.md)。在n<p²范围用阶乘p单位部分先严格抵消唯一p分母，有限域截断直接算AC·(Z(w^p)/Z(w))及其四次通道；不依赖Kronecker比较。保存p101/1013实际数据，供精确例外的独立核定；未证明全p非消失。
 
 - **R689（精确有限结论）**：[真正剩余同余类至2000的完整99素数窗口](results/R689-exact-remaining-prime-window-through-2000.md)。公开Actions四片完整返回，原Cp和Cp−3全非零，因此这99素数的实际v_p(M2)=−1；原样回存全部证书并与R687的p1013直接通道吻合。未证明全p非消失或QC候选排除。
+
+- **R688（已证明结构）**：[实际CM商坏处高度的分量交数公式](results/R688-actual-CM-bad-height-graph-equation.md)。保留完整Picard修正与原刚性化，解Ia=d、a(c0)=0即得真实λ_q=a_v/e；Ω按同一分量标签同步求，不需先算η/ℓ的高度。给分母界与κ_v∈Qκ的准确零值判据；2/3实际模型、度数及Ω值仍待算。
