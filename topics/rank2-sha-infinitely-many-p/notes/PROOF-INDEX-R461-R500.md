@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R498：原低ell完整三厚化首像及ODE转置](../results/R498-original-low-ell-triple-neighborhood-and-ODE-transpose.md)：同预算t^rQ整个3C来源与原低行给全部Jbar首像，高块准确为(t^(s−r),t^max(ell−r,0)(ζ−η)²)；真左行是K_X|3C主部再经全部原列测试。低ell时A−2ηB正则，原代数比值A/(2B)给真实ODE转置，但其长度严格低于首共振，完整forcing及M carry仍在。
+
 - [R497：原degree918正伴随、完整S抽取与六sigma算术网格](../results/R497-original-degree918-positive-companion-and-six-sigma-arithmetic-grid.md)：同一27/1输入的34/918真格以六个正次伴随矩准确抽回整个S34；全部矩阵、unit修正及四伴随共同深度给原JS′条件行。真实五深一unit网格用同一纯Y伴随测试仍有中央赋值5n，保正sigma矩全部log和固定坏集；经保Y三阶T落原h的W深管，完整补域及W作用下测试移动均显示。
 
 - [R496：原新轴偶深核心、完整四态与真实群48](../results/R496-original-new-axis-even-core-and-four-source-group.md)：原V′的288覆盖/576中心给偶核心F及四个独立真实来源，F²=K_A²，旧W与F生成48阶群。短四挠式保完整中心，新增q/z整个W边际为零、z全Y正块非零；原M任意深度及simultaneous CM13/19条件行均保，全部新轴/λ9词域依真实物理矩阵运输。
