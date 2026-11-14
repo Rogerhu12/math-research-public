@@ -579,3 +579,10 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 [正式全文](notes/2026-11-14-actual-request60-left-RMS467-limits-seventeen-query-continuation.md)23804B/b0b17220…已读并核原status关键三trial。alpha1/64固定本轮merit43.92644933127726→43.91793532799495、col.007109591304982551/BC4.4217061600063744e−8。最近1/32全部17网格/node/mid合法且merit降，仅原left467 β²−.006303834965005084/phi0；1/16同处。λ270/512末尾仅舍入级slack修复，不以literal预算盲抬。62独立18源只增left467全角，B5749/36864，C4059outside完整，全部原门保。
 
 三审计prefix76863B/295b2eca…、col73094B/668847a9…、14raw5802B/bac1810d…保存；154domain/994NPY、88凝聚38完整阵、17observer/48sources/父58及245864112B原raw全核，fullfactor/wholecolraw未导出不冒审。新FD7.009663695797188e−10仍zeroanchor仿射，非新Hnative。根按公开Git核父warm4783279B/bc7cadbc…及statusgzip200445B/3f8d0d34…解压1577692B/5b419af7…；实际完整artifact已核且只删重复ZIP。
+
+
+## 2026-11-14 21:26 UTC：request62完整18查询独立接线
+
+[18查询合同](notes/2026-11-14-eighteen-query-condensed-col-observer-interface.md)16104B/eec82250…与四源全部diff已读；domain ec43c049…/warm b9f7d915…/response5885daec…/observer6ad75ce4…冻结，只加实际nearest left467，B5749/36864全支持/C4059完整outside offset、原λ270/512/17trials/所有门不变。核心evidence/condensation/project/choose/observedResidual/query算术8个AST与17全同；27pins/11bash/6inlinePython静态核通过，6154B/3cffe31b…回执保存。request62和工作流绑定真实60 pair，parent17/output18明确，新warm FD仍真正重做。尚无本次科学结果。
+
+59全审已推5f100d24后，仅本地1154已核factor/constants464891392B撤以保后续原件空间；完整selected/trial/delta/ledger/input/小报告全留，partial marker/receipt80bab25b…保，公开artifact完全不动。

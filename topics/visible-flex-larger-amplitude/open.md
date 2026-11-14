@@ -39,6 +39,8 @@
 
 **最新60完整结果/下一62**：[完整实际结论](notes/2026-11-14-actual-request60-left-RMS467-limits-seventeen-query-continuation.md)已全文读及三类byte审计。run43640358327/source da346d172…，alpha1/64接受，固定本轮merit43.92644933127726→43.91793532799495、col.007109591304982551/BC4.4217061600063744e−8/FD7.009663695797188e−10。最近1/32原node/mid/17全角网格均好且merit降，仅left-RMS467 β²−.006303834965005084/phi0拒；1/16同处，远1/8的mid480不据此盲加。62独立18查询仅加467，完整B467..483+p5749/36864行，C4059保全部outside offset；原λ/512/全部门不变，未运行。新父warm bc7cadbc…/原status5b419af7…1577692B（公开gzip200445B）见H。完整154domain994NPY/88condensed38全阵/17observer/48sources/父58、14raw245864112B均审PASS，fullfactor和wholecolraw未导出不冒独审。
 
+62接线已完成：[18查询独立接口](notes/2026-11-14-eighteen-query-condensed-col-observer-interface.md)四源及全部差异已全文读；数学核心8个AST与旧17逐项相等，27pins/11bash/6inlinePython静态通过。工作流先还原actual60原warm/status，运行新18一次完整模型及真正新warm FD；parent17与output18 schema明确分开。只增nearest467，没有新科学门；实际run待触发后回读。
+
 [58最大col行的原保存方向](notes/2026-11-14-actual58-stored-final-direction-at-largest-collocation-row.md)：原row155819 b=-1.4154122374775011，最终完整H的已保存Az=.00026246452261009833，原W=199.07511842631416非零。完整模型本身对此行修正很小，不是漏行/零权重；已给对应精确代数预测式，不本地重算矩阵动作/贡献，也不凭此认定唯一λ原因或盲改模型。
 
 ### 1B. Native：先分清保存矩阵、传播与求解误差

@@ -79,9 +79,9 @@ jobs:
             /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json
             /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-tailzero112/zero-H-T112/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz
-            /topics/visible-flex-larger-amplitude/notes/public-actions-43638348140-1-condensedqp/seventeen-condensed-warm/warm-001.json.gz
-            /topics/visible-flex-larger-amplitude/notes/public-actions-43638348140-1-condensedqp/seventeen-condensed-warm/driver-status.json
-            /topics/visible-flex-larger-amplitude/notes/public-actions-43638348140-1-condensedqp/seventeen-condensed-warm/driver-status.json.gz
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43640358327-1-condensedqp/seventeen-condensed-warm/warm-001.json.gz
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43640358327-1-condensedqp/seventeen-condensed-warm/driver-status.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43640358327-1-condensedqp/seventeen-condensed-warm/driver-status.json.gz
       - name: Bound maintenance and establish independent follow-up output paths
         run: |
           git config gc.auto 0
@@ -129,11 +129,16 @@ jobs:
               'geometry_20261114_seventeen_query_condensed_warm.py',
               'geometry_20261114_seventeen_query_condensed_response.py',
               'geometry_20261114_seventeen_query_collocation_observer_warm.py',
+              'geometry_20261114_eighteen_query_domain_operator.py',
+              'geometry_20261114_eighteen_query_condensed_warm.py',
+              'geometry_20261114_eighteen_query_condensed_response.py',
+              'geometry_20261114_eighteen_query_collocation_observer_warm.py',
+              'exact_20261114_public_resume.py',
               'root_20261114_publish_actions.py',
           }
           pins = request.get('source_sha256')
           if not isinstance(pins, dict) or not required.issubset(pins):
-              raise ValueError('The request must pin the unchanged ancestors, new17 entry and separate read-only observer')
+              raise ValueError('The request must pin the unchanged ancestors, new18 entry and separate read-only observer')
           verified = []
           for name, digest in pins.items():
               if Path(name).name != name or not isinstance(digest, str) or not re.fullmatch(r'[0-9a-f]{64}', digest):
@@ -177,7 +182,11 @@ jobs:
             "$VISIBLE_COMPUTATIONS/geometry_20261114_seventeen_query_domain_operator.py" \
             "$VISIBLE_COMPUTATIONS/geometry_20261114_seventeen_query_condensed_warm.py" \
             "$VISIBLE_COMPUTATIONS/geometry_20261114_seventeen_query_condensed_response.py" \
-            "$VISIBLE_COMPUTATIONS/geometry_20261114_seventeen_query_collocation_observer_warm.py"
+            "$VISIBLE_COMPUTATIONS/geometry_20261114_seventeen_query_collocation_observer_warm.py" \
+            "$VISIBLE_COMPUTATIONS/geometry_20261114_eighteen_query_domain_operator.py" \
+            "$VISIBLE_COMPUTATIONS/geometry_20261114_eighteen_query_condensed_warm.py" \
+            "$VISIBLE_COMPUTATIONS/geometry_20261114_eighteen_query_condensed_response.py" \
+            "$VISIBLE_COMPUTATIONS/geometry_20261114_eighteen_query_collocation_observer_warm.py"
       - name: Restore all78 consumed pinned source files from the public repository
         run: |
           PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE'
@@ -209,29 +218,29 @@ jobs:
           cp "$PREPARED112/preparation112/prepared.json.gz" "$VISIBLE_OUT/preparation112/prepared.json.gz"
           cp "$PREPARED112/boundary112-response/response-check.json" "$VISIBLE_OUT/boundary112-response/response-check.json"
           cp "$PREPARED112/T112-config.json" "$VISIBLE_OUT/T112-config.json"
-      - name: Restore the exact actual58 parent with transparent status compression handling
+      - name: Restore the exact actual60 parent with transparent status compression handling
         run: |
-          python - <<'PYPARENT58'
+          python - <<'PYPARENT60'
           import gzip, hashlib, json, os
           from pathlib import Path
-          base = Path.cwd()/'topics/visible-flex-larger-amplitude/notes/public-actions-43638348140-1-condensedqp/seventeen-condensed-warm'
-          out = Path(os.environ['VISIBLE_OUT'])/'parent58'
+          base = Path.cwd()/'topics/visible-flex-larger-amplitude/notes/public-actions-43640358327-1-condensedqp/seventeen-condensed-warm'
+          out = Path(os.environ['VISIBLE_OUT'])/'parent60'
           out.mkdir(parents=True, exist_ok=True)
           warm = base/'warm-001.json.gz'
           warm_bytes = warm.read_bytes()
           warm_sha = hashlib.sha256(warm_bytes).hexdigest()
-          if warm_sha != '3911b6425a15273e29eb610917aea806f25bd07009de86e416f8e85cc91e7864':
-              raise ValueError('Retain the actual58 compressed warm bytes')
+          if warm_sha != 'bc7cadbc17f17832785ace32b011136fd43c04147d450d557730de0f05d40a23':
+              raise ValueError('Retain the actual60 compressed warm bytes')
           available = [p for p in (base/'driver-status.json', base/'driver-status.json.gz') if p.exists()]
           if not available:
-              raise FileNotFoundError('The actual58 status was not checked out')
+              raise FileNotFoundError('The actual60 status was not checked out')
           records, raw_status = [], None
           for path in available:
               stored = path.read_bytes()
               raw = gzip.decompress(stored) if stored[:2] == b'\x1f\x8b' else stored
               digest = hashlib.sha256(raw).hexdigest()
-              if digest != '64140c9f8c2a175456135dcfd18842c06091da6a93758b854627a22fd12a7763':
-                  raise ValueError('The original actual58 status bytes changed: '+path.name)
+              if digest != '5b419af7340777328184d7699cf1a4de539cd608c889f6e4f81fe549b253a922':
+                  raise ValueError('The original actual60 status bytes changed: '+path.name)
               if raw_status is not None and raw != raw_status:
                   raise ValueError('Published status aliases must preserve identical original bytes')
               raw_status = raw
@@ -247,31 +256,31 @@ jobs:
               or status.get('latest_warm_file') != warm.name
               or status.get('success') is not False
               or status.get('new_coupled_finite_acceptance') is not False):
-              raise ValueError('Use the exact completed unaccepted actual58 pair')
+              raise ValueError('Use the exact completed unaccepted actual60 pair')
           (out/warm.name).write_bytes(warm_bytes)
           (out/'driver-status.json').write_bytes(raw_status)
-          record = dict(parent_run=43638348140, source_commit='ba8bc4f4acd547fd5219826da4f6e35f859bca56',
+          record = dict(parent_run=43640358327, source_commit='da346d172715761d7da23da84c92d97a92b438de',
               warm=dict(file=warm.name, sha256=warm_sha, bytes=len(warm_bytes)),
               status_transport=records, original_JSON_reserialized=False,
               original_scientific_data_changed=False)
           (out/'restore-identity.json').write_text(json.dumps(record, indent=2)+'\n')
           with open(os.environ['GITHUB_ENV'], 'a') as stream:
-              stream.write('VISIBLE_PARENT58='+str(out)+'\n')
-          PYPARENT58
-      - name: Relinearize the complete same17query model at actual58 with read-only col location
+              stream.write('VISIBLE_PARENT60='+str(out)+'\n')
+          PYPARENT60
+      - name: Add only actual60 nearest left-RMS467 to the complete18query model
         if: matrix.lane == 'condensedqp'
         timeout-minutes: 35
         run: |
-          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_seventeen_query_collocation_observer_warm.py" \
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_eighteen_query_collocation_observer_warm.py" \
             --accepted "$VISIBLE_ACCEPTED" \
             --prepared "$VISIBLE_OUT/preparation112/prepared.json.gz" \
             --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
             --tail-config "$VISIBLE_OUT/T112-config.json" \
-            --resume "$VISIBLE_PARENT58/warm-001.json.gz" \
-            --expected-resume-sha 3911b6425a15273e29eb610917aea806f25bd07009de86e416f8e85cc91e7864 \
-            --parent-status "$VISIBLE_PARENT58/driver-status.json" \
-            --expected-parent-status-sha 64140c9f8c2a175456135dcfd18842c06091da6a93758b854627a22fd12a7763 \
-            --out "$VISIBLE_OUT/seventeen-condensed-warm" \
+            --resume "$VISIBLE_PARENT60/warm-001.json.gz" \
+            --expected-resume-sha bc7cadbc17f17832785ace32b011136fd43c04147d450d557730de0f05d40a23 \
+            --parent-status "$VISIBLE_PARENT60/driver-status.json" \
+            --expected-parent-status-sha 5b419af7340777328184d7699cf1a4de539cd608c889f6e4f81fe549b253a922 \
+            --out "$VISIBLE_OUT/eighteen-condensed-warm" \
             --iterations 1 --damping 270 --lsmr-iterations 200 \
             --projection-sweeps 200 --line-search-steps 17 \
             --budget-seconds 1200 --angles 4096 --jac-workers 2 \
@@ -281,9 +290,9 @@ jobs:
           python - <<'PYWARM'
           import hashlib, json, os
           from pathlib import Path
-          directory = Path(os.environ['VISIBLE_OUT'])/'seventeen-condensed-warm'
+          directory = Path(os.environ['VISIBLE_OUT'])/'eighteen-condensed-warm'
           status = json.loads((directory/'driver-status.json').read_text())
-          if status.get('schema') != 'exact-constraint-seventeen-query-condensed-complete-H-warm-v1':
+          if status.get('schema') != 'exact-constraint-eighteen-query-condensed-complete-H-warm-v1':
               raise ValueError('Keep the actual independent condensed warm producer schema')
           if not status.get('optimization_progress') or status.get('accepted_warm_steps') != 1:
               raise ValueError('One actual decreased complete original warm is required')
@@ -300,7 +309,7 @@ jobs:
         if: matrix.lane == 'condensedqp'
         timeout-minutes: 25
         run: |
-          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_seventeen_query_condensed_response.py" \
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_eighteen_query_condensed_response.py" \
             --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_CONDENSED_WARM" \
             --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
             --tail-config "$VISIBLE_OUT/T112-config.json" \
