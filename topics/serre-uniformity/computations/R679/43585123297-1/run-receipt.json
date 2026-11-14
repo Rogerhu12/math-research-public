@@ -1,0 +1,176 @@
+{
+  "result": "R679",
+  "disk_id": "SS_j9_20",
+  "complete": true,
+  "exit_code": 0,
+  "error": null,
+  "stages": [
+    {
+      "stage": "resume_original_moved_stages",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_recover_R470_moved_j9_ss47.py",
+        "--script-dir",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts",
+        "--work-dir",
+        "/home/runner/work/_temp/serre-p41-nonelliptic/R679/work/f2",
+        "--output",
+        "/home/runner/work/_temp/serre-p41-nonelliptic/R679/output",
+        "--disk-id",
+        "SS_j9_20",
+        "--result-id",
+        "R679",
+        "--budget-minutes",
+        "320"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "F2_files": [
+    {
+      "file": "R470_recovery_checkpoint47.json",
+      "bytes": 22534,
+      "sha256": "1c4e156349064b9ae0aab36aa47072fa3e566a69a9d0141efe6ae050b5453055"
+    },
+    {
+      "file": "SS_j9_20-moved-principal-Norm-independent-audit.json",
+      "bytes": 10782,
+      "sha256": "b7c45f119d88ca04a4fe7747952aa6290da9305c950651d5e3c924832db7a91b"
+    },
+    {
+      "file": "SS_j9_20-principal-F2-independent-audit.json",
+      "bytes": 11794,
+      "sha256": "2a3d291571148d3d9bd65df0fb3b1691267382e5e3486a86add374b919a0290e"
+    },
+    {
+      "file": "SS_j9_20_actual_F2_first_variable_norm47.json.gz",
+      "bytes": 281508,
+      "sha256": "89d506d181ca8daed9dcd0bcd5a8ac6a63b80aee5f9543f7f744bfad1c5103c7"
+    },
+    {
+      "file": "SS_j9_20_actual_F2_first_variable_norm47_finite_checkpoint.json.gz",
+      "bytes": 91413,
+      "sha256": "799ed28efdb2dbc5d3334c4ec1720440554e7aabe7117e0d6d063a49ef42aa8c"
+    },
+    {
+      "file": "SS_j9_20_actual_F2_first_variable_norm47_full106_checkpoint.json.gz",
+      "bytes": 189749,
+      "sha256": "6376890e4313f9c583e5ede95f16274b7a9fd4f02f537290621a6046ee9632ec"
+    },
+    {
+      "file": "SS_j9_20_actual_T2_principal_norm47.json.gz",
+      "bytes": 23995,
+      "sha256": "a166ba51db34fb41db20cf9f0184f8dd629734b27bc8e2e82369dda7fa86f500"
+    },
+    {
+      "file": "SS_j9_20_actual_T2_support47.json.gz",
+      "bytes": 34819,
+      "sha256": "037a274a4f53bb963f31faf8fa83162f46897b60a91a0193ab85932bb3834c01"
+    },
+    {
+      "file": "SS_j9_20_actual_canonical_F2_height47.json.gz",
+      "bytes": 55652,
+      "sha256": "f0007ffbee2ec7d43ba900eab8a5ff2e9cd1bfad64e474f826d54817413683e8"
+    },
+    {
+      "file": "SS_j9_20_actual_canonical_F2_polynomial47.json.gz",
+      "bytes": 32939,
+      "sha256": "d33bdd02771110d56fb6fa71ec223ede37156ca0ad46a1c0e49ae4cf26c38887"
+    },
+    {
+      "file": "SS_j9_20_actual_second_kind_integrals47.json.gz",
+      "bytes": 596465,
+      "sha256": "c3d7d5120032436f55c88fe14f3a0981e89536737735e1ceee873f3010866781"
+    },
+    {
+      "file": "SS_j9_20_principal_expression47.json.gz",
+      "bytes": 38861,
+      "sha256": "3ae401ab3d71aa3d8f3053cb158ee60fa3463714a6975410197e6de83d297d4c"
+    },
+    {
+      "file": "actual_F2_center.log",
+      "bytes": 757,
+      "sha256": "1e8f904b2913a6039830738ca83720b271dd2592777918553323f45e6e9b320b"
+    },
+    {
+      "file": "actual_F2_disk.log",
+      "bytes": 538,
+      "sha256": "eb7d72d5801358a08c0437559a43649239633d1842d834548003539254073c06"
+    },
+    {
+      "file": "actual_full_F2_Norm.log",
+      "bytes": 1381,
+      "sha256": "c558e47996d9ba09e67dd4a57f19772190ec421c054020b26d60c0db2c4a10a3"
+    },
+    {
+      "file": "actual_moved_chain.log",
+      "bytes": 37522,
+      "sha256": "68abf0e14b2aef76523c39bbf5c4220ddb90995bcf0155bd743c46baf5ac5dfe"
+    },
+    {
+      "file": "actual_terminal_and_nu.log",
+      "bytes": 471,
+      "sha256": "4ab2bbc395339417fd5fbb21908e531840d4fbf5e6538afc52c959b7b519a0f2"
+    },
+    {
+      "file": "actual_three_T2_branches.log",
+      "bytes": 380,
+      "sha256": "494799a1e676e3e06a1ef822464c135d1518c76fafdd4ec1589eeba8052409cd"
+    },
+    {
+      "file": "actual_three_branch_Norm.log",
+      "bytes": 269,
+      "sha256": "339b94f04b9728065d2b0a7e2231963d8387886fa9d7ee714dcb65c7cf8395b2"
+    },
+    {
+      "file": "chain/SS_j9_20_Abel47.json.gz",
+      "bytes": 442920,
+      "sha256": "0437f92addb1dfcb1359217137dce93ea2024b061ba63d2606b3ff81d782e30f"
+    },
+    {
+      "file": "chain/SS_j9_20_multiply47.json.gz",
+      "bytes": 376551,
+      "sha256": "88cfd7dca7e6ddaa36776ad25b3deabae427ac816c0e7119bb91b331ec3d3336"
+    },
+    {
+      "file": "complete_actual_F2_certificate.log",
+      "bytes": 148,
+      "sha256": "99cd9d5fb0fffc9f4c9c8503e9032cd000d9181c6396173fa4a219d718945144"
+    },
+    {
+      "file": "complete_moved_principal_certificate.log",
+      "bytes": 125,
+      "sha256": "99f926c7b142e1ad23acc1ea743835fae3336638d3c3c6ca6b1af1290614d4a0"
+    },
+    {
+      "file": "integer_principal_SLP.log",
+      "bytes": 177,
+      "sha256": "d5bb9ff5e4b70cb5f93406968d8cc37efd839938b82ac90d990623fefbe1184d"
+    },
+    {
+      "file": "p41_SS_j9_20_principal_transports47.tar.gz",
+      "bytes": 1783907,
+      "sha256": "a8e1ad26551afdacc8edf7a602b3d1b5bc78a73c76875cdb9af008d001d985bc"
+    },
+    {
+      "file": "p41_j9_remaining16_moved_based_points_block0447.json.gz",
+      "bytes": 2485424,
+      "sha256": "79736fcb5f2281fca66338d461243d45576a806015df3d51af7b712efe478bc6"
+    },
+    {
+      "file": "p41_j9_remaining16_moving_independent_audit_block0447.json",
+      "bytes": 4968,
+      "sha256": "2f01139ed6cd7c7279f31b7534b824c4594638daf70a8cc6e13afeab3261eed6"
+    }
+  ],
+  "F3_files": [],
+  "source_commit": "f70377b91012fae2d5d6773d6cadbcf5a1c2e04f",
+  "execution_environment": "public-repository-github-actions",
+  "original_chain_repeated": false,
+  "prior_run": 43580991103,
+  "workflow_run_id": "43585123297",
+  "finished_at_utc": "2026-11-14T10:29:35.801082+00:00",
+  "F2_residual_roots": [],
+  "F2_entire_disk_excluded": true
+}
