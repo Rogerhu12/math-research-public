@@ -649,3 +649,8 @@ run43605912092/job132480432221实际success，artifact14117693541/ZIP385bfef9…
 ### 2026-11-14 R265完整角域不等式模型及dual后验
 
 完整证明直接登记results/R265，root全文读；SHA4ad89a54…，19139B。严格可行0/强凸给唯一解，stationarity Hz+g−Bᵀμ=0与正确下降负乘子项、完整dual后验和显式可行缩放证明齐备；局部Hermite全链B/Bᵀ、原旋转jet欧氏转置和尺度明确。未设置θ/算法/科学门，也不将五处N2048当全连续域。request24实际run43606770409/sourceae319f75/job132483017505已启动；双README在每次实际rebase后均无变，非快进已即时重推成功。
+
+
+### 2026-11-14 request25：完整候选进入原native solve/J/fresh audit
+
+root全文读独立launcher afa2588d…、hook22fa88aa…及CLI；原请求loop对照确认唯一initial插入可逐字删回，first call/last/predictor身份严格，全部17/19/21/22/23输入和9546负零恢复完整。只发一次原TailClient.solve(H,jacobian=True,audit=True)，原6144MB、原数值config和全部求解/审计/阈值不改。新nativeseed三名单一致，精确十件23必要输入窄checkout，无initializer/zero/probe重算。真实结果尚待Actions，完整响应后J/audit失败也不冒求解完成。
