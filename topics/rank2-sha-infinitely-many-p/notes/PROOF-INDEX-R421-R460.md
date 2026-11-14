@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R457：原五sigma完整伴随核心与原输入深度运输](../results/R457-original-five-sigma-full-companion-core-and-depth-transport.md)：真实五输入正交格det114114，五轴绝对核心及四伴随全部保留；Z核心准确移动每个原输入并改变Y。原六sigma归一后四伴随深域返回原JS，同一五输入全深小域每n值v5n，补域仍保，不混同带权Theta展开。
+
 - [R458：原两输入完整补域与参考相消支非齐次差](../results/R458-original-two-input-boundary-and-nonhomogeneous-reference-carries.md)：六条固定来源、真实Z/c单单位支、两近相消支与双单位主块全对齐；两参考真实环带差消掉未知导数，留下非零r dlog(κ/p)(1−λ)。原c深支首阶一、S零时双单位主块亦首阶一，完整补偿和无限Y深尾均保，尚须真混Y关系接回S。
 
 - [R456：完整来源饱和与原首核的强迫角因子](../results/R456-actual-cubic-contact-and-two-carry-first-lift-obstruction.md)：次数二来源饱和加强到fD<p；原三块最低行严格迫每个真实首核被t整除。所附单位余因子三次局部提升引理代数正确，但在当前原格无实例，已纠正此前非空排除表述；下一步须处理真实t^r因子及其逐角层电荷。
