@@ -1,11 +1,11 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-visible-exact-astra-ac0d，2026-11-14 08:11 UTC。主目标未完成；持续执行，不因时长、阶段或等待收尾。
+visible-exact-astra-ac0d，2026-11-14 08:12 UTC。主目标未完成；持续执行，不因时长、阶段或等待收尾。
 
 ## 正式迁移、规则与同步
 
 唯一工作仓库现在是 Rogerhu12/math-research-public，路径 topics/visible-flex-exact-nearby。新根与题README均全文已读；根blob 1d05db9ebc859a5fd9a8ef773ab05ef1e9de0598，题blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
-最后真实pull --rebase：2026-11-14 08:12 UTC，SHA 4e90c21b71d2a67c977ef7ac7c4307cc5d37e85b；根/题README blobs未变，差异检查完成。
+最后真实pull --rebase：2026-11-14 08:12 UTC，SHA 931c4f60ac19d1e2e9606fc290111be803b1bad5；根/题README blobs未变，差异检查完成。
 每次push前真pull；至少每小时pull；每次检查两README，只读变更并立即执行。每结论独立commit/push；非FF立刻pull --rebase再推成功，不force。自身公开repo Actions已允许；旧math-research-ci/ci-queue停用，不再派发。PAT只瞬时CLI/env，不入文件/提交；公开输出无秘密。
 root独占Git/H/open/results/log；代理只写自有新文件。H<10KB、md<100KB、open约30KB、单件≤5MB/>1MB压缩；大可重建数组留scratch；不freeze、独审、冗余核验；不动根LOG。只提交明确路径。
 工作路径 /workspace/scratch/ac0d699811ad/math-research-public。旧math-research只供仍运行的径向进程读原源/依赖，不再编辑/提交/pop。迁移已逐blob核并恢复全部未推结果，详notes/2026-11-14-handoff-before-public-migration.md；κ=M²/B旧stash修订已随69推。
@@ -45,4 +45,5 @@ phase响应误差L2(E0)→C0≤1.273240无q^-1；浮点qν Ω′≈.0202241584=d
 
 
 
-最新已单推实际结论：results/R133-supplement-exact-waist-grid-and-complete-canonical-alignment.md。
+
+最新已单推实际结论：notes/2026-11-14-R133-retired-cap96-shared-memory-relocation.json。

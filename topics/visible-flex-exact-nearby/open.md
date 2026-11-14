@@ -189,3 +189,6 @@ tail_connector：把实际非径向内部正型接全部外部响应、Γ*参数
 
 
 [实际完整记录](results/R133-supplement-exact-waist-grid-and-complete-canonical-alignment.md)：完整512准确角点、33偶腰系数/mean、全部标架列和原世界平移实际normal0/4.599s，8门：真实全圆周腰对齐bF0≤径向腰eF+.000012332337、bQ0≤eQ+.000006643245。保真正四重wrap与完整角二阶operator界；所需完整径向终点仍另付，未将部分积分或浮点腰当真曲面。
+
+
+[实际完整记录](notes/2026-11-14-R133-retired-cap96-shared-memory-relocation.json)：实际迁移本课题已无可见消费者的旧cap96 181件共449470869字节至scratch磁盘，原路径保symlink，全部SHA及字节数先后核同，释放同等共享内存。活动cap128提案不动；signed实际−9和最新cap片暂停前缀保留，沿原源继续，未动其它任务或唯一native。
