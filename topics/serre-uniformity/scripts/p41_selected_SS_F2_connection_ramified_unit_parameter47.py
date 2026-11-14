@@ -317,13 +317,21 @@ def main():
     excluded_calibration_rows = [i for i in I1 + I2 if i not in good]
     WT = [r.from_json([x]) for x in T2support["actual_T2_targets_fc_normalized"]]
     assert len(WT)==3 and all(r.equal(r.mm(wt,a.fc),r.column([[1,0]])) for wt in WT)
-    KT = kernel(cat(*WT, u), 4)
+    import p41_finite_flat_divisor_constraints47 as flat_helper
+    source_hashes[str(Path(flat_helper.__file__))] = sha(flat_helper.__file__)
+    # Distinct actual poles can share a residue point. Preserve the full
+    # degree-four flat divisor by integral jet divided differences; do not
+    # delete a repeated residual row or divide by 47.
+    flat_rows, flat_certificate = flat_helper.finite_flat_constraints(a, frames, cat(*WT, u))
+    assert flat_certificate['unit_rank_mod47'] == 4
+    KT = kernel(flat_rows, 4)
     for attempt in range(100):
         x = r.mm(KT, r.column([[rng.randrange(47), rng.randrange(47)] for _ in range(69)]))
         qT = r.add(x, r.mm(M["A1"], r.conjugate(x)))
         assert r.iszero(r.mm(cat(*WT, u), qT))
+        assert r.iszero(r.mm(flat_rows, qT))
         qsource = r.mm(M["W"], qT)
-        if np.all(r.units(r.rows(qsource, I1 + I2))):
+        if np.all(r.units(r.rows(qsource, I1 + I2))) and np.all(r.units(r.mm(Pcenter, qT))):
             break
     else:
         raise AssertionError("No actual T2 denominator")
@@ -341,6 +349,8 @@ def main():
         "numerator_quadratic_coefficients_mod47cubed": r.to_json(sT),
         "denominator_linear_coefficients_mod47four": r.to_json(qT),
         "actual_T2_target_pole_constraints": True,
+        "actual_finite_flat_degree4_pole_constraints": flat_certificate,
+        "trace_denominator_unit_at_actual_source": True,
         "branch_good_rows": branch_counts,
         "common_good_rows": len(good),
         "calibration_source_rows_not_used_for_trace_interpolation_0based": excluded_calibration_rows,

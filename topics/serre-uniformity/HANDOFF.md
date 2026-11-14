@@ -4,8 +4,8 @@
 
 证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，未达到 README 完成标准。** 固定p、条件结论、数值验证都不算完成。会话 serre-public-resume-20261114；日志 Asia/Taipei。
 
-已读规则提交：22723f90dfff79053e2a13f507a2a0695992ec25
-最近实际 pull：2026-11-14 18:22:24 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
+已读规则提交：919db955ab543017f1a99b699a708449c066b9dd
+最近实际 pull：2026-11-14 18:24:11 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
 
 仅在 Rogerhu12/math-research-public 工作，长计算用本仓库 Actions；旧“停用公开runner/转本地”作废。每条结论终端commit/push main已授权；推前pull，非快进立即pull --rebase循环，不force。令牌仅CLI临时环境。根代理独占tracked/git；辅助在仓库外agent-global/、agent-cartier/、agent-o6/。单Markdown<100KB，HANDOFF<10KB，open/README<30KB，数据>1MBgzip，单文件<5MB。日志只追加本题log，≤5内容行；改共享文件须在log说明。
 
@@ -15,11 +15,11 @@
 
 - **R620/R621已整盘排除（49/105）**：.github/workflows/serre-p41-prefix-recovery.yml 已推，公开Actions run 43579710818，从已保存189/182位续原304位链。源码 p41_public_actions_recovery.py / p41_resume_ramified_local47.py，请求 notes/public-p41-recovery-request.json。完整结果在computations/，各自同分量F2/F3无共同根。R620准备已匹配290份原文件SHA。
 - **R685/R687/R689**：两个精确算法及公开run43580270602四片原产物完整保全；41..2000、p≡2/5mod9全部99素数Cp·C_(p−3)非零，实际vM2=−1。有限窗口不证明全p单位。
-- **公开恢复wave02运行中（43580991103）**：serre-p41-remaining-recovery.yml，55作业/最多4并发；54个普通缺失盘求完整F2及必要F3，R655另续两个CM4粗盘原链，完整高度仍待R656。请求public-p41-remaining-recovery-request.json，已完成receipt自动跳过。已返回完整证书逐盘登记于执行表；R659入口误传R435给R379引擎，前五阶段保全；nonelliptic-resume.yml已配置按指定result从原artifact续算，手动dispatch被PAT权限403拒绝；已加显式activation的push触发，R659/R666尾段run43582927030已完成全F2/F3；现按已存在原artifact继续12盘，完成后逐盘登记。
+- **公开恢复wave02运行中（43580991103）**：serre-p41-remaining-recovery.yml，55作业/最多4并发；54个普通缺失盘求完整F2及必要F3，R655另续两个CM4粗盘原链，完整高度仍待R656。请求public-p41-remaining-recovery-request.json，已完成receipt自动跳过。已返回完整证书逐盘登记于执行表；R659入口误传R435给R379引擎，前五阶段保全；nonelliptic-resume.yml已配置按指定result从原artifact续算，手动dispatch被PAT权限403拒绝；已加显式activation的push触发，R659/R666尾段run43582927030已完成全F2/F3；第二批12盘11成功、R671停于T2分母；第三批R673–681九个原artifact均已存在，已按显式activation接续，待逐盘登记。
 - **R688/R690/R694已证**：完整修正Ia=d给λ=a_v/e；2处全零。3处T=X(6p)/Q8中心加椭圆尾、边长1/4，唯一CM项链尾零，c0,c1在零轨道，故ω0=0；R696更以同一实际Φ证明所有真候选λ2=λ3=0，即Ω_actual={0}；一般局部点不全零。p处Λ jet/赋值/全尾仍缺。
 - **R686已证全塔**：真实Robert逐层Norm/整格/原q导数给A_Mn=RΓ/π^min(d,42n+1)；原m<43则全高层永久稳定。实际d/m/C/J/b仍未知。
 - **R692/R693/R697已证**：实际τ导子6、判别式−108及准确Hermite theta平方；同一σ⁶六截面给A_k∈Z[1/6]，Cp=−3A_p²、C_(p−3)=−3A_(p−3)² modp。无除p Bell递推/原六同源初值保全，全p非零仍缺。
-- **分歧尾段已返回**：run43583860809的R625/R636均成功，完整原链/Norm/中心复用；R636真实支撑rank7及820交叉恒等式换分母已封存。R625二重根28无模47²提升已封存。R641原链/Norm完成，T2支撑与固定u残点碰撞，待保原精度的有限平坦约束接续。
+- **分歧尾段已返回**：run43583860809的R625/R636均成功，完整原链/Norm/中心复用；R636真实支撑rank7及820交叉恒等式换分母已封存。R625二重根28无模47²提升已封存。R641原链/Norm完成，T2支撑与u残点碰撞；接入R372完整四位有限平坦约束，只续缺失中心/多项式，已提交公开runner。
 - 接着：cartier推进实际Cp·C_(p−3)结构/例外及精确有限窗口；global求真实高度jet/有限目标；O6求原普通单位Norm/首矩C/J。新结果立即登记，主目标未闭合继续。
 
 ## O5：固定 p41 的真实高度与全部129盘

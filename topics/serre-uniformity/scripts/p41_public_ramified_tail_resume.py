@@ -26,6 +26,36 @@ def run(item, base, budget):
     ra = D / 'p41_ramified_j_regular_height_derivative47_independent.json'
     stages, error, code = [], None, 1
     started = time.monotonic()
+
+    def execute(label, command):
+        remaining = budget * 60 - (time.monotonic() - started)
+        if remaining <= 0:
+            raise TimeoutError('Preserved-tail time budget exhausted before ' + label)
+        with (out / (label + '.log')).open('w') as log:
+            process = subprocess.Popen(command, stdout=log, stderr=subprocess.STDOUT, start_new_session=True)
+            try:
+                status = process.wait(timeout=remaining)
+            except subprocess.TimeoutExpired:
+                os.killpg(process.pid, signal.SIGTERM)
+                try:
+                    process.wait(timeout=10)
+                except subprocess.TimeoutExpired:
+                    os.killpg(process.pid, signal.SIGKILL)
+                    process.wait()
+                raise TimeoutError('Preserved-tail time budget exhausted during ' + label)
+        stages.append({'stage': label, 'command': command, 'exit_code': status})
+        if status:
+            raise subprocess.CalledProcessError(status, command)
+
+    def f3_command():
+        return [sys.executable, '-u', str(S / 'p41_rebuild_ramified_SS_F3_unit_parameter47.py'),
+            '--script-dir', str(S), '--source-dir', str(S), '--f2-dir', str(f2),
+            '--recovery-dir', str(f2 / 'recovery-inputs'), '--based-points', str(based),
+            '--canonical', str(D / 'p41_canonical_SS_robust47_raw.json.gz'),
+            '--derivative', str(derivative), '--ramified-j-certificate', str(rc),
+            '--ramified-j-audit', str(ra), '--work-dir', str(f3),
+            '--disk-id', disk, '--result-id', ident]
+
     try:
         if item['missing_stage'] == 'F2_multiple_root_audit':
             command = [sys.executable, '-u', str(S / 'verify_selected_SS_F2_ramified_unit_parameter47.py'),
@@ -40,30 +70,24 @@ def run(item, base, budget):
                 '--transport-dir', str(f2 / 'SS-principal-transports' / disk),
                 '--based-points', str(based), '--disk-id', disk, '--result-id', ident,
                 '--output', str(f2 / (disk + '-principal-F2-independent-audit.json'))]
+        elif item['missing_stage'] == 'F2_finite_flat_poles':
+            command = [sys.executable, '-u', str(S / 'p41_rebuild_ramified_SS_F2_unit_parameter47.py'),
+                '--script-dir', str(S), '--work-dir', str(f2), '--disk-id', disk,
+                '--result-id', ident, '--canonical', str(D / 'p41_canonical_SS_robust47_raw.json.gz'),
+                '--canonical-certificate', str(D / 'p41_canonical_SS_robust47_certificate.json.gz'),
+                '--derivative', str(derivative), '--ramified-j-certificate', str(rc),
+                '--ramified-j-audit', str(ra), '--based-points', str(based),
+                '--rebuild-chain', '--resume-stages']
         else:
             assert item['missing_stage'] == 'F3_auxiliary_denominator'
-            command = [sys.executable, '-u', str(S / 'p41_rebuild_ramified_SS_F3_unit_parameter47.py'),
-                '--script-dir', str(S), '--source-dir', str(S), '--f2-dir', str(f2),
-                '--recovery-dir', str(f2 / 'recovery-inputs'), '--based-points', str(based),
-                '--canonical', str(D / 'p41_canonical_SS_robust47_raw.json.gz'),
-                '--derivative', str(derivative), '--ramified-j-certificate', str(rc),
-                '--ramified-j-audit', str(ra), '--work-dir', str(f3),
-                '--disk-id', disk, '--result-id', ident]
-        with (out / 'actual_missing_stages.log').open('w') as log:
-            process = subprocess.Popen(command, stdout=log, stderr=subprocess.STDOUT, start_new_session=True)
-            try:
-                code = process.wait(timeout=budget * 60)
-            except subprocess.TimeoutExpired:
-                os.killpg(process.pid, signal.SIGTERM)
-                try:
-                    process.wait(timeout=10)
-                except subprocess.TimeoutExpired:
-                    os.killpg(process.pid, signal.SIGKILL)
-                    process.wait()
-                raise TimeoutError('Preserved-tail time budget exhausted')
-        stages.append({'stage': item['missing_stage'], 'command': command, 'exit_code': code})
-        if code:
-            raise subprocess.CalledProcessError(code, command)
+            command = f3_command()
+        execute(item['missing_stage'], command)
+        if item['missing_stage'] == 'F2_finite_flat_poles':
+            polynomial = read(f2 / (disk + '_actual_canonical_F2_polynomial47.json.gz'))
+            audit = read(f2 / (disk + '-principal-F2-independent-audit.json'))
+            if polynomial['residual_QC_roots'] and not audit.get('entire_disk_excluded_by_F2_after_exact_lifting', False):
+                execute('actual_same_component_F3', f3_command())
+        code = 0
     except Exception as exc:
         code = 1
         error = type(exc).__name__ + ': ' + str(exc)
